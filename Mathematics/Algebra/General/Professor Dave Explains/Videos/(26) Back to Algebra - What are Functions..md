@@ -1,0 +1,41 @@
+[Video](https://www.youtube.com/watch?v=LmudKHXSMp4)
+
+- ![[Screenshot 2024-01-24 at 8.48.01 PM.png]]
+	- Learned Algebra I, Geometry, then Algebra II in high school
+	- Back to equations with variables!
+	- A [[function]] is something that relates two quantities , an input value, and an output value.
+	- The function computes the sale price
+		- f(x) = 0.7x
+			- "f of x"
+				- f is the function
+				- "of x" 
+					- Means the function will operate on any x value you plug in.
+	- Every input will have one unique output
+	- Functions have to pass the [[vertical line test]]
+		- A vertical line may only intersect the function at one point at any given time
+		- any x $\to$ one y
+- ![[Screenshot 2024-01-24 at 8.52.14 PM.png]]
+	- If a vertical line intersects at two or more spots (it is not a function)
+		- We can however have the same output for multiple inputs
+		- There is no [[horizontal line test]] necessary
+	- [[Domain (Math)|domain]]
+		- the possible x values that can be plugged in
+	- [[Range]]
+		- the y values that the function can possess
+	- If you had the function $f(x) = \frac{1}{x-2}$, the function would be undefined at x=2 meaning x=2 is not part of the domain
+- ![[Screenshot 2024-01-24 at 8.57.22 PM.png]]
+	- [[Domain (Math)|domain]]
+		- Very frequently all real numbers
+	- [[Range]]
+		- Tends to vary quite a bit
+	- The [[zeroes]] of a function are the inputs that will yield an output value of zero
+	- Characteristics of Functions
+		- The zeroes of a function are the [[x-intercept|x-intercepts]] on the graph of that function
+	- Different types of functions $\to$ different numbers of zeroes
+	- Evaluating Functions
+		- $f(x) = 3x^2 - 5x + 2$  
+	- Let's check comprehension
+		- Fill in the blanks!
+			- The set of allowed input values for a function is called the [[Domain (Math)|domain]]
+			- The set of possible output values for a function is called the [[range]] 
+			- For every unique input, a function will have at most one output

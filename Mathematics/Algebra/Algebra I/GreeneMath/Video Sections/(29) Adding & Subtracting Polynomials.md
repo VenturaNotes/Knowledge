@@ -1,0 +1,51 @@
+[11:38:21](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=41901s) 
+
+- A term is a number, variable, or the product of a number and one or more variables
+- In an algebraic expression, terms are separated by "+" and "-" signs
+	- ![[Screenshot 2023-02-19 at 3.39.38 AM.png|]]
+		- "+" and "-" signs represent barriers
+- The number that is multiplying the variable is called a coefficient:
+	- ![[Screenshot 2023-02-19 at 3.42.30 AM.png|200]]
+- When we say "like terms" we mean terms with the same variable(s) raised to the same power(s)
+	- $^*$The coefficients can be different
+- Examples
+	- $5x^2, -7x^2$ 
+		- Like Terms
+	- $3x^4y^2, 9x^4y^2$
+		- Like terms
+	- $3x^4y^2, 9x^3y^2$
+		- Not like terms because "x" is raised to a different power
+	- $-2z, 4x$ 
+		- Not like terms because different variables
+- A [[polynomial]] in x (or y, z,... etc) is a single term or the sum of a finite amount of terms $ax^n$ where:
+	- ![[Screenshot 2023-02-19 at 3.45.58 AM.png]]
+		- a is any real number
+		- n is any whole number
+- A polynomial with a single term is called a [[monomial]]
+	- $3x^2$
+- $3x^{-2}$ is not a polynomial because the exponent is negative (not a whole number)
+- A polynomial with two terms is called a [[binomial]]
+	- $5x^4 - 7x^2$
+- $5x^{-4} - 7x^2$ is not a polynomial since the exponent is negative
+	- Above can be written as $\frac {5}{x^4} - 7x^2$ which is known as a [[rational expression]]
+- Polynomial
+	- $-x^5y^3 + 3x^2y^1 - 4x^0y^0$ 
+- Not a Polynomial
+	- $-x^5y^{-3} + 3x^2y^1 - 4$
+		- Negative exponent
+- The degree of a term is the sum of the exponents on all variables of the term
+	- ![[Screenshot 2023-02-19 at 3.53.56 AM.png]]
+		- Finding degree of the terms
+- The degree of a polynomial is the largest degree of any non-zero term of the polynomial
+	- ![[Screenshot 2023-02-19 at 3.56.16 AM.png]]
+		- Finding the degree of a polynomial
+- When we write polynomials, it is custom to write them in standard form. This means the term with the highest degree is first, followed by the next highest and so on...
+	- ![[Screenshot 2023-02-19 at 3.58.24 AM.png]]
+- To add polynomials we simply combine [[like terms]]
+	- ![[Screenshot 2023-02-19 at 4.05.10 AM.png]]
+- To subtract polynomials change the "-" sign to "+" and change the sign of each term in the polynomial that is being subtracted away
+	- ![[Screenshot 2023-02-19 at 4.07.37 AM.png|300]]
+- Whenever we see a negative outside of parentheses
+	- ![[Screenshot 2023-02-19 at 4.08.09 AM.png]]
+- Examples
+	- ![[Screenshot 2023-02-19 at 4.10.49 AM.png]]

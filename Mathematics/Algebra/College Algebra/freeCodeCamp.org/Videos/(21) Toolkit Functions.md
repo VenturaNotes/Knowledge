@@ -1,0 +1,37 @@
+[3:00:53](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=10853s)
+
+- ![[Screenshot 2023-02-21 at 7.15.09 PM.png]]
+	- [[Graphs of common functions]]
+	- Graphs of commonly used functions
+		- $y=x$
+			- [[Line]]
+		- $y=x^2$
+			- [[Parabola]]
+			- EVen function
+				- It has mirror symmetry across the y-axis
+			- When you square a positive number, you will get the same number when squaring its opposite
+		- $y=x^3$
+			- [[Cubic]]
+			- Odd function it has 180$\degree$ rotational symmetry around the origin
+				- If you turn the paper upside down, you'll get the same shape
+				- The opposite of the positive number will just have the negative number when cubed
+		- $y=\sqrt{x}$
+			- [[Square root function]]
+			- Domain is $x \ge 0$
+			- Can't take the square root of a negative number
+		- $y=|x|$
+			- [[Absolute Value Function]]
+			- Even or mirror symmetry
+		- $y=2^x$
+			- [[Exponential Function]]
+				- Represents exponential growth
+			- Bigger base makes the number rise a little more steeply
+		- $y=\frac1x$
+			- [[Hyperbola]]
+			- Not defined when x=0
+			- Odd function
+				- Has 180 degree symmetry
+				- If you turn the page upside down, it'll look exactly the same
+		- $y=\frac{1}{x^2}$
+			- Even function
+				- Has perfect mirror symmetry across the y-axis

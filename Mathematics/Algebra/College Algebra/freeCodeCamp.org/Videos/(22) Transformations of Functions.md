@@ -1,0 +1,55 @@
+[3:08:00](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=11280s)
+
+- ![[Screenshot 2023-02-21 at 7.16.28 PM.png]]
+	- By changing the equation of a function, the graph of the function changes or transforms in predicable ways.
+	- Rules and examples of transformations of functions
+	- Typical functions
+		- She calls them toolkit functions
+- ![[Screenshot 2023-02-21 at 7.23.14 PM.png]]
+	- Review of Function Notation
+		- -2 is on outside of function
+		- -2 is on inside of function
+		- Multiply by 3 on inside of fn
+		- Multiply by 3 on outside of fn
+		- Negative sign on inside of fn
+		- Add 17 on outside of fn
+		- Add 12 on inside of fn
+		- Multiply by -36 on outside of fn
+		- Multiply by $\frac 14$ on the inside of fn
+	- Rewrite the following, if g(x) = $\sqrt{x}$
+		- Can say root quantity x
+		- $\sqrt{-x}$ may be a real number since x could be negative itself
+	- Rewrite the following in terms of g(x), if g(x) = $\sqrt{x}$
+- ![[Screenshot 2023-02-21 at 7.25.05 PM.png]]
+	- Graph
+	- graphing $\sqrt{x}$ and two transformations of function
+		- $y = \sqrt{x} -2$
+			- Graph moves vertically down by 2 units
+		- $y = \sqrt{x-2}$
+			- graph moves horizontally to the right by 2 units
+- ![[Screenshot 2023-02-21 at 7.29.42 PM.png]]
+	- Rules for transformations
+		- Numbers on the outside of the function affect the y-values and result in vertical motions. These motions are in the direction you expect.
+		- Numbers on the inside of the function affect the x-values and result in horizontal motions. These motions go in the opposite direction from what you expect.
+		- Adding results in a shift (translations)
+		- Multiplying results in a stretch or shrink
+		- A negative sign results in a reflection
+			- If you start in $y=\sqrt{x}$, then when you do $y=\sqrt{-x}$, that's going to be a reflection in the <mark style="background: #FFF3A3A6;">horizontal direction (means a reflection across the y-axis)</mark>
+				- Because the negative is on the inside of the square root sign
+			- $y=-\sqrt{x}$
+				- This gives a vertical reflection across the x-axis (negative sign on the outside of the square root)
+- ![[Screenshot 2023-02-21 at 7.33.17 PM.png]]
+	- Example
+		- Consider g(x) = $\sqrt{x}$. How do the graphs of the following functions compare to the graph of $y=\sqrt{x}$
+	- Algebraically, a vertical shrink of $\frac 12$ is the same as a horizontal stretch by a factor of 4 at least for the square root function 
+- ![[Screenshot 2023-02-21 at 7.51.00 PM.png]]
+	- Number on outside $\leftrightarrow$ y-values $\leftrightarrow$ vertical motions
+		- $\leftrightarrow$ means <mark style="background: #FFF3A3A6;">corresponds to</mark> changes in 
+	- Numbers on inside of fn effects x-values and results in horizontal motions
+	- Addition/subtraction corresponds to translations (shifts)
+	- Multiplying/dividing corresponds to stretches and shrinks
+	- Negative sign corresponds to reflection
+		- Horizontal reflection (across y-axis) if negative sign on inside
+		- Vertical reflection (across y-axis) if the negative sign is on the outside
+	- Knowing these basic rules on transformations empowers you to be able to sketch graphs of much more complicated functions by simply considering the transformations
+		- $y = 3\sqrt{x} + 2$

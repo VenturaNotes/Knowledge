@@ -1,0 +1,23 @@
+[20:47:51](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=74871s) 
+
+- ![[Screenshot 2023-03-19 at 11.29.07 PM.png]]
+	- The two most common problems in this area are
+		- Motion problems
+		- Work/[[rate problems]]
+	- We'll begin with a [[motion problem]]. Recall that we use the [[distance formula]] for this type of problem: $d=r*t$
+		- d = distance
+		- r = rate of speed
+		- t = time traveled
+	- We can also solve for "r" or "t"
+- ![[Screenshot 2023-03-19 at 11.46.00 PM.png]]
+	- Problem #1
+		- The local river has a current of 3mph. A boat takes the same amount of time to go 24 miles downstream as it does to go 12 miles upstream. What is the speed of the boat in still water?
+			- Downstream means with the current
+			- Upstream means against the current
+			- let x = speed of the boat in still water
+		- The boat travels 9mph in still water
+	- Problem #2 (Work-rate problem or rate of work problem)
+		- Working alone, Paul can pour a large concrete driveway in five hours. Natalie can pour the same driveway in seven hours. How long would it take them to complete this job if they worked together?
+			- Let x = # of hours to complete the job if they work together
+		- It would take $\frac {35}{12}$ hours to complete the job.
+	- [[Word Problem|Word problems]]

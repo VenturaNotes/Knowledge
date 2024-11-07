@@ -1,0 +1,21 @@
+[2:23:30](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=8610s)
+
+- ![[Screenshot 2023-02-21 at 6.22.13 PM.png]]
+	- Find the equation of a circle of radius 5 centered at the point (3,2)
+		- Set the distance formula equal to the radius of the circle. Label the point you're given in the distance formula
+	- The standard form of the equation of a circle
+		- $(x-3)^2 + (y-2)^2 = 25$
+- ![[Screenshot 2023-02-21 at 6.23.17 PM.png|500]]
+	- The equation of a circle with radius r centered at the point (h, k) is given by
+	- Equation for circle of radius 6, center (0,-3)
+- ![[Screenshot 2023-02-21 at 6.24.35 PM.png]]
+	- Does this equation represent a circle? If so, what is the center and what is the radius? 
+- ![[Screenshot 2023-02-21 at 6.28.31 PM.png]]
+	- Does this equation represent a circle? If so, what is the center and what is the radius?
+		- Divide by largest common factor
+		- Complete the square
+			- In (x+4), the 4 comes from taking half of 8 and the (y-1) comes from taking half of -2
+- ![[Screenshot 2023-02-21 at 6.29.53 PM.png]]
+	- Found standard equation for a circle
+	- r is radius and (h, k) is the center
+	- Completing the square will help you write an equation for a circle in standard form

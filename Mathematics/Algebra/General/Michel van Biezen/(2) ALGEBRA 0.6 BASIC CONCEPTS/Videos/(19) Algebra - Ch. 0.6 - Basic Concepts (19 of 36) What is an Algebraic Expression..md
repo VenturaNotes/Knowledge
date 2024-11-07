@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=tR6I1gH4LiA)
+
+- ![[Screenshot 2023-05-06 at 7.11.29 PM.png]]
+- Note that algebraic expressions do not have an equal sign
+- ![[Screenshot 2023-01-10 at 4.39.35 PM.png]]
+	- Unknown variable
+- ![[Screenshot 2023-01-10 at 4.40.34 PM.png]]
+	- Constants (may be unknown)
+- ![[Screenshot 2023-01-10 at 4.40.45 PM.png]]
+	- Expression represents the area of a triangle where
+		- b = base
+		- h = height
+- ![[Screenshot 2023-01-10 at 4.41.10 PM.png]]
+	- 3x is a term and 5 is a term
+	- These terms are separated by a "+" or a "-"
+- ![[Screenshot 2023-01-10 at 4.41.34 PM.png]] ^64069f
+	- 3 and x are factors (they are multiplied together)
+	- 3 is either
+		- The numerical factor
+		- The numerical coefficient of x
+- When there is an equal sign, it is an equation. Not an algebraic expression
+- x, y, and z are typically used for unknown quantities

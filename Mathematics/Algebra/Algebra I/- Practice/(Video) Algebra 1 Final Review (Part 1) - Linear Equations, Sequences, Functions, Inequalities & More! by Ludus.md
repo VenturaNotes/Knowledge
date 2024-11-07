@@ -1,0 +1,117 @@
+---
+Source:
+  - https://youtu.be/-Qd_KilQLhA
+Length: 1 hour, 48 minutes, 52 seconds
+tags:
+  - status/complete
+  - type/video
+Published: true
+---
+- ![[Screenshot 2023-05-29 at 1.05.25 AM.png]]
+	- Sections
+		- Linear Expressions & Equations
+		- Inequalities and Absolute Value Equations
+		- Functions
+		- Transformations of Functions
+		- Properties of Functions
+		- Lines
+			- [[Dimensional analysis]] is just unit conversion ^22ea19
+		- Exponential Functions
+		- Sequences
+- ![[Screenshot 2023-05-29 at 1.07.50 AM.png]]
+	- If A and B, what is 2A - B?
+- ![[Screenshot 2023-05-29 at 1.09.13 AM.png]]
+	- Solve for y
+- ![[Screenshot 2023-05-29 at 1.10.22 AM.png]]
+	- Solve for x
+- ![[Screenshot 2023-05-29 at 1.15.55 AM.png]]
+	- Solve for x
+		- (1) Distribute
+		- (2) Get all x's to one side, everything else to the other side
+		- (3) Isolate x
+- ![[Screenshot 2023-05-29 at 1.21.56 AM.png|300]]
+	- Flip the sign if multiplying or dividing by a negative number
+		- For example if you have -2 < 1, if you multiply both sides by -2, you will get 4 > 2
+- ![[Screenshot 2023-05-29 at 1.25.01 AM.png]]
+	- Solve for x
+- ![[Screenshot 2023-05-29 at 1.29.02 AM.png]]
+	- Find f(2), f(0), f(-1)
+- ![[Screenshot 2023-05-29 at 1.34.03 AM.png]]
+	- Which two equations intersect at (-1, 2)?
+- ![[Screenshot 2023-05-29 at 1.37.56 AM.png]]
+	- Which point is not on the graph $3y + 2 = x^2 - 5x + 17$
+- ![[Screenshot 2023-05-29 at 1.43.56 AM.png]]
+	- State the transformations done to the function $y=x^3$ to obtain the function $y=2(x-1)^3+7$
+		- Vertical shrink if "2" was 0 < x < 1
+		- If your x was alone or negative, reflected across y-axis
+		- If "2" was negative, function reflect across x-axis
+	- Solutions
+		- Shift right 1 unit
+		- Vertical stretch by a factor of 2
+		- Shift up 7 units
+- ![[Screenshot 2023-05-29 at 1.48.49 AM.png]]
+	- Find the equation of $y=x^2$ after it has been shifted left by 4, and up by 2
+- ![[Screenshot 2023-05-29 at 1.51.13 AM.png]]
+	- Find the [[Domain (Math)|domain]], expressed in [[Interval Notation]] of the function g(x) graphed below.
+		- Domain is all of the values of x that are defined for the function
+- ![[Screenshot 2023-05-29 at 1.58.59 AM.png|500]]
+	- If we restrict the domain of the function $h(x) = (x+1)^2 + 1$ to $[-2,2]$, what is the new range of the function?
+		- If $x^2$ is positive, it's upward opening
+			- If negative, downward opening
+		- Range is the same thing as domain but for y-values
+	- [[Vertex Form]]
+		- $y = a(x-h)^2 + x$
+	- [[Vertex]]
+		- (h, k)
+- ![[Screenshot 2023-05-29 at 8.24.08 AM.png]]
+	- Is the relation shown below a function? Explain why or why not.
+		- A function has to pass the [[vertical line test]]
+- ![[Screenshot 2023-05-29 at 8.31.10 AM.png]]
+	- Find the equation of a line that passes through the two points.
+		- Steps
+			- (1) Find Slope
+			- (2) Find y-intercept
+			- (3) $y=mx+b$ slope-intercept form
+- ![[Screenshot 2023-05-29 at 9.01.37 AM.png]]
+	- Incorrect? My comment:
+		- Hello! I'm a little confused about problem #16. I don't think the x and y values were defined correctly. If we let "x = 1 foot" and "y = 1 yard", then we'd need to plug-in those values into the equation y=3x giving (1)=3(1) resulting in an incorrect statement. I also don't think "x = feet" and "y = yards" is correct either since if we pretend it's a function f(x) = 3x, then inputting x=3 should result in an output of yards but instead we'd get the coordinate (3,9) where 3 represents 3 feet and 9 represents 9 yards and 3 feet doesn't equal 9 yards. Unless we make the equation y = 1/3x, I think x should should represent yards and y should represent feet for y=3x.
+	- Write and graph an equation which converts a length measured in feet, to that length measured in yards (3 feet = 1 yard)
+- ![[Screenshot 2023-05-29 at 9.10.15 AM.png]]
+	- Errata
+		- For scientific notation, it's $3.15 \times 10^8$
+	- Using dimensional analysis, find the number of seconds in a decade. (exclude leap-years)
+		- The conversion factors that we multiply by are literally equal to 1, so we can say that 1 decade = 10 years
+		- Remember, if we multiply by one, we aren't actually changing anything.
+- ![[Screenshot 2023-05-29 at 9.12.12 AM.png]]
+	- Write the equation for a line that is perpendicular to $y=2x+1$, and that passes through the point (0,2).
+- ![[Screenshot 2023-05-29 at 9.15.39 AM.png|500]]
+	- Simplify the following exponential expression
+- ![[Screenshot 2023-05-29 at 9.34.18 AM.png]]
+	- If you fold a 1mm thick piece of paper 15 times, what is the resulting width (in meters)?
+	- $y = a(b)^x$
+		- a is starting point
+		- b is rate of increase or decrease
+		- y-intercept is 0
+- ![[Screenshot 2023-05-29 at 9.37.30 AM.png]]
+	- State the y-intercept of the following graph, and tell if the graph represents exponential growth or exponential decay.
+		- Exponential decay because b is less than 1
+- ![[Screenshot 2023-05-29 at 3.30.34 PM.png|400]]
+	- Incorrect?
+		- Question is confusing. The equation for compounded monthly is $A = P(1 + \frac rn)^{nt}$ but it seems like he's using the [[future value formula]].
+			- However, he should have specified by saying "1% per month" instead of "monthly compounding" since this is typically called [[periodic compounding]] which uses yearly interest [^1]
+	- The amount of subscribers I have compounds monthly, and can be modeled by the function $s(t) = 500(1.25)^t$. If t = 0 is right now on June 1st 2019, how many subscribers will I have by the end of 2019? The end of 2020? Also, how many subscribers do I currently have? What is the percent increase of subscribers each month?
+- ![[Screenshot 2023-05-29 at 3.38.54 PM.png|500]]
+	- Given the following sequence $a_n = a_{n-1} + 3$, where $a_1$ = -2, find $a_2, a_3, \text { and } a_4$. Also, state what kind of sequence this is. and what kind of formula you have been given.
+		- [[Arithmetic Sequence]]
+		- [[Recursive Formula]]
+- ![[Screenshot 2023-05-29 at 3.47.28 PM.png]]
+	- Errata
+		- n=4 is graphed incorrectly. The point should be above x=4
+	- Write the exponential equation given in problem 22 as a [[Geometric Sequence|geometric sequence]] where n=0 is June $1^{st}$ is 2019. Graph this sequence from n = 0 to n = 4
+		- In sequences, there are no half-integer values. No intermediate terms on the graph
+- ![[Screenshot 2023-05-29 at 3.50.47 PM.png]]
+	- Is the following sequence an arithmetic sequence or a geometric sequence? If arithmetic, find the [[common difference]]. If it is geometric, find the [[common ratio]]. Fill in the next two terms
+
+## References
+
+[^1]: https://www.mathsisfun.com/money/compound-interest.html#:~:text=Compound%20Interest%20is%20not%20always,month%2C%20per%20day%2C%20etc.

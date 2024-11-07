@@ -1,0 +1,23 @@
+[5:10:20](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=18620s)
+
+- ![[Screenshot 2023-02-25 at 12.52.16 AM.png]]
+	- Need to free variable from the log using exponential functions
+- ![[Screenshot 2023-02-25 at 1.04.06 AM.png]]
+	- Solve
+	- (1) Isolate the tricky part
+	- (2) Take e to the power of both sides
+	- (3) Finish solving for x
+	- (4) Check answers (may get extraneous solutions)
+- ![[Screenshot 2023-02-25 at 8.25.32 PM.png]]
+	- Solve
+	- (1) Isolate the tricky part (can't do it here)
+	- (2) Take 10 to the power of both sides
+	- (3) Finish solving for x
+	- (4) Check solutions
+		- Log of a negative # does not exist
+	- Could use log rules as well to solve
+- Summary
+	- Key step
+		- Use exponential functions to undo the log
+			- Take e to power of both sides to undo natural log
+			- Take 10 to power of both sides to undo $log_{10}$

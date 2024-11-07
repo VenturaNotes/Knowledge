@@ -1,0 +1,60 @@
+[3:41:11](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=13271s)
+
+- Intro
+	- Polynomials and their graphs
+	- A polynomial is a function such as $f(x) = 3x^4 - 2x^3 -7x^2 + 6x + 7$ whose terms are numbers times powers of x
+- ![[Screenshot 2023-02-21 at 8.29.53 PM.png]]
+	- Definition. The degree of the polynomial is the largest exponent
+	- The leading term is the term with the largest exponent
+		- The leading term doesn't have to be the first term though. It's just conventional to write the polynomial in descending order of powers of x
+	- Definition. The leading coefficient is the number in the leading term.
+	- Definition. The constant term is the term with no x's in it
+	- Example
+		- For p(x), what is the degree, leading term, leading coefficient, constant term?
+- ![[Screenshot 2023-02-21 at 8.33.42 PM.png]]
+	- Definition. In the graph of f(x) below, the marked points are called turning points
+		- Turning points are when the polynomial changes direction at those points
+		- Keywords
+			- Turing point
+			- Local extreme points
+			- Local maximum and minimum points
+		- Here, the degree is 4 and there are 3 turning points
+	- Compare the degrees of the polynomials to the number of turning points
+	- You might conjecture that the number of turning points is 1 less than the degree but this is not always true
+		- It is true though that # turning points $\leq$ degree - 1
+			- Good fact to remember when sketching graphs or recognizing graphs of polynomials
+- ![[Screenshot 2023-02-21 at 8.40.28 PM.png]]
+	- Definition. The [[end behavior]] of a function is how the "ends" of the function look as $x \rightarrow  \infty$, and $x \rightarrow -\infty$
+	- Consider the end behavior for these polynomials
+		- Top-left
+			- The function is falling as we head left and right
+		- Top-right
+			- The graph rises to the left and right
+		- Bottom-left
+			- The graph falls to the left and rises to the right
+		- Bottom-right
+			- The graph falls to the left and rises to the right
+	- There is a relationship between the degree of the polynomial, the leading coefficients of the polynomials and the end behavior
+		- The 4 types of end behavior are determined if the degree is even or odd and by whether the leading coefficient is positive or negative
+	- Rules for end behaviors
+		- Even degree and Positive leading coefficient
+			- The function rises left and right
+		- Even degree and Negative leading coefficient
+			- The function falls left and right
+		- Odd degree and Positive leading coefficient
+			- The function falls left and rises right
+		- Odd degree and Negative leading coefficient
+			- The function rises left and falls right
+- ![[Screenshot 2023-02-21 at 8.50.38 PM.png]]
+	- Example. What can you tell about the equation for the polynomial graphed below?
+		- Due to the end behavior, the degree is odd and the leading coefficient is positive
+		- Since there are 4 turning points, we know that the degree is $\ge$ 5
+			- The # of turning points $\le$  degree - 1
+			- Degree could be 5, 7, 9... but it couldn't be an even number or less than 5
+- ![[Screenshot 2023-02-21 at 8.51.50 PM.png]]
+	- Keywords
+		- Degree
+		- Leading coefficients
+		- Turning points
+		- End behavior
+	- Knowing degree and leading coefficient can help make predictions about the number of turning points and end behavior (and vice versa)

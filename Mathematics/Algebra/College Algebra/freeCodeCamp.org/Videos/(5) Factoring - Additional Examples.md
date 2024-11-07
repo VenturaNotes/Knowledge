@@ -1,0 +1,26 @@
+[0:45:08](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=2708s)
+
+- ![[Screenshot 2023-02-19 at 11.18.18 PM.png]]
+	- Instructions
+		- Which of these expressions does not factor?
+	- (A) Pull out common factor
+	- (B) Difference of squares
+	- (C) No way to factor sum of squares
+	- (D) Factor by grouping
+	- (E) 2 numbers that multiply to 40 and add to -14
+		- Factor a quadratic with grouping
+- ![[Screenshot 2023-02-19 at 11.20.53 PM.png]]
+	- Question
+		- Factoring by grouping is handy for factoring which of these expressions? How can you tell?
+			- When there is 4 terms (or splitting up middle terms in a quadratic expression)
+	- Question
+		- What are some of the main techniques of factoring?
+			- Pull out common factors
+				- Do this first
+			- Difference of squares
+			- Factor by grouping
+			- Factor quadratics
+			- Factor sums and differences of cubes
+		- You may nee to keep factoring using several of the methods above
+- ![[Screenshot 2023-02-19 at 11.24.19 PM.png]]
+	- Pull out common factors first for second problem

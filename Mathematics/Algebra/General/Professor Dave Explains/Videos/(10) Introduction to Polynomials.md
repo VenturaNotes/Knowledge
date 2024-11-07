@@ -1,0 +1,34 @@
+[Video](https://www.youtube.com/watch?v=nPPNgin7W7Y)
+
+- ![[Screenshot 2023-05-15 at 5.10.50 AM.png]]
+	- Understanding polynomials
+		- $2x^2 + 4x^1 + 10x^0 = 0$
+			- Expressions containing an unknown raised to a series of positive whole number exponents
+	- Names
+		- 2x: monomial
+		- 2x - 1: Binomial
+		- $x^2 + 2x - 1$: Trinomial
+		- $x^3 - x^2 + 2x - 1$: Polynomial
+	- Usually the biggest term is something like $x^3, x^4, x^5$
+	- $3x^3 + 5x^2 - 2x + 7 = 0$
+		- Exponents decrease in polynomial
+		- Highest power present is called the <mark style="background: #FFF3A3A6;">degree</mark> of the polynomial
+	- Degrees of polynomials
+		- $5x^2 - 2x + 7 = 0$
+			- Second degree polynomial or quadratic polynomial
+		- $3x^3 + 5x^2 - 2x + 7 = 0$
+			- Third degree polynomial or cubic polynomial
+		- $x^4 - 3x^3 + 5x^2 - 2x + 7 = 0$
+			- Fourth degree polynomial or quartic polynomial
+		- $2x^5 + x^4 - 3x^3 + 5x^2 - 2x + 7 = 0$
+			- Fifth degree polynomial or quintic polynomial
+		- Beyond this, we just say "$n^{\text{th}}$ degree polynomial"
+	- $4x^2 + 7 = 0$
+		- Not all possible terms must be present
+	- To evaluate a polynomial, we just plug in a specific value for the variable
+	- Solving polynomials ($2x^2 + 4x + 10 = 0$)
+		- We could solve for the values of x that make this equation true
+		- None of the strategies we have learned yet will work for solving polynomials
+		- We can't combine $2x^2 + 4x$ 
+		- We will learn a variety of ways to solve these as we move forward
+		- The really huge ones are very hard for even the smartest mathematicians

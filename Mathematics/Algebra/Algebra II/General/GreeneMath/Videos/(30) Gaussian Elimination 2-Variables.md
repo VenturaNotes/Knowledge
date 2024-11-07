@@ -1,0 +1,27 @@
+[13:17:29](https://www.youtube.com/watch?v=2wrPGtP61fo&t=47849s) 
+
+- ![[Screenshot 2023-09-18 at 12.08.49 PM.png]]
+	- Solving Linear systems in two variables using matrix methods
+	- A [[matrix]] is an ordered array of numbers
+	- A matrix is named according to the number of rows and columns in contains
+	- A [[square matrix]] has the same number of rows as columns
+	- Start with an [[augmented matrix]]: a vertical bar will separate the [[coefficients]] from the [[constants]]
+		- To get a solution for x and y, we need to do elementary row operations
+			- We can manipulate our matrix using row operations. These produce matrices that lead to linear systems with the same solution set as the original system
+	- [[Row Operations]]
+		- (1) We can interchange any two rows
+		- (2) We can multiply any row by a non-zero number
+		- (3) We can multiply a row by a real number and add this to the corresponding elements of any other row
+			- Similar principles to the elimination method
+	- [[row echelon form]]
+		- $\left[\begin{array}{rr|r} 1 & a & b \\ 0 & 1 & c\end{array}\right]$
+			- 1s down diagonal
+			- 0 below
+			- Real numbers a, b, and c
+- ![[Screenshot 2023-09-18 at 12.16.41 PM.png]]
+	- 3 practice problems
+- ![[Screenshot 2023-09-18 at 12.19.21 PM.png]]
+	- [[reduced row echelon form]] (generally a little quicker since we don't need to go back and plug things in)
+		- $\left[\begin{array}{rr|r} 1 & 0 & a \\ 0 & 1 & b\end{array}\right]$
+			- We have solution in this form without needing to go back and plug things in
+	- Reduced echelon form in bottom example

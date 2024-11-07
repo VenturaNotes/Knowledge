@@ -1,0 +1,25 @@
+[0:21:18](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=1278s)
+
+- ![[Screenshot 2023-02-19 at 10.34.36 PM.png|200]]
+	- $\sqrt[x]{n}$
+		- This notation means the $n^{th}$ root of x
+	- 2 is implied for square root.
+- ![[Screenshot 2023-02-19 at 10.37.51 PM.png]]
+	- Rules for Radicals
+	- For the last rule, think of "flower over root"
+		- Flower is like "power" and root is like "root"
+			- Good mnemonic
+		- The m becomes the power and the n becomes the root
+- ![[Screenshot 2023-02-19 at 10.40.35 PM.png]]
+	- Example. Compute
+- ![[Screenshot 2023-02-19 at 10.59.05 PM.png]]
+	- Example. Simplify. (Assume all variables represent positive numbers.)
+		- Simplify means to pull as much as possible out of radical sign
+	- The denominator needs to be rationalized but in this example it's not
+- ![[Screenshot 2023-02-19 at 11.00.38 PM.png]]
+	- Rationalize the denominator. (Assume x represents a positive number).
+		- Just means to rewrite without $\sqrt{}$ in the denominator
+- Summary - Simplified radicals with
+	- Fractional exponents
+	- Pulling things out of radical
+	- Rationalizing the denominator

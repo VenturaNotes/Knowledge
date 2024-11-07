@@ -1,0 +1,33 @@
+[1:05:00](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=3900s)
+
+- ![[Screenshot 2023-02-19 at 11.34.28 PM.png]]
+	- A quadratic equation is an equation that contains the square of a variable but no higher powers of "x"
+	- Standard form of a quadratic equation
+		- $ax^2 + bx + c = 0$
+			- Where a, b, c represent real numbers and a $\ne$ 0
+	- Steps to quadratic equations
+		- (1) Write in standard form
+		- (2) Factor or use quadratic formula
+	- Standard Form
+		- $3x^2 + 7x - 2 = 0$
+	- Not in standard form
+		- $3x^2 = -7x + 2$
+- ![[Screenshot 2023-02-20 at 6.02.56 PM.png|400]]
+	- Find all real solutions for the equation
+	- (1) Write in standard form
+	- (2) Factor 
+	- (3) Set factors equal to 0 & solve
+	- You can check at the end
+- ![[Screenshot 2023-02-20 at 6.04.09 PM.png|500]]
+	- Write in standard form
+	- Set factors equal to 0
+- ![[Screenshot 2023-02-20 at 6.32.30 PM.png]]
+	- Find all real solutions for the equation x(x+2) = 7
+	- Write in standard form
+		- Not factorable by an integer
+	- Professor remembers the quadratic formula by singing it in her head
+- ![[Screenshot 2023-02-20 at 6.35.30 PM.png|400]]
+	- Find all real solutions for the equation
+	- No real solutions to quadratic equation
+- ![[Screenshot 2023-02-20 at 6.36.32 PM.png|500]]
+	- It's sometimes faster to factor than use the quadratic formula but you'll always get an answer using the quadratic formula

@@ -1,0 +1,22 @@
+[4:08:38](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=14918s)
+
+- ![[Screenshot 2023-02-24 at 10.39.18 PM.png]]
+	- Example. An antique car is worth $50,000 now and its value increases by 7% each year. Write an equation to model its value x years from now
+		- Initial value and growth factor (exponential equation)
+	- Example. My Toyota Prius is worth $3,000 now and its value decreases by 5% each year. Write an equation to model its value x years in the future
+- ![[Screenshot 2023-02-24 at 10.41.23 PM.png]]
+	- Example. The number of bacteria in a petri dish is modeled by the equation f(x) where f(x) represents the number of bacteria in thousands, and x represents the number of hours since noon.
+		- What was the number of bacteria at noon?
+		- By what percent is the number of bacteria increasing every hour?
+	- A is the initial value
+	- b is the growth factor
+	- r is the rate of increase
+- ![[Screenshot 2023-02-24 at 10.42.46 PM.png]]
+	- Example. The population of salamanders s(x) on an island is modeled by s(x) where x is the number of years since 2015.
+		- What was the population in 2015?
+		- By what percent is the population decreasing every year?
+- ![[Screenshot 2023-02-24 at 10.44.00 PM.png]]
+	- Exponential function forms
+		- When increasing quantity
+		- When decreasing quantity
+	- r is the % increase (or decrease) written as a decimal

@@ -1,0 +1,45 @@
+[Video](https://www.youtube.com/watch?v=7vomY6g-f3Q)
+
+- ![[Screenshot 2023-05-15 at 4.18.41 AM.png]]
+	- We get ride of terms by using inverse operations
+	- What about when exponents get involved?
+		- We must take the square root of both sides
+	- Square root always give two answers
+		- $\pm$ referred to as "plus or minus"
+	- Can't take square root of negative numbers like we can with positive numbers
+		- Will give no real solution otherwise
+	- Let's say for now that only positive numbers can have their square roots taken
+	- Taking the square root of perfect squares
+		- Good to memorize the first 10 or even 20 perfect squares
+			- We can still take the square root of other numbers
+	- $\sqrt 2$
+		- Gives an irrational number
+		- Can't be expressed as a fraction
+	- Simplifying radical expressions
+		- We just look for factors that are perfect squares
+	- Other Types of Roots
+		- The cube root of 8
+	- $\sqrt[3]{27}$
+		- What number cubed equals 27?
+		- The only answer is 27 because $(-3)^3 = -27$
+	- Squares and Cubes
+		- Square roots
+			- Can't take the square root of a negative number
+			- Positive numbers have two square roots
+			- 4th root has similar rules to square roots
+		- Cube roots
+			- Can take the cube root of a negative number
+			- Every number has one cube root
+			- 5th root has similar rules to cube roots
+	- Other Types of Roots
+		- Odd Roots
+			- Cube root, 5th root, 7th root, etc
+			- One real solution
+		- Even Roots
+			- Square root, 4th root, 6th root, etc.
+			- Two real solutions
+- ![[Screenshot 2023-05-15 at 4.22.07 AM.png]]
+	- Roots as fractional exponents
+- ![[Screenshot 2023-05-15 at 4.24.36 AM.png]]
+	- Comprehension
+	- Evaluate and/or simplify the radicals

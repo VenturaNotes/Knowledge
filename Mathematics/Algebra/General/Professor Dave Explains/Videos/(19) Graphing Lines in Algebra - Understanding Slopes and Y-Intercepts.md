@@ -1,0 +1,38 @@
+[Video](https://www.youtube.com/watch?v=lz8zVJxRFX8)
+
+- ![[Screenshot 2023-10-25 at 2.49.24 PM.png]]
+	- [[Slope]]
+		- A line's rate of change in the vertical direction
+			- Can be shallow or steep (like a mountain)
+		- $y = mx + b$ 
+			- y is independent variable
+			- x is dependent variable
+		- m = slope
+		- b = [[y-intercept]]
+			- Point where line crosses y-axis
+	- Understanding slopes and intercepts
+		- For y = x
+			- Every point on this line satisfies the equation
+		- slope = rise over run = change in y over change in x
+			- $\frac {y_2 - y_1}{x_2 - x_1}$
+	- Slope greater than 1 will be steeper
+	- Slope is [[undefined]] when slope is completely vertical
+		- Infinity over zero is undefined
+	- Slope is < 1, line tilts downwards until slope reaches 0
+		- Zero over infinity equals 0
+	- [[vertical line|vertical lines]] have an undefined slope
+	- [[Horizontal line|horizontal lines]] have zero slope
+	- Everything in-between has some slope between 0 and infinity
+	- Slope < 0 creates a negative slope
+- ![[Screenshot 2023-10-25 at 2.54.22 PM.png]]
+	- Slope is undefined when slope approaches negative infinity
+	- Any two points define a [[line]]
+		- All Lines contain infinite points
+			- This is because the coordinates can become infinitely precise
+	- We can draw a line between any two points 
+	- We can calculate the slope of the line
+		- $\frac {rise}{run}$ 
+	- When calculating slope, it doesn't matter which is point 1 and which is point 2
+		- The coordinates of each point must remain together though
+		- One point and a slope can define a line
+	- Slope is rate of change

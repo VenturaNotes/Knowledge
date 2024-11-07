@@ -1,0 +1,24 @@
+[Video](https://youtube.com/watch?v=T_SYbq_qPSA)
+
+- ![[Screenshot 2023-04-18 at 8.05.27 PM.png]]
+- Variation
+	- How much something varies -> How much something changes
+	- The change in y {varies with (depends on)} the change in x
+- Direct variation
+	- ![[Screenshot 2023-01-10 at 9.12.34 PM.png]]
+		- Y varies directly with x
+			- k = constant of variation (aka constant of proportionality)
+		- As x gets bigger, y gets bigger
+	- Example 1
+		- ![[Screenshot 2023-01-10 at 9.12.55 PM.png]]
+	- Example 2
+		- ![[Screenshot 2023-01-10 at 9.13.04 PM.png]]
+	- Graphs
+		- ![[Screenshot 2023-01-10 at 9.13.53 PM.png]]
+- Indirect Variation
+	- ![[Screenshot 2023-01-10 at 9.14.47 PM.png]]
+		- Y varies inversely with x
+	- Example of $y = \frac 2x$ 
+		- ![[Screenshot 2023-01-10 at 9.15.27 PM.png]]
+		- Graph
+			- ![[Screenshot 2023-01-10 at 9.15.56 PM.png]]

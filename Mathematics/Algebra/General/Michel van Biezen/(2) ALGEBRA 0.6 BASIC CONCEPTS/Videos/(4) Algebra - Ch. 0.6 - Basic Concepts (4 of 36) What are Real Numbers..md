@@ -1,0 +1,32 @@
+[Video](https://youtube.com/watch?v=I87ZaOAOdog)
+
+- ![[Screenshot 2023-01-09 at 5.24.15 PM.png]]
+- Real Numbers
+	- 3, -5, 0, 1.5, $\frac 57$, $\pi$, $\sqrt 5$ 
+	- They are set aside from the imaginary numbers
+		- Imaginary numbers are away from the number line
+	- Real numbers are on the horizontal number line
+- Integers
+	- 3, -5, 0
+- Whole Numbers (exclude any negative integers)
+	- 3, 0
+- Natural Numbers (positive integers)
+	- 3
+- Negative Integers (set of their own)
+	- -5
+- Zero (is a set itself )
+	- 0
+- Rational Numbers
+	- 3, -5, 0, 1.5, $\frac 57$
+	- All Rational Numbers can be put into the form $\frac ab$ where a and b are integers
+		- $\frac 31$, $\frac {-5}{1}$, $\frac 01$, $\frac 32$, $\frac 57$
+		- In Decimal Form, they all have repeating decimals
+			- 3 = 3.0000...
+			- $\frac 32$ = 1.5000....
+			- $\frac 57$ = 0.714285714285714285... = $0.\overline {714285}$
+- Irrational Numbers
+	- $\pi$, $\sqrt{5}$ 
+	- All Irrational numbers have non-repeating decimals
+		- $\pi$ = 3.141592654.....
+		- $\sqrt{5}$ = 2.236067977.....
+	- And cannot be put in the form $\frac ab$ 

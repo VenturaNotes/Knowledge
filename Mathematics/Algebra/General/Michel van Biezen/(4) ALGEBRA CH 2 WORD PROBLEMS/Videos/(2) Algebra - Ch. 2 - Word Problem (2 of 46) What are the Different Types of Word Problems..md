@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=4AwLTqPJzT8)
+
+- These are all going to deal with linear equations
+	- (1) Relative Price and Cost
+	- (2) %
+	- (3) Comparing Numbers
+	- (4) Length, Area, Volume (Linear)
+		- Geometric problems
+	- (5) Coins/Money
+	- (6) Solutions / Mixtures
+	- (7) Ages
+	- (8) Rates of doing work
+	- (9) Distance, velocity, time
+	- (10) Cost, revenue, profit
+	- (11) Ticket Prices
+	- (12) Investments
+- We'll learn
+	- A. Know <mark style="background: #FFF3A3A6;">what</mark> to do
+		- Type of word problem
+	- B. Know <mark style="background: #FFF3A3A6;">how</mark> to do it
+		- Method of how to solve it

@@ -1,0 +1,38 @@
+[Video](https://www.youtube.com/watch?v=ntzgiu7Ta0s)
+
+- ![[Screenshot 2023-10-25 at 2.35.51 PM.png]]
+	- We can manipulate and solve various algebraic equations
+		- [[Factoring]]
+		- [[Complete the square|completing the square]]
+		- [[Quadratic formula]]
+	- Need to know how to [[graph]]
+		- Graphs are visual representations of equations that help us comprehend the relationship between two variables
+	- Grid is called [[coordinate plane]]
+		- Has an [[x-axis]]
+			- Horizontal by convention
+		- Has a [[y-axis]]
+			- Vertical by convention
+		- Has 4 [[quadrants]]
+			- I, II, III, and IV
+		- [[Origin]] is where the x and y axis crosses
+	- Each point has [[coordinate|coordinates]] in the form of an [[ordered pair]]
+		- Ordered pairs are represented as a pair of numbers within parentheses separated by a comma
+			- x value and then y value
+	- The [[line]] represents all the possible solutions to the equation $y = x$ 
+		- The line represents the equation itself
+	- In y = 2x + 3
+		- x is the [[independent variable]]
+			- Choose any number we like
+		- y is the [[dependent variable]]
+			- See what value we get for y which depends on the value of x for its own value.
+	- The graph can tell us things about this system
+	- What is the [[x-intercept]]?
+		- (value of x when y =0)
+	- For trickier equations, it may be easier to look at the graph
+	- Graphing gives us a new perspective on mathematics
+	- $y = 2x + 3$ 
+		- This is an equation
+		- this is a line
+			- A genuine geometric object determined by all points on xy plane that satisfy the relationship
+	- Math is multi-faceted is both incredible and useful
+		- Variety of approaches will better allow us to solve a variety of problems

@@ -1,0 +1,46 @@
+[Video](https://www.youtube.com/watch?v=EjsQWKq-dGQ)
+
+- ![[Screenshot 2024-01-24 at 9.13.33 PM.png]]
+	- We know how to [[graph]]
+		- Graphing is just a visual representation of a table we could make by plugging in x values and recording all of the corresponding y-values or values of function that result
+	- We won't always be graphing [[Line|lines]]
+		- We must graph higher-degree functions as well
+			- Meaning there will be x terms that are raised to some exponent
+	- This is called a [[parabola]]
+		- $f(x)=x^2$ 
+		- Function goes to positive infinity as x $\to$ $\pm \infty$ 
+	- For $x^3$, it grows even faster
+		- function $\to$ $\infty$ 
+			- as x $\to$ $\infty$
+		- function $\to$ -$\infty$
+			- as x $\to$ -$\infty$ 
+	- Back to $x^4$ goes to looking like $x^2$ but steeper
+	- End behavior for single-term [[Polynomial|polynomials]]
+		- In $f(x) = x^n$, if n is [[odd]]
+			- it is an [[odd function]]
+			- ($x^3, x^5,...$)
+			- Graph will resemble $x^3$ 
+		- If n is [[even]]
+			- it is an [[even function]]
+			- The graph will resemble $f(x) = x^2$
+	- The [[Domain (Math)|domain]] of a function
+		- The set of all allowed x values
+		- Frequently the domain will be all real numbers. For most lines and curves, we can plug in any value for x. This extends infinitely horizontally
+	- Some functions have domains that are not all real numbers
+		- [[vertical line|vertical lines]]
+			- Only one x value in domain
+- ![[Screenshot 2024-01-24 at 9.35.04 PM.png]]
+	- $x=0$ is an [[asymptotes|asymptote]] of the function $f(x) = \frac {1}{x}$ 
+		- A value is missing from the domain and the function will go towards positive and negative infinity as it approaches this missing value
+	- The range of a function will tend to vary
+		- Set of allowed values for the function
+		- Horizontal line will only have one value for its range
+		- Many functions have a range of all real numbers: $x^3$ 
+			- $- \infty \to \infty$ 
+	- [[Relative Maximum|relative maxima]] and [[Relative Minimum|relative minima]] of a function are a function's hills and valleys
+		- Relative maximum: point where the function changes from increasing to decreasing
+		- Relative minimum: Point where the function changes from decreasing to increasing
+	- Let's check comprehension
+		- A point where a function changes from increasing to decreasing is called a relative maximum
+		- A point where a function changes from decreasing to increasing is called a relative minimum
+		- If a single-term polynomial resembles $f(x) = x^2$, it is an even function. If it resembles f(x) = $x^3$, it is an odd function

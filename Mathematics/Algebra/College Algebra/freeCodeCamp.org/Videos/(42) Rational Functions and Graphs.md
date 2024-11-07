@@ -1,0 +1,54 @@
+[5:59:48](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=21588s)
+
+- ![[Screenshot 2023-02-25 at 9.37.27 PM.png]]
+	- A rational function is a function that can be written as a ratio or a quotient of 2 polynomials
+	- $\frac 1x$ is also considered a rational function
+		- You can think of 1 and x as very simple polynomials
+- ![[Screenshot 2023-02-25 at 9.50.35 PM.png]]
+	-  Example. The graph of the function h(x) is shown below.
+		- How is the graph of this function h(x) different from the graph of a polynomial?
+		- What is the end behavior of the graph?
+			- To find end behavior, just look for terms in numerator and denominator with the highest exponent
+				- This gives us the horizontal asymptote at y = 3
+		- What is the behavior of the graph of this function h(x) near x =-5?
+			- Vertical asymptote at x =-5
+				- Only has this vertical asymptote because this is when the denominator is equal to 0. When x = 2, the (x-2) is factored out of the function so the simplified form of the function will not have a vertical asymptote there
+		- What is going on at x =2?
+			- Hole at x=2
+				- To find the y value of the hole, just plug-in the x=2 into the simplified form of the function
+	- A horizontal asymptote is a horizontal line that our graph gets closer and closer to as x goes to infinity or as x goes to negative infinity or both. (y=3)
+		- Here, the end behavior is different
+	- A hole is a place along the curve of a graph where the function does not exist
+	- $3x^2$ dominates the numerator and $x^2$ dominates the denominator
+- ![[Screenshot 2023-02-25 at 9.56.12 PM.png]]
+	- For a rational function
+		- Find the vertical asymptotes by ^45f9bc
+			- Set denominator equal to 0
+			- All other x-values where denominators = 0
+		- Find the holes by
+			- Set denominator equal to 0
+			- hole -> x-values where numerator and denominator are both zero and those factors cancel out.
+		- Find the horizontal asymptotes by
+			- Look at highest power term in numerator and denominator
+	- Example. What are the horizontal asymptotes for these functions?
+		- (1) Since the denominator will get infinitely larger, it will go to 0
+			- Degree of numerator < degree of denominator
+		- (2) Horizontal asymptote equal to the ratio of the leading coefficients
+			- Degree of numerator = degree of denominator
+		- (3) Since the numerator will get infinitely larger, it will go to infinity so no horizontal asymptote
+			- Degree of numerator > degree of denominator
+- ![[Screenshot 2023-02-25 at 10.06.05 PM.png]]
+	- Example. Find the vertical asymptotes, horizontal asymptotes, and holes:
+	- x-intercept at x = -1
+		- Corresponds where the numerator of our reduced rational function is equal to 0. A 0 in the numerator makes the whole function 0.
+			- X-intercept is where the y-value of the whole function is 0.
+- ![[Screenshot 2023-02-25 at 10.08.21 PM.png]]
+	- Horizontal asymptotes
+		- Highest power terms
+	- Vertical asymptotes
+		- Factor numerator and denominator
+		- Denominator 0
+	- Holes
+		- Factor numerator and denominator
+		- numerator and denominator 0 
+			- factors cancel

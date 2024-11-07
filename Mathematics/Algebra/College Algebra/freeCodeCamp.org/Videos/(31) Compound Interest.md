@@ -1,0 +1,35 @@
+[4:18:17](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=15497s)
+
+- Intro
+	- Exponential functions can be used to model compound interest for loans and bank accounts
+- ![[Screenshot 2023-02-24 at 10.46.37 PM.png]]
+	- Example. Suppose you invest $200 in a bank account that earns 3% interest every year. If you make no deposits or withdrawals, how much money will you have after 10 years?
+	- Invest "A" dollars at an annual interest rate of "r" for "t" years
+	- <mark style="background: #FFF3A3A6;">interest accumulates once per year in this example</mark>
+- ![[Screenshot 2023-02-24 at 10.48.31 PM.png]]
+	- Example. You deposit $300 in an account that earns 4.5% annual interest compounded semi-annually. How much money will you have 7 years? 
+	- <mark style="background: #FFF3A3A6;">This annual interest is compounded semi-annually.</mark>
+- ![[Screenshot 2023-02-24 at 10.52.16 PM.png]]
+	- Example. You take out a loan for $1,200 at an annual interest rate of 6%, compounded monthly. If you pay back the loan with interest as a lump sum, how much will you owe after 3 years?
+	- <mark style="background: #FFF3A3A6;">annual interest compounded monthly</mark>
+	- <mark style="background: #FFF3A3A6;">Compound interest formula</mark>
+- ![[Screenshot 2023-02-24 at 10.55.40 PM.png]]
+	- You invest $4000 in an account that gives 2.5% interest compounded continuously. How much money will you have after 5 years?
+	- Continuous compounding as the limit of compounding more and more frequently (100, 1000, 1 million times a year) in the limit, you get continuous compounding.
+	- Representations
+		- P(t) = Money
+		- A = initial mount
+		- r = annual interest rate written as a decimal
+		- e = Represent's Euler's constant
+- ![[Screenshot 2023-02-24 at 10.56.49 PM.png]]
+	- Summary
+		- Let r represent the annual interest rate, written as a decimal
+		- Let t represent the number of years
+		- Let A represent the initial amount of money
+		- Annual Interest
+		- Compound Interest, compounded n times per year
+		- Compound interest, compounded continuously
+- ![[Screenshot 2023-02-24 at 10.57.21 PM.png]]
+	- Simple annual interest
+	- Compound interest n times per year
+	- Continuously compounded interest

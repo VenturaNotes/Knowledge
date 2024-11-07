@@ -1,0 +1,33 @@
+[5:19:27](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=19167s)
+
+- Intro
+	- Solving Exponential Equations - Applications
+		- Population growth and radioactive decay
+		- Introduce ideas of half life and doubling time
+- ![[Screenshot 2023-02-25 at 8.31.29 PM.png]]
+	- Example. Suppose you invest $1600 in a bank account that earns 6.5% annual interest, compounded annually. How many years will it take until the account has $2000 in it, assuming you make no further deposits or withdrawals?
+- ![[Screenshot 2023-02-25 at 8.34.32 PM.png]]
+	- Example. A population of bacteria contains 1.5 million bacteria and is growing by 12% per day. What is the doubling time?
+		- [[Doubling time]] means amount of time it takes for a quantity to double in size.
+			- It also only depends on the <mark style="background: #FFF3A3A6;">growth rate</mark>, not the <mark style="background: #FFF3A3A6;">initial population</mark>
+				- You don't even need to know what the initial population was
+				- You can just represent the function and initial population as variables (A) as shown above
+- ![[Screenshot 2023-02-25 at 8.38.53 PM.png]]
+	- Example. Suppose a bacteria population doubles every 15 minutes. Write an equation for its growth using the exponential equation $y = a*b^t$ where t represents time in minutes. Assume the initial population is 350 bacteria.
+	- Will always be able to find 2 different versions of an exponential equation
+		- Standard one
+			- Blue circled in red
+		- Continuous growth one
+			- Black circled in red
+- ![[Screenshot 2023-02-25 at 8.49.25 PM.png]]
+	- Example. The half life of radioactive Carbon-14 is 5750 years. A sample of bone that originally contained 200 grams of C-14 now contains only 40 grams. How old is the sample?
+		- Half life
+			- The amount of time it takes for a quantity to decrease to half as much
+	- f(t) is the amount of radioactive C-14. "a" is the initial amount
+	- If you used the general formula, you'd get this equation
+		- $5750\left(\frac{ln\left(\frac{1}{5}\right)}{ln\left(\frac{1}{2}\right)}\right) = 13351.0865$
+- ![[Screenshot 2023-02-25 at 8.50.54 PM.png]]
+	- Learned continuous growth model 
+		- Can be written as an exponential function
+			- b is equivalent to $e^r$
+	- Learned doubling time and half life

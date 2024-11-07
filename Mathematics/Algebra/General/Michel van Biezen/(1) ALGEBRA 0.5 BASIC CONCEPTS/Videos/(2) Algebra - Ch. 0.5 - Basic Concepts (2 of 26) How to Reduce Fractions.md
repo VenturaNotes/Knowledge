@@ -1,0 +1,25 @@
+[Video](https://youtube.com/watch?v=H6GoH8E2EFg)
+
+- Whatever we do to the numerator, we must do exactly the same to the denominator
+- ![[Screenshot 2023-01-09 at 12.57.13 PM.png]]
+	- Numerator
+		- Top part of fraction
+	- Denominator
+		- Bottom part of fraction
+	- Example
+		- $\frac {56} {60}$
+	- Using Prime Numbers (helps reduce fractions)
+		- 2, 3, 5, 7, 11, 13 ...
+		- as well as
+			- 10
+	- Demonstrations
+		- $\frac {12}{26}$ = $\frac{6}{13}$ (divide by 2)
+		- $\frac {50}{140}$ = $\frac {5}{14}$ (divide by 10)
+- Two Methods
+	- Divide top and bottom of fraction to reduce it
+		- ![[Screenshot 2023-01-09 at 1.00.43 PM.png]]
+	- Take each number separately and divide by prime numbers as many times as possible ([[(12) C4--Factor Tree and Division Ladder#^0be61d|division ladder]]). Find the [[(28) Finding the Greatest Common Divisor#^048c69|largest common factor]] (or divisor) to divide by
+		- ![[Screenshot 2023-01-09 at 1.03.18 PM.png]]
+	- Tree root method
+		- ![[Screenshot 2023-01-09 at 1.07.15 PM.png]]
+		- You find the greatest common factor by either find the prime factorization list with the least # of occurrences for a certain number or to find how many prime factors each number has in common

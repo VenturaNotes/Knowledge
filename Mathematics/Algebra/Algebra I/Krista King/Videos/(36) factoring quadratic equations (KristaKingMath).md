@@ -1,0 +1,23 @@
+[Video](https://youtube.com/watch?v=jcTKaNkWFUU)
+
+- ![[Screenshot 2023-01-08 at 2.55.49 PM.png]]
+	- Factor the trinomials
+		- Factoring polynomials with 3 terms involved
+		- To do this, find numbers that multiply to the 3rd term but add to the 2nd term when the trinomial is in descending order.
+		- You could do (x + 8)(x-2) or (x-2)(x+8) because of the commutative property
+	- $x^2 + 4x + 4$
+		- What do we have to multiply together to get $x^2$?
+			- This is (x     )(x     )
+		- Now look at last term to figure out the factors of 4
+			- Could be
+				- 1 and 4
+				- 4 and 1
+				- 2 and 2
+			- Now which factors can be added together to get middle term 4?
+				- 1 + 4 = 5
+				- 4 + 1 = 5
+				- 2 + 2 = 4
+		- We're looking for a factor set of third term that we can add together to get the middle term.
+	- Factoring is just the opposite of the foiling process
+	- For $x^2 + x + 1$
+		- Since there is no way to combine the factors to get a positive 1 in the middle, we say that it is not factorable

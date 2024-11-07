@@ -1,0 +1,36 @@
+[0:31:46](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=1906s)
+
+- ![[Screenshot 2023-02-19 at 11.03.15 PM.png|400]]
+	- Factoring an expression means to rewrite it as a product
+	- Factoring is the opposite of distributing out
+	- Things we sum up are called the terms
+	- If we think of same expression as product of things that are multiplied together, they're called factors
+- ![[Screenshot 2023-02-19 at 11.05.23 PM.png|500]]
+	- (1) Pull out the greatest common factor
+		- GCF: the largest thing that divides each term
+	- Check answer by multiplying out
+- ![[Screenshot 2023-02-19 at 11.06.51 PM.png]]
+	- (2) Factor by Grouping
+		- Look for 4 terms
+	- Sum of 2 squares does not factor any further? 
+- ![[Screenshot 2023-02-19 at 11.10.07 PM.png]]
+	- (3) Factor quadratics
+		- A quadratic is an expression with a squared term, a term with an x in it, and a constant term
+	- 1st Problem
+		- Find numbers that multiply to 3rd term and add to middle term
+	- 2nd problem
+		- Can use factoring by grouping
+		- Find two numbers that multiply to -60 and add to 11
+- ![[Screenshot 2023-02-19 at 11.11.24 PM.png]]
+	- (4) Difference of Squares
+	- Sum of squares does not factor ^5192a7
+		- There is no formula that applies for a sum of squares
+- ![[Screenshot 2023-02-19 at 11.12.16 PM.png]]
+	- (5) Difference or sum of cubes
+- Summary
+	- (1) GCF
+	- (2) Grouping
+	- (3) Quadratics
+	- (4) Difference of Squares
+	- (5) Difference of Cubes and Sum of Cubes
+	- You might need to use more than one method to completely factor an expression

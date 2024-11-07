@@ -1,0 +1,29 @@
+[6:17:10](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=22630s)
+
+- ![[Screenshot 2023-02-26 at 6.50.26 AM.png]]
+	- When composing 2 functions, you apply the first function and then you apply the second function to the output of the first function
+		- First function may compute population size from time in years
+			- So input would be time in years and output would be population size
+		- Second function g may compute healthcare costs as a function of population size
+			- Takes population size as input and healthcare costs is output.
+	- Composing these functions will make you go from "time in years" to "healthcare costs"
+		- This would be our composition "g" composed with "f"
+- ![[Screenshot 2023-02-26 at 11.10.37 PM.png]]
+	- The composition of two functions: is defined by
+		- Read as
+			- G composed with f of x is g evaluated on f(x)
+- ![[Screenshot 2023-02-26 at 11.12.38 PM.png]]
+	- The tables below define the functions f and g
+	- If there is a value x of a function that does not exist, then the value is not in the domain of the composition
+- ![[Screenshot 2023-02-26 at 11.14.27 PM.png]]
+	- Find the compositions
+- ![[Screenshot 2023-02-26 at 11.16.20 PM.png]]
+	- Find the functions f and g so that h(x) = f $\circ$ g(x) 
+	- You can have alternative correct solutions
+	- $x^2+7$
+		- Inside the box is g(x), my first function applied
+	- $\sqrt{}$
+		- What happens to the box, that is f(x), my second function applied.
+- ![[Screenshot 2023-02-26 at 11.20.19 PM.png]]
+	- Learned to evaluate composition of functions by rewriting it and working from the inside out.
+	- Learned to break apart a complicated function into a composition of 2 functions by boxing the one piece of the function. This will apply to the first function. The second function will apply to whatever happens to the box (the square root in this case)

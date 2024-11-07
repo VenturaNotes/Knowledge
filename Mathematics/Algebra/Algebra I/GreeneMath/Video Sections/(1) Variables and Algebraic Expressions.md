@@ -1,0 +1,87 @@
+[00:00:00](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=0s)
+
+- A [[variable]] is a symbol, generally a letter used to represent an unknown quantity.
+	- usually a lowercase letter
+- x, y, and z are the most commonly used in Algebra
+- Examples
+	- Mark works at a car wash and earns $63 per day plus tips.
+		- $63 + x
+			- x represents the amount of tips
+			- If x = 7, you plug in into x so you get
+				- $63 + $7 = $70
+				- $63 + $9 = $72
+					- Could be different depending on the day of how much tips you get
+	- A gallon of milk costs an unknown amount. Jason wishes to purchase two gallons.
+		- $2y \rightarrow 2xy \text { or } 2*y$ 
+			- We stop using $x$ as multiplication since it gets confused with the variable x.
+			- 2y implies multiplication
+		- Can use variable to model situation
+		- y is the unknown cost per gallon of milk
+		- if y = 1
+			- 2(1) = 2
+		- If y = 3
+			- 2(3) = 6
+- A [[term]] is a single number, variable, or a number times one or many variables: ^83d9b4
+	- 7, 4x, 9y, $24xyz$, -3a, $24x^2y^4z^8n^{12}$ are all terms
+- When a number is next to a variable or variables, it is known as a [[coefficient]]
+	- 2y
+		- 2 is the coefficient
+	- $4x^2$
+		- 4 is the coefficient
+- A number that is hanging out on its own is known as a [[constant]]
+	- 5x + 7
+		- 7 is a constant (a number that won't change)
+		- Doing 7 x 3 = 21 will always be true
+		- Value for above will change based on what x is
+	- $3x^2-2$
+		- 2 is a constant
+- An [[algebraic expression]] is one or more terms separated by + or - symbols.
+	- 5x + 2y - 4z
+		- 5x, 2y, and 4z are the terms here separated by the operators
+		- It's called an algebraic expression because there are variables involved
+		- $2*3$  ^1a6f93
+			- just considered an [[expression]] because no variables involved
+- Main thing about an algebraic expression is that the value will change as its value given for its variables involved are changed
+	- 2x + 3
+		- let x = 4
+			- 2(4)+3 = 8 + 3 = 11
+		- let x = 5
+			- 2(5) + 3 = 13
+		- When you change x, value of algebraic expression will change
+		- let x = -2
+			- 2(-2) + 3 = -4 +3 = -1
+- In some cases, we can simplify an algebraic expression:
+	- we do this by using the [[distributive property]]
+- Examples
+	- 3(6-3) = $3*6 - 3*3$ = 18 - 9 = 9
+	- 3(x-4) = 3x -12
+		- reversing what we just did is a process called [[factoring]]
+	- 4(x-7) + 2 = 4x - 28 + 2 = 4x - 26
+- [[Like terms]] are terms with the exact same variable(s) that have the exact same exponents:
+	- 5x, 3x
+		- like terms because both variables are x
+	- 5x, 3y
+		- Not the same so not like terms
+	- 2x, $3x^3$ 
+		- Not like terms because not raised to the same power
+	- $7x^4,4y^4$ 
+		- Not like terms because variables are different.
+		- Coefficients can be different.
+	- $3z^2x, 2xz^2$ 
+		- Like terms because multiplication can occur in any order ([[commutative property]])
+		- They are also raised to the same power and have the same variables
+- When we combine like terms, the variable part stays the same. We are adding/subtracting the coefficients or number parts:
+	- 2x + 3x = 5x
+		- x + x + x + x + x
+		- x ( 2 + 3) = 2x + 3x = 5x
+		- 2 of something + 3 of the some thing gives 5 of that thing
+			- Could be 2 oranges + 3 oranges gives 5 oranges
+	- 2x + 3y
+		- No way to combine these or simplify
+	- $4x^2 + 3x^2 + z$ = $7x^2 + z$ 
+		- Look for like terms
+	- -2(4x - 7) + 4(x-3) = -4x + 2
+		- With the distributive property
+			- -8x + 14 + 4x - 12
+		- Like terms
+			- -4x + 2 

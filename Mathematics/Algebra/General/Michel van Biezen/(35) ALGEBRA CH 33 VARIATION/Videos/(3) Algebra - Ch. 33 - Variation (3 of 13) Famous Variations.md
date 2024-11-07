@@ -1,0 +1,30 @@
+[Video](https://youtube.com/watch?v=0lk8ToHrxdc)
+
+- ![[Screenshot 2023-04-18 at 8.07.02 PM.png]]
+- Newton's Law of Gravity
+	- ![[Screenshot 2023-01-10 at 9.39.38 PM.png]]
+	- ![[Screenshot 2023-01-10 at 9.37.11 PM.png]]
+		- F is the force
+		- m is the mass of the 2 objects involved
+			- Varies directly with product of 2 masses
+		- R is the distance between them
+			- Varies inversely as the distance squared
+		- To write this into an equation, we need a constant of variation (or proportionality) which is "k" in this case
+			- The k is actually the universal gravitational constant
+- Hooke's Law
+	- ![[Screenshot 2023-01-10 at 9.39.48 PM.png]]
+	- ![[Screenshot 2023-01-10 at 9.37.28 PM.png]]
+		- The force (weight of object), varies as the distance of the elongation of the spring
+		- Used k for proportionality constant
+			- Negative sign because the displacement is in one direction and the force is in the other direction
+		- The relationship is that "f" varies directly as "x" (how much is elongated)
+		- k is the constant that's proportional to the strength of the spring
+			- spring constant
+- Einstein's Energy Equation
+	- ![[Screenshot 2023-01-10 at 9.40.01 PM.png]]
+	- ![[Screenshot 2023-01-10 at 9.37.47 PM.png]]
+		- The energy when converting mass to energy. The energy varies past the speed of light squared. C stands for the speed of light so it varies as the speed of light squared
+		- He needed a constant "k" which ended up being the mass of the object
+		- The variation is the keystone of science
+			- Relating variables to one another.
+			- Relating different aspects of nature to one another

@@ -1,0 +1,43 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=ZckPt4fgj88
+Length: 13 minutes, 10 seconds
+tags:
+  - status/complete
+  - type/video
+Published: true
+---
+---
+- ![[Screenshot 2023-03-16 at 3.51.58 PM.png]]
+	- Factoring Trinomials
+		- When we multiply two polynomials together, the product always has a higher degree
+		- When we factor a trinomial, we break it down into two or more polynomial factors of lower degree.
+---
+- Factoring Using the AC Method
+	- To factor a quadratic function $f(x) = ax^2 + bx + c, a \ne 0$
+		- (1) Factor out the GCF (if there is one)
+		- (2) Off to the side, multiply a and c together
+		- (3) Find factors of ac that sum to b.
+		- (4) Use the factors you found in step 3 to rewrite bx as a sum.
+		- (5) factor by grouping
+---
+- ![[Screenshot 2023-03-16 at 3.58.13 PM.png]]
+- Example #1
+---
+- ![[Screenshot 2023-03-16 at 4.01.01 PM.png]]
+- Example #2
+---
+ - ![[Screenshot 2023-03-16 at 4.03.18 PM.png]]
+ - Example #3
+ ---
+ - ![[Screenshot 2023-03-16 at 4.04.03 PM.png]]
+ - Example #4
+---
+- ![[Screenshot 2023-03-16 at 4.04.48 PM.png]]
+- Example #5
+---
+-  ![[Screenshot 2023-03-16 at 4.05.43 PM.png]]
+- Example #6
+---
+- ![[Screenshot 2023-03-16 at 4.06.34 PM.png]]
+- Example #7

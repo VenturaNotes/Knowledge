@@ -1,0 +1,29 @@
+[Video](https://www.youtube.com/watch?v=0oe-GqFrYFU)
+
+- ![[Screenshot 2023-10-25 at 3.25.29 PM.png]]
+	- $y = mx + b$ 
+		- [[Slope-intercept form]]
+	- $ax + by = c$
+		- [[standard form]]
+	- Parallel and Perpendicular Lines
+		- These lines are [[parallel]]
+			- They never intersect
+				- Therefore, must have same ratio of vertical change to horizontal change
+		- Parallel lines have equivalent slopes
+		- Equations may be different but slopes the same
+	- [[Perpendicular lines]]
+		- Intersect at a [[right angle]] $(90 \degree)$ 
+		- Same slopes that are [[opposite]] [[reciprocal|reciprocals]]
+			- Flip term and sign
+	- Write the equation of any line that is perpendicular to $y = -\frac 14x + 2$ 
+		- One strategy involves graphing this line first
+		- Any perpendicular line will have a slope of 4
+	- Write the equation of the line parallel to $y = 3x +1$ and passes through (4, 4)
+	- Write the equation of the line perpendicular to $y = \frac {1}{4}x - 2$ and passes through (-2, 9)
+	- What is the opposite reciprocal of $\frac 14$ 
+- ![[Screenshot 2023-10-25 at 3.25.59 PM.png]]
+	- These types of questions are very common
+		- For parallel lines
+			- Plug-in the slope and then solve for b with the point given
+		- For perpendicular lines
+			- Find the opposite reciprocal of the slope and then solve for b given the point

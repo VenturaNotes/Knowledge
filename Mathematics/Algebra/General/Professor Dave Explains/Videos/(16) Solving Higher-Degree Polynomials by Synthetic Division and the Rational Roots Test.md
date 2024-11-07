@@ -1,0 +1,48 @@
+[Video](https://www.youtube.com/watch?v=WRkgMDVIETE)
+
+- ![[Screenshot 2023-10-17 at 1.52.03 AM.png]]
+	- Solving [[Quadratic|quadratics]]
+		- [[Factor]]
+		- [[Complete the square]]
+		- [[quadratic formula]]
+	- [[Polynomial|polynomials]] have factors just like numbers do
+	- [[Prime factorization]]
+		- Take some number and split it up into factors until we are left with only [[prime number|prime numbers]]
+	- Are there [[Prime Polynomial|prime polynomials]]
+		- Yes
+	- If we have a complex polynomial, it may be prime (meaning it can't be factored)
+		- it could be split up into a number of different factors
+	- It's not easy to tell whether a polynomial is prime just by looking
+	- $x^6 + 1$ is prime
+	- $x^6 - 1$ is not prime
+	- We need a special test!
+		- [[Synthetic division]]
+			- Can be used to test whether a polynomial is [[divisible]] by a particular expression or not
+	- Synthetic division is similar to [[long division]], but with [[algebraic expression|algebraic expressions]] instead of numbers
+		- We can use this technique to factor polynomials if we know one of the solutions
+		- Let's see if x = 2 is a solution. that would make (x-2) a factor
+	- Top row will be coefficients of equation
+		- Products go here
+		- sums go here
+	- A zero means [[no remainder]]
+	- These are the coefficients of the polynomial that remains after we factor out (x-2)
+		- 1, 3, -5, -15
+	- What is left will be of a degree that is one less than the original polynomial
+- ![[Screenshot 2023-10-17 at 2.01.25 AM.png]]
+	- Let's keep factoring until we have nothing but [[binomial|binomials]] (and therefore all the possible solutions)
+	- [[Synthetic division]] is the best way to solve tricky higher-degree polynomials
+	- How do we know which solutions to test for?
+		- We will use the [[rational root theorem|rational roots test]]
+			- This technique gives us a list of possible solutions
+			- Make a fraction
+				- $\frac {\text{factors of the constant term}}{\text{factors of the leading coefficient}}$
+					- [[Constant term]]
+					- [[leading coefficient]]
+			- Now make all the possible fractions
+	- Let's start with x = 1
+- ![[Screenshot 2023-10-17 at 2.04.13 AM.png]]
+	- This can get pretty tricky for bigger polynomials
+		- Especially if the rational roots test gives a long list of possible zeros to try
+- ![[Screenshot 2023-10-17 at 2.08.02 AM.png]]
+	- Checking comprehension
+		- Use the rational roots test and synthetic division to find all the solutions to this polynomial

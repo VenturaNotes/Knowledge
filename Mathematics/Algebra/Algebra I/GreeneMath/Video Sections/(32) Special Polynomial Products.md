@@ -1,0 +1,26 @@
+[12:55:21](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=46521s ) 
+
+- ![[Screenshot 2023-03-15 at 1.01.09 AM.png]]
+	- A binomial is a polynomial with 2 terms
+	- $(x+y)^2$
+		- Can be said as "x + y" quantity squared
+	- Use the [[Foil]] Method
+	- The [[Square of a binomial]]
+		- Don't think of the "-" in $(x-3)$, just follow the general formula as "x" and "3" being separate terms
+	- ![[Screenshot 2023-03-15 at 1.10.46 AM.png]]
+		- Practice
+- ![[Screenshot 2023-03-15 at 1.12.58 AM.png|400]]
+	- Another common scenario occurs when we multiply two binomials and one is the sum of two terms, while the other is the difference of the same two terms.
+	- [[Difference of 2 squares]]
+		- General Formula shown
+	- ![[Screenshot 2023-03-15 at 1.15.37 AM.png]]
+		- Examples
+- ![[Screenshot 2023-03-15 at 1.17.52 AM.png]]
+	- Lastly, let's look at a binomial that is cubed
+		- This is different from sum/difference of 2 cubes
+			- [[Difference of cubes]]
+			- [[Sum of cubes]]
+	- ![[Screenshot 2023-03-15 at 1.23.52 AM.png]]
+		- Practice
+		- $(x+4)^3$
+			- Can be said as "x plus 4 this quantity cubed"

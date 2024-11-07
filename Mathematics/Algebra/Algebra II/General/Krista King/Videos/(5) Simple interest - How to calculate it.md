@@ -1,0 +1,28 @@
+[Video](https://youtube.com/watch?v=jsf2DsIKtcc)
+
+- ![[Screenshot 2023-02-10 at 12.51.16 AM.png]]
+	- Currently have $500 earning 4%, how much interest will you earn in 2 years?
+	- How much will you have in total?
+	- Currently have $140 earning 57, how much is in the account in 6 years? 
+- When we say simple interest, we mean interest that is not compounded.
+- Compound interest is when you earn interest from $500 to $510 and then earn interest on $510.
+- Simple interest means you only earn interest on the original principal amount.
+	- Will continue earning interest on the baseline amount. Not the $510
+- Formula
+	- I = Prt
+		- I = Interest 
+		- P = Principal amount
+			- Amount in account we start with
+		- r = rate
+			- Interest rate
+			- Given to us as a percentage (but we need to express as a decimal number)
+			- Think of it as annual percentage rate (rate per year)
+			- has a unit of years
+		- t = time
+			- time in years
+			- Has a unit of years
+	- A = P + I
+		- A is total amount
+		- P is principal
+		- I is interest
+- Able to make the formula $A = P(1 + rt)$ 

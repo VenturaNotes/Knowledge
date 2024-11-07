@@ -1,0 +1,46 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=XtQIsKoHc8Q
+Length: 5 hours, 15 minutes, 26 seconds
+tags:
+  - status/incomplete
+  - type/video
+---
+- (1 - 10) Factor and Cancel
+	- ![[Screenshot 2023-03-31 at 2.18.31 AM.png]]
+		- #2 - Use [[(Video) Tic Tac Toe Method]] to guess and check the factors for the trinomial
+		- #3 - Take out negative of numerator, don't need parentheses when negative is in front of fraction
+		- #5 - Factor by grouping
+		- #7 - Sum of 2 cubes is not factorable but sum of 3 cubes is factorable. Shows difference of 2 cubes. Could use long division or synthetic division as well.
+	- ![[Screenshot 2023-03-31 at 2.39.16 AM.png]]
+		- #8 - Difference of cubes
+		- #9 - Synthetic division
+- (11-20) Expand and Cancel 
+	- ![[Screenshot 2023-03-31 at 3.11.43 AM.png]]
+		- #11 - Pascal's Triangle, Difference cubed has alternating signs
+		- #12 - Can use difference of 2 squares
+		- #16 - #16 to #20 are from the definition of the derivative 
+	- ![[Screenshot 2023-03-31 at 11.36.12 PM.png]]
+- (21-30) Conjugate
+	- ![[Screenshot 2023-03-31 at 11.52.45 PM.png]]
+		- #21 - It is ok to have the square root in the denominator for calculus
+	- ![[Screenshot 2023-04-01 at 12.06.51 AM.png]]
+		- #29 and #30 - Might need to take a double conjugate of numerator
+- (31-40) Complex Fractions - Means we have small fractions mixed with big fractions
+	- ![[Screenshot 2023-04-01 at 12.40.47 AM.png]]
+		- #32 - We usually would like to have the x come first.
+	- ![[Screenshot 2023-04-01 at 12.51.39 AM.png]]
+		- #37 - Multiply top and bottom by lowest common denominator
+- (41-50) Lowest Common Denominator (LCM) & Combine
+	- ![[Screenshot 2023-04-01 at 1.02.44 AM.png]]
+		- #42 - Could also multiply top and bottom by conjugate
+		- #45 - He came up with this question by starting with the answer he wants and going backwards
+	- ![[Screenshot 2023-04-01 at 1.25.55 AM.png]]
+		- #49 - Came from derivative of product rule and chain rule
+- Exponentials & Logarithms (51-60)
+	- #51 - $\frac {e^x - e^{-x}} {2}$ is called the hyperbolic sin function which is sinh(x). Can call it "sinch"
+		- $\frac {e^x + e^{-x}} {2}$ is called the hyperbolic cosine function which is cosh(x). Can call it "cawsh"
+		- $sin(2\theta) = 2sin(\theta)cos(\theta)$
+		- $sinh(2x) = 2sinh(x)cosh(x)$
+	- #52 -[[ Hyperbolic Identity]]: $cosh^2(x) - sin^2(x) = 1$
+		- It's subtraction because it comes from a hyperbola instead of a circle

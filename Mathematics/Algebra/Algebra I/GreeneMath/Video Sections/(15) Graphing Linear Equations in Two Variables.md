@@ -1,0 +1,39 @@
+[05:42:07](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=20527s) 
+
+- Why would we want to graph a linear equation in two variables?
+	- Linear equations in two variables have an infinite number of solutions
+	- A graph gives us a visual representation of all solutions of the equation
+- ![[Screenshot 2023-02-08 at 8.17.23 AM.png]]
+	- You can start plugging in values for x that would require you to subtract -12 which would give a number divisible by 3. This is so we get Integers for our points.
+	- All points on the line will be a solution to the linear equation
+		- We can check if (6,8) is a point on the line by plugging it into the equation
+	- Arrows tell us that the line is continuing forever in both directions
+- The[[x-intercept]]: location on the coordinate plane where our graph crosses the x-axis
+- The [[y - intercept]]: location on the coordinate plane where our graph crosses the y - axis
+- [[The Intercept method]]
+	- The intercept method is usually much faster than choosing random numbers to plug into the equation
+	- We begin by finding the x and y intercepts
+	- We also like one additional point for a check
+- ![[Screenshot 2023-02-08 at 10.16.47 AM.png]]
+	- To cross the x axis, y has to be 0.
+	- To cross the y axis, x has to be 0.
+- Additionally we may have to do more work if we get a line that passes through the origin. You can tell right away if your equation looks this way:
+	- ax + by = 0
+- ![[Screenshot 2023-02-08 at 10.19.32 AM.png]]
+	- x and y intercepts are at the same points
+- Let's wrap up our lesson by talking about <mark style="background: #FFF3A3A6;">two special case scenarios:</mark>
+	- [[Vertical line]]
+	- [[Horizontal line]]
+- A [[vertical line]] is one that has a fixed value for x, no matter what the value is for y. This type of line is parallel to the y-axis
+	- ![[Screenshot 2023-02-08 at 10.21.58 AM.png]]
+		- This is for x = -3 and x = 6
+	- Can write ax + by = c as
+		- 1x + 0y = -3
+			- or x = -3
+- A horizontal line is a similar concept. This type of equation has a fixed value for y, no matter what the value is for x. This type of line is parallel to the x-axis
+	- ![[Screenshot 2023-02-08 at 10.25.03 AM.png]]
+		- y = -2
+		- You don't need to find the x values since they will always be on the the horizontal axis of y = -2
+		- You could draw a horizontal line through (0,5) when y = 5 or a horizontal line through (0,9) when y = 9
+	- 0x  + 1y = -2
+		- This is the same as y = -2

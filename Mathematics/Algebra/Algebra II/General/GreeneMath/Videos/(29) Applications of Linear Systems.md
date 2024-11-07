@@ -1,0 +1,23 @@
+[12:37:41](https://www.youtube.com/watch?v=2wrPGtP61fo&t=45461s) 
+
+- ![[Screenshot 2023-09-18 at 9.16.10 AM.png]]
+	- Solving applications of linear systems
+		- Read the problem and determine the main objective
+		- Assign a variable to represent each unknown
+		- Write a system of equations
+		- Solve the system and check
+	- For every unknown we have, we need to have an equation
+		- 2 unknowns means 2 equations needed
+	- Make sure answer is reasonable (no negative distance)
+	- Problem #1
+		- Beth's school is selling tickets to a fall musical. On the first day of ticket sales, the school sold 12 senior tickets and 16 child tickets for a total of $336. The school took in $312 on the second day by selling 15 senior tickets and 11 child tickets. Find the price of a senior ticket and the price of a child ticket
+			- Set up 2 equations and used substitution
+			- Used substitution
+	- Problem #2
+		- [[Distance]] = [[rate]] $\times$ [[time]]
+- ![[Screenshot 2023-09-18 at 10.17.54 AM.png]]
+	- Problem #3
+		- James won $86,000 in the local lottery. He decided to invest the whole amount in three different investment funds. One in [[REIT]] pays 6% annual [[simple interest]]. The others, a [[C.D.]] and a [[bond fund]] pay 2% and 3% respectively
+		- The total in annual simple interest from the three investments was $3900. The annual simple interest earned from the REIT was $900 less than three times the amount earned from the bond fund and the C.D. Find how much was invested in each.
+			- [[Simple interest]] formula
+				- $I = Prt$

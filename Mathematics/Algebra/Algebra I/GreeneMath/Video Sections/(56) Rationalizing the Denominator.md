@@ -1,0 +1,22 @@
+[23:35:50](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=84950s) 
+
+- Introduction
+	- Simplified form of a [[radical]]: ^5c776a
+		- the radicand contains no factor (except 1) that is a:
+			- Perfect square - square root
+			- Perfect cube - cube root
+			- Perfect fourth - fourth root
+			- so on and so forth
+			- ![[Screenshot 2023-03-26 at 11.13.39 PM.png|300]]
+		- the [[radicand]] cannot contain fractions
+			- ![[Screenshot 2023-03-26 at 11.14.19 PM.png|300]]
+		- there is no [[radical]] present in any denominator
+			- ![[Screenshot 2023-03-26 at 11.14.49 PM.png|300]]
+- ![[Screenshot 2023-03-26 at 11.20.05 PM.png]]
+	- Practice/Examples
+	- When the denominator is $\sqrt2$ which is an irrational number, we rationalize the denominator by multiplying the top and bottom by $\sqrt{2}$ so that the denominator = 2 (which is a rational number). This is why it's called [[rationalizing the denominator]].
+	- Might be best to simplify denominator first
+- ![[Screenshot 2023-03-26 at 11.27.54 PM.png]]
+	- We may be faced with multiple terms in the numerator or denominator. We'll cover more complex scenarios in the next lesson.
+	- Need to find a cube root of 4 to completely rationalize the denominator.
+	- Build a factor tree to find the root you can rationalize with if the index is not 2. Otherwise rationalizing may take longer

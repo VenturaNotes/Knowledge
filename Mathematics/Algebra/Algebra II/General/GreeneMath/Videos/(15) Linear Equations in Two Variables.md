@@ -1,0 +1,22 @@
+[6:03:04](https://www.youtube.com/watch?v=2wrPGtP61fo&t=21784s) 
+
+- ![[Screenshot 2023-06-16 at 4.00.38 PM.png]]
+	- A [[linear equation]] in two variables is of the form
+		- ax + by = c
+			- a, b, and c are real numbers
+			- a and b are not both zero
+	- A solution to a linear equation in two variables is called an [[ordered pair]]: (x, y)
+- ![[Screenshot 2023-06-16 at 4.09.40 PM.png]]
+	- Examples
+- ![[Screenshot 2023-06-16 at 4.10.44 PM.png]]
+	- Examples of plotting
+	-  Mostly commonly known as [[Coordinate Plane]]
+		- Also known as cartesian coordinate system, or rectangular coordinate system
+	- Parts of coordinate plane
+		- [[Origin]]
+		- [[y-axis]]
+		- [[x-axis]]
+		- Quadrant I (+, +)
+		- Quadrant II (-, -)
+		- Quadrant III (-, -)
+		- Quadrant IV (+, -)

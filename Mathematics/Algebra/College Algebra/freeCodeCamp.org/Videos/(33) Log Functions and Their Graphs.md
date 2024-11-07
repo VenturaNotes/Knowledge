@@ -1,0 +1,33 @@
+[4:38:15](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=16695s)
+
+- Intro
+	- Will talk about their domains 
+- ![[Screenshot 2023-02-24 at 11.33.52 PM.png]]
+	- Graph y by plotting points
+	- No power you can raise to, to get a negative number or 0
+	- Key Points (this would all be true for $log_{10}x$ as well). Any $y=log_a(x)$ where a > 1 looks the same and has the 3 properties below
+		- Domain
+			- x > 0
+			- (0, $\infty$)
+		- Range
+			- All real numbers
+			- (-$\infty$, $\infty$ )
+		- Vertical Asymptote at y-axis
+			- This is at the line x=0
+			- A vertical asymptote is a line that our function's graph gets closer and closer to.
+- ![[Screenshot 2023-02-24 at 11.38.00 PM.png]]
+	- Graph $y=ln(x) + 5$. Find the domain, range, and asymptotes.
+		- The new equation just shift the line up 5 units
+- ![[Screenshot 2023-02-24 at 11.40.19 PM.png]]
+	- Graph $y = log(x+2)$. Find the domain, range, and asymptotes.
+		- Shifts left by 2.
+- ![[Screenshot 2023-02-24 at 11.42.05 PM.png]]
+	- Find the domain
+	- Using algebra to compute the domain
+	- Whatever is inside the argument of the log function, it better be greater than 0
+		- Then you just solve the inequality
+- ![[Screenshot 2023-02-24 at 11.43.51 PM.png]]
+	- Important to memorize the basic shape of the graph of a log function
+	- It goes through the point (1,0) and has a vertical asymptote on the y-axis
+	- Can't take the log of a negative number or 0 (this will help compute the domain of functions)
+		- Whatever is inside the log function, set it greater than 0 and solve to find the domain

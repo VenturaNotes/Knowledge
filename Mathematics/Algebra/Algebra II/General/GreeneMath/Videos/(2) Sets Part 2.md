@@ -1,0 +1,24 @@
+[0:23:58](https://www.youtube.com/watch?v=2wrPGtP61fo&t=1438s)
+
+- Venn Diagram - a way to visually represent the relationship between sets
+- ![[Screenshot 2022-12-15 at 12.00.21 AM.png]]
+	- The rectangle represents the whole universe
+	- A prime (A') or A compliment ($A^c$ ) 
+		- This contains all elements or members of set U that are not elements or members of set A.
+	- A $\cup$ B is the set of all elements of A and all elements of B which is its union
+		- A $\cup$ B  = {1, 2, 3, 4, 5, 6}
+			- No repeated elements
+	- A $\cap$ B = {3}
+		- Intersection between A and B
+			- Only shows the elements that they have in common 
+- ![[Screenshot 2022-12-15 at 12.03.32 AM.png]]
+	- A $\cap$ B = {n}
+	- $A^c$ = {t, q, a, b, c, d}
+	- $B^c$ = {a, b, c, g, h , d}
+- ![[Screenshot 2022-12-15 at 12.06.43 AM.png]]
+	- ![[Screenshot 2022-12-15 at 12.07.39 AM.png]]
+	- ![[Screenshot 2022-12-15 at 12.09.21 AM.png]]
+		- There is no overlap in A $\cap$ C. These two sets are called disjoint sets. They have no elements in common
+	- ![[Screenshot 2022-12-15 at 12.10.02 AM.png]]
+- ![[Screenshot 2022-12-15 at 12.10.45 AM.png]]
+	- ![[Screenshot 2022-12-15 at 12.11.29 AM.png]]

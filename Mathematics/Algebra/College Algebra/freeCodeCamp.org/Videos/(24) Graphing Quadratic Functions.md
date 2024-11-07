@@ -1,0 +1,50 @@
+[3:23:54](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=12234s)
+
+- ![[Screenshot 2023-02-21 at 7.55.53 PM.png]]
+	- Quadratic functions can be written in standard form or vertex form
+	- It always has a graph that looks like a parabola
+		- Will learn if parabola is pointing up or down
+		- Finding its x-intercept
+		- How to find vertex
+- ![[Screenshot 2023-02-21 at 8.05.44 PM.png]]
+	- Graph the following functions. For each graph label the vertex and the x-intercepts
+		- If a > 0
+			- parabola points opens upward
+		- If a < 0
+			- Parabola opens downward
+	- (A)
+		- The barebones basic quadratic function is f(x) = $x^2$
+		- Goes through the origin
+		- It's a parabola pointing upwards([[(4) Algebra - Ch. 8 - Solving Quad. Eqn. with Factoring (4 of 21) General Form of the Quadratic Equation#^f61eeb|opens upwards]])
+			- Arrows go up
+		- Vertex of a parabola is its lowest point when pointing upwards and highest point when pointing downwards 
+		- x-intercept is where the graph crosses the x-axis
+	- (B)
+		- Negative coefficient means pointing down
+	- (C)
+		- Vertex form helps graph quadratic functions
+	- (D)
+		- Find x-intercept by finding when y = 0
+		- Used quadratic formula to solve this problem
+		- Find the y-intercept when x = 0
+		- If quadratic equation is written in standard form, you can find the x-coordinate equaling $\frac {-b}{2a}$
+			- To find the y-coordinate, just plug-in the x-coordinate found
+			- This will give the <mark style="background: #FFF3A3A6;">vertex</mark>
+- ![[Screenshot 2023-02-21 at 8.09.24 PM.png]]
+	- To graph a quadratic function f(x) = $ax^2 + bx + c$
+		- The graph has the shape of a parabola
+		- The parabola opens up if a > 0 and down if a < 0
+		- To find the x-intercepts, set y = 0, that is f(x) = 0 and solve for x
+		- To find the vertex, 
+			- read it off as (h,k) if our function is in vertex form
+				- $y = a(x-h)^2 + x$
+			- Use vertex formula and get the x-coordinate to be $\frac {-b}{2a}$ if function is in standard form
+				- $y = ax^2 + bx + c$
+				- Then to find the y-coordinate, just plug-in the x-coordinate found.
+		- To find additional points on the graph
+			- Just plug-in values of x
+- ![[Screenshot 2023-02-21 at 8.11.48 PM.png|500]]
+	- How to find vertex of quadratic function
+		- If in vertex form, just use (h,k)
+		- If in standard form, find the x-coordinate of the vertex with $\frac {-b}{2a}$, and then plug-in this x-value into the equation to find the y-coordinate of the vertex
+			- Another video will show where the $\frac {-b}{2a}$ comes from

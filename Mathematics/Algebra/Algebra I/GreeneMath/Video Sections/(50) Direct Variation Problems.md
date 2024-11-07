@@ -1,0 +1,21 @@
+[21:07:37](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=76057s) 
+
+- ![[Screenshot 2023-03-19 at 11.49.35 PM.png]]
+	- y varies directly with x, if there is a constant k such that: y = kx
+		- k is the constant of variation
+		- if k > 0 as x increases, y increases
+			- As x increases by 1 unit, y increases by k units
+	- y = mx
+		- m is the slope
+- ![[Screenshot 2023-03-19 at 11.54.32 PM.png]]
+	- Let's suppose you purchased gas for $5.25 per gallon. We could model this purchase as:
+		- y = 5.25x
+			- y is total cost
+			- 5.25 is constant of variation
+			- x is # of gallons purchased
+	- y varies directly with x and y =40 when x = 5. Find y when x = 3
+- ![[Screenshot 2023-03-19 at 11.57.45 PM.png]]
+	- Here y varies directly with the nth power of x if there exists a real number k such that:
+		- $y=kx^n$
+		- Known as "[[direct variation]] as a power"
+	- If y varies directly with $x^2$, and y = 50 when x=2, find y when x = 10

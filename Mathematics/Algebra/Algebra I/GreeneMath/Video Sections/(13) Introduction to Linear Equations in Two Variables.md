@@ -1,0 +1,46 @@
+[05:02:08](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=18128s) 
+
+- A [[linear equation]] in two variables is an equation of the form:
+	- ax + by = c
+	- a, b, and c are real numbers
+	- a and b are not both zero
+- Examples
+	- 4x + 3y = 7
+	- -2x -4y = 13
+	- $\frac 14x$ + 18y = 12
+- When we worked with a linear equation in one variable, we generally had exactly one solution.
+	- 2x = 8
+		- x = 4
+- We'll see with linear equations containing 2 variables, there's an infinite number of xy combinations that are going to make the equation true.
+- We typically write our x and y values using what is known as an [[ordered pair]]:
+	- (x, y)
+		- x value on left
+		- y value on right
+	- Example
+		- (3, -1)
+- Checking an [[ordered pair]] and seeing if it's a solution to a linear equation with 2 variables
+	- Same concept as a linear solution with 1 variable
+		- ![[Screenshot 2023-02-07 at 8.05.58 PM.png|200]]
+	- ![[Screenshot 2023-02-07 at 8.06.34 PM.png|500]]
+- Given -4x - y = 16
+	- Check (-5,4) : (0,2) : (0.5, -18)
+		- -4(-5) - 4 = 16
+			- 16 = 16 (True)
+		- -4(0) - 2 = 16
+			- -2 = 16 (False)
+		- -4(0.5) + 18 = 16
+			- 16 = 16 (True)
+	- Only 2 ordered pairs are solutions
+- Given -7x - 3y = 42
+	- Check (3,8): (-9,7) : (2,5)
+		- -7(3) - 3(8) = 42
+			- -45 = 42 (False)
+		- -7(-9) - 3(7) = 42
+			- 42 = 42 (False)
+		- -7(2) - 3(5) = 42
+			- 1 = 42 (False)
+- We can pick a value for x, and solve for y, or vice versa:
+	- ![[Screenshot 2023-02-07 at 11.07.48 PM.png|300]]
+		- -22/3 is the only one shown solved.
+	- ![[Screenshot 2023-02-07 at 11.12.44 PM.png|300]]
+		- (3,-10)

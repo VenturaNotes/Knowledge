@@ -1,0 +1,36 @@
+[2:09:07](https://www.youtube.com/watch?v=2wrPGtP61fo&t=7747s) 
+
+- Phrases of Word Problems 
+	- [[Addition Phrases]] (order not important)
+		- the sum of (a number and 5): x + 5
+		- more than (3 more than a number): 3 + y or y + 3
+		- plus (-7 plus a number): -7 + z
+		- added to (a number added to -2): q +(-2) or -2 + q
+		- increased by (a number increased by 17): r + 17
+	- [[Subtraction Phrases]] (order important)
+		- less than (6 less than a number): x - 6
+		- less (6 less a number): 6 - x
+		- decreased by (a number decreased by 8): y - 8
+		- minus (4 minus a number): 4 - z
+		- subtracted from (a number subtracted from 11): 11 - q
+	- [[Multiplication Phrases]] (order not important)
+		- times (9 times a number): 9x
+		- multiplied by (a number multiplied by (-7)): -7r
+		- of ($\frac 13$ of a number): $\frac 13 x$
+		- product of (the product of a number and (-I5)): -15y
+	- [[Division Phrases]] (order important since not commutative)
+		- quotient of (the quotient of 7 and a number): $\frac 7x$
+		- divided by (a number divided by (-2)): $\frac {x}{-2}$
+	- is means equals "=" ()
+- ![[Screenshot 2023-06-15 at 3.09.20 AM.png]]
+	- Let's look at some sample problems.
+		- 5 times a number plus 7 times the number is 24. Find the number
+			- 5x + 7x = 24
+			- When solving a word problem, you generally want to answer with a nice little neat sentence
+				- The number is 2
+		- A number less twice the number is (-5). Find the number:
+			- x - 2x = -5
+		- When 8 is multiplied by the sum of a number times 7 and (-8), the result is six times the number plus 36. Find the number
+			- 8(7x-8) = 6x + 36
+		- The quotient of (-11) and 3 is added to 3 times a quantity, the result is the number less the quotient of 8 and 3. Find the number:
+			- $\frac {-11}{3}$ + 3x = x - $\frac 83$ 

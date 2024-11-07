@@ -1,0 +1,45 @@
+[3:49:06](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=13746s)
+
+- Intro
+	- Exponential functions and their graphs
+- ![[Screenshot 2023-02-21 at 8.58.25 PM.png]]
+	- Definition. An exponential function is a function that can be written in the form $f(x) a*b^x$ where a and b are real numbers, a $\ne$ 0, and b > 0
+		- The variable x is in the exponent
+		- A variable in the base is not an exponential fn
+	- Note. We require that $a \ne$ 0 because otherwise you'd have a constant function
+	- Note. We require that b > 0 because we can't use any negative bases (not a real number) or 0 bases (constant function) for an exponential function
+	- The number a is called the initial value
+		- It's called the initial value because when x = 0, we get f(0) = a
+	- and the number b is called the base
+- ![[Screenshot 2023-02-21 at 9.05.06 PM.png]]
+	- Graph the function $y=a*b^x$ for different values of a and b
+		- When increasing the a value, the y-intercept changes (function stretched out)
+		- When decreasing the a value, the initial value becomes negative and the graph flips across the x-axis.
+		- When increasing the b value, y-intercept stays at 1 but the graph becomes steeper and steeper
+		- When decreasing the value of b, when b = 1, the graph is completely flat (just a constant). When b = a fractional number, graph starts to slope the other way (decreasing now instead of increasing), but the y-intercept still hasn't changed
+		- When b goes to negative territory, the graph doesn't make any sense
+	- Takeaways
+		- a changes the y-intercept
+		- b changes the steepness of the graph when it's increasing for b values greater than 1 and decreasing for values of b less than 1
+- ![[Screenshot 2023-02-21 at 9.11.55 PM.png]]
+	- Fact. In the graph of $y = a*b^x$
+		- The parameter <mark style="background: #FFF3A3A6;">a</mark> gives the y-intercept
+		- The parameter <mark style="background: #FFF3A3A6;">b</mark> tells how the graph is increasing or decreasing
+		- If b > 1, the graph is <mark style="background: #FFF3A3A6;">increasing</mark>
+		- If b < 1, the graph is <mark style="background: #FFF3A3A6;">decreasing</mark>
+		- The closer b is to the number <mark style="background: #FFF3A3A6;">1</mark> , the flatter the graph
+	- So for example, the graph of $y=0.25^x$ is <mark style="background: #FFF3A3A6;">more steep</mark> than the graph of $y=0.4^x$.
+	- Fact. The graph of an exponential function $y= a*b^x$
+		- has a horizontal asymptote at the line <mark style="background: #FFF3A3A6;">y=0</mark>
+		- has domain <mark style="background: #FFF3A3A6;">(-infinity, infinity)</mark>
+		- has range
+			- If a > 0, (0, infinity)
+			- If a < 0, (-infinity, 0)
+	- Note
+		- The most famous exponential function in the world is $f(x) = e^x$. This function is sometimes written as $f(x) = exp(x)$. The number $e$ is Euler's number, and is approximately 2.71828182845904523...
+			- Important for calculus and compound interest problems
+- ![[Screenshot 2023-02-21 at 9.15.39 PM.png]]
+	- Looked at exponential functions (where the variable is in the exponent)
+	- All have the same general shape 
+	- If a is negative, the exponential function flips over the x axis (vertical direction)
+	- All have a horizontal asymptote where y=0 (x-axis)

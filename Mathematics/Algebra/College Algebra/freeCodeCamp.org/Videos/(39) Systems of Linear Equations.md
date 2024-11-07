@@ -1,0 +1,41 @@
+[5:35:34](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=20134s)
+
+- ![[Screenshot 2023-02-25 at 8.54.11 PM.png]]
+	- Linear equation can be rewritten as $y=mx+b$. It doesn't have any x or y squares in it.
+	- A system of linear equations is a collection of two or more linear equations
+		- Example
+			- 2x - y = 1
+			- x + y = 5
+	- A solution to a system of equations is an x value and a y value that satisfy both of the equations
+		- Ordered pair (2,3) (which is x=2, y=3) is a solution to the system above because plugging them in will make the equations both true
+		- The ordered pair (1, 4) does not work
+- ![[Screenshot 2023-02-25 at 8.56.11 PM.png]]
+	- Solve the systems of equations
+		- Method 1: substitution
+			- Isolate one variable using one equation and substitute it into other equation
+		- Method 2: Elimination
+			- Multiply each equation by a constant to make coefficients of one variable match
+	- What the solutions graphically means (it's the point where both lines intersect)
+		- ![[Screenshot 2023-02-25 at 8.56.55 PM.png]]
+- ![[Screenshot 2023-02-25 at 8.58.24 PM.png]]
+	- Solve the system of equations
+		- No solution because they have the same slope
+	- A system with no solution is called an [[inconsistent system]]
+- ![[Screenshot 2023-02-25 at 9.00.32 PM.png]]
+	- Solve the System of equations
+		- Second equation is just a constant multiple of the first equation
+	- Dependent system of linear equations
+		- Any x and y values will satisfy both equations
+		- Infinitely many solutions (x,y)
+	- The lines are just on top of each other so we'll see only 1 line
+- ![[Screenshot 2023-02-25 at 9.02.10 PM.png]]
+	- 2 Methods to solve systems of linear equations
+		- Substitution
+		- Elimination
+	- Types of solutions
+		- One solution
+			- Lines intersect once
+		- Inconsistent (no solutions)
+			- Lines never intersect
+		- Dependent (infinitely many solutions)
+			- Line on top of one another

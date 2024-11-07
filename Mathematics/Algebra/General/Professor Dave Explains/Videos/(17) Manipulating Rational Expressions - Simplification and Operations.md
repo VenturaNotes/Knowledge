@@ -1,0 +1,37 @@
+[Video](https://www.youtube.com/watch?v=KfrkcGx2Xl8)
+
+- ![[Screenshot 2023-10-17 at 2.22.56 AM.png]]
+	- Let's work with [[rational expression|rational expressions]]
+		- Simplification
+		- addition
+		- subtraction
+		- multiplication
+		- division
+	- Simplifying rational expressions
+		- Simplifying often requires factoring polynomials
+			- Helps cancel terms
+- ![[Screenshot 2023-10-17 at 2.28.53 AM.png]]
+	- Operations with rational expressions 
+	- Dividing by a fraction is the same as multiplying by its [[reciprocal]]
+	- Multiplying and dividing rational expressions is a piece of cake
+		- Adding and subtracting require a [[common denominator]]
+	- To add fractions with different denominators, we needed to find the [[least common multiple|LCM]] of the denominators
+		- Many times, that would just be the product of the denominators
+	- With polynomials, we still just get the [[least common denominator]]
+	- Should FOIL the [[binomial|binomials]] since that would give a bunch of [[like terms]] we could then combine
+- ![[Screenshot 2023-10-17 at 8.56.08 AM.png]]
+	- The numerator can't be factored so that's as far as we can go
+	- Subtraction works similarly
+	- When combining numerators, make sure to distribute negative signs appropriately
+	- We sometimes have to factor denominators to find the LCD
+		- Will just be the product of all the terms in both denominators
+	- Simplifying complex rational expressions (just means there are fractions within the fractions)
+	- We don't like radicals in the denominators of fractions!
+		- Just multiply be the root over itself
+		- When we square a radical expression, we just get rid of the radical
+	- What if the [[radical]] is part of a sum or difference?
+		- We must use the [[conjugate]]
+- ![[Screenshot 2023-10-17 at 9.01.13 AM.png]]
+	- Errata
+		- First problem should be $x^2 + 9x + 14$
+		- Second problem seems to be incorrect in general

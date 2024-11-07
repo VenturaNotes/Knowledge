@@ -1,0 +1,21 @@
+[Video](https://www.youtube.com/watch?v=aJ0abU348ds)
+
+- ![[Screenshot 2023-05-15 at 3.44.23 AM.png]]
+	- We know the basics about algebra
+	- x + 3 = 8
+		- equation
+	- Examples
+		- 3x + 7 = 16
+			- Typically do addition/subtraction first before multiplication/division when solving algebraic equations
+		- 4x + 3 = x - 6
+			- We want just one x term so we have to combine them
+				- Subtract x on both sides
+				- Combine like terms
+			- Combine the numbers
+			- Divide
+			- That was a three-step solution
+		- $\frac {3-3x}{4} = 3(2x + 1)$: Solution is x = $\frac {-1}{3}$
+			- The denominator of one side can be pulled up to the numerator of the other side
+				- This is the same as multiplying both sides by 4 (but simpler way of thinking about it)
+			- The numerator of one side can be pulled down to the denominator of the other side
+	- Algebra sometimes requires that you form a strategy. Just be careful as you perform each step

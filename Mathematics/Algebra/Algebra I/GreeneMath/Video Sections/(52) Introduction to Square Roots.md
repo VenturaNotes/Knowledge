@@ -1,0 +1,55 @@
+[21:40:14](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=78014s) 
+
+- ![[Screenshot 2023-03-24 at 4.22.09 PM.png]]
+	- We will begin with [[square root|square roots]]: Squaring a number means to multiply a number by itself:
+	- What if I gave you the following?
+		- $a^2 = 225$ 
+			- a = ?
+		- You could use [[prime factorization]] to find the square root of a number (if the root is a whole number)
+	- The [[principal square root]]is the positive number square root
+		- Principal square root of 225 is 15
+			- $\sqrt{225}$ equaling -15 is just the negative square root
+- ![[Screenshot 2023-03-24 at 4.23.29 PM.png]]
+	- If a > 0 then:
+		- $\sqrt{a}$ is a positive number that when squared gives us: a
+		- $-\sqrt{a}$ is a negative number that when squared gives us: a
+- ![[Screenshot 2023-03-24 at 4.26.19 PM.png]]
+	- Practice/Examples
+- ![[Screenshot 2023-03-24 at 4.29.12 PM.png]]
+	- When we square the square root symbol, the two cancel each other out. Squaring and square root are opposite operations, just like multiplication/division
+	- Examples/Practice
+- ![[Screenshot 2023-03-24 at 4.40.21 PM.png]]
+	- Recall that a [[Rational Numbers|rational number]] is one that can be formed from the quotient of two integers. In decimal form it terminates or repeats the pattern forever.
+		- $21.\overline{3}$ 
+			- This is a rational number as the 3 repeats forever.
+		- $\frac {28}{3}$
+			- Quotient of 2 integers.
+	- Any number whose square root is a rational number is called a "[[perfect square]]"
+		- $\sqrt{225}$ = 15
+		- $\sqrt{9}$ = 3
+		- $\sqrt\frac 14$ = $\frac 12$
+	- An [[irrational number]] is one that cannot be written as the ratio of two integers. Its decimal does not terminate nor does it repeat.
+		- $\sqrt{2}$ $\approx$ 1.41
+		- Famous example is $\pi$ 
+	- When we get an [[irrational]] square root, generally we will approximate by rounding to the nearest hundredth: (used calculators for below)
+		- $\sqrt{11}$ $\approx$ 3.32
+		- $\sqrt{7}$ $\approx$ 2.65
+	- We also need to understand that not every real number has a square root
+		- $\sqrt{-4}$ is not a real number
+- ![[Screenshot 2023-03-24 at 4.59.03 PM.png]]
+	- We saw that the square root is the reverse of squaring. Similarly the cube root is the reverse of cubing.
+		- $2^3 = 2*2*2 = 8$
+		- $\sqrt[3]{8}$ = 2
+	- $\sqrt[n]{a}$ (whole thing is a radical (also known as root))
+		- n is the index
+		- a is the radicand
+	- $\sqrt[5]{a}$
+		- When looking for the 5th root of something. We're looking for a number that when multiplied by itself 5 times gives that number, (the radicand (a))
+	- Don't typically write the "2" is the index
+	- When the [[- Topics/index]] is equal to 1, the [[radical]] becomes the [[radicand]] itself
+		- $\sqrt[1]{4}$ = 4
+		- $a^4$ = $\sqrt[1]{a^4}$
+- ![[Screenshot 2023-03-24 at 5.01.50 PM.png]]
+	- Can find a real number when solving for a radical with an odd root and a negative radicand.
+	- A radicand with an odd index: 3, 5, 7,... can have a negative radicand
+	- Bottom-right problem has an even index meaning that the result will not be a real number

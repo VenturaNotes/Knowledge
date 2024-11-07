@@ -1,0 +1,32 @@
+[Video](https://www.youtube.com/watch?v=UTuxHsaH-gQ)
+
+- ![[Screenshot 2023-10-17 at 1.08.11 AM.png]]
+	- Solving [[Quadratic|quadratics]]
+	- Strategy 1: [[Factoring]]
+	- Strategy 2: [[Complete the square|completing the square]]
+	- Strategy 3: Can we solve by brute force?
+		- [[Quadratic formula]]
+	- $ax^2 + bx + c$
+		- Can we plug these coefficients into some equation and solve?
+	- For quadratic formula
+		- $a \ne 0$ 
+	- Deriving the quadratic formula
+		- Step 1: Divide everything by a
+		- Step 2: Subtract $\frac ca$ 
+		- Step 3: Complete the square
+		- Step 4: Factor
+		- Step 5: Simplify
+		- Step 6: Take the square root
+		- Step 7: Solve for x
+- ![[Screenshot 2023-10-17 at 1.14.46 AM.png]]
+	- x equals the opposite of b plus or minus the square root of $b^2 - 4ac$ all over 2a
+	- $x = \frac {-b \pm \sqrt{b^2 - 4ac}}{2a}$ 
+		- Just plug the coefficients of any quadratic into this formula and get the solution
+			- $ax^2 + bx + c = 0$ 
+	- There are similar equations for solving [[Cubic|cubics]] and [[Quartic|quartics]] but they are quite tricky
+	- This formula is for any quadratic
+	- If the [[discriminant]] is negative, then there are no [[real solutions]]
+		- (only [[imaginary numbers]])
+- ![[Screenshot 2023-10-17 at 1.20.03 AM.png]]
+	- Checking comprehension
+		- Solve the following equations using the quadratic formula

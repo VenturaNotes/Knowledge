@@ -1,0 +1,22 @@
+[16:53:43](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=60823s) 
+
+- ![[Screenshot 2023-03-17 at 1.31.42 AM.png]]
+	- Factoring the [[difference of two squares]]
+		- $(x+y)(x-y)=x^2-y^2$
+	- To identify if a binomial is a difference of two squares
+		- Both terms must be squares
+		- $*$Second term is negative
+	- ![[Screenshot 2023-03-17 at 1.34.58 AM.png]]
+		- Examples/Practice
+- ![[Screenshot 2023-03-17 at 1.36.56 AM.png]]
+	- Let's take a look at some [[perfect square trinomials]]
+	- ![[Screenshot 2023-03-17 at 1.39.48 AM.png]]
+		- Examples/Practice
+		- To solve for them, check if the middle term is equal to "2xy" in which the "x" and "y" are the square roots of the x and y terms. 
+			- So basically do $2\sqrt{x}\sqrt{y}$ to see if equals the middle term
+- ![[Screenshot 2023-03-17 at 1.45.52 AM.png]]
+	- Lastly, we look at factoring the difference/sum of cubes
+	- ![[Screenshot 2023-03-17 at 1.48.23 AM.png]]
+		- Practice/Examples
+			- [[Difference of cubes]]
+			- [[Sum of cubes]]

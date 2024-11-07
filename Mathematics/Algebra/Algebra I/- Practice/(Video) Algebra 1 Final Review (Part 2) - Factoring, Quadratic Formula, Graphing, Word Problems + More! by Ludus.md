@@ -1,0 +1,97 @@
+---
+Source:
+  - https://youtu.be/V_Y-VHnSKpo
+Length: 1 hour, 30 minutes, 27 seconds
+tags:
+  - status/complete
+  - type/video
+Published: true
+---
+- ![[Screenshot 2023-05-29 at 5.08.23 PM.png]]
+	- Topics
+		- Factoring polynomials
+		- [[Complete the square]]
+		- [[Quadratic Formula]]
+		- Roots and irrational numbers
+		- Graphing Functions
+		- Properties of Operations
+		- Solving Systems of Linear Equations
+		- Word Problems
+- ![[Screenshot 2023-05-29 at 5.09.11 PM.png]]
+	- (1) Factor
+- ![[Pasted image 20230529171141.png]]
+	- (2) Factor $g(x) = x^2 - 36$ and check your answer
+		- [[Difference of Perfect Squares]]
+- ![[Screenshot 2023-05-29 at 5.15.10 PM.png|500]]
+	- (3) Find the zeros of $h(x) = 4x^2 - 4x - 3$ by factoring
+		- You could factor a polynomial by changing it into a fraction
+- ![[Screenshot 2023-05-31 at 7.15.22 AM.png]]
+	- (4) Find the zeros of the following quadratic by completing the square
+		- $f(x) = x^2 - 2x - 4$
+- ![[Screenshot 2023-05-31 at 7.51.26 AM.png]] ^f67d80
+	- (5) Solve for x by completing the square
+- ![[Screenshot 2023-05-31 at 7.55.17 AM.png|500]]
+	- (6) Find the vertex of the following quadratic and state whether it is a maximum or minimum
+		- This vertex is a <mark style="background: #FFF3A3A6;">minimum</mark>. We know this because the coefficient on $x^2$ in the original equation is positive and so this is an upward facing parabola whose vertex would be at the lowest point
+- ![[Screenshot 2023-05-31 at 8.00.28 AM.png]]
+	- (7) Find the zeros of the following quadratic using the [[quadratic formula]].
+- ![[Screenshot 2023-05-31 at 12.25.45 PM.png]]
+	- (8) Are the roots of the following quadratic real or imaginary?
+		- Need to use [[Discriminant]] for this
+			- Since negative, we get imaginary square roots
+- ![[Screenshot 2023-05-31 at 4.36.05 PM.png|400]]
+	- (9) Solve for x:
+		- Eliminate fractions by multiplying everything by 6  
+- ![[Screenshot 2023-05-31 at 4.53.49 PM.png|400]]
+	- (10) Is $\sqrt{28}$ an irrational #? Is 0.$\overline {3}$ rational? Justify your answers?
+		- [[Rational Numbers]] can be displayed as a ratio of two integers ^07b61b
+	- So, you don't have to know that decimal is equal to $\frac 13$
+	- The point is that there is a pattern (it repeats), so it's rational
+	- A fraction is a ratio
+- ![[Screenshot 2023-05-31 at 4.55.42 PM.png]]
+	- (11) Put the square root of 60, and the cube root of 16 into simplest radical form.
+- ![[Screenshot 2023-05-31 at 4.57.29 PM.png]]
+	- (12) Which of the following graphs corresponds to $f(x) = \sqrt{x + 2} + 1$
+- ![[Screenshot 2023-05-31 at 5.02.01 PM.png]]
+	- (13) Graph
+		- Used completing the square
+			- Used the [[vertex form]]
+- ![[Screenshot 2023-05-31 at 5.05.04 PM.png]]
+	- (14) Graph $f(x) = 2^x - 5$ below 
+		- Just found points, plotted them, and then connected them.
+- ![[Screenshot 2023-05-31 at 5.08.24 PM.png]]
+	- (15) The graph of a function j(x) is shown below. The points A(-5, 0), B(-3,2) and C(-1, 0) all lie on this graph. Which point(s) is/are at the zero(s) of this graph?
+		- A and C are the zeros
+		- B is the vertex
+- ![[Screenshot 2023-05-31 at 5.11.34 PM.png|500]] ^8f213b
+	- (16) The graph of h(x) is shown below. State all x values where the rate of change is zero. (Use[[Interval Notation]])
+- ![[Screenshot 2023-05-31 at 5.15.31 PM.png]]
+	- (17) Which two properties are being used to get from step 1 to step 2?
+		- [[Commutative Property]]
+		- [[Distributive Property]]
+- ![[Screenshot 2023-05-31 at 5.17.14 PM.png]]
+	- (18) Demonstrate the [[associative property]] and the [[identity property of multiplication]] below
+- ![[Screenshot 2023-05-31 at 5.19.25 PM.png|500]]
+	- (19) Solve this system of linear equations using the [[substitution method]].
+		- Plugging in some function
+- ![[Screenshot 2023-05-31 at 5.22.26 PM.png|500]]
+	- (20) Solve this system of linear equations using the [[elimination method]]
+- ![[Screenshot 2023-05-31 at 5.25.41 PM.png|500]]
+	- (21) Solve this [[system of linear equations]]
+		- Elimination method looks easier here
+	- When 0 = 0, it means you have infinite solutions
+		- It means both equations have the same line
+- ![[Screenshot 2023-05-31 at 5.29.20 PM.png]]
+	- (22) One of my subscribers wants to buy my online courses (coming soon) and support me on Patreon. My online courses cost $100 each. In one year, this subscriber buys 2 of my online courses and supports me on Patreon every month; all together spending $500
+		- How much money per month did they donate to me on Patreon?
+- ![[Screenshot 2023-05-31 at 5.33.23 PM.png]]
+	- (23) I threw a ball into the air because I wanted to assign this math problem. The height of this ball can be modeled by $h(t) = -3t^2-4t+7$ where t is the time elapsed in seconds. In this function, what does 7 represent? Does this parabola open upward or downward
+		- 7 represents the initial height of the ball
+		- The parabola opens downward because the coefficient on $x^2$ is negative, which represents a reflection about the x-axis
+- ![[Pasted image 20230531173519.png]]
+	- (24) The formula for [[electrical power]] is $P=I^2*R$ where P is power, I is current, and R is resistance. Solve for I in terms of P and R.
+- ![[Screenshot 2023-05-31 at 5.40.48 PM.png]]
+	- (25) You are playing Minecraft because you're actually cool. On the first day of playing Minecraft you decide to build a tower, and you place down 10 blocks. On the next day, you place down another 5 blocks, and you continue to place down 5 blocks everyday after that. How many blocks have you placed after 30 days?
+		- [[Arithmetic Sequence]]
+			- [[Explicit Formula]]
+			- [[Recursive Formula]]

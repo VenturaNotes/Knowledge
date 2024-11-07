@@ -1,0 +1,38 @@
+[2:49:05](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=10145s)
+
+- ![[Screenshot 2023-02-21 at 6.49.49 PM.png]]
+	- Definition
+		- A function is correspondence between input numbers (x-values) and output numbers (y-value) that sends each input number (x-value) to exactly one output number (y-value)
+	- Can think of a machine as it takes an input value and produces one output number
+		- You have person as input which goes through biological mother function and outputs their biological mother
+			- Needs to be a biological mother
+	- Sometimes, a function is described with an equation
+	- What is f(2), f(5) and f(a+3)?
+		- f(x) is function notation (NOT multiplication!)
+			- We're putting in a value for x's input and getting out a value of f(x) or y
+	- Use parentheses when evaluating fn (function) on expression
+- ![[Screenshot 2023-02-21 at 6.52.11 PM.png]]
+	- Sometimes, a function is described with a graph
+	- Must pass the vertical line test
+	- g(5)
+		- It's undefined or does not exist because there is no existing value there for y=g(x)
+	- The question of what x-values and y-values makes sense for a function leads us to a discussion of domain and range
+- ![[Screenshot 2023-02-21 at 6.55.19 PM.png]]  
+	- The domain of a function is all possible x-values. The range is the y-values.
+		- Values that make sense for that function
+	- Example
+		- What is the domain and range of the function g(x) graphed below?
+	- To find the x-values in the domain, we have to look at the x-values that correspond to points on the graph. One way to do that is to take the shadow or projection of the graph onto the x-axis and see what x-values are hit. Looks like we're hitting all x-values starting at -8 and hitting up to 4. This is our domain
+		- ![[Screenshot 2023-02-21 at 6.54.51 PM.png]]
+- ![[Screenshot 2023-02-21 at 6.58.46 PM.png]]
+	- What are the domains of these functions?
+	- To find domain:
+		- (1) Exclude x-values that make denominator 0
+		- (2) Exclude x-values that make an expression inside a $\sqrt{}$ negative
+			- Need to exclude values that make any even root negative
+			- But we can take an odd root (or cube root) of a negative number
+		- Logarithmic functions will have additional exclusions
+- ![[Screenshot 2023-02-21 at 7.00.11 PM.png]]
+	- Has both square root and denominator in equation
+- Summary
+	- Functions, how to evaluate them, and how to find domains and ranges

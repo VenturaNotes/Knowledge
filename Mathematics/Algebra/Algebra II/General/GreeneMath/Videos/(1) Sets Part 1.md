@@ -1,0 +1,89 @@
+[0:00:00](https://www.youtube.com/watch?v=2wrPGtP61fo&t=0s)
+
+- A set is a collection of things
+	- It should be clear whether something belongs to the set or not
+- {0, 1, 2, 3, 4, ...}
+	- Members or elements of the set
+	- -5 is not a member of the set of whole numbers
+	- They are enclosed in a set of braces {}
+	- [[Roster Method|Roster Method]] ^a82492
+		- Listing the members or elements of the set inside of "set braces"
+- {...,-2,-1,0,1,2,...}
+	- This is the set of integers
+	- 3 dots are known as an ellipses and tells you that a pattern continues
+		- Continuing to the left is -3, -4, -5 etc.
+		- Same to the right, 3,4,5
+	- 3.41 would not be part of this set
+- We can have sets that don't involve numbers
+	- {a,b,c,d,e}
+		- We can have the first 5 letters of the alphabet inside the set braces
+- The order that we list the elements of a set is not important
+	- {1,6,7} = {6,7,1} = {1,7,6}
+	- Order does not matter. Elements or members matter
+- States that border Louisiana
+	- {Mississippi, Arkansas, Texas} = {Texas, Mississippi, Arkansas}
+		- This is the set whose elements are the states that border Louisiana
+		- What's important are the members or elements of the set
+- We can use capital letters to name a set:
+	- Let A be the set of whole numbers less than 4:
+		- A = {0,1,2,3}
+		- This is the set A
+- A set that contains no elements is referred to as an "empty set" or "null set":
+	- ![[Screenshot 2022-12-14 at 10.36.58 PM.png|400]]
+	- Solution set notation. A solution set is a set whose elements are a solution to your equation. Not that useful in algebra 2, but good for higher level maths. Helps when you have many solutions
+	- $\varnothing$  
+		- Use this symbol to show an equation with no solution
+	- {}
+		- You can also use set braces with nothing inside
+	- {$\varnothing$} (WRONG!)
+		- This is the set that contains 1 element (which is the empty set)
+		- The above is wrong
+- B = $\varnothing$ 
+	- This is the set of pigs that have been to Saturn
+- B = {}
+	- This is valid as well
+- The symbol "$\in$" is used to denote "is a member of the set":
+- Z = {3,7,1,8}
+	- 3 $\in$ 2
+	- 7 $\in$ 2
+	- 1 $\in$ 2
+		- Read as "1 is an element of set Z"
+	- 8 $\in$ 2
+- The symbol "$\notin$" is used to denote "is not a member of the set":
+	- ![[Screenshot 2022-12-14 at 11.38.11 PM.png|200]]
+- The universal set U is a set that contains all elements under consideration
+	- ![[Screenshot 2022-12-14 at 11.39.39 PM.png]]
+		- A represents the states that border Louisiana
+		- The universal set is all the states of the United States (in alphabetical order)
+			- All elements under consideration would be every state in the U.S.
+- ![[Screenshot 2022-12-14 at 11.42.36 PM.png]]
+	- First set represents all living presidents
+	- Second set represents all presidents ever in the United State  (in alphabetical order)
+- Additionally, we have finite sets, which have a specific number of elements and infinite sets, which have an unlimited number of elements.
+	- A = {0, 1, 2, 3, 4, 5}
+		- These are the whole numbers less than 6.
+- Let's take a look at subsets:
+	- A = {1,7,3}
+		- A is a proper subset of B because B contains all elements of A and they are not equal to each other.
+			- A $\subset$ B
+		- A has 1, 7 and 3, which B has
+	- B = {1,2,3,4,5,6,7,8}
+- If 2 sets are equal meaning they have exactly the same elements, they're known as improper subsets of each other.
+	- The two sets are equal to each other because they have the same elements
+		- G = {1, 8, 2}
+		- D = {2, 1, 8}
+	- They are improper subsets of each other.
+	- G $\subseteq$ D
+		- G is an improper subset of D
+	- D $\subseteq$ G
+		- D is an improper subset of G
+- We use the symbol "$\not\subset$" to denote "is not a subset of":
+	- It's just a subset symbol with a line drawn through it
+- Q = {a, m, n, o}
+- L = {a, d, z, p, o, n}
+	- ![[Screenshot 2022-12-14 at 11.52.01 PM.png|400]]
+- Lastly, let's discuss how many subsets can be made from a given set: $2^n$ (where n is the number of elements)
+	- ![[Screenshot 2022-12-14 at 11.53.20 PM.png|400]]
+		- The empty set is a subset of all sets. (choosing nothing)
+			- You have to think of subsets as possible choices from the set. 
+- ![[Screenshot 2022-12-14 at 11.55.30 PM.png|400]]

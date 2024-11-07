@@ -1,0 +1,34 @@
+[2:33:06](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=9186s)
+
+- ![[Screenshot 2023-02-21 at 6.34.49 PM.png]]
+	- Find the equation of this line
+		- Find the slope using the slope formula
+		- Plug-in one of the points into the formula in slope-intercept form and find the value of b
+	- m represents the slope
+	- b represents the y-intercept
+		- y value where the line crosses the y-axis
+	- Slope = rise over run = change in y values over change in x values = y2 - y1 over x2 - x1
+		- The $(x_1,y_1)$ and $(x_2,y_2$) are points on the line
+	- Convenient points to use would be integers
+- ![[Screenshot 2023-02-21 at 6.36.22 PM.png]]
+	- Find the equation of these lines
+	- Vertical line equation
+		- x = -2
+	- Horizontal line equation
+		- y = 3.5
+- ![[Screenshot 2023-02-21 at 6.38.20 PM.png]]
+	- Find the equation of the line through the points (1,2) and (4,-3)
+	- Two methods
+		- Using slope-intercept form
+		- Using point-slope form
+			- $(x_0,y_0)$ is a point on line
+			- m is slope
+- ![[Screenshot 2023-02-21 at 6.39.59 PM.png]]
+	- Can find <mark style="background: #FFF3A3A6;">equation for line</mark> if you know the <mark style="background: #FFF3A3A6;">slope and one point</mark>
+	- Can find equation for line given <mark style="background: #FFF3A3A6;">2 points</mark>
+	- Slope -intercept form
+		- m is slope
+		- b is y-intercept
+	- Point slope form
+		- m is slope
+		- $(x_0,y_0)$ is point on line

@@ -1,0 +1,29 @@
+[Video](https://www.youtube.com/watch?v=GuwofNeT9ok)
+
+- ![[Screenshot 2023-07-27 at 7.58.19 PM.png]]
+	- Learning how to factor polynomials
+	- $ax^2 + bx + c = 0$
+		- [[Standard form]] for a quadratic (second degree form)
+		- Where a, b, and c are integers
+		- For what value of x will this expression be equal to zero?
+	- Solving polynomials by factoring
+		- We must learn how to [[FOIL]] in reverse
+			- multiplying binomials by the FOIL method
+			- expressing a trinomial as the product of binomials
+	- When factoring, you need 2 numbers that multiply together to get "c" and 2 numbers that add together to get "b"
+		- Listing the factors of 10 for given example
+	- Can check work by multiplying through using the FOIL method
+- ![[Screenshot 2023-07-27 at 10.37.58 PM.png]]
+	- 5 and 2 add to 7
+	- 5 and 2 multiplied to get 10
+	- We used this logic in reverse to factor
+	- Given $3x^2 + 5x - 2$
+		- These terms must now go in specific binomials
+		- Use the guess and check method for factors of -2
+	- How does this help us solve polynomials?
+		- If any polynomials had been set equal to 0, then the binomials must multiply to equal zero
+		- If either binomial is zero, then their product is zero
+			- Those "x" values would then satisfy the equation
+- ![[Screenshot 2023-07-27 at 10.47.57 PM.png]]
+	- We can plug in our answers to check them
+	- Now we can solve certain polynomials by factoring

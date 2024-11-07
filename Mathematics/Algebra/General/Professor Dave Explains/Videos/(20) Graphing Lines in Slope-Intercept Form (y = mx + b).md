@@ -1,0 +1,27 @@
+[Video](https://www.youtube.com/watch?v=T-acWVybQtk)
+
+- ![[Screenshot 2023-10-25 at 2.59.41 PM.png]]
+	- We know about the [[coordinate plane]]
+	- Let's continue studying lines
+	- Graphing lines in [[slope-intercept form]]
+	- $y = mx + b$
+		- m = slope
+		- b = y-intercept
+	- Any two points define a [[line]]
+		- We can find the equation for the line that contains these two points
+	- Steps
+		- Step 1: Calculate the slope
+		- Step 2: Plug into $y= mx + b$ 
+		- Step 3: Plug in Some Coordinates
+		- Step 4: Solve for b
+		- Step 5: Write the equation for the line
+	- Now we can find the equation of a line given the coordinates of any two points on the line
+- ![[Screenshot 2023-10-25 at 3.03.43 PM.png]]
+	- What happens if you're given a point and a slope?
+	- If we want to graph the line, we just need to plot two points
+		- The arrows on either side of a line indicates that the line will continue forever
+	- These points can be
+		- Two given points
+		- An intercept and a point given by the slope
+		- Points given by the equation
+			- $y = mx + b$ 

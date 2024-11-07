@@ -1,0 +1,68 @@
+[00:26:26](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=1586s) 
+
+- A [[term]] is a single number or a number that is multiplied by 1 or many variables and those variables can be raised to powers
+- An [[algebraic expression]] is a single term or a collection of terms separated by + or - signs.
+- An [[equation]] is a statement that two algebraic expressions are equal
+- An equation ALWAYS INCLUDES the equality symbol "="!
+	- 3x - 4 (Algebraic expression
+		- If you said let x = 2, you could evaluate it to make it an equation
+	- 2x = 8 (equation because it has an equal sign)
+	- $7x^2 - 1$ 
+		- An algebraic expression
+- Examples
+	- 2x = 8 (true if x = 4)
+		- What value can i substitute to get a value of 8?
+		- If you replace x with 4, you get a true statement
+		- 2(4) = 8
+		- 8=8
+		- Must look for value of x that makes the equation true
+		- Choosing any other number gives a false statement
+	- 3 + x = 5
+		- 3 + ? gives me 5?
+		- x = 2
+		- 3 + 2 = 5
+		- 5 = 5
+		- Choosing any other number gives a false statement
+- Determine if each is a solution to the given equation:
+	- $\frac x6 = 2$ and potential solutions (5,1,12)
+		- let x = 5
+			- 5/6 != 2
+		- let x = 1
+			- 1/6 != 2
+		- let x = 12
+			- 12/6 = 2 (yes)
+		- x = 12 is our solution
+	- 3(4k + 4) = -84 with potential solutions (-8, 7, 0)
+		- let x = -8 (this is a solution)
+			- 3(4(-8) + 4) = -84
+				- 3(-28) = -84
+					- -84 = -84 (correct)
+		- let x = 7
+			- 3(4(7) + 4) = -84
+				- 3(32) = -84
+					- 96 = -84 (wrong)
+		- let x = 0
+			- 3(4(0) + 4) = -84
+				- 3(4) = -84
+					- 12 = -84
+	- $n^2$ = 8n with potential solutions (-4, 0, 8)
+		- let n = -4
+			- $(-4)^2 = 8(-4)$
+				- 16 = -32 (wrong)
+		- let n = 0 (solution)
+			-  $(0)^2 = 8(0)$
+				- 0 = 0
+		- let n = 8 (solution)
+			- $(8)^2 = 8(8)$
+				- 64 = 64
+	- $\frac{x-6} {4x} - \frac{5}{4x} = \frac {1}{x}$ with potential solutions (-1, 15)
+		- let x = -1
+			-  $\frac{-1 -6} {4(-1)} - \frac{5}{4(-1)} = \frac {1}{(-1)}$ 
+				-   $\frac{-7} {4(-1)} - \frac{5}{-4} = -1$ 
+					- $\frac {-12}{-4} = -1$ 
+						- 3 = -1 (wrong)
+		- let x = 15 (solution)
+			-   $\frac{15 - 6} {4(15)} - \frac{5}{4(15)} = \frac {1}{(15)}$ 
+				-  $\frac{9}{60} - \frac{5}{60} = \frac {1}{(15)}$ 
+					- $\frac{4}{60} = \frac {1}{(15)}$ 
+						- $\frac{1}{15} = \frac {1}{15}$ (correct)

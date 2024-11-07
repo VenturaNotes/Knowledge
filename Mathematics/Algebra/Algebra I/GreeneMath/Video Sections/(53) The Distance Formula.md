@@ -1,0 +1,22 @@
+[22:11:57](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=79917s) 
+
+- ![[Screenshot 2023-03-26 at 10.19.39 PM.png]]
+	- [[Pythagorean Formula]] $a^2+b^2=c^2$
+		- Tells us about the relationship between the sides of a right triangle.
+		- Helps us develop the distance formula between 2 points
+	- For a [[right triangle]] (Has a $90\degree$ angle) ^d13960
+		- Shorter sides
+			- Leg a
+			- Leg b
+		- Longest side (will always be opposite of the 90 degree angle)
+			- c hypotenuse
+	- A $90 \degree$ angle is known as a right angle
+		- The square is a symbol that denotes a triangle having a right angle
+- ![[Screenshot 2023-03-26 at 10.22.23 PM.png]]
+	- If a=3, and b = 4, what is c?
+	- Distance can only be positive
+	- [[Distance formula]]
+		- $d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$
+- ![[Screenshot 2023-03-26 at 10.29.28 PM.png]]
+	- Find the distance between each pair of points: (5,-2), (-7,-7)
+	- You can sometimes approximate the distance if you get an [[irrational number]].

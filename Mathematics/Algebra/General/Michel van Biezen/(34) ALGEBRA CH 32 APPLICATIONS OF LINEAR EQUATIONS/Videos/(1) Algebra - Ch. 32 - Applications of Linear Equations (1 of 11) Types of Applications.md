@@ -1,0 +1,36 @@
+[Video](https://youtube.com/watch?v=1DnNmk9Ez5Y)
+
+- ![[Screenshot 2023-04-17 at 2.21.04 PM.png]]
+	- (1) Linear Depreciation
+		- Purchase Price
+		- Liquidation Price
+		- Depreciation (lost Value)
+		- Value changes over time in years
+		- Depreciation in value of car
+		- Time is independent variable
+		- Value is dependent variable
+	- (2) Linear Cost
+		- Cost (dependent variable)
+			- Cost to produce hamburgers
+		- Quantity (independent variable)
+			- Hamburgers sold
+		- Total Cost
+			-  fixed cost + variable cost
+		- Fixed cost
+			- Will be independent to how many hamburgers you sell
+	- (3) Linear Profit (Revenue - cost)
+		- There is a break-even point where the fixed cost overlaps the number of hamburgers sold
+		- Fixed cost
+		- Quantity
+		- Break-even Point
+	- (4) Linear Demand
+		- Price (independent variable)
+		- Quantity Demanded (dependent variable)
+		- This is a great example where the x-axis is not always the independent variable
+		- Demand curve tends to be a second order curve
+			- A linear example works fairly well for a particular range
+		- As the price decreases, the quantity demanded increases
+	- (5) Linear Supply
+		- Supply curve tends to be a second order curve as well
+		- Quantity supplied is dependent variable
+		- Price is independent variable

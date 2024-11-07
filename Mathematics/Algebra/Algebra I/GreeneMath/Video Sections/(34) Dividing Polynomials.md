@@ -1,0 +1,26 @@
+[13:53:38](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=50018s) 
+
+- ![[Screenshot 2023-03-15 at 6.37.35 PM.png]]
+	- Recall
+		- Dividing a [[polynomial]] by a monomial
+	- How to divide
+		- D
+			- Divide
+		- M
+			- Multiply
+		- S
+			- Subtract
+		- B
+			- Bring down
+		- R
+			- Repeat/Remainder
+		- Dad, Mom, Sister, Brother, Rover (think of family)
+- ![[Screenshot 2023-03-15 at 6.58.18 PM.png]]
+	- Just care about leading term of divisor
+	- Practice
+	- Using [[long division]]
+- ![[Screenshot 2023-03-15 at 7.46.13 PM.png]]
+	- Problems with remainder
+	- The [[mixed number]] $12 \frac 12$ is the same as 12.5
+		- To convert into an [[improper fraction]], multiply the whole number by the denominator and add it to the numerator
+			- $12 \frac 12$ $\rightarrow$ $\frac {25}{2}$

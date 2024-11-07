@@ -1,0 +1,33 @@
+[5:02:10](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=18130s)
+
+- ![[Screenshot 2023-02-25 at 12.11.53 AM.png]]
+	- When you have an equation with variables in the exponent, logs are the tool of choice for getting the variables down when you can solve for them.
+- ![[Screenshot 2023-02-25 at 12.23.44 AM.png]]
+	- Solve
+	- (1) Isolate tricky part
+	- (2) Take log of both sides (use $log_{10}$ or ln since those are on calculators)
+	- (3) Use log rules to bring down exponents
+	- (4) Distribute
+	- (5) Moved x terms on one side, terms without x's on other side
+	- (6) Isolate x by factoring it out and dividing.
+- ![[Screenshot 2023-02-25 at 12.49.01 AM.png]]
+	- Solve
+	- (1) Isolate tricky parts
+	- (2) Take log of both sides
+	- (3) Use log rules to bring down the exponents
+	- (4) Distribute
+	- (5) Group x terms on one side, other terms on on other side
+	- (6) Isolate x by factoring it out and dividing
+- ![[Screenshot 2023-02-25 at 12.50.38 AM.png]]
+	- Solve
+	- (1) Isolate tricky parts / simplify
+	- (2) Take ln of both sides
+	- (3) Use log rules to ultimately bring down exponents
+	- (4) Distribute (not needed)
+	- (5) Bring terms with t to one side, terms without t to other side
+	- (6) Isolate "t" by factoring out "t" & dividing
+- Summary
+	- Gives examples for solving equations with variables in the exponent
+	- Key idea
+		- Take log of both sides
+		- Use log properties to bring the exponents down

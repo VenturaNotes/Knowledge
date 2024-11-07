@@ -1,0 +1,29 @@
+[3:56:53](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=14213s)
+
+- ![[Screenshot 2023-02-24 at 4.39.20 PM.png]]
+	- Example. You are hired for a job and starting salary is $40,000 with an annual raise of 3% per year. How much will your salary be after 1 year? 2 years? 5 years? t years?
+	-  $40,000 is the original salary
+		- This is multiplied by the "growth factor" of 1.03
+	- Salary = initial value multiplied by base to the power of years
+- ![[Screenshot 2023-02-24 at 4.41.34 PM.png]]
+	- Example. The United Nations estimated the world population in 2012 was 6.79 billion, growing at a rate of 1.1% per year. Assume that the growth rate stays the same. Write an equation for the population at t years after the year 2010.
+	- You have initial population and growth factor
+	- Created an exponential model
+- ![[Screenshot 2023-02-24 at 4.45.35 PM.png]]
+	- Seroquel is metabolized and eliminated from the body at a rate of 11% per hour. If 400 mg are given, how much remains in the body after 24 hours?
+	- Exponential growth corresponds to increasing
+	- Exponential decay corresponds to decreasing
+	- 0.89 is still called the growth factor (although in this case it would be the "shrink factor")
+	- f(t) represents the number of Seroquel in body
+	- t = # of hours since dose
+- ![[Screenshot 2023-02-24 at 4.48.45 PM.png]]
+	- Function is always represented as initial amount multiplied by a growth factor
+		- To find the growth factor b, 
+			- start with % increase or decrease
+			- Write it as a decimal
+				- r is decimal
+			- add or subtract from 1
+				- b is the growth factor
+		- Percent change needs to be written as a decimal in $b=1+r$
+	- If quantity is increasing, base b > 1, if quantity is decreasing, then b < 1
+	- Exponential functions can be used to model bank accounts, and loans with compound interest

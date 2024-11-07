@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=LOQWE9MAZIc)
+
+- Fractions
+	- Reducing
+	- Multiplying
+	- Dividing
+	- Adding
+	- Subtracting
+	- Simplifying
+- Number Sets
+	- Real Numbers
+	- Set Notation
+	- The Number Line
+- Operations
+	- Absolute Value
+	- Order of Operations
+	- Simplifying
+- Properties
+	- Commutative
+	- Distributive
+	- etc.
+- Algebraic Expressions

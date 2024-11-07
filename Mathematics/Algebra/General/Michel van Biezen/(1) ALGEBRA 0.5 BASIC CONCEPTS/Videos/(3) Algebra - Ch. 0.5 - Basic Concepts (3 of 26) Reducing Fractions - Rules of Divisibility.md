@@ -1,0 +1,43 @@
+[Video](https://youtube.com/watch?v=gVSQ8NoMEsU)
+
+- Whatever we do to the numerator we must do exactly the same to the denominator
+- Prime Numbers
+	- 2, 3, 5, 7, 11, 13...
+- Other Numbers
+	- 4, 9, 10
+
+## Divisibility Rules
+- 2
+	- Number is even (ends in 2, 4, 6, 8, 0)
+	- Examples
+		- 42, 36, 28, 40
+- 3
+	- Add digits ($\frac {\text {sum}}{3}$ ? then divisible by 3)
+		- ![[Screenshot 2023-01-09 at 1.20.46 PM.png]]
+			- Can continue adding digits of number until it's a single digit
+	- Examples
+		- 123, 462, 927, 315
+- 4
+	- Ends in 00, 04, 08, 12, 16, 20
+	- Add multiple of 20 to find if divisible by 4
+		- ![[Screenshot 2023-01-09 at 1.21.38 PM.png]]
+	- Examples
+		- 36, 84, 56
+- 5
+	- Ends in 0, 5 
+	- Examples
+		- 15, 315, 450
+- 9
+	- Add Digits (same rule as 3 but needs check if it's divisible by 9)
+		- ![[Screenshot 2023-01-09 at 1.25.55 PM.png]]
+- 10
+	- Must end in 0
+	- Examples
+		- 50, 200, 3000, 4150
+- 11
+	- If # is 2 digits, they need to be the same
+	- If # is 3 digits, the sum of the first and last digit equals the middle digit
+	- [[(24) Divisibility Rules for 2 - 12, 7&11 included#^94f457|3rd method]]
+		- ![[Screenshot 2023-01-09 at 1.26.41 PM.png]]
+	- Examples
+		- 451, 682, 55, 77

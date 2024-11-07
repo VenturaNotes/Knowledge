@@ -1,0 +1,22 @@
+[8:16:46](https://www.youtube.com/watch?v=2wrPGtP61fo&t=29806s) 
+
+- ![[Screenshot 2023-06-16 at 7.49.42 PM.png]]
+	- [[Solution region]]: any (x, y) that satisfies the inequality
+	- [[non-solution region]]: any (x, y) that does not satisfy the inequality
+	- [[Boundary Line]]: a line that separates the solution region from the non-solution region
+		- > or < strict: boundary line not part of solution
+			- dashed line
+		- $\ge$ or $\le$ non-strict: boundary line is part of the solution
+			- solid line
+	- Graphing a Linear Inequality in two variables
+		- Replace the inequality symbol with an equality symbol, then graph the resulting line
+		- Choose a test point - any (x, y) that is not on the line
+		- Shade the solution region
+	- Can solve by finding points or solving in [[slope-intercept form]]
+- ![[Screenshot 2023-06-16 at 7.54.23 PM.png]]
+	- Examples
+- ![[Screenshot 2023-06-16 at 7.56.02 PM.png|400]]
+	- Examples
+- ![[Screenshot 2023-06-16 at 7.58.03 PM.png]]
+	- When given a compound inequality with "and", need to find a solution for both
+	- When given a compound inequality with "and", need to find a solution for one, the other, or both

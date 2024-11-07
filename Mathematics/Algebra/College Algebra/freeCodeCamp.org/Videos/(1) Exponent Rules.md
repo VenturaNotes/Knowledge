@@ -1,0 +1,39 @@
+[0:00:00](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=0s)
+
+- ![[Screenshot 2023-02-19 at 10.06.10 PM.png]]
+	- The exponent is sometimes called the power
+	- If the exponent is "n", the base is multiplied by itself n times
+- ![[Screenshot 2023-02-19 at 10.06.54 PM.png]]
+	- (1) The Product Rule
+		- When two expressions with the same base are multiplied -> add the exponents
+- ![[Screenshot 2023-02-19 at 10.08.01 PM.png]]
+	- (2) The Quotient Rule
+		- When dividing two expressions with the same base -> subtract the exponents
+- ![[Screenshot 2023-02-19 at 10.10.19 PM.png|500]]
+	- (3) The Power Rule
+		- raise a power to a power -> multiply the exponents
+- ![[Screenshot 2023-02-19 at 10.11.47 PM.png]]
+	- (4) Power of Zero
+		- Anything to the 0th power is equal to 1 (with one exception: $0^0$ is undefined)
+		- Works with the <mark style="background: #FFF3A3A6;">quotient rule</mark>
+- ![[Screenshot 2023-02-19 at 10.12.23 PM.png|500]]
+	- (5) Negative Exponents
+		- Is consistent with the product rule
+- ![[Screenshot 2023-02-19 at 10.13.18 PM.png|300]]
+	- (6) Fractional Exponents
+- ![[Screenshot 2023-02-19 at 10.14.02 PM.png|500]]
+	- (7) Distribute an Exponent over a product
+- ![[Screenshot 2023-02-19 at 10.19.07 PM.png|500]]
+	- (8) Distribute an Exponent over a Quotient
+		- Can distribute an exponent over multiplication and division
+		- Cannot distribute an exponent over addition or subtraction
+- ![[Screenshot 2023-02-19 at 10.21.12 PM.png|300]]
+	- 8 exponent rules
+		- (1) Product Rule
+		- (2) Quotient Rule
+		- (3) The Power Rule
+		- (4) Power of Zero
+		- (5) Negative Exponents
+		- (6) Fractional Exponents
+		- (7) Distribute an Exponent over a product
+		- (8) Distribute an Exponent over a Quotient

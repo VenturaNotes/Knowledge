@@ -1,0 +1,21 @@
+[15:07:44](https://www.youtube.com/watch?v=2wrPGtP61fo&t=54464s) 
+
+- ![[Screenshot 2023-10-18 at 10.26.05 AM.png]]
+	- [[Term]]: A number, variable, or the product of a number and one or more variables raised to powers
+		- We separate terms with plus or minus symbols
+	- A [[polynomial]] is either a single term or a finite sum of terms where all variables have whole number exponents and there are no variables in any denominator
+	- [[Rational expression]]
+		- $\frac {3x^2 - 1}{2x -5}$
+	- [[Monomial]] - polynomial with one term only
+	- [[binomial]] - polynomial with two terms only
+- ![[Screenshot 2023-10-18 at 10.32.07 AM.png]]
+	- [[trinomial]] - a polynomial with only three terms
+	- A [[polynomial]] is written in standard form when the powers are in descending order
+	- The [[degree]] of a term in a polynomial is the sum of the exponents on the variables of the term
+- ![[Screenshot 2023-10-18 at 10.40.27 AM.png]]
+	- The greatest [[degree]] of any term in the polynomial is known as the degree of the polynomial
+	- In general, a [[constant]] has a degree is 0 unless it's the number 0 itself
+	- [[like terms]]
+		- Have the same variable or could be variables. Raised to same power or powers. [[Coefficients]] don't matter
+- ![[Screenshot 2023-10-18 at 10.44.08 AM.png]]
+	- If you have a variable by itself, the coefficient is 1

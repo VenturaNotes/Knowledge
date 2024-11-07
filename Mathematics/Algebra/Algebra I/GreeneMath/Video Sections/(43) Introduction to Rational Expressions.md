@@ -1,0 +1,28 @@
+[17:52:52](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=64372s) 
+
+- ![[Screenshot 2023-03-17 at 4.15.14 AM.png]]
+	- The quotient of two integers, where the denominator is not zero is known as a rational number
+		- $\frac 12, \frac {-2}{5}, \frac 38$
+		- $\frac{\sqrt{5}}{{3}}$
+			- This is not a rational number since the numerator is not an integer
+		- $\frac 31$ is represented as rational number
+	- Similarly, the quotient of two polynomials with a non-zero denominator is called a [[rational expression]]
+		- $\frac {3x-4}{x^2-1}$
+		- $\frac {5x^3}{2x-4}$
+		- $\frac {8x^4-5x-3}{2x^3-7}$
+	- Our first topic for rational expressions is to learn where they are undefined
+	- Since we can never divide by zero, we must exclude any value for any variable that would make the denominator zero.
+	- How can we determine where the rational expression is defined:
+		- set the denominator equal to zero
+		- solve the resulting equation
+		- the solutions are the values that will make the rational expression undefined
+	- For first problem, when x = 4 and x = -4, we have vertical asymptotes
+- ![[Screenshot 2023-03-17 at 4.24.01 AM.png]]
+	- Next, let's talk about simplifying rational expressions:
+		- Recall that
+			- ![[Screenshot 2023-03-17 at 4.16.39 AM.png]]
+	- With a rational expression
+		- Factor the numerator and denominator completely
+		- Cancel any common factors
+	- Reason we simplify is because it makes it easier to plug-in our value or variable
+	- When simplifying, the x-value can still not exist in the simplified version of the rational expression if it makes the denominator in the original rational expression equal to 0

@@ -1,0 +1,58 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLybg94GvOJ9FoUSDODs14ck3OzSje4WZb
+Length: 5 hours, 41 minutes, 12 seconds
+tags:
+  - type/playlist
+  - status/incomplete
+---
+- Complete
+	- [[(1) Introduction to Algebra - Using Variables]]
+	- [[(2) Basic Number Properties for Algebra]]
+	- [[(3) Algebraic Equations and Their Solutions]]
+	- [[(4) Algebraic Equations With Variables on Both Sides]]
+	- [[(5) Algebraic Word Problems]]
+	- [[(6) Solving Algebraic Inequalities]]
+	- [[(7) Square Roots, Cube Roots, and Other Roots]]
+	- [[(8) Simplifying Expressions With Roots and Exponents]]
+	- [[(9) Solving Algebraic Equations With Roots and Exponents]]
+	- [[(10) Introduction to Polynomials]]
+	- [[(11) Adding and Subtracting Polynomials]]
+	- [[(12) Multiplying Binomials by the FOIL Method]]
+	- [[(13) Solving Quadratics by Factoring]]
+	- [[(14) Solving Quadratics by Completing the Square]]
+	- [[(15) Solving Quadratics by Using the Quadratic Formula]]
+	- [[(16) Solving Higher-Degree Polynomials by Synthetic Division and the Rational Roots Test]]
+	- [[(17) Manipulating Rational Expressions - Simplification and Operations]]
+	- [[(18) Graphing in Algebra - Ordered Pairs and the Coordinate Plane]]
+	- [[(19) Graphing Lines in Algebra - Understanding Slopes and Y-Intercepts]]
+	- [[(20) Graphing Lines in Slope-Intercept Form (y = mx + b)]]
+	- [[(21) Graphing Lines in Standard Form (ax + by = c)]]
+	- [[(22) Graphing Parallel and Perpendicular Lines]]
+	- [[(23) Solving Systems of Two Equations and Two Unknowns - Graphing, Substitution, and Elimination]]
+	- [[(24) Absolute Values - Defining, Calculating, and Graphing]]
+	- [[(25) What are the Types of Numbers. Real vs. Imaginary, Rational vs. Irrational]]
+	- [[(26) Back to Algebra - What are Functions.]]
+	- [[(27) Manipulating Functions Algebraically and Evaluating Composite Functions]]
+	- [[(28) Graphing Algebraic Functions - Domain and Range, Maxima and Minima]]
+	- [[(29) Transforming Algebraic Functions - Shifting, Stretching, and Reflecting]]
+	- [[(30) Continuous, Discontinuous, and Piecewise Functions]]
+- Incomplete
+	- [[(31) Inverse Functions]]
+	- [[(32) The Distance Formula - Finding the Distance Between Two Points]]
+	- [[(33) Graphing Conic Sections Part 1 - Circles]]
+	- [[(34) Graphing Conic Sections Part 2 - Ellipses]]
+	- [[(35) Graphing Conic Sections Part 3 - Parabolas in Standard Form]]
+	- [[(36) Graphing Conic Sections Part 4 - Hyperbolas]]
+	- [[(37) Graphing Higher-Degree Polynomials - The Leading Coefficient Test and Finding Zeros]]
+	- [[(38) Graphing Rational Functions and Their Asymptotes]]
+	- [[(39) Solving and Graphing Polynomial and Rational Inequalities]]
+	- [[(40) Evaluating and Graphing Exponential Functions]]
+	- [[(41) Logarithms Part 1 - Evaluation of Logs and Graphing Logarithmic Functions]]
+	- [[(42) Logarithms Part 2 - Base Ten Logs, Natural Logs, and the Change-Of-Base Property]]
+	- [[(43) Logarithms Part 3 - Properties of Logs, Expanding Logarithmic Expressions]]
+	- [[(44) Solving Exponential and Logarithmic Equations]]
+	- [[(45) Complex Numbers - Operations, Complex Conjugates, and the Linear Factorization Theorem]]
+	- [[(46) Set Theory - Types of Sets, Unions and Intersections]]
+	- [[(47) Sequences, Factorials, and Summation Notation]]
+	- [[(48) Theoretical Probability, Permutations and Combinations]]

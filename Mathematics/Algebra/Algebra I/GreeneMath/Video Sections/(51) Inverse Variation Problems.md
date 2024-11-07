@@ -1,0 +1,25 @@
+[21:24:32](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=77072s) 
+
+- ![[Screenshot 2023-03-19 at 11.59.28 PM.png|500]]
+	- y varies inversely with x if there is some constant k such that:
+		- $y = \frac kx$
+		- if x > 0
+			- As x increases, y decreases
+			- As x decreases, y increases
+- ![[Screenshot 2023-03-20 at 12.04.28 AM.png]]
+	- If y varies inversely with x and y = 7 when x = 5, find y when x = 2
+- ![[Screenshot 2023-03-20 at 12.15.50 AM.png]]
+	- The current in a simple electrical circuit varies inversely with the resistance. If the current is 30 amps when the resistance is 5 ohms, find the current when the resistance is 15 ohms.
+		- [[Ohm's Law]]
+			- I $\rightarrow$ [[current]]
+			- R $\rightarrow$ [[resistance]]
+			- V $\rightarrow$ k $\rightarrow$ [[constant of variation]]
+				- V is the [[voltage]]
+		- The current is 10 amps when the resistance is 15 ohms.
+	- We also have [[inverse variation]] as a power. y varies inversely with the nth power of x if there exists a real number k such that:
+		- $y = \frac {k}{x^n}$
+	- y varies inversely with $q^2$ and y = 4 when q = 5, find y when q = 15
+	- The amount of light measured in foot-candles produced by a light source varies inversely with the square of the distance from the source.
+		- If the light produced 10 feet from a light source is 12 foot-candles, find the light produced 20 feet away from the same source.
+		- $L = \frac kd$
+		- The light produced 20 feet away from the light source is 3 foot-candles

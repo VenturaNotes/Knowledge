@@ -1,0 +1,24 @@
+[2:29:58](https://www.youtube.com/watch?v=2wrPGtP61fo&t=8998s) 
+
+- ![[Screenshot 2023-06-15 at 3.24.02 AM.png]]
+	- Solving a [[Word Problem]] ^ddae1b
+		- (1) Read the problem and determine the question(s) to be answered
+		- (2) Assign a variable to represent the unknown
+		- (3) Write an equation
+		- (4) Solve the equation
+		- (5) Write the answer in terms of the question(s) asked
+		- (6) Check the answer using the words of the problem
+	- Example 1
+		- Marci and Steven are siblings. Marci is four years older than Steven. If their combined age is 34, how old is Marci? How old is Steven?
+	- Example 2
+		- During the 16-game 2012 NFL regular season, the Broncos, Chargers, and Raiders combined to win a total of 24 games. The Chargers won 3 more games than the Raiders but won 6 fewer games than the Broncos. Find the regular season win/loss record for each team.
+	- Example 3
+		- Mark's retail clothing store currently has an inventory level of $585,000. This was an increase of 150% from one year ago. How much was the value of the inventory one year ago?
+- ![[Screenshot 2023-06-15 at 3.26.58 AM.png]]
+	- Example 4 ^a9ce29
+		- Gene invested $2000 for 3 years and earned a total of $300 in [[simple interest]]. What was his interest rate?
+			- I = prt
+				- I = interest earned
+				- p = principal
+				- r = rate
+				- t = time
