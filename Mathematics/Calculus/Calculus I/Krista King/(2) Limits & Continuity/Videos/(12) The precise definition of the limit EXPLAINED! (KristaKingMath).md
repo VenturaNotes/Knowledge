@@ -1,0 +1,28 @@
+[Video](https://youtube.com/watch?v=rSxxEtKVw-w)
+
+- ![[Screenshot 2023-10-03 at 11.23.40 PM.png]]
+	- Use the precise definition of the limit to prove the equation
+		- [[Epsilon-Delta Limit Definition]]
+	- Easiest way to evaluate a limit is with [[substitution]]
+		- Since we could use substitution, when x = -3, then f(-3) = -30
+	- Precise definition of a limit relates these two inequalities
+		- Reminder: $0 < |x-a | < \delta$ implies that |f(x) - L| < $\epsilon$
+			- To show that the substitution is true, we need to show a relationship between $\delta$ and $\epsilon$ in the form of an inequality to show it's true. This will prove that the limit exists
+		- [[Epsilon]] ($\epsilon$) is the distance that we can move away from L
+			- Say we have a linear function f(x). And we know that for f(x), the limit as x approaches a = L. Getting really close to "a" along x-axis
+			- Then the value of the function gets really close to the value L
+				- The closer we get to "a" , the closer we get to "L" coming
+				- As long as there is no discontinuity at the exact point, if we plugged a into function: f(a) and evaluate it back, we get L
+					- Basically f(a) = L
+		- Example for Epsilon
+			- Let's say we move a distance of 1 unit from L (either up or down). Defining $\epsilon$ as 1 in this case.
+			- If we set that parameter for $\epsilon$ (this limitation), the question is
+				- How far can we move away from "a" along the x-axis and still be within that range?
+					- Therefore, we want to carry over the edges of our epsilon range (draw a perfectly horizontal line from the top of the epsilon range over to the graph. Then draw a line down to x-axis. Do the same for bottom of range)
+					- This gives us 2 points on the x-axis. As long as you don't move past those points from "a", we know that we'll be inside the epsilon range. This will be known as the distance [[delta]] ($\delta$)
+		- As long as the difference between "x and a" is smaller than $\delta$, then we know for sure by the definition that the value of the function and L is going to be less than the $\epsilon$ value defined in the beginning.
+			- If we continue to pick smaller and smaller values of $\delta$, the value of $\epsilon$ will also get smaller and smaller. This says that as we get closer and closer to a, the function's value will get closer and closer to L
+		- When you have two things multiplied together inside inside of [[absolute value]] brackets, you can separate them into their own absolute values
+			- $|7(x + 3)|$ = $|7||x + 3|$ 
+		- Since we can state a relationship between delta and epsilon proves that the limit equation is true
+			- $\delta < \frac {\varepsilon}{7}$

@@ -1,0 +1,46 @@
+[Video](https://www.youtube.com/watch?v=ZUAD16jff6M)
+
+- ![[Screenshot 2023-12-13 at 4.25.08 PM.png]]
+	- Slide 1
+		- Average rates of change
+		- Q: What is [[calculus]]?
+			- Possible answers: Limits, derivatives, integrals
+		- A: Study of rates of change
+		- Example
+			- Rate of change: 25 = slope of line
+			- [[Slope]]
+				- m = $\frac {y_2 - y_1}{t_2 - t_1} = \frac{\Delta p}{\Delta t}$
+		- Rate of change is the slope
+			- Every rate of change can be interpreted as the slope
+	- Slide 2
+		- Example: I drive down a straight road with position function p(t) for a $\le$ t $\le$ b
+		- Define: Average rate of change from $t = a$ to $t = b$
+		- Slope of a [[secant line]]: line connects (a, p(a)) and (b, p(b))
+			- Slope of secant line is the average rate of change on the interval
+		- Can also say [[Average rate of change|AROC]] on the interval $[a, b]$ 
+		- The [[speedometer]] tells you the [[instantaneous rate of change]]
+	- Side 3
+		- [[Velocity]] versus [[speed]]
+		- p(t) [[position]]. Motion along a line
+		- average rate of change of p(t): [[average velocity]]
+			- Velocity can be negative, positive, zero
+		- average rate of change of distance traveled: [[average speed]]
+			- Always non-negative
+	- Slide 4
+		- Find the average rate of change of f(x) from x = 1 to x =3
+		- Equation for [[secant line]]
+			- Shown in [[point-slope form]]
+			- Slope of secant line is the average rate of change of interval
+- ![[Screenshot 2023-12-14 at 2.34.53 AM.png]]
+	- Example: $g(y) = cosy$
+		- Find the average rate of change of g(y) on $[\frac{\pi}{2}, \pi]$
+		- Use [[Unit Circle]]
+	- When the secant line is horizontal, the slope is 0
+	- Find an equation of the secant line for the [[exponential function]]
+		- Bases indicate graph
+	- [[point-slope form]]
+	- [[slope-intercept form]]
+- ![[Screenshot 2023-12-14 at 2.49.10 AM.png]]
+	- Assume a balloon stays [[sphere|spherical]] as it inflates. What is AROC of volume of the balloon with respect to surface are, as surface area changes from $4\pi in^2$ to $9\pi in^2$ 
+		- Using V = $\frac 43 \pi r^3$
+		- Using $S = 4\pi r^2$

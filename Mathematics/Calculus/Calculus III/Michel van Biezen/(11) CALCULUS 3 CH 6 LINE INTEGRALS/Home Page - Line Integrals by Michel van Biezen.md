@@ -1,0 +1,53 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVLU50P8azDmZZLRkfmBI1Q
+Length: 3 hours, 43 minutes, 53 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Calculus 3 - Line Integrals (1 of 44) What is a Line Integral]]
+	- [[(2) Calculus 3 - Line Integrals (2 of 44) What is a Line Integral. A Visiual Perspective]]
+	- [[(3) Calculus 3 - Line Integrals (3 of 44) What is a Line Integral. A Visual Perspective 2]]
+	- [[(4) Calculus 3 - Line Integrals (4 of 44) What is a Line Integral. NOT TO BE CONFUSED WITH]]
+	- [[(5) Calculus 3 - Line Integrals (5 of 44) What is a Line Integral. Scalar - Example 1]]
+	- [[(6) Calculus 3 - Line Integrals (6 of 44) What is a Line Integral. Scalar - Example 2]]
+	- [[(7) Calculus 3 - Line Integrals (7 of 44) What is a Line Integral. Using Parametric Equations]]
+	- [[(8) Calculus 3 - Line Integrals (8 of 44) What is a Line Integral. Circular Cone]]
+	- [[(9) Calculus 3 - Line Integrals (9 of 44) What is a Line Integral. A Conceptual View]]
+	- [[(10) Calculus 3 - Line Integrals (10 of 44) What is a Line Integral. (2+(x 2)y)ds Example (Worked Out)]]
+	- [[(11) Calculus 3 - Line Integrals (11 of 44) What is a Line Integral. Example 2.5]]
+	- [[(12) Calculus 3 - Line Integrals (12 of 44) What is a Line Integral. Find the Mass]]
+	- [[(13) Calculus 3 - Line Integrals (13 of 44) What is a Line Integral. Find the Center of Mass]]
+	- [[(14) Calculus 3 - Line Integrals (14 of 44) What is a Line Integral. (y 2)dx+xdy Example 3]]
+	- [[(15) Calculus 3 - Line Integrals (15 of 44) What is a Line Integral. y 2dx+xdy Example 4]]
+	- [[(16) Calculus 3 - Line Integrals (16 of 44) What is a Line Integral. General Equation]]
+	- [[(17) Calculus 3 - Line Integrals (17 of 44) What is a Line Integral. (y(sinz))ds Example 5]]
+	- [[(18) Calculus 3 - Line Integrals (18 of 44) What is a Line Integral. ((y)dx+(z)dy+(x)dz) Example 6]]
+	- [[(19) Calculus 3 - Line Integrals (19 of 44) Vector Field - Find the Work Done - F(x,y)=(x 2)i-(xy)j Ex. 1]]
+	- [[(20) Calculus 3 - Line Integrals (20 of 44) Vector Field - Find the Work Done - Ex. 2]]
+	- [[(21) Calculus 3 - Line Integrals (22 of 44) Vector Field - Find the Work Done - Ex. 4A]]
+	- [[(22) Calculus 3 - Line Integrals (23 of 44) Vector Field - Find the Work Done - Ex. 4B]]
+	- [[(23) Calculus 3 - Line Integrals (24 of 44) Vector Field - Find the Work Done - Ex. 4C]]
+	- [[(24) Calculus 3 - Line Integrals (25 of 44) Vector Field - Find the Work Done - Ex. 5]]
+	- [[(25) Calculus 3 - Line Integrals (26 of 44) Vector Field - Evaluate a Line Integral]]
+	- [[(26) Calculus 3 - Line Integrals (27 of 44) Vector Field - Evaluate a Line Integral]]
+	- [[(27) Calculus 3 - Line Integrals (28 of 44) Vector Field - Evaluate a Line Integral]]
+	- [[(28) Calculus 3 - Line Integrals (29 of 44) What is the Fundamental Theorem for Line Integrals.]]
+	- [[(29) Calculus 3 - Line Integrals (30 of 44) What is the Fundamental Theorem for Line Integrals. Ex]]
+	- [[(30) Calculus 3 - Line Integrals (31 of 44) Why is this Path INdependent. Ex. 1]]
+	- [[(31) Calculus 3 - Line Integrals (32 of 44) Why is this Path INdependent. Ex. 2]]
+	- [[(32) Calculus 3 - Line Integrals (33 of 44) Why is this Path DEpendent.]]
+	- [[(33) Calculus 3 - Line Integrals (34 of 44) Condition 1 for Independence]]
+	- [[(34) Calculus 3 - Line Integrals (35 of 44) Condition 2 for Independence]]
+	- [[(35) Calculus 3 - Line Integrals (36 of 44) Condition 3 for Independence]]
+	- [[(36) Calculus 3 - Line Integrals (37 of 44) Condition 3 for Independence - Example]]
+	- [[(37) Calculus 3 - Line Integrals (38 of 44) What are conservative and NON-Conservative Vector Fields.]]
+	- [[(38) Calculus 3 - Line Integrals (39 of 44) Why is a Gravitational Field Conservative.]]
+	- [[(39) Calculus 3 - Line Integrals (40 of 44) Determine if the Vector Field Conservative. Ex. 1]]
+	- [[(40) Calculus 3 - Line Integrals (41 of 44) Determine if the Vector Field Conservative. Ex. 2]]
+	- [[(41) Calculus 3 - Line Integrals (42 of 44) Find f=. Such That Gradient f=F]]
+	- [[(42) Calculus 3 - Line Integrals (43 of 44) Find f=. Such That Gradient f=F]]
+	- [[(43) Calculus 3 - Line Integrals (44 of 44) What is the Fundamental Theorem for Line Integrals. Ex. 2]]

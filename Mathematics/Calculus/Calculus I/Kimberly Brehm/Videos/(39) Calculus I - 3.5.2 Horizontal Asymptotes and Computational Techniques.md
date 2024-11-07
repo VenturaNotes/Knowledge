@@ -1,0 +1,37 @@
+[Video](https://www.youtube.com/watch?v=km6-zDe0zJY)
+
+- ![[Screenshot 2023-05-28 at 2.32.57 PM.png]]
+	- Limits at Infinity and Horizontal Asymptotes
+		- Previously, we learned that the statement $lim_{x \rightarrow \infty} f(x) = L$ means that for each $\varepsilon > 0$ there exists an M > 0 such that $|f(x) - L| < \varepsilon$ whenever x > M
+		- This meant that there was a line $y = L$ such that all values of f(x) were within $\varepsilon$ units to either side of L.
+		- Our line $y=L$ is called a horizontal asymptote. Obviously, we can have 0, 1, or 2 horizontal asymptotes. But how can we find them?
+- ![[Screenshot 2023-05-28 at 2.35.00 PM.png]]
+	- Asymptotes for Rational Functions
+		- We will begin by looking at rational functions in the form $\frac {c}{x^r}$.
+		- We can see from the sample graphs that as x gets infinitely large or small, the limit is zero. Therefore, the horizontal asymptote is at y=0
+		- But does this make sense?
+		- Find the horizontal asymptotes for f(x)
+- ![[Screenshot 2023-05-28 at 2.37.46 PM.png]]
+	- More Asymptotes for Rational Functions
+		- Find the limit (and horizontal asymptote(s)) for f(x)
+			- $\frac {-\infty}{\infty}$
+				- Called an [[indeterminate form]]
+		- To find the solution, use the <mark style="background: #FFF3A3A6;">divide out technique</mark> (divide by x)
+			- The power of the x should be the greatest power there.
+- ![[Screenshot 2023-05-28 at 4.12.47 PM.png]]
+	- Asymptotes Practice
+		- Find the horizontal asymptotes of each of the following functions
+			- Question 1: If degree on bottom is greater, then we'll get y = 0 
+			- Question 2: If degrees are the same, the leading coefficients are the solution
+			- Question 3: If degree on top is greater, then we won't get a horizontal asymptote but a [[slant asymptote]]
+- ![[Screenshot 2023-05-28 at 4.13.22 PM.png]]
+	- Graphs of Rational Asymptotes
+		- Find the horizontal asymptotes of each of the following functions.
+- ![[Screenshot 2023-05-28 at 4.47.23 PM.png]]
+	- Even More Asymptotes for Rationals
+		- Find the limit (and horizontal asymptotes) for f(x)
+	- Finding the asymptotes at both the negative and positive infinities.
+- ![[Screenshot 2023-05-28 at 4.50.39 PM.png]]
+	- Asymptotes for Trig Functions
+		- Find the limits for the following trig functions utilizing the [[squeeze theorem]]
+			- If you have a limit between 2 other limits and those 2 other limits happen to be the same, the one in the middle has to be the same as well.

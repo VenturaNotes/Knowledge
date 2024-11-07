@@ -1,0 +1,47 @@
+[Video](https://www.youtube.com/watch?v=q5DlN-7dppY)
+
+- ![[Screenshot 2023-05-28 at 8.31.01 AM.png]]
+	- Relative Extrema and Concavity
+		- We can see that we have a relative minimum at (1, -$\frac 12$}) and a relative maximum at (0,0).
+		- Note that the maximum occurs at the top of a hill, or where the graph is concave down. So, if f'(c) = 0 (critical number) and f"(c) < 0 (concave down), then f(c) is a relative maximum.
+		- The minimum occurs at the bottom of a valley, or where the graph is concave up. So, if f'(c) = 0 ([[Critical Numbers|critical number]]) and f''(c) > 0 (concave up), then f(c) is a relative minimum.
+		- If f'(c) =0 and f"(c) =0, the test fails.
+			- Then we would need to use the first derivative test
+- ![[Screenshot 2023-05-28 at 8.33.23 AM.png]]
+	- [[Second Derivative Test]] Practice
+		- Find the relative extrema of $f(x) = -3x^5 + 5x^3$ using the Second Derivative Test
+			- First, find the critical numbers
+			- Then find the second derivative and plug in the critical values.
+- ![[Screenshot 2023-05-28 at 8.35.06 AM.png]]
+	- Second Derivative Test Practice
+		- Find the relative extrema of the function $g(x) = 2x + \frac 1x$ using the Second Derivative Test
+- ![[Screenshot 2023-05-28 at 8.40.45 AM.png]]
+	- Summary of Extrema, Inc/Dec and Concavity
+		- [[Critical Numbers]]
+			- f'(x)
+				- Set f'(x) = 0 and find where f'(x) is undefined
+		- [[Relative Minimum]] or [[Relative Maximum]]
+			- f(x)
+				- Plug critical numbers into f(x) and the endpoints. These are possible relative min or max
+			- f'(x)
+				- First Derivative Test. Using intervals for incr./decr. If from +/- its a max or -/+ it's a min
+			- f''(x)
+				- Second Derivative Test. Plug critical #'s into 2nd derivative. 
+					- f''(x) > 0 relative min.
+					- f''(x) < 0 relative max
+		- [[Increasing]] or [[Decreasing]]
+			- f'(x)
+				- Split domain into intervals using critical numbers
+				- f'(x) > 0 increase
+				- f'(x) < 0 decrease
+				- f'(x) = 0 Constant
+		- [[Points of Inflection]]
+			- f(x)
+				- Plug values where f''(x) = 0 or is undefined in for f(x). Those are possible inflection points
+			- f''(x)
+				- Set f''(x) = 0 and find where f''(x) is undefined. Create intervals to determine if concavity changes. If it does, they are points of inflection
+		- [[Concave Up]] or [[Concave Down]]
+			- f''(x)
+				- Set f''(x) = 0 or find where f''(x) is undefined. Set up intervals to check concavity.
+					- If f''(x) > 0, concave up.
+					- If f''(x) < 0 concave down

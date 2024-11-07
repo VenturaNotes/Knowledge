@@ -1,0 +1,44 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7
+Length: 3 days, 3 hours, 24 minutes, 4 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Calculus 3 Lecture 11.1 - An Introduction to Vectors]]
+	- [[(2) Calculus 3 Lecture 11.2 - Vectors in 3-D Coordinate System]]
+	- [[(3) Calculus 3 Lecture 11.3 - Using the Dot Product]]
+	- [[(4) Calculus 3 Lecture 11.4 - The Cross Product]]
+	- [[(5) Calculus 3 Lecture 11.5 - Lines and Planes in 3-D]]
+	- [[(6) Calculus 3 Lecture 11.6 - Cylinders and Surfaces in 3-D]]
+	- [[(7) Calculus 3 Lecture 11.7 - Using Cylindrical and Spherical Coordinates]]
+	- [[(8) Calculus 3 Lecture 12.1 - An Introduction To Vector Functions]]
+	- [[(9) Calculus 3 Lecture 12.2 - Derivatives and Integrals of Vector Functions]]
+	- [[(10) Calculus 3 Lecture 12.3 - Arc Length and Parameterization, TNB (Frenet-Serret) Intro]]
+	- [[(11) Calculus 3 Lecture 12.3 and 12.5 - TNB (Frenet-Serret) Frames, Curvature, Torsion, Encapsulation]]
+	- [[(12) Calculus 3 Lecture 12.4 - Velocity and Acceleration of Vector Functions]]
+	- [[(13) Calculus 3 Lecture 13.1 - Intro to Multivariable Functions (Domain, Sketching, Level Curves)]]
+	- [[(14) Calculus 3 Lecture 13.2 - Limits and Continuity of Multivariable Functions (with Squeeze Th.)]]
+	- [[(15) Calculus 3 Lecture 13.3 - Partial Derivatives (Derivatives of Multivariable Functions)]]
+	- [[(16) Calculus 3 Lecture 13.4 - Finding Differentials of Multivariable Functions]]
+	- [[(17) Calculus 3 Lecture 13.5 - The Chain Rule for Multivariable Functions]]
+	- [[(18) Calculus 3 Lecture 13.6 - Finding Directional Derivatives and Gradients]]
+	- [[(19) Calculus 3 Lecture 13.7 - Finding Tangent Planes and Normal Lines to Surfaces]]
+	- [[(20) Calculus 3 Lecture 13.8 - Finding Extrema of Functions of 2 Variables (Max and Min)]]
+	- [[(21) Calculus 3 Lecture 13.9 - Constrained Optimization with LaGrange Multipliers]]
+	- [[(22) Calculus 3 Lecture 14.1 - INTRODUCTION to Double Integrals (Background Info)]]
+	- [[(23) Calculus 3 Lecture 14.2 - How to Solve Double and Repeated and Iterated Integrals]]
+	- [[(24) Calculus 3 Lecture 14.3 - Double Integrals over POLAR REGIONS]]
+	- [[(25) Calculus 3 Lecture 14.4 - Center of Mass (and Moments of Mass and Inertia) for Lamina in 2-D]]
+	- [[(26) Calculus 3 Lecture 14.6 - How to Solve TRIPLE INTEGRALS (Along with Center of Mass and Volume)]]
+	- [[(27) Calculus 3 Lecture 14.7 - TRIPLE Integrals Over Regions with CYLINDRICAL or SPHERICAL Coord.]]
+	- [[(28) Calculus 3 Lecture 14.8 - How to Change Variables in Multiple Integrals (Using the Jacobian)]]
+	- [[(29) Calculus 3 Lecture 15.1 - INTRODUCTION to Vector Fields (and what makes them Conservative)]]
+	- [[(30) Calculus 3 Lecture 15.2 - How to Find Divergence and Curl of Vector Fields]]
+	- [[(31) Calculus 3 Lecture 15.3 - How to Compute Line Integrals (Over Non-Conservative V.Fields)]]
+	- [[(32) Line Integrals on CONSERVATIVE Vector Fields (Independence of Path) - Calculus 3 Lecture 15.4]]
+	- [[(33) Green's Theorem - Calculus 3 Lecture 15.5]]
+	- [[(34) Surface And Flux Integrals, Parametric Surf., Divergence and Stoke's Theorem - Calculus 3 Lecture 15.6_9]]

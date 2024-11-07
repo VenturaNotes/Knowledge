@@ -1,0 +1,49 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLDesaqWTN6ESPaHy2QUKVaXNZuQNxkYQ_
+Length: 1 day, 10 hours, 43 minutes, 1 second
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) The Plan for Differential Equations (Differential Equations 1)]]
+	- [[(2) Introduction to Differential Equations (Differential Equations 2)]]
+- Incomplete
+	- [[(3) Checking Solutions in Differential Equations (Differential Equations 3)]]
+	- [[(4) Introduction to Initial Value Problems (Differential Equations 4)]]
+	- [[(5) Introduction to Time Rate of Change (Differential Equations 5)]]
+	- [[(6) Solving Basic Differential Equations with Integration (Differential Equations 6)]]
+	- [[(7) Differential Equations with Velocity and Acceleration (Differential Equations 7)]]
+	- [[(8) Problem Solving with Velocity and Acceleration (Differential Equations 8)]]
+	- [[(9) Introduction to Slope Fields (Differential Equations 9)]]
+	- [[(10) Applications of Slope Fields (Differential Equations 10)]]
+	- [[(11) Watch Before Diff Eq 11]]
+	- [[(12) Existence and Uniqueness of Solutions (Differential Equations 11)]]
+	- [[(13) Separable Differential Equations (Differential Equations 12)]]
+	- [[(14) Separable Equations with Initial Values (Differential Equations 13)]]
+	- [[(15) Applications with Separable Equations (Differential Equations 14)]]
+	- [[(16) Introduction to Linear Differential Equations and Integrating Factors (Differential Equations 15)]]
+	- [[(17) Solving Linear Differential Equations with an Integrating Factor (Differential Equations 16)]]
+	- [[(18) Domain Restrictions In Differential Equations and Integrating Factors (Differential Equations 17)]]
+	- [[(19) Special Integration in a Linear Differential Equation Problem (Differential Equations 18)]]
+	- [[(20) Mixture Problems in Linear Differential Equations (Differential Equations 19)]]
+	- [[(21) Substitutions for Homogeneous First Order Differential Equations (Differential Equations 20)]]
+	- [[(22) Solving Homogeneous First Order Differential Equations (Differential Equations 21)]]
+	- [[(23) Solving Differential Equations with a Composition (Obvious) Substitution (Differential Equations 22)]]
+	- [[(24) How to Solve Bernoulli Differential Equations (Differential Equations 23)]]
+	- [[(25) Solving Differential Equations with Embedded Derivative Substitutions (Differential Equations 24)]]
+	- [[(26) How Embedded Derivatives Can Make Differential Equations Easier (Differential Equations 25)]]
+	- [[(27) Reducible Second Order Differential Equations, Missing Y (Differential Equations 26)]]
+	- [[(28) Reducible Second Order Differential Equations, Missing X (Differential Equations 27)]]
+	- [[(29) What are Exact Differential Equations (Differential Equations 28)]]
+	- [[(30) Solving Exact Differential Equations (Differential Equations 29)]]
+	- [[(31) Integrating Factor for Exact Differential Equations (Differential Equations 30)]]
+	- [[(32) Introduction to Population Models and Logistic Equation (Differential Equations 31)]]
+	- [[(33) Basic Population Models in Differential Equations (Differential Equations 32)]]
+	- [[(34) Birth Rates and Death Rates in Differential Equations (Differential Equations 33)]]
+	- [[(35) Using Partial Fractions in Differential Equations (Differential Equations 34)]]
+	- [[(36) Population Growth and Decline (Differential Equations 35)]]
+	- [[(37) Equilibrium Solutions and Stability of Differential Equations (Differential Equations 36)]]
+	- [[(38) Stability of Critical Points (Differential Equations 37)]]
+	- [[(39) Harvesting Populations in Differential Equations (Differential Equations 38)]]

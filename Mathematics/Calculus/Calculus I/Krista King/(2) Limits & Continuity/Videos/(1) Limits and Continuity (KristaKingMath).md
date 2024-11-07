@@ -1,0 +1,65 @@
+[Video](https://youtube.com/watch?v=YmuqoXnCSNI)
+
+- ![[Screenshot 2023-08-23 at 11.53.03 PM.png]]
+	- Limits
+		- [[Functions]] are a  special type of equation that models a one-to-one relationship between x and y
+		- Will learn about [[limits]] and [[continuity]]
+		- For $lim_{x \to a} f(x) = L$, L is the limit of the function.
+			- In the example $f(x) = x + 3$, if we plug-in numbers that are very close to 1, we'll get back numbers that are very close to 4. We express that limit as shown above
+		- For the function $f(x) = \frac {(x-2)(x+2)}{x-2}$
+			- We see that the function is [[discontinuous]] at x = 2, but the limit as x approaches 2 for this function equal to 4.
+- ![[Screenshot 2023-10-03 at 12.30.58 PM.png]]
+	- Solving for limits
+		- To plug in the number we're approaching and finding the limit of the function is called [[substitution]] (also known as plug and chug)
+			- Limit problems usually don't work that easily
+				- Might end up with 0 over 0 causing [[undefined]]
+				- 0 in denominator of function causing undefined
+			- Will therefore need to use other techniques to solve for limit
+	- [[Factoring]]
+		- Factor numerator and denominator as much as possible (then cancel terms)
+	- [[Common denominator]]
+		- If you have a fraction and a non-fraction, try to find common denominator (then simplify as much as possible)
+	- [[Conjugate]]
+		- With a radical or square root sign, multiply by conjugate
+	- Will have more methods later on
+- ![[Screenshot 2023-10-03 at 12.43.43 PM.png]]
+	- [[Infinite limits]]
+		- Shortcuts for finding infinite limits (both positive and negative)
+		- (1) N = D
+			- If degree of numerator and denominator are equal to one another, use [[ratio of coefficients]] to find the limit
+		- (2) N < D
+			- If degree of numerator is less than the degree of the denominator, then the infinite limit will be zero. Regardless if it's negative or positive infinity
+		- (3) N > D
+			- If degree of numerator is greater than degree of denominator, infinite limit will be positive infinity if approaching positive infinity
+				- Negative infinity if approaching negative infinity
+	- [[Continuity]]
+		- A [[function]] is [[continuous]] if there are no [[holes]], [[breaks]], [[jumps]], or [[gaps]] of any kind in its graph
+			- Function is continuous if you can draw the entire thing without picking up your pen or pencil off the page
+			- If you need to lift the pencil, it's [[discontinuous]]
+	- [[Discontinuities]]
+		- Most common types
+			- [[Point]]
+				- Represent specific points on the graph of a function where the function is not continuous.
+				- Example of what we call a [[removable discontinuity]]
+					- Removable because we can write a simple equation that will define the function at the point of discontinuity, and this second equation will plug the hole in the graph
+						- Since we can plug the hole, it makes the discontinuity removable 
+			- [[Jump]]
+				- These are non-removable discontinuities because you can't write a simple equation that fills in the gap
+				- Breaks in the graph (imagine walking along the graph and you need to jump to the discontinuity in next section of the graph)
+			- [[infinite discontinuity]]
+				- Discontinuities in the graph that asymptotes ([[vertical asymptote]], [[horizontal asymptote]], or [[slant asymptote]])
+				- Also non-removable because you can't write a simple function that can fill the gap and make the function continuous
+- ![[Screenshot 2023-10-03 at 12.48.59 PM.png]]
+	- Crazy graphs!
+		- If the graph of a function approached positive infinity on one side of the asymptote and negative infinity on the other side of the asymptote, then the limit would be truly [[undefined]]
+		- [[General limit]]
+			- Only exists if the left and right hand limits are equal which will never be the case at a [[jump discontinuity]]
+		- Value of function = 3 for #4 because that's the shaded point
+	- By using limits and continuity, we'll start talking about [[derivative|derivatives]] and answer the first fundamental question of [[calculus]]: How to find the rate of change of a function at a specific point
+- Summary
+	- Limits
+	- Solving for limits
+	- Infinite limits
+	- Continuity
+	- Discontinuities
+	- Crazy Graphs!

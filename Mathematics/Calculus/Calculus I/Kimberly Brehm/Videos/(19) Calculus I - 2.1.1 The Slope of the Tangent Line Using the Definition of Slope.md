@@ -1,0 +1,23 @@
+[Video](https://www.youtube.com/watch?v=foJyD3g8mLw)
+
+- ![[Screenshot 2023-05-25 at 7.49.28 AM.png]]
+	- The slope of a tangent line using a table
+		- Find the slope of the line tangent to the function f(x) = $x^2 - 2x + 1$ at the point (2,1)
+		- Start by finding the slope of the secant line through (2, 1) and (3, f(3))
+		- We then repeat this process for values closer and closer to the x-value of 2. The slope we find for the secant line for x-values closest to 2 will be a great approximation to the slope of the tangent line at (2, 1)
+- ![[Screenshot 2023-05-25 at 7.52.03 AM.png]]
+	- Definition of a tangent line with slope m
+		- Let's approach this in a "mathy" way
+		- Slope formula
+		- Note some texts replace $\Delta x$ with h
+			- Change in x
+	- Now bring in the calculus....
+- ![[Screenshot 2023-05-25 at 7.54.59 AM.png]]
+	- Using the definition at one point
+		- Use the definition of slope to find the slope of the line tangent to f(x) = 2x - 3 at (3, 3)
+- ![[Screenshot 2023-05-25 at 7.56.49 AM.png]]
+	- Using the definition for multiple points
+		- Use the definition of slope to find the slope of the line tangent to f(x) = $x^2 - 1$ at x = 0, 1 and 2.
+- ![[Screenshot 2023-05-25 at 7.58.31 AM.png]]
+	- Practice
+		- Use the definition of slope to find the slope of the line tangent to $f(x) = 2x^2 - 5$ at x = 2 and 3

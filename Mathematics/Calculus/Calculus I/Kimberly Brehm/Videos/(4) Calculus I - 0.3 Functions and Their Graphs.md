@@ -1,0 +1,46 @@
+[Video](https://www.youtube.com/watch?v=DKLYIiqjKEc)
+
+- ![[Screenshot 2023-05-25 at 3.05.35 AM.png]]
+	- Relations and functions
+		- A [[relation]] is a set of ordered pairs in the form (x, y) where x $\in$ X and y $\in$ Y.
+		- A [[function]] is a relation such that any ordered pairs that share an x-value share a y-value.
+			- This is basically saying that an x-value can only have one unique y value. If there is another ordered pair with an x-value but different y-value, then it's not a function
+		- Recall, one way to check if a relation is a function is the [[vertical line test]]. If you draw a vertical line across the graph of your function, you should only ever hit one point on the function.
+		- The variable x is considered the [[independent variable]] and the set X is the [[Domain (Math)|domain]].
+		- The variable y is considered the [[dependent variable]] and the subset of Y that contains all values mapped to by elements of the domain is called the [[range]] or [[codomain]]
+- ![[Screenshot 2023-05-25 at 3.07.15 AM.png]]
+	- Evaluating a Function
+		- When we evaluate a function, we need to consider an equation written in explicit form and the corresponding function notation. For example, find (functions) for the function below, once the function is written explicitly.
+- ![[Screenshot 2023-05-25 at 3.10.43 AM.png]]
+	- Implicit Domain and [[Explicit Domain]]
+		- The domain of a function can also be written implicitly or explicitly. For instance, find the domain of each function
+			- $f(x) = 3x - 2, x \ge 2$ 
+				- This domain is explicit in the sense that $x \ge 2$ is explicitly shown
+		- Implicit Domain
+			- [[Radical function]]
+				- Square root, cube root and so on
+				- If radical with even index, then radicand $\ge 0$
+			- [[Rational Function]]
+				- Denominator $\ne$ 0
+- ![[Screenshot 2023-05-25 at 3.21.13 AM.png]]
+	- [[Composition of Functions]]
+		- The composition of two functions is simply another operation that can be performed on functions. For instance, let f(x) and g(x) equal this expression. Find the following:
+		- Use composition a lot in calculus
+			- If you understand how to FOIL, you don't need to show that work.
+- ![[Screenshot 2023-05-25 at 3.23.03 AM.png]]
+	- The Graph of a Function ([[Parent Functions]])
+		- [[Identity Function]]
+		- [[Squaring Function]]
+		- [[Cubing Function]]
+		- [[Square Root Function]]
+		- [[Absolute Value Function]]
+		- [[Reciprocal Function]]
+			- aka "inverse function"
+- ![[Screenshot 2023-05-25 at 3.49.00 AM.png]]
+	- [[Transformation of Functions]]
+		- Basic transformation
+			- Horizontal Shift "c" units
+			- Vertical Shift "c" units
+			- Reflection about x-axis
+			- Reflection about y-axis
+			- Reflection about origin

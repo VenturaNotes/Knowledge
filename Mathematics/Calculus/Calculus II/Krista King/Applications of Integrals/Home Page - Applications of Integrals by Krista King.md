@@ -1,0 +1,56 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BMz4irMey8DcJe_iiXgA9aI
+Length: 6 hours, 10 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Applications of Integration (KristaKingMath)]]
+	- [[(2) Average Value of a Function Example 1 (KristaKingMath)]]
+	- [[(3) Area between curves - dx (KristaKingMath)]]
+	- [[(4) Area between curves - dy (KristaKingMath)]]
+	- [[(5) Area between curves - sketching (KristaKingMath)]]
+	- [[(6) Arc Length (KristaKingMath)]]
+	- [[(7) Arc length x=g(y) (KristaKingMath)]]
+	- [[(8) Arc length - simpson's rule (KristaKingMath)]]
+	- [[(9) Surface Area of Revolution (KristaKingMath)]]
+	- [[(10) Surface area of revolution - simpson's rule (KristaKingMath)]]
+	- [[(11) Surface of Revolution (KristaKingMath)]]
+	- [[(12) Volume of rotation - disk method about the y-axis or x= (KristaKingMath)]]
+	- [[(13) Volume of rotation - disk method about the y-axis or x= (KristaKingMath)]]
+	- [[(14) Volume of rotation - disk method about the x-axis or y= (KristaKingMath)]]
+	- [[(15) Volume of rotation - washer method about the x-axis or y= (KristaKingMath)]]
+	- [[(16) Volume of rotation - washer method about y-axis or x= (KristaKingMath)]]
+	- [[(17) Volume of rotation - washer method about x-axis or y= (KristaKingMath)]]
+	- [[(18) Volume of rotation - cylindrical shells about the y-axis or x= (KristaKingMath)]]
+	- [[(19) Volume of rotation - cylindrical shells about the x-axis or y= (KristaKingMath)]]
+	- [[(20) Mean value theorem for integrals (KristaKingMath)]]
+	- [[(21) Work done using a rope to lift a weight (KristaKingMath)]]
+	- [[(22) Work Done on Elastic Springs (KristaKingMath)]]
+	- [[(23) Work Done by a Variable Force (KristaKingMath)]]
+	- [[(24) Moments of the system (KristaKingMath)]]
+	- [[(25) Moments of the system, x-axis (KristaKingMath)]]
+	- [[(26) Center of mass of the system (KristaKingMath)]]
+	- [[(27) Center of mass of the system, x-axis (KristaKingMath)]]
+	- [[(28) Hydrostatic pressure (KristaKingMath)]]
+	- [[(29) Hydrostatic force (KristaKingMath)]]
+	- [[(30) Vertical Motion (integration) (KristaKingMath)]]
+	- [[(31) Rectilinear Motion (KristaKingMath)]]
+	- [[(32) Centroids of Plane Regions (KristaKingMath)]]
+	- [[(33) Centroid of the plane - simpson's rule (KristaKingMath)]]
+	- [[(34) Area of the triangle with the given vertices (KristaKingMath)]]
+	- [[(35) Present and Future Value (KristaKingMath)]]
+	- [[(36) Present and Future Value Example 2 (KristaKingMath)]]
+	- [[(37) Present and Future Value Example 3 (KristaKingMath)]]
+	- [[(38) Present and Future Value Example 4 (KristaKingMath)]]
+	- [[(39) Present and Future Value Example 5 (KristaKingMath)]]
+	- [[(40) Consumer and Producer Surplus (KristaKingMath)]]
+	- [[(41) Probability density functions (KristaKingMath)]]
+	- [[(42) Cardiac output (KristaKingMath)]]
+	- [[(43) Cardiac output - simpson's rule (KristaKingMath)]]
+	- [[(44) Poiseuille's law (KristaKingMath)]]
+	- [[(45) Theorem of Pappus (KristaKingMath)]]
+	- [[(46) Present value of a single deposit, compounded continuously - How do you find it.]]

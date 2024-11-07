@@ -1,0 +1,32 @@
+[Video](https://www.youtube.com/watch?v=dJ2dl9KQ-B0)
+
+- ![[Screenshot 2023-05-25 at 4.08.18 AM.png]]
+	- Graphs of Trigonometric Functions
+		- All trigonometric functions are called [[periodic functions]]. In technical terms, this means that f(x) = f(x + p) where p is the period. In laymen's terms, it just means that the graph of the function repeats itself every p units. For sine ,cosine, secant, and cosecant the period is 2$\pi$, while for tangent and cotangent the period is $\pi$ 
+- ![[Screenshot 2023-05-25 at 4.14.33 AM.png]]
+	- Amplitude and Period
+		- The graphs of the 6 trigonometric functions can be altered by the amplitude (sine and cosine only) and the period
+			- Given $y = asinbx$
+				- "a" will affect the [[Amplitude]]
+					- Only for sine and cosine
+					- "a" tells us how high or low that function is going to go
+						- If you have "-a", the graph would just flip over the x-axis
+					- If "a" = 3, then the Amplitude is |a| meaning the highest point it reaches will be 3 and the lowest point it reaches is -3 as shown in the common form of the equation above
+				- "b" affects the [[period]] of a function
+					- Increasing b makes the period much smaller
+					- Decreasing b makes the period much larger while b > 0
+			- Given $y = asecbx$
+				- When a = 3, the peak and valley happen at $\pm 3$
+				- b would make the period larger or smaller
+			- Given $y=atanbx$
+				- "a" is not called the amplitude (effects curvature of the line)
+					- Straightens out the line 
+					- b changes the period
+- ![[Screenshot 2023-05-25 at 4.15.31 AM.png]]
+	- Transformations
+		- Basic Transformations
+			- Horizontal Shift "c" units
+			- Vertical shift "c" units
+			- Reflection about x-axis
+			- Reflection about y-axis
+			- Reflection about origin

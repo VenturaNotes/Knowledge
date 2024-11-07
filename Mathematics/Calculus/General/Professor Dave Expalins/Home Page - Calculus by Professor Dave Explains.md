@@ -1,0 +1,45 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLybg94GvOJ9ELZEe9s2NXTKr41Yedbw7M
+Length: 5 hours, 48 minutes, 2 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Introduction to Calculus - The Greeks, Newton, and Leibniz]]
+	- [[(2) Understanding Differentiation Part 1 - The Slope of a Tangent Line]]
+	- [[(3) Understanding Differentiation Part 2 - Rates of Change]]
+	- [[(4) Limits and Limit Laws in Calculus]]
+	- [[(5) What is a Derivative. Deriving the Power Rule]]
+	- [[(6) Derivatives of Polynomial Functions - Power Rule, Product Rule, and Quotient Rule]]
+	- [[(7) Derivatives of Trigonometric Functions]]
+	- [[(8) Derivatives of Composite Functions - The Chain Rule]]
+	- [[(9) Derivatives of Logarithmic and Exponential Functions]]
+	- [[(10) Implicit Differentiation]]
+	- [[(11) Higher Derivatives and Their Applications]]
+	- [[(12) Related Rates in Calculus]]
+	- [[(13) Finding Local Maxima and Minima by Differentiation]]
+	- [[(14) Graphing Functions and Their Derivatives]]
+	- [[(15) Optimization Problems in Calculus]]
+	- [[(16) Understanding Limits and L'Hospital's Rule]]
+	- [[(17) What is Integration. Finding the Area Under a Curve]]
+	- [[(18) The Fundamental Theorem of Calculus - Redefining Integration]]
+	- [[(19) Properties of Integrals and Evaluating Definite Integrals]]
+	- [[(20) Evaluating Indefinite Integrals]]
+	- [[(21) Evaluating Integrals With Trigonometric Functions]]
+	- [[(22) Integration Using The Substitution Rule]]
+	- [[(23) Integration By Parts]]
+	- [[(24) Integration By Trigonometric Substitution]]
+	- [[(25) Advanced Strategy for Integration in Calculus]]
+	- [[(26) Evaluating Improper Integrals]]
+	- [[(27) Finding the Area Between Two Curves by Integration]]
+	- [[(28) Calculating the Volume of a Solid of Revolution by Integration]]
+	- [[(29) Calculating Volume by Cylindrical Shells]]
+	- [[(30) The Mean Value Theorem For Integrals - Average Value of a Function]]
+	- [[(31) Convergence and Divergence - The Return of Sequences and Series]]
+	- [[(32) Estimating Sums Using the Integral Test and Comparison Test]]
+	- [[(33) Alternating Series, Types of Convergence, and the Ratio Test]]
+	- [[(34) Power Series]]
+	- [[(35) Taylor and Maclaurin Series]]

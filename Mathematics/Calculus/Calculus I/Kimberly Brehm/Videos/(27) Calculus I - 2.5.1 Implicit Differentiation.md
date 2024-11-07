@@ -1,0 +1,22 @@
+[Video](https://www.youtube.com/watch?v=0BmSo_M3iKo)
+
+- ![[Screenshot 2023-05-25 at 9.26.39 AM.png]]
+	- Why implicit Differentiation
+		- Let's do some differentiation. Find the derivative of each of the following functions.
+- ![[Screenshot 2023-05-26 at 8.04.24 AM.png]]
+	- How to Use Implicit Differentiation
+		- Keep in mind, you only need to use implicit differentiation when you are unable to write your function explicitly using y as a function of x
+			- Differentiate both sides of the equation with respect to x
+			- Collect all terms involving $\frac {dy}{dx}$ or $y'$ on one side of the equation, with all other terms to the opposite side of the equation
+			- Factor $\frac {dy}{dx}$ or $y'$ from each term on that side of the equation
+			- Solve for $\frac {dy}{dx}$ or $y'$
+- ![[Screenshot 2023-05-26 at 8.07.06 AM.png]]
+	- Practice
+		- Differentiate both sides of the equation with respect to x
+		- Collect all terms
+		- Factor and solve
+- ![[Screenshot 2023-05-26 at 8.15.26 AM.png]]
+	- Practice
+- ![[Screenshot 2023-05-26 at 8.18.37 AM.png]]
+	- Practice
+		- Differentiate with respect to x and find the slope of the tangent line at this point. Then find the equation of the tangent line at that point.

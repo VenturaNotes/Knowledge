@@ -1,0 +1,49 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfW0GMqeUE1bLKaYor6kbHa
+Length: 5 hours, 27 minutes, 56 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) What is VECTOR CALCULUS. --Full Course Introduction--]]
+	- [[(2) Curves, Parameterizations, and the Arclength Parameterization]]
+	- [[(3) What is a LINE INTEGRAL. and  and  Big Idea, Derivation & Formula]]
+	- [[(4) Line Integrals - Full Example]]
+	- [[(5) Line Integrals in 3D   and  and  Formula & Three Applications]]
+	- [[(6) Intro to VECTOR FIELDS  and  and  Sketching by hand & with computers]]
+	- [[(7) The Gradient Vector Field]]
+	- [[(8) Line Integrals of Vector Fields   and  and   Big Idea, Definition & Formula]]
+	- [[(9) Example - Computing the Line Integral of a Vector Field (i.e. Work Done)]]
+	- [[(10) Line Integrals with respect to x or y   and  and   Vector Calculus]]
+	- [[(11) Flow Integrals and Circulation  and  and  Big Idea, Formula & Examples   and  and  Vector Calculus]]
+	- [[(12) Flux Integrals  and  and  Big Idea, Formula & Examples  and  and  Vector Calculus]]
+	- [[(13) Conservative Vector Fields   and  and   Vector Calculus]]
+	- [[(14) The Fundamental Theorem of Line Integrals   and  and   Big Idea & Proof   and  and   Vector Calculus]]
+	- [[(15) How to Test if a Vector Field is Conservative   and  and   Vector Calculus]]
+	- [[(16) Finding the scalar potential function for a conservative vector field  and  and  Vector Calculus]]
+	- [[(17) Curl or Circulation Density of a Vector Field   and  and   Vector Calculus]]
+	- [[(18) Curl, Circulation, and Green's Theorem   and  and   Vector Calculus]]
+	- [[(19) Divergence, Flux, and Green's Theorem  and  and  Vector Calculus]]
+	- [[(20) Example - Using Green's Theorem to Compute Circulation & Flux   and  and  Vector Calculus]]
+	- [[(21) Describing Surfaces Explicitly, Implicitly & Parametrically    and  and    Vector Calculus]]
+	- [[(22) The Surface Area formula for Parametric Surfaces   and  and  Vector Calculus]]
+	- [[(23) Why is the surface area of a Sphere 4pi times radius squared.]]
+	- [[(24) Computing the Surface Area of a surface parametrically  and  and  Example 1  and  and  Vector Calculus]]
+	- [[(25) Computing the Surface Area of a surface parametrically  and  and  Example 2  and  and  Vector Calculus]]
+	- [[(26) Surface Area for Implicit & Explicit Surfaces   and  and   Vector Calculus]]
+	- [[(27) Computing the Surface Area of an Implicitly Defined Surface]]
+	- [[(28) Surface Integrals  and  and  Formulas & Applications  and  and  Vector Calculus]]
+	- [[(29) Orientable vs Non-Orientable Surfaces and the Mobius Strip]]
+	- [[(30) Flux of a Vector Field Across a Surface   and  and  Vector Calculus]]
+	- [[(31) Computing the Flux Across a Surface  and  and   Vector Calculus]]
+	- [[(32) The CURL of a 3D vector field   and  and   Vector Calculus]]
+	- [[(33) Stokes' Theorem  and  and  Geometric Intuition & Statement   and  and   Vector Calculus]]
+	- [[(34) Stokes' Theorem Example  and  and  Verifying both Sides  and  and  Vector Calculus]]
+	- [[(35) The Divergence Theorem  and  and  Geometric Intuition & Statement  and  and  Vector Calculus]]
+	- [[(36) Divergence Theorem example - Flux across unit cube   and  and  Vector Calculus]]
+	- [[(37) Divergence Theorem for regions bounded by two surfaces  and  and  Vector Calculus]]
+	- [[(38) Deriving Gauss's Law for Electric Flux via the Divergence Theorem from Vector Calculus]]
+	- [[(39) A unified view of Vector Calculus (Stoke's Theorem, Divergence Theorem & Green's Theorem)]]

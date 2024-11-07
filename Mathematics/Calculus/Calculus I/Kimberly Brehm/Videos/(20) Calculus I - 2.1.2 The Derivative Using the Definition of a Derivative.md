@@ -1,0 +1,24 @@
+[Video](https://www.youtube.com/watch?v=tyoukQr2_ck)
+
+- ![[Screenshot 2023-05-25 at 8.02.33 AM.png]]
+	- What is a [[derivative function]]
+		- The derivative function f'(x) of the function f(x) is a function that will give us the instantaneous rate of change of f(x), aka the slope of the tangent line, at any point x in the domain of f(x)
+		- The good news is, we already know how to doo this (assuming you watched 2.1.1)
+		- The derivative of f at x is $$f'(x) = lim_{\Delta x \rightarrow 0} \frac{f(x+\Delta x) - f(x)}{\Delta x}$$
+		- Provided that the derivative exists at x (more on this later)
+		- You may see the derivative written as $$f'(x), \frac{dy}{dx}, y', \frac{d}{dx}[f(x)]$$
+			- $\frac {dy}{dx}$ 
+				- Is read as the derivative of y with respect to x
+- ![[Screenshot 2023-05-25 at 8.04.54 AM.png]]
+	- Find the Derivative using the definition
+		- Find the derivative of $f(x) = x^3 - 3$ using the definition of a derivative
+- ![[Screenshot 2023-05-25 at 8.05.56 AM.png]]
+	- Practice
+		- Using the definition of a derivative to find the equation of the line tangent to
+- ![[Screenshot 2023-05-25 at 8.09.00 AM.png]]
+	- Differentiability and Continuity
+		- We already know that for a limit to exist at x = c, both sides of the limit and the function all need to be equal
+	- In order for a function to be differentiable at f(c), both sides of the limit need to be equal
+	- Non-examples
+	- Sharp turn or corner is not differentiable
+	- Also can't differentiate infinity

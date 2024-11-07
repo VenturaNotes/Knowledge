@@ -1,0 +1,26 @@
+[Video](https://www.youtube.com/watch?v=U4ybtvvZKS0)
+
+- ![[Screenshot 2023-05-25 at 7.23.16 AM.png]]
+	- Continuity and the IVT
+		- The [[Intermediate Value Theorem]] tells us an important fact about continuous functions:
+			- If f is continuous on the closed interval $[a,b]$, f(a) $\ne$ f(b) and k is any number between f(a) and f(b), then there is at least one number c such that f(c) = k where a < c < b.
+		- Try this: Draw a line from point a to point b without crossing the x-axis
+			- Must cross x-axis
+- ![[Screenshot 2023-05-25 at 7.25.34 AM.png]]
+	- Using the Intermediate Value Theorem
+		- To use the IVT, you must ensure that the conditions are met
+			- Verify the function continuous over a closed interval
+			- Verify f(a) $\ne$ f(b)
+			- Verify f(a) < k < f(b) or f(b) < k < f(a)
+		- Example: Verify that IVT applies to the indicated interval, then find the value of c guaranteed by the theorem
+- ![[Screenshot 2023-05-25 at 7.28.51 AM.png]]
+	- Applying the IVT
+		- The most useful application of the intermediate value theorem is that we can determine if a zero (root, solution) exists within a given interval
+			- Verify the function continuous over a closed interval
+			- Verify f(a) $\ne$ f(b) <mark style="background: #FFF3A3A6;">and f(a) and f(b) have opposite signs</mark>
+			- Verify f(a) < k < f(b) or f(b) < k < f(a)
+	- Example: Use the IVT to show that $g(x) = x^3 + 2x - 1 has a zero in the interval $[0, 1].$
+- ![[Screenshot 2023-05-25 at 7.33.20 AM.png]]
+	- Practice Applying the IVT
+		- Explain why the function has at least one zero in the given interval:
+			- $g(x) = x^2 - 2 - cosx, [0, \pi]$

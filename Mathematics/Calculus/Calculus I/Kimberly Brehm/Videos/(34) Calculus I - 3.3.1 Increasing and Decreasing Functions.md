@@ -1,0 +1,28 @@
+[Video](https://www.youtube.com/watch?v=0JlO_zHCajM)
+
+- ![[Screenshot 2023-05-27 at 12.09.37 PM.png]]
+	- Recall that a derivative is a function that gives us the slope of the line at any point along the function.
+	- We also know that if a slope of a line is positive, the graph is pointing up as we travel along the line from left to right. If it is negative, the graph points down.
+	- Putting these facts together, we can see that a derivative can tell us whether a function is increasing or decreasing. It can also tell us the x-value at which the behavior changes. More specifically:
+		- Sign/Value of Derivative and Behavior of Function
+			- $f'(x) < 0$ means f is decreasing
+			- $f'(x) > 0$ means f is increasing
+			- $f'(x) = 0$ means f is constant
+- ![[Screenshot 2023-05-27 at 12.14.13 PM.png]]
+	- Steps for [[Finding Increasing and Decreasing Intervals]]
+	- Here are the steps we can follow for finding the intervals on which a function is increasing or decreasing. 
+		- (1) Check to see if <mark style="background: #FFF3A3A6;">f</mark> is continuous on (a, b). 
+		- (2) Locate the critical numbers of <mark style="background: #FFF3A3A6;">f</mark> in (a, b). 
+			- f'(x) = 0 or f(x) is undefined
+		- (3) Divide the domain (implied or explicit) into intervals divided by the critical numbers (and any values where <mark style="background: #FFF3A3A6;">f</mark> is discontinuous). 
+		- (4) Choose a test point within each interval to plug into <mark style="background: #FFF3A3A6;">f'(x)</mark>. Use the sign to determine the value of the function.
+- ![[Screenshot 2023-05-27 at 12.17.15 PM.png]]
+	- Finding Inc/Dec Intervals Practice 
+		- Find the open intervals on which f(x) is increasing and decreasing.
+- ![[Screenshot 2023-05-27 at 2.18.40 PM.png]]
+	- Finding Inc/Dec Intervals Practice
+		- Find the open intervals on which g(x) is increasing and decreasing.
+- ![[Screenshot 2023-05-27 at 2.22.19 PM.png]] ^468ada
+	- Finding Inc/Dec Intervals Practice
+		- Find the open intervals on which f(x) is increasing and decreasing given $\frac {d}{dx}$
+	- Derivative of [[Absolute Value Function]]

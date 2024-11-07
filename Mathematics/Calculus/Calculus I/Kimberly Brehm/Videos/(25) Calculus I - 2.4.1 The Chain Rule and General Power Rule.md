@@ -1,0 +1,22 @@
+[Video](https://www.youtube.com/watch?v=Ptz1fa8lLyg)
+
+- ![[Screenshot 2023-05-25 at 8.58.41 AM.png]]
+	- Not the Chain Rule
+		- Let's look at two functions. For each, we want to find the first derivative.
+- ![[Screenshot 2023-05-25 at 9.01.35 AM.png]]
+	- The [[Chain Rule]]
+		- The chain rule gives us a quick and easy way to deal with composite functions
+		- If y = f(u) is a differentiable function of u, and u = g(x) is a differentiable function of x, then y = f(g(x)) is a differentiable function of x and $\frac {d}{dx}[f(g(x))]$ = $f'(g(x))g'(x)$
+- ![[Screenshot 2023-05-25 at 9.03.07 AM.png]]
+	- Decomposing a Composition of Functions
+		- Let's practice determining u and f(u)
+	- Function
+- ![[Screenshot 2023-05-25 at 9.05.22 AM.png]]
+	- The [[General Power Rule]]
+		- Recall that we previously learned the Power Rule, which stated $\frac {d}{dx}[x^n] = nx^{n-1}$
+		- Now that we know the Chain Rule, we can generalize the power rule for when "x" is now a function of x
+		- If y = $[u(x)]^n$ where u is a differentiable function of x and n is a rational number, then $\frac {d}{dx}u^n = nu^{n-1}u'$.
+		- Find $y'$ for $y = (7x^4 - 3x)^6$
+- ![[Screenshot 2023-05-25 at 9.07.58 AM.png]]
+	- Practice
+		- Find the derivative of the functions.

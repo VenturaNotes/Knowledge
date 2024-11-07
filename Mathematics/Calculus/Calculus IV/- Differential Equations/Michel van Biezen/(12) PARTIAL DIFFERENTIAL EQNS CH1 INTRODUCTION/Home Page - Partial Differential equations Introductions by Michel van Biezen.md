@@ -1,0 +1,52 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVaWPBd1I4A2dcIeAtxIdPf
+Length: 3 hours, 9 minutes, 26 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Math - Partial Differential Eqn. - Ch.1 - Introduction (1 of 42) What is a Partial Differential Eqn]]
+	- [[(2) Math - Partial Differential Eqn. - Ch.1 - Introduction (2 of 42) Comparing a PDE to a DE]]
+	- [[(3) Math - Partial Differential Eqn. - Ch.1 - Introduction (3 of 42) Partial Differential Eqn Notation]]
+	- [[(4) Math - Partial Differential Eqn. - Ch.1 - Introduction (4 of 42) Partial Differential Operator]]
+	- [[(5) Math - Partial Differential Eqn. - Ch.1 - Introduction (5 of 42) The 1-D Wave Equation]]
+	- [[(6) Math - Partial Differential Eqn. - Ch.1 - Introduction (6 of 42) Partial Derivative Understood]]
+	- [[(7) Math - Partial Differential Eqn. - Ch.1 - Introduction (7 of 42) Is the Function a Solution of PDE.]]
+	- [[(8) Math - Partial Differential Eqn. - Ch.1 - Introduction (8 of 42) Comparing Solutions - DE & PDE]]
+	- [[(9) Math - Partial Differential Eqn. - Ch.1 - Introduction (9 of 42) General Sol. of 2nd Order PDE]]
+	- [[(10) Math - Partial Differential Eqn. - Ch.1 - Introduction (10 of 42) General Sol. of PDE w and  3 Variable]]
+	- [[(11) Math - Partial Differential Eqn. - Ch.1 - Introduction (11 of 42) What is the Gradient Operator.]]
+	- [[(12) Math - Partial Differential Eqn. - Ch.1 - Introduction (12 of 42) A Gradient Operator Example]]
+	- [[(13) Math - Partial Differential Eqn. - Ch.1 - Introduction (13 of 42) What is the Laplacian Operator.]]
+	- [[(14) Math - Partial Differential Eqn. - Ch.1 - Introduction (14 of 42) Understanding the Laplacian Operator]]
+	- [[(15) Math - Partial Differential Eqn. - Ch.1 - Introduction (15 of 42) What are the Most Important PDEs.]]
+	- [[(16) Math - Partial Differential Eqn. - Ch.1 - Introduction (16 of 42) Some Solutions of a 2nd Order PDE]]
+	- [[(17) Math - Partial Differential Eqn. - Ch.1 - Introduction (17 of 42) General Solution of a 1st Order PDE]]
+	- [[(18) Math - Partial Differential Eqn. - Ch.1 - Introduction (18 of 42) General Form of 1st Order Linear PDE]]
+	- [[(19) Math - Partial Differential Eqn. - Ch.1 - Introduction (19 of 42) First Order PDE - Example 1]]
+	- [[(20) Math - Partial Differential Eqn. - Ch.1 - Introduction (20 of 42) 1st Order PDE (2 Partial Deriv.)]]
+	- [[(21) Math - Partial Differential Eqn. - Ch.1 - Introduction (21 of 42) 1st Order PDE (2 Partial Deriv.) Ex]]
+	- [[(22) Math - Partial Differential Eqn. - Ch.1 - Introduction (22 of 42) 1st Order PDE (2 Partial Deriv.) 1]]
+	- [[(23) Math - Partial Differential Eqn. - Ch.1 - Introduction (23 of 42) 1st Order PDE (2 Partial Deriv.) 2]]
+	- [[(24) Math - Partial Differential Eqn. - Ch.1 - Introduction (24 of 42) Gen. Form 2nd PDE (2 Partial Deriv.)]]
+	- [[(25) Math - Partial Differential Eqn. - Ch.1 - Introduction (25 of 42) Gen. Form of 2nd PDE - Simplified]]
+	- [[(26) Math - Partial Differential Eqn. - Ch.1 - Introduction (26 of 42) 2nd PDE - General Form]]
+	- [[(27) Math - Partial Differential Eqn. - Ch.1 - Introduction (27 of 42) 2nd PDE - General Form part 2]]
+	- [[(28) Math - Partial Differential Eqn. - Ch.1 - Introduction (28 of 42) 1-D Wave Equation]]
+	- [[(29) Math - Partial Differential Eqn. - Ch.1 - Introduction (29 of 42) 2-D Laplace Equation]]
+	- [[(30) Math - Partial Differential Eqn. - Ch.1 - Introduction (30 of 42) 2nd Order PDE B 2 = 4AC]]
+	- [[(31) Math - Partial Differential Eqn. - Ch.1 - Introduction (31 of 42) 2nd - Using Characteristic Eqn.]]
+	- [[(32) Math - Partial Differential Eqn. - Ch.1 - Introduction (32 of 42) 2nd - Using Boundary Conditions]]
+	- [[(33) Math - Partial Differential Eqn. - Ch.1 - Introduction (33 of 42) 2nd - Non-Homogeneous PDE Ex.]]
+	- [[(34) Math - Partial Differential Eqn. - Ch.1 - Introduction (34 of 42) 1-D Wave Equation (Part 1)]]
+	- [[(35) Math - Partial Differential Eqn. - Ch.1 - Introduction (35 of 42) 1-D Wave Equation (Part 2)]]
+	- [[(36) Math - Partial Differential Eqn. - Ch.1 - Introduction (36 of 42) 3-D Wave Equation (Part 1)]]
+	- [[(37) Math - Partial Differential Eqn. - Ch.1 - Introduction (37 of 42) 3-D Wave Equation (Part 2)]]
+	- [[(38) Math - Partial Differential Eqn. - Ch.1 - Introduction (38 of 42) The Diffusion Equation (Part 1 of 5)]]
+	- [[(39) Math - Partial Differential Eqn. - Ch.1 - Introduction (39 of 42) The Diffusion Equation (Part 2 of 5)]]
+	- [[(40) Math - Partial Differential Eqn. - Ch.1 - Introduction (40 of 42) The Diffusion Equation (Part 3 of 5)]]
+	- [[(41) Math - Partial Differential Eqn. - Ch.1 - Introduction (41 of 42) The Diffusion Equation (Part 4 of 5)]]
+	- [[(42) Math - Partial Differential Eqn. - Ch.1 - Introduction (42 of 42) The Diffusion Equn (Part 5 of 5)]]

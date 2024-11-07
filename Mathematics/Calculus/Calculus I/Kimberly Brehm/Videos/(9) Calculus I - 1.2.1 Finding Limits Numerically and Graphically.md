@@ -1,0 +1,33 @@
+[Video](https://www.youtube.com/watch?v=lOB402kSfsI)
+
+- ![[Screenshot 2023-05-25 at 4.29.27 AM.png]]
+	- What is a limit?
+		- We just learned how important the study of limits will be to ur studies this term. But what exactly is a [[limit]]?
+		- This is a graph of f(x)
+		- If I asked you to evaluate f(1), you would likely plug in the 1 to get f(1) = $\frac 00$ or undefined.
+		- But what if I asked you to find $lim_{x\rightarrow 1}f(x)$
+- ![[Screenshot 2023-05-25 at 4.31.12 AM.png]]
+	- What is a limit?
+		- Recall that a limit gives us a value (slope of a tangent line, area, or even the value of the function) as we get infinitely close to some value
+		- Let's evaluate the limit numerically
+		- Although x cannot equal 1, you can move arbitrarily close to 1, and as a result f(x) moves arbitrarily close to 3. Graphically, we can see that the <mark style="background: #FFF3A3A6;">function approaches 3 from BOTH sides.</mark> Therefore
+			- $\lim_{x \rightarrow 1} f(x) = 3$
+- ![[Screenshot 2023-05-25 at 4.33.36 AM.png]]
+	- The Informal Definition of a Limit
+		- If f(x) becomes arbitrarily close to a single real number L as x approaches c from either side, then the limit of f(x) as x approaches c is L
+		- Note, it isn't necessary that f(x) = L or f(x) = und.
+		- Example: Find f(1) and $lim_{x \rightarrow 1}f(x)$ for the given graph
+- ![[Screenshot 2023-05-25 at 4.40.12 AM.png]]
+	- Practice
+		- Solutions
+			- (1) Limit = 2 (although function is undefined here)
+			- (2) Limit = 3 (although value of function = 1)
+			- (3) Limit = 11 (function equal to limit)
+		- Evaluate the following limits numerically, graphically, or analytically (using math!)
+			- On graphing calculator
+				- vars $\rightarrow$ y-vars $\rightarrow$ Function $\rightarrow$ $Y_1$ (must have equation for $Y_1$)
+				- Then in calculator do
+					- $Y_1(-0.001)$ $\approx 1.9999499$
+					- $Y_2(0.001) \approx 2.000049997$ 
+					- So we can see that for the first equation, the limit will approach 2 (could also see that from graphing the first problem)
+	- Converting piecewise function to equation on calculator

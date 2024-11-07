@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=w8DuUJnQ574)
+
+- ![[Screenshot 2023-10-31 at 12.48.55 AM.png]]
+	- [[derivative|derivatives]] of [[Trigonometric function|trig functions]]
+	- The most important things about trigonometric derivatives
+	- Could use the [[quotient rule]] to derive the other trig functions from $sin(x)$ and $cos(x)$ 
+	- Derivatives
+		- [[sine]]
+			- cosx
+		- [[cosine]]
+			- -sinx
+		- [[Tangent|tan]]
+			- $sec^2x$
+		- [[Secant|sec]]
+			- $secxtanx$
+		- [[Cotangent|cot]]
+			- $-csc^2x$
+		- [[Cosecant|csc]]
+			- $–csc(x)cot(x)$
+- ![[Screenshot 2023-10-31 at 12.53.12 AM.png]]
+	- Chain rule derivatives and higher-order derivatives

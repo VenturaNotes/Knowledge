@@ -1,0 +1,48 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXX8zTeJvCQXPeubJC8HSFYm
+Length: 3 hours, 13 minutes
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Calculus 3 - Divergence and Curl (1 of 26) What is the Del Operator.]]
+	- [[(2) Calculus 3 - Divergence and Curl (2 of 26) What is the Gradient.]]
+	- [[(3) Calculus 3 - Divergence and Curl (3 of 26) What is the Divergence.]]
+	- [[(4) Calculus 3 - Divergence and Curl (4 of 32) What is the Divergence. Part 2]]
+	- [[(5) Calculus 3 - Divergence and Curl (5 of 32) What is the Divergence. Part 3]]
+	- [[(6) Calculus 3 - Divergence and Curl (6 of 32) What is the Divergence. Part 4]]
+	- [[(7) Calculus 3 - Divergence and Curl (7 of 32) What is the Divergence. A Visual Solution]]
+	- [[(8) Calculus 3 - Divergence and Curl (8 of 32) Calculating the Divergence (Cartesian) Ex. 1]]
+	- [[(9) Calculus 3 - Divergence and Curl (9 of 50) Calculating the Divergence (Cartesian) Ex. 2]]
+	- [[(10) Calculus 3 - Divergence and Curl (10 of 50) Calculating the Divergence (Cartesian) Ex. 3]]
+	- [[(11) Calculus 3 - Divergence and Curl (11 of 50) Calculating the Divergence (Cartesian) Ex. 4]]
+	- [[(12) Calculus 3 - Divergence and Curl (12 of 32) What is the Curl. Part 1]]
+	- [[(13) Calculus 3 - Divergence and Curl (13 of 32) What is the Curl. Part 2]]
+	- [[(14) Calculus 3 - Divergence and Curl (14 of 32) What is the Curl. Part 3]]
+	- [[(15) Calculus 3 - Divergence and Curl (15 of 32) The Sign of a Curl - Example]]
+	- [[(16) Calculus 3 - Divergence and Curl (16 of 32) The Curl - Change in One Direction]]
+	- [[(17) Calculus 3 - Divergence and Curl (17 of 32) The Curl - Change in F is NON-Linear]]
+	- [[(18) Calculus 3 - Divergence and Curl (18 of 32) The Curl of a Conservative Vector Field]]
+	- [[(19) Calculus 3 - Divergence and Curl (19 of 32) The Curl of a Conservative Vector Field - Ex. 1]]
+	- [[(20) Calculus 3 - Divergence and Curl (20 of 32) The Curl of a Conservative Vector Field - Ex. 2]]
+	- [[(21) Calculus 3 - Divergence and Curl (21 of 32) The Curl of a Conservative Vector Field - Ex. 3]]
+	- [[(22) Calculus 3 - Divergence and Curl (22 of 32) (ERROR IN THIS VIDEO) What is the Laplace Operator.]]
+	- [[(23) Calculus 3 - Divergence and Curl (23 of 32) The Laplace Operator - Ex. 1]]
+	- [[(24) Calculus 3 - ERROR,  WILL BE REPLACED Divergence and Curl (24 of 32) The Laplace Operator - Ex. 2]]
+	- [[(25) Calculus 3 - Divergence and Curl (25 of 50) Identity 1 - DIV(F+G)=DIV(F)+DIV(G)]]
+	- [[(26) Calculus 3 - Divergence and Curl (26 of 50) Identity 2 - CURL(F+G)=CURL(F)+CURL(G)]]
+	- [[(27) Calculus 3 - Divergence and Curl (27 of 50) Identity 3 - DIV(f G)=f (DIV(F))+F (Gradient(f))]]
+	- [[(28) Calculus 3 - Divergence and Curl (28 of 50) Identity 4 - CURL(f G)=f (CURL(F))+Gradient(f)xF]]
+	- [[(29) Calculus 3 - Divergence and Curl (29 of 50) Identity 5 - DIV(FxG)=G (CURL(F))-F (CURL(G))]]
+	- [[(30) Calculus 3 - Divergence and Curl (30 of 50) Identity 6 - DIV(Gradient(F) x Gradient(G))=0]]
+	- [[(31) Calculus 3 - Divergence and Curl (31 of 50) Identity 7 - CURL(CURL(F))=Grad(DIV(f)) – (Grad) 2(F)]]
+	- [[(32) Calculus 3 - Divergence and Curl (32 of 50) An Interesting Example]]
+	- [[(33) Calculus 3 - Divergence and Curl (33 of 50) Cylindrical Coordinates]]
+	- [[(34) Calculus 3 - Divergence and Curl (34 of 50) Cylindrical Coordinates - Small Displacement dr]]
+	- [[(35) Calculus 3 - Divergence and Curl (35 of 50) Cylindrical Coordinates - Small Volume Element dV]]
+	- [[(36) Calculus 3 - Divergence and Curl (36 of 50) del Operator in Cylindrical Coodinates]]
+	- [[(37) Calculus 3 - Divergence and Curl (37 of 50) Converting i, j, k to Cylindrical Coodinates]]
+	- [[(38) Calculus 3 - Divergence and Curl (38 of 50) Find the Divergence in Cylindrical Coodinates]]

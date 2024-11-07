@@ -1,0 +1,41 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BN26s7tmqlWic7nsmC8wJmx
+Length: 4 hours, 44 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) Derivatives (KristaKingMath)]]
+	- [[(2) How to calculate the difference quotient (KristaKingMath)]]
+	- [[(3) DEFINITION OF THE DERIVATIVE to find the derivative (KristaKingMath)]]
+	- [[(4) Power rule for derivatives (KristaKingMath)]]
+	- [[(5) PRODUCT RULE for derivatives (KristaKingMath)]]
+	- [[(6) Product rule - 3+ functions (KristaKingMath)]]
+	- [[(7) Quotient rule (KristaKingMath)]]
+	- [[(8) Reciprocal rule (KristaKingMath)]]
+	- [[(9) Chain rule combined with power rule (KristaKingMath)]]
+	- [[(10) Chain rule for derivatives, with product rule (KristaKingMath)]]
+	- [[(11) Chain rule for derivatives, with quotient rule (KristaKingMath)]]
+	- [[(12) Chain rule for derivatives, with trig functions (KristaKingMath)]]
+	- [[(13) Derivatives of TRIG FUNCTIONS (KristaKingMath)]]
+	- [[(14) Derivative of cot 4(x and 2) (KristaKingMath)]]
+	- [[(15) Derivatives of inverse trig functions - arcsin (KristaKingMath)]]
+	- [[(16) Derivatives of inverse trig functions - arccot (KristaKingMath)]]
+	- [[(17) Derivatives of HYPERBOLIC functions (KristaKingMath)]]
+	- [[(18) Derivatives of inverse hyperbolic functions (KristaKingMath)]]
+	- [[(19) Implicit differentiation COMPLETELY EXPLAINED! (KristaKingMath)]]
+	- [[(20) Finding the derivative of a function with e x (KristaKingMath)]]
+	- [[(21) Derivatives of logarithms (KristaKingMath)]]
+	- [[(22) How to use LOGARITHMIC DIFFERENTIATION to find the derivative (KristaKingMath)]]
+	- [[(23) Derivative of x x (KristaKingMath)]]
+	- [[(24) EQUATION OF THE TANGENT LINE (KristaKingMath)]]
+- Incomplete
+	- [[(25) Value that makes two tangent lines parallel (KristaKingMath)]]
+	- [[(26) DIFFERENTIABILITY and horizontal and vertical tangent lines (KristaKingMath)]]
+	- [[(27) Equation of the normal line at a point (KristaKingMath)]]
+	- [[(28) Average rate of change of a function (KristaKingMath)]]
+	- [[(29) Finding HALF LIFE (KristaKingMath)]]
+	- [[(30) Continuous compounding interest (KristaKingMath)]]
+	- [[(31) SALES DECLINE calculus problems (KristaKingMath)]]

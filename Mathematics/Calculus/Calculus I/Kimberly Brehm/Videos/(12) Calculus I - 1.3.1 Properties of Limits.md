@@ -1,0 +1,22 @@
+[Video](https://www.youtube.com/watch?v=98gn6FBSHAk)
+
+- ![[Screenshot 2023-05-25 at 5.22.24 AM.png]]
+	- [[Limit of a constant function]]
+	- [[Limit by direct substitution]]
+		- Can't always direct substitute
+	- [[Scalar Multiple]]
+	- [[Sum or Difference]]
+	- [[Product]]
+	- [[Quotient]]
+	- [[Power]]
+- ![[Screenshot 2023-05-25 at 5.25.09 AM.png]]
+	- Compute the following limits using any method
+- ![[Screenshot 2023-05-25 at 5.27.16 AM.png]]
+	- Limits of the composition of Functions
+		- If f and g are functions such that 
+		- Example
+- ![[Screenshot 2023-05-25 at 5.31.07 AM.png]]
+	- Limits of trig Functions
+		- All limits of trigonometric functions are found using direct substitution. However, the value of c must be in the domain of the function.
+	- At intervals of $\frac {\pi}{2}$ for [[tangent]] and [[secant]] is where the function will be undefined
+	- At intervals of $\pi$ for [[cotangent]] and [[cosecant]] is where the function will be undefined

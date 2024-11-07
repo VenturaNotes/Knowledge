@@ -1,0 +1,43 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLpcwHaLYiaEWLlLEdH2gpK2J7gTAXzB5N
+Length: 28 hours, 36 minutes, 43 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Calculus II - Review of Integration with Substitution (Full Lecture)]]
+	- [[(2) Calculus II - Integration by Parts (Full Lecture)]]
+	- [[(3) Calculus II - Partial Fractions (full lecture)]]
+	- [[(4) Calculus II - Improper Integrals (Full lecture)]]
+	- [[(5) Calculus II - Numerical Integration (full lecture)]]
+	- [[(6) Calculus II - Approximating Polynomials (Full Lecture)]]
+	- [[(7) Calculus II - Taylor Polynomials (full lecture)]]
+	- [[(8) Calculus II - Error in Taylor Polynomials (Full lecture)]]
+	- [[(9) Calculus II - Functions as Power Series (full lecture)]]
+	- [[(10) Calculus II - Operations on Power Series (Full Lecture)]]
+	- [[(11) Calculus II - Test 1 Review]]
+	- [[(12) Calculus II - Sample Test 1]]
+	- [[(13) Calculus II - Sequences (Full Lecture)]]
+	- [[(14) Calculus II - Introduction to Series (Full Lecture)]]
+	- [[(15) Calculus II - Non-Negative Series 1 (Full Lecture)]]
+	- [[(16) Calculus II - Non-negative Series 2 (Full lecture)]]
+	- [[(17) Calculus II - Series with Positive and Negative Terms (full lecture)]]
+	- [[(18) Calculus II - Series Strategy (full lecture)]]
+	- [[(19) Calculus II - Radius and Interval of Convergence for Power Series (Full lecture)]]
+	- [[(20) Calculus II - Displacement and Distance Traveled ( Full lecture)]]
+	- [[(21) Calculus II - Volume Part 1 (Full Lecture)]]
+	- [[(22) Calculus II - Volume Part 2 (Full Lecture)]]
+	- [[(23) Calculus II - Test 2 Review]]
+	- [[(24) Calculus II - Sample Test 2]]
+	- [[(25) Calculus II - Mass and Density (full lecture)]]
+	- [[(26) Calculus II - Center of Mass and Moments (full lecture)]]
+	- [[(27) Calculus II (H) -  Introduction to Probability (Full lecture)]]
+	- [[(28) Calculus II - Work (Full lecture)]]
+	- [[(29) Multivariable Calculus - Introduction to Vectors in R n (full lecture)]]
+	- [[(30) Multivariable Calculus - Dot Product and Orthogonal Projection (full lecture)]]
+	- [[(31) Multivariable Calculus - Lines and Planes (Full Lecture)]]
+	- [[(32) Multivariable Calculus - Cross Product (Full Lecture)]]
+	- [[(33) Calculus II - Final Exam Review]]

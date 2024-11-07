@@ -1,0 +1,55 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BNjv72PRNBSrby40R6LKy6r
+Length: 6 hours, 46 minutes, 56 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Eliminating the Parameter (KristaKingMath)]]
+	- [[(2) Derivative of a parametric curve (KristaKingMath)]]
+	- [[(3) Second Derivative of a Parametric Curve (KristaKingMath)]]
+	- [[(4) Sketch the parametric curve by plotting points (KristaKingMath)]]
+	- [[(5) Tangent line to the parametric curve (KristaKingMath)]]
+	- [[(6) Area under the parametric curve (KristaKingMath)]]
+	- [[(7) Parametric area under one arc or loop (KristaKingMath)]]
+	- [[(8) Volume of Revolution of a Parametric Curve (KristaKingMath)]]
+	- [[(9) Parametric arc length (KristaKingMath)]]
+	- [[(10) Parametric arc length and the distance traveled by the particle (KristaKingMath)]]
+	- [[(11) Parametric arc length, simpson's rule (KristaKingMath)]]
+	- [[(12) Parametric Curve - Surface Area of Revolution (KristaKingMath)]]
+	- [[(13) Polar coordinates (KristaKingMath)]]
+	- [[(14) Converting Polar Coordinates (KristaKingMath)]]
+	- [[(15) Converting Rectangular Equations to Polar Equations (KristaKingMath)]]
+	- [[(16) Converting Polar Equations to Rectangular Equations (KristaKingMath)]]
+	- [[(17) Distance between two polar points (KristaKingMath)]]
+	- [[(18) Sketching Polar Curves (KristaKingMath)]]
+	- [[(19) Sketching Polar Curves - 2 Examples (KristaKingMath)]]
+	- [[(20) Sketching polar curves from cartesian curves (KristaKingMath)]]
+	- [[(21) Tangent line to the polar curve (KristaKingMath)]]
+	- [[(22) Vertical and horizontal tangent lines to the polar curve (KristaKingMath)]]
+	- [[(23) Polar Area (KristaKingMath)]]
+	- [[(24) Polar Area Bounded by One Loop (KristaKingMath)]]
+	- [[(25) Points of intersection of two polar curves (KristaKingMath)]]
+	- [[(26) Area Between Polar Curves (KristaKingMath)]]
+	- [[(27) Polar area inside both curves (KristaKingMath)]]
+	- [[(28) Arc Length of a Polar Curve (KristaKingMath)]]
+	- [[(29) Polar Parametric Curve - Arc Length (KristaKingMath)]]
+	- [[(30) Polar Parametric Curve - Surface Area of Revolution (KristaKingMath)]]
+	- [[(31) Taking a look at complex numbers in polar form (KristaKingMath)]]
+	- [[(32) Let's multiply some complex numbers! (KristaKingMath)]]
+	- [[(33) Analytic Geometry - Graph of a Single Point or of No Points (KristaKingMath)]]
+	- [[(34) Analytic Geometry - Set of Points Equally Distant from Two Points (KristaKingMath)]]
+	- [[(35) Analytic Geometry- Set of Points Unequally Distant from Two Points (KristaKingMath)]]
+	- [[(36) Eccentricity and directrix of the conic section (KristaKingMath)]]
+	- [[(37) Parabolas -Vertex, Axis, Focus, Directrix (KristaKingMath)]]
+	- [[(38) Equation of a parabola (conic section) (KristaKingMath)]]
+	- [[(39) Polar equation of the parabola (conic section) (KristaKingMath)]]
+	- [[(40) Vertex axis focus directrix of an ellipse (KristaKingMath)]]
+	- [[(41) Equation of an ellipse (conic section) (KristaKingMath)]]
+	- [[(42) Polar equation of the ellipse (conic section) (KristaKingMath)]]
+	- [[(43) Vertex axis focus directrix asymptotes of a hyperbola (KristaKingMath)]]
+	- [[(44) Equation of a hyperbola (conic section) (KristaKingMath)]]
+	- [[(45) Polar equation of the hyperbola (conic section) (KristaKingMath)]]

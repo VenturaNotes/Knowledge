@@ -1,0 +1,42 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLF797E961509B4EB5
+Length: 1 day, 20 hours, 56 minutes, 49 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Calculus 1 Lecture 0.1 - Lines, Angle of Inclination, and the Distance Formula]]
+	- [[(2) Calculus 1 Lecture 0.2 - Introduction to Functions.]]
+	- [[(3) Calculus 1 Lecture 0.3 - Review of Trigonometry and Graphing Trigonometric Functions]]
+	- [[(4) Calculus 1 Lecture 0.4 - Combining and Composition of Functions]]
+	- [[(5) Calculus 1 Lecture 1.1 - An Introduction to Limits]]
+	- [[(6) Calculus 1 Lecture 1.2 - Properties of Limits.  Techniques of Limit Computation]]
+	- [[(7) Calculus 1 Lecture 1.4 - Continuity of Functions]]
+	- [[(8) Calculus 1 Lecture 1.5 - Slope of a Curve, Velocity, and Rates of Change]]
+	- [[(9) Calculus 1 Lecture 2.1 - Introduction to the Derivative of a Function]]
+	- [[(10) Calculus 1 Lecture 2.2 - Techniques of Differentiation (Finding Derivatives of Functions Easily)]]
+	- [[(11) Calculus 1 Lecture 2.3 - The Product and Quotient Rules for Derivatives of Functions]]
+	- [[(12) Calculus 1 Lecture 2.4 -  Applications of the Derivative]]
+	- [[(13) Calculus 1 Lecture 2.5 - Finding Derivatives of Trigonometric Functions]]
+	- [[(14) Calculus 1 Lecture 2.6 - Discussion of the Chain Rule for Derivatives of Functions]]
+	- [[(15) Calculus 1 Lecture 2.7 - Implicit Differentiation]]
+	- [[(16) Calculus 1 Lecture 2.8 -  Related Rates]]
+	- [[(17) Calculus 1 Lecture 3.1 - Increasing and Decreasing and Concavity of Functions]]
+	- [[(18) Calculus 1 Lecture 3.2 - A BRIEF Discussion of Rolle's Theorem and Mean-Value Theorem.]]
+	- [[(19) Calculus 1 Lecture 3.3 - The First Derivative Test for Increasing and Decreasing]]
+	- [[(20) Calculus 1 Lecture 3.4 - The Second Derivative Test for Concavity of Functions]]
+	- [[(21) Calculus 1 Lecture 3.5 - Limits of Functions at Infinity]]
+	- [[(22) Calculus 1 Lecture 3.6 - How to Sketch Graphs of Functions]]
+	- [[(23) Calculus 1 Lecture 3.7 - Optimization - Max and Min Application Problems]]
+	- [[(24) Calculus 1 Lecture 4.1 -  An Introduction to the Indefinite Integral]]
+	- [[(25) Calculus 1 Lecture 4.2 -  Integration by Substitution]]
+	- [[(26) Calculus 1 Lecture 4.3 -  Area Under a Curve, Limit Approach, Riemann Sums]]
+	- [[(27) Calculus 1 Lecture 4.4 -  The Evaluation of Definite Integrals]]
+	- [[(28) Calculus 1 Lecture 4.5 -  The Fundamental Theorem of Calculus]]
+	- [[(29) Calculus 1 Lecture 5.1 -  Finding Area Between Two Curves]]
+	- [[(30) Calculus 1 Lecture 5.2 -  Volume of Solids By Disks and Washers Method]]
+	- [[(31) Calculus 1 Lecture 5.3 -  Volume of Solids By Cylindrical Shells Method]]
+	- [[(32) Calculus 1 Lecture 5.4 -  Finding the Length of a Curve on a Plane]]

@@ -1,0 +1,26 @@
+[Video](https://youtube.com/watch?v=IDNrphBQ88M)
+
+- ![[Screenshot 2023-10-10 at 11.37.32 AM.png]]
+	- "[[e]]" is called the "natural number" because in nature, things tend to increase and decrease according to that number
+		- When it increases, it grows exponentially
+		- When it decreases, it decays exponentially
+	- [[Population Growth]]
+		- $N(t) = N_0e^{at}$
+			- The number of any population is equal to the initial number and increases according to the function $e^{at}$ 
+			- a is a constant
+				- Increases or decreases steepness of curve
+			- t is an independent variable
+	- [[Investment Growth]]
+		- $P(t) = P_0e^{at}$
+			- [[Principal]] equals initial principal times $e^{at}$
+				- Sometimes principal is known as amount
+				- a determines steepness of curve (could represent [[interest rate]])
+				- t is the independent variable
+	- [[Current]] in a [[capacitor circuit]]
+		- $I(t) = I_0e^{\frac {-t}{\tau}}$
+		- As a capacitor fills up with charge the current decreases and will decrease according to exponential function
+		- Will have a negative exponent and $\tau$ is the constant
+	- Current in an [[inductor circuit]]
+		- $I(t) = I_0(1 - e^{-\frac{t}{\tau}})$ 
+		- [[Limiting growth curve]]
+			- There is a maximum value that the current can get to. Exponentially arrives at maximum curve

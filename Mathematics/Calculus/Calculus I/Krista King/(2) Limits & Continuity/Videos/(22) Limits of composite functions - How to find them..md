@@ -1,0 +1,26 @@
+[Video](https://youtube.com/watch?v=BPyQrr05vA8)
+
+- ![[Screenshot 2023-10-05 at 9.54.09 PM.png]]
+	- [[Limits]] of [[composite functions]]
+		- How do you find the limit of composite functions?
+	- How to represent the composite of f of g
+		- $f(g(x)) = f \circ g$
+	- Will find limit first algebraically and then graphically
+	- Can transform $lim_{x \to 4} f(g(x))$ = $f(lim_{x \to 4} g(x))$ only if f is continuous at the value 4
+	- Given $ln(xsinx)$, you can say
+		- $f(x) = ln(x)$ which becomes your [[outside function]]
+		- $g(x) = xsinx$ which becomes your [[inside function]]
+	- [[limit laws]]
+		- Can be used to manipulate limits
+	- [[Rational function]]
+		- Numerator and denominator are polynomials
+	- [[Infinite limits]] (N = numerator, D = denominator)
+		- Results for when $\lim_{x \to \infty}$ for a rational function
+		- If N > D : $\infty$
+		- N < D : 0
+		- N = D : ratio
+- ![[Screenshot 2023-10-05 at 9.59.04 PM.png]]
+	- What to do if a limit DNE at any point of the problem
+	- Once we figure out the inner limit doesn't exist, we can say the whole limit DNE and we're done with the problem
+		- You can see the discontinuity graphically if you're approaching different values from either side
+	- As soon as you get to the DNE value of an inner limit, you know that the limit of the entire composite DNE

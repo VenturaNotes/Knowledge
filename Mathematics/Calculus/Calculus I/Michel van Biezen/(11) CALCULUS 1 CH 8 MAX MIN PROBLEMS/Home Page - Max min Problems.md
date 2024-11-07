@@ -1,0 +1,40 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVrIIzkWwxMtZR5jI9WFKdk
+Length: 3 hours, 46 minutes, 31 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) Calculus 1 - Max-Min Problems (1 of 30) Open Box]]
+	- [[(2) Calculus 1 - Max-Min Problems (2 of 30) Rectangular Area]]
+	- [[(3) Calculus 1 - Max-Min Problems (3 of 30) Transmission Lines]]
+	- [[(4) Calculus 1 - Max-Min Problems (4 of 30) LargestTriangle in Semi-Circle]]
+	- [[(5) Calculus 1 - Max-Min Problems (5 of 30) Strongest Beam]]
+	- [[(6) Calculus 1 - Max-Min Problems (6 of 30) Largest Rectangular Package Volume]]
+	- [[(7) Calculus 1 - Max-Min Problems (7 of 30) Reviewing General Approach]]
+	- [[(8) Calculus 1 - Max-Min Problems (8 of 30) Reviewing General Approach - Example]]
+	- [[(9) Calculus 1 - Max-Min Problems (9 of 30) Maximize the Product of 2 Numbers]]
+	- [[(10) Calculus 1 - Max-Min Problems (10 of 30) Largest Cylinder that Fits in a Circular Cone]]
+	- [[(11) Calculus 1 - Max-Min Problems (11 of 30) Construct a Cylinder from the Least Material]]
+	- [[(12) Calculus 1 - Max-Min Problems (12 of 30) Find the Shortest Distance from the Graph]]
+	- [[(13) Calculus 1 - Max-Min Problems (13 of 30) Gas Tank Made from the Least Material]]
+	- [[(14) Calculus 1 - Max-Min Problems (14 of 30) Maximizing Apple Orchard Production]]
+	- [[(15) Calculus 1 - Max-Min Problems (15 of 30) Maximizing Rental Income]]
+	- [[(16) Calculus 1 - Max-Min Problems (16 of 30) Maximizing Size of a Postage Package]]
+	- [[(17) Calculus 1 - Max-Min Problems (17 of 30) Maximum Rectangle in a Triangle]]
+	- [[(18) Calculus 1 - Max-Min Problems (18 of 30) Maximum Area of Square + Circle]]
+	- [[(19) Calculus 1 - Max-Min Problems (19 of 30) Maximum Volume of a Closed Box]]
+	- [[(20) Calculus 1 - Max-Min Problems (20 of 30) The Sum of 2 Numbers]]
+	- [[(21) Calculus 1 - Max-Min Problems (21 of 30) The Maximum Cross Section]]
+- Incomplete
+	- [[(22) Calculus 1 - Max-Min Problems (22 of 30) Maximum Rectangle Inside a Semi-Circle]]
+	- [[(23) Calculus 1 - Max-Min Problems (23 of 30) Maximum Right Circular Cone]]
+	- [[(24) Calculus 1 - Max-Min Problems (24 of 30) Maximum Profit]]
+	- [[(25) Calculus 1 - Max-Min Problems (25 of 30) How to Calculate Marginal Cost - 2 Methods]]
+	- [[(26) Calculus 1 - Max-Min Problems (26 of 30) Find Shortest Ladder to Clear Wall]]
+	- [[(27) Calculus 1 - Max-Min Problems (27 of 30) Find Point of Least Light]]
+	- [[(28) Calculus 1 - Max-Min Problems (28 of 30) Find Shortest Rope]]
+	- [[(29) Calculus 1 - Max-Min Problems (29 of 30) Prove Fermat's Principle and Reflection]]
+	- [[(30) Calculus 1 - Max-Min Problems (30 of 30) Derive Snell's Law Using Least Time]]

@@ -1,0 +1,60 @@
+[Video](https://youtube.com/watch?v=EWVSxND_iWA)
+
+- Goals in Differential Equations
+	- 1) Model Real-Life change
+		- Balance
+			- The more variables we add, the harder it is to do the math. Need a balance with a mathematical model to represent situation and ability to do mathematical model
+				- Sometimes we need to omit some factors when doing a problem
+				- Learning more math to better represent models
+		- Many word problems
+		- Represent real life change with math
+	- 2) Relating a derivative in an equation... differential equation
+		- If you have equation with derivatives in them, that's a differential equation.
+		- When doing an integral, doing a differential equation
+		- Derivatives represent <mark style="background: #FFF3A3A6;">changing</mark> things
+			- velocity, acceleration, population with respect to time
+		- Not necessarily focused on #'s as solutions
+			- Usually it's an equation itself
+			- Derivative is a derivative of some function
+			- Primarily goal is to find function of derivative for equation
+			- Overview
+				- Dealing with real life change
+				- Change means we have derivatives
+				- Derivative comes from some function
+				- Find the function
+					- That's the solution to a differential equation
+			- But on equations as solutions
+	- Solutions are usually an infinite family of equations that satisfy a differential equation
+		- This is the + C idea
+		- When doing an integral, you need the + C
+			- The + C represents an infinite family of equations that when you take a derivative, you get the original equation that you started with
+		- If you have an equation with derivatives in them and you find the solution (an equation that if you take a derivative of it, it will give you a thing that you have in a differential equation)  if you put a + C on it, you will get an infinite family of equations
+		- You find a solution to a differential equation, you'll have an arbitrary constant.
+	- If we are given an initial condition, then we can restrict the family to one particular solution
+		- If $y_0 = 5$, we could use that in our equation which will give us a specific constant. Will give us specific/particular solution 
+	- Order... Highest derivative in differential equation
+		- An n-th order differential equation will have an n-parameter family of solutions (as order increases, # of arbitrary constants increases
+			- If you have a 2nd order differential equation, a 2nd derivative, you'll have 2 arbitrary constants (could call the constants "a" and "b")
+			- If you need to undo a first derivative with an integral, you'll get a + C
+			- If you had a second derivative, undo second derivative by integral, that'll give you a first derivative but with a + C
+				- If you do it again, that + C will have a variable tacked on it with your next integral and another + C. 2 arbitrary constants
+			- More + Cs as order goes up
+		  - 3rd derivative gives order 3
+	- Ordinary differential equations... All based on 1 independent variable... x
+- Recap
+	- Goals are to model real life change. Change means derivative. Derivative is in the equation. Differential equation
+	- Not focused on finding numbers as solution
+		- Derivatives are from functions (functions become solutions)
+	- Every time we find one, it's going to have a +C on it. It'll be a family of curves that work with this differential equation
+	- As order goes up, the # of constants goes up
+		- Integral thing
+	- If you have an initial condition, you can narrow down general solution with particular solution
+		- Only gives one curve
+	- Ordinary differential equations vs partial order differential equations
+		- All ordinary differential equations are based on the fact we'll have 1 independent variable. Usually variable "x"
+		- Partial order differential equations can have 2 independent variables. Partial derivatives counts as 2 independent variables is partial order differential equations
+	- We're focused on equations that have derivatives (differential equations)
+		- where the primary functions are based on 1 independent variable. Usually "x" but sometimes "t" for time
+- Next video will check if an equation is a solution to a differential equation or not
+	- Will start plugging in equations to see if they're actually solutions
+- Can restrict family to one particular solution if you have an initial condition

@@ -1,0 +1,40 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWGJVLlSscR8qsmU2w60_vu
+Length: 1 hour, 50 minutes, 3 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Calculus 3 - Partial Derivative (1 of 50) What is a Partial Derivative]]
+	- [[(2) Calculus 3 - Partial Derivative (2 of 50) A Visual Example of a Partial Derivative]]
+	- [[(3) Calculus 3 - Partial Derivative (3 of 50) Understanding What is a Partial Derivative - Example 1]]
+	- [[(4) Calculus 3 - Partial Derivative (4 of 30) Understanding What is a Partial Derivative - Example 2]]
+	- [[(5) Calculus 3 - Partial Derivative (5 of 30) Find the Partial Derivative - Example 1]]
+	- [[(6) Calculus 3 - Partial Derivative (6 of 30) Find the Partial Derivative - Example 2]]
+	- [[(7) Calculus 3 - Partial Derivative (7 of 30) Find the Partial Derivative - Example 3]]
+	- [[(8) Calculus 3 - Partial Derivative (8 of 30) Find the Partial Derivative - Example 4]]
+	- [[(9) Calculus 3 - Partial Derivative (9 of 30) Find the Partial Derivative - Example 5]]
+	- [[(10) Calculus 3 - Partial Derivative (10 of 30) Find the 2nd Partial Derivative]]
+	- [[(11) Calculus 3 - Partial Derivative (11 of 30) An Alternative Notation for 1st & 2nd Partial Derivative]]
+	- [[(12) Calculus 3 - Partial Derivative (12 of 30) Rule of Partial Derivative]]
+	- [[(13) Calculus 3 - Partial Derivative (13 of 30) Find More Partial Derivatives - Example (1 of 2)]]
+	- [[(14) Calculus 3 - Partial Derivative (14 of 30) Find More Partial Derivatives - Example (2 of 2)]]
+	- [[(15) Calculus 3 - Partial Derivative (15 of 30) Application of Partial Derivatives - Lagrangian]]
+	- [[(16) Calculus 3 - Partial Derivative (16 of 30) Application of Partial Derivatives - The Wave Equation]]
+	- [[(17) Calculus 3 - Partial Derivative (17 of 50) Finding the Max and Min]]
+	- [[(18) Calculus 3 - Partial Derivative (18 of 50) Finding the Max and Min (Trick Question)]]
+	- [[(19) Calculus 3 - Partial Derivative (19 of 50) Finding the Max and Min]]
+	- [[(20) Calculus 3 - Partial Derivative (20 of 50) Finding the Max and Min (Saddle)]]
+	- [[(21) Calculus 3 - Partial Derivative (21 of 50) Application 1 (Intersection of Sphere and Plane)]]
+	- [[(22) Calculus 3 - Partial Derivative (22 of 50) Application 2 (The Idea Gas Law)]]
+	- [[(23) Calculus 3 - Partial Derivative (23 of 50) Application 3 (The Rectangle)]]
+	- [[(24) Calculus 3 - Partial Derivative (24 of 50) The Chain Rule]]
+	- [[(25) Calculus 3 - Partial Derivative (25 of 50) The Chain Rule - Example 1]]
+	- [[(26) Calculus 3 - Partial Derivative (26 of 50) The Chain Rule - Example 2]]
+	- [[(27) Calculus 3 - Partial Derivative (27 of 50) The Chain Rule (Type 2)]]
+	- [[(28) Calculus 3 - Partial Derivative (28 of 50) The Chain Rule (Type 3)]]
+	- [[(29) Calculus 3 - Partial Derivative (29 of 50) The Chain Rule (Type 3) - Example 1]]
+	- [[(30) Calculus 3 - Partial Derivative (30 of 50) The Chain Rule - Example 2]]

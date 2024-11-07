@@ -1,0 +1,45 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUp6U50eluHqNzPqBeAQddt
+Length: 2 hours, 35 minutes, 7 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Calculus 3 - Vector Calculus in 3-D (1 of 35) Vector Representation in 3-D]]
+	- [[(2) Calculus 3 - Vector Calculus in 3-D (2 of 35) Vector Between 2 Points]]
+	- [[(3) Calculus 3 - Vector Calculus in 3-D (3 of 35) What is a Unit Vector in 3-D.]]
+	- [[(4) Calculus 3 - Vector Calculus in 3-D (4 of 35) What Are Parametric Equations.]]
+	- [[(5) Calculus 3 - Vector Calculus in 3-D (5 of 35) Parametric Equations and Vectors]]
+	- [[(6) Calculus 3 - Vector Calculus in 3-D (6 of 35) Parametric Equations and Vectors - Example 1]]
+	- [[(7) Calculus 3 - Vector Calculus in 3-D (7 of 35) Parametric Equations and Vectors - Example 2]]
+	- [[(8) Calculus 3 - Vector Calculus in 3-D (8 of 35) How to Determine if the Lines are Parallel.]]
+	- [[(9) Calculus 3 - Vector Calculus in 3-D (9 of 35) How to Determine if the Lines Intersect,]]
+	- [[(10) Calculus 3 - Vector Calculus in 3-D (10 of 35) Dot Product in 3-D]]
+	- [[(11) Calculus 3 - Vector Calculus in 3-D (11 of 35) Dot Product in 3-D - Find thetha=.]]
+	- [[(12) Calculus 3 - Vector Calculus in 3-D (12 of 35) What are Directional Cosines.]]
+	- [[(13) Calculus 3 - Vector Calculus in 3-D (13 of 35) Find the Directional Cosines]]
+	- [[(14) Calculus 3 - Vector Calculus in 3-D (14 of 35) Find the Projection of a Vector onto a Vector]]
+	- [[(15) Calculus 3 - Vector Calculus in 3-D (15 of 35) Find the Component Othogonal to Vector B]]
+	- [[(16) Calculus 3 - Vector Calculus in 3-D (16 of 35) Find the Distance Between a Point and a Line]]
+	- [[(17) Calculus 3 - Vector Calculus in 3-D (17 of 35) Find the Distance Between a Point and a Line Ex.]]
+	- [[(18) Calculus 3 - Vector Calculus in 3-D (18 of 35) What is a Cross Product.]]
+	- [[(19) Calculus 3 - Vector Calculus in 3-D (19 of 35) How to Calculate the Cross Product of 2 Vectors.]]
+	- [[(20) Calculus 3 - Vector Calculus in 3-D (20 of 35) Calculating the Cross Product of 2 Vectors Ex.]]
+	- [[(21) Calculus 3 - Vector Calculus in 3-D (21of 35) Magnitude of the Cross Product of 2 Vectors]]
+	- [[(22) Calculus 3 - Vector Calculus in 3-D (22 of 35) Theorems of Vector Products]]
+	- [[(23) Calculus 3 - Vector Calculus in 3-D (23 of 35) A Real World Example of a Dot Product]]
+	- [[(24) Calculus 3 - Vector Calculus in 3-D (24 of 35) A Real World Example of a Cross Product]]
+	- [[(25) Calculus 3 - Vector Calculus in 3-D (25 of 35) Area of a Parallelogram Using the Cross Product]]
+	- [[(26) Calculus 3 - Vector Calculus in 3-D (26 of 35) Area of a Triangle Using the Cross Product]]
+	- [[(27) Calculus 3 - Vector Calculus in 3-D (27 of 35) Area of a Triangle - Example]]
+	- [[(28) Calculus 3 - Vector Calculus in 3-D (28 of 35) Volume of a Rectangular Box]]
+	- [[(29) Calculus 3 - Vector Calculus in 3-D (29 of 35) Volume of a Parallelpiped]]
+	- [[(30) Calculus 3 - Vector Calculus in 3-D (30 of 35) Volume of a Parallelpiped - Example]]
+	- [[(31) Calculus 3 - Vector Calculus in 3-D (31 of 35) Do the 3 Vectors Lie on the Same Plane.]]
+	- [[(32) Calculus 3 - Vector Calculus in 3-D (32 of 35) Unit Normal Vector Perpendicular to Plane]]
+	- [[(33) Calculus 3 - Vector Calculus in 3-D (33 of 35) Volume of a Tetrahedron]]
+	- [[(34) Calculus 3 - Vector Calculus in 3-D (34 of 35) Volume of a Tetrahedron - Example]]
+	- [[(35) Calculus 3 - Vector Calculus in 3-D (35 of 35) What is Equation of a Line Perpendicular to a Plane.]]

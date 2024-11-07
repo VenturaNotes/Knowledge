@@ -1,0 +1,45 @@
+[Video](https://www.youtube.com/watch?v=j8bdlwYNwe8)
+
+- ![[Screenshot 2023-05-25 at 5.48.22 AM.png]]
+	- [[Continuity]] at a point
+		- A function that is continuous at x=c means that there is no interruption in the graph of f at c. There are 3 conditions for which the graph of f(x) is discontinuous at x = c.
+			- f(c) is undefined
+			- $lim_{x \rightarrow c}f(x) = DNE$
+			- $lim_{x \rightarrow c}f(x) \ne f(c)$
+		- for a function to be continuous at x = c, then:
+			- $f(c)$ is defined
+			- $lim_{x \rightarrow c} f(x)$ exists
+			- $lim_{x\rightarrow c}f(x) = f(c)$
+- ![[Screenshot 2023-05-25 at 6.01.29 AM.png]]
+	- Continuity on an [[Open Interval]] or [[Closed Interval]]
+		- A function is continuous on an open interval (a, b) when the function is continuous at each point in the interval
+		- A function that is continuous on the entire number line ($-\infty, \infty$) is everywhere continuous.
+		- For a function to be continuous on a closed interval $[a,b]$, the function must
+			- Be continuous on the open interval (a, b)
+			- $lim_{x \rightarrow a^+} f(x) = f(a)$
+			- $lim_{x \rightarrow b^-} f(x) = f(b)$
+- ![[Screenshot 2023-05-25 at 6.03.49 AM.png]]
+	- Removable and Nonremovable [[Discontinuities]]
+		- Discontinuities fall into two categories: removable and nonremovable. A discontinuity at c is called removable when f can be made continuous by appropriately defining (or redifining) f(c).
+			- Removable
+				- Hole
+			- Nonremovable
+				- Gap
+				- Asymptote
+- ![[Screenshot 2023-05-25 at 6.06.47 AM.png]]
+	- Continuity Practice - Analytically
+		- Determine if each function is everywhere continuous. If the function is discontinuous, find any points of discontinuity and tell whether those points are removable or non-removable
+- ![[Screenshot 2023-05-25 at 6.07.51 AM.png]]
+	- Continuity Practice - Graphically
+- ![[Screenshot 2023-05-25 at 6.10.26 AM.png]]
+	- Discuss the Continuity: Steps
+		- We are often asked to "discuss continuity". Here is what you are being asked to do:
+			- (1) Determine the domain of your function. This will give you an open, closed, or mixed interval
+			- (2) Determine any points of discontinuity of the function(s)
+			- (3) If either endpoint of your interval is closed, ensure that:
+				- For a left endpoint, 
+				- For a right endpoint,
+		- Example
+- ![[Screenshot 2023-05-25 at 6.12.01 AM.png]]
+	- Discuss the Continuity: Practice
+	- Function and limit the same

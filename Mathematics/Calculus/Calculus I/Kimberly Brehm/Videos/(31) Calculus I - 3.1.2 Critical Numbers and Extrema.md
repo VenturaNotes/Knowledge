@@ -1,0 +1,34 @@
+[Video](https://www.youtube.com/watch?v=kjunIwj2sv0)
+
+- ![[Screenshot 2023-05-27 at 7.43.51 AM.png]]
+	- [[Horizontal Tangent Lines]]
+		- In our last video, we observed that our minimum or maximum values on open intervals occurred only on a hill or valley. At those points, the tangent line would be horizontal. The slope of a horizontal tangent line is zero.
+		- So, one way to find a min or max is to find the derivative of the function, which gives the rate of change or slope of the function, then set the derivative function equal to 0
+- ![[Screenshot 2023-05-27 at 7.45.26 AM.png]]
+	- When a derivative doesn't exist
+		- It is also possible to have a minimum or maximum at a sharp corner.
+		- At those points the function is not differentiable
+		- We don't yet have a rule for finding the derivative of absolute value functions, so let's simply find the slope to the left and right of x = 0, keeping in mind that when one-sided limits differ, the derivative does not exist.
+- ![[Screenshot 2023-05-27 at 7.47.30 AM.png]]
+	- [[Critical Numbers]]
+		- We have discovered that an extrema occurs either when the function has a horizontal tangent line or when the function is not differentiable. These x-values are called critical numbers.
+		- Theorems:
+			- Let f be defined at c. If f'(c) = 0 or if f is not differentiable at c, then c is a <mark style="background: #FFF3A3A6;">critical number</mark> of f
+				- Horizontal tangent line vs corner
+			- If f has a relative minimum or relative maximum at x = c, then c is a <mark style="background: #FFF3A3A6;">critical number</mark> of f
+- ![[Screenshot 2023-05-27 at 7.49.21 AM.png]]
+	- Find the Extrema on an Open Interval
+		- Find the extrema of $f(x) = 3x^4 - 4x^3$ on the open interval (-1,2)
+- ![[Screenshot 2023-05-27 at 7.50.37 AM.png]]
+	- Find the Extrema on a Closed Interval
+		- Find the extrema of $f(x) = 3x^4 - 4x^3$ on the open interval $[-1,2]$
+			- Steps
+				- (1) Find the extrema on an open interval
+				- (2) Plug in the endpoints of the interval
+- ![[Screenshot 2023-05-27 at 7.54.14 AM.png]]
+	- Find the Extrema
+		- Find the extrema of f(x) on the closed interval
+- ![[Screenshot 2023-05-27 at 7.59.37 AM.png]]
+	- Find the Extrema
+		- Find the extrema of f(x) on the closed interval
+			- Don't need to check 4 and 2 because it is outside the interval we're analyzing

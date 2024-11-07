@@ -1,0 +1,28 @@
+[Video](https://youtube.com/watch?v=JD9D45p7Whg)
+
+- ![[Screenshot 2023-07-31 at 8.53.52 AM.png]]
+	- A [[derivative]] is the slope of a function
+		- Steeper the slope, the larger the derivative
+		- Can find slope at any point such as a linear or quadratic function
+	- A derivative defines how fast something is changing 
+		- If a function represents position, derivative of that represents how fast that position is changing
+	- A derivative is the change of one variable with respect to another
+		- Slope defines how fast y is changing with respect to x
+			- y is the [[dependent variable]]
+			- x is the [[independent variable]]
+	- A derivative defines if something is increasing or decreasing
+		- Tells us whether an increase is positive or negative
+		- If function has a positive slope at a certain section, then we can say the function is increasing in a positive manner
+		- If function is negative, the slope is decreasing
+	- A derivative defines if a [[maximum]] or [[minimum]] has been reached
+		- A function reaching the lowest point possible is known as the minimum and a function reaching a highest point possible is known as a maximum
+			- Known as the max or min
+	- A derivative defines when an increasing function changes to a decreasing function
+	- A derivative of a derivative defines how fast the change is changing
+		- The change of velocity would be acceleration
+		- The acceleration would be the second derivative of a first derivative
+			- First derivative would tell you how fast you're moving
+			- Second derivative would tell you how fast that velocity is changing. Therefore, it's telling you how it's accelerating
+	- Derivatives can take on a lot of meanings
+	- First part of calculus is all about finding the derivative of all kinds of functions. This enables us to find the change in any number of functions
+		- Many applications

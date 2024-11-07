@@ -1,0 +1,35 @@
+[Video](https://www.youtube.com/watch?v=3j3439F_yIY)
+
+- ![[Screenshot 2023-05-25 at 6.16.33 AM.png]]
+	- Continuity of Common Functions
+		- [[Polynomial Functions]]
+			- Continuous from (-$\infty$, $\infty$)
+		- [[Rational Functions]]
+			- q(x) $\ne$ 0
+			- If factor cancels, removable
+			- If not, asymptote
+		- [[Radical Functions]]
+			- n is even, g(x) $\ge 0$
+			- n is odd,  (-$\infty$, $\infty$)
+		- [[Trigonometric Functions]]
+			- $sinx$ and $cosx$
+				-  (-$\infty$, $\infty$)
+			- $secx$ and $tanx$
+				- asymptote at $\frac {\pi}{2}$
+			- $cscx$ and $cotx$
+				- asymptote at $\pi$
+- ![[Screenshot 2023-05-25 at 6.19.19 AM.png]]
+	- [[Properties of Continuity]]
+		- [[Scalar Multiple]]
+			- You can say the continuity is the same
+		- [[Sum or Difference]]
+			- Look at continuity of functions by themselves
+		- [[Product]]
+			- Would take into account functions being continuous
+		- [[Quotient]]
+		- [[Composite Functions]]
+- ![[Screenshot 2023-05-25 at 7.20.26 AM.png]]
+	- Continuity Practice
+		- Find any points of discontinuity and tell whether they are removable
+		- Determine the interval(s) on which the function is continuous
+		- Determine the value of a such that the function is continuous over its entire domain.

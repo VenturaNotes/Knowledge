@@ -1,0 +1,21 @@
+[Video](https://www.youtube.com/watch?v=gaSwzp7qp5k)
+
+- ![[Screenshot 2023-05-25 at 5.36.54 AM.png]]
+	- What is an [[Indeterminant Form Function]]
+		- A function whose limit results in an indeterminant form when you attempt direct substitution will need a bit of "math magic"
+		- Indeterminant form is one such as
+		- Example
+- ![[Screenshot 2023-05-25 at 5.40.00 AM.png]]
+	- [[Dividing Out Technique]]
+		- If f and g are functions that agree at all but one point, we can often find the limit of the function by dividing out common factors.
+- ![[Screenshot 2023-05-25 at 5.42.18 AM.png]]
+	- [[Rationalizing Technique]]
+		- If your function contains a radical within a [[rational function]], you might find the rationalizing technique helpful. This requires us to multiply the numerator and denominator by the [[Conjugate|conjugate]] of the radical
+- ![[Screenshot 2023-05-25 at 5.43.35 AM.png]] ^1eb0ba
+	- Two [[Special Trig Limits]] (memorize!!)
+		- $lim_{x \to 0} \frac {sinx}{x} = 1$
+		- $lim_{x \to 0} \frac {1 - cosx}{x} = 0$
+- ![[Screenshot 2023-05-25 at 5.45.26 AM.png]]
+	- [[Indeterminant Form]] Practice
+		- Find the following limits using any method
+		- Can leave the radical in the denominator

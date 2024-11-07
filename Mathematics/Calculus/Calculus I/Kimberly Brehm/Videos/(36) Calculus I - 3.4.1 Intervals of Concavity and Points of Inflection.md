@@ -1,0 +1,30 @@
+[Video](https://www.youtube.com/watch?v=B9xZ8len2gQ)
+
+- ![[Screenshot 2023-05-27 at 2.43.23 PM.png]]
+	- [[Concavity]]
+		- You have seen that locating the intervals on which a function f increases or decreases helps to describe its graph. To find where the FUNCTION is increasing or decreasing, we find the derivative of the original function. 
+		- Now we will see how locating the intervals on which f' increases or decreases can be used to determine where the graph of f is curving upward or curving downward. To determine concavity, we must know where our DERIVATIVE is increasing, making the graph curve upward, or decreasing, making the graph curve downward. 
+		- This means that we must find the DERIVATIVE of the DERIVATIVE, or our second derivative of the original function, f"(x). 
+		- Where f"(x) = O or is undefined, we have a possible point of inflection, which is where concavity CAN change. If concavity does change, it is called a [[point of inflection]]. Technically, this means that the graph has a tangent line at that point.
+- ![[Screenshot 2023-05-27 at 2.46.13 PM.png]]
+	- Steps for Finding Intervals of Concavity
+		- Here are the steps we can follow for finding the intervals on which a function is [[concave up]] or [[concave down]]. 
+			- (1) Check to see if f' is continuous on (a, b). 
+			- (2) Locate the possible points of inflection of f in (a, b) by setting f"(x)=0 and determining where f"(x) is undefined. 
+			- (3) Divide the domain (implied or explicit) into intervals divided by the possible points of inflection (and any values where f' is discontinuous). 
+			- (4) Choose a test point within each interval to plug into f''(x). Use the sign to determine the value of the function.
+		- Sign/Value of second derivative and behavior of function
+			- $f''(x) < 0$ means f is concave down
+			- $f''(x) > 0$ means f is concave up
+			- $f''(x) = 0$ means possible point of inflection (POI)
+- ![[Screenshot 2023-05-27 at 2.48.10 PM.png]]
+	- Finding Concavity Intervals Practice
+		- Find the open intervals on which f(x) is concave up and concave down and find the coordinates of any points of inflection, if applicable
+- ![[Screenshot 2023-05-27 at 2.57.30 PM.png]]
+	- Finding Concavity Intervals Practice
+		- Find the open intervals on which f(x) is concave up and concave down and find the coordinates of any points of inflection, if applicable
+	- No point of inflection since no real number equals 0 for the 2nd derivative
+- ![[Screenshot 2023-05-27 at 3.01.16 PM.png]]
+	- Putting it together
+		- Determine the extrema, intervals of increase and decrease, the critical numbers, the points of inflection and the intervals of concavity of f(x)
+	- PPOI is possible points of inflection

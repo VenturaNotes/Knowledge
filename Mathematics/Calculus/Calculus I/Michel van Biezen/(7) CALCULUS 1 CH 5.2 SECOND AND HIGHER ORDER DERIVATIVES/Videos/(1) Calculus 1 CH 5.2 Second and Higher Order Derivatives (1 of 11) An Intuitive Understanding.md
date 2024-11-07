@@ -1,0 +1,24 @@
+[Video](https://www.youtube.com/watch?v=VaHCpzIWjgs)
+
+- ![[Screenshot 2023-10-10 at 5.58.47 PM.png]]
+	- $x = x_0 + v_0t + \frac 12 a t^2$ 
+		- Distance traveled = initial position when time = 0 + when velocity = 0 $*$ time + 
+		- $v_0$ is what the velocity is equal to when time = 0 
+		- Second order equation
+		- In this case, distance with respect to time
+	- The first derivative with respect to time
+		- = the rate of change of x with respect to t
+		- = slope of the function x
+	- First derivative in this case gives [[velocity]]
+		- The velocity is equal to the slope of that function
+		- by definition, the slope is the first derivative
+		- This is when velocity is a function of time
+	- The second derivative with respect to time (this is the derivative of the derivative)
+		- = The rate of change of $v$
+		- = The rate of change of the first derivative
+	- [[acceleration]]
+		- The change of velocity with respect to time is acceleration
+	- $\frac {d^2x}{dt^2}$ 
+		- The 2s are not exponents. That's just the way to write the second derivative of x with respect to time
+	- First derivative gives [[velocity]]
+	- Second derivative gives [[acceleration]]

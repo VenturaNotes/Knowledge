@@ -1,0 +1,44 @@
+[Video](https://www.youtube.com/watch?v=LWuN4IX9dEE)
+
+- ![[Screenshot 2023-05-25 at 1.57.31 AM.png]]
+	- The Graph of an equation
+		- Recall that when we graph an equation, we are plotting the solution points, or points that make the equation true. While there are "special" ways to graph linear and quadratic equations, when in doubt, you can always make an x-y table.
+		- For instance, graph the equations
+	- In y=mx + b format, the b is the y-intercept and the m gives the slope for rise over run on graph
+- ![[Screenshot 2023-05-25 at 1.59.46 AM.png]]
+	- Common Equations and Their Graphs
+		- [[Linear]] (deg=1)
+		- [[Quadratic]](deg=2)
+		- [[Cubic]] (deg=3)
+			- At most 2 minimums and maximums
+		- [[Quartic]](deg=4)
+			- At most 3 minimums and maximums
+			- Most likely will just use xy table for graph
+			- End behaviors can help with graph as well
+- ![[Screenshot 2023-05-25 at 2.02.00 AM.png]]
+	- The x - and y - intercepts
+		- Another characteristic we look for in graphing equations is to locate the intercepts, or the points at which a graph intersects the x - or y -axis
+		- To find a [[y-intercept]], let the value of x=0, then solve for the y-variable
+		- To find an [[x-intercept]], let the value of y =0, then solve for the x-variable. This is generally more difficult and often involves factoring.
+- ![[Screenshot 2023-05-25 at 2.04.06 AM.png]]
+	- Finding Intercepts by factoring
+		- Linear, quadratic, cubic, quartic
+		- At multiplicity of 2, line stops at point and turns around
+- ![[Screenshot 2023-05-25 at 2.07.37 AM.png]]
+	- The [[Symmetry of a Graph]]
+		- Often graphs are symmetric, which means we can imagine folding the graph in half over the x- or y-axis or by rotating it about the origin. If we know graphs are symmetric, we only need half as many points.
+			- Symmetry with respect to the y-axis
+				- If (x, y) is a point on the graph, then (-x, y) is also a point on the graph.
+				- Test by replacing x with -x
+			- Symmetry with respect to the x-axis
+				- If (x, y) is a point on the graph, then (x,-y) is also a point on the graph
+				- Test by replacing y with -y
+			- Symmetry with respect to the origin (rotation of 180$\degree$)
+				- If (x, y) is a point on the graph, then (-x, -y) is also a point on the graph.
+				- Test by replacing x with -x and y with -y
+- ![[Screenshot 2023-05-25 at 2.08.42 AM.png]]
+	- Graph Symmetry
+- ![[Screenshot 2023-05-25 at 2.10.58 AM.png]]
+	- Graphing and [[Points of Intersection]]
+		- Graph the equations $x = y^2 + 1$ and $x-y=1$. Give any points of intersection, if they exist 
+	- You can find points of intersection by setting equations equal to each other.

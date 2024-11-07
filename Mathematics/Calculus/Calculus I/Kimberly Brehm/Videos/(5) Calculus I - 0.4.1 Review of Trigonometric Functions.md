@@ -1,0 +1,21 @@
+[Video](https://www.youtube.com/watch?v=wwykal6Ms_g)
+
+- ![[Screenshot 2023-05-25 at 3.53.47 AM.png]]
+	- Angles in [[Radian|Radians]] and [[Degrees]]
+		- When we think about measuring angles, it is most helpful if they are in [[standard position]], where the initial ray coincides with the positive x-axis with the vertex on the origin. We then measure the angle in the counter-clockwise direction.
+	- 405$\degree$ is a [[coterminal angle]] to 45$\degree$ 
+	- 360$\degree$ = 2$\pi$ 
+- ![[Screenshot 2023-05-25 at 3.57.34 AM.png]]
+	- Trig functions ([[Unit Circle]])
+		- 2 ways to think of trigonometric functions
+			- One is unit circle and the other is using a right triangle
+		- Just need to memorize values of the first quadrant
+		- Each ordered pair gives $cos\theta$ and $sin\theta$ in (x, y) respectively
+		- Inverse of sin, cos, and tan shown
+		- "r" means radius of circle
+			- r in unit circle = 1
+		- When finding tan$\theta$ 
+			- Just need to reduce fractions most of the time 
+- ![[Screenshot 2023-05-25 at 3.59.07 AM.png]]
+	- Trigonometric functions - [[Right Triangle]]
+		- Another way to think about the trigonometric functions is using right triangles

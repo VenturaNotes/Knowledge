@@ -1,0 +1,42 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BNGhwTINwXoRle_Xq5Ooz70
+Length: 5 hours, 48 minutes, 22 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Midpoint rule to approximate volume of a double integral (KristaKingMath)]]
+	- [[(2) Riemann sums to approximate volume of a double integral (KristaKingMath)]]
+	- [[(3) Average value of a double integral (KristaKingMath)]]
+	- [[(4) Iterated Integrals (KristaKingMath)]]
+	- [[(5) Iterated integrals (KristaKingMath)]]
+	- [[(6) Double integrals (KristaKingMath)]]
+	- [[(7) Double integrals of type I and type II regions (KristaKingMath)]]
+	- [[(8) Double integrals to find the volume of the solid (KristaKingMath)]]
+	- [[(9) Double integrals to find surface area (KristaKingMath)]]
+	- [[(10) Converting iterated integrals to polar coordinates (KristaKingMath)]]
+	- [[(11) Converting double integrals to polar coordinates (KristaKingMath)]]
+	- [[(12) Sketching the region given by a double polar integral (KristaKingMath)]]
+	- [[(13) Double polar integral to find area (KristaKingMath)]]
+	- [[(14) Double polar integral to find the volume of the solid (KristaKingMath)]]
+	- [[(15) Double integrals to find mass and center of mass of the lamina (KristaKingMath)]]
+	- [[(16) Midpoint rule for triple integrals (KristaKingMath)]]
+	- [[(17) Triple iterated integrals (KristaKingMath)]]
+	- [[(18) Triple integrals (KristaKingMath)]]
+	- [[(19) Average value of the triple integral (KristaKingMath)]]
+	- [[(20) Triple integrals to find volume of the solid (KristaKingMath)]]
+	- [[(21) Expressing a triple iterated integral 6 ways (KristaKingMath)]]
+	- [[(22) Mass and center of mass with triple integrals (KristaKingMath)]]
+	- [[(23) Moments of inertia with triple integrals (KristaKingMath)]]
+	- [[(24) Cylindrical Coordinates (KristaKingMath)]]
+	- [[(25) Converting triple integrals to cylindrical coordinates (KristaKingMath)]]
+	- [[(26) Volume in cylindrical coordinates (KristaKingMath)]]
+	- [[(27) Spherical Coordinates (KristaKingMath)]]
+	- [[(28) Triple integral in spherical coordinates to find volume (KristaKingMath)]]
+	- [[(29) Jacobian of the transformation (2x2) (KristaKingMath)]]
+	- [[(30) Jacobian of the transformation (3x3) (KristaKingMath)]]
+	- [[(31) What does a double integral represent.]]
+	- [[(32) What does a triple integral represent.]]

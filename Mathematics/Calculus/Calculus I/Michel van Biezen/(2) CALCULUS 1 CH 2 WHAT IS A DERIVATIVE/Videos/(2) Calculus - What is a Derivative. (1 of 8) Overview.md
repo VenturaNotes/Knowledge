@@ -1,0 +1,23 @@
+[Video](https://youtube.com/watch?v=wLTDW7t5Z2c)
+
+- ![[Screenshot 2023-07-31 at 9.02.26 AM.png]]
+	- (1) Slope of a graph
+		- Slope of a straight line function is the derivative
+			- $y=mx +b$
+	- (2) Slope of a [[tangent line]] to a curve
+	- (3) Limit equation in algebra
+		- Quintessential definition of a derivative
+	- (4) Rate of change of a function (How fast is the function changing?)
+		- If function changes slowly, derivative is small. If function changes quickly, derivative is large
+		- How fast a function is changing
+	- (5) How fast is the dependent variable changing when the independent variable changes
+		- y is dependent variable
+		- x is independent variable
+			- If it changes a little bit and the dependent variable changes a lot, we have a large derivative
+		- Derivative tells us how fast dependent variable is changing when making a change to the independent variable
+	- (6) A function describing the change (slope) of a function of the independent variable
+	- (7) Notation (There are many different ways to write down a derivative)
+		- $\frac {dy}{dx}$ 
+		- $\frac {dx}{dt}$
+		- $y'$
+		- $\dot x$

@@ -1,0 +1,23 @@
+[Video](https://youtube.com/watch?v=pQT2fZRMcf4)
+
+- ![[Screenshot 2023-10-27 at 8.21.12 PM.png]]
+	- Split into 3 regions that each needs to be evaluated
+	- Solving all the max, mins, inflection points, concavity and slope
+		- (1) Find derivative
+		- (2) Set derivative equal to 0
+			- Find particular values for x
+			- At those x-values, the slope is zero
+				- Could be max, min, or horizontal inflection point
+		- (3) Find corresponding y-values to find where the points are on the graph
+		- (4) Find second derivative
+		- (5) Set second derivative equal to 0 to find the inflection points
+			- If value for x is different than value for x found in (2), then we know we have an inflection point that's not horizontal and therefore must be a vertical inflection point
+		- (6)Find corresponding y-values for inflection point
+			- Now you've found your max, mins, and inflection points
+		- (7) Check for concavity
+			- Check to left and right of inflection point to see if it's concave up or concave down
+				- Positive value to the left means concave up
+				- Negative value to right of inflection point means concave down
+		- (8) Finally plug-in representative values between the locations where the slope is 0 to find the slope of the graph
+			- Plug-in to the first derivative  (certain value for x)
+				- Find it's negative or positive (negative or positive slope accordingly)

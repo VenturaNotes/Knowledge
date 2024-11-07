@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=nIzppjZ0VKU)
+
+- ![[Screenshot 2023-10-03 at 6.44.04 PM.png]]
+	- How to use [[limit laws]] along with graphs of 2 functions to solve limit problems
+	- Steps
+		- Identify laws
+		- Apply them
+		- Use information from graphs to solve each problems
+	- [[Combination functions]]
+	- [[Limit laws]]
+		- (1) The limit of the sum of two functions is the same thing as the sum of the limit of each function individually
+			- $\lim_{x \to -2} [f(x) + 5g(x)]$ = $lim_{x \to -2}\text{ } f(x) + lim_{x \to -2}\text{ }  {g(x)}$
+		- (2) The limit of a constant times a function is the same thing as the constant times the limit of that function
+			- $lim_{x \to -2} \textcolor{hotpink}{5}g(x)$ = $\textcolor{hotpink}{5}\lim _{x\to -2} g(x)$
+		- (3) The limit of the product of two functions is the same thing as the product of the limit of the individual functions
+			- $lim_{x \to 1} [f(x)g(x)]$ = $\lim_{x \to 1} f(x) lim_{x \to 1} g(x)$
+		- (4) The limit of a quotient is the same thing as the quotient of limits
+			- $\lim_{x \to 2} \frac {f(x)}{g(x)}$ = $\frac {lim_{x\to 2} f(x)}{lim_{x \to 2} g(x)}$
+				- Since g(x) = 0 in the given example, we need to say that the limit DNE and that the quotient would be undefined
+	- If you have a different left hand and right hand limit, the [[general limit]] [[Doesn't exist|does not exist]]
+		- LHL is left hand limit
+		- RHL is right hand limit
