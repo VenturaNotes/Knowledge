@@ -1,0 +1,29 @@
+[Video](https://youtube.com/watch?v=ccz-w2JMsTM) 
+## Representations
+- Different ways to represent conditional statements
+	- All of them should be represented as p $\rightarrow$ q
+	- ![[Screenshot 2023-01-03 at 11.09.16 AM.png]]
+		- "if p then q"
+		- "p implies q"
+		- "q when p"
+		- "q whenever p"
+		- "q follows from p"
+		- Important / Difficult
+			- "p only if q"
+			- "q is necessary for p"
+			- "p is sufficient for q"
+			- "q unless $\lnot$ p"
+- "p only if q"
+	- How "if p then q" and "p only if q" can be the same?
+	- Example
+		- "I will stay at home only if I'm sick"
+			- Above statement is of the form "p only if q"
+			- According to the above statement, becoming sick is the necessary condition that will make you stay at home.
+			- This means "if you're not sick then, you cannot stay at home at any cost."
+			- In order to falsify the above statement, q must be FALSE and p must be TRUE i.e. you are not sick and you still stay at home.
+		- Proof idea: truth value of p and q must be same in order to falsify the statement.
+			- ![[Screenshot 2023-01-03 at 10.44.24 AM.png]]
+		- This is proved because in both cases, p must be TRUE and q must be FALSE for both statements to be falsified.
+		- Why "p only if q" is not equivalent to "if q then p"?
+		- ![[Screenshot 2023-01-03 at 10.50.31 AM.png]]
+			- "I'm sick" is the necessary condition

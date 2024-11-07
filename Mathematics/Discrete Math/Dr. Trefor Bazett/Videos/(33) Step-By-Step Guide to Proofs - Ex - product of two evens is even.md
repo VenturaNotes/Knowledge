@@ -1,0 +1,28 @@
+[Video](https://youtube.com/watch?v=oqTg3D_jZWo)
+
+- ![[Screenshot 2023-05-11 at 2.17.16 PM.png]]
+	- Theorem: an even integer times an even integer is another even integer
+	- Step 1: Define Terms
+		- Informal Definition: n is an even integer if n can be written as twice an integer
+		- Formal Definition: For n an integer:
+	- Step 2: State Theorem Formally
+	- Format: $\forall x \in D, P(x) \implies Q(x)$
+	- Step 3: Intuitive idea
+- ![[Screenshot 2023-05-11 at 2.17.31 PM.png]]
+	- Step 4: Writing proof
+		- Start with Assumptions
+		- Apply Definitions
+		- Use algebra, known theorems, logical inferences, etc
+		- Get to the conclusion
+	- Proof
+		- Beginning and end make up the theorem
+		- Definition of even
+		- Manipulations
+	- Steps summarized
+		- (1) Define terms
+		- (2) State Theorem Formally
+		- (3) Play Around!
+		- (4) Formal Proof
+			- Start with assumptions
+			- Apply Definitions
+			- Manipulate!

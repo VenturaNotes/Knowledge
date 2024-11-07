@@ -1,0 +1,18 @@
+[Video](https://youtube.com/watch?v=mQ6Hhu0xSaE)
+
+---
+-  "q is necessary for p"
+	- ![[Screenshot 2023-01-03 at 10.59.43 AM.png]]
+		- Example: "Good food is necessary to keep us alive"
+			- According to the statement, if we won't have good food, then we'll soon die. But is it the only factor to keep us alive? No.
+			- Example: My friend died at the age of 16 and he has no shortage of good food. (Even though he is having good food but still he died)
+		- Therefore, when we say A is necessary for B, then falsity of A guarantees the falsity of B but we cannot guarantee the truth of B from the truth of A.
+		- Similarly, when we say q is necessary for p, then we can only guarantee that when q is false then, p is definitley false
+	- In order for the statement to be true,
+		- when p is true, q must be true.
+		- When q is false, p must be false
+	- It's in the form "q is necessary for p" because in the truth table, "q" being false can only guarantee that "p" is false for the condition to be true but "q" being true cannot guarantee the truth of "p"
+---
+- "p is sufficient for q"
+	- ![[Screenshot 2023-01-03 at 11.01.48 AM.png]]
+- "Why P is not necessary for q"

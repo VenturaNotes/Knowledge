@@ -1,0 +1,46 @@
+[Video](https://youtube.com/watch?v=tRknuaNSlrU)
+
+- Methods of Identity Proof:
+	- 1) Prove each set in the identity is a subset of the other
+	- 2) Use propositional logic - 2 column
+	- 3) Use a membership table showing the same combination of sets do or don't belong to the identity
+	- ![[Screenshot 2022-12-17 at 9.10.41 PM.png]]
+- Example
+	- ![[Screenshot 2022-12-17 at 9.16.41 PM.png]]
+		- De Morgan's Second Law
+		- Steps
+			- By assumption
+			- Definition of complement
+			- Definition of intersection
+			- De Morgan for Propositional Logic
+			- Definition of negation
+			- Definition of complement
+			- Definition of Union 
+		- "Union" is the same as "or"
+			- $\cup = \lor$ (in terms of symbols)
+		- Next image does it in the opposite direction
+	- ![[Screenshot 2022-12-17 at 9.18.21 PM.png]]
+		- was only able to prove it because of both directions
+		- Steps
+			- By assumption
+			- Definition of union
+			- Definition of complement
+			- Definition of negation
+			- de Morgan's Law propositional logic
+			- Definition of intersection
+			- Definition of Complement
+	- ![[Screenshot 2022-12-17 at 9.20.55 PM.png]]
+		- Can go from "intersection" to "and" symbol using definition of intersection
+		- Steps
+			- Definition of Complement
+			- Definition of not an element of
+			- Definition of intersection
+			- De Morgan for propositional logic
+			- Definition for not an element of 
+			- Definition of complement
+			- Definition of union
+	- ![[Screenshot 2022-12-17 at 9.23.49 PM.png]]
+		- When showing complement of union operator, do $\overline A \cup \overline B$ and for intersection, do $\overline {A \cap B}$ w/ single line on top
+- Generalized Union and Intersection
+	- ![[Screenshot 2022-12-17 at 9.26.10 PM.png]]
+	- Different notation dealing with different sets either you're taking union or intersection of.

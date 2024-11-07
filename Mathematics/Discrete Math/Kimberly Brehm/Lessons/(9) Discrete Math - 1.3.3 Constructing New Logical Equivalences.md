@@ -1,0 +1,25 @@
+[Video](https://youtube.com/watch?v=u5y1zte2w_4)
+
+- Reminder - Showing Equivalence with a truth table
+	- ![[Screenshot 2022-12-17 at 5.58.09 PM.png]]
+		- Showing with truth table again
+- Constructing new logical equivalences (Two column proof)
+	- ![[Screenshot 2022-12-17 at 6.28.18 PM.png]]
+		- Write the result and then the reason why
+		- Steps
+			- 2nd De Morgan Law
+			- 1st De Morgan Law
+			- Double Negation Law
+			- 2nd Distributive Law
+			- 2nd Negation Law
+			- Commutative Law for Disjunction
+			- Identity Law
+		- You don't really need to specify which # of the negation law (Ayushe)
+- Example
+	- ![[Screenshot 2022-12-17 at 6.29.37 PM.png]]
+		- Whatever steps you go through, it must be equivalent to true
+		- You should specify 1st or 2nd De Morgan Laws but you don't need to specify negation law
+- Practice
+	- Use Logical equivalence to show:
+		- ![[Screenshot 2022-12-17 at 6.30.38 PM.png]]
+			- Don't need to specify commutative law

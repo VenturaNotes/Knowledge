@@ -1,0 +1,71 @@
+[Video](https://www.youtube.com/watch?v=laBQGKXCFFQ)
+
+- ![[Screenshot 2023-07-26 at 9.57.22 PM.png]]
+	- Dropdown box
+	- The set we're picking from is either yes or no (unique and distinct items)
+		- Show toolbar
+		- Lock Toolbar
+	- Font Size (Perhaps 5 distinct elements from small to large)
+	- Default Zoom (set of integers perhaps less than 800)
+	- Each item is referred to as an element or a member
+		- The set which is defined by the backpack in the example is said to contain its elements
+			- Elements are distinct and separate
+			- Membership is binary (member of set or not member of set)
+			- No set order
+	- A set can be a member of a set
+		- Can mix sets and items in set
+			- Curly brackets define or encapsulates items inside set
+	- Use capital letters to define sets
+		- When referring to generic element, use lowercase letter 
+	- $\in$ is a member or is an element of
+	- $\notin$ is not a member or an element of
+	- Elements in a set must be distinct
+		- S = {1, 2, 2, 3, 3} = {1, 2, 3}
+			- |S| = 3
+- ![[Screenshot 2023-07-26 at 10.17.42 PM.png]]
+	- Sets
+		- $\mathbb{N}$ = {0, 1, 2, 3, ...}
+			- Set of [[natural numbers]]
+		- $\mathbb{Z}$
+			- Set of integers
+		- $\mathbb{Z}^+$
+			- Positive integers
+		- B = {0, 1}
+			- Binary set
+		- $\varnothing$ = {}
+			- empty set
+			- Uses Greek letter "phi"
+		- S = {{}}
+			- Set can contain the empty set
+	- [[Set-builder notation]]
+		- X = { x | x satisfies one or more requirements}
+			- All x such that x satisfies one or more requirements
+		- S = {x | x $\in$ $\mathbb{Z}^+$ $\text{and}$ x < 100}
+			- Some people use colon (:) instead of a vertical pipe (|)
+			- $x \in \mathbb{Z}^+$
+				- The universe from which the requirements are being applied
+	- Q = {p/q | p $\in$ z, q $\in$ z, and q $\notin$ 0}
+		- [[Rational numbers]]. A ratio of an integer to an integer as long as the integer on the bottom is not equal to 0.
+	- $\mathbb{R}$ = {x | x is a real number}
+- ![[Screenshot 2023-07-26 at 10.28.50 PM.png]]
+	- [[Cardinality]]
+		- Number of distinct members of S
+		- |S|
+	- [[Finite set]] vs [[infinite set]]
+		- A finite set is a cardinality not equal to infinity
+		- Natural numbers, positive integers, negative integers, whole set of integers, real, irrational numbers, rational numbers, those are all infinite sets [^1]
+	- A and B are equal if
+		- A = B if $\forall$ x$(x \in A \iff x \in B)$
+	- [[Subset]]
+		- Everything in one set is contained inside of another set
+			- A is a subset of B if every element in A is also an element of B.
+			- A $\subseteq B$
+				- A is a subset of B or is equal to B
+				- A $\nsubseteq$ B (for not)
+			- A $\subset$ B
+				- A is a subset of B but not equal to B
+				- A $\not\subset$ B (for not)
+	- Going to represent combining sets through Venn Diagrams
+
+## References
+[^1]: https://en.wikipedia.org/wiki/Infinite_set#:~:text=set%20of%20integers.-,Uncountably%20infinite%20sets,also%20an%20uncountably%20infinite%20set.

@@ -1,0 +1,81 @@
+[Video](https://youtube.com/watch?v=DpcUJrYTduc)
+
+- Quantifiers
+	- As we know, a propositional function P(x) is not a proposition until it has truth value. Up to this point, we could only do this by assigning a value to our variable
+		- Ex. If P(x) represents "x > 0", find the truth value for P(4).
+			- 4 > 0 TRUE
+	- Now we will turn a propositional function into a proposition using a quantifier.
+	- Let's focus on the two most widely used quantifiers
+		- "For all" $\forall$
+			- Universal Quantifier
+			- $\forall x P(x)$ 
+				- For every x, P(x) is True
+		- "There Exists" $\exists$ 
+			- Existential Quantifier
+			- $\exists x P(x)$
+				- There exists some x, such that P(x) is True
+- The universal quantifier "$\forall$"
+	- The statement, $\forall x P(x)$ tells us that the proposition P(x) must be true for all values of x in the domain of discourse/universe
+	- Example
+		- Let P(x) represent "x > 0". Find each truth value for $\forall x P(x)$ 
+			- U is $\mathbb{Z}$  - Integers
+				- -3 $\in$ $\mathbb{Z}$ ?
+					- -3 > 0 False (counterexample)
+			- U is $\mathbb{Z}^+$ - Positive integers 
+				- TRUE
+	- Visual [^1]
+		- ![[a2m1l3image3.jpg]]
+			- The set of all x
+			- x is an element of the set of real numbers
+			- but x is not 17
+- The existential quantifier $\exists$ 
+	- The statement, $\exists x P(x)$, tells us that the proposition P(x) is true for some value(s) of x in the domain of discourse/universe
+	- Example
+		- Let P(x) represent "x > 0". Find each truth value for $\exists x P(x)$
+			- U is $\mathbb{Z}$
+				- 7 $\in$ $\mathbb{Z}$
+					- 7 > 0
+						- True
+			- U is $\mathbb{Z}^-$ 
+				- False
+- The Quantifiers
+	- Universal
+		- $\forall$ 
+		- "For all"
+		- When True?
+			- When P(x) is true for every x in the domain
+		- When false?
+			- Thee is an x in the domain for which P(x) is false
+		- $\forall x P(x) \equiv P(x_1) \land P(x_2) \land ... \land P(x_n)$ 
+	- Existential
+		- $\exists$
+		- "There exists"
+		- When true?
+			- Three is an x in the domain for which P(x) is true
+		- When false?
+			- When p(x) is false for every x in the domain
+		- $\exists x P(x) \equiv P(x_1) \lor P(x_2) \lor ... \lor P(x_n)$
+- Practice
+	- ![[Screenshot 2022-12-17 at 6.57.58 PM.png]]
+		- If you find a counter-example, thew hole statement is false
+		- By cycling through values, you can test the truth table
+	- ![[Screenshot 2022-12-17 at 6.58.48 PM.png]]
+		- Good to give counterexample when saying false
+- The uniqueness Quantifier $\exists !$ 
+	- The statement, $\exists ! x P(x)$, tells us that the proposition P(x) is true for exactly one value of x in the domain of discourse/universe.
+	- Give the truth value for $\exists ! x P(x)$ for each proposition in the domain of all integers
+		- P(x) represents "2x = 4"
+			- x = 2
+				- TRUE
+		- P(x) represents "2x > 4"
+			- x > 2
+				- FALSE since x = 3,4
+		- P(x) represents "2x = 3
+			- x = 1.5
+				- FALSE because not a unique `integer`
+	- My notes
+		- E! means there exists exactly 1. Exists solution and it is unique
+
+## References
+
+[^1]: https://www.texasgateway.org/resource/domain-and-range-function-notation

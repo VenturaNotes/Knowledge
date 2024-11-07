@@ -1,0 +1,32 @@
+[Video](https://youtube.com/watch?v=Jth7m3j8uGA)
+
+- Every real number has an additive inverse
+	- $\forall x \exists y (x + y = 0)$
+		- Is this true?
+		- Domain - all real #'s
+			- x = {0, 1, 2}
+		- reasoning & proof
+			- 0 + 0 = 0
+			- 1 + -1 = 0
+			- 2 + -2 = 0
+- Let P(x, y) denote "xy=yx". Assume the domain is the real numbers
+	- 1) is $\forall x \forall y P(x,y)$ true?
+		- Read as "for all real number x and for all real numbers y"
+		- xy = yx
+		- True
+	- 2) Is $\forall y \forall x P(x,y)$ true?
+		- Read as "for all real numbers y and for all real numbers x"
+		- True
+	- The first statement is true because of the commutative property of multiplication. Not through a formal proof though. Order doesn't matter.
+- Example
+	- ![[Screenshot 2022-12-17 at 7.22.26 PM.png]]
+- Practice
+	- ![[Screenshot 2022-12-17 at 7.23.14 PM.png]]
+		- $\forall x \forall y P(x,y)$
+			- Just need a counterexample
+		- $\forall x \exists y P(x,y)$ 
+			- The y in $\exists y$ does not need to be the same # for $\forall x$ 
+	- ![[Screenshot 2022-12-17 at 7.24.46 PM.png]]
+	- ![[Screenshot 2022-12-17 at 7.25.14 PM.png]]
+		- Negations
+- 

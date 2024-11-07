@@ -1,0 +1,34 @@
+[Video](https://youtube.com/watch?v=NTSZMdGlo4g)
+
+- ![[Screenshot 2023-05-09 at 11.05.20 PM.png]]
+	- A valid argument is a list of premises from which the conclusion follows
+	- Examples
+		- If I do the dishes, then my wife will be happy with me.
+		- I do the dishes
+		- Therefore, my wife is happy with me.
+	- Referred to as a logical form or argument form
+	- [[Modus Ponens]] is an argument of the form
+		- if p, then q.
+		- p
+		- Therefore, q.
+	- If an assumption, then a conclusion. If you take the assumption, therefore you get the conclusion
+		- $p_1$ means premise one
+		- $p_2$ means premise two
+		- $c$ means conclusion
+	- [[Vacuous Truth|Vacuously True]]
+		- This is when $F \implies T$ is True and $F \implies F$ is True
+	- Don't care about the other conclusions because in this scenario, the premises are not satisfied. In the logical argument, we assume that both of the premises are true. If premises were not true, we don't care because our argument doesn't matter if it's valid or not.
+		- All that matters is the first row because that's when all the premises are true
+			- Conclusion is true because it matches the claim
+- ![[Screenshot 2023-05-09 at 11.09.31 PM.png]]
+	- [[Modus Tollens]] is an argument of the form
+		- If p, then q
+		- $\lnot q$
+		- Therefore, $\lnot p$ 
+	- Knowing your conclusion is false forces the assumption to be false as well with the above conditional
+	- Both modus ponens and modus tollens are referred to as [[Law of Syllogism|syllogisms]]. Examples where you have 2 different premises, sort of a major premise and a minor premise and therefore you get a conclusion out of it
+	- Example
+		- If I'm the POTUS, then I'm an American citizen
+		- I'm not an American citizen
+		- Therefore, I'm not the POTUS
+	- Proven that I'm not the president of the United States

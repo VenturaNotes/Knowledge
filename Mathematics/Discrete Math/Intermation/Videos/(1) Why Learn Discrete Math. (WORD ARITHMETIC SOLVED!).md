@@ -1,0 +1,38 @@
+[Video](https://www.youtube.com/watch?v=oJhAPsy9hBU)
+
+- ![[Pasted image 20230726160145.png|500]]
+	- [[Analog computer]]
+		- A computer that uses physical phenomenon such as electricity or mechanical position or hydraulics in order to pass it through a number of mathematical functions such as integrators, derivatives, multipliers and so forth (in order to come up with an answer.
+			- Have not been used commonly for many decades
+			- Sometimes for research in simulations they still are being used
+			- What we have today are digital computers
+	- [[Digital computer]]
+		- Computers that store bits (1s and 0s) in memory locations
+			- They make specific, distinct, or discrete steps (executing instructions to operate on these bits in memory. Discrete bits)
+			- Therefore, we need a method of understanding how to operate on numbers discretely
+				- What the effects are and how we can take advantage of it
+	- Driving on a road selecting a path or assigning chairs to people is discrete math
+		- Conditional statements at traffic signal
+		- Set theory can be applied to climbing stairs. Mapping each foot to each step in a particular order/sequence
+	- [[Long division]]
+	- [[Proof by contradiction]]
+		- Prove that something is true by making it so all the other cases are not true
+	- Which letters cannot be zero (let's us only need around 1,000,000 solutions to look through)
+		- FBE (because they are the starting number and we assume we have removed all of the leading zeros)
+		- DUT cannot be 0 since you need to multiply them by FES and if they were 0, then the product would be 0 for each
+		- S cannot be 0 since it would make A, F, and E 0. The letter which equals 0 needs to be unique among the characters
+			- FESABUTOCD
+		- If we could not find a way for D or S to be 5 or even, then the intersection would be empty and we'd know that A can't be 0
+- ![[Screenshot 2023-07-26 at 9.45.35 PM.png]]
+	- Could try using integer theory or number theory
+		- The theory of, we kind of know how numbers work. 
+	- Was able to figure out a lot just from the characteristics of subtraction
+	- Since we have a one-to-one mapping/relation, we know that E can't equal 9 since D for certain equals 9
+	- What we generated is something we call a [[relation]]
+		- We have a relation of a set (the single decimal digits 0 to 9) to a subset of the english alphabet
+			- This pairing gives us a relation
+				- It's a [[one-to-one relation]]
+					- We'll see how important they are in databases
+	- We use discrete math to get better at algorithms, to apply structures for algorithms such as recursion, to prove that our algorithms work. Significant improvement in performance.
+		- Use tools such as trees in our graphs to come up with answers (such as quickest route from home to school)
+		- Applying logic to conditional statements

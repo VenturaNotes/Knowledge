@@ -1,0 +1,46 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLDDGPdw7e6Aj0amDsYInT_8p6xTSTGEi2
+Length: 10 hours, 49 minutes, 6 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) PERMUTATIONS and COMBINATIONS Review - Discrete Mathematics]]
+	- [[(2) (Discrete Mathematics) Catalan Numbers]]
+	- [[(3) (Discrete Mathematics) Discrete Probability]]
+	- [[(4) (Discrete Mathematics) Axioms of Probability]]
+	- [[(5) (Discrete Mathematics) Conditional Probability]]
+	- [[(6) INCLUSION-EXCLUSION PRINCIPLE - DISCRETE MATHEMATICS]]
+	- [[(7) (Discrete Mathematics) Inclusion Exclusion Problems]]
+	- [[(8) (Discrete Mathematics) Inclusion-Exclusion - At Least & Exactly]]
+	- [[(9) (Discrete Mathematics) Derangements]]
+	- [[(10) GENERATING FUNCTIONS - Discrete Mathematics]]
+	- [[(11) (Discrete Mathematics) Coefficient Extraction and Extended Binomial Theorem]]
+	- [[(12) (Discrete Mathematics) Coefficient Extraction Examples]]
+	- [[(13) (Discrete Mathematics) Partial Fraction Decomposition]]
+	- [[(14) (Discrete Mathematics) Integer Partitions]]
+	- [[(15) (Discrete Mathematics) Combinatorial Families]]
+	- [[(16) RECURRENCE RELATIONS - DISCRETE MATHEMATICS]]
+	- [[(17) HOMOGENEOUS RECURRENCE RELATIONS - Discrete Mathematics]]
+	- [[(18) (Discrete Mathematics) Homogeneous Recurrence Relations Examples]]
+	- [[(19) (Discrete Mathematics) Homogeneous Recurrence Relation Examples 2]]
+	- [[(20) NON-HOMOGENEOUS RECURRENCE RELATIONS - Discrete Mathematics]]
+	- [[(21) (Discrete Mathematics) Nonhomogeneous Recurrence Relation Examples]]
+	- [[(22) RECURRENCE RELATIONS using GENERATING FUNCTIONS - DISCRETE MATHEMATICS]]
+	- [[(23) INTRODUCTION to GRAPH THEORY - DISCRETE MATHEMATICS]]
+	- [[(24) (Discrete Mathematics) Subgraphs, Complements, and Complete Graphs]]
+	- [[(25) ISOMORPHISMS and BIPARTITE GRAPHS - DISCRETE MATHEMATICS]]
+	- [[(26) (Discrete Mathematics) Vertex Degree and Regular Graphs]]
+	- [[(27) (Discrete Mathematics) Euler Circuits and Euler Trails]]
+	- [[(28) (Discrete Mathematics) Planar Graphs]]
+	- [[(29) (Discrete Mathematics) Euler's Theorem]]
+	- [[(30) (Discrete Mathematics) Hamilton Cycles]]
+	- [[(31) (Discrete Mathematics) Graph Coloring and Chromatic Polynomials]]
+	- [[(32) (Discrete Mathematics) Trees]]
+	- [[(33) (Discrete Mathematics) Tree Directories and Traversals]]
+	- [[(34) (Discrete Mathematics) Dijkstra's Algorithm]]
+	- [[(35) (Discrete Mathematics) Flow Networks and the Edmonds Karp Algorithm]]
+	- [[(36) (Discrete Mathematics) Minimal Cuts]]

@@ -1,0 +1,24 @@
+[Video](https://www.youtube.com/watch?v=wbfGKiIvEZE)
+
+- ![[Screenshot 2023-11-12 at 5.28.57 PM.png]]
+	- [[Mathematical Induction]]
+		- Not necessarily a method to prove something but rather a common tool used within larger proofs
+		- 3 steps to mathematical induction
+			- (1) Base Case: Show that the first thing is true (show that it is true for n =1)
+			- (2) Inductive Step: Show that if any one is true, then the next one is true (show that if n = k is true then n = k + 1 is also true)
+			- (3) Make your conclusion: Every n is true
+		- Domino Example: Trying to prove that if the first domino falls, all the dominos in a line would fall
+			- (1) The first domino falls
+			- (2) When any domino falls, next domino falls
+			- (3) All the dominos will fall
+	- Practice:
+		- (1) Prove the sum of the first n odd numbers is $n^2$ 
+			- First [[odd number]] is a 1
+		- Understand $1 + 3 + 5 + ... (2n-1) = n^2$
+			- Understand that (2n-1) will always be the last number in "n". This is why the equation makes sense
+			- If n = 3, then
+				- 1 + 3 + (2(3) - 1) = 1 + 3 + 5
+- ![[Screenshot 2023-11-13 at 2.17.44 PM.png]]
+	- (2) Prove that for any positive [[integers]] number, n, $n^3 + 2n$ is divisible by 3
+		- We know that $k + m^2 + m + 1$ will be an integer because we're only working with integers and multiplying or adding an integer together will always return an integer.
+			- [[(4) Intro to Proofs - Number Systems#^de0f3e]]

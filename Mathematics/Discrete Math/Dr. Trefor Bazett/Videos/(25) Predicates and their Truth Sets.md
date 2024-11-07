@@ -1,0 +1,25 @@
+[Video](https://youtube.com/watch?v=9MPA_LUmmoo)
+
+- ![[Screenshot 2023-05-10 at 12.13.28 AM.png]]
+	- Errata
+		- I believe the $\subseteq$ symbol is wrong since TS does not contain every element of $\mathbb{Z}^+$
+	- Recall: A statement is either TRUE or FALSE
+		- "x>5" is not going to be a logical statement
+	- A [[predicate]] is a sentence depending on variables which becomes a statement upon substituting values in the domain
+	- Example
+		- P(x): x is a factor of 12 with domain $\mathbb{Z}^+$
+			- Every predicate needs to be paired with a specific domain
+				- Domain is where the x's live (the allowable inputs)
+	- The [[Truth Set]] of a predicate P(x):
+		- {x $\in$ D | P(x)}
+			- [[Set-builder notation]]
+			- The set of all values of x in the domain such that the predicate is true
+				- all things in the domain such that some property is true
+			- i.e All values x in the domain where P(x) is true
+		- Example
+			- P(x): x is a factor of 12 with domain $\mathbb{Z}^+$
+			- TS = {1, 2, 3, 4, 6, 12}
+				- Truth set
+				- $\subseteq$ $\mathbb{Z}^+$ 
+					- Subset of the positive integers?
+						- Should be $\subset$? (proper subset)

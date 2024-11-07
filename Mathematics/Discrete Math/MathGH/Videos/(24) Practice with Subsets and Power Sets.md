@@ -1,0 +1,28 @@
+[Video](https://www.youtube.com/watch?v=lBGucdbTq_8)
+
+- ![[Screenshot 2024-01-07 at 3.39.42 PM.png]]
+	- Practice with [[subsets]] and [[Power Set|power sets]]
+		- [[Subsets]]
+			- B is a subset of A if every element in B is also in A
+				- We write this as B $\subseteq$ A
+				- If B is not a subset of A, we put the dash through the subset symbol
+				- The [[empty set]] is a subset of any and all sets <- Commonly Tested!
+		- [[Power Set|power sets]]
+			- The set of all possible subsets
+				- Notated by P(A)
+			- To determine the power set by hand, you can use the tree method
+				- Begin with the empty set then move down one element at a time, either adding the element, or keeping the element out of your set
+				- After doing this for all elements, the bottom row will be your power set
+			- To determine [[Cardinality]] of power set
+				- If |A| = n, then |P(A)| = $2^n$
+				- Reasoning behind this, each element can be in a subset, or not(so, you have two options for each of the n elements)
+	- Practice
+		- (1) Find the power set of set A where A = {1, 2, 3}
+		- (2) Let A = {1, {1}, {2}}. Determine which of the following is true
+			- T
+			- F
+			- T
+			- For 1 $\subseteq$ A, this is false because 1 is not a set
+			- T
+			- F
+			- T

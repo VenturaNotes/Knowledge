@@ -1,0 +1,22 @@
+[Video](https://www.youtube.com/watch?v=6ovH4HJgVbQ)
+
+- ![[Screenshot 2024-01-04 at 5.55.40 PM.png]]
+	- Introduction to [[Counting]]
+		- Often labeled the most difficult part of [[discrete math]]
+		- Using formulas is not enough, you must really think about what the question is asking and then be creative to determine how to use/modify a formula for that unique situation
+	- [[Principle of Addition]] (Sum Rule of Counting)
+		- For two separate tasks, if task A can be done n ways and task B can be done m ways, then A and B can be done in n + m ways.
+		- Example 1: How many different ways can you draw a jack or an ace in a standard deck of cards?
+	- [[Product Principle]] (Product Rule of Counting)
+		- In a list, A through B, if there are n ways of choosing A, and m ways of choosing B, then there are n$*$m ways of choosing AB
+		- Example 2: How many different ways can I customize my phone?
+			- Assume there are 6 different storage options, 8 different colors, and 2 different firmware's I can choose from.
+				- List/Options and Choices
+- ![[Screenshot 2024-01-04 at 5.57.38 PM.png]]
+	- Practice
+		- (1) How many different ways can I roll a 2 or a 4?
+			- {1 ,2, 3, 4, 5, 6}
+				- 2 ways
+				- Using principle of addition
+		- (2) How many different ways can I customize a license plate that has 5 letters, then 2 numbers
+			- Using product principle

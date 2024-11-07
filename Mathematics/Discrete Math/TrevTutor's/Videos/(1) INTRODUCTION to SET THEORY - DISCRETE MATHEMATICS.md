@@ -1,0 +1,69 @@
+[Video](https://youtube.com/watch?v=tyDKR4FG3Yw)
+
+- Set Theory
+	- A set is a collection of objects called elements
+		- ![[Screenshot 2022-12-22 at 4.40.56 AM.png]]
+			- Sets can be represented visually or with list notation
+	- Sets can be finite or infinite.
+		- A = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+		- $\mathbb{Z}^+ = \{1, 2, 3, 4, ...\}$
+			- This is a set of positive integers where the 3 dots means it's an implied pattern that goes on forever.
+- Additional Points
+	- Repeated elements are listed once
+		- {a, b, a, c, b, a} = {a, b, c}
+			- Both are the same sets
+			- Visual
+				- ![[Screenshot 2022-12-22 at 4.43.06 AM.png]]
+	- There is no order in a set.
+		- {3, 2, 1} = {1, 2, 3}
+- Common Sets
+	- Natural Numbers
+		- $\mathbb{N}$ = {0, 1, 2, 3, ...} OR {1, 2, 3, ...} => $\mathbb{Z}^+$ 
+	- Integers
+		- $\mathbb{Z}$ = {..., -2, -1, 0, 1, 2, ...}
+			- Set of whole numbers that are positive or negative
+	- Rational Numbers
+		- $\mathbb{Q}$ = {..., 1/1, 1/2, 1/3, 2/3, ...}
+			- They can be negative
+			- Real numbers are both rational and irrational
+- Elements and cardinality
+	- Let C = {yellow, blue, red}
+		- "yellow is an element of C"
+			- yellow $\in$ C
+		- "Green is not an element of C"
+			- Green $\notin$ C
+		- "The cardinality of C is 3"
+			- |C| = 3
+	- The $\in$ is an epsilon symbol
+- The empty set
+	- $\varnothing$ = { }
+	- $|\varnothing|$ = 0
+	- $|\{\varnothing\}| = 1$ 
+		- |{ }| = 0
+	- For {$\varnothing$}
+		- $\varnothing$ is an element of the set above
+	- Sets can have sets as elements
+- Set-Builder Notation (predicate notation)
+	- Q = {..., 1/1, 1/2, 1/3, 2/3, ...} (below is a better way to express the entire set)
+		- = {$\frac mn$ | m, n $\in$ $\mathbb{Z}$, n $\ne$ 0} 
+			- The left of | is the form that it takes and the right side is the rule
+			- Define elements as variables. Set containing elements $\frac mn$ such that m and n have to be integers and n $\ne$ 0. This expresses entire set of rational #'s.
+	- Even Integers
+		- $2\mathbb{Z}$ = {..., -4, -2, 0, 2, 4, ...}
+			- = {2n | n $\in$ $\mathbb{Z}$ }
+				- If we take "n" to be 1, we get 2 back. If n=2, then we get 4. If n=-1, we get -2
+- Desk = {drink, laptop, microphone}
+	- {x | x is on my desk}
+- Exercises
+	- Given D = {x $\in$ $\mathbb{Z}^+$ | x < 6}
+		- List the elements of D
+			- 1, 2, 3, 4, 5
+		- What is the cardinality of D?
+			- |D| = 5
+		- What is the cardinality of {$\varnothing$ , {a,b}}
+			- Stuff inside boxes in a cardinality question doesn't matter
+			- ![[Screenshot 2022-12-22 at 5.02.51 AM.png]]
+			- |{$\varnothing$ , {a,b}}| = 2
+		- A few more cardinality examples
+			- ![[Screenshot 2022-12-22 at 5.03.28 AM.png]]
+			- ![[Screenshot 2022-12-22 at 5.06.04 AM.png]]

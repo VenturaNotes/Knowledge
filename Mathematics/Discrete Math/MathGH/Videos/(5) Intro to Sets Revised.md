@@ -1,0 +1,30 @@
+[Video](https://www.youtube.com/watch?v=QwW4PJBOHoE)
+
+- ![[Screenshot 2024-01-03 at 2.29.23 PM.png]]
+	- Introduction to [[sets]]
+		- A set is a collection of unordered, distinct objects (could be numbers, could be something else) that we call elements
+		- There are multiple ways to represent sets in mathematics
+	- Important points
+		- There is no order in a set: {0, 1, 5} = {1, 5, 0}
+		- Repeated elements are listed once in a set: {0, 0, 0, 1, 5, 5} = {0, 1, 5}
+		- Sets can be [[finite]] or [[infinite]]
+			- A = {0, 1, 5}
+				- Finite means countable
+			- $\mathbb{Z}$ = {..., -2, -1, 0, 1, 2, ...}
+				- The dotted lines implies a repeated pattern
+				- [[Set of integers]]
+					- $\mathbb{Z}$
+	- Important Sets
+		- (1) [[Natural numbers]]: Set of positive integers (sometimes includes 0)
+			- $\mathbb{N}$ = {1, 2, 3, 4, ...}
+			- Same thing as "counting numbers"
+		- (2) [[Integers]]: Includes all positive and negative integers
+			- $\mathbb{Z}$ = {..., -2, -1, 0, 1, 2, ...}
+		- (3) [[Rational Numbers]]: Include any number you can write as a fraction
+			- $\mathbb{Q}$ 
+	- Elements and Cardinality
+		- Symbol for [[inclusion]] is $\in$ (Epsilon)
+			- For [[exclusion]], simply put a dash through the epsilon
+		- [[Cardinality]]: The size of a set (number of elements)
+			- Notated by straight lines on both sides
+	- Example: Let B = {Square, Rectangle, Pentagon}

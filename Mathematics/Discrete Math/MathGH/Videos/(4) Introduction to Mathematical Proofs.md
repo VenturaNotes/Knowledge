@@ -1,0 +1,35 @@
+[Video](https://www.youtube.com/watch?v=9FYaVljPH-I)
+
+- ![[Screenshot 2024-01-03 at 12.52.12 AM.png]]
+	- Introduction to [[proof|proofs]]
+		- Vocabulary
+			- [[Definition]]: Something given - No proof required
+			- [[Theorem]]: Something to be proved 
+				- Typically result in [[Corollary|corollaries]] (something closely related to the theorem that results from the theorem)
+			- [[Parity]]: Two integers are of the same parity if x and y are both ever or both odd
+				- We say that two integers ore of opposite parity if one is even and the other is odd
+	- Some common types of proofs
+		- (1) [[direct proof|direct proofs]]: If p, then q
+		- (2) [[Proof by contraposition]]: We are trying to prove if p, then q. We can do this with contraposition by proving not q implies not p
+			- Remember from our logic lessons that the contrapositive is logically equivalent to the original statement
+		- (3) [[Proof by contradiction]]: We assume the logical negation of the result we want to prove; then reach some kind of contradiction
+			- Often used to prove the impossibility of something, you assume it is possible then reach a contradiction
+		- (4) [[Proof by Exhaustion|proof by cases]]: Sometimes when we are trying to prove $p \to q$ is true, it may be easier to use an equivalent [[disjunction]] $p_1 \lor p_2 \lor ... \lor p_k$ instead of using p as the hypothesis
+			- Generally can be used when proving something involving even or odd numbers or [[divisibility rules]]
+	- [[Mathematical induction]]
+		- Not necessarily a method to prove something but rather a common tool used with larger proofs
+		- 3 steps to mathematical induction
+			- [[Base case]]: Show that the first thing is true (show that it is true for $n = 1$)
+			- [[Inductive step]]: Show that if any one is true, then the next one is true (Show that if n = k is true, then n = k + 1 is also true)
+			- Make your conclusion: Every n is true
+		- Domino Example: Trying to prove that if the domino falls, all the dominos in a line would fall
+			- (1) The first domino falls
+			- (2) When any domino falls, next domino falls
+			- (3) All the dominos will fall
+	- Some things to know
+		- (1) How to write odd and even integers within proofs
+			- If we have an [[odd integer]] we often want to write it as $2k + 1$ in our proof (where k is an integer)
+			- For [[even integer|even integers]], we would write it as 2k
+		- (2) Divisibility Symbols/Rules
+			- For integers a and b with a $\ne$ 0, we say that a divides b or b is divisible by a if there is an integer c such that b = ac, and is written as a|b
+			- Ex: 2|4 and -2|8?

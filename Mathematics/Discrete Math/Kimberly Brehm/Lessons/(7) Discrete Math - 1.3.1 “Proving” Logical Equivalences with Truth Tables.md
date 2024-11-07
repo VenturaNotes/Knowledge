@@ -1,0 +1,31 @@
+[Video](https://youtube.com/watch?v=tj_98IO-lCk)
+
+- No mathematical proof, just equivalence
+- ![[Screenshot 2022-12-17 at 5.29.57 PM.png]]
+	- Some terminology
+		- Tautology
+			- A proposition which is always true(yellow highlight)
+			- Example
+				- $p \lor \lnot p$ 
+		- Contradiction
+			- A proposition which is always false. (blue highlight)
+			- Example
+				- $p \land \lnot p$ 
+		- Contingency
+			- A proposition which is neither a tautology nor a contradiction. (purple highlight)
+			- Example
+				- p
+	- We would take $2^n$ (where n is the # of propositions), to find the number of rows.
+- Logical Equivalences
+	- Two compound propositions p and q are logically equivalent if $p \iff q$ is a tautology, meaning they have the same truth value in all possible cases.
+	- We write this as $p \equiv q$ where p and q are compound propositions.
+	- Let's use this truth table to show that $\lnot p \land q \equiv p\implies q$ 
+	- ![[Screenshot 2022-12-17 at 5.35.43 PM.png]]
+		- The compound proposition in this case is that p is $\lnot p$ and q is $p\implies q$. The p and q variables are substitutions for actual compound proposition.
+		- The compound proposition p is not the same p as $\lnot p \lor q$ 
+- Practice
+	- ![[Screenshot 2022-12-17 at 5.36.42 PM.png]]
+		- Final results don't always need to be at the end of a table
+- Practice
+	- ![[Screenshot 2022-12-17 at 5.37.27 PM.png]]
+		- We have shown by a truth table that they are logically equivalent

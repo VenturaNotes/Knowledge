@@ -1,0 +1,29 @@
+[Video](https://youtube.com/watch?v=GJpezCUMOxA)
+
+- ![[Screenshot 2023-05-10 at 1.47.50 AM.png]]
+	- The [[Universal Quantifier]] $\forall$ means "for all" ^656027
+		- The "for all" quantifies some properties about the [[predicate]] 
+		- Main Use: "quantifying" predicates:
+			- $\forall$x $\in$ D, P(x)
+			- For all x in the domain, P(x) is true
+		- Ex: Every dog is a mammal
+			- "Every" is synonymous "for all"
+		- D = dogs; P(x): x is a mammal!
+			- D is the set of dogs
+	- The [[Existential Quantifier]] $\exists$ means "there exists"
+		- Main Use: "quantifying" predicates:
+			- $\exists x \in D, P(x)$
+			- There exists x in the domain, such that P(x) is true.
+		- Example: Some person is the oldest in the world
+		- There exists a person in the world that has this particular predicate being true (x is the old person in the world)
+- ![[Screenshot 2023-05-10 at 1.50.41 AM.png]]
+	- Important to keep in mind the difference between logical statements and predicates which depend on the input variable x that lives in some domain.
+	- Statement
+		- P: "Roofus is a mammal"
+	- Predicate
+		- P(x): "x is a mammal"
+	- Statement
+		- Q: $\forall x \in D, P(x):\text{"every dog is a mammal"}$
+			- This is a true statement
+			- Every dog is a mammal is a true statement
+	- When quantifying a predicate, it turns it into a logical statement

@@ -1,0 +1,33 @@
+[Video](https://youtube.com/watch?v=ReV1lwBw_lc)
+
+- Set identities
+	- Identity Laws
+		- ![[Screenshot 2022-12-17 at 9.00.42 PM.png]]
+	- Domination Laws
+		- ![[Screenshot 2022-12-17 at 9.00.55 PM.png]]
+	- Idempotent Laws
+		- ![[Screenshot 2022-12-17 at 9.01.03 PM.png]]
+	- Complementation Laws
+		- ![[Screenshot 2022-12-17 at 9.01.10 PM.png]]
+		- The complement of $\overline A$ is A
+	- Commutative Law (order)
+		- ![[Screenshot 2022-12-17 at 9.02.24 PM.png]]
+	- Associative Laws (grouping)
+		- ![[Screenshot 2022-12-17 at 9.02.35 PM.png]]
+			- Any
+				- If it's a union, the result is going to be a value in any of the 3 sets
+		- ![[Screenshot 2022-12-17 at 9.02.47 PM.png]]
+			- Each
+				- For something to be an intersection of 3 sets, it needs to be in each of the 3 sets
+	- Distributive Laws
+		- ![[Screenshot 2022-12-17 at 9.03.00 PM.png]]
+	- De Morgan's Laws
+		- ![[Screenshot 2022-12-17 at 9.07.16 PM.png]]
+			- Visually shows intersection
+		- ![[Screenshot 2022-12-17 at 9.07.44 PM.png]]
+			- Visually shows second equation
+	- Absorption Laws
+		- ![[Screenshot 2022-12-17 at 9.08.14 PM.png]]
+	- Complement Laws
+		- ![[Screenshot 2022-12-17 at 9.08.22 PM.png]]
+- $\cup$ is union and $\cap$ is intersect
