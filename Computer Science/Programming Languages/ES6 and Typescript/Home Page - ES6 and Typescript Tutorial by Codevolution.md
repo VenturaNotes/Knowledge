@@ -1,0 +1,61 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLC3y8-rFHvwhI0V5mE9Vu6Nm-nap8EcjV
+Length: 3 hours, 27 minutes, 17 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) ES6 and Typescript Tutorial - 1 - Introduction]]
+	- [[(2) ES6 and Typescript Tutorial - 2 - Transpiler]]
+	- [[(3) ES6 and Typescript Tutorial - 3 - Tooling Setup]]
+	- [[(4) ES6 and Typescript Tutorial - 4 - ScratchJS]]
+	- [[(5) ES6 and Typescript Tutorial - 5 - Var Hoisting & Functional Scope]]
+	- [[(6) ES6 and Typescript Tutorial - 6 - let Keyword]]
+	- [[(7) ES6 and Typescript Tutorial - 7 - let in for loops]]
+	- [[(8) ES6 and Typescript Tutorial - 8 - const Keyword]]
+	- [[(9) ES6 and Typescript Tutorial - 9 - let vs const]]
+	- [[(10) ES6 and Typescript Tutorial - 10 - Arrow Functions]]
+	- [[(11) ES6 and Typescript Tutorial - 11 - lexical 'this']]
+	- [[(12) ES6 and Typescript Tutorial - 12-  Default Function Parameters]]
+	- [[(13) ES6 and Typescript Tutorial - 13 - Rest Operator]]
+
+- Incomplete
+	- [[(14) ES6 and Typescript Tutorial - 14 - Spread Operator]]
+	- [[(15) ES6 and Typescript Tutorial - 15 - Object Literals Part 1]]
+	- [[(16) ES6 and Typescript Tutorial - 16 - Object Literals Part 2]]
+	- [[(17) ES6 and Typescript Tutorial - 17 - Destructuring Array]]
+	- [[(18) ES6 and Typescript Tutorial - 18 - Destructuring Objects]]
+	- [[(19) ES6 and Typescript Tutorial - 19 - String Templates]]
+	- [[(20) ES6 and Typescript Tutorial - 20 - for of Loop]]
+	- [[(21) ES6 and Typescript Tutorial - 21 - Class]]
+	- [[(22) ES6 and Typescript Tutorial - 22 - Class Body and Methods]]
+	- [[(23) ES6 and Typescript Tutorial - 23 - Class Inheritance]]
+	- [[(24) ES6 and Typescript Tutorial - 24 - Introduction to Modules]]
+	- [[(25) ES6 and Typescript Tutorial - 25 - Module Loader Setup]]
+	- [[(26) ES6 and Typescript Tutorial - 26 - Named Exports]]
+	- [[(27) ES6 and Typescript Tutorial - 27 - Default Exports]]
+	- [[(28) ES6 and Typescript Tutorial - 28 - Exporting Functions and Classes]]
+	- [[(29) ES6 and Typescript Tutorial - 29 - Sets & Maps]]
+	- [[(30) ES6 and Typescript Tutorial - 30 - Sets]]
+	- [[(31) ES6 and Typescript Tutorial - 31 - WeakSets]]
+	- [[(32) ES6 and Typescript Tutorial - 32 - Maps]]
+	- [[(33) ES6 and Typescript Tutorial - 33 - Iterating over Maps]]
+	- [[(34) ES6 and Typescript Tutorial - 34 - forEach]]
+	- [[(35) ES6 and Typescript Tutorial - 35 - WeakMaps]]
+	- [[(36) ES6 and Typescript Tutorial - 36 - Symbols]]
+	- [[(37) ES6 and Typescript Tutorial - 37 - Symbol iterator]]
+	- [[(38) ES6 and Typescript Tutorial - 38 - Iterables and Iterators]]
+	- [[(39) ES6 and Typescript Tutorial - 39 - Iterating Objects]]
+	- [[(40) ES6 and Typescript Tutorial - 40 - Generators]]
+	- [[(41) ES6 and Typescript Tutorial - 41 - Enter Typescript]]
+	- [[(42) ES6 and Typescript Tutorial - 42 - Declarations and Annotations]]
+	- [[(43) ES6 and Typescript Tutorial - 43 - Type Inference]]
+	- [[(44) ES6 and Typescript Tutorial - 44 - Any Type]]
+	- [[(45) ES6 and Typescript Tutorial - 45 - Enumeration]]
+	- [[(46) ES6 and Typescript Tutorial - 46 - Arrays and Tuples]]
+	- [[(47) ES6 and Typescript Tutorial - 47 - Class Constructors]]
+	- [[(48) ES6 and Typescript Tutorial - 48 - Interfaces]]
+	- [[(49) ES6 and Typescript Tutorial - 49 - Decorators]]
+	- [[(50) ES6 and Typescript Tutorial - 50 - Further Reading]]

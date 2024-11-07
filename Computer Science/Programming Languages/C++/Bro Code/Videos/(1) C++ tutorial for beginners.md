@@ -1,0 +1,27 @@
+[Video](https://www.youtube.com/watch?v=S3nx34WFXjI)
+
+- Image
+	- [[C++]] is a fast language
+		- Used in advanced graphics apps (adobe applications, video editing software)
+		- Considered a middle-level language
+			- Used with embedded systems
+		- Creates video games
+	- Compared to other programming languages, c++ is a middle level language
+		- Higher level a programming language, the more it resembles human language
+		- Languages that are closer to being lower level resemble hardware instructions 
+	- Spectrum
+		- Human language
+		- High Level: python, java, c#
+			- Easier to write with but tends to be slower
+		- Middle Level: C++, C
+			- More effort to write but very fast (benefit of working closely with machine hardware while still somewhat resembling human language)
+		- Low Level: ASM
+		- Hardware
+	- Average salary for a C++ Software Engineer is $124,550/yr (April 15, 2022)
+	- What do you need?
+		- Text editor: VSCode, Code::Blocks, or even notepad
+			- VSCode and Code::Blocks considered IDEs.
+				- Integrated Development Environments
+					- They are a text-editor as well as a workshop that contain a lot of useful developer tools
+		- [[Compiler]]: It's a piece of software that parses source code to machine instructions
+			- If using windows or linux, best to go with gcc. If on mac, will probabily go with clang
