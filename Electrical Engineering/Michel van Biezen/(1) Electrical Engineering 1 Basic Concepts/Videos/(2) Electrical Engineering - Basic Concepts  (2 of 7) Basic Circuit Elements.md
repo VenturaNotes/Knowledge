@@ -1,0 +1,67 @@
+[Video](https://youtube.com/watch?v=X_KWJ_MinOU)
+
+- Symbols represent real devices
+- Resistor
+	- ![[Screenshot 2023-01-08 at 4.56.19 PM.png]]
+	- Squiggly line going back and forth
+	- The symbol we use for resistance is R
+	- Units we have for resistance is Ohms ($\Omega$ )
+- Capacitor
+	- ![[Screenshot 2023-01-08 at 4.58.48 PM.png]]
+	- 2 lines together inside a circuit is called a capacitor
+		- This represents 2 capacitor plates very close to one another (opposite to one another)
+	- C is called the capacitance
+	- Units we use is FARADS (F)
+- Inductor (coil
+	- ![[Screenshot 2023-01-08 at 4.59.49 PM.png]]
+	- Drawn like springs on the side
+	- L stands for inductance
+	- Units for inductance is HENRIES (H)
+- Load Resistor ^d123cf
+	- ![[Screenshot 2023-01-08 at 5.01.59 PM.png]]
+	- We have an entire circuit and we attach another device onto the circuit. The device usually has some sort of resistance and we call that the load resistors. Not really part of the circuit but we load the circuit with this device (resistor).
+	- $R_L$ indicates that it's the load resistor
+	- Units are OHMS ($\Omega$)
+- Variable Resistor
+	- ![[Screenshot 2023-01-08 at 5.03.03 PM.png]]
+	- Resistors that can vary. Vary the resistance of the resistor. Draw an arrow through it to indicate that the resistor can be changed in value
+- Battery (EMF)
+	- ![[Screenshot 2023-01-08 at 5.06.06 PM.png]]
+	- We also need power sources or voltage sources
+	- It's a series of long and short lines where the long side starts is where the positive side of the battery is. Where the battery ends with the short line is where the negative end of the battery is.
+	- Batter is sometimes called the EMF
+		- Electromotive Force
+			- Because it basically forces current through the circuit
+	- We use V to indicate volts for the battery
+		- That is also the units
+	- The units and the symbol for the battery is the same. We use volts.
+- Variable capacitor
+	- ![[Screenshot 2023-01-08 at 5.06.21 PM.png]]
+	- In some circuits, we can vary the capacitor.
+	- Therefore, we have a capacitor symbol with a little arrow through it
+- Sinusoidal Voltage Source (AC Voltage)
+	- ![[Screenshot 2023-01-08 at 5.09.22 PM.png]]
+	- Sometimes we have to adjust a steady state or direct current voltage source. Sometimes we have an alternating current voltage source.
+	- An alternating current voltage source produces an alternating voltage.
+	- Increases, decreases, goes negative, actually the voltage becomes positive/negative throughout the cycle. It produces what we call AC voltage
+		- We have a sin wave symbol inside a circle to indicate that
+- Transistor
+	- ![[Screenshot 2023-01-08 at 5.10.22 PM.png]]
+	- Will be dealing with solid state devices.
+	- The transistor is one of the simplest forms of solid state devices
+	- We have a current coming in, another controlling current that determines how much current will come out of the device.
+- Diode
+	- ![[Screenshot 2023-01-08 at 5.11.27 PM.png]]
+	- It's another solid state device
+	- Only lets current through in one direction
+		- Not so much in the other direction. (maybe a small amount of leak current)
+	- Diode indicates what direction it'll allow the current to flow
+- Connection to Ground
+	- ![[Screenshot 2023-01-08 at 5.13.05 PM.png]]
+	- This is a ground connection
+	- We have a series of small lines that get shorter and shorter and shorter
+	- Therefore, when the circuit is connected to the ground, the voltage will be 0 at that location
+		- That becomes our reference voltage of the circuit
+	- V = 0V
+- These are some basic circuit symbols that we'll be using throughout.
+	- There are many more symbols of course but if we know these, we'll have a good repertoire of things that you can draw on when you start building and looking at simple circuits.

@@ -1,0 +1,27 @@
+[Video](https://youtube.com/watch?v=s6hRPyjTx6k)
+
+- (1) Basic Concepts
+- (2) Basic Laws
+- (3) Circuit Analysis
+- (4) Circuit Theorems
+- (5) Capacitors and Inductors
+- (6) Operational Amplifiers
+	- also known as op amps
+- (7) Circuits: First Order
+	- First order differential equation techniques
+- (8) Circuits: Second Order
+	- Second order differential equation techniques
+- (9) AC Circuits And Phasors
+	- Phasor diagrams
+	- Difference in phasors between current and voltage
+- (10) Sinusoidal Steady State Analysis
+	- Circuits with steady state conditions
+- (11) AC Power Analysis
+- (12) Three Phase Circuits
+- (13) Magnetic Coupling
+- (14) Frequency Response
+- (15) LaPlace Transforms
+- (16) Applications of Laplace Transforms
+- (17) Fourier Series
+- (18) Fourier Transforms
+- (19) Two Port Networks
