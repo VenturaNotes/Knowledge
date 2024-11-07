@@ -1,0 +1,81 @@
+[Video](https://youtube.com/watch?v=Yk588n0UaGY)
+
+- Pairs of angles can have special relationships
+- The relationships could be because of the measures of the angles in the pair, or because of the positions of the pair of angles
+- [[Adjacent angles]] are two angles in the same plane with a <mark style="background: #FFF3A3A6;">common vertex</mark> and a <mark style="background: #FFF3A3A6;">common side</mark>
+	- ![[Screenshot 2023-04-24 at 10.57.18 PM.png]]
+		- "Next to" or "adjoining"
+		- It's like two rooms with a common wall between them
+- A linear pair of angles is a pair of adjacent angles whose noncommon sides are opposite rays.
+	- ![[Screenshot 2023-04-24 at 11.32.53 PM.png]]
+		- $\angle 3$ and $\angle 4$ make a linear pair
+- We can identify angle pairs and tell whether they are only adjacent, adjacent and make a linear pair, or not adjacent (letters = points and numbers = angles)
+	- ![[Screenshot 2023-04-24 at 11.38.00 PM.png|300]]
+		- $\angle 1$ and $\angle 2$ have a common vertex, B, a common side $\overset \longrightarrow {BC}$, and no common interior points. They are only adjacent angles.
+		- $\angle 2$ and $\angle 4$ share $\overline {BC}$ but they don't have a common vertex, so they aren't adjacent angles.
+		- $\angle 1$ and $\angle 3$ are adjacent angles. Their noncommon sides, $\overset \longrightarrow {BC}$ and $\overset \longrightarrow {BA}$, are opposite rays, which means $\angle 1$ and $\angle 3$ make a linear pair.
+		- A linear pair are adjacent and make a sum of $180\degree$
+- [[Complementary angles]] are two angles whose measures have a sum of 90$\degree$
+	- ![[Screenshot 2023-04-24 at 11.38.32 PM.png]]
+- Supplementary angles are two angles whose measures have a sum of $180\degree$
+	- ![[Screenshot 2023-04-24 at 11.38.57 PM.png]]
+- To remember which is which, think that 90 comes before 180, and C comes before S. or C is for corner, which is usually 90$\degree$, and S is for straight.
+---
+- ![[Screenshot 2023-04-24 at 11.40.29 PM.png]]
+	- Two angles can be adjacent and complementary
+	- Two angles can be adjacent and supplementary. Then they'll also be a linear pair
+---
+- ![[Screenshot 2023-04-24 at 11.41.21 PM.png]]
+	- We can find the complement of an angle that measures $x\degree$ by subtracting its measure from 90$\degree$, or (90 - x)$\degree$.
+	-  We can find the supplement of an angle that measures $x\degree$ by subtracting its measure from 180$\degree$, or (180 - x)$\degree$
+---
+- ![[Screenshot 2023-04-24 at 11.42.11 PM.png]]
+	- We can find the measure of the complement of $\angle J$
+---
+- ![[Screenshot 2023-04-24 at 11.42.45 PM.png]]
+	- We can find the measure of the supplement of $\angle k$ 
+---
+- ![[Screenshot 2023-04-24 at 11.44.45 PM.png]]
+	- Algebra 1 video 2.8a. Inverse of a sum and property of -1
+---
+- ![[Screenshot 2023-04-24 at 11.46.15 PM.png|500]]
+	- We can use complements and supplements to solve problems
+	- An angle measures 3 degrees less than twice the measure of its complement.
+---
+- ![[Screenshot 2023-04-24 at 11.51.43 PM.png|500]]
+	- By the transitive property of equality, if m$\angle 1$ = 47$\degree$ and m$\angle 1$ = m$\angle 2$, then m$\angle 2$ = 47$\degree$
+	- Algebra 1 video 2.10c reflexive, symmetric, transitive properties of equality
+---
+- ![[Screenshot 2023-04-24 at 11.53.00 PM.png]]
+	- When we see two angles whose sides make two pairs of opposite rays, they have a relationship as vertical angles. Vertical angles are two nonadjacent angles made by two intersecting lines.
+		- $\angle 1$ and $\angle 3$ are vertical angles
+		- $\angle 2$ and $\angle 4$ are vertical angles
+	- Vertical angles are congruent angles. $\angle 1 \cong \angle 3$ and $\angle 2 \cong \angle 4$
+---
+- ![[Screenshot 2023-04-24 at 11.54.49 PM.png]]
+	- We can identify vertical angles.
+	- $\angle ABC$ and $\angle DBE$ are vertical angles because they're two nonadjacent angles made by two intersecting lines $\overset \longleftrightarrow {AE}$ , $\overset \longleftrightarrow {DC}$ 
+	- Nonadjacent means not right next to each other.
+---
+- ![[Screenshot 2023-04-24 at 11.55.34 PM.png]]
+	- What's the value of x in the drawing?
+---
+- ![[Screenshot 2023-04-24 at 11.56.20 PM.png]]
+	- The ratio of the measures of two complementary angles is 1:2. What is the measure of the larger angle?
+		- Think: We can let x and 2x be the angle measures.
+---
+- ![[Screenshot 2023-04-24 at 11.58.42 PM.png]]
+	- Adjacent angles
+	- Linear Pair
+		- These are adjacent and supplementary
+	- Complementary Angles
+		- These may or may not be adjacent
+	- Supplementary Angles
+		- These may or may not be adjacent
+---
+- ![[Screenshot 2023-04-25 at 12.00.19 AM.png]]
+	- A peak of trigonometry:
+		- Traditionally, portions of a degree have been measured with minutes and seconds. One minute, written 1', is $\frac {1}{60}$ of a degree.
+			- $1' = \frac {1\degree}{60}$ or $60' = 1\degree$
+			- The measure $42\degree 24' 10''$ represents
+				- 42 degrees, 24 minutes, 10 seconds

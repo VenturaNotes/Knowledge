@@ -1,0 +1,86 @@
+[Video](https://youtube.com/watch?v=6fO-xhWSYzo)
+
+- An angle is a figure made from two rays, or sides, with a common endpoint called the vertex. Plural of vertex is vertices
+	- ![[Screenshot 2023-04-24 at 10.05.29 PM.png]]
+- We can name an angle in several ways
+	- ![[Screenshot 2023-04-24 at 10.06.29 PM.png]]
+		- It can be named by its vertex
+		- By a point on each ray and the vertex
+		- or by a number
+- The set of all points between the sides of the angle is the interior of an angle
+	- ![[Screenshot 2023-04-24 at 10.08.13 PM.png]]
+	- ![[Screenshot 2023-04-24 at 10.09.17 PM.png]]
+		- The exterior of an angle is the set of all points outside the angle. 
+- Congruent means same size and shape. ($\cong$)
+- Tools
+	- ![[Screenshot 2023-04-24 at 10.07.49 PM.png]]
+		- Compass and Protractor
+- Vocabulary
+	- Angle, vertex, interior of an angle, exterior of an angle, measure, degree, acute angle, right angle, obtuse angle, straight angle, congruent angle, angle bisector
+- We can't name an angle just by its vertex if the point is the vertex to more than one angle. 
+	- ![[Screenshot 2023-04-24 at 10.10.23 PM.png|500]]
+		- The middle point is always the vertex.
+		- $< \text{ is less than}$
+			- less than symbol has a slant on the bottom
+		- $\angle \text{ is angle}$
+			- Angle symbol is flat on the bottom
+- The measure of an angle is usually given in degrees. 
+	- There are 360$\degree$ in a circle, so one degree is $\frac {1}{360}$ of a circle
+- When we use a protractor to measure angles, we're applying this postulate:
+	- Protractor Postulate
+		- 1.3.1: Given $\overset \longleftrightarrow {AB}$ and a point O on $\overset \longleftrightarrow {AB}$, all rays that can be drawn from O can be put into a one-to-one correspondence with the real numbers from 0 to 180.
+			- ![[Screenshot 2023-04-24 at 10.13.21 PM.png]]
+			- The inside numbers of a protractor go from 0 to 180 in one direction. The outside numbers of a protractor go from 0 to 180 in the opposite direction.
+	- We can use the protractor postulate to help us classify angles by their measure
+		- The measure of an angle is the absolute value of the difference of the real numbers that the rays correspond with on a protractor.
+			- ![[Screenshot 2023-04-24 at 10.16.43 PM.png]]
+- Types of Angles
+	- ![[Screenshot 2023-04-24 at 10.18.39 PM.png]]
+		- Acute
+			- More than 0$\degree$ and less than 90$\degree$
+		- Right
+			- Exactly $90\degree$
+		- Obtuse
+			- More than $90\degree$ and less than $180\degree$
+		- Straight
+			- made from two opposite rays and is exactly $180\degree$
+- We can find the measure of each angle. Then we can classify them as acute, right, obtuse, or straight angles.
+	- ![[Screenshot 2023-04-24 at 10.21.13 PM.png]]
+		- Measure of angle AOD is written as m$\angle$AOD ("read as measure of angle AOD")
+			- m = measure
+			- $\angle$ = angle
+	- ![[Screenshot 2023-04-24 at 10.21.57 PM.png|500]]
+		- Could fold this into 3 sections to make three $30\degree$ angles
+- Congruent angles are angles that have the same measure.
+	- ![[Screenshot 2023-04-24 at 10.23.18 PM.png]]
+		- Arc marks show the two angles are congruent
+		- We read $\angle ABC \cong \angle DEF$ as "angle ABC is congruent to angle DEF"
+- We can construct congruent angles
+	- ![[Screenshot 2023-04-24 at 10.32.43 PM.png]]
+		- We can make an angle that is congruent to $\angle B$
+		- (1) Use a straight edge to draw a ray with endpoint E.
+		- (2) Put the compass point at B and draw an arc that intersects both sides of $\angle B$. label the intersection points A and C.
+		- (3) Use the same compass setting and place the compass point at E and draw an arc that intersects the ray. Label the intersection F.
+		- (4) Put the compass point at C and open it to the distance AC. Put the point of the compass at F and draw an arc. Label its intersection with the first arc D.
+		- (5) Use a straightedge draw $\overset \longrightarrow {ED}$
+		- Remember to show all construction arcs
+- 1.3.2: Angle Addition Postulate
+	- ![[Screenshot 2023-04-24 at 10.33.52 PM.png]]
+		- If S is in the interior of $\angle PQR$, then m$\angle PQS$ + $m\angle SQR$ = $m\angle PQR.$ 
+	- This postulate is a lot like the segment addition postulate from video 1.2
+- We can use the angle addition postulate to find the measure of an angle.
+	- ![[Screenshot 2023-04-24 at 10.34.50 PM.png]]
+- When using a protractor, angles open to the left use the outside and angles open to the right use the inside.
+	- ![[Screenshot 2023-04-24 at 10.36.19 PM.png]]
+		- $55\degree$ using outside
+		- $55\degree$ using inside
+- An [[angle bisector]] is a ray that divides an angle into two congruent angles.
+	- ![[Screenshot 2023-04-24 at 10.36.59 PM.png]]
+- We can construct the bisector of $\angle A$
+	- ![[Screenshot 2023-04-24 at 10.41.31 PM.png|300]]
+	- (1) Put the point of the compass at A and draw an arc. Label its points of intersection with $\angle A$ as B and C.
+	- (2) Use the same compass setting and draw intersecting arcs from points B and C. Label the intersection of the arcs as D.
+	- (3) Use a straightedge to draw $\overset \longrightarrow {AD}$
+	- Make sure the compass is tight and won't move easily. (can tighten the screw of the compass)
+- We can find the $m\angle ABD$ with algebra. (Make drawings to clarify the problem.)
+	- ![[Screenshot 2023-04-24 at 10.43.58 PM.png]]

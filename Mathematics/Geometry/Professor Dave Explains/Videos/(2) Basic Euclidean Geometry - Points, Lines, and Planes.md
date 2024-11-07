@@ -1,0 +1,32 @@
+[Video](https://www.youtube.com/watch?v=JHMB_ob89qs)
+
+- ![[Screenshot 2023-10-30 at 4.25.26 PM.png]]
+	- We refer geometry in Ancient Greece as [[Euclidian Geometry]]
+		- Built upon Pythagoras
+	- Euclidian Geometry
+		- A set of axioms and postulates which a variety of theorems can be derived.
+	- Constructs in Euclidian Geometry
+		- [[Point]]
+			- Location in space
+			- Zero-dimensional
+			- the dot that represents the point is infinitely larger than the point itself
+		- [[Line]]
+			- One-dimensional
+			- Two points define a line
+			- A line extends infinitely in both directions
+				- A [[ray]] extends infinitely in one direction
+				- A [[line segment]] is finite
+		- [[Plane]]
+			- Two-dimensional
+			- Three points define a plane
+		- [[Space]]
+			- Three-dimensional
+	- These figures are idealized concepts and a true plane can't exist
+		- Even a piece of paper has some thickness
+- ![[Screenshot 2023-10-30 at 4.27.32 PM.png]]
+	- Lines have no endpoints
+	- Rays have one [[endpoint]]
+	- Line segments have two endpoints
+	- [[line segment|line segments]] connect to form different shapes
+		- [[Coterminal rays]] create [[Angle|Angles]]
+	- Let's learn all about angles next!

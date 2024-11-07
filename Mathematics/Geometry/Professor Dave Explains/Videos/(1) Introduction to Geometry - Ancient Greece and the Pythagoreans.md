@@ -1,0 +1,36 @@
+[Video](https://www.youtube.com/watch?v=THtc8pDU7J8)
+
+- ![[Screenshot 2023-05-15 at 5.40.19 AM.png]]
+	- Ancient Greece revolutionized
+		- Philosophy
+		- Government
+		- Mathematics
+	- Important figures
+		- [[Aristotle]]
+		- [[Plato]]
+		- [[Socrates]]
+		- [[Ptolemy]]
+		- [[Euclid]]
+		- [[Pythagoras]]
+			- His work influenced great thinkers like Plato and therefore all of western civilization
+			- Born $\approx$ 580 BC and died $\approx$ 500 BC
+			- Early branch of mathematics now called geometry was derived largely from drawing pictures in the sand. One of the oldest topics in math
+			- Had a club surrounding his beliefs about numbers. It was a math cult. It's members were called Pythagoreans
+				- They thought orbital radii had integer ratios like the consonant musical intervals
+				- Sadly there is no space symphony
+				- Planets are distributed about the solar system randomly just like every other planetary system we can see in our galaxy
+			- Their work remains relevant (Pythagoras and Euclid)
+	- Great thinkers would draw shapes like circles, rectangles, and triangles and try to understand the characteristics of these perfect forms
+	- Mathematics
+		- The study of questions that have completely objective answers.
+			- Answers to these kinds of questions are inarguably true
+				- Sum of 2 angles
+				- Ratio of side lengths on a triangle 
+	- Mathematics
+		- Geometrical figures
+		- Things can be proven
+	- Natural Philosophy
+		- Crude physical world
+		- Nothing can be proven
+	- Geometry we learn today in high school is not very different than the geometry of that ancient time
+	- Let's learn about shapes, angles, axioms and more!

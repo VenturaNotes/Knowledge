@@ -1,0 +1,25 @@
+[Video](https://youtube.com/watch?v=xt3mm-1pGEM)
+
+- Before beginning this High School Geometry playlist course, you should have completed Algebra 1 and know how to:
+	- Measure with customary and metric units
+	- Measure angles with a protractor
+	- Graph ordered pairs on a coordinate plane
+	- Connect word with Algebra and write algebraic expressions from word problems
+	- Evaluate Algebraic Expressions
+	- Combine like terms
+	- Solve one-step or multi-step algebraic equations
+	- Solve and graph inequalities
+	- Simplify fractions
+	- Solve proportions
+	- Name and classify angles
+	- Identify angle relationships like complementary, supplementary, vertical
+	- Find angle measures of parallel lines and traversals
+	- Classify triangles as acute, obtuse, right.
+	- Evaluate powers and use exponents
+	- Simplify radical expressions such as $\sqrt{49}\sqrt{100}$
+	- Round and estimate decimals
+	- Use the pythagorean theorem
+	- Find perimeter
+	- Find the area of polygons
+	- Find the volume of a solid
+- Chapter 1 is a review of what we learned in middle School

@@ -1,0 +1,23 @@
+[Video](https://youtube.com/watch?v=oYXaGZoUXu0)
+
+- ![[Screenshot 2023-05-04 at 4.23.56 AM.png]]
+	- a||b
+		- Consecutive interior angles add up to 180$\degree$
+		- My answer
+			- 114 + 66 = 180 making a||b due to them being consecutive interior angles
+	- b||c
+		- Vertical angles are congruent
+		- Corresponding interior angles are congruent
+		- My answer
+			- Vertical angles makes 66$\degree$ on other side
+			- Since we have congruent alternate interior angles, b||c
+	- d||f
+		- Corresponding exterior angles (alternate exterior angles?)
+		- My answer
+			- Corresponding angles are congruent (71+66=137)
+	- e||g
+		- Supplementary angles add up to $180\degree$
+		- My answer
+			- Corresponding angles congruent (43+71 = 114)
+	- a||c
+		- Consecutive interior angles is 180 (66 + 114 = 180)

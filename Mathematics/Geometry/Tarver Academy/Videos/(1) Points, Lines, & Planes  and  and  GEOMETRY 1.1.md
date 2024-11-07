@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=aOdj8ovY-mY)
+
+- Point
+	- A "point" or "coordinate" like a dot.
+		- Location of point on graph can be presented as (3,4)
+	- Can label a point as A.
+	- ![[Screenshot 2023-01-05 at 7.35.47 PM.png|50]]
+- Line
+	- It goes on forever
+	- A bunch of points put together that goes on forever. The arrows means that it never stops.
+	- ![[Screenshot 2023-01-05 at 7.44.17 PM.png|200]]
+		- To name a line,
+		- Points A and B lie on the line.
+- Plane
+- [[Segment]]
+	- Just like a line but has a starting point and an endpoint. Like a stick
+	- <mark style="background: #FFF3A3A6;">A line with endpoints</mark>
+- Collinear
+- Coplan
+- Opposite Rays
+- Ray

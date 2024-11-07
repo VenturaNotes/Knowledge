@@ -1,0 +1,43 @@
+[Video](https://www.youtube.com/watch?v=mJ4Ms6SXEgg)
+
+- ![[Screenshot 2023-10-30 at 6.34.08 PM.png]]
+	- Geometry is concerned with proofs
+	- In the physical world, things can only be consistent beyond reasonable doubt
+	- Euclid's proof of the [[pythagorean theorem]]
+	- Sometimes triangles have certain relationships
+		- We may need to prove that two triangles are either
+			- [[similar]] 
+				- They have precisely the same shape but different sizes
+			- [[congruent]]
+				- They are absolutely identical
+	- Demonstrating triangle similarity
+		- These two triangles must be [[similar]] if
+			- The [[corresponding sides]] are [[proportional]]
+			- or the [[corresponding angles]] are identical
+	- Demonstrating [[triangle congruence]]
+		- [[Side-Side-Side|SSS Theorem]]
+			- If the three sides of one triangle are equal to the three sides of another: those triangles must be [[congruent]]
+			- Three sides of particular lengths can only make one specific triangle
+		- [[SAS Theorem]]
+			- If two sides of one triangle and the angle between them match the sides and included angle of another: those triangles must be congruent
+			- If we have two sides and an angle, there is only one possible third side
+		- [[Hypotenuse-leg theorem]]
+			- If the hypotenuse and one leg of two right triangles are identical: those triangles must be congruent
+		- [[ASA Theorem]]
+			- If two angles of one triangle and the side between them match the angles and included side of another: those triangles must be congruent
+		- [[AAS Theorem]]
+			- If two angles of one triangle and a non-included side match the angles and non-included side of another: those triangles must be congruent
+- ![[Screenshot 2023-10-30 at 6.36.41 PM.png]]
+	- Proving [[similarity]]
+		- Proportional sides
+		- Identical angles
+	- Proving [[congruence]]
+		- SSS Theorem
+		- SAS Theorem
+		- Hypotenuse-Leg Theorem
+		- ASA Theorem
+		- AAS Theorem
+	- Comprehension! (fill in the blanks)
+		- To prove that two triangles are similar, one must show that all three sides are proportional or that all three angles are identical
+		- List five theorems that can be used to prove that two triangles are congruent
+			- (Look above)

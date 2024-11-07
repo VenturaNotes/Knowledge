@@ -1,0 +1,28 @@
+[Video](https://www.youtube.com/watch?v=J11IU3C86Yc)
+
+- ![[Screenshot 2023-10-30 at 8.44.02 PM.png]]
+	- When saying "secure the perimeter", it just means to guard or enclose the boundary of an area so no one gets in or out.
+	- [[Perimeter]]: The distance around a shape or figure
+		- The sum of the side lengths
+	- One of the earliest mathematical necessities (farmers needed to know material they needed to enclose and guard their land of animals and crops)
+	- [[Irregular pentagon]]
+	- How far is it to walk around the object?
+	- When we don't know some side lengths, we can usually calculate them somehow
+		- Rectangles have a length and width
+	- [[Perimeter]] of [[rectangle]]
+		- P = 2l + 2w
+	- [[Perimeter]] of [[square]]
+		- P = 4s 
+	- Perimeter of [[triangle]]
+		- P = a + b + c
+			- We can calculate a missing side length by using the [[Pythagorean theorem]]
+	- Perimeter
+		- Sum of the side lengths
+		- Is easy to calculate for shapes made of straight lines
+		- Get trickier when curvature is involved (will need calculus for this)
+- ![[Screenshot 2023-10-30 at 8.45.53 PM.png]]
+	- Let's learn about circles next!
+	- Comprehension!
+		- (1) What is the perimeter of a rectangle with a width of 5 and a length of 12?
+		- (2) What is the perimeter of a square with a side length of 4.3?
+		- What is the perimeter of a right triangle with legs of length 5 and 12?

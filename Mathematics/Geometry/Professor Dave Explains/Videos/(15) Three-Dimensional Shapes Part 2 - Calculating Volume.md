@@ -1,0 +1,37 @@
+[Video](https://www.youtube.com/watch?v=CI-G9_bTKuw)
+
+- ![[Screenshot 2023-10-30 at 10.10.38 PM.png]]
+	- 2D surface areas cover 3D objects
+		- How much space does this contain?
+	- Calculating [[volume]]
+		- Area = (side length)(side length)
+		- Volume = (face area)(side length)
+			- Can get a [[cube]]
+				- This is a [[prism]] made of squares
+		- Area of a square = $(side)^2$
+		- Volume of a cube = $(side)^3$ 
+	- It would take 8 [[cubic units]] to fill larger cube ($2*2*2 = 8$)
+	- [[Rectangular prism]]
+		- Volume = $length*width*height$ 
+		- Volume = (base)(height)
+	- [[Triangular prism]]
+		- Volume = (base)(height)
+	- [[Cylinder]]
+		- Volume = (base)(height)
+	- [[Pyramids|pyramid]]
+		- Volume = $\frac 13 (base)(height)$ 
+- ![[Screenshot 2023-10-30 at 10.18.59 PM.png]]
+	- Alternate way of calculating volume of pyramid
+	- [[Cone]]: Works just like pyramids
+		- Volume = $\frac 13 (base)(height)$ 
+	- [[Sphere]]
+		- Volume = $\frac 43 \pi r^3$ 
+	- Most [[regular shapes]] shown for reliable equations
+	- Calculating the volume of [[irregular shapes]] may require using calculus
+	- Comprehension
+		- (1) What is the volume of a rectangular prism with dimensions of 3m by 5 m by 8m?
+			- $120m^3$ 
+		- (2) What is the volume of a square pyramid that has a base with a side length of 10 m and a height of 6m?
+			- $200m^3$ 
+		- (3) What is the volume of a cylinder that has bases with a radius of 4cm and a height of 12cm?
+			- $16\pi$ * $12cm$ = $192cm^3$ 

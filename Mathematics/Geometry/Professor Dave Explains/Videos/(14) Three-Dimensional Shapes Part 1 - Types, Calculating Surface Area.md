@@ -1,0 +1,55 @@
+[Video](https://www.youtube.com/watch?v=sAd3Eo25Bbg)
+
+- ![[Screenshot 2023-10-30 at 9.17.44 PM.png]]
+	- From past tutorials, learned about (these are 2D objects)
+		- Line
+		- Polygon
+		- Circle
+	- All real objects are three-dimensional
+		- Even a piece of paper has some thickness
+		- Let's look at some three-dimensional shapes right now
+	- Types of [[polyhedrons]]/polyhedra
+		- A polyhedron is a three-dimensional object with flat surfaces called [[faces]]
+			- Each face of a polyhedron is a [[polygons|polygon]] (square for cube)
+			- Where two faces meet and share a side is an [[edge]]
+			- Any point where three or more edges meet is a [[vertex]]
+	- Types of polyhedra
+		- [[prism]]
+			- Have two congruent parallel bases
+			- Prisms have sides that are [[parallelograms]]
+				- rectangles qualify as parallelograms
+		- [[Rectangular prism]]
+			- A prism is named for the shape of its bases
+- ![[Screenshot 2023-10-30 at 9.25.25 PM.png]]
+	- Pentagonal prism
+	- Hexagonal prism
+	- [[cylinder|cylinders]] have circular bases
+		- Not considered polyhedra (sides are not polygons)
+	- [[Pyramids]] have only one base
+		- We have triangles that come together at a point 
+	- [[Square pyramid]]
+		- A pyramid is named for the shape of its base.
+	- [[Triangular pyramid]]
+	- [[Pentagonal pyramid]]
+	- [[Cones]] have a circular base
+		- not polyhedra since the faces are not polygons
+	- Calculating the [[surface area]]
+		- We can calculate the total area of the faces
+			- How much wrapping paper do we need to just barely wrap up this cube?
+	- A [[rectangular prism]] has 6 sides
+		- (3 sets of identical sides)
+		- Surface area = sum of areas of each face
+- ![[Screenshot 2023-10-30 at 9.32.28 PM.png]]
+	- [[Pyramids|pyramid]]
+		- Surface area = (area of square) + 4(area of triangle)
+	- [[Cylinder]]
+		- Surface area = 2(area of a circle) + (area of a rectangle)
+	- A [[sphere]] is the set of all points in space that are equidistant from a central point
+		- Surface area = 4$\pi$$r^2$ 
+	- Comprehension!
+		- What is the surface area of a rectangular prism with dimensions of 3m by 5m by 8m?
+			- $158m^2$ 
+		- What is the surface area of a square pyramid that has a base with a side length of 10 m and triangular faces with heights of 6m?
+			- $220m^2$ 
+		- What is the surface area of a cylinder that has bases with a radius of 4cm and a height of 12cm?
+			- 16$\pi$ + 16$\pi$  + 96$\pi$ = $128\pi cm^2$ 

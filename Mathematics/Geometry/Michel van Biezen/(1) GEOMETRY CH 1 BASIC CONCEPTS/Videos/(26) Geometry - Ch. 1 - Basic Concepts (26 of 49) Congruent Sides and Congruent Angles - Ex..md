@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=tIJ0xbhKHlQ)
+
+- ![[Screenshot 2023-04-10 at 2.21.28 PM.png]]
+	- Congruent sides
+		- Sides of a figure that have the same length
+	- Congruent angles
+		- Angles in the figure that have the same measure
+	- Quadrilateral
+		- Quadri means 4
+		- Lateral means sides
+	- tick marks
+	- Square
+		- 4 sides are congruent
+		- 4 angles are congruent
+	- Equilateral Triangle
+		- 3 sides congruent
+		- 3 angles congruent
+		- Equi means same
+		- Lateral means sides
+	- Quadrilateral
+		- It has 4 sides

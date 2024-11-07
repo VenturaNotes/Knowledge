@@ -1,0 +1,52 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLJ8OrXpbC-BN6ixAwozSKmgppEvkE2_rT
+Length: 4 hours, 43 minutes, 20 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) area of rectangles (KristaKingMath)]]
+	- [[(2) area of rectangles using sums and differences (KristaKingMath)]]
+	- [[(3) perimeter of rectangles (KristaKingMath)]]
+	- [[(4) area of parallelograms (KristaKingMath)]]
+	- [[(5) area of trapezoids (KristaKingMath)]]
+	- [[(6) area of a triangle (KristaKingMath)]]
+	- [[(7) pythagorean theorem (KristaKingMath)]]
+	- [[(8) finding perimeter using the pythagorean theorem (KristaKingMath)]]
+	- [[(9) pythagorean inequalities (KristaKingMath)]]
+- Incomplete
+	- [[(10) 45-45-90 triangles (KristaKingMath)]]
+	- [[(11) 30-60-90 triangles (KristaKingMath)]]
+	- [[(12) area of circles (KristaKingMath)]]
+	- [[(13) circumference of a circle (KristaKingMath)]]
+	- [[(14) degree measure of an arc (KristaKingMath)]]
+	- [[(15) arc length (KristaKingMath)]]
+	- [[(16) tangent lines of circles (KristaKingMath)]]
+	- [[(17) inscribed angles of circles (KristaKingMath)]]
+	- [[(18) intersecting secants and tangents with the vertex on, inside and outside the circle (KristaKingMath)]]
+	- [[(19) intersecting tangent and secant lines of circles (KristaKingMath)]]
+	- [[(20) intersecting chords of circles (KristaKingMath)]]
+	- [[(21) equation, center and radius, and intercepts of a circle (KristaKingMath)]]
+	- [[(22) nets of prisms (KristaKingMath)]]
+	- [[(23) volume of prisms (KristaKingMath)]]
+	- [[(24) surface area of prisms (KristaKingMath)]]
+	- [[(25) surface area to volume ratio of prisms (KristaKingMath)]]
+	- [[(26) nets of pyramids (KristaKingMath)]]
+	- [[(27) volume of pyramids (KristaKingMath)]]
+	- [[(28) surface area of regular pyramids (KristaKingMath)]]
+	- [[(29) nets of cylinders (KristaKingMath)]]
+	- [[(30) volume of cylinders (KristaKingMath)]]
+	- [[(31) surface area of cylinders (KristaKingMath)]]
+	- [[(32) nets of cones (KristaKingMath)]]
+	- [[(33) volume of cones (KristaKingMath)]]
+	- [[(34) surface area of cones (KristaKingMath)]]
+	- [[(35) volume of spheres (KristaKingMath)]]
+	- [[(36) surface area of spheres (KristaKingMath)]]
+	- [[(37) naming simple geometric figures (KristaKingMath)]]
+	- [[(38) length of a line segment (KristaKingMath)]]
+	- [[(39) Line segments in 3D - Finding the midpoint! (KristaKingMath)]]
+	- [[(40) The isosceles triangle theorem is actually really simple! (KristaKingMath)]]
+	- [[(41) Are the triangles similar. Can you prove it.! (KristaKingMath)]]
+	- [[(42) Pythagorean theorem - What is it.]]

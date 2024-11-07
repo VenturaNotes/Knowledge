@@ -1,0 +1,80 @@
+[Video](https://youtube.com/watch?v=wLVm0wLtIas)
+
+- ![[Screenshot 2023-05-08 at 9.17.46 AM.png]]
+	- When writing a geometric proof, we use deductive reasoning to make a chain of logical steps that move from the hypothesis to the conclusion of the conjecture we are proving
+	- By proving that the conclusion is true, we have proven that the original conjecture is true.
+	- Flowchart
+		- Hypothesis
+			- Info in the given
+			- Definitions
+			- Properties
+			- Postulates
+			- Theorems
+				- Conclusion
+	- When writing a proof, it's important to justify each logical step with a reason. We need to be precise and logical.
+	- We can use symbols and abbreviations, but they must be clear enough so anyone who reads our proof will understand them.
+	- We can write a justification for each step
+		- Definition of complementary angles
+		- Definition of congruent angles
+		- Substitution Property of Equality
+		- Definition of complementary angles
+	- When a justification is based on more than the previous step, we can note this after the "reason"
+		- The justification for step 5 was based on step 2 and step 4
+- ![[Screenshot 2023-05-08 at 9.25.34 AM.png]]
+	- A theorem is any statement that we can prove.
+	- Once we have proven a theorem, we can use it as a reason in later proofs
+	- 2.6.1: Linear Pair Theorem
+		- Theorem: If two angles form a linear pair, then they are supplementary
+		- Hypothesis: $\angle A$ and $\angle B$ form a linear pair
+		- Conclusion: $\angle A$ and $\angle B$ are supplementary
+	- 2.6.2: Congruent Supplements theorem
+		- Theorem: If two angles are supplementary to the same angle (or to two congruent angles), then the two angles are congruent
+		- Hypothesis: $\angle 1$ and $\angle 2$ are supplementary. $\angle 2$ and $\angle 3$ are supplementary
+		- Conclusion: $\angle 1$ $\cong$ $\angle 3$
+	- A geometric proof begins with given and prove statements, which restate the hypothesis and conclusion of the conjecture.
+	- In a two-column proof, we list the steps of the proof in the left column.
+	- We write the matching reason or justification for each step in the right column
+		- Don't assume. Prove!
+	- We can complete a two-column proof of the linear Pair theorem
+		- Definition of linear pair
+		- Definition of straight angles
+		- Angle addition postulate
+		- Substitution
+		- Definition of supplementary angles
+	- The reason must match the statement it's aligned with
+- ![[Screenshot 2023-05-08 at 9.35.09 AM.png]]
+	- Before we start writing a proof, we should plan out our logic.
+	- Sometimes we'll be given a plan for a more challenging proof. This plan will detail the major steps of the proof for us
+	- 2.6.3 Right Angle Congruence Theorem
+		- Theorem: All right angles are congruent
+		- Hypothesis: $\angle A$ and $\angle B$ are right angles
+		- Conclusion: $\angle A$ $\cong$ $\angle B$
+	- 2.6.4 Congruent Complements Theorem
+		- Theorem: If two angles are complementary to the same angle (or to two congruent angles), then the two angles are congruent
+		- Hypothesis: $\angle 1$ and $\angle 2$ are complementary. $\angle 2$ and $\angle 3$ are complementary
+		- Conclusion: $\angle 1$ $\cong$ $\angle 3$
+	- There are 4 parts of a Two-column proof! (kinda 5 w/ diagram)
+		- (1) Given
+		- (2) Prove
+		- (3) Statements
+		- (4) Reasons
+	- We can write a two-column proof of the right angle congruence theorem from a given plan
+		- Given: $\angle 1$ and $\angle 2$ are right angles
+		- Prove: $\angle 1$ $\cong$ $\angle 2$
+		- Plan: Use the definition of a right angle to write the measure of each angle. Then use the transitive property and the definition of congruent angles. 
+	- Proof
+		- Given
+		- Definition of right angles
+		- Transitive property of equality
+		- Definition of congruent angles
+	- If a diagram for a proof is not given, we can draw our own and mark the given information on it.
+		- Only use the information from the given:, not the prove
+- ![[Screenshot 2023-05-08 at 9.38.40 AM.png]]
+	- The proof process
+		- (1) Write the conjecture to be proven
+		- (2) Draw a diagram to represent the hypothesis of the conjecture
+		- (3) State the given information and mark it on the diagram
+		- (4) State the conclusion of the conjecture in terms of the diagram
+		- (5) Plan the argument and prove the conjecture with information in the given, definitions, properties, postulates, and theorems
+	- Remember, we can rewrite a definition as a conditional statement (with. hypothesis and conclusion) to use it as a justification in the order we need to apply it.
+	- Sometimes we can design our plan backwards starting from the prove: if we can't connect it forwards

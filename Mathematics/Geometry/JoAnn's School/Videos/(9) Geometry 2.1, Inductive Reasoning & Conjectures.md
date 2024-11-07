@@ -1,0 +1,93 @@
+[Video](https://youtube.com/watch?v=XEL4OesvTog)
+
+- ![[Screenshot 2023-04-25 at 1.21.07 AM.png]]
+	- Inductive reasoning is using a pattern to make a conclusion
+	- We conclude that a general rule or principle is true because specific cases of the rule are true
+	- We need to be careful because some patterns have more than one correct rule
+	- If we use a pattern that came from several examples, we can assume the pattern will continue, and we'll be applying inductive reasoning
+	- A statement that we believe to be true based on inductive reasoning is called a conjecture
+	- Dictionary Definition: Conjecture (noun) a conclusion reached by guessing
+---
+- ![[Screenshot 2023-04-25 at 1.27.07 AM.png]]
+	- We can identify a pattern and find the next item
+		- January, March, May, July, ...
+			- These are alternating months of the year. The next month in this pattern is September
+		- 5, 10, 15, 20, 25, ...
+			- These are multiples of 5. The next number in this pattern is 30.
+		- $\leftarrow, \uparrow, \rightarrow,$ ...
+			- The arrow is rotating 90$\degree$ clockwise each time. The next figure is $\downarrow$. 
+		- .1, .01, .001, .0001, ...
+			- This decimal number is decreasing by one-tenth each time. Each item is multiplied by .1 to get the next. The next number in this pattern is .00001.
+---
+- ![[Screenshot 2023-04-25 at 1.28.03 AM.png|400]]
+	- We can complete each conjecture
+		- The product of an even number and an odd number is (even or odd)
+		- We list some examples and look for a pattern
+		- They're all even!
+---
+- ![[Screenshot 2023-04-25 at 1.31.54 AM.png|400]]
+	- The number of segments formed by n collinear points is the sum of the numbers less than n.
+	- Collinear means on the same line. Video 1.1
+---
+- ![[Screenshot 2023-04-25 at 1.34.52 AM.png]]
+	- Map of modern day California
+	- To study the migration behavior of California Grey Whales, biologists observed whales along two routes.
+	- They counted the number of whales along each route for seven days
+	- Make a conjecture from the data given in the table.
+		- Number of whales per day
+			- Direct route
+			- Shore route
+	- More were seen along the shore route each day. The data supports the conjecture that most California Grey whales migrate along the shoreline
+---
+- ![[Screenshot 2023-04-25 at 1.37.25 AM.png]]
+	- To show the conjecture is ALWAYS TRUE, we must prove it. (We'll do this in lesson 2.3)
+	- To show that a conjecture is FALSE, we need only one example in which its NOT TRUE.
+		- This is called a counterexample.
+	- A counterexample can be a drawing, statement, or a number.
+	- Inductive reasoning
+		- Look for a pattern
+		- Make a conjecture
+		- Prove the conjecture or find a counterexample to show it's false.
+	- When testing number conjectures, use various types like whole numbers and fraction, positive  numbers, negative numbers, and zero.
+---
+- ![[Screenshot 2023-04-25 at 1.40.17 AM.png]]
+	- We can show a conjecture is FALSE by finding a counterexample.
+		- For all positive numbers n, $\frac 1n \le n$.
+		- We pick positive values for n and substitute them into the equation to see if the conjecture holds true.
+			- $\frac {1}{n} \le n$
+		- n = $\frac 12$ is a counterexample
+---
+- ![[Screenshot 2023-04-25 at 1.41.59 AM.png]]
+	- For any three points in a plane, there are three different lines that contain two of the points. We draw three collinear points
+	- If the three points are collinear, the conjecture is FALSE
+	- The three points being collinear is a counterexample.
+	- Collinear means they're on the same line
+---
+- ![[Screenshot 2023-04-25 at 1.42.28 AM.png]]
+	- For every integer n, $n^3$ is positive.
+	- n = -2 is a counterexample
+---
+- ![[Screenshot 2023-04-25 at 1.43.20 AM.png]]
+	- Two complementary angles are not congruent
+	- The conjecture holds
+	- 45$\degree$ and 45$\degree$ proves this FALSE. This is a counterexample
+---
+- ![[Screenshot 2023-04-25 at 1.44.33 AM.png]]
+	- Which conjecture is false?
+		- (1) If x is odd, then x + 1 is even
+		- (2) The sum of two odd numbers is even
+		- (3) The difference of two even numbers is positive
+		- (4) If x is positive, -x is negative
+---
+- ![[Pasted image 20230425014645.png|300]]
+	- Lisa ate 3 cookies each day on Monday, Tuesday, Wednesday, and Thursday. Inductive reasoning leads us to the conjecture that she'll eat 3 cookies on Friday. Is this an absolute fact? The probability is strong
+		- This is not an absolute fact
+---
+- ![[Screenshot 2023-04-25 at 1.49.48 AM.png]]
+	- Inductive reasoning is a method of reasoning in which the premises are viewed as supplying some evidence for the truth of the conjecture.
+		- The truth may be probable, based on the given evidence
+		- There's a possibility that the conclusion is false
+	- True: My granddaughter has brown eyes
+	- True: My neighbor's granddaughter has brown eyes
+	- False: All granddaughters have brown eyes
+	- We'll discuss deductive reasoning in 2.3

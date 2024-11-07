@@ -1,0 +1,27 @@
+[Video](https://youtube.com/watch?v=jknrgQgaquM)
+
+- ![[Screenshot 2023-04-03 at 12.37.17 AM.png]]
+	- Create a closed figure from 3 line segments (this creates a triangle)
+	- 3 points of triangle called vertices
+		- Each point is a vertex
+			- In a closed-figure, it's a point at which 2 segments meet
+	- To name triangle, name the vertices so you have $\triangle ABC$
+		- $\triangle BAC$ is also valid but try to follow alphabetical order when you can
+	- Triangle has
+		- Vertices
+			- A, B, and C
+		- Angles
+			- Formed when 2 segments meet
+			- 3 angles - $\angle A, \angle B, \angle C$ 
+		- Sides
+			- 3 sides (or segments) - AB, BC, CA
+	- A triangle is basically a 3-sided closed figure with 3 angles in its interiors
+		- A triangle has 3 sides
+	- BC is the side opposite of vertex A, AC is the side opposite vertex B, and AB is the side opposite vertex C
+	- A triangular shape is considered to be extremely stable in the field of architecture
+		- Tip of toy is sharp and toy won't break easily if you try to attack the sides of the pyramid
+		- Making a rectangle with 3 triangles will make it more stable
+		- Most bridges will have a triangular structure (which helps withstand the heavy downward force of the weights crossing the bridge)
+		- Snow would slide down slopes of house with a triangular roof
+		- Stairs is a triangular shape which makes it easier to climb floors rather than attempting to move up vertically.
+		- The triangle is the single-most important shape in engineering

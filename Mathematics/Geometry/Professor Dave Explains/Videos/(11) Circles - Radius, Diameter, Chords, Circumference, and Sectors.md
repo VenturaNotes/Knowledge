@@ -1,0 +1,34 @@
+[Video](https://www.youtube.com/watch?v=SBIv5-7RbQY)
+
+- ![[Screenshot 2023-10-30 at 8.51.53 PM.png]]
+	- [[Polygons]]
+		- Shapes made of line segments
+	- Some shapes have curvature
+		- [[Circle]]
+			- A circle is the set of all points that are some fixed distance from a central point
+			- There are no side lengths or angles to define
+	- This circle represents all the points that are five cm away from this point
+	- The distance from the center to any point on the circle is called the [[radius]] of the circle
+		- Any such line segment is a radius of the circle
+	- A line segment with both ends on the circle is called a [[chord]]
+		- A chord that passes through the center is a [[diameter]]
+			- This is always twice the length of a radius
+	- A part of a circle is called an [[arc]]
+		- The distance around the circle is called the [[circumference]]
+			- $C = \pi d$  
+				- We can estimate $\pi$ as 3.14
+	- Important equations of a circle
+		- d = 2r
+			- The diameter is twice the radius
+		- c = $\pi$ d
+			- The circumference is equal to the diameter multiplied by $\pi$ 
+- ![[Screenshot 2023-10-30 at 8.54.50 PM.png]]
+	- [[Sector]]
+		- If we draw several radii on one circle, we will demarcate several sectors of that circle
+	- A sector is a section of a circle that is enclosed by two radii
+		- Within sector, there is a central angle
+		- The angles of all the sectors in a circle will always add up to 360$\degree$ 
+	- Comprehension! (fill in the blanks)
+		- A line segment with both endpoints somewhere on the circle is a chord
+		- The distance from the center to any point on the circle is the radius
+		- The perimeter of a circle is called its circumference

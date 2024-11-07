@@ -1,0 +1,80 @@
+[Video](https://youtube.com/watch?v=cWgRiFxxvvA)
+
+- ![[Screenshot 2023-05-08 at 8.48.16 AM.png]]
+	- A proof is an argument that uses logic, definition, properties and previously proven statements to show that a conclusion is TRUE.
+	- If we've solved an equation in Algebra, we've done a proof.
+	- An algebraic proof uses algebraic properties such as the properties of equality and the Distributive Property
+	- Remember, numbers are equal and figures are congruent.
+		- AB and m$\angle$C are measures.
+		- $\overline {AB}$ and $\angle C$ are figures.
+- ![[Screenshot 2023-05-08 at 8.54.05 AM.png]]
+	- Properties of Equality (These can all be used as justification in a geometric proof)
+		- Addition
+			- Inverse Operation
+		- Subtraction
+			- Inverse Operation
+		- Multiplication
+			- Inverse operation (Use the reciprocal of the coefficient)
+		- Division
+			- Inverse operation (can't divide by 0)
+		- Distributive Property
+		- Reflexive
+			- Think Mirror
+		- Symmetric
+			- Think change places
+		- Transitive
+			- Think 3 step swap
+		- Substitution
+			- Think 1 step swap
+- ![[Screenshot 2023-05-08 at 8.59.55 AM.png]]
+	- We've learned that if we start with a TRUE statement and each logical step is valid, then our conclusion is valid
+	- When writing a proof, it's important to give justifications to show that every step is valid. for each justification, we can use a definition, postulate, property, or a given piece of information 
+		- Justification means good reason or proof
+		- Numbers are equal and figures are congruent
+	- We can solve an equation in Algebra and write a justification for each step
+		- Given equation (Subtraction property of equality)
+		- Simplify (Division Property of Equality)
+		- Simplify (Symmetric Property of Equality)
+	- Emma's favorite cereal has 102 calories per serving. The equation C = 9f + 90 relates the grams of fat (f) in one serving to the calories (c) in one serving. How many grams of fat are in one serving of the cereal? Solve the equation for f and justify each step
+		- Substitution
+		- Subtraction property of equality
+		- Division Property of Equality
+		- Simplify
+		- Symmetric Property of Equality
+	- Like algebra, geometry also uses numbers, variables, and operations.
+	- Segment Lengths and angle measures are numbers
+	- So we can use these same properties of equality to write algebraic proofs in geometry
+- ![[Screenshot 2023-05-08 at 9.06.04 AM.png]]
+	- We can solve an equation in geometry and write a justification for each step
+		- Segment addition postulate
+		- Substitution property of equality
+		- Simplify
+		- Subtraction Property of Equality
+		- Addition Property of Equality
+		- Division Property of Equality
+	- We've learned that segments with equal lengths are congruent and angles with equal measures are congruent
+		- So, the Reflexive, Symmetric, and Transitive Properties of Equality have corresponding properties of congruence.
+	- Properties of Congruence
+		- Reflexive
+			- think mirror
+		- Symmetric
+			- Think change places
+		- Transitive Property
+			- Think 3 step swap
+	- Reflexive, symmetry, and transitive are property of equality that have corresponding properties of congruence.
+- ![[Screenshot 2023-05-08 at 9.10.13 AM.png]]
+	- We can identify the property of equality and congruence that justifies each statement
+		- Reflexive
+		- Transitive
+		- Symmetric
+	- Roots Rule
+		- If a = b, then $\sqrt{a} = \sqrt{b}$ 
+		- Positive square roots of equal quantities are equal
+	- Power rule
+		- If a = 7, then $a^2 = 7^2$
+		- The squares of equal quantities are equal
+	- Statement rules
+		- A theorem must hold up under all tests
+		- A statement is either true or false. It can't be both
+		- "If a, then b" is true doesn't mean "if b, then a" is true.
+		- "If p, then q" is true doesn't always mean "if $\lnot$p then $\lnot$q" is true.

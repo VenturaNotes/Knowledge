@@ -1,0 +1,52 @@
+[Video](https://youtube.com/watch?v=loyetRWK3VU)
+
+- ![[Screenshot 2023-04-25 at 3.39.13 AM.png]]
+	- The key to solving logic puzzles is to systematically work through the given information one piece at a time
+	- As we read each clue, we make any conclusions that we can and mark the diagram carefully before going to the next clue
+	- We've learned to use deductive reasoning to analyze the truth values of conditional statements
+	- To mark the diagram, we'll use an X to indicate a definite NO and a dot $\bullet$ to indicate a definite yes
+---
+- ![[Screenshot 2023-04-25 at 3.43.36 AM.png]]
+	- Find the name, age, and favorite superhero for each kid
+		- Given:
+			- (1) Bryan likes Spiderman
+			- (2) Tom doesn't like Superman
+			- (3) The youngest kid likes Spiderman
+			- (4) The kid who likes Superman is 8
+		- x = no way
+		- $\bullet$ = Yes!
+	- Used deductive reasoning for this
+---
+- ![[Screenshot 2023-04-25 at 3.51.32 AM.png]]
+	- A farmer has a goat, a wolf, and a cabbage. He needs to transport all three across a river. His boat only has enough room for himself and one other item. 
+		- The wolf will eat the goat if alone together, and the goat will eat the cabbage if left alone.
+	- How can the farmer get everything to the other side of the river?
+	- We can use a network to solve this type of puzzle. A network is a diagram of vertices and edges, also known as a graph.
+	- Let f = farmer, G = goat, w = wold, C = cabbage
+	- Steps
+		- (1) We use an ordered pair to represent what is on each side of the river. We begin with (FGWC, -) and want a result of (-, FGWC). The pairs WG and GC won't work
+		- (2) We draw a vertex and label it with an ordered pair. We draw an edge and vertex for each possible trip. When a path makes a bad pair, no more edges can come from that vertex
+		- (3) From each workable vertex, we make more edges and vertices that represents the next trip across the river. When we get to a vertex for (-, WGFC), our network is finished.
+	- An edge is a curve or a segment that joins two vertices of the graph, and a vertex is a point on the graph.
+---
+- ![[Screenshot 2023-04-25 at 3.55.04 AM.png|500]]
+	- Imagine the comma is the river
+	- By using a complete solution network, we see all possible solutions.
+---
+- ![[Screenshot 2023-04-25 at 3.55.30 AM.png]]
+	- Option 1
+		- (1) Take goat over
+		- (2) Go back
+		- (3) Take wolf over.
+		- (4) Bring goat back
+		- (5) Bring cabbage over.
+		- (6) Go back
+		- (7) Bring goat over
+	- Option 2
+		- (1) Take goat over
+		- (2) Go back
+		- (3) Take cabbage over.
+		- (4) Bring goat back
+		- (5) Bring wolf over
+		- (6) Go back
+		- (7) Bring goat over

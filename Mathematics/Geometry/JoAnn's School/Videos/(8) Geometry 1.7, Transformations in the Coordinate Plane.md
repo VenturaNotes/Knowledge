@@ -1,0 +1,88 @@
+[Video](https://youtube.com/watch?v=KGuB9fIAl-E)
+
+- ![[Screenshot 2023-04-25 at 12.51.57 AM.png]]
+	- A transformation is a change in the position, size, or shape of a figure
+	- The original figure is called the pre-image
+	- The transformed figure is called the image
+	- A transformation maps the pre-image to the image
+	- Arrow notation ($\rightarrow$)  means "is transformed to" and primes (') are used to label the image
+		- Primes are not exponents. They're tick marks (like little apostrophes)
+	- $\triangle ABC$ "slid" to position $A'B'C'$
+---
+- ![[Pasted image 20230425005435.png]]
+	- We'll talk about dilations in chapter 4 (Optimus prime)
+	- Transformations
+		- A reflection, or flip, is a transformation across a line, called the line of reflection.
+		- Each point and its image are the same distance from the line of reflection.
+	- Reference
+		- Grade 8 chapter 9
+	- Learning is by layering (learn it one year and then learn a little more about it next year)
+---
+- ![[Screenshot 2023-04-25 at 12.55.09 AM.png]]
+	- A rotation, or turn, is a transformation about a point, called the center of rotation.
+	- Each point and its image are the same distance from the center of rotation.
+---
+- ![[Screenshot 2023-04-25 at 12.55.57 AM.png]]
+	- A translation, or slide, is a transformation in which all the points of a figure move the same distance in the same direction
+---
+- ![[Screenshot 2023-04-25 at 12.57.44 AM.png]]
+	- We can identify transformations by looking at the figures
+	- This figure flipped across a line of reflection. It's a reflection
+	- Then we can use arrow notation to describe the transformation
+		- $\triangle ABC$ $\rightarrow$ $\triangle A'B'C'$
+			- "Triangle ABC is transformed to triangle $A'B'C'$
+---
+- ![[Screenshot 2023-04-25 at 12.58.36 AM.png]]
+	- This figure turned clockwise 270$\degree$. It's a rotation. Or we can say it turned counter-clockwise 90$\degree$
+---
+- ![[Screenshot 2023-04-25 at 1.00.06 AM.png]]
+	- This figure didn't flip or turn. It slid. It's a translation
+---
+- ![[Screenshot 2023-04-25 at 1.03.09 AM.png]]
+	- We can draw and identify transformations
+	- A figure has vertices at (points listed)
+	- After a transformation, the image of the figure has vertices at (points listed)
+	- Draw the pre image and the image and identify the transformation
+	- Plot the points and use a straight edge to connect the vertices.
+	- It's a reflection across the x-axis as the line of reflection
+	- Each point and its image are the same distance from the x-axis. They have the same x-coordinates
+---
+- ![[Screenshot 2023-04-25 at 1.04.52 AM.png]]
+	- There are primes for the first image, double primes for the second image, triple primes for the third image
+---
+- ![[Screenshot 2023-04-25 at 1.08.28 AM.png]]
+	- To find coordinates for the image of a figure in a translation, we add "a" to the x-coordinates of the pre image and add "b" to the y-coordinates of the pre image.
+	- Translations can also be described by a rule (x, y) $\rightarrow$ (x + a, y + b)
+	- We can find the coordinates for the image of $\triangle ABC$ after the translation (x, y) $\rightarrow$ (x + 3, y - 4) and draw the image 
+	- First we find the coordinates of $\triangle ABC$.
+	- Next we apply the rule to find the vertices of the image
+	- We can plot these points and finish the drawing of the image by using a straightedge to connect the vertices
+---
+- ![[Screenshot 2023-04-25 at 1.12.54 AM.png]]
+	- We can write a rule that maps the car from position 1 to position 2.
+	- We choose a point A on the pre image and a corresponding point $A'$ on the image.
+	- A has coordinates (1, 2) and
+	- $A'$ has coordinates (-9, 4)
+	- The image didn't rotate or reflect so it must have slid as a translation.
+	- To translate A to A' 10 units are subtracted from the x-coordinate and 2 units are added to the y-coordinate
+	- Our translation rule is (x, y) = (x-10, y + 2)
+	- The rule will be the same no matter which point we began with. If B(10, 2) then B'(0, 4)
+---
+- ![[Screenshot 2023-04-25 at 1.13.55 AM.png|400]]
+	- Line of reflection
+		- You are the preimage. Your reflection is the image 
+	- The mirror itself is the line of reflection
+---
+- ![[Screenshot 2023-04-25 at 1.14.33 AM.png|300]]
+	- Center of rotation is the center of her head
+	- Right one is tighter so she spins faster
+---
+- ![[Screenshot 2023-04-25 at 1.15.36 AM.png]]
+	- Center of rotation can be the center or one of the vertices
+		- Could be away from the figure as well
+---
+- ![[Screenshot 2023-04-25 at 1.17.01 AM.png]]
+	- Transalting/sliding
+---
+- ![[Screenshot 2023-04-25 at 1.17.32 AM.png]]
+	- Dilation = resize either larger or smaller

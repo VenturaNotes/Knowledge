@@ -1,0 +1,122 @@
+[Video](https://youtube.com/watch?v=7LxZ2yX3hPM)
+
+- ![[Screenshot 2023-04-25 at 1.55.52 AM.png]]
+	- "If you don't bathe, then you'll stink."
+		- This is a conditional statement. It's a statement that can be written in the form "If p, then q.""
+		- The hypothesis is the part p of a conditional statement following the word if.
+		- The conclusion is the part q of a conditional statement following the word then
+	- In Chapter 1 we learned the symbol $\rightarrow$ is used as notation for is transformed to.
+	- We also use $\rightarrow$ as notation for if $\rightarrow$ then.
+		- p $\rightarrow$ q
+		- p implies q
+---
+- ![[Screenshot 2023-04-25 at 1.57.12 AM.png|500]]
+	- In a Venn diagram, ovals are used to represent each set. The ovals can overlap if the sets share common elements.
+		- Real Numbers
+			- Whole Numbers
+			- Odd Numbers
+		- Pets
+			- Dogs
+				- Poodle
+	- "If it's a poodle, then it's a dog."
+		- By phrasing a conjecture as an if-then statement, we can quickly identify its hypothesis and conclusion.
+---
+- ![[Screenshot 2023-04-25 at 1.58.33 AM.png|400]]
+	- "If p, then q" can also be written as
+		- "If p, q"
+		- "q, if p"
+		- "p implies q"
+		- "p only if q"
+---
+- ![[Pasted image 20230425015949.png|400]]
+	- We can write conditional statements from given information
+	- The midpoint M of a segment bisects the segment.
+	- Conditional: If M is the midpoint of a segment, then M bisects the segment.
+---
+- ![[Screenshot 2023-04-25 at 2.00.43 AM.png|400]]
+	- The inner oval represents the hypothesis, and the outer oval represents the conclusion.
+	- If an animal is a salmon, then it's a fish
+		- Hypothesis: an animal is a salmon
+		- Conclusion: the animal is a fish
+---
+- ![[Screenshot 2023-04-25 at 2.01.33 AM.png]]
+	- If an angle is obtuse, it measures more than 90$\degree$
+		- Hypothesis: an angle is obtuse
+		- Conclusion: it measures more than 90$\degree$
+---
+- ![[Screenshot 2023-04-25 at 2.02.49 AM.png]]
+	- A conditional statement has a truth value of either true (T) or false (F)
+		- It's false only when the hypothesis is true and the conclusion is false
+	- If all pugs have short snouts, then all dogs with short snouts are pugs.
+		- This conclusion is false. There's no truth value to this conditional
+---
+- ![[Screenshot 2023-04-25 at 2.03.41 AM.png]]
+	- "If I win the lottery, I'll pay your school loans"
+		- If I don't win the lottery, I haven't broken my promise.
+	- So my statement is still true.
+---
+- ![[Screenshot 2023-04-25 at 2.04.20 AM.png]]
+	- To show that a conditional statement is false, we need to find only one counterexample where the hypothesis is true and the conclusion is false
+---
+- ![[Screenshot 2023-04-25 at 2.04.38 AM.png]]
+	- We can analyze the truth value of a conditional statement and determine if a conditional is true
+	- If the conditional is false, we need to give a counterexample.
+	- "If yesterday was Wednesday, then today is Thursday." Thursday follows Wednesday so it's True
+	- "If a number is odd, then it's divisible by 5. False conclusion, counterexample 3 or 7"
+---
+- ![[Screenshot 2023-04-25 at 2.10.06 AM.png]]
+	- The negation of a statement p is "not p" can be written as ~p. ~ is a tilde. In Math, the symbol ~, can mean "is similar to" or "approximately,", such as pi ~ 3.14. It can be doubled as $\approx$ or put above an equal sign as $\cong$ for congruence
+	- In Logic, a type of math popular in computer science. ~ or $\lnot$ represents "not".
+	- Types of Math for ~
+		- Algebra: Approximately
+		- Set Theory: Equivalence
+		- Statistics: Media (or same distribution as)
+		- Computer Science: not
+		- Matrix Theory: Row equivalence
+	- This can be very confusing!
+	- My advice:
+		- Use $\lnot$ for "not". It's the "logical negation" symbol
+---
+- ![[Screenshot 2023-04-25 at 2.10.57 AM.png]]
+	- The negation  of the statement "M is the midpoint of $\overline {AB}$ " is "M is not the midpoint of $\overline {AB}$"
+---
+- ![[Screenshot 2023-04-25 at 2.12.38 AM.png]]
+	- The negation of a true statement is false,
+		- "My granddaughter has brown eyes" vs "My granddaughter doesn't have brown eyes"
+		- Yes, she does! This negation of a true statement is false!
+	- and the negation of a false statement is true.
+		- "My granddaughter has hazel eyes" vs "My granddaughter doesn't have hazel eyes"
+		- yes, true! This negation of a false statement is TRUE!
+---
+- ![[Screenshot 2023-04-25 at 2.14.50 AM.png|500]]
+	- Related Conditionals:
+		- A conditional is a statement that can be written in the form "If p, then q"
+			- $p \rightarrow q$
+		- The converse is the statement formed by exchanging the hypothesis and conclusion
+			- $q \rightarrow p$
+		- The inverse is the statement formed by   negating the hypothesis and conclusion
+			- $\lnot p \rightarrow \lnot q$
+		- The contrapositive is the statement formed by both exchanging and negating. the hypothesis and conclusion
+			- $\lnot q \rightarrow \lnot p$
+---
+- ![[Screenshot 2023-04-25 at 2.19.22 AM.png]]
+	- We can write the converse, inverse, and contrapositive of a conditional statement.
+	- We need to find the truth value of each.
+		- If a dog is a Pug, then it has a short snout.
+	- Converse (swap both): If a dog has a short snout, then it's a pug
+		- A bulldog has a short snout, so the converse is FALSE
+	- Inverse (negate both): If a dog is not a Pug, then it doesn't have a short snout.
+		- Again, a bulldog has a short snout. The inverse is FALSE
+	- Contrapositive (swap and negate both): If a dog does not have a short snout, then it is not a Pug.
+		- Pugs have short snouts. The contrapositive is TRUE
+---
+- ![[Screenshot 2023-04-25 at 2.20.14 AM.png|500]]
+	- True for Pugs (same truth value)
+		- Conditional statement
+		- Contrapositive
+	- False for pugs (same truth value)
+	- Related conditional statements with the same truth value are called logically equivalent statements
+	- A conditional and its contrapositive are logically equivalent, and so are the converse and inverse.
+	- But, the converse of a true conditional isn't always FALSE
+	- All four related conditionals can be TRUE, or all four can be false, depending on the statement.
+	- Watch lesson 2.2b for more examples

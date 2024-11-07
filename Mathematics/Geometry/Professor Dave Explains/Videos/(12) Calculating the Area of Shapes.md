@@ -1,0 +1,44 @@
+[Video](https://www.youtube.com/watch?v=_zzV2DV19IU)
+
+- ![[Screenshot 2023-10-30 at 9.01.14 PM.png]]
+	- We know how to calculate one-dimensional lengths
+	- We must learn to calculate two-dimensional areas
+		- The area of an object is the amount of surface it covers
+		- Area will be expressed in square units
+	- How much surface is covered by the square?
+		- Units will be manipulated just like algebraic variables
+	- [[Area]] of a [[square]]
+		- $(\text{side length})^2$ 
+	- Area of a [[rectangle]]
+		- (Length)(Width)
+	- Area of a parallelogram
+		- (base)(height)
+	- A rectangle can be split into two triangles
+		- Each triangle is half of the rectangle
+	- Area of [[triangle]]
+		- $\frac {1}{2}(base)(height)$ 
+		- Works whether the triangle is a right triangle or not
+	- Area of a [[Trapezoids|trapezoid]]
+		- $\frac 12 (height)(base_1 + base_2)$ 
+	- We can find the area of [[irregular shapes]]
+		- We can break shapes into simpler ones
+- ![[Screenshot 2023-10-30 at 9.05.22 PM.png]]
+	- Errata
+		- Units are not squared for comprehension question in image
+	- Area of [[circle]]
+		- Area = $\pi r^2$ 
+	- Area = rectangle + semicircle
+	- [[Area formulas]]
+		- square = $s^2$
+		- rectangle = (L)(W)
+		- parallelogram = (b)(h)
+		- triangle = $\frac 12(b)(h)$
+		- trapezoid = $\frac {1}{2}(h)(b_1 + b_2)$
+		- circle = $\pi r^2$ 
+	- Checking comprehension!
+		- What is the area of a triangle with a base of 10cm and a height of 12cm?
+			- $60cm^2$ 
+		- What is the area of a trapezoid with bases of 3 m and 7 m, and a height of 5 m?
+			- $25m^2$ 
+		- What is the area of a parallelogram with a base of 20 mm and a height of 6 mm
+			- $120mm^2$ 

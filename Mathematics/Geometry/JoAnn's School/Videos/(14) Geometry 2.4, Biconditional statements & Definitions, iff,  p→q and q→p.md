@@ -1,0 +1,81 @@
+[Video](https://youtube.com/watch?v=p4izrcXwZEg)
+
+- ![[Screenshot 2023-04-25 at 3.59.24 AM.png]]
+	- If this month is July, then next month is August. $p \implies q$
+	- Converse
+		- If next month is August, then this month is July. $q \implies p$
+	- When we combine a conditional statement with its converse, we create a biconditional statement.
+	- A biconditional statement can be written in the form "p if and only if q".
+		- p $\iff$ q means p $\implies$ q and q $\implies$ p
+	- This means "if p, then q" and "if q, then p"
+		- "if and only if" can be abbreviated to "iff"
+			- $\iff$ read as "if and only if"
+---
+- ![[Screenshot 2023-04-25 at 3.59.41 AM.png]]
+	- We can identify the conditionals within a biconditional statement by finding the conditional statement and converse.
+	- Example
+		- Two angles are congruent if and only if their measures are equal. We assign p and q
+			- p: Two angles are congruent
+			- q: Two angle measures are equal
+		- p $\iff$ q are p$\implies q$ and q $\implies$ p
+		- Conditional: If two angles are congruent, then their measures are equal
+		- Converse: If two angle measures are equal, then the angles are congruent.
+---
+- ![[Pasted image 20230425040024.png|500]]
+	- Example
+		- A solution is a base $\iff$ its pH is more than 7.
+		- Let X represent the hypothesis and y represent the conclusion.
+			- x: a solution is a base
+			- y: a solution has a pH more than 7
+			- x $\iff$ y are x $\implies$ y and y $\implies$ x
+		- Conditional: If a solution is a base, then it has a pH more than 7
+		- Converse: If a solution has a pH more than 7, then it is a base
+---
+- ![[Pasted image 20230425204844.png]]
+	- for each conditional, we can write the converse and a biconditional.
+		- If 2x + 5 = 11, then x = 3
+		- Converse: If x = 3, then 2x + 5 = 11
+		- Biconditional: 2x + 5 = 11 if and only if x = 3
+---
+- ![[Screenshot 2023-04-25 at 8.49.52 PM.png]]
+	- If a point is a midpoint, then it divides the segment into two congruent segments.
+		- Converse: If a point divides a segment into two congruent segments, then the point is a midpoint.
+		- Biconditional: A point is a midpoint if and only if it divides the segment into two congruent segments
+---
+- ![[Screenshot 2023-04-25 at 8.50.13 PM.png]]
+	- For a biconditional statement to be true, both the conditional statement and its converse must be true
+	- If either the conditional or its converse are FALSE, then the biconditional statement is FALSE
+		- We can analyze the truth value of a biconditional statement.
+---
+- ![[Screenshot 2023-05-08 at 8.34.04 AM.png]]
+	- We can determine if each biconditional is TRUE. If it's FALSE, we can give a counterexample
+		- A square has a side length of 5 if and only if it has an area of 2.5
+			- Conditional: If a square has a side length of 5, then it has an area of 25. (True)
+			- Converse: If a square has an area of 25, then it has a side length of 5. (True)
+		- Because the conditional and its converse are TRUE, the biconditional is TRUE
+	- The number n is a positive integer $\iff$ 2n is a natural number
+		- Conditional: If n is a positive integer, then 2n is a natural number (TRUE)
+		- Converse: If 2n is a natural number, then n is a positive integer. (FALSE)
+		- If 2n = 1, then n has to equal $\frac 12$ and fractions are not integers.
+		- Because the converse is FALSE, the biconditional is FALSE.
+- ![[Screenshot 2023-05-08 at 8.39.27 AM.png]]
+	- In Geometry, biconditional statements are used to write definitions
+	- A definition is a statement that describes a mathematical object and can be written as a TRUE biconditional
+	- Most definitions in a Geometry book glossary are not written as biconditional statements, but they can be. The "if and only if" is implied
+	- If we look up Polygon in the glossary, it's defined as a closed plane figure formed by three or more line segments such that each segment intersects exactly two other segments only at their endpoints and no two segments with a common endpoint are collinear
+		- Polygons, Not Polygons
+- ![[Screenshot 2023-05-08 at 8.45.20 AM.png]]
+	- A triangle is defined as a three-sided polygon
+	- A quadrilateral is defined as a four-sided polygon
+	- If a definition is good and precise, it can be used forward and backward
+		- If a figure is a four-sided polygon, then it is a quadrilateral
+	- To make sure a definition is precise, we can try writing it as a biconditional statement
+		- A triangle is a three-sided polygon. A figure is a triangle if and only if it is a three-sided polygon
+		- Another example
+			- A segment bisector is a ray, segment or line that divides a segment into two congruent segments
+			- A ray, segment, or line is a segment bisector if and only if it divides a segment into two congruent segments
+	- It's necessary to be able to write a definition as a biconditional statement so the definition is precise and reversible
+	- We know a biconditional statement is TRUE when the conditional statement and its converse it contains are both TRUE
+		- A biconditional contains the conditional and its converse
+		- Biconditional statements are like reversible jackets that can be worn right side out or inside out.
+		- A conditional isn't reversible but a biconditional is.

@@ -1,0 +1,76 @@
+[Video](https://www.youtube.com/watch?v=jTZs8bRoWxE)
+
+- ![[Screenshot 2023-10-30 at 8.25.17 PM.png]]
+	- [[triangle|triangles]] have three sides
+	- Quadrilaterals have fours sides
+		- Have 4 angles
+		- Can be of different types
+	- Types of [[quadrilaterals]]
+		- [[Trapezoids]] have precisely one pair of parallel sides
+			- Precisely one pair of nonparallel sides
+		- [[Kites]] have two pairs of congruent consecutive sides
+			- Kites have diagonals that are perpendicular
+		- Opposite sides are parallel and congruent
+			- $\therefore$ opposite angles are congruent
+		- [[Parallelograms]] have
+			- Two sets of parallel and congruent sides. Two sets of congruent angles
+			- The diagonals of a parallelogram always bisect one another
+		- [[Rhombus]]
+			- Any parallelogram that has four congruent sides is a rhombus
+		- [[Rectangle]]
+			- Any parallelogram that has four congruent angles is a rectangle
+- ![[Screenshot 2023-10-30 at 8.31.30 PM.png]]
+	- Types of quadrilaterals (continued)
+		- [[Square]]
+			- Any parallelogram that has four congruent sides and four congruent angles is a square
+	- This shape qualifies as a 
+		- [[square]]
+		- [[rectangle]]
+		- [[rhombus]]
+		- [[Parallelograms|parallelogram]]
+		- [[quadrilaterals|quadrilateral]]
+	- A square is a rectangle. A rectangle is not necessarily a square
+		- This is a [[syllogism]] (deductive reasoning)
+	- Quadrilaterals have four sides
+	- [[polygons]] are made of three or more line segments
+		- Triangles and quadrilaterals are technically polygons but since we have specific names for those, we typically refer to polygons for shapes with 5 sides or more
+	- Circles and other curved shapes are not polygons
+	- Types of [[polygons]]
+		- Prefixes (these tell us the number of sides and angles that are in a polygon)
+			- pent = 5
+			- hex = 6
+			- hept = 7
+			- oct = 8
+			- non = 9
+			- dec = 10
+- ![[Screenshot 2023-10-30 at 8.36.33 PM.png]]
+	- Names of polygons
+		- Pentagon
+		- Hexagon
+		- Heptagon
+		- Octagon
+		- Nonagon
+		- Decagon
+	- This is a [[pentagon]] because it has five sides
+	- This is a [[regular pentagon]] because all the sides and angles are equal
+	- Regular octagon would be a stop sign
+	- A polygon of a particular type will have angles that add up to a specific value
+		- Triangle: 180 degrees
+		- Quadrilateral: 360 degrees
+		- Pentagon: 540 degrees
+		- Hexagon: 720 degrees
+	- Polygons contain two fewer triangles than the number of sides in the shape
+		- Example one
+			- 7 sides
+			- 5 triangles
+			- $900 \degree$ 
+		- Example two
+			- 8 sides
+			- 6 triangles
+			- $1080\degree$ 
+	- Comprehension (fill in the blanks)
+		- Any polygon with four sides is a quadrilateral
+		- Any quadrilateral with precisely one set of parallel sides is a trapezoid
+		- Any quadrilateral with four congruent angles is a rectangle
+		- Any polygon with six sides is a hexagon
+		- Any polygon with six congruent sides and angles is a regular hexagon

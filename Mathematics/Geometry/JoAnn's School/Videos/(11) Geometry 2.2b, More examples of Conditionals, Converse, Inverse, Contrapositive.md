@@ -1,0 +1,69 @@
+[Video](https://youtube.com/watch?v=QCivMZ_uvIQ)
+
+- ![[Screenshot 2023-04-25 at 2.25.00 AM.png]]
+	- We now know
+		- Conditional statements are "if, then" statements.
+		- The hypothesis follows "if".
+		- The conclusion follows "then".
+		- To prove a conditional statement is FALSE, we need only one counterexample.
+		- Conditional statements have truth value.
+		- The negation of a statement "p" is "not p"
+		- It's less confusing to use the "Logical Negation" symbol $\lnot$ for "not" than to use a tilde ~ because the tilde has so many different meanings.
+---
+- ![[Screenshot 2023-04-25 at 2.25.20 AM.png|400]]
+	- Negation
+		- "I have a dog named Lola."
+		- "I don't have a dog named Lola"
+	- The negation of a TRUE statement is FALSE
+---
+- ![[Screenshot 2023-04-25 at 2.25.44 AM.png|400]]
+	- Negation
+		- "I have a pet ostrich"
+		- "I don't have a pet ostrich"
+	- The negation of a FALSE statement is TRUE.
+---
+- ![[Screenshot 2023-04-25 at 2.27.02 AM.png]]
+	- Converse
+		- The statement formed by swapping the hypothesis and conclusion
+	- Conditional Statement: "If the bird can fly, then the bird has wings"
+	- Converse: "If the bird has wings, then the bird can fly"
+	- This converse is FALSE.
+	- Counterexample: penguins have wings but can't fly
+	- The converse has no truth value
+	- A conditional statement is FALSE when the hypothesis is True, but the conclusion is False
+---
+- ![[Pasted image 20230425022735.png|400]]
+	- Inverse:
+		- The statement formed by negating the hypothesis and conclusion
+	- Conditional Statement: "If the bird can fly, then the bird has wings."
+	- Inverse: "If the bird cannot fly, then the bird doesn't have wings."
+	- This inverse is False
+		- Counterexample: an ostrich has wings but can't fly
+	- The inverse has no truth value
+---
+- ![[Screenshot 2023-04-25 at 2.27.55 AM.png|400]]
+	- Contrapositive
+		- The statement formed by both swapping and negating the hypothesis and conclusion.
+	- Conditional Statement: "If the bird can fly, then the bird has wings."
+	- Contrapositive: If the bird has no wings, then the bird can't fly."
+	- This contrapositive is true.
+---
+- ![[Pasted image 20230425023054.png]]
+	- When all related statements are true
+		- Conditional Statement (true): "If it's worth 100 pennies, then it's worth a dollar"
+		- Converse (true): "If it's worth a dollar, then it's worth 100 pennies"
+		- Inverse (true): "If it's not worth 100 pennies, then it's not worth a dollar"
+		- Contrapositive (true): "If it's not worth a dollar, then it's not worth 100 pennies."
+		- All four of these related statements are TRUE. They are all logically equivalent
+		- Sometimes this happens with related statements
+	- When all related statements are FALSE
+		- Conditional Statement (false): "If a number is a multiple of 2, then it's a multiple of 3"
+			- Counterexample is 2
+		- Converse (false): "If a number is a multiple of 3, then it's a multiple of 2"
+			- Counterexample is 9
+		- Inverse (false): "If a number is not a multiple of 2, then it's not a multiple of 3."
+			- Counterexample is 9
+		- Contrapositive (false): "If a number is not a multiple of 3, then it's not a multiple of 2"
+			- Counterexample is 4
+		- All four of these related statements are FALSE. They are all logically equivalent. They have no truth value.
+		- Sometimes this happens with related statements.

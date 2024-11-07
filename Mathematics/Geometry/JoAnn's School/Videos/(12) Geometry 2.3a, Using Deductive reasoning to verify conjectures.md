@@ -1,0 +1,119 @@
+[Video](https://youtube.com/watch?v=MuaonZCBPIg)
+
+- ![[Screenshot 2023-04-25 at 2.43.43 AM.png]]
+	- We've learned that one counterexample is enough to disprove a conjecture
+	- But, to prove that a conjecture is TRUE, we must use deductive reasoning
+	- Deductive reasoning uses logic to draw conclusions from given facts, definitions, and properties
+---
+- ![[Screenshot 2023-04-25 at 2.43.59 AM.png|500]]
+	- Inductive Reasoning
+		- Based on patters
+		- Limited Observation
+		- High probability of being true
+		- Some risk of error
+	- Deductive Reasoning
+		- Based on logic
+		- Step-by-step process
+		- Scientific Method
+		- Properties, theorems, axioms, and definitions
+		- Facts
+---
+- ![[Screenshot 2023-04-25 at 2.46.06 AM.png|400]]
+	- Inductive or deductive?
+		- There's a myth that you can balance an egg on its end only on the Spring Equinox. (see link for wikipedia info)
+		- A person was able to balance an egg on its end on July 8, September 21, and again on December 19
+		- Conclusion: This myth is FALSE
+			- Inductive
+				- This is inductive. It's based on a pattern of observation
+---
+- ![[Screenshot 2023-04-25 at 2.46.48 AM.png|500]]
+	- The Triangle Sum Theorem states that the sum of the angle measures of a triangle is 180$\degree$
+	- Two angles of a triangle measure 40$\degree$ and 80$\degree$
+	- Conclusion: The third angle is 60$\degree$
+		- This is deductive because we're using the Triangle Sum Theorem
+---
+- ![[Screenshot 2023-04-25 at 2.47.12 AM.png]]
+	- invalid: adjective meaning without value, worthless
+	- valid: adjective meaning supported by facts or authority
+	- Premise: noun meaning a statement assumed to be true and used to draw a conclusion
+---
+- ![[Screenshot 2023-04-25 at 2.49.30 AM.png]]
+	- In deductive reasoning, if the given facts are true and we apply the correct logic, then the conclusion must be true
+	- The Law of Detachment is one valid form of deductive reasoning
+	- The Law of Detachment
+		- If $p \rightarrow q$ is a true statement and p is TRUE, then q is TRUE
+	- We can verify conjectures by using the Law of Detachment
+	- Given: If two segments are congruent, then they have the same length
+		- Conjecture: AB = CD
+		- Hypothesis: If two segments are congruent
+		- Conclusion: then they have the same length
+		- $\overline {AB} \cong \overline {CD}$ matches the hypothesis of a TRUE conditional
+		- By the Law of Detachment, AB = CD.
+			- The conjecture is valid.
+---
+- ![[Screenshot 2023-04-25 at 2.52.01 AM.png]]
+	- Given: If you're tardy 3 times, you must go to detention. Bob is in detention
+	- Conjecture: Bob was tardy at least 3 times
+	- We determine which is the hypothesis and which is the conclusion
+	- Hypothesis: If you are tardy 3 times
+	- Conclusion: You must go to detention
+	- The given statement, "Bob is in detention," matches the conclusion of a TRUE conditional.
+	- But this doesn't mean the hypothesis is TRUE. Bob could be in detention for another reason!
+	- The conjecture is not valid.
+---
+- ![[Screenshot 2023-04-25 at 2.52.16 AM.png|500]]
+	- Law of Syllogism
+		- If p $\rightarrow$ q and q $\rightarrow$ r are TRUE statements, then p $\rightarrow$ r is a TRUE statement
+	- This is another valid form of deductive reasoning. It lets us draw conclusions from two conditional statements when the conclusion of one statement is the hypothesis of the other statement.
+--- 
+- ![[Screenshot 2023-04-25 at 2.54.44 AM.png]]
+	- Major premise: A general statement about a whole group.
+	- Minor Premise: A specific statement about something that indicates membership in the group
+	- If we accept both the major and minor premise as TRUE, then we must accept the conclusion as TRUE.
+	- Conditional Statement:
+		- Major Premise: All birds have feathers.
+	- Conditional Statement:
+		- Minor Premise: Sparrows are birds
+	- We've shown that sparrows are members of the group "birds."
+	- Now we arrive at a conclusion based on the major and minor premise.
+	- Conclusion: Sparrows have feathers
+	- This series of statements is called a syllogism
+	- We get to our conclusion based on statements that are accepted as TRUE
+---
+- ![[Pasted image 20230425025533.png|500]]
+	- But this isn't always the case. We can still draw invalid conclusions even if our premise is TRUE.
+	- Major premise: you must be 16 to get a driver's license in Illinois.
+	- Minor Premise: Dave is over 16 years old.
+	- Conclusion: Dave has a driver's lincense.
+	- What if we swapped the minor premise and the conclusion?
+	- Would it be valid?
+	- After swapping, it became valid
+---
+- ![[Screenshot 2023-04-25 at 3.06.29 AM.png]]
+	- We can verify conjectures by using the Law of Syllogism and determine if they're valid
+	- Given: If $m\angle A < 90\degree$, then $\angle A$ is acute. If $\angle A$ is acute, then it is not a right angle.
+	- Conjecture: If m$\angle A < 90\degree$, then it is not a right angle
+	- We're given that $p \rightarrow q$ and q $\rightarrow$ r because q is the conclusion of the first conditional statement and the hypothesis of the second conditional statement, we can conclude that p $\rightarrow$ r.
+	- The conjecture is valid by the Law of Syllogism
+	- Parts
+		- p: The measure of an angle is less than 90$\degree$
+		- q: the angle is acute
+		- r: the angle is not a right angle
+	- The Law of sSyllogism is similar to the Transitive Property of Equality used in Algebra. They both involve the same term in the middle. If a = b and b = c, then a = c.
+---
+- ![[Screenshot 2023-04-25 at 3.07.40 AM.png]]
+- Given: If a number is divisible by 4, then it is divisible by 2. If a number is even, then it is divisible by 2
+- Conjecture: If a number is divisible by 4, then it's even.
+- Parts
+	- p: a number is divisible by 4.
+	- q: a number is divisible by 2
+	- r: a number is even
+	- q: a number is divisible by 2
+- We're given that p $\rightarrow$ q and r $\rightarrow$ q. The Law of Syllogism can't be used to draw a conclusion because q is the conclusion of both conditionals.
+- Even though the conjecture p $\rightarrow$ q is TRUE, the logic that was used to make the conclusion isn't valid.
+---
+- ![[Screenshot 2023-04-25 at 3.08.03 AM.png]]
+	- We can draw a conclusion by using the Law of deductive reasoning.
+	- Given: If two angles make a linear pair, then they are adjacent. If two angles are adjacent, then they share a side. $\angle 1$ and $\angle 2$ make a linear pair.
+	- Conclusion: $\angle 1$ and $\angle 2$ share a side
+	- This is valid.

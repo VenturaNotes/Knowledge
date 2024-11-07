@@ -1,0 +1,43 @@
+[Video](https://www.youtube.com/watch?v=lQ5AuNVjxhI)
+
+- ![[Screenshot 2023-10-30 at 6.22.49 PM.png]]
+	- [[triangle|triangles]] have three sides
+	- What are the types of triangles?
+	- Classification of triangles
+		- [[Acute triangles]]
+			- Have all acute angles
+		- [[Obtuse triangles]]
+			- Have one obtuse angle
+		- [[Right Triangle|right triangles]]
+			- Have one right angle
+	- The angles of any triangle will always add up to 180$\degree$ 
+	- Triangles can only have one obtuse or right triangle
+		- $90\degree$ + $90\degree$ = nothing left for the third angle!
+		- $a + b + c = 180\degree$ 
+	- Triangles can be classified by their side lengths as well
+		- [[Scalene triangle]] has all sides of different length
+		- An [[Isosceles triangle]] has two sides of the same length
+			- Therefore, has two angles of the same measure (specifically, the two angles that are opposite of the two identical sides)
+		- An [[equilateral triangle]] has all sides of the same length and therefore all angles of the same measure
+			- Each angle is $60\degree$ 
+		- These are all the triangles that exist
+			- 3 equal sides, two equal sides, or no equal sides
+	- Let's look at special [[Right Triangle|right triangles]]
+		- [[45-45-90 triangle]]
+			- Legs = x
+			- Hypotenuse = x$\sqrt{2}$ 
+		- [[30-60-90 triangle]]
+			- leg 1 = x
+			- leg 2 = x$\sqrt{3}$ 
+			- hypotenuse = 2x
+	- [[Geometry]] will require this type of logic
+		- Just follow the rules of
+			- angle relationships
+			- shape congruence
+			- parallel lines
+	- Comprehension (fill in the blanks)
+		- Triangles with all three sides of the same length are called equilateral triangles
+		- Triangles with two sides of the same length are called isosceles triangles.
+		- Triangles with all three sides of different lengths are called scalene triangles
+		- The angles of a triangle add up to 180$\degree$
+		- A triangle can have at most one angle of $90\degree$ or more.

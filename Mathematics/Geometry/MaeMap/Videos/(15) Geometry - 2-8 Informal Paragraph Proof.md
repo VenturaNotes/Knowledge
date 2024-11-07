@@ -1,0 +1,23 @@
+[Video](https://youtube.com/watch?v=AFjurI-1gqY)
+
+- ![[Screenshot 2023-04-06 at 9.08.13 PM.png]]
+	- Segment Addition Postulate
+		- P.8)
+			- If B is between A and C, then AB + BC = AC.
+			- If AB + BC = AC, then B is between AC.
+	- Theorem - A conjecture or statement that is proven or shown to be true
+	- Proof - a logical argument that uses definitions, postulates, and previously proved theorems
+	- Paragraph/Informal Proof - Explains why a conjecture is true for a situation in the form of a written paragraph
+		- 1) Understand the theorem or conjecture to be proven
+		- 2) List given information
+		- 3) Illustrate given information if possible
+		- 4) State what needs to be proven
+		- 5) Develop the steps
+	- Problem
+		- A line is formed such that B is between A and C, and AB = 5 and BC = 7. Prove that $AC = 12$
+			- Given: B is between A and C
+				- AB = 5
+				- BC = 7
+			- Illustrate/sketch information
+			- Prove: AC = 12
+			- Since B is between A and C, from P.8, then AB + BC = AC. We know AB = 5 and BC = 7, so 5 + 7 = AC. Therefore, AC=12

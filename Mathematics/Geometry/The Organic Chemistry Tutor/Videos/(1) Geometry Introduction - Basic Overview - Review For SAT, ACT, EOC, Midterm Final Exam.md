@@ -1,0 +1,35 @@
+[Video](https://youtube.com/watch?v=KtZai86htng)
+
+- ![[Screenshot 2023-02-27 at 6.15.34 PM.png]]
+	- Given a circle with radius 5, find the circumference and area
+	- [[Circumference]] of a circle formula
+		- $2\pi r$
+	- [[Area]] of a circle
+		- $\pi r^2$
+	- [[Radius]] is the center of the circle and it touches any point on the circle.
+	- [[Diameter]] passes through the center of the circle, but it's the distance between one edge of the circle to the other
+		- A [[chord]] is a line that touches 2 edges of the circle but doesn't pass through the center.
+	- Formula for diameter
+		- $d = 2R$ 
+			- Twice the length of the radius
+- ![[Screenshot 2023-02-27 at 6.17.25 PM.png]]
+	- Square
+		- Find area and perimeter when side length = 8
+	- Area of square
+		- $s^2$
+			- side squared
+	- Perimeter of square
+		- $4s$
+			-  Sum of 4 sides
+- ![[Screenshot 2023-02-27 at 6.28.03 PM.png]]
+	- What is the perimeter of the square given the area?
+- ![[Screenshot 2023-02-27 at 6.33.24 PM.png]]
+	- If given circumference of circle, find diameter and Area
+- ![[Screenshot 2023-02-27 at 6.35.11 PM.png]]
+	- Find Area and perimeter of rectangle given length is 10 and width is 5
+	- Area of Rectangle Formula
+		- $LW$
+	- Perimeter of Rectangle Formula
+		- $2L + 2W$
+- Image
+	- 

@@ -1,0 +1,67 @@
+[Video](https://youtube.com/watch?v=Y964Rpnesbk)
+
+
+- Understanding points, lines, and planes
+- A [[point]] names a location, has no size and is labeled with a capital letter.
+	- $\bullet$ A
+	- ![[Pasted image 20230424175945.png]]
+- A [[line]] is a straight path that has no thickness and extends forever. It's labeled with a lower case letter or by two points on the line.
+	- ![[Screenshot 2023-04-24 at 6.00.29 PM.png]]
+- A [[plane]] is a flat surface that has no thickness and extends forever. It's labeled by a script capital letter or 3 points not on a line.
+	- ![[Screenshot 2023-04-24 at 6.01.13 PM.png]]
+	- $\mathscr R$
+- Points, lines, and planes are undefined terms. They are basic figures in Geometry that aren't defined in terms of other figures
+- Points that lie on the same line are collinear
+	- ![[Screenshot 2023-04-24 at 6.03.54 PM.png]]
+		- Points A, B, and C are collinear.
+		- Points A, B, and D are noncollinear
+- Points that lie in the same plane are coplanar
+	- ![[Screenshot 2023-04-24 at 6.04.26 PM.png]]
+		- Points A, B, and C are coplanar
+		- Points A and D are noncoplanar
+	- ![[Screenshot 2023-04-24 at 6.05.09 PM.png|300]]
+		- P, Q, R, and S are coplanar points. They lie in the same plane
+- A segment, or line segment, is the part of a line consisting of two points and all points between them
+	- ![[Screenshot 2023-04-24 at 6.05.39 PM.png]]
+- An endpoint is a point at one end of a segment, or the starting point of a ray. They're labeled with a capital letter
+- A ray is part of a line that starts at an endpoint and extends forever in one direction. It's labeled by its endpoints and any other point on the ray
+	- ![[Screenshot 2023-04-24 at 6.06.43 PM.png]]
+- Opposite rays are two rays that have a common endpoint and form a line. They're labeled by the common endpoint and any other point on each ray.
+	- ![[Screenshot 2023-04-24 at 6.08.28 PM.png]]
+- A postulate is a statement that is accepted as true without proof. They're also called axioms
+- Postulates for points, lines, and planes:
+	- ![[Screenshot 2023-04-24 at 6.09.43 PM.png]]
+		- 1.1.1: Through any two points, there is exactly one line.
+		- 1.1.2: Through any 3 noncollinear points, there is exactly one plane containing them.
+		- 1.1.3: If two points lie in a plane, then the line containing those points lies in the plane
+- A system of equations is a set of two or more equations containing two or more of the same variables
+- The coordinates of the solution of the system satisfy <mark style="background: #FFF3A3A6;">all</mark> equations in the system.
+- These coordinates also locate the <mark style="background: #FFF3A3A6;">point</mark> where all the graphs of the equations in the system <mark style="background: #FFF3A3A6;">intersect</mark>.
+- An [[Intersection]] is the set of all points that two or more figures have in common
+- Postulates for intersection of lines and planes
+	- ![[Screenshot 2023-04-24 at 6.13.35 PM.png]]
+		- 1.1.4: If two lines intersect, then they intersect in exactly one point.
+		- 1.1.5: If two planes intersect, then they intersect in exactly one line.
+---
+- We use a dashed line to show the hidden parts of a figure that we draw. The dashed line will indicate the part of the figure that isn't seen.
+	- ![[Screenshot 2023-04-24 at 6.15.24 PM.png]]
+		- This line intersects plane $\mathscr R$, but doesn't lie in the plane.
+		- These two planes intersect in one line.
+- Line AB intersects two nonintersecting planes
+	- ![[Screenshot 2023-04-24 at 6.15.46 PM.png]]
+- Three coplanar lines intersect in three different points
+	- ![[Screenshot 2023-04-24 at 6.16.15 PM.png]]
+- Plane $\mathscr M$ contains two lines that intersect at S
+	- ![[Screenshot 2023-04-24 at 6.18.43 PM.png]]
+- $\overset \longleftrightarrow {AB}$ intersects plane $\mathscr P$ at S.
+	- ![[Screenshot 2023-04-24 at 6.19.39 PM.png]]
+- A ray with endpoint A that passes through B
+	- ![[Screenshot 2023-04-24 at 6.20.02 PM.png]]
+- Key
+	- $\overset \longleftrightarrow {AB}$ = line AB
+	- $\overset \longrightarrow {AB}$ = ray AB
+	- $\overline {AB}$ = line segment AB
+- Get a notebook to write all the postulates (axioms), theorems, and definitions. You'll be glad you did when we start doing proofs!
+- Writing them will help you learn them, too!
+- We need to completely learn the meanings of these words and understand the postulates
+	- Point, Line, Plane, Undefined term, Collinear, Coplanar, Line Segment, Ray, Postulate, Axiom, Intersect, Noncollinear, Noncoplanar

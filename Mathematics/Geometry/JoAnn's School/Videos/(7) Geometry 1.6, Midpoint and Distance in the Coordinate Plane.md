@@ -1,0 +1,60 @@
+[Video](https://youtube.com/watch?v=lk8Y5MS7ezk)
+
+- ![[Screenshot 2023-04-25 at 12.21.49 AM.png|500]]
+	- A coordinate plane is a plane that's divided into four quadrants by a horizontal line, the x-axis, and a vertical line, the y-axis.
+	- The location of a point is given by an ordered pair as (x, y). The (x, y) are the coordinates of the point
+	- Can watch Algebra I, 7.1 or GED Math 22a to talk more about the coordinate planes
+	- Quadrants move counterclockwise. Easy way to remember is the "C" in coordinate plane.
+---
+- ![[Screenshot 2023-04-25 at 12.24.24 AM.png]]
+	- We can find the midpoint of a segment by using the coordinates of its endpoints
+	- We calculate the average of the x-coordinates and the average of the y-coordinates of the endpoints
+---
+- ![[Screenshot 2023-04-25 at 12.25.22 AM.png]]
+	- Midpoint formula
+	- Reference
+		- Video Algebra 2 10.1b
+---
+- ![[Screenshot 2023-04-25 at 12.26.41 AM.png]]
+	- To find an average, we add then divide by the amount of addends.
+---
+- ![[Screenshot 2023-04-25 at 12.30.17 AM.png]]
+	- We can find the coordinates of an endpoint using the midpoint formula.
+---
+- ![[Screenshot 2023-04-25 at 12.31.27 AM.png]]
+	- Distance formula
+		- To find the distance between two paints $(x_1, y_1) \text{ and } (x_2, y_2)$
+	- Don't confuse this with distance, rate and time. That is called "uniform rate formula"
+---
+- ![[Screenshot 2023-04-25 at 12.36.05 AM.png]]
+	- Find if 2 line segments are congruent
+	- We find the distance between points A and B, find the distance between point C and D, then compare their distances to see if the two segments are congruent
+	- Both line segments have the distance of $\sqrt{29}$ so they are congruent
+	- Leaving our answers in terms of square roots makes them more accurate because we don't have to approximate or round them off
+	- Extra help
+		- Algebra 1, 11,7b or GED 22e
+---
+- ![[Pasted image 20230425003827.png|500]]
+	- We can also use the Pythagorean Theorem to find the distance between two points on a coordinate plane.
+	- In a right triangle, the two sides that make the right angle are the legs
+	- The side across from the right angle that stretches from one leg to the other is the hypotenuse.
+---
+- ![[Screenshot 2023-04-25 at 12.39.25 AM.png]]
+	- Pythagorean Theorem:
+		- 1.6.1: In a right triangle, the sum of the squares of the lengths of the lgs is equal to the square of the length of the hypotenuse.
+	- Extra help
+		- video Grade 8
+			- 12.1a
+			- 12.1b
+			- 12.1c
+---
+- ![[Screenshot 2023-04-25 at 12.40.18 AM.png]]
+	- Example
+	- Remember, we can remove the exponent 2 by using a radical symbol on the other side of the equal sign
+---
+- ![[Screenshot 2023-04-25 at 12.47.46 AM.png]]
+	- The four bases on a baseball field are 90 feet apart making a square shape
+	- If a player throws a ball from home plate to second base, what is the distance of the throw? Round answer to the nearest tenth.
+	- We look at the baseball field as if it were on a coordinate plane with home plate as (0,0), the origin.
+	- The distance from point A to point C is the length of the hypotenuse of a right triangle
+	- Can use the pythagorean theorem or the distance formula

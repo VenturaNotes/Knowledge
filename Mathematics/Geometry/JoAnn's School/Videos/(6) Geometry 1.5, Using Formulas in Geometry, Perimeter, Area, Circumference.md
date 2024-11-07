@@ -1,0 +1,67 @@
+[Video](https://youtube.com/watch?v=we-nndoIa28)
+
+- ![[Screenshot 2023-04-25 at 12.02.47 AM.png]]
+	- In this lesson, we're going to apply formulas for perimeter, area, and circumference
+	- The perimeter P of a plane figure is the sum of the side lengths of the figure
+		- 10 units
+	- The area A of a plane figure is the number of non-overlapping square units of a given size that exactly coven the figure
+		- 10 square units
+---
+- ![[Screenshot 2023-04-25 at 12.03.34 AM.png]]
+	- Perimeter is the length around the sides of the figure
+	- Area is the two-dimensional measurement of the amount of squares that can fit inside the figure.
+---
+- ![[Screenshot 2023-04-25 at 12.04.35 AM.png]] 
+	- Perimeter and Area Formulas
+		- Rectangle
+			- $A = lw$
+		- Square
+			- $A = s^2$ (s = side length)
+		- Triangle
+			- $A = \frac 12 bh$ or $\frac {bh}{2}$
+---
+- ![[Screenshot 2023-04-25 at 12.06.15 AM.png]]
+	- The base b can be any side of a triangle
+	- The height h is the segment from a vertex that forms a right angle with a line containing the base
+		- The height may be the side of a triangle
+		- It may be in the interior
+		- It may be at the exterior
+---
+- ![[Screenshot 2023-04-25 at 12.07.34 AM.png]]
+	- Examples for finding perimeter and area of rectangle, square, and triangle
+---
+- ![[Screenshot 2023-04-25 at 12.08.48 AM.png]]
+	- We can find the perimeter and area of a rectangle with a length of 16cm and a width of 4cm by using the formulas P = 2l + 2w and A = lw.
+	- Perimeter is expressed in linear units, such as inches or centimeters
+	- Area is expressed in square units, such as square centimeters ($cm^2$)
+---
+- ![[Screenshot 2023-04-25 at 12.10.00 AM.png]]
+	- We can find the perimeter and area of a triangle in which a = 8, b = (x+1), c = 4x, and h = 6 using the formulas P = a + b + c and A = $\frac 12bh$
+---
+- ![[Screenshot 2023-04-25 at 12.11.49 AM.png]]
+	- In a circle, a diameter is a segment that passes through the center of the circle and whose endpoints are on the circle
+	- A radius r of a circle is a segment whose endpoints are the center of the circle and a point on the circle.
+	- The circumference C of a circle is the distance around the circle
+---
+- ![[Screenshot 2023-04-25 at 12.13.13 AM.png]]
+	- Circumference and Area of a Circle Formulas
+	- Circumference
+		- C = $\pi d$ or $c = 2\pi r$
+	- Area
+		- $A = $\pi r^2$
+	- Notice that the diameter = 2r and the radius is $\frac 12 d$ 
+---
+- ![[Screenshot 2023-04-25 at 12.14.50 AM.png]]
+	- The ratio of a circle's circumference to its diameter is the same for all circles.
+	- This ratio is represented by the Greek letter $\pi$ (pi).
+	- The value of pi is irrational, which means it cannot be expressed as the ratio of two integers.
+	- There are too many digits of pi to do this.
+	- Pi is often approximated as 3.14 or $\frac {22}{7}$
+	- Occasionally in Math, we will use the letter $\pi$ in our answer. This is referred to as solving in terms of $\pi$
+---
+- ![[Screenshot 2023-04-25 at 12.15.39 AM.png]]
+	- Solving circumference in terms of $\pi$
+---
+- ![[Screenshot 2023-04-25 at 12.15.54 AM.png]]
+	- We can find the circumference and area of a circle using the formulas
+	- We're not multiplying by all the digits of pi, so it's an approximation. If our answer contains the symbol $\pi$, we can use an equal sign because $\pi$ represents all the digits.
