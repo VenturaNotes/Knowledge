@@ -1,0 +1,29 @@
+[Video](https://youtube.com/watch?v=E2dN393P9lo)
+
+- ![[Pasted image 20230601124141.png]]
+	- How many subsets of a given set contain a particular set of elements
+	- Total number of subsets is $2^n$
+		- where n is the number of elements in the set
+	- How many subsets of A contain the elements 4 and 5?
+		- Could rephrase the question
+			- how many subsets of A contain all of the elements of x
+			- How many subsets of A is x also a subset of 
+- ![[Screenshot 2023-06-01 at 12.41.50 PM.png]]
+	- Given $A = \{a_1, a_2, a_3, ..., a_n\}$ meaning it's a finite set
+		- $x \subseteq A$
+			- Take an arbitrary subset of A
+		- We only have one choice for all of those elements that we're guaranteeing we'll include.   
+			- $|x|$ is the number of elements that we only have one choice for. We are guaranteeing we'll include them.
+		- The number of subsets of A containing all elements of x is $2^{n-|x|}$
+			- Total number of subsets of A guaranteed to contain elements of the empty set. Not guaranteed anything because the empty set has no elements
+			- Guaranteeing that your subsets must include the elements of the empty set doesn't reduce the number of subsets at all because the empty set has no elements
+	- Practice (right image)
+		- Answer is 12 because $2^{4-2}$ = 4
+		- Given $S = \{x, y, z, w\}$ and $R = \{y,z\}$
+			- Subsets of S ($2^4 = 16$)
+				- $\{\}$
+				- $\{x\}, \{y\}, \{z\},\{w\}$
+				- $\{x, y\}, \{x, z\}, \{x, w\}, \textcolor{hotpink}{\{y, z\}}, \{y, w\}, \{z, w\}$
+				- $\textcolor{hotpink}{\{x,y,z\}},\{x,y,w\},\{x,z,w\},\textcolor{hotpink}{\{y,z,w\}}$
+				- $\textcolor{hotpink}{\{x,y,z,w\}}$
+			- The ones colored in hot pink are the solutions to the number of subsets that contain y and z

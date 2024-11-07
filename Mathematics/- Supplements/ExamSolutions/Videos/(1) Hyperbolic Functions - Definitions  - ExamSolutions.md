@@ -1,0 +1,22 @@
+[Video](https://www.youtube.com/watch?v=vVcEePliDUA)
+
+- ![[Screenshot 2023-08-23 at 11.12.02 PM.png]]
+	- Hyperbolic functions are related to the trigonometric functions. Attaching the letter "h" to the end of the trigonometric functions.
+		- [[sinh]] x = $\frac {e^x - e^{-x}}{2}$
+			- pronounced "shine"
+			- Domain: $\mathbb{R}$
+		- [[cosh]] x = $\frac {e^x + e^{-x}}{2}$
+			- pronounced "cosh"
+			- Domain: $\mathbb{R}$
+		- [[tanh]] x = $\frac {sinh x}{cosh x}$ = $\frac {e^{2x} - 1}{e^{2x} + 1}$ 
+			- pronounced "than" but like "Thanos"
+			- Domain: $\mathbb{R}$
+	- Reciprocals of the 3 functions
+		- [[sech]] x = $\frac {2}{e^x + e^{-x}}$
+			- Pronounced "`setch`"
+			- Domain: $\mathbb{R}$
+		- [[cosech]] x = $\frac {2}{e^x - e^{-x}}$
+			- Pronounced "`cosetch`"
+			- Domain: x $\in$ $\mathbb{R}$, x $\ne$ 0
+		- [[coth]] x 
+			- Pronounced "`coth`"

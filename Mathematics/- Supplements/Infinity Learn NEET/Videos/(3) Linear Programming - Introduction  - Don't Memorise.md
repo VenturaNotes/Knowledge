@@ -1,0 +1,42 @@
+[Video](https://www.youtube.com/watch?v=Uo6aRV-mbeg)
+
+- ![[Screenshot 2023-10-16 at 3.43.18 PM.png]]
+	- [[Linear Programming]]
+	- Target Based Situations
+		- Students needs to complete project in 15 days
+			- Objective: Wants maximum score
+			- Limiting factors: Time
+		- Employee needs to achieve a sales target within a month
+			- Objective: Wants maximum sales in a month
+			- Limiting factors: Time
+		- Another person needs to buy something within $500
+			- Objective: Wants to minimize cost as much as possible
+			- Limiting factors: Pre-decided budge
+	- Objectives of above situations was to maximize the benefits or minimize the cost
+		- These are [[optimization problems]] in mathematics
+			- Maximum profit
+			- Minimum cost
+			- Minimum use of resources
+		- Needs to be solved using [[optimization technique]]
+	- [[Limiting factors]]
+		- When there is a scarcity of some resource
+		- Act as constraints in finding the best possible solution of the given problem
+	- Optimization problems
+		- Find the optimum solution subject to the \constraints of the problem
+		- Find best possible outcome by allocating scarce resources
+	- How are optimization problems solved in mathematics?
+		- Comes from an area of math called [[optimization technique|optimization techniques]]
+			- Many different categories of this
+	- Classification of optimizing methods
+		- The type of solved problem
+			- Linear Programming
+			- Non-linear optimization
+		- Constraints
+			- Optimization with constraints
+			- Optimization without constraints
+		- Size of Problem
+			- One-dimensional methods
+			- Multi-dimensional methods
+		- Optimization criteria
+			- One objective methods
+			- Multi-objectives methods

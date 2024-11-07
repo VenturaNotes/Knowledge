@@ -1,0 +1,40 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLBh2i93oe2qtbygdXz4u6Mkh7c_hMLBA8
+Length: 4 hours, 4 minutes, 49 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) Start Learning Mathematics]]
+	- [[(2) Start Learning Logic - Part 1 - Logical Statements, Negation and Conjunction]]
+	- [[(3) Start Learning Logic - Part 2 - Disjunction, Tautology and Logical Equivalence]]
+	- [[(4) Start Learning Logic - Part 3 - Conditional, Biconditional, Implication and Deduction Rules]]
+	- [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
+	- [[(6) Start Learning Sets - Part 2 - Predicates, Equality and Subsets]]
+	- [[(7) Start Learning Sets - Part 3 - Union, Intersection, Difference and Power set]]
+	- [[(8) Start Learning Sets - Part 4 - Cartesian Product and Maps]]
+	- [[(9) Start Learning Sets - Part 5 - Range, Image and Preimage]]
+- Incomplete
+	- [[(10) Start Learning Sets - Part 6 - Injectivity, Surjectivity and Bijectivity]]
+	- [[(11) Start Learning Sets - Part 7 - Composition of Maps]]
+	- [[(12) Start Learning Numbers - Part 1 - Natural Numbers (in Set Theory)]]
+	- [[(13) Start Learning Numbers - Part 2 - Natural Numbers (Successor Map and Addition)]]
+	- [[(14) Start Learning Numbers - Part 3 - Natural Numbers (Induction and Associativity)]]
+	- [[(15) Start Learning Numbers - Part 4 - Natural Numbers (Ordering)]]
+	- [[(16) Start Learning Numbers - Part 5 - Natural Numbers (Multiplication)]]
+	- [[(17) Start Learning Numbers - Part 6 - Integers (Construction)]]
+	- [[(18) Start Learning Numbers - Part 7 - Integers (Addition and Inverses)]]
+	- [[(19) Start Learning Numbers - Part 8 - Integers (Multiplication)]]
+	- [[(20) Start Learning Numbers - Part 9 - Rational Numbers (Construction)]]
+	- [[(21) Start Learning Numbers - Part 10 - Rational Numbers (Addition and Multiplication)]]
+	- [[(22) Start Learning Numbers - Part 11 - Rational Numbers (Ordering)]]
+	- [[(23) Start Learning Reals - Part 1 - Cauchy Sequences]]
+	- [[(24) Start Learning Reals - Part 2 - Completeness Axiom]]
+	- [[(25) Start Learning Reals - Part 3 - Working With Axioms]]
+	- [[(26) Start Learning Reals - Part 4 - Construction]]
+	- [[(27) Start Learning Complex Numbers - Part 1 - Introduction]]
+	- [[(28) Start Learning Complex Numbers - Part 2 - Definition]]
+	- [[(29) Start Learning Complex Numbers - Part 3 - Absolute Value, Conjugate, Argument]]
+	- [[(30) Greek Letters in Mathematics]]

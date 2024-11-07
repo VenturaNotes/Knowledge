@@ -1,0 +1,78 @@
+[Video](https://youtube.com/watch?v=zzUPMCN0VxA)
+
+---
+- ![[Screenshot 2023-05-16 at 4.13.24 AM.png]]
+- Qualitative vs. Quantitative Data
+	- [[Qualitative Variable]]: A variable that tells us what category or group an individual belongs to. May also be called nominal (more on this later) or categorical. Numbers can be used here, but we wouldn't find value in analyzing the numbers (mean, median, mode, etc.)
+		- Examples: Color of m&m, Highest level of education completed
+		- Drawback: Challenging to analyze with computation
+	- [[Quantitative variable]]: A variable in which the numbers act as numerical values. Typically records the amount or degree of something.
+		- Examples: Number of siblings, property valuation, temperature
+---
+- ![[Screenshot 2023-05-16 at 4.17.06 AM.png]]
+- Classify the following data as either <mark style="background: #FFF3A3A6;">qualitative</mark> or <mark style="background: #FFB86CA6;">quantitative</mark>
+	- <mark style="background: #FFB86CA6;">Age</mark>
+	- <mark style="background: #FFF3A3A6;">Gender</mark>
+	- <mark style="background: #FFF3A3A6;">Race</mark>
+	- <mark style="background: #FFB86CA6;">Salary</mark>
+	- <mark style="background: #FFF3A3A6;">The month, recorded where 1=January, 2 = February, 3 = March</mark>
+	- <mark style="background: #FFF3A3A6;">Pet Preference (Dog, cat, bird, other)</mark>
+	- <mark style="background: #FFB86CA6;">Medicine Dosage</mark>
+---
+- ![[Screenshot 2023-05-17 at 2.35.17 AM.png]]
+- Classify the following data as either <mark style="background: #FFF3A3A6;">qualitative</mark> or <mark style="background: #FFB86CA6;">quantitative</mark>
+	- <mark style="background: #FFF3A3A6;">Shades of green paint in a home improvement store</mark>
+	- <mark style="background: #FFF3A3A6;">Rankings of the most popular paint colors for the season</mark>
+	- <mark style="background: #FFB86CA6;">Amount of blue primary dye necessary to make one gallon of each shade of green paint</mark>
+	- <mark style="background: #FFB86CA6;">Numbers of paint choices available at several stores</mark>
+---
+- ![[Screenshot 2023-05-17 at 2.39.22 AM.png]]
+- Continuous vs. Discrete Quantitative Data
+	- When data is quantitative, it can be further classified by the values it can take on. For instance, you can have 0 children, 1 child, 2 children, and so on, but you can'h have 2.37 children. The number of children someone has can only take on whole number values.
+	- However, when you take a child's temperature, it can be 98.5$\degree$F, 97.26$\degree$F, 99$\degree$F, and so on. It can take on the whole number values and the values in between.
+		- [[Discrete Data]]: Quantitative data that can take on only particular values and ar usually counts.
+		- [[Continuous Data]]: Quantitative data that can take on any value in a given interval and are usually measurements
+---
+- ![[Screenshot 2023-05-17 at 2.41.08 AM.png]]
+- Determine whether the following data are <mark style="background: #FFF3A3A6;">continuous</mark> or <mark style="background: #FFB86CA6;">discrete</mark>
+	- <mark style="background: #FFF3A3A6;">Temperatures in Fahrenheit of cities in South Caroline</mark>
+	- <mark style="background: #FFB86CA6;">Numbers of houses in various neighborhoods in a city</mark>
+	- <mark style="background: #FFB86CA6;">Numbers of elliptical machines in every YMCA in your state</mark>
+	- <mark style="background: #FFF3A3A6;">Heights of doors</mark>
+---
+- ![[Screenshot 2023-05-17 at 2.43.32 AM.png]]
+- Levels of Measurement
+	- [[Nominal]]: Qualitative data consisting of labels or names
+	- [[Ordinal]]: Qualitative data that can be arranged in a meaningful 
+	- [[Interval]]: Quantitative data that can be arranged in a meaningful order and where differences between data entries are meaningful
+	- [[Ratio]]: Quantitative data that can be arranged in a meaningful order, where differences between data entries are meaningful and the zero point indicates the absence of something.
+---
+- ![[Screenshot 2023-05-17 at 2.45.15 AM.png]]
+- Nominal: The genres of music performed at the Granny's
+- Ordinal: The seat numbers on your concert tickets
+- Interval: Birth years of your classmates
+- Ratio: Ages of U.S. presidents when they were inaugurated
+---
+- ![[Screenshot 2023-05-17 at 2.47.30 AM.png]]
+- Determine Data Type
+	- Qualitative Data
+		- Labels or Names
+			- Nominal
+		- Can be arranged in a meaningful order, but differences between data aren't meaningful
+			- Ordinal
+	- Quantitative Data (Discrete or Continuous)
+		- Can be arranged in a meaningful order and where differences between data entries are meaningful, but zero is not
+			- Interval
+		- Can be arranged in a meaningful order, where differences between data entires are meaningful and the zero point indicates the absence of something
+			- Ratio
+---
+- Classifying Data
+	- Determine the following classifications for the given data sets: qualitative or quantitative; discrete, continuous, or neither; and level of measurement
+		- Finishing times for runners in a 5K race
+			- Quantitative, Continuous, Ratio
+		- Colors contained in a box of markers
+			- Qualitative, Neither, Nominal
+		- Boiling points for various liquids measured in $\degree$C
+			- Quantitative, Continuous, Interval
+		- The top ten summer vacation destinations
+			- Qualitative, Neither, Ordinal

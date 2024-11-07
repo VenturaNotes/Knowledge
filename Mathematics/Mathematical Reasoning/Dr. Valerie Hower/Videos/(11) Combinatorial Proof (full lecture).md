@@ -1,0 +1,22 @@
+ [Video](https://www.youtube.com/watch?v=7mOYew7aJUA)
+
+- ![[Screenshot 2023-12-09 at 11.44.18 PM.png]]
+	- Given a set A with |A| = n, why is |$\mathcal{P}$(A)| = $2^n$ 
+		- [[Multiplication rule]]
+		- Subsets have no order and lists of length n have order
+	- Give a [[combinatorial proof]] of the identity
+		- Need to have a counting question. Then show the lefthand side of an identity and the righthand side of an identity both count the same thing.
+			- If you have 2 expressions that count the same thing, they must be equal
+		- Seem to be using [[addition rule]] for first question
+	- [[Pascal's Identity]] proof
+		- If you see a single binomial coefficient, think subsets somehow
+	- Want to use a counting argument
+	- Another [[combinatorial identity]] example
+		- If we see a single binomial coefficient on one side, count subsets
+		- [[disjoint sets]]
+		- Using [[addition rule]]
+-  ![[Screenshot 2023-12-11 at 2.17.23 PM.png]]
+	- Last proof
+		- Since no binomial coefficients, not counting subsets
+		- [[Multiplication rule]]
+	- We know that given a list of length 3 where n is the number of elements in A, $n^3$ is the number of length 3 lists using elements in A.

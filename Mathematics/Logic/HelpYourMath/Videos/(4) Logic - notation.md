@@ -1,0 +1,35 @@
+[Video](https://youtube.com/watch?v=5SqrSnF2yF4)
+
+---
+- Notations
+	- Simple statements are usually denoted with single lowercase letters, traditionally p and q. (Next would be "r")
+		- Simple statements do not have negations in them
+			- If there was a sentence such as "I do not like coffee", the simple sentence would be "I like coffee."
+- Let p be the statement: I get paid Friday
+- Let q be the statement: I will go dancing this weekend
+---
+- ![[Screenshot 2023-05-11 at 3.07.19 PM.png|500]]
+- Notation time!
+	- Naturally, all the connectors have logic symbols associated with them:
+	- Connective, Symbol, Name
+		- And, $\land$, Conjunction
+		- Or, $\lor$, Disjunction
+		- Not, ~, Negation
+		- If...then, $\implies$, conditional
+		- ... if and only if... $\iff$ biconditional
+---
+- ![[Screenshot 2023-05-11 at 3.29.44 PM.png|500]]
+- Notation in Action!
+- If p is the statement: I get paid Friday and q is the statement: I will go dancing this weekend, then:
+	- $\lnot$p: I do not get paid Friday
+	- $p \lor q$: I get paid Friday or I will go dancing this weekend
+	- $p \land q$: I get paid Friday and I will go dancing this weekend
+	- $p \implies q$: I get paid Friday, then I will go dancing this weekend
+	- $q \implies p$: If I go dancing this weekend, then I get paid Friday.
+	- $p \iff q$: I get paid Friday iff I go dancing this weekend
+---
+- ![[Screenshot 2023-05-11 at 3.31.16 PM.png]]
+	- Examples
+---
+- ![[Screenshot 2023-05-11 at 3.34.33 PM.png]]
+	- Translating from symbols into words

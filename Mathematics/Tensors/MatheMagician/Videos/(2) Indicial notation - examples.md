@@ -1,0 +1,27 @@
+[Video](https://www.youtube.com/watch?v=zbPNegfNavQ)
+
+- ![[Screenshot 2023-10-10 at 10.58.17 PM.png]]
+	- [[Indicial notation]] - notation and examples
+	- Notation for a vector $\bf {a}$ and a matrix B
+	- Explicit computations with indicial notation
+		- Must specify what $a_1, a_2, \text{ and } a_3$ are
+		- These numbers are often seen as components of a vector if you have one index
+		- Elements of a matrix if you have two indices
+	- With indicial notation, we're effectively computing [[matrix product|matrix products]] and [[inner product|inner products]]
+	- Vector $a$ has components $a_i$ which are placed in vector
+		- $a_1$ = 3 in this case
+		- $a_2$ = 2 in this case
+	- We write the components of the vector a with respect to the [[standard basis]] and we put the brackets $[a]$ around
+		- This is a little different from [[linear algebra]]
+	- For $[B]$ 
+		- $B_{12}$ = 3 in this case
+	- If you have something with one index, write it as a vector
+	- Compute matrix b times vector a
+		- $[B][a]$ 
+		- Can use the row column rule
+	- [[Indicial notation]] is an alternative way to write matrix times vector
+		- Since they're all numbers, don't have to worry about order
+		- The order is taken care by the indices themselves
+		- With matrix and matrix, you need to be careful with the order
+		- Gives us inner products in $a_ib_i$ sense
+	- For part d, will use the [[inner product]] of $[a] \cdot [b]$

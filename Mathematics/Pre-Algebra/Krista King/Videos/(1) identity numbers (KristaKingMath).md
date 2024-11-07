@@ -1,0 +1,21 @@
+.[Video](https://youtube.com/watch?v=e5jYmeu26C4)
+
+- Identity properties (or identity numbers)
+	- There is an identity number for addition and a different identity number for multiplication
+- Identity number for addition is 0.
+	- Can always add 0 to something and keep its identity (number won't change)
+- Identity number for multiplication is 1.
+	- Can always multiply 1 to something and keep its identity (number won't change)
+- Simplify the expressions
+	- Examples 1
+		- x+0 = x
+		- $x*1$ = x
+	- Examples 2
+		- 4 + 0 = 4
+		- $4 *1 = 4$ 
+	- Examples 3
+		- 1000 + 0 = 1000
+		- $1000 * 1 = 1000
+	- Examples 4
+		- xyz+0 = xyz
+		- $xyz*1 = xyz$

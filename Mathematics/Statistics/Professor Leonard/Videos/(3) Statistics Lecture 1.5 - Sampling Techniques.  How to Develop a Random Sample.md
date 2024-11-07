@@ -1,0 +1,70 @@
+[Video](https://youtube.com/watch?v=MfkJu7J1LE4)
+
+- Section 1.4 not covered much in class
+- Design experiments
+- Data must be collected randomly
+- Chapter 2 is frequency distributions
+
+- Design of [[experiments]]/[[observation]]
+	- How subjects treated. Doing something to subjects and not.
+	- We're talking about the subjects of the study
+	- <mark style="background: #FFF3A3A6;">Obs. (Measures Specific Traits But Does Not Modify the Subjects)</mark>
+		- Examples:
+			- counting blonde hair
+			- Observe how they react when polling (like asking for president) Observing how others respond to your question
+	- <mark style="background: #FFF3A3A6;">Exp. (apply a treatment and then measure the effect on the subjects)</mark>
+		- Examples
+			- Spray people with blond hair then count blond hair. This is an experiment
+			- Experiment would be like a drug treatment (or drug testing)
+				- Give a placebo
+				- Give control group actual drug
+				- Measure test group vs control group to see if there is an affect
+				- If not modifying, then it's an experiment.
+				- Observe effects on subject
+- When collecting data, must be random
+- [[Random]](Each member of a population has an equal chance of being selected in the sample)
+	- No single person would be predicted to be in that sample
+	- Each member of population has equal chance of being selected
+	- Picking name out of hat
+	- <mark style="background: #FFF3A3A6;">Every individual has equal chance of being selected</mark>
+- [[Simple Random Sample]] (Each group of size "n" has an equal chance of being selected)
+	- Any group of same size has equal likelihood of being selected
+	- Says that no single group can be singled out
+	- Group
+	- Every group of 5 names has equal chance of being selected
+	- The "n" is just a variable in this case
+- <mark style="background: #FFF3A3A6;">4 Common sampling Techniques</mark>
+	- (1) [[Convenience Sample]]: <mark style="background: #FFF3A3A6;">(Use the results that are easy to get (not random)</mark>
+		- Calling friend could be good because they're convenient
+		- If Hopkinton is population, then only getting people to take a survey on the street at the specific time
+	- (2) [[Systematic Sampling]]: (Put a pop. in some order and select every  $k^{th}$ member
+		- pick every kth person on a list. Could be picking every 3rd person. Not excluding anyone, just so happened randomly that you're picking the 3rd or 4th person
+		- Not signifying group or person
+		- Can use systematic on each subgroup in stratified sample
+	- (3) [[Stratified Sample]]: Break pop. into subgroups based on a characteristic, then sample each subgroup
+		- stratified means layers
+		- Want people in each layer of population
+		- stratosphere is broken up into layers
+		- layers of atmosphere
+		- Atmosphere is stratified. Split into multiple layers.
+		- Put everyone on California, could miss a group of people
+		- Break population into groups but some characteristic
+			- Caucasian
+			- Hispanic
+			- African American
+			- Then pull some each group to make sure every group is represented
+		- Break population into subgroups and then take a random sample of each subgroup
+	- (4) [[Cluster Sample]]: Divide population into "clusters" (regardless of characteristic), randomly select a certain number of clusters, and then collect data from the entire cluster
+		- every block of 4 people is a cluster
+		- 4 group little clusters (not based no characteristics. Could use zip codes or area codes if you wanted to.)
+		- Break population into groups that are not necessarily similar
+		- Pick random numbers of clusters and
+		- Going to pick every other group of 4. 
+		- Randomly selected groups and then pulling each group randomly
+		- No characteristics from groups, randomly select groups and then pull everyone from it
+
+- Two types of errors when sampling
+	- If classroom population. Randomly select 6 people for sample of everyone
+		- They won't have same characteristics of whole classroom and won't represent you well
+		- [[Non-sampling error]]: math error or writing information down wrong
+		- [[Sampling error]]: difference in characteristics between sample and population. Won't represent 100% correctly. Just due to the random chance of sampling

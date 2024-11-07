@@ -1,0 +1,35 @@
+[Video](https://www.youtube.com/watch?v=L-ta6mIJQ0Y)
+
+- ![[Screenshot 2023-10-16 at 6.09.30 PM.png]]
+	- [[Polynomial function]]
+		- $f(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_2x^2 + a_1x + a_0$ 
+			- Only one variable so f(x) is a function of x
+			- x terms are raised to unique powers
+				- Unique because no 2 terms of x have the same power
+		- Powers of 'x' $\to$ Positive integers or zero
+		- [[Coefficients]] of 'x' terms $\to$ $a_0, a_1, a_2, ...a_n$
+			- These coefficients are real
+		- Terms can be written in increasing or decreasing powers of 'x'
+		- Writing terms in descending order of power of 'x' $\to$ [[Standard form]]
+	- Can we say the [[degree]] of a function f(x) is n?
+		- Happens when highest power of 'x' is raised to 'n'
+		- $a_n$ $\ne$ 0
+			- Otherwise, degree of polynomial would be $n-1$ 
+	- $a_n$ is the [[leading coefficient]]
+		- This is because the leading coefficient is the coefficient of the 'x' term with the highest power 'n'
+	- Power of x in terms below is 0, 1 and 2 respectively
+		- [[Constant term]]
+			- $a_0$
+		- [[Linear term]]
+			- $a_1x$ 
+		- [[Quadratic term]]
+			- $a_2x^2$ 
+	- Following functions polynomial or not?
+		- f(x) = 5 is a polynomial function of degree 0
+	- $2x^\frac 45$ 
+		- Not a polynomial function since x is raised to a fraction of a power
+		- Power of x can only be a nonnegative integer for it to be a polynomial
+	- $\frac {6}{x^2}$ 
+		- Not a polynomial function since the x has a power raised to a negative number
+	- A polynomial function can have some x terms missing
+		- $f(x) = x^4 + x$ 

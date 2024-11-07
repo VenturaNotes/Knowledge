@@ -1,0 +1,24 @@
+[Video](https://youtube.com/watch?v=9RX7WlGQyO0)
+
+- ![[Screenshot 2024-01-16 at 4.51.50 PM.png]]
+	- Slide 8 - Pros and Cons of proof by contradiction
+		- Pros:
+			- It gives you two things to work with (P and $\lnot$ Q)
+			- Often the proofs are short
+		- Cons
+			- The proofs are not [[constructive]] (e.g. Euclid's proof does not tell you how to make large prime numbers)
+			- It's not always clear what contradiction to aim for
+			- It can make messy / confusing proofs
+	- Slide 9 - What technique should I use?
+		- [[Direct]] Is good for "definition unwinding" proofs
+		- [[Contrapositive]]: Very similar to direct, but when $\lnot Q$ and $\lnot P$ are easier to work with. (e.g. x + y = 0 is easier to work with than x + y $\ne 0$)
+		- [[Contradiction]]: Good for statements of the form "no weird things exist" (If the things are sufficiently weird, then assuming it exists should produce a contradiction)
+		- Exercise: What technique should you use to prove these statements?
+			- $\sqrt{2}$ is irrational: 
+				- Contradiction
+			- Direct
+			- Contrapositive
+	- Slide 10 - Reflection
+		- What types of proofs are constructive, and which are non-constructive?
+		- What are the advantages and disadvantages of both?
+		- What are some reasons why you might want to use proof by contradiction?

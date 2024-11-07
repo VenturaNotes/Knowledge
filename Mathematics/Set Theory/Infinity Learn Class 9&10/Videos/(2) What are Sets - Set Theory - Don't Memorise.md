@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=l3-A0O42Lyo)
+
+- ![[Screenshot 2023-03-28 at 8.02.06 PM.png]]
+	- Sets are a collection of things
+	- List of things you can see
+		- Tree, Cellphone, Dog, Person
+	- List of things you Cannot See
+		- Oxygen, Heat
+	- A set is a collection of elements but they have to be <mark style="background: #FFF3A3A6;">related</mark> in some way.
+	- List of cricket playing nations you know of
+		- India, England, Australia, Pakistan...
+	- List Oceans we've heard of (there are 5)
+		- Pacific
+		- Atlantic
+		- Indian
+		- Southern
+		- Arctic
+	- Can we make a set of elements for all the questions we're asked for?
+		- The answer is no.
+		- We can't make a set of the good teachers we know because my idea of a good teacher may be completely different than someone else's. 
+		- Can't make a list of intelligent students either as "intelligent" is not well-defined.
+	- <mark style="background: #FFF3A3A6;">All elements in a set should be related and well-defined</mark>

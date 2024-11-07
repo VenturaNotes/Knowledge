@@ -1,0 +1,47 @@
+[Video](https://youtube.com/watch?v=-T-RYh3eN7I)
+
+- ![[Screenshot 2024-01-16 at 3.14.28 PM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to
+			- (1) Create the negation of an English statement
+			- (2) Formally negate a mathematical statement involving AND, NOT, IF/THEN
+			- (3) Formally negate a mathematical statement involving multiple quantifiers
+	- Slide 3 - Motivation and first examples
+		- Motivation
+			- The [[negation]] of a mathematical statement is the formal way of taking its "opposite"
+		- Note. When trying to get intuition fora a negation of a statement R, it is helpful to ask "If someone said R to me, what would I need to know to be sure that they are lying?"
+	- Slide 4 - Negations of and/or
+		- Example. Let P: "I am tall", and Q: "I play basketball"
+			- (1) If someone says P $\land$ Q, the negation is ($\lnot P$) $\lor$ ($\lnot Q$): I am short or I don't play basketball
+			- (2) If someone says P $\lor$ Q, the negation is ($\lnot P$) $\land$ ($\lnot Q$): I am short and I don't play basketball
+				- You'd have to know both need to be false for them to be lying based on the truth table for $\lor$ 
+		- [[DeMorgan's laws]]
+			- $\lnot$(P $\land$ Q) is logically equivalent to ($\lnot P$) $\lor$ ($\lnot Q$)
+			- $\lnot$(P $\lor$ Q) is logically equivalent to  ($\lnot P$) $\land$ ($\lnot Q$)
+		- Can prove they're logically equivalent with a truth table
+	- Slide 5 - Exercise
+		- Exercises
+			- Express the following statements using and/or
+- ![[Screenshot 2024-01-16 at 3.28.12 PM.png]]
+	- Slide 6 - Negation of [[Implication|implications]]
+		- $\lnot (P \implies Q)$ is logically equivalent to P $\land$ ($\lnot Q$)
+	- Slide 7 - Negations of [[Universal Quantifier|universal quantifiers]]
+		- $\lnot (\forall x \in A, P(x))$ is logically equivalent to $(\exists x \in A)[P(x)]$
+	- Slide 8 - Proof technique for universal quantifiers
+		- Proof technique (universal quantifiers)
+			- To prove $(\forall x \in A) [P(x)]$ is true, you must show that every x in A has the property P(x)
+				- Note: No, one example is not enough to prove a [[universal statement]]
+		- Proof technique (negation of universal quantifiers)
+			- To prove " $\lnot (\forall x \in A) [P(x)]$" is true, you need to find only one example of an x in A that does not have the property P(x). (This x is called a [[counterexample]])
+	- Slide 9 - Negations of [[Existential Quantifier|existential quantifiers]]
+		- Example 2. "There is a person in this course who is over 150 years old"
+		- Negation: "Every person in this course is under (or exactly) 150 years old"
+		- Negation of existential quantifiers
+			- $\lnot(\exists x \in A, P(x))$ is logically equivalent to $(\forall x \in A)[\lnot P(x)]$
+- ![[Screenshot 2024-01-16 at 3.31.10 PM.png]]
+	- Slide 10 - Proof technique for existential quantifiers
+		- Proof technique (existential quantifiers)
+			- To prove  $(\exists x \in A)[P(x)]$ is true, you must show that there is at least one x in A that has the property P(x)
+				- Note: Yes, one example is enough to prove an [[existential statement]]
+		- Proof technique (negation of existential quantifiers)
+			- To prove  $\lnot(\exists x \in A)[P(x)]$ is true, you need to show that all x in A that do not have the property P(x)

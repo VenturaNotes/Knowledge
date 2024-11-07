@@ -1,0 +1,25 @@
+[Video](https://www.youtube.com/watch?v=aa_deKPDgI4)
+
+- ![[Pasted image 20230429223803.png]]
+	- The Empirical Rule for Normally Distributed Data
+- ![[Screenshot 2023-04-29 at 10.45.10 PM.png]]
+	- Let's say we have a random variable, x, distributed as such:
+		- I want to know: What percentage of scores fall above 4.25
+	- Can convert the 4.25 into a z-score
+		- Need to know
+			- x
+			- population mean
+			- population standard deviation
+	- A z-score of 0.25 means that a score of 4.25 is about 0.25 standard deviations above the mean
+		- With z-score, we can find the blue-shaded area
+- ![[Screenshot 2023-04-29 at 10.45.42 PM.png]]
+	- Z Table
+		- Shows us all the proportions and areas associated with different z-scores:
+			- [[Body]]: Bigger Area
+			- [[Tail]]: Smaller area
+		- Always deals with area in <mark style="background: #FFF3A3A6;">Body</mark> in example Z Table. However, some tables may give area of Tail
+			- Could also tell the area between the mean and Z
+- Important Terms
+	- Z-Score
+	- Body
+	- Tail

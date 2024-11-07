@@ -1,0 +1,44 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLBh2i93oe2qsygnSiFht0_A6Sc3qaqwfX
+Length: 1 hour, 28 minutes, 55 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) Kronecker Delta]]
+- Incomplete
+	- [[(2) Levi-Civita Symbol]]
+	- [[(3) Nabla Symbol]]
+	- [[(4) Factorial]]
+	- [[(5) Gamma Function]]
+	- [[(6) Composition]]
+	- [[(7) Sum Symbol]]
+	- [[(8) Product Symbol]]
+	- [[(9) Restriction]]
+	- [[(10) Pauli Matrices]]
+	- [[(11) Set Brackets]]
+	- [[(12) Big O]]
+	- [[(13) Binomial Coefficient]]
+	- [[(14) Modulo]]
+	- [[(15) Beta Function]]
+	- [[(16) Map Arrows]]
+	- [[(17) Little o]]
+	- [[(18) Outer Product]]
+	- [[(19) Euler's Phi Function]]
+	- [[(20) Laplace Operator]]
+	- [[(21) Convolution]]
+	- [[(22) Heaviside Function]]
+	- [[(23) Quaternions]]
+	- [[(24) Infinity]]
+	- [[(25) Element Symbol]]
+	- [[(26) Empty Set]]
+	- [[(27) Subset Symbol]]
+	- [[(28) Partial d]]
+	- [[(29) D'Alembert Operator]]
+	- [[(30) Inner Product]]
+	- [[(31) Integral Symbol]]
+	- [[(32) Closed Line Integral]]
+	- [[(33) Natural Numbers]]
+	- [[(34) Integers]]

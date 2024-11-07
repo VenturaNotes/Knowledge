@@ -1,0 +1,52 @@
+[Video](https://www.youtube.com/watch?v=yIdECC6QExY)
+
+- ![[Screenshot 2023-10-11 at 3.39.55 AM.png]]
+	- Will talk about how to form new [[sets]]
+		- Comes from logic and called [[predicate]]
+			- n is an even number
+			- x is an animal
+			- y + 8 = 9
+			- Variables are just placeholders
+				- When put in a chosen object, you get out a logical statement
+	- [[Predicate]]
+		- An expression with undetermined variables that ascribes a property to objects filled in for the variables.
+	- Form new sets: {$x \in \mathbb{N} | x \text{ is an even number}$}
+		- The set of all x in $\mathbb{N}$ that satisfy x is an even number
+		- This set contains each element from the bigger set that gives a true logical statement when putting it into the predicate
+			- Bigger set = $\mathbb{N}$
+			- predicate = $x$ is an even number
+				- The element relation we have for sets is always a predicate
+	- How many objects satisfy the [[predicate]]?
+	- [[Quantifiers]]
+		- [[For all]]: $\forall$ 
+			- You go through all the objects and you would use the correct variable and put it right next to it
+			- $\forall x$
+				- Read as "for all x"
+		- [[It exists]]: $\exists$ 
+			- Find at least one object and we use the correct variable such as x
+			- $\exists x$ 
+				- Read as "it exists at least one object x" or "it exists x"
+	- We always combine a [[quantifiers|quantifier]] with a [[predicate]]. What comes out is a [[Proposition|logical statement]].
+	- Example
+		- $\forall x : x \text{ is a planet}$ 
+			- Since we go through all the objects x and check each object if it's a planet, we don't have any undetermined variable left. Therefore, we get out a logical statement with a well-defined truth value
+				- Not every object is a planet so false
+	- The exists quantifier always has an "at least" in the meaning
+	- [[Equality for sets]]: 
+		- Two sets A, B are the same written as A = B if $\forall x$ : x $\in$ A $\iff$ x $\in$ B is true
+			- Two sets should be the same when they contain the same elements
+	- [[colon-equals symbol]]
+		- Can assign left to right or right to left
+			- $C := \{2, 3, 5\}$
+			- $\{3, 5, 2\} =: D$
+				- The colon tells you where the new name is introduced
+- ![[Screenshot 2023-10-11 at 3.41.42 AM.png]]
+	- {2, 3, 5} = {2, 2, 2, 3, 3, 5}
+		- Two sets are equal even when elements are repeating (though repeating elements not typically represented)
+	- [[Subsets]]
+		- For two sets A, B, we write A $\subseteq$ B if is true (note that sometimes the line underneath is omitted)
+		- $\forall x : x \in A \to x \in B$ 
+			- Short notation: $\forall x \in A : x \in B$ 
+		- We call A a [[subset]] of B.
+			- (We can also write B $\supseteq$ A)
+				- Can be helpful to write subset on righthand side

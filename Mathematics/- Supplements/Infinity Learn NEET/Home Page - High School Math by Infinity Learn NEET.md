@@ -1,0 +1,56 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLmdFyQYShrjf2BlDFvO-kHT2ftf05yxfR
+Length: 3 hours, 46 minutes, 30 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) Binomial Theorem - General Formula  - Don't Memorise]]
+	- [[(2) Pascal's Triangle and the Binomial Theorem  - Don't Memorise]]
+	- [[(3) Linear Programming - Introduction  - Don't Memorise]]
+	- [[(4) Linear Programming - Graphical Solution  - Don't Memorise]]
+	- [[(5) Linear Programming - Formulation 1  - Don't Memorise]]
+	- [[(6) Cartesian Product of Two Sets  - Don't Memorise]]
+	- [[(7) What is a Relation.  - Don't Memorise]]
+	- [[(8) Relation - Image, Range, Domain, Codomain  - Don't Memorise]]
+	- [[(9) Functions - Types of Mapping  - Don't Memorise]]
+	- [[(10) Modulus Function - Graph  - Don't Memorise]]
+	- [[(11) Polynomial Functions  - Don't Memorise]]
+	- [[(12) Introduction to Inductive and Deductive Reasoning  - Infinity Learn]]
+	- [[(13) Principle Of Mathematical Induction  - Don't Memorise]]
+	- [[(14) Mathematical Statements  - Mathematical Reasoning  - Don't Memorise]]
+	- [[(15) Negation of a Statement  - Don't Memorise]]
+	- [[(16) Conditional Statements & Converse Statements  - Mathematical Reasoning  - Don't Memorise]]
+	- [[(17) What are Conic Sections.  - Don't Memorise]]
+	- [[(18) Standard Equation of Circle  - Conic Sections  - Don't Memorise]]
+	- [[(19) What is Parabola.  - Conics  - Don't Memorise]]
+	- [[(20) Equation of Parabola (Part 1)  - Don't Memorise]]
+	- [[(21) What is Ellipse.  - Don't Memorise]]
+	- [[(22) Equation of Ellipse ( Part 1)  - Don't Memorise]]
+	- [[(23) Hyperbola (Part 1)  - Conic Sections  - Don't Memorise]]
+	- [[(24) Angle and its Measurement - Part 1  - Trigonometry Basics  - Don't Memorise]]
+	- [[(25) Trigonometric Identities - Part 2  - Don't Memorise]]
+- Incomplete
+	- [[(26) What are Vectors.  - Don't Memorise]]
+	- [[(27) Types of Vectors  - Don't Memorise]]
+	- [[(28) Triangle Law of Vector Addition  - Don't Memorise]]
+	- [[(29) Domain and Range of Trigonometric Functions - Part 1  - Don't Memorise]]
+	- [[(30) Parallelogram Law of Vector Addition  - Infinity Learn]]
+	- [[(31) Addition of Vectors and Subtraction of Vectors - Part 1  - Infinity Learn]]
+	- [[(32) Components of a Vector (Part 1)  - Unit Vectors  - Don't Memorise]]
+	- [[(33) Binomial Theorem - Why do we need it.  - Don't Memorise]]
+	- [[(34) Calculus - Introduction to Continuous and Discontinuous Functions  - Don't Memorise]]
+	- [[(35) Calculus - Understanding the definition of Continuity at a Point  - Don't Memorise]]
+	- [[(36) Calculus - Relation between Continuity & Differentiability - Part 1  - Don't Memorise]]
+	- [[(37) Calculus - Application of Derivatives - Course Structure  - Don't Memorise]]
+	- [[(38) Calculus - What are Integrals.  - Don't Memorise]]
+	- [[(39) Calculus - Integration as an Inverse Process of Differentiation  - Don't Memorise]]
+	- [[(40) Calculus - Area under Simple Curves  - Don't Memorise]]
+	- [[(41) Calculus - Example on Area under Simple Curves - Don't Memorise]]
+	- [[(42) Calculus - Order and Degree of a Differential Equation  - Don't Memorise]]
+	- [[(43) Calculus - Examples on Order and Degree of a Differential Equation  - Don't Memorise]]
+	- [[(44) Direction Angles - Part 1  - Don't Memorise]]
+	- [[(45) Introduction to Conditional Probability  - Don't Memorise]]
+	- [[(46) Example on Conditional Probability  - Don't Memorise]]

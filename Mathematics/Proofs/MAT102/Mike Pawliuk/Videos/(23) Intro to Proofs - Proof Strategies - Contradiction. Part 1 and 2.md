@@ -1,0 +1,35 @@
+[Video](https://youtube.com/watch?v=oYqsHku_W4E)
+
+- ![[Screenshot 2024-01-16 at 4.32.20 PM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to
+			- Explain the logic of a proof by contradiction
+			- Produce a proof by contradiction
+			- Decide which proof technique (direct, contrapositive, [[contradiction]]) is most appropriate
+	- Slide 3 - Story about Avocados and Guacamole
+		- Guacamole is a dip made from avocados
+		- Starting thing was wrong
+	- Slide 4 - [[Proof by contradiction]]
+		- Proof technique (P $\implies$ Q) - Contradiction
+			- To prove P $\implies$ Q, by contradiction: Assume P. Assume $\lnot$Q. Derive a contradiction. (Conclude Q)
+			- Errata
+				- We will look at three examples: one mild, one "medium", one spicy
+	- Slide 5 - Example 1
+		- An integer x is [[even]] if and only if $(\exists x \in \mathbb{Z})[x = 2k]$
+		- An integer x is [[odd]] if and only if $(\exists m \in \mathbb{Z})[x = 2m +1]$ 
+		- Theorem
+			- If x is even, then x is not odd
+				- $\rightarrow \leftarrow$ 
+					- Indicates a [[contradiction]]
+- ![[Screenshot 2024-01-16 at 4.41.57 PM.png]]
+	- Slide 6 - Example 2
+		- Exercise: Prove the following using a proof by contradiction
+			- Theorem
+				- There are no natural numbers x, y with $x^2 - y^2 = 1$
+	- Slide 7 - Example 3
+		- [[Lemma]]: If n $\in$ $\mathbb{N}$ and n > 1, then there is a [[prime number]] p such that p|n
+		- Theorem ([[Proof due to Euclid]])
+			- There are infinitely many prime numbers
+		- "Suppose not" is another way to indicate to the reader the following proof is by [[contradiction]]
+		- Proof
+			- Suppose not. Let $p_1, p_2, ...,p_n$ be the list of all prime numbers. Let $N=p_1*p_2*p_3...*p_n + 1$. By the lemma, there is a $p_i$ so that $p_i|N$. However, this is impossible, since dividing N by $p_i$ will have a remainder of 1. $\implies\impliedby$ 

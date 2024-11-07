@@ -1,0 +1,24 @@
+[Video](https://youtube.com/watch?v=j1BYA2G1qkc)
+
+- ![[Screenshot 2024-01-23 at 2.27.00 AM.png]]
+	- Slide 8 - Functions and Compositions
+		- This is a fundamental result in math. Look for it in every math course
+		- Theorem
+			- The composition of any two injections is an [[injection]]
+			- The composition of any two surjections is a [[surjection]]
+			- The composition of any two bijections is a [[bijection]]
+			- Secret for now
+		- Proof of 1 is an important exercise
+	- Slide 9 - (4) The composition of any two surjections is a surjection
+	- Slide 10 - Secret Theorem (Socks and shoes)
+		- [[inverse]]
+			- $(g \circ f)^{-1} = f^{-1} \circ g^{-1}$ 
+	- Slide 11 - Secret Theorem (Socks and Shoes)
+		- Theorem
+			- Let $f: A \to B$ and $g: B \to C$ be bijections. Then $(g \circ f)^{-1}$ = $f^{-1} \circ g^{-1}$ 
+- ![[Screenshot 2024-01-23 at 2.27.46 AM.png]]
+	- Slide 12 - Reflection
+		- Does the order in which you compose functions matter?
+		- For $g \circ f$, why do we need ran(f) $\subseteq$ dom(g)?
+			- g composed with f
+		- How do socks and shoes relate to inverse functions?

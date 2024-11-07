@@ -1,0 +1,38 @@
+[Video](https://youtube.com/watch?v=YdqSU4AIfHk)
+
+- ![[Screenshot 2024-01-09 at 3.18.30 AM.png]]
+	- Slide 2 - Learning Objective (for this video)
+		- By the end of this video, participants should be able to
+			- Identify plausible set identities
+			- Identify plausible locations for counterexamples to a false set identity
+			- Prove a [[set identity]] using the [[double subset technique]]
+	- Slide 3 - Motivation
+		- Motivation
+			- How can we identify when a set identity is true or false?
+		- Which of the following statements are true for all sets A, B, C?
+	- Slide 4 - [[Counterexample]]
+		- Idea: Use a diagram to help us find why they are not the same, and where to find a counterexample
+			- A diagram on its own is not a proof
+	- Slide 5 - [[double subset technique|Double subset]]
+		- Theorem
+			- For all sets A, B, C we have A $\times$ (B $\cup$ C) = (A $\times$ B) $\cup$ (A $\times$ C)
+				- You can distribute the [[cartesian product]] across [[Union|unions]]
+		- Example of [[definition unwinding]] proof
+			- Using the logical identity $P \land (Q \lor R) \equiv (P \land Q) \lor (P \land R)$
+				- This is known as the [[distributive law]]
+		- The $\supseteq$ direction is an exercise for you
+- ![[Screenshot 2024-01-09 at 3.40.05 AM.png]]
+	- Slide 6 - Set identity using iff
+		- [[DeMorgan's Laws|DeMorgan's Law]] for sets
+			- For sets A, B, C we have A $\backslash$ (B $\cup$ C) = (A $\backslash$ B) $\cap$ (A $\backslash$ C)
+				- If you subtract a union, it becomes the intersection of two subtractions
+			- Definition of [[intersection]]
+				- $x \in (A \backslash B) \cap (A \backslash C)$ is equivalent to $x \in (A \backslash B) \land (x \in A \backslash C$)
+			- Unwind definition of [[Difference of sets|set difference]]
+			- We know that P $\equiv$ P $\land$ P by [[Idempotent Laws]]
+			- P $\land$ Q $\equiv$ Q $\land$ P is true by [[Commutative Laws|commutative law]]
+		- Used many logic identities
+	- Slide 7 - Reflection
+		- How are set identities related to identities in logic?
+		- What is a way to search for a counterexample systematically, and not randomly?
+		- What set identity corresponds to the logic identity A $\backslash$ (B $\cap$ C) = (A $\backslash$ B) $\cup$ (A $\backslash$ C)

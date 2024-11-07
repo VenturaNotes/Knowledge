@@ -1,0 +1,26 @@
+[Video](https://youtube.com/watch?v=0uSQBTMvTO8)
+
+---
+- ![[Screenshot 2023-05-12 at 10.48.59 AM.png]]
+- Practice Problems
+	- Are the following arguments valid?
+		- (1) <mark style="background: #FFF3A3A6;">Valid</mark>
+			- No fish can talk
+			- Nemo is a fish
+			- ============
+			- Nemo cannot talk
+		- (2) <mark style="background: #FF5582A6;">Invalid</mark>
+			- All mosquitoes fly
+			- All helicopters fly
+			- ==============
+			- A mosquito is not a helicopter
+		- (3) <mark style="background: #FF5582A6;">Invalid</mark>
+			- Some students use TikTok
+			- Miguel is a student
+			- ====================
+			- Miguel uses TikTok
+		- (4)  <mark style="background: #FFF3A3A6;">Valid</mark>
+			- No fractions are integers
+			- $\frac 25$ is a fraction
+			- ==================
+			- $\frac 25$ is not an integer

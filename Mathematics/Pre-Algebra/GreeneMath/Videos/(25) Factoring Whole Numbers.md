@@ -1,0 +1,129 @@
+[Video](https://www.youtube.com/watch?v=_QfaweIiYnw) (unavailable)
+[07:12:10](https://www.youtube.com/watch?v=VXzm8ReImG0&t=25930s)
+
+- Lesson Objectives:
+	- Learn how to determine if a [[Whole Numbers|whole number]] is [[prime]], [[composite]], or neither
+	- Learn to write a whole number as the product of [[prime factors]]
+		- finding the [[prime factorization]] of a number
+	- A [[prime number]] is a whole number larger than 1, that is only divisible by itself and 1
+		- Whole numbers: 0, 1, 2, 3, 4, 5, ...
+			- Increases in increments of 1 indefinitely
+			- 3 dots tells us that the pattern continues forever
+			- Numbers 2 and greater are the ones that are possibly prime
+		- divisible means divide without a remainder
+	- Have to exclude 0 since you can't divide by itself and 1 since it's not larger than 1
+	- 2 is the first [[prime number]]
+	- 3 is a prime number
+	- 4 is not prime because divisible by 2
+	- 5 is a prime number
+		- By checking 4, 3, and 2, we can find that 5 is not divisible by these numbers
+- 2 is the only even prime number
+	- Any even number larger than 2 is divisible by 2 and therefore not a prime number
+- A [[composite number]] is a whole number greater than 1 and is divisible by some number other than itself and 1
+	- 4 is a composite number because divisible by 2
+- What about 0 and 1? The numbers 0 and 1 are not prime or composite. They are neither!
+- Determine if each number is prime, composite, or neither.
+	- 11 (prime)
+		- Exclude testing 11 and 1. Instead find the numbers in-between
+		- Need to test 2, 3, 4, 5, 6, 7, 8, 9, 10
+			- Not 2, 4, 6, 8 or 10 because 11 is odd
+				- 3, 5, 7, 9 left over
+					- divisible by 3 if sum digits is divisible by 3
+						- 1 + 1 = 2 $\div$ 3 has remainder of 2
+				- 5, 7 left
+					- since 11 doesn't end in 5 or 0, 11 is not divisible by 5
+				- 7 left
+					- 11 $\div$ 7 = 1R4
+		- Shortcut
+			- $3^2$ = 9
+				- The square root is the opposite of this
+			- $\sqrt9$ = 3
+				- just thinking about positive values for now
+			- $\sqrt11$ gives 3.31. Next highest whole number is 4. All you need to do is test all the prime numbers up to and including 4 if 4 was prime.
+				- Only prime you need to test is 3.
+			- $\sqrt{113}$ gives around 10.63
+				- Would test all prime numbers up to and including 11
+					- 3, 5, 7, and 11 needed to test
+	- 15 (composite)
+		- We see it's divisible by 5
+	- 23 (prime)
+		- $\sqrt{23}$  $\approx$ 4.79 so test prime numbers that are up to and including 5
+			- Just need to test 3 and 5
+			- 2 + 3 = 5
+				- 5 not divisible by 3
+				- Not divisible by 5 since final digit is neither 0 or 3
+	- 22 (composite)
+		- divisible by 2
+- Find prime factorization of a number
+	- Take a number and break it down into the product of prime factors
+- Recall that two or more numbers that are multiplied together are known as factors
+	- 6 x 3 = 18
+		- 6 and 3 are factors (that we'll multiplying together)
+		- 18 is the result (product)
+	- 7 x 8 x 3 = 168
+		- 7,8,3 are factors and 168 is a product
+- Factors that are prime numbers are known as prime factors
+	- In 10 = 5 x 2
+		- 5 and 2 are both prime numbers but also prime factors
+	- In 30 = 3 x 10
+		- 3 is a prime factor but 10 is not
+- It is often useful to write a number a number as the product of prime factors
+- To write a number as the product of prime factors, we continue to factor each factor until it's prime.
+	- ![[Screenshot 2022-12-15 at 12.46.14 AM.png]]
+		- This is known as finding the prime factorization of a number
+- Let's try to write 60 as the product of prime factors:
+	- ![[Screenshot 2022-12-15 at 12.46.57 AM.png]]
+- Using a factor tree can help you organize your work
+	- It's a visual aid to help you find the prime factorization of a number
+- Using a Factor Tree
+	- Write the number to be factored and extend two lines below
+		- ![[Screenshot 2022-12-15 at 12.48.24 AM.png]]
+			- Branches
+	- List any two factors of the number (place each under one of the lines)
+		- ![[Screenshot 2022-12-15 at 12.49.43 AM.png]]
+			- Find any 2 factors
+	- Circle any prime factors
+		- ![[Screenshot 2022-12-15 at 12.50.03 AM.png]]
+			- 5 is circled because it's prime
+	- For any factors that are not prime, we repeat the process:
+		- extend two branches
+		- list any two factors
+		- circle the prime factors
+	- ![[Screenshot 2022-12-15 at 12.50.53 AM.png]]
+		- Process was repeated and we got 5, 2 and 2 as our prime factors
+		- 20 = 5 x 2 x 2 = 5 x $2^2$ 
+			- We usually use exponents to combine like factors
+- Let's look at some examples. We will look at 60 again using a factor tree
+	- ![[Screenshot 2022-12-15 at 12.53.27 AM.png]]
+		- More visually appealing
+		- Stop when a number is prime
+		- Multiplication is commutative
+	- ![[Screenshot 2022-12-15 at 12.55.50 AM.png]]
+		- Great idea to know your divisibility rules. Since final digit is 5, we know it's divisible by 5
+		- Since 20 x 5 = 100, we know that 19 x 5 = 95
+			- Could use long division as well
+		- Find $\sqrt{19}$ is about 4.35 and the highest whole number is 5
+			- You'll test 5 and 3 and see that 19 is a prime factor
+	- ![[Screenshot 2022-12-15 at 12.57.06 AM.png]]
+		- Divisibility rules shows 10 since final digit is 0
+		- Exponent is not required but makes it more convenient for us
+	- ![[Screenshot 2022-12-15 at 12.58.51 AM.png]]
+		- Divisible by 6 since it's divisible by 2 and 3
+			- It's an even number so divisible by 2
+			- It's digit sum is 9 which is divisible by 3
+		- Use long division to find how many times 6 goes into 126
+	- ![[Screenshot 2022-12-15 at 1.04.06 AM.png]]
+		- Divisible by 12
+			- Divisible by 4 because 28 is divisible by 4
+			- Divisible by 3 because 8 + 2 + 8 = 18$\div$ 3 = 6
+			- Long divide it to find $12*69 = 828$ 
+		- Divisible by 3
+			- Since 6 + 9 = 15 $\div$ 3 = 5
+			- Use long division to find 23
+		- Find $\sqrt{23}$ and you get about 4.79
+			- So next highest whole number is 5
+				- Check primes 3 and 5 to see if they're factors of 23
+	- ![[Screenshot 2022-12-15 at 1.05.19 AM.png]]
+		- Trailing 0 means divisible by 10
+		- Divisible by 4 and 3 so 12 goes into 432
+			- Need to use long division to find that $12 *36 = 432$ 

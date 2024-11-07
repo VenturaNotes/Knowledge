@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=PNfJq-QXKBk)
+
+- ![[Screenshot 2023-12-19 at 1.05.36 PM.png]]
+	- Slide 1 ([[Computational Complexity]])
+		- About the notion of [[NP-completeness]]
+		- A very informal perspective
+			- The class P consists of all "yes-no" questions for which the answer can be determined using an algorithm which is provable correct and has a running time which is [[polynomial]] in the input size
+				- Some people write script p, boldface p, or capital P
+			- Examples
+				- (1) Given a list of n number s, is 2388643 in the list?
+					- Is some specific integer in the list?
+					- This problem is in the class p
+						- Linear time
+				- (2) Given a list of n numbers, can you find there distinct numbers a, b and c in the list so that a + b = c?
+					- You write a loop for i=1 to n, j = i + 1 to n, k = j + 1 to n
+					- [[Running time]] is $O(n^3)$ 
+						- When we say runs in [[polynomial time]], it just means the running time is n to a constant for some constant and it's Big O of that
+							- 10, 3 and $10^{10}$ are nice constants
+				- (3) Given a [[graph]] G, does it have an [[Euler circuit]]?
+					- Input size is number of lines in file
+						- The input size for a graph is the number of edges. Could consider it to be the number of vertices because the number of [[edges]] is $O(n^2)$ 
+							- A polynomial in a polynomial is a polynomial

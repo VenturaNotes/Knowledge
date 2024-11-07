@@ -1,0 +1,37 @@
+[Video](https://www.youtube.com/watch?v=YHgVTUXnxpM)
+
+---
+- ![[Screenshot 2023-05-17 at 5.40.53 AM.png]]
+- Sine and Cosine
+	- $y = sin x$ and $y = cos x$ have no restrictions on their domain
+	- This makes sense given that all coordinates of the unit circle are defined and in the format of ($cosx$, $sinx$)
+---
+- ![[Screenshot 2023-05-17 at 5.47.01 AM.png]]
+- Tangent and Secant
+	- These functions are undefined for all values of t corresponding to the points $(0, 1)$ and $(0, -1)$ on the unit circle. This occurs from the definitions of these function with "x", or the value of $cos(x)$ is equal to zero
+	- Undefined at values x = $\frac {\pi n}{2}, \text{n is odd integer}$
+---
+- ![[Screenshot 2023-05-17 at 5.50.06 AM.png]]
+	- Errata
+		- Undefined points should be (1, 0) and (-1, 0)
+- Cotangent and Cosecant
+	- These functions are undefined for all values of t corresponding to the points (1, 0) and (-1, 0) on the unit circle. This occurs from the definitions of these function with "y", or the value of $sin(x)$ is equal to zero.
+---
+- ![[Screenshot 2023-05-17 at 5.54.31 AM.png]]
+- Summary of Domains of Trig Functions
+	- Function: 
+		- $sin(x) \text { and } cos(x)$
+			- Domain
+				- $\mathbb{R}$, All real numbers
+			- Notes
+				- No restrictions
+		- $tan(x) \text{ and } sec(x)$
+			- Domain
+				- $\{x | x \ne \frac {(2n + 1) \pi} {2} \forall n \in \mathbb{Z}\}$
+			- Notes
+				- Excludes odd multiples of $\frac {\pi}{2}$
+		- $cot(x) \text{ and } csc(x)$
+			- Domain
+				- $\{x | x \ne n\pi \forall n \in \mathbb{Z}\}$
+			- Notes
+				- Excludes multiples of $\pi$

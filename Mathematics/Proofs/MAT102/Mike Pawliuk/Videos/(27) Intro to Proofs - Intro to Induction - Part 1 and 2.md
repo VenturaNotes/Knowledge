@@ -1,0 +1,28 @@
+[Video](https://youtube.com/watch?v=xMLgHdAoRz4)
+
+- ![[Screenshot 2024-01-19 at 2.44.17 PM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this vide, participants should be able to:
+			- (1) Identify a type of statement that could be proved by [[induction]]
+			-  (2) Produce the structure of a proof by induction
+	- Slide 3 - Motivation
+		- Motivation
+			- Induction is a powerful proof technique that allows us to prove results about objects with [[self-similarity]] and [[symmetry]]. We will see many variations on it in this course
+	- Slide 4 - (1) Warm-up
+		- Observation. We can get from one equation to the next without re-computing everything
+	- Slide 5 - (2) Motivating Question
+		- For a natural number n, let P(n) be the statement
+- ![[Screenshot 2024-01-22 at 2.19.18 PM.png]]
+	- Slide 6 - (2) Motivating Question
+		- Idea of Induction
+			- (1) Show that P(1) is true
+			- (2) Show that P(n) $\implies$ P(n+1), for every n $\in$ $\mathbb{N}$
+		- Important Note: Part 2 is not saying: ($\forall$ n $\in$ $\mathbb{N}$)$[P(n)]$. It's saying "you can always move up one step".
+			- Just because an implication is true does not mean the conclusion is always true. You need the first part as well
+	- Slide 7 - (2) Motivating Example
+		- Theorem:
+			- $\forall$n $\in$ $\mathbb{N}$(P(n) $\to$ P(n+1))
+		- Proving a [[for all]] statement
+			- Need to pick an arbitrary n
+	- Slide 8 - (2) Motivating Example
+		- Shows picture

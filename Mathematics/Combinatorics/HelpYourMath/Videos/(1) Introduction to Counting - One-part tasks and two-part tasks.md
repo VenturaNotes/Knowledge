@@ -1,0 +1,30 @@
+[Video](https://www.youtube.com/watch?v=JYboz7v2vrU)
+
+- Counting Methods: Counting by Systematic Listing: One-part tasks and two-part tasks
+---
+- Counting!
+	- Counting refers to finding the number of objects, of some certain type, that exist.
+		- How many people sitting in room you're in
+		- How many ways can you get 2 of a kind and 3 of a kind in a 5 card hand of poker
+	- One Part Tasks
+		- The results for simple, one-part tasks can be listed easily.
+		- Such as listing the results of tossing a fair coin. The only possible outcomes are Heads and Tails, which we might abbreviate to H and T or {H, T}
+		- The possibilities of rolling a fair die (singular for dice) would be {1, 2, 3, 4, 5, 6}
+			- [[Sample space]]:  Lists of possible outcomes
+		- The listing of outcomes is called the Sample Space. Rolling a die provides six possible outcomes.
+---
+- [[One-Part Tasks]]
+	- (1) Consider a team with five members: Alex, Bev, Cora, Dave, and Eli.
+		- List the sample space: {A, B, C, D, E}
+		- How many ways could a team captain be selected?
+			- 5 ways: A, B, C, D, E
+---
+- [[Two-part Tasks]]
+	- Two-part tasks refer to two actions needed to determine the possible outcomes, such as flipping a coin and rolling a die.
+	- One common way to list the possible outcomes of two-part tasks is to create a <mark style="background: #FFF3A3A6;">product table.</mark>
+	- A [[product table]] is formed by the rows representing the possible outcomes from one task and the columns representing the possible outcomes of the other task
+---
+- ![[Screenshot 2023-05-14 at 5.21.07 AM.png|500]]
+- Product Tables for Two-Part Tasks
+	- Create a product table to determine the number of possible results of flipping a coin and rolling a die.
+	- There are 12 possible outcomes

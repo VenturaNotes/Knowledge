@@ -1,0 +1,87 @@
+[Video](https://youtube.com/watch?v=ttwh7USPbTA)
+
+- ![[Screenshot 2024-01-23 at 2.32.21 AM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- Define relative [[cardinality]]
+			- State and prove basic abstract results about cardinality
+	- Slide 3 - Motivation
+		- Example 1
+			- Do you have more fingers on your left or right hand
+				- Able to compare without counting
+		- Example 2
+			- Are there more people or chairs in this picture?
+	- Slide 4 - Motivation
+		- Every person has a chair associated with them
+		- Conclusion
+			- We have an assignment of each person to a different chair, and there are chairs left over. So there are more chairs than people
+	- Slide 5 - Motivation
+		- Observations
+			- (1) We don't need numbers to do this
+			- (2) We can measure relative quantities using the language of functions
+				- Injections, surjections, bijections
+- ![[Screenshot 2024-01-23 at 2.41.09 AM.png]]
+	- Slide 6 - Motivation
+		- Example 2
+			- What type of function is the assignment of people to chairs? (Domain, codomain, injective, surjective, bijective?)
+		- Conclusion
+			- It is a function f: {people in picture} $\to$ {chairs in picture} that is an injection (but not a surjection)
+				- It's an injection because there is no 2 people in the same chair
+				- If it's not a function, it would be one person split across 2 chairs
+			- Not a surjection since a chair is empty
+	- Slide 7 - Definitions
+		- Definitions
+			- Let A and B be two sets. We define
+				- $|A| \le |B|$ iff there is an [[injection]] f : A $\to$ B
+				- $|A| = |B|$ iff there is a [[bijection]] f: A $\to$ B
+			- We call |A| the [[cardinality]] of A
+		- Informally: |A| is the "number of elements in A. It has nothing to do with absolute values. We will not use this as our definition
+		- The definitions say how to compare cardinalities but not how to compute a given cardinality
+	- Slide 8 - Simple properties
+		- [[Lemma]]
+			- Let A, B, C be sets. Assume |A| $\le$ |B| and |B| $\le$ |C|. Then |A| $\le$ |C|
+		- Proof
+			- Assume |A| $\le$ |B| and |B| $\le$ |C|. So there are injections f: A $\to$ B and g: B $\to$ C
+			- Now g $\circ$ f: $A \to C$ is an injection from A to C (by lemma from section on compositions)
+			- So $|A| \le |C|$ 
+		- This is a proof by [[definition unwinding]]
+		- This property is like transitivity for relative cardinalities
+	- Slide 9 - (3) Other properties
+		- [[Lemma]]
+			- For all sets A, |A| $\le$ |A|
+			- For all sets A, $|A|$ = $|A|$
+			- For all sets A, B, if |A| = |B|, then |B| = |A|
+			- For all sets A,B,C if |A| = |B| and |B| = |B|, then |A| = |C|
+			- For all sets A, B, if |A| = |B|, then |A| $\le$ |B|
+		- Exercise: Prove all of these using the definitions
+- ![[Screenshot 2024-01-23 at 2.50.18 AM.png]]
+	- Slide 10 - (4) Cantor-Schroeder-Bernstein
+		- [[Cantor-Schroeder-Bernstein Theorem]]
+			- Let A, B be sets
+				- If |A| $\le$ |B| and $|B| \le |A|$, then $|A| = |B|$ 
+					- The first two definitions require injections
+					- The third one requires a bijection
+					- What asked to do, from two injections, create a bijection. This is not easy to do
+		- Note:
+			- This is not a trivial fact! It requires a lot of work to show
+		- Exercise
+			- Construct an injection
+			- Construct an injection
+			- Construct a bijection
+				- This is difficult and not obvious
+	- Slide 11 - (4) Cantor-Schroeder-Bernstein
+		- Useful [[Lemma]]
+			- If A $\subseteq$ B, then |A| $\le$ |B|
+		- Proof
+			- Let A $\subseteq$ B. Then f: $A \to B$ defined by f(x) = x is a desired [[injection]]
+		- Question: Is the [[converse]] true?
+			- No! For example $|\{1, 2\}| \le |\{4, 5, 6\}|$ , but {1, 2} $\nsubseteq$ {4, 5, 6}
+	- Slide 12 - Finite CSB
+		- Let A, B be finite sets. The following are equivalent
+			- $|A| \le |B|$ and $|B| \le |A|$
+			- $|A| = |B|$ 
+		- Exercise. This proof is much easier than the general CSB. (Where did you use finiteness?)
+	- Slide 13 - Reflection
+		- What is the definition of |A| $\le$ |B|?
+		- What are the sets A where |A| = $|\varnothing|$?
+		- What is the role of surjections in determining relative cardinality

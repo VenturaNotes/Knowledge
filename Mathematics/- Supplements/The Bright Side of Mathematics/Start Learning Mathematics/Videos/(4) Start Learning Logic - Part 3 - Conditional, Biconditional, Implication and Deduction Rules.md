@@ -1,0 +1,35 @@
+[Video](https://www.youtube.com/watch?v=53RSWIpxJxo)
+
+- ![[Screenshot 2023-10-11 at 2.15.04 AM.png]]
+	- [[Logical Operations]]
+		- [[Conditional]] (some people call it implication)
+			- A $\to$ B
+				- If A, then B
+			- When using doubled arrow $\implies$ means normal arrow $\to$ gives a [[tautology]]
+		- Since $A \land B \to B$ gives a tautology, 
+			- then we can write $A \land B \implies B$
+				- We actually call this one an implication. It is almost the normal conditional just with an extra bit of information 
+		- [[Biconditional]] (just a normal conditional in both directions)
+			- $A \leftrightarrow B$ 
+				- A if and only if B
+				- Truth values of both sides should coincide
+			- $\iff$ means $\leftrightarrow$ gives tautology
+	- [[Contraposition]]
+		- $A \to B$ $\iff$ $\lnot B \to \lnot A$ 
+			- You can change order of conditional but will need to add negation sign on both sides
+			- Left side
+				- If there is fog, then we have poor visibility.
+			- Right side
+				- If we don't have poor visibility, there is no fog
+	- [[Deduction rules]]: tells us how we get new two logical statements out of known two logical statements 
+		- (how to get new true propositions from other true propositions)
+		- Don't have to write down truth tables anymore because we can just apply the rules
+		- [[Modus ponens]]
+			- We have 2 [[antecedent|premises]]
+			- If A $\to$ B true and A true, then: B true
+				- Get out a third true statement
+		- [[Chain syllogism]]
+			- If $A \to B$ true and $B \to C$ true, then $A \to C$ true
+		- [[Reductio ad absurdum]]
+			- If $A \to$ B true and $A \to \lnot B$ true, then $\lnot A$ true
+				- A implies a [[contradiction]] and therefore it must be false

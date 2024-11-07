@@ -1,0 +1,60 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLjJhPCaCziSRSUtQiTA_yx5TJ76G_EqUJ
+Length: 12 hours, 19 minutes, 39 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Note
+	- "Introduction to mathematical logic" is also part of the Set Theory playlist
+- Complete
+	- [[(1) 1. Introduction to Mathematical Logic]]
+- Incomplete
+	- [[(2) 2. Logic. Strings]]
+	- [[(3) 3. Logic. The Language Of Sentential Logic]]
+	- [[(4) 4. Logic. Truth Assignments]]
+	- [[(5) 5. Logic. Tautological Implication]]
+	- [[(6) 6. Logic. The completeness of the language for sentential logic]]
+	- [[(7) 7. Logic. Generating sets out of functions]]
+	- [[(8) 8. Logic. Structural induction and Recursion]]
+	- [[(9) 9. Logic. The Language of First Order Logic]]
+	- [[(10) 10. Logic. Structures]]
+	- [[(11) 11. Logic. Free Variables]]
+	- [[(12) 12. Logic. Interpretation of Terms]]
+	- [[(13) 13. Logic. Interpretation of Formulas]]
+	- [[(14) 14. Logic. Elementary Classes]]
+	- [[(15) 15. Logic. Elementary Equivalence]]
+	- [[(16) 16. Logic. Logical Implication]]
+	- [[(17) 17. Logic. Definable Sets]]
+	- [[(18) 18. Logic. Homomorphisms]]
+	- [[(19) 19. Logic. Preservation results]]
+	- [[(20) 20. Logic. Non-definability results using automorphisms]]
+	- [[(21) 21. Logic. Substructures]]
+	- [[(22) 22. Logic. Compactness]]
+	- [[(23) 23. Logic. An application of compactness]]
+	- [[(24) 24. Logic. Proving non-definability via compactness]]
+	- [[(25) 25. Logic. Compactness via implication]]
+	- [[(26) 26. Logic. Compactness in Sentential Logic]]
+	- [[(27) 27. Logic. An application of Compactness for Sentential Logic]]
+	- [[(28) 28. Logic. Topological Compactness of (0,1)]]
+	- [[(29) 29. Logic. Compactness - from Cantor Set to Sentential Logic]]
+	- [[(30) 30. Logic. Application of compactness to graph coloring]]
+	- [[(31) 31. Logic. Proving König's lemma from compactness]]
+	- [[(32) 32. Logic. An application to Compactness to Equivalence Relations]]
+	- [[(33) 33. Logic. Application of Compactness - fields of characteristic 0 not strongly elementary]]
+	- [[(34) 34. Logic. Syntactical Implication]]
+	- [[(35) 35. Logic. Logical Axioms]]
+	- [[(36) 36. Logic. Tautologies in First Order Logic]]
+	- [[(37) 36. Logic. The Generalization Metatheorem]]
+	- [[(38) 37. Logic. More Metatheorems]]
+	- [[(39) 38. Logic. Generalization of Constants, change of variables, equality]]
+	- [[(40) 39. Logic. The Soundness theorem]]
+	- [[(41) 40. Logic. Maximal Consistent sets of sentences]]
+	- [[(42) 41. Logic. Gödel's Completeness theorem]]
+	- [[(43) 42. Logic. The Set Of Closed Terms]]
+	- [[(44) 43. Logic. The Term Model]]
+	- [[(45) 44. Logic. Term Models for maximal consistent sets of formulas]]
+	- [[(46) 45. Logic. Theories that contain term witnesses]]
+	- [[(47) 46. Logic. Finishing the proof of completeness]]
+	- [[(48) 47. Logic. Summing up]]

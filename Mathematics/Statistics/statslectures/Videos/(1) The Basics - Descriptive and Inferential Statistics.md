@@ -1,0 +1,30 @@
+[Video](https://www.youtube.com/watch?v=oHGr0M3TIcA)
+
+- [[Statistics]] is the science of collecting, organizing, and analyzing <mark style="background: #FFF3A3A6;">data</mark>.
+	- [[Data]]: "facts or pieces of information"
+- Some examples of <mark style="background: #FFF3A3A6;">data</mark>
+	- Ages of students in your statistics class: 19, 21, 18, 18, 34, 30, 25, 26, 24, 24, 19 ,18, 21, 49,27
+	- Genders of the last eight people to walk by: male, male, female, male, female, female, female, male
+	- IQ (Intelligence Quotient measurement) of five randomly selected individuals: 109, 89, 129, 101, 104
+- Two types:
+	- Descriptive Statistics
+		- Consists of organizing and summarizing data
+	- Inferential Statistics
+		- consists of using data you've measured to form conclusions
+- Let's say there are 20 statistics classes at your university, and you've collected the ages of students in one class. Ages of students in your statistics class: 19, 21, 18, 18, 34, 30, 25, 26, 24, 24, 19, 18, 21, 49, 27
+	- A [[descriptive]] question that could be asked about this data:
+		- "What's the most common age of student in your statistics class?" The answer in this case would be 18.
+	- An [[inferential]] question that could be asked about this data: "Are the ages of the students in this classroom similar to what you would expect in a normal statistics class at this university?"
+- ![[Screenshot 2023-04-28 at 6.29.55 AM.png|300]]
+	- <mark style="background: #FFF3A3A6;">Populations</mark> and <mark style="background: #FFF3A3A6;">Samples</mark>
+		- [[Population (Statistics)|Population]]: the group you are interested in studying
+		- [[Sample]]: A subset of the population
+	- Example
+		- Let's say you want to find the average GPA of a student at your university. Your university has 20,000 students, and you select 100 students and ask them their GPAs. Your population is the group you're interested in studying (the 20,000 students), and your sample is a small group (a subset) you've taken from the population
+- Important Terms
+	- Statistics
+	- Data
+	- Descriptive Statistics
+	- Inferential Statistics
+	- Population
+	- Sample

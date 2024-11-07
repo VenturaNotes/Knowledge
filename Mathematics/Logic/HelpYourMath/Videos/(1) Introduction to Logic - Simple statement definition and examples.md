@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=R8LvNp2vBwY)
+
+---
+- Statement: a definition
+	- A statement is a sentence that is either true or false but not both simultaneously
+		- A simple statement is the foundation of logic. It is a sentence that states one single idea.
+		- Decide whether each of the following sentences are statements
+---
+- Examples
+	- Statements
+		- 8 + 3 > 2
+			- This is a statement
+		- The grass is magenta
+			- Statement
+	- Not statements
+		- Does Michael Kors have a sale going on right now?
+			- Not a statement (<mark style="background: #FFF3A3A6;">question</mark>)
+		- Michael Jordan was a better basketball player than LeBron James
+			- Not a statement as it's an <mark style="background: #FFF3A3A6;">opinion</mark>. (Could be true or false)
+		- This sentence is false
+			- Not a statement (it's a <mark style="background: #FFF3A3A6;">paradox</mark>. When it's true it's false and when it's false it's true)

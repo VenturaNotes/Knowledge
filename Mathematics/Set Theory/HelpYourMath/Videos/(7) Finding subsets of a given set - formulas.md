@@ -1,0 +1,52 @@
+[Video](https://youtube.com/watch?v=x1b3jhw4fps)
+
+---
+- Finding Subsets
+	- A [[Subsets|subset]] of a given set is a set in which all its elements are also elements of the given set.
+	- A [[proper subset]] of a given set is a subset of the given set AND the given set has at least one element not in the subset
+	- Logicians are interested in finding all possible subsets of a given set. Let's look at set A, which for now, A = {3, 4}. How many subsets can you find for A?
+		- ![[Screenshot 2023-04-01 at 2.02.16 AM.png]]
+			- 4 subsets and 3 proper subsets
+---
+- Counting Subsets
+	- Let's use [[(Video) INDUCTIVE REASONING]] here... what conclusion can we draw about the number of subsets a set containing two elements will have?
+	- ![[Screenshot 2023-04-01 at 2.25.02 AM.png]]
+		- We see here that for 2 elements, there are 4 subsets
+---
+- ![[Screenshot 2023-04-01 at 2.27.26 AM.png|500]]
+- Counting Sets
+	- Find all subsets of each
+		- {n, q, r}
+			- 3 elements, 7 proper subsets, 8 subsets
+		- {s, t, u, v}
+			- 4 elements, 15 proper subsets, 16 subsets
+- Notice that it's in the form of pascal's triangle
+---
+- ![[Screenshot 2023-04-01 at 2.44.54 PM.png|500]]
+- Ack... isn't there a shortcut?
+	- Can you find the formula to determine the number of sets??
+	- The # of subsets = $2^n$, n is the cardinal number of the set
+	- The # of proper subsets = $(2^n)-1$
+---
+- ![[Screenshot 2023-05-13 at 7.01.35 AM.png|500]]
+- Example
+	- How many subsets would the following set have?
+		- {11, 12, 13, 14, 15, 16, 17, 18}
+			- $2^8 = 256$
+	- How many proper subsets would the following set have?
+		- {a, e, i, o, u, y}
+			- $2^6 - 1 = 63$
+	- How many proper subsets would set H have given n(H) = 11?
+		- $2^{11} - 1 = 2047$ 
+---
+- ![[Screenshot 2023-05-13 at 7.08.49 AM.png|500]]
+- Putting it all together!
+	- Given U = $\{x | x \in \mathbb{N} \text{ and } x < 10\}$, A = {1, 2, 3}, and B = {3, 4, 5, 6, 7}
+		- Draw a Venn diagram to represent this universe
+	- List all the proper subsets of A
+	- How many subsets does B have?
+	- How many proper subsets does B have?
+	- Find A'
+	- Fill in the blanks
+		- 1 _ A
+		- B _ A

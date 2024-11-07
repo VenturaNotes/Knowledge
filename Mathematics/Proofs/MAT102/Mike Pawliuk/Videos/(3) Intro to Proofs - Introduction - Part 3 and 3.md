@@ -1,0 +1,33 @@
+[Video](https://youtube.com/watch?v=IziB4HlcyB0)
+
+- ![[Screenshot 2023-07-27 at 11.31.30 PM.png]]
+	- Slide 11 - Advice for succeeding in this course
+		- Advice 3
+			- Ask lots of questions
+				- (and look up answers?)
+	- Slide 12 - Advice for succeeding in this course
+		- Advice 4
+			- Learn the definitions, but don't memorize anything else
+	- Slide 13 - Advice for succeeding in this course
+		- Advice 5
+			- Play
+	- Slide 14 - Advice for succeeding in this course
+		- Advice 6
+			- Make lots of [[Conjecture|conjectures]]
+				- A conjecture is something you think might be true
+	- Slide 15 - Advice for succeeding in this course
+		- Advice 7
+			- Prove everything you can
+	- Slide 16 - Advice for succeeding in this course
+		- The 7 pieces of advice
+			- (1) Work on many problems
+			- (2) Get stuck and get unstuck
+			- (3) Ask lots of questions
+			- (4) Learn the definitions, but don't memorize anything else
+			- (5) Play
+			- (6) Make lots of conjectures
+			- (7) Prove everything you can
+	- Slide 17 - Reflection
+		- What are the two key learning objectives in this course?
+		- What is a piece of advice for succeeding in the course that you like/dislike?
+		- How will you follow it?

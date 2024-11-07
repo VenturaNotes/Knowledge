@@ -1,0 +1,49 @@
+[Video](https://www.youtube.com/watch?v=ZdZm6qBCFuo)
+
+- ![[Screenshot 2023-10-11 at 4.07.43 AM.png]]
+	- [[Subset]] symbol
+		- A $\subseteq$ B
+			- Can say that B is a [[superset]] of A
+			- Can say that A is a [[subset]] of B
+		- By definition $B \subseteq B$ (every [[set]] is a subset of itself)
+			- Line underneath needed to remind you that the equality is possible
+			- A lot of people omit the line and just use $\subset$ for subsets
+	- [[Empty set]]
+		- Always a subset
+			- $\varnothing \subseteq B$ 
+		- no elements at all
+			- So subset relation is true
+	- [[Union]]: Merging 2 sets
+		- A $\cup$ B := {x | x $\in$ A $\lor$ x $\in$ B}
+			- Don't need a bigger set to take the elements out of
+			- Not all predicates on righthand side are allowed
+			- But this one here is allowed
+		- If you have 2 sets, you can always form a new set given by the union
+	- [[Intersection]]
+		- Collection of all elements that both sets share
+		- $A \cap B := \{x | x \in A \land x \in B\}$
+	- [[Difference of sets|Set Difference]]
+		- Subtraction of sets
+		- Subtract the set B from set A
+		- $A \backslash B$ : = {x | x $\in$ A $\land$ x $\notin$ B}
+			- A without B
+	- What happens if we want to form unions or intersections with more than 2 sets?
+	- [[Big union]]
+		- Need: I set, $A_i$ set for each i $\in$ I
+			- "I" is a fixed given set
+			- $A_i$ is a set for each element $i$ from the capital I
+		- Use the elements from the set I as indices (could have many sets in this case)
+		- $\bigcup_{i \in I} A_i$ := {x | $\exists$ i $\in$ I : x $\in$ $A_i$ }
+- ![[Screenshot 2023-10-11 at 4.23.15 AM.png]]
+	- [[Big Intersection]]
+		- $\bigcap_{i \in I}A_i$ := { x | $\forall i \in I$ : $x \in A_i$ } 
+			- Should contain the points that are shared by all the sets
+	- [[Power set]]
+		- For a set A define P(A) := {X | X $\subseteq$ A}
+			- An element of P(A) is always a set itself
+			- The set of all subsets of A
+		- The set that contains all the subsets of A
+		- Number of elements
+			- |A| = 3
+			- |P(A)| = 8 = $2^3$ 
+				- General formula is $2^{|A|}$

@@ -1,0 +1,37 @@
+[Video](https://www.youtube.com/watch?v=OPN6IJ7isEE)
+
+- ![[Screenshot 2023-10-16 at 6.46.59 PM.png]]
+	- [[Statement]]
+		- Gives us information
+		- "Jerry is smarter than Tom"
+			- Statement in English but not a mathematical statement
+			- This is because it's ambiguous and neither true nor false as others could have varying opinions
+	- [[Mathematical statement]]
+		- Either true or False (not both)
+			- Tom is taller than Jerry (can be verified)
+		- What a beautiful day!
+			- Exclamations can never be mathematical statements
+				- Including "Wow!" and "The food was amazing!"
+		- Sit straight
+			- Order can never be a mathematical statement
+				- "Open the door" and "Raise your hand" as well
+		- All squares are rectangles
+			- mathematical statement because we can say it's true
+		- What is your name?
+			- Question can never be a mathematical statement
+		- Statements involving pronouns cannot be considered mathematical statements 
+			- She stays in India
+			- The Airport is at 40kms from here
+	- More examples
+		- The sides of all the quadrilaterals are equal
+			- Mathematical statement because we know it's false
+		- Tomorrow is Thursday
+			- Variable time not a mathematical statement (only true when it's Wednesday)
+		- Geometry is the most interesting part of mathematics
+			- Not a statement, true for some and false for others
+- ![[Screenshot 2023-10-16 at 6.49.08 PM.png]]
+	- (The above questions are unanswered)
+	- Mathematical statements or not?
+		- Sum of 2 integers is positive
+		- Sum of 2 integers can never be negative
+	- Representation of mathematical statements and negation of a statement in next part

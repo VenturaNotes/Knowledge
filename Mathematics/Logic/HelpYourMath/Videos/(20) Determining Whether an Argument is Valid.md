@@ -1,0 +1,39 @@
+[Video](https://youtube.com/watch?v=cKVb52GlhGQ)
+
+---
+- Turning sentences into symbols
+	- If the sentence is written as a simple or compound statement, then assign a variable to each simple statement
+	- If the sentences uses a universal quantifier, rewrite it as a conditional statement
+		- We don't have a thing for $\forall$ in logic
+	- For example: "all squares have four sides" using symbols
+		- First, we need to write the statements in logic form. This type of sentence is a conditional sentence:
+		- If a shape is a square, then it has four sides
+		- Now we assign variables. You can either stick with p and q or use letters that are appropriate for the situation
+			- Let S = A shape is a square
+			- Let F = A shape has four sides
+		- Then "all squares have four sides" becomes s $\rightarrow$ f
+---
+- ![[Screenshot 2023-05-13 at 6.27.16 AM.png|500]]
+- Some helpful steps for determining the validity of an argument
+	- (1) Identify all statements
+		- These should not have negations (not or no)
+		- Label them appropriately
+			- If today is cloudy, might represent that with "c"
+	- (2) Rewrite each premise and the conclusion in symbols in a similar set up to an addition problem.
+	- (3) Set up a truth table including all necessary statements
+	- (4) Determine if the argument is valid (we'd need a tautology at the end)
+---
+- ![[Screenshot 2023-05-13 at 6.33.23 AM.png]]
+- Tell whether each argument is valid (<mark style="background: #BBFABBA6;">valid</mark>)
+	- If it rains, then I will watch The Simpsons marathon. I did not watch The Simpsons. Therefore, it did not rain.
+		- Step 1: Identify (and label) the simple statements
+		- Step 2: Write arguments in symbols
+		- Step 3: Write the argument as a conditional statement
+---
+- ![[Screenshot 2023-05-13 at 6.39.00 AM.png|500]]
+- Tell whether each argument is valid (<mark style="background: #FF5582A6;">invalid</mark>)
+	- Either I did not study or I passed the exam. I did not study. Therefore, I did not pass the exam.
+---
+- ![[Screenshot 2023-05-13 at 6.48.42 AM.png|500]]
+- Tell whether each argument is valid (<mark style="background: #FF5582A6;">invalid</mark>)
+	- Every time I hit the snooze button, I get 10 more minutes of sleep. I get 10 more minutes of sleep or I miss the buss. I missed the bus. Therefore, I hit the snooze button.

@@ -1,0 +1,24 @@
+[Video](https://www.youtube.com/watch?v=wDmQGaRxEHU)
+
+- ![[Screenshot 2023-12-14 at 12.48.00 PM.png]]
+	- Slide 1 ([[if-and-only-if proofs]])
+		- Proving if-and-only-if statements
+			- [[Biconditional]]
+				- Must show 2 things
+					- $p \implies q$
+					- $q \implies p$ ([[converse]])
+	- Slide 2
+		- Ex: For x $\in$ $\mathbb{Z}$, prove $x^2 |x$ if and only if x $\in$ {-1, 0, 1}
+	- Slide 3
+		- Ex: for x $\in$ $\mathbb{Z}$, prove x is odd if and only if -x is odd.
+	- Slide 4
+		- For x $\in$ $\mathbb{Z}$, prove 10|x if and only if 5|x and 2|x
+		- [[Lemma]]: For a, b $\in$ $\mathbb{Z}$, if ab is even then a is even or b is even
+			- pfof Lemma (means proof of lemma?)
+			- This is something you could use if you have a product of two integers and you know it's even that it must be the case that one of the integers is even
+			- [[Implication]]
+- ![[Screenshot 2023-12-14 at 1.15.22 PM.png]]
+	- Slide 1
+		- Using the lemma found
+	- Slide 2
+		- For x $\in$ $\mathbb{Z}$, prove x is odd if and only if 5x + 4 is odd

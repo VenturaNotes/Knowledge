@@ -1,0 +1,59 @@
+---
+Source:
+  - https://youtube.com/watch?v=bXrvHkbByik
+Length: 11 minutes, 28 seconds
+tags:
+  - status/complete
+  - type/video
+Published: true
+---
+- Note: this playlist is a paid series
+
+---
+- 65% of all statistics are made up (joke) 
+- You can present information in a way that is beneficial to you
+	- Polls you see on TV like 35% is doing this 
+		- Need to be careful when just listening to conclusions drawn
+		- Everything depends on how that data was collected
+			- Who did they ask?
+			- How did they phrase the question?
+			- How was the data collected and analyzed?
+		- This matters because you can pretty much take any batch of data, and massage it look favorable for me (or at least influence someone to think the way you think)
+	- [[Statistics]] is by and large the process of collecting information, collecting data
+		- Most of the time it's numbers of some kind
+		- Presenting that in lots of different ways
+		- And drawing conclusions from that data
+	- Take 30 people in a classroom and determine what their average height is (5'7)
+		- Can we draw any broad conclusions from that?
+		- Can we extrapolate that the average height in the U.S. is 5'7 from that?
+		- Maybe the average height of Texans? 
+		- Can taking such a small little sample be representative of everyone in the whole world
+			- Of course not!
+			- Bad to say every location would have a similar distribution
+		- Need to be careful how you take data and what conclusions you draw from it.
+		- What happens if you measure 1000 people?
+			- Better but not great
+		- This is because there are regional variations around the world
+		- There are different average heights of people in Asia vs Europe vs Australia vs America
+		- If we took our 1000 person sample in middle of U.S., it would work good there but nothing in german height b/c genes different in different parts of the world
+		- If we select a million people, should select these people from different pockets of the world to find average worldwide (maybe based on proper percentages of their population)
+		- If we look at a billion people in our sample, we're getting very close to truth.
+		- If we measure everyone in the world, of course we have our answer
+	- When we do statistics, we are measuring something (height of people in this case)
+		- We want to draw larger conclusions from our sample
+	- Calling 250 people to ask who they're voting for is not enough people to extrapolate data for U.S. (need to be careful who you ask in telephone survey)
+		- did you call everyone who lived in a certain city? (different economic environment?)
+		- Need to ask enough people to get [[statistical significance]] (collected enough information to draw conclusions)
+		- Need to ask a broad cross-section of people
+		- Need to ask people from Florida, Texas, and Ohio
+		- If you just collect data from old people (>60), data might be skewed (without you knowing it if data presented in this way)
+			- When you get to certain age, you worry about certain things
+			- Might think/vote in a certain way
+		- Would give you a different result than if you asked a broad cross-section of ages
+	- Statistics: The process of collecting information (usually numerical data)
+		- Happy to have information from small sample of data (more interested in using information to make broad conclusions about a larger set of data)
+		- Impractical to ask everybody a question
+		- Ask a small sample and then we go from there and extrapolate
+- Course about learning and collecting data
+- Learning about what makes sense when we ask those questions
+- How to calculate things about that data to draw those conclusions

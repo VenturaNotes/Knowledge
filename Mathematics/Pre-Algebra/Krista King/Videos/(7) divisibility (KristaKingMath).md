@@ -1,0 +1,51 @@
+[Video](https://youtube.com/watch?v=MbK6pOvXRxY)
+
+- Divisibility Rules (Say whether or not the number is divisible)
+	- 2
+		- If number is an even number, it's divisible by 2
+		- If the last digit is even, then the number is divisible by 2
+			- The set of {0,2,4,6,8}
+		- 120 (Yes)
+			- Last digit is 0
+		- 126 (Yes)
+			- Last digit is 6
+		- 128 (Yes)
+			- Last digit is 8
+	- 3
+		- Add up all digits in number and see if sum divisible by 3
+		- 120 (Yes)
+			- 1 + 2 + 0 = 3 and 3/3 = 0.
+		- 126 (Yes)
+			- 1 + 2 + 6 = 9 and 9/3 = 0.
+		- 128 (No)
+			- 1 + 2 + 8 = 11 and 11/3 = 3 R 2
+	- 4
+		- Check if last 2 digits of number is divisible by 4
+		- 120 (Yes)
+			- 20 is divisible by 4
+		- 126 (No)
+			- 26 is not divisible by 4
+		- 128 (Yes)
+			- 28 is divisible by 4
+	- 5
+		- Look for numbers that end in 0 or 5
+	- 6
+		- If number divisible by 2 and 3, will be also divisible by 6
+	- 7
+		- Take last digit in number, multiply by 5, then add result to the rest of the numbers
+		- 120 (No)
+			- $0*5 + 12 = 12$ and 12/7 is not divisible by 7
+		-  126 (Yes)
+			- $6 *5 + 12 = 42$ and 42/7 = 6 with remainder of 0
+		- 128
+			- $8*5 + 12 = 52$ and 52/7 is not divisible by 7
+	- 8
+		- Checks to see if the last 3 digits is divisible by 8 (as a whole number) which is more useful for numbers that are in the thousands or millions
+		- Since 120 and 128 are divisible by 8, 126 is not because they're in-between those numbers. 120 and 128 are neighbors.
+	- 9
+		- If the sum is divisible by 9, the whole number is divisible by 9
+	- 10
+		- If number ends in 0, then the number will be divisible by 10
+	- Visual
+		- ![[Screenshot 2022-12-13 at 6.55.38 PM.png]]
+

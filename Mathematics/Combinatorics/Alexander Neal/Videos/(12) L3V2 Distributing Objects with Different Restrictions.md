@@ -1,0 +1,35 @@
+[Video](https://youtube.com/watch?v=_dJMglDuf60)
+
+- ![[Screenshot 2023-09-15 at 1.49.21 PM.png]]
+	- Building on What we know
+		- Restatement
+			- How many solutions in non-negative integers to the equation
+				- $x_1 + x_2 + x_3 + ... x_n = m$
+		- Answer
+			- $m + n - 1 \choose n - 1$
+		- Explanation
+			- Add n artificial elements, one for each variable
+				- For artificial objects, inflate the cell count by 1
+		- What to do if we allow empty cells?
+	- Mixed Problems
+		- Problem
+			- How many integer solutions in non-negative integers to the equation:
+				- $x_1 + x_2 + x_3 + x_4 + x_5 + x_6 + x_7 = 142$
+			- Subject to the constraints
+				- $x_1, x_2, x_5, x_7 \ge 0;$
+					- Need to add 4 artificial objects
+				- $x_3 \ge 8;$ 
+					- Set aside 7
+				- $x_4 > 0;$
+				- $x_6 > 19$
+					- Set aside of size 19
+		- Answer
+			- $120 \choose 6$
+		- Process
+			- We started with 142 objects
+			- Then we added artificial objects (4)
+				- One for $x_1, x_2, x_5, x_7$ 
+			- Total is now 146 objects
+			- 146 - 7 = 139
+			- 139 - 19 = 120
+			- 120 objects into 7 bins gives $119 \choose 6$ 

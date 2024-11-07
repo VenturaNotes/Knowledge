@@ -1,0 +1,45 @@
+[Video](https://www.youtube.com/watch?v=J6-XZxelQII) (unavailable)
+[01:05:20](https://www.youtube.com/watch?v=VXzm8ReImG0&t=3920s)
+
+- Lesson objectives:
+	- Learn how to properly set up and perform [[vertical addition]]
+	- Learn the process of [[carrying]]
+- Vertical addition (used for multi-digit numbers. (numbers with more than 1 digit))
+	- 1) Arrange the numbers to be added vertically and by place value
+		- ![[Screenshot 2022-12-12 at 3.16.45 AM.png]]
+			- Digit in ones place will line up and digits in tens place will line up
+			- stack the numbers on top of each other
+	- 2)  Draw a horizontal line underneath the bottom number and place a "+" to the left of the bottom number
+		- ![[Screenshot 2022-12-12 at 3.17.18 AM.png]]
+	- 3) Add the numbers in each column starting with the ones column and moving left; place the result directly below the horizontal line
+		- ![[Screenshot 2022-12-12 at 3.18.34 AM.png]]
+		- Always go right to left in vertical addition
+- 27 + 12
+	- ![[Screenshot 2022-12-12 at 3.19.12 AM.png|300]]
+		- Doesn't matter what order is the top or bottom number
+	- Better way of thinking about it
+		- 27 -> 2 tens (20) + 7 ones (7)
+		- 12 -> 1 ten (10) + 2 ones (2)
+		- 3 tens + 9 ones
+		- 30 + 9 = 39
+	- Must line up numbers by place value
+- 405 + 314
+	- ![[Screenshot 2022-12-12 at 3.23.15 AM.png|200]]
+		- Work right to left
+		- Start from the ones column, then tens columns, then hundreds column
+- 2057 + 14,112
+	- ![[Screenshot 2022-12-12 at 3.24.18 AM.png|300]]
+		- It's easier to place number with more digits on top but it really doesn't matter in the end
+		- The number with more digits will generally be on top
+- 27 + 35
+	- ![[Screenshot 2022-12-12 at 3.25.46 AM.png|300]]
+		- This problem involves carrying
+		- Right number of 12. The 2 will stay in the ones place and the 1 will be carried to the next column of the tens place. You'll do 1 + 2 + 3
+	- What we really did
+		-  ![[Screenshot 2022-12-12 at 3.26.43 AM.png|400]]
+- 242 + 977
+	- ![[Screenshot 2022-12-12 at 3.28.05 AM.png|500]]
+		- The one is just pushed out into the thousands column
+- 6099 + 15,763
+	- ![[Screenshot 2022-12-12 at 3.28.52 AM.png]]
+		- Larger number usually put on top

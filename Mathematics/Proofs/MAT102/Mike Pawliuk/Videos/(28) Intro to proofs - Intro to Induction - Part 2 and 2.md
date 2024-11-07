@@ -1,0 +1,30 @@
+[Video](https://youtube.com/watch?v=XLdWHM1HOKM)
+
+- ![[Screenshot 2024-01-22 at 10.58.27 PM.png]]
+	- Slide 9 - (3) Mathematical induction
+		- Proof strategy ([[Regular induction]])
+		- To prove a statement of the form "($\forall$n $\in$ $\mathbb{N}$)$[P(n)]$"
+			- You can show that
+				- P(1) is true, and
+				- $\forall n$ $\in$ $\mathbb{N}$, (P(n) $\implies$ P(n+1)).  
+		- P(1) is called the [[base case]]
+		- P(n) $\implies$ P(n+1) is called the [[induction step]]
+		- P(n) is called the [[induction hypothesis]] (IH)
+	- Slide 10 - (5) Example
+		- Since it is a statement of natural numbers, we can prove by induction
+		- [[Theorem]]
+			- $\forall$ n $\in$ $\mathbb{N}$, 1 + 2 + 3 + ... + n = $\frac {n(n+1)}{2}$ 
+		- Proof
+			- [[base case]]
+	- Slide 11 - (5) Example
+		- Proof
+			- [[Induction step]]
+			- [[induction hypothesis]]
+	- Slide 12 - (5). Example, examined
+		- "for this particular n" is more to emphasize for students
+		- What's shown is what's essential for the proof
+- ![[Screenshot 2024-01-22 at 11.29.58 PM.png]]
+	- Slide. 13 - Reflection
+		- How is induction like knocking over a stack of dominos?
+		- What are the essential features of induction?
+		- Why did we emphasize that the inductive hypothesis is "P(n), for one particular n"?

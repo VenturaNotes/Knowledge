@@ -1,0 +1,193 @@
+[Video](https://www.youtube.com/watch?v=KcNiJqBJRQ8)
+
+- What are exponents (a.k.a. powers)
+	- There is no difference between exponents and powers.
+	- A shorthand way of expressing repeated multiplication of one thing by itself
+- $4^3 = 4 * 4 * 4$ 
+	- Number on bottom is called the base (4)
+	- Number on top right is an exponent (3)
+	- Base to exponent means we want to multiply base by itself however many times the exponent says
+		- It means multiply the base by itself 3 times
+	- Read it like this (all correct)
+		- 4 to the 3
+		- 4 to the 3rd power
+		- 4 to the 3rd (easiest way to read it)
+- $a^n$ (generalized example) = $a * a * a ... * a (which would be done n times )
+	- ![[Screenshot 2022-12-12 at 7.08.34 PM.png|400]]
+	- It means multiply "a" by itself "n" times
+	- Read it this way
+		- "a to the n"
+- Exponents with special names
+	- $x^2$ read as "x to the 2" or "x to the 2nd" or <mark style="background: #FFF3A3A6;">"x squared"</mark>
+		- A square has 2 sides we need to multiply together to get area
+			- ![[Screenshot 2022-12-12 at 7.11.12 PM.png|50]]
+	- $x^3$ = "x cubed"
+		- If we draw a cube, we have 3 dimensions (Length, width, and height) that we multiply together to get volume. That's why we say "x cubed"
+			- ![[Screenshot 2022-12-12 at 7.11.32 PM.png|50]]
+- Why are exponents used?
+	- Convenient abbreviations for expressions difficult to write
+	- xxxxxxx = $x^7$ (in math, always want to write things the simplest way possible) (also why we use exponents in math. Makes equations easier to solve)
+		- $2^3$ = 8 
+			- Equal to each other
+			- $2^3$ = $2*2*2$ = $4*2$ = 8
+			- 8 is simpler than $2^3$ 
+			- Exponents helpful when simplifying $x^7$ but whole numbers is easier to just write the number
+- What are the rules of exponents?
+	- [[0 rule]]
+		- Use this whenever the exponent is 0
+		- Anything raised to the 0th power is equal to 1
+		- Whatever the base is, the value is always 1
+		- Examples
+			- $x^0$ = 1 (goes for variables)
+			- $2^0$ = 1 (constants)
+			- $(ab)^0$ = 1 (product variables)
+			- $0^0$ = ?
+				- What is $0^0$? [^1]
+					- In algebra and combinatorics, one typically defines $0^0 = 1$. 
+					- In mathematical analysis, the expression is sometimes left undefined
+			- $(-2)^0 = 1$ 
+	- [[1 rule]]
+		- Rule used when exponent is 1
+			- Says that anything raised to the power of 1, the exponent won't change the value of the base. The result is the base. We always get the base back
+		- Examples
+			- $x^1$ = x
+			- $2^1 = 2$ 
+				- Telling you to multiply 2 by itself 1 time.
+			- $(ab)^1 = ab$ 
+			- $0^1$ = 0
+			- $(-2)^1 = -2$ 
+	- [[Power rule]]
+		- Think of a power to power (multiplying exponents together)
+		- Examples
+			- $(x^a)^b$ = $x^{ab}$ 
+				- When you have a base x and an exponent a and then raise whole thing to exponent b, you multiply the powers together.
+				- The exponents get multiplied together
+			- $(2^3)^2$ = $2^6$ = $2*2*2*2*2*2$ = $4*4*4$ = $16*4$ = 64
+				- Multiply exponents
+				- Even without power rule, just do what's inside the parenthesis first 
+				- $2*2*2$ = $4*2= 8$
+					- Now you have $(8)^2$ = $8*8$ = 64
+					- Same product as $2^6$ above
+	- [[Negative Exponent Rule]]
+		- Rule you use when dealing with negative exponents
+		- Examples
+			- $x^{-a}$
+				- First, immediately change it to a positive exponent
+				- You can change it into a fraction by putting whole thing over denominator of 1. When you make the denominator by 1, dividing by 1 does not change the value of anything
+					- $\frac{x^{-a}}{1}$
+						- fair because 3/1 = 3
+				- Take base and exponent to move to denominator
+				- $\frac{x^{-a}}{1}$ = $\frac{1}{x^{a}}$
+			- $2^{-3} = \frac{1}{2^3}$ 
+			- $\frac{1}{2^{-3}} = 2^3$ 
+		- Just remember that when you have a negative exponent in the numerator, you can make it positive by moving it to the denominator
+		- When you have a negative x component in the denominator, you can make it positive by moving it to the numerator
+	- [[Product Rule]]^4fdec3
+		- We want to add our exponents
+		- Applies to terms being multiplied together
+		- Example
+			- $x^2x^3$ = $x^{2+3}$ = $x^5$ 
+				- We know they are multiplied together because they're right next to each other
+					- Other ways of writing the above
+						- $x^2*x^3$ 
+						- $(x^2)(x^3)$ 
+				- Bases are the same (x).
+			- $3^2 * 3^4$ = $3^{2+4}$ = $3^6$ 
+				- Because we're multiplying and the bases are the same
+				- Can't use product rule if bases are different
+			- $a^2b^3$ (can't use product rule here because bases are different)
+			- $a^2b^2$ = $(ab)^2$ 
+				- If we have $a^2$ multiplied by $b^2$, we can put the "ab" together and put the exponent outside of it = $(ab)^2$ 
+	- [[Quotient Rule]] ^79be2b
+		- Where we subtract the exponents
+		- Examples
+			- $\frac{x^4}{x^2}$ = $x^{4-2}$ = $x^2$ 
+				- Visual (just canceling common factors)
+					- ![[Screenshot 2022-12-12 at 7.46.28 PM.png|300]]
+				- Because the bases are the same (x), the base will stay the same but the exponents simplify by taking the exponent in the numerator and subtracting the exponent in the denominator 
+			- $\frac{x^2}{x^4}$ = $x^{2-4}$ = $x^{-2}$ = $\frac{1}{x^2}$ 
+				- You could also go directly  $\frac{x^2}{x^4}$ = $\frac{1}{x^2}$ 
+					- because we just put the x where the larger exponent exists. Then for the exponent at the base, just do larger number - smaller number (4-2) and place it as the exponent above the x in the solution
+			- $\frac{a^4}{b^2}$ unable to simplify this because bases are different
+				- If the exponents were the same: $\frac{a^2}{b^2}$ = $(\frac ab)^2$ 
+	- If you're ever unsure, just write out the exponents in long form to see if it makes sense
+	- - $x^2x^3$ = (xx)(xxx) = $x^5$ 
+				- turning them into "x"s helps to see if you should use addition or multiplication with the exponents
+- PEMDAS
+	- Parenthesis (must simplify parenthesis before exponents)
+		- $(\frac ab)^2$ =  $\frac{a^2}{b^2}$ 
+			- parenthesis are already simplified
+		- $(3 + 4)^3$ = $7^3$ 
+			- Need to simplify parenthesis first
+		- $(x^2y)^4$ = $x^8y^4$ 
+			- parenthesis are already simplified 
+	- Exponents
+	- Multiplication
+	- Division
+	- Addition
+	- Subtraction
+- When exponents are negative ^cca671
+	- Easiest way to get rid of negative exponents
+		- $x^{-n}$ = $\frac {1}{x^n}$ 
+		- $\frac{1}{x^{-n}}$ = $x^n$ 
+	- What happens when the base is negative?
+		- $(-x)^n$ = $(-1)^n(x)^n$
+			- You can think of it like $(-1*x)^n$ 
+			- The exponent gets distributed to the -1 and the x
+		- $-x^n$ 
+			- This is not the same thing as above
+			- Since there is no parentheses on negative sign
+			- Same thing as $-(x^n)$ 
+				- The base would be a positive x
+		- $(-2)^2 = (-2)(-2)$ = 4
+		- $-2^2$ = -(4) = -4
+- When exponents are fractions
+	- Fractional exponents are a different way of writing roots or radicals
+	- $x^{1/2}$ = $\sqrt{x}$ 
+		- Just a different way of writing values but they're equal to one another
+	- $x^{1/3}$ = $\sqrt[3]{x}$ 
+	- Visual
+		- ![[Screenshot 2022-12-12 at 8.09.06 PM.png|200]]
+	- $x^{\frac{1}{4}} = \sqrt[4]{x}$ 
+	- $x^{\frac{2}{3}} = \sqrt[3]{x^2}$ 
+		- The numerator stays on the base
+		- The denominator is a 3 which stays on the 3rd root
+	-  $x^{\frac{2}{3}}=(x^2)^\frac{1}{3}$ 
+		- This is true because of the power rule
+			- $(x^a)^b = x^{ab}$ 
+		- Keep the numerator on the inside and the denominator on the outside (could go both ways though)
+- An example which uses all the rules
+	- $\frac{(-4x^3y^{-1})^2(5x^3y{-2})^0}{(2x^4y)^3}$
+		- Starting Problem
+	- You always want to apply the rules in this order (think of it as an order of operations specifically for exponents)
+		- 0 rule
+			- This is = 1
+		- 1 rule
+		- Power
+			- Power to a power. 
+		- Negative
+		- Product
+		- Quotient
+	- We are unable to simplify anything in parenthesis
+	-  $\frac{(-4x^3y^{-1})^2}{(2x^4y)^3}$ 
+		- Used the 0 rule
+		- Can't apply the 1 rule to $y^{-1}$ because it's not positive 1
+	- $\frac{(-4)^{1*2}x^{3*2}y^{(-1)(2)}}{2^{1*3}x^{4*3}y^{1*3}}$ = $\frac{(-4)^{2}x^6y^{-2}}{2^3x^{12}y^3}$
+		- We used the power rule here.
+		- Exponents are distributive when you have all multiplication inside the parenthesis
+		- The 1 rule implies that everything is raised to the 1.
+	- $\frac{(-4)^2x^6}{2^3x^{12}y^3y^2}$
+		- Applying the negative exponent rule
+	- $\frac{(-4)^2x^6}{2^3x^{12}y^5}$
+		- Product rule allows us to add exponents together
+			- combined the `y`
+	- $\frac{(-4)^2} {2^3x^6y^5}$  
+		- Quotient Rule
+	- $\frac{16} {8x^6y^5}$  
+		- We just need to simplify our constants now.
+	- $\frac{2} {x^6y^5}$  
+		- Need to keep reducing
+
+## References
+
+[^1]: https://en.wikipedia.org/wiki/Zero_to_the_power_of_zero

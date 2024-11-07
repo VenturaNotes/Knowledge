@@ -1,0 +1,21 @@
+[Video](https://www.youtube.com/watch?v=3NtTAuGSAfc)
+
+- ![[Screenshot 2023-05-08 at 8.26.07 AM.png]]
+	- Random Variable
+		- A random variable is a variable which has its value determined by a probability experiment
+		- If you flip a coin once, how many tails could you come up with?
+		- I'm going to create a new random variable called "T". "T" represents the number of tails possible from our probability experiment
+		- S = {Heads, Tails}
+		- After conducting the experiment, you will end up with an answer of either 0 or 1
+	- Discrete Random Variables
+		- A discrete random variable is a random variable which has a finite number of values.
+		- Let's say I have you flip a coin six times. How many tails could you come up with?
+		- There are a finite number of possible values. Values such as "1.5" or "2.5923" don't make sense for this type of problem.
+	- Continuous Random Variables
+		- A continuous random variable is a random variable which has an infinite number of values.
+		- Let's say you measure the speed (in miles per hour) of the first car to drive by your house. What kind of values could you obtain?
+		- Maybe the car is going 25mph, or 50mph, or 62.00252mph. The variable (speed) can take on an infinite number of values
+- Important Terms
+	- Random Variable
+	- Discrete Random Variable
+	- Continuous Random Variable

@@ -1,0 +1,30 @@
+[Video](https://www.youtube.com/watch?v=WLzWKA2J840)
+
+- ![[Screenshot 2023-12-08 at 12.32.30 AM.png]]
+	- Definition: The [[complement]] of a set A
+		- Need U [[universe]]: A $\subseteq$ u
+			- The complement of A: A = U - A
+	- Given set B, the complement takes the elements not in B
+		- Written as $\overline B$ 
+	- In this example, they're equal. Will be proving them with set theoretic proofs. However pictures are not set theoretic proofs but gives a beautiful way to visualize sets
+		- $\overline{A} \cap \overline{B} = \overline{A \cup B}$ 
+		- $B - \overline{A} = A \cap B$
+		- $A \cap \overline{B} = A - B$ 
+	- Will visualize [[set equality]] in a [[Venn diagram]]
+	- In our example, we had the above equalities
+	- We may visualize sets and set operations using [[Venn diagram|Venn diagrams]]
+- ![[Screenshot 2023-12-08 at 12.45.45 AM.png]]
+	- Want the regions shaded to be matched up
+	- Draw a Venn Diagram for the following sets
+		- 3 sets in Venn Diagram
+	- Find an expression corresponding to the Venn Diagram
+	- In (B - A) - C
+		- The parentheses are quite important
+	- Question: For finite sets A, B
+		- Is $|A \cup B|$ = $|A| + |B|$?
+			- Generally not true
+			- When A, B are [[disjoint]], then  $|A \cup B|$ = $|A| + |B|$
+				- Disjoint means that the intersection between 2 sets is empty
+					- $A \cap B = \varnothing$ 
+	- [[Cardinality]] of [[union]] of sets
+		- $|A \cup B| = |A| + |B| - |A \cap B|$ 

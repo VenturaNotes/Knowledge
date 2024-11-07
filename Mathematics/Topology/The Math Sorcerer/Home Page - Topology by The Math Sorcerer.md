@@ -1,0 +1,43 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLO1y6V1SXjjPd3jP-k3Ed23pn3FTPHymw
+Length: 3 hours, 20 minutes, 40 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Introduction to Topology with Examples]]
+	- [[(2) Definition of a Topological Space]]
+	- [[(3) Determine if T is a Topology on X]]
+	- [[(4) How to Prove a Set Forms a Topology]]
+	- [[(5) The Intersection of Topologies on X is a Topology on X Proof]]
+	- [[(6) Two Topologies on X whose Union is not a Topology on X]]
+	- [[(7) Finding Limit Points and the Derived Set in a Topological Space]]
+	- [[(8) How to Find the Limit Points and Derived Set of a Subset in a Topology]]
+	- [[(9) Finding the Interior, Exterior, and Boundary of a Set Topology]]
+	- [[(10) Finding Closed Sets, the Closure of a Set, and Dense Subsets Topology]]
+	- [[(11) The Derived Set of any set in the Discrete Topology is Empty Proof]]
+	- [[(12) The Subspace Topology is a Topology Proof]]
+	- [[(13) Finding the Subspace Topology Easy Example]]
+	- [[(14) The Discrete Metric is a Metric Proof]]
+	- [[(15) Introduction to the Standard Topology on the Set of Real Numbers R]]
+	- [[(16) Examples of Open Sets in the Standard Topology on the set of Real Numbers]]
+	- [[(17) How to Prove that the Interval (a, b) is Not an Open Set]]
+	- [[(18) Proof that the Union of any Family of Open Sets in the Standard Topology on R is Open]]
+	- [[(19) Proof that the Intersection of any Finite Family of Open Sets in the Standard Topology on R is Open]]
+	- [[(20) Every Mapping into The Trivial Topology is Continuous]]
+	- [[(21) Every Closed Subset of a Compact Space is Compact Proof]]
+	- [[(22) The Union of Two Compact Subsets is Compact Proof]]
+	- [[(23) Every Set with the Cofinite Topology is Compact]]
+	- [[(24) Every Subset of the Discrete Topology has No Limit Points Proof]]
+	- [[(25) A Set is Closed if and only if it contains all of it's Limit Points]]
+	- [[(26) The Direct Image of a Compact Set Under a Continuous Function is Compact Proof]]
+	- [[(27) Infinite Intersection of Open Sets that is Closed Proof]]
+	- [[(28) How to Prove a Function is Not an Open Function]]
+	- [[(29) A Function is Continuous iff The Preimage of a Set in the Codomain is open in the Domain Topology]]
+	- [[(30) Topology Proof The Constant Function is Continuous]]
+	- [[(31) Topology Proof The Composition of Continuous Functions is Continuous]]
+	- [[(32) An Example of a Closed Continuous Function that is Not Open]]
+	- [[(33) Introduction to Metric Spaces]]

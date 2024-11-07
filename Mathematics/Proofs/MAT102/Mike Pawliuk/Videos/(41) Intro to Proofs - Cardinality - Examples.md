@@ -1,0 +1,40 @@
+[Video](https://youtube.com/watch?v=BjxEwVr2ok8)
+
+- ![[Screenshot 2024-01-23 at 3.00.50 AM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- Determine the [[relative cardinality]] of two sets
+			- Prove that all intervals have the same cardinality
+	- Slide 3 - Motivation
+		- Motivation
+			- Now that we know the definitions of relative cardinality, how do we actually compare cardinalities of actual sets?
+	- Slide 4 - (2) Examples
+		- Example 1
+			- Let E = {2, 4, 6, 8, ...}. Show that |$\mathbb{N}$| = |E|
+		- Proof
+			- Let f: $\mathbb{N}$ $\to$ E be defined by f(n) = 2n
+			- This is clearly a [[bijection]] (Exercise?)
+	- Slide 5 - (2) Examples
+		- Example 2
+			- Let A = {1, 2, 3, ..., 2020}. Show that |A| $\le$ |$\mathbb{R}$| and that |A| $\ne$ $|\mathbb{R}$| 
+		- Proof
+			- Since {1, 2, 3,..., 2020} $\subseteq$ $\mathbb{R}$ we automatically get $|A|$ $\le$ $|\mathbb{R}|$
+			- Now let f: $A \to \mathbb{R}$ be a function. We will show that f is not a surjection, by finding a y $\in$ $\mathbb{R}$ that is not in the range of f.
+			- Let y = max({f(1), f(2), ..., f(2020)}) + 1. Note that y > f(x) for all $1 \le x \le 2020$. So y $\notin$ range(f)
+- ![[Screenshot 2024-01-23 at 3.12.30 AM.png]]
+	- Slide 6 - [[Interval|intervals]]
+		- Goal
+			- Let a < b and c < d be real numbers. Then $|[a, b]| = |[c, d]|$
+		- Length and cardinality are not related
+			- Demonstrated by $|[0, 1]| = |[0, 2]|$
+		- [[Corollary]]
+			- $|(a, b)| = |(c, d)|$
+	- Slide 7 - Intervals
+		- Theorem
+			- $|\mathbb{R}|$ = $|(-\frac {\pi}{2}, \frac {\pi}{2})|$ 
+		- Proof
+			- Note [[arctangent|arctan]]: $\mathbb{R}$ $\to$ $(-\frac {\pi}{2}, \frac {\pi}{2})$ is a [[bijection]]
+		- Exercise: Show that the following have the same cardinalities. Assume a < b
+	- Slide 8 - Reflection
+		- If two intervals have the same cardinality, do they have to have the same length?
+		- Wait. We showed that the evens and the natural numbers have the same cardinality. Shouldn't it be $|E|$ < $|\mathbb{N}|$ since the evens are a subset of $\mathbb{N}$?

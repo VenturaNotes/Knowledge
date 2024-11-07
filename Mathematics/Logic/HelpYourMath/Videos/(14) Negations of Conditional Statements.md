@@ -1,0 +1,24 @@
+[Video](https://youtube.com/watch?v=5f2nDZ98iU0)
+
+---
+- ![[Pasted image 20230512091543.png|500]]
+- Negation of a conditional statement
+	- Now let's use De Morgan's Law to find the negation of a conditional statement
+	- Steps
+		- Rewrote conditional as a disjunction
+		- Negated disjunction using De Morgan's Law
+---
+- ![[Screenshot 2023-05-12 at 9.28.39 AM.png]]
+- Negations of Conditionals
+	- Determine the negation of each statement. 
+		- If you fail, try try again. (W. C. Fields)
+			- You do not fail or you try again
+				- You fail and don't try again
+		- All elephants are gray
+			- If there is an elephant, it is gray
+				- There is no elephant or it is gray
+					- There is an elephant and it is not gray
+		- No mouse likes cheese
+			- Conditional: If there is a mouse, then it does not like cheese
+				- Disjunction: That animal is not a mouse or it does not like cheese
+					- Negation: There is a mouse and it does like cheese

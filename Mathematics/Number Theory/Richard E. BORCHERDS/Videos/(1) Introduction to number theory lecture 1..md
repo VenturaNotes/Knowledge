@@ -1,0 +1,39 @@
+[Video](https://youtube.com/watch?v=EzE6it9kAsI)
+
+## Introduction
+- Course on elementary number theory
+- Math 115, introduction to number theory
+- Topics
+	- Primes
+	- Congruences
+	- Quadratic forms
+	- Quadratic reciprocity
+	- Dirichlet's theorem
+- Number theory is about primes
+- A prime number is a number bigger than 1 and only divisible by 1 and itself
+	- 2, 3, 5, 7, 11
+- How do we find prime numbers?
+- We use Sieve of Eratosthenes to find primes (0-50)
+	- ![[Screenshot 2022-12-29 at 3.54.16 PM.png]]
+	- You write out all numbers and cross out the ones that aren't prime
+	- 0 and 1 are not prime because 0 is 0 and 1 is a unit. (cross these out)
+	- Then we circle 2
+		- cross out all the multiples of 2 (since they can't be prime)
+	- 3 is our next prime
+		- Cross out multiples of 3
+	- Then we look at first number we haven't crossed out (5)
+		- So we cross out multiples of 5 (Numbers that end with 0 or 5)
+	- Then we look at 7
+		- Cross out multiples of 7
+	- We stop here because any prime larger than 7 has a square larger than 49 which means it can't be the smallest prime divisible by a number.
+- All the primes from 0 to 50 are
+	- <mark style="background: #FFF3A3A6;">2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, and 47</mark>
+- How many primes are there?
+	- Primes seem fairly common. Number of primes should be infinite.
+- Euclid: Number of primes is infinite
+	- Euclid didn't really say that because the greeks don't like the concept of infinity
+	- He actually said that if you took any finite set of primes $\{P_1 ... P_n\}$, you can find another prime not in this set
+	- He took the product of $P_1 * P_2 ... * P_n + 1$ 
+		- Factor $P_{n+1}$ of this
+			- We notice that $P_{n+1}$ can't be any of the primes $P_1 ... P_n$ because if it was, 
+

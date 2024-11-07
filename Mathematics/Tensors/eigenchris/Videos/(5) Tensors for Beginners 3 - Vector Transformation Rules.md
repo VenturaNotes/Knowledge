@@ -1,0 +1,27 @@
+[Video](https://www.youtube.com/watch?v=A1h_eucHFW4)
+
+- ![[Screenshot 2023-09-28 at 10.22.29 PM.png]]
+	- [[Vector components]] transform in the opposite way compared to old and new [[basis]]
+	- While the basis vectors grew by a factor of 2, the vector components shrunk by a factor of 2
+		- $\vec v$ is [[invariant]]
+			- It looks smaller though when using the new basis vectors
+	- When the [[basis]] rotates clockwise, the [[components]] rotate counterclockwise
+	- Whatever the basis does, the components do the opposite
+		- Let's try to prove this idea in any dimension
+	- We have 2 ways of writing $\vec v$
+		- Can write it as a linear combination of the old basis vectors (with coefficients being old components)
+		- Could write it as a linear combination of the new basis vectors (with coefficients being new components)
+- ![[Screenshot 2023-09-29 at 11.10.16 AM.png]]
+	- Better understanding of vectors 
+- ![[Screenshot 2023-09-29 at 11.21.26 AM.png]]
+	- Proved that when moving from old components to new components, we use the backwards transformation
+		- Same in other direction
+	- The formulas sum up everything we've learned so far
+		- We know how the basis vectors transform and how the vector components transform
+	- Because vector components behave contrary to the basis vectors, we say that vector components are [[contravariant]]
+		- Vectors are [[contravariant tensors]]
+	- Since the vector components are contravariant, we'll make a small change in the way we write them inside the summation
+		- Instead of writing the indices below like $v_i$, we write them above like $v^i$. 
+		- This reminds us that the components are contravariant
+			- Exponents pop up so rarely when dealing with tensors that we can basically always assume that they're vector indices and never exponents
+	- Next video will talk about [[covector|covectors]] which are another example of a tensor

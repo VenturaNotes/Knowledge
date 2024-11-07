@@ -1,0 +1,43 @@
+[Video](https://youtube.com/watch?v=lmFmkGiE9Vw)
+
+- ![[Screenshot 2024-01-23 at 1.53.01 AM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- Produce the [[inverse]] of a simple function
+	- Slide 3 - Motivation
+		- Motivation
+			- We know that $x^2$ and $\sqrt{x}$ are "inverse" functions because they "undo" each other
+			- What does this mean precisely? How do we find [[inverse function|Inverse Functions]]? When do inverse functions exist?
+	- Slide 4 - Definition
+		- Definition
+			- Let f: $A \to B$ be a [[bijection]]. The inverse of f is the function g: $B \to A$ that assigns to any b $\in$ B the unique a $\in$ A such that f(a) = b
+			- Denote this g as $f^{-1}$ 
+		- Note 1
+			- f(a) = b $\iff$ $f^{-1}(b) = a$
+		- Note 2
+			- $f^{-1}(f(a)) = a$ for all a $\in$ $A$
+			- $f^{-1}(f(b)) = b$ for all b $\in$ $B$
+		- Two most important parts of inverse
+			- They undo the functions
+			- You can define one from the other
+	- Slide 5 - (2) Examples
+		- Errata
+			- It should be $f^{-1}(x) = \sqrt{x}$ 
+		- Question: Why did we restrict the domain of $x^2$ to $[0, \infty)$?
+		- Answer: So that it would pass the [[horizontal line test]] (HLT), and its inverse would pass the [[vertical line test]] (VLT) and be a function
+- ![[Screenshot 2024-01-23 at 1.59.19 AM.png]]
+	- Slide 6 - (2) Examples
+		- $e^x$ and $lnx$ are inverses of each other
+	- Slide 7 - (3) When does a [[function]] have a [[inverse]]
+		- A function needs to pass the HLT for its inverse to pass the VLT
+			- Passing the HLT means it's an [[injection]]
+		- A function needs to reach all values in B in order for its inverse to be defined on all of B
+			- Meaning it needs to be a [[surjection]]
+		- [[Theorem]]
+			- Let f: A $\to$ B be a function. The following are equivalent
+				- f is one-to-one and f is onto
+				- $f^{-1}$ exists and is defined on all of B
+		- Inverses exist for bijections
+	- Slide 8 - (4) More examples
+		- Example 2
+			- Will use arrow notation

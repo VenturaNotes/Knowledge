@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=nyTEv-v9OZ0)
+
+- ![[Screenshot 2023-01-15 at 1.20.29 PM.png]]
+	- If someone goes from point A to point B to point C to point E, you can write the [[Walk|walk]] like this
+		- A - B - C - E
+		- This is called an [[Open Walk]]
+			- Starts & Ends at different vertices
+	- [[Closed Walk]]
+		- Starts & Ends at same vertex
+		- A - B - C - E - A
+	- Arrows should be used to show direction that the walker is walking in
+- ![[Screenshot 2023-01-15 at 1.23.41 PM.png]]
+	- D - E - C - D - D - C - B
+		- It is an open walk
+		- Went to same vertex a number of times
+		- Went on the same edge multiple times
+		- If first and last letters are <mark style="background: #FFF3A3A6;">different</mark>, it's an <mark style="background: #FFF3A3A6;">open walk</mark>
+		- If first and last letters are <mark style="background: #FFF3A3A6;">same</mark>, it's a <mark style="background: #FFF3A3A6;">closed walk</mark>
+	- Paths and trails will put restrictions on this
+	- D - E - C - D - D -C - B - A - E - D
+		- This is a closed walk

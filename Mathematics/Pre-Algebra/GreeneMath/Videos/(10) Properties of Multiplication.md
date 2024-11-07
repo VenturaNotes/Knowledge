@@ -1,0 +1,85 @@
+[Video](https://www.youtube.com/watch?v=4lQCCAfIsz8)
+[01:48:48](https://www.youtube.com/watch?v=VXzm8ReImG0&t=6528s)
+
+- Lesson Objectives:
+	- Learn the basic parts of a multiplication problem
+	- Learn the commutative and [[associative property of multiplication]]
+	- Learn about the
+		- [[identity property of one]]
+		- the [[multiplication property of zero]]
+		- and the [[distributive property of multiplication]]
+- 7 + 7 + 7 + 7 is the same as:
+	- 4 x 7 = 28
+		- We have 4 groups of 7
+- 9 + 9 + 9 is the same as:
+	- 3x9 = 27
+		- 3 groups of 9
+- Rewrite each as a multiplication problem and solve:
+	- 2 + 2 + 2 + 2 + 2 = 5 x 2 = 10
+- 4 + 4 + 4 + 4 + 4 + 4 = 6 x 4 = 24
+- Numbers being multiplied together are called [[factors]]. The result of the multiplication is called the [product]
+	- 6 x 5 = 30
+		- 6 and 5 are factors
+		- 30 is the product (people say that 30 is the product of 6 and 5)
+	- 9 x 7 x 2 = 126
+		- 9,7, and 2 are factors
+		- 126 is the [[product]]
+- [[Properties of multiplication]]
+	- [[Commutative Property]] - we can multiply in any order and not change the product
+		- 3 x 6 = 6 x 3
+			- 3 x 6 = 18
+			- 6 x 3 = 18
+			- Doesn't matter how you multiply
+		- 12 x 9 = 9 x 12
+			- 12 x 9 = 108
+			- 9 x 12 = 108
+			- Changing the order does not affect product
+		- 7 x 5 x 4 = 5 x 7 x 4 = 4 x 7 x 5
+			- 7 x 5 x 4 = 140
+			- 5 x 7 x 4 = 140
+			- 4 x 7 x 5 = 140
+	- [[Associative Property of Multiplication]] - we can group the multiplication of three or more numbers in any order without changing the product
+		- (6 x 3) x 1 = 6 x (3 x 1)
+			- When we talk about grouping, we mean putting parenthesis around different numbers
+			- 6 x 3 = 18 x 1 = 18
+			- 3 x 1 = 3 x 6 = 18
+		- (4 x 2) x 8 = 4 x (2 x 8)
+			- 8 x 8 = 64
+			- 4 x 16 = 64
+		- 9 x (7 x 5) = (9 x 7) x 5
+			- 9 x 35 = 315
+			- 63 x 5 = 315
+	- [[Identity Property of One]] - any number multiplied by one remains unchanged
+		- 15 x 1 = 15
+		- 97 x 1 = 97
+		- 3,866,151 x 1 = 3,866,151
+	- [[Multiplication Property of Zero]] - any number multiplied by zero gives us a result of zero
+		- 30 x 0 = 0
+		- 25 x 0 = 0
+		- 2,577,313 x 0 = 0
+		- 0 times any number is always 0
+		- 4 x 10 x 5 x 0 x 30
+	- [[The Distributive Property of Multiplication]] - tells us that multiplication is distributive over addition/subtraction
+		- We use this property constantly in algebra
+		- 4(3 + 6) = 4 x 9 = 36
+			- Think of this as 4 times the quantity 3 + 6
+			- We won't use the x in "4x3 = 12" in higher level math
+			- When placing a number outside multiplication, 4(3 + 6), 4 is multiplied by the quantity 3 + 6
+			- 4(3) = 12. The 4 is next to the set of parentheses
+		- 4(3 + 6) = (4 x 3) + (4 x 6) = 12 + 24 = 36
+			- ![[Screenshot 2022-12-12 at 1.57.22 PM.png]]
+		- Using the distributive property gives the same result.
+	- 4(3 + 6) = (4x3) + (4x6)
+		- 4(3 + 6) = (3 + 6) + (3 + 6) + (3 + 6) + (3 + 6)
+		- = (3 + 3 + 3 + 3) + (6 + 6 + 6 + 6) = (4 x 3) + (4 x 6)
+		- The [[associative property]] and [[commutative property]] allows us to reorder and group this addition however we want
+		- We have 4 groups of 3 and we'll add 4 groups of 6
+	- 7(9 + 2) = 7 x 11 = 77
+		-  ![[Screenshot 2022-12-12 at 2.00.55 PM.png|300]]
+		- Here we used the distributive property
+	- 8(4-3) = 8 x 1 = 8
+		- 8(4-3) = (8x4) - (8x3) = 32 - 24 = 8
+			- We don't need to put parenthesis around the multiplication part in the second step because of "[[order of operations]]", but this is just to clarify the process
+	- 5(9-4) = 5 x 5 = 25
+		- ![[Screenshot 2022-12-12 at 2.03.06 PM.png]]
+		- We distribute our multiplication to each number inside the parenthesis

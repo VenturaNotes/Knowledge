@@ -1,0 +1,55 @@
+[Video](https://www.youtube.com/watch?v=oJeR8viOcsM) (unavailable)
+[05:14:51](https://www.youtube.com/watch?v=VXzm8ReImG0&t=18891s)
+
+- Lesson Objective:
+	- Learn how to subtract [[integers]]
+- 8 - 9 = ?
+	- Converting subtraction operation into related addition operation
+	- 8 + (-9) = -1
+		- Use sign of number with larger absolute value
+		- 9 - 8 = 1
+			- Then use sign of larger absolute value number
+- 6 - 10 = -4
+	- 6 + (-10) = -4
+		- 10 - 6 = 4
+- 12 - 17 = -5
+	- 12 + (-17) = -5
+		- 17 - 12 = 5
+- -101 - 18 = -119
+	- -101 + (-18) = -119
+		- It's an addition problem with same sign negatives so the result will be negative
+		- 101 + 18 = 119
+- Subtracting away a negative is the same as adding a positive!
+	- 4 - (-3) = 4 + 3 = 7
+		- 4 + 3 = 7
+- -6 - (-15) = 9
+	- = -6 + 15
+		- 15 - 6 = 9
+- -12 - (-5) = -7
+	- -12 + 5
+		- 12 - 5 = 7
+- -80 - (-19) = -61
+	- -80 + 19
+	- 80 - 19 = 61
+- When we perform subtraction with more than two integers, the rules are the same:
+	- Change each subtraction to addition of the opposite
+- Examples
+	- Solving
+		- Make all the numbers be added between each other
+		- Then put them in the order next to each other of positive and negative numbers
+		- Then take the number with the larger absolute value and subtract or add to the other number. The result will be the answer and the sign will be the same for the result as to the number with the larger absolute value
+	- 8 - 1 - 9 - 5 - 7 = -14
+		- 8 + (-1) + (-9) + (-5) + (-7)
+			- Addition signs are commutative. You can change the order as much as you want
+		- 8 + (-22) = -14
+			- 22 - 8 = 14
+	- -7 - (-4) - (-8) - 6 = -1
+		- -7 + 4 + 8 + (-6)
+		- -7 + (-6) + 12
+		- -13 + 12 = -1
+			- 13-12 = 1
+	- -5 - (-17) - 8 - 9 - (-4) = -1
+		- -5 + 17 + (-8) + (-9) + 4
+		- -5 + (-8) + (-9) + 17 + 4
+		- -22 + 21 = -1
+			- 22 - 21 = 1

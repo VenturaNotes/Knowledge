@@ -1,0 +1,78 @@
+[Video](https://youtube.com/watch?v=Cj6QW62mNGw)
+
+---
+- ![[Screenshot 2023-05-20 at 7.51.54 AM.png]]
+- A [[frequency distribution]] is a display of the values that occur in a data set and how often (or how frequently) each value, or range of values, occurs. 
+- [[Frequencies]] (f) are the numbers of data values in the categories of a frequency distribution, or the number of times that data value or those values occur.
+- A [[class (Statistics)|class]] is a category of data in a frequency distribution. 
+- An [[ungrouped frequency distribution]] is a frequency distribution where each category or class represents a single value. 
+- A [[grouped frequency distribution]] is a frequency distribution where the classes are ranges of possible values.
+---
+- ![[Screenshot 2023-05-20 at 7.53.51 AM.png]]
+- Frequency distributions by hand
+	- (1) Decide how many classes should be in the distribution
+- There are typically between 5 and 20 classes in a frequency distribution but the textbook, number of classes for a given data set will be given. 
+---
+- ![[Screenshot 2023-05-20 at 7.55.08 AM.png]]
+- (2) Choose an appropriate class width
+	- A good place to start is to subtract the lowest data value from the highest and divide by the number of classes. 
+---
+- ![[Screenshot 2023-05-20 at 7.57.13 AM.png]]
+- (3) Find the class limits
+	- The [[lower class limit]] is the smallest number that can belong to a particular class, and the [[upper class limit]] is the largest number that can belong to a class. The lower class limit should have the same number of decimal places as the largest number of decimal places in the data. Your classes should not overlap 
+	- $100 is beginning of 1 class to the beginning of the next
+---
+- ![[Screenshot 2023-05-20 at 7.58.28 AM.png]]
+- (4) Determine the frequency of each class. Make a tally mark for each data value in the appropriate class. Count the marks to find the total frequency for each class.
+---
+- ![[Screenshot 2023-05-20 at 8.01.24 AM.png]]
+- Frequency Distributions in Excel
+	- Open your data
+	- Highlight data in column 
+	- Insert – PivotTable
+	- Select data input range
+	- Select data output location
+	- Drag column name to Rows and Values
+	- Values box summarized by count 
+	- Right-click to select the Group option
+	- Enter first lower-class limit
+	- Uncheck “Ending at” box
+	- Enter the bin width in the “By” field
+	- Click the drop-down next to variable
+	- Uncheck the ___ or (blank) option 
+---
+- ![[Screenshot 2023-05-20 at 8.03.45 AM.png]]
+- Characteristics: Class Boundaries
+	- A [[class boundary]] is the value that lies halfway between the upper limit of one class and the lower limit of the next class. After finding one class boundary, add (or subtract) the class width to find the next class boundary. 
+---
+- ![[Screenshot 2023-05-20 at 8.06.11 AM.png]]
+- Characteristics: [[Class Midpoint]]
+	- The class midpoints are often used for estimating the average value in each class. Find the average of the lower and upper class boundaries. 
+---
+- ![[Screenshot 2023-05-20 at 8.08.22 AM.png]]
+- Characteristics: [[Relative Frequency]]
+	- The relative frequency is the fraction or percentage of the data set that falls into a particular class given by relative frequency = $\frac {\text{Class Frequency}}{\text{Sample Size}}$
+	- Relative frequency should add up to 100% (depending on rounding)
+---
+- ![[Screenshot 2023-05-20 at 8.09.28 AM.png]]
+- Characteristics: [[Cumulative Frequency]]
+	- The cumulative frequency is the sum of the frequencies of a given class and all previous classes. The cumulative frequency of the last class equals the sample size.
+---
+- ![[Screenshot 2023-05-20 at 8.12.31 AM.png]]
+- Overview
+	- Number of classes: Between 5 and 20
+	- Class width: $\frac {\text{highest value - lowest value}}{\text{number of classes}}$
+	- Class limits: Start with the lowest data value, or a smaller number, and add the class width to get the next class limit.
+	- Frequency: Count the number of data values in each class.
+	- Class boundaries: Split the difference in the gap between the upper limit of one class and the lower limit of the next class
+	- Midpoints: $\frac {\text {upper limit - lower limit}}{{2}}$
+	- Relative Frequency: $\frac {\text {class frequency}}{\text{sample size}} = \frac fn$
+	- Cumulative Frequency: The sum of the frequency for a given class and all previous classes
+---
+- ![[Screenshot 2023-05-20 at 8.23.14 AM.png]]
+- Putting it all together
+	- Demonstration/example
+- Class limit is 1-2.9 because there is only one decimal place in data
+---
+- ![[Screenshot 2023-05-20 at 8.22.49 AM.png]]
+	- Showing how to do in in Excel

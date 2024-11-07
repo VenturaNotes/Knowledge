@@ -1,0 +1,23 @@
+[Video](https://www.youtube.com/watch?v=_x-XWDEIhfE)
+
+- Measures of Dispersion: Variance and Standard Deviation of a Population
+- ![[Screenshot 2023-04-28 at 8.24.15 AM.png]]
+	- Data Set, Mean
+	- You have two data sets with the same mean, yet they're very different. How are they different?
+	- Dispersion refers to how spread out a data set is about the mean.
+- Variance and Standard deviation are the two main measures of dispersion within a data set.
+	- Population Variance
+		- $\sigma^2$ = $\frac {\Sigma(x - \mu)^2}{N}$
+	- Population Standard Deviation
+		- $\sigma$ = $\frac{\sqrt{\sigma(x - \mu)^2}}{N}$
+	- Notice N, $\mu$, and $\sigma$
+- ![[Screenshot 2023-04-28 at 8.29.18 AM.png]]
+	- Calculating Population Variance
+- ![[Screenshot 2023-04-28 at 8.33.05 AM.png]]
+	- We just calculated Variance and Standard Deviation using Definitional Formulas, which takes a long time. To speed things up, we usually use the Computational Formulas instead. They get us the same answers, and we don't have to work as hard
+- Important Terms
+	- Population Variance
+	- Population Standard Deviation
+	- Dispersion
+	- Definitional Formula
+	- Computational Formula

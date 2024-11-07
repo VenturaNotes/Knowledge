@@ -1,0 +1,45 @@
+[Video](https://youtube.com/watch?v=bA9D-mtQ9qw)
+
+---
+- ![[Screenshot 2023-05-21 at 1.46.41 PM.png]]
+- Displaying Qualitative Data
+	- [[Pie Chart]]: Shows how large each category is in relation to the whole
+	- [[Bar Graph]]: Bars represent the amount of data in each category
+	- [[Pareto Chart]]: A bar graph with bars in order of descending frequency
+	- [[Side-By-Side Bar Graph]]: A bar graph that compares the same categories for different groups
+	- [[Stacked Bar Graph]]: Compares the same categories for different groups and shows category totals
+---
+- ![[Screenshot 2023-05-21 at 1.48.17 PM.png]]
+- Will display qualitative data either by hand or using Excel. Most examples use "Housing Types" data.
+---
+- ![[Screenshot 2023-05-21 at 1.50.11 PM.png]]
+- Pie Chart
+	- A pice chart uses the relative frequencies from the frequency distribution to divide the "pie" into different-sized wedges, calculated by multiplying 360$\degree$ by the relative frequency of each class and rounding to the nearest whole degree for each central angle.
+---
+- ![[Screenshot 2023-05-21 at 1.51.27 PM.png]]
+- Pie chart in Excel
+---
+- ![[Screenshot 2023-05-21 at 1.52.39 PM.png]]
+- Bar Graph
+	- A bar graph shows how frequently each category is chosen in qualitative data. The horizontal axis should be the categories and vertical axis the frequency. Bars in a bar graph should NOT be touching. Instead of creating a bar graph by hand, lets use Excel
+---
+- ![[Screenshot 2023-05-21 at 1.53.49 PM.png]]
+- Bar Graph in Excel
+---
+- ![[Screenshot 2023-05-21 at 1.55.32 PM.png]]
+- Pareto Chart
+	- A Pareto chart is just a bar graph arranged from greatest to least, as we already have in our Housing Types bar graph here. If you need o make a a Pareto chart, simply rearrange the data from greatest to least first, then follow the stops for a bar graph
+---
+- ![[Screenshot 2023-05-21 at 1.56.34 PM.png]]
+- Side-By-Side Bar Graph
+	- Recall a side-by-side bar graph is great for comparing differences in the same variables from two different groups. Let's create a side-by-side bar graph of the two data sets in our Chapter 2 Data
+---
+- ![[Screenshot 2023-05-21 at 1.59.25 PM.png]]
+- Side-By-Side Bar Graph in Excel
+---
+- ![[Screenshot 2023-05-21 at 2.00.58 PM.png]]
+- Stacked Bar Graph
+	- Recall a stacked bar graph is great for comparing totals of the same variables from two different groups. Let's create a stacked bar graph of the two data sets in our chapter 2 Data.
+---
+- ![[Screenshot 2023-05-21 at 2.01.58 PM.png]]
+- Stacked Bar Graph in Excel

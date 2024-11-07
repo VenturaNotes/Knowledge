@@ -1,0 +1,33 @@
+[Video](https://www.youtube.com/watch?v=JTgWbq-S6Zc)
+
+- ![[Screenshot 2023-10-16 at 6.40.04 PM.png]]
+	- [[Inductive reasoning]]
+		- Logically true
+		- May or may not be realistically true
+	- [[Deductive reasoning]]
+		- Logically true
+		- Realistically true
+	- [[Conjecture]]
+	- Will show how to use [[induction]] to prove a [[conjecture]] true
+	- Consider the following expression
+		- $2 + 4 + 6 + ... 2n = n(n+1)$
+			- It's the sum of first n positive even integers
+			- n $\to$ number of terms ([[Natural Numbers|natural number]])
+	- How did we come up with the formula? How do we know it's applicable for any natural number n? We cannot check the reliability of the formula for all the terms of the expression one by one as that would be very time-consuming. To check the validity for each term, we need a domino effect showing that if the formula is true for the $1^{st}$ term, then it will also be true for the next and so on
+	- Domino effect
+		- Goal $\to$ All the dominos fall
+			- Condition 1: When the first domino falls, it will hit the second one
+			- Condition 2: Each domino will hit the next one and each domino that is hit will fall
+		- Then all of them will always fall
+	- Use induction to prove conjecture true
+		- Condition 1: It's a fact (aka the [[base case]])
+			- P(1) is True for n = 1
+			- P $\to$ [[Propositional statement]]
+				- It has a definite value
+				- It can be true or false
+		- Condition 2: [[Inductive case]]
+			- If P(n) true for n = k, then P(n) true for n = k + 1
+			- $p(k)$ implies the truth of $p(k+1)$ 
+			- [[Inductive hypothesis]] 
+				- The assumption that P(n) true for n = k 
+	- By the [[principle of mathematical induction]], we can say that P(n) is true for all natural numbers n

@@ -1,0 +1,42 @@
+[Video](https://youtube.com/watch?v=Oh5JXi9UOEE)
+
+- ![[Screenshot 2023-09-08 at 9.14.15 PM.png]]
+	- [[bit string|bit-strings]] and [[subsets]]
+		- Equivalent Problems
+			- Problem 1: How many bit strings of length 38 have exactly 17 ones?
+			- Problem 2: How many subsets of size 17 in a set of size 38
+			- Answer: C(38, 17)
+				- Read as 38 choose 17
+		- In the example, X = {a, b, c, d, e, f, g, h} and S = {b, c, f}
+			- X is the [[ground set]]
+			- S is the [[subset]]
+				- Want to see subset as a bit string
+		- What the professor drew is what defines a [[one-to-one correspondence]] between subsets and bit-strings
+			- a in X is not in S = 0
+			- b in X and in S = 1
+			- c in X and in S = 1
+			- 011.. etc (this is the one-to-one correspondence). This example is finite
+		- Can go back and forth between bit-strings and subsets pretty easily (natural connecting between the two)
+- ![[Screenshot 2023-09-11 at 11.58.02 PM.png]]
+	- [[Basic Identities for binomial coefficients]]
+		- [[Complements]]
+			- $n \choose k$ = $n \choose n -k$
+				- Imagine n people lined up, and you choose k people from there. 
+					- Choosing the ins is the same as choosing the outs
+				- Implicit in a statement like this that the value of k is somewhere between 0 and n
+		- [[Eliminating Multiplication]]
+			- $n - 1 \choose k$ + $n - 1 \choose k - 1$ = $n \choose k$
+				- Bottom part of it is $\ge$ 0 and $\le$ top part
+	- Let's say we have a [[bit string]] of length n (meaning n positions)
+		- n positions associated with the first n positive integers
+		- If talking about n choose k, it's a bit string with exactly k 1s.
+			- Two different groups of bit strings, those that have a 1 and those that have a 0
+		- If string is a 0 and there are k 1s altogether, it's a bit string of n -1  choose k
+		- If string is a 1 and there are k 1s altogether, it's a bit string of n-1 choose k-1
+- ![[Screenshot 2023-09-12 at 5.38.40 PM.png]]
+	- [[Pascal's Triangle]] 
+		- Triangular array
+		- First entry 1, 8, 28, 56, 70, 
+			- $8 \choose 3$ = 56
+				- When calculating binomial coefficients, you don't need to do any division or multiplication. Addition works fine. #archive
+				- Computer programmers find ways to do multiplication faster than you think

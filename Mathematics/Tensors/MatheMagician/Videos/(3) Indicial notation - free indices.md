@@ -1,0 +1,26 @@
+[Video](https://www.youtube.com/watch?v=_ifOVfmzl8E)
+
+- ![[Screenshot 2023-10-10 at 11.10.10 PM.png]]
+	- Indicial notation - [[free indices]]
+	- [[Indicial notation]]
+		- Allows us to abbreviate sums which shortens the expressions
+		- Can also reduce the number of equations we need
+			- To do this, we need [[free indices]]
+	- Take for example the [[differential equations]]
+	- Example 1: components of a vector
+	- For the vector a
+		- Can write $a_ie_i$ 
+			- $a_i$ ith component multiplied by $e_i$ at ith units vector
+	- Indices need to balance
+	- Correct or not?
+		- $a_i + k_i = c_i$
+			- YES
+		- $a_i + c_jd_j = f_i$
+			- NO
+		- $a_i + b_ic_jd_j = f_i$ 
+			- YES
+				- $c_jd_j$ is just a number multiplied by $b_i$ 
+		- $a_i + b_ic_id_i = f_i$
+			- NO
+				- Has 3 indices
+	- Two free indices

@@ -1,0 +1,44 @@
+[Video](https://www.youtube.com/watch?v=-mGdl_V8XjQ)
+
+- ![[Screenshot 2023-12-08 at 12.57.34 AM.png]]
+	- What is a [[statement]]?
+		- A declarative sentence that is either true or false
+		- Examples
+		- A sentence is not a statement when the truth is ambiguous
+			- x < 8 can be true and also cannot be true
+		- "Be kind" is a command
+	- Often, we use letters P, Q, R for [[statement|statements]]
+		- Might see them as capital or lowercase letters
+	- We will combine statements using [[connectives]] (and, or, not)
+	- Notation
+		- [[And]]: $\land$
+		- [[Or]]: $\lor$ 
+		- [[Not]]: $\lnot$ or $\sim$ 
+	- Suppose p and q are statements
+		- [[And]]: p $\land$ q is true only when both p and q are true
+	- We can describe a [[compound statement]] using the [[truth table]]
+	- [[Or]]: $p \lor q$ is true when p is true or q is true or both are true
+	- [[Not]]: $\lnot$ p ($\lnot p$ )
+		- Has opposite truth of p (statement)
+- ![[Screenshot 2023-12-08 at 1.07.44 AM.png]]
+	- For P(x), you can evaluate at 2 giving P(2)
+	- The [[conditional statement]] (aka [[Implication]])
+		- p, q statements
+			- $p \implies q$
+			- p $\rightarrow$ q
+		- Read as "If p then q" or "p implies q"
+	- Example: Mateo says to Sean:
+		- "If we are roommates then I will cook everyday."
+			- When is Mateo not telling the truth?
+				- Scenario 1 (True)
+					- Mateo and Sean are roommates
+					- Mateo cooks everyday
+				- Scenario 2 (False)
+					- Mateo and Sean are roommates
+					- Mateo does not cook everyday
+				- Scenario 3 (True)
+					- Mateo and Sean are not roommates
+					- Mateo cooks everyday
+				- Scenario 4 (True)
+					- Mateo and Sean are not roommates
+					- Mateo does not cook everyday

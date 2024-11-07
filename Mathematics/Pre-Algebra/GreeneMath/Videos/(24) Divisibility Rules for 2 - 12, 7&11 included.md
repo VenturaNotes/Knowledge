@@ -1,0 +1,159 @@
+[Video](https://www.youtube.com/watch?v=ai6TxuX_Zv8) (unavailable)
+[06:47:50](https://www.youtube.com/watch?v=VXzm8ReImG0&t=24470s)
+
+- Lesson Objective:
+	- Learn how to determine if a number is [[divisible]] by:
+		- 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, or 12
+- A number is divisible by another if the result has no remainder.
+	- 25 $\div$ 5 = 5
+		- 25 is divisible by 5 because no remainder
+	- 30 $\div$ 3 = 10
+		- No remainder
+	- 19 $\div$ 4 = 4R3
+		- Has a remainder so not divisible
+- [[Divisibility Rules]]
+	- 2
+		- a number is divisible by 2 if it is even
+		- (the final digit is a 0, 2, 4, 6, or 8)
+		- 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+			- 0, 2, 4, 6, 8, 10 are the even numbers
+			- 1, 3, 5, 7, 9 are the odd numbers
+			- It alternates between even and odd
+	- 3
+		- the sum of its digits is divisible by 3
+	- 4
+		- the final two digits of the number forms a number that is divisible by 4
+	- 5
+		- the final digit is a 0 or a 5
+	- 6
+		- the number is divisible by both 2 and 3 ^22baa7
+	- 8
+		- the final three digits of the number forms a number that is divisible by 8
+	- 9
+		- the sum of its digits is divisible by 9
+			- we could take the sum and sum the digits again if number is too large
+	- 10
+		- the number ends with a 0
+	- 12
+		- the number is divisible by both 3 and 4
+- Determine whether each number is divisible by 2, 3, 4, 5, or 6:
+	- 232
+		- 2 ? (yes)
+			- final digit is a 2 which makes number even so divisible by 2
+		- 3? (no)
+			- Sum of digits
+				- 2 + 3 + 2 = 7
+				- 7 $\div$ 3 gives a remainder of 1 so not divisible
+		- 4? (yes)
+			- 32 $\div$ 4 has no remainder
+		- 5? (no)
+			- final digit is not a 0 or 5 so not divisible
+		- 6? (no)
+			- Since 3 is not divisible, 6 will not be divisible
+	- 93
+		- 2 ? (no)
+			- final digit not 0,2,4,6, or8
+		- 3 ? (yes)
+			- 9 + 3 = 12
+				- 12$\div3$ = 4 with no remainder so divisible
+		- 4 ? (no)
+			- 4 is built from 2 x 2. If a number is not divisible by 2, it will not be divisible by 4 automatically. 93 is an odd number. No odd number divisible by 4
+		- 5 ? (no)
+			- final digit not 0 or 5 
+		- 6 ? (no)
+			- divisible by 6 if divisible by 2 and 3 so no
+	- 300
+		- 2 ? (yes)
+			- number is even
+		- 3 ? (yes)
+			- sum of digits is 3$\div$ 3 = 1 no remainder
+		- 4 ? (yes)
+			- 0$\div$ 4 =0
+				- 0 divided by anything (other than 0) is 0 with no remainder
+		- 5 ? (yes)
+			- final digit of number is 0
+		- 6 ? (yes)
+			- 300 is divisible by 2 and 3
+- Determine whether each number is divisible by 8, 9, 10 or 12:
+	- 918
+		- 8 ? (no)
+			- final 3 digits forms a number divisible by 8 (not useful here)
+			- 8 is built from 2 x 2 x 2
+				- if it wasn't an even number, then you could just say no (for 918)
+			- Need to use long division for this
+				- ![[Screenshot 2022-12-14 at 6.57.21 PM.png|300]]
+				- Since there is a remainder, it's not divisible
+		- 9 ? (yes)
+			- 9 + 1 + 8 = 18
+			- 18 $\div$ 9 = 2
+		- 10 ? (no)
+			- last digit not 0
+		- 12 ? (no)
+			- Since 9 is 3x3, we know 918 is divisible by 3
+			- Final 2 digits: 18$\div$ 4 = 4R2 
+			- Not divisible by both 3 and 4
+	- 16, 299
+		- 8 ? (No)
+			- Not divisible by 2 and since not an even number, not divisible
+		- 9 ?  (Yes)
+			- 1 + 6 + 2 + 9 + 9 = 27
+				- 2 + 7 = 9
+				- 9$\div$ 9 = 1 with no remainder
+		- 10 ? (No)
+			- No since final digit is not 0
+		- 12 ? (No)
+			- Divisible by 3 since divisible by 9
+			- Not divisible by 2 so not divisible by 4
+	- 10, 800
+		- 8 ? Yes
+			- $800\div8=100$
+		- 9 ? Yes
+			- 1 + 8 = 9
+			- $9 \div 9$ = 1 no remainder
+		- 10 ? (Yes)
+			- Because final digit is a 0
+		- 12 ? (yes)
+			- Divisible by 3 because of 9
+			- Divisible by 4 because 0 $\div$ 4 = 0
+- What about the rules for 7 and 11?
+	- 7
+		- 1) Remove the last digit from the number
+		- 2) Take the number you removed and double it, subtract this away from the shortened original number
+		- 3) If the number formed is a 0 or a number that is divisible by 7, then the original number is divisible by 7. We may need to repeat the process a few times
+- Determine if each number is divisible by 7
+	- 26,411 (yes)
+		- 2641
+			- Cuts final digit off
+		- 2
+			- Number that was cut off + doubled
+		- 2641 - 2 = 2639
+			- 263
+			- 18
+				- 263 - 18 = 245
+					- 24
+					- 10
+						- 24 - 10 = 14
+							- 14 $\div$ 7 = 2 with no remainder
+	- 6,480 (no)
+		- 648
+		- 0
+			- 648 - 0 = 648
+				- 64
+				- 16
+					- 64 - 16 = 48
+						- 48 is not divisible by 7 since $7*7$ = 49
+- Rule for 11 ^94f457
+	- 11
+		- (1) Find the sum of the digits in the odd places, and subtract away the sum of the digits in the even places.
+		- (2) If the result is a 0 or a number that is divisible by 11, then the original number is divisible by 11
+- Determine if each number is divisible by 11:
+	- 90,720 (No)
+		- Odd: 9 + 7 + 0 = 16
+		- Even: 0 + 2 = 2
+			- 16 - 2 = 14
+				- $14\div 11$ = 1 R 3
+	- 361,152 (yes)
+		- Odd: 3 + 1 + 5 = 9
+		- Even: 6 + 1 + 2 = 9
+			- 9 - 9 = 0
+				- Divisible by 11

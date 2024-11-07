@@ -1,0 +1,42 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ
+Length: 11 hours, 50 minutes, 8 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Group theory 1 - Introduction]]
+	- [[(2) Group theory 2 - Cayley's theorem]]
+	- [[(3) Group theory 3 - Homomorphisms]]
+	- [[(4) Group theory 4 - Lagrange's theorem]]
+	- [[(5) Group theory 5 - products]]
+	- [[(6) Group theory 6 - normal subgroups and quotient groups]]
+	- [[(7) Group theory 7 - Semidirect products]]
+	- [[(8) Group theory 8 - Extensions]]
+	- [[(9) Group theory 9 - Quaternions]]
+	- [[(10) Group theory 10 - Burnside's lemma]]
+	- [[(11) Group theory 11 - Groups of prime power order]]
+	- [[(12) Group theory 12 - Cauchy's theorem]]
+	- [[(13) Group theory 13 - Dihedral groups]]
+	- [[(14) Group theory 14 - Sylow theorems]]
+	- [[(15) Group theory 15 -Groups of order 12]]
+	- [[(16) Group theory 16 - Automorphisms of cyclic groups]]
+	- [[(17) Group theory 17 - Finite abelian groups]]
+	- [[(18) Group theory 18 - Nilpotent groups]]
+	- [[(19) Group theory 19 - Wreath products]]
+	- [[(20) Group theory 20 - Frobenius groups]]
+	- [[(21) Group theory 21 - Groups of order 24]]
+	- [[(22) Group theory 22 - Symmetric groups]]
+	- [[(23) Group theory 23 - Coxeter Todd algorithm]]
+	- [[(24) Group theory 24 - Extra special groups]]
+	- [[(25) Group theory 25 - The transfer homomorphism]]
+	- [[(26) Group theory 26 - Too many p groups]]
+	- [[(27) Group theory 27 - The icosahedral group]]
+	- [[(28) Group theory 28 - Groups of order 120, 168]]
+	- [[(29) Group theory 30 - Outer automorphisms]]
+	- [[(30) Group theory 29 -The Jordan Holder theorem]]
+	- [[(31) Group theory 31 - Free groups]]
+	- [[(32) Group theory 32 - Subgroups of free groups]]

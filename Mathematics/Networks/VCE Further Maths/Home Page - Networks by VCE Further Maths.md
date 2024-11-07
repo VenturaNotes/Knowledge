@@ -1,0 +1,42 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLnvpvkSXJThJJRoQ-BK8tY0O3kSK-N27E
+Length: 14 hours, 16 minutes, 50 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) VCAA 2011 Module 5 Q4c]]
+	- [[(2) undirected graphs applications]]
+	- [[(3) undirected graph definitions]]
+	- [[(4) VCAA 2012 Exam 2 M5 Q1]]
+	- [[(5) VCAA 2012 Exam 1 M5 Q9]]
+	- [[(6) Critical Path Analysis]]
+	- [[(7) Maximum Flow]]
+	- [[(8) 2014 Networks practice SAC ER solutions]]
+	- [[(9) Practice SAC Networks 2014 MC ans]]
+	- [[(10) VCAA allocation questions]]
+	- [[(11) Maximum Flow]]
+	- [[(12) past VCAA undirected graph questions]]
+	- [[(13) undirected graphs]]
+	- [[(14) Dijkstra's Algorithm]]
+	- [[(15) Networks 2019 VCAA Exam Qs]]
+	- [[(16) Networks intro to basic definitions]]
+	- [[(17) Planar Graphs & Euler's Formula]]
+	- [[(18) The Adjacency Matrix]]
+	- [[(19) Hungarian Algorithm example]]
+	- [[(20) Exploring & Travelling Problems]]
+	- [[(21) Spanning Trees]]
+	- [[(22) 2018 FM Exam 2 Networks]]
+	- [[(23) Shortest Paths (Dijkstra's algorithm)]]
+	- [[(24) Maximum Flow Problems]]
+	- [[(25) Allocation Problems - Hungarian Algorithm]]
+	- [[(26) reducing multiple activities]]
+	- [[(27) Crashing multiple activities with cost]]
+	- [[(28) Precedence Tables & Activity Networks]]
+	- [[(29) Forward & Backward Scanning]]
+	- [[(30) Project crashing - single activities]]
+	- [[(31) Project Crashing - Multiple Activities]]
+	- [[(32) Project Networks - making tea]]

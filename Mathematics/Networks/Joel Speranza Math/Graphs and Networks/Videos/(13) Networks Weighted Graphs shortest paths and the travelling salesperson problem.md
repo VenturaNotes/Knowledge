@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=rd4XKAqkVzk)
+
+- ![[Screenshot 2023-01-15 at 1.57.40 PM.png]]
+- To find the shortest paths between 2 points, you need to draw a weighted graph
+- [[Weighted Graph]]
+	- Each edge has been given a weight (number)
+		- Weight could be a distance in km
+		- Could be a time in minutes it takes
+		- Could be a cost in terms of getting some information from one party to another party
+	- Adding up all edges would give total weight of graph
+- There is no shortcut to find the shortest path. Just need to trial & error through it
+- We could just cross out the path with a weight of 20 between C and D since there is a path with a weight of 10 that gets you from C to D directly
+- When finding the shortest path, find all the different routes systematically
+- <mark style="background: #FFF3A3A6;">The traveling salesperson problem</mark>
+	- You are a traveling salesperson. You need to get to every town exactly once
+	- You need to get back to home town
+	- Questions
+		- Which town should you start and finish in?
+		- Which roads should you take so that you travel the least km?
+		- Easiest way to do it is to write a computer program for it and make the computer program start at F and try every combination of routes. Then other vertices and find that too
+			- Need to brute force the answer

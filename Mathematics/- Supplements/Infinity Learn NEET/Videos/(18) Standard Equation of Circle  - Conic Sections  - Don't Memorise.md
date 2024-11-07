@@ -1,0 +1,24 @@
+[Video](https://www.youtube.com/watch?v=cyKFBmTjyio)
+
+- ![[Screenshot 2023-10-25 at 7.11.53 PM.png]]
+	- [[Circle]]
+		- Collection of points
+		- A set of points on the same plane which are at an equidistance from a single point form a circle
+			- Single point is called center of circle
+			- Distance between center and all points is called [[radius]] of circle
+	- Branches of [[mathematics]]
+		- [[Geometry]]
+		- [[Algebra]]
+		- [[Number Theory]]
+		- [[Logic]]
+	- The algebra representation of any geometrical figure is called an [[equation]]
+		- Center has coordinates (h, k)
+		- Get any point on the circle P, and have its coordinate (x, y)
+		- Denote radius by r
+		- Can use [[distance formula]] to derive equation of circle
+			- $\sqrt{(x-h)^2 + (y-k)^2 }=r$
+		- [[General equation of the circle]] (standard form)
+			- $(x-h)^2 + (y-k)^2 = r^2$ 
+	- Equation of [[circle]] with origin at center
+		- $x^2 + y^2 = r^2$ 
+	- Showed how to represent circle in geometrical form and algebraic form

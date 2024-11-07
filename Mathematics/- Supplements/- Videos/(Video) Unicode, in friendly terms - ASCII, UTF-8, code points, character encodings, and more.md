@@ -1,0 +1,47 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=ut74oHojxqo
+Length: 10 minutes 53 seconds
+tags:
+  - status/incomplete
+  - type/video
+---
+- ![[Screenshot 2023-07-26 at 3.12.51 PM.png]]
+	- Programming languages can be unicode aware
+	- All data is stored as [[bits]]. 0s and 1s (such as 0100010)
+		- Either in [[RAM]] (memory) or [[Disk]]
+	- Whether it's a number like "26" or a character like "d", it all gets transformed into bits for storage
+		- For numbers, it makes sense to transform 26 to the equivalent number in base 2 (11010)
+			- This gives us the binary representation for storage
+		- What about the letter d, Chinese characters, or emojis?
+			- Solution is collectively agreed mapping between characters and numeric values
+				- Most popular simplest one is [[ASCII]] which is an acronym but nobody uses the full name
+					- It maps a set of basic western characters to numbers between 0 and 127. Supports 128 different characters
+	- To convert String "Hello" to ascii, look up the relevant value for each character (such as the ASCII value), then convert the value to binary, then concatenate them all together to get the storage ready version
+		- Each character becomes 8 bits or 1 byte of binary data. This is known as encoding the string
+			- [[ASCII Encoding]]
+			- For decoding, we do everything in reverse
+	- ASCII has a great property where the number of characters equals the number of bytes
+		- Each character is stored using exactly one byte
+			- In some programming languages such as C and C++, the `strlen` function in `strlen("Hello") == 5` will return the number of bytes in the string which is the same as the number of characters in the string for ASCII
+- ![[Screenshot 2023-07-26 at 3.37.22 PM.png]]
+	- The Chinese language is over 10,000 characters
+		- Other writing systems include Arabic, Cyrillic, and Devanagari
+	- Therefore, the [[Unicode]] standard was created
+		- Encompasses over 100,000 unique characters in over 100 languages
+		- Handles accents, emoji modifiers and other strange characters
+	- Unicode is a bit more complicated than ASCII
+	- Will replace the word Character (which can be ambiguous) with
+		- [[Grapheme]]: a single unit of a human writing system
+			- such as "d" or 你
+			- Words are not graphemes since they can be broken down into letters
+	- To express a grapheme in unicode, use one or more [[code points]] to combine together to represent a grapheme
+		- d
+			- Latin Small Letter D (name)
+			- 100 (value)
+	- More complex graphemes can be represented with a single code point or multiple code points
+		- $\acute{e}$: Latin Small Letter E with Acute (233)
+		- $\acute{e}$: Latin Small letter E (101) + Combining Acute Accent Modifier (769)
+			- Second code point modifies first code point giving the $\acute{e}$ grapheme
+			- Using a combining modifier
+		- This is how to map a grapheme to one or more code points (each with a numeric value)

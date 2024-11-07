@@ -1,0 +1,39 @@
+[Video](https://youtube.com/watch?v=TDbO8EUMcKQ)
+
+---
+- Surveys
+	- We use surveys to represent sets of people. In this section, the cardinal number of a set plays an important role.
+	- The cardinal number of a set is the number of elements in the set.
+---
+- ![[Screenshot 2023-05-14 at 3.30.45 AM.png|500]]
+- Using Cardinal Numbers
+	- Set up a Venn diagram using only the number of elements in that region.
+	- The four regions of A need to add up to 6 since n(A) = 6
+		- Able to find it in the sum
+---
+- ![[Screenshot 2023-05-14 at 3.34.11 AM.png|500]]
+- Surveys
+	- We want to fill in a Venn diagram by always starting with the overlap region(s).
+	- Language matters
+		- If a sentence says: "(some number) like both A and B ..." then this includes people who like A and B and not C, but also people who like A and B and C. This value MUST be subtracted by the triple overlap number
+		- If a sentence says: "(some number) like A and B only" then this does not include the triple overlap and this value can be placed into the appropriate region
+		- This is also true when it says "(some number) like A." That is the cardinal number in set A and ALL the regions in A should add up to that given value.
+	- All the regions (including any floating in U and not in any other set) should add up to the total number in the universe
+---
+- ![[Screenshot 2023-05-14 at 3.38.21 AM.png|500]]
+- Survey - Question 1
+	- A group of students asked if they like certain Grammy winners.
+	- Results:
+		- 28 like Taylor Swift
+		- 34 like Bruno Mars
+		- 12 like both Taylor Swift and Bruno Mars
+		- 4 like neither artist
+	- Draw a Venn Diagram to represent the above
+	- Answer the following questions based on the Venn Diagram
+	- a.) How many people were surveyed total? <mark style="background: #FFF3A3A6;">54</mark>
+	- b.) How many people like only Bruno Mars? <mark style="background: #FFF3A3A6;">22</mark>
+---
+- ![[Screenshot 2023-05-14 at 3.44.22 AM.png|500]]
+- Survey - Question 2
+	- A group of football players are surveyed on the sports they watch in the Summer Olympics. The results are as follows:
+	- Using the survey data, answer each question

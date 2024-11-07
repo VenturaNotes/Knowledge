@@ -1,0 +1,54 @@
+[Video](https://youtube.com/watch?v=GCraUB215P8)
+
+- ![[Screenshot 2024-01-16 at 9.46.49 AM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- (1) Translate an English sentence into a precise mathematical statement
+			- (2) Translate a mathematical statement (using all the [[connectives]]) into English
+			- (3) Give the truth values for the connectives (and, or, if/then, not)
+			- (4) Explain why "False implies True" is true
+	- Slide 3 - Motivation
+		- Motivation
+			- We want to be able to communicate mathematics precisely, without misunderstandings
+		- Examples
+			- not
+			- and
+			- or
+			- if then
+			- if and only if
+	- Slide 4 - [[Not]] (Negations)
+		- We use P, Q, R to denote mathematical statements. (e.g. P: "For all x $\in$ $\mathbb{R}$, x < x + 1.") "T" means "True" and "F" means "False"
+		- not, $\lnot$ 
+			- $\lnot$P means "The negation of P". (Imprecisely: the "opposite" statement)
+	- Slide 5 - [[And]] (Conjunctions)
+		- and, $\land$
+			- P $\land$ Q means "Both P and Q are true"
+- ![[Screenshot 2024-01-16 at 9.56.29 AM.png]]
+	- Slide 6 - [[Or]] (Disjunctions)
+		- or, $\lor$ 
+			- P $\lor$ Q means "P is true or Q is true (possibly both)."
+		- Note. In math "or" can include both things. It is "inclusive"
+	- Slide 7 - If/then ([[Implication|implications]])
+		- If/then, $\implies$ 
+			- P $\implies$ Q means "If P is true, then Q is also true"
+		- Example. P: "You get an A in the intro to proofs course", Q: "You will pass the intro to proofs course"
+		- Scenario: At the beginning of the course, the instructors promises you "If you get an A in the course, then you will pass the course." (P $\implies$ Q). What circumstances would have to happen for you to call the instructor a liar?
+		- The reason why P $\to$ Q is true when P is false and Q is true
+			- If P is false, it doesn't say anything about the implication
+	- Slide 8 - If and only if ([[equivalence]])
+		- If and only if, $\iff$ 
+			- P $\iff$ Q means "P is true if and only if Q is true". This is also denoted P iff Q
+		- Basically saying that they have the same truth values
+	- Slide 9 - Exercises
+		- Translate the following sentences into pure math symbols
+			- (1) x is even and x is a multiple of 5
+			- (2) If x is a multiple of 6, then it is also a multiple of 3
+			- (3) Every multiple of 6 is also a multiple of 3
+			- (4) A real number is positive exactly when it is equal to the square of a non-zero real number
+			- (5) p is a prime natural number
+- ![[Screenshot 2024-01-16 at 9.58.08 AM.png]]
+	- Slide 10 - Reflection
+		- Why have we formally defined the connectives?
+		- Why does the truth table for "and", "or", "if/then", "iff" have 4 rows, but the table for "not" has only two rows?
+		- Why did we assume that mathematical statements can only be "True" or "False", and nothing in between?
+		- How can the truth table for "and" be made to look like multiplication?

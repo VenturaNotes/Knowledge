@@ -1,0 +1,31 @@
+[Video](https://youtube.com/watch?v=PWRd2I5nJls)
+
+- Signed numbers are numbers with a positive sign or negative sign attached
+- Simplify the expressions
+	- $2*3$ = 6
+		- same signs will be positive
+	- $2(-3)$ =-6
+		- different signs
+	- $(-2)3$ =-6
+		- different signs
+	- $(-2)(-3)$ = 6
+		- same signs
+- Table
+	- ![[Screenshot 2022-12-13 at 6.08.46 PM.png]]
+		- Multiplying positive by positive = positive
+		- Multiplying negative by negative = positive
+		- Multiplying positive by negative = negative
+		- Multiplying negative by positive = negative
+	- Logic only applies when multiplying together just 2 signed numbers 
+		- If the sign is the same: result is positive
+			- For every 2 negative signs you have, they'll cancel each other out when positive
+		- If signs different, result is negative
+- Examples
+	- (-2)(-3)(-3) = (2)(3)(-4) = 6(-4) = -24
+	- (-2)(-3)(-4)(-5) = (2)(3)(4)(5) = (6)(20) = 120
+- Rule
+	- If you have an even number of negatives, product will be positive
+		- Even - : +
+	- If you have an odd number of negatives, product will be negative
+		- Odd - : -
+ 

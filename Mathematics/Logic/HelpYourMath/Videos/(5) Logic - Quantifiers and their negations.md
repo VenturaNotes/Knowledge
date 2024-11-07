@@ -1,0 +1,51 @@
+[Video](https://youtube.com/watch?v=uWAEG5BFOrQ)
+
+---
+- A quantifier is an adjective that indicates how many cases of a particular situation exist.
+	- Universal quantifiers include: all, each, every, and no/none
+	- Existential quantifiers include some, there exists and (for) at least one
+- Be careful when negating a quantifier statement!
+---
+- ![[Screenshot 2023-05-12 at 12.35.35 AM.png]]
+- Truth Table for Negations
+	- Columns
+		- 0% of people do
+		- 1 - 99% of people do
+		- 100% of people do
+	- Rows
+		- All
+		- No/None
+		- Some do
+		- Some do not
+- "All" negates "Some do not"
+- "No/None" negates "Some do"
+---
+- Examples
+	- State the negation for each statement
+		- All cats are named Sir Hairballington
+			- There are some cats not named Sir Hairballington
+			- There is at least one cat not named Sir Hairballingon
+		- Some people prefer apples to oranges
+			- Nobody prefers apples to oranges
+		- No team with an 0-5 record has won the Super Bowl
+			- There is a team with an 0-5 record that has won the Super Bowl
+---
+- ![[Screenshot 2023-05-12 at 12.42.11 AM.png|500]]
+- Summary!
+	- Statement contains, negation
+		- "All do/Every" negation is "some do not"
+		- "Some do" negation is "None do"
+		- "Some do not" negation is "all do"
+		- "None do" negation is "Some do"
+---
+- ![[Screenshot 2023-05-12 at 12.45.38 AM.png|500]]
+- Practice!
+	- State the negation for each statement
+	- Some people like Mike
+		- Nobody likes Mike
+	- No elderly person can twerk
+		- At least one elderly person can twerk
+	- Everybody has a pet fish.
+		- There is one person who does not have a pet fish
+	- There are some professors at BMCC who do not have brown eyes
+		- Every professor at BMCC has brown eyes

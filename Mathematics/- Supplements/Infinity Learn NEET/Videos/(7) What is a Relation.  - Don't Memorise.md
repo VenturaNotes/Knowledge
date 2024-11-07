@@ -1,0 +1,21 @@
+[Video](https://www.youtube.com/watch?v=hV1_wvsdJCE)
+
+- ![[Screenshot 2023-10-16 at 4.38.21 PM.png]]
+	- [[Relation]]
+		- Gives a set of [[ordered pair|ordered pairs]] that satisfy a relationship
+	- [[Cartesian product]]
+		- $P \times Q$ 
+	- [[Set-builder notation]]
+		- $P \times Q = \{(p,q): p \in P, q \in Q\}$
+	- Relation 'R':
+		- Gives us a set of all ordered pairs that satisfy a relation
+		- Could be any relation
+	- If we introduce a relation R' such that q is a multiple of p
+		- R' is read as "R dash"
+	- We can say that relation R' gives us a set of all ordered pairs where q is a multiple of p
+		- Every ordered pair in the set R' satisfies the relation R'
+	- [[Roster method]]
+		- Roster means list
+		- $R' = \{(2,10), (2,20), (4,20)\}$
+	- Could be represented using an [[arrow diagram]]
+	- R' will be a subset of the cartesian product $P \times Q$ 

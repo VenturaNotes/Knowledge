@@ -1,0 +1,56 @@
+[Video](https://youtube.com/watch?v=A8SR_9KnaCE)
+
+---
+- ![[Screenshot 2023-05-20 at 7.32.22 AM.png]]
+- Consider the source
+- As you listen to sound bites on the radio or television spouting off statistics from studies, you should ask yourself pertinent questions:
+	- Who paid for the study?
+	- Where were the data collected?
+	- When was the information collected?
+	- Who published the study?
+- The source could also mean the population from which the data are collected.
+---
+- ![[Screenshot 2023-05-20 at 7.35.16 AM.png]]
+- Have you ever read a headline like "America's 100 best companies to work for" or "Top 10 things to make you happy"? You should read the fine print of the study to find out by what criteria best is defined or whose standard of happy they are talking about
+- In addition to considering what the variable of the study is measuring, we also need to think about the confounding variables not directly measured. A well-constructed study will make a point to account for as many confounding variables as possible.
+- Consider the statement found on a popular bottle of shampoo: makes hair 60% smoother. Some of the questions that would help you determine the validity of that claim.
+	- Smoother than what?
+	- Under what conditions?
+	- How did they measure "smoothness"?
+	- What types of hair were tested?
+	- In what type of weather was it tested?
+---
+- ![[Screenshot 2023-05-20 at 7.40.53 AM.png]]
+- Consider the set-up
+	- [[Bias]] is favoring of a certain outcome in a study.
+	- [[Sampling bias]] occurs when the sample chosen does not accurately represent the population
+	- [[Dropouts]] are participants who begin a study but fail to complete it.
+	- [[Processing errors]] are errors that occur from the data being processed, such as typos.
+	- [[Nonadherent]] is a participant who remains in the study but strays from the directions.
+	- [[Researcher bias]] occurs when a researcher influences the results of a study
+	- [[Response bias]] occurs when a researcher's behavior causes a participant to alter their response or when a participant gives an inaccurate response.
+	- [[Participation bias]] occurs when there is a problem with the participation-or lack thereof-of those chosen for the study
+	- [[Nonresponse bias]] occurs when there is a lack of participation in a self-selected sample from certain segments of a population, when a person refuses to participate in a survey, or when a respondent omits questions when answering a survey.
+---
+- ![[Screenshot 2023-05-20 at 7.41.59 AM.png]]
+- Consider the conclusion
+	- In the end, its the conclusions of the study that we should be most wise about.
+		- Do the data support the conclusion?
+		- Do the results present the whole picture or just a part?
+		- Could there be other conclusions drawn?
+		- Could there be other reasons for the same conclusion drawn?
+		- Does the study have any practical applications?
+---
+- ![[Screenshot 2023-05-20 at 7.46.46 AM.png]]
+- Putting it all together
+	- What is the population being studied?
+		- Americans over the age of 18
+	- What is the sample?
+		- 3297 adults surveyed
+	- What are the sample statistics?
+		- 73%
+	- Describe at least 2 potential sources of bias.
+		- Participation bias – Many likely didn’t return survey
+		- Nonresponse bias – Those without mailing address not included 
+		- Researcher bias – If biased questions were written 
+

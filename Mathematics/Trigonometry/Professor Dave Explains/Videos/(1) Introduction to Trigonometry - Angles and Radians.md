@@ -1,0 +1,23 @@
+[Video](https://www.youtube.com/watch?v=0GkmnPdD6jY)
+
+- Image
+	- After geometry and algebra
+	- Let's review some angles
+	- Measuring Angles in Radians
+		- 2 Coterminal rays: they start at the same point and then go on indefinitely in different directions
+		- $\theta$ represents an angle
+			- Greek letter theta
+		- To describe angle, we often use a coordinate plane
+		- One ray on x-axis
+			- Location of other ray will determine magnitude of the angle
+		- Counterclockwise is a positive angle
+		- Clockwise is a negative angle
+		- We are used to measuring angles using degrees
+			- There are $360\degree$ in one revolution (which is what we trace as we go around the coordinate plane)
+				- Ancient babylonians were approximating a year to be 360 days
+					- They also used a counting system Sexagesimal (Base-60)
+						- (60 $\times$ 6 = 360)
+				- 360 may have been a combination of observation and aesthetics
+		- Now we have to learn how to use radians
+			- If we have a circle of radius R, and we take two radii to form a sector whereby this arc connects the endpoints of the radii also has a length of R, equal to the radii, the angle between the radii will be one radian
+				- A sector with an arc length equal to the radius

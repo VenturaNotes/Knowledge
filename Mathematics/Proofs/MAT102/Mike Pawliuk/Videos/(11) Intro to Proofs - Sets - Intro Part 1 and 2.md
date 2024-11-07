@@ -1,0 +1,48 @@
+[Video](https://youtube.com/watch?v=aATDMrReklU)
+
+- ![[Screenshot 2023-11-13 at 5.11.03 PM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- (1) Define basic terms about [[sets]]
+			- (2) Define a set using [[set-builder notation]]
+			- (3) Distinguish between $\theta$ and {$\theta$}
+			- (4) Prove that two sets are equal using the "[[double subset technique]]"
+	- Slide 3 - Motivation
+		- Motivation 1
+			- Sets are a playground to experiment with proof techniques
+		- Motivation 2
+			- Sets are a fundamental way of encoding math. We can encode lists, numbers and functions from only sets
+	- Slide 4 - Sets
+		- "Definition" ([[Set]])
+			- A set is an un-ordered collection of objects (where repeats are not considered). (Other names, Set, collection, family)
+		- Examples
+		- Observations
+			- (1) Order doesn't matter
+				- In a [[list]], the order matters
+			- (2) Repeats don't matter 
+			- (3) Sets can contain objects of any type (including other sets!)
+	- Slide 5 - [[members|elements]]
+		- Definition $(x \in A)$ 
+			- If x is an object, and A is a set, we say x $\in$ A if x is an element (or member) of A. We say y $\notin$ A if y is not an element of A
+		- Examples
+		- Convention
+			- We prefer to use upper case letters (A, B, C, X, Y) for sets, and lower case letters (a, b, c, x, y) for elements
+	- Slide 6 - [[Subsets]]
+		- Definition (subset)
+			- Let A, B be sets. We say that A $\subseteq$ B if and only if $(\forall x)[x \in A \implies x \in B]$ 
+		- Examples
+			- $\mathbb{N}$ $\subseteq$ $\mathbb{Z}$ $\subseteq \mathbb{Q} \subseteq \mathbb{R}$ 
+		- Non-examples
+		- Need to be careful about [[quantifiers]]. If something is a subset, you need to show for all x some implication happens. To show something is not a subset, a [[negation]] for a [[for all]] statement is a [[It exists|there exists]] statement
+		- Negation of A $\subseteq B$
+			- $\lnot(A \subseteq B) \text{ means } (\exists x)[x \in A \land x \lnot B]$ 
+- ![[Screenshot 2023-11-13 at 5.13.21 PM.png]]
+	- Slide 7 - [[Lemmas]] about subsets
+		- Lemmas
+			- Let A, B, C be sets
+		- Exercise: Prove these two statements directly (by [[definition unwinding]])
+			- #archive
+	- Slide 8 - Exercise
+		- Exercise
+			- How many elements does the set B = {0, 1, A} have?
+		- This problem will be continued in the next video

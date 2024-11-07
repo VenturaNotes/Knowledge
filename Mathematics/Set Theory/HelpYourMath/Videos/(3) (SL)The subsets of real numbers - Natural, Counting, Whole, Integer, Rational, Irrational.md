@@ -1,0 +1,76 @@
+[Video](https://youtube.com/watch?v=O-xIVcMyiyI)
+
+---
+- Famous subsets
+	- Subsets of the real number system
+	- Subset: B is a subset of A if every element in B is also an element of A
+		- A: {M, T, W, T, F, S, S}
+			- 7 days of the week
+		- B: {M, T, W, T, F}
+			- Weekdays 
+		- B is a subset of A because every element of B is in A
+	- The real number system is all the numbers or any of the numbers that can be represented on a number line
+		- So if you can draw a number line and approximate where that number should be, then that is a real number
+		- A number that is not real is known as an imaginary number
+---
+- Subsets of Real Numbers
+	- Counting Numbers/Natural Numbers: $\mathbb{N}$ = {1, 2, 3, 4,...}
+		- ![[Screenshot 2023-03-28 at 1.07.24 PM.png]]
+			- Showing how to draw it
+	- Whole Numbers: W = {0, 1, 2, 3, ...}
+		- The uppercase W is not universally accepted. Not a fancy "W", just a normal "W"
+	- Integers: $\mathbb{Z}$ = {..., -2, -1, 0, 1, 2, ...}
+		- Whole numbers + additive opposites
+		- Does not have a first term
+		- ![[Screenshot 2023-03-28 at 1.07.35 PM.png]]
+			- Showing how to draw it
+	- Rational Numbers: $\mathbb{Q}$ = {$\frac pq$ | p, q $\in$ integers, q $\notin$ 0}
+		- ![[Screenshot 2023-03-28 at 1.07.44 PM.png]]
+			- Showing how to draw it
+		- Examples
+			- $0.73\overline {73}$ 
+			- 0.8
+			- $\frac {17} {21}$
+	- Irrational Numbers: {n | n $\in$ real numbers and n $\notin$ $\mathbb{Q}$
+	- Real Numbers: $\mathbb{R}$ = {x | x can be graphed on a number line}
+---
+- Diagram
+	- ![[Screenshot 2023-03-28 at 1.13.13 PM.png]]
+		- Subsets of Real Numbers: A diagram
+			- Real Numbers ($\mathbb{R}$)
+				- Irrational Numbers
+				- Rational Numbers ($\mathbb{Q}$)
+					- Non-integer rationals
+					- Integers ($\mathbb{Z}$)
+						- Negative Integers
+						- Whole Numbers
+							- Zero
+							- Counting Numbers ($\mathbb{N}$)
+---
+- Examples
+	- Determine whether each statement is true or false.
+		- $7 \in \mathbb{N}$
+			- True
+		- $-9 \notin \mathbb{Q}$
+			- False
+		- 0.823831 $\in$ $\mathbb{Z}$
+			- False
+		- $\pi$ $\in$ $\mathbb{R}$
+			- True
+- Even More examples
+	- Decide which set(s) of real numbers each given number belongs in.
+		- -7
+			- Integers, Rational Real
+			- $\mathbb{Z}, \mathbb{Q}, \mathbb{R}$
+		- 4.2
+			- Rational, Real
+			- $\mathbb{Q}, \mathbb{R}$
+		- 8$\pi$
+			- Real
+			- $\mathbb{R}$
+		- $9 \frac {3}{94}$
+			- Real, Rational
+			- $\mathbb{Q},\mathbb{R}$
+		- 0
+			- Real, Rational, Integer, Whole Numbers, Zero
+			- $\mathbb{Z}, \mathbb{Q}, \mathbb{R}$

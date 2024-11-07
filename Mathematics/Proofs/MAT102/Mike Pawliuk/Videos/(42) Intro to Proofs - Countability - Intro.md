@@ -1,0 +1,46 @@
+[Video](https://youtube.com/watch?v=qPXi0R6UYOM)
+
+- ![[Screenshot 2024-01-27 at 12.00.49 AM.png]]
+	-  Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- State the definition of countable
+			- Use [[Cantor-Schroeder-Bernstein]] to show that some sets are [[countable]]
+	- Slide 3 - Motivation
+		- Motivation
+			- One special case of [[infinite cardinality]] is when a set has the same cardinality as $\mathbb{N}$. We think of $\mathbb{N}$ as being a "small" infinite set. Our goal is to find other sets that have the same cardinality as $\mathbb{N}$ 
+	- Slide 4 - [[Hilbert's Hotel]]
+		- Hilbert's Hotel 1
+			- The mathematician Hilbert has a fantastic hotel with one room for every natural number.
+			- A farmer arrives at. the hotel, and are sad to see that every room in the hotel is full! However, Hilbert, by rearranging his guests, finds a way so that every old guest has a room, and the farmer also has a a room.
+			- How does he do this?
+		- One answer: Hilbert asks every current guest to move into the room one up (i.e. guests in room n go to room n + 1). Then he gives room 1 to the farmer.
+	- Slide 5 - Hilbert's Hotel
+		- Hilbert's Hotel 2
+			- Same situation, but this time 2020 farmers all show up.
+		- One answer: Hilbert asks every current guest to move into the room 2020 up (i.e. guests in room n go to room n + 2020). Then he gives rooms 1 through 2020 to the farmers.
+- ![[Screenshot 2024-01-27 at 12.24.06 AM.png]]
+	- Slide 6 - Hilbert's Hotel
+		- Hilbert's Hotel 3
+			- The hotel is so lovely, that every current guest phones one friend and tells them they have to get a room at Hilbert's hotel. How does Hilbert find a way to accommodate all these new friends?
+		- One answer: Hilbert asks every current guest to move into the room that is double their current room (i.e. guests in room n go to room 2n). Then each guest's friend can go in the room one above them (2n + 1).
+	- Slide 7 - Hilbert's Hotel
+		- If all real numbers are represented, is there a way for Hilbert to accommodate the whole team?
+	- Slide 8 - Definition
+		- Definition
+			- A set A is [[countable]], if there is a [[bijection]] f : A $\to$ $\mathbb{N}$.
+				- A set is countable if it has the same cardinality as the naturals
+				- Countable sets for us are necessarily going to be infinite
+		- Lemma
+			- The following are equivalent:
+				- A is countable.
+				- There is a bijection g : $\mathbb{N}$ $\to$ A
+					- Swapped order of domain and codomain
+				- A can be [[enumerated]] using N in a list as a1, a2, a3, . . .
+					- The name countable comes from above
+					- enumerated in a list without repeats
+				- Note: If you have a bijection g: $\mathbb{N}$ $\to$ A, then one enumeration is g(1), g(2), g(3)
+	- Slide 9 - Examples
+		- Example 1:
+			- {2021, 2022, 2023,...} is countable
+			- Proof
+				- g(n) = n +2020. This is clearly a bijection

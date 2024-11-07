@@ -1,0 +1,41 @@
+[Video](https://www.youtube.com/watch?v=Gtb9KwA37vo) (unavailable)
+[09:26:55](https://www.youtube.com/watch?v=VXzm8ReImG0&t=34015s)
+
+- Finding the LCM
+- Lesson Objective:
+	- Learn how to find the [[least common multiple]] for a group of numbers
+- To obtain the [[multiple|multiples]] of a number, we multiply the number by each nonzero whole number: 
+	- ![[Screenshot 2022-12-17 at 3.50.06 AM.png]]
+- Examples
+	- ![[Screenshot 2022-12-17 at 3.51.16 AM.png]]
+		- These are multiples of 3
+	- ![[Screenshot 2022-12-17 at 3.52.39 AM.png|500]]
+		- Multiples of 11
+- Common multiples are multiples that are common to all numbers of a group: 
+	- Find the multiples of 4 and 5
+		- ![[Screenshot 2022-12-17 at 3.55.05 AM.png]]
+			- The least common multiple is 12
+	- Find the multiples of 15 and 12
+		- ![[Screenshot 2022-12-17 at 3.56.09 AM.png]]
+- Finding the LCM from each number's prime factorization:
+	- 1) Factor each number completely
+	- 2) List the prime factors of each number in a table
+	- 3) Generate a list that contains each prime factor
+	- 4) When a prime factor is repeated between two or more numbers, include only the largest number of repeats from any of the prime factorizations
+	- 5) the LCM is the product of the numbers on the list
+- Find the LCM for each group of numbers
+	- LCM(9,12)
+		- ![[Screenshot 2022-12-22 at 5.27.50 AM.png]]
+		- We can test the LCM by finding the multiples of the numbers in question
+			- 9: 
+				- 9, 18, 27, <mark style="background: #FFF3A3A6;">36</mark>, 45, 54
+			- 12:
+				- 12, 24, <mark style="background: #FFF3A3A6;">36</mark>, 48, 60
+	- LCM(8, 42)
+		- ![[Screenshot 2022-12-22 at 5.31.25 AM.png]]
+	- LCM(20, 35)
+		- ![[Screenshot 2022-12-22 at 5.34.40 AM.png]]
+	- LCM(16,18,30)
+		- ![[Screenshot 2022-12-22 at 5.38.41 AM.png]]
+	- LCM(120, 40, 225)
+		- ![[Screenshot 2022-12-22 at 5.42.49 AM.png]]

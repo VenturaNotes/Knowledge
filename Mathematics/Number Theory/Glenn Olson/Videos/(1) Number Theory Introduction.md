@@ -1,0 +1,25 @@
+[Video](https://youtube.com/watch?v=FtztfI86pBY)
+
+- Sources
+	- North Suburban Math League Contests
+	- "Introduction to Number Theory" by Mathew Crawford
+	- "The Art of Problem Solving Volume I" by Sandor Lehoczky and Richard Rusczyk 
+	- Google / Internet / Math Forum / Youtube / etc...
+- Topics covered in videos:
+	- A) Subsets of numbers
+	- B) Divisibility
+	- C) Primes
+	- D) GCD
+	- E) Euclidean algorithm
+	- F) LCM
+	- G) relationship of GCD/LCM
+	- H) Total Number of Factors
+	- I) Units Digit
+	- J) Remainder
+	- K) Trailing Zeros
+	- L) Counting Multiples
+	- M) Sum of first n natural numbers
+	- N) Linear Diophantine Equations
+	- O) Modular Arithmetic
+	- P) Misc Items
+- Number theory is the branch of mathematics associated with the study of integers

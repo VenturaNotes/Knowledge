@@ -1,0 +1,37 @@
+[Video](https://youtube.com/watch?v=JplCemHg5MI)
+
+- ![[Screenshot 2023-05-24 at 1.22.13 PM.png]]
+- A2. a)
+	- Where k is integer
+		- Even: 2k
+		- Odd: 2k + 1
+- A2. b)
+	- Show 10 is even
+		- 10  = 2 * 5
+			- Since k=5 in this instance, we've proven that 10 is even
+- A2. c)
+	- Show 7 is odd
+		- 7 = 2 * 3 + 1
+			- k=3 and since it's in that form, it's odd
+- A2. d)
+	- Is 0 even or odd or neither?
+		- 0 = 2 * 0
+			- 0 is the integer here, and proves that [[zero]] is an even number ^32ab6a
+- A2. e)
+	- List first 15 perfect squares
+		- $1^2$ = 1
+		- $2^2$ = 4
+		- $3^3$ = 9
+		- $4^2$ = 16
+		- $5^2$ = 25
+		- $6^2$ = 36
+		- $7^2$ = 49
+		- $8^2$ = 64
+		- $9^2$ = 81
+		- $10^2$ = 100
+		- $11^2$ = 121
+		- $12^2$ = 144
+		- $13^2$ = 169
+		- $14^2$ = 196
+		- $15^2$ = 225
+	- We can remember 13 and 14 pretty well since the digits are interchanged

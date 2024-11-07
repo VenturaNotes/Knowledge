@@ -1,0 +1,37 @@
+[Video](https://youtube.com/watch?v=EXcvpu2TBQg)
+
+---
+- ![[Screenshot 2023-05-12 at 12.48.16 AM.png|500]]
+	- A [[truth table]] is a table in which we consider all the possible combinations of truth values for two or more statements
+	- A truth value of a statement is True or False
+	- Sometimes we are told the truth value of the statement, sometimes we have to make the determination, and sometimes we have to create a table to consider all truth values of the simple statements.
+---
+- ![[Screenshot 2023-05-12 at 12.49.43 AM.png|500]]
+- [[Conjunction|Conjunctions]]
+	- Recall a conjunction of two statements implies both or all statements must be true.
+	- In symbols: $p \land q$ 
+	- A truth table would look like this
+---
+- ![[Screenshot 2023-05-12 at 12.54.22 AM.png|500]]
+- Finding the Truth value of a conjunction
+	- Let p represent "The earth is round." and let q represent "The earth rotates around the su." Find the truth value of $p \land q$
+		- I'm surprised the word "rotates" is being used. Shouldn't it be "revolves"? My 8th grade middle school teacher suggested that.
+---
+- ![[Screenshot 2023-05-12 at 12.55.40 AM.png|500]]
+- [[Disjunction|Disjunctions]]
+	- Recall a disjunction of two statements implies at least one of the statements must be true.
+	- In symbols: $p \lor q$
+		- A truth table would look like this
+---
+- ![[Screenshot 2023-05-12 at 12.56.22 AM.png|500]]
+	- Examples
+---
+- ![[Screenshot 2023-05-12 at 12.59.54 AM.png|500]]
+- [[Negation|Negations]]
+	- Recall a negation of a statement is a statement with opposite truth value
+	- In symbols: $\textasciitilde p$
+	- A truth table would look like this
+---
+- ![[Screenshot 2023-05-12 at 1.00.25 AM.png|500]]
+- Finding the truth value of a negation
+

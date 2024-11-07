@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=IdTaA6iz3Mo)
+
+- Mathematical Induction - Method of proof
+	- It's just another tool in tool belt
+	- "proof by induction"
+	- same category as deduction
+		- "Deductive geometry" - kind of logic that you use to start with something that you know and establish something else (prove something)
+		- "Proof by contradiction" - can be seen in inequalities
+			- Famous for showing why $\sqrt{2}$ numbers are irrational
+	- Deals mainly with Discrete numbers (whole numbers)
+		- Discrete math is a whole branch of math
+	- Most questions we'll look at are integers and positive integers
+	- There are a few applications in mathematical induction that vary
+- eg.
+	- Prove 1 +3 + 5 +... + (2n-1) = $n^2$  (this is a series of odd numbers)
+		- (will prove by induction)
+	- Calculators are good for concrete values
+		- Not great for indeterminate things
+		- Don't know how long the above series is. Could be any length.
+	- Proving by Deduction
+		- LHS (left hand side)
+			- 1 + 3 + 5 + ... + (2n - 1) is an arithmetic series

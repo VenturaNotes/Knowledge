@@ -1,0 +1,24 @@
+[Video](https://youtube.com/watch?v=pUPecnDzfMc)
+
+- ![[Screenshot 2023-09-08 at 11.36.58 AM.png]]
+	- An introduction to [[string|Strings]]
+		- Let n be a positive integer and let \[n] = {1, 2, ..., n}. A sequence of length n such as ($a_1, a_2, ..., a_n$) is called a string (also a word, an array or a vector)
+		- The entries in a string are called [[characters]], letters, coordinates, etc. The set of possible entries is called the [[alphabet]]
+	- Examples
+		- 010010100010110011101 - a [[bit string]] ^2e7fe9
+			- A bit string is just a 0, 1 string
+			- Bit string is most natural and important objects in all of combinatorial mathematics and computer science for that matter.
+		- 201002211001020 – a [[ternary string]]
+			- A ternary string is similar to a bit string but with one more symbol (the 2)
+		- Possible to have a [[quaternary string]] and etc. (but people don't usually talk about those. Just cumbersome)
+		- `abcacbaccbbaaccbabaddbbadcabbed` – a word from a five letter alphabet.
+			- This is also a word from a six letter alphabet (without the f)
+		- NHZ 4235 – A Georgia auto license plate
+			- The standard plates (not the vanity plates) consist of 3 capital letters and 4 digits
+		- I love mathematics (really)!! - a word from an alphabet with 59 letters – upper and lower cases, spaces and punctuation.
+			- Includes characters for spaces, punctuation marks, all mentioned above
+			- Computers read spaces well
+				- computers like spaces a lot
+	- Arrays in computer languages
+		- `int A[10];` [[statically]] creates space for the array. Not [[dynamically]]
+		- <mark style="background: #FFF3A3A6;">Best to format numbers with separating spaces rather than with commas.</mark>

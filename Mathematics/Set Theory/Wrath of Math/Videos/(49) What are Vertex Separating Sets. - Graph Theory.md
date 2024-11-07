@@ -1,0 +1,28 @@
+[Video](https://youtube.com/watch?v=h1_a60V51y0)
+
+- ![[Screenshot 2023-06-01 at 9.51.26 PM.png]]
+	- Let S be a [[vertex cut]] of G and let u and v be vertices from distinct components of G-S. Then S is a u-v [[separating set]]
+		- This lesson is to help prepare for a proof of [[Menger's theorem]]
+			- It is a connection between vertex separating sets and internally disjoint paths connecting vertices
+	- S is a vertex cut of G
+		- If you delete vertices of S from G, the resulting Graph "G-S", it clearly creates a disconnected graph
+			- S is an f-d separating set
+			- S is an f-a separating set
+			- S is an a-d separating set
+- ![[Screenshot 2023-06-01 at 10.47.12 PM.png]]
+	- More interested in [[minimum separating sets]]
+		- S is not a minimum f-d separating set because we can separate the vertices f and d by deleting a set of fewer vertices
+	- S' is a vertex cut. Additionally, f' is additionally an f-d separating set
+		- Causes f and d to be in different components
+		- f and d cannot be deleted themselves when separating them since they need to exist in different components to be considered separated
+		- <mark style="background: #FFF3A3A6;">S' is a minimum f-d separating set</mark>
+			- Minimum separating sets won't always be unique
+- ![[Screenshot 2023-06-01 at 10.56.02 PM.png]]
+	- Vertex separating sets are typically considered within the context of connected graphs.
+	- (1) Don't bother talking about an a-f separating set when they are already in distinct components
+	- (2) There will not be a u-v separating set for any two adjacent vertices u-v
+		- Vertices c and d is an example that can't be separated with vertices
+	- If S is a u-v separating set then, $|S| \ge \kappa (G)$
+		- Suppose S is some set that separates vertices u-v in some graph G
+		- Then it must be the case that the cardinality of S is greater than or equal to the connectivity of that graph G.
+			- $\kappa$ of the graph is the connectivity of the graph which by definition is the minimum number of vertices which can be deleted to disconnect the graph

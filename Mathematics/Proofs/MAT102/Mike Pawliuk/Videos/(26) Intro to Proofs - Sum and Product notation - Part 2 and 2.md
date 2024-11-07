@@ -1,0 +1,35 @@
+[Video](https://youtube.com/watch?v=DNwCIHVuh_Q)
+
+- ![[Screenshot 2024-01-16 at 5.20.28 PM.png]]
+	- Slide 9 - [[Sum Theorems]]
+		- Let c be a real number, and n be a natural number
+		- You can factor constant outside of sum (2nd problem)
+		- Exercise: If m $\le$ n then
+			- $\Sigma_{i=m}^n1 = n-m$  (maybe?)
+			- $\Sigma_{i=m}^n1 = n-m+1$ (for programming?)
+	- Slide 10 - [[Product notation]]
+		- Errata
+			- Upper index for the example should be 4, not n
+		- Definition (Pi notation)
+			- Let $a_i$ be a real number (for i $\in$ $\mathbb{N}$ and let n $\in$ $\mathbb{N}$)
+			- $\Pi_{i=1}^na_i$ 
+				- $a_i$ is a real number
+				- n is the stopping index
+				- Product is what you'd expect
+				- i is dummy variable
+				- 1 is start
+	- Slide 11 - Brain melting
+		- Exercise. Write the for loop that produce product
+			- [[empty sum]]
+			- [[empty product]]
+				- When initializing a product, you initialize it to 1 and then add things onto it
+		- This is one reason why $0! = 1$ and $x^0 = 1$ 
+	- Slide 12 - [[Product Theorems]]
+		- Let c be a real number, and n be a natural number
+- ![[Screenshot 2024-01-16 at 5.22.02 PM.png]]
+	- Slide 13 - End boss
+		- Compute
+	- Slide 14 - Reflection
+		- How do you recognize the dummy variable, the starting index, the end index and the terms you are adding?
+		- What are the similarities and differences between sum notation and product notation?
+		- How is sum notation like a for loop in programming?

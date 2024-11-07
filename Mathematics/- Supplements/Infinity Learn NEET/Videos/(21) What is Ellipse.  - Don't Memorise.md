@@ -1,0 +1,21 @@
+[Video](https://www.youtube.com/watch?v=nzwCInIMlU4)
+
+- ![[Screenshot 2023-10-25 at 7.36.30 PM.png]]
+	- [[Whispering gallery]] (one at Grand Central Terminal in New York)
+		- By standing on opposite sides of the room and the ceiling is an elliptical shape, you'll be able to hear a friend whisper.
+		- This is based on the reflective property of an ellipse
+	- Each of the two special points of the ellipse is known as a [[focus]]
+		- Together, they are called [[foci]] of ellipse
+	- Elliptical shapes play a role in a medical device called a [[lithotripter]]
+		- Due to its reflective property, it's used to break a [[kidney stone]]
+			- High frequency shock waves are generated at one focus of the elliptical shaped reflector. This gets concentrated at another focus point where the kidney stones are positioned. This helps in breaking the kidney stones
+	- Other applications of ellipse?
+- ![[Screenshot 2023-10-25 at 7.46.13 PM.png]]
+	- [[Ellipse]]: Collection of all points in a plane such that the sum of distances of each point from two fixed points in the plane is constant
+		- Each fixed point is called the [[focus]] of the ellipse. Together, they're the [[foci]] of the ellipse
+		- $\alpha$ must be greater than the distance between the Foci of the ellipse
+	- When the two foci of the ellipse coincide, we get a [[circle]]
+		- All the points will be at a distance of $\frac {\alpha}{2}$ 
+		- $\alpha$ is the constant sum of distances of each point from two fixed points of the ellipse
+	- Where to stand to hear the whispers of each other in the whispering gallery? 
+		- This is where the foci of the elliptical ceiling are

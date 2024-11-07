@@ -1,0 +1,33 @@
+[Video](https://www.youtube.com/watch?v=0ffFiUgNGeY) (unavailable)
+[02:10:11](https://www.youtube.com/watch?v=VXzm8ReImG0&t=7811s)
+
+- Lesson Objective:
+	- Learn how to multiply multi-digit numbers together
+- When we multiply multi-digit numbers together, we use a process called [[vertical multiplication]]
+	- We need to know our [[times tables]] to be successful at this
+	- Must know at least up to 9x9
+- Let's take a look at: 26 x 6 (commutative)
+	- ![[Screenshot 2022-12-12 at 2.13.43 PM.png|300]]
+	- Easier to put larger number on top
+	- Same thing as: 6(20 + 6) = (6 x 20) + (6x6) = 120 + 36 = 156
+		- 120 + 30 + 6 = 156
+	- The multiplication process that we use is just a condensed version of the distributive property
+- 613 x 5
+	- ![[Screenshot 2022-12-12 at 4.01.16 PM.png|400]]
+- 1752x8
+	- ![[Screenshot 2022-12-12 at 4.03.20 PM.png|500]]
+- 15,319x7
+	- ![[Screenshot 2022-12-12 at 4.04.02 PM.png]]
+- Multiplying a multi-digit number by a multi-digit number
+- 315 x 12
+	- ![[Screenshot 2022-12-12 at 4.07.53 PM.png|400]]
+		- If you move to the left when multiplying, you must add a 0.
+		- We get partial products that we need to add
+- 765 x 23
+	- ![[Screenshot 2022-12-12 at 4.09.00 PM.png|500]]
+		- It's not a 2 times 5, it's a 20 x 5.
+- 212,050 x 1075
+	- ![[Screenshot 2022-12-12 at 4.11.49 PM.png|400]]
+		- As your numbers get larger, it doesn't get harder. it just becomes more tedious
+		- You don't need to add the 0 placeholders there but you can to make the addition and multiplication easier.
+

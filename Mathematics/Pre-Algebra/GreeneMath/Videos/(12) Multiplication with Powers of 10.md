@@ -1,0 +1,34 @@
+[Video](https://www.youtube.com/watch?v=926oq1FhTeU) (unavailable)
+[02:34:24](https://www.youtube.com/watch?v=VXzm8ReImG0&t=9264s)
+
+- [[Multiplication]] with [[trailing zeros]]
+- Lesson objective
+	- Learn how to multiply numbers with trailing zeros.
+- 600
+	- Has 2 trailing zeros
+- 17,000
+	- Has 3 trailing zeros
+- 104,030
+	- Has 1 trailing zero because the 0 in the hundreds place is interrupted by the 3 in the tens place
+- 5 x 10 = 50
+	- 5 x 1 = 5 (then attach 0 to the end to get 50. Just add the number of trailing zeros to the product here).
+- 5 x 100 = 500
+	- To solve this, do 5x1 which is 5. Then because the 100 has 2 trailing zeros, add these trailing zeros to the product which would give you the correct answer of 500.
+- 5 x 10,000 = 50,000
+- Steps
+	- Leave off any trailing zeros and multiply the numbers that result
+	- Attach the total number of trailing zeros (between all factors) to the right of your product.
+- 3 x 60 = 180
+	- ![[Screenshot 2022-12-12 at 4.18.34 PM.png|400]]
+- 17 x 1000 = 17000
+	- ![[Screenshot 2022-12-12 at 4.19.03 PM.png|500]]
+- 70 x 300 = 21,000
+	- ![[Screenshot 2022-12-12 at 4.19.41 PM.png]]
+- 153x9000
+	- ![[Screenshot 2022-12-12 at 4.20.04 PM.png]]
+- 216,000 x 108,000 = 23,328,000,000
+	- ![[Screenshot 2022-12-12 at 4.21.59 PM.png|400]]
+		- You can just skip the 0 in the 108 and start multiplying the digit in the hundreds place
+		- 6 spare 0s
+- 5,300,000 x 1,615,000 = 8,559,500,000,000
+	- ![[Screenshot 2022-12-12 at 4.23.11 PM.png]]

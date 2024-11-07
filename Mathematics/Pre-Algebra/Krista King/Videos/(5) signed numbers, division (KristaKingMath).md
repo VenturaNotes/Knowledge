@@ -1,0 +1,36 @@
+[Video](https://youtube.com/watch?v=x-ylSAVMudw)
+
+- Chart
+	- ![[Screenshot 2022-12-13 at 6.17.23 PM.png]]
+	- This only applies to 2 numbers
+		- Dividing positive with positive gives positive
+		- Dividing negative with negative gives negative
+		- Dividing positive with negative gives negative
+		- Dividing negative with positive gives negative
+- Simplify the expressions
+	- $6 \div 3 = 2$ 
+		- Same signs = positive
+		- Same as $\frac{6}{3}=2$ 
+		- even # of negative signs
+	- $-6 \div 3 = -2$ 
+		- different signs = negative
+		- odd # of negative signs
+		- same as $\frac{-6}{3}=-(\frac 63)$ = -2
+			- Factor out negative sign from numerator
+			- Must apply negative sign
+	- $6 \div -3 = -2$ 
+		- different signs = negative
+		- odd # of negative signs
+		- $\frac{6}{-3}$ = $-(\frac 63) = -2$ 
+	- $-6 \div -3 = 2$ 
+		- same signs = positive
+		- even # of negative signs
+		- $\frac{-6}{-3} = \frac{-1}{-1}(\frac 63)=2$ 
+- What if we have more than 2 numbers involved?
+	- $\frac {(-2)(-3)}{6}$ = $\frac{6}{6} = 1$ 
+		- Even number of negative signs
+	-  $\frac {(-7)(1)}{7} = \frac {-7}{7} = -1$ 
+		- Negative number of negative signs
+- Rule
+	- An Even number of negative signs will give us a positive quotient
+	- An odd number of negative signs will give us a negative quotient

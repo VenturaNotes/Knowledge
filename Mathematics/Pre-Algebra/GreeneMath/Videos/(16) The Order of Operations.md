@@ -1,0 +1,57 @@
+[Video](https://www.youtube.com/watch?v=OebzXNveJJ0) (unavailable)
+[04:02:52](https://www.youtube.com/watch?v=VXzm8ReImG0&t=14572s)
+
+- Lesson Objective
+	- Learn how to solve problems with multiple operations involved
+- [[Order of operations]]
+	- 1) Work inside of any[[grouping]] symbols - if multiple grouping symbols are present, start with the innermost set and work outward
+	- 2) Perform all exponent operations
+	- 3) Multiply or Divide - working left to right
+		- Same level / same step
+			- 4 x 5 $\div$ 2 = 20 $\div$ 2 = 10
+			- 10 $\div$ 2 x 3 = 5 x 3 = 15
+	- 4) Add or subtract - working from left to right
+		- 4 + 3 - 1 = 7 - 1 = 6
+		- 4 - 3 + 1 = 1 + 1 = 2
+	- [[PEMDAS]]
+		- Parentheses (Please)
+		- Exponents (Excuse)
+		- Multiplication (My)
+		- Division (Dear)
+		- Addition (Aunt)
+		- Subtraction (Sally)
+- Evaluate each:
+	- 4 - 3 + 5 
+		- = 1 + 5 
+		- = 6
+	- 5 x 2 - 1 
+		- = 10 - 1 
+		- = 9
+	- $4^2$ - 3 
+		- = 16 - 3 
+		- = 13
+		- $4^2$ means you have 2 factors of 4
+	- (2 + 1) x 3 x 2 
+		- = (3) x 3 x 2 
+		- = 9 x 2 
+		- = 18
+	- 6 + 8 $\div$ (5-1) 
+		- = 6 + 8 $\div$ 4
+		- = 6 + 2 
+		- = 8
+	- (1 + 1) $\div$ (6 - 2 x 2)
+		- = 2 $\div$ (6-2x2) 
+		- = 2 $\div$ (6-4)
+		- = 2 $\div$ 2 
+		- = 1
+	- (14 - 2) $\div$ 2(5 + 1) 
+		- = 12 $\div$ 2(5 + 1) 
+		- = 12 $\div$ 2 x 6 
+		- = 6 x 6 
+		- = 36
+	- $6^2$  - (2 + 3) - (3 + 13) $\div$ 4 
+		- = $6^2$  - 5 - 16 $\div$ 4 
+		- = 36 - 5 - 16 $\div$ 4 
+		- = 36 - 5 - 4 
+		- =  31 - 4 
+		- = 27

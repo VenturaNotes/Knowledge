@@ -1,0 +1,38 @@
+[Video](https://youtube.com/watch?v=06PsJYcl2dc)
+
+- A $\subseteq$ B
+	- This means that A may be equal to B
+	- Then we say that A is an improper subset of B
+	- 3 $\leq$ 3
+		- This is like saying that 3 is less than or equal to 3. It could be equal to 3 or just less than.
+- A $\subset$ B
+	- This means A is a proper subset of B
+- Example
+	- A = {0, 1}
+	- B = {0, 1, 2}
+	- A $\subseteq$  B
+		- This is not incorrect
+	- Since A $\neq$ B we can write
+		- A $\subset$ B
+			- A is a proper subset of B
+			- You know here that A $\neq$ to B
+- Example 2
+	- A = {0, 1}
+	- B = {0, 1}
+	- A $\subseteq$ B
+	- B $\subseteq$ B
+		- Every set is a subset of itself
+		- It's an improper subset of itself
+	- In order to be a subset, all of your elements need to be in another set.
+	- Improper subset
+		- If A is an improper subset of B, then A = B
+			- (I think just can be?)
+- Improper subset
+	- $\subseteq$ 
+		- This doesn't explicitly mean improper
+		- It can mean improper or proper
+		- Just say A = B
+			- To explicitly say they're improper subsets of each other.
+- Proper subset
+	- $\subset$ 
+	- This means proper

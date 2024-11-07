@@ -1,0 +1,21 @@
+[Video](https://www.youtube.com/watch?v=da99zdE6nJc)
+
+- ![[Screenshot 2023-10-26 at 9.56.53 AM.png]]
+	- [[Ellipse]]: Set of points such that the sum of distances of each point from two fixed points is constant
+		- Can also draw 2 axis of symmetry for ellipse (These axes can be on the x or y axis depending on orientation of ellipse)
+			- [[Major axis]]
+			- [[Minor axis]]
+		- The point equidistant of the foci is called the center of the ellipse
+	- Equation of ellipse 
+		- Coordinate axis: x-axis and y-axis
+		- Simplest:
+			- Center at origin
+			- Foci on the x-axis or y-axis
+	- The two orientations shown are the only ones
+	- Ellipse
+		- Points $\to$ sum of distances from the foci is constant = 2a (length of major axis)
+		- $c = \sqrt{a^2 - b^2}$
+- ![[Screenshot 2023-10-26 at 9.58.30 AM.png]]
+	- Need to check the converse of the formula
+	- Given P(x, y) on Ellipse $\to$ $\frac {x^2}{a^2} + \frac {y^2}{b^2} = 1$
+		- To check: Any point satisfying the equation will always be on the ellipse

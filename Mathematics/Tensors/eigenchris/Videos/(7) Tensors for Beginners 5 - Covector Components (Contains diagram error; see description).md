@@ -1,0 +1,53 @@
+[Video](https://www.youtube.com/watch?v=rG2q77qunSw)
+
+- ![[Screenshot 2023-10-31 at 11.52.45 PM.png]]
+	- [[Covector components]]
+	- Review
+		- [[covector|Covectors]] are functions that take vectors to produce numbers
+		- These functions are linear and obey the scalar and addition properties
+		- The functions can be added and scaled in a meaningful way so that they form a [[vector space]] called $V^*$ 
+		- We can visualize covectors as oriented stacks of planes
+	- [[covector|covectors]] are a bit like [[Row Vector|row vectors]]
+	- A [[column vector]] represents a vector's components in a given [[basis]]
+		- Row vectors somehow represent a covectors components
+	- [[covector|covectors]] are [[invariant]]
+		- Purely geometric objects and do not depend on a coordinate system
+	- [[Covector components]] are not invariant
+		- They do depend on a coordinate system
+	- Covectors will be represented by different row vectors with different components (depending on which coordinate system we're using)
+	- When we write [[column vector]] $\begin{bmatrix}2 \\ 1 \end{bmatrix}_{\vec{e_i}}$ when referencing a [[basis]], we mean that the vector is given by the [[linear combination]] $2\vec{e_1}$ + $1\vec{e_2}$
+		- Saying how much of each basis vector needed to make the vector
+	- What do we mean by [[row vector]] $\begin{bmatrix}2 & 1 \end{bmatrix}$
+	- [[covector|covectors]] are functions from [[vector space]] V to numbers
+		- $\alpha: V \to \mathbb{R}$ 
+		- Covectors don't live in the vector space V (they take vectors in V as inputs)
+		- We can't use [[basis vectors]] in V like {$\vec{e_1},\vec{e_2}$} to measure covectors
+	- Take the basis {$\vec{e_1}\vec{e_2}$} for V
+	- Introduce two special covectors
+		- When reading $\epsilon^1, \epsilon^2: V \to \mathbb{R}$ 
+			- Epsilon 1 and epsilon 2 are both functions from vectors to numbers
+		- If the top number matches the bottom number, we get 1. If the numbers are different, we get 0
+	- [[Kronecker delta]]
+		- If $i=j$ we get 1, if note, we get 0
+- ![[Screenshot 2023-10-31 at 11.59.03 PM.png]]
+	- $\epsilon^1(\vec{v})$ 
+	- Epsilon one acting on some vector v
+		- We can write v has a linear combination of basis vectors 
+	- The epsilons are projecting out vector components 
+	- $\alpha = \alpha_1 \epsilon^1 + a_2\epsilon^2$
+		- We've written a general covector alpha which can be any covector of our choice as a linear combination of the epsilon covectors.
+		- This means the epsilon covectors form a basis for the set of all covectors
+		- This is why we call the epsilons the [[dual basis]] (since they are a basis for the dual space V*)
+- ![[Screenshot 2023-11-01 at 12.10.02 AM.png]]
+	- The process is that we start with our vector basis. Then use the definition to get the dual covector basis. Then using those, can express any covector as a linear combination of the dual basis
+- ![[Screenshot 2023-11-01 at 12.16.21 AM.png]]
+	 - Multiple bases to express a covector. Epsilons and then epsilon tildes
+	 - Can use linearity of alpha
+	 - Covector alpha has components 2,1 in the old dual basis
+		 - Has components 5, -$\frac 34$ in the new dual basis
+	 - Old and new covector components are related by the [[forward matrix]]
+		 - With covector components, forward brings us from old to new. Backwards brings us from new to old
+			 - This is actually opposite for what we do with vector components under a change of basis
+ - ![[Screenshot 2023-11-01 at 12.29.07 AM.png]]
+	 - Vector components are measured by counting how many are used in the construction of a vector
+	 - Covector components are measured by counting the number of covector lines that the basis vector pierces

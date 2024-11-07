@@ -1,0 +1,95 @@
+[Video](https://www.youtube.com/watch?v=AIJ1wqOFtOs) (unavailable)
+[07:41:42](https://www.youtube.com/watch?v=VXzm8ReImG0&t=27702s)
+
+- Lesson Objectives:
+	- Gain a basic understanding of [[fraction|fractions]]
+	- Learn the difference between a [[proper fraction]], [[improper fraction]], and [[mixed number]]
+- ![[Screenshot 2022-12-15 at 1.28.39 AM.png|500]]
+	- Whole amount cut up into 4 equal parts
+		- 1 pizza into 4 parts
+	- 4 people
+		- Each person will get $\frac{1}{4}$  of a pizza
+			- The 1 is in the numerator
+			- The fraction bar is below the 1
+			- The 4 is in the denominator
+- Fractions are generally used to describe how many equal pieces we have of a whole amount
+- ![[Screenshot 2022-12-15 at 1.31.31 AM.png]]
+	- 1 cookie
+	- 4 equal parts
+	- 3 parts have chocolate chips and 1 part has macadamia nuts
+	- 3 parts of 4 has chocolate chips
+		- 3/4 
+			- 3 is in the [[numerator]]
+			- 4 is in the [[denominator]]
+- ![[Screenshot 2022-12-15 at 1.33.14 AM.png|500]]
+	- Let's take a look at apple cut into 2 equal pieces
+	- Each person gets 1 piece for a total of 2 equal pieces
+		- 1/2
+	- Each person gets one half of the apple
+- ![[Screenshot 2022-12-16 at 4.09.24 AM.png]]
+	- 8 people get an equal amount of the apple
+		- So every person would get 1/8 of the apple
+- ![[Screenshot 2022-12-16 at 4.11.51 AM.png]]
+	- The above is a youtube video
+	- Watched 1 part of 3 equal parts
+	- Unwatched has 2 parts
+		- 2/3 parts left
+	- This is if the video is split up into 3 equal parts
+- Identify the numerator and denominator in each:
+	- 1/5
+		- 1 is numerator
+		- 5 is denominator
+		- 1 part out of a total of 5 equal parts
+	- 2/9
+		- 2 is N
+		- 9 is D
+	- 1/4
+		- 1 is N
+		- 4 is D
+	- 3/8
+		- 3 is N
+		- 8 is D
+	- 5/7
+		- 5 is N
+		- 7 is D
+	- 15/17
+		- 15 is N
+		- 17 is D
+		- 15 parts out of a total of 17 equal parts
+- Some important division rules to remember when working with fractions:
+	- Any nonzero number that is divided by itself is going to result in 1
+		- 4/4 = 1
+		- If you consume 4/4 of a pizza, you consumed 1 whole pizza
+	- Zero divided by any nonzero number is always 0
+		- 0 / 3 = 0
+- [[fraction|Fractions]] represent division of the numerator by the denominator. We can write a division problem using fractions:
+	- 8 $\div$ 4 = 8/4 = 2
+	- 20 $\div$ 5 = 20/5 = 4
+	- 100 $\div$ 25 = 100/25 = 4
+- A [[proper fraction]] is used to describe a quantity whose value is less than one
+	- ![[Screenshot 2022-12-16 at 4.17.07 AM.png]]
+		- These are all proper fractions
+	- 15/7
+		- Improper fraction since numerator is larger than denominator
+	- -2/3
+		- proper fraction (ignore the negative sign to determine this)
+	- -11/9
+		- improper fraction (ignore the negative sign to determine this)
+- An improper fraction is used to describe a quantity equal to or larger than one
+	- ![[Screenshot 2022-12-16 at 4.19.30 AM.png]]
+		- All of the above are improper
+- A mixed number is the sum of a whole number and a proper fraction
+	- ![[Screenshot 2022-12-16 at 4.20.33 AM.png]]
+- Determine whether each is a proper fraction, improper fraction, or mixed:
+	- 7/5
+		- Improper
+	- 3/11
+		- Proper
+	- 4/5
+		- Proper
+	- 9 1/8 
+		- Mixed number
+	- 10/7
+		- Improper
+	- 6/7
+		- proper

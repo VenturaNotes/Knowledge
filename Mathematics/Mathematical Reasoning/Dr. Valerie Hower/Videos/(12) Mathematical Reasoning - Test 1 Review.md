@@ -1,0 +1,47 @@
+[Video](https://www.youtube.com/watch?v=AOIGNwjL-7c)
+
+- ![[Screenshot 2023-12-12 at 2.25.16 AM.png]]
+	- [[pairwise disjoint sets]]
+	- [[power set]]
+	- [[Cardinality]]
+	- {a} would be a [[singleton]]
+	- [[Difference of sets|Set Difference]]
+	- [[truth table]]
+		- [[Tautology]]
+			- Column of all Ts
+		- [[Contradiction]]
+			- Column of all Fs
+	- [[for all]]
+		- Given $\forall x, \exists y, P(x,y)$ also means
+			- $\exists x, \exists y, P(x,y)$
+	- [[Negation]]
+		- [[De Morgan's Law]]
+	- $\exists x \in \mathbb{Z}, \forall y \in \mathbb{Z}, xy \notin \mathbb{N}$ 
+		- This is true. If x = 0, then that means $x*y$ can never equal a natural number
+- ![[Screenshot 2023-12-13 at 3.14.40 PM.png]]
+	- (9) How many 7-element strings can be made from the eight letters A, G, I, K, R, T, W, Z (Note: unless otherwise noted, repetition is allowed)
+		- (a) are there?
+			- [[Multiplication rule]]
+		- (b) begin with R and end with T?
+		- (c) begin with A or W?
+		- (d) have exactly four Zs?
+		- (e) have 7 distinct letters (i.e. no letter is repeated)?
+			- P(8, 7) or 8!
+	- (10) Use the [[binomial theorem]] to prove
+	- (11) What is the coefficient of $x^5$ in the expansion of $(2-x)^7$?
+		- [[binomial coefficient]]
+	- (12) Give a [[combinatorial proof]]
+		- Since we see binomial coefficients, we'd like to use counting subsets
+		- Pf: Suppose we have <mark style="background: #FFF3A3A6;">n</mark> students in a class. We want <mark style="background: #BBFABBA6;">r</mark> students to work on a project and <mark style="background: #ADCCFFA6;">k</mark> of the <mark style="background: #BBFABBA6;">r</mark> students to present the project. We may count the number of ways to select <mark style="background: #BBFABBA6;">r</mark> students from the class and <mark style="background: #ADCCFFA6;">k</mark> students of the group of <mark style="background: #BBFABBA6;">r</mark> as follows
+			- Option 1: First, select <mark style="background: #BBFABBA6;">r</mark> of <mark style="background: #FFF3A3A6;">n</mark> students for group then <mark style="background: #ADCCFFA6;">k</mark> of <mark style="background: #BBFABBA6;">r</mark> students to present. There are $n \choose r$$r \choose k$ ways
+			- Option 2: First, select <mark style="background: #ADCCFFA6;">k</mark> of <mark style="background: #FFF3A3A6;">n</mark> students to be presenters. Then, out of the remaining n-k students, select r-k to fill group of r students for project. There are $n \choose k$$n-k \choose r-k$ ways
+		- Demonstration
+			- n = 8, r = 5, k = 3
+			- Showing $n \choose r$$r \choose k$ = $560$
+				- $n \choose r$ = $8 \choose 5$ = 56
+				- $r \choose k$ = $5 \choose 3$ = 10
+				- $56 * 10 = 560$
+			- Showing $n \choose k$$n - k \choose r -k$ = 560
+				- $n \choose k$ = $8 \choose 3$ = 56
+				- $n -k \choose r-k$ = $5 \choose 2$ = 10
+				- $56*10 = 560$

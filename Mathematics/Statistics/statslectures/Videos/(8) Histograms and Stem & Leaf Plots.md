@@ -1,0 +1,41 @@
+[Video](https://www.youtube.com/watch?v=2uk-qRKWJj4)
+
+- Quantitative variables are measured numerically
+	- with measurements of quantitative variables you can do things like add and subtract, and multiply and divide, and get a meaningful result.
+	- "Age", "Weight", and "Temperature" are all quantitative variables.
+- Histograms
+	- A histogram is a bar graph that lists each measured category on the horizontal axis and the number of occurrences for each category on the vertical axis. The rectangles for each bar touch one another
+	- ![[Screenshot 2023-04-28 at 7.52.55 AM.png|500]]
+		- Top is using qualitative data while the bottom is using quantitative data
+	- Discrete histograms are created when dealing with discrete values on the horizontal axis, while continuous histograms are created when dealing with continuous values on the horizontal axis
+		- Example: You ask 20 people to sample a new flavor of candy, then indicate how much they liked it on a scale from 1 to 5 (with 5 being "very tasty" and 1 being "tastes horrible"). Below is a table of your results:
+			- ![[Screenshot 2023-04-28 at 7.56.02 AM.png]]
+			- Frequency Table and Histogram
+				- ![[Screenshot 2023-04-28 at 7.57.14 AM.png]]
+	- Continuous Histograms
+		- Example: You light 200 matches and record how many seconds each match burns for until it goes out. Below is a table of your (hypothetical) results.
+			- ![[Screenshot 2023-04-28 at 7.58.09 AM.png]]
+		- There are no distinct categories, so to organize data on the horizontal axis, you will need to create classes
+			- A class is an interval of many values. For example, 1-10 is a class that covers all numbers form 1 to 10.
+			- [[Lower Class Limit]]: smallest value within each class
+			- [[Upper Class Limit]]: largest value within each class
+			- [[Class Width]]: Difference between consecutive lower class limits.
+				- ![[Screenshot 2023-04-28 at 8.00.23 AM.png]]
+		- How many classes should we include for this data
+			- (just going to do 10 because it's the easiest)
+		- What should the class width be?
+			- 50/10 = 5
+		- ![[Screenshot 2023-04-28 at 8.02.13 AM.png]]
+			- Can create a histogram now with this continuous data
+- ![[Screenshot 2023-04-28 at 8.03.59 AM.png]]
+	- Stem-and-leaf Plots
+		- Imagine I've recorded rainfall (in inches) for the last 20 days, as shown in the table below:
+		- A stem-and-leaf plot for the above data would look like this
+		- The numbers of the left are the stems, and the numbers on the right are the leaves.
+- Important Terms
+	- Discrete Histogram
+	- Continuous Histogram
+	- Lower Class Limit
+	- Upper Class Limit
+	- Class Width
+	- Stem-and-Leaf Plot

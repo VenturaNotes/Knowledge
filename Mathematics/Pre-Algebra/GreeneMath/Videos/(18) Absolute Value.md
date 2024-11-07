@@ -1,0 +1,42 @@
+[Video](https://www.youtube.com/watch?v=71PAxt9TF34) (unavailable)
+[04:39:15](https://www.youtube.com/watch?v=VXzm8ReImG0&t=16755s)
+
+- Lesson Objectives
+	- Learn how to find the absolute value of a number
+	- Learn how to simplify when absolute value is present
+- The absolute value of a number is the distance between that number and zero on the number line.
+	- |3| -> What is the absolute value of 3?
+		- Can count that 3 is 3 units away from 0
+	- |-3| = 3
+	- Opposites will always have the same [[absolute value]] because they have the same distance from zero on the number line
+	- ![[Screenshot 2022-12-14 at 6.27.22 AM.png]]
+		- |7| = 7
+		- |-7| = 7
+	- Absolute value of a number will always be 0 or a positive number
+- If the number is negative, make it positive
+	- |-37| = 37
+- If the number is zero or positive, keep it the same
+	- |42| = 42
+- Examples
+	- |19| = 19
+	- |0| = 0
+	- |-24| = 24
+	- |-34,422| = |34,422
+- Replace the ? with the correct symbol <, >, or =
+	- |-27| ? |22|
+		- |-27| > |22|
+	- |0| ? |-5|
+		- |0| < |-5|
+	- |-7| ? 7
+		- |-7| = |7|
+	- -|-13| = -(13) = -13
+		- -(-13) = 13
+		- You can only count the number of negative symbols you have outside the absolute value bars
+			- Anything in the bars will always make number positive (or if its 0 -> 0)
+	- -(-|21|) = -(-(21)) = -(-21) = 21
+		- Odd means negative for # of negative signs
+		- Even means positive for # of negative signs
+	- -(-(-|-53|)) = -(-(-(53))) = -(-(-53)) = -(53) = -53
+	- -(-(-|6+3|)) = -(-(-|9|)) = -(-(-(9))) = -(-(-9)) = -(9) = -9
+- If you're taking the absolute value of a negative number make it positive
+- If you're taking the absolute value of a positive number or 0, keep it the same when evaluating

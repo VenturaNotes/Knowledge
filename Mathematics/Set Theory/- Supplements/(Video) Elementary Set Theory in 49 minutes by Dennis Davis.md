@@ -1,0 +1,288 @@
+---
+Source:
+  - https://youtu.be/E9pAmOJs-i4
+Length: 48 minutes, 58 seconds
+tags:
+  - status/complete
+  - type/video
+Published: true
+---
+- ![[Screenshot 2023-06-16 at 9.38.35 PM.png]]
+	- [[Set]]
+		- Collection of {[[members]], [[members|elements]]}
+		- Identified by capital letters, often italicized: *A*
+		- Set elements are unique and unordered
+	- [[Roster Notation]]
+		- Comma-delimited list inside {}
+	- [[Description Notation]]
+		- Description inside {}
+	- [[Set-builder notation|Set Builder Notation]]
+		- B = {x: conditions}
+			- "The set of all x such that x meets conditions"
+	- [[Special Sets]]
+		- $\varnothing$ = {}, $\textbf{U}$, $\mathbb{R}$, $\mathbb{Q}$, $\mathbb{Z}$, $\mathbb{N}$, $\mathbb{C}$ 
+	- [[Cardinality]]
+		- |A| = number of elements in set A
+	- [[Set Membership]]
+		- $\in$, $\notin$, $\ni$, $\not\ni$
+		- 3 $\in$ {1, 2, 3}
+	- [[Specifying numeric types]]
+		- S = {x $\in$ $\mathbb{R}$: conditions}
+	- [[Complement]] ^a3ec37
+		- $A^c$ = $A'$ = elements in U not in A
+		- $A^c$ = {x: x $\in$ U, x $\notin$ A}
+	- [[Venn Diagram]]
+		- depicts sets and set relationships
+	- [[Subset]]
+		- $A \subseteq B$ Every element of A is in B
+	- [[Proper Subset]]
+		- $A \subset B$ means A $\subseteq B$ and |A| < |B|
+	- [[Superset]]
+		- B $\supseteq$ A
+			- B contains every element of A
+	- [[Interval Notation]]
+		- continuous range of real numbers
+	- [[Intersection]]
+		- A $\cap$ B = {x: x $\in$ A, x $\in$ B} in common
+	- [[Union]]
+		- $A \cup B$ = {x: x $\in$ A or x$\in$ B} combined
+	- [[Relative Complement]]
+		- $A\backslash B$ = {x: x $\in$ A, x $\notin$ B} A not in B
+	- [[Symmetric Difference]]
+		- A $\oplus$ B = {x: x $\in$ A xor x $\in$ B}
+	- [[DeMorgan's Laws]]
+		- $(A\cup B)^c = A^c \cap B^c$ 
+	- [[Cartesian Product]]
+		- $A \times B$ = set of [[ordered pair|ordered pairs]]
+		- [[Coordinate Plane|Cartesian Coordinate System]] = $\mathbb{R} \times \mathbb{R} = \mathbb{R}^2$
+	- [[Power Set]]
+		- $\mathcal{P}(A)$= set containing all subsets of A
+		- Cardinality = |$\mathcal{P}(A)$|= $2^{|A|}$ including $\varnothing$ and A
+- ![[Screenshot 2023-06-16 at 11.14.56 PM.png]]
+	- Definition
+		- Set: Collection of objects "elements" or "members"
+		- Identified by capital letters
+	- Roster notation
+		- List each element of the set inside curly braces
+	- Set Examples
+		- Elements can be numbers, people, objects, or even other sets
+	- Set Elements are Unique
+	- Set Elements are unordered
+		- When sets consists of numbers, they're usually listed in order (to make membership clear)
+	- Roster Notation
+		- Can be inconvenient for large sets
+		- We can abbreviate large numeric sets that have a clear unambiguous pattern
+		- ... (ellipses character) 
+			- Substitutes part of the pattern
+		- An ellipses at end of series means pattern continues forever
+		- [[Infinite sets]] have an infinite number of elements
+		- [[Finite sets]] have a finite number of elements
+	- Description Notation (needs to be precise and unmistakable)
+		- We can define a set by describing its elements within curly braces
+			- Calendar months
+			- People who have walked on the moon
+			- Integers from 1 to 1000
+		- "good song" is not a well-defined set
+- ![[Screenshot 2023-06-17 at 12.18.54 AM.png]]
+	- Special Sets
+		- Pre-defined sets we can use and reference.
+			- The set that has no elements
+				- $\varnothing$ "[[empty set]]" or "null set"
+				- $\varnothing$ = {}
+			- The set that contains every element.. every element of interest
+				- Examples: set of all students in a school, the set of all rational numbers, set of 5 card poker hands
+					- U "[[Universal set]]"
+						- Using capital U
+		- Pre-defined numeric sets
+			- specific font: blackboard font
+			- $\mathbb{R}$ = {[[real numbers]]}
+			- $\mathbb{Q}$ = {[[rational numbers]]} ^eac86e
+				- q is for quotient
+			- $\mathbb{N}$ = {[[Natural Numbers]]} ^53cc8b
+				- Some might think 0 is a natural number
+			- $\mathbb{C}$ = {[[complex numbers]]}
+				- numeric sets most likely to encounter
+	- [[Cardinality]] ^085ddd
+		- Number of elements in a set
+			- Absolute value bar of |B| means magnitude or size of B
+			- $|\varnothing|$ = 0
+				- [[Identity]]: Statement that's always true
+			- Denoted
+				- $|B| = 4$
+				- $n(B) =4$
+				- $\# B = 4$
+		- {$\varnothing$} not the empty set
+			- Set containing the empty set
+			- $|\{\varnothing\}|$ = 1
+	- Set Membership
+		- 3 $\in$ C
+			- 3 is an element of Set C
+			- is a member of
+			- is in
+		- $3 \not\in C$ 
+			- 3 is not an element of Set C
+		- C $\ni$ 3: Set C contains element 3
+		- C $\not\ni$ 3: Set C does not contain element 3
+	- Set Builder Notation
+		- A = {x : x $\in$ $\mathbb{N}$, x < 6}
+			- x is a member of the set as long as it meets specific conditions
+			- Set A is the set of all x such that x is in the set of natural numbers and x is less than 6
+			- Set labels are uppercase and variables usually lowercase x
+			- If working with [[complex numbers]], conventional to use lower case z instead of lowercase x
+				- Not required but a convention
+		- B = {x : x $\le$ 5}
+			- If the type of number we intend for x is not clear from the environment, study, or problem being investigated, then we need to specify the type
+				- natural numbers?
+				- integers?
+				- real numbers?
+- ![[Screenshot 2023-06-17 at 10.37.12 AM.png]]
+	- Set Builder Notation
+		- B = {x: x $\le$ 5}
+			- "All"x
+		- B = {x $\in$ $\mathbb{N}$ : x $\le$ 5}
+			- "natural" x
+		- B = {x $\in$ $\mathbb{Z}$: x $\le$ 5}
+			- The type of number is such a fundamental attribute of set B, it has a special place in front of the such that. Not wrong to specify the number type after such that. Only needed if context is not already clear
+		- Can combine description definitions with set-builder notation
+			- compatible with natural language specification
+		- Use "OR" when listing conditions where only one needs to be satisfied
+	- Complement of a Set
+		- Set of elements that are not in the set
+		- Complement of empty set is universal set and vice versa
+	- Venn Diagrams (capital V)
+		- U is usually drawn at one of the corners
+	- Subset
+		- If every element of A is also an element of B... then A is a subset of B
+- ![[Screenshot 2023-06-17 at 10.50.48 AM.png]]
+	- Subset
+		- [[Subset Identities]]
+			- Every set is a subset of itself
+			- Empty set is a subset of every set
+			- Every set is a subset of the universal set
+	- Superset
+		- If A is a subset of B, then B is a superset of A
+		- A superset contains all elements of another set
+		- [[Superset Identities]]
+			- Equal sets are supersets of each other
+			- every set is a superset of itself
+			- Every set is a superset of the empty set
+			- the universal set is a superset of every set
+	- Proper subset: "A strictly smaller subset" ($\subset$)
+		- When A is a subset of B but not equal to B, it is a proper subset of B
+		- Proper supersets exist too
+	- Interval Notation
+		- Shortened form of Set Builder Notation for continuous ranges of real numbers $\mathbb{R}$
+		- [[Closed Interval]]
+		- [[Open Interval]]
+		- [[Half-open Interval]]
+			- 1 parenthesis and 1 square bracket on the appropriate sides of the expression
+		- We can use interval notation anywhere we would reference a set
+			- Interval notation is a compact way to reference or define sets of continuous Real numbers over a range
+	- Set Operations
+		- Create new sets from existing sets (similar to arithmetic operations)
+		- [[Binary set operations]] operate on two sets
+		- [[Unary set operations]] operate on one set
+			- complement: $A^c$ = Set of elements not in Set A
+		- Cardinality is not a set operation because it doesn't result in a set
+- ![[Screenshot 2023-06-17 at 11.11.04 AM.png]]
+	- Set Operations: Intersection
+		- Venn Diagrams show the relationship between sets. Not the relative sizes of the sets
+		- [[Intersection Identities]] ^ad1d83
+			- A $\cap$ A = A
+				- The intersection of a set with itself is the set
+			- A $\cap$ $\varnothing$ = $\varnothing$ 
+			- $A \cap U = A$
+		- Obeys commutative operations
+			- $A \cap B$ = $B \cap A$
+		- Analogous to the logical operator "and"
+			- Intersection is sometimes called "A and B" because elements of intersection are in A and B
+	- [[Disjoint Sets]]
+		- Disjoint sets have no elements in common
+		- Their intersection is the empty set
+			- No elements in common
+	- Set operations: Union
+		- Obeys the commutative law
+		- [[Union Identities]] ^d1af4a
+			- $A \cup A = A$
+			- $A \cup \varnothing = A$
+			- $A \cup U = U$
+	- Memory Aid
+		- Intersection is like <mark style="background: #FFF3A3A6;">"n"tersection</mark> and union starts with <mark style="background: #FFF3A3A6;">U</mark>
+		- think of a$\cap$n for intersection and oar for union
+		- Think that intersection symbol does not catch as many elements as union symbol
+	- Intersection, Union Problems
+	- Set operations yield sets!
+	- Set operations: Relative Complement
+		- "A not in B"
+		- $A\backslash B$ 
+			- "Relative complement of B with respect to A"
+		- [[Absolute Complement]]
+			- Complement taken against the universal set
+		- [[Relative Complement]]
+			- Complement taken against some other set
+- ![[Screenshot 2023-06-17 at 11.23.37 AM.png]]
+	- Set Operations: Relative Complement
+		- The relative complement operator does not obey the commutative law
+		- $A \backslash B = A \cap B^c$
+	- Set Operations: [[Symmetric Difference]]
+		- A$\Delta$B: "A delta B"
+		- A $\oplus$ B: "A xor B"
+			- Exclusive or (xor)
+				- One or the other but not both
+		- "A symmetric difference B"
+		- $A \oplus B = (A \cup B) \backslash (A \cap B)$
+		- $A \oplus B = (A \backslash B) \cup (B \backslash A)$
+		- Symmetric Difference obeys the Commutative Law
+			- A $\oplus$ B = B $\oplus$ A
+	- Set Operations summary (all obey commutative law besides symmetric difference)
+		- Intersection
+		- Union
+		- Relative Complement
+		- Symmetric Difference
+	- [[Associative Law]]
+		- Intersection set operator obeys the associative law
+			- $(F \cap G) \cap S$
+		- Union obeys the associative law
+- ![[Screenshot 2023-06-17 at 12.36.26 PM.png]]
+	- Associative Law
+		- Exclusive OR obeys as well
+	- [[Distributive Law]]
+		- Be careful to use parentheses when needed and observe them when present
+		- $F \cup G \cap S$
+			- This could mean 
+			- $(F \cup G) \cap S$ 
+			- $F \cup(G \cap S)$
+		- Union and Intersection obeys the distributive law
+			- Distribute outer term into the parentheses
+	- [[De Morgan's Law]]
+		- Identities that involve the complements of sets
+			- Complement of the union = The intersection of the complements
+			- The complement of the intersection = union of the complements
+	- Binary set operation
+		- [[Cartesian Product]]
+			- $A \times B$: "A cross B"
+				- Resulting set is the set of pairings. Each of the pairings is an [[ordered pair]].
+				- Two items in a specific order, comma-delimited, inside ().
+				- May also use angle-brackets $\textlangle \textrangle$.
+			- Ordered pairs are not sets
+				- {1, 2} set with 1 and 2 elements
+					- order does not matter
+				- (1, 2) ordered pair 1 followed by 2
+					- order matters
+			- {(1, 2)} set whose element is one ordered pair
+				- an ordered pair is an element
+			- $|A \times B| = |A| * |B|$
+- ![[Screenshot 2023-06-17 at 1.25.08 PM.png]]
+	- Cartesian product
+		- Ordered pair on cartesian coordinate system
+		- It is called a cartesian coordinate system because the points are the cartesian product of the two real number lines.
+		- $\mathbb{R}\times \mathbb{R}$ = $\mathbb{R^2}$ which is a 2-D plane
+		- $\mathbb{R}\times \mathbb{R} \times \mathbb{R}$ = $\mathbb{R^3}$ which is a 3-D plane
+	- [[Power Set]]
+		- Unary set operation (meaning it operates only on one set)
+		- Written with frilly P so it's not confused with a probability function
+			- $\mathcal{P}(S)$
+				- Power set of S is the set of all subsets of S
+				- Includes empty set and set itself + the other proper subsets
+				- Each binary number represents a subset of S
+				- Adding an element S doubles the cardinality of the power set

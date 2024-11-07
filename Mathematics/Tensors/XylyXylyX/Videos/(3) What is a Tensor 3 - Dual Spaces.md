@@ -1,0 +1,43 @@
+[Video](https://www.youtube.com/watch?v=3QWMuhsY0Rc)
+
+- ![[Screenshot 2023-09-29 at 4.57.31 PM.png]]
+	- [[vector space]]
+	- [[basis vectors]]
+	- [[maps]]
+		- maps have to go from the vector space to somewhere
+			- So need to create another vector space
+		- Maps to the range vector space which is just another vector space
+	- Could represent the basis as $e_\mu$ or $f_\nu$ 
+		- mu and nu are both letters
+	- You can map any vector using the linearity property of the mapping. All of them are linear maps. 
+		- $\langle \Lambda, A^\mu e_\mu \rangle$ 
+			- Once this structure is created (which is a map and an arbitrary vector)
+			- Will be written using the [[Einstein's summation convention|Einstein summation convention]]
+				- $e_\mu$ is the vector basis
+				- $A^\mu$ is the components of the vector
+			- When expanded, addition property and scalar multiplication property will be from the W vector space
+	- In order to have a map, you need a range, a destination.
+		- Need to have another vector space
+	- Can we have a universe with one vector space and have maps? (yes)
+		- Answer to that has to do with the [[dual space]]
+		- The map can go is back to the original vector space or to the bin of real numbers
+			- The bin of real numbers is the map we care about
+		- Map between vector space V and bin of $\mathbb{R}$
+			- The bin of real numbers is a vector space of dimension 1 over the real numbers. It only has one basis vector $e_0$ or $e$
+			- This is a [[one-dimensional vector space]]
+				- It can be realized by using the real numbers
+				- The real numbers are a one-dimensional vector space
+					- Multiplication property is real number multiplication
+					- Addition property is real number addition
+					- Draws its scalars from the real numbers itself
+					- It's called a [[realization]] of a one-dimensional vector space
+	- Interested in maps now that go from $V \to \mathbb{R}$ 
+		- Not trying to define anything new
+- Image
+	- Going to create a vector space with maps into the real numbers
+		- Instead of considering a map, we consider the set of all possible maps
+			- Then we're not actually inventing / creating anything new
+		- The set of all possible maps is what we'd choose from if we were to create a single map
+			- Not going to choose a single map
+			- The set of all possible maps is called the [[dual space]]
+			- If the vector space is $V$, the set of all possible maps from $V$ into the real numbers is the [[dual space]] represented as $V^*$

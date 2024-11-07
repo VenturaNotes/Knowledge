@@ -1,0 +1,57 @@
+[Video](https://youtube.com/watch?v=shA9pppkwSs)
+
+---
+- ![[Screenshot 2023-05-16 at 3.36.56 AM.png]]
+	- [[Population (Statistics)|Population]]: All people or things that you are studying
+		- Students at a university
+	- [[Parameter]]: A numerical description measuring the variable of interest in the population
+		- GPA, marital status, etc.
+	- [[Sample]]: A representative subset of the population
+	- [[Statistic]]: A numerical description measuring the variable of interest in the SAMPLE
+	- [[Variable]]: A value or characteristic that changes
+		- Student Gpa
+	- [[Data]]: Counts, measurements or observations recorded about a specific variable to study in a population
+		- Actual value (all GPAs we're looking at)
+	- [[Census]]: When data is studied from every member of the population
+	- Notes
+		- Population and parameter always grouped together
+		- Sample and statistic always grouped together
+---
+- ![[Screenshot 2023-05-16 at 3.40.59 AM.png]]
+- Identify the population, sample, parameter, and statistic
+	- Population: All residents in the midwest
+	- Sample: The 942 households who returned surveys
+	- Parameter: 60%
+	- Statistic: 57%
+---
+- ![[Screenshot 2023-05-16 at 3.54.21 AM.png]]
+- Identify the population, sample, parameter, and Statistic
+	- Population: Residential BU students
+	- Sample: The 257 residential students surveyed
+	- Parameter: 70%
+	- Statistic: 72%
+---
+- ![[Screenshot 2023-05-16 at 4.01.04 AM.png]]
+	- Identify the population, sample, and determine parameter or statistic
+		- Population: All American air travelers
+		- Sample:  The 679 American air travelers who were surveyed
+		- Parameter or statistic: 82% of All American travelers - parameter
+---
+- ![[Screenshot 2023-05-16 at 4.03.02 AM.png]]
+- Identify the population, sample, and determine parameter or statistic
+	- Population: All adult Americans
+	- Sample: The 1092 adult Americans who were surveyed
+	- Parameter or Statistic: 62% of those surveyed - Statistic
+---
+- ![[Screenshot 2023-05-16 at 4.05.29 AM.png]]
+- Descriptive vs. Inferential Statistics
+	- [[Descriptive statistics]]: (sample) - Data that is collected, organize, summarized and displayed (sample)
+		- Ex: Average of a sample, standard deviation of something, count the number of things we're studying
+	- [[Inferential Statistics]]: (population) - Using data that is gathered to make predictions (or inferences) about the population parameters
+---
+- ![[Screenshot 2023-05-16 at 4.07.46 AM.png]]
+- Descriptive vs Inferential Statistics
+	- Descriptive: 57% said their hospital care was above average. This is based on the SAMPLE
+		- 57% = statistic
+	- Inferential: We estimate, based on data gathered, that 60% of those in the Midwest are satisfied
+		- 60% = parameter

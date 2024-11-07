@@ -1,0 +1,45 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLBh2i93oe2qtIc75sLYaVEBt0QNqVbdmZ
+Length: 6 hours, 36 minutes, 41 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Complex Analysis - Part 1 - Introduction]]
+	- [[(2) Complex Analysis - Part 2 - Complex Differentiability]]
+	- [[(3) Complex Analysis - Part 3 - Complex Derivative and Examples]]
+	- [[(4) Complex Analysis - Part 4 - Holomorphic and Entire Functions]]
+	- [[(5) Complex Analysis - Part 5 - Total Differentiability in ℝ²]]
+	- [[(6) Complex Analysis - Part 6 - Cauchy-Riemann Equations]]
+	- [[(7) Complex Analysis - Part 7 - Cauchy-Riemann Equations Examples]]
+	- [[(8) Complex Analysis - Part 8 - Wirtinger Derivatives]]
+	- [[(9) Complex Analysis - Part 9 - Power Series]]
+	- [[(10) Complex Analysis - Part 10 - Uniform Convergence]]
+	- [[(11) Complex Analysis - Part 11 - Power Series Are Holomorphic - Proof]]
+	- [[(12) Complex Analysis - Part 12 - Exp, Cos and Sin as Power Series]]
+	- [[(13) Complex Analysis - Part 13 - Complex Logarithm]]
+	- [[(14) Complex Analysis - Part 14 - Powers]]
+	- [[(15) Complex Analysis - Part 15 - Laurent Series]]
+	- [[(16) Complex Analysis - Part 16 - Isolated Singularities]]
+	- [[(17) Complex Analysis - Part 17 - Complex Integration on Real Intervals]]
+	- [[(18) Complex Analysis - Part 18 - Complex Contour Integral]]
+	- [[(19) Complex Analysis - Part 19 - Properties of the Complex Contour Integral]]
+	- [[(20) Complex Analysis - Part 20 - Primitives or Antiderivatives]]
+	- [[(21) Complex Analysis - Part 21 - Closed Curves and Antiderivatives]]
+	- [[(22) Complex Analysis - Part 22 - Goursat's Theorem]]
+	- [[(23) Complex Analysis - Part 23 - Cauchy's Theorem (for discs)]]
+	- [[(24) Complex Analysis - Part 24 - Winding Number]]
+	- [[(25) Complex Analysis - Part 25 - Cauchy's Theorem (general version)]]
+	- [[(26) Complex Analysis - Part 26 - Keyhole Contour]]
+	- [[(27) Complex Analysis - Part 27 - Cauchy's Integral Formula]]
+	- [[(28) Complex Analysis - Part 28 - Holomorphic Functions are C-infinity Functions]]
+	- [[(29) Complex Analysis - Part 29 - Liouville's Theorem]]
+	- [[(30) Complex Analysis - Part 30 - Identity Theorem]]
+	- [[(31) Complex Analysis - Part 31 - Applications of the Identity Theorem]]
+	- [[(32) Complex Analysis - Part 32 - Residue]]
+	- [[(33) Complex Analysis - Part 33 - Residue for Poles]]
+	- [[(34) Complex Analysis - Part 34 - Residue Theorem]]
+	- [[(35) Complex Analysis - Part 35 - Application of the Residue Theorem]]

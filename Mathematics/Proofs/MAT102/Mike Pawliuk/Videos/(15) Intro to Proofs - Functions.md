@@ -1,0 +1,65 @@
+[Video](https://youtube.com/watch?v=eFdmGgroJhc)
+
+- ![[Screenshot 2024-01-09 at 3.52.05 AM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- (1) Name and define the parts of a [[function]] ([[Domain (Math)|domain]], [[codomain]], [[range]]/[[image]])
+			- (2) Represent a function using an [[arrow diagram]]
+	- Slide 3 - Motivation
+		- Motivation
+			- [[Functions]] are basic objects that are closely related to [[sets]]. They appear everywhere in math
+	- Slide 4 - Definition of a function
+		- "Definition" (Function)
+			- A function f: $A \to B$ is a "rule" (or "machine") that associates to every element a $\in$ A an element f(a) $\in$ B.
+		- Input: Any point from A
+		- Output: Any point from B
+		- Non-example: An input going to two different places is not allowed for a function
+	- Slide 5 - Notation
+		- Definition ([[Domain (Math)|domain]], [[Codomain]])
+			- If f: A $\to$ B is a function then A is called the domain and b is called the codomain of f
+		- $\mathbb{R}$ $\backslash$ {1}
+			- This is the domain of all real numbers not including / except one /
+- ![[Screenshot 2024-01-09 at 6.12.26 PM.png]]
+	- Slide 6 - [[arrow diagram|arrow diagrams]]
+		- Example 2
+		- Domain written on left side
+		- Codomain written on right side
+		- Helpful way to represent a function
+	- Slide 7 - Codomain Example
+		- Example
+		- If domain is explicitly declared, that's the only thing allowed to be put into it
+	- Slide 8 - Range
+		- Definition ([[Range]])
+			- If f: A $\to$ B is a function, then the range (or image) of f is {f(a): a $\in$ A}. Equivalently, y $\in$ ran(f) $\iff$ ($\exists a \in A)[y = f(a)]$
+		- All possible outputs of function
+		- Technical way of describing it
+			- Y is in the range of f iff there is a point in the domain that outputs that y
+		- To compute range, we need to see what the possible outputs of the function are
+			- Range and codomain can be different
+	- Slide 9 - Another example
+- ![[Screenshot 2024-01-09 at 6.26.31 PM.png]]
+	- Slide 10 - Image of a [[set]]
+		- Definition ([[Image]])
+			- If f : A $\to$ B is a function, and C $\subseteq$ A, then the image of C under f is the set
+				- $f(C) = \{f(c): c \in C\}$
+					- Error in video: It's not $\mathbb{C}$ 
+				- We use the notation f(C) to denote all possible outputs (so bad notation on this part)
+			- The image of a set can be different from its range
+	- Slide 11 - Observations
+		- Propositions
+			- If f: $A \to B$ is a function, and C $\subseteq$ A, then
+				- range is a subset of codomain
+				- image is a subset of codomain
+				- image is a subset of range
+				- range equals the image of the domain
+	- Slide 12 - Why use the codomain?
+		- Observation
+			- It can be useful to use a wider codomain if you don't know the complete function ahead of time. Computing an exact range is often difficult in practice
+		- Example
+			- You want to define a function Country(x) that takes as an input x a year in which the Olympics were held, and outputs the name of the country that won the most medals that year
+				- codom(Country) = all countries in the world (including those that no longer exist)
+				- ran(Country) = ... requires research to find out
+	- Slide 13 - Reflection
+		- What are the key parts of a function?
+		- If a function is given to you as f : A $\to$ B, what two features can you identify already?
+		- What is the difference between the codomain and range of a function

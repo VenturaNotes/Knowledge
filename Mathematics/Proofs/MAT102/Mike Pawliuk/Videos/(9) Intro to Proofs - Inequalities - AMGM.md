@@ -1,0 +1,68 @@
+[Video](https://youtube.com/watch?v=n5MmnMaznck)
+
+- ![[Screenshot 2023-11-13 at 2.37.47 PM.png]]
+	- Slide 1 - Introduction to Proofs - Inequalities - AMGM
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- (1) Evaluate the [[Arithmetic mean|AM]] and [[geometric mean|GM]] of two numbers
+			- (2) Relate/distinguish problem solving and rough work to a proof
+	- Slide 3 - Motivation
+		- Motivation 1
+			- We will see two fundamental, non-trivial inequalities in math: the arithmetic-mean-geometric-mean ([[AM-GM inequality|AMGM]]) inequality, and the [[triangle inequality]].
+			- Both inequalities are very geometric, but can be proved entirely from the [[order axioms]].
+		- Motivation 2
+			- The proofs we will see of these inequalities show off a technique of "do rough work, then write out a formal proof".
+	- Slide 4 - Definitions
+		- Errata
+			- In Example 4, the AM = $\frac {a}{2}$. It does not = a
+		- Definitions (AM, GM)
+			- Let a, b $\in$ $\mathbb{R}$
+				- (1) The [[arithmetic mean]] of a and b is $\frac {a + b}{2}$
+					- Average of 2 numbers
+				- (2) The [[geometric mean]] of a and b $\sqrt{ab}$ (when it is defined)
+					- When taking a square root of a negative number, it won't work
+					- Halfway point of multiplicative is like square root
+		- Example 1 (in image)
+		- Example 2 (in image)
+			- Arithmetic mean will always be defined but geometric mean will sometimes not be defined
+		- Example 3 (in image)
+			- If a = b, then. AM = a and GM = |a|
+		- Example 4 (in image)
+			- If b = 0, then AM = $\frac{a}{2}$ and GM = 0
+	- Slide 5 - Geometric motivation
+		- (1) Make a circle whose diameter is a + b
+		- (2) The radius will be [[arithmetic mean]]
+		- (3) The vertical line segment h, will be the [[geometric mean]] (This requires proof)
+			- Will use [[similar triangles]]
+		- (4) The GM is clearly less than or equal to the AM, and equality happens only when $a = b$
+	- Slide 6 - Textbook proof of [[AM-GM inequality|AMGM]]
+		- Theorem
+			- The alternative inequality will always be defined
+		- Rough Work / Ugly garbage
+			- We know that $0 \le (a - b)^2$ because squares are always nonnegative
+			- This on its own is not a proof because we're starting from what we want to prove and deducing something true 
+- ![[Screenshot 2023-11-13 at 3.52.22 PM.png]]
+	- Slide 7 - Proof of AMGM
+		- A formal proof would start with something that is true
+		- [[proof|proofs]] should start with something true and derive what we want
+			- They shouldn't start with what we want and derive something true
+	- Slide 8 - Is this a proof?
+		- (1) Not a proof since you can't start with random nonsense and end up with something true
+		- (2) Need to have connecting words to show how the inequalities connect to each other. Proof should be written like a paragraph which should be complete sentences and say how things connect
+			- Should not start by asserting
+			- Should start with 31 < 32
+		- Common mistake
+			- Proofs must begin with something that is true or assumed, and derive what you want. You cannot start with what you want to prove, and then deduce something true.
+	- Slide 9 - Should I include my ugly garbage in my beautiful solutions?
+		- Should not be included in beautiful work
+	- Slide 10 - Picture proof of AMGM
+		- The total area is $(a + b)^2$
+		- There are four rectangles with area ab each. (so 4ab total)
+		- Clearly 4ab $\le$ $(a+b)^2$ 
+	- Slide 11 - Behold! This is the proof of a famous theorem. Which one?
+		- #archive
+	- Slide 12 - Reflection
+		- How will you remember whether it's $AM \le GM$ or $GM \le AM$?
+		- Do geometric proofs count as "real" proofs?
+		- What is the value of "picture proofs"?
+		- Which proof of the AMGM do you prefer? (The circle proof, the algebra proof, or the rectangle proof?)

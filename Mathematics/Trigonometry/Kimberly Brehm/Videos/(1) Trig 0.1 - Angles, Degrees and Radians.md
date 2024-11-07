@@ -1,0 +1,30 @@
+[Video](https://www.youtube.com/watch?v=lf6BN6r61MA)
+
+---
+- ![[Screenshot 2023-05-09 at 3.15.31 PM.png]]
+- Angle Terminology
+	- An [[Angle|angle]] is formed by rotating a ray about its endpoint
+	- [[Initial side]] of the angle is the starting position of the ray
+	- [[Terminal side]] of the angle is the final position of the ray.
+	- [[Vertex]] of the angle is the common endpoint, often named by a capital letter such as A
+	- An angle is in <mark style="background: #FFF3A3A6;">standard position</mark> if its vertex is at the origin in the xy-plane, and its initial side is the positive x-axis.
+	- The <mark style="background: #FFF3A3A6;">measure</mark> of an angle quantifies the direction and amount of rotation from the initial side to the terminal side
+- Ray
+- Counterclockwise is positive direction
+- Clockwise is negative direction
+---
+- ![[Screenshot 2023-05-09 at 3.21.07 PM.png]]
+- Degrees vs Radians
+	- A degree measures an angle by equating one full rotation of a ray about its endpoint as $360\degree$
+	- Therefore, 1$\degree$ = $\frac {1}{360}$ of a rotation
+	- A radian measure comes from the measure of the central angle of a circle that intercepts the arc on a circle with a length equal to the radius of the circle
+	- Therefore $\theta$ = $\frac {s}{r}$ = $\frac {circumference}{radius}$ = $\frac {2\pi r}{r}$ = 2$\pi$
+	- So the measure of one full revolution in radians is 2$\pi$ and 2$\pi$ = 360$\degree$ or $\pi$ = $180\degree$.
+---
+- ![[Screenshot 2023-05-09 at 3.25.48 PM.png]]
+- Converting Between Degrees and Radians
+	- From degrees to radians: multiply the degree measure by $\frac {\pi}{180}$
+	- From radians to degrees: multiply the radian measure by $\frac {180}{\pi}$
+- For radians, there is no unit of measure. It's just a radian
+- You do need to label degrees with a symbol though "$\degree$"
+	- Unacceptable way to leave solution if you have $\pi$ in the denominator (or in general?)

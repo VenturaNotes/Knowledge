@@ -1,0 +1,62 @@
+[Video](https://www.youtube.com/watch?v=FMXLQLakP_c)
+
+- ![[Screenshot 2023-12-09 at 1.44.03 AM.png]]
+	- When counting subsets, we need to be able to use [[binomial coefficient|binomial coefficients]]
+		- $n \choose k$ or C(n, k)
+			- The # of k-element subsets of an n-element set
+			- n and k should be nonnegative integers
+				- To be defined, k should be less than or equal to n
+			- The # of ways to choose k elements from n
+		- For P(3, 2)
+			- Number of lists of length 2 from {1, 2, 3} (no repetition)
+		- $n \choose 0$ = 1
+			- This is how many 0-element subsets from an n-element. set
+				- The only 0-element subset of an n-element set is the [[empty set]]
+		- $n \choose n$  = 1
+			- Number of n-element subsets from n-element set
+				- If A has n elements, then A is the only n-element subset
+		- $n \choose 1$ = n
+			- This would just be the [[singleton|singletons]]
+	- Formula
+		- $n \choose k$ = $n \choose n-k$ [^1]
+			- If we have n objects to choose and we include k objects, then there are $n \choose k$ ways of choosing these objects
+			- This also means we choose not to include $n-k$ objects giving $n \choose n-k$
+			- Example given {A, B, C, D, E}
+				- $5 \choose 2$
+					- AB, AC, AD, AE, BC, BD, BE, CD, CE, DE
+					- = 10 combinations
+					- For each combination, the letters excluded will be the ones found in $n \choose n-k$ 
+						- AB $\iff$ CDE
+						- AC $\iff$ BDE
+						- AD $\iff$ BCE
+						- AE $\iff$ BCD
+						- BC $\iff$ ADE
+						- BD $\iff$ ACE
+						- BE $\iff$ ACD
+						- CD $\iff$ ABE
+						- CE $\iff$ ABD
+						- DE $\iff$ ABC
+						- = 10 combinations
+				- They are complements of each other
+	- [[binomial coefficient]]: $n \choose k$
+		- Generally, a binomial is the sum of 2 terms
+		- Called binomial coefficients because they appear as coefficients when you expand a power of a binomial. This is what's called [[binomial theorem]]
+			- For n $\in$ $\mathbb{N}$, $(x+y)^n$ = $\Sigma_{k=0}^n$ $n \choose k$ $x^ky^{n-k}$ 
+- ![[Screenshot 2023-12-09 at 1.58.34 AM.png]]
+	- Example: For n $\in$ $\mathbb{N}$, use the binomial theorem to prove this [[combinatorial identity]]
+		- Will use a [[combinatorial proof]] in next lesson
+	- [[Pascal's Triangle]]
+		- Border consists of all 1's
+		- An interior value is sum of 2 numbers above
+	- Pascal's triangle consists of binomial coefficients arranged along rows
+	- [[Pascal's Identity]]
+		- $n \choose k-1$ + $n \choose k$ = $n + 1 \choose k$ 
+			- $n \choose k$ is $3 \choose 2$ in the circled part of pascal's triangle above
+		- Will prove this with a combinatorial proof on next lesson
+	- Comment: P(n, n) = $\frac {n!}{0!}= n!$ 
+		- All orderings of n elements of n = 5
+			- n! Is the number of ways to permute n items in a line
+
+## References
+
+[^1]: https://math.stackexchange.com/questions/849758/why-n-choose-k-n-choose-n-k

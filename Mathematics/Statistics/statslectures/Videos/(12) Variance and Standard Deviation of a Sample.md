@@ -1,0 +1,25 @@
+[Video](https://www.youtube.com/watch?v=CtAwtH4WMN0)
+
+- Measures of Dispersion: Variance and Standard Deviation of a Sample
+- The previous lecture was about how to calculate [[variance]] and [[standard deviation]] for a [[Population (Statistics)|population]]. This lecture is about how to calculate <mark style="background: #FFF3A3A6;">variance</mark> and <mark style="background: #FFF3A3A6;">standard deviation</mark> for a [[sample]].
+- In the future, you will be dealing almost entirely with <mark style="background: #FFF3A3A6;">samples</mark>. You will deal with known <mark style="background: #FFF3A3A6;">population</mark> values very rarely.
+- It is very important to understand the difference between the two.
+- What now follows is how to calculate the variance and standard deviation for a sample, using the same data set as in the previous lecture.
+- ![[Screenshot 2023-04-28 at 8.41.36 AM.png|500]]
+	- Data Set A and Mean
+	- Data Set B and Mean
+	- You have two data sets with the same mean, yet they're very different. How are they different?
+	- Dispersion refers to how spread out a data set is about the mean
+- ![[Screenshot 2023-04-28 at 8.43.08 AM.png]]
+	- Variance and Standard Deviation are the two main measures of dispersion within a data set
+- ![[Screenshot 2023-04-28 at 8.45.22 AM.png]]
+	- Calculating Sample Variance
+	- Denominator is "n-1" because without would cause us to underrepresent what it actually is
+- ![[Screenshot 2023-04-28 at 8.47.47 AM.png|400]]
+	- We just calculated Variance and Standard Deviation using Definitional Formulas, which takes a long time. To speed things up, we usually use the Computational Formulas instead. They get us the same answers, and we don't have to work as hard.
+- Important Terms
+	- Sample Variance
+	- Sample Standard Deviation
+	- Dispersion
+	- Definitional Formula
+	- Computational Formula

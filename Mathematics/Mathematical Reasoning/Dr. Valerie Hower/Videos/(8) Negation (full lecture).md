@@ -1,0 +1,33 @@
+[Video](https://www.youtube.com/watch?v=V-dmw3OTW8I)
+
+- ![[Screenshot 2023-12-08 at 2.12.08 AM.png]]
+	- Definition: Given a statement S, the [[negation]] of S is $\lnot$ S
+	- [[De Morgan's Laws]]
+	- How do we negate p $\implies$ q?
+		- Negating an [[Implication]]
+			- First showing in truth table
+			- Then use [[De Morgan's Laws]]
+	- If Serena is smiling, then Serena is not sad
+		- Negation of implication: 
+			- Serena is smiling and Serena is sad
+	- Negating [[quantifiers]]
+		- Ex: "Not all integers are even"
+			- There is an integer that is not even
+		- Rules
+			- $\lnot(\forall x, P(x)) = \exists x, \lnot P(x)$
+			- $\lnot(\exists x, P(x)) = \forall x, \lnot P(x)$
+- ![[Screenshot 2023-12-08 at 2.26.43 AM.png]]
+	- Negating Quantifiers
+		- Example: Negate: There is a rational number that is not an integer (this statement is true. $\frac 12$ is a good example. It's a rational number but not an integer)
+			- All rational numbers are integers is a false statement when negating
+	- Can negate [[nested quantifiers]]
+	- Negating a false statement should give a true statement
+		- For negation of second problem, y could depend on x to $\ne$ 2 or you could just say y = 0 since there won't exist an x that makes xy = 2
+	- Example: Negate
+		- There is an integer that is neither even nor odd
+			- Every integer is even or odd (this negation is true)
+	- Negate
+		- For all [[natural numbers]] x, if x is [[prime]] then $\sqrt{x}$ is not [[rational]]
+			- This statement is true
+		- There is a natural number x that is prime and $\sqrt{x}$ is rational
+			- This statement is false

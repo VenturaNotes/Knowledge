@@ -1,0 +1,34 @@
+[Video](https://www.youtube.com/watch?v=V5EfA0JSVpQ)
+
+- ![[Screenshot 2023-12-08 at 1.42.36 AM.png]]
+	- Recall: Often we have a declarative sentence P(x)
+		- P(x) is not a statement as truth value is ambiguous
+	- Can create statements using [[quantifiers]]
+		- $\forall$: [[for all]]
+			- $\forall$xP(x) is true provided P(x) is true for every x
+		- $\exists$: [[It exists|there exists]]
+			- $\exists$xP(x) is true provided P(x) is true for at least one x
+	- $\exists x \in \mathbb{Z}, x^2 = 2$
+		- False. Would be false even if $\mathbb{Z}$ was $\mathbb{Q}$ 
+	- [[Nested Quantifiers]]: Order matters
+		- There are 4 different types
+			- $\forall x \forall y, P(x, y)$
+				- P(x, y) is true for every possible (x, y)
+					- In some cartesian product
+					- True for every possible pair
+			- $\forall x \exists y P(x, y)$
+				- y depends on x
+				- So for any x you choose, there will be a y that will make P(x, y) true
+			- $\exists x \exists y, P(x, y)$
+				- There is at least one pair where P(x,y) is true
+			- $\exists x \forall y P(x, y)$ 
+				- There is one x that works for every single y
+				- This is saying that there exists an x that will work for all y such that P(x, y) is true
+- ![[Screenshot 2023-12-08 at 2.00.46 AM.png]]
+	- [[empty set]] example
+	- Are these equivalent?
+		- No for first
+		- yes for second
+			- Both expressions are true provided P(x) is true for every x and Q(x) is true for every x
+	- There is no [[integers|integer]] that is both even and odd
+		- Can prove this through [[contradiction]]

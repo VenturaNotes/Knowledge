@@ -1,0 +1,71 @@
+[Video](https://youtube.com/watch?v=1orXEwNJS4I)
+
+- ![[Screenshot 2024-01-12 at 5.06.24 PM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to
+			- (1) Identify a [[mathematical statement]]
+			- (2) Change the truth value of a statement by changing the scope of variables
+			- (3) Create a statement using $\forall$, $\exists$ quantifiers
+				- [[for all]]
+				- [[It exists|there exists]]
+			- (4) Translate a formal mathematical statement into English
+			- (5) Distinguish mathematical statements with mixed quantifiers
+	- Slide 3 - What is a mathematical statement?
+		- Idea, not definition
+			- "A [[mathematical statement]] is a statement that can be true or false. It asserts that something is true. It is precise and leaves nothing up to interpretation"
+		- These are all mathematical statements
+		- Would be able to ask "Is it true that...?"
+	- Slide 4 - Non-examples
+		- These are not mathematical statements
+			- "x + 2 = 3"
+				- It depends what x is
+		- Motivation
+			- Our goal is to make [[Conjecture|conjectures]] and prove [[Theorem|theorems]]. Only mathematical statements can be proved; non-mathematical statements don't assert anything.
+	- Slide 5 - Scope is important
+		- Motivation
+			- Is "$x^2$ > 0" a mathematical statement?
+				- No! Because we don't know what x is, and the truth of this could change depending on the [[scope]] of x
+		- All the examples shown are mathematical statements
+- ![[Screenshot 2024-01-16 at 9.36.35 AM.png]]
+	- Slide 6 - [[Quantifiers]]
+		- Motivation
+			- We often want to prove statements about all numbers/objects of a certain class. Sometimes we only want to show there exists a number/object with a certain property
+		- Words 
+			- For all, for any, every
+				- [[Universal Quantifier]]
+					- $\forall$ 
+			- There exists, There is, For some
+				- [[Existential Quantifier]]
+					- $\exists$ 
+	- Slide 7 - Examples
+		- There is a real number x with $x^2 > 0$ 
+		- Notation
+			- If P(x) is a property that x can have (such as "x is even" or "x is rational", we use this notation
+				- "$\exists x, P(x)$" means...
+					- "There is an x with property P(x)"
+				- "$\forall x, P(x)$" means...
+					- Every x has the property P(x)
+			- In the above examples, the scope is not defined but usually it is (such as x in reals or x in rationals)
+	- Slide 8 - Mixing [[Quantifiers]]
+		- Note
+			- A [[mathematical statement]] can have many quantifiers. The statement is read left to right. Variables on the right can depend on earlier variables
+				- (1) ($\forall$ students p in this course)($\exists$n)\[n is the name of p\].
+					- Every student in the course has a name
+				- (2) ($\exists$n) ($\forall$ students p in this course)\[n is the name of p\]
+					- Everyone in the course has the same name
+				- (3) ($\exists$ student p in this course)($\forall$ n)\[n is the name of p\]
+					- There is a student with every single possible name
+				- (4) ($\forall$n) ($\exists$ student p in this course)\[n is the name of p\]
+					- All names possibles are represented in the course (False)
+	- Slide 9 - Exercises
+		- (1) Finish the definition using quantifiers. An integer x is even if...
+		- (2) Finish the definition using only quantifiers. A natural number n is [[composite]] if
+		- (3) Express this as a mathematical statement: For every positive real number, there is a number between it and 0
+		- (4) Harder. Express this as a mathematical statement with mixed quantifiers: There is a smallest natural number
+			- It should also express mathematically that there is no number in the reals
+- ![[Screenshot 2024-01-16 at 9.38.10 AM.png]]
+	- Slide 10 - Reflection
+		- Why do we care about mathematical statements? How are they related to conjectures and theorems?
+		- How would you feel if your grade in this course was "$\exists$ such that x/100."?
+		- What does it take to show that the statement "$\forall$ P(x)" is false?
+		- Come up with a statement that uses three quantifiers

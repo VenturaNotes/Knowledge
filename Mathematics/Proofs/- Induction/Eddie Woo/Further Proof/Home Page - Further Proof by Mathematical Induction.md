@@ -1,0 +1,44 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PL5KkMZvBpo5A3Htn0jBcNcnhFANx1ZHId
+Length: 6 hours, 24 minutes, 44 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Induction - Factorial Identity]]
+	- [[(2) Induction - Fibonacci Sequence]]
+	- [[(3) Induction - Inequality Proofs]]
+	- [[(4) Induction - Derivative Proof]]
+	- [[(5) Induction - Geometry Proof (Angle Sum of a Polygon)]]
+	- [[(6) Induction - Diagonals in a Convex Polygon]]
+	- [[(7) Induction Inequality Proof Example 1 - Σ(k = 1 to n) 1 and k² ≤ 2 - 1 and n]]
+	- [[(8) Induction Inequality Proof Example 2 - n² ≥ n]]
+	- [[(9) Induction Inequality Proof Example 3 - 5 n + 9 less than 6 n]]
+	- [[(10) Induction Inequality Proof Example 4 - n! greater than n 2]]
+	- [[(11) Induction Inequality Proof Example 5 - 2 n ≥ n²]]
+	- [[(12) Induction Inequality Proof Example 6 - (2(2n))(n!)2 ≥ (2n)!]]
+	- [[(13) Induction Geometry Proof - Diagonals in a Convex Polygon]]
+	- [[(14) Induction Inequality Proof Example 7 - 4 n ≥ 1+3n]]
+	- [[(15) Induction - Divisibility Proof example 5 (8 n+2(7 n)-1 has a factor of 7)]]
+	- [[(16) Induction - Divisibility Proof example 6 (a n - b n is divisible by a - b)]]
+	- [[(17) Mathematical Induction (1 of 3 - Outlining categories of induction, start of inequalities question)]]
+	- [[(18) Mathematical Induction (3 of 3 - A different approach - rearranging the inequality)]]
+	- [[(19) Mathematical Induction (Harder Inequalities Proof by mathematical induction)]]
+	- [[(20) Mathematics Extension 1 Exam Review (2 of 3 - Induction)]]
+	- [[(21) Induction Inequality Proofs (1 of 4 - Unusual properties of inequalities)]]
+	- [[(22) Induction Inequality Proofs (2 of 4 - Considering one side of the inequality)]]
+	- [[(23) Induction Inequality Proofs (3 of 4 - Introducing & transforming the inequality)]]
+	- [[(24) Induction Inequality Proofs (4 of 4 - Beginning with the assumption)]]
+	- [[(25) Mathematical Induction - Base case above 1 (1 of 3 - Introduction)]]
+	- [[(26) Mathematical Induction - Base case above 1 (2 of 3 - Completing the proof)]]
+	- [[(27) Mathematical Induction - Base case above 1 (3 of 3 - Additional method)]]
+	- [[(28) Mathematical Induction (increments greater than 1)]]
+	- [[(29) Second Order Recurrence Formula (3 of 3 - Proving k+2 case)]]
+	- [[(30) Second Order Recurrence Formula (2 of 3 - An unusual test & assumption)]]
+	- [[(31) Second Order Recurrence Formula (1 of 3 - Prologue - considering the old course)]]
+	- [[(32) Unusual Induction Inequality Proof (1 of 3 - Base case)]]
+	- [[(33) Unusual Induction Inequality Proof (2 of 3 - Working from the assumption)]]
+	- [[(34) Unusual Induction Inequality Proof (3 of 3 - By exhaustion)]]

@@ -1,0 +1,130 @@
+[Video](https://youtube.com/watch?v=HyZLYENcoOo)
+
+-  A network graph is a visual representation for a series of events or how a system might flow information or items. It can also be used to demonstrate how you get from one point to another
+- Networks are a new form of mathematics. Only been around the last 100 years
+- Useful for google maps (quickest route to get from point A to point B)
+- Planar Network graph
+	- ![[Screenshot 2023-01-14 at 7.59.41 PM.png]]
+		- Match the words to the parts of the graph above
+		- [[Loop]] (or node)
+			- A line that connects from one of those dots back to the same dot
+		- [[Weight (Graphs and Networks)|Weight (Graphs and Networks)]]
+			- Indicates a # that has been attached to a line. It just means it has some value
+			- You can consider it like a map and its distance
+		- [[Isolated vertex]] (or isolated node)
+			- A vertex that doesn't have any edges[^1]
+		- [[Vertex]]
+			- Dots on the network map (graph)
+		- [[Edge]]
+			- Lines that connects the dots in the network graph are referred to as edges
+		- [[Adjacent Vertices]]
+			- If referring to 2 dots (vertices) that are attached to the same edge, they are referred to as adjacent vertices.
+		- [[parallel edges (multiple edges)]]
+			- If referring to 2 edges that are connected to the same vertices (2 parallel lines from the same dots)
+- ![[Screenshot 2023-01-14 at 8.24.21 PM.png]]
+	- Match the types of multigraphs with their descriptions. One description per graph
+	- [[Degenerate graph]]
+		- No edges in graph. Only made of vertices
+	- [[Subgraph]]
+		- Part of a larger graph (contains some or all of the edges/vertices of a graph)
+		- It is important when identifying a subgraph that it has the same connections from the same vertices
+	- [[Disconnected Graph]]
+		- Some vertices are not reachable from other vertices
+		- Network has some vertices connected by edges but there are 2 or more distinctly different sections that are not connected together by a bridge
+			- A bridge is an edge that connects 2 vertices together if they're connecting separate network graphs
+	- [[Complete Network]] (or complete graph)
+		- All vertices are directly connected to all other vertices without parallel edges or loops. $E = \frac{V(V-1)}{2}$ 
+			- A is connected to B,C,D
+			- B is connected to A,C,D
+			- C is connected to A,B,D
+			- D is connected to A,B,C
+	- [[Simple graph]]
+		- No loops or multiple / parallel edges
+		- Examples #1 and #3 are simple graphs
+	- [[Connected graph]]
+		- every vertex is connected to every other vertex either directly or indirectly
+		- Examples #1 and #3 are simple graphs
+	- Example #3
+		- It has a bridge between D and E
+		- It connects 2 sections of graph
+- ![[Screenshot 2023-01-14 at 8.32.46 PM.png]]
+	- Planar Graphs
+	- Example 3: Graph 1 and 2 are planar graphs but Graph 3 isn't. What do you think the pattern is?
+		- Clue: They might need to be redrawn. Redrawn graphs are called "isomorphic graphs"
+	- Graph 1 has no overlapping edges
+		- Graph 2 and Graph 3 both have edges that overlap with the others
+	- A [[planar graph]] must be any graph that can be drawn such that there are no overlapping edges. 
+		- <mark style="background: #FFF3A3A6;">Can we redraw graph 2 with no overlapping edges?</mark>
+			- <mark style="background: #FFF3A3A6;">Eliminate an edge and redrawing it</mark>
+				- Example is shown to have redrawn an edge
+				- You can consider the edges to be flexible (they don't have to be straight lines)
+				- ![[Screenshot 2023-01-14 at 8.32.58 PM.png]]
+			- <mark style="background: #FFF3A3A6;">Or move a vertex</mark>
+		- It is impossible to redraw graph 3 with no overlaps
+			- There is no way to determine by sight if there are too many overlaps
+			- One way we can figure it out though is to check how many sets of lines overlap
+				- If graph has only 1 set of overlapping lines, it is likely that it can be redrawn
+				- If it has multiple sets of overlapping lines, it is less likely to be redrawn
+		- We can see if there is some sort of planarity (whether or not it can be planar) by using Euler's rule
+- ![[Screenshot 2023-01-14 at 8.36.44 PM.png]]
+	- Which graphs below can be redrawn to be planar?
+	- We discover that the first one is nonplanar because we cannot redraw those edges
+		- ![[Screenshot 2023-01-14 at 8.37.21 PM.png]]
+- ![[Screenshot 2023-01-14 at 8.43.48 PM.png]]
+	- Degree (Order)
+	- Example 5: If Vertex C has a degree of 2, Vertex D has a degree of 3 and Vertex E has a degree of 4, state the other degrees and explain what "degree of a vertex" means.
+		- Vertex C has a degree of 2 and has 2 edges going to it
+		- Vertex D has a degree of 3 and has 3 edges connected to it
+		- Vertex E has a degree of 4 but only has 3 edges connected to it
+			- It has 4 entrance ways because you can enter through the left of the loop or the right of the loop
+	- [[Degree of a vertex]]
+		- The number of edges that connect to the vertex
+			- The category is how many times or how many entrance ways are there to that vertex
+	- Therefore,
+		- A has a degree of 2 (2 edges connected)
+		- B has a degree of 3
+		- F has a degree of 4
+	- Sometimes you'll hear networks being described as having an even or odd degree
+		- Sometimes it will say that the vertices are odd
+			- It means it has an odd number of entrance ways to that vertex
+		- If it's an even degree or a vertex is even, it has an even number of entrance ways to that vertex
+- ![[Screenshot 2023-01-14 at 8.46.28 PM.png]]
+	- Euler's Rule for Planar Graphs:
+		- F - E + V = 2
+			- Where F = faces, E = Edges and V = Vertices
+			- It must equal to 2 so that the graph is planar
+	- Example 6: Confirm that the graph below is planar using Euler's Rule 
+	- [[Face]]
+		- Region of the graph that is bounded by edges or it is the area outside of the network
+	- There are 4 faces in this graph
+	- There are 8 edges
+	- There are 6 vertices
+	- 4 - 8 + 6 = 2
+		- 2=2
+	- Therefore, it is a planar graph
+- ![[Screenshot 2023-01-14 at 8.51.46 PM.png]]
+	- Convert the following into a planar graph and confirm its planarity by using Euler's Rule
+	- We moved the vertex E outside and we redrew the edges. 
+	- There are 6 total faces
+	- There are 12 edges
+	- There are 8 vertices
+		- 6 - 12 + 8 = 2
+			- 2 = 2
+	- Since 2 = 2, the graph is planar
+- ![[Screenshot 2023-01-14 at 8.54.19 PM.png]]
+	- Example 8: How many faces does the following graph have?
+	- We can confirm there are 6 faces after redrawing the graph by either counting or confirming using Euler's rule by solving for "F".
+	- There are 6 faces
+	- There are 9 edges
+	- There are 5 vertices
+	- F - 9 + 5 = 2
+		- F = 6
+	- We can confirm that the graph has 6 faces
+- ![[Screenshot 2023-01-14 at 8.58.16 PM.png]]
+	- Example 9: A graph that is connected and is planar has 5 faces and 13 edges. How many vertices?
+	- Just use Euler's rule to solve. The number of vertices would be equal to 10.
+
+ 
+## References
+
+[^1]: http://web.math.princeton.edu/math_alive/5/Lab1/Defs.html#:~:text=If%20a%20vertex%20doesn't,is%20called%20an%20isolated%20vertex.

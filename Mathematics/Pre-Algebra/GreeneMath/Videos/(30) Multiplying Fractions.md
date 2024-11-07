@@ -1,0 +1,35 @@
+[Video](https://www.youtube.com/watch?v=lURkTdyNn8c) (unavailable)
+[08:47:04](https://www.youtube.com/watch?v=VXzm8ReImG0&t=31624s)
+
+- Lesson Objective
+	- Learn how to multiply two or more fractions together
+- To multiply two or more fractions:
+	- multiply numerators
+- and place the result over
+	- the product of all denominators
+- When using fractions, you're expected to simplify your answer
+- Examples
+	- ![[Screenshot 2022-12-16 at 5.29.33 AM.png|500]]
+	- ![[Screenshot 2022-12-16 at 5.30.23 AM.png|500]]
+		- Shortcut method ([[cross-cancellation]]):
+			- ![[Screenshot 2022-12-16 at 5.31.42 AM.png|400]]
+		- Alternative method ([[prime factorization]])
+			- ![[Screenshot 2022-12-16 at 5.32.38 AM.png]]
+	- ![[Screenshot 2022-12-16 at 5.33.29 AM.png]]
+		- Used the prime factorization method
+		- ![[Screenshot 2022-12-16 at 5.34.20 AM.png|400]]
+			- Cross cancelling
+	- ![[Screenshot 2022-12-16 at 5.35.19 AM.png|400]]
+		- Cross-cancelling
+		- ![[Screenshot 2022-12-16 at 5.36.36 AM.png|400]]
+			- Prime factorization
+	- ![[Screenshot 2022-12-16 at 5.37.13 AM.png]]
+	- ![[Screenshot 2022-12-16 at 5.37.51 AM.png]]
+	- ![[Screenshot 2022-12-16 at 5.38.37 AM.png]]
+	- ![[Screenshot 2022-12-16 at 5.39.23 AM.png]]
+- Fred spent 2/5 of his $50 allowance on comics. How much did he spend?
+	- ![[Screenshot 2022-12-16 at 5.40.45 AM.png]]
+		- He spent $20 on comics
+- A recipe requires 1/2 cup of sugar. If we only want to make 3/4 of the recipe, how much sugar is needed?
+	- $\frac 12 * \frac 34 = \frac 38$
+		- We would need 3/8 of a cup of sugar to make 3/4 of the recipe.

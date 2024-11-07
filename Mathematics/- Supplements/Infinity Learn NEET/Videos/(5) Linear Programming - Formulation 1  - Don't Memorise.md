@@ -1,0 +1,34 @@
+[Video](https://www.youtube.com/watch?v=uJFiR0DG2Bw)
+
+- ![[Screenshot 2023-10-16 at 4.11.44 PM.png]]
+	- [[Linear Programming]]
+		- Technique which helps us to find the optimum solution for a given problem
+	- [[Optimum solution]]
+		- Best possible outcome for a given problem
+	- Types of linear programming problems
+		- Product mix
+		- Diet problem
+		- The portfolio selection problem
+		- Media selection
+		- Blending problem
+		- Transportation problem
+		- Travelling salesman problem
+	- Structure and the [[formulation of a linear programming problem]] (process shown below)
+		- Understand given problems
+		- Convert to Linear Programming problem
+	- Two aspects
+		- Formulation part
+		- Solution part
+	- Maximum profit?
+		- Constraint $\to$ Production budget
+- ![[Screenshot 2023-10-16 at 4.15.21 PM.png]]
+	- Good idea to represent problems in [[tabular form]]
+	- Budget constraint: $200x + 150y \le 50,000$ 
+	- Total Demand Constraint: $x + y \le 500$ 
+	- [[Objective function]]
+		- In a linear programming problem, it's a mathematical expression of the ultimate goal
+		- $z = 20x + 15y$
+	- Can number of units be negative?
+		- No (so [[non-negative constraints]])
+			- Important for formulation in a linear programming problem
+	- As the problem is formulated in the linear form, it's called as [[linear programming]]

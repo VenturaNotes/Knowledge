@@ -1,0 +1,30 @@
+[Video](https://youtube.com/watch?v=Keown1DEv90)
+
+---
+- Truth Tables
+	- To construct a truth table, we create columns for each simple statement and negation needed, add to it compound statements, and then the complete statement.
+		- We consider truth values for each simple statement and base the truth values of negations and compound statements from these.
+---
+- Constructing a Truth Table
+	- Let's look at Dr. L's suggested steps
+		- (1) Decide how many rows you need
+			- $2^n$ where n is the number of simple statements
+				- If you have 3 simple statements, you'd need 8 rows
+				- If you have 2 simple statements, you'd need 4 rows
+		- (2) Fill in the simple statements!
+		- (3) Create a column for any negation needed.
+		- (4) Fill in any compound statements
+		- (5) Lastly, fill in the truth value for the given statement.
+---
+- ![[Screenshot 2023-05-12 at 4.08.20 AM.png]]
+- Construct a Truth Table
+	- Examples
+---
+- ![[Screenshot 2023-05-12 at 4.09.43 AM.png]]
+	- Another example!
+		- Construct a truth table
+		- Pre-plan! What statements are we considering here?
+		- How many rows do I need?
+			- $2^3 = 8$
+		- How many columns do I need?
+			- 3 + 1 + 1 + 1 = 6

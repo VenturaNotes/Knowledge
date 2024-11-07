@@ -1,0 +1,50 @@
+ [Video](https://www.youtube.com/watch?v=NJ2TOv57QYg) (unavailable)
+ [00:32:58](https://www.youtube.com/watch?v=VXzm8ReImG0&t=1978s)
+
+- Lesson objectives
+	- Learn how to create and work with a [[Number Line|number line]] for the [[whole numbers]]
+	- Learn about [[inequality|inequalities]]
+- Whole Numbers: 0, 1, 2, 3, 4, 5, ...
+	- We can use a number line to visually represent the whole numbers:
+	- The 3 dots tells us that the pattern continues forever
+	- We can use a number line to visually represent the whole numbers:
+	- ![[Screenshot 2022-12-12 at 2.37.27 AM.png]]
+		- Leftmost spot is 0
+		- Arrow tells us that the number line continues forever and ever.
+- When we look at a number line, we can see that:
+	- numbers increase from left to 
+		8 is a larger number than 4 because it lies on the right side of the number line
+	- numbers decrease from right to left
+		- If a number lies to the left on the number line, it is smaller than the number to its right.
+		- 0 is a smaller number than 1 because it lies to the left of 1 on the number line
+- The equal sign (=) tells us that two quantities are equal
+	- 6 = 6
+	- 10 + 6 = 16 (we know this is true when simplified)
+		- 16 = 16
+- To say 2 quantities are not equal, write $5\ne4$ 
+	- $3\ne7$ 
+	- 6 + 2 $\ne$ 9
+- < less than symbol (we use this when the quantity on the left is smaller or less than the quantity on the right)
+	- $2 \lt 6$ 
+	- $4 \lt 10$ 
+- If there is a quantity on the left greater than the quantity on the right, we use a > (greater than symbol)
+	- 11 > 2
+	- 9 > 6
+- The symbol points to the smaller number
+- With 3 ? 2
+	- 3 > 2 (because the symbol points to the smaller number)
+	- 1 < 6
+- Practice (Replace each ? with the [[inequality]] symbol < or >)
+	- 1 ? 3
+		- ![[Screenshot 2022-12-12 at 2.46.38 AM.png]]
+			- 1 is on the left side of 3 on the number line
+	- 5 ? 0
+		- ![[Screenshot 2022-12-12 at 2.47.15 AM.png]]
+			- 0 is less than 5 because it is on the left side of 5 on the number line
+	- 9 ? 7
+		- ![[Screenshot 2022-12-12 at 2.47.56 AM.png]]
+	- 2?3
+		- ![[Screenshot 2022-12-12 at 2.48.11 AM.png]]
+	- 8 ? 6
+		- ![[Screenshot 2022-12-12 at 2.48.24 AM.png]]
+			- Point the symbol towards the smaller number

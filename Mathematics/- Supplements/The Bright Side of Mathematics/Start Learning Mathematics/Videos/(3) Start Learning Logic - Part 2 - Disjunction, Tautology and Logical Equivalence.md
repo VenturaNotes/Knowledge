@@ -1,0 +1,24 @@
+[Video](https://www.youtube.com/watch?v=AjdIPOXRgoQ)
+
+- ![[Screenshot 2023-10-11 at 1.59.41 AM.png]]
+	- [[Proposition|logical statements]] A, B $\to$ new logical statements
+	- Given $\lnot A$ and $A \land B$
+		- A and B are considered [[logical variables]]
+		- $\lnot$ and $\land$ are [[logical operations]]
+			- $\lnot$: not operation
+			- $\land$: and operation
+	- [[Logical operations]]
+		- [[Disjunction]]
+			- $A \backslash B$ denotes disjunction
+			- Means "or"
+			- At least one needs to be true
+		- Given $\lnot A \lor A$, it's a [[tautology]] (always true)
+			- (Independent of the truth values of the logical variables that are contained)
+			- Helpful to know if a statement is a tautology because you can just substitute it with "True"
+	- [[Logical equivalence]]: (tells you when you can substitute one formula with another)
+		- Two logical statements are logically equivalent if the [[truth table]] looks the same for both
+		- Two logical statements are called logically equivalent if the truth tables (all possible arrangements of truth values for the logical variables) are the same.
+		- Used to simplify a complicated expression step by step
+	- Example
+		- $\lnot (A \lor B) \iff (\lnot A) \land (\lnot B)$
+			- The double arrow means you can substitute each other without changing the truth value 

@@ -1,0 +1,56 @@
+[Video](https://www.youtube.com/watch?v=mCnaE3zjR5Y)
+[00:49:26](https://www.youtube.com/watch?v=VXzm8ReImG0&t=2966s)
+
+- Lesson objectives:
+	- Learn about the [[identity property of zero]]
+	- Learn about the [[commutative property of addition]]
+	- Learn about the [[associative property of addition]]
+	- Lean to identify the parts of an addition problem
+- [[Addition]] is the operation that allows us to group items together
+	- ![[Screenshot 2022-12-12 at 2.56.48 AM.png]]
+		- 3 boxes + 2 boxes = 5 boxes
+		- Gives total of all amounts that we've combined together
+- In an addition problem, the numbers being added together are called [[Addend|addends]]. ^f5f129
+- The result of an addition operation is known as the [[sum]].
+- Identify each part of the addition problems below
+	- 5 + 6 = 11
+		- 5 and 6 are addends
+		- 11 is the sum
+	- 12 + 8 =  20
+		- 12 and 8 are addends
+		- 20 is the sum
+- The identity property of zero tells us that adding zero to any number, leaves the number unchanged.
+	- 5 + 0 = ? 
+		- 5
+	- 7 + 0 = ?
+		- 7
+	- 1,365,371 + 0 = ?
+		- 1,365,371
+- The commutative property of addition tells us we can add numbers in any order, without changing the sum.
+	- 6 + 3 = 3 + 6
+		- Order changed but will always get 9
+		- 6 + 3 = 9
+		- 3 + 6 = 9
+		- Changing order of addends does not change the sum
+	- 7 + 9 = 9 + 7
+		- 7 + 9 = 16
+		- 9 + 7 = 16
+	- 12 + 5 = 5 + 12
+		- 12 + 5 = 17
+		- 5 + 12 = 17
+- The associative property of addition tells us that the addition of three or more numbers can be grouped in any order without changing the sum.
+	- (3 + 6) + 2 = 3 + (6 + 2)
+		- Must do operations in parenthesis first
+		- 3 + 6 = 9 + 2 = 11
+		- 3 + 8 = 11
+		- Gets the same result either way
+	- 7 + (5 + 2) = (7 + 5) + 2
+		- People say "the quantity" when something is inside a parenthesis
+		- 7 + the quantity 5 + 2
+		- 7 + 7 = 14 (left side)
+		- 7 + 5 = 12 + 2 = 14 (right side)
+		- Grouped differently but got 14 either way
+	- (15 + 9) + 2 = 15 + (9 + 2)
+		- the quantity 15 + 9 = 24 + 2 = 26 (left side)
+		- 15  + the quantity (9+2) is 15 + 11 = 26 (right side)
+		- We have the same 3 numbers being added (15, 9, and 2). We will get 26 no matter how we group the addition

@@ -1,0 +1,33 @@
+[Video](https://youtube.com/watch?v=fes92vSBTg4)
+
+- ![[Pasted image 20230328195405.png]]
+	- Sets
+		- Collections of well defined and distinct objects
+			- Objects are referred to as elements
+		- Used for economic analysis and programming
+			- Team of people
+			- Songs in a playlist
+			- Arrange utensils in a kitchen
+	- All Types
+		- Finite Sets
+		- Infinite Sets
+		- Singleton Sets
+		- Empty Sets
+		- Equivalent Sets
+		- Subsets
+		- Null Sets
+		- Equal Sets
+		- Universal Sets
+	- Forms (and how to interchange between list form and Set Builder Form)
+		- List Form
+		- Set Builder Form
+- ![[Pasted image 20230328195507.png]]
+	- Operations on Sets
+		- Intersection
+		- Union
+		- Difference
+		- Complement
+	- Venn Diagram
+		- Visualisation
+		- Interpretation
+		- Word Problems

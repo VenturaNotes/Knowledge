@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=RmFldaY00qE)
+
+---
+- ![[Screenshot 2023-05-12 at 8.58.12 AM.png|500]]
+- Finding the truth value of a conditional
+	- Recall a conditional statement is of the form "if ..., then ..."
+	- In symbols: $p \implies q$
+	- A truth table would look like
+---
+- ![[Screenshot 2023-05-12 at 9.01.02 AM.png]]
+- Constructing truth tables
+	- Construct a truth table for each statement
+- In the right example, the final column is all trues which makes the statement a tautology
+---
+- [[Tautology]]
+	- The previous example is an example of a tautology
+	- A tautology is a statement that is always true for any truth values of the simple statements.
+---
+- ![[Screenshot 2023-05-12 at 9.05.03 AM.png|500]]
+- Tautology Fun!
+	- Show that `statement` is a tautology by constructing a truth table

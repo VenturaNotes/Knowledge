@@ -1,0 +1,51 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLRlVmXqzHjUQARA37r4Qw3SHPqVXgqO6c
+Length: 35 hours, 24 minutes, 18 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) What Is A Tensor Lesson 1 - Elementary vector spaces]]
+	- [[(2) What is a Tensor Lesson 2 - How to make a map.]]
+
+- Incomplete
+	- [[(3) What is a Tensor 3 - Dual Spaces]]
+	- [[(4) What is a Tensor 4 - Cartesian Products]]
+	- [[(5) What is a Tensor 5 - Tensor Products]]
+	- [[(6) What is a Tensor 6 - Tensor Product Spaces]]
+	- [[(7) What is a Tensor 7 - Rank of a TSP]]
+	- [[(8) What is a Tensor 8 - Linear Transformations]]
+	- [[(9) What is a Tensor 9 - TPS transformations]]
+	- [[(10) What is a Tensor 10 - Metric spaces]]
+	- [[(11) What is a Tensor. Lesson 11 - The metric tensor]]
+	- [[(12) What is a Tensor. Lesson 12 (redux) - Contraction and index gymnastics]]
+	- [[(13) What is a Tensor 13 - Realization of a Vector Space]]
+	- [[(14) What is a Tensor 14 - Vector and Tensor Fields]]
+	- [[(15) What is a Tensor 15 - Coordinate Transformations]]
+	- [[(16) What is a Tensor. Lesson 16 - The metric tensor field]]
+	- [[(17) What is a Tensor. Lesson 17 - The covariant derivative (elementary pedagogy)]]
+	- [[(18) What is a Tensor. Lesson 18 - The covariant derivative continued]]
+	- [[(19) What is a Tensor. Lesson 19 - Algebraic Structures I]]
+	- [[(20) What is a Tensor. Lesson 20 - Algebraic Structures II - Modules to Algebras]]
+	- [[(21) What is a Tensor. Lesson 21 - The Lie derivative]]
+	- [[(22) What is a Tensor. Lesson 22 - Invitation to p-forms]]
+	- [[(23) What is a Tensor. Lesson 23 - Operations on p-forms. The Exterior Algebra.]]
+	- [[(24) What is a Tensor. Lesson 24 - The Exterior Derivative - formal introduction]]
+	- [[(25) What is a Tensor. Lesson 25 - Review of Determinants]]
+	- [[(26) What is a Tensor. Lesson 26 - P-vectors and P-forms Recap]]
+	- [[(27) What is a Tensor Lesson 27 - Formal development of p-forms and p-vectors Part I]]
+	- [[(28) What is a Tensor. Lesson 28 - Formal development of p-forms and p-vectors Part 2]]
+	- [[(29) What is a Tensor. Lesson 29 - Transformations of tensors and p-forms (part review)]]
+	- [[(30) What is a Tensor. Lesson 30 - Transformation of forms - formal study (Part I)]]
+	- [[(31) What is a Tensor. Lesson 31 - Tensor Densities (Part 2 of Tensor Transformations)]]
+	- [[(32) What is a Tensor. Lesson 32 - Tensor density examples. (REDUX)]]
+	- [[(33) What is a Tensor. Lesson 33 and 34 - Duality and Hodge Duality]]
+	- [[(34) What is a Tensor. Lesson 35 - Elementary Hodge Dual Calculations]]
+	- [[(35) What is a Tensor. Lesson 36 - Other Notions of Duality]]
+	- [[(36) What is a Tensor. Lesson 37 - The visualization of forms. Arrows and Stacks]]
+	- [[(37) What is a Tensor. Lesson 38 - Visualization of Forms - Tacks and Sheaves. And Honeycombs.]]
+	- [[(38) What is a Tensor. Lesson 39 - All Possible Operations]]
+	- [[(39) What is a Tensor. Lesson 40 - The End]]
+	- [[(40) What is General Relativity. Special Lecture - Tangent Spaces and Coordinate Basis]]

@@ -1,0 +1,72 @@
+[Video](https://youtube.com/watch?v=p0ZlAHOaJPQ)
+
+- ![[Screenshot 2024-01-23 at 1.11.18 AM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- by the end of this video, participants should be able to
+			- Check that a function is [[1-1]] or [[onto]], and produce counterexamples when it isn't
+			- Give multiple equivalent definitions of [[injection]] and [[surjection]]
+	- Slide 3 - Motivation
+		- Motivation
+			- [[injection|injections]] are special types of functions that don't have any "compression". Injections will be exactly the types of functions that have [[inverse function|Inverse Functions]]
+				- Injections will typically preserve a lot of stuff and won't compress anything
+		- Motivation
+			- Injections will also be used for formally measuring how many elements are in a set (in the [[countability]] section)
+				- e.g. Which has more elements: $\mathbb{Z}$ or (0, $+\infty$)
+					- Set of integers or half-open ray 
+						- (I think this should be just an open ray? At least the way it's represented)
+	- Slide 4 - (1) [[Function]] review
+		- Question. What is the defining characteristic of being a function
+		- Answer: It must not send an input to two outputs
+		- Example
+			- f: $\mathbb{R}$ $\to$ $\mathbb{R}$ defined by f(x) = $x^2$ is a function
+		- Non example
+			- $g(x)$ = $\pm \sqrt{x}$ is not a function as g(2) is both $\sqrt{2}$ and $-\sqrt{2}$ 
+	- Slide 5 - (1) Function review
+		- Informally: "A function passes the [[vertical line test]] (VLT)"
+- ![[Screenshot 2024-01-23 at 1.25.44 AM.png]]
+	- Slide 6 - (2) Motivation
+		- Question: When can we invert/undo functions?
+			- Is the reflection over y=x going to be itself a function?
+			- When reflected, could not be a function
+		- Observation:
+			- When the original function fails the "[[horizontal line test]]", then the reflection will fail the vertical line test
+	- Slide 7 - (3) Definitions
+		- Let f: $A \to B$ be a function
+			- Read as : Let f from a to b be a function
+		- Definition ([[Injection]])
+			- We say that f is an injection (or is injective, or is one-to-one) if
+				- $\forall b \in B$, there is at most one a $\in$ $A$ with $f(a) = b$  
+					- If for every b in the [[codomain]], there is at least one a in the [[Domain (Math)|domain]] where f(a) = b
+					- For every output, there is at most one input that gives it
+			- In this case, we say "f passes the Horizontal Line Test"
+		- Following definition is a version of the horizontal line test
+		- Negation of Injection
+			- A function f: A $\to$ B is not injective if
+				- $\exists b \in B, \exists a_1, a_2 \in A$, such that $a_1 \ne a_2$ and $f(a_1) = b = f(a_2)$ 
+					- There is something in the codomain and there are two things in the domain that are different that give the same output
+	- Slide 8 - (3) Definitions
+		- Let f: A $\to$ B be a function
+		- Definition ([[surjection]])
+			- We say that f is a surjection (or is surjective, or is onto) if
+				- $\forall b \in B$, there is at least one a $\in$ A with f(a) = b
+			- (i.e. "Everything in B is reached")
+				- Everything in the codomain is reached or hit by something in the domain
+		- Negation of surjection
+			- A function f: A $\to$ B is not surjective if
+				- $\exists b \in B, \forall a \in A, f(a) \ne b$
+					- There is something in the codomain such that for everything in the domain, it doesn't reach it. $f(a) \ne b$
+	- Slide 9 - (3) Definitions
+		- Let f: A $\to$ B be a function
+		- Definition ([[bijection]])
+			- We say that f is a bijection (or is bijective) if it is one-to-one and onto
+- ![[Screenshot 2024-01-23 at 1.31.35 AM.png]]
+	- Slide 10 - (4) Examples
+		- Example 1
+			- Let f: $\mathbb{R}$ $\to$ $\mathbb{R}$ be given by f(x) = 2x
+		- one-to-one
+			- In this case, if we have the same output, you need the same input
+		- onto
+		- So f is a [[bijection]]
+	- Slide 11 - (4) Examples
+		- Not one-to-one so fails the HLT
+		- Not onto 

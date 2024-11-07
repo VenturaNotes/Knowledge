@@ -1,0 +1,72 @@
+[Video](https://www.youtube.com/watch?v=YT9CdBacPJg)
+
+- ![[Screenshot 2023-12-13 at 3.48.03 PM.png]]
+	- Slide 1
+		- [[Mathematics]] involves precise language
+			- Use complete sentences
+			- Use words correctly
+		- Example: "The shortest distance between any 2 points is a straight line"
+			- Uses words incorrectly
+				- Distance: nonnegative number
+				- Line is not a number
+	- Slide 2
+		- $\mathbb{Z}$ [[integers]]
+		- Definitions
+			- An integer y is [[even]] provided there exists an integer k such that y = 2k
+			- An integer y is odd provided there exists an integer k such that y = 2k + 1
+		- We may use: $\mathbb{Z}$ say x, y $\in$ $\mathbb{Z}$
+			- $xy, x-y, x+y \in \mathbb{Z}$ 
+			- $\frac {x}{y}$ is not guaranteed to be in $\mathbb{Z}$ 
+	- Slide 3
+		- $\mathbb{Z}$ integers
+		- Definitions
+			- Let a, b $\in$ $\mathbb{Z}$. We say "a [[divides]] b" (written a|b) provided $\exists x \in \mathbb{Z}$ with $ax = b$ 
+				- The idea is that b over a is an integer
+				- $\huge\nmid$ means does not divide
+				- Interestingly 0 $\mid$ 0 is true since 0(1) = 0
+					- Not saying $\frac 00$ is an integer though
+	- Slide 4
+		- $\mathbb{Z}$ Integers
+		- Definitions
+			- When a | b, a is a [[divisor]] or [[factor]] of b. b is a [[multiple]] of a
+			- An integer $p > 1$ is [[prime]] provided the only positive divisors of p are 1 and p
+				- Examples
+					- 2 is the only even prime number
+					- Largest prime number
+						- $2^{82,589,933}-1$ 
+			- An integer $x > 1$ is [[composite]] if it is not prime
+				- Meaning $\exists n$ integer 1 < n < x and n | x
+- ![[Screenshot 2023-12-14 at 2.58.25 AM.png]]
+	- Slide 1
+		- Examples of composites
+		- 0, 1 are both neither prime nor composite
+	- Slide 2
+		- [[Theorem]]: True statement for which there is a proof
+		- Example: 
+			- If f(x) is [[differentiable]] at x = a, then f(x) is [[continuous]] at x=a
+		- Example
+			- [[Diverge]]
+		- These are both of form $p \implies q*$ 
+			- [[Implication]]
+		- In a [[direct proof]] of an implication $p \implies q$
+			- assume p is true
+			- show q is true
+	- Slide 3
+		- Prove for n $\in$ $\mathbb{Z}$ if n is [[odd]] then $n^2$ is odd
+			- Need to work with an arbitrary odd integer
+			- Adding, multiplying or subtracting an integer, you will fall back into the integers
+		- Proof:
+			- Let $n \in \mathbb{Z}$ be odd. Then $\exists x \in \mathbb{Z}$ with $n=2x+1$
+			- Then, $n^2 = (2x+1)^2 = 4x^2 + 4x + 1 = 2(2x^2 + 2x) + 1$
+				- Which is odd as $2x^2 + 2x \in \mathbb{Z}$
+				- Thus, $n^2$ is odd
+- ![[Screenshot 2023-12-14 at 3.12.18 AM.png]]
+	- Slide 1
+		- Prove: for n $\in$ $\mathbb{Z}$ if n is [[even]], then 3n + 8 is even
+	- Slide 2
+		- Prove for a, b $\in$ $\mathbb{Z}$ if a, b are even then 4|(ab)
+		- These proofs read like sentences
+	- Slide 3
+		- Prove for a, b, c $\in$ $\mathbb{Z}$
+		- If a|b and a|c, then a|(b+c)
+		- [[divides]] examples

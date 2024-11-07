@@ -1,0 +1,63 @@
+[Video](https://www.youtube.com/watch?v=SYbUcUn5y8s) (unavailable)
+[03:46:53](https://www.youtube.com/watch?v=VXzm8ReImG0&t=13613s)
+
+- Lesson Objectives:
+	- Learn the terminology associated with [[Exponent|Exponents]]
+	- Learn how to write a repeated multiplication in exponent form
+	- Learn to solve problems that contain exponents
+- 3 x 3 x 3 x 3 x 3 x 3 x 3 = $3^7$ 
+	- Count number of 3s
+	- Tells how many factors of 3 you have
+	- 3 is the base
+	- In exponent form, the base is the number that's being multiplied by itself
+	- 7 is the exponent (tells us how many factors of the base (3) there are )
+- 2 x 2 x 2 = $2^3$ 
+	- Exponent: How many factors of the base you're going to have
+		- Definition for pre-algebra at least
+		- Just think of whole number exponents
+- Any number raised to the power of 1 is just itself
+	- $6^1$ = 6
+	- 12 = $12^1$
+	- $13 = 13^1$ 
+- When we raise something to a power we generally say:
+	- the number to the _ power
+	- $14^7$
+		- 14 to the 7th power
+	- $8^4$
+		- 8 to the 4th power
+	- $9^{13}$ 
+		- 9 to the 13th power
+- Two special cases
+	- When we raise a number to the 2nd power - we say the number is "squared"
+		- $6^2$ 
+			- is 6 squared (to the power of 2)
+	- When we raise a number to the 3rd power - we say the number is "cubed"
+		- $4^3$ 
+			- is 4 cubed (raised to the 3rd power)
+- Let's practice:
+	- Write each in exponent form:
+		- 7 x 7 x 7 x 7 x 7 = $7^5$ 
+		- 6 x 6 x 6 x 6 x 6 x 6 x 6 = $6^7$ 
+		- 9 x 9 = $9^2$ 
+		- 4 x 4 x 4 = $4^3$ 
+	- We also need to be able to reverse this process:
+		- $10^4$ = 10 x 10 x 10 x 10
+		- $9^6$ = 9 x 9 x 9 x 9 x 9 x 9
+		- $12^{10}$ = 12 x 12 x 12 x 12 x 12 x 12 x 12 x 12 x 12 x 12
+		- $5^3$ = 5 x 5 x 5
+	- Evaluate
+		- $2^7$ = 2 x 2 x 2 x 2 x 2 x 2 x 2 = 128
+		- $3^4$ = 3 x 3 x 3 x 3 = 81
+		- $17^2$ = 17 x 17 = 289
+		- $15^2$ = 15 x 15 = 225
+		- $4^5$ = 4 x 4 x 4 x 4 x 4 = 1024
+	- Lastly, let's talk about 10 raised to a whole number larger than zero:
+		- $10^1$ = 10 = 10
+		- $10^2$ = 10 x 10 = 100
+		- $10^3$ = 10 x 10 x 10 = 1000
+		- $10^4$ = 10 x 10 x 10 x 10 = 10,000
+		- Write a 1 followed by the exponent number of zeros
+			- Using this technique can help a lot with large numbers such as $10^{15}$ or $10^{90}$
+		- $10^{11}$ = 100,000,000,000 = 100 billion
+
+

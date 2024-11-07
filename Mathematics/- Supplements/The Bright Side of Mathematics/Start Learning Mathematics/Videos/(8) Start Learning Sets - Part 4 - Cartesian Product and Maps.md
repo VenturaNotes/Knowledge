@@ -1,0 +1,41 @@
+[Video](https://www.youtube.com/watch?v=JoLDwNh1lZ8)
+
+- ![[Screenshot 2023-10-11 at 4.56.40 AM.png]]
+	- [[Cartesian product]]: 
+		- A new set we can form when we have 2 sets
+			- A $\times$ B set of all ordered pairs
+				- Use cross between sets as multiplication sign
+				- Denotes set of all pairs with an order where the first element comes from A and the second element comes from B
+		- Also called product set
+		- $(\Delta, 7)$ would be an [[ordered pair]] in $A \times B$ for this example
+			- So also an element of $A \times B$ 
+		- [[Coordinate Plane|coordinate system]] helps to visualize the ordered pairs we want
+		- How do we get from sets without an order to such an object with an order?
+			- Not a problem. We can define a new symbol by just using sets
+			- Just need set theory to explain such an ordered pair
+	- Definition of [[ordered pair]]: For elements x, y write (x, y) : = {{x}, {x, y}}
+		- Number of elements tells us the position
+	- Definition of [[cartesian product]]
+		- $A \times B$ := {(a, b) | a $\in$ A $\land$ b $\in$ B}
+			- Consider subsets in cartesian product
+				- A subset would be the collection of elements in the plane
+			- Such a chosen subset encodes information about the relation between the two sets
+	- Now we want to define what a [[function]] is
+		- A subset $G_f \subseteq A \times B$ is called a function if
+			- Can describe using quantifiers and element set relation 
+		- For a function, we want a uniquely determined "y" for a given "x"
+- ![[Screenshot 2023-10-11 at 5.07.36 AM.png]]
+	- If also $\forall x \in A: \exists y \in B : (x, y) \in G_f$ is true,
+	- we write: $f: A \to B$ and $f(x) = y$ for $(x, y) \in G_f$ 
+		- Writing it this way, we call the object we get a [[map]]
+			- name we have chosen is f
+		- $f$ is a map from set A into set B
+			- Sometimes we call it a function from A to B
+				- But in general context, always use term "map"
+		- The subset $G_f$ gets a new name, called the [[graph]] of f
+		- Inputs for function f are elements x from A so we call the whole set the [[Domain (Math)|domain]] of f
+			- We have all the potential outputs on the right-hand side so we'll call the set B the [[codomain]] of f
+		- We got out an object that connects the left-hand side to the right-hand side
+		- The restrictions we have for a map only hold for the left-hand side
+			- For an element in A, there is only one arrow allowed that starts there. We need exactly one arrow that starts there
+			- For right-hand side, can leave elements out of game. Can hit some elements more than one time

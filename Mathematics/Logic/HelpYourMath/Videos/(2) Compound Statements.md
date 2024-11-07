@@ -1,0 +1,33 @@
+[Video](https://youtube.com/watch?v=ht255fIb2c4)
+
+---
+- Compound Statements
+	- A compound statement consists of two simple statements, or two ideas.
+	- A compound statement combines the two statements with a connective (such as "and")
+	- Types
+		- Conjunction Statement
+			- A statement with the two statements combined with the word "and"
+			- For example, Louis studied for 5 hours and he got an A
+		- Disjunction Statement
+			- A statement with two statements combined with the word "or"
+			- For example, I should bring a coat or I will get sick
+		- Conditional Statements
+			- A statement is a conditional statement when it is of the form "if p, then q" where p and q are simple statements.
+			- For example, if it rains today, then I will need an umbrella
+		- Biconditional Statements
+			- A statement with the connective "if and only if"
+				- "if and only if" = "iff" abbreviation
+			- For example, I will go to the party if and only if I clean my room
+---
+- Examples
+	- Determine whether the statement is simple or compound. If it is compound, state the type of statement that it is.
+		- Bill <mark style="background: #FFF3A3A6;">and</mark> Jill are obsessed with Breaking bad
+			- Compound Statement, conjunction
+		- Clemson's school colors are orange and purple
+			- Simple statement
+		- I will buy a hybrid or I will buy a scooter
+			- Compound Statement, disjunction
+		- A number is even if and only if it is divisible by 2.
+			- Compound Statement, Biconditional
+		- If it is Halloween, then it must be October
+			- Compound Statement, Conditional

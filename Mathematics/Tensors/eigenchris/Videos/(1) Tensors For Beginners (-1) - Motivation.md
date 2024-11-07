@@ -1,0 +1,48 @@
+[Video](https://www.youtube.com/watch?v=8ptMTLzV4-I)
+
+- ![[Screenshot 2023-09-20 at 12.12.13 AM.png]]
+	- Prerequisites
+		- [[Linear Algebra]] important
+			- Multiply matrices
+			- [[Linear combination]]
+			- [[Dot Product]]
+		- Calculus not too important
+	- Tensors = Geometry
+		- If you understand tensors, you'll get a lot of insight into how geometry works (such as geometry of [[spacetime]] and Einstein's [[general relativity]])
+		- Not too related to high school geometry
+	- [[General Relativity]]
+		- Need tensors to understand these ideas mathematically
+			- Space-time is curved
+				- [[Light]] can travel in a curved path around massive bodies like [[stars]] and [[black holes]]
+			- [[Universe]] is expanding
+				- At the beginning of time, we had the [[Big Bang]] (ever since then the universe has been getting bigger and bigger)
+		- [[Einstein's Field Equations]]
+			- $R_{\mu v} - \frac 12 Rg_{\mu v} + \Lambda g_{\mu v} = \frac {8\pi G}{c^4}T_{\mu v}$
+				- The symbols below are tensors
+					- $R_{\mu v}$
+					- $g_{\mu v}$
+					- $g_{\mu v}$
+					- $T_{\mu v}$
+				- Most important [[tensor]] in [[general relativity]] is $g_{\mu v}$ 
+					- This is called the [[metric tensor]]
+					- It's a 4 by 4 rank 2 tensor
+						- Could also be called a 4x4 matrix
+						- Helps us measure lengths and angles in the curved geometry of space-time
+			- There are 16 equations here
+				- They tell us how space-time is curved and why the universe is expanding
+- ![[Screenshot 2023-09-20 at 12.21.55 AM.png]]
+	- [[Quantum Mechanics]] + [[Quantum Computing]]
+		- Quantum computing is an active field of research these days
+		- If we ever get quantum computers working, they'll be able to solve problems that classical computers we use today can't solve (at least efficiently)
+		- [[Quantum superposition]]
+			- This is the idea that quantum systems can be in two states at once (usually involves example of cat being dead and alive at the same time)
+			- [[Superposition]] is a fancy way of saying [[linear combination]]
+				- $\psi = a \overset \rightarrow v + b \overset \rightarrow w$ 
+					- With linear combination, you have "simpler" vectors and we combine them together using scaling constants and addition to get a more complicated vector $\psi$ 
+				- In quantum mechanics, physical quantum states are actually just vectors (so we can combine simpler states together using linear combinations to give more complicated states)
+		- [[Quantum Entanglement]]
+			- Idea that two particles can become entangled and even if you separate them by hundreds of kilometers, they can still influence each other in strange ways because they're connected using this quantum entanglement property
+			- When two quantum systems entangled together, it means that the [[state vector|state vectors]] have been combined together using something called the [[tensor product]]
+				- $\overset \rightarrow \psi \otimes \overset \rightarrow \phi$ 
+					- $\otimes$ is the tensor product
+				- The tensor product takes the geometrical space where the first system lives and a geometrical space where the second system lives and combines them together to create a more complicated geometrical space (this is where the entangled system lives)

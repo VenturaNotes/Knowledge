@@ -1,0 +1,56 @@
+[Video](https://youtube.com/watch?v=9FtHB7V14Fo)
+
+- Key Words
+	- [[Data]]: <mark style="background: #FFF3A3A6;">Any observations that have been collected</mark>
+		- Talking about observations
+		- Information we're collecting (people from poll, scientific data, numbers)
+		- Any observations we've collected
+		- We collect it,  analyze it, summarize it, interpret it, decisions on interpretations (that's the class of statistics)
+		- Everything we do with it falls under the classification of statistics
+	- [[Statistics]]: <mark style="background: #FFF3A3A6;">Collect, Analyze, Summarize, Interpret, and Draw Conclusions from data</mark>
+		- Set of things we're doing to data
+		- Interpreting and drawing conclusions are the 2 most important parts
+		- Don't want to say to you're boss that you just collected data
+		- Data is useless unless you can use it in your decision-making process
+		- People collect data but don't know what to do with it
+			- Wasted and useless information
+		- Collecting is important. Need to know how to get it (no bias data)
+			- Collecting data doesn't matter if you can't analyze and do the rest later
+	- [[Population (Statistics)|Population]]: <mark style="background: #FFF3A3A6;">The Complete set of Elements Being Studied</mark>
+		- There are 330 million people in the United States
+		- Complete set of all elements to be studied
+		- Everything that belongs in the group you're looking at
+		- Examples
+			- Population of classroom is everyone in it
+			- Population of students in college is everyone attending that college
+			- Population of California is everyone in California
+		- Population is everybody
+	- [[Sample]]: <mark style="background: #FFF3A3A6;">Some subset of a population</mark>
+		- Generally smaller than a population
+		- When there is a poll asking who you're going to be voting for, you're not asking every single American citizen
+		- One subset of a population
+		- Some subset (smaller group) of a population
+		- Won't get a nice cross section (including all different points of view) of America if you just asked your friends who they're voting for
+		- When picking a sample, needs to be random (can't pick out who you want to be in your sample)
+			- Will just get a set of people with similar interests 
+			- Not an appropriate sample
+		- Statistics generally deals with samples
+			- because populations are too big to get information in a timely manner
+		- If you take a survey, you can't pick who you want to be in your sample. Can't bias it (going to people who you think will answer it in a way you want them to.)
+		- If you go someplace conservative, they'll most likely vote for someone with 90% certainty that this presidential candidate would win. And people might change their vote based on that because they want to vote for someone that will win. This might bias peoples' decisions
+		- <mark style="background: #FFF3A3A6;">If you take a sample, it must be collected randomly</mark>
+			- Otherwise it's going to have a bias
+			- Could be something you didn't even anticipate
+	- [[Census]]: <mark style="background: #FFF3A3A6;">Collecting from every member of a population</mark>
+		- Needed to fill mail out
+		- It's the whole population
+	- <mark style="background: #FFF3A3A6;">Types of Data</mark>
+		- [[(P-P) Parameter]]: <mark style="background: #FFF3A3A6;">A characteristic of a population</mark>
+			- Parameters go with populations
+			- If we're talking about hair color and found out  everybody's hair color in America, that would be a parameter. The parameter would be everyone is blond. Characteristic of the entire population
+		- This is what you can collect
+		- If you talk about characteristics of a population, that's called a parameter
+		- [[(S-S) Statistic]]: <mark style="background: #FFF3A3A6;">A characteristic of a sample</mark>
+		- These things could be talking about the same thing
+			- It just depends on what group you're referring to
+			- If we took a sample and talked about those characteristics, then we just refer to them as statistics. Could mean the same thing, but it's just what group you're referring to

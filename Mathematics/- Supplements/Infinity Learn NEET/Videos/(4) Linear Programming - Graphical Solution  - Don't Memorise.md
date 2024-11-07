@@ -1,0 +1,39 @@
+[Video](https://www.youtube.com/watch?v=qQFAvPF2OSI)
+
+- ![[Screenshot 2023-10-16 at 4.00.06 PM.png]]
+	- [[Linear Programming]] Problems
+		- Meaning
+		- Applications
+		- Formulation
+	- [[Optimal solution]]
+		-  The maximum or minimum value of an objective function for the given problem
+	- Problems with two variables can be solved graphically
+	- [[Graphical Method]]
+		- (1)
+			- Maximize z = 20x + 15y (2 decision variables)
+				- Subject to constraints
+				- $200x + 150y \le 50,000$
+				- $x+ = \le 500$
+				- $x \ge 0$
+		- More difficult to solve 3 decision variables graphically
+			- Use the [[simplex method]] instead
+	- To solve a [[linear inequality]] with two variables on a graph, use a coordinate plane
+	- [[Coordinate plane]]
+		- 4 quadrants
+	- Non-negativity constraints (means only first quadrant)
+		- $x \ge 0$
+		- $y \ge 0$
+	- Maximize the profit function: $z = 50x + 18y$ 
+		- Subject to the constraints
+		- For the [[inequality]] $2x + y \le 100$, the [[corresponding equation]] would be $2x + y = 100$
+	- To find the optimal solution
+		- Need to mark [[feasible region]] of the graph
+			- This is the common region determined by all the constraints of a linear programming problem
+			- Each point of a feasible region satisfies the linear inequalities of the problem
+			- Every point within and on the boundary of the feasible region can be the feasible solution for the given problem
+		- Will use [[corner point method]] since there will be many possible solutions for problem
+			- This is used to find the maximum profit
+			- In this method, the solution of a linear programming problem lies on the corner point of a feasible region
+			- The coordinates of the corner points are substituted for the values of x and y in the objective function
+	- [[Bounded feasible region]]?
+	- [[Unbounded feasible region]]?

@@ -1,0 +1,46 @@
+[Video](https://youtube.com/watch?v=hTU3shuWC9Q)
+
+- ![[Screenshot 2023-11-13 at 9.55.04 PM.png]]
+	- Potential Errata
+		- On slide 10 example 1, it doesn't seem true. The solution should be {1, 2, 3}
+	- Slide 8 - Exercise
+		- How many elements does the set B = {0, 1, A} have?
+	- Slide 9 - [[Empty set]]
+		- Definition (empty set)
+			- The set without any elements is called the empty set, and is denoted $\theta$ 
+		- Exercise
+			- How many elements does the set B = {A} have?
+		- Theorem
+			- $\theta \ne \{\theta\}$ 
+			- $\theta$ is a box with nothing in it
+			- $\{\theta\}$ Is a box with a box with nothing in it
+	- Slide 10 - [[Set-builder notation|Set Builder Notation]]
+		- Definition (Set builder notation)
+			- If A is a set, and P(x) is a property of x, then {x $\in$ A : P(x)} is the set of all x $\in$ A such that P(x) is true
+		- Example
+			- (1) This does not seem true. The solution should be {1, 2}
+			- [[rational numbers]]
+		- Important rewording
+	- Slide 11 - [[Set Equality]]
+		- Definition (A = B)
+			- Let A, B be sets. We say A = B if A $\subseteq B$ and B $\subseteq A$ 
+		- Proof technique (A = B)
+			- To show A = B (where A, B are sets), you need to show
+				- (1) A $\subseteq$ B, and
+				- (2) B $\subseteq$ A
+			- Known as the [[double subset technique]]
+		- Alternate proof technique (A = B)
+			- To show A = B (where A, B are sets), you can show
+				- $x \in A \iff x \in B$ 
+		- Warning: Avoid using the alternate technique if you are lazy, since you need to check that every $\iff$ is not just a $\implies$ 
+	- Slide 12 - Exercises #archive
+		- (1) Write out all elements of {x $\in$ $\mathbb{Z}$: $x^2 - 1 < 3$}
+		- (2) Use the definition of subset to prove that {1, 2} $\subseteq$ {0, 1, 2, 3}
+		- (3) Express the even integers using set-builder notation
+		- (4) Let A be a set. Show that $\theta$ $\subseteq$ A
+		- (5) Given an example of sets A, B such that A $\in$ B and A $\subseteq$ B are both true
+	- Slide 13 - Reflection
+		- What is the difference between x $\in$ A and A $\subseteq B$?
+		- Think of a real life example of a set with a subset
+		- Is it possible for A $\subseteq$ B and B $\subseteq$ A? What about x $\in$ A and A $\in$ x?
+		- Is $\theta$ = {$\theta$}? Why or why not?

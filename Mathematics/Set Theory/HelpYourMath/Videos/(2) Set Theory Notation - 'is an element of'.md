@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=blu6-qsV0pY)
+
+---
+- More notation!
+	- $\in$ means "is an element of"
+	- $\notin$ means "is not an element of"
+	- Example: If P is the set of primary colors, then 
+		- Red $\in$ P
+		- Purple $\notin$ P
+---
+- Examples
+	-  Determine whether the following are true or false
+		- 4 $\in$ {x | x is a perfect square}
+			- True
+		- 6 $\in$ {1, 3, 5, 7, 9}
+			- False
+		- $\frac 52$ $\in$ {0, $\frac 12$, 1, $\frac 32$, 2, $\frac 52$, 3}
+			- True
+		- 7 $\notin$ {x | x > 4}
+			- False
+		- Tuesday $\notin$ The set containing the months of the Gregorian Calendar
+			- True

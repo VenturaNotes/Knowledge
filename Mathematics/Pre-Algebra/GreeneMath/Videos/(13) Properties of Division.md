@@ -1,0 +1,131 @@
+[Video](https://www.youtube.com/watch?v=s8x9xruRcqc) (unavailable)
+[02:43:24](https://www.youtube.com/watch?v=VXzm8ReImG0&t=9804s)
+
+- Lesson objectives
+	- Learn how to identify the parts of a [[division]] problem
+	- Learn the [[properties of division]]
+	- Learn how to solve division problems with [[remainder|remainders]]
+- Let's take a look at: 6 $\div$ 3
+	- ![[Screenshot 2022-12-12 at 4.27.57 PM.png|500]]
+	- The 6 is what we start with. We have 6 items/boxes. We are dividing by 3.
+		- We are cutting something. We are splitting it up. To divide by 3, we ask the question: how many equal groups of 3 can I make out of the number 6? 
+		- We get 2 equal groups of 3 that can be made out of the number 6
+	- Could think about this like subtraction
+		- ![[Screenshot 2022-12-12 at 4.29.22 PM.png]]
+			- We are able to subtract 6 by 3 twice, which tells us that 6 $\div$ 3 is 2.
+	- We can see that 3+3 = 2x3 = 6 and 6 $\div$ 3 = 2
+		- ![[Screenshot 2022-12-12 at 4.31.57 PM.png]]
+		- The result "2" in [[division]] is called the [[quotient]]. The "3" is the divisor in division. the "6" is called the [[dividend]]. Taking the quotient and multiplying that by the divisor gives us the dividend
+	- If given 15 $\div$ 3 = ?
+		- We can ask, what number multiplied by 3 equals 15?
+			- ? x 3 = 15
+			- We know the answer is 5 because of our times table. 
+			- Can check our answers with subtraction or drawing 15 boxes and split them up into equal groups of 3
+	- Let's take a look at: 8 $\div$ 2
+		- ![[Screenshot 2022-12-12 at 4.34.25 PM.png]]
+			- How many equal groups of 2 can be made from the number 8?
+		- With subtraction:
+			- 8 - 2 = 6
+			- 6 - 2 = 4
+			- 4 - 2 = 2
+			- 2 - 2 = 0
+			- Did 4 operations to get 0, so the answer to 8 $\div$ 2 would be 4.
+		- By multiplication
+			- 8 $\div$ 2 = ?
+			- We can rewrite it as "? x 2 = 8"
+				- Times table tells us that 4 x 2 = 8 so 8$\div$ 4 = 2.
+- There are three parts to a [[division]] problem
+	- [[Dividend]] - left number, this is the number that is being divided or split into equal groups.
+		- 6 $\div$ 3 = 2
+			- 6 is the dividend
+	- [[Divisor]] - the number we are dividing by
+		- 6 $\div$ 3 = 2
+			- 3 is the divisor
+	- [[Quotient]] - the result of the division operation
+		- 6 $\div$ 3 = 2
+			- 2 is the quotient
+- Label the parts of each division problem:
+	- 10 $\div$ 5 = 2
+		- 10 is the dividend
+		- 5 is the divisor
+		- 2 is the quotient
+	- 20 $\div$ 10 = 2
+		- 20 is the dividend
+		- 10 is the divisor
+		- 2 is the quotient
+- A few important properties:
+	- Division is not commutative!
+		- 6 $\div$ 3 $\ne$ 3 $\div$ 6
+		- Similar to subtraction (6 - 3 $\ne$ 3 - 6)
+	- Zero divided by any nonzero number is always zero.
+		- 0 $\div$ 17 = 0
+			- We know from multiplication that 0 times any number is 0 so rewriting the above would be "0x17=0"
+	- We can never divide by zero. When we see a problem and zero is the divisor, we write the answer as "undefined"
+		- If given 6 $\div$ 0, just say the answer is "undefined". Don't try to solve this problem
+		- If you think about it
+			- 6 $\div$ 0 = ?
+			- We can't find a solution to ? x 0 = 6 because there is no number that works for this
+	- When we divide a number by itself, the result is 1. (except zero)
+		- 4 $\div$ 4 = 1
+			- ![[Screenshot 2022-12-12 at 4.42.21 PM.png]]
+				- You can only make 1 group of 4 with these boxes
+		- 132 $\div$ 132 = 1
+			- If you draw 132 boxes, you can only get 1 equal group of 132 boxes
+	- When we divide a number by one the result is itself.
+		- 5 $\div$ 1 = 5
+		- ? x 1 = 5 (we know the answer is 5)
+			- If you have 5 boxes, you can make 5 groups of 1 so 5 is still the answer
+		- You can do 0 $\div$ 1 = 0. You just can't divide by 0
+- The way we talk about remainders in grammar school is different than remainders in math such as with fractions and decimals
+- What is 7 $\div$ 3?
+	- ![[Screenshot 2022-12-12 at 4.49.24 PM.png]]
+		- The answer to 7 $\div$ 3 = 2 R 1
+			- This says that the answer is 2 with a remainder of 1
+		- It's a little different to check with multiplication when you have a remainder of 1.
+		- By subtraction
+			- 7 - 3 = 4
+			- 4 - 1 = 1 (we need to stop here because going further would be less than 0. Therefore, the remainder is 1)
+			- 1 - 3 = (less than 0)
+		- On a calculator
+			- 7 $\div$ 3 = 2.33333...
+				- The dots shows that it's repeating forever.
+				- We need to know fractions/decimals first before moving forward
+				- The calculator is taking the 1$\div$ 3, and the part after the decimal point is the result
+- 19 $\div$ 8 = 2 R3
+	- By subtraction (did the operation twice with 3 left over so answer is 2 R3)
+		- 19 - 8 = 11
+		- 11 - 8 = 3
+		- ~~3 - 8 = (less than 0)~~
+	- Checking answer
+		- (2x8) + 3 = 19
+		- 16 + 3 = 19
+	- Multiplication (guessing)
+		- ? x 8 = 19?
+			- 1 x 8 = 8
+			- 2 x 8 = 16 (to get to 19 we need 3 more so we have a remainder of 3)
+			- ~~3 x 8 = 24~~ (24 is too big)
+- 21 $\div$ 4 = 5R1
+	- Subtraction method (shows 5 with remainder of 1)
+		- 21 - 4 = 17
+		- 17 - 4 = 13
+		- 13 - 4 = 9
+		- 9 - 4 = 5
+		- 5 - 4 = 1
+		- ~~1 - 4 = less than 0~~
+	- Multiplication
+		- 5 x 4 = 20
+		- 20 + 1 = 21
+	- Working backwards (5 R 1)
+		- ? x 4 = 21
+		- 4 x 4 = 16
+		- 4 x 5 = 20
+		- ~~4 x 6 = 24~~ (24 is too big)
+- 37 $\div$ 3 = 12 R1
+	- Working backwards
+		- ? x 3 = 37
+		- 11 x 3 = 33
+		- 12 x 3 = 36
+		- ~~13 x 3 = 39~~ (too big)
+		- Able to make 12 groups of 3 with 1 remainder
+	- We start with 37 (dividend) split it up into equal groups of 3 (divisor) and get 12 equal groups of 3 with 1 remainder (quotient)
+		- Checking: (12 x 3) + 1 = 37

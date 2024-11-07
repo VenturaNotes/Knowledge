@@ -1,0 +1,27 @@
+[Video](https://www.youtube.com/watch?v=aDc5NQONriM)
+
+- Four data types of measured variables
+	- Top to bottom from less information to more information (data your collecting contains more information as you move downward)
+		- Nominal
+		- Ordinal
+		- Interval
+		- Ratio
+- Why does it matter?
+	- Different types of data allow for different types of data analysis
+- Nominal
+	- Nominal data (also known as qualitative/categorical data) is data that is split into categories
+		- For example: what kind of data would you collect for the variable "Color"? You would end up with information such as "red", "green", "blue", and so on. This qualitative information is called nominal data.
+- Ordinal
+	- Ordinal data is data where order matters, but distance between values does not.
+		- For example: imagine three people in a race. One finishes in 1st place, one in 2nd place, and the last in 3rd place. This data can be placed in order, but we can't necessarily measure the distance between values (maybe 1st place finished four seconds ahead of 2nd place, and 2nd place finished nineteen seconds ahead of 3rd place)
+- Interval
+	- Interval data is data where order matters, and distances between values are equal and meaningful, and a natural zero is not present.
+		- For example: temperature is interval data. The difference between 10 degrees and 20 degrees is 10 degrees. The difference between 80 degrees and 90 degrees is 10 degrees. The scale at any given point is constant, and it is not possible to have a measurement of 0 degrees (Fahrenheit).
+- Ratio
+	- Ratio data is data where order matters, distances between values are equal and meaningful, and a natural zero is present.
+		- For example: weight is ratio data. The difference between 140 pounds and 155 degrees is 15 pounds. The difference between 280 pounds and 295 pounds is 15 pounds. The scale at any given point is constant, and it is possible to have a measurement of 0 pounds.
+- Important Terms
+	- Nominal Data
+	- Ordinal Data
+	- Interval Data
+	- Ratio Data

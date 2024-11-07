@@ -1,0 +1,44 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLBh2i93oe2qsGKDOsuVVw-OCAfprrnGfr
+Length: 5 hours, 11 minutes, 7 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Functional Analysis - Part 1 - Metric Space]]
+	- [[(2) Functional Analysis - Part 2 - Examples for metrics]]
+	- [[(3) Functional Analysis - Part 3 - Open and closed sets]]
+	- [[(4) Functional Analysis - Part 4 - Sequences, limits and closed sets]]
+	- [[(5) Functional Analysis - Part 5 - Cauchy sequences and complete metric spaces]]
+	- [[(6) Functional Analysis - Part 6 - Norms and Banach spaces]]
+	- [[(7) Functional Analysis - Part 7 - Examples of Banach spaces]]
+	- [[(8) Functional Analysis - Part 8 - Inner Products and Hilbert Spaces]]
+	- [[(9) Functional Analysis - Part 9 - Examples of Inner Products and Hilbert Spaces]]
+	- [[(10) Functional Analysis - Part 10 - Cauchy-Schwarz Inequality]]
+	- [[(11) Functional Analysis - Part 11 - Orthogonality]]
+	- [[(12) Functional Analysis - Part 12 - Continuity]]
+	- [[(13) Functional Analysis - Part 13 - Bounded Operators]]
+	- [[(14) Functional Analysis - Part 14 - Example Operator Norm]]
+	- [[(15) Functional Analysis - Part 15 - Riesz Representation Theorem]]
+	- [[(16) Functional Analysis - Part 16 - Compact Sets]]
+	- [[(17) Functional Analysis - Part 17 - Arzelà–Ascoli theorem]]
+	- [[(18) Functional Analysis - Part 18 - Compact Operators]]
+	- [[(19) Functional Analysis - Part 19 - Hölder's Inequality]]
+	- [[(20) Functional Analysis - Part 20 - Minkowski inequality]]
+	- [[(21) Functional Analysis - Part 21 - Isomorphisms.]]
+	- [[(22) Functional Analysis - Part 22 - Dual spaces]]
+	- [[(23) Functional Analysis - Part 23 - Dual space - Example]]
+	- [[(24) Functional Analysis - Part 24 - Uniform Boundedness Principle  and  Banach–Steinhaus Theorem]]
+	- [[(25) Functional Analysis - Part 25 - Hahn–Banach theorem]]
+	- [[(26) Functional Analysis - Part 26 - Open Mapping Theorem]]
+	- [[(27) Functional Analysis - Part 27 - Bounded Inverse Theorem and Example]]
+	- [[(28) Spectral Theory 1 - Spectrum of Bounded Operators (Functional Analysis - Part 28)]]
+	- [[(29) Spectral Theory 2 - Spectrum of  Multiplication Operator (Functional Analysis - Part 29)]]
+	- [[(30) Spectral Theory 3 - Properties of the spectrum (Functional Analysis - Part 30)]]
+	- [[(31) Spectral Theory 4 - Spectral Radius (Functional Analysis - Part 31)]]
+	- [[(32) Spectral Theory 5 - Normal and Self-Adjoint Operators (Functional Analysis - Part 32)]]
+	- [[(33) Spectral Theory 6 - Spectrum of Compact Operators (Functional Analysis - Part 33)]]
+	- [[(34) Spectral Theory 7 - Spectral Theorem for Compact Operators (Functional Analysis - Part 34)]]

@@ -1,0 +1,54 @@
+[Video](https://www.youtube.com/watch?v=bpuE_XmWQ8Y)
+
+- ![[Screenshot 2023-09-27 at 10.30.11 AM.png]]
+	- Forward & Backward Transformations
+		- Rules that let us move back and forth between different coordinate systems
+		- [[tensor|Tensors]] are invariant under a coordinate system change
+	- [[Forward Transformation]]
+		- Two 2-dimensional coordinates systems
+			- An old basis
+			- A new basis
+				- $\overset{\overset{\sim}\rightarrow}{e_1}$ 
+					- Read as "e1 tilde"
+		- A [[basis]] is the set of vectors that give us the main coordinate directions for our space
+			- So we have the old and new coordinate systems or the old and new basis
+		- Need to build new basis vectors from old basis vectors
+			- Wrote new basis vectors as [[linear combination|linear combinations]] of the old basis vectors
+			- Could write 4 numbers in a 2x2 matrix called F (Forward)
+				- Arrangement flipped about main diagonal 
+					- Going to arrange basis vectors as rows that multiply matrices from the left
+					- When writing equations to change basis in matrix form, [[basis vectors]] are written in a row multiplied from the left
+						- Therefore, the numbers in the forward matrix are flipped about the diagonal compared to the equations
+		- If we have matrix F, then we know everything we need to construct the new basis from the old basis
+	- [[Backward Transformation]]
+		- Build old basis vectors using new basis vectors
+		- Can store it in matrix "B" for Backward which would be the backward transformation
+	- If you multiply FB, you'll get the identity matrix (where B = $F^{-1}$)
+		- Creator naming the transformations with F and B rather than F and $F^{-1}$
+	- These examples were shown in 2-dimensions
+- ![[Screenshot 2023-09-27 at 11.15.45 AM.png]]
+	- To build new basis vectors from old basis vector, we choose the right [[coefficients]] so the [[linear combination|linear combinations]] works out properly
+		- Can write coefficients in an $n \times n$ matrix
+	- Forward transformation in n-dimensions
+		- $\overset{\overset{\sim}\rightarrow}{e_i} = \Sigma_{j=1}^n F_{ji} \overset\rightarrow{e_j}$
+	- Backwards transformation in n-dimensions
+- ![[Screenshot 2023-09-27 at 11.18.50 AM.png]]
+	- With summation formulas, free to relabel the summation index letters without changing meaning of formula as long as we rename the index letters consistently
+	- Can flip order of factors in summation since they're just numerical coefficients
+- ![[Screenshot 2023-09-27 at 12.28.47 PM.png]]
+	- Proving they're inverses
+	- Building old basis vectors using summation of old basis vectors
+		- Get diagonal of 1s
+		- [[Kronecker Delta]]
+			- $\delta_{ik}$ = $\begin{cases} 1 & \text {if } i = k \\ 0& \text{if } i \ne k \end{cases}$
+				- A bit like telling you the entries of what the identity matrix is
+				- 1 is where row is equal to column
+				- 0 everywhere else
+- ![[Screenshot 2023-09-27 at 12.30.49 PM.png]]
+	- Summary
+		- Learned formulas for forward and backward transformations in n-dimensions
+		- Showed that the forward and backward transformations are inverses of each other
+			- When multiplying the FB matrices, we get the identity matrix (whose entries are given by the Kronecker Delta symbol)
+- ![[Screenshot 2023-09-27 at 12.32.27 PM.png]]
+	- Next video will be about [[vector components]] which allows to build [[generic vectors]] out of [[basis vectors]] where the components are normally written as columns
+	- Forward and backward matrices will transform the columns (as shown at bottom)

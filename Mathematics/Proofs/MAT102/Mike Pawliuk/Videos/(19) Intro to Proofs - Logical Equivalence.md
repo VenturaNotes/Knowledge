@@ -1,0 +1,33 @@
+[Video](https://youtube.com/watch?v=XdXgDnuvNDg)
+
+- ![[Screenshot 2024-01-16 at 10.08.55 AM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to
+			- (1) Show that two formulas are logically equivalent
+			- (2) Prove that a statement is a [[tautology]] or a [[contradiction]]
+	- Slide 3 - Motivation
+		- Motivation
+			- There are usually many ways to express the same thing. We want to know when two things are expressing the same (mathematical) information.
+		- Definition
+			- Let A and B be two mathematical statements made up of P and Q (and logical connectives). We say that A and B are [[logically equivalent]] if A and B have the same truth values for all choices of P and Q
+		- For example proof
+			- Column 1 (the truth values of P) and column 3 (the truth values of $\lnot$ $\lnot$ P) are identical, therefore P and $\lnot \lnot$P are logically equivalent by definition
+	- Slide 4 - Example 2
+		- Definition ([[contrapositive]])
+			- $\lnot Q$ $\implies$ $\lnot P$ is called the contrapositive of P $\implies$ Q
+	- Slide 5 - (Non-) Example 3
+		- [[Converse]] (not logically equivalent to implication)
+		- Human example: "If it rains, then it will be wet" is not the same as "If it is wet, then it rains"
+- ![[Screenshot 2024-01-16 at 10.35.10 AM.png]]
+	- Slide 6 - Tautologies and Contradictions
+		- Exercise
+			- Compute the truth tables of the statements $P \land (\lnot P)$, and P $\lor$ ($\lnot P)$ 
+		- Since P $\land$ $\lnot$ P is always false, it is called a [[contradiction]]. Since P $\lor$ $\lnot P$ is always true, it is called a [[tautology]]
+	- Slide 7 - Exercises
+		- Are the following statements contradictions, tautologies, or neither?
+	- Slide 8 - Reflection
+		- Why might someone prefer to use the contrapositive of an implication, instead of the original implication
+		- What happens when you take the contrapositive of the contrapositive?
+		- Construct your own tautology and contradiction
+		- Do we need brackets when referring to (P $\implies$ Q) $\implies$ R, or is this the same as P $\implies$ (Q $\implies$ R)?
+		- In English, why would someone say "I'm not not eating cookies right now", instead of "I'm eating cookies right now"

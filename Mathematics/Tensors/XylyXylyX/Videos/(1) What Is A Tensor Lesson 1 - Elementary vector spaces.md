@@ -1,0 +1,88 @@
+[Video](https://www.youtube.com/watch?v=_pKxbNyjNe8)
+
+- ![[Screenshot 2023-09-29 at 3.21.56 PM.png]]
+	- [[Vector]]
+		- Will learn how to get from vector to [[tensor]]
+	- Vectors in [[electromagnetism]]
+	- Vector Properties
+		- [[Dot product]]
+		- [[Cross product]] (to produce a third vector)
+	- A [[vector]] is an element of a set
+		- This set is known as a [[vector space]] {VS}
+		- A [[vector space]] is a set and every element in it is a vector
+			- If you come out of this space, you're a vector
+	- Properties of [[vector space]]
+		- Must have an operation called [[vector addition]]
+			- Will always get a vector result when adding vectors together (only works for vectors in set)
+			- The result will also be a vector in the vector space
+		- Need to be able to reach into a bucket of numbers (real numbers)
+			- Should be able to multiply any vector in the vector space by a real number
+				- Known as [[scalar multiplication]]
+					- Any scalar $\times$ vector is also a vector in the vector space
+				- Numbers that come out of the $\mathbb{R}$ are called [[scalars]]
+		- If a vector space uses the real numbers bin, they're called [[real vector spaces]]
+		- If a vector space uses the complex numbers bin, they're called a [[complex vector space]]
+		- Need to choose which bin
+		- For [[general relativity]], will always choose real vector spaces for now
+			- There are some complex vector spaces in general relativity, but not anything being talked about in these lectures
+		- [[Linearity Property]]
+			- Since we know that $a\vec w + b\vec v = \vec z$ (due to the addition vector property and scalar multiplication, we know that the addition of 2 terms that are the result of scalar multiplication will also be a vector in the real vector space.)
+			- $a\vec w +a\vec t = a(\vec w + \vec t)$
+				- Means that the vector space is linear
+			- Encompasses both vector addition property and scalar multiplication property
+		- $a\vec w +a\vec t = a^2(\vec w + \vec t)$
+			- This is true for some exotic forms of spaces but not the ones we're talking about
+		- 0 is always a vector in every vector space
+			- Given $\vec w$, we'll always have $\overrightarrow {-w}$ 
+				- And $\vec w + (\overrightarrow {-w}) = 0$
+			- Every vector must have it's opposite
+				- $\overrightarrow{-1w} = \overrightarrow{-w}$
+	- We have vector space $V$, we have vector addition property, scalar multiplication property from real numbers, and we know it's linear
+		- There are only 4 kinds of vector spaces (anything other then those is more of a mathematical generalization of the concept)
+			- [[Real vector space]]
+			- [[Complex vector space]]
+			- [[Quaternionic vector space]]
+			- [[Octonionic vector space]]
+- ![[Screenshot 2023-09-29 at 3.35.56 PM.png]]
+	- Almost always talking about real or complex vector spaces (instead of the others)
+	- Complex vector spaces important in [[quantum mechanics]]
+		- In [[general relativity]], we're dealing with real vector spaces
+	- To tell the difference between 2 real vector spaces is the dimension of that space
+		- For example
+			- Given vector space V of real numbers and the vector space W of real numbers, you can add the vectors in V together and add the vectors in W together but you may not add the vector from V and a vector from W.
+				- There is no defined operation that adds elements from V and elements from W. It does not exist. We could define something like that, but that's not what we're doing. We're just creating addition properties for individual vector spaces
+	- [[Basis vectors]] not unique in vector spaces
+		- Not unique because if $\vec w$ is a basis vector, $a \vec w$ would also be a basis vector
+			- Could just rescale it by choosing another real number
+		- The number of basis vectors is unique
+			- We want the minimal number that can capture every vector in the vector space
+				- In the case shown, the minimal number is 4
+					- $q = aw + bp + cn + do$ 
+				- Therefore, the dimension of the vector space is 4 because the linear combination of q has 4 basis vectors
+		- Will use the dimension of 4 for all of our work because 4 is the dimensions for [[spacetime]]
+			- Since we're shooting for general relativity, we're going to talk about 4-dimensional vector spaces
+	- If vector spaces V and W both have a dimension of 4, the only difference between them is that they're named differently.
+		- The differences between the two vector spaces is entirely superficial
+		- We call that [[isomorphic]]
+			- Two vector spaces are isomorphic if you can establish a [[one-to-one correspondence]] between the two and if operations in one vector space is in correspondence to operations in the other vector space
+		- Other than the name, the two vector spaces are mathematically very similar
+			- Would have to come up with ways to distinguish them
+- ![[Screenshot 2023-09-29 at 3.51.02 PM.png]]
+	- Elementary properties that all [[vector spaces]] must have
+		- Must be defined by vector addition
+		- Must be defined by scalar multiplication generally from real numbers
+		- Must be linear
+		- Must have a dimension (for us it's 4)
+	- Advanced stuff that's added to vector spaces (not elementary properties)
+		- [[Dot product]] does not exist in vector space
+			- Turning 2 vectors into a real number
+				- $v\cdot w \in \mathbb{R}$
+		- [[Cross product]] does not exist in a vector space
+			- Produces another vector (but not necessarily in the same vector space)
+				- $v \times w \in \mathbb{R}$
+		- No notion of squared magnitude
+			- $|v|^2 = v \cdot v$ 
+	- Very few things in the world are actually purely elementary vector spaces
+	- All vector spaces are [[elementary vector spaces]]
+		- If they don't have the the elementary properties, they're not vector spaces at all. However, they can have other properties such as [[Dot Product|dot products]], [[Cross product|cross products]], and [[magnitude|magnitudes]]
+	- Next lecture will be about building [[maps]] between vector spaces

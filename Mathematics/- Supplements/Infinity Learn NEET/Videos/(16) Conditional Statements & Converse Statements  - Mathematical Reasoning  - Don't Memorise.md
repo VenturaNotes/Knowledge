@@ -1,0 +1,22 @@
+[Video](https://www.youtube.com/watch?v=C64fHC1hCxA)
+
+- ![[Screenshot 2023-10-25 at 6.44.40 PM.png]]
+	- Learned about compound statements in previous video and how to check their validity
+		- [[Compound statement]]
+	- Now checking [[conditional statement]]
+		- Statements with if, then are conditional statements
+		- Condition $\to$ Outcome
+			- "If p then q"
+				- p is the condition
+				- q is the outcome
+			- The occurrence of p implies the occurrence of q
+			- 'p implies q' means if p happens, then q will definitely happen
+	- Conditional statements may be of the form
+		- p only if q
+		- p if and only if q
+- ![[Screenshot 2023-10-25 at 6.49.57 PM.png]]
+	- [[Converse statement]]
+		- This is not always true from the original conditional statement
+	- If Ronaldo plays well, then Juventus will win
+		- Ronaldo playing well is one of the sufficient conditions for Juventus to win but not the only one. Therefore, the converse is not true because there are other conditions where Juventus will win
+	- Will learn about inverse statements and contrapositive statements in next video

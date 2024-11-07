@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=n9VfagDOvWM)
+
+- Practice with set operations
+---
+- Review of Terms
+	- The cardinal number, or cardinality, of a set is the number of elements in that set.
+		- We use the notation n(A) to represent the cardinal number
+			- n(A) is pronounced "n of A"
+		- If A = {1, 2, 5}, then n(A) = 3
+	- The intersection of two sets is the set of elements that are in <mark style="background: #FFF3A3A6;">both</mark> sets.
+		- We use the notation $A \cap B$ to represent the intersection of sets A and B
+		- If A = {1, 2, 5} and B = {3, 4, 5} then A $\cap$ B = {5} and n (A $\cap$ B) = 1
+	- The union of two sets if the set of elements that are found in either of the given sets (or both).
+		- We use the notation $A \cup B$ to represent the union of sets A and B.
+		- If A = {1, 2, 5} and B = {3, 4, 5} then $A \cup B$ = {1, 2, 3, 4, 5} and n (A $\cup$ B) = 5
+---
+- ![[Screenshot 2023-05-14 at 5.09.43 AM.png|500]]
+- The Venn Diagram shows the cardinal number of each region. Use that to answer the following questions.
+---
+- ![[Screenshot 2023-05-14 at 5.14.46 AM.png|500]]
+- The Venn Diagram shows the cardinal number of each region. Use that to answer the following questions.
+	- For $n(B \cup C)$, could just do 38-4 to get 34. Finding the complement helps

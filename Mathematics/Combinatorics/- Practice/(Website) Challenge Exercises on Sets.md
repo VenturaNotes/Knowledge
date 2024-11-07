@@ -1,0 +1,47 @@
+---
+Source:
+  - https://www.mathgoodies.com/lessons/sets/challenge_unit15
+Length: "1"
+tags:
+  - status/complete
+  - type/website
+Published: true
+---
+- What is wrong with the set listed below? D = {m, a, t, h, e, m, a, t, i, c, s}
+	- ![[Screenshot 2023-01-02 at 2.53.42 PM.png]]
+- Which of the following statements is true about the set listed below? C = {prime numbers less than 20}
+	- ![[Screenshot 2023-01-02 at 2.54.34 PM.png]]
+- Which of the following is a finite set?
+	- ![[Screenshot 2023-01-02 at 2.54.55 PM.png]]
+- Which of the following sets is equal to the set given below? {$n \in \mathbb{Z} | -3 \le n \lt 7$}
+	- ![[Screenshot 2023-01-02 at 2.55.59 PM.png]]
+- How many subsets of M are there? M = {a, e, i, o, u}
+	- ![[Screenshot 2023-01-02 at 2.56.48 PM.png]]
+		- This is because 2^# of elements in set = 32
+- If $\textbf{U}$ = {whole numbers less than 20} and $\mathbf{P}$ = {prime numbers less than 20}, then which of the following sets overlaps with $\textbf{P}$, and is also a part of $\mathbf{U}$?
+	- ![[Screenshot 2023-01-02 at 3.09.00 PM.png]]
+	- A set overlaps with another set when there is at least 1 element that intersects
+	- A set is part of another set when it is a subset of that set
+	- (Subset of) Whole Numbers less than 20
+		- 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+	- (Overlap) Prime numbers less than 20
+		- 2, 3, 5, 7, 11, 13, 17, 19
+	- Options
+		- Even numbers less than 20
+			- 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+				- Subset of U and part of P
+		- Multiples of 4
+			- 4, 8, 12, 16, 20
+				- Subset of U but not part of P
+		- Factors of 36
+			- 1, 2, 3, 4, 6, 9, 12, 18, 36
+				- Not a subset of U but part of P
+- Which of the following accurately explains the meaning of the set listed below? $\{y \in \mathbb{R} : y \leq -3\}$
+	- ![[Screenshot 2023-01-02 at 3.11.56 PM.png]]
+- Which of the following statements is true?![[Screenshot 2023-01-02 at 3.12.13 PM.png]]
+	- ![[Screenshot 2023-01-02 at 3.13.25 PM.png]]
+- If A $\subset$ B, then which of the following statements is true?
+	- ![[Screenshot 2023-01-02 at 3.14.01 PM.png]]
+		- $\varnothing$ is always a subset of any set but not necessarily an element
+- If A $\subset$ B, then which of the following statements is true?
+	- ![[Screenshot 2023-01-02 at 3.15.05 PM.png]]

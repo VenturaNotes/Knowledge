@@ -1,0 +1,118 @@
+[Video](https://youtube.com/watch?v=6yusB-muawU)
+
+- ![[Screenshot 2024-07-23 at 10.51.38 PM.png]]
+	- Main topic of course is [[topological space|topological spaces]]
+		- It is simply a set equipped with some additional structure which lets us talk about geometrical properties of the space
+	- Good to review basic [[set theory]]
+		- Want to make sure we use the same notation for sets
+	- A [[set]] is a collection of some objects (elements of the set)
+		- Will denote sets with capital letters (set A)
+		- Elements of sets denoted by lowercase letters (element x and y)
+	- Some sets will be appearing over and over again in the course
+	- Frequently used sets:
+		- $\varnothing$ = the [[empty set]] (i.e. the set that contains no elements)
+			- Smallest set of them all
+		- $\mathbb{N}$ = {0, 1, 2, ...} the set of [[natural numbers]]
+		- $\mathbb{Z}$ = {..., -2, -1, 0, 1, 2, ...} the set of [[integers]]
+		- $\mathbb{Z}^+$ = {1, 2, 3, ...} the set of [[positive integers]]
+		- $\mathbb{Q}$ = the set of [[rational numbers]]
+			- All the numbers that can be represented as fractions of integers (or ratios of integers)
+			- Positive and negative integers
+			- Contains [[proper fraction|proper fractions]]
+				- $\frac {1}{2}$
+				- $\frac{-10}{13}$
+		- $\mathbb{R}$ = the set of [[real numbers]]
+			- All numbers that can be represented on the real line
+			- Integers, fractions, and irrational numbers ($\sqrt{2}$ and $\pi$)
+	- We will write x $\in$ A to denote that x is an element of the set A and y $\notin$ A to indicate that y is not an element of A
+	- 1.1 Definition. A set B is a [[subset]] of a set A if every element of B is in A. In such case we write B $\subseteq$ A
+		- A special case of this relation being a subset is that A is always a subset of itself ($A \subseteq A$)
+	- A set B is a [[proper subset]] of A if B $\subseteq$ A and B $\ne$ A
+		- A proper subset means its a subset which is not equal to the whole set
+	- [[Empty set]]
+		- This is a subset of anything as it doesn't contain any elements
+		- $\varnothing \subseteq \mathbb{N} \subseteq \mathbb{Z} \subseteq \mathbb{Q} \subseteq \mathbb{R}$ 
+			- Empty set is a subset of the natural numbers which is a subset of the integers which is a subset of the rational numbers which is a subset of the real numbers.
+			- The inclusions are inclusions of proper subsets because as we go from each of the sets to the next, the next set is strictly larger than the previous one
+- ![[Screenshot 2024-07-24 at 2.20.14 AM.png]]
+	- Real numbers will be appearing very frequently in this course. We will be working with subsets of real numbers which are given by various types of intervals
+		- [[Open interval]]
+			- All real numbers [[strictly]] larger than a and strictly smaller than b
+			- Geometrically, this is giving interval of real lines stretching from a to b
+			- Open circle and parentheses
+		- [[Closed interval]] (includes endpoints)
+			- Greater than or equal to a and smaller than or equal to b 
+			- closed circles and square brackets
+			- The [[endpoint|endpoints]] a and b are included in interval
+		- [[Half-open Interval|half open interval]]
+			- Also half closed intervals
+	- 1.4 Definition. The [[union]] of sets A and B is the set A $\cup$ B that consists of all elements that belong to either A or B:
+	- The [[intersection]] of sets A and B is the set A $\cap$ B that consists of all elements that belong to both A and B
+	- 1.7 Definition. If A $\cap$ B = $\varnothing$ then we say that A and B are [[disjoint sets]]
+		- Saying that sets are disjoint means that the intersection of the sets is an empty set
+	- Definition 1.4 can be extended to unions and intersections of arbitrary [[family of sets|families of sets]]. If $\{A_i\}_\in I$ is a family of sets then
+		- $\{A_i\}_\in I$ (the family of sets is $A_i$. This family can be finite or infinite. Can consist arbitrary number of sets)
+			- $\bigcup_{i \in I} A_i = \{x | x \in A_i \text{ for some } i \in I\}$
+				- Union of family is a set consisting of all elements that belongs to any of sets of family. Take all elements of individual sets, putting them in a single bag giving a new set. This new set is what we call a union of this family of sets
+			- $\bigcap_{i \in I} A_i = \{x | x \in A_i \text{ for all } i \in I\}$
+				- Intersection of family of sets defined same way. Intersection of family is all elements which belong to all sets in family. Common part of all sets. Elements which belongs to all individual sets at the same time.
+					- #question what exactly is a family in terms of sets?
+		- It can be generalized to an arbitrary family of sets
+- ![[Screenshot 2024-07-24 at 2.44.33 AM.png]]
+	- 1.10 Definition. The [[difference]] of sets A and B is the set $A \backslash B$ consisting of the elements of A that do not belong to B:
+		- $A \backslash B = \{x | x \in A \text{ and } x \notin B\}$
+			- Consists of elements that belong to A but not B
+		- This is another operation we can perform
+	- 1.12 Definition. If A $\subseteq$ B, then the set B $\backslash$ A is called the [[complement]] of A in B
+		- All elements of B outside subset of A
+	- 1.13 Properties of the algebra sets
+		- [[Distributivity]] #question practice problems would be good
+			- $(A \cap B) \cup C = (A \cup C) \cap (B \cup C)$
+			- $(A \cup B) \cap C = (A \cap C) \cup (B \cap C)$
+			- These are the distributive properties of union and intersection
+		- [[De Morgan's Laws]] #question practice problems would be good
+			- $A \backslash (B \cup C) = (A \backslash B) \cap (A \backslash C)$
+			- $A \backslash (B \cap C) = (A \backslash B) \cup (A \backslash C)$
+				- Proving this one as an example. Used proof in pictures
+			- Relates union, intersection, and difference of sets
+	- 1.14 Definition. The [[Cartesian product]] of sets A,B is the set consisting of all ordered pairs of elements of A and B:
+		- $A \times B = \{(a,b)| a \in A, b \in B\}$
+			- Consists all pairs a, b where the first coordinate of the pair comes from set A and the second coordinate comes form set B
+			- Set of all possible combinations of one element from set A and another element of set B
+			- #question would be great to see an example problem with this
+	- 1.16 Notation. Given a set A by $A^n$ we will denote the n-fold cartesian product of A:
+		- $A^n = \underbrace{A \times A \times ... \times A}_\text{n times}$
+			- n is some positive number
+			- Will consist of all the n-tuples where all individual coordinates are coming from the set A itself
+				- #question more about n-tuples. What is it?
+			- Will see this most frequently with $\mathbb{R}^n$ nth power of set of real numbers multiplied by itself n times. Elements of this set will be n-tuples $r_1 ... r_n$. The $r_i$  would be a real number in this case
+		- #question what does n-fold cartesian product mean?
+		- #question would be great to see an example problem using this
+- ![[Screenshot 2024-07-24 at 3.10.51 AM.png]]
+	- $A_1 \times A_2 \times \cdots \times A_n$ = $\Pi_{i=1}^nA_i$ 
+		- Big $\Pi$ is a symbol for product
+			- Simpler way to show all the sets we're multiplying.
+			- Alternative notation of denoting those cartesian products
+			- #question more practice
+		- If we are taking a product of finitely many sets, elements of that are just n-tuples $(a_1, a_2, \cdots, a_n)$ 
+	- 1.18 Infinite products 
+		- From time to time, will have to deal with products of sets that don't just involve finite number of sets but involves an infinite number of products
+		- Will have a family of sets and form a product of all sets in the family
+		- How to think of elements of infinite products
+			- We can write elements of $A_1 \times A_2 \times \cdots \times A_n$ as functions
+				- We take all the functions f which go from the indices of those sets. The indices are the numbers 1 through n. To the set which is the union of the individual sets we're multiplying. However, we are only looking at the functions such that f(i), taking the $i^{th}$ index gives us something that belongs to the $i^{th}$ set in the union
+				- Any element of cartesian product is automatically giving a function. If we have the functions, it automatically gives us an n-tuple. Writing n-tuples and functions is one of the same thing
+					- Could think about elements of cartesian product as functions of this sort
+			- Now what happens if we have infinite product of functions?
+				- Lets say we have a product of any number of sets $A_i$. We can think of them as functions. Functions that will be going from the set of indices "I" to the union of the sets we're multiplying and we need the condition that the value of the function at index i in "f(i)" must belong to the set $A_i$. The $i^{th}$ element is going to the $i^{th}$ set. This lets us formally think about elements of products of arbitrary number of sets
+					- #question need to understand functions better
+					- #question Need to understand how functions and sets are related
+					- #question need to understand how function mapping works
+					- #question need to understand function notation better
+					- #question elements of products of arbitrary number of sets
+					- #question understand infinite products better
+				- Less formally, can think about each of those functions as giving you a tuple of elements which is indexed by the individual indices.
+					- The value of the function is one of those elements of the sets. This will give the $i^{th}$ coordinate of the tuple
+						- $f(i) = Q_i$ 
+					- #question Talking about infinite sets using functions. Understand this better?
+		- Infinite products will show up later in course

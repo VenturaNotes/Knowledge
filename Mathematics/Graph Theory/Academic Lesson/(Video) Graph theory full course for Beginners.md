@@ -1,0 +1,50 @@
+---
+Source:
+  - https://youtu.be/sWsXBY19o8I?si=0JeIAhXvMxY2x26Z
+Length: 1 hour, 17 minutes, 17 seconds
+tags:
+  - status/incomplete
+  - type/video
+---
+- ![[Screenshot 2023-09-21 at 11.18.50 AM.png]]
+	- [[Vertex]] - dots where edges meet
+		- intersection (could represent city or location)
+	- [[Edges]] - lines connecting vertices
+		- Could represent a flight path
+		- Connection between two vertices in some way
+	- [[Degree]] - How many edges meet at a vertex
+		- 0 edges is degree 0
+		- 1 edge is degree 1
+		- 2 edges is degree 2
+	- [[Path]] - Route along the [[graph]] that starts and ends at different locations
+	- [[Circuit]] - Path that returns to the starting point
+		- Must be looped around
+		- Possible to have multiple circuits on a graph
+	- [[Connected]] - A graph is connected when there is a path between any 2 vertices within that graph
+	- [[Weights]] - length or cost associated with an edge (this would be the weight on the edge)
+		- Sometimes all we care about is if there is a connection between 2 locations (like bridges). In the case of walking the paths, we might be interest in the length of the paths
+- ![[Screenshot 2023-09-21 at 6.49.01 PM.png]]
+	- Errata
+		- In problem 3, creator talks about edge lengths as miles instead of minutes as written in the problem
+			- Seems to have fixed the problem later on
+	- Example problem
+		- Here is a portion of a housing development from Missoula, Montana, As part of her job, the development's lawn inspector has to walk down every street in the development making sure homeowners' landscaping conforms to the community requirements
+			- First identify junction points (places where streets meet) or where there is a corner. Will be known as vertices of [[graph]] (as in graphical representation of the situation). Using vertices to represent intersections
+			- Will add edges to represent the streets themselves
+			- Then we get a graph that represents the city
+				- The connection and length of edges is the main thing that matters
+	- Example Problem 2
+		- Back in the 18th century in the Prussian city of Königsberg, a river ran through the city and seven bridges crossed the forks of the river. As a weekend amusement, townsfolk would see if they could find. a route that would take them across every bridge once and return them to where they started.
+			- [[Leonhard Euler]] was the father of this branch of mathematics called [[graph theory]]
+				- He analyzed this problem
+				- Introduced a graph into this situation
+			- There is a north bank, central island, south bank and east bank. 
+	- Example Problem 3
+		- Suppose you need to travel from Tacoma, WA (vertex T) to Yakima, WA (vertex Y). Looking at a map, it looks like driving through Auburn (A) then Mount Rainier (MR) might be shortest, but it's not totally clear since that road is probably slower than taking the major highway through North Bend (NB). A graph with travel times in minutes is shown below. An alternate route through Eatonville (E) and Packwood (3) is also shown
+			- Will use [[dijkstra's algorithm]]: solves the shortest path problem
+				- Will start by looking at ending vertex (and see that it's 0 miles from the end)
+				- Need to identify next current vertex (after NB, MR, P)
+					- Since $Y \to P \to MR$ is greater than $Y \to MR$, we don't record that path from $P \to MR$ 
+					- Helps identify vertex closest to the end
+				- Solution is $Y \to NB \to A \to T$ 
+					- Found the shortest path this way

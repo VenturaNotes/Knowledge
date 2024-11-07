@@ -1,0 +1,46 @@
+[Video](https://www.youtube.com/watch?v=OzNAb81cvo4)
+
+- ![[Screenshot 2023-12-07 at 9.52.23 AM.png]]
+	- What is a [[set]]?
+		- An unordered collection of elements. We say a set contains its elements
+	- Important for set theory
+	- [[Roster method]]
+		- List all elements in braces
+			- A = {-4, -3, -2, -1}
+				- Description: A is all negative integers greater than -5
+	- Notation
+		- $x \in A$ means x is an element of A
+		- x $\notin$ A means x is not an element of A
+	- $\mathbb{Z}$ [[integers]] {..., -3, -2, -1, 0, 1, 2, 3, ...}
+		- Shown in roster method
+	- $\mathbb{N}$ [[natural numbers]] {1, 2, 3, 4, 5, ...}
+		- Controversial if 0 is part of the notation or not
+	- $\mathbb{R}$ [[real numbers]] {-$\infty$, $\infty$}
+	- Q [[rational numbers]]
+		- {$\frac ab$: a, b $\in$ $\mathbb{Z}$, b $\ne$ 0}
+	- [[Set-builder notation|Set Builder Notation]]
+		- A = {x $\in$ $\mathbb{Z}$ : -5 < x < 0} or { x $\in$ $\mathbb{Z}$ | -5 < x < 0 }
+			- Specify some x and then give a condition
+	- Note: [[members|elements]] in a set can be anything
+		- Definition: The [[Cardinality]] of a set A is the number of elements in A, denoted |A|
+		- a set is finite provided |A| is [[finite set|finite]]
+	- Definition: A, B are sets. A is a [[subset]] of B provided every element in A is an element of B
+		- Notation: A $\subseteq B$
+			- Not a subset is $A \nsubseteq B$ 
+- ![[Screenshot 2023-12-07 at 10.14.17 AM.png]]
+	- Note:
+		- (1) $\mathbb{N}$ $\subseteq$ $\mathbb{Z}$ $\subseteq$ $\mathbb{Q}$ $\subseteq$ $\mathbb{R}$
+		- (2) For any set A, A $\subseteq$ A
+		- Definition: [[empty set]]: $\varnothing$ = {}
+			- Set containing no elements
+			- |$\varnothing$| = 0
+		- (3) $\varnothing$ $\subseteq$ A for every set A
+	- Definition: Given a set A. The [[power set]] of A is the set of all subsets of A
+		- Denoted $\mathcal{P}(A)$ 
+	- Sets with one element are called [[singleton|singletons]]
+		- Such as {$\mathbb{Q}$} or {7} or {{5}}
+	- Generally, if |A| is finite
+		- |P(A)| = $2^{|A|}$ 
+			- If you have a finite set A, the cardinality of the power set is 2 raised to the cardinality of A
+		- When we get to [[counting]], we'll be able to count this using something called the [[Multiplication rule]]
+	- 1-element subsets are the [[singleton|singletons]]

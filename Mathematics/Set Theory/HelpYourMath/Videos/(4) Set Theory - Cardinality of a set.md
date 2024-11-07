@@ -1,0 +1,62 @@
+[Video](https://youtube.com/watch?v=rw04VWbAfMc)
+
+- Symbols and Terminology: The cardinality of a set
+---
+- Cardinal Numbers and Cardinality
+	- The cardinality or cardinal number of a finite set is the number of unique elements in the set.
+		- Notation is n(A) read "n of A" where A is a set
+			- It's asking us how many elements are there in set A
+	- Examples! Find the cardinal number of each set
+		- B = {1, 4, 9, 16, 25, 36}
+			- n(B) = 6
+		- P = {1, 2, 2, 3, 3, 3, 4, 4, 4 ,4}
+			- n(P) = 4
+		- N = $\varnothing$
+			- n(N) = 0
+		- M = {$\varnothing$} (set is containing the empty set which in this case is an element of the outer set)
+			- n(M) = 1
+		- E = {2, 4, 6, ..., 20, 22}
+			- n(E) = 11
+			- The 3 dots means that the pattern continues
+---
+- Finite and Infinite Sets
+	- A finite set is a set that has cardinality
+		- The last five sets we saw were all finite sets
+	- An infinite set is a set that contains an infinite number of elements
+		- The super well-known sets are all infinite sets
+			- ($\mathbb{R}, \mathbb{Z}, \mathbb{Q}, \mathbb{N}$)
+---
+- Examples
+	- Is the set finite or infinite?
+		- The set of all odd numbers
+			- Infinite
+		- R = {3, 6, 9, ..., 99,  102}
+			- Finite
+		- {x | x < 0 and x $\in$ $\mathbb{Z}$}
+			- Infinite
+		- The set of real numbers between 0 and 10
+			- Infinite
+---
+- Wrapping it all up!
+	- Think about the set of positive multiples of 4.
+		- (a) Name the set: 
+			- m (our choice, m could just stand for multiple)
+		- (b) Write the set all three ways:
+			- Listing Method
+				- m = {4, 8, 12, ...}
+			- Set-Builder Notation
+				- m = {x | x = $4*\mathbb{N}$}
+			- Word Form
+				- The set of positive multiples of 4
+		- (c) Is the set well-defined?
+			- Yes
+				- Positive numbers of 4 is very well established
+		- (d) is the set finite or infinite
+			- Infinite so no cardinality
+		- (e) Fill in the blank: 
+			- 1148 $\underline {\in m}$
+		- (f) Fill in the blank: 
+			- $\underline {0} \notin m$
+
+
+

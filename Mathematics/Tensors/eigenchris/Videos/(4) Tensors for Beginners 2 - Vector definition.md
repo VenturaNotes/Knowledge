@@ -1,0 +1,61 @@
+[Video](https://www.youtube.com/watch?v=uPbBDToXjBw)
+
+- ![[Screenshot 2023-09-28 at 7.34.23 PM.png]]
+	- Our first example of a [[tensor]] which is the [[vector]]
+	- What is a vector? : 1. It's a list of numbers (or a one-dimensional array of numbers)
+		- [[Vector addition]] with lists
+		- Can [[scale vectors]] with a scaling constant
+		- Problem
+			- These list of numbers are really [[vector components]] (not the vectors themselves)
+		- [[Vectors]] are [[invariant]]
+			- under a change of coordinates
+		- [[Vector components]] are not invariant
+			- under a change of coordinates
+		- Vectors and vector components are not the same thing
+		- Vectors are geometrical objects which has geometrical meaning
+	- What is a vector? (2. It's like an arrow)
+		- Can add vectors together
+			- Just place tail of second vector on tip of first vector ([[tip to tail method]])
+				- [[Resulting vector]] is the vector that goes from initial point on first vector to final point on second vector
+					- Basically creating a parallelogram.
+		- Can scale vectors
+			- Scaling a vector by 2 would give a vector pointing in the same direction but twice as long
+			- A scaling of -1 would just reverse the direction of the arrow
+			- Problem 
+				- Not all vectors can be visualized as arrows!
+				- The ones drawn are called [[Euclidean vectors]]
+	- What is a vector? 3. It's a member of [[Vector Space]]
+		- A vector space is a collection of 4 things
+			- $(V, S, +, \cdot)$ 
+				- V
+					- Set of vectors
+				- S
+					- Set of Scalars
+				- +
+					- [[vector addition rule]]
+						- Let's us combine 2 vectors together
+						- Given $\vec {v} + \vec w = \overrightarrow {(v + w)}$ 
+				- $\cdot$ 
+					- [[Vector scaling rule]]
+					- Lets us use scalars on vectors to change their size 
+						- $a\cdot \vec v = a \vec v$
+		- Basically:
+			- Vectors are things that
+				- we can add together (+)
+				- we can scale ($\cdot$, dot rule and scalar)
+- ![[Screenshot 2023-09-28 at 8.11.56 PM.png]]
+	- How vectors behave under a change of coordinates
+		- We have 2 [[Coordinate Plane|coordinate systems]]:  old [[basis]] and new basis
+			- Figured out [[forward transformation]] and [[backward transformation]] that let us move between them
+		- Since we have 2 different coordinate systems, we can measure $\vec v$ using 2 different bases
+	- When we get the components, we can write $\vec v$ has a [[column vector]]
+		- Old basis: $\begin{bmatrix}1 \\ 1.5\end{bmatrix}_{\vec e_i}$ (measuring in the old basis)
+		- $\overset{\sim}{\vec e_i}$ (This is pronounced "e i tilde")
+	- Now how are the two sets of [[components]] related to each other?
+		- $\begin{bmatrix}1 \\ 1.5\end{bmatrix}_{\vec e_i}$
+			- Old components
+		- $\begin{bmatrix}1 \\ 2\end{bmatrix}_{\overset \sim{\vec e_i}}$
+			- New components
+		- By applying a [[backward transformation]] on the old [[components]], we end up with the new components
+	- For [[basis vectors]], forward brings us from old to new and backward brings us from new to old
+		- With [[vector components]], it's the opposite. Forward brings us from new to old and backwards brings us from old to new

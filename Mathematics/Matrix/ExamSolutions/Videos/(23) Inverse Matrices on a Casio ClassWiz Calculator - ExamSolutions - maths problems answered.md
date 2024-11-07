@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=T8VAFKmDx18)
+
+- ![[Screenshot 2023-07-15 at 8.02.17 PM.png]]
+	- To find inverse of 3x3 matrix,
+		- Find minors of each element (of matrix A)
+		- Find cofactor of A (transpose it)
+		- Then multiply that by 1 over determinant of A
+		- This will given inverse of A in the end.
+	- Using Casio ClassWiz calculator to get the inverse of a 3x3 matrix
+		- Menu Setup 
+		- 4
+		- 1 
+		- 3 for number of rows 
+		- 3 for number of columns 
+		- Fill matrix with elements given
+		- Option Button
+		- 3 (matrix calculations)
+		- 3 (for MatA)
+		- Select $x^{-1}$
+		- $=$ (get the inverse matrix)
+			- Either gives us as decimal or we get the exact fraction

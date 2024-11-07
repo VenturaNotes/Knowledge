@@ -1,0 +1,50 @@
+[Video](https://youtube.com/watch?v=HsGvncsptOY)
+
+- ![[Screenshot 2024-01-23 at 12.45.41 AM.png]]
+	- Slide 2 - Learning Objectives
+		- By the end of this session, participants should be able to:
+			- State the structure of [[strong induction]]
+			- Explain the differences between strong and usual induction
+	- Slide 3 - Motivation
+		- Motivation
+			- The final variation of induction we will look at is strong induction. This is a version that is used to prove theorems of the form "Every natural number has a \[nice\] representation"
+			- It is also used when the induction step depends on many previous steps, and not only the one immediately before it.
+	- Slide 4 - (1) Proof strategy for strong induction
+		- Strong induction
+			- If you want to prove a statement of the form "$\forall$ n $\in$ $\mathbb{N}$, P(n)" you can show
+				- P(1) is true
+				- For all k $\in$ $\mathbb{N}$, P(1), P(2), ..., P(k) $\implies$ P(k+1)
+		- Question: How is this different from (simple) induction?
+		- Math answer: The IH is much stronger
+		- CS answer: This requires a lot more memory since you need to remember all of your previous work
+	- Slide 5 - Example
+		- Theorem
+			- Every natural number n $\ge$ 2 can be written as a product of primes
+- ![[Screenshot 2024-01-23 at 12.52.23 AM.png]]
+	- Slide 6 - (2) Example
+		- Proof
+			- By strong induction. Let P(n) be "n can be written as a product of primes"
+		- [[base case]]
+			- Base, n = 2. Notice 2 is a product of one [[prime]]
+	- Slide 7 - Example
+		- Proof
+		- [[Induction step]]. Assume P(2), P(3), ..., P(n) are true for a particular n $\mathbb{N}$ 
+			- Case 1: If n + 1 is prime, then it is the product of one prime
+			- Case 2: If n+1 is not prime, then there are a,b $\in$ $\mathbb{N}$ with ab= n + 1 and 1 < a,b, < N+1
+			- By P(a), a can be written as a product of primes. By p(b), b can be written as a product of primes
+			- So n + 1 = ab can be written as a product of primes
+	- Slide 8 - (3) Reversing this proof
+		- Question
+			- How does this proof tell us how to write 300 as a product of primes?
+		- Note
+			- To show P(300) we needed to use P(3) and P(100), not P(299)
+				- In simple induction, would only need to remember one step before it
+				- With strong induction, would need to remember P(3) and P(100)
+	- Slide 9 - Binary representation
+		- Theorem
+			- Every natural number n $\ge$ 1 can be represented as a sum of distinct, non-negative integer powers of 2
+- ![[Screenshot 2024-01-23 at 12.53.22 AM.png]]
+	- Slide 10 - Reflection
+		- What are the differences between simple induction and strong induction?
+		- Were our proofs about the fibonacci numbers really "strong" induction? How much memory did they use?
+		- Why do you think that the [[binary representation theorem]] is a good candidate to prove using strong induction?

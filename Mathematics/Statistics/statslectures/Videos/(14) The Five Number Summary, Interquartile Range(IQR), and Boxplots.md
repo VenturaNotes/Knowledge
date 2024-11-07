@@ -1,0 +1,23 @@
+[Video](https://www.youtube.com/watch?v=MXIU5pQi3UM)
+
+- The Five Number Summary is a method of summarizing a distribution of data.
+	- (1) Minimum
+	- (2) First Quartile (Q1)
+	- (3) Median
+	- (4) Third Quartile (Q3)
+	- (5) Maximum
+- ![[Screenshot 2023-04-28 at 8.59.23 AM.png]]
+	- Give the Five Number Summary for the following data set:
+		- Lower Fence = Q1 - 1.5(IQR)
+		- Upper Fence = Q3 + 1.5(IQR)
+		- Interquartile Range(IQR) = Q3 - Q1
+- ![[Screenshot 2023-04-28 at 9.00.02 AM.png]]
+	- BoxPlots
+		- Min, Q1, Median, Q3, Max
+- Important Terms
+	- Five Number Summary
+	- Interquartile Range (IQR)
+	- Boxplot
+	- Outlier
+	- Lower Fence
+	- Upper Fence

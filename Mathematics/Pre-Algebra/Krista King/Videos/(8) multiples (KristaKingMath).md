@@ -1,0 +1,31 @@
+[Video](https://youtube.com/watch?v=KsQKgE6m_m4)
+
+- The multiples of a number are the numbers that can be divided evenly by the number we've been given
+- List the first 5 multiples
+	- 1
+		- $1*1=1$
+		- $1*2=2$
+		- $1*3=3$
+		- $1*4=4$
+		- $1*5=5$
+		- The results found are multiples of 1
+			- True because you can divide all the results by 1 to get a whole number answer
+	- 3
+		- $3*1=3$
+		- $3*2=6$
+		- $3*3=9$
+		- $3*4=12$
+		- $3*5=15$
+	- 12
+		- $12*1=12$
+		- $12*2=24$
+		- $12*3=36$
+		- $12*4=48$
+		- $12*5=60$
+		- As long as you can take the multiple and divide it by the original number and get a whole number answer, you know that it's a multiple of the original number
+	- 20
+		- $20*1=20$
+		- $20*2=40$
+		- $20*3=60$
+		- $20*4=80$
+		- $20*5=100$

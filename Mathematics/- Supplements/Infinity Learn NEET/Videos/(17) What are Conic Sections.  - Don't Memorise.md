@@ -1,0 +1,30 @@
+[Video](https://www.youtube.com/watch?v=XLdIYhVwV0w)
+
+- ![[Screenshot 2023-10-25 at 6.55.41 PM.png]]
+	- All fall under the category of [[conic]]
+		- The wheel is a [[Circle]]
+		- Different types of shapes and curves occur in nature 
+		- Earth's revolution around the sun is called an [[ellipse]]
+		- When playing catch with someone, you create a u-shaped curve called a [[parabola]]
+		- Two curves placed on either side of axis creates a [[hyperbola]]
+- ![[Screenshot 2023-10-25 at 7.02.43 PM.png]]
+	- Conics stands for conic sections
+		- [[Conic sections]] means cross sections of a [[cone]]
+	- 2 cones and the line makes a right angle with the surfaces, the shape is called a [[double right circular cone]]
+		- 2 cones and the line makes a right angle with both circular bases
+	- A [[plane]] intersecting horizontally gives a circle
+	- A plane intersecting horizontally but tilted, you get an ellipse
+	- Tilting more gets a parabola
+	- Tilting plane vertically gives a hyperbola
+	- Depending on the angle at which the plane intersects the cone, we get different curves
+		- We're studying these shapes/curves since we see them in our daily life constantly in some for or another
+- ![[Screenshot 2023-10-25 at 7.05.12 PM.png]]
+	- Circular shapes
+		- Wheel
+		- Currency coins
+	- Earth and sites in space move in an elliptical path (important for studying laws of universe)
+	- Shape of satellite dish is a parabola
+		- [[Parabola]] has the property to focus all the [[incident ray|incident rays]] on a single point
+	- Shape of furnace
+		- Curve is a hyperbola
+		- Wonder why they are shaped that way?

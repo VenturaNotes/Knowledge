@@ -1,0 +1,43 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWsyqrvKZ6N9RbB5q4_zntq
+Length: 3 hours, 13 minutes, 7 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Statistics - Ch 9 Hypothesis Testing (1 of 34) What is a Hypothesis.]]
+	- [[(2) Statistics - Ch 9 Hypothesis Testing (2 of 35) How is Hypothesis Testing Used in Statistics.]]
+	- [[(3) Statistics - Ch 9 Hypothesis Testing (3 of 35) What is the 'Null Hypothesis'.]]
+	- [[(4) Statistics - Ch 9 Hypothesis Testing (4 of 35) What is the 'Alternative Hypothesis'.]]
+	- [[(5) Statistics - Ch 9 Hypothesis Testing (6 of 35) What is the Level of Significance.]]
+	- [[(6) Statistics - Ch 9 Hypothesis Testing (7 of 35) What is the Test Statistics.]]
+	- [[(7) Statistics - Ch 9 Hypothesis Testing (8 of 35) What is the Critical Region.]]
+	- [[(8) Statistics - Ch 9 Hypothesis Testing (9 of 35) What is the Critical Region. (Intuitive)]]
+	- [[(9) Statistics - Ch 9 Hypothesis Testing (10 of 35) How Does Level of Significance Affect Testing.]]
+	- [[(10) Statistics - Ch 9 Hypothesis Testing (11 of 35) How Does Level of Significance Affect Testing.]]
+	- [[(11) Statistics - Ch 9 Hypothesis Testing (12 of 35) How to Interpret Words Used in Hypothesis Testing.]]
+	- [[(12) Statistics - Ch 9 Hypothesis Testing (13 of 35) What is the 'Level of Confidence'.]]
+	- [[(13) Statistics - Ch 9 Hypothesis Testing (14 of 35) Another Look at the Level of Confidence]]
+	- [[(14) Statistics - Ch 9 Hypothesis Testing (15 of 35) Null Hypothesis Example - Air Quality]]
+	- [[(15) Statistics - Ch 9 Hypothesis Testing (16 of 35) Null Hypothesis Example - Air Quality]]
+	- [[(16) Statistics - Ch 9 Hypothesis Testing (17 of 35) Comparing Sample Mean to Test Statistics - Part 1]]
+	- [[(17) Statistics - Ch 9 Hypothesis Testing (18 of 35) Comparing Sample Mean to Test Statistics - Part 2]]
+	- [[(18) Statistics - Ch 9 Hypothesis Testing (19 of 35) Comparing Sample Mean to Test Statistics - Part 3]]
+	- [[(19) Statistics - Ch 9 Hypothesis Testing (20 of 35) The Probability Value Method (P-Value)]]
+	- [[(20) Statistics - Ch 9 Hypothesis Testing (21 of 35) Two Tailed Test Example]]
+	- [[(21) Statistics - Ch 9 Hypothesis Testing (22 of 35) Two Tailed Test with Conclustion]]
+	- [[(22) Statistics - Ch 9 Hypothesis Testing (23 of 35) Picking Numbers at Random]]
+	- [[(23) Statistics - Ch 9 Hypothesis Testing (24 of 35) Population Inference from a Random Sample]]
+	- [[(24) Statistics - Ch 9 Hypothesis Testing (25 of 35) Population Inference from a Random Sample - Ex]]
+	- [[(25) Statistics - Ch 9 Hypothesis Testing (26 of 35) Maximum Error of Estimate (E)]]
+	- [[(26) Statistics - Ch 9 Hypothesis Testing (27 of 35) Upper and Lower Confidence Limits (UCL, LCL)]]
+	- [[(27) Statistics - Ch 9 Hypothesis Testing (28 of 35) Confidence Limits at a Higher Level of Confidence]]
+	- [[(28) Statistics - Ch 9 Hypothesis Testing (29 of 35) Confidence Limits at a Smaller Sample Size]]
+	- [[(29) Statistics - Ch 9 Hypothesis Testing (30 of 35) Example Problem 1]]
+	- [[(30) Statistics - Ch 9 Hypothesis Testing (31 of 35) Example Problem 2]]
+	- [[(31) Statistics - Ch 9 Hypothesis Testing (32 of 35) Example Problem 3]]
+	- [[(32) Statistics - Ch 8 Hypothesis Testing (33 of 35) Example Problem 4]]
+	- [[(33) Statistics - Ch 8 Hypothesis Testing (34 of 35) Example Problem 5]]

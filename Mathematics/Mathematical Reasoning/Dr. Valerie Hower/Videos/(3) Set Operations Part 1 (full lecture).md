@@ -1,0 +1,31 @@
+[Video](https://www.youtube.com/watch?v=AInSuwdqljE)
+
+- ![[Screenshot 2023-12-07 at 10.53.09 AM.png]]
+	- [[Set-builder notation]]
+		- {x $\in$ $\mathbb{Z}$ }
+	- [[Roster method]]
+		- {-2, 2}
+	- For sets A, B, A = B provided A and B have the same elements
+		- [[Set equality]]: 2 sets are equal if they have the same elements
+			- In other words, $A \subseteq B$ and B $\subseteq$ A
+	- Definition: An [[ordered pair]] (x, y)
+		- Given sets A, B, the [[cartesian product]] is also known as the cross product
+			- A $\times$ B = {(a, b): a $\in$ A and b $\in$ B}
+				- A cross B is all ordered pairs where the first element is an element of A and the second coordinate is an element of B
+	- Note 
+		- $A \times B \ne B \times A$ 
+			- Generally the case
+		- Whenever you have two finite sets A and B, the [[Cardinality]] of A $\times$ B is $|A||B|$ 
+	- Generally for finite sets A, B
+		- $|A \times B|$ = |A||B|
+	- What is a [[set]] crossed by the [[empty set]]?
+		- C $\times$ $\varnothing$ 
+			- Since multiplying there cardinalities equals 0, we know that their cartesian product is the empty set
+	- Shown below are [[set operations]]. Suppose A, B are sets 
+		- The [[union]] of A and B
+		- The [[intersection]] of A and B
+		- The [[difference]] of A and B
+- ![[Screenshot 2023-12-07 at 11.26.00 AM.png]]
+	- Examples
+		- Can list a power set by order of cardinality of subset
+		- [[empty set]] is subset of every set

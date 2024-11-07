@@ -1,0 +1,21 @@
+[Video](https://www.youtube.com/watch?v=lBuJmzyiu8Y)
+
+- Measures of central tendency attempt to summarize sets of data as accurately as possible
+	- Some examples of measures of central tendency:
+		- Mean, Median, Mode
+	- Each of these seek to summarize data sets with a single value.
+- ![[Screenshot 2023-04-28 at 9.07.40 AM.png|400]]
+	- Skewness
+		- How a distribution "leans"
+- ![[Screenshot 2023-04-28 at 9.09.29 AM.png|400]]
+	- This symmetrical distribution has no skew. The mean exists perfectly at the center
+	- If we drew a boxplot, it would look something like the bottom with everything fairly balanced 
+- ![[Screenshot 2023-04-28 at 9.10.05 AM.png|400]]
+	- This distribution is skewed to the right. The mean is pulled to the left from the center.
+- ![[Screenshot 2023-04-28 at 9.10.35 AM.png|400]]
+	- This distribution is skewed to the left. The mean is pulled to the right from the center.
+- Skewness is important to recognize because it has implications in hypothesis testing.
+- Important Terms
+	- Skewness
+	- Skewed Left
+	- Skewed Right

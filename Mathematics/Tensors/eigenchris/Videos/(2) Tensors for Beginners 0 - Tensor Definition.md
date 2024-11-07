@@ -1,0 +1,55 @@
+[Video](https://www.youtube.com/watch?v=TvxmkZmBa-k)
+
+- ![[Screenshot 2023-09-20 at 12.50.30 AM.png]]
+	- [[Tensor]] = multi-dimensional array of numbers (this array definition is incorrect)
+		- array is grid in this case
+		- Basically array definition of tensors
+			- This definition is actually wrong
+				- Tensors can be represented as multi-dimensional arrays, but that is not what they fundamentally are
+				- Tensors are not just a bunch of numbers tossed together
+					-  They have real geometrical meaning
+		- A [[scalar]] is the simplest example of a tensor
+			- s
+			- Has a [[rank]] 0
+			- A scalar is just a number like 1, 2, 5, $\frac 34$, $\pi$ 
+			- Don't normally write scalars as arrays, but could do $[s]$
+		- A [[vector]] is a tensor with rank 1
+			- $\begin{bmatrix}v_1\\ v_2 \\ \vdots \\ v_n\end{bmatrix}$
+			- It's a rank 1 tensor because it's a list of numbers that extends downward in one-dimension
+				- A one-dimensional array
+		- A [[matrix]] is a rank 2 tensor
+			- "rank two" because they're a two-dimensional grid of numbers
+			- The [[metric tensor]] ($g_{\mu v}$) from general relativity is a rank 2 tensor
+				- The greek letters stand for numbers that represent the row and column of the particular entry of the matrix we're talking about
+				- The metric tensor is really just a matrix
+		- [[Rank-3 Tensor]]
+			- A rank-3 tensor is a 3 dimensional grid of numbers arranged in a cube
+		- Can go on and on (rank 4, 5, 6) as high as we want
+- ![[Screenshot 2023-09-20 at 1.24.25 AM.png]]
+	- Tensor = an object that is [[invariant]] under a change of coordinates, and has components that change in a special, predictable way under a change of coordinates (coordinate definition of tensor. However, there is an even better definition)
+	- First Part
+		- Example: Let's say we try to point a pencil to the nearest door in the room
+			- The length of the pencil won't depend on our choice of [[Coordinate Plane|coordinate system]]. The length is an intrinsic or invariant quantity
+			- Also, pencil is pointing towards the door which is a fact. It doesn't depend on what coordinate system we use, the pencil's orientation is intrinsic or invariant under the choice of coordinate system
+	- Second part
+		- If we used a coordinate system with 3 vectors, we could measure the pencil using the coordinate system
+			- Could write pencil as a [[linear combination]] of the coordinate vectors = 2 (yellow arrow) + 1 (green arrow) + 2 (blue arrow)
+		- By breaking down the pencil into [[coordinate vectors]], we measured the pencil's "[[components]]"
+			- The components are just the amount of each coordinate vector we need to construct the pencil
+		- In this coordinate system, the components are $[2, 1, 2]$
+			- It's a sensible coordinate system since all the direction vectors are the same length and they're all perpendicular to each other
+				- Possible though to introduce a coordinate system where the vectors are different lengths and sit at weird angles relative to each other
+				- Mathematically, neither of these is more correct than the other (just different choices)
+			- When measuring pencil with different coordinate systems, we actually get different components
+				- Important idea since the pencil's components are not invariant. They change depending on the coordinate system being used
+		- [[Vectors]] are [[invariant]]
+			- Invariant here means that it does not depend on the coordinate system
+		- [[Vector components]] are not [[invariant]]
+			- Components do depend on the coordinate system
+		- If we know how to change one coordinate system into another coordinate system, then we should also be able to figure out how to change between different sets of components
+			- The process of going back and forth between coordinate systems and components, that's what will be called "forward" and "backward" transformations
+- ![[Screenshot 2023-09-20 at 8.50.16 AM.png]]
+	- Tensor = a collection of [[vectors]] and [[covector|covectors]] combined together using the [[tensor product]] (abstract definition)
+	- Extra: Tensors as [[partial derivative|partial derivatives]] and [[gradients]] that transform with the [[Jacobian Matrix]]
+		- This is how tensors pop up in [[calculus]]
+		- Important for curved geometry we may see in general relativity

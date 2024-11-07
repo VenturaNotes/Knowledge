@@ -1,0 +1,48 @@
+[Video](https://youtube.com/watch?v=ThzOyONy3lM)
+
+- ![[Screenshot 2024-01-23 at 12.28.44 AM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to
+			- Distinguish between explicit and recursive descriptions of sequences
+			- Prove a statement about a recursively defined sequence using induction
+	- Slide 3 - Motivation
+		- Motivation
+			- We want to describe a [[sequence]] of real numbers $a_1, a_2, a_3, ...,$ "locally"
+				- locally means if you have the 100th term, you want to describe the next term from it
+				- When defining things locally, we want to depend on the things that are close to them
+		- Motivation
+			- [[Induction]] and [[recursion]] are two sides of the same coin. You use induction to prove statements about recursion
+				- Induction is the proof technique
+				- Recursion is the definition
+	- Slide 4 - (1) Example
+		- Recursively defined sequence
+		- Two ways to compute a number
+			- [[Recursive]]
+			- [[Explicit]]
+				- Explicit definition of sequence
+	- Slide 5 - (2) Proof about recursive sequences
+		- Theorem
+			- For the sequence $a_n$ defined previously, $\forall n$ $\in$ $\mathbb{N}$ we have $a_n$ = $\frac {5^{n+1}- 1}{4}$ 
+- ![[Screenshot 2024-01-23 at 12.36.13 AM.png]]
+	- Slide 6 - (2) Proof about recursive sequences
+		- [[induction step]]
+	- Slide 7 - Multiple base cases
+		- The [[fibonacci numbers]] ($F_n$) are
+		- The "Fibonacci" numbers were not invented by Fibonacci. He introduced these numbers to Europe in his book [[Liber Abaci]]. You can listen to a podcast about this here: https://n.pr/2Pi9Cr6
+			- Were well known already outside of Europe before that
+	- Slide 8 - (3) Multiple base cases
+		- Inductive step
+	- Slide 9 - (3) Multiple base cases
+		- [[base case]]
+			- We have 2 of them in this case
+		- We have 2 base cases because in our induction step, we made two induction hypothesis assumptions
+		- When defining fibonacci numbers, we need two starting cases so we can go to the next one
+- ![[Screenshot 2024-01-23 at 12.39.03 AM.png]]
+	- Slide 10 - (4) Exercises
+		- non-negative integers
+		- for all non-negative integers
+		- Do better than 1.7 above
+		- Find an upper bound for the [[Tribonacci numbers]] for all non-negative integers
+	- Slide 11 - Reflection
+		- What are the differences between a [[recursively defined sequence]] and a n [[explicitly defined sequence]]
+		- Define your own recursive sequence and see what happens to it.

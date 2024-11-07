@@ -1,0 +1,34 @@
+[Video](https://www.youtube.com/watch?v=yAjkQ1YqLEE)
+
+- ![[Screenshot 2023-10-16 at 6.14.27 PM.png]]
+	- [[Inductive reasoning]]
+		- Specific to general (Specific argument $\to$ General Conclusion)
+			- logically true
+			- May or may not be realistically true
+		- Example 1
+			- Let's say you have mangoes in a basket and you want to know if they're raw or ripe. If you take 2 out and see they're raw, you can generalize that the rest of them are raw.
+		- Example 2
+			- Statement 1: Mango is a Fruit (Specific Statement)
+			- Statement 2: The box is full of Fruits (Specific Statement)
+			- Conclusion: The box is full of Mangoes (General Conclusion)
+				- Logically True
+				- But realistically may or may not be true
+	- [[Deductive reasoning]]
+		- Logically true
+		- Realistically true
+		- General argument $\to$ Specific Conclusion
+- ![[Screenshot 2023-10-16 at 6.23.54 PM.png]]
+	- Deductive reasoning
+		- Statement 1: All mangoes are fruits (General Statement)
+		- Statement 2: All fruits have seeds (General Statement)
+		- Conclusion: Mangoes have seeds (Specific Conclusion)
+			- Logically true
+			- Realistically true
+	- Inductive reasoning frequently used in mathematics
+		- By observing the pattern that exists in a particular case, we induce a general conclusion from that outcome
+			- The conclusion we arrive at based on inductive reasoning is called a [[conjecture]]
+				- A conjecture is a hypothesis that has not been proven
+					- Just because we observe a pattern in many cases, it doesn't mean it holds true for all cases
+					- Mary not be true
+					- Conjectures must be proved for that particular case
+	- To prove such conjectures, the [[principle of mathematical induction]] is used

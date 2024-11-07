@@ -1,0 +1,36 @@
+[Video](https://www.youtube.com/watch?v=y7drrCK06TQ)
+
+---
+- ![[Screenshot 2023-05-09 at 3.35.33 PM.png]]
+	- The Unit Circle is a circle of radius 1 centered at the origin.
+	- Each point on the circle satisfies the equation $x^2 + y^2 = 1$
+	- Trig functions
+		- sin(t) = y,  csc(t) = $\frac 1y$
+		- cos(t) = x, sec(t) = $\frac 1x$
+		- tan(t) = $\frac yx$, cot(t) = $\frac xy$
+	- Sin can be found taking the side opposite the angle divided by the hypotenuse
+	- Cosine is adjacent over hypotenuse
+	- Tangent is opposite over adjacent
+---
+- ![[Screenshot 2023-05-09 at 3.39.47 PM.png]]
+- The Unit Circle
+	- We can determine several "special" values of corresponding central angles $\theta$ that are integer multiples of $\frac {\pi}{6}$, $\frac {\pi}{4}$, $\frac {\pi}{3}$ by orienting right triangles on a unit circle within a coordinate system
+	- Special Right Triangle (45-45-90)
+	- An Isosceles triangle has two base angles that are equal and the sides opposite those angles are equal as well.
+		- In this case, x=y
+	- $x^2 + y^2$ = 1 because that's every point on the circle
+---
+- ![[Screenshot 2023-05-17 at 5.26.38 AM.png]]
+	- The Unit Circle
+		- Identify the ordered pair on the unit circle that corresponds to the number $t = \frac {5\pi}{3}$. Then evaluate sin(t) and sec(t)
+		- Evaluate cos(t) and tan(t) for $t = -\frac {5\pi}{6}$
+	- As long as you memorize the first quadrant, you just need to memorize the nature of the values in the other quadrants
+---
+- ![[Screenshot 2023-05-17 at 5.39.02 AM.png]]
+- Evaluating Trig Functions with your TI-84
+	- Use a calculator to approximate the function values. Round to 4 decimal places
+	- Need to use a calculator when evaluating a trig function that is not a special angle on the unit circle
+	- Note
+		- $\frac {1}{cos(\pi)} = sec(\pi)$
+		- $cos^{-1}(\pi) \ne sec(\pi)$ 
+			- $cos^{-1}(0) = arccos(0) = \frac {\pi}{2}$

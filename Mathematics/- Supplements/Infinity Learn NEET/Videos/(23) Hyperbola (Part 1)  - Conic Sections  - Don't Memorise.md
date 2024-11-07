@@ -1,0 +1,32 @@
+[Video](https://www.youtube.com/watch?v=WEyYaIWIUp0)
+
+- ![[Screenshot 2023-10-26 at 10.05.49 AM.png]]
+	- Conic Sections
+		- [[Circle]]
+		- [[Ellipse]]
+		- [[Parabola]]
+		- [[Hyperbola]]
+	- [[Hyperbola]]: It is not two parabolas (mirror images of each other)
+	- [[Cooling towers]] have a [[hyperboloid shape]]
+		- Efficiency (heat removal process)
+		- Structurally strong
+		- Construction (cost-effective)
+	- Trajectory of comets
+		- Planets stuck in orbit will move in an ellipse
+		- A comet traveling at a very high velocity will escape the sun's gravity causing it to travel in a hyperbolic path (these kind of comets only pass through the solar system once)
+	- [[Hyperbola]]
+		- Set of points in a plane such that the difference in distances of each point from two fixed points ($F_1$ and $F_2$) in the plane is constant
+			- Made up of two curves which are mirror images of each other
+		- Difference:
+			- Distance to the farther point - distance to the closer point
+			- The fixed points are called the foci of the hyperbola
+- ![[Screenshot 2023-10-26 at 10.18.31 AM.png]]
+	- The constant difference is $\alpha$ 
+		- A constant ==greater== than $\alpha$ will make the hyperbola ==narrower==
+		- A constant ==less== than $\alpha$ will make the hyperbola ==wider==
+	- Definition similar to [[ellipse]]
+		- Set of points in a plane such that the ==sum== of distances of each point from two fixed points is constant
+			- a = length of semi-major axis
+			- b = length of semi-minor axis
+			- c = distance from center to one of the ellipse's foci
+		- For hyperbola, it's difference

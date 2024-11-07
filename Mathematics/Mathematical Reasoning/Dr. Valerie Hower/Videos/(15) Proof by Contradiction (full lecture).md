@@ -1,0 +1,36 @@
+[Video](https://www.youtube.com/watch?v=KmAyZOQSp0k)
+
+- ![[Screenshot 2023-12-14 at 10.59.12 AM.png]]
+	- Slide 1
+		- [[Proof by contradiction]]
+			- Given a statement S
+				- Assume S is not true (equivalently assume $\lnot$ S is true)
+				- Argue until we reach a statement that is always false
+			- Idea $(\lnot S)$ $\implies$ F (often of the form $n \land (\lnot n))$ 
+				- $\lnot S$ must be false. Equivalently, S is true
+	- Slide 2
+		- Prove there are no integers a, b with $3a - 9b = 2$ 
+		- Will end a proof by contradiction with symbol below
+			- Straight horizontal line with 2 diagonal lines crossing
+	- Slide 3
+		- Prove there is no integer that is both even and odd
+	- Slide 4
+		- Prove the sum of any four consecutive integers is not divisible by 4
+- ![[Screenshot 2023-12-14 at 11.23.33 AM.png]]
+	- Slide 1
+		- Prove there is no smallest positive [[Rational Numbers|rational number]]
+			- $\mathbb{Q} = \{\frac ab : a, b \in \mathbb{Z} \text{ and } b \ne 0\}$ 
+	- Slide 2
+		- Prove the sum of a [[Rational Numbers|rational number]] and [[irrational number]] is irrational
+			- Since $y = x+y -x$ is a true equation, it's valid. Need to be creative to come up with this though
+	- Slide 3
+		- For A, B [[sets]], prove $A \cap (B-A) = \varnothing$ 
+	- Slide 4
+		- Suppose we want to prove an [[Implication]] $p \implies q$ 
+			- [[Direct Proof]] (Has guidance)
+				- Assume p is true and show q is true
+			- [[Proof by contrapositive]] (Has guidance)
+				- Assume $\lnot q$ is true and show $\lnot p$ is true
+			- [[Proof by contradiction]] (Less guidance. Can be challenging)
+				- Assume p is true and assume q is false. Show F
+		- If you start a proof by contradiction and wind up concluding that p is true and $\lnot p$ is true, then you've really proved by contrapositive (just written in different way)

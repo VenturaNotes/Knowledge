@@ -1,0 +1,82 @@
+[Video](https://www.youtube.com/watch?v=LNoQ_Q5JQMY)
+
+- ![[Screenshot 2023-10-10 at 2.07.42 AM.png]]
+	- [[Vectors]] are [[contravariant]]
+	- Second example of a [[tensor]] is t he [[covector]]
+	- Covectors are "basically" [[Row Vector|row vectors]]
+	- [[column vector|column vectors]] and [[Row Vector|row vectors]] are fundamentally different types of objects
+	- Column vectors and row vectors are similar in an [[orthonormal basis]]
+		- Basis where all the vectors are one unit long and all perpendicular to each other
+			- When dealing with an orthonormal basis, the idea of flipping column vectors on side to get row vectors is actually true. Not true in any other coordinate system
+		- Not true in general
+	- Row vectors are functions on (column) vectors
+		- General covector $\alpha$ 
+		- General vector $\vec v$ 
+		- Get the output value by taking the [[dot product]] of the two vectors
+	- Should think of row vectors as functions that take an input from some [[vector space]] V and return a real number or scalar
+	- Let's say there is a row vector acting on 2 vector inputs added together
+		- Could distribute row vector to each input and add results
+		- Other way is to add inputs together and then get row vector to operate on column vector input
+	- [[Row vector]] properties
+		- $\alpha (\vec v + \vec w) = \alpha(\vec {v}) + \alpha (\vec w)$
+		- $\alpha(n\vec v) = n\alpha (\vec v)$
+			- Could multiply vector by scalar first and then multiply by row vector
+			- Could factor out scalar first and multiply row vector by the vector and then multiply by scalar
+- ![[Screenshot 2023-10-10 at 2.19.18 AM.png]]
+	- A [[covector]] (row vector) is...
+		- A function that takes a vector and produces a scalar/number
+			- $\alpha: V \to \mathbb{R}$ 
+		- We can add inputs or add output and get the same answer
+			- $\alpha (\vec v + \vec w) = \alpha(\vec {v}) + \alpha (\vec w)$
+		- We can scale inputs or scale outputs and get the same answer
+			- $\alpha(n\vec v) = n\alpha (\vec v)$
+		- Behavior of being able to add or scale either the inputs or outputs and getting the same answer is called [[linearity]]. Therefore, covectors are linear functions
+			- $\alpha (n\vec v + m \vec w) = n \alpha (\vec v) + m\alpha (\vec w)$
+	- How do we visualize covectors (row vectors)?
+		- Could visualize covectors with arrows similar to vectors but strange when visualizing a function
+	- How do we visualize covectors (which are functions)?
+		- How can we visualize a function of 2 variables which produces one output
+			- Similar to a problem that map makers deal with when conveying elevation on a 2-dimensional sheet of paper
+			- In a [[topographic map]], you basically need to show off the slopes of mountains and valleys but only using a 2D page
+				- Topographers take a map and draw curves of constant elevation
+				- The denser the lines, it's a place where the elevation changes steeply
+				- The less dense lines is a comparatively shallow slope because the elevation changes less quickly
+				- Let's imagine a red mountain
+					- By taking a horizontal slice at some height, will end up with contours that look different (these would be like the curves of constant height on a topographic map)
+- ![[Screenshot 2023-10-10 at 3.09.06 AM.png]]
+	- This is the covector $\begin{bmatrix}2 & 1 \end{bmatrix}$ visualized as stacks of lines. Since the stack is increasing toward the upper right, we can add arrows to remind us of the direction of increase 
+		- If we drew the vector $\begin{bmatrix}2 & 1 \end{bmatrix}$ as an arrow, the arrow would be perpendicular to all the lines in the stack
+	- Can visualize covectors as stacks of lines
+	- Same covector $\alpha$ being shown
+		- Over the covector, we have the vector v pointing in different directions
+		- Would like to figure out the numerical value of the covector $\alpha$ acting on the vector $v$ 
+	- Each line in the stack is a line of constant value
+		- Just need to count the number of lines that $\vec v$ pierces 
+	- If we wanted to make covector twice as big, we want to make the stack denser
+		- This will increase the value of $\alpha (\vec v)$ 
+		- This is an example of scaling covectors
+	- Adding covectors
+- ![[Screenshot 2023-10-10 at 3.18.35 AM.png]]
+	- For things we can add and scale, we have a [[vector space]] (V, S, +, $\cdot$)
+		- The rules above are for adding and scaling vectors
+	- The set of all covectors which act on the vectors of V form a new vector space called the [[dual space]]
+		- [[Dual Vector Space]] (V*, S, $\textcolor{red}{+}$, $\textcolor{red}{\cdot}$)
+			- Has a different set of adding rules called "red plus"
+			- Different set of scaling rules called "red dot"
+			- Rules are for adding and scaling covectors
+	- Elements of $V^*$ are covectors, V $\to$ $\mathbb{R}$ 
+		- The covectors are functions that go from V to the real numbers
+		- New scaling rule and new addition rule
+			- $(n \cdot \alpha)(\vec v) = n \alpha (\vec v)$
+			- $(\beta + \gamma)(\vec v) = \beta (\vec v) + \gamma (\vec v)$
+	- The adding and scaling rules for the 2 vector spaces are different
+	- Summary
+		- [[covector|Covectors]] are functions $\alpha$: V $\to$ $\mathbb{R}$ that map a vector to a number and also obey the following rules
+			- $\alpha (\vec v + \vec w) = \alpha(\vec {v}) + \alpha (\vec w)$
+			- $\alpha(n\vec v) = n\alpha (\vec v)$
+			- These functions have the properties that we can add and scale inputs or outputs to get the same answer. Known as [[linearity]]. Therefore linear functions
+		- The set of all covectors that act on vector space V together form the vector space $V^*$. They are elements of dual vector space $V^*$ 
+			-  $(n \cdot \alpha)(\vec v) = n \alpha (\vec v)$
+			- $(\beta + \gamma)(\vec v) = \beta (\vec v) + \gamma (\vec v)$
+		- We can visualize them as (oriented) stacks of lines
+			- Just count how many lines the arrow pierces to get the answer

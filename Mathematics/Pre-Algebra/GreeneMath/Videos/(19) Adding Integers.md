@@ -1,0 +1,72 @@
+[Video](https://www.youtube.com/watch?v=6NQXbtcWntY) (unavailable)
+[04:52:21](https://www.youtube.com/watch?v=VXzm8ReImG0&t=17541s)
+
+- Lesson Objectives:
+	- Learn how to add [[integers]] using a [[number line]]
+	- Learn how to add integers without a number line
+- Add each on the number line:
+	- 4 + 3 = 7
+		- ![[Screenshot 2022-12-14 at 6.37.22 AM.png]]
+		- When adding a positive, we move to the right by the number
+		- Positive + Positive gives Positive
+	- -5 + (-2) = -7
+		- ![[Screenshot 2022-12-14 at 6.38.21 AM.png]]
+		- When adding a negative, move left
+		- Negative + Negative gives negative
+	- -1 + (-4) + (-3) = -8
+		-   ![[Screenshot 2022-12-14 at 6.39.27 AM.png]]
+		- Negative + Negative + Negative gives negative
+	- -3 + 1 + (-6) = -8
+		- ![[Screenshot 2022-12-14 at 6.39.57 AM.png]]
+- When adding two or more integers with the same sign:
+	- Add the absolute values and keep the common sign
+		- -5 + (-2) = -7
+			- Just think of numbers as 5 + 2 = 7 and then slap on the common sign to the sum to get -7
+		- -14 + (-13) = -27
+		- -4 + (-1) + (-6) = -11
+		- -8 + (-7) + (-5) + (-12) = -32
+	- -3 + (-2) = -5
+		- Using money, I owe $3 and I borrow $2 so I'm in debt $5 which is representative of $-5. Gives total debt of $-5
+	- 3 + 2 = 5
+		- I have $3 in bank and got $2 in tips gives me a total of $5 in bank
+	- -8 + 6 = -2
+		- The -8 has a larger absolute value meaning its distance from 0 is greater. Absolute value of 6 is 6 units away from 0
+		- If you owe $8 and pay someone $6, you still owe them $2. Not out of debt yet
+		- When adding integers when signs are different, look at number with larger absolute value to give the sign
+	- 8 + (-6) = 2
+		- You have $8 and taking away $6
+		- 8 has the larger absolute value so you use its sign
+		- 8 + (-6) = 8 - 6 = 2
+	- 7 + (-4) = 3
+		- 7 + (-5) = 2
+		- 7 + (-6) = 1
+		- 7 + (-7) = 0
+			- A number + its opposite will give 0
+		- 7 + (-8) = -1
+			- Absolute value of 8 is greater so number will be negative
+		- -6 + 5 = -1
+			- Owe $6 and pay back $5, still owe $1
+- When adding two numbers with different signs:
+	- Use the sign of the number with the larger absolute value
+		- -11 + 3 = -8 ( a negative)
+			- So think of 11 and 3 as positive and do 11 - 3 to get 8 and get add the negative sign to get -8 as the final answer
+- Examples
+	- 16 + (-7) =  +9
+		- 16 - 7 = 9
+	- 13 + -22 = -9
+		- 22 - 13 = 9
+	- -28 + 23 = -5
+		- 28 - 23 = 5
+	- -13 + 12 + 5 = -13 + 17 = 4
+		- Adding more than 2 integers (add all the numbers with a common sign first. Then do a mixed addition)
+		- 17 + (-13) = 4
+			- 17 - 13 = 4
+	- 7 + (-3) + 2 + (-1) = 7 + 2 + (-3) + (-1) = 9 + (-4) = 5
+		- 9 - 4 = 5
+	- -2 + (-7) + 15 + (-11) + 16 = -2 + (-7) + (-11) + 15 + 16
+		- = (-9) + (-11) + 15 + 16
+		- = -20 + 31 = 11
+			- 31 - 20 = 11
+		- Can think of it like this
+			- 31 + (-20) = 31-20 = 11
+				- You have $31 and paid $20 to cover debt and you have $11 left to spend

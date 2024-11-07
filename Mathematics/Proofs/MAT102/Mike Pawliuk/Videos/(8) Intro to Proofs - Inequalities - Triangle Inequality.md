@@ -1,0 +1,62 @@
+[Video](https://youtube.com/watch?v=ex-lb2K_e1w)
+[Lecture Slides](zotero://open-pdf/library/items/PXQ8CKMX?page=1&annotation=PR9JAP78)
+
+- ![[Screenshot 2023-07-28 at 9.08.46 PM.png]]
+	- Slide 1 - Introduction to proofs - Triangle Inequality
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- Apply the [[absolute value function]] in various contexts (algebraically and geometrically).
+			- Relate/distinguish problem solving and rough work to a proof.
+			- Break up a sum using the [[triangle inequality]].
+				- In what's called a [[bounding argument]]
+	- Slide 3 - Motivation
+		- "The sum of any two sides of a triangle is always greater or equal to the third side." 
+		- Motivation 
+			- The triangle inequality is one of the two important inequalities we see in this course. We will understand it geometrically and algebraically.
+	- Slide 4 - [[Absolute value]]
+		- Definition (absolute value)
+			- If x is a real number, then $h(x) = \begin{cases} x & \text {for } x \ge 0 \\ -x& \text{for } x < 0 \end{cases}$ 
+			- Special case. |a - b| is the distance between and b
+	- Slide 5 - More visualizations of absolute value
+		- This picture shows us the inequality: for all real x, x $\le$ |x|.
+		- What is the max value of |$x^2 - 1$| when |x| $\le$ 1?
+			- At x = 0, |$x^2 - 1$| = 1
+	- Slide 6 - Basic Facts about [[absolute value]]
+		- Facts
+			- Let x, y $\in$ $\mathbb{R}$
+				- $x^2 = |x|^2$
+				- $\sqrt{x^2} = |x|$
+				- $x \le |x|$
+				- $|xy| = |x||y|$
+		- Special case of (4). If y = -1, get |-x| = |x||-1| = |x|.
+			- A number in its negative will always have the same absolute value
+		- Special case of this. |b -a| = | -(a - b)| = |a-b|
+			- The distance from a to b is the same as the distance from b to a
+- ![[Screenshot 2023-07-28 at 10.55.28 PM.png]]
+	- Slide 7 - Motivation for [[Triangle Inequality]]
+		- $$ \begin{align*} |x-y|&= |(x-z) + (z-y)| \\ &\le |x-z| + |z-y| \end{align*}  $$
+		- Intuition. Direct routes are shorter than detours (to z)
+	- Slide 8 - Triangle Inequality - Rough Work
+		- Theorem (Triangle Inequality)
+			- For all a, b $\in$ $\mathbb{R}$, |a + b| $\le$ |a| + |b|.
+				- If you go from x to y, that's shorter than taking a detour.
+				- Squaring both sides maintains the inequality
+			- $xy \le |xy|$
+				- This is the basic fact we will start from
+	- Slide 9 - Proof of Triangle Inequality
+		- Proof (shown in image)
+	- Slide 10 - [[Bounding argument]]
+		- Errata
+			- For line 5 of proof, it should be $|x|^5$
+		- Example
+			- Find an M so that $|x^5 - 2x - 5|$ $\le$ M for all $|x| \le 2$
+		- Proof
+			- Solution Use the Triangle inequality (check image)
+	- Slide 11 - Reflection
+		- What's the value in understanding the absolute value function geometrically as well as algebraically
+		- How is the triangle inequality related to triangles?
+		- How come Desmos tells us that $|x^5 - 2x - 5| \le 33$ on the interval $-2 \le x \le 2$, but we got an answer of 41?
+			- ![[Screenshot 2023-07-28 at 10.57.49 PM.png]]
+				- It appears that 33 is the highest point that we can get on the interval between $-2 \le x \le 2$
+				- Not really sure how to get the answer of 41 #archive
+

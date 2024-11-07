@@ -1,0 +1,24 @@
+[Video](https://www.youtube.com/watch?v=ujS6520gt0Y)
+
+- ![[Screenshot 2023-10-26 at 10.25.32 AM.png]]
+	- Angle measurement
+		- [[Angle]]: Measure of the rotation of a given [[ray]] about its initial point
+			- [[Initial side]]
+				- Initial position of ray
+			- [[Terminal side]]
+				- Final position of ray
+			- Initial point can be called [[vertex]]
+		- Counter clockwise gives positive angle measurement
+		- Clockwise gives negative angle measurement
+	- Units of measurement of angles (along with symbols)
+		- One full rotation is 360 degrees
+		- One [[minute]] is written as 1'
+			- "1 Prime"
+		- One [[second]] is written as 1''
+			- 1 double prime
+	- 1 degree = 60 minutes
+	- 1 minute = 60 seconds
+		- With smaller units of measurement, we can express an angle more accurately
+	- We use [[Protractor|protractors]] to measure angles in geometry class
+		- $\theta$ = 50$\degree$ 25' 10''
+	- Manufacturing industry uses tools to measure angles in minutes and seconds

@@ -1,0 +1,45 @@
+[Video](https://www.youtube.com/watch?v=pADOt1tzi2o)
+
+- Central Tendency refers to the measure used to determine the "center" of a distribution of data. It is used to find a single score that is most representative of an entire data set.
+	- 1, 1, 2, 2, 2, 3, 3, 4, 5, 5
+	- If we could pick a single value to represent this sample data set, what ways could we do it?
+- ![[Screenshot 2023-04-28 at 8.16.19 AM.png]]
+	- The Mean
+		- Data Set:
+		- To find the mean, add up all values, then divide by the total number of values you have.
+- ![[Screenshot 2023-04-28 at 8.17.43 AM.png]]
+	- The Median
+		- Data Set
+		- To find the media, first put all the values in order (this has been done already). Next, find out what value lies in the middle. 
+		- What happens when there are two values in the middle? Find the median by calculating the mean of the two values.
+- ![[Screenshot 2023-04-28 at 8.18.25 AM.png]]
+	- The Mode
+		- Data Set
+		- To mode is simply the most frequently occurring value.
+		- For this data set, 2 is the mode because it occurs the most frequently.
+		- ![[Screenshot 2023-04-28 at 8.19.55 AM.png]]
+			- What if more than one value occurs the most?
+			- Data Set: 1, 1, 2, 2, 2, 3, 3, 3, 4, 5, 5
+			- This data set is bi-modal: it has two modes, 2 and 3
+			- A data set with more than one mode can also be described as multi-modal
+- What should you use?
+	- Mean will be used for almost all occasions. However, outliers can sometimes interfere with usage of the mean.
+		- An outlier is a value that is very different from the other data in your data set.
+	- Examples
+		- Data Set: 1, 1, 2, 2, 2, 3, 3, 4, 5, 5
+			- Mean = 2.8
+			- Median = 2.5
+			- Mode = 2
+		-  Data Set: 1, 1, 2, 2, 2, 3, 3, 4, 5, 5, 500
+			- Mean = 48
+			- Median = 3
+			- Mode = 2
+			- In situations with many outliers, the mean is not a good measure of central tendency. The median or mode should be used instead, depending on the type of information you're dealing with.
+- Important Terms
+	- Central Tendency
+	- Mean
+	- Median
+	- Mode
+	- Bi-Modal
+	- Multi-Modal
+	- Outlier

@@ -1,0 +1,35 @@
+[Video](https://youtube.com/watch?v=24gE-Wpy1qE)
+
+- ![[Screenshot 2023-09-08 at 12.19.32 PM.png]]
+	- [[Permutation|Permutations]] - Repetition not allowed
+		- Among strings, permutations is one of the most important classes among classes.
+			- A permutation is a string in which repetition of characters is not allowed
+		- Examples (unless otherwise stated, lowercase and uppercase are distinct)
+			- 12 7 8 6 4 9 11 (yes)
+			- X y a A D 7 A E 9 (No)
+				- No, there are 2 As
+			- 5 b 7 2 4 9 A 7 6 X (No)
+				- There are two 7s
+		- Fact: The number of permutations of length "n" from an "m" letter alphabet is: $P(m, n) = m(m-1)(m-2)...(m-n+1)$ ^0a9870
+			- This is using the [[product rule]] which is a basic principle of enumeration
+				- Instead of total word computation, it is the falling product
+			- Length:  n
+			- Characters in alphabet: m
+		- Language: P(m, n) is the number of permutations of m objects taken n at a time
+	- How to Answer a Question
+		- How many permutations of 68 objects taken 28 at a time?
+			- Answer: P(68, 23)
+				- Don't have to do this by hand
+					- Might have to do P(10, 3) by hand
+			- [[Maple]] can do these calculations
+	- Permutations and [[Combination|Combinations]]
+		- Contrasting problems
+		- Problem 1: A group of 250 students holds elections to identify a class president, a vice-president, and a treasurer. How many different outcomes are possible
+			- [[Permutation]] (order matters)
+		- Problem 2: A group of 250 students holds elections to select a leadership committee consisting of three persons. How many different outcomes are possible?
+			- No distinction between them
+			- [[Combination]] (order does not matter)
+				- Take the numerator to be the permutation problem. Then divide it by a factorial. The factorial is how many objects you're actually taking
+					- Dividing by falling factorial
+			- Read this answer as the number of combinations of 250 objects, taken 3 at a time
+				- There is $3*2*1$ ways to distinguish among the 6 patterns

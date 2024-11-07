@@ -1,0 +1,29 @@
+[Video](https://youtube.com/watch?v=0stavxEccvE)
+
+- ![[Screenshot 2023-06-01 at 9.31.29 AM.png]]
+	- A subset of the [[Vertex Set]] of a [[Graph]] is independent if and only if it contains no pair of [[adjacent vectors]]
+	- {a, c} is an independent vertex set because there is no edge joining any pair of vertices in this set 
+		- "a" and "c" are not joined by an edge in this graph
+		- Sometimes called "independent sets" and with context, we understand that we mean independent vertex sets
+		- Keep calling it an "[[independent vertex set]]" because a similar concept exists for edges
+	- [[maximal independent set]]
+		- {a, c, e} is a maximal independent set
+			- e is a vertex not adjacent to a and c
+		- {a, c} is not a maximal independent set
+		- It's an independent set because no pair of vertices in the set is adjacent in the graph
+			- Maximal independent set because no vertex in the graph that we can add to the set while preserving its independence
+		- {b, e} is a maximal independent set because we are unable to make it larger
+			- It's considered maximal even though there exists an independent set with more vertices {a, c, e}
+	- [[Maximum independent vertex set]]
+		- {a, c, e} is this because there is no other independent vertex set in the graph that has more vertices than this set does
+		- Since the cardinality in this case $|\{a, c, e\}| = 3$, 
+			- [[Vertex Independence Number]]
+				- The independence number of a graph is the greatest possible cardinality of an independent set in that graph
+				- $\alpha (G) = 3$
+					- alpha of G is equal to 3
+						- The graph is called "G"
+					- It is the maximum possible cardinality for an independent set in the graph
+						- For this case, {a, c, e} is the only maximum independent vertex set in the graph, but they are not unique things in general
+						- In graph H, {b, e} and {c, e} are both independent vertex sets with cardinality 2 meaning maximum independent vertex sets are not necessarily unique
+	- For the hexagonal shaped graph, the independence number of the graph is 3. The set {b, d, f} is a maximum independent set of this graph. So is the set {c, e, g}.
+		- The reason this works is because <mark style="background: #FFF3A3A6;">b</mark>, <mark style="background: #FFF3A3A6;">d</mark>, and <mark style="background: #FFF3A3A6;">f</mark> have no pair of adjacent vertices. If we tried to include vertex <mark style="background: #FFF3A3A6;">e</mark>, it would not be an adjacent vertex of <mark style="background: #FFF3A3A6;">b</mark> but it would be an adjacent vertex of both <mark style="background: #FFF3A3A6;">d</mark> and <mark style="background: #FFF3A3A6;">f</mark>

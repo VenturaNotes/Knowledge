@@ -1,0 +1,54 @@
+[Video](https://youtube.com/watch?v=wqg6OiwI0ls)
+
+---
+- ![[Screenshot 2023-05-17 at 2.55.03 AM.png]]
+- A statistical study
+	- In the real world, we often want to answer a question or gather knowledge about a particular subject. To do this in a way in which our results can be trusted and verified, we must follow the process of a statistical study. In this lesson we will focus only on the first step. The other steps will be developed throughout the remainder of our course.
+		- (1) Determine the design of the study
+			- What questions are we trying to answer? (why?)
+			- What is the population? (who?)
+			- What variables will we record? (what)
+			- What is the sampling method? (how?)
+				- Observational study (retroactive or proactive)
+				- Experiment
+		- (2) Collect the daa
+		- (3) Organize the data
+		- (4) Analyze the data to answer the question
+---
+- ![[Screenshot 2023-05-17 at 2.58.54 AM.png]]
+- A sample statistical study
+	- Let us imagine we want to understand the significance of walking to reduce heart attacks. The goal of the study is to determine if walking 30 minutes per day will reduce the occurrence of heart attacks.
+		- What question are we trying to answer?
+			- Goal of the study is to determine if walking 30 minutes per day will reduce the occurrence of heart attacks
+		- What is the population?
+			- At risk for heart attack
+		- What variables will we record?
+			- The # of minutes walking, # of heart attacks
+		- What is the sampling method?
+---
+- ![[Screenshot 2023-05-17 at 3.02.48 AM.png]]
+- A sample study
+	- Neurologists want to study the effect of vitamin C on nerve disorders. The goal of the study is to see if taking an intravenous dose of vitamin C will reduce the amount of nerve pain reported by patients
+		- What question we trying to answer?
+			- To see if taking an intravenous dose of vitamin C reduces nerve pain
+		- What is the population?
+			- Those with a specific nerve disorder
+		- What variables will we record?
+			- Vitamin C dosage  and nerve pain reported by patients
+---
+- ![[Screenshot 2023-05-17 at 3.06.07 AM.png]]
+- The [[Sampling Method]]
+	- There are two ways in which to collect data:
+	- [[Observational study]]
+		- Use data that is readily available (retroactive) or select members of the population and observe specific trains or characteristic (proactive).
+		- Cannot definitively determine cause and effect, only correlation
+		- Negatives include finding quality data for a retroactive study and the time it takes to collect data for a proactive study.
+	- [[Experiment]]
+		- Applying a treatment of any kind to determine a cause-and-effect relationship
+		- Negatives are the results are only good as the design of the experiment
+---
+- ![[Screenshot 2023-05-17 at 3.08.04 AM.png]]
+- The Sampling Method
+	- Which type of study would you conduct: an <mark style="background: #FFF3A3A6;">observational study</mark> or an <mark style="background: #FFB86CA6;">experiment</mark>?
+		- <mark style="background: #FFF3A3A6;">You want to determine the average age of college students across the nation.</mark>
+		- <mark style="background: #FFB86CA6;">Researchers wish to determine if the covid vaccinations will help prevent severe cases of COVID-19</mark>

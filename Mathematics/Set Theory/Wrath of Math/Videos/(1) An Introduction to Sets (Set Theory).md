@@ -1,0 +1,42 @@
+[Video](https://youtube.com/watch?v=U4wui1mtotg)
+
+- [[Set]]
+	- Unordered collection of <mark style="background: #FFF3A3A6;">distinct objects</mark>
+- {1, 2, 3} = A
+	- This is a set
+	- Objects in the set are referred to as elements
+	- Sets are generally named with capital letters
+	- 1,2,3 $\in$ A
+		- Means 1, 2, and 3 are elements of A
+		- 1 $\in$ A, 2 $\in$ A, 3 $\in$ A
+- [[Unordered]]
+	- B = {3, 2, 1}
+		- B = A because they have the same elements (sets are unordered)
+- [[Distinct]]
+	- C = {1, 2, 3}
+		- 4 dice rolls
+			- 1, 2, 3, 1
+	- Only distinct elements go in set
+	- C = A = B
+- [[Objects]]
+	- A set doesn't need to contain just numbers
+		- Pringle flavors
+		- Breeds of dogs
+		- D = {$\Large \circ$, ♡, $\triangle$}
+			- This sets contains circle, heart, and triangle
+			- D $\neq$ A
+			- D and A have the same cardinality though
+- [[Cardinality]]
+	- Number of elements in a set
+	- Use the absolute value symbol
+	- |A| = 3
+		- {1, 2, 3}
+	- |B| = 3
+		- {3, 2, 1}
+	- |D| = 3
+		- {$\Large \circ$, ♡, $\triangle$}
+- [[Subsets]]
+	- E = {1, 2}
+	- E $\subseteq$ A
+		- All of the element in E are in A
+		- All of the element in A are not in E

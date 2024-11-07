@@ -1,0 +1,71 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PL3ZJrWtEhQ6zIzlcDhFsQ-i9hPG2WhPN4
+  - https://mikepawliuk.ca/introduction-to-proofs/
+Length: 9 hours, 14 minutes, 49 seconds
+Related:
+  - "[[Home Page - Introduction to Mathematical Proofs by Shay Fuchs]]"
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Notes
+	- https://www.eecs70.org/ + practice problems #archive
+	- https://www.sp22.eecs70.org/ (solutions to homework not shown)
+- Complete
+	- [[(1) Intro to Proofs - Introduction - part 1 and 3]]
+	- [[(2) Intro to Proofs - Introduction - Part 2 and 3]]
+	- [[(3) Intro to Proofs - Introduction - Part 3 and 3]]
+	- [[(4) Intro to Proofs - Number Systems]]
+	- [[(5) Intro to Proofs - Even and Odds]]
+	- [[(6) Intro to Proofs - Divisibility]]
+	- [[(7) Intro to Proofs - Axioms and Theorems]]
+	- [[(8) Intro to Proofs - Inequalities - Triangle Inequality]]
+	- [[(9) Intro to Proofs - Inequalities - AMGM]]
+	- [[(10) Intro to Proofs - Inequalities - Axioms]]
+	- [[(11) Intro to Proofs - Sets - Intro Part 1 and 2]]
+	- [[(12) Intro to Proofs - Sets - Intro Part 2 and 2]]
+	- [[(13) Intro to Proofs - Sets - Intervals, unions, intersections, and others]]
+	- [[(14) Intro to Proofs - Sets - Identities and counterexamples]]
+	- [[(15) Intro to Proofs - Functions]]
+	- [[(16) Intro to Proofs - Functions - Range of rational functions]]
+	- [[(17) Intro to Proofs - Mathematical Statements and Quantifiers]]
+	- [[(18) Intro to Proofs - Truth and Falsity]]
+	- [[(19) Intro to Proofs - Logical Equivalence]]
+	- [[(20) Intro to Proofs - Negation - Part 1 and 2]]
+	- [[(21) Intro to Proofs - Negation - Part 2 and 2]]
+	- [[(22) Intro to Proofs - Proof Strategies - Direct and Contrapositive]]
+	- [[(23) Intro to Proofs - Proof Strategies - Contradiction. Part 1 and 2]]
+	- [[(24) Intro to Proofs - Proof Strategies - Contradiction. Part 2 and 2]]
+	- [[(25) Intro to Proofs - Sum and Product notation - Part 1 and 2]]
+	- [[(26) Intro to Proofs - Sum and Product notation - Part 2 and 2]]
+	- [[(27) Intro to Proofs - Intro to Induction - Part 1 and 2]]
+	- [[(28) Intro to proofs - Intro to Induction - Part 2 and 2]]
+	- [[(29) Into to Proofs - Induction Variations part 1 and 2]]
+	- [[(30) Intro to Proofs - Induction variations - part 2 and 2]]
+	- [[(31) Intro to Proofs - Induction - Recursion]]
+	- [[(32) Intro to Proofs - Induction - Strong Induction]]
+	- [[(33) Intro to Proofs - Induction - Binary Representation]]
+	- [[(34) Intro to Proofs - Injections Surjections Bijections - part 1 and 2]]
+	- [[(35) Intro to Proofs - Injections Surjections Bijections - part 2 and 2]]
+	- [[(36) Intro to proofs - Inverse functions - Part 1 and 2]]
+	- [[(37) Intro to proofs - Inverse functions - Part 2 and 2]]
+	- [[(38) Intro to proofs - Compositions - Part 1 and 2]]
+	- [[(39) Intro to proofs - Compositions - Part 2 and 2]]
+	- [[(40) Intro to Proofs - Cardinality - Intro]]
+	- [[(41) Intro to Proofs - Cardinality - Examples]]
+- Incomplete
+	- [[(42) Intro to Proofs - Countability - Intro]]
+	- [[(43) Intro to Proofs - Countability - Rationals]] (powerpoint not available)
+	- [[(44) Intro to Proofs -  Countability - Diagonalization]]
+	- [[(45) Intro to Proofs - Power set]]
+	- [[(46) Intro to Proofs - Paradoxes - This title is a lie]]
+	- [[(47) Intro to Proofs - Cantor's theorem]]
+	- [[(48) Intro to Proofs - Number Theory - GCD and LCM]]
+	- [[(49) Intro to Proofs - Number Theory - Euclidean GCD Algorithm]]
+	- [[(50) Intro to Proofs - Number Theory - Fundamental Theorem of Arithmetic]]
+	- [[(51) Intro to Proofs - Relations]]
+	- [[(52) Intro to Proofs - Equivalence relations - Part 1 and 2]]
+	- [[(53) Intro to Proofs - Equivalence relations - Part 2 and 2]]
+	- [[(54) Intro to Proofs - Equivalence Classes - Part 1 and 2]]
+	- [[(55) Intro to Proofs - Equivalence Classes - Part 2 and 2]]

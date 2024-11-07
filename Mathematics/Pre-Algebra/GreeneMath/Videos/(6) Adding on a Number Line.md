@@ -1,0 +1,37 @@
+[Video](https://www.youtube.com/watch?v=90YviIiO0eU) (unavailable)
+[00:57:43](https://www.youtube.com/watch?v=VXzm8ReImG0&t=3463s)
+
+- Adding [[Whole Numbers]] using a Number Line
+- Lesson Objective:
+	- Learn how to add whole numbers using a [[number line]]
+- During a previous lesson, we talked about using a number line to visually represent a group of numbers.
+- Let's look at a number line that shows the whole numbers: 0, 1, 2, 3, 4, ...
+	- The 3 dots means that the pattern which were increasing in increments of 1 is going to continue forever. (5,6,7 so on and so forth)
+- Visual representation of the whole numbers on number line
+	- ![[Screenshot 2022-12-12 at 3.09.01 AM.png]]
+	- Every time you have another notch, you move on to the next whole number
+		- These lines can also be referred to as ticks
+	- Impossible to list all the whole numbers
+	- 0 is the leftmost number
+	- The arrow says it'll continue forever
+- We can use the number line to visually show the addition of whole numbers. This may seem like a trivial exercise, but it will help us a lot when we start working with integers.
+- So how do we add whole numbers on a number line?
+- We start at the left most number, and move to the right by the number of units being added.
+	- 3 + 7
+		- Start at 3 on the number line
+		- Move to the right by 7 units
+- Add 2 + 6 using the number line
+	- ![[Screenshot 2022-12-12 at 3.11.03 AM.png]]
+- Add 4 + 7 using a number line
+	- ![[Screenshot 2022-12-12 at 3.11.52 AM.png]]
+		- larger and more crowded number line
+		- 4 + 7 = 11
+- Add 6 + 5 + 1 using a number line
+	- ![[Screenshot 2022-12-12 at 3.12.24 AM.png]]
+		- 6 + 5 + 1 = 12
+- Add 3 + 2 + 1 + 7 using a number line
+	- ![[Screenshot 2022-12-12 at 3.13.18 AM.png]]
+		- 3 + 2 + 1 + 7 = 13
+- Add 2 + 3 + 5 + 4 + 7 + 1 using a number line
+	- ![[Screenshot 2022-12-12 at 3.14.53 AM.png]]
+		- 2 + 3 + 5 + 4 + 7 + 1 = 22

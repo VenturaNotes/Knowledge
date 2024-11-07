@@ -1,0 +1,61 @@
+[Video](https://youtube.com/watch?v=nJxuk5PkLkA)
+
+---
+- Subset of a set
+	- A set, A, is a subset of set B if every element of A is also an element of B
+	- ![[Screenshot 2023-03-28 at 2.00.55 PM.png]]
+		- A is a subset of B in this example
+	- Notation: $A \subseteq B$ 
+		- Set A must have less than or the same elements as set B
+		- Honestly just think of the less than or equal to symbol $\le$
+	- Additional Notation:
+		- A $\nsubseteq$ B means that A is not a subset of B.
+			- The slash is a negation symbol
+	- Every set is a subset of U
+	- We can represent subsets within Venn Diagrams
+		- ![[Screenshot 2023-03-28 at 2.03.54 PM.png]]
+			- In this case $A \subseteq B$ 
+---
+- Example
+	- Create a Venn diagram given the following information:
+		- U = {Devils, Giants, Islanders, Jets, Knicks, Mets, Nets, Rangers, Red Bulls, Yankees}, N = {Giants, Islanders, Jets, Knicks, Mets, Nets, Rangers, Yankees}
+		- B = {Mets, Yankees}
+		- ![[Screenshot 2023-03-28 at 2.05.57 PM.png]]
+			- In this example, set B is completed contained within set N
+- More examples!
+	- Write $\subseteq$ or $\nsubseteq$ to make the statement true.
+		- {3, 4, 5, 6} _ {4, 5, 6, 7, 8}
+			- $\nsubseteq$ 
+		- $\mathbb{Z}$ _ $\mathbb{Q}$
+			- $\subseteq$
+		- {4, 8, 12, 16} _ {2, 4, 6, ..., 18, 20}
+			- $\subseteq$
+		- {1, 2, 3, 4} _ {1, 2, 3, 4}
+			- $\subseteq$
+---
+- Discussion Point
+	- The last example showed identical sets. When this is the case, we say the sets are equal to each other.
+		- Set A = set B if A $\subseteq$ B and $B \subseteq A$ 
+		- For example: R = {a, b, c, d} and B = {a, c, b, d}
+		- These two sets are equal
+			- R = B
+		- In set theory, [[(8) Equal Sets and Equivalent Sets - Don't Memorise|equal and equivalent are not the same thing]].
+	- For 2 sets that are equal, they must contain the exact same elements
+---
+- A [[proper Subset]]
+	- Set A is a <mark style="background: #FFF3A3A6;">proper subset</mark> of set B if A is a subset of B and there is an element in B not in A
+	- Notation for proper subset: $\subset$ 
+	- Examples: If A = {1, 2} and B = {0, 1, 2, 3, 4, 5} then A $\subset$ B. A $\subseteq$ is also valid.
+---
+- Example
+	- Decide whether $\subset$, $\subseteq$, or both can be placed in the blank to make a true statement
+		- {2, 4, 6} _ {2, 4, 6}
+			- $\subseteq$ 
+		- {June, July} _ {January, February, March, April, May, June, July, August, September, October, November, December}
+			- $\subset$ and $\subseteq$ 
+		- {} _ {1, 2, 99, 100}
+			- $\subset$ and $\subseteq$ 
+---
+- The Infamous Null Set
+	- It turns out that the Null Set is a subset (and a proper one, for that matter) of every non-empty set
+	- Therefore, every non-empty set has at least two subsets, the null set and itself

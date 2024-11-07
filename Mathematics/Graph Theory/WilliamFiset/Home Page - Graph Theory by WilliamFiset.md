@@ -1,0 +1,53 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P
+Length: 8 hours, 15 minutes, 1 second
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Graph Theory Algorithms]]
+	- [[(2) Graph Theory Introduction]]
+	- [[(3) Overview of algorithms in Graph Theory]]
+	- [[(4) Depth First Search Algorithm  - Graph Theory]]
+	- [[(5) Breadth First Search Algorithm  - Shortest Path  - Graph Theory]]
+	- [[(6) Breadth First Search grid shortest path  - Graph Theory]]
+	- [[(7) Introduction to tree algorithms  - Graph Theory]]
+	- [[(8) Beginner tree algorithms  - Graph Theory]]
+	- [[(9) Rooting a tree  - Graph Theory]]
+	- [[(10) Tree center(s)  - Graph Theory]]
+	- [[(11) Identifying Isomorphic Trees  - Graph Theory]]
+	- [[(12) Identifying Isomorphic Trees  - Source Code  - Graph Theory]]
+	- [[(13) Lowest Common Ancestor (LCA) Problem  - Eulerian path method]]
+	- [[(14) Lowest Common Ancestor (LCA) Problem  -  Source Code]]
+	- [[(15) Topological Sort Algorithm  - Graph Theory]]
+	- [[(16) Topological Sort  - Kahn's Algorithm  - Graph Theory]]
+	- [[(17) Shortest and Longest path on a Directed Acyclic Graph (DAG)   - Graph Theory]]
+	- [[(18) Dijkstra's Shortest Path Algorithm  - Graph Theory]]
+	- [[(19) Dijkstra's Shortest Path Algorithm  - Source Code  - Graph Theory]]
+	- [[(20) Bellman Ford Algorithm  - Shortest path & Negative cycles  - Graph Theory]]
+	- [[(21) Floyd Warshall All Pairs Shortest Path Algorithm  - Graph Theory  - Dynamic Programming]]
+	- [[(22) Floyd Warshall All Pairs Shortest Path Algorithm  - Graph Theory  - Dynamic Programming  - Source Code]]
+	- [[(23) Tarjan's Strongly Connected Component (SCC) Algorithm (UPDATED)  - Graph Theory]]
+	- [[(24) Tarjans Strongly Connected Components algorithm source code  - Graph Theory]]
+	- [[(25) Traveling Salesman Problem  - Dynamic Programming  - Graph Theory]]
+	- [[(26) Travelling Salesman Problem source code  - Dynamic Programming  - Graph Theory]]
+	- [[(27) Existence of Eulerian Paths and Circuits  - Graph Theory]]
+	- [[(28) Eulerian Path and Circuit algorithm (Hierholzer's algorithm)  - Graph Theory]]
+	- [[(29) Eulerian Path Algorithm  - Graph Theory  - Source Code]]
+	- [[(30) Prim's Minimum Spanning Tree Algorithm  - Graph Theory]]
+	- [[(31) Eager Prim's Minimum Spanning Tree Algorithm  - Graph Theory]]
+	- [[(32) Eager Prim's Minimum Spanning Tree Algorithm  - Source Code]]
+	- [[(33) Max Flow Ford Fulkerson  - Network Flow  - Graph Theory]]
+	- [[(34) Max Flow Ford Fulkerson  - Source Code]]
+	- [[(35) Unweighted Bipartite Matching  - Network Flow  - Graph Theory]]
+	- [[(36) Bipartite Matching  - Mice and Owls problem  - Network Flow  - Graph Theory]]
+	- [[(37) Bipartite Matching  - Elementary Math problem  - Network Flow  - Graph Theory]]
+	- [[(38) Edmonds Karp Algorithm  - Network Flow  - Graph Theory]]
+	- [[(39) Edmonds Karp Algorithm  - Source Code]]
+	- [[(40) Capacity Scaling  - Network Flow  - Graph Theory]]
+	- [[(41) Capacity Scaling  - Network Flow  - Source Code]]
+	- [[(42) Dinic's Algorithm  - Network Flow  - Graph Theory]]
+	- [[(43) Dinic's Algorithm  - Network Flow  - Source Code]]

@@ -1,0 +1,75 @@
+[Video](https://youtube.com/watch?v=imeIbFumvi8)
+
+---
+- ![[Screenshot 2023-05-17 at 3.11.09 AM.png]]
+- Observational Studies
+	- Our goal is to collect data about our population. However, it is too costly or difficult to perform a census, so we instead find a sample that has the same relevant characteristics as the population. A representative sample has the same relevant characteristics as the population and does not favor one group from the population over another.
+	- There are several techniques we can use to collect sample data.
+		- [[Random Sample]]
+		- [[Simple Random Sample (SRS)]]
+		- [[Stratified Sample]]
+		- [[Cluster Sample]]
+		- [[Systematic Sample]]
+		- [[Convenience Sample]]
+---
+- ![[Screenshot 2023-05-17 at 3.13.56 AM.png]]
+- Sampling Methods
+	- <mark style="background: #FFF3A3A6;">Random Sample</mark>
+		- Every member of the population has an equal chance of being selected.
+		- Subjects are often assigned numbers, then a random number generator is used to determine those chosen for the sample
+	- <mark style="background: #FFF3A3A6;">Simple random sample (SRS)</mark>
+		- Every sample from the population has an equal chance of being selected.
+		- For example, if I want to know how on-campus students would rate the food in the cafeteria, I could randomly select several residential classes, then randomly select several students from each of those classes to survey
+---
+- ![[Screenshot 2023-05-17 at 3.17.46 AM.png]]
+- Sampling Methods
+	- <mark style="background: #FFF3A3A6;">Stratified Sample</mark>
+		- The population is divided into subgroups called strata and a proportional random sample from each strata are surveyed.
+		- This method is used to ensure that there is equal representation of each group. For instance, if freshmen make up 40% of the student body, then our sample will be comprised of 40% responses from freshmen.
+	- <mark style="background: #FFF3A3A6;">Cluster sample</mark>
+		- The population is divided into subgroups, called clusters, that are similar to the population and whole clusters are chosen at random
+		- This is often used in counties and voting precincts
+---
+- ![[Screenshot 2023-05-17 at 3.21.00 AM.png]]
+- Sampling Methods
+	- <mark style="background: #FFF3A3A6;">Systematic Sample</mark>
+		- Selecting every nth member of the population.
+		- We must be sure that members are representative of the population
+		- For instance, choosing every 4th bottle to test would be a great way to use systematic sampling. Speaking to every 5th person in line at the cafeteria would not be, as those in line obviously like the food and those not in line would not be included in the study.
+	- <mark style="background: #FFF3A3A6;">Convenience Sample</mark>
+		- The sample is convenient for the researcher to select.
+		- This generally isn't a great option, as it often leaves gorups unrepresented in the sample.
+		- However, if a grocer wants to know how much of each type of ice cream to keep in stock, this might be a great way since it would reach his customers.
+---
+- ![[Screenshot 2023-05-17 at 3.27.25 AM.png]]
+- <mark style="background: #FFF3A3A6;">Identifying Sampling Methods</mark>
+	- Identify the type of sampling used in each of the following scenarios
+		- A pollster surveys 50 people in each of a senator's 12 voting precincts
+			- <mark style="background: #FFF3A3A6;">Stratified Sampling</mark>: The voting precincts are the strata
+		- The quality control department at a cereal manufacturer measures the weight of every 10th box off the assembly line
+			- <mark style="background: #FFF3A3A6;">Systematic Sample</mark>: The system of selecting the sample is to choose every 10th box
+		- A female student walks down the halls in her dorm asking students how much money the would spend in a food court in the dorm lobby in an effort to persuade the administration to offer such an option
+			- <mark style="background: #FFF3A3A6;">Convenience Sample</mark>: This would be a very easy method of surveying for this particular scenario, and it would provide a representative sample of the dorm residents.
+---
+- ![[Screenshot 2023-05-17 at 3.44.13 AM.png]]
+- Identifying Sampling Methods
+	- Identify the type of sampling used in each of the following scenarios
+		- a. Cluster Sampling: Every school district in the Chicago area is a cluster
+		- b. Random Sample: Every name in the box has a equal chance of being chosen.
+---
+- ![[Screenshot 2023-05-17 at 3.46.17 AM.png]]
+- Types of Observational Studies
+	- [[Cross-sectional study]]: data are collected at a single point in time
+	- [[Longitudinal Study]]: Data are gathered by following a particular group over a period of time
+	- [[Meta-analysis]]: A study that compiles information from previous studies
+	- [[Case Study]]: looks at multiple variables that affect a single event
+---
+- ![[Screenshot 2023-05-17 at 3.47.20 AM.png]]
+- Cross-sectional or Longitudinal
+	- (a) Longitudinal
+	- (b) Cross-sectional
+---
+- ![[Screenshot 2023-05-17 at 3.48.40 AM.png]]
+- Meta-analysis or case study
+	- (a) Meta-Analysis
+	- (b) Case Study

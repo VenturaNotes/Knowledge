@@ -1,0 +1,23 @@
+[Video](https://youtube.com/watch?v=EswBG4VsHnw)
+
+---
+- ![[Screenshot 2023-05-12 at 8.41.13 AM.png|500]]
+- [[De Morgan's Law]] for Logic
+- For any statements p and q
+	- Kind of similar to the distributive property
+		- Negation of a disjunction is a conjunction
+		- Negation of a conjunction is a disjunction
+---
+- ![[Screenshot 2023-05-12 at 8.42.20 AM.png|500]]
+- Verifying
+---
+- Applying De Morgan's Law to negations
+	- Write the negation of each statement
+		- I will pass this test or I will drop the class
+			- I will not pass this test and i will not drop the class
+		- This movie is awesome and it is a comedy
+			- The movie is not awesome or it is not a comedy
+		- I will go to the beach and I will not get sunburned
+			- I will not go to the beach or I will get sunburned
+		- Dogs are not cute and cats are the best
+			- Dogs are cute or cats are not the best

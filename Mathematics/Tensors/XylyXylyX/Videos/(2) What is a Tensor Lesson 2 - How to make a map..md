@@ -1,0 +1,71 @@
+[Video](https://www.youtube.com/watch?v=4JVwvLXMER0)
+
+- ![[Screenshot 2023-09-29 at 4.35.16 PM.png]]
+	- A 4-dimensional vector space will always find 4 vectors where through [[linear combination|linear combinations]] 
+		- The 4 vectors combined linearly through the real numbers using the multiplication property of scalars and the vector addition property can produce any other vector in the vector space
+			- M = aw + bv + cp + dq
+	- Let's assume a [[basis]] exists
+		- Picking a basis from the set is an arbitrary choice since there is an infinite number of possibilities for basis vectors
+		- When working with a vector space, it almost always means picking a basis (which is not always true. Can do the theory in a basis free way)
+	- We call every number of the [[basis]] "e" for our notation
+		- e will represent all 4 of the vectors but to distinguish each one, will be given a subscript
+			- $e_0, e_1, e_2, e_3$ 
+				- If we want to talk about the basis in general, will do $e_\mu$
+					- Greek letters will go from 0, 1, 2, and 3
+						- Always count from 0 in modern system (although there are textbooks which start at 1 and go to 4)
+				- $e_\mu$ is a representation of a [[basis]]
+	- Vectors sometimes represented as boldface or $A = \vec{A}$ 
+	- Our shorthand sum using [[Einstein's summation convention]]
+		- $A^\mu e_\mu$ = $A_\mu e_\mu$ 
+			- Identified basis $e_\mu$ which is a vector in the vector space V
+			- Identified components of vector A that comes from the real numbers
+	- [[Maps]]
+		- Create a vector space and another vector space
+			- $e_\mu$ is the basis vectors of V
+			- $f_\mu$ is the basis vectors of W
+			- Can you create a relationship between the two vector spaces?
+				- Could in principle create a map called $\Lambda$
+					- Lambda's goal is to take any vector in vector space V and assign it to a vector that lives in the vector space W. This is very much like a function
+					- There are maps which are functions
+					- Need to find each vector in V has a home in W
+						- It's a rule given a vector as an input in V will be an output in W
+				- $\Lambda : V \to W$
+					- A map from the domain of V to the range W
+				- $\Lambda v \to w$ 
+					- The map acting specifically on v will give w
+					- [[Operator form]]
+				- $\Lambda (v) \to w$ 
+					- [[Function form]]
+					- v is the argument being put in
+				- $\langle \Lambda, v\rangle$ $\to$ w
+					- [[Bracket notation]]
+					- Parts
+						- Map goes in first slot
+						- Domain vector goes into right slot
+						- Answer is a vector from w
+					- Map acting on vector giving w
+					- This form of bracket notation is different from [[quantum mechanics]]
+			- Will show how map works on every vector of vector space because they're linear maps
+				- Only interested in [[linear maps]]
+					- $\langle \Lambda, v + p\rangle = \langle \Lambda, v \rangle + \langle \Lambda, p\rangle$
+					- A map acting on a sum of two vectors in domain V that equals the sum of the map applied to v and the map applied to p
+					- $\langle \Lambda, v + p\rangle$
+						- This is from the vector space V addition property
+						- Adding vectors in V and then mapping the result (which is part of what linear means)
+					- $\langle \Lambda, v \rangle + \langle \Lambda, p\rangle$
+						- Adding 2 vectors in W after mapping v and p individually
+						- This is adding 2 vectors in W after mapping v and p individually (then adding the vectors in W)
+				- Adding the vectors in V and the
+				- Linear maps with constants in front of vectors
+					- $\langle \Lambda, av + bp\rangle = a\langle \Lambda, v \rangle + b\langle \Lambda, p\rangle$
+						- $\langle \Lambda, av + bp\rangle$
+							- Here, used the scalar multiplication property in vector space V
+							- Then added the two vectors using the addition property in V
+						- $a\langle \Lambda, v \rangle + b\langle \Lambda, p\rangle$
+							- Can do everything in W and execute the map to get the 2 vectors in W
+							- Do the scalar multiplication in W and then add them together
+				- You can create a map arbitrarily but define it based on the basis
+				- Once you create a [[map]] for the [[basis]], you can map anything
+					- We can do that because an arbitrary vector from V called A = $A^\mu e_\mu$ 
+						- will be able to map onto W using $\langle \Lambda, A \rangle$ 
+	- Now we can define what's called the [[dual space]]

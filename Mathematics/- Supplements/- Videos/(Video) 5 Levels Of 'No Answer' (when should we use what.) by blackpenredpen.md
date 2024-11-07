@@ -1,0 +1,45 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=X49Li90XWSk
+Length: 24 minutes, 49 seconds
+tags:
+  - status/complete
+  - type/video
+Published: true
+---
+- ![[Screenshot 2023-06-19 at 10.43.59 PM.png|300]]
+	- The difference between
+		- (1) [[No real value]]
+		- (2) [[No solution]]
+		- (3) [[Doesn't exist]]
+		- (4) [[Undefined]]
+		- (5) [[Indeterminate]]
+- ![[Screenshot 2023-06-19 at 10.43.46 PM.png]]
+	- (1) No Real Value Examples (sqrt of negative, logarithm of negative)
+		- When a solution has a complex value
+			- $\sqrt{neg}$ 
+				- Square root of any negative number
+			- ln(neg)
+				- logarithm of a negative number has a complex value as well
+	- (2) No Solution Examples (for equations: sqrt equaling negative, absolute value equaling negative)
+		- No real solution
+			- If you don't have complex numbers, there'd be no <mark style="background: #FFF3A3A6;">real</mark> solution but it has a complex solution (x = $\pm$ 4i)
+		- No solution at all
+			- square root of a variable to equal a negative number
+			- Absolute values equaling a negative number
+	- (3) Doesn't exist Examples (for limit)
+		- $\lim_{x\to \infty}$
+			- Does there exist a number that $sinx$ is approaching when x is approaching infinity?
+	- (4) Undefined Example (for computation)
+		- $\frac 60$
+		- $2^0$ = 1
+			- By definition is equal to 1
+				- Technically, this is not a proof. You can't prove a definition
+		- $0^0$ is undefined since we don't have a definition for that.
+	- (5) Indeterminate (For limit)
+		- When you get $\frac 00$ for finding a limit, it's usually an indicator to do more work.
+			- Doesn't tell you any information about the answer. That's why we say "indeterminate". You can't draw any conclusion yet.
+				- If you get indeterminate, you need to do more work.
+		- [[Indeterminate family]] (for limit)
+			- $\frac 00, \frac {\infty}{\infty}$
+				- $1^{\infty}$, $0*\infty$, $\infty^0$, $\infty$ - $\infty$, $0^0$ 

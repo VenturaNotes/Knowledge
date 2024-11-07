@@ -1,0 +1,66 @@
+[Video](https://www.youtube.com/watch?v=QFu90uB_4FE)
+
+- ![[Screenshot 2023-12-08 at 2.40.23 AM.png]]
+	- [[Counting]]
+		- Example: My son Sebastian must select a meal for lunch at school
+			- Main Course
+				- Ham sandwich
+				- Chicken Nuggets
+				- Mozzarella Sticks
+				- Pizza
+			- Side
+				- Fruit cup
+				- Carrots
+				- Raisins
+			- Drink
+				- Water
+				- Milk
+		- How many lunches are possible?
+			- $4*3*2 = 24$
+				- [[Multiplication principle]]
+			- Can draw a [[tree diagram]] to see all of the possibilities
+	- Definition: A [[list]] is an ordered sequence of elements.
+		- The parentheses tells you it's a list (These 3 examples are all different)
+			- (1, 8, 5)
+				- Length 3
+			- (8, 1, 5)
+				- Length 3
+			- (1, 1, 8, 8, 5, 5)
+				- Length 6
+	- An [[ordered pair]] is basically a list of length 2
+		- [[Cartesian product]]
+	- [[Multiplication rule]] (Stated for list of length 2)
+		- If we have m choices for 1st element in a list and for each of the m choices, we have n choices for the second element of the list. Then total number of lists is $m \times n$ 
+	- Recall: |A| = m and |B| = n
+		- We mentioned |A $\times$ B| = |A||B| = m $\times$ n
+			- A $\times$ B = length 2 lists where 1st element is in A and 2nd element is in B
+		- This formula comes from the multiplication rule
+	- A lot of counting generally can come down to thinking about sets and Venn diagrams
+	- Example: How many 5 digit zip codes can be made with
+		- No restrictions?
+		- Only even digits?
+		- No digits repeated?
+			- Notation P(10, 5)
+				- Means $\frac {10!}{5!}$
+- ![[Screenshot 2023-12-08 at 2.57.47 AM.png]]
+	- P(n, k) = number of lists of length k of n elements no repetition
+		- $\frac {n!}{(n-k)!}$
+		- P comes from [[Permutation|permutations]]
+			- k permutations of n elements (orderings)
+				- Orderings of k elements chosen from a collection of n 
+	- [[factorial]]
+		- n $\in$ $\mathbb{N}$
+		- $n! = n(n-1)(n-2)...3*2*1$
+		- $0! = 1$
+		- $n! = n(n-1)!$
+	- How many 5 digit zip codes can be made with
+		- Exactly one 7?
+			- Can use [[addition rule]]
+				- They are all [[disjoint]]
+				- Says that we have a collection of [[pairwise disjoint sets]], to get the cardinality of the union, just add up the cardinalities of the individual sets
+				- $|A_1 \cup A_2  \cup ... \cup A_n| = \Sigma_{i=1}^n|A_i|$ 
+		- At least one 7?
+			- [[Subtraction rule]]
+				- Counting comes up to sets
+				- $|\overline A| = |U| - |A|$ 
+					- All zip codes (5-digit) - Zip codes with no 7s = zip codes with at least one 7

@@ -1,0 +1,37 @@
+[Video](https://www.youtube.com/watch?v=N8WdW7UzC2I)
+
+- ![[Screenshot 2023-12-08 at 1.20.03 AM.png]]
+	- [[biconditional|biconditional statement]]
+		- p $\iff$ q
+		- p $\leftrightarrow$ q
+			- "p if and only if q"
+		- True provided p and q have the same truth value
+	- Definition: Two [[Compound statement|compound statements]] are [[logically equivalent]] provided they have the same truth value for every possible input
+		- Will use truth tables
+	- Let's show if the statements are logically equivalent
+		- Use intermediate steps
+		- As columns 3 and 6 have the same truth values $p \iff q = (p \implies q) \land (q \implies p)$
+	- Another proof example
+		- One of [[De Morgan's Laws]]
+			- $\lnot(p \lor q) = (\lnot p) \land (\lnot q)$ 
+			- $\lnot(p \land q) = (\lnot p) \lor (\lnot q)$ 
+		- As columns 4 and 7 have the same truth values for all possible inputs, we've shown with a truth table that $\lnot(p \lor q) = (\lnot p) \land (\lnot q)$ 
+	- Proof
+		- As columns 2 and 6 have the same truth values for all possible inputs, 
+			- $(p \implies q) \land ((\lnot p) \implies q) = q$
+- ![[Screenshot 2023-12-08 at 1.27.18 AM.png]]
+	- Definition: A [[tautology]] is a statement that is always true
+		- $T$ 
+			- Bolded T
+	- A [[contradiction]] is statement that is always false
+		- $F$ 
+			- Bolded F
+	- Given an [[Implication]] $p \longrightarrow q$, we have
+		- [[converse]]: q $\implies$ p
+		- [[inverse]]: $(\lnot p)$ $\implies$ ($\lnot q$)
+		- [[contrapositive]]:$(\lnot q)$ $\implies$ $(\lnot p)$ 
+	- Implication and contrapositive are [[logically equivalent]]
+	- Converse and inverse are logically equivalent
+	- Logically equivalent is what equals means when talking about statements
+	- As columns 5 and 8 have the same truth values, we find the left and right sides to be logically equivalent
+		- $p \lor (q \land r) = (p \lor q) \land (p \lor r)$ 

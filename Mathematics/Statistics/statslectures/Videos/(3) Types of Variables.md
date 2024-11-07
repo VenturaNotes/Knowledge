@@ -1,0 +1,29 @@
+[Video](https://www.youtube.com/watch?v=CNW9txOMYAg)
+
+- A [[variable]] is a property that can take on many values.
+	- "Age" is a <mark style="background: #FFF3A3A6;">variable</mark>. It can take on many different values, such as 18, 49, 72, and so on.
+	- "Gender" is a variable. It can take on two different values, male or female.
+		- Preferred term is probably "sex" since this term was uploaded 2010
+	- "Place" (in a footrace) is another variable. It can take on values such as 1st place, 2nd place, 3rd place, and so on.
+	- A single variable is always spoken of in the singular. "Age" is a variable, but "Ages" is not a variable
+- Two kinds of variables
+	- [[Quantitative Variables]]
+		- Measured numerically. With measurements of quantitative variables you can do things like add and subtract, and multiply and divide, and get a meaningful result. In the previous example, "Age" was a quantitative variable.
+	- [[Qualitative]]/[[Categorical Variables]]
+		- Allow for classification based on some characteristic. With measurements of qualitative/categorical variables you cannot do things like add and subtract, and multiply and divide, and get a meaningful result. In the previous example, "Gender" was a qualitative/categorical variable. Gender was categorized as either male or female.
+- Two kinds of quantitative variables
+	- Discrete Variables
+		- A discrete variable is a quantitative variable with a finite number of values. For example, imagine you rolled a six-sided die four times and measured how many times you rolled an even number. What are your possible outcomes? {0, 1, 2, 3, 4}
+	- Continuous Variables
+		- A quantitative variable with an infinite number of values. Take temperature for example. Temperature can take on an infinite number of values, such as 80 degrees, or 80.01 degrees, or 80.0050592359 degrees. In the previous example we were limited to a finite number of values (you couldn't roll 1.5 even numbers), which is what made it discrete
+- A couple questions for review:
+	- What kind of variable is martial status?
+		- Marital status is a qualitative/categorical variable. It can take on values such as "married", "widowed", "divorced", etc.
+	- What kind of variable is song length?
+		- Song length is a quantitative variable. It can take on values such as 180 seconds, 189.2 seconds, 210.0039 seconds, etc. It is a continuous quantitative variable because it can take on an infinite number of values.
+- Important Terms
+	- Variable
+	- Quantitative Variable
+	- Qualitative/Categorical Variable
+	- Discrete Variable
+	- Continuous Variable

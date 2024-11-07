@@ -1,0 +1,30 @@
+[Video](https://www.youtube.com/watch?v=wg6eNHw0Zyw)
+
+- ![[Screenshot 2023-12-14 at 9.58.15 AM.png]]
+	- Slide 1
+		- For a, b $\in$ $\mathbb{Z}$, Prove: If a is even or b is [[odd]], then a(b+3) is [[even]]
+		- [[Proof by Exhaustion|proof by cases]]
+			- It seems like there are only 2 cases we need to write because writing the case where a is even and b is odd would be redundant. 
+	- Slide 2
+		- If n $\in$ $\mathbb{Z}$, then $1 + (-1)^n (2n-1)$ is a [[multiple]] of 4.
+			- Checking if integer is [[odd]] or [[even]]
+	- Slide 3
+		- Sometimes proving an [[Implication]] directly is a challenge
+			- Could use proof by [[contrapositive]]
+				- Assume $\lnot q$ is true
+				- Show $\lnot p$ is true
+				- Due to logical equivalence, we would have in fact proved the implication
+	- Slide 4
+		- Prove for $n \in \mathbb{Z}$, if $3n^2 + 1$ is even, then n is odd
+			- [[Proof by contrapositive]]
+- ![[Screenshot 2023-12-14 at 10.06.32 AM.png]]
+	- Slide 1
+		- Let a, b $\in$ $\mathbb{Z}$ . Prove: If a + b $\ge$ 15, then a $\ge$ 8 or b $\ge$ 8
+		- Proof by contrapositive
+	- Slide 2
+		- For n $\in$ $\mathbb{Z}$, prove if $n^3$ is even then n is even
+			- Taking a root has no guarantee that you'll have an integer
+			- Could use [[binomial theorem]] for this
+	- Slide 3
+		- Combines contrapositive and cases
+			- [[divides]]

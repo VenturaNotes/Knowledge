@@ -1,0 +1,40 @@
+[Video](https://youtube.com/watch?v=oLX9vOUOYSk)
+
+---
+- Exploring the truth values of another compound statement
+- [[Conditionals]]
+	- If you eat all your vegetables, then you can have dessert
+	- If you fall asleep in class, I would be very sad.
+	- Someone who has at least $1,000,000 is a millionaire
+		- If you have at least $1,000,000, then you are a millionaire
+---
+- Rewriting statements into conditional statement form
+	- We could rewrite the last statement in if..., then form
+		- Every integer that is a factor of 4 is also a factor of 8
+			- If an integer is a factor of 4, then it is a factor of 8
+		- No sociopath is normal (2 correct answers)
+			- If you're a sociopath, then you're not normal
+			- If you are normal, you're not a sociopath
+---
+- Parts of a conditional statement
+	- The statement following the "IF" is called the [[hypothesis]] or [[antecedent]]
+	- The statement following the "THEN" is called the [[conclusion]] or [[consequent]]
+	- A statement is basically a promise that if p occurs then q will too. The conditional statement is true unless a true hypothesis leads to a false conclusion
+---
+- ![[Screenshot 2023-05-12 at 8.53.16 AM.png]]
+- More conditional fun!
+	- Consider the example
+		- Your professor says: If you study, then you will pass
+			- We have four possibilities
+---
+- ![[Screenshot 2023-05-12 at 8.54.11 AM.png|500]]
+- Recap of conditional statements
+	- Conditional statements are true when the hypothesis is false or the conclusion is true.
+---
+- Conditional Statements
+	- The use of the conditional connective does not necessarily imply a cause-and-effect relationship, although they make much more sense when they do!
+	- For example: If I buy a house, then the sun will rise in the east.
+---
+- ![[Screenshot 2023-05-12 at 8.56.57 AM.png|500]]
+- Examples
+	- Determine whether each conditional statement is true or false

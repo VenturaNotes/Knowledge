@@ -1,0 +1,68 @@
+[Video](https://youtube.com/watch?v=esjh7jbw-xg)
+[Lecture Slides](zotero://open-pdf/library/items/ELWE8L6Z?page=1&annotation=RJLGXRQA)
+
+- ![[Screenshot 2023-07-28 at 1.00.51 PM.png]]
+	- Slide 1 - Introduction to Proofs - Axioms and Theorems
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- (1) Distinguish between an [[axiom]] and a [[proposition]]/[[theorem]].
+			- (2) Make conjectures in [[Axiomatic System|axiomatic systems]] and prove them
+	- Slide 3 - Motivating Problem
+		- Errata
+			- The piece being shown in the top right is actually a queen, but in this demonstration, it's represented as a king
+		- This is a chess board, with a Knight in the bottom left, and a King in the top right. The king does not move. The Knight can make any number of "L moves" (two-right/one-up, or two-up/one-right) but it must always move up and to the right at least one unit
+		- What are the possible squares the Knight can reach? In particular, can the Knight reach the King's square?
+	- Slide 4 - Motivating Problem
+		- In this question the axioms (or rules) are:
+			- (1) Knight starts at bottom left
+			- (2) Knight can move two-right/one-up
+			- (3) Knight can move two-up/one-right
+		- Our goal is to see what we can deduce from these axioms. What positions are possible?
+	- Slide 5 - Motivating Problem
+		- Proposition
+			- If the knight can reach position (a, b), then the Knight can reach position (a+3, b+3). (as long as it's within the chess board)
+				- Just know it's within the chess board
+		- Proof
+			- From position (a, b) the Knight can use move 2 to go to position (a + 2, b + 1). Then it can use move 3 to go to position (a + 2 + 1, b + 1 + 2) = (a + 3, b+3)
+	- Slide 6 - Motivating Problem
+		- Proposition
+			- “Assume that the bottom left square is (1, 1). The Knight cannot reach positions (1, n) or (n, 1) for any natural number n > 1.” ([Pawliuk, p. 7](zotero://select/library/items/FT7E93AM)) ([pdf](zotero://open-pdf/library/items/ELWE8L6Z?page=7&annotation=C4XSN2NS))
+		- Proof
+			- “The only way the knight can move is by simultaneously increasing both its x-coordinate and its y -coordinate. This means all positions (1, n) or (n, 1) (other than (1, 1)) are impossible to reach.” ([Pawliuk, p. 8](zotero://select/library/items/FT7E93AM)) ([pdf](zotero://open-pdf/library/items/ELWE8L6Z?page=8&annotation=LJX9KCFH))
+- ![[Screenshot 2023-07-28 at 1.23.08 PM.png]]
+	- Slide 7 - Axioms and theorems in math
+		- In math, we will often start with axioms about particular math objects, and we will want to deduce what else is true about theses objects. List of axioms tend to be:
+			- As short as possible
+			- Not redundant
+			- "Obviously" "true". 
+		- We will look at one set of axioms that are commonly used in math: the [[Peano axioms of arithmetic]].
+			- A problem with math is that we didn't always have fully agreed upon axioms. One way to resolve this is to come up with a list of rules that we all agree on that are allowed to be used in math
+	- Slide 8 - [[Peano Axioms]]
+		- If x, y, z are any integers, then
+			- A1: x + y is an integer
+			- A2: $x*y$ is an integer
+			- A3: $x + y = y + x$
+			- A4: $x * y = y*x$
+			- A5: $x*(y + z) = x*y + x*z$
+			- A6: $x + 0 = x$
+			- A7: $x*1 = x$
+			- A8: $x + (y + z) = (x+y) +z$
+			- A9: $x*(y*z) = (x*y) *z$
+			- A10: For every x there is an i such that $x + i = 0$. Denote this $i$ as $-x$
+	- Slide 9 - Peano Axioms
+		- These are the basic building blocks of integer arithmetic. What are we missing?
+		- Proposition -0 = 0
+		- Proof $$ \begin{align*} 0 &= 0 + (-0) &\text{By A10} \\ &= (-0) + 0 &\text{By A3} \\ &= -0 & \text{By A6} \end{align*}  $$
+		- Proposition
+			- For every integer x, $0 \cdot x$ = 0.
+	- Slide 10 - Notation
+		- The [[axioms]] are the starting assumptions in a rule set.
+		- A [[conjecture]] is something that you guess might be true.
+		- A [[proposition]]/fact/[[theorem]] are true statements that follow from the axioms. They have been proved.
+		- A [[lemma]] is minor proposition.
+		- A [[corollary]] is a proposition that follows from a previous known theorem. It is often a special case.
+			- You might have proved some theorem about all even integers and then your corollary might specifically be about multiples of 4 (so it's a special case)
+	- Slide 11 - Reflection
+		- Go back and answer the Knight/King question.
+		- How would the Knight/King question change if we changed the axioms? (For example what if we allowed all "L-shaped" moves. (even ones that go backwards))
+		- Do the Peano axioms capture everything true about the integers?

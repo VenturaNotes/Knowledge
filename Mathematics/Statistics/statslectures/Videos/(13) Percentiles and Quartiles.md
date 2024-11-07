@@ -1,0 +1,29 @@
+[Video](https://www.youtube.com/watch?v=Snf6Wpn-L4c)
+
+- ![[Screenshot 2023-04-28 at 8.50.45 AM.png|400]]
+	- Percentages
+		- Data Set
+		- How many Numbers are even
+		- Formula
+			- Percentage = (# Meeting characteristic of Interest / Total # of Observations) * 100
+- ![[Screenshot 2023-04-28 at 8.52.13 AM.png|400]]
+	- A percentile is a value below which a certain percentage of observations lie.
+	- Data Set:
+	- What is the percentile ranking of '10'?
+	- Formula
+		- Percentile Rank of x = (# of values below x/ n) * 100
+- ![[Screenshot 2023-04-28 at 8.53.48 AM.png|500]]
+	- Data Set
+	- What value exists at the percentile ranking of 25%?
+	- Formula
+		- Value # = (Percentile / 100) (n + 1)
+	- There is no "5.25th" value, so I take the average of the 5th and 6th values to find what value exists at the 25th percentile.
+- ![[Screenshot 2023-04-28 at 8.54.37 AM.png|400]]
+	- Quartiles
+		-  First Quartile - 25%
+		- Second Quartile - 50%
+		- Third Quartile - 75%
+- Important Terms
+	- Percentile
+	- Quartile
+	- Percentage

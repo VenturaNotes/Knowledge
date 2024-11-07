@@ -1,0 +1,83 @@
+[Video](https://www.youtube.com/watch?v=VbSOhuZJL-w) (unavailable)
+[03:06:42](https://www.youtube.com/watch?v=VXzm8ReImG0&t=11202s)
+
+- Lesson Objective:
+	- Learn how to divide multi-digit numbers using [[long division]]
+- When we have large numbers with addition, we used a process called vertical addition. Vertical addition breaks it down into a series of easier steps.
+	- 24, 322 + 308 (made columns to find answer)
+- When subtracting [[whole numbers]], used [[vertical subtraction]]
+- When multiplying large whole numbers, used [[vertical multiplication]]
+- Long division is division with large whole numbers
+- To find 20 $\div$ 4 = ?
+	- ? x 4 = 20
+	- ? = 5
+- 2,642,311 $\div$ 1622 (need long division for this)
+- 30 $\div$ 6 = ?
+	- ![[Screenshot 2022-12-12 at 5.32.44 PM.png|300]]
+		- 30 goes underneath the house
+		- The dividend is 30
+		- 6 is divisor which goes to left of symbol
+	- Steps
+		- Divide (Dad)
+		- Multiply (Mom)
+		- Subtract (Sister)
+		- Bring down (Brother)
+		- Repeat or remainder (Rover)
+	- Visuals
+		- Divide
+			-  ![[Screenshot 2022-12-12 at 5.36.35 PM.png]]
+				- How many times will 6 go into 3?
+				- What is 3 divided by 6?
+				- 6 goes into 3 zero times because 
+					- Given 3 items 3 $\div$ 6 = 0 R 3
+					- Made 0 groups with 3 left over
+					- Never include remainder until the end of long division problem
+		- Multiply
+			- ![[Screenshot 2022-12-12 at 5.36.58 PM.png]]
+				- 0 x 6 = 0
+		- Subtract
+			- ![[Screenshot 2022-12-12 at 5.37.33 PM.png]]
+		- Bring Down
+			- ![[Screenshot 2022-12-12 at 5.38.03 PM.png]]
+		- Now Repeat (Divide)
+			- ![[Screenshot 2022-12-12 at 5.39.09 PM.png]]
+			- How many times does 6 go into 30? (5)
+				- ? x 6 = 30 
+				- 5 x 6 = 30 (so answer is 5)
+		- Multiply
+			- ![[Screenshot 2022-12-12 at 5.58.08 PM.png]]
+		- Subtract
+			- ![[Screenshot 2022-12-12 at 5.58.23 PM.png|200]]
+		- Bring down (nothing to bring down)
+		- Remainder (It's 0 so no remainder)
+	- Shortcut
+		-  ![[Screenshot 2022-12-12 at 6.08.14 PM.png]]
+		- Since 6 does not go into 3, check the place value to the right and see if 6 can go into 30.
+- 100 $\div$ 5
+	- ![[Screenshot 2022-12-12 at 6.10.19 PM.png|200]]
+- 315 $\div$ 9 = 35
+	- ![[Screenshot 2022-12-12 at 6.12.27 PM.png|300]]
+		- 3x9 = 27
+			- Highest you can go without going over (36)
+		- Easy to check too 
+- 942 $\div$ 3 = 314
+	- ![[Screenshot 2022-12-12 at 6.14.59 PM.png|300]]
+- Now with remainders
+	- 461 $\div$ 2
+		- ![[Screenshot 2022-12-12 at 6.24.04 PM.png|300]]
+	- 193 $\div$ 9 = 21 R4
+		- ![[Screenshot 2022-12-12 at 6.26.54 PM.png|300]]
+	- 126,323 $\div$ 15
+		- ![[Screenshot 2022-12-12 at 6.32.47 PM.png|300]]
+			- Do this to find how many times 15 goes into 126 (126$\div$ 15) which requires some guess work
+				- ![[Screenshot 2022-12-12 at 6.28.11 PM.png]]
+			- Not checking this one because of the amount of work that would be involved
+				- Multiply 8,421 x 15 + 8 to check that it equals 126,323
+	- 163,971 $\div$ 150
+		- ![[Screenshot 2022-12-12 at 6.38.11 PM.png|300]]
+			- Finding how many times 150 goes into 1397
+				- 1379 $\div$ 150 = ?
+				- 150 x 10 = 1500
+				- 150 x 9 = 1350 =good guess)
+			- ![[Screenshot 2022-12-12 at 6.36.26 PM.png]]
+				- Going to to test 3 times to check how many times 150 goes into 471

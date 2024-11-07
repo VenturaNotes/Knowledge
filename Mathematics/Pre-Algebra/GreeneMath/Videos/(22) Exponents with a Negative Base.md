@@ -1,0 +1,60 @@
+[Video](https://www.youtube.com/watch?v=FJJ9hJvVajk)
+[05:52:29](https://www.youtube.com/watch?v=VXzm8ReImG0&t=21149s)
+
+- [[Exponent|Exponents]] with an integer base
+- Lesson Objective
+	- Learn how to perform operations with exponents that have an integer base
+- Exponents are used to conveniently notate repeated multiplication of the same number
+	- 3x3x3x3x3 = $3^5$ 
+		- We have 5 factors of 3
+		- 3 is the base here
+		- 5 is the exponent
+	- 7x7x7 = $7^3$ 
+		- 7 is the base
+		- 3 is the exponent
+- When working with a [[negative number]] that is raised to a power, the base does not include the negative part unless we use parentheses!
+	- The below calculations is wrong in general
+		- $-2^2$ = -2 x (-2) = 4
+			- You calculate this
+		- $-2^2 = -4$
+			- The calculator returns this
+	- $-2^2$ = -1 x $2^2$ = -1 x 4 = -4
+		- This is read as the opposite of $2^2$ 
+		- Need to do exponents first
+	- $(-2)^2$= -2 x (-2) = 4
+		- They need to be enclosed so they're both part of the base
+	- $(-1 x 2)^2$ 
+		- = (-1 x 2) x (-1 x 2)
+			- = -1 x 2 x - 1x2
+				- = -1 x -1 x 2 x 2 = 4
+	- If you have a negative number and you want to raise it to a power, you need to enclose negative number inside the set of parenthesis
+	- $-4^3$ = -1 x $4^3$ =-1 x 64 = -64
+		- read as "the opposite of 4 cubed" or "the negative of 4 cubed"
+	- $(-4)^3$
+		- -4 x (-4) x (-4)
+			- = -64
+				- Same answer as above because it just happened to work out that way.
+- When the base is (-) and enclosed in parentheses:
+	- The result is (+) if the exponent is [[even]]
+	- The result is (-) if the exponent is [[odd]]
+- When the base is (-) and not enclosed in parentheses:
+	- the result is always (-)
+		- -$4^2$ = -16
+		- $(-4)^2$ = 16
+			- Exponent is even so product is positive
+- Evaluate each:
+	- $(-3)^2$ = (-3) x (-3) = 9
+		- even number of negative factors gives a positive result
+	- $(-3)^5$ = -243
+	- $(-1)^{38}$ = 1
+		- Exponent is even for negative factors which gives positive
+	- $(-1)^{71}$ = -1
+	- $(-10)^3$ = -1000
+		- $10^3$ = 1000
+	- $-8^2$  = -1 x $8^2$ = -1 x 64 = -64
+	- $(-8)^2$ = +64
+	- $(-5)^3$ = -125
+		- Negative because exponent is odd
+		- -5 x (-5) x (-5) shows you have 3 negative factors so you'll get a negative result
+	- $-5^3$ = -125
+		- Negative because when the base is negative but not enclosed in parentheses, the result will always be negative

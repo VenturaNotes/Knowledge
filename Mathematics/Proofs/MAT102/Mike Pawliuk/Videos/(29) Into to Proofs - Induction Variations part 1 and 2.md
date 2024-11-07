@@ -1,0 +1,41 @@
+[Video](https://youtube.com/watch?v=qCcTxpZOUcw)
+
+- ![[Screenshot 2024-01-22 at 11.36.51 PM.png]]
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to :
+			- Prove a statement by [[induction]], starting somewhere other than n = 1
+			- Prove a statement by induction on the evens or odds only
+	- Slide 3 - Motivation
+		- Motivation
+			- Induction has many variations. We can change the starting value, and how far the "steps" are
+			- Today we will see two of those variations
+	- Slide 4 - (1) Induction can start at different [[base case]]
+		- Need to start with n = 4 as the base case since $n^2 \le 2^n$ is not true for when n = 3
+	- Slide 5 - (1) Induction can start at different base cases
+		- [[Lemma]]
+			- For all n $\ge$ 4 (and n $\in$ $\mathbb{N}$), we have 2n + 1 $\le$ $2^n$ 
+- ![[Screenshot 2024-01-22 at 11.45.25 PM.png]]
+	- Slide 6 - (1) Induction can start at different base case
+		- Proof strategy ([[induction at other base cases]])
+			- Let N $\in$ $\mathbb{N}$. To prove "($\forall$ n $\ge$ N)P(n)". (Here n $\in \mathbb{N}$ )
+				- Prove P(N), and
+				- Show if n $\ge$ N, then P(n) $\implies$ P(n+1)
+	- Slide 7 - (2) Induction can have different "jumps"
+		- Proof strategy ([[induction on evens]])
+			- To prove "for all even natural n, P(n)"
+				- Prove P(2), and
+				- Show P(n) $\implies$ P(n+2) for all even n $\ge$ 2
+		- There is a version for odds as well
+	- Slide 8 - (2) Induction can have different "jumps"
+		- Theorem
+			- For every even natural n, $n(n^2 + 3n + 2)$ is divisible by 24
+			- [[base case]] shown
+	- Slide 9 - Proof continued
+		- Parts
+			- First term is divisible by 24 by IH
+			- second term is because n is even
+			- Third term is obvious
+			- So the sum is divisible by 24
+		- If each term is divisible by 24, the sum will be divisible by 24
+	- Slide 10 - Other gaps
+		- next video?

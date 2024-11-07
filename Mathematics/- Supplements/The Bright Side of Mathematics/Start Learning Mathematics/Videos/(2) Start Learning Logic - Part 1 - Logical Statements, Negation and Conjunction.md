@@ -1,0 +1,31 @@
+[Video](https://www.youtube.com/watch?v=DU4wKBDm2Z4)
+
+- ![[Screenshot 2023-10-11 at 1.50.14 AM.png]]
+	- Start learning [[Logic]]
+	- Logical statement ([[proposition]]): [[Statement]] (a meaningful declarative sentence which has a well-defined truth value. Either true or false)
+		- Cannot take opinions or questions
+		- Examples: 
+			- (a) Mars is a planet
+				- True logical statement
+			- (b) Pluto is a planet
+				- False logical statement
+			- (c) 1 + 1 = 2
+				- True logical statement
+			- (d) The number 5 is smaller than the number 2
+				- False logical statement
+			- (e) Good morning!
+				- Not a logical statement
+			- (f) x + 1 = 1
+				- [[Predicate]]
+				- Not a logical statement
+				- Variable x is not fixed so statement does not have a well-defined truth value
+				- When x gets a value, the statement becomes a logical statement
+	- [[Logical operations]] (gives new logical statements)
+		- [[Negation]]: For a logical statement A, $\lnot A$ denotes the negation. (Read as "not A")
+			- [[Truth table]]
+				- All possible inputs and corresponding outcomes
+		- [[Conjunction]]
+			- True when A and B are true simultaneously
+			- Good visualization would be a circuit with a lamp and battery
+				- Put A and B as switches into circuit
+					- Need both switches to be on to get an on output

@@ -1,0 +1,26 @@
+[Video](https://youtube.com/watch?v=axje4uWil-Q)
+
+---
+- ![[Screenshot 2023-05-13 at 5.59.16 AM.png]]
+- Determining the validity of an argument using truth tables
+	- Step 1: Write the argument as a conditional statement
+	- Step 2: Set up a truth table similar to the following
+		- Columns for simple statements and premises
+		- Premise $\land$ Premise $\implies$ Conclusion
+	- Step 3: If all truth values under $\rightarrow$ are T's (trues) (i.e. a tautology), then the argument is valid; otherwise it is invalid.
+---
+- ![[Screenshot 2023-05-13 at 6.02.22 AM.png|500]]
+- More about step 1:
+	- Use a conjunction between the premises and the implication for the conclusion.
+	- Notation: Implication is $\implies$ (It's the same as $\rightarrow$ but will only be used for to separate the premises from the conclusion)
+		- Seems like "$\rightarrow$" is used for conditionals while "$\implies$" is used for implication
+	- Notation: Using symbols, "therefore" is $\therefore$
+---
+- ![[Screenshot 2023-05-13 at 6.06.00 AM.png|500]]
+- Tell whether each argument is valid. <mark style="background: #BBFABBA6;">valid</mark>
+---
+- ![[Screenshot 2023-05-13 at 6.09.55 AM.png|500]]
+- Another Example <mark style="background: #BBFABBA6;">valid</mark>
+---
+- ![[Screenshot 2023-05-13 at 6.17.33 AM.png|500]]
+- Since we have a single false in the implication at the right-most part of the table, the argument is no good and we would need to fill in the rest of the table. <mark style="background: #FF5582A6;">invalid</mark>

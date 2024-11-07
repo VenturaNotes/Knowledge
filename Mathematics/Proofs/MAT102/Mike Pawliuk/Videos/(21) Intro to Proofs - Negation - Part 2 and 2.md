@@ -1,0 +1,25 @@
+[Video](https://youtube.com/watch?v=ErMk0Y0lByE)
+
+- ![[Screenshot 2024-01-16 at 3.39.32 PM.png]]
+	- Slide 11 - Examples
+		- Example
+			- Negate these statements and then decide which is true: the original statement or the negation 
+	- Slide 12 - Example 1
+		- $\equiv$ is the symbol to show that two statements are [[logically equivalent]]
+			- You could use equal signs "=" but not a super big deal. If someone is being pedantic, someone will say it should be logically equivalent and not equals
+		- Negation is true
+	- Slide 13 - Example 2
+		- Negation is false
+	- Slide 14 - Example 3 - Multiple Quantifiers
+		- Pull negation symbol through one step at a time
+		- Errata: There should be iff in this example (as they're logically equivalent)
+		- For the second part, you choose the y and it can depend on the x
+- ![[Screenshot 2024-01-16 at 3.41.55 PM.png]]
+	- Slide 15 - End Boss
+		- End boss exercise. Negate the following statement
+			- Hint: You have all the tools you need to conquer this boss. Go slowly!
+		- It is a calculus definition
+	- Slide 16 - Reflection
+		- Do you prefer to negate statements formally (using the process described here), or informally by "just thinking about it"?
+		- Negate $P_1$ $\land$ $P_2$ $\land$ $P_3$ 
+		- How is [[DeMorgan's Laws|DeMorgan's Law]] related to universal and existential statements?

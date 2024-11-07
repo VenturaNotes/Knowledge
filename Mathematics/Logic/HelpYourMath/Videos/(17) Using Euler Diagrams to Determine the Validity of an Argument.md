@@ -1,0 +1,66 @@
+[Video](https://youtube.com/watch?v=tsXAxLISH3I)
+
+---
+- [[Logical Argument]]
+	- A logical argument is made up of premises and a conclusion
+	- An argument is <mark style="background: #FFF3A3A6;">valid</mark> if the fact that all the premises force the conclusion to be true.
+	- An argument  that is not valid is <mark style="background: #FFF3A3A6;">invalid</mark>, or a <mark style="background: #FFF3A3A6;">fallacy</mark>
+	- A valid argument does not indicate that the conclusion is true
+		- Truth $\ne$ validity
+---
+- [[Leonhard Euler]]
+	- Euler is one of the greatest mathematicians to have lived. His ideas lead to an entire branch of mathematics called graph theory and later, topology. We immortalize him in mathematics through the irrational number, e (The natural base)
+---
+- [[Euler Diagrams]]
+	- An Euler diagram is one technique that can be used to determine whether or not an argument is valid
+	- We verify the validity of an argument graphically by drawing overlapping shapes (usually circle/ovals) to represent regions or sets in an argument
+	- Of course, the premises do not necessarily have to be true to find a logical conclusion however, for our sake, we will assume that from here on: all premises are factual
+---
+- ![[Screenshot 2023-05-12 at 10.21.36 AM.png|500]]
+- Arguments with universal quantifiers
+	- Recall that universal quantifiers are: All, every, no(none)
+		- A premise containing the "all" or "every" quantifier, such as "all p are q" this means there would be a big set q with a subset of p within
+		- A premise containing the "none" quantifier, such as no r is s indicates two non-overlapping sets.
+	- We can check whether an argument is valid using truth tables and/or Euler Diagrams.
+---
+- ![[Screenshot 2023-05-12 at 10.33.12 AM.png]]
+- Example 1: Is the following argument valid? <mark style="background: #FFF3A3A6;">Valid</mark>
+	- All students in this class will get an A.
+	- Andrea is in this class.
+	- ===========================
+	- Andrea will get an A in this class
+- Example 2: Is the following argument valid? <mark style="background: #FF5582A6;">Invalid</mark>
+	- All maple trees have leaves.
+	- That tree has leaves.
+	- ====================
+	- That tree is a maple tree
+- Example 3: Is the following argument valid? <mark style="background: #FFF3A3A6;">Valid</mark>
+	- No parent is wrong. Even
+	- Sukey is wrong
+	- ==================
+	- Therefore, Sukey is not a parent
+- Example 4: Is the following argument valid? <mark style="background: #FF5582A6;">Invalid</mark>
+	- Snakes are not mammals
+	- Jessie is not a mammal
+	- ===================
+	- Therefore, Jessie is a snake
+---
+- ![[Pasted image 20230512103528.png|500]]
+- Arguments with existential quantifiers
+	- Recall that existential quantifiers are: Some do, some do not
+		- A premise containing "some p do ..." or "many p ..." will have two overlapping circles
+		- A premise rarely (if ever) contains "some p do not ..."
+	- We can check whether an argument is valid using truth tables and/or Euler Diagrams
+---
+- ![[Screenshot 2023-05-12 at 10.40.47 AM.png]]
+- Example 5: Is the following argument valid? <mark style="background: #FF5582A6;">Invalid</mark>
+	- Many BMCC students are sophomores.
+	- I am a BMCC student.
+	- ===========================
+	- I am a sophomore
+- Example 6: Is the following argument valid? <mark style="background: #FF5582A6;">Invalid</mark>
+	- Many people like ice cream
+	- Nance likes ice cream
+	- ====================
+	- Therefore, Nance is a person
+

@@ -1,0 +1,54 @@
+[Video](https://youtube.com/watch?v=wCfdGsXipRI)
+
+- ![[Screenshot 2023-09-08 at 1.05.36 PM.png]]
+	- [[binomial coefficient|binomial coefficients]]
+		- [[In Line Notation]]
+			- C(38, 17) = P(38, 17)/17! = 38!/(21!17!)
+				- This is the number of combinations of 38 objects taken 17 at a time
+		- [[Graphic Notation]] (when looking at a mathematics or computer science paper you will very rarely see binomial coefficients written in line. Mostly through graphic notation)
+			- $38 \choose 17$
+			- Read this: "38 choose 17"
+	- Binomial coefficients
+		- Basic Definition
+			- $38 \choose 17$ $= \frac {38!}{17!21}$
+			- Note: To compute this binomial coefficient, you have to do a lot of multiplication and some division. May be there is an alternative way??!!
+				- Be on the lookout for this
+	- Beware Dot, dot, dot!!!
+		- Question: What is really meant by the definitions:
+			- $n! = n* (n-1)*(n-2)*...3*2*1$
+			- $P(m, n) = m*(m-1) *(m-2)*...*(m-n+1)$
+		- There is a lot of ambiguity with the definitions
+	- A better way
+		- Observation: Rather than writing 1, 4, 9, 16, 25, ... be explicit and write: $a_n = n^2$
+			- Good way to talk to machine
+		- For second problem, write sum of preceding 2
+			- Computers understand spaces but don't understand ...
+	- A better way
+		- For 1 + 2 + ... 6
+			- Better way to represent it would be to define a loop
+				- Define $S_0 = 0$ and when n $\ge$ 1, $S_n = n + S_{n-1}$. Then reference $S_6$
+	- A better way for factorials
+		- Definition 0! = 1 and when n > 1, n! = $n*(n-1)!$
+			- If you don't add up anything, you don't get anything
+				- Sums when you don't have anything in it you take to be 0
+			- Products when you don't have anything in it, you take the product to be 1
+				- How many combinations of no things taking none at a time are there is just 1, The [[empty set]]. Empty set not the same as the set which contains the empty set. The set that contains the empty set is no longer empty. So there's 1
+		- Backtracking, we obtain 120 when n = 5
+- ![[Screenshot 2023-09-08 at 9.05.39 PM.png]]
+	- Better way
+		- Same thing for [[Permutation|permutations]]
+	- Coding Basics
+		- Declaration
+			- In modern c++, you need to declare a function first
+		- Definition
+			- If using equality as a test, you do ==
+			- An assignment is one =
+		- Potential trap is the [[stack]]
+			- Need to recurse the stack to unwind the stack. That's bad programming practice.
+			- Avoid a [[recursion]] that puts a lot of information on the stack
+				- Good compilers may take care of that for you (will rewrite that code snippet and turn it into a loop which uses no memory)
+		- For a recursive definition like this, you don't care about the memory concerns on the stack
+	- Coding Basics
+		- [[Permutation]] function in coding
+			- The number of permutations of m things taken 1 at a time is just n.
+		- Recursive definition is shown but computers (and mathematicians) are completely happy with that.

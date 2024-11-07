@@ -1,0 +1,64 @@
+[Video](https://youtube.com/watch?v=DksOrPo_a3g)
+
+- ![[Screenshot 2023-07-27 at 11.44.52 PM.png]]
+	- Slide 1 - Introduction to proofs - [[Number Systems]]
+	- Slide 2 - Learning objectives (for this video)
+		- By the end of this video, participants should be able to
+			- Describe the [[natural numbers]], [[integers]], [[rationals]], and [[real numbers]]
+			- Identify if a number is a natural number, an integer, or a rational
+	- Slide 3 - Natural numbers, $\mathbb{N}$
+		- Definition (Natural Numbers)
+			- The natural numbers are the numbers 1, 2, 3, 4, 5, 6, 7, .... The collection of all of them is denoted $\mathbb{N}$
+		- Alternate names: the counting numbers, the whole counting numbers.
+		- Examples
+			- 1, 7, $10^{10}$, a million, 2020, are natural numbers
+		- Non-examples
+			- -2, 0, $\frac {5}{2}$, $\sqrt{2}$ are not natural numbers
+	- Slide 4 - Observations about Naturals
+		- Convention
+			- 0 is not a natural number (in this course)
+			- There is a slight debate / convention about this in computer science
+		- Observation
+			- You can perform +, $\times$ in $\mathbb{N}$ but not -, $\div$ 
+				- Addition and multiplication in natural numbers will always give a natural number
+				- Subtraction and division does not always guarantee a natural number
+	- Slide 5 - Integers, $\mathbb{Z}$
+		- Definition (Integers)
+			- The integers are the numbers ..., -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, .... The collection of all of them is denoted $\mathbb{Z}$
+		- The letter 'Z' comes from the German word "Zahlen" meaning numbers
+		- Examples
+			- 1, 0, $-10^{10}$, 2020 are integers
+		- Non-examples
+			- $\frac {5}{2}$, $\sqrt{2}$, -1.1 are not integers
+	- Slide 6 - Observations about integers
+		- Observation
+			- You can perform +, -, $\times$ in $\mathbb{Z}$ but not $\div$ 
+				- You can add, subtract, and multiply all the integers to get an integer ^de0f3e
+				- It is not guaranteed that you'd get an integer from dividing
+- ![[Screenshot 2023-07-27 at 11.58.28 PM.png]]
+	- Slide 7 - Rational numbers, $\mathbb{Q}$
+		- Definition (Rationals)
+			- The rational numbers are the numbers that can be represented as a fraction $\frac {a}{b}$, where a is an integer, and b is a natural number. The collection of all of them is denoted $\mathbb{Q}$
+				- The letter 'Q' comes from the word quotient
+		- Examples
+			- 2 = $\frac {2}{1}$, -3.5 = $\frac {-7}{2}$, 0 = $\frac {0}{5}$ are all rational numbers
+		- Non-examples
+			- $\sqrt{7}$, $\pi$, $log_2(3)$ are not rational numbers
+	- Slide 8 - Observations about rational numbers
+		- Observation
+			- You can perform +, -, $\times$, $\div$ in $\mathbb{Q}$ (but not square roots)
+				- Also logarithms too
+			- Ancient greek mathematicians thought that all numbers were rational and that you could perform all of the operations but there are numbers that are not rational.
+	- Slide 9 - Real numbers, $\mathbb{R}$
+		- Definition (Reals)
+			- The real numbers are the numbers that can be represented in a decimal expansion. The collection of all of them is denoted $\mathbb{R}$. The real number is [[irrational]] if it is not rational. The collection of all of them is denoted $\mathbb{R} \backslash \mathbb{Q}$
+				- R take away Q
+		- Examples:
+			- 1, 0, $\pi$, $log_2(3)$, 0.1211211121111211... are all real numbers
+	- Slide 10 - Exercises
+		- Show that the following are rational numbers by expressing them as $\frac {a}{b}$ where a is an integer and b is a natural number.
+			- (Questions shown in image. Solutions not given)
+	- Slide 11 - Reflection
+		- What can you do with integers that you can't do with natural numbers?
+		- What can you do with real numbers that you can't do with rational numbers?
+		- What are some irrational numbers that you know? Do you know why they are irrational?

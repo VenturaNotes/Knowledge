@@ -1,0 +1,22 @@
+[Video](https://www.youtube.com/watch?v=McSFVzc8Swk)
+
+- ![[Screenshot 2023-04-28 at 9.12.28 AM.png|400]]
+	- In the past, I've used bar graphs to display discrete data
+	- And histograms to display continuous data
+- ![[Screenshot 2023-04-29 at 10.30.55 PM.png]]
+	- The distributions of most continuous random variables will follow the shape of the normal curve
+	- Probability, value
+	- Mean, median, and mode all exist at the center.
+	- The graph changes direction at inflection points
+		- When you're one reflection point from the mean, it marks 1 standard deviation from the mean
+	- These points mark how many standard deviations you are from the mean
+	- [[Empirical Rule]]:
+		- 68% of all values fall within 1 standard deviation of the mean
+		- 95% of all values fall within 2 standard deviations of the mean
+		- 99.7% of all values fall within 3 standard deviations of the mean-
+	- Using empirical rule, we can find out what area is associated between different distances 
+	- Parts are 2.5%, 13.5%, 34%, 34%, 13.5%, 2.5%
+- Important Terms
+	- Continuous Random Variable
+	- Normal Curve
+	- Empirical Rule

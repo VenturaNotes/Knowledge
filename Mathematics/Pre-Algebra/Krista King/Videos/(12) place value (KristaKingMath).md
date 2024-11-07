@@ -1,0 +1,36 @@
+[Video](https://youtube.com/watch?v=-P9xUCipWcA)
+
+- This video talks about place value and expanded notation
+- Write the number in expanded notation
+	- 500 
+		- = 5(100) + 0(10) + 0(1)
+		- = 500
+	- 1,281
+		- = 1(1000) + 2(100) + 8(10) + (1)
+		- = 1000 + 200 + 80 + 1 = 1,281
+- ![[Screenshot 2022-12-23 at 1.51.55 AM.png]]
+	- Given the above from right to left starting at the decimal point
+		- ones place
+		- tens place 
+		- hundreds place
+		- thousands place
+		- ten-thousands place
+		- one-hundred thousands place
+		- millions place
+		- <mark style="background: #FFF3A3A6;">all end in s (have the suffix of s)</mark>
+	- A number to the right of the decimal point
+		- tenths place
+			- 5/10ths is the same as 1/2  
+		- hundredths place
+			- 5/100 = 1/20
+		- thousandths place
+		- ten-thousandths place
+		- hundred-thousandths place
+		- millionths place
+		- <mark style="background: #FFF3A3A6;">all end in ths (has the suffix of ths)</mark> 
+- You multiply by the place value if it's to the left of the decimal point and you divide by the place value if it's to the right of the decimal point
+	- 0.55
+		- = 5/10 + 5/100 
+		- = 0.5 + 0.05
+		- = 55/100
+		- = 11/20

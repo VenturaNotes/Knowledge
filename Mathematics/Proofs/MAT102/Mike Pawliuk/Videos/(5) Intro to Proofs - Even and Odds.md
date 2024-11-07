@@ -1,0 +1,74 @@
+[Video](https://youtube.com/watch?v=ya3hryIZfrQ)
+[Lecture SLides](zotero://open-pdf/library/items/GY2N6FXE?page=1&annotation=ZDKF59Z2)
+
+- ![[Screenshot 2023-07-28 at 9.58.50 AM.png]]
+	- Slide 1 - Introduction to Proofs - Even and Odd numbers
+	- Slide 2 - Learning Objectives (for this video)
+		- By the end of this video, participants should be able to:
+			- (1) Give a precise definition of even integers and odd integers
+			- (2) Prove a simple fact about even and odd integers using a "definition unwinding" proof
+	- Slide 3 - Even numbers
+		- Definition ([[even integer]])
+			- An integer a is even if there is an integer n such that a = 2n
+		- Examples
+			- (1) 14 is even, because $14 = 2*7$, and 7 is an integer
+			- (2) -10 is even because -10 = -2$*$ (-5), and -5 is an integer
+			- (3) 0 is even, because 0 = 2 $*$ 0, and 0 is an integer
+			- There are an even number of rowers in the picture below
+				- Since we know rowers come in pairs, we don't need to count them because we already know that it must be even as it's being multiplied by 2 and you can only have an integer of humans
+	- Slide 4 - Odd numbers
+		- Definition ([[odd integer]])
+			- An integer b is odd if there is an integer m such that b = 2m + 1.
+		- Examples
+			- (1) 7 is odd, because 7 = 2 · 3 + 1, and 3 is an integer. 
+			- (2) −1 is odd, because −1 = 2 · (−1) + 1, and −1 is an integer.
+	- Slide 5 - Concept Check
+		- Question
+			- Is the number 98765 an odd number?
+				- Yes, because 98765 = 2(4932) + 1, and 4932 is an integer
+		- Question
+			- What is wrong with the argument "Yes, because 98765 ends in a 5, which means it is odd"
+				- This is not the definition of odd integer that we are using. To use that you would have to prove the fact
+		- Theorem
+			- An integer b is odd if and only if its final digit is 1, 3, 5, 7, or 9
+	- Slide 6 - [[Definition unwinding]]
+		- Theorem
+			- If a is an even number, and b is an odd number, then a + b is odd
+		- Proof
+			- Let a be an even number, and let b 
+				- Assumptions are what we start with
+			- By the definition of even number, there is an integer n so that a = 2n
+			- By the definition of odd number, there is an integer m so that b = 2m + 1
+			- Notice a + b = 2n + 2m + 1
+			- So a + b = 2(n + m) + 1. Where n + m is an integer since both n, m are integers
+			- So a + b is an odd number by the definition of odd number
+				- Conclusion at end of proof
+- ![[Screenshot 2023-07-28 at 10.07.10 AM.png]]
+	- Slide 7 - Exercises
+		- Exercise 1
+			- Prove, by definition unwinding, that:
+				- The sum of any two odd numbers is even
+				- The product of any two odd numbers is odd
+				- If you add an integer to itself, then the result is even
+		- Exercise 2
+			- What other facts about even numbers, odd numbers, addition and multiplication do you know? Write down and prove all facts you know 
+	- Slide 8 - Concept check 1
+		- What is wrong with this argument?
+			- Claim
+				- 3 is an even number because 3 = 2(1.5)
+					- Error is that 1.5 is not an integer
+	- Slide 9 - Concept check 2
+		- What is missing in this proof?
+			- Theorem
+				- If a is even, then $a^2$ is even
+			- Incomplete Proof
+				- Note $a^2 = (2n)^2 = 4n^2 = 2(2n^2)$
+					- What's missing is that n is not defined
+			- Complete proof
+				- Let a be an even number. So a = 2n for some integer n
+				- Note $a^2 = (2n)^2 = 4n^2 = 2(2n^2)$
+				- Since n is an integer, so is $2n^2$. So $a^2$ is even by definition
+	- Slide 10 - Reflection
+		- How can you tell if a small bag of stones contains an even number of stones without counting them?
+		- How would you answer the question "Is $\pi$ even or odd?"
+		- can a number be both even and odd at the same time? Why?

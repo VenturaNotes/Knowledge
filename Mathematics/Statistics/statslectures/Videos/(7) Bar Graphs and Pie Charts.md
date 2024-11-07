@@ -1,0 +1,21 @@
+[Video](https://www.youtube.com/watch?v=YgvdxkP7aCo)
+
+- Bar Graphs
+	- A bar graph lists each measured category on the horizontal axis and the number of occurrences for each category on the vertical axis.
+	- ![[Screenshot 2023-04-28 at 7.47.21 AM.png]]
+		- Imagine that you reached into a bag of candy 16 times and pulled out the following colors of candy. Record your results in a bar graph.
+			- Sample data set:
+				- Red, Green, Green, Green, Blue, Blue, Red, Blue, Green, Green, Red, Red, Blue, Green, Red, Red
+		- Notice the bars not touching each other. If the bars were touching, it would not be a bar graph. It would be a histogram
+- Pie Charts
+	- A pie chart is a circle divided into sectors, where each sector represents a category of data that is proportional to the total amount of data collected.
+		- What is a proportion?
+			- A proportion is a part considered in relation to its whole.
+			- For example, imagine a pizza with 8 slices. Your friend takes and eats 3 slices. In this case, 3/8 is the proportion of the pizza your friend took. This can also be represented as a decimal. 3 / 8 = 0.375
+	- ![[Screenshot 2023-04-28 at 7.50.24 AM.png]]
+		- Here is the same information as before, now shown in a pie chart.
+			- This pie chart is not as descriptive as the bar graph was
+- Important Terms
+	- Bar Graph
+	- Proportion
+	- Pie Chart
