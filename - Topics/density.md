@@ -1,0 +1,11 @@
+---
+aliases:
+  - densities
+---
+## Synthesis
+- 
+## Source [^1]
+- 
+## References
+
+[^1]:

@@ -1,0 +1,11 @@
+---
+aliases:
+  - DWI
+---
+## Synthesis
+- 
+## Source [^1]
+- 
+## References
+
+[^1]:

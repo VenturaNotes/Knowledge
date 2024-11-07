@@ -1,0 +1,10 @@
+---
+aliases:
+  - array
+---
+## Synthesis
+## Source [^1]
+- 
+## References
+
+[^1]:
