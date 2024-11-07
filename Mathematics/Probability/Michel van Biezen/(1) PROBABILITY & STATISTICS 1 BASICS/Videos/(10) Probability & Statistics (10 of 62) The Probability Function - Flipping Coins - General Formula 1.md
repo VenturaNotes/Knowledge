@@ -1,0 +1,39 @@
+[Video](https://youtube.com/watch?v=7utYtIpTDSU)
+
+- ![[Mathematics/Probability/Michel van Biezen/(1) PROBABILITY & STATISTICS 1 BASICS/Videos/Attachments/download.png]]
+	- There is a lot of similarity between binomial expansions and the number of elements you find in the events of a sample space when you flip a certain number of coins
+	- Flip 2 coins, the coefficients look like the coefficients of a binomial expansion
+	- Use 3 coins, you have $(a+b)^3$ and same coefficients as number of elements in the sample space
+	- Use 4 coins $(a+b)^4$, same coefficients in binomial expansion of the 4th power as you have elements in the events of the sample space with 4 coins.
+	- Those coefficients when expanding them should remind you of Pascal's Triangle
+		- 4th row expansion
+			- 1+2 = 3
+			- 2+1 = 3
+		- 5th row expansion
+			- 1 + 3 = 4
+			- 3 + 3 = 6
+			- 3 + 1 = 4
+		- 6th row expansion
+			- 1 + 4 = 5
+			- 4 + 6 = 10
+			- 6 + 4 = 10
+			- 4 +1 = 5
+		- 7th row expansion
+			- 1 + 5 = 6
+			- 5 + 10 = 15
+			- 10 + 10 = 20
+			- 10 + 5 = 15
+			- 5 + 1 = 6
+			- In the case of 6 coins
+				- 1 case - 6 heads
+				- 6 cases - 5 heads and 1 tails
+				- 15 cases - 4 heads and 2 tails
+				- 20 cases - 3 heads and 3 tails
+				- 15 cases - 2 heads and 4 tails
+				- 6 cases - 1 head and 5 tails
+				- 1 case - 6 tails
+				- Adding them all up gives 64 outcomes = $2^6$ 
+				- P(4H, 2T) = $\frac {15} {64}$
+					- Probability of 4 heads and 2 tails is $\frac {15}{16}$
+	- If you want to determine how many possibilities you have with a certain number of heads and a certain number of tails, when you flip a coin, you can use Pascal's Triangle to come up with the number and therefore the probability.
+- In the next video, we'll find the general equation to find the probability for any sort of outcome when flipping coins.

@@ -1,0 +1,95 @@
+[Video](https://www.youtube.com/watch?v=vYKdh5oQ4Zw)
+
+- ![[Screenshot 2024-01-23 at 3.48.51 PM.png]]
+	- [[Carl Friedrich Gauss]] wrote a classic book called [[Disquisitiones Arithmeticae]]
+		- Laid out [[modular arithmetic]]
+			- Takes a group of integers, partitions them into a finite number of sets and then treats each set as a new type of number
+			- Useful in [[group theory]]
+				- Can be used in [[normal subgroups]] and [[quotient groups]]
+- ![[Screenshot 2024-01-28 at 11.00.55 PM.png]]
+	- Motivating Example
+		- If you pick any number with a remainder of 1, and add it to any number with a remainder of 2, you will always get an integer with a remainder of 3
+		- Adding a number from the 2 set to the 4 set will get you something in the one set
+		- If you pick any number from one set and add it to any number from a second set, the sum will always be in the same third set
+	- [[Congruence classes]]
+		- It's good practice to check that these 5 meta-numbers do indeed form a group under addition
+	- The set of the multiples of 5 act as the [[identity element]]
+		- Each set has an inverse
+	- Congruence classes
+		- a, b in same congruence class
+			- a $\equiv$ b (mod n)
+				- "a is congruent to b mod n"
+				- It just means a and b have the same remainder when you divide by n
+	- For Integers mod 5
+		- [[Group]]: Integers $\mathbb{Z}$ under +
+			- Integers under addition
+		- It has an infinite number of [[subgroup|subgroups]]
+			- We will look at subgroup of multiples of 5 (which we'll write as $5\mathbb{Z}$)
+				- $1 + 5\mathbb{Z}$ is known as the [[cosets|coset]] and it's not a subgroup
+					- Not closed under addition
+					- No inverses
+					- Does not contain identity element
+				- Every number in the coset has a remainder of 1 when dividing by 5
+			- You can think of the subgroup $5 \mathbb{Z}$ as a coset $0 + 5 \mathbb{Z}$ 
+- ![[Screenshot 2024-01-28 at 11.10.54 PM.png]]
+	- [[quotient groups|quotient group]]
+		- We use the subgroup $5\mathbb{Z}$ to partition the group $\mathbb{Z}$ into cosets
+		- Because the cosets form a group, we call $5\mathbb{Z}$ a [[normal subgroup]]
+		- The group of cosets is called a quotient group
+			- It's written like $\mathbb{Z}/5\mathbb{Z}$ 
+				- Using subgroup to divide the group into cosets
+				- When you divide one thing by another, you get a quotient
+		- Critical insight of this process was the observation that you can treat the cosets as elements in a new group, a coset group if you will
+	- Adding cosets
+	- Important Note
+		- Group: $\mathbb{Z}$
+		- Normal Subgroup: $5\mathbb{Z}$
+		- Quotient Group: $\mathbb{Z}/5\mathbb{Z}$
+		- $\mathbb{Z}/5\mathbb{Z} \le \mathbb{Z}$ 
+			- Quotient group not a subgroup of $\mathbb{Z}$
+	- Generalize
+		- Group: G, $\cdot$ 
+			- [[Multiplicative Notation]] for group G
+		- Subgroup: N
+			- The other cosets are simply sets
+		- Use N to make cosets
+			- They are non-overlapping cosets
+		- Do the cosets always form a group?
+			- No
+				- If the cosets do not form a group, we do not call N a normal subgroup and we cannot make a quotient group
+- ![[Screenshot 2024-01-28 at 11.34.40 PM.png]]
+	- Lets assume n divides G into t different cosets
+		- Since G may not be abelian $\to$ left cosets may differ from right cosets
+- ![[Screenshot 2024-01-28 at 11.41.54 PM.png]]
+	- Recap
+		- $N \le G$ & Cosets form a group $\implies$ $y^{-1}Ny=N$ for any y $\in$ G
+			- The converse is also true
+	- Claim: The cosets form a group
+	- Let N $\le$ G
+		- Cosets form a group $\iff$ $y^{-1}Ny=N$ for any y $\in$ G
+		- N is a [[normal subgroup]] of G
+		- Notation: N $\trianglelefteq$ G
+	- Coset group called "[[Factor Group]]"
+		- Notation: $G/N$
+		- Identity: N
+		- Inverse of $x*N$ is $x^{-1}*N$ 
+- ![[Screenshot 2024-01-28 at 11.59.16 PM.png]]
+	- Simple Groups
+		- Every group G has (at least) 2 subgroups
+			- Identity element {e}
+			- and entire group G
+		- These are technically normal subgroups (but not interesting)
+		- Definition: If the only normal subgroups of G are {e} and G, then G is a [[simple group]]
+			- A simple group does not have any factor groups. Are building blocks of other groups (much like prime numbers are building blocks of the integers)
+	- Applications
+		- Normal subgroups and quotient groups are among the most useful devices in abstract algebra
+		- [[Homomorphisms]] from G
+			- f: G $\to$ H
+		- In separate groups, will determine what kinds of homomorphisms are possible from a group G to other groups.
+		- For finite groups, you can find a chain of normal subgroups called a "[[composition series]]" which acts as a prime factorization of the group.
+		- Normal subgroups can even be used to study fields: you'll learn this technique in [[Galois Theory]]
+			- [[Field Extensions]]
+				- $K / F$
+	- Exercise
+		- Try to find a normal subgroup of the [[symmetric group]] $S_3$ 
+			- This group only has 6 elements so you should be able to check everything by hand

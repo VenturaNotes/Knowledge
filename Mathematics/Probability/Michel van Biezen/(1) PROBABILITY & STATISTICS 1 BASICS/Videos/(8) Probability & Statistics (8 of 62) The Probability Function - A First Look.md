@@ -1,0 +1,25 @@
+[Video](https://youtube.com/watch?v=i6_byEFjKEA)
+
+- Key
+	- Sample Space
+		- $\Omega$ = {1, 2, 3, 4, 5, 6}
+	- Events
+		- A = {1, 3, 5}
+		- B = {2, 4}
+		- C = {4, 5, 6}
+- Probability Function $\to$ P
+	- It assigns a number from 0 to 1 to each event in $\Omega$ such that
+		- (1) P($\Omega$) = 1
+			- 100% probability that the outcome will be some element of the sample space.
+		- (2) P(A) = $\frac {\text { Number of Ways "A" Can Occur}} {\text { Total Number of Outcomes }}$ = $\frac 36$ = $\frac 12$
+			- This is because set A has 3 elements and set $\Omega$ has 6 elements.
+		- (3) P(A $\cup$ B) = P(A) + P(B) = $\frac 36$ + $\frac 26$ = $\frac 56$ 
+			- Disjoint
+			- A or B
+			- Sets A and B are disjoint since they have no element in common (making them independent)
+		- (4) P(A $\cup$ C) = P(A) + P(C) - P(A $\cap$ C) = $\frac 36$ + $\frac 36$ - $\frac 16$ = $\frac 56$ 
+			- Overlapping
+			- A or C
+			- Sets A and B are overlapping since they have elements in common (making them dependent)
+			- There is only 1 element in common so the $P(A\cap C)$ = $\frac 16$ 
+	- If it's 0, there is a 0% chance the event will occur. If it's 1, there is a 100% chance the event will occur.

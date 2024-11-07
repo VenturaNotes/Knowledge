@@ -1,0 +1,53 @@
+[Video](https://www.youtube.com/watch?v=TBnPkKxXPu8)
+
+- ![[Screenshot 2023-05-22 at 10.29.01 AM.png]]
+	- A [[Permutation|permutation]] is an ordering of objects
+		- To find number of permutations of cat, it's $3!$
+			- So the general expression is $n!$ to find the number of permutations
+	- What if we take permutations of n objects r at a time? ^139416
+		- 2 letter word using 3 letters
+			- $_nP_r$
+				- How of "n" objects, how many ways are there to pick "r" of them where the order is important
+					- Formula is $\frac {n!}{(n-r)!}$
+					- Would have six outcomes
+						- CA, CT, AC, AT, TA, TC
+		- If you had a word such as "attic", you would just count the 2 t's as one.
+	- [[Combination]] is where order is not important ^73de9f
+		- Would have 3 distinct/unique outcomes
+			- CA, CT, TA
+		- Formula
+			- $_nC_r = \frac {n!}{(n-r)!r!}$
+- ![[Screenshot 2023-05-23 at 9.59.11 AM.png]]
+	- If you take a word such as Algebra and you want to find out the number of permutations of all the letters in the word algebra, you can see there are 7 letters so $7!$ ways of rearranging them.
+		- When there are multiple letters, you want to divide out those multiplicities
+	- Example #1: If there are 10 people on a committee, how many ways are there of choosing a president, V.P, and secretary? 
+		- 720
+	- Example #2: If there are 30 people on your tennis team, how many ways can you chose 2 co-captains?
+	- Example #3: If a board has 10 women and 7 men, how many ways can you form a committee containing 4 members such that:
+		- All 4 are men?
+			- Combination because order not important
+		- 2 are men and 2 are women
+			- Multiply 2 combinations together (using the [[fundamental counting principle]])
+		- <mark style="background: #FFF3A3A6;">At least one</mark> is a woman? 
+			- When you see the phrase "at least one", you take the total and subtract by none
+- ![[Screenshot 2023-05-23 at 11.19.13 AM.png]]
+	- How card games work
+		- 52 cards in a deck
+		- 26 red and 26 black
+		- 4 suites
+			- 13 diamonds and 13 hearts (red cards)
+			- 13 clubs and 13 spades (black cards)
+			- KQJ (face cards)
+			- Numbered cards (2-10)
+			- A (1 ace)
+	- Example #4: How many ways are there of being dealt a 5 card hand out of a standard 52 card deck if:
+		- (a) All are diamonds
+			- 13C5
+		- (b) Contains <mark style="background: #FFF3A3A6;">exactly</mark> 1 face card
+		- (c) No queens
+		- (d) All hearts or all spades
+		- (e) At most 1 club
+		- Probability
+			- P = $\frac{\text{\# successes}}{\text{Total possible outcomes}}$
+			- (f) What is the probability of being dealt all numbered cards?
+			- (g) What is the probability of getting at least 1 ace?

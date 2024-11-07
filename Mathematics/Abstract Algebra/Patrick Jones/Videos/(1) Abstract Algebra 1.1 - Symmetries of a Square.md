@@ -1,0 +1,24 @@
+[Video](https://youtube.com/watch?v=QHi_QW3OfKc)
+
+- ![[Screenshot 2023-09-06 at 10.09.26 PM.png]]
+	- [[Rotation]]
+		- Rotations are done counterclockwise in math
+			- $90\degree$ in counterclockwise direction
+		- Turning it $90\degree$ clockwise is the same thing as turning it $270 \degree$ counterclockwise
+		- Will call the 4 moves ($0\degree$, $90\degree$, $180\degree$, $270\degree$ rotations)
+			- Will label them by degrees that we rotated through in a counterclockwise direction
+		- Notation
+			- $R_0$, $R_{90}$, $R_{180}$, $R_{270}$
+	- [[Reflection]]
+		- Line V is when you reflect it across a vertical line
+		- Line H is when you reflect it across the horizontal line
+		- Line D' is reflecting around the off diagonal
+		- Line D is reflecting across main diagonal
+	- [[Combinatorics]]
+		- Red has to end up at one of the corners (4 places it could end up)
+			- Blue needs to be at opposite corner
+		- Green and black will always be across from each other
+		- Therefore, if we know where the red and green are, we know exactly where it's placed
+			- For each of the 4 places where red can end up, there are 2 places where the green can end up
+				- $4*2$ = 8 different final places
+		- An $R_{90}$ then V $\to$ D'

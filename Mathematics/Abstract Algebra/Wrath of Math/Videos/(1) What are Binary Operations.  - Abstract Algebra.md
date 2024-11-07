@@ -1,0 +1,70 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=VzsAehzmjrU
+---
+- ![[Screenshot 2024-10-29 at 11.12.07 PM.png]]
+	- First
+		- [[Binary operations]]
+			- Vital concept in [[abstract algebra]]
+		- A [[binary operation ]]on a set S is a function $f: S \times S \to S$ 
+			- A binary operation is a special type of function
+			- A binary operation on a set S is a function from the cartesian product $S\times S$ to that same set S.
+				- This means that a binary operation takes two elements from the same set (they could be the same element or different) and maps them to exactly one element also in that set.
+		- Addition on the real numbers is a binary operation
+			- $g: \mathbb{R} \times \mathbb{R} \to \mathbb{R}$
+				- This [[cartesian product]] is the set containing all ordered pairs where $r_1$ and $r_2$ are any real numbers
+					- $(r_1, r_2)$ 
+				- Therefore, the domain values here are technically ordered pairs
+			- $g (a,b) = a +b$
+				- $g(3, 5) = 8$ 
+					- It takes each pair of real numbers and maps it to exactly one other real number
+			- Technically the domain values of $g$ are [[ordered pair|ordered pairs]] so you might think it's more correct to write g((a, b)) but it's fairly common to drop the extra parentheses
+				- "g of the ordered pair (a, b)"
+		- A binary operation is a function that takes an ordered pair containing two elements both from the same set and it sends that ordered pair to some element also in the same set
+			- Since adding two real numbers always gives us a real number, we say that the real numbers are [[closed under addition]]
+	- Second
+		- If we're talking about composing two elements with some binary operation, some common notation you might see is. These notations may be read as "a composed with b" or you may hear them read as "a times b"
+			- $a*b$
+				- "a star b"
+			- $a \times b$
+				- "a times b"
+					- with the notation we typically use for multiplication 
+			- ab
+				- Might also not use any notation at all
+			- a $\circ$ b
+				- "a circle b"
+		- Since we are talking about multiplication right now, let's look at a non-example of a binary operation. 
+			- Multiplication on {2, 3, 4}
+				- This is not a binary operation because this set is not closed under normal multiplication
+				- The domain of a binary operation is a cartesian product, so the domain elements are ordered pairs
+				- So if it were a binary operation, the following would be its domain
+					- {2, 3, 4} $\times$ {2, 3, 4}
+						- An example of an element from the domain would be the ordered pair (3, 4)
+						- However $3\times4$ = 12 which is not an element of the set. Therefore, since it's not [[closed under multiplication]], multiplication on this set is not a binary operation
+		- A binary operation is a function which takes two elements from the same set and sends them to some element also in that set. That's why this is not a binary operation
+	- Third
+		- What about addition on the [[rational numbers]] ($\mathbb{Q}$)
+			- Let's add two rational numbers
+				- a, b, c, and d are all integers
+				- b, d are not equal to 0
+			- [[common denominator]]
+		- The integers are closed under multiplication
+			- `db`, `cb` and `db` are all integers
+			- Integers are also closed under addition
+			- The product of non-zero numbers is always non-zero
+		- Addition on the rationals is a [[binary operation]]
+		- Is division on the real numbers a binary operation? (no)
+			- Take note that the domain elements being ordered pairs is very important
+			- The ordered pair (3, 0) is undefined if trying to plug that into the division operation (0, 3) works fine though
+			- Some binary operations are [[commutative]] where the order doesn't matter such as addition and some are not like division and subtraction
+	- Review
+		- A binary operation on a set S is a function from S $\times$ S to the set S. A binary operation takes every possible pair of elements from a set and maps each pair to exactly one element in the same set
+	- Which of the following are binary operations?
+		- + on {0, 1, 2}
+			- addition is not a binary operation here because it is not closed. 2 + 2 = 4 is not in {0, 1, 2}
+		- add mod 3 on {0, 1, 2}
+			- Addition here is a binary operation because it is a function and closed. By definition, the sum of any two integers mod 3 is 0, 1, or 2. 
+		- $\div$ on $\mathbb{Q}$
+			- Division on the rationals is not a binary function because we can get (a, 0) in which we can't divide by zero.
+		- multiplication on $\mathbb{C}$
+			- Multiplication on the complex numbers $\mathbb{C}$ is a binary operation. Consider two complex numbers a + bi and c + di, where i is the imaginary unit, and a, b, c, and d are real numbers. Multiplying these complex numbers and simplifying gives us (ac - bd) + (ad + bc)i. By closure of the reals under addition and subtraction, we know ac - bd and ad + bc are reals, so (ac - bd) + (ad + bc)i is a complex number. Thus, since two complex numbers multiply to exactly one other complex number, multiplication on C is a binary operation

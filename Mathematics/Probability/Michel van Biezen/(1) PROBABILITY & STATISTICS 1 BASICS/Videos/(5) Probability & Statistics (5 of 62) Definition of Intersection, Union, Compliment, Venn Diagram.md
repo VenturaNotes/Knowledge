@@ -1,0 +1,37 @@
+[Video](https://youtube.com/watch?v=GU_2eQvVlCg)
+
+- Key ^c2b0fa
+	- Sample Space:
+		- $\Omega$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	- Sets (subsets of the sample space)
+		- A = {1, 3, 5, 7, 9}
+			- Odd numbers
+		- B = {2, 4, 6, 8, 10}
+			- Even Numbers
+		- C = {1, 2, 3, 4, 5}
+			- First 5 numbers
+		- D = {4, 8}
+- Intersection [[(5) Probability & Statistics (5 of 62) Definition of Intersection, Union, Compliment, Venn Diagram#^c2b0fa|Key]]
+	- ![[Screenshot 2023-01-08 at 11.52.45 AM.png]]
+		- Only those element (numbers) that are common to both subsets
+		- $\Omega$ represents all possible outcomes. It could be everything. Not just the sample space but the entire universe. Any possible outcome for any event or experiment we do.
+			- What belongs in the box is the total sample space and everything else is simply a subset of the sample space.
+- Union [[(5) Probability & Statistics (5 of 62) Definition of Intersection, Union, Compliment, Venn Diagram#^c2b0fa|Key]]
+	- ![[Screenshot 2023-01-08 at 11.52.51 AM.png]]
+		- All numbers that either belong to A and/or C.
+- Compliment [[(5) Probability & Statistics (5 of 62) Definition of Intersection, Union, Compliment, Venn Diagram#^c2b0fa|Key]]
+	- ![[Screenshot 2023-01-08 at 11.52.59 AM.png]]
+		- Compliment of a set is all of the numbers that do not belong to that set
+		- All elements not in A is the compliment of A.
+- Disjoint [[(5) Probability & Statistics (5 of 62) Definition of Intersection, Union, Compliment, Venn Diagram#^c2b0fa|Key]]
+	- ![[Screenshot 2023-01-08 at 11.53.06 AM.png]]
+		- When 2 sets have nothing in common. No elements in common
+- Subset [[(5) Probability & Statistics (5 of 62) Definition of Intersection, Union, Compliment, Venn Diagram#^c2b0fa|Key]]
+	- ![[Screenshot 2023-01-08 at 11.58.56 AM.png]]
+		- All numbers in D belongs in B so D is a subset of B.
+- Difference [[(5) Probability & Statistics (5 of 62) Definition of Intersection, Union, Compliment, Venn Diagram#^c2b0fa|Key]]
+	- ![[Screenshot 2023-01-08 at 11.59.07 AM.png]]
+		- What is in B but not in D?
+			- All the elements in B, not in D.
+- Intersection, Union, and Compliment. They are all part of set of things we call Venn Diagrams.
+	- Venn Diagrams are used to illustrate graphically what sets and sample spaces are. Makes them easier to comprehend since we can visually see them.

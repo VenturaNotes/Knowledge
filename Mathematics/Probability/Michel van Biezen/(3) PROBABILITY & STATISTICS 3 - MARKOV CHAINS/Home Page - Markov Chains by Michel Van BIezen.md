@@ -1,0 +1,48 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWgcF0WATMDr-AfvfaYjJZ3
+Length: 4 hours, 14 minutes, 17 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Prob & Stats - Markov Chains (1 of 38) What are Markov Chains - An Introduction]]
+	- [[(2) Prob & Stats - Markov Chains (2 of 38) Markov Chains - An Introduction (Another Method)]]
+	- [[(3) Prob & Stats - Markov Chains (3 of 38) Why Are Markov Chains Called 'Markov Chains'.]]
+	- [[(4) Prob & Stats - Markov Chains (4 of 38) Another Way to Calculate the Markov Chains]]
+	- [[(5) Prob & Stats - Markov Chains (5 of 38) What Happens if the Markov Chain Continues.]]
+	- [[(6) Prob & Stats - Markov Chains (6 of 38) Markov Chain Applied to Market Penetration]]
+	- [[(7) Prob & Stats - Markov Chains (7 of 38) Power of the Probability Matrix]]
+	- [[(8) Prob & Stats - Markov Chains (8 of 38) What is a Stochastic Matrix.]]
+	- [[(9) Prob & Stats - Markov Chains (9 of 38) What is a Regular Matrix.]]
+	- [[(10) Prob & Stats - Markov Chains (10 of 38) Regular Markov Chain]]
+	- [[(11) Prob & Stats - Markov Chains (11 of 38) How to Check for a Stable Distribution Matrix]]
+	- [[(12) Prob & Stats - Markov Chains (12 of 38) How to Find a Stable 2x2 Matrix - Ex. 1]]
+	- [[(13) Prob & Stats - Markov Chains (13 of 38) How to Find a Stable 2x2 Matrix - Ex. 2]]
+	- [[(14) Prob & Stats - Markov Chains (14 of 38) How to Find a Stable 2x2 Matrix - Ex. 3]]
+	- [[(15) Prob & Stats - Markov Chains (15 of 38) How to Find a Stable 3x3 Matrix]]
+	- [[(16) Prob & Stats - Markov Chains (16 of 38) Application Problem 1, Charity Contributions]]
+	- [[(17) Prob & Stats - Markov Chains (17 of 38) Application Problem 2, Grocery Stores]]
+	- [[(18) Prob & Stats - Markov Chains (18 of 38) Application Problem 3, Brand Loyalty]]
+	- [[(19) Prob & Stats - Markov Chains (19 of 38) Absorbing Markov Chains - Definition 1]]
+	- [[(20) Prob & Stats - Markov Chains (20 of 38) Absorbing Markov Chains - Definition 2]]
+	- [[(21) Prob & Stats - Markov Chains (21 of 38) Absorbing Markov Chains - Example 1]]
+	- [[(22) Prob & Stats - Markov Chains (22 of 38) Absorbing Markov Chains - Example 2]]
+	- [[(23) Prob & Stats - Markov Chains (23 of 38) Absorbing and Non-Absorbing Markov Chain]]
+	- [[(24) Prob & Stats - Markov Chains (24 of 38) Absorbing Markov Chain in Standard Form]]
+	- [[(25) Prob & Stats - Markov Chains (25 of 38) Absorbing Markov Chain - Stable Matrix=.]]
+	- [[(26) Prob & Stats - Markov Chains (26 of 38) Absorbing Markov Chain - Stable Matrix=. Ex. 1]]
+	- [[(27) Prob & Stats - Markov Chains (27 of 38) Absorbing Markov Chain - Stable Matrix=. Ex. 2]]
+	- [[(28) Prob & Stats - Markov Chains (28 of 38) Absorbing Markov Chain - Stable Distribution Matrix=.]]
+	- [[(29) Prob & Stats - Markov Chains (29 of 38) Absorbing Markov Chain - Stable Distribution Matrix=.]]
+	- [[(30) Prob & Stats - Markov Chains - Method 2 (30 of 38) Basics]]
+	- [[(31) Prob & Stats - Markov Chains - Method 2 (31 of 38) Powers of a Transition Matrix]]
+	- [[(32) Prob & Stats - Markov Chains - Method 2 (32 of 38) Finding Stable State Matrix]]
+	- [[(33) Prob & Stats - Markov Chains - Method 2 (33 of 38) What is an Absorbing Markov Chain]]
+	- [[(34) Prob & Stats - Markov Chains - Method 2 (34 of 38) Finding the Stable State Matrix]]
+	- [[(35) Prob & Stats - Markov Chains - Method 2 (35 of 38) Finding the Stable State & Transition Matrices]]
+	- [[(36) Prob & Stats - Markov Chains - Method 2 (36 of 38) Absorbing Markov Chain - Standard Form - Ex.]]
+	- [[(37) Prob & Stats - Markov Chains - Method 2 (37 of 38) Absorbing Markov Chain - Changing to Standard Form]]
+	- [[(38) Prob & Stats - Markov Chains - Method 2 (38 of 38) Absorbing Markov Chain - Standard Form - Ex.]]

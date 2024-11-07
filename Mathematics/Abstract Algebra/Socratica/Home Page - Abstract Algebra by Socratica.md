@@ -1,0 +1,43 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6
+Length: 3 hours 27 minutes, 36 seconds
+tags:
+  - type/playlist
+  - status/incomplete
+---
+- Complete
+	- [[(1) What is Abstract Algebra.  (Modern Algebra)]]
+	- [[(2) Group Definition (expanded) - Abstract Algebra]]
+	- [[(3) Abstract Algebra - The definition of a Group]]
+	- [[(4) Abstract Algebra -  Motivation for the definition of a group]]
+	- [[(5) Abstract Algebra - The definition of a Subgroup]]
+	- [[(6) Group Multiplication Tables  - Cayley Tables  (Abstract Algebra)]]
+	- [[(7) Cosets and Lagrange’s Theorem - The Size of Subgroups  (Abstract Algebra)]]
+	- [[(8) Normal Subgroups and Quotient Groups (aka Factor Groups) - Abstract Algebra]]
+- Incomplete
+	- [[(9) Cyclic Groups  (Abstract Algebra)]]
+	- [[(10) Abstract Algebra - Group or Not Group. (Integer edition)]]
+	- [[(11) Group Homomorphisms - Abstract Algebra]]
+	- [[(12) Homomorphisms  (Abstract Algebra)]]
+	- [[(13) Isomorphisms  (Abstract Algebra)]]
+	- [[(14) The Kernel of a Group Homomorphism – Abstract Algebra]]
+	- [[(15) The Order of an Element  (Abstract Algebra)]]
+	- [[(16) Symmetric Groups (Abstract Algebra)]]
+	- [[(17) Cycle Notation of Permutations - Abstract Algebra]]
+	- [[(18) Dihedral Group  (Abstract Algebra)]]
+	- [[(19) Symmetry Groups of Triangles  (Abstract Algebra)]]
+	- [[(20) Matrix Groups  (Abstract Algebra)]]
+	- [[(21) Direct Products of Groups  (Abstract Algebra)]]
+	- [[(22) Simple Groups - Abstract Algebra]]
+	- [[(23) Abstract Algebra - The definition of a Ring]]
+	- [[(24) Ring Definition (expanded) - Abstract Algebra]]
+	- [[(25) Ring Examples  (Abstract Algebra)]]
+	- [[(26) Units in a Ring  (Abstract Algebra)]]
+	- [[(27) Integral Domains  (Abstract Algebra)]]
+	- [[(28) Ideals in Ring Theory (Abstract Algebra)]]
+	- [[(29) Field Definition (expanded) - Abstract Algebra]]
+	- [[(30) Abstract Algebra - The definition of a Field]]
+	- [[(31) Field Examples - Infinite Fields  (Abstract Algebra)]]
+	- [[(32) What is a Vector Space.  (Abstract Algebra)]]
+	- [[(33) What is a Module.  (Abstract Algebra)]]

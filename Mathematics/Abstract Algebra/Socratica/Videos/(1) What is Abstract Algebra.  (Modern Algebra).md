@@ -1,0 +1,33 @@
+[Video](https://www.youtube.com/watch?v=IP7nW_hKB7I)
+
+- ![[Screenshot 2023-11-15 at 4.18.20 PM.png]]
+	- In the year 1800, people knew how to solve linear equations, quadratic equations, cubic equations and quartic equations
+		- What about higher degrees?
+			- [[Evariste Galois]] answered this question
+				- Used a tool called a [[group]]
+		- [[Carl Friedrich Gauss]] busy making discoveries of his own
+			- Ironed out [[modular arithmetic]]
+				- Helped solve many problems in [[number theory]]
+		- Modular arithmetic shared similarities to groups used by Galois
+	- In 1800s, saw revolution in geometry
+		- [[Euclid]] dominated the scene with his book called "The Elements"
+	- There are other geometries beyond the one devised by the ancient Greeks
+		- Groups are a useful tool for studying these geometries
+	- A group is a set G with an operation $*$ such that:
+		- [[Closure]]: If x and y are in G, then x$*$y is in G
+		- [[Associativity]]: For all x, y, z in G, we have $(x*y)*z = x*(y*z)$
+		- [[Identity Element]]: There is an element e in G such that $e*x=x*e=x$ for all x in G
+		- [[Inverse Elements]]: For each element x in G, there is an element $x^{-1}$ such that $x*x^{-1} = x^{-1}*x=e$
+	- Groups are a powerful tool that can be used in many different ways. It makes sense to "abstract" out the common features of this tool used by others into a general tool. Then learn everything about it. Then, [[group theory]] was born.
+	- New abstract objects began to take shape
+		- [[Rings]]
+		- [[Fields]]
+		- [[Vector Spaces]]
+		- [[Modules]]
+- ![[Screenshot 2023-11-15 at 4.27.29 PM.png]]
+	- The correct definition was finally identified and now called [[abstract algebra]]
+		- It's a young subject
+		- Usefulness continues to grow
+	- In physics, chemistry, computer science and other areas are discovering how useful abstract algebra can be
+		- Sometimes called modern algebra
+	- Mathematical experience and mental maturity important when learning abstract algebra

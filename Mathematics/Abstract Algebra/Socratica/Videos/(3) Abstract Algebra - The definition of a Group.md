@@ -1,0 +1,31 @@
+[Video](https://www.youtube.com/watch?v=QudbrUcVPxk)
+
+- ![[Screenshot 2024-01-23 at 1.33.40 PM.png]]
+	- The definition of a [[Group]]
+		- It's an abstract idea
+	- In [[arithmetic]], we learn to add, subtract, multiply, and divide numbers
+		- Integers $\mathbb{Z}$
+		- Fractions $\mathbb{Q}$
+		- Real Numbers $\mathbb{R}$
+		- Complex numbers $\mathbb{C}$ 
+	- Subtraction is addition in disguise. Division is multiplication in disguise
+	- In arithmetic
+		- Operations: addition and multiplication
+		- [[Opposites]]:
+			- For addition, it's negative numbers
+			- For multiplication, it's reciprocals
+			- Use the word [[inverse]] instead of opposite for abstract algebra
+		- If you combine a number with its inverse, you get an [[identity]] element
+			- For addition it's 0
+				- Adding any number by 0 will not change it
+			- For multiplication it's 1
+				- Multiplying any number by 1 will not change it
+	- [[Group]]
+		- Set of elements
+		- Operation: $*$
+		- Closed under $*$
+		- Inverses
+		- Identity: e
+		- Associativity
+			- Without this, could not solve simplest of equations
+	- Commutative groups are called commutative groups or Abelian Groups

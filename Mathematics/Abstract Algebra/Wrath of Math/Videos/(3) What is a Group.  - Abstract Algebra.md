@@ -1,0 +1,26 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=dfCNJmT0-uI
+---
+- Image
+	- First
+		- A [[group]] is a set G, together with a binary operation, $\cdot$, satisfying the following conditions
+			- [[Closure]]: $a \cdot b \in G \text{ for all } a, b \in G$ 
+			- [[Associativity]]: $(a\cdot b) \cdot c = a \cdot (b\cdot c) \space \forall a, b, c \in G$
+			- [[Identity]]: $\exists e \in G \text { such that } a\cdot e = e \cdot a = a \forall a \in G$
+			- [[inverse|inverses]]: $\forall a \in G, \exists b \in G \text { such that } ab = ba = e$
+		- The binary operation is generically represented by the dot $\cdot$ 
+		- The above four conditions are often called the [[group axioms]]
+		- When talking about a group, we're talking about a set which is an unordered collection of distinct objects and some binary operation acting on that set which follows four rules. This is a type of algebraic structure and groups are very common one.
+		- Even though the set and binary operation together form the group, we will often refer to the group by the name of the underlying set. If the set is G, we will often call the group G as well.
+		- A [[binary operation]] is a function that takes two objects and spits out some third object. Addition is a binary operation (2 and 3 put into the binary operation of addition will give 5 out)
+	- Second
+		- Consider the set of integers $\mathbb{Z}$ 
+		- A [[group]] consists of a set and some binary operation on the set that follows the group axioms
+		- If we take any two integers, and add them together, we get another integer. This will be true no matter which two integers we add together. This is called the property of [[closure]]
+			- The integers are closed under the operation of addition.
+			- Any two elements of the integers that we take and add together, they stay within the set of integers
+			- Satisfying closure is the first group axiom
+			- 3 + 2 = 5
+		- Property of [[associativity]].  We say that the integers are associative under the operation of addition. This is the second group axiom
+			- $-3 + (2 + 4) = 3 = (-3 + 2) + 4$ 

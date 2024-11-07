@@ -1,0 +1,48 @@
+[Video](https://www.youtube.com/watch?v=BwHspSCXFNM)
+
+- ![[Screenshot 2024-01-23 at 1.57.14 PM.png]]
+	- Learned [[Multiplication table]] when studying arithmetic
+	- Groups behave very differently than numbers in arithmetic
+	- [[Group Multiplication Tables]]
+		- aka "Cayley Tables"
+			- In honor of [[Arthur Cayley]] (1821 - 1895)
+				- He was the first to use them in a math paper
+	- Group under multiplication consisting of 4 elements
+		- Group: $\times$, {1, -1, i, -i}
+	- Features of Cayley Tables
+		- First row / column match headers if headers start with identity
+		- Every row / column contains identity element because in groups, all elements have inverses
+		- Table is symmetric about diagonal. Flipping group along diagonal gives same table
+			- This is because a group is [[Commutative group|abelian]]: $a\times b = b \times a$ for any two elements a and b
+		- [[Noncommutative group|Non-abelian groups]] are not symmetric about diagonal
+		- No duplicate elements in rows & columns (not counting headers)
+- ![[Screenshot 2024-01-23 at 2.11.23 PM.png]]
+	- Assume there's a row with duplicate elements
+		- We find that x = y but they're different
+		- Therefore we have a contradiction
+		- $\therefore$ Rows cannot have duplicate elements
+	- Can use same reasoning to show that columns cannot have duplicate elements
+	- Groups G of order 1
+		- "[[Order]]" = # of elements in group
+		- |G| = Order of G
+	- Every group must have [[identity element]]
+		- Could use e
+		- [[Trivial group]]
+	- Groups of order 2
+		- Rule: Each row & column contains all elements. No duplicates in any row or column
+		- Same as Integers mod 2
+			- $\mathbb{Z} / 2\mathbb{Z}$ 
+	- Groups of order 3
+		- There is only one group of order 3
+- ![[Screenshot 2024-01-23 at 2.15.26 PM.png]]
+	- Group of order 3 (Cayley table)
+		- Symmetric about diagonal (abelian group)
+		- Identical to integers mod 3 under +
+		- They are [[isomorphic groups]]
+	- Almost like solving a sudoku puzzle
+	- Challenge
+		- Find all groups of order 4
+		- Clues:
+			- 4 Cayley tables
+			- 3 are identical
+			- 2 distinct groups

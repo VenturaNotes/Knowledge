@@ -1,0 +1,101 @@
+[Video](https://www.youtube.com/watch?v=g7L_r6zw4-c)
+
+- ![[Screenshot 2024-01-23 at 1.03.54 PM.png]]
+	- Many different areas of [[mathematics]]. Geometry, number theory, topology, algebra
+		- Problems in these fields very different from one another.
+		- In late 1800s, people noticed they were using the same tool to solve many different kinds of problems. 
+		- New subject created called Abstract Algebra
+			- Structure called [[Group]]
+	- Clock Arithmetic is also known as [[modular arithmetic]]
+		- In the example, we have 7 hours, so we call them integers mod 7
+		- mod is short for [[modular]]
+	- Given an [[equilateral triangle]]
+		- Question: How many ways can you rotate / flip the triangle so it looks the same before & after?
+			- Transformation 1 is leaving triangle unchanged
+		- $r^2$ means two rotations
+		- $r^3$ = 1
+		- Rotations is "r" and flip about vertical axis called "f"
+		- For any transformation T, $1*T = T$ and $T*1 = T$  
+			- You can multiply any two transformations by first applying one, then the other
+		- These transformations are called symmetries
+			- There is a close relationship between symmetries of a shape and clock arithmetic
+	- [[Integers]]: $\mathbb{Z}$ = {..., -3, -2, -1, 0, 1, 2, 3, ...}
+		- Let x, y be integers
+		- Operations: x + y, x - y are integers
+			- Subtraction is adding negatives
+			- e.g. 7 - 11 = 7 + (-11)
+		- Single operation: +
+		- [[Closure]]: x, y integers $\implies$ x + y is an integer
+			- [[Closed under addition]]
+		- e.g. 3 and 5 are integers, but $\frac 35$ is not an integer
+		- Not closed under $\div$ 
+			- May get a number outside the set of integers
+		- Zero: Adding zero to any integer will give the same integer
+			- x + 0 = 0 + x = x
+- ![[Screenshot 2024-01-23 at 1.17.30 PM.png]]
+	- Example
+		- Clock arithmetic = modular arithmetic
+		- Symmetries of a Triangle
+		- Integers $\mathbb{Z}$ under addition (+)
+	- Each example has a set of objects which we call elements
+	- The 6 geometric transformations (which we also call symmetries) make up the triangle's set
+	- What the examples all have in common
+		- [[members|elements]]
+			- Set of objects
+		- [[operation]]
+			- A way to combine any two elements to get another element in the set
+			- We use a symbol to show we're combining two elements
+			- Addition used for clock arithmetic as well as integers
+				- For clock arithmetic, subtraction is redundant as it can be rewritten with addition
+					- Any subtraction problem can be rewritten as an addition problem
+					- On a 7 hour clock: 2 - 4 = 2 + 3 = 5
+			- For symmetries of a triangle, common to use multiplication symbol $\times$ 
+		- [[Closure]]
+			- Each of the 3 sets are closed under the operation
+				- For a, b in set, a+b also in set. ($a*b$ in set for multiplication)
+		- [[Identity]] element
+			- This is an element that has no effect when combined with other elements
+				- For integers mod 7, it's 0 (x + 0 = 0 + x = x)
+				- For triangle, it's transformation 1 (picking up triangle and dropping it unchanged)
+					- $(1*y = y*1 = y)$ 
+				- For integers, identity of an element is also zero
+					- z + 0 = 0 + z = z
+		- [[Inverse]]
+			- For integers
+				- Inverse of 3 is -3
+				- If adding element and it's inverse, you get zero, the identity element
+			- For symmetries
+				- Each transformation has an opposite
+					- opposite of $r$ is $r^2$ because $r*r^2$ = $r^3$ which returns the identity element 1
+			- For integers mod 7, the inverse of 3 is 4 because -3 on clock is 4
+				- 3 + 4 = 0 (mod 7)
+			- If using + sign for operation, inverse written as -x for (x $\to$ -x)
+				- If using multiplication sign, the inverse is written as $x^{-1}$ as shown $(x \to x^{-1})$
+				- Combining x with inverse gives identity element
+		- [[Associative Property]]
+			- When combining 3 elements, it doesn't matter how you group them. Could start with combining the first two elements or the last two elements 
+- ![[Screenshot 2024-01-23 at 1.24.30 PM.png]]
+	- [[Group]] definition
+		- Set of elements G
+		- Operation (allows you to combine any two elements)
+			- + or $\times$ 
+			- Will use an $*$ when speaking generally
+		- Closed under operation
+			- When combining any two elements in the group, you get another element in the group
+			- $x, y \in G \implies x*y \in G$
+		- Inverses: $x^{-1}$ exists for all x
+			- Has opposite effect of x
+			- When combining x and inverse, you get identity element which we'll call "e"
+			- $x*x^{-1}=e$
+		- Identity: $y*e = e*y = y$
+			- Combining any element y with identity element e, we get y
+		- Associativity
+			- $(a*b)*c=a*(b*c)$
+	- Took mathematicians many years to identify these as most essential properties
+	- G may not be commutative
+		- Possible for $x*y \ne y*x$ 
+		- For triangle: $r*f \ne f*r$ 
+	- If G is commutative, called
+		- [[Commutative group]] or abelian group
+	- If G is not commutative
+		- [[Noncommutative group]]

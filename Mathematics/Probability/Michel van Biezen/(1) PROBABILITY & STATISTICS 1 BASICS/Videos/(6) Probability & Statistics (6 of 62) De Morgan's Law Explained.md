@@ -1,0 +1,34 @@
+[Video](https://youtube.com/watch?v=2qCDKt23jHQ)
+
+- Sample Space
+	- $\Omega$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+- Events (All subsets of sample space)
+	- A = {1, 3, 5, 7, 9}
+	- B = {2, 4, 6, 8 , 10}
+	- C = {1, 2, 3, 4, 5}
+	- D = {4, 8}
+	- Notes
+		- A and B are completely independent events.
+			- All elements in A do not belong to B.
+			- All elements in B do not belong to A
+		- A and C have some dependency
+			- Some of the elements within them are the same
+		- D has dependency with B and C but not with A 
+- ![[Screenshot 2023-01-08 at 12.36.09 PM.png]]
+	- C means complement (everything outside that belongs in A)
+	- Complement of A is all elements in sample space that do not belong to A
+	- Complement of A is B and Complement of B is actually A
+	- Union of A and C
+		- All elements that belong to A, all elements that belong to C, and all elements that belong to both A and C.
+	- Union ($\cup$)  means together
+	- Intersections ($\cap$)  means elements that belong to both A and C
+	- Proof
+		- ![[Screenshot 2023-01-08 at 12.54.45 PM.png]]
+			- Intersection is whatever belongs to both.
+			- Intersection is what is common between both
+			- By inspection, we can see that the law above is true
+- ![[Screenshot 2023-01-08 at 12.36.18 PM.png]]
+	- Proof
+		- ![[Screenshot 2023-01-08 at 12.56.13 PM.png]]
+			- The only thing that doesn't belong to either is the overlap of A and C.
+			- By inspection, we see it.

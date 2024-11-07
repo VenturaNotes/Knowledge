@@ -1,0 +1,60 @@
+[Video](https://www.youtube.com/watch?v=TCcSZEL_3CQ)
+
+- ![[Screenshot 2024-01-23 at 2.28.20 PM.png]]
+	- Pieces of groups are called [[subgroup|subgroups]]
+		- Smaller groups contained in G
+	- By using objects called [[cosets]], we can create a simple rule that dramatically narrows down the possible list of subgroups
+		- This result is called [[Lagrange's theorem]]
+	- For rest of video, will only be talking about finite groups
+	- Subgroup = subset + group
+	- H is a subgroup of G: H $\le$ G
+	- Two standard subgroups of G
+		- G
+		- Trivial Group = {e}
+			- Consists of single element, the identity element
+				- Similar to how every positive integer has at least two [[Divisor|divisors]] (itself and 1)
+	- [[Joseph-Louis Lagrange]]
+		- [[Lagrange's Theorem]]
+			- If H $\le$ G, then the order of H divides the order of G
+			- Order of G = # of elements in G = |G|
+		- Lagrange's Theorem
+			- $H \le G \implies |H| \text{ divides } |G|$ 
+		- Example shown
+	- If |G| = 323 = 17 $\times$ 19
+	- Q: Does Lagrange's Theorem say there are subgroups of order 17 and 19?
+		- No!
+		- If $H \le G$, Then |H| divides |G|
+			- This means the [[converse]] may not be true
+			- Just because a number divides an order of G, there is no guarantee that a subgroup of that size will exist
+			- In this case, it just so happens that G does have subgroups of orders 17 and 19. However, there are groups where this isn't the case
+- ![[Screenshot 2024-01-23 at 3.23.42 PM.png]]
+	- Limitation of Lagrange's Theorem
+	- $A_4$: Alternating Group on 4 elements
+		- Order: $|A_4|$ = 12
+			- Divisors: 1, 2, 4, 6, 12
+			- There does not exist an order 6 subgroup
+	- Lagrange's Theorem: If H $\le$ G, then |H| divides |G|
+		- Proof: G is a finite group with |G| = n
+		- We never said the G is abelian so order matters
+		- $g_1H = \{g_1*h \text{ for all } h \in H\}$ 
+			- Known as [[left coset]]
+				- This is because we are multiplying the elements of H by $g_1$ on the left
+		- Since H and $g_1H$ do not overlap, their intersection is the [[empty set]]
+- ![[Screenshot 2024-01-23 at 3.34.43 PM.png]]
+	- G is split into non-overlapping left cosets
+	- Each coset is the same size
+	- Each coset has size |H| = d
+	- G partitioned into cosets
+	- H is a subgroup while the other cosets are not groups, they're sets. This is because only H contains the identity element and to be a group, you have to have an identity element
+	- Number of cosets = k
+	- Index of H in G = |G : H| = k
+	- So $d*k$ = n $\implies$ d | n
+	- |H| divides |G| $\blacksquare$ 
+	- Could repeat the proof using right cosets as well
+		- For [[Commutative group|abelian groups]], the left and right cosets are the same
+		- For non-abelian groups, this may not be the case
+	- Proof Summary
+		- Pick a subgroup H $\le$ G
+		- Cover G with cosets
+		- Cosets do not overlap
+		- Cosets have the same size

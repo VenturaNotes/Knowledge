@@ -1,0 +1,53 @@
+[Video](https://youtube.com/watch?v=jz1TdJi3cR0)
+
+- Our study of groups begins by analyzing a square and the actions that can return a square back to its <mark style="background: #FFF3A3A6;">original footprint</mark>
+- Rotations:
+	- ![[Screenshot 2023-01-10 at 10.36.57 PM.png]]
+	- Rotate counterclockwise by 45$\degree$ 
+		- This is not ok when rotating a square because it's not back to its original footprint
+	- Rotating again counterclockwise by 45$\degree$ returns the square's original footprint (even when the vertices are different)
+	- $R_{90}$
+		- This is a 90 degree rotation total
+- Reflections:
+	- ![[Screenshot 2023-01-10 at 10.38.32 PM.png]]
+	- V
+		- Vertical axis of reflection
+		- A and D switched places
+		- B and C switched places
+- ![[Screenshot 2023-01-10 at 10.39.23 PM.png]]
+	- New points are denoted with prime symbols to show that the square has rotated counterclockwise by 90$\degree$ 
+		- (This was generated in GeoGebra Classic. Important if you take modern geometry)
+	- 180 degree rotation is also ok.
+	- Multiples of 90 will keep the square in the same footprint
+	- Rotation of nothing is the identity rotation
+	- Denote rotations as $R_0, R_{90}, R_{180}, R_{270}$
+- ![[Screenshot 2023-01-10 at 10.43.09 PM.png]]
+	- Horizontal reflection, vertical reflection, diagonal reflection
+		- Will all stay in original footprint
+	- When reflecting over V (vertical)
+		- ![[Screenshot 2023-01-10 at 10.44.24 PM.png|300]]
+			- A and D switch places
+			- B and C switch places
+	- Reflect over H (Horizontal Line)
+		- ![[Screenshot 2023-01-10 at 10.44.56 PM.png|300]]
+			- A and B switch places
+			- C and D switch places
+	- Reflect over D1 (diagonal 1, just called D in textbook)
+		- ![[Screenshot 2023-01-10 at 10.45.33 PM.png|300]]
+			- B and D switch places. 
+			- A and C remain don't switch
+	- Reflect over D2 (This is referred to as D' in textbook)
+		- ![[Screenshot 2023-01-10 at 10.47.06 PM.png|300]]
+			- A and C switch places
+			- B and D don't switch
+- Composition of Actions
+	- Rotate polygon 90$\degree$ counterclockwise
+	- Reflect new polygon over H
+	- ![[Screenshot 2023-01-10 at 10.49.45 PM.png|300]]
+		- Here A and C haven not switched places
+		- B and D have switched places
+	- We've seen the same action if we reflected across the first diagonal
+		- ![[Screenshot 2023-01-10 at 10.50.33 PM.png|300]]
+	- $D_1 = HR_{90}$
+		- We took $R_{90}$ first and then we did H
+			- It's like composition notation f(g(x)) where we start with g(x) and then move onto f(x)

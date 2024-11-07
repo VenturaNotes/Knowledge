@@ -1,0 +1,69 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=7e7BAw7D_3M
+---
+- ![[Screenshot 2024-11-07 at 12.54.53 AM.png]]
+	- First 
+		- Which of the following are [[binary operations]] on $\mathbb{N}$ 
+			- A binary operation on a set S is a function from the cartesian product S $\times$ S back to that same set S
+				- $f: S \times S \to S$ 
+					- A binary operation takes two elements from the same set and assigns them to exactly one element of that same set.
+		- The dots below just represents a generic operation and on the right, we specify what the operation actually is in each case
+			- $n\cdot m = n \times m$
+				- This is a binary operation on the natural numbers
+				- Multiplication is a function. When we multiply two numbers, we get exactly one answer. Additionally, if we multiply two natural numbers, we will always get another natural number. 
+				- So the [[natural numbers]] are closed under multiplication
+				- Thus, multiplication over the naturals is a binary operation
+				- This operation is [[commutative]]
+			- $n \cdot m = n-m$
+				- Subtracting two natural numbers will give us one answer (so this is a function)
+				- Subtraction not closed on the natural numbers because it's not true that whenever we subtract two natural numbers, we get another natural number.
+					- For example 3 - 5 = -2 and -2 is not an element of the $\mathbb{N}$
+				- This operation is not commutative
+			- $n\cdot m = 2$
+				- Constant function operation. This says plug-in any two numbers to the operation and it's just 2
+				- This is a binary operation
+					- It's a function because any input gets one output
+					- It's closed because whatever natural numbers we put in, we will get 2 out (which is a natural number)
+				- This operation is commutative
+			- $n\cdot m = \pm \sqrt{n\times m}$
+				- This operation takes two natural numbers and spits out plus or minus the square root of their product
+					- This is not a binary operation because it isn't a function.
+					- $\sqrt{2*8} = \pm 4$ 
+						- Since each input does not give exactly one output, the operation is not a function and so it is not a binary operation
+				- This operation is also not closed. The square root of $1*2$, for example is not a natural number
+				- This operation is [[commutative]]
+		- We say that a [[binary operation]] is commutative if the order of operation is carried out and doesn't matter. 
+			- So n multiplied by m = m multiplied by n $(m*n=m*n$)
+	- Second
+		- Consider the function that maps each pair of real numbers, L and W, to the area of the rectangle having L and W as its length and width. Is this a binary operation?
+			- We know this is a function because whatever we plug-in for the length and width, we get exactly one area back. The area that is length times width.
+			- This is not a binary operation because length and width are linear measures and area is not. Area is a square measure. So generically units squared
+			- The function is not closed. It takes linear measures length and width and sends them to this square measure of the area
+				- $f(L, W) = L\times W$ 
+			- Could rephrase the question so it is a binary operation by being a bit more specific about certain things. 
+	- Third
+		- Which of the following are binary operations on { k $\in$ $\mathbb{Z}^+$| k is odd}? (this is read as the set of odd positive integers)
+			- Addition
+				- Addition is not a binary operation on this set because it is not closed on the set of odd positive integers
+					- 3 + 3 = 6
+				- Could easily prove that the addition of any two odd integers is an even integer
+					- #question How to prove this? 
+			- multiplication
+				- It is a binary operation on this set
+				- It's a function
+				- When we multiply odd positive integers, we always get another odd positive integer.
+					- k and j will be any integer greater than or equal to 0
+					- [[Odd number]]
+						- The expression $2(2kj + j + j) + 1$ is by definition an odd number. It is a multiple of 2 + 1. We also know it's positive because k and j are nonnegative. So the smallest it could be is 1
+	- Fourth
+		- Let S be the set of fractions that, when written in lowest terms, have denominators of 1, 2, or 4. Is addition on S a binary operation?
+			- We know [[addition]] is a function
+			- Will their sum also have a denominator of 1, 2, or 4 when written in lowest terms? The answer is yes
+			- If, let's say, $db = 16$, we know the numerator would be able to factor out 4 brining 16 down to 4 which is part of S. Can apply these to the other numbers.
+				- #comment Maybe could use combinatorics for this to find all combinations and then proof by exhaustion? 
+			- Addition on this set S is closed
+		- A binary operation has to be a function and closed
+			- Meaning that it is a function from the cartesian product of a set with itself back to that same set
+			- It takes two elements both from the same set and assigns them to exactly one element also in that set
+			- $f: S \times S \to S$ 
