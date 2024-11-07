@@ -1,0 +1,55 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PL8dPuuaLjXtMJ-AfB_7J1538YKWkZAnGA
+Length: 7 hours, 37 minutes, 53 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) Crash Course Sociology Preview]]
+- Incomplete
+	- [[(2) What Is Sociology. - Crash Course Sociology 1]]
+	- [[(3) Major Sociological Paradigms - Crash Course Sociology 2]]
+	- [[(4) Sociology & the Scientific Method - Crash Course Sociology 3]]
+	- [[(5) Sociology Research Methods - Crash Course Sociology 4]]
+	- [[(6) Émile Durkheim on Suicide & Society - Crash Course Sociology 5]]
+	- [[(7) Karl Marx & Conflict Theory - Crash Course Sociology 6]]
+	- [[(8) Dubois & Race Conflict - Crash Course Sociology 7]]
+	- [[(9) Harriet Martineau & Gender Conflict Theory - Crash Course Sociology 8]]
+	- [[(10) Max Weber & Modernity - Crash Course Sociology 9]]
+	- [[(11) Symbols, Values & Norms - Crash Course Sociology 10]]
+	- [[(12) Cultures, Subcultures, and Countercultures - Crash Course Sociology 11]]
+	- [[(13) How We Got Here - Crash Course Sociology 12]]
+	- [[(14) Social Development - Crash Course Sociology 13]]
+	- [[(15) Socialization - Crash Course Sociology 14]]
+	- [[(16) Social Interaction & Performance - Crash Course Sociology 15]]
+	- [[(17) Social Groups - Crash Course Sociology 16]]
+	- [[(18) Formal Organizations - Crash Course Sociology 17]]
+	- [[(19) Deviance - Crash Course Sociology 18]]
+	- [[(20) Theory & Deviance - Crash Course Sociology 19]]
+	- [[(21) Crime - Crash Course Sociology 20]]
+	- [[(22) Social Stratification - Crash Course Sociology 21]]
+	- [[(23) Why is there Social Stratification. - Crash Course Sociology 22]]
+	- [[(24) Social Stratification in the US - Crash Course Sociology 23]]
+	- [[(25) Social Class & Poverty in the US - Crash Course Sociology 24]]
+	- [[(26) The Impacts of Social Class - Crash Course Sociology 25]]
+	- [[(27) Social Mobility - Crash Course Sociology 26]]
+	- [[(28) Global Stratification & Poverty - Crash Course Sociology 27]]
+	- [[(29) Theories of Global Stratification - Crash Course Sociology 28]]
+	- [[(30) Economic Systems & the Labor Market - Crash Course Sociology 29]]
+	- [[(31) Politics - Crash Course Sociology 30]]
+	- [[(32) Sex & Sexuality - Crash Course Sociology 31]]
+	- [[(33) Gender Stratification - Crash Course Sociology 32]]
+	- [[(34) Theories of Gender - Crash Course Sociology 33]]
+	- [[(35) Race & Ethnicity - Crash Course Sociology 34]]
+	- [[(36) Racial and Ethnic Prejudice & Discrimination - Crash Course Sociology 35]]
+	- [[(37) Age & Aging - Crash Course Sociology 36]]
+	- [[(38) Theories About Family & Marriage - Crash Course Sociology 37]]
+	- [[(39) Stages of Family Life - Crash Course Sociology 38]]
+	- [[(40) Religion - Crash Course Sociology 39]]
+	- [[(41) Education In Society - Crash Course Sociology 40]]
+	- [[(42) Schools & Social Inequality - Crash Course Sociology 41]]
+	- [[(43) Health & Medicine - Crash Course Sociology 42]]
+	- [[(44) Population Health - Crash Course Sociology 43]]
+	- [[(45) The Structure & Cost of US Health Care - Crash Course Sociology 44]]

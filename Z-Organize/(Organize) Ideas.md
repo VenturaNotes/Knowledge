@@ -1,0 +1,21 @@
+- [Mathematics playlist](https://www.youtube.com/watch?v=JbhBdOfMEPs&list=PLybg94GvOJ9FoGQeUMFZ4SWZsr30jlUYK)
+- [Biology Questions](https://studylib.net/doc/7809236/ap%C2%AE-biology-scoring-guidelines-question-7-the-diagram-above)
+- [Machine Learning Notes](https://aman.ai/coursera-ml/advanced-algos/#train-a-neural-network-in-tensorflow)
+- [Algebraic Geometry](https://www.youtube.com/watch?v=JZKDmTIFR7A&list=PL8yHsr3EFj53j51FG6wCbQKjBgpjKa5PX)
+- [Derivatives](https://www.youtube.com/watch?v=zmnh448y_ZU)
+- [Derivatives](https://www.youtube.com/watch?v=_niP0JaOgHY)
+- [Compositie Functions](https://www.youtube.com/watch?v=vNXjMTv4vHs)
+- [Number Theory and cryptography](https://www.classcentral.com/course/number-theory-cryptography-9210)
+- [Youtube channel with math tutorials](https://www.youtube.com/@centerofmath/playlists)
+- Statquest
+- React
+- ES6
+- Angular?
+- Node.js?
+- Java Playlist
+- SQL
+- joints?
+- PostgreSQL
+- MySQL, SQL, postgresql, NoSQL
+- https://www.youtube.com/watch?v=IxjC6Z5cu_Q&list=PLcjqUUQt__ZGLhwUacPm7_RKs2eJNFwco 
+

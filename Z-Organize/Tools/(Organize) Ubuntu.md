@@ -1,0 +1,3 @@
+- Shortcuts
+	- Control + Shift + fn + $\uparrow$: Highlight everything left of cursor on line
+	- Control + Shift + fn + $\downarrow$: Highlight everything right of cursor on line

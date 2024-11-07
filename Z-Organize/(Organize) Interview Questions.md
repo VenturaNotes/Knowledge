@@ -1,0 +1,5 @@
+- Can you use libraries during an interview?
+	- Don't use libraries to circumvent the heart of the question ([Reddit](https://www.reddit.com/r/cscareerquestions/comments/3dnzzp/can_you_use_libraries_in_coding_interviews/#:~:text=Don't%20use%20libraries,doubt%20just%20ask.))
+		- Don't implement a stack by using library::stack.
+		- But if you're being asked a general question, like "design an algorithm for rearranging penguins" and you choose to use a stack, it's fine to use library::stack.
+		- When in doubt, just ask.

@@ -1,0 +1,119 @@
+## File Names
+- Cannot name files with `\/:*?<>"`
+
+## Tools
+http://detexify.kirelabs.org/classify.html
+
+## Examples
+- Subscript: $X_1$
+- Fraction: $\frac{rise}{run}$
+- Hat: $\widehat x$ 
+- Bracket under equation: $\underbrace {a \times a \times a ... \times a}_\text{m times}$
+- Real Numbers: $\mathbb{R}$ 
+- Vector: $\overset \rightarrow 0$ 
+	- $\vec{0}$
+- Capital X: $\overline{\underline X}$ 
+	- This just shows that the letter is [capital](https://youtu.be/Q_1dmoUhYBo?t=21)
+- tau: $\uptau$ 
+	- Obsidian has the {upgreek} [package?](https://tex.stackexchange.com/questions/40210/how-to-specify-variant-tau)
+- Empty set: $\varnothing$ 
+- Element of: $\in$
+- Greater than: $\geq$ 
+- Integral $\int_{3}^{3} i \,dt$
+- Intersection: $\cap$
+- Union: $\cup$ 
+- Proper Subset: $\subset$ 
+- Subset: $\subseteq$ 
+- Not equal: $\ne$ 
+- Omega: $\Omega$ 
+- Creating a `\`: $\backslash$ 
+- Less than or equal to: $\le$ 
+- Square root: $\sqrt{7}$
+- Cube Root: $\sqrt[3]{27}$
+- Infinity: $\infty$ 
+- Approximate/about equal to: $\approx$ 
+- Symmetric difference $A\Delta B$ 
+- Equivalent: $\equiv$ or $\sim$ 
+- Exclusive OR: $\oplus$ 
+- Piecewise function: $h(x) = \begin{cases} x+1 & \text {for } x \ne 1 \\ 3& \text{for } x = 1 \end{cases}$ 
+- Limit: $\lim_{x\to\infty} f(x)$
+- To: $\to$ 
+- Sizes
+	- Huge: $\Huge \in$
+	- huge: $\huge \in$ 
+	- Large: $\Large \in$
+	- large: $\large \in$ 
+- Bold Font: $\textbf{n}$  
+- Set of cardinal numbers $\aleph_0$
+- Radical symbol $\surd$ 
+- Phi: $\phi$ 
+- Plus or minus: $\pm$ 
+- Multiplying functions: (f$\cdot$g)(x)
+- Composition of functions: f $\circ$ g
+- Angstrom: $\mathring{A}$
+- Writing 2 equations on the same line ("aligned" is proper? [@](https://forum.obsidian.md/t/how-to-add-a-new-line-among-math-equations-in-obsidian-markdown-editor/7399/3) but to me "align" seems easier) 
+	- $$ \begin{align*}  1 &= 1 \\  2 &= 2+35  \end{align*}  $$
+- Lower case Greek Letter rho: $\rho$ 
+- Superset: $\supset$
+- Line segment: $\overset {\longleftrightarrow}{AB}$
+- Angle: $\angle$ 
+- And: $\land$ $\wedge$ 
+- Or: $\lor$ $\vee$ 
+- Lambda: $\lambda$
+- Cents: ¢
+- Matrix: $\begin{bmatrix}1 & 0 & 0\\ 0 & 1 & 0 \\ 0 & 0 & 1\end{bmatrix}$
+- Minor arc: $\overset {\huge\frown} {AB}$
+- Point A: $\bullet$ A
+- Plane: $\mathscr R$
+- Sigma notation (series): $\Sigma_{i=1}^{5}i$
+- QED for proofs $\blacksquare$
+- Bar: $a \mid b$
+- Negation: 
+	- $\thicksim p$
+	- $\textasciitilde p$
+	- $\lnot p$
+	- $\sim p$
+- Epsilon: $\varepsilon$ 
+- Binomial Coefficient
+	- $35 \choose 52$
+	- $\binom {35}{53}$
+- Em Dash: $\textemdash$ 
+- Basis: $\textlangle$ B, D $\textrangle$ 
+	- $\mathcal{B}$
+- Variable under symbol: $\underset{n} \cup$ 
+- Centered dot: $\cdot$
+- Three Centered Dots: $\cdots$
+- Determinant: $\begin{vmatrix}a & b \\ c & d\end{vmatrix}$
+- Color: $\textcolor{hotpink}{\text{nice: }} 5 +3$
+- Chemistry:$\ce{^{227}_{90}Th+}$
+	- Write mass number and atomic number of element
+- Accents:  $\acute e$ , $\grave e$ 
+- Does not divide: $\huge\nmid$
+- Derivative: $\dot x$
+- Ceil: $\lceil{x} \rceil$
+- Floor: $\lfloor x \rfloor$
+- Vertical Addition: $\begin{align} 124& \\ \underline{+\quad 53}& \\ 177& \end{align}$
+- Augmented Matrix: $\left[\begin{array}{rrr|r} 1 & 2 & 4 & 8 \\ 16 & 32 & 64 & 128 \\ 256 & 512 & 1024 & 2048 \end{array}\right]$
+- Cosmological constant: $\Lambda$
+- Tensor Product: $\otimes$ 
+- Vertical dots: $\vdots$
+- Long arrow above variable
+	- $\overrightarrow {roceuhrohce}$
+	- $\overleftrightarrow {orceuroechu}$
+- Column Vector Matrix: $\begin{bmatrix}1 \\ 0 \\ 0 \end{bmatrix}$
+- Row vector: $\begin{bmatrix}1 & 0&  3 \end{bmatrix}$
+- Such that: $\ni$ 
+- Big Union: $\bigcup$ 
+- Big Intersection: $\bigcap$ 
+- Partial Derivative $\frac {\partial f}{\partial x}$ 
+- Statistical Notation: $\overset \wedge \beta$ 
+- Proof by contradiction: $\implies \impliedby$ 
+- Abstract Algebra: $N \trianglelefteq G$ 
+	- When N is normal subgroup of G. Above is the notation
+- Complex Numbers and Natural exponential
+	- $e^{i\varphi}$ ? 
+- Fourier transform
+	- Include $\xi$ 
+- Stacking text $$\substack{3 \\ 3\\3}$$
+- Real part of complex plane (horizontal axis): $\Re$ 
+	- Imaginary part (vertical axis): $\Im$ 

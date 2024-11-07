@@ -1,0 +1,20 @@
+- Archive
+	- Questions from classes, problems to complete with potentially no solution, and concepts to dive more into later
+- Ongoing
+	- Playlists that may have more videos coming
+- Status
+	- Complete
+		- Finished the lesson
+	- Incomplete
+		- Lesson not finished
+- Question
+	- Concepts that I have questions about
+- Type
+	- Article
+	- Coursera
+	- Paper
+	- Playlist
+	- Project
+	- Textbook
+	- Video
+	- Website
