@@ -1,0 +1,39 @@
+[Video](https://youtube.com/watch?v=SiQu_YTUMgQ)
+
+- $\mathbb{R}$: The set of real numbers
+	- Represent them geometrically with a line
+	- ![[Screenshot 2023-01-02 at 3.54.37 PM.png]]
+- $\mathbb{N}$: The set of Natural numbers (counting numbers)
+	- $\mathbb{N}$ = {1, 2, 3,...}
+- $\mathbb{Z}$ = The set of integers
+	- $\mathbb{Z}$ = {... -2, -1, 0, 1, 2, ...}
+- $\mathbb{Q}$ = The set of rational Numbers ^6e3672
+	- $\mathbb{Q}$ = {$x \in \mathbb{R} | \underbrace {x = \frac {m}{n} \text{ for some } m, n \in \mathbb{Z}}_{\Large{\exists m, n \in \mathbb{Z} \text{ s.t. } x = \frac mn}}$}
+		- There exists integers m and n such that x = $\frac mn$ 
+		- Need to use the existential quantifier
+		- Both expressions above mean the same thing
+- $\mathbb{R}_+$ = {x $\in$ $\mathbb{R}$ | x $\geq$ 0}
+	- Just the non-negative real numbers
+- $\mathbb{R}_{++}$ = {x $\in$ $\mathbb{R}$ | x > 0}
+	- Strictly positive real numbers
+- $\mathbb{Z}_{+}$ 
+	- Non-negative integers
+- $\mathbb{Q}_+$ 
+	- Non-negative rational numbers
+- $\mathbb{Z}_{+}$ 
+	- Non-negative integers
+- $\mathbb{Q}_+$ 
+	- Non-negative rational numbers
+- $\mathbb{Z}_{++}$ 
+	- Strictly positive integers
+	- Same thing as the set of natural numbers
+- $\mathbb{Q}_{++}$ 
+	- Strictly positive rational numbers
+- For any set X, we can form n-tuples/lists of elements of X:
+	- X = ($x_1, x_2, ..., x_n$ ) where $x_i \in X$, i = 1, ..., n.
+		- $x_1$ and the others are known as "components" of the n-tuple X
+	- n-tuples is ordered
+	- $X^n = \{x | x = (x_1, ..., x_n), x_i \in X, i = 1, ..., n\}$
+		- The set of all x such that x equals $x_1$ to $x_n$ $x_i$ in X and i equals one to n.
+		- ![[Screenshot 2023-01-02 at 4.13.56 PM.png]]
+		- This is the set of all n-tuples drawn from some set X
