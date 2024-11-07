@@ -1,0 +1,26 @@
+[Video](https://www.youtube.com/watch?v=x2cYoSPGz3o)
+
+- ![[Screenshot 2023-10-16 at 7.54.51 PM.png]]
+	- [[Linear algebra]]
+	- Applications
+		- A problem could have fixed quantities (a, b, c, d)
+		- Unknowns are variables we don't know yet (x, y, z)
+	- Linear algebra can help when we know the relations between the quantities
+		- In some sense, we need simple relations between the variables
+		- Then with linear algebra, we can find all the possible solutions for the unknowns
+		- Therefore, linear algebra is the important tool which helps us solve our problem
+			- find all solutions for $x, y, z$ 
+	- Abstract level
+		- [[Vector space]]
+			- Fundamental concept
+		- [[vectors]]
+			- Objects
+		- [[Linear maps]]
+			- Now we have something that can transform vectors
+	- Concrete level
+		- Instead of abstract vector space, will start with $\mathbb{R^n}$ 
+		- A linear map corresponds to something we can put in a table
+			- Such a table is just called a [[matrix]]
+	- Prerequisites: Start Learning Mathematics
+		- Helpful for gathering basic knowledge of logical symbols, set operations, and maps
+			- Working with maps will be important immediately

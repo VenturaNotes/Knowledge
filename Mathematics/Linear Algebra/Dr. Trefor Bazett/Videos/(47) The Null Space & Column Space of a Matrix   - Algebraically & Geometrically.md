@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=YQRioQ1XUck)
+
+- ![[Screenshot 2023-07-17 at 2.36.33 AM.png]]
+	- What subspaces are relevant to $T_A$
+		- There's two very natural subspaces that every single matrix A has that represent important things to us in the study of transformations, in the study of linear algebra
+	- For an $m\times n$ matrix A with columns $\vec{a_1}, ..., \vec{a_n}$
+		- [[Column Space]]
+			- Col(A) = {$\vec{b} | \vec{b} = A\vec{x}, \text{ some } \vec{x} \in \mathbb{R}^n$}
+- ![[Screenshot 2023-07-17 at 2.41.17 AM.png]]
+	- For an $m\times n$ matrix A with columns $\vec{a_1}, ..., \vec{a_n}$
+		- Null(A) = {$\vec{x} \in \mathbb{R}^n | A\vec{x} = \vec{0}$}
+			- [[Null Space]]
+		- i.e. solve [[homogeneous system]]
+- ![[Screenshot 2023-07-17 at 2.45.50 AM.png]]
+	- Is Null(A) a subspace?
+		- (1) $\vec{0}$ $\in$ Null(A) as A$\vec{0}$ = $\vec{0}$
+		- (2) If $A\vec{x}$ = $\vec{0}$, then:
+			- A(c$\vec{x}$) = c(A$\vec{x}$) = c$\vec{0}$ = $\vec{0}$
+		- (3)
+	- Proven by essential linearity properties
+	- Null space is in the domain
+	- Column space is in the codomain

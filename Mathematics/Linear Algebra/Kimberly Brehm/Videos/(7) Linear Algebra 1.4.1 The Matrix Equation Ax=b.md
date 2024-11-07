@@ -1,0 +1,47 @@
+[Video](https://youtube.com/watch?v=kcBufqZgP4s)
+
+
+- Linear combinations as the product of a matrix and vector
+	- If A is an $m$ x $n$ matrix with columns $a_i, a_2, ..., a_n$ and if $x \in \mathbb{R}^n$, then $A_x$ is the linear combination of the columns of A using the corresponding entries in $x$ as weights:
+	- ![[Screenshot 2022-12-08 at 3.44.02 PM.png]]
+		- We have Matrix A
+		- The dimensions of A is 1 x n.
+		- Will multiply by the vector n x 1
+			- Vector will just be 1 column
+				- But needs to have the same number of rows as a has columns (this is what's meant by corresponding entries)
+			- Will use $x_1$ as weights and multiply it by everything in whichever column that corresponds to the subscript of 1, 2, etc.
+- Examples
+	- ![[Screenshot 2022-12-08 at 3.50.03 PM.png]]
+		- For the $2^{nd}$ part, it's shown as a vector times a matrix
+- The same - But Different (all of the representations below are for the exact same system of equations)
+	- System of Equations:
+		- ![[Screenshot 2022-12-08 at 3.53.52 PM.png]]
+			- 3 variables. Can be written as an augmented matrix
+	- Augmented Matrix
+		- ![[Screenshot 2022-12-08 at 3.54.08 PM.png]]
+			- Left side is the coefficients and right side is solutions/answers
+			- Textbook does not show line (pipe) but professor wants you to show it anyway
+			- Can be written as vector equation
+	- Vector Equation: $x_1\vec{a}_1 + x_2\vec{a}_2 + ... + x_n\vec{a}_n = b$
+		- ![[Screenshot 2022-12-08 at 3.54.19 PM.png]]
+			- Uses x1, x2, x3 as the weights times the vectors
+	- Matrix Equation: Ax = b
+		- ![[Screenshot 2022-12-08 at 3.54.35 PM.png]]
+			- A will be the coefficient matrix (everything in the augmented matrix on the left side) multiplied by the vector (which are the variables) which give the solution $\begin {bmatrix} 3\\ 4\end{bmatrix}$
+- Existence of solutions
+	- Let A be an mxn matrix. Then these statements are logically equivalent:
+		- 1) for each b in $\mathbb{R}^m$, the equations Ax = b has a solution
+			- There is a solution for every b
+		- 2) Each b in $\mathbb{R}^m$ is a linear combination of the columns of A
+			- $x_1a_1 + x_2a_2 + ... = b$ 
+				- Order may have been mixed up here
+				- It's saying each one of those has a solution
+		- 3) The columns of A span $\mathbb{R}^m$
+			- span is the collection of all the solutions. Columns of A span are m
+		- 4) A has a pivot position in every row (A must be a coefficient matrix - not augmented)
+			- Not in an augmented matrix because if pivot on right side (in solutions) and numbers to the left are 0, that would mean no solution
+				- ![[Screenshot 2022-12-08 at 4.42.40 PM.png]]
+- Practice
+	- ![[Screenshot 2022-12-08 at 4.44.54 PM.png]]
+	- Inconsistent because it's not for all possible values of b. There are values that will make the $a_{4,4}$ expression not equal to 0.
+		- I wonder if there is a reason for this

@@ -1,0 +1,43 @@
+[Video](https://youtube.com/watch?v=M13AmBUVQNc)
+
+---
+- ![[Screenshot 2023-04-15 at 11.09.22 PM.png]]
+- Solving a System: Substitution
+	- Consider this system of equations
+---
+- ![[Screenshot 2023-04-15 at 11.10.22 PM.png|400]]
+- Solving a System: Elimination
+	- Consider this system of equations
+		- Each of the steps creates a new equation (which can make it difficult)
+---
+- Too many equations!
+	- One down-side of the elimination method is that every step creates a new equation
+	- We will focus on replacing an equation by the result of doing one of these operations
+	- We will have to make sure that each operation is reversible so that we have not destroyed any information contained in the equations
+		- Don't multiply both sides by 0
+- Elimination Operations
+	- Replace an equation by multiplying both sides by a non-zero constant
+	- Replace an equation by the sum of itself and a multiple of another equation
+		- ![[Screenshot 2023-04-15 at 11.13.10 PM.png|300]]
+	- Swap the positions of two equations
+---
+- ![[Pasted image 20230415231518.png|600]]
+- Solving a System: Elimination
+	- Consider this system of equations
+		- Want to get the system of equations into triangular form
+---
+- ![[Screenshot 2023-04-15 at 11.16.14 PM.png|400]]
+- Matrix Notation
+	- For convenience, we will often write systems of equations in matrix form
+---
+- ![[Screenshot 2023-04-15 at 11.20.12 PM.png]]
+- Elimination Operations
+	- Replace an row by multiplying it by a non-zero constant
+	- Replace an row by the sum of itself and a multiple of another row
+	- Swap the positions of two rows
+- No Solution because 0 $\ne$ 3
+---
+- ![[Screenshot 2023-04-15 at 11.22.11 PM.png]]
+- Example
+	- Solve the system of equations that corresponds to this augmented matrix
+- This one has a solution

@@ -1,0 +1,31 @@
+[Video](https://youtube.com/watch?v=H8MiZMJr1kQ)
+
+- ![[Screenshot 2023-07-10 at 10.07.45 PM.png]]
+	- 2 variable equation
+		- $y = x^2$
+	- 3 variable equation
+		- $x_1^2 + cos(x_2) - 2e^{x_3} = 5$
+			- [[Nonlinear terms]]
+	- Linear equation
+		- $2x_1$ - $x_2$ + $x_3$ = 8
+			- Real numbers only
+		- A solution
+			- $x_1$ = 2
+			- $x_2$ = -1
+			- $x_3$ = 3
+		- A solution
+			- $x_1$ = 4
+			- $x_2$ = 0
+			- $x_3$ = 0
+	- [[Linear system of equations]]
+		- All true at the same time
+	- Using $a_{ij}$ notation
+		- coefficients
+		- variables
+		- constants
+	- n variables and m equations
+	- $a_{ij}$ is coefficient in $i^{th}$ row, $j^{th}$ column
+	- $a_{12}$ is first row second column
+- ![[Pasted image 20230710220955.png]]
+	- A [[solution]] is a list $s_1, ..., s_n$ of numbers that solves each equation
+	- Future Question: How do we find solutions to linear systems?

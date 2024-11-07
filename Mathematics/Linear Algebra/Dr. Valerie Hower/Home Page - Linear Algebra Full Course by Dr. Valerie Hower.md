@@ -1,0 +1,51 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLpcwHaLYiaEXW5fLNOlItPH4ATorKjBuc
+Length: 29 hours, 4 minutes, 37 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) Linear Algebra - Introduction to Linear Systems (Full Lecture)]]
+- Incomplete
+	- [[(2) Linear Algebra - Matrices, Vectors, and Gauss Jordan Elimination (Full lecture)]]
+	- [[(3) Linear Algebra - Linear Systems and Matrix Algebra (full lecture)]]
+	- [[(4) Linear Algebra - Extra Practice Worksheet 1]]
+	- [[(5) Linear Algebra - Intro. to Linear Transformations (Full Lecture)]]
+	- [[(6) Linear Algebra - Linear Transformations in Geometry (full lecture)]]
+	- [[(7) Linear Algebra - Extra Practice Worksheet 2]]
+	- [[(8) Linear Algebra - Matrix Product (Full lecture)]]
+	- [[(9) Linear Algebra - Inverse of a Linear Transformation (Full Lecture)]]
+	- [[(10) Linear Algebra - Extra Practice Worksheet 3]]
+	- [[(11) Linear Algebra - Test 1 Review]]
+	- [[(12) Linear Algebra - Test 1 Practice test]]
+	- [[(13) Linear Algebra - Image and Kernel of a Linear Transformation (full lecture)]]
+	- [[(14) Linear Algebra - Bases and Linear Independence (full lecture)]]
+	- [[(15) Linear Algebra - Extra Practice Worksheet 4]]
+	- [[(16) Linear Algebra - A Plane that is NOT a Subspace of R 3 (example)]]
+	- [[(17) Linear Algebra - The Dimension of a Subspace (Full Lecture)]]
+	- [[(18) Linear Algebra - Using the Rank Nullity Theorem]]
+	- [[(19) Linear Algebra - What is the span of vectors in R n.]]
+	- [[(20) Linear Algebra - Orthogonal Projections and Orthonormal Bases (Full Lecture)]]
+	- [[(21) Linear Algebra - Extra Practice Worksheet 5]]
+	- [[(22) Linear Algebra - Gram-Schmidt Process and QR Factorization (full lecture)]]
+	- [[(23) Linear Algebra - Orthogonal Transformations and Matrices (Full Lecture)]]
+	- [[(24) Linear Algebra - Extra Practice Worksheet 6]]
+	- [[(25) Linear Algebra - Test 2 Review]]
+	- [[(26) Linear Algebra - Least Squares and Data Fitting (Full Lecture)]]
+	- [[(27) Linear Algebra - The kernel of A TA equals the kernel of A (set theoretic proof)]]
+	- [[(28) Linear Algebra - Determinants (Full Lecture)]]
+	- [[(29) Linear Algebra - Extra Practice Worksheet 7]]
+	- [[(30) Linear Algebra - Diagonalization (full lecture)]]
+	- [[(31) Linear Algebra - Finding the Eigenvalues of a Matrix (full lecture)]]
+	- [[(32) Linear Algebra - Extra Practice Worksheet 8]]
+	- [[(33) Linear Algebra - Finding Eigenvectors of a Matrix (full lecture)]]
+	- [[(34) Linear Algebra - Symmetric Matrices (Full lecture)]]
+	- [[(35) Linear Algebra - Extra Practice Worksheet 9]]
+	- [[(36) Linear Algebra - Test 3 Review]]
+	- [[(37) Linear Algebra - Getting Ready for Singular Value Decomposition]]
+	- [[(38) Linear Algebra - Singular Value Decomposition (Full lecture)]]
+	- [[(39) Linear Algebra - Extra Practice Worksheet 10]]
+	- [[(40) Linear Algebra - 30 True or False Questions]]
+	- [[(41) Linear Algebra - Final Exam Review]]

@@ -1,0 +1,29 @@
+[Video](https://youtube.com/watch?v=ODOztJ6YRUM)
+
+- What does it mean?
+	- A system of linear equations that can be written in the form $A_x = 0$ is called homogeneous.
+	- Trivial Solution: x = 0
+		- You'll have some matrix a multiplied by some vector x which will equal to 0
+			- ![[Screenshot 2022-12-09 at 7.37.02 AM.png]]
+		- This makes sense to have a trivial solution because
+			- ![[Screenshot 2022-12-09 at 7.37.33 AM.png]]
+	- Non-trivial solution: x $\neq$ 0 $\leftarrow$ We want to solve for x
+		- Example
+			- ![[Screenshot 2022-12-09 at 7.38.25 AM.png]]
+		- Example 2 (Can change x vector to anything we want and still have a 0 solution)
+			- ![[Screenshot 2022-12-09 at 7.39.25 AM.png]]
+	- $A_x=0$ must have at least 1 free variable
+		- 1 free variable example such as $x_1$ (goes through 1 point)
+			- ![[Screenshot 2022-12-09 at 7.41.37 AM.png]]
+		- If 2 free variables ($x_1$ and $x_2$), then $x_3$ will vary based on what's being changed for $x_1$ and $x_2$ . Will look like a plane still crossing through that same point
+			- ![[Screenshot 2022-12-09 at 7.57.25 AM.png]]
+- Example
+	- ![[Screenshot 2022-12-09 at 8.07.21 AM.png]]
+		- Because there is no pivot in $x_3$, we know that $x_3$ is free
+		- $x_3\begin {bmatrix} 4/3 \\ 0 \\ 1 \end{bmatrix}$ The solution is now some constant $x_3$ times vector $\vec{v}$ 
+			- This brings us to parametric vector form. Parametric vector equation says that you can write x as some constant * some vector ($x=tv$ ). $x_3$ = t in this case
+- Practice
+	- ![[Screenshot 2022-12-09 at 8.14.48 AM.png]]
+	- Want to create a parametric vector equation in terms of the free variable $x_3$ 
+- 2 Free variables
+	- ![[Screenshot 2022-12-09 at 8.18.47 AM.png]]

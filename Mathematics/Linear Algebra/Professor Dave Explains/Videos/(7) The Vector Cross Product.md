@@ -1,0 +1,33 @@
+[Video](https://www.youtube.com/watch?v=gPnWm-IXoAY)
+
+- ![[Screenshot 2023-07-17 at 5.28.20 AM.png]]
+	- [[Vector multiplication]]
+	- [[Vector dot product]]
+		- is a scalar product
+	- [[Vector cross product]]
+	- The cross product will always be [[orthogonal]] to the plane containing the original two vectors
+		- Orthogonal means perpendicular
+	- [[Right-hand rule]]
+		- If you place the edge of your right hand directly on vector B and curl your fingers in the direction of vector A, so that your hand is sort of mimicking the angle formed between them, your thumb will be pointing in the direction of their cross product
+		- Alternatively, you can point your index finger in the direction of A, and your middle finger in the direction of B, and again your thumb will be pointed in the direction of the cross product
+		- So the right-hand rule that we originally learned for three-dimensional coordinate systems can help us understand the direction of a cross product
+	- a $\times$ a = 0
+	- We can also find the cross product using this method
+		- |a $\times$ b| = |a||b|sin$\theta$
+			- Magnitude and direction are the two pieces of information conveyed by any vector
+		- (1) Find the magnitude of the cross product
+		- (2) Find its direction using the right-hand rule
+	- Any two parallel vectors must have a cross product of zero
+		- This is because parallel vectors have an angle of 0 between them. The sin(0) = 0 
+	- The cross product is equal to the area of the parallelogram formed by these two vectors
+	- Properties of the Cross Product
+		- $a \times b$ $\ne$ $b \times a$ 
+			- (not commutative)
+				- However
+					- $a \times b = -b \times a$
+		- $(a \times b) \times c \ne a \times (b \times c)$
+			- (not associative)
+		- $a \times (b + c) = (a \times b) + (a \times c)$
+			- (distributive)
+- ![[Pasted image 20230717052838.png|500]]
+	- Comprehension

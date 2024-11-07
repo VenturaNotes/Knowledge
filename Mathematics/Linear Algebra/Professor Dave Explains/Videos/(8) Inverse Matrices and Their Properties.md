@@ -1,0 +1,39 @@
+[Video](https://www.youtube.com/watch?v=kWorj5BBy9k)
+
+- ![[Screenshot 2023-07-17 at 5.39.02 AM.png]]
+	- [[inverse function|Inverse Functions]]
+	- [[Inverse Matrix]]
+		- (1) a and d swap positions
+		- (2) b and c switch their sign
+		- (3) Divide by the determinant
+	- There is no such thing as matrix division
+	- [[Identity matrix]]
+		- Confirms the inverse relationship
+	- Utilizing inverse matrices
+		- Solving equations with matrices (inverse matrices act as matrix division)
+		- A matrix times its inverse yields an [[identity matrix]] (like cancelling out the matrix)
+		- This is only possible if the two matrices have appropriate dimensions
+		- Matrix multiplication is not commutative (place inverse matrix in same position on both sides)
+- ![[Screenshot 2023-07-17 at 5.55.13 AM.png]]
+	- Taking the inverse of a product of matrices $(BA)^{-1} = A^{-1}B^{-1}$ 
+	- Not every matrix will have an inverse
+		- If $\text{det}$(A) = 0 then: undefined so matrix won't have an inverse
+			- This would be a [[singular matrix]]
+	- Finding the inverse of a Three-by-Three matrix
+		- Step 1: Generate the matrix of [[minors]]
+			- each entry is a particular determinant
+		- Step 2: Generate the matrix of [[Cofactor|cofactors]]
+			- Corner and center entries will remain as they are
+			- other four entires will have their signs inverted
+			- follow the plus/minus checkerboard
+		- Step 3: Find the Adjugate/[[adjoint]]
+			- We must reflect entries across the main diagonal
+			- transpose entries across the diagonal
+		- Step 4: Divide Adjugate by determinant
+			- Divide every entry in the adjugate by determinant of original matrix
+		- Then you'll have the final answer for the inverse matrix
+	- Find the inverse of larger matrices would require an incredible number of steps
+		- We would use a matrix calculator more likely (to avoid doing pages of arithmetic)
+- ![[Screenshot 2023-07-17 at 5.55.43 AM.png|500]]
+	- Find the inverse of the following matrix
+	- Checking comprehension

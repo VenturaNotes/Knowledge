@@ -1,0 +1,31 @@
+[Video](https://youtube.com/watch?v=HVQMHiSaVps)
+
+- ![[Screenshot 2023-07-27 at 7.22.28 PM.png]]
+	- Rules of a [[determinant]]
+		- (1) If c is a [[constant]] and A is an $n \times n$ Matrix
+			- $|cA| = c^n|A|$ 
+				- n = order of the matrix
+					- So 2x2 matrix or 3x3 matrix
+		- (2) For an $n \times n$ determinant
+			- $|-A| = (-1)^n |A|$
+		- (3) [[Distributive Property]]
+			- $|AB| = |A| |B|$
+		- (4) [[Identity Matrix]]
+			- $|I| = |AA^{-1}| = |A||A^{-1}| = 1$
+		- (5) Therefore (conversely)
+			- |A| = $\frac {1}{|A^{-1}|}$
+		- (6) $|BAB^{-1}| = |B||A||B^{-1}|= |B||A|\frac{1}{|B|} = \frac{|B|}{|B|}|A| = |A|$
+		- (7) $|A| = |A^T|$
+			- Determinant of A is equal to the determinant of the [[transpose]] of A
+		- (8) $|\overline{A}|$ = $\overline{|A|}$
+			- The determinant of the complex conjugate of matrix A is equal to the determinant of matrix A and then taking the [[complex conjugate]] of it.
+		- (9) If 2 rows of A are identical
+			- $|A| = 0$
+		- (10) If A has a row of zeros 
+			- $|A| = 0$
+		- (11) If the rows of A are [[dependent]]
+			- $|A| = 0$
+		- (12) If A is not [[invertible]]
+			- $|A| = 0$
+		- (13) If A is invertible
+			- $|A| \ne 0$

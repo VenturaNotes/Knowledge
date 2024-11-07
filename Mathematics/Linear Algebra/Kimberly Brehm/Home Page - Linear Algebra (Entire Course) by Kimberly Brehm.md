@@ -1,0 +1,56 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLl-gb0E4MII03hiCrZa7YqxUMEeEPmZqK
+Length: 10 hours, 49 minutes, 7 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) Linear Algebra 1.1.1 Systems of Linear Equations]]
+	- [[(2) Linear Algebra 1.1.2 Solve Systems of Linear Equations in Augmented Matrices Using Row Operations]]
+- Incomplete
+	- [[(3) Linear Algebra 1.2.1 Row Reduction and Echelon Forms]]
+	- [[(4) Linear Algebra 1.2.2 Solution Sets and Free Variables]]
+	- [[(5) Linear Algebra 1.3.1 Vector Equations]]
+	- [[(6) Linear Algebra 1.3.2 Linear Combinations]]
+	- [[(7) Linear Algebra 1.4.1 The Matrix Equation Ax=b]]
+	- [[(8) Linear Algebra 1.4.2 Computation of Ax]]
+	- [[(9) Linear Algebra 1.5.1 Homogeneous System Solutions]]
+	- [[(10) Linear Algebra 1.5.2 Non-Homogeneous System Solutions]]
+	- [[(11) Linear Algebra 1.6.1 Applications of Linear Systems - Economic Sectors]]
+	- [[(12) Linear Algebra 1.6.2 Applications of Linear Systems - Network Flow]]
+	- [[(13) Linear Algebra 1.7.1 Linear Independence]]
+	- [[(14) Linear Algebra 1.7.2 Special Ways to Determine Linear Independence]]
+	- [[(15) Linear Algebra 1.8.1 Matrix Transformations]]
+	- [[(16) Linear Algebra 1.8.2 Introduction to Linear Transformations]]
+	- [[(17) Linear Algebra 2.1.1 Matrix Operations - Sums and Scalar Multiples]]
+	- [[(18) Linear Algebra 2.1.2 Matrix Operations - Multiplication and Transpose]]
+	- [[(19) Linear Algebra 2.2.1 The Inverse of a Matrix]]
+	- [[(20) Linear Algebra 2.2.2 Solving 2x2 Systems with the Inverse and Inverse Properties]]
+	- [[(21) Linear Algebra 2.2.3 Elementary Matrices And An Algorithm for Finding A Inverse]]
+	- [[(22) Linear Algebra 2.3.1 Characterizations of Invertible Matrices]]
+	- [[(23) Linear Algebra 3.1.1 Introduction to Determinants]]
+	- [[(24) Linear Algebra 3.1.2 Co-factor Expansion]]
+	- [[(25) Linear Algebra 3.2.1 Properties of Determinants]]
+	- [[(26) Linear Algebra 4.1.1 Vector Spaces]]
+	- [[(27) Linear Algebra 4.1.2 Subspace of a Vector Space]]
+	- [[(28) Linear Algebra 4.2.1 Null Spaces]]
+	- [[(29) Linear Algebra 4.2.2 Column Spaces]]
+	- [[(30) Linear Algebra 4.3.1 Linearly Independent Sets and Bases]]
+	- [[(31) Linear Algebra 4.3.2 The Spanning Set Theorem]]
+	- [[(32) Linear Algebra 4.5.1 The Dimension of a Vector Space]]
+	- [[(33) Linear Algebra 4.5.2 Subspaces of a Finite Dimensional Space]]
+	- [[(34) Linear Algebra 4.6.1 The Row Space]]
+	- [[(35) Linear Algebra 4.6.2 Rank]]
+	- [[(36) Linear Algebra 5.1.1 Eigenvectors and Eigenvalues]]
+	- [[(37) Linear Algebra 5.1.2 More About Eigenvectors and Eigenvalues]]
+	- [[(38) Linear Algebra 5.2.1 Determinants and the IMT]]
+	- [[(39) Linear Algebra 5.2.2 The Characteristic Equation]]
+	- [[(40) Linear Algebra 6.1.1 Inner Product, Vector Length and Distance]]
+	- [[(41) Linear Algebra 6.1.2 Orthogonal Vectors]]
+	- [[(42) Linear Algebra 6.2.1 Orthogonal Sets]]
+	- [[(43) Linear Algebra 6.2.2 Orthogonal Projections]]
+	- [[(44) Linear Algebra 6.3.1 Orthogonal Decomposition Theorem]]
+	- [[(45) Linear Algebra 6.3.2 The Best Approximation Theorem]]
+	- [[(46) Linear Algebra 6.5.1 Least Squares Problems]]

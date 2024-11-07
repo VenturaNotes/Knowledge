@@ -1,0 +1,29 @@
+[Video](https://www.youtube.com/watch?v=tM4TDL9Hj8U)
+
+- ![[Screenshot 2023-07-17 at 7.41.12 AM.png]]
+	- A [[subspace]] is a smaller set within a [[vector space]] that is itself a vector space
+	- Properties of Subspaces
+		- Every element of S is also an element of V
+			- Therefore they obey the properties of V
+		- Subspace just needs to satisfy the properties of closure
+		- If S is closed, then it is a vector space and it is therefore a subspace of V
+	- $\mathbb{R}^3$
+		- Set of all real vectors with three components
+		- $\vec{x} = \begin{bmatrix}x \\ 0 \\ -x\end{bmatrix}$
+			- Every element in S is necessarily also in $\mathbb{R}^3$
+			- Let's check if S is closed
+				- It is so S is a subspace of V
+	- Understanding [[span]]
+		- $\vec{v_1}\, \vec{v_2}, ... \vec{v_n} \in V$
+		- $a_1\vec{v_1} + a_2\vec{v_2} + ... a_n\vec{n}$
+			- This is a [[linear combination]]. The set of all linear combinations is the span 
+		- The span of any number of elements of vector space V is also a subspace of V
+			- This is the smallest subspace of V that contains this set of elements (as it is the intersection of all subspaces that contain them)
+		- span is important for describing vector spaces
+- ![[Screenshot 2023-07-17 at 7.43.39 AM.png]]
+	- Checking comprehension
+		- (1) The set of matrices of the form Matrix: $\begin{bmatrix}a& b \\ -b &c\end{bmatrix}$ is a subspace of $\mathbb{R}^{2 \times 2}$
+			- True
+		- (2) Find the span
+			- Typical format
+				- span($\vec{v_1}, \vec{v_2}, \vec{v_3}$) = $a\vec{v_1} + b\vec{v_2} + c\vec{v_3}$

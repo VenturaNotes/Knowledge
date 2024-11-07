@@ -1,0 +1,41 @@
+[Video](https://www.youtube.com/watch?v=csgNflj69-Y)
+
+- ![[Screenshot 2023-07-17 at 3.32.30 AM.png|600]]
+	- Linear algebra is all about linear equations. Linear equations have a lot of real world applications since so many things have linear relationships
+		- Science, engineering, economics
+	- y=mx +b
+	- Why are linear equations so common?
+		- Linear equations embody a happy medium of simplicity and complexity
+			- Having a constant value is unlikely to solve too many problems in the real world
+			- Functions of higher degrees can make things tricky
+	- Systems of linear equations
+	- [[Linear equation]]
+		- $a_1x_1 + a_2x_2 + a_3x_3 + ... + a_nx_n = b$
+			- can contain any number of terms
+			- the sum of the terms equals a constant
+			- "a" terms are coefficients
+			- "x" terms are different variables
+				- None of the variables are raised to an exponent
+			- No roots, trig functions, etc.
+			- The variables are not involved in products or quotients with each other
+- ![[Screenshot 2023-07-17 at 3.40.14 AM.png]]
+	- Systems of linear equations get complicated because we can have many equations
+	- three variables means a solution with three values
+	- Will start with two equations and two unknowns
+		- The intersection of the lines is the solution to the system
+	- These three systems all involve two variables and thus two dimensions
+		- Parallel lines means no solution
+			- [[inconsistent]] when no solution
+		- Same line means infinite solutions
+			- [[consistent]] when there is a solution
+		- Lines intersect
+			- One solution
+			- [[consistent]] when there is a solution
+	- three variables means three dimensions
+		- each equation could be a plane
+		- the point of intersection is the solution
+			- Possible solutions are a point, a line, or a plane
+				- line and plane would yield infinitely many solutions
+			- No solution possible as well if you have 3 parallel planes
+	- We've run out of dimensions to represent 4 equations and 4 variables adequately
+	- We will have to learn all about [[matrix notation]]

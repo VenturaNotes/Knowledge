@@ -1,0 +1,31 @@
+[Video](https://www.youtube.com/watch?v=T2Gtt8WygiU)
+
+- ![[Screenshot 2023-07-17 at 3.58.17 AM.png]]
+	- Just how can we solve this system?
+		- Zero solutions
+		- Precisely one solution
+		- infinitely many solutions
+	- Manipulate the system to produce a new system that is much easier to solve
+	- We can use algebra to alter the equations (do anything to both sides)
+		- We can multiply or divide any equation by some number (except for 0)
+		- We can add or subtract any two equations to get a new one
+		- We can combine multiples of any two rows to get a new one
+	- Now we can solve the system
+	- When perform this on a matrix alone, this technique is called [[Gauss Jordan elimination|Gauss-Jordan elimination]]
+		- Goal for any linear system is to write out the augmented matrix and do elementary row operations until each row has a 1 in one of the columns and 0s in the rest except in the rightmost column which will give us the value for the variable that corresponds to the position the 1 is located 
+- ![[Screenshot 2023-07-17 at 4.12.48 AM.png]]
+	- If the solution were inconsistent, it would have no solutions
+	- We also could have had infinitely many solutions
+	- [[Reduced Row Echelon Form|reduced row-echelon form]]
+		- any row with non-zero entries has a leading 1
+		- All entries in a column with a leading one are zero
+		- Each leading one has another up and to the left
+		- E = $\text{rref}$(M)
+			- M is the original matrix
+			- Can be abbreviated in this way
+	- [[Gauss Jordan elimination|Gauss-Jordan elimination]] is complete when we have matrix in this form
+	- [[rank]] = number of leading ones
+		- rank = # columns in coefficient matrix $\to$ at most one solution
+		- rank < # columns in coefficient matrix $\to$ infinitely many or none
+	- Gauss-Jordan elimination involves very simple elementary row operations
+	- The utility of this approach will become apparent as we learn more linear algebra

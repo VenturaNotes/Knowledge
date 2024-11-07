@@ -1,0 +1,58 @@
+[Video](https://www.youtube.com/watch?v=EP2ghkO0lSk)
+
+- ![[Screenshot 2023-07-17 at 6.50.44 AM.png]]
+	- [[Vector space]]
+		- Sometimes called a linear space
+	- Vector Space notation and properties
+		- $\vec{a} \in V$
+			- $\vec{a}$ is an element of V
+		- All elements of the vector space have the same properties already discussed for vectors
+			- elements abide by the properties of vectors
+				- Commutative property of addition
+				- Associative property of addition
+				- 0 vector in vector space
+					- $\vec{a} + \vec{0} = \vec{0}$
+					- $\vec{a} + (-\vec{a}) = \vec{0}$
+				- Scalars can be distributed across the addition of two members of V
+					- $c(\vec{a} + \vec{b}) = c\vec{a} + c\vec{b}$
+				- An element can be distributed across the addition of two scalars
+					- $(c + d)\vec{a} = c\vec{a} + d\vec{a}$
+				- The product of 2 scalars multiplied by an element is the same as one of the scalars times the product of the other scalar and the element
+					- $cd(\vec{a}) = c(d\vec{a})$
+				- Multiplying by the scalar 1 just gives back that element
+					- $1\vec{a} = \vec{a}$
+		- V is a collection of elements that can be
+			- (1) added together in any combination
+			- (2) multiplied by scalars in any combination
+	- [[Closure]] (these determine if V is a vector space)
+		- (1) given $\vec{a}$ $\in$ V and scalar c, then c$\vec{a}$ $\in$ V
+			- Set of real numbers satisfies the first closure property
+				- A real number multiplied by a real number is still real
+		- (2) given $\vec{a} \in V$ and $\vec{b} \in V$, then $\vec{a} + \vec{b} \in V$
+			- Sum of 2 real numbers is real
+	- $\mathbb{R}$ 
+		- Set of all real numbers (positive, negative, rational, irrational, etc.)
+	- The set of real numbers is closed and can be considered a vector space
+	- $\mathbb{R}^n$
+		- Set of real vectors of length n (integer)
+	- $\mathbb{R}^{m \times n}$
+		- Set of real $m \times n$ matrices
+	- $\mathbb{R}^3$
+		- set of real vectors with three components
+- ![[Screenshot 2023-07-17 at 7.03.20 AM.png]]
+	- $\mathbb{R}^3$
+		- This set is closed and is also a vector space
+	- $\mathbb{R}^{2 \times 2}$
+		- Given what we know about matrix addition, if some set is comprised of matrices with the same dimensions, multiplying by some scalar or adding any 2 matrices together, will not change its dimensions
+	- Vector spaces can be made of more than just vectors
+		- Vector spaces can be made of functions
+	- ax + b
+		- Set of linear polynomials is a vector space
+	-  Matrix: $\begin{bmatrix}a_1 \\ 2\end{bmatrix}$
+		- Not a vector space because the sum makes 4 the 2nd element which does not belong in the vector space.
+- ![[Pasted image 20230717070531.png|500]]
+	- Checking comprehension
+		- Label the following statements as true or false
+			- A vector space can only be made of vectors (false)
+			- Matrix: $\begin{bmatrix}2 & -1\\ 0 & 7\end{bmatrix} \in \mathbb{R}^{2 \times 2}$ (True)
+			- A space must satisfy closure to be a vector space (True)

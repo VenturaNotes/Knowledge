@@ -1,0 +1,34 @@
+[Video](https://www.youtube.com/watch?v=zIeHOGhWEtc)
+
+- ![[Screenshot 2023-06-07 at 2.40.04 PM.png|500]]
+	- We can store all information of a linear system into a [[matrix]]
+		- A matrix is a rectangular array of numbers
+		- Always list the rows first and then the columns. $3 \times 4$ matrix
+		- Generally: m $\times$ n matrix has m rows and n columns
+	- [[augmented matrix]]
+		- Has all of the information of the linear system
+		- Usually dotted bar used to show this
+	- [[Coefficient matrix]]
+- ![[Screenshot 2023-06-07 at 2.42.56 PM.png|500]]
+	- A m$\times$n matrix
+	- $a_{ij}$ is an (i,j) entry of row i and column j
+	- 0 [[zero matrix]]
+	- Two matrices are equal provided both m$\times$n and $a_{ij}=b_{ij}$ for all i,j
+		- Only way two matrices are equal is when every single entry is equal
+- ![[Screenshot 2023-06-07 at 2.47.24 PM.png|500]]
+	- Some Definitions for $n\times n$ [[square matrix]]
+		- Has same number of rows as columns
+	- A square matrix A is
+		- [[diagonal]] provided $a_{ij} = 0$ for $i\ne$ j
+			- $a_{11}, a_{22}, a_{33}, ..., a_{nn}$ are diagonal entries
+		- [[upper triangular]] provided $a_{ij} = 0$ for i > j
+		- [[lower triangular]] provided $a_{ij} = 0$ for i < j
+	- The [[Identity Matrix|identity matrix]]
+		- the $n\times n$ diagonal matrix with $a_{ii}$ = 1 for all i
+- Image
+	- Columns of an m$\times$n matrix are vectors in $\mathbb{R}^m$
+	- A vector in $\mathbb{R}^5$ would have 5 rows
+	- [[Vector]] in $\mathbb{R}^2$ 
+		- Arrow starting at origin and ends at given point
+			- This viewpoint is a standard representation of a vector ([[standard position]])
+	- We think about vectors as columns

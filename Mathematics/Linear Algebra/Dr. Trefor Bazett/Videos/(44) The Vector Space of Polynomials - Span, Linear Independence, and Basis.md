@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=SzZaQnzstfE)
+
+- ![[Screenshot 2023-07-17 at 1.51.38 AM.png|500]]
+	- $P_n({\mathbb{R}})$: Polynomials of degree less than or equal to n
+		- Scalar multiplication
+		- Vector Addition
+	- A set {$\vec{v_1},..., \vec{v_k}$} in a vector space V is [[Linear Dependence|linearly dependent]] if $t_1\vec{v_1} + ... + t_k\vec{v_k} = \vec{0}$ For $t_1,...,t_k$ not all zero
+	-  A set {$\vec{v_1},..., \vec{v_k}$} in a vector space V is [[Linear Independence|linearly independent]] if $t_1\vec{v_1} + ... + t_k\vec{v_k} = \vec{0}$ Only for $t_1,...,t_k$ all zero
+- ![[Screenshot 2023-07-17 at 1.57.03 AM.png]]
+	- Example: Is 1 - x, 1 + x, $x^2$ linearly independent? (yes)
+- ![[Screenshot 2023-07-17 at 2.03.17 AM.png]]
+	- [[Span]] {$\vec{v_1}, ..., \vec{v_2}$} = {$c_1\vec{v_1} + ... + c_k\vec{v_k} | c_1, .., c_k \in \mathbb{R}$}
+	- $\{\vec{v_1}, ..., \vec{v_2}\}$ is a [[Basis|basis]] of V if
+		- (1) $\{\vec{v_1}, ..., \vec{v_2}\}$ is linearly independent
+		- (2) Span $\{\vec{v_1}, ..., \vec{v_2}\}$  = V
+	- [[Full rank]] $\to$ unique solutions
+	- Example:
+		- Is 1 - x, 1 + x, $x^2$ a basis of $P_2(\mathbb{R})$
+			- It is a basis but not the canonical basis or the most natural basis
+- ![[Screenshot 2023-07-17 at 2.05.59 AM.png|400]]
+	- $1, x, ..., x^n$ is the [[standard basis]] of $P_n(\mathbb{R})$
+	- Isomorphic to the vector space?

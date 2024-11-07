@@ -1,0 +1,41 @@
+[Video](https://www.youtube.com/watch?v=xyAuNHPsq-g)
+
+- ![[Screenshot 2023-09-26 at 8.41.45 AM.png]]
+	- Matrices is a plural for matrix
+	- A matrix is a table of numbers
+		- Use a capital letter (and maybe bold) to represent a matrix
+			- boldface capital letter
+	- two by three matrix (2x3) is shown as example
+		- Sometimes written below bold letter
+		- 2 rows
+		- 3 columns
+	- A 5 by 2 matrix
+		- 5 rows and 2 columns
+	- Can reference terms in matrix
+		- 2nd row 2nd column is $A[2,2] = 0$ or $a_{2,2} = 0$
+		- $a_{1,3} = 2$
+			- First row, third column
+	- A matrix is just a data representation (writing down data)
+		- Used to represent linear equations
+		- If doing [[computer graphics]] on a matrix, the elements can represent pixels on screen
+		- Numbers could represent points in a coordinate space
+	- Matrices are not a natural phenomenon. It's just a way to represent a mathematical concept or a way of representing values
+		- Might need to define what it's representing
+	- Will learn how to add, multiply, invert, and determinant of matrices
+		- These are mostly human-defined conventions
+- ![[Screenshot 2023-09-26 at 8.51.20 AM.png]]
+	- [[Matrix Addition]]
+		- This is just human convention. Someone defined how matrices add
+		- Just add corresponding elements
+		- Can do A + B or B + A (same)
+		- Both matrices need to be the same size
+			- Need corresponding elements to add up
+	- [[Matrix Subtraction]]
+		- A - B = A + (-1) $*$ B
+			- When multiplying a [[scalar]] (multiplying a number to a matrix, you just multiply the number to every one of its elements)
+				- Scalar multiplies all elements of matrix
+		- Both matrices need to be the same size
+			- Need corresponding elements to add up
+	- When a matrix has one of its dimensions as 1, such as a 1x2 (1 row and multiple columns), this is known as [[row vector]]
+	- A [[vector]] is a one-dimensional matrix where one of the dimensions is 1
+	- A 2x1 is a [[column vector]]

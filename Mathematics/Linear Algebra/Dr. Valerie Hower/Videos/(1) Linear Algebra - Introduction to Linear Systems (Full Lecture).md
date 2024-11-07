@@ -1,0 +1,36 @@
+[Video](https://www.youtube.com/watch?v=rGWcIeCdwGg)
+
+- ![[Screenshot 2023-06-06 at 2.08.13 PM.png]]
+	- Linear Equation
+	- An [[equation]] would be setting a function equal to a number or setting 2 functions equal
+	- [[Linear equation]] in variables $x_1, x_2, x_3, ..., x_n$ is an equation of the form $a_1x_1 + a_2x_2 + a_3x_3 + ... + a_nx_n = b$ where $a_1, a_2, ...,a_n, b$ are real numbers
+		- $a_1 ... a_n$ are coefficients of the equation
+	- Variables must have a power of 1. cosine isn't linear
+	- [[Linear system]]: a collection of linear equations sharing the same variables $x_1, x_2, ..., x_n$ also called a system of linear equations
+		- Basically the entirety of this course.
+- ![[Screenshot 2023-06-06 at 2.13.36 PM.png]]
+	- A solution would be (x, y) which would satisfy the equations
+	- Examples with 2 unkowns
+	- 0 = 0 means infinitely many solutions
+	- 0 = -2 means no solutions
+	- Graphs of Problems above
+		- ![[Screenshot 2023-06-07 at 1.30.12 PM.png]]
+			- [[Unique Solution]]
+		- ![[Screenshot 2023-06-07 at 1.31.13 PM.png]]
+			- [[No solutions]]
+- ![[Screenshot 2023-06-07 at 1.19.39 PM.png]]
+	- Example with 3 unknowns
+		- All you do is <mark style="background: #FFF3A3A6;">multiply a constant times a line</mark> or <mark style="background: #FFF3A3A6;">add a constant line to another</mark>
+	- [[Unique solution]] to linear system
+- ![[Screenshot 2023-06-07 at 1.32.39 PM.png]]
+	- [[Infinitely many solutions]]
+	- [[No solutions]] 
+- ![[Screenshot 2023-06-07 at 1.39.29 PM.png]]
+	- First example is 1 equation with 3 variables (unknowns)
+		- It's a plane in  ℝ3 (pronounced [[R3]])
+	- Second example shows a unique solution of 3 planes (created by 3 equations with 3 variables)
+	- Third example is a line worth of solutions (infinitely many solutions)
+	- Fourth example shows no solutions
+- ![[Screenshot 2023-06-07 at 2.35.51 PM.png]]
+	- Find all polynomials f(t) of degree $\le$ 2 whose graphs run through (1, 3) and (2,6) such that f'(1) = 1.
+		- Solution is $f(t) = 4 - 3t + 2n^3$

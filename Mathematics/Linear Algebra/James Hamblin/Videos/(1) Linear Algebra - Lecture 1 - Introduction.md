@@ -1,0 +1,55 @@
+[Video](https://youtube.com/watch?v=HAoL5fPmgrw)
+
+---
+- ![[Screenshot 2023-04-15 at 10.51.34 PM.png]]
+- Linear Equations
+	- A [[linear equation]] is an equation that can be written in the form $$a_1x_1 + a_2x_2 + ... + a_nx_n = b$$
+	- The numbers $a_1$, ..., $a_n$ are called [[coefficients]]
+---
+- ![[Screenshot 2023-04-15 at 10.55.27 PM.png]]
+- Examples
+	- This is a linear equation
+- If a variable is missing, the coefficient of that variable is 0
+- Any kind of real number can be a coefficient in these linear equations
+---
+- ![[Screenshot 2023-04-15 at 10.58.36 PM.png|400]]
+- Examples
+	- This is not a linear equation
+		- Can't have square root of a variable (not raised to any strange powers)
+		- Not allowed to have variables being divided
+		- Not allowed to have variables multiplied by each other
+---
+- ![[Screenshot 2023-04-15 at 10.59.57 PM.png|400]]
+- Solving an equation
+	- A solution to an equation is a value for each variable that makes the equation true
+	- For example, x = 3, y = 4, and z = -5 is a solution to the equation x - 4y - 6z = 17
+		- It may not be the only solution but it is at least one of the solutions
+---
+- ![[Screenshot 2023-04-15 at 11.01.12 PM.png|400]]
+- System of Equations
+	- A [[system of linear equations]] is a collection of one or more linear equations involving the same variables
+	- For example
+---
+- ![[Screenshot 2023-04-15 at 11.04.29 PM.png|400]]
+- System of Equations
+	- A solution to a system of linear equations is a value for each variable that makes each equation true simultaneously
+	- Solutions are often written as ordered tuples ($s_1, s_2, ..., s_n$), where $s_1$ is the value for $x_1, s_2$ is the value for $x_2$, and so on
+	- An ordered n-tuple is a bunch of numbers separated by commas where there are "n" of those ($s_1, s_2, ..., s_n$) which is the generalization of the idea
+		- (3,4) is an ordered pair
+			- 3 is the value of the first variable
+			- 4 is the value of the second variable
+		- (-1, 0, 6) is an ordered triple
+		- (2, 4, -1, 8) is an ordered quadruple
+---
+- ![[Screenshot 2023-04-15 at 11.06.30 PM.png]]
+- Systems of Equations
+	- For example, (-3, -8, 4) is not a solution to this system of equations
+	- For example, (5, 6.5, 3) is a solution to this system of equations
+---
+- General Questions
+	- (1) Given a system of linear equations, how can we tell whether the system has
+		- no solutions
+		- One (unique) solution
+			- Unique is "one and only one" of something
+		- Many solutions
+	- (2) When a system has one or more solutions, how do we find them?

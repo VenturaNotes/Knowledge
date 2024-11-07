@@ -1,0 +1,59 @@
+[Video](https://youtube.com/watch?v=x1CEVwn7Gnw)
+
+---
+- "Triangular Form"
+	- Previously we discussed using row operations to put a matrix into "triangular form"
+	- "Echelon form" makes this idea precise
+- ![[Screenshot 2023-04-15 at 11.23.35 PM.png|400]]
+- Echelon
+	- "Echelon" is a military term that is used to describe a particular formation
+---
+- ![[Screenshot 2023-04-15 at 11.25.37 PM.png]]
+- Echelon form of a matrix
+	- To determine whether a matrix is in echelon form, we must look at the [[leading entry]] in each row
+		- The leading entry of a row is simply the first non-zero entry as we go from left to right
+		- A row with no non-zero entries has no leading entry
+	- Consider this matrix
+---
+- ![[Pasted image 20230415232825.png]]
+- Echelon form of a matrix
+	- A matrix is in echelon form if it satisfies these three conditions:
+		- (1) Any rows of all zeroes are below any other rows
+		- (2) Each leading entry of a row is in a column to the right of the leading entry in the row above it
+		- (3) All entries in a column below a leading entry are zeros
+- The example above is not in echelon form as it does not satisfy all conditions (and in fact satisfies none of the conditions in this case)
+---
+- ![[Screenshot 2023-04-15 at 11.29.36 PM.png]]
+	- This matrix is in echelon form
+---
+- Condition #3
+	- If conditions #1 and #2 for echelon form are satisfied, then condition #3 is automatically satisfied
+	- However, it's often useful to keep condition #3 in mind once we start talking about how to put a matrix into echelon form
+---
+- Reduced Echelon Form
+	- While echelon form is the precise definition of the "triangular form" we discussed earlier, there is another form that is often useful
+	- Reduced echelon form will make it even easier to determine the solution(s) for the corresponding system of linear equations
+---
+- Reduced Echelon Form
+	- A matrix is in [[reduced echelon form]] if it satisfies these conditions: ^5a33ff
+		- (1) Any rows of all zeroes are below any other rows
+		- (2) Each leading entry of a row is in a column to the right of the leading entry in the row above it
+		- (3) All entries in a column below a leading entry are zeros
+		- (4) The leading entry of each row is 1
+		- (5) Each leading 1 is the only nonzero entry in its column
+	- Note: Conditions 1 to 3 are all the same as regular echelon form. Reduced Echelon Form has 2 extra conditions of 4 and 5
+		- Condition 5  overrides condition 3
+---
+- ![[Screenshot 2023-04-15 at 11.34.45 PM.png|600]]
+- Reduced Echelon Form
+	- Example/Practice
+- This matrix is in reduced echelon form
+	- The leading entry in the first row is a "1" and not a "-1". 
+---
+- Uniqueness of Reduced Echelon Form
+	- We can transform a given matrix, using row operations, into many different echelon forms
+	- However, there is only one unique reduced echelon form for any given matrix
+---
+- What's next?
+	- Next, we will learn how to use row operations in a methodical way to obtain an echelon form or a reduced echelon form for a matrix
+	- Then, we will learn how to use the echelon (or reduced echelon form) to find solutions to the corresponding system of linear equations

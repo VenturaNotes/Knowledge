@@ -1,0 +1,35 @@
+[Video](https://www.youtube.com/watch?v=eS1QJ5Sfz0Q)
+
+- ![[Screenshot 2023-10-16 at 8.12.04 PM.png]]
+	- Vectors in $\mathbb{R}^2$
+		- $\mathbb{R}^2$ is a [[vector space]]
+	- Vectors are not arrows
+		- Imagine vectors as arrows but don't say they are arrows
+	- Calculation rules visualized:
+		- [[Scaling]] works for any real number $\lambda$ 
+			- When we have a fixed vector v, we can scale it
+			- The new vector we get out is scaled by this factor $\lambda v$ 
+			- In our picture, the direction of vector is still the same but the length can be different
+		- [[Addition]]
+			- Need two vectors
+			- Put both arrows together
+				- Put tail of one to tip of other one
+	- In [[mathematics]], we usually don't put the arrow above $v$ to represent vectors because we usually know what the objects are. There is simply no need for such a notation
+		- Contrast to [[physics]] where the arrow above the letter carries implicit information
+	- Definition $\mathbb{R}^2 = R \times R$
+		- [[Cartesian product]]
+		- $\mathbb{R}^2$ is simply the set of all ordered pairs of real numbers
+		- In [[linear algebra]], the elements of $\mathbb{R}^2$ are written in a so-called [[column form]]
+			- For the pair, instead of left and right, we have top and bottom
+			- $4 \choose 2$ $\in$ $\mathbb{R}^2$ 
+				- Mathematically, this is just a point in a plane
+				- Could also visualize it as an arrow when you say how I come from the origin to that point
+					- Go 4 steps to the right
+					- Go 2 steps to the top
+				- For [[scaling]], just multiply both numbers my $\lambda$ 
+					- For $\lambda v_1 \choose \lambda v_2$
+					- Have the first component as $\lambda v_1$ and the second [[component]] $\lambda v_2$ 
+						- In the first and second component, we have the ordinary multiplication of real numbers
+				- For [[addition]], add both numbers separately
+					- For both, need the components
+	- $\mathbb{R}^2$ together with the two operations ($\cdot$, +) is called the vector space $\mathbb{R}^2$ 

@@ -1,0 +1,19 @@
+[Video](https://youtube.com/watch?v=ArZGG7F-pgo)
+
+- ![[Screenshot 2023-11-15 at 4.46.16 PM.png]]
+	- [[grid line|grid lines]] in coordinates systems
+	- With the standard basis vectors, we've created the standard grid system
+	- Grid systems are all about taking integer values
+	- Grid intersections are integer combinations
+		- Grid systems are all the integer linear combinations of the standard basis vectors
+	- You can represent a vector in any coordinate system
+- ![[Screenshot 2023-11-15 at 4.50.11 PM.png]]
+	- Why don't we always use the standard basis vectors?
+		- If we have a [[subspace]] which is a plane living in $\mathbb{R}^3$. We have 2 different basis vectors that are living on that plane
+		- The standard basis vectors not even on the subspace
+			- Can't describe the subspace as some linear combination of the standard basis vectors any longer because it doesn't fit there anywhere
+			- Therefore, we need to create a coordinate system out of them
+				- Just take all the integer linear combinations of them and you'll get all the intersection points
+					- Now we have another grid system on them
+					- Lines are separated by integer multiples of the two different basis vectors
+	- If in some sort of [[subspace]], can still have coordinate systems, can still have grid lines, you get to use any other basis

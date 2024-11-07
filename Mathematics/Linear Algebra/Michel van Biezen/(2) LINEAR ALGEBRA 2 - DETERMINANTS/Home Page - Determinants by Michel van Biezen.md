@@ -1,0 +1,59 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUT6cBuDAjO2Z2XURDgdp8f
+Length: 3 hours, 26 minutes, 53 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+	- [[(1) Linear Algebra - Ch 2 - Determinants (1 of 48) What is a Determinant (Part 1)]]
+	- [[(2) Linear Algebra - Ch 2 - Determinants (2 of 48) What is a Determinant. (Part 2)]]
+	- [[(3) Linear Algebra - Ch 2 - Determinants (3 of 48) What is a Determinant. (Part 3)]]
+	- [[(4) Linear Algebra - Ch 2 - Determinants (4 of 48) What is a Determinant. (Part 4)]]
+	- [[(5) Linear Algebra - Ch 2 - Determinants (5 of 48) Rules of a Determinant.]]
+	- [[(6) Linear Algebra - Ch 2 - Determinants (6 of 48) Example of Rule 1 - Multiplying by a Constant]]
+	- [[(7) Linear Algebra - Ch 2 - Determinants (7 of 48) Example of Rule 2 - The Negative of a Determinant (2x2)]]
+	- [[(8) Linear Algebra - Ch 2 - Determinants (8 of 48) Example of Rule 2 - The Negative of a Determinant (3x3)]]
+	- [[(9) Linear Algebra - Ch 2 - Determinants (9 of 48) Example of Rule 3 - Distributive Property]]
+	- [[(10) Linear Algebra - Ch 2 - Determinants (10 of 48) Example of Rule 4 - Determinant of Idenitity Matrix]]
+	- [[(11) Linear Algebra - Ch 2 - Determinants (11 of 48) Example of Rule 5 - Inverse of a Matrix]]
+	- [[(12) Linear Algebra - Ch 2 - Determinants (12 of 48) Example of Rule 6 - -BAB -1-=-A-]]
+	- [[(13) Linear Algebra - Ch 2 - Determinants (13 of 48) Example of Rule 7 - Transpose of a Matrix]]
+	- [[(14) Linear Algebra - Ch 2 - Determinants (14 of 48) Example of Rule 8 - The Conjugate of a Matrix]]
+	- [[(15) Linear Algebra - Ch 2 - Determinants (15 of 48) Example of Rule 9 - Identical Rows]]
+	- [[(16) Linear Algebra - Ch 2 - Determinants (16 of 48) Example of Rule 10 - Row of Zeros]]
+	- [[(17) Linear Algebra - Ch 2 - Determinants (17 of 48) Example of Rule 11 - Dependent Rows]]
+	- [[(18) Linear Algebra - Ch 2 - Determinants (18 of 48) Example of Rule 12 - Non-Invertible Matrix]]
+	- [[(19) Linear Algebra - Ch 2 - Determinants (19 of 48) Example of Rule 13 - Invertible Matrix]]
+	- [[(20) Linear Algebra - Ch 2 - Determinants (20 of 48) The Minor of a Matrix (3x3)]]
+	- [[(21) Linear Algebra - Ch 2 - Determinants (21 of 48) The Minor of a Matrix (4x4)]]
+	- [[(22) Linear Algebra - Ch 2 - Determinants (22 of 48) The Cofactor of a Matrix]]
+	- [[(23) Linear Algebra - Ch 2 - Determinants (23 of 48) Non-Invertible Matrix - Example]]
+	- [[(24) Linear Algebra - Ch 2 - Determinants (24 of 48) Lambda=. of det(A(Lambda(I))=0]]
+	- [[(25) Linear Algebra - Ch 2 - Determinants (25 of 48) Lambda=. of det(A(Lambda(I))=0]]
+	- [[(26) Linear Algebra - Ch 2 - Determinants (26 of 48) Product of Determinants - 2x2]]
+	- [[(27) Linear Algebra - Ch 2 - Determinants (27 of 48) 3 Ways of Finding the Determinants - 3x3]]
+	- [[(28) Linear Algebra - Ch 2 - Determinants (28 of 48) 3 MORE Ways of Finding the Determinants - 3x3]]
+	- [[(29) Linear Algebra - Ch 2 - Determinants (29 of 48) Product of Determinants - 3x3]]
+	- [[(30) Linear Algebra - Ch 2 - Determinants (30 of 48) Rule of Addition - 2x2 Determinants]]
+	- [[(31) Linear Algebra - Ch 2 - Determinants (31 of 48) Multiplying by a Constant - 2x2 Determinants]]
+	- [[(32) Linear Algebra - Ch 2 - Determinants (32 of 48) Determinant of a (3x1)x(1x3)=.]]
+	- [[(33) Linear Algebra - Ch 2 - Determinants (33 of 48) Find Determinant=. by Reducing to Echleon Form - 1]]
+	- [[(34) Linear Algebra - Ch 2 - Determinants (34 of 48) Find Determinant=. by Reducing to Echleon Form - 2]]
+	- [[(35) Linear Algebra - Ch 2 - Determinants (35 of 48) Find Determinant=. by Reducing to Echleon Form - 3]]
+	- [[(36) Linear Algebra - Ch 2 - Determinants (36 of 48) Find Determinant= by Reducing to Echleon Form - 4]]
+	- [[(37) Linear Algebra - Ch 2 - Determinants (37 of 48) Find Determinan=. by Reducing to Echleon Form - 5]]
+
+- Incomplete
+	- [[(38) Linear Algebra - Ch 2 - Determinants (38 of 48) Using the Product Rule (and Others)]]
+	- [[(39) Linear Algebra - Ch 2 - Determinants (39 of 48) Determinant of Matrices with A lot of Zeros]]
+	- [[(40) Linear Algebra - Ch 2 - Determinants (40 of 48) Gauss-Jordan Elimination - Unique Solution]]
+	- [[(41) Linear Algebra - Ch 2 - Determinants (41 of 48) Gauss-Jordan Elimination - Infinite Solutions]]
+	- [[(42) Linear Algebra - Ch 2 - Determinants (42 of 48) Gauss-Jordan Elimination - Inconsistent Solution]]
+	- [[(43) Linear Algebra - Ch 2 - Determinants (43 of 48) x=. y=. Using Crammer's Rule]]
+	- [[(44) Linear Algebra - Ch 2 - Determinants (44 of 48) x1=. x2=. x3=. Using Crammer's Rule 3x3 Matrix]]
+	- [[(45) Linear Algebra - Ch 2 - Determinants (45 of 48) Find Inverse Using the Adjugate Matrix (3x3)]]
+	- [[(46) Linear Algebra - Ch 2 - Determinants (46 of 48) Find Inverse Using the Adjugate Matrix (2x2)]]
+	- [[(47) Linear Algebra - Ch 2 - Determinants (47 of 48) Area of Parallelogram=. (Using Matrices)]]
+	- [[(48) Linear Algebra - Ch 2 - Determinants (48 of 48) Method of Least Squares]]

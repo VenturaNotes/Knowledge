@@ -1,0 +1,49 @@
+[Video](https://www.youtube.com/watch?v=bo6a47hrHns)
+
+- ![[Screenshot 2023-09-28 at 8.51.17 PM.png]]
+	- [[Vectors]] and [[Scalars]]
+		- To describe a pool table may need
+			- mass m (kg)
+				- Just a number
+			- Volume V ($m^3$)
+				- Just a number cubed
+			- time t (s)
+				- Just a number
+	- What if we want to describe position of ball?
+		- Can't just give a number (need vectors for this)
+			- Need to choose [[origin]]
+			- Must choose a [[Coordinate Plane|coordinate system]] (can do x-axis and y-axis)
+			- Need to choose some unit (some scale)
+		- The position of the ball is described by vectors consisting of 2 components (x and y which tells us where the ball is)
+		- Will use boldface to represent [[vectors]] and normal for [[scalar]] quantities
+	- Vector quantities have both size (magnitude) and direction
+		- How far we're traveling but direction of travel as well
+		- Scalars only have magnitude
+	- For [[vectors]]
+		- position **r** (m)
+		- velocity **v** (m/s)
+			- Time rate of change of position
+			- derivative of position with respect to time
+		- acceleration **a** $(m/s^2)$
+			- How fast velocity is changing
+			- How fast it's accelerating
+		- force **F** (N)
+			- F = ma
+				- mass is a [[scalar]] quantity
+				- acceleration is a vector quantity
+				- mass $\times$ acceleration = vector quantity
+	- When do we call two vectors the same?
+		- In the first graph (top-right), 
+			- vector $v_1$ is in the same direction as vector $u$ but does not have the same size
+				- $v_1 \ne u$ 
+			- $v_2$ same magnitude as $u$ but in another direction
+				- $v_2 \ne u$ 
+			- $v_3 \ne u$
+		- In the second graph (top-right), $u = v$ because they have the same magnitude and direction even though they don't have the same starting point
+		- In linear algebra, will mostly use start at the origin
+	- In physics, needs to be more careful
+		- It does matter where you apply the force to an object
+		- In a physical problem, will always need to be careful where you're moving vectors around
+			- In pool table, apart from [[linear momentum]], you also have [[angular momentum]]
+			- In physics, be careful when vectors are equal or not
+			- In linear algebra, we'll have all vectors starting at the origin

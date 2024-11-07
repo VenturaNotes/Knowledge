@@ -1,0 +1,29 @@
+[Video](https://www.youtube.com/watch?v=fNk_zzaMoSs)
+
+- ![[Screenshot 2023-08-04 at 1.40.37 PM.png]]
+	- "The introduction of numbers as coordinates is an act of violence" - Hermann Weyl
+	- Building block of linear algebra is the vector 
+		- There are 3 distinct but related ideas about vectors (from different perspectives)
+			- Physics Student
+				- Vectors are arrows pointing in space
+				- What defines a given vector is its length and the direction it's pointing in
+					- As long as these two facts are the same, you can move it around and it's the same vector
+				- Vectors that live in a flat plane are two-dimensional
+					- Those sitting in a broader space where you and I live in is three-dimensional
+			- Mathematician
+				- Tries to generalize both the physics and computer science views
+				- A vector can be anything where there is a sensible notion of adding two vectors, and multiplying a vector by a number (operations will be reviewed later)
+				- Details of this view are rather abstract
+				- Hints at the fact that vector addition and multiplication by numbers will play an important role throughout linear algebra
+			- Computer Science (CS) Student
+				- Vectors are ordered lists of numbers
+					- If you did analytics on house prices and the only features you cared about are square footage and price, you might model each house with a pair of numbers
+						- First indicates square footage
+						- Second indicates price
+					- Order matters
+					- You'd be modeling houses as two-dimensional vectors (Vector is just a fancy word for list. It's 2 dimensional because length of list is 2)
+- Image
+	- When talking about vectors, first think about an arrow and think of arrow inside coordinate-system (such as x-y plane) with tail at origin
+	- Although in physics vectors freely sit anywhere they want in space, in linear algebra, it is almost always the case that your vector will be rooted at the origin
+	- When we understand concept of arrows in space, we'll translate it over to the list of numbers point of view (which is by considering the coordinates of the vector) 
+	- 

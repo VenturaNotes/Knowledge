@@ -1,0 +1,71 @@
+[Video](https://youtube.com/watch?v=LHsPJ2bQX1U)
+
+- ![[Screenshot 2024-01-29 at 4.43.34 PM.png]]
+	- Writing Systems 
+		- Systems
+			- Equations
+				- $x_1 + x_2 = 5$ 
+				- $3x_1 - 2x_2 = 10$
+			- Will only be using xs and no ys
+			- Will have a bunch more variables than we're used to
+		- 2 matrices we need to be familiar with
+	- [[Coefficient Matrix]]
+		- $\begin {bmatrix} 1 & 1 \\ 3 & -2 \end{bmatrix}$
+		- Will only use coefficients in the systems of equations and won't use the solutions of 5 and 10
+	- [[Augmented Matrix]]
+		- $\left[\begin{array}{rr|r} 1 & 1 & 5 \\ 3 & -2 & 10 \\ \end{array}\right]$
+			- Has both the coefficients and solution set of 5 and 10
+			- Divider or solid line (textbook doesn't have divider commonly)
+	- Example has two variables
+	- Solve by [[elimination]] (multiplied first equation by 2 and then combined the two equations)
+	- Solving by using an augmented matrix
+		- When manipulating first row:
+			- Index Notation Reference
+				- ![[Screenshot 2024-01-29 at 4.22.13 PM.png|300]]
+			- Using $2R_1 + R_2  \rightarrow R_1$, (This multiplies $row\space1$ by $2$ and then adds $row \space 2$ to replace the values in $row 1$ 
+				-  $a_{1,1}$:  $2(1) + 3 = 5$
+				- $a_{1,2}$: $2(1) - 2 = 0$
+				- $a_{1,3}$: $2(5) + 10 = 20$
+			- Will learn about proper [[row operations]] later
+			- Want to solve for $x_1$ and $x_2$ 
+	- Solving systems of linear equations using a matrix is much easier with more variables
+	- Terminology
+		- [[Linear Equation]]
+			- An equation that can be written as $a_1x_1$ + $a_2x_2$ + $a_3x_3$ + .... + $a_nx_n =b$ where $a_1,a_2...a_n,b$ are real or complex numbers
+				- b is the solution in this case
+				- This is just saying that we have a linear equation like we had with $y=mx+b$ which is just a different form. Basically a standard form equation where we have variables and coefficients equal to some value.
+		- [[System of Linear Equations]]
+			- A collection of two or more linear equations using the same variables.
+		- [[Solution]]
+			- A list of numbers ($S_1,S_2,S_3,...$) that makes each equation in the system true when substituted for $x_1,x_2,x_3...$ respectively.
+				- Must make each equation true
+		- [[Solution Set]]
+			- The set of all possible solutions to a system
+				- You could just have 1 solution
+				- Could be you have many solutions
+				- Could be you have no solutions
+- ![[Screenshot 2024-01-29 at 4.49.15 PM.png]]
+	- There are 3 types of systems (or two types if talking about consistent vs inconsistent systems)
+		- [[Inconsistent System]]
+			- No solution
+			- Equations never touch
+		- [[Consistent System]]
+			- [[One Solution]]
+				- Could be an [[ordered pair]], or ordered triple, or however many values you have
+				- If you have 5 variables, then you will have some value for each to make the equation true $(x_1,x_2,x_3,x_4,x_5)$. When replacing those values into the 5 equations, it will make each equation true 
+			- [[Infinitely many solutions]] (two lines that are identical)
+				- One line is stacked on top of the other one.
+				- Everywhere that line is, is a solution to both equations.
+	- Practice
+		- Solve the given system of equations using elimination
+		- Steps
+			- (White): Cancel 1 variable so you're left with 2
+			- (Yellow): Cancel another variable so you're left with 1
+			- (Green): Use variable solved with (White) equations
+			- (Red): Use 2 variables solved to find last variable from (Red) Equations
+			- All Solutions found
+				- Will always write final solution as an [[ordered pair]] or an [[ordered triple]] (in this case)
+
+## References
+
+[^1]: https://en.wikipedia.org/wiki/Index_notation

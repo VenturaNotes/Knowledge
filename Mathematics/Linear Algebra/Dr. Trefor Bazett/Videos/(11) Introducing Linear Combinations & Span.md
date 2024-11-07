@@ -1,0 +1,58 @@
+[Video](https://youtube.com/watch?v=WJlQzgS_itI)
+
+- ![[Pasted image 20230716151924.png]]
+	- [[linear combination|linear combinations]]:
+		- $x_1 \vec{a_1}$ + $x_2\vec{a_2} + ... + x_n\vec{a_n}$
+		- Takes scalar multiplication and vector addition (then doing them as many times as we wish)
+		- Lets say we have a list of different vectors living in $R^m$, we can multiply each vector by different lengths (scalar multiples) and then you add them all up together
+		- $x_i \in \mathbb{R}$
+			- The coefficients (scalar multiples) are just real numbers
+		- $\vec{a_i} \in \mathbb{R}^m$
+			- Vectors that live in $\mathbb{R}^m$
+			- The number of components of vector is <mark style="background: #FFF3A3A6;">m</mark>
+			- This is different than the number of vectors being added up 
+				- Adding up <mark style="background: #FFF3A3A6;">n</mark> vectors
+					- Each of these vectors are living in $\mathbb{R}^m$
+- ![[Screenshot 2023-07-16 at 3.22.02 PM.png]]
+	- Examples
+- ![[Screenshot 2023-07-16 at 3.24.56 PM.png]]
+	- [[Span]] {$\vec{a_1}, ..., \vec{a_n}$} is the set of all [[linear combination|linear combinations]] of $\vec{a_1}, ..., \vec{a_n} \in \mathbb{R}^m$ i.e. $x_1\vec{a_1}$ + $x_2\vec{a_2}$ + ... + $x_n\vec{a_n}$ 
+- ![[Screenshot 2023-07-16 at 3.31.18 PM.png]]
+	- Examples
+	- In the first case, every vector could be reached by some combinations of the red and yellow vectors
+	- In the second case, we are given 2 vectors that overlap themselves.
+		- This pair of vectors are just multiples of the original 2, 1
+		- This is a span that does not have everything
+	- You could have the span of a zero vector, but it's just one thing, the 0 vector
+- ![[Screenshot 2023-07-16 at 3.36.26 PM.png]]
+	- [[Standard Basis Vectors]]
+		- $\begin{bmatrix}1 \\ 0\end{bmatrix}$, $\begin{bmatrix}0 \\ 1\end{bmatrix}$
+		- Is $\begin{bmatrix}-1 \\ 2\end{bmatrix}$
+			- in the span of the standard basis vectors? (yes)
+			- a linear combination of $\begin{bmatrix}1 \\ 0\end{bmatrix}$and $\begin{bmatrix}0 \\ 1\end{bmatrix}$? (yes)
+				- This is the linear combination
+					- $\begin{bmatrix}-1 \\ 2\end{bmatrix}$ = -1$\begin{bmatrix}1 \\ 0\end{bmatrix} + 2$ $\begin{bmatrix}0 \\ 1\end{bmatrix}$
+- ![[Screenshot 2023-07-16 at 3.45.00 PM.png|300]]
+	- For standard basis vectors, this process always works
+		- If I take any arbitrary vector $x_1$ and $x_2$ and we write it as a linear combination of the standard basis vectors, whatever it is, we just plug the $x_1$ and $x_2$ in
+			- There's nothing to be done. It's almost immediate
+	- Every vector is a linear combination of standard basis vectors
+	- Therefore, the span of standard basis vectors (all possible linear combinations) is everything. Is equal to $\mathbb{R}^2$
+	- Any vector can be written as a linear combination of the standard basis vectors
+	- In 3 dimensions, there are 3 standard basis vectors, 
+		- $\begin{bmatrix}1 \\ 0 \\ 0\end{bmatrix}$, $\begin{bmatrix}0 \\ 1 \\ 0\end{bmatrix}$, $\begin{bmatrix}0 \\ 0 \\ 1\end{bmatrix}$
+	- If you're living in n dimensions, then there is n standard basis vectors. All the ways you can have a vector with zeros and only one 1 in it.
+- ![[Screenshot 2023-07-16 at 3.48.10 PM.png]]
+	- Two operations on vectors
+		- Vector addition
+		- Scalar Multiplication
+	- Linear Combinations
+		- General way we can take all combinations of scalar multiplications and vector additions
+	- Span is the set of all linear combinations
+		- Span is all the possible linear combinations of some list of vectors. If asked what is the span of a list of vectors, it's all of the outputs when taking linear combinations of them.
+	- Standard Basis Vectors
+		- Their span is everything and everything can be written in a very trivial way as a linear combination of them
+- ![[Screenshot 2023-07-16 at 6.36.36 PM.png]]
+	- Future Questions
+		- How do we decide if a vector is in some span?
+		- Are any other vectors "good" like the standard basis?

@@ -1,0 +1,24 @@
+[Video](https://www.youtube.com/watch?v=P5GJJ02OG08)
+
+- ![[Screenshot 2023-07-17 at 4.52.32 AM.png]]
+	- [[Matrix addition]]
+	- [[Matrix subtraction]]
+	- [[Matrix multiplication]]
+	- AB
+		- For this multiplication to work, these matrices must have specific dimensions (not necessarily identical)
+		- For this multiplication to work, A must have the same number of columns as B has rows
+			- A = $m \times n$ 
+			- B = $q \times p$
+			- n must equal q
+	- This is the algorithm we follow for matrix multiplication
+	- Columns in A must equal rows in B
+	- Product will always have the # of rows as A and the # of columns as B
+	- number multiplication is commutative
+		- ab = ba
+	- matrix multiplication is NOT commutative
+		- AB $\ne$ BA
+	- Matrix multiplication is associative
+		- (AB)C = A(BC)
+	- Matrix multiplication can be distributive
+		- If A and B are $m \times n$ matrices and C and D are $n \times p$ matrices
+			- A(C + D) = AC + AD and (A+B)C = AC + BC

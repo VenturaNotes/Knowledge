@@ -1,0 +1,36 @@
+[Video](https://www.youtube.com/watch?v=biyQzy2yRUA)
+
+- ![[Screenshot 2023-07-17 at 4.28.50 AM.png]]
+	- [[Matrix]]
+		- Arrays of numbers that are often meant to represent coefficients and constants form a system of linear equations
+	- We can manipulate matrices in order to solve the system
+	- m = number of rows
+	- n = number of columns
+	- when m = n, the matrix is a [[square matrix]]
+		- Entries going from top left to bottom right comprise the [[main diagonal]] of the matrix
+	- [[Diagonal matrix]] (also called an [[identity matrix]])
+		- All the entries off the main diagonal are zero
+			- This is what we're trying to get when performing Gauss-Jordan elimination
+	- [[upper triangular matrix]]
+		- Entries below the main diagonal are all zero
+	- [[lower triangular matrix]]
+		- entries above the main diagonal are all zero
+	- [[Vector]]
+		- Matrix consisting of just one column
+		- The more common usage of "vector"
+	- [[Row Vector]]
+		- Matrix consisting of just one row
+	- Vector
+		- We can list systems solutions as a vector
+- ![[Screenshot 2023-07-17 at 4.35.58 AM.png]]
+	- Systems of linear equations can be represented with vectors
+	- [[Vector form]] of the linear system
+	- When multiplying a matrix by a scalar, we multiply each entry by the [[scalar]]
+		- Works regardless the dimensions of the matrix
+	- [[Matrix Addition]]
+	- For matrices to be added together, they must have identical dimensions (same number of rows and columns)
+		- Each entry in the new matrix is the sum of the corresponding entries
+	- [[Matrix subtraction]] is very similar to matrix addition
+		- Not commutative
+			- A - B $\ne$ B - A
+	- [[Matrix addition]] is commutative A + B = B + A
