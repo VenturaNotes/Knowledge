@@ -1,0 +1,32 @@
+[Video](https://youtube.com/watch?v=sUK_njey6nw)
+
+- ![[Screenshot 2023-08-20 at 10.42.47 PM.png]]
+	- $v = \sqrt\frac{T}{\mu}$
+		- [[velocity]] of a wave on a string that has a certain [[tension]] "T" and a certain mass per unit length $\mu$ 
+		- T = Tension (force)
+		- $\mu$ = $\frac {m}{L}$
+	- $y(x_1t) = Acos(kx-wt)$
+		- y is a function x and t is equal to the amplitude of the oscillation times the cosine (or sine, just depends on the initial conditions) of the angle $(kx - wt)$ 
+			- kx minus omega t
+		- k is known as the [[wavenumber]]
+			- where $k = \frac {2\pi}{\lambda}$
+				- $\lambda$ is the [[wavelength]]
+		- $\omega = 2\pi f$ 
+			- $f$ = [[frequency of oscillation]]
+	- Wave length is the distance between two crests on the wave
+	- Position of x is in the direction to the right
+		- x is distance in horizontal direction which is units of meters as well
+	- y is the displacement away from equilibrium for any point on the string
+	- v is the velocity of the wave
+	- A is the maximum [[amplitude]] so "y" could be anywhere along the path
+		- $+A$ or $-A$ 
+	- Primarily concerned about the units.
+		- A is the amplitude which has units of meters multiplied by the cosine of the angle
+	- $kx$ does not have units
+	- $wt$
+		- frequency has units of $\frac {1}{sec}$
+		- Has no units
+	- When taking the cosine, it needs to be in radians. That is why $kx$ and $wt$ both have no units
+	- In [[wave equation]], we have meters = meters
+		- Displacement in meters = displacement in meters
+	- [[Velocity]] has the units of meters / second

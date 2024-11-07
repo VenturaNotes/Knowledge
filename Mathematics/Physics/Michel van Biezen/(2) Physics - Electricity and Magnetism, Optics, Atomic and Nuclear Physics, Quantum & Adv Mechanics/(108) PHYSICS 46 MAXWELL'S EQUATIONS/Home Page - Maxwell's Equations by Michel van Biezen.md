@@ -1,0 +1,40 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXSzkemKeaMBWYR2TOPiOz0
+Length: 3 hours, 41 minutes, 20 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics - E&M - Maxwell's Equations (1 of 30) What are the Maxwell equations Introduction]]
+	- [[(2) Physics - E&M - Maxwell's Equations (2 of 30) Speed of Light]]
+	- [[(3) Physics - E&M - Maxwell's Equations (3 of 30) Gauss' Law - A Closer Look]]
+	- [[(4) Physics - E&M - Maxwell's Equations (4 of 30) Gauss' Law for Magnetism]]
+	- [[(5) Physics - E&M - Maxwell's Equations (5 of 30) Faraday's Law of Induction]]
+	- [[(6) Physics - E&M - Maxwell's Equations (6 of 30) Ampere's Law (Part 1)]]
+	- [[(7) Physics - E&M - Maxwell's Equations (7 of 30) Ampere's Law (Part 2)]]
+	- [[(8) Physics - E&M - Maxwell's Equations (8 of 30) Differential Form]]
+	- [[(9) Physics - E&M - Maxwell's Equations (9 of 30) Differential Form of Gauss' Law - 1]]
+	- [[(10) Physics - E&M - Maxwell's Equations (10 of 30) Differential Form of Gauss' Law - 2]]
+	- [[(11) Physics - E&M - Maxwell's Equations (11 of 30) Differential Form of Gauss' Law - 3]]
+	- [[(12) Physics - E&M - Maxwell's Equations (12 of 30) Differential Form of Gauss' Law - 4]]
+	- [[(13) Physics - E&M - Maxwell's Equations (13 of 30) Differential Form of Gauss' Law - 5]]
+	- [[(14) Physics - E&M - Maxwell's Equations (14 of 30) Differential Form of Gauss' Law - 6]]
+	- [[(15) Physics - E&M - Maxwell's Equations (15 of 30) Differential Form of Gauss' Law - 7]]
+	- [[(16) Physics - E&M - Maxwell's Equations (16 of 30) Differential Form of Gauss' Law - 8]]
+	- [[(17) Physics - E&M - Maxwell's Equations (17 of 30) Differential Form of Gauss' Law - 9]]
+	- [[(18) Physics - E&M - Maxwell's Equations (18 of 30) Differential Form of Gauss' Law - 10]]
+	- [[(19) Physics - E&M - Maxwell's Equations (19 of 30) Differential Form of Gauss' Law - 11]]
+	- [[(20) Physics - E&M - Maxwell's Equations (20 of 30) Differential Form of Ampere's Law - 1]]
+	- [[(21) Physics - E&M - Maxwell's Equations (21 of 30) Differential Form of Ampere's Law - 2 - Def of the Curl]]
+	- [[(22) Physics - E&M - Maxwell's Equations (22 of 30) Differential Form of Ampere's Law - 3]]
+	- [[(23) Physics - E&M - Maxwell's Equations (23 of 30) Differential Form of Ampere's Law - 4 Common Error!!!]]
+	- [[(24) Physics - E&M - Maxwell's Equations (24 of 30) Differential Form of Ampere's Law - 5]]
+	- [[(25) Physics - E&M - Maxwell's Equations (25 of 30) Differential Form of Ampere's Law - 6 - Example]]
+	- [[(26) Physics - E&M - Maxwell's Equations (26 of 30) Differential Form of Ampere's Law - 7 - Def. Curl]]
+	- [[(27) Physics - E&M - Maxwell's Equations (27 of 30) Diff. Form of Ampere's Law - Displacement Current]]
+	- [[(28) Physics - E&M - Maxwell's Equations (28 of 30) Faraday's Law in Differential Form Ex. 1]]
+	- [[(29) Physics - E&M - Maxwell's Equations (29 of 30) Faraday's Law in Differential Form Ex 2]]
+	- [[(30) Physics - E&M - Maxwell's Equations (30 of 30) Fundamental Form of Maxwell's Equation]]

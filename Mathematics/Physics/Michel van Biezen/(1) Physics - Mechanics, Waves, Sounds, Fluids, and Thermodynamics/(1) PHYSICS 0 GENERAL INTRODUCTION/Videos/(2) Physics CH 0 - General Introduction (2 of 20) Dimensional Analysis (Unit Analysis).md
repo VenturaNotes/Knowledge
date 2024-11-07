@@ -1,0 +1,28 @@
+[Video](https://youtube.com/watch?v=fAQqMmZ1vMI)
+
+- ![[Screenshot 2023-01-22 at 5.41.41 PM.png]]
+	- We can see dimensionally that the Force equation is correct because the resulting units are equivalent to newtons (same as 6N)
+	- Dimensional analysis is when we check if both sides of the equation sign have the same units to check for validity
+	- Units
+		- Acceleration (a) = $\frac {m}{s^2}$ 
+			- \[$\frac {m}{s^2}$\]: Putting it inside brackets will indicate that it's simply units 
+		- Velocity (v) = $\frac ms$ 
+		- Radius for a circle (R) = m
+			- Units of length
+		- Mass (m) = kg
+		- Acceleration of gravity (g) = $\frac {m}{s^2}$
+		- Height (h) = m
+			- Unit of length
+		- $\overset ?=$ 
+			- Placing a question mark to show that we don't know if 2 equations are equal
+		- Initial velocity (v) = $\frac ms$ 
+		- time (t) = s or sec
+		- Equation used for a pendulum
+			- Period (T) = s
+			- Length of pendulum (l) = m
+			- acceleration due to gravity where the pendulum is located (g) = $\frac {m}{s^2}$ 
+			- 2$\pi$ is a constant (it does not have units) 
+	- Getting rid of $\surd$ will make equation correct for second problem
+	- For the problem $v = v_0 + at^2$, the correct formula is $v = v_0 + at$ because each term <mark style="background: #FFF3A3A6;">needs</mark> to be equal. That is: $[\frac ms] = [\frac ms] + [\frac ms]$. This would be dimensionally correct
+	- Dimensionally Correct vs Dimensionally not correct
+		- Can help us notice if we have the correct equation or not

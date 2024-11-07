@@ -1,0 +1,49 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVg9J4Y8fzukA2Ezs2jfufO
+Length: 5 hours, 1 minute, 31 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics - RCL Circuits With Reactance and Impedance (1 of 2)]]
+	- [[(2) Physics - RCL Circuits With Reactance and Impedance (2 of 2) Resonance Frequency]]
+	- [[(3) Physics - E&M - RCL Circuits (1 of 13) Basics]]
+	- [[(4) Physics - E&M - RCL Circuits (2 of 13) Complex Numbers]]
+	- [[(5) Physics - E&M - RCL Circuits (3 of 13) Complex Numbers Continued]]
+	- [[(6) Physics - E&M - RCL Circuits (4 of 13) Complex Numbers Review]]
+	- [[(7) Physics - E&M - RCL Circuits (5 of 13) Representation of Impedance]]
+	- [[(8) Physics - E&M - RCL Circuits (6 of 13) Representation of Impedance and Polar Conversion]]
+	- [[(9) Physics - E&M - RCL Circuits (7 of 13) Operations With Impedance]]
+	- [[(10) Physics - E&M - RCL Circuits (8 of 13) Impedance and (2) Parallel Branches]]
+	- [[(11) Physics - E&M - RCL Circuits (9 of 13) Impedance and (3) Parallel Branches]]
+	- [[(12) Physics - E&M - RCL Circuits (10 of 13) Impedance and Series Circuits (Ex. 1)]]
+	- [[(13) Physics - E&M - RCL Circuits (11 of 13) Impedance and Series Circuits (Ex. 2)]]
+	- [[(14) Physics - E&M - RCL Circuits (12 of 13) Impedance and Parallel Circuits (Ex. 1)]]
+	- [[(15) Physics - E&M - RCL Circuits (13 of 13) Impedance and Parallel Circuits (Ex. 2)]]
+	- [[(16) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (1 of 24) The RCL Circuit Review]]
+	- [[(17) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (2 of 24) The RCL Circuit Review]]
+	- [[(18) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (3 of 24) The RCL Circuit Review]]
+	- [[(19) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (4 of 24) Phase Angle - Conceptual Look]]
+	- [[(20) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (5 of 24) Phasor Diagram - Introduction]]
+	- [[(21) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (6 of 24) Phasor Diagram]]
+	- [[(22) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (7 of 24) Phasor Diagram - Inductor]]
+	- [[(23) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (8 of 24) Phasor Diagram - Capacitor]]
+	- [[(24) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (9 of 24) Phasor Diagram - RCL Circuit]]
+	- [[(25) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (10 of 24) Phasor Diagram - React and Imped]]
+	- [[(26) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (11 of 24) Phasor Diagram - React and Imped]]
+	- [[(27) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (12 of 24) Phasor Diagram - V Across]]
+	- [[(28) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (13 of 24) Phasor Diagram - V Across]]
+	- [[(29) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (14 of 24) Phasor Diagram - Phase Angle]]
+	- [[(30) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (15 of 24) Phasor Diagram - Voltage]]
+	- [[(31) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (16 of 24) Phasor Diagram - Voltage Pha]]
+	- [[(32) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (17 of 24) Phasor Diagram - Summarized]]
+	- [[(33) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (18 of 24) Phasor Diagram - Equations]]
+	- [[(34) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (19 of 24) Power in a RCL Circuit]]
+	- [[(35) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (20 of 24) Inductive Reactance]]
+	- [[(36) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (21 of 24) Capacitive Reactance]]
+	- [[(37) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (22 of 24) Resonant Freq - Reactance]]
+	- [[(38) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (23 of 24) Resonant Freq - Impedance]]
+	- [[(39) Physics - E&M - RCL Circuits, Phasors, & Alternating Currents (24 of 24) Resonant Freq - Curent]]

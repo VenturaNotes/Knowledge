@@ -1,0 +1,52 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUEGlF2w-9TBgL97NAN3LPG
+Length: 3 hours, 6 minutes, 43 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (1 of 27) What is Ohm's Law.]]
+	- [[(2) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (2 of 27) Resistors in Series]]
+	- [[(3) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (3 of 27) Resistors in Parallel-2]]
+	- [[(4) Physics - E&M - Ch 41.3(4 of 27) Resistors in Parallel-3 NOTE ERROR AT END Rt = 30 and 31 ohms (inverse)]]
+	- [[(5) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (5 of 27) What is the 'Voltage Drop'.]]
+	- [[(6) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (6 of 27) Voltage Drop in  and  and  Circuit]]
+	- [[(7) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (7 of 27) I=. in Parallel Branches]]
+	- [[(8) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (8 of 27) I=. in Parallel Branches]]
+	- [[(9) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (9 of 27) I=. in 3 Branches]]
+	- [[(10) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (10 of 27) I=. in  and  and  Branches Ex.]]
+	- [[(11) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (11 of 27) Power of a Resistor]]
+	- [[(12) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (12 of 27) Power of a Series Resistor]]
+	- [[(13) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (13 of 27) Power - Parallel Resistor]]
+	- [[(14) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (14 of 27) P=60W I=. R=. Light Blub]]
+	- [[(15) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (15 of 27) P=60W I=. R=. Light Blub]]
+	- [[(16) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (16 of 27) Find Equivalent Resistance]]
+	- [[(17) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (17 of 42) Equivalent Resistance Ex 1]]
+	- [[(18) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (18 of 42) Equivalent Resistance Ex 2]]
+	- [[(19) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (19 of 42) Equivalent Resistance Ex 3]]
+	- [[(20) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood(20 of 42) What are Kirchhoff's Rules.]]
+	- [[(21) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (21 of 42) Kirchhoff's Rule - Ex. 1]]
+	- [[(22) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (22 of 42) Kirchhoff's Rule - Ex. 2]]
+	- [[(23) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (23 of 42) Kirchhoff's Rule - Ex. 3]]
+	- [[(24) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (24 of 42) Household Circuits Ex. 1]]
+	- [[(25) Physics - E&M - Ch 41.3 Ohm's Law & Resistor Circuit Understood (25 of 42) Household Circuits Ex. 2]]
+	- [[(26) Physics - E&M - Ch 41.1 Ohm's Law & Resistor Circuit Understood (26 of 42) Why dryers require 240V]]
+	- [[(27) Physics - E&M - Ch 41.1 Ohm's Law & Resistor Circuit Understood (27 of 42) Basic Light Switch]]
+	- [[(28) Physics - E&M - Ch 41.1 Ohm's Law & Resistor Circuit Understood (28 of 42) What is a 3-Way Switch.]]
+	- [[(29) Physics - E&M - Ch 41.1 Ohm's Law & Resistor Circuit Understood (29 of 42) How to use 3-Way Switch.]]
+	- [[(30) Physics - E&M - Ch 41.1 Ohm's Law & Resistor Circuit Understood (30 of 42) What is a Kilowatt Hour.]]
+	- [[(31) Physics - E&M - Ch 41.1 Ohm's Law & Resistor Circuit Understood (31 of 42) Kilowatt Hour Equivalent]]
+	- [[(32) Physics - E&M - Ch 41.1 Ohm's Law & Resistor Circuit Understood (32 of 42) What is Cost of kW in U.S.]]
+	- [[(33) Physics - E&M - Ch 41.1 Ohm's Law & Resistor Circuit Understood (33 of 42) Cost of kWh Around World=.]]
+	- [[(34) Physics - E&M - Ch 41.1 Ohm's Law (34 of 42) What is the Cost to Produce 1 kWh.]]
+	- [[(35) Physics - E&M - Ch 41.1 Ohm's Law (35 of 42) What Does it Cost to Produce Heat.]]
+	- [[(36) Physics - E&M - Ch 41.1 Ohm's Law (36 of 42) What are the main Sources of Electricity Production.]]
+	- [[(37) Physics - E&M - Ch 41.1 Ohm's Law (37 of 42) What are the World's Sources for Electricity.]]
+	- [[(38) Physics - E&M - Ch 41.1 Ohm's Law & Resistor Circuit Understood (38 of 42) What is an Amp Hour.]]
+	- [[(39) Physics - E&M - Ch 41.1 Ohm's Law (39 of 42) How much Charge is Stored in a Car Battery.]]
+	- [[(40) Physics - E&M - Ch 41.1 Ohm's Law (40 of 42) What is the Reserve Capacity of a Car Battery.]]
+	- [[(41) Physics - E&M - Ch 41.1 Ohm's Law (41 of 42) What is a Cold Cranking Amp.]]
+	- [[(42) Physics - E&M - Ch 41.1 Ohm's Law & Resistor Circuit Understood (42 of 42) Electric Car Batteries]]

@@ -1,0 +1,39 @@
+[Video](https://youtube.com/watch?v=rEnFanjTd6U)
+
+
+- Standard Units
+	- Length $\to$ m
+		- m: meters
+		- The meter was devised to be 1 ten millionths the distance from the equator to the North Pole. Distance from equator to North Pole is 10 million meters. We no longer use this though. We use a certain number of wave lengths of the emission of a particular atom.
+	- Mass $\to$ kg
+		- kg: kilograms
+		- When going to the grocery store, it'll be sold it in terms of kilograms in most places of the world. 
+			- You are buying in terms of the mass of it
+		- It the US, it's sold in terms of pounds (not slugs)
+			- You are buying the force by which it's being pulled towards the Earth
+	- Time $\to$ s (sec)
+		- s: seconds
+- SI: Système international
+	- This stands for the "International System of Units"
+- British Units
+	- (L) $\to$ ft (0.3048m)
+		- ft: feet
+		- Length
+	- (M) $\to$ slug (14.59kg)
+		- mass
+	- (t) $\to$ s (sec)
+		- Time is also seconds
+- Sometimes we need additional basic measures
+	- Basic unit of charge is the electron
+	- Basic unit in equations is the Coulomb
+- Can do most things in mechanics knowing length, mass and time
+- [[Force]]
+	- Newton = 1N = $\frac {1kgm}{s^2}$
+		- The newton is a force that will give the mass of 1kg an acceleration of 1 $m/s^2$ when that newton is supplied to that mass.
+	- British System
+		- 1 pound = 1lb = 1 $\frac {slugft}{sec^2}$ 
+- Even though a <mark style="background: #FFF3A3A6;">kilogram is mass</mark> and a <mark style="background: #FFF3A3A6;">pound is weight</mark>, for practicality
+	- 1 kg = "2.2lbs" (2.2 pound)
+		- 1kg is mass
+		- 2.2lbs is weight
+	- You can't really equate between mass and weight though.

@@ -1,0 +1,40 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXWaaYllslZF6gSlmIxYXuR4
+Length: 3 hours, 15 minutes, 17 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics - Test Your Knowledge - Energy (1 of 30) Kinetic Energy of B relative to A]]
+	- [[(2) Physics - Test Your Knowledge - Energy (2 of 30) The Circus Act]]
+	- [[(3) Physics - Test Your Knowledge - Energy (3 of 30) Force and Power]]
+	- [[(4) Physics - Test Your Knowledge - Energy (4 of 30) 2 Springs - Find the Equivalent k]]
+	- [[(5) Physics - Test Your Knowledge - Energy (5 of 30) 2 Springs - Find the Equivalent PE - Part 1]]
+	- [[(6) Physics - Test Your Knowledge - Energy (6 of 30) 2 Springs - Find the Equivalent PE - Part 2]]
+	- [[(7) Physics - Test Your Knowledge - Energy (7 of 30) 2 Springs - Find the Distance with Constant Power]]
+	- [[(8) Physics - Test Your Knowledge - Energy (8 of 30) Energy and Spring - Part 1]]
+	- [[(9) Physics - Test Your Knowledge - Energy (9 of 30) Energy and Spring - Part 2]]
+	- [[(10) Physics - Test Your Knowledge - Energy (10 of 30) Work Done by a Force]]
+	- [[(11) Physics - Test Your Knowledge - Energy (11 of 30) The Spring Gun - Part 1]]
+	- [[(12) Physics - Test Your Knowledge - Energy (12 of 30) The Spring Gun - Part 2]]
+	- [[(13) Physics - Test Your Knowledge - Energy (12 of 33) The Spring Gun - Another Method]]
+	- [[(14) Physics - Test Your Knowledge - Energy (14 of 33) Find Coefficient of Friction]]
+	- [[(15) Physics - Test Your Knowledge - Energy (15 of 33) Find Friction Dissapated by Friction]]
+	- [[(16) Physics - Test Your Knowledge - Energy (16 of 33) Pendulum and Energy Problem]]
+	- [[(17) Physics - Test Your Knowledge - Energy (17 of 33) F=. Pushing the Boat]]
+	- [[(18) Physics - Test Your Knowledge - Energy (18 of 33) Final Velocity=. of the Car]]
+	- [[(19) Physics - Test Your Knowledge - Energy (19 of 33) Power Required=.]]
+	- [[(20) Physics - Test Your Knowledge - Energy (20 of 33) Find th Instantaneous=. and Ave. Power=., Part 1]]
+	- [[(21) Physics - Test Your Knowledge - Energy (21 of 33) Find th Instantaneous=. and Ave. Power=., Part 2]]
+	- [[(22) Physics - Test Your Knowledge - Energy (22 of 33) Power=. Using IMPERIAL Units]]
+	- [[(23) Physics - Test Your Knowledge - Energy (23 of 33) Power=. Using METRIC Units]]
+	- [[(24) Physics - Test Your Knowledge - Energy (24 of 33) Will the Block Slide Down.]]
+	- [[(25) Physics - Test Your Knowledge - Energy (25 of 33) Where will the Block Stop.]]
+	- [[(26) Physics - Test Your Knowledge - Energy (26 of 33) Stopping a Train]]
+	- [[(27) Physics - Test Your Knowledge - Energy (27 of 33) Friction Force=.]]
+	- [[(28) Physics - Test Your Knowledge - Energy (28 of 33) What is the Correct Answer.]]
+	- [[(29) Physics - Test Your Knowledge - Energy (29 of 33) Instantaneous Power=.]]
+	- [[(30) Physics - Test Your Knowledge - Energy (30 of 33) Compression=. (Mixed Units)]]

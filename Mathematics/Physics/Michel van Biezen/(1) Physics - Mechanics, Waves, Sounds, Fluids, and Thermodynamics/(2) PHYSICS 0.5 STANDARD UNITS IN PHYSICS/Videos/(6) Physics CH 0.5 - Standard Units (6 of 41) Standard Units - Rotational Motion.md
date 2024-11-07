@@ -1,0 +1,31 @@
+[Video](https://youtube.com/watch?v=FNs_-Z1gHxU)
+
+- ![[Screenshot 2023-07-14 at 3.50.51 PM.png]]
+	- Linear
+		- Distance
+		- Speed(velocity)
+		- Acceleration
+	- Angular(rotational)
+		- Distance
+		- Velocity
+		- Acceleration
+	- [[Moment of Inertia]]
+		- Mass equivalent in rotational motion
+	- [[Angular Momentum]]
+		- Rotational sense
+	- Motion
+		- Linear motion: F = ma
+			- Force
+			- mass
+			- linear acceleration
+		- Rotational motion: $\tau = I \alpha$ 
+			- Torque
+			- moment of inertia
+			- angular acceleration
+	- [[Torque]]
+		- $\tau = F * d$
+			- Force times the perpendicular distance from the line of action of the force to the point of rotation
+		- $\overset \rightarrow \tau = \overset \rightarrow r \times \overset \rightarrow F$ (in terms of vectors, would use the right-hand rule - torque will be perpendicular to the plane in which the force is acting)
+			- Torque is equal to the cross product of the point to where the force is acting times the force
+				- also called the [[moment arm]]
+	- Rotational motion sometimes called angular motion

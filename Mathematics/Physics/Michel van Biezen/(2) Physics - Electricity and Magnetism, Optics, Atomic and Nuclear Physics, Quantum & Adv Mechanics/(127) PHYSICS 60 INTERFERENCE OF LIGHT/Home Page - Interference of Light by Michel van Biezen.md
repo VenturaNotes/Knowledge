@@ -1,0 +1,53 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVFlc3TY0KDcigi_T9vY0pB
+Length: 4 hours, 54 minutes, 34 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics - Interference of Light (1 of 8) Path and Phase Difference - Introduction]]
+	- [[(2) Physics - Interference of Light (2 of 8) Path and Phase Difference]]
+	- [[(3) Physics - Interference of Light (3 of 8) Path and Phase Difference - General Case]]
+	- [[(4) Physics - Interference of Light (4 of 8) Young's Double Slit]]
+	- [[(5) Physics - Interference of Light (5 of 8) The Thin Film]]
+	- [[(6) Physics - Interference of Light (6 of 8) The Thin Film - Oil]]
+	- [[(7) Physics - Interference of Light (7 of 8) The Thin Film]]
+	- [[(8) Physics - Interference of Light (8 of 8) Glass Plates]]
+	- [[(9) Physics - Optics - Double Slit Interference (1 of 25) Path Length Differences 1]]
+	- [[(10) Physics - Optics - Double Slit Interference (2 of 25) Phase Difference and Double Slit]]
+	- [[(11) Physics - Optics - Double Slit Interference (3 of 25) Constructive and Destructive Interference]]
+	- [[(12) Physics - Optics - Double Slit Interference (4 of 25) Calculating the Interference Pattern]]
+	- [[(13) Physics - Optics - Double Slit Interference (5 of 25) Finding the Intensity of Interference Pattern]]
+	- [[(14) Physics - Optics - Double Slit Interference (6 of 25) How to find the Electric Field Strength]]
+	- [[(15) Physics - Optics - Double Slit Interference (7 of 25) Intensity of Double Slit Interference Pattern]]
+	- [[(16) Physics - Optics - Double Slit Interference (8 of 25) Intensity of Double Slit Interference Pattern]]
+	- [[(17) Physics - Optics - Double Slit Interference (9 of 25) Phase Difference Path Length]]
+	- [[(18) Physics - Optics - Double Slit Interference (10 of 25) Phase Difference and Angle]]
+	- [[(19) Physics - Optics - Double Slit Interference (11 of 25) Phase Difference and Electric Field]]
+	- [[(20) Physics - Optics - Double Slit Interference (12 of 25) Find Distance, Intensity to Central Maximum]]
+	- [[(21) Physics - Optics - Double Slit Interference (13 of 25) Find Phase Differemce Between 2 Rays]]
+	- [[(22) Physics - Optics - Double Slit Interference (14 of 25) Find Distance from Central Max to 1st Min]]
+	- [[(23) Physics - Optics - Double Slit Interference (15 of 25) Find Phase Difference and Intensity]]
+	- [[(24) Physics - Optics - Double Slit Interference (16 of 35) Find the Angle from 2 Radar Transmitters]]
+	- [[(25) Physics - Optics - Double Slit Interference (17 of 35) Phase Diff=. Intensity=. of 2 Radio Antennae]]
+	- [[(26) Physics - Optics - Double Slit Interference (18 of 35) Central Max=. of 2 Antennae]]
+	- [[(27) Physics - Optics - Double Slit Interference (19 of 35) 3-Slit Interference Pattern Explained (Part 1)]]
+	- [[(28) Physics - Optics - Double Slit Interference (20 of 35) 3-Slit Interference Pattern Explained (Part 2)]]
+	- [[(29) Physics - Optics - Double Slit Interference (21 of 35) 3-Slit Interference Pattern Example (Part A)]]
+	- [[(30) Physics - Optics - Double Slit Interference (22 of 35) 3-Slit Interference Pattern Example (Part B)]]
+	- [[(31) Physics - Optics - Double Slit Interference (23 of 35) General Solution to 3-Slit Interference]]
+	- [[(32) Physics - Optics - Double Slit Interference (24 of 35) N-Slits The General Approach]]
+	- [[(33) Physics - Optics - Double Slit Interference (25 of 35) N-Slits The General Approach, I=. of 6-Slit]]
+	- [[(34) Physics - Optics - Double Slit Interference (26 of 35) N-Slits The General Appr, Initial Intensity=.]]
+	- [[(35) Physics - Optics - Double Slit Interference (27 of 35) Max Min of 2 Slit Interference]]
+	- [[(36) Physics - Optics - Double Slit Interference (28 of 35) Max Min of 3 Slit Interference]]
+	- [[(37) Physics - Optics - Double Slit Interference (29 of 35) Max Min of 4 Slit Interference]]
+	- [[(38) Physics - Optics - Double Slit Interference (30 of 35) Intensity General Equation]]
+	- [[(39) Physics - Optics - Double Slit Interference (31 of 35) Intensity=. of 3-Slit Interference]]
+	- [[(40) Physics - Optics - Double Slit Interference (32 of 35) Angular Width=. of the Central Max]]
+	- [[(41) Physics - Optics - Double Slit Interference (33 of 35) Position of the 1st Min of 4-Slit]]
+	- [[(42) Physics - Optics - Double Slit Interference (34 of 35) 'Look-Up' Angle to 2nd Subsidiary Max]]
+	- [[(43) Physics - Optics - Double Slit Interference (35 of 35) Phase Angle of 6-Slit Interference]]

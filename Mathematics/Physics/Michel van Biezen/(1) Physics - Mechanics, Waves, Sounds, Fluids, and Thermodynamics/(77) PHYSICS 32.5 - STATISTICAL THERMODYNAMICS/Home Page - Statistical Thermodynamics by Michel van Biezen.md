@@ -1,0 +1,49 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUeVHmfT2BkhcEibTeReWKg
+Length: 3 hours, 52 minutes, 4 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics 32.5 Statistical Thermodynamics (1 of 39) Basic Term and Concepts]]
+	- [[(2) Physics 32.5 Statistical Thermodynamics (2 of 39) Purpose and Objective Statistical Thermodynamics]]
+	- [[(3) Physics 32.5 Statistical Thermodynamics (3 of 39) Understanding Statistical Thermodynamics 1]]
+	- [[(4) Physics 32.5 Statistical Thermodynamics (4 of 39) Understanding Statistical Thermodynamics 2]]
+	- [[(5) Physics 32.5 Statistical Thermodynamics (5 of 39) The Average Occupation Number]]
+	- [[(6) Physics 32.5 Statistical Thermodynamics (6 of 39) Calculate the Number of Microstates]]
+	- [[(7) Physics 32.5 Statistical Thermodynamics (7 of 39) Stirling's Approximation Explained]]
+	- [[(8) Physics 32.5 Statistical Thermodynamics (8 of 39) Stirling's Approximation - Summery]]
+	- [[(9) Physics 32.5 Statistical Thermodynamics (9 of 39) Number of Microstates Analyzed N=10]]
+	- [[(10) Physics 32.5 Statistical Thermodynamics (10 of 39) Number of Microstates Analyzed N=50]]
+	- [[(11) Physics 32.5 Statistical Thermodynamics (11 of 39) Number of Microstates Analyzed N=100]]
+	- [[(12) Physics 32.5 Statistical Thermodynamics (12 of 39) Number of Microstates Analyzed N=1000]]
+	- [[(13) Physics 32.5 Statistical Thermodynamics (13 of 39) Number of Microstates in a Multi-State System]]
+	- [[(14) Physics 32.5 Statistical Thermodynamics (14 of 39) Number of Microstates in a Multi-Energy State Sys]]
+	- [[(15) Physics 32.5 Statistical Thermodynamics (15 of 39) Definition of Entropy of a Microstate]]
+	- [[(16) Physics 32.5 Statistical Thermodynamics (16 of 39) Definition of Entropy of a Microstate - Example]]
+	- [[(17) Physics 32.5 Statistical Thermodynamics (17 of 39) Microstates & Probability of a 100-Coin Toss]]
+	- [[(18) Physics 32.5 Statistical Thermodynamics (18 of 39) 6 Molecules in a Box (Divided in Half) & Entropy]]
+	- [[(19) Physics 32.5 Statistical Thermodynamics (19 of 39) 6 Molecules in a Box - Microstates in Detail]]
+	- [[(20) Physics 32.5 Statistical Thermodynamics (20 of 39) 6 Molecules in a Box - Divided in 3 Equal Sections]]
+	- [[(21) Physics 32.5 Statistical Thermodynamics (21 of 39) 6 Molecules in a Box - Divided in 3 Equal Sections]]
+	- [[(22) Physics 32.5 Statistical Thermodynamics (22 of 39) 6 Molecules in a Box - Divided in 3 Equal Sections]]
+	- [[(23) Physics 32.5 Statistical Thermodynamics (23 of 39) 6 Molecules in a Box - Divided in 6 Equal Sections]]
+	- [[(24) Physics 32.5 Statistical Thermodynamics (24 of 39) N Molecules in a Box - Divided in N Equal Sections]]
+	- [[(25) Physics 32.5 Statistical Thermodynamics (25 of 39) What is Sterling's Approximation. S = k ln n!]]
+	- [[(26) Physics 32.5 Statistical Thermodynamics (26 of 39) What is Entropy of 1 mol of Gas Distributed.]]
+	- [[(27) Physics 32.5 Statistical Thermodynamics (27 of 39) Entropy Change for Moving N Molecules]]
+	- [[(28) Physics 32.5 Statistical Thermodynamics (28 of 39) Improbability vs Impossibility]]
+	- [[(29) Physics 32.5 Statistical Thermodynamics (29 of 39) Probability Compared to Macrostates & Microstates]]
+	- [[(30) Physics 32.5 Statistical Thermodynamics(30 of 39) 6 Distinguishable Molecules in a Box with 2 Halves]]
+	- [[(31) Physics 32.5 Statistical Thermodynamics (31 of 39) General Counting Method for w]]
+	- [[(32) Physics 32.5 Statistical Thermodynamics (32 of 39) Energy Level Example 1]]
+	- [[(33) Physics 32.5 Statistical Thermodynamics (33 of 39) Energy Level Example 2]]
+	- [[(34) Physics 32.5 Statistical Thermodynamics (34 of 39) Energy Level Example 3]]
+	- [[(35) Physics 32.5 Statistical Thermodynamics (35 of 39) What is a Degenerate Quantum State.]]
+	- [[(36) Physics 32.5 Statistical Thermodynamics (36 of 39) The One-Dimensional Potential Well]]
+	- [[(37) Physics 32.5 Statistical Thermodynamics (37 of 39) The Three-Dimensional Potential Well]]
+	- [[(38) Physics 32.5  Statistical Thermodynamics (38 of 39) Find the Quantum Number of Volume L 3 of He Ex1]]
+	- [[(39) Physics 32.5 Statistical Thermodynamics (39 of 39) Find the Quantum Number of Volume L 3 of He Met 2]]

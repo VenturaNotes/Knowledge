@@ -1,0 +1,54 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUN1kcDgfOx3vAv5zyqQOwp
+Length: 5 hours, 7 minutes, 10 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics - Mechanics - Ch 15 Torque Fundamentals (1 of 13) What is Torque.]]
+	- [[(2) Physics - Mechanics - Ch 15 Torque Fundamentals (2 of 13) Direction of Torque (Part 1)]]
+	- [[(3) Physics - Mechanics - Ch 15 Torque Fundamentals (3 of 13) Direction of Torque (Part 2)]]
+	- [[(4) Physics - Mechanics - Ch 15 Torque Fundamentals (4 of 13) How to Calculate a Torque (Method 1)]]
+	- [[(5) Physics - Mechanics - Ch 15 Torque Fundamentals (5 of 13) How to Calculate a Torque (Method 2)]]
+	- [[(6) Physics - Mechanics - Ch 15 Torque Fundamentals (6 of 13) How to Calculate a Torque (Method 3)]]
+	- [[(7) Physics - Mechanics - Ch 15 Torque Fundamentals (7 of 13) How to Calculate a Torque (Basic Example 1)]]
+	- [[(8) Physics - Mechanics - Ch 15 Torque Fundamentals (8 of 13) How to Calculate a Torque (Basic Example 2)]]
+	- [[(9) Physics - Mechanics - Ch 15 Torque Fundamentals (9 of 13) How to Calculate a Torque (Basic Example 3)]]
+	- [[(10) Physics - Mechanics - Ch 15 Torque Fundamentals (10 of 13) How to Calculate the Net Torque. Ex. 1]]
+	- [[(11) Physics - Mechanics - Ch 15 Torque Fundamentals (11 of 13) How to Calculate the Net Torque. Ex. 2]]
+	- [[(12) Physics - Mechanics - Ch 15 Torque Fundamentals (12 of 13) The Torque Wrench]]
+	- [[(13) Physics - Mechanics - Ch 15 Torque Fundamentals (13 of 13) Torque and Angular Acceleration]]
+	- [[(14) Physics - Mechanics - Torque (1 of 7)  Mass on Rod and Cable]]
+	- [[(15) Physics - Mechanics - Torque (2 of 7)  Mass on Rod and Cable]]
+	- [[(16) Physics - Mechanics - Torque (3 of 7) Mass on Rod and Cable]]
+	- [[(17) Physics - Mechanics - Torque (4 of 7) The Diving Board]]
+	- [[(18) Physics - Mechanics - Torque (5 of 7) The Bicep]]
+	- [[(19) Physics - Mechanics -Torque (6 of 7) The Hungry Bear on a Beam; Tension in the Cable]]
+	- [[(20) Physics - Mechanics - Torque (7 of 7) The Ladder Problem (should be cos(15) at end)]]
+	- [[(21) Physics - Mechanics - Ch 15 Torque (1 of 27) Boom and Guy Wire]]
+	- [[(22) Physics - Mechanics - Ch 15 Torque (2 of 27) Find the Angle (No Torque)]]
+	- [[(23) Physics - Mechanics - Ch 15 Torque (3 of 27) Tension=. in the Cable]]
+	- [[(24) Physics - Mechanics - Ch 15 Torque (4 of 27) Bar Held Up by Friction]]
+	- [[(25) Physics - Mechanics - Ch 15 Torque (5 of 27) Tension=. Supporting a Gate]]
+	- [[(26) Physics - Mechanics - Ch 15 Torque (6 of 27) What is a Couple.]]
+	- [[(27) Physics - Mechanics - Ch 15 Torque (7 of 27) Couple - Alternative Method 1]]
+	- [[(28) Physics - Mechanics - Ch 15 Torque (9 of 27) Alternative Method 1 & 2 - Example Torque=.]]
+	- [[(29) Physics - Mechanics - Ch 15 Torque (10 of 27) When Will A Car Tip Over.]]
+	- [[(30) Physics - Mechanics - Ch 15 Torque (11 of 27) Example 1 - Forces=.]]
+	- [[(31) Physics - Mechanics - Ch 15 Torque (12 of 27) Example 2 - Forces=. Tension=.]]
+	- [[(32) Physics - Mechanics - Ch 15 Torque (13 of 27) Body Mechanics - Ex. 1, F=. To Lift Up Arm]]
+	- [[(33) Physics - Mechanics - Ch 15 Torque (14 of 27) Body Mechanics - Ex. 2, F= To Lift Dumbbell]]
+	- [[(34) Physics - Mechanics - Ch 15 Torque (15 of 27) Body Mechanics - Ex. 3, F=. on Achilles Tendon]]
+	- [[(35) Physics - Mechanics - Ch 15 Torque (16 of 25) Body Mechanics - Ex. 4, F=. Jaw Muscle]]
+	- [[(36) Physics - Mechanics - Ch 15 Torque (17 of 25) Body Mechanics - Ex. 5, F= Leg Lifting Weights]]
+	- [[(37) Physics - Mechanics - Ch 15 Torque (18 of 25) Body Mechanics - Ex. 6, F=. on Back Muscle]]
+	- [[(38) Physics - Mechanics - Ch 15 Torque (19 of 25) More Examples - 1 T=. of Cable Holding Fish]]
+	- [[(39) Physics - Mechanics - Ch 15 Torque (20 of 25) More Examples - 2 F=. of Screw on Bracket]]
+	- [[(40) Physics - Mechanics - Ch 15 Torque (21 of 25) More Examples - 3 T=. of Cable of Step Ladder]]
+	- [[(41) Physics - Mechanics - Ch 15 Torque (22 of 25) More Examples - 4 V(max)=. Before Car Tips]]
+	- [[(42) Physics - Mechanics - Ch 15 Torque (23 of 25) More Examples - 5 F(A)=. F(B)=. of Simple Truss]]
+	- [[(43) Physics - Mechanics - Ch 15 Torque (24 of 25) More Examples - 6 Forces=. on Crane]]
+	- [[(44) Physics - Mechanics - Ch 15 Torque (25 of 25) More Examples - 7 Angle=. of Balanced Rod]]

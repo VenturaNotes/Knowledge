@@ -1,0 +1,28 @@
+[Video](https://youtube.com/watch?v=x_JVf4B7XKM)
+
+- ![[Screenshot 2023-08-20 at 10.08.37 PM.png]]
+	- [[Young's Modulus]]
+		- $Y = \frac {\text{stress}}{\text{strain}} = \frac{\frac FA}{\frac{\Delta L}{L}}$
+			- Numerator is force divided by area
+				- Newtons divided by cross-sectional area of object which is $m^2$ 
+					- 
+			- [[Stress]]
+				- Units of pressure are also the units of stress
+					- Force divided by area can be considered [[pressure]] or stress when talking about Modulus
+					- $\frac {kg}{sec^2m}$ are the units of pressure
+			- [[Strain]]
+				- Units nonexistent (cancels out)
+		- Typically for a linear object
+	- [[Bulk Modulus]]
+		- $B = \frac {\text{stress}}{\text{strain}} = \frac{\frac FA}{\frac{\Delta V}{V}}$
+			- For Volume
+			- Stress
+			- Strain
+				- Units nonexistent (cancels out)
+	- [[Shear Modulus]]
+		- $Y = \frac {\text{stress}}{\text{strain}} = \frac{\frac FA}{\frac{x}{h}}$
+			- Stress
+			- Strain
+				- Also non-units because X is linear and h is linear
+		- When trying to shear something out the way or push something on the side
+	- These are used to establish the amount of strain an object will go through. Deformation strain and deformation can be used synonymous. When you apply a certain amount of force

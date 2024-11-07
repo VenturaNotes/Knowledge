@@ -1,0 +1,42 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXzgOs4KITgRrBxUluUzCrR
+Length: 3 hours, 41 minutes, 31 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics - Diffraction of Light (1 of 4) The Thin Slit]]
+	- [[(2) Physics - Diffraction of Light (2 of 4) The Diffraction Grating]]
+	- [[(3) Physics - Diffraction of Light (3 of 4) The Diffraction Grating]]
+	- [[(4) Physics - Diffraction of Light (4 of 4) Circular Diffraction Patterns]]
+	- [[(5) Physics - Optics - Single Slit Diffraction (1 of 15) Basics]]
+	- [[(6) Physics - Optics - Single Slit Diffraction (2 of 15) Basics 2 - What Causes Diffraction.]]
+	- [[(7) Physics - Optics - Single Slit Diffraction (3 of 15) Location of 1st Minimum=.]]
+	- [[(8) Physics - Optics - Single Slit Diffraction (4 of 15) Location of 1st Maximum=.]]
+	- [[(9) Physics - Optics - Single Slit Diffraction (5 of 15) Locations of 2nd & 3rd Max & Min = .]]
+	- [[(10) Physics - Optics - Single Slit Diffraction (6 of 15) What Causes Intensity Diffraction Patterns.]]
+	- [[(11) Physics - Optics - Single Slit Diffraction (7 of 15) Electric Field Amplitude = .]]
+	- [[(12) Physics - Optics - Single Slit Diffraction (8 of 15) Intensity=. General Case]]
+	- [[(13) Physics - Optics - Single Slit Diffraction (9 of 15) Angular Size of the Central Maximum]]
+	- [[(14) Physics - Optics - Single Slit Diffraction (10 of 15) Angular Size as a Function of Slit Width]]
+	- [[(15) Physics - Optics - Single Slit Diffraction (11 of 15) Angular Size of Central Maximum]]
+	- [[(16) Physics - Optics - Single Slit Diffraction (12 of 15) Intensity=. Caused by Interference & Diffract]]
+	- [[(17) Physics - Optics - Single Slit Diffraction (13 of 15) Location of Intensity = .]]
+	- [[(18) Physics - Optics - Single Slit Diffraction (14 of 15) Location of Intensities = .]]
+	- [[(19) Physics - Optics - Single Slit Diffraction (15 of 15) Location of Intensities = . Anywhere]]
+	- [[(20) Physics - Optics - Diffraction Grating (1 of 7) Basics]]
+	- [[(21) Physics - Optics - Diffraction Grating (2 of 7) Distances=. Between Slits]]
+	- [[(22) Physics - Optics - Diffraction Grating (3 of 7) Distances=. to 1st & 2nd Maxima]]
+	- [[(23) Physics - Optics - Diffraction Grating (4 of 7) Orders of the Diffraction Grating]]
+	- [[(24) Physics - Optics - Diffraction Grating (5 of 7) Velocity=. of Redshifted Galaxy]]
+	- [[(25) Physics - Optics - Diffraction Grating (6 of 7) Resolving Power=. of Diffraction Grating]]
+	- [[(26) Physics - Optics - Diffraction Grating (7 of 7) Rayleigh's Criteria for Resolution]]
+	- [[(27) Physics - Optics - Circular Aperture - Angle of Resolution (1 of 6) Introduction]]
+	- [[(28) Physics - Optics - Circular Aperture - Angle of Resolution (2 of 6) The Equation]]
+	- [[(29) Physics - Optics - Circular Aperture - Angle of Resolution (3 of 6) Resolution Power of the Human Eye]]
+	- [[(30) Physics - Optics - Circular Aperture - Angle of Resolution (4 of 6) Can We See Hair on the Floor.]]
+	- [[(31) Physics - Optics - Circular Aperture - Angle of Resolution (5 of 6) Resolution of the Hubble]]
+	- [[(32) Physics - Optics - Circular Aperture - Angle of Resolution (6 of 6) Rayleigh's Criterion]]

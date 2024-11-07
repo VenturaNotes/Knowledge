@@ -1,0 +1,26 @@
+[Video](https://youtube.com/watch?v=8Dvr5ugKLy8)
+
+- ![[Screenshot 2023-07-10 at 1.08.24 AM.png]]
+	- [[MKS]]
+	- [[Imperial]]
+		- 1 thou (aka mil) = $\frac {1}{1000} \text{inch}$ 
+		- 1 in inch = 1000 mil
+		- 1 ft foot = 12 in
+		- 1 yd yard = 3 ft
+		- 1 ch chain = 22 yards
+		- 1 fur furlong = 10 ch
+		- 1 mi mile = 8 fur
+		- 1 lea league = 3 mi
+	- [[Maritime]]
+		- 1 ftm fathom = 6.08ft
+		- Cable = 100 ftm = 608ft
+		- 1 nautical mile = 10 cables = 6080 ft
+		- Since 1970
+			- 1 international nautical mile
+				- 1852m
+		- Mark the Twain
+			- The second line in fathoms
+				- Twain meaning the second line
+				- Means it was 2 fathoms deep which was safe for river travel
+			- Samuel Clemens
+				- Took on the name Mark Twain from his experience being on river boats in the Mississippi river

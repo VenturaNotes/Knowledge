@@ -1,0 +1,51 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXU1ugX7pxvD6rXYpm6lmQUf
+Length: 4 hours, 38 minutes, 19 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics - Mechanics - Finding the Center of Mass (1 of 4) Four Objects]]
+	- [[(2) Physics - Mechanics - Finding the Center of Mass (2 of 4) Earth-Moon System]]
+	- [[(3) Physics - Mechanics - Finding the Center of Mass (3 of 4) Odd-Shaped Object]]
+	- [[(4) Physics - Mechanics - Finding the Center of Mass (4 of 4) Triangle]]
+	- [[(5) Mechanical Engineering - Centroids & Center of Gravity (1 of 35) What is Center of Gravity.]]
+	- [[(6) Mechanical Engineering - Centroids & Center of Gravity (2 of 35) Center of Gravity of a Wire]]
+	- [[(7) Mechanical Engineering - Centroids & Center of Gravity (3 of 35) Centroids]]
+	- [[(8) Mechanical Engineering - Centroids & Center of Gravity (4 of 35) 1st Moments of Areas and Lines]]
+	- [[(9) Mechanical Engineering - Centroids & Center of Gravity (5 of 35) Center of Gravity of a 1 and 4 Circle]]
+	- [[(10) Mechanical Engineering - Centroids & Center of Gravity (6 of 35) Center of Gravity of a Semi Circle]]
+	- [[(11) Mechanical Engineering - Centroids & Center of Gravity (7 of 35) Center of Gravity of a Triangle]]
+	- [[(12) Mechanical Engineering - Centroids & Center of Gravity (8 of 35) Center of Gravity of a Semi Ellipse]]
+	- [[(13) Mechanical Engineering - Centroids & Center of Gravity (9 of 35) C. G. of a Parabolic Area]]
+	- [[(14) Mechanical Engineering - Centroids & Center of Gravity (10 of 35) C. G. of a Parabolic Spandrel]]
+	- [[(15) Mechanical Engineering - Centroids & Center of Gravity (11 of 35) C. G. of a General Spandrel 1]]
+	- [[(16) Mechanical Engineering - Centroids & Center of Gravity (12 of 35) C. G. of a General Spandrel 2]]
+	- [[(17) Mechanical Engineering - Centroids & Center of Gravity (13 of 35) C. G. of a Circular Sector]]
+	- [[(18) Mechanical Engineering - Centroids & Center of Gravity (14 of 35) C. G. of a Semi-Circular Wire]]
+	- [[(19) Mechanical Engineering - Centroids & Center of Gravity (15 of 35) C. G. of an Arc of a Circular Wire]]
+	- [[(20) Mechanical Engineering - Centroids & Center of Gravity (16 of 35) C. G. of a Composite Plate 1]]
+	- [[(21) Mechanical Engineering - Centroids & Center of Gravity (17 of 25) C. G. of a Composite Plate 2]]
+	- [[(22) Mechanical Engineering - Centroids & Center of Gravity (18 of 25) C. G. of a Composite Plate 3]]
+	- [[(23) Mechanical Engineering - Centroids & Center of Gravity (19 of 25) C. G. of a Composite Plate 4]]
+	- [[(24) Mechanical Engineering - Centroids & Center of Gravity (20 of 25) C. G. of a Composite Wire]]
+	- [[(25) Mechanical Engineering - Centroids & Center of Gravity (21 of 25) Reactionary Force F=.]]
+	- [[(26) Mechanical Engineering - Centroids & Center of Gravity (22 of 25) 1st Moment of Composite Plate 1]]
+	- [[(27) Mechanical Engineering - Centroids & Center of Gravity (23 of 25) 1st Moment of Composite Plate 2]]
+	- [[(28) Playlist Organizer]]
+	- [[(29) Mechanical Engineering - Centroids in 3-D (1 of 19) Semi-Sphere]]
+	- [[(30) Mechanical Engineering - Centroids in 3-D (2 of 19) Circular Cone]]
+	- [[(31) Mechanical Engineering - Centroids in 3-D (3 of 19) Square Pyramid]]
+	- [[(32) Mechanical Engineering - Centroids in 3-D (4 of 19) Paraboloid]]
+	- [[(33) Mechanical Engineering - Centroids in 3-D (5 of 19) Semi-Ellipsoid]]
+	- [[(34) Mechanical Engineering - Centroids in 3-D (6 of 19) Half-Right Circular Cone (X-Coordinate)]]
+	- [[(35) Mechanical Engineering - Centroids in 3-D (7 of 19) Half-Right Circular Cone (Y-Coordinate)]]
+	- [[(36) Mechanical Engineering - Centroids in 3-D (8 of 19) Solve Using Multiple Components - Ex. 1]]
+	- [[(37) Mechanical Engineering - Centroids in 3-D (9 of 19) Solve Using Multiple Components - Ex. 2]]
+	- [[(38) Mechanical Engineering - Centroids in 3-D (10 of 19) Solve Using Multiple Components - Ex. 3]]
+	- [[(39) Mechanical Engineering - Centroids in 3-D (11 of 19) Solve Using Multiple Components - Ex. 4]]
+	- [[(40) Mechanical Engineering - Centroids in 3-D (12 of 19) Solve Using Multiple Components - Ex. 5]]
+	- [[(41) Mechanical Engineering - Centroids in 3-D (13 of 19) Solve Using Multiple Components - Ex. 6]]

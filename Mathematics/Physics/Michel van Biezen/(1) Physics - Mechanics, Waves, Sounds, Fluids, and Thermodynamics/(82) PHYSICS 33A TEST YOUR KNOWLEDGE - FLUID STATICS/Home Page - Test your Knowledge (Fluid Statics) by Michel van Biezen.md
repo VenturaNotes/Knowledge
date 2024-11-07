@@ -1,0 +1,50 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXoOtUWgVW9M83s-7pgbCQK
+Length: 4 hours, 17 minutes, 56 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics - Ch 33A Test Your Knowledge - Fluid Statics (1 of 43) Pressure with Acceleration]]
+	- [[(2) Physics - Ch 33A Test Your Knowledge - Fluid Statics (2 of 43) Buoyance Force & Pressure]]
+	- [[(3) Physics - Ch 33A Test Your Knowledge - Fluid Statics (3 of 43) Pressure & Horizontal Acceleration]]
+	- [[(4) Physics - Ch 33A Test Your Knowledge - Fluid Statics (4 of 43) Buoyance Force & Horizo. Acceleration]]
+	- [[(5) Physics - Ch 33A Test Your Knowledge - Fluid Statics (5 of 43) Open Tank & Horizontal Acceleration]]
+	- [[(6) Physics - Ch 33A Test Your Knowledge - Fluid Statics (6 of 43) Pressure in a rotating Tube]]
+	- [[(7) Physics - Ch 33A Test Your Knowledge - Fluid Statics (7 of 43) Which Way Will the Ball Move.]]
+	- [[(8) Physics - Ch 33A Test Your Knowledge - Fluid Statics (8 of 43) Open Rotatiing Tank]]
+	- [[(9) Physics - Ch 33A Test Your Knowledge - Fluid Statics (8B of 43) BF=. in rotating Tube]]
+	- [[(10) Physics - Ch 33A Test Your Knowledge - Fluid Statics (9 of 43) Period=. of Oscillation - Method 1]]
+	- [[(11) Physics - Ch 33A Test Your Knowledge - Fluid Statics (10 of 36) Perion=. of Oscillation - Method 2---]]
+	- [[(12) Physics - Ch 33A Test Your Knowledge - Fluid Statics (11 of 36) Gauge Pressure=. Variable Density]]
+	- [[(13) Physics - Ch 33A Test Your Knowledge - Fluid Statics (12 of 36) Torque=. on Triangular Dam]]
+	- [[(14) Physics - Ch 33A Test Your Knowledge - Fluid Statics (13 of 36) Air Pressure as Function of Elevation]]
+	- [[(15) Physics - Ch 33A Test Your Knowledge - Fluid Statics (14 of 36) Air Pressure as Fct. of Elevation - Ex]]
+	- [[(16) Physics - Ch 33A Test Your Knowledge - Fluid Statics (15 of 36) Ping Pong Ball in Rotating Jar]]
+	- [[(17) Physics - Ch 33A Test Your Knowledge - Fluid Statics (16 of 36) Block in Oil and Water]]
+	- [[(18) Physics - Ch 33A Test Your Knowledge - Fluid Statics (17 of 36) Barge in a Dock]]
+	- [[(19) Physics - Ch 33A Test Your Knowledge - Fluid Statics (18 of 36) Floating Hollow Sphere]]
+	- [[(20) Physics - Ch 33A Test Your Knowledge - Fluid Statics (19 of 36) Floating Block]]
+	- [[(21) Physics - Ch 33A Test Your Knowledge - Fluid Statics (20 of 36) Floating Cork - VERY INTERESTING]]
+	- [[(22) Physics - Ch 33A Test Your Knowledge - Fluid Statics (21 of 36) The Floating Buoy - Part 1]]
+	- [[(23) Physics - Ch 33A Test Your Knowledge - Fluid Statics (22 of 36) The Floating Buoy - Part 2]]
+	- [[(24) Physics - Ch 33A Test Your Knowledge - Fluid Statics (23 of 36) 2 Balances & Buoyance Force - P 1]]
+	- [[(25) Physics - Ch 33A Test Your Knowledge - Fluid Statics (24 of 36)  2 Balances & Buoyance Force - P 2]]
+	- [[(26) Physics - Ch 33A Test Your Knowledge - Fluid Statics (26 of 36) Understanding Buoyance - Part 2]]
+	- [[(27) Physics - Ch 33A Test Your Knowledge - Fluid Statics (27 of 36) CHALLENGING Floating Beam - Part 1]]
+	- [[(28) Physics - Ch 33A Test Your Knowledge - Fluid Statics (28 of 36) Floating Beam - Part 2]]
+	- [[(29) Physics - Ch 33A Test Your Knowledge - Fluid Statics (29 of 42) Torque on a Gate EX 1]]
+	- [[(30) Physics - Ch 33A Test Your Knowledge - Fluid Statics (31 of 42) Capillary Action Between Plates]]
+	- [[(31) Physics - Ch 33A Test Your Knowledge - Fluid Statics (33 of 42) Find h=. in the Outside Tube]]
+	- [[(32) Physics - Ch 33A Test Your Knowledge - Fluid Statics (34 of 42) Capillary Action - Find the Ratio=.]]
+	- [[(33) Physics - Ch 33A Test Your Knowledge - Fluid Statics (35 of 42) Capillary Action - Mercury]]
+	- [[(34) Physics - Ch 33A Test Your Knowledge - Fluid Statics (36 of 42) Capillary Action - Soap Bubble]]
+	- [[(35) Physics - Ch 33A Test Your Knowledge - Fluid Statics (37 of 42) Capillary Action - Measuring]]
+	- [[(36) Physics - Ch 33A Test Your Knowledge - Fluid Statics (38 of 42) How Much Gold in the Alloy]]
+	- [[(37) Physics - Ch 33A Test Your Knowledge - Fluid Statics (39 of 42) How Much Lead is Needed.]]
+	- [[(38) Physics - Ch 33A Test Your Knowledge - Fluid Statics (40 of 42) Torque on a Dam]]
+	- [[(39) Physics - Ch 33A Test Your Knowledge - Fluid Statics (41 of 42) Pressure in a Centrifuge]]
+	- [[(40) Physics - Ch 33A Test Your Knowledge - Fluid Statics (42 of 42) Pressure in a Centrifuge - Ex.]]

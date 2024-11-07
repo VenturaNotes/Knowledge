@@ -1,0 +1,45 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXVHnqlawAPDHuo3lg9lT6JI
+Length: 3 hours, 32 minutes, 58 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics -Fluid Dynamics (1 of 2) Fluid Flow]]
+	- [[(2) Physics -Fluid Dynamics (2 of 2) Fluid Flow]]
+	- [[(3) Physics Fluid Flow (1 of 7) Bernoulli's Equation]]
+	- [[(4) Physics - Fluid Dynamics - Fluid Flow (1.5 of 7) Bernoulli's Equation - Unknown Velocity]]
+	- [[(5) Physics - Fluid Dynamics - Bernoulli's & Flow in Pipes (10 of 38) Understanding Bernoulli's Equation]]
+	- [[(6) Physics - Fluid Dynamics - Fluid Flow (1.6 of 7) Bernoulli's Equation Derived]]
+	- [[(7) Physics Fluid Flow (2 of 7) Bernoulli's Equation]]
+	- [[(8) Physics Fluid Flow (3 of 7) Bernoulli's Equation]]
+	- [[(9) Physics Fluid Flow (4 of 7) Bernoulli's Equation]]
+	- [[(10) Physics Fluid Flow (5 of 7) Bernoulli's Equation]]
+	- [[(11) Physics Fluid Flow (6 of 7) Bernoulli's Equation]]
+	- [[(12) Physics Fluid Flow (7 of 7) Bernoulli's Equation]]
+	- [[(13) Physics - Fluid Dynamics (1 of 25) Viscosity & Fluid Flow - Introduction]]
+	- [[(14) Physics - Fluid Dynamics (2 of 25) Viscosity & Fluid Flow - Stokes' Law]]
+	- [[(15) Physics - Fluid Dynamics (3 of 25) Viscosity & Fluid Flow - Reynolds Number (Re)]]
+	- [[(16) Physics - Fluid Dynamics (4 of 25) Viscosity & Fluid Flow - Viscosity (Dynamic vs Kinematic)]]
+	- [[(17) Physics - Fluid Dynamics (5 of 25) Viscosity & Fluid Flow - Viscosity of Water]]
+	- [[(18) Physics - Fluid Dynamics (6 of 25) Viscosity & Fluid Flow - Viscosity of Liquids]]
+	- [[(19) Physics - Fluid Dynamics (7 of 25) Viscosity & Fluid Flow - Viscosity of Gases]]
+	- [[(20) Physics - Fluid Dynamics (8 of 25) Viscosity & Fluid Flow - How is Viscosity Measured.]]
+	- [[(21) Physics - Fluid Dynamics (9 of 25) Viscosity & Fluid Flow - Calculate the Viscosity - Ex 1]]
+	- [[(22) Physics - Fluid Dynamics (10 of 25) Viscosity & Fluid Flow - Different Types of Flow]]
+	- [[(23) Physics - Fluid Dynamics (11 of 25) Viscosity & Fluid Flow - Object Falling in a Fluid - Example]]
+	- [[(24) Physics - Fluid Dynamics (12 of 25) Viscosity & Fluid Flow - Terminal Velocity of an Air Bubble]]
+	- [[(25) Physics - Fluid Dynamics (13 of 25) Viscosity & Fluid Flow - Laminar Flow Between Plates]]
+	- [[(26) Physics - Fluid Dynamics (14 of 25) Viscosity & Fluid Flow - Laminar Flow Between Plates 2]]
+	- [[(27) Physics - Fluid Dynamics (15 of 25) Viscosity & Fluid Flow - Laminar Flow Between Plates Ex.]]
+	- [[(28) Physics - Fluid Dynamics (16 of 25) Derivation of Poisseuille's Law]]
+	- [[(29) Physics - Fluid Dynamics (17 of 25) Poisseuille's Law and the Discharge Rate]]
+	- [[(30) Physics - Fluid Dynamics (19 of 32) The Drag Coefficient]]
+	- [[(31) Physics - Fluid Dynamics (20 of 32) Force Due to Drag Coefficient]]
+	- [[(32) Physics - Fluid Dynamics (21 of 32) Buoyancy, Viscosity, and Drag Forces Compared - Trial 1]]
+	- [[(33) Physics - Fluid Dynamics (22 of 32) Buoyancy, Viscosity, and Drag Forces Compared - Trial 2]]
+	- [[(34) Physics - Fluid Dynamics (23 of 32) Buoyancy, Viscosity, and Drag Forces Compared - Trial 3]]
+	- [[(35) Physics - Fluid Dynamics (24 of 32) Force Due to Drag Coefficient and Terminal Velocity]]

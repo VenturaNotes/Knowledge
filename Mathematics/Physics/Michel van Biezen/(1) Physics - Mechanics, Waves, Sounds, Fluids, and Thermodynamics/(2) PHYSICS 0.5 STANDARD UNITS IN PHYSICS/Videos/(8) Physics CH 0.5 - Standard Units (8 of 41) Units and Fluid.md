@@ -1,0 +1,27 @@
+[Video](https://youtube.com/watch?v=YB0PJ-bpZSc)
+
+- ![[Screenshot 2023-08-20 at 10.23.50 PM.png]]
+	- $P = \frac FA = [\frac{N}{m^2}] = [\frac{kgm}{sec^2m^2}]=[\frac{kg}{sec^2m}]$
+		- Pressure is force divided by area
+	- [[Pressure]] in a [[fluid]]
+		- $P = \rho gh$
+			- This is an equation that determines the pressure inside a fluid at the depth "H" below the surface
+			- `Pressure = rho gh
+				- $\rho$ (rho) is the density of the fluid
+					- kilograms, mass per unit volume
+				- g is acceleration due to gravity
+				- h is the depth of the fluid
+	- [[Bernoulli's Equation]]
+		- $P_1 + pgh_1 + \frac {1}{2}pv_1^2 = P_2 + pgh_2 + \frac {1}{2}pv_2^2$
+			- Each term in the equation has units of pressure
+			- $\frac 12 \rho v^2$ = $[\frac{kg}{msec^2}]$
+	- [[Fluid Flow]]
+		- $\frac {dv}{dt} = Av$
+			- Amount of volume per unit time that passes by a given point in a pipe for example is equal to the cross-sectional area of the pipe times the velocity of the fluid
+		- $\frac {Dv}{dt} = [\frac {m^3}{sec}]$
+			- Units for fluid flow is cubic meters per second (amount of fluid that will flow by a given point)
+			- Shows cubic meters per time
+		- $Av$ = $[\frac{m^3}{sec}]$
+			- A is the cross-sectional area of the pipe
+			- v is the velocity of the fluid flowing through the pipe
+			- Shows cubic meters per time

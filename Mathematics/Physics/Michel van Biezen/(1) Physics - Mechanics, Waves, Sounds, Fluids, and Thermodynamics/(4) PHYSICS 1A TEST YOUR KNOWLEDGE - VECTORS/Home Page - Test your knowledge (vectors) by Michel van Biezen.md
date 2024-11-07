@@ -1,0 +1,40 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXv5lsv7SY8zZ30RrAC9WfK
+Length: 2 hours, 42 minutes, 18 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Physics 1A Test Your Knowledge - Vectors (1 of 30) Adding Vectors]]
+	- [[(2) Physics 1A - Test Your Knowledge - Vectors (2 of 30) Finding the Vector]]
+	- [[(3) Physics 1A - Test Your Knowledge - Vectors (3 of 30) Find the Direction Cosines and Angles]]
+	- [[(4) Physics 1A - Test Your Knowledge - Vectors (4 of 30) Find the Dot Product - Ex.1]]
+	- [[(5) Physics - Test Your Knowledge - Vectors (5 of 30) Find the Dot Product - Ex.2]]
+	- [[(6) Physics - Test Your Knowledge - Vectors (6 of 30) Find the Vectors]]
+	- [[(7) Physics - Test Your Knowledge - Vectors (7 of 30) Find the Vector Product (Cross Product) - Ex. 1]]
+	- [[(8) Physics - Test Your Knowledge - Vectors (8 of 30) Find the Vector Product (Cross Product) - Ex. 2]]
+	- [[(9) Physics - Test Your Knowledge - Vectors (9 of 30) Find the Sum, Difference, Dot and Cross Product]]
+	- [[(10) Physics - Test Your Knowledge - Vectors (10 of 30) Find the Angle with Respect to x-Axis]]
+	- [[(11) Physics - Test Your Knowledge - Vectors (11 of 30) Proof (A+B).(A+B)=A62+B 2+2AB]]
+	- [[(12) Physics - Test Your Knowledge - Vectors (12 of 30) Proof (A+B).(A+B)=A62+B 2+2A - Ex]]
+	- [[(13) Physics - Test Your Knowledge - Vectors (13 of 30) Find the Position Vector]]
+	- [[(14) Physics - Test Your Knowledge - Vectors (14 of 30) -A+B-=-A-B- , A Perpendicular B]]
+	- [[(15) Physics - Test Your Knowledge - Vectors (15 of 30) Find Direction Cosine]]
+	- [[(16) Physics - Test Your Knowledge - Vectors (16 of 30) Find Direction Cosine (Dot Product)]]
+	- [[(17) Physics - Test Your Knowledge - Vectors (17 of 30) Validate the Law of Cosines]]
+	- [[(18) Physics - Test Your Knowledge - Vectors (18 of 30) Validate the Volume (note - Cos(90) S and B Cos(0))]]
+	- [[(19) Physics - Test Your Knowledge - Vectors (19 of 30) Find the Velocity and Displacement Vector]]
+	- [[(20) Physics - Test Your Knowledge - Vectors (20 of 30) Find the Vectors]]
+	- [[(21) Physics - Test Your Knowledge - Vectors (21 of 30) Geodesic Part 1 - Find the Angle]]
+	- [[(22) Physics - Test Your Knowledge - Vectors (22 of 30) Geodesic Part 2 - Find the x,y,z Coordinates]]
+	- [[(23) Physics - Test Your Knowledge - Vectors (23 of 30) Geodesic Part 3 - Find the GPS Coordinates]]
+	- [[(24) Physics - Test Your Knowledge - Vectors (24 of 30) Geodesic Part 4 - Find the Distance]]
+	- [[(25) Physics - Test Your Knowledge - Vectors (25 of 30) Find the Minimum Force Required]]
+	- [[(26) Physics - Test Your Knowledge - Vectors (26 of 30) Find the Sum and Difference]]
+	- [[(27) Physics - Test Your Knowledge - Vectors (27 of 30) Find the Displacement]]
+	- [[(28) Physics - Test Your Knowledge - Vectors (28 of 30) Find the Angle]]
+	- [[(29) Physics - Test Your Knowledge - Vectors (29 of 30) Find the Angle (Using Dot Product)]]
+	- [[(30) Physics - Test Your Knowledge - Vectors (30 of 30) Find the Rate of Change of the Angle]]
