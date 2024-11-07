@@ -1,0 +1,24 @@
+[Video](https://www.youtube.com/watch?v=21lXGc02XwM)
+
+- ![[Screenshot 2023-12-28 at 1.12.19 AM.png]]
+	- Two properties of estimators include [[unbiased]] and [[consistency]]
+		- Unbiased tells us
+			- $E(\overset \wedge \beta) = \beta^P$ 
+				- Expectation of our estimator is the true population value
+			- On average we get the population parameter
+		- Consistency tells us
+			- If increasing sample size
+			- As n $\to$ $\infty$
+				- $\overset \wedge \beta \to \beta^P$ 
+			- If arbitrarily increase sample size, the value we get from the estimator gets closer and closer to the true population value
+	- In example to left, $\overset \wedge \beta$ is both unbiased and consistent
+	- It is possible to get an [[estimator]] which is biased but consistent
+		- [[Frequency distribution]]: we get from applying an estimator ($\overset \sim \beta$) to different sample data
+			- Lets say it has an expectation $\overset \sim \beta^*$ 
+		- In this scenario, $\overset \sim \beta$ is [[upwardly biased]]
+			- On average, we would get a value for population parameter which is too high
+		- For consistency
+			- The center of each of the distributions is getting closer to the population parameter
+			- As population size increases, $\overset \sim \beta$ is getting closer and closer to population parameter
+	- A biased and inconsistent example would be if $\overset \sim \beta$ output a constant such as 4 which did not equal the population parameter. It shows that it's completely independent of the sample
+	- Next video about efficiency of estimators

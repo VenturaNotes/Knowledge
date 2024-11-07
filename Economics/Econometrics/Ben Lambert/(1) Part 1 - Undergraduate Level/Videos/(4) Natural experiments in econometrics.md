@@ -1,0 +1,23 @@
+[Video](https://www.youtube.com/watch?v=OUN6Gp_H3q4)
+
+- ![[Screenshot 2023-12-27 at 11.30.36 PM.png]]
+	- [[Natural experiment]]
+	- Lifetime income = f(military participation, Lifetime income potential)
+		- LIP can be affected by education and innate ability
+	- [[Selection bias]]
+		- Individuals which participated in a quasi-experiment might be a different type of individual to those part of control group (civilians)
+	- [[Joshua Angrist]]
+		- Professor at MIT
+		- Did [[empirical research]] in 1990
+			- Looked at Vietnam. What effect of military participation had on those individuals LIP
+		- Draft process was a natural experiment
+			- People were assigned a number through conscription process in 1969
+			- Numbers corresponded to birthday
+				- If 2 was pulled out of box, all individuals born on Jan 2nd would be conscripted to drafted to join military
+					- This process was completely independent of individual's LIP 
+		- This experiment got rid of the selection bias
+			- Individuals who joined the military here was completely independent of LIP
+			- It was a sort of quasi-experiment which came about as a result of the draft process
+		- Will talk more about specifics of this research when talking about [[instrumental variables estimation]]
+		- A [[natural experiment]] is an experiment which resulted as a result of some action occurring so it could be human or it could be something from Nature.
+			- It just means experimental conditions resulted from something else happening 

@@ -1,0 +1,24 @@
+[Video](https://www.youtube.com/watch?v=UxbY85Cm9SQ)
+
+- ![[Screenshot 2023-12-28 at 12.57.00 AM.png]]
+	- Properties of [[estimators]]
+	- In econometrics, we're thinking about a population with some sort of process ($\beta ^P$) and population parameter which quantifies the effect of the variable which we're considering within the population
+		- Will take repeated samples from population
+	- Will use [[estimator]] to come up with estimates of [[population parameter]]
+		- $\beta ^*$ 
+	- Each estimate will not equal exactly the population parameter due to [[sampling error]]
+		- This is because each of the samples isn't quite representative of exactly what's going on in population
+	- [[Frequency plot]] (of all different values of $\beta^*$ which we got from applying our estimator to repeated samples )
+		- Might have 10 instances of $\beta^*_1$ and 3 instances of $\beta_2^*$ 
+		- We hope on average that our estimator outputs the population parameter
+			- Signified in frequency graph by having a maximum when $\beta^*$ equals $\beta^P$ 
+		- Mathematically $E(\overset \wedge \beta)$ = $\beta ^P$ 
+			- Expectation of our estimators (function) is equal to the population parameter
+			- This property is called [[unbiased]]
+		- Second property is called [[consistency]] of estimators
+			- By increasing sample size, the value we get for $\beta^*$ get closer and closer to the true population parameter
+				- As we increase sample size arbitrarily, we hope we wouldn't get a distribution but a line at $\beta^P$ 
+			- As n $\to$ $\infty$
+				- $\overset \wedge \beta \to \beta^P$ 
+					- As our sample size tends to infinity, our estimator tends in value to true population parameter
+		- Third property of estimators is [[efficiency]]

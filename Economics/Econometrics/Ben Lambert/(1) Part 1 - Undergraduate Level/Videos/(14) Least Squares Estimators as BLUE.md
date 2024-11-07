@@ -1,0 +1,25 @@
+[Video](https://www.youtube.com/watch?v=vOBtEiij-fA)
+
+- ![[Screenshot 2023-12-28 at 2.39.39 AM.png]]
+	- [[Least squares estimator]] (they're good)
+	- A population may have an underlying process which connects wages with education
+		- Will use tools (mathematical functions) on sample to make inferences about what is going on in population
+			- Trying to come up with estimates of $\alpha^S$ and $\beta^S$ from some sort of method we apply to the sample
+	- Take repeated samples from population
+		- Create a [[frequency distribution]] which is given output from least square estimator $\overset \wedge B$ 
+			- Frequency distribution centered around true population parameter $\beta ^P$ this property is called being [[unbiased]]
+		- When increasing sample size, we'll get closer to the true population value more frequently
+			- [[consistency]]
+		- $\overset \wedge \beta$ is more [[efficient]] because it gets closer to the true [[population parameter]] ($\beta^P$) more of the time than $\overset \sim \beta$ because it has a wider sampling distribution than $\overset \wedge \beta$ 
+	- Under a set of conditions called the [[Gauss–Markov Assumptions]], (named after [[Carl Friedrich Gauss]] and [[Andrey Markov]])
+		- [[Least squares estimator|least square estimators]] are referred to as [[BLUE]]
+			- B means they are the best estimators (efficiency)
+				- No other unbiased estimators which are more efficient than least square estimators. (and they are consistent even though they're not mentioned in mnemonic)
+			- L means Linear
+			- U stands for unbiased
+			- E stands for estimators
+		- Under the Gauss-Markov Assumptions, the least squares estimators are the best linear unbiased estimators
+	- BLUE is a property we really like
+		- This means there are no other efficient linear estimators which we can apply to our samples
+		- [[Econometrics]] concerned with when one of these assumptions fails and what should we do about it
+	- Least square estimators under a set of conditions turn out to be a really good tool to use to make inferences about a population

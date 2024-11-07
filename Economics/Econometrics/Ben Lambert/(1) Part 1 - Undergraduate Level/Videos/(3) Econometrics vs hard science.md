@@ -1,0 +1,26 @@
+[Video](https://www.youtube.com/watch?v=CMjM5nJTOx4)
+
+- ![[Screenshot 2023-12-27 at 11.15.05 PM.png]]
+	- In science, we're interested if some event A causes an event B to occur.
+		- Would a substance introduced to water form $CO_2$?
+			- Would have 2 test tube labels
+				- Experiment
+					- Will have water + substance of interest
+				- Control
+					- Just water
+			- We would know this to be a [[causal relationship]] since there is no other explanation for it other than placing substance in test tube.
+	- In [[econometrics]], we can't exactly carry out these experimental conditions
+		- Participating in military to lifetime income
+			- psychological effects tends to decrease the lifetime income
+				- Would need to clone a person that becomes a civilian and a person that goes into the military. Then repeat this experiment a large number of times. This experiment would be morally unacceptable to carry out. Will need to deal with non-experimental data
+					- Therefore, will take a large dataset of people that went into the military and those that stayed civilians. Then will take average lifetime income of all civilians and compare that with the average lifetime income of those that participated in the military.
+			- The difference in the averages you might think of being the causal effect of military participation on lifetime income, but you'd actually be wrong.
+				- Another effect at play is that individuals which go into the military have a lower lifetime earnings capability to begin with
+					- There is a reverse causal effect also at play
+				- Individuals going into military may be less interested in money and more interested in serving the country
+					- Might not enjoy academic work
+			- Two effects happening (These are problems which are endemic in non-experimental data)
+				- Causal effect
+				- reveres causal effect
+			- [[Econometrics]] is about finding out ways that we can still estimate the causal relationship given we have non-experimental data
+			- We can look towards natural experiments which can allow us to evaluate this cause of effect

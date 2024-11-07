@@ -1,0 +1,21 @@
+[Video](https://www.youtube.com/watch?v=6i7mqDJICzQ)
+
+- ![[Screenshot 2023-12-28 at 1.37.23 AM.png]]
+	- [[Unbiased]] vs [[consistent]] estimators
+	- Given a population, there is a population [[mean]] denoted $\mu$ 
+		- Could be mean height, GDP, or mean of any process really
+		- Will use a statistical tool  on given sample $\overset \sim x$ to make some sort of estimate on population parameter $\mu$ 
+	- Is $\overset \sim x$ a biased or unbiased estimator for population parameter $\mu$? 
+		- Need to have some sort of population process
+			- Let's say in the population, each individual's height is equal to mean height + some sort of [[idiosyncratic error]] which we can't predict which has a mean of 0
+		- Since we know the population process: $x = \mu + \epsilon_i$
+			- The expectations operator is a linear operator which allows us to do the below
+				- $\overset \sim x = \frac {1}{N-1} \Sigma_{i=1}^Nx_i$ 
+				- $E[\overset \sim x] = \frac {1}{N-1} \Sigma_{i=1}^NE[x_i]$ 
+			- The expectation of an individual's height is just the mean heigh $\mu$ so the top becomes $N\mu$ giving $\frac {N\mu}{N-1}$
+				- In general for any sort of finite sample size, this will never equal $\mu$ 
+				- Therefore, we have a biased estimator for our population mean $\mu$ 
+			- We should be using the sample mean to estimate the population mean (we used $\frac {1}{N-1}$ instead of $\frac {1}{N}$ 
+				- We have a biased estimator for the population mean
+	- We have a biased estimator of population mean but we have a consistent estimator for population mean. 
+		- As n $\to$ $\infty$, $E[\overset \sim x]$ $\to$ $\mu$ 

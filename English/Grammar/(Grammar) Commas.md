@@ -1,0 +1,3 @@
+- These are both correct uses of commas ([@](https://www.grammarly.com/blog/comma-before-and/#:~:text=There's%20no%20single%20rule%20that,before%20and%20in%20a%20list.))
+	- The dog is young, well trained, and good natured.
+	- The dog is young, well trained and good natured.

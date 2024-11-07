@@ -1,0 +1,46 @@
+[Video](https://www.youtube.com/watch?v=RG7Wr2cCWj8)
+
+- ![[Screenshot 2023-10-10 at 1.08.58 PM.png]]
+	- [[Econometrics]]: A statistical tool set which helps us evaluate some sort of relationship of interest
+		- If we're interest in individual9s, what is the effect of an individual's education on the average wage that individual might expect to obtain
+			- higher education might mean higher wage
+			- Hopefully will see a [[positive correlation]] (although not necessarily a [[causal relationship]] but at least there is a [[positive relationship]] between the two [[Variable|variables]])
+				- Econometrics helps quantify this degree of [[correlation]] (by drawing a line through center of points)
+					- Hopes to capture average effect of education on wages
+		- [[Cross-sectional data]] example
+	- [[Econometrics]] is a toolset for finding strength of relationship of trending line (so how much wages actually goes up by)
+		- This type of relationship concerned with the relationship for individual people or individual firms is the subject of [[microeconometrics]] (called this for analogy with [[microeconomics]])
+	- Another example of a microeconomic relationship: TV advertising to sales
+		- Might see seasonality
+			- Do peaks in data caused by TV advertising?
+				- Bars drawn below could be the TV advertising
+		- [[Time series]] data example
+		- Still microeconometric data because dealing with data from a particular firm
+	- Another type of econometrics is [[macroeconometrics]]: deals with macro relationships
+		- Effect of interest rate falls on inflation
+			- Traditional [[economic theory]] suggests if [[interest rate]] falls, the [[inflation rate]] should increase (due to increases in [[aggregate demand]])
+			- Econometrics is a way of quantifying that particular relationship
+	- The idea of econometrics
+		- Some sort of [[population]] (for [[time series]] data, it's called a [[data generating process]])
+			- For now, think of it in terms of population
+				- In the population, there is some sort of true relationship between the variables we're interested in
+					- Such as wages and level of education
+					- wage = $\alpha$ + $\beta$ education + $u$
+						- beta quantifies effects of one year of education on an individual's level of average wages
+						- There are other factors which also determines wages which we group together in our [[population error]] "u"
+							- These are the other idiosyncratic factors which affect an individual's level of wages. These are things contained in our population error
+								- An example might be where the individual live? Are they based in [[OECD countries]]?
+								- Interests? Pursing career where they earn lots of money like an [[investment banker]]
+		- We don't actually have the entirety of the population in terms of data set. In general, we only have a [[sample]] from the population.
+			- We deal with non-experimental data. We hope to get a randomized sample from the population
+		- By applying a tool to the sample dataset, we hope to estimate the parameters ($\beta$ and $\alpha$)
+			- Sample estimates will differ from actual population true values
+			- [[Sampling error]]
+				- Our sample isn't necessarily indicative of what's going on in the population
+		- In econometrics, we want to use tools which actually reduce sampling error as much as possible
+			- Makes estimates we produce on sample as close to true population values as possible
+				- Will allow us to make an [[inference]] on the population
+					- Is the true effect of education on wages such as $100 per extra year of education
+	- Will talk about difference in econometrics and [[hard science]] in next video
+		- In hard science, we can actually carry out experiments (such as increasing an individual's level of education holding all other factors constant. Not possible in reality)
+		- Econometrics is a way of dealing with non-experimentally generated data
