@@ -1,0 +1,44 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXLfqZFlpwdpxz4SBnidkzo
+Length: 2 hours, 42 minutes, 3 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Chemistry - Acids & Bases Fundamentals (1 of 35) General Properites]]
+	- [[(2) Chemistry - Acids & Bases Fundamentals (2 of 35) Acid Base Reactions]]
+	- [[(3) Chemistry - Acids & Bases Fundamentals (3 of 35) Arrhenius Acid & Bases]]
+	- [[(4) Chemistry - Acids & Bases Fundamentals (4 of 35) Bronsted-Lowry Acids & Bases]]
+	- [[(5) Chemistry - Acids & Bases Fundamentals (5 of 35) Why is Water a Neutral Substance.]]
+	- [[(6) Chemistry - Acids & Bases Fundamentals (6 of 35) Conjugate Acid & Bases]]
+	- [[(7) Chemistry - Acids & Bases Fundamentals (7 of 35) pH-How to Calculate the pH]]
+	- [[(8) Chemistry - Acids & Bases Fundamentals (8 of 35) pOH-How to Calculate the pOH]]
+	- [[(9) Chemistry - Acids & Bases Fundamentals (9 of 35) Calculating the pH - Ex 1]]
+	- [[(10) Chemistry - Acids & Bases Fundamentals (10 of 35) Calculating the pH - Ex 2]]
+	- [[(11) Chemistry - Acids & Bases Fundamentals (11 of 35) Calculating the pH - Ex 3]]
+	- [[(12) Chemistry - Acids & Bases Fundamentals (12 of 35) How Has the Ocean's pH Changed in 25 Years.]]
+	- [[(13) Chemistry - Acids & Bases Fundamentals (13 of 35) pH Scales - Examples]]
+	- [[(14) Chemistry - Acids & Bases Fundamentals (14 of 35) Effective Concentration]]
+	- [[(15) Chemistry - Acids & Bases Fundamentals (15 of 35) Acid-Base Titration Basics]]
+	- [[(16) Chemistry - Acids & Bases Fundamentals (16 of 35) Acid-Base Titration Basics - Ex 1]]
+	- [[(17) Chemistry - Acids & Bases Fundamentals (17 of 35) Acid-Base Titration Basics - Ex 2]]
+	- [[(18) Chemistry - Acids & Bases Fundamentals (18 of 35) Acid-Base Titration Basics - Ex 3]]
+	- [[(19) Chemistry - Acids & Bases Fundamentals (19 of 35) Problem w and 'Acid is a Proton Donor' Theory]]
+	- [[(20) Chemistry - Acids & Bases Fundamentals (20 of 35) Examples of Conjugate Acid-Base Pairs]]
+	- [[(21) Chemistry - Acids & Bases Fundamentals (21 of 35) What Is A Strong Acid.]]
+	- [[(22) Chemistry - Acids & Bases Fundamentals (22 of 35) What Is A Weak Acid.]]
+	- [[(23) Chemistry - Acids & Bases Fundamentals (23 of 35) Acid Dissociation Constant]]
+	- [[(24) Chemistry - Acids & Bases Fundamentals (24 of 35) Acid Dissociation Constant & Acid Strength]]
+	- [[(25) Chemistry - Acids & Bases (25 of 45) Ionization Constant for Weak Acids]]
+	- [[(26) Chemistry - Acids & Bases (26 of 45) How to Find the (H+) and pH of Formic Acid]]
+	- [[(27) Chemistry - Acids & Bases (27 of 45) How to Find the (H+) and pH of Nitrous Oxide]]
+	- [[(28) Chemistry - Acids & Bases (28 of 35) How to Find the Ionization Constant Ka]]
+	- [[(29) Chemistry - Acids & Bases (29 of 45) What % of Acid Will Be Ionized.]]
+	- [[(30) Chemistry - Acids & Bases (30 of 45) Comparing Acid Strengths Using % Concentrations]]
+	- [[(31) Chemistry - Acids & Bases (31 of 45) Comparing Acid Strengths Using % Concentrations]]
+	- [[(32) Chemistry - Acids & Bases (32 of 45) Comparing Acid Strengths Using % Concentrations Example]]
+	- [[(33) Chemistry - Acids & Bases (33 of 45) Weak Bases and Base Ionization Constants]]
+	- [[(34) Chemistry - Acids & Bases (34 of 45) Weak Bases and Base Ionization Constants Ex.]]

@@ -1,0 +1,180 @@
+[Video](https://youtube.com/watch?v=QWf2jcznLsY)
+
+- ![[Screenshot 2024-01-29 at 2.03.47 AM.png]]
+	- The molecules of life
+		- We eat food and then the building blocks of that food we weave together to make living things
+		- [[Dave Thomas]] is the founder of [[Wendy's]]
+			- His body was made up of building blocks that came from food he created
+			- The [[proteins]] in burger are broken down into [[Amino Acid|amino acids]] and those make the proteins in him
+			- The [[sugars]] and [[carbohydrates]] in bun are broken down to make sugars which is used in [[cellular respiration]] to make ATP to move materials inside him
+			- [[Fat]] inside the burger is used to make the [[lipids]] inside the [[cell membranes]] of Dave Thomas
+		- Dave Thomas worked for [[Colonel Sanders]] in [[KFC]]. Also a war hero
+	- Life is built on [[Carbon]]
+		- This is because carbon has 4 [[valence electrons]]. It has 6 [[protons]] which means it has 6 [[electron|electrons]] (Try drawing a [[Lewis Dot Diagram]])
+			- 2 electrons in first level
+			- Remaining 4 electrons each in outer valence shell. 
+		- Really good at bonding
+			- Makes fairly stable large carbon based molecules
+			- If it wasn't carbon, then maybe [[silicon]]
+			- In Star Trek, there were these giant rock animals called the Horta. Spock mind-melding with a Horta
+			- If we found life somewhere in the universe, maybe [[silica]] would be an example
+			- [[Computer]] is made up of silica
+	- [[Functional groups]]
+		- Life is made up of huge [[carbon chains]]. That's what DNA is pretty much made up of ([[carbon]] and [[hydrogen]])
+			- There are things on the outside called functional groups. They give functionality. Behavior to chemicals
+			- [[Carboxyl group]]
+				- Carbon in middle
+				- $- COOH$ 
+					- Will donate [[hydrogen ion]]
+					- Will make things that are [[carboxylic acid]]
+		- The [[carboxyl group]] and [[amino group]] form [[Amino Acid|amino acids]]
+		- [[Carbonyl Group]]
+			- If carbon in middle, it's called a [[ketone]]. At the end, it's called an [[aldehyde]]
+				- [[Formaldehyde]] would be an example of that
+		- [[Methyl group]]
+			- It's a carbon with 3 hydrogens around outside of it
+			- Important in [[methylation]]
+				- DNA great example. They can methylate these big carbon compounds. Make them non-functional
+		- [[Amino group]]
+			- Has an $H_2$. It has [[nitrogen]]. We need nitrogen to survive because it makes amino acids
+			- [[Amino Acid|amino acids]] are the building blocks of proteins. Amino acids made of carboxyl group and amino group.
+			- Will grab onto hydrogen ions and become [[bases (chemistry)|bases]]
+		- [[Phosphate group]]
+			- It's what's on the end of [[ATP]]
+			- What we use for energy transfer
+			- Also used to build DNA
+		- [[Hydroxyl Group]]
+			- It's going to be an OH
+				- Making it [[polar]] and therefore readily dissolvable
+		- You can learn a lot of things from functional groups, but the first thing you'd want to do is memorize them
+	- By learning these six in biology, they will start showing up and you can predict some of the properties
+	- The actual molecules of life
+		- [[polymers]] are made up of [[monomers]]
+		- Monomers are the building blocks
+		- polymers are large [[macromolecules]]. There are only 4 in biology that you have to learn
+		- polymers are built through a process called [[dehydration]]
+		- [[Dehydration reaction]]
+			- An example would be having an amino group on one side and a carboxyl group on the other side
+			- Removing water ($H_2O$). Would form a [[covalent bond]] in the middle. That would be a [[peptide bond]]
+				- The proteins inside of hair, nails, skin, is made up of amino acids that are attached together
+			- Each time we attach two amino acids, we've got to lose a water
+- ![[Screenshot 2024-01-29 at 2.31.56 AM.png]]
+	- If we eat a burger, and by breaking down the proteins and make amino acids out of it to use inside body, it's called [[hydrolysis]]
+		- Hydro is water
+		- lysis means to break
+		- We're adding water in the middle and we're breaking the bond apart so now we have two amino acids
+	- How do we build proteins? [[Dehydration reaction]]
+		- Same for building [[nucleic acids]] like DNA
+	- How do we break down proteins: [[hydrolysis]]
+		- Same for breaking down [[nucleic acids]]
+	- 4 major [[macromolecules]]
+		- [[Nucleic acids]]
+			- [[RNA]] (ribonucleic acid)
+				- A slave to DNA but does work
+			- [[DNA]] (deoxyribonucleic acid)
+				- Stores information inside cell
+				- We get DNA from food
+					- We break it down into monomers and then we can weave it back into stuff of life
+			- The above would be polymers, large macromolecules 
+			- The building blocks are the [[Nucleotide|nucleotides]]
+				- [[Deoxyguanosine monophosphate]]
+					- This would be a nucleotide that builds DNA
+						- It has a
+							- [[base]]
+							- [[sugar]]
+								- [[deoxyribose]] or [[ribose]] 
+									- sugar
+							- [[phosphate]]
+					- We attach these over and over and over again. (It would fit in the red spot and that would be one nucleotide.)
+						- We attach them over and over again through a dehydration reaction. Eventually we have DNA
+			- [[base pair]]
+			- [[nucleobases]]
+			- helix of [[sugar-phosphates]]
+	- If we go into [[proteins]], they are made of [[Amino Acid|amino acids]]
+		- amino group, carboxylic group. In middle of amino acid, we have a carbon and hydrogen and the side we have R or [[side chain]] (which is different in every amino acid)
+		- There are only 20 amino acids that humans need to survive
+		- Twenty-One Amino Acids (don't memorize them. That would be silly)
+			- Amino Acids with Electrically Charged side chains
+				- Positive
+					- [[Arginine]]
+					- [[Histidine]]
+					- [[Lysine]]
+				- Negative
+					- [[Aspartic Acid]]
+					- [[Glutamic Acid]]
+				- Has carboxyl and amino groups, on the side, the R or side chain will be different in every amino acid
+			- Amino Acids with polar uncharged side chains
+				- [[Serine]]
+				- [[Threonine]]
+				- [[Asparagine]]
+				- [[Glutamine]]
+				- Since they have hydroxyl and amino groups, that's why they're charged?
+			- Special Cases
+				- [[Cysteine]]
+				- [[Selenocysteine]]
+				- [[Glycine]]
+				- [[Proline]]
+			- Amino Acids with Hydrophobic Side chains
+				- [[Alanine]]
+				- [[Isoleucine]]
+				- [[Leucine]]
+				- [[Methionine]]
+				- [[Phenylalanine]]
+				- [[Tryptophan]]
+				- [[Tyrosine]]
+				- [[Valine]]
+- ![[Screenshot 2024-01-29 at 2.57.58 AM.png]]
+	- A protein is a huge 3D structure which is made of sometimes thousands of amino acids attached together
+		- The order is important (DNA holds that)
+		- Once you have all amino acids attached together, it will look like this (will have all the backbone but on the side you'll have all your R aka side chains)
+		- Once you build a [[polypeptide]] or [[protein]], it's then going to fold into a characteristic shape (such as the [[myoglobin]])
+			- It does that because of the [[alpha-helices]] (which are built on hydrogen bonds)
+			- All the [[polar]] side chains will fold to the outside of the protein
+			- The [[nonpolar]] will hide in the middle
+			- You'll have positive attached to negative
+			- Sometimes refer to this all as the [[tertiary structure]]
+				- And then the [[quaternary structure]] (having more than one polypeptide attached together)
+		- When we look at someone, we're looking at proteins and proteins are all built of these monomers which are amino acids
+		- Directionality
+	- [[Lipids]]
+		- They're carbons with hydrogens on the outside. We call these [[hydrocarbon|hydrocarbons]]. 
+			- Examples are
+				- [[cholesterol]]
+				- [[free fatty acid]]
+				- [[triglyceride]]
+					- Makes the fatness of burger good
+				- [[phospholipid]]
+					- inside membrane of all living material
+		- Used for energy but also build up [[Membrane|membranes]]
+		- Comes in two different types
+			- [[saturated]]
+				- Straight (hydrogen around whole thing)
+				- Butter
+				- Animal fat
+				- Examples
+					- [[Arachidic]]
+					- [[Stearic]]
+					- [[Palmitic]]
+			- [[unsaturated]]
+				- You have a double bond in the middle
+					- If bent, can't quite get next to each other so they form a liquid at room temperature
+				- Olive oil
+				- Could make them saturated by bubbling hydrogen through it and transforming that fat into [[trans fats]]
+				- Examples
+					- [[Erucic]]
+					- [[Oleic]]
+					- [[Arachidonic]]
+					- [[Linoleic]]
+					- [[Linolenic]]
+	- [[Carbohydrates]]
+		- 3 different types
+			- [[Monosaccharide|Monosaccharides]]
+				- Such as [[glucose]]
+			- [[Disaccharides]]
+				- [[Sucrose]]
+			- Huge [[polysaccharides]]
+				- They are hundreds and hundreds of glucose molecules attached together or saccharide sugar molecules attaches together
+		- When eating potato, bread or anything with [[starch]], it is a bunch of sugar molecules. All attached together using [[covalent bond|covalent bonds]]
+		- If we need to break down carbohydrates, we have to snip them off ([[hydrolysis]]), break those into sugars and then we can use them in [[cellular respiration]]
+		- [[amylose]]
+	- Those were the molecules of life and there are only 4 of them

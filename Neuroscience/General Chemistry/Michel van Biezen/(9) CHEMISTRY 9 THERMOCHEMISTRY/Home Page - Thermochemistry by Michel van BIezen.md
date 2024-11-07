@@ -1,0 +1,47 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXIlvHe3vW0IFGAmRuqlg7D
+Length: 4 hours, 9 minutes, 24 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Chemistry - Thermochemistry (1 of 37) Definition]]
+	- [[(2) Chemistry - Thermochemistry (2 of 37) Exothermic and Endothermic Reactions]]
+	- [[(3) Chemistry - Thermochemistry (3 of 37) Enthalpy - Definition]]
+	- [[(4) Chemistry - Thermochemistry (4 of 37) Enthalpy - Physical and Chemical Change]]
+	- [[(5) Chemistry - Thermochemistry (5 of 37) Enthalpy - Example 1 (Combustion of Methane)]]
+	- [[(6) Chemistry - Thermochemistry (6 of 37) Enthalpy - Example 2 (Combustion of Ethane)]]
+	- [[(7) Chemistry - Thermochemistry (7 of 37) Enthalpy - Example 3 (Combustion of Propane)]]
+	- [[(8) Chemistry - Thermochemistry (8 of 37) Enthalpy - Hess' Law]]
+	- [[(9) Chemistry - Thermochemistry (9 of 37) Enthalpy - Hess' Law - Example 1A]]
+	- [[(10) Chemistry - Thermochemistry (10 of 37) Enthalpy - Hess' Law - Example 1B]]
+	- [[(11) Chemistry - Thermochemistry (11 of 37) Enthalpy - Hess' Law - Example 2]]
+	- [[(12) Chemistry - Thermochemistry (12 of 37) Enthalpy - Hess' Law - Example 3]]
+	- [[(13) Chemistry - Thermochemistry (13 of 37) Enthalpy - Hess' Law - Example 4]]
+	- [[(14) Chemistry - Thermochemistry (14 of 37) Heat Released (Evolved) in a Reaction 1]]
+	- [[(15) Chemistry - Thermochemistry (15 of 37) Heat Released (Evolved) in a Reaction 2]]
+	- [[(16) Chemistry - Thermochemistry (16 of 37) Heat Released (Evolved) in a Reaction 3]]
+	- [[(17) Chemistry - Thermochemistry (17 of 37) Heat Released (Evolved) in a Reaction 4]]
+	- [[(18) Chemistry - Thermochemistry (18 of 37) Heat Released (Evolved) in a Reaction 5]]
+	- [[(19) Chemistry - Thermochemistry (19 of 37) Heat Released (Evolved) in a Reaction 6]]
+	- [[(20) Chemistry - Thermochemistry (20 of 37) Heat Released (Evolved) in a Reaction 7]]
+	- [[(21) Chemistry - Thermochemistry (21 of 37) Heat and Calorimetry - Basic Definition]]
+	- [[(22) Chemistry - Thermochemistry (22 of 37) Heat and Calorimetry - Example 1]]
+	- [[(23) Chemistry - Thermochemistry (23 of 37) Heat and Calorimetry - Example 2]]
+	- [[(24) Chemistry - Thermochemistry (24 of 37) Heat and Calorimetry - Example]]
+	- [[(25) Chemistry - Thermochemistry (25 of 37) The Bomb Calorimeter (Constant Volume)]]
+	- [[(26) Chemistry - Thermochemistry (26 of 37) Constant Pressure Calorimeter]]
+	- [[(27) Chemistry - Thermochemistry (27 of 37) Combustion in a Bomb Calorimeter - Ex. 1]]
+	- [[(28) Chemistry - Thermochemistry (28 of 37) Combustion in a Bomb Calorimeter - Ex. 2]]
+	- [[(29) Chemistry - Thermochemistry (29 of 37) Combustion in a Bomb Calorimeter - Ex. 3]]
+	- [[(30) Chemistry - Thermochemistry (30 of 37) Constant Pressure Calorimeter - Ex. 1]]
+	- [[(31) Chemistry - Thermochemistry (31 of 37) Constant Pressure Calorimeter - Ex. 2]]
+	- [[(32) Chemistry - Thermochemistry (32 of 37) Constant Volume Calorimeter (Bomb Calorimeter).]]
+	- [[(33) Chemistry - Thermochemistry (33 of 37) Heat of Solution (Enthapy of Solution)]]
+	- [[(34) Chemistry - Thermochemistry (34 of 37) Heat of Dilution]]
+	- [[(35) Chemistry - Thermochemistry (35 of 37) Heat of Dilution - Danger!]]
+	- [[(36) Chemistry - Thermochemistry (36 of 37) The Cold Pack]]
+	- [[(37) Chemistry - Thermochemistry (37 of 37) The Hot Pack]]

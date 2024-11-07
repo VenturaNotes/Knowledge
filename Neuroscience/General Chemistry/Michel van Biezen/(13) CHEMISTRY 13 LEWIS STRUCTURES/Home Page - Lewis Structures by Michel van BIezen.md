@@ -1,0 +1,45 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXUAwmKqb0QofX3i_Rf1Sm_H
+Length: 2 hours, 38 minutes, 3 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Chemistry - Chemical Bonding (1 of 35) Lewis Symbol for Atoms]]
+	- [[(2) Chemistry - Chemical Bonding (2 of 35) Lewis Symbol for Ion2 and Ionic Compounds]]
+	- [[(3) Chemistry - Chemical Bonding (3 of 35) Ionic and Covalent Bonding]]
+	- [[(4) Chemistry - Chemical Bonding (4 of 35) Lewis Structures - Basics]]
+	- [[(5) Chemistry - Chemical Bonding (5 of 35) The Octet Rule]]
+	- [[(6) Chemistry - Chemical Bonding (6 of 35) Electronegativity - Definition]]
+	- [[(7) Chemistry - Chemical Bonding (7 of 35) Covalent and Ionic Bonding - A Closer Look]]
+	- [[(8) Chemistry - Chemical Bonding (8 of 35) Lewis Structures - Basic Rules]]
+	- [[(9) Chemistry - Chemical Bonding (9 of 35) Lewis Structures - Sulfur Dichloride, SCl2]]
+	- [[(10) Chemistry - Chemical Bonding (10 of 35) Lewis Structures - Carbonyl Sulfite, COS]]
+	- [[(11) Chemistry - Chemical Bonding (11 of 35) Lewis Structures - Dichloro Difluoro Methane, CF2Cl2]]
+	- [[(12) Chemistry - Chemical Bonding (12 of 35) Lewis Structures - Hypofluorous Acid, HOF]]
+	- [[(13) Chemistry - Chemical Bonding (13 of 35) Lewis Structures - Cloramine, NH2Cl]]
+	- [[(14) Chemistry - Chemical Bonding (14 of 35) Lewis Structures - Nitrogen Trichloride, NCl3]]
+	- [[(15) Chemistry - Chemical Bonding (15 of 35) Lewis Structures - Carbon Tetrabromide - CBr4]]
+	- [[(16) Chemistry - Chemical Bonding (16 of 35) Lewis Structures for Ionic Compounds - Barium Oxide - BaO]]
+	- [[(17) Chemistry - Chemical Bonding (17 of 35) Lewis Structures for Ionic Comp - Magnesium Chloride - MgCl2]]
+	- [[(18) Chemistry - Chemical Bonding (18 of 35) Lewis Structures for Ionic Comp - Aluminum Oxide - Al2O3]]
+	- [[(19) Chemistry - Chemical Bonding (19 of 35) Lewis Structures - Nitric Acid - HNO3]]
+	- [[(20) Chemistry - Chemical Bonding (20 of 35) Lewis Structures for Ions - Coordinate Covalent Bond]]
+	- [[(21) Chemistry - Chemical Bonding (21 of 35) Lewis Structures for Ions - Carbonate Ion - CO3(2-)]]
+	- [[(22) Chemistry - Chemical Bonding (22 of 35) Lewis Structures for Ions - Hydronium Ion - H3O(+)]]
+	- [[(23) Chemistry - Chemical Bonding (23 of 35) Lewis Structures - Carbon Dioxide - CO2]]
+	- [[(24) Chemistry - Chemical Bonding (24 of 35) Lewis Structures - Ethanol - CH3CH2OH]]
+	- [[(25) Chemistry - Chemical Bonding (25 of 35) Lewis Structures - Phosphoric Acid- H3PO4]]
+	- [[(26) Chemistry - Chemical Bonding (26 of 35) Lewis Structures - Resonance Structures - Ozone O3]]
+	- [[(27) Chemistry - Chemical Bonding (27 of 35) Lewis Structures - Resonance Structures - Carbonate Ion]]
+	- [[(28) Chemistry - Chemical Bonding (28 of 35) Lewis Structures (Resonance) - Dinitrogen Tetroxide]]
+	- [[(29) Chemistry - Chemical Bonding (29 of 35) Lewis Structures - Exceptions to the Octet Rule]]
+	- [[(30) Chemistry - Complete video - https - and  and www.youtube.com and watch.v=LJuBudyQ-Os]]
+	- [[(31) Chemistry - Chemical Bonding (31 of 35) Lewis Structures - Exceptions to the (Expanded) Octet Rule]]
+	- [[(32) Chemistry - Chemical Bonding (32 of 35) Lewis Structures - Exceptions to the (Separation) Octet Rule]]
+	- [[(33) Chemistry - Chemical Bonding (33 of 35) Lewis Structures - Exceptions to the (Resonance) Octet Rule]]
+	- [[(34) Chemistry - Chemical Bonding (34 of 35) Bond Dissociation - Diatomic Molecules]]
+	- [[(35) Chemistry - Chemical Bonding (35 of 35) Bond Dissociation - Average Bond Energies]]

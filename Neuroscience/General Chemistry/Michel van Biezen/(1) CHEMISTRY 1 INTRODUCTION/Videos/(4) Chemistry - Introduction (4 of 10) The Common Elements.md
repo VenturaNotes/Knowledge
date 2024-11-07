@@ -1,0 +1,83 @@
+[Video](https://youtube.com/watch?v=AMTEHoxwtA8)
+
+- ![[Screenshot 2023-07-10 at 12.42.38 AM.png]]
+	- Description
+		- [[Alkali Metals]]
+		- [[Alkaline Earth Metals]]
+		- [[Halogens]]
+		- [[Noble Gasses]]
+		- [[Non-metals]]
+		- [[Metals]]
+		- [[Metalloids]]
+	- First 36 elements of the [[periodic table]] are important to memorize
+		- [[Hydrogen]]
+			- Single proton nucleus
+			- Most common element in the universe
+			- three-quarters of the visible universe is made up of this
+		- [[Helium]]
+			- Most of the other quarter of the universe is made up of this
+			- Our sun is 99% hydrogen and helium
+		- [[Lithium]]
+		- [[Beryllium]] 
+		- [[Boron]]
+		- [[Carbon]]
+			- Element basis of life 
+			- Molecule that makes all chain bonds possible 
+		- [[Nitrogen]]
+			- Main component in our atmosphere
+		- [[Oxygen]]
+			- Second most abundant component in atmosphere
+			- This is used for chemical reactions that we need in our bodies to utilize food in order to have the energy to live
+			- Nitrogen and oxygen together form 99% of Earth's atmosphere
+		- [[Fluorine]]
+		- [[Neon]]
+			- Gas we use in Neon lights for colorful cities
+		- [[Sodium]]
+			- Salts
+		- [[Magnesium]]
+			- Salts
+		- [[Aluminum]]
+			- Common metal
+		- [[Silicon]]
+			- Kinda has the same properties as carbon
+			- Silicon and oxygen together are the main components that form sand and rock
+			- Used a lot in electronic devices 
+		- [[Phosphorus]]
+			- Used in matches
+		- [[Sulfur]]
+		- [[Chlorine]]
+			- Very corrosive material
+			- Used to keep things from growing in our swimming pools. Great cleaning product
+				- It has such a strong attraction to the last electron it needs to fill up its valance band, it reacts readily with almost anything 
+		- [[Argon]]
+			- A gas
+		- [[Potassium]]
+			- Another salt that our body needs
+		- [[Calcium]]
+			- Need for our bones
+		- [[Scandium]]
+		- [[Titanium]]
+		- [[Vanadium]]
+		- [[Chromium]]
+			- Going into more common metals
+		- [[Manganese]]
+		- [[Iron]]
+			- Most abundant metal in the universe
+			- Much of what we find at the center of the Earth and in our Earth's crust
+		- [[Cobalt]]
+			- Very common metals
+		- [[Nickel]]
+			- Very common metals
+		- [[Copper]]
+		- [[Zinc]]
+		- [[Gallium]]
+		- [[Germanium]]
+			- Acts a lot like silicon
+			- Used a lot in electronic devices 
+		- [[Arsenic]]
+			- Poisonous
+		- [[Selenium]]
+		- [[Bromine]]
+		- [[Krypton]]
+			- Noble gas
+	- Can guess why the elements do what they do and how they react because the location indicates the properties which is determined by how the electrons are stacked up in the orbitals around the nucleus of the atoms

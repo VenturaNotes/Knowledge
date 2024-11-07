@@ -1,0 +1,39 @@
+[Video](https://youtube.com/watch?v=Z2HWWjEaQ48)
+
+- ![[Screenshot 2023-07-26 at 1.23.41 AM.png]]
+	- Most [[lithium]] atoms have 3 [[proton|protons]] and 4 [[Neutron|neutrons]]
+		- Number of protons define the element
+		- Neutrons are there to keep the nuclear forces and electrical repulsive forces to keep nucleus together
+		- Neutrons are there to help keep nucleus intact
+		- Protons have an equal number of [[electron|electrons]] flying around the nucleus at very high speed
+		- 2 electrons in innermost energy level
+		- 1 electron in 2nd energy level
+	- Nucleus $\to$ protons and neutrons
+	- The place where electrons reside around the nucleus is divided into energy region
+		- Electrons typically like to be as close as possible to the nucleus because they tend to attract each other
+	- [[Hydrogen]] is the most simple [[atom]] in the universe
+		- Has a single proton in nucleus and a single electron going around it
+		- No neutrons in nucleus (unless you have the isotope [[deuterium]])
+	- Number of neutrons typically greater than or equal to the number of protons
+	- [[Nucleus]] tends to be extremely small
+		- Diameter typically between 2 to 3 femtometers
+		- Diameter of an atom with electrons is typically $10^{-10}$ meters
+			- easily a factor of 50,000 to 1 or 20,000 to 1 between diameter of nucleus and diameter of orbits of electrons
+	- Vast majority of mass is in the nucleus
+		- Electrons have virtually no mass
+	- Roughly speaking, mass of a proton is about 2,000 times the mass of an electron
+		- Approximately 1852 times
+		- More than 99.9% of mass in atom is in its nucleus
+			- Almost no mass resides in electrons around it
+	- Why do we need electrons?
+		- Protons attract negative charges (natural attraction between nucleus and electrons)
+		- Electrons gives atom its shape and solidity
+	- Size of atom is determined by the orbit of electrons (not the nucleus of the atom)
+		- If you have a basketball as a hydrogen proton, the electron would have an orbit with a diameter of 10 miles.
+	- An electron in a hydrogen atom goes around the nucleus 6 thousand trillion times per second
+		- The path it takes is a [[spherical shell]]
+	- The number of times the electron goes around is so enormous that it basically forms a presence continuously around the nucleus so that it basically forms a hard shell that makes up the volume of the atom
+		- So if you placed 2 atoms together, the closest that the 2 nuclei of the 2 atoms can get together would be 10 miles (in given real-world scenario above)
+	- Atoms are basically empty volumes with a tiny amount of volume representing the nucleus where almost all of its mass resides and the rest is just empty space
+	- Electron basically forms a hard shell presence around the nucleus making it difficult to go through
+	- The entire world population of 7 billion people could fit into the cap of a marker if all the space between the nuclei had been squished down to zero.

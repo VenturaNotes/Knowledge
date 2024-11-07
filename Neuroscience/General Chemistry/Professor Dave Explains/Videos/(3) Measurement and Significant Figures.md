@@ -1,0 +1,53 @@
+[Video](https://youtube.com/watch?v=Gn97hpEkTiM)
+
+- ![[Screenshot 2023-08-01 at 12.01.45 AM.png]]
+	- Why we developed units of measurement
+		- How far apart are two cities. 
+		- When did something happen. 
+		- How long before it happens again?
+	- Some correlate with natural phenomena (day, year, which are based on motion of Earth).
+		- However, many are arbitrary like most units of length and mass
+	- Have to be careful not to make an estimate that is more precise than our measuring abilities allow
+		- When using measuring devices, we only estimate one digit further than the level of precision inherent in the instrument
+		- In ruler example with cm, we can estimate the length of 2.33cm but not 2.33481 because we do not have access to that level of precision
+	- Any measurement will have a certain amount of [[significant figures]] (or sig figs) associated with it that display how precise it is
+	- Rules for determining number of sig figs
+		- (1) Non-zero digits are significant
+			- 316 = 3 sig figs
+		- (2) Zeros in between other digits are significant. 
+			- 6.003 = 4 sig figs
+		- (3) Leading zeros are not significant
+			- 0.00035 = 2 sig figs
+		- (4) Trailing decimal zeros are significant
+			- 35,000 = 2 sig figs
+			- 0.035000 = 5 sig figs
+	- 10,000 only has 1 significant figure. This means it's "about" 10,000
+		- Anything from 9,500 to 90,499 would round to 10,000
+	- Rules for Calculating with Sig Figs
+		- (1) When adding or subtracting, use the fewest number of decimal places
+		- (2) When multiplying or dividing, use the fewest number of sig figs.
+	- Example:
+		- Rounding to 3 sig figs
+			- 9.365 $\to$ 9.37
+				- 5 or higher means round up
+			- 9.364 $\to$ 9.36
+				- 4 or below means round down
+	- Checking Comprehension
+		- State the number of sig figs in each value
+			- (1) 0.00004050
+				- 4 sig figs
+			- (2) 54,700
+				- 3 sig figs
+			- (3) 1,000.09
+				- 6 sig figs
+			- (4) 0.039
+				- 2 sig figs
+		- Complete the calculations to the correct number of sig figs:
+			- (1) 5.4589 - 2.33
+				- 3.13
+			- (2) 16.872 + 3.8
+				- 20.7
+			- (3) 2.33 $\times$ 18
+				- 42
+			- (4) 31.9 / 7.318
+				- 4.36

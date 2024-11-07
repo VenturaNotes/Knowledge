@@ -1,0 +1,26 @@
+[Video](https://youtube.com/watch?v=jCNLtHdnsMg)
+
+- ![[Screenshot 2023-07-26 at 1.45.46 AM.png]]
+	- Ions either lose or gain an electron
+	- Sodium is an atom that is easily ionized (meaning we can easily remove an electron from the atom)
+		- Will be positively charged
+	- There is more room than 8 electrons in the 3rd energy level
+		- At least room in s and p orbitals for 8 electrons (1 missing for chlorine)
+		- Tendency for atoms to fill open spot with electron
+			- There is a force pulling an electron in
+	- Cation and anion will attract each other as they're opposite charges
+		- Will form a bond becoming a molecule
+	- We like to write the nucleus with the number of electrons in the outer shell
+		- A molecule is formed through the attractive forces between negative and positive ions
+	- Sodium chloride is the chemical name for a simple salt 
+		- The salt our bodies need (salt in salt shaker)
+			- Table salt or edible salt (we consume and need in our bodies)
+	- Sodium is a metal and chlorine is a nonmetal
+	- 2 oxygen atoms share electrons (has 6 electrons in outermost shell)
+		- 50% of the time, the shared electrons are at one oxygen atom and 50% at the other.
+		- 4 electrons become 4 shared electrons between the 2 oxygen atoms
+		- 1 oxygen atom will be more negatively charged and the other oxygen atom will be more positively charged. Their charges will constantly switch
+		- Forms the $O_2$ molecule which is the way oxygen exists in our atmosphere
+	- Molecules are formed by taking atoms that either lack or an excess of electrons
+		- Electrons are then shared causing atoms to become electrically charged
+			- Attract each other because of difference in electrical charge

@@ -1,0 +1,50 @@
+[Video](https://youtube.com/watch?v=dggHWvFJ8Xs)
+
+- ![[Screenshot 2023-07-31 at 5.25.04 PM.png]]
+	- [[Matter]] is anything that has mass and occupies space.
+		- It can have many forms
+		- 3 phases: solid, liquid and gas
+			- A [[Solid|solid]] has fix shape and volume. Particles are touching and do not move
+			- A [[Liquid|liquid]] has fixed volume but no fixed shape (it will mold to its container). Particles still touching but they do move fluidly
+			- A [[Gas|gas]] has no fixed volume or shape. It will completely fill its container. Particles are far apart moving freely and seldom touch
+	- Matter will frequently change forms
+	- A [[physical change]] is one in which the chemical composition of the substance is unchanged
+		- When ice melts, water is going from the solid phase to the liquid phase
+			- The way the water molecules are arranged changes but they are still water molecules
+		- A substance changing from one phase to another is always a physical change
+	- A [[chemical change]] is when the chemical composition of the substance does change.
+		- Chemical bonds between atoms must break and form to generate completely new substances
+		- Hydrogen gas and oxygen gas combine to form water
+			- Hydrogen and oxygen used to be connected to themselves and are now connected to each other.
+				- New bonds, new substance, chemistry has occurred
+		- Making an entirely new substance with new chemical bonds is known as a chemical change
+	- A [[pure substance]] is one that can't be separated into other materials by any physical processes
+		- Water, whether you boil or freeze it will still be water. It's a type of [[molecule]] which is just multiple connected atoms
+	- An [[element]] can't be broken down into smaller parts by physical or chemical means. 
+		- For example, water is not an element. It's a [[compound]] because it's made of two or more elements. In this case, oxygen and hydrogen
+			- By a chemical process, we can divide water into two elements but that's as far as we can go with chemistry
+				- These are now molecules of a given element
+- ![[Screenshot 2023-07-31 at 5.31.33 PM.png]]
+	- A [[mixture]] is made of two or more pure substances and these can be separated by physical processes
+		- If you boil salt water, the water will evaporate and the salt won't
+			- So the substances will have separated
+		- A [[homogeneous mixture]] means all the substances are distributed evenly and every section looks the same like sugar and water
+		- A [[heterogeneous mixture]] means the substances are not distributed evenly and zooming in on different sections would look differently like oil and water
+	- Pure substances
+		- Elements made of only one type of atom
+		- Compounds which are made of different types of atoms but are still just one type of molecule
+	- Mixture (made of multiple types of molecules)
+		- Arranged in either heterogenous homogeneous fashion
+- ![[Screenshot 2023-07-31 at 5.34.00 PM.png]]
+	- Checking Comprehension
+		- Label the following processes as a physical or chemical change
+			- (1) Dew condensing on a leaf
+				- <mark style="background: #FFF3A3A6;">Physical</mark>
+			- (2) A metal pipe rusts
+				- <mark style="background: #FFF3A3A6;">Chemical</mark>
+			- (3) Chopping firewood
+				- <mark style="background: #FFF3A3A6;">Physical</mark>
+			- (4) Alcohol ferments
+				- <mark style="background: #FFF3A3A6;">Chemical</mark>
+		- Label the following as either an element, compound, homogeneous mixture, or heterogeneous mixture
+			- <mark style="background: #FFF3A3A6;">In order: heterogeneous mixture, homogeneous mixture, element, compound</mark>

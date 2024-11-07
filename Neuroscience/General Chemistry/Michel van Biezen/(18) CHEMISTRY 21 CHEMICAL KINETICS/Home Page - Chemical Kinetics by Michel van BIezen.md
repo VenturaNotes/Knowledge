@@ -1,0 +1,40 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXW5YIBZiWkjf-O-FM7F0a4f
+Length: 2 hours, 35 minutes, 22 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Chemistry - Chemical Kinetics (1 of 30) Definition]]
+	- [[(2) Chemistry - Chemical Kinetics (2 of 30) Reaction Rate- Definition]]
+	- [[(3) Chemistry - Chemical Kinetics (3 of 30) Reaction Rate- Graphical Representation]]
+	- [[(4) Chemistry - Chemical Kinetics (4 of 30) Reaction Rate- Example]]
+	- [[(5) Chemistry - Chemical Kinetics (5 of 30) Reaction Rate- Rate Law]]
+	- [[(6) Chemistry - Chemical Kinetics (6 of 30) Reaction Order - Defined]]
+	- [[(7) Chemistry - Chemical Kinetics (7 of 30) Reaction Order - Example]]
+	- [[(8) Chemistry - Chemical Kinetics (8 of 30) Reaction Order - How Are They Determined.]]
+	- [[(9) Chemistry - Chemical Kinetics (9 of 30) Reaction Order - How Are They Determined. Ex. 1]]
+	- [[(10) Chemistry - Chemical Kinetics (10 of 30) Finding the Rate of Constant Using Initial Rates]]
+	- [[(11) Chemistry - Chemical Kinetics (11 of 30) Finding the Order - Using Initial Rates]]
+	- [[(12) Chemistry - Chemical Kinetics (12 of 30) Finding the Order Using the Isolation Method]]
+	- [[(13) Chemistry - Chemical Kinetics (13 of 30) Finding the Reaction Rate - Example]]
+	- [[(14) Chemistry - Chemical Kinetics (14 of 30) How does the Order Affect the Reaction Rate.]]
+	- [[(15) Chemistry - Chemical Kinetics (15 of 30) Finding Rate Law & Rate Constant, k]]
+	- [[(16) Chemistry - Chemical Kinetics (16 of 30) 1st Order Reactions - Logarithmic Function]]
+	- [[(17) Chemistry - Chemical Kinetics (17 of 30) 1st Order Reactions - Exponential Function]]
+	- [[(18) Chemistry - Chemical Kinetics (18 of 30) The Half-Life of a Reaction]]
+	- [[(19) Chemistry - Chemical Kinetics (19 of 30) How to Determine the Rate Constant - Summery]]
+	- [[(20) Chemistry - Chemical Kinetics (20 of 30) Reaction Rate for a Second Order Reaction]]
+	- [[(21) Chemistry - Chemical Kinetics (21 of 30) Half-Life for a Second Order Reaction]]
+	- [[(22) Chemistry - Chemical Kinetics (22 of 30) Example of a Second Order Reaction (NO2)]]
+	- [[(23) Chemistry - Chemical Kinetics (23 of 30) Activation Energy]]
+	- [[(24) Chemistry - Chemical Kinetics (24 of 30) The Arrhenius Equation]]
+	- [[(25) Chemistry - Chemical Kinetics (25 of 30) Determining the Activation Energy]]
+	- [[(26) Chemistry - Chemical Kinetics (26 of 30) What is a Catalyst.]]
+	- [[(27) Chemistry - Chemical Kinetics (27 of 30) The Haber Synthesis of Ammonia, NH3]]
+	- [[(28) Chemistry - Chemical Kinetics (28 of 30) 5 Easy Steps to Making Nitric Acid, HNO3]]
+	- [[(29) Chemistry - Chemical Kinetics (29 of 30) How Does the Catalytic Converter Work.]]
+	- [[(30) Chemistry - Chemical Kinetics (30 of 30) How is Ozone Depleted in the Stratosphere.]]

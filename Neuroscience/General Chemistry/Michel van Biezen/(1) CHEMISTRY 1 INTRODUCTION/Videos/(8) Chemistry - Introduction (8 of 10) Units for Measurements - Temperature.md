@@ -1,0 +1,26 @@
+[Video](https://youtube.com/watch?v=LTynNe-mdB0)
+
+- ![[Screenshot 2023-07-25 at 7.14.42 PM.png]]
+	- [[kelvin]] scale (k)
+		- based on the [[absolute zero]]
+			- Coldest it can get anywhere in the universe
+			- Called the zero point for the kelvin scale 0k
+	- [[Centigrade]] scale
+	- [[Fahrenheit]] scale
+	- Kelvin scale and centigrade scale both have the same size units
+		- 1 kelvin degree is the same as 1 centigrade degree
+		- differ by 273.15$\degree$
+	- [[Freezing]] point of water is $0\degree C$ at standard pressure
+	- [[Boiling]] point of water is $100\degree C$ at standard pressure
+	- $1C\degree$ = $\frac {9}{5} F\degree$ (size-wise)
+		- $1 \degree C \ne 1C\degree$
+			- $1\degree C$ = an actual temperature measurement. It's one degree above 0
+				- Actual temperature
+			- $1C\degree$ = the delta. The difference between 14 and 15 or 20 and 21
+				- Size of the degree
+	- Scale conversions
+		- k $\to$ C
+		- C $\to$ F
+		- F $\to$ C
+	- $37\degree C$ is human body temperature
+		- 98.6$\degree$F

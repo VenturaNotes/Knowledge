@@ -1,0 +1,123 @@
+[Video](https://youtube.com/watch?v=ibhnP5suqK8)
+
+- ![[Screenshot 2024-01-29 at 1.10.30 AM.png]]
+	- Overview of [[biology]]
+		- It's the study of life
+	- Lots of disciplines that use the concepts of biology
+		- [[Biochemistry]]
+		- [[Molecular biology]]
+		- [[Wildlife ecology]]
+		- [[Evolutionary biology]]
+		- [[Biophysicist]]
+	- 4 big ideas (that cover all of biology)
+		- [[Evolution]]
+			- [[Charles Darwin]]
+				- He believed that all life shared common ancestry
+				- Proponent of [[macroevolution]]
+					- In other words [[species]] forming new species
+					- First one to come up with mechanism to explain how adaptation and evolution actually works and it's called [[natural selection]]
+					- Quintessential example is [[peppered moths]]. They have two different [[phenotypes]] (or physical appearances, dark and light). The trees were light relatively but during the [[industrial revolution]], so much soot coming from coal was making trees turn black
+						- If you were a bird back in the day, you would pick on the black moths, but as the trees got darker, the birds were starting to isolate on the white moths
+						- Saw a change in the number of those
+						- The moths are not changing their appearance. It's just selection in nature that's determining that (natural selection) 
+				- There are 5 things that can cause [[evolution]]
+					- [[Natural selection]]
+						- Allows organisms to become better adapted to their local environment
+					- [[Small sample size]]
+					- [[non-random mating]]
+					- [[mutation|mutations]]
+					- [[immigration]] or [[emigration]]
+						- movement into or out of a population
+					- If we ever get change in the frequency of a [[gene pool]], evolution has occurred
+			- [[Phylogenetic tree]] (Looks like old drawing of Darwin)
+				- [[Bacteria]]
+					- [[Aquifex]]
+					- [[Thermotoga]]
+					- [[Bacteroides ]]
+					- [[Cytophaga]]
+					- [[Planctomyces]]
+					- [[Cyanobacteria]]
+					- [[Proteobacteria]]
+					- [[Spirochetes]]
+					- [[Gram Positives]]
+					- [[Green Filamentous bacteria]]
+				- [[Archaea]]
+					- [[Pyrodictcum]]
+					- [[Thermoproteus]]
+					- [[T. celer]]
+					- [[Methanococcus]]
+					- [[Methanobacterium]]
+					- [[Methanosarcina]]
+					- [[Halophiles]]
+				- [[Eucaryota]]
+					- [[Diplomonads]]
+					- [[Microsporidia]]
+					- [[Trichomonads]]
+					- [[Flagellates]]
+					- [[Ciliates]]
+					- [[Plants]]
+					- [[Fungi]]
+					- [[Animals]]
+						- We are here
+					- [[Slime molds]]
+					- [[Entamoebae]]
+		- [[Free energy]]
+			- Energy will flow from [[sun]] to [[Earth]]. On Earth, [[plants]] or [[Producer|producers]] will use process of [[photosynthesis]] to convert [[energy]] into [[sugar]] so they can build plants and use energy.
+				- Plants do another process called [[respiration]]
+					- A way to release energy found in sugars generally in the form of [[ATP]]
+						- It will all leave into eventually something called [[heat]]
+			- Free energy is energy available to do work or do something
+			- Another idea is maintaining a stable internal environment
+				- Must maintain [[homeostasis]]
+					- Maintaining a stable environment is what a plant does
+					- Not being able to maintain homeostasis means you're dead
+				- To do this, we use a [[feedback mechanism]]
+					- Best example are speed signs. If you're going too fast you slow down and if you're going too slow you speed up
+				- Our [[body temperature]] is $98.6\degree F$ 
+					- We maintain that through homeostasis
+					- We also maintain the below to keep ourselves alive
+						- [[blood glucose level]]
+						- [[blood calcium level]]
+						- [[osmolarity]]
+		- [[Information]] (described in next part)
+		- [[Systems]]
+- ![[Screenshot 2024-01-29 at 1.29.09 AM.png]]
+	- [[Information]]
+		- Information flow from organism to [[organism]]. Generation to generation.
+		- The one thing we use to do that is [[DNA]]
+			- DNA has really taken over biology
+			- It wasn't until the 1950s that we unlocked the shape of it
+		- [[DNA]] (Deoxyribonucleic acid)
+			- [[Cytosine]]
+			- [[Guanine]]
+			- [[Adenine]]
+			- [[Thymine]]
+			- [[Nucleobases of DNA]]
+		- DNA is what we call the [[central dogma of life]]
+		- DNA sits in the [[nucleus]] of your [[cell]]. It makes [[RNA]] and that RNA makes [[proteins]]. Those proteins make you
+			- We are the result of proteins and protein action
+			- It's the blueprint or DNA inside you that says this is the proteins you need to make and when you need to do them. That information flow is super important
+				- If we went back to first organism, it had DNA (it's been copied, mutated and changed and selected through time to create all the organisms that we have on our planet)
+				- Information super important
+		- Within DNA is the idea of [[genetics]] and [[genes]]. [[Gregor Mendel]] unlocked that idea
+			- We learned how to do [[Punnett squares]]
+				- What a [[gene]] is, what an [[allele]] is, is important
+		- We're not static
+			- We're able to respond to our environment. [[Cell communication]]
+				- Cells are communicating with one another
+				- [[Signal transduction pathway]]
+					- A [[ligand]] hits on a [[protein]] and you have a series of chemical reactions. So we can actually express a gene and we can make a protein do something
+				- [[Nerve|nerves]], [[hormones]], and [[pheromones]], are all examples of cell communication
+					- It's the transfer of information
+					- A wolf howling at night is an example of information transfer
+	- [[Systems]]
+		- In [[biology]], we're built on this hierarchy of life.
+			- Living things are made of [[carbon compounds]]
+				- Those are organized into [[macromolecules]] which make [[Organelle|organelles]] which make [[cells]] which make [[tissues]] which make [[organs]] which make [[organ systems]], which make [[organisms]] which make [[populations]] which make [[communities]] and [[ecosystems]] and [[biomes]] and [[Biosphere|biospheres]]
+			- At each of the different levels, we start to get [[emergent properties]]
+				- Properties that weren't there the level before
+		- The way systems are organized is important.
+			- Just as important as that is our interactions. Here is [[E.O. Wilson]]. Most famous biologist alive today. He is the referred to as the father of [[biodiversity]]
+				- He has become famous for showing that in these major [[ecosystems]], we have interactions between different populations, [[symbiosis]]. All these systems are interacting together
+				- All the [[organs]] in an [[organ system]] like the [[circulatory system]] are working together but so are all the [[populations]] in a [[Communities|community]]
+		- Systems and interactions are another major theme in biology

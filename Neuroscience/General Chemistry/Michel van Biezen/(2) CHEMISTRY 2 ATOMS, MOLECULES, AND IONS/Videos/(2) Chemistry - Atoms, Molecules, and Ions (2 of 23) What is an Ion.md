@@ -1,0 +1,23 @@
+[Video](https://youtube.com/watch?v=izdNQNW-Pt8)
+
+- ![[Screenshot 2023-07-26 at 1.33.55 AM.png]]
+	- Since sodium has 11 protons in the nucleus, it will have 11 electrons around the nucleus
+	- The place where the electrons reside are called shells (energy levels)
+	- The innermost energy level is called the s shell.
+		- Only room for 2 electrons
+	- Second energy level has room for 8 electrons
+	- The single electron in 3rd shell of sodium is relatively easy to remove
+		- If something else comes along that pulls hard enough on electron to remove it, the sodium will now miss an electron
+		- Then sodium would have 11 protons and 10 electrons
+			- There are 11 positive charges and 10 negative charges
+				- This would cause sodium to become positively charged by a +1 amount ($Na^{+1}$)
+				- This makes sodium an [[ion]]
+					- Anytime you have an atom which has an electron removed now turns into a positive ion ([[cation]])
+	- Fluorine (9 protons in the nucleus so 9 electrons)
+		- 7 electrons in 2nd shell
+		- 9 protons and 9 electrons causes it to be electrically neutral and an atom
+		- If Fluorine gains an electron, this creates an [[anion]] which is a negatively charged ion
+	- If Fluorine took Sodium's electron, the 2 ions would chemically bond together
+		- When you add or subtract electrons from shells around nucleus of an atom, it turns an atom into an ion. The ones that become ions will be a force of repulsion and attraction
+			- The ones that attract each other will form what we call [[molecules]].
+				- This is the basis of how molecules are formed by turning atoms into ions by either removing or adding electrons

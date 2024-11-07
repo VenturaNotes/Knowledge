@@ -1,0 +1,33 @@
+[Video](https://youtube.com/watch?v=f_iMJqCL7iY)
+
+- ![[Screenshot 2023-05-22 at 1.44.17 AM.png]]
+	- Alkali Metals, Alkaline Earth Metals, Metals, Metalloids, Halogens, Noble Gases, Non-metals
+	- Structure of periodic table
+		- Numbers represent atomic numbers (protons in nucleus of atom)
+		- On first row, electrons occupy the innermost energy level of atom
+		- Next energy level is on 2nd row
+			- S orbitals
+			- 6 more in p orbitals
+	- Periodic table organized in such a way that it represents where the electrons are located in orbits around the nuclei
+		- Also arranged in such a way that when we look at the vertical columns, a lot of the elements in the same column have the same/similar properties
+	- Alkali Metals (1A column) similarity is that they all have one extra electron after the previous energy level or orbitals filled
+		- Since only 1 electron with many open spots, elements have a tendency of very easily giving up extra electron to another atom such as Fluorine (halogens just 1 electron short from filling up outer energy level with electrons)
+	- Alkali metals and halogens bond pretty readily with each other by simply exchanging an electron forming a very strong ionic bond. 
+		- When alkali metals give up an electron, it becomes positively charged
+		- Halogens become negatively charged and then are attracted to the positively charged alkali metals
+	- Carbon in 4A column. Interesting because it has 4 valence electrons and 4 open spots (can give away 4 or get 4 more). Silicon and Germanium have very interesting properties
+	- Elements left of column 3A are called metals (metallic properties)
+		- Right of 3A are considered non-metals
+	- Metalloids have properties of both metals and non-metals (which are shown with the elements with red boxes around them). Transition region of periodic table
+	- Right-most column of periodic table known as noble gasses
+		- They're gases because they don't bond with other elements
+		- Their outer energy levels are filled with electrons
+	- Locations of various energy levels around the nucleus of atoms where electrons end up being located due to electrical forces that exist between the nucleus and electrons and where they can go into an orbit motion around the nucleus
+		- 1A and 2A have s orbitals filled with electrons
+		- Right side has p orbitals filled
+		- Center of periodic table has d orbitals
+		- f orbitals are metals shown below main part of periodic table
+	- Will learn more about how atoms actually interact chemically due to their properties. Properties then illustrated simply by location where they exist on periodic table
+	- Hydrogen has many of the same properties as halogens
+		- Hydrogen could be placed in halogens column
+		- Hydrogen considered a metal in solid form (so better in alkali metals column than halogen column)

@@ -1,0 +1,43 @@
+[Video](https://youtube.com/watch?v=mYx7gtnDRzM)
+
+- ![[Screenshot 2023-10-10 at 1.55.26 AM.png]]
+	- [[cation]] $\to$ Donates 1 or more electrons
+		- Positive Ions
+	- [[anion]] $\to$ Receives 1 or more electrons
+		- Negative ions
+	- Cations + anions (bond due to electrical attraction)
+		- (Regular Name) + (First Part + "IDE")
+		- $Na^+ + Cl^-$ 
+			- Sodium Chloride
+	- [[Nomenclature]]
+	- [[Ionic compound]]
+		- Compounds created by exchanging electrons so that the elements that are doing the exchanging become [[ion|ions]] and then become electrically attracted to one another.
+		- Want to exchange electrons to go to a lower energy state
+			- This happens because energy is released and we're now in a lower more stable energy state
+	- All elements below hydrogen in column have a tendency when becoming ionized to give off 1 electron
+		- Makes sense because they all have one extra electron in the outermost energy level
+			- More than happy to give electron away
+		- [[nonmetal|nonmetals]] tend to be very strong attractors of electron and tend to rip the electron off the first column elements
+	- Second column has 2 electrons in outermost energy level
+		- If the elements become ionized, gives both electrons away to become cations with a + 2 charge
+	- In the metallic region of periodic table, have a very specific way of electrons being removed
+		- [[Aluminum]]
+			- Only exists as an atom or as an ion with 3 electrons removed
+		- [[Zinc]]
+			- Only exists as an atom or as an ion with 2 electrons removed
+		- [[Silver]]
+			- When it's ionized, tends to give away 1 electron to become a +1 charged
+			- History
+				- Ag stands for "argentum" which is the latin name for silver
+				- That's why the word for money in french is argent (which comes from the word silver because they used to make money out of the silver pieces)
+	- [[anion|anions]]
+		- [[Nitrogen]] tends to attract 3 electrons (-3 charge when becoming ions)
+		- [[Oxygen]] and [[Sulfur]] attracts 2 electrons
+		- [[Fluorine]], [[Chlorine]], [[Bromine]] attracts 1 electron
+	- Left side of periodic table will typically react with right side to form compounds
+	- It's $Li_2O$ because you need them to be electrically balanced
+	- How do we know they have a certain amount of elements per compound?
+		- There is no choice
+		- They only become ionized in one particular way
+		- Therefore, no multitude of names to describe the various combinations that could exist
+		- Only one combination in each kind of bond between the cations and anions of the ones indicated

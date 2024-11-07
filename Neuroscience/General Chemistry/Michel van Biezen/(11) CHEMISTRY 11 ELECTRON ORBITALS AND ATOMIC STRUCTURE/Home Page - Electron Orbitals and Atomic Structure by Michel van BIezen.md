@@ -1,0 +1,51 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLX2gX-ftPVXXIA0pKC26EyXqYp2yxBidH
+Length: 4 hours, 47 minutes, 18 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Chemistry - Electron Structures in Atoms (1 of 40) Electromagnetic Radiation]]
+	- [[(2) Chemistry - Electron Structures in Atoms (2 of 40) Quantum Energy and The Proton]]
+	- [[(3) Chemistry - Electron Structures in Atoms (3 of 40) Source of Electromagnetic Radiation]]
+	- [[(4) Chemistry - Electron Structures in Atoms (4 of 40) Atomic Spectra]]
+	- [[(5) Chemistry - Electron Structures in Atoms (5 of 40) The Hydrogen Atom (The Bohr Atom)]]
+	- [[(6) Chemistry - Electron Structures in Atoms (6 of 40) The Photoelectric Effect]]
+	- [[(7) Chemistry - Electron Structures in Atoms (7 of 40) Photochemical Reaction]]
+	- [[(8) Chemistry - Electron Structures in Atoms (8 of 40) Photochemical Reaction - Atmosphere I - Nitrogen]]
+	- [[(9) Chemistry - Electron Structures in Atoms (9 of 40) Photochemical Reaction - Atmosphere II - Oxygen]]
+	- [[(10) Chemistry - Electron Structures in Atoms (10 of 40) Photochemical Reaction - Atmosphere III - Ozone]]
+	- [[(11) Chemistry - Electron Structures in Atoms (11 of 40) Photochemical Reaction - Atmosphere IV - Ozone]]
+	- [[(12) Chemistry - Electron Structures in Atoms (12 of 40) What is the Mystery of the Atom.]]
+	- [[(13) Chemistry - Electron Structures in Atoms (13 of 40) What is the Wave-Particle Duality.]]
+	- [[(14) Chemistry - Electron Structures in Atoms (14 of 40) Mystery Solved!  Electrons=Waves]]
+	- [[(15) Chemistry - Electron Structures in Atoms (15 of 40) The Bohr Atom & Particle Wave Duality]]
+	- [[(16) Chemistry - Electron Structures in Atoms (16 of 40) The Bohr Atom & the Uncertain Principle]]
+	- [[(17) Chemistry - Electron Structures in Atoms (17 of 40) The Electron and the Wave Eq - Part 1]]
+	- [[(18) Chemistry - Electron Structures in Atoms (18 of 40) The Electron and the Wave Eq - Part 2]]
+	- [[(19) Chemistry - Electron Structures in Atoms (19 of 40) The Schrodinger Eq. and the Electron]]
+	- [[(20) Chemistry - Electron Structures in Atoms (20 of 40) What Does Probability Density Funct. Mean.]]
+	- [[(21) Chemistry - Electron Structures in Atoms (21 of 40) Quantized Energy States (1-D Box)]]
+	- [[(22) Chemistry - Electron Structures in Atoms (22 of 40) Quantized Energy States (3-D Box)]]
+	- [[(23) Chemistry - Electron Structures in Atoms (23 of 40) The Schrodinger Eq and the Hydrogen Atom]]
+	- [[(24) Chemistry - Electron Structures in Atoms (24 of 40) The Principle Quantum Number - n]]
+	- [[(25) Chemistry - Electron Structures in Atoms (25 of 40) The Principle Quantum Number (Part 2)]]
+	- [[(26) Chemistry - Electron Structures in Atoms (26 of 40) Radial Probability Density Function - S-Orbital]]
+	- [[(27) Chemistry - Electron Structures in Atoms (27 of 40) The Orbital Quantum Number l]]
+	- [[(28) Chemistry - Electron Structures in Atoms (28 of 40) p-orbital Shapes]]
+	- [[(29) Chemistry - Electron Structures in Atoms (29 of 40) Angular Momentum of the s-Orbital Electron]]
+	- [[(30) Chemistry - Electron Structures in Atoms (30 of 40) Angular Momentum of the p-Orbital Electron]]
+	- [[(31) Chemistry - (31 of 40) (see 31.5 of 40 for complete video) Orbital (Magnetic Quantum Number) m(l)]]
+	- [[(32) Chemistry - Electron Structures in Atoms (31.5 of 40) Orbital (Magnetic Quantum Number) m(l)]]
+	- [[(33) Chemistry - Electron Structures in Atoms (32 of 40) Orbital (Magnetic Quantum Number) m(s)]]
+	- [[(34) Chemistry - Electron Structures in Atoms (33 of 40) The Four Quantum Numbers Summarized]]
+	- [[(35) Chemistry - Electron Structures in Atoms (34 of 40) Pauli Exclusion Principle]]
+	- [[(36) Chemistry - Electron Structures in Atoms (35 of 40) The 4 Quantum Numbers & The Periodic Table]]
+	- [[(37) Chemistry - Electron Structures in Atoms (36 of 40) Quantum  and The Electron Config 1-10]]
+	- [[(38) Chemistry - Electron Structures in Atoms (37 of 40) Hund's Rule]]
+	- [[(39) Chemistry - Electron Structures in Atoms (38 of 40) Quantum  and The Electron Config 11-18]]
+	- [[(40) Chemistry - Electron Structures in Atoms (39 of 40) Quantum  and The Electron Config 19-30]]
+	- [[(41) Chemistry - Electron Structures in Atoms (40 of 40) Orbital Energy Diagram]]
