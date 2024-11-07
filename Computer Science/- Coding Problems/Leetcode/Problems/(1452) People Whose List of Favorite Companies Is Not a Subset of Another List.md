@@ -1,0 +1,4 @@
+---
+Source:
+  - https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/
+---
