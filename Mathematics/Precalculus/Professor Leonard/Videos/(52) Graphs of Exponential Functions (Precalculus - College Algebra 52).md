@@ -1,0 +1,26 @@
+[Video](https://youtube.com/watch?v=2w14jBb0e9Q)
+
+- ![[Screenshot 2023-03-13 at 12.48.01 AM.png]]
+	- Graphs of exponential Functions
+		- f(x) = $a^x$
+			- x is the variable
+			- a is the base
+				- a > 0
+				- (positive constant)
+				- It's not going to be 1 either?
+				- Will get an increasing graph if > 1 and a decreasing graph if 0 < x < 1
+	- Exponents with negative values create fractions, not negative values
+	- Key Points
+		- (0, 1)
+		- (1, a)
+	- Domain: $\mathbb{R}$
+	- Range: (0, $\infty$)
+	- "e" is a constant
+		- known as Euler's number
+		- It is the natural number
+		- About 2.7
+		- It is a [[(Video) Transcendental Numbers - Numberphile|transcendental number]]
+	- If your base is > 1, you get something above 1. If your base is < 1, you get something less than 1. This helps when finding if a graph grows or decays.
+	- Since an exponential function is 1 to 1, we know that it has an inverse.
+	- Only way to solve an exponential function such as $f(x) = a^x$ is buy using a logarithm
+		- Unless of course a special case arises.

@@ -1,0 +1,36 @@
+[Video](https://www.youtube.com/watch?v=Td0apavz3Xg)
+
+- ![[Screenshot 2023-05-06 at 3.02.55 AM.png]]
+	- Page 1
+		- Lecture 1.3 Function Composition
+		- Previous Lesson
+			- Evaluating Functions
+			- Domain and Range
+			- Piecewise defined functions
+		- Function Composition: Suppose f and g are functions
+			- For each x in the domain of g such that g(x) is in the domain of f, we define the composite function:
+				- $(f\circ g)(x) = f(g(x))$
+					- f composed g
+					- We're evaluating f at g(x)
+		- Terminology
+			- Inside Function: g(x)
+			- Outside Function: f(x)
+		- Example
+			- Let $f(x) = x^2 + 3$ and $g(x) = x - 1$. Calculate and simplify $(f\circ g)(x) \text{ and } (g\circ f)(x)$
+		- Note:
+			- f composed g is not the same as g composed f.
+	- Page 2
+		- Example
+		- Evaluate each composite function below or explain why the function value is undefined
+		- Typically don't want to leave fraction in the denominator
+		- f(0)
+			- undefined as 0 is not in the domain of f(x)
+- ![[Screenshot 2023-05-06 at 3.16.34 AM.png]]
+	- Page 3
+		- For each function p(x) below, find functions f(x) and g(x) such that $p(x) = (f\circ g)(x)$
+			- There are multiple solutions to this
+	- Page 4
+		- Suppose and find
+		- When composing in each direction, if you get the same result, you get the identity function
+			- It tells us that they're inverse functions
+				- Flipped along the line $y=x$

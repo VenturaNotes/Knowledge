@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=e2kzTfNM7hU)
+
+- ![[Screenshot 2023-06-10 at 3.20.19 PM.png]]
+	- Trigonometry is the relationship between the sides of a triangle
+	- Angle between hypotenuse of the triangle and one of the sides is $\theta$ 
+		- Relationship between length of sides and angle between them
+	- [[Unit Circle]]
+		- Center is at the origin
+			- $x^2 + y^2 = R^2$ 
+			- In a unit circle, radius = 1
+			- [[Circumference]] of circle is $2\pi r$
+				- For unit circle, circumference is $2\pi$ (with whatever units may be)
+		- Angle theta indicates how big the angle is between the line (on x-axis) and the hypotenuse
+		- Relationship between theta, sides of triangle, and arc length of circle
+		- Angle counterclockwise is positive and clockwise is negative by definition
+		- Angle around circle is $360\degree$ = 2$\pi$ radians (radians is one of those non-units with no dimensions)
+			- $\pi$ $\approx$ 3.14159...
+		- $\frac 18 c$ distance of circle is equal to $\frac {\pi}{4}$
+			- $\theta$ = $\frac {\pi}{4}$ gives an arc length of $\frac {\pi}{4}$ on the unit circle
+		- Radian to degree conversion
+		- Calculating point on unit circle (x, y)
+			- Can use [[pythagorean theorem]]

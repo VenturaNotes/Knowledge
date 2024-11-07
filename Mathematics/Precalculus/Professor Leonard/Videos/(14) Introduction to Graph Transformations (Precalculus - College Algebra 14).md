@@ -1,0 +1,59 @@
+[Video](https://youtube.com/watch?v=sTCRB6hMsC4)
+
+- Prof. Leonard is 6ft tall
+
+- ![[Screenshot 2023-03-03 at 10.43.45 PM.png]]
+	- Transformations moves functions up or down, left or right, or stretches and compresses, or reflects it.
+	- Trigonometric functions have graphs that go on forever
+	- [[Vertical Shift]] (saying that the output of a function with addition or subtraction will affect the output value)
+		- f(x) + x
+			- Shift Up
+		- f(x) - k
+			- Shift Down
+	- [[Horizontal Shift]]
+		- f(x+h)
+			- Shift Left
+			- In order to undo the adding to an input, you'd have to give be a smaller value that's to the left
+		- f(x-h)
+			- Shift Right
+			- In order to undo subtracting from your input, you'd have to give a bigger value in order to undo that and get the same height out of it.
+		- Note
+			- Usually anything in parentheses is always opposite of your intuition
+	- Key points important
+		- Function is even
+			- (1,1)
+			- (0,0)
+			- (-1,1)
+		- Function is odd
+			-  (1,1)
+			- (0,0)
+			- (-1,-1)
+- ![[Screenshot 2023-03-03 at 10.58.54 PM.png]]
+	- [[Vertical Stretch and Compression]]
+		- y = af(x)
+			- a > 1
+				- Stretch
+				- Narrow
+			- a < 1
+				- Compression
+				- wide
+		- Grows the outputs
+	- [[Horizontal Stretch and Compression]]
+		- y = f(ax)
+			- a > 1
+				- Horizontal Compression
+			- a < 1
+				- Horizontal Stretch
+		- Can be changed to a vertical stretch or compression
+			- With trigonometry, you can't really do (but will be a different way to approach it)
+	- [[Reflection]]
+		- y = -f(x)
+			- About x-axis
+		- y = f(-x)
+		- About y-axis
+			- Affects input before you even got to the function
+		- Changes sign of input or output
+		- When reflecting graph vertically, you're reflecting about the x-axis
+	- f(x) stands for the output value of the function 
+	- A vertical stretch is a horizontal compression. A vertical compression is a horizontal stretch
+	- Adding a negative sign causes a reflection

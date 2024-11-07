@@ -1,0 +1,44 @@
+[Video](https://www.youtube.com/watch?v=Qtw-hHPlS1A)
+
+- ![[Screenshot 2023-05-05 at 7.42.16 AM.png]]
+	- Page 1
+		- Previous Lesson
+			- Slope (rate of change) of a line
+			- Equations of lines
+			- LInear functions: f(x) = mx + b
+		- Using Calculus, we can measure the rate of change of a function. (More on this later.)
+		- Recall: A function is a rule f that assigns to each x in the domain a unique number f(x).
+			- Domain: Set of inputs (x-values) or possible values of the independent variable.
+			- Range: Set of outputs (y-values) or possible values of the dependent variable.
+		- Vertical line test: A graph is function provided no vertical line intersects graph more than one time.
+	- Page 2
+		- Remarks
+			- All non-vertical lines yield linear functions
+				- The domain of a linear function f(x) = mx + b is all real numbers $(-\infty, \infty)$
+		- Interval Notation: Suppose a, b are numbers with a < b
+			- Open interval: $(a,b)$
+			- Closed interval $[a,b]$
+			- Half-open intervals
+				- $(a, b]$
+				- $[a, b]$
+			- Infinite Intervals (will never have a closed interval for $\infty$)
+				- $(-\infty, \infty)$
+					- all real numbers
+				- $(a, \infty)$
+				- $[a, \infty]$
+				- $(-\infty, a)$
+				- $(-\infty, a]$
+- ![[Screenshot 2023-05-06 at 2.19.34 AM.png]]
+	- Page 3
+		- Example: Find the domain of each function using interval notation
+			- Pay attention to square roots and denominators
+			- All polynomials have a domain of all real numbers
+	- Page 4
+		- Example: For each function graphed, find its domain and range in interval notation. Evaluate f(-1)
+			- $(-\infty, 3]$ 
+				- can be read as all real number less than or equal to y=3
+- ![[Screenshot 2023-05-06 at 2.28.20 AM.png]]  
+	- Page 5
+		- Piecewise defined functions: depending on the interval, we have different function definition
+			- Evaluate
+			- Find the domain of g(x) in interval notation

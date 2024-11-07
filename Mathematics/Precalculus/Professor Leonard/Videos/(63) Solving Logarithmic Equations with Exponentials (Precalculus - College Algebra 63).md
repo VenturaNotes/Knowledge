@@ -1,0 +1,33 @@
+[Video](https://youtube.com/watch?v=jNUyVClUQfc)
+
+- ![[Screenshot 2023-03-13 at 9.40.34 PM.png]]
+	- Steps
+		- (1) Get all logs on one side + constant on the other
+		- (2) Combine the logs
+		- (3) Use an exponential (write in exponential form)
+	- When solving for x, ensure there are no domain issues.
+	- For $log_24$ 
+		- I'm not simplifying the second log so that we can practice our combining, although it could be simplified to 2 and subtracted from 5
+	- Usually not going to see constants greater than 1 or 2 since numbers would be more difficult for us to work with on a test.
+	- For right-most problem
+		- Distribute everything (group everything on one side)
+			- Factor it
+			- Quadratic formula it
+			- Rational zeros theorem to find a root (if it's really difficult to factor)
+	- Need to check if solutions valid
+- ![[Screenshot 2023-03-14 at 1.54.58 AM.png]]
+	- For left-most problem, doing the left method is better because it eliminates problems that the right method can give.
+		- Make sure to simplify and factor the argument of a logarithm
+- ![[Screenshot 2023-03-13 at 10.23.02 PM.png]]
+	- When changing the base of a logarithm, usually choose the lowest number across all logs in the equation to try to make them the same.
+	- In $2^7=x^{\frac 74}$
+		- What do you need to multiply $x^{\frac 74}$ to make that 1?
+			- That would be multiplying it by the reciprocal. 
+	- About 3 different ways to solve the middle problem
+		- Distribute the fractions into the exponents of the arguments
+			- Is the recommended method
+		- Get rid of all the denominators
+		- Raise the exponent to the denominator for both sides
+	- Needed to simplify $log_216$ because otherwise you couldn't do substitution
+- ![[Screenshot 2023-03-13 at 10.29.19 PM.png]]
+	- Solving logarithms without common bases.

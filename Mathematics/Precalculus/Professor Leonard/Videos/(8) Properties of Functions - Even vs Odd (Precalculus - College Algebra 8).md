@@ -1,0 +1,24 @@
+[Video](https://youtube.com/watch?v=6897XAx3O9Q)
+
+- ![[Screenshot 2023-03-01 at 11.09.29 PM.png]]
+	- In single term functions, the power will tell you if the function is even or odd
+		- In polynomials we lose that
+		- Functions that don't have any exponents can be even vs odd
+	- cos(x) is an even function
+	- Ways to find if graph is odd
+		- For the top-right graph, imagine you flip the right side across the y-axis and then across the x-axis. It will look exactly the same as the graph on the left side of the axis before the transitions.
+		- You could flip the graph around 180 (look at it upside down and it needs to look the same)
+	- When graphing polynomials and especially rational functions
+		- even vs odd will tell us a whole lot on how they'll look
+			- In a neighborhood of points, how they behave with asymptotes, x-intercepts (has to do with multiplicity which is an even vs odd idea)
+	- Many graphs are neither ever nor odd.
+	- [[Even]]: Symmetric about y-axis
+		- f(x) = f(-x)
+		- Even functions take opposite inputs and give you equal outputs
+	- [[Odd]]: Symmetric about origin
+		- -f(x) = f(-x)
+		- Take opposite inputs and you get opposite outputs
+- ![[Screenshot 2023-03-01 at 11.08.46 PM.png]]
+	- The shortcut for finding if a function is even or not only works for polynomial driven functions and not trig, etc. 
+		- If the exponent is odd, just evaluate it with the negative sign.
+	- When opposite values are undefined (such as in radicals), then the function is neither even nor odd.

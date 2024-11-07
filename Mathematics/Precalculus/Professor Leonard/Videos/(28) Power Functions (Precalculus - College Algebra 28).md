@@ -1,0 +1,32 @@
+[Video](https://youtube.com/watch?v=FXTlAPOBA_U)
+
+- ![[Screenshot 2023-03-05 at 12.42.03 AM.png]]
+	- Power functions
+		- Tells you the end behavior of a polynomial
+	- Even function symmetrical about the y-axis
+	- Odd function is symmetrical about the origin
+	- Odd functions
+		- Key Points
+			- (-1,-1)
+			- (0,0)
+			- (1,1)
+		- This is ONLY if a = 1 ... if 'a' is not 1, then the OUTPUT of the key points are changed
+		- Range
+			- (-$\infty$, $\infty$)
+		- Symmetry about origin
+	- Even function
+		- Key Points
+			- (-1, 1)
+			- (0,0)
+			- (1,1)
+		- Only if a = 1
+		- Range
+			- $[0, \infty)$ or $[-\infty, 0)$ or 
+		- Symmetry about y-axis
+	- Higher the degree of the leading term, the more dynamic the polynomial is
+	- Domain: All Real #'s
+	- Examples
+		- ![[Screenshot 2023-03-04 at 11.59.10 PM.png]]
+			- Only 4 kinds of curves
+	- Transformation of an even function does not keep it an even function
+		- $f(x) = (x+2)^2$ is not an even function

@@ -1,0 +1,25 @@
+[Video](https://youtube.com/watch?v=-k4uXF4hsAs)
+
+- ![[Screenshot 2023-03-07 at 3.44.05 AM.png]]
+	- Odd asymptotes means opposite infinities
+	- Horizontal asymptote is at y=0 because as the denominator reaches positive infinity, f($\infty$) = 0 and same for f($-\infty$) = 0
+	- Key points of $\frac 1x$which is an odd function
+		- (1, 1)
+		- (-1,-1)
+	- Key point of $\frac {1}{x^2}$ which is an even function
+		- (1,1)
+		- (-1,1)
+	- The +3 is a vertical shift (anything after a function outside the parentheses is a vertical shift)
+	- Do vertical shift first before horizontal shift
+	- g(x) is only even in relation to the vertical asymptote
+		- However, it's not an even function anymore after the transformation
+	- Even vertical asymptotes have to have at least a symmetry of infinity along vertical asymptote. Both will go to positive infinity or both will go to negative infinity.
+- ![[Screenshot 2023-03-07 at 4.03.32 AM.png]]
+	- Errata
+		- For left problem, the vertical asymptote is at x=-3
+	- 2 multiplies the output
+	- ![[Screenshot 2023-03-07 at 3.54.06 AM.png]]
+		- If the denominator has a lower constant, the graph will be similar to $\frac 1x$. Otherwise, it'll flip horizontally
+		- Horizontal asymptote is 1 because $\frac xx$ = 1
+	- A negative divided by a really small positive is a really negative number
+	- If we plug-in values that get really close to -1 in $(x+1)$, this is called the limit.

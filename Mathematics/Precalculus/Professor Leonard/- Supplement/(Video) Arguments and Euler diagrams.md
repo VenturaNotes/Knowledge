@@ -1,0 +1,142 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=mMRSznUM-8A
+Length: 18 minutes, 38 seconds
+Related:
+  - "[[(Video) 3-7 Arguments and Euler Diagrams]]"
+tags:
+  - status/complete
+  - type/video
+Published: true
+---
+- [^1] A [[Venn diagram]] shows all possible logical relationships between a collection of sets. But a [[(Video) Euler Diagrams to determine if a logical argument is valid|Euler diagram]] only shows relationships that exist in the real world
+	- ![[Screenshot 2023-03-08 at 5.45.37 PM.png]]
+		- The Venn diagram shows all possible combinations where it shows the intersection of Mammals and Birds. However, a mammal can never be a bird and vice versa as they are part of different classes in the animal Kingdom
+		- In the second example, You can never have a black card be a red card and vice versa. Also, only Red cards have diamonds so the Euler diagram is useful here.
+- For certain quantifiable arguments, we can use Euler diagrams.
+- Example 1:
+	- All cats purr
+	- Sparky is a cat
+	- =============
+	- $\therefore$ Sparky purrs
+	- Diagram
+		- ![[Screenshot 2023-03-08 at 5.36.18 PM.png]]
+			- You have a circle representing Purr "Purr"
+			- You have a circle representing cats "c"
+			- Red dot shows where Sparky is in the diagram
+	- The argument is <mark style="background: #FFF3A3A6;">valid</mark>
+- Example 2:
+	- All trees are green
+	- All Frogs are green
+	- =============
+	- $\therefore$ Frogs are trees
+	- Diagram
+		- ![[Screenshot 2023-03-12 at 10.09.47 PM.png|400]]
+			- Green represents all objects (creatures/vegetation/etc.)
+			- 2 possibilities
+		- This argument is <mark style="background: #FFF3A3A6;">invalid</mark>
+- Example 3
+	- All dogs chase tails
+	- You are not a dog
+	- =============
+	- $\therefore$ You don't chase a tail
+	- Diagram
+		- ![[Screenshot 2023-03-12 at 10.12.03 PM.png]]
+			- Shows a possibility that you don't chase tails
+	- This argument is <mark style="background: #FFF3A3A6;">invalid</mark>
+- Example 4
+	- All clocks tell time
+	- Sun doesn't tell time
+	- ===============
+	- $\therefore$ Sun is not a clock
+	- Diagram
+		- ![[Screenshot 2023-03-12 at 10.13.25 PM.png]]
+	- This argument is <mark style="background: #FFF3A3A6;">valid</mark>
+- Example 5
+	- All crabs have shells
+	- Some insects have shells
+	- ===============
+	- $\therefore$ Some insects are crabs
+	- Diagram
+		- ![[Screenshot 2023-03-12 at 10.17.25 PM.png]]
+			- There is a diagram that shows a possibility where some insects have shells and some don't but it doesn't necessarily mean that they are crabs as well. Since there is a 1 diagram that shows the conclusion to be false, the conclusion is false.
+	- This argument is <mark style="background: #FFF3A3A6;">invalid</mark>
+- Example 6
+	- Some people are drivers
+	- All drivers are happy
+	- ===============
+	- $\therefore$ Some people are happy
+	- Diagram
+		- ![[Screenshot 2023-03-12 at 10.38.29 PM.png|300]]
+	- The argument is <mark style="background: #FFF3A3A6;">valid</mark>
+- Example 7
+	- Some lawyers are judges
+	- Some judges are politicians
+	- ====================
+	- $\therefore$ Some lawyers are politicians
+	- Diagram
+		- ![[Screenshot 2023-03-12 at 10.42.34 PM.png]]
+			- No guarantee of overlap
+	- The argument is <mark style="background: #FFF3A3A6;">invalid</mark>
+- Example 8
+	- All pirates wear eye patches
+	- Some sailors are not pirates
+	- ====================
+	- $\therefore$ Some sailors do not wear eye patches
+	- Diagram
+		- ![[Screenshot 2023-03-12 at 11.43.41 PM.png]]
+			- You cannot create a unique outcome to support the argument
+			- <mark style="background: #FFF3A3A6;">If it's possible to draw the diagrams where they don't invalidate the premises and there exists a diagram that makes the conclusion false, the premises make the conclusion false.</mark>
+			- ![[Screenshot 2023-03-13 at 12.05.41 AM.png|150]]
+				- This should be a valid diagram as well. However, since there is a a diagram that can invalidate the premises, the conclusion is invalid.
+			- I believe there are still more than 2 ways to draw the above diagrams.
+	- The argument is <mark style="background: #FFF3A3A6;">invalid</mark>.
+- Example 9
+	- All elephants have tusks
+	- Some animals with tusks have trunks
+	- ======================
+	- $\therefore$ Some elephants have trunks
+	- Diagram
+		- ![[Screenshot 2023-03-12 at 11.55.16 PM.png]]
+	- The argument is invalid
+- Example 10
+	- Some cats catch mice
+	- All cats chase rats
+	- ================
+	- $\therefore$ Some rat-chasers catch mice
+	- Diagram
+		- ![[Screenshot 2023-03-13 at 12.07.02 AM.png]]
+	- This argument is <mark style="background: #FFF3A3A6;">valid</mark>
+---
+- Use can use Euler diagrams for some arguments containing if-then statements
+- Example 11
+	- If I eat meat, then I am strong
+	- I eat meat
+	- ====================
+	- $\therefore$ I am strong
+	- Equivalent
+		- All meat eaters are strong
+		- I eat meat
+		- $\therefore$ I am strong
+	- Diagram
+		- ![[Screenshot 2023-03-13 at 12.10.37 AM.png]]
+	- The argument is <mark style="background: #FFF3A3A6;">valid</mark>
+		- This is faster than making a truth table. Truth tables don't work for things that say "some". Truth table does not have the tools that allow you to do that.
+---
+- Example 12
+	- If tomorrow is Monday, then I celebrate
+	- Tomorrow is not Monday
+	- ============================
+	- $\therefore$ I don't celebrate
+	- Equivalent
+		- All Mondays I celebrate
+		- Tomorrow is not Monday
+		- $\therefore$ I don't celebrate
+	- Diagram
+		- ![[Screenshot 2023-03-13 at 12.13.19 AM.png]]
+			- Shows that we have 2 different possibilities where one doesn't support the conclusion so the argument is invalid.
+	- The argument is <mark style="background: #FFF3A3A6;">invalid</mark>
+
+## References
+
+[^1]: https://creately.com/blog/diagrams/venn-diagrams-vs-euler-diagrams/#comment-77853

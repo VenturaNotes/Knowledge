@@ -1,0 +1,36 @@
+[Video](https://youtube.com/watch?v=wHATRiYbPPA)
+
+- ![[Screenshot 2023-03-07 at 5.29.16 AM.png]]
+	- Steps for Graphing Rational Functions
+		- (1) Find Horizontal/Oblique Asymptote or end behavior
+		- (2) Factor + find vertical asymptote(s) +/or hole(s) w/ multiplicity
+		- (3) Find x-intercepts
+			- Numerator = 0
+		- (4) Find y-intencept
+			- Plug x = 0
+		- (5) Set f(x) equal to horizontal or oblique asymptote to check for intersection (Not for y=0)
+			- If you find any x-values, this means that your graph intersects the horizontal asymptote
+		- (6) Make a # line w/ key points + find extra points
+		- (7) Graph
+	- You can use the y-intercept for an interval, but having more points is better.
+	- You can intersect a horizontal asymptote.
+		- This is because the graph approaches the asymptote at infinity.
+- ![[Screenshot 2023-03-07 at 5.41.44 AM.png]]
+	- This is alright for sketching, but could be better by doing long division of poly. and obtaining $x^2+4$ 
+		- This is a shift of the parabola up 4 units.
+	- You can cross end behavior 
+- ![[Screenshot 2023-03-07 at 3.59.49 PM.png]]
+	- You can find the y-intercept using the factored form.
+	- A horizontal asymptote does not have odd or even
+		- You need some other points which you could do with calculus though
+		- Maybe we could do it with some limits but we don't have that right now
+- ![[Screenshot 2023-03-07 at 4.17.08 PM.png]]
+	- Might get an untrue math statement if it doesn't cross y=2
+- ![[Screenshot 2023-03-07 at 4.31.49 PM.png]]
+	- We are sketching these functions. Not graphing them
+- ![[Screenshot 2023-03-07 at 4.39.17 PM.png]]
+	- 0 for an x-intercept means you'll have a 0 for a y-intercept
+	- Not doing step 5 for this problem because it will take a long time to distribute.
+		- An alternative method is to find points that would force your graph to cross
+- ![[Screenshot 2023-03-07 at 4.49.52 PM.png]]
+- Pretty much all that can be taught when graphing rationals in this class

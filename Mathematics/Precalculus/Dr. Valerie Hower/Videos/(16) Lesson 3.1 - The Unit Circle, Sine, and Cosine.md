@@ -1,0 +1,43 @@
+[Video](https://www.youtube.com/watch?v=eGZ7Pc2Xj18)
+
+- ![[Screenshot 2023-05-06 at 11.40.53 PM.png]]
+	- Page 1
+		- [[Angle|Angles]] (left is acute and right is obtuse in example)
+			- [[Terminal Side]]
+			- [[Vertex]]
+			- [[Initial Side]]
+		- In calculus, we typically use [[Radian|Radians]] to measure angles
+		- Definition: An angle is in standard position provided the vertex is at the origin (0, 0) and its initial side lies along the positive x-axis
+			- Definition: The radian measure of an angle $\theta$ is the arc-length along the unit circle traced out by $\theta$ in standard position
+				- Positive Angle
+					- Counterclockwise
+				- Negative Angle
+					- Clockwiseo
+	- Page 2
+		- Radians and the Unit Circle
+			- Question: What is the measure of the angle that is one full circle (counterclockwise)?
+				- Circumference of unit circle: $2\pi * 1 = 2\pi$ 
+			- 4 quadrants
+				- Quadrant 1
+				- Quadrant 2
+				- Quadrant 3
+				- Quadrant 4
+- Image
+	- Page 3
+		- Trigonometric Functions: cosine and sine
+		- For an angle $\theta$ in standard position, its terminal side intersects the unit circle at a point (x, y)
+		- Definition: We define cosine and sine of $\theta$ 
+			- cos$\theta$ = x
+			- sin$\theta$ = y
+			- Think of computer science (CS) to know position in coordinate
+		- Note: (x, y) on the unit circle means $x^2 + y^2 = 1$
+			- $cos^2\theta + sin^2\theta = 1$ is the most important [[Trigonometric Identities|Trigonometric Identity]]
+		- We need to memorize the sin and cos values of the 3 angles in each quadrant as well the angles on the x and y axes.
+		- Able to derive $cos\frac {\pi}{4}$ with the identity above
+			- If you're in quadrant I, you use the positive square root
+	- Page 4
+		- Equilateral triangle made so we know the y-value for sin$\frac{\pi}{6}$ is $\frac 12$ 
+			- Can use geometry and $cos^2\theta + sin^2\theta = 1$ to figure out when $\theta$ = 0, $\frac {\pi}{6}$, $\frac {\pi}{4}$, $\frac{\pi}{3}$ $\frac{\pi}{2}$, $\pi$, $\frac {3\pi}{2}$, $2\pi$ 
+		- For other angles: we use
+			- A [[reference angle]]
+			- Sign of x- and y-coordinates in given quadrant

@@ -1,0 +1,28 @@
+[Video](https://youtube.com/watch?v=NrmmR3-VxA8)
+
+- ![[Screenshot 2023-03-02 at 5.52.38 PM.png]]
+	- These functions should be memorized
+	- [[(21) Toolkit Functions]]
+	- Cubes maintain signs
+	- Odds may have key points of (-1,-1) and evens may have key points of (-1,1)
+	- You cannot touch a vertical asymptote. 
+		- <mark style="background: #FFF3A3A6;">You can cross horizontal asymptotes</mark> in some range/interval but as you get to infinity you're not going to touch them. You're going to approach them.
+	- Bottom 4 graphs are odd functions
+		- $x, x^3, \sqrt[3]{x},\frac1x$ 
+			- All have the points (1,1) and (-1,-1)
+		- $x, x^3, \sqrt[3]{x}$
+			- Always increasing
+			- Includes the point (0,0)
+		- $\frac 1x$
+			- Decreasing
+			- Domain is everything except 0
+			-  This can be called the reciprocal function as well
+			- It's also a rational function
+	- Top 3 graphs are even functions (besides $\sqrt{x}$)
+		- b, $x^2$, $|x|$
+		- $x^2$, $|x|$
+			- Decreasing and then increasing
+		- Almost all have (1,1) and (0,0) as key points
+	- Constants are horizontal straight lines
+	- Important to memorize key points but also (-1,-1), (0,0) and (1,1) are important points to remember
+	- Key points and shapes are crucial for understanding how a function shifts and stretches

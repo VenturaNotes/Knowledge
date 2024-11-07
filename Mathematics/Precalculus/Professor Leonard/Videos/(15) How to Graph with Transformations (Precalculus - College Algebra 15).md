@@ -1,0 +1,25 @@
+[Video](https://youtube.com/watch?v=HkrMJLSpJFI)
+
+- ![[Screenshot 2023-03-03 at 11.16.41 PM.png]]
+	- Example 1
+		- Up 2
+		- Right 3
+		- Vertical Compression
+		- Reflection about x-axis
+	- Example 2
+		- Down 1
+		- Left 1
+		- Vertical Compression
+		- Reflection about x-axis
+- ![[Screenshot 2023-03-04 at 12.15.50 AM.png]]
+	- Example 1
+		- Has a shift up 1, a shift right 2 and a vertical stretch by a factor of 3
+		- Please note that this technique also maintains both the vertical and horizontal asymptote (when finding x-intercept?)
+			- Can find the y-intercept by setting x=0
+		- When finding the y-intercept, set the equation equal to 0 and solve
+			- Seems like there is an x-intercept because the equation was shifted up even though most of the time, you will not get an x-intercept from the denominator
+	- "x" needs to be positive and first
+	- Identifying basic graph shapes is important
+	- Shifting horizontally is affecting the input
+	- Outside the function is multiplying/stretching
+	- Reflecting about the y-axis is affecting inside the input

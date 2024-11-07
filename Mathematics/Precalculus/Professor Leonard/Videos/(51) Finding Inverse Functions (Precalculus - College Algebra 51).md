@@ -1,0 +1,34 @@
+[Video](https://youtube.com/watch?v=fK7IPeeZoFE)
+
+- ![[Screenshot 2023-03-08 at 3.33.54 PM.png]]
+	- Finding Inverse Functions
+		- A Function has an inverse if and only if it is one-to-one
+			- Biconditional statement
+		- Inverse functions "undo" each other
+		- For f(x) which is a 1-to-1 function
+			- The Inverse is $f^{-1}(x)$ which is also a 1-to-1
+				- Pronounced f inverse of x
+				- Saying "arc" could be better to talk about the inverse of a function
+	- Take input, run through function, run through inverse, gives you back out whatever you plugged in
+		- (1,-2) $\rightarrow$ (-2,1)
+		- Swapping them
+		- ![[Screenshot 2023-03-08 at 3.30.04 PM.png]]
+	- Also notice how Domain became Range and Range became Domain from the function to the inverse
+	- You do not need to add $\pm$ sign in front of radical when taking the cube root because the index is odd
+	- Can compose 2 function to see if they're inverses
+	- An exponential is 1-to-1
+		- This is how we discovered logarithms
+		- When you compose logarithms and exponentials, they cancel.
+	- In order to find the inverse of a non 1-to-1 function, you just need to restrict the domain (potentially based on the axis of symmetry)
+- ![[Screenshot 2023-03-08 at 4.30.18 PM.png]]
+	- Do you see how a Vertical Asymptote at x=2 and a Horizontal Asymptote at y=0 for the function became a Vertical Asymptote at x=0 and Horizontal Asymptote at y=2 for the inverse?
+		- They switched just like domain and range!
+	- We rarely like to a see a negative on the denominator.
+	- Do you see how a Vertical Asymptote at x=1 and a Horizontal Asymptote at y=-2 for the function became a Vertical Asymptote at x=-2 and Horizontal Asymptote at y=1 for the inverse?
+		- They switched just like domain and range!
+	- To deal with complex fractions, multiply by the LCD
+	- It's important to set the domain
+- ![[Screenshot 2023-03-08 at 4.34.25 PM.png]]
+	- If you have a function with the point (-3,0). The inverse function will have a point (0,-3) in relation to that original point.
+	- Please notice how the Domain and Range switch between the function and the inverse
+	- one-to-one functions create inverses (can find them algebraically, and we know how they look graphically)

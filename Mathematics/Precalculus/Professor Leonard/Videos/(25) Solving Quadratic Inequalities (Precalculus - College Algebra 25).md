@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=qd41nGPHbMU)
+
+- ![[Screenshot 2023-03-04 at 10.02.42 PM.png]]
+	- Finding the interval where we are above or below a value
+	- Drawing a line over another line is superimposing (superimposition)
+		- The placement of one thing over another
+	- For intervals, it's always along the x-axis
+	- Parabolas will have alternating truth and false over a number line
+		- Our truth and false statements will also be always symmetrical
+	- $2x^2 < 5x + 3$
+		- This is saying "where is the parabola below the line?"
+	- Interval notation is more standard than inequality notation
+	- When we get to rational inequalities, it's possible to determine where we alternate and where we don't by multiplicity. So we reference that or the evenness and oddness of vertical asymptotes.
+	- Asking where a downward opening parabola is above the x-axis is the same thing as asking where an upward opening parabola is below the x-axis and your inequality would bear that out. Would still give the same interval even if you were to draw a different picture.
+		- ![[Screenshot 2023-03-04 at 9.50.18 PM.png|300]]
+			- $0 \ge x^2-3x-10$
+				- Would be the same as the equation above too
+	- Right-most problem has a solution of $\phi$ because the x-intercepts are imaginary.
+		- It could be no real solutions or all real solutions
+	- Your number line is just the x-axis
+	- Picturing the graphs tends to stick with students much better and with rational inequalities, it makes a lot more sense
+		- Will talk about multiplicity and even and oddness of vertical asymptotes

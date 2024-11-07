@@ -1,0 +1,46 @@
+[Video](https://www.youtube.com/watch?v=uaYzkCEYeKw)
+
+- ![[Screenshot 2023-05-05 at 6.54.56 AM.png]]
+	- What is the [[slope]] of a line?
+		- Steepness, rate of change
+		- If $(x_1,y_1)$ and $(x_2, y_2)$ on the line, the slope is 
+	- $\frac {\Delta y}{\Delta x} =$ notation for "change in y over the change in x"
+	- Interpretation
+		- Start at any point on line
+			- Move $\Delta x$ units along x-direction
+			- Move $\Delta y$ units along y-direction
+			- return to line
+	- Vertical Lines
+		- x = 7
+		- $\Delta x = 0$
+			- Undefined Slope
+	- Horizontal Lines
+		- y = 2
+		- $\Delta y = 0$
+			- Slope
+			- m = 0
+- ![[Pasted image 20230505065743.png]]
+	- Positive Slope
+		- Increasing functions
+	- Negative slope
+		- Decreasing functions
+	- Equation of lines
+		- Slope-intercept form
+			- Need slope (m)
+			- Intercept b
+				- i.e. (0, b) is on graph
+		- Point-slope form
+			- need slope m
+			- $(x_1,y_1)$ point on line
+	- Could say that calculus is the study of rates of change (slope is first example of thinking about this)
+		- Must read a graph left to right
+- ![[Screenshot 2023-05-05 at 7.11.20 AM.png]]
+	- Page 4
+		- Example: Find an equation of the line through points (4, 2) and (1, 3)
+		- Example: Find the slope of the line with equation 6x - 3y = 12 and graph the line
+	- Page 5
+		- Example: Find an equation of a line (in slope-intercept form) through the point (2, -1) that is 
+			- (a) [[Parallel]] to the line y = 5x + 2
+			- (b) [[Perpendicular]] to the line $y = 5x + 2$
+		- Linear Functions
+			- $f(x) = mx + b$ (Function Notation)

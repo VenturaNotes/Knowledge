@@ -1,0 +1,41 @@
+[Video](https://www.youtube.com/watch?v=J1LMlfmiDLs)
+
+- ![[Screenshot 2023-05-06 at 3.40.03 AM.png]]
+	- Page 1
+		- Previous 2 lessons
+			- Piecewise defined functions
+			- Function Composition
+		- What is the function $f(x) = |x|$?
+			- Domain
+			- Range
+		- The absolute value of x is equal to the square root of x squared
+			- $|x| = \sqrt{x^2}$
+	- Page 2
+		- Let and Evaluate
+		- Find all x-values satisfying $|2x - 3| = 7$
+		- Find all x-values satisfying $|\frac 14x - 5| - 2 = 0$
+- ![[Screenshot 2023-05-06 at 3.55.24 AM.png]]
+	- Page 3
+		- Write f(x) as a piecewise defined function
+		- Find all x-values satisfying f(x) = 5
+		- No solution found for square root of -1
+	- Page 4
+		- Let and find x- and y- intercepts of the graph of f(x). Give your answers as ordered pairs.
+			- You can never have more than y-intercept for a function because otherwise it would fail the vertical line test.
+		- Remark
+			- Geometrically, |x| measures the distance from x to 0 along a number line
+			- For numbers x and y, |x-y| gives the distance between x and y.
+		- Example:
+			- Solve the inequality |x - 3| $\le$ 8. Write your answer in interval notation
+			- Way 1: Use a number line
+			- $|x-3| \le 8$ 
+				- You want to find all x values that are within 8 of the number 3
+- ![[Screenshot 2023-05-06 at 3.59.23 AM.png]]
+	- Page 5
+		- Solving an inequality
+			- Properties for C > 0
+				- |y| < C is equivalent to -C < y < C.
+				- |y| > C is equivalent to y > C or y < -C.
+		- Example: Solve the inequality |x - 3| $\le$ 8. Write your answer in interval notation
+			- Way 2:
+		- Example: Solve the inequality |3x - 4| > 2. Write your answer in interval notation

@@ -1,0 +1,45 @@
+[Video](https://youtube.com/watch?v=jfnTwz79PWU)
+
+- ![[Screenshot 2023-03-13 at 2.13.14 AM.png]]
+	- Every 1 to 1 function needs to have an inverse
+	- To find the points of the inverse of a function, just reverse the points x and y.
+		- Horizontal asymptote on x-axis will become vertical asymptote on y-axis
+	- Logarithms solve for your exponent. It separates the base from the exponent and exponential notation puts it back together.
+		- Base for logarithm is the same as the base for the exponent.
+	- Logarithms:
+		- Domain: (0, $\infty$ )
+		- Range: ($-\infty$, $\infty$ )
+		- Key Points
+			- (1, 0)
+			- (a, 1)
+			- Vertical asymptote at x = 0
+- ![[Screenshot 2023-03-13 at 2.26.53 AM.png]]
+	- Exponential notation (5 equations to left)
+		- Will write as logarithms
+	- How to read logarithms ($log_39 = 2$)
+		- 3 raised to what power will give you 9
+		- In order to get from 3 to 9, what power do you need?
+	- How to read $log_a2.1 = 3$
+		- Log base a of 2.1 equals 3
+			- Never say log of a of 2.1 (because that log "of" will always have a base of 10)
+	- The logarithm separates the base from the exponent
+	- When you have a common logarithm $\log 2.3 = x$
+		- Just say log of 2.3
+	- This is a natural log $ln 8=x$
+		- This all means that we have a logarithm with base of e
+			-  "ln 8"
+			- "ln of 8"
+			- "Natural log of 8"
+		- Natural logs are incredibly common
+	- Base of a logarithm must be greater than 0 (all positive)
+	- Logarithms solve exponentials as addition solves subtraction
+- ![[Screenshot 2023-03-13 at 2.35.27 AM.png]]
+	- When you see an exponential inside a logarithm with the same, they'll cancel
+	- Anytime you see an exponential with a logarithm in the exponent with the same base, those are going to cancel too.
+	- Any logarithm of 1 will give 0
+- ![[Screenshot 2023-03-13 at 2.41.56 AM.png]]
+	- Argument of logarithm > 0
+		- Argument is 5 in $log5$ 
+	- Logarithms need positive domain
+	- [[(47) Inequalities with Rational Functions (Precalculus - College Algebra 47)]]
+		- This is to help to solve the right-most problem

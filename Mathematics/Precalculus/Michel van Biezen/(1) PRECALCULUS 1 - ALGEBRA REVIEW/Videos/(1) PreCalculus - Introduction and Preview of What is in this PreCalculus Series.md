@@ -1,0 +1,33 @@
+[Video](https://youtube.com/watch?v=W-Zxdsbr0Gw)
+
+- Series of Videos (Theory + Some Examples)
+- Topics Covered
+	- Fundamental topics in Algebra
+	- Best fit line
+	- Functions
+	- Polynomials
+	- Complex Numbers
+	- Rational Functions
+	- Exponential Functions
+	- Logarithmic Functions
+	- Trigonometry
+	- The Unit Circle
+	- Trigonometric Functions
+	- Triangles and Angles
+	- Law of Sine and Cosine
+	- Trig Identities
+	- Polar Coordinates
+	- Parametric Equations
+	- Vectors in 2 dimensions
+	- Vectors in 3 dimensions
+	- Equations of Lines and Planes
+	- Systems of Linear Equations
+	- Matrices
+	- Determinants and Kramer's Rule
+	- Systems of Non-linear equations/inequalities
+	- Parabolas, ellipses, Hyperbolas
+		- Conic sections
+	- Rotation of axes
+	- Series and sequences
+	- The binomial Theorem
+	- Limits

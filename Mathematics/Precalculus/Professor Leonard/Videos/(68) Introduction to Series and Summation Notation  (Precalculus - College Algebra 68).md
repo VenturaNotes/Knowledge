@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=Ipz9xXeoaRc)
+
+- ![[Screenshot 2023-05-13 at 11.29.24 PM.png]]
+	- Intro to series
+		- How to add the terms of a sequence
+	- A series adds up the terms of a sequence
+	- There are some predictable formulas that we can do proof by induction
+	- In Calculus 2, you can add an infinite series (infinite number of terms) and get something (it converges)
+	- Interesting things happen to transcendental numbers (such as $\pi$ and e) when we view them in a series
+	- $\Sigma$
+		- It's a greek letter S which stands for sum
+	- "k" is the index of your sequence and "n" tells you where to stop
+	- Sometimes "n" is infinite (giving an infinite sequence)
+	- $\Sigma_{k=0}^{n-1} (2k + 1)$ and $\Sigma_{k=1}^{n} (2k - 1)$ both represent odd numbers
+- ![[Screenshot 2023-05-14 at 2.35.32 AM.png]]
+	- [[Carl Friedrich Gauss]]
+		- Solved the $\Sigma_{k=1}^{n} k = \frac{n(n+1)}{2}$ in 5th grade
+	- Most of the formulas were discovered by pattern and then proved with induction (there are other ways to prove it)
+	- Repeated addition is multiplication
+	- You will never get a fraction as a result of the summation formulas for $k$, $k^2$ and $k^3$
+	- If you have to find the summation of a series and the starting index is not 1, you can find the sum from k = 1 to 24 and then subtract k= 1 to 3 if we're just looking for values of k between 4 and 24 (bottom-right image)

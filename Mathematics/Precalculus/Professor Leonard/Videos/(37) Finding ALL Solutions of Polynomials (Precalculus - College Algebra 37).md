@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=xuhk2kSVwe0)
+
+- ![[Screenshot 2023-03-06 at 8.25.40 PM.png]]
+	- Steps
+		- (1) Find a Zero
+		- (2) Create a factor
+			- Linear for a real zero
+				- synthetic division
+			- Quadratic for a complex pair
+				- Long division
+		- (3) Try to factor or repeat
+	- Factors with complex number system: $f(x) = (x-4)(x-2i)(x+2i)$
+	- Factors with real number system: $f(x) = (x-4)(x^2+4)$
+	- Have to distribute and simplify $(x-3) + 2i$ and its conjugate because it can't be the divisor for another polynomial over the real number system.
+	- You have an irreducible quadratic because that gave you complex solutions
+	- Degree of a polynomial
+		- Maximum number of factors you can have for real numbers
+		- Exact number of factors if you have complex
+- ![[Screenshot 2023-03-06 at 8.34.55 PM.png]]
+	- Multiplicity comes from the power of the factor (not the term)
+- ![[Screenshot 2023-03-06 at 8.47.07 PM.png]]
+	- When finding the factors of a number, if you go from 5 to 15, you know that you found all the factors (crossed the bridge)

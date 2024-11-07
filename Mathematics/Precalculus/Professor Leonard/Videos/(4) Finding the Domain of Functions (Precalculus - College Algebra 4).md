@@ -1,0 +1,43 @@
+[Video](https://youtube.com/watch?v=LvUCDcp6Z3k)
+
+- ![[Screenshot 2023-02-27 at 5.38.21 PM.png]]
+	- Finding Domain
+		- Domain is the set of inputs of a function that give a real number output
+		- Two Problem Areas
+			- Square root: $\sqrt{}$ 
+				- Inside must be positive
+				- Otherwise, you'd get an imaginary number
+			- Denominators $\frac {}{()}$ 
+				- Cannot equal zero
+				- Otherwise you'd get an undefined number/value
+	- We can have functions that have outputs which are imaginary numbers or complex numbers defined over the complex
+	- For things we normally graph, we are going to restrict this to functions that are defined over real numbers
+	- Square roots
+		- Can have problems with even roots
+	- Will consider logarithms as problems later
+	- Square root
+		- Interval of numbers of what numbers it wants to have
+	- Denominators
+		- Numbers it can't have (that equals 0)
+	- Can write domain as set-builder notation or interval notation
+	- Will get a vertical asymptote when the [[(42) Rational Functions and Graphs#^45f9bc|denominator is 0]]
+		- If there is a factor that cancels with the numerator, that x value will just create a hole in the graph
+			- A hole in the graph is known as [[removable discontinuity]]
+	- With logarithms you want numbers that are positive
+		- And base can't be 0
+	- When the numerator is equal to 0, that is where the x-intercepts are
+	- Factoring says to put your polynomial in order
+		- The exponents in $t^3 - 16t = 0$ are descending
+	- If you have $t^2$ subtracted by some real number, you can factor that
+		- ![[Screenshot 2023-02-27 at 3.51.38 PM.png]]
+	- When you have $\frac 00$, it's factorable and cancellable, so therefore a hole
+	- Vertical asymptote is created when t=4 because it causes denominator to equal 0
+		- ![[Screenshot 2023-02-27 at 3.55.43 PM.png]]
+	- For real numbers, a domain is a set of inputs that must give us a real number output
+	- If you have a logarithm, you need to set it greater than 0 (can't even equal 0)
+	- Output for exponentials has to be positive
+- ![[Screenshot 2023-02-27 at 5.33.32 PM.png]]
+	- If function does not have square roots, denominators, or logarithms, the domain will be all real numbers for every polynomial you have
+	- If you have a denominator that can never equal 0  or a square root that is always positive (such as $\frac {5}{\sqrt{x^2+1}})$, then your domain will be all real numbers. Also denominator could be a constant which would also not cause a problem.
+		- ![[Screenshot 2023-02-27 at 5.31.55 PM.png]]
+	- Next video is on operations of functions and their domains

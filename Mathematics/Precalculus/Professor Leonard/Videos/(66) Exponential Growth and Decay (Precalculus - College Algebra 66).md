@@ -1,0 +1,38 @@
+[Video](https://youtube.com/watch?v=rO-C48LY2KY)
+
+- ![[Screenshot 2023-03-14 at 1.02.20 AM.png]]
+	- Natural Growth/Decay
+		- $A(t) = A_0e^{kt}$
+			- $A_0$ = Initial Amount
+			- t = A time period
+			- A(t) = Amount after "t"
+			- k is the rate
+				- k > 0... Growth
+				- k < 0... Decay
+	- Helps to model population growth
+	- Need to match the unit of time that the problem is giving you
+	- It is positively increasing exponential growth
+- ![[Pasted image 20230314010854.png]]
+	- Find a formula for a population of bacteria that doubles every 3 hours
+	- A population of bacteria started with 100 units. After 3 hours, it had 170 units
+		- $170 = 100e^{k3}$
+	- The increase was 5.2% and started with 100 units.
+		- $A(t) = 100e^{.052t}$
+- ![[Screenshot 2023-03-14 at 1.27.31 AM.png]]
+	- Half-life of radium is 1690 years. If 20 years are present now, how much will be there in 50 years?
+		- You can never lose all of a substance theoretically based on half-life
+		- Rate of decrease is -0.00041 
+	- C-14 has a half life of 5730 years. If a dead tree has 30% of the C-14 it originally did, when did the tree die?
+		- Should get a positive value for how many years ago the tree died.
+	- You usually shouldn't round the solutions
+- ![[Screenshot 2023-03-14 at 1.40.02 AM.png]]
+	- A turkey comes out of the oven at 100$\degree$C and is 80$\degree$C in 5 minutes. When will it be 50$\degree$C so that I won't burn my fingers when I cut it? I keep my house at $30\degree C$
+	- Differential equations covers these topics much more at length
+	- Newton's Law of Cooling
+		- $u(t) = T + (u_0 - T)e^{kt}$
+			- T... Ambient Temperature
+			- $u_0$... Initial Temperature
+			- u(t)... Temperature after "t" time
+	- Exponential decay drops quickly initially but then drops slower, and slower and slower
+		- The Turkey will never theoretically reach $30\degree C$. Practically yes but theoretically no.
+	- Example is reflected but has a vertical shift + 30 which would be the horizontal asymptote

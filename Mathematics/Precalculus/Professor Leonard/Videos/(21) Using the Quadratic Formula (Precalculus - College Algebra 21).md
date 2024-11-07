@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=KIWXZVsdpbE)
+
+- ![[Screenshot 2023-03-04 at 5.17.05 AM.png]]
+	- Quadratic formula works all the time
+		- Mainly plug numbers in and simplify
+	- Factoring only works some of the time over integers
+	- Discriminant tells you if you'll get 2 real solutions, 1 real solution or 2 complex solutions
+		- If discriminant positive, 2 real solutions
+		- If discriminant 0, 1 real solutions
+		- If discriminant negative, 2 imaginary solutions
+	- Use completing the square if you have an easy quadratic to solve
+		- $x^2$ + an even b + some constant
+			- This type of trinomial is easy to solve by completing the square
+	- Never plug-in fractions into the quadratic formula (mathematically possible but just gets messy)
+- ![[Screenshot 2023-03-04 at 5.25.28 AM.png]]
+	- When you have a double root, it has a multiplicity of 2
+		- It gives us this idea of a repeated root or repeated factor
+		- On that particular x-intercept, you're going to be bouncing but not crossing it
+		- This happens when your discriminant is equal to 0
+	- Sign errors is the #1 mistake in math 
+	- <mark style="background: #FFF3A3A6;">Why we can change signs</mark>
+		- When you take a parabola and start reflecting it about the x-axis, the numbers on the x-axis cannot change. Reflection about the x-axis takes y-values and changes the sign. The y-value of an x-intercept is 0. Changing the sign of 0 doesn't change the x-intercept. That's why we can change the sign of an equation when solving for the x-intercepts.

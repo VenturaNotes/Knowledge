@@ -1,0 +1,42 @@
+[Video](https://www.youtube.com/watch?v=EtKbLwTcH5Y)
+
+- ![[Screenshot 2023-05-06 at 8.27.03 AM.png]]
+	- Page 1
+		- Previous Lesson
+			- Exponential Functions
+			- Exponential Equations (like bases)
+		- Definition
+			- For $a > 0, a \ne 1$, the base a logarithm: $y = log_a(x)$ is defined as follows
+		- Example
+			- $log_{49}(7) = \frac 12$
+				- Read as "log base 49 of 7 equals one half"
+		- Notation
+	- Page 2
+		- Properties
+			- Last 2 are statements on inverse functions
+		- Graph
+			- $y = e^x$ and $y=lnx$ are inverse functions
+		- Domain
+		- Range
+- ![[Screenshot 2023-05-06 at 6.12.58 PM.png]]
+	- Page 3
+		- Solving Logarithmic Equations
+		- Example: Solve for x
+		- -5 can't be in domain of the logarithm
+	- Page 4
+		- Solving exponential equations using logarithms
+		- Example: Solve for x
+			- $-ln(5)$ = $ln(\frac 15)$
+				- ![[Screenshot 2023-05-06 at 5.56.02 PM.png]]
+				- This is due to the power rule
+			- <mark style="background: #FFF3A3A6;">Warning</mark>: $ln(6e^x) \ne xln(6e)$ The exponent needs to be above both 6e
+				- ![[Screenshot 2023-05-06 at 6.10.30 PM.png]]
+- ![[Screenshot 2023-05-06 at 6.40.40 PM.png]]
+	- Example: For each function y = f(x), expand ln y using properties of logarithms
+		- We are doing this because in calculus 1, there is a beautiful technique for differentiation called logarithmic differentiation. The very first step is to do exactly this
+			- Asked to find the derivative using logarithmic differentiation
+		- ![[Screenshot 2023-05-06 at 6.29.28 PM.png]]
+			- Red is not the same logarithm as blue in terms of the exponent
+		- ![[Screenshot 2023-05-06 at 6.30.50 PM.png]]
+			- Different as well
+			- ![[(57) Introduction to Solving Logarithms and Exponentials (Precalculus - College Algebra 57)#^a60b83]]

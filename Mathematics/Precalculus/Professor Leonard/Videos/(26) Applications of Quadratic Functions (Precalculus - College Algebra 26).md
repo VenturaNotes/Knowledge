@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=Ow_u0qLAOJI)
+
+- ![[Screenshot 2023-03-04 at 10.32.16 PM.png]]
+	- The maximum value of a downward opening parabola would be located at its vertex
+	- The minimum value of an upward opening parabola would be located at its vertex
+	- At 300 items, the price is 0. Past that, you'd have to pay people to take the item... not good.
+	- Left-most problem
+		- Revenue
+		- Price
+			- Price should be $50 for each item to make maximum revenue. Sell all 150 of them.
+		- Maximum Revenue
+	- Area: 3000' of fence for a rectangular area. Find maximum area available
+	- <mark style="background: #FFF3A3A6;">Constraint</mark> means what you limit it by 
+		- In this case, you limit it by the perimeter
+	- The greatest area for a perimeter in the shape of a rectangle will be a square
+	- For h(x) problem, 
+		- Height of a projectile starting at $45\degree$ with a 2000ft/sec launch
+		- To find effective range, set function equal to 0
+			- This is to figure out when it hits the ground
+		- To find maximum height
+			- Find vertex which is the $\frac {-b}{2a}$

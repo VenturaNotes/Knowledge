@@ -1,0 +1,54 @@
+[Video](https://youtube.com/watch?v=6Uh3Z6DJ_pI)
+
+- ![[Screenshot 2023-03-04 at 11.09.10 PM.png]]
+	- [[Leading term]]
+		- Term with largest exponent
+			- Only coefficient that you don't want to be 0
+		- Will get end behavior, degree, # of zeros if we include complex numbers
+		- Gives maximum number of turning points if you subtract 1 from the degree
+		- Leading coefficient is the number in front of the leading term (not including x)
+			- Will give us the rational zeros theorem
+	- [[Constant Term]]
+		- If you don't have it, you could factor out an x
+		- Should be last
+		- Not considered a coefficient
+	- [[Degree]]
+		- The largest exponent in the polynomial
+	- For degree 5 any higher polynomials, there is no such thing as a formula to give you zeros
+		- Up to power 4 there is, but it is extremely difficult
+		- We do have rational zeros theorem though
+	- Some coefficients can be 0 for polynomials
+	- [[Polynomial]]
+		- Many terms
+		- Separated by $\pm$ which is what creates the terms
+		- You don't have to have more than 1 term to define a polynomial, but most of the time you have more than 1 term
+		- Exponents on terms should be in descending order
+		- No fractional or rational exponents allowed. No square roots in polynomials
+			- You could still have an irrational number as a coefficient though
+			- Nonnegative integers not allowed either for exponents
+		- Domain is all real numbers ($\mathbb{R}$)
+			- Smooth continuous curve with no cusps (sharp points), no gaps, no holes, and no asymptotes
+	- Radicals, logarithms, and denominators with variables inside them cause domain problems
+		- Logarithms
+			- Must be only positive
+		- Radicals
+			- Must be positive or 0
+			- No need to worry about odd roots
+		- Denominators
+			- Can't equal 0
+			- Dividing by 0 creates a vertical asymptote
+	- Notes
+		- Exponents are all non-negative integers. Order by descending exponents
+	- You could give a polynomial a 0 coefficient
+	- If you have a 0 constant, there would be no degree for the polynomial
+		- Due to a multiplicative constructs
+		- It's a weird one. It's just a 0 function.
+	- If you have any other number as a constant, the degree would be 0
+	- The degree 4 of $f(x) = 9x^4 - \pi x^2 + \frac 12$ tells us that it is an even based polynomial
+		- That end behavior is given by leading term and degree
+	- A rational function is a polynomial divided by another polynomial
+	- A hole is a removable discontinuity if we're able to cancel terms
+		- Says that we're missing a point
+	- $G(x) = 2\sqrt{x}(\sqrt{x}+1)$ is a radical expression
+		- Our domain for polynomials has to be all real numbers all the time.
+	- Positive and odd degree $2x^7$ 

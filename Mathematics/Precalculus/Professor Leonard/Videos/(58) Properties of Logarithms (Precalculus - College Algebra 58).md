@@ -1,0 +1,23 @@
+[Video](https://youtube.com/watch?v=u0uScdsBPfk)
+
+- ![[Screenshot 2023-03-13 at 3.41.43 AM.png]]
+	- Properties
+		- (1)
+			- Log base a of 1 will always equal 0 
+			- Log base a of a will always equal 1
+			- When composing logarithm onto an exponential or an exponential onto a logarithm, you get the value of the exponent or argument of the logarithm
+				- $a^{log_aM} = M$
+					- $log_aM = log_aM$
+						- This would create a trivial statement if you don't cancel the composition
+							- You get trivial statements because you've composed a function onto its inverse
+		- (2)
+			- Logarithmic properties model exponential properties
+			- Sum of two logarithms
+			- Not a one-way street
+		- (3)
+			- When you have division within argument, you can separate the dividend and divisor into separate logarithms (being their own arguments) and subtracting those logarithms
+			- Need to know these properties to expand and combine
+		- (4)
+			- exponent in argument can be moved in front of logarithm. Helps get rid of radicals in arguments.
+	- <mark style="background: #FFF3A3A6;">When composing inverse functions, they cancel</mark>
+	- Will learn how to use change of base formula

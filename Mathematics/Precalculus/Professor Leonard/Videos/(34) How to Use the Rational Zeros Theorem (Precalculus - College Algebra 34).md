@@ -1,0 +1,31 @@
+[Video](https://youtube.com/watch?v=g7wEpxwgB3w)
+
+- ![[Screenshot 2023-03-06 at 3.33.30 AM.png]]
+	- Method
+		- Find factors of the constant and leading coefficient (includes positives and negatives)
+		- Make a list of all possible rationals of the constant over the leading coefficient
+			- This is a list of all possible rational zeros
+	- The y-intercept of $f(x) = 2x^3 + 11x^2 - 7x - 6$ is $-6$ because f(0) = -6
+	- Rational means positive or negative whole numbers or fractions
+	- Check for every combination / permutation
+	- Remainder Theorem / Vector Theorem
+		- If you plug-in a number and it gives you 0, it's an x-intercept and it creates a factor.
+	- When finding factors
+		- Factor
+		- Quadratic Formula
+		- Rational Zeros Theorem
+- ![[Screenshot 2023-03-06 at 3.38.22 AM.png|400]]
+	- The list of numbers that you get is not dependent on whether you factor or not
+		- Factor out the 3 first
+	- Rational Zeros Theorem would not give you the $\sqrt{5}$ solution
+- ![[Screenshot 2023-03-06 at 4.05.27 AM.png]]
+	- Grouping only works with 4 terms
+	- Complex solutions always come in pairs
+	- If you're given a list 1, 2, 3, 4, 6, 9, 12, 18, 36 and 1 works. You need to check 1 again after doing synthetic/long division.
+		- If 2 didn't work in the first polynomial, it won't work in a more factored form of the original polynomial
+- ![[Screenshot 2023-03-06 at 4.13.27 AM.png]]
+	- Since we found the ONLY negative x-intercept, you do NOT have to try any negatives here (-1)
+- ![[Screenshot 2023-03-06 at 4.18.08 AM.png]]
+	- Synthetic division with fractions
+	- $x^4 + 24x^2 - 25$ is a special form of a quartic
+		- Could do a substitution to solve for it with u

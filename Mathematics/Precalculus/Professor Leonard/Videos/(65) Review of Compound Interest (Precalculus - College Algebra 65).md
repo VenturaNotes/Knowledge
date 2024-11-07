@@ -1,0 +1,49 @@
+[Video](https://youtube.com/watch?v=N1k25doMFww)
+
+- ![[Screenshot 2023-03-14 at 12.19.31 AM.png]]
+	- Compound Interest
+		- $A = P(1 + \frac rn)^{nt}$
+			- n = # of compounds in 1 year
+				- Value of n
+					- Annual = 1
+					- Semi-annual = 2
+					- Quarterly = 4
+					- Monthly = 12
+					- Weekly = 52
+					- Daily = 365
+			- A = Amount (future Value)
+			- P = Present value (Principal)
+				- It is the present value of your investment (or your loan)
+					- Your bank uses the money you give it as a loan and they try to make money from it so that you can make interest over time.
+			- r = Rate
+				- Always in decimal form
+			- t = Years
+				- Always based on years
+		- For Continuously
+			- $A = Pe^{rt}$
+	- $3,000 invested at 9.25% compounded monthly for $2 \frac 12$ years.
+	- ...Compounded continuously
+	- Getting interest on original amount but also on the part that was added. It ends up being more interest at the end of 1 year than 9.25%
+		- This is typically known as the [[effective yield]]
+- ![[Screenshot 2023-03-14 at 12.31.36 AM.png]]
+	- Question 2
+		- How much should be invested at 8.5% compounded daily to earn $800 in $3\frac 14$ years?
+			- to earn $800 in the account at the end of 3.25 years?
+				- This is the better wording to the above problem because it's a little ambiguous. Otherwise, it'd be 800 + P.
+				- Question is worded poorly in general.
+		- And compounded continuously?
+	- Question 3
+		- How long does it take to double an investment at 4.5% compounded quarterly?
+		- And compounded continuously?
+			- Faster than non-continuous
+		- Make sure to put parentheses around logarithms and natural logs
+- ![[Screenshot 2023-03-14 at 12.53.27 AM.png]]
+	- This is the simple interest rate that is equal to the compound interest earned each year
+		- Effective Rate (Compounded Interest)
+			- $r_E = (1 + \frac rn)^n - 1$
+		- Effective Rate (For Continuously)
+			- $r_E=e^r-1$
+	- Find effective rate for 9.75% compounded monthly
+	- And compounded continuously
+	- Effective rate tells you how much interest you're actually making in 1 year (10.2% in the first example)
+	- When solving for time, you need to use logarithms

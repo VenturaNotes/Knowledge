@@ -1,0 +1,22 @@
+[Video](https://youtube.com/watch?v=v-pnhWbHmQ8)
+
+- ![[Screenshot 2023-03-05 at 11.59.20 PM.png]]
+	- Functions from x-intercepts & graphs
+	- You can multiply a constant to any factored polynomial and it will not affect your roots.
+	- Polynomials typically not factored when written in standard form.
+	- Could multiply by an irreducible quadratic $(x^2+9)$ if the degree was not added.
+	- Multiplicity is the power of the factor from where we got our x-intercept
+		- Tells us how many times that factor is repeated
+	- If you allow complex numbers, you'll have the exact same number of factors as your degree
+	- $(x-\frac 12)$ and $(2x-1)$ are identical
+		- For synthetic division, only the first factor will work.
+		- Otherwise, you'd have to use the second factor for long division.
+	- You can find a specific polynomial if you do have a point off of your x-axis
+- ![[Screenshot 2023-03-06 at 12.20.14 AM.png]]
+	- Able to identify a point off of the x-axis
+	- This video will help when graphing things in Calculus
+		- That's how multiplicity affects the exponent of a factor
+		- Point off of x-axis will help solve for coefficient
+	- Having the coefficient $- \frac 12$ for the middle graph tells you that you don't have a family of curves. It's 1 specific polynomial for that exact graph
+	- Never guess a point when trying to find a point off of the x-axis
+	- Degree is always at least one more than your turning points.

@@ -1,0 +1,29 @@
+[Video](https://youtube.com/watch?v=OIEkJaPgjKs)
+
+- ![[Screenshot 2023-03-04 at 12.35.42 AM.png]]
+	- Quadratic expressions
+		- A is positive, opens upward
+		- A is negative, opens downward
+		- Largest degree must be 2
+		- In general, they're all parabolas
+	- f(x) represents height of function
+	- To find x-intercepts(also called roots or zeros), set function equal to 0 because where the height is 0, we'll be on the x-axis. Those x values will be where that function crosses the x-axis
+	- Square root method
+	- Factoring method
+	- Completing the square method
+		- More likely will go to quadratic formula method
+	- A parabola cannot cross the x-axis more than twice.
+	- You can never have less than 2 solutions
+	- <mark style="background: #FFF3A3A6;">First Graph</mark>
+		- 2 Solutions
+		- 2 Real Solutions
+		- 2 Real X-intercepts
+	- <mark style="background: #FFF3A3A6;">Second Graph</mark> (Vertex. The equation bounces or touches it. We don't cross it but the vertex is right on the x-axis)
+		- We get the same solution twice (called a double root)
+		- Will Get 1 unique solution
+		- 1 Real Solution (same number twice)
+		- 1 x-intercept
+	- <mark style="background: #FFF3A3A6;">Third Graph</mark>
+		- 2 Complex Solutions
+		- No x-intercepts
+	- Solving quadratic equations means that we're going to be finding zeros/roots/x-intercepts.

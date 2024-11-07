@@ -1,0 +1,41 @@
+[Video](https://youtube.com/watch?v=c5D7BJ-R41I)
+
+- ![[Screenshot 2023-03-15 at 12.25.10 AM.png]]
+	- Errata
+		- Term for $\frac {n}{3^n}$ in $b_n$ should be $\frac {5}{243}$ and not $\frac {5}{247}$
+	- A sequence is a list of numbers given by a formula and determined by the index of each term.
+		- They are not added or multiplied, just listed with commas between them.
+		- Index is the number of the term that we have in our sequence
+			- Subscript is known as the index
+		- n cannot be fractions, can't be decimals and can't be negative
+			- <mark style="background: #FFF3A3A6;">n can be 0th term</mark>
+		- n is the natural numbers
+		- Index will always be a natural number (1,2,3) some counting numbers
+			- Just plugging in whole positive natural numbers to get the terms
+				- Probably whole numbers? (since 0 is included)
+		- The sequence should have some kind of pattern to the numbers.
+		- The nth term (if it stays in terms of n), is sometimes called the general term $(n^2+1)$
+	- Right-most problem is alternating between positive and negative: $(-1)^{n-1}$
+		- This is due to the odd or even number in the exponent
+	- $(-1)^{n-1}$ or $(-1)^{n}$ 
+		- This will give you a sign alternation for every term
+	- This concept is very popular in Calculus 2
+	- A series takes a sequence and adds it up
+- ![[Screenshot 2023-03-15 at 12.40.59 AM.png]]
+	- Goal is to find the pattern. Relate the pattern to the index and you'll find the general term
+	- Steps
+		- Write down all the terms first
+		- Make them appear all the same form
+		- Write them as something that can be represented the same in all of them
+			- Odd numbers?
+			- Power of something?
+		- We see every term has 1 on the numerator
+		- Denominator seems to be increasing by a power of 2
+		- Relate whatever is changing to your index
+	- Could solve the right-most problem with recursion
+		- $a_n = a_{n-1} + 2$
+		- $a_4 = a_3+2$
+		- Almost like induction when we get there
+	- $b_n = 2n-1$ is how odd numbers are defined (especially in number theory)
+		- Even is 2n
+	- Recursive form requires you to look at your previous terms. 

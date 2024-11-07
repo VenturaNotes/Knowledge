@@ -1,0 +1,24 @@
+[Video](https://youtube.com/watch?v=rDcLCA2W-UI)
+
+- ![[Screenshot 2023-03-13 at 10.46.12 PM.png]]
+	- Shows 4 different methods to solve
+	- Isolate exponential
+		- Use logs
+	- [[Isolated Exponential]]
+		- $3^{(x+1)} = \frac 58$
+	- Exact solutions may not look good but they're exact
+	- First type of solution has 3 different types of appropriate solutions (either log base 3, 10, or e)
+	- For #2
+		- You need to have the parentheses in $(x+1)log3$
+- ![[Screenshot 2023-03-13 at 10.56.20 PM.png]]
+	- When solving exponential equations
+		- Those you can isolate on one side
+		- 2 exponentials with a common base
+		- 2 exponentials with no common base
+	- It's possible that the solution may not look the same or be in the same format but many times when solving exponentials we get solutions that look different.
+- ![[Screenshot 2023-03-13 at 11.07.02 PM.png]]
+	- A range problem for an exponential will cause a domain problem for your logarithm.
+	- Composing a function with its inverse where argument and base are equal will give 1
+	- Right-most problem is no solution
+- ![[Screenshot 2023-03-13 at 11.14.31 PM.png]]
+	- Need to use substitution for this

@@ -1,0 +1,82 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=xu1792kg7wA
+Length: 7 minutes, 31 seconds
+tags:
+  - status/complete
+  - type/video
+Published: true
+---
+- Subject of this course is College Algebra Prep
+- Agenda
+	- Use Euler diagrams to determine validity
+---
+- Who is Euler
+	- Genius Swiss Mathematician who published an average 800 pages of new mathematics a year.
+		- Pronounce his last name Oiler
+---
+- Euler Diagrams
+	- Used for arguments that have quantified statements to determine validity
+		- Quantified statements means
+			- All
+			- Some
+			- None
+	- ![[Screenshot 2023-03-08 at 6.12.51 PM.png|500]]
+		- All A are B
+		- No A are B
+		- Some A are B
+		- Some A are not B
+			- There exists a point in A but there does not exist a point in B or A
+---
+- How to use Euler Diagrams
+	- (1) Make an Euler diagram for the first premise.
+		- 2 circles needed
+	- (2) Make an Euler diagram for the second premise on top of the one for the first premise
+	- (3) The argument is valid if and only if every possible diagram illustrates the conclusion of the argument. If there is even one possible diagram that contradicts the conclusion, this indicates that the conclusion is not true in every case, so the argument is invalid.
+---
+- Example
+	- Use Euler diagrams to determine whether the following argument is valid or invalid:
+		- All people who arrive late cannot perform
+		- All People who cannot perform are ineligible for scholarships.
+		- ================================================
+		- Therefore, all people who arrive late are ineligible for scholarships.
+		- Diagram
+			- ![[Screenshot 2023-03-08 at 6.21.22 PM.png]]
+		- The conclusion is valid
+---
+- Example
+	- All U.S. voters must register.
+	- All people who register must be U.S. citizens
+	- ============================
+	- Therefore, all U.S. voters are U.S. citizens
+	- Diagram
+		- ![[Screenshot 2023-03-08 at 6.24.06 PM.png]]
+	- This is a valid argument as well
+---
+- Example
+	- All poets appreciate language
+	- All writers appreciate language
+	- ======================
+	- Therefore, all poets are writers
+	- Diagram
+		- ![[Screenshot 2023-03-08 at 6.27.34 PM.png]]
+			- We have 4 different possibilities here. Since we have so many different possibilities. It makes it more likely that we have an invalid statement.
+	- This statement is not valid
+---
+- You Try
+	- All men are mortal
+	- Aristotle is a man.
+	- ===============
+	- Therefore, Aristotle is mortal
+	- Diagram
+		- ![[Screenshot 2023-03-08 at 6.29.03 PM.png]]
+	- This is a valid argument
+---
+- You try
+	- All children love to swim
+	- Jeff Rouse loves to swim
+	- ===================
+	- Therefore, Jeff Rouse is a child
+	- Diagram
+		- ![[Screenshot 2023-03-08 at 6.31.54 PM.png]]
+	- Not Valid

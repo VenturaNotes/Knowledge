@@ -1,0 +1,31 @@
+[Video](https://youtube.com/watch?v=mXAd6rkNSK0)
+
+- ![[Screenshot 2023-03-04 at 1.03.06 AM.png]]
+	- Errata
+		- The bottom-right problem should have a solution over 3 (not 2).
+	- Order that we should look for when solving quadratics
+		- Square root method
+		- Factoring
+		- Completing the Square
+		- Quadratic formula
+	- Must have $\pm$ when taking a square root
+		- Important to know for an intermediate algebra class
+	- An<mark style="background: #FFF3A3A6;"> exact solution</mark> is the below
+		- x = $\pm \sqrt{11}$
+			- If asked for approximation, write some of it out.
+	- When solving for quadratics, it's a balance between quick vs tedious
+	- Notes
+		- Things need to be simplified. Square roots need to be simplified
+		- Need to factor out a number if the numerator is divisible by the denominator
+	- 0 is the additive identity (top-right problem)
+	- When the vertex is on the x-axis, you'll get the same answer twice. It's called a double root
+		- Will talk about multiplicity much later
+		- If you ever only get one solution, the quadratic cannot be imaginary (this is because imaginary solutions always come in pairs. They always come in conjugate pairs. Positive and negative of the imaginary part
+	- Under complex numbers, it's possible to take a negative number from a root
+		- Negative numbers inside square root gives complex numbers
+	- Complex conjugate means same stuff but different sign
+		- Must be in the complex form $a+bi$ for the bottom-right problem
+	- Types of solutions
+		- Crossing twice
+		- Bouncing once
+		- Missing completely (the x-intercept)

@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=fzVEBUHK7-o)
+
+- ![[Screenshot 2023-05-12 at 4.38.50 AM.png]]
+- Solve:
+	- $2log_2x - log_2(x+3) = 2$ 
+- Can't use log properties unless you have one logarithm or one equation is in logarithmic form. An example is when you have x + x = 8. You need to turn it into 2x = 8 before you can do anything.
+- If you have a logarithm subtracting another logarithm, and they have the same base, you can combine them by division.
+	- $log_2x^2 - log_2(x+3) = log_2(\frac{x^2}{x+3})$ 
+- If you have a number in front of a log, you can rewrite it as an exponent. You can take the multiplier and put it back as a function
+	- $2log_2x = log_2x^2$
+- Inverse property: 
+	- $log_3 9= 2$ (this is saying 3 raised to what number gives you 9?)
+	- $log_3 3 = 1$
+	- $log_33^x  = x$
+	- $xlog_33 = x$
+	- $3^{log_3} x = x$ 
+- Zero product property rule ^11dbb8
+	-  Any two numbers multiplied by 0, one of these numbers have to be 0. Can use that to find factors
+- x = 6 is your only solution because plugging in "-2" would be an extraneous solution as $2log_2x$ can't have x be negative.
+	- ![[Screenshot 2023-05-12 at 4.40.12 AM.png]]
+	- The original problem matters

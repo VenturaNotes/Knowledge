@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=tyXWPcvSQvk)
+
+- ![[Screenshot 2023-03-07 at 4.53.25 AM.png]]
+	- Asymptotes + holes of rational functions
+		- (1) End Behavior:
+			- Horizontal asymptote
+			- Oblique Asymptote
+			- Power Function
+		- (2) Factor
+		- (3) Define Domain
+		- (4) Determine any vertical asymptote +/or holes
+		- (5) Simplify + evaluate for hole if necessary
+- ![[Screenshot 2023-03-07 at 5.05.55 AM.png]]
+	- Important to follow steps in order
+	- Removable Discontinuity
+	- You can cross a horizontal asymptote but this function is going to tend to that value as we approach positive and negative infinity.
+		- Limit idea: as x approaches to some value, the function gets closer and closer to a value (in this case the value of the horizontal asymptote)
+	- The simplified rational function looks exactly the same as the original function except potentially without the hole.
+- ![[Screenshot 2023-03-07 at 5.14.32 AM.png]]
+	- When simplifying a radical function, you could use synthetic division if there is a linear factor left to find the oblique asymptote if the degree of the numerator is 1 greater than the degree of the denominator
+	- Oblique asymptote can be your function but only if you're missing a point

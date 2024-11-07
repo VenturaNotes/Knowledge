@@ -1,0 +1,43 @@
+[Video](https://youtube.com/watch?v=VH4tzzBVbgA)
+
+- ![[Screenshot 2023-03-04 at 9.18.05 PM.png]]
+	- Quadratic is a polynomial of the second degree
+	- a > 0
+		- upper opening
+		- The minimum of this function would be where the vertex occurs (y-value is the answer)
+	- a < 0
+		- downward opening
+	- a > |1|
+		- Vertical Stretch
+	- a < |1|
+		- Vertical compression
+	- Every parabola has a y-intercept
+	- Find the y-intercept
+		- (0,C)
+			- ![[Screenshot 2023-03-04 at 2.28.54 PM.png]]
+				- It should be from original equation
+	- Find the x-intercept
+		- $ax^2+bx+c=0$
+	- Find the Vertex
+		- $\frac{-b}{2a}, f(x)$
+		- Or Complete the square for vertex form
+			- Great way to graph a parabola on the coordinate plane
+	- Every parabola is symmetrical
+		- We have something called axis of symmetry (which will always go through vertex)
+			- Any point on one side of the axis of symmetry, you can mirror that image on the other side being equidistant from it
+	- $\approx$ means about equal to
+	- Find 5 points to plot a parabola
+	- Every parabola has a vertex
+	- For a downwards pointing parabola, the vertex will be the absolute maximum point of the graph.
+	- You can factor/simplify a quadratic before using the quadratic formula
+	- Vertex form means you can easily find the vertex
+- ![[Screenshot 2023-03-04 at 9.27.55 PM.png]]
+	- $\phi$ 
+		- Used to denote an empty set.
+	- When graphing a quadratic, do these in order
+		- Vertex
+		- x-intercept
+		- y-intercept
+- ![[Screenshot 2023-03-04 at 9.32.37 PM.png]]
+	- For a parabola with a vertex of (1,-5) and a y-int of -3, find the function: $$f(x) = a(x+h)^2 + k$$
+	- The function is shown in standard form at the end.

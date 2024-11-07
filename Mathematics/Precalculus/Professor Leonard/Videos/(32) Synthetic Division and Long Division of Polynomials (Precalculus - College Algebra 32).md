@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=AKJgo-WR_K4)
+
+- ![[Screenshot 2023-03-06 at 2.22.15 AM.png]]
+	- Synthetic + Long Division of Polynomials
+	- Factor Theorem:
+		- If, upon division, you get a remainder of "0", your divisor is a factor of your dividend.
+	- Rational Zeros Theorem
+		- Gives a list of numbers that are potential zeros for function
+	- If you plug-in x=1 and the output of f(x) equals 0, then "x-1" has to be a factor
+	- Synthetic division only works if
+		- you have a linear "x-1"
+		- Coefficient of x has to be equal to 1 as well
+			- Divisor
+		- "x" must also be a constant. Can't be $x^2$ or $x^3$ 
+	- Long Division
+		- Use parenthesis. It helps.
+- ![[Screenshot 2023-03-06 at 2.32.41 AM.png]]
+	- We know that $3x^5$ will have at least 1 x-intercept because it has an odd power.
+	- g(x) is not completely factored but we would use the rational Zeros Theorem again to find more potential divisors to further factor the polynomial.
+- ![[Screenshot 2023-03-06 at 2.36.33 AM.png]]
+	- Place remainder over divisor if you have a remainder and add it to the factored polynomial

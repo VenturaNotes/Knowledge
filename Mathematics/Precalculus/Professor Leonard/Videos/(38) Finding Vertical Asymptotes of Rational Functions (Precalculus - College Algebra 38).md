@@ -1,0 +1,23 @@
+[Video](https://youtube.com/watch?v=y-bSJaEonho)
+
+- ![[Screenshot 2023-03-06 at 8.56.06 PM.png]]
+	- Fractions = Domain Problems!
+		- If the denominator of a rational function = 0, we get a domain problem (discontinuity) at that value of 'x!'
+		- These domain issues also cause graph issues
+		- If denom = 0 @ "x", then @ 'x', there will be one of two types of discontinuities:
+			- 1. Hole (Removable discontinuity)
+				- Happens when the factor causing the denom = 0 CAN be cancelled
+				- Use these as a type of "Point"
+					- The Graph MUST interact
+			- 2. Vertical Asymptote
+				- Happens when factor causing Denom = 0 CANNOT be cancelled
+					- Odd Multiplicity (opposite direction arrows)
+					- Even multiplicity (same direction arrows)
+	- Rational functions are fraction functions where we have variables in both the numerator and the denominator. Need variable in the denominator or otherwise it's just a polynomial.
+	- Get either a hole or vertical asymptote when the denominator equals 0
+- ![[Screenshot 2023-03-06 at 9.57.31 PM.png]]
+	- Errata
+		- For bottom-left problem, the asymptote should be at x = 1
+	- You might not always have domain issues with rational functions?
+	- Professor Leonard says that you can kind of tell the type of odd graph you'd need to draw if the rational was simple, but it gets more difficult if the expression is more complex
+		- Best solution might be to just [[(Video) Multiplicity of Rational Functions Explained|plug-in points]]
