@@ -1,0 +1,69 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=1At8wV8fwp8
+---
+- ![[Screenshot 2024-09-24 at 11.02.39 AM.png]]
+	- [[Fencing tokens]]
+		- Before we start to talk about fencing tokens, we should get some consensus and making sure that there's only one of something in a distributed system 
+	- [[Unreliable Nodes]]
+		- Description
+			- Even when we control every single node in a system (nodes could be servers or databases), it is very possible that one of the nodes believes something to be true, while the majority of the other nodes disagree with it. This can be very problematic if there is only supposed to be one of something
+				- One leader (in [[single leader replication]])
+				- One process holding a [[distributed lock]]
+					- such as to make a change to a file
+				- One account with username "sunnyV6"
+			- Want to make sure there is only one of something in a [[distributed system]]
+		- Even though a lot of the times we're controlling every single node in our system (whether that's servers or databases), it's possible that some of them can be unreliable. It's possible that they have the best intentions and they're trying to work with the rest of the system. However, for whatever reason, they're actually operating in a way that's different from the majority of nodes. As a result, it causes problems in our system. So what are times where this might cause problems?
+			- It happens to be the case that whenever we want just one of something in our distributed system, unreliable nodes can pose a big threat. 
+			- For example, 
+				- whenever we want one leader in single leader replication
+				- Just one process holding a distributed lock in order to make a change to say a file
+				- Or just one account with a given username
+	- Process Pauses Part 1
+		- Description
+			- Often times, a process will be running and be preempted by another "[[stop the world]]" process for many seconds at a time
+				- A preempted process just means a computer is running something and all of a sudden it starts running something else and the thing that was originally running has to pause and wait for the other thing to finish
+					- #comment Seems to refer to [[preemptive scheduling]]
+			- Examples
+				- [[Garbage collection algorithms]]
+					- Java has a garbage collection algorithm which differentiates it from C or C++
+					- Java's garbage collection is "stop the world" which means it is going to completely pause everything that is going on and instead do the garbage collection.
+				- [[Virtual machines]] being moved from one host to another
+				- A user closes their laptop lid
+		- In order to present this issue and how it comes about, lets talk about process pauses. Often times, a computer will be running a given process and for whatever reason, that process will be preempted. Means that the computer is running something and all of a sudden it starts running something else and the thing it was originally running has to pause and wait for the other thing to finish. What are some examples of this happening?
+			- If you ever used [[Java]] you might know what differentiates it significantly from other languages like C or C++ is that Java has a [[Garbage collection algorithms|Garbage collection algorithm]]. Although this may be changing as of recent, Java garbage collection is [[stop the world]]. It means that it's going to completely pause all of everything that's going on and instead just go ahead and do that garbage collection. 
+			- Additionally, some virtual machines (if your running run) may be moved from one physical host to another and during that process they have to pause
+			- A third type which is more simple would be if a user closes a laptop lid or hitting the power button on screen for mobile phone
+		- So for a variety of reasons, processes tend to get preempted and as a result of that, it can cause a lot of issues in distributed systems
+	- Process Pauses Part 2
+		- Description
+			- Often times, a process will be running and be preempted by another "stop the world" process for many seconds at a time.
+			- Example
+				- We have two clients. Both requesting a lock service
+		- This is pretty lazy of me. I just went ahead and copied the photo from DDIA, but I'll go ahead and show how this might be an issue. As you can see here in this photo, we have two clients. Client 1 and 2. They are both going to be requesting a lock service. The lock service is basically a distributed lock which is saying any of the nodes can grab it. But if one of the clients grabs this lock service, it can be the only one grabbing it and as a result, it's able to write to that file storage as you can see on the bottom of the graph.
+			- Client 1 is going to grab a lock service
+				- It has this thing called a [[lease]] which is just a given amount of time after it grabs the lock. After the lease expires, it can either renew the lease or if it doesn't renew the lease, then another client will be able to grab that lock
+			- It's going to get the lease and then a garbage collection pause is going to go ahead and take over client 1 after it knows it has the lock. As you can see, this garbage collection pause which can take 10, 15 seconds (a really significant amount of time). Has taken so long that the lease on the lock has expired
+				- Then client 2 goes ahead and gets the lease because the previous lease on the lock expires and does so successfully. As a result, it's able to write data to the storage system
+				- But client 1 comes back alive from its process pause thinking its totally fine and it goes and tries to write data to the storage and boom, now our data is corrupted because both these processes are able to write data at the same time. As a result of that, something unexpected happens 
+	- Process Pause Significance
+		- Description
+			- Since we don't have any shared memory in distributed systems, a bunch of locking/election distributed implementations may use something called a "lease" which expires after a certain amount of time. A pause process could have its lease expire, and then potentially process a few more requests while it thinks it is holding the lease, until it checks the time again to realize it has expired.
+			- Another case is where the other nodes in a cluster assume that a process paused node is dead, and when it comes back, it still thinks it is a leader/holding a lock and now we have a split brain situation!
+			- Problem: How can we make sure that once the majority of nodes make a decision about a node, the other node can eventually cooperate with it? Fencing tokens
+		- So what's the significance of these process pauses? Basically, a lot of systems will use a lease on either being the single leader in a replication set up or holding that lock and that lease is going to expire after a certain amount of time. However, a paused process or basically anything that's been preempted might end up being just about to go ahead and execute some instructions then it gets paused, its lease expires, and then it goes and executes those instructions before checking whether the lease expired again because it didn't even know that the process was paused. 
+		- So as a result of that, we can have a certain process doing things that it shouldn't be doing way later than it's supposed to be acting as the soul leader or the chosen node. So that's really bad
+		- Another case is just where the other nodes in a cluster are trying to get in contact with the second node but that second node is currently paused by say a garbage collection algorithm and as a result of that, the other nodes as a majority presume that it's dead and pick a new node to satisfy that chosen one or leader position only for the other node to come back and now thinking that it is the leader and we have a split brain situation
+		- So how can we go ahead and avoid this type of problem? This is where something called [[fencing tokens]] comes in
+- ![[Screenshot 2024-09-24 at 11.12.22 AM.png]]
+	- [[Fencing Tokens]] Overview
+		- Description
+			- Idea: Every time the majority of nodes make a decision, assign it a monotonically increasing ID. Pass this ID with every write, and if the storage service ever comes across a write with a lower fencing token value than the current one, reject it.
+		- Okay, so the idea of fencing tokens is actually pretty simple. It's explained very well by this graph. Basically every single time that the nodes make a decision about who's the leader, who's holding the lock, anything along those lines and you know this is some sort of consensus decision, all that's going to happen is the thing issuing this decision so whether that's some coordination service making a consensus decision or this lock service. They're going to issue a monotonically increasing fencing token. So as you can see in the graph above, once client 1 gets lease, it gets the token of 33. When client 2 goes ahead and gets the lease because the lease expires for client 1, the lock service is going to issue at the token of 34 which is one higher. So now after client 2 goes ahead and writes the storage, the storage can keep track of the fact that it's seen fencing token 34. So now it knows, hey, if we ever see write token 33, we can actually just go ahead and reject that. This is the result of a node incorrectly thinking that it is the chosen one. 
+		- By doing fencing tokens, we can actually go ahead and circumvent this process pause issue and the issue of having like some sort of split brain or a node thinking that it's something it's not
+	- Fencing Tokens Conclusion
+		- Description
+			- Due to process pauses, or possibly even just unreliable client nodes, we can only trust any decisions made by a majority of nodes in our cluster - any single node can be faulty (possibly without it even realizing!)
+			- As a result, using something like fencing tokens is easy to implement and guards against things like multiple lock holders and split brain in single leader replication, and is an important part of any distributed system that requires consensus
+		- In conclusion, due to process pauses or even just unreliable client nodes, we can really only trust decisions by a majority of nodes in our cluster. However, that does not mean that individual nodes aren't going to be wrong at times without even realizing it maybe. As a result, fencing tokens are a very easy way to ensure that once a system has reached consensus, that other nodes that you know are not sharing that consensus aren't allowed to operate in their old state. So basically what that means is that you know, even if a single faulty node believes that you know, it's this one thing, if consensus has deemed something else, then the single faulty node will be no longer be allowed to operate as if it is was still the chosen one or the leader or anything like that
+		- Will go more into consensus algorithms in the future. For now, just know that fencing tokens are a good safety mechanism in any system that requires consensus to make sure that once consensus is reached, it's actually upheld by the system

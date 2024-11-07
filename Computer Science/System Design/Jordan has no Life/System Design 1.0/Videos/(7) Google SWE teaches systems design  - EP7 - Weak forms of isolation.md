@@ -1,0 +1,129 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=5f7AliHXQ08
+---
+- ![[Screenshot 2024-09-23 at 4.17.54 PM.png]]
+	- Will do a database comparison between a bunch of the popular technologies
+	- [[Weak isolation levels]]
+	- Background
+		- Description
+			- Isolation/Serializability is often too great of a performance penalty for databases to implement - instead many have chosen to offer weak guarantees as to how they handle certain concurrency bugs.
+			- Let's go through some concurrency bugs, and look at strategies by databases to avoid them without providing complete transaction isolation
+		- The point of transactions is that they're a really useful abstraction. However, the trade-off of using them is that they're really slow because databases have to actually implement serializable isolation. Instead, what many databases will choose to do instead is throw out serializable isolation and instead offer weaker guarantees about transaction isolation 
+		- To present this, we will go through a bunch of concurrency bugs and look at the strategies that databases use in order to mitigate them without providing complete isolation. 
+	- Types of Concurrency Bugs (5 types of concurrency bugs we will talk about)
+		- [[Dirty Reads]]
+		- [[Dirty Writes]]
+		- [[Read skew]] (Non-repeatable reads)
+		- [[Lost Updates]]
+		- [[Write Skew and Phantoms]]
+	- Dirty Reads
+		- Description
+			- Clients should not be able to read data that has been written but not yet been committed, if they could they may see the database in an inconsistent state or read some data right before it gets rolled back.
+			- Solution: Database remembers old value of a write until said write is committed, do not use locks as one long transaction could make many reads wait along time until i completes
+				- kim's_man: Kanye
+		- Basically saying that if data has been written by a transaction but hasn't yet committed. Let's say a transaction has to make multiple writes and one of the writes has been done but the other hasn't so it's not committed yet, any writes that have not been committed should not be read by a different [[transaction]]
+		- To go about solving this, it's pretty easy. The database just makes sure to remember the old value of a write until it's completed. This way, we don't have to use locks because that would take a huge performance hit on the system. 
+		- Example
+			- If we edit the key `kim_man` who used to be Kanye, we're now going to update it to Pete but until that transaction is complete, we're going to store both values 
+				- `kim's_man: Kanye -> Pete`
+			- Then finally when the transaction is complete, we just store Pete. That way, if any transaction tries to read from that, it'll see Kanye until the write is completely committed or aborted. 
+	- Dirty Writes
+		- Description
+			- When writing data, we can only overwrite committed data.
+			- Solution: Have a lock on each object, any transaction that wants to write an object must first grab the lock
+		- For every single object, we put a lock on it. You can only have one writer thread operating on that at a time. Therefore, if that write has not yet been committed, the transaction that made the write is still holding the lock and the second it commits or aborts, the transaction releases the lock.
+- ![[Screenshot 2024-09-24 at 3.23.46 AM.png]]
+	- [[Read Committed Isolation]]
+		- Description
+			- The weakest of the isolation levels that we will speak about, read committed isolation prevents dirty reads and dirty writes, allowing the other concurrency bugs to occur.
+		- Read Committed Isolation just solves those dirty reads and dirty writes. It's pretty easy to implement and doesn't take too big of a performance hit at all which is why it can be useful 
+	- [[Read Skew]]
+		- Description
+			- A client can make multiple reads to the database, however throughout the course of those reads, the database can change. As a result, the client sees the database in an inconsistent state.
+			- This is problematic for things like analytics queries, as the data will make no sense if some pieces of it are more or less updated than others
+		- Read skew is basically saying, let's imagine we have a long read query, that's going to read a bunch of rows or objects from the database but while that query is actually reading from the database, what it's going to see is that multiple rows are changing since it's a super long query. In fact, some of the rows are going to be changing even while the read is happening. So it might actually observe the database in an inconsistent state. So the solution here is snapshot isolation which he'll explain in a moment
+	- Read Skew
+		- Imagine reading bank account balances: originally I have $100 and so does my friend. After I read my balance, my friend transfers me $50, and then I read his balance. So now it looks like I still have $100 and my friend has $50, where did the other $50 go?
+		- Solution: [[Snapshot isolation]]
+		- Example
+			- Let's imagine I'm [[Venmo]] and I want to sum up the total balances of all of the accounts in my system. So I start running this huge query which is going to go through all of the rows of the users and add up their balances. So let's say now I'm in Venmo with my $100 account and my friend also has $100, but while this long read analytics query is running, my friend transfers me $50. However, before he transfers me the $50, the analytics query reads the balance of my account. So the analytics query thinks I have $100 in my account and then since he's transferred me $50 and then the analytics query reads his account, it thinks that he has $50 in his account. So the total value of both accounts is now messed up. It should be $200 but they think it's only $150. 
+			- This is where snapshot isolation comes in.
+	- [[Snapshot isolation]]
+		- Description
+			- Every transaction is assigned an increasing transaction ID, and when writing a value, the transaction ID that wrote it is saved with it. When a transaction performs a read, it takes the value with the highest transaction ID that is less than the reader ID.
+				- `Jordan: [(cute, 1), (handsome, 8), (brollic, 14)]`
+				- `Beiber: [(gross, 2), (uglier_than_jordan, 12), (ok_fine_good_looking, 19)]`
+			- Transaction 15 reads the values for Jordan and Bieber.
+		- Every transaction is assigned a monotonically increasing transaction ID
+			- This just means that every single transaction has an ID one higher than the previous one
+			- So when writing a value, what the database is actually going to do is store all of those previous values of that key and store it with the transaction ID. 
+			- As we can see above, we have for the key Jordan cute with the transaction ID of 1 because that means transaction 1 wrote that
+			- For Bieber, at one point he was gross has been updated to uglier than Jordan, and then finally "okay fine he's good looking" 
+			- However, lets say Transaction 15 wants to read the values for Jordan and Bieber
+				- While it's currently the case that the database has those values most updated being brolic and ok_fine_good_looking, transaction 15 is not actually allowed to see the ok_fine_good_looking because 15 is less than 19.
+				- Instead, transaction 15 must take the most up-to-date value that is basically less than or equal to it. So transaction 15 can see brolic at 14 but not okay_fine_good_looking at 19. Therefore we would read
+					- Jordan = brolic and Bieber = uglier_than_Jordan
+			- However, if snapshot isolation were not a thing, then transaction 15 might end up reading "brolic" and "ok_fine_good_looking" simply by the fact that it's possible that transaction 15 would have read the value for Jordan and then transaction would have committed for Bieber and then finally 15 would have gone and read that and then it would have been a different value.
+				- Keep in mind that this is the [[race condition]] that snapshot isolation is going to be preventing
+			- Without Snapshot Isolation, if T16 committed before T15 reads Bieber, T15 would see that Bieber = ok_fine_good_looking
+- ![[Screenshot 2024-09-24 at 3.41.38 AM.png]]
+	- Lost Updates
+		- Description
+			- When two threads read an object, perform an operation on it, and then write it back, one of the threads' update may be lost
+			- Jordan_net_worth: 1000000
+		- Basically there is something called a read modify life cycle that we see happening a lot in databases where we want to read some value, modify it by a certain amount and then write it back to the database. 
+		- Example
+			- Let's say my net worth is 1 million dollars. We've got two transactions both of which are going to read my net worth and then add another million dollars to it. With this in mind, both reads will see that we have a million dollars in the account. Then they are going to add another million both of which now think we have 2 million dollars. Now they're both going to write and it seems like we only have 2 million dollars when in reality we've been conned out of a million.
+			- There are three possible solutions for this
+				- [[Atomic write operations]]
+				- [[Explicit locking]]
+				- [[Automatic database detection]]
+	- Solutions to Lost Updates
+		- Atomic write operations
+			- Atomic counters, compare_and_set(old_val, new_val)) - use exclusive locks
+			- A lot of databases actually have built-in atomic counters or operations like compare and set that allow you to do an increment without actually having to worry about concurrency issues. However, not all of them do or perhaps we're doing something else like appending to a string. In that case, you may have to use explicit locks in your application code.
+		- Explicit locks in application code ("FOR UPDATE") in SQL
+			- Hard to reason about, leads to many bugs, avoid when possible
+			- Keep in mind that explicit locking in application is annoying as a developer and don't want a bug in there because keeping a lock and never releasing it can do a number on your database
+		- Automatic database detection
+			- Use snapshot isolation to automatically detect lost updates (can see the value that it was about to write has since changed), and rollback and retry
+			- Good because it reduces the chance of writing buggy locking code
+			- Whenever possible, it's better to use automatic database detection. Basically when the database says that I can see that the premise of these read modify write cycles has changed and as a result of it changing, we know that one of these transactions is going to be invalid and we have to retry it
+				- To do that, it's really easy in conjunction with snapshot isolation because you can see what a given transaction read and then you know that has changed right before it writes back
+				- Good because it reduces opportunities of us as developers to write bad code
+		- These techniques do not work in multileader/leaderless replication, as they assume one copy of the data, instead better to store conflicts as sibling and use custom resolution logic
+			- For example, lets say that I want to add a million dollars to my account and then a business partner also wants to add a million dollars. We both attempt to add counter but my counter may not even exist in the Chinese version of the database and as a result this is all moot. The point there is that something like an atomic write operation doesn't work in setups where there are multiple possible leaders and as a result, that's where we would use something like [[conflict resolution]] where we store them as siblings or something like a [[conflict free replicated data type|CRDT]] which was briefly touched on in the multi-leader replication video
+	- Write Skew
+		- Description
+			- Two transactions each read the same set of objects in order to make a decision on whether to make a write, and then change different members of the set of objects which breaks some invariant.
+		- So two transactions are going to read the same set of objects in order to make basically a predicate and they're going to use that predicate in order to make a subsequent decision which is reflected as a write.
+			- However, since these two transactions are going to change different members of the table, those members are not necessarily going to be locked. Therefore, we need to lock every single thing in that predicate. 
+		- Lets say that a table only has a capacity of 3. Only 3 people can be sitting at table 1
+			- One transaction is going to see two people at table 1 and another transaction will see the same thing. Both will update their row to join table
+				- Invariant broken! Only 3 people to a table.
+				- To solve this problem, must lock all of the rows originally of people on table 1 so that only one transaction can read those at a time. This is basically a predicate lock in which we are putting a lock on all the rows and only one transaction can read them. However, a problem that comes up is what if those rows don't exist yet? What if for example Kate and Megan weren't actually in the table yet because they hadn't joined the club and weren't standing around at no table. This is called a [[phantom]]
+- ![[Screenshot 2024-09-24 at 3.56.40 AM.png]]
+	- Write Skew Solution
+		- Just apply a lock to all the rows that you are reading to form the predicate, so that only one transaction can read them at a time.
+		- But what if those rows don't all yet exist?
+	- [[phantom|phantoms]]
+		- Same issue as write skew, but invariants are broken when both transactions create a new row. Nothing to put a lock on!
+		- Solution: [[Materialize Conflicts]]
+	- Materializing Conflicts
+		- Imagine I want to book a meeting in a given room, at a given time. I would first query the database (and see if there is a row in the bookings table that already corresponds to that room and time), and (if not there) then add my meeting slot as a new row to the bookings table. But I can't stop anybody from creating the row, because I have nothing to put a lock on!
+			- Can't apply a predicate lock to that condition because there is no row in the database
+			- Therefore, we need to create a dummy row in the bookings table.
+		- Materializing conflicts: create a blank row for the meeting slot in the bookings table prematurely (at the start of the week for all bookings that week for example), so that transactions can apply a lock to it, and we don't have an overbooking
+			- Let's say every single meeting for a given week, we'll use a scheduled job or a [[cron job]] to create all of those dummy rows for a given week. That way, I can put a lock on that and claim the room for myself. This is called materializing conflicts because we're actually purposely materializing some row that we can have transactions conflict on via grabbing that lock. Therefore, I would create an empty row, go ahead and lock it, and then that way we could assure isolation there
+	- Weak Isolation Summary
+		- Read Committed
+			- Prevents dirty reads, dirty writes
+		- Snapshot Isolation
+			- Prevents read skew (non-repeatable read), can easily be adapted to detect lost updates (which means developer doesn't need to deal with explicit locking)
+			- Read skew is more or less when you see a database in an inconsistent state amongst rows.
+		- Predicate locks and Materializing Conflicts
+			- Can be used to prevent write skew (and phantoms)
+				- This is when you read a bunch of rows in a query, use that as your predicate and either change an existing row or write a new row.
+		- Overall, using these methods results in a much faster database than one that uses true serializable isolation, as the locking is relatively minimal in comparison and concurrency can be maximized. However, if the application can take the performance hit, serializable isolation will reduce the need to reason about concurrency.
+			- Often times is it's the case that databases can't actually handle the performance impact that it takes to use actual serializable isolation. However it is the case that when you're able to handle that load, perhaps you should just use [[serializable isolation]] because it's a lot simpler to think about and you don't have to reason about the other concurrency bugs that your weak isolation levels may have missed

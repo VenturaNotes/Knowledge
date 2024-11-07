@@ -1,0 +1,21 @@
+[Video](https://youtube.com/watch?v=WrzaPNj9OZ4)
+
+- A language is said to be a [[regular language]] if and only if some Finite State Machine recognizes it
+- So what languages are<mark style="background: #FFF3A3A6;"> not regular</mark>?
+	- The languages
+		- Which are not recognized by any FSM
+		- Which require memory
+			- Memory of FSM is very limited
+				- The only kind of memory it has is the memory to store in what state it is currently present.
+			- It cannot store or count strings
+- Example languages:
+	- ![[Screenshot 2023-01-05 at 6.57.52 PM.png]]
+			- The first 5 letters are repeated.
+			- In order to repeat what's under the first arrow to the second arrow, we need a memory which stores the information of the former string.
+			- Since finite state machines have a limited memory, it cannot store the first part in memory to repeat again. Therefore, it can't be designed using a finite state machine making it a language that is <mark style="background: #FFF3A3A6;">not regular</mark>
+			- Needs to <mark style="background: #FFF3A3A6;">store</mark> the substrings
+	- ![[Screenshot 2023-01-05 at 7.01.18 PM.png]]
+		- The # of a's should be equal to the # of b's
+		- This language cannot be implemented by a finite state machine because in order to repeat the same number b's as the number of a's, we need to keep a count of how many a's were written first. 
+		- Needs to keep <mark style="background: #FFF3A3A6;">count</mark> of the substrings
+		- Therefore, it is <mark style="background: #FFF3A3A6;">not a regular language</mark>

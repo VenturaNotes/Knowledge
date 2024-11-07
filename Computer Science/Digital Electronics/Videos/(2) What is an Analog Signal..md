@@ -1,0 +1,37 @@
+[Video](https://youtube.com/watch?v=F5h3z8p9dPg)
+
+- Difference between analog and digital clock
+	- Analog Clock
+		- ![[Screenshot 2022-12-22 at 11.22.01 AM.png]]
+			- We have an hours, minutes, and seconds hand.
+			- This clock can have the time as Hr: Min: Sec
+				- Can take any value in 24 hours
+				- We can have 11 minutes and 30 seconds here
+			- We call it analog because it is analogous to the time. We have every value in the given limit.
+	- Digital Clock
+		- ![[Screenshot 2022-12-22 at 11.22.09 AM.png]]
+			- The 4 represents hours
+			- The 12 represents minutes
+				- Will change to 13 when 60 seconds pass
+				- We can't see what's going on between 12 and 13 because it's not allowed in the digital clock
+			- There are no seconds in this case
+			- In digital we have certain levels
+				- 11
+					- You cannot be between 11 and 12. We cannot have the value equal to 11 minutes and 30 seconds. This intermediate 
+				- 12
+				- 13
+				- 14
+- $T_{max}$ is the maximum temperature
+	- The graph is for the temperature. We are measuring the temperature from the first of the month to the last day of the month.
+		- Temperature lowers at 16th of money
+	- ![[Screenshot 2022-12-22 at 11.26.15 AM.png]]
+		- This plot is analogous. 
+			- We can see each and every value is possible from 0 to $T_{max}$. We can have any value. We can have 27$\degree$C and 27.6$\degree$C. We can have any value between 0 and $47\degree C$ when that is the $T_{max}$ 
+			- Analog is the signal which can take any value within the given limit
+		- Can change $T_{max}$ to  $V_{max}$ for it to become 20 volts. 
+- Discrete Time Signal:
+	- The signal which is defined for the discrete intervals of time. 
+	- ![[Screenshot 2022-12-22 at 11.33.39 AM.png]]
+		- In discrete time signal, the time axis (x-axis) is discretized. If we are measuring the temperature on 11:00AM daily. We don't know the temperature between the 11:00AM of the first day and the 11:00AM of the second day
+			- The value of the temperature is not available to us
+			- The signal is analog, the change is analog but we have not monitored the sections so we have a discrete time signal. And the discrete time signal is the subset of an analog signal. All real life signals are analog signal

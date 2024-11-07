@@ -1,0 +1,40 @@
+[Video](https://www.youtube.com/watch?v=LAUi8pPlcUM)
+
+- ![[Screenshot 2023-11-27 at 12.56.04 AM.png]]
+	- Official site
+		- https://nodejs.org/en
+			- [[Node.js]] is an open-source, cross-platform Javascript runtime environment
+	- What is Node.js?
+		- Node.js is an open-source, cross-platform Javascript runtime environment
+			- [[Open source]]: Source code is publicly available for sharing and modification
+			- [[Cross platform]]: Available on Mac, Windows and Linux
+			- JavaScript runtime environment - ?
+	- Why learn Node.js? (high-level)
+		- Build end-to-end Javascript applications
+		- A number of major companies like [[LinkedIn]], [[Netflix]], [[PayPal]] have all migrated from other [[Back-end|backend]] technologies to Node.js
+		- [[Full stack development]] is one of the most sought out skill sets by companies
+		- Huge community support
+	- Course structure
+		- Terms and concepts to understand what is Node.js
+		- [[Modules]] ([[user defined]])
+		- Built-in modules
+			- Code that we can readily use in application
+		- Node.js internals
+		- [[npm]] - Node package manager
+			- Huge library of 3rd party modules that we can use for a variety of requirements in our own application
+			- Essential to build any medium to large scale app with node.js
+		- CLI tool
+			- [[Command line interface tool]]
+		- Misc
+	- Can build web servers with Node.js
+	- Typically will use a framework such as [[Express.js]]
+		- Defining API endpoints
+		- Connecting to databases
+		- Adding authentication
+		- It is a node framework for the web
+- ![[Pasted image 20231127005754.png]]
+	- Prerequisites
+		- Modern JavaScript
+			- JavaScript Fundamentals crash course
+			- Advanced JavaScript crash course
+			- ES2015 topics

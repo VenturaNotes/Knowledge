@@ -1,0 +1,90 @@
+[Video](https://www.youtube.com/watch?v=mBNrRy2_hVs)
+
+- ![[Screenshot 2023-08-24 at 11.09.29 PM.png]]
+	- Patterns
+		- [[Fibonacci Numbers]]
+		- Zero / One [[Knapsack]]
+		- Unbounded Knapsack
+		- [[Longest Common Subsequence]]
+		- [[Palindromes]]
+	- Fibonacci Numbers Pattern
+		- F(0) = 0
+			- The 0th fibonacci number is 0
+		- F(1) = 1
+		- For every fibonacci number that coming after it, it's going to be the summation of previous 2 fibonacci numbers
+		- Why is it a [[dynamic programming]] problem?
+		- Naïve way to compute F(6) would be with a [[decision tree]]
+			- Will keep going down the tree until we get the base cases of $F(0) = 0$ and $F(1) = 1$
+			- We see though that there is some repeated work going on such as $F(4)$ which is why we can apply dynamic programming
+				- Would not need to compute $F(4)$ again on the right tree
+	- [[bottom-up approach to dynamic programming]]
+		- Fibonacci numbers pattern is a 1-dimensional dynamic programming problem
+		- Climbing stairs similar (array of n size)
+		- Start from $F(0)$ 
+		- Don't need to keep storing $F(0)$ and $F(1)$ in memory
+	- Good LeetCode problems
+		- Climbing Stairs
+		- house Robber
+		- Fibonacci Number
+		- Maximum Alternating Subsequence Sum
+- ![[Screenshot 2023-08-30 at 2.40.53 AM.png]]
+	- Zero / One Knapsack pattern
+		- One of the problems is the "partition equal subset sum"
+		- We want to use coins to sum a particular target
+			- Using coins, is it ever possible to sum up to target?
+			- We can use each of the coins only 0 times or 1 time
+				- How many possible combinations can we have with the coins?
+					- n = size of input array
+					- Number of ways we could do it is $2^n$ 
+		- Initial target is 5. How can we get a sub-problem. Dynamic programming is all about getting sub-problems
+		- Brute force decision tree
+			- Target can be anywhere from 5 to 0
+				- This is one-dimension of our problem, of our [[cache]], our dynamic programming grid
+			- Size of target is one dimension
+		- More complex than fibonacci numbers problem
+	- Good LeetCode Problems
+		- Partition Equal Subset Sum
+		- Target Sum
+- ![[Screenshot 2023-08-30 at 2.44.03 AM.png]]
+	- [[Unbounded Knapsack]]
+		- 2D dynamic programming problem
+		- For coins = $[1, 2, 3]$, 1 could be chosen 5 times.
+		- Using a bottom-up approach here
+	- Good LeetCode problems
+		- Coin Change
+		- Coin Change II
+		- Minimum Cost for Tickets
+- ![[Screenshot 2023-08-30 at 2.56.25 AM.png]]
+	- [[Longest common subsequence]]
+		- "abc" subsequence of this string is basically a non-contiguous element of the orderings
+			- We can choose to include a character or not include a character
+			- "ac" needs to be in this order since this is the order of the characters in the original
+		- Longest common subsequence between empty strings is just an empty string itself. Returns 0
+		- The X's can be replaced by 0's. (LCS between empty and non-empty strings is 0)
+		- Top-left corner is usually the target value we're looking for in dynamic programming grid
+		- This can also be a bottom-up approach to a 2D dynamic programming problem
+	- Good LeetCode Problems
+		- Longest Common Subsequence
+		- Longest Increasing Subsequence
+		- Edit Distance
+		- Distinct Subsequences
+- ![[Screenshot 2023-08-30 at 3.08.15 AM.png]]
+	- [[Palindromes]]
+		- "racecar"
+			- Naive way would be to check every character in the string starting at the ends and going towards the middle.
+			- Smart way
+				- Start at any given string of size 1 and expand outwards
+				- so for "racecar"
+					- We can start with "e" which itself is a palindrome [^1]
+					- By expanding, we need to check the left and right character which is done in O(1) time. and we get that `cec` is a palindrome but just comparing the "c" characters
+						- This works for an odd number of letters
+				- For a string with an even number of letters, we need to start comparing with 2 characters at a time
+					- For example in "racecar", we'd take `ce` and immediately see it's not an even number palindrome as c $\ne$ e
+					- If first string is not a palindrome, none of the new strings will be palindromes either
+	- Good LeetCode Problems
+		- Longest Palindromic Substring
+		- Palindromic Substrings
+		- Longest Palindromic Subsequence
+
+## References
+[^1]: https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/using-recursion-to-determine-whether-a-word-is-a-palindrome#:~:text=We%20can%20think%20of%20a,is%20by%20default%20a%20palindrome.

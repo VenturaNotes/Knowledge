@@ -1,0 +1,93 @@
+[Video](https://youtube.com/watch?v=s8rsR_TStaA)
+
+- Syllabus
+	- 1) Introduction
+		- definitions and classifications
+	- 2) Basic operations on signals
+		- scaling
+		- shifting
+		- integration
+		- differentiation
+	- 3) Basic system properties
+		- static
+		- dynamic
+		- causal
+		- non-causal
+	- 4) Time domain analysis of continuous & discrete time systems.
+	- 5) Fourier series analysis of CTS and DTS
+		- continuous time signals (CTS)
+		- discrete time signals (DTS)
+	- 6) Fourier transform analysis of CTS and DTS
+	- 7) Laplace transform
+	- 8) Z- transform
+	- 9) Sampling
+		- A theory
+	- 10) Random signals & systems
+- Signal
+	- Dependent variable or function of one or more independent variables
+		- $f(x_1, x_2, ... x_n)$ 
+			- function f is a signal which depends on $x_1 \text { to } x_n$ because they are the independent variables 
+			- ![[Screenshot 2022-12-21 at 8.08.59 PM.png]]
+		- The difference between signal and DC value
+			- Any quantity is set to be a signal if it is varying within the independent variable
+			- Anything that is constant is not a signal
+		- Alternating current (AC) is a signal because the current is changing with changing time. The current is alternating with change in time. Time is the independent variable.
+		- Direct Current (DC) is not a signal because the current is constant. It is not changing with changing time so it is not a signal. Not getting a signal or indication because the current is constant
+- Two different types of signals
+	- 1) Single variable signal
+		- signal which only depends on one variable
+		- function of only one variable
+		- (will be dealing with this one more)
+		- Examples
+			- f(x)
+				- depends on 1 variable (x)
+			- g(t)
+				- depends on 1 variable (t)
+				- Could be represented as time (t)
+	- 2) Multi variable signal
+		- Signal depends on more than 1 variable
+		- Examples
+			- $f_1(x_2,x_2)$
+				- This function depends on 2 variables
+			- $g_1(t_1,t_2,t_3)$ 
+				- This function depends on 3 variables
+- System
+	- The meaningful interconnection of physical devices and components is called a system
+		- A system alone cannot achieve anything
+			- ![[Screenshot 2022-12-21 at 8.27.47 PM.png]]
+			- If we want to fill an overhead tank with water using a pump. We have a pump which is a system but it won't be able to complete the task alone. The system (which is a pump) must be linked to a signal
+				- In this case, the signal is electricity
+				- We need electricity into the system so that we can pump water into the overhead tank
+				- After receiving the signal, the system must process the signal and produce another signal which is more desirable than the input signal.
+					- The electricity is the input signal in this case
+				- The system must process the input signal to produce another signal
+					- The output of the system is another system (called output signal)
+						- The output signal is more desirable as compared to the input signal
+				- The pump is producing the output signal which is the mechanical work.
+				- To pump water to overhead tank, we need mechanical work. The mechanical work signal is much more desirable as compared to electricity.
+					- The electricity cannot pump the water into the tank. We need mechanical work.
+				- The pump receives the electricity which is the input signal and after processing, it produces mechanical work which is the output signal and using the mechanical work, we can fill the overhead tank
+			- To be clear
+				- electricity is not always less desirable than the mechanical work. In this scenario when we want to pump water into the overhead tank, the mechanical work is more desirable as compared to the electricity. However, there may be cases where the electricity is more desirable as compared to the mechanical work
+				- The input and output signals purely depends on the task that we would like to achieve
+				- The output signal also depends on the same variables
+					- If the input signal -> $f(x_1,x_2)$ 
+						- The function f which depends on $x_1$ and $x_2$ 
+					- The output signal -> $g(x_1,x_2)$
+					- Both signals depend on the same variables
+- Two types of problems we deal with
+	- 1) Analysis Problem
+		- We have
+			- Input signal
+			- System
+		- Need to find out the response of the system
+			- Output signal
+		- This type of problem is the most general type
+			- There is always a solution of this type of problem
+	- 2) Synthesis Problem
+		- We have
+			- Input Signal
+			- Output signal
+		- We need
+			- System
+		- This type of problem is complicated and there may or may not be a solution for this type of problem because the system may or may not exist for the given output signal 

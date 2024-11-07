@@ -1,0 +1,31 @@
+[Video](https://youtube.com/watch?v=M0mx8S05v60)
+
+- Course called digital logic and designing
+- What is signal?
+	- ![[Screenshot 2022-12-22 at 11.13.22 AM.png]]
+	- A signal is a function, that represents the variation of a physical quantity with respect to any parameter
+		- The any parameter is an independent quantity which is generally time or distance
+	- Let's say our function is $f(x) = -ax^2 + bx + c$ 
+		- Shows that our function is dependent on the x
+		- Let's say there is a boy who will do work for us. He will go to a particular place and measure the temperature from morning 9am to the evening 9pm. Measures the temperature in every 1 minute. 
+			- He will have data at the end of the day from
+				- 9:00 ... 27$\degree$C
+				- 9:01 ... 27.5$\degree$C
+				- 9:02 ... 27$\degree$C
+				- .
+				- .
+				- 9:00
+		- He will have a list of the temperatures for different times. We can plot this information. The x-axis is used for the independent quantity and the y-axis is used for the dependent quantity. Independent is time. Y-axis will be temperature. 
+		- -a will show that we have  a downward parabola in which a > 0. a=0 would make a straight line. a < 0 will be upward parabola
+		- The function is your signal
+	- In electrical and electronics, usually the signal is the variation of the electrical quantity (generally current or voltage) with time.
+		- Independent quantity is time
+	- If the current or voltage remains the same for different time, then it is not a signal. It is a direct value
+		- If current is same for different time, then it is direct current (dc).
+			- We can say di=0. The small change in the current is equal to 0. Di stands for digital input.
+				- ![[Screenshot 2022-12-22 at 11.16.36 AM.png]]
+	- Transducers are the device which is used to convert a non-electrical signal to an electrical signal. 
+	- The reverse transducer is the device used to convert the electrical signal to the non-electrical one
+	- ![[Screenshot 2022-12-22 at 11.20.37 AM.png]]
+		- If you sing a song into the mic, your sound is converted into electrical energy. The sound creates some vibration and the vibration is converted into an electrical pulse. The electrical pulses is amplified. There is a device we call as the amplifier because it is required to amplify the signal so it can be converted and interpreted well. Then you have a speaker which is given back
+			- Sound energy is given in. It is converted to electrical energy. It is processed well. Then it is given back as the sound energy by the means of the speaker. This is how the signal works. 

@@ -1,0 +1,25 @@
+[Source](https://www.coursera.org/learn/machine-learning/lecture/jKBHE/unsupervised-learning-part-2)
+
+- Unsupervised learning
+	- Data only comes with inputs x, but not output labels y.
+	- Algorithm has to find structure in the data
+	- Types
+		- Clustering
+			- Group similar data points together
+		- Anomaly Detection
+			- Find unusual data points.
+				- Uses are fraud detection in financial system where unusual events or transactions could be signs of fraud
+		- Dimensionality reduction
+			- Compress data using fewer numbers
+				- Lets you take a big data-set and almost magically compress it to a much smaller data-set while losing as little information as possible
+- Question: 
+	- Of the following examples, which would you address using an unsupervised learning algorithm?  (Check all that apply.)
+	- Answer
+		- Given a set of news articles found on the web, group them into sets of articles about the same stories
+			- clustering example
+		- Given a database of customer data, automatically discover market segments and group customers into different market segments
+			- clustering example
+	- Examples for supervised learning
+		- Given email labeled as spam/not spam, learn a spam filter
+		- Given a dataset of patients diagnosed as either having diabetes or not, learn to classify new patients as having diabetes or not
+- Jupyter Notebooks are very useful in machine learning

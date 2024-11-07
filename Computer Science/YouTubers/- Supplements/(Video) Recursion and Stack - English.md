@@ -1,0 +1,147 @@
+---
+Source:
+  - https://youtube.com/watch?v=ygK0YON10sQ
+Length: 13 minutes, 8 seconds
+tags:
+  - type/video
+  - status/incomplete
+---
+- Video was completed but too many images
+
+- How recursion works
+	- How stack is used for running recursive functions
+- Topics
+	- Main Memory
+	- Function Call
+		- How they're made
+	- Nested function Calls
+	- Recursion Example 1
+	- Recursion Example 2
+- Program
+	- ![[Screenshot 2022-12-09 at 9.52.29 PM.png]]
+		- If you see a program all the statements in the program can be divided into 2 categories. 1 is all these variables as Data. All the statements as instructions. Program has 2 sections, data and instructions (separately)
+- Memory
+	- ![[Screenshot 2022-12-09 at 9.59.17 PM.png]]
+		- Now let us look at main memory or primary memory (ram). On portion of the main memory will be occupied by the operating system. The remaining memory is divided into 3 sections and these are used for running our programs. One section is code section where the instructions of a program or functions are kept here. Next is stack. Here, the variables of a function or the data of a function is stored here. 3rd heap. Used for dynamic allocation of memory. One more small portion that's belonged to code only. If any program is having a global or static variables, "static variables" is allocated for those variables 
+- Loading of Program
+	- ![[Screenshot 2022-12-09 at 10.11.49 PM.png]]
+		- When you want to run any program, what happens. Here is a sample C language program - `void main()`. If you want to run this, the machine code of this program will be loaded into code section. And the memory for the variables inside this program, that means data of a program, the memory will be allocated inside the stack. An entry is made for the function inside the stack. The memory is allocated for this variable. If there are more than 1 variables, then the memory will be allocated for all of them. The `x=10` portion which belongs to main function or one particular function is called `Activation Record` of main function. When the instructions of main function executes and they have to access a data, they will access data from the stack. The `x` in `code` means it will refer to the `x=10` location inside the stack inside the memory. This activation record is created the moment when the function starts executing or the moment the function is called, this activation record is created. For every function, its activation record is recorded inside the stack. 
+- Function Call
+	- ![[Screenshot 2022-12-09 at 10.12.50 PM.png]]
+		- The left side is the example and the right side is the tracing. main() is incrementing x and passing 11 to A. And A is printing 11. The output is 11. Let us see how this works
+	- ![[Screenshot 2022-12-09 at 10.22.22 PM.png]]
+	- ![[Screenshot 2022-12-09 at 10.22.35 PM.png]]
+	- ![[Screenshot 2022-12-09 at 10.22.44 PM.png]]
+	- ![[Screenshot 2022-12-09 at 10.23.18 PM.png]]
+	- ![[Screenshot 2022-12-09 at 10.23.58 PM.png]]
+	- ![[Screenshot 2022-12-09 at 10.24.11 PM.png]]
+		- Program is loaded in the main memory in the machine code in the code section. Activation record for main is created. x++. x is incremented. Now you can see the moment A is called, its activation record is created. The variable A for that memory is allocated inside the stack - `a=11`. This is the activation record for function A. And the activation record for function main is `x=11`. You can see that main has not yet terminated. It has not yet ended. It has called function A. So the activation record for function a is created. Now the execution of function A starts and it will access the topmost content or the top most activation record inside the stack. Every running function access the top most activation record inside the stack. When a function is called, its activation record is created. Similarly when a function terminates, its activation record will be deleted. Function a prints a. A ended so activation record is gone. main ended and activation record is gone as well. Now the stack is clear. So this is how function calls are made. And one thing we've observed that as the functions are being called, their activation records will go on being created inside the stack one above another and the running function will access the top most activation record.
+- [Activation Record](https://www.tutorialspoint.com/what-is-an-activation-record)
+	- ![[Pasted image 20221217162939.png]]
+	- 1) An activation record is a data structure that is activated/created when a procedure/function is invoked, and it includes the following data about the function.
+		- Activation Record in "C" language consists of
+			- Actual parameters
+			- Number of arguments
+			- Return Address
+			- Return Value
+			- Old Stack Pointer (SP)
+			- local Data in a function or procedure
+	- 2) Two Pointers are required for Stack Allocation Scheme -
+		- Top: 
+			- It points to the top of the stack. Top points to the top of the top activation record. In the figure, the top pointer will point to the top of the C Activation Record.
+		- Stack Pointer (SP)
+			- It points to the activation record of the currently active procedure
+- Nested Function Call
+	- ![[Screenshot 2022-12-09 at 10.27.51 PM.png]]
+		- You can look at this example. Main is calling A. A is calling B. B is printing some value. main() calls A by passing 11. Then calls B by passing 22 and then B prints 22
+	- ![[Screenshot 2022-12-09 at 10.28.46 PM.png]]
+		- Now lets see how the execution is done. Program is loaded into main memory of the code section and the activation record for main is created.
+	- ![[Screenshot 2022-12-09 at 10.29.22 PM.png]]
+		- Main calls A. A's activation record is created.
+	- ![[Screenshot 2022-12-09 at 10.29.47 PM.png]]
+		- A calls B. B's activation record is created.
+	- ![[Screenshot 2022-12-09 at 10.30.09 PM.png]]
+		- B prints k. Output is 22
+	- ![[Screenshot 2022-12-09 at 10.30.26 PM.png]]
+		- B ends so its activation record is gone
+	- ![[Screenshot 2022-12-09 at 10.30.37 PM.png]]
+		- A ends, so its activation record is gone
+	- ![[Screenshot 2022-12-09 at 10.30.53 PM.png]]
+		- Main ends so stack is cleared
+- Recursion
+	- Recursive functions call themselves. A function calling itself again is called a recursive function. A recursive function must have some kind of termination condition. If it is going on calling itself, it should terminate at some point (stop calling itself at some point)
+	- Example
+		- ![[Screenshot 2022-12-09 at 10.32.06 PM.png]]
+			- Right side is tracing. Main is calling A by passing 3. A has two statements. Print 3 and call itself by passing 2. Then print 2 and call itself by passing 1. print 1 and then call itself by passing 0. It will keep doing this unless the n becomes a 0. So function calling itself is a recursive function. And this function is calling itself at the end. The last statement is a recursive call. Such a recursion is called "Tail Recursion"
+	- Recursion Running
+		- ![[Screenshot 2022-12-09 at 10.34.15 PM.png]]
+			- Code is loaded in main memory. Activation record for main
+		- ![[Screenshot 2022-12-09 at 10.39.12 PM.png]]
+			- A is called and its activation record created
+		- ![[Screenshot 2022-12-09 at 10.39.28 PM.png]]
+			- Condition checked
+		- ![[Screenshot 2022-12-09 at 10.39.45 PM.png]]
+			- Value 3 printed
+		- ![[Screenshot 2022-12-09 at 10.40.03 PM.png]]
+			- It will call itself again. So when it is calling again, a new record is created. The same function will start again from the beginning and this time it will be accessing the `n=2` activation record. The `n=3` remains as is inside the main memory because it has not yet terminated. It is calling itself again
+		- ![[Screenshot 2022-12-09 at 10.41.19 PM.png]]
+			- Second call checking the value
+		-  ![[Screenshot 2022-12-09 at 10.41.36 PM.png]]
+			- Printing the value
+		- ![[Screenshot 2022-12-09 at 10.41.51 PM.png]]
+			- Calling itself again creating a new record
+		- ![[Screenshot 2022-12-09 at 10.42.21 PM.png]]
+			- Again the function starts from the beginning. Checking the condition
+		- ![[Screenshot 2022-12-09 at 10.42.44 PM.png]]
+			- Values printed
+		- ![[Screenshot 2022-12-09 at 10.42.54 PM.png]]
+			- Calling itself again
+		- ![[Screenshot 2022-12-09 at 10.43.15 PM.png]]
+			- Checks the condition again
+		- ![[Screenshot 2022-12-09 at 10.43.28 PM.png]]
+			- This time, condition has failed so it has terminated and the activation record is gone. Now it has to go back to the previous function call. What was that? It was nothing but `A` only with the value of n as 1.
+		- ![[Screenshot 2022-12-09 at 10.44.51 PM.png]]
+			- So it goes back and terminates it
+		- ![[Screenshot 2022-12-09 at 10.44.59 PM.png]]
+			- Then the `n=2` record is gone
+		- ![[Screenshot 2022-12-09 at 10.45.20 PM.png]]
+			- The previous record `n=3` is gone
+		- ![[Screenshot 2022-12-09 at 10.45.59 PM.png]]
+			- Now main has disappeared with it's record also gone
+- Recursion Example 2 (Head Recursion)
+	- ![[Screenshot 2022-12-09 at 10.46.32 PM.png]]
+		- A recursive call is first and then printf statement is called. Tracing is on the right side. main() calls A with 3 which will call itself with 2, 1, and then 0. Then it will go back to A(1) and then print(1). Goes back and print(2). Goes back and print(3). Difference between previous example and this example, before it was printing and calling itself. Here it was calling and then printing the value
+	- ![[Screenshot 2022-12-09 at 10.49.24 PM.png]]
+		- Code is loaded into main memory. Activation record for main `x=3` is created
+	- ![[Screenshot 2022-12-09 at 10.49.54 PM.png]]
+		- A function is called. Activation record `n=3` is created.
+	- ![[Screenshot 2022-12-09 at 10.50.26 PM.png]]
+		- Condition is checked
+	- ![[Screenshot 2022-12-09 at 10.50.38 PM.png]]
+		- Calls itself with new value `n=2`
+	- ![[Screenshot 2022-12-09 at 10.51.39 PM.png]]
+		- Condition checked again
+	- ![[Screenshot 2022-12-09 at 10.51.58 PM.png]]
+		- Again calls itself with value `n=1` creating a new activation record
+	- ![[Screenshot 2022-12-09 at 10.52.22 PM.png]]
+		- Condition checked again
+	- ![[Screenshot 2022-12-09 at 10.52.31 PM.png]]
+		- Calls itself again with value `n=0`
+	- ![[Screenshot 2022-12-09 at 10.52.59 PM.png]]
+		- Condition now fails
+	- ![[Screenshot 2022-12-09 at 10.53.10 PM.png]]
+		- So function terminates
+	- ![[Screenshot 2022-12-09 at 10.53.23 PM.png]]
+		- Went back to previous record. In the previous function call, it has made the function `A(n-1)`. Now it we need to print 1.
+	- ![[Screenshot 2022-12-09 at 10.54.21 PM.png]]
+		- The previous call is now terminated
+	- ![[Screenshot 2022-12-09 at 10.55.24 PM.png]]
+		- Going back to the previous call printing 2
+	- ![[Screenshot 2022-12-09 at 10.55.46 PM.png]]
+		- Function was now terminated so `n=2 ` is gone
+	- ![[Screenshot 2022-12-09 at 10.58.04 PM.png]]
+		- Goes back to the previous call. Than time `n=3` so 3 will be printed. So while returning, it is printing the values
+	- ![[Screenshot 2022-12-09 at 10.58.18 PM.png]]
+		- Now the A function has gone
+	- ![[Screenshot 2022-12-09 at 10.58.28 PM.png]]
+		- Main has now gone. This is how the recursive function call uses stack

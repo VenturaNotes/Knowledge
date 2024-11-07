@@ -1,0 +1,106 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=atDe7qka6q8
+---
+
+- ![[Screenshot 2024-09-17 at 8.02.58 AM.png]]
+	- It's time to finish up replication so we can eventually get to partitioning transactions and then we can finally do a database comparison
+	- [[Leaderless replication]]
+	- Leaderless Replication Overview
+		- Description
+			- Any replica can accept a write from a client
+			- Send reads and writes to all nodes in parallel, once a certain predefined threshold of nodes return a success value, the client is told that the read/write was successful
+			- Parts
+				- Client 
+					- PUT K, A
+				- The client sends the Write operation to all 5 data nodes and waits for [[acknowledgment|ACK]] from at least 3 of them.
+		- Instead of doing what you do in multi-leader replication where writes are still going to one place and reads are only coming from one place, writes are going to be sent to every single replica in parallel. Reads will be taken from every single replica in parallel (or at least a certain amount of them).
+			- Unlike single leader and multi-leader replication, we are dealing with a lot of network calls at once here
+	- Keeping data up to date
+		- Description
+			- Anti-entropy
+			- Read repair
+		- Just said that writes are going to a bunch of places at once. It would be great if we could write every single node at a time. Lets assume 100 nodes in our [[cluster]] and we want to write all of them.
+			- Matter of fact is that a lot of these writes are probably going to fail. How can we keep data up to date?
+				- Especially because a lot of times a write is going to get to one place before it does another
+	- [[Anti Entropy]]
+		- Background process looks at multiple nodes and their stored values, use version numbers of the data in order to attempt to make sure that each replica holds the most up to date copy of the data
+			- Let's assume we're using a key value store. For every single key in the database, we're going to have a version number of how many times that key has been updated.
+		- Anti entropy is saying use the background process, look at two nodes, and replace the outdated values on given nodes with the more updated values that it can find on other nodes
+	- [[Read Repair]]
+		- Idea: Since we are reading from multiple replicas in parallel, take the most up to date piece of data and propagate it to the other replicas that had outdated data
+		- Not all leaderless databases use anti entropy
+			- Most happen to use read repair. The point of read repair is that when you do a read, you're actually querying from multiple databases at once. It's likely going to be the case that if these databases have older data, we want to make sure that we then update those databases that have older data with the data from the newer database. 
+		- Example
+			- In the diagram below, we want to find the value of key Jordan. The most recent database is version number 20.
+			- Let's make an actual read
+				- Value of key Jordan?
+				- `argmax [(20, sexy), (18, cute), (19, mid)]`
+					- Takes argmax of all the version numbers. Then use that to find the corresponding value
+				- Result: jordan = sexy
+				- Need to write back to db2 and db3
+					- Then from the client, we concurrently write that value back to database 2 and 3. 
+			- Problem: How can we guarantee that at least one of the replicas that we read from has the most up to date data?
+				- What if we're making a bunch of parallel reads, however, none of the databases that we're reading from actually have the most up-to-date data
+- ![[Screenshot 2024-09-21 at 4.01.44 AM.png]]
+	- [[Quorums]]
+		- Description
+			- Idea: Let's imagine we have n database replicas
+				- Suppose a client only has a successful write if at least w nodes are written to
+				- Suppose a client only has a successful read if at least r nodes are read from
+				- If w + r > n, at least one of the nodes that is read from will have an updated copy of the data and can thus read repair the others
+			- Typically, set n to be an odd number and w = r = (n+1)/2, can tolerate up to (n-1)/2 node failures in this case.
+		- Imagine we have some sort of leaderless replication schema and within that there are n database nodes. 
+			- Now when you write, you write to a certain amount of nodes in parallel. Let's say that the client only receives something saying their write was successful if at least w nodes are written to. Let's just call that a variable for now. Let's say that the client only sees their read as being successful if at least r nodes are read from.
+			- We have these 3 variables, n, w, and r.
+			- We know that if w + r > n, if the nodes we have to write to to have a successful write and the nodes we have to read from to have a successful read, sum up to more than the number of nodes in the actual database pool itself.
+				- We know that one of the nodes we will be reading from has one of the most updated values and then we can use read repair to update the other ones
+				- We would typically set n to be an odd number
+					- If n = 7, then w = r = $(n+1)/2$. In this case, w and r would equal 4.
+					- If w and r are 4 and n is 7, we can tolerate up to three replica failures because we could still be able to successfully write to 4 nodes and read from 4 nodes
+	- Quorum illustration
+		- Lets say initially we try to write to all 7 of the replicas but only 4 of them work. Therefore, only four of the nodes have the updated value
+			- If we read from four nodes, no matter which four nodes we pick to read from, at least one of them is going to have the update value. Then we can read repair the rest
+	- Quorums are not perfect
+		- Description
+			- If we try to write to w nodes to make a [[Quorums|quorum]], but fewer than w writes succeed, the client is told that their write failed, but the nodes that did successfully process the write do not undo it
+				- So if we write to w - 1 nodes, instead of writing to 4 (as described above), we only write to 3.
+				- Issue is that the nodes that the client did successfully write to are not going to roll back. So now we have an incorrect write that's actually been propagated on a few of the nodes and it's kind of unclear what we should do there.
+					- Should we roll back eventually, keep it? There might be a read repair and that value might get propagated along.
+					- Puts the database in an inconsistent state
+			- If you restore a failed node with an up to date value from one key using a node with an older value for that key, it will lose the up to date value
+				- If you restore a failed node with an up to date key value pair from an older node, then that node is no longer going to have an up-to-date key and value and that quorum parameter of w which you might have satisfied earlier on a write but once the node crashes and comes back up is no longer satisfied. Now only $w-1$ nodes have the correct value and there is no guarantee that you're going to read the most correct value anymore.
+			- Can still be write conflicts
+				- Will demonstrate a [[race condition]] right after this which can happen even using quorums and as a result it can lead to an inconsistent state in the database.
+			- Sloppy quorums
+		- Even though quorums give this illusion of a strongly consistent system where every single time you can get the most up-to-date value, it's not actually the case that that's always right
+	- Write Conflict Example
+		- I'm going to write to both databases at once because this is a leaderless configuration
+		- She will do the same
+		- What first happens is that my first write is going to reach database 1 first which has version number one for the key Jordan of sexy where she says that I'm ugly
+		- However, our writes become interleaved. It happens to be the case that my write to database 2 gets there after her write to database 2. My write to database 1 gets there before her write to database 1. 
+			- Now we have 2 conflicting values. Database 1 thinks the version value of 2 for Jordan is ugly and DB2 thinks the version value of 2 for Jordan is sexy
+			- Now when the anti-entropy process or read repair comes back, it doesn't know which is actually the correct value. They have the same version number which is problematic. Now we'll need to use [[conflict resolution algorithms]] like we discussed in the multi-leader replication video
+- ![[Screenshot 2024-09-21 at 4.13.27 AM.png]]
+	- Sloppy Quorums
+		- Let's say I'm a Facebook SWE, and all the profile data is stored on 99 database nodes, W = 50, R = 50
+			- Lets say we have a cluster of 99 database replicas where all of my profile data is going to be stored. This is my profile data and other users profile data.
+			- We've chosen to have a quorum of w = 50 and r = 50
+		- However, all of the 99 profile nodes have crashed, so I instead redirect all writes for the data to 50 of the nodes which hold Facebook messages
+			- If all the nodes crashed, we can no longer satisfy those quorum conditions and I can no longer write to the profile. As a result of that, the service might go down. However, so that the data stays durable and the writes can go through, I'm going to reroute all of those profile writes to databases that would actually be holding the facebook messenger data.
+			- Now the writes are going to a different place than they would normally
+			- However, they're still durable and the stuff I'm writing will be there but if I'm going to end up reading from those profile replicas once they come back up, I won't see the changes I made until eventually we can perform something called a hinted handoff, transferring the data back to the correct replicas
+		- Even if the profile nodes come back up, I can read 50 of them and not get up to date data
+		- Need to perform a [[hinted handoff]], and transfer the data back to the right place.
+	- [[Leaderless replication]] conclusion
+		- Pros:
+			- Can work quite well in practice with a [[cross datacenter solution]] by having the quorum write parameter be small enough that all writes can go to one datacenter
+				- If we had 100 total nodes in the system and 10 datacenters and 10 nodes per data center, might set the write parameter to = 10
+		- Cons:
+			- Slower reads as a result of multiple queries to nodes (if using read repair)
+				- Need to do a ton of reads in parallel
+			- Still have to reason about write conflicts
+				- While writes will be faster, you still have to reason about write conflicts in the same way you would with multi-leader replication
+			- Quorums are not perfect, provide illusion of strong consistency when in reality this is often not true
+				- Between race conditions, sloppy quorums and the fact that writes don't get rolled back when they fail, quorums do not actually provide a completely consistent database system
+		- As a result, leaderless replication can be very good for achieving high write throughput. However, it does lead to issues when it comes to consistency

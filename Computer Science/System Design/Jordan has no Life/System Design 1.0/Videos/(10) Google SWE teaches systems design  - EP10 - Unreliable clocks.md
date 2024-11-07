@@ -1,0 +1,49 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=ax39W2blN00
+---
+- ![[Screenshot 2024-09-24 at 10.17.27 AM.png]]
+	- Today's episode is going to be about [[unreliable clocks]] in [[distributed systems]]
+	- Background
+		- Description
+			- Form a theoretical perspective, using clocks in a distributed system seems like a great idea. Even though separate nodes may not be able to communicate with each other, or perhaps have a conflict about the ordering of certain writes that came to them, using a timestamp should be an easy way to resolve every conflict!
+			- However, this is not the case, as we cannot rely on them.
+		- Imagine you have a database which has a bunch of leaders so we can make a write to each of them and we want to decide how to resolve conflicts. To resolve these conflicts, we want to know which write came first between the two. We could do something like [[vector clocks]] or rather [[version vectors]] (but the issue there is that version vectors will just say that a lot of vectors are concurrent and you have to keep them as siblings.) What if we just want to keep one value. Well we would need some way to order our writes.
+			- So why don't we just use timestamps? It doesn't require any extra synchronization between the machines. Everyone has a clock on their computer and as far as we can tell they're all pretty accurate, right? So it should be pretty easy to do this and get rid of concurrency bugs in general. It seems like we have a great solution. Unfortunately, it's not so simple. We can't rely on clocks.
+	- [[Clocks on Computers]]
+		- Description
+			- On most computers, clocks are typically set by occasionally synchronizing with an [[NTP server]] (Network Time Protocol). Once this happens, computers will use their [[internal quartz clock]] to measure elapsed time until the next synchronization. 
+			- Issues:
+				- Synchronizing with NTP requires a network call which can take any amount of time
+				- Quartz Clock Drift - on average up to 7 seconds per day
+				- Cannot set clock of device we do not own (e.g. a client device like a phone)
+		- Unless you are really trying to keep synchronized with the current time and you have a GPS receiver plugged into your computer, the majority of computers will occasionally synchronize with servers running NTP, aka the network time protocol. Once this happens, computers will use something called an internal quartz clock to measure the elapsed time and keep the time updated until the next synchronization with NTP
+			- Issues that come up. Even when we make a call to NTP, NTP is going to give me the current time from that server. However, then that time has to come back to me over the network and the network can take an arbitrary amount of time. So now we have an outdated NTP result 
+			- Additionally, we have something called [[quartz clock drift]] which is pretty bad. It means that the quartz clock running in our computers actually is able to oscillate a little bit more or less frequently sometimes. Using Google's measurement, they average that one day without synchronizing with NTP leads to 7 seconds of clock skew which is pretty significant.
+			- For example, if I make a write and someone 5 seconds later makes their write, if my clock is off by 7 seconds, the server might think that they're write was earlier than that
+			- Furthermore, if we are using client time stamps, we can't set the clock of a device we don't own. 
+				- A lot of people on an iPhone have gotten around certain gaming time requirements by literally changing the time on their phone and boom, bug fixed
+	- Measuring Elapsed Time
+		- Description
+			- Do not use your computer's time of day clock for this!
+				- May jump around if synchronized with NTP
+					- If we synchronize with NTP and our current clock is far off from it, we might literally jump around which would completely throw off the elapsed time.
+				- Often ignores [[leap seconds]]
+					- This is where a minute has either 59 seconds or 61 seconds. No one really knows about this except for time experts. The point is, it ignores them. When this happens, it also makes it bad for elapsed time.
+			- Instead, use a [[monotonic clock]] (specific value of the clock means nothing, basically just exists to measure time deltas)
+				- It's basically a counter on a computer that goes up a second at a time. That way, you can easily see how many elapsed seconds there were between two events happening
+- ![[Screenshot 2024-09-24 at 10.31.21 AM.png]]
+	- Ordering Events 
+		- Description
+			- Do not use time of day clocks for this, as they could be out of sync! This may result in dropping data, or even seeming like a piece of data was sent backwards in time (if the sender clock is ahead of the recipient one).
+			- Instead, should be using logical timestamps, only purpose is to measure a relative ordering of events (we will discuss these soon).
+		- Ordering events is the main motivation behind using timestamps and distributed computing. We want to say what happened first and use the timestamps to do so. However, as I've discussed, these clocks are unreliable so we shouldn't be doing this. It can result in just dropping data. If you're using last write wins and you have one write that happens on my server and then another write on the server in China, but their clocks are out of sync, my write might have happened before but it seems like the write in China happened first. Then boom, my data is gone and I don't even know why. Data is dropped. 
+		- Instead, we should use logical timestamps (this is either [[version vectors]] or if you really want a complete ordering of things in order to decide conflicts, something like [[Lamport timestamps]] which will be discussed in a subsequent video)
+	- Summary
+		- Description
+			- In distributed systems, clocks can really only generate a confidence interval that is currently some time.  While synchronizing with NTP frequently enough can decrease the size of the interval, clocks are ultimately unreliable due to the network response time of NTP, as well as quartz drift on a local machine
+			- Yet still many database solutions use it for either ordering events or conflict resolution. Why? Because it's simple. Is this good? Probably not, and they admit that
+		- In distributed systems, clocks really are not reliable. They can really only just generate a confidence interval that it is currently between some minimum time and some maximum time. Even though that confidence interval is solid if we're synchronizing with NTP really frequently, at the end of the day there is a possibility of introducing a lot of time-based bugs there and it's really not an ideal solution
+		- There are still a lot of companies that rely on using timestamps for their databases and people do that all the time. One of the most popular NoSQL key value stores is [[Cassandra]] which goes and resolves conflicts by using timestamp. They basically acknowledge you should try and keep your servers as synchronized with NTP as possible.
+		- Another option that people use is [[Google Spanner]] where it heavily relies on timing. However, one thing they do is use specialized hardware where all of their servers have a GPS clock attached to them so they can stay as confident about their time interval as possible and as a result they're able to take consistent snapshots using time intervals
+		- Even still, at the end of the day, this is not the best possible solution. It's pretty complex and it introduces a lot of issues to the problem. So at the end of the day, we would rather be using a different ordering mechanism and I'll start discussing those in subsequent videos. 

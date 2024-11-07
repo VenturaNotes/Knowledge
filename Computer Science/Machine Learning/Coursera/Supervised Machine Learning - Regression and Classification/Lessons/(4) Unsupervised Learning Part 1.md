@@ -1,0 +1,52 @@
+[Source](https://www.coursera.org/learn/machine-learning/lecture/TxO6F/unsupervised-learning-part-1)
+
+- Second most used form of machine learning
+- Supervised learning
+	- ![[Screenshot 2022-12-24 at 5.12.08 AM.png]]
+- Unsupervised Learning
+	- ![[Screenshot 2022-12-24 at 5.18.13 AM.png]]
+	- Given data that isn't associated with any output labels y.
+	- If given data on patients and their tumor size and the patient's age (but not whether the tumor was benign or malignant)
+	- Not asked to diagnose if the tumor is benign or not. Not given any labels y in the dataset
+		- Job is to find something interesting in unlabeled data
+			- such as pattern or structure
+	- It's called unsupervised because we're not trying to supervise the algorithm to give a right answer for every input.
+		- Instead, we ask the algorithm to figure out all by itself what's interesting or what patterns or structures that might be in this data.
+	- With this kind of algorithm, it might decide that the data can be assigned to two different groups or two different clusters.
+		- It might decide there is a cluster on the bottom-left and another cluster/group on the top-right.
+			- This is known as a clustering algorithm
+				- Places unlabeled data into different clusters and used in many applications
+	- Clustering examples
+		- Google news
+			- ![[Screenshot 2022-12-24 at 5.22.20 AM.png]]
+			- Looks at hundreds of thousands of news articles on the internet, and groups related stories together.
+			- It was able to find articles with the words "panda", "twin", and "zoo" which it clustered with other articles to recommend you to read
+				- found articles that mention similar words and grouping them into clusters
+				- Clustering algorithm figures out on his own which words suggest, that certain articles are in the same group
+					- Figures out the "clusters" of news articles today.
+		- DNA microarray
+			- ![[Screenshot 2022-12-24 at 5.30.53 AM.png]]
+			- clustering genetic or DNA data
+			- Each column represents the genetic or DNA activity of one person
+			- Each row represents a particular gene
+			- Researchers have found a genetic link to whether someone dislikes certain vegetables such as broccoli, brussel sprouts, or asparagus.
+			- For DNA microarrays, the idea is to measure how much certain genes are expressed for each individual person
+				- the colors red, green, gray show the degree to which different individuals do or do not have a specific gene active.
+				- You can then run a clustering algorithm to group individuals into different categories or into different types of people
+					- Could be grouped into type 1, type 2, and type 3.
+					- Can help us figure out the major types of individuals
+				- We're not giving the algorithm the right answers for the examples in advance.
+		- Clustering: Grouping customers
+			- ![[Screenshot 2022-12-24 at 5.36.57 AM.png]]
+			- Many companies have huge databases of customer information.
+			- Given this data, can you automatically group your customers into different market segments so that you can more efficiently serve your customers?
+			- Concretely, deep learning dot AI team did research to better understand the deep learning dot AI community and why different individuals 
+				- take these classes
+				- subscribe to the batch weekly newsletter
+				- attend AI events
+			- Let's visualize the deep learning dot AI community as this collection of people. Running clustering, that is market segmentation, found a few distinct groups of individuals 
+				- One group's primary motivation is seeking knowledge to grow their skills
+				- Second group's primary motivation is looking for a way to develop their career
+				- Third group wants to stay updated on how AI impacts their field of work
+- A clustering algorithm is a type of unsupervised learning algorithm that takes data without labels and tries to automatically group them into clusters. 
+	- There are other types of unsupervised learning algorithms

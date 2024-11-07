@@ -1,0 +1,7 @@
+[[(1) What is machine learning.]]
+[[(2) Supervised learning part 1]]
+[[(3) Supervised Learning Part 2]]
+[[(4) Unsupervised Learning Part 1]]
+[[(5) Unsupervised Learning Part 2]]
+[[(6) Jupyter Notebooks]]
+[[(7) Lab - Python and Jupyter Notebooks]]

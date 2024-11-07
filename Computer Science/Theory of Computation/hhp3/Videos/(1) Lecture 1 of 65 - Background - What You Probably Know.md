@@ -1,0 +1,384 @@
+[Video](https://www.youtube.com/watch?v=TOsMcgIK95k)
+
+- ![[Screenshot 2023-09-11 at 1.59.51 PM.png]]
+	- Prerequisites
+		- [[Sets]]
+			- {a, b, c}
+			- $\mathbb{N}$ = [[Natural Numbers]] = {1, 2, 3, ...}
+				- Positive numbers starting with 1
+			- $\mathbb{Z}$ = [[Integers]] = {..., -2, -1, 0, +1, +2, ...}
+			- $\varnothing$ = {} [[empty set]]
+			- [[Set operations]]
+				- $\cup$: [[Union]]
+				- $\cap$: [[Intersection]]
+				- $\overline s$: [[Complement]]
+					- What's not in a set
+			- $S \times T$ : [[Cartesian Product|cross product]]
+				- Forms a pair of things drawn from set S and set T
+				- Example
+					- $\mathbb{N} \times \mathbb{N}$ = {(i, j) | i, j $\ge$ 1}
+						- A pair of integers i and j such that both i and j are greater than 1
+						- Element in schematic form (i, j)
+						- Additional constraints after |
+						- Any pair with 2 elements in it will be in the set as long as the first and second elements are $\ge$ 1
+			- (4, b) [[Tuple|tuples]], [[sequences]]
+				- First element is natural number 4
+				- Second element a symbol
+					- Will talk about sequences of symbols
+			- P(S) [[Power Set]]
+				- If we've got a set, we can ask about the set of subsets. That is the power set
+				- The power set of S is the set of all subsets for s (denoted with a capital "P")
+			- [[Venn diagram|Venn diagrams]]
+				- Can be used to show the intersection of 2 sets
+- ![[Screenshot 2023-09-11 at 2.23.03 PM.png]]
+	- [[Functions]] and [[functional notation]]
+		- f(x) = y
+		- f: Domain $\to$ Range
+			- Functions take elements from one set and map them into another set
+			- The from set is called the [[domain set]] and the "to" set is called the [[range set]]
+				- Yields value in range
+			- In this case, function only takes one argument. Therefore, it's called a unary function
+				- Other functions may take 2 or more arguments
+		- [[Arity]]
+			- [[Unary]]: one argument
+				- f(a) 
+				- -a 
+					- Negation operation minus a
+					- Typical function used in prefix notation
+				- [[prefix]]
+			- [[Binary]]: 2 arguments
+				- g(a ,b)
+				- a + b
+					- Example of infix notation is the additional operation so we write a + b
+				- [[Infix]]
+			- [[k-ary]]: takes several arguments
+				- h(a, b, c, d)
+					- Area of h is 4
+			- In the case of binary or k-ary functions, the domain is a set of tuples
+				- g: $\mathbb{N} \times \mathbb{N}$
+					- It could take 2 natural numbers (2 positive integers)
+						- The domain is "n cross n"
+							- It takes 2 arguments and yields a single natural number
+		- [[predicate|Predicates]]: Any function that takes an argument from the domain and matches it to true or false is called a predicate
+			- P: Domain $\to$ {True, False}
+		- [[Property]]: Predicates that take one argument are called properties and has a range of true or false
+			- A property is a function which can be applied to every single object and yields true or false
+				- Example
+					- Is odd property
+						- Can be applied to any integer
+						- 5 would have this property. 4 does not
+				- P(x)
+					- Odd(4) = False
+		- [[Relation]]: Predicates that take many arguments are called relations. Will be mostly concerned with binary relations
+			- $R : A \times A ... \times A \to$ {True, False}
+			- [[Binary Relations]]
+				- Example of a binary argument is the less than relation
+				- [[Functional notation]]
+					- Less(x, y)
+				- [[Infix Notation]]
+					- $x <  y$
+						- More likely to write it this way
+		- Relations can have these properties
+			- [[Reflexive]]
+				- $\forall x.$  $xRx$ 
+					- This is when every element is related to itself
+					- [[Equal]] is reflexive
+						- x is always equal to itself
+					- A relation that is [[irreflexive]] is one where every element is not related to itself
+						- This is when x is not related to itself for all x
+			- [[Symmetric]]
+				- $\forall x, y.$ $xRy \implies yRx$ 
+				- If an element is related to another element, implies that it goes in the other direction
+					- For example, [[Equal|equals]] is symmetric
+						- x = y implies that y = x
+					- [[Less than]] is not symmetric
+						- if x < y, does not imply that y < x
+					- Use term [[asymmetric]] for relations that are not symmetric
+						- Be careful using term asymmetric
+							- Another definition is that if x is related to y, implies that y is not related to x
+							- Just focus on whether symmetry holds or not
+			- [[Transitive]]
+				- $\forall x, y, z.$ $x Ry$ and $yRz$ implies $xRz$ 
+					- If x is related to y and y is related to z, then if the relation is transitive implies that x is related to z
+					- [[Less than]] is transitive
+- ![[Screenshot 2023-09-11 at 2.30.46 PM.png]]
+	- [[Graphs]]
+		- [[Edges]] and [[Vertex|vertices]] (or "nodes")
+			- A graph consists of a bunch of vertices often times called nodes and edges that connect them
+			- $G = (V, E)$
+				- Vertices and edges
+			- Sometimes edges will be directed giving a [[directed graph]]
+			- Sometimes edges will be undirected giving an [[undirected graph]]
+			- Sometimes nodes are labeled and other cases nodes will not be labeled
+			- Sometimes edges will be labeled and sometimes not
+			- [[Subgraph]]
+				- Could just talk about the subgraph consisting of the nodes 2, 4 and 5 and edges involved with those nodes only
+			- In labeled nodes example with numbers
+				- 3 and 6 are connected components connected to itself
+				- Nodes 1, 2, 4, 5 are connected components
+				- The two components are not connected to each other
+			- There are paths
+				- There is a path from 1 to 5 but no path from 1 to 6
+				- In a [[directed graph]], the path has to follow the edges in the correct direction
+			- [[Cycles]]
+				- The a,b,c graph and the 1,2,4,5 graph both contain cycles
+		- [[Direct edges]], [[undirected edges]]
+		- [[labeled nodes]], [[unlabeled nodes]]
+		- [[Subgraph|subgraphs]], [[connected components]]
+		- [[paths]], [[cycles]]
+- ![[Screenshot 2023-09-11 at 2.37.12 PM.png]]
+	- Graphs
+		- "[[In-Degree]]"
+			- How many edges go into a particular node
+			- Directed graph (3 shown as example)
+		- "[[Out-Degree]]"
+			- How many edges go out of a particular node
+			- Directed graph (4 shown in example)
+		- [[Binary Relation]] $\equiv$ [[Directed Graph]]
+			- A relation is something where a function returns true or false
+				- If it's a binary function, we have a binary relation
+				- Less than relation is a binary relation
+			- [[Functional Notation]]
+				- R(a, b) = True
+			- [[Infix Notation]]
+				- aRb
+					- Would prefer to use infix notation for less than
+					- x < 7
+			- We can see the correspondence. We can imagine a graph which consists of one node for every element in the set in the domain
+				- Each element in the graph corresponds to an element in the domain
+				- If the relation holds between two elements, then there will be a directed edge in the graph from "a" to "b"
+				- There is a [[one-to-one correspondence]] between directed graphs and binary relations
+			- A binary graph has a finite number of nodes and some binary relations are true over an infinite domains
+				- Perhaps we shouldn't say there is a one-to-one correspondence because if the domain is infinite, then it's impossible to draw a graph that corresponds to that because we will assume all of our graphs have a finite number of nodes (won't be talking about infinite graphs)
+- ![[Screenshot 2023-09-11 at 2.50.07 PM.png]]
+	- [[Trees]]
+		- A tree is a special sort of a graph
+			- Graph with directed edges
+			- If you draw a tree in such a way, you will not need arrowheads to direct the graph. If it's oriented, there will be a definite direction. You'll have a top node and the bottom node going from top to bottom. [[Root]] is at top and [[leaves]] are at bottom
+				- There are directed edges implicitly
+					- arrowheads would be on the lower ends of each of the lines
+			- Directed edge would go from parent to child
+		- Every tree is a directed graph
+			- In particular, it has no cycles (can go down but not up)
+			- Has a single nod which distinguished the [[root]] node. It has an "in-degree" of 0. No edges coming into it
+			- The [[leaves]] have an "out-degree" of 0
+			- The [[interior nodes]] can have an out-degree that's not 1? but in this case it's 3 or 1
+				- Probably he meant that an interior node cannot have an out-degree of 0. Otherwise, it would just be a leaf
+			- In a [[strict tree]], we allow each node to have exactly one parent (except for the root which has no parent)
+				- The in-degree of all nodes would be 1 (except for root which has in-degree of 0)
+		- Graph with Directed Edges
+		- No Cycles
+		- Root Node
+		- [[Directed Acyclic Graph]] (DAG): Where shared parents are allowed
+			- Similar to a tree
+			- Can have multiple roots and nodes can have multiple parents
+			- No cycles
+				- We can draw it in an oriented way so all edges are going downward
+					- Roots at top and leaves at bottom
+			- A tree is a special case of a directed acyclic graph
+- ![[Screenshot 2023-09-11 at 2.56.00 PM.png]]
+	- [[Strings (Computer Science)|Strings]]
+		- $\Sigma$ = [[Alphabet]] = Set of symbols
+			- $\Sigma$ = {a, b, c, d}
+				- (Always a finite set!) 
+				- Generally will be fairly small
+				- Each symbol will be unique
+		- [[String]] = A finite sequence of symbols.
+			- `baccada`
+				- An ordered list of symbols
+				- Length of 7
+			- We will talk about infinite strings (but we will be very explicit when talking about an infinite sequence of symbols)
+		- $\epsilon$ = [[Empty string]] = Epsilon (also $\varepsilon$ )
+			- Length of a string
+			- w = `baccada`
+			- |w| = |`baccada`| = 7
+			- |$\epsilon$| = 0
+		- xy = [[concatenation]]
+			- Writing 2 strings next to each other will mean concatenation or running the strings into each other
+				- x = bac
+				- y = cada
+				- Then xy = `baccada`
+		- $x^R$ = Reverse of x
+			- Superscript with R means reverse
+				- $x^R$ = cab
+					- It's kind of a [[postfix operator]]
+- ![[Screenshot 2023-09-11 at 3.09.14 PM.png]]
+	- [[Language]] ^158482
+		- "A language is a set of strings"
+			- $L_1$ = {ab, bc, ac, dd}
+				- Has 4 strings
+				- Each has length of 2 but that's just artifact of example
+				- Set just happens to be finite
+			- $L_2$ = {$\epsilon$, ab, abab, `ababab`, ...}
+				- Contains infinite number of strings with different lengths
+				- "..." is used to represent continuation of a set assuming we can figure out what that continuation would be
+				- Language also includes [[empty string]], epsilon
+					- So lengths of string is 0, 2, 4, 6, and so on
+		- Each string is finite in length but the language itself can be infinite. 
+		- The [[empty string]]: (The empty string is a [[sequence]])
+			- $\varnothing$ 
+				- Means has length of 0 
+					- Sequence of 0 symbols
+		- The [[empty language]]: (the empty language is the set of zero strings)
+			- {} = $\varnothing$
+				- This has size 0
+			- Languages are sets
+			- The set of 0 strings
+		- The language containing only $\varepsilon$ 
+			- $L_3$ = {$\varepsilon$}
+				- String is empty string which contains 0 symbols/characters from alphabet
+				- This language is not the empty language (it contains a single string which is the empty string)
+		- How to describe [[language|languages]]?
+			- [[Enumeration]]: {b, ac, da}
+				- Enumerating all strings in language
+				- only works with finite number of strings
+					- or you can be imprecise and use the "..." notation
+					- Basically just listing out the elements in the set
+			- [[Regular Expressions]]: $c(ab)^*(d|c)$
+				- All strings that
+					- begin with "c"
+					- have 0 or more occurrences of "ab"
+					- followed by "d" or "c"
+				- Not all [[language|languages]] can be described this way
+			- [[Context-Free Grammars]]: (another way to specify a language)
+				- Cannot describe all languages
+				- $S \to dTd$
+					- S goes to d T d
+				- $T \to TT|aTb| \epsilon$
+					- T goes to 3 different things including the empty string
+			- [[Set Notation]]
+				- {x | x $\in$ ...}
+					- The set of all things and a vertical bar such that with conditions on those things
+- ![[Screenshot 2023-09-11 at 3.24.11 PM.png]]
+	- [[Boolean Logic]]
+		- And $\land$ [[conjunction]]
+			- Conjoining two things
+			- looks like "A" in And
+		- Or $\lor$ [[Disjunction]]
+			- x or y
+		- Not $\lnot$ [[Negation]] (Also: $\overline p$)
+			- $\oplus$ [[exclusive or|Exclusive-or]]
+				- [[Binary operation]]
+			- $\leftrightarrow$ [[Equality]] (Also: $\iff$, =)
+				- Indicates 2 different expressions have the same boolean value
+			- $\rightarrow$ Implies, [[Implication]] (Also: $\implies$)
+				- [[Boolean operator]]
+		- [[Distribution Laws]]
+			- $P \land (Q \lor R)$ $\equiv$ $(P \land Q)$ $\lor$ (P $\land$ R)
+			- $P \lor (Q \land R)$ $\equiv$ $(P \lor Q) \land (P) \lor R)$
+				- Disjunction distributes over conjunction
+		- [[DeMorgan's Laws]]
+			- Three different forms shown
+				- Boolean operators
+					- Negation turns disjunction to conjunction
+				- Set operators
+				- Venn Diagram
+- ![[Screenshot 2023-09-11 at 3.37.44 PM.png]]
+	- [[First-Order Logic]] (or first-order predicate logic, predicate calculus, first-order predicate calculus)
+		- Example
+			- From:
+				- $\forall x$. (IsMan(x) $\implies$ IsMortal(x))
+					- $\forall$: this is the "for all" symbol also known as the [[universal quantifier]]
+					- Means it's true for every x. If x is a man, then x is a mortal
+					- $\implies$ is [[logical implication]]
+				- Isman(Socrates)
+			- Conclude
+				- IsMortal(Socrates)
+			- This logical conclusion can be done mechanically with computers
+		- For All $\forall$ 
+			- $\forall x. (...)$
+				- Dot after x is required to talk about some statement
+				- Statement is true about all values of x or our universe
+		- There exists $\exists$ 
+			- $\exists x. (...)$
+				- [[existential quantifier]]
+				- Statement is true for at least one value of x (at least one object in the universe)
+		- Side bubble
+			- First order logic talks about a Universe of objects
+				- Universe of people / things
+			- Relations between objects
+			- Statements are true or false
+			- WFF: [[Well-formed formulas]]
+				- There's a certain syntax to the operations
+				- Below are syntactically correct so they are well-formed
+				- $\forall x.$ (P(x) $\implies$ ($\exists$y. (R(x) $\land$ P(y))))
+					- $\implies$ and $\land$ are [[logical operators]]
+					- $P(x)$, $R(x)$ , $P(y)$ are [[predicate|predicates]]
+					- For all x, if p is true, it implies there exists a y such that both R and P are true
+				- $\exists$y. $\exists$x. (P(f(x)) $\lor$ P(g(f(y))))
+					- f(x) and g(x) and f(y) are [[functions]]
+- ![[Screenshot 2023-09-11 at 3.51.00 PM.png]]
+	- [[Definitions]]: Understand them well
+	- [[Theorem|Theorems]]: Known to be true
+		- We know it's true presumably due to proofs
+	- [[proof|Proofs]]:  Mathematical arguments
+		- Sometimes brief, sometimes elaborate
+	- [[Lemmas]]
+		- Proved in isolation
+		- Part of a larger proof
+		- Sometimes proofs are so large and elaborate that we need to break them up into smaller pieces. The smaller pieces are often called lemmas
+			- A lemma is like a theorem in that it's something that's true. It is proved with a proof. However, a lemma is not so useful on its own as a final result but really serves only to be part of a larger proof. So in a large and complex proof, we many have several lemmas that we have to prove separately in isolation. Once we've proved the lemmas, we can move onto the larger proof of the more important theorem
+	- [[Corollary]]
+		- A true statement (theorem).
+		- Derived easily from the main theorem
+		- Once we proved an important theorem, it may be true that there are other statements that can be derived easily from the theorem. So these derived statements are generally called corollaries. May require a proof but may be obvious consequences of the theorem
+		- Corollaries like lemmas are also true statements but generally derived from main theorem
+	- [[Conjecture]]
+		- Unproven; possible true
+	- [[If-and-only-if]]
+		- P iff Q (Also P $\iff$ Q)
+			- To prove this statement
+				- Must prove forward direction.
+					- $P \implies Q$
+						- "P only if Q"
+							- P is true only if Q
+				- Must prove reverse direction
+					- $Q \implies P$ 
+						- "P if Q"
+							- P is true if Q
+- ![[Screenshot 2023-09-11 at 7.21.17 PM.png]]
+	- Kinds of proofs
+		- [[Proof by construction]]
+		- [[Proof by contradiction]]
+		- [[Proof by induction]]
+	- [[Proof by construction]]
+		- Theorem: "x exists; There is an x"
+		- Proof: Show how to build an x
+	- [[Proof by contradiction]]
+		- Theorem: "P is true"
+		- Proof:
+			- Assume P is false
+			- do some logical reasoning
+			- Conclude the truth of something known to be false (an "ABSURDITY")
+		- When we get to the point and prove something we already know to be false, then we've reached our contradiction. Therefore, our proof is complete. Since we assume P was false, and we ended up with a contradiction, we can conclude we were wrong with the assumption that P is false and in fact P must be true.
+			- Proved P is true by contradiction
+	- [[Proof by induction]]
+		- Theorem: "P is true for all ... \[integer $\ge$ 0\]"
+			- This is simple induction
+				- We've got an ordered set that's linearly ordered integers and we do it in a straightforward way.
+		- Proof:
+			- [[Basis case]]
+				- Show P(0) is true
+			- [[Inductive Step]]:
+				- Assume P(i) is true.
+					- The "[[inductive hypothesis]]"
+				- Use logical reasoning to show P(i + 1) is true
+			- $\therefore$ Conclude P is true for all i $\ge$ 0
+	- [[Structural Induction]]
+		- Simple induction is a special case of structural induction
+			- Simple case is that the ordering is linear. Essentially it's a tree, but it's a linear tree where every other node has exactly one parent and one child
+		- Need some sort of an ordering over set
+			- In case of integers above, ordering is the less than ordering
+			- This [[tree]] shows a more complex ordering
+				- Nodes are elements of set
+				- We have a root element
+					- Other elements related to that in an order
+			- We show that our theorem trying to prove is true for the root of the tree
+			- Then we try to prove arbitrary node of tree 
+		- [[Basis case]]
+			- Show P is true for root of tree
+		- [[Inductive Step]]
+			- Try to prove P is true for an arbitrary node x
+			- [[Inductive Hypothesis]]:
+				- Assume P is true for all ancestors of x (in the ordering)
+		- $\therefore$ Conclude P is true for all nodes

@@ -1,0 +1,91 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=lHfcMmAX42g
+---
+- ![[Screenshot 2024-09-24 at 9.29.28 AM.png]]
+	- Lied to us about doing a database case study.
+	- Will talk about [[analytical databases]]
+	- [[Database warehousing]]
+	- Analytics Databases Background
+		- Businesses will often want to run large internal queries across their data, that do full table scans. However, doing such a thing can take a huge performance hit on their database that deals with client interaction. Hence, they will typically have a second database, for analytics processing, where data is copied some period of time after the fact.
+			- Internal queries important for [[A-B testing]] or other [[data science]] reasons to see what's working and not working and get general aggregations over data.
+			- Don't want to run queries on the transactional database (the database that the client may interact with or the client writes may go to.)
+				- Will usually have a second database devoted to analytics where all the internal analytics queries can be run on. Works differently than transactions databases
+		- This is done using an [[ETL]] (Extract, Transform, Load) process which is typically scheduled as a [[batch job]] (we will discuss these later).
+			- Process of taking data from transactional database and moving it to the analytics database is known as an ETL process
+			- It's scheduled as a batch job meaning that once every time interval, we're going to be putting new data in there. 
+	- Stars and Snowflakes
+		- In the transaction database, there may be many tables with all different types of relationships between them. However, in an analytics database, there is typically one central table known as the "fact" table. The [[fact table]] has many [[Foreign key|Foreign keys]]which reference other tables known as [[dimension tables]] - this is called the [[star schema]]
+		- If the dimensions tables reference sub-dimensions tables, this is known as a [[snowflake schema]]
+		- Stars and snowflakes is the schema we will us in an analytics database. It is not going to look like the exact same data that we have in our transactional database.
+		- The image shows a fact sales table
+			-  This is a centralized table with potentially hundreds of columns and it's going to have a ton of foreign keys to these dimension tables which in turn may even have more foreign keys to other sub-dimension tables
+			- The point is we have one centralized table we can query over and that central table has a bunch of events which have foreign keys that are relevant or they don't
+				- Either way, it allows you to get all the data centralized in one place. This is known as the star schema. If there are a bunch of sub-dimension tables, it's known as a snowflake schema.
+	- Column Oriented Storage Background
+		- Description
+			- Most transactions based databases use row oriented storage: they store the entire contents of a row together on disk to improve with locality
+			- However, in analytical queries, it is rare that we need the entire row, but rather are aggregating the value of one column over a certain table. Hence, it makes more sense to store the columns of the table, known as [[column oriented storage]]. Note that each column must be stored in the same order.
+		- Transactions based databases use row-oriented storage. They store the entire content of a row together on disk so it can be accessed sequentially (that means it's going to be faster when we want the entire row)
+			- This makes sense because typically the row represents something like say a sure profile where we want the whole thing at one time. However, in an analytics-based database, we're using a fact table where we have hundreds of columns and rarely we only need a couple of them at a time.
+			- So what's actually better to do is store all of the values of the columns together in one file. That's the idea behind column oriented storage
+			- Keep in mind that for each column, they need to be stored in the same order. Otherwise, we would say the kth value in this file is not the same row as the kith value in this file. So it needs to be consistent between them
+	- Compression
+		- Description
+			- If each column has a lot of duplicate values, we can compress it to save space.
+			- Imagine the following column representing coding proficiency out of 10
+				- 8, 8, 8, 4, 5, 2, 2, 2, 2, 1
+		- Could start by using a bitwise encoding
+		- [[Bitmap encodings]]
+			- For val 8, 4, 5, 2, and 1
+			- Bitmap encoding is saying that for each value, put a one if that's where the value is equal to it. A zero otherwise. So we have these [[bitmap encodings ]]which are decently useful
+		- We could further encode these into [[Run-length encodings]]
+			- Example: For val 8: 0, 3, 7
+				- It's saying at first there are 0 zeros. Then there are 3 ones. And then there are 7 zeros.
+			- We can take all of these 10 integer numbers and compress them into just three numbers which is really great
+- ![[Screenshot 2024-09-24 at 9.54.31 AM.png]]
+	- Compression Continued
+		- Description
+			- Perform [[bitwise operations]] on the encodings to find rows where multiple fields match certain values (column A = 10 AND column B = 20, could also do column A = 10 OR column A = 15)
+			- Allows more data to fit in CPU cache
+			- If you want columns sorted in a different way, can have a replica of the analytics database with a different sort order:
+				- Acts as an index for efficient querying if you have a common query pattern
+				- Allows more column compression
+		- Let's say we wanted to do a query on some of those columns. Let's say we want to find all the rows where column A = 10 and column B = 20. We could take those two bitwise encodings for column A = 10 and column B = 20 and do a bitwise and on them. So all of the places in the result of that where there's a 1, we know that the column A = 10 and the column B = 20. If we were looking at times where column A = 10 or 15, we could do a bitwise OR between the bitmap encodings for A = 10 and the bitmap encoding for A = 15. 
+		- Additionally, compression is really great because it allows more data to fit in the CPU cache. This means that we can go ahead and run a tight loop without any function calls on the data itself and that is a lot quicker. This is because it can all fit in L1 cache and in addition this can be parallelized more. 
+		- Furthermore, if you want the column sorted in a different way, say we want to sort by a date key or something. We can actually do this by having a replica of our analytics database where we have those columns all sorted like that. Just keep in mind that every column in that replica needs to be sorted in the same way. What this is really good for is
+			- It acts as an index if we want to do efficient querying. So say we're querying by some seconds since [[epoch]], now we can easily find all the rows within a given month, but not only that. It allows for more column compression especially on that date column because it means that all of the dates that are the same are going to be right next to one another and they can easily be compressed
+	- Writing to column oriented storage
+		- Description
+			- Inefficient writes because would have to modify every column file
+			- Instead all writes go to a sorted tree in memory (LSM tree), which is eventually written in bulk to all of the column files once it gets too big
+				- Reads must check both the tree and the column files and merge them.
+		- We have a bunch of files on disk where all of the columns are in sorted order. So it would be annoying to take one value and insert it in a sorted file. Instead, we actually already have a data structure for this which we introduced a lot earlier ([[LSM Tree|LSM Trees]])
+			- So all of the writes are going to an in-memory tree buffer and then once that buffer grows too big, every once in a while we're going to merge that LSM tree into those sorted column files.
+			- Additionally, this means that reads get a little more complex because they have to check both the tree and the column files and then merge those accordingly.
+	- [[Materialized Views]]
+		- Description
+			- Idea: Database precomputes common queries so they do not constantly have to be rerun
+			- Pros:
+				- Do not have to rerun certain expensive common aggregations
+			- Cons:
+				- Writes take longer since materialized views must be updated
+				- Less flexibility than querying raw data
+		- Materialized views are basically a precomputation or a caching of very popular queries that might happen on the analytics table. So let's say a sum of sales over the entire thing or maybe an average of customers in a restaurant for every single day. 
+			- The whole point is that since these are such common queries, the database is going to do them automatically so that you can use that result in subsequent queries as opposed to recomputing it every single time. That's the pro here
+			- The major con is that writes are now going to take longer since materialized views need to be updated. In addition since these are precomputed, there's a little less flexibility in using them than actually just doing a row query.
+			- The one thing to note with writes taking longer is that this probably isn't a huge deal because writes are generally just done by batch jobs and we don't really care how long it takes to get the data into the data warehouse as long as it's not an obscene amount of time. It's not like the clients are actually writing to the database so having lower write throughput isn't hugely important
+	- [[Data cube]]
+		- Description
+			- Idea: Special type of materialized view that precomputes a multi dimensional table (e.g. sales of every product_id on every day in the database)
+		- It is a special type of materialized view that goes and aggregates all the results over a multi-dimensional table. This could either be two dimensions, three dimensions, or so on
+			- The example shown here taken straight out of DDIA which means that we have the sales of every product ID or product SKU on every single day in the database. So you can see we have 32, 33, 34, 35, and onwards for product IDs and then the date key and as we can see all that's going to have in the table is just the sales of that product on that day. 
+			- So we have a ton of pre-computations here which can be really useful for a variety of other queries.
+- ![[Screenshot 2024-09-24 at 9.58.54 AM.png]]
+	- Analytics Databases Summary
+		- Description
+			- Very useful to decouple analytics databases from transactional ones as analytics queries can take a very long time
+			- Additionally, using an analytics database allows us to store our data in a column oriented manner, which once compressed, can be better utilized by a CPU's cache and iterated on in tight loops (no function calls). When writing to column oriented storage, we can use an LSM tree as a buffer.
+			- Finally, materialized views are a potentially very useful caching mechanism by analytics databases in order to avoid recomputation of popular aggregations, at the cost of slower writes
+		- In terms of actually summarizing what analytics databases are good for, it's really nice to have a separate database for expensive read queries as opposed to using the transactional one that clients might use. Additionally, we can store our data even better in a column oriented manner which allows us to compress it and better utilize CPU's L1 cache. Finally, when writing to column-oriented storage, we can use an LSM tree as a memory buffer.
+		- Another thing as a remind that materialized views are potentially very useful for caching by pre-computing certain common queries. At the same time, they do make writes slower

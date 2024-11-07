@@ -1,0 +1,23 @@
+[Source](https://www.coursera.org/learn/machine-learning/lecture/PNeuX/what-is-machine-learning)
+
+- [[Machine learning]]
+	- "Field of study that gives computers the ability to learn without being explicitly programmed." - Arthur Samuel (1959)
+- Arthur Samuel
+	- Wrote a checkers program in the 1950s
+	- Made a program  to play tens of thousands of games against itself
+		- By watching what support positions wins and what positions lead to losses
+			- the program learned over time what are good or bad positions
+- Question: If Arthur Samuel's checkers-playing program had been allowed to play only 10 games (instead of tens of thousands games) against itself, how would this have affected its performance?
+	- Answer: Would have made it worse
+- In general, the more opportunities you give a learning algorithm to learn, the better it will perform.
+- Machine Learning algorithms
+	- Supervised learning
+		- Used most in real-world applications
+		- rapid advancements
+		- (explained in course 1 and 2)
+	- Unsupervised learning
+		- explained in course 3
+	- Recommender systems
+	- Reinforcement learning
+- Practical advice for applying learning algorithms
+	- We get tools + the skills to use them effectively for this course

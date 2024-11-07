@@ -1,0 +1,124 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=Clq5prZWg8s
+---
+- ![[Screenshot 2024-09-24 at 1.30.52 PM.png]]
+	- No he didn't pull at the wedding. He's a software engineer. Don't assume such big things. 
+	- Linearizability and ordering. Both are super important for understanding how consensus algorithms work and that'll eventually segue us into understanding how real life database systems work and we can talk about those. 
+	- [[Linearizability]]
+		- Description
+			- Linearizability = Strong consistency
+			- Once a write is committed to one replica for a given object, all reads (regardless of replica) of that object afterwards will show the results of the write (not be stale). To a user, it seems as if there is just one copy of the data
+			- Do not confuse [[linearizability]] with serializability, this does not have anything to do with transactions!
+		- What is linearizability? If you've heard the term used before, linearizability is the same as strong consistency. More formally, once an object is written on any replica, every single subsequent read will get that updated version of the object. There are no stale reads and hence that means that object is going to be linearizable. Quick note, don't confuse linearizability with serializability. Can still have race conditions if trying to make multiple rights at once in like a transaction type of thing
+			- For example, if I have 2 writes and my friend has 2 writes, they may be interleaved in a way in which one of my writes is going to win per say (be the most recent one). One of his is going to win (be the most recent one) and then our database is in a weird state. But you are still reading technically the most up-to-date write per object. So linearizability in only a guarantee per object unlike anything to do with serializability or transactions
+	- When is linearizability useful?
+		- Description
+			- When we want just ONE of something:
+				- One node can hold a lock (no read to the lock should be stale)
+				- Uniqueness constraints in database (Only I get to have the username `showerlover100`)
+		- When is linearizability useful? Useful when you want just one of something. Why? Because you are going to get the most up to date value. If we have a distributed lock that is fault tolerant in the sense that it's replicated and there are a bunch of replicas saying here's who is currently holding the lock in the event that one node crashes, we always want to get the most up to date value of which node is holding the lock. If this lock wasn't linearizable. What might happen is that one node might grab the lock, release it, and then a second node might grab the lock. If I want to read who's currently holding the lock, a stale replica might tell me that the original node was still holding it (which would be a problem)
+		- Same thing goes for uniqueness constraints in a database. If all the replicas are not in sync with one another at the right time, what might happen is I want to be `showerlover100` and I write that to replica 1. But you write to replica 2 that you want the same username. But my username has not been propagated to replica 2 yet so we now have a conflict
+	- Pros and Cons of Linearizability
+		- Description
+			- Pros:
+				- Always up to date results
+			- Cons:
+				- Huge performance hit (once we see how to implement linearizability this will make more sense)
+		- Pros are that we get strong consistency. Every single result we get is up to date. Don't have to deal with stale reads. Don't even need to think about the possibility of them happening. The issue is that there is a huge performance hit. Once we see how to implement linearizability which is kind of strictly tied in with this idea of consensus. Getting a bunch of nodes to agree on something. This will make more sense then. For now, will keep linearizability and strong consistency as a more conceptual thing and subsequent may go into how we actually might implement something like linearizability
+	- Linearizability and Ordering
+		- Description
+			- If we are to act as if there is only one copy of the data, this means that there should be a total order of the operations on the data:
+				- The state of the database should be able to be expressed by all the operations in some set order (no operations happen concurrently, but rather one at a time, the order needs to be the same for all replicas)
+			- This order preserves causality: if write A happens before write B, A should be before B in the total order
+			- Similarly, if writes A and B are concurrent, it doesn't matter where A and B are in the total order relative to one another, but each replica must have them in the same order
+		- So linearizability and ordering. If we're going to act as if there's only one copy of the data, every single replica has the exact same copy of the data and any replica makes the change, all the changes are instantly propagated, it means that there needs to be a total order of operations on the data. It means every single replica (the state on it), can basically be expressed as an order of, you know, writes that's occurred and every single replica has to have the same exact ordering. Additionally, the fact that there is a total order means that every single operation is ordered. It's not a partial ordering where some operations can be concurrent or have the same location in an ordering they can't be compared but rather total. Every single operation comes before another and after
+		- So this order is going to preserve causality. we know that if one write is coming before another, that write is going to come before the other in the total order.
+		- Similarly, if writes A and B are concurrent, it doesn't really matter where A and B are with relation to each other in the total order. What matters more so is that every single replica has A and B in the same ordering relative to one another. This is different than something like a causal ordering where you might actually just have a partial order of the operation that preserves causality so I'm going to show that off in the next slide
+- ![[Screenshot 2024-09-24 at 1.54.07 PM.png]]
+	- Total Order vs Partial Order
+		- Description
+			- Total Order: A < B < C < D < E
+			- Partial Order: A, B < C < D, E
+			- You can express causality with just a partial order (see version vectors, concurrent operations do not need to be ordered)! However, in this case, the replicas may have inconsistent data:
+				- Replica 1 does A then B
+				- Replica 2 does B then A
+		- First, imagine we have five writes. A, B, C, D, and E. And so a total order might order them something like shown above. Let's say A and B are actually concurrent. You know the concurrent writes happen when two writes don't know about one another. There's no [[happens-before relationship]], they just happen at the same time without actually knowing that each other ever existed. Imagine A and B happened at the same time and D and E happened at the same time. A partial order would say that A and B were incomparable. However, C may know about both of them so C is greater than A and B. Similarly, if D and E were concurrent, we know that they might have depended on C in order to happen but they didn't know about each other. So the point is, you can express causality with just a partial ordering. Something like version vectors which I've also covered in my multi-leader replication video. Construct a partial order in the fact that there are some version vectors that can't be compared. They just tell you that two operations are concurrent. In that case, you might create siblings or merge them somehow. The point is in a partial order, not all operations have to be compared whereas in a total order, even if operations are concurrent, you still have to put them in that order somehow
+		- As you can see though, in a partial ordering, what can happen is that say replica one does operation A then B and replica 2 does operation B then A. This might happen in something like a last write win scenario. What's going to happen is that these replicas are going to be in an inconsistent state. We can't have that because we said we want strong consistency which means every replica has to have the same exact data
+	- How to create an ordering
+		- Description
+			- Single leader replication:
+				- Write ahead log does this for you
+			- Leaderless or Multileader Replication:
+				- Lamport timestamps
+				- Version vectors work too (but can take a lot of space if many nodes)
+		- So how do we create an ordering? Assuming we have something like single leader replication with no partitioning (so all writes are going through one node). We have a write ahead log which is going to do this for us. However, this gets a lot more complicated in a scenario where there's leaderless or multileader replication
+			- There are two ways of basically doing this. One is called lamport timestamps and another is version vectors which works as well (but can also take a lot of space if there are a bunch of nodes)
+	- [[Lamport timestamps|Lamport timestamp]]
+		- Description
+			- (Counter, NodeId) - gives us a total order
+			- Every client and replica keeps track of the highest counter it has seen and if it sees a higher one, it skips to that number. Use an arbitrary tie breaking order for nodeIds if the counters are the same
+			- Final order
+				- (1, 1)
+				- (1, 2)
+				- (2, 2)
+				- (3, 2)
+				- (4, 2)
+				- (5, 1)
+		- As far as lamport timestamps go, they are basically a tuple of two elements. So there is this concept of a counter and then there's a node ID. Using this counter node ID combination, we can actually get a total ordering of the writes. Let's go ahead and do that
+		- Let's say the counter starts at 1 for every single client and database. Then each database has a node ID. So as you can see, we start off with 2 writes. The top client is going to write to the first replica and the bottom client is going to write to the second replica. We can see their counters both start off with 1.
+		- Now in the subsequent operations, the bottom replica is going to be serving even more writes. So now the counter is going to be incremented by 1 every single time because the bottom replica is getting new write operations. So now these operations are (2, 2) and (3, 2). All makes sense so far
+		- The top client is now going to make another write. However, it is writing to the bottom replica. So what's going to happen is that instead of that write being numbered (2,2) because the top client has only seen counter 1 before, the second that the top client encounters a higher counter than its current one, so in this case it sees counter 3 on that second database, it's going to take its counter and take the maximum of what it's seen so far and the maximum counter on that replica. As a result of that, it now is going to increment itself all the way to 4. Now finally since its going to keep its counter at 4 when it finally makes another write to replica 1, we are going to write with counter 5 to replica 1. 
+		- so now to summarize this. Every single client and replica keeps track of the highest counter its seen. If it sees a higher one, it skips to that number. Then additionally, you might say, wait, look at those first two operations. How do we order them if they have the same counter but different node IDs? All we do is just order the nodes somehow so that we can have an arbitrary tie breaking order for the node IDs if the counters are the same. So our final order is going to be what's shown above.
+		- We basically go by the counters. If there are two operations with the same counter, we use the tie breaking node order
+	- Lamport Timestamps Tradeoffs
+		- Description
+			- Lamport Timestamps vs. Version Vectors:
+				- Lamport Timestamps take less space (O(1) vs. O(n))
+				- Version Vectors can express concurrent operations since they are a partial ordering, whereas Lamport Timestamps do not since they are a total order
+					- Leads to data loss since one operation arbitrarily kept over another
+					- No ability for custom merging/sibling logic
+		- Okay, so what are the trade-offs of Lamport timestamps especially when compared to version vectors. Lamport timestamps take less space. It's just a two element tuple whereas version vectors are O(n). Why are they O(n)? Well it's n being the number of replicas because every single replica has to keep track of its dependencies of basically how up to date the other replicas are for a certain operation. So in that sense, since you have a vector with one element per replica, it takes linear space as opposed to constant space and that's obviously a problem when you're sending things over the network
+		- An advantage of version vectors is that they can express concurrent operations since they're a partial ordering whereas Lamport timestamps do not since they're a total order. By nature of the fact that Lamport timestamps are a total order, if we just look at that lamport ordering, we don't actually know if two operations have a happens-before relationship or concurrent. It's impossible to tell. So what happens when you have a [[total ordering]] is that you can have data loss. One operation is basically arbitrarily kept over another using that kind of node ordering. Additionally, that means there is no ability to do things like custom merging or holding 2 writes as siblings
+- ![[Screenshot 2024-09-24 at 2.09.01 PM.png]]
+	- Lamport Timestamp Pitfalls
+		- Description
+			- Although Lamport Timestamps provide us with a total ordering for operations, they are insufficient as they only give us this order retroactively:
+				- Imagine my friend and I both want to claim the username `fupa_sniffer_21`, and both make writes to different replicas concurrently - using Lamport Timestamps both replicas will converge to the same state, but they will not know which operation "comes first" until all of the operations and their corresponding timestamps are sent to them. In the moment, both me and my friend will receive success messages on write.
+		- Another issue with Lamport timestamps is that they only provide us with the total order retroactively. So imagine me and my friend want a username. And we're making writes to different replicas concurrently. Even though the lamport timestamps will eventually get those two replicas in a consistent state because they'll eventually get all of the writes propagated to them and they'll say we know the ordering of each write and we can pick whether me or my friend gets that username. The fact they don't get that lamport timestamp in the moment means that both me and my friend are going to think we had successful writes and then one of them is going to have to be rolled back which is problematic
+	- [[Total Order Broadcast]]
+		- Description
+			- It is not enough to order operations, rather each replica needs to receive every operation in the correct order as it happens:
+				- Messages delivered to every node without being lost (keep retrying if it is lost)
+				- Messages delivered in the same order to every node
+			- A protocol that satisfies this properties is known as total order broadcast, useful for creating a replicated log
+		- That leads us to total order broadcast. I mentioned that even though Lamport timestamps give us an ordering of the operation, it's not happening in real time and as a result of that, it's not possible to actually go ahead and use this as a way to make linearizable storage. As a result, we have this protocol called total order broadcast which is basically saying this.
+		- If we have a bunch of reads and writes. All of the messages indicated a read or write operation need to be delivered to every single node without being lost (so no dropped messages) and additionally, the messages need to be delivered in the same order to every single node. Like I mentioned, that's just called total order broadcast.
+		- This allows us to make linearizable storage
+	- Total Order Broadcast and Linearizability
+		- Description
+			- Writes:
+				- Add them in the log, replicas perform the writes in the correct order
+					- Uniqueness constraint example: database performs first write to username, has error for any subsequent writes to username in log
+			- Reads:
+				- Add them in the log, database will read up to date value consistent with timing of read
+		- As far as writes go, you just go ahead and add them in the log and obviously each write has to be sent to every single replica in the moment. They have to be performed in the same order which is kind of why it's important that there are no dropped messages and they're sent in the same order.
+			- For example, how does this work for a uniqueness constraint? First the database would perform the write for the first username because it gets them in the correct order and then the database could see that any subsequent writes to a username are going to be violating that uniqueness constraint.
+		- As far as reads go, we want to make sure that we're actually getting strong consistency and not eventual consistency. The total order broadcast basically said that all the messages will be sent to every single replica in the right order and not be dropped. However, we never said when they would get there. For read in particular, if we are making a read from a replica, we can't just go ahead and instantly read it the second there is a read request. Instead, we also need to add the read to this log of operations that total order broadcast is creating and only once that replica gets to the read in the log can it actually perform this read and make sure that everything is going to be up to date
+	- Consensus
+		- Description
+			- While total order broadcast can be used to create linearizable storage, and linearizable storage can be used to create total order broadcast, we have not said how to create either of these.
+			- Ultimately, doing so is equivalent to solving the consensus problem, we will discuss some ways of doing so in future videos
+		- So now lets quickly talk about consensus. Even though total order broadcast can be used to create linearizable storage and also I didn't really touch upon this but linearizable storage can easily be used to create total order broadcast because imagine we had linearizable storage and then I used basically an atomic counter and so that counter will be able to order every single operation on the database so we could easily do it that way
+		- We haven't actually said how to create either of these two things. Well, as it turns out, both of these problems are reducible to the consensus problem being how can we get a bunch of nodes with unreliable networks and nodes that might crash to generally agree on something and make sure to come to a consistent state. So in future videos, I'll discuss two or there ways of actually achieving consensus amongst nodes and we'll see that there are pros and cons amongst using consensus in your application where the biggest hit is definitely performance but sometimes you still need to be using it
+- ![[Screenshot 2024-09-24 at 2.16.17 PM.png]]
+	- Linearizability and Ordering Summary
+		- Description
+			- Linearizability: As if there were only one copy of the data among replicas, strong consistency
+			- Ordering: Easy in single leader replication (assuming no partitions), requires lamport timestamps otherwise. However, even Lamport Timestamps can only describe order of operations retroactively. To do so, we need Total Order Broadcast
+			- While Total Order Broadcast and Linearizability are not the same, they can both be reduced to the consensus problem.
+			- If you can avoid having to deal with strong consistency, eventual consistency often suffices and takes a far lesser toll on performance. 
+	- So in summary as far as linearizability goes, we're basically just acting as if there's one copy of the data amongst all the replicas known as strong consistency. As far as ordering goes, if there is no partitions and you can deal with a single leader for all of your writes, it's really easy to achieve something like total order broadcast. However, if you're using a multileader or leaderless configuration, you're probably going to need to use lamport timestamps. Even then, lamport timestamps don't solve issue of linearizable or strongly consistent storage because they only order those operations retroactively. The messages aren't delivered in order to every single node but rather we can just order them after the fact which is not sufficient for total order broadcast
+	- Finally, even though total order broadcast and linearizability are not the same because total order broadcast does not actually say when the messages will be delivered, we can use total order broadcast to achieve linearizability and you can use linearizability to achieve total order broadcast
+	- Finally, if you can avoid having to deal with strong consistency. you probably should. Often times it's enough to have causally consistent data which is basically saying if A happens before B, you should never be able to read B in a database unless you also able to read A. 
+	- So I know that this video has been really theoretical for the most part and there's not too much actual content that you need to know other than Lamport Timestamp stuff, I consider this a solid primer for consensus in general because it's basically saying that if you really ever want to be achieving strong consistency, all the replicas have to go ahead and be receiving all of the operations in the same order more or less at the same time and to do so, this is a consensus problem. We will get into how we can achieve consensus in the next few videos. Again, this is still pretty theoretical and complicated stuff but it's important to know how to do whether that's in a systems design interview or possibly even just in your actual work

@@ -1,0 +1,22 @@
+[Source](https://www.coursera.org/learn/machine-learning/lecture/iYR2y/welcome-to-machine-learning)
+
+- Examples of machine learning in action
+	- Using a search engine (Google, Bing, Baidu) to find information about something
+		- Machine learning software has figured out how to rank pages
+	- Uploading pictures to instagram on snapchat
+		- When tagging friends, the apps recognize your friends in pictures and labels them as well
+	- When watching a movie on a streaming service
+		- Machine learning used to recommend something you might like
+	- Using voice to text on phone to write a text message or asking Siri to play a song or asking Google to show something
+		- that's machine learning
+	- Receiving spam emails
+		- machine learning used to flag it as spam
+- AI making its way to big companies and industrial applications
+	- Climate Change
+		- Optimizing wind turbine power generation
+	- Healthcare
+		- Help doctors make accurate diagnosis
+	- Landing AI
+		- Using computer vision to check things on assembly line has any defects
+- Machine learning
+	- The science of getting computers to learn without being explicitly programmed

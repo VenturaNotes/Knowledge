@@ -1,0 +1,114 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=VySrBndGlOs
+---
+- ![[Screenshot 2024-09-28 at 1.28.58 PM.png]]
+	- Will talk about [[batch processing]]. Means we're almost to the end of all the stuff that designing data intensive applications talks about. Then we can move onto some more practical systems designing concepts using actual technologies 
+	- [[Batch Processing]]
+	- Background
+		- Description
+			- Most modern companies hold an immense volume of data about things such as user activity or usage patterns, and want to gain insights on it through some massive and long computation. While they could do so via a data warehouse, the range of functionality that they could perform is inherently limited by the SQL query language. Instead, sometimes it is useful to be able to run arbitrary code on tons of unstructured data.
+			- Building search indexes, machine learning data aggregation/recommendations, and ETL processes are all great examples of batch computing coming in handy!
+		- A lot of times, companies want to do huge computations on tons of data. For example if they want to build search indexes, do some machine learning data aggregation or even just recommendations based on a bunch of data and also ETL processes to put data from one type of data form like in a transactional database and move it to an analytical database
+		- However, the thing is, we've discussed how companies tend to store tons of data to do analytics on and generally speaking, it's in something like a data warehouse. However, data warehouses are inherently limiting.
+			- First of all, you're limited by the SQL query language meaning you can only do things that SQL supports and you can't just run arbitrary code on your data
+			- Requires data has to be structured meaning you actually need to pre-format it somehow as opposed to dumping a bunch of data somewhere and writing code later to handle it
+	- [[Distributed File Systems]]
+		- Description
+			- [[File systems]] such as [[Hadoop]] (open source), which are based off of the Google File System, can be replicated around the world and distributed over many nodes to be able to hold a massive amount of data.
+		- So this is where something where distributed file systems and batch processing come in. So what's a distributed file system? Well, if you can think of a normal file system on your local computer which just has directories, sub-directories and files, a distributed file system is the same thing but running over a bunch of different computers with some replication and as a result, redundancy. File systems such as Hadoop which is the open source version of basically the original distributed file system, Google File System, can be replicated around the world in order to get some good performance and distribute it over a bunch of nodes.
+	- [[MapReduce]]
+		- Description
+			- MapReduce is a very simple programming model designed to run on the Hadoop Distributed File System, HDFS, in order to make large computations on tons of data. You only need to write two functions, a mapper and a reducer
+				- Overview:
+					- Pass in a ton of input files, return a ton of output files which can be passed into another MapReduce Job
+					- Computation parallelized among the nodes in the Hadoop cluster, maximize data locality for mappers
+					- Designed for frequent faults, only restarts a single failed map or reduce job, not all of them
+						- Good since these jobs are generally run as background tasks and are often killed
+		- So what is MapReduce? It is also kind of like this open source batch processing programming model which works on top of Hadoop. So, in order to make computations, you basically need to write two functions, a mapper and a reducer. Then you know MapReduce is going to do the rest for you but just to give a more in-depth overview of what's actually happening
+			- you give MapReduce a ton of input files by specifying some directory in HDFS and you're just going to go ahead and return a bunch of output files. You never modify the input files, it's immutable. Then those output files can actually be passed into another MapReduce job. Computation is parallelized amongst the nodes in the Hadoop cluster and they optimize for data locality. What that means is that you want to actually run the mapper generally speaking on the nodes where the input files are located because of the fact that copying all that data over the network to another node is very expensive since there is a ton of data whereas just copying the code for the mapping function is much cheaper. Another optimization if you can't run all of that on the original node is to just run one in the same like server rack or something or a computer very close to it to minimize the amount of data you're moving over the network. 
+			- Additionally, it's designed for frequent faults. Why is this? Well originally when google created MapReduce, they were using it as background tasks on their servers and oftentimes they would have to preempt those tasks if they needed more resources for their production servers and so if one mapper or reducer job actually fails, it doesn't reset every mapper reducer job. You can just go ahead and retry that one later
+	- MapReduce Continued
+		- Description
+			- (1) Break each input file into a set of records
+			- (2) Call the mapper function to extract a key and a value for each record
+			- (3) Sort all of the key value pairs by key
+				- (a) Mapper determines which key goes to which reducer partition via a hash function
+				- (b) It then sorts each key within each partition locally
+				- (c) It then sends the list of sorted keys to the proper reducer node
+				- (d) The reducer can then merge together all of the lists that it receives from various mappers
+				- (e) Takes less memory on reducer node to do computation for one key at a time
+			- (4) Use the reducer function to take all of the values for a given key and iterate over them handling them in any way you want
+		- Continuing on MapReduce. I'm going to kind of discuss MapReduce in the context of this image on the right. As you can see, every file is broken into a set of records. And so imagine that you have a file on each node and that would just kind of be an HDFS. So the file is going to be broken into a into a set of records and the mapper function is going to take each record and extract a key and value for it.
+		- Then what we're going to do is on each node we have all these keys and values and we're going to put each key and value into this partition file which is basically saying okay all the keys and values that are going to this reducer node which we can determine via hash function are going to go on this file, all the ones that are going to the second reducer node are going to this file etc etc and then what you're going to do is take all of those files of keys and values that are going to a given reducer node and sort them internally.
+		- This helps because then once we pass them to the reducer node the reducer can go ahead and basically run a merge algorithm which is able to easily sort all of those keys and values together and the good thing is that when the reducer has all of the keys and values on its local copy of the data, all the keys basically all the values with the same key are right next to one another so you don't have to use a ton of memory keeping track of the individual processing for each key.
+		- You could just go through one key at a time and iterate through all the values. The reducer function basically has all of the values for a given key and it can just go ahead and iterate over them and do anything you want with it.
+- ![[Screenshot 2024-09-28 at 1.42.10 PM.png]]
+	- Joins in MapReduce
+		- Description
+			- Often times there will be data associations within our input files that we want to resolve, but we do not want to have to reach out to a database every time to make a network call! Let's look at three different types of [[join|joins]]
+				- [[Sort merge joins]]
+				- [[Broadcast hash joins]]
+				- [[Partitioned hash joins]]
+		-  Okay so i've discussed like very basically what MapReduce does but there are also some nuances to this um oftentimes there are data associations between files and you know we see this all the time and so sometimes what you want to do is perform joins in MapReduce. So there are basically three types of joins and those are going to be sort merge joins, broadcast hash joins, and partition task joins.
+		- Basically the general philosophy behind all this is we want to reduce the amount of network calls to you know possibly a second database if we're joining on a database or something along those lines or a second data set 
+	- Sort Merge Joins
+		- Description
+			- Two sets of files that we want to combine to reduce them together. Have mappers on both sets of files, send records of same key to same reducer, reducer merges them together when sorting the keys
+			- Parts
+				- Mapper for browser data
+					- jordan: youtube.com
+					- jordan: hahafunny.com
+					- jordan: facebook.com
+				- Mapper for age data
+					- jordan: 21
+				- Reducer for browser/age data
+					- jordan: youtube.com, 21
+					- jordan: hahafunny.com, 21
+					- jordan: facebook.com, 21
+		- So the first one is sort merge joins this is known as a reduced side join because the reducer is the one actually doing the logic of the join but i'll explain it right here with this diagram below 
+		- So imagine we have two sets of files and we want to combine them to basically go ahead and merge them together where the key is the same. So we have mappers now on both sets of files and then using a hash function we'll send the records with the same key to the same reducer and the reducer will go ahead and merge them.
+		- So as you can see imagine i have all this browser data for myself as you can see that's what a typical day of browsing looks like for me we also have my age in there and so what's going to happen is as a result of the partitioning and hash function they're going to get sent to the same reducer which will go ahead and combine them so it's going to attach that age data to every single piece of browser data 
+	- Broadcast Hash Joins
+		- Description
+			- Same situation as before, but one of the datasets is so small that it can fit in an in-memory hash table on each of the mappers. Just perform the join on the mapper (using the relevant hash table row for the corresponding key) before sending it to the reducer.
+		- Next we have broadcast hash joins so imagine the same situation as before but you know let's say that all of the user data for age there was so little of that data that it could actually all fit in an in-memory hashmap on all of the mappers for the browser data.
+		- So what that means is that since it can all fit in an in-memory hashmap we don't even have to use a second mapper and you know pass it to the reducer. what we can do is just load that whole data set into memory on all of the mappers and then go ahead and perform the join on the mapper instead. okay so that's what happens when one of the data sets is super small 
+	- Partitioned Hash Joins
+		- Description
+			- Same situation as before, but if the two datasets are partitioned the same way, only load the relevant partition of the smaller dataset into memory on the mapper. Just perform the join on the mapper (using the relevant hash table row for the corresponding key) before sending it to the reducer.
+		- Then there's also this concept of partition hash joins which is really similar to the broadcast hash join however if neither of the two data sets is small enough to completely fit in memory but they're partitioned the same way, we can basically just only load the relevant partition of the smaller data set into memory on the mapper
+		- So what that means is say i have all the files for both the age data and the browsing data and their partitions such that like there's one file that contains all the "a" names, one file that contains all the b names, the c names, and that's the case for both age and browsing history.
+		- Then we can actually just make it so that you know when you have all those mappers for the browsing history and say we're doing the mappings for all the "a" names, we can just go ahead and only load in the "a" ages into memory
+		- So that's also known as a map side join because the mapper is doing the logic
+- ![[Screenshot 2024-09-28 at 5.20.05 PM.png]]
+	- Pitfalls of MapReduce
+		- Description
+			- When chaining MapReduce jobs together, the subsequent one needs to wait for the proceeding one to completely finish in order to start executing.
+			- Bad because:
+				- Certain nodes can take a really long time to complete their specific map or reduce job compared to other nodes in the MapReduce job
+				- The result of the MapReduce job is materialized to intermediate state (other files on disk), which is unnecessary and wasteful if those files are never used other than an intermediary between MapReduce jobs (useless writes to disk)
+				- Every MapReduce job chained together sorts the keys, not always necessary, especially if they've already been sorted by a prior job.
+		- Okay anyways pitfalls of MapReduce. Thus far i've described MapReduce as kind of like this perfect really simplistic programming model in order to go ahead and make huge batch computations and you know for a while it was really widely used. People like Google were using it all the time, but now it's less popular and i'll explain why.
+		- Well first of all when chaining these jobs together, one needs to wait for the preceding one to completely finish in order to start executing, so that's bad for a multitude of reasons. The first one is that there might be stragglers. Certain map or reduce jobs might take a really long time and even though the subsequent MapReduce job could you know partially get started, it feels the need to completely wait for these stragglers in order to get started which is very bad for throughput.
+		- Additionally we waste a ton of disk IO which means we're doing a ton of writes to disk for this concept of intermediate state. Intermediate state is basically saying imagine we have two MapReduce jobs chained together but the result of the first one we really don't care about we're never going to use it for anyone else, it's solely just like an intermediate computation. MapReduce is going to write that all out to disk which is pretty useless and takes a ton of time so MapReduce materializes this intermediate state which is not always necessary 
+		- And then finally since MapReduce contains a mapper per reduce we're always going to end up sorting those keys and oftentimes that's not necessary either. a lot of times you just want to you know sort one time and then subsequently the data can already be sorted in the way you want you don't need to do it again 
+	- DataFlow Engines (i.e. Spark)
+		- Description
+			- Chain together a bunch of functions called operators, reduces the need for unnecessary mappers
+			- Entire flow of data (data dependencies) understood from the beginning so that data locality can be maximized
+			- Use parallel computation
+			- Do not materialize intermediate state
+				- Slightly less fault tolerant than MapReduce as not all intermediate state is written to disk
+				- Instead, these engines tend to just recompute it from the most recent prior computations that they still have around, occasionally checkpoint state of computation
+		- Okay so this leads us to the more modern day solution which most companies are using which are dataflow engines so if you've ever heard of [[Apache Spark]] that's what this is. so what they do is instead of just having specific mappers and reducers, they'll chain a bunch of functions together called operators. so again that reduces the need for unnecessary mappers and so what this does is it's much more transparent about the entire flow of data as opposed to just seeing a mapper and reducer as a black box, it goes ahead and maps out all of the data dependencies so it can optimize for those and be as fast as possible. 
+		- That allows us to do better with data locality. Obviously it does parallel computations in the same way that MapReduce does meaning that you know each node in the cluster is doing as much computation as it can and another big thing is that it doesn't materialize intermediate state.
+		- So what that means is that it's a little bit less fault tolerant than MapReduce because if things are kept in memory and one of the nodes crashes, well you kind of have to somehow get that state back. So what it tends to do is there will be occasional checkpoints in the flow of the computation, you know you write something to disk and then you know if you crash and you're a little bit screwed, you just have to go a bit back in time and redo the calculations that you've lost, but ultimately this tends to make for better performance on the whole assuming there aren't too many crashes
+		- Another thing is that means that all functions have to be deterministic because if you're retrying something, obviously you want the same result as before. There can't be like any you know time related stuff when things are executed 
+	- Batch Processing Conclusion
+		- Description
+			- Being able to store a ton of data in an unformatted way in a distributed file store and eventually transform it to useful insights makes batch processing extremely useful.
+			- While batch processing was first mainly done via the usage of MapReduce, dataflow engines such as Spark have proven to generally be superior as they do not materialize intermediate state or do unnecessary sorting, as well as optimize for the entire flow of data as opposed to just one map and reduce computation.
+			- While batch processing happens on a bound set of data, we will next cover stream processing, which aims to perform advanced computations on data as it comes in!
+		- Okay so in conclusion for batch processing, batch processing is super useful for companies because they can basically just dump a ton of data into a distributed file system in an unformatted way and then eventually a bunch of different teams can go ahead and take those immutable files and work on them in any way that they basically want. Even though MapReduce was kind of the original solution to do batch processing, Spark has come around and it's really optimized on that a lot because you know kind of thinking about the entire movement and transitioning of the data is going to allow you to optimize the performance of the entire workload a lot more 
+		- Even though batch processing basically happens on a bound set of data, we know the input files before we start our batch job, there's something called [[stream processing]] that allows doing computations on data as it comes in, and that'll probably be the topic of my next video Alright so we're making a ton of progress guys i'll see you in the next one

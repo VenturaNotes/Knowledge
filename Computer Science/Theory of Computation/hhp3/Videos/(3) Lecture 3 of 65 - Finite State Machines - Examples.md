@@ -1,0 +1,145 @@
+[Video](https://www.youtube.com/watch?v=6veoK7DRv_w)
+
+- ![[Screenshot 2023-09-14 at 10.39.19 PM.png]]
+	- Finite State Machines:
+		- More Examples
+	- The Language that M accepts is A
+	- The language of M
+	- M recognizes A
+	- M accepts A
+	- We use the words "[[accept]]" or "[[recognize]]" to describe the languages of a finite state machine
+		- We should say the machine "recognizes" a language and it "accepts" strings in that language
+			- Although we do say a particular machine accepts a language
+	- The [[empty string]]
+		- $\epsilon$ (epsilon, $\varepsilon$)
+			- Has 0 length and consists of no [[symbol|symbols]] at all. Sequence of 0 length
+			- If the initial state is the final state, the empty string is accepted by the finite state machine
+	- The [[empty language]]
+		- $\varnothing$ = {}
+			- A [[language]] is a set of strings
+			- There is always the case of the empty set
+			- Finite state machine will be one in which there is no pathway to reach a final state from the initial state. No string can get from the initial state to the final state
+	- Note
+		- {$\epsilon$} $\ne$ $\varnothing$ 
+			- A language containing the empty string is not an empty language (since it has one element) 
+		- $\epsilon$ $\ne$ $\varnothing$ 
+			- The empty string is not the empty language
+	- If a machine accepts no strings, then it recognizes the empty language
+- ![[Screenshot 2023-09-14 at 10.46.36 PM.png]]
+	- Design Example
+		- $\Sigma$ = {0, 1} (our alphabet "sigma" consists the characters 0 and 1)
+			- Want to recognize...
+			- Any string that does NOT contain 0011 in it.
+				- Can't contain sequence 0011
+	- How to proceed?
+		- Try a simpler problem
+		- A string that does contain 0011 in it.
+	- $M_1$ example
+		- This is a [[deterministic machine]]
+			- In every state, there are 2 edges leaving (0 and 1 for every state)
+				- 0,1 notation represents 2 separate edges
+	- $M_2$
+		- Just flip the states from being final to not final
+		- As long as we proceed through the string and not find the pattern 0011, then the string would stay in one of the 4 final states. The minute we detect the pattern, we enter the last state and since you can never get out, the string is rejected when getting to the end of it
+- ![[Screenshot 2023-09-14 at 11.06.10 PM.png]]
+	- Errata
+		- Compliment should be spelled complement
+	- Terminology: 
+		- A [[Finite state machine|FSM]] "accepts" a string
+		- A FSM "recognizes" a language
+	- Notation
+		- $L(M_1)$ = The language that $M_1$ recognizes
+			- = The set of strings over $\{0, 1\}^*$ that contain 0011 as a substring
+			- M is the machine we're interest in
+			- $\{0,1\}^*$ indicates all the finite length strings we can form
+		- $L(M_2)$ = The set of strings over $\{0,1\}^*$ that do not contain 0011
+	- [[Complement|Complementing]] a Language (found $L(M_2)$ this way)
+		- They are sets, after all
+			- $L(M_1) = L(M_2)$
+				- The two languages are opposites / complements
+				- The language of $M_1$ is the complement of language $M_2$ 
+		- The "Universe"
+			- All possible strings made with symbols from the alphabet $\Sigma$ {0, 1}
+			- Universe = {0,1}*
+				- All finite strings you can make with 0s and 1s
+		- Set complement is always relative to some universe; (implicitly)
+- ![[Screenshot 2023-09-14 at 11.10.57 PM.png]]
+	- What does this F.S.M. recognize?
+		- It is an F.S.M with 2 final states
+	- Recognizes 10
+		- Also 01, 001, 0001, ... or $0^+1$ (the + means 1 or more occurrences. The $^*$ means 0 or more occurrences)
+	- Can write the language down in [[set notation]]
+		- L = {w | w is either 10 or a string of at least one 0 followed by a single 1}
+			- The set of strings w
+	- What about (what happen?)
+		- 111
+		- 1010
+	- The transition function was a function. From every state, there should be an edge labeled 0 and an edge labeled 1
+		- Not showing all edges for a state is not illegal. It's just a form of shorthand
+- ![[Screenshot 2023-09-14 at 11.14.38 PM.png]]
+	- Here is a similar finite state machine. This time, we've added all of the missing edges. We've also added a new state labeled "dead". Common technique for finite state machines (where you have a single dead state). Missing edges go to the [[dead state]]. Once you go in the dead state, you stay in the dead state.
+		- Any missing edges will go to the dead state
+	- $\delta$ is a function (transition function)
+		- Formally, must be defined (for every state and edge)
+			- $\delta$(c, 1) = ?
+		- If some transitions are missing, add a dead state (often prefer not to show dead state)
+- ![[Screenshot 2023-09-14 at 11.23.39 PM.png]]
+	- Formal definition of [[computation]]
+		- Let M = $(Q, \Sigma, \delta, q_0, F)$
+		- Let w = $w_1w_2 ...w_N$ be a string where $w_i \in \Sigma$ 
+			- The string "w" consists of a sequence of symbols from our alphabet. A finite sequence of symbols from our alphabet $\Sigma$
+		- M accepts w if there is a sequence of states $r_0, r_1, r_2, ..., r_N$ in Q such that $r_0 = q_0$ 
+			- $r_0$ is the initial state
+			- Every state is connected to the next state with an edge that's labeled by the corresponding symbol in the string
+		- $\delta (r_i, w_{i+1}) = r_{i+1}$ for $0 \le i \lt N$ 
+			- For every state in the sequence of states such as $r_i$, we can get to the next one through our transition function $\delta$ which would be  $r_{i+1}$ because there is an edge in the transition function from $r_i$ that's labeled with the corresponding symbol $w_{i+1}$ in the string
+			- Tells us to follow edges legally
+		- $r_n \in F$
+			- $r_n$ needs to be one of the final states
+		- We say
+			- M "recognizes" Language A if A = {w | M accepts w}
+				- A machine recognizes a language if that language is the set consisting of strings that the machine accepts. The set of all strings machine M accepts forms a set and that set is the language that M recognizes
+- ![[Screenshot 2023-09-14 at 11.35.39 PM.png]]
+	- Definition: 
+		- A language is a [[regular language]] iff some Finite State Machine recognizes it
+	- What languages are not regular?
+		- Anything that requires memory.
+		- The F.S.M. memory is very limited.
+		- Cannot store the string
+		- Cannot "count"
+	- Not regular (could easily write a computer program to recognize any string in the two languages below)
+		- ww
+			- 0110101101
+				- Where w is 01101
+				- The first half must equal the second half
+					- To check that, you need to remember what you've seen before (this can require an arbitrary amount of memory)
+		- $0^N1^N$ (very simple to write a computer program to recognize this language)
+			- 000000111111
+				- Number of 0s followed by the same number of 1s
+				- To recognize the language, you just scan the 0s and count them. Then you scan the 1s and count them. Then you see if the two numbers are the same. This is beyond the ability of a finite state machine because finite machines can't count
+	- Image a string from here to the moon. You are trying to recognize it. Your only memory: a single small number (i, # of states)
+		- You know what state you're in
+		- You have just a finite number of bits to represent that state
+		- If you have a finite state machine with 8 states in it, you could represent the state with 3 bits
+		- You have a huge numbers of characters that go by before reaching that point
+		- Can you recognize the string?
+			- If it's a regular language, you can ignore or summarize everything you've seen so far with that small number of bits (you can remember anything you need to remember from the past from the previous first billion characters by the simple information of what state you're in at that point). This is the kind of limited ability that finite state machines have
+- ![[Screenshot 2023-09-14 at 11.59.21 PM.png]]
+	- Designing a FSM
+		- Binary Numbers that are divisible by 3.
+			- $\Sigma$ = {0, 1}
+			- L = $\{\underset{0}{0}, \underset{3}{11}, \underset{6}{110}, \underset{9}{1001}, \underset{9}{1100},\underset{12} {1111}, ...\}$
+		- This language is regular
+			- As we scan a binary number, what does each bit do to the value?
+			- 101101010110001
+				- 0 $\to$ 2(x)
+				- 1 $\to$ 2(x) + 1
+	- When is a number [[divisible by 3]]?
+		- Divisible by 3
+			- 3x
+		- Not divisible by 3
+			- 3x + 1
+			- 3x + 2
+		- x is an integer in this case
+	- Was able to label the edges
+

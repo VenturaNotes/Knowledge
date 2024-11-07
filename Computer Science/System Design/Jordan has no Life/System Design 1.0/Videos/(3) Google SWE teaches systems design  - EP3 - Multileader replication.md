@@ -1,0 +1,138 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=1BXCxpcsmzc
+---
+- ![[Screenshot 2024-09-17 at 4.13.23 AM.png]]
+	- [[Multi-leader replication]]
+	- Multi Leader Replication Overview
+		- Description
+			- Multiple leader database, possibly across data centers
+			- Leader databases send each other writes through some pre-existing [[topology]]
+			- Reads can come from any database
+			- Parts shown in image
+				- Read-write queries
+				- Leader changes to follower
+				- Datacenter 1 and 2
+				- Conflict resolutions
+		- Instead of having one leader right now that all the writes can go to, there are many of them. And possibly across data centers
+		- So leader databases will actually send each other writes. However, the reads can come from any database 
+	- Multi leader replication topologies
+		- [[Circular topology]]
+		- [[Star topology]]
+		- [[All-to-all topology]]
+		- There are others such as chain replication but for our sake, we'll just talk about these three.
+		- Circle and star topologies can easily fail (any node crash for circle, central node crash for star)
+			- They are less fault resistant.
+			- When it fails, the writes stop being passed along
+		- All to all topology can have writes delivered out of order
+			- This is where all writes are sent from all leader nodes to all the other leader nodes, it does not have this [[fault tolerance]] problem. However, it does have the problem that writes can easily be sent out of order. This is the result of a network race condition where two leaders are sending causally related writes to a third leader and they get there in the wrong order which then violates our consistent prefix reads
+				- This can be solved in a later video called [[version vectors]], but for now note that it's pretty hard to reason about writes coming in and out of order in that all to all topology
+	- Multi Leader Replication Tradeoffs
+		- Pros:
+			- Description
+				- Can have a leader in each data center, makes having a global service more manageable (outages between datacenters do not break application)
+				- Are not limited to the write throughput of a single node
+			- Write throughput gets distributed more so amongst multiple leaders which potentially means that for write-heavy workloads, multiple leader replication may be more suitable.
+			- Also good because it means we can put a leader in multiple data centers which allows our app to be more globalized
+		- Cons
+			- Having to deal with write conflicts between multiple leaders
+	- Conflict resolution (forms of conflict resolutions that multi-leader replication style databases use)
+		- [[Conflict avoidance]] (not really a resolution but avoiding conflicts)
+		- [[Last write wins conflict resolution]]
+		- [[On read conflict resolution]]
+		- [[On Write conflict resolution]]
+- ![[Screenshot 2024-09-17 at 4.26.27 AM.png]]
+	- Conflict avoidance
+		- The easiest way to deal with conflicts is to just avoid them
+		- Have all writes to the same item go to a given leader
+			- Could do this via a hashing function
+			- Kind of like partitioning, but putting partitions in geographically different areas
+		- Not always possible if leader is down or you want to change your database configuration
+			- As a result, we have writes going to a different leader for a bit and then you may have conflicts
+	- Last Write Wins
+		- Each write is assigned a timestamp, write with latest timestamp is kept
+			- It could be an actual clock time stamp or something like a lan port timestamp
+		- Pros:
+			- Very easy to implement
+				- Definitely used in some key value stores such as Cassandra
+		- Cons:
+			- Do we use the client or the server timestamp?
+				- If I have an offline change on a computer such as a google doc and then connect online and push that write, which timestamp am I using?
+					- When I physically wrote the document or when it connects to the server?
+			- Writes will be lost
+				- If I write something and then writes something a second later, the thing I wrote is gone from history and there's no way for me to know that someone overwrote my data
+			- Clock skew on servers means that their times are not exactly synchronized
+				- [[Clock skew]] is a problem in [[distributed computing]] where not all servers actually have the same time on them because inherently the thing that keeps time on a computer can go a little bit out of sync.
+					- Sometimes servers can be up to a few seconds off if not synchronized with some time server frequently enough meaning the timestamps as much as we want to think they're super accurate and can actually predict which writes should be winning are not necessarily accurate
+	- On read
+		- When database detects concurrent/conflicting writes, store both writes
+		- Returns both values to a user on the next read to manually merge the values and store the resulting merged value in the database
+			- User has to make it so there is only one value for those two writes
+		- Example:
+			- Let's say you have two lists like shopping carts. You might merge them together.
+	- On write conflict resolution
+		- When database detects concurrent writes, call snippet of code to merge them somehow (often application specific)
+			- It's important that the function for merging is moth [[commutative]] and [[associative]] so that it doesn't matter what order those writes are merged in because obviously the writes might reach different leader nodes in different orders
+			- You also want to be able to keep track of the history of the write and not lose any of them which is why its important that it's associative.
+		- This is the idea between conflict free replicated data types
+			- [[conflict free replicated data type]]
+				- These are data types likes counters or [[incrementers]] and [[decrementers]], sets, ordered lists, which basically keep track of certain data structures and every single time those end up synced across different leaders, they're merged properly
+- ![[Screenshot 2024-09-17 at 4.58.54 AM.png]]
+	- Detecting Concurrent Writes
+		- Description
+			- Two writes are concurrent if each client did not know about the write of the other when they made the write, has nothing to do with actual time of write
+			- If one client knew about the write of the other, we would have a causality relationship between the two
+			- Hence, detecting concurrent writes is all about keeping track of what a client has seen from the database before making a write.
+		- A concurrent write is more about the knowledge and dependencies I had when making my own write
+	- [[Version vectors]]
+		- For each key: keep track of an increasing version number for each key for each replica
+		- Version vectors are a way to explicitly keep track of what each client and database knows about the value of a given key
+			- Imagine I have n replicas. A version vector is a list of length n which basically incorporates how many times that key has been updated by each database and as a result lets you track the dependencies of every single write and tell if two writes are concurrent.
+		- Example
+			- Let's say we have two clients (me and my friend) and two replicas which are each going to be holding my shopping cart on amazon.
+			- If i'm client 1, we set the Jordan's shopping cart key to add a playstation 5.
+			- I will pass version vector `[0,0]` which means as far as I'm aware, neither replica has processed a write for Jordan's shopping cart key.
+			- Once Replica A receives my write, it goes ahead and says it has now processed one write which makes the version vector `[1,0]` and the value corresponding to it bing PS5.
+			- Let's say the friend adds an XBox
+				- He also does not realize that either replica has processed a write. He writes to replica B. He tries to add an XBox. Then replica B updates its own internal version number or version vector to `[0, 1]` which means as far as replica B is aware, replica A has processed 0 writes for the key and replica B has processed 1 write for the key
+			- Lets say I add lotion now.
+				- As far as replica A is aware, its processed two writes for this key. Replica B still doesn't realize its processed a write. So replica A's version vector is `[2,0]` and the array of my shopping cart is going to be a PS5 and lotion.
+			- As we can see now, those writes are concurrent because me and the friend don't know that we are each writing. If we are looking at the version vectors we're writing, they're concurrent because neither is strictly greater than one another in all indexes of the array.
+			- Lets say then that an [[eventual consistency]] strikes and those changes are propagated from replica A to replica B and vice versa
+				- What happens is that they'll look at the version vector `[2,0]` and the version vector `[0,1]`. They'll say all right, these are clearly concurrent. Why is that? This is because replica A doesn't know that replica B has processed a write and vice versa. As a result, we'll merge them.
+					- If this was an On write conflict resolution method, perhaps we'd merge the two lists with some sort of array union. 
+					- If it's on read and our job is to just store the siblings or concurrent writes themselves, then all we would do is have two separate lists corresponding to a new version vector which is `[2,1]`. We get that by going through both version vectors and for each index of those version vectors, we take the maximum between the two.
+					- As far as we are aware now, Replica A has processed 2 writes and replica B has processed 1 write. The corresponding concurrent values are PS5 and lotion and also XboX. We have those two different cards
+					- Now lets say either client one or client 2 wanted to read the cart, they would potentially get two possible values for the read.
+					- If client 1 or client 2 didn't make a read and explicitly tried to write again, then client 1 would try to make another addition to replica a and only passing the version vector `[2, 0]`. If I passed in `[2,0]` trying to add something like tissues, then the next step would be that replica A hold the value `[3, 1]` where its PS5, lotion, tissues, and a separate shopping cart Xbox
+						- The way these conflicting values can be rectified is whether we use and on read or on write conflict resolution schema
+	- Version Vector Semantics
+		- Every time a client reads from a database, the database gives it the version vector of a key
+			- Reading the key, the database will give the version vector that the database holds for that corresponding key.
+		- Every time a client writes to a database, it passes the database its most recently read version vector for a key and the database supplies it with a new one
+			- It could be from a previous write or from a previous read
+			- Upon successful writes, the database will give it an updated version vector to use for future writes.
+		- So what makes two version vectors potentially concurrent or not concurrent?
+			- Two version vectors are not concurrent whet they have a causal relationship (as described in the next bullet point below)
+		- Two values have a happens-before relationship if one version vector is strictly greater than the other (for each element of the list, the number is greater than or equal to the corresponding element of the other list)
+			- For every single index in that version vector, each element is going to be greater or equal to the element from the other version vector.
+			- This means this write has basically taken in all of the information from the other write before actually being written. So we know the dependencies have been properly tracked
+			- If there isn't this relationship (like index 0 of version vector 1 is greater than index 0 of version vector 2 but index 1 of version vector 1 is less than index 1 of version vector 2, then they are probably going to be concurrent and there is no way that one write knew about the other. Hence, we would then need to deal with conflict resolution.)
+				- #question would both cases need to be true though? 
+				- This is how we would use version vectors to determine which writes are concurrent, and then you would have to use some sort of custom application specific conflict resolution logic in order to deal with the fact that there are concurrent writes
+					- Obviously not ideal and if you can avoid conflicts, do so.
+		- All other version vectors are concurrent
+			- The corresponding values can either be merged somehow or kept as "siblings" in the database
+			- Merging version vectors means taking the max of both version vectors at every index. 
+	- Multi Leader Replication Tradeoffs
+		- Pros:
+			- Can have a leader in each data center, makes having a global service more manageable (outages between datacenters do not break application)
+			- Are not limited to the write throughput of a single node
+				- Have a lot more write throughput by virtue of potentially being able to put a leader in every single data center at the cost of having to deal with potentially complicated conflict resolution logic.
+		- Cons:
+			- Having to deal with write conflicts between multiple leaders
+		- It happens to be the case that some applications are really read-heavy and as a result can get away with single leader replication. However, in the event that you have a more of a write-heavy application and you need that extra throughput, then you need to start dealing with conflicts.
+		- A lot of these distributed systems have optimized version vectors. There is a dotted version vector and something called ryak which is another distributed key value store. 
+			- Some databases such as Cassandra have chosen to keep it simple and just use last write wins
+			- Others will increasingly rely more on things like CRDTS which hopefully take care of a lot of that logic for you and simplify things like distributes sets, distributed lists, and distributed counters
+		- Will do leaderless or dynamo style replication next

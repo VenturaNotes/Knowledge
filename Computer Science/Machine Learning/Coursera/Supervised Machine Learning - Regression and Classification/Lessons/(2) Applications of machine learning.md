@@ -1,0 +1,35 @@
+[Source](https://www.coursera.org/learn/machine-learning/lecture/IjrpM/applications-of-machine-learning)
+
+- Machine learning is a sub-field of AI
+- You can write a program to find the shortest path from a to b (such as in your GPS)
+- Did not know how to explicitly write programs to
+	- perform a web search
+	- recognize human speech
+	- diagnose diseases from X-rays
+	- build a self-driving car
+	- <mark style="background: #FFF3A3A6;">needed a machine to learn to do it by itself</mark>
+- Google Brain Team
+	- speech recognition
+	- computer vision (Google Maps Street View images)
+	- advertising
+- AI Baidu
+	- Augmented reality
+	- Combating payment fraud
+	- leading a self-driving car team
+- AI Fund and Stanford University
+	- Factory
+	- large-scale agriculture
+	- health care
+	- e-commerce
+- Artificial General Intelligence (AGI)
+	- AI dream of building machines as intelligent as you or me
+	- Could take up to 50 or 500 years to get there.
+- Machine learning estimated to create an additional 13 trillion US dollars of value annually by the year 2030
+- Could also have value in
+	- retail
+	- travel
+	- transportation
+	- automotive
+	- mateirals
+	- manufacturing
+- Because of the massive untapped opportunities across so many different sectors, today there is a vast unfulfilled demand for this skill set

@@ -1,0 +1,61 @@
+[Video](https://www.youtube.com/watch?v=9px80y6V6Dg)
+
+- ![[Pasted image 20231219142645.png]]
+	- What is [[computation]]?
+		- [[Turing machine]]
+			- Consists of tape infinite in both directions
+			- Divided into cells
+				- Each cell a symbol is stored from a [[tape alphabet]]
+					- Most basic tape alphabet $\Gamma$ = {0, 1,  $\square$}
+						- The box represents a blank symbol
+						- Tape is like main memory of computer where we can store all of our information
+			- To read and write from tape
+				- Turing machine has a head (tape head)
+					- Head in every step of computation points to single cell of tape
+					- Each step of computation can move one cell left or right
+			- Turing machine also has an [[internal state]]
+				- Set of possible internal states Q
+				- Internal state is like the contents of a register in the CPU
+					- It is also a form of memory
+			- Difference between contents of tape and internal state
+				- Contents of tape is not limited. Can store arbitrary large amounts of data on tape since its infinite
+				- Internal state can only be one out of a fixed number of possibilities
+			- Has a [[transition function]]
+				- Tells Turing machine how to behave (do the computation). Like a program.
+				- Takes internal state as input and character from tape alphabet that Turing machine reads at particular point in time (which is the character stored in cell to which the head of the Turing Machine points to)
+				- Has two arguments
+					- One comes from Q (the set of states)
+					- One comes from Gamma (the tape alphabet)
+				- Tells us what new internal state of machine it will be
+					- What character the machine onto the tape in the current position
+					- The head points to a particular cell and we replace whatever is written there with a new character
+					- Transition function also specifies how the tape head moves
+						- One cell to left, stays, right
+				- Can write transition function in form of big table
+					- Rows of table are internal states
+					- Columns of table are characters from tape alphabet
+					- Can look up in table what action should be
+			- To specify a Turing machine
+				- Specify Tape alphabet
+					- 0, 1, blank is standard
+				- Specify set of internal states of machine Q
+				- Specify entire transition function delta
+- ![[Screenshot 2023-12-19 at 2.34.10 PM.png]]
+	- How Turing machine does computation
+		- Start configuration
+			- tape is initialized with input bit string (and with $\square$ in all unused cells)
+			- Head points at cell containing the left most bit of the input
+			- Internal state is $q_{start}$ 
+		- Performing computation step
+			- Read character from cell the head points at
+			- Check internal state
+			- Look up in the transition function what action to take (new state, new character, head movement)
+		- Halting (Computation overall stops when turning machine enters a particular halting state)
+			- Computation stops once machine enters state $q_{end}$
+			- Output is on the tape starting with the head position moving right until the first character not 0 or 1
+				- Output could be 001
+		- Alternative halting for decision problems
+			- Instead of $q_{end}$, can have two halting states: $f_{yes}$ and $f_{no}$
+				- For $f_{yes}$, output is 1
+				- For $f_{no}$, output is 0
+			- We could achieve same thing by writing 1 or 0 on tape followed by a blank and terminating Turing machine switching to state $q_{end}$ but sometimes terminating behavior of above is more convenient 

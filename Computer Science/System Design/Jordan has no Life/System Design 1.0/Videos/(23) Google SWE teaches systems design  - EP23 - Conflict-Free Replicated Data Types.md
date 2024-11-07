@@ -1,0 +1,102 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=xR7-H1EMDJc
+---
+- ![[Screenshot 2024-10-09 at 1.45.32 AM.png]]
+	- Intro
+		- alrighty so we finally got through all the content we needed to do for the wide column NoSQL databases which means we're going to start moving into basically all the key value stores and the associated content with that so in order to get started we're going to talk about [[conflict free replicated data type|CRDT]] or conflict-free replicated data types and i'll just go ahead and jump into that right now 
+	- [[conflict free replicated data type|CRDTs]] Background
+		- Description
+			- Many database systems today are moving more towards a multi-leader/leaderless replication system in order to increase write throughput, which inevitably leads to conflicts amongst the databases.
+			- As such, we have seen the invention of things like Conflict Free Replicated Data Types (CRDT for short) pop up, which aim to implement certain data structures like counters, sets, maps, and lists over a multileader replication setup.
+			- The goal of CRDTs is convergence: all replicas will eventually show the same value for the data structures without losing any of the updates.
+		- okay [[conflict free replicated data type|CRDTs]], what are they? Well basically in a bunch of the database systems that i've talked about so far, aka dynamo style or you know things like Cassandra where there's a bunch of possible leaders that writes can be sent to and writes are going to be replicated in some sort of topology or ordering around those leaders, there's inevitably going to be write conflicts. Obviously this comes at the trade-off of higher write throughput which is great but it's still extra things that we have to deal with and think about in order to kind of mitigate those write conflicts. As such, in the past few years, we've seen this new type of technology come around which is called a conflict-free replicated data type. CRDT for short. And basically all those do are it's basically a piece of data that each database leader can keep internally that eventually can be sent from one database to the other and you know upon merging, they can kind of converge to a consistent state between them. Obviously CRDTs are super useful and if i had had one in my past relationship maybe me and my ex would still be together because we could have used some sort of conflict resolution like that. CRDTs can implement things like counters, sets, maps, and lists and even for something like collaborative text editing. They can be really useful especially as far as lists go  
+	- CRDT use cases
+		- Description
+			- Collaborative editing
+				- Can use a CRDT here or an algorithm called operational transform
+			- Online chat systems
+				- To ensure ordering of the chats is eventually the same
+			- Any application that allows offline editing
+			- Distributed leaderless key value stores such as Riak and Redis
+				- Hence the reason for this video
+		- So that brings us to use cases mainly. So in terms of collaborative editing like google drive, [[Figma]], Office 365, being able to create a list of items that comes from a multi-leader replication setup is really useful and it's not something that's super easy. Um there's a ton of challenges involved there and it's still a research topic that is very much ongoing. You can also use an algorithm called operational transform for this type of thing but that is a topic for another video. There's also online chat systems in terms of ensuring that the ordering of the chats is eventually going to be the same amongst all users. There's also anything that involves offline editing like say a calendar app. Eventually you're gonna have to sync those changes back into the database and so in that sense each offline client is kind of treated like its own database in a multi-leader replication setup. And then finally, CRDTs are now used in a decent amount of distributed key value stores such as Riak and Redis. Since these are both things that i'll be talking about in subsequent videos, I wanted to first talk about CRDTs because they're very important differentiator between these and something like Cassandra.
+	- Types of CRDTs
+		- Description
+			- Operation Based CRDTs
+				- Propagate state by only transmitting the local update operation to other nodes
+				- Useful for when state is very large and expensive to transmit over the network and when there are relatively few operations compared to the size of state
+				- Not idempotent, network needs to ensure they are delivered only once
+			- State Based CRDTs
+				- Send the entire local CRDT state over the network to a remote node, remote node merges it with its own local CRDT version
+				- The merge function must be commutative and idempotent
+					- The order of merges doesn't matter
+					- Calling the merge function multiple times with the same inputs has no effect
+				- Works very well with gossip protocols
+		- okay so there are two main types of CRDTs. There's operation based and state-based CRDTs. Operation based is what it sounds like. Basically you're going to be passing the operation from database to database. So basically for something like a counter, instead of passing an entire database's local counter from database to database, you'll simply pass the fact that there was an increment operation. What's important about this is that even though those operations may be commutative as in it doesn't matter which one is executed first, the order of them doesn't matter, they may not be idempotent which means that if for some reason the network goes ahead and duplicates the fact that a client tried to increment a counter, one database node might receive the fact that there were two increments when the other database node thinks there is only one increment. So it's important to make sure that these are deduplicated which you can do via something like TCP or maybe you could even just include an extra key that acts as a way to ensure idempotency. Additionally these are really good compared to state-based CRDTs when the state of whatever it is that we're transmitting or trying to keep track of is very large and expensive to kind of transmit over the network. Even especially if there are very few operations relative to the size of the CRDT itself, again operation based CRDTs are probably the move here. That being said, these two things are both equivalent mathematically so it really kind of comes down to these trade-offs. As far as state-based CRDTs go, for something like say a counter for example like i mentioned, you would be sending the entirety of the counter over from one node to another and then the nodes once they receive kind of those remote counters would uh be going ahead and merging in that state. The merge function, it's very important that it's both commutative and idempotent. So even if you accidentally duplicate a merge, it has no effect and a merge will go ahead and propagate all the previous changes that a node has basically realized or seen in the past. In this sense state-based CRDTs are pretty simple to reason about but like i said they can be kind of slow if you have a lot to transmit over the network. Finally since gossip protocols deliver messages out of order and since they are potentially duplicated. I've mentioned gossip protocols in a prior video on my channel so feel free to look at that. They work very well with state-based CRDTs for kind of exchanging all of this information.
+	- Examples of CRDTs
+		- Description
+			- Grow Only Counter
+			- Incrementing and Decrementing Counter
+			- Sets
+			- Sequence
+		- okay so now i'm going to go through a few examples of CRDTs. I'm going to go through the first one in a lot of depth and then we'll quickly go through the next couple to kind of see how you can grow those from the first example.
+- ![[Screenshot 2024-10-09 at 1.54.54 AM.png]]
+	- Grow Only Counter
+		- Description
+			- (1) Each node in the database starts off with array of 0s (number of elements in array to number of nodes)
+			- (2) Jordan writes "increment", request handled by replica 1, which increments its own counter in its list.
+			- (3) Client B writes "increment" five times, handled by replica 2, which increments its own counter in its list
+			- (4) Jordan queries the counter value, request handled by replica 1, returns 1 (sum of local array)
+			- (5) Changes from replica 2 merged into replica 1, merge function just choses the maximum element of each index in the list
+			- (6) Changes from replica 1 merged into replica 2, merge function just chooses the maximum element of each index in the list
+			- (7) Querying the counter value from either node will now return the value 6 (sum of all elements in the array)
+		- okay, so this is a grow only counter which is basically saying we are going to have counters on every single database replica which keep track of how many increments they've received and after merging other information with other replicas (imagine there's some sort of anti-entropy process in the background that kind of exchanges information from one node to the other) what's going to now happen is that the information is going to be eventually consistent and converging so that every node is somewhat up to date. So what's going to happen is that each node in the database is going to start off with an array of zeros. This insinuates that all the counters are at zero and that the reason in this case why we only have two elements in the list is there are two replicas. So now every single time that one of the replicas handles an increment operation, it's going to increment its own local counter. So that is its corresponding index in the list that it's holding. So as you can see, i'm uh you know incrementing uh replica one or basically replica one is handling my increment so it's going to increment the zeroth index of its list which corresponds to it. Okay client b is going to do the same thing but it's going to be handled by replica 2 and that increment is going to happen five times. So now you can see that there's going to be five in that counter so still even though these two separate requests have been handled, the two replicas have not synced up with one another yet. They're still eventually going to converge but right now they have yet to converge. So let's say i want to query the counter value and the request is handled by replica one, it's going to return one because it's just going to sum up that local array. If i had that query handled by replica 2, then it would actually return 5. But eventually what's going to happen is that anti-entropy process which runs in the background or maybe it's a gossip protocol or something like that but anything that transmits the information is going to go ahead and send that array from the second replica to the first and what's going to happen is the first replica is going to say okay, for every element in this list, i'm going to create a new array which now represents my counter, and to get that new array i'm simply going to take the maximum (so the element-wise maximum) of each index. So now obviously now we're going to have (1,5) instead of the (1,0) that we had before. When the changes are propagated from replica 1 to replica 2, we're going to call that merge function on replica 2 and now they're both consistent and have (1,5) as their counter. So what this basically means is that as far as each replica is aware, replica 1 has processed one increment request and replica 2 has processed five increment requests. So now if i were to go ahead and query either of them for the total counter value, all that's going to happen is we're going to sum up this array and i'm going to get the value six so they have converged. If i were to continue to make more increments on either replica, they would temporarily again be out of sync but eventually they would come back to the same value and agree. That's kind of the point of a CRDT
+- ![[Screenshot 2024-10-09 at 2.10.18 AM.png]]
+	- Incrementing and Decrementing Counter
+		- Description
+			- Basically the same as the grow only counter, with the following adjustments:
+				- Each node keeps track of two arrays
+					- One for increments that it has seen
+					- One for decrements that it has seen (clients can now issue a "decrement operation")
+				- To get the counter value
+					- Sum up the increments array, and subtract the sum of the decrements array
+				- To merge the counter values
+					- The merged increment array is the element-wise max of the two increment arrays
+					- The merged decrement array is the element-wise max of the two decrement arrays
+		- So we've discussed the grow only counter but what if i wanted a counter that could both be incremented and decremented. Well if you remember from the previous diagram what happened was that each replica kind of had a list showing how many increments every single replica has processed as far as it's aware. So we're going to now do the same thing but one for all the increments and one array for all the decrements and then to get the actual counter value from one replica, you're going to sum up the increments array and then subtract the sum of the decrements array and as far as the merge function goes when uh these replicas are synchronizing with one another, uh you basically merge them in the same way as we did the increment array. So the increment arrays we do the element-wise max and the decrement array we do the element-wise max as well. I see that i wrote min here on the slide but it's actually the element-wise max.
+			- #comment (I fixed it for my slide)
+	- Sets
+		- Description
+			- Basically the same as the grow only counter, with the following adjustments:
+				- Each node keeps track of two arrays
+					- One for elements it has added
+					- One for elements it has removed
+				- To get the set contents
+					- Take the added set and remove all of the elements in the remove set
+				- To merge two sets
+					- The merged added set is the union of the two added sets
+					- The merge removed set is the union of the two removed sets
+		- so moving on to sets. It's basically the same as the grow only counter with the following adjustments. As opposed to using an increments and decrements list held on each replica, now we're keeping track of two arrays, one for elements added and one for elements removed. So to get the set contents, basically we take all the elements in the added list and then we just don't count any element that appears in that removed set. And then as far as merging them goes, we basically just take the union of two added sets and the union of two removed sets. So as you can see there's kind of this very similar process of just being able to have that commutative merge function which is idempotent because the union with a set is obviously idempotent and in the case of the counters, taking the maximum or the element-wise maximum of two lists is obviously going to be idempotent. So that's how sets would work, but as you can see one of the issues with what i just expressed with sets is that once an element is in the remove array, it can no longer be in that set again. So how can we change this? 
+	- Sets Continued
+		- Description
+			- You may notice that with sets, once an element is in the removed set, it can never be re-added!
+			- To mitigate this, some variations have been created:
+				- Every element in the added and removed set has a timestamp
+					- If element is in both add set and remove set, the one with the higher timestamp prevails
+					- This obviously poses some issues due to unreliable clocks in distributed systems
+				- Attach a unique tag to every element in the add set (now can put the same element in the add set many times with different tags)
+					- When removing that element put said tag in the remove set
+					- An element is only present if it is still present in the add set less the remove set (do not count all element, tag tuples in the add set that are in the remove set)
+		- Basically to mitigate this, some variations have been created. One is every element in the add and remove set has a timestamp, and then you would kind of use the timestamp to basically say oh if there's an element in the added array but it has a more recent timestamp than the same element in the removed array, then actually the fact that that element was removed is not valid, we can say that that element was once again added. Additionally, another way of getting around this because every time we use timestamps and distributed systems, we run the risk of dealing with unreliable clocks, is to just attach a unique tag to every single element in the the add set and then you can go ahead and add that element tag tuple into the remove set as well and if an element tag combination is only in the add set but not the remove set, then you can assume that that element is actually still in basically the merged set or the result of the CRDT
+	- Sequence CRDTs
+		- Description
+			- Super useful for things like collaborative text editing where we need to determine an order of the elements in a document.
+			- Won't touch upon these at the moment, because text editing CRDTs and operational transform deserve their own video!
+		- As far as sequence CRDTs go and this is kind of what we might use for something like collaborative editing, i'm not going to touch too much into these just because they're pretty complicated and there are actually a lot of issues as far as trying to get them to work well and multiple different possible algorithms for getting them to do so. It's something that i plan on discussing in a future video but for now just know that the general kind of gist behind this is we're trying to get a list and doing so is really tough because when you're preserving order, there are all these inserts into the middle of the list and it's really hard when you're trying to kind of make sure that the characters that you're inserting are not getting interleaved with the characters that someone else is inserting. So it's a pretty complicated thing that i will 100% discuss it in a future video along with operational transform which i believe is the current algorithm that google docs uses for collaborative text editing.
+- ![[Screenshot 2024-10-09 at 2.13.01 AM.png]]
+	- CRDTs Conclusion
+		- Description
+			- Very useful data structures to ensure convergence/conflict resolution in database configurations with multiple leaders. Are often used in conjunction with (or are implemented with logic similar to) version vectors.
+			- Since this is one of the main differentiating features of databases like [[Riak]], it is important to understand how CRDTs before we talk about them!
+		- okay, so in conclusion CRDTs are super useful data structures to ensure convergence in a multi-leader database replication schema. They're generally used in conjunction with or with kind of like a similar design pattern to version vectors which if you remember from my multi-leader replication video, is basically keeping track of the dependencies of every single write and using this to determine when two writes are concurrent or if they're not concurrent. Since this is a really differentiating feature of Riak versus something like Cassandra, I figured it was really important to kind of understand how CRDTs actually work and give a few examples of them before actually looking at kind of the Riak breakdown itself because i didn't want to just off-handedly mention CRDTs and then be like oh yeah Riak has those. That wouldn't really be fair to you guys. So all in all I hope this video was useful. I look forward to getting back into the key value stores because then we're going to get to touch upon some more new things that are really important like caching and cache consistency and that's all going to come into play soon, so yeah things are really coming together guys and have a good day.

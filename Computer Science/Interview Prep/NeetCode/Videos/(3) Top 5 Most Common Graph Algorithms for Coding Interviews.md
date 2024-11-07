@@ -1,0 +1,69 @@
+[Video](https://www.youtube.com/watch?v=utDu3Q7Flrw)
+
+- ![[Screenshot 2023-08-30 at 3.20.58 AM.png]]
+	- [[Depth first search]]
+		- This is the most common graph algorithm
+		- Time Complexity: O(n)
+			- When there are `n` nodes
+		- DataStructures:
+			- When doing recursively, you need a [[HashSet]]
+				- HashSet is used to detect a cycle
+				- Depth first search is about traversing a graph
+				- HashSet required in many cases for a generic graph
+				- If handled recursively, you will not need a [[stack]]
+			- Could optionally used Stack for DFS problems if not used recursively
+		- Graphs are made up of [[node|nodes]] which contain values
+			- There are [[edges]] which connect the nodes together
+		- Trees are just special cases of graphs
+		- Depth first is when we go as deep as possible first down a graph
+- ![[Screenshot 2023-08-30 at 3.24.31 AM.png]]
+	- [[Breadth First Search]]
+		- Designed to traverse a graph
+		- Time Complexity: $O(n)$ 
+		- DataStructures:
+			- Usually not implemented recursively
+			- [[Queue]]
+				- Requires a double-ended queue
+			- [[HashSet]]
+				- To detect duplicate nodes
+		- Breadth first search is everything that's close to us
+			- Traversing each layer first
+- ![[Screenshot 2023-08-30 at 3.28.47 AM.png]]
+	- [[Union-find]]
+		- Used to union together [[disjoint sets]] and combine them together efficiently
+		- Time Complexity: $O(nlogn)$
+		- Data Structures
+			- Forest of Trees
+		- Could arbitrarily start adding [[edges]]
+			 - Can decrease components
+ - ![[Screenshot 2023-08-30 at 3.35.22 AM.png]]
+	 - [[Topological Sort]]
+		 - Built on top of DFS
+		 - We're given a [[directed acyclic graph]]
+			 - A graph with directed edges and the graph will have no cycles
+			 - A topological sort of a graph like this would be reading the values of every single node in the graph but only printing a node when every node before it has been printed already as well
+			 - Topological sort does not have to be unique
+				 - Both are valid
+					 - ABCDE
+					 - ACBDE
+		 - Time Complexity: $O(n)$ Since using DFS
+		 - Data Structures
+			 - HashSet
+ - ![[Screenshot 2023-08-30 at 3.42.13 AM.png]]
+	 - [[Dijkstra's Shortest Path Algorithm]]
+		 - Not super common on LeetCode or coding interviews
+		 - Finding shortest path from node A to every single node in graph
+		 - We've been working with simple graphs
+			 - Each edge doesn't have a weight associated with it. Basically just a weight of 1
+	 - Time Complexity: E log v
+		 - v is the number of nodes/vertices in graph
+		 - E is the number of edges in graph
+	 - Data Structures
+		 - [[Heap]] (or [[priority queue]])
+		 - Heap most common data structure used to find shortest path (will need to be looking at minimum edge)
+		 - [[HashSet]]
+ - Others
+	 - Rare for interviews
+		 - [[Prim's Algorithm]] or [[Kruskal's Algorithm]] for [[Minimum Spanning Trees]]
+		 - [[Floyd Warshall's Algorithms]]
+			 - Similar to Dijkstra's Algorithm

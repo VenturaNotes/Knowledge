@@ -1,0 +1,140 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=NpQ-S89jVzE
+---
+- ![[Screenshot 2024-09-23 at 2.49.53 PM.png]]
+	- [[ACID Transactions]]
+	- He will be doing a database comparison later
+	- Will want to cover [[weak isolation levels]] next
+	- What are [[transactions]]?
+		- Description
+			- Transactions are an abstraction used by some databases that provide [[ACID]] guarantees about queries - each write in the transaction will either be committed or aborted entirely without any side effects
+			- ACID: Atomicity, Consistency, Isolation, Durability
+		- Transactions are a database abstraction that bundle a bunch of operations to the database (so reads and writes), into one package of operations that either all succeed or all fail
+			- Entire point of transactions is to implement this guarantee called ACID which stands for the above
+	- ACID explained
+		- [[Atomicity]]: If a client makes several writes, but a fault occurs after only some of the writes are completed, the existing completed writes will be rolled back (can be implemented with [[write-ahead log|write ahead log]] for crash recovery)
+			- Let's say we have a bunch of reads and writes. It's never going to be the case that some writes will work and some will fail and some of the writes that worked will leave a side effect on the database.
+			- It will be the case that it's one atomic unit of a transaction. All will be committed or all will be aborted
+		- [[Consistency]]: The application can rely on the properties of the database to ensure that invariants about the data will hold (in the face of faults)
+			- Just saying that the database will do what it's supposed to. If a transaction works, it's going to stay that way. It won't be partially 
+			- As a result, you can expect your [[invariant|invariants]] about the data are going to hold even in the face of faults
+				- If there is a fault, transaction will be aborted with no side effects
+		- [[Isolation]]: Concurrently executing transactions are isolated from one another ([[serializability]]), each transaction can pretend it is the only one running on the database 
+			- It means that concurrently executing transactions can act as if they're the only one currently performing an operation on the data. We don't have to worry about race conditions, interleaved transactions, and we don't have to worry about lost updates. 
+			- Isolation is the main reason that transactions take a big performance penalty on the database
+		- [[Durability]]: Once a transaction is completed, the data will never be forgotten, even in the face of faults. 
+			- Once a transaction is complete, it's on the disk
+			- Durable to the extent that the hard drive it's written on is durable
+	- Implementing Serializable Isolation
+		- Description
+			- [[Actual Serial Execution]]
+				- simplest way to implement isolation
+			- Two Phase Locking
+			- Serializable Snapshot Isolation
+		- Isolation is basically saying that there can be a bunch of concurrent threads operating on a database and we're not going to have any concurrency bugs
+		- Isolation insinuates that you don't have to worry about the actual ordering of each write in the transaction amongst two transactions, we just know it's going to work
+	- [[Actual Serial Execution]]
+		- Description
+			- Idea: implement all database queries on a single thread
+			- This is possible under the following conditions
+				- [[In-memory database]]
+					- Meaning all data in database is stored in memory (this is the case because if you had to keep making all the disk reads and writes, those take too long. To get the actual [[throughput]] we need on a single CPU core is if all the data is in memory)
+					- There are some popular in-memory databases such as [[Redis]] and [[Memcached]]
+						- As a result using things like that, we could make it work
+				- Use a stored procedure
+					- Typically when using a transaction, you would pass the database like SQL instructions over the network. However, by virtue of passing those instructions over the network, we're wasting a lot of time that we need the CPU to be doing operations. 
+					- Instead, we store the transaction in advance on the database as something called a [[stored procedure]]. Then you would end up calling that stored procedure
+						- Issues that come up include:
+							- Implies that we already know in advance what transactions we will be doing 
+							- Stored procedures are kind of an afterthought by databases. They are hard to version control and a lot of databases don't use a popular language to write stored procedures which make them pretty annoying as developers to work with
+				- Attempt to keep all transactions limited to one partition
+					- This is kind of an optional thing but you would want to keep all the transactions limited to one partition.
+					- If you have multiple partitions involved in a transaction, you're going to have to be dealing with network calls and the thought of having only one CPU core to deal with things that are going to be waiting on a network means that other transactions that have to be run by the core afterwards are going to be delayed significantly 
+			- Pros: Very simple to implement, non analytics transactions are mostly short
+				- Good because unless you're doing huge analytic queries on the database, those transactions are probably going to be pretty short.
+			- Cons: Throughput limited to a single CPU core, have to use stored procedures (hard to version control and can be in weird languages)
+				- Unfortunately, a large chunk of hugely scaled out applications can't actually run all of their transactions on a single CPU core.
+				- Would also need to deal with stored procedures
+		- Will only have one thread running on a database. It means all of those queries are going to be run on a single CPU core and it's only possible under the above conditions listed
+- ![[Screenshot 2024-09-23 at 3.32.11 PM.png]]
+	- [[Two Phase Locking]]
+		- Description
+			- Idea: Each object has a lock on it, which can be held in either shared mode or exclusive mode
+			- Multiple transactions can concurrently read from a row if they are holding the lock in shared mode, but if they want to write to it they must grab the lock in exclusive mode. They can only do this if no other transactions are currently holding a shared or exclusive lock on the object.
+		- This is a much more popular solution that's implemented in most databases called two-phase locking.
+		- A lock is basically something you can put on an object and if you have multiple concurrent threads or multiple threads running in parallel trying to grab the lock, once one thread is holding the lock, the other thread may not and it may not operate on that object
+			- Two phase locking changes those locks a little bit. Instead of just having a lock that is held or not held where only one process can have it at a time, the lock now has two different modes. [[Shared mode]] and [[exclusive mode]]
+				- In shared mode, you can have a bunch of processes or transactions that want to read that object. However, in exclusive mode, you need this to write and in exclusive mode, no other processes can be holding that lock
+		- The point:
+			- Multiple transactions can read from a row if they're holding a lock in shared mode but the second they want to write to that row, they have to upgrade that lock to exclusive mode.
+			- Additionally, if they're currently holding the lock in shared mode and another process is holding the lock in shared mode, they're not going to be able to upgrade to exclusive mode. You can only go to exclusive mode once there are no other processes holding that lock at all
+	- Two Phase Locking and [[Predicate Locks]]
+		- Description
+			- Let's imagine that we are running a transaction and want to book a meeting room. We can first query the database to see if anyone else has already booked the room, and if not we will book it ourself. However, after we query for existing bookings, another transaction successfully adds a row to the database taking the booking that we wanted. Since this row had yet to exist, we could not have put a lock on it, thus ruining our serializability
+			- To solve this phenomena, we need predicate locks!
+		- There is a pretty significant edge case of two phase locking known as predicate locks 
+	- [[Predicate Locks]]
+		- Description
+			- Apply to all objects matching a given search condition, perhaps even ones that don't yet exist!
+			- Issue: Performs very poorly, have to go through a bunch of rows checking to see if they match the conditions to apply a lock to
+				- Preforms poorly because you have to do a huge query to find all the rows in the database that might apply to the predicate lock and then additionally every row that's added, you have to check if it applies to the predicate lock.
+			- Alternative: [[Index range locking]]
+				- This is a little optimization on this
+		- Basically saying: We are going to put a lock on all objects that satisfy a query even if they don't yet exist. Let's say I want to book a certain room with a certain time. It would be best to put a predicate lock on all of those meetings with that room and time. Therefore, in the event that another transaction tries to create a row for that, my predicate lock would already be holding it and they wouldn't be able to do so
+	- [[Index Range Locking]]
+		- We want to book the Oval office for Tuesday, so we would write a query to put a predicate lock on all Oval Office meetings for Tuesday. But this could take a while - instead we could just use our index to put a lock on all Oval Office meetings quickly, since it is a superset of those in the Oval Office and on Tuesday.
+		- We have database table on left and index on the right (which shows meeting room and corresponding rows for it)
+			- We can see the Oval Office is not booked for Tuesday. Only for Monday and Wednesday as shown on the left table
+		- We would first apply a predicate lock to all the oval office slots for Tuesday. That wouldn't apply to any rows currently. This will be pretty slow though because we'd have to query the entire database to find all of the places where the oval office and Tuesday comes up. However, we could put a lock on all of the oval office rows. This would be a lot faster because we already know from our index that the oval office has primary IDs 2 and 3. As a result of that, I know that any oval office meeting on Tuesday is going to be on that greater set including all of the meetings that include the oval office. As a result of that, this predicate lock is actually going to be much faster although it does come at the cost of locking too many things and slowing down other unrelated transactions. This is known as index range locking because we're basically taking a [[superset]] of all the things that we want to put a predicate lock on. However, it's faster because of the fact that we already have this query pre-populated for us via the index.
+			- As you can see, I would then just put a lock on IDs two and there even though neither actually relevant for my query. It's a superset and if there was an oval office with Tuesday meeting in there, it would have locked that too.
+- ![[Screenshot 2024-09-23 at 3.52.47 PM.png]]
+	- Two Phase locking Evaluated
+		- Description
+			- Terrible performance because of frequent deadlocks. The database must detect when transactions are having a deadlock, and abort one of them, let the other finish, and then retry the aborted one.
+		- Two phase locking's performance is bad because of the fact we end up using so many locks, we slow down a bunch of unrelated transactions that may not have actually caused a concurrency bug. 
+			- Additionally, we often have two phase locking leading to [[deadlocks]] and the database has to detect when there is a deadlock, abort one of the transactions involved, and then let the other complete
+		- What's a [[deadlocks|deadlock]]?
+			- It just means when two processes are waiting for the resources of one another. As a result, neither can go forward 
+		- Example
+			- Transaction one (T1) is going to read Jordan_attractiveness, get the value of that, and then increment it by 1. It will grab the shared lock to read and then finally transaction two will come in (and also try to read Jordan_attractiveness and increment it.) So if you're familiar with [[concurrent programming]], you know that this could potentially be an issue in the sense that they would both read Jordan_attractiveness, both see that it's 8, both add 1 to it, and the final value would be 9 as opposed to 10 (which is what it's supposed to be)
+				- After T2 comes along, it's going to read the shared lock or it's going to grab the shared lock. Both of these transactions see that he value of Jordan_attractiveness is 8 which is bad
+				- Deadlock! Both transactions want the exclusive lock but neither can get it because multiple transactions are holding the shared lock.
+				- The database will now need to abort one of these transactions
+					- Let's say it aborts transaction 2. T1 will then be able to upgrade from the shared lock to the exclusive lock and then increment attractiveness by 1. Now T2 can come back and be retried and do the same thing where it grabs the shared lock, upgrades itself to the exclusive lock to take a write, and now the value is 10
+	- [[Serializable Snapshot Isolation]] (3rd possible option to implement isolation)
+		- Description
+			- Idea: Let everything run concurrently as if there was no locking, and only revert a transaction if a concurrency bug has been detected
+			- All reads occur from a [[snapshot]] of the database: (will be looking for two things)
+				- If an uncommitted write occurred before the read, need to check if that write has since been committed by the time we want to make our write (abort if so)
+					- This is when we have another transaction that is going to write to this object but hasn't yet done so. In the event that when our transaction which is just read is going to write that object, we have to check if that uncommitted write has been committed. If so, we need to abort it. It's also possible the uncommitted write might end up being aborted which is why we don't just abort our read right away by virtue of there being an uncommitted write. 
+				- Keep track of which transactions have read an item, and if another transaction writes to said item, abort all of the transactions that read it.
+					- Additionally, let's say we read an item with transaction 1 and in the meantime, right after we do that read, transaction 2 both has an uncommitted write and then it commits. We can actually keep track of all the transactions that have read a given item. As a result, the second that a write changes that item, we go ahead and abort all the transactions that have read it. 
+		- Idea is that we let all of the threads run concurrently like normal. Only revert a transaction if there was a concurrency bug that's been detected.
+	- Serializable Snapshot Isolation Evaluated
+		- Pros:
+			- If not many concurrency issues on the dataset, far faster than 2 phase locking, as it just allows the threads to run uninhibited by locks
+			- Evaluating the performance of this. It's actually really good and promising. It's a relatively new algorithm so it's not implemented as heavily in database systems but it may start being implemented more so.
+			- Great thing about this is since in many applications there aren't tons of concurrency issues on the data set, it's far faster than two-phase locking which is very pessimistic and goes ahead and tries to lock everything possible to make sure nothing bad can go wrong.
+		- Cons:
+			- If many transactions are resulting in concurrency bugs, there will be many retries, and as a result 2 phase locking may be better.
+			- Unfortunately, if there are a ton of concurrency bugs, we're going to be reverting a ton of transactions in SSI and as a result of that, all of these reverts are going to make this very slow and perhaps we'd be better off with two-phase locking
+- ![[Screenshot 2024-09-23 at 4.00.44 PM.png]]
+	- Transactions Conclusion
+		- Transactions are a potentially very useful abstraction of multiple operations that needed to be bundled together in a database. They either all succeed, or all fail (with no side effects). However, they come at a great performance cost, and as a result many databases have chosen to implement weaker forms of isolation, which we will discuss in the next video.
+		- Makes using a database very easy to reason about
+		- Main objective of these videos is to build a highly scalable application and often times transactions don't scale well. They are very non-performant as a result of having to actually implement all of this isolation and as a result of that, many databases have instead chosen to use weaker isolation guarantees.
+	- Isolation implementations conclusion
+		- [[Actual Serial Execution]]:
+			- Very simple to implement and does not require any locks or reverting
+			- Throughput limited to single thread, have to keep data in memory, stored procedures
+				- Throughput limited to one CPU core. Have to keep all data in memory which is not good if there is a ton of it because memory is more expensive.
+				- We also have to use stored procedures which are annoying.
+		- [[Two Phase Locking]]: 2PL
+			- Implementation used in most database, for a long time actual serial execution was not possible
+				- Seems like it's on its way out because of SSI
+			- Poor performance due to unnecessary locking (not all transactions that touch the same objects result in concurrency bugs) and frequent deadlocks
+			- 2PL is basically a pessimistic concurrency control and as a result of that, there's tons of unnecessary locking and tons of deadlocks which need to be resolved
+		- [[Serializable Snapshot Isolation]]
+			- Optimistic concurrency control leads to better performance than 2 phase locking in situations where concurrency bugs are infrequent, otherwise have to revert too many transactions
+			- More optimistic and only reverts transactions once they've actually led to a concurrency bug. As a result of that, in most applications where there aren't tons of concurrency bugs but they're more of an edge case or afterthought, SSI works better.

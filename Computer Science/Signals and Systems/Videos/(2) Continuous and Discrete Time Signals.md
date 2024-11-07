@@ -1,0 +1,78 @@
+[Video](https://youtube.com/watch?v=H4hk6N5vC1Q)
+
+- Types of Time Signals (CTS)
+	- Continuous Time Signals
+		- Specified for every value of time(t)
+		- represented by x(t)
+			- x is the dependent variable
+			- t is the independent variable
+			- Must be a small x and t
+		- signal x(t) is a single variable signal because we only have 1 variable, time t.
+		- Example
+			- ![[Screenshot 2022-12-21 at 8.57.28 PM.png]]
+				- Y axis is always for function or signal
+					- x(t)
+				- X axis is for independent variable
+					- time t
+					- Also put "-t" on left side
+				- We have a signal which has
+					- amplitude = a when time = $t_0$ 
+					- and the signal starts to decline to the left.
+						- Practically, the signal is inclining with time, because you can't reverse the time
+					- It declines on the other side of the y axis as well to the right. After it declines, it remains 0 until infinity.
+						- And to the left when it reaches the x axis, it remains 0 until -$\infty$ to the left
+				- We call it a continuous time signal because you can see the signal is defined or specified for every value of time (t). All from $-\infty$ to $+\infty$ 
+	- Discrete Time Signals (DTS)
+		- Specified at discrete time intervals
+			-  Can be said as discrete values of time
+		- Representation
+			- $x[n]$ 
+				- It must be enclosed in square brackets
+				- Must be a small x and n
+				- n is not time but is an integer
+				- dependent variable is "x" and independent variable is "n"
+				- ![[Screenshot 2022-12-21 at 9.20.06 PM.png]]
+					- The existence of the "n" integer, we can see that the x axis is for time but how does the n integer become the independent variable?
+						- In the case of a uniformly sampled signal
+							- Let's say $\vartriangle t = T$ causes
+								- $t_1 - t_0 = T = t_2 - t_1 = t_n - t_{n-1}$ 
+							- If we make $t_0$ = 0, then $t_1$ = T
+								- so T - 0 = T
+							- Therefore, $t_2 = 2T, t_3 = 3T, t_n = nT$ 
+							- When we have t is the independent variable, we can't write $x[n]$ 
+								- We need to write $x[nT]$ 
+							- We then cancel out the T so 
+								- $t_0 = 0, t_1 = T, t_2 = 2T, t_3 = 3T, t_n = nT$ 
+								- becomes
+								- $t_0 = 0, t_1 = 1, t_2 = 2, t_3 = 3, t_n = n$ 
+							- Then the axis of the graph becomes integer n which gives us back $x[n]$ 
+							- So the y axis is for $x[n]$ and the x axis is for n which gives us the integer values of 0, 1, 2, 3 and so on. That's why we have an integer in the case of the discrete time signal
+		- Example
+			- ![[Screenshot 2022-12-21 at 9.04.54 PM.png]]
+			- ![[Screenshot 2022-12-21 at 9.05.07 PM.png]]
+				- Let's say signal x(t) is specified at t(0) = a
+				- It's specified at
+					- $t_1, t_2, t_3$ all the way to $t_n$ 
+					- $t_{-1}, t_{-2}, t_{-3}$ all the way to $t_{-n}$ 
+				- The signal is not specified at every value of time (t)
+				- If you want to find signal x(t) between $t_1$ and $t_0$, you cannot find it because it's not defined 
+				- The value of $t_{-1}$ on the 2nd graph is 0 meaning the signal equals 0.
+				- Above is the plot for discrete time signals
+				- The time interval ($\vartriangle t$) 
+					- Time intervals do not necessarily mean they'll be the same
+					- If the time interval is the same
+						- ![[Screenshot 2022-12-21 at 9.11.02 PM.png]]
+						- Then the discrete time signal is uniformly sampled
+							- This is when the time interval is the same 
+					- When the time interval is not the same
+						- The signal is non-uniformly sampled
+		- Example 2
+			- ![[Screenshot 2022-12-21 at 9.27.16 PM.png]]
+				- The plot of discrete time signal is given. This is one more way to present discrete time signals
+					- $x\{n\} = \{1,0,1,2,2,1\}$ (wrong)
+						- They are all the values of signal $x[n]$ but there is no information about integer n
+						- This information is incomplete because we don't have any information about the independent variable "n"
+						- We don't know at what "n" is the amplitude of the signal
+						- To solve this, we use an arrow to show that the amplitude we're pointing at is the value of $x[n]$ when n=0 
+							- $x\{n\} = \{1,0,\underset{\uparrow}1,2,2,1\}$ (wrong)
+					- The values that come inside the 2nd set of curly braces will be the amplitude. We start from the leftmost and move to the rightmost for amplitudes.

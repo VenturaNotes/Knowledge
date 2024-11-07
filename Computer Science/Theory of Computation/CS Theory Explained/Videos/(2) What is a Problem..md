@@ -1,0 +1,53 @@
+[Video](https://www.youtube.com/watch?v=y9v_q6bBL7k)
+
+- ![[Screenshot 2023-12-19 at 2.13.42 PM.png]]
+	- [[Computational complexity]] is a formal area of computer science rooted in vigorous mathematical reasoning
+	- What is a [[computational problem]]? Definition (problem)
+		- A [[problem]] is a function $f : \{0, 1\}^* \to \{0, 1\}^*$ whose input and output are bit strings of finite length
+			- A function that maps finite length bit strings to finite length bit strings
+			- Input and output are encoded as bit strings
+			- Input x $\to$ correct output f(x)
+			- We can represent discrete objects of finite size as bit strings
+				- Like integer numbers, rational numbers, vectors, graphs, etc.
+				- (need to use suitable encodings)
+	- Encoding integers in a [[binary encoding scheme]]
+		- Could encode 34 as 0100010
+	- Sometimes might want to distinguish between object (graph, vector integer) and the encoding of that object
+		- For example, x could represent the object and $\underline {x}$ could represent the bit encoding of the object
+			- This would be an agreed encoding
+			- A lot of times, we don't want to be so careful between the distinctions. Could just say x is the object and x is the encoding of object
+		- May want to look at pairs of objects
+			- $<x, y>$ encoded as single bit string "x # y"
+		- Separator symbol could also be 01
+	- Definition ([[decision problem]])
+		- A decision problem is a function $f : \{0, 1\}^* \to \{0,1\}$ whose output is just a single bit
+			- Some inputs have yes as correct answer. Other inputs have no as correct answer
+		- Example of a [[problem]]: Given x, compute and output $x^2$
+			- We need a number as an output (entire bit string)
+		- Example of a [[decision problem]]: Given [[graph]] G, does G have a [[Hamiltonian cycle]]
+			- Only asking a yes or no question (single bit required as output)
+		- A lot of the time, it is sufficient to consider decision problems
+		- Can view decision problems as sets
+			- Group together in a set all of the inputs where the correct answer is yes
+				- Everything not in set has correct answer of no
+			- Two perspectives on decision problems
+				- $f: \{0, 1\}^* \to \{0, 1\}$ 
+				- $L_f = \{x \in \{0, 1\}^* | f(x) = 1\}$ 
+					- This set is called a [[language]]
+					- Can think of this set as a giant dictionary which contains all the words of a language
+						- Interested in checking for some given word (to see if it's contained in the language)
+					- $x \in L_f \to x$ is a word in the language
+					- If x is a word in the language $\to$ Correct output is "yes"
+					- If x is not a word in the language $\to$ Correct output is "no"
+		- When talking about decision problems, switch back and forth between function representations and set representations.
+			- Functions map to 0, 1
+			- Set of words (bit strings)
+		- There is no conceptual difference between those two things
+			- Language is exactly the same thing as a decision problem
+				- Just a different representation
+		- Example
+			- Decide whether integer is even
+				- Function representation
+					- $f(x) = \begin{cases} 1 & \text {if x mod 2 = 0} \\ 3& \text{otherwise} \end{cases}$ 
+				- Set representation
+					- $L_f = \{\underline {x} | x \in \mathbb{N}, x \text{ mod } 2 = 0\}$ 

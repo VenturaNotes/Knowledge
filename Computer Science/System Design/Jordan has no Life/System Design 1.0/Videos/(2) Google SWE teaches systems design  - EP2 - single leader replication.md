@@ -1,0 +1,146 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=X687PvgOWzQ
+---
+- ![[Screenshot 2024-09-15 at 4.53.54 AM.png]]
+	- Comparing [[SQL]] and [[NoSQL]] is a bad idea
+		- There are now eight to ten very different popular variants of [[transactions databases]] each with their own benefits and drawbacks
+			- They're described in terms of the type of [[replication]] they use, the type of [[partitioning]] they use, type of [[database engine]] they use like [[LSTM trees]] or [[b-trees]] as discussed in the last video
+	- Will move onto [[sharding]] later
+	- Will start with [[single leader replication]] for today
+	- What is [[replication]]?
+		- Description
+			- Having redundant copies of database so that application does not fail in the event of a crash, reduce load on each database serving requests
+		- Replication is when you have a bunch of redundant copies of a database so that in the event that one copy fails, your application doesn't completely stop working. In addition, it reduces the load on each database serving request
+	- Types of replication
+		- [[Single leader]]
+		- [[Multi leader]]
+		- [[Leaderless]]
+	- [[Single Leader Replication]] Overview
+		- Description
+			- All writes to one master database
+			- Master database sends list of writes to other databases via [[replication log]]
+			- Reads can come from any database
+		- Looks like we have a [[web server]], Master, slave 1 and slave 2
+		- All writes go to one leader database and the leader can send a list of writes to other databases via something called a replication log. The reads can also come from any database
+	- Increasing availability
+		- Description
+			- Adding a follower
+			- On follower crash
+			- On leader crash
+		- There are 3 ways to increase availability. All of them will be addressed and the procedures needed to take
+- ![[Screenshot 2024-09-17 at 2.29.06 AM.png]]
+	- Adding a follower
+		- Description
+			- Step 1: Initialize the follower using a consistent snapshot of the leader database, which is associated with some position in the replication log
+			- Step 2: The follower can now begin accepting changes from the leader
+		- Let's say we want to add a new [[follower database]]. What we do is take a consistent [[snapshot]]  of the [[leader database]] which means we look at the leader database at a certain point in time and copy the contents of it. That snapshot is associated with a point in the replication log and as a result of that once we copy over that snapshot to a new [[node]], we can go from that point in the replication log and start making the changes from there
+	- Dealing with a [[follower crash]]
+		- Description
+			- At the time of crash, the follower knows where it was up to in the replication log
+			- Step 1: On reboot, fetch all of the new changes from leader node
+			- Step 2: Start implementing the changes in the replication log from the index at which the follower node had previously failed
+		- At the time of the crash, since all of these nodes are using [[durable storage]] via the use of a [[hard drive]], we know where in the replication log that the thing actually crashed. As a result, once it comes back up, you can just fetch the new changes and start implementing them from the place where the node crashed
+	- Dealing with a [[leader crash]] (failover)
+		- Description
+			- Step 1: Determine a new leader via some source of consensus (perhaps the most up to date replica)
+			- Step 2: Configure all clients to send writes to new leader
+			- Step 3: Configure all other followers to get changes from new leader
+		- A leader crash is known as a failover. Failover is when you have to determine a new leader via a source of consensus. Consensus means that all of the nodes have to actually be able to agree on something
+			- One way of doing this is to take the most up to date replica in terms of where it was in the replication log and then step two would be all of the clients would need to send writes to the new leader and all of the follower nodes have to pull a replication log from the new leader. However, there are a few problems with this as discussed in the next section
+	- Problems with failover
+		- Description
+			- Some writes from the previous leader may have been propagated by only some or no replicas
+				- Leads to either lost data or inconsistent replicas
+			- Accidental failovers due to [[network congestion]] can hurt our database performance even more
+			- If the old leader comes back, need to ensure that it does not think it is the leader and continue to accept writes (split brain)
+		- Let's say our old leader crashes. There will be some changes from the old leader that inherently don't actually get replicated to the follower nodes. This means those changes are going to get lost and you're kind of screwed there. 
+		- Sometimes you may accidentally failover because all of the nodes think that the leader node is down when in reality there may just be a network congestion and those changes are taking longer to [[propagate]] than you think
+			- In that event, you've just created more of a burden on the network by doing failover and having to reconfigure all of these things which is pretty problematic
+		- Finally if the old leader comes back, we need to ensure that it doesn't still think it's the leader. This is known as [[split brain]]. If it does, it might start accepting writes and then it would lead to all of our database replicas being inconsistent which is a big problem
+- ![[Screenshot 2024-09-17 at 3.26.54 AM.png]]
+	- Types of [[Single Leader Replication]]
+		- [[Synchronous Replication]]
+			- Client does not receive success message until all replicas complete the write
+				- "until the write is propagates to all the replicas"
+			- [[Strong consistency]]
+		- [[Asynchronous Replication]]
+			- Client receives success message the second that master completes the write
+				- When the write first goes to the master database, the client receives that the write was successful and then in the background, all of them are propagated to the replicas
+			- [[Eventual consistency]]
+	- Tradeoffs of consistency types
+		- [[Strong consistency]]
+			- Data always up to date, but writes take much longer
+				- So will never make stale reads
+			- However, the writes basically take forever because they potentially have to go all the way across the globe and that means waiting for all of the network transport which is bad
+		- [[Eventual consistency]]
+			- Writes much faster, but clients can make stale reads to a replica
+				- #question what does "stale reads" mean?
+			- You might make some stale or incorrect reads
+	- Dealing with [[eventual consistency]] (these are the 3 main problems. However, most applications are eventually consistent. It's probably fine for the user but these three things stand out as being cases you probably have to deal with)
+		- Reading your own writes
+			- Don't see write after just making it
+			- Example
+				- Say you're on Facebook and updating your profile that you changed your name. If you read from a replica, it will still show your old name
+		- [[Monotonic reads]]
+			- Reads look like they are going back in time
+			- Fix by having each user read from the same replica
+			- Example
+				- Lets say there are 3 writes and then you read from a replica and that replica only has 2 of the writes. Then you read from another replica and it only has one of the writes.
+				- It looks like things are getting undone even when they're not
+				- To fix that, you'd just have each user read from the same replica
+		- Consistent prefix reads
+			- Causal relationship between writes lost because preceding write takes longer to replicate (due to being on different partitions)
+				- A causal relationship between two writes means that the second write only makes sense after the first one happens.
+				- This happens because the writes are on different [[Partition|Partitions]]
+					- This means that the database is split up in a way such that one write from one partition is going to be replicated sooner than one write from the other partition and that's a race condition. As a result, you only see the effect of the causal write. You don't actually see the causal write itself
+						- #question what is race condition
+			- Put causally related events on same partition or if not possible keep track of causal dependencies which means for this write, give an id for a previous write that may have caused it
+	- Reading your own writes
+		- Problem: You may write a change, read from a replica, and then not see the change
+		- Solutions:
+			- Always read from leader for editable areas of application
+				- such as social media profile, you could have all reads coming from leader (which can be inefficient)
+			- Always read from the leader or up to date replica for some period after a client write
+				- To change that or reduce load on leader, only read from leader after x seconds from a write (maybe 30 seconds)
+- ![[Screenshot 2024-09-17 at 3.40.11 AM.png]]
+	- Monotonic Reads
+		- Description
+			- 1:05 - Kate Upton to Jordan: "What's up"
+			- 1:10 - Jordan to Kate Upton: "Not much playing video games"
+			- 1:15 - Kate Upton to Jordan: "Wanna come over?"
+		- Issues
+			- Readings from replica 1 shows all three messages
+			- Readings from replica 2 shows two oldest messages
+			- Readings from replica 3 shows only oldest message
+		- To deal with this, we have each user reading from the same replica every single time. You can do this by hashing the user ID and mapping that to a given replica
+	- [[Consistent Prefix Reads]]
+		- Description
+			- REPLICA 1
+			- 6:22 - (Person A) Oh not the Knicks blew another game
+			- 6:25 - (Person B) Screw Me!!
+		- We have this version of the chat which is replica 1. We can see that causally person A has said something that has caused person B to respond. But say those two messages are stored on different partitions. Now replica 2 is going to actually fetch those messages. Then person C, looking at replica 2 is only going to see that person B responded but not seeing the thing causing them to respond. So person C misinterprets the context and says something indicating a proper response
+		- To fix consistent prefix reads, we can get all of the messages for this given chat on the same partition. Or we can say for each messages, you can give it some sort of timestamp so we know to fetch all the previous ones and make sure we've got all the causal dependencies
+	- Replication Log Implementation Options (up until this point, we've treated replication log as a black box where it just says all the changes. Truth of the matter is we have to actually think how this will be implemented as there are tradeoffs here.)
+		- Copy over SQL statements (used to actually write to database)
+			- Bad because SQL statements are [[nondeterministic]] (for example current time)
+				- This means if we were to run them on each replica, you would get different results and that would lead to inconsistent replicas. An example of that is getting the current time.
+		- Use internal write ahead log
+			- Not scalable if changing database engine, says which bytes were changed, other database may have different data in different locations on disk
+			- The internal write-ahead log which basically says for this group of bytes, make this change here
+				- Not ideal because if we went from MySQL to Postgres, the issue there is that if certain rows are stored on different parts of the disk, those bytes will no longer make sense. It provides less flexibility in the future to potentially change your database implementation
+		- Use logical log
+			- Describes which rows were modified and how, allows for more future proofing if the underlying database engine changes in the future.
+			- For this row, make this change and would use the actual primary key. More verbose than what we're actually doing but allows you to do more future proofed so that you could switch database engines without having an issue (and not having an issue to continue doing replication)
+- ![[Screenshot 2024-09-17 at 3.47.12 AM.png]]
+	- Conclusion - Single Leader Replication
+		- Pros:
+			- All writes go through one machine which ensures consistency across replicas
+				- Simplifies dealing with conflicts. If you had multiple leaders, you could write two different things about the same row and then you would somehow need to resolve that conflict which is difficult to deal with.
+				- Since we know all our writes are going to one place, I know the database will be resolving conflicts on its own or there is at least one single source of true
+		- Cons:
+			- Since all writes have to go through one machine write [[throughput]] may not be acceptable
+				- Either need to partition the dataset and have a single leader per partition, or look towards other replication strategies
+					- For first solution, you could partition the dataset. You could split each table into parts and use some sort of hashing function to split it up. Then each partition would have a single leader
+					- You could also just use a different replication strategy such as multi leader or leaderless replication (which in and of itself has more trade-offs which will be discussed in subsequent videos)
+	- Creator's opinion in teaching this topic: Choosing a database without understanding all of these topics is ridiculous because the fundamental reasons that databases are better than others for certain tasks is because they use different types of replication schemes, different types of partitioning, different types of ways of actually storing the data or schemas. Important to understand these things before making deterministic statements about how we should use x database for x use case.

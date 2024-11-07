@@ -1,0 +1,63 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLjTveVh7FakKjb4UYzUazqBNNF-WGurXp
+Length: 10 hours, 7 minutes, 26 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+Year: 2022-10-20
+---
+- Complete
+	- [[(1) Google SWE teaches systems design  - EP1 - Database Design]]
+	- [[(2) Google SWE teaches systems design  - EP2 - single leader replication]]
+	- [[(3) Google SWE teaches systems design  - EP3 - Multileader replication]]
+	- [[(4) Google SWE teaches systems design  - EP4 - Leaderless Replication]]
+	- [[(5) Google SWE teaches systems design  - EP5 - Database sharding and partitioning]]
+	- [[(6) Google SWE teaches systems design  - EP6 - ACID Transactions]]
+	- [[(7) Google SWE teaches systems design  - EP7 - Weak forms of isolation]]
+	- [[(8) Google SWE teaches systems design  - EP8 - SQL and its Pitfalls]]
+	- [[(9) Google SWE teaches systems design  - EP9 - Data warehousing]]
+	- [[(10) Google SWE teaches systems design  - EP10 - Unreliable clocks]]
+	- [[(11) Google SWE teaches systems design  - EP11 - Fencing Tokens]]
+	- [[(12) Google SWE teaches systems design  - EP12 - Linearizability and Ordering]]
+	- [[(13) Google SWE teaches systems design  - EP13 - Two Phase Commit]]
+	- [[(14) Google SWE teaches systems design  - EP14 - Raft in 15 minutes]]
+	- [[(15) Google SWE teaches systems design  - EP15 - Batch Processing]]
+	- [[(16) Google SWE teaches systems design  - EP16 - Stream Processing]]
+	- [[(17) Google SWE teaches systems design  - EP17 - Consistent Hashing]]
+	- [[(18) Google SWE teaches systems design  - EP18 - Gossip Protocol]]
+	- [[(19) Google SWE teaches systems design  - EP19 - Cassandra Deep Dive]]
+	- [[(20) Google SWE teaches systems design  - EP20 - Coordination Services]]
+	- [[(21) Google SWE teaches systems design  - EP21 - Hadoop File System Design]]
+	- [[(22) Google SWE teaches systems design  - EP22 - HBase and BigTable Deep Dive]]
+	-  [[(23) Google SWE teaches systems design  - EP23 - Conflict-Free Replicated Data Types]]
+	- [[(24) Google SWE teaches systems design  - EP24 - Riak Explained]]
+	- [[(25) Google SWE teaches systems design  - EP25 - Distributed Caching Primer]]
+	- [[(26) Google SWE teaches systems design  - EP26 - Redis and Memcached Explained (While Drunk.)]]
+- Incomplete
+	- [[(27) Google SWE teaches systems design  - EP27 - Search Indexes]]
+	- [[(28) Google SWE teaches systems design  - EP28 - Time Series Databases]]
+	- [[(29) Google SWE teaches systems design  - EP29 - Geospatial Indexes]]
+	- [[(30) Google SWE teaches systems design  - EP30 - Chain Replication]]
+	- [[(31) Google SWE teaches systems design  - EP31 - Content Delivery Networks (CDNs)]]
+	- [[(32) Google SWE teaches systems design  - EP32 - Google Spanner]]
+	- [[(33) Google SWE teaches systems design  - EP33 - Load Balancing]]
+	- [[(34) Google SWE teaches systems design  - EP34 - Amazon Aurora]]
+	- [[(35) Google SWE teaches systems design  - EP35 - MongoDB]]
+	- [[(36) Google SWE teaches systems design  - EP36 - VoltDB]]
+	- [[(37) Google SWE teaches systems design  - EP37 - Monoliths vs. Microservices]]
+
+	- [[(38) Google SWE teaches systems design  - EP38 - WebSockets, Long Polling, Server Sent Events]]
+	- [[(39) Google SWE teaches systems design  - EP39 - Apache Spark]]
+	- [[(40) Google SWE teaches systems design  - EP40 - Flink in 15 Minutes, Stateful Stream Processing!]]
+	- [[(41) Google SWE teaches systems design  - EP41 - Bloom Filters for set approximation]]
+	- [[(42) Google SWE teaches systems design  - EP42 - Merkle Trees]]
+	- [[(43) Google SWE teaches systems design  - EP43 - Data Serialization (Protocol Buffers, Thrift, Avro)]]
+	- [[(44) Google SWE teaches systems design  - EP44 - Apache Parquet]]
+	- [[(45) Google SWE teaches systems design  - EP45 - TCP versus UDP]]
+	- [[(46) Google SWE teaches systems design  - EP46 - Certificate Transparency (SSL and TLS)]]
+	- [[(47) Google SWE teaches systems design  - EP47 - Collaborative Text Editing (operational transform v. CRDT)]]
+	- [[(48) Google SWE teaches systems design  - EP48 - Bitcoin]]
+	- [[(49) Google SWE teaches systems design  - EP49 - Neo4j (Graph Databases)]]
+	- [[(50) Google SWE teaches systems design  - EP50 - Approaching Interview Questions]]
+	- [[(51) Choosing a Database for Systems Design - All you need to know in one video]]

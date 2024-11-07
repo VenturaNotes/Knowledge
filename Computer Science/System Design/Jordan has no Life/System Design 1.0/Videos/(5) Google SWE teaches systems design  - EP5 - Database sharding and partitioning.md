@@ -1,0 +1,167 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=IM6urSjtMrQ
+---
+- ![[Screenshot 2024-09-21 at 4.34.30 AM.png]]
+	- Believes that anyone who does day in the life of a Google software engineer is a massive tool
+		- Those people don't show how they're not making progress on their [[sprint]] by spending 3 days on a software bug
+	- Today we will cover [[partitioning]] or [[database sharding]] (whichever you want to call it)
+	- Then will go into [[transactions]] and the challenges that arise with those
+	- Will then finally do a database comparison
+	- [[Partitioning]] (aka, data sharding)
+	- What is partitioning?
+		- In large systems, we are dealing with tons of data, and as a result tables may become too big/perform too many queries for one single machine.
+			- Tables can become too big that they may not even fit on a single system anymore
+		- Partitioning is splitting this table up into many chunks to go on various database nodes
+			- Partitioning is taking a database table and breaking it up into chunks so that each chunk can be placed on different nodes
+		- Partitioning is often used in conjunction with replication
+			- Meaning that each partition might have a bunch of replicas of that partition
+	- Objectives of partitioning
+		- On each node we want:
+			- A relatively similar amount of data
+				- Meaning similar amount of keys and value
+			- A relatively similar amount of reads/and writes to the data
+				- Similar amount of queries
+				- Don't want one partition with a ton of queries
+				- For example
+					- On Instagram, the amount of users might be the same on each partition but one of them might be verified and as a result of that, there's a ton of data to store there and a ton of queries on their account that have to be read
+		- If we are unable to achieve this, certain nodes will be overloaded relative to others, known as [[hot spots]]
+			- If we can't achieve this and one partition has either a ton of data or a ton of load on it, this is known as a hot spot
+	- Methodologies for partitioning
+		- By ranges of keys
+		- By ranges of the hash keys
+			- Note: do not take a hash of the key and then do a modulo with the number of nodes, as this will cause the location of every key to change if a partition node is added or removed
+			- Don't take the hash of the key and then modulo the number of servers you have that are serving partitions because that would mean that if you added another server that you would use to store partitions, everything on the original  servers would have to get re-replaced to different nodes in the cluster and that would be very bad. We want to keep everything in a pretty consistent server
+	- Key Range Partitioning
+		- Description
+			- Not necessarily even ranges, of keys, some ranges may be hotter
+			- Keep keys sorted within a partition to best support range queries
+			- Pros:
+				- Simple and allows for effective range queries
+			- Cons:
+				- Have to actually determine the ranges to make sure they are relatively even in data and load (can be done manually or by database)
+				- Can easily lead to hotspots (if for example partitioning by range of timestamps)
+					- It's difficult to look at a range of keys and to know the exact query patterns and balances that are going to happen in each range. Even though some bigger databases dynamically do this, we'll see in a few slides that this can be problematic too
+		- Key range partitioning just means we'll take a bunch of keys, divide them into ranges and assign a partition to each range
+			- Each range is not necessarily even. We don't want hot spots and say there are certain letters or keys that there are a lot more rows corresponding to that range. Then we want to be able to split that one into even smaller chunks
+			- Generally within each partition, we are keeping the keys sorted to best support range queries
+- ![[Screenshot 2024-09-21 at 4.45.57 AM.png]]
+	- [[Hash Range Partitioning]]
+		- Take a hash of the key, and put it into the proper partition
+		- Below we see we have three databases. The first one has all keys with a hash up to `f22476`. Second database has hashes from `f22476` to `r91mbb`. The last database has everything else.
+		- Let's say we want to take the key Jordan, hash that, and put it into a proper database. Will pass it through a hash function, get the result of that and you can see that it will go to database 2 because that's the range it belongs in
+	- Hash Range Partitioning Tradeoffs
+		- Pros:
+			- Keys are evenly distributed between nodes (assuming good hash function)
+				- Pretty easy to use if you use something like [[SHA]]
+		- Cons:
+			- No more [[range query|range queries]] on the partition key, have to check every partition
+				- If two keys that are next to each other alphabetically are both hashing to different values, there is no guarantee that they're going to be on the same partition. As a result, a range query may touch every single partition which would be inefficient
+			- If a key has a lot of activity, will still lead to hot spots.
+				- Even though the keys may be evenly distributed, if constantly updating or writing to a given key, then it is going to be problematic. To mitigate this, take the popular key, add a random number to it (between 1 and 20), then you hash the key plus that random number so that one twentieth of the load on the key is distributed. Disadvantage is that every time you make a query, you have to search all twenty of those key + random number values and aggregate that data.
+	- Indexes in a partitioned database configuration
+		- Recall: An [[index]] is additional metadata that shows memory addresses of rows corresponding to certain field values in the row
+			- An index is basically saying here is some metadata where we have a value for a field or column and then all of the primary keys that correspond to it. A secondary index is the same thing.
+		- Secondary index
+			- Position: point guard - \[10, 14, 21, 37]
+			- Position: center - \[1, 8, 12, 19]
+			- Position: power forward - \[5, 11]
+			- Position: small forward - \[6, 7, 13, 22]
+			- Position: shooting guard - \[3, 15, 16]
+		- Let's say we have a database of basketball players. We have a secondary index on the position column
+			- As we can see for each position, we have a list of all the primary keys corresponding to that position
+	- Secondary Index Options (in partition data sets)
+		- Description
+			- [[Local Indexes]]
+			- [[Global Indexes]]
+		- They both have tradeoffs to them
+- ![[Screenshot 2024-09-21 at 5.00.39 AM.png]]
+	- Local Indexes
+		- Idea: Hold a secondary index that only holds rows from the partition the index is located on
+		- The whole point is to hold a [[secondary index]] that only encapsulates the data on that specific partition. If you look at the two tables, we have two different partitions. Each of them is holding 3 basketball players and I have a secondary index on position again
+			- You can see the secondary index corresponding to the first partition or the top one only encapsulates that data. It only has Michael Jordan, Lebron James, and Kobe Bryant in it. Additionally for the second partition, it only has Chris Middleton, Chris Paul, and Dwight Howard in that secondary index. What are the tradeoffs of the local index?
+	- Local Index Tradeoffs
+		- Pros:
+			- Fast on write because all data that is being kept track of is being stored locally on the partition
+				- Fast for writing because it means that writes are all being kept within the partition. The secondary index is only looking at values that are actually stored on that partition and don't have to look at values stored on other partitions.
+		- Cons:
+			- Slow on read because if using a secondary index, have to query every partition to accumulate the index results
+				- Local indexes are slow on read. If we want to use secondary index to perform a fast read query, we have to check every single partition and aggregate the results of their local secondary index
+	- Global Indexes
+		- Idea: Partition the secondary index, the index can contain references to data on any partition
+		- We are partitioning the secondary index itself amongst the partitions in perhaps a different or random way than the actual partitions are split up
+			- On the first partition, only holding the point guard and center parts of the secondary index. Even though Chris Paul and Dwight Howard aren't on the top partition, they're being held in the secondary index for it
+			- Similarly, if we look at the secondary partition we see that the power forward, small forward, and shooting guard parts of the secondary index are held there. Even as a result of that, Lebron James in the top partition is still being kept track of in that secondary index. So are Kobe Bryant and Michael Jordan
+	- Global Index Tradeoffs
+		- Pros:
+			- Fast on read because all data for that index is being kept on one partition node
+				- It's fast on read because if we want to find all "small forwards", we can literally go and actually check that secondary index and it'll give me the row and ids of everything. 
+		- Cons:
+			- Slow on write because need to write to multiple partitions to update all of the various secondary indexes
+				- Slow on write because every single write has to go to multiple partitions
+			- Many require a [[distributed transaction]] (image the case one write succeeds and the other fails)
+				- A potentially bigger issue is the fact that let's say one of my writes succeeds, the write to the partitions succeeds, but then the write to the secondary index fails.
+				- We may need some sort of consensus mechanism or transaction that allows either both of them to succeed or both of them to fail.   
+- ![[Screenshot 2024-09-23 at 2.06.46 PM.png]]
+	- Rebalancing [[Partition|Partitions]]
+		- Description
+			- If a node is added or removed, the goal is to keep the majority of the keys in the same place, and only move a few from each node so that we do not use a ton of [[bandwidth]] remapping every key (recall to use hash ranges instead of modulo)
+		- Talked before how we might split data and keep up indexes for data. Eventually, we'll be adding nodes to the system and we're going to want to rebalance the data so that it best suits all of the nodes in the pool.
+			- When rebalancing partitions, we want to remap the minimum amount of keys possible so that we avoid [[hot spots]]
+			- Don't want to remap everything because that would put a ton of [[congestion]] on the network
+	- Fixed Number of Partitions
+		- In this system, we have 20 partitions no matter how many nodes there are
+		- Let's say we start with 4 nodes in cluster. Will have number of partitions much greater than that where each node holds a few partitions at a time
+			- Let's say each node is holding 5 partitions (delineated by different color in example)
+		- What do we do if we add a 5th node?
+			- Take all of the white chunks from each server and pass them to the new server!
+			- Take the white chunk from each existing partition and put those together to fill up the 5th node.
+				- During the time these partitions are being copied over to the new node, the old node is still accepting reads and writes for them and when the copy is done, the new partition is taking them on.
+		- A similar thing would happen if we were to remove a node
+			- If we went from four to three nodes, the node being removed would go ahead and donate some partitions to existing nodes
+	- Fixed Number of Partitions - Considerations
+		- Choose a number of partitions that is reasonable:
+			- If too low, each partition will get too big and we will not be able to scale the application further (additionally transferring the partition to another node will take a super long time)
+				- You'd have huge partitions that no longer even fit on a single database node anymore
+			- If too high, there will be a lot of overhead on disk devoted to each partition
+				- Will take a long time to transfer over the network to another node if we added one to our pool
+				- If too high, there will be overhead on disk for each partition that we store just by virtue of saying here's the range of things in here and additionally there's going to be overhead in keeping track of where each partition is located
+					- As a result of that, having too many partitions will also slow down the system
+		- If your dataset is going to vary significantly in the future, maybe this isn't for you.
+			- If your starting out from a really small app, but you know your app is going to grow a ton in the future, a fixed number of partitions will probably not be the best solution simply by virtue of the fact that it will be really hard to predict one number
+	- [[Dynamic Partitioning]]
+		- Description
+			- Certain databases will adjust partition ranges dynamically so that they can reduce hot spots as the data access patterns change over time:
+				- Once a partition becomes too big, it is split into two pieces and one is assigned to another node
+				- Sometimes dynamic partitioning is not good because if the database incorrectly assumes a node is down, when there is actually just a slow network, it will repartition leading to more strain on the network.
+		- Certain databases will create extra partitions for you once a given partition exceeds a certain size. For some it is 10 gigabytes. Also if a partition is too small, it will actually merge it with other smaller partitions
+		- The reason not everyone uses this is because if we leave dynamic partitioning up to the database, if the database assumes that a node is down, it might try to rebalance automatically and give some of its partitions to another node
+			- If this is because of a network issue, then we end up over congesting the network
+- ![[Screenshot 2024-09-23 at 2.23.42 PM.png]]
+	- Fixed number of partitions per node (3rd approach)
+		- Each node has a certain number of partitions on it which grow in size proportionally to the dataset
+		- If a new node joins the cluster, it will split some of the partitions on existing nodes into two pieces, and take those for itself
+			- What the algorithm will actually do is take some pieces of the partitions on each node and will typically take a chunk from each and then take those for themselves. 
+		- Very similar to [[consistent hashing algorithm]] to avoid unfair data splits
+			- Similar to the algorithm as described above. Basically taking a bunch of random points around a ring and making it so the new node is going to handle these parts of the partition
+	- Sharding Summary
+		- Unlike replication, which is always important to have (ensures data durability and availability/ to increase availability), partitioning adds a lot of complexity to a system and should mainly only be used when the dataset has gotten big enough that putting the whole table on a single node is infeasible.
+			- Generally requires some sort of coordination service or [[gossip protocol]] in order to keep track of which range corresponds to which partition
+		- Most applications at scale do need to deal with sharding because a single machine can't handle the throughput and the amount of data that it needs to
+			- Keep in mind that there tends to be some sort of either [[routing tier]] or [[coordination service]] (shown in the image), which keeps track of which partition is on which node and the corresponding IP address
+			- Another way some services deal with this is using a gossip protocol which is where the database nodes actually communicate amongst themselves without a third party service like [[ZooKeeper]]
+		- The point is that partitioning does actually require a lot of tracking to keep track of where everything is and occasionally rebalance. So it does add a lot of complexity
+	- Sharding Summary Continued
+		- Partitioning Methodology
+			- [[Key ranges]] are better when we need to perform range queries
+				- However, they can easily lead to hot spots if you don't choose good ones
+			- [[Key hash ranges]] are better when we want to more evenly distribute data
+				- No guarantee that there won't be hot spots as well because certain keys may have a lot of load on them
+		- Index Choices:
+			- Local indexes optimize for write speed (because you don't have to communicate across partitions)
+			- Global indexes optimize for read speed (slower on write because you potentially have to make two writes to two different nodes)
+				- However when you're reading, it is simply one read from one node and you get all the data that you want
+		- Rebalancing Choices
+			- Fixed number of partitions is simpler to reason about, but requires choosing a good number
+				- Not simple to choose the fixed number
+			- A changing number of partitions may scale better, but doing so automatically may lead to unnecessarily rebalancing and putting extra stress on our databases
