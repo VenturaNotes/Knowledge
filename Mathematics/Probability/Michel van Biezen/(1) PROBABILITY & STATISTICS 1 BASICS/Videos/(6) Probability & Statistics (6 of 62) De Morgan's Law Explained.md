@@ -1,34 +1,29 @@
-[Video](https://youtube.com/watch?v=2qCDKt23jHQ)
-
-- Sample Space
-	- $\Omega$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-- Events (All subsets of sample space)
-	- A = {1, 3, 5, 7, 9}
-	- B = {2, 4, 6, 8 , 10}
-	- C = {1, 2, 3, 4, 5}
-	- D = {4, 8}
-	- Notes
-		- A and B are completely independent events.
-			- All elements in A do not belong to B.
-			- All elements in B do not belong to A
-		- A and C have some dependency
-			- Some of the elements within them are the same
-		- D has dependency with B and C but not with A 
-- ![[Screenshot 2023-01-08 at 12.36.09 PM.png]]
-	- C means complement (everything outside that belongs in A)
-	- Complement of A is all elements in sample space that do not belong to A
-	- Complement of A is B and Complement of B is actually A
-	- Union of A and C
-		- All elements that belong to A, all elements that belong to C, and all elements that belong to both A and C.
-	- Union ($\cup$)  means together
-	- Intersections ($\cap$)  means elements that belong to both A and C
-	- Proof
-		- ![[Screenshot 2023-01-08 at 12.54.45 PM.png]]
-			- Intersection is whatever belongs to both.
-			- Intersection is what is common between both
-			- By inspection, we can see that the law above is true
-- ![[Screenshot 2023-01-08 at 12.36.18 PM.png]]
-	- Proof
-		- ![[Screenshot 2023-01-08 at 12.56.13 PM.png]]
-			- The only thing that doesn't belong to either is the overlap of A and C.
-			- By inspection, we see it.
+---
+Source:
+  - https://www.youtube.com/watch?v=2qCDKt23jHQ
+---
+- ![[Screenshot 2024-11-07 at 11.48.40 PM.png]]
+	- [[De Morgan's Law]]
+	- Sets
+		- [[Sample space]]
+			- $\Omega$ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+					- All possible outcomes of the sample space are numbers 1 through 10
+		- [[event|Events]] (The outcome of A, B, C, and D are a portion of the sample space. They are all subsets of the sample space)
+			- A = {1, 3, 5, 7, 9}
+			- B = {2, 4, 6, 8, 10}
+			- C = {1, 2, 3, 4, 5}
+			- D = {4, 8}
+		- A and B are considered [[independent events]]. All the elements in A do not belong to B and all the elements in B do not belong to A. They are completely independent.
+		- In A and C, there is some dependency. Some of the elements within them are the same
+		- D has dependency with B and C. Not A
+		- [[Complement]] symbol
+			- $(A \cup C)^c = A^c \cap C^c$
+				- The complement means everything outside that belongs in there
+				- For example, the complement of A would be all the elements in the sample space that do not belong to A
+				- The complement of B is all the elements in the sample space that do not belong to B
+				- We notice though that the complement of A is B and vice versa
+	- [[DeMorgan's Laws]]
+		- $(A \cup C)^c = A^c \cap C^c$
+			- By inspection, we could prove it by drawing out $A^c$ and $C^c$ and then finding the intersection between them which ends up being $(A \cup C)^c$ 
+		- $(A \cap C)^c = A^c \cup C^c$ 
+			- By inspection, can draw it out to show this is true

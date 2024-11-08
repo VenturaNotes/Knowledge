@@ -5,7 +5,7 @@
 - Could use anki tag to determine if a 
 - Will use Studied tag to indicate if a topic has been thoroughly practiced or researched to by degree
 
-## Returns List of backlinks where \#studied tag not found and no duplicates returned and in order within document
+## Returns List of backlinks  in order within document where \#studied not found and no duplicates returned
 ```dataviewjs
 // Get the current file content
 let fileContent = await dv.io.load(dv.current().file.path);
@@ -37,13 +37,13 @@ if (filteredLinks.size > 0) {
     dv.paragraph("- NO LINKS FOUND");
 }
 ```
-## Finds if a \#question tag exists in backlink (doesn't need to be in YAML format) Not in order of document
+## Finds list of topics not in order of document where  if a \#question exists in backlink (YAML format not needed)
 ```dataview 
 LIST 
 FROM outgoing([[]]) and #question
 ```
 
-- Able to write a query within the document
+- Writing a query within document and finding all the `#questions` within it
 ```query
 file:"Home Page - Programming Rust 2nd Edition by O'Reilly" tag:#question
 ```

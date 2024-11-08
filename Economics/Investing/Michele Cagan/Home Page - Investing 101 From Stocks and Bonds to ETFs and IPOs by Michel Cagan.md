@@ -491,7 +491,7 @@ tags:
 - “full-fledged stock market, listing about 3,200 corporations” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=48&annotation=935G3NK4))
 	- Officially known as “[[NASDAQ]] OMX Group”
 		- Hosts most [[initial public offerings]]
-- “listing requirements are less stringent than those of the NSYE” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=48&annotation=HUSE3CZH))
+- “listing requirements are less stringent than those of the [[NSYE]]” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=48&annotation=HUSE3CZH))
 	- “a lot of technology and biotech stocks listed on this exchange,” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=48&annotation=UT7MDSHL))
 		- “these types of companies typically fall squarely in the [[aggressive growth category]].” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=48&annotation=7XGYEL9S))
 - “NASDAQ boasts more than a $2 trillion total market value in the [[IT sector]].” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=48&annotation=QAH4UYHG))

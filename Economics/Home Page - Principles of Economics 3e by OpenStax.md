@@ -91,6 +91,74 @@ errata: https://openstax.org/errata/?book=Principles%20of%20Economics%203e
 - “The formal study of [[economics]] began when [[Adam Smith]] (1723–1790) published his famous book [[The Wealth of Nations]] 1776.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=28&annotation=8Z9QZHM2))
 	- “Many authors had written on economics in the centuries before Smith, but he was the first to address the subject in a comprehensive way.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=28&annotation=9LP2MCKB))
 - In the first chapter, he introduces the concept [[division of labor]]
+	- It means that the way one produces a good or service is divided into a number of tasks that different workers perform (instead of all the tasks being done by the same person)
+- Division of labor example
+	- Smith counted how many tasks went into making a pin (18 distinct tasks)
+		- Drawing out a piece of wire
+		- Cutting right length
+		- Straightening it
+		- Putting head on one end and point on other
+		- Packaging pins for sale
+- Modern businesses divide tasks as well
+	- [[Restaurant]] divides tasks of serving meals into a range of jobs
+		- [[top chef]]
+		- [[sous chefs]]
+		- less-skilled kitchen help
+		- servers to wait tables
+		- Greeter at door
+		- Janitors to clean up
+		- [[Business manager]] to handle paychecks and bills
+		- Economic connections a restaurant has with suppliers
+			- food
+			- furniture
+			- kitchen equipment
+			- building where it's located
+- “A complex business like a large [[manufacturing factory]], such as the [[shoe factory]] (Figure 1.4), or a [[hospital]] can have hundreds of job classifications.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=28&annotation=C2YRIHE9))
+	- “Workers on an [[assembly line]] are an example of the divisions of labor.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=28&annotation=5R36USM7))
+	- “Red Wing Shoe Factory Tour” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=28&annotation=S59NA3MY))
+
+#### Why the Division of Labor Increases Production
+- “When we divide and subdivide the tasks involved with producing a good or service, workers and businesses can produce a greater quantity of output.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=6ARCJYLP))
+- [[Adam Smith]] noticed in [[pin factories]] that one worker might make 20 pins in a day. However, 10 workers who would need to complete two or three of the 18 tasks involved could make 48,000 pins a day.
+- [[Adam Smith]] offered 3 reasons why specializing in certain tasks produce so much more than the same number of workers who try to produce the entire good or service by themselves
+	- “First, [[specialization]] in a particular small job allows workers to focus on the parts of the production process where they have an advantage.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=HEZ85QA7)) (will discuss [[comparative advantage]] later)
+		- “[[People]] have different skills, talents, and interests, so they will be better at some jobs than at others.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=PEZ937TN))
+			- “particular advantages may be based on educational choices, which are in turn shaped by interests and talents.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=6LVJ3M4Y))
+			- “Only those with medical degrees qualify to become doctors, for instance” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=SBQS4ZHF))
+			- “For some goods, [[geography]] affects [[specialization]].” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=T86WZM2T))
+				- [[Wheat farmer]] in [[North Dakota]] easier than in [[Florida]]
+				- [[Tourist hotel]] in Florida easier than North Dakota
+				- Living near a big city is easier to attract customers to operate a successful [[dry cleaning business]] or [[movie theater]] than if you live in a sparsely populated rural area
+		- In summary, if people specialize in production of what they do best, they will be more effective than if they produce a combination of things, some of which are good at and some of which they are not
+	- “Secondly, workers who specialize in certain tasks often learn to produce more quickly and with higher quality.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=3KYUY277))
+		- True for many workers including
+			- [[Assembly line laborers]] who build cars
+			- [[stylists]] who cut hair
+			- [[doctors]] who perform heart surgery
+		- [[Specialized workers]] often know their jobs well enough to suggest innovative ways to do their work faster and better
+		- “In many cases, a [[business]] that focuses on one or a few products (sometimes called its “[[core competency]]”) is more successful than firms that try to make a wide range of products.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=5C9NEVFU))
+	- “Third, specialization allows businesses to take advantage of [[economies of scale]], which means that for many goods, as the level of production increases, the average cost of producing each individual unit declines.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=DUFMSJAK))
+		- Example
+			- If a [[factory]] produces only 100 cars per year, each car will be quite expensive to make on average
+			- If a factory produces 50,000 cars a year, then it can set up an [[assembly line]] with huge machines and workers performing specialized tasks, and the average cost of production per car will be lower. 
+				- Result of workers who can
+					- Focus on their preferences and talents
+					- Learn to do their specialized jobs better
+					- Work in larger organizations
+				- Then society as a whole can [[produce (economics)|produce]] and [[consume (economics)|consume]] far more than if each person tried to produce all of their own goods and services.
+				- “[[The division and specialization of labor]] has been a force against the problem of scarcity.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=9FREB3XP))
+
+#### Trade and Markets
+- “[[Specialization]] only makes sense, though, if workers can use the pay they receive for doing their jobs to purchase the other goods and services that they need” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=IVZBZTFQ)). In short, [[specialization]] requires trade
+- You don't need to know anything about [[electronics]] or [[sound systems]] to play [[music]]
+	- Just use an [[iPod]] or [[MP3 player]], download the music, and listen
+- “You do not have to know anything about [[artificial fibers]] or the construction of [[sewing machines]] if you need a [[jacket]]—you just buy the jacket and wear it.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=WAWAT6IN))
+- “You do not need to know anything about [[internal combustion engines]] to operate a [[car]]—you just get in and drive.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=NVVDSWMD))
+- “Instead of trying to acquire all the knowledge and skills involved in producing all of the goods and services that you wish to consume, the [[market]] allows you to learn a specialized set of skills and then use the pay you receive to buy the goods and services you need or want.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=SRP7C3YL))
+	- “This is how our [[modern society]] has evolved into a strong [[economy]].” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=29&annotation=752E3GHU))
+
+#### Why Study Economics?
+- 
 ### (1.2) Microeconomics and Macroeconomics
 ### (1.3) How Economists Use Theories and Models to Understand Economic Issues
 ### (1.4) How To Organize Economies: An Overview of Economic Systems

@@ -1,19 +1,15 @@
-[Video](https://youtube.com/watch?v=ZuuXPW36OYU)
-
-- Key
-	- Sample space
-		- $\Omega$ = {1, 2, 3, 4, 5, 6, 7, 8}
-	- Events (subsets of sample space)
-		- A = {1, 2, 3, 4}
-		- B = {3, 4, 5, 6}
-		- A and B are dependent because they have some common elements.
-- $A\cup B$ 
-	- Union
-	- "OR"
-	- It belong to A or B
-	- ![[Screenshot 2023-01-08 at 1.00.59 PM.png]]
-- A $\cap$ B
-	- Intersection
-	- "AND"
-	- It must belong to both A and B
-	- ![[Screenshot 2023-01-08 at 1.01.10 PM.png]]
+---
+Source:
+  - https://www.youtube.com/watch?v=ZuuXPW36OYU
+---
+- ![[Screenshot 2024-11-07 at 11.51.09 PM.png]]
+	- $A \cup B$
+		- [[Union]]
+		- "OR"
+		- It Belong to A OR B
+	- $A \cap B$
+		- [[Intersection]]
+		- "AND"
+		- It must belong to both A AND B
+	- We have [[sample space]] $\Omega$ and [[event|events]] (A and B)
+		- In this case, A and B are dependent because they have some common elements

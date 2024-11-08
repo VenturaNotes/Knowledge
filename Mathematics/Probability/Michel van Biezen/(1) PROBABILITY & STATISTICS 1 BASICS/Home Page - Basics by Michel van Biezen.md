@@ -17,8 +17,6 @@ tags:
 	- [[(8) Probability & Statistics (8 of 62) The Probability Function - A First Look]]
 	- [[(9) Probability & Statistics (9 of 62) The Probability Function - Flipping 3 Coins, Example]]
 	- [[(10) Probability & Statistics (10 of 62) The Probability Function - Flipping Coins - General Formula 1]]
-
-- Incomplete
 	- [[(11) Probability & Statistics (11 of 62) The Probability Function - Flipping Coins - General Formula 2]]
 	- [[(12) Probability & Statistics (12 of 62) The Probability Function - Flipping 10 Coins - Example]]
 	- [[(13) Probability & Statistics (13 of 62) The Probability of an Event NOT Occurring]]
@@ -30,8 +28,9 @@ tags:
 	- [[(19) Probability & Statistics (19 of 62) The 'At Least One or Once' Rule - Example 2]]
 	- [[(20) Probability & Statistics (20 of 62) The 'At Least One or Once' Rule - Example 3]]
 	- [[(21) Probability & Statistics (21 of 62) Probability - 4 More Basic Examples]]
-	- [[(22) Probability & Statistics (22 of 62) Probability - 3 More Basic Examples]]
+	- [[(22) Probability & Statistics (22 of 62) Probability - 3 More Basic Examples (FIRST ANSWER 5 and 36)]]
 	- [[(23) Probability & Statistics (23 of 62)  P(not 7) = 30 and 36 - Calculating the Odds  -For, -Against, and -On]]
+- Incomplete
 	- [[(24) Probability & Statistics (24 of 62) Calculating the Odds and Horse Racing]]
 	- [[(25) Probability & Statistics (25 of 62) Conditional Probability Explained]]
 	- [[(26) Probability & Statistics (26 of 62) Conditional Probability (of a Person Born)]]
@@ -69,5 +68,5 @@ tags:
 	- [[(58) Probability & Statistics (58 of 62) Conditional Probability - Bayes' Theorem (Part 1 of 3).]]
 	- [[(59) Probability & Statistics (59 of 62) Conditional Probability - Bayes' Theorem (Part 2 of 3))]]
 	- [[(60) Probability & Statistics (60 of 62) Conditional Probability - Bayes' Theorem (Part 3 of 3))]]
-	- [[(61) Probability & Statistics (61 of 62) Conditional Probability - Baye's Theorem Example 1]]
-	- [[(62) Probability & Statistics (62 of 62) Conditional Probability - Baye's Theorem Example 2]]
+	- [[(61) Probability & Statistics (62 of 62) Conditional Probability - Baye's Theorem Example 2]]
+	- [[(62) Probability & Statistics (61 of 62) Conditional Probability - Baye's Theorem Example 1]]

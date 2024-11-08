@@ -7,5 +7,5 @@
 - It was published in 1776
 ## References
 
-[^1]: [[(Home Page) Principles of Economics 3e by OpenStax#The Problem of Scarcity]]
-[^2]: [[(Home Page) Principles of Economics 3e by OpenStax#The Division of and Specialization of Labor]]
+[^1]: [[Home Page - Principles of Economics 3e by OpenStax#The Problem of Scarcity]]
+[^2]: [[Home Page - Principles of Economics 3e by OpenStax#The Division of and Specialization of Labor]]

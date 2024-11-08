@@ -9,5 +9,5 @@
 	- Nations fund more towards national defense or protecting the environment
 ## References
 
-[^1]: [[(Home Page) Principles of Economics 3e by OpenStax#1 1 What is Economics and Why Is It Important]]
-[^2]: [[(Home Page) Principles of Economics 3e by OpenStax#The Problem of Scarcity]]
+[^1]: [[Home Page - Principles of Economics 3e by OpenStax#1 1 What is Economics and Why Is It Important]]
+[^2]: [[Home Page - Principles of Economics 3e by OpenStax#The Problem of Scarcity]]

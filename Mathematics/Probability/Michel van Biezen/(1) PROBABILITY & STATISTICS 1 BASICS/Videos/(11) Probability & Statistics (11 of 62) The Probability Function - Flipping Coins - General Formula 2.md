@@ -1,3 +1,21 @@
-[Video](https://youtube.com/watch?v=wd3-i7kwXmk)
-
-- Flipping n coins
+---
+Source:
+  - https://www.youtube.com/watch?v=wd3-i7kwXmk
+---
+- ![[Screenshot 2024-11-08 at 12.55.22 AM.png]]
+	- On board
+		- Flipping n coins
+		- $\Omega$ = {$2^n$ outcomes}
+		- let k = # of heads (where n $\le$ k $\le$ 0)
+		- P(k heads, n-k tails) $\frac{n \choose k}{2^n}$
+	- Will now find the more general equation for the probability of some sort of outcome or some sort of event for flipping a coin or anything that has to do with a binary situation
+	- K will always be between 0 and the total number of n
+		- If you have 4 coins, maximum number of k is 4 and the minimum number would be 0 (of course then all of them would be tails)
+	- The [[sample space]] (the number of outcomes will be $2^n$ outcomes)
+	- $n \choose k$ = $\frac{n!}{k!(n-k)!}$
+		- This represents the number of outcomes for that particular event
+		- This is some sort of event where we get k heads and n-k tails
+		- The exclamation mark means [[factorial]]
+			- 5! is read as "five factorial" = $1*2*3*4*5=120$
+	- For P(1-H, 3-T) = $\frac{1}{4}$
+		- In this case, we don't care about the order of the heads and tails

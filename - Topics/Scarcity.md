@@ -6,4 +6,4 @@
 - The ultimate scarce resource is time
 ## References
 
-[^1]: [[(Home Page) Principles of Economics 3e by OpenStax#1 1 What is Economics and Why Is It Important]]
+[^1]: [[Home Page - Principles of Economics 3e by OpenStax#1 1 What is Economics and Why Is It Important]]

@@ -37,7 +37,7 @@ tags:
 	- [[(27) Prob & Stats - Markov Chains (27 of 38) Absorbing Markov Chain - Stable Matrix=. Ex. 2]]
 	- [[(28) Prob & Stats - Markov Chains (28 of 38) Absorbing Markov Chain - Stable Distribution Matrix=.]]
 	- [[(29) Prob & Stats - Markov Chains (29 of 38) Absorbing Markov Chain - Stable Distribution Matrix=.]]
-	- [[(30) Prob & Stats - Markov Chains - Method 2 (30 of 38) Basics]]
+	- [[(30) Prob & Stats - Markov Chains - Method 2 (30 of 38) Basics''']]
 	- [[(31) Prob & Stats - Markov Chains - Method 2 (31 of 38) Powers of a Transition Matrix]]
 	- [[(32) Prob & Stats - Markov Chains - Method 2 (32 of 38) Finding Stable State Matrix]]
 	- [[(33) Prob & Stats - Markov Chains - Method 2 (33 of 38) What is an Absorbing Markov Chain]]

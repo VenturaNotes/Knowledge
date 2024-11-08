@@ -1,0 +1,56 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLAbN3QzJyy_J9dUN89WKXzc7GAzJczIOa
+Length: 6 hours, 32 minutes, 4 seconds
+tags:
+  - status/incomplete
+  - type/playlist
+---
+- Complete
+- Incomplete
+	- [[(1) Graphing Linear Inequalities in One and Two Variables]]
+	- [[(2) Graphing Systems of Linear Inequalities  - Two Variables]]
+	- [[(3) Linear Programming  - Minimizing the Cost (example 1)]]
+	- [[(4) Linear Programming  - Minimizing the Cost (example 2)  - A music academy conducts a training course...]]
+	- [[(5) Simple Interest Problems]]
+	- [[(6) Two More Examples on Simple Interest  - Finding annual interest rate...]]
+	- [[(7) Compound Interest]]
+	- [[(8) Solving For Time t in Compound Interest Formula]]
+	- [[(9) Finding Future Value of an Annuity and Periodic Payment]]
+	- [[(10) Present Value of An Annuity  - Finding value of t to pay off a loan...]]
+	- [[(11) Amortizing a Loan  - Math for Finance]]
+	- [[(12) Finding Unpaid Balance on a Loan after 10 years, 20 years...]]
+	- [[(13) Creating Amortization Schedule]]
+	- [[(14) A couple wishes to borrow money using their equity in their home... -Present Value of Annuity example]]
+	- [[(15) A person deposits $200 monthly for 30 years and...  - Using both FV and PV of an Annuity Formulas]]
+	- [[(16) Venn Diagrams  - Shading Regions for Two Sets]]
+	- [[(17) Venn Diagrams using THREE Sets]]
+	- [[(18) Applications of Venn Diagrams  - Word Problems using Three Sets]]
+	- [[(19) Multiplication Principle, Permutations & Combinations explained through examples]]
+	- [[(20) More on Combinations and Permutations...]]
+	- [[(21) Introduction to Probability  - Complement and Union]]
+	- [[(22) Probability of the Union of Events  - 52 Deck of Cards Problem]]
+	- [[(23) A six sided die label 1, 2, and 3 on two face... - Rare Dice Problem]]
+	- [[(24) Combinations and Probability Involving Combinations]]
+	- [[(25) Probability involving Mutually Exclusive and Independent events...]]
+	- [[(26) Odds in Favor vs. Odds Against  - Probability]]
+	- [[(27) Conditional Probability  - Dice Problem]]
+	- [[(28) Computing Probabilities and Conditional Probabilities using Venn Diagram]]
+	- [[(29) Conditional & Independent Events]]
+	- [[(30) Bayes' Theorem explained through an example]]
+	- [[(31) Bayes' Theorem  - Example with three jars...]]
+	- [[(32) Another Example Using Bayes' Theorem  - A box contains 12 balls numbered 1 through 12...]]
+	- [[(33) If a ball is drawn from urn 1 and placed in urn 2, what is the probability...  -  Bayes' Theorem]]
+	- [[(34) How To Make A Game Fair  - A fun probability example]]
+	- [[(35) Probability Distribution and Expected value  - Winning Amount in a Deck of Cards Game]]
+	- [[(36) A game has an expected value to you...  - Finding probability using Prob. Distri. & Expected Value]]
+	- [[(37) After paying $4 to play, a pair dice are rolled...  - Example of Probability Distribution & E(x)]]
+	- [[(38) Binomial Probability  -  Family of 6-Children EXAMPLE]]
+	- [[(39) Binomial Probability  - Rolling a fair die 5 times...]]
+	- [[(40) On an exam, 10 multiple choice questions are asked....  - Binomial Probability]]
+	- [[(41) Probability Distribution and Expected Value  - Binomial Experiment - A family with 3-children]]
+	- [[(42) Finding Area Under the Normal Curve  - Area to the left and Right using the Z-table]]
+	- [[(43) Normal Probability Distribution  - finding normal probability using z-score table]]
+	- [[(44) Using Normal to approximate Binomial  - Example 1]]
+	- [[(45) Using Normal to Approximate Binomial  - Example 2]]
+	- [[(46) Continuously Compounded Interest Problem]]

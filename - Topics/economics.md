@@ -27,5 +27,5 @@
 
 [^1]: ChatGPT
 [^2]: https://www.proprofs.com/quiz-school/story.php?title=economics-practice-test_3
-[^3]: [[(Home Page) Principles of Economics 3e by OpenStax]]
-[^4]: [[(Home Page) Principles of Economics 3e by OpenStax#The Division of and Specialization of Labor]]
+[^3]: [[Home Page - Principles of Economics 3e by OpenStax]]
+[^4]: [[Home Page - Principles of Economics 3e by OpenStax#The Division of and Specialization of Labor]]

@@ -24,7 +24,7 @@
 			- U is $\mathbb{Z}^+$ - Positive integers 
 				- TRUE
 	- Visual [^1]
-		- ![[a2m1l3image3.jpg]]
+		- ![[Screenshot 2024-11-07 at 7.38.47 PM.png|350]]
 			- The set of all x
 			- x is an element of the set of real numbers
 			- but x is not 17
