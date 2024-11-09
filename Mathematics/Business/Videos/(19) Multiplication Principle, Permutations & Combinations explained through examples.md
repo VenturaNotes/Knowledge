@@ -2,4 +2,32 @@
 Source:
   - https://www.youtube.com/watch?v=zi21Nv40b-s
 ---
-
+- ![[Screenshot 2024-11-08 at 11.06.36 PM.png]]
+	- [[Multiplication Principle]], [[Permutation|permutations]] and [[Combination|Combinations]]
+	- Multiplication principle: States that we can multiply the number of options in each category
+		- A menu offers a choice of 3 salads, 8 main dishes, and 7 desserts. How many different meals consisting of one salad, one main dish, and one dessert are possible? 
+	- [[Permutation]]
+		- The way you order things does matter
+		- $_nP_r = P(n, r) = \frac {n!}{(n-r)!}$
+			- The permutation of n number of objects of r items 
+			- n = total number of objects
+			- r = number of items we pick out of n items
+	- Can use both the permutation formula or the multiplication principle to solve this problem
+		- In a club with 10 members, how many ways can a slate of 3 officers consisting of president, vice-president, and secretary/treasurer be chosen?
+- ![[Screenshot 2024-11-08 at 11.33.56 PM.png]]
+	- [[Combination|Combinations]]
+		- From a standard 52-card deck, how many 7-card hands consist of 3 diamonds and 4 spades?
+			- 204,490 is the number of hands of 7 cards which consist of 3 diamonds and 4 spades.
+			- This makes sense because there are 286 combinations to choose 3 diamonds out of the 13 diamonds in the deck
+			- There is a total of 715 combinations to choose 4 spades out of the 13 spades in the deck
+			- Then multiply the two to get $204,490$ combinations total
+		- Combinations is another way of determining the number of possible arrangements in a collection of items. Here, the order doesn't matter.
+			- n = total
+			- r = choosing item
+			- $_nC_r = C(n,r) = \frac {n!}{(n-r)!r!}$
+				- Could also think of this as permutation divided by r!
+				- Since order doesn't matter, we want to remove all the repetitions
+	- A 4-person [[grievance committee]] is to be selected out of 2 departments, A and B, with 15 and 28 people, respectively. In how many ways can the following committees be selected?
+		- (A) 3 from A and 1 from B
+		- (B) 2 from A and 2 from B
+		- (C) All from A

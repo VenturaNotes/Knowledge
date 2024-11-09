@@ -1950,14 +1950,14 @@ function calculateMultiplier() {
   
   var differenceMs = difference - initialDate; //Format is in terms of milliseconds
 
-  if(differenceMs <= -segment){
+  if(differenceMs < 0){
     if (sheet.getRange(4, 17).getValue() != 0)
     {
       sheet.getRange(5, 17).setValue(sheet.getRange(5, 17).getValue() + 1);
     }
     updateCell = true;
   }
-  else if (differenceMs >= segment){
+  else if (differenceMs >= 0){
     sheet.getRange(4, 17).setValue(sheet.getRange(4, 17).getValue() + 1);
     updateCell = true;
   }
@@ -2094,7 +2094,7 @@ function calculateCurrentDuration() {
     <button id="multiplierButton" onclick="calculateMultiplier()">Adjust Speed</button>
     <button id="startButton" onclick="showStartTime()">Start</button>
     <button id="storeButton" onclick="storeTime()">Store</button>
-    
+
     <div id="level" class="cellPace">Level: ...</div>
     <div id="handicap" class="cellPace">Delay: ...</div>
 
@@ -2118,6 +2118,7 @@ function calculateCurrentDuration() {
       function logTime() {
         showLoading();
         pressButton('floatingButton');
+        
         var currentDurationDiv = document.getElementById('currentDuration');
         currentDurationDiv.textContent = `Segment Duration: 00:00:00`;
 
@@ -2275,6 +2276,7 @@ function calculateCurrentDuration() {
 #### Description
 - Trying to keep up at least 80% of my studying speed
 - Removed stacking for being 20 minutes ahead
+	- Modified it so that I can adjust the speed whenever appropriate
 - Added a "store" button for better interruptions. Can use "store" multiple times on the same segment (as long as you press "start" afterwards)
 	- Fixed the "duration" and "log time" sections to fix this
 - If Level = 0, then delay will not increase when adjusting speed. My initial speed was too quick to follow-through with. 

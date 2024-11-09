@@ -2,4 +2,22 @@
 Source:
   - https://www.youtube.com/watch?v=_jANiBETlu4
 ---
-
+- ![[Screenshot 2024-11-08 at 9.04.30 PM.png]]
+	- [[Compound interest]]
+		- $A(t) = P(1 + \frac{r}{n})^{nt}$
+			- Interest compounded monthly, weekly, daily, once a year, twice a year, and so forth
+			- A(t) = Future amount
+			- P = initial amount
+			- r = rate
+			- n = number of times an interest is invested
+			- t = time
+		- Future: $A(t)=Pe^{rt}$
+			- This is interest that is compounded continuously 
+				- [[Continuous Compounding|Continuous compounding interest]]
+	- Example
+		- A sum of $1000 is invested at an interest rate of 12% per year. Find the amounts in the account after 3 years if interest is compounded annually, semiannually, quarterly, monthly, and daily.
+			- n = 1 (annually)
+			- n = 2 (semiannually)
+			- n = 4 (quarterly)
+			- n = 12 (monthly)
+			- n = 365 (daily)

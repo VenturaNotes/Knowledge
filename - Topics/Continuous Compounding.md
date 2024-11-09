@@ -1,3 +1,7 @@
+---
+aliases:
+  - Continuous compounding interest
+---
 ## Synthesis
 - 
 ## Source [^1]

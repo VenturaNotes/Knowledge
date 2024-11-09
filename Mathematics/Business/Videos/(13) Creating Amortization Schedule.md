@@ -2,4 +2,19 @@
 Source:
   - https://www.youtube.com/watch?v=r1zlarCvLsw
 ---
-
+- ![[Screenshot 2024-11-08 at 10.09.11 PM.png]]
+	- Construct the [[amortization schedule]] for a $1,000 debt that is to be amortized in four equal quarterly payments at 2.5% interest per quarter on the unpaid balance.
+		- $R = \frac{P (\frac rn)}{1-(1 + \frac rn)^{-nt}}$
+			- R = quarterly payments
+			- P = loan amount (1,000)
+			- r = interest rate
+				- 1000(0.025) in this case
+		- If an interest rate is stated: 2.5% interest per quarter
+			- This means $\frac rn = 0.025$
+		- R = $265.82$ which is the payment being made every quarter
+	- Need to create 5 columns
+		- Payment number
+		- payment
+		- interest
+		- unpaid balance reduction
+		- unpaid balance

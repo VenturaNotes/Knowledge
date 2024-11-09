@@ -2,4 +2,23 @@
 Source:
   - https://www.youtube.com/watch?v=1wPtkmvjGew
 ---
-
+- ![[Screenshot 2024-11-08 at 7.08.23 PM.png]]
+	- [[Linear programming]] example 1
+	- Question
+		- The officers of a high school senior class are planning to rent buses and vans for a class trip. Each bus can transport 80 students, requires 6 chaperones, and costs $1,400 to rent. Each van can transport 10 students, requires 1 chaperone, and costs $90 to rent. Since there are 880 students in the senior class that may be eligible to go on the trip, the officers must plan to accommodate at least 880 students. Since only 78 parents have volunteered to serve as chaperones, the officers must plan to use at most 78 chaperones. How many vehicles of each type should the officers rent in order to minimize the transportation costs? What are the minimal transportation cost?
+	- The last part of scenario is important because that will be the information to help us create the [[objective function]]. The function that we are either going to maximize or minimize. Here, we are going to be minimizing.
+		- In this problem, it's $C = 1400x + 90y$
+	- "Minimize the transportation costs" will give us the [[objective equation]]
+		- This will be the cost of transportation
+		- Set C = to cost
+	- Now we need a constraint for this scenario
+	- The [[Feasible region]] is where the constraints are shown to overlap
+		- $80x + 10y \ge 880$ 
+		- $6x + 1y \le 78$
+		- $x, y \ge 0$
+	- [[Corner points]]
+		- Now going to find our corner points. 
+		- They are points that are intersecting the boundary curves and they're in the solution region.
+		- Then we are going to see which one of these when plugged into our objective function gives us the minimum value.
+		- Used the [[elimination method]] to find the intersection point
+	- The solution ended up being at point (5, 48) where we have 5 buses and 48 vans which costs a total of $11,320

@@ -1,6 +1,7 @@
 ---
 aliases:
   - unit testing
+  - unit tests
 ---
 ## Synthesis
 - 

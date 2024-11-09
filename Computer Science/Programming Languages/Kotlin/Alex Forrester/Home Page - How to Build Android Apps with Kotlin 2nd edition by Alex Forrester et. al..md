@@ -295,7 +295,7 @@ class MainActivity : AppCompatActivity() {
 ```
 - #comment My startup code is a little different
 - “setContentView(R.layout.activity_main) statement sets the layout of the UI you saw when you first ran the app in the virtual device.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=44&annotation=DZUHU7UM))
-```
+```kotlin
 package com.example.myapplication 
 
 import androidx.appcompat.app.AppCompatActivity 
@@ -333,10 +333,236 @@ class MainActivity : AppCompatActivity() {
 		- dragging app icon to trash bin (upper right corner)
 - ![[Screenshot 2024-10-01 at 1.26.58 PM.png|200]]
 	- Now it's running correctly. The web page is now appearing in [[WebView]]
+- Summary
+	- Learned how to add a [[permission]] to the [[manifest]]
+	- “The [[Android Manifest]] can be thought of as a table of contents of your app.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=47&annotation=64IIPWEU))
+		- Lists all components and permissions your app uses
+		- Provides entry points to app
+	- Next section will explore the [[Android build system]], which uses the [[Gradle build tool]] to get you app running
 #### (1.5) Using Gradle to build, configure, and manage app dependencies
+- To create project, mainly used the [[Android platform SDK]]
+- Necessary [[Android libraries]] downloaded when installed [[Android Studio]]
+- To configure and build your Android project, a build tool called [[Gradle]] is used
+	- “Gradle is a multi-purpose build tool that Android Studio uses to build your app.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=47&annotation=WRZZMMQT))
+	- By default, Android Studio uses [[Groovy]], a dynamically typed [[Java virtual machine]] (JVM) language, to configure the build process and allows easy dependency management so you can add libraries to your project and specify the versions.
+- [[Android Studio]] can also be configured to use Kotlin to configure builds
+- The files that this build and configuration information is stored in are named [[build.gradle]]
+	- There are two build.gradle files when creating app
+		- root/top level of project
+		- One specific to app in the app module folder
 ##### (1.5.1) The project-level build.gradle file
+- Project-level build.gradle file
+- Set up all the root project setting which can be applied to sub-modules/projects
+
+My Version (found in `Gradle Scripts/build.gradle.kts (Project: My_Application)`)
+```kotlin
+plugins {
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.kotlin.android) apply false
+}
+```
+
+Their Version
+```kotlin
+plugins { 
+	id 'com.android.application' version '7.4.2' apply false 
+	id 'com.android.library' version '7.4.2' apply false 
+	id 'org.jetbrains.kotlin.android' version '1.8.0' apply false 
+}
+```
+- [[Gradle]] works on a [[plugin system]] so you can write your own plugin that does a task or series of tasks and plug it into your [[build pipeline]]
+	- [[com.android.application]]: “This adds support to create an Android application” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=48&annotation=2PPZCDTS))
+	- [[com.android.library]]: “This enables sub-projects/modules to be Android libraries” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=48&annotation=I4QY2ZG3))
+	- [[org.jetbrains.kotlin.android]]: “This provides integration and language support for Kotlin in the project” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=48&annotation=9JWSNKZC))
+- The `apply false` statement enables these plugins only to sub-projects/modules, and not the project's root level. The version `7.3.1` specifies the plugin version, which is applied to all sub-projects/modules
 ##### (1.5.2) The app-level build.gradle file
+- Found in `Gradle Scripts/build.gradle.kts (Module :app)`
+
+My Version
+```kotlin
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+}
+
+android {
+    namespace = "com.example.myapplication"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.example.myapplication"
+        minSdk = 21
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+    buildFeatures {
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.1"
+    }
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+}
+
+dependencies {
+
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.activity.compose)
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.ui)
+    implementation(libs.androidx.ui.graphics)
+    implementation(libs.androidx.ui.tooling.preview)
+    implementation(libs.androidx.material3)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(libs.androidx.ui.test.junit4)
+    debugImplementation(libs.androidx.ui.tooling)
+    debugImplementation(libs.androidx.ui.test.manifest)
+}
+```
+
+Their version
+```kotlin
+plugins { 
+	id 'com.android.application' 
+	id 'org.jetbrains.kotlin.android' 
+	} 
+android { 
+	namespace 'com.example.myapplication' 
+	compileSdk 33 
+	defaultConfig { 
+		applicationId "com.example.myapplication" 
+		minSdk 24 
+		targetSdk 33 
+		versionCode 1 
+		versionName "1.0" 
+		testInstrumentationRunner 
+			"androidx.test.runner.AndroidJUnitRunner"} 
+	buildTypes { 
+		release { 
+			minifyEnabled false 
+			proguardFiles getDefaultProguardFile('proguardandroid-
+			optimize.txt'), 'proguard-rules.pro' 
+		} 
+	}
+	compileOptions { 
+		sourceCompatibility JavaVersion.VERSION_1_8 
+		targetCompatibility JavaVersion.VERSION_1_8 
+	} 
+	kotlinOptions { 
+		jvmTarget = '1.8' 
+	} 
+} 
+dependencies {...}		
+```
+- “The plugins for Android and Kotlin, detailed in the root build.gradle file, are applied to your project here by ID in the plugins lines.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=49&annotation=TYBM77QJ))
+- “The android block, provided by the com.android.application plugin, is where you configure your Android-specific configuration settings:” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=49&annotation=95B7Z3PK))
+	- [[namespace]]: Set from package name specified when creating project. Used for generating build and resource identifiers
+	- [[compileSdk]]: Defines the API level the app has been compiled with, and the app can use the features of this API and lower
+	- [[defaultConfig]]: base configuration of app
+	- [[applicationId]]: Set to app's package and is the app identifier that is used on [[Google Play]] to uniquely identify your app. It can be changed to be different from the package name if required
+	- [[minSdk]]: The minimum API level your app supports. This will filter out your app from being displayed in Google Play for devices that are lower than this
+	- [[targetSdk]]: The API level you are targeting. This is the API level your built app is intended to work and has been tested with
+	- [[versionCode]]: Specifies version code of your app. Every time an update needs to be made to the app, the version code needs to be increased by one or more
+	- [[VersionName]]: A user-friendly version name that usually follows semantic versioning of X.Y.Z, where X is the major version, Y is the minor version, and Z is the patch version, for example, 1.0.3
+	- [[testInstrumentationRunner]]: Test runner to use for you UI tests
+	- [[buildTypes]]: Under buildTypes, a release is added that configures your app to create a release build. The [[minifyEnabled]] value, if set to true, will shrink your app size by removing any unused code, as well as [[obfuscating]] your app. This obfuscation step changes the name of the source code references to values such as a.b.c(). This makes your code less prone to [[reverse engineering]] and further reduces the size of the built app.
+	- [[compileOptions]]: This is the language level of the Java source code ([[sourceCompatibility]]) and byte code ([[targetCompatibility]])
+	- [[kotlinOptions]]: This is the jvm library the kotlin gradle plugin should use
+- The dependencies block specifies the libraries your app uses no top of the Android platform SDK
+```kotlin
+dependencies { 
+// Kotlin extensions, jetpack component with Android Kotlin language features 
+implementation 'androidx.core:core-ktx:1.7.0' 
+// Provides backwards compatible support libraries and jetpack components 
+implementation 'androidx.appcompat:appcompat:1.6.1' 
+// Material design components to theme and style your app 
+implementation 'com.google.android.material:material:1.8.0' 
+// The ConstraintLayout ViewGroup updated separately from main Android sources 
+implementation 'androidx.constraintlayout:constraintlayout:2.1.4' 
+// Standard Test library for unit tests 
+testImplementation 'junit:junit:4.13.2' 
+// UI Test runner 
+androidTestImplementation 'androidx.test.ext:junit:1.1.5' 
+// Library for creating Android UI tests 
+androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1' }
+```
+- Implementations
+	- [[androidx.core]]: Kotlin extensions, jetpack component with Android Kotlin language features
+	- [[androidx.appcompat]]: Provides backwards compatible support libraries and jetpack components
+	- [[com.google.android.material]]: Material design components to theme and style your app
+	- [[androidx.constraintlayout]]: The ConstraintLayout ViewGroup updated separately from main Android sources
+	- [[junit]]: Standard test library for [[unit test|unit tests]]
+	- [[androidx.test.ext]]: UI Test runner
+	- [[androidx.test.espresso]]: Library for creating Android UI tests
+- The dependencies follow the Maven [[Project Object Model]] (POM) convention of `groupId`, `artifactId`, and `versionId` separated by :. So, as an example, the compatible support library specified earlier is shown as
+	- `androidx.appcompat:appcompat:1.6.1`
+		- [[groupId]]: `androidx.appcompat`
+		- [[artifactId]]: `appcompat`
+		- [[versionId]]: `1.5.1`
+- “The build system locates and downloads these dependencies to build the app from the `repositories` block detailed in the [[settings.gradle]] file explained in the following section.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=51&annotation=JC4IQPUA))
+- “The [[implementation]] notation for adding these libraries means that their internal dependencies will not be exposed to your app, making compilation faster.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=51&annotation=9J43H4L6))
+- “the [[androidx]] components are added as dependencies rather than in the Android platform source.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=51&annotation=JRMWMSRF)) 
+	- “This is so that they can be updated independently from Android versions.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=51&annotation=WH9T4DTN))
+- “[[androidx]] contains the suite of Android Jetpack libraries and the repackaged support library.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=51&annotation=JBS7X97F))
+
+[[settings.gradle]]
+```kotlin
+pluginManagement { 
+	repositories { 
+		google() 
+		mavenCentral() 
+		gradlePluginPortal() 
+	} 
+} 
+dependencyResolutionManagement { repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS) 
+	repositories { 
+		google() 
+		mavenCentral() 
+	} 
+} 
+rootProject.name = "My Application" 
+include ':app'
+```
+- When you first create a project in [[Android Studio]], there will only be one module, app, but when you add more features, you can add new modules that are dedicated to containing the source of a feature rather than packaging it in the main app module
+	- These are called [[feature modules]], and you can supplement them with other types of modules, such as [[shared modules]], which are used by all other modules, like a [[networking module]]. This file also contains the repositories of the plugins and dependencies to download from in separate blocks for plugins and dependencies
+- [[RepositoriesMode.FAIL_ON_PROJECT_REPOS]] ensures all dependencies repositories are defined here; otherwise, a build error will be triggered
 ##### (1.5.3) Exercise 1.04 - exploring how Material Design is used to theme an app
+- Google's new design language, [[Material Design]] and use it to load a Material Design-themed app. 
+	- A design language created by Google that adds enriched UI elements based on real-world effects such as lighting, depth, shadows, and animations.
+- To use material design, find this implementation in the dependencies block of `build.gradle.kts (:app)` for material3
+- There is a [[themes.xml (android)|themes.xml]] file in the values-night folder used for a dark mode
+- 
 #### (1.6) Android application structure
 ##### (1.6.1) Exercise 1.05 - adding interactive UI elements to display a bepoke greeting to the user
 ##### (1.6.2) Accessing Views in layout files
@@ -629,8 +855,3 @@ class MainActivity : AppCompatActivity() {
 #### (17.4) Summary
 ### (18) Index
 ### (19) Other Books You May Enjoy
-
-
-
-
-![[Screenshot 2024-10-01 at 12.06.07 PM.png]]

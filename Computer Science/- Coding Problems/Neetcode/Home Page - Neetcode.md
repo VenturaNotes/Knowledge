@@ -37,9 +37,9 @@ tags:
 		- (23) [[(74) Search a 2D Matrix]]
 		- (24) [[(875) Koko Eating Bananas]]
 		- (25) [[(153) Find Minimum in Rotated Sorted Array]]
+		- (26) [[(33) Search in Rotated Sorted Array]]
 - Incomplete
 	- Binary Search (7)
-		- (26) [[(33) Search in Rotated Sorted Array]]
 		- (27) [[(981) Time Based Key-Value Store]]
 		- (28) [[(4) Median of Two Sorted Arrays]]
 	- Sliding Window (6)
@@ -64,7 +64,6 @@ tags:
 	- Trees (15)
 		- (46) [[(226) Invert Binary Tree]]
 		- (47) [[(104) Maximum Depth of Binary Tree]]
-
 		- (48) [[(543) Diameter of Binary Tree]]
 		- (49) [[(110) Balanced Binary Tree]]
 		- (50) [[(100) Same Tree]]

@@ -7,7 +7,6 @@ tags:
   - type/playlist
 ---
 - Complete
-- Incomplete
 	- [[(1) Graphing Linear Inequalities in One and Two Variables]]
 	- [[(2) Graphing Systems of Linear Inequalities  - Two Variables]]
 	- [[(3) Linear Programming  - Minimizing the Cost (example 1)]]
@@ -22,7 +21,7 @@ tags:
 	- [[(12) Finding Unpaid Balance on a Loan after 10 years, 20 years...]]
 	- [[(13) Creating Amortization Schedule]]
 	- [[(14) A couple wishes to borrow money using their equity in their home... -Present Value of Annuity example]]
-	- [[(15) A person deposits $200 monthly for 30 years and...  - Using both FV and PV of an Annuity Formulas]]
+	-  [[(15) A person deposits $200 monthly for 30 years and...  - Using both FV and PV of an Annuity Formulas]]
 	- [[(16) Venn Diagrams  - Shading Regions for Two Sets]]
 	- [[(17) Venn Diagrams using THREE Sets]]
 	- [[(18) Applications of Venn Diagrams  - Word Problems using Three Sets]]
@@ -30,6 +29,7 @@ tags:
 	- [[(20) More on Combinations and Permutations...]]
 	- [[(21) Introduction to Probability  - Complement and Union]]
 	- [[(22) Probability of the Union of Events  - 52 Deck of Cards Problem]]
+- Incomplete
 	- [[(23) A six sided die label 1, 2, and 3 on two face... - Rare Dice Problem]]
 	- [[(24) Combinations and Probability Involving Combinations]]
 	- [[(25) Probability involving Mutually Exclusive and Independent events...]]
