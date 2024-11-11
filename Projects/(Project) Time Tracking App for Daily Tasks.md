@@ -2,7 +2,7 @@
 tags:
   - project/incomplete
 ---
-eDon't look for another project management software. Just look for something that you can use to track time with and that's it! 
+Don't look for another project management software. Just look for something that you can use to track time with and that's it! 
 
 Idea for app
 

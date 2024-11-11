@@ -2,5 +2,19 @@
 Source:
   - https://www.youtube.com/watch?v=2xXUK7GLo1s
 ---
-- Image
-	- 
+- ![[Screenshot 2024-11-09 at 11.45.30 PM.png]]
+	- [[odds against an event|Odds against]] silver $\frac 72$ = $\frac{P(\text{Not Silver})}{\text {P (Silver)}}$ = $\frac{\frac 79} {\frac 29}$
+	- They typically have the odds against or the odds for a horse. 
+	- Usually they have the odds against or odds for a horse. 
+	- If you pay $2 on the horse and the horse wins, you get a 7:2 payout which means you'll get $7 payout on the $2 plus typically you would take it back
+		- If pay $2 and horse wins and odds against horse is $\frac 72$, you'll gain $7 per $2 "investment". They would give you the $2 back as well so you'll get $9 back (but in today's world, they no longer give you the $2 back. They just give you the odds. So you only get $7 meaning the gain is only $5)
+		- Not as easy to make money on [[horse racing]] as it used to be 
+	- Odds against basically means the ratio of the probability of silver not winning divided by silver winning 
+		- The bigger the odds, the less likely they are to win
+		- The smaller the odds, the more likely they are to win
+	- Usually the horse rated the "highest" 
+		- Such as: odds against Bronco = $\frac 22$, we call that [[even odds]]
+			- Which means if you buy a $2 ticket on Bronco, if Bronco wins, they give you $2 back and you didn't make a penny.
+				- This would probably mean that Bronco was a big favorite and not a lot of chance for another horse to win
+	- Horse racing is a bad investment though
+	- #comment According to the comments, seems like his explanation is incorrect?

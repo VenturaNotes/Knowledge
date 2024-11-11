@@ -34,8 +34,8 @@ Year: 2022-10-20
 	- [[(24) Google SWE teaches systems design  - EP24 - Riak Explained]]
 	- [[(25) Google SWE teaches systems design  - EP25 - Distributed Caching Primer]]
 	- [[(26) Google SWE teaches systems design  - EP26 - Redis and Memcached Explained (While Drunk.)]]
-- Incomplete
 	- [[(27) Google SWE teaches systems design  - EP27 - Search Indexes]]
+- Incomplete
 	- [[(28) Google SWE teaches systems design  - EP28 - Time Series Databases]]
 	- [[(29) Google SWE teaches systems design  - EP29 - Geospatial Indexes]]
 	- [[(30) Google SWE teaches systems design  - EP30 - Chain Replication]]

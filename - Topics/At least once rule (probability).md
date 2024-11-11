@@ -1,6 +1,7 @@
 ---
 aliases:
   - at least once rule
+  - at least one
 ---
 ## Synthesis
 - 

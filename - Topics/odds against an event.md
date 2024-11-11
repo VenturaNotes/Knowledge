@@ -1,3 +1,7 @@
+---
+aliases:
+  - odds against
+---
 ## Synthesis
 - 
 ## Source [^1]

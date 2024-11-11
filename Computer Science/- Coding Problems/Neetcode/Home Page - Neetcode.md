@@ -38,9 +38,9 @@ tags:
 		- (24) [[(875) Koko Eating Bananas]]
 		- (25) [[(153) Find Minimum in Rotated Sorted Array]]
 		- (26) [[(33) Search in Rotated Sorted Array]]
+		- (27) [[(981) Time Based Key-Value Store]]
 - Incomplete
 	- Binary Search (7)
-		- (27) [[(981) Time Based Key-Value Store]]
 		- (28) [[(4) Median of Two Sorted Arrays]]
 	- Sliding Window (6)
 		- (29) [[(121) Best Time to Buy and Sell Stock]]
