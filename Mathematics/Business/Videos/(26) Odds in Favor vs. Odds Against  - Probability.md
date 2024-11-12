@@ -2,4 +2,13 @@
 Source:
   - https://www.youtube.com/watch?v=ebq3P3RygcA
 ---
-
+- Image
+	- [[Odds]]
+		- The [[odds in favor]] of an event E are defined as the ratio of P(E) to P(E'), or
+			- $\frac{P(E)}{P(E')}$, where P(E') $\ne$ 0
+			- Favorable chances to unfavorable chances
+		- The [[odds against an event|odds against]] an event E are defined as
+			- $\frac{P(E')}{P(E)}$, where P(E) $\ne$ 0
+			- Unfavorable chances vs favorable chances
+	- P(E) means probability of an event happening
+	- P(E') means probability of an event not happening

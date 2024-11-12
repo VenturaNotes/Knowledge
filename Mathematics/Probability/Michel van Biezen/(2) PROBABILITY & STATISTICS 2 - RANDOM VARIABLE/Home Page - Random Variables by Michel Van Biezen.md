@@ -7,13 +7,13 @@ tags:
   - type/playlist
 ---
 - Complete
-- Incomplete
 	- [[(1) Prob & Stats - Random Variable & Prob Distribution (1 of 53) Random Variable]]
 	- [[(2) Prob & Stats - Random Variable & Prob Distribution (2 of 53) Random Variable - Terminology Review]]
 	- [[(3) Prob & Stats - Random Variable & Prob Distribution (3 of 53) Random Variable - Ex. 1 - Flipping Coins]]
 	- [[(4) Prob & Stats - Random Variable & Prob Distribution (4 of 53) Types of Random Variable]]
 	- [[(5) Prob & Stats - Random Variable & Prob Distribution (5 of 53) Probability Distribution (Discrete)]]
 	- [[(6) Prob & Stats - Random Variable & Prob Distribution (6 of 53) Probability Distribution (Discrete)]]
+- Incomplete
 	- [[(7) Prob & Stats - Random Variable & Prob Distribution (7 of 63) Probability Distribution (Non-Discrete)]]
 	- [[(8) Prob & Stats - Random Variable & Prob Distribution (8 of 53) Probability Distribution - Histogram]]
 	- [[(9) Prob & Stats - Random Variable & Prob Distribution (9 of 53) Probability Dist - Skewed Histogram]]

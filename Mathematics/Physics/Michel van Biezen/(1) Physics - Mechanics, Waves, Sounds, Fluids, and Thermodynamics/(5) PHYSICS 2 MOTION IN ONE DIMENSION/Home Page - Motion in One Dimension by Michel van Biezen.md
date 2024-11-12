@@ -29,4 +29,5 @@ tags:
 	- [[(19) Physics 2 - Motion In One-Dimension (19 of 22) More Examples]]
 	- [[(20) Physics 2 - Motion In One-Dimension (20 of 22) Two Objects]]
 	- [[(21) Physics 2 - Motion In One-Dimension (21 of 22) Two Objects]]
-	- [[(22) Physics 2 - Motion In One-Dimension (22 of 22) Acceleration Not Constant]][[(23) Physics 2 - Motion In One-Dimension (26 of 31) Find Final Velocity=.]]
+	- [[(22) Physics 2 - Motion In One-Dimension (22 of 22) Acceleration Not Constant]]
+	- [[(23) Physics 2 - Motion In One-Dimension (26 of 31) Find Final Velocity=.]]

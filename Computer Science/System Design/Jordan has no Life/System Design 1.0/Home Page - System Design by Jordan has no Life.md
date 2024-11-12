@@ -35,18 +35,17 @@ Year: 2022-10-20
 	- [[(25) Google SWE teaches systems design  - EP25 - Distributed Caching Primer]]
 	- [[(26) Google SWE teaches systems design  - EP26 - Redis and Memcached Explained (While Drunk.)]]
 	- [[(27) Google SWE teaches systems design  - EP27 - Search Indexes]]
-- Incomplete
 	- [[(28) Google SWE teaches systems design  - EP28 - Time Series Databases]]
 	- [[(29) Google SWE teaches systems design  - EP29 - Geospatial Indexes]]
 	- [[(30) Google SWE teaches systems design  - EP30 - Chain Replication]]
 	- [[(31) Google SWE teaches systems design  - EP31 - Content Delivery Networks (CDNs)]]
 	- [[(32) Google SWE teaches systems design  - EP32 - Google Spanner]]
+- Incomplete
 	- [[(33) Google SWE teaches systems design  - EP33 - Load Balancing]]
 	- [[(34) Google SWE teaches systems design  - EP34 - Amazon Aurora]]
 	- [[(35) Google SWE teaches systems design  - EP35 - MongoDB]]
 	- [[(36) Google SWE teaches systems design  - EP36 - VoltDB]]
 	- [[(37) Google SWE teaches systems design  - EP37 - Monoliths vs. Microservices]]
-
 	- [[(38) Google SWE teaches systems design  - EP38 - WebSockets, Long Polling, Server Sent Events]]
 	- [[(39) Google SWE teaches systems design  - EP39 - Apache Spark]]
 	- [[(40) Google SWE teaches systems design  - EP40 - Flink in 15 Minutes, Stateful Stream Processing!]]

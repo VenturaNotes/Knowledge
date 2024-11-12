@@ -6,7 +6,7 @@ tags:
   - status/incomplete
   - type/playlist
 ---
-- Complete
+.- Complete
 - Incomplete
 	- [[(1) Physics 3.2 - Additional Motion Examples (1A of 12) The Runner (Graphical Method)]]
 	- [[(2) Physics 3.2 - Additional Motion Examples (1B of 12) The Runner (Kinematics Method)]]

@@ -19,7 +19,6 @@ tags:
 	- [[(10) Physics CH 0.5 - Standard Units (10 of 41) Sound]]
 	- [[(11) Physics CH 0.5 - Standard Units (11 of 41) Heat]]
 	- [[(12) Physics CH 0.5 - Standard Units (12 of 41) Specific Heat and Molar Heat Capacity]]
-
 - Incomplete
 	- [[(13) Physics CH 0.5 - Standard Units (13 of 41) Conduction, Thermal Conductivity, R-Rating]]
 	- [[(14) Physics CH 0.5 - Standard Units (14 of 41) The Ideal Gas Law]]
