@@ -40,11 +40,11 @@ Year: 2022-10-20
 	- [[(30) Google SWE teaches systems design  - EP30 - Chain Replication]]
 	- [[(31) Google SWE teaches systems design  - EP31 - Content Delivery Networks (CDNs)]]
 	- [[(32) Google SWE teaches systems design  - EP32 - Google Spanner]]
-- Incomplete
 	- [[(33) Google SWE teaches systems design  - EP33 - Load Balancing]]
 	- [[(34) Google SWE teaches systems design  - EP34 - Amazon Aurora]]
 	- [[(35) Google SWE teaches systems design  - EP35 - MongoDB]]
 	- [[(36) Google SWE teaches systems design  - EP36 - VoltDB]]
+- Incomplete
 	- [[(37) Google SWE teaches systems design  - EP37 - Monoliths vs. Microservices]]
 	- [[(38) Google SWE teaches systems design  - EP38 - WebSockets, Long Polling, Server Sent Events]]
 	- [[(39) Google SWE teaches systems design  - EP39 - Apache Spark]]

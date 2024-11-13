@@ -1,15 +1,15 @@
 ---
 Source:
   - https://www.youtube.com/playlist?list=PLi5qQTYe1fJ8Zf5H_JJTgU4oGuFxklc6a
-Length: 4 hours, 39 minutes, 38 seconds
+Length: 5 hours, 6 minutes, 34 seconds
 tags:
   - status/incomplete
   - type/playlist
   - "#ongoing"
 ---
 - Complete
-- Incomplete
 	- [[(1) 2-Minute Neuroscience - The Neuron]]
+- Incomplete
 	- [[(2) 2-Minute Neuroscience - Synaptic Transmission]]
 	- [[(3) 2-Minute Neuroscience - Membrane Potential]]
 	- [[(4) 2-Minute Neuroscience - Action Potential]]
@@ -148,3 +148,19 @@ tags:
 	- [[(137) 2-Minute Neuroscience - Schizophrenia]]
 	- [[(138) 2-Minute Neuroscience - PTSD]]
 	- [[(139) 2-Minute Neuroscience - Fatal Insomnia]]
+	- [[(140) 2-Minute Neuroscience - Sleep Paralysis]]
+	- [[(141) 2-Minute Neuroscience - Spina Bifida]]
+	- [[(142) 2-Minute Neuroscience - Frontotemporal Dementia (FTD)]]
+	- [[(143) 2-Minute Neuroscience - Cochlear Implants]]
+	- [[(144) 2-Minute Neuroscience - DMT]]
+	- [[(145) 2-Minute Neuroscience - Methylphenidate]]
+	- [[(146) 2-Minute Neuroscience - Migraine]]
+	- [[(147) 2-Minute Neuroscience - Vertigo]]
+	- [[(148) 2-Minute Neuroscience - Sleepwalking]]
+	- [[(149) 2-Minute Neuroscience - Zolpidem (Ambien)]]
+	- [[(150) 2-Minute Neuroscience - Seasonal Affective Disorder]]
+	- [[(151) 2-Minute Neuroscience - Lucid Dreaming]]
+	- [[(152) 2-Minute Neuroscience - Binge-Eating Disorder]]
+	- [[(153) 2-Minute Neuroscience - Methamphetamine]]
+	- [[(154) 2-Minute Neuroscience - Carpal Tunnel Syndrome]]
+	- [[(155) 2-Minute Neuroscience - Lyme Disease & the Brain]]

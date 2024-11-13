@@ -3,11 +3,22 @@ Source:
   - https://www.youtube.com/watch?v=6qS83wD29PY
 ---
 ## Notes
-- Image
+- ![[Screenshot 2024-11-12 at 12.39.19 AM.png]]
+	- Will discuss the [[neuron]] here
 	- [[brain|brains]] contain around 85 billion neurons
-	- The [[neuron]] is a nerve cell and is the primary functional unit of the [[nervous system]]
+	- The [[neuron]] is a [[nerve cell]] and is the primary functional unit of the [[nervous system]]
 	- Generic image of [[neuron]] shown
 		- Comes in all shapes and sizes but the one shown is a prototypical version you'll see in a textbook
 		- Structures extending from left side of neuron which look like tree branches are called [[Dendrite|dendrites]]
 			- This is the area where neurons receive most of the information
-			- There are receptors on dendrites designed to pick up signals from other neurons
+			- There are receptors on dendrites designed to pick up signals from other neurons that come in the form of chemicals called [[neurotransmitter|neurotransmitters]]
+				- Those signals picked up by dendrites cause electrical changes in a neuron that are interpreted in an area called the [[soma]] (or cell body)
+				- The [[soma]] contains the [[nucleus]] which contains the [[DNA]] or genetic material of the cell
+				- The soma takes the information from the dendrites and puts it together in an area called the [[axon hillock]]
+			- If the signal from the dendrites is strong enough, then a signal is sent to the next part of the neuron which is called the [[axon]].
+				- At this point, the signal is called an [[action potential]]
+					- The action potential travels down the axon, which is covered with [[myelin]], an insulatory material that helps to prevent the signal from degrading.
+					- The last step of the axon potential is the [[axon terminals]] which is also known as synaptic buttons
+					- When the signal reaches the axon terminals, it can cause the release of neurotransmitter
+					- The purple structures represent the dendrites of another neuron
+			- When a neurotransmitter is released from axon terminals, it interacts with receptors on the dendrites of the next neuron, and then the process repeats with the next neuron
