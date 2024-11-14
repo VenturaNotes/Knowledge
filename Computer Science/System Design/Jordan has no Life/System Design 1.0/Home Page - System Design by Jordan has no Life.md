@@ -3,8 +3,8 @@ Source:
   - https://www.youtube.com/playlist?list=PLjTveVh7FakKjb4UYzUazqBNNF-WGurXp
 Length: 10 hours, 7 minutes, 26 seconds
 tags:
-  - status/incomplete
   - type/playlist
+  - status/incomplete
 Year: 2022-10-20
 ---
 - Complete
@@ -44,7 +44,6 @@ Year: 2022-10-20
 	- [[(34) Google SWE teaches systems design  - EP34 - Amazon Aurora]]
 	- [[(35) Google SWE teaches systems design  - EP35 - MongoDB]]
 	- [[(36) Google SWE teaches systems design  - EP36 - VoltDB]]
-- Incomplete
 	- [[(37) Google SWE teaches systems design  - EP37 - Monoliths vs. Microservices]]
 	- [[(38) Google SWE teaches systems design  - EP38 - WebSockets, Long Polling, Server Sent Events]]
 	- [[(39) Google SWE teaches systems design  - EP39 - Apache Spark]]
@@ -54,6 +53,7 @@ Year: 2022-10-20
 	- [[(43) Google SWE teaches systems design  - EP43 - Data Serialization (Protocol Buffers, Thrift, Avro)]]
 	- [[(44) Google SWE teaches systems design  - EP44 - Apache Parquet]]
 	- [[(45) Google SWE teaches systems design  - EP45 - TCP versus UDP]]
+- Incomplete
 	- [[(46) Google SWE teaches systems design  - EP46 - Certificate Transparency (SSL and TLS)]]
 	- [[(47) Google SWE teaches systems design  - EP47 - Collaborative Text Editing (operational transform v. CRDT)]]
 	- [[(48) Google SWE teaches systems design  - EP48 - Bitcoin]]

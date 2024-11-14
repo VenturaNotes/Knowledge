@@ -32,20 +32,19 @@ tags:
 	- [[(23) A six sided die label 1, 2, and 3 on two face... - Rare Dice Problem]]
 	- [[(24) Combinations and Probability Involving Combinations]]
 	- [[(25) Probability involving Mutually Exclusive and Independent events...]]
-- Incomplete
 	- [[(26) Odds in Favor vs. Odds Against  - Probability]]
 	- [[(27) Conditional Probability  - Dice Problem]]
 	- [[(28) Computing Probabilities and Conditional Probabilities using Venn Diagram]]
 	- [[(29) Conditional & Independent Events]]
 	- [[(30) Bayes' Theorem explained through an example]]
 	- [[(31) Bayes' Theorem  - Example with three jars...]]
-	- [[(32) Another Example Using Bayes' Theorem  - A box contains 12 balls numbered 1 through 12...]]
+	-  [[(32) Another Example Using Bayes' Theorem  - A box contains 12 balls numbered 1 through 12...]]
 	- [[(33) If a ball is drawn from urn 1 and placed in urn 2, what is the probability...  -  Bayes' Theorem]]
 	- [[(34) How To Make A Game Fair  - A fun probability example]]
+- Incomplete
 	- [[(35) Probability Distribution and Expected value  - Winning Amount in a Deck of Cards Game]]
 	- [[(36) A game has an expected value to you...  - Finding probability using Prob. Distri. & Expected Value]]
 	- [[(37) After paying $4 to play, a pair dice are rolled...  - Example of Probability Distribution & E(x)]]
-
 	- [[(38) Binomial Probability  -  Family of 6-Children EXAMPLE]]
 	- [[(39) Binomial Probability  - Rolling a fair die 5 times...]]
 	- [[(40) On an exam, 10 multiple choice questions are asked....  - Binomial Probability]]
