@@ -53,10 +53,10 @@ Year: 2022-10-20
 	- [[(43) Google SWE teaches systems design  - EP43 - Data Serialization (Protocol Buffers, Thrift, Avro)]]
 	- [[(44) Google SWE teaches systems design  - EP44 - Apache Parquet]]
 	- [[(45) Google SWE teaches systems design  - EP45 - TCP versus UDP]]
-- Incomplete
 	- [[(46) Google SWE teaches systems design  - EP46 - Certificate Transparency (SSL and TLS)]]
 	- [[(47) Google SWE teaches systems design  - EP47 - Collaborative Text Editing (operational transform v. CRDT)]]
 	- [[(48) Google SWE teaches systems design  - EP48 - Bitcoin]]
+- Incomplete
 	- [[(49) Google SWE teaches systems design  - EP49 - Neo4j (Graph Databases)]]
 	- [[(50) Google SWE teaches systems design  - EP50 - Approaching Interview Questions]]
 	- [[(51) Choosing a Database for Systems Design - All you need to know in one video]]
