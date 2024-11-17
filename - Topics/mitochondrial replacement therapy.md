@@ -1,8 +1,7 @@
 ---
 aliases:
   - MRT
-tags:
-  - noted
+References: 1
 ---
 ## Synthesis
 - 

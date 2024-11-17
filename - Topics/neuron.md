@@ -3,8 +3,7 @@ aliases:
   - neurons
   - nerve cell
   - nerve cells
-tags:
-  - noted
+References: 2
 ---
 ## Synthesis
 - 

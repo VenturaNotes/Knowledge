@@ -1,8 +1,7 @@
 ---
 aliases:
   - dendrites
-tags:
-  - noted
+References: 1
 ---
 ## Synthesis
 - 

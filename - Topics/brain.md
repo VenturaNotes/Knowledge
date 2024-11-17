@@ -1,8 +1,7 @@
 ---
 aliases:
   - brains
-tags:
-  - noted
+References: 1
 ---
 ## Synthesis
 - 

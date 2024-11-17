@@ -7,6 +7,8 @@ tags:
   - status/incomplete
   - type/website
 ---
+- Note
+	- Be sure to use code uploaded to the NeetCode website!
 - Complete
 	- Arrays & Hashing (9)
 		- (1) [[(217) Contains Duplicate]]
@@ -39,8 +41,6 @@ tags:
 		- (25) [[(153) Find Minimum in Rotated Sorted Array]]
 		- (26) [[(33) Search in Rotated Sorted Array]]
 		- (27) [[(981) Time Based Key-Value Store]]
-- Incomplete
-	- Binary Search (7)
 		- (28) [[(4) Median of Two Sorted Arrays]]
 	- Sliding Window (6)
 		- (29) [[(121) Best Time to Buy and Sell Stock]]
@@ -55,6 +55,8 @@ tags:
 		- (37) [[(143) Reorder List]]
 		- (38) [[(19) Remove Nth Node From End of List]]
 		- (39) [[(138) Copy List with Random Pointer]]
+- Incomplete
+	- Linked List (11)
 		- (40) [[(2) Add Two Numbers]]
 		- (41) [[(141) Linked List Cycle]]
 		- (42) [[(287) Find the Duplicate Number]]
