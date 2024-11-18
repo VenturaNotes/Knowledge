@@ -2,6 +2,8 @@
 Source:
   - https://leetcode.com/problems/add-two-numbers/
 ---
+## Synthesis
+## Personal
 ### My Solution
 ```python
 # Definition for singly-linked list.
@@ -84,6 +86,12 @@ class Solution:
 			```
 
 ## Source 2[^1]
+- Just need to add two numbers together
+- Many edge cases
+- Will have 2 linked lists
+- Non-negative integers
+- Digits stored in reverse order (helps us)
+- For each digit, we'll need to create a separate node
 
 ## References
 
