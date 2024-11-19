@@ -1,1 +1,28 @@
 [Video](https://www.youtube.com/watch?v=J2bjzpyW6ro)
+
+- ![[Screenshot 2024-11-18 at 8.04.51 PM.png|500]]
+	- Standard Matrix of a LT
+		- Consider the LT T: $\mathbb{R}^3 \to \mathbb{R}^4$ 
+		- Takes vectors in $\mathbb{R}^3$ and puts them in vectors of $\mathbb{R}^4$ 
+		- We're told that the linear transformation of T($e_1$) results in a 4-element vector
+			- [[e1]] is always a vector whose first element is 1 and every other element of the vector is 0
+				- It is a special vector
+				- We know this vector will be of length 3 for this problem because we defined the input to be of $\mathbb{R}^3$ 
+			- e2 is defined similarly. Since we're working with $\mathbb{R}^3$, it's length will be 3 and its second element is 1. 
+			- e3 will have third element 1 with other elements being 0
+	- Find the [[standard matrix]] representation of this linear transformation T.
+		- Any time we're dealing with linear transformations, we can find a matrix representation of the linear transformation. By definition, the standard matrix representation is always equal to the matrix of the following form
+			- $A = [T(e_1) \space T(e_2)\space T(e_3)]$
+				- The first column of the matrix representation is the linear transformation operating on e1, second column is the linear transformation operating on e2, and third column is linear transformation operating on e3
+		- Able to check answers as well
+	- Second example
+		- Compute linear transformation of this vector. Compute T(x)
+			- Have convenient bases that let us represent x in terms of other vectors $e_1$, $e_2$ and $e_3$ 
+		- T is a [[linear transformation]]. They have certain properties
+			- They have a property that the transformation of a sum is equal to the sum of the transformations
+			- The scale factors can be pulled outside the linear transformation
+		- Could have computed by just doing $Ax$ but we went ahead and did it using the definition of what it means to be a linear transformation. 
+		- This means that superposition and homogeneity hold and we can write $T(2e_1 - e_z + 3e_3) = 2T(e_1) - T(e_2) + 3T(e_3)$
+			- #question what does superposition and homogeneity mean in this case?
+			- The transformation of a sum is a sum of transformations
+			- Scale factors can be pulled outside of the liner transformation operation

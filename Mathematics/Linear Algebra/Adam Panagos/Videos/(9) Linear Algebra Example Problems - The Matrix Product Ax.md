@@ -1,1 +1,20 @@
 [Video](https://www.youtube.com/watch?v=Bw0-UqZ_xnY)
+
+- ![[Screenshot 2024-11-18 at 5.23.32 PM.png]]
+	- The matrix-vector product Ax
+		- In Ax
+			- A is a matrix
+			- x is a vector
+		- 3x3 matrix has 3 rows and 3 columns
+		- 3x1 matrix has 3 rows and 1 column
+			- For Ax to be defined, the interior dimensions need to matched
+				- When doing multiplication of a matrix times a vector or a matrix times a matrix or a vector times a vector, the interior dimensions have to match.
+				- Number of columns in "A" equals the number of rows in "x"
+					- Tells us that this quantity is properly defined
+					- Can actually compute what Ax is.
+			- Outer dimensions tell us the final size
+		- Computed Matrix-vector product Ax for this example
+			- Final answer is $3\times 1$ 
+	- Second example not possible because interior dimensions is not matched so Ax is undefined. Can't do this matrix-vector multiplication
+	- Third example is possible
+		- When we know it's defined, it's easy to compute because you let each column of "A" get multiplied by each element of "x"

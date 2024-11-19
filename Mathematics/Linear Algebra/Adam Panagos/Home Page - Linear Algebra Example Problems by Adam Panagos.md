@@ -8,11 +8,10 @@ tags:
 ---
 - Complete
 	- [[(1) Linear Algebra Example Problems - Intersecting Lines]]
-- Incomplete
 	- [[(2) Linear Algebra Example Problems - Solving Systems of Equations (1 and 3)]]
 	- [[(3) Linear Algebra Example Problems - Solving Systems of Equations (2 and 3)]]
 	- [[(4) Linear Algebra Example Problems - Solving Systems of Equations (3 and 3)]]
-	- [[(5) Linear Algebra Example Problems - Augmented Matrix Of A Consistent Linear System]]
+	-  [[(5) Linear Algebra Example Problems - Augmented Matrix Of A Consistent Linear System]]
 	- [[(6) Linear Algebra Example Problems - Reduced Row Echelon Form]]
 	- [[(7) Linear Algebra Example Problems - General Solution of Augmented Matrix]]
 	- [[(8) Linear Algebra Example Problems - Basic Vector Operations]]
@@ -30,6 +29,7 @@ tags:
 	- [[(20) Linear Algebra Example Problems - Finding 'A' of a Linear Transformation 2]]
 	- [[(21) Linear Algebra Example Problems - Finding 'A' of a Linear Transformation 3]]
 	- [[(22) Linear Algebra Example Problems - Linear Transformations - Rotation and Reflection]]
+- Incomplete
 	- [[(23) Linear Algebra Example Problems - One-to-One Linear Transformations]]
 	- [[(24) Linear Algebra Example Problems - Onto Linear Transformations]]
 	- [[(25) Linear Algebra Example Problems - Matrix Multiplication 1]]
