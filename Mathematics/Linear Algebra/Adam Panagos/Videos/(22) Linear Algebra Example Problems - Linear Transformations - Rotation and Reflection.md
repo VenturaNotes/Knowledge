@@ -1,1 +1,27 @@
 [Video](https://www.youtube.com/watch?v=Dga_4EA_QBE)
+
+- ![[Screenshot 2024-11-18 at 10.15.28 PM.png]]
+	- Linear Transformations: Rotations and Reflections
+	- Problem
+		- Consider the LT T: $\mathbb{R}^2 \to \mathbb{R}^2$
+		- Rotates points about the origin (clockwise) by $\frac {\pi}{6}$ radians, then reflects through line $x_1 = -x_2$ 
+		- Find matrix representation of this LT
+		- What is $T(\begin{bmatrix}1 \\ 0 \end{bmatrix}) = ?$
+	- It's a single linear transformation but it's decomposed into 2 steps. A rotation followed by a reflection
+	- Will find the matrix representation of this linear transformation. Then will compute what the linear transformation is of the point (1, 0)
+	- Rotation in clockwise direction about the origin
+		- $A_{rot} = \begin{bmatrix}cos \theta && sin \theta \\ -sin\theta &&cos \theta  \end{bmatrix}$ 
+			- Theta is the amount of the rotation performed in terms of radians
+		- Counterclockwise rotation
+			- $A_{rot} = \begin{bmatrix}cos \theta && -sin \theta \\ sin\theta &&cos \theta  \end{bmatrix}$ 
+	- Part 2 of problem
+		- $A_{ref}  = \begin{bmatrix}0 && -1 \\ -1 &&0  \end{bmatrix}$ 
+			- Will reflect about the line $x_2$ = $-x_1$ 
+			- Or think of it as an $x_1 = -x_2$ 
+			- That operation is described by this reflection matrix here
+			- Anytime you want to know how a linear transformation is operating on something, pick an arbitrary element x and operate on it.
+				- So we see for reflection, $x_2$ is in first coordinate and has been negated. $x_1$ is now in the second coordinate and also negated. We're reflecting it about the line we're supposed to be reflecting it about
+	- Part 3 of problem
+		- The order is very important. First thing that happens is a rotation and then the reflection. Since we multiply by a vector. Can think of a stack
+		- In general $A_{ref}A_{rot} \ne A_{rot}A_{ref}$ 
+			- In matrix multiplication, order matters. 

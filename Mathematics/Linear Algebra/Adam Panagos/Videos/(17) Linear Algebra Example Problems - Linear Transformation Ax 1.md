@@ -1,1 +1,18 @@
 [Video](https://www.youtube.com/watch?v=5E7M7NeAIWk)
+
+- ![[Screenshot 2024-11-18 at 7.18.27 PM.png]]
+	- [[Linear Transformation]] Ax #1 
+		- They can be very general operations or certain criteria that they need to satisfy 
+		- Will look at a transformation Ax for this particular example 
+			- The linear transformation will be described in terms of a matrix operating on a vector x
+	- Will consider "LT" to be linear transform for T:
+		- For T: $\mathbb{R}^3 \to \mathbb{R}^3$
+			- Will take a vector in $\mathbb{R}^3$ and return a vector in $\mathbb{R}^3$ 
+		- T(x) = Ax where A is defined as a 3x3 matrix
+			- When talking about transformations, we might generally just write T(x) down. The linear transformation takes the vector x and returns some output vector T(x) but for this particular example, will write down this concrete instance of Ax
+			- It turns out any linear transformation always has a matrix representation like this but will specifically state what this specific matrix is for this problem
+	- Doing [[scalar multiplication]] here
+		- We have computed the transformation of the vector x when x is equal to a particular vector for the specific case where our linear transformation is described by this matrix-vector product of Ax
+	- Second example
+		- The solution is the transformation of the vector x when x equals a specific vector and when the particular linear transformation we're looking at has a matrix representation given by the matrix A
+		- Looked at the linear transformation of two different vectors under the same linear transformation Ax
