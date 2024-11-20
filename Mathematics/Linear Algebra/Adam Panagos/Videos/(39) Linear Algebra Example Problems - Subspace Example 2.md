@@ -1,1 +1,31 @@
 [Video](https://www.youtube.com/watch?v=nGEgsgnbdLc)
+
+- ![[Screenshot 2024-11-19 at 8.59.11 PM.png]]
+	- Vector Subspace Example #2
+		- Let U be the set of all vectors of the form. We want to know if U is a subspace of $\mathbb{R}^3$ 
+		- U is obviously a [[subset]] of $\mathbb{R}^3$. Every single vector in U has this form so it's obviously some element of $\mathbb{R}^3$ but is it a [[subspace]] of $\mathbb{R}^3$
+			- Need to check 3 properties
+				- (1) Contains zero vector
+				- (2) Closed under addition
+				- (3) Closed under scalar multiplication
+	- We know in advance why this vector is not a subspace, but we want to show why the properties aren't true
+	- (1) The second coordinate is always equal to 2. No choice of r, s will ever get a zero here
+		- There's nothing that we can ever do to make a 0 in this second coordinate. Because of that, we can never get an all zero vector
+		- So this set of vectors U, even though it contains a large number of vectors, it does not contain the all zero vector. And because of that, we could just stop this problem right now and say that because it fails that check, it does not contain the zero vector, U is not a subspace of $\mathbb{R^3}$
+		- However, we will continue to work through the other properties to see how they play out
+	- (2) Choose two arbitrary vectors from U
+		- Chose arbitrary values to form `u` and `v`
+		- $r_1$ and $s_1$ are just scalars in $r$ obviously 
+			- So $r_1$ and $s_1$ are used to construct U
+			- $r_2$ and $s_2$ are used to construct the vector V
+		- So chose arbitrary vectors for the set U. They both have the form that you know vectors in U must have. 
+		- Second dimension does not fit the pattern for U
+			- Every element of U has a 2 as its second coordinate but we have a 4 here
+			- We found a vector that does not have the proper form
+		- Not closed under addition
+	- (3) Choose arbitrary vector v $\in$ U and scalar 'c'
+		- Does not fit pattern. For any other value of c, we don't end up with a 2 there.
+		- Not closed under scalar multiplication either
+			- We get a vector not in the set so not closed under scalar multiplication
+	- So the set of vectors was a subset of $\mathbb{R}^3$, but when trying to determine if it was a subspace of $\mathbb{R}^3$, if any of the 3 properties fail, it turns out, we don't have a subspace
+		- So set U is not a subspace of $\mathbb{R}^3$ 

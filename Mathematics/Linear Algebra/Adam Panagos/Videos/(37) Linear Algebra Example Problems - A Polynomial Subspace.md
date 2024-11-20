@@ -1,1 +1,41 @@
 [Video](https://www.youtube.com/watch?v=k3CnCq9b65M)
+
+- ![[Screenshot 2024-11-19 at 8.21.33 PM.png]]
+	- [[Polynomial subspace]]
+		- A polynomial subspace
+		- Will work with a polynomial vector space for this problem
+		- Consider the [[vector space]] $P_3$ where `+` and scalar multiplication are defined as "regular" polynomial operations.
+		- A [[vector space]] is just a collection of objects. In this case, the collection of objects is all polynomials of order 3 and the operations `+` and scalar multiplication are just the typical operations that we use when working with polynomials.
+			- So defined the collection of objects, sets of polynomials of order 3 and operations `+` as well as scalar multiplication operations
+				- That's all we need to define a vector space
+		- We've talked about [[polynomial vector spaces]] before so we know that $P_3$ is indeed a vector space
+		- Consider the set of all polynomials $p(x) = ax^3$ for a $\in$ $\mathbb{R}$ 
+			- This includes just a subset of the polynomials in $P_3$ because remember in $P_3$ includes polynomials of order 3 so even things like $1 + 2x^2$ is part of this set as is $1 + 2x + 9x^3$ is also part of this vector space
+			- What we've done here is restricted ourselves to just polynomials of the form $p(x) = ax^3$ so it can only contain an $x^3$ term times a scalar number `a` from the reals. So the set of all possible $ax^3$ is much smaller than the elements in the vector space $P_3$ 
+		- Question is: Is this set of polynomials ($p(x) = ax^3$ ) a [[subspace]] of $P_3$? 
+			- To determine if [[subspace]], need to check 3 things
+				- We know that $P_3$ is a vector space and we've chosen a subset of elements from it which is the subset $ax^3$. Because of that, instead of needing to check all 10 [[vector space axioms]] to establish the new set is a vector space, we only need to check 3 things. The subspace should:
+					- (1) Contains the [[zero vector]]
+					- (2) [[Closed under addition]]
+					- (3) [[Closed under scalar multiplication]]
+				- If It has these 3 properties, then the set is a subspace of the vector space $P_3$ and since it's a subspace, it's itself a vector space. 
+				- All the other 7 properties that we won't check explicitly, those are all inherited from $P_3$ in a trivial way that we don't even need to check for
+	- So let's go ahead and see if this set of polynomials of the form $ax^3$ for arbitrary values of `a` in the reals is indeed satisfying these three properties
+	- (1) Zero vector
+		- Does this collection of vectors contain the zero vector? We get to choose any value that we want in `a`. So for all `a` in the reals, we can let a = 0 so that p(x) = 0 is part of set
+		- So for any p(x) that we want to choose, for some arbitrary p(x) in set such as $bx^2$ or $1.2x^2$ or $a2x^2$, we can add zero to it and end up back where we started.
+			- For any p(x) : p(x) + 0 = p(x)
+				- So this element `p(x) = 0` satisfies exactly the zero property that we need. Any arbitrary p(x) that we choose and adding the 0 element shows that we get back to where we started. at p(x)
+				- so p(x) = 0 is part of the set so we can put a checkbox by the zero vector property
+	- (2) Closed under addition
+		- Choose two arbitrary polynomials $a_1x^3$ and $a_2x^3$. Adding them together just looks like another element from our set. My set is of the form $ax^3$ for all values `a`
+			- So when adding two arbitrary polynomials from set, we end up with another element from our set. So therefore, we are closed under vector addition
+				- #comment Honestly, this doesn't seem to be a good example, but the conclusion is true. 
+	- (3) Closed under scalar multiplication
+		- Arbitrary polynomial: $a_1x^3$ 
+		- Arbitrary scalar: b
+		- We get $ba_1x^3 \in ax^3$ which is an element of our set of polynomials $x^3$ because we have a number times $x^3$ 
+			- The set consists of all polynomials of the form $ax^3$ so the number $ba_1$ is in the set of reals
+		- So it is closed under scalar multiplication as well
+	- So for this subspace, I'm working with a set of polynomials taken from a larger set of polynomials. I have a subset. I have shown that it has a zero vector element, shown arbitrary elements when selected from my set and added together yield another element from my set so closed under addition. Also shown that when I choose an arbitrary element from my set and multiply it by an arbitrary scaler, I end up with another element from my set so I'm closed under scalar multiplication
+		- So having satisfied these three properties, we know that the set of polynomials in this problem is indeed a [[subspace]] of $P_3$ 
