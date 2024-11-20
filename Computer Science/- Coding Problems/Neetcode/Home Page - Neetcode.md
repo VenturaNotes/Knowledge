@@ -7,8 +7,6 @@ tags:
   - status/incomplete
   - type/website
 ---
-- Note
-	- Be sure to use code uploaded to the NeetCode website!
 - Complete
 	- Arrays & Hashing (9)
 		- (1) [[(217) Contains Duplicate]]
@@ -55,10 +53,10 @@ tags:
 		- (37) [[(143) Reorder List]]
 		- (38) [[(19) Remove Nth Node From End of List]]
 		- (39) [[(138) Copy List with Random Pointer]]
-- Incomplete
-	- Linked List (11)
 		- (40) [[(2) Add Two Numbers]]
 		- (41) [[(141) Linked List Cycle]]
+- Incomplete
+	- Linked List (11)
 		- (42) [[(287) Find the Duplicate Number]]
 		- (43) [[(146) LRU Cache]]
 		- (44) [[(23) Merge k Sorted Lists]]
@@ -69,6 +67,7 @@ tags:
 		- (48) [[(543) Diameter of Binary Tree]]
 		- (49) [[(110) Balanced Binary Tree]]
 		- (50) [[(100) Same Tree]]
+
 		- (51) [[(572) Subtree of Another Tree]]
 		- (52) [[(235) Lowest Common Ancestor of a Binary Search Tree]]
 		- (53) [[(102) Binary Tree Level Order Traversal]]

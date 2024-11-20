@@ -3,6 +3,8 @@ aliases:
   - range()
 ---
 ## Synthesis
+- range() is a python function
+### Questions
 - #question We can loop through a list such as `for x in range(6):` where x will go from 0 to 6. How can we go from -5 to 30 or some other specified range? 
 - #question How does the range() function work and what kind of flexibility can we get from it
 - #question Is it possible to have 4 arguments for the range function? 

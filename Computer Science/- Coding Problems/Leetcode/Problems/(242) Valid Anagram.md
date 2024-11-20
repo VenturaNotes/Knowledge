@@ -108,7 +108,6 @@ class Solution:
 
         return True
 ```
-
 ## References
 [^1]: https://icarus.cs.weber.edu/~dab/cs1410/textbook/8.Strings/progexample/anagram.html#:~:text=%22An%20anagram%20is%20a%20word,cases%20(upper%20or%20lower).
 [^2]: https://www.youtube.com/watch?v=9UtInBqnCgA
