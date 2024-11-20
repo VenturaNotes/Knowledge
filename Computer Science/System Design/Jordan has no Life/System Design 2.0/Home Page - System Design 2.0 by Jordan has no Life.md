@@ -8,9 +8,9 @@ tags:
 ---
 - Complete
 	- [[(1) What is Systems Design.  - Systems Design Interview - 0 to 1 with Google Software Engineer]]
-- Incomplete
 	- [[(2) Database Indexes - What do they do.  - Systems Design Interview - 0 to 1 with Google Software Engineer]]
 	- [[(3) How do Hash Indexes work.  - Systems Design Interview - 0 to 1 with Google Software Engineer]]
+- Incomplete
 	- [[(4) How do B-Tree Indexes work.  - Systems Design Interview - 0 to 1 with Google Software Engineer]]
 	- [[(5) LSM Tree + SSTable Database Indexes  - Systems Design Interview - 0 to 1 with Google Software Engineer]]
 	- [[(6) Indexes Concluded  - Systems Design Interview - 0 to 1 with Google Software Engineer]]

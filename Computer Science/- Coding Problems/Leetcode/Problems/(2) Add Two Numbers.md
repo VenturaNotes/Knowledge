@@ -86,12 +86,45 @@ class Solution:
 			```
 
 ## Source 2[^1]
-- Just need to add two numbers together
-- Many edge cases
-- Will have 2 linked lists
-- Non-negative integers
-- Digits stored in reverse order (helps us)
-- For each digit, we'll need to create a separate node
+- ![[Screenshot 2024-11-20 at 2.37.35 AM.png|500]]
+	- Just need to add two numbers together
+	- Many edge cases
+	- Will have 2 non-empty linked lists
+	- Non-negative integers
+	- Digits stored in reverse order (helps us)
+		- Each node contains a single digit
+	- For each digit, we'll need to create a separate node
+	- Need to remember there might be no extra nodes when doing 7 + 5. Solution is 12 So need to carry the 2 over
+	- Seems like 2 main edge cases to consider
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        dummy = ListNode()
+        cur = dummy
+
+        carry = 0
+        while l1 or l2 or carry:
+            v1 = l1.val if l1 else 0
+            v2 = l2.val if l2 else 0
+
+            # new digit
+            val = v1 + v2 + carry
+            carry = val // 10
+            val = val % 10
+            cur.next = ListNode(val)
+
+            # update ptrs
+            cur = cur.next
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+        return dummy.next
+```
 
 ## References
 
