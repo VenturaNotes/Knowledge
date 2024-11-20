@@ -1,1 +1,18 @@
 [Video](https://www.youtube.com/watch?v=iMZA4p7Wou0)
+
+- ![[Screenshot 2024-11-19 at 6.58.48 PM.png]]
+	- [[Matrix Determinant]] Computation
+		- Will use core definition of a determinant
+		- Will use [[co-factor expansion]]
+			- Will expand 1st row first (sometimes it's convenient to choose a row or column with many zeros because lots of terms turn into zero which is must easier to compute.)
+			- So to do a matrix computation for an arbitrary row or column is good to know
+		- Computing the determinant is given by this equation
+			- $det(A) = \Sigma^k_{i=1}(-1)^{i + j}detA_{ij}$ 
+				- It says we can compute determinant of matrix A by computing summation of these different terms. Each term has a certain sign. 
+				- If it's raised to an even power, it's a positive number. If it's an odd power, it's a negative number. The sign toggles back and forth. Then finding the determinant of a sub-matrix where the `ith` row and `jth` column have been removed from matrix A
+			- So did cofactor expansion about first row
+	- Example 2
+		- Doing co-factor expansion about the second column
+		- No matter which row or column you choose to expand about, you should get the exact same number because the matrix determinant is a number. It doesn't change based on how you compute it
+		- Learned how to do a matrix determinant computation expanding about any arbitrary row that we want. Straightforward once we figure out the starting sign. Just toggle the signs back and forth. Just need to keep track of how to compute the initial starting sign, and it's based on ${i + j}$ 
+			- Whatever row + column you're currently in gives you the sign that you should start off your computation with

@@ -29,7 +29,6 @@ tags:
 	- [[(20) Linear Algebra Example Problems - Finding 'A' of a Linear Transformation 2]]
 	- [[(21) Linear Algebra Example Problems - Finding 'A' of a Linear Transformation 3]]
 	- [[(22) Linear Algebra Example Problems - Linear Transformations - Rotation and Reflection]]
-- Incomplete
 	- [[(23) Linear Algebra Example Problems - One-to-One Linear Transformations]]
 	- [[(24) Linear Algebra Example Problems - Onto Linear Transformations]]
 	- [[(25) Linear Algebra Example Problems - Matrix Multiplication 1]]
@@ -47,6 +46,7 @@ tags:
 	- [[(37) Linear Algebra Example Problems - A Polynomial Subspace]]
 	- [[(38) Linear Algebra Example Problems - Subspace Example 1]]
 	- [[(39) Linear Algebra Example Problems - Subspace Example 2]]
+- Incomplete
 	- [[(40) Linear Algebra Example Problems - Subspace Example 3]]
 	- [[(41) Linear Algebra Example Problems - Subspace Example 4]]
 	- [[(42) Linear Algebra Example Problems - Subspace Example 5]]

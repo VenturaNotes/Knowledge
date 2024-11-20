@@ -1,1 +1,30 @@
 [Video](https://www.youtube.com/watch?v=q97HmMdD8ZM)
+
+- ![[Screenshot 2024-11-19 at 8.39.42 PM.png]]
+	- [[Subspace]] example #1
+		- Let U be the set of all vectors of the form shown in the image above where r, s $\in$ $\mathbb{R}$ 
+	- Is U a [[subspace]] of $\mathbb{R}^3$ 
+		- U looks like $\mathbb{R}^3$ but it contains just a subset of the vectors of $\mathbb{R}^3$ because everything has been restricted in the form as shown
+	- So the question we have, given that we've constructed this subset of vectors from the vector space $\mathbb{R}^3$, is U actually a proper subspace of $\mathbb{R}^3$?
+	- So is U itself a [[vector space]]?
+	- We can rewrite vector
+		- The general form can be factored as this [[linear combination]] in terms of `r` times a vector + `s` times a vector
+		- Both of these vectors are actually elements of $\mathbb{R}^3$ 
+			- That fact alone helps us solve this problem in terms of determining if U is a subspace of $\mathbb{R}^3$ 
+			- Since we've been able to write U in this form of `r` times a vector + `s` times a vector, for all values of `r` and `s`, by definition we've been able to write this set U as the [[span]] of these vectors
+				- Remember, span means take all linear combinations of the vectors 
+				- That's exactly what we have here. `r` and `s` are arbitrary scalars from the reals so it's clear we can write U as the span of these two vectors
+		- How does this information help us establish that U is a subspace of $\mathbb{R}^3$? 
+			- Well there is a theorem that helps us with this
+	- Theorem:
+		- If $v_1, v_2, ..., v_n \in V$, then span $\{v_1, v_2, ..., v_n\}$ is subspace of V
+			- If you have vectors $v_1, v_2$ all the way up to $v_n$, so some set of vectors, and they are in the [[vector space]] V, then the [[span]] of those vectors is a subspace of V
+			- So there's a theorem that says, given some finite collection of vectors from a vector space, their span is always a [[subspace]] of the vector space
+		- For this problem, we have established that we have two vectors in $\mathbb{R}^3$ and we were able to show that U is the span of those two vectors which means that U by this theorem is a subspace of $\mathbb{R}^3$ 
+	- So this is a very useful theorem
+		- Anytime that we're working with a vector space. If we have vectors from that vector space, and we take the span of them, the set of all linear combinations, we know that we always end up with a subspace of the upper vector
+		- For this particular problem, it means that U is a subspace of $\mathbb{R}^3$ because we were able to factor our original vector into these two vectors. We know that both were in $\mathbb{R}^3$ and we had the fact that U was the span of these vectors.
+			- So that establishes the fact that U is a subspace of $\mathbb{R}^3$ by this theorem.
+	- Another way to work this problem is actually just go back and establish the properties of a subspace. Remember, when we're working with a subspace or a subset of vectors from a vector space, instead of having to check all 10 properties, there's just 3 properties that we need to check
+		- Zero vector is present, closed under addition and closed under scalar multiplication
+		- This would be another way to work this problem is to work through each of these three properties and show they're all true

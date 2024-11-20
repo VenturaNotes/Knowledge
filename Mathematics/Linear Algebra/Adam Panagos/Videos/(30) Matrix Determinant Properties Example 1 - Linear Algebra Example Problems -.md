@@ -1,1 +1,19 @@
 [Video](https://www.youtube.com/watch?v=4AP4uC5tWsc)
+
+- ![[Screenshot 2024-11-19 at 7.05.03 PM.png]]
+	- Matrix determinant properties
+	- Will look at a useful property of determinants
+	- First example
+		- We just found that the `det(B) = - det(A)`
+			- And this is just from the second and third rows being interchanged with each other
+			- One row interchanged
+			- Magnitudes were the same, just the sign flip flopped
+	- Second example
+		- Row 1 switched with row 2
+		- Row 2 switched with row 3
+		- We found that `det(C) = det(A)`
+			- Two rows interchanged
+	- Not a proof, but showing what happens when we interchange rows of matrices. It's just the sign that changes possibly
+	- Not a proof, but in general, a sign of `det`($\cdot$) changes each time a row is interchanged
+		- If you have one row interchanged, you multiply by -1
+		- If you have two rows interchanged, then you multiply -1 twice
