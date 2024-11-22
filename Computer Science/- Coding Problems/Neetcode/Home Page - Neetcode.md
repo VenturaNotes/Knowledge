@@ -55,8 +55,6 @@ tags:
 		- (39) [[(138) Copy List with Random Pointer]]
 		- (40) [[(2) Add Two Numbers]]
 		- (41) [[(141) Linked List Cycle]]
-- Incomplete
-	- Linked List (11)
 		- (42) [[(287) Find the Duplicate Number]]
 		- (43) [[(146) LRU Cache]]
 		- (44) [[(23) Merge k Sorted Lists]]
@@ -67,13 +65,14 @@ tags:
 		- (48) [[(543) Diameter of Binary Tree]]
 		- (49) [[(110) Balanced Binary Tree]]
 		- (50) [[(100) Same Tree]]
-
 		- (51) [[(572) Subtree of Another Tree]]
 		- (52) [[(235) Lowest Common Ancestor of a Binary Search Tree]]
 		- (53) [[(102) Binary Tree Level Order Traversal]]
 		- (54) [[(199) Binary Tree Right Side View]]
 		- (55) [[(1448) Count Good Nodes in Binary Tree]]
 		- (56) [[(98) Validate Binary Search Tree]]
+- Incomplete
+	- Trees (15)
 		- (57) [[(74) Kth Smallest Element in a BST]]
 		- (58) [[(105) Construct Binary Tree from Preorder and Inorder Traversal]]
 		- (59) [[(124) Binary Tree Maximum Path Sum]]
@@ -116,6 +115,7 @@ tags:
 		- (92) [[(127) Word Ladder]]
 	- 1-D DP (12)
 		- (93) [[(70) Climbing Stairs]]
+
 		- (94) [[(746) Min Cost Climbing Stairs]]
 		- (95) [[(198) House Robber]]
 		- (96) [[(213) House Robber II]]
