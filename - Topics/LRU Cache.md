@@ -1,3 +1,7 @@
+---
+aliases:
+  - Least Recently Used Cache
+---
 ## Synthesis
 - 
 ## Source [^1]

@@ -1,3 +1,7 @@
+---
+aliases:
+  - tree traversals
+---
 ## Synthesis
 - 
 ## Source [^1]

@@ -1,0 +1,4 @@
+---
+aliases:
+  - lowest common ancestor
+---
