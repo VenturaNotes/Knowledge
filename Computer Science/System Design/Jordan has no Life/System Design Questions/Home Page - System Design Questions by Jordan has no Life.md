@@ -13,9 +13,9 @@ tags:
 	- [[(4) Messenger and WhatsApp Design Deep Dive with Google SWE!  - Systems Design Interview Question 4]]
 	- [[(5) Netflix and YouTube Design Deep Dive with Google SWE!  - Systems Design Interview Question 5]]
 	- [[(6) Typeahead Suggestion Design Deep Dive with Google SWE!  - Systems Design Interview Question 6]]
-- Incomplete
 	- [[(7) Rate Limiter Design Deep Dive with Google SWE!  - Systems Design Interview Question 7]]
 	- [[(8) Twitter Search and ElasticSearch Design Deep Dive with Google SWE!  - Systems Design Interview Question 8]]
+- Incomplete
 	- [[(9) Web Crawler Design Deep Dive with Google SWE!  - Systems Design Interview Question 9]]
 	- [[(10) Yelp Design Deep Dive with Google SWE!  - Systems Design Interview Question 10]]
 
