@@ -2,9 +2,10 @@
 Source:
   - https://neetcode.io/roadmap
   - https://www.youtube.com/playlist?list=PLi5qQTYe1fJ-6zNUR4YnVCvHVMhibe5iG
-Length: "150"
+Length: 34 hours, 57 minutes, 20 seconds
 tags:
   - status/incomplete
+  - type/playlist
   - type/website
 ---
 - Complete
@@ -71,8 +72,6 @@ tags:
 		- (54) [[(199) Binary Tree Right Side View]]
 		- (55) [[(1448) Count Good Nodes in Binary Tree]]
 		- (56) [[(98) Validate Binary Search Tree]]
-- Incomplete
-	- Trees (15)
 		- (57) [[(74) Kth Smallest Element in a BST]]
 		- (58) [[(105) Construct Binary Tree from Preorder and Inorder Traversal]]
 		- (59) [[(124) Binary Tree Maximum Path Sum]]
@@ -96,6 +95,8 @@ tags:
 		- (74) [[(1046) Last Stone Weight]]
 		- (75) [[(973) K Closest Points to Origin]]
 		- (76) [[(215) Kth Largest Element in an Array]]
+- Incomplete
+	- Heap/Priority Queue (7)
 		- (77) [[(621) Task Scheduler]]
 		- (78) [[(355) Design Twitter]]
 		- (79) [[(295) Find Median from Data Stream]]

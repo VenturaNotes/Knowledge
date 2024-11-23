@@ -4,6 +4,9 @@ aliases:
   - sets
 ---
 ## Synthesis
+- Empty set initialization: `my_variable = set()`
+	- Avoid `my_variable = {}` as that creates a [[dictionary (Python)|dictionary]]
+### Questions
 - #question what is [[auxiliary space (python)|auxiliary space]]
 ## Source [^1]
 ```python
@@ -216,10 +219,10 @@ print(my_set)  # Output: {1, 2, 3}
 ```
 #question I don't understand what the `*` is doing. It seems confusing
 #question I want to understand how unpacking actually works
-#question Modify the code as well...
+#question Modify the code as well.
 
-### Implementation
-- 
+### Using the get Method
+
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_tuples4

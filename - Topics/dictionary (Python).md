@@ -8,14 +8,13 @@ aliases:
 ---
 ## Synthesis
 ## Source [^1]
-### Description
+### Ordered or Unordered
 - As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered. 
- 
 ## Source [^2]
-### Description
-- Creating a dictionary
-	- `diner = {}`
-	- `diner = dict()`
+### Dictionary Creation/Initialization
+- `diner = {}`
+	- Initializing an empty dictionary is a constant-time operation [^3]
+- `diner = dict()`
 
 ## Source [^3]
 
@@ -89,6 +88,13 @@ graduation_year: 2024
 	- #question How to use `threading.lock`
 	- #question What is threading in python
 	- #question what is the [[with (python)]] statement in python
+
+### Get Method
+- Used to retrieve value associated with a given key. If the key does not exist, it returns a specified default value instead of raising a [[KeyError (Python)|KeyError]]. 
+- In `dictionary.get(key, default_value)`
+	- `key`: Retrieve value the key holds
+	- `default_value`: Optional value to return if key not in dictionary. Otherwise, returns `None` by default
+
 ## Source [^5]
 
 ### Methods
@@ -110,6 +116,9 @@ car["color"] = "red" # Changes color to "red"
 car.pop("model") # Removes "model" key/value pair
 car.clear() # Empties dictionary
 ```
+## Source[^9]
+### Comparing Dictionaries
+- If two dictionaries have the same number of items, it takes O(n) equality checks with `n`, the number of items
 ## References
 
 [^1]: https://www.w3schools.com/python/python_dictionaries.asp
@@ -120,3 +129,4 @@ car.clear() # Empties dictionary
 [^6]: https://www.w3schools.com/python/exercise.asp?filename=exercise_dictionaries1
 [^7]: https://sentry.io/answers/hashtable-vs-hashmap/#:~:text=Another%20difference%20between%20a%20HashMap,only%20one%20can%20be%20null%20.
 [^8]: https://stackoverflow.com/questions/63910315/whats-the-difference-between-a-hashmap-and-a-hashtable-in-python
+[^9]: https://stackoverflow.com/questions/57346276/what-is-the-time-complexity-of-comparing-2-dictionaries-in-python#:~:text=Short%20answer%3A%20If%20the%20two,checks%20can%20be%20computationally%20expensive.
