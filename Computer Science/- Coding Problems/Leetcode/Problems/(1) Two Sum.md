@@ -39,6 +39,84 @@ class Solution(object):
 ```
 - Guarantees a solution to return
 - [[enumerate() (Python)|enumerate]]
+
+## Source[^2]
+- Return indices `i` and `j` such that 
+	- their elements sum to the target
+	- `i != j`
+	- Return the smaller index first
+### Brute Force
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        for i in range(len(nums)):
+            for j in range(i + 1, len(nums)):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
+        return []
+```
+- Time Complexity: $O(n^2)$
+- Space Complexity: $O(1)$
+- #comment 
+	- Have `i` iterate through `nums` and have `j` iterate through `nums` while always starting one ahead of `i`
+		- This guarantees that `i != j` and it prevents re-calculations
+	- Might not need the last `return []` since every input would have exactly one pair of indices
+### Sorting
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        A = []
+        for i, num in enumerate(nums):
+            A.append([num, i])
+        
+        A.sort()
+        i, j = 0, len(nums) - 1
+        while i < j:
+            cur = A[i][0] + A[j][0]
+            if cur == target:
+                return [min(A[i][1], A[j][1]), 
+                        max(A[i][1], A[j][1])]
+            elif cur < target:
+                i += 1
+            else:
+                j -= 1
+        return []
+```
+- Time Complexity: $O(nlogn)$ 
+- Space Complexity: $O(n)$
+- #comment 
+	- 
+	- Don't need the `return []` as the last line since there will always be a solution given the input for this problem
+### Hash Map (Two Pass)
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        indices = {}  # val -> index
+
+        for i, n in enumerate(nums):
+            indices[n] = i
+
+        for i, n in enumerate(nums):
+            diff = target - n
+            if diff in indices and indices[diff] != i:
+                return [i, indices[diff]]
+```
+- Time Complexity: $O(n)$
+- Space Complexity: $O(n)$
+### Hash Map (One Pass)
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        prevMap = {}  # val -> index
+
+        for i, n in enumerate(nums):
+            diff = target - n
+            if diff in prevMap:
+                return [prevMap[diff], i]
+            prevMap[n] = i
+```
+- Time Complexity: $O(n)$
+- Space Complexity: $O(n)$ 
 ## Others
 ### My Solution
 Brute Force Solution
@@ -62,7 +140,7 @@ class Solution(object):
             count2 = -1
 ```
 
-### Approach 1: Brute Force [^2]
+### Approach 1: Brute Force [^3]
 Algorithm
 ```java
 class Solution(object):
@@ -77,8 +155,8 @@ class Solution(object):
 	- New memory is not allocated
 - Loop through each element $x$ and find if there is another value that equals to $target-x$. The reason this does not result in a "Time Limit Exceeded" error is because the range your continuing from is (i+j).
 
-### Approach 2: Two-pass Hash Table [^3]
-- There is no "two pass" hash table. It just means their "two pass" hash table is really "a hash table used twice for the solution" [^4]
+### Approach 2: Two-pass Hash Table [^4]
+- There is no "two pass" hash table. It just means their "two pass" hash table is really "a hash table used twice for the solution" [^5]
 	- This doesn't mean either that the last for loop only loops twice. Given an example problem such as `[1, 2, 3, 4, 5, 6, 7]` with `target = 13`, it loops 6 times. 
 	- It seems like 2 pass just means we iterate once through the list to add the key-value pairs and we iterate a second time to find the complement within the hash map. $O(2n)$ 
 - [[Hash Table]]: Best way to maintain a mapping of each element in the array to its index.
@@ -87,7 +165,7 @@ class Solution(object):
 	- Supports fast lookup in near constant time. 
 		- If a collision occurred, a lookup could degenerate to O(n)
 		- However, it should be amortized $O(1)$ as long as hash function chosen carefully
-			- Amortized time is the way to express the time complexity when an algorithm has the very bad time complexity only once in a while besides the time complexity that happens most of time. [^5]
+			- Amortized time is the way to express the time complexity when an algorithm has the very bad time complexity only once in a while besides the time complexity that happens most of time. [^6]
 		- It is amortized $O(1)$ because each number in the array is unique so the space being placed in the HashMap is always available (no collisions will occur)
 - Algorithm in Python
 ```python
@@ -105,7 +183,7 @@ class Solution:
 			        # matter what is returned first
                 return [i, hashmap[complement]] 
 ```
-- The -> in the function above marks the return function annotation. [^6]
+- The -> in the function above marks the return function annotation. [^7]
 - In order to test the code above
 ```python
 test = Solution()
@@ -117,7 +195,7 @@ print(test.twoSum(myList,6))
 	- Time Complexity: $O(n)$ 
 	- Space Complexity: $O(n)$ 
 
-### Approach 3: One-pass Hash Table [^7]
+### Approach 3: One-pass Hash Table [^8]
 - We only need to traverse the list once by inserting elements into the hash table and checking if the current element's compliment already exists
 - Python Solution
 ```python
@@ -136,9 +214,10 @@ class Solution:
 ## References
 
 [^1]: https://www.youtube.com/watch?v=KLlXCFG5TnA
-[^2]: https://leetcode.com/problems/two-sum/editorial/
-[^3]: https://leetcode.com/problems/two-sum/solutions/127810/two-sum/
-[^4]: https://stackoverflow.com/questions/65085114/what-is-2-pass-and-1-pass-hash-table#:~:text=Since%20their%20%22better%20solution%22%20stores,this%20answer%20to%20receive%20notifications
-[^5]: https://medium.com/@satorusasozaki/amortized-time-in-the-time-complexity-of-an-algorithm-6dd9a5d38045
-[^6]: https://stackoverflow.com/questions/14379753/what-does-mean-in-python-function-definitions
-[^7]: https://leetcode.com/problems/two-sum/solutions/127810/two-sum/
+[^2]: https://neetcode.io/roadmap
+[^3]: https://leetcode.com/problems/two-sum/editorial/
+[^4]: https://leetcode.com/problems/two-sum/solutions/127810/two-sum/
+[^5]: https://stackoverflow.com/questions/65085114/what-is-2-pass-and-1-pass-hash-table#:~:text=Since%20their%20%22better%20solution%22%20stores,this%20answer%20to%20receive%20notifications
+[^6]: https://medium.com/@satorusasozaki/amortized-time-in-the-time-complexity-of-an-algorithm-6dd9a5d38045
+[^7]: https://stackoverflow.com/questions/14379753/what-does-mean-in-python-function-definitions
+[^8]: https://leetcode.com/problems/two-sum/solutions/127810/two-sum/

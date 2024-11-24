@@ -95,8 +95,6 @@ tags:
 		- (74) [[(1046) Last Stone Weight]]
 		- (75) [[(973) K Closest Points to Origin]]
 		- (76) [[(215) Kth Largest Element in an Array]]
-- Incomplete
-	- Heap/Priority Queue (7)
 		- (77) [[(621) Task Scheduler]]
 		- (78) [[(355) Design Twitter]]
 		- (79) [[(295) Find Median from Data Stream]]
@@ -105,6 +103,8 @@ tags:
 		- (81) [[(695) Max Area of Island]]
 		- (82) [[(133) Clone Graph]]
 		- (83) [[(155) Walls and Gates - Multi-Source BFS - Leetcode 286 - Python]]
+- Incomplete
+	- Graphs (13)
 		- (84) [[(994) Rotting Oranges]]
 		- (85) [[(417) Pacific Atlantic Water Flow]]
 		- (86) [[(130) Surrounded Regions]]
