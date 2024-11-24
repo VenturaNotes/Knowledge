@@ -103,26 +103,25 @@ tags:
 		- (81) [[(695) Max Area of Island]]
 		- (82) [[(133) Clone Graph]]
 		- (83) [[(155) Walls and Gates - Multi-Source BFS - Leetcode 286 - Python]]
-- Incomplete
-	- Graphs (13)
 		- (84) [[(994) Rotting Oranges]]
 		- (85) [[(417) Pacific Atlantic Water Flow]]
-		- (86) [[(130) Surrounded Regions]]
+		-  (86) [[(130) Surrounded Regions]]
 		- (87) [[(207) Course Schedule]]
 		- (88) [[(210) Course Schedule II]]
 		- (89) [[(128) Graph Valid Tree - Leetcode 261 - Python]]
 		- (90) [[(141) Number of Connected Components in an Undirected Graph - Union Find - Leetcode 323 - Python]]
 		- (91) [[(684) Redundant Connection]]
 		- (92) [[(127) Word Ladder]]
-	- 1-D DP (12)
+	- 1-D DP
 		- (93) [[(70) Climbing Stairs]]
-
 		- (94) [[(746) Min Cost Climbing Stairs]]
 		- (95) [[(198) House Robber]]
 		- (96) [[(213) House Robber II]]
 		- (97) [[(5) Longest Palindromic Substring]]
 		- (98) [[(647) Palindromic Substrings]]
 		- (99) [[(91) Decode Ways]]
+- Incomplete
+	- 1-D DP (12)
 		- (100) [[(322) Coin Change]]
 		- (101) [[(152) Maximum Product Subarray]]
 		- (102) [[(139) Word Break]]
@@ -141,6 +140,7 @@ tags:
 		- (113) [[(45) Jump Game II]]
 		- (114) [[(134) Gas Station]]
 		- (115) [[(846) Hand of Straights]]
+	
 		- (116) [[(1899) Merge Triplets to Form Target Triplet]]
 		- (117) [[(763) Partition Labels]]
 		- (118) [[(678) Valid Parenthesis String]]
