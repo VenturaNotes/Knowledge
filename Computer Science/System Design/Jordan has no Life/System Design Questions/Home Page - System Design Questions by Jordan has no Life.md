@@ -15,10 +15,9 @@ tags:
 	- [[(6) Typeahead Suggestion Design Deep Dive with Google SWE!  - Systems Design Interview Question 6]]
 	- [[(7) Rate Limiter Design Deep Dive with Google SWE!  - Systems Design Interview Question 7]]
 	- [[(8) Twitter Search and ElasticSearch Design Deep Dive with Google SWE!  - Systems Design Interview Question 8]]
-- Incomplete
 	- [[(9) Web Crawler Design Deep Dive with Google SWE!  - Systems Design Interview Question 9]]
 	- [[(10) Yelp Design Deep Dive with Google SWE!  - Systems Design Interview Question 10]]
-
+- Incomplete
 	- [[(11) Uber and Google Maps Design Deep Dive with Google SWE!  - Systems Design Interview Question 11]]
 	- [[(12) TicketMaster Design Deep Dive with Google SWE!  - Systems Design Interview Question 12]]
 	- [[(13) Google Docs Design Deep Dive with Google SWE!  - Systems Design Interview Question 13]]
