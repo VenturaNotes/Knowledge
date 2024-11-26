@@ -17,12 +17,12 @@ tags:
 	- [[(8) Twitter Search and ElasticSearch Design Deep Dive with Google SWE!  - Systems Design Interview Question 8]]
 	- [[(9) Web Crawler Design Deep Dive with Google SWE!  - Systems Design Interview Question 9]]
 	- [[(10) Yelp Design Deep Dive with Google SWE!  - Systems Design Interview Question 10]]
-- Incomplete
 	- [[(11) Uber and Google Maps Design Deep Dive with Google SWE!  - Systems Design Interview Question 11]]
 	- [[(12) TicketMaster Design Deep Dive with Google SWE!  - Systems Design Interview Question 12]]
 	- [[(13) Google Docs Design Deep Dive with Google SWE!  - Systems Design Interview Question 13]]
 	- [[(14) Distributed Metrics and Logging Design Deep Dive with Google SWE!  - Systems Design Interview Question 14]]
 	- [[(15) Low Latency Stock Exchange Design Deep Dive with Google SWE!  - Systems Design Interview Question 15]]
+- Incomplete
 	- [[(16) Zoom and Skype Video Chat Design Deep Dive with Google SWE!  - Systems Design Interview Question 16]]
 	- [[(17) Twitch Live Streaming Design Deep Dive with Google SWE!  - Systems Design Interview Question 17]]
 	- [[(18) Amazon and Flipkart Ecommerce Design Deep Dive with Google SWE!  - Systems Design Interview Question 18]]
