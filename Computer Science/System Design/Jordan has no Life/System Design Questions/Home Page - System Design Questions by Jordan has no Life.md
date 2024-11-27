@@ -22,9 +22,9 @@ tags:
 	- [[(13) Google Docs Design Deep Dive with Google SWE!  - Systems Design Interview Question 13]]
 	- [[(14) Distributed Metrics and Logging Design Deep Dive with Google SWE!  - Systems Design Interview Question 14]]
 	- [[(15) Low Latency Stock Exchange Design Deep Dive with Google SWE!  - Systems Design Interview Question 15]]
-- Incomplete
 	- [[(16) Zoom and Skype Video Chat Design Deep Dive with Google SWE!  - Systems Design Interview Question 16]]
 	- [[(17) Twitch Live Streaming Design Deep Dive with Google SWE!  - Systems Design Interview Question 17]]
+- Incomplete
 	- [[(18) Amazon and Flipkart Ecommerce Design Deep Dive with Google SWE!  - Systems Design Interview Question 18]]
 	- [[(19) Top K Leaderboard Design Deep Dive with Google SWE!  - Systems Design Interview Question 19]]
 	- [[(20) Recommendation Engine Design Deep Dive with Google SWE!  - Systems Design Interview Question 20]]

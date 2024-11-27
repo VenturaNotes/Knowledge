@@ -1,6 +1,6 @@
 ---
 aliases:
-  - quadtrees
+  - real-time messaging protocol
 ---
 ## Synthesis
 - 
