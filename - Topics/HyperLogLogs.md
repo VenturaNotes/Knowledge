@@ -1,3 +1,7 @@
+---
+aliases:
+  - HyperLogLog
+---
 ## Synthesis
 - 
 ## Source [^1]
