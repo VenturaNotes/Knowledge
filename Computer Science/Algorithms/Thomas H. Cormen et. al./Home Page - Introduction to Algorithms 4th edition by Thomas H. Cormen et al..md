@@ -527,6 +527,37 @@ solution = [1,1,0,0,1]
 print(Add_Binary_Integers(A, B, len(A)))
 ```
 ###### Answer
+### (2.2) Analyzing algorithms
+### (2.3) Designing algorithms
+## (3) Characterizing Running Times
+### (3.1) O-notation, Omega-notation, and theta-notation
+### (3.2) Asymptotic notation: formal definitions
+### (3.3) Standard notations and common functions
+## (4) Divide-and-Conquer
+### (4.1) Multiplying square matrices
+### (4.2) Strassen's algorithm for matrix multiplication
+### (4.3) The substitution method for solving recurrences
+### (4.4) The recursion-tree method for solving recurrences
+### (4.5) The master method for solving recurrences
+### (4.6) Proof of the continuous master theorem
+### (4.7) Akra-Bazzi recurrences
+## (5) Probabilistic Analysis and Randomized Algorithms
+### (5.1) The hiring problem
+### (5.2) Indicator random variables
+### (5.3) Randomized algorithms
+### (5.4) Probabilistic analysis and further uses of indicator random variables
+## II Sorting and Order Statistics
+## (6) Heapsort
+### (6.1) Heaps
+### (6.2) Maintaining the heap property
+### (6.3) Building a heap
+### (6.4) The heapsort algorithm
+### (6.5) Priority queues
+## (7) Quicksort
+### (7.1) Description of quicksort
+### (7.2) Performance of quicksort
+### (7.3) A randomized version of quicksort
+### (7.4)
 
 ## References
 [^1]: https://en.wikipedia.org/wiki/Introduction_to_Algorithms

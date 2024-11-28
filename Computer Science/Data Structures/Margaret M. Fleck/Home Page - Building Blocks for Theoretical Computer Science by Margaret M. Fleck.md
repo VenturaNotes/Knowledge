@@ -521,7 +521,214 @@ Progress: "27"
 		- ![[Screenshot 2023-08-19 at 3.32.13 AM.png]]
 	- Negation is
 		- ![[Screenshot 2023-08-19 at 3.32.26 AM.png]]
-
+### (2.16) Binding and scope
+### (2.17) Variations in Notation
+## (3) Proofs
+### (3.1) Proving a universal statement
+### (3.2) Another example of direct proof involving odd and even
+### (3.3) Direct proof outline
+### (3.4) Proving existential statements
+### (3.5) Disproving a universal statement
+### (3.6) Disproving an existential statement
+### (3.7) Recap of proof methods
+### (3.8) Direct proof: example with two variables
+### (3.9) Another example with two variables
+### (3.10) Proof by cases
+### (3.11) Rephrasing claims
+### (3.12) Proof by contrapositive
+### (3.13) Another example of proof by contrapositive
+## (4) Number Theory
+### (4.1) Factors and multiples
+### (4.2) Direct proof with divisibility
+### (4.3) Stay in the Set
+### (4.4) Prime numbers
+### (4.5) GCD and LCM
+### (4.6) The division algorithm
+### (4.7) Euclidean algorithm
+### (4.8) Pseudocode
+### (4.9) A recursive version of gcd
+### (4.10) Congruence mod k
+### (4.11) Proofs with congruence mod k
+### (4.12) Equivalence classes
+### (4.13) Wider perspective on equivalence
+### (4.14) Variation in Terminology
+## (5) Sets
+### (5.1) Sets
+### (5.2) Things to be careful about
+### (5.3) Cardinality, inclusion
+### (5.4) Vacuous truth
+### (5.5) Set operations
+### (5.6) Set identities
+### (5.7) Size of set union
+### (5.8) Product rule
+### (5.9) Combining these basic rules
+### (5.10) Proving facts about set inclusion
+### (5.11) An abstract example
+### (5.12) An example with products
+### (5.13) A proof using sets and contrapositive
+### (5.14) Variation in notation
+## (6) Relations
+### (6.1) Relations
+### (6.2) Properties of relations: reflexive
+### (6.3) Symmetric and antisymmetric
+### (6.4) Transitive
+### (6.5) Types of relations
+### (6.6) Proving that a relation is an equivalence relation
+### (6.7) Proving antisymmetry
+## (7) Functions and onto
+### (7.1) Functions
+### (7.2) When are functions equal?
+### (7.3) What isn't a function?
+### (7.4) Images and Onto
+### (7.5) Why are some functions not onto?
+### (7.6) Negating onto
+### (7.7) Nested quantifiers
+### (7.8) Proving that a function is onto
+### (7.9) A 2D example
+### (7.10) Composing two functions
+### (7.11) A proof involving composition
+### (7.12) Variation in terminology
+## (8) Functions and one-to-one
+### (8.1) One-to-one
+### (8.2) Bijections
+### (8.3) Pigeonhole Principle
+### (8.4) Permutations
+### (8.5) Further applications of permutations
+### (8.6) Proving that a function is one-to-one
+### (8.7) Composition and one-to-one
+### (8.8) Strictly increasing functions are one-to-one
+### (8.9) Making this proof more succinct
+### (8.10) Variation in terminology
+## (9) Graphs
+### (9.1) Graphs
+### (9.2) Degrees
+### (9.3) Complete graphs
+### (9.4) Cycle graphs and wheels
+### (9.5) Isomorphism
+### (9.6) Subgraphs
+### (9.7) Walks, paths, and cycles
+### (9.8) Connectivity
+### (9.9) Distances
+### (9.10) Euler circuits
+### (9.11) Bipartite graphs
+### (9.12) Variation in terminology
+## (10) 2-way Bounding
+### (10.1) Marker Making
+### (10.2) Pigeonhole point placement
+### (10.3) Graph coloring
+### (10.4) Why care about graph coloring?
+### (10.5) Proving set equality
+### (10.6) Variation in terminology
+## (11) Induction
+### (11.1) Introduction to induction
+### (11.2) An Example
+### (11.3) Why is this legit?
+### (11.4) Building an inductive proof
+### (11.5) Another example
+### (11.6) Some comments about style
+### (11.7) A geometrical example
+### (11.8) Graph coloring
+### (11.9) Postage example
+### (11.10) Nim
+### (11.1) Prime factorization
+### (11.12) Variation in notation
+## (12) Recursive Definition
+### (12.1) Recursive definitions
+### (12.2) Finding closed forms
+### (12.3) Divide and conquer
+### (12.4) Hypercubes
+### (12.5) Proofs with recursive definitions
+### (12.6) Inductive definition and strong induction
+### (12.7) Variation in notation
+## (13) Trees
+### (13.1) Why trees?
+### (13.2) Defining trees
+### (13.3) m-ary trees
+### (13.4) Height vs number of nodes
+### (13.5) Context-free grammars
+### (13.6) Recursion trees
+### (13.7) Another recursion tree example
+### (13.8) Tree induction
+### (13.9) Heap Example
+### (13.10) Proof using grammar trees
+### (13.11) Variation in terminology
+## (14) Big-O
+### (14.1) Running times of programs
+### (14.2) Asymptotic relationships
+### (14.3) Ordering primitive functions
+### (14.4) The dominant term method
+### (14.5) Big-O
+### (14.6) Applying the definition of big-O
+### (14.7) Proving a primitive function relationship
+### (14.8) Variation in notation
+## (15) Algorithms
+### (15.1) Introduction
+### (15.2) Basic data structures
+### (15.3) Nested loops
+### (15.4) Merging two lists
+### (15.5) A reachability algorithm
+### (15.6) Binary search
+### (15.7) Mergesort
+### (15.8) Tower of Hanoi
+### (15.9) Multiplying big integers
+## (16) NP
+### (16.1) Finding parse trees
+### (16.2) What is NP?
+### (16.3) Circuit SAT
+### (16.4) What is NP complete?
+### (16.5) Variation in notation
+## (17) Proof by Contradiction
+### (17.1) The method
+### (17.2) Root 2 is irrational
+### (17.3) There are infinitely many prime numbers
+### (17.4) Lossless compression
+### (17.5) Philosophy
+## (18) Collection of Sets
+### (18.1) Sets containing sets
+### (18.2) Power sets and set-valued functions
+### (18.3) Partitions
+### (18.4) Combinations
+### (18.5) Applying the combinations formula
+### (18.6) Combinations with repetition
+### (18.7) Identities for binomial coefficients
+### (18.8) Binomial Theorem
+### (18.9) Variation in notation
+## (19) State Diagrams
+### (19.1) Introduction
+### (19.2) Wolf-goat-cabbage puzzle
+### (19.3) Phone lattices
+### (19.4) Representing functions
+### (19.5) Transition functions
+### (19.6) Shared states
+### (19.7) Counting states
+### (19.8) Variation in notation
+## (20) Countability
+### (20.1) The rationals and the reals
+### (20.2) Completeness
+### (20.3) Cardinality
+### (20.4) Cantor Schroeder Bernstein Theorem
+### (20.5) More countably infinite sets
+### (20.6) P(N) isn't countable
+### (20.7) More uncountability results
+### (20.8) Uncomputability
+### (20.9) Variation in notation
+## (21) Planar Graphs
+### (21.1) Planar graphs
+### (21.2) Faces
+### (21.3) Trees
+### (21.4) Proof of Euler's formula
+### (21.5) Some corollaries of Euler's formula
+### (21.6) K_{3,3} is not planar
+### (21.7) Kuratowski's Theorem
+### (21.8) Coloring planar graphs
+### (21.9) Application: Platonic solids
+## (A) Jargon
+### (A.1) Strange technical terms
+### (A.2) Odd uses of normal words
+### (A.3) Constructions
+### (A.4) Unexpectedly normal
+## (B) Acknowledgements and Supplementary Readings
+## (C) Where dit it go? 
 ## References
 [^1]: [[(11) Algebra - Ch. 24 - Complex Numbers (11 of 28) Multiplying Complex Conjugates]]
 [^2]: [[(25) PreCalculus - Logarithmic Function (12 of 23) Solving Logarithms by Changing the Base]]
