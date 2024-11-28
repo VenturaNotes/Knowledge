@@ -4,7 +4,7 @@ Source:
 Length: 10 hours, 7 minutes, 42 seconds
 tags:
   - type/playlist
-  - status/incomplete
+  - status/complete
 ---
 - Complete
 	- [[(1) TinyURL and PasteBin Design Deep Dive with Google SWE!  - Systems Design Interview Question 1]]
@@ -29,7 +29,6 @@ tags:
 	- [[(20) Recommendation Engine Design Deep Dive with Google SWE!  - Systems Design Interview Question 20]]
 	- [[(21) MMO Video Game (Fortnite) Design Deep Dive with Google SWE!  - Systems Design Interview Question 21]]
 	- [[(22) Notification Service Design Deep Dive with Google SWE!  - Systems Design Interview Question 22]]
-- Incomplete
 	- [[(23) Shazam Audio Recognition Design Deep Dive with Google SWE!  - Systems Design Interview Question 23]]
 	- [[(24) Distributed Locking Design Deep Dive with Google SWE!  - Systems Design Interview Question 24]]
 	- [[(25) Distributed Job Scheduler Design Deep Dive with Google SWE!  - Systems Design Interview Question 25]]
