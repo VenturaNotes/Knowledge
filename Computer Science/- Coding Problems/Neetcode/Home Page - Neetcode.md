@@ -120,8 +120,6 @@ tags:
 		- (97) [[(5) Longest Palindromic Substring]]
 		- (98) [[(647) Palindromic Substrings]]
 		- (99) [[(91) Decode Ways]]
-- Incomplete
-	- 1-D DP (12)
 		- (100) [[(322) Coin Change]]
 		- (101) [[(152) Maximum Product Subarray]]
 		- (102) [[(139) Word Break]]
@@ -131,6 +129,8 @@ tags:
 		- (105) [[(57) Insert Interval]]
 		- (106) [[(56) Merge Intervals]]
 		- (107) [[(435) Non-overlapping Intervals]]
+- Incomplete
+	- Intervals (6)
 		- (108) [[(122) Free Leetcode Premium Questions - Meeting Rooms - Leetcode 252 - Python]]
 		- (109) [[(124) Meeting Rooms II - Leetcode 253 - Python]]
 		- (110) [[(1851) Minimum Interval to Include Each Query]]
