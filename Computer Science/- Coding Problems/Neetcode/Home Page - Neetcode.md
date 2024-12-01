@@ -129,8 +129,6 @@ tags:
 		- (105) [[(57) Insert Interval]]
 		- (106) [[(56) Merge Intervals]]
 		- (107) [[(435) Non-overlapping Intervals]]
-- Incomplete
-	- Intervals (6)
 		- (108) [[(122) Free Leetcode Premium Questions - Meeting Rooms - Leetcode 252 - Python]]
 		- (109) [[(124) Meeting Rooms II - Leetcode 253 - Python]]
 		- (110) [[(1851) Minimum Interval to Include Each Query]]
@@ -140,13 +138,14 @@ tags:
 		- (113) [[(45) Jump Game II]]
 		- (114) [[(134) Gas Station]]
 		- (115) [[(846) Hand of Straights]]
-	
 		- (116) [[(1899) Merge Triplets to Form Target Triplet]]
 		- (117) [[(763) Partition Labels]]
 		- (118) [[(678) Valid Parenthesis String]]
 	- Advanced Graphs (6)
 		- (119) [[(332) Reconstruct Itinerary]]
 		- (120) [[(1584) Min Cost to Connect All Points]]
+- Incomplete
+	- Advanced Graphs (6)
 		- (121) [[(743) Network Delay Time]]
 		- (122) [[(778) Swim in Rising Water]]
 		- (123) [[(142) Alien Dictionary - Topological Sort - Leetcode 269 - Python]]

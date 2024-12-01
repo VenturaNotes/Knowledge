@@ -1,3 +1,7 @@
+---
+aliases:
+  - greedy algorithm
+---
 ## Synthesis
 - 
 ## Source [^1]
