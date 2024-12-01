@@ -1,3 +1,7 @@
+---
+aliases:
+  - minimum spanning tree
+---
 ## Synthesis
 - 
 ## Source [^1]
