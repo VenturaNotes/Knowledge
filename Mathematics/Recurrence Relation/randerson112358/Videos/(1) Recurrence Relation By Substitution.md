@@ -1,0 +1,27 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=pi5dP-VYicY
+---
+- ![[Screenshot 2024-12-01 at 1.40.46 AM.png]]
+	- Recurrence proof by substitution
+	- $T(n) = 2 * T(\frac n2) + 2, T(1) = 0$
+		- Will find running time of function
+		- Because of the above equation, we will now insert $\frac n2$ into the function
+			- So $T(n/2) = 2 * T(\frac{\textcolor{hotpink}{\frac n2}}2) + 2$
+				- The shade in pink is what the `n` in the original equation is being replaced by
+	- T means time here so it's a function of time
+	- Goes through `K` iterations
+	- After 3 `K` iterations, we can start seeing a general form
+		- We can write $2^k + 2^{k-1} + 2^{k-2}$ as a summation
+			- $\Sigma_{i=1}^{k}2^i$ 
+				- If we know our [[summation formulas]], we know the above summation is equivalent to $(2^{k+1}-2)$ 
+	- Now we want to get this in terms of `n`
+		- We can do this because we know when  `n` = 1, T= 0
+		- So
+			- $T(\frac{n}{2^k} = 1) = 0$
+			- $T(n = 2^k) = 0$
+			- $T(log_2n=k) = 0$
+	- So we can replace the above through $2^{log_2n} T(\frac{n}{2^{log_2n}}) + 2(2^{log_2n} -1)$ 
+		- Looking at [[logarithm]] rules where $a^{log_ax} = x$, we get
+			- $nT(\frac nn) + 2(n-1)$ 
+	- We find that $T(n) \in O(n)$ 

@@ -1,0 +1,52 @@
+---
+Source:
+  - https://www.youtube.com/playlist?list=PLj68PAxAKGoyyBwi6qrfcsqE_4trSO1yL
+Length: 5 hours, 22 minutes, 38 seconds
+tags:
+  - type/playlist
+  - status/incomplete
+---
+- Complete
+	- [[(1) Recurrence Relation By Substitution]]
+- Incomplete
+	- [[(2) Prove Recurrence Relation By Master Theorem]]
+	- [[(3) Master Theorem]]
+	- [[(4) Iteration Method To Solve T(n)]]
+	- [[(5) T (n) =  3T(n and 3) + n 3]]
+	- [[(6) Master Theorem  Example]]
+	- [[(7) Write A Function To Recurrence Relation]]
+	- [[(8) Akra Bazzi Method and Theorem]]
+	- [[(9) Recurrence Relation From Code]]
+	- [[(10) Finding Recurrence When Master Theorem Fails]]
+	- [[(11) Recurrence Relation]]
+	- [[(12) Recurrence Relations Examples]]
+	- [[(13) Prove Merge Sort Recurrence Running Time]]
+	- [[(14) Write A Function To Recurrence Relation]]
+	- [[(15) Recursion Tree Method]]
+	- [[(16) Recurrence Relation Proof By Induction]]
+	- [[(17) Recurrence Relation Running Time By Induction]]
+	- [[(18) Recurrence Relation Problem]]
+	- [[(19) Recursion Tree Method Example]]
+	- [[(20) Recursive Definition]]
+	- [[(21) Proof By Induction Divisibility]]
+	- [[(22) Change Of Variable Recurrence Relation]]
+	- [[(23) Cheat Sheet For Common Recurrences]]
+	- [[(24) Master Theorem Problem & Solution]]
+	- [[(25) Master Theorem Case 1]]
+	- [[(26) Master Theorem Case 2]]
+	- [[(27) Master Theorem Case 3]]
+	- [[(28) Recurrence Relation Induction Proof]]
+	- [[(29) Recurrence Relation Induction Proof]]
+	- [[(30) Recurrence Relation Induction Proof]]
+	- [[(31) Recurrence Relation Induction Proof]]
+	- [[(32) Recurrence Relation Induction Proof]]
+	- [[(33) Recurrence Relation Induction Proof]]
+	- [[(34) Recurrence Relation Induction Proof]]
+	- [[(35) Recurrence Relation Backtracking]]
+	- [[(36) Recurrence Relation T(n)=T(n-1)+logn]]
+	- [[(37) Recurrence Relation Iteration Method]]
+	- [[(38) How To Solve Recurrence Relations]]
+	- [[(39) How To Solve A Recurrence Relation Problem]]
+	- [[(40) Solve A Recurrence Relation By Using The Iteration Method]]
+	- [[(41) Recurrence Relation]]
+	- [[(42) Solve Recurrence Relations for Computer Science]]
