@@ -144,8 +144,6 @@ tags:
 	- Advanced Graphs (6)
 		- (119) [[(332) Reconstruct Itinerary]]
 		- (120) [[(1584) Min Cost to Connect All Points]]
-- Incomplete
-	- Advanced Graphs (6)
 		- (121) [[(743) Network Delay Time]]
 		- (122) [[(778) Swim in Rising Water]]
 		- (123) [[(142) Alien Dictionary - Topological Sort - Leetcode 269 - Python]]
@@ -162,6 +160,7 @@ tags:
 		- (133) [[(72) Edit Distance]]
 		- (134) [[(312) Burst Balloons]]
 		- (135) [[(10) Regular Expression Matching]]
+- Incomplete
 	- Bit Manipulation (7)
 		- (136) [[(136) Single Number]]
 		- (137) [[(191) Number of 1 Bits]]
