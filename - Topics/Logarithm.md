@@ -11,7 +11,7 @@ explored:
 	- Can be read as "logarithm of 1 to the base a"
 - $log_aa = 1$
 - $log_aa^x = x$
-- $a^{log_ax} = x$
+- $a^{log_ax} = x$ ^guu88q
 
 ## Source[^2]
 ### More Rules
