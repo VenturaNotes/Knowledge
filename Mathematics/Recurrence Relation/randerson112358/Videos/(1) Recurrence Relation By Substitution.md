@@ -22,6 +22,6 @@ Source:
 			- $T(n = 2^k) = 0$
 			- $T(log_2n=k) = 0$
 	- So we can replace the above through $2^{log_2n} T(\frac{n}{2^{log_2n}}) + 2(2^{log_2n} -1)$ 
-		- Looking at [[logarithm]] rules where $a^{log_ax} = x$, we get
+		- Looking at [[Logarithm#^guu88q|logarithm]] rules  we get
 			- $nT(\frac nn) + 2(n-1)$ 
 	- We find that $T(n) \in O(n)$ 
