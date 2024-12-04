@@ -1,1 +1,26 @@
 [Video](https://www.youtube.com/watch?v=UcunJ9cZN9Q)
+
+- ![[Screenshot 2024-12-03 at 12.42.18 AM.png]]
+	- [[Subspace]] Example #4
+		- This shows a union
+		- $x,y \ge 0$ means that both x and y need to be greater than or equal to 0
+		- Shows first quadrant and second quadrant (so top-half of 2D-plane)
+		- Inclusive so includes the lines
+		- (a) Sketch the set
+			- U is the 1st and 2nd quadrants of the $\mathbb{R}^2$ plane
+		- (b) Is U a subspace of $\mathbb{R}^2$ 
+			- Obviously U is a subset of $\mathbb{R}^2$ as we shaded a subset of the $\mathbb{R}^2$ plane
+			- To check if subspace, check 3 things
+				- (1) Zero vector present
+					- Has property that if you add it to any vector in the set you're working with, nothing changes
+				- (2) Set closed under vector addition
+				- (3) Set closed under scalar multiplication
+	- Now check if closed under vector addition
+		- If you add values between negative infinity and positive infinity, you will always get a sum between negative infinity and positive infinity which will still be an element of the sum U
+		- If you add two numbers greater than 0, that means the resulting number will be greater than 0
+		- Result shows that the point must be in the 1st or second quadrant which means that it must be an element of set U
+		- So since we've chosen two arbitrary vectors from U, added them together and ended up with a vector that is still in the set U, this is closed under vector addition.
+	- For scalar multiplication, just need to show one example that it fails
+		- By finding one counterexample, we can show that it is not closed under scalar multiplication
+		- We find that U is not closed under scalar multiplication
+	- U is not a subspace of $\mathbb{R}^2$ 

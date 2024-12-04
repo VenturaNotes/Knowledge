@@ -1,6 +1,7 @@
 ---
 aliases:
   - Cayley Tables
+  - Cayley Table
 ---
 ## Synthesis
 - 

@@ -1,1 +1,32 @@
 [Video](https://www.youtube.com/watch?v=y5fsXd1PPAI)
+
+- ![[Screenshot 2024-12-03 at 1.09.39 AM.png]]
+	- [[Subspace]] Example #5
+		- Description
+			- Consider the set $P_n$, consisting of all polynomials of degree at most n
+				- Elements $p(x) \in P_n$, look like
+					- $p(x) = a_0 + a_1x + a_2x^2 + ... + a_nx^n$ 
+				- Is $P_2$ a subspace of $P_n$ for $n \ge 3?$ 
+		- Collection of objects we'll work with here are [[Polynomial|polynomials]].
+		- The concept of a [[vector space]] is very general. It's any collection of things that have certain axioms or properties that are satisfied
+			- The things are often vectors like vectors in $\mathbb{R}^2$ or $\mathbb{R}^3$ or $\mathbb{R}^n$ 
+			- But any collection of things that satisfies the vector space properties is a vector space
+		- In this example, we're going to be working with polynomials and show that they satisfy certain vector space axioms to be a subspace 
+		- $P_2$ is the set of all polynomials of at most degree 2. So these would be quadratics, linear equations, and constants.
+		- We know that $P_2$ is a [[subset]] of $P_n$ because second degree polynomials can be found in the set of higher order polynomials $P_n$ 
+		- Since it's a subset, instead of having to check all of the vector axioms or vector properties or vector space properties, there is only 3 things we need to check
+	- (1) Does $P_2$ contain the zero vector? (YES)
+		- $P_2$ does contain the zero vector
+	- (2) Closed under addition? (YES)
+		- #question What does the hat over the equal sign mean? He says something about "defining as", but not sure.
+		- We find that the sum of two arbitrary elements from $P_2$ gives a polynomial of [[order]] 2 and they are arbitrary coefficients meaning it looks like any other element in the set $P_2$ 
+		- Chose arbitrary elements from the vector space. Added them together and ended up with a vector in the vector space so it's closed under vector addition
+			- It was closed under vector / polynomial addition
+	- (3) Closed under scalar multiplication? (YES)
+		- Can define $ca_0$ as a new number to $d_0$ using the $\overset \triangle =$ notation it seems like
+		- Chose an arbitrary starting vector. Chose an arbitrary constant. Formed the scalar multiplication and ended up with an element still in the set we were working with
+	- Since $P_2$ is a subset of $P_n$ $n \ge 3$ and 3 properties hold, $P_2$ is a subspace of $P_n$ n $\ge$ 3
+	- For the general concept of vector spaces, that vector spaces are just collections of things with addition and scalar multiplication defined that satisfies certain properties
+		- Often vector spaces and subspaces are literally vectors like $\mathbb{R}^3$, $\mathbb{R}^4$, and $\mathbb{R}^n$ 
+		- However, sometimes the collection of objects can be more general such as polynomials, matrices, or other quantities.
+	- So we worked with a subspace that was a subspace of a vector space, but the underlying objects weren't vectors. They were actually polynomials

@@ -117,3 +117,4 @@ http://detexify.kirelabs.org/classify.html
 - Stacking text $$\substack{3 \\ 3\\3}$$
 - Real part of complex plane (horizontal axis): $\Re$ 
 	- Imaginary part (vertical axis): $\Im$ 
+- Circle with dot in it: $\circleddash$ 

@@ -2,4 +2,19 @@
 Source:
   - https://www.youtube.com/watch?v=i5kTZof1LRY
 ---
-
+- ![[Screenshot 2024-12-03 at 1.53.36 AM.png]]
+	- Recurrence proof by master theorem
+	- Prove $T(n)$ = 4T(n/2) + n $\in$ O($n^2$) by the master theorem
+		- Read as the "recurrence of T(n)"
+	- [[Master theorem]]
+		- If T(n) = aT(n/b) + $\circleddash$($n^d$) where a > 0, b> 0, and d $\ge$ 0 then
+		- $T(n) = \begin{cases} \circleddash(n^d) & \text{if } d > log_ba\\ \circleddash(n^dlogn)& \text{if } d=log_ba \\ \circleddash(n^{log_ba}) & \text{if } d < log_ba) \end{cases}$ 
+			- `a` is a constant greater than 0
+			- `b` is greater than 0
+			- $\circleddash(n^d)$ is just seen as some function
+				- The shape is theta
+	- In the example $d = 1$ because the $n$ is to the power of 1
+	- If you know the theta definition
+		- Something is a function if it belongs to $\theta(g(n))$ if 
+			- f(n) = O(g(n)) and f(n) = $\Omega$(g(n))
+			- #question What significance does this have?

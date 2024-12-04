@@ -46,10 +46,10 @@ tags:
 	- [[(37) Linear Algebra Example Problems - A Polynomial Subspace]]
 	- [[(38) Linear Algebra Example Problems - Subspace Example 1]]
 	- [[(39) Linear Algebra Example Problems - Subspace Example 2]]
-- Incomplete
 	- [[(40) Linear Algebra Example Problems - Subspace Example 3]]
 	- [[(41) Linear Algebra Example Problems - Subspace Example 4]]
 	- [[(42) Linear Algebra Example Problems - Subspace Example 5]]
+- Incomplete
 	- [[(43) Linear Algebra Example Problems - Subspace Example 6]]
 	- [[(44) Linear Algebra Example Problems - Null Space Example 1]]
 	- [[(45) Linear Algebra Example Problems - Null Space Example 2]]

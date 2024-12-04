@@ -2,7 +2,23 @@
 Source:
   - https://www.youtube.com/watch?v=WhowH0kb7n0
 ---
-- Image
-	- [[Synaptic transmission]]
+- ![[Screenshot 2024-12-03 at 9.35.22 PM.png]]
+	- First
+		- [[Synaptic transmission]]
 		- Most communication between neurons occurs at a specialized structure called a [[synapse]].
 			- A synapse is an area where two neurons come close enough to one another that they are able to pass chemical signals from one cell to another. 
+			- The neurons are not actually connected, but are separated by a microscopically small space called the [[synaptic cleft]]
+				- The synaptic cleft is less than 40nm wide (a human hair is about 75,000 nanometers)
+	- Second
+		- The neuron where the signal is initiated is called the [[presynaptic neuron]], while the neuron  that receives the signal is called the [[postsynaptic neuron]]. 
+	- Third
+		- In the presynaptic neuron, there are chemical signals called [[neurotransmitter|neurotransmitters]] that are packaged into small sacs called [[vesicles]]. 
+		- Each vesicle can contain thousands of neurotransmitter molecules. 
+		- When the presynaptic neuron is excited by an electrical signal called an [[action potential]], this causes the vesicles to fuse with the [[presynaptic membrane]] and release their contents into the synaptic cleft. 
+		- Once they are in the synaptic cleft, neurotransmitters interact with [[receptors]] on the [[postsynaptic membrane]].
+		- They bind to these receptors and can cause an action to occur in the postsynaptic cell as a result. This action may involve increasing the likelihood that the postsynaptic cell will become activated and fire an action potential, or decreasing it.  
+	- Fourth
+		- Eventually, the neurotransmitter molecules must be cleared from the synaptic cleft. 
+			- Some of them will simply drift away in a process called [[diffusion]]. 
+			- In some cases, the neurotransmitter is taken back up into the presynaptic neuron in a process called [[reuptake]]. Once back inside the presynaptic neuron, the neurotransmitter can be recycled and reused.
+			- In other cases, [[enzymes]] break down the neurotransmitter within the synaptic cleft. Then the component parts of the neurotransmitter can be sent back into the presynaptic neuron to make more neurotransmitter.
