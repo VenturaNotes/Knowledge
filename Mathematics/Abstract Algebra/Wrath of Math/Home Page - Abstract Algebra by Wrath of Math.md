@@ -9,8 +9,8 @@ tags:
 - Complete
 	- [[(1) What are Binary Operations.  - Abstract Algebra]]
 	- [[(2) Examples of Binary Operations (and Non-Examples)  - Abstract Algebra]]
-- Incomplete
 	- [[(3) What is a Group.  - Abstract Algebra]]
+- Incomplete
 	- [[(4) Proof - Identity Element of a Group is Unique  - Abstract Algebra]]
 	- [[(5) Proof - Group Element is the Inverse of its Inverse  - Abstract Algebra]]
 	- [[(6) Inverse of a Product of Group Elements (Socks-Shoes Property)  - Abstract Algebra]]

@@ -8,9 +8,9 @@ tags:
 ---
 - Complete
 	- [[(1) Recurrence Relation By Substitution]]
-- Incomplete
 	- [[(2) Prove Recurrence Relation By Master Theorem]]
 	- [[(3) Master Theorem]]
+- Incomplete
 	- [[(4) Iteration Method To Solve T(n)]]
 	- [[(5) T (n) =  3T(n and 3) + n 3]]
 	- [[(6) Master Theorem  Example]]

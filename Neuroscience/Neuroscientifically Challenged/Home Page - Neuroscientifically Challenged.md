@@ -9,8 +9,8 @@ tags:
 ---
 - Complete
 	- [[(1) 2-Minute Neuroscience - The Neuron]]
-- Incomplete
 	- [[(2) 2-Minute Neuroscience - Synaptic Transmission]]
+- Incomplete
 	- [[(3) 2-Minute Neuroscience - Membrane Potential]]
 	- [[(4) 2-Minute Neuroscience - Action Potential]]
 	- [[(5) 2-Minute Neuroscience - Divisions of the Nervous System]]

@@ -2,14 +2,19 @@
 Source:
   - https://www.youtube.com/watch?v=dfCNJmT0-uI
 ---
-- Image
+- ![[Screenshot 2024-12-03 at 2.24.34 AM.png]]
 	- First
 		- A [[group]] is a set G, together with a binary operation, $\cdot$, satisfying the following conditions
 			- [[Closure]]: $a \cdot b \in G \text{ for all } a, b \in G$ 
 			- [[Associativity]]: $(a\cdot b) \cdot c = a \cdot (b\cdot c) \space \forall a, b, c \in G$
+				- Should not matter how we bracket the elements when we combine them
+				- Subtraction is not associative
+					- (2-3) - 4 = -5 $\ne$ 2 - (3-4)
 			- [[Identity]]: $\exists e \in G \text { such that } a\cdot e = e \cdot a = a \forall a \in G$
 			- [[inverse|inverses]]: $\forall a \in G, \exists b \in G \text { such that } ab = ba = e$
+				- For every element `a` in the set, there must be some element `b` in the set such that combining `a` with `b` in any order produces the identity e
 		- The binary operation is generically represented by the dot $\cdot$ 
+			- We typically pronounce it as "times"
 		- The above four conditions are often called the [[group axioms]]
 		- When talking about a group, we're talking about a set which is an unordered collection of distinct objects and some binary operation acting on that set which follows four rules. This is a type of algebraic structure and groups are very common one.
 		- Even though the set and binary operation together form the group, we will often refer to the group by the name of the underlying set. If the set is G, we will often call the group G as well.
@@ -24,3 +29,57 @@ Source:
 			- 3 + 2 = 5
 		- Property of [[associativity]].  We say that the integers are associative under the operation of addition. This is the second group axiom
 			- $-3 + (2 + 4) = 3 = (-3 + 2) + 4$ 
+		- 0 is the identity of the integers under addition
+			- [[Additive Identity]] since 0 preserves the identity of any element it is added to
+				- $0 + 7 = 7 + 0 = 7$ 
+			- Existence of an identity is the 3rd group axiom
+		- -5 is the [[additive inverse]] of 5 since adding them together equals 0
+			- 5 is also the additive inverse of -5
+			- Adding them together gives the [[identity element]] 0
+			- An inverse exists for every integer
+			- Existence of inverses is the 4th group axiom
+		- If we have a set alongside a [[binary operation]] and together they satisfy closure, associativity, there's an identity, and all of the elements have inverses, then it is a group
+			- The integers under addition is a group
+				- Could call the group G saying that it's the [[ordered pair]] consisting of our set, the integers, alongside the binary operation, addition.
+					- $G = (\mathbb{Z}, +)$ 
+						- Although addition is [[commutative]], it is not a [[group axiom]]. This means the binary operation may or may not be commutative
+		- Integers are not closed under division.
+		- The [[inverse]] of an element is the element that we can combine it with in order to produce the identity.
+		- Just need to satisfy the 4 axioms above to prove that it's a group
+			- What's so powerful about these ideas is that it allows us to make statements about and prove theorems about groups in general instead of having to individually investigate all sets and operations that behave in these ways
+			- So the group is a very basic, useful, and common algebraic structure
+	- Third
+		- Creating a group with a square
+			- A square has many symmetries. If we rotated a square 90 degrees, it's as if we didn't move it at all.
+				- It's a rotational symmetry of the square
+				- Could call it $r_1$ for a rotation
+			- Could reflect square along vertical axis of symmetry
+				- Could call it $f_v$ for a vertical axis flip
+			- Our binary operation could be combining the symmetrical motions together.
+				- It's basically a [[composition]] of functions that are acting on the original square so they should be performed from right to left
+					- $r_1*f_v$ 
+						- Falls in line with property of closure?
+						- This is the same thing we would've gotten if we just flipped the square across the diagonal axis
+						- Could call a diagonal flip $f_c$ 
+						- True for all symmetries. If we combine them together, we'll get the result of another single symmetry
+							- Only 8 symmetries of a square with all rotations and flips
+	- Fourth
+		- The square forms a group
+			- A 0 degree rotation is the identity
+			- Every flip will be it's own inverse
+			- Rotations will have their own inverses as well
+		- What do we get when we combine a 90 degree clockwise rotation with a flip across the diagonal axis? You can make such a table for any finite group. It is called a [[Group Multiplication Tables|Cayley Table]]
+		- Flip across the counter-diagonal axis $f_c$ 
+- ![[Screenshot 2024-12-03 at 2.33.13 AM.png]]
+	- First
+		- Cayley Table for [[Dihedral Group]] of a square
+			- The table shows us what we get for all the combinations of symmetries of our square. This type of group we've created from the symmetries of a regular polygon is called a Dihedral Group. We can create such groups for any regular polygon
+			- We can verify that these symmetries do indeed form a group by looking at table
+		- We see `e` the 0 degree clockwise rotation to be our identity element. It lives everything unchanged
+		- We can see that every element has an inverse
+		- Our function composition goes from right to left: $f_3*f_v = f_d$ 
+			- If we flip a square across the vertical axis and then rotate it 270 degrees clockwise, it will be as if we flipped it across the diagonal axis
+			- We do not get the same result if we perform these operations in the other order. 
+			- It is a [[non-commutative group]]
+		- Calling Dihedral group of a square $D_8$ because a square has 8 symmetries
+		- Notation for Dihedral group of a triangle is $D_6$ because the triangle has 6 symmetries
