@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=53KDr8y7VnQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=53KDr8y7VnQ
+---
 - ![[Screenshot 2024-11-19 at 6.06.35 PM.png]]
 	- [[One-to-one linear transformations]]
 		- One-to-one is a property that a linear transformation can have or not have. 

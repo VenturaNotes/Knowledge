@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=R8i_DRd8XUA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=R8i_DRd8XUA
+---
 - ![[Screenshot 2024-11-19 at 7.45.44 PM.png]]
 	- Errata
 		- There is a mistake with the cofactors. There shouldn't be two $C_{23}$ in the adjugate matrix

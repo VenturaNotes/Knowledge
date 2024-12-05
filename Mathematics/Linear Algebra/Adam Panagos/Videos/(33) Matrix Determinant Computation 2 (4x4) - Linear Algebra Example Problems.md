@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=pBZ98bm191o)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=pBZ98bm191o
+---
 - ![[Screenshot 2024-11-19 at 7.24.22 PM.png]]
 	- Errata
 		- There is a mistake in the problem where in the second row, -4 was written down but then used +4 for the rest of the problem so answer might be different

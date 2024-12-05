@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=-n8QFEgnLk4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=-n8QFEgnLk4
+---
 - ![[Screenshot 2024-11-19 at 6.27.08 PM.png]]
 	- [[Matrix multiplication]]
 		- We use the [[row column product rule]] or column row product rule which says we can compute the ${ij}^{th}$ entry of the product AB (meaning row i column j). So we can compute one entry in this final matrix by doing the following computation

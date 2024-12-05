@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=v6HYbBDcu1Y)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=v6HYbBDcu1Y
+---
 - ![[Screenshot 2024-12-03 at 12.29.16 AM.png]]
 	- Subspace Example #3
 		- Consider the set $U = \{\begin{bmatrix}x \\ y \end{bmatrix} : x > 1\}$

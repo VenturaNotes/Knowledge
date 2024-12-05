@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=iMZA4p7Wou0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=iMZA4p7Wou0
+---
 - ![[Screenshot 2024-11-19 at 6.58.48 PM.png]]
 	- [[Matrix Determinant]] Computation
 		- Will use core definition of a determinant

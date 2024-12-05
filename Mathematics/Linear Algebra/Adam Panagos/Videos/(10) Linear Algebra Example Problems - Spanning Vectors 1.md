@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=aK9GmG2_o9k)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=aK9GmG2_o9k
+---
 - ![[Screenshot 2024-11-18 at 5.33.52 PM.png]]
 	- Spanning Vectors
 	- Checking if the set of vectors span the space $\mathbb{R}^2$ 

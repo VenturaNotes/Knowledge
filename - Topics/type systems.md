@@ -1,3 +1,7 @@
+---
+aliases:
+  - type system
+---
 ## Synthesis
 - 
 ## Source [^1]

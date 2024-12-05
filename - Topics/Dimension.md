@@ -1,6 +1,7 @@
 ---
 aliases:
   - dimensions
+  - dim
 ---
 ## Synthesis
 - 

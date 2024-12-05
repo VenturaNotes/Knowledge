@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=61knWwBM3gQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=61knWwBM3gQ
+---
 - ![[Screenshot 2024-11-18 at 7.41.43 PM.png]]
 	- Finding Matrix A of a LT
 	- Consider the LT T: $\mathbb{R}^3 \to \mathbb{R}^3$ 

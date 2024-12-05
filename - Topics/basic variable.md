@@ -1,3 +1,7 @@
+---
+aliases:
+  - basic variables
+---
 ## Synthesis
 - 
 ## Source [^1]

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=l_Nk4TbLoMk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=l_Nk4TbLoMk
+---
 - ![[Screenshot 2024-11-19 at 7.12.33 PM.png]]
 	- Matrix Determinant Properties #2
 	- Doing co-factor expansion of first row

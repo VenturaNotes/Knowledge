@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=-M0kHX-rIv4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=-M0kHX-rIv4
+---
 - ![[Screenshot 2024-11-19 at 6.16.50 PM.png]]
 	- [[Onto linear transformations]]
 		- onto is another property that a linear transformation can have

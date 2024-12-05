@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=1CO4d5r1Rxk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=1CO4d5r1Rxk
+---
 - ![[Screenshot 2024-11-19 at 6.40.55 PM.png|500]]
 	- [[Matrix inversion]]
 		- Will compute the inverse of a 2x2 matrix. Will use general algorithm that we can use to compute the inverse of any square matrix. In the next video, will use a close form equation that will make it really easy to compute the inverse of a 2x2 matrix

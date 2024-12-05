@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=y5fsXd1PPAI)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=y5fsXd1PPAI
+---
 - ![[Screenshot 2024-12-03 at 1.09.39 AM.png]]
 	- [[Subspace]] Example #5
 		- Description

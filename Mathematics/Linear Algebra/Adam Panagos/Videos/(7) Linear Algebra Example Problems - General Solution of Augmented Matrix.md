@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=jVw-OCy0Rqs)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=jVw-OCy0Rqs
+---
 - ![[Screenshot 2024-11-18 at 2.32.23 AM.png]]
 	- Consider the augmented matrix
 		- Represents 3 equations with 3 unknowns and the final column represents represents equals sign part of equation.

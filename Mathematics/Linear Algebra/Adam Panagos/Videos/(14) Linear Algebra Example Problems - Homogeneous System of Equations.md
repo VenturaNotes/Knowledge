@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=tkyrhKRVbBw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=tkyrhKRVbBw
+---
 - ![[Screenshot 2024-11-18 at 6.05.33 PM.png|500]]
 	- [[Homogeneous system of equations]]
 		- When finding a solution to the equation, it's easy because you could let $x_1, x_2, x_3$ all equal 0

@@ -118,3 +118,7 @@ http://detexify.kirelabs.org/classify.html
 - Real part of complex plane (horizontal axis): $\Re$ 
 	- Imaginary part (vertical axis): $\Im$ 
 - Circle with dot in it: $\circleddash$ 
+	- Can be referred to as [[(2) Prove Recurrence Relation By Master Theorem#^vmuqxr|theta]]
+- Matrix with soft brackets: $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$
+- Maps to: $\mapsto$ 
+- Type Theory: $\Gamma \vdash A : Type$ 

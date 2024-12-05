@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=q97HmMdD8ZM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=q97HmMdD8ZM
+---
 - ![[Screenshot 2024-11-19 at 8.39.42 PM.png]]
 	- [[Subspace]] example #1
 		- Let U be the set of all vectors of the form shown in the image above where r, s $\in$ $\mathbb{R}$ 

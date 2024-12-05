@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=5E7M7NeAIWk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=5E7M7NeAIWk
+---
 - ![[Screenshot 2024-11-18 at 7.18.27 PM.png]]
 	- [[Linear Transformation]] Ax #1 
 		- They can be very general operations or certain criteria that they need to satisfy 

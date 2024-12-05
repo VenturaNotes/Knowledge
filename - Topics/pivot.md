@@ -1,3 +1,7 @@
+---
+aliases:
+  - pivots
+---
 ## Synthesis
 - 
 ## Source [^1]
