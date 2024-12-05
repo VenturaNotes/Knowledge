@@ -1,3 +1,7 @@
+---
+aliases:
+  - multiplicative inverses
+---
 ## Synthesis
 - 
 ## Source [^1]

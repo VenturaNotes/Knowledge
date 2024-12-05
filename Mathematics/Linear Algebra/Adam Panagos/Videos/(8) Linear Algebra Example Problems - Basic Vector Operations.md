@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=HXViJHadfhE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=HXViJHadfhE
+---
 - ![[Screenshot 2024-11-18 at 2.37.11 AM.png]]
 	- Basic [[vector operations]]
 		- Will add, subtract, multiply by scalars

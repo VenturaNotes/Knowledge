@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=iiQRuh6PbTY)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=iiQRuh6PbTY
+---
 - ![[Screenshot 2024-11-19 at 7.33.16 PM.png]]
 	- [[Cramer's Rule]]
 		- This process of taking the [[coefficient matrix]], replacing one of the columns with `b` vector and then taking a ratio of determinants to solve for the unknown

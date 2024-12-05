@@ -1,3 +1,7 @@
+---
+aliases:
+  - deductive systems
+---
 ## Synthesis
 - 
 ## Source [^1]

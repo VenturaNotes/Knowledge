@@ -1,1 +1,22 @@
-[Video](https://www.youtube.com/watch?v=0oSe9vx-W54)
+---
+Source:
+  - https://www.youtube.com/watch?v=0oSe9vx-W54
+---
+- ![[Screenshot 2024-12-03 at 11.31.01 PM.png]]
+	- First
+		- Let U be the set of vectors
+			- Can call the expressions as "coordinates"
+		- Show that U is a [[subspace]] of $\mathbb{R}^3$ by finding vectors x and y, such that U = [[span]]{x, y}
+			- This is us applying a very general theorem. It says if you're working with some [[vector space]]  and if you choose some arbitrary elements from that vector space, the span of those vectors is a subspace.
+			- By this general theorem, by definition U is a subspace of $\mathbb{R}^3$ 
+		- Wrote the arbitrary element in the vector U that we started with as basically a linear combination of the vectors `x` and `y`
+			- $sx + ry$ is just another way of writing the elements of U
+				- So it shows that it consists of all the [[linear combination|linear combinations]] of x and y which really is the span of x and y
+				- All linear combinations of some set of vectors by definition is the span. 
+					- $sx + ry$ is my definition, all linear combinations of x and y because `s and r` are very arbitrary numbers from the reals.
+					- So this set of vectors U is really the span of x and y
+		- Since x, y $\in$ $\mathbb{R}^3$ and U = span{x, y} $\to$ U is a subspace of $\mathbb{R}^3$ 
+	- Second
+		- General Theorem
+			- If $v_1, v_2, ..., v_n \in V$, then span {$v_1, v_2, ..., v_n$} is a subspace of V 
+				- If you're working with a vector space V and if you choose some arbitrary elements from it (so we will denote those vectors as $v_1, v_2,...$ , then the span of the vectors we selected is by definition a subspace of V 

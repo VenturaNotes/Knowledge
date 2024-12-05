@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=AGSajg1m-FU)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=AGSajg1m-FU
+---
 - ![[Screenshot 2024-11-18 at 5.54.16 PM.png|500]]
 	- Linear combinations of vectors #2
 	- Found that 0 = 1 which is a [[contradiction]] meaning no solution

@@ -12,7 +12,7 @@ Source:
 			- `a` is a constant greater than 0
 			- `b` is greater than 0
 			- $\circleddash(n^d)$ is just seen as some function
-				- The shape is theta
+				- The shape is theta ^vmuqxr
 	- In the example $d = 1$ because the $n$ is to the power of 1
 	- If you know the theta definition
 		- Something is a function if it belongs to $\theta(g(n))$ if 

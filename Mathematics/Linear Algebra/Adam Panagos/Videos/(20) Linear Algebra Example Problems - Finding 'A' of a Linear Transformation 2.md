@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=J2bjzpyW6ro)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=J2bjzpyW6ro
+---
 - ![[Screenshot 2024-11-18 at 8.04.51 PM.png|500]]
 	- Standard Matrix of a LT
 		- Consider the LT T: $\mathbb{R}^3 \to \mathbb{R}^4$ 

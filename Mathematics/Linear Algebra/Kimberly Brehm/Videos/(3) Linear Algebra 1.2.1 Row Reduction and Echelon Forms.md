@@ -1,28 +1,15 @@
-[Video](https://youtube.com/watch?v=7xtAYrAtuPc)
-
-- ![[Screenshot 2024-01-30 at 9.45.17 AM.png]]
-	- [[Echelon Form]] Vs. [[Reduced Row Echelon Form]] (RREF)
-		- REF is reduced echelon form
-		- Echelon : (previously called triangle form)
-			- 1) All Non-zero rows are above all zero rows
-			- 2) Each leading entry of a row is in a column to the right of the leading entry of the row above it.
-				- The circled numbers are leading entries 
-			- 3) All entries in a column below a leading entry are zeroes.
-			- RREF - All conditions above and: (example in purple)
-				- 4) The leading entry in each non-zero Rows 1
-				- 5) Each leading 1 is the only non-zero entry in the column
-	- [[Pivot]]!
-		- [[Pivot Position]] - Corresponds to leading 1 in RREF (RED)
-			- The 2 would be a pivot position
-		- [[Pivot Column]] - The column that contains the pivot (GREEN)
-		- [[Pivot]] - Nonzero number in pivot position used to create zeroes in row operations (BLUE)
+---
+Source:
+  - https://youtube.com/watch?v=7xtAYrAtuPc
+---
 - Image
-	- [[The Row Reduction Algorithm]]
-		- (1) Begin at leftmost nonzero column, which is a pivot column. Select a nonzero entry as pivot and interchange. If necessary to move that entry into the pivot position (Row 1).
-		- (2) Use row operations to create zeros in all entries below the pivot
-		- (3) Repeat this process for remaining rows, ignoring rows you've already applied algorithm to.
-			- Ignore the green matrix on the light green matrix.
-			- For it to be RREF, you need to have the numbers above the 1 be 0s.
-		- (4) Ensure each pivot is a 1, using scaling as necessary
-			- The first 3 steps were wrapped with step 4
-		- (5) Beginning with the rightmost pivot and working upwards and to the left, use row operations to create zeros above each pivot
+	- Row Reduction and Echelon Forms
+		- Started to work with row operations and matrices
+	- [[Echelon Form]] vs. [[Reduced Row Echelon Form]] (RREF)
+		- Echelon: (Previously called triangle form)
+		- (1) All non-zero rows are above all zero rows
+		- (2) Each leading entry of a row is in a column to the right of the leading entry of the row above it
+		- (3) All entries in a column below a leading entry are zeros
+		- RREF - ALL conditions above and!
+		- (4) The leading entry in each non-zero row is 1
+		- (5) Each leading 1 is the only non-zero entry in the column

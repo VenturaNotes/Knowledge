@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Dga_4EA_QBE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Dga_4EA_QBE
+---
 - ![[Screenshot 2024-11-18 at 10.15.28 PM.png]]
 	- Linear Transformations: Rotations and Reflections
 	- Problem

@@ -49,10 +49,10 @@ tags:
 	- [[(40) Linear Algebra Example Problems - Subspace Example 3]]
 	- [[(41) Linear Algebra Example Problems - Subspace Example 4]]
 	- [[(42) Linear Algebra Example Problems - Subspace Example 5]]
-- Incomplete
 	- [[(43) Linear Algebra Example Problems - Subspace Example 6]]
 	- [[(44) Linear Algebra Example Problems - Null Space Example 1]]
 	- [[(45) Linear Algebra Example Problems - Null Space Example 2]]
+- Incomplete
 	- [[(46) Linear Algebra Example Problems - Vector Space Basis Example 1]]
 	- [[(47) Linear Algebra Example Problems - Vector Space Basis Example 2]]
 	- [[(48) Linear Algebra Example Problems - Coordinate System Representation Example 1]]

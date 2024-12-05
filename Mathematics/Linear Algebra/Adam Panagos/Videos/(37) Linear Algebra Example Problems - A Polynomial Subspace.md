@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=k3CnCq9b65M)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=k3CnCq9b65M
+---
 - ![[Screenshot 2024-11-19 at 8.21.33 PM.png]]
 	- [[Polynomial subspace]]
 		- A polynomial subspace

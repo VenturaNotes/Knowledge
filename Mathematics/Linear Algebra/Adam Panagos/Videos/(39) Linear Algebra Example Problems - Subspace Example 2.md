@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=nGEgsgnbdLc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=nGEgsgnbdLc
+---
 - ![[Screenshot 2024-11-19 at 8.59.11 PM.png]]
 	- Vector Subspace Example #2
 		- Let U be the set of all vectors of the form. We want to know if U is a subspace of $\mathbb{R}^3$ 

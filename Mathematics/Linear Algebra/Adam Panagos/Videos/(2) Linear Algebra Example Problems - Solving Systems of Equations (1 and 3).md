@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=YCyItKPDcSo)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=YCyItKPDcSo
+---
 - ![[Screenshot 2024-11-18 at 2.01.07 AM.png|500]]
 	- Solving systems of equations using [[row operations]]
 	- We will have 3 equations and 3 unknowns

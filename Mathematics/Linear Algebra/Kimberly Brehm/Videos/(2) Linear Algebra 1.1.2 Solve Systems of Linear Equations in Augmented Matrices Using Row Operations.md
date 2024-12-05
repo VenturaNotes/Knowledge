@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=SEh3yhEFK1w)
-
+---
+Source:
+  - https://youtube.com/watch?v=SEh3yhEFK1w
+---
 - ![[Screenshot 2024-01-30 at 9.26.17 AM.png]]
 	- 3 [[Row operations]]
 		- [[Replacement]]
@@ -33,5 +35,3 @@
 		- Solve the system using row operations and aug. matrices
 			- You could do two operations in the same step
 			- The solution is given as an ordered pair (1,0,-1)
-
-

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=pIU37j11PiA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=pIU37j11PiA
+---
 - ![[Screenshot 2024-11-19 at 6.32.56 PM.png]]
 	- [[Matrix multiplication]]
 		- Going to think about it differently in terms of the row product rule 

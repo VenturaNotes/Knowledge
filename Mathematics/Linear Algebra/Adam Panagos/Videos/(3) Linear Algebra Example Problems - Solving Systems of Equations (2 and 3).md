@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=FeGVpk96UqY)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=FeGVpk96UqY
+---
 - ![[Screenshot 2024-11-18 at 2.05.08 AM.png|500]]
 	- Solve the following system of equations:
 	- Strategy is the same. Will use augmented matrix and row operations

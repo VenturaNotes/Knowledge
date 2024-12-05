@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=h4OiYfAHbqM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=h4OiYfAHbqM
+---
 - ![[Screenshot 2024-11-18 at 5.40.24 PM.png|500]]
 	- Spanning Vectors #2
 	- Determining if these vectors span some space

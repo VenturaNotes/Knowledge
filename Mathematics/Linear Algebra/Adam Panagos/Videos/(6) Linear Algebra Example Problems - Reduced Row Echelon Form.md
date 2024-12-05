@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=KFSkWm47Trs)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=KFSkWm47Trs
+---
 - ![[Screenshot 2024-11-18 at 2.25.01 AM.png|500]]
 	- Find the [[reduced row echelon form]] of the following [[matrix]]
 		- First non-zero number is a 1. Below it has to be zeros

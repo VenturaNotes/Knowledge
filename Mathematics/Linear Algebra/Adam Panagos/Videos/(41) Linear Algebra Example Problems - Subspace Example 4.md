@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=UcunJ9cZN9Q)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=UcunJ9cZN9Q
+---
 - ![[Screenshot 2024-12-03 at 12.42.18 AM.png]]
 	- [[Subspace]] Example #4
 		- This shows a union

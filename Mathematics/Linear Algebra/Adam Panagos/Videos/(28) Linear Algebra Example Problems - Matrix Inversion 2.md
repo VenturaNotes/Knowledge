@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=otCkObOqxkc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=otCkObOqxkc
+---
 - ![[Screenshot 2024-11-19 at 6.48.58 PM.png|500]]
 	- [[Matrix inversion]]
 		- If it exists, find $A^{-1}$ 

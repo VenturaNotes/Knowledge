@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=4AP4uC5tWsc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=4AP4uC5tWsc
+---
 - ![[Screenshot 2024-11-19 at 7.05.03 PM.png]]
 	- Matrix determinant properties
 	- Will look at a useful property of determinants
