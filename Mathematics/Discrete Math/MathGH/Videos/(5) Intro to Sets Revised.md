@@ -1,7 +1,7 @@
 [Video](https://www.youtube.com/watch?v=QwW4PJBOHoE)
 
 - ![[Screenshot 2024-01-03 at 2.29.23 PM.png]]
-	- Introduction to [[sets]]
+	- Introduction to [[Set|sets]]
 		- A set is a collection of unordered, distinct objects (could be numbers, could be something else) that we call elements
 		- There are multiple ways to represent sets in mathematics
 	- Important points

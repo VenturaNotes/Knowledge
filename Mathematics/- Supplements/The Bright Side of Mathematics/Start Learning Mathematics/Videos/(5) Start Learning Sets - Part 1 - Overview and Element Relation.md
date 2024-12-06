@@ -2,7 +2,7 @@
 
 - ![[Screenshot 2023-10-11 at 2.35.27 AM.png]]
 	- [[Set theory]]
-		- You can describe everything in mathematics just by using [[sets]]
+		- You can describe everything in mathematics just by using [[set|sets]]
 	- Could see the field of [[logic]] to get out of set theory as the foundation of mathematics
 	- Logic + Axioms of set theory = foundation of mathematics $\to$ doing mathematics (goal)
 		- However, this path is way too long and needs a lot of time such you should never do that at the beginning of your mathematical career

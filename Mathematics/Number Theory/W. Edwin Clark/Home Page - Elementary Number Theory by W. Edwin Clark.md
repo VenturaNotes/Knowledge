@@ -6,6 +6,7 @@ Progress: "23"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Preface
 - “[[Number theory]] is concerned with properties of the integers:” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=3&annotation=ST6VCH55)) ^bce6e5
@@ -236,6 +237,31 @@ Alternative definitions
 	- (5.1) $a = bq + r$ $\text { and }$ 0 $\le$ r $\lt$ b
 	- “In this situation q is called the quotient and r is called the remainder when a is divided by b.” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=23&annotation=DGGZYZHG))
 - “One part is the EXISTENCE of integers q and r satisfying (5.1) and the second part is the UNIQUENESS of the integers q and r satisfying (5.1).” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=23&annotation=9VS62H68))
+
+## (6) Greatest Common Divisor
+## (7) The Euclidean Algorithm
+## (8) Bezout's Lemma
+## (9) Blankinship's Method
+## (10) Prime Numbers
+## (11) Unique Factorization
+## (12) Fermat Primes and Mersenne Primes
+## (13) The Functions sigma and tau
+## (14) Perfect Numbers and Mersenne Primes
+## (15) Congruences
+## (16) Divisibility Tests for 2, 3, 5, 9, 11
+## (17) Divisibility Tests for 7 and 13
+## (18) More Properties of Congruences
+## (19) Residue Classes
+## (20) Z_m and Complete Residue Systems
+## (21) Addition and Multiplication in Z_m
+## (22) The Groups U_m
+## (23) Two Theorems of Euler and Fermat
+## (24) Probabilistic Primality Tests
+## (25) The Base b Representation of n
+## (26) Computation of a^N mod m
+## (27) The RSA Scheme
+## (A) Rings and Groups
+
 
 ## References
 [^1]: https://en.wikipedia.org/wiki/Repunit#:~:text=In%20recreational%20mathematics%2C%20a%20repunit,more%20specific%20type%20of%20repdigit.

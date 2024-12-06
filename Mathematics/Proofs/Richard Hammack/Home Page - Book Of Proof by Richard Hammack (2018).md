@@ -6,6 +6,7 @@ Progress: "19"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Personal Notes
 - Solutions given to odd exercises
@@ -113,3 +114,106 @@ tags:
 	- [[Infinite interval]]
 - “It is an unfortunate notational accident that (a, b) can denote both an open interval on the line and a point on the plane.” ([pdf](zotero://open-pdf/library/items/A2RTCHQH?page=19&annotation=CDUJLAU6))
 ##### Exercises
+
+#### (1.2) The Cartesian Product
+#### (1.3) Subsets
+#### (1.4) Power Sets
+#### (1.5) Union, Intersection, Difference
+#### (1.6) Complement
+#### (1.7) Venn Diagrams
+#### (1.8) Indexed Sets
+
+#### (1.9) Sets That Are Number Systems
+#### (1.10) Russell's Paradox
+### (2) Logic
+#### (2.1) Statements
+#### (2.2) And, Or, Not
+#### (2.3) Conditional Statements
+#### (2.4) Biconditional Statements
+#### (2.5) Truth Tables for Statements
+#### (2.6) Logical Equivalence
+#### (2.7) Quantifiers
+#### (2.8) More on Conditional Statements
+#### (2.9) Translating English to Symbolic Logic
+#### (2.10) Negating Statements
+#### (2.11) Logical Inference
+#### (2.12) An Important Note
+### (3) Counting
+#### (3.1) Lists
+#### (3.2) The Multiplication Principle
+#### (3.3) The Addition and Subtraction Principles
+#### (3.4) Factorials and Permutations
+#### (3.5) Counting Subsets
+#### (3.6) Pascal's Triangle and the Binomial Theorem
+#### (3.7) The Inclusion-Exclusion Principle
+#### (3.8) Counting Multisets
+#### (3.9) The Division and Pigeonhole Principles
+#### (3.10) Combinatorial Proof
+## II How to Prove Conditional Statements
+### (4) Direct Proof
+#### (4.1) Theorems
+#### (4.2) Definitions
+#### (4.3) Direct Proof
+#### (4.4) Using Cases
+#### (4.5) Treating Similar Cases
+### (5) Contrapositive Proof
+#### (5.1) Contrapositive Proof
+#### (5.2) Congruence of Integers
+#### (5.3) Mathematical Writing
+### (6) Proof by Contradiction
+#### (6.1) Proving Statements with Contradiction
+#### (6.2) Proving Conditional Statements by Contradiction
+#### (6.3) Combining Techniques
+#### (6.4) Some Words of Advice
+## (III) More on Proof
+### (7) Proving Non-Conditional Statements
+#### (7.1) If-and-Only-If Proof
+#### (7.2) Equivalent Statements
+#### (7.3) Existence Proofs; Existence and Uniqueness Proofs
+#### (7.4) Constructive Versus Non-Constructive Proofs
+### (8) Proofs Involving Sets
+#### (8.1) How to Prove a in A
+#### (8.2) How to Prove A subset B
+#### (8.3) How to Prove A = B
+#### (8.4) Examples: Perfect Numbers
+### (9) Disproof
+#### (9.1) Counterexamples
+#### (9.2) Disproving Existence Statements
+#### (9.3) Disproof by Contradiction
+### (10) Mathematical Induction
+#### (10.1) Proof by Induction
+#### (10.2) Proof by Strong Induction
+#### (10.3) Proof by Smallest Counterexample
+#### (10.4) The Fundamental Theorem of Arithmetic
+#### (10.5) Fibonacci Numbers
+## (IV) Relations, Functions and Cardinality
+### (11) Relations
+#### (11.1) Relations
+#### (11.2) Properties of Relations
+#### (11.3) Equivalence of Relations
+#### (11.4) Equivalence Classes and Partitions
+#### (11.5) The Integers Modulo n
+#### (11.6) Relations Between Sets
+### (12) Functions
+#### (12.1) Functions
+#### (12.2) Injective and Surjective Functions
+#### (12.3) The Pigeonhole Principle Revisited
+#### (12.4) Composition
+#### (12.5) Inverse Functions
+#### (12.6) Image and Preimage
+### (13) Proofs in Calculus
+#### (13.1) The Triangle Inequality
+#### (13.2) Definition of a Limit
+#### (13.3) Limits That Do Not Exist
+#### (13.4) Limit Laws
+#### (13.5) Continuity and Derivatives
+#### (13.6) Limits at Infinity
+#### (13.7) Sequences
+#### (13.8) Series
+### (14) Cardinality of Sets
+#### (14.1) Sets with Equal Cardinalities
+#### (14.2) Countable and Uncountable Sets
+#### (14.3) Comparing Cardinalities
+#### (14.4) The Cantor-Bernstein-Schröder Theorem
+## Conclusion
+## Solutions

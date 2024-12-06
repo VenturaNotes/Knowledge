@@ -6,6 +6,7 @@ Progress: "10"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Preface
 - “start right in on the predicate logic, without discussing propositional logic first.” ([Leary, 2015, p. 10](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=10&annotation=8VAYTQ4D))
@@ -54,6 +55,129 @@ Notes
 
 ### (1.1) NaÏvely
 - “you have some experience working with $R^2$, $R^3$, and $R^n$ as examples of [[Vector Space|vector spaces]].” ([Leary, 2015, p. 18](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=18&annotation=R3GJDSH2))
+
+### (1.2) Languages
+#### (1.2.1) Exercises
+### (1.3) Terms and Formulas
+#### (1.3.1) Exercises
+### (1.4) Induction
+#### (1.4.1) Exercises
+### (1.5) Sentences
+#### (1.5.1) Exercises
+### (1.6) Structures
+#### (1.6.1) Exercises
+### (1.7) Truth in a Structure
+#### (1.7.1) Exercises
+### (1.8) Substitutions and Substitutability
+#### (1.8.1) Exercises
+### (1.9) Logical Implication
+#### (1.9.1) Exercises
+### (1.10) Summing Up, Looking Ahead
+
+## (2) Deductions
+### (2.1) Naïvely
+### (2.2) Deductions
+#### (2.2.1) Exercises
+### (2.3) The Logical Axioms
+#### (2.3.1) Equality Axioms
+#### (2.3.2) Quantifier Axioms
+#### (2.3.3) Recap
+### (2.4) Rules of Inference
+#### (2.4.1) Propositional Consequence
+#### (2.4.2) Quantifier Rules
+#### (2.4.3) Exercises
+### (2.5) Soundness
+#### (2.5.1) Exercises
+### (2.6) Two Technical Lemmas
+### (2.7) Properties of Our Deductive System
+#### (2.7.1) Exercises
+### (2.8) Nonlogical Axioms
+#### (2.8.1) Exercises
+### (2.9) Summing Up, Looking Ahead
+## (3) Completeness and Compactness
+### (3.1) Naïvely
+### (3.2) Completeness
+#### (3.2.1) Exercises
+### (3.3) Compactness
+#### (3.3.1) Exercises
+### (3.4) Substructures and the Löwenheim–Skolem Theorems
+#### (3.4.1) Exercises
+### (3.5) Summing Up, Looking Ahead
+## (4) Incompleteness from Two Points of View
+### (4.1) Introduction
+### (4.2) Complexity of Formulas
+#### (4.2.1) Exercises
+### (4.3) The Roadmap to Incompleteness
+### (4.4) An Alternate Route
+#### (4.5.1) Exercises
+### (4.6) An Old Friend
+### (4.7) Summing Up, Looking Ahead
+## (5) Syntactic Incompleteness -- Groundwork
+### (5.1) Introduction
+### (5.2) The Language, the Structure, and the Axioms of N
+#### (5.2.1) Exercises
+### (5.3) Representable Sets and Functions
+#### (5.3.1) Exercises
+### (5.4) Representable Functions and Computer Programs
+#### (5.4.1) Exercises
+### (5.5) Coding -- Naïvely
+#### (5.5.1) Exercises
+### (5.6) Coding is Representable
+#### (5.6.1) Exercise
+### (5.7) Gödel numbering
+#### (5.7.1) Exercises
+### (5.8) Gödel Numbers and N
+#### (5.8.1) Exercises
+### (5.9) NUM and SUB Are Representable
+#### (5.9.1) Exercises
+### (5.10) Definitions by Recursion Are Representable
+#### (5.10.1) Exercises
+### (5.11) The Collection of Axioms is Representable
+#### (5.11.1) Exercises
+### (5.12) Coding Deductions
+#### (5.12.1) Exercises
+### (5.13) Summing Up, Looking Ahead
+
+## (6) The Incompleteness Theorems
+### (6.1) Introduction
+### (6.2) The Self-Reference Lemma
+#### (6.2.1) Exercises
+### (6.3) The First Incompleteness Theorem
+#### (6.3.1) Exercises
+### (6.4) Extensions and Refinements of Incompleteness
+#### (6.4.1) Exercises
+### (6.5) Another Proof of Incompleteness
+#### (6.5.1) Exercises
+### (6.6) Peano Arithmetic and the Second Incompleteness Theorem
+#### (6.6.1) Exercises
+### (6.7) Summing Up, Looking Ahead
+## (7) Computability Theory
+### (7.1) The Origin of Computability Theory
+### (7.2) The Basics
+### (7.3) Primitive Recursion
+#### (7.3.1) Exercises
+### (7.4) Computable Functions and Computable Indices
+#### (7.4.1) Exercises
+### (7.5) The Proof of Kleene's Normal Form Theorem
+#### (7.5.1) Exercises
+### (7.6) Semi-Computable and Computably Enumerable Sets
+#### (7.6.1) Exercises
+### (7.7) Applications to First-Order Logic
+#### (7.7.1) The Entscheidungsproblem
+#### (7.7.2) Gödel's First Incompleteness Theorem
+#### (7.7.3) Exercises
+### (7.8) More on Undecidability
+#### (7.8.1) Exercises
+## (8) Summing Up, Looking Ahead
+### (8.1) Once More, With Feeling
+### (8.2) The language L_BT and the Structure B
+### (8.3) Nonstandard L_BT - structures
+### (8.4) The Axioms of B
+### (8.5) B extended with an induction scheme
+### (8.6) Incompleteness
+### (8.7) Off You Go
+## Appendix: Just Enough Set Theory to Be Dangerous
+## Solutions to Selected Exercises
 
 ## References
 [^1]: https://www.geeksforgeeks.org/difference-between-propositional-logic-and-predicate-logic/#

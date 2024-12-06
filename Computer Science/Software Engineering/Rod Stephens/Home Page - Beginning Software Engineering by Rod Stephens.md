@@ -6,6 +6,7 @@ Progress: "136"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## About the Author
 - Rod Stephens started out as a mathematician and studied at MIT
@@ -82,7 +83,7 @@ tags:
 ## What Tools Do you Need?
 - “If you’re working on a small, one-person project, you might need only a programming environment such as [[Jupyter Notebook]], [[Visual Studio]], [[Eclipse]], [[RAD Studio]]” ([Stephens, p. xxxii](zotero://select/library/items/5IBTFC2Q)) ([pdf](zotero://open-pdf/library/items/WUIGJ52N?page=34&annotation=CHBXM8PC))
 - “For<mark style="background: #FFF3A3A6;"> larger team efforts</mark>, you’ll also need tools for<mark style="background: #FFF3A3A6;"> project management, documentation (word processors), change tracking, software revision tracking</mark>, and more.” ([Stephens, p. xxxii](zotero://select/library/items/5IBTFC2Q)) ([pdf](zotero://open-pdf/library/items/WUIGJ52N?page=34&annotation=6HJ54II6))
-## Part 1
+## Part 1 Software Engineering Step-by-step
 - “they all perform roughly the same tasks. They all determine what the software should do and how it should do it.” ([Stephens, p. 2](zotero://select/library/items/5IBTFC2Q)) ([pdf](zotero://open-pdf/library/items/WUIGJ52N?page=38&annotation=838K9UW9))
 	- “the [[waterfall]] and [[V-model]] approaches, use detailed requirement specifications to exactly define the desired results before development begins.” ([Stephens, p. 2](zotero://select/library/items/5IBTFC2Q)) ([pdf](zotero://open-pdf/library/items/WUIGJ52N?page=38&annotation=MU2D5RM3))
 	- “as [[Scrum]] and [[agile]] techniques, rely on fast-paced incremental development with frequent feedback to keep a project on track.” ([Stephens, p. 2](zotero://select/library/items/5IBTFC2Q)) ([pdf](zotero://open-pdf/library/items/WUIGJ52N?page=38&annotation=L7FBNS7S))
@@ -1266,3 +1267,22 @@ private void PostDenial(DenialType type, UrgencyType urgency, MediaType media)
 	- [[Design specialist]]
 		- [[user interface designer]]
 		- [[human factors experts]]
+## (6) High-Level Design
+## (7) Low-Level Design
+## (8) Security Design
+## (9) User Experience Design
+## (10) Programming
+## (11) Algorithms
+## (12) Programming Languages
+## (13) Testing
+## (14) Deployment
+## (15) Metrics
+## (16) Maintenance
+## Part II Process Models
+## (17) Predictive Models
+## (18) Iterative Models
+## (19) RAD
+## Part III Advanced Topics
+## (20) Software Ethics
+## (21) Future Trends
+## (Appendix) Solutions to Exercises

@@ -6,6 +6,7 @@ Progress: "20"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## (I) Basic Concepts
 ### (0) Preliminary
@@ -119,3 +120,88 @@ tags:
 - Theorem 1.4
 	- Let A, B, C be sets
 		- If $(A \subseteq B \text{ \& } B \subseteq C)$, then A $\subseteq C$
+
+#### (1.2) Problems
+#### (1.3) Solutions
+### (2) Logic
+#### (2.1) Definitions
+##### (2.1.1) Propositional Logic
+##### (2.1.2) Predicate Logic
+##### (2.1.3) Predicates and Sets
+#### (2.2) Logical Proof
+##### (2.2.1) Laws of Logic
+##### (2.2.2) Rules of Inference
+##### (2.2.3) Inference Rules for Quantified Predicates
+#### (2.3) DNF and CNF
+##### (2.3.1) The DNF of a given wff
+##### (2.3.2) The CNF of a given wff
+##### (2.3.3) A shortcut to find the DNF and CNF
+#### (2.4) Problem
+#### (2.5) Solutions
+### (3) Mathematical Induction
+#### (3.1) Concepts
+##### (3.1.1) Necessary Conditions of Using Mathematical Induction
+##### (3.1.2) The Underlying Theory of Mathematical Induction
+##### (3.1.3) Mathematical Induction of the First form (Weak Induction)
+##### (3.1.4) Mathematical Induction of the Second Form (Strong Induction)
+#### (3.2) Mathematical Induction and Recursive Definition
+##### (3.2.1) Recursive Definitions for Functions
+##### (3.2.2) Recursive Definitions for Sets and Structural Induction
+#### (3.3) Nested Induction
+##### (3.3.1) The underlying logic of nested induction
+#### (3.4) Problems
+#### (3.5) Solutions
+### (4) Relations
+#### (4.1) Definitions, Theorems, and Comments
+##### (4.1.1) Definitions
+##### (4.1.2) Theorems
+#### (4.2) Problems
+#### (4.3) Solutions
+### (5) Functions
+#### (5.1) Definitions, Theorems, and Comments
+##### (5.1.1) Definitions
+##### (5.1.2) Theorems
+#### (5.2) The Pigeonhole Principle
+#### (5.3) Asymptotic Notations
+#### (5.4) Problems
+#### (5.5) Solutions
+## (II) Specific Topics
+### (6) Integers
+#### (6.1) Floor and Ceiling Functions
+#### (6.2) Divisibility
+#### (6.3) Greatest Common Divisor
+#### (6.4) Congruence
+#### (6.5) Solving Linear Congruence Equations
+#### (6.6) Solving Linear Congruence Equations with multiple variables
+#### (6.7) Applications
+##### (6.7.1) Chinese Remainder Theorem
+##### (6.7.2) Fermat's Little Theorem and Euler's Theorem
+##### (6.7.3) RSA Cryptosystem
+#### (6.8) Problems
+#### (6.9) Solutions
+### (7) Binomial Theorem and Counting
+#### (7.1) The Binomial Theorem
+#### (7.2) Principles and Typical Problems for Counting
+##### (7.2.1) Urns and Balls Models
+##### (7.2.2) Summary
+#### (7.3) Problems
+#### (7.4) Solutions
+### (8) Recurrence Relations and Generating Functions
+#### (8.1) Recurrence Relations
+##### (8.1.1) Definitions
+#### (8.2) Solving Recurrence Relations
+##### (8.2.1) Repeated Substitution Method
+##### (8.2.2) Characteristic Root Method
+##### (8.2.3) Generating Function Method
+##### (8.2.4) An Example
+#### (8.3) Problems
+#### (8.4) Solutions
+### (9) Discrete Probability
+#### (9.1) Definitions and Terminologies
+##### (9.1.1) Examples and Discussion
+#### (9.2) Theorems of Probability
+#### (9.3) Problems
+#### (9.4) Solutions
+## (III) Appendices
+### (A) Loop Invariance
+### (B) Sample Quizzes

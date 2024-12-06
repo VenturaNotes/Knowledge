@@ -1,10 +1,13 @@
 ---
+aliases:
+  - algebraic structure
 References: 1
 ---
 ## Synthesis
 - 
 ## Source [^1]
 - Algebraic structures are sets of elements equipped with one or more operations that satisfy certain properties or axioms. 
+	- #question Are all algebraic structures in terms of sets?
 
 ### Groups:
 - A group is a set of elements along with a single operation that satisfies four properties: [[closure]], [[associativity]], [[identity]], and [[invertibility]]

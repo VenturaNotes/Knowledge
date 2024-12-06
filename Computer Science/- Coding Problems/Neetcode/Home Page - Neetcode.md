@@ -160,9 +160,10 @@ tags:
 		- (133) [[(72) Edit Distance]]
 		- (134) [[(312) Burst Balloons]]
 		- (135) [[(10) Regular Expression Matching]]
-- Incomplete
 	- Bit Manipulation (7)
 		- (136) [[(136) Single Number]]
+- Incomplete
+	- Bit Manipulation (7)
 		- (137) [[(191) Number of 1 Bits]]
 		- (138) [[(338) Counting Bits]]
 		- (139) [[(190) Reverse Bits]]

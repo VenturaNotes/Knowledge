@@ -6,6 +6,7 @@ Length: "273"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 Progress: "27"
 ---
 ## Preface
@@ -13,7 +14,7 @@ Progress: "27"
 - Topics it teaches
 	- [[Propositional logic]]
 	- [[Predicate logic]]
-	- [[sets]]
+	- [[set|sets]]
 	- [[functions]]
 	- [[relations]]
 	- [[modular arithmetic]]
@@ -728,7 +729,7 @@ Progress: "27"
 ### (A.3) Constructions
 ### (A.4) Unexpectedly normal
 ## (B) Acknowledgements and Supplementary Readings
-## (C) Where dit it go? 
+## (C) Where did it go? 
 ## References
 [^1]: [[(11) Algebra - Ch. 24 - Complex Numbers (11 of 28) Multiplying Complex Conjugates]]
 [^2]: [[(25) PreCalculus - Logarithmic Function (12 of 23) Solving Logarithms by Changing the Base]]

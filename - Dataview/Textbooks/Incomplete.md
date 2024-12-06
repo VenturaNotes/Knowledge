@@ -11,6 +11,6 @@ Group by View
 
 ```dataview
 TABLE number(Length), round((number(Progress)/number(Length))*100,2) + "%" as Progress
-FROM #type/textbook  and #status/incomplete 
+FROM #type/textbook  and #status/incomplete and !#temp
 SORT round((number(Progress)/number(Length))*100,2) DESC
 ```
