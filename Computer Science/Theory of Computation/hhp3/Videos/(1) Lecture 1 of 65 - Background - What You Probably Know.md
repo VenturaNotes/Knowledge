@@ -2,7 +2,7 @@
 
 - ![[Screenshot 2023-09-11 at 1.59.51 PM.png]]
 	- Prerequisites
-		- [[Sets]]
+		- [[Set|Sets]]
 			- {a, b, c}
 			- $\mathbb{N}$ = [[Natural Numbers]] = {1, 2, 3, ...}
 				- Positive numbers starting with 1

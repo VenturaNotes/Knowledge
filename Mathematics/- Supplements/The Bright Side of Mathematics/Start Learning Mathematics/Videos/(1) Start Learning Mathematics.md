@@ -5,7 +5,7 @@
 	- Course split up into 3 parts
 		- [[Logic]]
 			- Need to know what a [[proof]] is
-		- [[Sets]] and [[maps]]
+		- [[Set|Sets]] and [[maps]]
 			- Basic building blocks of mathematical world
 		- [[Numbers]]
 			- Now able to define all the different numbers we need

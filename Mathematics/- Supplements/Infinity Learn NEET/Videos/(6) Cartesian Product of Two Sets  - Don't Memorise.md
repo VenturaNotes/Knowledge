@@ -1,7 +1,7 @@
 [Video](https://www.youtube.com/watch?v=_IUP114x2gM)
 
 - ![[Screenshot 2023-10-16 at 4.26.29 PM.png]]
-	- [[Cartesian product]] of [[sets]]
+	- [[Cartesian product]] of [[set|sets]]
 	- Set T contains elements $T_A$ and $T_B$ 
 	- Want to write all possible ways in which every teacher teaches every language
 		- Can understand this using an [[arrow diagram]]

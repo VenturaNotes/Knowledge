@@ -7,7 +7,7 @@
 			- (2) Represent a function using an [[arrow diagram]]
 	- Slide 3 - Motivation
 		- Motivation
-			- [[Functions]] are basic objects that are closely related to [[sets]]. They appear everywhere in math
+			- [[Functions]] are basic objects that are closely related to [[set|sets]]. They appear everywhere in math
 	- Slide 4 - Definition of a function
 		- "Definition" (Function)
 			- A function f: $A \to B$ is a "rule" (or "machine") that associates to every element a $\in$ A an element f(a) $\in$ B.

@@ -44,6 +44,7 @@ class Solution(object):
 - Return indices `i` and `j` such that 
 	- their elements sum to the target
 	- `i != j`
+	- There is exactly one pair of indices that satisfy the condition
 	- Return the smaller index first
 ### Brute Force
 ```python
@@ -85,7 +86,6 @@ class Solution:
 - Time Complexity: $O(nlogn)$ 
 - Space Complexity: $O(n)$
 - #comment 
-	- 
 	- Don't need the `return []` as the last line since there will always be a solution given the input for this problem
 ### Hash Map (Two Pass)
 ```python

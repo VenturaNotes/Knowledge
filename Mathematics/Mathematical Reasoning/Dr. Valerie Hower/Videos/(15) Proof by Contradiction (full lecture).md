@@ -24,7 +24,7 @@
 		- Prove the sum of a [[Rational Numbers|rational number]] and [[irrational number]] is irrational
 			- Since $y = x+y -x$ is a true equation, it's valid. Need to be creative to come up with this though
 	- Slide 3
-		- For A, B [[sets]], prove $A \cap (B-A) = \varnothing$ 
+		- For A, B [[set|sets]], prove $A \cap (B-A) = \varnothing$ 
 	- Slide 4
 		- Suppose we want to prove an [[Implication]] $p \implies q$ 
 			- [[Direct Proof]] (Has guidance)

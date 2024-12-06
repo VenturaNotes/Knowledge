@@ -22,6 +22,6 @@
 		- This is no good for sets
 		- ![[Screenshot 2023-01-02 at 4.49.21 PM.png]]
 			- = {R,W} = {W, R}
-	- [[Sets]]
+	- [[Set|Sets]]
 		- <mark style="background: #FFF3A3A6;">Order doesn't matter</mark>
 		- <mark style="background: #FFF3A3A6;">No repetition</mark>

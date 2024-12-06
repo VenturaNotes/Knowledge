@@ -6,7 +6,33 @@ Progress: "27"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
+## About the Authors
+## Acknowledgements
+## Preface
+## Preface to 2017 Edition
+## Preface to 2016 Edition
+## Prologue
+## (1) An Introduction to Combinatorics
+## (2) Strings, Sets, and Binomial Coefficients
+## (3) Induction
+## (4) Combinatorial Basics
+## (5) Graph Theory
+## (6) Partially Ordered Sets
+## (7) Inclusion-Exclusion
+## (8) Generating functions
+## (9) Recurrence Equations
+## (10) Probability
+## (11) Applying Probability to Combinatorics
+## (12) Graph Algorithms
+## (13) Network Flows
+## (14) Combinatorial Applications of Network Flows
+## (15) Pólya's Enumeration Theorem
+## (16) The Many Faces of Combinatorics
+## (A) Epilogue
+## (B) Background Material for Combinatorics
+
 ## (B) Background Material for Combinatorics
 ### (B.1) Introduction
 - When writing with set-builder notation, you can also use a ":" to represent "such that"
@@ -73,6 +99,7 @@ tags:
 	- I'm not sure the answer to this. I just know that $\varnothing \subset {1}$ is true [^2]
 - Cartesian products can also be defined for more than 2 factors
 	- ![[Pasted image 20230102151847.png]]
+## (C) List of Notation
 ## References
 [^1]: https://www.mathsisfun.com/sets/set-builder-notation.html
 [^2]: https://www.math.drexel.edu/~tolya/emptyset.pdf

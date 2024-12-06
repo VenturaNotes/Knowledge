@@ -3,7 +3,7 @@
 - ![[Screenshot 2023-11-13 at 5.11.03 PM.png]]
 	- Slide 2 - Learning Objectives (for this video)
 		- By the end of this video, participants should be able to:
-			- (1) Define basic terms about [[sets]]
+			- (1) Define basic terms about [[set|sets]]
 			- (2) Define a set using [[set-builder notation]]
 			- (3) Distinguish between $\theta$ and {$\theta$}
 			- (4) Prove that two sets are equal using the "[[double subset technique]]"

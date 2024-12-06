@@ -7,6 +7,7 @@ Progress: "19"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## (I) Proofs
 - “a [[proof]] is a method of establishing truth” ([Lehman et al., p. 11](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=11&annotation=TQBJKHLM))
@@ -144,3 +145,177 @@ tags:
 		- p implies q
 	- Contrapositive
 		- not q implies not p
+#### (1.6) Proving an "If and Only If"
+#### (1.7) Proof by Cases
+#### (1.8) Proof by Contradiction
+#### (1.9) Good Proofs in Practice
+#### (1.10) References
+### (2) The Well Ordering Principle
+#### (2.1) Well Ordering Proofs
+#### (2.2) Template for WOP Proofs
+#### (2.3) Factoring into Primes
+#### (2.4) Well Ordered Sets
+### (3) Logical Formulas
+#### (3.1) Propositions from Propositions
+#### (3.2) Propositional Logic in Computer Programs
+#### (3.3) Equivalence and Validity
+#### (3.4) The Algebra of Propositions
+#### (3.5) The SAT Problem
+#### (3.6) Predicate Formulas
+#### (3.7) References
+### (4) Mathematical Data Types
+#### (4.1) Sets
+#### (4.2) Sequences
+#### (4.3) Functions
+#### (4.4) Binary Relations
+#### (4.5) Finite Cardinality
+### (5) Induction
+#### (5.1) Ordinary Induction
+#### (5.2) Strong Induction
+#### (5.3) Strong Induction vs. Induction vs. Well Ordering
+### (6) State Machines
+#### (6.1) States and Transitions
+#### (6.2) The Invariant Principle
+#### (6.3) Partial Correctness & Termination
+#### (6.4) The Stable Marriage Problem
+### (7) Recursive Data Types
+#### (7.1) Recursive Definitions and Structural Induction
+#### (7.2) Strings of Matched Brackets
+#### (7.3) Recursive Functions on Nonnegative Integers
+#### (7.4) Arithmetic Expressions
+#### (7.5) Games as a Recursive Data Type
+#### (7.6) Search Trees
+#### (7.7) Induction in Computer Science
+### (8) Infinite Sets
+#### (8.1) Infinite Cardinality
+#### (8.2) The Halting Problem
+#### (8.3) The Logic of Sets
+#### (8.4) Does All This Really Work?
+## (II) Structures
+### Introduction
+### (9) Number Theory
+#### (9.1) Divisibility
+#### (9.2) The Greatest Common Divisor
+#### (9.3) Prime Mysteries
+#### (9.4) The Fundamental Theorem of Arithmetic
+#### (9.5) Alan Turing
+#### (9.6) Modular Arithmetic
+#### (9.7) Remainder Arithmetic
+#### (9.8) Turing's Code (Version 2.0)
+#### (9.9) Multiplicative Inverses and Cancelling
+#### (9.10) Euler's Theorem
+#### (9.11) RSA Public Key Encryption
+#### (9.12) What has SAT got to do with it?
+#### (9.13) References
+### (10) Directed graphs & Partial Orders
+#### (10.1) Vertex Degrees
+#### (10.2) Walks and Paths
+#### (10.3) Adjacency Matrices
+#### (10.4) Walk Relations
+#### (10.5) Directed Acyclic Graphs & Scheduling
+#### (10.6) Partial Orders
+#### (10.7) Representing Partial Orders by Set Containment
+#### (10.8) Linear Orders
+#### (10.9) Product Orders
+#### (10.10) Equivalence Relations
+#### (10.11) Summary of Relational Properties
+#### (10.12) References
+### (11) Communication Networks
+#### (11.1) Routing
+#### (11.2) Routing Measures
+#### (11.3) Network Designs
+
+### (12) Simple Graphs
+#### (12.1) Vertex Adjacency and Degrees
+#### (12.2) Sexual Demographics in America
+#### (12.3) Some Common Graphs
+#### (12.4) Isomorphism
+#### (12.5) Bipartite Graphs & Matchings
+#### (12.6) Coloring
+#### (12.7) Walks in Simple Graphs
+#### (12.8) Connectivity
+#### (12.9) Special Walks and Tours
+#### (12.10) k-connected Graphs
+#### (12.11) Forests & Trees
+#### (12.12) References
+### (13) Planar Graphs
+#### (13.1) Drawing Graphs in the Plane
+#### (13.2) Definitions of Planar Graphs
+#### (13.3) Euler's Formula
+#### (13.4) Bounding the Number of Edges in a Planar Graph
+#### (13.5) Returning to K_5 and K_3,3
+#### (13.6) Coloring Planar Graphs
+#### (13.7) Classifying Polyhedra
+#### (13.8) Another Characterization for Planar Graphs
+## (III) counting
+### Introduction
+### (14) Sums and Asymptotics
+#### (14.1) The Value of an Annuity
+#### (14.2) Sums of Powers
+#### (14.3) Approximating Sums
+#### (14.4) Hanging Out Over the Edge
+#### (14.5) Products
+#### (14.6) Double Trouble
+#### (14.7) Asymptotic Notation
+### (15) Cardinality Rules
+#### (15.1) Counting One Thing by Counting Another
+#### (15.2) Counting Sequences
+#### (15.3) The Generalized Product Rule
+#### (15.4) The Division Rule
+#### (15.5) counting Subsets
+#### (15.6) Sequences with Repetitions
+#### (15.7) Counting Practice: Poker Hands
+#### (15.8) The Pigeonhole Principle
+#### (15.9) Inclusion-Exclusion
+#### (15.10) Combinatorial Proofs
+#### (15.11) References
+### (16) Cardinality Rules
+#### (16.1) Infinite Series
+#### (16.2) Counting with Generating Functions
+#### (16.3) Partial Fractions
+#### (16.4) Solving Linear Recurrences
+#### (16.5) Formal Power Series
+#### (16.6) References
+## (IV) Probability
+### Introduction
+### (17) Events and Probability Spaces
+#### (17.1) Let's Make a Deal
+#### (17.2) The Four Step Method
+#### (17.3) Strange Dice
+#### (17.4) The Birthday Principle
+#### (17.5) Set Theory and Probability
+#### (17.6) References
+### (18) Conditional Probability
+#### (18.1) Monty Hall Confusion
+#### (18.2) Definition and Notation
+#### (18.3) The Four-Step Method for Conditional Probability
+#### (18.4) Why Tree Diagrams Work
+#### (18.5) The Law of Total Probability
+#### (18.6) Simpson's Paradox
+#### (18.7) Independence
+#### (18.8) Mutual Independence
+#### (18.9) Probability versus Confidence
+### (19) Random Variables
+#### (19.1) Random Variable Examples
+#### (19.2) Independence
+#### (19.3) Distribution Functions
+#### (19.4) Great Expectations
+#### (19.5) Linearity of Expectation
+#### (19.6) Really Great Expectations
+### (20) Deviation from the Mean
+#### (20.1) Markov's Theorem
+#### (20.2) Chebyshev's Theorem
+#### (20.3) Properties of Variance
+#### (20.4) Estimation by Random Sampling
+#### (20.5) Sums of Random Variables
+### (21) Random Walks
+#### (21.1) Gambler's Ruin
+#### (21.2) Random Walks on Graphs
+## (V) Recurrences
+### Introduction
+### (22) Recurrences
+#### (22.1) The Towers of Hanoi
+#### (22.2) Merge Sort
+#### (22.3) Linear Recurrences
+#### (22.4) Divide-and-Conquer Recurrences
+#### (22.5) A Feel for Recurrences

@@ -1,8 +1,3 @@
----
-aliases:
-  - exclusive-or
-  - xor
----
 ## Synthesis
 - 
 ## Source [^1]

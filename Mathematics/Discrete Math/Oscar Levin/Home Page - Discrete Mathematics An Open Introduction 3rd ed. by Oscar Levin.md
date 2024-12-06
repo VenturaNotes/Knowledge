@@ -6,6 +6,7 @@ Progress: "21"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Acknowledgements
 - ““Discrete and Combinatorial Mathematics” by Richard Grassl and Tabitha Mingus.” ([Levin, 2019, p. 7](zotero://select/library/items/VABQEUJ4)) ([pdf](zotero://open-pdf/library/items/RZPKBH48?page=7&annotation=BIG2JUYP))

@@ -6,11 +6,14 @@ Progress: "17"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Personal Notes
 - [Solutions to Exercises](https://longformmath.com/proofs-hints-%26-solutions)
 - Jay Cummings went to grad school
-## (1.1) Chessboard Problems
+
+## (1) Intuitive Proofs
+### (1.1) Chessboard Problems
 - “Math runs on definitions,” ([pdf](zotero://open-pdf/library/items/5LQBXNXV?page=6&annotation=42GL7BTG))
 	- ![[Pasted image 20230405114625.png]]
 - “proposition (something which is true and requires proof)” ([pdf](zotero://open-pdf/library/items/5LQBXNXV?page=6&annotation=WDMGIGHB))
@@ -32,7 +35,7 @@ tags:
 - “While good mathematicians can answer interesting questions, great mathematicians can ask interesting questions.” ([pdf](zotero://open-pdf/library/items/5LQBXNXV?page=12&annotation=3DL42CBF))
 - “Indeed, pick up a math research paper and you will likely find more questions asked than answered. This provides wonderful job security for us academics.” ([pdf](zotero://open-pdf/library/items/5LQBXNXV?page=12&annotation=984WF9YN))
 
-## (1.2) Naming Results
+### (1.2) Naming Results
 - Proved Results
 	- [[Theorem]]
 		- “A theorem is an important result that has been proved.” ([pdf](zotero://open-pdf/library/items/5LQBXNXV?page=13&annotation=KMUHPNPM))
@@ -49,7 +52,7 @@ tags:
 		- ![[Pasted image 20230408103412.png]]
 			- We could assume "that n randomly placed dots form $2^{n-1}$" even though this is not the case due to <mark style="background: #FFF3A3A6;">counterexample</mark> which is that n=6 gives 31 regions.
 
-## (1.3) The Pigeonhole Principle
+### (1.3) The Pigeonhole Principle
 - “the pigeonhole principle.” ([pdf](zotero://open-pdf/library/items/5LQBXNXV?page=15&annotation=28IC6ZJA))
 	- Origin
 		- “If 6 pigeons live in just 5 pigeonholes, then at least one pigeonhole must have at least two pigeons living in it.” ([pdf](zotero://open-pdf/library/items/5LQBXNXV?page=15&annotation=5Q2M6K7N))
@@ -79,3 +82,64 @@ tags:
 	- “There are 3 non-balding Sacramentans who have exactly the same number of hairs on their head.” ([pdf](zotero://open-pdf/library/items/5LQBXNXV?page=17&annotation=D6AVWZSG))
 	- “Among any 5 playing cards, there are at least two cards of the same suit.” ([pdf](zotero://open-pdf/library/items/5LQBXNXV?page=17&annotation=8YCS7A35))
 	- “Among any 37 people, 4 must have the same birthmonth.” ([pdf](zotero://open-pdf/library/items/5LQBXNXV?page=17&annotation=3RFPFLMP))
+### (1.4) Bonus Examples
+### (1.5) Exercises
+## (2) Direct Proofs
+### (2.1) Working From Definitions
+### (2.2) Proofs by Cases
+### (2.3) Divisibility
+### (2.4) Greatest Common Divisors
+### (2.5) Modular Arithmetic
+### (2.6) Bonus Examples
+### (2.7) Exercises
+## (3) Sets
+### (3.1) Definitions
+### (3.2) Proving A subset B
+### (3.3) Proving A = B
+### (3.4) Set Operations
+### (3.5) Two Final Topics
+### (3.6) Bonus Examples
+### (3.7) Exercises
+## (4) Induction
+### (4.1) Dominoes, Ladders and Chips
+### (4.2) Examples
+### (4.3) Strong Induction
+### (4.4) Non-Examples
+### (4.5) Bonus Examples
+### (4.6) Exercises
+
+## (5) Logic
+### (5.1) Statements
+### (5.2) Truth Tables
+### (5.3) Quantifiers and Negations
+### (5.4) Proving Quantified Statements
+### (5.5) Paradoxes
+### (5.6) Bonus Examples
+### (5.7) Exercises
+## (6) The Contrapositive
+### (6.1) Finding the Contrapositive of a Statement
+### (6.2) Proofs Using the Contrapositive
+### (6.3) Bonus Examples
+### (6.4) Exercises
+## (7) Contradiction
+### (7.1) Two Warm-Up Examples
+### (7.2) Examples
+### (7.3) The Most Famous Proof in History
+### (7.4) The Pythagoreans
+### (7.5) Bonus Examples
+### (7.6) Exercises
+### (7.7) Introduction to Game Theory
+## (8) Functions
+### (8.1) Approaching Functions
+### (8.2) Injections, Surjections and Bijections
+### (8.3) The Composition
+### (8.4) Invertibility
+### (8.5) Bonus Examples
+### (8.6) Exercises
+### (8.7) Introduction to Cardinality
+## (9) Relations
+### (9.1) Equivalence Relations
+### (9.2) Abstraction and Generalization
+### (9.3) Bonus Examples
+### (9.4) Exercises
+### (9.5) Introduction to Group Theory

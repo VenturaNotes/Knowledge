@@ -6,6 +6,7 @@ Progress: "15"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Note
 - Revision Date: January 15, 2021
@@ -231,3 +232,156 @@ tags:
 	- \[\^\x] indicates any character except one
 		- $\Sigma - x$
 		- #archive
+### (3.4) Finite Automata
+#### (3.4.1) Deterministic Finite Automata
+#### (3.4.2) Nondeterministic Finite Automata
+### (3.5) Conversion Algorithms
+#### (3.5.1) Converting REs to NFAs
+#### (3.5.2) Converting NFAs to DFAs
+#### (3.5.3) Minimizing DFAs
+### (3.6) Limits of Finite Automata
+### (3.7) Using a Scanner Generator
+### (3.8) Practical Considerations
+### (3.9) Exercises
+### (3.10) Further Reading
+## (4) Parsing
+### (4.1) Overview
+### (4.2) Context Free Grammars
+#### (4.2.1) Deriving Sentences
+#### (4.2.2) Ambiguous Grammars
+### (4.3) LL Grammars
+#### (4.3.1) Eliminating Left Recursion
+#### (4.3.2) Eliminating Common Left Prefixes
+#### (4.3.3) First and Follow Sets
+#### (4.3.4) Recursive Descent Parsing
+#### (4.3.5) Table Driven Parsing
+### (4.4) LR Grammars
+#### (4.4.1) Shift-Reduce Parsing
+#### (4.4.2) The LR(0) Automaton
+#### (4.4.3) SLR Parsing
+#### (4.4.4) LR(1) Parsing
+#### (4.4.5) LALR Parsing
+### (4.5) Grammar Classes Revisited
+### (4.6) The Chomsky Hierarchy
+### (4.7) Exercises
+### (4.8) Further Reading
+## (5) Parsing in Practice
+### (5.1) The Bison Parser Generator
+### (5.2) Expression Validator
+### (5.3) Expression Interpreter
+### (5.4) Expression Trees
+### (5.5) Exercises
+### (5.6) Further Reading
+## (6) The Abstract Syntax Tree
+### (6.1) Overview
+### (6.2) Declarations
+### (6.3) Statements
+### (6.4) Expressions
+### (6.5) Types
+### (6.6) Putting it All Together
+### (6.7) Building the AST
+### (6.8) Exercises
+## (7) Semantic Analysis
+### (7.1) Overview of Type Systems
+### (7.2) Designing a Type System
+### (7.3) The B-Minor Type System
+### (7.4) The Symbol Table
+### (7.5) Name Resolution
+### (7.6) implementing Type Checking
+### (7.7) Error Messages
+### (7.8) Exercises
+### (7.9) Further Reading
+## (8) Intermediate Representations
+### (8.1) Introduction
+### (8.2) Abstract Syntax Tree
+### (8.3) Directed Acyclic Graph
+### (8.4) Control Flow Graph
+### (8.5) Static Single Assignment Form
+### (8.6) Linear IR
+### (8.7) Stack Machine IR
+### (8.8) Examples
+#### (8.8.1) GIMPLE - GNU Simple Representation
+#### (8.8.2) LLVM - Low Level Virtual Machine
+#### (8.8.3) JVM - Java Virtual Machine
+### (8.9) Exercises
+### (8.10) Further Reading
+## (9) Memory Organization
+### (9.1) Introduction
+### (9.2) Logical Segmentation
+### (9.3) Heap Management
+### (9.4) Stack Management
+#### (9.4.1) Stack Calling Convention
+#### (9.4.2) Register Calling Convention
+### (9.5) Locating Data
+### (9.6) Program Loading
+### (9.7) Further Reading
+## (10) Assembly Language
+### (10.1) Introduction
+### (10.2) Open Source Assembler Tools
+### (10.3) X86 Assembly Language
+#### (10.3.1) Registers and Data Types
+#### (10.3.2) Addressing Modes
+#### (10.3.3) Basic Arithmetic
+#### (10.3.4) Comparisons and Jumps
+#### (10.3.5) The Stack
+#### (10.3.6) Calling a Function
+#### (10.3.7) Defining a Leaf Function
+#### (10.3.8) Defining a Complex Function
+### (10.4) ARM Assembly
+#### (10.4.1) Registers and Data Types
+#### (10.4.2) Addressing Modes
+#### (10.4.3) Basic Arithmetic
+#### (10.4.4) Comparisons and Branches
+#### (10.4.5) The Stack
+#### (10.4.6) Calling a Function
+#### (10.4.7) defining a Leaf Function
+#### (10.4.8) Defining a Complex Function
+#### (10.4.9) 64-bit Differences
+### (10.5) Further Reading
+## (11) Code Generation
+### (11.1) Introduction
+### (11.2) Supporting Functions
+### (11.3) Generating Expressions
+### (11.4) Generating Statements
+### (11.5) Conditional Expressions
+### (11.6) Generating Declarations
+### (11.7) Exercises
+## (12) Optimization
+### (12.1) Overview
+### (12.2) Optimization in Perspective
+### (12.3) High Level Optimizations
+#### (12.3.1) Constant folding
+#### (12.3.2) Strength Reduction
+#### (12.3.3) Loop Unrolling
+#### (12.3.4) Code Hoisting
+#### (12.3.5) function Inlining
+#### (12.3.6) Dead Code Detection and Elimination
+### (12.4) Low-Level Optimizations
+#### (12.4.1) Peephole Optimizations
+#### (12.4.2) Instruction Selection
+### (12.5) Register Allocation
+#### (12.5.1) Safety of Register Allocation
+#### (12.5.2) Priority of Register Allocation
+#### (12.5.3) Conflicts Between Variables
+#### (12.5.4) Global Register Allocation
+### (12.6) Optimization Pitfalls
+### (12.7) Optimization Interactions
+### (12.8) Exercises
+### (12.9) Further Reading
+## (A) Sample course Project
+### (A.1) Scanner Assignment
+### (A.2) Parser Assignment
+### (A.3) Pretty-Printer Assignment
+### (A.4) Typechecker Assignment
+### (A.5) Optional: Intermediate Representation
+### (A.6) Code Generator Assignment
+### (A.7) Optional: Extend the Language
+## (B) The B-Minor Language
+### (B.1) Overview
+### (B.2) Tokens
+### (B.3) Types
+### (B.4) Expressions
+### (B.5) Declarations and Statements
+### (B.6) Functions
+### (B.7) Optional Elements
+## (C) Coding Conventions

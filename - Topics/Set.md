@@ -2,6 +2,7 @@
 aliases:
   - collection
   - family
+  - sets
 ---
 ## Synthesis
 - 

@@ -8,7 +8,7 @@
 				- B is the [[codomain]]
 	- Example
 		- f: $\mathbb{N} \to \mathbb{Z}$
-			- This arrow is used for [[sets]]
+			- This arrow is used for [[set|sets]]
 		- $x \mapsto x^2$ 
 			- This arrow is used for [[members|elements]]
 			- New notation for $f(x) = x^2$

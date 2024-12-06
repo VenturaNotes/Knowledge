@@ -7,6 +7,7 @@ Progress: "15"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 - Note
 	- ([2015](https://www.pdfdrive.com/open-data-structures-in-java-e11947462.html) may have been the release date)
@@ -278,6 +279,138 @@ void snippet() {
 - [[Indicator random variables]]
 	- “These binary variables are useful when we want to count something and are best illustrated by an example.” ([Morin, p. 17](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=29&annotation=XVGKJ7JC))
 	- If flipping a coin k times, we intuitively know that the expected number of times the coin turns up as heads is $\frac k2$. We can try to prove it using the definition of expected value
+### (1.4) The Model of Computation
+### (1.5) Correctness, Time Complexity, and Space Complexity
+### (1.6) Code Samples
+### (1.7) List of Data Structures
+### (1.8) Discussion and Exercises
+## (2) Array-Based Lists
+### (2.1) ArrayStack: Fast Stack Operations Using an Array
+#### (2.1.1) The Basics
+#### (2.1.2) Growing and Shrinking
+#### (2.1.3) Summary
+### (2.2) FastArrayStack: An Optimized ArrayStack
+### (2.3) ArrayQueue: An Array-Based Queue
+#### (2.3.1) Summary
+### (2.4) ArrayDeque: Fast Deque Operations Using an Array
+#### (2.4.1) Summary
+### (2.5) DualArrayDeque: Building a Deque from Two Stacks
+#### (2.5.1) Balancing
+#### (2.5.2) Summary
+### (2.6) RootishArrayStack: A space-Efficient Array Stack
+#### (2.6.1) Analysis of Growing and Shrinking
+#### (2.6.2) Space Usage
+#### (2.6.3) Summary
+#### (2.6.4) Computing Square Roots
+### (2.7) Discussion and Exercises
+## (3) Linked Lists
+### (3.1) SLList: A Singly-Linked List
+#### (3.1.1) Queue Operations
+#### (3.1.2) Summary
+### (3.2) DLList: A Doubly-Linked List
+#### (3.2.1) Adding and Removing
+#### (3.2.2) Summary
+### (3.3) SEList: A Space-Efficient Linked List
+#### (3.3.1) Space Requirements
+#### (3.3.2) Finding Elements
+#### (3.3.3) Adding an Element
+#### (3.3.4) Removing an Element
+#### (3.3.5) Amortized Analysis of Spreading and Gathering
+#### (3.3.6) Summary
+### (3.4) Discussion and Exercises
+## (4) Skiplists
+### (4.1) The Basic Structure
+### (4.2) SkiplistSSet: An Efficient SSet
+#### (4.2.1) Summary
+### (4.3) SkiplistList: An Efficient Random-Access List
+#### (4.3.1) Summary
+### (4.4) Analysis of Skiplists
+### (4.5) Discussion and Exercises
+## (5) Hash Tables
+### (5.1) ChainedHashTable: Hashing with Chaining
+#### (5.1.1) Multiplicative Hashing
+#### (5.1.2) Summary
+### (5.2) LinearHashTable: Linear Probing
+#### (5.2.1) Analysis of Linear Probing
+#### (5.2.2) Summary
+#### (5.2.3) Tabulation Hashing
+### (5.3) Hash Codes
+#### (5.3.1) Hash Codes for Primitive Data Types
+#### (5.3.2) Hash Codes for Compound Objects
+#### (5.3.3) Hash Codes for Arrays and Strings
+### (5.4) Discussion and Exercises
+## (6) Binary Trees
+### (6.1) BinaryTree: A Basic Binary Tree
+#### (6.1.1) Recursive Algorithms
+#### (6.1.2) Traversing Binary Trees
+### (6.2) BinarySearchTree: An Unbalanced Binary Search Tree
+#### (6.2.1) Searching
+#### (6.2.2) Addition
+#### (6.2.3) Removal
+#### (6.2.4) Summary
+### (6.3) Discussion and Exercises
+## (7) Random Binary Search Trees
+### (7.1) Random Binary Search Trees
+#### (7.1.1) Proof of Lemma 7.1
+#### (7.1.2) Summary
+### (7.2) Treap: A Randomized Binary Search Tree
+#### (7.2.1) Summary
+### (7.3) Discussion and Exercises
+## (8) Scapegoat Trees
+### (8.1) ScapegoatTree: A Binary Search Tree with Partial Rebuilding
+#### (8.1.1) Analysis of Correctness and Running-Time
+#### (8.1.2) Summary
+### (8.2) Discussion and Exercises
+## (9) Red-Black Trees
+### (9.1) 2-4 Trees
+#### (9.1.1) Adding a leaf
+#### (9.1.2) Removing a Leaf
+### (9.2) RedBlackTree: A Simulated 2-4 Tree
+#### (9.2.1) Red-Black Trees and 2-4 Trees
+#### (9.2.2) Left-Leaning Red-Black Trees
+#### (9.2.3) Addition
+#### (9.2.4) Removal
+### (9.3) Summary
+### (9.4) Discussion and Exercises
+## (10) Heaps
+### (10.1) BinaryHeap: An Implicit Binary Tree
+#### (10.1.1) Summary
+### (10.2) MeldableHeap: A Randomized Meldable Heap
+#### (10.2.1) Analysis of merge(h1, h2)
+#### (10.2.2) Summary
+### (10.3) Discussion and Exercises
+## (11) Sorting Algorithms
+### (11.1) Comparison-Based Sorting
+#### (11.1.1) Merge-Sort
+#### (11.1.2) Quicksort
+#### (11.1.3) Heap-sort
+#### (11.1.4) A Lower-Bound for Comparison-Based Sorting
+### (11.2) Counting Sort and Radix Sort
+#### (11.2.1) Counting Sort
+#### (11.2.2) Radix-sort
+### (11.3) Discussion and Exercises
+## (12) Graphs
+### (12.1) AdjacencyMatrix: Representing a Graph by a Matrix
+### (12.2) AdjacencyLists: A Graph as a Collection of Lists
+### (12.3) Graph Traversal
+#### (12.3.1) Breadth-First Search
+#### (12.3.2) Depth-First Search
+### (12.4) Discussion and Exercises
+## (13) Data Structures for Integers
+### (13.1) BinaryTrie: A digital search tree
+### (13.2) XFastTrie: Searching in Doubly-Logarithmic Time
+### (13.3) YFastTrie: A Doubly-Logarithmic Time SSet
+### (13.4) Discussion and Exercises
+## (14) External Memory Searching
+### (14.1) The Block Store
+### (14.2) B-Trees
+#### (14.2.1) Searching
+#### (14.2.2) Addition
+#### (14.2.3) Removal
+#### (14.2.4) Amortized Analysis of B-Trees
+### (14.3) Discussion and Exercises
 
+
+ 
 ## References
 [^1]: https://www.google.com/search?q=define+subsumed&oq=define+subsumed&aqs=chrome..69i57j0i433i512l3j0i512l2j0i433i512j0i512j0i433i512j0i512.1844j1j7&sourceid=chrome&ie=UTF-8
