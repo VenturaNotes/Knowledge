@@ -6,6 +6,7 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Helpful
 - Assignments and exam solutions: https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/exams/
@@ -87,6 +88,7 @@ tags:
 ### (12.1) Mean, Variance, and Probability
 ### (12.2) Covariance Matrices and Joint Probabilities
 ### (12.3) Multivariate Gaussian and Weighted Least Squares
+## Matrix factorizations
 
 
 

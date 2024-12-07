@@ -1,3 +1,7 @@
+---
+aliases:
+  - subspaces
+---
 ## Synthesis
 - 
 ## Source [^1]

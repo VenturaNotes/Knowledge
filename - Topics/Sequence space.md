@@ -1,0 +1,4 @@
+---
+aliases:
+  - sequence spaces
+---
