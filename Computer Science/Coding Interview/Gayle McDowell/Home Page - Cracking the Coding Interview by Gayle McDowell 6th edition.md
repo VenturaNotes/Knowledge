@@ -7,6 +7,7 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Introduction
 ## (1) The Interview Process
@@ -156,6 +157,30 @@ tags:
 #### (9.16) Moderate
 #### (9.17) Hard
 ## (10) Solutions
-### (10)
+### (10.1) Data Structures
+### (10.2) Concepts and Algorithms
+### (10.3) Knowledge Based
+### (10.4) Additional Review Problems
+## (11) Advanced Topics
+### (11.1) Useful Math
+### (11.2) Topological Sort
+### (11.3) Dijkstra's Algorithm
+### (11.4) Hash Table Collision Resolution
+### (11.5) Rabin-Karp Substring Search
+### (11.6) AVL Trees
+### (11.7) Red-Black Trees
+### (11.8) MapReduce
+### (11.9) Additional Studying
+## (12) Code Library
+### (12.1) HashMapList<T, E>
+### (12.2) TreeNode (Binary Search Tree)
+### (12.3) LinkedListNode (Linked List)
+### (12.4) Trie & TrieNode
+## (13) Hints
+### (13.1) Hints for Data Structures
+### (13.2) Hints for Concepts and Algorithms
+### (13.3) Hints for Knowledge-Based Questions
+### (13.4) Hints for Additional Review Problems
+## (14) About the Author
 
 

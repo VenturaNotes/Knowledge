@@ -1,0 +1,47 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=yDdxFBcvSGw
+---
+- ![[Screenshot 2024-12-06 at 10.19.08 PM.png]]
+	- [[Functional analysis]] part 1
+		- It is a really wide field
+	- Given two blocks [[linear algebra]] and [[Real and complex analysis]]
+		- If you look at infinite dimensional spaces in a linear algebra sense and you want to apply some analysis on these spaces, then you are in the realm of functional analysis
+	- [[Functional analysis]]
+		- Consider spaces consisting of [[functions]] or [[sequences]]
+			- [[Function space]]
+			- [[Sequence space]]
+		- Also consider [[linear maps]] between [[Subspace|subspaces]]
+		- In this field, we always combine [[algebraic structures]] with [[analytic properties]]
+		- Functional analysis often summarized by saying
+			- Study of [[topological algebraic structures]]
+				- [[Topology]] plays a role here
+				- Not a bad idea to start with topology before doing functional analysis
+	- To start with something that is closer to a normal analysis course, we start with a structure we call a [[metric space]]
+		- We start with a set X and visualize that as a collection of points
+			- We have 2 elements `x` and `y`
+		- If we just consider a set, we can't say anything about these points (besides they're equal or not)
+			- So they are different points but don't know anything else
+		- So we want to give set X more structure
+			- Would like to know distance between points (so we need reasonable properties)
+				- Distance should always be positive (it could be zero but that's only the case if they're the same point)
+				- To formalize this, we need to write down a [[map]]
+		- This map is called a [[metric]] and it measures distances
+			- Will be given 2 points (so it lives on [[Cartesian product]] of X with X or $X \times X$ )
+			- Then it maps into the non-negative real numbers
+		- A [[metric]]: $d: X \times {X} \to [0, \infty]$ 
+			- We call a map a metric if it fulfills three properties
+				- (1) $d(x, y) = 0 \iff x = y$
+					- The distance between two points is 0 iff x is equal to y
+				- (2) $d(x, y) = d(y, x)$
+					- The distance from x to y should be the same distance from y to x
+					- This means for a map, it's [[symmetric]] (does not matter which is the first or second element. We get the same result)
+						- #question Does being symmetric make it commutative?
+						- #question What is the relationship between symmetry, distributive, associative, and commutative? 
+				- (3) $d(x,y) \le d(x,z) + d(z, y)$ 
+					- Last property is the [[triangle inequality]]
+						- Now we consider 3 points instead of 2
+						- Given a 3rd point `z`, the triangle inequality tells you that if you go on a detour, then your distance gets longer.
+							- In other words, if you go from `x` to `z` to `y`, this will be longer than going directly from `x` to `y`
+			- Now with such a map, we can now measure all the distances in the set X. Therefore, we call the set X with the metric `d` a [[metric space]]
+			- And if we can measure distances, we can do a lot of analytical stuff

@@ -6,6 +6,7 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ### Preface
 - “This is one of the considerations which prompted me to write a series of three volumes on the subject starting from the undergraduate level to the advance postgraduate level.” ([Lal, 2017, p. vii](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=7&annotation=EUL7UMBZ))
@@ -158,3 +159,64 @@ tags:
 #### Exercises
 - “Exercises” ([Lal, 2017, p. 9](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=24&annotation=B3SFU3MU)) #archive
 	- Solutions not in textbook?
+### (1.5) Theory of Logical Inference
+## (2) Language of Mathematics 2 (Set Theory)
+### (2.1) Set, Zermelo-Fraenkel Axiomatic System
+### (2.2) Cartesian Product and Relations
+### (2.3) Equivalence Relation
+### (2.4) Functions
+### (2.5) Partial Order
+### (2.6) Ordinal Numbers
+### (2.7) Cardinal Numbers
+## (3) Number System
+### (3.1) Natural Numbers
+### (3.2) Ordering in N
+### (3.3) Integers
+### (3.4) Greatest Common Divisor, Least Common Multiple
+### (3.5) Linear Congruence, Residue Classes
+### (3.6) Rational Numbers
+### (3.7) Real Numbers
+### (3.8) Complex Numbers
+## (4) Group Theory
+### (4.1) Definition and Examples
+### (4.2) Properties of Groups
+### (4.3) Homomorphisms and Isomorphisms
+### (4.4) Generation of Groups
+### (4.5)) Cyclic Groups
+## (5) Fundamental Theorems
+### (5.1) Coset Decomposition, Lagrange Theorem
+### (5.2) Product of Groups and Quotient Groups
+### (5.3) Fundamental Theorem of Homomorphism
+## (6) Permutation Groups and Classical Groups
+### (6.1) Permutation Groups
+### (6.2) Alternating Maps and Alternating Groups
+### (6.3) General Linear Groups
+### (6.4) Classical Groups
+## (7) Elementary Theory of Rings and Fields
+### (7.1) Definition and Examples
+### (7.2) Properties of Rings
+### (7.3) Integral Domain, Division Ring, and fields
+### (7.4) Homomorphisms and Isomorphisms
+### (7.5) Subrings, Ideals, and Isomorphism Theorems
+### (7.6) Polynomial Ring
+### (7.7) Polynomial Ring in Several Variable
+## (8) Number Theory 2
+### (8.1) Arithmetic Functions
+### (8.2) Higher Degree Congruences
+### (8.3) Quadratic Residues and Quadratic Reciprocity
+## (9) Structure Theory of Groups
+### (9.1) Group Actions, Permutation Representations
+### (9.2) Sylow Theorems
+### (9.3) Finite Abelian Groups
+### (9.4) Normal Series and Composition Series
+## (10) Structure Theory Continued
+### (10.1) Decompositions of Groups
+### (10.2) Solvable Groups
+### (10.3) Nilpotent Groups
+### (10.4) Free Groups and Presentations of Groups
+## (11) Arithmetic in Rings
+### (11.1) Division in Rings
+### (11.2) Principal Ideal Domains
+### (11.3) Euclidean Domains
+### (11.4) Chinese Remainder Theorem in Rings
+### (11.5) Unique Factorization Domain (U.F.D)
