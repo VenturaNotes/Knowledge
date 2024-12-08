@@ -8,6 +8,7 @@ Related:
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 - Released July 19, 2018
 ## Preface
@@ -26,3 +27,46 @@ tags:
 		- (c) Two distinct solutions if $b^2-4ac > 0$, given by $x=\frac{-b + \sqrt{b^2-4ac}}{2a}$ and  $x=\frac{-b - \sqrt{b^2-4ac}}{2a}$
 			- This is because there will be a number which will not satisfy the identity property
 	- “For now, a real number is any number on the number line (including whole numbers, negative numbers, fractions, etc.).” ([Fuchs, p. 7](zotero://select/library/items/65FS5YSF)) ([pdf](zotero://open-pdf/library/items/XPZ725WL?page=7&annotation=Z238SF2T))
+### (1.2) Inequalities, and the AGM
+### (1.3) The Triangle Inequality
+### (1.4) Types of Numbers
+### (1.5) Exercises for Chapter 1
+## (2) Sets, Functions, and the field Axioms
+### (2.1) Sets
+### (2.2) Functions
+### (2.3) The Field Axioms
+### (2.4) Appendix: Well-defined Functions
+### (2.5) Exercises for Chapter 2
+## (3) Informal Logic
+### (3.1) Mathematical Statements and their Building Blocks
+### (3.2) The Logic Symbols
+### (3.3) Truth and Falsity
+### (3.4) Truth Tables and Logical Equivalences
+### (3.5) Negation
+### (3.6) Proof Strategies
+### (3.7) Exercises for Chapter 3
+## (4) Mathematical Induction
+### (4.1) The Principle of Mathematical Induction
+### (4.2) Summation and Product Notation
+### (4.3) Variations
+### (4.4) Additional Examples
+### (4.5) Strong Induction
+### (4.6) Exercises for Chapter 4
+## (5) Bijections and Cardinality
+### (5.1) Injections, Surjections and Bijections
+### (5.2) Compositions
+### (5.3) Cardinality
+### (5.4) Cardinality Theorems
+### (5.5) More Cardinality
+### (5.6) Exercises for Chapter 5
+## (6) Integers and Divisibility
+### (6.1) Divisibility and the Division Algorithm
+### (6.2) GCDs and the Euclidean Algorithm
+### (6.3) The Fundamental Theorem of Arithmetic
+### (6.4) Exercises for Chapter 6
+## (7) Relations
+### (7.1) The Definition of a Relation
+### (7.2) Equivalence Relations
+### (7.3) Equivalence Classes
+### (7.4) Congruence Modulo n
+### (7.5) Exercises for Chapter 7

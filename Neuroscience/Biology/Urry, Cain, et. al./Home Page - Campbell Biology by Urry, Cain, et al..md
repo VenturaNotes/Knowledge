@@ -327,6 +327,1151 @@ tags:
 - [[Biological Systems]]
 - “[[biological hierarchy]], interactions between the components of the system ensure smooth integration of all the parts, such that they function as a whole.” ([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=YE76NH7I))
 	- True for molecules in a cell and components of an ecosystem
+### (Concept 1.2) The Core Theme: Evolution accounts for the unity and diversity of life
+#### Classifying the Diversity of Life
+#### Charles Darwin and the Theory of Natural Selection
+#### The Tree of Life
+### (Concept 1.3) In studying nature, scientists form and test hypotheses
+#### Exploration and Observation
+#### Gathering and Analyzing Data
+#### Forming and Testing Hypotheses
+#### The Flexibility of the Scientific Process
+#### A case Study in Scientific Inquiry: Investigating Coat Coloration in Mouse Populations
+#### Variables and Controls in Experiments
+#### Theories in Science
+### (Concept 1.4) Science benefits form a cooperative approach and diverse viewpoints
+#### Building on the Work of Others
+#### Science, Technology, and Society
+#### The Value of Diverse Viewpoints in Science
+## Unit 1: The Chemistry of Life
+### Interview: Kenneth Olden
+## (2) The Chemical Context of Life
+### (Concept 2.1) Matter consists of chemical elements in pure form and in combinations called compounds
+#### Elements and Compounds
+#### The Elements of Life
+#### Case Study: Evolution of Tolerance to Toxic Elements
+### (Concept 2.2) An element's properties depend on the structure of its atoms
+#### Subatomic Particles
+#### Atomic Number and Atomic Mass
+#### Isotopes
+#### The Energy Levels of Electrons
+#### Electron Distribution and Chemical Properties
+#### Electron Orbitals
+### (Concept 2.3) The Formation and function of molecules and ionic compounds depend on chemical bonding between atoms
+#### Covalent Bonds
+#### Ionic Bonds
+#### Weak Chemical Interactions
+#### Molecular Shape and Function
+### (Concept 2.4) Chemical reactions make and break chemical bonds
+## (3) Water and Life
+### (Concept 3.1) Polar covalent bonds in water molecules result in hydrogen bonding
+### (Concept 3.2) Four emergent properties of water contribute to Earth's suitability for life
+#### Cohesion of Water Molecules
+#### Moderation of Temperature by Water
+#### Floating of Ice on Liquid Water
+#### Water: The Solvent of Life
+#### Possible Evolution of Life on Other Planets
+### (Concept 3.3) Acidic and basic conditions affect living organisms
+#### Acids and Bases
+#### The pH Scale
+#### Buffers
+#### Acidification: A Threat to Our Oceans
+## (4) Carbon and the Molecular Diversity of Life
+### (Concept 4.1) Organic chemistry is key to the origin of life
+### (Concept 4.2) Carbon atoms can form diverse molecules by bonding to four other atoms
+#### The Formation of Bonds with Carbon
+#### Molecular Diversity Arising from Variation in Carbon Skeletons
+### (Concept 4.3) A few chemical groups are key to molecular function
+#### The Chemical Groups Most Important in the Process of Life
+#### ATP: An Important Source of Energy for Cellular Processes
+#### The Chemical Elements of Life: A Review 64
+## (5) The Structure and Function of Large Biological Molecules
+### (Concept 5.1) Macromolecules are polymers, built from monomers
+#### The Synthesis and Breakdown of Polymers
+#### The Diversity of Polymers
+### (Concept 5.2) Carbohydrates serve as fuel and building material
+#### Sugars
+#### Polysaccharides
+### (Concept 5.3) Lipids are a diverse group of hydrophobic molecules
+#### Fats
+#### Phospholipids
+#### Steroids
+### (Concept 5.4) Proteins include a diversity of structures, resulting in a wide range of functions
+#### Amino Acids (Monomers)
+#### Polypeptides (Amino Acid Polymers)
+#### Protein Structure and Function
+### (Concept 5.5) Nucleic acids store, transmit, and help express hereditary information
+#### The Roles of Nucleic Acids
+#### The Components of Nucleic Acids
+#### Nucleotide Polymers
+#### The Structures of DNA and RNA Molecules
+### (Concept 5.6) Genomics and proteomics have transformed biological inquiry and applications
+#### DNA and proteins as Tape Measures of Evolution
+## Unit 2: The Cell
+### Interview: Diana Bautista
+## (6) A tour of the Cell
+### (Concept 6.1) Biologists use microscopes and biochemistry to study cells
+#### Microscopy
+#### Cell Fractionation
+### (Concept 6.2) Eukaryotic cells have internal membranes that compartmentalize their functions
+#### Comparing Prokaryotic and Eukaryotic Cells
+#### A panoramic View of the Eukaryotic Cell
+### (Concept 6.3) The eukaryotic cell's genetic instructions are housed in the nucleus and carried out by the ribosomes
+#### The Nucleus: Information Central
+#### Ribosomes: Protein Factories
+### (Concept 6.4) The endomembrane system regulates protein traffic and performs metabolic functions
+#### The Endoplasmic Reticulum: Biosynthetic Factory
+#### The Golgi Apparatus: Shipping and Receiving Center
+#### Lysosomes: Digestive Compartments
+#### The Endomembrane System: A Review
+### (Concept 6.5) Mitochondria and chloroplasts change energy from one form to another
+#### The Evolutionary Origins of Mitochondria and Chloroplasts
+#### Mitochondria: Chemical Energy Conversion
+#### Chloroplasts: Capture of Light Energy
+#### Peroxisomes: Oxidation
+### (Concept 6.6) The Cytoskeleton is a network of fibers that organizes structures and activities in the cell
+#### Roles of the Cytoskeleton: Support and Motility components of the Cytoskeleton
+### (Concept 6.7) Extracellular components and connections between cells help coordinate cellular activities
+#### Cell Walls of Plants
+#### The Extracellular Matrix (ECM) of Animal Cells
+#### Cell Junctions
+### (Concept 6.8) A cell is greater than the sum of its parts
+## (7) Membrane Structure and function
+### (Concept 7.1) Cellular membranes are fluid mosaics of lipids and proteins
+#### The Fluidity of Membranes
+#### Evolution of Differences in Membrane Lipid Composition
+#### Membrane Proteins and Their FUnctions
+#### The Role of Membrane Carbohydrates in Cell-Cell Recognition
+#### Synthesis and Sidedness of Membranes
+### (Concept 7.2) Membrane structure results in selective permeability
+#### The Permeability of the Lipid Bilayer
+#### Transport Proteins
+### (Concept 7.3) Passive transport is diffusion of a substance across a membrane with no energy investment
+#### Effects of Osmosis on Water Balance
+#### Facilitated Diffusion: Passive Transport Aided by Proteins
+### (Concept 7.4) Active transport uses energy to move solutes against their gardients
+#### The Need for Energy in Active Transport
+#### How Ion Pumps Maintain Membrane Potential
+#### Cotransport: Coupled Transport by a Membrane Protein
+### (Concept 7.5) Bulk transport across the plasma membrane occurs by exocytosis and endocytosis
+#### Exocytosis
+#### Endocytosis
+## (8) An Introduction to Metabolism
+### (Concept 8.1) An organism's metabolism transforms matter and energy
+#### Metabolic Pathways
+#### Forms of Energy
+#### The Laws of Energy Transformation
+### (Concept 8.2) The Free-energy change of a reaction tells us whether or not the reaction occurs spontaneously
+#### Free-Energy Change, change G
+#### Free Energy, Stability, and Equilibrium
+#### Free Energy and Metabolism
+### (Concept 8.3) ATP powers cellular work by coupling exergonic reactions to endergonic reactions
+#### The Structure and Hydrolysis of ATP
+#### How ATP Provides Energy That Performs Work
+#### The Regeneration of ATP
+### (Concept 8.4) Enzymes speed up metabolic reactions by lowering energy barriers
+#### The Activation Energy Barrier
+#### How Enzymes Speed Up Reactions
+#### Substrate Specificity of Enzymes
+#### Catalysis in the Enzyme's Active Site
+#### Effects of Local Conditions on Enzyme Activity
+#### The Evolution of Enzymes
+### (Concept 8.5) Regulation of enzyme activity helps control metabolism
+#### Allosteric Regulation of Enzymes
+#### Localization of Enzymes Within the Cell
+## (9) Cellular Respiration and Fermentation
+### (Concept 9.1) Catabolic pathways yield energy by oxidizing organic fuels
+#### Catabolic Pathways and Production of ATP
+#### Redox Reactions: Oxidation and Reduction
+#### The Stages of Cellular Respiration: A preview
+### (Concept 9.2) Glycolysis harvests chemical energy by oxidizing glucose to pyruvate
+### (Concept 9.3) After pyruvate is oxidized, the citric acid cycle completes the energy-yielding oxidation of organic molecules
+#### Oxidation of Pyruvate to Acetyl CoA
+#### The Citric Acid Cycle
+### (Concept 9.4) During oxidative phosphorylation, chemiosmosis couples electron transport to ATP synthesis
+#### The Pathway of Electron Transport
+#### Chemiosmosis: The Energy-Coupling Mechanism
+#### An Accounting of ATP Production by Cellular Respiration
+### (Concept 9.5) Fermentation and anaerobic respiration enable cells to produce ATP without the use of oxygen
+#### Types of Fermentation 
+#### Comparing Fermentation with Anaerobic and Aerobic Repsiration
+#### The Evolutionary Significance of Glycolysis
+### (Concept 9.6) Glycolysis and the citric acid cycle connect to many other metabolic pathways
+#### The Versatility of Catabolism
+#### Biosynthesis (Anabolic Pathways)
+#### Regulation of Cellular Respiration via Feedback Mechanisms
+## (10) Photosynthesis
+### (Concept 10.1) Photosynthesis feeds the biosphere
+### (Concept 10.2) Photosynthesis converts light energy to the chemical energy of food
+#### Chloroplasts: The Sites of Photosynthesis in Plants
+#### Tracking Atoms Through Photosynthesis
+#### The Two Stages of Photosynthesis: A Preview
+### (Concept 10.3) The light reactions convert solar energy to the chemical energy of ATP and NADPH
+#### The Nature of Sunlight
+#### Photosynthetic Pigments: The Light Receptors
+#### Excitation of Chlorophyll by Light
+#### A Photosystem: A Reaction-Center Complex Associated with Light-Harvesting Complexes
+#### Linear Electron Flow
+#### Cyclic Electron Flow
+#### A Comparison of Chemiosmosis in Chloroplasts and Mitochondria
+### (Concept 10.4) The Calvin cycle uses the chemical energy of ATP and NADPH to reduce CO_2 to sugar
+### (Concept 10.5) Alternative mechanisms of carbon fixation have evolved in hot, arid climates
+#### Photorespiration: An Evolutionary Relic?
+#### C_4 Plants
+#### CAM Plants
+### (Concept 10.6) Photosynthesis is essential for life on Earth: a review
+## (11) Cell Communication
+### (Concept 11.1) External signals are converted to responses within the cell
+#### Evolution of Cell Signaling
+#### Local and Long-Distance Signaling
+#### The Three Stages of Cell Signaling: A Preview
+### (Concept 11.2) Signal reception: A signaling molecule binds to a receptor, causing it to change shape
+#### Receptors in the Plasma Membrane
+#### Intracellular Receptors
+### (Concept 11.3) Signal transduction: Cascades of molecular interactions transmit signals from receptors to relay molecules in the cell
+#### Signal Transduction Pathways
+#### Protein Phosphorylation and Dephosphorylation
+#### Small Molecules and Ions as Second Mesengers
+### (Concept 11.4) Cellular response: Cell signaling leads to regulation of transcription or cytoplasmic activities
+#### Nuclear and cytoplasmic Responses
+#### Regulation of the Response
+### (Concept 11.5) Apoptosis requires integration of multiple cell-signaling pathways
+#### Apoptosis in the Soil Worm Caenorhabditis elegans
+#### Apoptotic Pathways and the Signals That Trigger Them
+## (12) The Cell Cycle
+### (Concept 12.1) Most cell division results in genetically identical daughter cells
+#### Key Roles of Cell Division
+#### Cellular Organization of the Genetic Material
+#### Distribution of Chromosomes During Eukaryotic Cell Division
+### (Concept 12.2) The mitotic phase alternates with interphase in the cell cycle
+#### Phases of the Cell Cycle
+#### The Mitotic Spindle: A Closer Look
+#### Cytokinesis: A Closer Look
+#### Binary Fission in Bacteria
+#### The Evolution of Mitosis
+### (Concept 12.3)
+#### The Cell Cycle Control System
+#### Loss of Cell Cycle Controls in Cancer Cells
+## Unit 3: Genetics
+### Interview: Francisco Mojica
+## (13) Meiosis and Sexual Life Cycles
+### (Concept 13.1) Offspring acquire gene from parents by inheriting chromosomes
+#### Inheritance of Genes
+#### Comparison of Asexual and Sexual Reproduction
+### (Concept 13.2) Fertilization and meiosis alternate in sexual life cycles
+#### Sets of Chromosomes in Human Cells
+#### Behavior of Chromosome Sets in the Human Life Cycle
+#### The Variety of Sexual Life Cycles
+### (Concept 13.3) Meiosis reduces the number of chromosome sets from diploid to haploid
+#### The Stage of Meiosis
+#### Crossing Over and Synapsis During Prophase I
+#### A Comparison of Mitosis and Meiosis
+### (Concept 13.4) Genetic variation produced in sexual life cycles contributes to evolution
+#### Origins of Genetic Variation Among Offspring
+#### The Evolutionary Significance of Genetic Variation Within Populations
+## (14) Mendel and the Gene Idea
+### (Concept 14.1) Mendel used the scientific approach to identify two laws of inheritance
+#### Mendel's Experimental, Quantitative Approach
+#### The Law of Segregation
+#### The Law of Independent Assortment
+### (Concept 14.2) Probability laws govern Mendelian inheritance
+#### The Multiplication and Addition Rules Applied to Monohybrid Crosses
+#### Solving Complex Genetics Problems with the Rules of Probability
+### (Concept 14.3) Inheritance patterns are often more complex than predicted by simple Mendelian genetics
+#### Extending Mendelian Genetics for a Single Gene
+#### Extending Mendelian Genetics for Two or More Genes
+#### Nature and Nurture: The Environmental Impact on Phenotype
+#### A Mendelian View of Heredity and Variation
+### (Concept 14.4) Many human traits follow Mendelian patterns of inheritance
+#### Pedigree Analysis
+#### Recessively Inherited Disorders
+#### Dominantly Inherited Disorders
+#### Multifactorial Disorders
+#### Genetic Testing and Counseling
+## (15) The Chromosomal Basis of Inheritance
+### (Concept 15.1) Mendelian inheritance has its physical basis in the behavior of chromosomes
+#### Morgan's Choice of Experimental Organism
+#### Correlating Behavior of a Gene's Alleles with Behavior of a Chromosome Pair: Scientific Inquiry
+### (Concept 15.2) Sex-linked genes exhibit unique patterns of inheritance
+#### The Chromosomal Basis of Sex
+#### Inheritance of X-Linked Genes
+#### X Inactivation in Female Mammals
+### (Concept 15.3) Linked genes tend to be inherited together because they are located near each other on the same chromosome
+#### How Linkage Affects Inheritance
+#### Genetic Recombination and Linkage
+#### Mapping the Distance Between Genes Using Recombination Data: Scientific Inquiry
+### (Concept 15.4) Alterations of chromosome number or structure cause some genetic disorders
+#### Abnormal Chromosome Number
+#### Alterations of Chromosome Structure
+#### Human Conditions Due to Chromosomal Alterations
+### (Concept 15.5) Some inheritance patterns are exceptions to standard Mendelian inheritance
+#### Genomic Imprinting
+#### Inheritance of Organelle Genes
+## (16) The Molecular Basis of Inheritance
+### (Concept 16.1) DNA is the genetic material
+#### The Search for the genetic Material: Scientific Inquiry
+#### Building a Structural Model of DNA
+### (Concept 16.2) Many proteins work together in DNA replication and repair
+#### The Basic Principle: Base Pairing to a Template Strand
+#### DNA Replication: A Closer Look
+#### Proofreading and Repairing DNA
+#### Evolutionary Significance of Altered DNA Nucleotides
+#### Replicating the Ends of DNA Molecules
+### (Concept 16.3) A chromosome consists of a DNA molecule packed together with proteins
+## (17) Gene Expression: From gene to Protein
+### (Concept 17.1) Genes specify proteins via transcription and translation
+#### Evidence from Studying Metabolic Defects
+#### Basic Principles of Transcription and Translation
+#### The Genetic Code
+### (Concept 17.2) Transcription is the DNA-directed synthesis of RNA: A Closer Look
+#### Molecular Components of Transcription
+#### Synthesis if an RNA Transcript
+### (Concept 17.3) Eukaryotic cells modify RNA after transcription
+#### Alteration of mRNA Ends
+#### Split Genes and RNA Splicing
+### (Concept 17.4) Translation is the RNA-directed synthesis of a polypeptide: A Closer Look
+#### Molecular Components of Translation
+#### Building a Polypeptide
+#### Completing and Targeting the Functional Protein
+#### Making Multiple Polypeptides in Bacteria and Eukaryotes
+### (Concept 17.5) Mutations of one or a few nucleotides can affect protein structure and function
+#### Types of Small-Scale Mutations
+#### New Mutations and Mutagens
+#### Using CRISPR to Edit Genes and Correct Disease-Causing Mutations
+#### What Is a Gene? Revisiting the Question
+## (18) Regulation of Gene Expression
+### (Concept 18.1) Bacteria often respond to environmental change by regulating transcription
+#### Operons: The Basic Concept
+#### Repressible and Inducible Operons: Two Types of Negative Gene Regulation
+#### Positive Gene Regulation
+### (Concept 18.2) Eukaryotic gene expression is regulated at many stages
+#### Differential Gene Expression
+#### Regulation of Chromatin Structure
+#### Regulation of Transcription Initiation
+#### Mechanisms of Post-transcriptional Regulation
+### (Concept 18.3) Noncoding RNAs play multiple roles in controlling gene expression
+#### Effects on mRNAs by MicroRNAs and Small Interfering RNAs
+#### Chromatin Remodeling and Effects on Transcription by ncRNAs
+### (Concept 18.4) A program of differential gene expression leads to the different cell types in a multicellular organism
+#### A Genetic Program for Embryonic Development
+#### Cytoplasmic Determinants and Inductive Signals
+#### Sequential Regulation of Gene Expression During Cellular Differentiation
+#### Pattern Formation: Setting Up the Body Plan
+### (Concept 18.5) Cancer results from genetic changes that affect cell cycle control
+#### Types of Genes Associated with Cancer
+#### Interference with Normal Cell-Signaling Pathways
+#### The Multistep Model of Cancer Development
+#### Inherited Predisposition and Environmental Factors Contributing to Cancer
+#### The Role of Viruses in Cancer
+## (19) Viruses
+### (Concept 19.1) A virus consists of a nuclei acid surrounded by a protein coat
+#### The Discovery of Viruses: Scientific Inquiry
+#### Structure of Viruses
+### (Concept 19.2) Viruses replicate only in host cells
+#### General Features of Viral Replicative Cycles
+#### Replicative Cycles of Phages
+#### Replicative Cycles of Animal Viruses
+#### Evolution of Viruses
+### (Concept 19.3) Viruses and prions are formidable pathogens in animals and plants
+#### Viral Diseases in Animals
+#### Emerging Viral Diseases
+#### Viral Diseases in Plants
+#### Prions: Proteins as Infection Agents
+## (20) DNA Tools and Biotechnology
+### (Concept 20.1) DNA Sequencing and DNA cloning are valuable tools for genetic engineering and biological inquiry
+#### DNA Sequencing
+#### Making Multiple Copies of a Gene or Other DNA Segment
+#### Using Restriction Enzymes to Make a Recombinant DNA Plasmid
+#### Amplifying DNA: The Polymerase Chain Reaction (PCR) and Its Use in DNA Cloning
+#### Expressing Cloned Eukaryotic Genes
+### (Concept 20.2) Biologists use DNA technology to study gene expression and function
+#### Analyzing Gene Expression
+#### Determining Gene Function
+### (Concept 20.3) Cloned organisms and stem cells are useful for basic research and other applications
+#### Cloning Plants: Single-Cell Cultures
+#### Cloning Animals: Nuclear Transplantation
+#### Stem Cells of Animals
+### (Concept 20.4) The practical applications of DNA-based biotechnology affect our lives in many ways
+#### Medical Applications
+#### Forensic Evidence and Genetic Profiles
+#### Environmental Cleanup
+#### Agricultural Applications
+#### Safety and Ethical Questions Raised by DNA Technology
+## (21) Genomes and Their Evolution
+### (Concept 21.1) The Human Genome Project fostered development of faster, less expensive sequencing techniques
+### (Concept 21.2) Scientists use bioinformatics to analyze genomes and their functions
+#### Centralized Resources for Analyzing Genome Sequences
+#### Identifying Protein-Coding Genes and Understanding Their Functions
+#### Genes and Gene Expression at the Systems Level
+### (Concept 21.3) Genomes vary in size, number of genes, and gene density
+#### Genome size
+#### Number of Genes
+#### Gene Density and Noncoding DNA
+### (Concept 21.4) Multicellular eukaryotes have a lot of noncoding DNA and many multigene families
+#### Transposable Elements and Related Squences
+#### Other Repetitive DNA, Including Simple Sequence DNA
+#### Genes and Multigene Families
+### (Concept 21.5) Duplication, rearrangement, and mutation of DNA contribute to genome evolution
+#### Duplication of Entire Chromosome Sets
+#### Alterations of Chromosome Structure
+#### Duplication and Divergence of Gene-Sized Regions of DNA
+#### Rearrangements of Parts of Genes: Exon Duplication and Exon Shuffling
+#### How Transposable Elements Contribute to Genome Evolution
+### (Concept 21.6) Comparing genome sequences provides clues to evolution and development
+#### Comparing Genomes
+#### Widespread Conservation of Developmental Genes Among Animals
+## Unit 4: Mechanisms of Evolution
+### Interview: Cassandra Extavour
+## (22) Descent with Modification: A Darwinian View of Life
+### (Concept 22.1) The Darwinian revolution challenged traditional views of a young Earth inhabited by unchanging species
+#### Endless Forms Most Beautiful
+#### Scala Naturae and Classification of Species
+#### Ideas About Change Over Time
+#### Lamarck's Hypothesis of Evolution
+### (Concept 22.2) Descent with modification by natural selection explains the adaptations of organisms and the unity and diversity of life
+#### Darwin's Research
+#### Ideas from The Origin of Species
+#### Key Features of Natural Selection
+### (Concept 22.3) Evolution is supported by an overwhelming amount of scientific evidence
+#### Direct Observations of Evolutionary Change
+#### Homology
+#### The Fossil Record
+#### Biogeography
+#### What Is Theoretical About Darwin's View of Life?
+## (23) The Evolution of Populations
+### (Concept 23.1) Genetic variation makes evolution possible
+#### Genetic Variation
+#### Sources of Genetic Variation
+### (Concept 23.2) The Hardy-Weinberg equation can be used to test whether a population is evolving
+#### Gene Pools Allele Frequencies
+#### The Hardy-Weinberg Equation
+### (Concept 23.3) Natural selection, genetic drift, and gene flow can alter allele frequencies in a population
+#### Natural Selection
+#### Genetic Drift
+#### Gene Flow
+### (Concept 23.4) Natural selection is the only mechanism that consistently causes adaptive evolution
+#### Natural Selection: A Closer Look
+#### The Key Role of Natural Selection in Adaptive Evolution
+#### Sexual Selection
+#### Balancing Selection
+#### Why Natural Selection Cannot Fashion Perfect Organisms
+## (24) The Origin of Species
+### (Concept 24.1) The biological species concept emphasizes reproductive isolation
+#### The Biological Species Concept
+#### Other Definitions of Species
+### (Concept 24.2) Speciation can take place with or without geographic separation
+#### Allopatric ("Other Country") Speciation
+#### Sympatric ("Same country") Speciation
+#### Allopatric and Sympatric Speciation: A Review
+### (Concept 24.3) Hybrid zones reveal factors that cause reproductive isolation
+#### Patterns Within Hybrid Zones
+#### Hybrid Zones and Environmental Change
+#### Hybrid Zones over Time
+### (Concept 24.4) Speciation can occur rapidly or slowly and can result from changes in few or many genes
+#### The Time Course of Speciation
+#### Studying the Genetics of Speciation
+#### From Speciation to Macroevolution
+## (25) The History of Life on Earth
+### (Concept 25.1) Conditions on early Earth made the origin of life possible
+#### Synthesis of Organic Compounds on Early Earth
+#### Abiotic Synthesis of Macromolecules
+#### Protocells
+#### Self-Replicating RNA
+### (Concept 25.2) The fossil record documents the history of life
+#### The Fossil Record
+#### How Rocks and fossils are Dated
+#### The Origin of New Groups of Organisms
+### (Concept 25.3) Key events in life's history include the origins of unicellular and multicellular organisms and the colonization of land
+#### The First Single-Celled Organisms
+#### The Origin of Multicellularity
+#### The Colonization of Land
+### (Concept 25.4) The rise and fall of groups of organisms reflect differences in speciation and extinction rates
+#### Plate Tectonics
+#### Mass Extinctions
+#### Adaptive Radiations
+### (Concept 25.5) Major changes in body from can result from changes in the sequences and regulation of developmental genes
+#### Effects of Developmental Genes
+#### The Evolution of Development
+### (Concept 25.6) Evolution is not goal oriented
+#### Evolutionary Novelties
+#### Evolutionary Trends
+## Unit 5: The Evolutionary History of Biological Diversity
+### Interview: Penny Chisholm
+## (26) Phylogeny and the Tree of Life
+### (Concept 26.1) Phylogenies show evolutionary relationships
+#### Binomial Nomenclature
+#### Hierarchical Classification
+#### Linking Classification and Phylogeny
+#### What We Can and Cannot Learn from Phylogenetic Trees
+#### Applying Phylogenies
+### (Concept 26.2) Phylogenies are inferred from morphological and molecular data
+#### Morphological and Molecular Homologies
+#### Sorting Homology from Analogy
+#### Evaluating Molecular Homologies
+### (Concept 26.3) Shared characters are used to construct phylogenetic trees
+#### Cladistics
+#### Phylogenetic Trees with Proportional Branch Lengths
+#### Maximum Parsimony and Maximum Likelihood
+#### Phylogenetic Trees as Hypotheses
+### (Concept 26.4) An organism's evolutionary history is documented in its genome
+#### Gene Duplications and Gene Families
+#### Genome Evolution
+### (Concept 26.5) Molecular clocks help track evolutionary time
+#### Molecular Clocks
+#### Applying a Molecular Clock: Dating the Origin of HIV
+### (Concept 26.6) Our understanding of the tree of life continues to change based on new data
+#### From Two Kingdoms to Three Domains
+#### The Important Role of Horizontal Gene Transfer
+## (27) Bacteria and Archae
+### (Concept 27.1) Structural and functional adaptations contribute to prokaryotic success
+#### Cell-Surface Structures
+#### Motility
+#### Internal Organization and DNA
+#### Reproduction
+### (Concept 27.2) Rapid Reproduction, mutation, and genetic recombination promote genetic diversity in prokaryotes
+#### Rapid Reproduction and Mutation
+#### Genetic Recombination
+### (Concept 27.3) Diverse nutritional and metabolic adaptations have evolved in prokaryotes
+#### The Role of Oxygen in Metabolism
+#### Nitrogen Metabolism
+#### Metabolic Cooperation
+### (Concept 27.4) Prokaryotes have radiated into a diverse set of lineages
+#### An Overview of Prokaryotic Diversity
+#### Bacteria
+#### Archaea
+### (Concept 27.5) Prokaryotes play crucial roles in the biosphere
+#### Chemical Recycling
+#### Ecological Interactions
+### (Concept 27.6) Prokaryotes have both beneficial and harmful impacts on humans
+#### Mutualistic Bacteria
+#### Pathogenic Bacteria
+#### Antibiotic Resistance
+#### Prokaryotes in Research and Technology
+## (28) Protists
+### (Concept 28.1) Most eukaryotes are single-celled organisms
+#### Structural and Functional Diversity in Protists
+#### Endosymbiosis in Eukaryotic Evolution
+#### Four S
+### (Concept 28.2)
+####
+####
+### (Concept 28.3)
+####
+####
+####
+### (Concept 28.4)
+####
+####
+### (Concept 28.5)
+####
+####
+### (Concept 28.6)
+####
+####
+## (29)
+### (Concept 29.1)
+####
+####
+####
+####
+### (Concept 29.2)
+####
+####
+####
+### (Concept 29.3)
+####
+####
+####
+## (30)
+### (Concept 30.1)
+####
+####
+####
+####
+####
+### (Concept 30.2)
+####
+####
+####
+### (Concept 30.3)
+####
+####
+####
+### (Concept 30.4)
+####
+####
+## (31)
+### (Concept 31.1)
+####
+####
+####
+### (Concept 31.2)
+####
+####
+### (Concept 31.3)
+####
+####
+### (Concept 31.4)
+####
+####
+####
+####
+####
+### (Concept 31.5)
+####
+####
+####
+## (32)
+### (Concept 32.1)
+####
+####
+####
+### (Concept 32.2)
+####
+####
+####
+####
+####
+
+### (Concept 32.3)
+####
+####
+####
+####
+### (Concept 32.4)
+####
+####
+## (33)
+### (Concept 33.1)
+### (Concept 33.2)
+####
+####
+### (Concept 33.3)
+####
+####
+####
+####
+####
+### (Concept 33.4)
+####
+####
+### (Concept 33.5)
+####
+####
+## (34)
+### (Concept 34.1)
+####
+####
+####
+####
+### (Concept 34.2)
+####
+####
+####
+### (Concept 34.3)
+####
+####
+####
+####
+### (Concept 34.4)
+####
+####
+####
+### (Concept 34.5)
+####
+####
+####
+### (Concept 34.6)
+####
+####
+####
+####
+####
+### (Concept 34.7)
+####
+####
+####
+####
+####
+####
+####
+####
+## Unit 6: Plant Form and Function
+### Interview: Dennis Gonsalves
+## (35)
+### (Concept 35.1)
+####
+####
+####
+### (Concept 35.2)
+### (Concept 35.3)
+####
+####
+### (Concept 35.4)
+####
+####
+####
+### (Concept 35.5)
+####
+####
+####
+####
+####
+####
+## (36)
+### (Concept 36.1)
+####
+####
+### (Concept 36.2)
+####
+####
+####
+####
+### (Concept 36.3)
+####
+####
+####
+####
+### (Concept 36.4)
+####
+####
+####
+####
+####
+### (Concept 36.5)
+####
+####
+### (Concept 36.6)
+####
+####
+####
+## (37)
+### (Concept 37.1)
+####
+####
+####
+### (Concept 37.2)
+####
+####
+####
+### (Concept 37.3)
+####
+####
+####
+## (38)
+### (Concept 38.1)
+####
+####
+####
+####
+####
+####
+####
+####
+### (Concept 38.2)
+####
+####
+####
+####
+### (Concept 38.3)
+####
+
+####
+####
+## (39)
+### (Concept 39.1)
+####
+####
+####
+### (Concept 39.2)
+####
+####
+### (Concept 39.3)
+####
+####
+####
+####
+####
+### (Concept 39.4)
+####
+####
+####
+### (Concept 39.5)
+####
+####
+## Unit 7: Animal Form and Function
+### Interview: Steffanie Strathdee
+## (40)
+### (Concept 40.1)
+####
+####
+####
+####
+### (Concept 40.2)
+####
+####
+### (Concept 40.3)
+####
+####
+####
+####
+####
+### (Concept 40.4)
+####
+####
+####
+####
+####
+## (41)
+### (Concept 41.1)
+####
+####
+####
+####
+### (Concept 41.2)
+####
+### (Concept 41.3)
+####
+####
+####
+####
+####
+### (Concept 41.4)
+####
+####
+####
+### (Concept 41.5)
+####
+####
+####
+## (42)
+### (Concept 42.1)
+####
+####
+####
+### (Concept 42.2)
+####
+####
+####
+### (Concept 42.3)
+####
+####
+####
+####
+####
+### (Concept 42.4)
+####
+####
+### (Concept 42.5)
+####
+####
+####
+####
+####
+####
+### (Concept 42.6)
+####
+####
+####
+####
+### (Concept 42.7)
+####
+####
+####
+## (43)
+### (Concept 43.1)
+####
+####
+####
+### (Concept 43.2)
+####
+####
+####
+####
+### (Concept 43.3)
+####
+####
+####
+####
+####
+####
+####
+####
+### (Concept 43.4)
+####
+####
+####
+## (44)
+### (Concept 44.1)
+####
+####
+####
+####
+### (Concept 44.2)
+####
+####
+### (Concept 44.3)
+####
+### (Concept 44.4)
+####
+####
+####
+
+### (Concept 44.5)
+####
+## (45)
+### (Concept 45.1)
+####
+####
+####
+####
+### (Concept 45.2)
+####
+####
+####
+####
+####
+####
+### (Concept 45.3)
+####
+####
+####
+####
+####
+## (46)
+### (Concept 46.1)
+####
+####
+####
+####
+### (Concept 46.2)
+####
+####
+### (Concept 46.3)
+####
+####
+####
+### (Concept 46.4)
+####
+####
+####
+####
+### (Concept 46.5)
+####
+####
+####
+####
+## (47)
+### (Concept 47.1)
+####
+####
+### (Concept 47.2)
+####
+####
+####
+####
+### (Concept 47.3)
+####
+####
+####
+####
+####
+## (48)
+### (Concept 48.1)
+####
+####
+### (Concept 48.2)
+####
+####
+### (Concept 48.3)
+####
+####
+####
+####
+### (Concept 48.4)
+####
+####
+####
+####
+####
+## (49)
+### (Concept 49.1)
+####
+####
+####
+### (Concept 49.2)
+####
+####
+####
+####
+### (Concept 49.3)
+####
+####
+####
+####
+####
+### (Concept 49.4)
+####
+####
+####
+### (Concept 49.5)
+####
+####
+####
+####
+####
+####
+## (50)
+### (Concept 50.1)
+####
+####
+####
+####
+####
+### (Concept 50.2)
+####
+####
+####
+### (Concept 50.3)
+####
+####
+### (Concept 50.4)
+####
+####
+### (Concept 50.5)
+####
+####
+### (Concept 50.6)
+####
+####
+## (51)
+### (Concept 51.1)
+####
+####
+####
+####
+### (Concept 51.2)
+####
+####
+### (Concept 51.3)
+####
+####
+### (Concept 51.4)
+####
+####
+####
+####
+####
+## Unit 8: Ecology
+### Interview: Chelsea Rochman
+## (52)
+### (Concept 52.1)
+####
+####
+####
+####
+####
+### (Concept 52.2)
+####
+####
+####
+### (Concept 52.3)
+####
+### (Concept 52.4)
+####
+####
+####
+### (Concept 52.5)
+## (53)
+### (Concept 53.1)
+####
+####
+### (Concept 53.2)
+####
+####
+### (Concept 53.3)
+####
+####
+### (Concept 53.4)
+####
+####
+### (Concept 53.5)
+####
+####
+####
+### (Concept 53.6)
+####
+####
+## (54)
+### (Concept 54.1)
+####
+####
+####
+### (Concept 54.2)
+####
+####
+####
+####
+####
+### (Concept 54.3)
+####
+####
+####
+### (Concept 54.4)
+####
+####
+####
+### (Concept 54.5)
+####
+####
+## (55)
+### (Concept 55.1)
+####
+####
+####
+####
+### (Concept 55.2)
+####
+####
+####
+### (Concept 55.3)
+####
+####
+### (Concept 55.4)
+####
+####
+####
+### (Concept 55.5)
+####
+####
+####
+## (56)
+### (Concept 56.1)
+####
+####
+####
+####
+### (Concept 56.2)
+####
+####
+####
+### (Concept 56.3)
+####
+####
+####
+### (Concept 56.4)
+####
+####
+####
+####
+### (Concept 56.5)
+####
+####
+
+
+
+
+
 
 ## Key Terms
 ```dataviewjs

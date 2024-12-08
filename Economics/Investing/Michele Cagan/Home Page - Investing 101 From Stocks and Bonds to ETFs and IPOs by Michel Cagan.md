@@ -6,6 +6,7 @@ Progress: "1"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 - Published December 4, 2015
 - Michel Cagan is a CPA ([[Certified Public Accountant]])
@@ -48,7 +49,7 @@ tags:
 - Consumer spending makes up most of [[gross domestic product]] (keeps economy flowing)
 - Economically savvy investors focus on what's coming (profitable investing is about future growth)
 
-### Buying and Selling
+### (1.1) Buying and Selling
 - This is the lifeblood of the economy
 - People are selling, manufacturing, consuming
 - “Economics as a system allocates the things we need to live.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=11&annotation=4I4XRDP2))
@@ -87,7 +88,7 @@ tags:
 - “That declined in the 1990s, and today it hovers around zero.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=13&annotation=XYUN46F6))
 	- Not enough to just save. Need to make the money work for us
 
-### Interest Rates
+### (1.2) Interest Rates
 - Borrowing and Lending
 - “[[Interest rates]] are the prices [[borrowers]] of money pay to the [[lenders]].” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=15&annotation=KL6JN8DD))
 	- Stocks, bonds, real estate all affected by interest rates
@@ -119,7 +120,7 @@ tags:
 - higher federal funds rate $\to$ higher interest rates paid to newly issued [[Treasury securities]]
 	- “These risk-free investments guarantee you steady returns, and when rates go up, you’re guaranteed bigger interest payments on these government securities.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=17&annotation=S7CHTCFB))
 	- Has effect of higher interest rates on newly issued [[municipal bonds]] and [[corporate bonds]]
-### Economic Indicators
+### (1.3) Economic Indicators
 - Signposts in the Marketplace
 - [[Leading indicators]]
 	- Special economic statistics giving us clues on whether the economy will make a turn or remain on course
@@ -223,7 +224,7 @@ tags:
 - “breakdowns on raw materials (a.k.a. [[commodities]]), [[intermediate goods]] (items that are in production), and [[finished goods]] (ready to hit the shelves).” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=23&annotation=Y5TNRV3R))
 	- “Every month, nearly 100,000 prices are collected from approximately 30,000 manufacturing and production companies and manufacturing businesses.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=23&annotation=9LBVZXTW))
 - “This [[coincident indicator]] is often a good predictor of the direction of the CPI.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=23&annotation=JBS4VTM6))
-### Sectors
+### (1.4) Sectors
 - Sorting out Industries
 - [[Sector rotation]]
 - “Different types of industries perform better during specific stages in the [[economic cycle]].” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=24&annotation=L4I56PFY))
@@ -301,7 +302,7 @@ tags:
 - “[[Value Line Index]] tracks 1,700 equally weighted stocks from the [[New York Stock Exchange|NYSE]], the National Association of Securities Dealers Automated Quotations ([[NASDAQ]]), and [[over-the-counter stocks|OTC]] markets.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=28&annotation=2TGRJW33))
 	- Treats each stock equally 
 	- “[[market barometer]], widely held to be the best measure of the overall market and a crucial monitoring tool for any investor.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=28&annotation=8P6DXQFW))
-### The SEC
+### (1.5) The SEC
 - Watchdogs of the Market
 - “[[Securities and Exchange Commission]] (SEC).” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=29&annotation=QBHN4UZN))
 	- “government regulatory apparatus that keeps an eye on the stock market.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=29&annotation=VAW5262R))
@@ -330,7 +331,7 @@ tags:
 		- Free investment information
 		- up-to-date complaint tracking
 		- toll-free information line at 1-800-SEC-0330
-### Global Economics
+### (1.6) Global Economics
 - Market on a Grand Scale
 - Information revolution important bast 2 or 3 decades
 - Speed of information means international boundaries have virtually been erased
@@ -346,7 +347,7 @@ tags:
 	- “Extensive [[international trade]] means the dollar can be affected when another country’s currency strengthens or weakens.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=33&annotation=BS35JJ5L))
 - “Whether you invest in individual [[stocks]], [[fixed-income securities]], [[mutual funds]], [[real estate]], or more exotic financial instruments, your investments will feel the impact of world events—sometimes immediately, other times slowly.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=33&annotation=9BZ39PRX))
 - Investing in a Foreign owned company generally increases the level of risk in investment than American Owned
-### Company Fundamentals
+### (1.7) Company Fundamentals
 - “When you buy [[stock]] in a company, you’re buying a part of that company.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=34&annotation=7E5DGNMU))
 - Research required to build investment portfolio
 - Educators say 75% of all learning is gained by doing homework
@@ -422,7 +423,7 @@ tags:
 ### Introduction
 - “[[Buy-and-hold investors]] invest in companies that have stood the test of time.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=41&annotation=7DL43374))
 - “[[Traders]] take a more active approach to investing, placing more emphasis on stock price movement than on the real value of the company.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=41&annotation=XD2FTW4D))
-### Buying Stock in a Company
+### (2.1) Buying Stock in a Company
 - Think of buying a stock like buying a business (views of [[Warren Buffet]])
 	- Allows you to be more cautious
 - <mark style="background: #FFF3A3A6;">Become acquainted with details of company</mark>
@@ -457,7 +458,7 @@ tags:
 		- “multiply the current market price of a stock by the number of outstanding shares.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=45&annotation=XM88ZYK3))
 		- “Number of outstanding shares refers to the number of shares that have been sold to the public.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=45&annotation=WKBLWSZX))
 
-### Stock Exchanges
+### (2.2) Stock Exchanges
 - “buying and selling investments has gotten easier and less expensive.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=46&annotation=ZISS34GP))
 - [[Exchanges]]
 	- Markets that make up the stock market are NYSE and NASDAQ
@@ -505,7 +506,7 @@ tags:
 	- World's largest stock market
 		- Trades more shares in a day than any other stock exchange on average
 		- Seems like the NYSE is currently the world's largest stock exchange as of 2023 [^1]
-### Dividends
+### (2.3) Dividends
 - “[[dividend|Dividends]] are payments to shareholders that are not based on the stock price but are made simply because the company has reaped healthy profits and chooses to reward shareholders.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=50&annotation=J2YERFRV))
 	- board of directors determine this
 		- if dividends should be payed and how often
@@ -535,7 +536,7 @@ tags:
 			- Total Return is a 10% increase
 - Analyze Dividends
 	- “Compare the current dividend with the dividends paid over the past five years. Shrinking dividends may indicate plans for expansion; when a company’s primary goal is growth, dividends may be small or nonexistent” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=52&annotation=3SDVMVT8))
-### Kinds of Stocks
+### (2.4) Kinds of Stocks
 - “[[Blue chips]] are considered to be the most prestigious, well-established companies that are publicly traded, many of which have practically become household names.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=53&annotation=Q47LSIXT))
 	- [[General Electric]], [[McDonald's]], [[Walmart]] traded here
 	- Existed for over 25 years and still leading pack in respective industries
@@ -583,7 +584,7 @@ tags:
 		- Volatile and Risky
 		- Professionally managed small-cap fund would be a good idea
 	- [[Micro cap]]: Under $300 million
-### Cyclical, Defensive, Value, and Penny Stocks
+### (2.5) Cyclical, Defensive, Value, and Penny Stocks
 - “Companies with earnings that are strongly tied to the business cycle are considered to be [[cyclical]].” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=57&annotation=EE9VNDQC))
 	- Stocks follow positive trend when economy picks up momentum
 	- Economy slows down $\to$ stocks slow down
@@ -628,7 +629,7 @@ tags:
 	- [[Mutual funds]]
 		- Essentially hiring someone else to manage your money
 	- [[exchange-traded funds]]
-### What are Bonds?
+### (3.1) What are Bonds?
 - Loaning Money for Interest
 - “[[Bonds]] are part of a completely different asset class than stocks.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=62&annotation=4BP8ML34))
 - [[Bond market]] similar to [[stock market]]
@@ -699,7 +700,7 @@ tags:
 	- “The most basic risk is that an issuer may default, meaning you will not get your money back.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=66&annotation=YZRDGFDV))
 	- “lose money in bonds if you are forced to sell when interest rates are high.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=66&annotation=VNY8AXKX))
 	- returns not as high compared to risky [[equity mutual funds]] or from a hot stock
-### Why Buy Bonds?
+### (3.2) Why Buy Bonds?
 #### Reduce Risk
 - [[bond mutual funds]]
 	- best if you have a lower tolerance for risk
@@ -756,9 +757,47 @@ tags:
 - Could reinvest income from a bond paying a rate less than inflation in a higher-yield vehicle
 	- [[Equity fund]] more likely to beat [[inflation rate]]
 
-### Bond Ratings and Yields
+### (3.3) Bond Ratings and Yields
 - How good is a bond?
 - “[[Corporate bonds]] and some [[municipal bonds]] are [[rated]] by [[financial analysts]] at [[Standard & Poor’s]] (S&P) and Moody’s, among others.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=72&annotation=EUGUQH6N))
+### (3.4) Treasury and Municipal Bonds
+### (3.5) Corporate Bonds
+### (3.6) Mutual Funds
+### (3.7) How Funds Operate
+### (3.8) Fund Types
+### (3.9) Exchange-Traded Funds (ETFs)
+### (3.10) Managing Your Funds
+## (4) Styles of Investing
+### (4.1) Value Investing
+### (4.2) Growth Investing and Technical Investing
+### (4.3) Day Trading and Short-term Trading
+## (5) Investing in Real Estate
+### (5.1) Leveraging
+### (5.2) Flipping Houses
+### (5.3) Rental Properties
+### (5.4) Real Estate Investment Trusts
+## (6) Currency and Commodity Trading
+### (6.1) Trading Currencies and Derivatives
+### (6.2) Commodities and Precious Metals
+### (6.3) Options
+### (6.4) Short Selling
+## (7) Education and Retirement Planning
+### (7.1) Investing for Education
+### (7.2) Retirement Planning
+## (8) Socially Responsible Investing
+### (8.1) Green Investing
+### (8.2) Sustainable Resource Funds
+## (9) Your Investment Portfolio
+### (9.1) Investing Goals
+### (9.2) Risk Assessment
+### (9.3) Diversification
+### (9.4) Your Investor Profile
+### (9.5) Stockbrokers
+## (10) Advice from the Pros
+### (10.1) Benjamin Graham (1894 - 1976)
+### (10.2) Warren Buffett (1930 -)
+### (10.3) Peter Lynch (1944 - )
+### (10.4) Jack Bogle (1929 -)
 ## References
 [^1]: https://scripbox.com/pf/largest-stock-exchanges-in-the-world/#:~:text=New%20York%20Stock%20Exchange%20(NYSE)%20is%20the%20world's%20largest%20stock,%2C%20New%20York%20City%2C%20USA.
 [^2]: https://www.econlib.org/library/Topics/Details/bonds.html#:~:text=The%20buyer%20of%20a%20bond,that%20is%2C%20they%20are%20lenders.

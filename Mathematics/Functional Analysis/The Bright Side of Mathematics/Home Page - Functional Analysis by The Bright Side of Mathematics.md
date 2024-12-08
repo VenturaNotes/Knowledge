@@ -8,8 +8,8 @@ tags:
 ---
 - Complete
 	- [[(1) Functional Analysis 1  - Metric Space - How to Measure Distances.]]
-- Incomplete
 	- [[(2) Functional Analysis 2  - Examples for Metrics - Euclidean or Discrete Metric.]]
+- Incomplete
 	- [[(3) Functional Analysis 3  - Open and Closed Sets]]
 	- [[(4) Functional Analysis 4  - Sequences, Limits and Closed Sets]]
 	- [[(5) Functional Analysis 5  - Cauchy Sequences and Complete Spaces]]

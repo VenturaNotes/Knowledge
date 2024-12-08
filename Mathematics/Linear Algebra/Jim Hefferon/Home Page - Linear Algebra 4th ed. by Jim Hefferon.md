@@ -7,6 +7,7 @@ Progress: "1"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Notation
 - $\mathbb{R}$: [[Real numbers]], $\mathbb{R^+}$: [[Positive reals]], $\mathbb{R^n}$: [[n-tuples of reals]]
@@ -30,7 +31,7 @@ tags:
 - $\mathscr{R}(h)$: [[range space]], $\mathscr{N}(h)$: [[null space of the map]]
 - $\mathscr{R}_{\infty}(h)$: [[generalized range space]], $\mathscr{N}_{\infty}(h)$: [[generalized null space]]
 
-## “Greek letters” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=2&annotation=CP6JEZKT)) (learn to pronounce in book)
+## “Greek letters” (learn to pronounce in book)
 
 | $\alpha$: [[alpha]]             | $\beta$: [[beta]] | $\gamma$,$\Gamma$: [[gamma]] | $\delta$,$\Delta$: [[delta]] | $\epsilon$: [[epsilon]]            |
 | ------------------------------- | ----------------- | ---------------------------- | ---------------------------- | ---------------------------------- |
@@ -39,6 +40,7 @@ tags:
 | $\pi$,$\Pi$: [[pi]]             | $\rho$: [[rho]]   | $\sigma$,$\Sigma$: [[sigma]] | $\tau$: [[tau]]              | $\upsilon$,$\Upsilon$: [[upsilon]] |
 | $\phi$, $\Phi$: [[phi]]         | $\chi$: [[chi]]   | $\psi$,$\Psi$: [[psi]]       | $\omega$,$\Omega$: [[omega]]                             |                                    |
 - Capitals shown differ from Roman capitals
+- [pdf](zotero://open-pdf/library/items/TGUR9253?page=2&annotation=CP6JEZKT)
 
 ## Preface
 - “The material is standard in that the subjects covered are [[Gaussian reduction]], [[vector spaces]], [[linear maps]], [[determinants]], and [[eigenvalues]] and [[eigenvectors]].” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=3&annotation=TAM7ZA8U))
@@ -160,6 +162,100 @@ tags:
 - [Solutions](zotero://open-pdf/library/items/RHHYDIAW?page=9&annotation=BKR4CXA6)
 - “If a system has a contradictory equation then it has [[no solution]]. Otherwise, if there are any variables that are not leading a row then it has[[ infinitely many solution]]. In the final case, where there is no contradictory equation and every variable leads some row, it has a [[unique solution]].” ([pdf](zotero://open-pdf/library/items/RHHYDIAW?page=9&annotation=66SN6GYS))
 
+#### (1.1.2) Describing the Solution Set
+#### (1.1.3) General = Particular + Homogenous
+### (1.2) Linear Geometry
+#### (1.2.1) Vectors in Space*
+#### (1.2.2) Length and Angle Measures
+### (1.3) Reduced Echelon Form
+#### (1.3.1) Gauss-Jordan Reduction
+#### (1.3.2) The Linear Combination Lemma
+### (1.4) Topic: Computer Algebra Systems
+### (1.5) Topic: Input-Output Analysis
+### (1.6) Topic: Accuracy of Computations
+### (1.7) Topic: Analyzing Networks
+## (2) Vector Spaces
+### (2.1) Definition of Vector Space
+### (2.1.1) Definition and Examples
+### (2.1.2) Subspaces and Spanning Sets
+### (2.2) Linear Independence
+### (2.2.1) Definition and Examples
+### (2.3) Basis and Dimension
+#### (2.3.1) Basis
+#### (2.3.2) Dimension
+#### (2.3.3) Vector Spaces and Linear Systems
+#### (2.3.4) Combining Subspaces*
+#### (2.4) Topic: Fields
+#### (2.5) Topic: Crystals
+#### (2.6) Topic: Voting Paradoxes
+#### (2.7) Topic: Dimensional Analysis
+## (3) Maps Between Spaces
+### (3.1) Isomorphisms
+#### (3.1.1) Definition and Examples
+#### (3.1.2) Dimension Characterizes Isomorphism
+### (3.2) Homomorphisms
+#### (3.2.1) Definition and Examples
+#### (3.2.2) Dimension Characterizes Isomorphism
+### (3.3) Computing Linear Maps
+#### (3.3.1) Representing Linear Maps with Matrices
+#### (3.3.2) Any Matrix Represents a Linear Map
+### (3.4) Matrix Operations
+#### (3.4.1) Sums and Scalar Products
+#### (3.4.2) Matrix Multiplication
+#### (3.4.3) Mechanics of Matrix Multiplication
+#### (3.4.4) Inverses
+### (3.5) Change of Basis
+#### (3.5.1) Changing Representations of Vectors
+#### (3.5.2) Changing Map Representations
+### (3.6) Projection
+#### (3.6.1) Orthogonal Projection Into a Line*
+#### (3.6.2) Gram-Schmidt Orthogonalization*
+#### (3.6.3) Projection Into a Subspace*
+### (3.7) Topic: Line of Best Fit
+### (3.8) Topic: Geometry of Linear Maps
+### (3.9) Topic: Magic Squares
+### (3.10) Topic: Markov Chains
+### (3.11) Topic: Orthonormal Matrices
+## (4) Determinants
+### (4.1) Definition
+#### (4.1.1) Exploration*
+#### (4.1.2) Properties of Determinants
+#### (4.1.3) The Permutation Expansion
+#### (4.1.4) Determinants Exist*
+### (4.2) Geometry of Determinants
+#### (4.2.1) Determinants as Size Functions
+### (4.3) Laplace's Formula
+#### (4.3.1) Laplace's Expansion*
+### (4.4) Topic: Cramer's Rule
+### (4.5) Topic: Speed of Calculating Determinants
+### (4.6) Topic: Chiò's Method
+### (4.7) Topic: Projective Geometry
+### (4.8) Topic: Computer Graphics
+
+## (5) Similarity
+### (5.1) Complex Vector Spaces
+#### (5.1.1) Polynomial Factoring and Complex Numbers*
+#### (5.1.2) Complex Representations
+### (5.2) Similarity
+#### (5.2.1) Definition and Examples
+#### (5.2.2) Diagonalizability
+#### (5.2.3) Eigenvalues and Eigenvectors
+### (5.3) Nilpotence
+#### (5.3.1) Self-Composition*
+#### (5.3.2) Strings*
+### (5.4) Jordan Form
+#### (5.4.1) Polynomials of Maps and Matrices*
+#### (5.4.2) Jordan Canonical Form*
+### (5.5) Topic: Method of Powers
+### (5.6) Topic: Stable Populations
+### (5.7) Topic: Page Ranking
+### (5.8) Topic: Linear Recurrences
+### (5.9) Topic: Coupled Oscillators
+## Appendix
+### (A.1) Statements
+### (A.2) Quantifiers
+### (A.3) Techniques of Proof
+### (A.4) Sets, Functions, and Relations
 ## References
 [^1]: https://www.wikiwand.com/en/Commutativity_of_conjunction
 
