@@ -6,6 +6,7 @@ Progress: "10"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Preface
 ### The Origins of Neuroscience: Exploring the Brain
@@ -102,7 +103,7 @@ tags:
 - “The neuroscience revolution occurred when scientists realized that the best hope for understanding the workings of the brain would come from an interdisciplinary approach, a combination of traditional approaches to yield a new synthesis, a new perspective.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=48&annotation=H5Q7N9UL))
 	- This can include scientific disciplines such as “medicine, biology, psychology, physics, chemistry, mathematics.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=48&annotation=9JG375N6))
 
-### (1.1) The Origins of Neuroscience
+### The Origins of Neuroscience
 - “You probably already know that the [[nervous system]]—the [[brain]], [[spinal cord]], and [[Nerve|nerves]] of the body—is crucial for life and enables you to sense, move, and think.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=48&annotation=2FC2FMJM))
 - Hominids back a million years damaged each other's skulls indicating they knew how much the brain was vital to life
 - “As early as 7000 years ago, people were boring holes in each other’s skulls (a process called” [[trepanation]]), evidently with the aim not to kill but to cure” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=48&annotation=E73QCJ3F))
@@ -296,7 +297,7 @@ tags:
 - “by 1900, the individual nerve cell, now called the neuron, was recognized to be the basic functional unit of the nervous system.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=57&annotation=IFZFNGEA))
 
 
-### (1.2) Neuroscience Today
+### Neuroscience Today
 #### Levels of Analysis
 - “To reduce the complexity of the problem (understanding the brain), neuroscientists break it into smaller pieces for systematic experimental analysis. This is called the [[reductionist approach]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=57&annotation=URG3L64Y))
 	- “size of the unit of study defines what is often called the [[level of analysis]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=57&annotation=QRC36I7J))
@@ -471,7 +472,7 @@ tags:
 	- “Indeed, the term glia is derived from the Greek word for “glue,”” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=IVYV8QEX))
 - “neurons perform most information processing in the brain,” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=QZZAQC4F))
 
-### (2.1) The Neuron Doctrine
+### The Neuron Doctrine
 - “Most [[cells]] are in the range of 0.01–0.05 mm in diameter.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=3LLWEE25))
 - “Units of Size in the Metric System” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=69&annotation=HCS84UIG))
 	- kilometer: km = $10^3m$
@@ -557,7 +558,7 @@ tags:
 	- “Unlike the traditional methods of light and electron microscopy, which require tissue fixation, these new techniques give neuroscientists the ability to peer into brain tissue that is still alive” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=72&annotation=7ZVM7BV5))
 		- “allowed “super-resolution” imaging, breaking the limits imposed by traditional light microscopy to reveal structures as small as 20 nm across.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=72&annotation=NSM5XZ4Y))
 
-### (2.2) The Prototypical Neuron
+### The Prototypical Neuron
 - “the [[neuron]] (also called a nerve cell) consists of several parts: the [[soma]], the [[Dendrite|dendrites]], and the [[axon]]” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=A3KPZZ2J))
 - “inside of the neuron is separated from the outside by the [[neuronal membrane]],” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=RQ3LTI52))
 - ![[Screenshot 2023-08-14 at 12.56.11 AM.png|300]]
@@ -599,3 +600,839 @@ tags:
 - “[[Protein synthesis]], the assembly of protein molecules, occurs in the [[cytoplasm]]” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=8SPLWXAX))
 	- “Because the DNA never leaves the nucleus, an [[intermediary]] must carry the genetic message to the sites of protein synthesis in the cytoplasm” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=IUU58XCH))
 		- “function is performed by another long molecule called messenger ribonucleic acid, or [[mRNA]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=7XL3F7AZ))
+##### Neuronal genes, Genetic Variation, and Genetic Engineering
+###### (Box 2.2) Brain Food: Expressing One's Mind in the Post-Genomic Era
+###### (Box 2.3) Path of Discovery: Gene Targeting in Mice, by Mario Capecchi
+##### Rough Endoplasmic Reticulum
+##### Smooth Endoplasmic Reticulum and the Golgi Apparatus
+##### The Mitochondrion
+#### The Neuronal Membrane
+#### The Cytoskeleton
+##### Microtubules
+###### (Box 2.4) Of Special Interest: Alzheimer's Disease and the Neuronal Cytoskeleton
+##### Microfilaments
+##### Neurofilaments
+#### The Axon
+##### The Axon Terminal
+##### The Synapse
+##### Axoplasmic Transport
+###### Box 2.5 Of Special Interest: Hitching a Ride with Retrograde Transport Dendrites
+###### Box 2.6 Of Special Interest: Intellectual Disability and Dendritic Spines
+### Classifying Neurons
+#### Classification Based on Neuronal Structure
+##### Number of Neurites
+##### Dendrites
+##### Connections
+##### Axon Length
+#### Classification Based on Gene Expression
+##### Box 2.7 Brain Food: Understanding Neuronal Structure and function with Incredible Cre
+### Glia
+#### Astrocytes
+#### Myelinating Glia
+#### Other Non-Neuronal Cells
+### Concluding Remarks
+## (3) The Neuronal Membrane at Rest
+### Introduction
+### The Cast of Chemicals
+#### Cytosol and Extracellular Fluid
+##### Water
+##### Ions
+#### The Phospholipid Membrane
+#### Protein
+##### Protein Structure
+##### Channel Proteins
+##### Ion Pumps
+### The Movement of Ions
+#### Diffusion
+##### Box 3.1 Brain Food: A Review of Moles and Molarity
+#### Electricity
+### The Ionic Basis of the Resting Membrane Potential
+#### Equilibrium Potentials
+##### Box 3.2 Brain Food: The Nernst Equation
+#### The Distribution of Ions Across the Membrane
+#### Relative Ion Permeabilities of the Membrane at Rest
+##### Box 3.3 Brain food: The Goldman Equation
+##### The Wide World of Potassium Channels
+##### Box 3.4 Path Of Discovery: Feeling Around Inside Ion Channels in the Dark, by Chris Miller
+##### The Importance of Regulating the External Potassium Concentration
+##### Box 3.5 of Special Interest: Death by Lethal Injection
+### Concluding Remarks
+## (4) The Action Potential
+### Introduction
+### Properties of the Action Potential
+#### The Ups and Downs of an Action Potential
+##### Box 4.1 Brain Food: Methods of Recording Action Potentials
+#### The Generation of an Action Potential
+#### The Generation of Multiple Action Potentials
+##### Optogenetics: Controlling Neural Activity with Light
+##### Box 4.2 Path of Discovery: The Discovery of the Channelrhodopsins, by Georg Nagel
+### The Action Potential, In Theory
+#### Membrane Currents and Conductances
+#### TheIns and Outs of an Action Potential
+### The Action Potential, In Reality
+#### The Voltage-Gated Sodium Channel
+##### Sodium Channel Structure
+##### Functional Properties of the Sodium Channel
+##### Box 4.3 Brain Food: The Patch-Clamp Method
+##### The Effects of Toxins on the Sodium Channel
+##### Voltage-Gated Potassium Channels
+##### Putting the Pieces Together
+### Action Potential Conduction
+#### Factors Influencing Conduction Velocity
+#### Box 4.4 of Special Interest: Local Anesthesia
+#### Myelin and Saltatory Conduction
+#### Box 4.5 of Special Interest: Multiple Sclerosis, a Demyelinating Disease
+### Action Potentials, Axons, and Dendrites
+#### Box 4.6 of Special Interest: The Eclectic Electric Behavior of Neurons
+### Concluding Remarks
+## (5) Synaptic Transmission
+### Introduction
+#### Box 5.1 of Special Interest: Otto Loewi's Dream
+### Types of Synapses
+#### Electrical Synapses
+#### Chemical Synapses
+##### CNS Chemical Synapses
+##### Box 5.2 Path of Discovery: For the Love of Dendritic Spines, by Kristen M. Harris
+##### The Neuromuscular Junction
+### Principles of Chemical Synaptic Transmission
+#### Neurotransmitters
+#### Neurotransmitter Synthesis and Storage
+##### Box 5.3 Brain Food: How to SNARE a Vesicle
+#### Neurotransmitter Receptors and Effectors
+##### Transmitter-Gated Ion Channels
+###### Box 5.4 Brain Food: Reversal Potentials
+##### G-Protein-Coupled Receptors
+##### Autoreceptors
+#### Neurotransmitter Recovery and Degradation
+#### Neuropharmacology
+##### Box 5.5 Of Special Interest: Bacteria, Spiders, Snakes, and People
+### Principles of Synaptic Integration
+#### The Integration of EPSPs
+##### Quantal Analysis of EPSPs
+##### EPSP Summation
+#### The Contribution of Dendritic Properties to Synaptic Integration
+##### Dendritic Cable Properties
+##### Excitable Dendrites
+#### Inhibition
+##### Box 5.6 Of Special Interest: Startling Mutations and Poisons
+##### ISPs and Shunting Inhibition
+##### The Geometry of Excitatory and Inhibitory Synapses
+#### Modulation
+### Concluding Remarks
+## (6) Neurotransmitter Systems
+### Introduction
+### Studying Neurotransmitter Systems
+#### Localization of Transmitters and Transmitter-Synthesizing Enzymes
+##### Immunocytochemistry
+##### In Situ Hybridization
+#### Studying Transmitter Release
+#### Studying Synaptic Mimicry
+#### Studying Receptors
+##### Neuropharmacological Analysis
+##### Ligand-Binding Methods
+###### Box 6.1 Path of Discovery: Finding Opiate Receptors, by Solomon H. Snyder
+##### Molecular Analysis
+### Neurotransmitter Chemistry
+#### Cholinergic Neurons
+##### Box 6.2 Brain Food: Pumping Ions and Transmitters
+#### Catecholaminergic Neurons
+#### Serotonergic Neurons
+#### Amino Acidergic Neurons
+#### Other Neurotransmitter Candidates and Intercellular Messengers
+##### Box 6.3 Of Special Interest: This Is Your Brain on Endocannabinoids
+### Transmitter-Gated Channels
+#### The Basic Structure of Transmitter-Gated Channels
+#### Amino Acid-Gated Channels
+##### Glutamate-Gated Channels
+###### Box 6.4 Of Special Interest: Exciting Poisons: Too Much of a Good Thing
+##### GABA-Gated and Glycine-Gated Channels
+### G-Protein-Coupled Receptors and Effectors
+#### The Basic Structure of G-Protein-Coupled Receptors
+#### The Ubiquitous G-Proteins
+#### G-Protein-Coupled Effector Systems
+##### The Shortcut Pathway
+##### Second Messenger Cascades
+##### Phosphorylation and Dephosphorylation
+##### The Function of Signal Cascades
+### Divergence and Convergence in Neurotransmitter Systems
+### Concluding Remarks
+## (7) The Structure of the Nervous System
+### Introduction
+### Gross Organization of the Mammalian Nervous System
+#### Anatomical References
+#### The Central Nervous System
+##### The Cerebrum
+##### The Cerebellum
+##### The Brain Stem
+##### The Spinal Cord
+#### The Peripheral Nervous System
+##### The Somatic PNS
+##### The Visceral PNS
+##### Afferent and Efferent Axons
+#### The Cranial Nerves
+#### The Meninges
+#### The Ventricular System
+##### Box 7.1 Of Special Interest: Water on the Brain
+#### New Views of the Brain
+##### Imaging the Structure of the Living Brain
+##### Box 7.2 Brain Food: Magnetic Resonance Imaging
+##### Functional Brain Imaging
+##### Box 7.3 Brain Food: PET and fMRI
+### Understanding CNS Structure Through Development
+#### Formation of the Neural Tube
+##### Box 7.4 Of Special Interest: Nutrition and the Neural Tube
+#### Three Primary Brain Vesicles
+#### Differentiation of the Forebrain
+##### Differentiation of the Telencephalon and Diencephalon
+##### Forebrain Structure-Function Relationships
+#### Differentiation of the Midbrain
+##### Midbrain Structure-Function Relationships
+#### Differentiation of the Hindbrain
+##### Hindbrain Structure-Function Relationships
+#### Differentiation of the Spinal Cord
+##### Spinal Cord Structure-Function Relationships
+#### Putting the Pieces Together
+#### Special Features of the Human CNS
+### A Guide to the Cerebral Cortex
+#### Types of Cerebral Cortex
+#### Areas of Neocortex
+##### Neocortical Evolution and Structure-Function Relationships
+###### Box 7.5 Path of Discovery: Connecting with the Connectome, by Sebastian Seung
+### Concluding Remarks
+### Appendix: An Illustrated Guide to Human Neuroanatomy
+## Part 2: Sensory and Motor Systems
+## (8) The Chemical Senses
+### Introduction
+### Taste
+#### The Basic Tastes
+#### The Organs of Taste
+##### Box 8.1 Of Special Interest: Strange Tastes: Fat, Starch, Carbonation, Calcium, Water?
+#### Taste Receptor Cells
+#### Mechanisms of Taste Transduction
+##### Saltiness
+##### Sourness
+##### Bitterness
+##### Sweetness
+##### Umami (Amino Acids)
+#### Central Taste Pathways
+##### Box 8.2 of Special Interest: Memories of a Very Bad Meal
+#### The Neural Coding of Taste
+### Smell
+#### The Organs of Smell
+##### Box 8.3 Of Special Interest: Human Pheromones?
+#### Olfactory Receptor Neurons
+##### Olfactory Transduction
+##### Olfactory Receptor Proteins
+##### cAMP-gated Channels
+###### Box 8.4 Path of Discovery: Channels of Vision and Smell, by Geoffrey Gold
+#### Central Olfactory Pathways
+#### Spatial and Temporal Representations of Olfactory Information
+##### Olfactory Population Coding
+##### Olfactory Maps
+##### Temporal Coding in the Olfactory System
+### Concluding Remarks
+## (9) The Eye
+### Introduction
+### Properties of Light
+#### Light
+#### Optics
+### The Structure of the Eye
+#### Gross Anatomy of the Eye
+#### Ophthalmoscopic Appearance of the Eye
+##### Box 9.1 of Special Interest: Demonstrating the Blind Regions of Your Eye
+#### Cross-Sectional Anatomy of the Eye
+##### Box 9.2 Of Special Interest: Eye Disorders
+### Image Formation by the Eye
+#### Refraction by the Cornea
+#### Accommodation by the Lens
+##### Box 9.3 Of Special Interest
+#### The Pupillary Light Reflex
+#### The Visual field
+#### Visual Acuity
+### Microscopic Anatomy of the Retina
+#### The Laminar Organization of the Retina
+#### Photoreceptor Structure
+##### Box 9.4 Path of Discovery: Seeing Through the Photoreceptor Mosaic, by David Williams
+#### Regional Differences in Retinal Structure and Their Visual Consequences
+### Phototransduction
+#### Phototransduction in Rods
+#### Phototransduction in Cones
+##### Color Perception
+##### Box 9.5 Of Special Interest: The Genetics of Color Vision
+#### Dark and Light Adaptation
+##### Calcium's Role in Light Adaptation
+##### Local Adaptation of Dark, Light, and Color
+### Retinal Processing and Output
+#### The Receptive Field
+#### Bipolar Cell Receptive Fields
+#### Ganglion Cell Receptive fields
+##### Structure-Function Relationships
+##### Color-Opponent Ganglion Cells
+#### Ganglion Cell Photoreceptors
+#### Parallel Processing
+### Concluding Remarks
+## (10) The Central Visual System
+### Introduction
+### The Retinofugal Projection
+#### The Optic Nerve, Optic Chiasm, and Optic Tract
+#### Right and Left Visual Hemifields
+#### Targets of the Optic Tract
+##### Box 10.1 Of Special Interest: David and Goliath
+##### Nonthalamic Targets of the Optic Tract
+### The Lateral Geniculate Nucleus
+#### The Segregation of Input by Eye and by Ganglion Cell Type
+#### Receptive Fields
+#### Nonretinal Inputs to the LGN
+### Anatomy of the Striate Cortex
+#### Retinotopy
+#### Lamination of the Striate Cortex
+##### The Cells of Different Layers
+#### Inputs and Outputs of the Striate Cortex
+##### Innervation of Other Cortical Layers from Layer IVC
+##### Ocular Dominance Columns
+##### Striate Cortex Outputs
+#### Cytochrome Oxidase Blobs
+### Physiology of the Striate Cortex
+#### Receptive Fields
+##### Binocularity
+##### Orientation Selectivity
+##### Box 10.2 Brain Food: Cortical Organization Revealed by Optical and Calcium Imaging
+##### Direction Selectivity
+##### Simple and Complex Receptive Fields
+##### Blob Receptive Fields
+#### Parallel Pathways and Cortical Modules
+##### Parallel Pathways
+##### Cortical Modules
+### Beyond the Striate Cortex
+#### The Dorsal Stream
+##### Area MT
+##### Dorsal Areas and Motion Processing
+#### The Ventral Stream
+##### Area V4
+##### Area IT
+##### Box 10.3 Path of Discovery: Finding Faces in the Brain, by Nancy Kanwisher
+### From Single Neurons to Perception
+#### Box 10.4 Of Special Interest: The Magic of Seeing in 3D
+#### Receptive Field Hierarchy and Perception
+#### Parallel Processing and Perception
+### Concluding Remarks
+## (11) The Auditory and Vestibular Systems
+### Introduction
+### The Nature of Sound
+#### Box 11.1 Of Special Interest: Ultrasound and Infrasound
+### The Structure of the Auditory System
+### The Middle Ear
+#### Components of the Middle Ear
+#### Sound Force Amplification by the Ossicles
+#### The Attenuation Reflex
+### The Inner Ear
+#### Anatomy of the Cochlea
+#### Physiology of the Cochlea
+##### The Response of the Basilar Membrane to Sound
+##### The Organ of Corti and Associated Structures
+###### Box 11.2 Of Special Interest: The Deaf Shall Hear: Cochlear Implants
+##### Transduction by Hair Cells
+##### Hair Cells and the Axons of the Auditory Nerve
+##### Amplification by Outer Hair Cells
+##### Box 11.3 of Special Interest: Hearing with Noisy Ears
+### Central Auditory Procesess
+#### The Anatomy of Auditory Pathways
+#### Response Properties of Neurons in the Auditory Pathway
+### Encoding Sound Intensity and Frequency
+#### Stimulus Intensity
+#### Stimulus Frequency, Tonotopy, and Phase Locking
+##### Tonotopy
+##### Phase Locking
+##### Box 11.4 Path of Discovery: Capturing the Beat, by Donata Oertel
+### Mechanisms of Sound Localization
+#### Localization of Sound in the Horizontal Plane
+##### The Sensitivity of Binaural Neurons to Sound Location
+#### Localization of Sound in the Vertical Plane
+### Auditory Cortex
+#### Neuronal Response Properties
+##### Box 11.5 Of Special Interest: How Does Auditory Cortex Work? Ask a Specialist
+#### The Effects of Auditory Cortical Lesions and Ablation
+##### Box 11.6 Of Special Interest: Auditory Disorders and Their Treatments
+### The Vestibular System
+#### The Vestibular Labyrinth
+#### The Otolith Organs
+#### The Semicircular Canals
+#### Central Vestibular Pathways and Vestibular Reflexes
+##### The Vestibulo-Ocular Reflex (VOR)
+#### Vestibular Pathology
+### Concluding Remarks
+## (12) The Somatic Sensory System
+### Introduction
+### Touch
+#### Mechanoreceptors of the Skin
+##### Vibration and the Pacinian Corpuscle
+##### Mechanosensitive Ion Channels
+##### Two-Point Discrimination
+#### Primary Afferent Axons
+#### The Spinal Cord
+##### Segmental Organization of the Spinal Cord
+###### Box 12.1 Of Special Interest: Herpes, Shingles, and Dermatomes
+##### Sensory Organization of the Spinal Cord
+#### The Dorsal Column-Medial Lemniscal Pathway
+#### The Trigmeminal Touch Pathway
+##### Box 12.2 Brain Food: Lateral Inhibition
+#### Somatosensory Cortex
+##### Cortical Somatotopy
+###### Box 12.3 Path of Discovery: Cortical Barrels, by Thomas Woolsey
+##### Cortical Map Plasticity
+##### The Posterior Parietal Cortex
+### Pain
+#### Box 12.4 Of Special Interest: The Misery of Life Without Pain
+#### Nociceptors and the Transduction of Painful Stimuli
+##### Types of Nociceptors
+##### Hyperalgesia and Inflammation
+###### Box 12.5 Of Special Interest: Hot and Spicy
+#### Itch
+#### Primary Afferents and Spinal Mechanisms
+#### Ascending Pain Pathways
+##### The Spinothalamic Pain Pathway
+##### The Trigeminal Pain Pathway
+##### The Thalamus and Cortex
+#### The Regulation of Pain
+##### Afferent Regulation
+##### Descending Regulation
+##### The Endogenous Opioids
+###### Box 12.6 Of Special Interest: Pain and the Placebo Effect
+### Temperature
+#### Thermoreceptors
+#### The Temperature Pathway
+### Concluding Remarks
+## (13) Spinal Control of Movement
+### Introduction
+### The Somatic Motor System
+### The Lower Motor Neuron
+#### The Segmental Organization of Lower Motor Neurons
+#### Alpha Motor Neurons
+##### Graded Control of Muscle Contraction by Alpha Motor Neurons
+##### Inputs to Alpha Motor Neurons
+#### Types of Motor Units
+##### Neuromuscular Matchmaking
+###### Box 13.1 Of Special Interest: ALS: Glutamate, Genes, and Gehrig
+### Excitation-Contraction Coupling
+#### Box 13.2 Of Special Interest: Myasthenia Gravis
+#### Muscle Fiber Structure
+#### The Molecular Basis of Muscle Contraction
+#### Box 13.3 Of Special Interest: Duchenne Muscular Dystrophy
+### Spinal Control of Motor Units
+#### Proprioception from Muscle Spindles
+##### The Stretch Reflex
+###### Box 13.4 Path of Discovery: Nerve Regeneration Does Not Ensure Full Recovery, by Timothy C. Cope
+#### Gamma Motor Neurons
+#### Proprioception from Golgi Tendon Organs
+##### Proprioception from the Joints
+#### Spinal Interneurons
+##### Inhibitory Input
+##### Excitatory Input
+#### The Generation of Spinal Motor Programs for Walking
+### Concluding Remarks
+## (14) Brain Control of Movement
+### Introduction
+### Descending Spinal Tracts
+#### The Lateral Pathways
+##### The Effects of Lateral Pathway Lesions
+###### Box 14.1 Of Special Interest: Paresis, Paralysis, Spasticity, and Babinski
+#### The Ventromedial Pathways
+##### The Vestibulospinal Tracts
+##### The Tectospinal Tract
+##### The Pontine and Medullary Reticulospinal Tracts
+### The Planning of Movement by the Cerebral Cortex
+#### Motor Cortex
+#### The Contributions of Posterior Parietal and Prefrontal Cortex
+#### Neuronal Correlates of Motor Planning
+##### Box 14.2 Of Special Interest: Behavioral Neurophysiology
+#### Mirror Neurons
+### The Basal Ganglia
+#### Anatomy of the Basal Ganglia
+#### Direct and Indirect Pathways through the Basal Ganglia
+##### Basal Ganglia Disorders
+##### Box 14.3 Of Special Interest: Do Neurons in Diseased Basal Ganglia Commit Suicide?
+##### Box 14.4 Of Special Interest: Destruction and Stimulation: Useful Therapies for Brain Disorders
+### The Initiation of Movement by Primary Motor Cortex
+#### The Input-Output Organization of M1
+#### The Coding of Movement in M1
+##### Box 14.5 Path of Discovery: Distributed Coding in the Superior Colliculus, by James T. Mcllwain
+##### The Malleable Motor Map
+### The Cerebellum
+#### Box 14.6 Of Special Interest: Involuntary Movements - Normal and Abnormal
+#### Anatomy of the Cerebellum
+#### The Motor Loop through the Lateral Cerebellum
+##### Programming the Cerebellum
+### Concluding Remarks
+## Part Three: The Brain and Behavior
+## (15) Chemical Control of the Brain and Behavior
+### Introduction
+### The Secretory Hypothalamus
+#### An Overview of the Hypothalamus
+##### Homeostasis
+##### Structure and Connections of the Hypothalamus
+#### Pathways to the Pituitary
+##### Hypothalamic Control of the Posterior Pituitary
+##### Hypothalamic Control of the Anterior Pituitary
+##### Box 15.1 Of Special Interest: Stress and the Brain
+### The Autonomic Nervous System
+#### ANS Circuit
+##### Sympathetic and Parasympathetic Divisions
+##### The Enteric Division
+##### Central Control of the ANS
+#### Neurotransmitters and the Pharmacology of Autonomic function
+##### Preganglionic Neurotransmitters
+##### Postganglionic Neurotransmitters
+### The Diffuse Modulatory Systems of the Brain
+#### Anatomy and Functions of the Diffuse Modulatory Systems
+##### Box 15.2 Of Special Interest: You Eat What You Are
+##### The Noradrenergic Locus Coeruleus
+##### Box 15.3 Path of Discovery: Exploring the Central Noradrenergic Neurons, by Floyd Bloom
+##### The Serotonergic Raphe Nuclei
+##### The Dopaminergic Substantia Nigra and Ventral Tegmental Area
+##### The Cholinergic Basal Forebrain and Brain Stem Complexes
+#### Drugs and the Diffuse Modulatory Systems
+##### Hallucinogens
+##### Stimulants
+### Concluding Remarks
+## (16) Motivation
+### Introduction
+### The Hypothalamus, Homeostasis, and Motivated Behavior
+### The Long-Term Regulation of Feeding Behavior
+#### Energy Balance
+#### Hormonal and Hypothalamic Regulation of Body Fat and Feeding
+##### Body Fat and Food Consumption
+##### Box 16.1 Of Special Interest: The Starving Brains of the Obese
+##### The Hypothalamus and Feeding
+##### The Effects of Elevated Leptin Levels on the Hypothalamus
+##### The Effects of Decreased Leptin Levels on the Hypothalamus
+##### The Control of Feeding by Lateral Hypothalamic Peptides
+### The Short-term Regulation of Feeding Behavior
+#### Appetite, Eating, Digestion, and Satiety
+##### Box 16.2 Of Special Interest: Marijuana and the Munchies
+##### Ghrelin
+##### Gastric Distension
+##### Cholecystokinin
+##### Insulin
+##### Box 16.3 Of Special Interest: Diabetes Mellitus and Insulin Shock
+### Why Do We Eat?
+#### Reinforcement and Reward
+##### Box 16.4 Of Special Interest: Self-Stimulation of the Human Brain
+#### The Role of Dopamine in Motivation
+##### Box 16.5 Of Special Interest: Dopamine and Addiction
+##### Box 16.6 Path Of Discovery: Learning to Crave, by Julie Kauer
+#### Serotonin, Food, and Mood
+### Other Motivated Behaviors
+#### Drinking
+#### Temperature Regulation
+### Concluding Remarks
+#### Box 16.7 Of Special Interest: Neuroeconomics
+## (17) Sex and the Brain
+### Introduction
+### Sex and Gender
+#### The Genetics of Sex
+##### Sex Chromosome Abnormalities
+#### Sexual Development and Differentiation
+### The Hormonal Control of Sex
+#### The Principal Male and Female Hormones
+#### The Control of Sex Hormones
+### The Neural Basis of Sexual Behaviors
+#### Reproductive Organs and Their Control
+#### Mammalian Mating Strategies
+#### The Neurochemistry of Reproductive Behavior
+##### Box 17.1 Path of Discovery: Bonding with Voles, by Thomas Insel
+#### Love, Bonding, and the Human Brain
+### Why and How Male and Female Brains Differ
+#### Sexual Dimorphisms of the Central Nervous System
+#### Sexual Dimorphisms of the Cognition
+#### Sex Hormones, The Brain, and Behavior
+##### Masculinization of the Fetal Brain
+##### Box 17.2 Of Special Interest: Bird Songs and Bird Brains
+##### Mismatches between Genetic Sex and Hormone Action
+#### Direct Genetic Effects on Behavior and Sexual Differentiation of the Brain
+##### Box 17.3 Of Special Interest: David Reimer and the Basis of Gender Identity
+#### The Activation Effects of Sex Hormones
+##### Brain Changes Associated with Maternal and Paternal Behavior
+##### Estrogen Effects on Neuron Function, Memory, and Disease
+#### Sexual Orientation
+### Concluding Remarks
+## (18) Brain Mechanisms of Emotion
+### Introduction
+### Early Theories of Emotion
+#### The James-Lange Theory
+#### The Cannon-Bard Theory
+##### Box 18.1 Of Special Interest: Butterflies in the Stomach
+#### Implications of Unconscious Emotion
+### The Limbic System
+#### Broca's Limbic Lobe
+#### The Papez Circuit
+##### Box 18.2 Of Special Interest: Phineas Gage
+#### Difficulties with the Concept of a Single System for Emotions
+### Emotion Theories and Neural Representations
+#### Basic Emotion Theories
+#### Dimensional Emotion Theories
+#### What is an Emotion?
+##### Box 18.3 Path of Discovery: Concepts and Names in Everyday Science, by Antonio Damasio
+
+### Fear and the Amygdala
+#### The Klüver-Bucy syndrome
+#### Anatomy of the Amygdala
+#### Effects of Amygdala Stimulation and Lesions
+#### A Neural Circuit for Learned Fear
+### Anger and Aggression
+#### The Amygdala and Aggression
+##### Surgery to Reduce Human Aggression
+###### Box 18.4 Of Special Interest: The Frontal Lobotomy
+#### Neural Components of Anger and Aggression Beyond the Amygdala
+##### Anger, Aggression, and the Hypothalamus
+##### The Midbrain and Aggression
+#### Serotonergic Regulation of Anger and Aggression
+### Concluding Remarks
+## (19) Brain Rhythms and Sleep
+### Introduction
+### The Electroencephalogram
+#### Recording Brain Waves
+##### Box 19.1 Path of Discovery: The Puzzle of Brain Rhythms, by Stephanie R. Jones
+#### EEG Rhythms
+#### Mechanisms and Meanings of Brain Rhythms
+##### The Generation of Synchronous Rhythms
+##### Functions of Brain Rhythms
+#### The Seizures of Epilepsy
+### Sleep
+#### The Functional States of the Brain
+#### The Sleep Cycle 
+##### 19.2 Of Special Interest: Walking, Talking, and Screaming in Your Sleep
+#### Why Do We Sleep?
+##### 19.3 Of Special Interest: The Longest All-Nighter
+#### Functions of Dreaming and REM Sleep
+#### Neural Mechanisms of Sleep
+##### Wakefulness and the Ascending Reticular Activating System
+###### Box 19.4 Of Special Interest: Narcolepsy 
+##### Falling Asleep and the Non-REM State
+##### Mechanisms of REM Sleep
+##### Sleep-Promoting Factors
+##### Gene Expression during Sleeping and Waking
+### Circadian Rhythms
+#### Biological Clocks
+#### The Suprachiasmatic Nucleus: A Brain Clock
+##### Box 19.5 Of Special Interest: Mutant Hamster Clocks
+#### SCN Mechanisms
+### Concluding Remarks
+## (20) Language
+### Introduction
+### What is Language
+#### Human Sound and Speech Production
+#### Box 20.1 of Special Interest: Thinking in Different Languages
+#### Language in Animals
+#### Language Acquisition
+#### Genes Involved in Language
+##### FOXP2 and Verbal Dyspraxia
+##### Genetic Factors in Specific Language Impairment and Dyslexia
+### The Discovery of Specialized Language Areas in the Brain
+#### Broca's Area and Wernicke's Area
+##### Box 20.2 Of Special Interest: Assessing Hemispheric Language Dominance
+### Language Insights From This Study of Aphasia
+#### Box 20.3 Path of Discovery: Uncovering Language Areas of the Brain: by Nina Dronkers
+#### Broca's Aphasia
+#### Wernicke's Aphasia
+#### The Wernicke-Geschwind Model of Language and Aphasia
+#### Conduction Aphasia
+#### Aphasia in Bilinguals and Deaf People
+### Asymmetrical Language Processing in the Two Cerebral Hemispheres
+#### Language Processing in Split-Brain Humans
+##### Left Hemisphere Language Dominance
+##### Language Functions of the Right Hemisphere
+#### Anatomical Asymmetry and Language
+### Language Studies Using Brain Stimulation and Human Brain Imaging
+#### The Effects of Brain Stimulation on Language
+#### Imaging of Language Processing in the Human Brain
+##### Box 20.4 Of Special Interest: Hearing Sight and Seeing Touch
+### Concluding Remarks
+## (21) The Resting Brain, Attention, and Consciousness
+### Introduction
+### Resting State Brain Activity
+#### The Brain's Default Mode Network
+##### Functions of the Default Network
+### Attention
+#### Box 21.1 Of Special Interest: Attention-Deficit Hyperactivity Disorder
+#### Behavioral Consequences of Attention
+##### Attention Enhances Visual Sensitivity
+##### Attention Speeds Reaction Times
+#### Physiological Effects of Attention
+##### Functional MRI Imaging of Human Attention to Location
+##### PET Imaging of Human Attention to Features
+##### Attention Enhances Responses of Neurons in Parietal Cortex
+##### Attention Focuses Receptive Fields in Area V4
+#### Brain Circuits for the Control of Attention
+##### The Pulvinar, a Subcortical Component
+##### The Frontal Eye Fields, Eye Movements, and Attention
+##### Directing Attention with Salience and Priority Maps
+##### A Priority Map in the Parietal Lobe
+###### Box 21.2 Of Special Interest: Hemispatial Neglect Syndrome
+##### The Frontoparietal Attention Network
+### Consciousness
+#### What is Consciousness
+#### Neural Correlates of Consciousness
+##### Box 21.3 Path of Discovery: Tracking the Neuronal Footprints of Consciousness, by Christof Koch
+##### Neuronal Correlates of Alternating Perception in Binocular Rivalry
+##### Visual Awareness and Human Brain Activity
+##### Challenges in the Study of Consciousness
+### Concluding Remarks
+## (22) Mental Illness
+### Introduction
+### Mental Illness and the Brain
+#### Psychosocial Approaches to Mental Illness
+#### Biological Approaches to Mental Illness
+##### The Promise and Challenge of Molecular Medicine in Psychiatry
+### Anxiety Disorders
+#### A Description of Anxiety Disorders
+##### Panic Disorder
+##### Agoraphobia
+##### Box 22.1 Of Special Interest: Agoraphobia with Panic Attacks
+#### Other Disorders Characterized by Increasing Anxiety
+##### Post-Traumatic Stress Disorder
+##### Obsessive-Compulsive Disorder
+#### Biological Bases of Anxiety Disorders
+##### The Stress Response
+##### Regulation of the HPA Axis by the Amygdala and Hippocampus
+#### Treatments for Anxiety Disorders
+##### Psychotherapy
+##### Anxiolytic Medications
+### Affective Disorders
+#### A Description of Affective Disorders
+##### Major Depression
+##### Bipolar Disorder
+##### Box 22.2 Of Special Interest: A Magical Orange Grove in a Nightmare
+#### Biological Bases of Affective Disorders
+##### The Monoamine Hypothesis
+##### The Diathesis-Stress Hypothesis
+##### Anterior Cingulate Cortex Dysfunction
+#### Treatments for Affective Disorders
+##### Electroconvulsive Therapy
+##### Psychotherapy
+##### Antidepressants
+##### Lithium
+##### Deep Brain Stimulation
+##### Box 22.3 Path of Discovery: Tuning Depression Circuits, by Helen Mayberg
+### Schizophrenia
+#### A Description of Schizophrenia
+#### Biological Bases of Schizophrenia
+##### Genes and the Environment
+##### The Dopamine Hypothesis
+##### The Glutamate Hypothesis
+#### Treatments for Schizophrenia
+### Concluding Remarks
+## Part Four: The Changing Brain
+## (23) Wiring the Brain
+### Introduction
+### The Genesis of Neurons
+#### Cell Proliferation
+#### Box 23.1 Of Special Interest: Neurogenesis in Adult Humans
+#### Cell Migration
+#### Cell Differentiation
+#### Differentiation of Cortical Areas
+#### Box 23.2 Path of Discovery: Making a Map of the Mind, by Pasko Rakic
+### The Genesis of Connections
+#### The Growing Axon
+#### Axon Guidance
+##### Guidance Cues
+##### Establishing Topographic Maps
+##### Box 23.3 Of Special Interest: Why Our CNS Axons Don't Regenerate
+#### Synapse Formation
+### The Elimination of Cells and Synapses
+#### Box 23.4 of Special Interest: The Mystery of Autism
+#### Cell Death
+#### Changes in Synaptic Capacity
+### Activity-Dependent Synaptic Rearrangement
+#### Synaptic Segregation
+##### Segregation of Retinal Inputs to the LGN
+##### Segregation of LGN Inputs in the Striate Cortex
+##### Box 23.5 Brain Food: Three-Eyed Frogs, Ocular Dominance Columns, and Other Oddities
+##### Box 23.6 Brain Food: The Critical Period Concept
+#### Synaptic Convergence
+#### Synaptic Competition
+#### Modulatory Influences
+### Elementary Mechanisms of Cortical Synaptic Plasticity
+#### Excitatory Synaptic Transmission in the Immature Visual System
+#### Long-Term Synaptic Potentiation
+#### Long-Term Synaptic Depression
+### Why Critical Periods End
+### Concluding Remarks
+## (24) Memory Systems
+### Introduction
+### Types of memory and Amnesia
+#### Declarative and Nondeclarative Memory
+#### Box 24.1 Of Special Interest: Extraordinary Memory
+#### Types of Procedural Memory
+##### Nonassociative Learning
+##### Associative Learning
+#### Types of Declarative Memory
+#### Amnesia
+### Working Memory
+#### The Prefrontal Cortex and Working Memory
+##### Imaging Working Memory in the Human Brain
+#### Area LIP and Working Memory
+### Declarative Memory
+#### The Neocortex and Declarative Memory
+##### Hebb and the Cell Assembly
+#### Studies Implicating the Medial Temporal Lobes
+##### Anatomy of the Medial Temporal Lobe
+##### Electrical Stimulation of the Human Temporal Lobes
+##### Neural Recordings from the Human Medial Temporal Lobe
+#### Temporal Lobe Amnesia
+##### The Case of H.M.: Temporal Lobectomy and Amnesia
+##### An Animal Model of Human Amnesia
+##### Box 24.2 Of Special Interest: Korsakoff's Syndrome and the Case of N.A.
+#### Memory Functions of the Hippocampal System
+##### The Effects of Hippocampal Lesions in Rats
+##### Spatial Memory, Place Cells, and Grid Cells
+##### Box 24.3 Path of Discovery: How the Brain Makes Maps, by Edvard and May-Britt Moser
+##### Hippocampal Functions Beyond Spatial Memory
+#### Consolidating Memories and Retaining Engrams
+##### Standard and Multiple Trace Models of Consolidation
+##### Reconsolidation
+##### Box 24.4 Of Special Interest: Introducing False Memories and Erasing Bad Memories
+### Procedural Memory
+#### The Striatum and Procedural Memory in Rodents
+#### Habit Learning in Humans and Nonhuman Primates
+### Concluding Remarks
+## (25) Molecular Mechanisms of Learning and memory
+### Introduction
+### Memory Acquisition
+#### Cellular Reports of Memory Formation
+##### Distributed Memory Storage
+##### Box 25.1 Path of Discovery: What Attracted Me to the Study of Learning and Memory in Aplysia? by Eric Kandel
+#### Strengthening Synapses
+##### Anatomy of the Hippocampus
+##### Properties of LTP in CA1
+##### Mechanisms of LTP in CA1
+##### Box 25.2 Brain Food: Synaptic Plasticity: Timing Is Everything
+#### Weakening Synapses
+##### Box 25.3 Path of Discovery: Memories of Memory, by Leon Cooper
+##### Box 25.4 Brain Food: The Wide World of Long-Term Synaptic Depression
+##### Mechanisms of LTD in CA1
+##### Glutamate Receptor Trafficking
+#### LTP, LTD, and Memory
+##### Box 25.5 of Special Interest: Memory Mutants
+#### Synaptic Homeostasis
+##### Metaplasticity
+##### Synaptic Scaling
+### Memory Consolidation
+#### Persistently Active Protein Kinases
+##### CaMKII
+##### Protein Kinase M Zeta
+#### Protein Synthesis and Memory Consolidation
+##### Synaptic Tagging and Capture
+##### CREB and Memory
+##### Structural Plasticity and Memory
+### Concluding Remarks
+
+
+
+
+
+
+
+
+
+
+  

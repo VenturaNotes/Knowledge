@@ -6,6 +6,7 @@ Progress: "7"
 tags:
   - status/incomplete
   - type/textbook
+  - temp
 ---
 ## Personal Note
 - Propositional Logic never finished
@@ -776,6 +777,106 @@ tags:
 	- r: You are older than 16 years old
 	- t
 		- "q unless $\lnot$p" [^2]
+### (1.3) Propositional Equivalences
+### (1.4) Predicates and Quantifiers
+### (1.5) Nested Quantifiers
+### (1.6) Rules of Inference
+### (1.7) Introduction to Proofs
+### (1.8) Proof Methods and Strategy
+### (1.9) End-of-Chapter Material
+## (2) Basic Structures: Sets, Functions, Sequences, Sums, and Matrices
+### (2.1) Sets
+### (2.2) Set Operations
+### (2.3) Functions
+### (2.4) Sequences and Summations
+### (2.5) Cardinality of Sets
+### (2.6) Matrices
+### (2.7) End-of-Chapter Material
+## (3) Algorithms
+### (3.1) Algorithms
+### (3.2) The Growth of Functions
+### (3.3) Complexity of Algorithms
+### (3.4) End-of-Chapter material
+## (4) Number Theory and Cryptography
+### (4.1) Divisibility and Modular Arithmetic
+### (4.2) Integer Representations and Algorithms
+### (4.3) Primes and Greatest Common Divisors
+### (4.4) Solving Congruences
+### (4.5) Applications of Congruences
+### (4.6) Cryptography
+### (4.7) End-of-Chapter Material
+## (5) Induction and Recursion
+### (5.1) Mathematical Induction
+### (5.2) Strong Induction and Well-Ordering
+### (5.3) Recursive Definitions and Structural Induction
+### (5.4) Recursive Algorithms
+### (5.5) Program Correctness
+### (5.6) End-of-Chapter Material
+## (6) Counting
+### (6.1) The Basics of Counting
+### (6.2) The Pigeonhole Principle
+### (6.3) Permutations and Combinations
+### (6.4) Binomial Coefficients and Identities
+### (6.5) Generalized Permutations and Combinations
+### (6.6) Generating Permutations and Combinations
+### (6.7) End-of-Chapter Material
+## (7) Discrete Probability
+### (7.1) An Introduction to Discrete Probability
+### (7.2) Probability Theory
+### (7.3) Bayes' Theorem
+### (7.4) Expected Value and Variance
+### (7.5) End-of-Chapter Material
+## (8) Advanced Counting Techniques
+### (8.1) Applications of Recurrence Relations
+### (8.2) Solving Linear Recurrence Relations
+### (8.3) Divide-and-Conquer Algorithms and Recurrence Relations
+### (8.4) Generating Functions
+### (8.5) Inclusion-Exclusion
+### (8.6) Applications of Inclusion-Exclusion
+### (8.7) End-of-Chapter Material
+## (9) Relations
+### (9.1) Relations and Their Properties
+### (9.2) n-ary Relations and Their Applications
+### (9.3) Representing Relations
+### (9.4) Closures of Relations
+### (9.5) Equivalence Relations
+### (9.6) Partial Orderings
+### (9.7) End-of-Chapter Material
+## (10) Graphs
+### (10.1) Graphs and Graph Models
+### (10.2) Graph Terminology 
+### (10.3) Representing Graphs and Graph Isomorphism
+### (10.4) Connectivity
+### (10.5) Euler and Hamilton Paths
+### (10.6) Shortest-Path Problems
+### (10.7) Planar Graphs
+### (10.8) Graph Coloring
+### (10.9) End-of-Chapter Material
+## (11) Trees
+### (11.1) Introduction to Trees
+### (11.2) Applications of Trees
+### (11.3) Tree Traversal
+### (11.4) Spanning Trees
+### (11.5) Minimum Spanning Trees
+### (11.6) End-of-Chapter Material
+## (12) Boolean Algebra
+### (12.1) Boolean Functions
+### (12.2) Representing Boolean Functions
+### (12.3) Logic Gates
+### (12.4) Minimization of Circuits
+### (12.5) End-of-Chapter Material
+## (13) Modeling Computation
+### (13.1) Languages and Grammars
+### (13.2) Finite-State Machines with Output
+### (13.3) Finite-State Machines with No Output
+### (13.4) Language Recognition
+### (13.5) Turing Machines
+### (13.6) End-of-Chapter Material
+## Appendices
+### (A.1) Axioms for the Real Numbers and the Positive Integers
+### (A.2) Exponential and Logarithmic Functions
+### (A.3) Pseudocode
+
 ## References
 [^1]: [[Home Page - Discrete Mathematics and Its Applications by Kenneth H. Rosen (8th edition)#^qzfsb1]]
 [^2]: [[Home Page - Discrete Mathematics and Its Applications by Kenneth H. Rosen (8th edition)#^9qnq5b]]
