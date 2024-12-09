@@ -1,5 +1,5 @@
 ## Synthesis
-- #questoin need a definition and example
+- #question  need a definition and example
 ## Source [^1]
 - 
 ## References
