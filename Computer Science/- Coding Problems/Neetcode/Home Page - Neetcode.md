@@ -162,8 +162,6 @@ tags:
 		- (135) [[(10) Regular Expression Matching]]
 	- Bit Manipulation (7)
 		- (136) [[(136) Single Number]]
-- Incomplete
-	- Bit Manipulation (7)
 		- (137) [[(191) Number of 1 Bits]]
 		- (138) [[(338) Counting Bits]]
 		- (139) [[(190) Reverse Bits]]
@@ -172,6 +170,8 @@ tags:
 		- (142) [[(7) Reverse Integer]]
 	- Math & Geometry (8)
 		- (143) [[(48) Rotate Image]]
+- Incomplete
+	- Math & Geometry (8)
 		- (144) [[(54) Spiral Matrix]]
 		- (145) [[(73) Set Matrix Zeroes]]
 		- (146) [[(202) Happy Number]]
