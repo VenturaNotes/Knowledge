@@ -7,7 +7,6 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## Introduction
 ## (1) The Interview Process

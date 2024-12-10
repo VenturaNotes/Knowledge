@@ -5,7 +5,6 @@ Length: "645"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 Progress: "0"
 ---
 ## Section One: Introduction to Basic Neurobiology

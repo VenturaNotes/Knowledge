@@ -7,7 +7,6 @@ Progress: "15"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 - Note
 	- ([2015](https://www.pdfdrive.com/open-data-structures-in-java-e11947462.html) may have been the release date)

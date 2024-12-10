@@ -6,7 +6,6 @@ Progress: "17"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## Personal Notes
 - [Solutions to Exercises](https://longformmath.com/proofs-hints-%26-solutions)

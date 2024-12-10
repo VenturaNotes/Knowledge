@@ -6,7 +6,6 @@ Progress: "17"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 - [Errata updated](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/11599/e4-bugs.html)
 	- 106 errors total

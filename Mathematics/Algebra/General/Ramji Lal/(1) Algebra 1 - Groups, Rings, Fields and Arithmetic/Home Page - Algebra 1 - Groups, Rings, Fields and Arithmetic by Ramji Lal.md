@@ -6,7 +6,6 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ### Preface
 - “This is one of the considerations which prompted me to write a series of three volumes on the subject starting from the undergraduate level to the advance postgraduate level.” ([Lal, 2017, p. vii](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=7&annotation=EUL7UMBZ))

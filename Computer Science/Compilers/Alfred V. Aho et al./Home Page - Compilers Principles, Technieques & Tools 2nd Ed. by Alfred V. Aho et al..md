@@ -6,7 +6,6 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## (1) Introduction
 ### (1.1) Language Processors

@@ -6,7 +6,6 @@ Progress: "19"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## Personal Notes
 - Solutions given to odd exercises

@@ -2,4 +2,92 @@
 Source:
   - https://www.youtube.com/watch?v=RYtE09eHeqI
 ---
-
+- ![[Screenshot 2024-12-09 at 11.24.28 PM.png]]
+	- First
+		- Functional analysis - part 3
+		- A [[pair]] consisting of a set X and metric d is called a [[metric space]]
+			- $(X, d)$ metric space
+		- If you fix a point "x" in a metric space, you can look at all the other points that have the same distance from this point "x" 
+			- In the common geometry of the plane, this would be a circle around the "x"
+			- In a 3D space, it would be a sphere (or ball)
+				- For this notion of a ball, we want to generalize for an abstract metric space
+		- $B_{\epsilon}(x)$ := {y $\in$ X | d(x, y) $\lt$ $\epsilon$} (open ball of radius $\epsilon$ > 0 centered at x)
+			- #question what does ":=" mean?
+			- It's called the open epsilon ball around x
+			- Defined as all the points y in our metric space X that fulfill that the distance from x to y is less than a given radius epsilon
+				- This means in the picture, it's not the red line but everything inside
+			- For a given positive radius epsilon and a fixed point x from the metric space, the epsilon ball is never empty because at least the point x lies in the set
+				- This is a definition of an [[epsilon ball]]
+		- Notions:
+			- (1) Open sets: $A \subseteq X$ is called open if for each x $\in$ A, there is an [[open ball]] with $B_\epsilon(x) \subseteq A$ 
+				- Wil.  define it for arbitrary subsets for our metric space X
+				- Openness should mean that if you are inside set A, you should never see the boundary of the set
+					- Meaning if you fix an arbitrary point "x" of the set A, there should be enough points in all directions around this point that also belong to set A
+						- #question what is meant by "enough"?
+						- To describe this, we can use an epsilon ball
+							- Choose a positive epsilon, but as small as we need it
+							- If we can do this for each point separately, we have an [[open set]] A
+				- Set is called open if each point we can find such an epsilon ball
+					- For each x, you can choose another epsilon if needed
+					- This means if you get closer to the boundary, you would need a smaller [[epsilon]]
+						- But if you find for each point such an epsilon, the set is open
+					- We also have consistency here. The open balls are also open with this definition
+						- #question what does this mean?
+			- (2) [[Boundary points]]: A$\subseteq$ X. $x \in X$ is called a boundary point for A if for all $\epsilon$ > 0: $B_{\epsilon}(x) \cap A \ne \varnothing$ and $B_{\epsilon}(x) \cap A^c \ne \varnothing$
+				- In A, Not important if point is in set or not, but it's a point in our whole metric space X
+				- These points describe the boundary of A
+					- Use epsilon balls for this
+					- Epsilon balls around this point will have points in A and other points not in A
+						- If this happens, no matter how small we choose the ball, then we are clearly on a boundary
+				- Definition reads: A point $x$ from the whole metric space $X$ is called a boundary point for A if all open balls around "x" contain points from A and a complement of A.
+				- Important mentions:
+					- A boundary point can be inside a set A or outside
+					- Notion of boundary point makes only sense with respect to a given subset A
+	- Second
+		- Notions
+			- (2) Boundary points (continued)
+				- Symbol to denote all the boundary points which is used very often
+					- $\partial A$ := { x $\in$ X | x is boundary point for A}
+						- It's the $\partial$ which pronounced "del"
+						- We put all the points "x" that are boundary points for A into this set
+				- An [[open set]] is exactly such a set where all the boundary points are outside of A 
+					- Remember: A open $\iff$ A $\cap$ $\partial A$ = $\varnothing$ 
+			- (3) Closed Sets: $A \subseteq X$ is called closed if $A^c := X \backslash A$ is open
+				- A [[closed set]]: A set where all the boundary points belong to this set
+					- Remember: A closed $\iff A \cup \partial A = A$ 
+						- However, this is not what is used for definition of closed sets. Definition much simpler
+				- A subset A in X is closed if the complement in X $A^c$ is open
+					- Makes sense since the boundary points of A and $A^c$ are exactly the same
+					- This now means that all the boundary points belong to A and not $A^c$
+			- (4) [[Closure]]: 
+				- If you start with an arbitrary subset A, what you want to get out is a closed subset
+					- To get this, you add all the missing boundary points, so you form the union with the boundary:$\overline A:$  $A \cup \partial A$  (always closed)
+						- This is called the closure of A which is denoted as $\overline A$ 
+						- This defines a closed set
+						- Smallest [[closed set]] that still contains A
+	- Third
+		- Example
+			- Metric space consisting of real numbers
+				- $X := (1, 3] \cup (4, \infty)$  
+			- Normal distance function for [[real numbers]]: $d(x, y) := |x-y|$
+			- (a) When looking at subset A and determining if an open set, want to look at each point and find an epsilon ball around point
+				- Found to be possible for all "x" but not 3
+					- For $x \in A, x \ne 3$ define $\epsilon :=$ $\frac{A}{2}min(|1-x|,|3-x|)$. Then $B_{\epsilon}(x) \subseteq A$ 
+						- However if we want open set, we need property for point 3
+				- Look at the distance what should be the boundary left and right and choose the minimal you have
+					- Can make it even smaller by dividing by 2 so the epsilon ball around x is indeed exactly inside the set A
+				- Writing epsilon ball of radius 1
+					- For $x = 3: B_1(x) =$ $\{y \in X | d(x, y) < 1\}$ = $(2, 3]$ $\subseteq$ A
+			- The question openness makes only sense if you know what the surrounding universe, the whole metric space X is. 
+				- Otherwise, you won't be able to calculate the epsilon ball in X itself.
+				- Epsilon ball around 3 only has one side
+			- The set A here is also a [[closed set]]
+				- Openness and closedness are not opposites. Can have both at the same time but also can have a set not closed or open
+			- (b) A is also closed!
+			- (c) $C := (1, 2]$, $\partial C = \{2\}$, $\overline C = C$  
+				- Calculating boundary of C
+				- Can get an epsilon ball inside set C itself which means it's not a boundary point. Now just need to consider the point at 2
+				- Putting an epsilon ball around 2, we hit points on the left and right
+					- Since there exists points on the right in the metric space, the boundary would just be 2.
+				- The closure of C is C itself meaning the set is closed
+	- Will explain notions with sequences in next video
