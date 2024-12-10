@@ -6,7 +6,6 @@ Progress: "10"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## Preface
 ### The Origins of Neuroscience: Exploring the Brain

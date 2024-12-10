@@ -106,6 +106,7 @@ http://detexify.kirelabs.org/classify.html
 - Big Union: $\bigcup$ 
 - Big Intersection: $\bigcap$ 
 - Partial Derivative $\frac {\partial f}{\partial x}$ 
+	- Could be referred to as "del" in functional analysis
 - Statistical Notation: $\overset \wedge \beta$ 
 - Proof by contradiction: $\implies \impliedby$ 
 - Abstract Algebra: $N \trianglelefteq G$ 

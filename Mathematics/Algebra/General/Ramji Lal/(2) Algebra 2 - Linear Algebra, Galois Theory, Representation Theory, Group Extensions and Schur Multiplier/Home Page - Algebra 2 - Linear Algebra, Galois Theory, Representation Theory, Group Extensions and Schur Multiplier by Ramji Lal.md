@@ -6,7 +6,6 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## (1) Vector Spaces
 ### (1.1) Concept of a Field

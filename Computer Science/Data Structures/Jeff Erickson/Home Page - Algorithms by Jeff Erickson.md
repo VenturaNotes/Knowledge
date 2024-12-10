@@ -6,7 +6,6 @@ Progress: "7"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## Preface
 ### About This Book

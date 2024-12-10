@@ -8,7 +8,6 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 - Errata included in Zotero pdf on 7/27/2021
 ## Preface to First Edition

@@ -6,7 +6,6 @@ Progress: "15"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## Note
 - Revision Date: January 15, 2021

@@ -6,7 +6,6 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## Helpful
 - Assignments and exam solutions: https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/exams/

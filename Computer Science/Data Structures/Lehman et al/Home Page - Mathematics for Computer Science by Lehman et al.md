@@ -7,7 +7,6 @@ Progress: "19"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## (I) Proofs
 - “a [[proof]] is a method of establishing truth” ([Lehman et al., p. 11](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=11&annotation=TQBJKHLM))

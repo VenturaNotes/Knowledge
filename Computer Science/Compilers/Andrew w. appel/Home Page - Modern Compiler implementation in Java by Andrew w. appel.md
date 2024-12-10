@@ -6,7 +6,6 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## Part I Fundamentals of Compilation
 ## (1) Introduction

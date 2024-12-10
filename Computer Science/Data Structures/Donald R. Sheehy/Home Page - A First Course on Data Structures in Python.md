@@ -7,7 +7,6 @@ Progress: "44"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## (1) Overview
 - Topics

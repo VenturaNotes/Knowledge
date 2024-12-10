@@ -6,7 +6,6 @@ Progress: "1"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## (1) Chemistry, Matter, and Measurement
 ### Chapter Overview

@@ -6,7 +6,6 @@ Progress: "1"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## (1) Basic Enumeration
 ### (1.1) partitions of sets and numbers

@@ -8,7 +8,6 @@ Related:
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 - Released July 19, 2018
 ## Preface

@@ -851,622 +851,620 @@ tags:
 ### (Concept 28.1) Most eukaryotes are single-celled organisms
 #### Structural and Functional Diversity in Protists
 #### Endosymbiosis in Eukaryotic Evolution
-#### Four S
-### (Concept 28.2)
-####
-####
-### (Concept 28.3)
-####
-####
-####
-### (Concept 28.4)
-####
-####
-### (Concept 28.5)
-####
-####
-### (Concept 28.6)
-####
-####
-## (29)
-### (Concept 29.1)
-####
-####
-####
-####
-### (Concept 29.2)
-####
-####
-####
-### (Concept 29.3)
-####
-####
-####
-## (30)
-### (Concept 30.1)
-####
-####
-####
-####
-####
-### (Concept 30.2)
-####
-####
-####
-### (Concept 30.3)
-####
-####
-####
-### (Concept 30.4)
-####
-####
-## (31)
-### (Concept 31.1)
-####
-####
-####
-### (Concept 31.2)
-####
-####
-### (Concept 31.3)
-####
-####
-### (Concept 31.4)
-####
-####
-####
-####
-####
-### (Concept 31.5)
-####
-####
-####
-## (32)
-### (Concept 32.1)
-####
-####
-####
-### (Concept 32.2)
-####
-####
-####
-####
-####
-
-### (Concept 32.3)
-####
-####
-####
-####
-### (Concept 32.4)
-####
-####
-## (33)
-### (Concept 33.1)
-### (Concept 33.2)
-####
-####
-### (Concept 33.3)
-####
-####
-####
-####
-####
-### (Concept 33.4)
-####
-####
-### (Concept 33.5)
-####
-####
-## (34)
-### (Concept 34.1)
-####
-####
-####
-####
-### (Concept 34.2)
-####
-####
-####
-### (Concept 34.3)
-####
-####
-####
-####
-### (Concept 34.4)
-####
-####
-####
-### (Concept 34.5)
-####
-####
-####
-### (Concept 34.6)
-####
-####
-####
-####
-####
-### (Concept 34.7)
-####
-####
-####
-####
-####
-####
-####
-####
+#### Four Supergroups of Eukaryotes
+### (Concept 28.2) Excavates include protists with modified mitochrondria and protists with unique flagella
+#### Diplomonads and Parabasalids
+#### Euglenozoans
+### (Concept 28.3) SAR is a highly diverse group of protists defined by DNA similarities
+#### Stramenopiles
+#### Alveolates
+#### Rhizarians
+### (Concept 28.4) Red algae and green algae are the closest relatives of plants
+#### Red Algae
+#### Green Algae
+### (Concept 28.5) Unikonts include protists that are closely related to fungi and animals
+#### Amoebozoans
+#### Opisthokonts
+### (Concept 28.6) Protists play key roles in ecological communities
+#### Symbiotic Protists
+#### Photosynthetic Protists
+## (29) Plant Diversity I: How Plants Colonized Land
+### (Concept 29.1) Plants evolved from green algae
+#### Evidence of Algal Ancestry
+#### Adaptations Enabling the Move to Land
+#### Derived Traits of Plants
+####  The Origin and Diversification of Plants
+### (Concept 29.2) Mosses and other nonvascular plants have life cycles dominated by gametophytes
+#### Bryophyte Gametophytes
+#### Byrophyte Sporophytes
+#### The Ecological and Economic Importance of Mosses
+### (Concept 29.3) Ferns and other seedless vascular plants were the first plants to grow tall
+#### Origins and Traits of Vascular Plants
+#### Classification of Seedless Vascular Plants
+#### The Significance of Seedless Vascular Plants
+## (30) Plant Diversity II: The Evolution of Seed Plants
+### (Concept 30.1) Seeds and pollen grains are key adaptations for life on land
+#### Advantages of Reduced Gametophytes
+#### Heterospory: The Rule Among Seed Plants
+#### Ovules and Production of Eggs
+#### Pollen and Production of Sperm
+#### The Evolutionary Advantage of Seeds
+### (Concept 30.2) Gymnosperms bear "naked" seeds, typically on cones
+#### The Life Cycle of a Pine
+#### Early Seed Plants and the Rise of Gymnosperms
+#### Gymnosperm Diversity
+### (Concept 30.3) The reproductive adaptations of angiosperms include flowers and fruits
+#### Characteristics of Angiosperms
+#### Angiosperm Evolution
+#### Angiosperm Diversity
+### (Concept 30.4) Human welfare depends on seed plants
+#### Products from Seed Plants
+#### Threats to Plant Diversity
+## (31) Fungi
+### (Concept 31.1) Fungi are heterotrophs that feed by absorption
+#### Nutrition and Ecology
+#### Body Structure
+#### Specialized Hyphae in Mycorrhizal Fungi
+### (Concept 31.2) Fungi produce spores through sexual or asexual life cycle
+#### Sexual Reproduction
+#### Asexual Reproduction
+### (Concept 31.3) The ancestor of fungi was an aquatic, single-celled, flagellated protist
+#### The Origin of Fungi
+#### The Move to Land
+### (Concept 31.4) Fungi have radiated into a diverse set of lineages
+#### Cryptomycetes and Microsporidians
+#### Zoopagomycetes
+#### Mucoromycetes
+#### Ascomycetes
+#### Basidiomycetes
+### (Concept 31.5) Fungi play key roles in nutrient cycling, ecological interactions, and human welfare
+#### Fungi as Decomposers
+#### Fungi as Mutualists
+#### Practical Uses of Fungi
+## (32) An Overview of Animal Diversity
+### (Concept 32.1) Animals are multicellular, heterotrophic eukaryotes with tissues that develop from embryonic layers
+#### Nutritional Mode
+#### Cell Structure and Specialization
+#### Reproduction and Development
+### (Concept 32.2) The history of animals spans more than half a billion years
+#### Steps in the Origin of Multicellular Animals
+#### Neoproterozoic Era (1 Billion - 541 Million Years Ago)
+#### Paleozoic Era (541-252 Million Years Ago)
+#### Mesozoic Era (252-66 Million Years Ago)
+#### Cenozoic Era (66 Million Years Ago to the Present)
+### (Concept 32.3) Animals can be characterized by body plans
+#### Symmetry
+#### Tissues
+#### Body Cavities
+#### Protostome and Deuterostome Development
+### (Concept 32.4) Views of animal phylogeny continue to be shaped by new molecular and morphological data
+#### The Diversification of Animals
+#### Future Directions in Animal Systematics
+## (33) An Introduction to Invertebrates
+### (Concept 33.1) Sponges are basal animals that lack tissues
+### (Concept 33.2) Cnidarians are an ancient phylum of eumetazoans
+#### Medusozoans
+#### Anthozoans
+### (Concept 33.3) Lophotrochozoans, a clade identified by molecular data, have the widest range of animal body forms
+#### Flatworms
+#### Rotifers and Acanthocephalans
+#### Lophophorates: Ectoprocts and Branchiopods
+#### Molluscs
+#### Annelids
+### (Concept 33.4) Ecdysozoans are the most species-rich animal group
+#### Nematodes
+#### Arthropods
+### (Concept 33.5) Echinoderms and chordates are deuterostomes
+#### Echinoderms
+#### Chordates
+## (34) The Origin and Evolution of Vertebrates
+### (Concept 34.1) Chordates have a notochord and a dorsal, hollow nerve cord
+#### Derived Characters of Chordates
+#### Lancelets
+#### Tunicates
+#### Early Chordate Evolution
+### (Concept 34.2) Vertebrates are chordates that have a backbone
+#### Derived Characters of Vertebrates
+#### Hagfishes and Lampreys
+#### Early Vertebrate Evolution
+### (Concept 34.3) Gnathostomes are vertebrates that have jaws
+#### Derived Characters of Gnathostomes
+#### Fossil Gnathostomes
+#### Chondrichthyans (Sharks, Rays, and Their Relatives)
+#### Ray-Finned Fishes and Lobe-Fins
+### (Concept 34.4) Tetrapods are gnathostomes that have limbs
+#### Derived Characters of Tetrapods
+#### The Origin of Tetrapods
+#### Amphibians
+### (Concept 34.5) Amniotes are tetrapods that have a terrestrially adapted egg
+#### Derived Characters of Amniotes
+#### Early Amniotes
+#### Reptiles
+### (Concept 34.6)  Mammals are amniotes that have hair and produce milk
+####  Derived Characters of Mammals
+#### Early Evolution of Mammals
+#### Monotremes
+#### Marsupials
+#### Eutherians (Placental Mammals)
+### (Concept 34.7) Humans are mammals that have a large brain and bipedal locomotion
+#### Derived Characters of Humans
+#### The Earliest Hominins
+#### Australopiths
+#### Bipedalism
+#### Tool Use
+#### Early Homo
+#### Neanderthals
+#### Homo sapiens
 ## Unit 6: Plant Form and Function
 ### Interview: Dennis Gonsalves
-## (35)
-### (Concept 35.1)
-####
-####
-####
-### (Concept 35.2)
-### (Concept 35.3)
-####
-####
-### (Concept 35.4)
-####
-####
-####
-### (Concept 35.5)
-####
-####
-####
-####
-####
-####
-## (36)
-### (Concept 36.1)
-####
-####
-### (Concept 36.2)
-####
-####
-####
-####
-### (Concept 36.3)
-####
-####
-####
-####
-### (Concept 36.4)
-####
-####
-####
-####
-####
-### (Concept 36.5)
-####
-####
-### (Concept 36.6)
-####
-####
-####
-## (37)
-### (Concept 37.1)
-####
-####
-####
-### (Concept 37.2)
-####
-####
-####
-### (Concept 37.3)
-####
-####
-####
-## (38)
-### (Concept 38.1)
-####
-####
-####
-####
-####
-####
-####
-####
-### (Concept 38.2)
-####
-####
-####
-####
-### (Concept 38.3)
-####
-
-####
-####
-## (39)
-### (Concept 39.1)
-####
-####
-####
-### (Concept 39.2)
-####
-####
-### (Concept 39.3)
-####
-####
-####
-####
-####
-### (Concept 39.4)
-####
-####
-####
-### (Concept 39.5)
-####
-####
+## (35) Vascular Plant Structure, Growth, and Development
+### (Concept 35.1) Plants have a hierarchical organization consisting of organs, tissues, and cells
+#### Vascular Plant Organs: Roots, Stems, and Leaves
+#### Dermal, Vascular, and Ground Tissues
+#### Common Types of Plant Cells
+### (Concept 35.2) Different meristems generate new cells for primary and secondary growth
+### (Concept 35.3) Primary growth lengthens roots and shoots
+#### Primary Growth of Roots
+#### Primary Growth of Shoots
+### (Concept 35.4) Secondary growth increases the diameter of stems and roots in woody plants
+#### The Vascular Cambium and Secondary Vascular Tissue
+#### The Cork Cambium and the Production of Periderm
+#### Evolution of Secondary Growth
+### (Concept 35.5) Growth, morphogenesis, and cell differentiation produce the plant body
+#### Model Organisms: Revolutionizing the Study of Plants
+#### Growth: Cell Division and Cell Expansion
+#### Morphogenesis and Pattern Formation
+#### Gene Expression and the Control of Cell Differentiation
+#### Shifts in Development: Phase Changes
+#### Genetic Control of Flowering
+## (36) Resource Acquisition and Transport in Vascular Plants
+### (Concept 36.1) Adaptations for acquiring resources were key steps in the evolution of vascular plants
+#### Shoot Architecture and Light Capture
+#### Root Architecture and Acquisition of Water and Minerals
+### (Concept 36.2) Different mechanisms transport substances over short or long distances
+#### The Apoplast and Symplast: Transport Continuums
+#### Short-Distance Transport of Solutes Across Plasma Membranes
+#### Short-Distance Transport of Water Across Plasma Membranes
+#### Long-Distance Transport: The Role of Bulk Flow
+### (Concept 36.3) Transpiration drives the transport of water and minerals from roots to shoots via the xylem
+#### Absorption of Water and Minerals by Root Cells
+#### Transport of Water and Minerals into the Xylem
+#### Bulk Flow Transport via the Xylem
+#### Xylem Sap Ascent by Bulk Flow: A Review
+### (Concept 36.4) The rate of transpiration is regulated by stomata
+#### Stomata: Major Pathways for Water Loss
+#### Mechanisms of Stomatal Opening and Closing
+#### Stimuli for Stomatal Opening and Closing
+#### Effects of Transpiration on Wilting and Leaf Temperature
+#### Adaptations That Reduce Evaporative Water Loss
+### (Concept 36.5) Sugars are transported from sources to sinks via the phloem
+#### Movement from Sugar Sources to Sugar Sinks
+#### Bulk Flow by Positive Pressure: The Mechanism of Translocation in Angiosperms
+### (Concept 36.6) The symplast is highly dynamic
+#### Changes in Plasmodesmatal Number and Pore Size
+#### Phloem: An Information Superhighway
+#### Electrical Signaling in the Phloem
+## (37) Soil and Plant Nutrition
+### (Concept 37.1) Soil contains a living, complex ecosystem
+#### Soil Texture
+#### Topsoil Composition
+#### Soil Conservation and Sustainable Agriculture
+### (Concept 37.2) Plant roots absorb many types of essential elements from the soil
+#### Essential Elements
+#### Symptoms of Mineral Deficiency
+#### Global Climate Change and Food Quality
+### (Concept 37.3) Plant nutrition often involves relationships with other organisms
+#### Bacteria and Plant Nutrition
+#### Fungi and Plant Nutrition
+#### Epiphytes, Parasitic Plants, and Carnivorous Plants
+## (38) Angiosperm Reproduction and Biotechnology
+### (Concept 38.1) Flowers, double fertilization, and fruits are key features of the angiosperm life cycle
+#### Flower Structure and Function
+#### Methods of Pollination
+#### The Angiosperm Life Cycle: An Overview
+#### Development of Female Gametophytes (Embryo Sacs)
+#### Development of Male Gametophytes in Pollen Grains
+#### Seed Development and Structure
+#### Sporophyte Development form Seed to Mature Plant
+#### Fruit Structure and Function
+### (Concept 38.2) Flowering plants reproduce sexually, asexually, or both
+#### Mechanisms of Asexual Reproduction
+#### Advantages and Disadvantages of Asexual and Sexual Reproduction
+#### Mechanisms That Prevent Self-Fertilization
+#### Totipotency, Vegetative Reproduction, and Tissue Culture
+### (Concept 38.3) People modify crops by breeding and genetic engineering
+#### Plant Breeding
+#### Plant Biotechnology and Genetic Engineering
+#### The Debate over Plant Biotechnology
+## (39) Plant Responses to Internal and External Signals
+### (Concept 39.1) Signal transduction pathways link signal reception to response
+#### Reception
+#### Transduction
+#### Response
+### (Concept 39.2) Plants use chemicals to communicate
+#### General Characteristics of Plant Hormones
+#### A Survey of Plant Hormones
+### (Concept 39.3) Responses to light are critical for plant success
+#### Blue-Light Photoreceptors
+#### Phyochrome Photoreceptors
+#### Biological Clocks and Circadian Rhythms
+#### The Effect of Light on the Biological Clock
+#### Photoperiodism and Responses to Seasons
+### (Concept 39.4) Plant respond to a wide variety of stimuli other than light
+#### Gravity
+#### Mechanical Stimuli
+#### Environmental Stresses
+### (Concept 39.5) Plants respond to attacks by pathogens and herbivores
+#### Defenses Against Pathogens
+#### Defenses Against Herbivores
 ## Unit 7: Animal Form and Function
 ### Interview: Steffanie Strathdee
-## (40)
-### (Concept 40.1)
-####
-####
-####
-####
-### (Concept 40.2)
-####
-####
-### (Concept 40.3)
-####
-####
-####
-####
-####
-### (Concept 40.4)
-####
-####
-####
-####
-####
-## (41)
-### (Concept 41.1)
-####
-####
-####
-####
-### (Concept 41.2)
-####
-### (Concept 41.3)
-####
-####
-####
-####
-####
-### (Concept 41.4)
-####
-####
-####
-### (Concept 41.5)
-####
-####
-####
-## (42)
-### (Concept 42.1)
-####
-####
-####
-### (Concept 42.2)
-####
-####
-####
-### (Concept 42.3)
-####
-####
-####
-####
-####
-### (Concept 42.4)
-####
-####
-### (Concept 42.5)
-####
-####
-####
-####
-####
-####
-### (Concept 42.6)
-####
-####
-####
-####
-### (Concept 42.7)
-####
-####
-####
-## (43)
-### (Concept 43.1)
-####
-####
-####
-### (Concept 43.2)
-####
-####
-####
-####
-### (Concept 43.3)
-####
-####
-####
-####
-####
-####
-####
-####
-### (Concept 43.4)
-####
-####
-####
-## (44)
-### (Concept 44.1)
-####
-####
-####
-####
-### (Concept 44.2)
-####
-####
-### (Concept 44.3)
-####
-### (Concept 44.4)
-####
-####
-####
+## (40) Basic Principles of Animal Form and Function
+### (Concept 40.1) Animal form and function are correlated at all levels of organization
+#### Evolution of Animal Size and Shape
+#### Exchange with the Environment
+#### Hierarchical Organization of Body Plans
+#### Coordination and Control
+### (Concept 40.2) Feedback control maintains the internal environment in many animals
+#### Regulating and Conforming
+#### Homeostasis
+### (Concept 40.3) Homeostatic processes for thermoregulation involve form, function, and behavior
+#### Endothermy and Ectothermy
+#### Variation in Body Temperature
+#### Balancing Heat Loss and Gain
+#### Acclimatization in Thermoregulation
+#### Physiological Thermostats and Fever
+### (Concept 40.4) Energy requirements are related to animal size, activity, and environment
+#### Energy Allocation and Use
+#### Quantifying Energy Use
+#### Minimum Metabolic Rate and Thermoregulation
+#### Influences on Metabolic Rate
+#### Torpor and Energy Conservation
+## (41) Animal Nutrition
+### (Concept 41.1) An animal's diet must supply chemical energy, organic building blocks, and essential nutrients
+#### Essential Nutrients
+#### Variation in Diet
+#### Dietary Deficiencies
+#### Assessing Nutritional Needs
+### (Concept 41.2) Food processing involves ingestion, digestion, absorption, and elimination
+#### Digestive Compartments
+### (Concept 41.3) Organs specialized for sequential stages of food processing form the mammalian digestive system
+#### The Oral Cavity, Pharynx, and Esophagus
+#### Digestion in the Stomach
+#### Digestion in the Small Intestine
+#### Absorption in the Small Intestine
+#### Processing in the Large Intestine
+### (Concept 41.4) Evolutionary adaptations of vertebrate digestive systems correlate with diet
+#### Dental Adaptations
+#### Stomach and Intestinal Adaptations
+#### Mutualistic Adaptations
+### (Concept 41.5) Feedback circuits regulate digestion, energy storage, and appetite
+#### Regulation of Digestion
+#### Regulation of Energy Storage
+#### Regulation of Appetite and Consumption
+## (42) Circulation and Gas Exchange
+### (Concept 42.1) Circulatory systems link exchange surfaces with cells throughout the body
+#### Gastrovascular Cavities
+#### Open and Closed Circulatory Systems
+#### Organization of Vertebrate Circulatory Systems
+### (Concept 42.2) Coordinated cycles of heart contraction drive double circulation in mamals
+#### Mammalian Circulation
+#### The Mammalian Heart: A Closer Look
+#### Maintaining the Heart's Rhythmic Beat
+### (Concept 42.3) Patterns of blood pressure and flow reflect the structure and arrangement of blood vessels
+#### Blood Vessel Structure and Function
+#### Blood Flow Velocity
+#### Blood Pressure
+#### Capillary Function
+#### Fluid Return by the Lymphatic System
+### (Concept 42.4) Blood components function in exchange, transport, and defense
+#### Blood Composition and Function
+#### Cardiovascular Disease
+### (Concept 42.5) Gas exchange occurs across specialized respiratory surfaces
+#### Partial Pressure Gradients in Gas Exchange
+#### Respiratory Media
+#### Respiratory Surfaces
+#### Gills in Aquatic Animals
+#### Tracheal Systems in Insects
+#### Lungs
+### (Concept 42.6) Breathing ventilates the lungs
+#### How an Amphibian Breathes
+#### How a Bird Breathes
+#### How a Mammal Breathes
+#### Control of Breathing in Humans
+### (Concept 42.7) Adaptations for gas exchange include pigments that bind and transport gases
+#### Coordination of Circulation and Gas Exchange
+#### Respiratory Pigments
+#### Respiratory Adaptations of Diving Mammals
+## (43) The Immune System
+### (Concept 43.1) In innate immunity, recognition and response rely on traits common to groups of pathogens
+#### Innate Immunity of Invertebrates
+#### Innate Immunity of Vertebrates
+#### Evasion of Innate Immunity by Pathogens
+### (Concept 43.2) In adaptive immunity, receptors provide pathogen-specific recognition
+#### Antigens as the Trigger for Adaptive Immunity
+#### Antigen Recognition by B Cells and Antibodies
+#### Antigen Recognition by T Cells
+#### B Cell and T Cell Development
+### (Concept 43.3) Adaptive immunity defends against infection of body fluids and body cells
+#### Helper T Cells: Activating Adaptive Immunity
+#### B Cells and Antibodies: A Response to Extracellular Pathogens
+#### Cytotoxic T Cells: A Response to Infected Host Cells
+#### Summary of the Humoral and Cell-Mediated Immune Responses
+#### Immunization
+#### Active and Passive Immunity
+#### Antibodies as Tools
+#### Immune Rejection
+### (Concept 43.4) Disruptions in immune system function can elicit or exacerbate disease
+#### Exaggerated, Self-Directed, and Diminished Immune Responses
+#### Evolutionary Adaptations of Pathogens That Underlie Immune System Avoidance
+#### Cancer and Immunity
+## (44) Osmoregulation and Excretion
+### (Concept 44.1) Osmoregulation balances that uptake and loss of water and solutes
+#### Osmosis and Osmolarity
+#### Osmoregulatory Challenges and Mechanisms
+#### Energetics of Osmoregulation
+#### Transport Epithelia in Osmoregulation
+### (Concept 44.2) An animal's nitrogenous wastes reflect its phylogeny and habitat
+#### Forms of Nitrogenous Waste
+#### The Influence of Evolution and Environment on Nitrogenous Wastes
+### (Concept 44.3) Diverse excretory systems are variations on a tubular theme
+#### Survey of Excretory Systems
+### (Concept 44.4) The nephron is organized for stepwise processing of blood filtrate
+#### From Blood Filtrate to Urine: A Closer Look
+#### Solute Gradients and Water Conservation
+#### Adaptations of the Vertebrate Kidney to Diverse Environments
 
-### (Concept 44.5)
-####
-## (45)
-### (Concept 45.1)
-####
-####
-####
-####
-### (Concept 45.2)
-####
-####
-####
-####
-####
-####
-### (Concept 45.3)
-####
-####
-####
-####
-####
-## (46)
-### (Concept 46.1)
-####
-####
-####
-####
-### (Concept 46.2)
-####
-####
-### (Concept 46.3)
-####
-####
-####
-### (Concept 46.4)
-####
-####
-####
-####
-### (Concept 46.5)
-####
-####
-####
-####
-## (47)
-### (Concept 47.1)
-####
-####
-### (Concept 47.2)
-####
-####
-####
-####
-### (Concept 47.3)
-####
-####
-####
-####
-####
-## (48)
-### (Concept 48.1)
-####
-####
-### (Concept 48.2)
-####
-####
-### (Concept 48.3)
-####
-####
-####
-####
-### (Concept 48.4)
-####
-####
-####
-####
-####
-## (49)
-### (Concept 49.1)
-####
-####
-####
-### (Concept 49.2)
-####
-####
-####
-####
-### (Concept 49.3)
-####
-####
-####
-####
-####
-### (Concept 49.4)
-####
-####
-####
-### (Concept 49.5)
-####
-####
-####
-####
-####
-####
-## (50)
-### (Concept 50.1)
-####
-####
-####
-####
-####
-### (Concept 50.2)
-####
-####
-####
-### (Concept 50.3)
-####
-####
-### (Concept 50.4)
-####
-####
-### (Concept 50.5)
-####
-####
-### (Concept 50.6)
-####
-####
-## (51)
-### (Concept 51.1)
-####
-####
-####
-####
-### (Concept 51.2)
-####
-####
-### (Concept 51.3)
-####
-####
-### (Concept 51.4)
-####
-####
-####
-####
-####
+### (Concept 44.5) Hormonal circuits link kidney function, water balance, and blood pressure
+#### Homeostatic Regulation of the Kidney
+## (45) Hormones and the Endocrine System
+### (Concept 45.1) Hormones and other signaling molecules bind to target receptors, triggering specific response pathways
+#### Intercellular Information Flow
+#### Chemical Classes of Hormones
+#### Cellular Hormone Response Pathways
+#### Endocrine Tissues and Organs
+### (Concept 45.2) Feedback regulation and coordination with the nervous system are common in hormone pathways
+#### Simple Endocrine Pathways
+#### Simple Neuroendocrine Pathways
+#### Feedback Regulation
+#### Coordination of the Endocrine and Nervous Systems
+#### Thyroid Regulation: A Hormone Cascade Pathway
+#### Hormonal Regulation of Growth
+### (Concept 45.3) Endocrine glands respond to diverse stimuli in regulating homeostasis, development, and behavior
+#### Parathyroid Hormone and Vitamin D: Control of Blood Calcium
+#### Adrenal Hormones: Response to Stress
+#### Sex Hormones
+#### Hormones and Biological Rhythms
+#### Evolution of Hormone Function
+## (46) Animal Reproduction
+### (Concept 46.1) Both asexual and sexual reproduction occur in the animal kingdom
+#### Mechanisms of Asexual Reproduction
+#### Variation in Patterns of Sexual Reproduction
+#### Reproductive Cycles
+#### Sexual Reproduction: An Evolutionary Enigma
+### (Concept 46.2) Fertilization depends on mechanisms that bring together sperm and eggs of the same species
+#### Ensuring the Survival of Offspring
+#### Gamete Production and Delivery
+### (Concept 46.3) Reproductive organs produce and transport gametes
+#### Human Male Reproductive Anatomy
+#### Human Female Reproductive Anatomy
+#### Gametogenesis
+### (Concept 46.4) The interplay of tropic and sex hormones regulate reproduction in mammals
+#### Biological Sex, Gender Identity, and Sexual Orientation in Human Sexuality
+#### Hormonal Control of the Male Reproductive System
+#### Hormonal Control of Female Reproductive Cycles
+#### Human Sexual Response
+### (Concept 46.5) In placental mammals, an embryo develops fully within the mother's uterus
+#### Conception, Embryonic Development, and Birth
+#### Maternal Immune Tolerance of the Embryo and Fetus
+#### Contraception and Abortion
+#### Modern Reproductive Technologies
+## (47) Animal Development
+### (Concept 47.1) Fertilization and cleavage initiate embryonic development
+#### Fertilization
+#### Cleavage
+### (Concept 47.2) Morphogenesis in animals involves specific changes in cell shape, position, and survival
+#### Gastrulation
+#### Development Adaptations of Amniotes
+#### Organogenesis
+#### The Cytoskeleton in Morphogenesis
+### (Concept 47.3) Cytoplasmic determinants and inductive signals regulate cell fate
+#### Fate Mapping
+#### Axis Formation
+#### Restricting Development Potential
+#### Cell Fate Determination and Pattern Formation by Inductive Signals
+#### Cilia and Cell Fate
+## (48) Neurons, Synapses, and Signaling
+### (Concept 48.1) Neuron structure and organization reflect function in information transfer
+#### Neuron Structure and Function
+#### Introduction to Information Processing
+### (Concept 48.2) Ion pumps and ion channels establish the resting potential of a neuron
+#### Formation of the Resting Potential
+#### Modeling the Resting Potential
+### (Concept 48.3) Action potentials are the signals conducted by axons
+#### Hyperpolarization and Depolarization
+#### Graded Potentials and Action Potentials
+#### Generation of Action Potentials: A Closer Look
+#### Conduction of Action Potentials
+### (Concept 48.4) Neurons communicate with other cells at synapses
+#### Generation of Postsynaptic Potentials
+#### Summation of Postsynaptic Potentials
+#### Termination of Neurotransmitter Signaling
+#### Modulating Signaling at Synapses
+#### Neurotransmitters
+## (49) Nervous System
+### (Concept 49.1) Nervous systems consist of circuits of neurons and supporting cells
+#### Organization of the Vertebrate Nervous System
+#### The Peripheral Nervous System
+#### Glia
+### (Concept 49.2) The vertebrate brain is regionally specialized
+#### Arousal and Sleep
+#### Biological Clock Regulation
+#### Emotions
+#### Functional Imaging of the Brain
+### (Concept 49.3) The cerebral cortex controls voluntary movement and cognitive functions
+#### Information Processing
+#### Language and Speech
+#### Lateralization of Cortical Function
+#### Frontal Lobe Function
+#### Evolution of Cognition in Vertebrates
+### (Concept 49.4) Changes in synaptic connections underlie memory and learning
+#### Neuronal Plasticity
+#### Memory and Learning
+#### Long-Term Potentiation
+### (Concept 49.5) Many nervous system disorders can now be explained in molecular terms
+#### Schizophrenia
+#### Depression
+#### The Brain's Reward System and Drug Addiction
+#### Alzheimer's Disease
+#### Parkinson's Disease
+#### Future Directions in Brain Research
+## (50) Sensory and Motor Mechanisms
+### (Concept 50.1) Sensory receptors transduce stimulus energy and transmit signals to the central nervous system
+#### Sensory Reception and Transduction
+#### Transmission
+#### Perception
+#### Amplification and Adaptation
+#### Types of Sensory Receptors
+### (Concept 50.2) In hearing and equilibrium, mechanoreceptors detect moving fluid or settling particles
+#### Sensing of Gravity and Sound in Invertebrates
+#### Hearing and Equilibrium in Mammals
+#### Hearing and Equilibrium in Other Vertebrates
+### (Concept 50.3) The diverse visual receptors of animals depend on light-absorbing pigments
+#### Evolution of Visual Perception
+#### The Vertebrate Visual System
+### (Concept 50.4) The senses of taste and smell rely on similar sets of sensory receptors
+#### Taste in Mammals
+#### Smell in Humans
+### (Concept 50.5) The physical interaction of protein filaments is required for muscle function
+#### Vertebrate Skeletal Muscle
+#### Other Types of Muscle
+### (Concept 50.6) Skeletal systems transform muscle contraction into locomotion
+#### Types of Skeletal Systems
+#### Types of Locomotion
+## (51) Animal Behavior
+### (Concept 51.1) Discrete sensory inputs can stimulate both simple and complex behaviors
+#### Fixed Action Patterns
+#### Migration
+#### Behavioral Rhythms
+#### Animal Signals and Communication
+### (Concept 51.2) Learning establishes specific links between experience and behavior
+#### Experience and Behavior
+#### Learning
+### (Concept 51.3) Selection for individual survival and reproductive success can explain diverse behaviors
+#### Evolution for Foraging Behavior
+#### Mating Behavior and Mate Choice
+### (Concept 51.4) Genetic analyses and the concept of inclusive fitness provide a basis for studying the evolution of behavior
+#### Genetic Basis of Behavior
+#### Genetic Variation and the Evolution of Behavior
+#### Altruism
+#### Inclusive Fitness
+#### Evolution and Human Culture
 ## Unit 8: Ecology
 ### Interview: Chelsea Rochman
-## (52)
-### (Concept 52.1)
-####
-####
-####
-####
-####
-### (Concept 52.2)
-####
-####
-####
-### (Concept 52.3)
-####
-### (Concept 52.4)
-####
-####
-####
-### (Concept 52.5)
-## (53)
-### (Concept 53.1)
-####
-####
-### (Concept 53.2)
-####
-####
-### (Concept 53.3)
-####
-####
-### (Concept 53.4)
-####
-####
-### (Concept 53.5)
-####
-####
-####
-### (Concept 53.6)
-####
-####
-## (54)
-### (Concept 54.1)
-####
-####
-####
-### (Concept 54.2)
-####
-####
-####
-####
-####
-### (Concept 54.3)
-####
-####
-####
-### (Concept 54.4)
-####
-####
-####
-### (Concept 54.5)
-####
-####
-## (55)
-### (Concept 55.1)
-####
-####
-####
-####
-### (Concept 55.2)
-####
-####
-####
-### (Concept 55.3)
-####
-####
-### (Concept 55.4)
-####
-####
-####
-### (Concept 55.5)
-####
-####
-####
-## (56)
-### (Concept 56.1)
-####
-####
-####
-####
-### (Concept 56.2)
-####
-####
-####
-### (Concept 56.3)
-####
-####
-####
-### (Concept 56.4)
-####
-####
-####
-####
-### (Concept 56.5)
-####
-####
+## (52) An Introduction to Ecology and the Biosphere
+### (Concept 52.1) Earth's climate varies by latitude and season and is changing rapidly
+#### Global Climate Patterns
+#### Regional and Local Effects on Climate
+#### Effects of Vegetation on Climate
+#### Microclimate
+#### Global Climate Change
+### (Concept 52.2) The distribution of terrestrial biomes is controlled by climate and disturbance
+#### Climate and Terrestrial Biomes
+#### General Features of Terrestrial Biomes
+#### Disturbance and Terrestrial Biomes
+### (Concept 52.3) Aquatic biomes are diverse and dynamic systems that cover most of Earth
+#### Zonation in Aquatic Biomes
+### (Concept 52.4) Interactions between organisms and the environment limit the distribution of species
+#### Dispersal and Distribution
+#### Biotic Factors
+#### Abiotic Factors
+### (Concept 52.5) Ecological change and evolution affect one another over long and short periods of time
+## (53) Population Ecology
+### (Concept 53.1) Biotic and abiotic factors affect population density, dispersion, and demographics
+#### Density and Dispersion
+#### Demographics
+### (Concept 53.2) The exponential model describes population growth in an idealized, unlimited environment
+#### Changes in Population Size
+#### Exponential Growth
+### (Concept 53.3) The logistic model describes how a population grows more slowly as it nears its carrying capacity
+#### The Logistic Growth Model
+#### The Logistic Model and Real Populaitons
+### (Concept 53.4) Life history traits are products of natural selection
+#### Diversity of Life Histories
+#### "Trade-offs" and Life Histories
+### (Concept 53.5) Density-dependent factors regulate population growth
+#### Population Change and Population Density
+#### Mechanisms of Density-Dependent Population Regulation
+#### Population Dynamics
+### (Concept 53.6) The human population is no longer growing exponentially but is still increasing extremely rapidly
+#### The Global Human Population
+#### Global Carrying Capacity
+## (54) Community Ecology
+### (Concept 54.1) Interactions between species can help, harm, or have no effect on the individuals involved
+#### Competition
+#### Exploitation
+#### Positive Interactions
+### (Concept 54.2) Diversity and trophic structure characterize biological communities
+#### Species Diversity
+#### Diversity and Community Stability
+#### Trophic Structure
+#### Species with a Large Impact
+#### Bottom-Up and Top-Down Controls
+### (Concept 54.3) Disturbance influences species diversity and composition
+#### Characterizing Disturbance
+#### Ecological Succession
+#### Human Disturbance
+### (Concept 54.4) Biogeographic factors affect community diversity
+#### Latitudinal Gradients
+#### Area Effects
+#### Island Equilibrium Model
+### (Concept 54.5) Pathogens alter community structure locally and globally
+#### Effects on Community Structure
+#### Community Ecology and Zoonotic Diseases
+## (55) Ecosystems and Restoration Ecology
+### (Concept 55.1) Physical laws govern energy flow and chemical cycling in ecosystems
+#### Energy Flow and Chemical Cycling
+#### Conservation of Energy
+#### Conservation of Mass
+#### Energy, Mass, and Trophic Levels
+### (Concept 55.2) Energy and other limiting factors control primary production in ecosystems
+#### Ecosystem Energy Budgets
+#### Primary Production in Aquatic Ecosystems
+#### Primary Production in Terrestrial Ecosystems
+### (Concept 55.3) Energy transfer between trophic levels is typically only 10% efficient
+#### Production Efficiency
+#### Trophic Efficiency and Ecological Pyrmaids
+### (Concept 55.4) Biological and geochemical processes cycle nutrients and water in ecosystems
+#### Decomposition and Nutrient Cycling Rates
+#### Biogeochemical Cycles
+#### Case Study: Nutrient Cycling in the Hubbard Brook Experimental Forest
+### (Concept 55.5) Restoration ecologists return degraded ecosystems to a more natural state
+#### Bioremediation
+#### Biological Augmentation
+#### Ecosystems: A Review
+## (56) Conservation Biology and Global Change
+### (Concept 56.1) Human activities threaten earth's biodiversity
+#### Three Levels of Biodiversity
+#### Biodiversity and Human Welfare
+#### Threats to Biodiversity
+#### Can Extinct Species be Resurrected?
+### (Concept 56.2) Population conservation focuses on population size, genetic diversity, and critical habitat
+#### Extinction Risks in Small Populations
+#### Critical Habitat
+#### Weighing Conflicting Demands
+### (Concept 56.3) Landscape and regional conservation help sustain biodiversity
+#### Landscape Structure and Biodiversity
+#### Establishing Protected Areas
+#### Urban Ecology
+### (Concept 56.4) Earth is changing rapidly as a result of human actions
+#### Nutrient Enrichment
+#### Toxins in the Environment
+#### Greenhouse Gases and Climate Change
+#### Depletion of Atmospheric Ozone
+### (Concept 56.5) Sustainable development can improve human lives while conserving biodiversity
+#### Sustainable Development
+#### The Future of the Biosphere
 
 
 

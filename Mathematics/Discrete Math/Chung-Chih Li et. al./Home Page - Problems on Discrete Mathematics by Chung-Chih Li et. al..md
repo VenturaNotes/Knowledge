@@ -6,7 +6,6 @@ Progress: "20"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 ---
 ## (I) Basic Concepts
 ### (0) Preliminary

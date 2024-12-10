@@ -6,7 +6,6 @@ Length: "273"
 tags:
   - status/incomplete
   - type/textbook
-  - temp
 Progress: "27"
 ---
 ## Preface
