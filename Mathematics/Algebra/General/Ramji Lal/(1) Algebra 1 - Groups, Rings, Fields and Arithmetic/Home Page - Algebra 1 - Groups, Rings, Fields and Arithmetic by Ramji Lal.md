@@ -86,7 +86,7 @@ tags:
 	- “rules of dependence of the truth value of a statement formula on the truth values of its statement variables (atomic parts)” ([Lal, 2017, p. 3](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=18&annotation=9UIPHTH2))
 		- Prompted by common sense?
 	- Rules illustrated by tables called <mark style="background: #FFF3A3A6;">truth tables</mark>
-- [[Truth Tables]]
+- [[truth table|truth tables]]
 	- ![[Screenshot 2023-05-07 at 2.16.00 AM.png]]
 		- [[Conjunction]]: $P \land Q$ 
 			- true only if P and Q are true
@@ -94,7 +94,7 @@ tags:
 			- True if at least one of P and Q is true
 		- [[Negation]]: $\lnot P$
 			- Negation of a true statement is false and that of a false statement is true
-		- [[Conditional]]/[[Implication]]: $P \implies Q$ ^26r0fb
+		- [[Implication|conditional]]/[[Implication]]: $P \implies Q$ ^26r0fb
 			- Only false when P is true and Q is false. 
 			- Example: If a student works hard, then he will pass
 				- If there is some student who has not worked hard, then whether he passes, or he fails, the truth of the statement remains unchallenged (resulting in True)

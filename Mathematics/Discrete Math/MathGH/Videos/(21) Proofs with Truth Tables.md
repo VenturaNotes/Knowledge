@@ -1,7 +1,7 @@
 [Video](https://www.youtube.com/watch?v=8p83AHn_5Fc)
 
 - ![[Screenshot 2024-01-07 at 3.06.08 PM.png]]
-	- Proofs using [[truth tables]]
+	- Proofs using [[truth table|truth tables]]
 		- Review of truth tables
 			- All [[Proposition|propositions]] have a truth value and the truth value of a compound proposition depends on the values of its components
 				- [[Connectives]] take one or more truth values and output another truth value

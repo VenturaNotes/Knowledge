@@ -3,7 +3,7 @@
 - ![[Screenshot 2024-01-23 at 2.32.21 AM.png]]
 	- Slide 2 - Learning Objectives (for this video)
 		- By the end of this video, participants should be able to:
-			- Define relative [[cardinality]]
+			- Define relative [[Cardinality]]
 			- State and prove basic abstract results about cardinality
 	- Slide 3 - Motivation
 		- Example 1
@@ -34,7 +34,7 @@
 			- Let A and B be two sets. We define
 				- $|A| \le |B|$ iff there is an [[injection]] f : A $\to$ B
 				- $|A| = |B|$ iff there is a [[bijection]] f: A $\to$ B
-			- We call |A| the [[cardinality]] of A
+			- We call |A| the [[Cardinality]] of A
 		- Informally: |A| is the "number of elements in A. It has nothing to do with absolute values. We will not use this as our definition
 		- The definitions say how to compare cardinalities but not how to compute a given cardinality
 	- Slide 8 - Simple properties

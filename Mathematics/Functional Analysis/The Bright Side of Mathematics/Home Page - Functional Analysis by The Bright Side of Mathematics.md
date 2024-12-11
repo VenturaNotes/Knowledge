@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/playlist?list=PLBh2i93oe2qsGKDOsuVVw-OCAfprrnGfr
+  - https://thebrightsideofmathematics.com/courses/functional_analysis/overview/
 Length: 5 hours, 11 minutes, 7 seconds
 tags:
   - status/incomplete
@@ -9,9 +10,9 @@ tags:
 - Complete
 	- [[(1) Functional Analysis 1  - Metric Space - How to Measure Distances.]]
 	- [[(2) Functional Analysis 2  - Examples for Metrics - Euclidean or Discrete Metric.]]
-- Incomplete
 	- [[(3) Functional Analysis 3  - Open and Closed Sets]]
 	- [[(4) Functional Analysis 4  - Sequences, Limits and Closed Sets]]
+- Incomplete
 	- [[(5) Functional Analysis 5  - Cauchy Sequences and Complete Spaces]]
 	- [[(6) Functional Analysis 6  - Norms and Banach Spaces]]
 	- [[(7) Functional Analysis 7  - Examples of Banach Spaces]]

@@ -1,5 +1,8 @@
-[Video](https://www.youtube.com/watch?v=twBYYTJdcjc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=twBYYTJdcjc
+Reviewed: false
+---
 - ![[Screenshot 2023-10-16 at 7.25.06 PM.png]]
 	- [[Map]]
 		- We defined the map as a special relation between two sets and we can write it as an assignment from A $\to$ B
