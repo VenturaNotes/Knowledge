@@ -1,5 +1,8 @@
-[Video](https://www.youtube.com/watch?v=AjdIPOXRgoQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=AjdIPOXRgoQ
+Reviewed: true
+---
 - ![[Screenshot 2023-10-11 at 1.59.41 AM.png]]
 	- [[Proposition|logical statements]] A, B $\to$ new logical statements
 	- Given $\lnot A$ and $A \land B$

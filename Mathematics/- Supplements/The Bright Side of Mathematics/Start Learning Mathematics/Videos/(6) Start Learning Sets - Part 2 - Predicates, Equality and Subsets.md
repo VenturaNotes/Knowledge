@@ -1,5 +1,8 @@
-[Video](https://www.youtube.com/watch?v=yIdECC6QExY)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=yIdECC6QExY
+Reviewed: false
+---
 - ![[Screenshot 2023-10-11 at 3.39.55 AM.png]]
 	- Will talk about how to form new [[set|sets]]
 		- Comes from logic and called [[predicate]]

@@ -123,3 +123,4 @@ http://detexify.kirelabs.org/classify.html
 - Matrix with soft brackets: $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$
 - Maps to: $\mapsto$ 
 - Type Theory: $\Gamma \vdash A : Type$ 
+- Tilde x: $\tilde x$ 

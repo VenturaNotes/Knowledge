@@ -249,7 +249,7 @@
 			- [[Set Notation]]
 				- {x | x $\in$ ...}
 					- The set of all things and a vertical bar such that with conditions on those things
-- ![[Screenshot 2023-09-11 at 3.24.11 PM.png]]
+- ![[Screenshot 2023-09-11 at 3.24.11 PM.png]] ^izwnl5
 	- [[Boolean Logic]]
 		- And $\land$ [[conjunction]]
 			- Conjoining two things

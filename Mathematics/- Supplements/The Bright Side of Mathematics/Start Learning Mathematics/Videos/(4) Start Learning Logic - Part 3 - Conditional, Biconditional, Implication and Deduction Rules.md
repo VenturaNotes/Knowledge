@@ -1,8 +1,11 @@
-[Video](https://www.youtube.com/watch?v=53RSWIpxJxo)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=53RSWIpxJxo
+Reviewed: false
+---
 - ![[Screenshot 2023-10-11 at 2.15.04 AM.png]]
 	- [[Logical Operations]]
-		- [[Conditional]] (some people call it implication)
+		- [[Implication|conditional]] (some people call it implication)
 			- A $\to$ B
 				- If A, then B
 			- When using doubled arrow $\implies$ means normal arrow $\to$ gives a [[tautology]]

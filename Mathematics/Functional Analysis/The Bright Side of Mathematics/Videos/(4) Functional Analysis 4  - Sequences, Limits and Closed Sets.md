@@ -2,4 +2,63 @@
 Source:
   - https://www.youtube.com/watch?v=2BpD3RX5EIE
 ---
-
+- ![[Screenshot 2024-12-10 at 11.28.08 PM.png]]
+	- Functional analysis - part 4
+	- Still building up the foundations we need for functional analysis
+	- (X, d) [[metric space]]
+		- Can use [[sequences]] to describe the properties of a metric space
+		- A [[sequence]] is just an ordered set of points inside the metric space X
+			- Since we give the points names, we usually see a notation like one of the below
+				- Sequence in X:
+					- $(x_1, x_2, x_3, ...)$
+					- $(x_n)_{n \in \mathbb{n}}$
+					- Or (formal way)
+						- x: $\mathbb{N} \to X$
+						- n $\mapsto$ $x_n$ 
+						- We just have a map from the natural numbers into the metric space X
+	- Since we can measure distances in a metric space, we can talk about [[convergent sequences]]
+	- [[Convergence]]: A sequence $(x_n)_{n\in \mathbb{N}}$ in a metric space (X, d) is called convergent if there is $\tilde x \in X$ with
+		- It means all the $x_n$ comes from the set X
+		- It is called convergent if there is a limit point we call x tilde.
+		- We want the members of the sequence to get closer and closer to the limit point $\tilde x$ 
+			- To measure such closeness, we can use an arbitrary [[epsilon ball]]
+				- It should be centered at $\tilde x$ 
+				- No matter how small we choose the epsilon, almost all of the members of the sequence should be inside this ball
+					- This means we find an index such that members with a bigger index lie inside the epsilon ball
+		- Formally: $\forall_{\epsilon} > 0, \exists N \in \mathbb{N}, \forall_{n} \ge N : d(x_n, \tilde x) < \epsilon$
+			- All epsilon greater than 0, there exists an index such that all the other indices greater or equal to N fulfill that the distance between $x_n$ and our limit point $\tilde x$ is less than epsilon
+			- We write that $x_n$ tends to $\tilde x$ if n goes to infinity
+				- Could also use the limitation
+			- These notations are always given with respect to a metric d
+			- We can use such notations because in a metric space, there can only be at most one $\tilde x$ that fulfills all of these things here
+				- Can easily show this using the [[triangle inequality]]
+		- Will see many later examples of convergent sequences
+	- [[Proposition]]: $A \subseteq X$ is closed $\iff$ for every convergent sequence $(a_n)_{n \in \mathbb{N}}$ $\subseteq A$, one has $lim_{n \to \infty} a_n \in A$  
+		- Here we look again at a subset of the metric space X and we can say that this one is closed iff we can't leave the set from the inside by just using sequences
+			- More exactly, this means that a limit such a sequence could have must lie in the set A
+		- Fitting for our visualization because closeness means that this boundary we see here already belongs to the set A
+		- $(a_n)$ is just an element in A
+			- One uses the sloppy notation writing it down as a subset of A
+		- Important to note that we have a [[convergent sequences|convergent sequence]], but only in the sense of the definition
+			- A convergent sequence in the space X. So it has a limit inside X
+		- We need that the limit, that we know exists, is also an element of A
+			- This is important because now we have a characterization for [[closed set|closed sets]] just by using sequences
+		- Now doing proof to show 2 directions
+			- Using [[contraposition]] by showing from right to left
+				- By assuming A is not [[closed]], the contraposition is that the complement is not [[open]]
+					- Open means that for each point inside the set, you find an epsilon ball around this point, such that the whole ball is inside $A^c$ in this case
+					- Not open means that there is at least one $\tilde x$ where this is not the case
+					- By finding an $\tilde x$ on the boundary such that we can use any epsilon-ball, but you always hit points in A
+					- Hence, we can conclude that we can construct a sequence $a_n$ where each $a_n$ comes from one of these sets here where for example we set epsilon as $\frac 1n$ 
+					- Doing that will let us know that $a_n$ converges to $\tilde x$ because we get closer and closer to $\tilde x$ if we increase the index `n`
+					- So this is our result. We now have a sequence in A, which is convergent, but its limit is not in A
+					- This was our proof by contraposition (which means this implication is now finished)
+			- Now doing other direction while using [[contraposition]] ($\implies$)
+				- We assume there is a convergent sequence in A where the limit is not A
+				- As before, we'll call the limit $\tilde x$ 
+				- By the definition of the limit, we can use any epsilon-ball around $\tilde x$, you will always hit points of the sequence (so inside A) 
+				- This then means $A^c$ is not an open set
+				- Then by definition, the set A itself is not a closed set
+				- This then closes our proof here so the proposition is correct
+	- In next part, will talk about [[complete metric spaces]]
+		- We'll then see why it is helpful to deal with sequences

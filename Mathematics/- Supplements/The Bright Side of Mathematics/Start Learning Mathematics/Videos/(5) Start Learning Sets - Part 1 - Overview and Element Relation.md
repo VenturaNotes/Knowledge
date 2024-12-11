@@ -1,5 +1,8 @@
-[Video](https://www.youtube.com/watch?v=iA-Dtf7529M)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=iA-Dtf7529M
+Reviewed: false
+---
 - ![[Screenshot 2023-10-11 at 2.35.27 AM.png]]
 	- [[Set theory]]
 		- You can describe everything in mathematics just by using [[set|sets]]

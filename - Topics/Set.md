@@ -3,6 +3,7 @@ aliases:
   - collection
   - family
   - sets
+References: 4
 ---
 ## Synthesis
 - 
@@ -17,12 +18,15 @@ aliases:
 - If `a` is an element of set A, we write 
 	- $a \in A$ 
 - Every set is a [[subset]] of itself
-
 ## Source[^3]
 - A set is composed of elements or members where each element is a possible outcome
 - A set is denoted by capital letters
+
+## Source[^4]
+- Sets and [[maps]] are considered basic building blocks of mathematical world
 ## References
 
 [^1]: [[(28) Universal Set Example Problems - Set Builder Notation, Absolute Complement, Roster Notation#^19ae11]]
 [^2]: [[Home Page - Abstract Algebra Theory and Applications 2022 Edition by Thomas W. Judson]]
 [^3]: [[(2) Probability & Statistics (2 of 62) Definition of Sets and Elements]]
+[^4]: [[(1) Start Learning Mathematics]]

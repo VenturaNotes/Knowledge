@@ -81,7 +81,7 @@ tags:
 - “Logical Connectives.” ([Levin, 2019, p. 22](zotero://select/library/items/VABQEUJ4)) ([pdf](zotero://open-pdf/library/items/RZPKBH48?page=22&annotation=789473A7))
 	- > - P $\land$ Q is read “P and Q,” and called a [[conjunction]]. 
 	- P $\lor$ Q is read “P or Q,” and called a [[disjunction]].
-	- P $\rightarrow$ Q is read “if P then Q,” and called an [[Implication|implication]] or [[conditional]]. 
+	- P $\rightarrow$ Q is read “if P then Q,” and called an [[Implication|implication]] or [[Implication|conditional]]. 
 	- P $\leftrightarrow$ Q is read “P if and only if Q,” and called a [[biconditional]]. 
 	- $\lnot$P is read “not P,” and called a [[negation]].
 - “Truth Conditions for Connectives.” ([Levin, 2019, p. 22](zotero://select/library/items/VABQEUJ4)) ([pdf](zotero://open-pdf/library/items/RZPKBH48?page=22&annotation=E497W4R4))

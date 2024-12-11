@@ -1,5 +1,8 @@
-[Video](https://www.youtube.com/watch?v=DU4wKBDm2Z4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=DU4wKBDm2Z4
+Reviewed: true
+---
 - ![[Screenshot 2023-10-11 at 1.50.14 AM.png]]
 	- Start learning [[Logic]]
 	- Logical statement ([[proposition]]): [[Statement]] (a meaningful declarative sentence which has a well-defined truth value. Either true or false)
