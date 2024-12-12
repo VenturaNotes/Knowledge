@@ -170,9 +170,9 @@ tags:
 		- (142) [[(7) Reverse Integer]]
 	- Math & Geometry (8)
 		- (143) [[(48) Rotate Image]]
+		- (144) [[(54) Spiral Matrix]]
 - Incomplete
 	- Math & Geometry (8)
-		- (144) [[(54) Spiral Matrix]]
 		- (145) [[(73) Set Matrix Zeroes]]
 		- (146) [[(202) Happy Number]]
 		- (147) [[(66) Plus One]]
