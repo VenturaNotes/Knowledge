@@ -28,6 +28,10 @@ aliases:
 - $p \implies q$ is logically equivalent to $\lnot p \lor q$
 
 ## Source[^5]
+
+| ![[Screenshot 2024-12-11 at 2.31.51 PM.png\|200]] |
+| ------------------------------------------------- |
+| Conditional [[Truth Table]]                       |
 - Given $A \land B \to B$
 	- In this conditional, the [[conjunction]] ($\land$) binds closer than the conditional arrow ($\to$).
 		- Therefore, we don't need any parentheses here.

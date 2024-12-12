@@ -3,3 +3,42 @@ Source:
   - https://www.youtube.com/watch?v=CSzJchEvfpE
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-11 at 11.13.01 PM.png]]
+	- Will talk about [[injectivity]], [[surjectivity]], and [[bijectivity]]
+		- These concepts really should be internalized for mathematics
+	- We have a set "A" on left-hand side and set "B" on right-hand side
+	- The [[map]] is given by the 3 arrows (shows elements being sent to another element in a different set)
+	- Since we hit the first element in "B" twice, we would say the map is not injective
+		- So injectivity should exclude something happening like this
+	- If an element is not hit at all by a map, then the map is not surjective
+		- So surjectivity means no element on the right-hand side is left out
+	- Definition: A map $f: A \to B$ is called:
+		- We're fixing a map f from A to into a set B
+		- [[injective]] if $\forall x_1, x_2 \in A: (x_1 \ne x_2 \to f(x_1) \ne f(x_2))$ is true
+		- [[surjective]] if $\forall y \in B: \exists x \in A: f(x) = y$ is true
+			- For a surjective map, we can't omit any "y" in B
+	- Remember:
+		- surjective: Each y $\in$ B gets at least one arrow
+		- injective: Each y $\in$ B gets at most one arrow
+		- injective + surjective: Each y $\in$ B gets exactly one arrow
+			- [[Bijective]] map
+			- A bijective map gives us truly a [[one-to-one correspondence]] between two sets
+				- So if we take an element no matter from which side, then there is exactly one connection to another element on the other side. Therefore, a bijective map can also be read from RHS to LFS
+			- So for maps, bijective can just mean [[invertible]]
+				- Map f goes from A to B
+				- [[Inverse map]] is read from right to left so it's a map from B into A denoted by $f^{-1}$ 
+					- Same notation used for [[preimage]], but don't get confused. Here, it just denotes a new map
+					- In both cases the notation makes sense and it fits together in the end as we'll see but please remember that they denote two different things
+					- This 
+		- $f^{-1}$: B $\to$ A,
+			- $f^{-1}(y) := x$ if f(x) = y
+				- :=
+					- This seems to mean "defined as"
+	- Example
+		- $f: \mathbb{N} \to \{1, 4, 9, 16, 25, 36,...\}$ 
+			- $x \mapsto x^2$ 
+				- We will see the map is injective and we hit all the elements on the right-hand side meaning the map is also surjective
+				- Therefore, we have a bijective map meaning we can now write the inverse map
+		- For this, the roles of the [[Domain (Math)|domain]] and [[codomain]] are exchanged and now we look at an element in the green set
+			- $f^{-1}: \{1, 4, 9, 16, 25, 36, ...\} \to \mathbb{N}$ 
+				- y $\mapsto$ $\sqrt{y}$  
