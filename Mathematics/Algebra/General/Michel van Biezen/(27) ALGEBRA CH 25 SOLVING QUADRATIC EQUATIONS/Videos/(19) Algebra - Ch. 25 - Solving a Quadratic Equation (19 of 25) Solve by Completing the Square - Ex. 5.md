@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Lxda9_YJiLA)
-
+---
+Source:
+  - https://youtube.com/watch?v=Lxda9_YJiLA
+---
 - ![[Screenshot 2023-02-18 at 5.24.32 AM.png]]
 	- Imaginary solution
 		- ![[Screenshot 2023-02-18 at 5.28.06 AM.png]] [^1]

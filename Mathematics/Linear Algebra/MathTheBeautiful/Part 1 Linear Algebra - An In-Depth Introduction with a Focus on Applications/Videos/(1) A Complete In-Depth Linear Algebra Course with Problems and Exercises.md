@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Fnfh8jNqBlg)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Fnfh8jNqBlg
+---
 - ![[Screenshot 2023-07-10 at 10.50.45 PM.png]]
 	- There are thousands of applications of linear algebra
 	- Linear algebra may be more powerful than calculus because of computers

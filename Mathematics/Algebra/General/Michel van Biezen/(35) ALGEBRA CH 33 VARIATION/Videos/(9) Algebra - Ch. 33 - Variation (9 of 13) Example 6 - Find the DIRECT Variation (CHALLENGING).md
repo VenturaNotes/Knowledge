@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HyCK1D5xZrQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=HyCK1D5xZrQ
+---
 - ![[Screenshot 2023-04-18 at 8.16.12 PM.png]]
 	- Seems like x just needs to be raised to some power
 	- One way to can solve for it (look for a trend)

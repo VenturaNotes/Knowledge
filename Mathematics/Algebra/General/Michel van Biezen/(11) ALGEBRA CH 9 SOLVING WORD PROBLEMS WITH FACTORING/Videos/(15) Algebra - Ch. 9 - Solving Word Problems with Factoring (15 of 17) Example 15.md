@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5Ax3E1FTsIA)
-
+---
+Source:
+  - https://youtube.com/watch?v=5Ax3E1FTsIA
+---
 - ![[Screenshot 2023-02-04 at 6.10.42 PM.png]]
 	- The kinetic energy of an object is defined by KE = $\frac 12mv^2$ where 
 		- m = Mass = 8kg

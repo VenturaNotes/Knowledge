@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FNs_-Z1gHxU)
-
+---
+Source:
+  - https://youtube.com/watch?v=FNs_-Z1gHxU
+---
 - ![[Screenshot 2023-07-14 at 3.50.51 PM.png]]
 	- Linear
 		- Distance

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HvFnSG3qeug)
-
+---
+Source:
+  - https://youtube.com/watch?v=HvFnSG3qeug
+---
 - ![[Screenshot 2023-04-21 at 5.14.38 PM.png]]
 	- A hyperbola is when "$x^2$" and "$y^2$" are opposite signs
 		- if y term is negative, equation will open sideways.

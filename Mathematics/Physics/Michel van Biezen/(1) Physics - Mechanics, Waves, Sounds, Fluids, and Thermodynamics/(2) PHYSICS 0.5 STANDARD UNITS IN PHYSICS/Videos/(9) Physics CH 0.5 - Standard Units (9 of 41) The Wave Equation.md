@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=sUK_njey6nw)
-
+---
+Source:
+  - https://youtube.com/watch?v=sUK_njey6nw
+---
 - ![[Screenshot 2023-08-20 at 10.42.47 PM.png]]
 	- $v = \sqrt\frac{T}{\mu}$
 		- [[velocity]] of a wave on a string that has a certain [[tension]] "T" and a certain mass per unit length $\mu$ 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=urNvazu4U0w)
-
+---
+Source:
+  - https://youtube.com/watch?v=urNvazu4U0w
+---
 - ![[Screenshot 2023-01-10 at 3.56.40 PM.png]]
 	- If a is a negative number
 		- |a| = -a

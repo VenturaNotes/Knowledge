@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=cxhSoq5TkuY)
-
+---
+Source:
+  - https://youtube.com/watch?v=cxhSoq5TkuY
+---
 - ![[Screenshot 2023-02-16 at 3.23.55 AM.png]]
 	- Solve: Find the value(s) of x that satisfy the equation
 		- A = B $\to$ $A^2 = B^2$ 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=aATUqjy2W5k)
-
+---
+Source:
+  - https://youtube.com/watch?v=aATUqjy2W5k
+---
 - Side note
 	- (Michel made a mistake by saying $\frac {10}{9}$ on the number line instead of $\frac {10}3$)
 - ![[Screenshot 2023-01-09 at 3.12.21 PM.png]]

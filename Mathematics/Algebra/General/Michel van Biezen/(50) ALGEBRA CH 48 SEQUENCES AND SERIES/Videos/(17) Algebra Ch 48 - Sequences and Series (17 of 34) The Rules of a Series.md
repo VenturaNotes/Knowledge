@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=T_XooQQkKlI)
-
+---
+Source:
+  - https://youtube.com/watch?v=T_XooQQkKlI
+---
 - ![[Screenshot 2023-04-29 at 7.49.05 PM.png]]
 	- Rules
 		- (1) When you have a constant multiplied by $a_i$, you can "factor" the c out of the series.

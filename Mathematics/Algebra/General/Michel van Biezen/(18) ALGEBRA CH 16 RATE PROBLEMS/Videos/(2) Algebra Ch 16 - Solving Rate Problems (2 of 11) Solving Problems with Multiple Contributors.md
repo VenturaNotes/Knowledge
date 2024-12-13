@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=__Z4FtbbpS4)
-
+---
+Source:
+  - https://youtube.com/watch?v=__Z4FtbbpS4
+---
 - ![[Screenshot 2023-02-13 at 2.51.06 PM.png]]
 	- Multiple people working on the job, each working at a different rate
 		- <mark style="background: #FFF3A3A6;">We need to assume that they don't get in each other's way and slow each other down</mark>

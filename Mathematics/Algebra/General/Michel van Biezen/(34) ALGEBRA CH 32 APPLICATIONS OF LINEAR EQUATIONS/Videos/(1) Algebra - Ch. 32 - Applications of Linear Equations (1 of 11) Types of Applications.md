@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1DnNmk9Ez5Y)
-
+---
+Source:
+  - https://youtube.com/watch?v=1DnNmk9Ez5Y
+---
 - ![[Screenshot 2023-04-17 at 2.21.04 PM.png]]
 	- (1) Linear Depreciation
 		- Purchase Price

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=JMB5tJtjx6k)
-
+---
+Source:
+  - https://youtube.com/watch?v=JMB5tJtjx6k
+---
 - ![[Screenshot 2023-04-18 at 10.35.29 PM.png]]
 	- The intersection of 2 planes is a line
 	- The intersection of a third plane and that line is a point.

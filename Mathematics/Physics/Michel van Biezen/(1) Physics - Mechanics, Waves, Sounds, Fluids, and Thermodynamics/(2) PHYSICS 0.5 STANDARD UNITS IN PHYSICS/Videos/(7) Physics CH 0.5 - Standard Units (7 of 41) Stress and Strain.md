@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=x_JVf4B7XKM)
-
+---
+Source:
+  - https://youtube.com/watch?v=x_JVf4B7XKM
+---
 - ![[Screenshot 2023-08-20 at 10.08.37 PM.png]]
 	- [[Young's Modulus]]
 		- $Y = \frac {\text{stress}}{\text{strain}} = \frac{\frac FA}{\frac{\Delta L}{L}}$

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=qvVVatTX9QI)
-
+---
+Source:
+  - https://youtube.com/watch?v=qvVVatTX9QI
+---
 - ![[Screenshot 2023-04-18 at 8.29.46 PM.png]]
 	- Don't need to be told it's a direct variation because as y increases, x increases.
 	- To eliminate an unknown, you can divide one equation by the other.

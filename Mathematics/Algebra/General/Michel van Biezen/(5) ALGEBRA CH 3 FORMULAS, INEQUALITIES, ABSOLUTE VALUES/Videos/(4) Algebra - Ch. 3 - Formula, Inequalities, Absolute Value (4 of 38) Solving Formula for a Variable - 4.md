@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=hw_kxELoLxY)
-
+---
+Source:
+  - https://youtube.com/watch?v=hw_kxELoLxY
+---
 - ![[Screenshot 2023-01-25 at 5.07.43 PM.png]]
 	- Solve for r.
 	- I = Prt

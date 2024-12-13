@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=C-JAEcNp12Y)
-
+---
+Source:
+  - https://youtube.com/watch?v=C-JAEcNp12Y
+---
 - You simplify polynomials by adding like terms
 	- But what are like terms?
 		- Terms withe the same degree

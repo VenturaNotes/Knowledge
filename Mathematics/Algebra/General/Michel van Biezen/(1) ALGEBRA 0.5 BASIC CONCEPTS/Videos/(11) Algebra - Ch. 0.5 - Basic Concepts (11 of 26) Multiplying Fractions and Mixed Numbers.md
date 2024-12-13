@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=EWOcNVtJjUc)
-
+---
+Source:
+  - https://youtube.com/watch?v=EWOcNVtJjUc
+---
 - ![[Screenshot 2023-01-09 at 1.54.42 PM.png]]
 	- Directions
 		- Multiply the numerators and multiply the denominators

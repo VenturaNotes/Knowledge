@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=gWbmRcupSeQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=gWbmRcupSeQ
+---
 - ![[Screenshot 2023-02-17 at 3.19.34 AM.png]]
 	- When find the square of a complex number
 		- (1) The angle relative to the real axis doubles

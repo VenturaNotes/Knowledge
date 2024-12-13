@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=6S4mcOKXqZg)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=6S4mcOKXqZg
+---
 - We need scientific notation to express numbers that are very large or very small
 - Examples
 	- $N_A$ = Avogadro's Number = 602, 200, 000, 000, 000, 000, 000, 00 = $6.022 \times 10^{23}$ 

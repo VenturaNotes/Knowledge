@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=LWlc3VZeCq8)
-
+---
+Source:
+  - https://youtube.com/watch?v=LWlc3VZeCq8
+---
 - Closure
 	- If a and b are real numbers, c must be a real number
 	- ![[Screenshot 2023-01-10 at 4.31.52 PM.png]]

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5flbRZ-4ejg)
-
+---
+Source:
+  - https://youtube.com/watch?v=5flbRZ-4ejg
+---
 - Image
 	- A rational expression is a "fraction" in the form $\frac PQ$ 
 	- $\frac PQ$ is undefined when Q = 0

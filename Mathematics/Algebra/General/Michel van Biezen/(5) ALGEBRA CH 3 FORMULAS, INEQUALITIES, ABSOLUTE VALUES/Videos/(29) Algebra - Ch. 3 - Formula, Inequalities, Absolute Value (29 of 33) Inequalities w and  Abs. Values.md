@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=SxEpaf3WJUs)
-
+---
+Source:
+  - https://youtube.com/watch?v=SxEpaf3WJUs
+---
 ![[Screenshot 2023-01-25 at 9.59.42 PM.png]] ^fc384e
 - A great way to remember an [[Inequality with Absolute Values]]
 	- |x| < 5

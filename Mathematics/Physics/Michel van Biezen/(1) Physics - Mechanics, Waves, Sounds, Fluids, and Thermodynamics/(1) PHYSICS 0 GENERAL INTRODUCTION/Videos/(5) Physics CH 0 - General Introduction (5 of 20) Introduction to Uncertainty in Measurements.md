@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=sadJh5nIiyQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=sadJh5nIiyQ
+---
 - ![[Screenshot 2023-01-22 at 6.29.31 PM.png]]
 	- Numbers derived are usually measurements
 	- Need to talk about how accurately we can take those measurements

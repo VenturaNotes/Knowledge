@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=COBOmQ2EyN8)
-
+---
+Source:
+  - https://youtube.com/watch?v=COBOmQ2EyN8
+---
 - ![[Screenshot 2023-02-17 at 4.29.30 PM.png]]
 	- Find the value of X such that L = R
 	- There can be 0, 1, or 2 real solutions

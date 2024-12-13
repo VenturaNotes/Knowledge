@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Tg4wkDppj4g)
-
+---
+Source:
+  - https://youtube.com/watch?v=Tg4wkDppj4g
+---
 - ![[Screenshot 2023-04-16 at 2.05.40 AM.png]]
 	- Terms and definitions
 	- Graphs of linear equations

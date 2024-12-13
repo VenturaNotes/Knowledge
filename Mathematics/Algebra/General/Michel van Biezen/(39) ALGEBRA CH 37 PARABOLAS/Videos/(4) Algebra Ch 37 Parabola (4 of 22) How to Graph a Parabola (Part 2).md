@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fdLvLUtBFC0)
-
+---
+Source:
+  - https://youtube.com/watch?v=fdLvLUtBFC0
+---
 - ![[Screenshot 2023-04-19 at 1.21.05 AM.png]]
 	- Equation form
 		- $y = ax^2 + c$

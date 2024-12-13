@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=PpowZJqPDRY)
-
+---
+Source:
+  - https://youtube.com/watch?v=PpowZJqPDRY
+---
 - ![[Screenshot 2023-01-26 at 6.46.30 PM.png]]
 	- Pick a test point: (0,0) For example
 		- That point represents all points in the region

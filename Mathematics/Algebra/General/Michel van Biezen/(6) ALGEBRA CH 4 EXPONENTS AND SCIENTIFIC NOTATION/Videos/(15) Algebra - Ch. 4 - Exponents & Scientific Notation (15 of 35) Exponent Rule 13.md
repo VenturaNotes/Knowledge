@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=KdQAwH8FXLA)
-
+---
+Source:
+  - https://youtube.com/watch?v=KdQAwH8FXLA
+---
 - ![[Screenshot 2023-01-25 at 10.45.47 PM.png]]
 	- When 10 is raised to an exponent, it will equal to 1 with the number of zeros that the value of the exponent is.
 	- 10 to the 7th power is equal to 1 with 7 zeros.

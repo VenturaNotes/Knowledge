@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Wp1JGhvdgzM)
-
+---
+Source:
+  - https://youtube.com/watch?v=Wp1JGhvdgzM
+---
 - ![[Screenshot 2023-07-10 at 1.23.07 AM.png]]
 	- Description
 		- Brackets used intentionally to indicate units

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=iUcwQifFQ94)
-
+---
+Source:
+  - https://youtube.com/watch?v=iUcwQifFQ94
+---
 - ![[Screenshot 2023-01-20 at 6.11.17 PM.png]]
 	- To graph a logarithmic function
 		- First convert it to exponential form using the antilog technique

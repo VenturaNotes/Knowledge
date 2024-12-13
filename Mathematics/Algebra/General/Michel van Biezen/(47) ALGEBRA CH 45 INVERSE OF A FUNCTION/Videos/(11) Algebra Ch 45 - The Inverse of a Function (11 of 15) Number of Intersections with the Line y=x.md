@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=y5JVZJhQ-s0)
-
+---
+Source:
+  - https://youtube.com/watch?v=y5JVZJhQ-s0
+---
 - ![[Screenshot 2023-04-25 at 8.01.01 PM.png]]
 	- $x^3$ is a one-to-one function because it's odd?
 	- For an even function, the number of times it can cross the y=x line can be 0, 1 or twice.

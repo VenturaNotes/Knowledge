@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=KCzdQwAiqSY)
-
+---
+Source:
+  - https://youtube.com/watch?v=KCzdQwAiqSY
+---
 - ![[Screenshot 2023-04-15 at 11.59.54 PM.png]]
 	- Region on x-y plane that satisfies the inequality
 		- $x^2 + x - 2 \le y$

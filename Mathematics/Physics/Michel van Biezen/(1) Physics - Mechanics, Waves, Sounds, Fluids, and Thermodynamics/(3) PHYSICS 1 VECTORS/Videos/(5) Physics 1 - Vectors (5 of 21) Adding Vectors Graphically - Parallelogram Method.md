@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=8kEy929zHgY)
-
+---
+Source:
+  - https://youtube.com/watch?v=8kEy929zHgY
+---
 - ![[Screenshot 2023-07-10 at 1.52.16 AM.png]]
 	- [[Parallelogram method]]
 		- Draw line parallel to the other vector

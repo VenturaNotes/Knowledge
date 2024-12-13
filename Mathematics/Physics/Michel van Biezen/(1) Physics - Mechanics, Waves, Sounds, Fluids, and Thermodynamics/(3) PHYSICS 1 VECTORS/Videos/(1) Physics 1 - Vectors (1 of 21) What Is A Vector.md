@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FkO6vyMqo8E)
-
+---
+Source:
+  - https://youtube.com/watch?v=FkO6vyMqo8E
+---
 - ![[Screenshot 2023-07-10 at 1.39.12 AM.png]]
 	- [[Vector]]
 		- A mathematical representation of a physical quantity that has magnitude and direction

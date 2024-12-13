@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jB5OWR5jkdg)
-
+---
+Source:
+  - https://youtube.com/watch?v=jB5OWR5jkdg
+---
 - ![[Screenshot 2023-02-13 at 12.28.12 AM.png]]
 	- [[Complex Fraction]]
 		- It is a fraction that is complicated and difficult to understand

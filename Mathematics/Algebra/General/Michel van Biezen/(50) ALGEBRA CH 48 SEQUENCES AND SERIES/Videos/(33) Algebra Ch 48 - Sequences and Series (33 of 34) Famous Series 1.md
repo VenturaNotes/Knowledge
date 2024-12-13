@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=IiI6fklbovw)
-
+---
+Source:
+  - https://youtube.com/watch?v=IiI6fklbovw
+---
 - ![[Screenshot 2023-04-30 at 1.30.29 AM.png]]
 	- Arithmetic Series, Common difference = 1
 	- sum of terms  of arithmetic series formula w/ common difference 1

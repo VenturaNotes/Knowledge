@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=omNOWhxqqoo)
-
+---
+Source:
+  - https://youtube.com/watch?v=omNOWhxqqoo
+---
 - ![[Screenshot 2023-02-13 at 5.15.36 PM.png]]
 - Definitions
 	- (1) Where a function equals zero

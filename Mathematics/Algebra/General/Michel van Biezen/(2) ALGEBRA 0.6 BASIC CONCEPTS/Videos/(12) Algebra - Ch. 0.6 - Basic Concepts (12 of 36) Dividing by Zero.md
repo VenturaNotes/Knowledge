@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=3A4Kg_DX8Rw)
-
+---
+Source:
+  - https://youtube.com/watch?v=3A4Kg_DX8Rw
+---
 - ![[Screenshot 2023-01-10 at 4.14.10 PM.png]]
 - $\frac 50$ = $\infty$ 
 	- Since infinity is not a definable number, there is nothing you can assign infinity to because nothing in the universe is infinite

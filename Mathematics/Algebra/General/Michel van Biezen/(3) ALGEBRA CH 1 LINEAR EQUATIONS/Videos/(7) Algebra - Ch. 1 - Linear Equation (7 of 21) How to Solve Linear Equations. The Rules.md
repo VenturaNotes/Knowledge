@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=sS--3USbZ_c)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=sS--3USbZ_c
+---
 - (1) Eliminate fractions, decimals, and parenthesis
 	- ![[Screenshot 2023-01-13 at 3.44.04 PM.png]]
 - (2) Move all terms with the variable to the left side

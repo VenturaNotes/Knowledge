@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=LxhKcc2lBgI)
-
+---
+Source:
+  - https://youtube.com/watch?v=LxhKcc2lBgI
+---
 - ![[Screenshot 2023-02-04 at 1.14.17 AM.png]]
 	- a, b, and c are constants
 	- When a > 0, the parabola opens upward ^f61eeb

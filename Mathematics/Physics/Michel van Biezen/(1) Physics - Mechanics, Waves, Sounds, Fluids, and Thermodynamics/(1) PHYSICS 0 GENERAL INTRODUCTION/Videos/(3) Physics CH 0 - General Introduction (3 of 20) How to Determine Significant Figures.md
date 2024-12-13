@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=dc53b5-H2Jo)
-
+---
+Source:
+  - https://youtube.com/watch?v=dc53b5-H2Jo
+---
 - ![[Screenshot 2023-01-22 at 5.54.25 PM.png]]
 	- Most of the numbers that we deal with are measure numbers
 	- We can only measure a tool so accurately because of certain limitations

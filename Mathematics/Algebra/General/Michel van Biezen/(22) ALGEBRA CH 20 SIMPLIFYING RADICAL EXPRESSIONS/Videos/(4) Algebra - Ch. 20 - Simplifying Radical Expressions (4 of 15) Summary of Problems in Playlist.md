@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tBdboT52MLA)
-
+---
+Source:
+  - https://youtube.com/watch?v=tBdboT52MLA
+---
 - ![[Screenshot 2023-02-15 at 9.49.30 PM.png]]
 	- Will learn
 		- Combine like radicals

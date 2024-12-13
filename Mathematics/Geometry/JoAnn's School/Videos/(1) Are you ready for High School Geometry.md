@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=xt3mm-1pGEM)
-
+---
+Source:
+  - https://youtube.com/watch?v=xt3mm-1pGEM
+---
 - Before beginning this High School Geometry playlist course, you should have completed Algebra 1 and know how to:
 	- Measure with customary and metric units
 	- Measure angles with a protractor

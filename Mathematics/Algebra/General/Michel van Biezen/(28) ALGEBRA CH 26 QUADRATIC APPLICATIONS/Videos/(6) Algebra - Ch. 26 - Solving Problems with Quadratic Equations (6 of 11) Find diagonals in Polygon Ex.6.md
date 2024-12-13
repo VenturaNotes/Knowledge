@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=u_kUO35rQoY)
-
+---
+Source:
+  - https://youtube.com/watch?v=u_kUO35rQoY
+---
 - ![[Screenshot 2023-02-19 at 5.41.08 AM.png]]
 	- If a polygon has 35 diagonals, how many sides does the polygon have?
 		- N = Number of diagonals

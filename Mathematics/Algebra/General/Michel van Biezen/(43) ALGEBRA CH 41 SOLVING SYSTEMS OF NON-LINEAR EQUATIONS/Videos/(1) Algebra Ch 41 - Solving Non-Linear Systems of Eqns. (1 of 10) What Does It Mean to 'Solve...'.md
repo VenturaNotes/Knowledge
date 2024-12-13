@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-i7VhqRjqG0)
-
+---
+Source:
+  - https://youtube.com/watch?v=-i7VhqRjqG0
+---
 - ![[Screenshot 2023-04-21 at 5.26.32 PM.png]]
 	- You can have a system of equations where one is linear and the other is non-linear, but this would still give you a "system of non-linear equations"
 	- In the examples above, we have

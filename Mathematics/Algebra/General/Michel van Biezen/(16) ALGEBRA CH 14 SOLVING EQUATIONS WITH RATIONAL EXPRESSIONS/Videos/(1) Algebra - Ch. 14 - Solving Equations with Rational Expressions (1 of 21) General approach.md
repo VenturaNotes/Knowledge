@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Smq0akRnpyA)
-
+---
+Source:
+  - https://youtube.com/watch?v=Smq0akRnpyA
+---
 - ![[Screenshot 2023-01-26 at 4.39.05 PM.png]]
 	- Solve: 
 		- Means Finding the value(s) of x that satisfy the equation (left side = right side)

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=8Dvr5ugKLy8)
-
+---
+Source:
+  - https://youtube.com/watch?v=8Dvr5ugKLy8
+---
 - ![[Screenshot 2023-07-10 at 1.08.24 AM.png]]
 	- [[MKS]]
 	- [[Imperial]]

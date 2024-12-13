@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Luw-toOKjkQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=Luw-toOKjkQ
+---
 - ![[Screenshot 2023-01-29 at 9.33.39 PM.png]]
 	- We have a simplified form of the famous arithmetic series.
 	- Instructions

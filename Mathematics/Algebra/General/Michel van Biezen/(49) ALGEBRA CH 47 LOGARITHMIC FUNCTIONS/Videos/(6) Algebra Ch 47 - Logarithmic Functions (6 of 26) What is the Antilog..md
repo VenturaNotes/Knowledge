@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HU29cYVL-X8)
-
+---
+Source:
+  - https://youtube.com/watch?v=HU29cYVL-X8
+---
 - Relationships to remember
 	- ![[Screenshot 2023-01-20 at 6.07.13 PM.png]]
 - Taking the log of both sides (goes from exponential to logarithmic)

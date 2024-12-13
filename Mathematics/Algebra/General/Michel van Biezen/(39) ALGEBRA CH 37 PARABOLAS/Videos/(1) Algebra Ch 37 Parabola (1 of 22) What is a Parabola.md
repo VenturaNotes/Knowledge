@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=exu_dYgV90Y)
-
+---
+Source:
+  - https://youtube.com/watch?v=exu_dYgV90Y
+---
 - ![[Screenshot 2023-04-19 at 1.13.54 AM.png]]
 	- A parabola is the shape of the graph of the general equation:
 		- $y=ax^2 + bx + c$ where a $\ne$ 0

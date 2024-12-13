@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=IxjC6Z5cu_Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=IxjC6Z5cu_Q
+---
 - For professional economists
 - This is for a PhD program
 - Course importance

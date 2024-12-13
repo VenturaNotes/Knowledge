@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=TokBo_2yhN8)
-
+---
+Source:
+  - https://youtube.com/watch?v=TokBo_2yhN8
+---
 - Image
 	- Two Data Sets (assume this is the entire population)
 		- X = (2, 4, 6, 8, 10)

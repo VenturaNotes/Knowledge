@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=918S8hvMF4Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=918S8hvMF4Q
+---
 - ![[Screenshot 2023-04-16 at 2.11.17 AM.png]]
 	- "x-y plane" or "coordinate plane"
 	- The x and y axis form the "cartesian coordinate system" or the "rectangular coordinate system"

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=u2kvxBnEuFQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=u2kvxBnEuFQ
+---
 - ![[Screenshot 2023-04-25 at 7.51.58 PM.png]]
 	- Examples
 		- The function $y=x^2$ is a one-to-one function when the x value can only be positive

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=BsC_hQmaPhI)
-
+---
+Source:
+  - https://youtube.com/watch?v=BsC_hQmaPhI
+---
 - ![[Screenshot 2023-01-22 at 8.59.55 PM.png]]
 	- First find the percent of the uncertainties compared to the nominal number
 	- Then add the percent uncertainties together

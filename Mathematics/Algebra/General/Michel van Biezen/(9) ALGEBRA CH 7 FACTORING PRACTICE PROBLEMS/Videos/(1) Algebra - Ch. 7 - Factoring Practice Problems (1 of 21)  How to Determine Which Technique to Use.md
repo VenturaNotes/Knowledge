@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FDhBDMqLMbY)
-
+---
+Source:
+  - https://youtube.com/watch?v=FDhBDMqLMbY
+---
 - ![[Screenshot 2023-01-30 at 6.03.07 PM.png]]
 - (1) First factor out any common factors
 	- Since all the numerical coefficients is even, we can see that we can factor out the number 2

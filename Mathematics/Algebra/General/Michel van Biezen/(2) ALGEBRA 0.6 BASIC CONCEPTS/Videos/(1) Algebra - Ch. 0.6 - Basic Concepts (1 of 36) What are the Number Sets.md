@@ -1,4 +1,7 @@
-[Video](https://youtube.com/watch?v=f9xCAsv5HYU)
+---
+Source:
+  - https://youtube.com/watch?v=f9xCAsv5HYU
+---
 - ![[Screenshot 2023-01-09 at 3.10.08 PM.png]]
 - All Numbers ($\frac 47$, 3, 0, -5, 1.5, $\pi$, $\sqrt 2$, $i$, 4 + 5$i$)
 	- Imaginary (i, 4 + 5i)

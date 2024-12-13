@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=cDNjjV9qs9s)
-
+---
+Source:
+  - https://youtube.com/watch?v=cDNjjV9qs9s
+---
 - ![[Screenshot 2023-02-06 at 10.39.49 AM.png]]
 	- R.E. stands for rational expression
 	- If the denominator simplifies with the numerator, then we don't need to worry when that quantity equals 0. 
