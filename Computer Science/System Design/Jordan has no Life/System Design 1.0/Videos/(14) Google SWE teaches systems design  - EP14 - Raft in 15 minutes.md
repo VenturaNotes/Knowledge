@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=YOMgi7T823E
+Reviewed: false
 ---
 - ![[Screenshot 2024-09-27 at 3.21.50 PM.png]]
 	- Will talk about [[Raft]] today

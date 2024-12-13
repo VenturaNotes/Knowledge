@@ -32,9 +32,12 @@ aliases:
 | ![[Screenshot 2024-12-11 at 2.31.51 PM.png\|200]] |
 | ------------------------------------------------- |
 | Conditional [[Truth Table]]                       |
+- ![[Screenshot 2024-12-12 at 8.02.14 AM.png]]
 - Given $A \land B \to B$
 	- In this conditional, the [[conjunction]] ($\land$) binds closer than the conditional arrow ($\to$).
 		- Therefore, we don't need any parentheses here.
+	- Since the above is a [[tautology]], we can write it as $A \land B \implies B$ as the double arrow tells us that it's a tautology
+		- We will call this an [[implication]], as it's a normal conditional with extra information
 ## References
 
 [^1]: [[Home Page - Algebra 1 - Groups, Rings, Fields and Arithmetic by Ramji Lal#^26r0fb]]

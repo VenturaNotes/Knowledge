@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=LHsPJ2bQX1U
+Reviewed: true
 ---
 - ![[Screenshot 2024-01-29 at 4.43.34 PM.png]]
 	- Writing Systems 
@@ -8,7 +9,7 @@ Source:
 			- Equations
 				- $x_1 + x_2 = 5$ 
 				- $3x_1 - 2x_2 = 10$
-			- Will only be using xs and no ys
+			- Will only be using `xs` and no `ys`
 			- Will have a bunch more variables than we're used to
 		- 2 matrices we need to be familiar with
 	- [[Coefficient Matrix]]
@@ -19,18 +20,18 @@ Source:
 			- Has both the coefficients and solution set of 5 and 10
 			- Divider or solid line (textbook doesn't have divider commonly)
 	- Example has two variables
-	- Solve by [[elimination]] (multiplied first equation by 2 and then combined the two equations)
+	- Solve by [[elimination method|elimination]] (multiplied first equation by 2 and then combined the two equations)
 	- Solving by using an augmented matrix
 		- When manipulating first row:
 			- Index Notation Reference
-				- ![[Screenshot 2024-01-29 at 4.22.13 PM.png|300]]
+				- ![[Screenshot 2024-01-29 at 4.22.13 PM.png|300]] [^1]
 			- Using $2R_1 + R_2  \rightarrow R_1$, (This multiplies $row\space1$ by $2$ and then adds $row \space 2$ to replace the values in $row 1$ 
 				-  $a_{1,1}$:  $2(1) + 3 = 5$
 				- $a_{1,2}$: $2(1) - 2 = 0$
 				- $a_{1,3}$: $2(5) + 10 = 20$
-			- Will learn about proper [[row operations]] later
+			- Will learn about proper [[Gaussian operations|row operations]] later
 			- Want to solve for $x_1$ and $x_2$ 
-	- Solving systems of linear equations using a matrix is much easier with more variables
+	- Solving [[system of linear equations|systems of linear equations]] using a matrix is much easier with more variables
 	- Terminology
 		- [[Linear Equation]]
 			- An equation that can be written as $a_1x_1$ + $a_2x_2$ + $a_3x_3$ + .... + $a_nx_n =b$ where $a_1,a_2...a_n,b$ are real or complex numbers
@@ -38,7 +39,7 @@ Source:
 				- This is just saying that we have a linear equation like we had with $y=mx+b$ which is just a different form. Basically a standard form equation where we have variables and coefficients equal to some value.
 		- [[System of Linear Equations]]
 			- A collection of two or more linear equations using the same variables.
-		- [[Solution]]
+		- [[Solution (Math)|Solution]]
 			- A list of numbers ($S_1,S_2,S_3,...$) that makes each equation in the system true when substituted for $x_1,x_2,x_3...$ respectively.
 				- Must make each equation true
 		- [[Solution Set]]

@@ -5,7 +5,6 @@ Length: 1 hour, 38 minutes, 9 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra Ch 37 Parabola (1 of 22) What is a Parabola]]
 [[(2) Algebra Ch 37 Parabola (2 of 22) Different Forms of the (Parabola) Quadratic Equation]]

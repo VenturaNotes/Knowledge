@@ -6,7 +6,6 @@ Length: 4 hours, 5 minutes, 23 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 - Middle-level language (originated in 1970s)
 - Most widely used programming language to date

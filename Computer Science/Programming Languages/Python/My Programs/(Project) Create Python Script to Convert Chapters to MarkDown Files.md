@@ -2,7 +2,6 @@
 tags:
   - status/complete
   - type/project
-Published: true
 ---
 
 - Copy and paste chapters from textbook to text file

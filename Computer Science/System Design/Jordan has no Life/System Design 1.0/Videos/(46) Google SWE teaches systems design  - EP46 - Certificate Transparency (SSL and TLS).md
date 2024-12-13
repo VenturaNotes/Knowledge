@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=W2PlBX81XyA
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-14 at 8.25.04 PM.png]]
 	- [[Certificate Transparency]] (Background)

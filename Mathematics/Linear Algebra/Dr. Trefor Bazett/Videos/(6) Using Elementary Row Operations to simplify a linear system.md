@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=B7XtnvNwEPA)
-
+---
+Source:
+  - https://youtube.com/watch?v=B7XtnvNwEPA
+---
 - ![[Screenshot 2023-07-16 at 2.19.33 PM.png]]
 	- [[Gaussian Elimination]]
 		- It would be nice to have 1s along diagonal and 0s below the 1s. Any number can be above the 1s

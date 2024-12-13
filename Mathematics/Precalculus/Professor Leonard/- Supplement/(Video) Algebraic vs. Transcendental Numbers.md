@@ -7,7 +7,6 @@ Related:
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - ![[Screenshot 2023-03-08 at 10.12.03 PM.png]]
 	- [[Algebraic Numbers]] (part of that big family)

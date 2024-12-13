@@ -1,7 +1,6 @@
 ---
 aliases:
   - sorted()
-References: 3
 ---
 ## Synthesis
 ### Definition

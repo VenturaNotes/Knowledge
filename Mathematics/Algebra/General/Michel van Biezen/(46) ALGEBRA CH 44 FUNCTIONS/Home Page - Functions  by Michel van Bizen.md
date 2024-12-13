@@ -5,7 +5,6 @@ Length: 53 minutes, 36 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 44 - Functions (1 of 8) Notations of a Function]]
 [[(2) Algebra - Ch. 44 - Functions (2 of 8) How to Evaluate a Function]]

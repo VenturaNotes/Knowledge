@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=LOQWE9MAZIc)
-
+---
+Source:
+  - https://youtube.com/watch?v=LOQWE9MAZIc
+---
 - Fractions
 	- Reducing
 	- Multiplying

@@ -2,7 +2,6 @@
 aliases:
   - National Association of Securities Dealers Automated Quotations
   - NASDAQ OMX Group
-References: 1
 ---
 ## Synthesis
 - 

@@ -1,7 +1,6 @@
 ---
 aliases:
   - triangle form
-References: 1
 ---
 ## Synthesis
 - 

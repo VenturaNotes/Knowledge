@@ -5,7 +5,6 @@ Length: 2 hours, 12 minutes, 20 seconds
 tags:
   - type/playlist
   - status/complete
-Published: true
 ---
 [[(1) Calculus - Derivatives and Related Rates (1 of 24) Increasing Radius]]
 [[(2) Calculus - Derivatives and Related Rates (2 of 24) Changing Rate of Water Ripples]]

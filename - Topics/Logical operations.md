@@ -1,7 +1,6 @@
 ---
 aliases:
   - logical operation
-References: 3
 ---
 ## Synthesis
 - 
@@ -30,6 +29,11 @@ References: 3
 - [[Implication|Conditional]] (aka implication)
 	- A $\to$ B
 		- If A, then B
+- [[Biconditional]] (normal conditional in both directions)
+	- A $\leftrightarrow$ B
+		- A if and only if B
+		- Truth value on both sides should coincide meaning both need to be true or both need to be false for this logical statement to be true
+		- $\iff$ would imply a [[tautology]]
 ## References
 
 [^1]: [[(2) Start Learning Logic - Part 1 - Logical Statements, Negation and Conjunction]]

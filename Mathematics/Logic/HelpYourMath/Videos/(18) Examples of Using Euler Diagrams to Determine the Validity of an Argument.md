@@ -1,5 +1,6 @@
-[Video](https://youtube.com/watch?v=0uSQBTMvTO8)
-
+---
+Source:
+  - https://youtube.com/watch?v=0uSQBTMvTO8
 ---
 - ![[Screenshot 2023-05-12 at 10.48.59 AM.png]]
 - Practice Problems

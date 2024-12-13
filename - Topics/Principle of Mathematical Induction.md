@@ -2,7 +2,6 @@
 aliases:
   - PMI
   - induction
-References:
 ---
 ## Synthesis
 - 

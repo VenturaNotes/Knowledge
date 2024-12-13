@@ -5,7 +5,6 @@ Length: 3 hours, 17 minutes, 35 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 6 - Factoring (1 of 55) What is a Factor]]
 [[(2) Algebra - Ch. 6 - Factoring (2 of 55) What is Factoring.]]

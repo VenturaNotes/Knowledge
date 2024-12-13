@@ -8,7 +8,7 @@
 	- Start with an [[augmented matrix]]: a vertical bar will separate the [[coefficients]] from the [[constants]]
 		- To get a solution for x and y, we need to do elementary row operations
 			- We can manipulate our matrix using row operations. These produce matrices that lead to linear systems with the same solution set as the original system
-	- [[Row Operations]]
+	- [[Gaussian operations|row operations]]
 		- (1) We can interchange any two rows
 		- (2) We can multiply any row by a non-zero number
 		- (3) We can multiply a row by a real number and add this to the corresponding elements of any other row

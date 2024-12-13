@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Dt1trw66IAc
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-13 at 8.17.47 PM.png]]
 	- [[Data Serialization]] Background

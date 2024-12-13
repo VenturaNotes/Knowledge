@@ -5,7 +5,6 @@ Length: 12 minutes
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - f(x) = x$^n$ 
 	- According to the power rule, the derivative of the above function is $$f'(x) = n*x^{n-1}$$

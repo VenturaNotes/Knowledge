@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=XFAx53P9NWE
+Reviewed: false
 ---
 - ![[Screenshot 2024-09-28 at 5.32.26 PM.png]]
 	- hey guys uh today i am back with another video to talk about [[streaming]] um i apologize in advance because this video is gonna be pretty freaking long. um additionally the one other really nice thing about this is that the second we're done covering streaming we've basically covered all like the fundamental / theoretical topics so now from here on out we can either basically look at specific technologies or like even more in-depth algorithms so we're gonna start going from you know systems design noobs to experts after this video. um either way let's get into it like i said it's gonna be a long one 

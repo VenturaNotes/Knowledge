@@ -1,7 +1,8 @@
-[Video](https://youtube.com/watch?v=tsXAxLISH3I)
-
 ---
-- [[Logical Argument]]
+Source:
+  - https://youtube.com/watch?v=tsXAxLISH3I
+---
+-  [[Logical Argument]]
 	- A logical argument is made up of premises and a conclusion
 	- An argument is <mark style="background: #FFF3A3A6;">valid</mark> if the fact that all the premises force the conclusion to be true.
 	- An argument  that is not valid is <mark style="background: #FFF3A3A6;">invalid</mark>, or a <mark style="background: #FFF3A3A6;">fallacy</mark>

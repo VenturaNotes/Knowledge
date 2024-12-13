@@ -5,7 +5,6 @@ Length: 12 minutes, 48 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - In 2005, there were 1000 rabbits on an island. The population grows 8% every year. At this rate, how many rabbits will there be on the island by 2020?
 	- ![[Screenshot 2022-12-27 at 3.24.28 AM.png]]

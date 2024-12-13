@@ -5,7 +5,6 @@ Length: 42 minutes, 59 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 27 - The Discriminant (1 of 11) What is the Discriminant]]
 [[(2) Algebra - Ch. 27 - The Discriminant (2 of 11) What is the Discriminant. 3 Examples]]

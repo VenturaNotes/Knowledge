@@ -5,7 +5,6 @@ Length: 2 minutes, 29 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - ![[Screenshot 2023-04-18 at 6.57.35 PM.png|500]]
 	- Direct Variation

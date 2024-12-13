@@ -1,7 +1,6 @@
 ---
 aliases:
   - logical equivalences
-References: 1
 ---
 ## Synthesis
 - 

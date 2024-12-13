@@ -1,7 +1,6 @@
 ---
 aliases:
   - metric spaces
-References: 1
 ---
 ## Synthesis
 - 

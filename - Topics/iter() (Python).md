@@ -1,7 +1,6 @@
 ---
 aliases:
   - iter()
-References: 1
 ---
 ## Synthesis
 - 

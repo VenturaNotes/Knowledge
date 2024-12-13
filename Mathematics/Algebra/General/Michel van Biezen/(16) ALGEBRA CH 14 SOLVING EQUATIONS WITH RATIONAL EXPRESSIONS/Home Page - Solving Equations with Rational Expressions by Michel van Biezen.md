@@ -5,7 +5,6 @@ Length: 1 hour, 14 minutes, 35 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 14 - Solving Equations with Rational Expressions (1 of 21) General approach]]
 [[(2) Algebra - Ch. 14 - Solving Equations with Rational Expressions (2 of 21) Validate and Check]]

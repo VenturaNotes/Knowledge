@@ -5,7 +5,6 @@ Length: 36 minutes, 43 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Sets Basics - Introduction - Don't Memorise]]
 [[(2) What are Sets - Set Theory - Don't Memorise]]

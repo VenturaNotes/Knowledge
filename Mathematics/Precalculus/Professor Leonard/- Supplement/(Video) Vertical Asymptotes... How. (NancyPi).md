@@ -5,7 +5,6 @@ Length: 13 minutes
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - ![[Screenshot 2023-03-06 at 9.44.36 PM.png]]
 	- Find the vertical asymptote(s).

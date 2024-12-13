@@ -1,7 +1,6 @@
 ---
 aliases:
   - AON
-References: 1
 ---
 ## Synthesis
 - 

@@ -1,9 +1,10 @@
 ---
 Source:
   - https://youtube.com/watch?v=SEh3yhEFK1w
+Reviewed: true
 ---
 - ![[Screenshot 2024-01-30 at 9.26.17 AM.png]]
-	- 3 [[Row operations]]
+	- 3 [[Gaussian operations|row operations]]
 		- [[Replacement]]
 			- Replace one row by the sum of itself and a multiple of another row
 				- The definition here is not necessarily the best. You can also find the multiple of the row that you are replacing
@@ -13,7 +14,7 @@ Source:
 				- the $\rightarrow$ could mean "gives" or "targets" maybe?
 		- [[Interchange]]
 			- Interchange (swap) two rows
-				- "Helpful for achieving maximum number of zeros. Helps visually " - Ayushe
+				- "Helpful for achieving maximum number of zeros. Helps visually "[^1]
 		- [[Scaling]]
 			- Multiply a row by a non-zero constant
 				- Division is not one of the row operations
@@ -34,4 +35,7 @@ Source:
 	- Practice
 		- Solve the system using row operations and aug. matrices
 			- You could do two operations in the same step
-			- The solution is given as an ordered pair (1,0,-1)
+			- The solution is given as an [[ordered triple]] (1,0,-1)
+
+## References
+[^1]: Ayushe Gangal

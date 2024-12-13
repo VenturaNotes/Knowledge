@@ -1,7 +1,6 @@
 ---
 aliases:
   - AIAS
-References: 1
 ---
 ## Synthesis
 - 

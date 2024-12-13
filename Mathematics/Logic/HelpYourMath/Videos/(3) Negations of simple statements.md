@@ -1,5 +1,6 @@
-[Video](https://youtube.com/watch?v=xkB2KNGFhHA)
-
+---
+Source:
+  - https://youtube.com/watch?v=xkB2KNGFhHA
 ---
 - Negations
 	- The negation of a statement is a corresponding statement with the opposite truth value. (that is, both statements cannot be true.)

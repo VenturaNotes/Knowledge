@@ -96,7 +96,7 @@ tags:
 #### Elements and Compounds
 - “Any sample of matter that has the same physical and chemical properties throughout the sample is called a [[substance]].” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=JPF68WH6))
 	- Two types
-		- “A substance that cannot be broken down into chemically simpler components is an [[element]].” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=YBHUXBRJ))
+		- “A substance that cannot be broken down into chemically simpler components is an [[Elements (Chemistry)|element]].” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=YBHUXBRJ))
 			- Aluminum (used in soda cans)
 			- 118 known elements in universe
 		- “A substance that can be broken down into chemically simpler components (because it has more than one element) is a [[compound]]” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=5NBNJYGT))
@@ -117,7 +117,7 @@ tags:
 		- “Many mixtures are obvious combinations of two or more substances” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=QA9D54XF))
 			- [[Heterogeneous mixture]]
 				- Sand and water
-		- “Mixtures with a consistent composition throughout are called [[Homogeneous Mixture|homogeneous mixtures]] (or solutions).” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=XUQMR5KP))
+		- “Mixtures with a consistent composition throughout are called [[solution (Chemistry)|homogeneous mixtures]] (or solutions).” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=XUQMR5KP))
 			- Sugar dissolved in water
 			- [[Metal alloy]] like [[steel]] is a [[solid solution]]
 			- “[[air]], a mixture of mainly [[nitrogen]] and [[oxygen]], is a [[gaseous solution]].” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=6T5SUY7D))

@@ -5,7 +5,6 @@ Length: 54 minutes
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Chemistry - Introduction (1 of 10) Basic Terminology]]
 [[(2) Chemistry - Introduction (2 of 10) Atoms and Molecules]]

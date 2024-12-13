@@ -1,7 +1,6 @@
 ---
 aliases:
   - truth tables
-References: 3
 ---
 ## Synthesis
 - 
@@ -20,9 +19,9 @@ References: 3
 
 ## Source[^3]
 
-| ![[Screenshot 2024-12-11 at 2.31.51 PM.png\|200]] |
-| ------------------------------------------------- |
-| [[Implication\|conditional]] Truth Table          |
+| ![[Screenshot 2024-12-11 at 2.31.51 PM.png\|200]] | ![[Screenshot 2024-12-12 at 8.09.42 AM.png\|200]] |
+| ------------------------------------------------- | ------------------------------------------------- |
+| [[Implication\|conditional]] Truth Table          | [[Biconditional]]  Truth Table                    |
 
 ## References
 

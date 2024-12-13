@@ -5,7 +5,6 @@ Length: 2 hours, 21 minutes, 22 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra Ch 48 - Sequences and Series (1 of 34) What is the Difference]]
 [[(2) Algebra Ch 48 - Sequences and Series (2 of 34) The Notation of Sequences]]

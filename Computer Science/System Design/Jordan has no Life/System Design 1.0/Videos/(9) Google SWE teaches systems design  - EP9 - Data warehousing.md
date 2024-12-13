@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=lHfcMmAX42g
+Reviewed: false
 ---
 - ![[Screenshot 2024-09-24 at 9.29.28 AM.png]]
 	- Lied to us about doing a database case study.

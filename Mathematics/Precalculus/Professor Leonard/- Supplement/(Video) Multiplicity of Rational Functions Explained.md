@@ -5,7 +5,6 @@ Length: 4 minutes, 37 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - ![[Screenshot 2023-03-06 at 11.04.38 PM.png]]
 	- The horizontal asymptote is 0 because the degree in the numerator is less than the degree in the denominator

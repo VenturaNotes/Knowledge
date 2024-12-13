@@ -1,5 +1,6 @@
-[Video](https://youtube.com/watch?v=f63kGBq4234)
-
+---
+Source:
+  - https://youtube.com/watch?v=f63kGBq4234
 ---
 - ![[Pasted image 20230512101119.png|500]]
 - Biconditional statements

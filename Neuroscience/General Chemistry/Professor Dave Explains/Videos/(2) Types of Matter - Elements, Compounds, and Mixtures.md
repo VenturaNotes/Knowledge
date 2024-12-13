@@ -20,7 +20,7 @@
 		- Making an entirely new substance with new chemical bonds is known as a chemical change
 	- A [[pure substance]] is one that can't be separated into other materials by any physical processes
 		- Water, whether you boil or freeze it will still be water. It's a type of [[molecule]] which is just multiple connected atoms
-	- An [[element]] can't be broken down into smaller parts by physical or chemical means. 
+	- An [[Elements (Chemistry)|element]] can't be broken down into smaller parts by physical or chemical means. 
 		- For example, water is not an element. It's a [[compound]] because it's made of two or more elements. In this case, oxygen and hydrogen
 			- By a chemical process, we can divide water into two elements but that's as far as we can go with chemistry
 				- These are now molecules of a given element
@@ -28,7 +28,7 @@
 	- A [[mixture]] is made of two or more pure substances and these can be separated by physical processes
 		- If you boil salt water, the water will evaporate and the salt won't
 			- So the substances will have separated
-		- A [[homogeneous mixture]] means all the substances are distributed evenly and every section looks the same like sugar and water
+		- A [[solution (Chemistry)|homogeneous mixture]] means all the substances are distributed evenly and every section looks the same like sugar and water
 		- A [[heterogeneous mixture]] means the substances are not distributed evenly and zooming in on different sections would look differently like oil and water
 	- Pure substances
 		- Elements made of only one type of atom

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=gVSQ8NoMEsU)
-
+---
+Source:
+  - https://youtube.com/watch?v=gVSQ8NoMEsU
+---
 - Whatever we do to the numerator we must do exactly the same to the denominator
 - Prime Numbers
 	- 2, 3, 5, 7, 11, 13...

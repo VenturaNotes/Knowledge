@@ -5,7 +5,6 @@ Length: 43 minutes, 2 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra Ch 46 - Exponential Function (1 of 12) What is an Exponential Function]]
 [[(2) Algebra Ch 46 - Exponential Functions (2 of 12) How to Solve for x=.]]

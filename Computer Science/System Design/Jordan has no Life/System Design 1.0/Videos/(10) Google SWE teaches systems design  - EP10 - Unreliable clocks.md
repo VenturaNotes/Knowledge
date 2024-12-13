@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ax39W2blN00
+Reviewed: false
 ---
 - ![[Screenshot 2024-09-24 at 10.17.27 AM.png]]
 	- Today's episode is going to be about [[unreliable clocks]] in [[distributed systems]]

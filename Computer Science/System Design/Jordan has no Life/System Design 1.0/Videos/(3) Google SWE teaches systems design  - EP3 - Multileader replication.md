@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1BXCxpcsmzc
+Reviewed: false
 ---
 - ![[Screenshot 2024-09-17 at 4.13.23 AM.png]]
 	- [[Multi-leader replication]]

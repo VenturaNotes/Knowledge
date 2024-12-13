@@ -3,7 +3,7 @@ Source:
   - https://www.youtube.com/watch?v=YCyItKPDcSo
 ---
 - ![[Screenshot 2024-11-18 at 2.01.07 AM.png|500]]
-	- Solving systems of equations using [[row operations]]
+	- Solving systems of equations using [[Gaussian operations|row operations]]
 	- We will have 3 equations and 3 unknowns
 	- [[Augmented Matrix]]
 		- For each equation of system, you have a row and the coefficients of the matrix are the coefficients of the unknown variables. Final column will consist of values from right-hand side of equation

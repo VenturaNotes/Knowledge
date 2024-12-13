@@ -1,7 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/playlist?list=PL9J7RpUf2cG9nvcsShEOi-Fo5Ogcx97tl
-Length: 9 hours, 10 minutes, 16 seconds
+Length: 10 hours, 18 minutes, 4 seconds
 tags:
   - status/incomplete
   - type/playlist
@@ -88,3 +88,7 @@ tags:
 	- [[(78) Install Data Analysis Add On for Excel]]
 	- [[(79) 8 4 A F Distribution]]
 	- [[(80) 8 4 B ANOVA Hypothesis Test for Several Means]]
+	- [[(81) 8 A Review Descriptive Statistics]]
+	- [[(82) 8 B Review Probability]]
+	- [[(83) 8 C Review Confidence Intervals]]
+	- [[(84) 8 D Review Hypothesis Tests]]

@@ -5,7 +5,6 @@ Length: 11 minutes, 16 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - ![[Pasted image 20230713100528.png]]
 	- Strategy for solving problems involving maximizing or minimizing quadratic functions

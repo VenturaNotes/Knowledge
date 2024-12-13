@@ -1,7 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=53RSWIpxJxo
-Reviewed: false
+Reviewed: true
 ---
 - ![[Screenshot 2023-10-11 at 2.15.04 AM.png]]
 	- [[Logical Operations]]
@@ -28,7 +28,7 @@ Reviewed: false
 		- (how to get new true propositions from other true propositions)
 		- Don't have to write down truth tables anymore because we can just apply the rules
 		- [[Modus ponens]]
-			- We have 2 [[antecedent|premises]]
+			- We have 2 [[premise|premises]]
 			- If A $\to$ B true and A true, then: B true
 				- Get out a third true statement
 		- [[Chain syllogism]]

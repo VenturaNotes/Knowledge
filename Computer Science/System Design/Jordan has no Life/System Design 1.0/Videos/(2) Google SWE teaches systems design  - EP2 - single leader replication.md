@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=X687PvgOWzQ
+Reviewed: false
 ---
 - ![[Screenshot 2024-09-15 at 4.53.54 AM.png]]
 	- Comparing [[SQL]] and [[NoSQL]] is a bad idea

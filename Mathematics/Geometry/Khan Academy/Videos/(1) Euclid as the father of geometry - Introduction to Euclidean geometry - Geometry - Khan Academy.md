@@ -1,4 +1,8 @@
-[Video](https://youtube.com/watch?v=WqzK3UAXaHs)
+---
+Source:
+  - https://youtube.com/watch?v=WqzK3UAXaHs
+---
+
 
 - ![[Screenshot 2023-05-09 at 4.11.40 PM.png]]
 	- "The laws of nature are but the mathematical thoughts of God." - Euclid (of Alexandria )

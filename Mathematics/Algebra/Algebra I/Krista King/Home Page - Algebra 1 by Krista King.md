@@ -5,7 +5,6 @@ Length: 3 hours, 21 minutes, 5 seconds
 tags:
   - type/playlist
   - status/complete
-Published: true
 ---
 [[(1) associative property (KristaKingMath)]]
 [[(2) commutative property (KristaKingMath)]]

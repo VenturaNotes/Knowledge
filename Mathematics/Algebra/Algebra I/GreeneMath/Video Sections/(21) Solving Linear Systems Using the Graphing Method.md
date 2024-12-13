@@ -15,7 +15,7 @@
 	- (1) [[Graphing]]
 		- Method is slow and inefficient. Method only taught so you understand the concept better.
 	- (2) [[Substitution]]
-	- (3) [[Elimination]]
+	- (3) [[elimination method|elimination]]
 	- (4) [[Matrix Methods]]
 		- Used for really big systems
 		- Mostly shown in Algebra 2

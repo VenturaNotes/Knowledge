@@ -5,7 +5,6 @@ Length: 9 minutes, 31 seconds
 tags:
   - type/video
   - status/complete
-Published: true
 ---
 - Uses small example as swell as large examples with 3 discs
 - Problem

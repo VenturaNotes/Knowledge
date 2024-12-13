@@ -5,7 +5,6 @@ Length: 50 minutes, 20 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Just For Fun! - Statistics (19) Should You Switch Doors to Win the Car]]
 [[(2) Statistics - Introduction (1 of 13) Listing of Topics Covered]]

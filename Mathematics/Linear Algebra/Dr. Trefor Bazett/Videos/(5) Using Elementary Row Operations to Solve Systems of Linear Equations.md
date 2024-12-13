@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MbmZk-x2FFs)
-
+---
+Source:
+  - https://youtube.com/watch?v=MbmZk-x2FFs
+---
 - ![[Screenshot 2023-07-16 at 2.08.34 PM.png]]
 	- [[Elementary row operations]]
 		- This ad hoc method is going to be too cumbersome for us

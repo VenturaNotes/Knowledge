@@ -5,7 +5,6 @@ Length: 1 hour, 57 minutes, 43 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 3 - Formula, Inequalities, Absolute Value (1 of 38) Solving Formula for a Variable - 1]]
 [[(2) Algebra - Ch. 3 - Formula, Inequalities, Absolute Value (2 of 38) Solving Formula for a Variable - 2]]

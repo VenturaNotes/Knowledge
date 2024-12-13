@@ -1,7 +1,6 @@
 ---
 aliases:
   - Finite set
-References: 1
 ---
 ## Synthesis
 - 

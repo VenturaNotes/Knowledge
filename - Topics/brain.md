@@ -1,7 +1,6 @@
 ---
 aliases:
   - brains
-References: 1
 ---
 ## Synthesis
 - 

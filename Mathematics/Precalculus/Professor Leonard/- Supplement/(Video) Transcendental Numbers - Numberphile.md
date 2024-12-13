@@ -7,7 +7,6 @@ Related:
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - An irrational number means it can't be expressed as a fraction
 - You can write $\pi$ as a decimal expansion (although you'll never get it write)

@@ -5,7 +5,6 @@ Length: 6 minutes, 21 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - Just need to find the derivative of each term separately
 	- ![[Screenshot 2022-12-24 at 8.05.04 AM.png]]

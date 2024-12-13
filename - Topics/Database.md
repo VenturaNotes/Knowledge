@@ -1,3 +1,7 @@
+---
+aliases:
+  - databases
+---
 ## Synthesis
 - 
 ## Source [^1]

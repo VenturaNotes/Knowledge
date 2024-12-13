@@ -5,7 +5,6 @@ Length: 2 hours, 29 minutes, 27 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Intro to Set Theory - definition and representations of]]
 [[(2) Set Theory Notation - 'is an element of']]

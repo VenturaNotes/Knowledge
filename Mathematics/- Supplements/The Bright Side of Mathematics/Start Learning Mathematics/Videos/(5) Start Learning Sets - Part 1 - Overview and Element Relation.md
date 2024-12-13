@@ -1,7 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=iA-Dtf7529M
-Reviewed: false
+Reviewed: true
 ---
 - ![[Screenshot 2023-10-11 at 2.35.27 AM.png]]
 	- [[Set theory]]
@@ -12,11 +12,11 @@ Reviewed: false
 			- Shortcut (goes straight to doing mathematics)
 				- [[Propositional logic]]
 				- [[Naive set theory]]
-	- [[Axioms of set theory]]
+	- Axioms of set theory
 		- List of propositions assumed to be true
 	- [[Set]]: Collection of distinct objects into a whole
 		- Not a correct definition but an idea we have in mind written down
-		- such an object x inside a set M is called an [[element]] of M
+		- such an object x inside a set M is called an [[element (Math)|element]] of M
 			- $x \in M$ 
 		- If x is not such an object inside the set M, we write $x \notin M$ 
 	- A set can be defined by giving all its elements: inside curly brackets
@@ -24,9 +24,7 @@ Reviewed: false
 		- A := {2, 5, 6}
 			- Lefthand side is defined by the righthand side
 			- Sign that reminds you that a new name/variable is introduced at this point
-			- [[colon-equals symbol]]
-				- :=
-				- Means "defined by"
+			- := means [[defined by]]
 	- [[Empty set]]
 		- Has no elements at all $\varnothing$ := {}
 	- [[Natural numbers]]: $\mathbb{N}$ 

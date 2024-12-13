@@ -48,7 +48,7 @@ tags:
 		- Example
 			- Shipra will go to school
 			- $\lnot$(Shipra will go to school)
-	- “[[Conditional statement]]” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=X8GRUURF))
+	- “[[Conditional statement]]” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=X8GRUURF)) ^cvsjhu
 		- If P, then Q
 			- P is the [[antecedent]] or [[hypothesis]]
 			- Q is the [[consequent]] or [[conclusion]]

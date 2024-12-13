@@ -5,7 +5,6 @@ Length: 2 hours, 4 minutes, 37 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Calculus 1 CH 3  Derivatives (1 of 24) Simple]]
 [[(2) Calculus 1 CH 3 Derivatives (2 of 24) The Chain Rule]]

@@ -1,7 +1,6 @@
 ---
 aliases:
   - MRT
-References: 1
 ---
 ## Synthesis
 - 

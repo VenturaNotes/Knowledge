@@ -1,5 +1,6 @@
-[Video](https://www.youtube.com/watch?v=Ss-PNTLUlbc&feature=youtu.be)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Ss-PNTLUlbc&feature=youtu.be
 ---
 - Variations of the conditional statement
 	- A conditional statement is of the form:

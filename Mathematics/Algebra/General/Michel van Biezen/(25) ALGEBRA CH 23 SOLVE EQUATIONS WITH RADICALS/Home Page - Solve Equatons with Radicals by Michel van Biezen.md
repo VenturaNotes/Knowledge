@@ -5,7 +5,6 @@ Length: 43 minutes, 44 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 - Videos 12+ may not have been created?
 - Missing or not done

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VySrBndGlOs
+Reviewed: false
 ---
 - ![[Screenshot 2024-09-28 at 1.28.58 PM.png]]
 	- Will talk about [[batch processing]]. Means we're almost to the end of all the stuff that designing data intensive applications talks about. Then we can move onto some more practical systems designing concepts using actual technologies 

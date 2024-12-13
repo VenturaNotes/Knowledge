@@ -1,0 +1,23 @@
+---
+Source:
+  - https://youtube.com/watch?v=xeq08tXY0oo
+---
+- ![[Screenshot 2023-07-17 at 12.14.26 AM.png]]
+	- An [[onto transformation]] is when every single thing in codomain gets hit my something from the domain
+		- Every vector in codomain will have some vector in the domain that transforms into it
+	- Definition: T is onto if every vector $\vec{y} \in \mathbb{R}^m$ has $\vec{y} = T(\vec{x})$ for some $\vec{x} \in \mathbb{R}^n$. 
+		- For any y in codomain, there is an x inside domain such that the transformation of x is equal to y
+	- Definition: T is one-to-one if $T(\vec{x_1}) = T(\vec{x_2})$ forces $\vec{x_1} = \vec{x_2}$
+		- When every pair of vectors go to two different things, that'll be called a [[one-to-one transformation]]
+	- If $A\vec{x} = \vec{b}$ has a solution, it has $\infty$ many solutions so not 1:1
+		- Two free variables so not 1:1
+	- If $A\vec{x} = \vec{b}$ not solvable for all $\vec{b}$, so not onto
+		- Since bottom row is all 0s
+- ![[Screenshot 2023-07-17 at 12.16.14 AM.png|400]]
+	- The Big Theorem, Part 2
+		-  The following are equivalent (TFAE)
+			- (1) The columns of A span $\mathbb{R}^m$
+			- (2) For every $\vec{b} \in \mathbb{R}^m$, $\vec{b}$ is some linear combo of the columns of A
+			- (3) For every $\vec{b} \in \mathbb{R}^m$, $A\vec{x}=\vec{b}$ has a solution
+			- (4) The RREEF of A has a leading 1 (or pivot) in every row 
+			- (5) Transformation $A\vec{x}$ is onto

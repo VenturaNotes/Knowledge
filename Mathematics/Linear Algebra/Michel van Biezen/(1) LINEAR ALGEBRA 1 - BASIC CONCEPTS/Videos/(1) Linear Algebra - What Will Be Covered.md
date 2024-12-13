@@ -4,7 +4,7 @@
 	- Topics
 		- [[Matrices]]
 		- [[Determinants]]
-		- [[Systems of Linear Equations]]
+		- [[system of linear equations|Systems of Linear Equations]]
 		- [[Vector Spaces]]
 		- [[Transformations]]
 		- [[Eigenvalues]]

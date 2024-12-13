@@ -5,7 +5,6 @@ Length: 7 minutes, 58 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - ![[Screenshot 2023-03-08 at 10.31.44 PM.png|300]]
 	- Exponential growth comes from

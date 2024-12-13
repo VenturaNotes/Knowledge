@@ -5,7 +5,6 @@ Length: 1 hour, 20 minutes, 21 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 12 - Rational Expression - Addition and Subtraction (1 of 33) Basic Rules]]
 [[(2) Algebra - Ch. 12 - Rational Expression - Addition and Subtraction (2 of 33) Example 1]]
