@@ -5,7 +5,6 @@ Length: 1 hour, 31 minutes, 59 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Physics CH 0 - General Introduction (1 of 20) Standard SI for Length, Mass, and Time]]
 [[(2) Physics CH 0 - General Introduction (2 of 20) Dimensional Analysis (Unit Analysis)]]

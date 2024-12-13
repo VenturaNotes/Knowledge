@@ -5,7 +5,6 @@ Length: 1 hour, 31 minutes, 55 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Calculus 1 - Limits & Derivatives (1 of 27) The Tangent Line and The Secant Line - Reviewed]]
 [[(2) Calculus 1 - Limits & Derivatives (2 of 27) The Slope of a Line]]

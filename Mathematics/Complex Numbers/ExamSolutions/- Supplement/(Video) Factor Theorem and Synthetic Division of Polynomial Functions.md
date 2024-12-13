@@ -5,7 +5,6 @@ Length: 10 minutes, 55 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - Solve the equation $x^3 - 4x^2 + x + 6 = 0$ given that 3 is a zero of $f(x) = x^3 - 4x^2 + x + 6$ 
 - If f(c) = 0, then x-c is a factor of f(x)

@@ -5,7 +5,6 @@ Length: 11 minutes, 28 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - Note: this playlist is a paid series
 

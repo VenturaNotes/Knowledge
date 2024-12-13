@@ -5,7 +5,6 @@ Length: 2 hours, 22 minutes, 56 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 0.5 - Basic Concepts (1 of 26) An Overview]]
 [[(2) Algebra - Ch. 0.5 - Basic Concepts (2 of 26) How to Reduce Fractions]]

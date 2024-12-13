@@ -1,7 +1,6 @@
 ---
 aliases:
   - context
-References: 1
 ---
 ## Synthesis
 - 

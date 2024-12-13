@@ -1,5 +1,6 @@
-[Video](https://youtube.com/watch?v=oLX9vOUOYSk)
-
+---
+Source:
+  - https://youtube.com/watch?v=oLX9vOUOYSk
 ---
 - Exploring the truth values of another compound statement
 - [[Conditionals]]

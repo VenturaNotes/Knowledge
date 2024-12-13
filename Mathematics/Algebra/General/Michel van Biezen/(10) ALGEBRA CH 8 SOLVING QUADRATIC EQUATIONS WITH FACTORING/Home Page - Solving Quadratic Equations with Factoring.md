@@ -5,7 +5,6 @@ Length: 1 hour, 9 minutes, 52 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 8 - Solving Quad. Eqn. with Factoring (1 of 21)  What is 'Solving a Quadratic Eqn.']]
 [[(2) Algebra - Ch. 8 - Solving Quad. Eqn. with Factoring (2 of 21) Various Methods of  Solving Quad Eqs]]

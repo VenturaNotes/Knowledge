@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=u4n4pbKHnKI)
-
+---
+Source:
+  - https://youtube.com/watch?v=u4n4pbKHnKI
+---
 - ![[Screenshot 2023-01-09 at 1.39.11 PM.png]]
 	- Sometimes you can and can't divide by 10
 	- We could just cross out the 0s without dividing by 10

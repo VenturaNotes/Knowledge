@@ -1,5 +1,6 @@
-[Video](https://youtube.com/watch?v=axje4uWil-Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=axje4uWil-Q
 ---
 - ![[Screenshot 2023-05-13 at 5.59.16 AM.png]]
 - Determining the validity of an argument using truth tables

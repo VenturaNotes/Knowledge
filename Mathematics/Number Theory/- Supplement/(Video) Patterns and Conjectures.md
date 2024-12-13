@@ -5,7 +5,6 @@ Length: 11 minutes, 51 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 ## Intro
 - Inductive Reasoning

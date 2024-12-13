@@ -5,7 +5,6 @@ Length: 44 minutes, 19 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 18 - Rational Exponents (1 of 15) Rules of Exponents]]
 [[(2) Algebra - Ch. 18 - Rational Exponents (2 of 15) What is the Meaning of a Rational Exponent.]]

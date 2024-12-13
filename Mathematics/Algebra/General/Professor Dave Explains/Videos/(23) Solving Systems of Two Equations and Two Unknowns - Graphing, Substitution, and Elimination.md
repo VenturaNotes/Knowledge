@@ -34,7 +34,7 @@
 	- Solving systems of two equations and two unknowns
 		- [[Substitution]]
 			- Solving for one variable in terms of the other and plugging that into the other equation
-		- [[Elimination]]
+		- [[elimination method|elimination]]
 			- Manipulate one or both of the equations to combine them in some manner so as to get one variable to go away
 		- [[Graphing]]
 			- See where the two lines cross

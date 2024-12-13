@@ -9,10 +9,10 @@ tags:
 - Complete
 	- [[(1) Linear Algebra 1.1.1 Systems of Linear Equations]]
 	- [[(2) Linear Algebra 1.1.2 Solve Systems of Linear Equations in Augmented Matrices Using Row Operations]]
-- Incomplete
 	- [[(3) Linear Algebra 1.2.1 Row Reduction and Echelon Forms]]
 	- [[(4) Linear Algebra 1.2.2 Solution Sets and Free Variables]]
 	- [[(5) Linear Algebra 1.3.1 Vector Equations]]
+- Incomplete
 	- [[(6) Linear Algebra 1.3.2 Linear Combinations]]
 	- [[(7) Linear Algebra 1.4.1 The Matrix Equation Ax=b]]
 	- [[(8) Linear Algebra 1.4.2 Computation of Ax]]

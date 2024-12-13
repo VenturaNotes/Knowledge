@@ -5,7 +5,6 @@ Length: 54 minutes, 39 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 17 - Roots and Radicals (1 of 20) What is a Root]]
 [[(2) Algebra - Ch. 17 - Roots and Radicals (2 of 20) How to Estimate a Square Root (Part 1)]]

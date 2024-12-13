@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=il0EJrY64qE)
-
+---
+Source:
+  - https://youtube.com/watch?v=il0EJrY64qE
+---
 - Image
 	- Label points with "A"
 		- 0 dimensions

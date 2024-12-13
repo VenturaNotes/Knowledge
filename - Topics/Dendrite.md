@@ -1,7 +1,6 @@
 ---
 aliases:
   - dendrites
-References: 1
 ---
 ## Synthesis
 - 

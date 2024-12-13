@@ -4,7 +4,6 @@ aliases:
   - counting numbers
   - whole counting numbers
   - natural
-References: 4
 ---
 ## Synthesis
 - 
@@ -24,9 +23,15 @@ References: 4
 
 ## Source[^4]
 - In [[type theory]], 0 is a term of type $\mathbb{N}$ 
+
+## Source[^5]
+- Natural Numbers:
+	- $\mathbb{N}$ := {1, 2, 3, 4, 5, ...}
+	- Explicitly including zero: $\mathbb{N}_0 := \{0, 1, 2, 3, 4, ...\}$
 ## References
 
 [^1]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^53cc8b]]
 [^2]: [[(2) Examples of Binary Operations (and Non-Examples)  - Abstract Algebra]]
 [^3]: https://en.wikipedia.org/wiki/Natural_number
 [^4]: https://math.berkeley.edu/~forte/notes/type_theory.pdf
+[^5]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]

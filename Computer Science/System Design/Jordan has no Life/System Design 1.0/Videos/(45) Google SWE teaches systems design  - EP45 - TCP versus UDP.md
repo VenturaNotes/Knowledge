@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=vPP2aoY7D4E
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-13 at 9.49.36 PM.png]]
 	- TCP and UDP (Background)

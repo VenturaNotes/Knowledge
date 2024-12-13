@@ -5,7 +5,6 @@ Length: 9 hours, 42 minutes, 45 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) An Introduction to Sets (Set Theory)]]
 [[(2) Proper Subsets vs Improper Subsets - Set Theory]]

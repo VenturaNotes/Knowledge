@@ -50,7 +50,10 @@ aliases:
 	- less than, equal to, or greater than
 	- $$\forall a, b \in \mathbb{Z}, \text{either } a < b, a = b, \text{or } a > b$$
 
+## Source[^3]
+- $\mathbb{Z}:= \{..., -2, -1, 0, 1, 2, ...\}$
 ## References
 
 [^1]: ChatGPT
 [^2]: https://www.reddit.com/r/learnmath/comments/tgsop0/is_abc_abac_an_axiom/#:~:text=Whether%20something%20is%20an%20axiom,the%20thing%20you've%20built.
+[^3]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]

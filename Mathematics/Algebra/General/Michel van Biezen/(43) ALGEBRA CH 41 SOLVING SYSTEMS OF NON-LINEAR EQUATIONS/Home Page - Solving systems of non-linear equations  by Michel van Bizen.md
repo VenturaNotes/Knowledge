@@ -5,7 +5,6 @@ Length: 51 minutes, 15 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra Ch 41 - Solving Non-Linear Systems of Eqns. (1 of 10) What Does It Mean to 'Solve...']]
 [[(2) Algebra Ch 41 - Solving Non-Linear Systems of Eqns. (2 of 10) Multiple Solutions]]

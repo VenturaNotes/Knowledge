@@ -12,6 +12,7 @@ http://detexify.kirelabs.org/classify.html
 - Real Numbers: $\mathbb{R}$ 
 - Vector: $\overset \rightarrow 0$ 
 	- $\vec{0}$
+	- $\overset \rightharpoonup u$ (half arrow)
 - Capital X: $\overline{\underline X}$ 
 	- This just shows that the letter is [capital](https://youtu.be/Q_1dmoUhYBo?t=21)
 - tau: $\uptau$ 

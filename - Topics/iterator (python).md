@@ -1,7 +1,6 @@
 ---
 aliases:
   - iterator
-References: 1
 ---
 ## Synthesis
 

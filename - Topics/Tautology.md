@@ -8,7 +8,10 @@
 - #question is a tautology a [[Logical operations|logical operation]]?
 
 ## Source[^2]
-- Sirce $A \land B \implies A$ 
+- ![[Screenshot 2024-12-12 at 8.02.14 AM.png]]
+- Sirce $A \land B \implies B$
+	- This is considered to be a tautology as this will always return True. 
+	- #question Does this mean $A \land B \implies A$ would be valid as well? Would it make a difference? 
 ## References
 
 [^1]: [[(3) Start Learning Logic - Part 2 - Disjunction, Tautology and Logical Equivalence]]

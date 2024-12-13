@@ -5,7 +5,6 @@ Length: 3 hours, 8 minutes, 3 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 ## Introduction
 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=H8MiZMJr1kQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=H8MiZMJr1kQ
+---
 - ![[Screenshot 2023-07-10 at 10.07.45 PM.png]]
 	- 2 variable equation
 		- $y = x^2$
@@ -17,7 +19,7 @@
 			- $x_1$ = 4
 			- $x_2$ = 0
 			- $x_3$ = 0
-	- [[Linear system of equations]]
+	- [[system of linear equations|linear system of equations]]
 		- All true at the same time
 	- Using $a_{ij}$ notation
 		- coefficients
@@ -27,5 +29,5 @@
 	- $a_{ij}$ is coefficient in $i^{th}$ row, $j^{th}$ column
 	- $a_{12}$ is first row second column
 - ![[Pasted image 20230710220955.png]]
-	- A [[solution]] is a list $s_1, ..., s_n$ of numbers that solves each equation
+	- A [[Solution (Math)|solution]] is a list $s_1, ..., s_n$ of numbers that solves each equation
 	- Future Question: How do we find solutions to linear systems?

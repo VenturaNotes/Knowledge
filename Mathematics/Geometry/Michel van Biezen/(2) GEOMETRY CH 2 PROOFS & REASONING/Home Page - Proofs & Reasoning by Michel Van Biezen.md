@@ -5,7 +5,6 @@ Length: 2 hours, 38 minutes, 58 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Geometry - Ch. 2 - Proofs and Reasoning (1 of 46) Definitions]]
 [[(2) Geometry - Ch. 2 - Proofs and Reasoning (2 of 46) Symbolic Notation]]

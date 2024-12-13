@@ -5,7 +5,6 @@ Length: 52 minutes, 32 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Trig 0.1 - Angles, Degrees and Radians]]
 [[(2) Trig 0.2 - Trig Functions Defined on the Unit Circle]]

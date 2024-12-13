@@ -10,7 +10,7 @@ aliases:
 - If we can prove a statement to be true, then the statement is called a proposition
 
 ## Source[^2]
-- Logical proposition (aka proposition)
+- Logical statement (aka proposition)
 - A [[statement]] that is either true or false
 	- Cannot take opinions or questions
 ### Examples

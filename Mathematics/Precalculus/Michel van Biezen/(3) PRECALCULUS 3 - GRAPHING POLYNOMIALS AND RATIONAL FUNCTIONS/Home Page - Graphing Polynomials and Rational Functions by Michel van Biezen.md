@@ -5,7 +5,6 @@ Length: 2 hours, 50 minutes, 28 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) PreCalculus 3 - Graphing Polynomial & Rational Fcts (1 of 29) Parabola - General Graphing Rules]]
 [[(2) PreCalculus 3 - Graphing Polynomial & Rational Fcts (2 of 29) Parabola - Finding Max & Min Values]]

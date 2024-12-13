@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=coJNGQFJ5kM
+Reviewed: false
 ---
 - ![[Screenshot 2024-09-24 at 4.17.36 AM.png]]
 	- Will start talking about existing databases and actually apply some of the knowledge that we've learned in the last few videos 

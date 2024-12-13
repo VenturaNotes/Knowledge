@@ -16,3 +16,4 @@ Source:
 		- [[integral|integrals]]
 	- Foundation: [[Real numbers]]: $\mathbb{R}$
 		- All you need to know is the real numbers
+		- If you don't know about it, can do the "start learning reals" course in "start learning mathematics"

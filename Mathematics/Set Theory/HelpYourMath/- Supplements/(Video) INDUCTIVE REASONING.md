@@ -5,7 +5,6 @@ Length: 15 minutes, 52 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - Some of the video is in Filipino
 

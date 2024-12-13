@@ -5,7 +5,6 @@ Length: 1 hour, 21 minutes, 11 seconds
 tags:
   - type/playlist
   - status/complete
-Published: true
 ---
 [[(1) Introduction to Geometry - Ancient Greece and the Pythagoreans]]
 [[(2) Basic Euclidean Geometry - Points, Lines, and Planes]]

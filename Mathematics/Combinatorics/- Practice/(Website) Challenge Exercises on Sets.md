@@ -5,7 +5,6 @@ Length: "1"
 tags:
   - status/complete
   - type/website
-Published: true
 ---
 - What is wrong with the set listed below? D = {m, a, t, h, e, m, a, t, i, c, s}
 	- ![[Screenshot 2023-01-02 at 2.53.42 PM.png]]

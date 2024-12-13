@@ -1,5 +1,6 @@
-[Video](https://youtube.com/watch?v=5SqrSnF2yF4)
-
+---
+Source:
+  - https://youtube.com/watch?v=5SqrSnF2yF4
 ---
 - Notations
 	- Simple statements are usually denoted with single lowercase letters, traditionally p and q. (Next would be "r")

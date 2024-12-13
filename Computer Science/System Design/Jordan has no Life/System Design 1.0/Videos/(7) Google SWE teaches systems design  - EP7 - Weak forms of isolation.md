@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5f7AliHXQ08
+Reviewed: false
 ---
 - ![[Screenshot 2024-09-23 at 4.17.54 PM.png]]
 	- Will do a database comparison between a bunch of the popular technologies

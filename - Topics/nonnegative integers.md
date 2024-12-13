@@ -1,7 +1,6 @@
 ---
 aliases:
   - non-negative integers
-References: 2
 ---
 ## Synthesis
 - {0, 1, 2, 3, $\dots$}

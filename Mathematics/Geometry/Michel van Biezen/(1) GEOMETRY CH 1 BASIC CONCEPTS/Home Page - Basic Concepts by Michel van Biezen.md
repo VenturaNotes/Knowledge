@@ -5,7 +5,6 @@ Length: 2 hours, 49 minutes, 5 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Geometry - Ch. 1 - Basic Concepts (1 of 49) Basic Definitions]]
 [[(2) Geometry - Ch. 1 - Basic Concepts (2 of 49) Defined terms]]

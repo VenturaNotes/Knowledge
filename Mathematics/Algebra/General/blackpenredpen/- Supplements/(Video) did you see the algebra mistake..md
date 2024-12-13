@@ -5,7 +5,6 @@ Length: 3 minutes, 14 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - ![[Screenshot 2023-05-05 at 5.54.34 AM.png|300]]
 	- There are 2 mistakes here

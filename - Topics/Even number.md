@@ -1,7 +1,6 @@
 ---
 aliases:
   - even numbers
-References: 1
 ---
 ## Synthesis
 - 

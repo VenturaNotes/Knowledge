@@ -5,7 +5,6 @@ Length: 59 minutes, 7 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra Ch 45 - The Inverse of a Function (1 of 15) What is the Inverse of a Function]]
 [[(2) Algebra Ch 45 - The Inverse of a Function (2 of 15) Famous Example of the Inverse of a Function]]

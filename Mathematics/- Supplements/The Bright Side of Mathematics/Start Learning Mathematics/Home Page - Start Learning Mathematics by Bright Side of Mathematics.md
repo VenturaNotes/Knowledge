@@ -16,9 +16,9 @@ tags:
 	- [[(7) Start Learning Sets - Part 3 - Union, Intersection, Difference and Power set]]
 	- [[(8) Start Learning Sets - Part 4 - Cartesian Product and Maps]]
 	- [[(9) Start Learning Sets - Part 5 - Range, Image and Preimage]]
-- Incomplete
 	- [[(10) Start Learning Sets - Part 6 - Injectivity, Surjectivity and Bijectivity]]
 	- [[(11) Start Learning Sets - Part 7 - Composition of Maps]]
+- Incomplete
 	- [[(12) Start Learning Numbers - Part 1 - Natural Numbers (in Set Theory)]]
 	- [[(13) Start Learning Numbers - Part 2 - Natural Numbers (Successor Map and Addition)]]
 	- [[(14) Start Learning Numbers - Part 3 - Natural Numbers (Induction and Associativity)]]

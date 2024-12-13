@@ -2,7 +2,6 @@
 aliases:
   - iterable
   - iterables
-References: 1
 ---
 ## Synthesis
 - 

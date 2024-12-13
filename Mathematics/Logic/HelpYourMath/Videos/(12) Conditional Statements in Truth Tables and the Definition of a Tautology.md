@@ -1,5 +1,6 @@
-[Video](https://youtube.com/watch?v=RmFldaY00qE)
-
+---
+Source:
+  - https://youtube.com/watch?v=RmFldaY00qE
 ---
 - ![[Screenshot 2023-05-12 at 8.58.12 AM.png|500]]
 - Finding the truth value of a conditional

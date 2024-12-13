@@ -1,4 +1,32 @@
 ---
 Source:
   - https://youtube.com/watch?v=MfeOEdjUfXw
+Reviewed: false
 ---
+- ![[Screenshot 2024-12-12 at 1.45.21 PM.png]]
+	- Solution sets and free variables
+	- [[Consistent system]] with [[infinitely many solutions]]
+		- [[free parameter|Free variables]] can take on any value. Once you choose a value for your free variable, it will determine the values of the other [[basic variable|basic variables]]
+			- Free variables can be any value that we want them to be. Can choose a value for $x_3$.
+			- Then will be able to determine values of basic variables. 
+			- $x_1$ and $x_2$ are both written in terms of $x_3$ 
+		- The red matrix is in [[echelon form]]
+	- Find the [[general solution]] to the system
+		- General solution here basically means that if we end up with a free variable, we are going to write it in the same format as the last one. We will isolate the basic variables and write them in terms of the free variable or variables.
+		- Step 1 is [[augmented matrix]] and show [[Gaussian operations|row operations]]
+			- We first one 1 in [[pivot position]] of top left
+		- Column 2 has no pivot
+		- Found an [[inconsistent system]]
+	- Practice:
+		- Find the general solution of the augmented matrix
+			- If it's consistent with infinitely many solutions, that's what we really call that general solution
+				- So if a variable is free, we'll say it's free
+				- If a variable has a value, we'll name that value
+				- If it's neither of those, then we'll write it as a relationship to the variables that are free
+			- Try to turn any values below [[pivot]] needs to be a zero
+			- Column 1 and 3 have pivots
+			- Column 2 has no pivots for $x_2$ is free
+		- The general solution basically gives us a value for each variable or tells us that the variable is free. General solution:
+			- $x_1 = -5 -3x_2$
+			- $x_2$ is free
+			- $x_3 = 3$ 

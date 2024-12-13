@@ -5,7 +5,6 @@ Length: 1 hour, 44 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Intro to Networks - part 1]]
 [[(2) Intro to Networks Part 2 - More Terminology]]

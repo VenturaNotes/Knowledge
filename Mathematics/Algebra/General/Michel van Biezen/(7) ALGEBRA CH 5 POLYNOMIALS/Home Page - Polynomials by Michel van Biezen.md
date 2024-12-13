@@ -5,7 +5,6 @@ Length: 1 hour, 42 minutes, 19 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 5 - Polynomials (1 of 32) What is a Polynomial]]
 [[(2) Algebra - Ch. 5 - Polynomials (2 of 32) What is the Degree of a Polynomial.]]

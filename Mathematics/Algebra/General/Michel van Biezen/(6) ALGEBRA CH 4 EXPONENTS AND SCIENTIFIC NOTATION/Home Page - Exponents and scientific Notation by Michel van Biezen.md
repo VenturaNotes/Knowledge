@@ -5,7 +5,6 @@ Length: 2 hours, 1 minute, 11 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Algebra - Ch. 4 - Exponents & Scientific Notation (1 of 35) What is an Exponent]]
 [[(2) Algebra - Ch. 4 - Exponents & Scientific Notation (2 of 35) The Rules of Exponents - Summary]]

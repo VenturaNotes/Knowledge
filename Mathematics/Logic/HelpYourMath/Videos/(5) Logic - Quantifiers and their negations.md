@@ -1,5 +1,6 @@
-[Video](https://youtube.com/watch?v=uWAEG5BFOrQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=uWAEG5BFOrQ
 ---
 - A quantifier is an adjective that indicates how many cases of a particular situation exist.
 	- Universal quantifiers include: all, each, every, and no/none

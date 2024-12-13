@@ -1,6 +1,3 @@
----
-References: 1
----
 ## Synthesis
 - 
 ## Source [^1]

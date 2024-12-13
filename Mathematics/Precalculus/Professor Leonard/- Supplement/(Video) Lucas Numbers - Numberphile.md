@@ -5,7 +5,6 @@ Length: 5 minutes, 21 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - ![[Screenshot 2023-03-08 at 9.53.27 PM.png]]
 	- Named after Edward Lucas

@@ -1,7 +1,6 @@
 ---
 aliases:
   - initial conditions
-References: 1
 ---
 ## Synthesis
 - 

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Clq5prZWg8s
+Reviewed: false
 ---
 - ![[Screenshot 2024-09-24 at 1.30.52 PM.png]]
 	- No he didn't pull at the wedding. He's a software engineer. Don't assume such big things. 

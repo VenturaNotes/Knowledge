@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=c4F7Tfzl198
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-13 at 4.40.52 AM.png]]
 	- Long Polling, WebSockets, Server Side Events (Background)

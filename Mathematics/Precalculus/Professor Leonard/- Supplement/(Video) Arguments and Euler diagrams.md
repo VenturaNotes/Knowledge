@@ -7,7 +7,6 @@ Related:
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - [^1] A [[Venn diagram]] shows all possible logical relationships between a collection of sets. But a [[(Video) Euler Diagrams to determine if a logical argument is valid|Euler diagram]] only shows relationships that exist in the real world
 	- ![[Screenshot 2023-03-08 at 5.45.37 PM.png]]

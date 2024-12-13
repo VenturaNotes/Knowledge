@@ -5,7 +5,6 @@ Length: 3 minutes, 59 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - ![[Screenshot 2023-05-28 at 9.19.02 AM.png]]
 	- Most of Calculus (Derivatives, Integrals, Infinite Series), are based on limits

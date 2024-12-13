@@ -1,7 +1,6 @@
 ---
 aliases:
   - matrices
-References: 1
 ---
 ## Synthesis
 - 
@@ -23,6 +22,10 @@ $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{bmatrix} a & b \\ c & d 
 - The position of an element in a matrix is typically referred to using its index or indices
 - For example, in matrix A, the element in the $i^{th}$ row and $j^{th}$ column is denoted as $A_{ij}$, and this is referred to as the element at position $(i, j)$ 
 - #question I need to create a separate note for "index" of a matrix
+
+## Source[^6]
+- ![[Screenshot 2024-01-29 at 4.22.13 PM.png|300]]
+	- The elements of a matrix are described with two subscripts or indices
 ## References
 
 [^1]: https://stattrek.com/matrix-algebra/echelon-form
@@ -30,3 +33,4 @@ $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{bmatrix} a & b \\ c & d 
 [^3]: https://www.cuemath.com/algebra/elements-of-matrix/
 [^4]: ChatGPT
 [^5]: Google's Search Labs | AI Overview
+[^6]: [[(1) Linear Algebra 1.1.1 Systems of Linear Equations]]

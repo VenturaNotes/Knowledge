@@ -5,7 +5,6 @@ Length: 3 minutes, 40 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - Euclid showed that there are infinitely many prime numbers
 - Every natural number n > 1 is divisible by some prime number. 

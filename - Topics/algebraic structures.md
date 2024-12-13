@@ -1,7 +1,6 @@
 ---
 aliases:
   - algebraic structure
-References: 1
 ---
 ## Synthesis
 - 

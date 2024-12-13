@@ -1,7 +1,6 @@
 ---
 aliases:
   - linear space
-References: 1
 ---
 ## Synthesis
 - 

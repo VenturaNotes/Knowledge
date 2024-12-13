@@ -5,7 +5,6 @@ Length: 11 minutes, 24 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - $|a| = ?$
 	- Absolute value?

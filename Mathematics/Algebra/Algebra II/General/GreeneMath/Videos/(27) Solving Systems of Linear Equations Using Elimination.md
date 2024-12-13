@@ -1,7 +1,7 @@
 [11:27:43](https://www.youtube.com/watch?v=2wrPGtP61fo&t=41263s) 
 
 - ![[Screenshot 2023-09-11 at 10.21.47 AM.png]]
-	- For [[elimination]], we want to use this when we have one-pair of variable terms as [[opposites]]
+	- For [[elimination method|elimination]], we want to use this when we have one-pair of variable terms as [[opposites]]
 	- Solving Linear Systems in two Variables with Elimination
 		- Place both equations in [[standard form]]: ax + by = c
 			- a, b, and c are real numbers.

@@ -1,7 +1,6 @@
 ---
 aliases:
   - StopIteration
-References: 1
 ---
 ## Synthesis
 ### Example

@@ -5,7 +5,6 @@ Length: 2 hours, 44 minutes, 54 seconds
 tags:
   - status/complete
   - type/playlist
-Published: true
 ---
 [[(1) Linear Algebra - What Will Be Covered]]
 [[(2) PreCalculus - Matrices & Matrix Applications (1 of 33) What is a Matrix. 1]]

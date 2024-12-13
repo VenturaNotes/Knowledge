@@ -138,7 +138,7 @@ tags:
 		- “inconsistency has to do with the interaction of the left and right sides” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=18&annotation=EAV8QCNH))1.
 - ![[Screenshot 2023-06-09 at 9.15.15 AM.png]]
 	- 1.15 Example (solution set is infinite)
-		- “<mark style="background: #FFF3A3A6;">a 0 = 0 equation is not the signal that a system has many solutions.</mark>” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=18&annotation=228TDDGB))
+		- “a 0 = 0 equation is not the signal that a system has many solutions” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=18&annotation=228TDDGB))
 - 1.16 Example (0=0)
 	- “The absence of a 0 = 0 equation does not keep a system from having many different solutions.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=18&annotation=DHESIPFY))
 	- $$ \begin{align*} x + y + z &= 0 \\ y + z &= 0 \end{align*}  $$
@@ -159,7 +159,7 @@ tags:
 		- At least one variable not a leading variable (no unique solution)
 ##### Exercises
 - [Solutions](zotero://open-pdf/library/items/RHHYDIAW?page=9&annotation=BKR4CXA6)
-- “If a system has a contradictory equation then it has [[no solution]]. Otherwise, if there are any variables that are not leading a row then it has[[ infinitely many solution]]. In the final case, where there is no contradictory equation and every variable leads some row, it has a [[unique solution]].” ([pdf](zotero://open-pdf/library/items/RHHYDIAW?page=9&annotation=66SN6GYS))
+- “If a system has a contradictory equation then it has [[no solution]]. Otherwise, if there are any variables that are not leading a row then it has [[Infinitely many solutions|infinitely many solution]]. In the final case, where there is no contradictory equation and every variable leads some row, it has a [[unique solution]].” ([pdf](zotero://open-pdf/library/items/RHHYDIAW?page=9&annotation=66SN6GYS))
 
 #### (1.1.2) Describing the Solution Set
 #### (1.1.3) General = Particular + Homogenous

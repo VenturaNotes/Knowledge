@@ -38,7 +38,7 @@ Reviewed: false
 	- [[Equality for sets]]: 
 		- Two sets A, B are the same written as A = B if $\forall x$ : x $\in$ A $\iff$ x $\in$ B is true
 			- Two sets should be the same when they contain the same elements
-	- [[colon-equals symbol]]
+	- [[defined by]] symbol
 		- Can assign left to right or right to left
 			- $C := \{2, 3, 5\}$
 			- $\{3, 5, 2\} =: D$

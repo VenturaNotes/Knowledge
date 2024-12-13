@@ -5,7 +5,6 @@ Length: 14 minutes, 21 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 ## Index Laws continued
 - Review

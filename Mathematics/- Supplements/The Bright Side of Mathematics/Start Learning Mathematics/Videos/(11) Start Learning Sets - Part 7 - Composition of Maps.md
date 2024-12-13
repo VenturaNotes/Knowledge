@@ -3,3 +3,42 @@ Source:
   - https://www.youtube.com/watch?v=NiJ1yWKM9CU
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-12 at 10.41.19 AM.png]]
+	- Will talk about [[composition]] of [[maps]]
+		- $g \circ f$
+			- Composition of two maps is denoted with a little circle
+	- For f: $A \to B$ and g: B $\to$ C define: 
+		- Just need the two maps where the [[codomain]] of the one map is the [[Domain (Math)|domain]] of the other one
+			- $g \circ f: A \to C$ 
+				- Read as "g composed with f" or "g after f"
+				- A into C
+			- The definition of this map is now given by x $\mapsto$ $g(f(x))$
+			- Called the composition g with f
+	- Example
+		- (1) We read the composition from right to left
+			- Given $(g \circ f)$, we first apply `f` and then apply `g`
+			- In this example, the other way around wouldn't make any sense
+				- However, this changes when all three sets are the same
+		- (2) $f: \mathbb{R} \to \mathbb{R}, g: \mathbb{R} \to \mathbb{R}$ 
+			- Just take the real numbers $\mathbb{R}$ for all 3 sets
+		- So please remember for the composition, the order matters and for the general case, the other order doesn't make any sense at all
+		- If we have a map between the real numbers, we call the map simply a [[function]] again
+	- With the knowledge of [[composition]], we can finally explain why we have the term [[inverse map]]
+		- For any set A, we define: $id_A: A \to A$ 
+			- However, we first want to talk about a map that we can define for any set A. It's called the [[identity map]] and we write $id_A$ and put the set in the index
+			- It's a map from A into itself and simply defined by sending x to itself
+			- Lefthand side and righthand side are the same and you simply connect the same points
+				- Simplest map we can think of
+		- For f: A $\to$ B
+			- If you consider any other function from A into another set B, the composition identity map after $f$ wouldn't change anything. You would get out $f$ again
+		- For f: A $\to$ B [[bijective]], we have
+			- On the other hand, if we take a [[bijective map]], we can look at the compositions $f$ with the inverse map. In particular, both orders make sense since
+				- $f \circ f^{-1}$ = $id_B$
+					- this map goes from B into B
+					- We get out the corresponding identity maps
+				- $f^{-1} \circ f$ = $id_A$ 
+					- This map goes from A into A
+					- We get out the corresponding identity maps
+				- These two equalities explain why the name inverse map fits and why the notation $f^{-1}$  is also useful
+				- With respect to the composition, they cancel out into the identity map
+				- #question I don't understand why we use inverse f here?

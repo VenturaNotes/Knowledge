@@ -5,7 +5,6 @@ Length: 3 minutes, 55 seconds
 tags:
   - status/complete
   - type/video
-Published: true
 ---
 - ![[Screenshot 2023-05-20 at 3.16.08 AM.png]]
 	- [[Joint variation]] describes a situation where one variable depends on two (or more) other variables, and varies directly with each of them when the others are held constant.

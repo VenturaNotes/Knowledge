@@ -6,7 +6,6 @@ tags:
   - status/complete
   - type/playlist
   - ongoing
-Published: true
 ---
 [[(1) Geometry - Ch. 4 - Lines and Angles (1 of 54) Parallel Lines and Planes]]
 [[(2) Geometry - Ch. 4 - Lines and Angles (2 of 37) Postulates of Parallel and Perpendicular Lines]]

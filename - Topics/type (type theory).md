@@ -2,7 +2,6 @@
 aliases:
   - type
   - types
-References: 1
 ---
 ## Synthesis
 - 

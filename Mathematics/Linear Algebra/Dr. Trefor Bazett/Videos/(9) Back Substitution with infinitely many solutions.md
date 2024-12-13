@@ -1,9 +1,11 @@
-[Video](https://youtube.com/watch?v=3lMH_no_OvA)
-
+---
+Source:
+  - https://youtube.com/watch?v=3lMH_no_OvA
+---
 - ![[Screenshot 2023-07-16 at 2.54.37 PM.png]]
 	- Errata
 		- Solution for $x_1 = 3s - 2t$
-	- [[Back substitution]] with $\infty$-many solutions
+	- [[back-substitution|back substitution]] with $\infty$-many solutions
 		- We'll see there are 2 different infinite families of solutions
 	- $R_1 \iff R_2$
 		- $\iff$ is read as interchanged

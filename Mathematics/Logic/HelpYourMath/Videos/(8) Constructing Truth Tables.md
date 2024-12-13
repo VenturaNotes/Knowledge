@@ -1,5 +1,6 @@
-[Video](https://youtube.com/watch?v=Keown1DEv90)
-
+---
+Source:
+  - https://youtube.com/watch?v=Keown1DEv90
 ---
 - Truth Tables
 	- To construct a truth table, we create columns for each simple statement and negation needed, add to it compound statements, and then the complete statement.

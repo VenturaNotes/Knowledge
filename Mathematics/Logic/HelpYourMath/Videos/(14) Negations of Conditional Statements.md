@@ -1,5 +1,6 @@
-[Video](https://youtube.com/watch?v=5f2nDZ98iU0)
-
+---
+Source:
+  - https://youtube.com/watch?v=5f2nDZ98iU0
 ---
 - ![[Pasted image 20230512091543.png|500]]
 - Negation of a conditional statement
