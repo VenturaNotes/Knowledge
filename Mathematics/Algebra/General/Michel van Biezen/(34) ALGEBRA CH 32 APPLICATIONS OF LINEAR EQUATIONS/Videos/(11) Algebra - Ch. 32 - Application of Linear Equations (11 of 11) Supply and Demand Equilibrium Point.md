@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=oO5nGRFaoTs)
-
+---
+Source:
+  - https://youtube.com/watch?v=oO5nGRFaoTs
+---
 - ![[Screenshot 2023-04-18 at 7.14.14 PM.png]]
 	- Part of [[(10) Algebra - Ch. 32 - Application of Linear Equations (10 of 11) Linear Supply Equation|previous video]] but At $4, the demand will be 1 pound and increase 1 pound for each $1 drop in price.
 		- Finding the equilibrium point between demand and supply

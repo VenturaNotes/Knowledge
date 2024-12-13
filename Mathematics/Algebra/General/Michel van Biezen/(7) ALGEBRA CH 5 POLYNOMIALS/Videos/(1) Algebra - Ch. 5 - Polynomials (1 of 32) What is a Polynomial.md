@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=d-ByVa1K6hg)
-
+---
+Source:
+  - https://youtube.com/watch?v=d-ByVa1K6hg
+---
 - A polynomial is an algebraic expression with 2 or more terms
 	- Monomial (not a polynomial)
 		- $3x^2$

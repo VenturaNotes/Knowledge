@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=soEdJiRdPCw)
-
+---
+Source:
+  - https://youtube.com/watch?v=soEdJiRdPCw
+---
 - ![[Screenshot 2023-02-07 at 5.15.14 PM.png]]
 	- $3x^2 - 2x + 4 + \frac {5}{x-2}$ 
 		- The $3x^2 - 2x + 4$ is the quotient

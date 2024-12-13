@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=T_SYbq_qPSA)
-
+---
+Source:
+  - https://youtube.com/watch?v=T_SYbq_qPSA
+---
 - ![[Screenshot 2023-04-18 at 8.05.27 PM.png]]
 - Variation
 	- How much something varies -> How much something changes

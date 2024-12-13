@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=blUFUMBe9Xo)
-
+---
+Source:
+  - https://youtube.com/watch?v=blUFUMBe9Xo
+---
 - ![[Screenshot 2023-01-20 at 4.38.15 PM.png]]
 	- Peanuts currently cost $2.66 per pound. The price is expected to increase by 5% per year over the next six years. How much will they cost in six years? (yearly compounding)
 		- Compound interest [^1]

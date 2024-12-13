@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=lsRvuiTpDWk)
-
+---
+Source:
+  - https://youtube.com/watch?v=lsRvuiTpDWk
+---
 - ![[Screenshot 2023-04-16 at 2.14.54 AM.png]]
 	- Is the ordered pair (6, 4) a solution to the equation?
 		- is (1, 2) a solution?

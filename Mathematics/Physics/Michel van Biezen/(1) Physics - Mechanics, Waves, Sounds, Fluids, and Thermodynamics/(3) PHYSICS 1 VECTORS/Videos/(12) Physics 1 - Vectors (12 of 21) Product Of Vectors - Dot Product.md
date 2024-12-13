@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=hho9a0_y7KY)
-Tags:: 
-
+---
+Source:
+  - https://youtube.com/watch?v=hho9a0_y7KY
+---
 - ![[Screenshot 2023-07-10 at 12.11.28 PM.png]]
 	- [[Dot Product]]
 		- Also known as scalar product

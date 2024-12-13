@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=kCBmh507oYI)
-
+---
+Source:
+  - https://youtube.com/watch?v=kCBmh507oYI
+---
 - ![[Screenshot 2023-01-10 at 7.17.18 PM.png]]
 	- The last digit of the square root of a number will always equal the last digit of the square of the solution
 		- In $\sqrt {729}$ = 27, $7*7 = 49$ and the last digit of 9 in this solution is equal to the last digit of 9 in the square root.

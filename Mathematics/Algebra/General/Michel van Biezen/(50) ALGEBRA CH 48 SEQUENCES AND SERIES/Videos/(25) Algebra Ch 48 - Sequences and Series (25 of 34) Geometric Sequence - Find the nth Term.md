@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=gpXxyETBJXw)
-
+---
+Source:
+  - https://youtube.com/watch?v=gpXxyETBJXw
+---
 - ![[Screenshot 2023-04-30 at 12.41.06 AM.png]]
 	- A geometric sequence is where every consecutive term is a fixed number times the previous term. The fixed term is called the common ratio
 	- First we must find the common ratio R

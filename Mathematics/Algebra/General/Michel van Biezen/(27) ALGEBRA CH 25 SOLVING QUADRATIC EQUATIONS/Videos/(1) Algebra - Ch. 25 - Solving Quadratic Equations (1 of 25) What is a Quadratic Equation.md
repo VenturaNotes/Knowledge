@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=UwKa90m8TOw)
-
+---
+Source:
+  - https://youtube.com/watch?v=UwKa90m8TOw
+---
 - ![[Screenshot 2023-02-17 at 4.27.46 PM.png]]
 	- An equation
 		- Has a left side, an equal sign, and a right side

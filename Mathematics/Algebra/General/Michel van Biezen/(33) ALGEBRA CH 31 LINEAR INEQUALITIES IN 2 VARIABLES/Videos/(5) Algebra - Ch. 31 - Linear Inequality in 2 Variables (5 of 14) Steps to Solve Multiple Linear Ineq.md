@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=8vQQfWdtMTQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=8vQQfWdtMTQ
+---
 - ![[Screenshot 2023-04-17 at 12.02.19 PM.png]]
 	- Steps
 		- (1) First put into the form

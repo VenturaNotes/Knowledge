@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=LxjZfXuPDXk)
-
+---
+Source:
+  - https://youtube.com/watch?v=LxjZfXuPDXk
+---
 - ![[Screenshot 2023-04-18 at 6.28.50 PM.png]]
 	- You are renting a moving truck at $80 per day and 20 cents per mile driven. Find the equation representing the cost for one day, draw the graph, and find the cost if the truck was driven 200 miles
 		- x = miles driven

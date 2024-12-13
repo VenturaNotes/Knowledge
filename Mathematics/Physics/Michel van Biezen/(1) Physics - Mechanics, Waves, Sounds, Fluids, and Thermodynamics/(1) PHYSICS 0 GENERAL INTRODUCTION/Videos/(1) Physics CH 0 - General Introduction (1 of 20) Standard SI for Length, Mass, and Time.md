@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=rEnFanjTd6U)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=rEnFanjTd6U
+---
 - Standard Units
 	- Length $\to$ m
 		- m: meters

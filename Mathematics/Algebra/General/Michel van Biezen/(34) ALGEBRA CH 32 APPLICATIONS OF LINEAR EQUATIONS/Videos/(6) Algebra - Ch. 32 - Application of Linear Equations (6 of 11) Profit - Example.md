@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=SZCT88Ws3mw)
-
+---
+Source:
+  - https://youtube.com/watch?v=SZCT88Ws3mw
+---
 - ![[Screenshot 2023-04-18 at 6.37.47 PM.png]]
 	- A fast food restaurant serves burgers. The fixed cost is $300 per day and the variable cost is $1.50 per burger. Find the profit as a function of number of burgers served if they are sold for $5 each, and the amount of profit if 500 are served
 		- x = # of burgers served

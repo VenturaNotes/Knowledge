@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Ie1vEpXKo04)
-
+---
+Source:
+  - https://youtube.com/watch?v=Ie1vEpXKo04
+---
 - ![[Screenshot 2023-02-13 at 5.20.54 PM.png]]
 	- i is an imaginary number
 	- the square root of -1 is an imaginary number

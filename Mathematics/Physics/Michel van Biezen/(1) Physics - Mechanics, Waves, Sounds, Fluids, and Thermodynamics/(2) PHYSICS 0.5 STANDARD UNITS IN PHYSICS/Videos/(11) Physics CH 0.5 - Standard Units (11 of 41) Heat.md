@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=6yu2dF8CA-4)
-
+---
+Source:
+  - https://youtube.com/watch?v=6yu2dF8CA-4
+---
 - ![[Screenshot 2023-08-21 at 3.03.30 AM.png]]
 	- 3 main units used for [[heat]] or to describe heat or the energy related to heat
 		- [[calories]]

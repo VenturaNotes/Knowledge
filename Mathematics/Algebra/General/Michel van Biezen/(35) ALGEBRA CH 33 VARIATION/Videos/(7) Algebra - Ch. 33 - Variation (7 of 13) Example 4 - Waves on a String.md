@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=bTdwMEaBaNo)
-
+---
+Source:
+  - https://youtube.com/watch?v=bTdwMEaBaNo
+---
 - ![[Screenshot 2023-04-18 at 7.57.04 PM.png]]
 	- Note
 		- k = velocity because 

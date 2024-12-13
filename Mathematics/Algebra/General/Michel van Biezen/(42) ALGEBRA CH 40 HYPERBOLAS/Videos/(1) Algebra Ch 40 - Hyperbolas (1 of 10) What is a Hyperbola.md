@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vzXF339yk7A)
-
+---
+Source:
+  - https://youtube.com/watch?v=vzXF339yk7A
+---
 - ![[Screenshot 2023-04-19 at 3.34.48 AM.png]]
 	- It is a graph that result from meeting the following conditions
 		- (1) $|d_1 - d_2|$ = constant (same number)

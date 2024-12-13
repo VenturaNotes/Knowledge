@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=umVdW02cSSg)
-
+---
+Source:
+  - https://youtube.com/watch?v=umVdW02cSSg
+---
 - Identify words
 	- Add, sum, increased by
 		- Addition

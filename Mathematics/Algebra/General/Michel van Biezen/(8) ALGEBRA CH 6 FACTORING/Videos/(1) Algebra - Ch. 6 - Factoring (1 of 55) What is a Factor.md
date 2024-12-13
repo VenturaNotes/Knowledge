@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=0OHwlRhkwvM)
-
+---
+Source:
+  - https://youtube.com/watch?v=0OHwlRhkwvM
+---
 - ![[Screenshot 2023-01-15 at 3.11.38 PM.png]]
 	- It is a number or an expression that is multiplied with other numbers or expressions
 	- Each binomial by itself is a factor

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=9_Bz7gfAWJM)
-
+---
+Source:
+  - https://youtube.com/watch?v=9_Bz7gfAWJM
+---
 - ![[Screenshot 2023-04-18 at 9.47.55 PM.png]]
 	- Get rid of decimals and fractions first to make problem a little easier
 	- Used substitution here

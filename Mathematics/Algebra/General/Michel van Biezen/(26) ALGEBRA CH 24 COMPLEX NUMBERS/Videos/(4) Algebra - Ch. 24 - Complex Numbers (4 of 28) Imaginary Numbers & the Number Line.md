@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FxKlAiX-FkM)
-
+---
+Source:
+  - https://youtube.com/watch?v=FxKlAiX-FkM
+---
 - ![[Screenshot 2023-02-16 at 3.36.01 PM.png]]
 	- All real numbers are on the number line. 
 	- All irrational numbers can be defined as being between 2 rational numbers

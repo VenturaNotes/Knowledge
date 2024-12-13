@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mjRYMRhazxA)
-
+---
+Source:
+  - https://youtube.com/watch?v=mjRYMRhazxA
+---
 - ![[Screenshot 2023-01-30 at 9.44.15 PM.png]]
 	- When everything is addition, it seems like you check by subtracting 1 from the middle term.
 	- This is how to do mental math in head quickly (For 17 $\times$ 12)

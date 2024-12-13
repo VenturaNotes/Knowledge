@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DRiGpLZ6ikA)
-
+---
+Source:
+  - https://youtube.com/watch?v=DRiGpLZ6ikA
+---
 - ![[Screenshot 2023-02-13 at 6.41.01 PM.png]]
 	- Typically don't allow negative values inside the radical sign
 		- If you can only have real numbers

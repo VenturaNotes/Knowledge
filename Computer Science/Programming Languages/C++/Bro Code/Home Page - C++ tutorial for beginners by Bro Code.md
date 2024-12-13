@@ -7,12 +7,12 @@ tags:
   - type/playlist
 ---
 - Complete
-- Incomplete
 	- [[(1) C++ tutorial for beginners]]
 	- [[(2) Variables and basic data types]]
 	- [[(3) What is a const]]
 	- [[(4) What are namespaces]]
 	- [[(5) Typedef and type aliases]]
+- Incomplete
 	- [[(6) What are arithmetic operators]]
 	- [[(7) What is type conversion]]
 	- [[(8) How to accept user input in C++]]

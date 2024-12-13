@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=eRgPYSx7lCs)
-
+---
+Source:
+  - https://youtube.com/watch?v=eRgPYSx7lCs
+---
 - Write as an algebraic expression
 	- (1) A number <mark style="background: #FFF3A3A6;">minus</mark> 6
 		- x -6

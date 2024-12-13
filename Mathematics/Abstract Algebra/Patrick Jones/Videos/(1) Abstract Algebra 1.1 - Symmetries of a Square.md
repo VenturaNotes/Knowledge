@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=QHi_QW3OfKc)
-
+---
+Source:
+  - https://youtube.com/watch?v=QHi_QW3OfKc
+---
 - ![[Screenshot 2023-09-06 at 10.09.26 PM.png]]
 	- [[Rotation]]
 		- Rotations are done counterclockwise in math

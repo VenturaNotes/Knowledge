@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=nsveFC1L4GE)
-
+---
+Source:
+  - https://youtube.com/watch?v=nsveFC1L4GE
+---
 - ![[Screenshot 2023-05-06 at 6.33.36 PM.png]]
 - Write as an algebraic expression
 	- (1) The number of cents in n quarters

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=I87ZaOAOdog)
-
+---
+Source:
+  - https://youtube.com/watch?v=I87ZaOAOdog
+---
 - ![[Screenshot 2023-01-09 at 5.24.15 PM.png]]
 - Real Numbers
 	- 3, -5, 0, 1.5, $\frac 57$, $\pi$, $\sqrt 5$ 

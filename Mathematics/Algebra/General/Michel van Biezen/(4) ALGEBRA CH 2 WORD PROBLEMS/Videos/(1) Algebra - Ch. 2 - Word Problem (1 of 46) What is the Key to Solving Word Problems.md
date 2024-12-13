@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=LkS6AnnnpzM)
-
+---
+Source:
+  - https://youtube.com/watch?v=LkS6AnnnpzM
+---
 - (1) Identify the type of word problem
 	- %, Numbers, Money/Coins, Ages, Distance & Rate, Solutions, Mixtures, Investments
 - (2) Apply the specific method of solving the word problem. Each type of word problem has a specific solution method

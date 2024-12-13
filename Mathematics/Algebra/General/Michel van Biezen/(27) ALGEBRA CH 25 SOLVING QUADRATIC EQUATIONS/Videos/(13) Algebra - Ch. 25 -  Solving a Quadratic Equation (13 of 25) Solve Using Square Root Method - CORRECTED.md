@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=aiMcGyCj_BU)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=aiMcGyCj_BU
+---
 - ![[Screenshot 2023-02-18 at 4.54.44 AM.png]]
 	- Important to put things down in a systematic fashion to avoid making mistakes
 	- In a 30-60-90 degree triangle, b is opposite to the 30 degree angle

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mi5cXluQVNE)
-
+---
+Source:
+  - https://youtube.com/watch?v=mi5cXluQVNE
+---
 - ![[Screenshot 2023-02-17 at 4.08.12 PM.png]]
 	- On a 30$\degree$ angle
 		- the length of the imaginary part is half the hypotenuse

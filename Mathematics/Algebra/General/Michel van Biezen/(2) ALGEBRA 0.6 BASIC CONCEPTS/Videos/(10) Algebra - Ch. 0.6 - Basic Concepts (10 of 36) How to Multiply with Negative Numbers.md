@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=OVl_0hZLGrc)
-
+---
+Source:
+  - https://youtube.com/watch?v=OVl_0hZLGrc
+---
 - ![[Screenshot 2023-01-10 at 4.03.25 PM.png]]
 	- Multiplying with an odd number of negative numbers -> Negative result
 	- Multiplying with an even number of negative numbers -> Positive result

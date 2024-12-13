@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=SLT7HQPuVrA)
-
+---
+Source:
+  - https://youtube.com/watch?v=SLT7HQPuVrA
+---
 - ![[Screenshot 2023-01-15 at 3.09.19 PM.png]]
 	- (1) If we multiply and the bases are the same, we add the exponents
 	- (2) If we divide, we subtract exponents. Bases must be the same in each case

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HDk5joyQJOw)
-
+---
+Source:
+  - https://youtube.com/watch?v=HDk5joyQJOw
+---
 - ![[Screenshot 2023-02-13 at 2.47.18 PM.png]]
 	- (1) First determine fraction of the job done per hour
 		- 12 hours to do the whole job => $\frac {1}{12}$ Job done in 1 hour

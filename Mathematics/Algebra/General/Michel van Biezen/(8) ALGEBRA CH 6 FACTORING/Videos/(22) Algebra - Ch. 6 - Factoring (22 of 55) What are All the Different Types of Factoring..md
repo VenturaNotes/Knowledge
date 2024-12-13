@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=uMneOQO4qgw)
-
+---
+Source:
+  - https://youtube.com/watch?v=uMneOQO4qgw
+---
 - ![[Screenshot 2023-01-30 at 6.39.17 PM.png]]
 	- (1) Factor the Greatest common factor (GCF)
 	- (2) Factor by Grouping

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=38yIqiCNJpg)
-
+---
+Source:
+  - https://youtube.com/watch?v=38yIqiCNJpg
+---
 - ![[Screenshot 2023-07-10 at 1.01.54 AM.png]]
 	- MKS system (metric system as its known)
 	- [[Length]]

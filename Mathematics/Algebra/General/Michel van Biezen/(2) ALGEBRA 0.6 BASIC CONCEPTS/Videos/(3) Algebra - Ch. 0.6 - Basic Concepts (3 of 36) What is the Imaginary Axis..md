@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jqQXoh9YQQY)
-
+---
+Source:
+  - https://youtube.com/watch?v=jqQXoh9YQQY
+---
 - ![[Screenshot 2023-01-09 at 5.11.22 PM.png]]
 	- This is the xy axis
 	- Representation of a plane

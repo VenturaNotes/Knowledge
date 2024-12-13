@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=qmxO1HUwaPk)
-
+---
+Source:
+  - https://youtube.com/watch?v=qmxO1HUwaPk
+---
 - The left side still equals the right side if we add (or subtract) the same amount to both sides
 - An equation means that the left side equals the right side.
 - Property of Addition

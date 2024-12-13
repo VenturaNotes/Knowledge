@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Jo0LN0I756c)
-
+---
+Source:
+  - https://youtube.com/watch?v=Jo0LN0I756c
+---
 - ![[Screenshot 2023-01-25 at 11.09.17 PM.png]]
 	- Squaring a trinomial
 	- Should be 9 products from this

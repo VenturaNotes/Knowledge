@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=rFJBvtMSSag)
-
+---
+Source:
+  - https://youtube.com/watch?v=rFJBvtMSSag
+---
 - (1) What is 24% of 40?
 	- ![[Screenshot 2023-01-13 at 3.26.18 PM.png]]
 - (2) What is $\frac {35}{40\%}$

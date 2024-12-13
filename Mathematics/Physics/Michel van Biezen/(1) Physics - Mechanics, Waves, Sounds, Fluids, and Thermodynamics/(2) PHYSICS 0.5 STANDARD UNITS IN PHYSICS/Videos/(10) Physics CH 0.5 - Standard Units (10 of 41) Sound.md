@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MDR0JHUpWvw)
-
+---
+Source:
+  - https://youtube.com/watch?v=MDR0JHUpWvw
+---
 - ![[Screenshot 2023-08-21 at 2.42.55 AM.png]]
 	- $P = BkA$
 		- Pressure of a [[pressure wave]] or sound wave

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=TjXVaPLtKXc)
-
+---
+Source:
+  - https://youtube.com/watch?v=TjXVaPLtKXc
+---
 - (1) By Factoring
 	- ![[Screenshot 2023-02-07 at 12.53.14 PM.png]]
 - (2) Dividing each term in the numerator by the denominator

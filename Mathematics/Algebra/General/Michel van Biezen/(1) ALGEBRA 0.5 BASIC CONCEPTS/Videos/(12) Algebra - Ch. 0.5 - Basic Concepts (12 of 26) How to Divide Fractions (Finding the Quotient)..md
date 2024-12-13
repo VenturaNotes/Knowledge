@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_-86rdsPrUU)
-
+---
+Source:
+  - https://youtube.com/watch?v=_-86rdsPrUU
+---
 ## Basic Concepts
 - If we divide by a fraction smaller than one -> we get a bigger number
 	- ![[Screenshot 2023-01-09 at 1.55.45 PM.png]]

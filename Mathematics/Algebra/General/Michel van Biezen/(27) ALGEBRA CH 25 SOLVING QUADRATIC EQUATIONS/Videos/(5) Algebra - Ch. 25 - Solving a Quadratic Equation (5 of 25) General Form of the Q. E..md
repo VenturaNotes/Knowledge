@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=khbOz39pN3E)
-
+---
+Source:
+  - https://youtube.com/watch?v=khbOz39pN3E
+---
 - ![[Screenshot 2023-02-18 at 4.13.00 AM.png]]
 	- Functional representation of quadratic equation
 		- $y = ax^2 + bx + c$

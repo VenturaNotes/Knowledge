@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=KEm-ZVExP14)
-
+---
+Source:
+  - https://youtube.com/watch?v=KEm-ZVExP14
+---
 - ![[Screenshot 2023-04-29 at 9.57.23 PM.png]]
 	- 1 + 2 + 3 + 4 + ... + n = $\frac {n(n+1)}{2}$
 		- Adding n terms together can be evaluated with the above expression

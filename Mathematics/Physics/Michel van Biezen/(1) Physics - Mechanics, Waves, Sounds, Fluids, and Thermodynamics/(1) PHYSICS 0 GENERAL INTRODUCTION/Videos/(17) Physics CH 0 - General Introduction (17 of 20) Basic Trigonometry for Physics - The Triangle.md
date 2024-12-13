@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=K_oJ-kWJhY0)
-
+---
+Source:
+  - https://youtube.com/watch?v=K_oJ-kWJhY0
+---
 - ![[Mathematics/Physics/Michel van Biezen/(1) Physics - Mechanics, Waves, Sounds, Fluids, and Thermodynamics/(1) PHYSICS 0 GENERAL INTRODUCTION/Videos/- Attachments/download.png]]
 	- The side across the right angle of a triangle is the hypotenuse (h)
 	- The 2 other angles of a triangle always add up to 90$\degree$. 

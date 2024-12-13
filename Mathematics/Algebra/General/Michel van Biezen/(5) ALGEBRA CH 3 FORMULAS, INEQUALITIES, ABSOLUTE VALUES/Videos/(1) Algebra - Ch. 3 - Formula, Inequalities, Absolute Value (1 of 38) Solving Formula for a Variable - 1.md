@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=6kXyBfcQs7M)
-
+---
+Source:
+  - https://youtube.com/watch?v=6kXyBfcQs7M
+---
 - Solve for L ^f781c6
 	- (1) Do one of the below
 		- Move all terms with L to the left side. Move all other terms to the right side 

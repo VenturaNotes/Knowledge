@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=rpcNMP3rWHE)
-
+---
+Source:
+  - https://youtube.com/watch?v=rpcNMP3rWHE
+---
 - ![[Screenshot 2023-04-16 at 1.50.07 PM.png]]
 	- Given
 		- y-intercept and slope

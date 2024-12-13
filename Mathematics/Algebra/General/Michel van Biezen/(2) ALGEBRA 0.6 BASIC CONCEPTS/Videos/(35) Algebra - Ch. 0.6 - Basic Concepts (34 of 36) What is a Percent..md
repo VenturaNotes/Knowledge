@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=lMj-eSNRJVU)
-
+---
+Source:
+  - https://youtube.com/watch?v=lMj-eSNRJVU
+---
 - What do we mean when we state:
 	- The plane is 60% full
 	- I received a 90% on my test

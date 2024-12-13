@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=flWOvyq6dMU)
-
+---
+Source:
+  - https://youtube.com/watch?v=flWOvyq6dMU
+---
 - ![[Screenshot 2023-07-10 at 1.13.28 AM.png]]
 	- Let's define the unit of force
 	- 1 [[Newton]] (N) = Force that gives the mass of 1kg the acceleration of $\frac {1m}{sec^2}$

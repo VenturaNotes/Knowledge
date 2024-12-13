@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=0lk8ToHrxdc)
-
+---
+Source:
+  - https://youtube.com/watch?v=0lk8ToHrxdc
+---
 - ![[Screenshot 2023-04-18 at 8.07.02 PM.png]]
 - Newton's Law of Gravity
 	- ![[Screenshot 2023-01-10 at 9.39.38 PM.png]]

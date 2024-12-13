@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7BIo5QP0eJY)
-
+---
+Source:
+  - https://youtube.com/watch?v=7BIo5QP0eJY
+---
 - ![[Screenshot 2023-04-19 at 1.23.08 AM.png]]
 	- Equation Form
 		- $y = (x-h)^2 + k$

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ScbkiBlZy5c)
-
+---
+Source:
+  - https://youtube.com/watch?v=ScbkiBlZy5c
+---
 - ![[Screenshot 2023-04-19 at 12.26.54 AM.png]]
 	- (1) Find the equations representing the boundaries of the regions
 	- (2) Convert the equations into the y = mx + b Format

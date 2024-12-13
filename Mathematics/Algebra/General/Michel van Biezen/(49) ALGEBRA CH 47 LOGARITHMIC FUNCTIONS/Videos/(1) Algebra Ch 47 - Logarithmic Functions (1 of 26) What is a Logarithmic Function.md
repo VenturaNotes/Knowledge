@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MuT8mrGfIh4)
-
+---
+Source:
+  - https://youtube.com/watch?v=MuT8mrGfIh4
+---
 - ![[Screenshot 2023-01-20 at 5.20.42 PM.png]]
 	- A logarithmic Function is the inverse of an exponential function
 	- To solve for an exponent, just take the log (base b) of both sides

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=a--TED4vi-I)
-
+---
+Source:
+  - https://youtube.com/watch?v=a--TED4vi-I
+---
 - ![[Screenshot 2023-01-22 at 6.03.13 PM.png]]
 	- Rule for addition and subtraction: 
 		- Take the number with the least number of decimal places and that should be the number of decimal places in the answer.

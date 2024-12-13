@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=v6QXTRPE8D4)
-
+---
+Source:
+  - https://youtube.com/watch?v=v6QXTRPE8D4
+---
 - ![[Screenshot 2023-04-18 at 10.48.33 PM.png]]
 	- Method 1: Substitution
 		- Substitute into Eq 2 and 3

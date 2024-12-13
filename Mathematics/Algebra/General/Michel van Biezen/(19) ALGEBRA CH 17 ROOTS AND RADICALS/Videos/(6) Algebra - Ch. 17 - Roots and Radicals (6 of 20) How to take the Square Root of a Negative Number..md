@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=g0Gm2aJSL_w)
-
+---
+Source:
+  - https://youtube.com/watch?v=g0Gm2aJSL_w
+---
 - ![[Screenshot 2023-01-10 at 7.30.51 PM.png]]
 	- $\sqrt {25}$ = 5 (or -5) but by definition $\sqrt {25} = 5$ 
 	- There is no real number that you can multiply by itself to get a real number

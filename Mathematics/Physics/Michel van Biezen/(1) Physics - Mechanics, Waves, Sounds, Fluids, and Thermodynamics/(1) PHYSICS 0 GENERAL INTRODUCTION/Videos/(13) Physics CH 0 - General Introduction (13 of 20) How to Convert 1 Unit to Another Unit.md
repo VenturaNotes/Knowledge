@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=huHzZ8LS5KM)
-
+---
+Source:
+  - https://youtube.com/watch?v=huHzZ8LS5KM
+---
 - ![[Screenshot 2023-01-22 at 9.42.18 PM.png]]
 	- cc is cubic centimeters
 	- 1 yard is 0.9144 meters

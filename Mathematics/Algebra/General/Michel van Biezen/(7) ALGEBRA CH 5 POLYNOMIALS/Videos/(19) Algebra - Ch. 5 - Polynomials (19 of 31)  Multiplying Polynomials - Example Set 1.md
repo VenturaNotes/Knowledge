@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=h_KtiSTrY4Y)
-
+---
+Source:
+  - https://youtube.com/watch?v=h_KtiSTrY4Y
+---
 - ![[Screenshot 2023-01-25 at 11.18.51 PM.png]]
 	- (Bottom left is (x+4))
 	- There is a shortcut for this problem (example top-right)

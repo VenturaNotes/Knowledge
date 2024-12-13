@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=apqSuwipyew)
-
+---
+Source:
+  - https://youtube.com/watch?v=apqSuwipyew
+---
 - ![[Screenshot 2023-04-29 at 5.34.01 AM.png]]
 	- The sequence is a set of numbers arranged in a particular order
 		- A sequence can be finite

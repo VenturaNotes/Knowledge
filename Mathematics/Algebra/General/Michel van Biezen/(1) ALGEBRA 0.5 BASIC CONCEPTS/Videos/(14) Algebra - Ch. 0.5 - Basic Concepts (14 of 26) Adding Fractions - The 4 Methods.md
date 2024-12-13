@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fy4pXq516bI)
-
+---
+Source:
+  - https://youtube.com/watch?v=fy4pXq516bI
+---
 - The Denominators are the same
 	- ![[Screenshot 2023-01-09 at 2.02.29 PM.png]]
 - The Smaller denominators fit evenly into the largest denominator

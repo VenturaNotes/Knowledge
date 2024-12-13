@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=eBl_Rm1PefE)
-
+---
+Source:
+  - https://youtube.com/watch?v=eBl_Rm1PefE
+---
 - ![[Screenshot 2023-02-18 at 5.54.44 AM.png]]
 	- A Projectile is launched upward with an initial speed of 50m/sec
 		- (a) Height at t = 3 sec

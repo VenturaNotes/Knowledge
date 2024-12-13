@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=BVOlSWS4ZJg)
-
+---
+Source:
+  - https://youtube.com/watch?v=BVOlSWS4ZJg
+---
 - ![[Screenshot 2023-02-04 at 1.06.32 AM.png]]
 	- Factoring
 	- Quadratic Equation

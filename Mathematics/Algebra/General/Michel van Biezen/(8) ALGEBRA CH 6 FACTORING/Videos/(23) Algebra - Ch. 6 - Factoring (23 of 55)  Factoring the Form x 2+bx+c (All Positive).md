@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vwzJl3cjT00)
-
+---
+Source:
+  - https://youtube.com/watch?v=vwzJl3cjT00
+---
 - ![[Screenshot 2023-01-30 at 7.54.22 PM.png]]
 	- Start with finding all products of "C"
 	- $x^2 + bx + C$ 

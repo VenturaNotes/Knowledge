@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=36of1B3hgb0)
-
+---
+Source:
+  - https://youtube.com/watch?v=36of1B3hgb0
+---
 - Image
 	- [[Conduction]]
 	- [[Thermal Conductivity]]

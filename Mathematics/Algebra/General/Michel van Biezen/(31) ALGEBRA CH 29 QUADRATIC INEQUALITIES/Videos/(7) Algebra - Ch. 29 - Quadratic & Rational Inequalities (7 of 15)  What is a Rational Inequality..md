@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7dVt5XxWHxQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=7dVt5XxWHxQ
+---
 - ![[Screenshot 2023-04-16 at 12.22.54 AM.png]]
 	- An inequality containing an expression in the form of a fraction
 		- (1) Find the value for x that cannot be part of the solution

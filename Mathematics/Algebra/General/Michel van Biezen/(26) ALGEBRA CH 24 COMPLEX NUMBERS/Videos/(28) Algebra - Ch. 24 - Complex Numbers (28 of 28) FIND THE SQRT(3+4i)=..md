@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DJ5NOTGwpNA)
-
+---
+Source:
+  - https://youtube.com/watch?v=DJ5NOTGwpNA
+---
 - ![[Screenshot 2023-02-17 at 4.16.21 PM.png]]
 	- (1) The length of the hypotenuse for $\sqrt{3 + 4i}$ is 5 because $\sqrt{R^2 + I^2}$ which gives the Length of the hypotenuse = 5.
 	- (2) To find the angle of the original expression, we find the inverse tangent of the opposite over the adjacent and we calculate 55.13$\degree$ 

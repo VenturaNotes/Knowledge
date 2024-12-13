@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_x3eE0_m6jQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=_x3eE0_m6jQ
+---
 - ![[Screenshot 2023-01-10 at 3.49.13 PM.png]]
 	- {2, 10} $\subseteq$ A
 		- This is true since this subset are elements in set A 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MfNa7J6Zfcs)
-
+---
+Source:
+  - https://youtube.com/watch?v=MfNa7J6Zfcs
+---
 - ![[Screenshot 2023-01-13 at 3.51.29 PM.png]]
 	- (1) Identify the term with the greatest number of decimal places
 	- (2) Multiply both sides by 10, 100, 1000, ....

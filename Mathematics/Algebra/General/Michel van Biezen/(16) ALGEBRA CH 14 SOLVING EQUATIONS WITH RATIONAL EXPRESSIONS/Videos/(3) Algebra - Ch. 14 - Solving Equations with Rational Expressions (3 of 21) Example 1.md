@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=otFE-PUMG0s)
-
+---
+Source:
+  - https://youtube.com/watch?v=otFE-PUMG0s
+---
 - ![[Screenshot 2023-01-26 at 4.53.55 PM.png]]
 	- Check if the largest denominator is divisible by the other denominators.
 	- No quadratic equation.

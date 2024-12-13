@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=qVBy9mTDYfQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=qVBy9mTDYfQ
+---
 - ![[Screenshot 2023-02-17 at 4.31.55 PM.png]]
 	- When y = 0
 		- That represents the locations where the function $y = x^2 + x - 12$ crosses the x-axis
