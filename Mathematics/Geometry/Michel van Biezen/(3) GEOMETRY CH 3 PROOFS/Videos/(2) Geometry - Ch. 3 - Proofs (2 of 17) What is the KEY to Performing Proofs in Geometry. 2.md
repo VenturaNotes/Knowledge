@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jQT-hJfcOVw)
-
+---
+Source:
+  - https://youtube.com/watch?v=jQT-hJfcOVw
+---
 - Image
 	- Statement (or equation)
 	- What are we doing

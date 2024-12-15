@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=AY0MUskpaHQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=AY0MUskpaHQ
+---
 - ![[Screenshot 2023-10-27 at 7.40.33 PM.png]]
 	- [[Slope]]: Steepness of a function at particular places
 		- Simply the derivative of a function

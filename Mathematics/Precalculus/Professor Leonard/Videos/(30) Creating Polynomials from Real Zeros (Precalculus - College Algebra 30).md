@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=v-pnhWbHmQ8)
-
+---
+Source:
+  - https://youtube.com/watch?v=v-pnhWbHmQ8
+---
 - ![[Screenshot 2023-03-05 at 11.59.20 PM.png]]
 	- Functions from x-intercepts & graphs
 	- You can multiply a constant to any factored polynomial and it will not affect your roots.

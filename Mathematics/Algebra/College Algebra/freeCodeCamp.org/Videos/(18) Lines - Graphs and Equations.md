@@ -1,5 +1,7 @@
-[2:33:06](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=9186s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=9186s
+---
 - ![[Screenshot 2023-02-21 at 6.34.49 PM.png]]
 	- Find the equation of this line
 		- Find the slope using the slope formula

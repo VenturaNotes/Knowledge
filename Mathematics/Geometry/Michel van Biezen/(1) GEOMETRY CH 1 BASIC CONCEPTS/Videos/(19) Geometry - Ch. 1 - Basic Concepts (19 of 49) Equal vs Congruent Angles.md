@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=QAui1XjG05Y)
-
+---
+Source:
+  - https://youtube.com/watch?v=QAui1XjG05Y
+---
 - ![[Screenshot 2023-04-10 at 1.34.27 PM.png]]
 	- When the angle measures are equal
 	- Difference between congruent and equal

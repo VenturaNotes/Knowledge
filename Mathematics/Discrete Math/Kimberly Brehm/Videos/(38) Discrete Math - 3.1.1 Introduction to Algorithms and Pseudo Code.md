@@ -1,0 +1,38 @@
+---
+Source:
+  - https://youtube.com/watch?v=vPqQSKsxH4k
+---
+- Algorithms
+	- The specified steps of a procedure that takes a valid input and produces the desired output.
+	- Example - Describe an algorithm for finding the maximum value in a finite sequence of integers
+		- 1) Set the first value equal to our temp max
+		- 2) Compare the $2^{nd}$ integer to our temp max. If the integer is greater than our temp max, set it as our new temp max. Otherwise ignore.
+		- 3) Repeat until no more integers exist
+		- 4) When algorithm terminates, the temp max is the max integer
+- Pseudocode
+	- An intermediate language between English and a programming language like C++ or Java
+	- ![[Screenshot 2022-12-18 at 1.12.58 AM.png]]
+- More on pseudocode (Appendix 3)
+	- procedure algorithm name (list description of input variables)
+	- {comments}
+	- variable:= expression
+	- if condition then statement or block of statements
+	- if condition then statement 1
+	- else statement 2 or
+	- else if condition 2 then statement 2
+	- else if condition 3 the statement 3 ...
+- More on pseudocode
+	- For variable := initial value to final value statement or block of statements
+	- for 
+		- elements with a certain property statement
+	- while  
+		- condition statement or block of statements
+	- return
+		- output of algorithm
+- Types of Algorithm Problems
+	- 1) Searching Problems
+		- Looking through list that meets a specific characteristic
+	- 2) Sorting Problems
+		- sort things from greatest to least or least to greatest
+	- 3) Optimization Problems
+		- look for the least or greatest. Trying to optimize by maximizing profit or minimizing cost

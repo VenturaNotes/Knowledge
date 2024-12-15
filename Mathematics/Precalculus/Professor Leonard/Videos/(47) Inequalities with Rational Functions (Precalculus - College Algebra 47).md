@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=QSh1xcbYKZk)
-
+---
+Source:
+  - https://youtube.com/watch?v=QSh1xcbYKZk
+---
 - ![[Screenshot 2023-03-07 at 8.20.52 PM.png]]
 	- Rational inequalities
 		- For $\ge$ 0, $\le$ 0

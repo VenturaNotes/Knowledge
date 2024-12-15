@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=EfcHNz2fIks)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=EfcHNz2fIks
+---
 - ![[Screenshot 2023-05-04 at 4.34.52 AM.png]]
 	- The slope of a line is defined as the ratio of the vertical change to the horizontal change when traveling from one point on a line to a second point on the line that lies to the right of the first point
 		- Top graph

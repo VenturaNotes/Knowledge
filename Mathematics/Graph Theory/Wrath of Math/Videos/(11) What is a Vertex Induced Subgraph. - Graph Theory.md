@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1HXbz09Bipw)
-
+---
+Source:
+  - https://youtube.com/watch?v=1HXbz09Bipw
+---
 - ![[Screenshot 2023-06-13 at 9.26.33 PM.png]]
 	- A [[vertex-induced subgraph]] is sometimes just called an induced subgraph, however there are also [[edge-induced subgraphs]]
 	- This is a subgraph of G but not a vertex-induced subgraph because there is no edge between vertices a and b even though there is one in G. This is true for first image

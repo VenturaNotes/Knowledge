@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=EjsQWKq-dGQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=EjsQWKq-dGQ
+---
 - ![[Screenshot 2024-01-24 at 9.13.33 PM.png]]
 	- We know how to [[graph]]
 		- Graphing is just a visual representation of a table we could make by plugging in x values and recording all of the corresponding y-values or values of function that result

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jNUyVClUQfc)
-
+---
+Source:
+  - https://youtube.com/watch?v=jNUyVClUQfc
+---
 - ![[Screenshot 2023-03-13 at 9.40.34 PM.png]]
 	- Steps
 		- (1) Get all logs on one side + constant on the other

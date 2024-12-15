@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=IP7nW_hKB7I)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=IP7nW_hKB7I
+---
 - ![[Screenshot 2023-11-15 at 4.18.20 PM.png]]
 	- In the year 1800, people knew how to solve linear equations, quadratic equations, cubic equations and quartic equations
 		- What about higher degrees?

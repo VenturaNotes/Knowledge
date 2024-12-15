@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=h4hY2hho73Q)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=h4hY2hho73Q
+---
 - [[For loop]]: repeats some code a finite amount of times
 
 Code

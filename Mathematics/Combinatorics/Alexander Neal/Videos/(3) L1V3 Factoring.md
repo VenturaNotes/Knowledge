@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=IpCzWJr6zI0)
-
+---
+Source:
+  - https://youtube.com/watch?v=IpCzWJr6zI0
+---
 - ![[Screenshot 2023-09-08 at 11.06.30 AM.png]]
 	- [[Factoring]]
 		- Question: Is the following number a prime?

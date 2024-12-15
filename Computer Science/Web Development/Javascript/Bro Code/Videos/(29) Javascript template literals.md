@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=OVESx3qEKMA)
-
+---
+Source:
+  - https://youtube.com/watch?v=OVESx3qEKMA
+---
 index.js
 ```javascript
 // Template literals = delimited with (`) (a backtick)

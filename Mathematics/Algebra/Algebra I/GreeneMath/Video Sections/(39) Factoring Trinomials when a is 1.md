@@ -1,5 +1,7 @@
-[16:00:04](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=57604s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=57604s
+---
 - ![[Screenshot 2023-03-16 at 3.43.07 PM.png]]
 	- In this lesson, we will focus on how to factor a [[trinomial]] of the form: $ax^2 + bx + c$
 		- where a=1

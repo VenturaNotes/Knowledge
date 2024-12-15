@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=sAd3Eo25Bbg)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=sAd3Eo25Bbg
+---
 - ![[Screenshot 2023-10-30 at 9.17.44 PM.png]]
 	- From past tutorials, learned about (these are 2D objects)
 		- Line

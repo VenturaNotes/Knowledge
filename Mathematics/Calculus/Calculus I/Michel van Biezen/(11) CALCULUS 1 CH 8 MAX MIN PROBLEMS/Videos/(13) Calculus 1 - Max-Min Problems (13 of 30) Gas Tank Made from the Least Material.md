@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=J2K_-ghz9Ts)
-
+---
+Source:
+  - https://youtube.com/watch?v=J2K_-ghz9Ts
+---
 - ![[Screenshot 2023-12-29 at 3.58.33 PM.png]]
 	- Construct a steel gas tank that holds $100m^3$ in the shape of a [[cylinder]] with semi-spherical ends using the least amount of steel
 		- There are semi-spheres at the end

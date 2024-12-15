@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Z70AwnYYJOc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Z70AwnYYJOc
+---
 - [[Auto-Implemented Properties]]: shortcut when no additional logic is required in the property.
 	- You do not have to define a field for a property,
 	- You only have to write get; and/or set; inside the property

@@ -1,5 +1,7 @@
-[1:56:55](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=7015s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=7015s
+---
 - ![[Screenshot 2023-02-21 at 5.24.29 AM.png]]
 	- Solving linear inequalities (involves variable but no $x^2$ or any other higher powered terms)
 - ![[Screenshot 2023-02-21 at 5.26.51 AM.png|500]]

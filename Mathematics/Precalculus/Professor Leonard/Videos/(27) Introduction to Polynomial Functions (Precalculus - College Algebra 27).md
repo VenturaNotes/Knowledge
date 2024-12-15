@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=6Uh3Z6DJ_pI)
-
+---
+Source:
+  - https://youtube.com/watch?v=6Uh3Z6DJ_pI
+---
 - ![[Screenshot 2023-03-04 at 11.09.10 PM.png]]
 	- [[Leading term]]
 		- Term with largest exponent

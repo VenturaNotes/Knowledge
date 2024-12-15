@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=NstoL1ngTp8)
-
+---
+Source:
+  - https://youtube.com/watch?v=NstoL1ngTp8
+---
 ```C
 /*
 The ternary operator simplifies the below statement

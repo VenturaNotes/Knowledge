@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ADSThPu6l8M)
-
+---
+Source:
+  - https://youtube.com/watch?v=ADSThPu6l8M
+---
 - ![[Screenshot 2023-02-09 at 9.38.02 PM.png]]
 	- We have a system of linear equations given
 	- 2-step problems are basically saying "if this equation is true, what is the value of the second equation"

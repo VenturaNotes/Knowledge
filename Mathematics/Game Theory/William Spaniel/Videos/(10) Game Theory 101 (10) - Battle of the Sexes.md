@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=2BdBWmL8tJc)
-
+---
+Source:
+  - https://youtube.com/watch?v=2BdBWmL8tJc
+---
 ## The Story
 - A man and a woman want to get together for an evening of entertainment, but they have no means of communication.
 - They can either go to the ballet or the fight.

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=98tQPM3R3qU)
-
+---
+Source:
+  - https://youtube.com/watch?v=98tQPM3R3qU
+---
 Variables, Strings, and Numbers
 ```Go
 package main

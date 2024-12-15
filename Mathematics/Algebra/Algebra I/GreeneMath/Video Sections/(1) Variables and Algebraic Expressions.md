@@ -1,5 +1,7 @@
-[00:00:00](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=0s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=0s
+---
 - A [[variable]] is a symbol, generally a letter used to represent an unknown quantity.
 	- usually a lowercase letter
 - x, y, and z are the most commonly used in Algebra

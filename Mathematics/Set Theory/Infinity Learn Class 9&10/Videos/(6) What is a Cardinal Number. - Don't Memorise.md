@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Voj2N0VVbmg)
-
+---
+Source:
+  - https://youtube.com/watch?v=Voj2N0VVbmg
+---
 - ![[Screenshot 2023-03-28 at 8.13.37 PM.png]]
 	- A has 3 elements in the set and B has 4 elements in its set
 	- The<mark style="background: #FFF3A3A6;"> number of elements</mark> in a set is known as the [[cardinal number]]

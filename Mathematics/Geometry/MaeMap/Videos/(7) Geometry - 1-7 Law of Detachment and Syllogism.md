@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=SfiUIbGmI9s)
-
+---
+Source:
+  - https://youtube.com/watch?v=SfiUIbGmI9s
+---
 - ![[Screenshot 2023-04-06 at 4.43.04 PM.png]]
 	- Forms of Deductive Reasoning
 		- [[Law of Detachment]]: $[(p\rightarrow q) \land p] \rightarrow q$

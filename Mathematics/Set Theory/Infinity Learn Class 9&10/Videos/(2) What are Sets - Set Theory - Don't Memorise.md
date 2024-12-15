@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=l3-A0O42Lyo)
-
+---
+Source:
+  - https://youtube.com/watch?v=l3-A0O42Lyo
+---
 - ![[Screenshot 2023-03-28 at 8.02.06 PM.png]]
 	- Sets are a collection of things
 	- List of things you can see

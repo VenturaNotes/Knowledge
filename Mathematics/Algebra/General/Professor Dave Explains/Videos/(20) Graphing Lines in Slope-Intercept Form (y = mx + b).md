@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=T-acWVybQtk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=T-acWVybQtk
+---
 - ![[Screenshot 2023-10-25 at 2.59.41 PM.png]]
 	- We know about the [[coordinate plane]]
 	- Let's continue studying lines

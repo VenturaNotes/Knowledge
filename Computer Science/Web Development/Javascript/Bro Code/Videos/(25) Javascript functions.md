@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=TgDlIZVQeHw)
-
+---
+Source:
+  - https://youtube.com/watch?v=TgDlIZVQeHw
+---
 index.js
 ```javascript
 //function = Define code once, and use it many times.

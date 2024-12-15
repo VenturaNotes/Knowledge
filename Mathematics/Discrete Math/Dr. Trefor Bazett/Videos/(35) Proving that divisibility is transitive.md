@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=F78_7Lv-7vM)
-
+---
+Source:
+  - https://youtube.com/watch?v=F78_7Lv-7vM
+---
 - ![[Screenshot 2023-05-11 at 2.51.05 PM.png]]
 	- [[Divisibility]]
 	- Definition (of divisibility): For n and d integers, d $\ne$ 0, $d\mid n$ $\iff$ if $\exists k \in \mathbb{Z}$ such that $n = dk$

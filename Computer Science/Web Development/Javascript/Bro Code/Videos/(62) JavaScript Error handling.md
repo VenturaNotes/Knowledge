@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=yHdrwSLUPHg)
-
+---
+Source:
+  - https://youtube.com/watch?v=yHdrwSLUPHg
+---
 index.js
 ```javascript
 // error = object with a description of 

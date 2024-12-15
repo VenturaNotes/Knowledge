@@ -1,1 +1,4 @@
-[Video](https://youtube.com/watch?v=Ru88RDqOXSg)
+---
+Source:
+  - https://youtube.com/watch?v=Ru88RDqOXSg
+---

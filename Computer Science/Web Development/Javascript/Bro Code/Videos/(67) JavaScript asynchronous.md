@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=RW-qXwkCLBg)
-
+---
+Source:
+  - https://youtube.com/watch?v=RW-qXwkCLBg
+---
 index.js
 ```javascript
 // synchronous code = In an ordered sequence.

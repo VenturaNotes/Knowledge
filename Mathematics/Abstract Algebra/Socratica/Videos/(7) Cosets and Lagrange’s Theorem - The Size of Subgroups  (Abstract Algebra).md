@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=TCcSZEL_3CQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=TCcSZEL_3CQ
+---
 - ![[Screenshot 2024-01-23 at 2.28.20 PM.png]]
 	- Pieces of groups are called [[subgroup|subgroups]]
 		- Smaller groups contained in G

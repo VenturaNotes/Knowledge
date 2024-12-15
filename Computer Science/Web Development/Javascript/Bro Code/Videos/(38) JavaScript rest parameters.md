@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=YOI6CEVmQyM)
-
+---
+Source:
+  - https://youtube.com/watch?v=YOI6CEVmQyM
+---
 index.js
 ```javascript
 // rest parameters = represents an indefinite number

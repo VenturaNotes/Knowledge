@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ZotS3IGtarQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=ZotS3IGtarQ
+---
 - ![[Screenshot 2023-06-10 at 6.38.53 PM.png]]
 	- Amplitude being 2 means at the maximum value, it will be 2 greater than the value in the middle
 		- Usually an absolute value

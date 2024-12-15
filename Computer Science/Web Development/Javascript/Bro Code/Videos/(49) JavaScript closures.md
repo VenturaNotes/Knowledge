@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_LZZoHzkivc)
-
+---
+Source:
+  - https://youtube.com/watch?v=_LZZoHzkivc
+---
 index.js
 ```javascript
 // closure =  A function with preserved and private data.

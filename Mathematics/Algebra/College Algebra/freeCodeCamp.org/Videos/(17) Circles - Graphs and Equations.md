@@ -1,5 +1,7 @@
-[2:23:30](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=8610s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=8610s
+---
 - ![[Screenshot 2023-02-21 at 6.22.13 PM.png]]
 	- Find the equation of a circle of radius 5 centered at the point (3,2)
 		- Set the distance formula equal to the radius of the circle. Label the point you're given in the distance formula

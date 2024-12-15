@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=z9m3Qr3SowE)
-
+---
+Source:
+  - https://youtube.com/watch?v=z9m3Qr3SowE
+---
 ```C
 #include <stdio.h>
 #include <math.h>

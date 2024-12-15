@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jCNLtHdnsMg)
-
+---
+Source:
+  - https://youtube.com/watch?v=jCNLtHdnsMg
+---
 - ![[Screenshot 2023-07-26 at 1.45.46 AM.png]]
 	- Ions either lose or gain an electron
 	- Sodium is an atom that is easily ionized (meaning we can easily remove an electron from the atom)

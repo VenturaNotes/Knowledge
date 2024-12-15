@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FtcW2PfbJSQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=FtcW2PfbJSQ
+---
 index.js
 ```javascript
 //array.forEach() = executes a provided callback function

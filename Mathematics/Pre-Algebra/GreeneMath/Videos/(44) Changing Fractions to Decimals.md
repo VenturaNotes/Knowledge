@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=frWKyy1Jn08) (unavailable)
-[13:40:16](https://www.youtube.com/watch?v=VXzm8ReImG0&t=49216s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=49216s
+---
 - Lesson Objective
 	- Learn how to change a non-decimal [[fraction]] into a [[decimal]]
 - To convert a non-decimal fraction into a decimal, we divide the numerator by the denominator

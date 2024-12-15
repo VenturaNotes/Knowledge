@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=vVcEePliDUA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=vVcEePliDUA
+---
 - ![[Screenshot 2023-08-23 at 11.12.02 PM.png]]
 	- Hyperbolic functions are related to the trigonometric functions. Attaching the letter "h" to the end of the trigonometric functions.
 		- [[sinh]] x = $\frac {e^x - e^{-x}}{2}$

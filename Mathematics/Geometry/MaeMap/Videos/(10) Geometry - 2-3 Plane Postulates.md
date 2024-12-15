@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=A0lhESAVcNM)
-
+---
+Source:
+  - https://youtube.com/watch?v=A0lhESAVcNM
+---
 - ![[Screenshot 2023-04-06 at 8.22.24 PM.png]]
 	- Three Point Postulate
 		- P.4) Through any three noncollinear points, there exists exactly one plane

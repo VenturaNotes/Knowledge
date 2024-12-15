@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=OAIctPYiMrw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=OAIctPYiMrw
+---
 - ![[Screenshot 2023-05-15 at 4.38.03 AM.png]]
 	- We now understand roots and exponents
 	- Examples

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=iuoOq5aqwU4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=iuoOq5aqwU4
+---
 -  
 	- [[Proof by Exhaustion|proof by cases]]
 		- Sometimes when we are trying to prove $p \implies q$ is true, it may be easier to use an equivalent disjunction $p_1 \lor p_2 \lor ... \lor p_k$ instead of using p as the hypothesis

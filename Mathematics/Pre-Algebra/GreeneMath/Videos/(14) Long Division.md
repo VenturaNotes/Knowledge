@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=VbSOhuZJL-w) (unavailable)
-[03:06:42](https://www.youtube.com/watch?v=VXzm8ReImG0&t=11202s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=11202s
+---
 - Lesson Objective:
 	- Learn how to divide multi-digit numbers using [[long division]]
 - When we have large numbers with addition, we used a process called vertical addition. Vertical addition breaks it down into a series of easier steps.

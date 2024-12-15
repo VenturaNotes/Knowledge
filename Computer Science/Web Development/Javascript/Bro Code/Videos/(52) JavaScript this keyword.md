@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=qaT8vAUTF4o)
-
+---
+Source:
+  - https://youtube.com/watch?v=qaT8vAUTF4o
+---
 index.js
 ```javascript
 // this = reference to a particular object

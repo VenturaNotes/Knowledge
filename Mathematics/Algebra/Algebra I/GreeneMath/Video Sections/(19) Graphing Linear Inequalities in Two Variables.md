@@ -1,5 +1,7 @@
-[07:43:10](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=27790s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=27790s
+---
 - A [[linear inequality]] in two variables is of the form
 	- ax + by > c
 		- a and b are coefficients

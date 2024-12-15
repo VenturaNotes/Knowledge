@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=oJhAPsy9hBU)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=oJhAPsy9hBU
+---
 - ![[Pasted image 20230726160145.png|500]]
 	- [[Analog computer]]
 		- A computer that uses physical phenomenon such as electricity or mechanical position or hydraulics in order to pass it through a number of mathematical functions such as integrators, derivatives, multipliers and so forth (in order to come up with an answer.

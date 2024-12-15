@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=d8LrQ06j4w8)
-
+---
+Source:
+  - https://youtube.com/watch?v=d8LrQ06j4w8
+---
 index.js
 ```javascript
 //Declaring variables

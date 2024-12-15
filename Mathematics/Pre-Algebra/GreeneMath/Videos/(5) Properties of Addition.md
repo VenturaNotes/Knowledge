@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=mCnaE3zjR5Y)
-[00:49:26](https://www.youtube.com/watch?v=VXzm8ReImG0&t=2966s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=2966s
+---
 - Lesson objectives:
 	- Learn about the [[identity property of zero]]
 	- Learn about the [[commutative property of addition]]

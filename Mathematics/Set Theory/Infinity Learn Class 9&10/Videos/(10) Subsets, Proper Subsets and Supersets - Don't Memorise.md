@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=xotLg-oLboY)
-
+---
+Source:
+  - https://youtube.com/watch?v=xotLg-oLboY
+---
 - ![[Screenshot 2023-03-30 at 1.45.13 PM.png]]
 	- Saying "P is a part of Q" is equivalent to "P is a subset of Q"
 		- $P \subseteq Q$ 

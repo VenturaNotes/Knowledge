@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=t6gmQaTMTtM)
-
+---
+Source:
+  - https://youtube.com/watch?v=t6gmQaTMTtM
+---
 - [[while loop]] = executes a block of code as long as a it's condition remains true
 ```java
 import java.util.Scanner;

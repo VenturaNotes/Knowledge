@@ -1,5 +1,7 @@
-[6:13:13](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=22393s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=22393s
+---
 - Intro
 	- Adding, subtracting, multiplying and dividing functions
 - ![[Screenshot 2023-02-25 at 10.22.47 PM.png]]

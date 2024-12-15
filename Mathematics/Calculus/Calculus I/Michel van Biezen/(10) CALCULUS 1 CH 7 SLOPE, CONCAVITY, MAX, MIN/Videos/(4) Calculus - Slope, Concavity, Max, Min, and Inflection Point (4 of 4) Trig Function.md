@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=FrP78DgWgbA)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=FrP78DgWgbA
+---
 - ![[Screenshot 2023-10-27 at 7.56.51 PM.png]]
 	- (1) Find derivative
 	- Found 4 [[critical points]]

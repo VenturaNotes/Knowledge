@@ -1,5 +1,7 @@
-[23:35:50](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=84950s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=84950s
+---
 - Introduction
 	- Simplified form of a [[radical]]: ^5c776a
 		- the radicand contains no factor (except 1) that is a:

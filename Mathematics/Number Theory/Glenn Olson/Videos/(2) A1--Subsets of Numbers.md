@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=nX3ERtTyUZ8)
-
+---
+Source:
+  - https://youtube.com/watch?v=nX3ERtTyUZ8
+---
 - A1.a) Integers
 	- ... -3, -2, -1, 0, 1, 2, 3, ...
 - A1.b) Whole Numbers

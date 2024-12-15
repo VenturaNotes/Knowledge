@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=oJeR8viOcsM) (unavailable)
-[05:14:51](https://www.youtube.com/watch?v=VXzm8ReImG0&t=18891s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=18891s
+---
 - Lesson Objective:
 	- Learn how to subtract [[integers]]
 - 8 - 9 = ?

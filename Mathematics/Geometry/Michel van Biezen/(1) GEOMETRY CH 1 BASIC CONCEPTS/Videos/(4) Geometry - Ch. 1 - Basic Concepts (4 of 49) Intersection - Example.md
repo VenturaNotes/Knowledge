@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Fers9Cu0ZCw)
-
+---
+Source:
+  - https://youtube.com/watch?v=Fers9Cu0ZCw
+---
 - ![[Screenshot 2023-04-02 at 11.18.47 PM.png]]
 	- (1) Find the intersection of (2 lines)
 	- (2) Find the intersection of plane EFG and plane EAB

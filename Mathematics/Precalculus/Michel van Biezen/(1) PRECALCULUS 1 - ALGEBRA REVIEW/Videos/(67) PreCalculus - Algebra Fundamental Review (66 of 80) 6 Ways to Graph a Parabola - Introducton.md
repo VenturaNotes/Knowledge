@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=9KhDzOm6P84)
-
+---
+Source:
+  - https://youtube.com/watch?v=9KhDzOm6P84
+---
 - ![[Screenshot 2023-05-05 at 5.02.17 AM.png]]
 	- Imaginary solution if parabola doesn't cross the x-axis
 		- Mirror image would cross the x-axis

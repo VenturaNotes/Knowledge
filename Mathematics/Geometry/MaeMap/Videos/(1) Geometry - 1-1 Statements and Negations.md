@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=lLd1ZHEKplY)
-
+---
+Source:
+  - https://youtube.com/watch?v=lLd1ZHEKplY
+---
 - ![[Screenshot 2023-04-06 at 4.06.17 PM.png]]
 	- Statement - A sentence that is either true or false, not both
 	- Truth value - true or false

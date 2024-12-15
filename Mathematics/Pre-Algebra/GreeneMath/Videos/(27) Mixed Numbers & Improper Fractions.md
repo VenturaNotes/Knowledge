@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=zAraw6T-9WM) (unavailable)
-[07:59:18](https://www.youtube.com/watch?v=VXzm8ReImG0&t=28758s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=28758s
+---
 - Lesson Objective:
 	- Learn how to change a [[mixed number]] into an [[improper fraction]] and vice versa
 - Improper Fraction to Mixed Number

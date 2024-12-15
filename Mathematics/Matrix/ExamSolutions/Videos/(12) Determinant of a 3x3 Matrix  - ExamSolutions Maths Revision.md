@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vkmrQKKbQzY)
-
+---
+Source:
+  - https://youtube.com/watch?v=vkmrQKKbQzY
+---
 - ![[Screenshot 2023-07-15 at 7.36.32 PM.png]]
 	- [[Determinant of 3x3 matrix]]
 		- Always start with positive on upper left corner of matrix

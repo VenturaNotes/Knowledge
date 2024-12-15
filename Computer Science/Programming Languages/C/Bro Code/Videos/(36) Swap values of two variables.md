@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=CV74aNbKrpo)
-
+---
+Source:
+  - https://youtube.com/watch?v=CV74aNbKrpo
+---
 ```C
 // When working with arrays, it's not enough to simply assign values when copying
 //       you will just get an "expression must be a modifiable lvalue" error     

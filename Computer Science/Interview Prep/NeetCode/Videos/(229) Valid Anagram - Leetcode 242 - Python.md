@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=9UtInBqnCgA)
-
-
+---
+Source:
+  - https://www.youtube.com/watch?v=9UtInBqnCgA
+---
 - Image
 	- [[Anagram]]
 		- "rat" and "car" not anagrams because even though they contain the same number of characters, "rat" has a "t" while "car" has a "c"

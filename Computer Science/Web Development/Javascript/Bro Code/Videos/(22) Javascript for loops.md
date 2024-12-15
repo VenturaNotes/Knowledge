@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jHXe7euBwAw)
-
+---
+Source:
+  - https://youtube.com/watch?v=jHXe7euBwAw
+---
 index.js
 ```javascript
 // for loop = repeat some code a 

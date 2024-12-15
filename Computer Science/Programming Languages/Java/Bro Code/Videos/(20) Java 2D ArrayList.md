@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=9tBxJoQF74E)
-
+---
+Source:
+  - https://youtube.com/watch?v=9tBxJoQF74E
+---
 ```java
 import java.util.*;
 

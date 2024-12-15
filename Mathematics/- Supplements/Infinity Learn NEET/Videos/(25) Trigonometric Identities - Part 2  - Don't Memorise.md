@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=H8o206G870s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=H8o206G870s
+---
 - ![[Screenshot 2023-10-26 at 11.46.17 AM.png]]
 	- Will expand [[trigonometric Identities]] 
 		- $sin(\alpha + \beta)$

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1oMGDesyFO8)
-
+---
+Source:
+  - https://youtube.com/watch?v=1oMGDesyFO8
+---
 - ![[Screenshot 2023-10-04 at 6.01.58 PM.png]]
 	- [[Exponential function]]
 	- [[Trigonometric function]]

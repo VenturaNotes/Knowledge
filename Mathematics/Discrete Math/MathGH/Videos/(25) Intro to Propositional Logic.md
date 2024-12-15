@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=rbIj56n7XLk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=rbIj56n7XLk
+---
 - ![[Screenshot 2024-01-07 at 4.22.06 PM.png]]
 	- Introduction to [[propositional logic]]
 		- [[Proposition]]: A declarative sentence that is either true or false (but not both)

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=YMXNWU1BZ6w)
-
+---
+Source:
+  - https://youtube.com/watch?v=YMXNWU1BZ6w
+---
 - ![[Screenshot 2023-06-11 at 1.46.50 AM.png]]
 	- Errata
 		- Solution of $\frac \pi 6$ is missing

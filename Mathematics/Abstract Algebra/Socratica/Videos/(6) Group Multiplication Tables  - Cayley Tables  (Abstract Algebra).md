@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=BwHspSCXFNM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=BwHspSCXFNM
+---
 - ![[Screenshot 2024-01-23 at 1.57.14 PM.png]]
 	- Learned [[Multiplication table]] when studying arithmetic
 	- Groups behave very differently than numbers in arithmetic

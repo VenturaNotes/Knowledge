@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jcTKaNkWFUU)
-
+---
+Source:
+  - https://youtube.com/watch?v=jcTKaNkWFUU
+---
 - ![[Screenshot 2023-01-08 at 2.55.49 PM.png]]
 	- Factor the trinomials
 		- Factoring polynomials with 3 terms involved

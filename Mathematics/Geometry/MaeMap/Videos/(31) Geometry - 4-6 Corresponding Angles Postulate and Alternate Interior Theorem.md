@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=URGw0qQdTek)
-
+---
+Source:
+  - https://youtube.com/watch?v=URGw0qQdTek
+---
 - ![[Screenshot 2023-04-07 at 2.55.59 AM.png]]
 	- [[Corresponding Angles Postulate]]
 		- P.12) If two parallel lines are intersected by transversal, then the corresponding angles are congruent

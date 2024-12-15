@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=TDbO8EUMcKQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=TDbO8EUMcKQ
+---
 ---
 - Surveys
 	- We use surveys to represent sets of people. In this section, the cardinal number of a set plays an important role.

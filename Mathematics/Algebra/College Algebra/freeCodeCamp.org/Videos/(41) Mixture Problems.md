@@ -1,5 +1,7 @@
-[5:53:20](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=21200s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=21200s
+---
 - Intro
 	- Standard mixture problem in which we need to figure out what quantity of solutions to mix together
 - ![[Screenshot 2023-02-25 at 9.34.35 PM.png]]

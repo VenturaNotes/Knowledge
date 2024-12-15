@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=0Yf4xubJElA)
-
+---
+Source:
+  - https://youtube.com/watch?v=0Yf4xubJElA
+---
 - ![[Screenshot 2023-04-06 at 4.14.20 PM.png]]
 	- Truth Table - method used to organize truth values
 	- Compound Statement - 2 or more statements joined together

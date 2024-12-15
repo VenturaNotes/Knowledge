@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Sh_fxPDuzL0)
-
+---
+Source:
+  - https://youtube.com/watch?v=Sh_fxPDuzL0
+---
 ## Ramsey Numbers
 - Definition
 	- For positive integers m and n, the Ramsey number R(m, n) is the least positive integer `t` so that if G is any graph on `t` vertices, then either G contains a clique of size  `m` or G contains an independent set of size n.

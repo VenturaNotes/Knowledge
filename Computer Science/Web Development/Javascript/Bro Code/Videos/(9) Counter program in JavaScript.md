@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=dKOT5LcouzQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=dKOT5LcouzQ
+---
 index.js
 ```javascript
 let count = 0;

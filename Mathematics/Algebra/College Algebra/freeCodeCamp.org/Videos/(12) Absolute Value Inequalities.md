@@ -1,5 +1,7 @@
-[1:49:35](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=6575s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=6575s
+---
 - ![[Screenshot 2023-02-21 at 5.07.08 AM.png|500]]
 	- What x-values satisfy
 	- It was written in inequality notation and standard notation

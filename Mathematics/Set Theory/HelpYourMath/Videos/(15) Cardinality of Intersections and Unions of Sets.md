@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=n9VfagDOvWM)
-
+---
+Source:
+  - https://youtube.com/watch?v=n9VfagDOvWM
+---
 - Practice with set operations
 ---
 - Review of Terms

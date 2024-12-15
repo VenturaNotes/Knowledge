@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=UxbY85Cm9SQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=UxbY85Cm9SQ
+---
 - ![[Screenshot 2023-12-28 at 12.57.00 AM.png]]
 	- Properties of [[estimators]]
 	- In econometrics, we're thinking about a population with some sort of process ($\beta ^P$) and population parameter which quantifies the effect of the variable which we're considering within the population

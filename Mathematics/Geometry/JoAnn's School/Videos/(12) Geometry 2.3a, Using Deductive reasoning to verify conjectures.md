@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MuaonZCBPIg)
-
+---
+Source:
+  - https://youtube.com/watch?v=MuaonZCBPIg
+---
 - ![[Screenshot 2023-04-25 at 2.43.43 AM.png]]
 	- We've learned that one counterexample is enough to disprove a conjecture
 	- But, to prove that a conjecture is TRUE, we must use deductive reasoning

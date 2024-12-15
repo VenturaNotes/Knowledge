@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Q8rvWnOD9nQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=Q8rvWnOD9nQ
+---
 index.js
 ```javascript
 let fruits = ["banana", "apple", "orange", "mango"];

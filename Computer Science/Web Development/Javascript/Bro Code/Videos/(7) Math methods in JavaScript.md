@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=xR82Jx4pqIc)
-
+---
+Source:
+  - https://youtube.com/watch?v=xR82Jx4pqIc
+---
 index.js
 ```javascript
 // Math =  an intrinsic object that provides basic mathematics functionality and constants

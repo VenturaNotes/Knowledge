@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=heoTab1e41A)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=heoTab1e41A
+---
 - [[Object]]: A instance of a class
 	- A class can be used as a blueprint to create objects (OOP)
 	- Objects can have [[fields]] & [[method|methods]] (characteristics & actions)

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=sTCRB6hMsC4)
-
+---
+Source:
+  - https://youtube.com/watch?v=sTCRB6hMsC4
+---
 - Prof. Leonard is 6ft tall
 
 - ![[Screenshot 2023-03-03 at 10.43.45 PM.png]]

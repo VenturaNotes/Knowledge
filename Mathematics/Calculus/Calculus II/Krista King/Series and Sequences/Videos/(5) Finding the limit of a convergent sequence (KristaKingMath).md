@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=8g6RNH50zP8)
-
+---
+Source:
+  - https://youtube.com/watch?v=8g6RNH50zP8
+---
 - Find the limit of the convergent sequence
 	- Image
 		- ln is the natural logarithm

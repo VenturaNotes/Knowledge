@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=iUQR0enP7RQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=iUQR0enP7RQ
+---
 - ![[Screenshot 2023-09-26 at 9.51.58 PM.png]]
 	- [[Identity Matrix]]
 		- Denoted by "I"

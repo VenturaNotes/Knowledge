@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1XPxl8NwSQI)
-
+---
+Source:
+  - https://youtube.com/watch?v=1XPxl8NwSQI
+---
 index.js
 ```javascript
 // Gives us the ability to check more than 1 condition concurrently

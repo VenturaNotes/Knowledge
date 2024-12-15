@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=aKhhYguY0DQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=aKhhYguY0DQ
+---
 - ![[Screenshot 2023-09-26 at 9.01.01 AM.png]]
 	- [[Matrix multiplication]]
 		- To multiply the first element, you essentially use [[dot product]] on the first row of the first matrix and the first column on the second matrix

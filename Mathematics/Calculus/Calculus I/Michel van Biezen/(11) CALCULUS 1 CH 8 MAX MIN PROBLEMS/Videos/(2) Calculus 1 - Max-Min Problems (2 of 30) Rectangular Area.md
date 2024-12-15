@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Ck370GoU56Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=Ck370GoU56Q
+---
 - ![[Screenshot 2023-10-27 at 8.33.10 PM.png]]
 	- What is the largest rectangular area that can be enclosed by 100 feet of fencing? (can you get a larger area with a circular fence?)
 		- Square is largest rectangle we can have for specific perimeter. Gives largest area

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=p6a44mfwJDw)
-
+---
+Source:
+  - https://youtube.com/watch?v=p6a44mfwJDw
+---
 - ![[Screenshot 2023-06-07 at 3.28.08 PM.png]]
 	- Method 1: [[Factoring]]
 		- Set y = 0 to find the roots

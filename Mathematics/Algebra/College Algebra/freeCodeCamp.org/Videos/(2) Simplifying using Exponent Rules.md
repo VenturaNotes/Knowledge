@@ -1,5 +1,7 @@
-[0:10:14](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=614s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=614s
+---
 - Professor refers to numerator as upstairs and denominator as downstairs
 
 - ![[Screenshot 2023-02-19 at 10.22.24 PM.png]]

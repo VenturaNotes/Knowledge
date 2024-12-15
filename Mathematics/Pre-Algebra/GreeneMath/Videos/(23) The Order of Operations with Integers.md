@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=TRl7j1uVoRs)
-[06:07:08](https://www.youtube.com/watch?v=VXzm8ReImG0&t=22028s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=22028s
+---
 - Lesson Objective:
 	- Learn how to use the order of operations when integers are involved
 - The [[Order of Operations]]:

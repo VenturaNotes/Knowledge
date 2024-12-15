@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=bo6a47hrHns)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=bo6a47hrHns
+---
 - ![[Screenshot 2023-09-28 at 8.51.17 PM.png]]
 	- [[Vectors]] and [[Scalars]]
 		- To describe a pool table may need

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=biyQzy2yRUA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=biyQzy2yRUA
+---
 - ![[Screenshot 2023-07-17 at 4.28.50 AM.png]]
 	- [[Matrix]]
 		- Arrays of numbers that are often meant to represent coefficients and constants form a system of linear equations

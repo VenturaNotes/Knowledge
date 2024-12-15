@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=O8T9spKHVWQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=O8T9spKHVWQ
+---
 - Keeping quiet in The Prisoner's Dilemma was a strictly dominated strategy
 - Iterated Elimination of Strictly Dominated Strategies (IESDS Game)
 	- ![[Screenshot 2023-01-07 at 7.00.25 PM.png]]

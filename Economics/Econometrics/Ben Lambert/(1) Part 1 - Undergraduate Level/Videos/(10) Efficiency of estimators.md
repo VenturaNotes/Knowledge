@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=_iR4uG8MVpA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=_iR4uG8MVpA
+---
 - ![[Screenshot 2023-12-28 at 1.46.35 AM.png]]
 	- [[Efficiency]] of estimators
 		- [[Frequency distribution]] of estimator

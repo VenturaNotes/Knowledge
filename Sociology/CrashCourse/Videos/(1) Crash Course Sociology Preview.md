@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ylXVn-wh9eQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=ylXVn-wh9eQ
+---
 - Sociology is the study of people and society
 - Topics include
 	- Social and economic inequalities

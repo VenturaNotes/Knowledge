@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=lk8Y5MS7ezk)
-
+---
+Source:
+  - https://youtube.com/watch?v=lk8Y5MS7ezk
+---
 - ![[Screenshot 2023-04-25 at 12.21.49 AM.png|500]]
 	- A coordinate plane is a plane that's divided into four quadrants by a horizontal line, the x-axis, and a vertical line, the y-axis.
 	- The location of a point is given by an ordered pair as (x, y). The (x, y) are the coordinates of the point

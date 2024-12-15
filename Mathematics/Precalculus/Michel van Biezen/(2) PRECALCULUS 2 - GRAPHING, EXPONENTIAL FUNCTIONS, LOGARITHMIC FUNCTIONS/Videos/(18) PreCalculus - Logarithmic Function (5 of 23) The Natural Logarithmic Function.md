@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=nA_yXiV5mYQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=nA_yXiV5mYQ
+---
 - ![[Screenshot 2023-06-05 at 11.49.37 PM.png]]
 	- e $\approx$ 2.71828...
 	- Larger the base of a [[logarithm]], the slower it grows

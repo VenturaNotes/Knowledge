@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=RS6qmQXP8fc)
-
+---
+Source:
+  - https://youtube.com/watch?v=RS6qmQXP8fc
+---
 - ![[Screenshot 2023-08-23 at 11.47.21 PM.png]]
 	- The [[Unit Circle]]. Interested in:
 		- coordinates

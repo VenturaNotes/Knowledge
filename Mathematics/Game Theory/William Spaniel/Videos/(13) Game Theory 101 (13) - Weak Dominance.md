@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=OlV190noZOw)
-
+---
+Source:
+  - https://youtube.com/watch?v=OlV190noZOw
+---
 ## Solving Simultaneous Move Games
 - Goal: find all Nash equilibria
 - Iterated elimination of strictly dominated strategies never eliminates Nash equilibria.

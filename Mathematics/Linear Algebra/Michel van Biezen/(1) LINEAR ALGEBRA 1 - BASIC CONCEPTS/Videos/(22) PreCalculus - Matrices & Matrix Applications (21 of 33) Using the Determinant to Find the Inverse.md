@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=F_fyoVXaowY)
-
+---
+Source:
+  - https://youtube.com/watch?v=F_fyoVXaowY
+---
 - ![[Screenshot 2023-06-11 at 5.07.31 AM.png]]
 	- [[Inverse of 2x2 matrix]]
 		- [[determinant]] = D = ad-bc

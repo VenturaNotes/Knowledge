@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=gQh_EB1SKoQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=gQh_EB1SKoQ
+---
 - ![[Screenshot 2023-06-13 at 2.04.50 AM.png]]
 	- [[Empty Graph]]: Graph with no edges
 		- Blank space

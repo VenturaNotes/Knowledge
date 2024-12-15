@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-6X32oZzK2E)
-
+---
+Source:
+  - https://youtube.com/watch?v=-6X32oZzK2E
+---
 index.js
 ```javascript
 // console.time() = Starts a timer you can use to 

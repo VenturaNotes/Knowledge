@@ -1,0 +1,24 @@
+---
+Source:
+  - https://youtube.com/watch?v=dLm1pglDFHA
+---
+- Matrices
+	- A rectangular array of numbers. A matrix with m rows and n columns is called an $m\text{ x }n$ matrix.
+	- ![[Screenshot 2022-12-18 at 12.37.57 AM.png]]
+- Matrix Addition (and Subtraction)
+	- Matrices of the same size can be added by finding the sum of elements of the same address.
+	- ![[Screenshot 2022-12-18 at 12.38.32 AM.png]]
+- Matrix multiplication
+	- Matrices M and N can be multiplied if M is a $m \text{ x } k$ matrix and N is a $k \text { x } n$ matrix. The resulting product matrix will be an $m \text{ x } n$ matrix
+	- ![[Screenshot 2022-12-18 at 12.39.30 AM.png]]
+- Examples
+	- ![[Screenshot 2022-12-18 at 12.39.49 AM.png]]
+		- 2B is scalar multiplication
+- Identity Matrix ($A * I = A$ )
+	- The identity matrix is a square matrix $I_n = \delta_{ij}$ where $\delta_{ij} = 1$ if i=j and $\delta_{ij} =0$ if i $\ne$ j. (First diagonal is 1's and all other elements are 0).
+	- ![[Screenshot 2022-12-18 at 12.41.16 AM.png]]
+		- $\delta$ is lowercase delta
+- Transpose of Matrices
+	- The transpose of $A_{m\text{ x }n}$ denoted $A^t$ is the $n \text{ x }m$ matrix obtained by interchanging the rows and columns of A - If A=$A^t$ the A is symmetric.
+	- ![[Screenshot 2022-12-18 at 12.42.56 AM.png]]
+- 

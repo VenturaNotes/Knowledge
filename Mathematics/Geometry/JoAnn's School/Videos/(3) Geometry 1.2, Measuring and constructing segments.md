@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=pbWkLf9L3EE)
-
+---
+Source:
+  - https://youtube.com/watch?v=pbWkLf9L3EE
+---
 - A ruler can be used to measure the distance between two points
 	- ![[Screenshot 2023-04-24 at 6.25.27 PM.png]]
 - A point corresponds to only one number on the ruler, and that number is called a coordinate

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=STEfmxQjO2Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=STEfmxQjO2Q
+---
 - What is JavaScript?
 	- A web-based interpreted programming language
 		- Add interactive behavior to webpages

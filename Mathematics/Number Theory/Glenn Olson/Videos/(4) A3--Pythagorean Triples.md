@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tID6qX5vPDg)
-
+---
+Source:
+  - https://youtube.com/watch?v=tID6qX5vPDg
+---
 - A3. a) Pythagorean triples are 3 positive integers a, b, c such that $a^2 + b^2 = c^2$ 
 - Most common
 	- 3 - 4 - 5 is one triple since $3^2 + 4^2 = 5^2$ 

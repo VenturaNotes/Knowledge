@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=blu6-qsV0pY)
-
+---
+Source:
+  - https://youtube.com/watch?v=blu6-qsV0pY
+---
 ---
 - More notation!
 	- $\in$ means "is an element of"

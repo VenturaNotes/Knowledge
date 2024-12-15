@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=G1kYoPr1Ru8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=G1kYoPr1Ru8
+---
 - [[Multidimensional array]]: An array of arrays
 	- Sort of a grid or matrix of data
 

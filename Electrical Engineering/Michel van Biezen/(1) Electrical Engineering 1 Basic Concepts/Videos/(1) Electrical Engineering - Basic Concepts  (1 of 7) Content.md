@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=s6hRPyjTx6k)
-
+---
+Source:
+  - https://youtube.com/watch?v=s6hRPyjTx6k
+---
 - (1) Basic Concepts
 - (2) Basic Laws
 - (3) Circuit Analysis

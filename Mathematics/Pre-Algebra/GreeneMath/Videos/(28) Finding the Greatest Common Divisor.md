@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ACO65ox-5eo) (unavailable)
-[08:12:49](https://www.youtube.com/watch?v=VXzm8ReImG0&t=29569s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=29569s
+---
 - Finding the GCD
 - Lesson Objective
 	- Learn how to find the [[greatest common divisor]] (GCD) for a group of numbers

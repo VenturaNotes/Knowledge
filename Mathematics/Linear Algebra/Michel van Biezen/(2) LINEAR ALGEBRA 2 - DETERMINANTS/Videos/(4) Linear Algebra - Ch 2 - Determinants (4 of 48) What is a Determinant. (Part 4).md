@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=JlzJJWi2dIM)
-
+---
+Source:
+  - https://youtube.com/watch?v=JlzJJWi2dIM
+---
 - ![[Screenshot 2023-07-27 at 4.14.29 PM.png]]
 	- Determinants are used for
 		- (1) Analyzing systems of linear equations

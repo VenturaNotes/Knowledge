@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=KezbqAAlOZk)
-
+---
+Source:
+  - https://youtube.com/watch?v=KezbqAAlOZk
+---
 - ![[Screenshot 2023-03-13 at 3.08.44 AM.png]]
 	- Steps
 		- Look for common bases $1^{st}$

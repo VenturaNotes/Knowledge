@@ -1,5 +1,7 @@
-[2:16:20](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=8180s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=8180s
+---
 - ![[Screenshot 2023-02-21 at 5.54.47 AM.png]]
 	- Distance formula can be used to find the distance between 2 points if we know their coordinates
 	- Formula comes from pythagorean theorem

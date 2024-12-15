@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Gtb9KwA37vo) (unavailable)
-[09:26:55](https://www.youtube.com/watch?v=VXzm8ReImG0&t=34015s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=34015s
+---
 - Finding the LCM
 - Lesson Objective:
 	- Learn how to find the [[least common multiple]] for a group of numbers

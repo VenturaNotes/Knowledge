@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ByWrUSKHTGc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=ByWrUSKHTGc
+---
 - ![[Screenshot 2023-10-30 at 6.44.08 PM.png]]
 	- Special lines pertaining to triangles
 	- [[Perpendicular bisector]]

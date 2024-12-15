@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=93CxSLi89Ok)
-
+---
+Source:
+  - https://youtube.com/watch?v=93CxSLi89Ok
+---
 - Particular pair of logical forms
 
 ## Thought: First way to think of Logical Equivalence

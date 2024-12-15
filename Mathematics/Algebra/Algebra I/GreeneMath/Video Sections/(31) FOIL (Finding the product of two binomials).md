@@ -1,5 +1,7 @@
-[12:41:26](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=45686s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=45686s
+---
 - [[FOIL]] is an easy method to find the product of two binomials
 	- ![[Screenshot 2023-02-19 at 4.26.28 AM.png]]
 - Acronym

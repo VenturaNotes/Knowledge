@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Cn9O7odK4bc)
-
+---
+Source:
+  - https://youtube.com/watch?v=Cn9O7odK4bc
+---
 - ![[Screenshot 2023-06-13 at 1.34.48 AM.png]]
 	- [[Size of a Graph]]
 		- Cardinality of the edge set

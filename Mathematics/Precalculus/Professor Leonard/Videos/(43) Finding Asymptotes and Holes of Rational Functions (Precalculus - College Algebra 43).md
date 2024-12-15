@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tyXWPcvSQvk)
-
+---
+Source:
+  - https://youtube.com/watch?v=tyXWPcvSQvk
+---
 - ![[Screenshot 2023-03-07 at 4.53.25 AM.png]]
 	- Asymptotes + holes of rational functions
 		- (1) End Behavior:

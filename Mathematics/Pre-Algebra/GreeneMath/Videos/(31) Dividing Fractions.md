@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=F9bVLpYDAR8) (unavailable)
-[09:06:26](https://www.youtube.com/watch?v=VXzm8ReImG0&t=32786s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=32786s
+---
 - Dividing Fractions
 - Lesson Objectives:
 	- Learn how to find the [[reciprocal]] of a number

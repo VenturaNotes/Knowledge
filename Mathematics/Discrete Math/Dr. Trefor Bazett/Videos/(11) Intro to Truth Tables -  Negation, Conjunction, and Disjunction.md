@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7mulE-zramc) 
-
+---
+Source:
+  - https://youtube.com/watch?v=7mulE-zramc
+---
 ## Truth Tables
 
 Negation

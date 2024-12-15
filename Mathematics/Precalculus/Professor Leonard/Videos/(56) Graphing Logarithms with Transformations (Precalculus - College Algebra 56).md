@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=swC7KrDO0Uo)
-
+---
+Source:
+  - https://youtube.com/watch?v=swC7KrDO0Uo
+---
 - ![[Screenshot 2023-03-13 at 2.56.42 AM.png]]
 	- Anything in function is a horizontal function
 	- After function is a vertical shift

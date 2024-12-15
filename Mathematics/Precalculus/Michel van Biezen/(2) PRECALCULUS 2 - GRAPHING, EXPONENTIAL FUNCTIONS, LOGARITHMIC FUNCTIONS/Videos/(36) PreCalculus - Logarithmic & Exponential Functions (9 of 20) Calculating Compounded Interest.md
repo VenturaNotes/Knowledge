@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=cUItSN2E6wE)
-
+---
+Source:
+  - https://youtube.com/watch?v=cUItSN2E6wE
+---
 - ![[Screenshot 2023-06-06 at 10.01.29 AM.png]]
 	- [[Simple interest]]
 		- $A = P(1+rt)$

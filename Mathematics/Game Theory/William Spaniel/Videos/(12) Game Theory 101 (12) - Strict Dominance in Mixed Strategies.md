@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=3dd-IRedU0U)
-
+---
+Source:
+  - https://youtube.com/watch?v=3dd-IRedU0U
+---
 ## Strictly Dominant Mixed Strategies
 - ![[Screenshot 2023-01-07 at 9.25.02 PM.png|500]]
 	- Player 1 has 3 strategies and Player 2 has 2 strategies

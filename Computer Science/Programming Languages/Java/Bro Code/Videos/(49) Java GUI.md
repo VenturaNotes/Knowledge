@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7GaAW-DdPuI)
-
+---
+Source:
+  - https://youtube.com/watch?v=7GaAW-DdPuI
+---
 Mac does not support frame icons [^1]
 ```java
 import java.awt.Color;

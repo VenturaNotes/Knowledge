@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=TpIBUeyOuv8)
-
+---
+Source:
+  - https://youtube.com/watch?v=TpIBUeyOuv8
+---
 ## Terms
 - Symbol
 	- a, b, c, 0, 1, 2, 3, ...

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fvKyf3_8_Vk)
-
+---
+Source:
+  - https://youtube.com/watch?v=fvKyf3_8_Vk
+---
 index.js
 ```javascript
 // get = binds an object property to a function 

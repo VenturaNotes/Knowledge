@@ -1,5 +1,7 @@
-[23:16:02](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=83762s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=83762s
+---
 - ![[Pasted image 20230326230128.png]]
 	- Before we discuss adding or subtracting [[Radical|Radicals]], we need to learn about "[[like radicals]]".
 		- 3x, 5x are like terms

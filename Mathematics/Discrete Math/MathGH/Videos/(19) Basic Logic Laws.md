@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=QTp-LcE-h44)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=QTp-LcE-h44
+---
 - ![[Screenshot 2024-01-05 at 1.12.56 AM.png]]
 	- Basic Laws of Logic
 		- Description [^1]

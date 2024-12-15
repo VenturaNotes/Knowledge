@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=zQ6yuwNOXJQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=zQ6yuwNOXJQ
+---
 - ![[Screenshot 2023-07-14 at 3.59.09 PM.png]]
 	- A [[matrix]] is an array of numbers
 		- [[Square matrix]] has 2 rows and 2 columns

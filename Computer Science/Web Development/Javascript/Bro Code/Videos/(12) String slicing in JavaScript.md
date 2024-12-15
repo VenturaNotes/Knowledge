@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5CgPaeWy4yQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=5CgPaeWy4yQ
+---
 index.js
 ```javascript
 // slice() extracts a section of a string 

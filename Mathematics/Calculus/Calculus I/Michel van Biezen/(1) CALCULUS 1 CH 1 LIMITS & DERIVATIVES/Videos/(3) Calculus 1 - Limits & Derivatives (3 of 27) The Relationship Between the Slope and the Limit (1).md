@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tbRPXtBEJGE)
-
+---
+Source:
+  - https://youtube.com/watch?v=tbRPXtBEJGE
+---
 - ![[Screenshot 2023-04-27 at 3.11.59 AM.png]]
 	- The closer the points are together, the closer the slope of the secant line is to the slope of the tangent line.
 		- This is the whole concept of the limit as it comes to derivatives

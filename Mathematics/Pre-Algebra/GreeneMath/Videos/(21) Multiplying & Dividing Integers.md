@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=IAFl1zQVwEI) (unavailable)
-[05:34:25](https://www.youtube.com/watch?v=VXzm8ReImG0&t=20065s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=20065s
+---
 - Lesson Objectives:
 	- Learn how to multiply integers
 	- Learn how to divide integers

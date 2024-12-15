@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=aNTDJ9bnRU4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=aNTDJ9bnRU4
+---
 - [[Generic]]: "not specific to a particular data type"
 	- Add `<T>` to: classes, methods, fields, etc
 		- Allows for methods to accept any data type for example

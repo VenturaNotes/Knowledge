@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=IHrqpZI1_yc)
-
+---
+Source:
+  - https://youtube.com/watch?v=IHrqpZI1_yc
+---
 index.js
 ```JavaScript
 // function expression = function without a name (anonymous function)

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ojMemmYifxM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=ojMemmYifxM
+---
 - ![[Screenshot 2023-10-30 at 8.16.12 PM.png]]
 	- Triangles have special lines like [[bisector|bisectors]] and special points like [[circumcenter|circumcenters]]
 	- A [[midsegment]] joins the midpoints of two sides

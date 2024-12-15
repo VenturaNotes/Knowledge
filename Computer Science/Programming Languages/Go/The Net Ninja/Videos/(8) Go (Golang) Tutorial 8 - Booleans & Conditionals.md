@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=d5oUb2T2iCE)
-
+---
+Source:
+  - https://youtube.com/watch?v=d5oUb2T2iCE
+---
 Booleans & Conditionals
 ```Go
 package main

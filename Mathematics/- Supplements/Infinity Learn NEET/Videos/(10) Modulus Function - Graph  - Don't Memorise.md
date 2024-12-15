@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=tmPJdARPMS4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=tmPJdARPMS4
+---
 - ![[Screenshot 2023-10-16 at 5.58.31 PM.png]]
 	- [[Modulus Function]]
 	- What is the [[modulus]] of a number?

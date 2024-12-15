@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=9MPA_LUmmoo)
-
+---
+Source:
+  - https://youtube.com/watch?v=9MPA_LUmmoo
+---
 - ![[Screenshot 2023-05-10 at 12.13.28 AM.png]]
 	- Errata
 		- I believe the $\subseteq$ symbol is wrong since TS does not contain every element of $\mathbb{Z}^+$

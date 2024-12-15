@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=QnGRpkdIG84)
-
+---
+Source:
+  - https://youtube.com/watch?v=QnGRpkdIG84
+---
 - ![[Screenshot 2023-02-10 at 12.13.38 AM.png]]
 	- Polynomial means many numbers
 	- Can use distributive property to check your answer after factoring.

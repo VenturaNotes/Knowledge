@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=s-10no8pWGg)
-
+---
+Source:
+  - https://youtube.com/watch?v=s-10no8pWGg
+---
 - C3. a) How many even primes are there?
 	- Only one even prime exists which is 2
 - C3. b) What is next [[prime]] after 139?

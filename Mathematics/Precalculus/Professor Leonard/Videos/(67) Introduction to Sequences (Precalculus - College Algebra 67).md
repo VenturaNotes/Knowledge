@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=c5D7BJ-R41I)
-
+---
+Source:
+  - https://youtube.com/watch?v=c5D7BJ-R41I
+---
 - ![[Screenshot 2023-03-15 at 12.25.10 AM.png]]
 	- Errata
 		- Term for $\frac {n}{3^n}$ in $b_n$ should be $\frac {5}{243}$ and not $\frac {5}{247}$

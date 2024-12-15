@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jDFm_afHd6Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=jDFm_afHd6Q
+---
 - ![[Screenshot 2023-06-06 at 1.01.01 PM.png]]
 	- Equation
 		- $B_2 = B_1 + 20log (\frac {d_1}{d_2})$

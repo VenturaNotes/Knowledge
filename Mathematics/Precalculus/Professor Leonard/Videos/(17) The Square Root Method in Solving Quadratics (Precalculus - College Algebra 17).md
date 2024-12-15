@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mXAd6rkNSK0)
-
+---
+Source:
+  - https://youtube.com/watch?v=mXAd6rkNSK0
+---
 - ![[Screenshot 2023-03-04 at 1.03.06 AM.png]]
 	- Errata
 		- The bottom-right problem should have a solution over 3 (not 2).

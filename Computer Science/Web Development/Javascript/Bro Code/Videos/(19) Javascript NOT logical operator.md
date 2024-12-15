@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=S4eeJ87n02A)
-
+---
+Source:
+  - https://youtube.com/watch?v=S4eeJ87n02A
+---
 index.js
 ```javascript
 // ! NOT logical operator

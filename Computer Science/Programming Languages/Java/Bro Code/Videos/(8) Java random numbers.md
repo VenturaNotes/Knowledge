@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=VMZLPl16P5c)
-
+---
+Source:
+  - https://youtube.com/watch?v=VMZLPl16P5c
+---
 ```java
 /*
  * 

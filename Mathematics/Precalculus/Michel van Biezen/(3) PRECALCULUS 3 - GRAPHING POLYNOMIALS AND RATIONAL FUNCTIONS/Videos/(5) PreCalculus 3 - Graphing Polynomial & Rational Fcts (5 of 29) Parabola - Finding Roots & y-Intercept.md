@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=cL38-t0jaIk)
-
+---
+Source:
+  - https://youtube.com/watch?v=cL38-t0jaIk
+---
 - ![[Screenshot 2023-06-06 at 1.18.32 PM.png]]
 	- (1) Determine orientation
 		- a > 0 is upward opening parabola

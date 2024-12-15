@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=g-69B5jkcO4)
-
+---
+Source:
+  - https://youtube.com/watch?v=g-69B5jkcO4
+---
 - ![[Screenshot 2023-03-06 at 4.31.15 AM.png]]
 	- Rules
 		- Every Polynomial can be factored into linear + irreducible quadratics over the real # system. But if we allow complex solutions, the polynomial can be factored into all linears

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=rO-C48LY2KY)
-
+---
+Source:
+  - https://youtube.com/watch?v=rO-C48LY2KY
+---
 - ![[Screenshot 2023-03-14 at 1.02.20 AM.png]]
 	- Natural Growth/Decay
 		- $A(t) = A_0e^{kt}$

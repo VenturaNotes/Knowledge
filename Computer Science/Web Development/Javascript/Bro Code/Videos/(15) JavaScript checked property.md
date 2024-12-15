@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ArlN-knSCbs)
-
+---
+Source:
+  - https://youtube.com/watch?v=ArlN-knSCbs
+---
 index.js
 ```javascript
 document.getElementById("myButton").onclick = function(){

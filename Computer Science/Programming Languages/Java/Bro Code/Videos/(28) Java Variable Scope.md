@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=pSokndJB3Pw)
-
+---
+Source:
+  - https://youtube.com/watch?v=pSokndJB3Pw
+---
 ```java
 import java.util.Random;
 //********************************************

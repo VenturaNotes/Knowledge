@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=SLOihnjfQtM)
-
+---
+Source:
+  - https://youtube.com/watch?v=SLOihnjfQtM
+---
 ## What to Expect
 - Instantaneous rate of change
 	- ![[Screenshot 2022-12-27 at 5.47.01 AM.png]]

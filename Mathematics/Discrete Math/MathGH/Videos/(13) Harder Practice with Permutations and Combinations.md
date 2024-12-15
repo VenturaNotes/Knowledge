@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=B6RWpsE1YRM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=B6RWpsE1YRM
+---
 - ![[Screenshot 2024-01-04 at 5.41.14 PM.png]]
 	- Practice with [[Permutation|permutations]] and [[Combination|Combinations]]
 		- Permutations and Combinations Definitions [^1]

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Qu93CRt-FGc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Qu93CRt-FGc
+---
 - [[Switch]] is an efficient alternative to many else if statements
 
 Code

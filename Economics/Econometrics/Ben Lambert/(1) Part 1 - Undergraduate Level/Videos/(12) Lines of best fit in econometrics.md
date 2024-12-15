@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=KIQbe-FJoa8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=KIQbe-FJoa8
+---
 - ![[Screenshot 2023-12-28 at 2.13.17 AM.png]]
 	- [[Line of best fit]]
 	- There is most likely a [[positive correlation]] between years of education and wages

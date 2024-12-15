@@ -1,5 +1,7 @@
-[1:25:31](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=5131s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=5131s
+---
 - This video had poor Image quality
 
 - ![[Screenshot 2023-02-20 at 6.44.50 PM.png]]

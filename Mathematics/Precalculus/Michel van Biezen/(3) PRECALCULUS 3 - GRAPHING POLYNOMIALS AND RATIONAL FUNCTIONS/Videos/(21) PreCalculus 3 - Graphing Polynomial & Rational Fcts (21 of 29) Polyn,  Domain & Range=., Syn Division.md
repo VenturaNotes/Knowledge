@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=0GT7AP6t8XM)
-
+---
+Source:
+  - https://youtube.com/watch?v=0GT7AP6t8XM
+---
 - ![[Screenshot 2023-06-09 at 11.13.14 PM.png]]
 	- Method 3: [[Synthetic Division]]
 		- Graph $\rightarrow$ Find roots and Find max & Min

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=XEL4OesvTog)
-
+---
+Source:
+  - https://youtube.com/watch?v=XEL4OesvTog
+---
 - ![[Screenshot 2023-04-25 at 1.21.07 AM.png]]
 	- Inductive reasoning is using a pattern to make a conclusion
 	- We conclude that a general rule or principle is true because specific cases of the rule are true

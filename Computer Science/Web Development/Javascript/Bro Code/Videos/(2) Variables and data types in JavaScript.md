@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=my3f_sUObhE)
-
+---
+Source:
+  - https://youtube.com/watch?v=my3f_sUObhE
+---
 index.js
 ```javascript
 // A variable is a container for storing data

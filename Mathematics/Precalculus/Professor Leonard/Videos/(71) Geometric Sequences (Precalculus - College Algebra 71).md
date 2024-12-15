@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=qyHCnYewdrQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=qyHCnYewdrQ
+---
 - ![[Screenshot 2023-05-14 at 7.25.36 PM.png]]
 	- Intro to [[Geometric Sequence|geometric sequences]]
 		- A sequence where the ratio between any two successive terms is constant (common ratio)

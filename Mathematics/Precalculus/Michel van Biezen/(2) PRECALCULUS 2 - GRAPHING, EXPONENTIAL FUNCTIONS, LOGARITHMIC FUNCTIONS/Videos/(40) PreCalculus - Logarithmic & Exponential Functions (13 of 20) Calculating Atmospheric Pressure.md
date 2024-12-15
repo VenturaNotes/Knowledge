@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ZHSoZcOjwM4)
-
+---
+Source:
+  - https://youtube.com/watch?v=ZHSoZcOjwM4
+---
 - ![[Screenshot 2023-06-06 at 10.16.09 AM.png]]
 	- [[Atmospheric pressure]]
 		- $ln(\frac {P}{P_0})= -\frac{h}{k}$

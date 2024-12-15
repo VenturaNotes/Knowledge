@@ -1,4 +1,7 @@
-[Video](https://youtube.com/watch?v=zEw8xObSWNA)
+---
+Source:
+  - https://youtube.com/watch?v=zEw8xObSWNA
+---
 ```java
 import java.awt.Color;
 import java.awt.FlowLayout;

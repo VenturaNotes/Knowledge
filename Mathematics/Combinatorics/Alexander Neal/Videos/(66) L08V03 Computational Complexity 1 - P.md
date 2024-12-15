@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=PNfJq-QXKBk)
-
+---
+Source:
+  - https://youtube.com/watch?v=PNfJq-QXKBk
+---
 - ![[Screenshot 2023-12-19 at 1.05.36 PM.png]]
 	- Slide 1 ([[Computational Complexity]])
 		- About the notion of [[NP-completeness]]

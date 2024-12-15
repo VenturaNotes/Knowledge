@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=uJFiR0DG2Bw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=uJFiR0DG2Bw
+---
 - ![[Screenshot 2023-10-16 at 4.11.44 PM.png]]
 	- [[Linear Programming]]
 		- Technique which helps us to find the optimum solution for a given problem

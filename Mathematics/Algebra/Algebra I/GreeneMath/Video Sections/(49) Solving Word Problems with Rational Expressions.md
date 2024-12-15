@@ -1,5 +1,7 @@
-[20:47:51](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=74871s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=74871s
+---
 - ![[Screenshot 2023-03-19 at 11.29.07 PM.png]]
 	- The two most common problems in this area are
 		- Motion problems

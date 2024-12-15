@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_IT8F5W0ZO4)
-
+---
+Source:
+  - https://youtube.com/watch?v=_IT8F5W0ZO4
+---
 ```java
 import java.util.ArrayList;
 

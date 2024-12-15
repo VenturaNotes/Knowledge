@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-C6QivqMB9Y)
-
+---
+Source:
+  - https://youtube.com/watch?v=-C6QivqMB9Y
+---
 - Image
 	- Perpendicular bisector
 		- Creates right angle

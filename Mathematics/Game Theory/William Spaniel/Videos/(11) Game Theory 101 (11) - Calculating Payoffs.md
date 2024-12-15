@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=4lEl4vDkML8)
-
+---
+Source:
+  - https://youtube.com/watch?v=4lEl4vDkML8
+---
 - ![[Screenshot 2023-01-07 at 9.02.09 PM.png|500]]
 	- For pure strategy Nash Equilibrium, we can see that for (1, 2), the payoff for Player 1 is 1 and the payoff for player 2 is 2
 

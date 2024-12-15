@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mfWLdIPCZFA)
-
+---
+Source:
+  - https://youtube.com/watch?v=mfWLdIPCZFA
+---
 - ![[Screenshot 2023-07-26 at 11.52.52 AM.png]]
 	- amu is the unit that we use to measure the mass of a single atom ^ed0f51
 		- Helium atom has 4 nucleons in nucleus (2 protons and 2 neutrons)

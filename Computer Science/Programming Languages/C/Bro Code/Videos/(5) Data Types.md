@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1eyf1-RU_eg)
-
+---
+Source:
+  - https://youtube.com/watch?v=1eyf1-RU_eg
+---
 ```c
 #include <stdio.h>
 #include <stdbool.h> //So we can work with booleans in 4

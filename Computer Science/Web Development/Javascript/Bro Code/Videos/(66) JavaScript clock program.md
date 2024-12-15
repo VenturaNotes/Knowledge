@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=NqutNZmmm98)
-
+---
+Source:
+  - https://youtube.com/watch?v=NqutNZmmm98
+---
 index.js
 ```javascript
 //Clock that's updated every second

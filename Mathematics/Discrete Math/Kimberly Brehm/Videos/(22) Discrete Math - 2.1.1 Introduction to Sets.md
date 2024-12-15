@@ -1,0 +1,54 @@
+---
+Source:
+  - https://youtube.com/watch?v=dZbbkoYcSOE
+---
+- Set Vocabulary and Notation
+	- Set
+		- Unordered collection of objects
+		- B = {Eric, Adam, Kevin}
+	- Elements
+		- An object in set
+			- Adam $\in B$ 
+			- Larry $\notin$ B
+	- $\in and \notin$ 
+		- Contained in or an element in. $\in$ or $\notin$ 
+- Sets you should know
+	- $\mathbb{N}$ - Natural
+		- Counting #'s
+		- {1, 2, 3, ...}
+	- $\mathbb{W}$ - Whole
+		- 0, $\mathbb{N}$ 
+		- {0, 1, 2, 3, ...}
+	- $\mathbb{Z}$ - Integers
+		- $\pm \mathbb{W}$ 
+		- {... -2, -1, 0, 1, 2 ...}
+		- $\mathbb{Z}^+$ are positive integers
+		- $\mathbb{Z}^-$ are negative integers
+	- $\mathbb{Q}$ - Rational
+		- $\frac ab, a,b \in \mathbb{Z}, b\not= 0, \frac ab \text{is in lowest terms}$
+	- $\mathbb{R}$ - Real
+		- Includes all the sets above
+	- $\mathbb{C}$ - Complex
+		- a + bi
+		- a is a real # but bi represents imaginary portion of that #
+- Set Notation
+	- Roster Notation - Discrete sets - Countable
+		- ![[Screenshot 2022-12-17 at 8.27.28 PM.png]]
+		- Just listing elements in sets.
+	- Set-Builder Notation
+		- ![[Screenshot 2022-12-17 at 8.27.49 PM.png]]
+		- Can be used for continuous or discrete
+		- S= {1, 2, 3, 4, 5}
+			- Set S is all elements x such that x is an element of the natural numbers and also that x <= 5.
+	- Interval Notation
+		- ![[Screenshot 2022-12-17 at 8.32.33 PM.png]]
+		- is what we're going to do with continuous sets
+		- is the best/clearest/easiest
+		- implies that it's continuous.
+-  Special Sets
+	- Universal Set
+		- The set of all elements under consideration
+		- ![[Screenshot 2022-12-17 at 8.33.26 PM.png|300]]
+	- Empty Set
+		- A set with no elements
+		- ![[Screenshot 2022-12-17 at 8.33.50 PM.png]]

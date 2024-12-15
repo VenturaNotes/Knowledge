@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=OAh573i_qn8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=OAh573i_qn8
+---
 - ![[Screenshot 2023-09-26 at 9.36.37 PM.png]]
 	- [[Matrix multiplication]]
 		- Can take the [[dot product]] of a [[row vector]] and [[column vector]] with the same length

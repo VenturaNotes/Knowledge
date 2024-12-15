@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=P8W2M0jq2Qs)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=P8W2M0jq2Qs
+---
 - ![[Screenshot 2023-10-08 at 9.03.14 PM.png]]
 	- We can [[factor]] [[Polynomial|polynomials]]
 		- Not all polynomials can be factored

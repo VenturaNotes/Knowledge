@@ -1,5 +1,7 @@
-[15:27:32](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=55652s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=55652s
+---
 - ![[Screenshot 2023-03-16 at 3.07.59 PM.png]]
 	- Factoring by grouping is pulling out a common [[binomial factor]]
 	- When a [[polynomial]] has four terms, we can sometimes factor using a method known as: "[[factoring by grouping]]"

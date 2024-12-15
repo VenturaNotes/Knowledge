@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=eS1QJ5Sfz0Q)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=eS1QJ5Sfz0Q
+---
 - ![[Screenshot 2023-10-16 at 8.12.04 PM.png]]
 	- Vectors in $\mathbb{R}^2$
 		- $\mathbb{R}^2$ is a [[vector space]]

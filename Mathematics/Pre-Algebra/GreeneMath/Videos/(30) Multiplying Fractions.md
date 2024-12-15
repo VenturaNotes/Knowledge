@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=lURkTdyNn8c) (unavailable)
-[08:47:04](https://www.youtube.com/watch?v=VXzm8ReImG0&t=31624s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=31624s
+---
 - Lesson Objective
 	- Learn how to multiply two or more fractions together
 - To multiply two or more fractions:

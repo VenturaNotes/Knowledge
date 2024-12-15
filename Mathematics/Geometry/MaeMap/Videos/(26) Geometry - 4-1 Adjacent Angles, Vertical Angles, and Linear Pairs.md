@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=oGW-pcuhgW4)
-
+---
+Source:
+  - https://youtube.com/watch?v=oGW-pcuhgW4
+---
 - ![[Screenshot 2023-04-06 at 10.51.57 PM.png]]
 	- Adjacent Angles
 		- Common Vertex

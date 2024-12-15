@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=0ffFiUgNGeY) (unavailable)
-[02:10:11](https://www.youtube.com/watch?v=VXzm8ReImG0&t=7811s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=7811s
+---
 - Lesson Objective:
 	- Learn how to multiply multi-digit numbers together
 - When we multiply multi-digit numbers together, we use a process called [[vertical multiplication]]

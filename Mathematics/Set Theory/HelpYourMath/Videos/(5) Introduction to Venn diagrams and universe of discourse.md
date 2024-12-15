@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=3ICaRdDVy_c)
-
+---
+Source:
+  - https://youtube.com/watch?v=3ICaRdDVy_c
+---
 ---
 - Universe of Discourse
 	- In the statement of a problem, the stated or implied set of all things under discussion at a given time.

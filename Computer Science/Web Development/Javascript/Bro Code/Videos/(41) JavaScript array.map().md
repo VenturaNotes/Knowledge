@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=qwj9XqtLOO0)
-
+---
+Source:
+  - https://youtube.com/watch?v=qwj9XqtLOO0
+---
 index.js
 ```javascript
 //array.map() = executes a provided callback function

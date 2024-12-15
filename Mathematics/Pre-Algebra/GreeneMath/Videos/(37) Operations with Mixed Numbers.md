@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=WPLmyw3tLbc) (unavailable)
-[11:15:30](https://www.youtube.com/watch?v=VXzm8ReImG0&t=40530s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=40530s
+---
 - Lesson Objective:
 	- Learn how to add, subtract, multiply, and divide [[mixed number|mixed numbers]]
 - When we add or subtract mixed numbers, we add/sub the fractions first, followed by the whole numbers:

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=EyZpw1su-s0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=EyZpw1su-s0
+---
 - ![[Screenshot 2023-10-10 at 6.09.17 PM.png]]
 	- [[Higher order derivatives]]
 		-  It just means higher than 1

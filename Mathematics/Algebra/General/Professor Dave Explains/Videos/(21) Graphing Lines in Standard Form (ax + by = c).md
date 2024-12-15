@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=-DnmoFnQUtk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=-DnmoFnQUtk
+---
 - ![[Screenshot 2023-10-25 at 3.09.46 PM.png]]
 	- We can graph lines in $y = mx + b$ form
 		- Which is known as the [[slope-intercept form]]

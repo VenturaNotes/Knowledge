@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=aOdj8ovY-mY)
-
+---
+Source:
+  - https://youtube.com/watch?v=aOdj8ovY-mY
+---
 - Point
 	- A "point" or "coordinate" like a dot.
 		- Location of point on graph can be presented as (3,4)

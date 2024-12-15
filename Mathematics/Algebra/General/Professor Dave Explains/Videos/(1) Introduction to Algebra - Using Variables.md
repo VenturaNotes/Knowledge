@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=WZdZhuUSmpM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=WZdZhuUSmpM
+---
 - ![[Screenshot 2023-05-15 at 3.06.43 AM.png]]
 	- Unknown variable "x"
 	- Algebra uses <mark style="background: #FFF3A3A6;">variables</mark> 

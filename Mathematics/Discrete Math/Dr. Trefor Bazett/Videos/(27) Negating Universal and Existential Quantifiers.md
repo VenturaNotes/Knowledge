@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=q1rKFGSiZE8)
-
+---
+Source:
+  - https://youtube.com/watch?v=q1rKFGSiZE8
+---
 - ![[Screenshot 2023-05-10 at 1.58.15 AM.png]]
 	- Negate "$\forall x \in \mathbb{Z}^+, x > 3$"
 		- For all x in the positive integers, x will be greater than 3

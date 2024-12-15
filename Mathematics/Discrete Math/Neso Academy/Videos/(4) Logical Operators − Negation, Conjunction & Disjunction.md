@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=6kYngPvoGxU)
-
+---
+Source:
+  - https://youtube.com/watch?v=6kYngPvoGxU
+---
 - There are 6 logical operators that we will focus on:
 	- Our focus in this lecture
 		- Negation

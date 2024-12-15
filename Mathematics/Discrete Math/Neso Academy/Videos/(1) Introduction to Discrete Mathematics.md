@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=p2b2Vb-cYCs)
-
+---
+Source:
+  - https://youtube.com/watch?v=p2b2Vb-cYCs
+---
 - Target Audience
 	- Students who are preparing for GATE and other competitive exams
 	- Students who want to learn competitive programming

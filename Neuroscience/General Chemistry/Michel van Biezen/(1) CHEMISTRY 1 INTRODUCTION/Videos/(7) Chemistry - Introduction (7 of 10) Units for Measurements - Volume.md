@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=k1N4vUNNmNE)
-
+---
+Source:
+  - https://youtube.com/watch?v=k1N4vUNNmNE
+---
 - ![[Screenshot 2023-07-25 at 7.02.09 PM.png]]
 	- $1m^3$ = 1m $\times$ 1m $\times$ 1m = 1000l (liter)
 	- 1d$m^3$ = 10cm $\times$ 10cm $\times$ 10cm = 1l (liter)

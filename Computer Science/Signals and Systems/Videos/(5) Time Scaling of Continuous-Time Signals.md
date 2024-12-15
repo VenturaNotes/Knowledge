@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jnB-U5KBvN4)
-
+---
+Source:
+  - https://youtube.com/watch?v=jnB-U5KBvN4
+---
 - Scaling
 	- Time Scaling
 	- Amplitude Scaling

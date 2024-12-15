@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=BGeOwlIGRGI)
-
+---
+Source:
+  - https://youtube.com/watch?v=BGeOwlIGRGI
+---
 ```C
 //Every time you shift a binary number to the left, it effectively doubles
 //If we shift right, we are effectively cutting our number in half (it gets truncated)

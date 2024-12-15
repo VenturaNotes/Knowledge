@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=yylwsD_58KM)
-
+---
+Source:
+  - https://youtube.com/watch?v=yylwsD_58KM
+---
 - ![[Screenshot 2023-04-06 at 4.25.54 PM.png]]
 	- Related Conditionals - Statements based on a given conditional
 		- Given p: It is raining, q: I wear a jacket

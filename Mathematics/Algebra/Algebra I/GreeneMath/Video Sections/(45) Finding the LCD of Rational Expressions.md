@@ -1,5 +1,7 @@
-[18:48:12](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=67692s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=67692s
+---
 - We should all remember that adding or subtracting fractions requires a common denominator.
 - The LCD or [[least common denominator]] is the smallest number that is divisible by all denominators. The LCD is the LCM ([[least common multiple]]) of all denominators
 	- GCF and GCD is generally a smaller number (GCF = GCD)

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=YTHWsMbRIIU)
-
+---
+Source:
+  - https://youtube.com/watch?v=YTHWsMbRIIU
+---
 - ![[Screenshot 2023-04-11 at 2.09.08 AM.png]]
 	- Conditional: If p then q
 		- If an angle is a right angle, then its measure is 90$\degree$

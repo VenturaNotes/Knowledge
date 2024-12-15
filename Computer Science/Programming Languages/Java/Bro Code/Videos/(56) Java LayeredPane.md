@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=CmK1nObLxiw)
-
+---
+Source:
+  - https://youtube.com/watch?v=CmK1nObLxiw
+---
 ```java
 import javax.swing.*;
 import java.awt.*;

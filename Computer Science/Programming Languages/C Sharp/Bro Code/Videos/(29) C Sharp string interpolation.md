@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=taejaz9OwKY)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=taejaz9OwKY
+---
 - [[String interpolation]]: Allows us to insert variables into a string literal precede a string literal with $
 	- {} are placeholders
 - Other ways may need to concatenate the string together

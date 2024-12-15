@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=K9wzAGIHjUc)
-
+---
+Source:
+  - https://youtube.com/watch?v=K9wzAGIHjUc
+---
 - ![[Screenshot 2023-06-10 at 3.42.54 PM.png]]
 	- Quadrant I ($0 \le \theta \le \frac {\pi}{2}$)
 		- x is positive

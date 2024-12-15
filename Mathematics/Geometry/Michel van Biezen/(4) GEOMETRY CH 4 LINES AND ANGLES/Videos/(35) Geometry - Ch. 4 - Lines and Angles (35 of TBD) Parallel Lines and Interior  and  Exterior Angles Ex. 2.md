@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=OXnPUQ2eva4)
-
+---
+Source:
+  - https://youtube.com/watch?v=OXnPUQ2eva4
+---
 - ![[Screenshot 2023-05-04 at 12.50.18 AM.png]]
 	- 3 and 4 are vertical angles so congruent
 	- Since C || d, 4 and 5 are alternate interior angles so equivalent

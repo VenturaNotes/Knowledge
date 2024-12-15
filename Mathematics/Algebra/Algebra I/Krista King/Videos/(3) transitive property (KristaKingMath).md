@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FBuIGPIzYY4)
-
+---
+Source:
+  - https://youtube.com/watch?v=FBuIGPIzYY4
+---
 - ![[Screenshot 2023-01-08 at 1.46.12 PM.png]]
 	- Use the transitive property to simplify
 	- When we have one value equal to another value, 

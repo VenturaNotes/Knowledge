@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=hYHzXILOEdM)
-
+---
+Source:
+  - https://youtube.com/watch?v=hYHzXILOEdM
+---
 - ![[Screenshot 2023-08-23 at 10.00.17 PM.png]]
 	- How to describe [[transformations]] of a function algebraically
 		- Identify the transformations we need to describe

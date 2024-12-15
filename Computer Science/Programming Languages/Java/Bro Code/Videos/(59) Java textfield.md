@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=dyDDUndlMnU)
-
+---
+Source:
+  - https://youtube.com/watch?v=dyDDUndlMnU
+---
 ```java
 import java.awt.Color;
 import java.awt.Dimension;

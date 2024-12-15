@@ -1,5 +1,7 @@
-[01:26:19](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=5179s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=5179s
+---
 - Solving [[linear equation|linear equations]] in one variable
 - A linear equation in one variable:
 	- ax + b = c

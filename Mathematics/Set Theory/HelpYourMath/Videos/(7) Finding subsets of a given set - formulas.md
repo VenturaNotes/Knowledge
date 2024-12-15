@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=x1b3jhw4fps)
-
+---
+Source:
+  - https://youtube.com/watch?v=x1b3jhw4fps
+---
 ---
 - Finding Subsets
 	- A [[Subsets|subset]] of a given set is a set in which all its elements are also elements of the given set.

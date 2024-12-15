@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=yAjkQ1YqLEE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=yAjkQ1YqLEE
+---
 - ![[Screenshot 2023-10-16 at 6.14.27 PM.png]]
 	- [[Inductive reasoning]]
 		- Specific to general (Specific argument $\to$ General Conclusion)

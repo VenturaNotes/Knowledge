@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Rxgtiyx4jhc)
-
+---
+Source:
+  - https://youtube.com/watch?v=Rxgtiyx4jhc
+---
 - ![[Screenshot 2023-06-05 at 11.56.45 PM.png]]
 	- Find the age of an artifact
 		- Equation: t = -8250ln($\frac {A}{A_0}$)

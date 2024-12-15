@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=8FmE_-QXg3Y)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=8FmE_-QXg3Y
+---
 - [[getters & setters]]: add security to fields by [[encapsulation]]
 	- They're accessors found within properties
 - [[Properties]]: Combine aspects of both fields and methods (share name with field)

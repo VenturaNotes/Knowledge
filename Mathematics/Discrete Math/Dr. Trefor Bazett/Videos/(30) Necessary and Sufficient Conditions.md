@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=KCMGWRoPuMY)
-
+---
+Source:
+  - https://youtube.com/watch?v=KCMGWRoPuMY
+---
 - ![[Screenshot 2023-05-10 at 2.14.05 AM.png]]
 	- Quadrilaterals are just shapes with 4 sides
 	- All squares are rectangles

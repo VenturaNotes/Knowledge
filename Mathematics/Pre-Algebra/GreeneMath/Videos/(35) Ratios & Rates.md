@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=VuW2cSL2z0o) (unavailable) 
-[10:50:33](https://www.youtube.com/watch?v=VXzm8ReImG0&t=39033s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=39033s
+---
 ## Lesson Objectives
 - Learn how to write a [[ratio]] that describes a given situation
 - Learn how to write a [[unit rate]] that describes a given situation

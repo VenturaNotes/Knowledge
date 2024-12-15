@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=we-nndoIa28)
-
+---
+Source:
+  - https://youtube.com/watch?v=we-nndoIa28
+---
 - ![[Screenshot 2023-04-25 at 12.02.47 AM.png]]
 	- In this lesson, we're going to apply formulas for perimeter, area, and circumference
 	- The perimeter P of a plane figure is the sum of the side lengths of the figure

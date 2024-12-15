@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=LvUCDcp6Z3k)
-
+---
+Source:
+  - https://youtube.com/watch?v=LvUCDcp6Z3k
+---
 - ![[Screenshot 2023-02-27 at 5.38.21 PM.png]]
 	- Finding Domain
 		- Domain is the set of inputs of a function that give a real number output

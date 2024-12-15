@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=sFQit2yJm4g)
-
+---
+Source:
+  - https://youtube.com/watch?v=sFQit2yJm4g
+---
 - C5. a)
 	- Check to see if 401 is prime
 	- Check: 2, 3, 5, ... n

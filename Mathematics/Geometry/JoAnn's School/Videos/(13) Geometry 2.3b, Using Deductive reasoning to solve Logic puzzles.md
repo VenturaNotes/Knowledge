@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=loyetRWK3VU)
-
+---
+Source:
+  - https://youtube.com/watch?v=loyetRWK3VU
+---
 - ![[Screenshot 2023-04-25 at 3.39.13 AM.png]]
 	- The key to solving logic puzzles is to systematically work through the given information one piece at a time
 	- As we read each clue, we make any conclusions that we can and mark the diagram carefully before going to the next clue

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=6FAui-_HXYw)
-
+---
+Source:
+  - https://youtube.com/watch?v=6FAui-_HXYw
+---
 - ![[Screenshot 2023-06-10 at 9.06.36 PM.png]]
 	- [[Sine]]
 		- $y=sin^2x=(sinx)^2$

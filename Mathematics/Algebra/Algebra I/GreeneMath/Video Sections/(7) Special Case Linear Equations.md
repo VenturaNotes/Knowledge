@@ -1,5 +1,7 @@
-[02:32:16](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=9136s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=9136s
+---
 - [[linear equation|linear equations]] with no solution or an infinite number of solutions
 - So far, we have only worked with one type of equation. This equation is known as a [[conditional equation]]. It is true only under certain conditions
 	- For $-2x =4$, the solution is $x=-2$. This is a conditional equation because the equation is true under the specific condition that $x = -2$ 

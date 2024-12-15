@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fes92vSBTg4)
-
+---
+Source:
+  - https://youtube.com/watch?v=fes92vSBTg4
+---
 - ![[Pasted image 20230328195405.png]]
 	- Sets
 		- Collections of well defined and distinct objects

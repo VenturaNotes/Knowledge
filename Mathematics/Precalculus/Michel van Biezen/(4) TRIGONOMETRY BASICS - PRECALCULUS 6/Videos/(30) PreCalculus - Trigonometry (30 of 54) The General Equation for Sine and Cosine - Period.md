@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=CSgUYl1o-qo)
-
+---
+Source:
+  - https://youtube.com/watch?v=CSgUYl1o-qo
+---
 - ![[Screenshot 2023-06-10 at 6.42.05 PM.png]]
 	- [[Period]]
 		- k = Number of complete sin/cos "sections" per 2$\pi$ an the horizontal axis

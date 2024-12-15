@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=p1sGAHulT8w)
-
+---
+Source:
+  - https://youtube.com/watch?v=p1sGAHulT8w
+---
 - ![[Screenshot 2023-02-27 at 2.41.05 PM.png]]
 	- f(x)
 		- This [[function notation]] gives us more

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=w7apAOKgBYI)
-
+---
+Source:
+  - https://youtube.com/watch?v=w7apAOKgBYI
+---
 ## Examples
 - (2,2,5) is a 3-tuple
 - ![[Screenshot 2023-01-02 at 4.43.30 PM.png]]

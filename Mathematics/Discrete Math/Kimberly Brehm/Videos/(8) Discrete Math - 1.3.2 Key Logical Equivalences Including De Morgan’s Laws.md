@@ -1,0 +1,34 @@
+---
+Source:
+  - https://youtube.com/watch?v=aXobNQArW64
+---
+- [[Logical equivalence|logical equivalences]]
+	- [[Identity Laws]]
+		- ![[Screenshot 2022-12-17 at 5.42.50 PM.png]]
+	- [[Domination Laws]]
+		- ![[Screenshot 2022-12-17 at 5.43.14 PM.png]]
+	- [[Idempotent Laws]]
+		- ![[Screenshot 2022-12-17 at 5.43.20 PM.png]]
+	- [[Double Negation Law]]
+		- ![[Screenshot 2022-12-17 at 5.43.27 PM.png]]
+	- [[Absorption Laws|Absorption Law]]
+		- ![[Screenshot 2022-12-17 at 5.43.34 PM.png]]
+	- [[Negation Laws]]
+		- ![[Screenshot 2022-12-17 at 5.43.45 PM.png]]
+			- First equivalence above is a tautology because it's always true
+			- Second equivalence above is a contradiction because it's always false
+	- [[Commutative Laws]] (Order)
+		- ![[Screenshot 2022-12-17 at 5.44.51 PM.png]]
+	- [[Associative Law|Associative Laws]] (Grouping)
+		- ![[Screenshot 2022-12-17 at 5.45.19 PM.png]]
+	- [[Distributive Laws]]
+		- ![[Screenshot 2022-12-17 at 5.45.31 PM.png]]
+	- [[De Morgan's Law]]
+		- ![[Screenshot 2022-12-17 at 5.46.00 PM.png]]
+- ![[Screenshot 2022-12-17 at 5.46.36 PM.png]]
+	- Will be using laws to show things are true
+	- De Morgan's First Law
+- A few more equivalences
+	- ![[Screenshot 2022-12-17 at 5.51.20 PM.png]]
+		- The left are conditional statements and the right are biconditional statements
+		- If you use these in a logical equivalence proof, you're just going to have to write out what the law says as opposed to writing the name of the law which is what we'll do for any of the ones on the previous slides

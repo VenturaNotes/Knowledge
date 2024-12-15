@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=T8VAFKmDx18)
-
+---
+Source:
+  - https://youtube.com/watch?v=T8VAFKmDx18
+---
 - ![[Screenshot 2023-07-15 at 8.02.17 PM.png]]
 	- To find inverse of 3x3 matrix,
 		- Find minors of each element (of matrix A)

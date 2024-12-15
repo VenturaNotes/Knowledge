@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=bUyzJ7RTzig)
-
+---
+Source:
+  - https://youtube.com/watch?v=bUyzJ7RTzig
+---
 ## The prompt
 - Rhetorical Analysis Essay
 	- Given a passage and asked to analyze the rhetorical devices used by the speaker or author of the passage

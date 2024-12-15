@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=oF3nBQFfpeM)
-
+---
+Source:
+  - https://youtube.com/watch?v=oF3nBQFfpeM
+---
 ```java
 import java.util.Scanner;
 

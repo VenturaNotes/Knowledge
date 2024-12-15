@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=TOsMcgIK95k)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=TOsMcgIK95k
+---
 - ![[Screenshot 2023-09-11 at 1.59.51 PM.png]]
 	- Prerequisites
 		- [[Set|Sets]]

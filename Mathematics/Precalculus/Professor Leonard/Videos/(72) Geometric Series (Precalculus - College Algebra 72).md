@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_yDqkrbd5mk)
-
+---
+Source:
+  - https://youtube.com/watch?v=_yDqkrbd5mk
+---
 - Image
 	- Intro to [[geometric series]]
 		- [[Series]] takes the terms of a sequence and adds them up

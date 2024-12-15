@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ou_G7_zodR4)
-
+---
+Source:
+  - https://youtube.com/watch?v=ou_G7_zodR4
+---
 ```C
 //A function is a small section of code that is executed whenever we call it. Also known as
 //invoking a function. It's useful so you don't need to rewrite code too many times

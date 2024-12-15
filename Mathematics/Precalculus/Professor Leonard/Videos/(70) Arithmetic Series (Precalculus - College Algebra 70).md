@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=XdXQjHsl4q0)
-
+---
+Source:
+  - https://youtube.com/watch?v=XdXQjHsl4q0
+---
 - ![[Screenshot 2023-05-14 at 3.08.44 AM.png]]
 	- Partial sum
 	- How to find the sum of an arithmetic series

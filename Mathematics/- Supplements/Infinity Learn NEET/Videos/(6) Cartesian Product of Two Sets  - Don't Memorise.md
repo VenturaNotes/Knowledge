@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=_IUP114x2gM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=_IUP114x2gM
+---
 - ![[Screenshot 2023-10-16 at 4.26.29 PM.png]]
 	- [[Cartesian product]] of [[set|sets]]
 	- Set T contains elements $T_A$ and $T_B$ 

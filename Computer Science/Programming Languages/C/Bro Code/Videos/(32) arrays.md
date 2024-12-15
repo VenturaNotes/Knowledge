@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=eE9MnoS0lc0)
-
+---
+Source:
+  - https://youtube.com/watch?v=eE9MnoS0lc0
+---
 ```C
 // There was a version of code which included both declaration and initialization
 // Methods of initializing array

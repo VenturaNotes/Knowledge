@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=nrbBmoINqtk)
-
+---
+Source:
+  - https://youtube.com/watch?v=nrbBmoINqtk
+---
 ```c
 //Tells compiler to include the contents of a file
 //std stands for standard

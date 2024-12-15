@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=6897XAx3O9Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=6897XAx3O9Q
+---
 - ![[Screenshot 2023-03-01 at 11.09.29 PM.png]]
 	- In single term functions, the power will tell you if the function is even or odd
 		- In polynomials we lose that

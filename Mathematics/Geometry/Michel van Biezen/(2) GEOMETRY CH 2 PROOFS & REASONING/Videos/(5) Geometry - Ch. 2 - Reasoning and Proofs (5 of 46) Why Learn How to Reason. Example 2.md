@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5xLG16RrY-4)
-
+---
+Source:
+  - https://youtube.com/watch?v=5xLG16RrY-4
+---
 - ![[Screenshot 2023-04-11 at 9.43.41 AM.png]]
 	- Helps with physics problems
 	- My Work

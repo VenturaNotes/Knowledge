@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=SYbUcUn5y8s) (unavailable)
-[03:46:53](https://www.youtube.com/watch?v=VXzm8ReImG0&t=13613s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=13613s
+---
 - Lesson Objectives:
 	- Learn the terminology associated with [[Exponent|Exponents]]
 	- Learn how to write a repeated multiplication in exponent form

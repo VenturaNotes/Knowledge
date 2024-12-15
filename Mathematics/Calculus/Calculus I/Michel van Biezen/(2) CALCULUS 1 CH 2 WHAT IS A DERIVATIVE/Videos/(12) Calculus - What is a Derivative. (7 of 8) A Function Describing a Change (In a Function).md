@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=gsT92dkRU1U)
-
+---
+Source:
+  - https://youtube.com/watch?v=gsT92dkRU1U
+---
 - ![[Screenshot 2023-08-04 at 2.44.32 PM.png]]
 	- Basically asking the same questions
 		- How fast is the function changing?

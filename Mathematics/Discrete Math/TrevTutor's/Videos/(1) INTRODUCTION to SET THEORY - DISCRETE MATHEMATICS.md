@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tyDKR4FG3Yw)
-
+---
+Source:
+  - https://youtube.com/watch?v=tyDKR4FG3Yw
+---
 - Set Theory
 	- A set is a collection of objects called elements
 		- ![[Screenshot 2022-12-22 at 4.40.56 AM.png]]

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=TXCaBkWHZuQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=TXCaBkWHZuQ
+---
 - Rhetoric
 	- Art of effective speaking or writing
 	- Carefully calibrated to situation in which the speaker and the audience interact with each other

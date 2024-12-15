@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=38WzCsJhbCM) (unavailable)
-[00:44:07](https://www.youtube.com/watch?v=VXzm8ReImG0&t=2647s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=2647s
+---
 - Lesson Objective
 	- Learn how to round [[whole numbers]]
 - We round whole numbers because In many situations, an exact value is not needed. In these cases, an approximation is easier to use and remember.

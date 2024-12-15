@@ -1,5 +1,7 @@
-[5:59:48](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=21588s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=21588s
+---
 - ![[Screenshot 2023-02-25 at 9.37.27 PM.png]]
 	- A rational function is a function that can be written as a ratio or a quotient of 2 polynomials
 	- $\frac 1x$ is also considered a rational function

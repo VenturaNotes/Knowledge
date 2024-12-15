@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=289l69yfGIY)
-
+---
+Source:
+  - https://youtube.com/watch?v=289l69yfGIY
+---
 ---
 - [[Cartesian products]]
 	- The cartesian products of sets A and B is the set as follows:

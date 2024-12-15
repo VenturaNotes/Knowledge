@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=rvDAkGdA1M0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=rvDAkGdA1M0
+---
 - ![[Screenshot 2024-01-05 at 1.03.08 AM.png]]
 	- Less common [[Laws of logic]]
 		- These laws are used to make solving complex logical questions simpler

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=728bZWwTbf8)
-
+---
+Source:
+  - https://youtube.com/watch?v=728bZWwTbf8
+---
 - ![[Screenshot 2023-06-14 at 4.54.58 AM.png]]
 	- If a graph contains a u-v [[Walk|walk]] of length l, then it contains a u-v [[path]] of length at most l, provided u $\ne$ v.
 	- A shortest u-v walk should be a path

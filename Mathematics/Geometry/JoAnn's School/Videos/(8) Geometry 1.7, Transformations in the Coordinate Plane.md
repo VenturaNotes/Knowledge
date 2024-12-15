@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=KGuB9fIAl-E)
-
+---
+Source:
+  - https://youtube.com/watch?v=KGuB9fIAl-E
+---
 - ![[Screenshot 2023-04-25 at 12.51.57 AM.png]]
 	- A transformation is a change in the position, size, or shape of a figure
 	- The original figure is called the pre-image

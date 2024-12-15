@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=b4DPj0XAfSg)
-
+---
+Source:
+  - https://youtube.com/watch?v=b4DPj0XAfSg
+---
 ```C
 //The i typically stands for index
 

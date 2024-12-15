@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ZJOjumz70nE)
-
+---
+Source:
+  - https://youtube.com/watch?v=ZJOjumz70nE
+---
 - Enumeration values may store multiple things
 
 ```pascal

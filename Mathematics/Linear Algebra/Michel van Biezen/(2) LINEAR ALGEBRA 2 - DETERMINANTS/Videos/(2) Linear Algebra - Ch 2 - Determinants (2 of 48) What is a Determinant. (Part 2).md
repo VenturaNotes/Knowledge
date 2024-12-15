@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vIHnlNjRnGU)
-
+---
+Source:
+  - https://youtube.com/watch?v=vIHnlNjRnGU
+---
 - ![[Screenshot 2023-07-27 at 4.08.47 PM.png]]
 	- Notation and calculation
 	- $a_{rc}$

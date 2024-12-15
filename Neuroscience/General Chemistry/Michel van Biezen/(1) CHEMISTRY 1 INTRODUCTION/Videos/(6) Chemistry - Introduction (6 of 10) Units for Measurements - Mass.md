@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=n93GCK3p4LI)
-
+---
+Source:
+  - https://youtube.com/watch?v=n93GCK3p4LI
+---
 - ![[Screenshot 2023-07-24 at 9.51.24 PM.png]]
 	- Errata
 		- It's written that 1 amu $\cong$ mass of 1 proton but Biezen says "approximately"

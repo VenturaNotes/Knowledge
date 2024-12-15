@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fqMOX6JJhGo)
-
+---
+Source:
+  - https://youtube.com/watch?v=fqMOX6JJhGo
+---
 - Objectives
 	- What are containers
 	- What is Docker?

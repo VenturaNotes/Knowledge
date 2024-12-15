@@ -1,6 +1,7 @@
- [Video](https://www.youtube.com/watch?v=NJ2TOv57QYg) (unavailable)
- [00:32:58](https://www.youtube.com/watch?v=VXzm8ReImG0&t=1978s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=1978s
+---
 - Lesson objectives
 	- Learn how to create and work with a [[Number Line|number line]] for the [[whole numbers]]
 	- Learn about [[inequality|inequalities]]

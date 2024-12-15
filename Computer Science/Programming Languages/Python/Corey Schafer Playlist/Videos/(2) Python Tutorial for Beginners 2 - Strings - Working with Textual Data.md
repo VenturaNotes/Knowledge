@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=k9TUPpGqYTo)
-
+---
+Source:
+  - https://youtube.com/watch?v=k9TUPpGqYTo
+---
 - Python data types
 - Textual data
 	- Represented with strings

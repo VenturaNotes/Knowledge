@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=F5h3z8p9dPg)
-
+---
+Source:
+  - https://youtube.com/watch?v=F5h3z8p9dPg
+---
 - Difference between analog and digital clock
 	- Analog Clock
 		- ![[Screenshot 2022-12-22 at 11.22.01 AM.png]]

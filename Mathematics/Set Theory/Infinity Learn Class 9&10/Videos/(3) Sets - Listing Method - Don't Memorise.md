@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=LumU80IN748)
-
+---
+Source:
+  - https://youtube.com/watch?v=LumU80IN748
+---
 - Write the $1^{st}$ 3 natural numbers
 	- {1, 2, 3}
 		- Use curly brackets to mark start and end of a set

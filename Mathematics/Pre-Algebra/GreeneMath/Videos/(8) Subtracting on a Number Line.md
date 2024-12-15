@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=rb1vRv6krzM) (unavailable)
-[01:21:35](https://www.youtube.com/watch?v=VXzm8ReImG0&t=4895s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=4895s
+---
 - Subtracting whole numbers using a number line
 - Lesson Objectives
 	- Learn how to identify the parts of a subtraction problem

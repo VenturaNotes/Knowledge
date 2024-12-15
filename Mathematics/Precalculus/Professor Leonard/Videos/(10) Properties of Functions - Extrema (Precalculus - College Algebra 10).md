@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=2hItEGb3KJo)
-
+---
+Source:
+  - https://youtube.com/watch?v=2hItEGb3KJo
+---
 - ![[Screenshot 2023-03-02 at 12.08.03 AM.png]]
 	- No Endpoints
 		- Local/Relative Maximum

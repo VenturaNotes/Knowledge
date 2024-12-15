@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=71PAxt9TF34) (unavailable)
-[04:39:15](https://www.youtube.com/watch?v=VXzm8ReImG0&t=16755s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=16755s
+---
 - Lesson Objectives
 	- Learn how to find the absolute value of a number
 	- Learn how to simplify when absolute value is present

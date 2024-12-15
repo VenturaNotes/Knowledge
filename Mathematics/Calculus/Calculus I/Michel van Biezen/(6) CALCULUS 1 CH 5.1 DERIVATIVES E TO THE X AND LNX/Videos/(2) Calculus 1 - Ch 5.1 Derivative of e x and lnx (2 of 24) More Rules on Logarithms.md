@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=U3Q1schHqoA)
-
+---
+Source:
+  - https://youtube.com/watch?v=U3Q1schHqoA
+---
 - ![[Screenshot 2023-10-10 at 11.23.06 AM.png]]
 	- Rules on [[Logarithm|logarithms]]
 		- $log(1) = 0$

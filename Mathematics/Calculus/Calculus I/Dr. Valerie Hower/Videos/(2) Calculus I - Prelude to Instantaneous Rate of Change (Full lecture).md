@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=nPRMKAeCVFI)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=nPRMKAeCVFI
+---
 - Image
 	- Slide 1
 		- Prelude to instantaneous Rates of Change

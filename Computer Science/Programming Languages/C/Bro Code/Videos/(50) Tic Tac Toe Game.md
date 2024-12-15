@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_889aB2D1KI)
-
+---
+Source:
+  - https://youtube.com/watch?v=_889aB2D1KI
+---
 ```C
 //Pointers are better to use than global variables
 //There are downsides to using global variables

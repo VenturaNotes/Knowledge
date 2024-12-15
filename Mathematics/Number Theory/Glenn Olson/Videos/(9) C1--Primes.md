@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=xvPohPnMvF4)
-
+---
+Source:
+  - https://youtube.com/watch?v=xvPohPnMvF4
+---
 ## C1 - Primes, Composites, Relative Prime
 - C1. a) Prime:
 	- Natural # with only two positive distinct divisors 1 and itself

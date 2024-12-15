@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=A2x75iOqidA)
-
+---
+Source:
+  - https://youtube.com/watch?v=A2x75iOqidA
+---
 index.js
 ```javascript
 // variable scope = where a variable is accessible

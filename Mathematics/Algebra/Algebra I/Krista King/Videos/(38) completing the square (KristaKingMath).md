@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jvhQQj9a1EQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=jvhQQj9a1EQ
+---
 - ![[Screenshot 2023-01-08 at 3.06.36 PM.png]]
 	- Complete the square
 		- Solve for roots or solutions of a trinomial even when we can't factor the trinomial

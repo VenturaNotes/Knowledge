@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=2W8OMrTnZBo)
-
+---
+Source:
+  - https://youtube.com/watch?v=2W8OMrTnZBo
+---
 - ![[Screenshot 2023-04-27 at 4.00.38 PM.png]]
 	- 256 feet of fencing
 	- Area = 2040$ft^2$

@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=ZAdgoWlX1v0)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=ZAdgoWlX1v0
+---
 Nested Loops [^1]
 ```C
 //it is common to do i,j,k for the alphabet

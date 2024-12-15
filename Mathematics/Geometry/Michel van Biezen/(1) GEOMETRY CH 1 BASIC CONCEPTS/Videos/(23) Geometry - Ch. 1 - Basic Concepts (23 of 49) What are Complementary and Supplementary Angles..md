@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MEiQ6Spr9WY)
-
+---
+Source:
+  - https://youtube.com/watch?v=MEiQ6Spr9WY
+---
 - ![[Screenshot 2023-04-10 at 1.42.55 PM.png]]
 	- [[Complementary Angles]]
 		- Angles whose measures add up to 90$\degree$

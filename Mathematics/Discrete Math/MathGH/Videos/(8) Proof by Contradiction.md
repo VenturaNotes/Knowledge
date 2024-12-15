@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=L5mBfPRQa8c)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=L5mBfPRQa8c
+---
 - ![[Screenshot 2024-01-03 at 3.47.21 PM.png]]
 	- [[Proof by contradiction]]: We assume the logical negation of the result we want to prove; then reach some kind of contradiction
 		- Often used to prove the impossibility of something, you assume it is possible then reach a contradiction

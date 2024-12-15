@@ -1,5 +1,7 @@
-[16:24:41](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=59081s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=59081s
+---
 - ![[Screenshot 2023-03-17 at 1.11.46 AM.png]]
 	- Now we will focus on factoring [[trinomial|trinomials]] of the form:
 		- $ax^2 + bx + c$ where a $\ne$ 1

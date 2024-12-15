@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=NBIUbTddde4)
-
+---
+Source:
+  - https://youtube.com/watch?v=NBIUbTddde4
+---
 - Order of Tutorial
 	- Java introduction
 	- Java file compilation

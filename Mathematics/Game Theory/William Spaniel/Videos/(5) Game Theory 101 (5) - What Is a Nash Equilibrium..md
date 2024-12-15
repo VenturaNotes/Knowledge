@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5TcYV6CZ7mI)
-
+---
+Source:
+  - https://youtube.com/watch?v=5TcYV6CZ7mI
+---
 ## Formal Definition
 - A Nash equilibrium is a set of strategies, one for each player, such that no player has incentive to change his or her strategy given what the other players are doing.
 	- A pure strategy Nash equilibrium is when players do not randomize between two or more strategies.

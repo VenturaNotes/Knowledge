@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=utDu3Q7Flrw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=utDu3Q7Flrw
+---
 - ![[Screenshot 2023-08-30 at 3.20.58 AM.png]]
 	- [[Depth first search]]
 		- This is the most common graph algorithm

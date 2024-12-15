@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=B1v2-nGXNzs)
-
+---
+Source:
+  - https://youtube.com/watch?v=B1v2-nGXNzs
+---
 - A [[set]] is a collection of objects
 	- Examples
 		- A = Students in this class

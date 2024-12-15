@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mW0dHxdkLiY)
-
+---
+Source:
+  - https://youtube.com/watch?v=mW0dHxdkLiY
+---
 - ![[Screenshot 2023-01-08 at 1.44.11 PM.png]]
 	- Use the commutative property to write the expression a different way
 		- It tells you that the order of addition and multiplication doesn't matter. We'll still get the same result.

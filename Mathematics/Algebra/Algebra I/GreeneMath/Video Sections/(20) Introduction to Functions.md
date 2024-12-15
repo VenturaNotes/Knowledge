@@ -1,5 +1,7 @@
-[08:02:04](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=28924s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=28924s
+---
 - Suppose you go to the store and it costs $2 per 1 ounce of granola. This means that for 2 ounces the cost is $4.00, for 3 $6, and so on...
 - To mathematically explain this relationship between the number of ounces of granola purchased and the cost:
 - ![[Screenshot 2023-02-10 at 11.05.54 PM.png]]

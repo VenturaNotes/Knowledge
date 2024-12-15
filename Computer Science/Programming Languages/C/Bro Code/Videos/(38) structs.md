@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=oKXP1HZ8xIs)
-
+---
+Source:
+  - https://youtube.com/watch?v=oKXP1HZ8xIs
+---
 ```C
 //The dot is a member access operator
 #include <stdio.h>

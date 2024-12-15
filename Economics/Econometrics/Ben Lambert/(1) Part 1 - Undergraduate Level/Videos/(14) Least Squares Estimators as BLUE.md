@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=vOBtEiij-fA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=vOBtEiij-fA
+---
 - ![[Screenshot 2023-12-28 at 2.39.39 AM.png]]
 	- [[Least squares estimator]] (they're good)
 	- A population may have an underlying process which connects wages with education

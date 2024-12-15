@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=lzZpvEsYyg4)
-
+---
+Source:
+  - https://youtube.com/watch?v=lzZpvEsYyg4
+---
 - ![[Screenshot 2023-04-06 at 9.32.10 PM.png]]
 	- Segment Congruence Theorem
 		- T.1) Congruence of segments is reflexive, symmetric, and transitive.

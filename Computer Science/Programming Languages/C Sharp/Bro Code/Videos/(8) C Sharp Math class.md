@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=tzRK0QFEte0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=tzRK0QFEte0
+---
 - [[Math Class Methods in C Sharp]]
 
 Code

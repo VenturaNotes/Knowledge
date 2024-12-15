@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=TJAQNlGvfjE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=TJAQNlGvfjE
+---
 - ![[Screenshot 2024-01-23 at 1.47.52 PM.png]]
 	- The definition of a [[subgroup]]
 	- Group: G

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=X7CLEEyv6t0)
-
+---
+Source:
+  - https://youtube.com/watch?v=X7CLEEyv6t0
+---
 - ![[Screenshot 2023-02-18 at 6.12.34 AM.png]]
 	- Instruction
 		- Simplify the imaginary expression

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_dJMglDuf60)
-
+---
+Source:
+  - https://youtube.com/watch?v=_dJMglDuf60
+---
 - ![[Screenshot 2023-09-15 at 1.49.21 PM.png]]
 	- Building on What we know
 		- Restatement

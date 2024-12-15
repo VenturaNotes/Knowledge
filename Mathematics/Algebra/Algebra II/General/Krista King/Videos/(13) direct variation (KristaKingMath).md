@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=itnZ8hkBSkc)
-
+---
+Source:
+  - https://youtube.com/watch?v=itnZ8hkBSkc
+---
 - ![[Screenshot 2023-02-18 at 6.22.56 AM.png]]
 	- Instruction
 		- If the number of teachers varies directly by the number of students, and there are 5 teachers for 150 students, how many teachers will there be when there are 300 students?

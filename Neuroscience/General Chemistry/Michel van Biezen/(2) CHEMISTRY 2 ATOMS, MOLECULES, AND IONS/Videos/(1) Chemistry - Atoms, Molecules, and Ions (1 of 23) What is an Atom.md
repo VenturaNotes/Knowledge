@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Z2HWWjEaQ48)
-
+---
+Source:
+  - https://youtube.com/watch?v=Z2HWWjEaQ48
+---
 - ![[Screenshot 2023-07-26 at 1.23.41 AM.png]]
 	- Most [[lithium]] atoms have 3 [[proton|protons]] and 4 [[Neutron|neutrons]]
 		- Number of protons define the element

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=CFAjze_0VKA)
-
+---
+Source:
+  - https://youtube.com/watch?v=CFAjze_0VKA
+---
 - ![[Screenshot 2023-02-10 at 12.57.28 AM.png]]
 	- Complex fractions are fractions with variables (or letters) in either the denominator and or the denominator
 	- Could also mean that we have a fraction for the numerator and/or a fraction for the denominator.

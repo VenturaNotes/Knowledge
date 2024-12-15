@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tIJ0xbhKHlQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=tIJ0xbhKHlQ
+---
 - ![[Screenshot 2023-04-10 at 2.21.28 PM.png]]
 	- Congruent sides
 		- Sides of a figure that have the same length

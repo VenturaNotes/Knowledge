@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=aa8USttcDoE)
-
+---
+Source:
+  - https://youtube.com/watch?v=aa8USttcDoE
+---
 ## Matching Pennies
 - ![[Screenshot 2023-01-07 at 8.10.13 PM.png|400]]
 	- Flipping a coin served as a mixed strategy for Nash Equilibrium

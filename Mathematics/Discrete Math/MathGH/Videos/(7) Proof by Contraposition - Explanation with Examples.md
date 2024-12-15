@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=nQHl7wqkx7s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=nQHl7wqkx7s
+---
 - ![[Screenshot 2024-01-03 at 3.29.55 PM.png]]
 	- [[Proof by contraposition]]
 		- (1) Proof by contraposition: We are trying to prove if p, then q. We can do this with contraposition by proving not q implies not p

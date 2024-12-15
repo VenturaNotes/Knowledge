@@ -1,5 +1,7 @@
-[25:58:10](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=93490s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=93490s
+---
 - ![[Screenshot 2023-05-08 at 7.31.03 AM.png]]
 	- [[Perfect square trinomial]]
 		- A perfect square is a number with a rational square root

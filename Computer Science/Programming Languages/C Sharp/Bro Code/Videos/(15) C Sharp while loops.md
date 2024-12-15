@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=EyghyKO4BlA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=EyghyKO4BlA
+---
 - [[While loop]]: repeats some code while some condition remains true
 
 Code

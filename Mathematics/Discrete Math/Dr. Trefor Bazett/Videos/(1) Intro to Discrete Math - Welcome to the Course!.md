@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=rdXw7Ps9vxc)
-
+---
+Source:
+  - https://youtube.com/watch?v=rdXw7Ps9vxc
+---
 - Discrete math is an introduction to mathematical thinking
 	- Think logically
 	- Think rigorously 

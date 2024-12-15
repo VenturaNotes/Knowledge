@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=nPPNgin7W7Y)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=nPPNgin7W7Y
+---
 - ![[Screenshot 2023-05-15 at 5.10.50 AM.png]]
 	- Understanding polynomials
 		- $2x^2 + 4x^1 + 10x^0 = 0$

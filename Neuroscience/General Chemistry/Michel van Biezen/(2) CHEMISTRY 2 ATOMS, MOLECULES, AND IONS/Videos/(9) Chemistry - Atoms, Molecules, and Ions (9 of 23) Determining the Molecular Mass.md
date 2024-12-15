@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=EYU4jzJ1o0M)
-
+---
+Source:
+  - https://youtube.com/watch?v=EYU4jzJ1o0M
+---
 - ![[Screenshot 2023-08-03 at 11.32.17 AM.png]]
 	- Errata
 		- m of 1 $SO_2$ <mark style="background: #FFF3A3A6;">molecule</mark>

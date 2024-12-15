@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=2fSsdrN2KmU)
-
+---
+Source:
+  - https://youtube.com/watch?v=2fSsdrN2KmU
+---
 - ![[Screenshot 2023-08-23 at 4.17.11 PM.png]]
 	- How to build an equation that models a story problem
 		- Important pieces

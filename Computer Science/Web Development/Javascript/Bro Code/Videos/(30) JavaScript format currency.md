@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DXd_jHtOnDM)
-
+---
+Source:
+  - https://youtube.com/watch?v=DXd_jHtOnDM
+---
 index.js
 ```javascript
 //JavaScript toLocaleString() currency

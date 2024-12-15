@@ -1,5 +1,7 @@
-[4:18:17](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=15497s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=15497s
+---
 - Intro
 	- Exponential functions can be used to model compound interest for loans and bank accounts
 - ![[Screenshot 2023-02-24 at 10.46.37 PM.png]]

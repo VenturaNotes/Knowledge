@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=iGcfmsyhHdA)
-
+---
+Source:
+  - https://youtube.com/watch?v=iGcfmsyhHdA
+---
 - ![[Screenshot 2023-04-27 at 4.15.24 PM.png]]
 	- Trick
 		- Pick a number between 11 and 98

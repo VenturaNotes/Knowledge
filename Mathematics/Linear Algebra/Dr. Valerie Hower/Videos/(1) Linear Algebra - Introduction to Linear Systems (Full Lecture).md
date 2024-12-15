@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=rGWcIeCdwGg)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=rGWcIeCdwGg
+---
 - ![[Screenshot 2023-06-06 at 2.08.13 PM.png]]
 	- Linear Equation
 	- An [[equation]] would be setting a function equal to a number or setting 2 functions equal

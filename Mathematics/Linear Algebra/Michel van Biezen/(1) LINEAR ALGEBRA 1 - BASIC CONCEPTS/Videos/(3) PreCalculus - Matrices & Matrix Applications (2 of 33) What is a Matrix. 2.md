@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=YTV7ei1hyJI)
-
+---
+Source:
+  - https://youtube.com/watch?v=YTV7ei1hyJI
+---
 - ![[Screenshot 2023-06-11 at 4.11.52 AM.png]]
 	- Matrix elements
 	- columns 1, 2 and 3

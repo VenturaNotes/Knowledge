@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=080xF4VDvjw)
-
+---
+Source:
+  - https://youtube.com/watch?v=080xF4VDvjw
+---
 ![[Screenshot 2022-12-11 at 9.14.08 PM.png]]
 - Family relationships between elements
 - Unordered lists of fruit, vegetables and dessert are children of `<body>` which is the parent

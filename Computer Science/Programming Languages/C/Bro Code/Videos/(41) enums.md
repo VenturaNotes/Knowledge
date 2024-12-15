@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=oW5UusoWEY0)
-
+---
+Source:
+  - https://youtube.com/watch?v=oW5UusoWEY0
+---
 ```C
 //Enumerations are treated as integers and not strings
 

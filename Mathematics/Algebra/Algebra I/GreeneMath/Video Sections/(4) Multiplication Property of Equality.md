@@ -1,5 +1,7 @@
-[01:06:38](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=3998s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=3998s
+---
 - ax + b = c
 	- x is most common variable in algebra
 	- a $\neq$ 0

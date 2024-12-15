@@ -1,10 +1,10 @@
 ---
+Source:
+  - https://www.youtube.com/watch?v=pii3hAksya0
 tags:
   - type/video
   - status/incomplete
 ---
-[Video](https://www.youtube.com/watch?v=pii3hAksya0)
-
 ```python
 class Language:
     def say_hello(self):

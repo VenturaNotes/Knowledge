@@ -1,5 +1,7 @@
-[4:53:38](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=17618s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=17618s
+---
 - ![[Screenshot 2023-02-24 at 11.57.16 PM.png]]
 	- Note. Recall some of the exponent rules
 		- "Zero Rule" [^1]

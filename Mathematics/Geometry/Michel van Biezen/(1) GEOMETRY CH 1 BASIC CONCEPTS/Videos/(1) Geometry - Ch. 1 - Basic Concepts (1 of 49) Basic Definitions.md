@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=QXpbyHjBNXA)
-
+---
+Source:
+  - https://youtube.com/watch?v=QXpbyHjBNXA
+---
 - ![[Screenshot 2023-04-02 at 11.03.08 PM.png]]
 	- [[Point]]
 		- No dimensions

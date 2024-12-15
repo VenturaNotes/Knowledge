@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=2mnQ3t02Tss)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=2mnQ3t02Tss
+---
 - ![[Pasted image 20230515033627.png]]
 	- We must undo any operations the variable is participating in
 	- We can do anything we want to both sides of the equation

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=gti8w3LNpcA)
-
+---
+Source:
+  - https://youtube.com/watch?v=gti8w3LNpcA
+---
 index.js
 ```javascript
 // inheritance = a child class can inherit all the 

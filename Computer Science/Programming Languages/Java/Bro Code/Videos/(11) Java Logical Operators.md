@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=919IUhotDCo)
-
+---
+Source:
+  - https://youtube.com/watch?v=919IUhotDCo
+---
 ```java
 public class Main {
 

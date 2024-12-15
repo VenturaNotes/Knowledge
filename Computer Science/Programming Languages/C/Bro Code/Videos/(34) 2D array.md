@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Vh4krbTnTAA)
-
+---
+Source:
+  - https://youtube.com/watch?v=Vh4krbTnTAA
+---
 ```C
 //first set of straight brackets is # of rows
 //second set of straight brackts is # of columns

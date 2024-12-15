@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=2ZgfZgmC9rA)
-
+---
+Source:
+  - https://youtube.com/watch?v=2ZgfZgmC9rA
+---
 - ![[Screenshot 2023-06-13 at 9.53.43 PM.png]]
 	- [[Trail]]: A sequence of vertices in G
 		- Some texts define a trail as a sequence of vertices, but between each pair of vertices in the sequence they also put the edge that joins those vertices

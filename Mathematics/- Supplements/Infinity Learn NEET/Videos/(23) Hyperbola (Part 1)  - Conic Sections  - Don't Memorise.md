@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=WEyYaIWIUp0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=WEyYaIWIUp0
+---
 - ![[Screenshot 2023-10-26 at 10.05.49 AM.png]]
 	- Conic Sections
 		- [[Circle]]

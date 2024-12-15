@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=huGWXh4l1M0)
-
+---
+Source:
+  - https://youtube.com/watch?v=huGWXh4l1M0
+---
 - Image
 	- Proof by contradiction
 	- Recall: [[Contradiction]] is an argument of the form:

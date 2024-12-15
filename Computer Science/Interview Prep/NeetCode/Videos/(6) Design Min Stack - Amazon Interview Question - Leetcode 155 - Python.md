@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=qkLl7nAwDPo)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=qkLl7nAwDPo
+---
 - ![[Screenshot 2023-08-31 at 1.09.11 AM.png]]
 	- This is a good design problem
 		- Design a [[stack]] that supports, push, pop, top, and retrieving the minimum element in constant time

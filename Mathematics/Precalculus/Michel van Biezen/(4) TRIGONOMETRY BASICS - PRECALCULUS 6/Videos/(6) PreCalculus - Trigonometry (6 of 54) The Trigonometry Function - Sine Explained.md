@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MvfDl5BgjzU)
-
+---
+Source:
+  - https://youtube.com/watch?v=MvfDl5BgjzU
+---
 - ![[Screenshot 2023-06-10 at 3.49.20 PM.png]]
 	- [[Hypotenuse]]
 	- [[Opposite Side]]

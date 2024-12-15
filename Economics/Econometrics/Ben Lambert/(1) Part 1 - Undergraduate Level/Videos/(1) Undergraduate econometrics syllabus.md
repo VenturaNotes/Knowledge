@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=M_5SLG7sUa0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=M_5SLG7sUa0
+---
 - ![[Screenshot 2023-09-22 at 4.26.32 AM.png]]
 	- [[Population (Statistics)]]
 		- In population, there might be countries, individuals, firms

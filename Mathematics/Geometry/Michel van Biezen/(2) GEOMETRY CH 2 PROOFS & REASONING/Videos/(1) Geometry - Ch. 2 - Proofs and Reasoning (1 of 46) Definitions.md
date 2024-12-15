@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=TYVxj5Dnot0)
-
+---
+Source:
+  - https://youtube.com/watch?v=TYVxj5Dnot0
+---
 - ![[Screenshot 2023-04-11 at 2.05.35 AM.png]]
 	- Inductive Reasoning
 		- Looking for a pattern or a trend in order to come up with a generalization

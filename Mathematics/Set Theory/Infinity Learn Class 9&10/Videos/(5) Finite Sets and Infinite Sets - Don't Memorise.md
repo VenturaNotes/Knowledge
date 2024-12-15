@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=BydchiZ8t6o)
-
+---
+Source:
+  - https://youtube.com/watch?v=BydchiZ8t6o
+---
 - ![[Screenshot 2023-03-28 at 8.11.16 PM.png]]
 	- Types
 		- Integers (Infinite)

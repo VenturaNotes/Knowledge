@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mQ6Hhu0xSaE)
-
+---
+Source:
+  - https://youtube.com/watch?v=mQ6Hhu0xSaE
+---
 ---
 -  "q is necessary for p"
 	- ![[Screenshot 2023-01-03 at 10.59.43 AM.png]]

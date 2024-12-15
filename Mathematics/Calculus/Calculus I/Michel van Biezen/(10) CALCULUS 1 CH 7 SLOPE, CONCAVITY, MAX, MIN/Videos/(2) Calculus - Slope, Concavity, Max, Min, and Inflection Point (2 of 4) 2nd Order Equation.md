@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=wcioTxaPuf8)
-
+---
+Source:
+  - https://youtube.com/watch?v=wcioTxaPuf8
+---
 - ![[Screenshot 2023-10-27 at 7.46.46 PM.png]]
 	- May not have inflection points on parabola
 	- To find max/min or horizontal inflection point

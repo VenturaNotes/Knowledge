@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=g7wEpxwgB3w)
-
+---
+Source:
+  - https://youtube.com/watch?v=g7wEpxwgB3w
+---
 - ![[Screenshot 2023-03-06 at 3.33.30 AM.png]]
 	- Method
 		- Find factors of the constant and leading coefficient (includes positives and negatives)

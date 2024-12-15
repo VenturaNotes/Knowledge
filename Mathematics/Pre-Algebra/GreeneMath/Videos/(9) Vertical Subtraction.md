@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=MNawKZmffG0) (unavailable)
-[01:31:37](https://www.youtube.com/watch?v=VXzm8ReImG0&t=5497s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=5497s
+---
 - Lesson Objectives:
 	- Learn how to subtract multi-digit numbers
 	- Learn the [[borrowing]] procedure

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=vQzREQUhGSA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=vQzREQUhGSA
+---
 - [[List]]: data structure that represents a list of objects that can be accessed by index.
 	- Similar to array, but can dynamically increase/decrease in size
 		- However they use more memory?

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ZITVn87McQ8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=ZITVn87McQ8
+---
 - [[Anonymous objects]]
 	- new Car("Mustang")
 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=c4ezAcS61fc)
-
+---
+Source:
+  - https://youtube.com/watch?v=c4ezAcS61fc
+---
 - ![[Screenshot 2023-08-03 at 12.41.39 PM.png]]
 	- You can go along any of the outer rows or columns and find the determinant of the 3x3 matrix
 		- Works for 2x2, 4x4, 5x5, etc 

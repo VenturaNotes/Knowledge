@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=9fJsrnE1go0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=9fJsrnE1go0
+---
 - Image
 	- We know what functions do
 	- What about [[inverse function|Inverse Functions]]?

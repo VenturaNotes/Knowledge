@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tyK6e8Zvdvk)
-
+---
+Source:
+  - https://youtube.com/watch?v=tyK6e8Zvdvk
+---
 index.js
 ```javascript
 const answer = Math.floor(Math.random() * 10 + 1);

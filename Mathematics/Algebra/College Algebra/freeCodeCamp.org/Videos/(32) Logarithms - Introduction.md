@@ -1,5 +1,7 @@
-[4:29:33](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=16173s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=16173s
+---
 - ![[Screenshot 2023-02-24 at 11.06.21 PM.png]]
 	- Definition $log_ab = c$ means $a^c = b$ 
 		- a is the base of the logarithm

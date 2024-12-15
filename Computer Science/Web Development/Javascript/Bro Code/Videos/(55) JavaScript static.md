@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_wO3MHR3pmM)
-
+---
+Source:
+  - https://youtube.com/watch?v=_wO3MHR3pmM
+---
 index.js
 ```javascript
 // static = belongs to the class, not the objects

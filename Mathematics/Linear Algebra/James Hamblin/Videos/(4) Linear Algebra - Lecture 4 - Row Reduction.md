@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=eXL8m865QeM)
-
+---
+Source:
+  - https://youtube.com/watch?v=eXL8m865QeM
+---
 ---
 - Echelon Form of a Matrix
 	- A matrix is in echelon form if it satisfies these three conditions:

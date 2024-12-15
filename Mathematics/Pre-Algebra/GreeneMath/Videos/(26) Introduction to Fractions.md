@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=AIJ1wqOFtOs) (unavailable)
-[07:41:42](https://www.youtube.com/watch?v=VXzm8ReImG0&t=27702s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=27702s
+---
 - Lesson Objectives:
 	- Gain a basic understanding of [[fraction|fractions]]
 	- Learn the difference between a [[proper fraction]], [[improper fraction]], and [[mixed number]]

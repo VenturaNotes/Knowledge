@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Gxh-mEt1K-o)
-
+---
+Source:
+  - https://youtube.com/watch?v=Gxh-mEt1K-o
+---
 - ![[Screenshot 2023-03-05 at 11.27.14 PM.png]]
 	- Multiplicity
 		- All Roots intersect the x-axis but

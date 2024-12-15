@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=eFFKaqH9NaM)
-
+---
+Source:
+  - https://youtube.com/watch?v=eFFKaqH9NaM
+---
 - ![[Screenshot 2023-02-18 at 4.19.00 PM.png]]
 	- Instruction
 		- Solve the system of equations

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=0bZ2GcCTtCA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=0bZ2GcCTtCA
+---
 - ![[Screenshot 2023-05-15 at 3.11.53 AM.png]]
 	- [[Commutative Property]]: 
 		- Only applies to addition and multiplication

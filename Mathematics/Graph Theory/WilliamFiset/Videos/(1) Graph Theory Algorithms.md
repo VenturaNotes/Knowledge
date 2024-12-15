@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=DgXR2OWQnLc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=DgXR2OWQnLc
+---
 - Image
 	- [[Low-Link Values]]
 		- The low-link value of a node is the smallest (lowest) node id reachable from that node when doing a [[Depth first search|DFS]] (including itself)

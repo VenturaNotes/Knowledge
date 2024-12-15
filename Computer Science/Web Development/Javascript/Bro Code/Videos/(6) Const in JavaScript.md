@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=49S8P_MFGOY)
-
+---
+Source:
+  - https://youtube.com/watch?v=49S8P_MFGOY
+---
 index.js
 ```javascript
 // const = a variable that can't be changed

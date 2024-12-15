@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=j7qVcc6X8g4)
-
+---
+Source:
+  - https://youtube.com/watch?v=j7qVcc6X8g4
+---
 - ![[Screenshot 2023-03-27 at 9.51.36 PM.png]]
 	- Negating a conditional
 	- DeMorgan's law

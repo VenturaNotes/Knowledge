@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=zgZ4lmPrg60)
-
+---
+Source:
+  - https://youtube.com/watch?v=zgZ4lmPrg60
+---
 index.js
 ```javascript
 // return = returns a value back to the place 

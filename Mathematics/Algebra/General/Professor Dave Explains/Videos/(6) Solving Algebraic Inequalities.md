@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=uBxs7cSgOes)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=uBxs7cSgOes
+---
 - ![[Screenshot 2023-05-15 at 4.06.37 AM.png]]
 	- Algebra involves inequalities
 		- Equality: x = 2

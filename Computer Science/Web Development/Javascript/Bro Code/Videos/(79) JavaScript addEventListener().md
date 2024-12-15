@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=X9-j31qT1TQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=X9-j31qT1TQ
+---
 index.js
 ```javascript
 // .addEventListener(event, function, useCapture)

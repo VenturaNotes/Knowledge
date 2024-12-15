@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=QqWfw_CFR6Q)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=QqWfw_CFR6Q
+---
 - [[exception]]: errors that occur during execution
 	- [[try]]: try some code that is considered "dangerous"
 	- [[catch]]: catches and handles exceptions when they occur

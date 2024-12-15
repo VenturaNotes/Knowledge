@@ -1,7 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Da-wtJwb8y4)
-[00:00:00](https://www.youtube.com/watch?v=VXzm8ReImG0&t=0s)
-
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=0s
+---
 - <mark style="background: #FFF3A3A6;">Lesson Objectives</mark>:
 	- Learn basic definitions of terms relating to place value
 		- [[Place Value]]: The numerical value that a digit has by virtue of its position in a number [^1]

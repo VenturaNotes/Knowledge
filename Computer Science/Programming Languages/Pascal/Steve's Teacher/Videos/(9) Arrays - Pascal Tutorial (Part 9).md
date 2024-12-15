@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Dq_2HQWAo7M)
-
+---
+Source:
+  - https://youtube.com/watch?v=Dq_2HQWAo7M
+---
 ```Pascal
 program MyFirstProgram;
 

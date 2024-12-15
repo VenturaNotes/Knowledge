@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=cHVKLO_JGZ0)
-
+---
+Source:
+  - https://youtube.com/watch?v=cHVKLO_JGZ0
+---
 index.js
 ```javascript
 // Map = object that holds key-value pairs of any data type

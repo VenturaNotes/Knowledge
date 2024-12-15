@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=8N7lYzRg1vw)
-
+---
+Source:
+  - https://youtube.com/watch?v=8N7lYzRg1vw
+---
 - ![[Screenshot 2023-05-09 at 1.14.25 PM.png]]
 	- We now know there are two-column proofs
 	- A second type of proof is called a flowchart proof, which uses boxes and arrows to show the structure of the proof

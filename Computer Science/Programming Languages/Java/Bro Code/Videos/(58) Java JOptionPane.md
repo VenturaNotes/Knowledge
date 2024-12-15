@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=BuW7y21FcYI)
-
+---
+Source:
+  - https://youtube.com/watch?v=BuW7y21FcYI
+---
 ```java
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;

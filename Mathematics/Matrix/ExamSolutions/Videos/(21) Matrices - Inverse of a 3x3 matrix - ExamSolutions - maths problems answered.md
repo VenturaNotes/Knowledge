@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=3q7rSaE2nig)
-
+---
+Source:
+  - https://youtube.com/watch?v=3q7rSaE2nig
+---
 - ![[Screenshot 2023-07-15 at 7.53.53 PM.png]]
 	- [[Inverse of 3x3 matrix]]
 	- If A is a 3$\times$ 3 matrix and |A| $\ne$ 0 then $A^{-1}$ = $\frac {1}{|A|}$ ADJ(A) where ADJ(A) = $A_{COF}^T$

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=rJKAXuyKZG8)
-
+---
+Source:
+  - https://youtube.com/watch?v=rJKAXuyKZG8
+---
 index.js
 ```javascript
 // nested loop = a loop inside of another loop

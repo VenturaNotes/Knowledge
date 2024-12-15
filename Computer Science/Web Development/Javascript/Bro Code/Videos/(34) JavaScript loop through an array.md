@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=AKuTs0hYj6Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=AKuTs0hYj6Q
+---
 index.js
 ```javascript
 let prices = [5, 10, 15, 20, 25];

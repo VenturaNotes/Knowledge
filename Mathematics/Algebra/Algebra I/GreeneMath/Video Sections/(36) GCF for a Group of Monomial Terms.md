@@ -1,5 +1,7 @@
-[14:41:04](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=52864s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=52864s
+---
 - ![[Screenshot 2023-03-16 at 2.33.52 PM.png]]
 	- Recall that the [[Greatest Common Divisor|GCF]] is the largest number that each number of a group is divisible by
 	- Finding the GCF:

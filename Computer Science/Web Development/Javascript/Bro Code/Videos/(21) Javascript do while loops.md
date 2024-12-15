@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=T-Py51gPdAA)
-
+---
+Source:
+  - https://youtube.com/watch?v=T-Py51gPdAA
+---
 index.js
 ```javascript
 // do while loop = do something,

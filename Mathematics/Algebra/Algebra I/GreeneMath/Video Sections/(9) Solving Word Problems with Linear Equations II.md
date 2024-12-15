@@ -1,5 +1,7 @@
-[03:07:51](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=11271s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=11271s
+---
 - [[(8) Solving Word Problems with Linear Equations I#^6be7c4|Solving a word problem]]
 
 ## Mixture Problems:

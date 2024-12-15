@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=swICwi6dGN0)
-
+---
+Source:
+  - https://youtube.com/watch?v=swICwi6dGN0
+---
 ```c
 #include <stdio.h>
 #include <stdbool.h>  //Required for boolean variables

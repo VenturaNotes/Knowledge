@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=h83bzYAfgrM)
-
+---
+Source:
+  - https://youtube.com/watch?v=h83bzYAfgrM
+---
 - ![[Screenshot 2023-05-09 at 9.59.13 PM.png]]
 	- All of the statements above are equivalent
 		- ![[Screenshot 2023-05-09 at 10.47.28 PM.png]]

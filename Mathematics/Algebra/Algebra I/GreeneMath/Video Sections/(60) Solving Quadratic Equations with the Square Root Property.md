@@ -1,5 +1,7 @@
-[25:32:32](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=91952s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=91952s
+---
 - ![[Screenshot 2023-05-08 at 7.17.30 AM.png]]
 	- Can solve equation by factoring
 	- [[Principal square root]]

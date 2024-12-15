@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=s8x9xruRcqc) (unavailable)
-[02:43:24](https://www.youtube.com/watch?v=VXzm8ReImG0&t=9804s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=9804s
+---
 - Lesson objectives
 	- Learn how to identify the parts of a [[division]] problem
 	- Learn the [[properties of division]]

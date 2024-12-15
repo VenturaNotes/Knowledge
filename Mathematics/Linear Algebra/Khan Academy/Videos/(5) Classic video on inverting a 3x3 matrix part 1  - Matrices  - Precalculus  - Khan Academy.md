@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=S4n-tQZnU6o)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=S4n-tQZnU6o
+---
 - ![[Screenshot 2023-09-26 at 10.45.40 PM.png]]
 	- [[Inverse of 3x3 Matrix]]
 		- Higher levels of dimensions would be preferably done by a computer

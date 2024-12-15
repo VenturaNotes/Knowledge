@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fYyARMqiaag)
-
+---
+Source:
+  - https://youtube.com/watch?v=fYyARMqiaag
+---
 - Image
 	- Will talk about lines, families of curves, trig functions, 
 	- [[Line|Lines]]

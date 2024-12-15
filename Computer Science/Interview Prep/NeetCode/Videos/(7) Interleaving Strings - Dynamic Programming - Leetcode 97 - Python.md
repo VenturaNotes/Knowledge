@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=3Rw3p9LrgvE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=3Rw3p9LrgvE
+---
 - ![[Screenshot 2023-08-31 at 1.40.44 AM.png|500]]
 	- When interleaving two strings to obtain a third string, the relative order of the characters of the string is super important
 	- We could use a dynamic programming technique called [[caching]]. This eliminates a bunch of repeated works.

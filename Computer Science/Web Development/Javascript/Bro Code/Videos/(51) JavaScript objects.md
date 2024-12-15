@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Q6M4J4JNBxc)
-
+---
+Source:
+  - https://youtube.com/watch?v=Q6M4J4JNBxc
+---
 index.js
 ```javascript
 //object = A group of properties and methods

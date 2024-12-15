@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=upbxyxHnMys) (unavailable)
-[13:54:11](https://www.youtube.com/watch?v=VXzm8ReImG0&t=50051s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=50051s
+---
 - Lesson Objectives
 	- Learn how to convert a [[decimal]] to a percent and vice versa
 	- Learn how to convert a [[fraction]] to a percent

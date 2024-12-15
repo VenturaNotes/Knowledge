@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mzioHfj_Yb8)
-
+---
+Source:
+  - https://youtube.com/watch?v=mzioHfj_Yb8
+---
 index.js
 ```javascript
 // callback = a function passed as an argument

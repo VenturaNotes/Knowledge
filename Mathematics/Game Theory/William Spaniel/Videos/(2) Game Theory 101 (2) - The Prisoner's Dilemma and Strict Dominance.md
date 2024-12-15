@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DanTKx1FLY8)
-
+---
+Source:
+  - https://youtube.com/watch?v=DanTKx1FLY8
+---
 ## The Situation
 - Two suspects are arrested.
 - The police think that they were trying to rob a store
