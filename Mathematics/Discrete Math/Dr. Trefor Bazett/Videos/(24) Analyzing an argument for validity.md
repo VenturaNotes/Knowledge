@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ON7yAw6W9VY)
-
+---
+Source:
+  - https://youtube.com/watch?v=ON7yAw6W9VY
+---
 - ![[Screenshot 2023-05-09 at 11.23.11 PM.png]]
 	- Example
 		- If I'm skilled at poker, then I will win.

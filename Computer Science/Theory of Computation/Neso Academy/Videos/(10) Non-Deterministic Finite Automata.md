@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ehy0jGIYRtE)
-
+---
+Source:
+  - https://youtube.com/watch?v=ehy0jGIYRtE
+---
 - NFA
 - Deterministic Finite Automata
 	- Determinism

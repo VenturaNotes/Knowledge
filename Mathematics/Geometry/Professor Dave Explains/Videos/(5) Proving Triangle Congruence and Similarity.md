@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=mJ4Ms6SXEgg)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=mJ4Ms6SXEgg
+---
 - ![[Screenshot 2023-10-30 at 6.34.08 PM.png]]
 	- Geometry is concerned with proofs
 	- In the physical world, things can only be consistent beyond reasonable doubt

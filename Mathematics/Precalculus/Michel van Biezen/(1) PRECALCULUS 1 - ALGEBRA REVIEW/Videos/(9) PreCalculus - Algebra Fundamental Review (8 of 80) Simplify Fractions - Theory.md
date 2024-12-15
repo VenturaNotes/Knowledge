@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=z3lPw_359T0)
-
+---
+Source:
+  - https://youtube.com/watch?v=z3lPw_359T0
+---
 - ![[Screenshot 2023-01-21 at 9.47.53 PM.png]]
 	- An equation has a left side and a right side and an equal sign
 	- An expression is a sum of terms (could be a single term, could be a single character such as "a" or "3x")

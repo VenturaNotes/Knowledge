@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=H4hk6N5vC1Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=H4hk6N5vC1Q
+---
 - Types of Time Signals (CTS)
 	- Continuous Time Signals
 		- Specified for every value of time(t)

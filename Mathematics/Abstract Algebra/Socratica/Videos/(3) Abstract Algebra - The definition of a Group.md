@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=QudbrUcVPxk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=QudbrUcVPxk
+---
 - ![[Screenshot 2024-01-23 at 1.33.40 PM.png]]
 	- The definition of a [[Group]]
 		- It's an abstract idea

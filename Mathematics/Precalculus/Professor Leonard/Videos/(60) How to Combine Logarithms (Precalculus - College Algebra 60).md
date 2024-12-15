@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=YrU8fYchnIU)
-
+---
+Source:
+  - https://youtube.com/watch?v=YrU8fYchnIU
+---
 - ![[Screenshot 2023-03-13 at 4.16.10 AM.png]]
 	- Note how the argument, before simplification, could be changed directly to this expression. I showed this just in case you ended with the radical on the denominator and forgot how to do rationalization.
 	- Usually need to rationalize the denominator

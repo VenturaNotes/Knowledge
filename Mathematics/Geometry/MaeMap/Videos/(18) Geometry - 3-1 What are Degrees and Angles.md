@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FwdrnrEBXZk)
-
+---
+Source:
+  - https://youtube.com/watch?v=FwdrnrEBXZk
+---
 - ![[Screenshot 2023-04-06 at 9.41.02 PM.png]]
 	- Degree: A way we can measure an angle
 		- It's a number with a circle as a superscript (1$\degree$)

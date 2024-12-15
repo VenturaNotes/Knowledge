@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=w-YvEgtTz-g)
-
+---
+Source:
+  - https://youtube.com/watch?v=w-YvEgtTz-g
+---
 index.js
 ```Javascript
 const title = document.getElementById("myTitle");

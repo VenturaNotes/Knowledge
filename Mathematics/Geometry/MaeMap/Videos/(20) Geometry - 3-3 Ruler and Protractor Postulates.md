@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=3hbBmZu74N0)
-
+---
+Source:
+  - https://youtube.com/watch?v=3hbBmZu74N0
+---
 - ![[Screenshot 2023-04-06 at 9.57.11 PM.png]]
 	- Ruler Postulate
 		- P.9) The points on a line can be matched one to one with the real numbers. The real number that corresponds to a point is the coordinate of the point. The distance between points A and B is written as AB and is the absolute value of the difference of the coordinates of A and B.

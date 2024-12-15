@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=V-qD--OdtkU)
-
+---
+Source:
+  - https://youtube.com/watch?v=V-qD--OdtkU
+---
 - ![[Screenshot 2023-04-07 at 2.50.57 AM.png]]
 	- [[Transversals]]: A line that intersects at least 2 lines in a plane at separate points
 		- In the example above, q is the traversal

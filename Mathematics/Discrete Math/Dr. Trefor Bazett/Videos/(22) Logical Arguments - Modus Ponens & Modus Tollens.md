@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=NTSZMdGlo4g)
-
+---
+Source:
+  - https://youtube.com/watch?v=NTSZMdGlo4g
+---
 - ![[Screenshot 2023-05-09 at 11.05.20 PM.png]]
 	- A valid argument is a list of premises from which the conclusion follows
 	- Examples

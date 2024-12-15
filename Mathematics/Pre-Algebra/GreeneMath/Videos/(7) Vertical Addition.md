@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=J6-XZxelQII) (unavailable)
-[01:05:20](https://www.youtube.com/watch?v=VXzm8ReImG0&t=3920s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=3920s
+---
 - Lesson objectives:
 	- Learn how to properly set up and perform [[vertical addition]]
 	- Learn the process of [[carrying]]

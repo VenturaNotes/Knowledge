@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=GwxvLzQoMYM)
-
+---
+Source:
+  - https://youtube.com/watch?v=GwxvLzQoMYM
+---
 ``` java
 import java.awt.FlowLayout;
 import java.awt.Font;

@@ -1,5 +1,7 @@
-[1:15:22](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=4522s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=4522s
+---
 - ![[Screenshot 2023-02-20 at 6.37.53 PM.png]]
 	- A rational equation is an equation that has rational expressions in it. An equation that has some variables in the denominator
 - ![[Screenshot 2023-02-20 at 6.40.00 PM.png|600]]

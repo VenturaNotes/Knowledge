@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=RG7Wr2cCWj8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=RG7Wr2cCWj8
+---
 - ![[Screenshot 2023-10-10 at 1.08.58 PM.png]]
 	- [[Econometrics]]: A statistical tool set which helps us evaluate some sort of relationship of interest
 		- If we're interest in individual9s, what is the effect of an individual's education on the average wage that individual might expect to obtain

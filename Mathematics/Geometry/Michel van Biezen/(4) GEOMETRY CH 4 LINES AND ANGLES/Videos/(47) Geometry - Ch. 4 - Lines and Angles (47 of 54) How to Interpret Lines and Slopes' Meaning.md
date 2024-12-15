@@ -1,5 +1,7 @@
-[Video](https://youtu.be/-Et5gQdzdow)
-
+---
+Source:
+  - https://youtu.be/-Et5gQdzdow
+---
 - ![[Screenshot 2023-05-04 at 5.04.36 AM.png]]
 	- Distance vs Time
 		- Slope = Velocity

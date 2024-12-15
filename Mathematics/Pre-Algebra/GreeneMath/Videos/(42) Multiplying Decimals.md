@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=OudoONkUEog) (unavailable)
-[12:50:42](https://www.youtube.com/watch?v=VXzm8ReImG0&t=46242s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=46242s
+---
 - Lesson Objective:
 	- Learn how to multiply [[decimal|decimals]]
 - Multiplying decimals

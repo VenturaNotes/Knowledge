@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=bHSjfXJBKaY)
-
+---
+Source:
+  - https://youtube.com/watch?v=bHSjfXJBKaY
+---
 index.js
 ```javascript
 // class = a blueprint for creating objects

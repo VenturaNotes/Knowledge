@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=kZKyq1mTeWY)
-
+---
+Source:
+  - https://youtube.com/watch?v=kZKyq1mTeWY
+---
 - Image
 	- Matrices for rotations are built up from the unit base vectors
 	- $R_{90}R_{90}$

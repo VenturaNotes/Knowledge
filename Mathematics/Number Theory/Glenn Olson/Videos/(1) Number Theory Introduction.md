@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FtztfI86pBY)
-
+---
+Source:
+  - https://youtube.com/watch?v=FtztfI86pBY
+---
 - Sources
 	- North Suburban Math League Contests
 	- "Introduction to Number Theory" by Mathew Crawford

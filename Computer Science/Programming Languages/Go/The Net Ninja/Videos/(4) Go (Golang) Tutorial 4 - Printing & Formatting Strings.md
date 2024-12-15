@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=m1Uy0WQ2Xns)
-
+---
+Source:
+  - https://youtube.com/watch?v=m1Uy0WQ2Xns
+---
 Printing & Formatting Strings
 ```Go
 package main

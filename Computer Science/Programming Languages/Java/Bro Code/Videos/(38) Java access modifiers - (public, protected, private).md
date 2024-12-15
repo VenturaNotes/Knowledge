@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=T632kAJ_9VA)
-
+---
+Source:
+  - https://youtube.com/watch?v=T632kAJ_9VA
+---
 Key:
 <mark style="background: #FFF3A3A6;">public</mark>: visible in all classes in all packages
 <mark style="background: #FFF3A3A6;">protected</mark>: visible to all classes in the same package or classes in other packages that are a subclass

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Hr8tLlj32BQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=Hr8tLlj32BQ
+---
 ```java
 import java.io.FileNotFoundException;
 import java.io.FileReader;

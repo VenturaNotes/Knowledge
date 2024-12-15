@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=muwDbCKgW9o)
-
+---
+Source:
+  - https://youtube.com/watch?v=muwDbCKgW9o
+---
 - ![[Screenshot 2023-08-04 at 2.58.33 PM.png]]
 	- Derivative of y "with respect to " x = $\frac {d}{dx}(y)$
 		- Typically y is the dependent variable and "with respect to" x becomes the independent variable. As x changes, y changes 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=dDWjhRfBsKM)
-
+---
+Source:
+  - https://youtube.com/watch?v=dDWjhRfBsKM
+---
 ## Intro
 - Points
 - Lines

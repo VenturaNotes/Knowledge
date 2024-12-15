@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FXTlAPOBA_U)
-
+---
+Source:
+  - https://youtube.com/watch?v=FXTlAPOBA_U
+---
 - ![[Screenshot 2023-03-05 at 12.42.03 AM.png]]
 	- Power functions
 		- Tells you the end behavior of a polynomial

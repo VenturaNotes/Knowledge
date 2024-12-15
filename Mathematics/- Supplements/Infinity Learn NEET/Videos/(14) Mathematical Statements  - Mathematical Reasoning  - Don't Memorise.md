@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=OPN6IJ7isEE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=OPN6IJ7isEE
+---
 - ![[Screenshot 2023-10-16 at 6.46.59 PM.png]]
 	- [[Statement]]
 		- Gives us information

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vNk4wWkaZfs)
-
+---
+Source:
+  - https://youtube.com/watch?v=vNk4wWkaZfs
+---
 - ![[Screenshot 2023-06-05 at 11.23.45 PM.png]]
 	- [[Common logarithm]]
 		- $y = log_{10}x$

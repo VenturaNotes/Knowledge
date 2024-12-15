@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=aTlR03t1dTQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=aTlR03t1dTQ
+---
 ## Set-Roster Notation
 - {0, 2, 4, 6,...}
 	- Ellipses indicates the pattern continues

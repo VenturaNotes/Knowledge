@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5X7Mx-Dla9Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=5X7Mx-Dla9Q
+---
 index.js
 ```javascript
 // setInterval() = invokes a function repeatedly after no. of milliseconds

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-k4uXF4hsAs)
-
+---
+Source:
+  - https://youtube.com/watch?v=-k4uXF4hsAs
+---
 - ![[Screenshot 2023-03-07 at 3.44.05 AM.png]]
 	- Odd asymptotes means opposite infinities
 	- Horizontal asymptote is at y=0 because as the denominator reaches positive infinity, f($\infty$) = 0 and same for f($-\infty$) = 0

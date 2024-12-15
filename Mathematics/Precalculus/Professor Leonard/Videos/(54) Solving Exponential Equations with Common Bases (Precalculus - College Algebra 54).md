@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=gkUWLFontZU)
-
+---
+Source:
+  - https://youtube.com/watch?v=gkUWLFontZU
+---
 - ![[Screenshot 2023-03-13 at 1.46.08 AM.png]]
 	- If bases are equal, exponents must be equal
 		- If $a^x = a^y$, then $x=y$

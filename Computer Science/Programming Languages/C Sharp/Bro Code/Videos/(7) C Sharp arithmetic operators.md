@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=k1ivOkhxxdw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=k1ivOkhxxdw
+---
 - [[Modulo Operator]]
 - [[Integer Division]]
 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=9yABv7y12Nw)
-
+---
+Source:
+  - https://youtube.com/watch?v=9yABv7y12Nw
+---
 - ![[Screenshot 2023-06-09 at 11.31.15 PM.png]]
 	- Graphing a rational function
 		- (1) Look at denominator ([[vertical asymptote]]) Find values of x that will make denominator 0

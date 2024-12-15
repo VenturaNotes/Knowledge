@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=lwGAEOQr2Sk)
-
+---
+Source:
+  - https://youtube.com/watch?v=lwGAEOQr2Sk
+---
 - ![[Screenshot 2023-01-08 at 2.10.36 PM.png]]
 	- Multiply the binomials ^64d71e
 		- Foil (a + b)(c + d)

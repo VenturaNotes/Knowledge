@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=NrmmR3-VxA8)
-
+---
+Source:
+  - https://youtube.com/watch?v=NrmmR3-VxA8
+---
 - ![[Screenshot 2023-03-02 at 5.52.38 PM.png]]
 	- These functions should be memorized
 	- [[(21) Toolkit Functions]]

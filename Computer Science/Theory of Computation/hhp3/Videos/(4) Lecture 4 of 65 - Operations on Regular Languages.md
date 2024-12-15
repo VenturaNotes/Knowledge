@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=F-EXmG1-gRQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=F-EXmG1-gRQ
+---
 - ![[Screenshot 2023-09-15 at 11.43.55 AM.png]]
 	- Operations on Regular Languages
 		- [[Regular operations]]

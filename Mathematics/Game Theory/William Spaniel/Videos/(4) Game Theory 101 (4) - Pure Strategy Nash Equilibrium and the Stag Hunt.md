@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=stzPcqmyhI4)
-
+---
+Source:
+  - https://youtube.com/watch?v=stzPcqmyhI4
+---
 ## The Game
 - Two hunters go out to catch meat
 - There are two hares in the range and one stag. The hunters can each bring the equipment necessary to catch one type of animal.

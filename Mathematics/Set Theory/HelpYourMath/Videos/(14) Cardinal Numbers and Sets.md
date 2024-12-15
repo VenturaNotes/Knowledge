@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=NCHUpGkkZKQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=NCHUpGkkZKQ
+---
 - Cardinal Numbers: Applying them towards sets, unions, and intersections
 ---
 - ![[Screenshot 2023-05-14 at 4.13.30 AM.png]]

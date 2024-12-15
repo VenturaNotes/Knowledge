@@ -1,5 +1,7 @@
-[08:28:50](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=30530s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=30530s
+---
 - A system of linear equations consists of two or more linear equations with the same variables.
 	- Example
 		- $3x - 4y = 4$

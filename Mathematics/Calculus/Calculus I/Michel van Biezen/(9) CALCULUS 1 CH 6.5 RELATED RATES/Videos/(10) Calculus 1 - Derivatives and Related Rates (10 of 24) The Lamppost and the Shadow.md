@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=f30rCjvQs-w)
-
+---
+Source:
+  - https://youtube.com/watch?v=f30rCjvQs-w
+---
 - ![[Screenshot 2023-10-27 at 12.33.45 PM.png]]
 	- Errata
 		- When solving for $\frac{dx_s}{dt}$, they forgot to write $\frac {4}{3}$ for the equation before the solution

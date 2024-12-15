@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Jm2Q4KQOPTU)
-
+---
+Source:
+  - https://youtube.com/watch?v=Jm2Q4KQOPTU
+---
 - ![[Screenshot 2023-02-18 at 11.20.49 PM.png]]
 	- Instructions
 		- Graph the Parabola

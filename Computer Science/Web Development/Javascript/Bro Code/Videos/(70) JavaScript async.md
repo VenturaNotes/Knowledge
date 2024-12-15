@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=0Xm9PsqcFnA)
-
+---
+Source:
+  - https://youtube.com/watch?v=0Xm9PsqcFnA
+---
 index.js
 ```javascript
 // async = makes a function return a Promise

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=yh1omjP-IJA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=yh1omjP-IJA
+---
 - ![[Screenshot 2023-10-25 at 7.22.08 PM.png]]
 	- Shape of [[dish satellite]]?
 		- It's parabolic in shape

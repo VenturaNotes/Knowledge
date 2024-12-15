@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=xyAuNHPsq-g)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=xyAuNHPsq-g
+---
 - ![[Screenshot 2023-09-26 at 8.41.45 AM.png]]
 	- Matrices is a plural for matrix
 	- A matrix is a table of numbers

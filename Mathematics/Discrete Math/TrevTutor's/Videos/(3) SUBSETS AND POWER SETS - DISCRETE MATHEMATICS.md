@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=H5D6EAezsXQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=H5D6EAezsXQ
+---
 ## Subsets
 - If A is a subset of B, then every element in A must also be in B
 	- 

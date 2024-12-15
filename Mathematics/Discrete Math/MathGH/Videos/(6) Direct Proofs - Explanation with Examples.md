@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=WsVLV2MaiEg)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=WsVLV2MaiEg
+---
 - ![[Screenshot 2024-01-03 at 2.52.07 PM.png]]
 	- [[direct proof|direct proofs]]: Introduction and Practice
 		- Direct proofs: if p, then q

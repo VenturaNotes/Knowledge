@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Hqga3YbvPKU)
-
+---
+Source:
+  - https://youtube.com/watch?v=Hqga3YbvPKU
+---
 - ![[Screenshot 2023-07-27 at 4.05.01 PM.png]]
 	- Definition always starts with: "A determinant of a square matrix is...."
 		- The determinant is some sort of operation that you do on square matrices

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=dkmOa7gdrrQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=dkmOa7gdrrQ
+---
 - ![[Screenshot 2023-06-06 at 1.40.26 PM.png]]
 	- 4th order polynomials
 		- Can have an [[inflection point]]

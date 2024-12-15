@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=GoaE1YaNTDY)
-
+---
+Source:
+  - https://youtube.com/watch?v=GoaE1YaNTDY
+---
 - ![[Screenshot 2023-06-06 at 1.11.43 PM.png]]
 	- [[Parabola]] opening downward gives maximum value
 		- Vertex of parabola

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=CzBbVvnwvqg)
-
+---
+Source:
+  - https://youtube.com/watch?v=CzBbVvnwvqg
+---
 - ![[Screenshot 2023-04-24 at 3.42.03 PM.png]]
 	- Finds the vertex of a quadratic equation
 	- Vertex is the point of a graph where the direction changes

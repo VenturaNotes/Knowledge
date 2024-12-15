@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=9kDpbZCK62Y)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=9kDpbZCK62Y
+---
 - Image
 	- To express vector spaces in the most efficient way
 		- We need the fewest number of elements that can be used to write any other elements in the space

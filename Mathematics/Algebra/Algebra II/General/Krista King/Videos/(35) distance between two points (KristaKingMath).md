@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7c5hcdbkiNQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=7c5hcdbkiNQ
+---
 - ![[Screenshot 2023-02-18 at 11.24.42 PM.png]]
 	- Instructions
 		- Find the distance between the points

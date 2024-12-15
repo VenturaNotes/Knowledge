@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HuKYb1yN7Ik)
-
+---
+Source:
+  - https://youtube.com/watch?v=HuKYb1yN7Ik
+---
 ```C
 //the type of variable returned needs to be the same as the function type
 //this is why the main function is "int" since it returns an integer

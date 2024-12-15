@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=BIQrnx-vvx8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=BIQrnx-vvx8
+---
 - ![[Screenshot 2024-01-24 at 10.01.24 PM.png]]
 	- [[Continuous function]]
 		- No gaps in the function

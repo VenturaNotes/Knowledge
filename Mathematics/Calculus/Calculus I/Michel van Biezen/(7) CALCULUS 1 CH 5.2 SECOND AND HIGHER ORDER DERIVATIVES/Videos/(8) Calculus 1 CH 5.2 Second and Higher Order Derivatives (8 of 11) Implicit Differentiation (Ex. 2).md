@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=pw1TJM4E190)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=pw1TJM4E190
+---
 - ![[Screenshot 2023-10-17 at 8.26.17 PM.png]]
 	- Errata
 		- $\frac {d}{dx}(\frac{dx}{dy}) = \frac {d^2x}{dy^2} = \frac {d}{dx}\frac {y}{2x}$

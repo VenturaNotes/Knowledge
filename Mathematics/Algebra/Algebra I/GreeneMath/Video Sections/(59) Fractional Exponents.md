@@ -1,5 +1,7 @@
-[25:08:53](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=90533s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=90533s
+---
 - ![[Screenshot 2023-03-27 at 12.38.57 AM.png]]
 	- Using rational numbers as exponents
 	- Let's suppose we saw

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Pdmg4V3eXZU)
-
+---
+Source:
+  - https://youtube.com/watch?v=Pdmg4V3eXZU
+---
 - ![[Screenshot 2023-05-09 at 1.26.54 AM.png]]
 	- Representing complex numbers on an [[Argand diagram]]
 		- Some authors may keep it as (x, y) instead of (Re,Im)

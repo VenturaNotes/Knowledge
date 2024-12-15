@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-Hl5DLnO9fQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=-Hl5DLnO9fQ
+---
 - ![[Screenshot 2023-08-04 at 2.41.54 PM.png]]
 	- Derivative tells us how fast the dependent variable is changing when the independent variable changes
 	- Independent variable (time)

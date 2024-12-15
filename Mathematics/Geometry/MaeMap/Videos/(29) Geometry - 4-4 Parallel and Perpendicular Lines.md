@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HEYK0-TjnFE)
-
+---
+Source:
+  - https://youtube.com/watch?v=HEYK0-TjnFE
+---
 - ![[Screenshot 2023-04-06 at 11.19.09 PM.png]]
 	- Perpendicular: Lines joined or intersected at right angles
 		- Lines could be segments, rays or lines that go on forever in any direction

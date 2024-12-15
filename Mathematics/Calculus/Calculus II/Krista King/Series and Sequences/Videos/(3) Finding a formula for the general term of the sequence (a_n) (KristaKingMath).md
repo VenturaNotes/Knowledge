@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FUWSMlI1QXI)
-
+---
+Source:
+  - https://youtube.com/watch?v=FUWSMlI1QXI
+---
 - Find a formula for the general term $a_n$ 
 	- ![[Screenshot 2022-12-09 at 5.17.32 PM.png]]
 		- Can look at the numerator first

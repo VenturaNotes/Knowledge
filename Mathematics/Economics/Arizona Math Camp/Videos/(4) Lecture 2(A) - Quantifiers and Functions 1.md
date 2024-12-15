@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=8TkAmIoBXy4)
-
+---
+Source:
+  - https://youtube.com/watch?v=8TkAmIoBXy4
+---
 ## Intro
 - Quantifiers
 - Cartesian Product

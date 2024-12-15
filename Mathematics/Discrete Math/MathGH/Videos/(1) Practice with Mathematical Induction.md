@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=wbfGKiIvEZE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=wbfGKiIvEZE
+---
 - ![[Screenshot 2023-11-12 at 5.28.57 PM.png]]
 	- [[Mathematical Induction]]
 		- Not necessarily a method to prove something but rather a common tool used within larger proofs

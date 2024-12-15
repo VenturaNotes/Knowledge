@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MnfYLGjauFc)
-
+---
+Source:
+  - https://youtube.com/watch?v=MnfYLGjauFc
+---
 - ![[Screenshot 2023-08-23 at 3.44.47 PM.png]]
 	- Find the [[Domain (Math)|domain]] and [[range]] of the function
 		- $f(x) = 10^{2x} + ln(21-3x)$ 

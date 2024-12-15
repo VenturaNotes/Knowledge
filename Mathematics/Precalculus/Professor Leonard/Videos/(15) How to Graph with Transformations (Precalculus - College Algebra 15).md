@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HkrMJLSpJFI)
-
+---
+Source:
+  - https://youtube.com/watch?v=HkrMJLSpJFI
+---
 - ![[Screenshot 2023-03-03 at 11.16.41 PM.png]]
 	- Example 1
 		- Up 2

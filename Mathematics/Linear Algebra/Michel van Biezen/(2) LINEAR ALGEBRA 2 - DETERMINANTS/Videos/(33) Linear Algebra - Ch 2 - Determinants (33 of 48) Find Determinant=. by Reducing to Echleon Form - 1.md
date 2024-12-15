@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=nWsjtm_PWfM)
-
+---
+Source:
+  - https://youtube.com/watch?v=nWsjtm_PWfM
+---
 - ![[Screenshot 2023-08-04 at 12.42.37 PM.png]]
 	- First try by only using row addition
 		- If interchanging rows $\to$ multiply answer by -1

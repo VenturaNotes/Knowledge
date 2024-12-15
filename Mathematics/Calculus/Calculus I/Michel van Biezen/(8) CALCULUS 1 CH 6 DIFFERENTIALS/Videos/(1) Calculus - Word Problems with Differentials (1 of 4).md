@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=g747vDnWiYc)
-
+---
+Source:
+  - https://youtube.com/watch?v=g747vDnWiYc
+---
 - ![[Screenshot 2023-10-18 at 9.09.59 AM.png]]
 	- [[Differential|differentials]]
 		- Handy technique to use when finding how things are changing relative to each other

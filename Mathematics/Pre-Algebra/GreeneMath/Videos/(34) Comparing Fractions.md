@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=KmTY0m78dSY) (unavailable)
-[10:24:13](https://www.youtube.com/watch?v=VXzm8ReImG0&t=37453s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=37453s
+---
 ## Lesson Objective
 - Learn how to compare the size of two or more [[fraction|fractions]]
 

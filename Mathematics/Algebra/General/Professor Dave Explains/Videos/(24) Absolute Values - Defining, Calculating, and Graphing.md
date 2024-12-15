@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Wirk4o3FHPA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Wirk4o3FHPA
+---
 - ![[Screenshot 2023-10-30 at 3.26.01 PM.png]]
 	- Working with [[Absolute Value|absolute values]]
 		- |x| $\to$ distance from 0 to x on a number line 

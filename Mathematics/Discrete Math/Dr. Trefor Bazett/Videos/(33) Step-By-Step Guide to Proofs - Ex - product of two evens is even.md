@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=oqTg3D_jZWo)
-
+---
+Source:
+  - https://youtube.com/watch?v=oqTg3D_jZWo
+---
 - ![[Screenshot 2023-05-11 at 2.17.16 PM.png]]
 	- Theorem: an even integer times an even integer is another even integer
 	- Step 1: Define Terms

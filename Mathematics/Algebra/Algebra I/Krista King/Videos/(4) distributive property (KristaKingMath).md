@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=zulGdgK4biE)
-
+---
+Source:
+  - https://youtube.com/watch?v=zulGdgK4biE
+---
 - ![[Screenshot 2023-01-08 at 2.03.31 PM.png]]
 	- Use the distributive property to expand the expression
 	- Allows us to distribute a multiplied value across a polynomial.

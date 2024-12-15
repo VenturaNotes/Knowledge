@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=J11IU3C86Yc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=J11IU3C86Yc
+---
 - ![[Screenshot 2023-10-30 at 8.44.02 PM.png]]
 	- When saying "secure the perimeter", it just means to guard or enclose the boundary of an area so no one gets in or out.
 	- [[Perimeter]]: The distance around a shape or figure

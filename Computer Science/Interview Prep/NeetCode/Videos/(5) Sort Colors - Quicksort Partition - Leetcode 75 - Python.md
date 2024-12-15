@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=4xbWSRZHqac)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=4xbWSRZHqac
+---
 - ![[Screenshot 2023-08-31 at 12.29.59 AM.png]]
 	- Library sort functions run on $nlogn$ time
 		- [[Merge sort]] and [[quicksort]] have about the same time complexity of $nlogn$ 

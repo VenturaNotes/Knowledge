@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=1amtOenZEwU)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=1amtOenZEwU
+---
 - ![[Screenshot 2023-05-09 at 10.03.09 AM.png]]
 	- Conjecture: "97 is a prime number"
 	- Proof by exhaustion: Must try all possible variations in order to prove a statement is true

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=LuGs7WhlHWA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LuGs7WhlHWA
+---
 - ![[Screenshot 2023-09-13 at 10.29.09 PM.png]]
 	- [[Finite state machine|finite state machines]]
 		- Will talk about [[regular language|regular languages]] and [[regular expressions]]

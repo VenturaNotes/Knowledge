@@ -1,5 +1,7 @@
-[03:36:58](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=13018s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=13018s
+---
 - Let's recall that a [[ratio]] is a comparison of two quantities
 	- a:b
 		- a to b

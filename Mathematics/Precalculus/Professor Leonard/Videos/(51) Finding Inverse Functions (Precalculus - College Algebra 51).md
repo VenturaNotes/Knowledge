@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fK7IPeeZoFE)
-
+---
+Source:
+  - https://youtube.com/watch?v=fK7IPeeZoFE
+---
 - ![[Screenshot 2023-03-08 at 3.33.54 PM.png]]
 	- Finding Inverse Functions
 		- A Function has an inverse if and only if it is one-to-one

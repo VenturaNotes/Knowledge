@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=YdmM2NU0nLU)
-
+---
+Source:
+  - https://youtube.com/watch?v=YdmM2NU0nLU
+---
 - ![[Screenshot 2023-01-08 at 2.17.35 PM.png]]
 	- Simplify the expression
 	- Symbols of inclusions include (and in order)

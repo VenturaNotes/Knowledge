@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=YQ7R6NK-bfA)
-
+---
+Source:
+  - https://youtube.com/watch?v=YQ7R6NK-bfA
+---
 index.js
 ```javascript
 //array.reduce() = reduces an array to a single value            

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=LAUi8pPlcUM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LAUi8pPlcUM
+---
 - ![[Screenshot 2023-11-27 at 12.56.04 AM.png]]
 	- Official site
 		- https://nodejs.org/en

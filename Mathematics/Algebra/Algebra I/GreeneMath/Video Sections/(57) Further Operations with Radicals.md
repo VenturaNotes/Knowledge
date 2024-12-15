@@ -1,5 +1,7 @@
-[24:00:37](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=86437s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=86437s
+---
 - Introduction
 	- Let's |revisit the simplified form of a radical [^1]:
 		- the radicand contains no factor other than 1 which is:

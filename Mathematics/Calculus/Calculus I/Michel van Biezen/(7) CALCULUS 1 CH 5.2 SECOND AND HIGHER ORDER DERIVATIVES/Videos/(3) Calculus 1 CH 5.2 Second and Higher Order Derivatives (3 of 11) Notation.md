@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=w1WGbyA0Who)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=w1WGbyA0Who
+---
 - ![[Screenshot 2023-10-17 at 7.25.00 PM.png]]
 	- f(t) = x
 		- This is a function of the variable t which is called x

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=BoooHY57RXw)
-
+---
+Source:
+  - https://youtube.com/watch?v=BoooHY57RXw
+---
 The Standard Library
 ```Go
 package main

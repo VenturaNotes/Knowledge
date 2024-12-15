@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=qLVrwCvVPGo)
-
+---
+Source:
+  - https://youtube.com/watch?v=qLVrwCvVPGo
+---
 ```C
 //size equals number of elements in array
 //it's a bubble sort

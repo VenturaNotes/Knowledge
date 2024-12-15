@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ujS6520gt0Y)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=ujS6520gt0Y
+---
 - ![[Screenshot 2023-10-26 at 10.25.32 AM.png]]
 	- Angle measurement
 		- [[Angle]]: Measure of the rotation of a given [[ray]] about its initial point

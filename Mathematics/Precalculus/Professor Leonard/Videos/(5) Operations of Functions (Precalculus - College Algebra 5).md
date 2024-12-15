@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7N_-G4usp6Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=7N_-G4usp6Q
+---
 - ![[Screenshot 2023-02-27 at 5.54.03 PM.png]]
 	- Focusing on what happens on domain
 	- You can never cancel out of the main problem

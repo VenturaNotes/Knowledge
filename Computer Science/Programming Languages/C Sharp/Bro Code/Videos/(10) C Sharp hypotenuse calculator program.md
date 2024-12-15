@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=PBEQuE_ln08)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=PBEQuE_ln08
+---
 Code
 ```C#
 using System;

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ztG4b9YifUA)
-
+---
+Source:
+  - https://youtube.com/watch?v=ztG4b9YifUA
+---
 - ![[Screenshot 2023-06-10 at 10.42.36 PM.png]]
 	- Proof of [[law of cosines]]
 		- [[(20) PreCalculus - Trigonometry (20 of 54) Reduction Formula (2 of 4) Add and Subtract pi|Adding pi]]

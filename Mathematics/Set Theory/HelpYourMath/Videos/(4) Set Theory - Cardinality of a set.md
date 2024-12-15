@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=rw04VWbAfMc)
-
+---
+Source:
+  - https://youtube.com/watch?v=rw04VWbAfMc
+---
 - Symbols and Terminology: The cardinality of a set
 ---
 - Cardinal Numbers and Cardinality

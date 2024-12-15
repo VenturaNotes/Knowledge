@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ACPRNt4rdmE)
-
+---
+Source:
+  - https://youtube.com/watch?v=ACPRNt4rdmE
+---
 - ![[Screenshot 2023-06-10 at 4.38.04 PM.png]]
 	- [[Odd function]]
 		- If f(-x) = -f(x)

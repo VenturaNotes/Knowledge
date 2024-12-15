@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=T2Gtt8WygiU)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=T2Gtt8WygiU
+---
 - ![[Screenshot 2023-07-17 at 3.58.17 AM.png]]
 	- Just how can we solve this system?
 		- Zero solutions

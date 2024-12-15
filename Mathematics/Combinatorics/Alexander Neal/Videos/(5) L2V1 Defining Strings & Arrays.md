@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=pUPecnDzfMc)
-
+---
+Source:
+  - https://youtube.com/watch?v=pUPecnDzfMc
+---
 - ![[Screenshot 2023-09-08 at 11.36.58 AM.png]]
 	- An introduction to [[string|Strings]]
 		- Let n be a positive integer and let \[n] = {1, 2, ..., n}. A sequence of length n such as ($a_1, a_2, ..., a_n$) is called a string (also a word, an array or a vector)

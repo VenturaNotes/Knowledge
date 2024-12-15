@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=zVtp-xcDTvc)
-
+---
+Source:
+  - https://youtube.com/watch?v=zVtp-xcDTvc
+---
 - Set Operations
 ---
 - ![[Screenshot 2023-05-13 at 7.11.38 AM.png|500]]

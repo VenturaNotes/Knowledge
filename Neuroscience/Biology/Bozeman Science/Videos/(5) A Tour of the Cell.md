@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1Z9pqST72is)
-
+---
+Source:
+  - https://youtube.com/watch?v=1Z9pqST72is
+---
 - ![[Screenshot 2024-01-29 at 3.35.49 PM.png]]
 	- Types of cells
 	- How structures inside cells fit their function

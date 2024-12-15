@@ -1,5 +1,7 @@
-[4:48:59](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=17339s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=17339s
+---
 - ![[Screenshot 2023-02-24 at 11.49.40 PM.png]]
 	- Example. Evaluate
 		- Use the calculator to solve the questions below

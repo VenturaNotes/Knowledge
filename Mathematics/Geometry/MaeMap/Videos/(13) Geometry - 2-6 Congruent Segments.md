@@ -1,4 +1,7 @@
-[Video](https://youtube.com/watch?v=DFtneKqEhOs)
+---
+Source:
+  - https://youtube.com/watch?v=DFtneKqEhOs
+---
 Related:: [[(6) Geometry - Ch. 1 - Basic Concepts (6 of 49) What is Congruent. And Other Terms]],  [[(7) Geometry - Ch. 1 - Basic Concepts (7 of 49) Notation for Congruent Line Segments]]
 
 - Video cutoff early

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tFga_XEEkyg)
-
+---
+Source:
+  - https://youtube.com/watch?v=tFga_XEEkyg
+---
 - ![[Screenshot 2023-04-07 at 3.11.03 AM.png]]
 	- [[Consecutive Interior Angles Theorem]]
 		- T.8) If two parallel lines are intersected by a transversal, then each pair of consecutive interior angles is supplementary

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=cogcW4QpBJc)
-
+---
+Source:
+  - https://youtube.com/watch?v=cogcW4QpBJc
+---
 -  ![[Screenshot 2023-05-03 at 5.24.54 AM.png]]
 	- If a condition is true, then we can make this conclusion
 	- The condition applies therefore the conclusion applies

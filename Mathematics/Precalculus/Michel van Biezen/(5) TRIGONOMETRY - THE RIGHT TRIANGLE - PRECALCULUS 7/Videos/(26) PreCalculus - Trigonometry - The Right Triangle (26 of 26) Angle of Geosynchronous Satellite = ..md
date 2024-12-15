@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=cvTzhkqD3ag)
-
+---
+Source:
+  - https://youtube.com/watch?v=cvTzhkqD3ag
+---
 - ![[Screenshot 2023-06-10 at 10.04.00 PM.png]]
 	- [[Geosynchronous orbit]]
 		- As satellite orbits around earth, it travels the same speed as the earth rotates meaning it will always be above a specific spot

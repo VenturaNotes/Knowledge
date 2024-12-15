@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=qrgK8b8RD7k)
-
+---
+Source:
+  - https://youtube.com/watch?v=qrgK8b8RD7k
+---
 - ![[Screenshot 2023-06-06 at 11.14.22 AM.png]]
 	- [[pH Scale]]: Indicates how acidic or basic a solution is
 		- $pH = -log[H^+]$

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=1gSFd-YVFP8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=1gSFd-YVFP8
+---
 - [[Random Numbers in C Sharp]]
 - These will be pseudorandom numbers
 - A polyhedral dice can have as few as 3 sides and as many as 100. 20 sided dice is used for dungeons and dragons

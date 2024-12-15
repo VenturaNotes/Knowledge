@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=cAhh6pYkHPQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=cAhh6pYkHPQ
+---
 - [[Constructor]]: A special method in a class
 	- Same name as the class name
 	- Can be used to assign arguments to fields when creating an object

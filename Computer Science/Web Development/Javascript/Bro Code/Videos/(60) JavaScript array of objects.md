@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=hwht8PbHYFM)
-
+---
+Source:
+  - https://youtube.com/watch?v=hwht8PbHYFM
+---
 index.js
 ```javascript
 class Car{

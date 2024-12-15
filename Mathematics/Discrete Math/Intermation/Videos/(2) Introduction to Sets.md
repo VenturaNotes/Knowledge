@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=laBQGKXCFFQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=laBQGKXCFFQ
+---
 - ![[Screenshot 2023-07-26 at 9.57.22 PM.png]]
 	- Dropdown box
 	- The set we're picking from is either yes or no (unique and distinct items)

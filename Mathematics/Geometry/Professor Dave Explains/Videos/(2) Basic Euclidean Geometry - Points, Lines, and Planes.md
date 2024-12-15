@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=JHMB_ob89qs)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=JHMB_ob89qs
+---
 - ![[Screenshot 2023-10-30 at 4.25.26 PM.png]]
 	- We refer geometry in Ancient Greece as [[Euclidian Geometry]]
 		- Built upon Pythagoras

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=cWgRiFxxvvA)
-
+---
+Source:
+  - https://youtube.com/watch?v=cWgRiFxxvvA
+---
 - ![[Screenshot 2023-05-08 at 8.48.16 AM.png]]
 	- A proof is an argument that uses logic, definition, properties and previously proven statements to show that a conclusion is TRUE.
 	- If we've solved an equation in Algebra, we've done a proof.

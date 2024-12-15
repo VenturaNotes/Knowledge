@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fARJwGqdbKQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=fARJwGqdbKQ
+---
 index.js
 ``` javascript
 // How to accept user input

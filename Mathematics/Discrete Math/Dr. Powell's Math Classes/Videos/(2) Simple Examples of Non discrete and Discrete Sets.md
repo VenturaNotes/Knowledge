@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=oTZ-QQVdCp8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=oTZ-QQVdCp8
+---
 - ![[Screenshot 2023-10-11 at 12.57.22 AM.png]]
 	- [[Topology]] and [[discrete topology]]
 	- A topology on set A is a collection of subsets of A that are in the [[power set]] of A

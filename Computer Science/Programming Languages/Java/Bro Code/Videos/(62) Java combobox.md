@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=EAxV_eoYrIg)
-
+---
+Source:
+  - https://youtube.com/watch?v=EAxV_eoYrIg
+---
 ```java
 import java.awt.*;
 import java.awt.event.*;

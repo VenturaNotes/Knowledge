@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jfnTwz79PWU)
-
+---
+Source:
+  - https://youtube.com/watch?v=jfnTwz79PWU
+---
 - ![[Screenshot 2023-03-13 at 2.13.14 AM.png]]
 	- Every 1 to 1 function needs to have an inverse
 	- To find the points of the inverse of a function, just reverse the points x and y.

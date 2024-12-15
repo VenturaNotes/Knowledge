@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=8cNsaSAkcys)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=8cNsaSAkcys
+---
 - ![[Screenshot 2024-01-07 at 3.19.35 PM.png]]
 	- Practice Using [[truth table|truth tables]]
 		- Review of Truth Tables [^1]

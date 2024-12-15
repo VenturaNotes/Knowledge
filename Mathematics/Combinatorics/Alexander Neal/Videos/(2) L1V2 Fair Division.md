@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=O2fX7UAlKVI)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=O2fX7UAlKVI
+---
 - ![[Screenshot 2023-09-08 at 9.12.31 AM.png|500]]
 	- Given 5 numbers, we want to divide them evenly, fairly, into 2 groups
 	- The goal is to find a way to sum the numbers together so that the left side is equal to the right side

@@ -1,5 +1,7 @@
-[06:09:48](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=22188s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=22188s
+---
 - A very important characteristic of a line is its <mark style="background: #FFF3A3A6;">slope</mark> or steepness
 	- ![[Screenshot 2023-02-08 at 10.27.55 AM.png|200]]
 		- For every 10 miles you travel, the road is dropping by a mile.

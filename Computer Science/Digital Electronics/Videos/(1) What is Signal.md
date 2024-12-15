@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=M0mx8S05v60)
-
+---
+Source:
+  - https://youtube.com/watch?v=M0mx8S05v60
+---
 - Course called digital logic and designing
 - What is signal?
 	- ![[Screenshot 2022-12-22 at 11.13.22 AM.png]]

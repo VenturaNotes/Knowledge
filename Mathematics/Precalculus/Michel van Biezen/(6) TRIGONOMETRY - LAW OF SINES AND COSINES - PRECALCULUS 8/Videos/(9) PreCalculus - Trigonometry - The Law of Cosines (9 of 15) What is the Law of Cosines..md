@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=c0ST5JH-PiU)
-
+---
+Source:
+  - https://youtube.com/watch?v=c0ST5JH-PiU
+---
 - ![[Screenshot 2023-06-10 at 10.36.16 PM.png]]
 	- [[Law of cosines]]
 		- Great for [[Side-Side-Side]]

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=r6AgkFX3JH8)
-
+---
+Source:
+  - https://youtube.com/watch?v=r6AgkFX3JH8
+---
 index.js
 ```javascript
 // nested functions = Functions inside other functions.

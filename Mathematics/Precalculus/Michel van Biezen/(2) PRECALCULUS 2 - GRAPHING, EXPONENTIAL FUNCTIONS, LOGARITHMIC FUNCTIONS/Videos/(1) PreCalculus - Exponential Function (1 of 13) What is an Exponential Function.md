@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=cmndAPrgrSE)
-
+---
+Source:
+  - https://youtube.com/watch?v=cmndAPrgrSE
+---
 - ![[Screenshot 2023-05-14 at 7.47.12 PM.png]]
 	- An exponential function is a function where the independent variable is the exponent
 		- Standard Form

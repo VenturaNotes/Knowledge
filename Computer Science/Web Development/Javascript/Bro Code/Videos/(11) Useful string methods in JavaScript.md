@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=bwqy8RZxrS4)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=bwqy8RZxrS4
+---
 index.js
 ```javascript
 // useful string properties & methods

@@ -1,5 +1,7 @@
-[15:03:52](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=54232s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=54232s
+---
 - ![[Screenshot 2023-03-16 at 2.47.13 PM.png]]
 	- Will learn how to write a polynomial as a product
 		- This process is known as factoring which is reversing the distributive property

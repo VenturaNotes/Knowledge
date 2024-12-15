@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=gqkBaonNSjI)
-
+---
+Source:
+  - https://youtube.com/watch?v=gqkBaonNSjI
+---
 - ![[Screenshot 2023-02-18 at 4.13.46 PM.png]]
 	- Instruction
 		- Use Cramer's rule to solve the system

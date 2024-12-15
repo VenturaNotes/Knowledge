@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HAoL5fPmgrw)
-
+---
+Source:
+  - https://youtube.com/watch?v=HAoL5fPmgrw
+---
 ---
 - ![[Screenshot 2023-04-15 at 10.51.34 PM.png]]
 - Linear Equations

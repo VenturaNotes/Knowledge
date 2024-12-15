@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=eFJBAs_9PDc)
-
+---
+Source:
+  - https://youtube.com/watch?v=eFJBAs_9PDc
+---
 - ![[Screenshot 2023-08-03 at 12.52.22 PM.png]]
 	- How to find the mass of a particular constituent in a sample
 		- Should use a ratio equation

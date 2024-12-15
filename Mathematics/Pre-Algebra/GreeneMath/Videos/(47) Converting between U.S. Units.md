@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=u_v4_kGCwfU) (unavailable)
-[14:28:47](https://www.youtube.com/watch?v=VXzm8ReImG0&t=52127s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=52127s
+---
 - Lesson Objective:
 	- Learn how to change between [[U.S. units of measurement]]
 - Let's start by looking at the relationship between a few common units of measurement:

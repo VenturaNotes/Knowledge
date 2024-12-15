@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=P8uoP-JFj54)
-
+---
+Source:
+  - https://youtube.com/watch?v=P8uoP-JFj54
+---
 - ![[Screenshot 2023-03-04 at 5.56.49 AM.png]]
 	- Find appropriate number of solutions for whatever polynomial we're dealing with
 	- Helps with u-sub from calc 2

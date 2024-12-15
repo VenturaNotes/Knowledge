@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=I-wjYgRyAg0)
-
+---
+Source:
+  - https://youtube.com/watch?v=I-wjYgRyAg0
+---
 - ![[Screenshot 2023-09-08 at 11.53.45 AM.png]]
 	- [[The first principle of enumeration]]
 		- Observation: If a project can be considered as a sequence of n tasks which are carried out in order, and for each i, the number of ways to do Task i is $m_i$, then the total number of ways the project can be done is:

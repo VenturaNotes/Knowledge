@@ -1,5 +1,7 @@
-[0:00:00](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=0s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=0s
+---
 - ![[Screenshot 2023-02-19 at 10.06.10 PM.png]]
 	- The exponent is sometimes called the power
 	- If the exponent is "n", the base is multiplied by itself n times

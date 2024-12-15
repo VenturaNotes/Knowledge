@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=IpQv2XNJf_Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=IpQv2XNJf_Q
+---
 index.js
 ```javascript
 // setTimeout() = invokes a function after a number of milliseconds            

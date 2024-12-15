@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=q3zmcFvHxP4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=q3zmcFvHxP4
+---
 - ![[Screenshot 2024-01-24 at 9.03.16 PM.png]]
 	- function f(x)
 		- Can we plug [[algebraic term|algebraic terms]] into the function?

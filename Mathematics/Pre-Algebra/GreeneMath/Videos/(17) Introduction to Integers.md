@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ldXU2-I3XEU) (unavailable)
-[04:17:08](https://www.youtube.com/watch?v=VXzm8ReImG0&t=15428s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=15428s
+---
 - Lesson Objectives
 	- Discover a new set of numbers known as the [[integers]]
 	- Use the number line to determine the relationship between integers

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=gPnWm-IXoAY)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=gPnWm-IXoAY
+---
 - ![[Screenshot 2023-07-17 at 5.28.20 AM.png]]
 	- [[Vector multiplication]]
 	- [[Vector dot product]]

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=OUN6Gp_H3q4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=OUN6Gp_H3q4
+---
 - ![[Screenshot 2023-12-27 at 11.30.36 PM.png]]
 	- [[Natural experiment]]
 	- Lifetime income = f(military participation, Lifetime income potential)

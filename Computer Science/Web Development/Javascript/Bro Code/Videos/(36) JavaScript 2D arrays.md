@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=k5o7AOwc7sY)
-
+---
+Source:
+  - https://youtube.com/watch?v=k5o7AOwc7sY
+---
 index.js
 ```javascript
 // 2D array = An array of arrays

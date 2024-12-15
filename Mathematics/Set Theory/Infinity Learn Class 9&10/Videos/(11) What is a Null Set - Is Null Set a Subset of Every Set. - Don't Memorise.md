@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=BhFgcf0VSYc)
-
+---
+Source:
+  - https://youtube.com/watch?v=BhFgcf0VSYc
+---
 - ![[Screenshot 2023-03-30 at 1.48.23 PM.png]]
 	- Null set is {} or $\varnothing$ with no elements inside it
 	- Sensory organs of book (ears, eyes...) are nonexistent which means this scenario would represent an empty set.

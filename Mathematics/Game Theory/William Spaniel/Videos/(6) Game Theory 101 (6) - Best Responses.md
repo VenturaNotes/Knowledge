@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=VuDutyTs_r8)
-
+---
+Source:
+  - https://youtube.com/watch?v=VuDutyTs_r8
+---
 ## The Game
 - Two generals have three units
 - They simultaneously decide how many units they should allocate to an upcoming battle.

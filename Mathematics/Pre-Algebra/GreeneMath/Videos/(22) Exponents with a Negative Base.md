@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=FJJ9hJvVajk)
-[05:52:29](https://www.youtube.com/watch?v=VXzm8ReImG0&t=21149s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=21149s
+---
 - [[Exponent|Exponents]] with an integer base
 - Lesson Objective
 	- Learn how to perform operations with exponents that have an integer base

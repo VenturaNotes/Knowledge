@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=C0qhgTbtkS0)
-
+---
+Source:
+  - https://youtube.com/watch?v=C0qhgTbtkS0
+---
 index.js
 ```javascript
 // array = think of it as a variable 

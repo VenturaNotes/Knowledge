@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=y-bSJaEonho)
-
+---
+Source:
+  - https://youtube.com/watch?v=y-bSJaEonho
+---
 - ![[Screenshot 2023-03-06 at 8.56.06 PM.png]]
 	- Fractions = Domain Problems!
 		- If the denominator of a rational function = 0, we get a domain problem (discontinuity) at that value of 'x!'

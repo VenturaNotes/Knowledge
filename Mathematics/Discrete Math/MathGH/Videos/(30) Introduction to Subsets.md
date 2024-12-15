@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=RyWlssfr4LQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=RyWlssfr4LQ
+---
 - ![[Screenshot 2024-01-07 at 5.06.06 PM.png]]
 	- [[Subsets]]
 		- Description [^1]

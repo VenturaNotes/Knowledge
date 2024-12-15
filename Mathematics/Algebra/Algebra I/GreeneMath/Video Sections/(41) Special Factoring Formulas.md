@@ -1,5 +1,7 @@
-[16:53:43](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=60823s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=60823s
+---
 - ![[Screenshot 2023-03-17 at 1.31.42 AM.png]]
 	- Factoring the [[difference of two squares]]
 		- $(x+y)(x-y)=x^2-y^2$

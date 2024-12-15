@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fvEQujUcPv4)
-
+---
+Source:
+  - https://youtube.com/watch?v=fvEQujUcPv4
+---
 ## Matching Pennies
 - You and a friend simultaneously reveal a penny
 - If both pennies show heads or both show tails, your friend has to pay you $1.

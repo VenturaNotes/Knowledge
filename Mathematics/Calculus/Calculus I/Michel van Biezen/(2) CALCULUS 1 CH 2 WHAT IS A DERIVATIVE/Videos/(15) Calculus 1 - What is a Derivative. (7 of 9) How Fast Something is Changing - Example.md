@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=9fqAUjYRly0)
-
+---
+Source:
+  - https://youtube.com/watch?v=9fqAUjYRly0
+---
 - ![[Screenshot 2023-08-04 at 3.11.05 PM.png]]
 	- Want to find how fast V is changing as a function of h
 		- We have a container in the shape of a cone. It's filled up with water up to a certain height "h". The radius at that point is equal to "r" and the volume of the amount of water we have is equal to $V = \frac {1}{3}(\pi R^2)h$

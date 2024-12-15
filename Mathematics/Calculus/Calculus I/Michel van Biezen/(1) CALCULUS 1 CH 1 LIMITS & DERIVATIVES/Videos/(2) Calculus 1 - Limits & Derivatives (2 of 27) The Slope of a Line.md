@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=723jsxCO7Oc)
-
+---
+Source:
+  - https://youtube.com/watch?v=723jsxCO7Oc
+---
 - ![[Screenshot 2023-04-27 at 3.03.16 AM.png]]
 	- When x=a, the tangent line touches the function f(x)
 		- Tangent line only touches function at one location

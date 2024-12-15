@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HsJa1YViS3o)
-
+---
+Source:
+  - https://youtube.com/watch?v=HsJa1YViS3o
+---
 - ![[Screenshot 2023-06-11 at 1.59.29 AM.png]]
 	- [[Polar Coordinates]]
 		- Coordinates are (r,$\theta$)

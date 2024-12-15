@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ffVnpeW2XZE)
-
+---
+Source:
+  - https://youtube.com/watch?v=ffVnpeW2XZE
+---
 - ![[Screenshot 2023-04-06 at 10.39.38 PM.png]]
 	- Congruent Supplements Theorem
 		- T.3) If two angles are supplements of the same angle, then they are congruent.

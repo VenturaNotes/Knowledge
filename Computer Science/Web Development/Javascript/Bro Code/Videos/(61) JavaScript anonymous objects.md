@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ooWY5oiDkDo)
-
+---
+Source:
+  - https://youtube.com/watch?v=ooWY5oiDkDo
+---
 index.js
 ```javascript
 // ananymous objects = Objects without a name

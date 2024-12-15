@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=EceJQ05KTf4)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=EceJQ05KTf4
+---
 - Outline
 	- HTML
 	- CSS

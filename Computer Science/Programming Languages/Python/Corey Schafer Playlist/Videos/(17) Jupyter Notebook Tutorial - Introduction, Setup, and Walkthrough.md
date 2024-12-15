@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HW29067qVWk)
-
+---
+Source:
+  - https://youtube.com/watch?v=HW29067qVWk
+---
 - Run code interactively within a web browser
 	- Alongside visualizations and markdown text to explain process of what's going on
 	- Evolved from IPython
@@ -167,7 +169,7 @@ plt.show()
 	- Can time our python code
 	- ![[Screenshot 2022-12-27 at 1.13.43 AM.png]]
 - Allows us to view panda data frames
-	- ![[Computer Science/Programming Languages/Python/Corey Schafer Playlist/Videos/Attachments/Screenshot 2022-12-27 at 1.15.01 AM.png]]
+	- ![[Computer Science/Programming Languages/Python/Corey Schafer Playlist/Videos/- Attachments/Screenshot 2022-12-27 at 1.15.01 AM.png]]
 
 ## Exporting Files
 - File -> Download as -> Markdown, HTML, PDF via LaTeX, and Notebook are all options

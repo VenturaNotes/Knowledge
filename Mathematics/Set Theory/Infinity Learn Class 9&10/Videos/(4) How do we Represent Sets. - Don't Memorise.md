@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DfFBEnwmx80)
-
+---
+Source:
+  - https://youtube.com/watch?v=DfFBEnwmx80
+---
 - ![[Screenshot 2023-03-28 at 8.08.17 PM.png]]
 	- Write the first 3 natural numbers
 		- [[Set-builder notation]] ^c3decb

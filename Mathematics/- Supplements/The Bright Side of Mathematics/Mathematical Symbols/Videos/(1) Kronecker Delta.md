@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=GMHnj1MS-IE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GMHnj1MS-IE
+---
 - ![[Screenshot 2023-07-10 at 9.39.57 PM.png]]
 	- [[Kronecker delta]]
 		- $\delta_{ij}$ 

@@ -1,5 +1,7 @@
-[02:44:51](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=9891s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=9891s
+---
 - Solving a [[word Problem]]: ^6be7c4
 	- (1) Read the problem carefully and determine what you are asked to find
 	- (2) Assign a variable to represent the unknown

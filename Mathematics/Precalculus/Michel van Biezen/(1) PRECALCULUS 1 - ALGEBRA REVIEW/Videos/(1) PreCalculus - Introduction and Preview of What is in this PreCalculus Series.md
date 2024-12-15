@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=W-Zxdsbr0Gw)
-
+---
+Source:
+  - https://youtube.com/watch?v=W-Zxdsbr0Gw
+---
 - Series of Videos (Theory + Some Examples)
 - Topics Covered
 	- Fundamental topics in Algebra

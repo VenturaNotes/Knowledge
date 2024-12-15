@@ -1,5 +1,7 @@
-[3:33:02](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=12782s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=12782s
+---
 - ![[Screenshot 2023-02-21 at 8.14.31 PM.png|400]]
 	- Quadratic in standard form
 		- $y = ax^2 + bx + c$

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-hYaXsZjRe8)
-
+---
+Source:
+  - https://youtube.com/watch?v=-hYaXsZjRe8
+---
 ```C
 #include <stdio.h>
 #include <stdbool.h>  

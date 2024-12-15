@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=SVvr3ZjtjI8)
-
-
+---
+Source:
+  - https://www.youtube.com/watch?v=SVvr3ZjtjI8
+---
 - Algorithms + cheat codes
 - Instead of memorizing code, memorize the patterns
 	- Great resource for checking up to date interview questions[^1] #archive

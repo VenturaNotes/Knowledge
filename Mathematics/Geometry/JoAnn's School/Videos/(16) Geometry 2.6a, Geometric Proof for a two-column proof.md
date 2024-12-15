@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=wLVm0wLtIas)
-
+---
+Source:
+  - https://youtube.com/watch?v=wLVm0wLtIas
+---
 - ![[Screenshot 2023-05-08 at 9.17.46 AM.png]]
 	- When writing a geometric proof, we use deductive reasoning to make a chain of logical steps that move from the hypothesis to the conclusion of the conjecture we are proving
 	- By proving that the conclusion is true, we have proven that the original conjecture is true.

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Ri8LCEfxZag)
-
+---
+Source:
+  - https://youtube.com/watch?v=Ri8LCEfxZag
+---
 index.js
 ```javascript
 // add/change HTML elements

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=x_M1E6lMo8k)
-
+---
+Source:
+  - https://youtube.com/watch?v=x_M1E6lMo8k
+---
 index.js
 ```javascript
 // ternary operator = Shortcut for an 'if/else statement'

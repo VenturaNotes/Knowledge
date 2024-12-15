@@ -1,5 +1,7 @@
-[05:02:08](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=18128s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=18128s
+---
 - A [[linear equation]] in two variables is an equation of the form:
 	- ax + by = c
 	- a, b, and c are real numbers

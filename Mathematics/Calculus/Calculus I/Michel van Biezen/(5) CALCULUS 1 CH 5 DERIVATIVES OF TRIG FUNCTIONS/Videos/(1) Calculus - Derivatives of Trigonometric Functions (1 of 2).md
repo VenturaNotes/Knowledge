@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jM1PpWuM0AY)
-
+---
+Source:
+  - https://youtube.com/watch?v=jM1PpWuM0AY
+---
 - ![[Screenshot 2023-10-06 at 2.01.19 PM.png]]
 	- Derivatives of [[trigonometric functions]]
 		- $\frac {d}{dx} sin(x) = cos(x)$

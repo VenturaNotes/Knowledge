@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=2PNwoGMJN2w)
-
+---
+Source:
+  - https://youtube.com/watch?v=2PNwoGMJN2w
+---
 - ![[Screenshot 2023-07-15 at 8.39.35 PM.png]]
 	- 12 questions where you write down the matrix that represents a given transformation
 	- 30 seconds between questions

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5UY_McpxEYQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=5UY_McpxEYQ
+---
 - Say whether or not each graph represents a function
 - ![[Screenshot 2022-12-27 at 6.14.23 AM.png]]
 - An equation is any expression with an equal sign

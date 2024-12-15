@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=-HyMP0WlSZc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=-HyMP0WlSZc
+---
 - ![[Screenshot 2024-01-07 at 4.36.42 PM.png]]
 	- Review of [[Set operations]]
 		- Each and every [[subset]] A is in a [[universe]] U

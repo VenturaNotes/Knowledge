@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=XQ_4mghJwdY)
-
+---
+Source:
+  - https://youtube.com/watch?v=XQ_4mghJwdY
+---
 - ![[Screenshot 2023-10-10 at 11.53.46 AM.png]]
 	- The derivative of ln(x) = $\frac 1x$ 
 		- Consequently, [[integral]] of $\frac 1x$ = ln|x| + C [^1]

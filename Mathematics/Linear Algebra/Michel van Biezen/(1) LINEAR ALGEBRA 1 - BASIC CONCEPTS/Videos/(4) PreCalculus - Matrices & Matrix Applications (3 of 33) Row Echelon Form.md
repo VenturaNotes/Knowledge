@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=AaMIgwKtShQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=AaMIgwKtShQ
+---
 - ![[Screenshot 2023-06-11 at 4.16.26 AM.png]]
 	- Method of [[Gauss's Method|Gaussian elimination]]
 	- [[Row Echelon Form]]

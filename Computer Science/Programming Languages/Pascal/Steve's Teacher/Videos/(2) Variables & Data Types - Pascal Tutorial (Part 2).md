@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=GJPZTO5Yffw)
-
+---
+Source:
+  - https://youtube.com/watch?v=GJPZTO5Yffw
+---
 - Delphi community edition is free for the first year
 	- File $\rightarrow$ New $\rightarrow$ Console Application
 	- .dproj extension important (similar to .pas for pascal)

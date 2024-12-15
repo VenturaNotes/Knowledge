@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=JYboz7v2vrU)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=JYboz7v2vrU
+---
 - Counting Methods: Counting by Systematic Listing: One-part tasks and two-part tasks
 ---
 - Counting!

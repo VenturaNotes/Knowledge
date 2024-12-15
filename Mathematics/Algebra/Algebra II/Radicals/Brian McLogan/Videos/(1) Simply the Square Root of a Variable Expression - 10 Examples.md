@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=XQCWSqNN69Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=XQCWSqNN69Q
+---
 - Examples 1 and 2
 	- ![[Screenshot 2023-02-18 at 11.51.05 PM.png]]
 		- For problem #2, since we're taking the even root and ending outside radical has an odd power, place absolute value around it to make sure that it does represent a positive value.

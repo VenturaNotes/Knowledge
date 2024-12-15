@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=WRkgMDVIETE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=WRkgMDVIETE
+---
 - ![[Screenshot 2023-10-17 at 1.52.03 AM.png]]
 	- Solving [[Quadratic|quadratics]]
 		- [[Factor]]

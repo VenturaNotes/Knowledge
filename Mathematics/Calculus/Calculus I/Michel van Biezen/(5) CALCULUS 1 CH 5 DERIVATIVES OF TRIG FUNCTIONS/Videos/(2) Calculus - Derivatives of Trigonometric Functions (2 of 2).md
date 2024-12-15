@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=0RKN0abCVKs)
-
+---
+Source:
+  - https://youtube.com/watch?v=0RKN0abCVKs
+---
 - ![[Screenshot 2023-10-08 at 10.03.31 PM.png]]
 	- Errata
 		- Solution for 2nd problem was incorrect ($xtanx$ was forgotten)

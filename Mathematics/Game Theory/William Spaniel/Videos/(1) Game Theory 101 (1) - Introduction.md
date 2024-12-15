@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=NSVmOC_5zrE)
-
+---
+Source:
+  - https://youtube.com/watch?v=NSVmOC_5zrE
+---
 ## What is Game Theory?
 - Definition: the study of strategically interdependent behavior
 	- Strategic interdependence: what I do affects your outcomes and what you do affects my outcomes.

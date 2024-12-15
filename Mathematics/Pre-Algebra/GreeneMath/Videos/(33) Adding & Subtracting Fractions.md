@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=fK5Tl4IlwqM) (unavailable)
-[09:54:41](https://www.youtube.com/watch?v=VXzm8ReImG0&t=35681s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=35681s
+---
 - Lesson Objectives
 	- Learn how to add/subtract fractions with a [[common denominator]]
 	- Learn how to find the LCD of two or more fractions

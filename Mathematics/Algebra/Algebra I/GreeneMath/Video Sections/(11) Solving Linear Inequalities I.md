@@ -1,5 +1,7 @@
-[04:00:57](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=14457s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=14457s
+---
 - < less than
 	- Strict
 - $\leq$ less than or equal to

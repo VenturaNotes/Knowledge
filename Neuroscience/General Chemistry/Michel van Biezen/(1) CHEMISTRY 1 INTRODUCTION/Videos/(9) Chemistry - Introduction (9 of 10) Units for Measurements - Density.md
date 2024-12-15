@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=LJ_nuotItqo)
-
+---
+Source:
+  - https://youtube.com/watch?v=LJ_nuotItqo
+---
 - ![[Screenshot 2023-07-25 at 7.18.44 PM.png]]
 	- [[Density]] is the ratio of [[mass]] over [[volume]]
 		- Units typically used are g/$cm^3$ 

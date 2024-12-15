@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=s8rsR_TStaA)
-
+---
+Source:
+  - https://youtube.com/watch?v=s8rsR_TStaA
+---
 - Syllabus
 	- 1) Introduction
 		- definitions and classifications

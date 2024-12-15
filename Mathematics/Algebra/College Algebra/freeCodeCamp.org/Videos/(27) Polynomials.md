@@ -1,5 +1,7 @@
-[3:41:11](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=13271s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=13271s
+---
 - Intro
 	- Polynomials and their graphs
 	- A polynomial is a function such as $f(x) = 3x^4 - 2x^3 -7x^2 + 6x + 7$ whose terms are numbers times powers of x

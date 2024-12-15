@@ -1,5 +1,7 @@
-[5:19:27](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=19167s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=19167s
+---
 - Intro
 	- Solving Exponential Equations - Applications
 		- Population growth and radioactive decay

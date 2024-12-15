@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=90YviIiO0eU) (unavailable)
-[00:57:43](https://www.youtube.com/watch?v=VXzm8ReImG0&t=3463s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=3463s
+---
 - Adding [[Whole Numbers]] using a Number Line
 - Lesson Objective:
 	- Learn how to add whole numbers using a [[number line]]

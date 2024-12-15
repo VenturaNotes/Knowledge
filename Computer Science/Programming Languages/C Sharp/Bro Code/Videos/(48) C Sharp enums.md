@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=3p0OJErAbEI)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=3p0OJErAbEI
+---
 - [[enums]]: Special "class" that contains a set of named integer constants
 	- Use enums when you have values that you know will not change,
 	- To get the integer value from an item, you must explicitly convert to an int

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=K-vP-7KZUyQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=K-vP-7KZUyQ
+---
 index.js
 ```javascript
 // spread operator = allows an iterable such as an 

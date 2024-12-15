@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=3rWiCdo6224)
-
+---
+Source:
+  - https://youtube.com/watch?v=3rWiCdo6224
+---
 - ![[Screenshot 2023-04-06 at 8.56.11 PM.png]]
 	- When 2 line segments have the same length they are congruent (they do not need to be parallel)
 	- Length of $\overline {AB}$ is the same as the length of $\overline {CD}$ 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tACXuzfXzSI)
-
+---
+Source:
+  - https://youtube.com/watch?v=tACXuzfXzSI
+---
 - Definition
 	- Let p and q be propositions. The proposition "if p then q" denoted by p $\rightarrow$ q is called implication or conditional statement.
 	- ![[Screenshot 2023-01-02 at 7.05.33 PM.png]]

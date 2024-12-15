@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=dA94zyaLuhk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=dA94zyaLuhk
+---
 - ![[Screenshot 2023-10-30 at 5.56.26 PM.png]]
 	- Defining angles as a concept
 	- The door and wall form an angle

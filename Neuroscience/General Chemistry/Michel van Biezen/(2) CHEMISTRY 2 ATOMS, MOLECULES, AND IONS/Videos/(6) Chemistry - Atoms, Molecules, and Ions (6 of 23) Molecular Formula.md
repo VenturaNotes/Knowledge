@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=s3sUyF1xHuc)
-
+---
+Source:
+  - https://youtube.com/watch?v=s3sUyF1xHuc
+---
 - ![[Screenshot 2023-07-26 at 12.37.25 PM.png]]
 	- [[Molecular formula]] shows the exact number of atoms of each element in a molecule
 		- $H_2$ means there are 2 hydrogen atoms in the molecule

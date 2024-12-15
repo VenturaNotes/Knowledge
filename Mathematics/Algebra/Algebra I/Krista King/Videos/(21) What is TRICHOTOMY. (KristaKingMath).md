@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5ehQWvzlFmI)
-
+---
+Source:
+  - https://youtube.com/watch?v=5ehQWvzlFmI
+---
 - ![[Screenshot 2023-01-08 at 2.34.37 PM.png]]
 	- Use trichotomy to describe the relationship
 	- Something we study with inequalities

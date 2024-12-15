@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=926oq1FhTeU) (unavailable)
-[02:34:24](https://www.youtube.com/watch?v=VXzm8ReImG0&t=9264s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=9264s
+---
 - [[Multiplication]] with [[trailing zeros]]
 - Lesson objective
 	- Learn how to multiply numbers with trailing zeros.

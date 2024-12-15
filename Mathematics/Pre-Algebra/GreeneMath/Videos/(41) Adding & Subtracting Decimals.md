@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ShvKb2PtR0c) (unavailable)
-[12:36:04](https://www.youtube.com/watch?v=VXzm8ReImG0&t=45364s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=45364s
+---
 - Lesson Objective
 	- Learn how to add and subtract [[decimal|decimals]]
 - To add/subtract decimals:

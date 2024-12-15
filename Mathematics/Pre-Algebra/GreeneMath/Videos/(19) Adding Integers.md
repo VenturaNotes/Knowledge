@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=6NQXbtcWntY) (unavailable)
-[04:52:21](https://www.youtube.com/watch?v=VXzm8ReImG0&t=17541s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=17541s
+---
 - Lesson Objectives:
 	- Learn how to add [[integers]] using a [[number line]]
 	- Learn how to add integers without a number line

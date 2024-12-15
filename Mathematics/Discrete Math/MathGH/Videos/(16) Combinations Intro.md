@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=EIpXtBjNMW4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=EIpXtBjNMW4
+---
 - ![[Screenshot 2024-01-04 at 11.33.51 PM.png]]
 	- [[Combination|Combinations]]
 		- Description [^1]

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=k0f7w4xTp1I)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=k0f7w4xTp1I
+---
 - Image
 	- Examples
 		- (1) "No square number ends in 8"

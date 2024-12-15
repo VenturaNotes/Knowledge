@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=KTdOJ0CfD70)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=KTdOJ0CfD70
+---
 - Image
 	- Turing machine examples
 	- Could represent a Turing machine with a [[state diagram]]

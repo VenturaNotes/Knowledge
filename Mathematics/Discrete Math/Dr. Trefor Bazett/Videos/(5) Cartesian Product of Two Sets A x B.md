@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ufjEv-5nmcA)
-
+---
+Source:
+  - https://youtube.com/watch?v=ufjEv-5nmcA
+---
 ## Ordered Pairs (a, b)
 - Order Matters
 - (a, b) = (c, d) if a=c & b=d

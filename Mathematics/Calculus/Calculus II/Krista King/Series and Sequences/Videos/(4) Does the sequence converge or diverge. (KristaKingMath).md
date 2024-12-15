@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=BknXGSoCNB0)
-
+---
+Source:
+  - https://youtube.com/watch?v=BknXGSoCNB0
+---
 - Determine whether the sequence converges. If it does, find its limit.
 	- ![[Screenshot 2022-12-09 at 5.36.38 PM.png]]
 		- For sequences only, we can reverse directions. Find limit first before whether it converges

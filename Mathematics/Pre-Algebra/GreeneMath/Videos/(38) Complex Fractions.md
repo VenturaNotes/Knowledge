@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=D9AJtegpAaY) (unavailable)
-[11:38:36](https://www.youtube.com/watch?v=VXzm8ReImG0&t=41916s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=41916s
+---
 - Lesson Objective
 	- Learn how to simplify a complex fraction using two different methods
 - A [[complex fraction]] is a fraction that contains at least one fraction in its numerator, or denominator:

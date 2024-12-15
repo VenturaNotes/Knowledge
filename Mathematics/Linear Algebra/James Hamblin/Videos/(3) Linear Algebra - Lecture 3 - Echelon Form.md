@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=x1CEVwn7Gnw)
-
+---
+Source:
+  - https://youtube.com/watch?v=x1CEVwn7Gnw
+---
 ---
 - "Triangular Form"
 	- Previously we discussed using row operations to put a matrix into "triangular form"

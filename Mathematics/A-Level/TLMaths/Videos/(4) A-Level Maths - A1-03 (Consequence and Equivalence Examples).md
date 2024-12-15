@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=xPKtMDF0Hy4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=xPKtMDF0Hy4
+---
 - ![[Screenshot 2023-05-09 at 9.49.31 AM.png]]
 	- If only one statement implies the other, we have a logical consequence
 	- If both statements imply each other, then we have a logical equivalence.

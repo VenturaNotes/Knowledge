@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mm9TY_q9i-k)
-
+---
+Source:
+  - https://youtube.com/watch?v=mm9TY_q9i-k
+---
 - ![[Screenshot 2023-06-11 at 6.13.16 AM.png]]
 	- [[hyperbola]]
 		- $|d_2 - d_1| = constant$

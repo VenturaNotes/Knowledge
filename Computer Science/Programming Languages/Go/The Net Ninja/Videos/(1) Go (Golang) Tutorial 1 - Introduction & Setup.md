@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=etSN4X_fCnM)
-
+---
+Source:
+  - https://youtube.com/watch?v=etSN4X_fCnM
+---
 - Information
 	- Go is a "fast, statically typed, compiled language"
 	- Go is a general purpose language

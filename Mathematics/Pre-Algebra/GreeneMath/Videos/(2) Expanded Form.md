@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ubU53JAZ2J8)
-[00:16:53](https://www.youtube.com/watch?v=VXzm8ReImG0&t=1013s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=1013s
+---
 - [[Expanded Notation]]
 - Lesson Objectives:
 	- Learn how to write a number in expanded notation

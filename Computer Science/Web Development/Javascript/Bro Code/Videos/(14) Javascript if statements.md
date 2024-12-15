@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vc3nuHdCp-A)
-
+---
+Source:
+  - https://youtube.com/watch?v=vc3nuHdCp-A
+---
 index.js
 ```javascript
 // if statement = a basic form of decision making

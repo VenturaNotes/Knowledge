@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=O-xIVcMyiyI)
-
+---
+Source:
+  - https://youtube.com/watch?v=O-xIVcMyiyI
+---
 ---
 - Famous subsets
 	- Subsets of the real number system

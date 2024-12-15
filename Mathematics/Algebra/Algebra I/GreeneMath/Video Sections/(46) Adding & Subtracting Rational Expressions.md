@@ -1,5 +1,7 @@
-[19:06:24](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=68784s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=68784s
+---
 - ![[Screenshot 2023-03-17 at 4.48.57 AM.png]]
 	- When there's a common denominator, we add/subtract numerators and place the result over the common denominator
 	- Practice/Examples

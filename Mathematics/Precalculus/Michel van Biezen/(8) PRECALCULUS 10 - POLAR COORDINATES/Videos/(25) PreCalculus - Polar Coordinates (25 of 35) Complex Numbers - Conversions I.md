@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=yf22lfJ1JCU)
-
+---
+Source:
+  - https://youtube.com/watch?v=yf22lfJ1JCU
+---
 - ![[Screenshot 2023-06-11 at 3.25.32 AM.png]]
 	- r is the [[modulus]]
 	- $\theta$ is the [[argument]]

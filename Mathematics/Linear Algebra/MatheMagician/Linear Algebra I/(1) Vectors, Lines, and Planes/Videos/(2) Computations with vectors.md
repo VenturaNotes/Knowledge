@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=gLnhpqajGb8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=gLnhpqajGb8
+---
 - ![[Screenshot 2023-09-28 at 8.57.33 PM.png]]
 	- [[Vector algebra]]
 	- Will learn how to add vectors and multiply them with a scalar

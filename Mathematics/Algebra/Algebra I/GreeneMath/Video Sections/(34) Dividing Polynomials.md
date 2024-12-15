@@ -1,5 +1,7 @@
-[13:53:38](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=50018s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=50018s
+---
 - ![[Screenshot 2023-03-15 at 6.37.35 PM.png]]
 	- Recall
 		- Dividing a [[polynomial]] by a monomial

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=M9s91hSoNtk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=M9s91hSoNtk
+---
 - ![[Screenshot 2023-12-28 at 12.32.57 AM.png]]
 	- [[population]] (encompasses all objects which have those particular characteristics)
 		- Examples

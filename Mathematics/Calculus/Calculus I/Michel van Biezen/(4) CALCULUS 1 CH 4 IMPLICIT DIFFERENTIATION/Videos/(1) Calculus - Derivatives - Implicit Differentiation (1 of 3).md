@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mUlxUso75q8)
-
+---
+Source:
+  - https://youtube.com/watch?v=mUlxUso75q8
+---
 - ![[Screenshot 2023-10-06 at 1.42.11 PM.png]]
 	- [[Implicit Differentiation]]
 		- Take the derivative with respect to x on both sides of the equation and then algebraically solve for dy/dx

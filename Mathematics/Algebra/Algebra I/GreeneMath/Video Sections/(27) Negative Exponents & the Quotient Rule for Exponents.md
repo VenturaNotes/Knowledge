@@ -1,5 +1,7 @@
-[10:48:18](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=38898s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=38898s
+---
 - What can we do if we see
 	- Will learn[[ negative exponents]], the [[power of zero]], and the [[quotient rule]] for exponents
 - ![[Screenshot 2023-02-19 at 2.53.10 AM.png|500]]

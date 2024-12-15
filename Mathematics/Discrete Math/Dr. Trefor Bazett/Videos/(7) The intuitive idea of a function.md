@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=G8qvOZ9DE3c)
-
+---
+Source:
+  - https://youtube.com/watch?v=G8qvOZ9DE3c
+---
 ## Functions
 - Ex: f(x) = $x^2$ 
 	- ![[Screenshot 2022-12-31 at 11.53.11 AM.png]]

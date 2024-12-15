@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Arb-LjPg7FA)
-
+---
+Source:
+  - https://youtube.com/watch?v=Arb-LjPg7FA
+---
 Arrays and Slices
 ```Go
 package main

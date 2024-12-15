@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=9px80y6V6Dg)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=9px80y6V6Dg
+---
 - ![[Pasted image 20231219142645.png]]
 	- What is [[computation]]?
 		- [[Turing machine]]

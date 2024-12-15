@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=bxGmjouB6t4)
-
+---
+Source:
+  - https://youtube.com/watch?v=bxGmjouB6t4
+---
 - ![[Screenshot 2023-05-14 at 2.47.48 AM.png]]
 	- Arithmetic Sequences
 		- A sequence where the difference between any 2 sequential terms is constant .... called the common difference "d"

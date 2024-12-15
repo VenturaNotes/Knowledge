@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=F3544ZyO-eU)
-
+---
+Source:
+  - https://youtube.com/watch?v=F3544ZyO-eU
+---
 - ![[Screenshot 2023-03-27 at 9.42.07 PM.png]] ^67341c
 	- Definition: $p \rightarrow$ q means:
 		- "if p is TRUE then q is TRUE"

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=CJ37J_Cdd8Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=CJ37J_Cdd8Q
+---
 ```C
 //"s" is for seed, "rand" is for random.
 // "srand(time(0))" is the current time as a seed for random numbers

@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=_QfaweIiYnw) (unavailable)
-[07:12:10](https://www.youtube.com/watch?v=VXzm8ReImG0&t=25930s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=25930s
+---
 - Lesson Objectives:
 	- Learn how to determine if a [[Whole Numbers|whole number]] is [[prime]], [[composite]], or neither
 	- Learn to write a whole number as the product of [[prime factors]]

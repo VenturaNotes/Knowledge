@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jz1TdJi3cR0)
-
+---
+Source:
+  - https://youtube.com/watch?v=jz1TdJi3cR0
+---
 - Our study of groups begins by analyzing a square and the actions that can return a square back to its <mark style="background: #FFF3A3A6;">original footprint</mark>
 - Rotations:
 	- ![[Screenshot 2023-01-10 at 10.36.57 PM.png]]

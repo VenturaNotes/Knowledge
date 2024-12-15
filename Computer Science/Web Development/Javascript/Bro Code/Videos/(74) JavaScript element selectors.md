@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=oDy-NpWWn0I)
-
+---
+Source:
+  - https://youtube.com/watch?v=oDy-NpWWn0I
+---
 index.js
 ```javascript
 /* 

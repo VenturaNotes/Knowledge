@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=q2eyZZK-OIk)
-
+---
+Source:
+  - https://youtube.com/watch?v=q2eyZZK-OIk
+---
 - A statement is a sentence that is either True or False
 	- Examples
 		- p: "5 > 2"

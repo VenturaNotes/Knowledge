@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jpp4kQ0q0FM)
-
+---
+Source:
+  - https://youtube.com/watch?v=jpp4kQ0q0FM
+---
 ## Course Overview
 - Major Parts:
 	- Linear Spaces

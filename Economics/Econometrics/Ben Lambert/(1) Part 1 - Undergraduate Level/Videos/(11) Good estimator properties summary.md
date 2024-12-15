@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=uh4zUdKvxPA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=uh4zUdKvxPA
+---
 - ![[Screenshot 2023-12-28 at 2.06.13 AM.png]]
 	- [[Estimator]]
 		- [[Unbiased]]: $E(\overset \wedge \beta) = \beta^P$ 

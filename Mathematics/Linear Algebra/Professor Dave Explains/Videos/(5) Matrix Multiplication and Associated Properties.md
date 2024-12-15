@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=P5GJJ02OG08)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=P5GJJ02OG08
+---
 - ![[Screenshot 2023-07-17 at 4.52.32 AM.png]]
 	- [[Matrix addition]]
 	- [[Matrix subtraction]]

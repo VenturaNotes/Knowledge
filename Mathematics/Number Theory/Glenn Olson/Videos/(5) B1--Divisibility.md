@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ao08N2D4LAk)
-
+---
+Source:
+  - https://youtube.com/watch?v=ao08N2D4LAk
+---
 - Divisibility is the foundation of number theory
 
 ## B1 - Divisibility Rules

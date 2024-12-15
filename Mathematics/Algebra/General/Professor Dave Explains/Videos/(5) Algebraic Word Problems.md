@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=jOJLfQq9ktw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=jOJLfQq9ktw
+---
 - ![[Screenshot 2023-05-15 at 3.57.30 AM.png]]
 	- Examples
 		- Sally is three years younger than twice the age of Gabby

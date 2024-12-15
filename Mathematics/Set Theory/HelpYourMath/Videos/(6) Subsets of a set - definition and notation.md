@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=nJxuk5PkLkA)
-
+---
+Source:
+  - https://youtube.com/watch?v=nJxuk5PkLkA
+---
 ---
 - Subset of a set
 	- A set, A, is a subset of set B if every element of A is also an element of B

@@ -1,5 +1,7 @@
-[4:38:15](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=16695s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=16695s
+---
 - Intro
 	- Will talk about their domains 
 - ![[Screenshot 2023-02-24 at 11.33.52 PM.png]]

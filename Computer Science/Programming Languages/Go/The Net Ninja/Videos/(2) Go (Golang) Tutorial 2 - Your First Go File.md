@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=RI9ngRqn9N4)
-
+---
+Source:
+  - https://youtube.com/watch?v=RI9ngRqn9N4
+---
 Code
 ```Go
 package main

@@ -1,5 +1,7 @@
-[21:40:14](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=78014s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=78014s
+---
 - ![[Screenshot 2023-03-24 at 4.22.09 PM.png]]
 	- We will begin with [[square root|square roots]]: Squaring a number means to multiply a number by itself:
 	- What if I gave you the following?

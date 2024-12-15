@@ -1,5 +1,7 @@
-[2:49:05](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=10145s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=10145s
+---
 - ![[Screenshot 2023-02-21 at 6.49.49 PM.png]]
 	- Definition
 		- A function is correspondence between input numbers (x-values) and output numbers (y-value) that sends each input number (x-value) to exactly one output number (y-value)

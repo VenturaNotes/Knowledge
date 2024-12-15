@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=SYu5YIYLDPE)
-
+---
+Source:
+  - https://youtube.com/watch?v=SYu5YIYLDPE
+---
 - ![[Screenshot 2023-06-06 at 12.58.03 PM.png]]
 	- [[Sound Intensity]] (decibel scale)
 	- Equation: $B = 10log \frac{I}{I_0}$

@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=4lQCCAfIsz8)
-[01:48:48](https://www.youtube.com/watch?v=VXzm8ReImG0&t=6528s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=6528s
+---
 - Lesson Objectives:
 	- Learn the basic parts of a multiplication problem
 	- Learn the commutative and [[associative property of multiplication]]

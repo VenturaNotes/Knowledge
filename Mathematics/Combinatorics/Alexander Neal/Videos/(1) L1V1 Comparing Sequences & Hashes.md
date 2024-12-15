@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fwrAypC51ds)
-
+---
+Source:
+  - https://youtube.com/watch?v=fwrAypC51ds
+---
 - ![[Screenshot 2023-09-06 at 10.11.47 PM.png]]
 - Are these two sequences the same?
 	- S = 101011011010111011000011000101010100

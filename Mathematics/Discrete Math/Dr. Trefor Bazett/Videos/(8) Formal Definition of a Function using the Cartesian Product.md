@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-a5FaFp87N4)
-
+---
+Source:
+  - https://youtube.com/watch?v=-a5FaFp87N4
+---
 - Definition: A function F between A and B is a relation between A and B such that:
 	- A relation is a subset of $A \times B$ 
 	- Properties

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ohNqQagkDDY)
-
+---
+Source:
+  - https://youtube.com/watch?v=ohNqQagkDDY
+---
 ```java
 import java.awt.GridLayout;
 import javax.swing.JButton;

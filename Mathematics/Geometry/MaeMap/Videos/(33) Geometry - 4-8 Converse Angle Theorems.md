@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DlfrIAZn76I)
-
+---
+Source:
+  - https://youtube.com/watch?v=DlfrIAZn76I
+---
 - Image
 	- Hypothesis implies conclusion to conclusion implies hypothesis
 		- p $\rightarrow$ q (conditional)

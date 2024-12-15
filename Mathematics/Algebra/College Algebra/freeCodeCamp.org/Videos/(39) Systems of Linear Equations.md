@@ -1,5 +1,7 @@
-[5:35:34](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=20134s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=20134s
+---
 - ![[Screenshot 2023-02-25 at 8.54.11 PM.png]]
 	- Linear equation can be rewritten as $y=mx+b$. It doesn't have any x or y squares in it.
 	- A system of linear equations is a collection of two or more linear equations

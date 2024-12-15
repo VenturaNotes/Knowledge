@@ -1,4 +1,7 @@
-[Video](https://youtube.com/watch?v=ccz-w2JMsTM) 
+---
+Source:
+  - https://youtube.com/watch?v=ccz-w2JMsTM
+---
 ## Representations
 - Different ways to represent conditional statements
 	- All of them should be represented as p $\rightarrow$ q

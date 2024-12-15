@@ -1,5 +1,7 @@
-[0:21:18](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=1278s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=1278s
+---
 - ![[Screenshot 2023-02-19 at 10.34.36 PM.png|200]]
 	- $\sqrt[x]{n}$
 		- This notation means the $n^{th}$ root of x

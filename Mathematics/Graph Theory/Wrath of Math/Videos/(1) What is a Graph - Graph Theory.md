@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ZQY4IfEcGvM)
-
+---
+Source:
+  - https://youtube.com/watch?v=ZQY4IfEcGvM
+---
 - ![[Screenshot 2023-06-13 at 1.12.19 AM.png]]
 	- [[Graph]] is called G
 		- Made of vertices and edges (which connect pairs of vertices)

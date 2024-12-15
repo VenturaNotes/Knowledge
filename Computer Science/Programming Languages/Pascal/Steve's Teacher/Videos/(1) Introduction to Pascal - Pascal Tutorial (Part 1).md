@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=yJf5uVL_xQ8)
-
+---
+Source:
+  - https://youtube.com/watch?v=yJf5uVL_xQ8
+---
 - Setup (by Julian Ventura)
 	- Add the extension "Pascal" on VSCode
 	- Download FreePascal from [here](https://www.freepascal.org/download.html)

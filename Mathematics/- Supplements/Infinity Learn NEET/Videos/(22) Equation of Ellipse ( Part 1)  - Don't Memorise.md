@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=da99zdE6nJc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=da99zdE6nJc
+---
 - ![[Screenshot 2023-10-26 at 9.56.53 AM.png]]
 	- [[Ellipse]]: Set of points such that the sum of distances of each point from two fixed points is constant
 		- Can also draw 2 axis of symmetry for ellipse (These axes can be on the x or y axis depending on orientation of ellipse)

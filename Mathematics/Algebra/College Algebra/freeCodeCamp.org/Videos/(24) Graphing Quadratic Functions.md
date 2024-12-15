@@ -1,5 +1,7 @@
-[3:23:54](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=12234s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=12234s
+---
 - ![[Screenshot 2023-02-21 at 7.55.53 PM.png]]
 	- Quadratic functions can be written in standard form or vertex form
 	- It always has a graph that looks like a parabola

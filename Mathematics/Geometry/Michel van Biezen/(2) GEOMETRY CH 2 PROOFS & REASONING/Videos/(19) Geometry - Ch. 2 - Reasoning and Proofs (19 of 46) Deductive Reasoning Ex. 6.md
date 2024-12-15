@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_9sAHYpGEsk)
-
+---
+Source:
+  - https://youtube.com/watch?v=_9sAHYpGEsk
+---
 - ![[Screenshot 2023-04-12 at 1.51.53 PM.png]]
 	- Which of the 4 conclusions is true?
 		- 1) John bought a hot dog

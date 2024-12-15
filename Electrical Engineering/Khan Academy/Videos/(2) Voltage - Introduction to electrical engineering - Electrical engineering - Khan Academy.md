@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=k9SwNST1eW0)
-
+---
+Source:
+  - https://youtube.com/watch?v=k9SwNST1eW0
+---
 - Voltage is a quantity
 	- Has to do with potential energy of electrical charges.
 	- This will be an intuitive description of what voltage means

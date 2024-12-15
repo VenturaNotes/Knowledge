@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=JL2DXGFO8S8)
-
+---
+Source:
+  - https://youtube.com/watch?v=JL2DXGFO8S8
+---
 - ![[Screenshot 2023-05-11 at 2.29.22 PM.png]]
 	- Goal: Prove Theorems about Rationals
 	- Informal Definition: n is a rational number if i is a fraction. Ex: $3/7$

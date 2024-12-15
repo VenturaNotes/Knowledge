@@ -1,5 +1,7 @@
-[04:40:20](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=16820s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=16820s
+---
 ## More Examples
 - ![[Screenshot 2023-02-07 at 7.40.41 PM.png]]
 - ![[Screenshot 2023-02-07 at 7.43.10 PM.png]]

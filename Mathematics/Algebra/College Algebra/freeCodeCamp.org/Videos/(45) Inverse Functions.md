@@ -1,5 +1,7 @@
-[6:29:32](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=23372s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=23372s
+---
 - ![[Screenshot 2023-02-26 at 11.22.53 PM.png]]
 	- The inverse of a function undoes what the function does.
 	- Inverse of tying your shoes would be to untie them.

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=CL13xV2dHCg)
-
+---
+Source:
+  - https://youtube.com/watch?v=CL13xV2dHCg
+---
 Loops
 ```Go
 package main

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ehBhxaKZPew)
-
+---
+Source:
+  - https://youtube.com/watch?v=ehBhxaKZPew
+---
 - ![[Screenshot 2023-06-06 at 1.37.21 PM.png]]
 	- [[3rd order polynomials]]
 		- It's possible to have 1, 2 or 3 roots

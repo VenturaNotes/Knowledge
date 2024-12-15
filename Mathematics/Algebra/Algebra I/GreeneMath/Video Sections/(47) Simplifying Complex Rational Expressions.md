@@ -1,5 +1,7 @@
-[19:38:06](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=70686s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=70686s
+---
 - ![[Screenshot 2023-03-17 at 5.29.06 AM.png]]
 	- A complex fraction is when there is a fraction in the numerator or a fraction in the denominator
 	- Parts of a complex fraction

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=UTuxHsaH-gQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=UTuxHsaH-gQ
+---
 - ![[Screenshot 2023-10-17 at 1.08.11 AM.png]]
 	- Solving [[Quadratic|quadratics]]
 	- Strategy 1: [[Factoring]]

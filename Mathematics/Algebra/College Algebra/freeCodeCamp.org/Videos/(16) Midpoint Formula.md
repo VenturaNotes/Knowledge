@@ -1,5 +1,7 @@
-[2:20:59](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=8459s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=8459s
+---
 - ![[Screenshot 2023-02-21 at 6.16.06 PM.png|400]]
 	- Midpoint Formula
 		- Helps us find the coordinates of the midpoint of a line segment as long as we know the coordinates of the endpoints 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ntJUB5ptpIw)
-
+---
+Source:
+  - https://youtube.com/watch?v=ntJUB5ptpIw
+---
 index.js
 ```javascript
 //An event is some action that the user or

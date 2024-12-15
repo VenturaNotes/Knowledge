@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-gTS6-E3WRk)
-
+---
+Source:
+  - https://youtube.com/watch?v=-gTS6-E3WRk
+---
 index.js
 ```javascript
 // promise = object that encapsulates the result of an asynchronous operation

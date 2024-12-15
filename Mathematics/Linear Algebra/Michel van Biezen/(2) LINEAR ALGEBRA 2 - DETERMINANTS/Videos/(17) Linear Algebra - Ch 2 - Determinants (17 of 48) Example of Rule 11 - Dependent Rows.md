@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7PrmPWfEiH4)
-
+---
+Source:
+  - https://youtube.com/watch?v=7PrmPWfEiH4
+---
 - ![[Screenshot 2023-07-31 at 9.19.48 AM.png]]
 	- A matrix with [[dependent rows]]
 		- If rows are dependent, |A| = 0

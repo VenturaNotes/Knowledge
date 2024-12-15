@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=0dzNlrNJYdc)
-
+---
+Source:
+  - https://youtube.com/watch?v=0dzNlrNJYdc
+---
 ## Relations
 - Example: a < b
 	- Compares two integers

@@ -1,5 +1,7 @@
-[0:55:37](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=3337s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=3337s
+---
 - ![[Screenshot 2023-02-19 at 11.25.15 PM.png|300]]
 	- A rational expression is a fraction usually with variables in it
 	- Will learn how to add, subtract, multiply, divide, and simplify to lowest terms

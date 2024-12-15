@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=QNq5tUim_0o)
-
+---
+Source:
+  - https://youtube.com/watch?v=QNq5tUim_0o
+---
 index.js
 ```javascript
 // break = breaks out of a loop entirely

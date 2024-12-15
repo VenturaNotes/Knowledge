@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=O0c671tcyUA)
-
+---
+Source:
+  - https://youtube.com/watch?v=O0c671tcyUA
+---
 - ![[Screenshot 2023-01-08 at 2.58.21 PM.png]]
 	- Use the zero theorem to find solutions to a quadratic equation
 	- Write terms of equation in descending order of degrees

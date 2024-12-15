@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=kbtn_oBb1e8)
-
+---
+Source:
+  - https://youtube.com/watch?v=kbtn_oBb1e8
+---
 ---
 - What is a set?
 	- A set is a collection of objects called elements.

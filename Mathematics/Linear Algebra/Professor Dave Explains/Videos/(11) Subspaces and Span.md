@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=tM4TDL9Hj8U)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=tM4TDL9Hj8U
+---
 - ![[Screenshot 2023-07-17 at 7.41.12 AM.png]]
 	- A [[subspace]] is a smaller set within a [[vector space]] that is itself a vector space
 	- Properties of Subspaces

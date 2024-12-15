@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=RadgU8XlZ-4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=RadgU8XlZ-4
+---
 - ![[Screenshot 2023-05-09 at 9.33.21 AM.png]]
 	- Logical consequence and equivalence
 		- Using particular arrows allowing us to show that one thing implies another and perhaps vice versa

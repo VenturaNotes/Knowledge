@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=RMegIVU1SlU)
-
+---
+Source:
+  - https://youtube.com/watch?v=RMegIVU1SlU
+---
 - ![[Screenshot 2023-08-23 at 7.53.19 PM.png]]
 	- Find the center and radius of the [[circle]]
 		- $x^2 + 2x + y^2 = 4$

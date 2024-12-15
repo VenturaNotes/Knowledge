@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ZUAD16jff6M)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=ZUAD16jff6M
+---
 - ![[Screenshot 2023-12-13 at 4.25.08 PM.png]]
 	- Slide 1
 		- Average rates of change

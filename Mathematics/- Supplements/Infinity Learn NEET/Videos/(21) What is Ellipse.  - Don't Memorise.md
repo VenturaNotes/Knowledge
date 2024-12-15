@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=nzwCInIMlU4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=nzwCInIMlU4
+---
 - ![[Screenshot 2023-10-25 at 7.36.30 PM.png]]
 	- [[Whispering gallery]] (one at Grand Central Terminal in New York)
 		- By standing on opposite sides of the room and the ceiling is an elliptical shape, you'll be able to hear a friend whisper.

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=JTgWbq-S6Zc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=JTgWbq-S6Zc
+---
 - ![[Screenshot 2023-10-16 at 6.40.04 PM.png]]
 	- [[Inductive reasoning]]
 		- Logically true

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Yk588n0UaGY)
-
+---
+Source:
+  - https://youtube.com/watch?v=Yk588n0UaGY
+---
 - Pairs of angles can have special relationships
 - The relationships could be because of the measures of the angles in the pair, or because of the positions of the pair of angles
 - [[Adjacent angles]] are two angles in the same plane with a <mark style="background: #FFF3A3A6;">common vertex</mark> and a <mark style="background: #FFF3A3A6;">common side</mark>

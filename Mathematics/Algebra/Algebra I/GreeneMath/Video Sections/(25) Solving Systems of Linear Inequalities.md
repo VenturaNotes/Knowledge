@@ -1,5 +1,7 @@
-[10:12:38](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=36758s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=36758s
+---
 - So far we have seen how to graph a [[linear inequality]] in two variables such as:
 	- 4x - y > 2
 		- Solving for y makes it easier to shade for us

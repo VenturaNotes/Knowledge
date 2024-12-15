@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=nzc44rWWKLs) (unavailable)
-[11:04:36](https://www.youtube.com/watch?v=VXzm8ReImG0&t=39876s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=39876s
+---
 - Lesson Objective
 	- Learn how to determine if two ratios represent a [[proportion]]
 - Equality test for fractions

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jRL9ag3riJY)
-
+---
+Source:
+  - https://youtube.com/watch?v=jRL9ag3riJY
+---
 - In digital signals, we discretize both time and magnitude
 	- By discretization, we need to divide the time axis in equal intervals
 		- If $\triangle t$ is the interval, then we can find it with

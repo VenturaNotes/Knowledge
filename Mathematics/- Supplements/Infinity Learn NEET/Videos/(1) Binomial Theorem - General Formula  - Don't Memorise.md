@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=MDaHBKx1IyE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=MDaHBKx1IyE
+---
 - ![[Screenshot 2023-10-16 at 1.14.01 PM.png]]
 	- [[Pascal's Triangle]]
 		- Each term is the sum of the other 2 terms above it

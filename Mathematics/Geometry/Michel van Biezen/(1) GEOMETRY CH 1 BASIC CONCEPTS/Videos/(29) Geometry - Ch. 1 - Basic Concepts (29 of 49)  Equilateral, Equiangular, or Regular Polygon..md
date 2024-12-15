@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DUsOJ_igUUk)
-
+---
+Source:
+  - https://youtube.com/watch?v=DUsOJ_igUUk
+---
 - ![[Screenshot 2023-04-10 at 11.03.39 PM.png]]
 	- Equilateral: All sides are congruent
 	- Equiangular: All angles in the interior are congruent

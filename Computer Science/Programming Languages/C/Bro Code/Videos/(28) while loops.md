@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ufFAFx5Qn3w)
-
+---
+Source:
+  - https://youtube.com/watch?v=ufFAFx5Qn3w
+---
 ```C
  // the while loop is to ensure that the user has input a name and that it is not empty
 

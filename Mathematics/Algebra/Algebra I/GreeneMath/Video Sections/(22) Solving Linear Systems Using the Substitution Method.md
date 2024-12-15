@@ -1,5 +1,7 @@
-[08:51:42](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=31902s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=31902s
+---
 - In the last lesson, we talked about how we could solve a linear system in two variables using graphing.
 - Graphing is extremely inefficient. It's hard to find a solution for:
 	- Large numbers

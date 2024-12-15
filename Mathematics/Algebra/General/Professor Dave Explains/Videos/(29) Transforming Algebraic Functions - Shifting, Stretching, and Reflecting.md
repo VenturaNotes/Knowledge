@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=MkP1LJR2PyM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=MkP1LJR2PyM
+---
 - ![[Screenshot 2024-01-24 at 9.44.03 PM.png]]
 	- We know how to graph functions
 	- [[Parabola]] example: $f(x) = x^2$ 

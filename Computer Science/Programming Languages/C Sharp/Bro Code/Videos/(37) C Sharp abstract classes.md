@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=06BrbJm7Sho)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=06BrbJm7Sho
+---
 - [[Abstract Classes]]: Modifier that indicates missing components or incomplete implementation
 	- So we should not be able to instantiate objects from that class itself (adds a little bit of security)
 

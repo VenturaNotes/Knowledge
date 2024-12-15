@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=UqB4EgUxapM)
-
+---
+Source:
+  - https://youtube.com/watch?v=UqB4EgUxapM
+---
 ```C
 // w: write (overrites any existing data)
 // a: append

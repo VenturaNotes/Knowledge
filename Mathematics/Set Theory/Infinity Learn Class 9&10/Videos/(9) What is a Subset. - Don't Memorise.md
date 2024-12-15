@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_9Wvu-R04go)
-
+---
+Source:
+  - https://youtube.com/watch?v=_9Wvu-R04go
+---
 - ![[Screenshot 2023-03-30 at 1.33.07 PM.png]]
 	- Chocolate, butterscotch, and vanilla
 	- All sets (None, Any one, Any two, and Three) are all part of the main set {c, b, v}

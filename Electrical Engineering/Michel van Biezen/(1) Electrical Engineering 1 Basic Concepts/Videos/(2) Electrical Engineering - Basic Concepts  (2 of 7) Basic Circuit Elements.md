@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=X_KWJ_MinOU)
-
+---
+Source:
+  - https://youtube.com/watch?v=X_KWJ_MinOU
+---
 - Symbols represent real devices
 - Resistor
 	- ![[Screenshot 2023-01-08 at 4.56.19 PM.png]]

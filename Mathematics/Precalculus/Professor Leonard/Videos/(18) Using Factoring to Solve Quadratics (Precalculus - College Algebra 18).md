@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=u2CFHYJWS60)
-
+---
+Source:
+  - https://youtube.com/watch?v=u2CFHYJWS60
+---
 - ![[Screenshot 2023-03-04 at 4.00.01 AM.png]]
 	- Zero product property
 	- Quadratic has first term positive and expression has terms with degrees in descending order

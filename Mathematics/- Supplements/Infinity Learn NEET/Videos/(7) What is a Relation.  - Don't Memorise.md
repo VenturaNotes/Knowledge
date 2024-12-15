@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=hV1_wvsdJCE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=hV1_wvsdJCE
+---
 - ![[Screenshot 2023-10-16 at 4.38.21 PM.png]]
 	- [[Relation]]
 		- Gives a set of [[ordered pair|ordered pairs]] that satisfy a relationship

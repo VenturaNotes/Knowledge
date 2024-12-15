@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=X68JmClzap4)
-
+---
+Source:
+  - https://youtube.com/watch?v=X68JmClzap4
+---
 Using Functions
 ```Go
 package main

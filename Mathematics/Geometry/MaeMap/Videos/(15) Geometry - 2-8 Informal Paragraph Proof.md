@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=AFjurI-1gqY)
-
+---
+Source:
+  - https://youtube.com/watch?v=AFjurI-1gqY
+---
 - ![[Screenshot 2023-04-06 at 9.08.13 PM.png]]
 	- Segment Addition Postulate
 		- P.8)

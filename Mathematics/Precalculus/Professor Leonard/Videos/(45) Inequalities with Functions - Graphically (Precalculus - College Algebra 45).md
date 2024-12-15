@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=bngBtS7RBZ4)
-
+---
+Source:
+  - https://youtube.com/watch?v=bngBtS7RBZ4
+---
 - ![[Screenshot 2023-03-07 at 5.06.16 PM.png]]
 	- f(x) $\ge$ 0 f(x) $\lt$ 0
 		- On what portion of the x-axis is your function above it or below it

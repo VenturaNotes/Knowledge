@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=wAEPokhj5Q4)
-
+---
+Source:
+  - https://youtube.com/watch?v=wAEPokhj5Q4
+---
 ```java
 // Scanner is a java utility pack
 import java.util.Scanner;

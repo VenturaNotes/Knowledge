@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=N1k25doMFww)
-
+---
+Source:
+  - https://youtube.com/watch?v=N1k25doMFww
+---
 - ![[Screenshot 2023-03-14 at 12.19.31 AM.png]]
 	- Compound Interest
 		- $A = P(1 + \frac rn)^{nt}$

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=vSoK3VEvpdQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=vSoK3VEvpdQ
+---
 - ![[Screenshot 2024-01-05 at 12.47.02 AM.png]]
 	- [[Permutation|permutations]]
 		- Description [^1]

@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=jwNNA8Eo68g) (unavailable)
-[08:28:02](https://www.youtube.com/watch?v=VXzm8ReImG0&t=30482s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=30482s
+---
 - Simplifying Fractions
 	- Reducing a [[fraction]] to its smallest terms
 - Lesson Objective

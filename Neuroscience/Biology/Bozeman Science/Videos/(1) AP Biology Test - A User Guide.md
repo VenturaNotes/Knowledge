@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=4BDkfQgGXLY)
-
+---
+Source:
+  - https://youtube.com/watch?v=4BDkfQgGXLY
+---
 ## Score Distribution
 - You will get an envelope in the mail in the summer which will show you what your score is.
 - This is the distribution of the scores on the 2010 test

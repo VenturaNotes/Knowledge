@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7VM571tSKC0)
-
+---
+Source:
+  - https://youtube.com/watch?v=7VM571tSKC0
+---
 ```c
 //anything you pass into a function is known as an argument (in main)
 //parameters are what the function needs to be executed (in birthday)

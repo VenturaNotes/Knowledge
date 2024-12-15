@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=E2Y_mAcLAYE)
-
+---
+Source:
+  - https://youtube.com/watch?v=E2Y_mAcLAYE
+---
 - ![[Screenshot 2023-01-08 at 2.21.42 PM.png]]
 	- Simplify the expression with PEMDAS (helps us remember order of operations to do the arithmetic)
 		- Parentheses

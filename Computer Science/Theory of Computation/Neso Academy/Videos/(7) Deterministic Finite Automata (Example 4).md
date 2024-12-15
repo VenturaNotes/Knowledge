@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Fpmr1nHqYrw)
-
+---
+Source:
+  - https://youtube.com/watch?v=Fpmr1nHqYrw
+---
 - How to figure out what a DFA recognizes
 - ![[Screenshot 2023-01-05 at 8.28.47 AM.png]]
 	- L = {accepts the string 01 or a string of at least one '1'} followed by a '0'}

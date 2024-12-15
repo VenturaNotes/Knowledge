@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HVQMHiSaVps)
-
+---
+Source:
+  - https://youtube.com/watch?v=HVQMHiSaVps
+---
 - ![[Screenshot 2023-07-27 at 7.22.28 PM.png]]
 	- Rules of a [[determinant]]
 		- (1) If c is a [[constant]] and A is an $n \times n$ Matrix

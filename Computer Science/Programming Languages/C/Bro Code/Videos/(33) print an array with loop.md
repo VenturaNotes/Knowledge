@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=shLeCvDQYp4)
-
+---
+Source:
+  - https://youtube.com/watch?v=shLeCvDQYp4
+---
 ```C
 // sizeof operator is in bytes
 #include <stdio.h>

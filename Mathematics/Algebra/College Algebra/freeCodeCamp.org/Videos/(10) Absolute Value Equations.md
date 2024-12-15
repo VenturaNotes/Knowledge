@@ -1,5 +1,7 @@
-[1:37:01](https://www.youtube.com/watch?v=LwCRRUa8yTU&t=5821s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=5821s
+---
 - ![[Screenshot 2023-02-20 at 9.31.29 PM.png]]
 	- Absolute value of a positive number is a positive number
 	- Absolute value of a negative number is its opposite

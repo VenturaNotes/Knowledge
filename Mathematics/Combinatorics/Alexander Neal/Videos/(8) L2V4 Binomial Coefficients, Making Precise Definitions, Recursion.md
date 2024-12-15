@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=wCfdGsXipRI)
-
+---
+Source:
+  - https://youtube.com/watch?v=wCfdGsXipRI
+---
 - ![[Screenshot 2023-09-08 at 1.05.36 PM.png]]
 	- [[binomial coefficient|binomial coefficients]]
 		- [[In Line Notation]]

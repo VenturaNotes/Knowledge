@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=62GkrXiXdDQ) (unavailable)
-[12:13:31](https://www.youtube.com/watch?v=VXzm8ReImG0&t=44011s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=44011s
+---
 - Lesson Objectives
 	- Learn the place values to the right of the decimal point
 	- Learn how to compare two or more decimals and determine their rank

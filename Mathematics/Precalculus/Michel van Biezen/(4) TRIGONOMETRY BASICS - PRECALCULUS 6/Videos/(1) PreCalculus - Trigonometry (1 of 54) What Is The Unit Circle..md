@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=e2kzTfNM7hU)
-
+---
+Source:
+  - https://youtube.com/watch?v=e2kzTfNM7hU
+---
 - ![[Screenshot 2023-06-10 at 3.20.19 PM.png]]
 	- Trigonometry is the relationship between the sides of a triangle
 	- Angle between hypotenuse of the triangle and one of the sides is $\theta$ 

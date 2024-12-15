@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=w1mah-sjWUc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=w1mah-sjWUc
+---
 - [[String Interpolation]]
 	- Example
 		- `Console.WriteLine($"Your result: {num1} + {num2} = " + result);`

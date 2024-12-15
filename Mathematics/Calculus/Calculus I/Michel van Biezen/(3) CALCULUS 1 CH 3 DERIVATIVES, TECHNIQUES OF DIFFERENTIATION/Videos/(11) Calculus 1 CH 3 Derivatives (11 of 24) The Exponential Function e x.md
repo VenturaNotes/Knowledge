@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=2CFwiaNkrKU)
-
+---
+Source:
+  - https://youtube.com/watch?v=2CFwiaNkrKU
+---
 - ![[Screenshot 2023-10-04 at 12.12.43 AM.png]]
 	- [[Exponential Function]]
 	- [[Product rule]]

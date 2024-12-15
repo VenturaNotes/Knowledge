@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=YL-NNb4gojA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=YL-NNb4gojA
+---
 - ![[Screenshot 2023-12-28 at 2.23.08 AM.png]]
 	- [[Line of best fit]]
 		- We could fit a line such that we minimize the sum of distances of each point to the line

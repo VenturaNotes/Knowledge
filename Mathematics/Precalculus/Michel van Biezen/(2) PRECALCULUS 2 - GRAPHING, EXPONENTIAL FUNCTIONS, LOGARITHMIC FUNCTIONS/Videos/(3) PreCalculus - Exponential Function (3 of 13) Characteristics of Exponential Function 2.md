@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=PAq7jRsng0E)
-
+---
+Source:
+  - https://youtube.com/watch?v=PAq7jRsng0E
+---
 - ![[Screenshot 2023-05-14 at 7.54.34 PM.png]]
 	- Mirror function across y-axis
 		- $y = 2^{-x}$

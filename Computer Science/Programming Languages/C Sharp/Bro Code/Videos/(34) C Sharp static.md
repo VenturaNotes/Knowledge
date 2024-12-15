@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=8xcIy9cV-6g)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=8xcIy9cV-6g
+---
 - [[Static]]: Modifier to declare a static member, which belongs to the class itself rather than to any specific object
 	- Can't instantiate objects from "static" class
 

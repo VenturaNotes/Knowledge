@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=zoKRH_8KwEg)
-
+---
+Source:
+  - https://youtube.com/watch?v=zoKRH_8KwEg
+---
 - Let's recap what we have just learned about the symmetries of a square:
 	- Rotations
 		- 0$\degree$, $90 \degree$, $180\degree$, $270\degree$, $360 \degree$...

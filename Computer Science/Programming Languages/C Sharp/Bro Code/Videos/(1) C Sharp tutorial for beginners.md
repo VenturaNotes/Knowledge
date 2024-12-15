@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=r3CExhZgZV8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=r3CExhZgZV8
+---
 - You need to learn C#
 	- Flexible (console apps, web services, games)
 	- Great for aspiring game developers (Unity)

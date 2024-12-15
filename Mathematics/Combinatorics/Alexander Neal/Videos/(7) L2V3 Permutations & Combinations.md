@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=24gE-Wpy1qE)
-
+---
+Source:
+  - https://youtube.com/watch?v=24gE-Wpy1qE
+---
 - ![[Screenshot 2023-09-08 at 12.19.32 PM.png]]
 	- [[Permutation|Permutations]] - Repetition not allowed
 		- Among strings, permutations is one of the most important classes among classes.

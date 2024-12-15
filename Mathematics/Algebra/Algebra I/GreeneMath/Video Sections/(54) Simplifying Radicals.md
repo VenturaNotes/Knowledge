@@ -1,5 +1,7 @@
-[22:29:50](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=80990s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=80990s
+---
 - ![[Screenshot 2023-03-26 at 10.32.57 PM.png]]
 	- Let's begin by talking about the [[product rule]] for [[Radical|Radicals]]:
 		- for two non-negative real numbers a, and b:

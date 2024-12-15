@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=lz8zVJxRFX8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=lz8zVJxRFX8
+---
 - ![[Screenshot 2023-10-25 at 2.49.24 PM.png]]
 	- [[Slope]]
 		- A line's rate of change in the vertical direction

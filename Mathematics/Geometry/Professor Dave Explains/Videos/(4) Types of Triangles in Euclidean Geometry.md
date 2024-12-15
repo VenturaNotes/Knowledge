@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=lQ5AuNVjxhI)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=lQ5AuNVjxhI
+---
 - ![[Screenshot 2023-10-30 at 6.22.49 PM.png]]
 	- [[triangle|triangles]] have three sides
 	- What are the types of triangles?

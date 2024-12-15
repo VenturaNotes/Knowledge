@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=jTZs8bRoWxE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=jTZs8bRoWxE
+---
 - ![[Screenshot 2023-10-30 at 8.25.17 PM.png]]
 	- [[triangle|triangles]] have three sides
 	- Quadrilaterals have fours sides

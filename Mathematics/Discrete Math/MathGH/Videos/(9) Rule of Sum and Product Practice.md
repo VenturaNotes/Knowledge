@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=WPK80yoMwP4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=WPK80yoMwP4
+---
 - ![[Screenshot 2024-01-04 at 5.23.30 PM.png]]
 	- Rule of Sum and Product Practice
 		- [[Principle of Addition]] (Sum Rule of Counting)

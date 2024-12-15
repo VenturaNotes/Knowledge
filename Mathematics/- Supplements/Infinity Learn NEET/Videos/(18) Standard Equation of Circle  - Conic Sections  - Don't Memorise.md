@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=cyKFBmTjyio)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=cyKFBmTjyio
+---
 - ![[Screenshot 2023-10-25 at 7.11.53 PM.png]]
 	- [[Circle]]
 		- Collection of points

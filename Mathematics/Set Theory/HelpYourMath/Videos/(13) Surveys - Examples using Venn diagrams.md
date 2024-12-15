@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=G8mHKx1qNkA)
-
+---
+Source:
+  - https://youtube.com/watch?v=G8mHKx1qNkA
+---
 ---
 - ![[Screenshot 2023-05-14 at 3.52.33 AM.png|500]]
 - Surveys - Question 3

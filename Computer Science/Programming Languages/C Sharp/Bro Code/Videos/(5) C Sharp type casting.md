@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=uajWePMMs84)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=uajWePMMs84
+---
 - [[Type casting]] is converting a value to a different data type. Useful when we accept user input (string). Different data types can do different things.
 
 Code

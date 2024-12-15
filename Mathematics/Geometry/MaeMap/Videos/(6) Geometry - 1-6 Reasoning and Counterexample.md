@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=H_j6MZL1W28)
-
+---
+Source:
+  - https://youtube.com/watch?v=H_j6MZL1W28
+---
 - ![[Screenshot 2023-04-06 at 4.34.59 PM.png]]
 	- Conjecture - An educated guess based on what is known
 	- Inductive Reasoning - Process of using a number of specific examples to arrive at a conjecture

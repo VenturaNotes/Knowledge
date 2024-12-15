@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jLVKV5LJjaw)
-
+---
+Source:
+  - https://youtube.com/watch?v=jLVKV5LJjaw
+---
 - ![[Screenshot 2023-05-10 at 2.05.35 AM.png]]
 	- Ex: "Every integer has a larger integer"
 		- It's true since choose y = x + 1 $\in \mathbb{Z}$

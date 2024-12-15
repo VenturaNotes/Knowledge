@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vdtSCHzM_zs)
-
+---
+Source:
+  - https://youtube.com/watch?v=vdtSCHzM_zs
+---
 - ![[Screenshot 2023-06-06 at 1.25.26 PM.png]]
 	- [[Domain (Math)|domain]] is all values that x can be
 	- [[Range]] is all values that y can be

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=M13AmBUVQNc)
-
+---
+Source:
+  - https://youtube.com/watch?v=M13AmBUVQNc
+---
 ---
 - ![[Screenshot 2023-04-15 at 11.09.22 PM.png]]
 - Solving a System: Substitution

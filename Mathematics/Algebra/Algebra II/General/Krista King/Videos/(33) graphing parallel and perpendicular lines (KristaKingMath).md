@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=bdgg88slT6c)
-
+---
+Source:
+  - https://youtube.com/watch?v=bdgg88slT6c
+---
 - ![[Screenshot 2023-02-18 at 10.30.42 PM.png]]
 	- Instruction
 		- Graph the line, then find & graph a parallel and perpendicular line

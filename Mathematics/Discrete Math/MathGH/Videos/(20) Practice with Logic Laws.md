@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=WvRXl6KnhGA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=WvRXl6KnhGA
+---
 - ![[Screenshot 2024-01-05 at 1.24.21 AM.png]]
 	- Practice with logic laws
 		- The logic laws can be used to reduce complex logical statements or prove that two statements are logically equivalent

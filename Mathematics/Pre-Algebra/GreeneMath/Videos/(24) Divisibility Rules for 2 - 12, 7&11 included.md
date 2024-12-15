@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ai6TxuX_Zv8) (unavailable)
-[06:47:50](https://www.youtube.com/watch?v=VXzm8ReImG0&t=24470s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=24470s
+---
 - Lesson Objective:
 	- Learn how to determine if a number is [[divisible]] by:
 		- 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, or 12

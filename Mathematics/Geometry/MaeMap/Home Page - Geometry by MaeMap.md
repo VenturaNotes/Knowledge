@@ -39,7 +39,6 @@ tags:
 	- [[(30) Geometry - 4-5 Transversals]]
 	- [[(31) Geometry - 4-6 Corresponding Angles Postulate and Alternate Interior Theorem]]
 	- [[(32) Geometry - 4-7 Consecutive Interior and Alternate Exterior Theorem]]
-
 - Incomplete
 	- [[(33) Geometry - 4-8 Converse Angle Theorems]]
 	- [[(34) Geometry - 4-9 Perpendicular Transversal Theorem]]

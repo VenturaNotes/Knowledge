@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=uC0NJ3aJv5A)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=uC0NJ3aJv5A
+---
 - [[Conditional Operator]]: Used in conditional assignment if a condition is true/false
 	- (condition) ?  x : y
 

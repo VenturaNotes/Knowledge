@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=4hC8y9rVanw)
-
+---
+Source:
+  - https://youtube.com/watch?v=4hC8y9rVanw
+---
 - ![[Screenshot 2023-01-10 at 1.15.59 PM.png]]
 	- Find two sets A and B such that A $\in$ B and A $\subseteq$ B
 	- Empty set is a subset of every set.

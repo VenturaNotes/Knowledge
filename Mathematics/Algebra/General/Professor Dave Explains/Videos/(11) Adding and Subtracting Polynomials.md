@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=0aJBtUOXpsk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=0aJBtUOXpsk
+---
 - ![[Screenshot 2023-05-15 at 5.15.24 AM.png]]
 	- Polynomial
 		- Each term has a variable raised to an exponent

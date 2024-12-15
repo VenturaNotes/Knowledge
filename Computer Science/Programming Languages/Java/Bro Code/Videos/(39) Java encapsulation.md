@@ -1,4 +1,7 @@
-[Video](https://youtube.com/watch?v=eboNNUADeIc)
+---
+Source:
+  - https://youtube.com/watch?v=eboNNUADeIc
+---
 - Encapsulation adds a layer of security
 	- Other classes won't have direct access to these values
 - [[Encapsulation]]: attributes of a class will be hidden or private, can be accessed only through methods (getters & setters)

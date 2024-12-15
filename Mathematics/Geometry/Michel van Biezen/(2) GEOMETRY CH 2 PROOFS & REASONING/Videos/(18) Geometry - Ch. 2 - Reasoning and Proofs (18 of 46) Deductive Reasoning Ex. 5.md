@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vPyMXwozquc)
-
+---
+Source:
+  - https://youtube.com/watch?v=vPyMXwozquc
+---
 - ![[Screenshot 2023-04-12 at 1.48.18 PM.png]]
 	- John, Mary, Karl, Lina, Pete
 		- John can work any day except every other Monday and Wednesday

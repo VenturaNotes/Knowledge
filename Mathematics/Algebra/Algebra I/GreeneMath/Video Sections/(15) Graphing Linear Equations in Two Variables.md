@@ -1,5 +1,7 @@
-[05:42:07](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=20527s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=20527s
+---
 - Why would we want to graph a linear equation in two variables?
 	- Linear equations in two variables have an infinite number of solutions
 	- A graph gives us a visual representation of all solutions of the equation

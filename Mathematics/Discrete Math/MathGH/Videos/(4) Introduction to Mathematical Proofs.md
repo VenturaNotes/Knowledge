@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=9FYaVljPH-I)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=9FYaVljPH-I
+---
 - ![[Screenshot 2024-01-03 at 12.52.12 AM.png]]
 	- Introduction to [[proof|proofs]]
 		- Vocabulary

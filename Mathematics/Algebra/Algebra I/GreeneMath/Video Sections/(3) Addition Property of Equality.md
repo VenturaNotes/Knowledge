@@ -1,5 +1,7 @@
-[00:44:10](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=2650s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=2650s
+---
 - A [[term]] 
 	- could be 7, 1, 7x, $2xy$, $2x^4y^3z$ 
 - [[Algebraic expression]]

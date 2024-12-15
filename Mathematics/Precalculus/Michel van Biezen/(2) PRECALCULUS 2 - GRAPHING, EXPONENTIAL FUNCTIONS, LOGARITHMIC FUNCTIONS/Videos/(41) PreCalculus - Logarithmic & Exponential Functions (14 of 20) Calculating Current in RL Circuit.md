@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mrZQYYPIUdg)
-
+---
+Source:
+  - https://youtube.com/watch?v=mrZQYYPIUdg
+---
 - ![[Screenshot 2023-06-06 at 10.23.37 AM.png]]
 	- Circuit has a 100v battery
 	- Resistor of 20$\ohm$ 

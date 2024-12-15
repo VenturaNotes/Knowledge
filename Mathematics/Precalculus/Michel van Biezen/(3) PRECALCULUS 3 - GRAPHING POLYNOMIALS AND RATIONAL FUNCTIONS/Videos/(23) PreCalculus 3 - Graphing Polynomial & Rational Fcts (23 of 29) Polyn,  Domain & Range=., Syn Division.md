@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ugI73pO-gpk)
-
+---
+Source:
+  - https://youtube.com/watch?v=ugI73pO-gpk
+---
 - ![[Screenshot 2023-06-09 at 11.25.31 PM.png]]
 	- Method 3: [[Synthetic Division]]
 		- Can use this to slowly break the equation down as a product of binomials. Sort of like a method of factoring but using the method of synthetic division 

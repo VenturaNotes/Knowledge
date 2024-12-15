@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=AKJgo-WR_K4)
-
+---
+Source:
+  - https://youtube.com/watch?v=AKJgo-WR_K4
+---
 - ![[Screenshot 2023-03-06 at 2.22.15 AM.png]]
 	- Synthetic + Long Division of Polynomials
 	- Factor Theorem:

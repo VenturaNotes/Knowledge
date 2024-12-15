@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-4WUo4kJCVI)
-
+---
+Source:
+  - https://youtube.com/watch?v=-4WUo4kJCVI
+---
 - ![[Screenshot 2023-04-12 at 5.45.46 PM.png]]
 	- Building B is due west of building A
 	- Building A and B are on street 1

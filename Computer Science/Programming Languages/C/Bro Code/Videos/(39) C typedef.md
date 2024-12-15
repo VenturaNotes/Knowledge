@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=CI9dRTvzgqE)
-
+---
+Source:
+  - https://youtube.com/watch?v=CI9dRTvzgqE
+---
 ```C
 // you can use structs to assign each member in order.
 // Struct members are stored in the order they are declared.

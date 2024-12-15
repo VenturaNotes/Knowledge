@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=wifUq0fDqew)
-
+---
+Source:
+  - https://youtube.com/watch?v=wifUq0fDqew
+---
 index.js
 ```javascript
 // arrow function expression = compact alternative to a traditional function expression

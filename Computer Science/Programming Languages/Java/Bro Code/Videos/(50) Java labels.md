@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FR2UptJyaSM)
-
+---
+Source:
+  - https://youtube.com/watch?v=FR2UptJyaSM
+---
 ```java
 // You might want to add frame.setVisible(true) to be the very last line. 
 // Sometimes with Mac, the components won't appear until you resize the window

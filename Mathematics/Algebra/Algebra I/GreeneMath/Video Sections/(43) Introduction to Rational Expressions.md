@@ -1,5 +1,7 @@
-[17:52:52](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=64372s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=64372s
+---
 - ![[Screenshot 2023-03-17 at 4.15.14 AM.png]]
 	- The quotient of two integers, where the denominator is not zero is known as a rational number
 		- $\frac 12, \frac {-2}{5}, \frac 38$

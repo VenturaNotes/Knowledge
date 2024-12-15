@@ -1,5 +1,7 @@
-[12:15:31](https://youtu.be/GAN-jgzYsIo?t=44133)
-
+---
+Source:
+  - https://youtu.be/GAN-jgzYsIo?t=44133
+---
 - Recall the [[distributive property]]:
 	- ![[Screenshot 2023-02-19 at 4.14.12 AM.png]]
 - When we multiply two polynomials and neither is a [[monomial]], we multiply each term of the first polynomial by each term of the second [[polynomial]]. Could be a product of 2 [[binomial|binomials]]

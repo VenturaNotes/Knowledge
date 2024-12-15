@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=6aRJQNYYz4s)
-
+---
+Source:
+  - https://youtube.com/watch?v=6aRJQNYYz4s
+---
 - Union
 	- ![[Screenshot 2023-01-05 at 7.02.57 PM.png]]
 - Concatenation

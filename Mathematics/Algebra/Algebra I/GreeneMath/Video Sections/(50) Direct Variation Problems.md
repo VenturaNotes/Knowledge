@@ -1,5 +1,7 @@
-[21:07:37](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=76057s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=76057s
+---
 - ![[Screenshot 2023-03-19 at 11.49.35 PM.png]]
 	- y varies directly with x, if there is a constant k such that: y = kx
 		- k is the constant of variation

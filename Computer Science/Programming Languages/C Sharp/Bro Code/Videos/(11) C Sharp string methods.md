@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=BKYBiUAWZKM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=BKYBiUAWZKM
+---
 - [[C Sharp String Methods]]
 - [[C Sharp String Properties]]
 - To view more methods or properties, just do `<string name>.` and after the dot, the list will be there in visual studio

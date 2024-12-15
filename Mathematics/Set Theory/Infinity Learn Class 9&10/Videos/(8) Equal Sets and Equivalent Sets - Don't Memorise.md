@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=N_fZwQjsZvs)
-
+---
+Source:
+  - https://youtube.com/watch?v=N_fZwQjsZvs
+---
 - ![[Screenshot 2023-03-28 at 8.19.16 PM.png]]
 	- Two sets are equal when they have precisely the same elements (implying same number of elements as well)
 	- <mark style="background: #FFF3A3A6;">Order need not be same</mark>

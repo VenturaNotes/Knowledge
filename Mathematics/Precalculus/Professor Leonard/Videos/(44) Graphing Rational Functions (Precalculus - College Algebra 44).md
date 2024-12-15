@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=wHATRiYbPPA)
-
+---
+Source:
+  - https://youtube.com/watch?v=wHATRiYbPPA
+---
 - ![[Screenshot 2023-03-07 at 5.29.16 AM.png]]
 	- Steps for Graphing Rational Functions
 		- (1) Find Horizontal/Oblique Asymptote or end behavior

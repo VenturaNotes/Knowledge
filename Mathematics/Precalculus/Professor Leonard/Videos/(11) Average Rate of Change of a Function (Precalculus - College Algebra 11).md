@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=H5Y-ONkezDM)
-
+---
+Source:
+  - https://youtube.com/watch?v=H5Y-ONkezDM
+---
 - ![[Screenshot 2023-03-02 at 4.28.51 PM.png]]
 	- Average rate of change is the slope between 2 points on a curve (this is called the secant)
 		- Secant line finds the average slope between 2 points

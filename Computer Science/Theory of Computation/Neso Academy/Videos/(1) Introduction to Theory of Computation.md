@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=58N2N7zJGrQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=58N2N7zJGrQ
+---
 ## Introduction
 - One of the most fundamental courses of Computer Science
 	- This is [[theory of computation]]

@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=OebzXNveJJ0) (unavailable)
-[04:02:52](https://www.youtube.com/watch?v=VXzm8ReImG0&t=14572s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=14572s
+---
 - Lesson Objective
 	- Learn how to solve problems with multiple operations involved
 - [[Order of operations]]

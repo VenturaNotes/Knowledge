@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=L-ta6mIJQ0Y)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=L-ta6mIJQ0Y
+---
 - ![[Screenshot 2023-10-16 at 6.09.30 PM.png]]
 	- [[Polynomial function]]
 		- $f(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_2x^2 + a_1x + a_0$ 

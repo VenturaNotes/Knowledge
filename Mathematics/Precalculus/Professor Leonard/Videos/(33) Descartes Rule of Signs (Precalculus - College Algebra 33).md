@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-AW6Y1bL4KU)
-
+---
+Source:
+  - https://youtube.com/watch?v=-AW6Y1bL4KU
+---
 - ![[Screenshot 2023-03-06 at 3.02.41 AM.png]]
 	- [[Descartes Rule of Signs]]
 		- (1) Polynomial in order

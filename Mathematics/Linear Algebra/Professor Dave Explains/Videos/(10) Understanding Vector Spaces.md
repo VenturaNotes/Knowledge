@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=EP2ghkO0lSk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=EP2ghkO0lSk
+---
 - ![[Screenshot 2023-07-17 at 6.50.44 AM.png]]
 	- [[Vector space]]
 		- Sometimes called a linear space

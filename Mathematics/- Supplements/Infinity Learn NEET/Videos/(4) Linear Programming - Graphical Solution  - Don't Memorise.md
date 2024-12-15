@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=qQFAvPF2OSI)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=qQFAvPF2OSI
+---
 - ![[Screenshot 2023-10-16 at 4.00.06 PM.png]]
 	- [[Linear Programming]] Problems
 		- Meaning

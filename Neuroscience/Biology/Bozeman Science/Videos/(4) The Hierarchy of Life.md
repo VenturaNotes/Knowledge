@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7xpONWAj4Go)
-
+---
+Source:
+  - https://youtube.com/watch?v=7xpONWAj4Go
+---
 - ![[Screenshot 2024-01-29 at 3.16.10 AM.png]]
 	- [[Biology]] organized from very small to very large ([[biosphere]])
 		- Each different level is called a [[system]]

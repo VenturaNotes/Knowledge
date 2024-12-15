@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Wdjb_aV8biA)
-
+---
+Source:
+  - https://youtube.com/watch?v=Wdjb_aV8biA
+---
 - ![[Screenshot 2023-05-03 at 5.38.01 AM.png]]
 	- Which postulate or theorem justifies each statement?
 		- Postulate of Corresponding Angles

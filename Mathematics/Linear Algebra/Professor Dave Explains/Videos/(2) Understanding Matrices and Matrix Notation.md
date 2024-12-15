@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=y6bVhgmy2rw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=y6bVhgmy2rw
+---
 - ![[Screenshot 2023-07-17 at 3.47.20 AM.png]]
 	- [[Matrix notation]]
 	- Understanding Matrices and Matrix Notation

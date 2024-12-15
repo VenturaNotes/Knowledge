@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=b8BUFfgyjK4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=b8BUFfgyjK4
+---
 [[Escape Sequence]]
 - `\a`: Bell(alert)
 - `\b`: Backspace

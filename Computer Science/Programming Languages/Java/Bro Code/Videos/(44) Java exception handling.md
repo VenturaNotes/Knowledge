@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=adTDlH0lhaA)
-
+---
+Source:
+  - https://youtube.com/watch?v=adTDlH0lhaA
+---
 ```java
 import java.util.InputMismatchException;
 import java.util.Scanner;

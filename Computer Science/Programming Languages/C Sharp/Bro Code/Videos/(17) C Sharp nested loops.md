@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=WFzLcZk137s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=WFzLcZk137s
+---
 - [[Nested Loops]]: Loops inside of other loops. Uses vary. Used a lot in sorting algorithms
 
 Code

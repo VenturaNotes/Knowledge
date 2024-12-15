@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=KHZKgl_9o7M)
-
+---
+Source:
+  - https://youtube.com/watch?v=KHZKgl_9o7M
+---
 - ![[Screenshot 2023-03-02 at 5.12.06 PM.png]]
 	- A piecewise function gives you a function in pieces
 		- Need directions on how to use each piece of it

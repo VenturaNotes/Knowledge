@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=Y964Rpnesbk)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=Y964Rpnesbk
+---
 - Understanding points, lines, and planes
 - A [[point]] names a location, has no size and is labeled with a capital letter.
 	- $\bullet$ A

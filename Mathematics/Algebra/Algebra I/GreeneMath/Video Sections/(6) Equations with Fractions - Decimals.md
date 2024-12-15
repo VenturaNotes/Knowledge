@@ -1,5 +1,7 @@
-[01:50:33](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=6633s) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=6633s
+---
 - Solving a[[ Linear Equation]] with [[fraction|fractions]]
 	- Multiply both sides of the equation by the LCD of all fractions in the equation
 ## Examples

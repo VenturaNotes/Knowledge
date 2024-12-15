@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=3nUvTLoecOc)
-
+---
+Source:
+  - https://youtube.com/watch?v=3nUvTLoecOc
+---
 - ![[Screenshot 2023-08-04 at 2.31.27 PM.png]]
 	- Errata
 		- $P(x=10) = -0.01(10)^2 + 2(10) - 10 = 11$

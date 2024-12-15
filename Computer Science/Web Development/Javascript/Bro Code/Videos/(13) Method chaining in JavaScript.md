@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=YIp4fHeO8Rk)
-
+---
+Source:
+  - https://youtube.com/watch?v=YIp4fHeO8Rk
+---
 index.js
 ```javascript
 // method chaining = calling one method after another

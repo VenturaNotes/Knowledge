@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=zqIWNP_3DGY)
-
+---
+Source:
+  - https://youtube.com/watch?v=zqIWNP_3DGY
+---
 - ![[Pasted image 20230424165505.png]]
 	- Using Chords
 	- Geometric shapes

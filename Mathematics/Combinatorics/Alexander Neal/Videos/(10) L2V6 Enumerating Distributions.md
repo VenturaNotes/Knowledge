@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tqUnn5RuyRs)
-
+---
+Source:
+  - https://youtube.com/watch?v=tqUnn5RuyRs
+---
 - ![[Screenshot 2023-09-14 at 9.58.37 AM.png]]
 	- [[Enumerating Distributions]]
 		- Basic Enumeration Problem

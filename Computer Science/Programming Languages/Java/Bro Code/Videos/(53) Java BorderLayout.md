@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=PD6pd6AMoOI)
-
+---
+Source:
+  - https://youtube.com/watch?v=PD6pd6AMoOI
+---
 ```java
 import java.awt.BorderLayout;
 import java.awt.Color;

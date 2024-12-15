@@ -1,5 +1,7 @@
-[12:55:21](https://www.youtube.com/watch?v=GAN-jgzYsIo&t=46521s ) 
-
+---
+Source:
+  - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=46521s
+---
 - ![[Screenshot 2023-03-15 at 1.01.09 AM.png]]
 	- A binomial is a polynomial with 2 terms
 	- $(x+y)^2$

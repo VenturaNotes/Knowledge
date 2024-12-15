@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=IAWEyM9qQzU)
-
+---
+Source:
+  - https://youtube.com/watch?v=IAWEyM9qQzU
+---
 index.js
 ```javascript
 //array.filter() = creates a new array with all elements 

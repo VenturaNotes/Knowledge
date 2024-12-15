@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=l-6_KxN6nrU)
-
+---
+Source:
+  - https://youtube.com/watch?v=l-6_KxN6nrU
+---
 - ![[Screenshot 2023-04-06 at 11.06.38 PM.png]]
 	- Angle Addition Postulate
 		- P.11) If x is in the interior of $\angle ABC$, then the measure of $\angle ABC$ is equal to the sum of the measures of $\angle ABX and \angle XBC$ 

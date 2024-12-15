@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=0opZjsOsUt0)
-
+---
+Source:
+  - https://youtube.com/watch?v=0opZjsOsUt0
+---
 - ![[Screenshot 2023-10-27 at 8.44.04 PM.png]]
 	- What is the largest triangle that can fit in a semi circle?
 	- Equation of circle is $x^2 + y^2 = R^2$ 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=REHdL9K5hOY)
-
+---
+Source:
+  - https://youtube.com/watch?v=REHdL9K5hOY
+---
 - ![[Screenshot 2023-08-23 at 4.13.10 PM.png]]
 	- When classifying functions
 		- Must be as specific as possible with classification without forgetting to classify the entire function

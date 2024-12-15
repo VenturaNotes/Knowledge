@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=F_RiOHpQN44)
-
+---
+Source:
+  - https://youtube.com/watch?v=F_RiOHpQN44
+---
 index.js
 ```javascript
 // switch = statement that examines a value 

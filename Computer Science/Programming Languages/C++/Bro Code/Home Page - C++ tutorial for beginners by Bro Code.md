@@ -12,10 +12,10 @@ tags:
 	- [[(3) What is a const]]
 	- [[(4) What are namespaces]]
 	- [[(5) Typedef and type aliases]]
-- Incomplete
 	- [[(6) What are arithmetic operators]]
 	- [[(7) What is type conversion]]
 	- [[(8) How to accept user input in C++]]
+- Incomplete
 	- [[(9) Useful math related functions in C++]]
 	- [[(10) C++ Hypotenuse calculator practice program]]
 	- [[(11) What's an if statement]]

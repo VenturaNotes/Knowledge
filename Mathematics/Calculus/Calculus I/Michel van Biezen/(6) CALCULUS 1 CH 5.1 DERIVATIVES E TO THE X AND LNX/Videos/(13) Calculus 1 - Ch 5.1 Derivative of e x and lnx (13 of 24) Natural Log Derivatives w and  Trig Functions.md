@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Ca0SjS2B1FU)
-
+---
+Source:
+  - https://youtube.com/watch?v=Ca0SjS2B1FU
+---
 - ![[Screenshot 2023-10-10 at 12.13.42 PM.png]]
 	- Errata
 		- ![[Screenshot 2023-10-10 at 12.12.32 PM.png]]

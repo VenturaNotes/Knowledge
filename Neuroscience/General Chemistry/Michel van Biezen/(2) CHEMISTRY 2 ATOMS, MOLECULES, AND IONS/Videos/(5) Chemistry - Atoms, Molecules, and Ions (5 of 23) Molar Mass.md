@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=XP1SeP4ad8Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=XP1SeP4ad8Q
+---
 - ![[Screenshot 2023-07-26 at 12.10.33 PM.png]]
 	- How many moles in a 14.500g sample of He?
 	- What is the mass of 20 mol of silver atoms

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=kjzmaJPoaNc)
-
+---
+Source:
+  - https://youtube.com/watch?v=kjzmaJPoaNc
+---
 ```java
 import java.io.FileWriter;
 import java.io.IOException;

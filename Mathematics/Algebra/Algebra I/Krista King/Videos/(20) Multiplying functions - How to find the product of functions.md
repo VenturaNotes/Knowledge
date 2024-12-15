@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5de5FH48Kog)
-
+---
+Source:
+  - https://youtube.com/watch?v=5de5FH48Kog
+---
 - ![[Screenshot 2023-02-08 at 12.36.54 PM.png]]
 - When multiplying functions together
 	- fg(x)

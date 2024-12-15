@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=zNIDX-34lMk)
-
+---
+Source:
+  - https://youtube.com/watch?v=zNIDX-34lMk
+---
 index.js [^1]
 ```javascript
 let grades = [100, 50, 90, 60, 80, 70];

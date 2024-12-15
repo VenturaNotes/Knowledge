@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=I68O9oazLbo)
-
+---
+Source:
+  - https://youtube.com/watch?v=I68O9oazLbo
+---
 index.js
 ```javascript
 // Type Conversion = change the datatype of a value to another

@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=KGSEE4fiqCI) (unavailable)
-[14:52:08](https://www.youtube.com/watch?v=VXzm8ReImG0&t=53528s)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=VXzm8ReImG0&t=53528s
+---
 - Lesson Objective
 	- Learn how to convert between metric units
 - Commonly used metric units:

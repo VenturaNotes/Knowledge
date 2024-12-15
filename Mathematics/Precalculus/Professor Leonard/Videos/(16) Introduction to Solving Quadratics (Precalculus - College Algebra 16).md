@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=OIEkJaPgjKs)
-
+---
+Source:
+  - https://youtube.com/watch?v=OIEkJaPgjKs
+---
 - ![[Screenshot 2023-03-04 at 12.35.42 AM.png]]
 	- Quadratic expressions
 		- A is positive, opens upward

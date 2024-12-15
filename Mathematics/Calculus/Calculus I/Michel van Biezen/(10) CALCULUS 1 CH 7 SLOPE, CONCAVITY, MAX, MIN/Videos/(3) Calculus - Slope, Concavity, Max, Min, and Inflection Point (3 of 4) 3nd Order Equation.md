@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=pQT2fZRMcf4)
-
+---
+Source:
+  - https://youtube.com/watch?v=pQT2fZRMcf4
+---
 - ![[Screenshot 2023-10-27 at 8.21.12 PM.png]]
 	- Split into 3 regions that each needs to be evaluated
 	- Solving all the max, mins, inflection points, concavity and slope

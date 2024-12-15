@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=6yusB-muawU)
-
+---
+Source:
+  - https://youtube.com/watch?v=6yusB-muawU
+---
 - ![[Screenshot 2024-07-23 at 10.51.38 PM.png]]
 	- Main topic of course is [[topological space|topological spaces]]
 		- It is simply a set equipped with some additional structure which lets us talk about geometrical properties of the space

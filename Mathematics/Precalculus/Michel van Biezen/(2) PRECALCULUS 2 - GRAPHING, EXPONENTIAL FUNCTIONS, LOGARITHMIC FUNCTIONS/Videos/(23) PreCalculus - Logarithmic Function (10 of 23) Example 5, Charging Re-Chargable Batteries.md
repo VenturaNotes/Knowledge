@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jAthNOivjVM)
-
+---
+Source:
+  - https://youtube.com/watch?v=jAthNOivjVM
+---
 - ![[Screenshot 2023-06-06 at 9.04.28 AM.png]]
 	- How long does it take for a charge to replenish itself when we plug in a battery
 		- The rate at which a battery charges diminishes as it gets fuller.

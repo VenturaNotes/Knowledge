@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=QWf2jcznLsY)
-
+---
+Source:
+  - https://youtube.com/watch?v=QWf2jcznLsY
+---
 - ![[Screenshot 2024-01-29 at 2.03.47 AM.png]]
 	- The molecules of life
 		- We eat food and then the building blocks of that food we weave together to make living things
