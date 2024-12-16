@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=yrHVeRmtyd8)
-
+---
+Source:
+  - https://youtube.com/watch?v=yrHVeRmtyd8
+---
 - Simplify the expression
 	- ![[Screenshot 2022-12-25 at 7.51.51 PM.png]]
 		- We need to find the common denominator

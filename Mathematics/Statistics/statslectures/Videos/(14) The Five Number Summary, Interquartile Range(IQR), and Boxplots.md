@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=MXIU5pQi3UM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=MXIU5pQi3UM
+---
 - The Five Number Summary is a method of summarizing a distribution of data.
 	- (1) Minimum
 	- (2) First Quartile (Q1)

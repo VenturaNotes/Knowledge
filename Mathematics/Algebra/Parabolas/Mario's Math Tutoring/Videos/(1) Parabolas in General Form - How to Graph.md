@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=gZqwjG0-Dnc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=gZqwjG0-Dnc
+---
 - Video seems to cut short
 - ![[Screenshot 2023-05-19 at 1.39.27 AM.png]]
 	- x-coordinate of vertex of a parabola in standard form is found by doing $\frac {-b}{2a}$

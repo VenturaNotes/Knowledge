@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=SY0ixs-_IGc)
-
+---
+Source:
+  - https://youtube.com/watch?v=SY0ixs-_IGc
+---
 - ![[Screenshot 2023-01-10 at 1.54.40 PM.png]]
 	- Cardinality of Sets
 		- Straight bar around something is often used as a measure of magnitude

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=CG9JtSmqKz8)
-
+---
+Source:
+  - https://youtube.com/watch?v=CG9JtSmqKz8
+---
 - ![[Screenshot 2023-10-05 at 5.16.02 PM.png]]
 	- [[Domain (Math)|domain]]
 	- [[Continuity]]

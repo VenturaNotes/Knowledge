@@ -1,5 +1,7 @@
- [Video](https://www.youtube.com/watch?v=7mOYew7aJUA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=7mOYew7aJUA
+---
 - ![[Screenshot 2023-12-09 at 11.44.18 PM.png]]
 	- Given a set A with |A| = n, why is |$\mathcal{P}$(A)| = $2^n$ 
 		- [[Multiplication rule]]

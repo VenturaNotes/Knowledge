@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=N7Fn2Lw2Ttk)
-
+---
+Source:
+  - https://youtube.com/watch?v=N7Fn2Lw2Ttk
+---
 - ![[Screenshot 2023-05-09 at 2.27.44 PM.png]]
 	- Statistics is the science of collecting, classifying, presenting, and interpreting Data
 		- Collecting: Questions asked, sample group picked, choice of geometric location, etc.

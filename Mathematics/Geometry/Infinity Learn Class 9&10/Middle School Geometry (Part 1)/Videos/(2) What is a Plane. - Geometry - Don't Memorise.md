@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=bmiPMRPbGi4)
-
+---
+Source:
+  - https://youtube.com/watch?v=bmiPMRPbGi4
+---
 - ![[Screenshot 2023-04-03 at 12.15.37 AM.png]]
 	- Plane
 		- A flat surface and extends indefinitely in all directions.

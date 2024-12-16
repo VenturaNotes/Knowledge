@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1VSun4wX7UQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=1VSun4wX7UQ
+---
 - ![[Screenshot 2023-04-02 at 11.58.10 PM.png]]
 	- Line
 		- A thin straight mark made by a pencil or a marker and it extends indefinitely in both directions.

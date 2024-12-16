@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=06PsJYcl2dc)
-
+---
+Source:
+  - https://youtube.com/watch?v=06PsJYcl2dc
+---
 - A $\subseteq$ B
 	- This means that A may be equal to B
 	- Then we say that A is an improper subset of B

@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Q_7PR9kRXWs)
-
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Q_7PR9kRXWs
+---
 - Probability is about determining the likelihood of events
 - Independence of Events
 	- Two events are independent if they do not affect one another

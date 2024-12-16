@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fzh-jmeDOvw)
-
+---
+Source:
+  - https://youtube.com/watch?v=fzh-jmeDOvw
+---
 - Velocity problem to geometric picture
 - Distance as a function of Time
 - Average velocity is the slope of straight line

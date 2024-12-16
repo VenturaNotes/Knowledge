@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=IdTaA6iz3Mo)
-
+---
+Source:
+  - https://youtube.com/watch?v=IdTaA6iz3Mo
+---
 - Mathematical Induction - Method of proof
 	- It's just another tool in tool belt
 	- "proof by induction"

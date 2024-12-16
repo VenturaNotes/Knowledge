@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=shA9pppkwSs)
-
+---
+Source:
+  - https://youtube.com/watch?v=shA9pppkwSs
+---
 ---
 - ![[Screenshot 2023-05-16 at 3.36.56 AM.png]]
 	- [[Population (Statistics)|Population]]: All people or things that you are studying

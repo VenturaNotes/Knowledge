@@ -1,5 +1,10 @@
-[Video](https://www.youtube.com/watch?v=RSoRzTtwgP4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=RSoRzTtwgP4
+tags:
+  - type/video
+  - status/complete
+---
 - Example
 	- Strong
 		- "Billie's legs are noodles. The ends of her hair are poison needles. Her tongue is a bristly sponge, and her eyes are bags of bleach." - Kelly Link, Secret Identity

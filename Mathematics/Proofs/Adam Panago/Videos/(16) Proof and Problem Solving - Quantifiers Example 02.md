@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1yS8a-qMMVQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=1yS8a-qMMVQ
+---
 - Write a logical expression for the following statements:
 	- ![[Screenshot 2022-12-08 at 11.08.45 PM.png]]
 		- Whenever you use an arbitrary element $a \in \mathbb{R}$, should use the for all symbol

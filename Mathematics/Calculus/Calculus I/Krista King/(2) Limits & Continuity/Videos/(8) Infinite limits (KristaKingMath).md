@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7dpsjhFZiGA)
-
+---
+Source:
+  - https://youtube.com/watch?v=7dpsjhFZiGA
+---
 - ![[Screenshot 2023-10-03 at 10.46.01 PM.png]]
 	- [[Infinite limit]]
 		- Will confirm function has a [[vertical asymptote]] at x value that the limit approaches

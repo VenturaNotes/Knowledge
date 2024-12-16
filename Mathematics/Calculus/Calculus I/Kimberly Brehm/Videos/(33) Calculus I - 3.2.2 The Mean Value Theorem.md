@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=dg4SuoKxk3g)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=dg4SuoKxk3g
+---
 - ![[Screenshot 2023-05-27 at 11.18.59 AM.png]]
 	- The [[Mean Value Theorem]] (MVT)
 		- Let f be continuous on the closed interval $[a,b]$ and differentiable on the open interval $(a,b)$. Then there exists a number c in (a, b) such that $f'(c) = \frac {f(b)-f(a)}{b-a}$.

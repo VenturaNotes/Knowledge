@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=uPbBDToXjBw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=uPbBDToXjBw
+---
 - ![[Screenshot 2023-09-28 at 7.34.23 PM.png]]
 	- Our first example of a [[tensor]] which is the [[vector]]
 	- What is a vector? : 1. It's a list of numbers (or a one-dimensional array of numbers)

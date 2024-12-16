@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=kxH9WlHEers)
-
+---
+Source:
+  - https://youtube.com/watch?v=kxH9WlHEers
+---
 - ![[Screenshot 2023-05-09 at 2.50.36 PM.png]]
 	- Population: The whole set of individuals or objects to be analyzed
 	- Sample: A representative subset (of the population)

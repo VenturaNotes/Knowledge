@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1ozscvLm5uk)
-
+---
+Source:
+  - https://youtube.com/watch?v=1ozscvLm5uk
+---
 - ![[Screenshot 2023-06-05 at 11.04.12 PM.png]]
 	- How many elements are in {a, b, c}?
 	- The [[Cardinality]] of {a, b, c} is 3

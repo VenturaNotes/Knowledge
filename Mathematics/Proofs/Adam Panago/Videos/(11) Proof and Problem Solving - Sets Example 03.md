@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Mn4G93889BE)
-
+---
+Source:
+  - https://youtube.com/watch?v=Mn4G93889BE
+---
 - Consider the following sets:
 	- Going to do simple set operations to get practice with operations
 	- ![[Screenshot 2022-12-08 at 7.22.31 PM.png]]

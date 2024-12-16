@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=VeChnFzcx7U)
-
+---
+Source:
+  - https://youtube.com/watch?v=VeChnFzcx7U
+---
 - For each of the following sets, list the elements the set elements between braces {}
 	- ![[Screenshot 2022-12-08 at 6.20.29 PM.png]]
 		- a) We are given the set consisting of all elements x in the natural numbers such that x is greater than -5 and x is less than or equal to 4

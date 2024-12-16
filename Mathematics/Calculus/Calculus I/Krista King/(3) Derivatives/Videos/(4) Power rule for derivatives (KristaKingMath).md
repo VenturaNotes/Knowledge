@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=_e0gqRYpCWs)
-
+---
+Source:
+  - https://youtube.com/watch?v=_e0gqRYpCWs
+---
 - ![[Screenshot 2023-10-30 at 11.29.43 PM.png]]
 	- The derivative of each of these functions
 	- [[Power rule]]

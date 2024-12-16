@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=CtAwtH4WMN0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=CtAwtH4WMN0
+---
 - Measures of Dispersion: Variance and Standard Deviation of a Sample
 - The previous lecture was about how to calculate [[variance]] and [[standard deviation]] for a [[Population (Statistics)|population]]. This lecture is about how to calculate <mark style="background: #FFF3A3A6;">variance</mark> and <mark style="background: #FFF3A3A6;">standard deviation</mark> for a [[sample]].
 - In the future, you will be dealing almost entirely with <mark style="background: #FFF3A3A6;">samples</mark>. You will deal with known <mark style="background: #FFF3A3A6;">population</mark> values very rarely.

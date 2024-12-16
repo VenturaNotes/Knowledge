@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=FMXLQLakP_c)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=FMXLQLakP_c
+---
 - ![[Screenshot 2023-12-09 at 1.44.03 AM.png]]
 	- When counting subsets, we need to be able to use [[binomial coefficient|binomial coefficients]]
 		- $n \choose k$ or C(n, k)

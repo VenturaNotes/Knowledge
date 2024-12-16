@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fXfv1Ru5tzE)
-
+---
+Source:
+  - https://youtube.com/watch?v=fXfv1Ru5tzE
+---
 - Consider the Logical statements P and Q.
 - Use logical laws to simplify the expression
 	- ![[Screenshot 2022-12-08 at 6.04.45 PM.png]]

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=x0Jx5IC-IRI)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=x0Jx5IC-IRI
+---
 ---
 - ![[Screenshot 2023-05-25 at 4.58.23 AM.png]]
 - The [[Informal Limit Definition]] to [[Formal Limit Definition]]

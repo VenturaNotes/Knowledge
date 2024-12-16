@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MoAXGDG5OZ4)
-
+---
+Source:
+  - https://youtube.com/watch?v=MoAXGDG5OZ4
+---
 - Compute the decimal values
 	- 4.5 + 3.34
 		- ![[Screenshot 2022-12-23 at 11.59.53 PM.png]]

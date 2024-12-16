@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=pADOt1tzi2o)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=pADOt1tzi2o
+---
 - Central Tendency refers to the measure used to determine the "center" of a distribution of data. It is used to find a single score that is most representative of an entire data set.
 	- 1, 1, 2, 2, 2, 3, 3, 4, 5, 5
 	- If we could pick a single value to represent this sample data set, what ways could we do it?

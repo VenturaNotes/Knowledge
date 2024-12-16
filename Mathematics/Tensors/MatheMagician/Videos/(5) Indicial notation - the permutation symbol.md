@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=QcFFtY0Ea4E)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=QcFFtY0Ea4E
+---
 - Image
 	- [[Indicial notation]] - the [[permutation symbol]]
 	- Will show how to use in first application, the [[cross product]]

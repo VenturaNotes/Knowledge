@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=rHyIdxOzj9U)
-
+---
+Source:
+  - https://youtube.com/watch?v=rHyIdxOzj9U
+---
 - IUPAC
 	International Union of Pure and Applied Chemistry [^1]
 - Won't use condensed formula notation in organic chemistry

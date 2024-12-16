@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=JI1hWkdBjOI)
-
+---
+Source:
+  - https://youtube.com/watch?v=JI1hWkdBjOI
+---
 - ![[Screenshot 2023-05-09 at 2.36.04 PM.png]]
 	- "Let me count the ways..." "As the number approaches infinity..."
 	- The problem of misuse can be summarized by the use of statistics not for finding out what is actually going on but instead use it to misrepresent the data in order to support a viewpoint or to deliberately misrepresent in order to create a false perception or a false narrative.

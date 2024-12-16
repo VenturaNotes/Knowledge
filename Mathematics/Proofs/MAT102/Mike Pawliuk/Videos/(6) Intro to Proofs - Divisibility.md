@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=KUlSQ58-9zM)
-
+---
+Source:
+  - https://youtube.com/watch?v=KUlSQ58-9zM
+---
 - ![[Screenshot 2023-07-28 at 12.34.32 PM.png]]
 	- Slide 1 - Introduction to Proofs - Divisibility
 	- Slide 2 - Learning Objectives (for this video)

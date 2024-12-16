@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5hfHbOCeFoU)
-
+---
+Source:
+  - https://youtube.com/watch?v=5hfHbOCeFoU
+---
 - ![[Screenshot 2022-12-30 at 2.36.54 AM.png|400]]
 - ![[Screenshot 2022-12-30 at 2.38.25 AM.png]]
 - When we have a limit from the left and right go to different values

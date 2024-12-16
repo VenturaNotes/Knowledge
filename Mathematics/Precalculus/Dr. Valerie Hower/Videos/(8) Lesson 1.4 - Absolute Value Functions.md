@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=J1LMlfmiDLs)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=J1LMlfmiDLs
+---
 - ![[Screenshot 2023-05-06 at 3.40.03 AM.png]]
 	- Page 1
 		- Previous 2 lessons

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=km6-zDe0zJY)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=km6-zDe0zJY
+---
 - ![[Screenshot 2023-05-28 at 2.32.57 PM.png]]
 	- Limits at Infinity and Horizontal Asymptotes
 		- Previously, we learned that the statement $lim_{x \rightarrow \infty} f(x) = L$ means that for each $\varepsilon > 0$ there exists an M > 0 such that $|f(x) - L| < \varepsilon$ whenever x > M

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=obTAsT9U5CA)
-
+---
+Source:
+  - https://youtube.com/watch?v=obTAsT9U5CA
+---
 - ![[Screenshot 2023-05-12 at 4.18.25 AM.png]]
 	- [[Census]]: Data gathered from every member of the population
 	- [[Sampling Frame]]: A list of elements belonging to the population from which the sample will be drawn. Sampling frame (should be identical to population) but that is not always practical

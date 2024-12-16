@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=IL465-AUUVY)
-
+---
+Source:
+  - https://youtube.com/watch?v=IL465-AUUVY
+---
 - A - B = C
 	- This defines a new set C
 - ![[Screenshot 2023-01-10 at 12.17.17 PM.png]]

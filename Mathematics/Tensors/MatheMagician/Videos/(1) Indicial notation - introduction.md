@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=klYzrLzEmsE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=klYzrLzEmsE
+---
 - ![[Screenshot 2023-10-10 at 10.38.47 PM.png]]
 	- [[Indicial notation]]
 		- Helps simplify long expressions with [[vectors]] and [[matrices]]

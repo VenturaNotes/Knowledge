@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=eltZlBtWhd4)
-
+---
+Source:
+  - https://youtube.com/watch?v=eltZlBtWhd4
+---
 - ![[Screenshot 2023-05-31 at 7.53.13 PM.png]]
 	- List the elements of the set
 	- [[Roster Method|Roster Form]]

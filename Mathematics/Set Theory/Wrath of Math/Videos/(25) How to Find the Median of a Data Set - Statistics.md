@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jgp2Oex4RUY)
-
+---
+Source:
+  - https://youtube.com/watch?v=jgp2Oex4RUY
+---
 - ![[Screenshot 2023-05-09 at 1.01.37 AM.png]]
 	- Test Scores
 	- Median of a data set is the value separating the lower half of data from the upper half of data

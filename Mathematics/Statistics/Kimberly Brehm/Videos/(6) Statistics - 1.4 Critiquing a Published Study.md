@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=A8SR_9KnaCE)
-
+---
+Source:
+  - https://youtube.com/watch?v=A8SR_9KnaCE
+---
 ---
 - ![[Screenshot 2023-05-20 at 7.32.22 AM.png]]
 - Consider the source

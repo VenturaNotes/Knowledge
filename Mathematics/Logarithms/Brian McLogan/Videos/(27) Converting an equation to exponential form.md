@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=JJCuM8NcWH8)
-
+---
+Source:
+  - https://youtube.com/watch?v=JJCuM8NcWH8
+---
 - ![[Screenshot 2023-05-13 at 10.59.45 PM.png]]
 	- Errata
 		- $3^5 = 243$ 

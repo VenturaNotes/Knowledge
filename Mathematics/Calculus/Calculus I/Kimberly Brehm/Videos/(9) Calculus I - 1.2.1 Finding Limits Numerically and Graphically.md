@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=lOB402kSfsI)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=lOB402kSfsI
+---
 - ![[Screenshot 2023-05-25 at 4.29.27 AM.png]]
 	- What is a limit?
 		- We just learned how important the study of limits will be to ur studies this term. But what exactly is a [[limit]]?

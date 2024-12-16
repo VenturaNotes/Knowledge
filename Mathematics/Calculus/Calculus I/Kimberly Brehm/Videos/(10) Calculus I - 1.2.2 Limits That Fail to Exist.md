@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=HVHDuFSy7TQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=HVHDuFSy7TQ
+---
 - ![[Screenshot 2023-05-25 at 4.44.45 AM.png]]
 	- Different [[Right Side Limits]] and [[Left Side Limits]]
 		- Let's first talk about one-sided limit notation. If we want to find the limit from just the left side of c, we write {limit}. For just the right side of c, we write {limit}

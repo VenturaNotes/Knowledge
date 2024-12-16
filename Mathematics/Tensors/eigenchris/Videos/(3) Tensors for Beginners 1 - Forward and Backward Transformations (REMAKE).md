@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=bpuE_XmWQ8Y)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=bpuE_XmWQ8Y
+---
 - ![[Screenshot 2023-09-27 at 10.30.11 AM.png]]
 	- Forward & Backward Transformations
 		- Rules that let us move back and forth between different coordinate systems

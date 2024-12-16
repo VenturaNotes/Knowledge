@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=B9xZ8len2gQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=B9xZ8len2gQ
+---
 - ![[Screenshot 2023-05-27 at 2.43.23 PM.png]]
 	- [[Concavity]]
 		- You have seen that locating the intervals on which a function f increases or decreases helps to describe its graph. To find where the FUNCTION is increasing or decreasing, we find the derivative of the original function. 

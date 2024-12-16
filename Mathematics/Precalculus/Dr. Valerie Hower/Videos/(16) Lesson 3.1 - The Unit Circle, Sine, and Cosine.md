@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=eGZ7Pc2Xj18)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=eGZ7Pc2Xj18
+---
 - ![[Screenshot 2023-05-06 at 11.40.53 PM.png]]
 	- Page 1
 		- [[Angle|Angles]] (left is acute and right is obtuse in example)

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=6LjZp8H6afk)
-
+---
+Source:
+  - https://youtube.com/watch?v=6LjZp8H6afk
+---
 - Image
 	- Inequalities should always face in the same direction
 	- RTP: Require to Prove

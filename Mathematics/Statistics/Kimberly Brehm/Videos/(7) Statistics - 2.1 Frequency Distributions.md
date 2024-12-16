@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Cj6QW62mNGw)
-
+---
+Source:
+  - https://youtube.com/watch?v=Cj6QW62mNGw
+---
 ---
 - ![[Screenshot 2023-05-20 at 7.51.54 AM.png]]
 - A [[frequency distribution]] is a display of the values that occur in a data set and how often (or how frequently) each value, or range of values, occurs. 

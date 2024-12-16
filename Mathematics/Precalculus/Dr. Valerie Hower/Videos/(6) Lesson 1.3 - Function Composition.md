@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Td0apavz3Xg)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Td0apavz3Xg
+---
 - ![[Screenshot 2023-05-06 at 3.02.55 AM.png]]
 	- Page 1
 		- Lecture 1.3 Function Composition

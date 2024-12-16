@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Qjq21TXI5jw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Qjq21TXI5jw
+---
 - ![[Screenshot 2023-05-08 at 6.16.32 AM.png]]
 	- Extra Z-Score Problems
 		- In the United States, the average IQ is 100, with a standard deviation of 15. What percentage of the population would you expect to have an IQ lower than 85?

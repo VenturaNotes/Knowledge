@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=MGpGQNrAj5k)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=MGpGQNrAj5k
+---
 - ![[Screenshot 2023-05-25 at 4.01.43 AM.png]] ^a5e4e2
 	- [[Trigonometric Identities]]
 		- Page 33 of your text contains all trigonometric identities you would have learned in Trig/Pre-Calculus. I've included only the identities that are used often in Calculus

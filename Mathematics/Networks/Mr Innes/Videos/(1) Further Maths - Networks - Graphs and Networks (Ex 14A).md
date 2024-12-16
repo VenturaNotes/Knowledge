@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HyZLYENcoOo)
-
+---
+Source:
+  - https://youtube.com/watch?v=HyZLYENcoOo
+---
 -  A network graph is a visual representation for a series of events or how a system might flow information or items. It can also be used to demonstrate how you get from one point to another
 - Networks are a new form of mathematics. Only been around the last 100 years
 - Useful for google maps (quickest route to get from point A to point B)

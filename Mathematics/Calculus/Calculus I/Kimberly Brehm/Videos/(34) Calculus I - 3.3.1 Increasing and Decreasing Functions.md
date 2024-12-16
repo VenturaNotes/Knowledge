@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=0JlO_zHCajM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=0JlO_zHCajM
+---
 - ![[Screenshot 2023-05-27 at 12.09.37 PM.png]]
 	- Recall that a derivative is a function that gives us the slope of the line at any point along the function.
 	- We also know that if a slope of a line is positive, the graph is pointing up as we travel along the line from left to right. If it is negative, the graph points down.

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ftAuCXNAvtE)
-
+---
+Source:
+  - https://youtube.com/watch?v=ftAuCXNAvtE
+---
 - ![[Screenshot 2023-10-05 at 5.03.54 PM.png]]
 	- How to use the graph of the function, and the precise definition of the [[limit]], to find [[delta]]
 		- Will identify the side of limit that constrains the definition

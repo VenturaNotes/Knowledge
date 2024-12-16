@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DNwCIHVuh_Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=DNwCIHVuh_Q
+---
 - ![[Screenshot 2024-01-16 at 5.20.28 PM.png]]
 	- Slide 9 - [[Sum Theorems]]
 		- Let c be a real number, and n be a natural number

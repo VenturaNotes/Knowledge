@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=V-dmw3OTW8I)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=V-dmw3OTW8I
+---
 - ![[Screenshot 2023-12-08 at 2.12.08 AM.png]]
 	- Definition: Given a statement S, the [[negation]] of S is $\lnot$ S
 	- [[De Morgan's Laws]]

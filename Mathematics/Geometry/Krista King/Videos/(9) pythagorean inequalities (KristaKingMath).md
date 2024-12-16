@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=szvtWTLHS_8)
-
+---
+Source:
+  - https://youtube.com/watch?v=szvtWTLHS_8
+---
 - Say whether the triangle is right, acute or obtuse
 - Reminder
 	- Right: $a^2 + b^2 = c^2$

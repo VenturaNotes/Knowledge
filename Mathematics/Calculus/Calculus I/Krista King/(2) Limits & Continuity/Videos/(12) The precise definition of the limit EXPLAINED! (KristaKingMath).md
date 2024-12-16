@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=rSxxEtKVw-w)
-
+---
+Source:
+  - https://youtube.com/watch?v=rSxxEtKVw-w
+---
 - ![[Screenshot 2023-10-03 at 11.23.40 PM.png]]
 	- Use the precise definition of the limit to prove the equation
 		- [[Epsilon-Delta Limit Definition]]

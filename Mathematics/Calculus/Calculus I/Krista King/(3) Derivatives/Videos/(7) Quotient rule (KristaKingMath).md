@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=s776wTMuH4Y)
-
+---
+Source:
+  - https://youtube.com/watch?v=s776wTMuH4Y
+---
 - ![[Screenshot 2023-10-30 at 11.40.19 PM.png]]
 	- [[Quotient rule]]
 		- Formula then calculate

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=PWRd2I5nJls)
-
+---
+Source:
+  - https://youtube.com/watch?v=PWRd2I5nJls
+---
 - Signed numbers are numbers with a positive sign or negative sign attached
 - Simplify the expressions
 	- $2*3$ = 6

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=2uk-qRKWJj4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=2uk-qRKWJj4
+---
 - Quantitative variables are measured numerically
 	- with measurements of quantitative variables you can do things like add and subtract, and multiply and divide, and get a meaningful result.
 	- "Age", "Weight", and "Temperature" are all quantitative variables.

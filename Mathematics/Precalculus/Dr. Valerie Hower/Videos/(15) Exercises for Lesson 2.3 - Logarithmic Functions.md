@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=5Tn1R_zF4ZQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=5Tn1R_zF4ZQ
+---
 - ![[Screenshot 2023-05-06 at 6.55.05 PM.png]]
 	- Page 1
 		- State the domain and range of the function

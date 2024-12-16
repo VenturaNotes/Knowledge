@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fu03EbaQd7k)
-
+---
+Source:
+  - https://youtube.com/watch?v=fu03EbaQd7k
+---
 - One form of Quantifier Negation Law states that:
 	- ![[Screenshot 2022-12-09 at 3.50.34 PM.png]]
 - Use this to derive other form, i.e. 

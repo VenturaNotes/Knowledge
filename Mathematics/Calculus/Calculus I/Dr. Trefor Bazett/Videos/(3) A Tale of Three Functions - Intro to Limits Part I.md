@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Qspc6uBMdEY)
-
+---
+Source:
+  - https://youtube.com/watch?v=Qspc6uBMdEY
+---
 - A tale of three functions
 	- $f(x) = x + 1$
 		- ![[Screenshot 2022-12-30 at 2.04.35 AM.png|300]]

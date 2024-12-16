@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jknrgQgaquM)
-
+---
+Source:
+  - https://youtube.com/watch?v=jknrgQgaquM
+---
 - ![[Screenshot 2023-04-03 at 12.37.17 AM.png]]
 	- Create a closed figure from 3 line segments (this creates a triangle)
 	- 3 points of triangle called vertices

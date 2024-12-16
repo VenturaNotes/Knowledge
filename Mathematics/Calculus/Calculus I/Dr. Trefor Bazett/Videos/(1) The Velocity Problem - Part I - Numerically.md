@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=LWPzHlSBlxI)
-
+---
+Source:
+  - https://youtube.com/watch?v=LWPzHlSBlxI
+---
 - At 2:00 pm, I'm at mile marker 100
 - At 2:15 pm, I'm at mile marker 110
 - How fast am I going?

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=tRzMDNHDWI4)
-
+---
+Source:
+  - https://youtube.com/watch?v=tRzMDNHDWI4
+---
 - ![[Screenshot 2023-10-03 at 5.30.00 PM.png|400]]
 	- Solving [[limits]] with [[substitution]]
 		- Just plug-in value to function

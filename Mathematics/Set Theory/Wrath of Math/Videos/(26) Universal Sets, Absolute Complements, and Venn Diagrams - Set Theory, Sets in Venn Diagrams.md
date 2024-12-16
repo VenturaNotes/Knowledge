@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jSrtslaHwu8)
-
+---
+Source:
+  - https://youtube.com/watch?v=jSrtslaHwu8
+---
 - ![[Screenshot 2023-05-23 at 1.53.15 PM.png]] ^c562f2
 	- U = {1, 2, 3, 4, 5}
 	- S = {1, 2, 3}

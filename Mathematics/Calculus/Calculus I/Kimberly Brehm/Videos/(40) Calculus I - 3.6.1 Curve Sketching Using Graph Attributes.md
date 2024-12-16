@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=F8aXjLq4nuA)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=F8aXjLq4nuA
+---
 - ![[Screenshot 2023-05-28 at 4.57.35 PM.png]]
 	- Curve Sketching Practice
 	- Graph the function that has the following attributes

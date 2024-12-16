@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=wqg6OiwI0ls)
-
+---
+Source:
+  - https://youtube.com/watch?v=wqg6OiwI0ls
+---
 ---
 - ![[Screenshot 2023-05-17 at 2.55.03 AM.png]]
 - A statistical study

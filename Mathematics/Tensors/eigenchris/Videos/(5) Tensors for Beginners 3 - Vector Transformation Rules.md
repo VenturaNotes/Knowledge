@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=A1h_eucHFW4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=A1h_eucHFW4
+---
 - ![[Screenshot 2023-09-28 at 10.22.29 PM.png]]
 	- [[Vector components]] transform in the opposite way compared to old and new [[basis]]
 	- While the basis vectors grew by a factor of 2, the vector components shrunk by a factor of 2

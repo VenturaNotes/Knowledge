@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vmhssot-DAY)
-
+---
+Source:
+  - https://youtube.com/watch?v=vmhssot-DAY
+---
 - Universal set (U)
 	- A set that contains all elements under consideration
 - ![[Screenshot 2023-01-10 at 12.10.43 PM.png]]

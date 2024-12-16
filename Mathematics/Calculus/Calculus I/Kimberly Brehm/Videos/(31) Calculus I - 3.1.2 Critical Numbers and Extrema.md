@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=kjunIwj2sv0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=kjunIwj2sv0
+---
 - ![[Screenshot 2023-05-27 at 7.43.51 AM.png]]
 	- [[Horizontal Tangent Lines]]
 		- In our last video, we observed that our minimum or maximum values on open intervals occurred only on a hill or valley. At those points, the tangent line would be horizontal. The slope of a horizontal tangent line is zero.

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=q5DlN-7dppY)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=q5DlN-7dppY
+---
 - ![[Screenshot 2023-05-28 at 8.31.01 AM.png]]
 	- Relative Extrema and Concavity
 		- We can see that we have a relative minimum at (1, -$\frac 12$}) and a relative maximum at (0,0).

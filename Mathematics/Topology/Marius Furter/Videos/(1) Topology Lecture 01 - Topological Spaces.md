@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vv3JNSPKeEU)
-
+---
+Source:
+  - https://youtube.com/watch?v=vv3JNSPKeEU
+---
 - Image
 	- [[Topology]]
 		- Will introduce basics of [[point set topology]]

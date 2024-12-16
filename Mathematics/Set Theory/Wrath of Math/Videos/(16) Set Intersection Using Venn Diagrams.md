@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Mrlr7f3hpVs)
-
+---
+Source:
+  - https://youtube.com/watch?v=Mrlr7f3hpVs
+---
 - ![[Screenshot 2023-01-10 at 1.50.25 PM.png]]
 	- Visualization of an intersection in a Venn Diagram
 	- Drawing the universe isn't necessary but it is good practice when drawing Venn Diagram notation for sets.

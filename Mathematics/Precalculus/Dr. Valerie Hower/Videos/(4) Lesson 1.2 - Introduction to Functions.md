@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Qtw-hHPlS1A)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Qtw-hHPlS1A
+---
 - ![[Screenshot 2023-05-05 at 7.42.16 AM.png]]
 	- Page 1
 		- Previous Lesson

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1neg5RigPOU)
-
+---
+Source:
+  - https://youtube.com/watch?v=1neg5RigPOU
+---
 - Image
 	- Spectrum of probability
 	- Chance and Uncertainty

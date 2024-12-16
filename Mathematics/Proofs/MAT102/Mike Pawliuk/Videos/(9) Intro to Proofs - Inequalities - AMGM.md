@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=n5MmnMaznck)
-
+---
+Source:
+  - https://youtube.com/watch?v=n5MmnMaznck
+---
 - ![[Screenshot 2023-11-13 at 2.37.47 PM.png]]
 	- Slide 1 - Introduction to Proofs - Inequalities - AMGM
 	- Slide 2 - Learning Objectives (for this video)

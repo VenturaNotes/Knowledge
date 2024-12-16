@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=wDmQGaRxEHU)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=wDmQGaRxEHU
+---
 - ![[Screenshot 2023-12-14 at 12.48.00 PM.png]]
 	- Slide 1 ([[if-and-only-if proofs]])
 		- Proving if-and-only-if statements

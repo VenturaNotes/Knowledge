@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=j8bdlwYNwe8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=j8bdlwYNwe8
+---
 - ![[Screenshot 2023-05-25 at 5.48.22 AM.png]]
 	- [[Continuity]] at a point
 		- A function that is continuous at x=c means that there is no interruption in the graph of f at c. There are 3 conditions for which the graph of f(x) is discontinuous at x = c.

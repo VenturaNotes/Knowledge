@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=WLzWKA2J840)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=WLzWKA2J840
+---
 - ![[Screenshot 2023-12-08 at 12.32.30 AM.png]]
 	- Definition: The [[complement]] of a set A
 		- Need U [[universe]]: A $\subseteq$ u

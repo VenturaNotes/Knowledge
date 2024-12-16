@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fKCrARnk8vY)
-
+---
+Source:
+  - https://youtube.com/watch?v=fKCrARnk8vY
+---
 - Find the least common multiple of a set of numbers
 - Least common multiple means that both of the numbers we're given will divide into evenly
 	- ![[Screenshot 2022-12-14 at 10.15.39 PM.png]]

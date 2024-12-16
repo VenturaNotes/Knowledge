@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=xf-3ATzFyKA)
-
+---
+Source:
+  - https://youtube.com/watch?v=xf-3ATzFyKA
+---
 - Won't go into proofs (might be for a higher level course)
 - Many examples
 - There are many word problems

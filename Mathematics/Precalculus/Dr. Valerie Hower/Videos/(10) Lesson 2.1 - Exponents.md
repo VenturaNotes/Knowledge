@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=clrGEsMKbsI)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=clrGEsMKbsI
+---
 - ![[Screenshot 2023-05-06 at 4.22.47 AM.png]]
 	- Page 1
 		- In Calculus, we use properties of exponents often

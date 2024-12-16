@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=0BmSo_M3iKo)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=0BmSo_M3iKo
+---
 - ![[Screenshot 2023-05-25 at 9.26.39 AM.png]]
 	- Why implicit Differentiation
 		- Let's do some differentiation. Find the derivative of each of the following functions.

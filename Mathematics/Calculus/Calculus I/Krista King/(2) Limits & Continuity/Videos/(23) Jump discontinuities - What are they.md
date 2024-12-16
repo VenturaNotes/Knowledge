@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=vES1b77xwv4)
-
+---
+Source:
+  - https://youtube.com/watch?v=vES1b77xwv4
+---
 - ![[Screenshot 2023-10-05 at 11.22.44 PM.png]]
 	- [[Jump discontinuity]] (can be called step discontinuities or discontinuities of the first kind)
 		- A big break in the graph (gap)

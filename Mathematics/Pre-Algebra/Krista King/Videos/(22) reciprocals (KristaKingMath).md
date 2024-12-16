@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Xq9Q2IgGHTA)
-
+---
+Source:
+  - https://youtube.com/watch?v=Xq9Q2IgGHTA
+---
 - ![[Screenshot 2022-12-27 at 2.19.12 AM.png]]
 - Reciprocal is whatever you can multiply something by in order for it to equal to positive 1 (also called the multiplicative inverse)
 - Flipping the fraction upside down gives the multiplicative inverse

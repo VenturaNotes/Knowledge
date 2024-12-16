@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=wlHNefImSe0)
-
+---
+Source:
+  - https://youtube.com/watch?v=wlHNefImSe0
+---
 ## Create 10 Questions
 - Click Basic -> Manage -> Add -> and call it "10 Questions"
 - Select "10 Questions" and choose

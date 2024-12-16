@@ -1,5 +1,6 @@
-[Video](https://www.youtube.com/watch?v=YHgVTUXnxpM)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=YHgVTUXnxpM
 ---
 - ![[Screenshot 2023-05-17 at 5.40.53 AM.png]]
 - Sine and Cosine

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Z2vy6Jv4mso)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Z2vy6Jv4mso
+---
 - ![[Screenshot 2023-05-06 at 2.39.49 AM.png]]
 	- Page 1
 		- Given the function $p(c) = c^2 + c$ 

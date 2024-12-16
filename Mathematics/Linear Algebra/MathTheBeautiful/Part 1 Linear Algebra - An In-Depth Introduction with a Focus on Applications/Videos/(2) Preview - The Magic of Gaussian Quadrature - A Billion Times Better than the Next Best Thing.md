@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=k-yUdqRXijo)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=k-yUdqRXijo
+---
 - Image
 	- [[Gaussian Quadrature]]
 		- Has to do with integrating functions or equivalently, finding areas under curves

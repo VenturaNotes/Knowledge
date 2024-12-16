@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=SAbAq61vYBY)
-
+---
+Source:
+  - https://youtube.com/watch?v=SAbAq61vYBY
+---
 - ![[Screenshot 2023-05-16 at 3.31.11 AM.png]]
 	- Shows that the females in general are less heavy than males
 	- Females tend to be grouped closer together so you can see the difference in the weight of the females is smaller than the difference in the weight of the males

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=wg6eNHw0Zyw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=wg6eNHw0Zyw
+---
 - ![[Screenshot 2023-12-14 at 9.58.15 AM.png]]
 	- Slide 1
 		- For a, b $\in$ $\mathbb{Z}$, Prove: If a is even or b is [[odd]], then a(b+3) is [[even]]

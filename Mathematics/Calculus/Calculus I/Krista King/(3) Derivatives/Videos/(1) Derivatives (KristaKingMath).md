@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DRXKgyCkWMI)
-
+---
+Source:
+  - https://youtube.com/watch?v=DRXKgyCkWMI
+---
 - ![[Screenshot 2023-10-30 at 11.01.28 PM.png]]
 	- How to find rate of change of a function at a point
 	- The [[rate of change]] of a line is the slope of a line

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ErMk0Y0lByE)
-
+---
+Source:
+  - https://youtube.com/watch?v=ErMk0Y0lByE
+---
 - ![[Screenshot 2024-01-16 at 3.39.32 PM.png]]
 	- Slide 11 - Examples
 		- Example

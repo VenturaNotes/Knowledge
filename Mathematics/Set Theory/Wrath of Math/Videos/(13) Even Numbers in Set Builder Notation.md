@@ -1,6 +1,7 @@
-[Video](https://youtube.com/watch?v=eLURmpV3oUA)
-
-
+---
+Source:
+  - https://youtube.com/watch?v=eLURmpV3oUA
+---
 - ![[Screenshot 2023-01-10 at 1.34.35 PM.png]]
 	- First notation
 		- All members x such that {x=2n} (definition of an even number) where n has to be an element of the integers

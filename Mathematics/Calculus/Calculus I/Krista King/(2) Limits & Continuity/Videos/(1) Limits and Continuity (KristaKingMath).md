@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=YmuqoXnCSNI)
-
+---
+Source:
+  - https://youtube.com/watch?v=YmuqoXnCSNI
+---
 - ![[Screenshot 2023-08-23 at 11.53.03 PM.png]]
 	- Limits
 		- [[Functions]] are a  special type of equation that models a one-to-one relationship between x and y

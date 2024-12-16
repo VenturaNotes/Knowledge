@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=fZj7VhywNmE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=fZj7VhywNmE
+---
 - ![[Screenshot 2023-05-25 at 8.17.59 AM.png]]
 	-   The [[Position Function]]
 		- The position function will give us the position (or height) of a free-falling object (neglecting air resistance) at time t. $$s(t) = -\frac{1}{2}gt^2 + v_0t + s_0 $$

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=v9MXalUOIig)
-
+---
+Source:
+  - https://youtube.com/watch?v=v9MXalUOIig
+---
 - ![[Screenshot 2023-06-05 at 7.33.50 PM.png]]
 	- Let A and B be sets
 		- Prove A = B iff P(A) = P(B)

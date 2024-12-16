@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=gaSwzp7qp5k)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=gaSwzp7qp5k
+---
 - ![[Screenshot 2023-05-25 at 5.36.54 AM.png]]
 	- What is an [[Indeterminant Form Function]]
 		- A function whose limit results in an indeterminant form when you attempt direct substitution will need a bit of "math magic"

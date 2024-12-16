@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=IOOuXYCoQ4I)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=IOOuXYCoQ4I
+---
 - ![[Screenshot 2023-05-25 at 9.10.31 AM.png]]
 	- Strategies
 		- Every time

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=N8WdW7UzC2I)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=N8WdW7UzC2I
+---
 - ![[Screenshot 2023-12-08 at 1.20.03 AM.png]]
 	- [[biconditional|biconditional statement]]
 		- p $\iff$ q

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MbK6pOvXRxY)
-
+---
+Source:
+  - https://youtube.com/watch?v=MbK6pOvXRxY
+---
 - Divisibility Rules (Say whether or not the number is divisible)
 	- 2
 		- If number is an even number, it's divisible by 2

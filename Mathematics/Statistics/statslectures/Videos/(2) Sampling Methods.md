@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=FtZavrh0eaw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=FtZavrh0eaw
+---
 - ![[Screenshot 2023-04-28 at 6.32.11 AM.png|300]]
 	- How do we select from the population what goes into our sample?
 - Ways of representing sample and population sizes

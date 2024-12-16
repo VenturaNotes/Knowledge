@@ -16,6 +16,7 @@ aliases:
 	- (4) The leading entry in each non-zero row is 1
 	- (5) Each leading 1 is the only non-zero entry in the column
 - Can also be called REF which stands for "reduced echelon form"
+	- #comment Not to be confused with [[Row Echelon Form]]
 ## References
 
 [^1]: [[(3) Linear Algebra 1.2.1 Row Reduction and Echelon Forms]]

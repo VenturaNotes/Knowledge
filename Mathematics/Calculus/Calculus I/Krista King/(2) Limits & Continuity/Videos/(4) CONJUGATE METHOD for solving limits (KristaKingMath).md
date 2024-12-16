@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=AyJsHC4OYCM)
-
+---
+Source:
+  - https://youtube.com/watch?v=AyJsHC4OYCM
+---
 - ![[Screenshot 2023-10-03 at 6.22.17 PM.png]]
 	- Evaluate the limit using [[conjugate]] method
 		- Useful when square root is involved (and have sum or difference with another term)

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=DI4eVGmUf-8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=DI4eVGmUf-8
+---
 - ![[Screenshot 2023-05-17 at 4.39.38 AM.png]]
 	- Inverse operations
 	- Raise both sides as powers

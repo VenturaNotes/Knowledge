@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Gn97hpEkTiM)
-
+---
+Source:
+  - https://youtube.com/watch?v=Gn97hpEkTiM
+---
 - ![[Screenshot 2023-08-01 at 12.01.45 AM.png]]
 	- Why we developed units of measurement
 		- How far apart are two cities. 

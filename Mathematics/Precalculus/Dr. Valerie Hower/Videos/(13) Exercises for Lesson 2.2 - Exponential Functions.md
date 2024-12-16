@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=kEKR2g0PlpQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=kEKR2g0PlpQ
+---
 - ![[Screenshot 2023-05-06 at 8.10.35 AM.png]]
 	- Page 1
 		- Determine whether the equation represents exponential growth, exponential decay, or neither

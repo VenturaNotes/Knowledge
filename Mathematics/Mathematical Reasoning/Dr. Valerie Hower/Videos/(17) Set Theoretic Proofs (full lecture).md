@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=37nkp2ncAKc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=37nkp2ncAKc
+---
 - Image
 	- Slide 1
 		- [[Set Theoretic Proofs]]

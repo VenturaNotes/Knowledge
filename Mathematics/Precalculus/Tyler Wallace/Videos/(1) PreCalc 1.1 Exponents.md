@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ZoNchDyX0_w)
-
+---
+Source:
+  - https://youtube.com/watch?v=ZoNchDyX0_w
+---
 - ![[Screenshot 2023-07-10 at 11.44.39 PM.png]]
 	- Properties
 - ![[Screenshot 2023-07-10 at 11.47.20 PM.png|500]]

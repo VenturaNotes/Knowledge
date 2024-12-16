@@ -1,5 +1,7 @@
-.[Video](https://youtube.com/watch?v=e5jYmeu26C4)
-
+---
+Source:
+  - https://youtube.com/watch?v=e5jYmeu26C4
+---
 - Identity properties (or identity numbers)
 	- There is an identity number for addition and a different identity number for multiplication
 - Identity number for addition is 0.

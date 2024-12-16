@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=QFu90uB_4FE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=QFu90uB_4FE
+---
 - ![[Screenshot 2023-12-08 at 2.40.23 AM.png]]
 	- [[Counting]]
 		- Example: My son Sebastian must select a meal for lunch at school

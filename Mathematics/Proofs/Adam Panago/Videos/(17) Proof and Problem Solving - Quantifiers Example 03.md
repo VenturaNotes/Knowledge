@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=FQ2B5rzBSoM)
-
+---
+Source:
+  - https://youtube.com/watch?v=FQ2B5rzBSoM
+---
 - Let x, y $\in$ $\mathbb{N}$. Determine if the following statements are true or false.
 	- ![[Screenshot 2022-12-08 at 11.56.42 PM.png]]
 		- c) x=1 proves false by counterexample 

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=DOooyE6liLY)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=DOooyE6liLY
+---
 - ![[Screenshot 2023-05-08 at 6.28.19 AM.png]]
 	- Probability is about determining the likelihood of event(s).
 	- Two events are mutually exclusive if they cannot occur at the same time

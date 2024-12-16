@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=GbJAExWuVJw)
-
+---
+Source:
+  - https://youtube.com/watch?v=GbJAExWuVJw
+---
 - ![[Screenshot 2023-01-07 at 4.42.16 PM.png]]
 	- Find a number that's $\frac 15$ of the way from $\frac 18$ to $\frac 19$ 
 	- Steps
