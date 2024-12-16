@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=cHaZmLIyWjg)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=cHaZmLIyWjg
+---
 - ![[Screenshot 2023-05-25 at 8.50.24 AM.png]] ^0eed67
 	- [[Differentiation Rules|Derivatives]] of Trigonometric Functions
 		- We already learned the derivatives of sine and cosine, but let's review and add the other trig functions

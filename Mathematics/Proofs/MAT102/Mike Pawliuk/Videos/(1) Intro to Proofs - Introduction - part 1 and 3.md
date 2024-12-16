@@ -1,4 +1,7 @@
-[Video](https://youtube.com/watch?v=OXpgeglNn0Y)
+---
+Source:
+  - https://youtube.com/watch?v=OXpgeglNn0Y
+---
 [Lecture Slides](zotero://open-pdf/library/items/GMZX4VML?page=1&annotation=IDV5DWGF)
 
 - ![[Screenshot 2023-07-27 at 11.03.30 PM.png]]

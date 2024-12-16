@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=uT72oEtM7W4)
-
+---
+Source:
+  - https://youtube.com/watch?v=uT72oEtM7W4
+---
 ---
 - ![[Screenshot 2023-05-20 at 6.56.49 AM.png]]
 - Experiments

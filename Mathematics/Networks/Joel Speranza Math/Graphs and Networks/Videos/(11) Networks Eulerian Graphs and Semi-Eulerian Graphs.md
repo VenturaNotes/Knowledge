@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=k4hI-IzJUCs)
-
+---
+Source:
+  - https://youtube.com/watch?v=k4hI-IzJUCs
+---
 - ![[Screenshot 2023-01-15 at 1.35.28 PM.png|400]]
 	- [[Eulerian Graph]]
 		- A closed trail using every edge possible

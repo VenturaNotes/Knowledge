@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=XCYE8A-PfJs)
-
+---
+Source:
+  - https://youtube.com/watch?v=XCYE8A-PfJs
+---
 - ![[Screenshot 2023-06-02 at 11.38.39 AM.png]]
 	- [[Superset]]
 		- Superset relation is the same as the subset relation but in the opposite direction

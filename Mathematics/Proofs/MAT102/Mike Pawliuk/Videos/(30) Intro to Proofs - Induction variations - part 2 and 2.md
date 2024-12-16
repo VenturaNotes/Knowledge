@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=y98SzjUywz4)
-
+---
+Source:
+  - https://youtube.com/watch?v=y98SzjUywz4
+---
 - ![[Screenshot 2024-01-23 at 12.21.26 AM.png]]
 	- Slide 10 - Other gaps
 	- Slide 11 - (4) Exercises

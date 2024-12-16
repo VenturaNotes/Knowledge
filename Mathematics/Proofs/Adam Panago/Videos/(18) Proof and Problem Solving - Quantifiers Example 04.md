@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Js7Z4NMJdow)
-
+---
+Source:
+  - https://youtube.com/watch?v=Js7Z4NMJdow
+---
 - Analyze the logical form of the following statements:
 	- ![[Screenshot 2022-12-09 at 7.17.47 AM.png]]
 		- a) A union B is a subset of C difference D. Replacing this with equivalent logical expressions

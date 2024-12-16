@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=btWKhXFTcPQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=btWKhXFTcPQ
+---
 - ![[Screenshot 2023-05-25 at 7.44.43 AM.png]]
 	- The What and where of vertical [[asymptotes]]
 		- What: A vertical asymptote occurs when f(x) approaches $\infty$ or -$\infty$ as x approaches c from the right or left

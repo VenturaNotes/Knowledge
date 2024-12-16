@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7pU9L0XybyI)
-
+---
+Source:
+  - https://youtube.com/watch?v=7pU9L0XybyI
+---
 - Change Image
 	- Allows you to add a modified version of the image and keep the rectangle bars in front of the key words
 - Adding information

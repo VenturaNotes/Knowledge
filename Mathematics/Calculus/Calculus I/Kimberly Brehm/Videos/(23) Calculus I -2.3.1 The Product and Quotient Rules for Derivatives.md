@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=L66FBwEF8vc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=L66FBwEF8vc
+---
 - ![[Screenshot 2023-05-25 at 8.34.59 AM.png]]
 	- [[The Product Rule]]
 		- Right side is using the product rule

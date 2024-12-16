@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=wwykal6Ms_g)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=wwykal6Ms_g
+---
 - ![[Screenshot 2023-05-25 at 3.53.47 AM.png]]
 	- Angles in [[Radian|Radians]] and [[Degrees]]
 		- When we think about measuring angles, it is most helpful if they are in [[standard position]], where the initial ray coincides with the positive x-axis with the vertex on the origin. We then measure the angle in the counter-clockwise direction.

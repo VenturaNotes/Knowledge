@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fazOxE9xH1Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=fazOxE9xH1Q
+---
 - ![[Screenshot 2023-10-05 at 9.26.05 PM.png]]
 	- Understanding the [[intermediate value theorem]] (IVT)
 		- Sometimes it can be helpful to prove that a function has a solution or a root on a specific range

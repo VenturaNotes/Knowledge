@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=coO7LmpJ-gc)
-
+---
+Source:
+  - https://youtube.com/watch?v=coO7LmpJ-gc
+---
 - Use logical symbols to verify the following identities:
 	- ![[Screenshot 2022-12-08 at 10.22.09 PM.png]]
 		- a) 

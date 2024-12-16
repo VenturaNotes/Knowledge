@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=3_pmy9Rreg4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=3_pmy9Rreg4
+---
 - ![[Screenshot 2023-05-05 at 7.16.51 AM.png]]
 	- For the following exercises, write an equation for the lines graphed
 - ![[Screenshot 2023-05-05 at 7.27.22 AM.png]]

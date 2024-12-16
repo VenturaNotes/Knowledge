@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=bA9D-mtQ9qw)
-
+---
+Source:
+  - https://youtube.com/watch?v=bA9D-mtQ9qw
+---
 ---
 - ![[Screenshot 2023-05-21 at 1.46.41 PM.png]]
 - Displaying Qualitative Data

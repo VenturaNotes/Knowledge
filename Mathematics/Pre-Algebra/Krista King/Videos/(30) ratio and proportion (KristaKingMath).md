@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=VZTf7ITuOWY)
-
+---
+Source:
+  - https://youtube.com/watch?v=VZTf7ITuOWY
+---
 - ![[Screenshot 2023-01-07 at 4.48.48 PM.png]]
 	- Solve for x
 	- A ratio is a fraction

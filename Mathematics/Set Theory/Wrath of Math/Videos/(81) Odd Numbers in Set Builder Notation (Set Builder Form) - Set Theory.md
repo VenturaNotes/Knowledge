@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=TxAR5yC64iY)
-
+---
+Source:
+  - https://youtube.com/watch?v=TxAR5yC64iY
+---
 - ![[Pasted image 20230605195711.png]]
 	- [[Roster Notation]]
 	- [[Set-builder notation]]

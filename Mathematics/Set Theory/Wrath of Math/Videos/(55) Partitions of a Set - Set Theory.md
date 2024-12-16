@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=muiC-Gk9zFc)
-
+---
+Source:
+  - https://youtube.com/watch?v=muiC-Gk9zFc
+---
 - ![[Pasted image 20230604200012.png]]
 	- Could separate S into even and odd elements
 		- P is considered to be a partition of S

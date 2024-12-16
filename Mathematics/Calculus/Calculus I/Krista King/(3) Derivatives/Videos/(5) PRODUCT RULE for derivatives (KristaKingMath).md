@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=6T0KdhQYMlY)
-
+---
+Source:
+  - https://youtube.com/watch?v=6T0KdhQYMlY
+---
 - ![[Screenshot 2023-10-30 at 11.33.34 PM.png]]
 	- Use a [[product rule]] to find the derivative
 	- Reminder

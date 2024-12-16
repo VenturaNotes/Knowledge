@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=DKLYIiqjKEc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=DKLYIiqjKEc
+---
 - ![[Screenshot 2023-05-25 at 3.05.35 AM.png]]
 	- Relations and functions
 		- A [[relation]] is a set of ordered pairs in the form (x, y) where x $\in$ X and y $\in$ Y.

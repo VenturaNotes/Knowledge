@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=y0LRplaLmdY)
-
+---
+Source:
+  - https://youtube.com/watch?v=y0LRplaLmdY
+---
 - signed numbers are just a number that has a sign (positive or negative number). All numbers are signed numbers
 	- This is not necessarily true in ordinary arithmetic as the number 0 does not have a sign [^1]
 - Simplify the expressions using the number lines

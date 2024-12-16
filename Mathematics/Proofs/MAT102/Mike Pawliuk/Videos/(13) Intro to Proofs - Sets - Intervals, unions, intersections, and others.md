@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=H9Bh82WQsDA)
-
+---
+Source:
+  - https://youtube.com/watch?v=H9Bh82WQsDA
+---
 - ![[Screenshot 2023-11-13 at 10.04.37 PM.png]]
 	- Slide 1 - Introduction to Proofs - Sets - Constructions
 	- Slide 2 - Learning Objectives (for this video)

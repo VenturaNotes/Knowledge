@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=mfIXyD5qYEo)
-
+---
+Source:
+  - https://youtube.com/watch?v=mfIXyD5qYEo
+---
 - ![[Screenshot 2023-06-01 at 8.34.54 AM.png]]
 	- [[Overlapping Sets]]
 		- Neither set can exist entirely within the other set

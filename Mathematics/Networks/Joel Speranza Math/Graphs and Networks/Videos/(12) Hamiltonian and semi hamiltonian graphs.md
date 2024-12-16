@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fhJO2WHRRuY)
-
+---
+Source:
+  - https://youtube.com/watch?v=fhJO2WHRRuY
+---
 - ![[Screenshot 2023-01-15 at 1.45.51 PM.png]]
 	- [[Hamiltonian Graph]]
 		- A closed [[(10) Networks Trails and Paths#^fc09d6|path]] using every vertex

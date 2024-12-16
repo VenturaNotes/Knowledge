@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=4JVwvLXMER0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=4JVwvLXMER0
+---
 - ![[Screenshot 2023-09-29 at 4.35.16 PM.png]]
 	- A 4-dimensional vector space will always find 4 vectors where through [[linear combination|linear combinations]] 
 		- The 4 vectors combined linearly through the real numbers using the multiplication property of scalars and the vector addition property can produce any other vector in the vector space

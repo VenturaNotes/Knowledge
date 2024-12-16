@@ -1,6 +1,7 @@
-[Video](https://www.youtube.com/watch?v=YGf4UfP29xY)
-
-
+---
+Source:
+  - https://www.youtube.com/watch?v=YGf4UfP29xY
+---
 - Course features precalculus content
 - YouTuber is an associate professor in math at Northeastern University
 - Students struggle with

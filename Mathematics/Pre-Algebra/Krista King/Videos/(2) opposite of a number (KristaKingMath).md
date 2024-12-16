@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=IQDNQgi64P8)
-
+---
+Source:
+  - https://youtube.com/watch?v=IQDNQgi64P8
+---
 - Use a number line to simplify the expression
 	- 3 and -3
 		- ![[Screenshot 2022-12-13 at 5.49.24 PM.png]]

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=KS5k1H6WrYc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=KS5k1H6WrYc
+---
 - ![[Screenshot 2023-05-24 at 5.10.02 PM.png]]
 	- [[Trigonometry|Reciprocal and Quotient Identities]]
 	- $tan \theta = \frac {opp}{adj}$

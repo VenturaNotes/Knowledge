@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=62Bz9AqN1ZY)
-
+---
+Source:
+  - https://youtube.com/watch?v=62Bz9AqN1ZY
+---
 ## Intro
 - Every time you go into a store to buy something, the price that you pay for includes the amount of money that the business spends to buy the item + a markup. If they didn't add a markup in, they wouldn't make any profit. If a business sells an item for $100 that they bought for $100, the business would not make any profit
 

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=W7p3zX1pLwU)
-
+---
+Source:
+  - https://youtube.com/watch?v=W7p3zX1pLwU
+---
 - Consider the logical statements P, Q, and R.
 	- Make a truth table for the following expressions.
 	-  ![[Screenshot 2022-12-08 at 11.17.05 PM.png]]

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=aYAMkwBdOas)
-
+---
+Source:
+  - https://youtube.com/watch?v=aYAMkwBdOas
+---
 ## Image Occlusion 2.0
 - Installs this add-on. Code is needed
 	- This actually has been discontinued. Use "Image Occlusion Enhanced" instead!

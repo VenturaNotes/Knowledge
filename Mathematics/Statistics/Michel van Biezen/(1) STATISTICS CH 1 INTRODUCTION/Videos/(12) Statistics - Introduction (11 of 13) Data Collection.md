@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=USwNrTErF7k)
-
+---
+Source:
+  - https://youtube.com/watch?v=USwNrTErF7k
+---
 - ![[Screenshot 2023-05-12 at 4.16.01 AM.png]]
 	- Things to consider in order to maximize the quality of the data collection
 		- (1) Understand the objective

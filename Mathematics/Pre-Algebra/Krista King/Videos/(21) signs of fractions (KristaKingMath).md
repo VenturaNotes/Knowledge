@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=fjZkWJJIVj0)
-
+---
+Source:
+  - https://youtube.com/watch?v=fjZkWJJIVj0
+---
 - Use signs of fractions to simplify the expression
 	- If there is no sign, it's an implied positive sign
 	- Must have a common denominator to add or subtract  fractions

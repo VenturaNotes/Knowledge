@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7C7I8SSsXaE)
-
+---
+Source:
+  - https://youtube.com/watch?v=7C7I8SSsXaE
+---
 - ![[Screenshot 2023-01-10 at 10.13.42 PM.png]]
 	- The power set of A contains every subset of A
 	- Every set is a subset of itself

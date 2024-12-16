@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=HZ7oPwn1-CE)
-
+---
+Source:
+  - https://youtube.com/watch?v=HZ7oPwn1-CE
+---
 - ![[Screenshot 2023-10-03 at 10.40.40 PM.png]]
 	- Limits at infinity
 		- [[Infinite limit]]

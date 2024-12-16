@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=AnJlHSVOXTk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=AnJlHSVOXTk
+---
 - ![[Screenshot 2023-05-25 at 2.30.46 AM.png]]
 	- The [[Slope of a Line]]
 		- To measure the slope of a line is to measure how steep the line is. We measure this based on the number of units of vertical change vs. the number of units of horizontal change. We denote this as:

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=TvxmkZmBa-k)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=TvxmkZmBa-k
+---
 - ![[Screenshot 2023-09-20 at 12.50.30 AM.png]]
 	- [[Tensor]] = multi-dimensional array of numbers (this array definition is incorrect)
 		- array is grid in this case

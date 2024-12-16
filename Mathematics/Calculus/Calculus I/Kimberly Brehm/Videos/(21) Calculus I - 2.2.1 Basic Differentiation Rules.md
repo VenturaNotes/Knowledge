@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Vx_81lSo6Pk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Vx_81lSo6Pk
+---
 - [[Differentiation Rules]]
 - ![[Screenshot 2023-05-25 at 8.09.50 AM.png]]
 	- [[The Constant Rule]]

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=VNbo_RbUELo)
-
+---
+Source:
+  - https://youtube.com/watch?v=VNbo_RbUELo
+---
 - Simplify the expression
 - When multiplying, multiply the numerators together and multiply the denominators together. Make sure it's in the most simplified form
 	- ![[Screenshot 2022-12-27 at 2.12.11 AM.png]]

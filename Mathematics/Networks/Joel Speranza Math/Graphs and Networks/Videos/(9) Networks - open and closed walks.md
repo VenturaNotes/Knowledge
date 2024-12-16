@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=nyTEv-v9OZ0)
-
+---
+Source:
+  - https://youtube.com/watch?v=nyTEv-v9OZ0
+---
 - ![[Screenshot 2023-01-15 at 1.20.29 PM.png]]
 	- If someone goes from point A to point B to point C to point E, you can write the [[Walk|walk]] like this
 		- A - B - C - E

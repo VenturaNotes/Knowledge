@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=0NxrfnWxG_c)
-
+---
+Source:
+  - https://youtube.com/watch?v=0NxrfnWxG_c
+---
 - ![[Screenshot 2023-10-31 at 1.14.21 AM.png]]
 	- [[Implicit differentiation]]
 	- Use implicit differentiation to find the derivative

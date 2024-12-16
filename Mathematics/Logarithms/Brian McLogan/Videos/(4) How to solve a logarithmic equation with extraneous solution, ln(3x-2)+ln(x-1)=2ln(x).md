@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DoEqhqyXF3Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=DoEqhqyXF3Q
+---
 - ![[Screenshot 2023-05-13 at 8.59.48 PM.png]]
 	- Taking a log of a negative number is not part of the solution
 		- Need to check solutions to make sure they're not extraneous

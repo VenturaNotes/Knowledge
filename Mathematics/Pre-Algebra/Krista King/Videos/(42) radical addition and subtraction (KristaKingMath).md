@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=TTxMoFgabEg)
-
+---
+Source:
+  - https://youtube.com/watch?v=TTxMoFgabEg
+---
 - ![[Screenshot 2023-01-07 at 10.43.39 PM.png]]
 	- Simplify the radical expression
 		- Called a radical expression because there are radicals signs involved (or square root signs)

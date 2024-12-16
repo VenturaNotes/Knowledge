@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=YgvdxkP7aCo)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=YgvdxkP7aCo
+---
 - Bar Graphs
 	- A bar graph lists each measured category on the horizontal axis and the number of occurrences for each category on the vertical axis.
 	- ![[Screenshot 2023-04-28 at 7.47.21 AM.png]]

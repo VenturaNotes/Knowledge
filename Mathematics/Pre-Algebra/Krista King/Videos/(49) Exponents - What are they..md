@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=KcNiJqBJRQ8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=KcNiJqBJRQ8
+---
 - What are exponents (a.k.a. powers)
 	- There is no difference between exponents and powers.
 	- A shorthand way of expressing repeated multiplication of one thing by itself

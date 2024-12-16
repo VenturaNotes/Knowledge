@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=lN6uoDx92Vk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=lN6uoDx92Vk
+---
 - ![[Screenshot 2023-05-24 at 5.21.16 PM.png]]
 	- [[Periodic Functions]]
 		- A function f is periodic if f(t+p) = f(t) for some constant p

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Pf3tRx9iT5M)
-
+---
+Source:
+  - https://youtube.com/watch?v=Pf3tRx9iT5M
+---
 - ![[Screenshot 2023-04-04 at 7.50.25 PM.png]]
 	- Absolute value inequalities
 	- Regions

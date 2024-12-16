@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=QOots4mMRcU)
-
+---
+Source:
+  - https://youtube.com/watch?v=QOots4mMRcU
+---
 - ![[Screenshot 2023-06-05 at 11.18.01 AM.png]]
 	- Let A, B, and C be sets
 		- [[Equivalence Relation]]

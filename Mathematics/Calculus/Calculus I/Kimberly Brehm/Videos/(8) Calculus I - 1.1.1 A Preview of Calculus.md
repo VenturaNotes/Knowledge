@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=2-eZ6wkZrh8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=2-eZ6wkZrh8
+---
 - ![[Screenshot 2023-05-25 at 4.17.55 AM.png]]
 	- What is [[Calculus]]?
 		- Calculus is the mathematics of change

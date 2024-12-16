@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=Ptz1fa8lLyg)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=Ptz1fa8lLyg
+---
 - ![[Screenshot 2023-05-25 at 8.58.41 AM.png]]
 	- Not the Chain Rule
 		- Let's look at two functions. For each, we want to find the first derivative.

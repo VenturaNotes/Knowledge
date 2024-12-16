@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Mwsz3zqgHGM)
-
+---
+Source:
+  - https://youtube.com/watch?v=Mwsz3zqgHGM
+---
 - ![[Screenshot 2024-01-23 at 2.04.49 AM.png]]
 	- Slide 9 - (4) More examples
 		- The function h is a [[bijection]]

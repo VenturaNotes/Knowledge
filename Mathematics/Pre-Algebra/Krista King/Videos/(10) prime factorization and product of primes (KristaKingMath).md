@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=oyWpIN1lm50)
-
+---
+Source:
+  - https://youtube.com/watch?v=oyWpIN1lm50
+---
 - Find the product of primes by factoring the numbers
 - Examples
 	- ![[Screenshot 2022-12-14 at 10.08.54 PM.png]]

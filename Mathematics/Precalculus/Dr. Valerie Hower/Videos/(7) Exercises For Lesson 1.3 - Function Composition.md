@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=BZ5IpjGqJqU)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=BZ5IpjGqJqU
+---
 - ![[Screenshot 2023-05-06 at 3.27.37 AM.png]]
 	- Page 1
 		- Given, find the following

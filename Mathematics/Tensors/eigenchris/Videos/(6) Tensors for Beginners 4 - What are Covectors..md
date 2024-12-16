@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=LNoQ_Q5JQMY)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LNoQ_Q5JQMY
+---
 - ![[Screenshot 2023-10-10 at 2.07.42 AM.png]]
 	- [[Vectors]] are [[contravariant]]
 	- Second example of a [[tensor]] is t he [[covector]]

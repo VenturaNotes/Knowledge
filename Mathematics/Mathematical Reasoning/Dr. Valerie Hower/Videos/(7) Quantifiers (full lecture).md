@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=V5EfA0JSVpQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=V5EfA0JSVpQ
+---
 - ![[Screenshot 2023-12-08 at 1.42.36 AM.png]]
 	- Recall: Often we have a declarative sentence P(x)
 		- P(x) is not a statement as truth value is ambiguous

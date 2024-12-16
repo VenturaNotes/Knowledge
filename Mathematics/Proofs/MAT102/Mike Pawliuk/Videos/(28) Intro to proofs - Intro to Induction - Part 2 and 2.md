@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=XLdWHM1HOKM)
-
+---
+Source:
+  - https://youtube.com/watch?v=XLdWHM1HOKM
+---
 - ![[Screenshot 2024-01-22 at 10.58.27 PM.png]]
 	- Slide 9 - (3) Mathematical induction
 		- Proof strategy ([[Regular induction]])

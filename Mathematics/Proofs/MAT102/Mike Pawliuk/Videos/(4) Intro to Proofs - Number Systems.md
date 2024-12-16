@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=DksOrPo_a3g)
-
+---
+Source:
+  - https://youtube.com/watch?v=DksOrPo_a3g
+---
 - ![[Screenshot 2023-07-27 at 11.44.52 PM.png]]
 	- Slide 1 - Introduction to proofs - [[Number Systems]]
 	- Slide 2 - Learning objectives (for this video)

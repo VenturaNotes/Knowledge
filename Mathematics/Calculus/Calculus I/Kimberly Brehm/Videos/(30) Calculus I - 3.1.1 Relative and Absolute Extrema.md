@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=BfJauiDEc_M)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=BfJauiDEc_M
+---
 - ![[Screenshot 2023-05-27 at 12.36.48 AM.png]]
 	- The behavior of Functions
 		- The study of calculus often asks us to determine the behavior of a function at different points. Does the function have a minimum or maximum? At what point is the function increasing or decreasing?

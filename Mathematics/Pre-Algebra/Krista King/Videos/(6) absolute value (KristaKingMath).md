@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=j1rYWp189RA)
-
+---
+Source:
+  - https://youtube.com/watch?v=j1rYWp189RA
+---
 - Absolute value is the distance from the origin
 	- which means the result will always be positive
 - The two lines are called absolute value brackets or absolute value bars

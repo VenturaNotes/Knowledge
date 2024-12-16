@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=GKR91jlv2G4)
-
+---
+Source:
+  - https://youtube.com/watch?v=GKR91jlv2G4
+---
 - ![[Screenshot 2023-04-02 at 10.25.17 PM.png]]
 	- Working mathematically
 		- Why is this harder?

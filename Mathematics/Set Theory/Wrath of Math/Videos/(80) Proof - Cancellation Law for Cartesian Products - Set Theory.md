@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=8HeCKp5R7Dc)
-
+---
+Source:
+  - https://youtube.com/watch?v=8HeCKp5R7Dc
+---
 - ![[Screenshot 2023-06-05 at 7.51.15 PM.png]]
 	- Suppose that A, B, and C are sets with C $\ne$ $\varnothing$ 
 	- Prove that if $A \times C = B \times C, \text{ then } A = B$

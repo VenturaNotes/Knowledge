@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=5LkQEOPwqfk)
-
+---
+Source:
+  - https://youtube.com/watch?v=5LkQEOPwqfk
+---
 - Checking solution in differential equations
 - Recall:
 	- Solutions are equations so... Just take derivative(s) and plug in!

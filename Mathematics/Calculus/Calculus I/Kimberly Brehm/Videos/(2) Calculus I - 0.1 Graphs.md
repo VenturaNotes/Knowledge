@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=LWuN4IX9dEE)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=LWuN4IX9dEE
+---
 - ![[Screenshot 2023-05-25 at 1.57.31 AM.png]]
 	- The Graph of an equation
 		- Recall that when we graph an equation, we are plotting the solution points, or points that make the equation true. While there are "special" ways to graph linear and quadratic equations, when in doubt, you can always make an x-y table.

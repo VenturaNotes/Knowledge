@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=_ifOVfmzl8E)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=_ifOVfmzl8E
+---
 - ![[Screenshot 2023-10-10 at 11.10.10 PM.png]]
 	- Indicial notation - [[free indices]]
 	- [[Indicial notation]]

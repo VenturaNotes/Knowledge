@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=zMv-zcO8Jmk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=zMv-zcO8Jmk
+---
 - Probability is a measure of the likelihood of an event
 - If I flip a coin, what's the probability of the coin landing on tails?
 - Probability = $\frac {\text{\# of ways an event can occur}}{\text{\# of possible outcomes}}$

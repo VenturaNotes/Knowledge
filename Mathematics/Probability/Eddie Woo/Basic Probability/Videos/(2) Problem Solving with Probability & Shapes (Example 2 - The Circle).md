@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=0UtPPIqjJmk)
-
+---
+Source:
+  - https://youtube.com/watch?v=0UtPPIqjJmk
+---
 - ![[Screenshot 2023-04-02 at 10.39.32 PM.png]]
 	- Question
 		- "P and Q are ends of the diameter of a circle with radius 10cm. A point is chosen at random on the circumference of the circle. Find the probability that the points within 10cm of either P or Q or distances being measured along the circumference. "

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=GAInJ5VgJ1w)
-
+---
+Source:
+  - https://youtube.com/watch?v=GAInJ5VgJ1w
+---
 - Scientific notation
 	- A shorthand way to express very large or small numbers
 		- 96,300,000 could be expressed more simply

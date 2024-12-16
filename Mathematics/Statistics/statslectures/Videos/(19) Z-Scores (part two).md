@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=aa_deKPDgI4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=aa_deKPDgI4
+---
 - ![[Pasted image 20230429223803.png]]
 	- The Empirical Rule for Normally Distributed Data
 - ![[Screenshot 2023-04-29 at 10.45.10 PM.png]]

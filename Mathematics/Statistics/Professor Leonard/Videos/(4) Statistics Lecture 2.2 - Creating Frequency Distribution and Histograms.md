@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=AbHn39y8eUo)
-
+---
+Source:
+  - https://youtube.com/watch?v=AbHn39y8eUo
+---
 - Chapter 2 shows how we collect the data
 - Now organize
 - and then how to summarize it

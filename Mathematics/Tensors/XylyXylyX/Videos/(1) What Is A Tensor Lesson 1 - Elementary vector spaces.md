@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=_pKxbNyjNe8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=_pKxbNyjNe8
+---
 - ![[Screenshot 2023-09-29 at 3.21.56 PM.png]]
 	- [[Vector]]
 		- Will learn how to get from vector to [[tensor]]

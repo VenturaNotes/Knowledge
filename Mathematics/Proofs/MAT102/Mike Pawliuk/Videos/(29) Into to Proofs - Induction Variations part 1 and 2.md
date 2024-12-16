@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=qCcTxpZOUcw)
-
+---
+Source:
+  - https://youtube.com/watch?v=qCcTxpZOUcw
+---
 - ![[Screenshot 2024-01-22 at 11.36.51 PM.png]]
 	- Slide 2 - Learning Objectives (for this video)
 		- By the end of this video, participants should be able to :

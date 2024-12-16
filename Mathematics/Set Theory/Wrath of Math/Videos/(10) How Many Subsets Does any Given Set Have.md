@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=lTs-NGw0FQo)
-
+---
+Source:
+  - https://youtube.com/watch?v=lTs-NGw0FQo
+---
 - ![[Screenshot 2023-01-10 at 12.29.28 PM.png]]
 	- $\varnothing$ 
 		- Empty set is a subset of all sets

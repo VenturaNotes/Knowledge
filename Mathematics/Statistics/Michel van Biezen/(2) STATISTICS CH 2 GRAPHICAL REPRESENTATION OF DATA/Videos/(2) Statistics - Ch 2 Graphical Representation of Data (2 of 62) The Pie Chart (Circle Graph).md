@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=jzJ_OjSlVK4)
-
+---
+Source:
+  - https://youtube.com/watch?v=jzJ_OjSlVK4
+---
 - ![[Screenshot 2023-05-16 at 3.20.09 AM.png]]
 	- Gives a visual representation of what's going on especially if the number of data types there are is relatively few.
 		- Registered voters in county

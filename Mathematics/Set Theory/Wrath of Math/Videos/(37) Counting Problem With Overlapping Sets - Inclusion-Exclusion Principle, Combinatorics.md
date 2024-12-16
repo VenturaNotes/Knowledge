@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=8upF3sWid1s)
-
+---
+Source:
+  - https://youtube.com/watch?v=8upF3sWid1s
+---
 - ![[Screenshot 2023-06-01 at 10.20.36 AM.png]]
 	- Question
 		- Village of 150 people

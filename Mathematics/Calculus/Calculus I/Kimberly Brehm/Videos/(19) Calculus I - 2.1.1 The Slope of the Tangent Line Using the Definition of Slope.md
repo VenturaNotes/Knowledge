@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=foJyD3g8mLw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=foJyD3g8mLw
+---
 - ![[Screenshot 2023-05-25 at 7.49.28 AM.png]]
 	- The slope of a tangent line using a table
 		- Find the slope of the line tangent to the function f(x) = $x^2 - 2x + 1$ at the point (2,1)

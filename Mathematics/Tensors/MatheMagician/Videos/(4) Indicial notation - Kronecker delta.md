@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ty_2MovEh2k)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=ty_2MovEh2k
+---
 - ![[Screenshot 2023-10-10 at 11.21.03 PM.png]]
 	- [[Indicial notation]] - [[Kronecker delta]]
 		- Will come across [[permutation symbol]] a lot

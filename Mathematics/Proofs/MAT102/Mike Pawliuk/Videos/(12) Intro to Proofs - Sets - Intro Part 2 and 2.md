@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=hTU3shuWC9Q)
-
+---
+Source:
+  - https://youtube.com/watch?v=hTU3shuWC9Q
+---
 - ![[Screenshot 2023-11-13 at 9.55.04 PM.png]]
 	- Potential Errata
 		- On slide 10 example 1, it doesn't seem true. The solution should be {1, 2, 3}

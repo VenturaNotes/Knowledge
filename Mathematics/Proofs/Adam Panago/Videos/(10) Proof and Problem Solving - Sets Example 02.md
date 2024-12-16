@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=adokYWc-aH0)
-
+---
+Source:
+  - https://youtube.com/watch?v=adokYWc-aH0
+---
 - Write each of the following sets using an elementhood test.
 	- ![[Screenshot 2022-12-08 at 6.30.35 PM.png]]
 	- ![[Screenshot 2022-12-08 at 6.33.48 PM.png]]

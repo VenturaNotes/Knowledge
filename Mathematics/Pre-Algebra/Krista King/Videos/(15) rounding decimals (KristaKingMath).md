@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=nTBWPcR1fYM)
-
+---
+Source:
+  - https://youtube.com/watch?v=nTBWPcR1fYM
+---
 - Round to the
 	- 100ths
 		- ![[Screenshot 2022-12-24 at 12.06.31 AM.png]]

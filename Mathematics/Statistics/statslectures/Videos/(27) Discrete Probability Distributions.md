@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=s2S1oD3ovps)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=s2S1oD3ovps
+---
 - ![[Screenshot 2023-09-22 at 3.54.30 AM.png]]
 	- [[Discrete probability distribution]]
 	- [[Random Variable|Random Variables]]

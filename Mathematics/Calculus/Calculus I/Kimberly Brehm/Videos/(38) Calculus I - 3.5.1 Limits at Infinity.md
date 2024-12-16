@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=NLYMsgDykOk)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=NLYMsgDykOk
+---
 - ![[Screenshot 2023-05-28 at 8.43.53 AM.png]]
 	- [[Limits at Infinity]]
 		- When we discuss limits at infinity, we are discussing the end behavior of our function. Once all the "fun" stuff happens in your graph, what happens as x gets infinitely large or infinitely small?

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=G6yO3CKr68w)
-
+---
+Source:
+  - https://youtube.com/watch?v=G6yO3CKr68w
+---
 - Consider the logical statements P,Q, and R
 	- Which of the following are valid logical expressions?
 	- a) $P \lor \lnot Q$  (YES)

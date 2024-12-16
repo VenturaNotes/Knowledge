@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=ySpumpFbVlU)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=ySpumpFbVlU
+---
 - ![[Screenshot 2023-05-27 at 2.27.32 PM.png]]
 	- Relative Extrema and Inc/Dec Intervals
 		- After you have determined the intervals on which a function is increasing or decreasing, it is not difficult to locate the [[relative extrema]] of the function.

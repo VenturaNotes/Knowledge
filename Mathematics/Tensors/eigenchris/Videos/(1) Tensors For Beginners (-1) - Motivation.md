@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=8ptMTLzV4-I)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=8ptMTLzV4-I
+---
 - ![[Screenshot 2023-09-20 at 12.12.13 AM.png]]
 	- Prerequisites
 		- [[Linear Algebra]] important

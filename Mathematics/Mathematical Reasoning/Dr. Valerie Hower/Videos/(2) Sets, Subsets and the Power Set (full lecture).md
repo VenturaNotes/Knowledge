@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=OzNAb81cvo4)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=OzNAb81cvo4
+---
 - ![[Screenshot 2023-12-07 at 9.52.23 AM.png]]
 	- What is a [[set]]?
 		- An unordered collection of elements. We say a set contains its elements

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7K2StK7e3ww)
-
+---
+Source:
+  - https://youtube.com/watch?v=7K2StK7e3ww
+---
 ## Intro
 - Create 1 deck per test
 	- Creating too many card decks will make it difficult to get to everything you need to know

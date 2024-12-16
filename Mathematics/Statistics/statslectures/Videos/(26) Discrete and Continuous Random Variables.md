@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=3NtTAuGSAfc)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=3NtTAuGSAfc
+---
 - ![[Screenshot 2023-05-08 at 8.26.07 AM.png]]
 	- Random Variable
 		- A random variable is a variable which has its value determined by a probability experiment

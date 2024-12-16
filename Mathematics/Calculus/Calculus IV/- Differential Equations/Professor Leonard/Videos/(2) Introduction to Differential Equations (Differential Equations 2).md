@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=EWVSxND_iWA)
-
+---
+Source:
+  - https://youtube.com/watch?v=EWVSxND_iWA
+---
 - Goals in Differential Equations
 	- 1) Model Real-Life change
 		- Balance

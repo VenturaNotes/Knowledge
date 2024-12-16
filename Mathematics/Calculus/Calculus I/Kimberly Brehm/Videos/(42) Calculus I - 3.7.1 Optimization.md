@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=W6FYEfsShm0)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=W6FYEfsShm0
+---
 - ![[Screenshot 2023-05-29 at 12.36.59 AM.png]]
 	- Steps for Optimizing Applied Problems
 		- (1) Sketch a diagram of the problem, if you are able. Include any given quantities and variables for anything we need to determine. 

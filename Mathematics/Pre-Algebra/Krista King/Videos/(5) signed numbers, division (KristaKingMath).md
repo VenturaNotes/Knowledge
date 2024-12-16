@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=x-ylSAVMudw)
-
+---
+Source:
+  - https://youtube.com/watch?v=x-ylSAVMudw
+---
 - Chart
 	- ![[Screenshot 2022-12-13 at 6.17.23 PM.png]]
 	- This only applies to 2 numbers

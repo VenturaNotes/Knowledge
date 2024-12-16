@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=b5nhpf8J9cw)
-
+---
+Source:
+  - https://youtube.com/watch?v=b5nhpf8J9cw
+---
 - Consider the logical statements P, Q, and R.
 - Show that the logical expressions are equivalent
 	- ![[Screenshot 2022-12-08 at 11.13.24 PM.png]]

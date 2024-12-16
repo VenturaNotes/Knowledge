@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=-P9xUCipWcA)
-
+---
+Source:
+  - https://youtube.com/watch?v=-P9xUCipWcA
+---
 - This video talks about place value and expanded notation
 - Write the number in expanded notation
 	- 500 

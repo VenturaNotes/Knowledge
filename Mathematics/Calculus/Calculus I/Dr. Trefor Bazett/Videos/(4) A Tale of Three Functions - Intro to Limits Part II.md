@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=PllF7oQg8Og)
-
+---
+Source:
+  - https://youtube.com/watch?v=PllF7oQg8Og
+---
 - f(x) = x + 1
 	- ![[Screenshot 2022-12-30 at 2.15.44 AM.png]]
 	- Shows the value of x is getting closer to 1

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=j1BYA2G1qkc)
-
+---
+Source:
+  - https://youtube.com/watch?v=j1BYA2G1qkc
+---
 - ![[Screenshot 2024-01-23 at 2.27.00 AM.png]]
 	- Slide 8 - Functions and Compositions
 		- This is a fundamental result in math. Look for it in every math course

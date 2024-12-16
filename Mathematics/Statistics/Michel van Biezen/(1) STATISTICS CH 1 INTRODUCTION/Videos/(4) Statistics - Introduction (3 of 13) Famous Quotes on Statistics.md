@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=W-ewrFzHxYA)
-
+---
+Source:
+  - https://youtube.com/watch?v=W-ewrFzHxYA
+---
 - ![[Screenshot 2023-05-09 at 2.20.35 PM.png]]
 	- There are three types of lies, there are lies, damn lies, and statistics - Benjamin Disraeli
 	- Facts are stubborn things, but statistics are more pliable - Mark Twain

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=AbvaITy3oeQ)
-
+---
+Source:
+  - https://youtube.com/watch?v=AbvaITy3oeQ
+---
 ## Intro
 - Great for medical students
 

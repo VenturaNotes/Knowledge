@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=U4wui1mtotg)
-
+---
+Source:
+  - https://youtube.com/watch?v=U4wui1mtotg
+---
 - [[Set]]
 	- Unordered collection of <mark style="background: #FFF3A3A6;">distinct objects</mark>
 - {1, 2, 3} = A

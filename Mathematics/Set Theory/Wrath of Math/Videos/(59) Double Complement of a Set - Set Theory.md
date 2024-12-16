@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=C12XHbUzXT8)
-
+---
+Source:
+  - https://youtube.com/watch?v=C12XHbUzXT8
+---
 - ![[Screenshot 2023-06-05 at 11.01.55 AM.png]]
 	- [[Absolute complement]]: Taking the complement of a set with respect to some universal set
 		- Every other set is always a subset of the universal set

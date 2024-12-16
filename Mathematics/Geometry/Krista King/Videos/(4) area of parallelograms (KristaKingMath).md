@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Fx9lbj-2xDs)
-
+---
+Source:
+  - https://youtube.com/watch?v=Fx9lbj-2xDs
+---
 - ![[Screenshot 2022-12-31 at 2.57.52 AM.png]]
 - Find the area of each parallelogram
 	- A = bh

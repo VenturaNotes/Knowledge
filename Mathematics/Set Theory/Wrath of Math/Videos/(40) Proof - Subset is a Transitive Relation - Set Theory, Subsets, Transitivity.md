@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ped5GpoWDho)
-
+---
+Source:
+  - https://youtube.com/watch?v=ped5GpoWDho
+---
 - ![[Screenshot 2023-06-01 at 1.35.22 PM.png]]
 	- Let A, B, and C be sets.
 	- If A $\subseteq$ B and B $\subseteq$ C, then A $\subseteq C$

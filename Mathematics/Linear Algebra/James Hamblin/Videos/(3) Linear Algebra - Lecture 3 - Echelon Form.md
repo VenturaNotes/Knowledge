@@ -37,7 +37,7 @@ Source:
 	- Reduced echelon form will make it even easier to determine the solution(s) for the corresponding system of linear equations
 ---
 - Reduced Echelon Form
-	- A matrix is in [[reduced echelon form]] if it satisfies these conditions: ^5a33ff
+	- A matrix is in [[Reduced Row Echelon Form|reduced echelon form]] if it satisfies these conditions: ^5a33ff
 		- (1) Any rows of all zeroes are below any other rows
 		- (2) Each leading entry of a row is in a column to the right of the leading entry in the row above it
 		- (3) All entries in a column below a leading entry are zeros

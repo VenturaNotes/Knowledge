@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=zbPNegfNavQ)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=zbPNegfNavQ
+---
 - ![[Screenshot 2023-10-10 at 10.58.17 PM.png]]
 	- [[Indicial notation]] - notation and examples
 	- Notation for a vector $\bf {a}$ and a matrix B

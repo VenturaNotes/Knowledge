@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=Dfe9usPGwEA)
-
+---
+Source:
+  - https://youtube.com/watch?v=Dfe9usPGwEA
+---
 - ![[Screenshot 2023-01-07 at 11.25.44 PM.png]]
 	- Simplify the expression
 	- Expanding $x^4$ is xxxx and collapsing it gives $x^4$ 

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=o2q-L3auqW8)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=o2q-L3auqW8
+---
 - Describing Data
 	- Measures of Central Tendency:
 		- Mean: The "Average" of a distribution

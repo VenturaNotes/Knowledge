@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=RDQPlZjN86g)
-
+---
+Source:
+  - https://youtube.com/watch?v=RDQPlZjN86g
+---
 - ![[Screenshot 2023-01-15 at 1.12.26 PM.png]]
 - [[Equivalent Graph]] (isomorphic graph)
 	- Will have the same vertices and edges but not crossing over

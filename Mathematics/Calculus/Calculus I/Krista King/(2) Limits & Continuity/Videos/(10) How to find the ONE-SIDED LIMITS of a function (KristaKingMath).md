@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=7kk6NaT27uM)
-
+---
+Source:
+  - https://youtube.com/watch?v=7kk6NaT27uM
+---
 - ![[Screenshot 2023-10-03 at 10.55.28 PM.png]]
 	- Find the left and right-hand limits of the function
 		- Different from general limit (can only exist when 3 conditions are met)

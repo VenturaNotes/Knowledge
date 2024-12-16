@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=K96nsUhhEbA)
-
+---
+Source:
+  - https://youtube.com/watch?v=K96nsUhhEbA
+---
 - ![[Screenshot 2023-05-16 at 3.32.52 AM.png]]
 	- Ungrouped frequency distribution: For each data type, you have a specific frequency
 		- There is a one to one correspondence of data type and frequency

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=iJF2kPFGTUo)
-
+---
+Source:
+  - https://youtube.com/watch?v=iJF2kPFGTUo
+---
 - ![[Screenshot 2023-06-05 at 12.32.20 PM.png]]
 	- Bell's Triangle
 	- A [[partition]] of the elements of a set is like a sorting of the elements of the set into <mark style="background: #FFF3A3A6;">disjoint</mark> subsets.

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=ePriwrjqCrI)
-
+---
+Source:
+  - https://youtube.com/watch?v=ePriwrjqCrI
+---
 - ![[Screenshot 2023-05-16 at 3.24.43 AM.png]]
 	- Kind of like a pseudo-bar graph
 	- Gives frequency rating or a frequency "accounting"? of a certain data range or set

@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=EzE6it9kAsI)
-
+---
+Source:
+  - https://youtube.com/watch?v=EzE6it9kAsI
+---
 ## Introduction
 - Course on elementary number theory
 - Math 115, introduction to number theory

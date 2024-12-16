@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=sg0J9Rwa3Lo)
-
+---
+Source:
+  - https://youtube.com/watch?v=sg0J9Rwa3Lo
+---
 - ![[Screenshot 2023-05-31 at 7.44.51 PM.png]]
 	- Sketch a graph of R
 	- Find the domain and range of R

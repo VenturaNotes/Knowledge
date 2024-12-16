@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=9RX7WlGQyO0)
-
+---
+Source:
+  - https://youtube.com/watch?v=9RX7WlGQyO0
+---
 - ![[Screenshot 2024-01-16 at 4.51.50 PM.png]]
 	- Slide 8 - Pros and Cons of proof by contradiction
 		- Pros:

@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=AOIGNwjL-7c)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=AOIGNwjL-7c
+---
 - ![[Screenshot 2023-12-12 at 2.25.16 AM.png]]
 	- [[pairwise disjoint sets]]
 	- [[power set]]

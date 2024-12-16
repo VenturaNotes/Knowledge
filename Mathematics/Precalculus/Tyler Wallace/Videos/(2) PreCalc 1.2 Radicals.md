@@ -1,5 +1,7 @@
- [Video](https://youtube.com/watch?v=VJYT01NdJns)
-
+---
+Source:
+  - https://youtube.com/watch?v=VJYT01NdJns
+---
 - ![[Screenshot 2023-07-11 at 1.36.37 AM.png]]
 	- [[Radical|Radicals]]
 		- Only take even roots of non-negative numbers

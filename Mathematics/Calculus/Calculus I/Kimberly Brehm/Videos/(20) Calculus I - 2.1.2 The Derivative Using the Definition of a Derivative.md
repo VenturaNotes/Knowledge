@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=tyoukQr2_ck)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=tyoukQr2_ck
+---
 - ![[Screenshot 2023-05-25 at 8.02.33 AM.png]]
 	- What is a [[derivative function]]
 		- The derivative function f'(x) of the function f(x) is a function that will give us the instantaneous rate of change of f(x), aka the slope of the tangent line, at any point x in the domain of f(x)

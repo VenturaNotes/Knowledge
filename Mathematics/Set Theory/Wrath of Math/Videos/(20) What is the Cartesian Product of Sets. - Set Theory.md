@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=oBDZQMiuLEU)
-
+---
+Source:
+  - https://youtube.com/watch?v=oBDZQMiuLEU
+---
 - ![[Screenshot 2023-01-10 at 9.56.41 PM.png]]
 	- Cartesian product
 		- Operation on 2 sets

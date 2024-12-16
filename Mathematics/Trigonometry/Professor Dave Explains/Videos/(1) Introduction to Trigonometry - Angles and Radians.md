@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=0GkmnPdD6jY)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=0GkmnPdD6jY
+---
 - Image
 	- After geometry and algebra
 	- Let's review some angles

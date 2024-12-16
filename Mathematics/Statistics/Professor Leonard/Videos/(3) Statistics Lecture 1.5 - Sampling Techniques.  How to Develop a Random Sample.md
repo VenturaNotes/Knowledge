@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=MfkJu7J1LE4)
-
+---
+Source:
+  - https://youtube.com/watch?v=MfkJu7J1LE4
+---
 - Section 1.4 not covered much in class
 - Design experiments
 - Data must be collected randomly

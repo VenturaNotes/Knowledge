@@ -1,5 +1,7 @@
-[Video](https://www.youtube.com/watch?v=6yUQNbuLxiw)
-
+---
+Source:
+  - https://www.youtube.com/watch?v=6yUQNbuLxiw
+---
 - ![[Screenshot 2023-05-08 at 7.48.53 AM.png]]
 	- Combinations
 		- Imagine you're visiting a zoo with six animals, and I ask you to record the first three animals you see.

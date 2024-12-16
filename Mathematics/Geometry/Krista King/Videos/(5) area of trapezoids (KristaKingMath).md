@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=P5mhordVO98)
-
+---
+Source:
+  - https://youtube.com/watch?v=P5mhordVO98
+---
 - ![[Screenshot 2022-12-31 at 3.06.09 AM.png]]
 - Find the area of a each trapezoid
 	- Area forumla:

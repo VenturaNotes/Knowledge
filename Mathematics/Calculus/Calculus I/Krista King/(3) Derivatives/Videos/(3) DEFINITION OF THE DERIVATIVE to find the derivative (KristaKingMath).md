@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=QQOjJ9tyPWI)
-
+---
+Source:
+  - https://youtube.com/watch?v=QQOjJ9tyPWI
+---
 - ![[Screenshot 2023-10-30 at 11.23.17 PM.png]]
 	- Use the definition of the [[derivative]] to find the derivative at (1, 3) of $y = 4x - x^2$ 
 	- Reminder

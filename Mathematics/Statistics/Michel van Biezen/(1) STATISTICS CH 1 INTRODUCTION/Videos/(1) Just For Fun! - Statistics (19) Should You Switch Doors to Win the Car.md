@@ -1,5 +1,7 @@
-[Video](https://youtube.com/watch?v=1DklRHfo7z0)
-
+---
+Source:
+  - https://youtube.com/watch?v=1DklRHfo7z0
+---
 - ![[Screenshot 2023-05-09 at 1.45.57 PM.png]]
 	- Scenarios (Three doors where one has a car behind it)
 		- (1-Loss) Car in middle and you choose middle
