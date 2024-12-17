@@ -3,5 +3,33 @@ Source:
   - https://youtube.com/watch?v=kcBufqZgP4s
 Reviewed: true
 ---
-- Image
-	- 
+- ![[Screenshot 2024-12-16 at 1.30.02 AM.png]]
+	- The [[matrix equation]] Ax = b
+	- Linear Combinations as the product of a matrix and vector
+		- If A is an $m \times n$ matrix with columns $a_1, a_2, ..., a_n$ and if $x \in \mathbb{R}^n$, then Ax is the linear combination of the columns of A using the corresponding entries in x as weights: (see image)
+		- Matrix must have same number of columns as the vector has rows. The vector elements will be used as weights
+	- Examples
+		- (1) Find Ax
+		- (2) Write the linear combination as a matrix times a vector
+			- Vector used as weights here
+	- The same - but different (all same representations for systems of equations)
+		- System of equations
+		- Augmented Matrix
+			- Textbook doesn't show line between coefficients and solutions but professor would like this
+		- Vector Equation
+			- Uses $x_1$ as the weights multiplied by vectors
+		- Matrix Equation
+			- A will be the [[coefficient matrix]]
+			- x will be the vector
+			- right side of = is the solutions
+	- Existence of Solutions
+		- Let A be an $m \times n$ matrix. Then these statements are logically equivalent:
+			- (1) For each b in $\mathbb{R}^m$, the equation $Ax = b$ has a solution
+				- This means there is a solution for every b
+			- (2) Each b in $\mathbb{R}^m$ is a linear combination of the columns of A
+			- (3) The columns of A span $\mathbb{R}^m$ 
+			- (4) A has a pivot position in every row (A must be a coefficient matrix - not augmented)
+- ![[Screenshot 2024-12-16 at 1.32.18 AM.png]]
+	- Let A = matrix and b = vector. Is the equation Ax = b consistent for all possible b?
+		- This is inconsistent as 0 = $b_1 - \frac 12 b_2 + b_3$ which means it's not for all possible values of b. There are values that will make the expression not equal to 0
+			- #question Does this just mean a free variable is needed?

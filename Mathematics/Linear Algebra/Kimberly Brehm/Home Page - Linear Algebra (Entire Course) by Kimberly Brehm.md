@@ -13,8 +13,8 @@ tags:
 	- [[(4) Linear Algebra 1.2.2 Solution Sets and Free Variables]]
 	- [[(5) Linear Algebra 1.3.1 Vector Equations]]
 	- [[(6) Linear Algebra 1.3.2 Linear Combinations]]
-- Incomplete
 	- [[(7) Linear Algebra 1.4.1 The Matrix Equation Ax=b]]
+- Incomplete
 	- [[(8) Linear Algebra 1.4.2 Computation of Ax]]
 	- [[(9) Linear Algebra 1.5.1 Homogeneous System Solutions]]
 	- [[(10) Linear Algebra 1.5.2 Non-Homogeneous System Solutions]]

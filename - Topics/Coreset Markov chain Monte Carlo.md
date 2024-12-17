@@ -1,0 +1,4 @@
+---
+aliases:
+  - Coreset MCMC
+---
