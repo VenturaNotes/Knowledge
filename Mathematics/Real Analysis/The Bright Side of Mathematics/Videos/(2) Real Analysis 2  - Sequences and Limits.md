@@ -2,4 +2,72 @@
 Source:
   - https://www.youtube.com/watch?v=1SguKALJji8
 ---
-
+- ![[Screenshot 2024-12-17 at 9.33.10 PM.png]]
+	- Will talk about sequences and limits
+	- [[Sequences]]: A sequence of real numbers: a map a: $\mathbb{N}$ $\to$ $\mathbb{R}$  or a: $\mathbb{N_0} \to \mathbb{R}$
+		- Map from the natural numbers into the real numbers
+		- For $\mathbb{N}$, we don't include 0. For $\mathbb{N}_0$, we do.
+			- Only difference is if we start counting form 1 or 0.
+		- In sequences, we seldom write down such a map but rather an infinite list of numbers
+		- Remember formally that a sequence is a map, but we will use shorter notations
+		- Notations: $(a_1, a_2, a_3, ...)$ (infinite list of numbers)
+			- Will often just see $(a_n)_{n \in \mathbb{N}}$
+				- To remind you that it is an infinite list, we put $n \in \mathbb{N}$ in the index three
+					- If we want to start with 0, would put $\mathbb{N}_0$ instead of $\mathbb{N}$ 
+			- Could do $(a_n)_{n=1}^\infty$
+			- Could do ($a_n$) if starting number is clear
+	- Examples
+		- The best way to describe a sequence is to give a rule for all the sequence members $a_n$ 
+			- (a) $(a_n)_{n \in \mathbb{N}} = ((-1)^n)_{n \in N} = (-1, 1, -1, 1, ...)$
+				- Image is a great way to visualize a sequence on the number line
+				- So you can see the sequence has time steps where we hit at each time step a number on the number line
+				- Not only way to visualize a sequence since we know it's a map
+					- Could draw graph of this [[map]]
+					- We have a set in this coordinate system. Remember the [[Domain (Math)|domain]] is just $\mathbb{N}$ so x-axis is $\mathbb{N}$ 
+					- The [[codomain]] is $\mathbb{R}$ so y-axis is $\mathbb{R}$
+					- We don't get a line but points
+					- We have -1 as the value of the map
+					- What happens to the sequence when $n$ goes to infinity?
+						- For this example, not much will happen because you still jump between -1 and 1. Doesn't matter how large the $n$ is. The jumping is always the same.
+			- (b) $(a_n)_{n \in \mathbb{N}} = (\frac 1n) _{n \in N} = (1, \frac 12, \frac 13, \frac 14, ...)$
+				- Defining the sequence to be $\frac 1n$ 
+				- We see when $n$ gets larger, we get closer and closer to 0 and this we will define soon as the limit of the sequence
+				- We will see: $\lim_{n \to \infty} a_n = 0$
+					- Sequence from before does not satisfy such a rule.
+				- However, before we define the [[limit]] as a property of a sequence, lets look at another example
+			- (c) $(a_n)_{n \in \mathbb{N}} = (2^n)_{n \in N} = (2, 4, 8, 16, ...)$
+				- No upper bound for members of sequence so we could say this limit should be infinity. 
+					- Don't know what this means exactly so we need to clarify this as well
+	- Definition: A sequence $(a_n)_{n \in \mathbb{N}}$ is called convergent to a $\in$ $\mathbb{R}$ if $\exists N \in \mathbb{N}, \forall n \ge N: |a_n - a| < \epsilon$ (and $\forall \epsilon > 0$ ?)
+		- Will define the notion of a [[convergent sequences|convergent sequence]] of real numbers
+		- We say that a sequence $a_n$ is convergent to a given number $a$ if the sequence members $a_n$ lie arbitrarily close to $a$ eventually
+		- Let's visualize this idea on the number line
+			- We have the point `a` and in green, we have the epsilon-neighborhood of "a"
+			- This means for a given positive number epsilon, we can look at the number "a + epsilon" and "a - epsilon"
+				- The whole region in-between we call the epsilon neighborhood of `a`
+					- Please note that "a" doesn't denote a sequence anymore but just another number. It's just a common notation
+			- If we want to have `a` as a limit of the sequence in some sense, we need to get closer and closer to "a" with the sequence members or eventually, all of the sequence members have to lie in this epsilon-neighborhood of `a`
+				- Only finitely many can lie outside
+				- At some point, we will find an index $N$ such that all the sequence members afterwards lie inside the epsilon-neighborhood
+				- So what we should see is that this is really needed if we want to make sense out of the sentence "$a_n$ gets closer and closer to point "a"
+					- Therefore the formal phrasing essentially means that $a_n$ lies in the epsilon-neighborhood of `a` 
+					- However, this only describes convergence to the point $a$ if this works for any epsilon. So no matter how small the epsilon, this always works
+						- Of course, choosing a smaller epsilon may mean we choose a greater $N$ 
+						- In the end, this does not matter as we still have infinitely many sequence members inside the epsilon-neighborhood and only finitely many outside.
+						- With this, you have the full definition of [[convergence]]
+	- The opposite of this, we simply call [[divergence]]
+		- If there is no such a $\in$ $\mathbb{R}$, we call the sequence $(a_n)_{n \in \mathbb{N}}$ [[divergent]].
+			- Already saw 2 examples where we can't find such an $a$ 
+		- Example: $(a_n)_{n \in \mathbb{N}} = (\frac 1n)_{n \in \mathbb{N}}$ is convergent to 0 $\in$ $\mathbb{R}$ (so a from above is 0)
+			- Since we had to show the above statement for all epsilon, we have to choose an arbitrary epsilon at the beginning. 
+			- So the first sentence in the proof should read:
+				- Proof: Let $\epsilon$ > 0. We choose N $\in$ $\mathbb{N}$ such that N $\cdot$ $\epsilon$ > 1. This is possible due to [[Archimedean property]]. Then for n $\ge$ N, we have $|a_n - 0| = |a_n| = \frac 1n \le \frac 1N \lt \epsilon$ 
+					- epsilon is a real number here. 
+					- the Archimedean property tells us that no matter how small the number $\epsilon$ is, we can always exceed any number we want just by adding the number finitely many times
+					- Therefore, we just find a suitable $N$ here. 
+			- This is how your thinking process should be when you want to solve such a problem
+				- Start with the things you need to put in and what you want to show in the end. Then try to fill in all the gaps such that in the end, you can read it from left to right. 
+					- So you may need to shift things around to get result in the end. 
+	- Next video will talk about properties of convergent sequence
+- Questions
+	- 

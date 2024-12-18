@@ -3,3 +3,43 @@ Source:
   - https://youtube.com/watch?v=ODOztJ6YRUM
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-17 at 1.07.00 AM.png]]
+	- [[Homogeneous system]] solutions
+		- or solutions of homogeneous systems
+	- What does it mean?
+		- A system of linear equations that can be written in the form $Ax = 0$ is called [[homogeneous]]
+		- [[Trivial solution]]: x = 0
+			- Every homogeneous system will have a trivial solution of $x = 0$ 
+			- It means we have some matrix $A$ and some vector $x$ which will make up a homogeneous system
+			- It makes sense that they all would have a trivial solution because if we replaced all $x$ in the vector with 0s, then it would make sense that $a_1*0$ is 0 because remember the solution 0 is just the [[zero vector]]
+				- If we have all zeros in vector, then solution will be zero
+		- [[Non-trivial solution]] $\vec x$  $\ne$ 0 $\leftarrow$ We want to solve for x
+			- We want to know if there is some solution set that makes the matrix times the vector also equal to 0
+		- $Ax = 0$ must have at least 1 free variable
+			- In green example, could change variable `x` vector to anything we wanted and would have many solutions
+			- That means the solution is dependent on some free variable
+				- This is how we know that we need at least one free variable
+			- If we had one free variable, it would look like a line going through the point $(0, 0, 0)$
+				- What makes the line is that we're changing the value of $x_1$ which in turn changes the value of $x_2$ and $x_3$ because they were based on $x_1$ 
+			- If we had two free variables $x_1$ and $x_2$, then $x_3$ varies based on what we change $x_1$ and $x_2$ to be (so it will look more like a plane still crossing through that same point)
+	- Example
+		- Finding free variable and what our other variables are in relation to that free variable
+		- Want to write it as $[A|0]$ 
+			- A is going to be an echelon matrix and 0 is obviously the zero vector
+			- With no pivot in $x_3$ means that $x_3$ is free
+		- Can write solution as $x_3 \begin{bmatrix}\frac 43 \\ 0 \\ 1 \end{bmatrix}$ where $x_3$ is some constant multiplied by some vector $\vec v$ 
+			- This brings us to parametric vector form
+			- A parametric vector equation says that we can write x as some constant times some vector
+				- $x = t\vec v$  or $\vec x = tv$? 
+	- Practice
+		- Turn first into [[reduced row echelon form]] and then write as a parametric vector equation or parametric vector form
+		- #question Is the purple considered in [[Reduced Row Echelon Form|RREF]]?
+		- In $x = t\vec v$ 
+			- We have some constant `t` times some vector
+- ![[Screenshot 2024-12-17 at 1.10.09 AM.png]]
+	- 2 Free variable Example
+		- Parametric form with more than one value essentially is
+			- $x = s\vec u+ t\vec v$
+				- $s$ is the constant $x_3$  
+				- $t$ is the constant $x_4$ 
+			- So correct format for parametric vector form

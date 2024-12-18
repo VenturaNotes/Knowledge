@@ -3,12 +3,23 @@ Source:
   - https://youtube.com/watch?v=mH3Me8P-CO8
 Reviewed: false
 ---
-- Image
+- ![[Screenshot 2024-12-17 at 12.44.33 AM.png]]
 	- Playlist followed by "Linear algebra and its applications by David Lay"
 	- Wanted to talk about the computation of $Ax$ 
 		- More of the normal way that we would multiply matrices
 	- Example Revisited
 		- Find Ax
+			- Used vector as scalars
 		- Previously
 		- Row-Vector Rule for computing Ax
 			- If Ax is defined, the $i^{th}$ entry in $A_x$ is the sum of the products of corresponding entries from row i of A and from the vector x
+	- Practice
+		- Given a matrix and 2 vectors, find the following expressions
+		- Will do proof to show both values are equivalent
+			- One of the properties is that $A(\vec u + \vec v$) is equivalent to $A\vec u + A \vec v$ 
+				- #question is there a sign for equivalence?
+	- Practice 2
+		- Doing example that the two expressions are equivalent
+			- $A(c\vec u)$ is equivalent to $c(A\vec u)$ 
+			- We have a matrix A, vector $\vec u$, and scalar c
+		- Proof can be found in textbook

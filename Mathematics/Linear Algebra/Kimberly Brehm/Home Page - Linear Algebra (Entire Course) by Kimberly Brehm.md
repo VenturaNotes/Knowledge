@@ -14,9 +14,9 @@ tags:
 	- [[(5) Linear Algebra 1.3.1 Vector Equations]]
 	- [[(6) Linear Algebra 1.3.2 Linear Combinations]]
 	- [[(7) Linear Algebra 1.4.1 The Matrix Equation Ax=b]]
-- Incomplete
 	- [[(8) Linear Algebra 1.4.2 Computation of Ax]]
 	- [[(9) Linear Algebra 1.5.1 Homogeneous System Solutions]]
+- Incomplete
 	- [[(10) Linear Algebra 1.5.2 Non-Homogeneous System Solutions]]
 	- [[(11) Linear Algebra 1.6.1 Applications of Linear Systems - Economic Sectors]]
 	- [[(12) Linear Algebra 1.6.2 Applications of Linear Systems - Network Flow]]
