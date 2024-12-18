@@ -8,9 +8,9 @@ tags:
   - type/playlist
 ---
 - Complete
-- Incomplete
 	- [[(1) Real Analysis 1  - Introduction]]
 	- [[(2) Real Analysis 2  - Sequences and Limits]]
+- Incomplete
 	- [[(3) Real Analysis 3  - Bounded Sequences and Unique Limits]]
 	- [[(4) Real Analysis 4  - Theorem on Limits]]
 	- [[(5) Real Analysis 5  - Sandwich Theorem]]

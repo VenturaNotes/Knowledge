@@ -1615,6 +1615,7 @@ function calculateCurrentDuration() {
     <div id="currentDuration" class="cellValue">Segment Duration: 00:00:00</div>
     <div id="timeLeft" class="cellValue">Time Left: 00:00:00</div>
     <div id="totalTimeLeft" class="cellValue">Total Time Left: 00:00:00</div>
+    
     <div id="cellValueP2" class="cellValue">00:00:00</div>
     <div>Progress Minimum</div>
     <div id="cellValueL2" class="cellValue">00:00:00</div>
@@ -2103,14 +2104,15 @@ function calculateCurrentDuration() {
     <div id="currentDuration" class="cellValue">Segment Duration: 00:00:00</div>
     <div id="timeLeft" class="cellValue">Time Left: 00:00:00</div>
     <div id="totalTimeLeft" class="cellValue">Total Time Left: 00:00:00</div>
-    <div id="cellValueP2" class="cellValue">00:00:00</div>
-    <div>Progress Minimum</div>
-    <div id="cellValueL2" class="cellValue">00:00:00</div>
-    <div>Progress Baseline</div>
-    <div id="cellValueQ2" class="cellValue">00:00:00</div>
-    <div>Pace Minimum</div>
-    <div id="cellValueN2" class="cellValue">00:00:00</div>
-    <div>Pace Baseline</div>
+
+    <div id="cellValueP2" class="cellValue">...</div>
+    <div>Goal End Time</div>
+    <div id="cellValueQ2" class="cellValue">...</div>
+    <div>Time Left</div>
+    <div id="cellValueL2" class="cellValue">...</div>
+    <div>Time Ahead</div>
+    <div id="cellValueN2" class="cellValue">...</div>
+    <div>Current End Time</div>
 
     <div id="cellLoading" class="cellValue">Loading</div>
 
@@ -2137,7 +2139,7 @@ function calculateCurrentDuration() {
         showLoading();
         pressButton('timeButton');
         google.script.run.withSuccessHandler(displayCurrentDuration).calculateCurrentDuration();
-        updateCellValues();
+        google.script.run.withSuccessHandler(displayCellValues).fetchCellValues();
       }
 
       function showStartTime(){
@@ -2204,8 +2206,502 @@ function calculateCurrentDuration() {
         showComplete();
       }
 
-      function updateCellValues() {
+      function startGame(){
+        showLoading();
+        google.script.run.withSuccessHandler(displayStats).fetchStats();
+      }
+
+      function displayStats(stats){
+        var cellValueLevel = document.getElementById('level');
+        var cellValueHandicap = document.getElementById('handicap');
+
+        cellValueLevel.textContent = "Level: " + stats[0];
+        cellValueHandicap.textContent = "Delay: " + stats[1];
+
+        showComplete();
+      }
+
+      function displayCellValues(values) {
+        var cellValueDivP2 = document.getElementById('cellValueP2');
+        var cellValueDivL2 = document.getElementById('cellValueL2');
+        var cellValueDivQ2 = document.getElementById('cellValueQ2');
+        var cellValueDivN2 = document.getElementById('cellValueN2');
+
+        cellValueDivP2.textContent = values.P2;
+        cellValueDivL2.textContent = values.L2;
+        cellValueDivQ2.textContent = values.Q2;
+        cellValueDivN2.textContent = values.N2;
+
+        if (values.L2.startsWith('-')) {
+          cellValueDivL2.style.color = 'red';
+        } else {
+          cellValueDivL2.style.color = 'green';
+        }
+
+        if (values.Q2.startsWith('-')) {
+          cellValueDivQ2.style.color = 'green';
+        } else {
+          cellValueDivQ2.style.color = 'red';
+        }
+      }
+
+      function pressButton(buttonId) {
+        var button = document.getElementById(buttonId);
+        button.classList.add('pressed');
+        setTimeout(function() {
+          button.classList.remove('pressed');
+        }, 200);
+      }
+
+      // Initial call to fetch and display the cell values when the sidebar is opened
+      window.onload = startGame;
+    </script>
+  </body>
+</html>
+```
+#### Description
+- Trying to keep up at least 80% of my studying speed
+- Removed stacking for being 20 minutes ahead
+	- Modified it so that I can adjust the speed whenever appropriate
+- Added a "store" button for better interruptions. Can use "store" multiple times on the same segment (as long as you press "start" afterwards)
+	- Fixed the "duration" and "log time" sections to fix this
+- If Level = 0, then delay will not increase when adjusting speed. My initial speed was too quick to follow-through with. 
+- Made it so "Level" and "Delay" are on the same level
+- Added Progress % and maximum % to aim my goal towards
+	- Downside is that the initial "Duration" button is a little slower. We'll just try to avoid that a little
+![[Screenshot 2024-12-17 at 6.59.06 AM.png|200]]
+- Later installments remove the Progress and Pace calculations
+
+### Solution 9
+#### MyScript.gs
+```javascript
+var segment = 1200000; //20 minutes
+// This function creates a custom menu in Google Sheets
+function onOpen() {
+  var ui = SpreadsheetApp.getUi();
+  ui.createMenu('Time Tracking')
+    .addItem('Timers', 'showSidebar')
+    .addToUi();
+}
+
+// This function shows the sidebar with the floating button
+function showSidebar() {
+  var html = HtmlService.createHtmlOutputFromFile('Sidebar')
+      .setTitle('Timers');
+  SpreadsheetApp.getUi().showSidebar(html);
+}
+
+// This function is triggered by the floating button
+function logTime() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var lastRow = getLastRowInColumn(16);  // Get the last row with data in column 16
+  var timestamp = new Date();
+
+  var initialDate = new Date(1899, 11, 30);
+  var storedValue = sheet.getRange(lastRow+1, 21).getValue();
+  var storedValueDuration;
+  
+  if (storedValue === ""){
+    storedValueDuration = 0;
+  }
+  else
+  {
+    storedValueDuration = storedValue - initialDate;
+  }
+
+  // If this is not the first row, calculate the duration from the previous timestamp
+  if (lastRow > 0) {
+    var prevTimestamp = new Date(sheet.getRange(lastRow, 16).getValue());
+    var durationMs = timestamp - prevTimestamp + storedValueDuration;
+    var duration = formatDuration(durationMs);
+    sheet.getRange(lastRow + 1, 6).setValue(duration);
+  }
+
+  var level = sheet.getRange(4, 17).getValue();
+  var handicap = sheet.getRange(5, 17).getValue();
+
+  sheet.getRange(lastRow+1, 18).setValue(level);
+  sheet.getRange(lastRow+1, 19).setValue(handicap);
+
+  // Log the current timestamp
+  sheet.getRange(lastRow + 1, 16).setValue(timestamp);
+}
+
+function startTime(){
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var lastRow = getLastRowInColumn(16)
+  var timestamp = new Date();
+
+  if (lastRow == 3){
+    sheet.getRange(lastRow + 1, 16).setValue(timestamp);
+  }
+  else
+  {
+    sheet.getRange(lastRow, 16).setValue(timestamp);
+  }
+  return 
+}
+
+function storeTimeSegment(){
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var lastRow = getLastRowInColumn(16);  // Get the last row with data in column 16
+  
+  var initialDate = new Date(1899, 11, 30);
+  var storedValue = sheet.getRange(lastRow+1, 21).getValue();
+  var storedValueDuration;
+  
+  if (storedValue === ""){
+    storedValueDuration = 0;
+  }
+  else
+  {
+    storedValueDuration = storedValue - initialDate;
+  }
+  
+  var prevTimestamp = new Date(sheet.getRange(lastRow, 16).getValue());
+  var currentTimestamp = new Date();
+  
+  var durationMs = currentTimestamp - prevTimestamp + storedValueDuration;
+  var duration = formatDuration(durationMs);
+
+  sheet.getRange(lastRow + 1, 21).setValue(duration);
+}
+
+function getLastRowInColumn(column) {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var data = sheet.getRange(1, column, sheet.getMaxRows(), 1).getValues();
+  for (var i = data.length - 1; i >= 0; i--) {
+    if (data[i][0] !== '') {
+      return i + 1;
+    }
+  }
+  return 0;
+}
+
+// Helper function to format duration in HH:MM:SS, handles negative durations
+function formatDuration(durationMs) {
+  var isNegative = durationMs < 0;
+  var totalSeconds = Math.abs(Math.floor(durationMs / 1000));
+  var hours = Math.floor(totalSeconds / 3600);
+  var minutes = Math.floor((totalSeconds % 3600) / 60);
+  var seconds = totalSeconds % 60;
+
+  // Format the duration
+  var formatted = pad(hours) + ':' + pad(minutes) + ':' + pad(seconds);
+
+  // Add minus sign if the duration is negative
+  return isNegative ? '-' + formatted : formatted;
+}
+
+// Helper function to pad single digit numbers with a leading zero
+function pad(number) {
+  return number < 10 ? '0' + number : number;
+}
+
+function getCellValue(cell) {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Main');
+  sheet.getRange("T6").setValue(1);
+  var value = sheet.getRange(cell).getDisplayValue();
+  return value.toString();
+}
+
+
+// Function to fetch values from multiple cells
+function fetchCellValues() {
+  var cellValues = {};
+  cellValues.P2 = getCellValue('T8');
+  cellValues.L2 = getCellValue('T10');
+  cellValues.Q2 = getCellValue('T12');
+  cellValues.N2 = getCellValue('T14');
+  return cellValues;
+}
+
+function pad2(number, digits = 2) {
+  return number.toString().padStart(digits, '0');
+}
+
+// Helper function to format duration in HH:MM:SS.mmm, handles negative durations
+function formatDuration2(durationMs) {
+  var isNegative = durationMs < 0;
+  var totalMilliseconds = Math.abs(durationMs);
+  var totalSeconds = Math.floor(totalMilliseconds / 1000);
+  var milliseconds = Math.floor(totalMilliseconds % 1000);
+  var hours = Math.floor(totalSeconds / 3600);
+  var minutes = Math.floor((totalSeconds % 3600) / 60);
+  var seconds = totalSeconds % 60;
+
+  // Format the duration
+  var formatted = pad2(hours) + ':' + pad2(minutes) + ':' + pad2(seconds) + '.' + pad2(milliseconds, 3);
+
+  // Add minus sign if the duration is negative
+  return isNegative ? '-' + formatted : formatted;
+}
+
+
+function calculateMultiplier() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var initialDate = new Date(1899, 11, 30);
+  var updateCell = false;
+
+  var lastRow = getLastRowInColumn(8)
+  var difference = sheet.getRange(lastRow, 8).getValue();
+  
+  var differenceMs = difference - initialDate; //Format is in terms of milliseconds
+
+  if(differenceMs < 0){
+    if (sheet.getRange(4, 17).getValue() != 0)
+    {
+      sheet.getRange(5, 17).setValue(sheet.getRange(5, 17).getValue() + 1);
+    }
+    updateCell = true;
+  }
+  else if (differenceMs >= 0){
+    sheet.getRange(4, 17).setValue(sheet.getRange(4, 17).getValue() + 1);
+    updateCell = true;
+  }
+
+  if (updateCell)
+  {
+    sheet.getRange(6, 17).setValue("0:00:00");
+    sheet.getRange(8, 17).setValue(lastRow);
+
+    var level = sheet.getRange(4, 17).getValue();
+    var handicap = sheet.getRange(5, 17).getValue();
+    var oldRate =  sheet.getRange(lastRow, 11).getValue() / sheet.getRange(4, 3).getValue();
+    var percentage = 0.8;
+    var oldMultiplier = 1 / oldRate;
+
+    var newMultiplier = (oldMultiplier*2) + percentage*(oldMultiplier-oldMultiplier*2);
+
+    sheet.getRange(4, 3).setValue(newMultiplier);
+    sheet.getRange(lastRow, 18).setValue(level);
+    sheet.getRange(lastRow, 19).setValue(handicap);
+    SpreadsheetApp.flush();
+    Utilities.sleep(250); 
+    sheet.getRange(6, 17).setValue(formatDuration2(sheet.getRange(lastRow, 8).getValue() - initialDate));
+
+  }
+  //Needs to be here or potential error. 
+  // Need to return variables level and handicap
+  return [sheet.getRange(4, 17).getValue(),sheet.getRange(5, 17).getValue()];
+}
+
+function fetchStats(){
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+
+  return [sheet.getRange(4, 17).getValue(),sheet.getRange(5, 17).getValue()]
+}
+
+// This function calculates the current duration of the segment
+function calculateCurrentDuration() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var lastRow = getLastRowInColumn(16);  // Get the last row with data in column 16
+  var initialDate = new Date(1899, 11, 30);
+  
+  var timeLeft = new Date(sheet.getRange(lastRow + 1, 3).getValue());
+  var timeLeftFormatted = formatDuration(timeLeft- initialDate);
+
+  var totalTimeLeft = new Date(sheet.getRange(lastRow, 8).getValue());
+  var totalTimeLeftFormatted = formatDuration(totalTimeLeft- initialDate);
+
+  var storedValue = sheet.getRange(lastRow+1, 21).getValue();
+  var storedValueDuration;
+
+  //Finding % progress
+  var currentProgress = Math.floor((sheet.getRange(lastRow, 8).getValue() - initialDate) / (sheet.getRange(7, 17).getValue() - initialDate)*100);
+  var maxProgress = Math.floor((sheet.getRange(9, 17).getValue() - initialDate) / (sheet.getRange(7, 17).getValue() - initialDate)*100);
+
+  if (storedValue === ""){
+    storedValueDuration = 0;
+  }
+  else
+  {
+    storedValueDuration = storedValue - initialDate;
+  }
+
+  if (lastRow > 0) {
+    var prevTimestamp = new Date(sheet.getRange(lastRow, 16).getValue());
+    var currentTimestamp = new Date();
+    var durationMs = currentTimestamp - prevTimestamp+storedValueDuration;
+    var duration = formatDuration(durationMs);
+
+    var timeLeftDuration = formatDuration(timeLeft - initialDate - durationMs);
+    var totalTimeDuration = formatDuration(totalTimeLeft - initialDate + (timeLeft - initialDate - durationMs)+segment);
+
+    return [duration, timeLeftDuration,totalTimeDuration, currentProgress, maxProgress];
+  } else {
+    return ['00:00:00', timeLeftFormatted, totalTimeLeftFormatted, currentProgress, maxProgress]; // If there is no previous timestamp, return 0 duration
+  }
+}
+```
+#### Sidebar.html
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+      #floatingButton, #timeButton, #multiplierButton, #startButton, #storeButton {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: opacity 0.2s;
+      }
+      #multiplierButton{
+        left: 20px;
+        right: auto;
+        //right: 100px;
+      }
+      #timeButton {
+        bottom: 60px;
+      }
+      #startButton {
+        left: 20px;
+        right: auto;
+        bottom: 60px;
+      }
+      #storeButton {
+        bottom: 100px;
+      }
+      .pressed {
+        opacity: 0.5;
+      }
+      .cellValue {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      .cellPace {
+        font-size: 20px;
+        font-weight: bold;
+        display: inline-block;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="floatingButton" onclick="logTime()">Log Time</button>
+    <button id="timeButton" onclick="showCurrentDuration()">Duration</button>
+    <button id="multiplierButton" onclick="calculateMultiplier()">Adjust Speed</button>
+    <button id="startButton" onclick="showStartTime()">Start</button>
+    <button id="storeButton" onclick="storeTime()">Store</button>
+
+    <div id="level" class="cellPace">Level: ...</div>
+    <div id="handicap" class="cellPace">Delay: ...</div>
+
+    <div id="percentProgress" class="cellValue">Progress: 0% Max: 0%</div>
+
+    <div id="currentDuration" class="cellValue">Segment Duration: 00:00:00</div>
+    <div id="timeLeft" class="cellValue">Time Left: 00:00:00</div>
+    <div id="totalTimeLeft" class="cellValue">Total Time Left: 00:00:00</div>
+
+    <div id="cellValueN2" class="cellValue">...</div>
+    <div>Current End Time</div>
+    <div id="cellValueL2" class="cellValue">...</div>
+    <div>Time Ahead</div>
+    <div id="cellValueQ2" class="cellValue">...</div>
+    <div>Time Left</div>
+    <div id="cellValueP2" class="cellValue">...</div>
+    <div>Goal End Time</div>
+    
+
+    <div id="cellLoading" class="cellValue">Loading</div>
+
+    <script>
+      function logTime() {
+        showLoading();
+        pressButton('floatingButton');
+        
+        var currentDurationDiv = document.getElementById('currentDuration');
+        currentDurationDiv.textContent = `Segment Duration: 00:00:00`;
+
+        var timeLeftDiv = document.getElementById('timeLeft');
+        timeLeftDiv.textContent = 'Time Left: 00:00:00';
+        timeLeftDiv.style.color = 'black';
+
+        var totalTimeLeftDiv = document.getElementById('totalTimeLeft');
+        totalTimeLeftDiv.textContent = 'Total Time Left: 00:00:00';
+        totalTimeLeftDiv.style.color = 'black';
+        
+        google.script.run.withSuccessHandler(showComplete).logTime();
+      }
+
+      function showCurrentDuration() {
+        showLoading();
+        pressButton('timeButton');
+        google.script.run.withSuccessHandler(displayCurrentDuration).calculateCurrentDuration();
         google.script.run.withSuccessHandler(displayCellValues).fetchCellValues();
+      }
+
+      function showStartTime(){
+        showLoading();
+        pressButton('startButton');
+        google.script.run.withSuccessHandler(showComplete).startTime();
+      }
+
+      function storeTime(){
+        showLoading();
+        pressButton('storeButton');
+        google.script.run.withSuccessHandler(showPaused).storeTimeSegment();
+      }
+
+      function showLoading(){
+        var cellValueDiv = document.getElementById('cellLoading');
+        cellValueDiv.textContent = "Loading";
+        cellValueDiv.style.color = 'red';
+      }
+
+      function showComplete(){
+        var cellValueDiv = document.getElementById('cellLoading');
+        cellValueDiv.textContent = "Ready";
+        cellValueDiv.style.color = 'green';
+      }
+
+      function showPaused(){
+        var cellValueDiv = document.getElementById('cellLoading');
+        cellValueDiv.textContent = "Paused";
+        cellValueDiv.style.color = 'orange';
+      }
+
+      function calculateMultiplier(){
+        pressButton('multiplierButton');
+        showLoading();
+        google.script.run.withSuccessHandler(displayStats).calculateMultiplier();
+      }
+
+      function displayCurrentDuration(duration) {
+        var currentDurationDiv = document.getElementById('currentDuration');
+        currentDurationDiv.textContent = 'Segment Duration: ' + duration[0];
+
+        var timeLeftDiv = document.getElementById('timeLeft');
+        timeLeftDiv.textContent = 'Time Left: ' + duration[1];
+
+        if (duration[1].startsWith('-')) {
+          timeLeftDiv.style.color = 'red';
+        } else {
+          timeLeftDiv.style.color = 'green';
+        }
+
+        var totalTimeLeftDiv = document.getElementById('totalTimeLeft');
+        totalTimeLeftDiv.textContent = 'Total Time Left: ' + duration[2];
+
+        if (duration[2].startsWith('-')) {
+          totalTimeLeftDiv.style.color = 'red';
+        } else {
+          totalTimeLeftDiv.style.color = 'green';
+        }
+
+        var currentProgress = document.getElementById('percentProgress');
+        currentProgress.textContent = 'Progress: ' + duration[3] + '% Max: ' + duration[4] + '%';
+
+        showComplete();
       }
 
       function startGame(){
@@ -2234,12 +2730,6 @@ function calculateCurrentDuration() {
         cellValueDivQ2.textContent = values.Q2;
         cellValueDivN2.textContent = values.N2;
 
-        if (values.P2.startsWith('-')) {
-          cellValueDivP2.style.color = 'red';
-        } else {
-          cellValueDivP2.style.color = 'green';
-        }
-
         if (values.L2.startsWith('-')) {
           cellValueDivL2.style.color = 'red';
         } else {
@@ -2247,15 +2737,9 @@ function calculateCurrentDuration() {
         }
 
         if (values.Q2.startsWith('-')) {
-          cellValueDivQ2.style.color = 'red';
-        } else {
           cellValueDivQ2.style.color = 'green';
-        }
-
-        if (values.N2.startsWith('-')) {
-          cellValueDivN2.style.color = 'red';
         } else {
-          cellValueDivN2.style.color = 'green';
+          cellValueDivQ2.style.color = 'red';
         }
       }
 
@@ -2273,16 +2757,9 @@ function calculateCurrentDuration() {
   </body>
 </html>
 ```
+
 #### Description
-- Trying to keep up at least 80% of my studying speed
-- Removed stacking for being 20 minutes ahead
-	- Modified it so that I can adjust the speed whenever appropriate
-- Added a "store" button for better interruptions. Can use "store" multiple times on the same segment (as long as you press "start" afterwards)
-	- Fixed the "duration" and "log time" sections to fix this
-- If Level = 0, then delay will not increase when adjusting speed. My initial speed was too quick to follow-through with. 
-- Made it so "Level" and "Delay" are on the same level
-- Added Progress % and maximum % to aim my goal towards
-	- Downside is that the initial "Duration" button is a little slower. We'll just try to avoid that a little
+- Added times for completion (although selecting duration button is slow)
 ## Version 1
 ### Attempt #1
 #### Sidebar.html
