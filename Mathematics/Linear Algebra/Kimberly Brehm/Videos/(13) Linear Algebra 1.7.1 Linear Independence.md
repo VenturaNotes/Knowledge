@@ -3,3 +3,31 @@ Source:
   - https://youtube.com/watch?v=ofGN1Gtgjok
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-18 at 3.45.09 PM.png]]
+	- [[Linear independence]]
+	- What does it mean?
+		- An indexed set of vectors {$v_1, v_2 ... v_p} in $\mathbb{R}^n$ is linearly independent if the vector equation $x_1v_1 + x_2v_2 + ... + x_pv_p = 0$ has only the [[trivial solution]]
+			- $=0$ means we're dealing with a homogeneous system
+			- The trivial solution is when those scalars are all zero
+				- So if we have only that trivial solution, then we have the set of vectors being linearly independent
+		- They are [[Linear Dependence|linearly dependent]] if a [[non-trivial solution]] exists
+			- If we have a [[free parameter|free variable]], we're dealing with linearly dependent because we're going to have some non-trivial solutions 
+		- Translation?
+			- Example
+				- Given $\vec u$ at (2, 1), if $\vec v$  is at (4, 2), the two vectors are linearly dependent
+				- This is because  $2\vec u = \vec v$ 
+					- So if you have a situation where one vector is a multiple of another, then they are linearly dependent. 
+				- If we had $\vec w$, we can't just take some multiple of $\vec u$ or $\vec v$ to end up with $\vec w$. So $\vec w$ would be independent of $\vec u$ and $\vec v$ 
+	- Practice
+		- Determine if the set {$v_1, v_2, v_3$} is [[Linear Independence|linearly independent]]. If not, find a linear dependence relation among $v_1, v_2, \text { and } v_3$ 
+			- When dealing with a homogeneous system, the last column will always be all zeros so we can just work with the [[coefficient matrix]]
+				- #question how do we know if we'r working with a homogeneous system here? Is it just assumed?
+			- Just looking for pivot columns / pivot positions
+			- Since $x_3$ has no pivot, it is free which tells us that there will be [[Non-trivial solution|non-trivial solutions]] which means it's not linearly independent. They are linearly dependent.
+			- #comment I think the green solution is $x =$ and not $x^2$
+			- A linear dependence relation could be $4v_1 - 2v_2 + 2v_3 = 0$ if $x_3 = 2$ but you could find any value for $x_3$ to find an infinite number of linear dependence relations
+				- Just substituting in value for free variable ($x_3$ in this case)
+	- Practice
+		- Determine if the columns of the matrix A are linearly independent. If not, find a linear dependence relation among the columns.
+			- It's correct either way to include the zero vector column or not.
+			- Since we have 3 basic variables, we have no free variables (as there is a pivot in each of the columns), so $Ax = 0$ has only the trivial solution means linearly independent

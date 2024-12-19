@@ -27,7 +27,7 @@ Reviewed: false
 - ![[Screenshot 2024-12-15 at 8.32.54 PM.png]]
 	- Practice:
 		- A mining company has two mines. One days operation at mine 1 produces ore that contains 20 metric tons of copper and 550kg of sliver. Mine 2 produces 30 metric tons of copper and 500 kg of silver. How many days should each mine operate to produce 150 tons copper and 2825kg silver.
-			- `~` This notation shows that the matrices are equivalent
+			- `~` This notation shows that the matrices are [[equivalent]]
 	- Practice 2
 		- For what values off h is b in the span of $a_1$ and $a_2$?
 		- `h` must be -17 for `b` to be in the span $\{a_1, a_2\}$

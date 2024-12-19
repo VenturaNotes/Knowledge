@@ -1,5 +1,69 @@
 ---
 Source:
   - https://youtube.com/watch?v=dFc2XK9dyNs
-Reviewed: true
+Reviewed: false
 ---
+- ![[Screenshot 2024-12-18 at 6.17.41 PM.png]]
+	- Matrix operations (sums and scalar multiples)
+	- Some terminology (hopefully review)
+		- [[Address]]
+			- If we have matrix A and want to specify the location of the "7", we want to know directions on how to get there. In linear algebra, we call that the address
+			- $a_{ij}$
+				- lowercase a denotes that it is in matrix A
+				- Then two subscripts
+					- i = row / position
+					- j = column or vector
+				- $i^{th}$ term of $j^{th}$ vector
+					- The way it's said in textbook
+					- Fancier linear algebra way of saying it
+		- [[Diagonal entry|Diagonal entries]]
+			- These are the entries $a_{11}, a_{22}, a_{33}$
+				- Don't really talk about diagonal entries unless dealing with [[square matrix]]
+					- Obviously square matrix refers to a matrix that has the same number of rows as columns. It's $n \times n$ as opposed to $n \times m$ 
+					- Square matrix has the same number of rows and columns
+					- B is a square matrix in this example
+						- It has a diagonal
+						- When talking about diagonals of a matrix, always talking about the diagonal from top left to bottom right
+		- [[Diagonal matrix]]
+			- A square matrix where all the non-diagonal entries are zeros
+			- Matrix B would be considered a diagonal matrix (even if the diagonal is not all 1s)
+		- [[Identity matrix]]
+			- Where we have a diagonal of all 1s, and anything not in diagonal is all zeros 
+			- Identity matrix for 5x5 square matrix shown ($I_5$)
+				- Identity matrix is denoted with an $I$ and the subscript, how many entries, rows and columns, there are
+		- [[Zero matrix]]
+			- matrix with all zeros. Denoted with a 0
+	- Matrix Sums
+		- Just as we did with vectors, this is done component-wise. Therefore, matrices can only be added if they have the same dimensions.
+			- Component-wise just means taking the first entry of both and summing them together. Then taking the second entry of both and so on.
+				- A + B = B + A so commutativity applies here
+			- C is a column vector ($2 \times 1$)
+			- Addition is component-wise
+	- Scalar Multiples
+		- Given $rA$, r is the scalar and A is the matrix.
+	- Properties (Theorem 1 in textbook)
+		- $A + B = B + A$
+			- [[Commutative property of addition]]
+		- $(A + B) + C = A + (B + C)$
+			- [[Associative property of addition]]
+		- $A + 0 = A$
+			- [[Additive identity]]
+			- Adding the zero matrix to any matrix will end you back where you started
+		- $r(A + B) = rA + rB$
+			- [[Distributive property]]
+		- $(r + s) A = rA + sA$
+			- Distributive property (can go either direction here)
+		- $r(sA) = (rs)A$
+			- [[Associative property of multiplication]]
+				- Can multiply the other order
+		- Properties similar to when you took algebra 1 the first time
+		- These are matrices A, B, and C, and then scalars, r and s
+- ![[Screenshot 2024-12-18 at 6.20.05 PM.png]]
+	- Practice
+		- Dealing with scalar multiples and matrix addition
+		- (1)
+			- Scalar will not change matrix dimensions
+		- (2)
+			- Can add or subtract matrices (or could just multiple the entries by the negative so the matrices could add instead of subtracting)
+		- (3)
+			- Not valid as dimensions are not the same

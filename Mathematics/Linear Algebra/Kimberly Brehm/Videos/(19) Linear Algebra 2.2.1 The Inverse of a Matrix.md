@@ -3,3 +3,30 @@ Source:
   - https://youtube.com/watch?v=kCPmiFAdCQ0
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-18 at 7.02.21 PM.png]]
+	- The [[inverse]] of a matrix
+	- Inverses and identities
+		- Algebraic: $3*1 = 3$, $3 (\frac 13) = 1$
+			- 1 is called the [[multiplicative identity]]
+				- We can take any value times 1 and get back that value.
+			- An [[inverse]] is a value you would multiply by your original value to get back to [[identity]]. 1 is the identity in the second example and $\frac 13$ is the inverse for the second example
+		- In Matrices: 
+			- $AI_n = A$
+				- A multiplied by inverse matrix should get back to A
+				- The subscript for the inverse ($I$) just tells the number of rows or columns (as it will be a square matrix)
+			- $I_nA = A$
+			- $AA^{-1} = I_n$
+			- $A^{-1}A = I_n$
+		- The [[inverse matrix]] is a [[square matrix]] with 1s in diagonal
+		- Let A. If ad - bc $\ne$ 0, A is [[invertible]]
+			- Helps for a 2x2 matrix
+			- The value $ad-bc$ is called the [[determinant]] of A or $det \space A = ad-bc$
+	- The inverse of a 2x2 matrix (theorem 4 in text)
+		- Let A =  $\begin{bmatrix}a & b\\ c & d\end{bmatrix}$. If ad-bc $\ne$ 0, then A is invertible and $A^{-1} = \frac{1}{ad-bc} \begin{bmatrix}d & -b\\ -c & a\end{bmatrix}$. If $ad-bc = 0$, A is not invertible
+			- Switch first diagonal and then make b and c are negatives.
+		- Not a proof but shows it will give identity for $AA^{-1}$ 
+	- Practice
+		- Find the inverse of A and verify it is the inverse
+	- Practice
+		- Find $A^{-1}$ for A
+		- Not able to find inverse here because the determinant is zero

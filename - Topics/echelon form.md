@@ -12,6 +12,11 @@ aliases:
 	- (2) Each leading entry of a row is in a column to the right of the leading entry of the row above it
 	- (3) All entries in a column below a leading entry are zeros
 - Different from [[Reduced Row Echelon Form]] which has more steps
+
+## Source[^2]
+- ![[Screenshot 2024-12-18 at 10.04.18 AM.png|300]]
+	- This is in echelon form
 ## References
 
 [^1]: [[(3) Linear Algebra 1.2.1 Row Reduction and Echelon Forms]]
+[^2]: [[(4) Linear Algebra 1.2.2 Solution Sets and Free Variables]]

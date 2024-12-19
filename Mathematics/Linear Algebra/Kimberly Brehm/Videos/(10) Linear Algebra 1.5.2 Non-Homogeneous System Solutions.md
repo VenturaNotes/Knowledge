@@ -1,5 +1,22 @@
 ---
 Source:
   - https://youtube.com/watch?v=jsyutdYtOc4
-Reviewed: true
+Reviewed: false
 ---
+- ![[Screenshot 2024-12-18 at 6.34.31 AM.png]]
+	- [[Nonhomogeneous system]] solutions
+	- Translating our homogeneous solution
+		- Solution to Ax = b are translations to solutions of $Ax = 0$ 
+			- #comment Both of these seem to be lines on coordinate system
+		- Dealing with [[parametric form]]
+			- Homogeneous solutions: $\vec x = t \vec v \text { or } \vec x = t\vec u + s \vec w$
+			- Nonhomogeneous solutions: $\vec x = p + t\vec v$ 
+				- `p` will be the translations
+				- Shifts plane `b` units
+	- Practice
+		- The [[coefficient matrix]] should look familiar as used in last example.
+			- The right-most column is not all zeros meaning that it is nonhomogeneous
+		- Found pivots and $x_3$ is free
+		- `p` is simply the translation of our homogeneous solution of $t \vec v$ 
+	- Practice
+		- #comment She said it was a "non-parametric equation" but I think she meant "non-homogeneous equation" since the solution set is not all zeros

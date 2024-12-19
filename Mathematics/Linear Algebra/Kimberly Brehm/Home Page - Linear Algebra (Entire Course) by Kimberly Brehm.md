@@ -16,7 +16,6 @@ tags:
 	- [[(7) Linear Algebra 1.4.1 The Matrix Equation Ax=b]]
 	- [[(8) Linear Algebra 1.4.2 Computation of Ax]]
 	- [[(9) Linear Algebra 1.5.1 Homogeneous System Solutions]]
-- Incomplete
 	- [[(10) Linear Algebra 1.5.2 Non-Homogeneous System Solutions]]
 	- [[(11) Linear Algebra 1.6.1 Applications of Linear Systems - Economic Sectors]]
 	- [[(12) Linear Algebra 1.6.2 Applications of Linear Systems - Network Flow]]
@@ -28,11 +27,13 @@ tags:
 	- [[(18) Linear Algebra 2.1.2 Matrix Operations - Multiplication and Transpose]]
 	- [[(19) Linear Algebra 2.2.1 The Inverse of a Matrix]]
 	- [[(20) Linear Algebra 2.2.2 Solving 2x2 Systems with the Inverse and Inverse Properties]]
+- Incomplete
 	- [[(21) Linear Algebra 2.2.3 Elementary Matrices And An Algorithm for Finding A Inverse]]
 	- [[(22) Linear Algebra 2.3.1 Characterizations of Invertible Matrices]]
 	- [[(23) Linear Algebra 3.1.1 Introduction to Determinants]]
 	- [[(24) Linear Algebra 3.1.2 Co-factor Expansion]]
 	- [[(25) Linear Algebra 3.2.1 Properties of Determinants]]
+
 	- [[(26) Linear Algebra 4.1.1 Vector Spaces]]
 	- [[(27) Linear Algebra 4.1.2 Subspace of a Vector Space]]
 	- [[(28) Linear Algebra 4.2.1 Null Spaces]]

@@ -1,5 +1,21 @@
 ---
 Source:
   - https://youtube.com/watch?v=XE1WlvE1Iig
-Reviewed: true
+Reviewed: false
 ---
+- ![[Screenshot 2024-12-18 at 9.36.28 PM.png]]
+	- Solving systems with the inverse and inverse properties
+	- Why we need the inverse (theorem 5 in text)
+		- If A is an [[invertible]]  $n \times m$ matrix, then for each b in $\mathbb{R}^n$, the equation $Ax = b$ has the unique solution $x = A^{-1}b.$ 
+			- We can find x by taking the inverse of A and multiplying by b
+		- Proof:
+			- Showed how it was unique with yellow equations
+	- Now let's use it!
+		- Solve the system using the inverse. Verify with row operations
+		- Want to write our system as a [[matrix equation]] and then we know the solution to system will be $x = A^{-1}b$ 
+	- Practice
+		- Solve the system using the inverse of A
+	- Provable facts about invertible matrices
+		- If A is invertible, then $A^{-1}$ is invertible and $(A^{-1})^{-1} =A$
+		- If A and B are $n \times n$ matrices, then so is AB, and $(AB)^{-1} = B^{-1}A^{-1}$
+		- If A is an invertible matrix, then so is $A^T$, and $(A^T)^{-1} = (A^{-1})^T$
