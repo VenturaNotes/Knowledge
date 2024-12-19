@@ -1,5 +1,39 @@
 ---
 Source:
   - https://youtube.com/watch?v=oo2ej9M49Tw
-Reviewed: true
+Reviewed: false
 ---
+- ![[Screenshot 2024-12-18 at 4.36.31 PM.png]]
+	- Want to understand linear transformations, but need to understand [[Matrix Transformation|Matrix Transformations]] first
+	- What is it?
+		- A [[matrix transformation]] is a function. It acts upon vector x by multiplication by A, and maps it to b.
+			- That's all a function. We talk about mapping a value to another value
+			- A matrix transformation is a mapping. It is a function.
+			- Talking about $Ax = b$ here.
+		- So T(x) from $\mathbb{R}^n$ to $\mathbb{R}^m$ is a rule that assigns each vector x in $\mathbb{R}^n$ to a vector T(x) in $\mathbb{R}^m$
+			- Possible to go from one dimension to another dimension
+			- $T: \mathbb{R}^n \to \mathbb{R}^m$ or $x \mapsto Ax$ 
+				- $T(x)$ is just our function. Using T because it's a transformation
+				- How we would write the description of T(x) is shown right above
+				- Could say x is mapped to $Ax$ or A times x
+		- $\mathbb{R}^n$ is the domain
+			- domain or preimage
+		- $\mathbb{R}^m$ i the codomain/image
+			- codomain or image
+		- With x being in dimension $\mathbb{R}^2$, after multiplying it by A, we will have a result that's in $\mathbb{R}^3$ 
+		- In example, started with something in $\mathbb{R}^2$ and ended with result in $\mathbb{R}^3$ 
+			- So it's just a mapping for a function
+	- Matrix transformation example
+		- We know $u$ is in domain because we have $T: \mathbb{R}^2 \to \mathbb{R}^3$ where $u$ has 2 elements in its vector and $b$ is in codomain as it has 3 elements in its vector
+		- (a) Find T(u), the image of u under T
+			- So took $u$ and mapped it to something in $\mathbb{R}^3$ 
+		- (b) Find an x in $\mathbb{R}^2$ whose image under T is b
+			- Is there more than one x whose image under T is b?
+				- No because we only have x = $\begin{bmatrix}\frac 32 \\ -\frac {1}{2} \end{bmatrix}$ as the unique solution
+				- We don't have a free variable. We do have $x_3$ in the augmented matrix we created, but there was no $x_3$ because we know that our result is just in $\mathbb{R}^2$ so there's going to be 2 entries
+					- So no free variables. Both assigned. Both basic variables. Therefore, there is only one x whose image under T is b
+	- Practice
+		- Let A and $T: \mathbb{R}^2 \to \mathbb{R}^2$. Transform the figure below under T if $T(x) = Ax$ 
+		- Now dealing with a [[Parallelograms|parallelogram]]
+			- This is called a [[shear transformation]] because you can always imagine if the wind was blowing the square over
+				- Used quite often in [[graphic design]]

@@ -1,5 +1,28 @@
 ---
 Source:
   - https://youtube.com/watch?v=ofAcvZVEfBk
-Reviewed: true
+Reviewed: false
 ---
+- ![[Screenshot 2024-12-18 at 4.53.02 PM.png]]
+	- Introduction to [[Linear Transformation|linear transformations]]
+	- What is it?
+		- Transformations that preserve the operations of vector addition and scalar multiplication. T is linear if: (T is a transformation in this case)
+			- (i) T($\vec u$ + $\vec v$) = T($\vec u$) + T($\vec v$)
+				- The transformation of the sum of vectors $u \text { and } v$ is equal to the transformation of vector u and the transformation of vector v
+			- (ii) T(c$\vec u$) = cT($\vec u$)
+				- Transformation of some scalar times vector u is equal to that scalar multiplied by the transformation of vector u
+		- Every [[matrix transformation]] is a linear transformation but not every linear transformation is a matrix transformation. More on that in Ch. 4 and 5.
+			- We know that $T(u) = Au$
+				- So given $A(u + v) = Au + Av$
+				- We know: $T(u + v) = T(u) + T(v)$ 
+		- From i and ii, we can also say:
+			- T(0) = 0 and T(cu + dv) = cT(u) + dT(v)
+	- Practice
+		- Give a geometric description of the transformation $x \mapsto Ax$ if A
+			- Made up $\vec u$ 
+			- Looks like reflection across $x_1$ 
+			- So the geometric description is that A is a reflection across $x_1$ 
+	- Practice
+		- Describe the linear transformation $T: \mathbb{R}^2 \to \mathbb{R}^2$ by T(x). Then find the images under T of u, v, and $u + v$ 
+			- The $T(u +v)$ shows the [[parallelogram rule]]
+			- Looks like it was rotated $90 \degree$ counterclockwise about the origin

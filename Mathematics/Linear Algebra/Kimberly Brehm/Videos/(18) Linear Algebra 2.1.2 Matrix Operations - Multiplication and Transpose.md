@@ -3,3 +3,52 @@ Source:
   - https://youtube.com/watch?v=RM24OPadFMA
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-18 at 6.33.42 PM.png]]
+	- [[Matrix operations]] (multiplication and [[transpose]])
+	- [[Matrix multiplication]]
+		- If A is an $m \times n$ matrix and if B is an $n \times p$ matrix with columns $b_1, b_2 ... b_p$, then the product AB is the $m \times p$ matrix whose columns are $Ab_1, Ab_2 ... Ab_p$ that is $AB = A[b_1 b_2... b_p] = [Ab_1 Ab_2 ... Ab_p]$ 
+			- This is the formal definition from text
+			- "n" much match with "n"
+			- Resulting matrix will be $m \times p$ 
+			- b is made up of columns similar to vectors. We're taking A and multiplying it by each of the vectors which gives the result
+	- Example
+		- Showing how to multiply two matrices
+	- [[Row Column Rule]]
+		- If the product AB is defined, then the entry in row i and column j of AB is the sum of the products in the corresponding entries from row i of A and column j of B.
+			- $(AB)_{ij} = a_{i1}b_{1j} + a_{i2}b_{2j} + ... + a_{in}b_{nj}$ 
+			- AB is the product vector
+	- Practice
+		- Compute AB by the definition and the row-column rule
+- ![[Screenshot 2024-12-18 at 6.46.35 PM.png]]
+	- More properties (theorem 2 in text)
+		- $A(BC) = (AB)C$
+			- First one requires proof and textbook goes through it
+			- [[Associative property of multiplication]]
+		- $A(B + C) = AB + BC$
+			- [[Distributive property]]
+		- $(B + C)A = BA + CA$
+			- [[Distributive property]]
+		- $r(AB) = (rA)B = A(rB)$
+			- No name
+			- scalar
+		- $I_mA = AI_n = A$ 
+			- [[Identity property]]
+			- Using the `m` and `n` subscripts to let us know we can multiply
+			- The [[identity matrix]] is a [[diagonal matrix]] with 1s in diagonal and zeros everywhere else
+	- Warning!
+		- In general, AB $\ne$ BA
+			- Powers of a matrix
+				- #question what does this mean?
+			- Example shown in image
+		- If AB = AC, it is not required that B = C
+			- Exercise 10 is a good example of this in textbook
+		- If AB = 0, you cannot conclude A = 0 or B= 0
+			- Can see exercise 12 for an example of this in textbook
+	- [[Transpose]] of a matrix
+		- Given an $M \times N$ matrix A, the transpose, denoted $A^T$, is an $N \times M$ matrix whose columns are formed by the rows of A
+	- Properties of Transpose (not showing proofs but shows how they're valid properties through examples)
+		- $(A^T)^T = A$
+		- $(A + B)^T = A^T + B^T$
+		- $(rA)^T=r(A^T)$
+			- r is a scalar, A is a matrix
+		- $(AB)^T=B^TA^T$ 

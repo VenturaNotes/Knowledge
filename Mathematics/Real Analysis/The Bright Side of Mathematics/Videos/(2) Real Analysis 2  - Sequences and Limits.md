@@ -69,5 +69,3 @@ Source:
 				- Start with the things you need to put in and what you want to show in the end. Then try to fill in all the gaps such that in the end, you can read it from left to right. 
 					- So you may need to shift things around to get result in the end. 
 	- Next video will talk about properties of convergent sequence
-- Questions
-	- 

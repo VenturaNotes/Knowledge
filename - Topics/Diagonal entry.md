@@ -1,3 +1,7 @@
+---
+aliases:
+  - diagonal entries
+---
 ## Synthesis
 - 
 ## Source [^1]

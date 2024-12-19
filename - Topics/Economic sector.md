@@ -1,3 +1,7 @@
+---
+aliases:
+  - economic sectors
+---
 ## Synthesis
 - 
 ## Source [^1]

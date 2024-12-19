@@ -1,7 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=kcBufqZgP4s
-Reviewed: true
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-16 at 1.30.02 AM.png]]
 	- The [[matrix equation]] Ax = b

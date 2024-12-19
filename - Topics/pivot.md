@@ -6,8 +6,8 @@ aliases:
 - 
 ## Source [^1]
 - ![[Screenshot 2024-12-12 at 3.32.36 PM.png]]
-	- The pivot here is 1 and 2
-	- Nonzero number in pivot position used to create zeros in row operations
+	- The pivot here are the elements 1 and 2
+	- A pivot is a nonzero number in [[pivot position]] used to create zeros in row operations
 	- It's a terminology that tells us we're looking at leading coefficient in row
 ## References
 
