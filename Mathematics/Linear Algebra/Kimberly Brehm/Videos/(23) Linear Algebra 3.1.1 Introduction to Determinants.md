@@ -3,3 +3,20 @@ Source:
   - https://youtube.com/watch?v=UWaeMiP_vK8
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-19 at 10.05.58 PM.png]]
+	- Introduction to [[determinants]]
+	- What is it?
+		- We already know that if `det` A $\ne$ 0, then A is an invertible matrix
+		- We also know that if A, then `det` A = ad - bc
+		- Let's change the notation a bit:
+			- Ex. Find `det` A if A = (in picture)
+		- What we don't know is how to compute `det` A if A is a 3x3, 4x4, .... `nxn` matrix $\forall n \ge 3, n \in \mathbb{N}$ 
+	- The definition
+		- For n $\ge$ 2, the determinant of an $n \times n$ matrix A = $[a_{ij}]$ is the sum of n terms of the form $\pm a_{1j}detA_{1j}$, with +/- alternating, where $a_{11}, a_{12}... a_{1n}$ are the first row entries of A.
+			- Formula shown here
+		- $A_{ij}$ is a [[submatrix]] of A formed by deleting the $i^{th}$ row and the $j^{th}$ column
+	- Practice
+		- Find det A for A
+		- Can use straight brackets to let others know you're finding the determinant as opposed to writing out `det` and then matrix
+	- Practice
+		- Find det A for A

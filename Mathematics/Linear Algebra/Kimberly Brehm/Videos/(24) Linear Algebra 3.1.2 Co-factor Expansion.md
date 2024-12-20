@@ -3,3 +3,36 @@ Source:
   - https://youtube.com/watch?v=bTf1ixziEO4
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-19 at 10.18.22 PM.png]]
+	- [[co-factor expansion|cofactor expansion]]
+	- What is it?
+		- We just learned:
+			- det A equation
+				- $A_{11}$ is a [[submatrix]]. Take out first row and first column and find determinant of what's left over
+				- Can write as summation
+					- #question is equation correct in picture?
+		- To make notation cleaner, let use the cofactor.
+		- The [[cofactor]], $C_{ij}$, is the number given by $(-1)^{i +j}det A_{ij}$ 
+			- $\therefore det A = a_{11}C_{11} + a_{12}C_{12} + ... + a_{1n}C_{1n}$
+	- Definition
+		- The determinant of any `nxn` matrix A can be computed by a cofactor expansion across any row or down any column
+			- This would be an expansion across the $i^{th}$ row:
+				- $det A = a_{i1}C_{i1} + a_{i2}C_{i2} + ... + a_{in}C_{in}$
+			- This would be an expansion down the $j^{th}$ column
+				- $det A = a_{1j}C_{1j} + a_{2j}C_{2j} + ... + a_{nj}C_{nj}$
+		- This is important because will find the row or column that makes work easier to find the determinant
+			- Job is easiest where you can get as many zeros as possible
+	- Practice:
+		- Compute `det` A where A, which we previously found to be -2
+			- Solved using row 3
+			- Solved again using column 3
+			- These rows or columns had the most zeros which is why we used them to compute the determinant
+	- Practice:
+		- Find `det` A for A
+- ![[Screenshot 2024-12-19 at 10.22.36 PM.png]]
+	- Practice with a 4x4 matrix
+		- Compute
+	- One more cool thing
+		- If A is a triangular matrix, then `det` A is a product of the entries on the main diagonal
+		- This is theorem 2 in textbook
+			- If you have a triangular matrix (where anything below diagonal is zeros), then the determinant of A is the product of the entries on the main diagonal

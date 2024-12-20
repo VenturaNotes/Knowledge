@@ -3,3 +3,33 @@ Source:
   - https://youtube.com/watch?v=zcm8plpCUZI
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-19 at 9.14.40 PM.png]]
+	- Elementary matrices and an algorithm for finding $A^{-1}$ 
+	- Transformations as matrices
+		- Matrix B is an [[identity matrix]]. It is made up of a diagonal of 1s with all other values being 0s
+			- Whole point of multiplying by the identity matrix is to end back where you started.
+			- Important for the order with which we multiply things. Multiplication is not commutative
+		- The row operation $4R_1 \to R_1$ is equivalent to matrix C and that is a [[transformation]]
+	- Elementary matrices
+		- An [[Elementary Matrices|elementary matrix]] is a matrix obtained by performing one row operation on an [[identity matrix]]
+		- #question don't quite understand the row operations here
+			- Showed [[interchange]] between rows
+		- #comment in the first example, $E_1^{-1}$ is being multiplied by the previous matrix to get the value of $E_1$ 
+		- If multiply the E together, hopefully we get the [[identity matrix]]
+- ![[Screenshot 2024-12-19 at 9.39.10 PM.png]]
+	- [[Invertibility]]
+		- An $n \times n$ matrix A is invertible iff A is row equivalent to $I_n$ and any sequence of elementary row operations that reduces A to $I_n$ also transforms $I_n$ to $A^{-1}$ 
+			- If it's not a square matrix, it's not invertible. 
+			- Iff means that we have to prove in two directions
+				- P $\implies$ Q needs to be proven
+				- $Q \implies P$ needs to be proven 
+			- $I_n$ is the identity matrix
+			- #question what is meant by elementary row operations?
+		- (a) Assume A is invertible. Since Ax = b has a unique solution for every b (theorem 5), then A has a pivot position in every row. Since A is square, the pivots are in the diagonal, which implies RREF of A is $I_n$. $A \sim I_n$ 
+		- (b) Now assume A $\sim$ $I_n$. Then each step to row reduce A corresponds to left multiplication by an elementary matrix $E_1, E_2, ... E_p$ such that $$A \sim E_1A \sim E_2 (E_1A) \sim E_3(E_2E_1A)) \sim ... \sim E_p(E_{p-1} .... E_1A)) = I_n$$. Since the product $E_p ... E_1$ of invertible matrices is invertible, then $(E_p ... E_1)^{-1} (E_p ... E_1)A = (E_p ... E_1)^{-1} I_n$ so $A = (E_p ... E_1)^{-1}$. Therefore, A is invertible since its the inverse of an invertible matrix. 
+			- We can do these row reduction steps using matrices instead of row operations and continue to multiply on left side because that's the side we need to multiply for all this to work out
+		- Also: $$A^{-1} = [(E_p ... E_1)^{-1}]^{-1} so A^{-1} = E_p ... E_1I \therefore A \sim I_n \to I_n \sim A^{-1}$$
+	- The point of all that - an algorithm for finding $A^{-1}$
+		- Find the inverse of A if it exists.
+		- Textbook doesn't show left and right side of lines
+			- for that $I_n$ and $A^{-1}$ augmented matrix
