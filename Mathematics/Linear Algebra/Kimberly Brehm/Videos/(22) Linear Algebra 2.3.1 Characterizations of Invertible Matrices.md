@@ -3,3 +3,26 @@ Source:
   - https://youtube.com/watch?v=Ht2Zl0Hfg_I
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-19 at 9.56.13 PM.png]]
+	- Characterizations of [[invertible matrices]]
+	- The [[invertible matrix theorem]]
+		- Let A be an $n \times n$ square matrix. The following are equivalent
+			- A is an invertible matrix
+			- A has n pivot positions
+			- $Ax = 0$ has only the trivial solution
+			- The columns of $A$ form $A$ linearly independent set
+			- The linear transformation x $\mapsto$ $Ax$ is one-to-one
+			- The equation $Ax = b$ has at least one solution for each b in $\mathbb{R}^n$
+			- The linear transformation $x \mapsto Ax$ maps $\mathbb{R}^n$ to $\mathbb{R^n}$
+			- There is an $n \times n$ matrix C such that CA = $I_n$ 
+			- There is an $n \times n$ matrix D such that AD = $I_n$
+			- $A \sim I_n$ 
+				- #question difference between this and equals?
+			- The columns of A span $\mathbb{R}^n$
+			- $A^T$ is an invertible matrix
+	- Practice
+		- Determine if A is invertible without finding $A^{-1}$
+			- We cannot find $A^{-1}$ since there is not a pivot in every row, by Invertible matrix theorem (or IMT)
+	- Practice
+		- Determine if A is invertible without finding $A^{-1}$
+			- A is invertible since there is a pivot in every row

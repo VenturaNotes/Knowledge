@@ -1,3 +1,7 @@
+---
+aliases:
+  - cofactor expansion
+---
 ## Synthesis
 - 
 ## Source [^1]

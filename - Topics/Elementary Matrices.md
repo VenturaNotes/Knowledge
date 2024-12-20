@@ -1,3 +1,7 @@
+---
+aliases:
+  - elementary matrix
+---
 ## Synthesis
 - 
 ## Source [^1]
