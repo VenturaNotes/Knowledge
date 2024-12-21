@@ -42,7 +42,7 @@ tags:
 - [pdf](zotero://open-pdf/library/items/TGUR9253?page=2&annotation=CP6JEZKT)
 
 ## Preface
-- “The material is standard in that the subjects covered are [[Gaussian reduction]], [[vector spaces]], [[linear maps]], [[determinants]], and [[eigenvalues]] and [[eigenvectors]].” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=3&annotation=TAM7ZA8U))
+- “The material is standard in that the subjects covered are [[Gaussian reduction]], [[Vector Space|vector spaces]], [[linear maps]], [[determinants]], and [[eigenvalues]] and [[eigenvectors]].” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=3&annotation=TAM7ZA8U))
 - Preface has some pretty broken english
 - “This book is Free. See http://joshua.smcvt.edu/linearalgebra for the license details.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=4&annotation=GUTX2WQ8))
 	- “page also has the latest version, exercise answers, beamer slides, lab manual, additional material, and LATEX source.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=4&annotation=C8XVWEZG))

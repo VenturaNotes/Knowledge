@@ -2,6 +2,7 @@
 aliases:
   - plasma membranes
   - cell membrane
+  - plasma
 ---
 ## Synthesis
 - 
@@ -24,6 +25,10 @@ aliases:
 	- attached to lipids or proteins forming [[glycolipids]] or [[glycoproteins]] respectively
 		- These carbohydrate chains ([[glycocalyx]]) participate in [[cell recognition]], [[adhesion]] and [[signaling events]].
 
+## Source[^2]
+- Cell membrane also referred to as plasma
+
 ## References
 
 [^1]: ChatGPT
+[^2]: [[(3) 2-Minute Neuroscience - Membrane Potential]]

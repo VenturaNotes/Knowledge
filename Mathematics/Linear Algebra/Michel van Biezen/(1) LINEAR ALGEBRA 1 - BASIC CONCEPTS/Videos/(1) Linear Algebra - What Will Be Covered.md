@@ -7,7 +7,7 @@ Source:
 		- [[Matrices]]
 		- [[Determinants]]
 		- [[system of linear equations|Systems of Linear Equations]]
-		- [[Vector Spaces]]
+		- [[Vector Space|vector spaces]]
 		- [[Transformations]]
 		- [[Eigenvalues]]
 		- [[Eigenvectors]]

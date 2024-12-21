@@ -31,9 +31,9 @@ tags:
 	- [[(22) Linear Algebra 2.3.1 Characterizations of Invertible Matrices]]
 	- [[(23) Linear Algebra 3.1.1 Introduction to Determinants]]
 	- [[(24) Linear Algebra 3.1.2 Co-factor Expansion]]
-- Incomplete
 	- [[(25) Linear Algebra 3.2.1 Properties of Determinants]]
 	- [[(26) Linear Algebra 4.1.1 Vector Spaces]]
+- Incomplete
 	- [[(27) Linear Algebra 4.1.2 Subspace of a Vector Space]]
 	- [[(28) Linear Algebra 4.2.1 Null Spaces]]
 	- [[(29) Linear Algebra 4.2.2 Column Spaces]]

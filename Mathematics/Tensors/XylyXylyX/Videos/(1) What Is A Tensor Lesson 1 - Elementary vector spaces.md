@@ -70,7 +70,7 @@ Source:
 		- Other than the name, the two vector spaces are mathematically very similar
 			- Would have to come up with ways to distinguish them
 - ![[Screenshot 2023-09-29 at 3.51.02 PM.png]]
-	- Elementary properties that all [[vector spaces]] must have
+	- Elementary properties that all [[Vector Space|vector spaces]] must have
 		- Must be defined by vector addition
 		- Must be defined by scalar multiplication generally from real numbers
 		- Must be linear

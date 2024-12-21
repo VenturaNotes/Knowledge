@@ -1,6 +1,7 @@
 ---
 aliases:
   - linear space
+  - vector spaces
 ---
 ## Synthesis
 - 
