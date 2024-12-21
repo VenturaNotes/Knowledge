@@ -12,7 +12,7 @@ Source:
 - Row Operations
 	- [[Scaling]]: Multiplying a row by a non-zero constant
 	- [[Replacement]]: Replace an row by the sum of itself and a multiple of another row
-	- [[Swapping]]: Swap the positions of two rows
+	- [[Interchange|Swapping]]: Swap the positions of two rows
 ---
 - ![[Screenshot 2023-04-15 at 11.41.24 PM.png]]
 - Example

@@ -3,3 +3,35 @@ Source:
   - https://youtube.com/watch?v=9NRmIEbuSq8
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-20 at 12.58.55 PM.png]]
+	- Properties of [[determinants]]
+		- Proofs will be in textbook but not in video
+	- Back to row operations
+		- Let A, and det A
+		- [[Interchange]] / swap (real name is interchange but can say "swap" as well)
+			- det B = - det A
+		- [[Scaling]]
+			- det B = c det A
+				- c is your scalar in row operation
+		- [[Replacement]]
+			- det B = det A
+				- Won't change determinant
+	- An example
+		- Could find determinant of matrix using cofactor expansion
+			- Trying to get this into [[triangular form]]
+			- We when we find the triangular form (which will be a reduction of matrix A in this case), because we've reduced it to triangular form we have a theorem that says:
+				- If you can get it down to triangular form, then the determinant is the product of the diagonal
+			- This is how we can use properties of the determinant to find the determinant of a 3x3 matrix without using cofactor expansion
+	- An example
+		- Using scale this time
+			- Need to multiply by [[reciprocal]] for new matrix
+				- So if $det B = \frac 12 det A$, then 
+					- $2 det B = det A$ 
+		- Goal to get to triangular form
+- ![[Screenshot 2024-12-20 at 1.41.50 PM.png]]
+	- Practice
+		- Can use cofactor expansion, row operations, mixture of both of them to find the determinant for this problem
+		- Solution is 0 for this problem
+	- Two more properties (these require proofs which are in textbook)
+		- (1) If A is an $n \times n$ matrix, then $det A^T = det A$
+		- (2) If A and B are $n \times n$ matrices, then `det` $AB = det A * det B$ 

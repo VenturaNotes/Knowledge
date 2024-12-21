@@ -10,9 +10,9 @@ tags:
 - Complete
 	- [[(1) 2-Minute Neuroscience - The Neuron]]
 	- [[(2) 2-Minute Neuroscience - Synaptic Transmission]]
-- Incomplete
 	- [[(3) 2-Minute Neuroscience - Membrane Potential]]
 	- [[(4) 2-Minute Neuroscience - Action Potential]]
+- Incomplete
 	- [[(5) 2-Minute Neuroscience - Divisions of the Nervous System]]
 	- [[(6) 2-Minute Neuroscience - Lobes and Landmarks of the Brain Surface (Lateral View)]]
 	- [[(7) 2-Minute Neuroscience - Receptors & Ligands]]

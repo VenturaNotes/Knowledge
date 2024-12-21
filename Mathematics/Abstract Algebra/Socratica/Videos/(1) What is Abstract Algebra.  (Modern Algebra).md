@@ -24,7 +24,7 @@ Source:
 	- New abstract objects began to take shape
 		- [[Rings]]
 		- [[Fields]]
-		- [[Vector Spaces]]
+		- [[Vector Space|vector spaces]]
 		- [[Modules]]
 - ![[Screenshot 2023-11-15 at 4.27.29 PM.png]]
 	- The correct definition was finally identified and now called [[abstract algebra]]

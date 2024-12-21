@@ -3,3 +3,73 @@ Source:
   - https://youtube.com/watch?v=QMwwplztQfY
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-20 at 9.01.31 PM.png]]
+	- [[Vector Space|vector spaces]]
+	- Things will shift more to the abstract in this chapter. May be a little harder to warp your mind around things. 
+		- Might need other videos to supplement
+	- What is it?
+		- A vector space is a non-empty set of vectors and two operators, (+, $\cdot$) such that the following axioms hold $\forall \vec u, \vec v, \vec w \in V$ and $c, d \in \mathbb{R}$  (c and d are scalars here)
+			- The two operators are addition and multiplication
+			- The below are [[axioms]]
+				- What we've done up to this point is simply use them for the set $\mathbb{R}^n$ 
+				- $\mathbb{R}^n$ is a [[vector space]] and all of the axioms hold true which is why all of these will look familiar to you. 
+				- Now we want to look at different spaces and verify these axioms if these other spaces may be vector spaces or not
+			- Addition
+				- <mark style="background: #FFF3A3A6;">(1)</mark> $\vec u + \vec v \in V$
+					- Some of vectors in set V should also be in set V
+				- (2) $\vec u + \vec v = \vec v + \vec u$
+					- [[Commutative property]]
+				- (3) $(\vec u + \vec v) + \vec w = \vec u + (\vec v + \vec w)$
+					- [[Associative property]]
+				- <mark style="background: #FFF3A3A6;">(4)</mark> $0 \in V \text { where } 0 + \vec u = \vec u$
+					- [[zero vector]] needs to be in vector space
+					- Essentially identity
+				- (5) $\forall u \in V, \vec u + (- \vec u) = 0$
+					- Inverse (both in vector space and sum equal to 0)
+			- Multiplication
+				- <mark style="background: #FFF3A3A6;">(6)</mark> $c \vec u \in V$
+					- scalar times vector is in vector space
+					- #question $\vec v$ is shown but might be wrong? Shown differently 
+				- (7) $c(\vec u + \vec v) = c \vec u + c \vec v$
+					- Distributive property (distribute scalar)
+				- (8) $(c + d) \vec u = c \vec u + d \vec u$
+					- Similar to distributive property (but on right side instead of left side)
+				- (9) $c(d \vec u) = (cd) \vec u$
+					- Associative property (associative with the scalars)
+					- We know that matrix or [[vector multiplication]] is not associative or commutative.
+						- But if we are dealing with scalars, they are.
+				- (10) $1 \vec u = \vec u$
+					- Identity
+			- The ones highlighted in <mark style="background: #FFF3A3A6;">yellow</mark> are ones we're most likely to find issues with (so ones we probably want to check first)
+	- Example
+		- Is V a vector space?
+			- Question is: If we have a vector in the 4th quadrant, will it meet all 10 axioms and in fact be a vector space?
+			- Checking with rules 1, 4, and 6
+				- Found an issue with axiom 6 where if we took a scalar -3, then $-3 \vec u$ would not be in [[quadrants|quadrant]] 4
+					- However, do not say "due to axiom 6" as professor won't have axiom numbers memorized. Just has the concepts down
+					- Rely on logic
+					- Instead, just say the  $c \vec u \in V$ is not met so V is not a vector space
+	- Practice
+		- Is V a vector space?
+			- This is not a vector space because
+				- $c \vec v \notin V$ and $0 \notin V$ 
+- ![[Screenshot 2024-12-20 at 9.09.57 PM.png]]
+	- Practice
+		- Is V a vector space?
+			- This is not a vector space because there exists a $\vec u + \vec v$ not in V
+		- With vector addition, consider [[parallelogram rule]]
+	- [[Polynomial|Polynomials]]
+		- Polynomials, $\mathbb{P}_n$ is a vector space
+			- $p(t) = a_0 + a_1t + a_2t^2 + ... + a_nt^n$
+				- Written very much like a linear combination of scalars and vectors
+		- Recall that the degree of a polynomial is the greatest power with a non-zero coefficient.
+			- So $n$ would be the degree of the polynomial above assuming $n$ is not zero 
+		- The degree of a constant ($p(t) = a_0$) is zero. If all terms have degree 0, it is called the [[zero polynomial]]
+	- Verify the axioms to make sure a polynomial is a vector space
+		- (1) $p(t) + q(t) = (a_0 + b_0) + (a_1+b_1)t + ...$ so valid
+		- (2) Addition of real numbers is commutative
+		- (3) Addition of real numbers is associative
+		- (4) p(t) = 0 in space
+		- (5) inverse valid: $(a_0 + a_1t)$ + ($-a_0 + -a_1t$) = 0
+		- (6) $3p(t) = 3a_0 + 3a_1t^1 + ...$ is valid
+		- Axioms 7, 8, 9, and 10 are properties of real numbers that can be checked very easily when you know axiom 6 is true

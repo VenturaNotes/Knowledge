@@ -1,3 +1,8 @@
+---
+aliases:
+  - swap
+  - swapping
+---
 ## Synthesis
 - 
 ## Source [^1]
