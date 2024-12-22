@@ -12,10 +12,10 @@ tags:
 	- [[(2) 2-Minute Neuroscience - Synaptic Transmission]]
 	- [[(3) 2-Minute Neuroscience - Membrane Potential]]
 	- [[(4) 2-Minute Neuroscience - Action Potential]]
-- Incomplete
 	- [[(5) 2-Minute Neuroscience - Divisions of the Nervous System]]
 	- [[(6) 2-Minute Neuroscience - Lobes and Landmarks of the Brain Surface (Lateral View)]]
 	- [[(7) 2-Minute Neuroscience - Receptors & Ligands]]
+- Incomplete
 	- [[(8) 2-Minute Neuroscience - Early Neural development]]
 	- [[(9) 2-Minute Neuroscience - Neuroimaging]]
 	- [[(10) 2-Minute Neuroscience - Hypothalamus & Pituitary Gland]]

@@ -1,3 +1,7 @@
+---
+aliases:
+  - ligands
+---
 ## Synthesis
 - 
 ## Source [^1]
