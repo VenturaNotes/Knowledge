@@ -3,3 +3,45 @@ Source:
   - https://youtube.com/watch?v=Dn7pcKMrU0s
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-22 at 3.43.06 PM.png]]
+	- [[Null space]]
+	- What is it?
+		-  The null space of A is the set of all solutions to $Ax = 0$
+			- $Nul A = \{x | x \in \mathbb{R}^n \text { and } Ax = 0$\}
+			- We know that $A_{mxn}$ matrix
+			- We can think back to when we were solving for the solution set of a [[homogeneous system]]
+			- If b is 0, there is a subset there is a subset of solutions that would make it equal to 0 and that's what the null space is. It's just that subset. It's just a smaller set.
+				- Will prove later that it is in fact a subspace 
+	- Easy example
+		- Is u in Nul A where A?
+		- We found that $u$ is in Nul A
+	- Theorem (theorem 2 in text)
+		- The null space of an $m \times n$ matrix A, Nul A, is a subspace of $\mathbb{R}^n$
+			- When considering subspace, need to consider the 3 properties
+				- Zero vector belongs to subspace
+				- Closed under addition
+				- Closed under scalar multiplication 
+			- (1) Is $\vec 0$ $\in$ Nul A?
+			- (2) When A $\vec u$, $A \vec v$ $\in Nul A$, is $A(\vec u + \vec v) \in Nul A$?
+				- Could use [[distributive property]] for this
+					- $A (\vec u + \vec v)$ = $A \vec u + A \vec v$ 
+			- (3) When $A \vec u \in Nul A$, is $A(c \vec u)$ $\in$ $Nul A$? 
+				- Can use properties for this
+					- $A(c \vec u)$ = $c(A \vec u)$
+						- #question which property is this?
+		- We proved all 3 of them so Nul A is a subspace of $\mathbb{R}^n$ 
+	- Writing a solution set explicitly
+		- Find the [[spanning set]] for the null space of A.
+			- Essentially looking at finding that general solution. 
+			- Looking at the spanning set. Looking for what vectors will span the null space of A
+			- Will essentially have an augmented matrix, get it to REF, and then write solution parametrically 
+		- Given $x_2 = \begin{bmatrix}2 \\ 1 \\ 0 \\ 0 \\ 0 \end{bmatrix}$
+			- #comment When $x_2$ is a free variable, it will just be worth 1 inside it's own vector it seems
+		- So the spanning set is all of the vectors (the set of all those vectors). The 3 that we found. 
+			- So we found the spanning set. It's those set of vectors, $u, v, \text { and } w$ 
+- ![[Screenshot 2024-12-22 at 3.45.28 PM.png]]
+	- Things to note:
+		- The spanning set produced using the method we just performed is always linearly independent because the free variables are the weights on the spanning vectors
+			- So the 3 vectors we just found are linearly independent since we have the free variables times the weights of the spanning vectors
+		- When Nul A contains non-zero vectors, the number of vectors in the spanning set for Nul A is equal to the number of free variables in the solution set of $Ax = 0$ 
+			- The number of free variables would match up with the number of vectors

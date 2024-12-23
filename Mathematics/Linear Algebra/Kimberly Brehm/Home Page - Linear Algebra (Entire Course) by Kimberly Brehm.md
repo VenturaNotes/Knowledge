@@ -33,9 +33,9 @@ tags:
 	- [[(24) Linear Algebra 3.1.2 Co-factor Expansion]]
 	- [[(25) Linear Algebra 3.2.1 Properties of Determinants]]
 	- [[(26) Linear Algebra 4.1.1 Vector Spaces]]
-- Incomplete
 	- [[(27) Linear Algebra 4.1.2 Subspace of a Vector Space]]
 	- [[(28) Linear Algebra 4.2.1 Null Spaces]]
+- Incomplete
 	- [[(29) Linear Algebra 4.2.2 Column Spaces]]
 	- [[(30) Linear Algebra 4.3.1 Linearly Independent Sets and Bases]]
 	- [[(31) Linear Algebra 4.3.2 The Spanning Set Theorem]]
