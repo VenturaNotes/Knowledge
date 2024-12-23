@@ -3,11 +3,62 @@ Source:
   - https://youtube.com/watch?v=2Ee2B1Jp5ZE
 Reviewed: false
 ---
-- Image
+- ![[Screenshot 2024-12-22 at 3.08.21 PM.png]]
 	- [[Subspace|Subspaces]] of a vector space
 	- What is it?
 		- A [[subspace]] of a vector space V is a subset H of V with the following properties
-			- A vector space has 10 axioms that need to be satisfied)
+			- A vector space has 10 axioms that need to be satisfied. 
+				- Those are already satisfied for V (the vector space)
+				- We're saying a subspace of that, H, has values or vectors that fit the below properties
 			- (a) The zero vector of V is in H
 			- (b) H is closed under addition
 			- (c) H is closed under scalar multiplication
+		- Every subspace is then a vector space. Once we meet the 3 requirements above, those subspaces are all vector spaces. Then we don't have to check the 10 axioms. Just need to check these 3
+			- #question isn't it only if it's a subset then?
+		- We can also say every vector space is a subspace and that means it's a subspace of itself. So H could be the same size as V or it could be that that vector space is a subspace of some larger vector space
+	- Practice
+		- Is $\vec 0$  A subspace of $\mathbb{R}^2$ (essentially saying that H is only the zero vector) (True)
+			- $\vec0$ is the [[zero vector]]
+			- Could say of $\mathbb{R}^n$ and the solution would be the same.
+			- (a)
+			- (b) H is closed under addition
+				- Closed under addition means if I take any two values within H and add them together, then that new value is in H as well. 
+			- (c) H is closed under scalar multiplication
+				- If I take anything in H and multiply it by a scalar, that result is in H
+			- True for the zero vector of $\mathbb{R}^2$ but really for any $\mathbb{R}^n$ 
+	- Practice
+		- Let $\mathbb{P}$ be the set of all polynomials with real coefficients and V be the space of all real valued functions. Is $\mathbb{P}$ a subspace of V? (True)
+			- "V be the space of all real valued functions". This means that V means all of those 10 axioms (don't have to check the axioms for V) 
+			- (3) Closed under multiplication?
+				- It's clear that all of my values would have real coefficients and there would be some combining of like terms but yes, the resulting equation would be a polynomial with real coefficients.
+					- #question what is a real coefficient?
+			- The set of $\mathbb{P}$ would be a subspace to all real valued functions
+	- Practice
+		- Is $\mathbb{R}^2$ a subspace of $\mathbb{R}^3$?
+			- $\mathbb{R}^2$ is not a subset
+			- $\mathbb{R}^2$ cannot be a subspace of $\mathbb{R}^3$ because it does not fit the same pattern
+				- $\mathbb{R}^3$ has 3 elements in its vector while $\mathbb{R}^2$ only has 2 elements
+- ![[Screenshot 2024-12-22 at 3.25.58 PM.png]]
+	- Harder Practice
+		- Given $\vec v_1, \vec v_2 \in V$, let H [[span]] {$v_1, v_2$}. Is H is a subspace of V?
+			- Span is telling us that we should be able to write everything as a scalar times a vector
+				- $c_1v_1 + c_2v_2 \in H$ 
+				- Can write it as a linear combination of those vectors
+			- (2) Closed under addition?
+				- Cannot say $\vec u = 2v_1 + 3v_2$ and $\vec v = -4v_1 + v_2$ 
+					- These are specific values and in order to prove anything, we need to use generalized values
+					- Instead of plugging numbers in there, let's say $s_1v_1$ 
+						- Because now it's not a specific number. With specific values, we'd have to check all specific values which is impossible because there is an infinite amount of specific values
+						- So use the generalized values. Then show with these generalized values that my result would in fact be in H
+				- We find that $\vec u + \vec v = (s_1 + t_1) v_1 + (s_2 + t_2)v_2 \in H$ 
+					- belongs in H because it can be written as a linear combination of vectors $v_1$ and $v_2$ 
+			- (3) For closed under multiplication, we're talking about scalar multiplication
+				- #question what other kinds of multiplication is there?
+		- No matter how many vectors we have in a vector space, then it will always be true that the span of those vectors is a subspace of V
+			- Can prove it for any number of vectors the way that we did it here for just two vectors
+	- One more - using theorem I
+		- Let H be the set of all vectors of the form (in picture). Either find a set of vectors that span $\mathbb{R}^3$ or a [[counterexample]].
+			- Theorem I says that that if we have vectors in the vector space V, then the span of those vectors is a subspace of V.
+	- Practice
+		- Let H be the set of all vectors of the form. Either find a set S of vectors that spans vectors of that form, or find a counterexample that shows H is not a vector space. 
+			- Because of the constant 4 shown, the zero vector is not an element of H meaning that H is not a vector space

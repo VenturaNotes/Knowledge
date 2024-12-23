@@ -2,4 +2,36 @@
 Source:
   - https://www.youtube.com/watch?v=N2apCx1rlIQ
 ---
-
+- ![[Screenshot 2024-12-22 at 5.01.13 PM.png]]
+	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss neuroimaging. I will cover a few of the most common types of neuroimaging: CAT scans, MRI, PET scans, and fMRI. 
+	- Some neuroimaging techniques allow us to see the structure of the brain, while others allow us to look at brain activity or function. Computerized tomography, also known as computerized axial tomography, is a type of structural neuroimaging. It is usually called a CAT or CT scan. It involves taking a series of x-ray images from various locations around the head. These images can then be combined to construct an image of the brain. The resolution of CT images is not that high, but they can visualize any major structural problems with the brain, such as a tumor. 
+		- Computerized Axial Tomography, AKA CAT or CT Scan
+			- Structural Neuroimaging
+			- Series of X-Ray Images of Head
+			- Images used to construct overall image of brain
+			- Relatively low resolution
+			- Can see major structural problems
+	- Magnetic resonance imaging, or MRI, involves applying a combination of magnetic fields and radiofrequency energy waves to the brain. Hydrogen atoms respond to the magnetic fields and radiofrequency pulses by emitting energy. The MRI machine receives this energy and can tell what part of the brain it came from. A computer can use that information to reconstruct an image of the brain with high spatial resolution. 
+		- Magnetic Resonance Imaging (MRI)
+			- Structural Neuroimaging
+			- Uses magnetic fields and radiofrequency energy
+			- Hydrogen atoms respond by emitting energy
+			- Machine uses energy to construct image
+			- Better resolution than cat scan
+	- Positron emission tomography, or PET scanning, is a way of imaging brain function. To do a PET scan, a patient is injected with a radioactive substance that emits positrons, which then emit gamma rays when they collide with electrons in brain tissue. These gamma rays are detected by the PET scanner. Because the radioactive substance was injected into the bloodstream, what the PET scanner is detecting is the movement of blood throughout the brain. Blood flow to an area of the brain increases when that area is active, so PET scanning creates an image that highlights the areas of the brain that are being used the most while the person is in the scanner. 
+		- Positron Emission Tomography (PET)
+			- Functional Neuroimaging
+			- Patient Injected w/ radioactive substance
+			- Substance emits positrons
+			- Positrons collide with tissue, emit gamma rays
+			- Gamma rays detected by device
+			- Gives image of cerebral blood flow
+			- Shows which areas are most active
+- ![[Screenshot 2024-12-22 at 5.01.45 PM.png]]
+	- Functional MRI, or fMRI, uses a similar approach to MRI but focuses on the different responses oxygenated and unoxygenated blood make to magnetic fields and radiofrequency energy. fMRI uses what is called blood-oxygen-level-dependent contrast , or BOLD, to identify changes in blood flow in the brain, and thus to identify areas of the brain that are most active. fMRI allows one to image brain function without having to inject anything, and it provides high resolution MRI images at the same time as it provides a functional image.
+		- Functional Magnetic Resonance Imaging (FMRI)
+			- Functional Neuroimaging
+			- Uses magnetic field and radiofrequency energy
+			- Uses different response of oxygenated and unoxygenated blood to detect changes in blood flow
+			- Shows which areas are most active
+			- Shows activity along with high resolution structural image
