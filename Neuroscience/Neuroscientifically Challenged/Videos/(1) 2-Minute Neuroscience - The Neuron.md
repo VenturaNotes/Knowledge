@@ -1,8 +1,8 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=6qS83wD29PY
+Reviewed: false
 ---
-## Notes
 - ![[Screenshot 2024-11-12 at 12.39.19 AM.png]]
 	- Will discuss the [[neuron]] here
 	- [[brain|brains]] contain around 85 billion neurons

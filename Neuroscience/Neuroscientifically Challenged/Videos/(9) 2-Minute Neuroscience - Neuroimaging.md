@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=N2apCx1rlIQ
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-22 at 5.01.13 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss neuroimaging. I will cover a few of the most common types of neuroimaging: CAT scans, MRI, PET scans, and fMRI. 
