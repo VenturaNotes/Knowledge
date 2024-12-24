@@ -171,11 +171,11 @@ tags:
 	- Math & Geometry (8)
 		- (143) [[(48) Rotate Image]]
 		- (144) [[(54) Spiral Matrix]]
-- Incomplete
-	- Math & Geometry (8)
 		- (145) [[(73) Set Matrix Zeroes]]
 		- (146) [[(202) Happy Number]]
 		- (147) [[(66) Plus One]]
 		- (148) [[(50) Pow(x, n)]]
+- Incomplete
+	- Math & Geometry (8)
 		- (149) [[(43) Multiply Strings]]
 		- (150) [[(2013) Detect Squares]]

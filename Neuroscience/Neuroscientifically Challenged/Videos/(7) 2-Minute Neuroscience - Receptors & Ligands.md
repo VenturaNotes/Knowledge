@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=NXOXZ-kaSVI
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-21 at 11.32.34 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss [[receptors]] and [[ligand|ligands]]. When neurotransmitter molecules are released from a neuron, they pass the signal to the next neuron by interacting with receptors on that neuron. These receptors are made up of proteins embedded in the membrane of the postsynaptic cell. 

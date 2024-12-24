@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Tp25wrm-AoA
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-22 at 4.51.05 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss early neural development. The development of the nervous system begins at around the third week of embryonic development, when an area of the ectoderm, or the outer tissue layer of the embryo, thickens and forms what is known as the neural plate. 

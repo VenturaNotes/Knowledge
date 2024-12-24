@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LQ4DlE1Xyd4
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-21 at 11.28.31 PM.png]]
 	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss the lobes of the brain and some major landmarks of the brain surface that can be seen from a lateral view. The brain is made up of two halves, known as [[cerebral hemispheres]]. When looking at the brain from a [[lateral view]], which just means looking at it from the side, we will only see one cerebral hemisphere, but the landmarks I will point out are found on both cerebral hemispheres. 

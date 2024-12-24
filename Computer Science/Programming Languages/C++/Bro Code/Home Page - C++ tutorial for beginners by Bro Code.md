@@ -15,13 +15,13 @@ tags:
 	- [[(6) What are arithmetic operators]]
 	- [[(7) What is type conversion]]
 	- [[(8) How to accept user input in C++]]
-- Incomplete
 	- [[(9) Useful math related functions in C++]]
 	- [[(10) C++ Hypotenuse calculator practice program]]
 	- [[(11) What's an if statement]]
 	- [[(12) What is a switch]]
 	- [[(13) C++ console calculator program]]
 	- [[(14) What is the ternary operator]]
+- Incomplete
 	- [[(15) What are logical operators.]]
 	- [[(16) C++ Temperature conversion program]]
 	- [[(17) Useful string methods in C++]]

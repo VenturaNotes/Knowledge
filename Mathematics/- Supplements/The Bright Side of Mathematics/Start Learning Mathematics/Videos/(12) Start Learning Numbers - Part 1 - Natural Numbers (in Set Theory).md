@@ -3,5 +3,59 @@ Source:
   - https://www.youtube.com/watch?v=SpXHqrMGb0Y
 Reviewed: false
 ---
-- Image
-	- 
+- ![[Screenshot 2024-12-23 at 7.57.34 PM.png]]
+	- Mathematics starts with calculations. Calculations with numbers
+	- Numbers start with the [[natural numbers]]
+		- They are called natural numbers because they are an abstraction we can immediately see in our natural world
+		- As children, we get the conception from counting things
+		- The abstraction or generalization that comes from counting different objects is what leads us to the natural numbers
+			- So they just represent different sizes we can have for collections of some objects
+		- So it makes sense to introduce new symbols for these representations
+		- For the mathematics we explore, it doesn't matter which name we give these numbers but the actual concept of numbers is important
+		- With this, we can say the natural numbers we want to consider is the set $\mathbb{N}$ that consists of all of these new symbols
+			- $\mathbb{N}= \{1, 2, 3, 4, ...\}$ 
+				- However, this is not a complete definition for a set
+				- So how do we define the natural numbers just with sets?
+	- Will construct natural numbers which also includes zero as a number 
+	- $\mathbb{N}_0 = \{0, 1, 2, 3, 4, ...\}$
+		- Be careful as $\mathbb{N}$ is also used for this set here
+	- Now let's start constructing the natural numbers
+		- #question what is meant by constructing?
+		- As we've seen with example of apples and oranges, the size of a set can be used to define a number
+		- We know the [[empty set]]
+			- By definition, the empty set does not have any elements so it represents the number 0
+				- So can use it as definition for new symbol 0
+					- $0 := \varnothing$ 
+					- It might look strange but keep in mind that we already have the set theory so it makes sense that every new object we introduce should also be a set.
+						- Did the same thing when introduced ordered pairs and maps
+				- Now defining number 1 as a set. 
+				- 1 := {0} set with one element
+				- 2 := {0, 1} set with two elements
+					- We can choose 0 and 1 as we know they're different
+				- 3 := {0, 1, 2} set with there elements
+				- 4 := {0, 1, 2, 3} = 3 $\cup$ {3}
+					- Rightmost expression is shorthand
+				- Here we don't need any real world objects. We just need the abstract concepts in set theory.
+				- With this formula, you now know how to construct the next number in order. Then we get all the numbers we want to have. Then we put them into one set and call them the natural numbers $\mathbb{N}_0$ 
+					- Might be a problem. Whole construction never stops
+						- The naturals numbers, the set $\mathbb{N}_0$ should have infinitely many elements. That is something we need to put into our set theory so we call it an [[axiom]]
+							- It's simply something we put as a true statement into our theory
+								- Existence of an empty set was an axiom we put into set theory.
+								- Now we want to put in existence of natural numbers
+				- Axiom: There is a set $\mathbb{N}_0$ with the properties:
+					- (a) Starting point 0: 0 $\in$ $\mathbb{N}_0$ 
+						- Set 0 lies in $\mathbb{N}_0$ 
+					- (b) $\forall x$: x $\in$ $\mathbb{N}_0$ $\to$ $x \cup \{x\} \in \mathbb{N}_0$ 
+						- For all numbers that lie in $\mathbb{N}_0$, the successor also lies in $\mathbb{N}_0$
+						- Here we have the $\to$ conditional from logic
+						- Sometimes it's written with a double arrow $\implies$
+						- Will do this also later to avoid confusion with arrow for maps
+					- And $\mathbb{N_0}$ is the smallest set having these two properties
+						- This just means any other set with these two properties is a superset of $\mathbb{N}_0$ 
+	- Now we finally have the natural numbers in our set theory. It's constructed with sets. It has sets as elements such that we can work with it.
+		- Not an explanation of the numbers but a working tool for us. 
+		- Therefore, it's often called a model for the natural numbers
+	- [[Successor map]]: s: $\mathbb{N}_0$ $\to$ $\mathbb{N}_0$ 
+		- Definition: x $\mapsto$ $x \cup \{x\}$ 
+			- This will give us the successor
+		- If we put in s(6) into map, we get 7
