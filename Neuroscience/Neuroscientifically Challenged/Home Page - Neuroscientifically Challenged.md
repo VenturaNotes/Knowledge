@@ -65,10 +65,10 @@ tags:
 	- [[(55) 2-Minute Neuroscience - Alcohol]]
 	- [[(56) 2-Minute Neuroscience - Taste]]
 	- [[(57) 2-Minute Neuroscience - GABA]]
-- Incomplete
 	- [[(58) 2-Minute Neuroscience - Broca's Area]]
 	- [[(59) 2-Minute Neuroscience - Acetylcholine]]
 	- [[(60) 2-Minute Neuroscience - Wernicke's Area]]
+- Incomplete
 	- [[(61) 2-Minute Neuroscience - Long-Term Potentiation (LTP)]]
 	- [[(62) 2-Minute Neuroscience - Oxytocin]]
 	- [[(63) 2-Minute Neuroscience - Serotonin]]
