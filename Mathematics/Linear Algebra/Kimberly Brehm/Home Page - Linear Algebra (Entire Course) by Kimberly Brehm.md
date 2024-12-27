@@ -35,10 +35,10 @@ tags:
 	- [[(26) Linear Algebra 4.1.1 Vector Spaces]]
 	- [[(27) Linear Algebra 4.1.2 Subspace of a Vector Space]]
 	- [[(28) Linear Algebra 4.2.1 Null Spaces]]
-- Incomplete
 	- [[(29) Linear Algebra 4.2.2 Column Spaces]]
 	- [[(30) Linear Algebra 4.3.1 Linearly Independent Sets and Bases]]
 	- [[(31) Linear Algebra 4.3.2 The Spanning Set Theorem]]
+- Incomplete
 	- [[(32) Linear Algebra 4.5.1 The Dimension of a Vector Space]]
 	- [[(33) Linear Algebra 4.5.2 Subspaces of a Finite Dimensional Space]]
 	- [[(34) Linear Algebra 4.6.1 The Row Space]]
