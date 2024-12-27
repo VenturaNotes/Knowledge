@@ -3,3 +3,42 @@ Source:
   - https://youtube.com/watch?v=atwUmR-qpfk
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-26 at 1.22.40 PM.png]]
+	- [[Spanning set theorem]]
+	- What is it?
+		- A [[basis]] is essentially an efficient spanning set containing no unnecessary vectors
+		- Spanning set theorem:
+			- Let S = {$v_1, v_2, ... v_p$} be a set in v and let H = span {$v_1, ... v_p$}.
+				- (a) If $v_x \in S$ and $v_k$ is a linear combination of the remaining vectors in S, then S $\backslash$ {$v_k$} still spans H.
+					- If we have some element in S that is a linear combination of the other vectors in S, then taking out this guy ($v_k$), that what's left over will still span H.
+					- So for example, if you have 3 vectors shown in white in the picture, we can remove $v_3$ because it's $v_k$ in this case as it's a linear combination of the remaining vectors (since $v_3$ is just $3v_2$.) So we can remove $v_3$ and the remaining vectors still spans H. 
+				- (b) If H $\ne$ $\vec 0$, some subset of S is a basis for H
+					- A basis is linearly independent vectors that still span the same region.
+					- If we take out just one vector, what's left over is still going to span the same region and those are linearly independent and will form a basis for H
+		- Elementary examples helps us make things make sense
+		- Showing proof form now
+			- $x = a_1v_1 + a_2v_2 + ... a_pv_p \in H$
+				- It is in H because H is the span of those vectors which means anything in H can be written as a linear combination of the vectors in S
+			- Proved (a) to be true because we showed it for some arbitrary $v_p$ so $v_p$ could be any of the vectors
+				- $v_p$ represents the arbitrary vector that can be written as a linear combination of other vectors
+			- For (b)
+				- It says as long as H is not the zero vector, then some subset of S is the basis for H. No room to show proof of that but essentially what we would say is if we have x that belongs to H and can take out arbitrary vectors and still end up with an element of H and keep doing that until there is no extras, I take out all of the extras and what's left over is still going to span because we know, we just proved that part of it. It essentially tells us that we'll keep going until we get down to a set that is in fact linearly independent like we did when taking out one vector $v_3$ (3 vector example). We can take out as many as we need to so we get down to that point and what's left over is going to be linearly independent and span the subspace and therefore is a basis
+	- Example
+		- Given 3 vectors and H spans them, show that the span of 3 of vectors equals the span of 2 vectors and find a basis for the subspace of H. 
+		- Anything in [[span]] {$v_1, v_2, v_3$} can be written as $c_1v_1 + c_2v_2 + c_3v_3$ 
+			- Proved both ways?
+		- The basis is {$v_1, v_2$} as it's linearly independent and spans H
+	- Example
+		- Given 3 vectors and H, find 3 distinct bases for H
+			- Whichever one you take out of the vectors doesn't matter because the two left over are not linearly dependent, they are linearly independent and therefore using the [[spanning set theorem]], any of them could be a basis because we're taking out the one redundant vector 
+	- Basis for Col A
+		- Find a [[Basis]] for A
+			- A basis has vectors that are linearly independent (which means they can't be written as linear combinations of one another) and they still span (in this case) the column space of A
+		- Since $a_2$ and $a_4$ are redundant as they can be rewritten from $a_1$ and $a_3$, the spanning set theorem tells us that we can discard $a_2$ and $a_4$ and therefore the set $\{a_1, a_3, a_5\}$ are still going to span the column space of . This would be our basis.
+		- We have a theorem that says in textbook:
+			- The pivot columns of matrix A form a basis for the column space of A
+		- Any time we can write any vectors as a linear combination of other vectors, by the spanning set theorem, it tells us we can eliminate them and what's left over will be linearly independent and therefore form a basis
+- ![[Screenshot 2024-12-26 at 1.24.20 PM.png]]
+	- Practice
+		- Find a basis for Column A for A
+		- The basis is the original column 1 and the original column 2

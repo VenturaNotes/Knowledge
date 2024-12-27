@@ -68,7 +68,6 @@ tags:
 	- [[(58) 2-Minute Neuroscience - Broca's Area]]
 	- [[(59) 2-Minute Neuroscience - Acetylcholine]]
 	- [[(60) 2-Minute Neuroscience - Wernicke's Area]]
-- Incomplete
 	- [[(61) 2-Minute Neuroscience - Long-Term Potentiation (LTP)]]
 	- [[(62) 2-Minute Neuroscience - Oxytocin]]
 	- [[(63) 2-Minute Neuroscience - Serotonin]]
@@ -102,6 +101,7 @@ tags:
 	- [[(91) 2-Minute Neuroscience - Vagus Nerve (Cranial Nerve X)]]
 	- [[(92) 2-Minute Neuroscience - Prefrontal Cortex]]
 	- [[(93) 2-Minute Neuroscience - Accessory Nerve (Cranial Nerve XI)]]
+
 	- [[(94) 2-Minute Neuroscience - Hypoglossal Nerve (Cranial Nerve XII)]]
 	- [[(95) 2-Minute Neuroscience - Touch Receptors]]
 	- [[(96) 2-Minute Neuroscience - Oculomotor Nerve (Cranial Nerve III)]]
@@ -135,6 +135,7 @@ tags:
 	- [[(124) 2-Minute Neuroscience - Motor Neurons]]
 	- [[(125) 2-Minute Neuroscience - Chronic Traumatic Encephalopathy (CTE)]]
 	- [[(126) 2-Minute Neuroscience - Ketamine]]
+- Incomplete
 	- [[(127) 2-Minute Neuroscience - Tinnitus]]
 	- [[(128) 2-Minute Neuroscience - Bell's Palsy]]
 	- [[(129) 2-Minute Neuroscience - Brain Aneurysms]]

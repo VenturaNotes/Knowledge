@@ -125,3 +125,6 @@ http://detexify.kirelabs.org/classify.html
 - Maps to: $\mapsto$ 
 - Type Theory: $\Gamma \vdash A : Type$ 
 - Tilde x: $\tilde x$ 
+- Adding extra space :
+	- $A \qquad B$
+	- $A \quad B$ 

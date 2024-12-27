@@ -3,3 +3,51 @@ Source:
   - https://youtube.com/watch?v=lOyFbpemz58
 Reviewed: false
 ---
+- ![[Screenshot 2024-12-26 at 9.20.19 AM.png]]
+	- [[Linear Independence|linearly independent]] sets and [[bases (math)|bases]]
+	- What we already know (videos 1.7.1 and 1.7.2)
+		- An indexed set of vectors {$v_1, v_2, ... vp$} in $\mathbb{R}^n$ is linearly independent if the vector equation $x_1v_1 + x_2v_2 + ... + x_pv_p = 0$ has only the trivial solution
+			- If it only has the trivial solution, then $x_1 = x_2 = x_3 = ... x_p = 0$. So all x-values or scalars would have to equal to 0 to only have the trivial solution
+		- [[Linear dependence]]
+			- A non-trivial solution exists
+			- Vectors are multiples of one another
+				- Examples would be $\begin{bmatrix}1 \\ 2 \end{bmatrix}$ and $\begin{bmatrix}2 \\ 4 \end{bmatrix}$
+			- A vector is a linear combination of other vectors in the set
+				- For the vectors $v, w, z$ example, you can find combination of $v$ and $w$ to get to $z$ 
+			- There are more vectors than entries in each vector
+				- In the $v, w, z$ example, since there are 3 vectors and only 2 variables in each vector, there is bound to be a [[free parameter|free variable]]
+					- A free variable means obviously more than just the non-trivial solution will exist
+	- Examples
+		- Are the vectors linearly independent?
+			- Determining this if we have free variable or only the trivial solution which is why we're augmenting it with a zero vector.
+			- If we end up with an [[identity matrix]] on the left side, it means we have no free variables and the only solution to $Ax = 0$ is the trivial solution so it's linearly independent
+		- Is {$p_1, p_2, p_3$} linearly independent?
+			- Dealing with [[Polynomial|polynomials]] here 
+			- Since $p_3$ can be written as a linear combination of $p_1$ and $p_2$, these are [[Linear Dependence|linearly dependent]] 
+	- [[Basis]] - what is it?
+		- Let H be a subspace of vector space v. $\mathcal{B} = \{b_1, b_2...b_p\}$  is a basis for H if:
+			- 1) B is linearly independent
+			- 2) H = span {$b_1, b_2 ... b_p$}
+				- H is a subspace here
+		- Example: B = {$\begin{bmatrix}1 \\ 0 \end{bmatrix}, \begin{bmatrix}0 \\ 1 \end{bmatrix}$} forms a Basis of $\mathbb{R}^2$ 
+			- They are linearly independent
+			- They would span all of $\mathbb{R}^2$ because you can get to anywhere in $\mathbb{R}^2$ by some linear combination of the above two vectors
+			- So those two vectors are a basis of $\mathbb{R}^2$ 
+		- Recall that if A is an invertible $n \times n$ matrix, the columns are linearly independent and span $\mathbb{R}^n$ by [[invertible matrix theorem|IMT]]
+	- Example
+		- Given $v_1$ and $v_2$
+			- are they a basis for $\mathbb{R}^2$ or $\mathbb{R}^3$? (a basis for neither)
+		- Since three are 3 entries in each of the vectors, they belong in the set $\mathbb{R}^3$. Since they belong to $\mathbb{R}^3$, they could not possibly form a basis for $\mathbb{R}^2$ because they won't span $\mathbb{R}^2$ 
+		- Our previous definition says that H was a subspace of the vector space and obviously $v_1$ and $v_2$ are not a [[subspace]] of $\mathbb{R}^3$ which is our [[vector space]] in this case
+		- Not a basis of $\mathbb{R}^3$ as not every row would have a pivot
+			- So {$v_1, v_2$} doesn't span $\mathbb{R}^3$ so not a basis.
+- ![[Screenshot 2024-12-26 at 9.44.55 AM.png|400]]
+	- Example
+		- Determine if the set of vectors form a basis for $\mathbb{R}^3$  (yes)
+			- Just checking if pivot in every row so it is a basis of $\mathbb{R}^3$ as they can be row reduced to $\begin{bmatrix}1 \\ 0 \\ 0 \end{bmatrix}$, $\begin{bmatrix}0 \\ 1 \\ 0 \end{bmatrix}$, $\begin{bmatrix}0 \\ 0 \\ 1 \end{bmatrix}$ which span $\mathbb{R}^3$ and are linearly independent
+	- [[Standard basis]]
+		- We just found the set of vectors from a basis for $\mathbb{R}^3$. But we also know form a basis for $\mathbb{R}^3$. What gives? 
+			- Our standard basis is our base of basis
+				-  $\begin{bmatrix}1 \\ 0 \\ 0 \end{bmatrix}$, $\begin{bmatrix}0 \\ 1 \\ 0 \end{bmatrix}$, $\begin{bmatrix}0 \\ 0 \\ 1 \end{bmatrix}$
+			- $\mathbb{P}^4 = \{t^0, t^1, t^2, t^3, t^4\}$
+				- This would span $\mathbb{P}^4$ and be linearly independent 

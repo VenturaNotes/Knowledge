@@ -21,7 +21,6 @@ tags:
 	- [[(12) What is a switch]]
 	- [[(13) C++ console calculator program]]
 	- [[(14) What is the ternary operator]]
-- Incomplete
 	- [[(15) What are logical operators.]]
 	- [[(16) C++ Temperature conversion program]]
 	- [[(17) Useful string methods in C++]]
@@ -34,6 +33,7 @@ tags:
 	- [[(24) Random event generator in C++]]
 	- [[(25) C++ number guessing game]]
 	- [[(26) How to create user defined functions]]
+- Incomplete
 	- [[(27) What does the return keyword do]]
 	- [[(28) What are overloaded functions]]
 	- [[(29) What is variable scope]]
