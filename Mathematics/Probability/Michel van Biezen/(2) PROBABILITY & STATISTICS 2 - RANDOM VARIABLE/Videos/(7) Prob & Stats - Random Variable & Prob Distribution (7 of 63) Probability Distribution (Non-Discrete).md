@@ -2,4 +2,22 @@
 Source:
   - https://www.youtube.com/watch?v=RBTWgElcTKU
 ---
-
+- ![[Screenshot 2024-12-27 at 7.49.03 PM.png]]
+	- Probability functions
+		- How long will a light bulb last?
+			- There are continuous values for the length of a life of a light bulb
+	- y-axis:
+		- Frequency of occurrence (how many will last that long)
+	- It will be a [[continuous distribution]] because no two light bulbs would last that exact amount of time.
+	- Non-discrete [[probability distribution]] (in other words, we can't have a discrete value)
+		- More often called non-discrete probability function
+			- #question is this the same thing as a continuous function?
+	- We can draw a [[probability function]]
+		- The vertical axis is a function of x
+		- x will be the number of hours
+	- Could ask the question of $P(x \le 1200 hrs) = ?$
+		- The definition is that the total sum of all the probabilities should add up to 1 and to do that with a non-discrete or continuous function would be
+			- $\int^{x= \infty}_{x=0} P(x)dx = 1$ 
+				- Integrating over function means that the area underneath should add up to 1.
+		- Would solve integral by taking area left of 1200 hours
+			- This means you expect 65% of them to last 12 hours or less (as an example at least)
