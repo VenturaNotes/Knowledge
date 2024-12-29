@@ -2,4 +2,19 @@
 Source:
   - https://www.youtube.com/watch?v=TzTNwpdc6FE
 ---
-
+- ![[Screenshot 2024-12-27 at 8.22.17 PM.png]]
+	- Example: Tossing 2 dice 10 times
+	- What is the mean of the random variable x?
+		- The [[mean]] is just another word for average
+		- So the average means that you add up all the numbers and then divide by the total number of numbers and you get the average. 
+	- x with bar on top means average: $\overline x$ 
+		- Mathematical definition of calculating average
+			- $\frac {\Sigma^{n}_{i = 1}x_i}{n}$
+				- Sum all x divided by the total number that we have
+			- Example
+				- $x_4$: The 4 here is just a subscript. It just means it's equal to the 4th item.
+					- So $x_4 = 12$ in this case.
+				- So we sum them from 1 to the total number we have in this case. 
+				- n = 10 for ten tosses
+		- If you toss it enough times, you'd expect the average to eventually be 7
+	- So what's meant by the mean or average? You simply add up all the numbers and divide it by the total numbers you have and that gives you the average value or the mean. 

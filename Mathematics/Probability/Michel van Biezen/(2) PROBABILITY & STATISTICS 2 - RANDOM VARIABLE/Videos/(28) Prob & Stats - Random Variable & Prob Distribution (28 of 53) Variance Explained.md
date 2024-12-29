@@ -2,4 +2,19 @@
 Source:
   - https://www.youtube.com/watch?v=jiN-03T2nHM
 ---
-
+- ![[Screenshot 2024-12-27 at 10.50.56 PM.png]]
+	- [[Variance]]
+	- Variance = $\frac {\Sigma^{n}_{i=1}(x_i - \overline x)^2}{n}$
+		- The word itself would kind of indicate how much variation is there. That is really what it amounts to.
+		- A measure of how much variation there is in the numbers
+		- Variance can be calculated in several different ways. 
+		- One way to calculate it is through (n equally likely values)
+			- So if we have 10 values, we assume there is an equal probability that any of them can occur
+	- The variance found for the top number is 23 which is a big number compared to the average number found of 10. It means we have a lot of variance. A lot of variation away from the average. 
+		- 2 is a very large difference from 10. So when you have numbers that are far away from the average and you square that difference, you get a really big number and you see that if the variance is big it can be caused by having some big outlier. Some numbers that are far away from the average. So difference between average and those numbers is a big number so that simply means you probably have some outliers that are far away from the average. 
+	- Notice the variance for the second set is 12
+		- Since the two big outliers of `2` and `19` did not exist in the second set, you can see how just having those two numbers differently, the variance looks a lot smaller. 
+	- Again, the variance is simply a measure of how tight the numbers are together close to the mean or average or how far away they are
+		- Not as a general rule but also are there any particularly big outliers (numbers far away from the average that will throw off your variance)
+	- So this equation to calculate the variance in this particular case would only be for when you have `n` equally likely values
+		- Next video will show numbers that are not equally probable to occur so therefore instead of using average value, you would use the expected value. 

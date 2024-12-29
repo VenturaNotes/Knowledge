@@ -2,4 +2,19 @@
 Source:
   - https://www.youtube.com/watch?v=NVZqbf6zhGA
 ---
-
+- ![[Screenshot 2024-12-27 at 8.15.43 PM.png]]
+	- Let x = amount of time a battery lasts (total = 200 batteries)
+	- Continuous random variables
+	- Could use a probability distribution function and use calculus to calculate certain things
+	- Could put things in bins
+		- Could do the experiment, measure exactly how long a battery lasts (which would be so many hours, minutes, seconds for each one) and then we group them together:
+			- How many batteries lasted from 0 to 1 hours?
+			- How many batteries lasted from 1 to 2 hours?
+			- How many batteries lasted from 2 to 3 hours? and so on.
+		- Could put these values in a bar graph or a histogram
+			- Could draw a probability distribution graph or histogram where we can see the height of each column is proportional to the probability that we'll have a battery that lasts that much time within that particular time frame (like between 0 and 1 hours). Total should add up to 100%
+				- Could be more useful this way
+	- Left graph could be more useful because you could use calculus to calculate the probability that it would last for so long or at least this long and so forth
+	- The right graph is a discrete distribution
+		- So you can still map a continuous distribution into a discrete distribution 
+	- This is how to handle a continuous random variable and turn it into a discrete set of random variables
