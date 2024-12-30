@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=lBuJmzyiu8Y
+Reviewed: false
 ---
 - Measures of central tendency attempt to summarize sets of data as accurately as possible
 	- Some examples of measures of central tendency:

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Abh67KIC-kI
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-08 at 7.37.38 AM.png]]
 	- Imagine you're visiting a zoo with six animals, and I ask you to record the first three animals you see.

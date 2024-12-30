@@ -16,7 +16,6 @@ tags:
 	- [[(7) Prob & Stats - Random Variable & Prob Distribution (7 of 63) Probability Distribution (Non-Discrete)]]
 	- [[(8) Prob & Stats - Random Variable & Prob Distribution (8 of 53) Probability Distribution - Histogram]]
 	- [[(9) Prob & Stats - Random Variable & Prob Distribution (9 of 53) Probability Dist - Skewed Histogram]]
-	
 	- [[(10) Prob & Stats - Random Variable & Prob Distribution (10 of 53) Continuous Random Variables]]
 	- [[(11) Prob & Stats - Random Variable & Prob Distribution (11 of 53) The Mean Average]]
 	-  [[(12) Prob & Stats - Random Variable & Prob Distribution (12 of 53) The Expected Value Ex. 1]]
@@ -37,7 +36,6 @@ tags:
 	- [[(27) Prob & Stats - Random Variable & Prob Distribution (27 of 53) Expected Value - Example 3]]
 	- [[(28) Prob & Stats - Random Variable & Prob Distribution (28 of 53) Variance Explained]]
 	- [[(29) Prob & Stats - Random Variable & Prob Distribution (29 of 53) Variance (Probability Distribution)]]
-- Incomplete
 	- [[(30) Prob & Stats - Random Variable & Prob Distribution (30 of 53) Standard Deviation]]
 	- [[(31) Prob & Stats - Random Variable & Prob Distribution (31 of 53) Standard Deviation - 2]]
 	- [[(32) Prob & Stats - Random Variable & Prob Distribution (32 of 53) Standard Deviation - 3]]
@@ -46,6 +44,7 @@ tags:
 	- [[(35) Prob & Stats - Random Variable & Prob Distribution (35 of 53) Normal Distribution Eqn]]
 	- [[(36) Prob & Stats - Random Variable & Prob Distribution (36 of 53) Normal Distribution Table]]
 	- [[(37) Prob & Stats - Random Variable & Prob Distribution (37 of 53) Binomial Distribution]]
+- Incomplete
 	- [[(38) Prob & Stats - Random Variable & Prob Distribution (38 of 53) Binomial Dist. - General Case]]
 	- [[(39) Prob & Stats - Random Variable & Prob Distribution (39 of 53) Binomial Distribution - Example]]
 	- [[(40) Prob & Stats - Random Variable & Prob Distribution (40 of 53) Binomial Distribution - Graphing]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=2uk-qRKWJj4
+Reviewed: false
 ---
 - Quantitative variables are measured numerically
 	- with measurements of quantitative variables you can do things like add and subtract, and multiply and divide, and get a meaningful result.

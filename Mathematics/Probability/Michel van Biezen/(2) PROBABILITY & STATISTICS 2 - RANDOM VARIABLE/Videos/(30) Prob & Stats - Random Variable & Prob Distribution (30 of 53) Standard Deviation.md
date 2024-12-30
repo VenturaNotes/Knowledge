@@ -3,12 +3,28 @@ Source:
   - https://www.youtube.com/watch?v=cVK8U1lAf7k
 ---
 
-- Image
+- ![[Screenshot 2024-12-28 at 8.51.21 PM.png]]
 	- [[Standard deviation]] of a [[random variable]]
 	- A standard deviation is a measure like calculating the variance. It's how numbers are distributed. If the standard deviation is small, then the numbers are closely grouped together, not a lot of variation. If standard deviation is large, then the numbers are spread over a much greater range. There is a lot more variation in the numbers associated with what we're looking at. 
 	- We can look at millions of different things by drawing variation distributions and that's the graph we have
 		- We have a [[gaussian distribution]] or a normal distribution. 
 			- A normal distribution means that there is symmetry about the way numbers are arranged. Meaning there's a place where the numbers are basically the average number or the expected value where the greatest occurrence is, the higher this curve, the more numbers are like that and the lower the curve, the less numbers are like that
 		- In this case, the curve is supposed to represent the average height of men. 
-			- If it's 5'9, 
-		- To measure variation in height of men, we use a standard deviation. The symbol we use for standard deviation is 
+			- Let's say it's 5'9.
+		- To measure variation in height of men, we use a standard deviation. The symbol we use for standard deviation is $\sigma$.
+			- $\sigma$ is a measure of how widely the numbers are distributed or how tightly the numbers are distributed.
+			- When drawing that into a normal curve and we have normalized the curve, then the area underneath the curve is equal to 1
+			- 34.1% lie between the lines
+				- Let's say we have a million men and we measure their heights to distribute them on a curve, we will get the graph shown. 
+				- It would mean 341,000 men would have a height between 5'9 and 1 $\sigma$ away from that height.
+					- 1 $\sigma$ is what we call the standard deviation. 
+					- There is a way to calculate the standard deviation. 
+	- $\sigma = \sqrt{\text{variance}}$ or $\sigma = \sqrt{\frac{\Sigma ( x_i - \overline x)^2}{n}}$
+	- Once we calculate the standard deviation, we can figure out how many of our samples fall within certain ranges. We can see what % of the population falls within $\pm 3 \sigma$ 
+		- Once we calculate what $\sigma$ is, we can calculate the numbers associated with that. 
+	- In summary, the standard deviation from a normal distribution of values (height of men). The distribution can then tell you how many of a sample will fall within certain categories and those categories are defined by taking the average value and adding 1 $\sigma$ or -1 $\sigma$ and etc. 
+		- Then based upon the normal distribution, we can figure out how many of the sample would fall within those ranges. 
+		- For example, 68.2% of all men would fall between 1$\sigma$ and $-1\sigma$ away from the average height.
+		- 95.5% for $\pm 2 \sigma$
+		- 99.7% for $\pm 3\sigma$ 
+	- Standard deviation is calculating what that $\sigma$ is equal to so we have a full understanding of the distribution of values that we're looking at. 

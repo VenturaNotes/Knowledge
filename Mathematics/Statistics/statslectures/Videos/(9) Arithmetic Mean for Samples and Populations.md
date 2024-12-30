@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GzXlIfiZUqg
+Reviewed: false
 ---
 - The Arithmetic Mean is a single value meant to "sum up" a data set.
 	- Example #1

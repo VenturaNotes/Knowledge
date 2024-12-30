@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Snf6Wpn-L4c
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-28 at 8.50.45 AM.png|400]]
 	- Percentages

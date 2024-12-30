@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=CNW9txOMYAg
+Reviewed: false
 ---
 - A [[variable]] is a property that can take on many values.
 	- "Age" is a <mark style="background: #FFF3A3A6;">variable</mark>. It can take on many different values, such as 18, 49, 72, and so on.

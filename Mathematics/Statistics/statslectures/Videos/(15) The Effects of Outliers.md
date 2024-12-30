@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=o2q-L3auqW8
+Reviewed: false
 ---
 - Describing Data
 	- Measures of Central Tendency:

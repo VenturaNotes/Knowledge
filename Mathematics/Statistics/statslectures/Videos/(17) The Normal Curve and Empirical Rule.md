@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=McSFVzc8Swk
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-28 at 9.12.28 AM.png|400]]
 	- In the past, I've used bar graphs to display discrete data

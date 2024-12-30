@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Q_7PR9kRXWs
+Reviewed: false
 ---
 - Probability is about determining the likelihood of events
 - Independence of Events

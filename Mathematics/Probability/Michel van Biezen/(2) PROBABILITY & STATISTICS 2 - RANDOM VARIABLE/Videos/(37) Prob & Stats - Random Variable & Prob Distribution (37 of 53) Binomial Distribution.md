@@ -2,4 +2,35 @@
 Source:
   - https://www.youtube.com/watch?v=bpyC-yggXHc
 ---
-
+- ![[Screenshot 2024-12-28 at 10.21.34 PM.png]]
+	- What is a [[binomial distribution]]? (different from normal distribution)
+	- It is a distribution of the results of a binomial experiment
+	- They consist of:
+		- (1) n identical experiments (or trials)
+			- Will do the experiments over and over again
+			- `n` could be a small number like 2 or 3
+				- Could also be 2 thousand or a million.
+				- There are differences between them.
+		- (2) Each trial has 2 outcomes
+			- Like heads or tails
+			- Bi means two
+		- (3) The probability for each outcome does not change
+			- Every time you flip a coin, 50% heads and 50% tails
+			- Probability for heads or tails doesn't change
+		- (4) All trials are independent
+			- If you flip a coin once and then again, the outcome of second flip in no way depends on outcome of second flip (completely independent)
+		- p = probability of success
+		- q = probability of failure
+		- n + q = 1
+			- n and p don't need to be equal
+	- Toss a coin 5 times
+		- success $\to$ heads
+			- $p = 0.5$ 
+			- $q = 0.5$
+		- 5 trials
+			- Success would be heads so
+				- probability of success `p` is equal to 0.5 as probability of getting heads is 50%
+				- probability of failure `q` is 0.5 as probability of getting tails is 50%
+	- Since it's a [[binomial distribution]] we can use [[binomial expansion]] to figure out the numbers
+		- So if you toss a coin 5 times, the possible outcomes is 32 combinations
+		- So when you do binomial expansion, you find $\frac {1}{32}$% chance you get 0 heads. Then $\frac {5}{32}$% chance for 1 head, and so on.   
