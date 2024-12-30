@@ -6,7 +6,7 @@ tags:
   - status/incomplete
   - type/playlist
 ---
-- Complete (Read Again)
+- Complete
 	- [[(1) The Basics - Descriptive and Inferential Statistics]]
 	- [[(2) Sampling Methods]]
 	- [[(3) Types of Variables]]

@@ -2,4 +2,26 @@
 Source:
   - https://www.youtube.com/watch?v=6_Yj9EJTWkc
 ---
-
+- ![[Screenshot 2024-12-28 at 9.34.02 PM.png]]
+	- [[Normal distribution]]
+	- Today, we're taking a normal [[frequency distribution]] and turning it into a [[normal distribution]]
+		- This means we'll have the relative height indicated by the average value of whatever x is and of course it would be the point of highest frequency
+		- Will turn it into a normalized function where the entire area underneath the curve is equal to 1. 
+			- The maximum height will be much lower than 1 then. 
+	- We can have a normal distribution where the average value is indicated by $\mu$ which is a certain value for x
+		- or we could have a situated in such a away where the average value falls right on the y-axis (the frequency axis), so that we have a negative side and a positive side to our curve. 
+	- The equation that describes this curve is:
+		- $f(x) = \frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}$
+			- So the highest point on the normal curve is equal to $\frac{1}{\sigma \sqrt{2\pi}}$
+				- Remember that $\sigma$ is simply the standard deviation of the distribution. 
+			- This equation centers it around $\mu$
+		- $f(x) = \frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-x^2}{2\sigma^2}}$
+			- This equation centers it around the vertical axis
+			- Height of highest point on curve is still $\frac{1}{\sigma \sqrt{2\pi}}$
+	- Why do we have a normal distribution?
+		- We can use this equation and distribution to find the probability of certain events occurring.
+			- We know based on $\sigma$ what percent of values fall within range from average. 
+			- Only possible to calculate if distribution of values is according to normal curve.
+				- For large quantities of numbers, this is usually the case. For smaller quantities of numbers, it gets a little skewed to left or right (then we'll look at those specific cases but we'll also handle it a little differently)
+		- By creating a normalized curve, the area underneath the curve simply represents the probability of an event occurring
+	- The area underneath the curve is set equal to 1 (which is called a normalized curve or normalized distribution so any area between any vertical lines represents the probability of the event occurring within those particular limits for x (x being the horizontal axis))

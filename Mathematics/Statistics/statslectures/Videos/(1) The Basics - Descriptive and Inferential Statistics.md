@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=oHGr0M3TIcA
+Reviewed: false
 ---
 - [[Statistics]] is the science of collecting, organizing, and analyzing <mark style="background: #FFF3A3A6;">data</mark>.
 	- [[Data]]: "facts or pieces of information"

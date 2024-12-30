@@ -14,7 +14,6 @@ tags:
 	- [[(5) Statistics - Ch 2 Graphical Representation of Data (5 of 62) The Stem and Leaf Display]]
 	- [[(6) Statistics - Ch 2 Graphical Representation of Data (6 of 62) Stem and Leaf Display (Another Example)]]
 	- [[(7) Statistics - Ch 2 Graphical Representation of Data (8 of 62) Frequency Distribution (Ungrouped)]]
-
 - Incomplete
 	- [[(8) Statistics - Ch 2 Graphical Representation of Data (9 of 62) Grouped Frequency Distribution]]
 	- [[(9) Statistics - Ch 2 Graphical Representation of Data (10 of 62) Classes (Groups)]]

@@ -2,4 +2,38 @@
 Source:
   - https://www.youtube.com/watch?v=DXtEr7_J8I0
 ---
-
+- ![[Screenshot 2024-12-28 at 10.06.29 PM.png]]
+	- The normal distribution equation. 
+		- The vertical axis is frequency and the horizontal axis is the value for `x`
+		- The condition is that the area underneath the curve must equal 1. It's the condition for a normalized distribution function.
+		- Equation for center located at vertical axis: $f(x) = \frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-x^2}{2\sigma^2}}$
+			- We have a constant before `e` shown above
+			- Height of distribution determined by $\frac{1}{\sigma \sqrt{2\pi}}$
+	- If $\sigma$ is small meaning numbers are very closely tight together, then the curves will be much higher at the center and will drop off much more quickly and not spread out as far
+	- If $\sigma$ is a large number, large variation in numbers, central peak lower, spread out more in both positive and negative direction
+	- No matter the shape though, area must always = 1 (so it's called a normal distribution)
+	- If $x \to 0$
+		- $e^0 = 1$
+		- The function is simply $f(x) = \frac{1}{\sigma \sqrt{2\pi}}$ which 
+	- If $x \to$ $\infty / - \infty$ 
+		- $e^{- \infty} = \frac{1}{e^{\infty}}$ = 0
+		- f(x) = 0 so you can see the function drops off in both directions
+			- #comment this happens when x goes to negative infinity or positive infinity.
+	- Intervals helpful for calculating area underneath the curve
+		- Area under the curve represents the probability of certain events occurring. 
+		- This is a pretty difficult integral to make
+		- General equation:
+			- Integrating a point from 0 to infinity
+				- $\int^{\infty}_{0}e^{-a^2x^2}dx = \frac{1}{2a}\sqrt{\pi}$ where $a^2 = \frac {1}{2\sigma^2}$ 
+			- Integrating a point from 0 to b
+				- $\int^{b}_{0}e^{-ax^2}dx = \frac{1}{2}\sqrt{\frac{\pi}{a}}erf(b\sqrt a)$ where $a = \frac {1}{2\sigma^2}$  and $b\sqrt{a} = \frac{b}{\sqrt{2}\sigma}$ 
+					- `erf` is the [[error function]]
+	- Could also find integration from 0 to b
+		- $\int^b_0 \frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-x^2}{2\sigma^2}}$
+			- Don't be afraid as you'll look up the values of a table which is a lot easier but at least it's nice to know where the equation (where the table comes from.)
+			- Should be able to calculate value of area under curve for any value $b$ 
+			- We'll see how the numbers in the table come out to be exactly the same as the numbers we get from the infinite series when evaluating it
+	- In summary, we have a normal distribution. Normal means that we've normalized the area underneath the curve to equal 1
+		- Then realized we have the equation of the curve $f(x) = \frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-x^2}{2\sigma^2}}$
+		- Can use integration techniques to find area under curve
+		- Simplified equation at bottom shows any value for `b` and any value for $\sigma$ 

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_x-XWDEIhfE
+Reviewed: false
 ---
 - Measures of Dispersion: Variance and Standard Deviation of a Population
 - ![[Screenshot 2023-04-28 at 8.24.15 AM.png]]

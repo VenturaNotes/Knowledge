@@ -2,4 +2,23 @@
 Source:
   - https://www.youtube.com/watch?v=XiTMW8-aXXM
 ---
-
+- ![[Screenshot 2024-12-28 at 9.09.09 PM.png]]
+	- [[Population standard deviation]]
+		- The values used form the complete population
+		- + values have an even probability of occurring.
+	- There are two different kinds of standard deviation
+		- One, we can have a set of 20 numbers for example, and that's the entire population of all the numbers (there is no others), and therefore we will calculate the standard deviation of this. 
+			- Will call this the population standard deviation
+		- #question I think the next one would just be a subset of the entire population (so sample population? It's talked about in next video)
+	- Drew a [[histogram]] chart which shows the distribution of how many times each number occurs. Might not expect a normal distribution from a small population. 
+	- Standard deviation here found to be 3.209
+		- 68.2% of population lies between $\pm 1 \sigma$ away from the average
+		- So if our population was a normal distribution, we could expect 68.2% of all values would lie between $\pm 1 \sigma$ away from the average. Which means 68.2% of values would lie between 3.8 and 10.2.
+		- Theoretical value is 68.2% but we get 75% for real value which makes sense in this case as we don't have a normal distribution. 
+		- If sigma is small, that means the population is very tight (not much variation from the average). If $\sigma$ is really big, then the values are distributed over a wide range and has a lot of variation of the distribution. 
+	- Example, let's say you want screws to be the exact same length. You manufacture a million screws, pick up a 1000 screws and measure them carefully. You lay out what the length of each of the screws is and you want to make sure that they are all about the same length.
+		- If $\sigma$ is really tiny, you have a good process that manufactures them just the way you want them to. 
+		- If there is a lot of variation, then there is something wrong with your manufacturing process. You want to try to fix that as you don't want large variation. Don't want large $\sigma$ 
+		- Want distribution to be small
+			- Check manufacturing process, check distribution to make sure $\sigma$ is small
+			- Want $\sigma$ to be small so that numbers are close to the average. 
