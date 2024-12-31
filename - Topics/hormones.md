@@ -1,3 +1,7 @@
+---
+aliases:
+  - hormone
+---
 ## Synthesis
 - 
 ## Source [^1]
