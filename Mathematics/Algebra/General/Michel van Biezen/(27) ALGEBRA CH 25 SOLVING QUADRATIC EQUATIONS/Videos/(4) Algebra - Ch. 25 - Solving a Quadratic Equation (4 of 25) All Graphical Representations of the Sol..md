@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=RcBbhsisiTQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-18 at 4.09.01 AM.png]]
 	- All possible representations of the way solutions can come out when trying to solve quadratic equations.

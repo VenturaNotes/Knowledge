@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=y5JVZJhQ-s0
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 8.01.01 PM.png]]
 	- $x^3$ is a one-to-one function because it's odd?

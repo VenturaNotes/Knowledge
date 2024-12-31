@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=vXS_uADxacQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-07 at 6.36.24 PM.png]]
 	- Found the lowest common denominator

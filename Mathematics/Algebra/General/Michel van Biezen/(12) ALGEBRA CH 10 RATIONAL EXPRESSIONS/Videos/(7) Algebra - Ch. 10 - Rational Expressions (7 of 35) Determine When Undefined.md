@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=cDNjjV9qs9s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-06 at 10.39.49 AM.png]]
 	- R.E. stands for rational expression

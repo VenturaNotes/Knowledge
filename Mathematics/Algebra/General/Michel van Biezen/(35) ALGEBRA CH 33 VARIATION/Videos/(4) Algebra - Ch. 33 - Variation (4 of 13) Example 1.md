@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=vfnOF7UpZzs
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 7.19.42 PM.png]]
 	- y varies directly with x

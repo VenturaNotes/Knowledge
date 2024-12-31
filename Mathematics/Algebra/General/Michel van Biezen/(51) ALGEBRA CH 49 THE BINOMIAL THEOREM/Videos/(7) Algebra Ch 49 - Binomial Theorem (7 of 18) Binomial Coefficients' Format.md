@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=2CuFFmB9O90
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 2.51.49 AM.png]]
 	- Whenever you have two parentheses with two numbers inside them, it physically means the right side of the equation. Take top number and turn it into a factorial

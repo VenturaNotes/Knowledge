@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=H6GoH8E2EFg
+Reviewed: false
 ---
 - Whatever we do to the numerator, we must do exactly the same to the denominator
 - ![[Screenshot 2023-01-09 at 12.57.13 PM.png]]

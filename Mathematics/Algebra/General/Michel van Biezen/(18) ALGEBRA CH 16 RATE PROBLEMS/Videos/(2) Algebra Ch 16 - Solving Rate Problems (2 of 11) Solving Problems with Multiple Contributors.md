@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=__Z4FtbbpS4
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-13 at 2.51.06 PM.png]]
 	- Multiple people working on the job, each working at a different rate

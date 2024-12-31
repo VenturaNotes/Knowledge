@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=dsW1zvGWmKA
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 8.39.44 PM.png]]
 	- Solving a system of linear equations means

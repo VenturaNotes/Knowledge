@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=D9KJcXwz5-Y
+Reviewed: false
 ---
 - (1) To solve for sound in decibels (dB) the intensity of a sound = $10^-4 w/m^2$. What is the loudness in decibels (L)
 	- ![[Screenshot 2023-01-20 at 5.27.37 PM.png]]

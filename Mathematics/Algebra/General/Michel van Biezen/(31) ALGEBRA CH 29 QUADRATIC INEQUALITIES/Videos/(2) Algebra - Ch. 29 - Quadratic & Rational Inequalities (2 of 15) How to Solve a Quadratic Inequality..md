@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Sh86RqNEn9w
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-16 at 12.12.45 AM.png]]
 	- (1) Put into standard form. Quadratic expression to left / 0 to right

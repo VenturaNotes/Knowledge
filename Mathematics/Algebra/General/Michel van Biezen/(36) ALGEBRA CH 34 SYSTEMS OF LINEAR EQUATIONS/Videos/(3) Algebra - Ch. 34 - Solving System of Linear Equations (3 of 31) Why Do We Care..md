@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=bjGjRxGAQv8
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 8.43.26 PM.png]]
 	- (1) Cost and Revenue Graph

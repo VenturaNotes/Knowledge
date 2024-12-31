@@ -5,6 +5,7 @@ Length: 47 minutes, 38 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Algebra - Ch. 39 - Ellipse (1 of 8) How to Draw an Ellipse]]
 [[(2) Algebra - Ch. 39 - Ellipse (2 of 8) The Equation of an Ellipse Compared to a Circle]]

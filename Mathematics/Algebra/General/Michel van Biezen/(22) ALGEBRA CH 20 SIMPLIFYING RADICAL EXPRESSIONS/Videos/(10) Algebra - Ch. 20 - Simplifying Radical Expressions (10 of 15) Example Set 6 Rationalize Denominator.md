@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=UiA0HRVBv4g
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-15 at 10.01.35 PM.png]]
 	- Michel is not sure if you'd call it simplification (rationalizing the denominator)

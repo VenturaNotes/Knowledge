@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=3_sFzy0jYLo
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 4.24.39 PM.png]]
 	- (1) Simplify inside the parentheses first (from the inside out)

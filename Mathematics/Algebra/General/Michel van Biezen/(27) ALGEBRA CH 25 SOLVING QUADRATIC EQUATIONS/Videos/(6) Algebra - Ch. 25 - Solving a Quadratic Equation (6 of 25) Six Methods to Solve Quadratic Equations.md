@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Lh1bnZV2tvo
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-18 at 4.16.59 AM.png]]
 	- method work better when the <mark style="background: #FFF3A3A6;">solutions</mark> are integers

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=7z3-W7c4NC8
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-29 at 7.52.38 PM.png]]
 	- $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$

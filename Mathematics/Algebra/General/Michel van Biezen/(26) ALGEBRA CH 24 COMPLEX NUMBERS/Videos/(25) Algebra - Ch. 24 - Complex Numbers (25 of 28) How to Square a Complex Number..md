@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=gWbmRcupSeQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-17 at 3.19.34 AM.png]]
 	- When find the square of a complex number

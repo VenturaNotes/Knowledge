@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=WAbDSROXIb4
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 8.21.41 PM.png]] 
 	- Important to memorize

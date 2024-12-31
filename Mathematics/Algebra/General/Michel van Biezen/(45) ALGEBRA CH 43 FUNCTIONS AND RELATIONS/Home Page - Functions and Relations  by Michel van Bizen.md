@@ -5,6 +5,7 @@ Length: 59 minutes, 38 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Algebra Ch 43 - Functions and Relations (1 of 11) What is Difference Between Relations and Functions]]
 [[(2) Algebra Ch 43 - Functions and Relations (2 of 11) Vertical Line Test for Relations and Functions]]

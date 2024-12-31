@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=C7YbGgQecXg
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-25 at 5.40.55 PM.png]]
 	- $A = A_0 + 2\alpha A_0 (\Delta T)$ 

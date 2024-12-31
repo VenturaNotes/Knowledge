@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SREWoJTQ0ZI
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-25 at 10.53.24 PM.png]]
 	- Exponent in decimal form -> change to a fraction

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=59LQXbPSai0
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-16 at 12.26.11 AM.png]]
 	- (1) First move all terms to the left and zero to the right

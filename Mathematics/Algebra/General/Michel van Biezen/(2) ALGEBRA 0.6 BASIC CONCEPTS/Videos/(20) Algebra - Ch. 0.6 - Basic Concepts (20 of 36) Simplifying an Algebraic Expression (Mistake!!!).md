@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=55qZiZmcDiQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 4.47.16 PM.png]]
 	- There is a mistake in the second problem

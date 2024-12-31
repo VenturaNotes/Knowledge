@@ -5,6 +5,7 @@ Length: 1 hour, 1 minute, 57 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Algebra Ch 49 - Binomial Theorem (1 of 18) What is the Binomial Theorem]]
 [[(2) Algebra Ch 49 - Binomial Theorem (2 of 18) The Exponent Pattern]]

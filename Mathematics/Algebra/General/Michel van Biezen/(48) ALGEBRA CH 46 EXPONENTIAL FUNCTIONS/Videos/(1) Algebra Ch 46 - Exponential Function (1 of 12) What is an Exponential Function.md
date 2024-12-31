@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=_ELWRQ9O7sI
+Reviewed: false
 ---
 - An exponential function is a function in the form f(x) = $b^x$ 
 	- b = Base

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=HDk5joyQJOw
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-13 at 2.47.18 PM.png]]
 	- (1) First determine fraction of the job done per hour

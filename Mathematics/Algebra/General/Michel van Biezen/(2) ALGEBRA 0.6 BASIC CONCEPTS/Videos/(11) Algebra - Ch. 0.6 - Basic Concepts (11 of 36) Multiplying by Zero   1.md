@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=6SEHXZZU82M
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 4.05.44 PM.png]]
 	- The result is always zero

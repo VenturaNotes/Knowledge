@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=xWrzUgvv94U
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-16 at 3.31.50 PM.png]]
 	- Definition of i is the square root of negative 1

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=kCBmh507oYI
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 7.17.18 PM.png]]
 	- The last digit of the square root of a number will always equal the last digit of the square of the solution

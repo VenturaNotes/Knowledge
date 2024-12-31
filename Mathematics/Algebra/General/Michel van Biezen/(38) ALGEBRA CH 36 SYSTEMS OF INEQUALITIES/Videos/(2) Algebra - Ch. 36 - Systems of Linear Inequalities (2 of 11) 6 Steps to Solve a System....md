@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=ScbkiBlZy5c
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-19 at 12.26.54 AM.png]]
 	- (1) Find the equations representing the boundaries of the regions

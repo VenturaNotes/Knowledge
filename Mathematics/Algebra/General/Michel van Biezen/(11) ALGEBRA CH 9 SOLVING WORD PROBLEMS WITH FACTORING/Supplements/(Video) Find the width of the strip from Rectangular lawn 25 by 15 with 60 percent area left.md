@@ -5,6 +5,7 @@ Length: 9 minutes, 3 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-06 at 10.00.11 AM.png]]
 	- Peter mows a strip of uniform width around his 25 m by 15 m rectangular lawn and leaves a patch of lawn that is 60% of the original area. What is the width of the strip?

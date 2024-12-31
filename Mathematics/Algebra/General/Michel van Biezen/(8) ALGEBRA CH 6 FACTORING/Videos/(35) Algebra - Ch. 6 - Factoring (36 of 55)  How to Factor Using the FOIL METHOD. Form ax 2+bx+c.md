@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=alj9bDE3coQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-30 at 9.24.54 PM.png]]
 	- Because we have all possible combinations on the left side, we only need to do half the combinations on the right side.

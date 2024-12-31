@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Jo0LN0I756c
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-25 at 11.09.17 PM.png]]
 	- Squaring a trinomial

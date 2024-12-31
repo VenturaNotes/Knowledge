@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Kt_KGeFTeu0
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-29 at 9.23.42 PM.png]]
 	- You could factor out the "$y^2$ and $1$" but you could also factor out the "$x^3$ and $-4$" out first too for the right problem.

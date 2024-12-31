@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=-EEjQ7fNVWk
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-15 at 10.16.56 PM.png]]
 	- The determinant is defined as $b^2 - 4ac$ 

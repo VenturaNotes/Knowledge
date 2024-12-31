@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Ie1vEpXKo04
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-13 at 5.20.54 PM.png]]
 	- i is an imaginary number

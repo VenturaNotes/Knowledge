@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=LDPaRUHoDWs
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-26 at 12.29.50 PM.png]]
 	- 62 is even so not a prime number

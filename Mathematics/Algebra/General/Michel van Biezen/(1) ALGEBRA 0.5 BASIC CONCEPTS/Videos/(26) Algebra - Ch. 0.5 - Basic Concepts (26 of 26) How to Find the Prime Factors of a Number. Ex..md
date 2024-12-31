@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SxhtO_DEKRI
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-09 at 2.52.42 PM.png]]
 	- 36 $\times$ 7 = 210 + 42 = 252

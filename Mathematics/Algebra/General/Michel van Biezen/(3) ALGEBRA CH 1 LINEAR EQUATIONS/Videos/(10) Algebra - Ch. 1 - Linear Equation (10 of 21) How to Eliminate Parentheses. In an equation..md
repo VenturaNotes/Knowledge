@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=94UKFjNX3fg
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-13 at 3.53.29 PM.png]]
 	- (1) Use the distributive property to eliminate parentheses

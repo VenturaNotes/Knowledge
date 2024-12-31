@@ -5,6 +5,7 @@ Length: 49 minutes, 41 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Algebra - Ch. 20 - Simplifying Radical Expressions (1 of 15) Rules for Radicals]]
 [[(2) Algebra - Ch. 20 - Simplifying Radical Expressions (2 of 15) When Are We Done Simpllfying.]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Tg4wkDppj4g
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-16 at 2.05.40 AM.png]]
 	- Terms and definitions

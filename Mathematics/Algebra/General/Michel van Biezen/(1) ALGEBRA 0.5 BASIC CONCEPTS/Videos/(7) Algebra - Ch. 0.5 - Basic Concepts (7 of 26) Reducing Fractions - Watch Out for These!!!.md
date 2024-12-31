@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=R8lFPzf5a-A
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-09 at 1.41.04 PM.png]]
 	- Can only cross out when they're factors 

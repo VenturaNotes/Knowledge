@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=mjRYMRhazxA
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-30 at 9.44.15 PM.png]]
 	- When everything is addition, it seems like you check by subtracting 1 from the middle term.

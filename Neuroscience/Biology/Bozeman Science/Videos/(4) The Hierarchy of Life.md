@@ -4,7 +4,7 @@ Source:
 ---
 - ![[Screenshot 2024-01-29 at 3.16.10 AM.png]]
 	- [[Biology]] organized from very small to very large ([[biosphere]])
-		- Each different level is called a [[system]]
+		- Each different level is called a [[system (biology)|system]]
 			- A system is separated from surroundings using a boundary
 		- Non-biological example
 			- A city is a system

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=qVBy9mTDYfQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-17 at 4.31.55 PM.png]]
 	- When y = 0

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=WLN00dwGwSY
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-15 at 9.19.27 PM.png]]
 - Product Rule ^153f3b

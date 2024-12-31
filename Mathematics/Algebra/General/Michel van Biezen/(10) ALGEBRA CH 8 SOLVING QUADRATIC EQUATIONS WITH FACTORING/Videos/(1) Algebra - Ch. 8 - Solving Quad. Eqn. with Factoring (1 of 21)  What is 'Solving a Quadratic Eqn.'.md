@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=NtmmdACJhc4
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-04 at 1.03.12 AM.png]]
 	- Solving a quadratic equation means finding the "roots" of the equation which means find the x-coordinates of the points where the graph of the equation crosses the x-axis.

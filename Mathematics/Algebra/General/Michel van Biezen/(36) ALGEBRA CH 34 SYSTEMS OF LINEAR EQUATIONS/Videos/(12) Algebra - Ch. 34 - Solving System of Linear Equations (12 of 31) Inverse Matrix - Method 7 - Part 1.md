@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Yi_XURJ7__s
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 9.16.11 PM.png]]
 	- In matrix A, A is the numerical coefficients of the x and y variables when they're placed in that format.

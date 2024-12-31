@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=nsveFC1L4GE
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-06 at 6.33.36 PM.png]]
 - Write as an algebraic expression

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=OIys76mkSUE
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 7.07.59 PM.png]]
 	- Not a bad idea to be somewhat familiar with all the square roots up to 1024

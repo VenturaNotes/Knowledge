@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=8qFbNgE9tT8
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-04 at 12.45.00 AM.png]]
 	- To use the foil method here, you need to make both numbers negative for the third term of the trinomial.

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=_CakajsOjpc
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-24 at 7.35.34 PM.png]]
 	- The Fixed cost for a hamburger stand = $300/day

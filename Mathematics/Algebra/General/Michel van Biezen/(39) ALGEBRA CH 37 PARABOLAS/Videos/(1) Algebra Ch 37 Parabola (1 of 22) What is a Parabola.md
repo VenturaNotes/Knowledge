@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=exu_dYgV90Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-19 at 1.13.54 AM.png]]
 	- A parabola is the shape of the graph of the general equation:

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=v6QXTRPE8D4
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 10.48.33 PM.png]]
 	- Method 1: Substitution

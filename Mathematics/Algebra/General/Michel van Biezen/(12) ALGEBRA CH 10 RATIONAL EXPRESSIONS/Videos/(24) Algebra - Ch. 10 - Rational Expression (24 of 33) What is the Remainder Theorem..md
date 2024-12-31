@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Des6BECIwhU
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-07 at 5.18.50 PM.png]]
 	- When $\frac {P(x)}{x-a}$ Then R=P(x=a)

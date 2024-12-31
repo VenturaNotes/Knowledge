@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=k5e81fuZUXo
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 2.44.02 AM.png]]
 	- The first coefficient is always going to be a 1. 

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=soEdJiRdPCw
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-07 at 5.15.14 PM.png]]
 	- $3x^2 - 2x + 4 + \frac {5}{x-2}$ 

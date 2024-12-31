@@ -5,6 +5,7 @@ Length: 3 minutes, 4 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - Discriminant
 	- D > 0

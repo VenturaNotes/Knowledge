@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=MuT8mrGfIh4
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-20 at 5.20.42 PM.png]]
 	- A logarithmic Function is the inverse of an exponential function

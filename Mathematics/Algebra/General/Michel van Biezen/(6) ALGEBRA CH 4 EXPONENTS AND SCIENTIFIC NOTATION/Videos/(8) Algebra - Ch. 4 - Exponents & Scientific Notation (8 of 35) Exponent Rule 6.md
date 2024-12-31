@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Un6QVq_gJ8Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-25 at 10.31.32 PM.png]]
 	- Any number raised to the zero power equals 1

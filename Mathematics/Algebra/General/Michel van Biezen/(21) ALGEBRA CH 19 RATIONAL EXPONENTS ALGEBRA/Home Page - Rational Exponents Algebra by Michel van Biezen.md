@@ -5,6 +5,7 @@ Length: 46 minutes, 37 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Algebra - Ch. 19 - Rational Exponents Algebra (1 of 16) Types of Operations]]
 [[(2) Algebra - Ch. 19 - Rational Exponents Algebra (2 of 16) Types of Operations - Multiply - Ex. 1]]
