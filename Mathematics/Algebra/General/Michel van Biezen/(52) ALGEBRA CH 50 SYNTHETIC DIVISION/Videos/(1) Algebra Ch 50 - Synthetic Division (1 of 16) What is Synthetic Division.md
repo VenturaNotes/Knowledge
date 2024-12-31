@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=mNb0dkqHA3g
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 4.10.52 AM.png]]
 	- Synthetic division is a simple technique to divide one polynomial by another polynomial

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=t_dFAk6a37E
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-19 at 1.18.55 AM.png]]
 	- Drawing graphs for

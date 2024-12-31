@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=WxCjSnVOywg
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-17 at 11.52.32 AM.png]]
 	- (1) First put into the form $y \ge mx + b$ or $y \le mx + b$ 

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=HyCK1D5xZrQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 8.16.12 PM.png]]
 	- Seems like x just needs to be raised to some power

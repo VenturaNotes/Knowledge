@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=dmr4o6NujuE
+Reviewed: false
 ---
 -  ![[Screenshot 2023-01-09 at 1.43.13 PM.png]]
 	- Multiply the numerators and multiply the denominators

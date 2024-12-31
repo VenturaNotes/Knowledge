@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=2EPzoXJl4lc
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-16 at 2.08.34 AM.png]]
 	- It is an equation of 2 variables raised to the first power that can be written in the form $ax + by = c$

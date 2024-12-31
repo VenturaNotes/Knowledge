@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=qmxO1HUwaPk
+Reviewed: false
 ---
 - The left side still equals the right side if we add (or subtract) the same amount to both sides
 - An equation means that the left side equals the right side.

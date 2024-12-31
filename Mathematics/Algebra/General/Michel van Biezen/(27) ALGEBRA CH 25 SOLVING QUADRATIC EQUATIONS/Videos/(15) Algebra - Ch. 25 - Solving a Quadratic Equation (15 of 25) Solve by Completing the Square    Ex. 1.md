@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SiClev9Cob0
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-18 at 5.08.07 AM.png]]
 	- This is when the coefficient term "a" is equal to 1

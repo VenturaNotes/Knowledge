@@ -5,6 +5,7 @@ Length: 2 hours, 1 minute, 37 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Algebra - Ch. 10 - Rational Expressions (1 of 35) What is a Rational Expression]]
 [[(2) Algebra - Ch. 10 - Rational Expressions (2 of 35) Why Are all Polynomials Rational Expressions.]]

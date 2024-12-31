@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=PAlh5S98cys
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 6.46.25 PM.png]]
 	- If the price of tomatoes is $4/pound, the demand is 1 pound per customer per week. For each decrease of $1 per pound, the demand increases by 1 pound. Find the equation and graph.

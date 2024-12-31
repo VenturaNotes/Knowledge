@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=EUrpHf293DY
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-16 at 4.53.11 PM.png]]
 	- Find y = mx+b and transform into the other 2-forms

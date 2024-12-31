@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=YeQwE8kOQ1M
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-26 at 12.36.44 PM.png]]
 	- (1) Find the common numerical factor

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=vJMkRnvDDOs
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-20 at 4.34.01 PM.png]]
 	- Only a $1 difference compared to compounding monthly which was $1106.48

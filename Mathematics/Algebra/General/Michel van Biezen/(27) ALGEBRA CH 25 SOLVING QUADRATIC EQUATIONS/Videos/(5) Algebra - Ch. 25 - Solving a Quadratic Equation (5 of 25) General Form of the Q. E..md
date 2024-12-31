@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=khbOz39pN3E
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-18 at 4.13.00 AM.png]]
 	- Functional representation of quadratic equation

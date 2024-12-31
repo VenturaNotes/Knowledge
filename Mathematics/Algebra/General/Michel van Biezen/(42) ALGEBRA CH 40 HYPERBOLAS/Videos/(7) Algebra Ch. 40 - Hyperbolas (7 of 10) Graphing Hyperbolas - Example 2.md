@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=534ko5Kz3jI
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-21 at 5.02.20 PM.png]]
 	- If x term is first, it will open sideways

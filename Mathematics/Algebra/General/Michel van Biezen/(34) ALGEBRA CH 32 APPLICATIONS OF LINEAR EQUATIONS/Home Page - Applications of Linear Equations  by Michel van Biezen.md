@@ -5,6 +5,7 @@ Length: 55 minutes, 47 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Algebra - Ch. 32 - Applications of Linear Equations (1 of 11) Types of Applications]]
 [[(2) Algebra - Ch. 32 - Applications of Linear Equations (2 of 11) Depreciation - Example 1]]

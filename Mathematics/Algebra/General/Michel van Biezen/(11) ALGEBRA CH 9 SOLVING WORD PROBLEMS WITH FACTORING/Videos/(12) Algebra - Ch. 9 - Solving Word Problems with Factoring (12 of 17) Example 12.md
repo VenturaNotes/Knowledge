@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=q_h2eVmOEIs
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-04 at 5.44.56 PM.png]]
 	- Find 3 consecutive odd integers such that the cube of the largest reduced by the product of all 3 is 238.

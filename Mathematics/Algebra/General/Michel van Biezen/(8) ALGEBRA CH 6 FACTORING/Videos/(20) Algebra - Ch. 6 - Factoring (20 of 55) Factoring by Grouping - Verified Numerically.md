@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Luw-toOKjkQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-29 at 9.33.39 PM.png]]
 	- We have a simplified form of the famous arithmetic series.

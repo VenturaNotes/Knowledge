@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Ya26H65NfUw
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 8.38.17 PM.png]]
 	- Linear Equation $\rightarrow$ Defined by the equation y = mx + b (straight line)

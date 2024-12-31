@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=3A4Kg_DX8Rw
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 4.14.10 PM.png]]
 - $\frac 50$ = $\infty$ 

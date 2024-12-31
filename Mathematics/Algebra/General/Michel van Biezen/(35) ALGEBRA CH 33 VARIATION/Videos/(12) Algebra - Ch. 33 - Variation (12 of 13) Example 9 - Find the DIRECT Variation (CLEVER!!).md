@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=qvVVatTX9QI
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 8.29.46 PM.png]]
 	- Don't need to be told it's a direct variation because as y increases, x increases.

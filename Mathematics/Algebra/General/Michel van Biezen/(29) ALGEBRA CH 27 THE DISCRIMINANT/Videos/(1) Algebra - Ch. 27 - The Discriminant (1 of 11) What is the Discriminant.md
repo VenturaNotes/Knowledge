@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=5pWRBr_1gi0
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-12 at 5.51.36 PM.png]]
 	- Using the quadratic formula, $b^2-4ac$ = The [[Discriminant]] (can be represented as "D")

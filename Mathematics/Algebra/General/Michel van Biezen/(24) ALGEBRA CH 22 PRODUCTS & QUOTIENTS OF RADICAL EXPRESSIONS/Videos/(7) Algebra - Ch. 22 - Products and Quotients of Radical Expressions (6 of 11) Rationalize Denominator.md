@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=3VnVC69YRnc
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-26 at 6.01.46 PM.png]]
 	- Rationalizing the denominator means getting rid of the radicals in the denominator

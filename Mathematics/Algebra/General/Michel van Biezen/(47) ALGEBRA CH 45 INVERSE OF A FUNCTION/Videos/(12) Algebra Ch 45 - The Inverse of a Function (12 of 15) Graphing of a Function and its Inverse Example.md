@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=rSWYv-eZm00
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 8.10.22 PM.png]]
 	- Graph the function $f(x) = x^2-4$ and graph its inverse and find the points of intersection

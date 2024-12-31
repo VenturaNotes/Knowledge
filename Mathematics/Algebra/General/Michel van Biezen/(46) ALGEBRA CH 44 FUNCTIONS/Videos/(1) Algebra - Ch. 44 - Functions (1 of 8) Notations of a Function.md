@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=HETEpE2rRRY
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 4.42.37 AM.png]]
 	- y $\rightarrow$ dependent variable

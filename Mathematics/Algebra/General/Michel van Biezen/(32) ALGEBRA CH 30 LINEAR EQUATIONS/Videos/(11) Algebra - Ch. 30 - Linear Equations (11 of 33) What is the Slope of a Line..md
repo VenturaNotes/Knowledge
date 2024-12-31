@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=ZV3HaLpL5tQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-16 at 2.43.03 AM.png]]
 	- The slope of a line is the ratio of the change in the y-value (rise) to the change in the x-value (run) when moving from one point on the line to another point on the line situated to the right of the first point

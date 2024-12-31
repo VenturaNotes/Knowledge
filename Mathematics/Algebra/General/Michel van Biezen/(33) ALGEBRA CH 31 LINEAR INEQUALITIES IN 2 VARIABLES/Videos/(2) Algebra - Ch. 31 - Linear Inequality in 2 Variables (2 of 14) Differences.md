@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=nkRGJbJnF-Q
+Reviewed: false
 ---
  - ![[Screenshot 2023-01-26 at 6.43.51 PM.png]]
 	 - The Difference between $\ge$  and $>$ and between $\le$ and $<$ 

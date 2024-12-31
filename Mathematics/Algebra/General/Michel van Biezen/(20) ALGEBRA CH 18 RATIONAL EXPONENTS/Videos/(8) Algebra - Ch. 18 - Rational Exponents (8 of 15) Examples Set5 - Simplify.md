@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=P4ofjrpME2o
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-15 at 1.16.41 PM.png]]
 	- Advanced mathematics in physics will have these kind of rational exponents

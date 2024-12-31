@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=kl5pck_PJKQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 10.41.49 PM.png]]
 	- General form of the equation

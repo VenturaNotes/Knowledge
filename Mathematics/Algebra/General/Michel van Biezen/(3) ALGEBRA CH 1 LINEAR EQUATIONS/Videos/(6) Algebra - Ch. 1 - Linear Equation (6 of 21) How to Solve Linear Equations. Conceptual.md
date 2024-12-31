@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=0_R78i1k2aE
+Reviewed: false
 ---
 - Find the value of the unknown variable such that the left side of the equation is equal to the right side 
 	- For what value of x does the left side equal the right side?

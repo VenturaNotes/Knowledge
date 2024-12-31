@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=14bVOqultTg
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-25 at 9.56.13 PM.png]]
 	- This shows that the absolute value of a variable less than a number will always be between the number itself and its opposite.

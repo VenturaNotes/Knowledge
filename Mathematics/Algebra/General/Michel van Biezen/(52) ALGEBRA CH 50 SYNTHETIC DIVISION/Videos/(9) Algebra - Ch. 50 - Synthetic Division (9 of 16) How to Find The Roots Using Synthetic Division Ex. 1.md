@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Pyzcem-d9tk
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 4.27.30 AM.png]]
 	- Method really only works if you have integers to work with

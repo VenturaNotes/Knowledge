@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QJVMowsQGVU
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-15 at 9.52.01 PM.png]]
 	- Product of radicals

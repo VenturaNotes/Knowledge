@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=UzRHi8Ylk3Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 11.22.05 PM.png]]
 	- $R_2 \rightarrow$

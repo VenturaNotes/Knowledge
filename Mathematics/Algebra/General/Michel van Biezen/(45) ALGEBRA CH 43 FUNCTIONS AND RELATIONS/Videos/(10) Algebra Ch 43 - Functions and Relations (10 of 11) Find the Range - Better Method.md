@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=lMxJER4KZ28
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 4.35.27 AM.png]]
 	- Vertical Asymptotes $\implies$ (values of x that make denominator = 0)

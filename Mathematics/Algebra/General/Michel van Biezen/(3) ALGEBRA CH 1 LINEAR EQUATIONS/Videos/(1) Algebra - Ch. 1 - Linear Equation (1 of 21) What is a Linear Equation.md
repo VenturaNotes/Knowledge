@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=oknYen_Fm1k
+Reviewed: false
 ---
 - An equation has 3 parts
 	- An equation indicates that the left side is equal to the right side

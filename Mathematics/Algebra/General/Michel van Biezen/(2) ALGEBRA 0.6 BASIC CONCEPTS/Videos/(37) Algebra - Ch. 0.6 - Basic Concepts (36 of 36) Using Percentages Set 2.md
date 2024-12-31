@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=rFJBvtMSSag
+Reviewed: false
 ---
 - (1) What is 24% of 40?
 	- ![[Screenshot 2023-01-13 at 3.26.18 PM.png]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=eBl_Rm1PefE
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-18 at 5.54.44 AM.png]]
 	- A Projectile is launched upward with an initial speed of 50m/sec

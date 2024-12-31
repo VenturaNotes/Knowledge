@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SXghLeX4HEs
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-13 at 4.44.00 PM.png]]
 	- A $40 shirt is on sale for 25% off. Kathy has a coupon for an additional 30% off the sale price

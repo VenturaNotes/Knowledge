@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Rl-hJKMetIo
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-29 at 7.33.32 PM.png]]
 	- A series is the sum of the terms of a sequence.

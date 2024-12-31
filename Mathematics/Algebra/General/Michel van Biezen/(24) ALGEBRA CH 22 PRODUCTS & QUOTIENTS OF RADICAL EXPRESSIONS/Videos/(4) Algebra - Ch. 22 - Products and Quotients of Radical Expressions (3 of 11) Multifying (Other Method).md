@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SbuQw9eNF9Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-26 at 5.41.08 PM.png]]
 	- You can use vertical multiplication when finding the products of two binomials (might be easier to view/solve)

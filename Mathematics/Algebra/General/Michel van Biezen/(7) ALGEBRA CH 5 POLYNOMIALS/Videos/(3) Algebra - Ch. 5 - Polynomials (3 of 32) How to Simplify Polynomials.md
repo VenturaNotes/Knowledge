@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=C-JAEcNp12Y
+Reviewed: false
 ---
 - You simplify polynomials by adding like terms
 	- But what are like terms?

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=xTWCDL8D4yk
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-24 at 1.25.43 PM.png]]
 	- The area of a rectangle is 8 and the perimeter is 12. What are the dimensions?

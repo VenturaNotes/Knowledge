@@ -5,6 +5,7 @@ Length: 1 hour, 39 minutes, 11 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Algebra Ch 47 - Logarithmic Functions (1 of 26) What is a Logarithmic Function]]
 [[(2) Algebra Ch 47 - Logarithmic Functions (2 of 26) What Does the Logarithmic Graph Look Like.]]

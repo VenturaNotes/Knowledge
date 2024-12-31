@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=O99t9J1jcVo
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 4.14.59 AM.png]]
 	- A function or a relation can be a set of ordered pairs

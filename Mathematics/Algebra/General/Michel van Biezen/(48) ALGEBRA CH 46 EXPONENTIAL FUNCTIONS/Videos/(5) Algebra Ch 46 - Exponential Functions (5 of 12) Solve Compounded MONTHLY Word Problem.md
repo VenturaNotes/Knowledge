@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=KsYzTKQw9OY
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-20 at 4.29.52 PM.png]]
 	- $800 is invested at 5% compounded monthly for 6.5 years. What will the investment be worth in 6.5 years?

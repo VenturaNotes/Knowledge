@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=qT_MqwKXoYA
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-30 at 8.06.45 PM.png]]
 	- If the third term is positive, that means both factors must be either positive or negative

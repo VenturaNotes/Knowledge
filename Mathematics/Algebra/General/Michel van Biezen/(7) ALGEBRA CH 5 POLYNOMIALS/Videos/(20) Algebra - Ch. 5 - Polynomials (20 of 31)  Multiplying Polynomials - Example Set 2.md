@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=7GZSoa9z-MQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-25 at 11.29.14 PM.png]]
 	- The shortcut is just finding the middle term in your head by adding or subtracting the product of the outer terms with the product of the inner terms.

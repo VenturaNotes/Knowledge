@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=6jPL6bQEhi8
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-18 at 5.39.50 AM.png]]
 	- The quadratic formula works every single time (rational number, irrational number, and imaginary number)

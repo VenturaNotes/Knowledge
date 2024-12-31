@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=LMmmRY-vvYg
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 2.51.23 PM.png]]
 - A number or symbol placed above another number or symbol that indicates the power the number or symbol at the bottom is raised to.

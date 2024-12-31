@@ -5,6 +5,7 @@ Length: 1 hour, 1 minute, 29 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Algebra Ch 50 - Synthetic Division (1 of 16) What is Synthetic Division]]
 [[(2) Algebra Ch 50 - Synthetic Division (2 of 16) The Easier Method]]

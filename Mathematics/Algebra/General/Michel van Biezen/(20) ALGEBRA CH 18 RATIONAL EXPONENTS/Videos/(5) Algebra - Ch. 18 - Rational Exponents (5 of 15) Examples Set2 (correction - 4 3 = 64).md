@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=xbVJeY-jqG8
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-15 at 1.00.13 PM.png]]
 	- When there is an imaginary number involved, it's "Not a real number"

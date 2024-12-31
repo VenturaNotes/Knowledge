@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=IxY3b59x-vA
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 4.38.33 PM.png]]
 	- Multiplication is not associated with the distributive property

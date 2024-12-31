@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=_1UcF34ieaA
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-19 at 3.00.43 AM.png]]
 	- (1) Put thumb tacks into paper (behind paper should be a board or cork). Then you end up with a string such that the length of the string is longer than the distance between the 2 thumb tacks

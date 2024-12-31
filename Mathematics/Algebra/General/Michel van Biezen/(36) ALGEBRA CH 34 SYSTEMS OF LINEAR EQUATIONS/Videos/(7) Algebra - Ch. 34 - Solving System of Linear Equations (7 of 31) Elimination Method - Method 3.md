@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SrWNOuD_bkI
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-18 at 8.54.19 PM.png]]
 	- (1) Look for variables with the same numerical coefficient

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=xhvd6-SiWps
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-19 at 1.31.49 AM.png]]
 	- Equation form

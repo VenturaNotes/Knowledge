@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=En3RLLDuQt8
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-26 at 5.47.28 PM.png]]
 	- $a+b$ is the conjugate of $a-b$ 

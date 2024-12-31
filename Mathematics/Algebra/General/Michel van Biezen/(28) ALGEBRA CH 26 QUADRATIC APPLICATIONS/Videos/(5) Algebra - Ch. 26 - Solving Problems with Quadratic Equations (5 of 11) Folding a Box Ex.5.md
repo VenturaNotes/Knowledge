@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=0rCNqsKkimo
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-19 at 5.37.00 AM.png]]
 	- A square piece of card board is to be folded as shown to make a box with a volume of 160$cm^3$. How big must the card board be?
