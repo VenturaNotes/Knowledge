@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Bn547nOfs3w
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 10.11.43 PM.png]]
 	- [[Linear Dependence]]

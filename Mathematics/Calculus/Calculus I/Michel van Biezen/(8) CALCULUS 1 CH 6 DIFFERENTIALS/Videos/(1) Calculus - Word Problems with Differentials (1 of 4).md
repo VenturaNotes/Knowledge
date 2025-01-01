@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=g747vDnWiYc
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-18 at 9.09.59 AM.png]]
 	- [[Differential|differentials]]

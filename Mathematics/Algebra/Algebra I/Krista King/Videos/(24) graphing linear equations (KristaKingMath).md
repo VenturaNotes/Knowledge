@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SI4Qrw8EK0w
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-09 at 9.31.54 PM.png]]
 	- Graph the linear equation

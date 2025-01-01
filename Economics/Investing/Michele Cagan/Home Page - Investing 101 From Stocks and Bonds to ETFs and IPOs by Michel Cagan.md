@@ -6,6 +6,7 @@ Progress: "1"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 - Published December 4, 2015
 - Michel Cagan is a CPA ([[Certified Public Accountant]])

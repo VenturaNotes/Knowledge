@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=AnJlHSVOXTk
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 2.30.46 AM.png]]
 	- The [[Slope of a Line]]

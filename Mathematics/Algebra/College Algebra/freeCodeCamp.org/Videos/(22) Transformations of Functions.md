@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=11280s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-21 at 7.16.28 PM.png]]
 	- By changing the equation of a function, the graph of the function changes or transforms in predicable ways.

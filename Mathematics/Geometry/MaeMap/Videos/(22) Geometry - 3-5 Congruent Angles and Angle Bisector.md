@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=z0DLP3b02QE
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 10.14.03 PM.png]]
 	- Interior points fall inside the angle

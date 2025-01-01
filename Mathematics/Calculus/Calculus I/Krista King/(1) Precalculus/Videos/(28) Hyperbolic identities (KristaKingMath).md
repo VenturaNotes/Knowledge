@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=PUeGgqijskA
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 11.34.22 PM.png]]
 	- How to use [[Hyperbolic Identity|hyperbolic identities]] to simplify a [[hyperbolic function]]

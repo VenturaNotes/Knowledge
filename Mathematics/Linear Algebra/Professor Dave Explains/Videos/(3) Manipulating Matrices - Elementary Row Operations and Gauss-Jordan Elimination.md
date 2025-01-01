@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=T2Gtt8WygiU
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 3.58.17 AM.png]]
 	- Just how can we solve this system?

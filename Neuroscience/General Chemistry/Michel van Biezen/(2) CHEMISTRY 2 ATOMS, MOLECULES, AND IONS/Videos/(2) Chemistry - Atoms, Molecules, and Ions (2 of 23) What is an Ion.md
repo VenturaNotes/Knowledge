@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=izdNQNW-Pt8
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-26 at 1.33.55 AM.png]]
 	- Since sodium has 11 protons in the nucleus, it will have 11 electrons around the nucleus

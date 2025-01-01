@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tkyrhKRVbBw
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 6.05.33 PM.png|500]]
 	- [[Homogeneous system of equations]]

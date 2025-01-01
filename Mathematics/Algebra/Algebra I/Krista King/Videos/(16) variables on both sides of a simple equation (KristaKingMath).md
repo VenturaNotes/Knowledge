@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=piAUJlFm-Us
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-08 at 12.04.37 PM.png]]
 	- Want to get variables on the same side

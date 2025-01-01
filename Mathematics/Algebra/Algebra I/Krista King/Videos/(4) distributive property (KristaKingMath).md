@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=zulGdgK4biE
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 2.03.31 PM.png]]
 	- Use the distributive property to expand the expression

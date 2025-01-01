@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=1586s
+Reviewed: false
 ---
 - A [[term]] is a single number or a number that is multiplied by 1 or many variables and those variables can be raised to powers
 - An [[algebraic expression]] is a single term or a collection of terms separated by + or - signs.

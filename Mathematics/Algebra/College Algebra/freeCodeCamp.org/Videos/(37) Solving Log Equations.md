@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=18620s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-25 at 12.52.16 AM.png]]
 	- Need to free variable from the log using exponential functions

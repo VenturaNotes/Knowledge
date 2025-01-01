@@ -5,6 +5,7 @@ Length: "397"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 - [[Charles C. Pinter]]
 	- Professor of Mathematics at [[Bucknell University]]

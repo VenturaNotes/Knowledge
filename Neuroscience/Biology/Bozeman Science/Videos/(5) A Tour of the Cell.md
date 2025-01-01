@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=1Z9pqST72is
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-29 at 3.35.49 PM.png]]
 	- Types of cells

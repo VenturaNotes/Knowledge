@@ -7,6 +7,7 @@ Progress: "1"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## Notation
 - $\mathbb{R}$: [[Real numbers]], $\mathbb{R^+}$: [[Positive reals]], $\mathbb{R^n}$: [[n-tuples of reals]]

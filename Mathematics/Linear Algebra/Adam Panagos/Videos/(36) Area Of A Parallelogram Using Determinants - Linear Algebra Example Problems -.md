@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=YmaGdt_7g9g
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-19 at 7.51.58 PM.png]]
 	- [[Area]] of a [[Parallelograms|parallelogram]]

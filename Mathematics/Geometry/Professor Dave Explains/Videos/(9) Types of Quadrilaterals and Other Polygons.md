@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=jTZs8bRoWxE
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 8.25.17 PM.png]]
 	- [[triangle|triangles]] have three sides

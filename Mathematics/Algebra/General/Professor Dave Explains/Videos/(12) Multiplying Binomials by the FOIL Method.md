@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RTC7RIwdZcE
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-15 at 5.34.48 AM.png]]
 	- We know how to add and subtract polynomials

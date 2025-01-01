@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=CFAjze_0VKA
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-10 at 12.57.28 AM.png]]
 	- Complex fractions are fractions with variables (or letters) in either the denominator and or the denominator

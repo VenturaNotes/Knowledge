@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=0s
+Reviewed: false
 ---
 - A [[variable]] is a symbol, generally a letter used to represent an unknown quantity.
 	- usually a lowercase letter

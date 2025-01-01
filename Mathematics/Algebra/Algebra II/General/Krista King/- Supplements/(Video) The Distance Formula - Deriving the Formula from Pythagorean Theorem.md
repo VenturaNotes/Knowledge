@@ -5,6 +5,7 @@ Length: 5 minutes, 44 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - The Distance Formula
 	- The distance, d, between the points ($x_1,y_1$) and ($x_2, y_2$) is:

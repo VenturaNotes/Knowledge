@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=kwa-SYTZYb0
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 10.58.09 PM.png]]
 	- Poly $\implies$ many

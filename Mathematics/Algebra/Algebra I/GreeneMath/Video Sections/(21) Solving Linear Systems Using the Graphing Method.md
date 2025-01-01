@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=30530s
+Reviewed: false
 ---
 - A system of linear equations consists of two or more linear equations with the same variables.
 	- Example

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=K8vZAsyKYtc
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 1.07.51 AM.png]]
 	- When a matrix is not invertible

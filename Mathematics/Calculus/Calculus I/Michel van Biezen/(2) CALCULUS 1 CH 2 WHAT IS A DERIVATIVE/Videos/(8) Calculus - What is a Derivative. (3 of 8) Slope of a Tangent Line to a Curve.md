@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=zC4Aq248-Y8
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-03 at 11.18.28 AM.png]]
 	- Slope is approximately the derivative

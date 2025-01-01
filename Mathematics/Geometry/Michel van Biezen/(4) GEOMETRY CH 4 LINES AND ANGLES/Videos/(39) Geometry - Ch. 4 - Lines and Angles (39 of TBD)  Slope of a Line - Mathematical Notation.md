@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=GNFtIxu-AhM
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-04 at 4.37.41 AM.png]]
 	- x-axis is the horizontal line

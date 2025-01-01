@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SFEFKYUBuYQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 1.15.47 AM.png]]
 	- Not [[one-to-one transformation]]. Therefore, not invertible when multiple green arrows collapse to the same spot

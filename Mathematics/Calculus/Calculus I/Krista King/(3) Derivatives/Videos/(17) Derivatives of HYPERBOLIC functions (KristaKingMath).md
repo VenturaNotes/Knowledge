@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=0LlhhN_TAmE
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-31 at 1.04.05 AM.png]]
 	- Derivative of [[hyperbolic function]]

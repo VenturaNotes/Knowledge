@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=csgNflj69-Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 3.32.30 AM.png|600]]
 	- Linear algebra is all about linear equations. Linear equations have a lot of real world applications since so many things have linear relationships

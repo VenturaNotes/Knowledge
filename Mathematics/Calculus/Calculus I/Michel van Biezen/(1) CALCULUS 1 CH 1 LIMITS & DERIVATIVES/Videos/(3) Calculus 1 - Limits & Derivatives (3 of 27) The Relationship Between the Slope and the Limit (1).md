@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=tbRPXtBEJGE
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-27 at 3.11.59 AM.png]]
 	- The closer the points are together, the closer the slope of the secant line is to the slope of the tangent line.

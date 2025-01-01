@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=DlfrIAZn76I
+Reviewed: false
 ---
 - Image
 	- Hypothesis implies conclusion to conclusion implies hypothesis

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=tgGmucK0xgA
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-28 at 12.42.05 AM.png]]
 	- Properties of Equality: Apply to algebraic expressions, line segments, and angles

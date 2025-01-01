@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=KCW4EWLeslQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-27 at 9.06.04 PM.png]]
 	- When you learn the language of Geometry, doing proofs is pretty simple.

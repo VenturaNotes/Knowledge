@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=x2cYoSPGz3o
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 7.54.51 PM.png]]
 	- [[Linear algebra]]

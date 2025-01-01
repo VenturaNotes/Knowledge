@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=k3CnCq9b65M
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-19 at 8.21.33 PM.png]]
 	- [[Polynomial subspace]]

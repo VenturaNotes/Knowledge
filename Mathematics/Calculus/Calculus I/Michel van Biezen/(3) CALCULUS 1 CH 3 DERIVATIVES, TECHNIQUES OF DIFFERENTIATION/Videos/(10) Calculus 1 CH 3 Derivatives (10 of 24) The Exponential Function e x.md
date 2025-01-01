@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=VS7n93kLmE0
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-03 at 11.52.45 PM.png]]
 	- Derivative of [[exponential function]]

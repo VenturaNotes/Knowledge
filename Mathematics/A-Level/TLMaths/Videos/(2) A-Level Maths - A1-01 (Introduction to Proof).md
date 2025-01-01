@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=aCjmHy943Zg
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 9.26.42 AM.png]]
 	- Consequence and equivalence

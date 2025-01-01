@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=pzSFaDBN6S4
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-27 at 6.02.14 PM.png]]
 	- [[Law of cosines]]

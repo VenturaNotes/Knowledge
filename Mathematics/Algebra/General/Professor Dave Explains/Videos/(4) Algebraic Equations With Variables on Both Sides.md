@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=aJ0abU348ds
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-15 at 3.44.23 AM.png]]
 	- We know the basics about algebra

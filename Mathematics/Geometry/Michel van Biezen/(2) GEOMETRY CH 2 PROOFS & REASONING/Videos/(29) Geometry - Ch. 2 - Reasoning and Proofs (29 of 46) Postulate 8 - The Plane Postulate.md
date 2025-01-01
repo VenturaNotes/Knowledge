@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=2SrWjJ8qSoY
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-12 at 5.30.02 PM.png]]
 	- Through any three noncollinear points, there exists exactly one plane.

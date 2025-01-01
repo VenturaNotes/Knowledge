@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=33609s
+Reviewed: false
 ---
 - Another algebraic method for solving a linear system is known as elimination. This method uses the [[addition property of equality]] to eliminate one of the variables of the system.
 

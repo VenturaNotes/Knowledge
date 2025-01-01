@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SS48Om0PX6Q
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 3.10.56 PM.png]]
 	- [[Vector|Vectors]] 

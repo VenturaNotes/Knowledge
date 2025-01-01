@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VjI4LtotC2o
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 9.08.51 PM.png]]
 	- [[Pythagorean theorem]]

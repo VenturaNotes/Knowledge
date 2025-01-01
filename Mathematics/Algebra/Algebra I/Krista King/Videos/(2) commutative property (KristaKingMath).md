@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=mW0dHxdkLiY
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 1.44.11 PM.png]]
 	- Use the commutative property to write the expression a different way

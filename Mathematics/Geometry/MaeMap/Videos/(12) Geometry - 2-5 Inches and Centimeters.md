@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=_f8sOMNKoA0
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 8.30.46 PM.png]]
 	- A ruler typically has inches and centimeters

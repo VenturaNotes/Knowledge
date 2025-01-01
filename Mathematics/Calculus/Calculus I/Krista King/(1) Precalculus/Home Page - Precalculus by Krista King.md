@@ -5,6 +5,7 @@ Length: 3 hours, 10 minutes, 54 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Calculus - Functions (KristaKingMath)]]
 [[(2) Which functions pass the VERTICAL LINE TEST.!! (KristaKingMath)]]

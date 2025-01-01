@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Fers9Cu0ZCw
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-02 at 11.18.47 PM.png]]
 	- (1) Find the intersection of (2 lines)

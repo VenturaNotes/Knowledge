@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=uxWFf6dcY3A
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 5.42.37 AM.png]]
 	- Find the measures of angles 1, 2, and 3

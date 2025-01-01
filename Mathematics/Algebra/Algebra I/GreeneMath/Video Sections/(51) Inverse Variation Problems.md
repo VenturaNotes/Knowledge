@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=77072s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-19 at 11.59.28 PM.png|500]]
 	- y varies inversely with x if there is some constant k such that:

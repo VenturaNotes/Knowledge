@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=S88DGa1zJx0
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 10.43.45 PM.png]]
 	- [[Long division]] of [[Polynomial|polynomials]]

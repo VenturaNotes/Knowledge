@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ntzgiu7Ta0s
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 2.35.51 PM.png]]
 	- We can manipulate and solve various algebraic equations

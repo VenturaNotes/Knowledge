@@ -5,6 +5,7 @@ Length: 3 hours, 24 minutes, 27 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) negative exponents (KristaKingMath)]]
 [[(2) power rule with negative exponents (KristaKingMath)]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=37661s
+Reviewed: false
 ---
 - In pre-algebra, we learned that whole number [[Exponent|exponents]] 1 or larger were used as notation to display repeated multiplication of the same number.
 - The number being multiplied is known as the base; the number of factors of the base is known as the exponent:

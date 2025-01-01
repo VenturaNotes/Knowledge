@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=41901s
+Reviewed: false
 ---
 - A term is a number, variable, or the product of a number and one or more variables
 - In an algebraic expression, terms are separated by "+" and "-" signs

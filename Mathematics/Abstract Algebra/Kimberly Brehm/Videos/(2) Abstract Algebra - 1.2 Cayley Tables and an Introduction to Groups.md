@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=zoKRH_8KwEg
+Reviewed: false
 ---
 - Let's recap what we have just learned about the symmetries of a square:
 	- Rotations

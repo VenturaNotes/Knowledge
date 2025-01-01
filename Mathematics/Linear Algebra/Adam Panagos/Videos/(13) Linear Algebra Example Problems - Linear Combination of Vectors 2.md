@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=AGSajg1m-FU
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 5.54.16 PM.png|500]]
 	- Linear combinations of vectors #2

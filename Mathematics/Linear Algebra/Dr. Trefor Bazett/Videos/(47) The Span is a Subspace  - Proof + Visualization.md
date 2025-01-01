@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=GK0CvvX7ceM
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 2.25.40 AM.png]]
 	- [[Span]] {$\vec{a}, \vec{b}$}

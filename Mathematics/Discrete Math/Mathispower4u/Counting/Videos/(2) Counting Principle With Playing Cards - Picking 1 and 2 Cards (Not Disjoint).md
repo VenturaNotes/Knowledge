@@ -3,4 +3,32 @@ Source:
   - https://www.youtube.com/watch?v=hgVb9eUTAhg
 Reviewed: false
 ---
-
+- ![[Screenshot 2024-12-31 at 11.30.44 PM.png]]
+	- Counting: Additive and Multiplicative Principles with Inclusion/Exclusion
+		- (1) How many ways can you select a card which is either red or a face card?
+		- (2) How many ways can you select a card which is both red and a face card?
+		- (3) How many ways can you select two cards so that the first one is red and the second one is a face card?
+			- If A = set of red cards (|A| = 26), B = set of face cards (|B| = 12),
+			- $A \cup B$ = set of cards that are red or a face card, $(|A \cup B| = 32)$
+			- A $\cap$ B = set of cards that are red and a face card $(|A \cap B| = 6$)
+		- 1. Number of cards that are red or a face card $|A \cup B| = |A| + |B| - |A \cap B| = 26 + 12 - 6 = 32$
+			- Notice A and B are not disjoint. (not mutually exclusive)
+	- Venn Diagram example
+		- Need to subtract $A \cap B$ as we've counted the cardinality of the intersection of sets A and B twice. 
+	- (2) Number of cards that are red and a face card = $| A \cap B| = 6$ 
+	- (3) Number of ways a red card and then a face card ?
+		- There are 2 cases to consider
+			- Case 1: First red card is not a face card
+			- Case 2: The first red card is a face card
+		- So we have
+			- $20 \cdot 12$ or $6 \cdot 11$ = 240 + 66 = 306
+			- 
+				- Case 1
+					- 20 = Red not a face card
+					- 12 = face card
+				- Case 2
+					- 6 red face cards
+					- 11 face cards (after choosing one of the face cards)
+			- Using additive principle here
+		- Solution is 306 for number of ways of selecting a red card and then a face card
+			- #question is this a combination or permutations or separate idea entirely?

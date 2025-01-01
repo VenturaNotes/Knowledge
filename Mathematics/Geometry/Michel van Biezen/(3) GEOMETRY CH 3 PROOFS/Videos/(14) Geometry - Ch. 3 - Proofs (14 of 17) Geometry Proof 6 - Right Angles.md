@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=NFmaMUXvhYk
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 4.59.11 AM.png]]
 	- measure angle "b" and "c" are considered inclusive angles

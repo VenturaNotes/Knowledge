@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=shUTyykOLEM
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 11.44.22 AM.png]]
 	- $e^x$ is the only function in all of mathematics where the derivative of a function is equal to the function itself

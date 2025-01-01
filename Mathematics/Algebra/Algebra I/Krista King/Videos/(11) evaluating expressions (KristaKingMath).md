@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SoVx4S_tB0s
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 2.28.24 PM.png]]
 	- Evaluating expressions given these value for the variables and the unknown

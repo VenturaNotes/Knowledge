@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=yvnO8WDJ5tg
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 5.41.12 PM.png]]
 - One of the most confusing aspects of electrical engineering when talking about current is what the direction of the current is

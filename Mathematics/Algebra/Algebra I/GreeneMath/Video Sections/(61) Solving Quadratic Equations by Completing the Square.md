@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=93490s
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-08 at 7.31.03 AM.png]]
 	- [[Perfect square trinomial]]

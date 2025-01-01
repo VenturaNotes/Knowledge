@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=YZYxPclo2rg
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-16 at 2.53.03 AM.png]]
 	- The tangent line is a line which touches the function at 1 point only 

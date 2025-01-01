@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=g7L_r6zw4-c
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-23 at 1.03.54 PM.png]]
 	- Many different areas of [[mathematics]]. Geometry, number theory, topology, algebra

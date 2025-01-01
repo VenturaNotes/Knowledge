@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=13746s
+Reviewed: false
 ---
 - Intro
 	- Exponential functions and their graphs

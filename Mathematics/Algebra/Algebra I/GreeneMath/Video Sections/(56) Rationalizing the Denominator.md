@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=84950s
+Reviewed: false
 ---
 - Introduction
 	- Simplified form of a [[radical]]: ^5c776a

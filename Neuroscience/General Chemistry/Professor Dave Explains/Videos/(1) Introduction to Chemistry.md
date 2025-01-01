@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=ZuWa827qAao
+Reviewed: false
 ---
 - Chemistry is the study of what matter is made of and how it changes
 - Chemistry is the central science

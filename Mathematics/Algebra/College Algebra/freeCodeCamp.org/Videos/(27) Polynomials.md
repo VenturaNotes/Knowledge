@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=13271s
+Reviewed: false
 ---
 - Intro
 	- Polynomials and their graphs

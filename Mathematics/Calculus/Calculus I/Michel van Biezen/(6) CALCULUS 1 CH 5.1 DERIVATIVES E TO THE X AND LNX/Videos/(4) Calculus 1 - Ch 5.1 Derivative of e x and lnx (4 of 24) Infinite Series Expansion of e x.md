@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=M9eW8AU64TU
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 11.39.13 AM.png]]
 	- [[Infinite series expansion]]

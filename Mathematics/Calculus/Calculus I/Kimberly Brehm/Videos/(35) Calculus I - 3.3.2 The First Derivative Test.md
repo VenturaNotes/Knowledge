@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ySpumpFbVlU
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-27 at 2.27.32 PM.png]]
 	- Relative Extrema and Inc/Dec Intervals

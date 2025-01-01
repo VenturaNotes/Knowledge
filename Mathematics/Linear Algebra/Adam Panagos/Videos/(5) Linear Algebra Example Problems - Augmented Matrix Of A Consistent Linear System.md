@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=A4GoV2d21Ok
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 2.19.40 AM.png|500]]
 	- This system of linear equations has a variable in it "a"

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=1vgstKxYyuc
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 10.30.40 PM.png]]
 	- [[Complementary Angles]]: 2 angles where the sum of their measurement equals 90$\degree$

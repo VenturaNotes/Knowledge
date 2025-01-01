@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RadgU8XlZ-4
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 9.33.21 AM.png]]
 	- Logical consequence and equivalence

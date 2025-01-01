@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=-APlD1sGW-8
+Reviewed: false
 ---
 Related:: [[(2) Geometry - Ch. 2 - Proofs and Reasoning (2 of 46) Symbolic Notation]]
 

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=gPnWm-IXoAY
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 5.28.20 AM.png]]
 	- [[Vector multiplication]]

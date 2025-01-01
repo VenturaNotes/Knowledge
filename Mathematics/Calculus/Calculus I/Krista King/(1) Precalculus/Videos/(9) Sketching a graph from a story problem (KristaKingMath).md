@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=o6A9JL29bGE
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 7.21.34 PM.png|300]]
 	- Asked to draw a graph that models what the temperature does as a function of time. 

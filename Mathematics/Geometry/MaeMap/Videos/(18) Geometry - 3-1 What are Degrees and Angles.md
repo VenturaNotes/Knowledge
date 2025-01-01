@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=FwdrnrEBXZk
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 9.41.02 PM.png]]
 	- Degree: A way we can measure an angle

@@ -5,6 +5,7 @@ Length: 6 hours, 43 minutes, 46 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 Dr. Lina Green teaches at the University of North Carolina at Chapel Hill. She has years of experience teaching algebra to undergraduate students. She has condensed College Algebra basics into this 7-hour freeCodeCamp course. We recommend using a pencil and paper so you can follow along at home.
 

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=YCyItKPDcSo
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 2.01.07 AM.png|500]]
 	- Solving systems of equations using [[Gaussian operations|row operations]]

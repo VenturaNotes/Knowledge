@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=btWKhXFTcPQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 7.44.43 AM.png]]
 	- The What and where of vertical [[asymptotes]]

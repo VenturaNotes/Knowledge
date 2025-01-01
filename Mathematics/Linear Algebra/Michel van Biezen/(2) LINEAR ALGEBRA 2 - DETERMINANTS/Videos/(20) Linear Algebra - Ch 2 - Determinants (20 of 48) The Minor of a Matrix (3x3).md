@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Ej-PdTHzrPo
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-31 at 4.46.24 PM.png]]
 	- The [[Minor|minor]] $M_{ij}$ of a matrix is formed by removing the i$^{th}$ row and the j$^{th}$ column

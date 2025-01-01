@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=EqVOHGAXnpY
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-26 at 8.32.57 AM.png]]
 	-  An airplane is flying at an altitude of 6 miles on a path that will take it directly over a radar tracking station. If the distance from the radar station is decreasing at a rate of a 400mph when the distance is 10 miles, what is the speed of the airplane.

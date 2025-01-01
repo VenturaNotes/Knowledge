@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=4gTQDAr5W4U
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 11.50.58 PM.png]]
 	- Writing vectors in the "standard basis"

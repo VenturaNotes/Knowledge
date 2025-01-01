@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Hi5EJnBHFB4
+Reviewed: false
 ---
 - ![[Screenshot 2023-12-28 at 3.06.42 AM.png]]
 	- Deriving [[least squares estimator]] of $\overset \wedge \alpha$, $\overset \wedge \beta$ for the case of a [[bivariate]] model

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=DRXKgyCkWMI
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 11.01.28 PM.png]]
 	- How to find rate of change of a function at a point

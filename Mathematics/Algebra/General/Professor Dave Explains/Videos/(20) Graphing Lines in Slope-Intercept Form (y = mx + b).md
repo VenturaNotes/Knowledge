@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=T-acWVybQtk
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 2.59.41 PM.png]]
 	- We know about the [[coordinate plane]]

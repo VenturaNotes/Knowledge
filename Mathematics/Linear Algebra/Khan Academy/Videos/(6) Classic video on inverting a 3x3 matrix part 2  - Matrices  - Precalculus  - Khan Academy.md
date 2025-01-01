@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=obts_JDS6_Q
+Reviewed: false
 ---
 - ![[Screenshot 2023-11-15 at 5.01.57 PM.png]]
 	- [[Gauss Jordan elimination]]

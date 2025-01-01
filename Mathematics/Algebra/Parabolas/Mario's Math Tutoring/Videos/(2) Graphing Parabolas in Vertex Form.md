@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=TxPDQfWeAUg
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-19 at 1.42.36 AM.png]]
 	- (h, k) is the vertex (this is where the parabola changes direction)

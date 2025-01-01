@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=9136s
+Reviewed: false
 ---
 - [[linear equation|linear equations]] with no solution or an infinite number of solutions
 - So far, we have only worked with one type of equation. This equation is known as a [[conditional equation]]. It is true only under certain conditions

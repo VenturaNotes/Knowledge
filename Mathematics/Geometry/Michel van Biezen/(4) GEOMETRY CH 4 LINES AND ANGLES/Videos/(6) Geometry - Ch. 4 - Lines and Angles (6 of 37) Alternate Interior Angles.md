@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=hlHoFlgwPJ8
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 5.19.19 AM.png]]
 	- There are two sets. of alternate interior angles

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=eS1QJ5Sfz0Q
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 8.12.04 PM.png]]
 	- Vectors in $\mathbb{R}^2$

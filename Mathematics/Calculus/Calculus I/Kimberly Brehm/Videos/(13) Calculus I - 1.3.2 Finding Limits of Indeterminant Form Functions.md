@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=gaSwzp7qp5k
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 5.36.54 AM.png]]
 	- What is an [[Indeterminant Form Function]]

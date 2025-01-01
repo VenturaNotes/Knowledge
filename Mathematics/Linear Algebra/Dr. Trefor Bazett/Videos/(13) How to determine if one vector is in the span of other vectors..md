@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=kzjVqg0Xxhk
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 6.47.52 PM.png]]
 	- To say that one vector is in the span of a bunch of other vectors is to say that this vector can be written as a linear combination of these other vectors

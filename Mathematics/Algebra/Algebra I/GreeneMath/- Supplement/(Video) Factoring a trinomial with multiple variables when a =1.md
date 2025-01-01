@@ -5,6 +5,7 @@ Length: 2 minutes, 30 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-17 at 5.17.36 AM.png]]
 	- Factor normally as if the "h" variable does not exist

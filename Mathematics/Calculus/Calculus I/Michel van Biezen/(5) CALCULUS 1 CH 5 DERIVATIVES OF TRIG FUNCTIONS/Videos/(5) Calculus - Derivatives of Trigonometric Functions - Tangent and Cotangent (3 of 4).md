@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=xwaPapPLKSQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 9.47.42 AM.png]]
 	- [[Quotient rule]]

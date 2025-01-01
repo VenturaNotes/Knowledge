@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=y6a5fEfTXB0
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 7.08.57 PM.png]]
 	- Linearly independent vectors

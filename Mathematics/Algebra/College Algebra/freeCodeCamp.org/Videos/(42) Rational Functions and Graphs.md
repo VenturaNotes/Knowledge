@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=21588s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-25 at 9.37.27 PM.png]]
 	- A rational function is a function that can be written as a ratio or a quotient of 2 polynomials

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3TOmlY8dcXA
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 5.49.47 PM.png|500]]
 	- Linear Combinations of Vectors Example #1

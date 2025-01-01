@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1amtOenZEwU
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 10.03.09 AM.png]]
 	- Conjecture: "97 is a prime number"

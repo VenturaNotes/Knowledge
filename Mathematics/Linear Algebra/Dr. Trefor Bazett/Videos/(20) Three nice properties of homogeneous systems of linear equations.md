@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=CuMHWP-HuLc
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 10.01.52 PM.png|500]]
 	- Nice properties of [[Homogeneous system|homogeneous systems]] $A\vec{x} = \vec{0}$

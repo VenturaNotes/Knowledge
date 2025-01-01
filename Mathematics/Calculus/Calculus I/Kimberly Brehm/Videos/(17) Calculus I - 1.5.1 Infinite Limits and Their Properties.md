@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Jy_xDG1v91Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 7.34.41 AM.png]]
 	- Limits at Infinity (They don't exist)

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=8180s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-21 at 5.54.47 AM.png]]
 	- Distance formula can be used to find the distance between 2 points if we know their coordinates

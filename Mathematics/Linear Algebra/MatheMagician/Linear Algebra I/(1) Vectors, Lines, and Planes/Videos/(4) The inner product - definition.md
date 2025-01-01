@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JNCH2T58gL8
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-28 at 9.28.26 PM.png]]
 	- The [[inner product]]

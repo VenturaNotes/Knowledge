@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=48642s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-15 at 1.25.39 AM.png]]
 	- Recall that addition and subtraction of fractions will always have the same result

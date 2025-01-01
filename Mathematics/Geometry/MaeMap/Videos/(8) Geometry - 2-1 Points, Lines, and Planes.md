@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=zOUgywAkC0A
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 5.05.19 PM.png]]
 	- Point - Location, or position

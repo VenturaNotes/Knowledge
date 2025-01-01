@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=zEHM-G-JUo0
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 11.00.27 AM.png]]
 	- The primary visual cortex, also known as V1, is a brain region that is critically important for the processing of visual information. It is found in the occipital lobe, surrounding and extending into a sulcus called the calcarine sulcus. A large band of myelinated axons runs along the edges of the calcarine sulcus, giving the primary visual cortex a striped appearance. Because of this, it is sometimes called the striate cortex. 

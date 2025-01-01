@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=1RFwSXXVDKk
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 9.53.33 PM.png]]
 	- Calculate [[composite functions]] and their [[Domain (Math)|domains]]

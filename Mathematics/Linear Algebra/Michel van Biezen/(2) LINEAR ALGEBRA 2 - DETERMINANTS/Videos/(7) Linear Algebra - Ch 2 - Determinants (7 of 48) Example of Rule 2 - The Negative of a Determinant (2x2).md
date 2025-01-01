@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=UqMVZ3xYtA4
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-27 at 7.26.20 PM.png]]
 	- For an $n \times n$ determinant

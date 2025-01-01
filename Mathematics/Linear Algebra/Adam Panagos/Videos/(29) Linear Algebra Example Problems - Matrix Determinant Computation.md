@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=iMZA4p7Wou0
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-19 at 6.58.48 PM.png]]
 	- [[Matrix Determinant]] Computation

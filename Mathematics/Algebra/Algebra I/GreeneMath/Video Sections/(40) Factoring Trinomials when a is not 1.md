@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=59081s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-17 at 1.11.46 AM.png]]
 	- Now we will focus on factoring [[trinomial|trinomials]] of the form:

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=lLRwOeYGQ6E
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-27 at 9.29.01 PM.png]]
 	- [[(8) Geometry - Ch. 3 - Proofs (8 of 17) Properties of Congruences Needed for Proofs|Congruence]]

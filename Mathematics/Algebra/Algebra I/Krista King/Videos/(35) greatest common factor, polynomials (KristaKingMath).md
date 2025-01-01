@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QnGRpkdIG84
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-10 at 12.13.38 AM.png]]
 	- Polynomial means many numbers

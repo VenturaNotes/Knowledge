@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=MGpGQNrAj5k
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 4.01.43 AM.png]] ^a5e4e2
 	- [[Trigonometric Identities]]

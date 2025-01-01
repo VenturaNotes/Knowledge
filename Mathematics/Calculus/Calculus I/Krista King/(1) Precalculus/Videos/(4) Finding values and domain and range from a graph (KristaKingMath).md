@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=CTQK6Sthn7k
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 3.56.12 PM.png|500]]
 	- How to find coordinate points, and the domain and range of a function just by looking at graph of function

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FeGVpk96UqY
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 2.05.08 AM.png|500]]
 	- Solve the following system of equations:

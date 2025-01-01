@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=1278s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-19 at 10.34.36 PM.png|200]]
 	- $\sqrt[x]{n}$

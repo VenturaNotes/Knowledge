@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RG7Wr2cCWj8
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 1.08.58 PM.png]]
 	- [[Econometrics]]: A statistical tool set which helps us evaluate some sort of relationship of interest

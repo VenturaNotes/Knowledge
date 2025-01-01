@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=LTynNe-mdB0
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-25 at 7.14.42 PM.png]]
 	- [[kelvin]] scale (k)

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=BfJauiDEc_M
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-27 at 12.36.48 AM.png]]
 	- The behavior of Functions

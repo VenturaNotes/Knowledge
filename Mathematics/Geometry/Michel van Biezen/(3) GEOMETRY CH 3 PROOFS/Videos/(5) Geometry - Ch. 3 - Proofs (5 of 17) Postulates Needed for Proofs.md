@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Hiv-LLbGdYA
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-27 at 9.37.42 PM.png]]
 	- A [[postulate]]: Is a rule in geometry that is accepted without proof

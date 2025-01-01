@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=3hbBmZu74N0
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 9.57.11 PM.png]]
 	- Ruler Postulate

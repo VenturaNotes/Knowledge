@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=yylwsD_58KM
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 4.25.54 PM.png]]
 	- Related Conditionals - Statements based on a given conditional

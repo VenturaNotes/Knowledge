@@ -5,6 +5,7 @@ Length: 7 hours, 49 minutes, 51 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) Abstract Algebra - 1.1 Symmetries of a Square]]

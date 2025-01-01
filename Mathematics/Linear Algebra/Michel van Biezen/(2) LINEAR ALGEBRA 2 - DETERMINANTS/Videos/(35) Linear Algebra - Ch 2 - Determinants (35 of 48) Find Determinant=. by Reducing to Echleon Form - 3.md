@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=iOBaLhP30sQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-04 at 12.50.08 PM.png]]
 	- Finding determinant by reducing to echelon form

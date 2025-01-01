@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=XP1SeP4ad8Q
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-26 at 12.10.33 PM.png]]
 	- How many moles in a 14.500g sample of He?

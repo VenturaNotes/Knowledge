@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=a-YQhsIDshc
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 12.24.56 AM.png]]
 	- Determine [[molecular formula]] of a sample

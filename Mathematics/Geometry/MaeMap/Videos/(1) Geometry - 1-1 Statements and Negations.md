@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=lLd1ZHEKplY
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 4.06.17 PM.png]]
 	- Statement - A sentence that is either true or false, not both

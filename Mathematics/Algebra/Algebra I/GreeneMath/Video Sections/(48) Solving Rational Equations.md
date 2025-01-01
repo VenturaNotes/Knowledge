@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=73239s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-17 at 5.53.11 AM.png]]
 	- Recall that when we solve an equation with fractions, we can clear the fractions by multiplying both sides by the LCD:

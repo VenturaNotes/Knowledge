@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=14213s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-24 at 4.39.20 PM.png]]
 	- Example. You are hired for a job and starting salary is $40,000 with an annual raise of 3% per year. How much will your salary be after 1 year? 2 years? 5 years? t years?

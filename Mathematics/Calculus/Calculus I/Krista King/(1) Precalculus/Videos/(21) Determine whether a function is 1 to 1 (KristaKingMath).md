@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=9b8Xd77f-qk
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 10.09.29 PM.png]]
 	- Determine whether a function is [[one-to-one]] (whether or not it passes the [[horizontal line test]])

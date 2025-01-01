@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=7vomY6g-f3Q
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-15 at 4.18.41 AM.png]]
 	- We get ride of terms by using inverse operations

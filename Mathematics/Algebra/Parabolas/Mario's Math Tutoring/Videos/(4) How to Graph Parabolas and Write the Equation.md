@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=900WmsiXYJg
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-19 at 2.10.22 AM.png]]
 	- Parabolas either in form

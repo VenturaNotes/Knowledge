@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=dY5T7BcQ2Nc
+Reviewed: false
 ---
 - ![[Screenshot 2022-12-30 at 2.42.47 AM.png]]
 	- The limit of a sum is the sum of the two limits

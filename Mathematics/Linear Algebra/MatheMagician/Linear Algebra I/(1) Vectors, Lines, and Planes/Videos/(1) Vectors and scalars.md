@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=bo6a47hrHns
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-28 at 8.51.17 PM.png]]
 	- [[Vectors]] and [[Scalars]]

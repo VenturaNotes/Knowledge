@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=qvR7sSGphQ4
+Reviewed: false
 ---
 - ![[Screenshot 2023-12-28 at 12.41.02 AM.png]]
 	- Estimating population parameters from a sample

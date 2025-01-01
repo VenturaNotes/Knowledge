@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=szgipiZ9jKM
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-27 at 9.46.49 PM.png]]
 	- A [[Theorem]] is a statement that can be proven. Once proven, it can be used in other proofs

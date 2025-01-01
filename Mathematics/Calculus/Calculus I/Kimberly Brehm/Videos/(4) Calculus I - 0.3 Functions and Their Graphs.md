@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=DKLYIiqjKEc
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 3.05.35 AM.png]]
 	- Relations and functions

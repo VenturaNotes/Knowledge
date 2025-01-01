@@ -3,4 +3,21 @@ Source:
   - https://www.youtube.com/watch?v=s_JM1-t39tQ
 Reviewed: false
 ---
-
+- ![[Screenshot 2024-12-31 at 11.16.39 PM.png]]
+	- Additive and Multiplicative Principles (Disjoint)
+		- A restaurant offers 8 appetizers and 14 entrees.
+			- (1) How many choices do you have if you will eat one dish, either an appetizer or an entree?
+			- (2) How many choices do you have if you are extra hungry and want to eat both an appetizer and an entree
+		- [[Additive Principle]]: If event A can occur in `m` ways, and event B can occur in `n` disjoint ways, then the event "A or B" can occur in `m + n` ways
+		- Notes: [[Disjoint]] means events A and B can not occur at the same time. The Additive Principle generalizes to more than two events. "Or" doesn't always mean "add". ([[mutually exclusive]])
+		- [[Multiplicative Principle]]: If event A can occur in `m` ways, and each possibility for A allows for exactly `n` ways for event B, then the event "A and B" can occur in $m*n$ ways
+		- Notes: The Multiplicative Principle generalizes to more than two events as well. "And" doesn't always mean "times".
+	- Additive and Multiplicative Principles
+		- Question #1 involves the Additive Principle
+			- There are 8 + 14 = 22 choices if you will eat one dish, either an appetizer or an entree
+			- Counting with sets: There are two sets, A and B. The set A contains all 8 appetizers, so the cardinality of A is |A| = 8 while |B| = 14, the number of entrees. In terms of sets, we are asking for |A $\cup$ B|, the number of elements in the union of appetizers and entrees
+			- This is just $|A \cup B|$ = |A| + |B| = 8 + 14 = 22 (since there is no overlap, that is, |A $\cap$ B| = 0). If A and B are not disjoint, $|A \cup B|$ = $|A| + |B| - |A \cap B|$ 
+	- Additive and Multiplicative Principles
+		- Question #2 involves the Multiplicative Principle
+			- There are 8 ways to choose an appetizer and 14 ways to choose an entree. There are $8*14$ = 112 ways to choose an appetizer and an entree or 112 choices. Since we want one of each, we could think of this as asking how many pairs $(x, y)$ there are, where x is an appetizer and y is an entree
+			- Counting with sets: The [[cartesian product]], $A \times B$, is the set of all ordered pairs $(a, b)$, a $\in$ A $\land$ b $\in$ B. In this case we want $|A \times B| = |A| \cdot |B| = 8 \cdot 14 = 112$ 

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=w4Jkr8D9gCI
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-22 at 1.19.52 AM.png]]
 	- Top-left is a pictorial of a hydrogen atom

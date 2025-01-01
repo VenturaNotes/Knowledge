@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=QUGmwPwtbpg
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 4.02.58 PM.png]]
 	- Types of numbers (can look at the [[taxonomy]])

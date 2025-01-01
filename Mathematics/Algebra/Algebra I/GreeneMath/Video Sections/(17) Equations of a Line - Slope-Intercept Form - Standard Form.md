@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=23676s
+Reviewed: false
 ---
 - There are many ways to manipulate a [[linear equation]] in two variables. Each form of the line has a specific use.
 - Slope - Intercept Form:

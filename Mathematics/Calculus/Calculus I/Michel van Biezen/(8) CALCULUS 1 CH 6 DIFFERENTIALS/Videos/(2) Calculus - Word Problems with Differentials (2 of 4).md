@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=EFZJj58TgZ0
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-18 at 9.22.51 AM.png]]
 	- A cube 1 inch on each side is to be painted by paint 0.01 inch thick. Use [[Differential|differentials]] to determine the volume of the paint

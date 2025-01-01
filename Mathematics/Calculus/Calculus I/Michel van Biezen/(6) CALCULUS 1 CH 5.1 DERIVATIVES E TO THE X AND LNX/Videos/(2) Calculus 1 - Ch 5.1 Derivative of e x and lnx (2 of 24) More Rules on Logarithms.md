@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=U3Q1schHqoA
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 11.23.06 AM.png]]
 	- Rules on [[Logarithm|logarithms]]

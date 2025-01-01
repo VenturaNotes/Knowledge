@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ByWrUSKHTGc
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 6.44.08 PM.png]]
 	- Special lines pertaining to triangles

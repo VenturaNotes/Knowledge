@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=e7KUwiyXnjg
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-27 at 8.18.43 AM.png]]
 	- A sphere is constructed with a radius of 1 foot. How much of an error can be made in the radius, such that the volume will not change by more than 3%

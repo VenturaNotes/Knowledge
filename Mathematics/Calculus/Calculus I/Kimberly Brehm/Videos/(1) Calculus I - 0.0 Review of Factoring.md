@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LmFz8H6FrD0
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-25 at 12.30.43 AM.png]] ^d4ffad
 	- GCD ([[Greatest Common Divisor|greatest common divisor]]) - If each term contains a common term, factor it out of all terms

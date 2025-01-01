@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=9695s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-21 at 6.40.54 PM.png]]
 	- Parallel lines have the same slopes

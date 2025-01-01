@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=2ee2AbprjGs
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-08 at 12.41.30 PM.png]]
 	- Plot and label the points

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=17618s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-24 at 11.57.16 PM.png]]
 	- Note. Recall some of the exponent rules

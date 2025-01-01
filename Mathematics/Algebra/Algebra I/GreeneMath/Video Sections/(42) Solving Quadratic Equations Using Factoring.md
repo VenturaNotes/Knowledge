@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=62559s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-17 at 1.51.56 AM.png]]
 	- A quadratic equations contains a squared variable (such as $x^2$) and no other term with a higher degree.

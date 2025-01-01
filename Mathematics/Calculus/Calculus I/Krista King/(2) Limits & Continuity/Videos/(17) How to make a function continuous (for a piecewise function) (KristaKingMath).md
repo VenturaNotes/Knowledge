@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=B5BVwT_Eu2c
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-05 at 5.32.03 PM.png]]
 	- Find the value of "c" that makes the [[function]] [[continuous]]

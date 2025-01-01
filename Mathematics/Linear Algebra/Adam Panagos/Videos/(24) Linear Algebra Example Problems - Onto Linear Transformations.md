@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=-M0kHX-rIv4
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-19 at 6.16.50 PM.png]]
 	- [[Onto linear transformations]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=EFJOWdc_XGo
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-04 at 4.51.39 AM.png]]
 	- How do we know if two lines are parallel or perpendicular to one another?

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=WcqPjPxaqEA
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-27 at 4.42.11 PM.png]]
 	- Substitution property of equality

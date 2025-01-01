@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=9kDpbZCK62Y
+Reviewed: false
 ---
 - Image
 	- To express vector spaces in the most efficient way

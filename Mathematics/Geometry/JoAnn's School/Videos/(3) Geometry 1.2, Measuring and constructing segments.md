@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=pbWkLf9L3EE
+Reviewed: false
 ---
 - A ruler can be used to measure the distance between two points
 	- ![[Screenshot 2023-04-24 at 6.25.27 PM.png]]

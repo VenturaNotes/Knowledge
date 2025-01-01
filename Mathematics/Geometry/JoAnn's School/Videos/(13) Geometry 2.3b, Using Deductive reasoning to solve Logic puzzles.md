@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=loyetRWK3VU
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 3.39.13 AM.png]]
 	- The key to solving logic puzzles is to systematically work through the given information one piece at a time

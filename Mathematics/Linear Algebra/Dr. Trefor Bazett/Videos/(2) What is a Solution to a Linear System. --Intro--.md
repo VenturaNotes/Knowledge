@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=H8MiZMJr1kQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 10.07.45 PM.png]]
 	- 2 variable equation

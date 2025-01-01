@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dA94zyaLuhk
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 5.56.26 PM.png]]
 	- Defining angles as a concept

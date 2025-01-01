@@ -6,6 +6,7 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## Preface
 - “Content updates reflect rapid, ongoing changes in knowledge about [[climate change]], [[genomics]], gene-editing technology ([[CRISPR]]), [[evolutionary biology]], [[microbiome-based therapies]], and more.” ([Urry et al., 2020, p. 16](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=19&annotation=YNRX9ZI7))

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=IDNrphBQ88M
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 11.37.32 AM.png]]
 	- "[[e]]" is called the "natural number" because in nature, things tend to increase and decrease according to that number

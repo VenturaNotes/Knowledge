@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=3900s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-19 at 11.34.28 PM.png]]
 	- A quadratic equation is an equation that contains the square of a variable but no higher powers of "x"
