@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=ZaCwx-YPJdY
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-05 at 5.07.28 PM.png]]
 	- Use [[squeeze theorem]] to evaluate the limit

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=KtZai86htng
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-27 at 6.15.34 PM.png]]
 	- Given a circle with radius 5, find the circumference and area

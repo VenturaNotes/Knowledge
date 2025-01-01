@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=vIHnlNjRnGU
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-27 at 4.08.47 PM.png]]
 	- Notation and calculation

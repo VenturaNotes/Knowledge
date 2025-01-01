@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=91952s
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-08 at 7.17.30 AM.png]]
 	- Can solve equation by factoring

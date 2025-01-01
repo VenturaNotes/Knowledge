@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=U18iIzN8GJU
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 4.29.53 PM.png]]
 	- Biconditional Statement

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=11271s
+Reviewed: false
 ---
 - [[(8) Solving Word Problems with Linear Equations I#^6be7c4|Solving a word problem]]
 

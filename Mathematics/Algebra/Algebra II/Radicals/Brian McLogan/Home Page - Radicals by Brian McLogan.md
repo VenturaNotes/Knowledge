@@ -5,6 +5,7 @@ Length: 25 minutes, 40 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 - This playlist is honestly pretty bad and filled with mistakes (Videos #1 and #2)
 

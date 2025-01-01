@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=KfrkcGx2Xl8
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-17 at 2.22.56 AM.png]]
 	- Let's work with [[rational expression|rational expressions]]

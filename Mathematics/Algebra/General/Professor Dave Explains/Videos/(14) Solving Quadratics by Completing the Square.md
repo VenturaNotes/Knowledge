@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=P8W2M0jq2Qs
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-08 at 9.03.14 PM.png]]
 	- We can [[factor]] [[Polynomial|polynomials]]

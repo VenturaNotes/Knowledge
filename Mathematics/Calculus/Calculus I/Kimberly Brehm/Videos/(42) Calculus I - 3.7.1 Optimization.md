@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=W6FYEfsShm0
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-29 at 12.36.59 AM.png]]
 	- Steps for Optimizing Applied Problems

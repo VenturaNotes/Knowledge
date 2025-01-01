@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=VhvJ_k8BwTo
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-27 at 5.59.31 PM.png]]
 	- [[Adiabatic expansion]]

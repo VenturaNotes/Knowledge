@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=jZ-eL71AyzU
+Reviewed: false
 ---
 - ![[Screenshot 2023-11-02 at 4.10.22 PM.png]]
 	- An effective method to take one vector and write it in terms of some other [[Basis|basis]] (some other coordinate system) 

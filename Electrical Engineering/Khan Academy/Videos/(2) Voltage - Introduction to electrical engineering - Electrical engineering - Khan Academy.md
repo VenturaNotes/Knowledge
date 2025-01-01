@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=k9SwNST1eW0
+Reviewed: false
 ---
 - Voltage is a quantity
 	- Has to do with potential energy of electrical charges.

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=HEYK0-TjnFE
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 11.19.09 PM.png]]
 	- Perpendicular: Lines joined or intersected at right angles

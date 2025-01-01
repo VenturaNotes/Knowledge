@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=AyJsHC4OYCM
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-03 at 6.22.17 PM.png]]
 	- Evaluate the limit using [[conjugate]] method

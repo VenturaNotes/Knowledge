@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=B8oszxF9fhI
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 2.36.32 PM.png]]
 	- 0, 1, or $\infty$-many solutions

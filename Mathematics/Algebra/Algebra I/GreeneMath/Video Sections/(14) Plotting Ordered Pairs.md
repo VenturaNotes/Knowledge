@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=19422s
+Reviewed: false
 ---
 - In the last lesson, we learned that a linear equation in two variables has an infinite number of solutions. We display a solution as an ordered pair: (x, y)
 - ![[Screenshot 2023-02-07 at 11.15.26 PM.png]]

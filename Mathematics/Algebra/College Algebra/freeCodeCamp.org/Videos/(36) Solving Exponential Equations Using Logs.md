@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=18130s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-25 at 12.11.53 AM.png]]
 	- When you have an equation with variables in the exponent, logs are the tool of choice for getting the variables down when you can solve for them.

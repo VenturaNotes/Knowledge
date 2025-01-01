@@ -5,6 +5,7 @@ Length: "43"
 tags:
   - status/incomplete
   - type/website
+Reviewed: false
 ---
 ## (1) Vectors and Matrices
 ### (1.1) Vectors, Length, and Direction

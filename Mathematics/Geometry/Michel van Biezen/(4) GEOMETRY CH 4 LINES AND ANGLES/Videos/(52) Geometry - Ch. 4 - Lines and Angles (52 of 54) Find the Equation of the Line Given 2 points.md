@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtu.be/d7z45bGi6V0
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-04 at 5.19.00 AM.png]]
 	- Solve for slope

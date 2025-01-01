@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=95135s
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-08 at 10.23.01 AM.png]]
 	- Before we begin using the formula, let's take a look at where it comes from

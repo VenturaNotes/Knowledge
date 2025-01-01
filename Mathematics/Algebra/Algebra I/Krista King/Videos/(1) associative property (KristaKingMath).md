@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SaZv4Zv5ayI
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-08 at 1.40.56 PM.png]]
 	- Use the associative property to simplify the expression

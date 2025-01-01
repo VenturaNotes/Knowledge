@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=EB6u_u-RzqQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-31 at 4.52.29 PM.png]]
 	- [[Cofactor]] of a matrix

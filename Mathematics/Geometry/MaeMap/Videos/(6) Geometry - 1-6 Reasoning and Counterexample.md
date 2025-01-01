@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=H_j6MZL1W28
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 4.34.59 PM.png]]
 	- Conjecture - An educated guess based on what is known

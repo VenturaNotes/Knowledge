@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=rgxyxcTwvuo
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 2.12.57 AM.png|500]]
 	- Vector Addition

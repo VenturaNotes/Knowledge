@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=88725s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-27 at 12.15.18 AM.png]]
 	- A radical equation is an equation where there is a variable in the radicand

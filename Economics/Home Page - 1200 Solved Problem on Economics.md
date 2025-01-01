@@ -4,6 +4,7 @@ Source:
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 - (1) Differentiate the following functions:
 	- (a) $f(x) = 6x^3 + 2x^2 - x + 12$

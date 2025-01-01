@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=4z-Xxd5uoRU
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-03 at 11.11.41 AM.png]]
 	- Representing [[derivative|derivatives]] of a function

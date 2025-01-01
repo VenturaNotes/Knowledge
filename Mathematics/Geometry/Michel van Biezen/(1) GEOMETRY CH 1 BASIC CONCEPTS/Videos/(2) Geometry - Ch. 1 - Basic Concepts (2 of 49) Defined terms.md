@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=nX8tWvg_lHI
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-02 at 11.07.33 PM.png]]
 	- Defined terms are terms that are clarified (defined) by using known words such as point, line, plane, etc.

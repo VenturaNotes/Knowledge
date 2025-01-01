@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=qkeqWWO0JTY
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-04 at 6.32.14 PM.png]]
 	- Find equation of tangent line given a function and a point

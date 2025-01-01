@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=OGQ9NaNU7IY
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-31 at 1.27.17 AM.png]]
 	- Use [[Logarithmic differentiation]] to find the derivative

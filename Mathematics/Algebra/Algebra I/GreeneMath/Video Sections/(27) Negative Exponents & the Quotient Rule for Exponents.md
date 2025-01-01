@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=38898s
+Reviewed: false
 ---
 - What can we do if we see
 	- Will learn[[ negative exponents]], the [[power of zero]], and the [[quotient rule]] for exponents

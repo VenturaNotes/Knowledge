@@ -6,6 +6,7 @@ Progress: "0"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## (1) Lie Algebras
 ### (1.1) Definitions and Examples

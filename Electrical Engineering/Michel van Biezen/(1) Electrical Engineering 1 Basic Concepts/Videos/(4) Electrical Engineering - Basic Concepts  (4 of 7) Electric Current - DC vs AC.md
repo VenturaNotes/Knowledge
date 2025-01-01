@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=WtEHvNUPkFQ
+Reviewed: false
 ---
 - We'll take a look at a current in particular
 	- The comparison between direct current and alternating current

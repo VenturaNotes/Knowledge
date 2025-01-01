@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=22630s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-26 at 6.50.26 AM.png]]
 	- When composing 2 functions, you apply the first function and then you apply the second function to the output of the first function

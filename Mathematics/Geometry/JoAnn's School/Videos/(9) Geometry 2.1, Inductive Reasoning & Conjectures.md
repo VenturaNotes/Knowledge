@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=XEL4OesvTog
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 1.21.07 AM.png]]
 	- Inductive reasoning is using a pattern to make a conclusion

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtu.be/GAN-jgzYsIo?t=44133
+Reviewed: false
 ---
 - Recall the [[distributive property]]:
 	- ![[Screenshot 2023-02-19 at 4.14.12 AM.png]]

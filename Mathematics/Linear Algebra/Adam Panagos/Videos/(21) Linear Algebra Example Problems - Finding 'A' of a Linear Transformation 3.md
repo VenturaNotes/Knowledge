@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3HB16IOEZRc
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 8.08.00 PM.png]]
 	- Finding Matrix "A" of a linear transformation

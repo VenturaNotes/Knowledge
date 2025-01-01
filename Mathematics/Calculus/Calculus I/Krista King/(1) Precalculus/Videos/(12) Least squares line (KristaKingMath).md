@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=1pawL_5QYxE
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 7.38.51 PM.png]]
 	- [[least squares line]] (aka, line of least squares) or regression line

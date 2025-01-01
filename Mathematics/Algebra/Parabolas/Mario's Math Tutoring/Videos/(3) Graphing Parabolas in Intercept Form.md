@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=8AdUjJO4tZM
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-19 at 1.45.39 AM.png]]
 	- Intercept form of a quadratic

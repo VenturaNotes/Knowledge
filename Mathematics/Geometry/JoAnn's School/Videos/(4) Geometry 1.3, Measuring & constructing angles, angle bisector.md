@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=6fO-xhWSYzo
+Reviewed: false
 ---
 - An angle is a figure made from two rays, or sides, with a common endpoint called the vertex. Plural of vertex is vertices
 	- ![[Screenshot 2023-04-24 at 10.05.29 PM.png]]

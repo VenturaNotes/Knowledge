@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=eFJBAs_9PDc
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-03 at 12.52.22 PM.png]]
 	- How to find the mass of a particular constituent in a sample

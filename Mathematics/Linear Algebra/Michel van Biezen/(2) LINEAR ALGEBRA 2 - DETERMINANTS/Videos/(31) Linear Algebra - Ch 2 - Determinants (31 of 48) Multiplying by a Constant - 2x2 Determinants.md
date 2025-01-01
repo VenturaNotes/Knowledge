@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=FzioP4b466E
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-04 at 12.34.20 PM.png]]
 	- $det(2A) = 2^ndet(A)$

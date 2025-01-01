@@ -5,6 +5,7 @@ Length: 20 hours, 1 minute, 15 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) Calculus I - Average Rate of Change (Full Lecture)]]

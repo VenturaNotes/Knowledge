@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=mUlxUso75q8
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-06 at 1.42.11 PM.png]]
 	- [[Implicit Differentiation]]

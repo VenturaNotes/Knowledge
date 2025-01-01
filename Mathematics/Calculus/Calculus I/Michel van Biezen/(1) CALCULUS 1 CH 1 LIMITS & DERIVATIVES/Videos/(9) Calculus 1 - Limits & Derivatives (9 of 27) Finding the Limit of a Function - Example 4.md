@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=IZUPks16hok
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-19 at 9.28.06 PM.png]]
 	- [[Sine]]

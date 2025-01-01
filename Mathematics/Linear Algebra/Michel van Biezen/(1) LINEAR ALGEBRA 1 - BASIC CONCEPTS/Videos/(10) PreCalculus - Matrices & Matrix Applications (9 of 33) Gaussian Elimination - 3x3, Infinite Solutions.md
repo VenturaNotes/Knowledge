@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=aZgC7FnT9Ok
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 4.37.07 AM.png]]
 	- 0=0 does not mean infinite solutions[^1]

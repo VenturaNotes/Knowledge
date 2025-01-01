@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=rSxxEtKVw-w
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-03 at 11.23.40 PM.png]]
 	- Use the precise definition of the limit to prove the equation

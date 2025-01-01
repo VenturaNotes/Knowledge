@@ -5,6 +5,7 @@ Length: 14 minutes, 46 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - Need to use the constant multiple rule and the power rule
 	- ![[Screenshot 2022-12-24 at 7.42.27 AM.png]]

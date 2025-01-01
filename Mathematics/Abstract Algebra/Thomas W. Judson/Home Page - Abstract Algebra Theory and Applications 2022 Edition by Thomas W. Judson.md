@@ -7,6 +7,7 @@ tags:
   - status/incomplete
   - type/textbook
 Year: 0202-07-28
+Reviewed: false
 ---
 ## (0) Preface
 - Coding theory and cryptography has grow significantly with the development of computing

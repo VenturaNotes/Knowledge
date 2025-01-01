@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=5RSnc4REpKs
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-03 at 5.11.51 AM.png]]
 	- Lines that do not intersect are parallel lines

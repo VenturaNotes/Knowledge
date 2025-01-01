@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rGWcIeCdwGg
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 2.08.13 PM.png]]
 	- Linear Equation

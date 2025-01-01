@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=zjJ-WKf3u3g
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 11.00.21 PM.png]]
 	- [[Convex polygon]]: When extending any line segment (side) it does not cut through any of the other sides

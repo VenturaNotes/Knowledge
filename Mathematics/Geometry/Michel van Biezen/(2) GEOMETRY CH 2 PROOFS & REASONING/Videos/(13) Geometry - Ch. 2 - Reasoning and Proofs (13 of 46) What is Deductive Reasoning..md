@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=-rQgE3ygGCk
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-12 at 1.17.39 PM.png]]
 	- AKA: deductive logic $\rightarrow$ or leading to a deductive conclusion. "Reasoning from one or more statements to reach a logical conclusion" But we often do not reach a correct conclusion.... Why???

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=nIzppjZ0VKU
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-03 at 6.44.04 PM.png]]
 	- How to use [[limit laws]] along with graphs of 2 functions to solve limit problems

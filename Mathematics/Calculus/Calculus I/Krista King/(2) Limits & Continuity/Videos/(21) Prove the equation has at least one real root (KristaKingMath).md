@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=5edd_OOJ0co
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-05 at 9.40.04 PM.png]]
 	- Using [[Intermediate Value Theorem|IVT]] to prove function has at least one real [[root]]

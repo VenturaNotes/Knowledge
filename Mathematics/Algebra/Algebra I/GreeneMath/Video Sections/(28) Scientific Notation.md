@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=40520s
+Reviewed: false
 ---
 - One immediate application of integer exponents is [[scientific notation]]. This will make it more convenient to write really large or really small numbers
 - When multiplying by ten or ten raised to a whole number 1 or larger:

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=RfcOtERE0qw
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-24 at 5.14.26 PM.png]]
 	- To find the length of 2 line segments inside the circle

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=fip-sCm5X-o
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 11.02.13 AM.png]]
 	- Naloxone, also known by the brand name Narcan, is a medication that can be used to treat opioid overdose and substantially reduce the risk of death associated with opioid toxicity. The drug is a competitive antagonist at opioid receptors, which means that it works by binding to the same receptors that opioid drugs bind to, but instead of activating those receptors like opioid drugs, naloxone blocks activity at them. Naloxone also causes opioid drugs that are already attached to the receptor to be displaced. This combination of receptor blockade and removal of active opioid drugs makes naloxone capable of reversing an opioid overdose and reducing the risk of complications associated with one. 

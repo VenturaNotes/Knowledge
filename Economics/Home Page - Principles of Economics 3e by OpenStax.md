@@ -8,6 +8,7 @@ tags:
   - type/textbook
 Year: 2024-06-18
 errata: https://openstax.org/errata/?book=Principles%20of%20Economics%203e
+Reviewed: false
 ---
 ## Preface
 - All OpenStax textbooks undergo a rigorous review process.

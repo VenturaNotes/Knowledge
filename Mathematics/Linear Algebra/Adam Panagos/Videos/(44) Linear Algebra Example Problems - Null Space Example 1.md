@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=9FNq-YCQAus
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-03 at 11.35.05 PM.png]]
 	- Will investigate the [[null space]] of a matrix

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Rw4NdMRa5bU
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 11.57.26 PM.png]]
 	- [[Chain rule]] for [[Trigonometric function|trig functions]]

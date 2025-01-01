@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=vES1b77xwv4
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-05 at 11.22.44 PM.png]]
 	- [[Jump discontinuity]] (can be called step discontinuities or discontinuities of the first kind)

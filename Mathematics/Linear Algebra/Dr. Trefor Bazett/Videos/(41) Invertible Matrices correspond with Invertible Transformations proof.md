@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=aA4Gtfy4ctQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-17 at 1.29.15 AM.png]]
 	- [[Invertible matrices]]

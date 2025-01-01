@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=qby4iORgoK8
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 11.51.37 PM.png]]
 	- [[Chain rule]] with [[product rule]]

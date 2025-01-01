@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=ABAx3EaS4WU
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-04 at 3.51.36 PM.png]]
 	- [[Chain rule]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=6143s
+Reviewed: false
 ---
 - Interval notation is an easy way to record inequalities
 - ![[Screenshot 2023-02-20 at 9.41.26 PM.png]]

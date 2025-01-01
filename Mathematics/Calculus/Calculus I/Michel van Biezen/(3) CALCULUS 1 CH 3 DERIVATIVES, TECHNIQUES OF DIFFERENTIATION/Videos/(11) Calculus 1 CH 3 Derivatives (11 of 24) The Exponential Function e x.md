@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=2CFwiaNkrKU
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-04 at 12.12.43 AM.png]]
 	- [[Exponential Function]]

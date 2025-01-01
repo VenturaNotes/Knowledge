@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=86437s
+Reviewed: false
 ---
 - Introduction
 	- Let's |revisit the simplified form of a radical [^1]:

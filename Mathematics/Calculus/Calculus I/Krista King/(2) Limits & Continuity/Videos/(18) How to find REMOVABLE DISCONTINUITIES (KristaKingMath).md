@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=fWYmFpWzGTs
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-05 at 9.12.05 PM.png]]
 	- Classify any discontinuities of the function, then, redefine the function at any removable discontinuities

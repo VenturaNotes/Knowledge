@@ -6,6 +6,7 @@ tags:
   - type/textbook
   - status/incomplete
 Year: 2024-02-10
+Reviewed: false
 ---
 ## Preface
 - “[[human brain]] is a complex self-organizing system which depends on precise timing of genes, circuits, experiences, and behaviors to function.” ([pdf](zotero://open-pdf/library/items/JS4YEBES?page=5&annotation=5XQ2SUE6))

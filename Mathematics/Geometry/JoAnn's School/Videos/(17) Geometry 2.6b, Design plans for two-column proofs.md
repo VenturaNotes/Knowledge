@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=AAuGuppN8ME
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-08 at 9.49.43 AM.png]]
 	- Sometimes the hardest part of writing a proof is planning the logical steps that will take us from the given statement to the prove statement

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=omTZY7fUaRs
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 9.24.56 PM.png]]
 	- Reflexive Property: For every number a, a=a

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Q2KV6yguDk4
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-03 at 12.34.56 PM.png]]
 	- Derivative is equivalent to the slope of a function. It means how fast the dependent variable is changing with respect to the independent variable

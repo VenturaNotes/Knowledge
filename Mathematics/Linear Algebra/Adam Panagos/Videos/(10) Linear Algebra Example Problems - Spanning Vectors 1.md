@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=aK9GmG2_o9k
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 5.33.52 PM.png]]
 	- Spanning Vectors

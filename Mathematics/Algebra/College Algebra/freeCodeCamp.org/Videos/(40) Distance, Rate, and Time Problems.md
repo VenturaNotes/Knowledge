@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=20856s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-25 at 9.04.39 PM.png]]
 	- The rate of travel is the distance travel divided by the time it takes to travel.

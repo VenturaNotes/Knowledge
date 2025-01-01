@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=8459s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-21 at 6.16.06 PM.png|400]]
 	- Midpoint Formula

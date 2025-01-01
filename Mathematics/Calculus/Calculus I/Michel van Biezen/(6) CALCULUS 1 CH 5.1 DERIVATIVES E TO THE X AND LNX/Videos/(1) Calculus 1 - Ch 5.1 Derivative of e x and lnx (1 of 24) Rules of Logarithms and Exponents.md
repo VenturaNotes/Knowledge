@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=7EqEClntNds
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 11.20.31 AM.png]]
 	- Derivative of [[Exponential Function|Exponential Functions]] and [[Logarithmic Function|Logarithmic Functions]]

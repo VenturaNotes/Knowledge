@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=otCkObOqxkc
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-19 at 6.48.58 PM.png|500]]
 	- [[Matrix inversion]]

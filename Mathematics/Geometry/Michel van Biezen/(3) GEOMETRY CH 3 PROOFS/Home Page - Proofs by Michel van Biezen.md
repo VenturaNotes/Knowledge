@@ -5,6 +5,7 @@ Length: 1 hour, 10 minutes, 58 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Geometry - Ch. 3 - Proofs (1 of 17) What is the KEY to Performing Proofs in Geometry 1]]
 [[(2) Geometry - Ch. 3 - Proofs (2 of 17) What is the KEY to Performing Proofs in Geometry. 2]]

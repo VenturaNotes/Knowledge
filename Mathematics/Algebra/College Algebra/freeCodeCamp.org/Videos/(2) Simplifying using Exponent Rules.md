@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=614s
+Reviewed: false
 ---
 - Professor refers to numerator as upstairs and denominator as downstairs
 

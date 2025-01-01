@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Fnfh8jNqBlg
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 10.50.45 PM.png]]
 	- There are thousands of applications of linear algebra

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=fNk_zzaMoSs
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-04 at 1.40.37 PM.png]]
 	- "The introduction of numbers as coordinates is an act of violence" - Hermann Weyl

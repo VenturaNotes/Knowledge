@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=wA-ZNgNVSD4
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-17 at 7.39.59 PM.png]]
 	- Let us start with the function x(t). The first derivative with respect to t

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=A0PnEYo3JX8
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-03 at 12.49.02 PM.png]]
 	- [[Cation]]: Is an ion with a net positive charge (electrons removed)

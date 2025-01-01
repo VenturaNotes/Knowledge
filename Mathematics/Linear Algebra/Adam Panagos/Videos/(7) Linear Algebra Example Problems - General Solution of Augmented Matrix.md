@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=jVw-OCy0Rqs
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 2.32.23 AM.png]]
 	- Consider the augmented matrix

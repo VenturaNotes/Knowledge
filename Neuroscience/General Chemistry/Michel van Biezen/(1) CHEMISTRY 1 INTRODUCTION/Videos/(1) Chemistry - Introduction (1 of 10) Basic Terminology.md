@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=5sWyWpO3mN4
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-21 at 11.29.34 PM.png]]
 	- [[Matter]]: Anything that occupies space and has mass (made up of atoms)

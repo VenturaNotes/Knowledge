@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GuwofNeT9ok
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-27 at 7.58.19 PM.png]]
 	- Learning how to factor polynomials

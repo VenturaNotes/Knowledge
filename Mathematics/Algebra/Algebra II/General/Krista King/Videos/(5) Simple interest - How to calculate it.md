@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=jsf2DsIKtcc
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-10 at 12.51.16 AM.png]]
 	- Currently have $500 earning 4%, how much interest will you earn in 2 years?

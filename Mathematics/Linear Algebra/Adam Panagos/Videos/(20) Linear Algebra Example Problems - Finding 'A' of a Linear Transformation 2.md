@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=J2bjzpyW6ro
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-18 at 8.04.51 PM.png|500]]
 	- Standard Matrix of a LT

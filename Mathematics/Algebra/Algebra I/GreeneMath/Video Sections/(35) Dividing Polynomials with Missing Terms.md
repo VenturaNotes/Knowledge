@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=51966s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-15 at 7.48.40 PM.png]]
 	- In some cases, we will get [[Polynomial|polynomials]] with missing

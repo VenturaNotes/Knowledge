@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=jFJ1kgzDuWY
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 11.44.54 PM.png]]
 	- [[Reciprocal rule]]

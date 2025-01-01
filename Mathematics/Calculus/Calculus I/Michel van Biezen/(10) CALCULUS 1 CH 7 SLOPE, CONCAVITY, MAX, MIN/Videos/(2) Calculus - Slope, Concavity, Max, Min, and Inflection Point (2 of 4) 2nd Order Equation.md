@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=wcioTxaPuf8
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-27 at 7.46.46 PM.png]]
 	- May not have inflection points on parabola

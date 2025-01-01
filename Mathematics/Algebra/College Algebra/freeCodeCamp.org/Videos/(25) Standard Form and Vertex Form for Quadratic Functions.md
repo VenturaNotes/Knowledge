@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=12782s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-21 at 8.14.31 PM.png|400]]
 	- Quadratic in standard form

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=66172s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-17 at 4.36.51 AM.png]]
 	- [[Rational expression]]

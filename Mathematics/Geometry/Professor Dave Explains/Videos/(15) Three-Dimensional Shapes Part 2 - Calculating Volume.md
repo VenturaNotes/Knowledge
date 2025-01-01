@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=CI-G9_bTKuw
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 10.10.38 PM.png]]
 	- 2D surface areas cover 3D objects

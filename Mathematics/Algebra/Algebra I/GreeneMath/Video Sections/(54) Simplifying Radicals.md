@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=80990s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-26 at 10.32.57 PM.png]]
 	- Let's begin by talking about the [[product rule]] for [[Radical|Radicals]]:

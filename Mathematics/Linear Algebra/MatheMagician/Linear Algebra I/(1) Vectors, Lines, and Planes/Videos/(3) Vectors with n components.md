@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=8CgV5RZiuD0
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-28 at 9.04.47 PM.png]]
 	- Vectors in $\mathbb{R}^n$ 

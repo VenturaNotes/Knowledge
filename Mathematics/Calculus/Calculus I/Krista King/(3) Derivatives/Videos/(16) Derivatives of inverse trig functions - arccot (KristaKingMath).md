@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=tCSKj1zjlGQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-31 at 1.01.05 AM.png]]
 	- Calculate derivative of [[inverse trig functions]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=14918s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-24 at 10.39.18 PM.png]]
 	- Example. An antique car is worth $50,000 now and its value increases by 7% each year. Write an equation to model its value x years from now

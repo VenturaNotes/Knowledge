@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=I8Iul0Om-t4
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 8.01.26 PM.png]]
 	-  How to calculate the combinations of two functions

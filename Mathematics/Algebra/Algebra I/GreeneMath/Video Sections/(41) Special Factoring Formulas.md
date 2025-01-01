@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=60823s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-17 at 1.31.42 AM.png]]
 	- Factoring the [[difference of two squares]]

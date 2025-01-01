@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=dggHWvFJ8Xs
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-31 at 5.25.04 PM.png]]
 	- [[Matter]] is anything that has mass and occupies space.

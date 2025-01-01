@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=RNKsV5RrLPA
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-16 at 11.57.23 PM.png]]
 	- [[Matrix Transformation|Matrix Transformations]] $\iff$ [[Linear Transformation|linear transformations]]

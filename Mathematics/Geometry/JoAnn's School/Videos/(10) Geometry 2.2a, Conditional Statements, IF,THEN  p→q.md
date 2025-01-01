@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=7LxZ2yX3hPM
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 1.55.52 AM.png]]
 	- "If you don't bathe, then you'll stink."

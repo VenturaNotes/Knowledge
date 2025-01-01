@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=f_iMJqCL7iY
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-22 at 1.44.17 AM.png]]
 	- Alkali Metals, Alkaline Earth Metals, Metals, Metalloids, Halogens, Noble Gases, Non-metals

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=35312s
+Reviewed: false
 ---
 - We previously learned how to set up and solve a word problem that involves a linear equation in one variable. Here we will apply a similar process to solve problems that involve a [[linear system]] in two variables.
 - Solving a Word Problem that involves a Linear System in two Variables

@@ -5,6 +5,7 @@ Length: 10 hours, 29 minutes, 1 second
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) What's the big idea of Linear Algebra. --Course Intro--]]

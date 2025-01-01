@@ -7,10 +7,10 @@ tags:
   - type/playlist
 ---
 - Complete
-- Incomplete
 	- [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]
 	- [[(2) Counting Principle With Playing Cards - Picking 1 and 2 Cards (Not Disjoint)]]
 	- [[(3) Counting - Neck Wear and  Outfits (Additive and Multiplicative Principles)]]
+- Incomplete
 	- [[(4) Counting - Number of Hexadecimal Numbers with Restrictions (And and Or)]]
 	- [[(5) Counting - Number of Hexadecimal Strings with Restrictions (And and Or)]]
 	- [[(6) The Cardinality of the Union of Two Sets]]

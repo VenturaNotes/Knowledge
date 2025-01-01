@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=HVkhCs3Qr8Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-19 at 2.34.53 AM.png]]
 	- Product rule of radicals (separating the radicals in question 2)

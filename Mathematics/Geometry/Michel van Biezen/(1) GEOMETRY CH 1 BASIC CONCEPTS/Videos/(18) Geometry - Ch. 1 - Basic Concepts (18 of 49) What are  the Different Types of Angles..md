@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=GPZD4ImPdVo
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 1.31.13 PM.png]]
 	- Angles are classified according. to their measure

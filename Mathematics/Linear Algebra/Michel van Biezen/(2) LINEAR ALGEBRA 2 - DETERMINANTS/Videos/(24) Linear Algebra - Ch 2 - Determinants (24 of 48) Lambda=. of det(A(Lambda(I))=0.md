@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=8uFfoMWgfRc
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-31 at 4.58.44 PM.png]]
 	- Find $\lambda$ such that det(A - $\lambda$$I_2$) = 0

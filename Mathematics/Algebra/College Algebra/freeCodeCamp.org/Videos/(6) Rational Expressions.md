@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=3337s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-19 at 11.25.15 PM.png|300]]
 	- A rational expression is a fraction usually with variables in it

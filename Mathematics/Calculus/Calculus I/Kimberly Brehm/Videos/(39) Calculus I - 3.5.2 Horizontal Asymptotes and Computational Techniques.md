@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=km6-zDe0zJY
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-28 at 2.32.57 PM.png]]
 	- Limits at Infinity and Horizontal Asymptotes

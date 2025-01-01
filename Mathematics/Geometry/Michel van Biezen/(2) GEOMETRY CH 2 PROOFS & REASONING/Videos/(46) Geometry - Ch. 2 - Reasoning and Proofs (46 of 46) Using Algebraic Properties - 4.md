@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=cTzU2XmjIME
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-27 at 4.45.19 PM.png]]
 	- Obtained from graph (given)

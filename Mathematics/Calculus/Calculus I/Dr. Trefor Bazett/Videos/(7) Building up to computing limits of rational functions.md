@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=XDcy_wqWQVs
+Reviewed: false
 ---
 - ![[Screenshot 2022-12-30 at 2.55.06 AM.png]]
 	- The limit of a constant will always equal a constant

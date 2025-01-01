@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=2DzmE3_QS-E
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-30 at 3.11.32 PM.png]]
 	- We know how to solve equations

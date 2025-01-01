@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=pQT2fZRMcf4
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-27 at 8.21.12 PM.png]]
 	- Split into 3 regions that each needs to be evaluated

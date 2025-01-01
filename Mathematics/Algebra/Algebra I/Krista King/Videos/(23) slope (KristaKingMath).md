@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=v-WjM9xUz9M
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-08 at 12.46.45 PM.png]]
 	- Find the slope of the line

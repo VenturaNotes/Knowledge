@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=31902s
+Reviewed: false
 ---
 - In the last lesson, we talked about how we could solve a linear system in two variables using graphing.
 - Graphing is extremely inefficient. It's hard to find a solution for:

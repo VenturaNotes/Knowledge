@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=l_Nk4TbLoMk
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-19 at 7.12.33 PM.png]]
 	- Matrix Determinant Properties #2

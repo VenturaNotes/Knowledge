@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QAui1XjG05Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 1.34.27 PM.png]]
 	- When the angle measures are equal

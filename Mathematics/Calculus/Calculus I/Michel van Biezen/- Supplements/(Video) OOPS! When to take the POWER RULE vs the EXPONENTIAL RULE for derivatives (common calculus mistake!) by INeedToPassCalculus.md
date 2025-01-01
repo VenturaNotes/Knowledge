@@ -5,6 +5,7 @@ Length: 3 minutes, 31 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-04 at 6.26.36 PM.png]]
 	- [[Power Rule]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=BwHspSCXFNM
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-23 at 1.57.14 PM.png]]
 	- Learned [[Multiplication table]] when studying arithmetic

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=EjsQWKq-dGQ
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-24 at 9.13.33 PM.png]]
 	- We know how to [[graph]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=CA1DfSpUdF4
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-06 at 4.18.10 PM.png]]
 	- If-Then statement

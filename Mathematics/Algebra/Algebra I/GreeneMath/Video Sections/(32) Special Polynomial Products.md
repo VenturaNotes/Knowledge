@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=46521s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-15 at 1.01.09 AM.png]]
 	- A binomial is a polynomial with 2 terms

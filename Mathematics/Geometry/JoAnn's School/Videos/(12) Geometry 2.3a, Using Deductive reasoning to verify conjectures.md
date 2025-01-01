@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=MuaonZCBPIg
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-25 at 2.43.43 AM.png]]
 	- We've learned that one counterexample is enough to disprove a conjecture

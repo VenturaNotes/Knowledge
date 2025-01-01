@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=16173s
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-24 at 11.06.21 PM.png]]
 	- Definition $log_ab = c$ means $a^c = b$ 

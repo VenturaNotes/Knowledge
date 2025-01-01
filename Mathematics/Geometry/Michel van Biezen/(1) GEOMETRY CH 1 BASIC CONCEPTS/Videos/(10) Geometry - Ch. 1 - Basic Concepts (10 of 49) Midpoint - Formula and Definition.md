@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=UQnG41N9qxI
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-10 at 1.17.01 PM.png]]
 	- The midpoint of a line segment is the point that divides the segment into two congruent line segments (equal halves)

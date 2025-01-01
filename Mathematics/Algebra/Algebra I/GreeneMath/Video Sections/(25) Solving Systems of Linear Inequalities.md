@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GAN-jgzYsIo&t=36758s
+Reviewed: false
 ---
 - So far we have seen how to graph a [[linear inequality]] in two variables such as:
 	- 4x - y > 2

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=FUWSMlI1QXI
+Reviewed: false
 ---
 - Find a formula for the general term $a_n$ 
 	- ![[Screenshot 2022-12-09 at 5.17.32 PM.png]]

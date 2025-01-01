@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0JlO_zHCajM
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-27 at 12.09.37 PM.png]]
 	- Recall that a derivative is a function that gives us the slope of the line at any point along the function.

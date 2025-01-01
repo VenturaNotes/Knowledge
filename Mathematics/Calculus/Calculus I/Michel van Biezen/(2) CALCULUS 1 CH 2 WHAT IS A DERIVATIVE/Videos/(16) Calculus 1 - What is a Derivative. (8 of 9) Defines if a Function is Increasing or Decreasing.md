@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=soS-lwEqcQY
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-04 at 3.14.30 PM.png]]
 	- $y = 2x^2 - 4x + 5$

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=cWgRiFxxvvA
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-08 at 8.48.16 AM.png]]
 	- A proof is an argument that uses logic, definition, properties and previously proven statements to show that a conclusion is TRUE.

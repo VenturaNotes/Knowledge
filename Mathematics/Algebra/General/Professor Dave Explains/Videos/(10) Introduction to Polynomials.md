@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=nPPNgin7W7Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-15 at 5.10.50 AM.png]]
 	- Understanding polynomials
