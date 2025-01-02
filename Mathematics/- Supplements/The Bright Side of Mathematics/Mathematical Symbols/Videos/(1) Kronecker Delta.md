@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=GMHnj1MS-IE
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 9.39.57 PM.png]]
 	- [[Kronecker delta]]

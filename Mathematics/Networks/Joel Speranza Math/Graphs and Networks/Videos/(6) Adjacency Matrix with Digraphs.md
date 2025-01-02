@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QWpp19MSw0g
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 1.08.21 PM.png]]
 - Need to consider this won't be symmetrical

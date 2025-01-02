@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=40i4PKpM0cI
+Reviewed: false
 ---
 - L1 = Set of all strings that start with '0'
 	- L1 is a [[(2) Finite State Machine (Prerequisites)#^e0c9c0|language]]

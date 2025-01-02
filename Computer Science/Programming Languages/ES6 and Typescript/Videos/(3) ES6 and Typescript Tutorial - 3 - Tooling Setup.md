@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=j8zDXBSfAAk
+Reviewed: false
 ---
 - Need editor to write our code
 - Need typescript compiler to transpile our code

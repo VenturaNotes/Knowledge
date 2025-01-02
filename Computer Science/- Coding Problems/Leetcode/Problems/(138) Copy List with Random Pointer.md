@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/copy-list-with-random-pointer/
+Reviewed: false
 ---
 ## Synthesis
 - 

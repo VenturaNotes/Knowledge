@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=4lwKIQ3b0lc
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 3.45.11 AM.png]]
 	- [[De Moivre's Theorem]]

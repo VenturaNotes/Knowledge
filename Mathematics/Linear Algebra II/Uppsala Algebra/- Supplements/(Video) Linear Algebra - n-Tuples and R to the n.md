@@ -5,6 +5,7 @@ Length: 16 minutes, 31 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - $\mathbb{R}^2$ is 2 dimensions
 - $\mathbb{R}^3$ is 3 dimensions

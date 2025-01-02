@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=N2YHianzseI
+Reviewed: false
 ---
 - Solving Logic puzzles
 	- Application of propositional logic

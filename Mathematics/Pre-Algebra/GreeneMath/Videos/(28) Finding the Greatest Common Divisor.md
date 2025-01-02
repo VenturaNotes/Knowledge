@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=29569s
+Reviewed: false
 ---
 - Finding the GCD
 - Lesson Objective

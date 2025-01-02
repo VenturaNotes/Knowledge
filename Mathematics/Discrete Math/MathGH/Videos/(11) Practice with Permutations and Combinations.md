@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dVJREOBYWq8
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-04 at 5.41.14 PM.png]]
 	- Practice with [[Permutation|Permutations]] and [[Combination|Combinations]]

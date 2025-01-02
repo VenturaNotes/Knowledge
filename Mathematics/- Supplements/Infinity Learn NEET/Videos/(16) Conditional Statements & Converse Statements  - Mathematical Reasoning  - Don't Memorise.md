@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=C64fHC1hCxA
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 6.44.40 PM.png]]
 	- Learned about compound statements in previous video and how to check their validity

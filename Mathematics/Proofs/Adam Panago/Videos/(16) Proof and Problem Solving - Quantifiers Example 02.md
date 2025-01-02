@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=1yS8a-qMMVQ
+Reviewed: false
 ---
 - Write a logical expression for the following statements:
 	- ![[Screenshot 2022-12-08 at 11.08.45 PM.png]]

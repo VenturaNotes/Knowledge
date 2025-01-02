@@ -5,6 +5,7 @@ Length: 35 hours, 24 minutes, 18 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) What Is A Tensor Lesson 1 - Elementary vector spaces]]

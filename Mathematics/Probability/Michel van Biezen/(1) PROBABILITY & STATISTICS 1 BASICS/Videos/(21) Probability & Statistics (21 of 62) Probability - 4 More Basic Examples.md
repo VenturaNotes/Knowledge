@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=7TxSi1FwSSo
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 2.54.34 AM.png]]
 	- (a) P(Pulling 3 spades from a deck of cards)

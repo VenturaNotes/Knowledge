@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QOots4mMRcU
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 11.18.01 AM.png]]
 	- Let A, B, and C be sets

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=V5EfA0JSVpQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-12-08 at 1.42.36 AM.png]]
 	- Recall: Often we have a declarative sentence P(x)

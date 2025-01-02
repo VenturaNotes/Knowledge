@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=r54T7vPgFEw
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 9.09.49 PM.png]]
 	- [[Right Angle Triangle]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ebP7x2zviBI
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-11 at 6.56.17 PM.png]]
 	- Let X = # of times a coin is tossed before head appears

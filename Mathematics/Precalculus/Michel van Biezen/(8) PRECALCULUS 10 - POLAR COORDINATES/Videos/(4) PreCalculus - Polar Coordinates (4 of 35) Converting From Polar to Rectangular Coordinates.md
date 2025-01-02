@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=5rphR2lP9TU
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 2.10.52 AM.png]]
 	- [[Rectangular equation]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=d2oSMYlbQSo
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.34.25 PM.png]]
 	- [[Expected value]] of a [[random variable]]

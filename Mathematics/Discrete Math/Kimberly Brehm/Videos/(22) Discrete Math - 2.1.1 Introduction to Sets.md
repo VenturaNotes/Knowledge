@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=dZbbkoYcSOE
+Reviewed: false
 ---
 - Set Vocabulary and Notation
 	- Set

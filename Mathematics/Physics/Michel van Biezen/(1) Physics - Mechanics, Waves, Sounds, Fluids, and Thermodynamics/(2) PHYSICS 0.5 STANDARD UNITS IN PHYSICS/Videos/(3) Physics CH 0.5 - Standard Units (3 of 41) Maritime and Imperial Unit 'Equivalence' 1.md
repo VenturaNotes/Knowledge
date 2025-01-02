@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=flWOvyq6dMU
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 1.13.28 AM.png]]
 	- Let's define the unit of force

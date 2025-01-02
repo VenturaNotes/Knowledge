@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=vNk4wWkaZfs
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 11.23.45 PM.png]]
 	- [[Common logarithm]]

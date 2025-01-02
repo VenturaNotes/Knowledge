@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=yf22lfJ1JCU
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 3.25.32 AM.png]]
 	- r is the [[modulus]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=N_fZwQjsZvs
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-28 at 8.19.16 PM.png]]
 	- Two sets are equal when they have precisely the same elements (implying same number of elements as well)

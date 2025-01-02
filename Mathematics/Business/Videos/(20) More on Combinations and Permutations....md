@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=9sov24_3-FE
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 11.39.31 PM.png]]
 	- Of the 12 people applying for an entry-level position, 9 are qualified and 3 are not. The personnel manager will hire 4 of the applicants

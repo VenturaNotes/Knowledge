@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=q2eyZZK-OIk
+Reviewed: false
 ---
 - A statement is a sentence that is either True or False
 	- Examples

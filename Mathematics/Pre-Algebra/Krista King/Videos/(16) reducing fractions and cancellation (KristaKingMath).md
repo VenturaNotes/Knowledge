@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=6xT0S63K_C4
+Reviewed: false
 ---
 - Reduce the fraction to its lowest terms
 	- Can use prime factorization

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=FXTlAPOBA_U
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-05 at 12.42.03 AM.png]]
 	- Power functions

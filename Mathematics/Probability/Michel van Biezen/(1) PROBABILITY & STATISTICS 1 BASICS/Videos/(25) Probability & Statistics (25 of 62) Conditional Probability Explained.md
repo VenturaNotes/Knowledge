@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=IN1T8eMAjPg
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-09 at 11.56.00 PM.png]]
 	- $P(A_2 | A_1)$ = The [[conditional probability]] of $A_2$ given $A_1$

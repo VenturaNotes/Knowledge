@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=aQefXelCN5Y
+Reviewed: false
 ---
 - Inverse functions
 	- let f be a bijection (both one-to-one and onto) from set A to B. The inverse of f, $f^{-1}$, is the function from B to A defined as $f^{-1}(y)=x$ iff $f(x) = y$ 

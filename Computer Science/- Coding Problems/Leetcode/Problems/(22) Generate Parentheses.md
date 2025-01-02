@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/generate-parentheses/
+Reviewed: false
 ---
 ## Synthesis
 - 

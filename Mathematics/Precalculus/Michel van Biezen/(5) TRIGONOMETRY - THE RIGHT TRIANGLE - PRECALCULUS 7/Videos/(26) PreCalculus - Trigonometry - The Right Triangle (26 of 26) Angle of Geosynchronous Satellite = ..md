@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=cvTzhkqD3ag
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 10.04.00 PM.png]]
 	- [[Geosynchronous orbit]]

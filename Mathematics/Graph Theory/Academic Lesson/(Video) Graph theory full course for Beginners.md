@@ -5,6 +5,7 @@ Length: 1 hour, 17 minutes, 17 seconds
 tags:
   - status/incomplete
   - type/video
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-21 at 11.18.50 AM.png]]
 	- [[Vertex]] - dots where edges meet

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=oJhAPsy9hBU
+Reviewed: false
 ---
 - ![[Pasted image 20230726160145.png|500]]
 	- [[Analog computer]]

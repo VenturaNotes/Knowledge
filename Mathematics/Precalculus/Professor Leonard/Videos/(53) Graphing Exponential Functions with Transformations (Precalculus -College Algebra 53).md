@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=uycM-AzUDQ4
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-13 at 1.16.42 AM.png]]
 	- Euler's number or the natural number is "e"

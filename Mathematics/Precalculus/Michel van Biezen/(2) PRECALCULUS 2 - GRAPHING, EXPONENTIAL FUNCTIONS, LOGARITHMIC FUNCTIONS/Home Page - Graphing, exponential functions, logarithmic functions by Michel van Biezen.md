@@ -5,6 +5,7 @@ Length: 2 hours, 53 minutes, 45 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) PreCalculus - Exponential Function (1 of 13) What is an Exponential Function]]
 [[(2) PreCalculus - Exponential Function (2 of 13) Characteristics of Exponential Function 1]]

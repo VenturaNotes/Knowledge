@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=b0F6oV9a980
+Reviewed: false
 ---
 - ![[Pasted image 20230605213323.png]]
 	- If two sets have no common elements, they are [[disjoint]]

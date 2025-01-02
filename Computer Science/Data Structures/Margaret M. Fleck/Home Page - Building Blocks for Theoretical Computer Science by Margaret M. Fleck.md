@@ -7,6 +7,7 @@ tags:
   - status/incomplete
   - type/textbook
 Progress: "27"
+Reviewed: false
 ---
 ## Preface
 - “It teaches you how to read and write mathematical proofs.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=12&annotation=8FZW8YYK))

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=rKnKwGhRObE
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 4.10.51 AM.png|500]]
 	- H is a [[subgraph]] of G iff everything in H is also in G

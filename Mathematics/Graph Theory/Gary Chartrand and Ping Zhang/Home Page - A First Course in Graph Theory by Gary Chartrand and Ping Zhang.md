@@ -6,6 +6,7 @@ Progress: "1"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## (1) Introduction
 ### (1.1) Graphs and Graph Models

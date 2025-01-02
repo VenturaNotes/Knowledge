@@ -5,6 +5,7 @@ Length: 1 day, 4 hours, 41 minutes, 59 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) Java tutorial for beginners]]

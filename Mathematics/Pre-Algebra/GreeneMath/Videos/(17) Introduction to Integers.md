@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=15428s
+Reviewed: false
 ---
 - Lesson Objectives
 	- Discover a new set of numbers known as the [[integers]]

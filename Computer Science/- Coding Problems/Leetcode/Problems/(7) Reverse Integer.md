@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/reverse-integer
+Reviewed: false
 ---
 ## Synthesis
 - 

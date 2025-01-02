@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JEfk_KGBwzg
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 1.30.42 AM.png]]
 	- (a) Rolling a die twice $\to$ P(At least one 3) = ?

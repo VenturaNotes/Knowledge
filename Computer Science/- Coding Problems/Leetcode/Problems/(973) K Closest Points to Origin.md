@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/k-closest-points-to-origin/
+Reviewed: false
 ---
 ## Synthesis
 - 

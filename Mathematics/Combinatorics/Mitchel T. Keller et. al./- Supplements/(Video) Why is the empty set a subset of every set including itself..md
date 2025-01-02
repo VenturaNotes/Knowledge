@@ -5,6 +5,7 @@ Length: 6 minutes, 11 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-05 at 11.56.14 PM.png]]
 - A = {1, 2} and B = {1, 2, 3}

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=rDcLCA2W-UI
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-13 at 10.46.12 PM.png]]
 	- Shows 4 different methods to solve

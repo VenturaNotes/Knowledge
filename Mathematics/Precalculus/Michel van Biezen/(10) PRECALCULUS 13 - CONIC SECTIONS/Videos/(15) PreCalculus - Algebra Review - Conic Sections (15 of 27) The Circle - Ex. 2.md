@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=AhiCk56vU-0
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 5.56.15 AM.png]]
 	- How to tell the difference between a [[circle]] and an [[ellipse]]

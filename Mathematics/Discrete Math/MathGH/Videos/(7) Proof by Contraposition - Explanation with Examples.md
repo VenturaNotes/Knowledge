@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=nQHl7wqkx7s
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-03 at 3.29.55 PM.png]]
 	- [[Proof by contraposition]]

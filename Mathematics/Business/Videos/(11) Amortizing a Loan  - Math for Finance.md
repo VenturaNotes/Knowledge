@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=cvnGA5kTcWA
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 9.38.53 PM.png]]
 	- [[Amortize a loan]]

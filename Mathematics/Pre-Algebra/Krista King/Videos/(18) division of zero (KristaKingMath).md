@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=1TZt4nO_HFM
+Reviewed: false
 ---
 - Division by 0 is undefined in math
 - Say whether the value is undefined

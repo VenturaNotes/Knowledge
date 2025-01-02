@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=7N_-G4usp6Q
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-27 at 5.54.03 PM.png]]
 	- Focusing on what happens on domain

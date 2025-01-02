@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=COJnmk4p_eo
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 12.24.21 PM.png]]
 	- When A $\subseteq$ B and B $\subseteq$ A

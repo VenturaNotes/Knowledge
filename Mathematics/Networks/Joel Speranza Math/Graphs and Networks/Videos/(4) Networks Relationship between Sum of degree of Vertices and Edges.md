@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=wQiS94R3cKQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 12.46.29 PM.png]]
 - Every edge always has 2 vertices attached to it

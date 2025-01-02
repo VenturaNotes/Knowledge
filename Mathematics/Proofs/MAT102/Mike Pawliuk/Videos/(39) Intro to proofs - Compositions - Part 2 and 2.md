@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=j1BYA2G1qkc
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-23 at 2.27.00 AM.png]]
 	- Slide 8 - Functions and Compositions

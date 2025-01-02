@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rUbmW4qAh8w
+Reviewed: false
 ---
 - [[Thread]]: an execution path of a program
 	- We can use multiple threads to perform, different tasks of our program at the same time. Current thread running is "main" thread using System.Threading;

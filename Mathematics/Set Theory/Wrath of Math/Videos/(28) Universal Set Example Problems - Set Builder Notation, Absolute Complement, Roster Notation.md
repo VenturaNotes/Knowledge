@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=qRLQmOzR-oc
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-24 at 3.32.14 PM.png]]
 	- Let the universal set U be the set of odd positive integers. Let $S = \{x \in U | \text{ }3|x, x^2 > 15\}$. Write S in [[Roster Method|roster form]]

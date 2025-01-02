@@ -5,6 +5,7 @@ Length: 29 minutes, 23 seconds
 tags:
   - status/incomplete
   - type/video
+Reviewed: false
 ---
 - Image
 	- A [[set]] is a collection of objects (elements). 

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=TcfVpnRRAvk
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 1.06.43 PM.png]]
 	- Prove or disprove: For a, b $\in$ $\mathbb{Z}$, $a^2$ > $b^2$ implies a > b.

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=vTC9vffJ420
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 7.08.38 PM.png]]
 	- Practice doing the [[absolute complement]] of sets and [[relative complement]] of sets

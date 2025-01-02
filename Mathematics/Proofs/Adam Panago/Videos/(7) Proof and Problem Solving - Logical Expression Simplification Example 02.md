@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=fXfv1Ru5tzE
+Reviewed: false
 ---
 - Consider the Logical statements P and Q.
 - Use logical laws to simplify the expression

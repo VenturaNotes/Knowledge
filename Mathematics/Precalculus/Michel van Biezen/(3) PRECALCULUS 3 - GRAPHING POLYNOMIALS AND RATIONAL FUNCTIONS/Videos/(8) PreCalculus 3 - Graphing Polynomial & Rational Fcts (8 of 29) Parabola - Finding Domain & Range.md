@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=vdtSCHzM_zs
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 1.25.26 PM.png]]
 	- [[Domain (Math)|domain]] is all values that x can be

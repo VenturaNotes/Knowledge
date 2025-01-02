@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=DfFBEnwmx80
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-28 at 8.08.17 PM.png]]
 	- Write the first 3 natural numbers

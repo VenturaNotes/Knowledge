@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=6ZdQ2JOlq0A
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 1.12.54 AM.png]]
 	- (6) Consecutive [[dependent events]] (Not replacing card)

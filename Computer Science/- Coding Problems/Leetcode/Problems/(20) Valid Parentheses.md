@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/valid-parentheses
+Reviewed: false
 ---
 ## Synthesis
 - 

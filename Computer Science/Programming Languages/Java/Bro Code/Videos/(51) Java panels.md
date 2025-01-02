@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=dvzAuq-YDpM
+Reviewed: false
 ---
 Notes:
 - label.setIcon(...); is supposed to automatically do revalidate() and repaint() for you, but I needed to manually add it for JPanel greenPanel. Then it worked [^1]

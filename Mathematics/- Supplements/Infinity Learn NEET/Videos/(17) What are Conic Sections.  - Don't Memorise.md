@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=XLdIYhVwV0w
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 6.55.41 PM.png]]
 	- All fall under the category of [[conic]]

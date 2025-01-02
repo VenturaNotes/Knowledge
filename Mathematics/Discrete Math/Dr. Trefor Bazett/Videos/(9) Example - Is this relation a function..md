@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=b_sxTCjruJE
+Reviewed: false
 ---
 - Example: Consider the relation C where (x, y) $\in$ C if $x^2 + y^2 = 1$. Is this a function?
 	- This is the equation of a circle

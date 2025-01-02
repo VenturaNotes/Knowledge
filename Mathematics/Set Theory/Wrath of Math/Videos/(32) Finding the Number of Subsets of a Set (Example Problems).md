@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=mXlsbnP0_TU
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-31 at 7.59.35 PM.png]]
 	- $2^n$

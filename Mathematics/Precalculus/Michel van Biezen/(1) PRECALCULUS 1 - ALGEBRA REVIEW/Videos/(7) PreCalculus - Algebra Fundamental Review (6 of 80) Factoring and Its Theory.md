@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=byiJ4sW2ZPY
+Reviewed: false
 ---
 - Difference of squares
 	- $A^2 - B^2 = (A + B) (A - B)$ 

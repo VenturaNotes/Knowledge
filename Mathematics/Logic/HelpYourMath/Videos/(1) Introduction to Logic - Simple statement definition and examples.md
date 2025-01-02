@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=R8LvNp2vBwY
+Reviewed: false
 ---
 - Statement: a definition
 	- A statement is a sentence that is either true or false but not both simultaneously

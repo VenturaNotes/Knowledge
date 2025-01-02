@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Ib5njCwNMdk
+Reviewed: false
 ---
 - Propositional Logic
 	- Area of logic that studies ways of joining and/or modifying propositions to form more complicated propositions and it also studies the logical relationships and properties derived from these combined/altered propositions.

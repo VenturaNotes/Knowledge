@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QqR98Ajks2Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 1.56.06 AM.png]]
 	- Order is the number of vertices in the graph

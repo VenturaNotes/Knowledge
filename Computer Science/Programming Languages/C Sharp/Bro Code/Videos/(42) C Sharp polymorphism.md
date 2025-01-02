@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=nYCMW3kfTvs
+Reviewed: false
 ---
 - [[Polymorphism]]: Greek word that means to "have many forms". Objects can be identified by more than one type. Ex. A Dog is also: Canine, Animal, Organism
 - Need to use override method when overriding a modifier

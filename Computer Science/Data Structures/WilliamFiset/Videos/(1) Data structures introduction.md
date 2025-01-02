@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Qmt0QwzEmh0
+Reviewed: false
 ---
 - ![[Pasted image 20241004132214.png|500]]
 	- Easy to advanced data structures series

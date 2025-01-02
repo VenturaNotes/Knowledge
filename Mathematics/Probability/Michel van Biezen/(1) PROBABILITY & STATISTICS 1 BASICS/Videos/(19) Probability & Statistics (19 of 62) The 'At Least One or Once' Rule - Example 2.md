@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=r9SJxqcWOw8
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 1.27.06 AM.png]]
 	- Using 2 dice, what is the probability of getting double six in 24 tries?

@@ -5,6 +5,7 @@ Length: "1"
 tags:
   - status/complete
   - type/website
+Reviewed: false
 ---
 - Which of the following sets is shown with roster notation?
 	- ![[Screenshot 2023-01-02 at 2.41.19 PM.png]]

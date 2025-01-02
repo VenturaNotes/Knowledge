@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=jAthNOivjVM
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 9.04.28 AM.png]]
 	- How long does it take for a charge to replenish itself when we plug in a battery

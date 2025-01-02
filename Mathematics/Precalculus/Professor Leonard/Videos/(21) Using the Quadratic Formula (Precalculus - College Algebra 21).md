@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=KIWXZVsdpbE
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-04 at 5.17.05 AM.png]]
 	- Quadratic formula works all the time

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=289l69yfGIY
+Reviewed: false
 ---
 ---
 - [[Cartesian products]]

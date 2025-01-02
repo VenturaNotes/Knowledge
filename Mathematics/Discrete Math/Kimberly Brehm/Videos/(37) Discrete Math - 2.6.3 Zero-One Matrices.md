@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=EkW2QsKyddM
+Reviewed: false
 ---
 - Zero-One Matrices
 	- A matrix where all entries are either 0 or 1. Zero-One matrices are based on Boolean operations

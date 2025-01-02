@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Fo8YdimvS24
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 5.30.08 PM.png]]
 	- Seating at a round table - A simple example

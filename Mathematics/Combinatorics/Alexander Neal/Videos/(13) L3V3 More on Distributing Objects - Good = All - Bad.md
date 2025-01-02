@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=RMF55lUCFZ8
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-26 at 10.58.23 PM.png]]
 	- Good = All - Bad

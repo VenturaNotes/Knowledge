@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tmPJdARPMS4
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 5.58.31 PM.png]]
 	- [[Modulus Function]]

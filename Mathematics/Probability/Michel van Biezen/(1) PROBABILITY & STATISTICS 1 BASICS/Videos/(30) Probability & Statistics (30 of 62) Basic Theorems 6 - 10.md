@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=0h1lnzQR_5o
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 12.41.34 AM.png]]
 	- (6) $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$

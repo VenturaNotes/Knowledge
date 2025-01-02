@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rbIj56n7XLk
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-07 at 4.22.06 PM.png]]
 	- Introduction to [[propositional logic]]

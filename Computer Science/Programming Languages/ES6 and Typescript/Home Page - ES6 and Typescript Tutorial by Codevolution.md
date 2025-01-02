@@ -5,6 +5,7 @@ Length: 3 hours, 27 minutes, 17 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) ES6 and Typescript Tutorial - 1 - Introduction]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=muiC-Gk9zFc
+Reviewed: false
 ---
 - ![[Pasted image 20230604200012.png]]
 	- Could separate S into even and odd elements

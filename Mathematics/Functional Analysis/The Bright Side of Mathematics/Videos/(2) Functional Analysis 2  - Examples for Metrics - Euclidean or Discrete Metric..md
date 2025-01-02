@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=5hhhLaDb09E
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-07 at 11.14.11 PM.png]]
 	- Going deeper into topic of [[metric space|metric spaces]]

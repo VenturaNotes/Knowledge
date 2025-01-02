@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=EyghyKO4BlA
+Reviewed: false
 ---
 - [[While loop]]: repeats some code while some condition remains true
 

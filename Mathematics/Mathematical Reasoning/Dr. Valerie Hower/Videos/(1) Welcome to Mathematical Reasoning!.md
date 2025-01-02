@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=apSkEsKPjWI
+Reviewed: false
 ---
 - ![[Screenshot 2023-12-07 at 9.37.05 AM.png]]
 	- Will study foundations

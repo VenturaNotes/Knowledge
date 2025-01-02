@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=7811s
+Reviewed: false
 ---
 - Lesson Objective:
 	- Learn how to multiply multi-digit numbers together

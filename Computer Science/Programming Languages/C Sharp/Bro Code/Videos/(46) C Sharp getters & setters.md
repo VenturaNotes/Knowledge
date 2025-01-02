@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=8FmE_-QXg3Y
+Reviewed: false
 ---
 - [[getters & setters]]: add security to fields by [[encapsulation]]
 	- They're accessors found within properties

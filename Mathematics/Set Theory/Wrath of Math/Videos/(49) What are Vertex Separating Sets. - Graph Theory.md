@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=h1_a60V51y0
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-01 at 9.51.26 PM.png]]
 	- Let S be a [[vertex cut]] of G and let u and v be vertices from distinct components of G-S. Then S is a u-v [[separating set]]

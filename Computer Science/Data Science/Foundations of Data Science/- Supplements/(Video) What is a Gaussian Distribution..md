@@ -5,6 +5,7 @@ Length: 5 minutes, 44 seconds
 tags:
   - status/incomplete
   - type/video
+Reviewed: false
 ---
 - It's the common bell-shaped curve
 	- ![[Screenshot 2022-11-28 at 10.02.55 PM.png]]

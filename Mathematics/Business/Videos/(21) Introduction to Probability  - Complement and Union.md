@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=zerd_nLP5Q8
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 11.44.27 PM.png]]
 	- Introduction to [[probability]]

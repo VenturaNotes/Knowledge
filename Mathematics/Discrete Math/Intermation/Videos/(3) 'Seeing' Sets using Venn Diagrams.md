@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=tToA1cQEDqQ
+Reviewed: false
 ---
 - Image
 	- [[Venn Diagram]]: Graphical representation of sets

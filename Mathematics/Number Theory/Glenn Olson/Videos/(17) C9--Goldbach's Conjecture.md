@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=_tCZwRuB0Bc
+Reviewed: false
 ---
 - A [[conjecture]] is something that people think is true but can't be proven like a theorem ^a47467
 - ![[Screenshot 2022-12-29 at 3.24.29 PM.png]]

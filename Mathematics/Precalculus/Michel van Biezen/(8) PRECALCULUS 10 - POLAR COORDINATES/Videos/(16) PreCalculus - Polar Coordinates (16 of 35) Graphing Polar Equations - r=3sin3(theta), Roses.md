@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=y2COhd--uUU
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 2.53.48 AM.png]]
 	- with cosine, the first leaf always starts on the horizontal positive x-direction axis

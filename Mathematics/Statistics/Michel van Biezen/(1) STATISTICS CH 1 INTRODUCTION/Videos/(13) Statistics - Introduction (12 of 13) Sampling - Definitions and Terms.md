@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=obTAsT9U5CA
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-12 at 4.18.25 AM.png]]
 	- [[Census]]: Data gathered from every member of the population

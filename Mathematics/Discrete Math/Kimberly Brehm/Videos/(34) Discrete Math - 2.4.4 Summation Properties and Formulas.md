@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Zi2sLtCO44A
+Reviewed: false
 ---
 - Basic Properties
 	- ![[Screenshot 2022-12-18 at 12.33.12 AM.png]]

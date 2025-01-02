@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WelPq6Kgf7s
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-07 at 9.10.53 PM.png]]
 	- [[Sample Space]] ($\Omega$) $\equiv$ A set whose elements describe the outcomes of the experiment of interest

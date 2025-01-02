@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=-oW1qwz5GgA
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-13 at 1.30.22 AM.png]]
 	- Conditional & [[Independent Events]]

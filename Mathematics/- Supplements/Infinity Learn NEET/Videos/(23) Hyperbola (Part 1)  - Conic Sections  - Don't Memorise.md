@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WEyYaIWIUp0
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-26 at 10.05.49 AM.png]]
 	- Conic Sections

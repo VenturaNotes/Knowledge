@@ -6,6 +6,7 @@ Progress: "136"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## About the Author
 - Rod Stephens started out as a mathematician and studied at MIT

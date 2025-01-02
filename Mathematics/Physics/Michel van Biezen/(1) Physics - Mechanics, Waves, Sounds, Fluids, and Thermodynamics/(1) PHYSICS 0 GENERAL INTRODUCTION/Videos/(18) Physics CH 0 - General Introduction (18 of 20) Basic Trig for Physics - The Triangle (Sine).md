@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=dQcjs2c5nLI
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-24 at 6.50.00 PM.png]]
 	- $\overset \rightarrow v$: The arrow above indicates that it's a vector.

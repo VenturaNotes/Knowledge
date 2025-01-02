@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QFaFIcGhPoM
+Reviewed: false
 ---
 - React Version being learned is 16.5.2
 - Will start from scratch and learn different concepts in react

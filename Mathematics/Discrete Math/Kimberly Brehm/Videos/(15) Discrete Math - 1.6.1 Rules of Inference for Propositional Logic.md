@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=oasIqX74Mhc
+Reviewed: false
 ---
 - Premises are always true?
 	- A valid argument cannot have all true premisses and a false conclusion. So if a valid argument does have a false conclusion, it cannot have all true premises [^1]

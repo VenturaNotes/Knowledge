@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=f26vt5uQ_uI
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-07 at 6.38.23 PM.png]]
 	- [[Probability]] $\equiv$ The prediction of a certain outcome when something occurs

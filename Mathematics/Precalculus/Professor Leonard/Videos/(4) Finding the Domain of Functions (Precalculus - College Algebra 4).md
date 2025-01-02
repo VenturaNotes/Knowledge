@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=LvUCDcp6Z3k
+Reviewed: false
 ---
 - ![[Screenshot 2023-02-27 at 5.38.21 PM.png]]
 	- Finding Domain

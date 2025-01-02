@@ -5,6 +5,7 @@ Length: 4 minutes, 32 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - [Download link for anaconda](https://www.anaconda.com/)
 - Do "install for me only"

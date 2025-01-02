@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=mBNrRy2_hVs
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-24 at 11.09.29 PM.png]]
 	- Patterns

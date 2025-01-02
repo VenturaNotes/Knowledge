@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=MbK6pOvXRxY
+Reviewed: false
 ---
 - Divisibility Rules (Say whether or not the number is divisible)
 	- 2

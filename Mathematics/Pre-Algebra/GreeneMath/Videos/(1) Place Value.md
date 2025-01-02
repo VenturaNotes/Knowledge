@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=0s
+Reviewed: false
 ---
 - <mark style="background: #FFF3A3A6;">Lesson Objectives</mark>:
 	- Learn basic definitions of terms relating to place value

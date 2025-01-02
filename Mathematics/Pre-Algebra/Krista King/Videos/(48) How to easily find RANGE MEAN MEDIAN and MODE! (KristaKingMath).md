@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=WXnqQpvrcT4
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-07 at 10.36.15 PM.png]]
 	- Find the range, mean, median and mode of the set 2, 3, 6, 9, 10, 2, 2

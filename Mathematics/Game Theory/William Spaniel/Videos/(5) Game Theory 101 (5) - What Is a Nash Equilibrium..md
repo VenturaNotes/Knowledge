@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=5TcYV6CZ7mI
+Reviewed: false
 ---
 ## Formal Definition
 - A Nash equilibrium is a set of strategies, one for each player, such that no player has incentive to change his or her strategy given what the other players are doing.

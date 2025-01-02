@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=H9Bh82WQsDA
+Reviewed: false
 ---
 - ![[Screenshot 2023-11-13 at 10.04.37 PM.png]]
 	- Slide 1 - Introduction to Proofs - Sets - Constructions

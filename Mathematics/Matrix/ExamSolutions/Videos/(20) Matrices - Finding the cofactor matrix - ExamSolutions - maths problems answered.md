@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QyH9fMA2qbU
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-15 at 7.46.43 PM.png]]
 	- [[Cofactor]] of A

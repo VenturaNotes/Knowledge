@@ -5,6 +5,7 @@ Length: 4 hours, 29 minutes, 38 seconds
 tags:
   - status/incomplete
   - type/video
+Reviewed: false
 ---
 ### Introduction
 - [[SQL]] is a language which is used to interact with relational database management systems.

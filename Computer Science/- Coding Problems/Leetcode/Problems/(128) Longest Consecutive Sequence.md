@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/longest-consecutive-sequence/
+Reviewed: false
 ---
 ## Synthesis
 - 

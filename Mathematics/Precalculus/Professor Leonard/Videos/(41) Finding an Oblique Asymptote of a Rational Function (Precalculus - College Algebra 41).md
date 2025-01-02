@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=NVhaVk4wNu8
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-07 at 4.35.35 AM.png]]
 	- Oblique asymptotes of rational functions occur when

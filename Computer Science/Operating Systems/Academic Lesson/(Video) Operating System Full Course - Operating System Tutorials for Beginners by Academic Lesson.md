@@ -5,6 +5,7 @@ Length: 3 hours, 35 minutes, 2 seconds
 tags:
   - status/incomplete
   - type/video
+Reviewed: false
 ---
 ## Introduction to Operating Systems
 - ![[Screenshot 2023-09-22 at 3.34.13 AM.png]]

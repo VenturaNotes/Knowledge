@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=cY14G3wJmwg
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-28 at 9.17.10 PM.png]]
 	- Find standard deviation of a random variable but in this case, it will be a sample. It's going to be a number of values picked from a very large population.

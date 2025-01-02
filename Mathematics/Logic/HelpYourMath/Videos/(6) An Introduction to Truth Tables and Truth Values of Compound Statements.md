@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=EXcvpu2TBQg
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-12 at 12.48.16 AM.png|500]]
 	- A [[truth table]] is a table in which we consider all the possible combinations of truth values for two or more statements

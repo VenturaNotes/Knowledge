@@ -6,6 +6,7 @@ Progress: "7"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## Personal Note
 - Propositional Logic never finished

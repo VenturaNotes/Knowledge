@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=GqvX4Fi0jbM
+Reviewed: false
 ---
 - Foundation of discrete math course is the idea of a set
 - A SET is a collection of objects

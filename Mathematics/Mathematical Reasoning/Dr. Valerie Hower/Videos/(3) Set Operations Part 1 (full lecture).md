@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=AInSuwdqljE
+Reviewed: false
 ---
 - ![[Screenshot 2023-12-07 at 10.53.09 AM.png]]
 	- [[Set-builder notation]]

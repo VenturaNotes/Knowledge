@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=k2l3BCd6Xjk
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.41.46 PM.png]]
 	- Probability distribution is symmetric here.

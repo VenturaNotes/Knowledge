@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=bngBtS7RBZ4
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-07 at 5.06.16 PM.png]]
 	- f(x) $\ge$ 0 f(x) $\lt$ 0

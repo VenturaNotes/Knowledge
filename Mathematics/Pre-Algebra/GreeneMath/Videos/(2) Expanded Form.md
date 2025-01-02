@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=1013s
+Reviewed: false
 ---
 - [[Expanded Notation]]
 - Lesson Objectives:

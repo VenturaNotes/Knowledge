@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=1neg5RigPOU
+Reviewed: false
 ---
 - Image
 	- Spectrum of probability

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=MfkJu7J1LE4
+Reviewed: false
 ---
 - Section 1.4 not covered much in class
 - Design experiments

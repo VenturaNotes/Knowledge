@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=iJF2kPFGTUo
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 12.32.20 PM.png]]
 	- Bell's Triangle

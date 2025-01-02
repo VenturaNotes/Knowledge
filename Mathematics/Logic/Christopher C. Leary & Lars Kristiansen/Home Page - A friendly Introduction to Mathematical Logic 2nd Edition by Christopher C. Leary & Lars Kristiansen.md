@@ -6,6 +6,7 @@ Progress: "10"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## Preface
 - “start right in on the predicate logic, without discussing propositional logic first.” ([Leary, 2015, p. 10](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=10&annotation=8VAYTQ4D))

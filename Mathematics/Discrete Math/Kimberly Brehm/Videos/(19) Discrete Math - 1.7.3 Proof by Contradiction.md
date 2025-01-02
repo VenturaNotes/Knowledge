@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=b-kFWP9a2tw
+Reviewed: false
 ---
 - Proof by contradiction
 	- In this method of proof, we assume a proposition is not true, then through that premise and logic find a contradiction that shows our original premise must have been incorrect, and therefore, the proposition was true.

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=-VDnz6QpuJY
+Reviewed: false
 ---
 - C6. a) What is largest prime factor of 247?
 	- ![[Screenshot 2022-12-28 at 12.45.50 PM.png]]

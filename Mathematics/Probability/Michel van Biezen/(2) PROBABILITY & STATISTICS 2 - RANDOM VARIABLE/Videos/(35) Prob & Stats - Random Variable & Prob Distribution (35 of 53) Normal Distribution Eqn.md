@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=DXtEr7_J8I0
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-28 at 10.06.29 PM.png]]
 	- The normal distribution equation. 

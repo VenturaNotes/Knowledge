@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=YB0PJ-bpZSc
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-20 at 10.23.50 PM.png]]
 	- $P = \frac FA = [\frac{N}{m^2}] = [\frac{kgm}{sec^2m^2}]=[\frac{kg}{sec^2m}]$

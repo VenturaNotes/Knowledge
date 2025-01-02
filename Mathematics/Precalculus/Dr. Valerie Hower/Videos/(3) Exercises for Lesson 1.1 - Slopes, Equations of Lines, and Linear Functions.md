@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3_pmy9Rreg4
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-05 at 7.16.51 AM.png]]
 	- For the following exercises, write an equation for the lines graphed

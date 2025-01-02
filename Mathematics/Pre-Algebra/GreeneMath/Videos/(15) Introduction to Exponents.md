@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=13613s
+Reviewed: false
 ---
 - Lesson Objectives:
 	- Learn the terminology associated with [[Exponent|Exponents]]

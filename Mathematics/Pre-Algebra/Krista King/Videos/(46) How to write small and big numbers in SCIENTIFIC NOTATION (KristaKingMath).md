@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=8T9f0GtoqOs
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-07 at 10.58.11 PM.png]]
 	- Write the number in scientific notation

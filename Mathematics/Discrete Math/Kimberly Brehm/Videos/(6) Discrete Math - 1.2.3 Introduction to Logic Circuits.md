@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=iyHXkQIbOUI
+Reviewed: false
 ---
 - Course doesn't cover a lot from this topic
 - Great way to present visually a propositional logic statement

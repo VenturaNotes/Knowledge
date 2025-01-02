@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=_yDqkrbd5mk
+Reviewed: false
 ---
 - Image
 	- Intro to [[geometric series]]

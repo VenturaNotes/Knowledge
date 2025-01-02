@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=bpyC-yggXHc
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-28 at 10.21.34 PM.png]]
 	- What is a [[binomial distribution]]? (different from normal distribution)

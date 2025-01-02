@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=G8r9oL-ke9s
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-08 at 2.53.41 PM.png]] ^c16f21
 	- [[Domain (Math)|domain]] ^5cba4b

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=qkLl7nAwDPo
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-31 at 1.09.11 AM.png]]
 	- This is a good design problem

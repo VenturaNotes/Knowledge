@@ -5,6 +5,7 @@ Length: 2 hours, 46 minutes, 59 seconds
 tags:
   - status/complete
   - type/playlist
+Reviewed: false
 ---
 [[(1) Introduction to Logic - Simple statement definition and examples]]
 [[(2) Compound Statements]]

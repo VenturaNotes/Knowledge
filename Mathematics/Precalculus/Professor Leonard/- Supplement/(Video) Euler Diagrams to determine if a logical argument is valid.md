@@ -5,6 +5,7 @@ Length: 4 minutes, 31 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - Asked in a logic class to determine if an argument is valid or not
 - Create Euler diagrams to test validity of an argument.

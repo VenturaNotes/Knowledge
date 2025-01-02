@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=huGWXh4l1M0
+Reviewed: false
 ---
 - Image
 	- Proof by contradiction

@@ -5,6 +5,7 @@ Length: 3 days, 3 hours, 6 minutes, 59 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Note
 	- Professor Leonard has been teaching Calculus for [15 years](https://youtu.be/p1sGAHulT8w?t=2311)

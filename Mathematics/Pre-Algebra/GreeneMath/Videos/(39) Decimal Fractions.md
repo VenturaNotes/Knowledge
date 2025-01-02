@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=42925s
+Reviewed: false
 ---
 - Lesson Objectives:
 	- Learn how to change a [[decimal fraction]] into a [[decimal]]

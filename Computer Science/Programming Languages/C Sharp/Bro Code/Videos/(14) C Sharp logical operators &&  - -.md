@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=uxS_0S0dNs8
+Reviewed: false
 ---
 - [[Logical operators]]: Used to check if more than 1 condition is true/false
 	- && (AND)

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FgcjBZyCjzo
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.57.15 PM.png]]
 	- Odds of [[roulette]]

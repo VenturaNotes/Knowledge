@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=11202s
+Reviewed: false
 ---
 - Lesson Objective:
 	- Learn how to divide multi-digit numbers using [[long division]]

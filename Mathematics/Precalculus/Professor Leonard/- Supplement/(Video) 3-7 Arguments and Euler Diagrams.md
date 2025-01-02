@@ -5,6 +5,7 @@ Length: 7 minutes, 31 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - Subject of this course is College Algebra Prep
 - Agenda

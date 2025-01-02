@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=21149s
+Reviewed: false
 ---
 - [[Exponent|Exponents]] with an integer base
 - Lesson Objective

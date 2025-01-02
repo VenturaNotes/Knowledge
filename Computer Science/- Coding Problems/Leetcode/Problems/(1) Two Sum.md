@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/two-sum/
+Reviewed: false
 ---
 ## Synthesis
 - You could use a brute force solution of time complexity $O(n^2)$ where you traverse the entire array twice to check if two of the values in the array sum to the target

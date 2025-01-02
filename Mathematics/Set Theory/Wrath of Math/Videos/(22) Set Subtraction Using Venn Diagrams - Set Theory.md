@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SeAG_gF6P2k
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 10.09.54 PM.png|200]]
 	- If you have the set subtraction of $X - Y$, then you just take out all the element of Y in X to get your resulting set.

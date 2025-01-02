@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=MWaJuoFwyv8
+Reviewed: false
 ---
 - Greedy Algorithms
 	- These algorithms makes the "best" choice at each step. We must specify what that "best" choice is.

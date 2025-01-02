@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=30482s
+Reviewed: false
 ---
 - Simplifying Fractions
 	- Reducing a [[fraction]] to its smallest terms

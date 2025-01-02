@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=yd9D66yTcuw
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-27 at 2.53.43 AM.png]]
 	- Multiply both sides of equation by LCD

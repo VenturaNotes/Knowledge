@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=BEptup3XDMs
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-13 at 1.23.42 AM.png]]
 	- A survey of 100 students at Fordham results in the following data

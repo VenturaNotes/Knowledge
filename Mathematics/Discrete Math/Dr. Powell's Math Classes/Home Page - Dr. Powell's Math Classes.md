@@ -5,6 +5,7 @@ Length: 14 hours, 59 minutes, 2 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) Discrete Mathematics Textbook and Playlist]]

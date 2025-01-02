@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=hFiqKTwiVxw
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 7.29.14 PM.png]]
 	- Let S be a set. The power set of S, denoted P(S), is the set of all subsets of S

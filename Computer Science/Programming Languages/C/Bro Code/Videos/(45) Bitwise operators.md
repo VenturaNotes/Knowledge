@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=BGeOwlIGRGI
+Reviewed: false
 ---
 ```C
 //Every time you shift a binary number to the left, it effectively doubles

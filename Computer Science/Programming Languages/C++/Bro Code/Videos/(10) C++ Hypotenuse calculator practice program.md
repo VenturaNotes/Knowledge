@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LvfUeY4-_1k
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-23 at 8.54.24 PM.png|500]]
 	- Just calculating hypotenuse of a right triangle

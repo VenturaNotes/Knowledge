@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Ow_u0qLAOJI
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-04 at 10.32.16 PM.png]]
 	- The maximum value of a downward opening parabola would be located at its vertex

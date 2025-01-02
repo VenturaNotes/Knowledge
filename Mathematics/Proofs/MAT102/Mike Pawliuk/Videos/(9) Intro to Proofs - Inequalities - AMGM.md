@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=n5MmnMaznck
+Reviewed: false
 ---
 - ![[Screenshot 2023-11-13 at 2.37.47 PM.png]]
 	- Slide 1 - Introduction to Proofs - Inequalities - AMGM

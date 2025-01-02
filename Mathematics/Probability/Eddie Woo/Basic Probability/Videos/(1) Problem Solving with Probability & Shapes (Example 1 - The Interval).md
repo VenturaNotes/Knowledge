@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=GKR91jlv2G4
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-02 at 10.25.17 PM.png]]
 	- Working mathematically

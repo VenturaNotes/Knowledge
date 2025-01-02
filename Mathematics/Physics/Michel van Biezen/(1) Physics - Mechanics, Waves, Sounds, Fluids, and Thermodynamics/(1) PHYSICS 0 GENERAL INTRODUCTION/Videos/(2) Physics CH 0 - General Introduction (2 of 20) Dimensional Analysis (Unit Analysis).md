@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=fAQqMmZ1vMI
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-22 at 5.41.41 PM.png]]
 	- We can see dimensionally that the Force equation is correct because the resulting units are equivalent to newtons (same as 6N)

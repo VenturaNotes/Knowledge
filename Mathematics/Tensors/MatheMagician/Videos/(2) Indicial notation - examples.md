@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=zbPNegfNavQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-10 at 10.58.17 PM.png]]
 	- [[Indicial notation]] - notation and examples

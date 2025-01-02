@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JO5uB4ZOhcM
+Reviewed: false
 ---
 - [[params keyword]]: A method parameter that takes a variable number of arguments.
 	- The parameter type must be a single - dimensional array

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=_2cKtLkdwnc
+Reviewed: false
 ---
 - Construct a DFA that accepts any strings over {a, b} that <mark style="background: #FFF3A3A6;"> does not contain</mark> the string <mark style="background: #FFF3A3A6;">aabb</mark> in it.
 	- The [[(2) Finite State Machine (Prerequisites)#^b88921|sequence]] "aabb" should not be accepted.

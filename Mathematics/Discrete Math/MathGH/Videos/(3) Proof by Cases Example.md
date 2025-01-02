@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=qJiI49nhU5c
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-03 at 12.35.40 AM.png]]
 	- [[Proof by Exhaustion|proof by cases]]

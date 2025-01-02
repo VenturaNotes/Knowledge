@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=DI-99m9QtLQ
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-11 at 2.44.42 AM.png]]
 	- If A and B are events such that P(A) = 0.5 and P(A' $\cap$ B') = 0.3, find P(B) when:

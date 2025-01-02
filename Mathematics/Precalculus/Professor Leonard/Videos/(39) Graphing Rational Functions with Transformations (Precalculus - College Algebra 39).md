@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=-k4uXF4hsAs
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-07 at 3.44.05 AM.png]]
 	- Odd asymptotes means opposite infinities

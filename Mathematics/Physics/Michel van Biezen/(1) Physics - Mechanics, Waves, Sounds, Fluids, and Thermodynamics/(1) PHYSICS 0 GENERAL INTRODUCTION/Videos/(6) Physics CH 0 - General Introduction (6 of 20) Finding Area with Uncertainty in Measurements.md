@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=JOIiY4Mqxi4
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-22 at 8.43.12 PM.png]]
 	- The area is equal to the nominal value of 355$cm^2$ +- 20$cm^2$ 

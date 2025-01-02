@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=dc53b5-H2Jo
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-22 at 5.54.25 PM.png]]
 	- Most of the numbers that we deal with are measure numbers

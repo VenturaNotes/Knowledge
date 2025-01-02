@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/min-cost-climbing-stairs/
+Reviewed: false
 ---
 ## Synthesis
 - 

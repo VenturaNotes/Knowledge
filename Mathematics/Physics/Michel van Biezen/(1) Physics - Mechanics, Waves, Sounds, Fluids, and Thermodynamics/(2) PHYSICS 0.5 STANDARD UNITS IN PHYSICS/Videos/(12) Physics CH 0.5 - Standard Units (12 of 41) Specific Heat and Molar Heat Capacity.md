@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=vl7So5Xs3Wg
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-21 at 3.11.32 AM.png]]
 	- [[Specific Heat]]

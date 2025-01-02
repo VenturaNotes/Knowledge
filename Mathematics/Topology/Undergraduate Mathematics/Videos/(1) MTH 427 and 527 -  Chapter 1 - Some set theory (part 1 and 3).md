@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=6yusB-muawU
+Reviewed: false
 ---
 - ![[Screenshot 2024-07-23 at 10.51.38 PM.png]]
 	- Main topic of course is [[topological space|topological spaces]]

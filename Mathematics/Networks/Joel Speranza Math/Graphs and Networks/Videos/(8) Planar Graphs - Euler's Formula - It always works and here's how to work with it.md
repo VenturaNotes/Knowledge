@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=z1jSVZ36Ruw
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 1.18.15 PM.png]]
 - Euler's Formula

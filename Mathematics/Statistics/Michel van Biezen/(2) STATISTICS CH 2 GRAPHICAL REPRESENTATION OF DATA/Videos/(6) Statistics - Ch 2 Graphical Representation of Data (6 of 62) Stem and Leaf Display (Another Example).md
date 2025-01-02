@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SAbAq61vYBY
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-16 at 3.31.11 AM.png]]
 	- Shows that the females in general are less heavy than males

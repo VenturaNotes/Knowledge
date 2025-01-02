@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=3920s
+Reviewed: false
 ---
 - Lesson objectives:
 	- Learn how to properly set up and perform [[vertical addition]]

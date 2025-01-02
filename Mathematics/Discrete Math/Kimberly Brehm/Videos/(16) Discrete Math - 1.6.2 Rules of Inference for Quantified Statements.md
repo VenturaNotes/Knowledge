@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=zMtToQelLN8
+Reviewed: false
 ---
 - Rules of Inference for Quantified Statements
 	- Universal Instantiation (UI) 

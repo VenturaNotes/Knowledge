@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=4JVwvLXMER0
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-29 at 4.35.16 PM.png]]
 	- A 4-dimensional vector space will always find 4 vectors where through [[linear combination|linear combinations]] 

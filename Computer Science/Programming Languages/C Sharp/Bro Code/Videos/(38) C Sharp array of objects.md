@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ZITVn87McQ8
+Reviewed: false
 ---
 - [[Anonymous objects]]
 	- new Car("Mustang")

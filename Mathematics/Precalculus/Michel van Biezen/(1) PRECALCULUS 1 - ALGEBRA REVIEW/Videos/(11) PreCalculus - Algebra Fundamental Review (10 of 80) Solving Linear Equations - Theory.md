@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=YXNzrT2sWOY
+Reviewed: false
 ---
 - ![[Screenshot 2023-04-26 at 1.18.52 PM.png]]
 	- (1) Eliminate decimals, fractions, parentheses

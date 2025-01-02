@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=jsFR-hE2_OE
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-15 at 6.56.52 PM.png]]
 	- extraneous is not part of the solution set

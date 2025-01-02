@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=AQ0f4rsbsrQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-27 at 9.48.40 PM.png]]
 	- When the hypothesis is false, the statement is vacuously true

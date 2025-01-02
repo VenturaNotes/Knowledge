@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=DoEqhqyXF3Q
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-13 at 8.59.48 PM.png]]
 	- Taking a log of a negative number is not part of the solution

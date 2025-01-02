@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=BaaC0IOkfWI
+Reviewed: false
 ---
 - Functions Defined
 	- A function f from A to B, denoted f: $A \implies B$ assigns each element of A to exactly one element of B. Functions may also me called mappings or transformations

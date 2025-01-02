@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=xe9B1dLuPQk
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-05 at 5.40.08 AM.png]]
 	- Different conic sections

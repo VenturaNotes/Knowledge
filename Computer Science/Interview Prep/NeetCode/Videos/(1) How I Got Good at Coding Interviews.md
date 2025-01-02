@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=SVvr3ZjtjI8
+Reviewed: false
 ---
 - Algorithms + cheat codes
 - Instead of memorizing code, memorize the patterns

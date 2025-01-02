@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=uLRiUMyDf64
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 11.26.55 PM.png]]
 	- Exponential function is a logarithmic function with the x and y switched.

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=plSzGYwo-ew
+Reviewed: false
 ---
 - Injective (one-to-one) functions
 	- Each value in the range corresponds to exactly one element in the domain

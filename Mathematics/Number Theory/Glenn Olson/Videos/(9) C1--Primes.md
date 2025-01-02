@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=xvPohPnMvF4
+Reviewed: false
 ---
 ## C1 - Primes, Composites, Relative Prime
 - C1. a) Prime:

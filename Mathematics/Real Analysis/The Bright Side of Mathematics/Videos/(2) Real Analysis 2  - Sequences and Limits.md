@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1SguKALJji8
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-17 at 9.33.10 PM.png]]
 	- Will talk about sequences and limits

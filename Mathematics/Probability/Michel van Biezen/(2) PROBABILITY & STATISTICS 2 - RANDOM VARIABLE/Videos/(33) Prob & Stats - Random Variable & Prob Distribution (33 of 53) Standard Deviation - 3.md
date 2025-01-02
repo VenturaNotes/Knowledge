@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=c68SSpKUiOk
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-28 at 9.21.27 PM.png]]
 	- [[Standard deviation]] of a [[random variable]]

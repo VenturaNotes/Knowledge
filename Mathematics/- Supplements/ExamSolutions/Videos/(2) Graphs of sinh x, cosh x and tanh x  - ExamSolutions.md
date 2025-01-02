@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=CJzY_DiZZD0
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 11.21.53 PM.png]]
 	- Hyperbolic functions

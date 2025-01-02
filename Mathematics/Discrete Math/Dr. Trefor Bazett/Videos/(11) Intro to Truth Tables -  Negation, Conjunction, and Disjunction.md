@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=7mulE-zramc
+Reviewed: false
 ---
 ## Truth Tables
 

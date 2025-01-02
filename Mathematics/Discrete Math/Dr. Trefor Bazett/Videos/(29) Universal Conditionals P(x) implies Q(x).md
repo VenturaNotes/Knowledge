@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=4XrfeNIGUKM
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-10 at 2.08.02 AM.png]]
 	- [[Universal-Conditionals]]: $P(x) \implies Q(x)$ means 

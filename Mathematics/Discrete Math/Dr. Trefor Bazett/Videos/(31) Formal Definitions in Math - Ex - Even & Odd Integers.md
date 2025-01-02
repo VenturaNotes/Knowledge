@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=dlKcfGu-WpI
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-11 at 8.41.46 AM.png]]
 	- Goal: Precisely define even & odd integers

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=3Yw--3L7bCg
+Reviewed: false
 ---
 - ![[Screenshot 2022-12-22 at 1.51.10 AM.png]]
 	- You always right down the real part first before the imaginary part

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=RDQPlZjN86g
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 1.12.26 PM.png]]
 - [[Equivalent Graph]] (isomorphic graph)

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=sGPhux2FPkc
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 10.55.37 PM.png]]
 	- Applications of [[Venn diagram|Venn diagrams]]

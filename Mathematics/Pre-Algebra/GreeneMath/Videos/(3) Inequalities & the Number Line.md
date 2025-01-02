@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=1978s
+Reviewed: false
 ---
 - Lesson objectives
 	- Learn how to create and work with a [[Number Line|number line]] for the [[whole numbers]]
