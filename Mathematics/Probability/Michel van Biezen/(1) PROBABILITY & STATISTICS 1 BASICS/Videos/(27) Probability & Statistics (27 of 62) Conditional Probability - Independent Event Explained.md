@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=EdSZ9Qfz7Tg
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 12.04.49 AM.png]]
 	- Looking at [[conditional probability]] with [[independent events]]

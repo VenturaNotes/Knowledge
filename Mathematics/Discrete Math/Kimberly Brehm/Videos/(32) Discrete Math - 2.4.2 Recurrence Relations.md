@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QaAQ-bKCUME
+Reviewed: false
 ---
 - [[Recurrence Relation]]
 	- An equation that expresses $a_n$ in terms of one or more of the previous terms of the sequence. Initial conditions are required to specify terms that precede the first term where the relation takes effect.

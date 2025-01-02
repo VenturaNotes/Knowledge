@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=TvxmkZmBa-k
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-20 at 12.50.30 AM.png]]
 	- [[Tensor]] = multi-dimensional array of numbers (this array definition is incorrect)

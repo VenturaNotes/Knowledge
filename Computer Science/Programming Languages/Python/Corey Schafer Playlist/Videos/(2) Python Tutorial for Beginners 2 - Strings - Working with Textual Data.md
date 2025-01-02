@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=k9TUPpGqYTo
+Reviewed: false
 ---
 - Python data types
 - Textual data

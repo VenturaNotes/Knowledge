@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Bx9b12FCF5o
+Reviewed: false
 ---
 - switch
 	- alternative to using many "else if" statements. Compare one value against matching cases

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=cAhh6pYkHPQ
+Reviewed: false
 ---
 - [[Constructor]]: A special method in a class
 	- Same name as the class name

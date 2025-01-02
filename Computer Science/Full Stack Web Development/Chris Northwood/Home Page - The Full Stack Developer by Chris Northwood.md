@@ -6,6 +6,7 @@ Progress: "29"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## (1) The Modern Web
 - “The developers working on these teams are sometimes referred to as T-shaped, because their breadth of knowledge is just as important as any depth of technical specialty they may have.” ([Northwood, 2018, p. 1](zotero://select/library/items/IRY769L4)) ([pdf](zotero://open-pdf/library/items/RQKPRJ88?page=15&annotation=PXNM8JEV)) 

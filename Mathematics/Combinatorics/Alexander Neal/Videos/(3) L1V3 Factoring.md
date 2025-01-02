@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=IpCzWJr6zI0
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-08 at 11.06.30 AM.png]]
 	- [[Factoring]]

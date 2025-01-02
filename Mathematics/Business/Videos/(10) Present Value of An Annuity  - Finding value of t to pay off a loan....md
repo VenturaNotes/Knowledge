@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=spiwD9riUpg
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 9.32.00 PM.png]]
 	- [[Present value of an annuity]]

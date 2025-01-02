@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=8innwDI1bv8
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-30 at 2.42.58 PM.png]]
 	- The [[universal set]] is a set that contains everything, but it's <mark style="background: #FFF3A3A6;">suitable</mark>

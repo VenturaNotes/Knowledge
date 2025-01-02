@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=sE00DnGrqcM
+Reviewed: false
 ---
 - Sorting Algorithms
 	- An algorithm that sorts the elements of a list into increasing order (numerical, alphabetical, etc.)

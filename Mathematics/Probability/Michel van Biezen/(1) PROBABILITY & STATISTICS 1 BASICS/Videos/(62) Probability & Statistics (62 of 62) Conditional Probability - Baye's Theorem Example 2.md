@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtu.be/Dr7v_vG7pUc?si=7K4rSTuNFpeB9Atc
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 9.05.05 PM.png]]
 	- Given that a blue marble was picked $A \to \text{ blue}

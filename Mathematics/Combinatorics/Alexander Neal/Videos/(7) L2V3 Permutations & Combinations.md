@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=24gE-Wpy1qE
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-08 at 12.19.32 PM.png]]
 	- [[Permutation|Permutations]] - Repetition not allowed

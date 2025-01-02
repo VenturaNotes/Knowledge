@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=7utYtIpTDSU
+Reviewed: false
 ---
 
 - ![[Mathematics/Probability/Michel van Biezen/(1) PROBABILITY & STATISTICS 1 BASICS/Videos/- Attachments/download.png]]

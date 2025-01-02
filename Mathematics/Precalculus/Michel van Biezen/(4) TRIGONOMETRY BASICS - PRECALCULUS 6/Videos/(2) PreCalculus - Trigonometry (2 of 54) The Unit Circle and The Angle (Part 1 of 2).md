@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=pPgCDKo_yEI
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 3.24.52 PM.png]]
 	- Angle is the reference between the horizontal x-axis and the hypotenuse

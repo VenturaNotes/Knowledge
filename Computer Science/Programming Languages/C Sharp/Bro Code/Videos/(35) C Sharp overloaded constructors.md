@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=OLxIscUoTgY
+Reviewed: false
 ---
 - [[Overloaded constructors]]: technique to create multiple constructors, with a different set of parameters.
 	- name + parameters = [[signature]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_IUP114x2gM
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 4.26.29 PM.png]]
 	- [[Cartesian product]] of [[set|sets]]

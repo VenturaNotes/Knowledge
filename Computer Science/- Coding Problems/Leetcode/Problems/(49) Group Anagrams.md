@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/group-anagrams/description/
+Reviewed: false
 ---
 ## Synthesis
 - Use a hashmap to solve the problem. Pay careful attention to defaultdict and transforming `count` to a tuple. It's all about whether it's [[mutable (Python)|mutable]] or not.

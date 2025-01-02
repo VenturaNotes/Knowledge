@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=oyWpIN1lm50
+Reviewed: false
 ---
 - Find the product of primes by factoring the numbers
 - Examples

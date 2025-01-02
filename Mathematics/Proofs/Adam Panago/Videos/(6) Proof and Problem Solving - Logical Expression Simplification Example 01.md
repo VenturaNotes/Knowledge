@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=SqJNHKyEV54
+Reviewed: false
 ---
 - Learning to simplify logical expressions
 - Consider the logical statements P and Q.

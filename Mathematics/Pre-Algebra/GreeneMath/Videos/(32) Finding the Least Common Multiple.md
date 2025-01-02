@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=34015s
+Reviewed: false
 ---
 - Finding the LCM
 - Lesson Objective:

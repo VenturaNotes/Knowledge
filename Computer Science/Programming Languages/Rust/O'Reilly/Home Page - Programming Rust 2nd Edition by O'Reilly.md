@@ -7,6 +7,7 @@ tags:
   - type/textbook
 Year: 2021-06-20
 errata: https://www.oreilly.com/catalog/errata.csp?isbn=0636920258049
+Reviewed: false
 ---
 - Covers Rust 1.50
 

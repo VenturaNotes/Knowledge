@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=r1zlarCvLsw
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 10.09.11 PM.png]]
 	- Construct the [[amortization schedule]] for a $1,000 debt that is to be amortized in four equal quarterly payments at 2.5% interest per quarter on the unpaid balance.

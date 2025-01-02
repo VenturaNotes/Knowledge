@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=stzPcqmyhI4
+Reviewed: false
 ---
 ## The Game
 - Two hunters go out to catch meat

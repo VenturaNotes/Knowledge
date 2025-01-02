@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=qiJzJwOdNMY
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 12.25.56 PM.png|400]]
 	- Network could represent town A with a road leading to town B.

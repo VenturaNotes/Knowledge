@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=u5y1zte2w_4
+Reviewed: false
 ---
 - Reminder - Showing Equivalence with a truth table
 	- ![[Screenshot 2022-12-17 at 5.58.09 PM.png]]

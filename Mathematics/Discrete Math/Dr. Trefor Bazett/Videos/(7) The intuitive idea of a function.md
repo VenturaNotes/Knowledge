@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=G8qvOZ9DE3c
+Reviewed: false
 ---
 ## Functions
 - Ex: f(x) = $x^2$ 

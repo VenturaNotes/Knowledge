@@ -6,6 +6,7 @@ Progress: "12"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## (1) Introduction
 - “<mark style="background: #FFF3A3A6;">Computer science</mark> as an academic discipline <mark style="background: #FFF3A3A6;">began in the 1960’s</mark>.” ([Blum et al., p. 9](zotero://select/library/items/UFNIKXB5)) ([pdf](zotero://open-pdf/library/items/FCTDHIDM?page=9&annotation=GUACMP9Y))

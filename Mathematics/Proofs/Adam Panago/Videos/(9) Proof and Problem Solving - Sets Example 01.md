@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=VeChnFzcx7U
+Reviewed: false
 ---
 - For each of the following sets, list the elements the set elements between braces {}
 	- ![[Screenshot 2022-12-08 at 6.20.29 PM.png]]

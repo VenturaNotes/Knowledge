@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=KUlSQ58-9zM
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-28 at 12.34.32 PM.png]]
 	- Slide 1 - Introduction to Proofs - Divisibility

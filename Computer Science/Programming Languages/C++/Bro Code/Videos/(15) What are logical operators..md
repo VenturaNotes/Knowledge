@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=UiF-QgCBOhM
+Reviewed: false
 ---
 - Logical operators
 	- && = check if two conditions are true

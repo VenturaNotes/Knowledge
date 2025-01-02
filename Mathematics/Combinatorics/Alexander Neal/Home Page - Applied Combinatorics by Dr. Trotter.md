@@ -6,6 +6,7 @@ Length: 1 day, 6 hours, 5 minutes, 58 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Notes
 	- [Practice Problems](https://trotter.math.gatech.edu/math-3012/toppage.html) #archive

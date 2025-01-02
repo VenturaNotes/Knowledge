@@ -5,6 +5,7 @@ Length: 30 minutes, 10 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - Pascal's Triangle
 	- ![[Screenshot 2022-12-22 at 1.59.47 AM.png]]

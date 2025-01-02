@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=TTxMoFgabEg
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-07 at 10.43.39 PM.png]]
 	- Simplify the radical expression

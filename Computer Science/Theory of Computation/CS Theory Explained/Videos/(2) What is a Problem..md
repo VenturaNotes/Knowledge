@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=y9v_q6bBL7k
+Reviewed: false
 ---
 - ![[Screenshot 2023-12-19 at 2.13.42 PM.png]]
 	- [[Computational complexity]] is a formal area of computer science rooted in vigorous mathematical reasoning

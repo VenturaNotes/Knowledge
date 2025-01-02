@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JSm2pk6Pjvw
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 6.02.55 PM.png]]
 	- There are 6 republicans and 6 democrats. You want to form a committee of 3 republicans and 2 democrats

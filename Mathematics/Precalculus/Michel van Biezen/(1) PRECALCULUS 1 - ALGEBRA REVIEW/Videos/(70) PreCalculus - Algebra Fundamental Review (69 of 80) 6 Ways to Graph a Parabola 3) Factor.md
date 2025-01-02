@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=D2CPsrvmlEs
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-05 at 5.08.06 AM.png]]
 	- Factoring the equation

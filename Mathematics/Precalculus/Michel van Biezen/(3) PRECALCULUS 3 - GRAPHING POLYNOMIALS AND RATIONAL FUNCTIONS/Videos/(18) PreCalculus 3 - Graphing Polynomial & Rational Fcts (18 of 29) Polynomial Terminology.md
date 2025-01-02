@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=tA49PgA0lZQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 1.51.11 PM.png]]
 	- [[Leading coefficient]]

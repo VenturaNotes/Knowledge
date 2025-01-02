@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=bYEdLCWJeHA
+Reviewed: false
 ---
 - pseudo-random = NOT truly random (but close)
 	- Great for simple game

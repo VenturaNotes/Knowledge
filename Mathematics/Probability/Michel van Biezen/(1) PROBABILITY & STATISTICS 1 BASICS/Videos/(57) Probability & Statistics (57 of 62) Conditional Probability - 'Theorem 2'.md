@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Of9DRXz0XWQ
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 7.00.44 PM.png]]
 	- If an event A must result in one of the [[mutually exclusive]] events $A_1, A_2, ...,A_n$ then

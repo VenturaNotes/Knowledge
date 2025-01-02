@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=IPpEefuFiVM
+Reviewed: false
 ---
 - [[Method]]: Performs a section of code, whenever it's called "invoked". Benefit = Lets us reuse code w/o writing it multiple times.
 	- Methods don't have access to variables in another method.

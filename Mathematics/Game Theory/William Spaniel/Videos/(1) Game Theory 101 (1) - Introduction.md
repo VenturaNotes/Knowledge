@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=NSVmOC_5zrE
+Reviewed: false
 ---
 ## What is Game Theory?
 - Definition: the study of strategically interdependent behavior

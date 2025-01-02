@@ -5,6 +5,7 @@ Length: 19 hours, 49 minutes, 9 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) Introduction to Theory of Computation]]

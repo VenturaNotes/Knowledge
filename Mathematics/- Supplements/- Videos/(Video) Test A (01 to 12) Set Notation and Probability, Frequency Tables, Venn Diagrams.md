@@ -5,6 +5,7 @@ Length: 21 minutes, 13 seconds
 tags:
   - status/incomplete
   - type/video
+Reviewed: false
 ---
 - 1) Which of the following describes a pair of events, A and B, that are <u>independent</u>?
 	- ![[Screenshot 2022-12-14 at 5.43.46 AM.png]]

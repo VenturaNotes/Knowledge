@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=KTdOJ0CfD70
+Reviewed: false
 ---
 - Image
 	- Turing machine examples

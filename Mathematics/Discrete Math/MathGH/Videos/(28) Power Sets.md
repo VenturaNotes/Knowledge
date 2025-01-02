@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=8njyc9I_5a4
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-07 at 4.55.17 PM.png]]
 	- [[Power Set|power sets]]

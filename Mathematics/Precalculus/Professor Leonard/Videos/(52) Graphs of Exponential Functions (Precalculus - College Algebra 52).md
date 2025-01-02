@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=2w14jBb0e9Q
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-13 at 12.48.01 AM.png]]
 	- Graphs of exponential Functions

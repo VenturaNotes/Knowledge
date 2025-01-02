@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=EvSyka9vJho
+Reviewed: false
 ---
 - [[Inheritance]]: 1 or more child classes receiving fields, methods, etc. from a common parent
 

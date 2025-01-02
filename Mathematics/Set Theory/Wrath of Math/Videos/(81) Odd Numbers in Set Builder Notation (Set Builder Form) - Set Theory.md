@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=TxAR5yC64iY
+Reviewed: false
 ---
 - ![[Pasted image 20230605195711.png]]
 	- [[Roster Notation]]

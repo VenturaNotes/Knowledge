@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=h4hY2hho73Q
+Reviewed: false
 ---
 - [[For loop]]: repeats some code a finite amount of times
 

@@ -5,6 +5,7 @@ Length: 1 hour, 35 minutes, 33 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) Introduction to Set Theory (1 of 3 - Topic Rationale)]]

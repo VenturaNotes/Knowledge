@@ -5,6 +5,7 @@ Length: 9 minutes, 45 seconds
 tags:
   - status/incomplete
   - type/video
+Reviewed: false
 ---
 - What is the time it takes for someone to drive from Los Angelos to San Francisco? 
 	- ![[Screenshot 2022-11-28 at 10.30.53 PM.png]]

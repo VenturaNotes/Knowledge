@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=NtNIGO9FHIk
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 7.14.22 PM.png]]
 	- [[Periodicity Factor]]: Number that determines how many complete cycles you'll have in a 2$\pi$ period

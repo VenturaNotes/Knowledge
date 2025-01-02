@@ -5,6 +5,7 @@ Length: 10 minutes 53 seconds
 tags:
   - status/incomplete
   - type/video
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-26 at 3.12.51 PM.png]]
 	- Programming languages can be unicode aware

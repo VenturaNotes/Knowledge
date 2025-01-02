@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=pHWaxuyfK2s
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 11.20.15 PM.png]]
 	- [[Generalization]] is an argument of the form: (just need one of two things)

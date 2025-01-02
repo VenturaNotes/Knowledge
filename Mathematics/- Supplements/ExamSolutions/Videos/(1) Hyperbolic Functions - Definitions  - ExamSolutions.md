@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=vVcEePliDUA
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 11.12.02 PM.png]]
 	- Hyperbolic functions are related to the trigonometric functions. Attaching the letter "h" to the end of the trigonometric functions.

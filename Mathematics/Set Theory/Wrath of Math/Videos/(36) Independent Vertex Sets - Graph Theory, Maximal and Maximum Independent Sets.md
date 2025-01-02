@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=0stavxEccvE
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-01 at 9.31.29 AM.png]]
 	- A subset of the [[Vertex Set]] of a [[Graph]] is independent if and only if it contains no pair of [[adjacent vectors]]

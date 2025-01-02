@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=YHgVTUXnxpM
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-17 at 5.40.53 AM.png]]
 - Sine and Cosine

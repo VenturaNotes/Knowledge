@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=nXAOZo_gMaQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 1.23.49 PM.png]]
 	- The empty set is a subset of the empty set.  ^124a38

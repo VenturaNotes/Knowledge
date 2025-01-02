@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=31ieHmcTUOk
+Reviewed: false
 ---
 - ![[Screenshot 2023-11-27 at 12.24.23 AM.png]]
 	- What is a [[docker]]?

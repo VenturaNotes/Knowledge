@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=A1h_eucHFW4
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-28 at 10.22.29 PM.png]]
 	- [[Vector components]] transform in the opposite way compared to old and new [[basis]]

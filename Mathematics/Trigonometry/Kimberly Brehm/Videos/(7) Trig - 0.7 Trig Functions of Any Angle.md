@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dGtHw1jqcxY
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-24 at 6.00.19 PM.png]]
 	- Let P(20, -21) be a point on the [[terminal angle]] $\theta$ drawn in standard position. Find the value of $sin\theta$ and $cot\theta$

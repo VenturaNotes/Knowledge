@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=2xXUK7GLo1s
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-09 at 11.45.30 PM.png]]
 	- [[odds against an event|Odds against]] silver $\frac 72$ = $\frac{P(\text{Not Silver})}{\text {P (Silver)}}$ = $\frac{\frac 79} {\frac 29}$

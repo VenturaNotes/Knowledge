@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=iAy0EG4LCd4
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 5.54.12 PM.png]]
 	- How many ways can you place 7 numbers on the left side and 3 numbers on the right side?

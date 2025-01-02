@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=gQoVmZe8tHE
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-07 at 4.58.41 PM.png]]
 	- The [[empty set]]

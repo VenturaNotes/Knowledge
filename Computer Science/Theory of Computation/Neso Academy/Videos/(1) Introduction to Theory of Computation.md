@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=58N2N7zJGrQ
+Reviewed: false
 ---
 ## Introduction
 - One of the most fundamental courses of Computer Science

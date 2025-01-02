@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=aqQj-3bSv7k
+Reviewed: false
 ---
 - When propositional logic fails
 	- If i say,

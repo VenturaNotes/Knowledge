@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=CV74aNbKrpo
+Reviewed: false
 ---
 ```C
 // When working with arrays, it's not enough to simply assign values when copying

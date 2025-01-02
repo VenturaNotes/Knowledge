@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=STEfmxQjO2Q
+Reviewed: false
 ---
 - What is JavaScript?
 	- A web-based interpreted programming language

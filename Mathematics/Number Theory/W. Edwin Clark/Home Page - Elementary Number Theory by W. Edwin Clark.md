@@ -6,6 +6,7 @@ Progress: "23"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## Preface
 - “[[Number theory]] is concerned with properties of the integers:” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=3&annotation=ST6VCH55)) ^bce6e5

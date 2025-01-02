@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Q_1dmoUhYBo
+Reviewed: false
 ---
 ## General Definition of topology
 - Let $X$ be a set, and $\uptau$ a collection of subsets of $X$. The collection $\uptau$ is called a topology for $X$ provided $\uptau$ satisfies the following (conditions, axioms, criteria)

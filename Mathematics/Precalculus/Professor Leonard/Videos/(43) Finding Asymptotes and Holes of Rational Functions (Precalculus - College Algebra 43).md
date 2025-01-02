@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=tyXWPcvSQvk
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-07 at 4.53.25 AM.png]]
 	- Asymptotes + holes of rational functions

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ODJ5ePSXtRM
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 8.57.37 PM.png]]
 	- Going to talk about now where [[Bayes' Theorem]] came from

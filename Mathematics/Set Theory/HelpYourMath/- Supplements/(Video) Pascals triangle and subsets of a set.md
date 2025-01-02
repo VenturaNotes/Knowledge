@@ -5,6 +5,7 @@ Length: 8 minutes, 26 seconds
 tags:
   - status/incomplete
   - type/video
+Reviewed: false
 ---
 - ![[Pasted image 20230401145903.png|300]]
 	- Pascal's Triangle very useful for combinations

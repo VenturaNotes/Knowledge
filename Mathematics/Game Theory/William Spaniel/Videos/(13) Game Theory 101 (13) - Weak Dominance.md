@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=OlV190noZOw
+Reviewed: false
 ---
 ## Solving Simultaneous Move Games
 - Goal: find all Nash equilibria

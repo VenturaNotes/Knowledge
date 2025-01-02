@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VMcBkIhzEhU
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 1.19.52 AM.png]]
 	- Toss a coin n times

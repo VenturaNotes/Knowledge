@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/redundant-connection/
+Reviewed: false
 ---
 ## Synthesis
 - 

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=YYXdXT2l-Gg
+Reviewed: false
 ---
 - Install python and setup development environment
 - Steps for installing Python on Mac

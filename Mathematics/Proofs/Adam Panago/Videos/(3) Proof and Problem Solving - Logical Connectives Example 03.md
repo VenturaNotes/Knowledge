@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=tCN7kk1UWFY
+Reviewed: false
 ---
 - Logical expressions in terms of symbols and turn them back into english sentences
 	- Write an English sentence for each of the following logical expressions.

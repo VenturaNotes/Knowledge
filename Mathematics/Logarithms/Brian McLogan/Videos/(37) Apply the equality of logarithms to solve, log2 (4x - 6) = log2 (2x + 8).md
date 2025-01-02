@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=3dGoKzOGVYA
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-15 at 10.56.51 AM.png]]
 	- $log_5 25$ 

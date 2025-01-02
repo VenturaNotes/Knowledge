@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=ESgQnbHTj7c
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-01 at 11.06.15 PM.png]]
 	- Let G = (V, E) be a connected graph.

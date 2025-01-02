@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=AKJgo-WR_K4
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-06 at 2.22.15 AM.png]]
 	- Synthetic + Long Division of Polynomials

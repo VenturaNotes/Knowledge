@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=v-pnhWbHmQ8
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-05 at 11.59.20 PM.png]]
 	- Functions from x-intercepts & graphs

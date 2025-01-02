@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=rO-C48LY2KY
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-14 at 1.02.20 AM.png]]
 	- Natural Growth/Decay

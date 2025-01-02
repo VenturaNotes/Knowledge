@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=wcbG-u7VZ4o
+Reviewed: false
 ---
 - C4. a) Use factor tree to find prime factorization of 60
 	- ![[Screenshot 2022-12-27 at 7.34.32 AM.png]]

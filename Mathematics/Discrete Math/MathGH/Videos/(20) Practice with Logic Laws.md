@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WvRXl6KnhGA
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-05 at 1.24.21 AM.png]]
 	- Practice with logic laws

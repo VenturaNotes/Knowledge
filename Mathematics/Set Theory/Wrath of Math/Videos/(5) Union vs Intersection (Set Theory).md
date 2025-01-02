@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=uZsC5ZKs9tA
+Reviewed: false
 ---
 - $\land$ 
 	- Easy to remember that it's an "and" symbol because you can turn it into an "A" very easily

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rvDAkGdA1M0
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-05 at 1.03.08 AM.png]]
 	- Less common [[Laws of logic]]

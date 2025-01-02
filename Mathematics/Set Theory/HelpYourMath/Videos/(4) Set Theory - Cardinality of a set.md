@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=rw04VWbAfMc
+Reviewed: false
 ---
 - Symbols and Terminology: The cardinality of a set
 ---

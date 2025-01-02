@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=rgA6FqcI9cc
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 10.28.53 PM.png]]
 	- A couple wishes to borrow money using the equity in their home for collateral. A loan company will loan them up to 70% of their equity. They purchased their home 10 years ago for $63,824. The home was financed by paying 15% down and signing a 15-year mortgage at 8.1% on the unpaid balance. Equal monthly payments were made to amortize the loan over the 15-year period. The net market value of the house is now $100,000. After making their 120th payment, they applied to the loan company for the maximum loan. How much (to the nearest dollar) will they receive?

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=GJPZTO5Yffw
+Reviewed: false
 ---
 - Delphi community edition is free for the first year
 	- File $\rightarrow$ New $\rightarrow$ Console Application

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=z3lPw_359T0
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-21 at 9.47.53 PM.png]]
 	- An equation has a left side and a right side and an equal sign

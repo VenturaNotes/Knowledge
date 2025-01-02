@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=aNTDJ9bnRU4
+Reviewed: false
 ---
 - [[Generic]]: "not specific to a particular data type"
 	- Add `<T>` to: classes, methods, fields, etc

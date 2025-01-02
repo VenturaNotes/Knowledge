@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=TmkTwJT79yc
+Reviewed: false
 ---
 - We add the amplitudes of 2 or more signals at each instant of time to get their sum
 - ![[Screenshot 2022-12-21 at 9.48.14 PM.png|400]]

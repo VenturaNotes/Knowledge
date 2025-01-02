@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=YI-2Xs0dCe0
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-16 at 3.22.15 AM.png]]
 	- In statistics, goal of graphs is to be able to understand instantly what is going on

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=uJFiR0DG2Bw
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 4.11.44 PM.png]]
 	- [[Linear Programming]]

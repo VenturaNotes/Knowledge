@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=8qNU-WunQ-4
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 9.13.03 PM.png]]
 	- If the odds against on a slot machine is 1.1 to 1, what is the probability of winning? What is the expected value? (for double or nothing)

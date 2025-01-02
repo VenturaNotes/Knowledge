@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=fm546PINI6I
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-10 at 9.18.11 PM.png]] ^afc417
 	- $\theta$ is typical for angle

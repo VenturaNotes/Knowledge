@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WLzWKA2J840
+Reviewed: false
 ---
 - ![[Screenshot 2023-12-08 at 12.32.30 AM.png]]
 	- Definition: The [[complement]] of a set A

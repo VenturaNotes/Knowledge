@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ovDQgFFO8fI
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 10.38.12 PM.png]]
 	- An ordinary annuity pays 7.08% compounded monthly.

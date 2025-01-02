@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=eltZlBtWhd4
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-31 at 7.53.13 PM.png]]
 	- List the elements of the set

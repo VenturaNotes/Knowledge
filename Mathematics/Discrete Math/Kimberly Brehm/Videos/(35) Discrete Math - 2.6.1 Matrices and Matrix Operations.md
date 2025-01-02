@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=dLm1pglDFHA
+Reviewed: false
 ---
 - Matrices
 	- A rectangular array of numbers. A matrix with m rows and n columns is called an $m\text{ x }n$ matrix.

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Voj2N0VVbmg
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-28 at 8.13.37 PM.png]]
 	- A has 3 elements in the set and B has 4 elements in its set

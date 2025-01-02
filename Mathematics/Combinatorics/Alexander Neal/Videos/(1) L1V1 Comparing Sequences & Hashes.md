@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=fwrAypC51ds
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-06 at 10.11.47 PM.png]]
 - Are these two sequences the same?

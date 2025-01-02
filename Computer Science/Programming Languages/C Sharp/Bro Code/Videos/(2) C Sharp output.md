@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=b8BUFfgyjK4
+Reviewed: false
 ---
 [[Escape Sequence]]
 - `\a`: Bell(alert)

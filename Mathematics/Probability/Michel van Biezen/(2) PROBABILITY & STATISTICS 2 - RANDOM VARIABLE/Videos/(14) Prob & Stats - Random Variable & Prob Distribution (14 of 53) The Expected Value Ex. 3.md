@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=YgXvOotb9lA
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.48.40 PM.png]]
 	- `x` is [[random variable]] here which represents value of ticket.

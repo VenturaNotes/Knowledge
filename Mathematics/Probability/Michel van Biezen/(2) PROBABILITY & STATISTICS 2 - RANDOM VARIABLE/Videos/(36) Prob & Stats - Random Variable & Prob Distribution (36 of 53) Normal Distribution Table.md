@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dmzHJ7mwBmU
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-28 at 10.11.38 PM.png]]
 	- The normal distribution table

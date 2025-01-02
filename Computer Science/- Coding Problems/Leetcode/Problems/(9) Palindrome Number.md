@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/palindrome-number
+Reviewed: false
 ---
 ### My Solution
 ```python

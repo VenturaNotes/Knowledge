@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/merge-triplets-to-form-target-triplet/
+Reviewed: false
 ---
 ## Synthesis
 - 

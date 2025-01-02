@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=LurI8AYY18E
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 3.26.58 PM.png]]
 	- [[Binomial theorem]]

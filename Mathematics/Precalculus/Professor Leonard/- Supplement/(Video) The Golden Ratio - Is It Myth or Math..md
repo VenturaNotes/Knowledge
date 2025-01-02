@@ -5,6 +5,7 @@ Length: 22 minutes, 43 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - Golden rectangle
 	- ![[Screenshot 2023-03-08 at 7.45.03 PM.png|300]]

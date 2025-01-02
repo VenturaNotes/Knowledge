@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=46EqpqR-dXc
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-01 at 9.42.04 PM.png]]
 	- [[Idempotent Property of Set Intersection]]

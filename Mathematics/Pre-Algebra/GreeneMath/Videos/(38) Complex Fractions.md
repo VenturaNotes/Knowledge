@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=41916s
+Reviewed: false
 ---
 - Lesson Objective
 	- Learn how to simplify a complex fraction using two different methods

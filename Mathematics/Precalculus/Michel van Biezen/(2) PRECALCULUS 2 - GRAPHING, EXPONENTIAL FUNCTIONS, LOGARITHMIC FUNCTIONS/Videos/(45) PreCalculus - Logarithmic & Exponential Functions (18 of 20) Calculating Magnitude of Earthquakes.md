@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=szour5WFx9c
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 12.56.00 PM.png]]
 	- [[Richter Scale]]

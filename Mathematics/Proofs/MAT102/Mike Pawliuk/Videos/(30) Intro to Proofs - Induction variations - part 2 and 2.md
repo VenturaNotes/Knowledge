@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=y98SzjUywz4
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-23 at 12.21.26 AM.png]]
 	- Slide 10 - Other gaps

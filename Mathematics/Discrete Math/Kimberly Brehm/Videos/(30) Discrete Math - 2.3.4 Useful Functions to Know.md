@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=_a9veRNS78w
+Reviewed: false
 ---
 - Floor Function f(x) = $\lfloor x\rfloor$ 
 	- Largest integer less than or equal to x.

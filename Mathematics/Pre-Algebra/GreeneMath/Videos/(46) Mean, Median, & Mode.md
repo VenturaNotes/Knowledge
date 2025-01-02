@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=51110s
+Reviewed: false
 ---
 - Lesson Objective:
 	- Learn how to find the mean, [[median]], and [[mode]] for a group of numbers

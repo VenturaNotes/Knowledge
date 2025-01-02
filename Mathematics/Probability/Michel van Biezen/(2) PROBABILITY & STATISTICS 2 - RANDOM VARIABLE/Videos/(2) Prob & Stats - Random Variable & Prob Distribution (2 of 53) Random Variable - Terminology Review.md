@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=aEB07VIIfKs
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-11 at 6.54.06 PM.png]]
 	- [[Random variable]]: A variable whose outcome (value) is subject to a random process, which means that its value is determined by chance

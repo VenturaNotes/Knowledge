@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=XpA_7XvpK54
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-13 at 4.19.48 AM.png]]
 	- A pair of fair dice is rolled once. Suppose that you lose $11 if the dice sum to 7 and win $13 if the dice sum to 4 or 12. How much should you win or lose if any other number turns up in order for the game to be fair?

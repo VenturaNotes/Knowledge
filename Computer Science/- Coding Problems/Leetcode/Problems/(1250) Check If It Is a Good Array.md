@@ -1,4 +1,5 @@
 ---
 Source:
   - https://leetcode.com/problems/check-if-it-is-a-good-array/
+Reviewed: false
 ---

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=ZJOjumz70nE
+Reviewed: false
 ---
 - Enumeration values may store multiple things
 

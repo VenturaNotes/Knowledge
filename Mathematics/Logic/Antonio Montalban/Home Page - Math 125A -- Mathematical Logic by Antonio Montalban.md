@@ -5,6 +5,7 @@ Length: 12 hours, 19 minutes, 39 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Note
 	- "Introduction to mathematical logic" is also part of the Set Theory playlist

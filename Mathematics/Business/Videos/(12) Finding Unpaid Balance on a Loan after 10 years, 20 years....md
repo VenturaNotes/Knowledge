@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ksoD51kvYck
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 9.46.16 PM.png]]
 	- A family has a $150,000, 30-year mortgage at 6.1% compounded monthly. Find the monthly payment. Also find unpaid balance after

@@ -5,6 +5,7 @@ Length: 18 hours, 57 minutes, 34 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) Discrete Math - 1.1.1 Propositions, Negations, Conjunctions and Disjunctions]]

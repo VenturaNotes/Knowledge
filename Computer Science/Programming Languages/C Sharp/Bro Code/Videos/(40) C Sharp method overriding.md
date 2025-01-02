@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=ToKbMa3xvMs
+Reviewed: false
 ---
 - [[Method overriding]]: Provides a new version of a method inherited form a parent class
 	- Inherited method must be: abstract, virtual, or already overridden

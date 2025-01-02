@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Pdmg4V3eXZU
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 1.26.54 AM.png]]
 	- Representing complex numbers on an [[Argand diagram]]

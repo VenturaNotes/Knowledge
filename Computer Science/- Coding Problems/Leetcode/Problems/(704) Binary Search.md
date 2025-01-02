@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/binary-search/
+Reviewed: false
 ---
 ## Synthesis
 - 

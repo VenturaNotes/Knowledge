@@ -7,6 +7,7 @@ tags:
   - status/incomplete
   - type/textbook
 Year: 2023-04-27
+Reviewed: false
 ---
 ## Preface
 - “Computing systems are presented as a series of <mark style="background: #FFF3A3A6;">layers</mark>, starting with [[low-level hardware]] and progressing to [[higher-level software]], including assemblers and operating systems.” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=23&annotation=YBVHMIND))

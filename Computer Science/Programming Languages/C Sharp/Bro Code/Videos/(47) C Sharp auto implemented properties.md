@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=Z70AwnYYJOc
+Reviewed: false
 ---
 - [[Auto-Implemented Properties]]: shortcut when no additional logic is required in the property.
 	- You do not have to define a field for a property,

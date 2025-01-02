@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=fvEQujUcPv4
+Reviewed: false
 ---
 ## Matching Pennies
 - You and a friend simultaneously reveal a penny

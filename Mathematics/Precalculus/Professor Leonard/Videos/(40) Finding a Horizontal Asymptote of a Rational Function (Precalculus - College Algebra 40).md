@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=D-H9N-_Y77Y
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-07 at 4.25.36 AM.png]]
 	- Horizontal asymptotes of rational functions occur when

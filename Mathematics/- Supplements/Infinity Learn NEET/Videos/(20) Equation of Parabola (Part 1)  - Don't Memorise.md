@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=_71biRTkDSg
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-25 at 7.29.27 PM.png]]
 	- [[Parabola]]: Collection of points in a plane which are equidistant form a fixed point and a fixed line in the plane

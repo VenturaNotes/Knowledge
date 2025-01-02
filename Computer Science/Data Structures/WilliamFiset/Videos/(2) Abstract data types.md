@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=2USMAwcRWHE
+Reviewed: false
 ---
 - ![[Screenshot 2024-10-04 at 1.32.14 PM.png]]
 	- What is a [[data structure]]?

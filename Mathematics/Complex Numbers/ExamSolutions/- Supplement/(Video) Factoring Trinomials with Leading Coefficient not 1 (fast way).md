@@ -5,6 +5,7 @@ Length: 2 minutes, 5 seconds
 tags:
   - status/complete
   - type/video
+Reviewed: false
 ---
 - ![[Screenshot 2022-12-22 at 1.30.47 AM.png]]
 	- Multiply the leading coefficient by the 3rd term (do not say that it equals the original expression)

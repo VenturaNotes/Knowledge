@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=fVaJvdj2R9o
+Reviewed: false
 ---
 - E1 - Basis of the Euclidean Algorithm
 	- The GCD of two natural numbers is the same as the GCD of the smaller natural number and the difference of the two natural numbers. 

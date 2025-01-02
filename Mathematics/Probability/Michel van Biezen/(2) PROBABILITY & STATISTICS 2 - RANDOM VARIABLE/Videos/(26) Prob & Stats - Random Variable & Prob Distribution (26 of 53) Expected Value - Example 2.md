@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=2dw-HG9EgJ4
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 9.54.11 PM.png]]
 	- Homeowner Insurance

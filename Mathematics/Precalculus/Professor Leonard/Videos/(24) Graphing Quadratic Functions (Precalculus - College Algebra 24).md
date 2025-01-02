@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=VH4tzzBVbgA
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-04 at 9.18.05 PM.png]]
 	- Quadratic is a polynomial of the second degree

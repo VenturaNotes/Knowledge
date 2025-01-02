@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=YCavczfAEBc
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-12 at 1.09.10 AM.png|500]]
 	- When are compound statements true?

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=MDR0JHUpWvw
+Reviewed: false
 ---
 - ![[Screenshot 2023-08-21 at 2.42.55 AM.png]]
 	- $P = BkA$

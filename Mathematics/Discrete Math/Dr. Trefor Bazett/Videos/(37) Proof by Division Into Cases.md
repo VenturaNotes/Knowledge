@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=2A-EaY78bwc
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 1.26.29 PM.png]]
 	- Theorem: The square of an integer has the same [[parity]] (this theorem is true)

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=L2TwSQk7_g4
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.02.12 PM.png]]
 	- [[Histogram]]

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=-HyMP0WlSZc
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-07 at 4.36.42 PM.png]]
 	- Review of [[Set operations]]

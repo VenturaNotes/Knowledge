@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=ZmOEkt7029g
+Reviewed: false
 ---
 - Searching problems
 	- The goal is to locate an element x in the list of distinct elements or determine that it is not in the list.

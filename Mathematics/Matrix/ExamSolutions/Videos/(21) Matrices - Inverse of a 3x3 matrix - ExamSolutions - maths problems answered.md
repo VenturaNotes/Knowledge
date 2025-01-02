@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=3q7rSaE2nig
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-15 at 7.53.53 PM.png]]
 	- [[Inverse of 3x3 matrix]]

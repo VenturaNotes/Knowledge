@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=98tQPM3R3qU
+Reviewed: false
 ---
 Variables, Strings, and Numbers
 ```Go

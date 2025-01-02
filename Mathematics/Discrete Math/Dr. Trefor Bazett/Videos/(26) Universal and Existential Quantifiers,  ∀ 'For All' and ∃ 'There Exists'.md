@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=GJpezCUMOxA
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-10 at 1.47.50 AM.png]]
 	- The [[Universal Quantifier]] $\forall$ means "for all" ^656027

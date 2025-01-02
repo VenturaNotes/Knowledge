@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=WwbNnXH3eAg
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-12 at 4.13.54 AM.png]]
 	- The accuracy of statistical results depend on the variability of the collected data. (will we get the same result each time we take a measurement)?

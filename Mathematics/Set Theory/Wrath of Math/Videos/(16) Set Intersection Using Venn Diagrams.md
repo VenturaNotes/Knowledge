@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Mrlr7f3hpVs
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 1.50.25 PM.png]]
 	- Visualization of an intersection in a Venn Diagram

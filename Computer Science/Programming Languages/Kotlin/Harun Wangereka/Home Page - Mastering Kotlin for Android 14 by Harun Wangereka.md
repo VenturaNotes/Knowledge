@@ -5,6 +5,7 @@ Length: "370"
 tags:
   - status/incomplete
   - type/textbook
+Reviewed: false
 ---
 ## Contributors
 - Will learn how to build powerful Android apps from scratch using Jetpack libraries and [[Jetpack Compose]]

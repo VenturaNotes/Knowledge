@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=9264s
+Reviewed: false
 ---
 - [[Multiplication]] with [[trailing zeros]]
 - Lesson objective

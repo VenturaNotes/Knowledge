@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=JVaKq-oJnFs
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-14 at 5.30.02 AM.png]]
 	- (1) [[Circle Graph]] (pie graph)

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1xaQ5pcuYAw
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-04 at 6.32.51 PM.png]]
 	- [[Pascal's Triangle]]

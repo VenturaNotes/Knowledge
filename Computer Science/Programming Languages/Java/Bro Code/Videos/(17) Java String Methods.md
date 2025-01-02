@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=P9hEmbfdiuc
+Reviewed: false
 ---
 - Reference datatypes in java are those which contains reference/address of dynamically created objects. These are not predefined like primitive data types. These are the reference types in Java [^1]
 	- class types - This reference type points to an object of a class

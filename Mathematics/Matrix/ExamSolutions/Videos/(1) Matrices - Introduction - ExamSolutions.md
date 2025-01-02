@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=zQ6yuwNOXJQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-14 at 3.59.09 PM.png]]
 	- A [[matrix]] is an array of numbers

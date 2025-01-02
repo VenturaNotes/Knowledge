@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QSh1xcbYKZk
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-07 at 8.20.52 PM.png]]
 	- Rational inequalities

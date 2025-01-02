@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=DNwCIHVuh_Q
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-16 at 5.20.28 PM.png]]
 	- Slide 9 - [[Sum Theorems]]

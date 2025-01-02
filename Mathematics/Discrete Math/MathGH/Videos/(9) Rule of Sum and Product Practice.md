@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WPK80yoMwP4
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-04 at 5.23.30 PM.png]]
 	- Rule of Sum and Product Practice

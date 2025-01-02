@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=XdwrH2-DnS0
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 10.49.42 PM.png]]
 	- [[Venn diagram|Venn diagrams]] with 3 sets

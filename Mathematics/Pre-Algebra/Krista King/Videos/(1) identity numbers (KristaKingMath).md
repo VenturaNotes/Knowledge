@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=e5jYmeu26C4
+Reviewed: false
 ---
 - Identity properties (or identity numbers)
 	- There is an identity number for addition and a different identity number for multiplication

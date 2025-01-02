@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=-AW6Y1bL4KU
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-06 at 3.02.41 AM.png]]
 	- [[Descartes Rule of Signs]]

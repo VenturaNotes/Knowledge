@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=i6_byEFjKEA
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 12.01.49 AM.png]]
 	- [[Probability Function]] $\to$ P

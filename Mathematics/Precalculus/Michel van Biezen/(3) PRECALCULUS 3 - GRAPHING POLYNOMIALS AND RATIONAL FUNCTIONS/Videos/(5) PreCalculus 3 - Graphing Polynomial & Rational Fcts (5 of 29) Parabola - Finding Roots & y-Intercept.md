@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=cL38-t0jaIk
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 1.18.32 PM.png]]
 	- (1) Determine orientation

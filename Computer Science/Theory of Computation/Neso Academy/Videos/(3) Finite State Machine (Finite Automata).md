@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Qa6csfkK7_I
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-05 at 7.22.02 AM.png]]
 	- Finite Automata

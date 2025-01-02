@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=WuWIPfYOAFc
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-20 at 8.58.32 AM.png]]
 	- value of function always equal to slope of function for any value x

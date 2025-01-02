@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=lIFeZLHVWmc
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-06 at 4.58.40 AM.png]]
 	- Building factors

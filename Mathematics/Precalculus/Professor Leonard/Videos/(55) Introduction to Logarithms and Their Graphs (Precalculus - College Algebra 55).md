@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=jfnTwz79PWU
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-13 at 2.13.14 AM.png]]
 	- Every 1 to 1 function needs to have an inverse

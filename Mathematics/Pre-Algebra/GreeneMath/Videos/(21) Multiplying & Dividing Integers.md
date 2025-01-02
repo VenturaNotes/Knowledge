@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VXzm8ReImG0&t=20065s
+Reviewed: false
 ---
 - Lesson Objectives:
 	- Learn how to multiply integers

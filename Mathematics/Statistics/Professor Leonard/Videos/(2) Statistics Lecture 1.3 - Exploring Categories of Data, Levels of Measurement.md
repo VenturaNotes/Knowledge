@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=z6dtF1eJ3m4
+Reviewed: false
 ---
 - Two types of data you can collect. Stuff that has to do with numbers and stuff that does not have to do with numbers
 - [[Qualitative]] (categorical like categories) Non-Numeric

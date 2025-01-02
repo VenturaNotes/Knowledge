@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=eE9MnoS0lc0
+Reviewed: false
 ---
 ```C
 // There was a version of code which included both declaration and initialization

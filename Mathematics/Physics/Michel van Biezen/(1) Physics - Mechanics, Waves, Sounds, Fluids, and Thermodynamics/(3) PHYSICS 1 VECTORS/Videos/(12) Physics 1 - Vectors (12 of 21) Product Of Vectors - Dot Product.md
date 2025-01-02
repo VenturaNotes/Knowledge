@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=hho9a0_y7KY
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 12.11.28 PM.png]]
 	- [[Dot Product]]

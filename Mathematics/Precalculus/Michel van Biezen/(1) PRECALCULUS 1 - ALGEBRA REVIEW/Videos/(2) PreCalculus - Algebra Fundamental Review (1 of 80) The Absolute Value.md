@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=QOg7fUuVLbM
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-21 at 8.38.07 PM.png]]
 	- Absolute value of a number will always be positive

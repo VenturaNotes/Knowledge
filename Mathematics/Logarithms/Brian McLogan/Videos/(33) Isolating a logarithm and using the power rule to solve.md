@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=_V_IlWlks_k
+Reviewed: false
 ---
 ![[Screenshot 2023-05-14 at 3.14.48 AM.png]]
 - Solution is $\pm4$

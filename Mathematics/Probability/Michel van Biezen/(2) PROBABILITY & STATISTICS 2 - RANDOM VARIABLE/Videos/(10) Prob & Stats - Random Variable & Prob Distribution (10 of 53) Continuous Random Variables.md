@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=NVZqbf6zhGA
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.15.43 PM.png]]
 	- Let x = amount of time a battery lasts (total = 200 batteries)

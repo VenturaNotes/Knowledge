@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=qFJ-Mq0XcTI
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-07 at 7.51.38 PM.png]]
 	- Even multiplicity creates a bounce

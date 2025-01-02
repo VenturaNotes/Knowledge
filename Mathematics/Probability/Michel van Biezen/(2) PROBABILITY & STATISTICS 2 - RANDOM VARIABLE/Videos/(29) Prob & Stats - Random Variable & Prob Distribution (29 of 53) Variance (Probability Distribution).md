@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=FzHqjh2pnsw
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 10.59.41 PM.png]]
 	- [[Variance]] (values with probability distribution)

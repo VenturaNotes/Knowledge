@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=gkUWLFontZU
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-13 at 1.46.08 AM.png]]
 	- If bases are equal, exponents must be equal

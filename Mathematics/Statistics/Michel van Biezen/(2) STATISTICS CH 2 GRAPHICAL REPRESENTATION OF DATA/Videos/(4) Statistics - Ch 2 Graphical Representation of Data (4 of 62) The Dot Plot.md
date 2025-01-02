@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=ePriwrjqCrI
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-16 at 3.24.43 AM.png]]
 	- Kind of like a pseudo-bar graph

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=BsC_hQmaPhI
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-22 at 8.59.55 PM.png]]
 	- First find the percent of the uncertainties compared to the nominal number

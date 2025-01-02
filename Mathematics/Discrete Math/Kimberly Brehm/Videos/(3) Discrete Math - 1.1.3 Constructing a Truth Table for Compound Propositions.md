@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=hWEZsyF3ZZc
+Reviewed: false
 ---
 ![[Screen Shot 2022-10-24 at 3.56.08 AM.png]]
 Constructing a truth table for compound propositions. We do this to find equivalencies between different compound propositions.

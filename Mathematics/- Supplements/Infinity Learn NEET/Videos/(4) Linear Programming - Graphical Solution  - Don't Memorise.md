@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=qQFAvPF2OSI
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 4.00.06 PM.png]]
 	- [[Linear Programming]] Problems

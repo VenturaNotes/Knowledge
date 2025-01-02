@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=mtt3h54aSkk
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-11 at 7.06.12 PM.png]]
 	- X = # of heads when tossing a coin 3 times

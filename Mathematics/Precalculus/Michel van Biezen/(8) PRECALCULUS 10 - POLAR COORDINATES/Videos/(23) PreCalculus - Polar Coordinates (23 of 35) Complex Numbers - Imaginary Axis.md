@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=p6larkrDuqE
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-11 at 3.16.29 AM.png]]
 	- [[Complex numbers]]

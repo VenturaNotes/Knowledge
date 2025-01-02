@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=VtS6GTmf5G4
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-07 at 3.27.38 PM.png]]
 	- Introduction to [[truth table|truth tables]]

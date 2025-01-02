@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=k5Da9CV7c_w
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 9.00.00 PM.png]]
 	- Odds in favor & against example.

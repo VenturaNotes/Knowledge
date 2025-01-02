@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=Mn4G93889BE
+Reviewed: false
 ---
 - Consider the following sets:
 	- Going to do simple set operations to get practice with operations

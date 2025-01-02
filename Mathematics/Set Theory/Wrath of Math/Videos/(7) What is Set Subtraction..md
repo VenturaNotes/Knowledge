@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=IL465-AUUVY
+Reviewed: false
 ---
 - A - B = C
 	- This defines a new set C

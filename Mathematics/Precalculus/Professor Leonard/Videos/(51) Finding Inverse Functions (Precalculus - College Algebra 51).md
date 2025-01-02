@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=fK7IPeeZoFE
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-08 at 3.33.54 PM.png]]
 	- Finding Inverse Functions

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RmMbqQp4hb8
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 9.11.39 PM.png]]
 	- [[Compound interest]] formula

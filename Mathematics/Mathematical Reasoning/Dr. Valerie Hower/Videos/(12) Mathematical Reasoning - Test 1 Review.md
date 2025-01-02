@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=AOIGNwjL-7c
+Reviewed: false
 ---
 - ![[Screenshot 2023-12-12 at 2.25.16 AM.png]]
 	- [[pairwise disjoint sets]]

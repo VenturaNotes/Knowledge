@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=AbHn39y8eUo
+Reviewed: false
 ---
 - Chapter 2 shows how we collect the data
 - Now organize

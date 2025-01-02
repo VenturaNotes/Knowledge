@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=oTZ-QQVdCp8
+Reviewed: false
 ---
 - ![[Screenshot 2023-10-11 at 12.57.22 AM.png]]
 	- [[Topology]] and [[discrete topology]]

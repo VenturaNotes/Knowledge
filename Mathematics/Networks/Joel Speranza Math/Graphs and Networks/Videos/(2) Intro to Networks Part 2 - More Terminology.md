@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=2IuU8vOyfiM
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 12.33.09 PM.png]]
 	- The 6 vertices are initially not connected so they're connected into a network now.

@@ -5,6 +5,7 @@ Length: 2 hours, 19 minutes, 19 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) Introduction to Pascal - Pascal Tutorial (Part 1)]]

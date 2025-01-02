@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=0PZyRu8UYic
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-12 at 9.07.17 AM.png]]
 - A conditional statement is true when the hypothesis is false or the conclusion is true.

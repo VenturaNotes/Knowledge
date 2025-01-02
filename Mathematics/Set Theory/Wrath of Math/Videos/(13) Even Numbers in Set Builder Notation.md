@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=eLURmpV3oUA
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-10 at 1.34.35 PM.png]]
 	- First notation

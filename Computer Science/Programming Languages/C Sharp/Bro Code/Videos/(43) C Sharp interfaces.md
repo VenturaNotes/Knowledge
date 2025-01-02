@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RuhGv81tpoU
+Reviewed: false
 ---
 - [[Programming Interface|Programming Interface]]: defines a "contract" that all the classes inheriting from should follow
 	- An interface declares "what a class should have"

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RV6X8BlO2_Y
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 7.06.30 AM.png]]
 	- Permutation or combination?

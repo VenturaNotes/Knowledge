@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=RfC8sLCHSGE
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 10.01.11 PM.png]]
 	- [[Path]]: This is a path because it's a sequence of vertices where consecutive vertices are adjacent in the graph and no vertex is repeated  ^c4db94

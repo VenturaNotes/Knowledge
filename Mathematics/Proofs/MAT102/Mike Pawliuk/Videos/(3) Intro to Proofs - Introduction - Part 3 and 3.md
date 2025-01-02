@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=IziB4HlcyB0
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-27 at 11.31.30 PM.png]]
 	- Slide 11 - Advice for succeeding in this course

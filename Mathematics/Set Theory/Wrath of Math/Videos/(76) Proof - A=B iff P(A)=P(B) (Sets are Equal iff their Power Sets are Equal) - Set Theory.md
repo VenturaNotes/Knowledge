@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=v9MXalUOIig
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 7.33.50 PM.png]]
 	- Let A and B be sets

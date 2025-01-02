@@ -5,6 +5,7 @@ Length: "613"
 tags:
   - type/textbook
   - status/incomplete
+Reviewed: false
 ---
 ## Preface
 - “[[Statistical learning]] refers to a set of tools for making sense of complex datasets.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=3&annotation=5T68RQNW))

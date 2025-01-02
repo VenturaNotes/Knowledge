@@ -7,6 +7,7 @@ Related:
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) JavaScript tutorial for complete beginners]]

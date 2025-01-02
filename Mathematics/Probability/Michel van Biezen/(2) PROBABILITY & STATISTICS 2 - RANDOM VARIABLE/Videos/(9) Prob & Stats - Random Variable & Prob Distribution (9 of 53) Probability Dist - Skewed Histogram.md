@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=dBqAjZZcpqE
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 8.08.02 PM.png]]
 	- Let x = # of people in line at the register

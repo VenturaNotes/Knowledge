@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=y7drrCK06TQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-09 at 3.35.33 PM.png]]
 	- The Unit Circle is a circle of radius 1 centered at the origin.

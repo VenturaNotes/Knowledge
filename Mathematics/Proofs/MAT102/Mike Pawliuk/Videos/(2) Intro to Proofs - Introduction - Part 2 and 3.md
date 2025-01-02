@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=yCwKIPvnD0E
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-27 at 11.22.27 PM.png]]
 	- Slide 6 - The agony and the ecstasy, part 2

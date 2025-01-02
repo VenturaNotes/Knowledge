@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=F78_7Lv-7vM
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-11 at 2.51.05 PM.png]]
 	- [[Divisibility]]

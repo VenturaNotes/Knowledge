@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=n9FtpMcJ2x4
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 3.19.08 AM.png]]
 	- Definition: The [[odds for an event]] A = $\frac{P(A)}{P(\text{Not A)}}$

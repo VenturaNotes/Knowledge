@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=GAInJ5VgJ1w
+Reviewed: false
 ---
 - Scientific notation
 	- A shorthand way to express very large or small numbers

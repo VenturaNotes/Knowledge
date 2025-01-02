@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1wPtkmvjGew
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 7.08.23 PM.png]]
 	- [[Linear programming]] example 1

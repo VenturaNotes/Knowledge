@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=EswBG4VsHnw
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-12 at 8.41.13 AM.png|500]]
 - [[De Morgan's Law]] for Logic

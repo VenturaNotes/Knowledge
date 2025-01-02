@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=BC9cL3wMlWE
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-07 at 11.15.02 PM.png]]
 	- Find the atomic weight of the oxygen in 3600g of water

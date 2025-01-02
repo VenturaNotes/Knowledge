@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=L74bnJWdHDo
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-11 at 2.01.01 PM.png]]
 	- Theorem: an even integer plus an odd integer is another odd integer

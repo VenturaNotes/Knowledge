@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=x2Ul4NtyoHw
+Reviewed: false
 ---
 - Sequences
 	- An ordered list of elements created by a function mapping the integers to a set S.

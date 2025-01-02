@@ -1,6 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/last-stone-weight/
+Reviewed: false
 ---
 ## Synthesis
 - 

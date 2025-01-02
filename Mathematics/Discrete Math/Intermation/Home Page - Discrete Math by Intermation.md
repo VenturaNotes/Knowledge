@@ -5,6 +5,7 @@ Length: 20 hours, 52 minutes, 2 seconds
 tags:
   - status/incomplete
   - type/playlist
+Reviewed: false
 ---
 - Complete
 	- [[(1) Why Learn Discrete Math. (WORD ARITHMETIC SOLVED!)]]

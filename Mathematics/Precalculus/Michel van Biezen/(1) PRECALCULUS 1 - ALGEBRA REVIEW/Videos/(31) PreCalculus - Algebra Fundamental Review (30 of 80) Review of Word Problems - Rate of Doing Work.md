@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=3Hk9SedVEa0
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-05 at 12.10.58 AM.png]]
 	- John can paint a garage in 8 hours

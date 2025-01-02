@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=-WokVRchOjo
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-08 at 5.45.41 AM.png]]
 	- Comparing standard form with traditional form of parabola

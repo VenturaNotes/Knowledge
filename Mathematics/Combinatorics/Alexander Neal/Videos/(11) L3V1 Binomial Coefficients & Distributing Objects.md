@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=D7_vwg4j3x0
+Reviewed: false
 ---
 - ![[Screenshot 2023-09-15 at 1.33.06 PM.png]]
 	- Binomial Coefficients Everywhere

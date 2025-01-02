@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=842rgQP_OgI
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-17 at 8.29.02 PM.png]]
 	- Analysis that we can do with the [[real numbers]]

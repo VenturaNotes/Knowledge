@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=wbfGKiIvEZE
+Reviewed: false
 ---
 - ![[Screenshot 2023-11-12 at 5.28.57 PM.png]]
 	- [[Mathematical Induction]]

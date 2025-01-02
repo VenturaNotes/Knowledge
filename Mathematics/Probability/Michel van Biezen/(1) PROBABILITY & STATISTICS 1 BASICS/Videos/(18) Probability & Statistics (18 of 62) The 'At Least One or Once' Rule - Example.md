@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=-b6FuQvHEmQ
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 1.24.00 AM.png]]
 	- Using 1 die, what is the probability of rolling at least 1 six in 4 tries

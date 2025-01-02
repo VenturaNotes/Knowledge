@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=QwW4PJBOHoE
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-03 at 2.29.23 PM.png]]
 	- Introduction to [[Set|sets]]

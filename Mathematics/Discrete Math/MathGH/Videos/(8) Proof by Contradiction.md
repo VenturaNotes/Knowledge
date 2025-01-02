@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=L5mBfPRQa8c
+Reviewed: false
 ---
 - ![[Screenshot 2024-01-03 at 3.47.21 PM.png]]
 	- [[Proof by contradiction]]: We assume the logical negation of the result we want to prove; then reach some kind of contradiction

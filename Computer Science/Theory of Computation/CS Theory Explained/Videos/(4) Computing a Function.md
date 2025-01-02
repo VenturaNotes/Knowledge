@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=1VMgVZpwLGQ
+Reviewed: false
 ---
 - ![[Screenshot 2023-12-19 at 2.43.47 PM.png]]
 	- We use [[Turing machines]] as an abstract model for a computer

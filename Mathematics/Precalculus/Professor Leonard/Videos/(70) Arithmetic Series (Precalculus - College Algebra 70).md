@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=XdXQjHsl4q0
+Reviewed: false
 ---
 - ![[Screenshot 2023-05-14 at 3.08.44 AM.png]]
 	- Partial sum

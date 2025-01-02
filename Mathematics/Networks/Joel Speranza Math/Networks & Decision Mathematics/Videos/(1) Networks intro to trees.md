@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=osK_wmOJ1lA
+Reviewed: false
 ---
 - ![[Screenshot 2023-01-15 at 2.21.30 PM.png|200]]
 - To create a tree, we need to join up A, B, C, and D in the subgraph we've chosen

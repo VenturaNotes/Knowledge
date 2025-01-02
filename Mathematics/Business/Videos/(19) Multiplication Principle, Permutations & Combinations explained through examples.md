@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=zi21Nv40b-s
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-08 at 11.06.36 PM.png]]
 	- [[Multiplication Principle]], [[Permutation|permutations]] and [[Combination|Combinations]]

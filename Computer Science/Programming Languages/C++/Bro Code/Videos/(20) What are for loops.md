@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=gP22X_ykkxI
+Reviewed: false
 ---
 - A for loop is a loop that will execute a block of code a specified amount of 
 ```C++

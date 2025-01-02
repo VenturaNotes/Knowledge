@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=RBTWgElcTKU
+Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 7.49.03 PM.png]]
 	- Probability functions

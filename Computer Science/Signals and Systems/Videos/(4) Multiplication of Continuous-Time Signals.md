@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=jPCgU4ghB8Q
+Reviewed: false
 ---
 - We multiply amplitudes of 2 or more signals at each instant of time to get their product
 - $x_3(t) = x_1(t) \times x_2(t)$ 

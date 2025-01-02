@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=d5da-mcVJ20
+Reviewed: false
 ---
 - Image
 	- All covectors can be written as linear combinations of the dual basis vectors.

@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=1HXbz09Bipw
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-13 at 9.26.33 PM.png]]
 	- A [[vertex-induced subgraph]] is sometimes just called an induced subgraph, however there are also [[edge-induced subgraphs]]

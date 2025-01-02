@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=s-10no8pWGg
+Reviewed: false
 ---
 - C3. a) How many even primes are there?
 	- Only one even prime exists which is 2

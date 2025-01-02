@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=FySFFWUU0OQ
+Reviewed: false
 ---
 - Set Equality
 	- Sets are equal iff they have the same elements.

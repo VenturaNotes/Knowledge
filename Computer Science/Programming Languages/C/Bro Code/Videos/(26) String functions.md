@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=5p4YpQmZdwU
+Reviewed: false
 ---
 ```C
 //If strings the same, result is 0 for strlen()

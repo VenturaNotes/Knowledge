@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=E4P-0xs5Y-U
+Reviewed: false
 ---
 - Use the euclidean algorithm to find the GCD of 180 and 84
 	- Remainder before zero is the greatest common divisor

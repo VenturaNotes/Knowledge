@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=wHATRiYbPPA
+Reviewed: false
 ---
 - ![[Screenshot 2023-03-07 at 5.29.16 AM.png]]
 	- Steps for Graphing Rational Functions

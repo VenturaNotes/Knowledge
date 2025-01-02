@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=vpqbw1pNCz4
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-13 at 1.49.00 AM.png]]
 	- [[Bayes' Theorem]]

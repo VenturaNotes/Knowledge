@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=WhACXlObR8s
+Reviewed: false
 ---
 - [[Foreach Loop]]: A simpler way to iterate over an array, but it's less flexible
 

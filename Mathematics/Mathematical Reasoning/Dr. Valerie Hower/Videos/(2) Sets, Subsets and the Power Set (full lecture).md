@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=OzNAb81cvo4
+Reviewed: false
 ---
 - ![[Screenshot 2023-12-07 at 9.52.23 AM.png]]
 	- What is a [[set]]?

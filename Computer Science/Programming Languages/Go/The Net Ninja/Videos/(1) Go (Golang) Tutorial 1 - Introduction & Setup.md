@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=etSN4X_fCnM
+Reviewed: false
 ---
 - Information
 	- Go is a "fast, statically typed, compiled language"

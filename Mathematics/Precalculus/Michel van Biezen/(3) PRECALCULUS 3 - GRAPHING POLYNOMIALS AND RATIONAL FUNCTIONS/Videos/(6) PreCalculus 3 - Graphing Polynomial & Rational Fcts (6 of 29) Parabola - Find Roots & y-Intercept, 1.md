@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=4oTyE06P5SE
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-06 at 1.20.45 PM.png]]
 	- Find orientation (upward or downward opening parabola)

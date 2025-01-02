@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=f5Mj3_qjyg0
+Reviewed: false
 ---
 - ![[Screenshot 2023-07-10 at 1.47.44 AM.png]]
 	- Writing a [[vector]] as the sum of its components

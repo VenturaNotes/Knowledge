@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=HOIDo-VPV40
+Reviewed: false
 ---
 - There exists and for all are logical quantifiers
 - Write a logical expression for the following statements

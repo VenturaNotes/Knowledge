@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=JTBS94sskvc
+Reviewed: false
 ---
 - ![[Screenshot 2024-11-10 at 6.05.57 PM.png]]
 	- How many different type of nut mixtures can you make from 4 types of nuts

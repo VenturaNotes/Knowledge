@@ -1,6 +1,7 @@
 ---
 Source:
   - https://youtube.com/watch?v=8HeCKp5R7Dc
+Reviewed: false
 ---
 - ![[Screenshot 2023-06-05 at 7.51.15 PM.png]]
 	- Suppose that A, B, and C are sets with C $\ne$ $\varnothing$ 

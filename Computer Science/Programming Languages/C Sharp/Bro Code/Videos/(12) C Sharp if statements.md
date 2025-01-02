@@ -1,6 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=pSPQnXleaS8
+Reviewed: false
 ---
 - [[if statement]] is a basic form of decision making
 - = is an as [[assignment operator]]
