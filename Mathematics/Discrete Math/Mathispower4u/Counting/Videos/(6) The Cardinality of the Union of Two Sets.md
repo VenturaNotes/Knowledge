@@ -3,4 +3,25 @@ Source:
   - https://www.youtube.com/watch?v=LMJ32J5KlBo
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-02 at 1.28.59 PM.png]]
+	- Cardinality of Unions (Not Disjoint)
+		- The cardinality of a set is the number of elements in a set
+		- [[Cardinality]] of a [[union]] (2 sets): For any finite sets A and B, $|A \cup B| = |A| + |B| - |A \cap B|$ 
+			- This still works for disjoint sets but $|A \cap B|$ is just 0
+		- The process of adding in, then taking out, then adding back in, and so on is called the [[principle of inclusion-exclusion]], or simply PIE
+		- Example: For haw many n $\in$ {1, 2, 3, ..., 30} is n a multiple of 2 or 3?
+	- Cardinality of Unions (Disjoint)
+		- Cardinality of a union (2 sets): For any finite sets A and B,
+			- $| A \cup B| = |A| + |B| - |A \cap B| = |A| + |B|$ 
+	- Cardinality of Unions
+		- [[Cardinality]] of a [[union]] (2 sets): For any finite sets A and B, $|A \cup B| = |A| + |B| - |A \cap B|$.
+		- Example: For haw many n $\in$ {1, 2, 3, ..., 30} is n a multiple of 2 or 3?
+			- Let A = the set containing multiples of 2 from the set
+				- $\frac {30}{2} = 15$
+			- Let B = the set containing multiples of 3 from the set
+				- $\frac{30}{3} = 10$
+			- $A \cap B$ = the set containing multiples of 2 and 3 or multiples of 6
+				- $\frac{30}{6} = 5$ 
+			- $A \cup B$ = the set containing multiples of 2 or 3
+				- So there are 20 elements in the set that are multiples of 2 or 3 
+	- Using a diagram to make it more clear

@@ -3,4 +3,19 @@ Source:
   - https://www.youtube.com/watch?v=Vzq7_EwubZQ
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-02 at 1.19.56 PM.png]]
+	- Problem similar to previous one
+	- Additive and Multiplicative Principles
+		- We usually write numbers in decimal form (or base 10), meaning numbers are composed using 10 different "digits" {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. Sometimes though it is useful to write numbers [[hexadecimal]]  or base 16. Now there are 16 distinct digits that can be used to form numbers: {0, 1, ...., 9, A, B, C, D, E, F}. For example, 2B8 is a 3-digit hexadecimal string. How many 2-digit hexadecimals strings start with C-F?
+			- Calculate your answer using both the additive and multiplicative methods
+			- Additive method (using [[additive principle]])
+				- 16 + 16 + 16 + 16
+			- Multiplication method (using [[multiplicative principle]])
+				- $4*16$
+	- Assume 000-FFF are all valid strings
+		- How many 3-digit hexadecimal strings start with C-F and end with 2-6?
+			- Finding possibilities for each digit
+		- How many 3-digit hexadecimal strings start with C-F and end with 2-6?
+			- (Start with C-F) + (End with 2-6) - (Start with C-F and End with 2-6)
+		- $|A \cup B| = |A| + |B| - |A \cap B|$ 
+			- A and B are not disjoint

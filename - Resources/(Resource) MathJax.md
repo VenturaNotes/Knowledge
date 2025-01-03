@@ -128,3 +128,5 @@ http://detexify.kirelabs.org/classify.html
 - Adding extra space :
 	- $A \qquad B$
 	- $A \quad B$ 
+- Combination: $_nC_k$ 
+	- Might be a bug with equals sign: $=_nC_k$ 

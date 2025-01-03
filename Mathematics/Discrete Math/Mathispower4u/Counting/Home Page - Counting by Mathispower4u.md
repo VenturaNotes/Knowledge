@@ -11,7 +11,6 @@ Reviewed: false
 	- [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]
 	- [[(2) Counting Principle With Playing Cards - Picking 1 and 2 Cards (Not Disjoint)]]
 	- [[(3) Counting - Neck Wear and  Outfits (Additive and Multiplicative Principles)]]
-- Incomplete
 	- [[(4) Counting - Number of Hexadecimal Numbers with Restrictions (And and Or)]]
 	- [[(5) Counting - Number of Hexadecimal Strings with Restrictions (And and Or)]]
 	- [[(6) The Cardinality of the Union of Two Sets]]
@@ -25,6 +24,7 @@ Reviewed: false
 	- [[(14) Determine How Many Subsets Meet Various Conditions (2)]]
 	- [[(15) Determine How Many Subsets Meet Various Conditions (1)]]
 	- [[(16) Determine How Many Subsets Have More Than a Given Cardinality]]
+- Incomplete
 	- [[(17) Introduction to Bit Strings]]
 	- [[(18) Determine the Number of 10-Bit Strings Under Various Conditions]]
 	- [[(19) Problem Solving with Bit Strings - Coin Problems]]

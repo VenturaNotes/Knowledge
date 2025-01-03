@@ -215,7 +215,7 @@ class Solution:
 ## References
 
 [^1]: https://www.youtube.com/watch?v=KLlXCFG5TnA
-[^2]: https://neetcode.io/roadmap
+[^2]: https://neetcode.io/solutions/two-sum
 [^3]: https://leetcode.com/problems/two-sum/editorial/
 [^4]: https://leetcode.com/problems/two-sum/solutions/127810/two-sum/
 [^5]: https://stackoverflow.com/questions/65085114/what-is-2-pass-and-1-pass-hash-table#:~:text=Since%20their%20%22better%20solution%22%20stores,this%20answer%20to%20receive%20notifications
