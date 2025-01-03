@@ -179,5 +179,5 @@ class Solution:
 ## References
 
 [^1]: https://www.youtube.com/watch?v=3OamzN90kPg
-[^2]: https://neetcode.io/roadmap
+[^2]: https://neetcode.io/solutions/contains-duplicate
 [^3]: ChatGPT
