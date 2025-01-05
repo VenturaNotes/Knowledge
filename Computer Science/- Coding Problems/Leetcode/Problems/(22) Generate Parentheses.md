@@ -44,6 +44,80 @@ class Solution:
 	- Giving 5 different combinations
 - #question What is the time complexity and space complexity of this?
 
+## Source[^2]
+### (1) Brute Force
+```python
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        res = []
+
+        def valid(s: str):
+            open = 0
+            for c in s:
+                open += 1 if c == '(' else -1
+                if open < 0:
+                    return False
+            return not open
+
+        def dfs(s: str):
+            if n * 2 == len(s):
+                if valid(s):
+                    res.append(s)
+                return
+            
+            dfs(s + '(')
+            dfs(s + ')')
+        
+        dfs("")
+        return res
+```
+Time Complexity: $O(2^{2n}*n)$
+Space Complexity: $O(2^{2n}*n)$
+### (2) Backtracking
+```python
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        stack = []
+        res = []
+
+        def backtrack(openN, closedN):
+            if openN == closedN == n:
+                res.append("".join(stack))
+                return
+
+            if openN < n:
+                stack.append("(")
+                backtrack(openN + 1, closedN)
+                stack.pop()
+            if closedN < openN:
+                stack.append(")")
+                backtrack(openN, closedN + 1)
+                stack.pop()
+
+        backtrack(0, 0)
+        return res
+```
+Time Complexity: $O(\frac{4^n}{\sqrt{n}})$
+Space Complexity: $O(n)$
+
+### (3) Dynamic Programming
+```python
+class Solution:
+    def generateParenthesis(self, n):
+        res = [[] for _ in range(n+1)]
+        res[0] = [""]
+        
+        for k in range(n + 1):
+            for i in range(k):
+                for left in res[i]:
+                    for right in res[k-i-1]:
+                        res[k].append("(" + left + ")" + right)
+        
+        return res[-1]
+```
+Time Complexity: $O(\frac {4^n}{\sqrt{n}})$
+Space Complexity: $O(n)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=s9fokUqJ76A
+[^2]: https://neetcode.io/solutions/generate-parentheses

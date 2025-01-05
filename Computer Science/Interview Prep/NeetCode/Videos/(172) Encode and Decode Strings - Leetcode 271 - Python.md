@@ -60,6 +60,76 @@ class Solution:
 		- Appending `8: 12` meaning gives `code`
 		- `i = 7+1+4 = 12`
 	- While loop exists and returns `res`!
+
+## Source[^2]
+### (1) Encoding & Decoding
+```python
+class Solution:
+    def encode(self, strs: List[str]) -> str:
+        if not strs:
+            return ""
+        sizes, res = [], ""
+        for s in strs:
+            sizes.append(len(s))
+        for sz in sizes:
+            res += str(sz)
+            res += ','
+        res += '#'
+        for s in strs:
+            res += s
+        return res
+
+    def decode(self, s: str) -> List[str]:
+        if not s:
+            return []
+        sizes, res, i = [], [], 0
+        while s[i] != '#':
+            cur = ""
+            while s[i] != ',':
+                cur += s[i]
+                i += 1
+            sizes.append(int(cur))
+            i += 1
+        i += 1
+        for sz in sizes:
+            res.append(s[i:i + sz])
+            i += sz
+        return res
+```
+Time Complexity: $O(m)$ for encode() and decode()
+Space Complexity: $O(n)$ for encode() and decode()
+- Where $m$ is the sum of lengths of all the strings and $n$ is the number of strings.
+
+### (2) Encoding & Decoding (Optimal)
+```python
+class Solution:
+    
+    def encode(self, strs: List[str]) -> str:
+        res = ""
+        for s in strs:
+            res += str(len(s)) + "#" + s
+        return res
+
+    def decode(self, s: str) -> List[str]:
+        res = []
+        i = 0
+        
+        while i < len(s):
+            j = i
+            while s[j] != '#':
+                j += 1
+            length = int(s[i:j])
+            i = j + 1
+            j = i + length
+            res.append(s[i:j])
+            i = j
+            
+        return res
+```
+Time Complexity: $O(m)$ for encode and decode()
+Space Complexity: $O(1)$ for encode() and decode()
+- When $m$ is the sum of lengths of all the strings and $n$ is the number of strings
 ## References
 
 [^1]: https://youtu.be/B1k_sxOSgv8?si=Ve2y0NklpNMV0l_I
+[^2]: https://neetcode.io/solutions/encode-and-decode-strings

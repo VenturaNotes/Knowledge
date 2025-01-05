@@ -36,6 +36,30 @@ class Solution:
                 size = 0
         return res
 ```
+## Sources[^2]
+### (1) Two Pointers (Greedy)
+```python
+class Solution:
+    def partitionLabels(self, s: str) -> List[int]:
+        lastIndex = {}
+        for i, c in enumerate(s):
+            lastIndex[c] = i
+        
+        res = []
+        size = end = 0
+        for i, c in enumerate(s):
+            size += 1
+            end = max(end, lastIndex[c])
+
+            if i == end:
+                res.append(size)
+                size = 0
+        return res
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(m)$
+- Where $n$ is the length of the string $s$ and $m$ is the number of unique characters in the string $s$ 
 ## References
 
 [^1]: https://www.youtube.com/watch?v=B7m8UmZE-vw
+[^2]: https://neetcode.io/solutions/partition-labels

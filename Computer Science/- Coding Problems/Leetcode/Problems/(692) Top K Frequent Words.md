@@ -77,6 +77,71 @@ Class Solution:
 	- O(klogn) is a doable solution for heap
 	- Could do this in O(n) time 
 - ![[Screenshot 2024-10-09 at 3.18.56 AM.png]]
+## Source[^2]
+### (1) Sorting
+```python
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        count = {}
+        for num in nums:
+            count[num] = 1 + count.get(num, 0)
+
+        arr = []
+        for num, cnt in count.items():
+            arr.append([cnt, num])
+        arr.sort()
+
+        res = []
+        while len(res) < k:
+            res.append(arr.pop()[1])
+        return res
+```
+Time Complexity: $O(nlogn)$
+Space Complexity: $O(n)$
+### (2) Heap
+```python
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        count = {}
+        for num in nums:
+            count[num] = 1 + count.get(num, 0)
+
+        heap = []
+        for num in count.keys():
+            heapq.heappush(heap, (count[num], num))
+            if len(heap) > k:
+                heapq.heappop(heap)
+
+        res = []
+        for i in range(k):
+            res.append(heapq.heappop(heap)[1])
+        return res
+```
+Time Complexity: $O(nlogk)$
+Space Complexity: $O(n+k)$
+- Where $n$ is the length of the array and $k$ is the number of top frequent elements
+### (3) Bucket Sort
+```python
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        count = {}
+        freq = [[] for i in range(len(nums) + 1)]
+
+        for num in nums:
+            count[num] = 1 + count.get(num, 0)
+        for num, cnt in count.items():
+            freq[cnt].append(num)
+        
+        res = []
+        for i in range(len(freq) - 1, 0, -1):
+            for num in freq[i]:
+                res.append(num)
+                if len(res) == k:
+                    return res
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(n)$
 ## References
 
 [^1]: https://youtu.be/YPTqKIgVk-k?si=y6KXepaOXKAEbyLU
+[^2]: https://neetcode.io/solutions/top-k-frequent-elements

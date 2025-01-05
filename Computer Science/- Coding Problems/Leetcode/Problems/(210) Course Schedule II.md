@@ -54,6 +54,103 @@ class Solution:
                 return []
         return output
 ```
+## Source[^2]
+### (1) Cycle Detection (DFS)
+```python
+class Solution:
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        prereq = {c: [] for c in range(numCourses)}
+        for crs, pre in prerequisites:
+            prereq[crs].append(pre)
+
+        output = []
+        visit, cycle = set(), set()
+
+        def dfs(crs):
+            if crs in cycle:
+                return False
+            if crs in visit:
+                return True
+
+            cycle.add(crs)
+            for pre in prereq[crs]:
+                if dfs(pre) == False:
+                    return False
+            cycle.remove(crs)
+            visit.add(crs)
+            output.append(crs)
+            return True
+
+        for c in range(numCourses):
+            if dfs(c) == False:
+                return []
+        return output
+```
+Time Complexity: $O(V + E)$
+Space Complexity: $O(V + E)$
+- Where V is the number of courses and E is the number of prerequisites
+### (2) Topological Sort (Kahn's Algorithm)
+```python
+class Solution:
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        indegree = [0] * numCourses
+        adj = [[] for i in range(numCourses)]
+        for src, dst in prerequisites:
+            indegree[dst] += 1
+            adj[src].append(dst)
+
+        q = deque()
+        for n in range(numCourses):
+            if indegree[n] == 0:
+                q.append(n)
+        
+        finish, output = 0, []
+        while q:
+            node = q.popleft()
+            output.append(node)
+            finish += 1
+            for nei in adj[node]:
+                indegree[nei] -= 1
+                if indegree[nei] == 0:
+                    q.append(nei)
+        
+        if finish != numCourses:
+            return []
+        return output[::-1]
+```
+Time Complexity: $O(V + E)$
+Space Complexity: $O(V + E)$
+- Where V is the number of courses and E is the number of prerequisites
+### (3) Topological Sort (DFS)
+```python
+class Solution:
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        adj = [[] for i in range(numCourses)]
+        indegree = [0] * numCourses
+        for nxt, pre in prerequisites:
+            indegree[nxt] += 1
+            adj[pre].append(nxt)
+        
+        output = []
+
+        def dfs(node):
+            output.append(node)
+            indegree[node] -= 1
+            for nei in adj[node]:
+                indegree[nei] -= 1
+                if indegree[nei] == 0:
+                    dfs(nei)
+        
+        for i in range(numCourses):
+            if indegree[i] == 0:
+                dfs(i)
+        
+        return output if len(output) == numCourses else []
+```
+Time Complexity: $O(V + E)$
+Space Complexity: $O(V +E)$
+- Where V is the number of courses and E is the number of prerequisites
 ## References
 
 [^1]: https://www.youtube.com/watch?v=Akt3glAwyfY
+[^2]: https://neetcode.io/solutions/course-schedule-ii

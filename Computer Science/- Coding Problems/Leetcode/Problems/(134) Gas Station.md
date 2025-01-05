@@ -31,6 +31,72 @@ class Solution:
         return res
 
 ```
+## Source[^2]
+### (1) Brute Force
+```python
+class Solution:
+    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+        n = len(gas)
+
+        for i in range(n):
+            tank = gas[i] - cost[i]
+            if tank < 0:
+                continue
+            j = (i + 1) % n
+            while j != i:
+                tank += gas[j]
+                tank -= cost[j]
+                if tank < 0:
+                    break
+                j += 1
+                j %= n
+            if j == i:
+                return i
+        return -1
+```
+Time Complexity: $O(n^2)$
+Space Complexity: $O(1)$
+
+### (2) Two Pointers
+```python
+class Solution:
+    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+        n = len(gas)
+        start, end = n - 1, 0
+        tank = gas[start] - cost[start]
+        while start > end:
+            if tank < 0:
+                start -= 1
+                tank += gas[start] - cost[start]
+            else:
+                tank += gas[end] - cost[end]
+                end += 1
+        return start if tank >= 0 else -1
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
+
+### (3) Greedy
+```python
+class Solution:
+    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+        if sum(gas) < sum(cost):
+            return -1
+
+        total = 0
+        res = 0
+        for i in range(len(gas)):
+            total += (gas[i] - cost[i])
+
+            if total < 0:
+                total = 0
+                res = i + 1
+        
+        return res
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=lJwbPZGo05A
+[^2]: https://neetcode.io/solutions/gas-station

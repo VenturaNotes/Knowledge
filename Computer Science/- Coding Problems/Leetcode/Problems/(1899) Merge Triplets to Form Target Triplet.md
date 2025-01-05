@@ -24,6 +24,40 @@ class Solution:
                     good.add(i)
         return len(good) == 3
 ```
+## Source[^2]
+### (1) Greedy
+```python
+class Solution:
+    def mergeTriplets(self, triplets: List[List[int]], target: List[int]) -> bool:
+        good = set()
+
+        for t in triplets:
+            if t[0] > target[0] or t[1] > target[1] or t[2] > target[2]:
+                continue
+            for i, v in enumerate(t):
+                if v == target[i]:
+                    good.add(i)
+        return len(good) == 3
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
+
+### (2) Greedy (Optimal)
+```python
+class Solution:
+    def mergeTriplets(self, triplets: List[List[int]], target: List[int]) -> bool:
+        x = y = z = False
+        for t in triplets:
+            x |= (t[0] == target[0] and t[1] <= target[1] and t[2] <= target[2])
+            y |= (t[0] <= target[0] and t[1] == target[1] and t[2] <= target[2])
+            z |= (t[0] <= target[0] and t[1] <= target[1] and t[2] == target[2])
+            if x and y and z:
+                return True
+        return False
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=kShkQLQZ9K4
+[^2]: https://neetcode.io/solutions/merge-triplets-to-form-target-triplet

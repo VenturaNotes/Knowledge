@@ -32,6 +32,56 @@ class Solution:
             r+=1
         return maxP
 ```
+## Source[^2]
+### (1) Brute Force
+```python
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        res = 0
+        for i in range(len(prices)):
+            buy = prices[i]
+            for j in range(i + 1, len(prices)):
+                sell  = prices[j]
+                res = max(res, sell - buy)
+        return res
+```
+Time Complexity: $O(n^2)$
+Space Complexity: $O(1)$
+
+### (2) Two Pointers
+```python
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        l, r = 0, 1
+        maxP = 0
+
+        while r < len(prices):
+            if prices[l] < prices[r]:
+                profit = prices[r] - prices[l]
+                maxP = max(maxP, profit)
+            else:
+                l = r
+            r += 1
+        return maxP
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
+
+### (3) Dynamic Programming
+```python
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        maxP = 0
+        minBuy = prices[0]
+
+        for sell in prices:
+            maxP = max(maxP, sell - minBuy)
+            minBuy = min(minBuy, sell)
+        return maxP
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=1pkOgXD63yU
+[^2]: https://neetcode.io/solutions/best-time-to-buy-and-sell-stock

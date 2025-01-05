@@ -31,6 +31,41 @@ class Solution:
 				stack.append(c)
 		return True if not stack else False
 ```
+## Source[^2]
+### (1) Brute Force
+```python
+class Solution:
+    def isValid(self, s: str) -> bool:
+        while '()' in s or '{}' in s or '[]' in s:
+            s = s.replace('()', '')
+            s = s.replace('{}', '')
+            s = s.replace('[]', '')
+        return s == ''
+```
+Time Complexity: $O(n^2)$
+Space Complexity: $O(n)$
+
+### (2) Stack
+```python
+class Solution:
+    def isValid(self, s: str) -> bool:
+        stack = []
+        closeToOpen = { ")" : "(", "]" : "[", "}" : "{" }
+
+        for c in s:
+            if c in closeToOpen:
+                if stack and stack[-1] == closeToOpen[c]:
+                    stack.pop()
+                else:
+                    return False
+            else:
+                stack.append(c)
+        
+        return True if not stack else False
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(n)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=WTzjTskDFMg
+[^2]: https://neetcode.io/solutions/valid-parentheses

@@ -88,7 +88,7 @@ return len(nums) != len(set(nums))
 ```
 
 ## Source [^2]
-### Brute Force
+### (1) Brute Force
 ```python
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
@@ -128,7 +128,7 @@ i = 1, j = 3, nums[i] = 2, nums[j] = 3
 True
 ```
 
-### Sorting
+### (2) Sorting
 ```python
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
@@ -147,7 +147,7 @@ class Solution:
 	- Then we just check adjacent numbers in the list if they're equal. Possible because duplicate numbers would be guaranteed next to each other
 	- A index error is avoided by doing `range(1, len(nums))`
 		- If `nums = [42]`, then the range would equal `(1, 1)` which would be an empty range so the for loop is skipped. An array with a single element will always not have a duplicate
-### Hash Set
+### (3) Hash Set
 ```python
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
@@ -165,7 +165,7 @@ class Solution:
 		- Checking membership in a [[set]] is considered O(1) on average
 		- If there are many [[hash collisions]], lookup time can degrade to O(n) but Python has mechanisms such as [[chaining]] or [[open addressing]] 
 
-### Hash Set Length
+### (4) Hash Set Length
 ```python
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
