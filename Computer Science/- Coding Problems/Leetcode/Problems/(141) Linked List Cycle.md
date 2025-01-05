@@ -45,6 +45,50 @@ class Solution:
         
         return False
 ```
+## Source[^2]
+### (1) Hash Set
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        seen = set()
+        cur = head
+        while cur:
+            if cur in seen:
+                return True
+            seen.add(cur)
+            cur = cur.next
+        return False
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(n)$
+### (2) Fast and Slow Pointers
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        slow, fast = head, head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+        return False
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=gBTe7lFR3vc
+[^2]: https://neetcode.io/solutions/linked-list-cycle

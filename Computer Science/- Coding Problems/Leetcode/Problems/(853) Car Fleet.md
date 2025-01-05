@@ -47,6 +47,43 @@ class Solution:
 			- For `1, 7`, the first car will reach the end faster than the second car causing 2 fleets
 			- For `1, 7, 3`, the third car will reach first combining with the second car so it's popped
 			- For  `1, 7, 12`, the second car will reach first before the last car meaning there are 3 fleets total	  
+## Source[^2]
+### (1) Stack
+```python
+class Solution:
+    def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
+        pair = [(p, s) for p, s in zip(position, speed)]
+        pair.sort(reverse=True)
+        stack = []
+        for p, s in pair:  # Reverse Sorted Order
+            stack.append((target - p) / s)
+            if len(stack) >= 2 and stack[-1] <= stack[-2]:
+                stack.pop()
+        return len(stack)
+```
+Time Complexity: $O(nlogn)$
+Space Complexity: $O(n)$
+
+### (2) Iteration
+```python
+class Solution:
+    def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
+        pair = [(p, s) for p, s in zip(position, speed)]
+        pair.sort(reverse=True)
+        
+        fleets = 1
+        prevTime = (target - pair[0][0]) / pair[0][1]
+        for i in range(1, len(pair)):
+            currCar = pair[i]
+            currTime = (target - currCar[0]) / currCar[1]
+            if currTime > prevTime:
+                fleets += 1
+                prevTime = currTime
+        return fleets
+```
+Time Complexity: $O(nlogn)$
+Space Complexity: $O(n)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=Pr6T-3yB9RM
+[^2]: https://neetcode.io/solutions/car-fleet

@@ -42,6 +42,55 @@ class Solution:
                 r = m -1
         return res
 ```
+## Source[^2]
+### (1) Brute Force
+```python
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        return min(nums)
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
+
+### (2) Binary Search
+```python
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        res = nums[0]
+        l, r = 0, len(nums) - 1
+
+        while l <= r:
+            if nums[l] < nums[r]:
+                res = min(res, nums[l])
+                break
+            
+            m = (l + r) // 2
+            res = min(res, nums[m])
+            if nums[m] >= nums[l]:
+                l = m + 1
+            else:
+                r = m - 1
+        return res
+```
+Time Complexity: $O(logn)$
+Space Complexity: $O(1)$
+
+### (3) Binary Search (Lower Bound)
+```python
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        l, r = 0, len(nums) - 1
+        while l < r:
+            m = l + (r - l) // 2
+            if nums[m] < nums[r]:
+                r = m
+            else:
+                l = m + 1
+        return nums[l]
+```
+Time Complexity: $O(logn)$
+Space Complexity: $O(1)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=nIVW4P8b1VA
+[^2]: https://neetcode.io/solutions/find-minimum-in-rotated-sorted-array

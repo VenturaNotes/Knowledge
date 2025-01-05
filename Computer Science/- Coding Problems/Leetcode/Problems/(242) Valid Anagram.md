@@ -113,7 +113,7 @@ class Solution:
 
 ## Source[^4]
 Compare two strings and return true if [[Anagram|anagrams]], false otherwise
-### Sorting
+### (1) Sorting
 ```python
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
@@ -130,7 +130,7 @@ class Solution:
 		- Otherwise, use the sorted method sort them and see if the characters all match
 			- It is possible to just have `return sorted(s) == sorted(t)` as the final solution
 
-### Hash Table
+### (2) Hash Table
 ```python
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
@@ -164,7 +164,7 @@ class Solution:
 			- The `return countS == CountT` has a time complexity of `O(n)` where `n` is the number of unique characters
 		- So because of the for loop and dictionary comparison, the time complexity would be $O(2n)$ unsimplified but still $O(n)$ overall for worst case complexity.  
 
-### Hash Table (Optimal)
+### (3) Hash Table (Optimal)
 ```python
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
@@ -195,5 +195,5 @@ class Solution:
 [^1]: https://icarus.cs.weber.edu/~dab/cs1410/textbook/8.Strings/progexample/anagram.html#:~:text=%22An%20anagram%20is%20a%20word,cases%20(upper%20or%20lower).
 [^2]: https://www.youtube.com/watch?v=9UtInBqnCgA
 [^3]: https://leetcode.com/problems/valid-anagram/solutions/4410317/video-give-me-5-minutes-4-solutions-how-we-think-about-a-solution/
-[^4]: https://neetcode.io/roadmap
+[^4]: https://neetcode.io/solutions/valid-anagram
 [^5]: ChatGPT

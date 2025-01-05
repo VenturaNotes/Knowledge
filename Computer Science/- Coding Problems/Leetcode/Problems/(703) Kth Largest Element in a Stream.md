@@ -32,6 +32,45 @@ class KthLargest:
         return self.minHeap[0]
 
 ```
+## Source[^2]
+### (1) Sorting
+```python
+class KthLargest:
+
+    def __init__(self, k: int, nums: List[int]):
+        self.k = k
+        self.arr = nums
+
+    def add(self, val: int) -> int:
+        self.arr.append(val)
+        self.arr.sort()
+        return self.arr[len(self.arr) - self.k]
+```
+Time Complexity: $O(m*nlogn)$
+Space Complexity: $O(1)$ or $O(n)$ depending on the sorting algorithm
+- Where $m$ is the number of calls made to $add()$ and $n$ is the current size of the array.
+### (2) Min-Heap
+```python
+class KthLargest:
+    
+    def __init__(self, k: int, nums: List[int]):
+        self.minHeap, self.k = nums, k
+        heapq.heapify(self.minHeap)
+        while len(self.minHeap) > k:
+            heapq.heappop(self.minHeap)
+
+    def add(self, val: int) -> int:
+        heapq.heappush(self.minHeap, val)
+        if len(self.minHeap) > self.k:
+            heapq.heappop(self.minHeap)
+        return self.minHeap[0]
+```
+Time Complexity: $O(m*logk)$
+Space Complexity: $O(k)$
+- Where $m$ is the number of calls made to $add()$
+
+
 ## References
 
 [^1]: https://www.youtube.com/watch?v=hOjcdrqMoQ8
+[^2]: https://neetcode.io/solutions/kth-largest-element-in-a-stream

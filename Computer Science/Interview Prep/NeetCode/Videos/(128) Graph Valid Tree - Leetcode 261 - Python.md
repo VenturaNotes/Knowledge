@@ -52,6 +52,112 @@ class Solution:
         return dfs(0, -1) and n == len(visit)
         
 ```
+## Source[^2]
+### (1) Cycle Detection (DFS)
+```python
+class Solution:
+    def validTree(self, n: int, edges: List[List[int]]) -> bool:
+        if len(edges) > (n - 1):
+            return False
+        
+        adj = [[] for _ in range(n)]
+        for u, v in edges:
+            adj[u].append(v)
+            adj[v].append(u)
+        
+        visit = set()
+        def dfs(node, par):
+            if node in visit:
+                return False
+            
+            visit.add(node)
+            for nei in adj[node]:
+                if nei == par:
+                    continue
+                if not dfs(nei, node):
+                    return False
+            return True
+        
+        return dfs(0, -1) and len(visit) == n
+```
+Time Complexity: $O(V + E)$
+Space Complexity: $O(V + E)$
+- Where V is the number of vertices and E is the number of edges in the graph
+### (2) Breadth First Search
+```python
+class Solution:
+    def validTree(self, n: int, edges: List[List[int]]) -> bool:
+        if len(edges) > n - 1:
+            return False
+        
+        adj = [[] for _ in range(n)]
+        for u, v in edges:
+            adj[u].append(v)
+            adj[v].append(u)
+        
+        visit = set()
+        q = deque([(0, -1)])  # (current node, parent node)
+        visit.add(0)
+        
+        while q:
+            node, parent = q.popleft()
+            for nei in adj[node]:
+                if nei == parent:
+                    continue
+                if nei in visit:
+                    return False
+                visit.add(nei)
+                q.append((nei, node))
+        
+        return len(visit) == n
+```
+Time Complexity: $O(V + E)$
+Space Complexity: $O(V +E)$
+- Where V is the number of vertices and E is the number of edges in the graph.
+### (3) Disjoint Set Union
+```python
+class DSU:
+    def __init__(self, n):
+        self.comps = n
+        self.Parent = list(range(n + 1))
+        self.Size = [1] * (n + 1)
+
+    def find(self, node):
+        if self.Parent[node] != node:
+            self.Parent[node] = self.find(self.Parent[node])
+        return self.Parent[node]
+
+    def union(self, u, v):
+        pu = self.find(u)
+        pv = self.find(v)
+        if pu == pv:
+            return False
+
+        self.comps -= 1
+        if self.Size[pu] < self.Size[pv]:
+            pu, pv = pv, pu
+        self.Size[pu] += self.Size[pv]
+        self.Parent[pv] = pu
+        return True
+    
+    def components(self):
+        return self.comps
+
+class Solution:
+    def validTree(self, n: int, edges: List[List[int]]) -> bool:
+        if len(edges) > n - 1:
+            return False
+        
+        dsu = DSU(n)
+        for u, v in edges:
+            if not dsu.union(u, v):
+                return False
+        return dsu.components() == 1
+```
+Time Complexity: $O(V + (E + \alpha(V)))$
+Space Complexity: $O(V)$
+- Where V is the number of vertices and E is the number of edges in the graph. $\alpha$() is used for amortized complexity 
 ## References
 
 [^1]: https://www.youtube.com/watch?v=bXsUuownnoQ
+[^2]: https://neetcode.io/solutions/graph-valid-tree

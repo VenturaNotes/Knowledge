@@ -47,7 +47,7 @@ class Solution(object):
 	- `i != j`
 	- There is exactly one pair of indices that satisfy the condition
 	- Return the smaller index first
-### Brute Force
+### (1) Brute Force
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -63,7 +63,7 @@ class Solution:
 	- Have `i` iterate through `nums` and have `j` iterate through `nums` while always starting one ahead of `i`
 		- This guarantees that `i != j` and it prevents re-calculations
 	- Might not need the last `return []` since every input would have exactly one pair of indices
-### Sorting
+### (2) Sorting
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -88,7 +88,7 @@ class Solution:
 - Space Complexity: $O(n)$
 - #comment 
 	- Don't need the `return []` as the last line since there will always be a solution given the input for this problem
-### Hash Map (Two Pass)
+### (3) Hash Map (Two Pass)
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -104,7 +104,7 @@ class Solution:
 ```
 - Time Complexity: $O(n)$
 - Space Complexity: $O(n)$
-### Hash Map (One Pass)
+### (4) Hash Map (One Pass)
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:

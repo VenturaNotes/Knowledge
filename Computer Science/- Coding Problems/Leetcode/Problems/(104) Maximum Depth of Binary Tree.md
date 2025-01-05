@@ -87,6 +87,86 @@ class Solution:
                 stack.append([node.right, depth + 1])
         return res
 ```
+## Source[^2]
+### (1) Recursive DFS
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+class Solution:
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
+        if not root:
+            return 0
+
+        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(h)$
+- Best Case([[balanced tree]]): $O(log(n))$
+	- [@](https://www.geeksforgeeks.org/balanced-binary-tree/)
+- Worst Case ([[degenerate tree]])
+	- [@](https://www.geeksforgeeks.org/introduction-to-degenerate-binary-tree/)
+- Where $n$ is the number of nodes in the tree and $h$ is the height of the tree
+
+### (2) Iterative DFS (Stack)
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+class Solution:
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
+        stack = [[root, 1]]
+        res = 0
+
+        while stack:
+            node, depth = stack.pop()
+
+            if node:
+                res = max(res, depth)
+                stack.append([node.left, depth + 1])
+                stack.append([node.right, depth + 1])
+        return res
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(n)$
+
+### (3) Breadth First Search
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+class Solution:
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
+        q = deque()
+        if root:
+            q.append(root)
+
+        level = 0
+        while q:
+            for i in range(len(q)):
+                node = q.popleft()
+                if node.left:
+                    q.append(node.left)
+                if node.right:
+                    q.append(node.right)
+            level += 1
+        return level
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(n)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=hTM3phVI6YQ
+[^2]: https://neetcode.io/solutions/maximum-depth-of-binary-tree

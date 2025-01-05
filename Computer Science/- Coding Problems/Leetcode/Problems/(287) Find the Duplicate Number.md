@@ -46,6 +46,124 @@ class Solution:
             if slow == slow2:
                 return slow
 ```
+## Source[^2]
+### (1) Sorting
+```python
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        nums.sort()
+        for i in range(len(nums) - 1):
+            if nums[i] == nums[i + 1]:
+                return nums[i]
+        return -1
+```
+Time Complexity: $O(nlogn)$
+Space Complexity: $O(1)$ or $O(n)$ depending on the sorting algorithm
+
+### (2) Hash Set
+```python
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        seen = set()
+        for num in nums:
+            if num in seen:
+                return num
+            seen.add(num)
+        return -1
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(n)$
+### (3) Array
+```python
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        seen = [0] * len(nums)
+        for num in nums:
+            if seen[num - 1]:
+                return num
+            seen[num - 1] = 1
+        return -1
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(n)$
+### (4) Negative Marking
+```python
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        for num in nums :
+            idx = abs(num) - 1 
+            if nums[idx] < 0 :
+                return abs(num)
+            nums[idx] *= -1
+        return -1
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
+
+### (5) Binary Search
+```python
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        n = len(nums)
+        low, high = 1, n - 1
+        while low < high:
+            mid = low + (high - low) // 2
+            lessOrEqual = sum(1 for num in nums if num <= mid)
+
+            if lessOrEqual <= mid:
+                low = mid + 1
+            else:
+                high = mid
+
+        return low
+```
+- Time Complexity:$O(nlogn)$
+- Space Complexity: $O(1)$
+### (6) Bit Manipulation
+```python
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        n = len(nums)
+        res = 0
+        for b in range(32):
+            x = y = 0
+            mask = 1 << b
+            for num in nums:
+                if num & mask:
+                    x += 1
+            
+            for num in range(1, n):
+                if num & mask:
+                    y += 1
+            
+            if x > y:
+                res |= mask
+        return res
+```
+Time Complexity: $O(32*n)$
+Space Complexity: $O(1)$
+
+### (7) Fast And Slow Pointers
+```python
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        slow, fast = 0, 0
+        while True:
+            slow = nums[slow]
+            fast = nums[nums[fast]]
+            if slow == fast:
+                break
+
+        slow2 = 0
+        while True:
+            slow = nums[slow]
+            slow2 = nums[slow2]
+            if slow == slow2:
+                return slow
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=wjYnzkAhcNk
+[^2]: https://neetcode.io/solutions/find-the-duplicate-number
