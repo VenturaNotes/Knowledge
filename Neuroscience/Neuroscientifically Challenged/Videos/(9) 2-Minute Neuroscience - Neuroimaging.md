@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2024-12-22 at 5.01.13 PM.png]]
-	- Welcome to 2 minute neuroscience, where I simplistically explain neuroscience topics in 2 minutes or less. In this installment I will discuss neuroimaging. I will cover a few of the most common types of neuroimaging: CAT scans, MRI, PET scans, and fMRI. 
+	- In this installment I will discuss [[neuroimaging]]. I will cover a few of the most common types of neuroimaging: CAT scans, MRI, PET scans, and fMRI. 
 	- Some neuroimaging techniques allow us to see the structure of the brain, while others allow us to look at brain activity or function. Computerized tomography, also known as computerized axial tomography, is a type of structural neuroimaging. It is usually called a CAT or CT scan. It involves taking a series of x-ray images from various locations around the head. These images can then be combined to construct an image of the brain. The resolution of CT images is not that high, but they can visualize any major structural problems with the brain, such as a tumor. 
 		- Computerized Axial Tomography, AKA CAT or CT Scan
 			- Structural Neuroimaging

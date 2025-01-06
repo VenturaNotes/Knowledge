@@ -26,6 +26,57 @@ class Solution {
     }
 }
 ```
+## Source[^2]
+### (1) Brute Force
+```python
+class Solution:
+    def getSum(self, a: int, b: int) -> int:
+        return a + b
+```
+Time Complexity: $O(1)$
+Space Complexity: $O(1)$
+
+### (2) Bit Manipulation
+```python
+class Solution:
+    def getSum(self, a: int, b: int) -> int:
+        carry = 0
+        res = 0
+        mask = 0xFFFFFFFF
+
+        for i in range(32):
+            a_bit = (a >> i) & 1
+            b_bit = (b >> i) & 1
+            cur_bit = a_bit ^ b_bit ^ carry
+            carry = (a_bit + b_bit + carry) >= 2
+            if cur_bit:
+                res |= (1 << i)
+
+        if res > 0x7FFFFFFF:
+            res = ~(res ^ mask)
+            
+        return res
+```
+Time Complexity: $O(1)$
+Space Complexity: $O(1)$
+
+### (3) Bit Manipulation (Optimal)
+```python
+class Solution:
+    def getSum(self, a: int, b: int) -> int:
+        mask = 0xFFFFFFFF
+        max_int = 0x7FFFFFFF
+
+        while b != 0:
+            carry = (a & b) << 1
+            a = (a ^ b) & mask
+            b = carry & mask
+
+        return a if a <= max_int else ~(a ^ mask)
+```
+Time Complexity: $O(1)$
+Space Complexity: $O(1)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=gVUrDV4tZfY
+[^2]: https://neetcode.io/solutions/sum-of-two-integers

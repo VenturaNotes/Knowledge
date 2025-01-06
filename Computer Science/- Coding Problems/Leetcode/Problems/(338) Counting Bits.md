@@ -29,6 +29,75 @@ class Solution:
             dp[i] = 1 + dp[i - offset]
         return dp
 ```
+## Source[^2]
+### (1) Bit Manipulation - I
+```python
+class Solution:
+    def countBits(self, n: int) -> List[int]:
+        res = []
+        for num in range(n + 1):
+            one = 0
+            for i in range(32):
+                if num & (1 << i):
+                    one += 1
+            res.append(one)
+        return res
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
+
+### (2) Bit Manipulation - II
+```python
+class Solution:
+    def countBits(self, n: int) -> List[int]:
+        res = [0] * (n + 1)
+        for i in range(1, n + 1):
+            num = i
+            while num != 0:
+                res[i] += 1
+                num &= (num - 1)
+        return res
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
+
+### (3) In-Built Function
+```python
+class Solution:
+    def countBits(self, n: int) -> List[int]:
+        return [bin(i).count('1') for i in range(n + 1)]
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
+
+### (4) Bit Manipulation (DP)
+```python
+class Solution:
+    def countBits(self, n: int) -> List[int]:
+        dp = [0] * (n + 1)
+        offset = 1
+
+        for i in range(1, n + 1):
+            if offset * 2 == i:
+                offset = i
+            dp[i] = 1 + dp[i - offset]
+        return dp
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
+
+### (5) Bit Manipulation (Optimal)
+```python
+class Solution:
+    def countBits(self, n: int) -> List[int]:
+        dp = [0] * (n + 1)
+        for i in range(n + 1):
+            dp[i] = dp[i >> 1] + (i & 1)
+        return dp
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=RyBM56RIWrM
+[^2]: https://neetcode.io/solutions/counting-bits

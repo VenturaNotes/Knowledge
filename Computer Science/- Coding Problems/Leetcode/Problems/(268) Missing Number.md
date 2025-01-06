@@ -27,6 +27,57 @@ class Solution:
 
         return res
 ```
+## Source[^2]
+### (1) Sorting
+```python
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        n = len(nums)
+        nums.sort()
+        for i in range(n):
+            if nums[i] != i:
+                return i
+        return n
+```
+Time Complexity: $O(nlogn)$
+Space Complexity: $O(1)$ or $O(n)$ depending on the sorting algorithm
+### (2) Hash Set
+```python
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        num_set = set(nums)
+        n = len(nums)
+        for i in range(n + 1):
+            if i not in num_set:
+                return i
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(n)$
+### (3) Bitwise XOR
+```python
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        n = len(nums)
+        xorr = n  
+        for i in range(n):
+            xorr ^= i ^ nums[i]
+        return xorr
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
+### (4) Math
+```python
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        res = len(nums)
+
+        for i in range(len(nums)):
+            res += i - nums[i]
+        return res
+```
+Time Complexity: $O(n)$
+Space Complexity: $O(1)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=WnPLSRLSANE
+[^2]: https://neetcode.io/solutions/missing-number
