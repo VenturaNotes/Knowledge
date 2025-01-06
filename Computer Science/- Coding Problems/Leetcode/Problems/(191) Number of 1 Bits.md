@@ -44,6 +44,54 @@ class Solution:
             res +=1
         return res
 ```
+## Source[^2]
+### (1) Bit Mask - I
+```python
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        res = 0
+        for i in range(32):
+            if (1 << i) & n:
+                res += 1
+        return res
+```
+Time Complexity: $O(1)$
+Space Complexity: $O(1)$
+
+### (2) Bit Mask - II
+```python
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        res = 0
+        while n:
+            res += 1 if n & 1 else 0
+            n >>= 1
+        return res
+```
+Time Complexity: $O(1)$
+Space Complexity: $O(1)$
+### (3) Bit Mask (Optimal)
+```python
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        res = 0
+        while n:
+            n &= n - 1
+            res += 1
+        return res
+```
+Time Complexity: $O(1)$
+Space Complexity: $O(1)$
+
+### (4) Built-In Function
+```python
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        return bin(n).count('1')
+```
+Time Complexity: $O(1)$
+Space Complexity: $O(1$)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=5Km3utixwZs
+[^2]: https://neetcode.io/solutions/number-of-1-bits

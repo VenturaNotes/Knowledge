@@ -85,7 +85,34 @@ class Solution:
 ```
 Time Complexity: $O(n+(m*k))$
 Space Complexity: $O(n)$
-- Where $n$ is the number 
+- Where $n$ is the number of cities, $m$ is the number of flights and $k$ is the number of stops
+### (3) Shortest Path Faster Algorithm
+```python
+class Solution:
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+        prices = [float("inf")] * n
+        prices[src] = 0
+        adj = [[] for _ in range(n)]
+        for u, v, cst in flights:
+            adj[u].append([v, cst])
+
+        q = deque([(0, src, 0)])
+        while q:
+            cst, node, stops = q.popleft()
+            if stops > k:
+                continue
+            
+            for nei, w in adj[node]:
+                nextCost = cst + w
+                if nextCost < prices[nei]:
+                    prices[nei] = nextCost
+                    q.append((nextCost, nei, stops + 1))
+
+        return prices[dst] if prices[dst] != float("inf") else -1
+```
+Time Complexity: $O(n*k)$
+Space Complexity: $O(n+m)$
+- Where $n$ is the number of cities, $m$ is the number of flights and $k$ is the number of stops
 ## References
 
 [^1]: https://www.youtube.com/watch?v=5eIK3zUdYmE

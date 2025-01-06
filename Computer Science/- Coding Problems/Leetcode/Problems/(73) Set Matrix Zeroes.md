@@ -49,6 +49,72 @@ class Solution:
             for c in range(COLS):
                 matrix[0][c] = 0
 ```
+## Source[^2]
+### (1) Brute Force
+```python
+class Solution:
+    def setZeroes(self, matrix: List[List[int]]) -> None:
+        ROWS, COLS = len(matrix), len(matrix[0])
+        mark = [[matrix[r][c] for c in range(COLS)] for r in range(ROWS)]
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                if matrix[r][c] == 0:
+                    for col in range(COLS):
+                        mark[r][col] = 0
+                    for row in range(ROWS):
+                        mark[row][c] = 0
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                matrix[r][c] = mark[r][c]
+```
+Time Complexity: $O(m*n)$
+Space Complexity: $O(m*n)$
+- Where $m$ is the number of rows and $n$ is the number of columns.
+### (2) Iteration
+```python
+class Solution:
+    def setZeroes(self, matrix: List[List[int]]) -> None:
+        ROWS, COLS = len(matrix), len(matrix[0])
+        rows, cols = [False] * ROWS, [False] * COLS
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                if matrix[r][c] == 0:
+                    rows[r] = True
+                    cols[c] = True
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                if rows[r] or cols[c]:
+                    matrix[r][c] = 0
+```
+Time Complexity: $O(m*n)$
+Space Complexity: $O(m+n)$
+- Where $m$ is the number of rows and $n$ is the number of columns
+### (3) Iteration (Space Optimized)
+```python
+class Solution:
+    def setZeroes(self, matrix: List[List[int]]) -> None:
+        ROWS, COLS = len(matrix), len(matrix[0])
+        rows, cols = [False] * ROWS, [False] * COLS
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                if matrix[r][c] == 0:
+                    rows[r] = True
+                    cols[c] = True
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                if rows[r] or cols[c]:
+                    matrix[r][c] = 0
+```
+Time Complexity: $O(m*n)$
+Space Complexity: $O(1)$
+- Where $m$ is the number of rows and $n$ is the number of columns.
 ## References
 
 [^1]: https://www.youtube.com/watch?v=T41rL0L3Pnw
+[^2]: https://neetcode.io/solutions/set-matrix-zeroes

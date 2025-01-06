@@ -36,6 +36,69 @@ class Solution:
 
         return dfs(1, len(nums) - 2)
 ```
+## Source[^2]
+### (1) Brute Force (Recursion)
+```python
+class Solution:
+    def maxCoins(self, nums: List[int]) -> int:
+        nums = [1] + nums + [1]
+
+        def dfs(nums):
+            if len(nums) == 2:
+                return 0
+
+            maxCoins = 0
+            for i in range(1, len(nums) - 1):
+                coins = nums[i - 1] * nums[i] * nums[i + 1]
+                coins += dfs(nums[:i] + nums[i + 1:])
+                maxCoins = max(maxCoins, coins)
+            return maxCoins
+
+        return dfs(nums)
+```
+Time Complexity: $O(n*2^n)$
+Space Complexity: $O(n*2^n)$
+### (2) Dynamic Programming (Top-Down)
+```python
+class Solution:
+    def maxCoins(self, nums: List[int]) -> int:
+        nums = [1] + nums + [1]
+
+        def dfs(nums):
+            if len(nums) == 2:
+                return 0
+
+            maxCoins = 0
+            for i in range(1, len(nums) - 1):
+                coins = nums[i - 1] * nums[i] * nums[i + 1]
+                coins += dfs(nums[:i] + nums[i + 1:])
+                maxCoins = max(maxCoins, coins)
+            return maxCoins
+
+        return dfs(nums)
+```
+Time Complexity: $O(n^3)$
+Space Complexity: $O(n^2)$
+### (3) Dynamic Programming (Bottom-Up)
+```python
+class Solution:
+    def maxCoins(self, nums):
+        n = len(nums)
+        new_nums = [1] + nums + [1]
+
+        dp = [[0] * (n + 2) for _ in range(n + 2)]
+        for l in range(n, 0, -1):
+            for r in range(l, n + 1):
+                for i in range(l, r + 1):
+                    coins = new_nums[l - 1] * new_nums[i] * new_nums[r + 1]
+                    coins += dp[l][i - 1] + dp[i + 1][r]
+                    dp[l][r] = max(dp[l][r], coins)
+
+        return dp[1][n]
+```
+Time Complexity: $O(n^3)$
+Space Complexity: $O(n^2)$
 ## References
 
 [^1]: https://www.youtube.com/watch?v=VFskby7lUbw
+[^2]: https://neetcode.io/solutions/burst-balloons
