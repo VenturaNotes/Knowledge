@@ -3,7 +3,47 @@ Source:
   - https://www.youtube.com/watch?v=RvrXUyhLvEM
 Reviewed: false
 ---
-- Image
+- ![[Screenshot 2025-01-07 at 9.48.39 AM.png]]
 	- Bit strings
 		- [[Bit]] is short for [[binary digit]], so a [[bit string]] is a string of binary digits. The binary digits are simply the numbers 0 and 1.
-		- 
+			- Examples:
+				- 1001
+				- 0
+				- 1111
+				- 1010101010
+		- The number of bits (0's or 1's) in the string is its length; the strings above have lengths 4, 1, 4, and 10 respectively. We also can ask how many of the bits are 1's. The number of 1's in a bit string is the weight of the string; the weight of the above strings are 2, 0, 4, and 5 respectively
+			- An n-bit string is a bit string of length `n`. That is, it is a string containing n symbols, each of which is a bit, either 0 or 1
+			- The weight of a bit string is the number of 1's in it
+			- $B^n$ is the set of all n-bit strings
+			- $B^n_k$ is the set of all n-bit strings of weight k.
+		- Examples: $B^3_2$ = {011, 101, 110}, $B^3_1$ = {100, 010, 001}
+			- Cardinality of both sets is equal to 3
+	- Bit Strings
+		- The Counting questions: How many bit strings have length 5? How many of those have weight 3? In other words, we are asking for the cardinalities $|B^5|$ and $|B^5_3|$. 
+		- To find the number of 5-bit strings is straight forward. We have 5 bits, and each can either be a 0 or a 1. So there are 2 choices for the first bit, 2 choices for the second, and so on. By the multiplicative principle, there are $2*2*2*2*2 = 2^5 = 32$ such strings
+			- $|B^n|$ = $2^n$ is the number of n-bit strings
+			- Basically the same way we determine the number of subsets of a given set
+				- #comment power set?
+		- Finding the number of 5-bit strings of weight 3 is harder
+	- Bit Strings
+		- Finding the number of 5 bit strings of weight 3 is harder. Think about how such a string could start. The first bit must be either a 0 or a 1. In the first case (the string starts with a 0), we must then decide on four more bits. To have a total of three 1's, among those four remaining bits there must be three 1's. To count all of these strings, we must include all 4-bit strings of weight 3. In the second case (the string starts with a 1), we still have four bits to choose, but now only two of them can be 1's, so we should look at all the 4-bit strings of weight 2. So the strings in $B^5_3$ all have the form $1B^4_2$ (that is, a 1 followed by a string from $B^4_2$) or $0B^4_3$. These two sets are disjoint, so we can use the additive principle:
+			- $|B^5_3|$ = $|B^4_2|+|B^4_3|$ 
+		- This is an example of a [[recurrence relation]]. We represented one instance of our counting problem in terms of two simpler instances of the problem. If only we knew the cardinalities of $B^4_2$ and $B^4_3$. Repeating the same reasoning,
+			- Given $|B^4_3| = |B^3_2| + |B^3_3|$
+				- It actually represents
+					- $0|B^4_3| = 01|B^3_2| + 00|B^3_3|$
+	- Bit Strings
+		- We can keep going down, but this should be good enough. 
+			- $B^3_2$ = {011, 101, 110}, $B^3_1$ = {100, 010, 001}
+		- Both $B^3_1$ and $B^3_2$ contain 3 bit strings: we must pick one of the three bits to be a 1 (three ways to do that) or one of the three bits to be a 0 (three ways to do that). Also, $B^3_3$ contains just one string: 111. Thus $|B^4_2| = 6$ and $|B^4_3| = 4$, which puts $B^5_3$ at a total of 10 strings
+		- But wait, 32 and 10 were the answers to the counting questions about subsets. Coincidence? Not at all. Each bit string can be thought of as a code for a subset. To represent the subsets of A = {1, 2, 3, 4, 5}, we can use 5-bit strings, one bit for each element of A. Each bit in the string is a 0 if its corresponding element of A is not in the subset, and a 1 if the element of A is in the subset. Remember, deciding the subset amounted to a sequence of five yes/no votes for the elements of A. Instead of yes, we put a 1; instead of no, we put a 0.
+- ![[Screenshot 2025-01-07 at 9.52.24 AM.png]]
+	- Bit Strings
+		- For example, the bit string 11001 represents the subset {1, 2, 5} since the first, second and fifth bits are 1's. The subset {3, 5} would be coded by the string 00101. What we really have here is a bijection from $\mathcal{P}(A)$ to $B^5$
+			- $A = \{1, 2, 3, 4, 5\}$
+		- Now for a subset to contain exactly three elements, the corresponding bit string must contain exactly three 1's. In other words, the weight must be 3. Thus counting the number of 3-element subsets of A is the same as counting the number 5-bit strings of weight 3.
+		- Formulas below (in picture above)
+			- $|B^n_k|$ is the number of n-bit strings of weight k
+			- The number of subsets of a set of size n each with cardinality k
+			- Finding the number of 5-bit strings of weight 3
+		- So from now on, we'll simply evaluate combinations to determine the cardinality of n-bit strings of weight k

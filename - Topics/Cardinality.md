@@ -1,10 +1,13 @@
+---
+aliases:
+  - cardinalities
+---
 ## Synthesis
-- 
+- Number of elements in a set
+- Several symbols used to denote it
+	- $|B| = n(B) = \# B$
 ## Source[^1]
-- Denoted
-	- $|B| = 4$
-	- $n(B) =4$
-	- $\# B = 4$
+- Denoted $|B| = n(B) = \# B = 4$
 
 ## Source[^2]
 - Can be written as

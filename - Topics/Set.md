@@ -50,6 +50,13 @@ aliases:
 	- $\mathbb{R}$
 - [[Complex Numbers]]
 	- $\mathbb{C}$
+
+## Source[^6]
+### Counting with Sets
+- Can solve a problem using sets
+- Given a restaurant offers 8 appetizers and 14 entrées, how many choices do you have if you will eat one dish, either an appetizer or an entrée.
+	- This problem uses the [[additive principle]] so we can create two disjoint sets with [[Cardinality|cardinalities]] $|A| = 8$ and $|B| = 14$ where A contains 8 appetizers and B contains 14 entrees. 
+	- This problem is the same thing as asking the [[union]] of both sets giving $|A \cup B| = |A| + |B| = 8 + 14 = 22$
 ## References
 
 [^1]: [[(28) Universal Set Example Problems - Set Builder Notation, Absolute Complement, Roster Notation#^19ae11]]
@@ -57,3 +64,4 @@ aliases:
 [^3]: [[(2) Probability & Statistics (2 of 62) Definition of Sets and Elements]]
 [^4]: [[(1) Start Learning Mathematics]]
 [^5]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
+[^6]: [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]

@@ -42,11 +42,13 @@ class Solution(object):
 - [[enumerate() (Python)|enumerate]]
 
 ## Source[^2]
-- Return indices `i` and `j` such that 
-	- their elements sum to the target
-	- `i != j`
-	- There is exactly one pair of indices that satisfy the condition
+### Problem
+- Problem
+	- Given an array `nums`, find two indices (`i` and `j`) within the array that sum up to the `target` value.
+- Conditions
 	- Return the smaller index first
+	- `i` $\ne$ `j`
+	- There will always be a solution
 ### (1) Brute Force
 ```python
 class Solution:
@@ -60,9 +62,9 @@ class Solution:
 - Time Complexity: $O(n^2)$
 - Space Complexity: $O(1)$
 - #comment 
+	- Using the [[in (python)|in]] keyword
 	- Have `i` iterate through `nums` and have `j` iterate through `nums` while always starting one ahead of `i`
 		- This guarantees that `i != j` and it prevents re-calculations
-	- Might not need the last `return []` since every input would have exactly one pair of indices
 ### (2) Sorting
 ```python
 class Solution:

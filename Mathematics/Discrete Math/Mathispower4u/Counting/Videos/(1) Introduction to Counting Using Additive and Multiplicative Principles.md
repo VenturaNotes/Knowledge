@@ -1,7 +1,7 @@
 ---
 Source:
   - https://www.youtube.com/watch?v=s_JM1-t39tQ
-Reviewed: false
+Reviewed: true
 ---
 - ![[Screenshot 2024-12-31 at 11.16.39 PM.png]]
 	- Additive and Multiplicative Principles (Disjoint)
@@ -15,7 +15,7 @@ Reviewed: false
 	- Additive and Multiplicative Principles
 		- Question #1 involves the Additive Principle
 			- There are 8 + 14 = 22 choices if you will eat one dish, either an appetizer or an entree
-			- Counting with sets: There are two sets, A and B. The set A contains all 8 appetizers, so the cardinality of A is |A| = 8 while |B| = 14, the number of entrees. In terms of sets, we are asking for |A $\cup$ B|, the number of elements in the union of appetizers and entrees
+			- Counting with [[Set|sets]]: There are two sets, A and B. The set A contains all 8 appetizers, so the cardinality of A is |A| = 8 while |B| = 14, the number of entrees. In terms of sets, we are asking for |A $\cup$ B|, the number of elements in the union of appetizers and entrees
 			- This is just $|A \cup B|$ = |A| + |B| = 8 + 14 = 22 (since there is no overlap, that is, |A $\cap$ B| = 0). If A and B are not disjoint, $|A \cup B|$ = $|A| + |B| - |A \cap B|$ 
 	- Additive and Multiplicative Principles
 		- Question #2 involves the Multiplicative Principle
