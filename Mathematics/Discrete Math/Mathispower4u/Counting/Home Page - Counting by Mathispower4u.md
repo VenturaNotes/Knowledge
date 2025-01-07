@@ -24,7 +24,6 @@ Reviewed: false
 	- [[(14) Determine How Many Subsets Meet Various Conditions (2)]]
 	- [[(15) Determine How Many Subsets Meet Various Conditions (1)]]
 	- [[(16) Determine How Many Subsets Have More Than a Given Cardinality]]
-- Incomplete
 	- [[(17) Introduction to Bit Strings]]
 	- [[(18) Determine the Number of 10-Bit Strings Under Various Conditions]]
 	- [[(19) Problem Solving with Bit Strings - Coin Problems]]
@@ -35,6 +34,7 @@ Reviewed: false
 	- [[(24) Introduction to Binomial Coefficients]]
 	- [[(25) Determine Binomial Coefficients]]
 	- [[(26) Determine a Coefficient of a Expression of Binomials Raised to Powers]]
+- Incomplete
 	- [[(27) Evaluating Combinations Using Pascal's Triangle]]
 	- [[(28) Making Connections -  The Many Applications of Combinations]]
 	- [[(29) Combinations -  The Number of 4 Topping Pizzas]]

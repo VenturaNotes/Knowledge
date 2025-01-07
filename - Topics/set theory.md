@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- You can describe everything in mathematics just by using [[sets]]
+- You can describe everything in mathematics just by using [[Set|sets]]
 ### Axioms of Set Theory
 - The list of propositions assumed to be true
 ## References
