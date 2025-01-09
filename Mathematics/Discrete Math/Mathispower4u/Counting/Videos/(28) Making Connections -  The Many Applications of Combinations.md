@@ -3,4 +3,24 @@ Source:
   - https://www.youtube.com/watch?v=QGUvaYlEQVQ
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-07 at 2.28.56 PM.png]]
+	- Making Connections: Combinations are Amazing!
+		- For each integer n $\ge$ 0 and integer k with 0 $\le$ k $\le$ n, there is a number $n \choose k$ = $C(n,k)$ = $_nC_k$, read "n choose k"
+			- $n \choose k$ is the total number of ways to select k objects without replacement when order does not matter from a total of n objects. This is usually taken as the definition of $n \choose k$
+				- #question what does without replacement mean again?
+				- How many different study groups of 3 can be made from 5 students?
+				- There are $5 \choose 3$ = 10 study groups possible.
+					- ![[Screenshot 2025-01-07 at 2.25.58 PM.png]]
+			- $n \choose k$ = $|B^n_k|$ is the number of n-bit strings of weight k. Recall: The weight is the number of 1's.
+				- How many bit strings have length 5 and weight 3? We must choose 3 of the 5 bits to be 1's.
+				- There are $5 \choose 3$ = 10 such bit strings
+	- Making Connections: Combinations are amazing!
+		- $n \choose k$ is the number of subsets of a set of size $n$ each with cardinality $k$.
+			- How many subsets of {1, 2, 3, 4, 5} contain exactly 3 elements?
+			- There are $5 \choose 3$ = 10 subsets
+		- $n \choose k$ is the number of lattice paths of length $n$ containing k steps to the right
+			- How many lattice paths are there from $(0, 0)$ to $(3, 2)$? We must choose 3 of the 5 steps to be towards the right
+			- There are $5 \choose 3$ = 10 such lattice paths
+		- $n \choose k$ is the coefficient of $x^ky^{n-k}$ in the expansion of $(x+y)^n$
+			- What is the coefficient of $x^3y^2$ or $x^2y^3$ in the expansion of $(x+y)^5$^
+			- The coefficient is $5 \choose 3$ = $5 \choose 2$ = 10

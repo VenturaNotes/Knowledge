@@ -57,19 +57,35 @@ class Solution:
 - [[ord() (python)|ord()]]
 
 ## Source[^2]
+- Group anagrams together in sublists
+
 ### (1) Sorting
+#comment Comments made my ChatGPT and I 
 ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        #defaultdict(list) ensures that if a key doesn't exist, will
+        # initialize with an empty list
         res = defaultdict(list)
+
+		
         for s in strs:
+	        # Sorts characters of string `s` alphabetically
+	        # and then sorts characters back into string
             sortedS = ''.join(sorted(s))
+            # Add string to the list corresponding to key
             res[sortedS].append(s)
+		# Returns grouped anagrams it a rinh of lists
         return list(res.values())
 ```
-Time Complexity: $O(m*nlogn)$
-Space Complexity: $O(m*n)$
+- Time Complexity: $O(m*nlogn)$
+	- Sorting 
+- Space Complexity: $O(m*n)$
 - Where $m$ is the number of strings and $n$ is the length of the longest string
+- #comment Summary
+	- (1) Use [[defaultdict (python)|defaultdict]] instead of [[dictionary (Python)|dict()]] because 
+		- `defaultdict` does not require you to explicitly check if a key exists before appending a value to its associated list
+
 
 ### (2) Hash Table
 ```python

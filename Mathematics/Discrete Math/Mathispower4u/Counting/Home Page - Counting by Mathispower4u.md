@@ -34,10 +34,10 @@ Reviewed: false
 	- [[(24) Introduction to Binomial Coefficients]]
 	- [[(25) Determine Binomial Coefficients]]
 	- [[(26) Determine a Coefficient of a Expression of Binomials Raised to Powers]]
-- Incomplete
 	- [[(27) Evaluating Combinations Using Pascal's Triangle]]
 	- [[(28) Making Connections -  The Many Applications of Combinations]]
 	- [[(29) Combinations -  The Number of 4 Topping Pizzas]]
+- Incomplete
 	- [[(30) Counting - Find the Number of Functions and Bijective Functions (Discrete Math)]]
 	- [[(31) Counting - Find the Number of Functions, Injective Functions, and Increasing Functions]]
 	- [[(32) Counting - Number of Pizza with 3 Toppings and All Possible Pizzas]]

@@ -10,6 +10,14 @@ aliases:
 - #question Is it possible to have 4 arguments for the range function? 
 - #question How is [[underscore (python)|underscore]] used?
 - #question What is the maximum that range can handle in python
+## Personal
+```python
+x = [0, 1, 2, 3]
+
+for i in range(4, len(x)):
+    print(i)
+```
+- Even though `4` is outside the starting range of `x`, there will be no out of bounds error and nothing will be printed
 ## Source [^1]
 - Provides flexibility for generating sequences of numbers
 

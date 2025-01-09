@@ -4,6 +4,8 @@ aliases:
   - tuples
 ---
 ## Synthesis
+- Characteristics
+	- Ordered, unchangeable, and allows duplicates
 - 
 ## Source [^1]
 - Characteristics

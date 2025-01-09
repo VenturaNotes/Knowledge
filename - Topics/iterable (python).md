@@ -4,7 +4,10 @@ aliases:
   - iterables
 ---
 ## Synthesis
-- 
+### Definition
+- An iterable is anything you can loop over
+### Examples
+- Lists, tuples, sets, dictionaries, and strings
 ## Source [^1]
 - Iterables are objects that can be iterated in iterations.
 - An iterable is anything that you can loop over

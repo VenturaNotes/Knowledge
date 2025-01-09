@@ -37,6 +37,10 @@ print(y) #Output: 30
 
 - [[List comprehension (Python)|list comprehension]]
 
+## Source[^2]
+- function built into the Python interpreter
+
 ## References
 
 [^1]: ChatGPT
+[^2]: https://docs.python.org/3.12/library/functions.html
