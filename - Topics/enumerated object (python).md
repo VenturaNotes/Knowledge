@@ -1,3 +1,7 @@
+---
+aliases:
+  - enumerated object
+---
 ## Synthesis
 - 
 ## Source [^1]

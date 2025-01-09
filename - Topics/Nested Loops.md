@@ -1,3 +1,7 @@
+---
+aliases:
+  - nested loop
+---
 ## Synthesis
 - 
 ## Source [^1]

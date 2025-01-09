@@ -1,3 +1,7 @@
+---
+aliases:
+  - two-pointer approach
+---
 ## Synthesis
 - 
 ## Source [^1]

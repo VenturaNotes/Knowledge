@@ -57,69 +57,144 @@ class Solution:
             for j in range(i + 1, len(nums)):
                 if nums[i] + nums[j] == target:
                     return [i, j]
-        return []
 ```
 - Time Complexity: $O(n^2)$
 - Space Complexity: $O(1)$
 - #comment 
-	- Using the [[in (python)|in]] keyword
-	- Have `i` iterate through `nums` and have `j` iterate through `nums` while always starting one ahead of `i`
-		- This guarantees that `i != j` and it prevents re-calculations
+	- Looping through the array `nums` with the [[in (python)|in]] keyword.
+	- Using the [[range() (Python)|range()]] keyword so that we get the index of the array rather than the value itself
+		- Remember to use the length of `nums`
+	- Creating a [[Nested Loops|nested loop]] to index elements with a second pointer. `j` always staying 1 step ahead of `i` ensuring all possible calculations without repeats, guaranteeing $i == j$ and that smaller index will be returned first
+	- No issue with `range(i+1,...)` because an out of bounds error will not occur even if out of bounds
 ### (2) Sorting
+#comment Comments made by me and ChatGPT
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # Saves index, element
         A = []
         for i, num in enumerate(nums):
             A.append([num, i])
-        
+
+		# Sort list in ascending order
         A.sort()
+
+		# Two-Pointer Technique (i = beginning, j = end)
         i, j = 0, len(nums) - 1
+
+		# Iterate until left pointer >= right pointer
         while i < j:
+	        # Calculate sum of pointers
             cur = A[i][0] + A[j][0]
+
+			# If sum is equal, return minimum value
             if cur == target:
                 return [min(A[i][1], A[j][1]), 
                         max(A[i][1], A[j][1])]
             elif cur < target:
-                i += 1
+                i += 1 # Increasing left pointer to get greater value
             else:
-                j -= 1
-        return []
+                j -= 1 # Increasing right pointer to get greater value
 ```
-- Time Complexity: $O(nlogn)$ 
+- Time Complexity: $O(nlogn)$
+	- $O(nlogn)$ for sorting and $O(n)$ for two-pointer traversal[^9]
+		- #comment probably closer to $O(\frac {n}{2})$ for two-pointer traversal since 
 - Space Complexity: $O(n)$
-- #comment 
-	- Don't need the `return []` as the last line since there will always be a solution given the input for this problem
+	- To store values in helper list `A` [^9]
+- #comment Summary
+	- (1) Store index and value pairs within list
+	- (2) Sort this array
+	- (3) Use two-pointer technique (pointers start at ends of array)
+		- Calculate sum and check if equal
+		- Return lowest index or 
+			- if sum < target: increase left pointer
+			- if sum > target: increase right pointer
+#### Partial Explanation[^9]
+- Using [[two pointer technique|two-pointer approach]] after sorting input with indices
+```python
+A = []
+for i, num in enumerate(nums):
+    A.append([num, i])
+```
+- Creates a list containing pairs `[number, original index]` to keep track of indices
+	- So `nums = [3, 1, 4, 2]` becomes `[[3, 0], [1, 1], [4, 2], [2, 3]]`
+- A.[[sort() python|sort()]]
+	- This method sorts
+- `i` starts at beginning of list and `j` starts at end of list
+
 ### (3) Hash Map (Two Pass)
+#comment comments made by me and ChatGPT
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # creating dictionary
         indices = {}  # val -> index
 
+		# Creating key, value pairs where
+		# key is the element and value is the index
+		# i is the index and n is the element
         for i, n in enumerate(nums):
             indices[n] = i
 
+		# Iterates through nums by index and element
         for i, n in enumerate(nums):
             diff = target - n
+            # The 'if diff in indices' is done in O(1) time
             if diff in indices and indices[diff] != i:
                 return [i, indices[diff]]
 ```
 - Time Complexity: $O(n)$
+	- Explanation [^9]
+		- $O(n)$ to populate dictionary
+		- $O(n)$ to check complement
+		- so $O(n)$ total
 - Space Complexity: $O(n)$
+	- Dictionary required $O(n)$ space to store all elements in the array [^9]
+- #comment Summary
+	- (1) Create dictionary
+	- (2) Enumerate list to store as key value pairs in dictionary
+	- (3) Enumerate list to find complement
+		- For example, lets say the target is 10 and the value `n` is `6`
+			- So `diff = 10 - 6 = 4`
+		- Then we check if `4` in the dictionary and not equal to `i`
+			- If true, we return the loop's `i` first and then the index from `indices`
+			- The loop's `i` will always be first because we are starting from index 0 so there can't be a number greater as we're checking the first ones first. 
+
+#### Partial Explanation[^9]
+- Solution uses a [[HashMap (python)|hash map]] ([[dictionary (Python)|dictionary]] in python) to efficiently find the complement of the current number in array
+- Given `nums = [2, 7, 11, 15]`
+	- First enumeration gives `indices = {2: 0, 7: 1, 11: 2, 15: 3}`
+
 ### (4) Hash Map (One Pass)
+#comment Comments made by me and ChatGPT
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # Dictionary
         prevMap = {}  # val -> index
 
+		# iterate through nums
         for i, n in enumerate(nums):
+	        # Check for complement
             diff = target - n
+            # If complement in dictionary
             if diff in prevMap:
+	            # return dictioanry first, then loop index
+	            # (first iteration will never work here)
                 return [prevMap[diff], i]
+			# Add element to dictionary
             prevMap[n] = i
 ```
 - Time Complexity: $O(n)$
+	- Explanation [^9]
+		- Only loop over `nums` once, so $O(n)$
+		- Dictionary operations (lookup and insertion) are $O(1)$ on average
 - Space Complexity: $O(n)$ 
+	- Dictionary requires $O(n)$ space to store all elements in worst case [^9]
+- #comment Summary
+	- (1) Create dictionary
+	- (2) Enumerate through `nums` by checking complement, seeing if it's in dictionary (if so return), and if not, add element to dictionary
+		- No need to check if index duplicate as only iterating through list once.
 ## Others
 ### My Solution
 Brute Force Solution
@@ -224,3 +299,4 @@ class Solution:
 [^6]: https://medium.com/@satorusasozaki/amortized-time-in-the-time-complexity-of-an-algorithm-6dd9a5d38045
 [^7]: https://stackoverflow.com/questions/14379753/what-does-mean-in-python-function-definitions
 [^8]: https://leetcode.com/problems/two-sum/solutions/127810/two-sum/
+[^9]: ChatGPT
