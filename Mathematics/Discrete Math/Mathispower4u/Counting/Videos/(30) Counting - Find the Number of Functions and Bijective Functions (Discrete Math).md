@@ -3,3 +3,29 @@ Source:
   - https://www.youtube.com/watch?v=wLNpW2NEQhM
 Reviewed: false
 ---
+- ![[Screenshot 2025-01-09 at 11.53.43 AM.png]]
+	- Permutations and Combinations: Number of Bijective Functions
+		- Given $f: \{1, 2, 3, 4, 5, 6\} \to \{a, b, c, d, e, f\}$, how many total functions are there? How many are [[bijective]]?
+			- Shows a mapping a set
+		- Recall: A bijective function is injective and surjective. which means each element in the codomain must be an image of exactly one element of the domain
+		- Let's set up this function using [[two-line notation]]
+			- Inputs or elements of domain in the first row
+			- Second row has outputs or elements in range which must come from elements in codomain which is the set of elements $\{a, b, c, d, e, f\}$
+		- Number of total functions = 
+			- Could use [[multiplicative principle]]
+				- There were no restrictions here when doing $6*6*6....$ 
+		- Number of bijective functions = 
+			- P(6,6)
+				- Permutation of six items selected 6 at a time or "6 permute 6"
+		- Details
+			- A function is bijective (injective and surjective) if every element of the codomain is the image of exactly one element from the domain.
+			- Bijective functions do not have repeated elements and do not miss elements from the codomain in the range.
+			- Combination
+				- $n \choose k$ = $C(n,k) = _nC_k = \frac{n!}{(n-k)!k!}$ 
+				- No item is used more than once
+				- The order of items does not matter
+			- Permutation
+				- $P(n, k) = _nP_k = \frac{n!}{(n-k)!}$
+				- No item is used more than once
+				- The order of arrangement does matter.
+				- $n! = n*(n-1)*(n-2)*...*2*1 =$ permutations of $n$ distinct elements.
