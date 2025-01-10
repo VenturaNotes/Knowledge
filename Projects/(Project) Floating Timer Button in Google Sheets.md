@@ -2908,9 +2908,16 @@ function formatDuration2(durationMs) {
   return isNegative ? '-' + formatted : formatted;
 }
 
+function updateReward(reward)
+{
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Main');
+  sheet.getRange("S2").setValue(sheet.getRange("S2").getValue()+reward);
+}
 
 function calculateMultiplier() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  updateReward(sheet.getRange("Q10").getValue());
+
   var initialDate = new Date(1899, 11, 30);
   var updateCell = false;
 
@@ -2965,7 +2972,9 @@ function fetchStats(){
 
 // This function calculates the current duration of the segment
 function calculateCurrentDuration() {
+  
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+
   var lastRow = getLastRowInColumn(16);  // Get the last row with data in column 16
   var initialDate = new Date(1899, 11, 30);
   
@@ -3195,6 +3204,7 @@ function calculateCurrentDuration() {
 ```
 #### Description
 - Removed extra statistics
+- Added Reward base ("for "Main" page)
 ## Version 1
 ### Attempt #1
 #### Sidebar.html

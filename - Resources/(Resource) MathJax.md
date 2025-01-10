@@ -130,3 +130,8 @@ http://detexify.kirelabs.org/classify.html
 	- $A \quad B$ 
 - Combination: $_nC_k$ 
 	- Might be a bug with equals sign: $=_nC_k$ 
+- Two-line notation:
+	- $f = \left(\begin{matrix} 1 & 2 & 3 & 4 & 5 & 6 \\ a & b & c & d & e & f \end{matrix}\right)$
+		- Uses matrix (simpler)
+	- $f = \left(\begin{array}{cccccc} 1 & 2 & 3 & 4 & 5 & 6 \\ a & b & c & d & e & f \end{array}\right)$
+		- Uses an array

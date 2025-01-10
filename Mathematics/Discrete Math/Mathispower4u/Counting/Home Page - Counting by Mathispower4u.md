@@ -37,11 +37,11 @@ Reviewed: false
 	- [[(27) Evaluating Combinations Using Pascal's Triangle]]
 	- [[(28) Making Connections -  The Many Applications of Combinations]]
 	- [[(29) Combinations -  The Number of 4 Topping Pizzas]]
-- Incomplete
 	- [[(30) Counting - Find the Number of Functions and Bijective Functions (Discrete Math)]]
 	- [[(31) Counting - Find the Number of Functions, Injective Functions, and Increasing Functions]]
 	- [[(32) Counting - Number of Pizza with 3 Toppings and All Possible Pizzas]]
 	- [[(33) Counting - Find the Number of Lock Combinations]]
+- Incomplete
 	- [[(34) Counting - Find the Number of 5-Digit Numbers Under Various Conditions]]
 	- [[(35) Counting -  Books on a Shelf - Arrangements and Alphabetized]]
 	- [[(36) Counting -  The Number of Types of Quadrilaterals from Two Rows of Points]]

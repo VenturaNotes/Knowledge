@@ -3,4 +3,21 @@ Source:
   - https://www.youtube.com/watch?v=hlFEm7X6VC0
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-09 at 12.11.48 PM.png]]
+	- Permutations and Combinations: Pizza Toppings
+		- A pizza parlor offers 12 different toppings.
+			- (1) How many 3-topping pizzas could they put on their menu? Assume double toppings are not allowed
+			- (2) How many total pizzas are possible, with between zero and twelve toppings (but not double toppings) allowed?
+				- Long way would be "12 choose 0" + "12 choose 1" ... all the way to "12 choose 12" and find the sum
+					- ![[Screenshot 2025-01-09 at 12.10.42 PM.png]]
+				- Could also think of it as 12 choices for each event and whether or not to include the topping or not giving $2^{12}$ 
+			- (3) The pizza parlor will list the twelve toppings in two equal-sized columns on their menu. How many ways can they arrange the toppings in the left column?
+		- Details
+			- Combination
+				- $n \choose k$ = $C(n,k) = _nC_k = \frac{n!}{(n-k)!k!}$ 
+				- No item is used more than once
+				- The order of items does not matter
+			- Permutation
+				- $P(n, k) = _nP_k = \frac{n!}{(n-k)!}$
+				- No item is used more than once
+				- The order of arrangement does matter.

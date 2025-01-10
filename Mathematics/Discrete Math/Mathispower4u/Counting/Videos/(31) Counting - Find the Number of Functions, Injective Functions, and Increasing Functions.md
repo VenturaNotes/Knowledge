@@ -3,4 +3,21 @@ Source:
   - https://www.youtube.com/watch?v=s_uCHKUHnJ8
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-09 at 12.05.19 PM.png]]
+	- Permutations and Combinations: Number of Injective Functions
+		- Given $f: \{1, 2, 3\} \to \{1, 2, 3, 4, 5, 6\}$, how many total functions are there? How many are injective? How many functions are increasing, meaning if $a < b$, then $f(a) < f(b)$.
+		- Let's set-up this function using two-line notation.
+		- Number of total functions =
+			- Can use [[multiplicative principle]]
+		- Number of injective functions = 
+			- Could use the [[counting principle]] and [[multiplicative principle]]
+			- Could use permutations too
+		- Number of [[increasing function|increasing functions]]
+			- Since the inputs are increasing from left to right, we know the function is increasing as long as the outputs are increasing from left to right
+			- So we need to choose any 3 elements from the codomain and order them from least to greatest and place them as outputs from left to right
+			- So the number of increasing functions will be 6 choose 3
+		- Terminology
+			- A function is [[injective]] (an injection or one-to-one) if every element of the codomain is the image of at most one element from the domain
+			- A function is surjective (a surjection or onto) if every element of the codomain is the image of at least one element from the domain
+			- Injective functions do not have repeated elements from the codomain in the range, but may have missing elements
+			- [[Surjective]] functions do not miss elements from the [[codomain]] in the range, but may have repeated elements
