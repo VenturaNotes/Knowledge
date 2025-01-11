@@ -54,7 +54,7 @@ Reviewed: false
 - [[(44) 2-Minute Neuroscience - Suprachiasmatic Nucleus]]
 - [[(45) 2-Minute Neuroscience - Primary Somatosensory Cortex]]
 - [[(46) 2-Minute Neuroscience - Pineal Gland]]
-- [[(47) 2-Minute Neuroscience - Amyotrophic Lateral Sclerosis (ALS)]]
+- [[(47) 2-Minute Neuroscience - Amyotrophic Lateral Sclerosis (ALS)]][[]]
 - [[(48) 2-Minute Neuroscience - Long-Term Depression (LTD)]]
 - [[(49) 2-Minute Neuroscience - Caffeine]]
 - [[(50) 2-Minute Neuroscience - Benzodiazepines]]
