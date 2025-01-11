@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2024-12-20 at 9.57.04 PM.png]]
-	- [[Membrane voltage|Membrane potential]] refers to the difference in electrical charge between the inside and the outside of a neuron
+	- [[Membrane voltage|Membrane potential]] refers to the difference in electrical charge between the inside and the outside of a neuron.
 		- The plasma or [[cell membranes|cell membrane]] of a neuron separates the inside of the cell from the outside environment. 
 	- The difference of electrical charge develops due to the grouping of ions on the inside and outside of the membrane
 		- Ions are atoms that have either lost or gained electrons and thus have a positive or negative charge
@@ -19,5 +19,5 @@ Reviewed: false
 		- It's a transport protein that uses energy to constantly pump three sodium ions out of the cell while at the same time pumping two potassium ions into the cell
 		- Since there are more positive ions being pumped out than in, it helps to keep the membrane potential negative
 		- Unlike other ions, potassium tends to move fairly easily across the cell membrane through ion channels, which are membrane spanning proteins that allow ions to pass through
-			- Potassium will pass out of the neuron until it reaches the point where it is at an equilibrium - when forces like diffusion aren't pushing it in one direction or the other
-			- A this point, the membrane potential of the neuron is -65 to -70 mV, which is known as the [[resting membrane potential]]
+			- Potassium will pass out of the neuron until it reaches the point where it is at an equilibrium - when forces like diffusion aren't pushing it in one direction or the other.
+			- At this point, the membrane potential of the neuron is -65 to -70 mV, which is known as the [[resting membrane potential]]
