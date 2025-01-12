@@ -1,5 +1,8 @@
-[Source](https://leetcode.com/problems/valid-anagram/)
-
+---
+Source:
+  - https://leetcode.com/problems/valid-anagram/
+Reviewed: false
+---
 ## Synthesis
 - This is an arrays & hashing type problem
 - To find if two strings are an anagram

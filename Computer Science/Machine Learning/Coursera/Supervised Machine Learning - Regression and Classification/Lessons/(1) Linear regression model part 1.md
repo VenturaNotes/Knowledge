@@ -1,5 +1,8 @@
-[Source](https://www.coursera.org/learn/machine-learning/lecture/1ACA2/linear-regression-model-part-1)
-
+---
+Source:
+  - https://www.coursera.org/learn/machine-learning/lecture/1ACA2/linear-regression-model-part-1
+Reviewed: false
+---
 - Linear regression model
 	- Fitting a straight line to data (most widely used learning algorithm used today)
 

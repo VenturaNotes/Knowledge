@@ -1,5 +1,8 @@
-[Source](https://www.coursera.org/learn/machine-learning/lecture/IjrpM/applications-of-machine-learning)
-
+---
+Source:
+  - https://www.coursera.org/learn/machine-learning/lecture/IjrpM/applications-of-machine-learning
+Reviewed: false
+---
 - Machine learning is a sub-field of AI
 - You can write a program to find the shortest path from a to b (such as in your GPS)
 - Did not know how to explicitly write programs to
