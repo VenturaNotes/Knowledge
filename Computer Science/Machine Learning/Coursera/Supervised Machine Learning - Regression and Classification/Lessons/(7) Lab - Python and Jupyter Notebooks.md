@@ -1,5 +1,8 @@
-[Source](https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera/blob/main/C1%20-%20Supervised%20Machine%20Learning:%20Regression%20and%20Classification/week1/Optional%20Labs/C1_W1_Lab01_Python_Jupyter_Soln.ipynb)
-
+---
+Source:
+  - https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera/blob/main/C1%20-%20Supervised%20Machine%20Learning:%20Regression%20and%20Classification/week1/Optional%20Labs/C1_W1_Lab01_Python_Jupyter_Soln.ipynb
+Reviewed: false
+---
 [[(17) Jupyter Notebook Tutorial - Introduction, Setup, and Walkthrough|Setup]]
 
 - Type `jupyter notebook` in terminal to start the folder as your notebook

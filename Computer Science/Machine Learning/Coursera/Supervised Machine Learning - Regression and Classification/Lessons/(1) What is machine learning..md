@@ -1,5 +1,8 @@
-[Source](https://www.coursera.org/learn/machine-learning/lecture/PNeuX/what-is-machine-learning)
-
+---
+Source:
+  - https://www.coursera.org/learn/machine-learning/lecture/PNeuX/what-is-machine-learning
+Reviewed: false
+---
 - [[Machine learning]]
 	- "Field of study that gives computers the ability to learn without being explicitly programmed." - Arthur Samuel (1959)
 - Arthur Samuel

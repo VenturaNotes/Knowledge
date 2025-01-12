@@ -1,5 +1,8 @@
-[Source](https://www.coursera.org/learn/machine-learning/lecture/jKBHE/unsupervised-learning-part-2)
-
+---
+Source:
+  - https://www.coursera.org/learn/machine-learning/lecture/jKBHE/unsupervised-learning-part-2
+Reviewed: false
+---
 - Unsupervised learning
 	- Data only comes with inputs x, but not output labels y.
 	- Algorithm has to find structure in the data

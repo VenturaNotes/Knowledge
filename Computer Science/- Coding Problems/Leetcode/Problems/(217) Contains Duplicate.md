@@ -1,4 +1,8 @@
-[Source](https://leetcode.com/problems/contains-duplicate/)
+---
+Source:
+  - https://leetcode.com/problems/contains-duplicate/
+Reviewed: true
+---
 ## Approach #1
 Brute Force Solution (Time Limit Exceeded Error)
 ```python

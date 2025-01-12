@@ -1,5 +1,8 @@
-[Source](https://www.coursera.org/learn/machine-learning/lecture/Q8Vvp/supervised-learning-part-2)
-
+---
+Source:
+  - https://www.coursera.org/learn/machine-learning/lecture/Q8Vvp/supervised-learning-part-2
+Reviewed: false
+---
 - Supervised learning algorithms learn to predict input, output or X to Y mapping.
 	- Regression algorithms learns to predict numbers out of infinitely many possible numbers
 - Classification problem
