@@ -3,4 +3,22 @@ Source:
   - https://www.youtube.com/watch?v=zy-uFwhOUYY
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-12 at 2.42.24 AM.png]]
+	- Combinatorial proofs
+		- Explanatory proofs are typically called combinatorial proofs
+		- In general, to give a combinatorial proof for a [[binomial identity]], say A = B, we do the following
+			- (1) Finding a counting problem to answer in two ways
+			- (2) Explain why one answer to the counting problem is A
+			- (3) Explain why the other answer to the counting problem is B
+		- Since both A and B are the answers to the same question, we must have A = B.
+			- The tricky thing is coming up with the question. This is not always obvious, but it gets easier the more counting problems you solve. You will start to recognize types of answers as the answers to types of questions. More often what will happen is you will be solving a counting problem and happen to think up two different ways of finding the answer. Now you have a binomial identity and the proof is right there. The proof is the problem you just solved together with your two solutions.
+	- Combinatorial Proofs
+		- Explanatory proofs are typically called combinatorial proofs
+		- Explain why $n \choose k$ = $n-1 \choose k-1$ + $n-1 \choose k$
+			- One way to see the equation is true is to consider bit strings. $C(n, k)$ is the number of bit strings of length $n$ containing $k$ 1's. Some of the bit strings start with a 1 and the rest start with a 0. First consider all the bit strings which start with a 1. After the 1, there must be n-1 more bits (to get the total length up to n) and exactly k-1 of them must be 1's (as we already have 1 one, and we need k total ones). How many strings are there like that?
+			- There are exactly $C(n-1, k-1)$ such bit strings. Of all the length $n$ bit strings containing k $1's$, $C(n-1, k-1)$ of them start with a 1. Similarly, there are $C(n-1, k)$ which start with a 0 (we still need n-1 bits and now k of them must be 1's). Since there are $C(n-1,k)$ bit strings containing $n-1$ bits with k 1's, that is the number of length n bit strings with k 1's which start with a 0. We answered the same question in two different ways so the two answers must be the same. Therefore, $C(n,k)$ = $C(n-1,k-1) + C(n-1,k)$ 
+	- Combinatorial Proofs
+		- Here is another way to explain the equation is true.
+		- How many ways can you select k pizza toppings from a menu containing n choices? One way to do this is to evaluate $C(n,k)$
+		- Another way to answer the same question is to first decide whether or not you want anchovies. If you do want anchovies, you still need to pick $k-1$ toppings, now from just n-1 choices. This can be done in $C(n-1, k-1)$ ways. If you do not want anchovies, then you still need to select k toppings from $n-1$ choices (the anchovies are out). You can do that in $C(n-1, k)$ ways. Since the choices with anchovies are disjoint from the choices without anchovies, the total choices are $C(n-1,k-1)$ + $C(n-1,k)$
+		- We answered the same question in two different ways, so the two answers must be the same. $C(n,k) = C(n-1, k-1) + C(n-1,k)$ 

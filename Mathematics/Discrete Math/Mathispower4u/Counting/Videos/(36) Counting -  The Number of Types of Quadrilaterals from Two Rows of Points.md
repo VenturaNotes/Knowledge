@@ -3,4 +3,19 @@ Source:
   - https://www.youtube.com/watch?v=jeJOCSV83WQ
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-12 at 2.04.12 AM.png]]
+	- Permutations and Combinations
+		- Suppose you wanted to draw a [[quadrilaterals|quadrilateral]] using the points below as vertices (corners). The points are spaced one unit apart horizontally and two units apart vertically.
+		- How many quadrilaterals are possible?
+			- The number of quadrilaterals is just selecting 2 points from row 1 and 2 points from row 2
+		- How many are squares?
+			- A [[square]] is a quadrilateral where all the angles are 90 degrees and all sides have equal length
+				- Can just count them manually for this problem
+		- How many are rectangles?
+			- A [[rectangle]] is a quadrilateral where all the angles are 90 degrees and the opposite sides have equal length
+		- How many are parallelograms?
+			- A [[Parallelograms|parallelogram]] is a quadrilateral in which opposite sides are parallel and have equal length
+				- Checking lengths of 5, 4, 3, 2, and 1 and how many there are for each given the points
+				- We have [[sum of squares]] here
+		- How many are trapezoids? A [[Trapezoids|trapezoid]] is defined as a quadrilateral with at least one pair of parallel sides. In particular, parallelograms are trapezoids
+		- How many are trapezoids that are not parallelograms 

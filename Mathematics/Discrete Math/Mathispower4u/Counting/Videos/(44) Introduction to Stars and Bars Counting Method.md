@@ -3,4 +3,39 @@ Source:
   - https://www.youtube.com/watch?v=40HxI6Uc00Q
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-12 at 3.09.56 AM.png]]
+	- Stars and Bars
+		- You have 7 cookies to give to 4 children. How many ways can you do this?
+		- Take a moment to think about how you might solve this problem. You may assume that it is acceptable to give a child no cookies. Also, the cookies are all identical and the order in which you give out the cookies does not matter.
+		- Now think about how you could specify such an outcome. In terms of cookies, we need to say after how many cookies do we stop giving cookies to the first child and start giving cookies to the second child. And then after how many do we switch to the third child? And after how many do we switch to the fourth? One way to represent an outcome is like this:
+			- 1st child, 2nd child, 3rd child, 4th child
+		- Three cookies go to the first child, then we switch and give one cookie to the second child, then switch, one to the third child, switch, two to the fourth child. Notice that we need 7 stars and 3 bars - one star for each cookie, and one bar for each switch between children, so one fewer bars than there are children (we don't need to switch after the last child - we are done).
+	- Stars and Bars
+		- A [[stars and bars chart]] is just a string of symbols, some stars and some bars. If instead of stars and bars, we would use 0's and 1's, it would just be a bit string. We know how to count those.
+		- But does any string of 7 bars and 3 stars correspond to a different way to distribute cookies? Yes!
+		- $|***||****$ 
+			- It represents the distribution in which the first child gets 0 cookies (because we switch to second child before any stars), the second child gets 3 cookies (3 stars before the next bar), the third child gets 0 cookies (no stars before the next bar) and fourth child gets the remaining 4 cookies. No matter how the stars and bars are arranged, we can distribute cookies in that way.
+			- So now let's get back to the question. 
+	- Stars and Bars
+		- $***|*|*|**$
+			- You have 7 cookies to give to 4 children. How many ways can you do this?
+		- Each way to distribute cookies corresponds to a stars and bars chart with 7 stars and 3 bars. There are 10 symbols, and we must choose 3 of them to be bars. Thus:
+			- There are $stars + bars \choose bars$ = $10 \choose 3$ ways to distribute 7 cookies to 4 children
+				- $10 \choose 3$ = 120 ways
+		- We will be able to apply this counting technique to several other more interesting types of problems. If you are wondering why $10 \choose 3$, recall the number of 10-bit string of weight 3 is also $10 \choose 3$ 
+			- $n \choose k$ = $|B^n_k|$ is the number of n-bit strings of weight k. Recall: The weight is the number of 1's
+				- How many bit strings have length 5 and weight 3? We must choose 3 of the 5 bits to be 1's
+				- There are $5 \choose 3$ = 10 such bit strings. 
+				- ![[Screenshot 2025-01-12 at 3.06.44 AM.png]]
+		- The problem is equivalent when determining the number of solutions to:
+			- $x_1 + x_2 + x_3 + x_4 = 7 \text { for } x_1 \ge 0, x_2 \ge 0, x_3 \ge 0, x_4 \ge 0$ 
+	- Stars and Bars
+		- How many ways are there to distribute 7 cookies to 4 children so that each child gets at least one cookie?
+		- One approach is to first give each child a cookie. The remaining 3 cookies can be distributed to the 4 children without restrictions. There are 3 stars and 3 bars for a total of 6 symbols, 3 of which must be bars.
+			- There are $6 \choose 3$ ways to distribute 7 cookies to 4 children giving at least one cookie to each kid.
+				- $6 \choose 3$ = 20 ways
+		- When do we use stars and bars?
+			- We have two groups of objects, one of which is indistinguishable (the stars) and one that is identifiable (the bars).
+				- Cookies vs children
+			- We have a constraint that needs to be satisfied such as an inequality or a lower bound
+			- We do not care about the order
