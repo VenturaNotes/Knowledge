@@ -3,3 +3,26 @@ Source:
   - https://youtube.com/watch?v=lgKR0iJi7Ww
 Reviewed: false
 ---
+- ![[Screenshot 2025-01-13 at 8.46.01 PM.png]]
+	- Subspace of a finite dimensional space
+	- Theorem
+		- Let H be a subspace of a finite dimensional vector space, V. Any linearly independent set in H can be expanded to a basis for H, and dim H $\le$ dim V
+			- Theorem tells us "Any..."
+		- We know a basis must be linearly independent vectors
+		- Adding vectors to set until we get a basis for H. The vector you get from $v_{p+1}$ will always be linearly independent of any of the vectors in S
+		- We know H is a [[subspace]] which means the vectors within H are all within V
+	- Dimensions of Nul A and Col A
+		- The pivot columns of A form a basis for A, therefore:
+			- dim Col A = # pivot columns in A
+			- Dimension is just the number of vectors in the basis
+		- In 4.2 we learned that to find a spanning set, we would have a vector for each free variable. Therefore:
+			- dim Nul A = # of Free variables in A
+	- Example
+		- Let A = matrix. Find the dimensions of Nul A and Col A
+			- The dimensions of the nul space of A is the number of free variables in the equation
+			- Dimension of column space of A is the number of pivot columns. We have 3 pivot columns
+			- Will add up to 4 since each column will be a pivot column or free variable
+	- Example
+		- Find dim Nul A + dim Col A for A
+			- Found 3 pivot columns and 2 free variables in [[row echelon form]]
+				- #question professor said "reduced echelon form". Is this accurate? I thought it's just row echelon form being shown

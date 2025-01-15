@@ -39,12 +39,12 @@ Reviewed: false
 	- [[(29) Linear Algebra 4.2.2 Column Spaces]]
 	- [[(30) Linear Algebra 4.3.1 Linearly Independent Sets and Bases]]
 	- [[(31) Linear Algebra 4.3.2 The Spanning Set Theorem]]
-- Incomplete
 	- [[(32) Linear Algebra 4.5.1 The Dimension of a Vector Space]]
 	- [[(33) Linear Algebra 4.5.2 Subspaces of a Finite Dimensional Space]]
 	- [[(34) Linear Algebra 4.6.1 The Row Space]]
 	- [[(35) Linear Algebra 4.6.2 Rank]]
 	- [[(36) Linear Algebra 5.1.1 Eigenvectors and Eigenvalues]]
+- Incomplete
 	- [[(37) Linear Algebra 5.1.2 More About Eigenvectors and Eigenvalues]]
 	- [[(38) Linear Algebra 5.2.1 Determinants and the IMT]]
 	- [[(39) Linear Algebra 5.2.2 The Characteristic Equation]]
