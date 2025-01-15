@@ -3,3 +3,33 @@ Source:
   - https://youtube.com/watch?v=jk6YPdIIJUg
 Reviewed: false
 ---
+- ![[Screenshot 2025-01-13 at 8.33.29 PM.png]]
+	- The dimension of a vector space
+	- What is it?
+		- If V is spanned by a finite set, then V is [[finite dimensional]]. The dimension of V, dim V, is the number of vectors in a [[basis]] for V
+			- Example: The [[standard basis]] for $\mathbb{R}^3$ is (in picture). (Those 3 vectors span all of $\mathbb{R^3}$ ) Therefore, dim $\mathbb{R}^3$ = 3
+				- Dimension of set is 3 because that is the number of vectors in the basis
+			- V is vector space here
+		- The zero vector space is defined as dim 0 = 0
+		- If V is not spanned by a finite-set, it is infinite dimensional
+			- Example: The space of $\mathbb{P}$ for all polynomials is [[infinite dimensional]]
+			- $\mathbb{P}^3$ would be {1, $t$, $t^2$, $t^3$  } so dim $\mathbb{P}^3 = 4$
+				- #question verify this to be true. I'm saying that it's dim.
+				- So $\mathbb{P}^n = n +1$
+	- Example
+		- Let H [[span]] where $v_1$ and $v_2$. Find dim H
+			- So just need to check if it's a basis or [[Linear Independence|linearly independent]]
+			- They are linearly independent because not multiples of one another
+				- Could easily determine this by inspection
+	- Example
+		- Find the dimension of the [[subspace]]
+			- Just need to determine how many vectors there are in the basis of this subset H
+			- Trying to determine if any of the vectors can be written as a linear combination of other vectors. (Any redundant vectors?)
+				- Going to turn matrix into [[reduced row echelon form]]
+			- So now determining if any of them are linear combinations of others
+			- Using [[spanning set theorem]] can remove vector $\begin{bmatrix}2 \\ -1 \\ 0 \end{bmatrix}$ as it can be created by performing operations on $v_1$ and $v_2$ 
+			- dim H = 2 because we have 2 vectors that define the subspace
+			- Could represent the basis here as either one below
+				- B = $\begin{bmatrix}1 \\ 5 \\ 0 \end{bmatrix}$, $\begin{bmatrix}2 \\ 0 \\ 1 \end{bmatrix}$
+				- B = $\begin{bmatrix}1 \\ 0 \\ 0 \end{bmatrix}$, $\begin{bmatrix}0 \\ 1 \\ 0 \end{bmatrix}$
+					- #question Would one of them be considered the standard basis?

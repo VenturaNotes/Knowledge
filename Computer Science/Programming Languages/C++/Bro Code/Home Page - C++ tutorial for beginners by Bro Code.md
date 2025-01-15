@@ -35,9 +35,9 @@ Reviewed: false
 	- [[(25) C++ number guessing game]]
 	- [[(26) How to create user defined functions]]
 	- [[(27) What does the return keyword do]]
-- Incomplete
 	- [[(28) What are overloaded functions]]
 	- [[(29) What is variable scope]]
+- Incomplete
 	- [[(30) Banking program written in C++]]
 	- [[(31) C++ ROCK PAPER SCISSORS game]]
 	- [[(32) What are arrays]]

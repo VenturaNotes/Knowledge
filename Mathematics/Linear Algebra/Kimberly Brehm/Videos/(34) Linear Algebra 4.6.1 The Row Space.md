@@ -3,3 +3,31 @@ Source:
   - https://youtube.com/watch?v=4TpVjdY8uGc
 Reviewed: false
 ---
+- ![[Screenshot 2025-01-13 at 10.46.30 PM.png]]
+	- The [[row space]] of a vector
+	- What is it?
+		- The set of all linear combinations of the row vectors in A. If A is $m \times n$, then each row vector is a subspace of $\mathbb{R}^n$. Row space is denoted row A.
+			- Can write $r_1 = (3, 0, 2)$ or $[3 \space 0 \space 2]$ 
+		- We can also write Col $A^T$ for Row A
+			- This is essentially what the row space will look like. And the transpose of that is the column space
+	- Theorem
+		- If A ~ B, then row A = Row B
+			- If A and B are equivalent, then the row space of A is equal to the row space of B
+		- If B is in echelon form, the non-zero rows of B form a basis for row A and row B
+		- Find row A given A ~ B
+			- In [[spanning set theorem]] able to take columns away that are redundant. Can also take out rows that are all zeros as they don't belong in the basis
+				- #question is this always true?
+	- Practice
+		- Find the basis for row A, Col A and Nul A for
+			- Original, Echelon, RREF
+		- B(Row A) = 
+			- This is asking for the basis of the row space of A
+			- Both representations of the answers are fine as shown
+		- Basis for column space of A
+			- Pivot columns (but original pivot columns)
+		- [[Null space]] found through $Ax= 0$ 
+	- Practice
+		- Find the bases for Row A, Col A and Nul A
+			- When looking for basis for row space of A, looking at the echelon form and getting rid any rows of zeros. So it's all rows that are not zeros
+		- Basis for column space of A comes from finding where my pivot columns are which comes from echelon or reduced echelon form. So the basis for the column space of A will be any of the original columns for the pivot columns
+		- Null space of A. Looking at each row not all zeros

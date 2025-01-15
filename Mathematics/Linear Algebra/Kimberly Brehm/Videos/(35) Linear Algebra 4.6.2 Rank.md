@@ -3,3 +3,34 @@ Source:
   - https://youtube.com/watch?v=1MYkWhpuLtY
 Reviewed: false
 ---
+- ![[Screenshot 2025-01-13 at 10.55.27 PM.png]]
+	- Will learn about [[rank]] and rank theorem
+	- What is it?
+		- Rank A = dim Col A = # pivot columns in A 
+			- Rank is simply the dimension of the column space of A which is simply the number of pivot columns in A
+			- Just need to reduce matrix to at least echelon form
+			- We have rank 3 because that is the number of pivot columns in A
+	- The [[rank theorem]]
+		- Rank A = dim Row A for A, an $m \times n$ matrix (where n is number of columns)
+			- Every pivot needs to have a row 
+			- Therefore, it makes sense that every time I have a pivot column, I will also have a non-zero row which adds to the dimensions of the row space of A 
+		- Rank A + dim Nul A = n
+			- The # of pivot columns + the number of free variables = # of columns in matrix
+	- Practice
+		- If A is a $7 \times 10$ matrix with a 3-dimensional null space, what is the rank of A?
+			- Rank of A + dimension of null space of A = number of columns in matrix
+				- Rank A + 3 = 10
+				- Rank A = 7
+		- Could a $4 \times 7$ matrix have a 2-dimensional null space?
+			- Can you have a 2-dimensional null space with a rank of 5?
+			- Keep in mind that the columns are vectors in $\mathbb{R}^4$. So could we have 5? No because the number of rows is 4 and 5 cannot exceed 4.
+			- No
+				- 3-dimensional null space would be okay as you'd have 4 + 3 = 7
+	- More [[invertible matrix theorem|IMT]]
+		- Let A be an invertible $n \times n$ matrix. The following statements are equivalent:
+			- The columns of A form a basis of $\mathbb{R}^n$
+			- Col A = $\mathbb{R}^n$
+			- dim Col A = n
+			- Rank A = n
+			- Nul A = {0}
+			- dim Nul A = 0
