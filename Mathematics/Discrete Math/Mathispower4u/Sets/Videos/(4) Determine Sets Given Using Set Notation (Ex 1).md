@@ -3,4 +3,23 @@ Source:
   - https://www.youtube.com/watch?v=bd1Pb7GZtVY
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 12.29.18 PM.png]]
+	- Sets
+		- Describe each of the following sets both in words and by listing out enough elements to see the pattern
+			- Four examples shown through set notation or set builder notation
+				- #question are they the same thing?
+		- $\mathbb{N}$
+			- The set of natural numbers
+			- That is, $\mathbb{N}$ = {0, 1, 2, 3, ...}
+				- Some sources don't include 0 as a natural number but our text does
+	- Sets
+		- {x: x + 3 $\in$ $\mathbb{N}$}
+			- This is the set of all numbers such that x + 3 is a natural number. The set could be written as {-3, -2, -1, 0, 1, 2, ...} (note that 0 is a natural number, so -3 is in this set because -3 + 3 = 0)
+		- {x $\in$ $\mathbb{N}$: x + 3 $\in$ $\mathbb{N}$}
+			- This is the set of all natural numbers such that x + 3 is a natural number. So here we just have {0, 1, 2, 3, ...}
+				- If we considered {x $\in$ $\mathbb{N}$: x - 3 $\in$ $\mathbb{N}$ } then we would have {3, 4, 5, ...}
+	- Sets
+		- {x: x $\in$ $\mathbb{N}$ $\lor$ -x $\in$ $\mathbb{N}$}
+			- This is the set of all numbers x such that x is a natural number or the opposite of x is a natural number. This is the set of all integers (positive and negative whole numbers, written $\mathbb{Z}$). In other words, {..., -2, -1, 0, 1, 2, ...}.
+		- {x: x $\in$ $\mathbb{N}$ $\land$ -x $\in$ $\mathbb{N}$}
+			- Here we want all numbers x such that x and -x are natural numbers. There is only one natural number where its opposite is also a natural number which is zero. This set only has one element, the number 0. We have the set {0}.

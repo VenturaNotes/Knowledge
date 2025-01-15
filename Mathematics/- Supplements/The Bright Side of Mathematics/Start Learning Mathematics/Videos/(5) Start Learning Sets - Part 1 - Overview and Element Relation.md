@@ -16,7 +16,7 @@ Reviewed: true
 		- List of propositions assumed to be true
 	- [[Set]]: Collection of distinct objects into a whole
 		- Not a correct definition but an idea we have in mind written down
-		- such an object x inside a set M is called an [[element (Math)|element]] of M
+		- such an object x inside a set M is called an [[members|element]] of M
 			- $x \in M$ 
 		- If x is not such an object inside the set M, we write $x \notin M$ 
 	- A set can be defined by giving all its elements: inside curly brackets

@@ -1,6 +1,7 @@
 ---
 aliases:
   - complementing
+  - complements
 ---
 ## Synthesis
 - $\overline {A}  = A^c = A'$

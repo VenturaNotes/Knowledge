@@ -30,7 +30,7 @@ Reviewed: false
 		- Examples
 		- Convention
 			- We prefer to use upper case letters (A, B, C, X, Y) for sets, and lower case letters (a, b, c, x, y) for elements
-	- Slide 6 - [[Subsets]]
+	- Slide 6 - [[Subset|subsets]]
 		- Definition (subset)
 			- Let A, B be sets. We say that A $\subseteq$ B if and only if $(\forall x)[x \in A \implies x \in B]$ 
 		- Examples

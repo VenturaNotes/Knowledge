@@ -3,4 +3,22 @@ Source:
   - https://www.youtube.com/watch?v=84ej_yVuMoo
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 12.07.37 PM.png]]
+	- Equal Versus Equivalent Sets
+		- [[Equal]] sets are identical to each other, meaning they contain the same elements, without regard to order.
+		- [[Equivalent]] sets have the same number of elements or same cardinality
+			- We use the symbol $A \sim B$ for equivalence
+	- Equal Versus Equivalent Sets
+		- Determine if the following pairs of sets are equal, equivalent, or neither
+			- (1) The set E = {2, 4, 6, 8, 10} and the set F = {fork, spoon, knife, meat thermometer, can opener}
+			- (2) The set A is the empty set and set B is the set of prime numbers less than 2
+				- The set of [[prime number|prime numbers]] consists of the set of counting numbers greater than one that only have two factors, one and itself. 
+					- There are no prime numbers less than two
+					- primes = {2, 3, 5, 7, 11, ...}
+				- So set A equals set B
+				- Also true the two sets are equivalent
+					- Equal sets are always equivalent
+					- But stating two sets are equal is giving more information
+			- (3) The set M is the set of vowels in the word happiness and the set N is the set of consonants in the word happiness
+	- "There are no secrets to success. It is the result of preparation, hard work, and learning from failure." - Colin Powell
+		- #comment I think it's working smart as well

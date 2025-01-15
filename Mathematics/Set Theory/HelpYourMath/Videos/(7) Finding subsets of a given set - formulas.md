@@ -5,7 +5,7 @@ Reviewed: false
 ---
 ---
 - Finding Subsets
-	- A [[Subsets|subset]] of a given set is a set in which all its elements are also elements of the given set.
+	- A [[subset]] of a given set is a set in which all its elements are also elements of the given set.
 	- A [[proper subset]] of a given set is a subset of the given set AND the given set has at least one element not in the subset
 	- Logicians are interested in finding all possible subsets of a given set. Let's look at set A, which for now, A = {3, 4}. How many subsets can you find for A?
 		- ![[Screenshot 2023-04-01 at 2.02.16 AM.png]]

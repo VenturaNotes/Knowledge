@@ -28,6 +28,7 @@ http://detexify.kirelabs.org/classify.html
 - Not equal: $\ne$ 
 - Omega: $\Omega$ 
 - Creating a `\`: $\backslash$ 
+	- Could be $\setminus$ as well
 - Less than or equal to: $\le$ 
 - Square root: $\sqrt{7}$
 - Cube Root: $\sqrt[3]{27}$

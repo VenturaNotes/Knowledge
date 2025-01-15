@@ -11,7 +11,7 @@ Reviewed: false
 				- Used for visualizing and not proofs
 	- Slide 2
 		- Question: How do we prove $A \subseteq C$  generally
-			- Proving [[subsets]]
+			- Proving [[Subset|subsets]]
 		- Answer
 			- A $\subseteq$ C
 				- $(x \in A) \implies (x \in C)$ 

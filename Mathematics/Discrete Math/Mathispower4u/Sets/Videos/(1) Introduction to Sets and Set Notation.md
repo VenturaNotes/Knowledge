@@ -3,4 +3,75 @@ Source:
   - https://www.youtube.com/watch?v=82vEUReURYw
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 10.52.29 AM.png]]
+	- Sets
+		- A [[set]] is a collection of objects whose contents can be clearly determined. [[members|Elements]] are the objects in a set. Objects will typically be mathematical, which are either elements or not elements of a set, similar to a statement which is true or false
+		- Much of discrete mathematics is the study of finite sets. Capital letters are generally used to name sets
+			- A set is usually represented on one of these ways
+				- (1) [[List]]: All elements of a set are listed between curly brackets. If a set is infinite, list as many elements as needed to reveal a pattern: 
+					- A = {..., -6, -4, -2, 0, 2, 4, 6, ...}
+						- The `...` indicates the pattern continues towards the left and right. Said as "dot dot dot"
+				- (2) [[Set Notation|Set-notation]]: A formal mathematical notation that defines the properties that an element of a set has must satisfy. For example, the set A of all even integers can be written as:
+					- $A = \{x \in \mathbb{Z} : x \text { is even}\}$
+						- Set A is the set containing $x$ which is an integer such that $x$ is even
+						- Could also say that set A is the set of all integers such that $x$ is even
+				- (3) [[Venn Diagram]]: A graphical representation of a set that can be useful to identify relationships among different sets
+					- Overlapping regions are elements that belong to both set A and B
+	- Special Sets
+		- $\varnothing$ The [[empty set]] is the set which contains no elements. Also, denoted by {}
+		- $U$ The [[Universal set]] is the set of all elements in a particular context
+			- Capital U
+		- $\mathbb{N}$ The set of [[Natural Numbers]]. That is, $\mathbb{N} = \{0, 1, 2, 3, ...\}$
+		- $\mathbb{Z}$ The set of [[integers]]. That is, $\mathbb{Z}$ = $\{..., -2, -1, 0, 1, 2, 3, ...\}$
+		- $\mathbb{Q}$ The set of [[rational numbers]], which are numbers that can be expressed as a ratio of integers
+		- $\mathbb{R}$ The set of [[real numbers]], which are al the numbers on a number line
+		- $\mathcal P(A)$ The [[power set]] of any Set A is the set of all [[Subset|subsets]] of A
+	- Set Theory Notation:
+		- $\{,\}$ 
+			- We use these braces or curly brackets to enclose the elements of a set. So {1, 2, 3} is the set containing 1, 2, and 3.
+			- Elements separated by commas
+		- : 
+			- {x: x > 2} is the set of all x such that x is greater than 2
+				- Can say "this is the set of all numbers such that x is greater than 2"
+		- $\in$
+			- 2 $\in$ {1, 2, 3} asserts that 2 is an element of the set {1, 2, 3}
+		- $\notin$ 
+			- 4 $\notin$ {1, 2, 3} because 4 is not an element of the set {1, 2, 3}
+		- $\subseteq$
+			- A $\subseteq$ B asserts that A is a [[subset]] of B: every element of A is also an element of B. A can = B
+			- Looks like a rounded equality symbol
+				- Can think of this as less than or equal to
+		- $\subset$
+			- A $\subset$ B asserts that A is a [[Proper Subset]] of B: every element of A is also an element of B, but A $\ne$ B
+			- Looks like less than
+	- Set Theory Notation:
+		- $\cap$
+			- A $\cap$ B is the [[intersection]] of A and B: the set containing all elements which are elements of both A and B. (Analogous to [[Conjunction|Conjunctions]])
+		- $\cup$ 
+			- A $\cup$ B is the [[union]] of A and B: is the set containing all elements which are elements of A or B or both. (Analogous to [[Disjunction|Disjunctions]])
+		- $\times$
+			- A $\times$ B is the [[cartesian product]] of A and B: the set of all [[ordered pair|ordered pairs]] (a, b) with a $\in$ A and b $\in$ B
+		- \ or -
+			- $A\backslash B$ or $A-B$ is A minus B: the set containing all elements of A which are not elements of B
+		- $\overline A$ or $A^C$ 
+			- The [[complement]] of A is the set of everything which is not an element of A
+				- Capital C or bar over A
+		- $|A|$ or $n(A)$ 
+			- The [[cardinality]] (or size) of A is the number of distinct elements in A
+- ![[Screenshot 2025-01-15 at 11.25.20 AM.png]]
+	- Sets
+		- Important considerations when using set notation:
+			- (a) {0} $\ne$ $\varnothing$ since {0} contains one element
+			- (b) 0 $\ne$ $\varnothing$, since 0 is a number, not a set
+			- (c) $\varnothing$ is a subset of every set
+			- (d) x $\notin$ {1, b, {x, y}, $\varnothing$} since x is not one of the 4 elements. The 3rd element in the set is {x, y}. We could state {x, y} $\in$ {1, b, {x, y}, $\varnothing$} 
+			- (e) {1} $\notin$ {1, 2, 3} since {1} is a set. 1 $\in$ {1, 2, 3} is the appropriate notation. The set containing 1, {1}, is not the same as the element 1
+	- Sets
+		- Important considerations when using set notation
+			- (f) 3 $\nsubseteq$ {1, 2, 3} since element 3 is not a set. {3} $\subseteq$ {1, 2, 3} is the appropriate notation
+			- (g) {3} $\in$ {1, {1, 2}, {3}, $\varnothing$} but {3} $\nsubseteq$ {1, {1, 2}, {3}, $\varnothing$}. (The set containing 3, {3}, is not the same as element 3.)
+				- #comment{3} $\subseteq$ is only true here if the superset has the element 3, not the set 3, {3}.
+			- (h) {3} $\subseteq$ {1, {1, 2}, 3, $\varnothing$} is correct. (The element 3 is not the same as the set containing 3, {3}). 3 $\in$ {1, {1, 2}, 3, $\varnothing$}
+			- (i) {0, 2, 4, 6, ...} = {x $\in$ $\mathbb{N}$: x is even} (called [[Set-builder notation|Set Builder Notation]])
+				- #question difference between set notation and set builder notation? Does it just have an equals sign?
+			- We will look at additional examples in the next several videos

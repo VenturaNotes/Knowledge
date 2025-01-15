@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2024-01-07 at 5.06.06 PM.png]]
-	- [[Subsets]]
+	- [[Subset|subsets]]
 		- Description [^1]
 	- Example: Assume A = {1, 2, 3, 4, 5} and B = {2, 4}
 	- [[Proper subset]]

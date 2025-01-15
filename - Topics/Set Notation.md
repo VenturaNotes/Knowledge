@@ -1,3 +1,7 @@
+---
+aliases:
+  - Set-notation
+---
 ## Synthesis
 - 
 ## Source [^1]

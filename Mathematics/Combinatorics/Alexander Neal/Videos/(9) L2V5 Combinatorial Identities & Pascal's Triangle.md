@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2023-09-08 at 9.14.15 PM.png]]
-	- [[bit string|bit-strings]] and [[subsets]]
+	- [[bit string|bit-strings]] and [[Subset|subsets]]
 		- Equivalent Problems
 			- Problem 1: How many bit strings of length 38 have exactly 17 ones?
 			- Problem 2: How many subsets of size 17 in a set of size 38
@@ -22,7 +22,7 @@ Reviewed: false
 		- Can go back and forth between bit-strings and subsets pretty easily (natural connecting between the two)
 - ![[Screenshot 2023-09-11 at 11.58.02 PM.png]]
 	- [[Basic Identities for binomial coefficients]]
-		- [[Complements]]
+		- [[Complement|complements]]
 			- $n \choose k$ = $n \choose n -k$
 				- Imagine n people lined up, and you choose k people from there. 
 					- Choosing the ins is the same as choosing the outs

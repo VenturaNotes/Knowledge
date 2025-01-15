@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2025-01-02 at 2.35.17 PM.png]]
-	- [[Subsets]]
+	- [[Subset|subsets]]
 		- Consider the set A = {1, 2, 3, 4, 5}.
 		- How many subsets of A are there? $|\mathcal{P}(A)|$ is the cardinality of the [[power set]] of $\mathcal P(A)$ 
 			- The power set of A is equal to the set containing all of the subsets of A and so the cardinality is equal to the number of subsets in A

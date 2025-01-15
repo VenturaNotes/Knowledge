@@ -30,7 +30,7 @@ Reviewed: false
 	- Preferably put the elements of the union in order
 ---
 - ![[Screenshot 2023-05-13 at 7.20.17 AM.png|500]]
-- Finding [[complements]]
+- Finding [[Complement|complements]]
 	- Recall that the complement of a set A, denoted A', is the set of all elements in U that are not in A
 ---
 - ![[Screenshot 2023-05-13 at 7.21.09 AM.png|500]]
