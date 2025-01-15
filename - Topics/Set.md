@@ -28,7 +28,7 @@ aliases:
 - ![[Screenshot 2024-12-12 at 9.49.29 AM.png|300]]
 	- A set is a collection of distinct objects into a whole
 		- Not necessarily a correct definition, but idea we have in mind
-	- Such an object `x` inside a set M is called an [[element (Math)|element]] of M, written as: $x \in M$ 
+	- Such an object `x` inside a set M is called an [[members|element]] of M, written as: $x \in M$ 
 	- If `x` is not such an object inside the set M, we write $x \notin M$ 
 		- Which equivalently means: $\lnot (x \in M)$ 
 - A set can be [[defined by]] giving all its elements

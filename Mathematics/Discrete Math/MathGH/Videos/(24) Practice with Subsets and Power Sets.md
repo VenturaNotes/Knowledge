@@ -4,8 +4,8 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2024-01-07 at 3.39.42 PM.png]]
-	- Practice with [[subsets]] and [[Power Set|power sets]]
-		- [[Subsets]]
+	- Practice with [[Subset|subsets]] and [[Power Set|power sets]]
+		- [[Subset|subsets]]
 			- B is a subset of A if every element in B is also in A
 				- We write this as B $\subseteq$ A
 				- If B is not a subset of A, we put the dash through the subset symbol

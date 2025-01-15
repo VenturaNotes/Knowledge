@@ -38,7 +38,7 @@ Reviewed: false
 		- {3, 2, 1}
 	- |D| = 3
 		- {$\Large \circ$, ♡, $\triangle$}
-- [[Subsets]]
+- [[Subset|subsets]]
 	- E = {1, 2}
 	- E $\subseteq$ A
 		- All of the element in E are in A

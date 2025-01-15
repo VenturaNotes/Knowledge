@@ -3,4 +3,24 @@ Source:
   - https://www.youtube.com/watch?v=ymRkaRRT-ZY
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 12.41.25 PM.png]]
+	- Relationship Between Sets
+		- Let A, B, C, and D. Determine which of the following are true, false, or meaningless
+			- (1) False
+				- False. For example, 1 $\in$ A but 1 $\notin$ B
+			- (2) True
+				- True. Every element in B is an element of A
+			- (3) False
+				- False. The set {2, 4, 6} is not an element in C
+			- (4) False
+				- A has exactly 6 elements, and none of them are the empty set
+			- (5) True
+				- Everything in the empty set (nothing) is also an element of A. Notice that the empty set is a subset of every set.
+			- (6) Meaningless
+				- A set cannot be less than another set
+			- (7) True
+				- 3 is one of the elements of the set C
+			- (8) Meaningless
+				- 3 is not a set, so it cannot be a subset of another set
+			- (9) True
+				- 3 is the only element of the set {3}, and is an element of C, so every element in {3} is an element of C

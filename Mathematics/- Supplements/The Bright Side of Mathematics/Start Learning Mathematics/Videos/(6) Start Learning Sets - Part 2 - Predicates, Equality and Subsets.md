@@ -46,7 +46,7 @@ Reviewed: false
 - ![[Screenshot 2023-10-11 at 3.41.42 AM.png]]
 	- {2, 3, 5} = {2, 2, 2, 3, 3, 5}
 		- Two sets are equal even when elements are repeating (though repeating elements not typically represented)
-	- [[Subsets]]
+	- [[Subset|subsets]]
 		- For two sets A, B, we write A $\subseteq$ B if is true (note that sometimes the line underneath is omitted)
 		- $\forall x : x \in A \to x \in B$ 
 			- Short notation: $\forall x \in A : x \in B$ 
