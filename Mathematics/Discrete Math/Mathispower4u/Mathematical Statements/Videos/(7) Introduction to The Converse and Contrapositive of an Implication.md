@@ -3,4 +3,26 @@ Source:
   - https://www.youtube.com/watch?v=NIq2tgbX0ms
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 9.45.15 PM.png]]
+	- Converse and Contrapositive of an Implication
+		- An implication or conditional is a molecular statement of the form: $P \to Q$ where P and Q are statements. We define the following:
+		- [[Converse]] is obtained by swapping conclusion and hypothesis: $Q \to P$ 
+			- The converse is NOT logically equivalent to the original implication. That is, whether the converse of an implication is true is independent of the truth of the implication
+		- [[Contrapositive]] is obtained by implying that the negative of the conclusion implies the negative of the hypothesis: $\lnot Q \to \lnot P$
+			- An implication and its contrapositive are logically equivalent (they are either both true or both false)
+		- [[Negation]] is obtained by taking the conjunction (and) of the hypothesis and the negative of the conclusion: $\lnot P( \to Q) \equiv P \land \lnot Q$
+			- Mathematics is overflowing with examples of true implications which have a false converse
+				- If a number greater than 2 is prime, then that number is odd. However, just because a number is odd does not mean it is prime
+				- If a shape is a square, then it is a rectangle. But it is false that if a shape is a rectangle, then it is a square.
+		- An implication is true if P is false or Q is true or both. An implication is false only when P is true and Q is false.
+	- Converse and Contrapositive of an Implication
+		- However, sometimes the converse of a true statement is also true. For example, the [[Pythagorean theorem]] has a true converse.
+		- [[Implication]]: If a triangle with sides a, b, and c (with c the longest side) is a right triangle, then $a^2 + b^2 = c^2$
+		- [[Converse]]: If $a^2 + b^2 = c^2$, then the triangle with sides $a, b, \text{ and } c$ is a right triangle. Whenever you encounter an implication in mathematics, it is always reasonable to ask whether the converse is true
+		- The contrapositive, on the other hand, always has the same truth value as its original implication. This can be very helpful in deciding whether an implication is true: often it is easier to analyze the contrapositive
+		- Contrapositive: If $a^2 + b^2 \ne c^2$, then the triangle with sides a, b, and c is not a right triangle
+	- Converse and Contrapositive of an Implication
+		- Example 0.2.5.
+			- True or false: If you draw any nine playing cards from a regular deck, then you will have at least three cards all of the same suit. Is the converse true?
+				- True. The original implication is a little hard to analyze because there are so many different combinations of nine cards. But consider the contrapositive: If you don't have at least three cards all of the same suit, then you don't have nine cards. It is easy to see why that is true: you can at most have two cards of each of the four suits, for a total of eight cards (or fewer)
+		- The converse: If you have at least three cards all of the same suit, then you have nine cards. This is false. You could have three spades and nothing else. Note that to demonstrate that the converse (an implication) is false, we provided an example where the hypothesis is true (you do have there cards of the same suit), but where the conclusion is false (you do not have nine cards)

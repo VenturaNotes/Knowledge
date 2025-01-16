@@ -3,4 +3,52 @@ Source:
   - https://www.youtube.com/watch?v=XM0e6-OaYLY
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 3.32.46 PM.png]]
+	- Mathematical Statements and Logic Connectives
+		- A [[statement]] (proposition or assertion) is any declarative sentence which is either true or false. 
+		- An [[atomic statement]] is a statement that cannot be divided into smaller statements
+		- A [[molecular statement]] is a statement that is composed of more than one statement
+		- These are statements (in fact, atomic statements):
+			- Telephone numbers in the USA have 10 digits
+			- The moon is made of cheese
+			- 42 is a perfect square
+			- Every even number greater than 2 can be expressed as the sum of two primes
+			- 3+7 = 12
+		- And these are not statements:
+			- Would you like some cake?
+			- The sum of two squares.
+			- 1 + 3 + 5 + 7 + ... + 2n + 1
+			- Go to your room!
+			- 3 + x = 12
+				- Not given value of x to determine whether the value of the sentence is true or false
+	- Mathematical Statements and Logic Connectives
+		- Classify each as not a statement, an atomic statement, or a molecular statement
+			- You order a pizza, and you order a drink. (molecular statement)
+			- The meal comes with a drink (atomic statement)
+			- Would you like a drink with your meal? (not a statement)
+		- You can build more complicated (molecular) statements out of simpler (atomic or molecular) ones using [[logical connectives]]. We will consider the 5 most common connectives:
+			- (1) "and"
+			- (2) "or"
+			- (3) "if... then,"
+			- (4) "if and only if"
+			- (5) "not"
+		- (1) - (4) are called [[binary connectives]] (because they connect two statements) while (5) is an example of a [[unary connective]] (since it applies to a single statement)
+		- These molecular statements are still statements, so they must be either true or false. The key observation here is that which truth value the molecular statement achieves is completely determined by the type of connective and the truth values of the parts.
+	- Mathematical Statements and Logic Connectives
+		- To analyze logical connectives, it is enough to consider [[propositional variables]] (sometimes called sentential variables). Usually capital letters in the middle of the alphabet: $P, Q, R, S, ...$
+		- We also have symbols for the logical connectives: $\land$, $\lor$, $\to$, $\leftrightarrow$, $\lnot$
+		- [[Logical connectives]]
+			- P $\land$ Q is read "P and Q", and called a [[conjunction]]
+			- $P \lor Q$ is read "P or Q", and called a [[disjunction]]
+			- P $\to$ Q is read "if P then Q," and called an [[implication]] or conditional
+			- P $\leftrightarrow$ Q is read "P if and only if Q," and called a [[biconditional]]
+			- $\lnot P$ is read "not P", and called a [[negation]]
+	- Mathematical Statements and logic Connectives
+		- Classify each of the sentences below as an atomic statement, a molecular statement, or not a statement at all. If it is a statement, determine what type (conjunction, disjunction, conditional, biconditional, negation)
+			- (a) Molecular, conditional
+			- (b) atomic, negation
+			- (c) Molecular, disjunction
+			- (d) Molecular , conjunction
+			- (e) Atomic
+			- (f) Not a statement
+				- Cannot be determined and therefore is not a statement

@@ -3,4 +3,19 @@ Source:
   - https://www.youtube.com/watch?v=rQVSJmPnpcA
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 10.53.00 PM.png]]
+	- Determining Truth Values
+		- Assume the statement "if the square is red, then the triangle is blue" is true and the converse is false. Classify each statement below as true or false (if possible)
+			- If the square is red, then the triangle is blue (True)
+			- If the triangle is blue, then the square is red (False)
+			- (a) False
+			- (b) True
+				- By just looking at the true statements written in blue
+			- Know the below by default since the only way an implication can be true and the converse false is if Q is true and P is false
+				- (c) False
+				- (d) True
+		- Notes
+			- The only way the implication P $\to$ Q can be true and the converse Q $\to$ P can be false is if Q is true and P is false. Q $\to$ P (False: Q:T P:F)
+			- P $\to$ Q is true when P is false or Q is true or both. P $\to$ Q is true except when P is true and Q is false.
+			- [[Converse]] is obtained by swapping conclusion and hypothesis: $Q \to P$ 
+				- $P \leftrightarrow Q$ is equivalent to $(P \to Q ) \land (Q \to P)$ 

@@ -8,7 +8,6 @@ tags:
 Reviewed: false
 ---
 - Complete
-- Incomplete
 	- [[(1) What is Discrete Mathematics.]]
 	- [[(2) Mathematical Statements and Logic Connectives]]
 	- [[(3) Truth Conditions for Connectives]]
@@ -22,6 +21,7 @@ Reviewed: false
 	- [[(11) If And Only If Statements]]
 	- [[(12) Given an Implication and Converse, Find the Truth Value of If And Only If Statements]]
 	- [[(13) Necessary and Sufficient Statements]]
+- Incomplete
 	- [[(14) Equivalent Statements to an Implication]]
 	- [[(15) Introduction to Predicates and Quantifiers]]
 	- [[(16) Predicate and Quantifier Concept Check 1]]

@@ -8,7 +8,7 @@ Reviewed: false
 	- X set + d: $X \times X \to [0, \infty)$ metric = metric space (X, d)
 		- If we have a set $X$ and we have a metric for this set, we call this a metric space
 		- Within a metric space, can now generalize many notions we may know from a real analysis course
-			- Can define [[sequences]], [[limits]], and [[accumulation points]]
+			- Can define [[Sequence|sequences]], [[limits]], and [[accumulation points]]
 	- Examples
 		- (a) $X = \mathbb{C}$, d(x, y) = $| x - y |$
 			- Set is the complex numbers and [[metric]] should be usual notion of measuring distances in the complex numbers (which means absolute value where we look at difference of both points)

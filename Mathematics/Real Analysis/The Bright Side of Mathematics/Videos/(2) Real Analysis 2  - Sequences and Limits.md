@@ -5,7 +5,7 @@ Reviewed: false
 ---
 - ![[Screenshot 2024-12-17 at 9.33.10 PM.png]]
 	- Will talk about sequences and limits
-	- [[Sequences]]: A sequence of real numbers: a map a: $\mathbb{N}$ $\to$ $\mathbb{R}$  or a: $\mathbb{N_0} \to \mathbb{R}$
+	- [[Sequence|Sequences]]: A sequence of real numbers: a map a: $\mathbb{N}$ $\to$ $\mathbb{R}$  or a: $\mathbb{N_0} \to \mathbb{R}$
 		- Map from the natural numbers into the real numbers
 		- For $\mathbb{N}$, we don't include 0. For $\mathbb{N}_0$, we do.
 			- Only difference is if we start counting form 1 or 0.

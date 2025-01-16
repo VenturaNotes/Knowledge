@@ -3,4 +3,23 @@ Source:
   - https://www.youtube.com/watch?v=3KIbjzSH5yE
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 3.41.25 PM.png]]
+	- Truth Conditions for connectives
+		- The [[truth value]] of a statement is determined by the truth value(s) of its part(s), depending on the connectives
+		- Truth Conditions for Connectives
+			- P $\land$ Q is true when both P and Q are true (P and Q)
+			- P $\lor$ Q is true when P or Q or both are true (P or Q)
+			- $P \to Q$ is true when P is false or Q is true or both (if P then Q)
+			- $P \leftrightarrow Q$ is true when P and Q are both true, or both false (P iff Q)
+			- $\lnot P$ is true when P is false (not P)
+		- Note that "or" is [[inclusive or]] (and not the sometimes used exclusive "or") meaning that $P \lor Q$ is in fact true when both P and Q are true. 
+		- The only way for P $\to$ Q to be false is for P to be true and Q to be false
+	- Truth Conditions for Connectives
+		- Determine whether each molecular statement below is true or false, or whether it is impossible to determine. Assume you do not know what my favorite number is (but you do know that 13 is prime).
+			- (a) Not possible
+			- (b) True
+			- (c) True
+			- (d) True
+			- (e) Not possible
+			- (f) False
+			- (g) True

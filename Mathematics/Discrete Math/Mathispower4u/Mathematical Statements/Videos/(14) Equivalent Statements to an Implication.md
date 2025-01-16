@@ -3,4 +3,24 @@ Source:
   - https://www.youtube.com/watch?v=FhO7rrmZS18
 Reviewed: false
 ---
-
+- Image
+	- Rephrasing an implication
+		- Rephrase the implication in equivalent ways.
+			- If it is raining, then I use an umbrella
+				- $P \to Q$
+			- All of the following are equivalent
+				- if P then Q
+				- If P, Q
+				- P is sufficient for Q
+				- Q if P
+				- Q whenever P
+				- Q is necessary for P
+				- A necessary condition for P is Q
+				- Q unless $\lnot P$
+				- P implies Q
+				- P only if Q
+				- P is sufficient for Q
+				- P is a sufficient condition for Q
+				- Q follows from P
+				- $\lnot Q \to \lnot P$ (contrapositive)
+				- $P \to Q \equiv \lnot P \lor Q$ 

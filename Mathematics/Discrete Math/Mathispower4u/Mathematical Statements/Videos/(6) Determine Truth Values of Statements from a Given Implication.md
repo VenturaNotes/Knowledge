@@ -3,4 +3,27 @@ Source:
   - https://www.youtube.com/watch?v=D73Rz_Gizss
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 9.33.31 PM.png]]
+	-  Determining Truth Values from an Implication
+		- In my safe is a sheet of paper with two shapes drawn on it in colored crayon. One is a square, and the other is a triangle. Each shape is drawn in a single color. Suppose you believe me when I tell you that if the square is blue, then the triangle is green. What do you therefore know about the truth value of the following statements?
+			- P = The square is blue
+			- Q = The triangle is green
+				- P $\to$ Q
+			- (a) False
+			- (b) Not enough information
+				- Knowing the square is not blue is not enough information to determine that the square and triangle are both green. We cannot make a conclusion about statement 2
+			- (c) True
+				- Contrapositive (has same truth value of original implication)
+			- (d) Not enough information
+				- Converse (may or may not have the same truth value as the original implication)
+			- (e) True
+				- So either the first or second statement is true and therefore the disjunction is true
+		- Terms
+			- [[Implication]]
+			- [[Converse]]
+			- [[Contrapositive]]
+		- Here we have 3 cases. Let's consider all 3
+			- If the square is blue, then the triangle is green
+			- If the square is not blue, then the triangle is green
+			- If the square is not blue, then the triangle is not green
+			- False: If the square is blue, then the triangle is not green
