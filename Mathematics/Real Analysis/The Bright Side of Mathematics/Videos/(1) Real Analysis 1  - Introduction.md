@@ -10,7 +10,7 @@ Reviewed: false
 	- Goal: Understanding [[differential]] and [[integral]] calculations
 		- Will understand $\frac {df}{dx}$ and $\int_a^bfdx$ 
 	- Topics
-		- [[Sequences]] of [[real numbers]]
+		- [[Sequence|Sequences]] of [[real numbers]]
 		- [[Limits]]
 		- [[Continuity]] (will talk about functions that are continuous)
 		- [[derivative|derivatives]]

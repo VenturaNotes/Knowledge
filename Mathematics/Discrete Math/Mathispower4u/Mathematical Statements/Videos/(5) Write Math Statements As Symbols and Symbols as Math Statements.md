@@ -3,4 +3,39 @@ Source:
   - https://www.youtube.com/watch?v=5txGlV6r6q4
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 9.03.13 PM.png]]
+	- Translating Mathematical Statements to Symbols
+		- Suppose P and Q are the statements: P: Juan earned an A grade. Q: Sylvia earned an A grade
+			- (1) Translate "Juan and Sylvia earned an A" into symbols
+				- P $\land$ Q
+			- (2) Translate "If Juan earned an A, then Sylvia earned an A" into symbols
+				- P $\to$ Q
+			- (3) Translate "P $\lor$ Q" into English
+				- Both solutions below work
+					- Juan or Sylvia earned an A
+					- Juan earned an A or Sylvia earned an A
+			- (4) Translate "$\lnot$(P $\land$ Q) $\to$ Q" into English.
+				- If Juan and Sylvia did not earn an A, then Sylvia earned an A grade
+			- (5) Suppose you know that if Juan earned an A, then so did Sylvia. What can you conclude if you know that:
+				- (i) Sylvia earned an A
+					- Converse is $Q \to P$ 
+					- We can conclude nothing
+				- (ii) Sylvia did not earn an A
+					- $\lnot Q \to \lnot P$ (contrapositive)
+						- We know Sylvia did not earn an A so we then know Juan did not earn an A
+	- [[Logical Connectives]]
+		- $P \land Q$ is read "P and Q," and called a [[conjunction]]
+		- $P \lor Q$ is read "P or Q," and called a [[disjunction]]
+		- P $\to$ Q is read "if P then Q" and called an [[implication]] or [[Implication|conditional]]
+		- $P \leftrightarrow Q$ is read "P if and only if Q" and called a [[biconditional]]
+		- $\lnot P$ is read "not P" and called a [[negation]]
+	- Truth Conditions for Connectives
+		- $P \land Q$ is true when both P and Q are true (conjunction)
+		- $P \lor Q$ is true when P or Q or both are true. (disjunction)
+		- $P \to Q$ is true when P is false or Q is true or both. (implication)
+		- $P \leftrightarrow$ is true when P and Q are both true, or both false. (biconditional)
+		- $\lnot P$ is true when P is false. (negation)
+	- [[Converse]] is obtained by swapping conclusion and hypothesis: $Q \to P$
+		- The converse is NOT logically equivalent to the original implication. That is, whether the converse of an implication is true is independent of the truth of the implication
+	- [[Contrapositive]] is obtained by implying that the negative of the conclusion implies the negative of the hypothesis: $\lnot Q \to \lnot P$
+		- An implication and its contrapositive are logically equivalent (they are either both true or both false)

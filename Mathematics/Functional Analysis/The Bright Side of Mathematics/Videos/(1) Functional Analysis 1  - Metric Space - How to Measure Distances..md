@@ -9,7 +9,7 @@ Reviewed: false
 	- Given two blocks [[linear algebra]] and [[Real and complex analysis]]
 		- If you look at infinite dimensional spaces in a linear algebra sense and you want to apply some analysis on these spaces, then you are in the realm of functional analysis
 	- [[Functional analysis]]
-		- Consider spaces consisting of [[functions]] or [[sequences]]
+		- Consider spaces consisting of [[functions]] or [[Sequence|Sequences]]
 			- [[Function space]]
 			- [[Sequence space]]
 		- Also consider [[linear maps]] between [[Subspace|subspaces]]

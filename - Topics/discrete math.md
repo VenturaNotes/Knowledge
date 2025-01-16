@@ -1,3 +1,7 @@
+---
+aliases:
+  - discrete mathematics
+---
 ## Synthesis
 - 
 ## Source [^1]

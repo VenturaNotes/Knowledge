@@ -24,7 +24,7 @@ Reviewed: false
 						- Element in schematic form (i, j)
 						- Additional constraints after |
 						- Any pair with 2 elements in it will be in the set as long as the first and second elements are $\ge$ 1
-			- (4, b) [[Tuple|tuples]], [[sequences]]
+			- (4, b) [[Tuple|tuples]], [[Sequence|Sequences]]
 				- First element is natural number 4
 				- Second element a symbol
 					- Will talk about sequences of symbols

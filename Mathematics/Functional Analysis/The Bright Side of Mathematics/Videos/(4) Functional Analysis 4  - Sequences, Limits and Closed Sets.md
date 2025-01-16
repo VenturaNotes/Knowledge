@@ -7,7 +7,7 @@ Reviewed: false
 	- Functional analysis - part 4
 	- Still building up the foundations we need for functional analysis
 	- (X, d) [[metric space]]
-		- Can use [[sequences]] to describe the properties of a metric space
+		- Can use [[Sequence|sequences]] to describe the properties of a metric space
 		- A [[sequence]] is just an ordered set of points inside the metric space X
 			- Since we give the points names, we usually see a notation like one of the below
 				- Sequence in X:

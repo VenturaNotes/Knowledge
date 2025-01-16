@@ -3,4 +3,19 @@ Source:
   - https://www.youtube.com/watch?v=A_BwLCnLiws
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 10.34.06 PM.png]]
+	- If and Only If Statements
+		- An [[implication]] or conditional is a molecular statement of the form $P \to Q$ where P and Q are statements
+		- The [[converse]] of an implication $P \to Q$ is the implication $Q \to P$
+		- An implication is not logically equivalent to its converse, but it is possible that both the implication and its converse are true. In this case, when both $P \to Q$ and $Q \to P$ are true, we say that P and Q are equivalent and write $P \leftrightarrow Q$. This is the [[biconditional]] we mentioned earlier
+		- If and only if
+			- $P \leftrightarrow Q$ is logically equivalent to $(P \to Q) \land (Q \to P)$
+			- Example: Given an integer $n$, it is true that $n$ is even if and only if $n^2$ is even. That is, if $n$ is even, then $n^2$ is even, as well as the converse: if $n^2$ is even, then $n$ is even.
+	- If And Only If Statements
+		- We can think of "if and only if" statements as having two parts: an implication and its converse. We might say one is the "if" part, and the other is the "only if" part. We also sometimes say that "if and only if" statements have two directions: a forward direction ($P \to Q$) and a backwards direction ($P \leftarrow Q$), which is really just sloppy notation for $Q \to P$ 
+		- Let's think a little about which part is which. Is $P \to Q$ the "if" part or the "only if" part? Consider the example.
+	- Example 0.2.7
+		- Suppose it is true that I sing if and only if I'm in the shower. We know this means both that if I sing, then I'm in the shower, and also the converse, that if I'm in the shower, then I sing. Let P be the statement, "I sing," and Q be, "I'm in the shower." So $P \to Q$ is the statement "if I sing, then I'm in the shower." Which part of the if and only if statement is this?
+		- What we are really asking for is the meaning of "I sing if I'm in the shower" and "I sing only if I'm in the shower". When is the first one (the "if" part) false? When I am in the shower but not singing. That is the same condition on being false as the statement "if I'm in the shower, then I sing" So the "if" part is $Q \to P$. On the other hand, to say "I sing only if I'm in the shower" is equivalent to saying "if I sing, then I'm in the shower," so the "only if" part is $P \to Q$ 
+			- P if Q $\equiv$ $Q \to P$
+			- $P$ only if $Q \equiv P \to Q$ 

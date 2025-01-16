@@ -3,4 +3,28 @@ Source:
   - https://www.youtube.com/watch?v=z5_utvh7jYw
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-15 at 3.52.50 PM.png]]
+	- Implications and Truth Conditions for Implications
+		- Terms
+			- [[Statement]], [[atomic statement]], [[molecular statement]]
+		- [[Implication|Implications]]
+			- An implication or conditional is a molecular statement of the form $P \to Q$ where P and Q are statements. We say that
+				- P is the [[hypothesis]] (or antecedent)
+				- Q is the [[conclusion]] (or consequent)
+			- An implication is true provided P is false or Q is true (or both), and false otherwise. In particular, the only way for $P \to Q$ to be false is for P to be true and Q to be false
+	- Implications and Truth Conditions for Implications
+		- Examples
+			- [[Pythagorean Theorem]]
+				- Note: Q $\to$ P ([[converse]]) is also a true statement. If follows $P \iff Q$
+		- [[Implication]]
+			- True if P is false or Q is true or both
+			- False only when P is true and Q is false
+	- Implications and Truth Conditions for Implications
+		- It is important to understand the conditions under which an implication is true not only to decide whether a mathematical statement is true, but in order to prove that it is. Proofs might seem scary, but all we are really doing is explaining (very carefully) why a statement is true. If you understand the truth conditions for an implication, you already have the outline for a proof.
+		- [[direct proof|Direct proofs]] of [[Implication|implications]]:
+			- To prove an implication $P \to Q$, it is enough to assume P, and from it, deduce Q
+		- Example
+			- Prove: If a number a is even, then $a^2$ is even
+			- Proof: A number is even, if 2 is a factor of the number. Since it is given that a is even, then a = 2k for some integer k. We thus have $a^2$ = $(2k)^2$ = $4k^2$ = $2(2k^2)$. Since 2 is a [[factor]] of $a^2$, then $a^2$ is even. QED
+				- #question Not sure if the "2 is a factor of $a^2$ is said correctly but maybe
+				- [[QED]] usually stands for the latin phrase quod erat demonstrandum, which translates to "which was to be demonstrated"
