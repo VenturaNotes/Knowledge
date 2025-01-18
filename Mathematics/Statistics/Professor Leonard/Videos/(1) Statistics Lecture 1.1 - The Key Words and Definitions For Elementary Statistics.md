@@ -3,14 +3,15 @@ Source:
   - https://youtube.com/watch?v=9FtHB7V14Fo
 Reviewed: false
 ---
+- ![[Screenshot 2025-01-17 at 6.28.26 PM.png]]
 - Key Words
-	- [[Data]]: <mark style="background: #FFF3A3A6;">Any observations that have been collected</mark>
+	- [[Data]]: Any observations that have been collected
 		- Talking about observations
 		- Information we're collecting (people from poll, scientific data, numbers)
 		- Any observations we've collected
 		- We collect it,  analyze it, summarize it, interpret it, decisions on interpretations (that's the class of statistics)
 		- Everything we do with it falls under the classification of statistics
-	- [[Statistics]]: <mark style="background: #FFF3A3A6;">Collect, Analyze, Summarize, Interpret, and Draw Conclusions from data</mark>
+	- [[Statistics]]: Collect, Analyze, Summarize, Interpret, and Draw Conclusions from data
 		- Set of things we're doing to data
 		- Interpreting and drawing conclusions are the 2 most important parts
 		- Don't want to say to you're boss that you just collected data
@@ -19,7 +20,7 @@ Reviewed: false
 			- Wasted and useless information
 		- Collecting is important. Need to know how to get it (no bias data)
 			- Collecting data doesn't matter if you can't analyze and do the rest later
-	- [[Population (Statistics)|Population]]: <mark style="background: #FFF3A3A6;">The Complete set of Elements Being Studied</mark>
+	- [[Population (Statistics)|Population]]: The Complete set of Elements Being Studied
 		- There are 330 million people in the United States
 		- Complete set of all elements to be studied
 		- Everything that belongs in the group you're looking at
@@ -28,7 +29,7 @@ Reviewed: false
 			- Population of students in college is everyone attending that college
 			- Population of California is everyone in California
 		- Population is everybody
-	- [[Sample]]: <mark style="background: #FFF3A3A6;">Some subset of a population</mark>
+	- [[Sample]]: Some subset of a population
 		- Generally smaller than a population
 		- When there is a poll asking who you're going to be voting for, you're not asking every single American citizen
 		- One subset of a population
@@ -41,19 +42,19 @@ Reviewed: false
 			- because populations are too big to get information in a timely manner
 		- If you take a survey, you can't pick who you want to be in your sample. Can't bias it (going to people who you think will answer it in a way you want them to.)
 		- If you go someplace conservative, they'll most likely vote for someone with 90% certainty that this presidential candidate would win. And people might change their vote based on that because they want to vote for someone that will win. This might bias peoples' decisions
-		- <mark style="background: #FFF3A3A6;">If you take a sample, it must be collected randomly</mark>
+		- If you take a sample, it must be collected randomly
 			- Otherwise it's going to have a bias
 			- Could be something you didn't even anticipate
-	- [[Census]]: <mark style="background: #FFF3A3A6;">Collecting from every member of a population</mark>
+	- [[Census]]: Collecting from every member of a population
 		- Needed to fill mail out
 		- It's the whole population
-	- <mark style="background: #FFF3A3A6;">Types of Data</mark>
-		- [[(P-P) Parameter]]: <mark style="background: #FFF3A3A6;">A characteristic of a population</mark>
+	- Types of Data
+		- (P-P) [[Parameter]]: A characteristic of a population
 			- Parameters go with populations
 			- If we're talking about hair color and found out  everybody's hair color in America, that would be a parameter. The parameter would be everyone is blond. Characteristic of the entire population
 		- This is what you can collect
 		- If you talk about characteristics of a population, that's called a parameter
-		- [[(S-S) Statistic]]: <mark style="background: #FFF3A3A6;">A characteristic of a sample</mark>
+		- (S-S) [[Statistic]]: A characteristic of a sample
 		- These things could be talking about the same thing
 			- It just depends on what group you're referring to
 			- If we took a sample and talked about those characteristics, then we just refer to them as statistics. Could mean the same thing, but it's just what group you're referring to
