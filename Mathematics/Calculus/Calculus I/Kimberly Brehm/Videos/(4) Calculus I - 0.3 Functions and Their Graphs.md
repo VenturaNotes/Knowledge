@@ -6,7 +6,7 @@ Reviewed: false
 - ![[Screenshot 2023-05-25 at 3.05.35 AM.png]]
 	- Relations and functions
 		- A [[relation]] is a set of ordered pairs in the form (x, y) where x $\in$ X and y $\in$ Y.
-		- A [[function]] is a relation such that any ordered pairs that share an x-value share a y-value.
+		- A [[function (math)|function]] is a relation such that any ordered pairs that share an x-value share a y-value.
 			- This is basically saying that an x-value can only have one unique y value. If there is another ordered pair with an x-value but different y-value, then it's not a function
 		- Recall, one way to check if a relation is a function is the [[vertical line test]]. If you draw a vertical line across the graph of your function, you should only ever hit one point on the function.
 		- The variable x is considered the [[independent variable]] and the set X is the [[Domain (Math)|domain]].

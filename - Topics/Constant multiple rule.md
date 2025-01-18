@@ -1,6 +1,6 @@
 ## Synthesis
 - 
-## Personal
+## Original
 ### Example
 - Given $3x^2$, take the derivative of the expression
 	- $\frac{d}{dx}3x^2$ (taking the derivative)

@@ -3,12 +3,22 @@ Source:
   - https://www.youtube.com/watch?v=WQomLK0vTQ8
 Reviewed: false
 ---
-- Image
-	- [[Functions]]
+- ![[Screenshot 2025-01-18 at 1.46.22 PM.png]]
+	- [[function (math)|Functions]]
 		- A function is a rule that assigns each element from an input set to exactly one element of the output set. A function f maps X to Y is usually written as F: $X \to Y$.
 			- The set of all inputs for a function is called the [[Domain (Math)|domain]]
 			- The set of all allowable outputs is called the [[codomain]]
 			- The set of all actual outputs is the [[range]]
 			- The output is called the [[image]] of the input
-		- Eamples:
-			- $f: \mathbb{Z} \to \mathbb{Z}$ defined by $f(n) = 3N$. The domain and codomain are both the set of integers. However, the range is noly the set of inte
+		- Examples:
+			- (1) $f: \mathbb{Z} \to \mathbb{Z}$ defined by $f(n) = 3N$. The domain and codomain are both the set of integers. However, the range is only the set of integer multiples of 3
+			- (2) g: {1, 2, 3} $\to$ {a, b, c} defined by g(1) = c,g(2) = a and g(3) = a. The domain is the set {1, 2, 3}, the codomain is the set {a, b, c} and the range is the set {a, c}. Note that g(2) and g(3) are the same element of the codomain. This is okay since each element in the domain still has only one output
+	- Functions
+		- (3) h: {1, 2, 3, 4} $\to$ $\mathbb{N}$ defined by the table:
+			- Table indicates the following:
+				- $f(1) = 3, f(2) = 6, f(3) = 9, f(4) = 12$
+			- Here the domain is the finite set {1, 2, 3, 4} and to codomain is the set of natural numbers, $\mathbb{N}$. At first you might think this function is the same as $f$ defined above. It is absolutely not. Even though the rule is the same, the domain and codomain are different, so these two are different functions
+	- Functions
+		- Just because you can describe a rule in the same way you would write a function, does not mean that the rule is a function. The following are NOT functions.
+			- (1) f: $\mathbb{N} \to \mathbb{N}$ defined by f(n) = $\frac {n}{2}$. The reason this is not a function si because not every input has an output. Where does $f$ send 3? The rule says that f(3) = $\frac {3}{2}$, but $\frac {3}{2}$ is not an element of the codomain
+			- (2) Consider the rule that matches each person to their phone number. If you think of the set of people as the domain and the set of phone numbers as the codomain, then this is not a function, since some people have two phone numbers. Switching the domain and codomain sets doesn't help either, since some phone numbers belong to multiple people (assuming some households still have landlines when you are reading this.)

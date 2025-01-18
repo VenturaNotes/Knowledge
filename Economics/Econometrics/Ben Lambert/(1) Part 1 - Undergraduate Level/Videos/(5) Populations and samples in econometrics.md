@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2023-12-28 at 12.32.57 AM.png]]
-	- [[population]] (encompasses all objects which have those particular characteristics)
+	- [[Population (Statistics)|population]] (encompasses all objects which have those particular characteristics)
 		- Examples
 			- Under 18 individuals in UK
 			- Smokers

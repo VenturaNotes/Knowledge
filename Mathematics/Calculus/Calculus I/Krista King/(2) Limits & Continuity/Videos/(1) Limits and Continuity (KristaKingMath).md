@@ -5,7 +5,7 @@ Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 11.53.03 PM.png]]
 	- Limits
-		- [[Functions]] are a  special type of equation that models a one-to-one relationship between x and y
+		- [[function (math)|functions]] are a  special type of equation that models a one-to-one relationship between x and y
 		- Will learn about [[limits]] and [[continuity]]
 		- For $lim_{x \to a} f(x) = L$, L is the limit of the function.
 			- In the example $f(x) = x + 3$, if we plug-in numbers that are very close to 1, we'll get back numbers that are very close to 4. We express that limit as shown above
@@ -36,7 +36,7 @@ Reviewed: false
 			- If degree of numerator is greater than degree of denominator, infinite limit will be positive infinity if approaching positive infinity
 				- Negative infinity if approaching negative infinity
 	- [[Continuity]]
-		- A [[function]] is [[continuous]] if there are no [[holes]], [[breaks]], [[jumps]], or [[gaps]] of any kind in its graph
+		- A [[function (math)|function]] is [[continuous]] if there are no [[holes]], [[breaks]], [[jumps]], or [[gaps]] of any kind in its graph
 			- Function is continuous if you can draw the entire thing without picking up your pen or pencil off the page
 			- If you need to lift the pencil, it's [[discontinuous]]
 	- [[Discontinuities]]

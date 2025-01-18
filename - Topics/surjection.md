@@ -6,7 +6,14 @@ aliases:
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- A function $f : A \to B$ is onto if every element in the codomain B is mapped to by at least one element in the domain A
+- Formally:
+	- $\forall b \in B, \exists a \in A$ such that $f(a) = b$
+- This means the [[range]] of $f$ is equal to the [[codomain]] B
+	- #comment It's not saying the range is represented by $f$. It's just saying the range found in $f$ 
+- Example
+	- $f(x) = x^2$ for $x \in \mathbb{R}$ where $f: \mathbb{R} \to [0, \infty]$
+		- Here, the codomain and range are both $[0, \infty]$ 
 ## References
 
-[^1]:
+[^1]: ChatGPT

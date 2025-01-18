@@ -136,7 +136,7 @@ Reviewed: false
 	- “The community in our meadow ecosystem includes many kinds of plants, various animals, mushrooms and other fungi, and enormous numbers of diverse microorganisms, such as bacteria, that are too small to see without a microscope.” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=8LII5BYV)) ^bb55l5
 	- Each form of life belongs to a [[species]] - “a group whose members can only reproduce with other members of the group.” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=XIA33L7W)) ^b5kmsh
 	- “A community is therefore the set of populations that inhabit a particular area.” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=XIXS93BH))
-- (4) [[Populations]]
+- (4) [[Population (Biology)|populations]]
 	- “consists of all the individuals of a species living within the bounds of a specified area that interbreed with each other.” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=4S9H2624))
 	- Example: “our meadow includes a population of lupines (some of which are shown here) and a population of mule deer.” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=QM3GYVD2))
 - (5) [[Organisms]]

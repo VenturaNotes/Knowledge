@@ -6,7 +6,7 @@ Reviewed: false
 - ![[Screenshot 2024-01-23 at 1.11.18 AM.png]]
 	- Slide 2 - Learning Objectives (for this video)
 		- by the end of this video, participants should be able to
-			- Check that a function is [[1-1]] or [[onto]], and produce counterexamples when it isn't
+			- Check that a function is [[injection|1-1]] or [[surjection|onto]], and produce counterexamples when it isn't
 			- Give multiple equivalent definitions of [[injection]] and [[surjection]]
 	- Slide 3 - Motivation
 		- Motivation
@@ -17,7 +17,7 @@ Reviewed: false
 				- e.g. Which has more elements: $\mathbb{Z}$ or (0, $+\infty$)
 					- Set of integers or half-open ray 
 						- (I think this should be just an open ray? At least the way it's represented)
-	- Slide 4 - (1) [[Function]] review
+	- Slide 4 - (1) [[function (math)|function]] review
 		- Question. What is the defining characteristic of being a function
 		- Answer: It must not send an input to two outputs
 		- Example

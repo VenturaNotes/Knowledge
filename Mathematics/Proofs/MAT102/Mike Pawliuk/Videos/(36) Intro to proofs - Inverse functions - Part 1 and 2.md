@@ -31,7 +31,7 @@ Reviewed: false
 - ![[Screenshot 2024-01-23 at 1.59.19 AM.png]]
 	- Slide 6 - (2) Examples
 		- $e^x$ and $lnx$ are inverses of each other
-	- Slide 7 - (3) When does a [[function]] have a [[inverse]]
+	- Slide 7 - (3) When does a [[function (math)|function]] have a [[inverse]]
 		- A function needs to pass the HLT for its inverse to pass the VLT
 			- Passing the HLT means it's an [[injection]]
 		- A function needs to reach all values in B in order for its inverse to be defined on all of B

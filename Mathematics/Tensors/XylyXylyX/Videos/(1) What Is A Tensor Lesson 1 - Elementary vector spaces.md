@@ -67,7 +67,7 @@ Reviewed: false
 	- If vector spaces V and W both have a dimension of 4, the only difference between them is that they're named differently.
 		- The differences between the two vector spaces is entirely superficial
 		- We call that [[isomorphic]]
-			- Two vector spaces are isomorphic if you can establish a [[one-to-one correspondence]] between the two and if operations in one vector space is in correspondence to operations in the other vector space
+			- Two vector spaces are isomorphic if you can establish a [[bijection|one-to-one correspondence]] between the two and if operations in one vector space is in correspondence to operations in the other vector space
 		- Other than the name, the two vector spaces are mathematically very similar
 			- Would have to come up with ways to distinguish them
 - ![[Screenshot 2023-09-29 at 3.51.02 PM.png]]

@@ -116,11 +116,11 @@ Reviewed: false
 	- [[Systems]]
 		- In [[biology]], we're built on this hierarchy of life.
 			- Living things are made of [[carbon compounds]]
-				- Those are organized into [[macromolecules]] which make [[Organelle|organelles]] which make [[cells]] which make [[tissues]] which make [[organs]] which make [[organ systems]], which make [[organisms]] which make [[populations]] which make [[communities]] and [[ecosystems]] and [[biomes]] and [[Biosphere|biospheres]]
+				- Those are organized into [[macromolecules]] which make [[Organelle|organelles]] which make [[cells]] which make [[tissues]] which make [[organs]] which make [[organ systems]], which make [[organisms]] which make [[Population (Biology)|populations]] which make [[communities]] and [[ecosystems]] and [[biomes]] and [[Biosphere|biospheres]]
 			- At each of the different levels, we start to get [[emergent properties]]
 				- Properties that weren't there the level before
 		- The way systems are organized is important.
 			- Just as important as that is our interactions. Here is [[E.O. Wilson]]. Most famous biologist alive today. He is the referred to as the father of [[biodiversity]]
 				- He has become famous for showing that in these major [[ecosystems]], we have interactions between different populations, [[symbiosis]]. All these systems are interacting together
-				- All the [[organs]] in an [[organ system]] like the [[circulatory system]] are working together but so are all the [[populations]] in a [[Communities|community]]
+				- All the [[organs]] in an [[organ system]] like the [[circulatory system]] are working together but so are all the [[Population (Biology)|populations]] in a [[Communities|community]]
 		- Systems and interactions are another major theme in biology

@@ -123,7 +123,7 @@ Reviewed: false
 	- “Each [[Tokens|token]] is a small data structure that describes the nature and contents of each symbol” ([Thain, p. 7](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=21&annotation=U9YRFHHP))
 		- ![[Screenshot 2023-09-11 at 12.34.49 PM.png]]
 			- At this stage each token not clear
-			- Fact and foo are simply known to be [[identifiers]], even though one is a [[function]] and the other is the name of a [[variable]]
+			- Fact and foo are simply known to be [[identifiers]], even though one is a [[procedure|function]] and the other is the name of a [[variable]]
 			- Since we don't know type of width, it could be [[integer addition]], [[floating point addition]], [[string concatenation]], or something else.
 - “next step is to determine whether this sequence of tokens forms a valid program” ([Thain, p. 8](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=22&annotation=Q57AF532))
 	- “[[parser]] does this by looking for patterns that match the [[grammar]] of a language.” ([Thain, p. 8](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=22&annotation=DRATJQ7G))

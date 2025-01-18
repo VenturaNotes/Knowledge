@@ -29,7 +29,7 @@ aliases:
 - For [[finite sets]], cardinality is just the count of elements.
 - For [[infinite sets]], cardinality captures the "type" or "degree" of infinity. It is a more rigorous way of comparing the sizes of sets, especially infinite ones. 
 #### Examples
-- The set of [[natural numbers]] $\mathbb{N}$ and the set of even natural numbers $2\mathbb{N}$ have the same cardinality because there is a [[one-to-one correspondence]] between them $(n \mapsto 2n)$
+- The set of [[natural numbers]] $\mathbb{N}$ and the set of even natural numbers $2\mathbb{N}$ have the same cardinality because there is a [[bijection|one-to-one correspondence]] between them $(n \mapsto 2n)$
 	- #question what is Maps to ?
 ## References
 

@@ -22,7 +22,7 @@ Reviewed: false
 		- (2) $f: \mathbb{R} \to \mathbb{R}, g: \mathbb{R} \to \mathbb{R}$ 
 			- Just take the real numbers $\mathbb{R}$ for all 3 sets
 		- So please remember for the composition, the order matters and for the general case, the other order doesn't make any sense at all
-		- If we have a map between the real numbers, we call the map simply a [[function]] again
+		- If we have a map between the real numbers, we call the map simply a [[function (math)|function]] again
 	- With the knowledge of [[composition]], we can finally explain why we have the term [[inverse map]]
 		- For any set A, we define: $id_A: A \to A$ 
 			- However, we first want to talk about a map that we can define for any set A. It's called the [[identity map]] and we write $id_A$ and put the set in the index
@@ -31,7 +31,7 @@ Reviewed: false
 				- Simplest map we can think of
 		- For f: A $\to$ B
 			- If you consider any other function from A into another set B, the composition identity map after $f$ wouldn't change anything. You would get out $f$ again
-		- For f: A $\to$ B [[bijective]], we have
+		- For f: A $\to$ B [[bijection|bijective]], we have
 			- On the other hand, if we take a [[bijective map]], we can look at the compositions $f$ with the inverse map. In particular, both orders make sense since
 				- $f \circ f^{-1}$ = $id_B$
 					- this map goes from B into B

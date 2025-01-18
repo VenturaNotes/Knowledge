@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 10.09.29 PM.png]]
-	- Determine whether a function is [[one-to-one]] (whether or not it passes the [[horizontal line test]])
+	- Determine whether a function is [[injection|one-to-one]] (whether or not it passes the [[horizontal line test]])
 		- Several methods
 	- Determine whether these functions are 1-to-1
 		- There can only be one x-output value for every y-input value

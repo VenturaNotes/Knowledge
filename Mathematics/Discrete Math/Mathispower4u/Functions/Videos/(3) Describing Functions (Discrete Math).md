@@ -3,4 +3,28 @@ Source:
   - https://www.youtube.com/watch?v=eAUBd0e2RRA
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-18 at 2.30.51 PM.png]]
+	- Describing Functions
+		- Some calculus textbooks talk about the Rule of Four, that every function can be described in four ways: algebraically (a formula), numerically (a table), graphically, or in words. In discrete math, we can still use any of these to describe functions, but we can also be more specific since we are primarily concerned with functions that have $\mathbb{N}$ or a finite subset of $\mathbb{N}$ as their domain.
+		- Describing the function: f: {1, 2, 3} $\to$ {1, 2, 3}: {(1,2), (2,1), (3,3)} 
+			- Graphical Representation
+				- Don't connect the points
+			- Arrow Diagram
+			- Algebraic Formula
+				- Often difficult for finite domains
+		- The set set of ordered pairs above shows 1 maps to 2, 2 maps to 1 and 3 maps to 3
+	- Describing Functions
+		- Describing the function $f$
+			- [[Two-line notation]]
+				- Horizontal Table
+				- Not the same as a matrix in linear algebra
+		- Analyze the relations or rules to determine which are functions. Remember, if a relation or rule is a function, every input has exactly one output
+	- Describing functions
+		- f is a function. So is g. There is no problem with an element of the codomain not being the image of any input. and there is no problem with $a$ from the codomain being the image of both 2 and 3 from the domain. We could use our two-line notation to write these
+	- Describing Functions
+		- However, $h$ is NOT a function. In fact, it fails for two reasons. First, the element 1 from the domain has not been mapped to any element from the codomain. Second, the element 2 from the domain has been mapped to more than one element from the codomain (a and c). Note that either one of these problems is enough to make a rule not a function. In general, neither of the following mappings are functions 
+		- To be a function, each input must have exactly one output
+- ![[Screenshot 2025-01-18 at 2.32.03 PM.png]]
+	- Describing Functions
+		- It might also be helpful to think about how you would write the two-line notation for h. We would have something like:
+			- There is nothing under 1 (bad) and we needed to put more than one thing under 2 (very bad). With a rule that is actually a function, the two-line notation will always "work"

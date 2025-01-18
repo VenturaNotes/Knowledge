@@ -34,7 +34,7 @@ Reviewed: false
 			- [[Venn diagram|Venn diagrams]]
 				- Can be used to show the intersection of 2 sets
 - ![[Screenshot 2023-09-11 at 2.23.03 PM.png]]
-	- [[Functions]] and [[functional notation]]
+	- [[function (math)|functions]] and [[functional notation]]
 		- f(x) = y
 		- f: Domain $\to$ Range
 			- Functions take elements from one set and map them into another set
@@ -150,7 +150,7 @@ Reviewed: false
 			- We can see the correspondence. We can imagine a graph which consists of one node for every element in the set in the domain
 				- Each element in the graph corresponds to an element in the domain
 				- If the relation holds between two elements, then there will be a directed edge in the graph from "a" to "b"
-				- There is a [[one-to-one correspondence]] between directed graphs and binary relations
+				- There is a [[bijection|one-to-one correspondence]] between directed graphs and binary relations
 			- A binary graph has a finite number of nodes and some binary relations are true over an infinite domains
 				- Perhaps we shouldn't say there is a one-to-one correspondence because if the domain is infinite, then it's impossible to draw a graph that corresponds to that because we will assume all of our graphs have a finite number of nodes (won't be talking about infinite graphs)
 - ![[Screenshot 2023-09-11 at 2.50.07 PM.png]]
@@ -309,7 +309,7 @@ Reviewed: false
 					- $P(x)$, $R(x)$ , $P(y)$ are [[predicate|predicates]]
 					- For all x, if p is true, it implies there exists a y such that both R and P are true
 				- $\exists$y. $\exists$x. (P(f(x)) $\lor$ P(g(f(y))))
-					- f(x) and g(x) and f(y) are [[functions]]
+					- f(x) and g(x) and f(y) are [[function (math)|functions]]
 - ![[Screenshot 2023-09-11 at 3.51.00 PM.png]]
 	- [[Definitions]]: Understand them well
 	- [[Theorem|Theorems]]: Known to be true

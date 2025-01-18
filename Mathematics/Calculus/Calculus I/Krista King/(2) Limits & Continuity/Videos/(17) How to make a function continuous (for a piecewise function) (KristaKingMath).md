@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2023-10-05 at 5.32.03 PM.png]]
-	- Find the value of "c" that makes the [[function]] [[continuous]]
+	- Find the value of "c" that makes the [[function (math)|function]] [[continuous]]
 		- [[piecewise function]]
 			- same thing as piecewise-defined function [^1]
 				- There are 2 pieces that define the function in a different interval

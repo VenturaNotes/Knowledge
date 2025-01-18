@@ -15,7 +15,7 @@ Reviewed: false
 	- [[Propositional logic]]
 	- [[Predicate logic]]
 	- [[set|sets]]
-	- [[functions]]
+	- [[function (math)|functions]]
 	- [[relations]]
 	- [[modular arithmetic]]
 	- [[Graph|graphs]]

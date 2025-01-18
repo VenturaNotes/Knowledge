@@ -1,3 +1,7 @@
+---
+aliases:
+  - recursive functions
+---
 ## Synthesis
 - 
 ## Source [^1]

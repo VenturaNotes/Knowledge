@@ -5,7 +5,7 @@ aliases:
 ---
 ## Synthesis
 - 
-## Personal
+## Original
 - Given a [[set]] A = {1, 2, 3, 4}
 	- 1 is an element of A
 		- $1 \in A$

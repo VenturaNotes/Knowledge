@@ -6,7 +6,7 @@ Reviewed: false
 - ![[Screenshot 2024-01-23 at 1.43.55 AM.png]]
 	- Slide 12 - (5) Exercises
 		- Exercise 1
-			- Find a function f: $\mathbb{R}$ $\to$ $\mathbb{R}$ that is [[onto]], but not [[one-to-one]]
+			- Find a function f: $\mathbb{R}$ $\to$ $\mathbb{R}$ that is [[surjection|onto]], but not [[injection|one-to-one]]
 			- Find a function g : $\mathbb{R}$ $\to$ $\mathbb{R}$ that is one-to-one, but not onto
 		- Exercise 2
 			- Show that the polynomial p: $\mathbb{R}$ $\to$ $\mathbb{R}$ defined by p(x) = (x-1)(x-2) is not an injection
@@ -27,7 +27,7 @@ Reviewed: false
 		- Here f: A $\to$ B is a function
 		- Theorem 1
 			- The following are equivalent (TFAE)
-				- f is [[one-to-one]]
+				- f is [[injection|one-to-one]]
 				- $\forall a_1, a_2 \in A$: If $a_1 \ne a_2$, then $f(a_1) \ne f(a_2)$. 
 					- $a_1 \ne a_2$ is happening in the domain
 					-  $f(a_1)\ne f(a_2)$ is happening in the codomain (or range? might be wrong there)
@@ -39,7 +39,7 @@ Reviewed: false
 		- Here F: $A \to B$ is a function
 		- Theorem 2
 			- The following are equivalent (TFAE)
-				- f is [[onto]]
+				- f is [[surjection|onto]]
 				- range(f) = codom(f)
 		- Theorem 3
 			- The following are equivalent (TFAE)

@@ -49,7 +49,7 @@ Reviewed: false
 	- Can display data in tables or charts, easily download it into spreadsheet form if you want to use the data for other purposes
 - The [FRED website](https://fred.stlouisfed.org/categories/12) includes data on nearly 400,000 domestic and international variables over time, in the following broad categories
 	- [[Money]], [[Banking]] & [[Finance]]
-	- [[Population]], [[Employment]], & [[Labor Markets]] (including [[Income Distribution]])
+	- [[Population (Statistics)|Population]], [[Employment]], & [[Labor Markets]] (including [[Income Distribution]])
 	- [[National Accounts]] ([[Gross Domestic Products]] & its components), [[Flow of Funds]], and [[International Accounts]]
 	- [[Production]] & [[Business Activity]] (including [[Business Cycles]])
 	- [[Prices]] & [[Inflation]] (including the [[Consumer Price Index]], the [[Producer Price Index]], and the [[Employment Cost Index]])
