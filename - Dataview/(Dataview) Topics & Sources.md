@@ -41,6 +41,6 @@ Promise.all(filePromises).then(() => {
         </tr>`;
     });
     tableContent += "</tbody></table>";
-    dataview.container.innerHTML = `<h3>Total Footnotes with Content: ${totalFootnotes}</h3>` + tableContent;
+    dataview.container.innerHTML = `<h3>Total Topics with Sources: ${totalFootnotes}</h3>` + tableContent;
 });
 ```
