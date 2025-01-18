@@ -20,4 +20,4 @@ Reviewed: false
 			- A function is [[injective]] (an injection or one-to-one) if every element of the codomain is the image of at most one element from the domain
 			- A function is surjective (a surjection or onto) if every element of the codomain is the image of at least one element from the domain
 			- Injective functions do not have repeated elements from the codomain in the range, but may have missing elements
-			- [[Surjective]] functions do not miss elements from the [[codomain]] in the range, but may have repeated elements
+			- [[surjection|Surjective]] functions do not miss elements from the [[codomain]] in the range, but may have repeated elements

@@ -23,8 +23,8 @@ Reviewed: false
 		- Effect of interest rate falls on inflation
 			- Traditional [[economic theory]] suggests if [[interest rate]] falls, the [[inflation rate]] should increase (due to increases in [[aggregate demand]])
 			- Econometrics is a way of quantifying that particular relationship
-	- The idea of econometrics
-		- Some sort of [[population]] (for [[time series]] data, it's called a [[data generating process]])
+	- The idea of [[econometrics]]
+		- Some sort of [[Population (Statistics)|population]] (for [[time series]] data, it's called a [[data generating process]])
 			- For now, think of it in terms of population
 				- In the population, there is some sort of true relationship between the variables we're interested in
 					- Such as wages and level of education

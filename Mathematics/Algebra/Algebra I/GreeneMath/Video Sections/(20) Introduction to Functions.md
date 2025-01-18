@@ -45,17 +45,17 @@ Reviewed: false
 			- Range: {3, 7, 4, 8}
 
 ## Functions
-- A [[function]] is a set of ordered pairs in which each first component or x - value corresponds to exactly one second component or y -value.
+- A [[function (math)|function]] is a set of ordered pairs in which each first component or x - value corresponds to exactly one second component or y -value.
 	- For each x, there can only be 1 y
 - Relation that is a function
 	- {(3,2), (2,1), (8,4), (9,7)}
-	- <mark style="background: #FFF3A3A6;">Not every relation is a function but all functions are relations.</mark>
+	- Not every relation is a function but all functions are relations
 		- 3 $\rightarrow$ 2
 			- The 3 corresponds to 2
 		- 2 $\rightarrow$ 1
 		- 8 $\rightarrow$ 4
 		- 9 $\rightarrow$ 7
-	- <mark style="background: #FFF3A3A6;">This is a function because for every x that we have, it corresponds to exactly 1 y value</mark>
+	- This is a function because for every x that we have, it corresponds to exactly 1 y value
 - Relation that is not a function
 	- {(7, -4), (-1, 5), (7,3), (2, -8)}
 	- The x-component 7 is a problem

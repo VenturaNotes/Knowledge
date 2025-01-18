@@ -12,7 +12,7 @@ Reviewed: false
 - She loves living in Boston (especially sports) and going to these events with her son
 - Module 1
 	- Lesson 1.1: [[Slope|Slopes]], Equations of Linear, and [[Linear Functions]]
-	- Lesson 1.2: Introduction to [[Functions]]
+	- Lesson 1.2: Introduction to [[function (math)|functions]]
 	- Lesson 1.3: [[Function Composition]]
 	- Lesson 1.4: [[Absolute Value Function|Absolute Value Functions]]
 - Module 2

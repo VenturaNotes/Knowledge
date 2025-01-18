@@ -14,7 +14,7 @@ Reviewed: false
 			- X is the [[ground set]]
 			- S is the [[subset]]
 				- Want to see subset as a bit string
-		- What the professor drew is what defines a [[one-to-one correspondence]] between subsets and bit-strings
+		- What the professor drew is what defines a [[bijection|one-to-one correspondence]] between subsets and bit-strings
 			- a in X is not in S = 0
 			- b in X and in S = 1
 			- c in X and in S = 1

@@ -16,5 +16,5 @@ Reviewed: false
 		- [[Pascal's Triangle]]
 	- Third part of course will use what we've learned
 		- Proof techniques, counting and sets in the study of
-			- [[Functions]]
+			- [[function (math)|functions]]
 			- [[Relations]]

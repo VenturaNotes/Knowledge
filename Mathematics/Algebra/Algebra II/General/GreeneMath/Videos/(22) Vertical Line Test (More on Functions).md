@@ -1,7 +1,7 @@
 [9:16:16](https://www.youtube.com/watch?v=2wrPGtP61fo&t=33376s) 
 
 - ![[Screenshot 2023-06-16 at 8.14.41 PM.png]]
-	- [[Function]]
+	- [[function (math)|function]]
 		- each x value can be associated with or linked up to one unique y value.
 - ![[Screenshot 2023-06-16 at 8.15.48 PM.png]]
 	- Examples

@@ -6,11 +6,11 @@ Reviewed: false
 - ![[Screenshot 2024-01-09 at 3.52.05 AM.png]]
 	- Slide 2 - Learning Objectives (for this video)
 		- By the end of this video, participants should be able to:
-			- (1) Name and define the parts of a [[function]] ([[Domain (Math)|domain]], [[codomain]], [[range]]/[[image]])
+			- (1) Name and define the parts of a [[function (math)|function]] ([[Domain (Math)|domain]], [[codomain]], [[range]]/[[image]])
 			- (2) Represent a function using an [[arrow diagram]]
 	- Slide 3 - Motivation
 		- Motivation
-			- [[Functions]] are basic objects that are closely related to [[set|sets]]. They appear everywhere in math
+			- [[function (math)|Functions]] are basic objects that are closely related to [[set|sets]]. They appear everywhere in math
 	- Slide 4 - Definition of a function
 		- "Definition" (Function)
 			- A function f: $A \to B$ is a "rule" (or "machine") that associates to every element a $\in$ A an element f(a) $\in$ B.

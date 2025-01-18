@@ -1,4 +1,4 @@
-- Topics sorted in ascending order based on # of footnotes
+- Topics sorted in ascending order based on # of sources
 ```dataviewjs
 // DataviewJS script to count footnotes with content across documents in the "- Topics" folder
 // Ensure this script is placed in a DataviewJS block

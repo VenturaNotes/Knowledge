@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 ## Synthesis
-## Personal
+## Original
 ### My Solution
 ```python
 # Definition for singly-linked list.

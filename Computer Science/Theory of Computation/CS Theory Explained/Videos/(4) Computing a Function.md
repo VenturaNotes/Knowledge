@@ -10,7 +10,7 @@ Reviewed: false
 			- Let $f : \{0, 1\}^* \to \{0, 1\}^*$ be a problem, Let T : $\mathbb{N} \to \mathbb{N}$ and let M be a TM (Turing machine)
 				- We say M computes f in T(n) time if for every $x \in \{0,1\}^*$, if M is initialized to the start configuration for input x, then after at most T(|x|) steps the TM halts and outputs f(x)
 			- The function T gives an upper-bound on number of steps that Turing machine performs
-			- We say that M computes $f$ if it computes $f$ in $T(n)$ time for some [[function]] T : $\mathbb{N} \to \mathbb{N}$
+			- We say that M computes $f$ if it computes $f$ in $T(n)$ time for some [[function (math)|function]] T : $\mathbb{N} \to \mathbb{N}$
 				- Means that the Turing machine computes the function $f$ if for every input it produces the correct output and does so within a limited number of computational steps
 				- Means TM always halts!
 			- $T(n)$ expresses how many steps allowed for each length of input

@@ -4,8 +4,8 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2023-10-16 at 5.09.13 PM.png]]
-	- Every [[function]] is a [[relation]]
-	- Not every [[relation]] is a [[function]]
+	- Every [[function (math)|function]] is a [[relation]]
+	- Not every [[relation]] is a [[function (math)|function]]
 	- Lets say there is a relation R from set A to set B
 	- Can type of mapping help us determine if it's a function or relation?
 	- There are four different types of [[mapping]]

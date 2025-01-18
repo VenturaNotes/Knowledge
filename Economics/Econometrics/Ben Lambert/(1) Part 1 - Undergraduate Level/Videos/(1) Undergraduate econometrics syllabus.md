@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2023-09-22 at 4.26.32 AM.png]]
-	- [[Population (Statistics)]]
+	- [[Population (Statistics)|Population]]
 		- In population, there might be countries, individuals, firms
 		- Don't have the whole population data set. Just a [[sample]] (sample data set) from the population
 	- Want to use some sort of mathematical tool on the sample to make an inference about what is going on in the population (or make an estimation on a [[population parameter]])

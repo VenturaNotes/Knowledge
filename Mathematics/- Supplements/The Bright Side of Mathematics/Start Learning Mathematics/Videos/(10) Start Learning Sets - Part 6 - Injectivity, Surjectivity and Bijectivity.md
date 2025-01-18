@@ -15,14 +15,14 @@ Reviewed: false
 	- Definition: A map $f: A \to B$ is called:
 		- We're fixing a map f from A to into a set B
 		- [[injective]] if $\forall x_1, x_2 \in A: (x_1 \ne x_2 \to f(x_1) \ne f(x_2))$ is true
-		- [[surjective]] if $\forall y \in B: \exists x \in A: f(x) = y$ is true
+		- [[surjection|surjective]] if $\forall y \in B: \exists x \in A: f(x) = y$ is true
 			- For a surjective map, we can't omit any "y" in B
 	- Remember:
 		- surjective: Each y $\in$ B gets at least one arrow
 		- injective: Each y $\in$ B gets at most one arrow
 		- injective + surjective: Each y $\in$ B gets exactly one arrow
-			- [[Bijective]] map
-			- A bijective map gives us truly a [[one-to-one correspondence]] between two sets
+			- [[bijection|Bijective]] map
+			- A bijective map gives us truly a [[bijection|one-to-one correspondence]] between two sets
 				- So if we take an element no matter from which side, then there is exactly one connection to another element on the other side. Therefore, a bijective map can also be read from RHS to LFS
 			- So for maps, bijective can just mean [[invertible]]
 				- Map f goes from A to B

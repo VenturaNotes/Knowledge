@@ -5,7 +5,7 @@ Reviewed: false
 ---
 - ![[Screenshot 2023-02-27 at 1.39.07 PM.png]]
 	- Intro to functions 
-		- A [[function]] is a relationship that maps 1 input (x-values) to 1 output (y or f(x) values)
+		- A [[function (math)|function]] is a relationship that maps 1 input (x-values) to 1 output (y or f(x) values)
 			- $*$ An input never gives more than 1 output
 		- In y = f(x) which can be written as the ordered pair (x, y) or (x, f(x))
 			- "x" is the independent variable

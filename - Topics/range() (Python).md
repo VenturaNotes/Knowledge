@@ -10,7 +10,7 @@ aliases:
 - #question Is it possible to have 4 arguments for the range function? 
 - #question How is [[underscore (python)|underscore]] used?
 - #question What is the maximum that range can handle in python
-## Personal
+## Original
 ```python
 x = [0, 1, 2, 3]
 

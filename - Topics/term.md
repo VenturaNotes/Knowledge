@@ -4,6 +4,8 @@ aliases: terms
 ## Synthesis
 - 
 ## Source [^1] 
+### Definition
+- A single number, variable, or a number multiplied by one or many variables
 ### Examples
 - 7
 - 4x

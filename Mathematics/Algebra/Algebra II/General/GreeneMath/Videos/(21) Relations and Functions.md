@@ -12,6 +12,6 @@
 		- Suppose you drive at a constant rate of 75mph. The distance you travel is dependent on time.
 			- [[Distance formula]]
 - ![[Screenshot 2023-06-16 at 8.06.49 PM.png]]
-	- A [[function]] is a special type of relation. Each member of the domain must correspond to exactly one member of the range.
+	- A [[function (math)|function]] is a special type of relation. Each member of the domain must correspond to exactly one member of the range.
 		- All functions are relations
 		- Not all relations are functions

@@ -23,7 +23,7 @@ Reviewed: false
 			- Consider subsets in cartesian product
 				- A subset would be the collection of elements in the plane
 			- Such a chosen subset encodes information about the relation between the two sets
-	- Now we want to define what a [[function]] is
+	- Now we want to define what a [[function (math)|function]] is
 		- A subset $G_f \subseteq A \times B$ is called a function if
 			- Can describe using quantifiers and element set relation 
 		- For a function, we want a uniquely determined "y" for a given "x"

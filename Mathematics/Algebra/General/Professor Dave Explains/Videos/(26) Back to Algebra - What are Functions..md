@@ -6,7 +6,7 @@ Reviewed: false
 - ![[Screenshot 2024-01-24 at 8.48.01 PM.png]]
 	- Learned Algebra I, Geometry, then Algebra II in high school
 	- Back to equations with variables!
-	- A [[function]] is something that relates two quantities , an input value, and an output value.
+	- A [[function (math)|function]] is something that relates two quantities , an input value, and an output value.
 	- The function computes the sale price
 		- f(x) = 0.7x
 			- "f of x"

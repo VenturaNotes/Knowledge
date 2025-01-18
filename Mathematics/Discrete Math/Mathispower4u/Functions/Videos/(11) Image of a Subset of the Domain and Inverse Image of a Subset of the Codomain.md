@@ -3,4 +3,19 @@ Source:
   - https://www.youtube.com/watch?v=Ufkgn1TXz-U
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-18 at 3.56.17 PM.png]]
+	- [[Image]] and Inverse Image
+		- When discussing functions, we have notation for talking about an element of the domain (say x) and its corresponding element in the codomain (we write f(x), which is the image of x). Sometime we will want to talk about all the elements that are images of some subset of the domain. It would also be nice to start with some element of the codomain (say y) and talk about which element or elements (if any) from the domain it is the image of. We could write "those x in the domain such that f(x) = y," but this is a lot of writing. Here is some notation to make our lives easier
+		- To address the first situation, what we are after is a way to describe the set of images of elements in some subset of the domain. Suppose $f: X \to Y$ is a function and that $A \subseteq X$ is some subset of the domain (possibly all of it). We will use the notation $f(A)$ to denote the image of A under f, namely the set of elements in Y that are the image of elements from A. That is, $f(A) = \{f(a) \in Y : a \in A\}$ 
+		- The following function has domain and codomain
+	- Image and Inverse Image
+		- We can do this in the other direction as well. We might ask which elements of the domain get mapped to a particular set in the codomain. Let f: $X \to Y$ be a function and suppose $B \subseteq Y$ is a subset of the codomain. Then we will write $f^{-1}(B)$ for the [[inverse image]] of B under f, namely the set of elements in X whose image are elements in B. In other words, $f^{-1}(B) = \{x \in X: f(x) \in B\}$
+		- Often we are interested in the element(s) whose image is a particular element $y$ in the codomain. The notation above works: $f^{-1}(\{y\})$ is the set of all elements in the domain that f sends to y. It makes sense to think of this as a set: there might not be anything sent to y (if y is not in the range), in which case $f^{-1}(\{y\}) = \varnothing$. Or f might send multiple elements to y (if f is not injective). As a notational convenience, we usually drop the set braces around the $y$ and write $f^{-1}(y)$ instead for this set
+		- The following function has domain and codomain
+	- Image and Inverse Image
+		- Consider the function.
+		- (1) since $a$ and $b$ are the elements in the codomain to which f sends $1, 2, \text{ and } 3$ 
+		- (2) {1, 2, 3, 4, 5} since these are exactly the elements that f sends to $a$ and $b$ 
+		- (3) $\varnothing$ since d is not in the range of f
+		- $f^-{1}(\{d\})$
+			- The inverse image of the set containing $d$ under $f$ 

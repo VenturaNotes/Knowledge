@@ -21,7 +21,7 @@ Reviewed: false
 		- [[boolean algebra]]
 		- [[first-order predicate logic]]
 		- [[set|sets]]
-		- [[functions]]
+		- [[function (math)|functions]]
 		- [[equivalences]]
 		- [[partial orders]]
 		- [[modular arithmetic]]

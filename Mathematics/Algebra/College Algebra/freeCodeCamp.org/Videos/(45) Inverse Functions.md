@@ -39,7 +39,7 @@ Reviewed: false
 - ![[Screenshot 2023-02-27 at 12.53.20 PM.png]]
 	- Key Fact 4. A function f has an inverse function if and only if the graph of f satisfies the [[horizontal line test]] (i.e. every horizontal line intersects the graph of y=f(x) in at most one point.)
 		- Graphs A and B violate the horizontal line test
-	- Definition. A function is [[one-to-one]] if it passes the horizontal line test. Equivalently, a function is one-to-one if for any two different x-values $x_1$ and $x_2$, f($x_1$) and f($x_2$) are different numbers. Sometimes, this is said: f is one-to-one if, whenever f($x_1$) = f($x_2$), then $x_1$ = $x_2$ 
+	- Definition. A function is [[injection|one-to-one]] if it passes the horizontal line test. Equivalently, a function is one-to-one if for any two different x-values $x_1$ and $x_2$, f($x_1$) and f($x_2$) are different numbers. Sometimes, this is said: f is one-to-one if, whenever f($x_1$) = f($x_2$), then $x_1$ = $x_2$ 
 		- f($x_1$) and f($x_2$)  are the y-values
 		- ![[Screenshot 2023-02-27 at 12.58.43 PM.png]] [^1]
 			- A one-to-one function is injective, and any 2 y-values that are equal implies that 2 x-values are equal.

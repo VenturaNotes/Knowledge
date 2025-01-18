@@ -5,7 +5,7 @@ Reviewed: false
 ---
 - ![[Screenshot 2025-01-09 at 11.53.43 AM.png]]
 	- Permutations and Combinations: Number of Bijective Functions
-		- Given $f: \{1, 2, 3, 4, 5, 6\} \to \{a, b, c, d, e, f\}$, how many total functions are there? How many are [[bijective]]?
+		- Given $f: \{1, 2, 3, 4, 5, 6\} \to \{a, b, c, d, e, f\}$, how many total functions are there? How many are [[bijection|bijective]]?
 			- Shows a mapping a set
 		- Recall: A bijective function is injective and surjective. which means each element in the codomain must be an image of exactly one element of the domain
 		- Let's set up this function using [[two-line notation]]

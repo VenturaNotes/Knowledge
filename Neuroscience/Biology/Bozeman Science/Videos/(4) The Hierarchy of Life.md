@@ -151,7 +151,7 @@ Reviewed: false
 			- An [[elk]] is made up of a number of organ systems working together
 - ![[Screenshot 2024-01-29 at 3.56.26 AM.png]]
 	- Hierarchy of life (Continued)
-		- [[Population]]
+		- [[Population (Biology)|Population]]
 			- Organisms organized into a population
 			- All of the elk living in one area at a time
 			- [[Intraspecies]] interactions

@@ -3,4 +3,34 @@ Source:
   - https://www.youtube.com/watch?v=3UpO2zeQKzU
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-18 at 3.15.19 PM.png]]
+	- Surjections, Injections, and Bijections
+		- A function is [[surjection|surjective]] (a surjection or onto) if every element of the codomain is the image of at least one element from the domain
+			- Every element of the codomain must have at least one input
+		- In pictures: surjective and not surjective
+		- Examples
+			- (a) $f: \mathbb{Z} \to \mathbb{Z}$ by $f(n) = 2n$: $f$ is not surjective. For example, for 1 $\in$ $\mathbb{Z}$, $f(n) = 2n $\ne$ 1 for any n $\in$ $\mathbb{Z}$. Also, the codomain is the set of integers, while the range is only the set of even integers. (not onto)
+	- Surjections, Injections, and Bijections
+		- (b) f is surjective. Each element of the codomain is the output of at least one element from the domain (onto)
+		- (c) g is not surjective. c $\in$ {a, b, c, d} is not the output of at least one element from the domain. (not onto)
+	- Surjections, Injections, and Bijections
+		- A function is [[injective]] (an injection or one-to-one) if every element of the codomain is the image of at most one element from the domain
+			- Every element in the codomain must have at most one input
+		- Examples
+			- (a) f is injective. Every element of the codomain is assigned to at most one element in $\mathbb{Z}$ (one-to-one)
+				- All of the even integers of the codomain are images of exactly ONE element from the domain
+				- All of the odd integers from the codomain are images of exactly ZERO elements from the domain
+				- So therefore $f$ is injective 
+	- Surjections, Injections, and Bijections
+		- (b) f is injective.Each output of the codomain {a, b, c, d} is only an output once (one-to-one)
+		- (c) g is not injective $a \in {a, b, c,d}$ is the output of inputs 2 and 3 from the domain (not at most one). (not one-to-one)
+- ![[Screenshot 2025-01-18 at 3.19.34 PM.png]]
+	- Surjections, Injections, and Bijections
+		- Be careful: "surjective" and "injective" are NOT opposites. Functions can be surjective but not injective, injective but not surjective, both, or neither. In the case when a function is both one-to-one and onto (an injection and surjection), we say the function is a [[bijection]], or that the function is a bijective function
+		- In other words, if every element of the codomain is the image of exactly one element of the domain, a function is a bijection
+			- Note: (b) from our examples is a bijection
+	- Surjections, Injections, and Bijections
+		- Injective vs Surjective
+			- A function is injective provided every element of the codomain is the image of at most element from the domain
+			- A function is surjective provided every element of the codomain is the image of at least one element from the domain
+		- Notice both properties are determined by what happens to elements of the codomain: they could be repeated as images or they could be missed (not be images). Injective functions do not have repeats but might or might not miss elements. Surjective functions do not miss elements, but might or might not have repeats. Bijective functions are those that do not have repeats and do not miss elements. 
