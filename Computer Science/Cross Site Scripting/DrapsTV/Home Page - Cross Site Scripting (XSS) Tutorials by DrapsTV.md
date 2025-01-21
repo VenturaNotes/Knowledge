@@ -8,9 +8,9 @@ tags:
 Reviewed: false
 ---
 - Complete
-- Incomplete
 	- [[(1) XSS Tutorial 1 - What is Cross Site Scripting.]]
 	- [[(2) XSS Tutorial 2 - Non Persistent Scripts (Reflected XSS)]]
+- Incomplete
 	- [[(3) XSS Tutorial 3 - Persistent Scripts]]
 	- [[(4) XSS Tutorial 4 - Malicious Attacks]]
 	- [[(5) XSS Tutorial 5 - Avoiding Basic Filters]]
