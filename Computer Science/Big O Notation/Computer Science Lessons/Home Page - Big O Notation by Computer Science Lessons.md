@@ -8,8 +8,8 @@ tags:
 Reviewed: false
 ---
 - Complete
-- Incomplete
 	- [[(1) Big O Part 1 – Linear Complexity]]
+- Incomplete
 	- [[(2) Big O Part 2 – Constant Complexity]]
 	- [[(3) Big O Part 3 – Quadratic Complexity]]
 	- [[(4) Big O Part 4 – Logarithmic Complexity]]

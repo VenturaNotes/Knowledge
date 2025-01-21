@@ -3,3 +3,44 @@ Source:
   - https://youtube.com/watch?v=dFci82qwXA0
 Reviewed: false
 ---
+- ![[Screenshot 2025-01-20 at 10.43.50 PM.png]]
+	- Non Persistent Scripts
+	- Environment Setup
+		- If you wish to follow along by trying out everything we learn, The 'XSS Tutorial - Setting Up The XSS Environment' video will get you ready to test in a safe & legal environment [@](https://youtu.be/-NSXCDjepis?si=qpk9XWPbPN9tl8yt)
+	- What is a Non Persistent Script?
+		- A Non Persistent Script is as the name describes. The attack only affect's the user running the script
+			- A [[Non Persistent Script]] does not persist on the website
+		- A benefit of trying a non-persistent attack is that any success with injecting a script may indicate that the website's creator may have gotten protection in another section of the site. The website's creator may have forgot to protect other input fields
+		- Its's not very useful to attack yourself, so we need to be a little crafty
+		- A Non persistent script can also be referred to as [[Reflected XSS]]
+	- What is Reflected XSS?
+		- I like to split Reflected Attacks as their own little sub field
+		- Reflected XSS is harnessed by attaching the malicious script to the end of a URL/Link
+		- Though it may be obvious to see code on the end of a URL, techniques of hiding it are possible
+		- Also with the service of link shortening services, this can be very deadly
+- ![[Screenshot 2025-01-20 at 10.46.51 PM.png|300]]
+	- What can it do?
+		- Reflected XSS is very common cross site scripting method currently
+		- The malicious code possibilities are endless. But for examples sake we could
+			- Redirect to a phishing
+			- Steal cookie information
+			- Force the user to make an action (such as clicking on a button)
+	- Let's Give it a shot
+		- Let's just do some basic mucking around with some HTML tags to see what we can do with this very vulnerable page
+		- The PHP code file can be found in the description
+		- We will try some pure HTML, then we will try the common alert('XSS') script.
+- ![[Screenshot 2025-01-20 at 10.51.29 PM.png]]
+	- We search "test" in the search bar and the results are not found
+	- Then we try an HTML tag `<i>` for italics. When we hit search, we see that the rest of the page will show all italics
+		- Could also be done with `<font color="blue">` which would make the rest of the text appear blue without a closing tag
+	- `<script>alert("XSS")</script>`
+		- We found a cross site scripting vulnerability in this search. We can see in the URL that query was appended to the end
+			- Could send this link to somebody provided that it was on an external web host and they would get the same pop-up 
+![[Screenshot 2025-01-20 at 10.55.57 PM.png]]- 
+	- Attack Strategies
+		- You can try to trick a specific victim into clicking the link through an email or instant messaging.
+		- Alternatively if you don't have a specific target, you can publish the link to a website or social media and try to trick people into clicking it
+		- Once again URL shortening make this much easier. In a later video, we will talk about other ways to hide the code
+	- Next
+		- Persistent Scripts
+		- Feel free to leave any questions in the comments.

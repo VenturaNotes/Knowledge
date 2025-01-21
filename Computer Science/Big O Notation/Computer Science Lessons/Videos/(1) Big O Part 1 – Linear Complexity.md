@@ -1,0 +1,41 @@
+---
+Source:
+  - https://youtube.com/watch?v=OMInLBKYAWg
+Reviewed: false
+---
+- ![[Screenshot 2025-01-20 at 10.16.12 PM.png]]
+	- We can describe the efficiency of an algorithm, a program, or a [[programmatic operation]] in terms of the time it takes to do its work or the amount of memory it uses or the amount of secondary storage space it needs 
+	- Performance of a program depends on capabilities of the computer it's running on
+	- [[big-O notation|Big O]]
+		- #question Does "Big O" stand for something?
+		- Big O describes how the time taken, or memory used, by a program scales with the amount of data it has to work on
+		- Big O describes the 'complexity' of a program
+		- Common sense tells us that a program takes longer when there is more data to work on... But not necessarily
+			- True for linear search if the target value is at the end of the list and you double the data. Then it would cause you to search through twice as much data
+	- Big O Complexities
+		- [[Linear Search]]
+		- [[Stack]]
+		- [[Bubble Sort]]
+		- [[Binary Search]]
+		- [[Merge Sort]]
+	- Linear Search
+		- Sometimes referred to as a sequential search
+		- An unordered list is searched for a particular value
+		- Each value in the list is compared with the target value (something of a brute force approach)
+		- Linear search implemented with a simple loop
+	- Pseudocode (for linear search)
+		- Shows that the loop visits and tests each item in turn
+		- If target value found, boolean variable set to true and forced exit from the loop
+- ![[Screenshot 2025-01-20 at 10.20.28 PM.png]]
+	- Doubling the amount of data for linear search will take twice the amount of time. Same for tripling and so forth
+	- Chart shown
+		- Simple relationship between the amount of data and the time taken to process it
+		- The time taken is directly proportional to the amount of data
+		- The gradient of the line depends on the computer that's running the program
+			- #question what is meant by gradient?
+		- At the end of the day though, will be a straight line
+	- Linear Search Complexity
+		- For `n` data items, the time taken is equal to some constant multiplied by `n`
+		- The Big O time complexity is Linear
+			- In Big O notation, it's $O(n)$
+		- Therefore, the chart follows all algorithms which follow linear time complexity

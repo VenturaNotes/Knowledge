@@ -3,3 +3,44 @@ Source:
   - https://youtube.com/watch?v=M_nIIcKTxGk
 Reviewed: false
 ---
+- ![[Screenshot 2025-01-20 at 10.29.02 PM.png]]
+	- What is cross-site scripting
+	- What is [[Cross-Site Scripting|XSS]]?
+		- Cross Site Scripting, otherwise known as XSS is a code injection attack allowing the injection of malicious code into a website
+		- XSS is currently one of the most common website attacks, with almost every website requiring the user to have JavaScript turned on
+			- As well as large websites and services that have large amount of input fields that could potentially be vulnerable
+	- What is XSS?
+		- Rather than being an attack on the website itself, it uses the website as a means to attack the users of that website.
+		- When you can get your XSS permanently on a website, all those who visit that page will have the JavaScript executed by their browser
+	- What can it do?
+		- Malicious JavaScript can be used to do all sorts of malicious tasks
+		- It can be used to steal users cookies, allowing for someone to use the website pretending to be that user
+		- JavaScript can modify the page to make it look different or behave differently
+		- It can even send you to another website taking data with you
+			- Could have your login details phished 
+- ![[Screenshot 2025-01-20 at 10.36.24 PM.png]]
+	- What's happening
+		- Let's first look at how HTML works
+		- HTML is a tag based language, so when we open a tag such as `<b>` for bold, all text after that tag becomes bold until a matching `</b>` closing tag is found
+		- But what might happen if we were to only put a `<b>` tag in a search box that doesn't strip the tag?
+	- What's happening. Ext
+		- Let's think if I placed a bold tag in this slide `<b>` then everything in the rest of this slide would be bold until a closing bold was found
+		- The scary part of XSS comes when we use the `<script>` tag, informing the browser anything between the script tags is JavaScript
+			- #comment Seems like this could be used against websites that build their pages with templates without even knowing all the vulnerabilities that the template may have
+		- I'm keeping this super simple as we will get into the basics next tutorial with some simple examples
+	- Topics
+		- Non Persistent Scripts
+		- Persistent Scripts
+		- Malicious Attacks
+		- Avoiding Basic Filters
+		- Avoiding Advanced Filters
+		- Analyzing Twitters Tweet Deck XSS Script
+			- Made a self-retweeting tweet to thousands of people in mid 2014
+	- Prerequisites
+		- A fairly strong understanding of JavaScript is required if you wish to easily follow along.
+		- Of course without skills in JavaScript you won't possess the power to construct your own scripts
+		- A fair understanding of HTML is required as well as a rough idea of how web backend works.
+- ![[Screenshot 2025-01-20 at 10.37.01 PM.png]]
+	- Next
+		- Non Persistant Scripts
+		- Feel free to leave any questions in the comments
