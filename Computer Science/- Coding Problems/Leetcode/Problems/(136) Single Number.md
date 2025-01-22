@@ -11,7 +11,7 @@ Reviewed: false
 - Could use a [[HashSet]] for this problem if allowed to use extra space
 - Showing the [[binary representation]] of a number
 - Will use the [[binary operation]] [[exclusive or]] (xor)
-	- If two [[bits]] are the exact same = 0
+	- If two [[bit|bits]] are the exact same = 0
 	- If two bits are different = 1
 - If we xor together all of them, the result will be the single value
 	- Order of xor operation is not important

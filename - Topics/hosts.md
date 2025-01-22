@@ -2,6 +2,7 @@
 aliases:
   - end systems
   - end system
+  - host
 ---
 ## Synthesis
 - 

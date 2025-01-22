@@ -5,7 +5,7 @@ Reviewed: false
 ---
 - ![[Screenshot 2025-01-07 at 9.48.39 AM.png]]
 	- Bit strings
-		- [[Bit]] is short for [[binary digit]], so a [[bit string]] is a string of binary digits. The binary digits are simply the numbers 0 and 1.
+		- [[Bit]] is short for [[bit|binary digit]], so a [[bit string]] is a string of binary digits. The binary digits are simply the numbers 0 and 1.
 			- Examples:
 				- 1001
 				- 0

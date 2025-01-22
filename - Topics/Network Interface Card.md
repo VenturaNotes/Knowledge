@@ -1,6 +1,7 @@
 ---
 aliases:
   - NIC
+  - network interface cards
 ---
 ## Synthesis
 - 

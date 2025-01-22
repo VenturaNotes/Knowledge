@@ -5,6 +5,7 @@ aliases:
 ## Synthesis
 - 
 ## Source[^1]
+- Used for browsing sites
 - [[Port 80]] is used for HTTP (web browsing)
 - Communication between web servers and clients
 - Defines how messages are formatted and transmitted, including requests from clients and responses from servers

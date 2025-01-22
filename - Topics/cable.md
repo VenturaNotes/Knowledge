@@ -1,3 +1,7 @@
+---
+aliases:
+  - cables
+---
 ## Synthesis
 - 
 ## Source [^1]

@@ -1,3 +1,7 @@
+---
+aliases:
+  - router
+---
 ## Synthesis
 - 
 ## Source [^1]

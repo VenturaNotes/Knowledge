@@ -1,0 +1,14 @@
+---
+aliases:
+  - Internet Access Message Protocol
+---
+## Synthesis
+- 
+## Source [^1]
+- Stands for "Internet Access Message Protocol"
+- A protocol used for receiving emails
+- Stores the message on a server and synchronizes the message across multiple devices, so it can be accessed whenever you have an internet connection
+	- #question Who owns this server?
+## References
+
+[^1]: https://support.mail.com/pop-imap/imap/imap.html#:~:text=IMAP%20stands%20for%20%22Internet%20Access,you%20have%20an%20internet%20connection.
