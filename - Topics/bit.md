@@ -1,7 +1,18 @@
+---
+aliases:
+  - bits
+  - binary digit
+  - binary digits
+---
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- A bit is also known as a binary digit
+- It is the smallest unit of data that a computer can process and store
+- A bit is always in one of two physical states, similar to an on/off light switch
+- The state is represented by a single binary value, usually a 0 or 1
+	- Can also be represented by yes/no, on/off, or true/false
+- Bits are stored in [[memory]] through the use of [[capacitor|capacitors]] that hold electrical charges
 ## References
 
-[^1]:
+[^1]: https://www.techtarget.com/whatis/definition/bit-binary-digit

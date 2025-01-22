@@ -1,3 +1,7 @@
+---
+aliases:
+  - application
+---
 ## Synthesis
 - 
 ## Source [^1]

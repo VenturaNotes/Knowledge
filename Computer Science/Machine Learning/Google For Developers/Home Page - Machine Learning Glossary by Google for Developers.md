@@ -225,7 +225,7 @@ Reviewed: false
 		- [[hierarchical clustering]]
 		- [[hinge loss]]
 		- [[holdout data]]
-		- [[host]]
+		- [[hosts|host]]
 		- [[hyperparameter]]
 		- [[hyperplane]]
 	- I

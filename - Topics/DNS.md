@@ -19,6 +19,7 @@ aliases:
 - Responsible for domain name resolution, translating domain names into IP addresses
 - "example.com" is not a unique address but rather an example domain name commonly used for illustrations
 	- The ".com" represents the top-level domain ([[top-level domain|TLD]]) for commercial organizations.
+- For resolving domain names into IP addresses
 
 ## References
 

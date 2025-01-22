@@ -9,7 +9,7 @@ Reviewed: false
 ---
 - ![[Screenshot 2023-07-26 at 3.12.51 PM.png]]
 	- Programming languages can be unicode aware
-	- All data is stored as [[bits]]. 0s and 1s (such as 0100010)
+	- All data is stored as [[bit|bits]]. 0s and 1s (such as 0100010)
 		- Either in [[RAM]] (memory) or [[Disk]]
 	- Whether it's a number like "26" or a character like "d", it all gets transformed into bits for storage
 		- For numbers, it makes sense to transform 26 to the equivalent number in base 2 (11010)

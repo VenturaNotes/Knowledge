@@ -1,3 +1,7 @@
+---
+aliases:
+  - binary digits
+---
 ## Synthesis
 - 
 ## Source [^1]
