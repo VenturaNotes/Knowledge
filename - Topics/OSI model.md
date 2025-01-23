@@ -3,7 +3,16 @@ aliases:
   - Open Systems Interconnection
 ---
 ## Synthesis
-- 
+### Description
+- Conceptual framework that standardizes network communication into seven layers each handling specific tasks related to data transmission and processing
+### Seven Layers
+- Physical: Transmission of bits over physical mediums
+- Data Link: Establishes links between nodes on the same network
+- Network: Routes, addresses, and delivers data across networks
+- Transport: Ensures reliable data delivery
+- Session: Manages sessions
+- Presentation
+- Application
 ## Source[^1]
 - Conceptual framework that standardizes network communication into seven layers each handling specific tasks related to data transmission and processing.
 	- Handles specific functions and protocols

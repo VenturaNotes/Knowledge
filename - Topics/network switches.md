@@ -1,3 +1,7 @@
+---
+aliases:
+  - network switch
+---
 ## Synthesis
 - 
 ## Source [^1]

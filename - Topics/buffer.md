@@ -5,4 +5,4 @@
 - Buffers used to compensate for differences in data flow rates, or when data arrives faster than it can be processed
 ## References
 
-[^1]: Google's Search Labs | AI Overiew
+[^1]: Google's Search Labs | AI Overview
