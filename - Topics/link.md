@@ -1,3 +1,7 @@
+---
+aliases:
+  - links
+---
 ## Synthesis
 - 
 ## Source [^1]

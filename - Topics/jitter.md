@@ -7,7 +7,7 @@
 ## Source[^2]
 - Jitter is the variation in time delay between when a signal is transmitted and when it's received over a network connection, measuring the variability in [[ping]]
 - Delay caused by
-	- Network congestion
+	- [[Network congestion]]
 	- Poor hardware performance
 	- Not implementing [[packet prioritization]]
 ## References

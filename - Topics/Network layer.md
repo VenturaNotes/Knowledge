@@ -40,7 +40,11 @@
 					- This means the last octet has the first two bits used for the network leaving the last 6 bits for the host addresses
 				- Giving the dotted-decimal notation: $255.255.255.192$ 
 		- So we have 64 IPs in the subnet with 62 usable hosts
+
+## Source[^3]
+- A [[routers|router]] is a device used in the network layer
 ## References
 
 [^1]: ChatGPT
 [^2]: https://www.geeksforgeeks.org/quizzes/network-layer-gq/
+[^3]: https://youtu.be/HGYOEeik844?si=g3dABQwtJHSi6W01

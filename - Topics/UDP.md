@@ -101,7 +101,10 @@ class UDPClient {
 }
 ```
 
+## Source[^3]
+- Size of UDP header is 8 bytes
 ## References
 
 [^1]: ChatGPT
 [^2]: [README: Getting Started with TCP](zotero://open-pdf/library/items/Z39YA2G3?page=1&annotation=8KH2BLT2)
+[^3]: https://youtu.be/HGYOEeik844?si=7KJaPkDktjARENM4

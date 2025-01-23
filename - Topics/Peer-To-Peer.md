@@ -14,6 +14,10 @@ aliases:
 	- P2P:
 		- Every device can initiate communication with any other device
 		- Decentralized approach where no central server controls the flow of data
+## Source[^2]
+- P2P is not considered a [[network topology]] because it describes the relationship between devices in a network where each device acts as both a client and server, sharing resources directly without a [[central server]], rather than defining the physical layout or connection structure of the network (which is what a network topology does)
+- P2P can be implemented on various topologies like star or mesh
 ## References
 
 [^1]: Gemini
+[^2]: Google's Search Labs | AI Overview

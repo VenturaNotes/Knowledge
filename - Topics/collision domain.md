@@ -1,0 +1,4 @@
+---
+aliases:
+  - collision domains
+---

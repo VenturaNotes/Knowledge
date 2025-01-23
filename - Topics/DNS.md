@@ -21,6 +21,10 @@ aliases:
 	- The ".com" represents the top-level domain ([[top-level domain|TLD]]) for commercial organizations.
 - For resolving domain names into IP addresses
 
+## Source[^2]
+- An internet service that translates alphabetic names into IP addresses
+
 ## References
 
 [^1]: ChatGPT
+[^2]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks

@@ -6,8 +6,13 @@
 - The term "ping" is derived from a [[sonar]] concept of sending out a pulse and measuring the time it takes for the echo to return
 - A low ping value indicates a fast and responsive connection, while a high ping value suggests network latency or connectivity issues.
 	- The time taken for a ping request to reach a device and return is measured in milliseconds (ms
-- Ping uses the Internet Control Message Protocol
+- Ping uses the [[ICMP|Internet Control Message Protocol]]
 - Used to check if a device is reachable on a network and to assess the responsiveness of the connection
+
+## Source[^2]
+- Ping uses [[ICMP]]
+
 ## References
 
 [^1]: Google's Search Labs | AI Overview
+[^2]: https://youtu.be/NRckVJk9n0k?si=iGYuTxcHcFLF4y3E
