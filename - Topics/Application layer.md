@@ -1,3 +1,7 @@
+---
+aliases:
+  - layer 7
+---
 ## Synthesis
 - 
 ## Source [^1]
@@ -25,6 +29,7 @@
 	- Example: An email client uses [[SMTP]] to send emails and [[IMAP]]/[[POP3]] to receive them
 - Manages User Requests
 	- Ensures user requests (like downloading a file or loading a webpage) are correctly communicated over the network to the appropriate server or destination
+		- Communicated over the network just means transferring data packets using network protocols from the client (user's application) to the appropriate server (or vice versa)
 - Data Presentation and Formatting
 	- May translate or encode data into formats useable by the recipient application
 	- Example: [[MIME]] types in email specify how to display file attachments
@@ -35,6 +40,7 @@
 - [[SMTP]] (Simple Mail Transfer Protocol): For sending emails
 - [[DNS]] (Domain Name System): For resolving domain names into IP addresses
 - [[Telnet]]/[[SSH]]: For remote login to other [[systems]]
+- Most protocols are standardized globally by organizations like [[IETF]]
 
 ### Key Points
 - The application layer is not the [[Applications|application]] itself. It is not your [[browser]], [[email client]], or other software
@@ -50,6 +56,17 @@
 	- Application layer translates your request into a standard language (protocols like HTTP) that the network can understand
 	- Ensures that the response (like the webpage) is also formatted and delivered back to your application (browser) correctly
 - This layer abstracts all underlying network complexities, so you only focus on the service (such as browsing or emailing) without worrying about the technical details
+### Example
+- An example of the application layer would be HTTP.
+	- HTTP is used by web browsers to fetch and display [[webpage|web pages]]
+	- When typing a [[URL]] into your browser, the application layer (HTTP) sends a request to a server and receives the the webpage data in return
+
+### Data Formatting
+- The [[presentation layer]] formats data (e.g., [[encryption]], [[compression]]) before the application layer processes it. 
+- Application layer protocols define specific formats, such as [[JSON]] for [[web APIs]]
+
+### Browser
+- A [[browser]] sends an HTTP GET request to fetch data. The [[server]] responds with the requested webpage, often in HTML format
 
 ## Source[^2]
 - The application layer provides the services to user

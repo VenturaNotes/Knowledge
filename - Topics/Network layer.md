@@ -1,8 +1,12 @@
+---
+aliases:
+  - layer 3
+---
 ## Synthesis
-- 
-## Source [^1]
+### Description
 - Handles routing, addressing, and delivering data across networks
-
+## Source [^1]
+- Handles [[routing]], [[addressing]], and delivering data across networks
 ## Source[^2]
 ### Questions
 - (1) If a company requires 60 hosts, then what is the best possible [[subnet mask]]?

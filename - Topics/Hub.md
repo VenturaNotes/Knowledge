@@ -15,7 +15,7 @@ aliases:
 - A hub can also be referred to as repeaters or concentrators, and they serve as the center of a [[LAN]]
 
 ## Source[^3]
-- The hub is specified in the [[data link layer]]
+- The hub is specified in the [[physical layer]]
 ## References
 
 [^1]: Google's Search Labs | AI Overview

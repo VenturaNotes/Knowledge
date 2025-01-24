@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - #question Why do we need `ctime` for this problem?
-- #questoin why do we need break statements?
+- #question why do we need break statements?
 ```c++
 #include <iostream>
 #include <ctime>

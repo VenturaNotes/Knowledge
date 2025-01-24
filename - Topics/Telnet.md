@@ -6,6 +6,8 @@ aliases:
 - Telnet is used for remote login to other [[systems]]
 ## Source [^1]
 - For remote login to other systems
+- Unencrypted text-based remote access
+	- #question What does this look like?
 ## Source[^2]
 - Telnet stands for telecommunication network
 ## References

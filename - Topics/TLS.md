@@ -1,3 +1,7 @@
+---
+aliases:
+  - Transport Layer Security
+---
 ## Synthesis
 - 
 ## Source [^1]
