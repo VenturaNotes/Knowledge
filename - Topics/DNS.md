@@ -3,7 +3,8 @@ aliases:
   - Domain Name System
 ---
 ## Synthesis
-- 
+- Translates domain names into IP addresses
+	- example.com $\to$ (192.168.1.1)
 ## Source [^1]
 - A hierarchical naming system used to translate [[domain names]] (example.com) into [[IP addresses]] (192.168.1.1)
 	- It uses a hierarchical structure with domain names organized into [[zones]], [[subdomains]], and individual [[domain names]]
@@ -20,10 +21,11 @@ aliases:
 - "example.com" is not a unique address but rather an example domain name commonly used for illustrations
 	- The ".com" represents the top-level domain ([[top-level domain|TLD]]) for commercial organizations.
 - For resolving domain names into IP addresses
+- DNS resolves domain names into IP addresses
+	- #question how does DNS do this?
 
 ## Source[^2]
 - An internet service that translates alphabetic names into IP addresses
-
 ## References
 
 [^1]: ChatGPT

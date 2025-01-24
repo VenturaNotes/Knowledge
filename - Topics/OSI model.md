@@ -25,6 +25,21 @@ aliases:
 	- [[Presentation layer]]: Formats and translates data for the application layer
 	- [[Application layer]]: Interfaces with applications to provide network services
 - A conceptual framework that standardizes how data is transmitted over a network. Divides the communication process into seven layers, each responsible for specific tasks
+
+### Lower Layers
+- [[Physical layer|Physical]]: Handles transmission of bits
+- Data Link: Ensures reliable node-to-node communication
+- Network: Manages addressing and routing
+
+### OSI Model rundown (bottom-up)
+- Physical: Bits over hardware
+- Data Link: [[Frame]] transmission
+- Network: Routing (IP)
+- Transport: Reliable delivery (TCP)
+- Session: Manage sessions
+- Presentation: Data formatting
+- Application: [[End-user]] [[interface]]
+	- #question what is meant by interface here?
 ## References
 
 [^1]: ChatGPT

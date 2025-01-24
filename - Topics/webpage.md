@@ -1,3 +1,8 @@
+---
+aliases:
+  - web page
+  - web pages
+---
 ## Synthesis
 - 
 ## Source [^1]

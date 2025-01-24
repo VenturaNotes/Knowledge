@@ -3,13 +3,14 @@ aliases:
   - Layer 1
 ---
 ## Synthesis
-- 
+### Description
+- Transmission of bits over physical mediums
 ## Source[^1]
 - Deals with physical connections and transmission of raw data bits.
 - Transmission of raw data (bits) over [[physical medium|physical mediums]]
+- Handles transmission of bits
 ## Source[^2]
 - The [[hub]] is specified in the physical layer
-
 ## Source[^3]
 - The physical layer is also referred to as "Layer 1" as it is the lowest layer in the seven-layer network model
 - First layer when counting from the bottom up

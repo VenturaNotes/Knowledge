@@ -10,6 +10,12 @@ aliases:
 - Used specifically for file transfer between a client and a server
 - Used for transferring files between systems
 - Stands for "File Transfer Protocol"
+- Transfers files between systems
+- Allows file transfers between systems. Uses:
+	- [[Port 21]] for commands
+		- #question what kind of commands?
+	- [[Port 20]] for data
+		- #question what kind of data?
 ## References
 
 [^1]: ChatGPT

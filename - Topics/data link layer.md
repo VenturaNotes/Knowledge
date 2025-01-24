@@ -9,6 +9,7 @@ aliases:
 - Responsible for reliable data transfer between adjacent nodes over a physical 
 - Handles reliable data transfer between adjacent nodes, error detection, and [[media access control]] (MAC)
 - Establishes a reliable link between nodes on the same network
+- Ensures reliable node-to-node communication
 
 ## Source[^2]
 - Referred to as "Layer 2" in the OSI model
