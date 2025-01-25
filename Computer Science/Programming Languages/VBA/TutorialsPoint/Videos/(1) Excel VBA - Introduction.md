@@ -1,0 +1,56 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=FGQ0P9jTjU0
+Reviewed: false
+---
+- ![[Screenshot 2025-01-25 at 1.52.44 AM.png]]
+	- Introduction to [[Visual Basic for Application|VBA]] which is visual basic for applications
+		- Used for Microsoft office products like [[Microsoft Excel|Excel]], [[Microsoft Word|Word]], [[Microsoft PowerPoint|PowerPoint]] and so on.
+	- What is [[Macro|macros]] and [[Visual Basic for Application|VBA]]?
+		- A Macro is a piece of code
+			- Set of instruction which are turned into a VBA
+			- Subroutines, functions, and so on
+		- Macros are written in programming language i.e VBA
+		- VBA is Visual Basic for Applications (Excel, Word, Powerpoint)
+			- Applications stands for Excel, Word, etc.
+		- VBA is editor in Excel, Word
+			- VBA is an editor where you can keep writing the macros
+			- Keep writing the softwares, the code itself
+	- [[Visual Basic for Application|VBA]], [[VB]] and [[Vbs]] difference
+		- VB is stand alone program that runs independently
+		- VBA is part of Excel Program and cannot work alone
+			- Used for desktop based applications
+		- Vbs is variant of Visual Basic Language used for Internet Applications
+			- It's just visual basic scripting
+			- Used for internet based applications
+	- Why Macros is required? (done to save time)
+		- Reasons
+			- Repetitive task
+			- Develop new formulae
+			- Complex task
+				- Like sorting, filtering, or a type of table
+		- In Excel you might think there are so many functions, so many tasks to be done
+			- Approximately 300 to 400 formulas / tasks which you can use
+	- Synonyms for Macros
+		- Names
+			- Subroutine
+			- Procedure
+			- Program
+		- If from IT or coding background, we call it as a code.
+	- About Macros
+		- Macros is Objected Oriented Program
+		- In Excel, anything and everything is Object
+			- Ex. Workbook, sheets, cells, charts etc
+		- Excel is itself an object
+		- Macro works only on the objects themselves 
+	- Object Model for Excel (the hierarchy)
+		- Object hierarchy
+			- Application (Excel, word, powerpoint). Using Excel for this example
+			- Workbook
+			- Worksheet
+				- Range
+				- Charts
+				- Controls
+				- Shapes
+		- If you wanted `charts`, you'd have to first call the application, then workbook, then worksheet, and then you can call charts
+			- Cannot call independently charts alone itself

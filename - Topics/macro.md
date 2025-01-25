@@ -1,3 +1,7 @@
+---
+aliases:
+  - macros
+---
 ## Synthesis
 - 
 ## Source [^1]

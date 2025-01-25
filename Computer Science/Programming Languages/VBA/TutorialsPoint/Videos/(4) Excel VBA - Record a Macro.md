@@ -1,0 +1,36 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=ltcpaHdXUrU
+Reviewed: false
+---
+- ![[Screenshot 2025-01-25 at 2.43.50 AM.png]]
+	- Recording a macro will record all the actions you do on the sheet
+	- If you try to make it bold, italic, sorting, filtering, everything, it will record in the form of VB script at the backend in the form of macro
+	- Go to "Developer" tab
+		- There is an option "Use Relative References"
+			- Relative references. If you know the Excel part, it will go and do the task on some other cell
+			- Have this option selected
+		- Then click "Record Macro"
+	- Then a "Record Macro" window pops up
+		- Can name it
+		- Shortcut key
+			- Control A to Control Z is already occupied 
+			- So give some shortcut key not used for Excel
+			- So control + shift + A is good
+		- Can store macro in workbook
+		- Can give description (like coloring cells)
+	- Recorded Macro
+		- Color cell and then kept cursor in another place
+		- Then two things will be recorded in backend
+		- So then you click on "stop recording" at bottom
+	- Can view you macros from developer tab $\to$ "Macros" and then find name of your macro
+		- Then can click "run"
+	- Clicking on "edit" button of Macro
+		- A VBA will pop up showing the code
+		- The single quotes comments out a line
+		- Code actions
+			- `.Color` does color change
+			- `ActiveCell.Offset` moves cell selection offset two spaces to right in sheet
+		- So if you don't want to code it, you can just record and then playback
+	- You can record for some basic applications, basic things. But you can't record at higher level. At the higher level, you have to keep on doing some modification with respect to the code
+	- This was how to record a simple macro and execute it
