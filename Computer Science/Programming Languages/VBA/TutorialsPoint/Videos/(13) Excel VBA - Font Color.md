@@ -1,0 +1,22 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=S9nH8CFD4RA
+Reviewed: false
+---
+- ![[Screenshot 2025-01-25 at 4.14.33 AM.png]]
+	- #comment seems like magenta was not capitalized and yellow was misspelled
+	- How to change color of font in Excel
+	- In `vbGreen`
+		- The `vb` stands for visual basic
+		- There are 8 standard colors (there are more colors but names are given for these standard colors)
+			- Black
+			- White
+			- Red
+			- Green
+			- Yellow
+			- Blue
+			- Cyan
+			- Magneta
+	- The `ColorIndex` gives colors from 1 to 56
+		- 57 not valid
+	- Changing font color through `font.Color`

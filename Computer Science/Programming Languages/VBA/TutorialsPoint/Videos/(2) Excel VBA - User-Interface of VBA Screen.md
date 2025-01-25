@@ -1,0 +1,66 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=H-1FcTmGGXI
+Reviewed: false
+---
+- ![[Screenshot 2025-01-25 at 2.10.39 AM.png]]
+	- Learning the interface of VBA
+	- To find "Developer" tab on Mac
+		- Excel $\to$ preferences $\to$ View $\to$ In Ribbon, Show “Developer tab” checkbox
+	- ![[Screenshot 2025-01-25 at 1.59.38 AM.png]]
+		- This is what Visual Basic looks like (It doesn't full screen on mac)
+	- Description
+		- At the top you have a [[menu bar]] with "File, Edit, View, etc."
+		- Below that are commands which are known as toolbars. There are two [[toolbar|toolbars]] in this example
+		- The "Project - VBAProject" is just a [[project explorer]]
+			- It has all the elements / objects
+			- When we say all the objects
+				- It can contain sheets, workbooks, modules, class, and different user forms
+			- Collection of all these objects
+	- Creating a second sheet
+		- Able to create a second sheet by pressing the "+" symbol and it will show up in the project explorer
+		- One excel file is nothing but one project (Excel_VBA.xlsx)
+			- That is nothing but one VBA project
+			- The `Excel_VBA` is the name of the given file
+				- One file so one project
+	- New Window
+		- Doing "Command + N" is a shortcut for a new file
+			- Then it shows we have 2 VBAProject
+		- We have folder, sheet, and then workbook as the hierarchy
+		- File needs to be open for the object to be displayed in VBA
+	- User Forms
+		- Can add modules or user forms
+		- Click "Insert" and then click on "[[UserForm]]"
+			- UserForm is used to display a form which will have all the checkboxes, radio button, and so on on which you can work on
+	- Modules
+		- To create modules, click "insert" $\to$ "module"
+		- Whatever coding we will be writing, we will be writing in this module part
+			- When clicking on the [[module (VBA)|module]], it's nothing more than an [[editor pane]]
+				- This is the module editor
+- ![[Screenshot 2025-01-25 at 2.24.46 AM.png]]
+	- If we're on a module, we have
+		- "Module1 (Code)"
+		- "UserForm1 (UserForm)"
+		- "Sheet2 (Code)"
+	- [[Properties Window (VBA)|Properties Window]]
+		- Go to "View" $\to$ "Properties Window"
+			- Might be open by default though
+		- Will give all properties and values related to the object you have selected
+		- Selecting Sheet1 Object or the UserForm Object 
+			- You can see the properties
+		- You can change the name of the properties from this place
+		- Double clicking at a location if it's floating around will set it in place of the window
+	- [[Immediate Window (VBA)|Immediate Window]]
+		- Go to "View" $\to$ "Immediate"
+		- The shortcut on Windows + "Ctrl + G"
+		- By clicking on it, we will get a small window
+			- If you ask it a question, it will give you the answer
+			- So whatever question you type in the place automatically gives you the answer
+	- [[Object Browser (VBA)|Object Browser]]
+		- Go to "View" $\to$ "Object Browser"
+		- If you want to learn the project properties and their methods, it's known as object browser
+		- It will show all objects present and what methods you'll be able to work with
+		- Will show all classes of the objects
+			- And within a class will show the methods or "members"
+			- So for PivotFormulas, some methods are "Add", "Count", "Item" and others
+	- Can just close these individual windows by pressing the "X" button

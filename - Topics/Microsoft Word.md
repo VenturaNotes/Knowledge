@@ -1,3 +1,7 @@
+---
+aliases:
+  - Word
+---
 ## Synthesis
 - 
 ## Source [^1]
