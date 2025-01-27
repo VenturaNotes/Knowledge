@@ -26,9 +26,9 @@ tags:
 	- [[(17) Excel VBA - Wrap Text]]
 	- [[(18) Excel VBa - Merge Unmerge]]
 	- [[(19) Excel VBA - Clear Cells]]
-- Incomplete
 	- [[(20) Excel VBA - Delete Cells]]
 	- [[(21) Excel VBA - Rows & Columns Insert]]
+- Incomplete
 	- [[(22) Excel VBA - Rows and Columns Delete]]
 	- [[(23) Excel VBA - Column Width]]
 	- [[(24) Excel VBA - Row Height]]
