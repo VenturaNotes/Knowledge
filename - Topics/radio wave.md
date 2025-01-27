@@ -14,6 +14,7 @@ aliases:
 - Radio waves are considered physical mediums because they are part of the electromagnetic spectrum used to carry signals
 	- #question Why is the electromagnetic spectrum considered a physical medium?
 	- #question How can the electromagnetic spectrum ever carry signals?
+- 
 ## References
 
 [^1]: https://byjus.com/physics/radio-waves-questions/
