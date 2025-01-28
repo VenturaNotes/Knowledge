@@ -2908,15 +2908,28 @@ function formatDuration2(durationMs) {
   return isNegative ? '-' + formatted : formatted;
 }
 
-function updateReward(reward)
+function updateReward(reward,multiplier)
 {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Main');
   sheet.getRange("S2").setValue(sheet.getRange("S2").getValue()+reward);
+
+  temp = sheet.getRange("T6").getValue()
+
+
+  if (temp === ""){
+    temp = 0;
+  }
+  else
+  {
+    temp = temp - new Date(1899, 11, 30);
+  }
+  
+  sheet.getRange("T6").setValue(formatDuration(temp + multiplier));
 }
 
 function calculateMultiplier() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  updateReward(sheet.getRange("Q10").getValue());
+  updateReward(sheet.getRange("Q10").getValue(),sheet.getRange("Q11").getValue() - new Date(1899, 11, 30));
 
   var initialDate = new Date(1899, 11, 30);
   var updateCell = false;
@@ -3204,7 +3217,8 @@ function calculateCurrentDuration() {
 ```
 #### Description
 - Removed extra statistics
-- Added Reward base ("for "Main" page)
+- Added Reward base (for "Main" page)
+- Added Time Estimate base (for "Main" page)
 ## Version 1
 ### Attempt #1
 #### Sidebar.html
