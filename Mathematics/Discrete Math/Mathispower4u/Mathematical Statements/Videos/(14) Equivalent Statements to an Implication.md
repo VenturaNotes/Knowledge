@@ -3,7 +3,7 @@ Source:
   - https://www.youtube.com/watch?v=FhO7rrmZS18
 Reviewed: false
 ---
-- Image
+- ![[Screenshot 2025-01-30 at 1.58.58 AM.png|500]]
 	- Rephrasing an implication
 		- Rephrase the implication in equivalent ways.
 			- If it is raining, then I use an umbrella
@@ -11,16 +11,36 @@ Reviewed: false
 			- All of the following are equivalent
 				- if P then Q
 				- If P, Q
+					- If it is raining, I use an umbrella
 				- P is sufficient for Q
+					- It is raining is sufficient for me to use an umbrella
 				- Q if P
+					- I use an umbrella if it is raining
+				- Q when P
+					- I use an umbrella when it is raining
 				- Q whenever P
+					- I use an umbrella whenever it is raining
 				- Q is necessary for P
+					- I use an umbrella is necessary for it to be raining
 				- A necessary condition for P is Q
+					- A necessary condition for it to be raining is that I use an umbrella
 				- Q unless $\lnot P$
+					- I use an umbrella unless it is not raining
 				- P implies Q
+					- It is raining implies I use an umbrella
 				- P only if Q
-				- P is sufficient for Q
+					- It is raining only if I use an umbrella
+				- P is sufficient for Q (duplicate)
+					- It is raining is sufficient for me to use an umbrella
 				- P is a sufficient condition for Q
+					- It is raining is a sufficient condition for me to use an umbrella
 				- Q follows from P
+					- I use an umbrella follows from it is raining
 				- $\lnot Q \to \lnot P$ (contrapositive)
+					- If I don't use an umbrella, then it is not raining
 				- $P \to Q \equiv \lnot P \lor Q$ 
+					- It's not raining, or I use an umbrella
+		- [[Implication]]: $P \to Q$
+		- [[Converse]]: $Q \to P$
+		- [[Contrapositive]]: $\lnot Q \to \lnot P$
+		- An implication is true unless P is true, and Q is false
