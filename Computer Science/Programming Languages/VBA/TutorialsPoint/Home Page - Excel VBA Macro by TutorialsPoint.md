@@ -28,13 +28,13 @@ tags:
 	- [[(19) Excel VBA - Clear Cells]]
 	- [[(20) Excel VBA - Delete Cells]]
 	- [[(21) Excel VBA - Rows & Columns Insert]]
-- Incomplete
 	- [[(22) Excel VBA - Rows and Columns Delete]]
 	- [[(23) Excel VBA - Column Width]]
 	- [[(24) Excel VBA - Row Height]]
 	- [[(25) Excel VBA - Activate & Select]]
 	- [[(26) Excel VBA - Columns Hide & Unhide]]
 	- [[(27) Excel VBA - Rows Hide and Unhide]]
+- Incomplete
 	- [[(28) Excel VBA - Sheets Introduction]]
 	- [[(29) Excel VBA - Add Sheets]]
 	- [[(30) Excel VBA - Add Sheet with Names]]

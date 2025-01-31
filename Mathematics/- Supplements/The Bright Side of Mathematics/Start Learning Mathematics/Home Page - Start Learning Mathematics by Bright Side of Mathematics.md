@@ -20,8 +20,8 @@ Reviewed: false
 	- [[(10) Start Learning Sets - Part 6 - Injectivity, Surjectivity and Bijectivity]]
 	- [[(11) Start Learning Sets - Part 7 - Composition of Maps]]
 	- [[(12) Start Learning Numbers - Part 1 - Natural Numbers (in Set Theory)]]
-- Incomplete
 	- [[(13) Start Learning Numbers - Part 2 - Natural Numbers (Successor Map and Addition)]]
+- Incomplete
 	- [[(14) Start Learning Numbers - Part 3 - Natural Numbers (Induction and Associativity)]]
 	- [[(15) Start Learning Numbers - Part 4 - Natural Numbers (Ordering)]]
 	- [[(16) Start Learning Numbers - Part 5 - Natural Numbers (Multiplication)]]

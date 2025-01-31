@@ -3,4 +3,35 @@ Source:
   - https://www.youtube.com/watch?v=S2GTUL0cwy4
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-01-30 at 2.18.01 AM.png]]
+	- [[predicate|Predicates]] and [[Quantifiers]]
+		- It would be nice to use variables in our mathematical sentences. For example, suppose we wanted to claim that if n is prime, then n+7 is not prime. This looks like an implication. I would like to write something like $$P(n) \to \lnot P(n+7)$$ where $P(n)$ means "n is prime". But this is not quite right. For one thing, because this sentence has a [[free parameter|free variable]] (that is, a variable that we have not specified anything about), it is not a statement. A sentence that contains variables is called a [[predicate]]. 
+		- Now if we plug in a specific value for $n$, we do get a statement. In fact, it turns out that no matter what value we plug in for $n$, we get a true implication in this case. What we really want to say is that for all values of $n$, if $n$ is prime, then $n+7$ is not. We need to quantify the variable.
+		- Although there are many types of [[quantifiers]] in English (e.g., many, few, most, etc.) in mathematics we, for the most part, stick to two: [[Existential Quantifier|existential]] and [[Universal Quantifier|universal]]
+	- Predicates and Quantifiers
+		- Universal and Existential Quantifiers
+			- The [[existential quantifier]] is $\exists$ and is read "there exists" or "there is."
+				- For example, $\exists x (x \lt 0)$ asserts that there is a number less than 0
+			- The [[universal quantifier]] is $\forall$ and is read "for all" or "every".
+				- For example, $\forall x (x \ge 0)$ asserts that every number is greater than or equal to 0
+		- As with all mathematical statements, we would like to decide whether quantified statements are true or false. Consider the statement $$\forall x \exists y(y < x)$$
+		- You would read this, "for every x there is some y such that y is less than x." Is this true? The answer depends on what our domain of discourse is: when we say "for all" x, do we mean all positive integers or all real numbers or all elements of some other set? Usually, this information is implied. In discrete mathematics, we almost always quantify over the [[natural numbers]], 0, 1, 2, ..., so let's take that for our domain of discourse here
+	- Predicates and Quantifiers
+		- As with all mathematical statements, we would like to decide whether quantified statements are true or false. Consider the statement $$\forall x \exists y(y < x)$$
+		- For the statement to be true, we need it to be the case that no matter what natural number we select, there is always some natural number that is strictly smaller. Perhaps we could let y be x - 1? But here is the problem: what if x = 0? Then y = -1 and that is not a number in our domain of discourse. Thus, we see that the statement is false. In symbols, the given quantified statement is false because $$\exists x \forall y(y \ge x)$$
+		- To show that the original statement is false, we proved that the negation was true. Notice how the negation and original statement compare. This is typical
+			- $\lnot (\forall x \exists y(y< x)) \equiv \exists x \forall y \lnot(y < x) \equiv \exists x \forall y (y \ge x)$ 
+		- Quantifiers and [[Negation]]
+			- $\lnot (\forall x P(x))$ is equivalent to $\forall x \lnot P(x)$
+				- The negation passes over the quantifier and the quantifier switches type
+			- $\lnot(\exists x P(x))$ is equivalent to $\forall x \lnot P(x)$ 
+			- Essentially, we can pass the negation symbol over a quantifier, but that causes the quantifier to switch type
+	- Predicates and Quantifiers
+		- Examples: Assume x and y are real numbers
+			- $\forall x \exists y(cos(x) = y)$ means "For all x, there is a y such that $cos(x) = y$" 
+				- True
+			- $\forall y \exists x(cos(x) = y)$ means "For all y, there is an x such that $cos(x) = y$"
+				- False
+			- $\exists y \forall x(cos(x) \ne y)$ 
+				- Since y is always on the closed interval from 1 to -1, but if we have y equal the real number 6, then it can never equal $cos(x)$ 
+				- Negation is true when y = 2
