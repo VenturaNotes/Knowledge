@@ -8,10 +8,10 @@ tags:
 Reviewed: false
 ---
 - Complete
-- Incomplete
 	- [[(1) Introduction to Sequences (Discrete Math)]]
 	- [[(2) Determine a Closed Formula for a Given Sequence (1)]]
 	- [[(3) Determine a Closed Formula for a Given Sequence (2)]]
+- Incomplete
 	- [[(4) Determine Partial Sums and Recursive and Closed Formulas for Sequences]]
 	- [[(5) Given a Recursive Definition of a Sequence, Find Terms and a Closed Formula (1)]]
 	- [[(6) Given a Recursive Definition of a Sequence, Find Terms and a Closed Formula (2)]]

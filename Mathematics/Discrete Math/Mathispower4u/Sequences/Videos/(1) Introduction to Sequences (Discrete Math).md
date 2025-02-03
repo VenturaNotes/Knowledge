@@ -3,4 +3,39 @@ Source:
   - https://www.youtube.com/watch?v=rvjj_SSYiHI
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-02 at 5.20.15 AM.png]]
+	- Introduction to Sequences
+		- A [[sequence]] is an ordered list of numbers.
+		- For example, the sequence 0, 1, 2, 3, 4, 5, ...
+		- This is different from the set $\mathbb{N}$ because, while the sequence is a complete list of every element in the set of natural numbers, in the sequence, we very much care what order the numbers come in. For this reason, we use variables to represent terms in a sequence, they will look like this:
+			- $a_0, a_1, a_2, a_3, ...$
+		- To refer to the entire sequence, we write $(a_n)_{n \in \mathbb{N}}$ or $(a_n)_{n \ge 0}$, or just $(a_n)$ (in which case we assume we start the sequence with $a_0$). Sometimes we omit $a_0$, starting with $a_1$, in which case we would use $(a_n)_{n \ge 1}$. The numbers in the subscripts are called indices (the plural of [[index]]).
+		- A sequence is a special type of function. Specifically, the sequence $(a_n)_{n \ge 0}$ is a function with domain $\mathbb{N}$ where $a_n$ is the image of the natural number $n$
+			- $\mathbb{N}$
+				- The set of [[natural numbers]]. That is $\mathbb{N} = \{0, 1, 2, 3, ...\}$
+					- In our textbook, 0 is included as a natural number
+	- Introduction to Sequences
+		- A [[closed formula]] for a sequence $(a_n)_{n \in \mathbb{N}}$ is a formula for $a_n$ using a fixed finite number of operations of $n$. This is what we normally think of as a formula in $n$, just as if we were defining a function in terms of $n$.
+		- Examples: A few closed formulas for sequences:
+		- Note in each formula, if we are given $n$, we can calculate $a_n$ directly.
+	- Introduction to Sequences
+		- A [[recursive definitions|recursive definition]] (sometimes called an inductive definition) for a sequence $(a_n)_{n \mathbb{N}}$ consists of a [[recurrence relation]]: An equation relating a term of the sequence to previous terms (terms with smaller index) and an [[initial condition]]: A list of the first or first few terms.
+		- Examples: A few recursive definitions for sequences
+		- In these formulas, if we are given $n$, we cannot calculate $a_n$ directly. We first need to find $a_{n-1}$ (and/or $a_{n-2}$)
+	- Introduction to Sequences
+		- Common Sequences
+			- 1, 2, 3, 4, 5, ...
+				- The counting numbers. The sequence $(s_n)_{n \ge 1}$ has closed formula $a_n = n$
+			- 2, 6, 12, 20, 30, ...
+				- Products. The sequence $(s_n)_{n \ge 1}$ has closed formula $a_n = n(n+1)$
+			- 1, 4, 9, 16, 25, ...
+				- The square numbers. The sequence $(s_n)_{n \ge 1}$ has closed formula $a_n = n^2$
+			- 1, 2, 6, 24, 120, ...
+				- The factorial numbers. The sequence $(s_n)_{n \ge 1}$ has closed formula $a_n = n!$
+			- 1, 3, 6, 10, 15, 21, ...
+				- The triangular numbers. The sequence. $(T_n)_{n \ge 1}$ has closed formula $T_n = \frac{n(n+1)}{2}$
+			- 1, 2, 4, 8, 16, 32, ....
+				- The powers of 2. The sequence $(a_n)_{n \ge 0}$ with closed formula $a_n = 2^n$
+			- 1, 1, 2, 3, 5, 8, 13, ...
+				- The [[fibonacci numbers]] (or Fibonacci sequence), defined recursively by
+					- $F_n = F_{n-1} + F_{n-2}$ with $F_1 = F_2 = 1$ 
