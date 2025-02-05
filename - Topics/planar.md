@@ -1,7 +1,3 @@
----
-aliases:
-  - Euler
----
 ## Synthesis
 - 
 ## Source [^1]
