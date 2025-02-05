@@ -3,3 +3,40 @@ Source:
   - https://www.youtube.com/watch?v=RWDKNOoU_KI
 Reviewed: false
 ---
+- ![[Screenshot 2025-02-04 at 1.51.50 AM.png]]
+	- Introduction to Graph Theory
+		- [[Leonhard Euler]] was a famous Swiss mathematician, physicist, astronomer, geographer, logician and engineer. In the time of Euler, in the town of Königsberg in Prussia, there was a river containing two islands. The islands were connected to the banks of the river by seven bridges. See the image on the right
+			- #comment There was a spelling mistake with Leonhard Euler in the original video
+		- People would spend time walking over the bridges for exercise. As time passed, a question arose. Was it possible to plan a walk so that you cross each bridge once and only once? This is a graph theory question. Euler was able to determine that it was not possible
+		- [[Graph Theory]] is a relatively new area of mathematics, first studied by [[Leonhard Euler|Euler]] in 1735. Since then, it has blossomed into a powerful tool used in nearly every branch of science and is currently an active area of mathematics research 
+	- Introduction to Graph Theory
+		- The Seven Bridges of Königsberg is the problem that originally inspired graph theory. Consider a "different" problem: Below is a drawing of four dots connected by some lines. Is it possible to trace over each line once and only once (without lifting up your pencil, starting and ending on a dot)?
+		- There is an obvious connection between these two problems. Any path in the dot and line drawing corresponds to a path over the bridges of Königsberg. 
+		- We will revisit this problem later, but Euler proved that the problem has no solution
+		- We notice that the left and right graphs are equivalent
+	- Introduction to Graph Theory
+		- Pictures like the dot and line drawing are called [[graphs]]. Graphs are made up of a collection of dots called [[Vertex|vertices]] and lines connecting those dots called [[edges]]. When two vertices are connected by an edge, we say they are adjacent. The nice thing about looking at graphs instead of pictures of rivers, islands and bridges in that we now have a mathematical object to study. We have distilled the "important" parts of the bridge picture for the purposes of the problem.
+			- Vertex is singular for vertices
+		- Descriptions
+			- A [[walk]] is a sequence of vertices such that consecutive vertices (in the sequence) are adjacent (in the graph). A walk in which no edge is repeated is called a [[trail]], and a trail in which no vertex is repeated (except possibly the first and last) is called a [[path]].
+			- A walk which uses each edge exactly once is an [[Euler path]]
+			- An Euler path which starts and stops at the same vertex is an [[Euler circuit]]
+		- The [[degree]] of a vertex is the number of edges connected to a vertex or emanating from a vertex
+		- A graph is [[connected]] if you can get from any vertex to any other vertex by following some path of edges. A graph that is not connected can be thought of as two separate graphs drawn close together
+		- A graph which can be drawn (in the plane) without any edges crossing is called [[planar]]
+			- The graph shown in the example is planar
+	- Introduction to Graph Theory
+		- Using the graphs below, is there an Euler path? Is there an Euler circuit?
+		- Examples
+			- Left graph has an Euler path but not an Euler circuit
+			- Right graph has an Euler path but not an Euler circuit
+- Image
+	- Introduction to Graph Theory
+		- Let's look at some other uses of graphs
+			- Example 4.0.1: Al, Bob, Cam, Dan, and Euler are all members of a social networking website. The site allows members to be "friends" with each other. It turns out that AI and Cam are friends, as are Bob and Dan. Euler is friends with everyone. Represent this situation with a graph.
+				- Each person will be represented by a vertex and each friendship will be represented by an edge. That is, two vertices will be adjacent (there will be an edge between them) if and only if the people represented by those vertices are friends
+			- The left and right graphs shown are equivalent because we have the same vertices and edges. 
+				- The right one is just much neater
+	- Introduction to Graph Theory
+		- Example 4.0.2: Three houses must be connected to each of three utilities. What is a possible graph for this situation? It is possible to do this without any of the utility lines crossing?
+			- A graph which can be drawn (in the plane) without any edges crossing is called [[planar]]. Is this graph planar? 
