@@ -30,7 +30,7 @@ Reviewed: false
 		- Examples
 			- Left graph has an Euler path but not an Euler circuit
 			- Right graph has an Euler path but not an Euler circuit
-- Image
+- ![[Screenshot 2025-02-05 at 9.47.39 AM.png]]
 	- Introduction to Graph Theory
 		- Let's look at some other uses of graphs
 			- Example 4.0.1: Al, Bob, Cam, Dan, and Euler are all members of a social networking website. The site allows members to be "friends" with each other. It turns out that AI and Cam are friends, as are Bob and Dan. Euler is friends with everyone. Represent this situation with a graph.
@@ -40,3 +40,4 @@ Reviewed: false
 	- Introduction to Graph Theory
 		- Example 4.0.2: Three houses must be connected to each of three utilities. What is a possible graph for this situation? It is possible to do this without any of the utility lines crossing?
 			- A graph which can be drawn (in the plane) without any edges crossing is called [[planar]]. Is this graph planar? 
+				- #comment This question is not answered in the video. The attempt shown shows that the graph is not planar but it might be possible

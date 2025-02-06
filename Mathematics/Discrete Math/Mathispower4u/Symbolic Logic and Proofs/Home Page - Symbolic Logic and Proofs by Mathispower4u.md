@@ -8,12 +8,11 @@ tags:
 Reviewed: false
 ---
 - Complete
-	- 
-- Incomplete
 	- [[(1) Introduction to Propositional Logic and Truth Tables]]
 	- [[(2) Make Truth Tables for If (P and Q) Then (P or Q) and If (P or Q) Then (P and Q)]]
 	- [[(3) Make Truth Tables for P and (If Q Then P) and If (Not P) and (If Q Then P)]]
 	- [[(4) Make a Truth Table for If (Not P) Then (Q and R)]]
+- Incomplete
 	- [[(5) Introduction to Logically Equivalent Statements]]
 	- [[(6) Determining if Two Statements Are Equivalent Using a Truth Table]]
 	- [[(7) Deduction Rules - Modus Ponens and Modul Tollens]]
