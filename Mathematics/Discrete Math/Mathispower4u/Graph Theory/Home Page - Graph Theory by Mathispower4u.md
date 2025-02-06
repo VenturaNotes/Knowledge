@@ -8,9 +8,8 @@ tags:
 Reviewed: false
 ---
 - Complete
-	- 
-- Incomplete
 	- [[(1) Introduction to Graph Theory]]
+- Incomplete
 	- [[(2) The Definition of a Graph (Graph Theory)]]
 	- [[(3) Isomorphic Graphs]]
 	- [[(4) Subgraphs and Induced Subgraphs]]

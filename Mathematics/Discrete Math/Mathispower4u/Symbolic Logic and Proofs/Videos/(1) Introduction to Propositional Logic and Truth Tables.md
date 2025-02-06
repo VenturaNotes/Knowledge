@@ -3,4 +3,38 @@ Source:
   - https://www.youtube.com/watch?v=LUxVpXJlTmk
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-05 at 10.03.37 AM.png]]
+	- Propositional Logic: Truth Tables
+		- A [[proposition]] is simply a statement. Propositional logic studies the way statements can interact with each other. It is important to remember that propositional logic does not really care about the content of the statements. For example, in terms of [[propositional logic]], "if the moon is made of cheese, then basketballs are round," and "if spiders have eight legs, then Sam walks with a limp" are exactly the same. They are both implications: statements of the form, $P \to Q$
+		- Truth Tables
+			- Here's a question about playing the game Monopoly: If you get more doubles than any other player, then you will lose, or if you lose, then you must have bought the most properties. True or false? We will answer this question and won't need to know anything about Monopoly. Instead, we will look at the logical form of the statement
+			- We need to decide when the statement $(P \to Q) \lor (Q \to R)$ is true. for this to be true, either $P \to Q$ must be true or $Q \to R$ must be true (or both). Those are true if either P is false or Q is true (in the first case) and Q is false or R is true (in the second case). So- it gets complicated
+		- The only way for $P \to Q$ to be false is for P to be true and Q to be false.
+	- Propositional Logic: Truth Tables
+		- Enter [[truth table|truth tables]]. The idea is this: on each row, we list a possible combination of T's and F's (for true and false) for each of the [[sentential variables]], and then mark down whether the statement in question is true or false in that case. We do this for every possible combination of T's and F's. Then we can clearly see in which cases the statement is true or false. For complicated statements, we will first fill in values for each part of the statement, as a way of breaking up our task into smaller, more manageable pieces. Since the truth value of a statement is completely determined by the truth values of its parts and how they are connected, all you really need to know is the truth tables for each of the [[logical connectives]]. Here they are:
+			- [[Conjunction]] (P and Q)
+			- [[Disjunction]] (P or Q)
+			- [[Implication]] (if P then Q)
+			- [[Biconditional]] (P iff Q)
+	- Truth Conditions for [[connectives]]
+		- $P \land Q$ is true when both P and Q are true
+		- $P \lor Q$ is true when P or Q or both are true
+		- $P \to Q$ is true when P is false or Q is true or both
+		- $P \iff Q$ is true when P and Q are both true, or both false
+		- $\lnot P$ is true when P is false
+	- Propositional Logic: Truth Tables
+		- The truth table for negation looks like this:
+		- Make a truth table for the statement $\lnot P \lor Q$ 
+			- To fill in the final column, look only at the column for Q and the column for $\lnot P$ and use the rule for $\lor$, "or"
+		- From Truth Tables
+- ![[Screenshot 2025-02-05 at 10.08.09 AM.png]]
+	- Propositional Logic
+		- Example 3.1.2: Analyze the statement, "if you get more doubles than any other player you will lose, or if you lose you must have bought the most properties," using truth tables
+		- Represent the statement in symbols as $(P \to Q) \lor (Q \to R)$, where P is the statement "you get more doubles than any other player," Q is the statement "you will lose," and R is the statement "you must have bought the most properties"
+		- The truth table needs to contain 8 rows in order to account for every possible combination of truth and falsity among the three statements. Here is the full truth table:
+			- The first 3 columns are a complete listing of all possible combinations of T and F for the three statements
+			- The next 2 columns are determined by the values of P, Q, and R and the definition of implication
+			- The last column is determined by the values in the previous two columns and the definition of $\lor$, "or"
+		- Based on the last column, the monopoly statement is always true
+	- Propositional Logic
+		- The statement about monopoly is an example of a [[tautology]], a statement which is true on the basis of its logical form alone. Tautologies are always true, but they don't tell us much about the world. No knowledge about monopoly was required to determine that the statement was true.

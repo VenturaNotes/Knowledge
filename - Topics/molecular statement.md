@@ -1,3 +1,7 @@
+---
+aliases:
+  - molecular statements
+---
 ## Synthesis
 - 
 ## Source [^1]

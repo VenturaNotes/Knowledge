@@ -2915,7 +2915,6 @@ function updateReward(reward,multiplier)
 
   temp = sheet.getRange("T6").getValue()
 
-
   if (temp === ""){
     temp = 0;
   }
@@ -2929,7 +2928,9 @@ function updateReward(reward,multiplier)
 
 function calculateMultiplier() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  updateReward(sheet.getRange("Q10").getValue(),sheet.getRange("Q11").getValue() - new Date(1899, 11, 30));
+
+  var sheet2Reward = sheet.getRange("Q10").getValue();
+  var sheet2Multiplier = sheet.getRange("Q11").getValue() - new Date(1899, 11, 30);
 
   var initialDate = new Date(1899, 11, 30);
   var updateCell = false;
@@ -2972,6 +2973,10 @@ function calculateMultiplier() {
     sheet.getRange(6, 17).setValue(formatDuration2(sheet.getRange(lastRow, 8).getValue() - initialDate));
 
   }
+
+  // Placed at end of function as to not mess with "earliest time" formula
+  updateReward(sheet2Reward, sheet2Multiplier);
+
   //Needs to be here or potential error. 
   // Need to return variables level and handicap
   return [sheet.getRange(4, 17).getValue(),sheet.getRange(5, 17).getValue()];
