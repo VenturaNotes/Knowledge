@@ -9,7 +9,6 @@ Reviewed: false
 ---
 - Complete
 	- [[(1) Introduction to Graph Theory]]
-- Incomplete
 	- [[(2) The Definition of a Graph (Graph Theory)]]
 	- [[(3) Isomorphic Graphs]]
 	- [[(4) Subgraphs and Induced Subgraphs]]
@@ -19,6 +18,7 @@ Reviewed: false
 	- [[(8) Handshake Lemma Exercises - Possible Number of Friends]]
 	- [[(9) Largest Possible Number of Edges for Various Types of Graphs]]
 	- [[(10) Introduction to Trees and Properties of Trees]]
+- Incomplete
 	- [[(11) Introduction to Rooted Trees]]
 	- [[(12) Given a Rooted Tree, Determine Relationships]]
 	- [[(13) Every Tree is a Bipartite Graph]]

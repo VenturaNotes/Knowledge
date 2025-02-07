@@ -1,6 +1,6 @@
 ---
 aliases:
-  - multigraphs
+  - degree sum formula
 ---
 ## Synthesis
 - 

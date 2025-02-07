@@ -3,4 +3,24 @@ Source:
   - https://www.youtube.com/watch?v=qLM-errwHRY
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-06 at 12.34.43 PM.png]]
+	- Largest Number of Edges in a Graph
+		- What is the largest number of edges possible in a graph with 7 vertices?
+			- Degree sum
+			- $K_7$ can be said as "k seven" or "k sub-seven"
+			- When looking for largest, we want complete graph
+		- What is the largest number of edges possible in a bipartite graph with 7 vertices?
+			- Degree sum
+			- When looking for largest, we want complete bipartite graph
+			- The number of edges in $K_{1, 6}$ is 6 which is not the largest number possible
+		- What is the largest number of edges possible in a tree with 7 vertices?
+			- Degree sum
+			- In this case, it doesn't really matter which tree we sketch
+			- The number of edges in a tree with n vertices is always n-1 edges.
+	- [[Handshake Lemma]] (degree sum formula)
+		- In any graph, the sum of the degrees of vertices in the graph is always twice the number of edges
+		- A graph is complete if every pair of vertices is connected by one edge and only 1 edge
+		- A graph is bipartite if the vertices can be divided into two sets, A and B, with no two vertices in A adjacent and no two vertices in B adjacent. $K_{m, n}$, where |A| = m and |B| = n
+		- In a complete bipartite graph, each vertex in A is adjacent to every vertex in B
+		- A connected graph with no cycles is a [[tree]].
+			- Recall, a [[cycle]] is a path that starts and stops at the same vertex

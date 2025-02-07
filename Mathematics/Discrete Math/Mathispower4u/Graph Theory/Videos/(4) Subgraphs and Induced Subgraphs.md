@@ -3,4 +3,20 @@ Source:
   - https://www.youtube.com/watch?v=bQPbiy4KkBQ
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-06 at 12.55.59 AM.png]]
+	- Subgraphs
+		- [[Subgraph|subgraphs]]
+			- We say that $G' = (V', E')$ is a subgraph of G = (V, E), and write $G' \subseteq G$, provided $V' \subseteq V$ and $E' \subseteq E$
+				- $G' \subseteq G$  is read as $G'$ is a subgraph of $G$ 
+					- However for V' and E' would be a read as a subset 
+					- Still using subset notation for both
+				- $(V, E)$ is read as the ordered pair V, E
+			- We say that $G' = (V', E')$ is an [[induced subgraph]] of $G = (V, E)$ provided $V' \subseteq V$ and every edge in E whose vertices are still in $V'$ is also an edge in $E'$
+		- Think of a subgraph as the result of deleting some vertices and edges from the larger graph.
+		- For the subgraph to be an induced graph, we can still delete vertices, but now we only delete those edges that included the deleted vertices
+		- Notice that every induced subgraph is also an ordinary subgraph, but not conversely
+	- Subgraphs
+		- Example 4.1.4: Consider the graphs. Determine if $G_2, G_3$ and $G_4$ are subgraphs and induced subgraphs of $G_1$ 
+			- $G_2$ is a subgraph of $G_1$. $G_2$ is also an induced subgraph of $G_1$. Every edge in $G_1$ that connects vertices in $G_2$ is also an edge in $G_2$
+			- $G_3$ is subgraph of $G_1$. $G_3$ is not an induced subgraph of $G_1$. In $G_3$, the edge {a, b} is in $E_1$ but not $E_3$, even though vertices $a$ and $b$ are in $V_3$
+			- The graph $G_4$ is NOT a subgraph of $G_1$, even though it looks like all we did is remove vertex e. The reason is that $E_4$, we have the edge {c, f} but this is not an element of $E_1$, so we don't have the required $E_4 \subseteq E_1$. If $G_4$ is NOT a subgraph, then it can't be an induced subgraph.

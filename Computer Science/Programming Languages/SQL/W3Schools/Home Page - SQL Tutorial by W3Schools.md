@@ -65,11 +65,167 @@ SELECT * FROM Customers;
 		- `Country`
 	- A [[field (SQL)|field]] is a column in a table that is designed to maintain specific information about every [[record (SQL)|record]] in the table
 - A [[record (SQL)|record]], also called a row, is each individual entry that exists in a table. For example, there are 91 records in the above Customers table. A record is a horizontal entity in a table
-- A [[column (SQL)]] is a vertical entity in a table that contains all information associated with a specific field in a table
+- A [[column (SQL)|column]] is a vertical entity in a table that contains all information associated with a specific field in a table
 ### SQL Syntax
+- SQL Statements
+	- Most actions needed to perform on a database are done with SQL statements
+	- SQL statements consist of keywords that are easy to understand
+	- Below is an SQL statement that returns all records from a table named "Customers"
+		- `SELECT * FROM Customers;`
+		- ![[Screenshot 2025-02-06 at 9.37.03 AM.png]]
+- Database Tables
+	- A database most often contains one or more tables
+	- Each table is identified by a name (e.g. "Customers" or "Orders"), and contain records (rows) with data
+	- Will use the well-known Northwind sample database (included in [[MS Access]] and [[MS SQL Server]])
+- Below is a selection from the Customers table used in examples
+	- ![[Screenshot 2025-02-06 at 9.40.11 AM.png]]
+		- Contains five records (one for each customer)
+		- Seven columns
+- SQL keywords not case sensitive
+	- `select` =  `SELECT`
+- Some database systems require a semicolon at the end of each SQL statement
+	- Semicolons are the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server
+- Important SQL Commands
+	- `SELECT` - extracts data from a database
+	- `UPDATE` - updates data in a database
+	- `DELETE` - deletes data from a database
+	- `INSERT INTO` - inserts new data into a database
+	- `CREATE DATABASE` - creates a new database
+	- `ALTER DATABASE` - modifies a database
+	- `CREATE TABLE` - creates a new table
+	- `ALTER TABLE` - modifies a table
+	- `DROP TABLE` - deletes a table
+	- `CREATE INDEX` - creates an index (search key)
+	- `DROP INDEX` - deletes an index
+#### Quiz
+- Which SQL statement is used to select all records from a table named `Customers`?
+	- `SELECT * FROM Customers`
+- What is a [[table]] in a database?
+	- A structured set of data organized in rows and columns
+- Are SQL keywords case-sensitive?
+	- No
+- Why is a semicolon used at the end of SQL statements?
+	- To separate multiple SQL statements
 ### SQL Select
+- `SELECT` statement is used to select data from a database
+- Return data from the Customers table:
+	- `SELECT CustomerName,City FROM Customers;`
+	- ![[Screenshot 2025-02-06 at 9.53.56 AM.png]]
+- Syntax
+```SQL
+SELECT column1, column2 ...
+FROM table_name;
+```
+- Column1, column2 are the field names of the table you want to select data from
+- The `table_name` represents the name of the table you want to select data from
+- Can represent all columns from the Customers table
+	- `SELECT * FROM Customers;`
+#### Exercises
+- What is the purpose of the SQL SELECT statement?
+	- To select data from a database
+- Get all columns from Customers table
+	- `SELECT * FROM Customers;`
+- Statement selecting `City` column from `Customers` table
+	- `SELECT City FROM Customers`
+- Selecting `CustomerName` and `City` columns from a table named `Customers`
+	- SELECT CustomerName, City FROM Customers;
+- Select all columns from a table named `Customers`
+	- `SELECT * FROM Customers`
 ### SQL Select Distinct
+- `SELECT DISTINCT` statement is used to return only distinct (different) values
+- Selecting all different countries from `Customers` table
+	- `SELECT DISTINCT Country FROM Customers;`
+	- ![[Screenshot 2025-02-06 at 10.03.52 AM.png]]
+		- Just lists all the distinct countries from the table
+- In a table, a column may contain duplicate values and you only want to list the distinct values
+- Syntax
+```SQL
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+```
+- Omitting distinct will return "Country" value from all the records of the `Customers` table
+	- `SELECT country FROM Customers;`
+	- ![[Screenshot 2025-02-06 at 10.04.24 AM.png]]
+		- Gives all records of table just the name of the countries (but doesn't seem to show the record paired with it)
+- Count Distinct
+	- Return the number of different countries
+		- `SELECT COUNT(DISTINCT Country) FROM Customers;`
+			- The `COUNT(DISTINCT column_name)` is not supported in [[Microsoft Access]] databases
+			- #question is the return just a number?
+- Workaround for Count Distinct for Microsoft Access
+```SQL
+SELECT Count(*) AS DistinctCountries
+FROM (SELECT DISTINCT Country FROM Customers);
+```
+- This would 
+	- ![[Screenshot 2025-02-06 at 10.08.44 AM.png]]
+#### Exercises
+- Return list of all unique countries from a table named `Customers`?
+	- SELECT DISTINCT Country FROM Customers;
+- Select different values from `Country` column in the `Customers` table
+	- SELECT DISTINCT Country FROM Customers;
+- What does `SELECT Country FROM Customers` do?
+	- It would return all values, including duplicates, in the Country column
+- What does `SELECT COUNT(DISTINCT Country) FROM Customers;` do?
+	- Returns the number of different countries in the Customers table
+- When would you use `DISTINCT` more likely?
+	- To return unique values from a column that contains duplicates
 ### SQL Where
+- `WHERE` clause is used to filter records
+	- Used to extract only records that fulfill a specified condition
+- Selecting all customers from Mexico
+```SQL
+SELECT * FROM Customers
+WHERE Country='Mexico';
+```
+- Returned
+	- ![[Screenshot 2025-02-06 at 10.16.09 AM.png]]
+		- All of them have the cit `Mexico` column
+- Syntax
+```SQL
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
+- `WHERE` can be used in other statement aside from `SELECT` such as `UPDATE`, `DELETE`, etc.
+- Text Field vs Numeric Field
+	- SQL requires single quotes around text values (most database systems will also allow double quotes)
+	- However, numeric fields should not be enclosed in quotes
+- Example
+```SQL
+SELECT * FROM Customers
+WHERE CustomerID=1;
+```
+- Result
+	- ![[Screenshot 2025-02-06 at 10.18.33 AM.png]]
+- Operators in `WHERE` Clause
+	- You can use other operators than the = operator to filter the search
+- Example
+```SQL
+SELECT * FROM Customers
+WHERE CustomerID > 80;
+```
+- Would return 11 records where `CustomerID > 80`
+- Operators
+	- =
+		- `WHERE CustomerID = 80;`
+			- Returns records with CustomerID = 80
+	- >
+	- <
+	- >=
+	- <=
+	- <>
+		- Not equal. Note: In some versions of SQL this operator may be written as !=
+		- `WHERE Price <> 18;`
+			- Will not return a record where the price = 18
+	- BETWEEN
+		- Between a certain range
+		- `WHERE Price BETWEEN 50 AND 60;`
+			- Returns a record where the price is between 50 and 60
+	- LIKE
+		- Search for a pattern
+	- IN
+		- To specify multiple possible values for a column
 ### SQL Order By
 ### SQL And
 ### SQL Or

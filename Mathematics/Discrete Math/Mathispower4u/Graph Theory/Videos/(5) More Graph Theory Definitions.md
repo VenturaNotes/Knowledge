@@ -3,4 +3,29 @@ Source:
   - https://www.youtube.com/watch?v=C-O2ZTHuvdY
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-06 at 1.18.07 AM.png]]
+	- Graph Theory: Graph Definition
+		- Graph Definition
+			- A graph is an ordered pair G = (V, E) consisting of a nonempty set V (called the vertices) and a set E (called the edges) of two-element subsets of V
+		- Here we have a graph with four vertices (the letters a, b, c, d) and five edges (the pairs {a, b}, {a, c}, {b, c}, {b, d}, {c, d}).
+			- #question is a single point considered a graph?
+	- More Graph Theory Definitions
+		- [[Simple graphs]] have the property that no pair of vertices is connected more than once, and no vertex is connected to itself. This is because our definition for a graph says that the edges form a set of 2-element subsets of the vertices. Remember that it doesn't make sense to say a set contains an element more than once
+		- That said, there are times we want to consider double (or more) edges and single edge loops. For example, the "graph" we drew for the Bridges of Königsberg problem had double edges because there really are two bridges connecting a particular island to the near shore. We will call these objects [[multigraph|multigraphs]]. This is a good name: a [[multiset]] is a set in which we are allowed to include a single element multiple times.
+		- The graphs on the right are also [[connected]]. A [[connected graph]] is a graph in which we can get from any vertex to any other vertex by following some path of edges
+	- More Graph Theory Definitions
+		- A graph is not connected can be thought of as two separate graphs drawn close together. For example, the graph on the right is NOT connected because there is no path from a to b
+		- Vertices in a graph do not always have edges between them. A graph is complete if every pair of vertices is connected by one edge and only 1 edge. Since a graph is determined completely by which vertices are adjacent to which other vertices, there is only one complete graph with a given number of vertices. We give these a special name: $K_n$ is the complete graph on $n$ vertices
+			- #comment When we say each pair of vertices is only connected by one edge, this just means we don't have double edges. It still means though that each vertex is connected to every other vertex
+		- Each vertex in $K_n$ is adjacent to $n-1$ other vertices. We call the number of edges emanating from a given vertex the degree of that vertex. So every vertex in $K_n$ has degree $n-1$. How many edges does $K_n$ have? One might think the answer should be $n(n-1)$, since we count $n-1$ edges n times (once for each vertex). However, each edge is incident to 2 vertices, so we counted every edge exactly twice. Thus, there are $n(n-1)/2$ edges in $K_n$. Alternatively, we can say there are $C(n, 2)$ edges, since to draw an edge we must choose 2 of the $n$ vertices
+			- $K_n$ graph has $\frac {n(n-1)}{2}$ edges
+	- The [[Handshake Lemma]]
+		- In general, if we know the degrees of all the vertices in a graph, we can find the number of edges. The sum of the degrees of all vertices will always be twice the number of edges, since each edge adds to the degree of two vertices. Notice this means that the sum of the degrees of all vertices in any graph must be even!
+		- This is our first example of a general result about all graphs. It seems innocent enough, but we will use it to prove all sorts of other statements. So let's give it a name and state it formally
+		- Lemma 4.1.5 Handshake Lemma
+			- In any graph, the sum of the degrees of vertices in the graph is always twice the number of edges
+			- (A [[lemma]] is a mathematical statement that is primarily of importance in that it is used to establish other results).
+			- The handshake lemma is sometimes called the [[Handshake Lemma|degree sum formula]], and can be written symbolically as 
+				- $\Sigma_{v \in V} d(v) = 2e$ 
+					- The sum of the degrees of all vertices is equal to two times the number of edges
+			- here we are using the notation d(v) for degree of the vertex v

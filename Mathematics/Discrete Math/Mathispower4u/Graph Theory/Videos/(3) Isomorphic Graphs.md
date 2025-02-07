@@ -3,4 +3,29 @@ Source:
   - https://www.youtube.com/watch?v=9UbC7p18PDw
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-06 at 12.43.48 AM.png]]
+	- [[Isomorphic graphs]]
+		- Intuitively, graphs are isomorphic if they are basically the same, or better yet, if they are the same except for the names of the vertices. To make the concept of renaming vertices precise, we give the following definitions
+		- Isomorphic Graphs
+			- An [[isomorphism]] between two graphs $G_1$ and $G_2$ is a bijection f: $V_1 \to V_2$ between the vertices of the graphs such that {a, b} is an edge in $G_1$ if and only if {f(a), f(b)} is an edge of $G_2$
+			- Two graphs are [[isomorphic]] if there is an isomorphism between them. In this case we write $G_1 \cong G_2$ 
+				- This is read as $G_1$ is isomorphic to $G_2$ 
+				- This $\cong$ symbol is also used for congruence in geometry
+		- An isomorphism is simply a function which renames the vertices. It must be a [[bijection]] so every vertex gets a new name. These newly named vertices must be connected by edges precisely when they were connected by edges with their old names
+		- In the case when a function is both [[injection|one-to-one]] and [[surjection|onto]] (an injection and surjection), we say the function is a [[bijection]], or that the function is a bijective function
+	- Isomorphic Graphs
+		- Example 4.1.3 Decide whether the graphs $G_1$ = $(V_1, E_1)$ and $G_2$ = $(V_2, E_2)$ are equal or isomorphic
+			- The graphs are not equal since {a, d} $\in$ $E_1$ but {a, d} $\notin$ $E_2$. However, since both graphs contain the same number of vertices and same number of edges, they might be isomorphic (this is not enough in most cases, but it is a good start)
+	- Isomorphic Graphs
+		- We can try to build an isomorphism. Let's randomly state $f(a) = b$, $f(b) = c$, $f(c) = d$ and $f(d) = a$. This is definitely a bijection, but to make sure that the function is an isomorphism, we must make sure it respects the edge relation.
+			- For $f(a) = b$
+				- The function f maps the vertex of $a$ in $V_1$ to the vertex $b$ in $V_2$ 
+		- Under the proposed isomorphism, these become: (in picture)
+		- Thus, f is NOT an isomorphism. Not all hope is lost, however. Just because f is not an isomorphism does not mean that there is no isomorphism at all. We can try again. At this point it might be helpful to draw the graphs to see how they should matchup
+			- Recommended to always start by looking at the graphs to see how the vertices match up
+	- Isomorphic Graphs
+		- Build the bijection $g: V_1 \to V_2$ by defining
+			- There may be more than one isomorphism
+		- We should check that this really is an isomorphism. It is definitely a bijection, meaning one-to-one and onto. We must make sure that the edges are respected. The four edges in $G_1$ are: (in picture)
+		- Under the proposed isomorphism these become: (in picture) which are precisely the edges in $G_2$. Thus, g is an isomorphism, so $G_1 \cong G_2$ 
+			- #question Would we need to check if they're still in the set of $E_1$? 

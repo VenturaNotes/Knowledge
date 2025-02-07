@@ -3,4 +3,30 @@ Source:
   - https://www.youtube.com/watch?v=43d1tdR6-Vw
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-06 at 12.43.50 PM.png]]
+	- Properties of Trees
+		- Review
+			- A graph is connected if we can get from any vertex to any other vertex by following some path of edges
+			- A graph is not connected or disconnected can be thought of as two separate graphs drawn close together
+			- A [[cycle]] is a path that starts and stops at the same vertex
+		- A [[tree]] is a connected graph containing no cycles (acyclic)
+			- A [[forest]] is a disconnected graph containing no cycles. A forest is a disjoint collection of trees. Note that this means that a connected forest is a tree.
+		- Examples
+			- Not a tree and not a forest
+			- A tree and not a forest
+			- Not a tree and a forest
+	- Properties of Trees
+		- A [[tree]] is a connected graph with no cycles. Is there anything else we can say? It would be nice to have other equivalent conditions for a graph to be a tree. That is, we would like to know whether there are any graph theoretic properties that all trees have, and perhaps even that only trees have.
+		- To get a feel for the sorts of things we can say, we will consider three propositions and a [[corollary]] about trees
+		- The three graphs shown are trees as they're all connected and contain no cycles
+	- Properties of Trees
+		- The first proposition gives an alternate definition for a tree. That is, it gives necessary and sufficient conditions for a graph to be a tree
+		- Proposition 4.2.1: A graph T is a tree if and only if between every pair of distinct vertices of T, there is a unique path.
+		- Corollary 4.2.2: A graph F is a forest if and only if between any pair of vertices in F there is at most one (0 or 1) path.
+		- Proposition 4.2.3: Any tree with at least two vertices has at least two vertices of degree one
+		- Proposition 4.2.4: Let T be a tree with v vertices and e edges. Then e = v -1
+		- Examples
+			- Not a Tree
+			- Tree
+			- Forest
+		- Take a look at proofs in textbook

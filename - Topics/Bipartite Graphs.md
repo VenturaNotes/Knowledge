@@ -1,0 +1,4 @@
+---
+aliases:
+  - bipartite graph
+---
