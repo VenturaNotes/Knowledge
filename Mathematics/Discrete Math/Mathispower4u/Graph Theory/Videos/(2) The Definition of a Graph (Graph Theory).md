@@ -3,4 +3,28 @@ Source:
   - https://www.youtube.com/watch?v=hBZmet_alwE
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-06 at 12.24.08 AM.png]]
+	- [[Graph Theory]]: Graph Definition
+		- In the last lesson we stated graphs are made up of a collection of dots called [[Vertex|vertices]] and lines connecting those dots called [[edges]]. In this lesson we will provide a more formal definition.
+		- The way we avoid ambiguities in mathematics is to provide concrete and rigorous definitions. Crafting good definitions is not easy, but it is incredibly important. The definition is the agreed upon starting point from which all truths in mathematics proceed.
+		- We want our definitions to be precise and unambiguous, but it also must agree with our intuition for the objects we are studying. Here is the standard definition of a graph
+	- Graph Theory: [[Graph]] definition
+		- Graph Definition
+			- A graph is an ordered pair $G = (V, E)$ consisting of a nonempty set V (called the vertices) and a set E (called the edges) of two-element subsets of V.
+		- Here we have a graph with four vertices (the letters a, b, c, d) and five edges (the pairs {a, b}, {a, c}, {b, c}, {b, d}, {c, d}).
+		- Looking at sets and sets of 2-element sets is difficult to process. That is why we often draw a representation of these sets. We put a dot down for each vertex and connect two dots with a line precisely when those two vertices are one of the 2-element subsets in our set of edges. Thus, one way to draw the graph described above in on the right. 
+	- Graph Theory: Graph Definition
+		- However, we could also have drawn the graph differently. For example, either of these:
+		- We should be careful about what it means for two graphs to be "the same." Actually, given our definition, this is easy: Are the vertex sets equal? Are the edge sets equal? We know what it means for sets to be equal, and graphs are nothing but a pair of two special sorts of sets. The graphs are equal
+			- For all 3 graphs
+	- Graph Theory: Graph Definition
+		- Example 4.1.1: Are the graphs below equal?
+			- No. Here the vertex sets of each graph are equal, which is a good start. Also, both graphs have two edges. In the first graph, we have edges {a, b} and {b, c}, while in the second graph we have edges {a, c} and {c, b}. Now we do have {b, c} = {c, b}, so that is not the problem. The issue is that {a, b} $\ne$ {a, c}. Since the edge sets of the two graphs are not equal (as sets), the graphs are not equal (as graphs).
+			- Even if two graphs are not equal, they might be basically the same. The graphs in the previous example could be drawn like this:
+				- Graphs that are basically the same (but perhaps not equal) are called [[isomorphic]]
+- ![[Screenshot 2025-02-06 at 12.24.20 AM.png]]
+	- Graph Theory: Graph Definition
+		- Example 4.1.2: Consider the graphs
+			- The two graphs are NOT equal. It is enough to notice that $V_1 \ne V_2$ since $a \in V_1$ but $a \notin V_2$. However, both of these graphs consist of three vertices with edges connecting every pair of vertices. We can draw them as follows
+			- Clearly we want to say these graphs are basically the same, so while they are not equal, they will be [[isomorphic]]. We can rename the vertices of one graph and get the second graph as the result
+			- Graphs that are basically the same (but perhaps not equal) are called isomorphic

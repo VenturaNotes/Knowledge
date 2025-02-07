@@ -1,3 +1,7 @@
+---
+aliases:
+  - column
+---
 ## Synthesis
 - 
 ## Source [^1]

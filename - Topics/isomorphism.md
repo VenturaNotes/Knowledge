@@ -1,7 +1,3 @@
----
-aliases:
-  - multigraphs
----
 ## Synthesis
 - 
 ## Source [^1]

@@ -3,4 +3,32 @@ Source:
   - https://www.youtube.com/watch?v=i5QYTTioZu4
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-06 at 7.39.06 AM.png]]
+	- The [[Handshake Lemma]]
+		- Lemma 4.1.5 Handshake Lemma
+			- In any graph, the sum of the degrees of vertices in the graph is always twice the number of edges
+			- (A [[lemma]] is a mathematical statement that is primarily of importance in that it is used to establish other results).
+			- The handshake lemma is sometimes called the [[Handshake Lemma|degree sum formula]], and can be written symbolically as 
+				- $\Sigma_{v \in V} d(v) = 2e$ $\to$ $e = \frac{\Sigma d(v)}{2}$
+					- The sum of the degrees of all vertices is equal to two times the number of edges
+			- Here we are using the notation d(v) for degree of the vertex v
+		- One use for the lemma is to actually find the number of edges in a graph. To do this, you must be given the [[degree sequence]] for the graph (or be able to find it from other information). This is a list of every degree of every vertex in the graph, generally written in non-increasing order
+		- Example 4.1.6
+			- How many vertices and edges must a graph have if its degree sequence 
+	- The Handshake Lemma
+		- To find the number of vertices, we count the number of degrees given in the degree sequence. There are 7 degrees in the degree sequence. There are 7 vertices.
+		- To find the number of edges, we compute the degree sum: 4 + 4 + 3 + 3 + 3 + 2 + 1 = 20. Set the sum equal to $2e$ and solve for $e$
+			- $2e = 20 \to e = 10$
+			- There are 7 vertices and 10 edges
+		- The handshake lemma also tells us what is not possible
+	- The Handshake Lemma
+		- Example 4.1.7: At a recent math seminar, 9 mathematicians greeted each other by shaking hands. Is it possible that each mathematician shook hands with exactly 7 people at the seminar?
+			- It seems like this should be possible. Each mathematician chooses one person to not shake hands with. But this cannot happen. We are asking whether a graph with 9 vertices can have each vertex have degree 7.
+			- If such a graph existed, the sum of the degrees of the vertices would be $9*7 = 63$
+			- This would be twice the number of edges (handshakes) resulting in a graph with $\frac {63}{2} = 31.5$ edges. That is impossible. Thus at least one (in fact an odd number) of the mathematicians must have shaken hands with an even number of people at the seminar
+				- This is because the sum of the degree sequence must be even in order for the number of edges to be a whole number
+	- The Handshake Lemma
+		- We can generalize the previous example to get the following proposition (A proposition is a general statement in mathematics, similar to a theorem, although generally of lesser importance)
+			- [[Proposition]] 4.1.8. In any graph, the number of vertices with odd degree must be even
+				- This assures the number of edges is a whole number
+			- Proof: Suppose there were a graph with an odd number of vertices with odd degree. Then the sum of the degrees in the graph would be odd, which is impossible, by the handshake lemma. QED
