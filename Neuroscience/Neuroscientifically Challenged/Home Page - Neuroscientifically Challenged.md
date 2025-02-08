@@ -121,7 +121,7 @@ Reviewed: false
 - [[(111) 2-Minute Neuroscience - Melatonin]]
 - [[(112) 2-Minute Neuroscience - Alien Hand Syndrome]]
 - [[(113) 2-Minute Neuroscience - THC]]
-- [[(114) 2-Minute Neuroscience - CBD]]
+ - [[(114) 2-Minute Neuroscience - CBD]]
 - [[(115) 2-Minute Neuroscience - Corneal Reflex]]
 - [[(116) 2-Minute Neuroscience - Wernicke-Korsakoff Syndrome]]
 - [[(117) 2-Minute Neuroscience - Meningitis]]
