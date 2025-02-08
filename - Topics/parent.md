@@ -1,7 +1,3 @@
----
-aliases:
-  - spanning trees
----
 ## Synthesis
 - 
 ## Source [^1]
