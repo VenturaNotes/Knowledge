@@ -1,3 +1,7 @@
+---
+aliases:
+  - planar graphs
+---
 ## Synthesis
 - 
 ## Source [^1]

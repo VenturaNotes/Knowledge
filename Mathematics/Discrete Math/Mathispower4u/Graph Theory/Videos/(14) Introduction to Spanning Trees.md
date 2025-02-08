@@ -3,4 +3,24 @@ Source:
   - https://www.youtube.com/watch?v=fO-R1vwgsmw
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-08 at 9.38.24 AM.png]]
+	- [[Spanning Tree|Spanning Trees]]
+		- A tree is a connected graph containing no cycles (acyclic)
+			- A cycle is a path that starts and stops at the same vertex
+		- One of the advantages of trees is that they give us a few simple ways to travel through the vertices. If a connected graph is not a tree, then we can still use these traversal algorithms if we identify a subgraph that is a tree
+		- First, we should consider if this even makes sense. Given any connected graph G, will there always be a subgraph that is a tree? Well, this is straightforward. We could just take a single vertex of G. Recall that a single vertex is considered a tree.
+		- However, if we want to use this subgraph to tell us how to visit all vertices, then we want our subgraph to include all of the vertices. We call such a tree a spanning tree. It turns out that every connected graph has one (and usually many).
+		- Spanning Tree
+			- Given a connected graph G, a spanning tree of G is a subgraph of G which is a tree and includes all the vertices of G. Every connected graph has a spanning tree
+	- Spanning Trees
+		- Spanning tree. Given a connected graph G, a spanning tree of G is a subgraph of G which is a tree and includes all the vertices of G. Every connected graph has a spanning tree.
+			- Find two different spanning trees of the graph
+			- Methods for creating a spanning tree
+				- Cutting Down Method
+					- (1) Start by choosing any cycle in the graph G.
+					- (2) Remove one of the edges in the cycle
+					- (3) Repeat this process until there are no cycles left
+				- Building - Up Method
+					- (1) Select edges of graph G one at a time such that no cycles are created
+					- (2) Repeat this process until all the vertices are included
+	- #comment I believe both examples on right side are created using the cutting down method

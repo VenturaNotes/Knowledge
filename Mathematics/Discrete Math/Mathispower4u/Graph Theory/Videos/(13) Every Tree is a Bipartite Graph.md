@@ -3,4 +3,19 @@ Source:
   - https://www.youtube.com/watch?v=jcASssYm-Ns
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-08 at 9.26.12 AM.png]]
+	- Every [[tree]] is a [[Bipartite Graphs|bipartite graph]]
+		- Example 4.2.6 Explain and show why every tree is a bipartite graph
+			- To show that a graph is bipartite, we must divide the vertices into two sets A and B so that no two vertices in the same set are adjacent. Here are the steps.
+				- (1) Designate any vertex as the root. Put this vertex in Set A
+				- (2) Now put all of the children of the root in set B. None of these children are adjacent (they are siblings), so we are good so far
+				- (3) Now put into A every child of every vertex in B (i.e., every grandchild of the root)
+				- (4) Keep going until all vertices have been assigned one of the sets, alternating between A and B every "generation"
+			- That is, a vertex is in set B if and only if it is the child of a vertex in set A.
+	- Every tree is a Bipartite Graph
+		- The key to how we partitioned the tree in the example was to know which vertex to assign to a set next. We chose to visit all vertices in the same generation before any vertices of the next generation. This is usually called a [[breadth first search]] (we say "search" because you often traverse a tree looking for vertices with certain properties).
+		- In contrast, we could have just partitioned the tree in a different order
+			- (1) Start with the root, put it in A
+			- (2) Then look for one child of the root to put in B.
+			- (3) Then find a child of that vertex, put into A, and then find its child, put into B, and so on. When you get to a vertex with no children, retreat to its parent and see if the parent has any other children
+		- We travel as far from the root as possible, then backtrack until we can move forward again. This is called [[depth first search]]

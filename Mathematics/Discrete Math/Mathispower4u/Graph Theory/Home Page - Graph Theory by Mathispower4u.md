@@ -18,7 +18,6 @@ Reviewed: false
 	- [[(8) Handshake Lemma Exercises - Possible Number of Friends]]
 	- [[(9) Largest Possible Number of Edges for Various Types of Graphs]]
 	- [[(10) Introduction to Trees and Properties of Trees]]
-- Incomplete
 	- [[(11) Introduction to Rooted Trees]]
 	- [[(12) Given a Rooted Tree, Determine Relationships]]
 	- [[(13) Every Tree is a Bipartite Graph]]
@@ -27,6 +26,7 @@ Reviewed: false
 	- [[(16) Given a Degree Sequence, Determine if the Graph is a Tree]]
 	- [[(17) Given the Graph of a Rooted Tree List the Children, Parents and Siblings of All Vertices]]
 	- [[(18) Given a Tree, Does Changing the Root Change the Number of Children and Grandchildren.]]
+- Incomplete
 	- [[(19) Introduction to Planar Graphs and Euler's Formula]]
 	- [[(20) Non-Planar Graphs - Proving K5 and K33 are Non-Planar]]
 	- [[(21) Introduction Polyhedra Using Euler's Formula]]
