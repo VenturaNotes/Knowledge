@@ -3,9 +3,28 @@ Source:
   - https://www.youtube.com/watch?v=hxmhLrISzWo
 Reviewed: false
 ---
-- Image
+- ![[Screenshot 2025-02-09 at 10.15.57 AM.png]]
 	- [[Planar Graph|planar graphs]]
 		- When a connected graph can be drawn without any edges crossing, it is called planar. When a planar graph is drawn in this way, it divides the plane into regions called [[faces]]
 		- Even if a graph does not look like it is planar, it still might be. Perhaps we can redraw it in a way in which no edges cross. For example, the graph below is planar because it can be redrawn as the graph on the right.
 			- A planar graph is a connected graph that can be drawn without any edges crossing.
-		- 
+			- Notice: Both graphs have 5 vertices and the degrees of the vertices are the same. You may want to pause the video and check this
+		- The graphs are the same, so if one is planar, the other must be too. However, the original drawing of the graph was not a planar representation of the graph
+		- When a planar graph is drawn without edges crossing, the edges and vertices of the graph divide the plane into regions. We will call each region a [[face]]. The graph above has 3 faces (yes, we do include the "outside region as a face). The number of faces does not change no matter how we draw the graph (as long as we do so without the edges crossing), so it makes sense to ascribe the number of faces as a property of the planar graph
+	- Planar Graphs
+		- Warning: We can only count faces when the graph is drawn in a planar way. For example, consider these two representations of the same graph
+		- If we try to count faces using the graph on the left, we might say there are 5 faces (including the outside). But drawing the graph with a planar representation shows that in fact there are only 4 faces.
+		- There is a connection between the number of vertices (v), the number of edges (e) and the number of faces (f) in any connected planar graph. This relationship is called [[Euler's formula]]. 
+		- Euler's Formula for Planar Graphs. For any (connected) planar graph with v vertices, e edges and f faces, we have:
+			- $v - e + f = 2$ 
+	- Planar Graphs
+		- Why is Euler's formula true? One way to convince ourselves of its validity is to draw a planar graph step by step. Start with the graph $P_2$
+			- 2 vertices connected by one edge
+		- Any connected graph (besides just a single isolated vertex) must contain this subgraph. Now build up to the graph by adding edges and vertices. Each step will consist of either adding a new vertex connected by a new edge to part of the graph (so creating a new "spike") or by connecting two vertices already in the graph with a new edge (completing a circuit).
+			- Adding a new vertex connected by a new edge (spike)
+			- Connecting two vertices in the graph
+		- What do these "moves" do?
+	- Planar Graphs
+		- When adding the spike, the number of edges increases by 1, the number of vertices increases by 1, and the number of faces remains the same. but this means that $v-e+f$ does not change. Completing a circuit adds one edge, adds one face, and keeps the number of vertices the same. So again, $v-e+f$ does not change.
+		- Since we can build a graph using a combination of these two moves, and doing so never changes the quantity $v - e + f$, that quantity will be the same for all graphs. But notice that our starting graph $P_2$ has $v-=2, e = 1$ and $f=1$, so $v-e+f = 2$. This argument is essentially proof by induction.
+		- Non-planar graphs: Not all graphs are planar. If there are too many edges and too few vertices, then some of the edges will need to intersect. The smallest graph where this happens is $K_5$ 

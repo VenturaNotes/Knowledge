@@ -26,10 +26,10 @@ Reviewed: false
 	- [[(16) Given a Degree Sequence, Determine if the Graph is a Tree]]
 	- [[(17) Given the Graph of a Rooted Tree List the Children, Parents and Siblings of All Vertices]]
 	- [[(18) Given a Tree, Does Changing the Root Change the Number of Children and Grandchildren.]]
-- Incomplete
 	- [[(19) Introduction to Planar Graphs and Euler's Formula]]
 	- [[(20) Non-Planar Graphs - Proving K5 and K33 are Non-Planar]]
 	- [[(21) Introduction Polyhedra Using Euler's Formula]]
+- Incomplete
 	- [[(22) Prove There Are Exactly 5 Regular Polyhedra]]
 	- [[(23) Is a  Planar Graph Possible Given the Number of Vertices, Edges, and Faces.]]
 	- [[(24) Is a  Planar Graph Possible Given a Degree Sequence.]]

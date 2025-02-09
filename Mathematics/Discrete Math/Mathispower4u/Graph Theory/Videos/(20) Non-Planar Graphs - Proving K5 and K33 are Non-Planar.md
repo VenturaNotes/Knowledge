@@ -3,4 +3,19 @@ Source:
   - https://www.youtube.com/watch?v=7Zv-PK2uoSo
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-09 at 10.26.43 AM.png]]
+	- Nonplanar Graphs
+		- A [[planar graph]] is a connected graph that can be drawn without any edges crossing
+		- [[Non-Planar Graph|Non-planar graphs]]: Not all graphs are planar. If there are too many edges and too few vertices, then some of the edges will need to intersect. The smallest graph where this happens is $K_5$
+		- Theorem 4.3.1: $K_5$ is not planar
+			- Proof: The proof is by contradiction. Assume that $K_5$ is planar. Then the graph must satisfy Euler's formula for planar graphs. $K_5$ has 5 vertices and 10 edges, so we get $5-10 + f = 2$, which says that if the graph is drawn without any edges crossing, there would be $f = 7$ faces. Now consider how many edges surround each face. Each face must be surrounded by at least 3 edges. Let B be the total number of boundaries around all the faces in the graph. Thus, we have that 3f $\le$ B or B $\ge$ 3f. But also, $B = 2e$, since each edge is used as a boundary exactly twice. Putting this together, we get $Pf \le 2e$ or $2e \ge 3f$
+			- But this is impossible, since we have already determined that $f = 7$ and $e = 10$, and $21 \not \le 20$ or $20 \not \ge 21$. This is a contradiction so in fact $K_5$ is not planar. QED
+		- Euler's Formula for Planar Graphs. For any (connected) planar graph with v vertices, e edges and f faces, we have $v - e + f = 2$ 
+	- Nonplanar Graphs
+		- Non-planar Graphs: Not all graphs are planar. If there are too many edges and too few vertices, then some of the edges will need to intersect.
+			- The other simplest graph which is not planar is $K_{3, 3}$
+			- Proving that $K_{3,3}$ is not planar answers the houses and utilizes puzzle: It is not possible to connect each of three houses to each of three utilities without the lines crossing
+		- Theorem 4.3.2: $K_{3, 3}$ is not planar
+		- Proof
+			- Again, we proceed by contradiction. Suppose $K_{3,3}$ is planar. The graph has $v = 6$ vertices and $e = 9$ edges. Using Euler's formula 6 - 9 + f = 2, there will be f = 5 faces
+			- Let B be the number of boundaries surround these 5 faces. Since each edge is used as a boundary twice, we have B = 2e. Also, since each face is surrounded by 4 or more boundaries, B $\ge$ 4f. We know this is true because $K_{3, 3}$ is bipartite, so does not contain any 3-edge cycles since no two edges are adjacent. Thus $4f \le 2e$. But with $f = 5$ and $e = 9$ this would say that $20 \le 18$, which is clearly false. Thus $K_{3, 3}$ is not planar. QED
