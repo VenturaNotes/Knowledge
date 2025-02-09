@@ -1,7 +1,3 @@
----
-aliases:
-  - non-planar graphs
----
 ## Synthesis
 - 
 ## Source [^1]

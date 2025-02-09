@@ -224,14 +224,238 @@ WHERE CustomerID > 80;
 			- Returns a record where the price is between 50 and 60
 	- LIKE
 		- Search for a pattern
+		- `WHERE City LIKE 's%'`
+			- This just means find any City that starts with "s"
 	- IN
 		- To specify multiple possible values for a column
+		- `WHERE City IN ('Paris','London');`
+			- Returns the records with `London` and `Paris` in them
+#### Exercises
+- What is the purpose of the SQL WHERE clause?
+	- To filter records that meet a specified condition
+- Which of the following SQL statements would return all customers from 'Mexico'?
+	- SELECT * FROM Customers WHERE Country='Mexico';
+- Select all records where the City column has the value "Berlin".
+	- `SELECT * FROM Customers`
+	- `WHERE City = 'Berlin';`
+- Select all records where the CustomerID column has the value 32.
+	- `SELECT * FROM Customers`
+	- `WHERE CustomerID = 32;`
+- How should text values be enclosed in the SQL WHERE clause?
+	- With Single Quotes
+		- #question Would double quotes work?
+- Drag and drop to select all customers with a CustomerID greater than 50.
+	-  `SELECT * FROM Customers`
+	- `WHERE CustomerID > 50;`
+
 ### SQL Order By
+- `ORDER BY` keyword is used to sort the result-set in ascending or descending order
+- Example
+```SQL
+SELECT * FROM Products
+ORDER BY Price;
+```
+- This will sort the records in ascending order (from lowest to highest) in terms of `Price`
+Syntax
+```SQL
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+```
+- DESC
+	- The `ORDER BY` keyword sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword
+- Example
+```SQL
+SELECT * FROM Products
+ORDER BY Price DESC;
+```
+- Above will sort highest to lowest
+```SQL
+SELECT * FROM Products
+ORDER BY ProductName;
+```
+- For string values, the `ORDER BY` keyword will order alphabetically
+	- Using `ORDER BY ProductName DESC;` will sort products in reverse order
+#### ORDER BY Several Columns
+```SQL
+SELECT * FROM Customers
+ORDER BY Country, CustomerName;
+```
+- Orders by Country and if some rows have the same country, it will order them based on CustomerName
+```SQL
+SELECT * FROM Customers
+ORDER BY Country ASC, CustomerName DESC;
+```
+- Sorts country by ascending order and then sorts `CustomerName` in descending order if 2 records have the same country name
+
+#### Exercises
+- What is the purpose of the SQL ORDER BY keyword?
+	- To sort records in ascending or descending order
+- Which SQL statement sorts products from highest to lowest price?
+	- SELECT * FROM Products ORDER BY Price DESC;
+- Select all records from the Customers table, sort the result alphabetically by the column City.
+	- `SELECT * FROM Customers`
+	- `ORDER BY City;`
+- Select all records from the `Customers` table, sort the result _reversed_ alphabetically by the column `City`.
+	-  `SELECT * FROM Customers`
+	- `ORDER BY City DESC;
+- Select all records from the `Customers` table, sort the result alphabetically, first by the column `Country`, then, by the column `City`.
+	-  `SELECT * FROM Customers`
+	- `ORDER BY County, City;
+- In the SQL `ORDER BY` clause, what is the default sorting order if `ASC` or `DESC` is not specified?
+	- Ascending
 ### SQL And
+- `WHERE` clause can contain one or many [[AND (SQL)|AND]] operators
+- `AND` operator used to filter records based on more than one condition, like if you want to return all customers from Spain that starts with the letter `G`
+```SQL
+SELECT *
+FROM Customers
+WHERE Country = 'Spain' AND CustomerName LIKE 'G%';
+```
+- Select all customers from Spain that starts with the letter 'G':
+Syntax
+```SQL
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+```
+- #comment seems like `SELECT` and `FROM` can start on different lines
+- And Operator
+	- Displays a record if all the conditions are true
+- Or Operator
+	- Displays a record if any of the conditions are true
+```SQL
+SELECT * FROM Customers
+WHERE Country = 'Germany'
+AND City = 'Berlin'
+AND PostalCode > 12000;
+```
+- Returns records where Country is Germany, City is Berlin, and PostalCode > 12000
+```SQL
+SELECT * FROM Customers
+WHERE Country = 'Spain' AND (CustomerName LIKE 'G%' OR CustomerName LIKE 'R%');
+```
+- Can combine `AND` and `OR` operators ^sy1rb1
+	- Here, we select customers from Spain that starts with either `G` or `R`
+	- Without parenthesis
+		- Will select customers from Spain that Start with G + Customers that star with R (regardless of country value)
+
+#### Exercises
+- (1) Which SQL keyword is used to filter records based on multiple conditions?
+	- AND
+- (2) What will this SQL query return?
+```SQL
+SELECT * FROM Customers
+WHERE Country = 'Spain'
+AND CustomerName LIKE 'G%';
+```
+- All customers from Spain whose names start with 'G'
+- (3) What result will this query return?
+```SQL
+SELECT * FROM Customers
+WHERE Country = 'Germany'
+AND City = 'Berlin' AND PostalCode > 12000;
+```
+- Customers from Germany in Berlin with a PostalCode over 12000
+![[Screenshot 2025-02-09 at 2.39.50 PM.png]]
 ### SQL Or
+- `WHERE` clause can contain one or more `OR` operators
+```SQL
+SELECT *
+FROM Customers
+WHERE Country = 'Germany' OR Country = 'Spain';
+```
+ - `OR` operator is used to filter records based on more than one condition, like if you want to return all customers from Germany but also those from Spain
+Syntax
+```SQL
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;
+```
+- The `OR` operator displays a record if _any_ of the conditions are TRUE.
+```SQL
+SELECT * FROM Customers
+WHERE City = 'Berlin' OR CustomerName LIKE 'G%' OR Country = 'Norway';
+```
+- At least one condition must be true
+	- City is Berlin, CustomerName starts with G, or Country is Norway
+- Can combine "AND" and OR (found [[Home Page - SQL Tutorial by W3Schools#^sy1rb1|here]] )
+
+#### Exercises
+![[Screenshot 2025-02-09 at 2.45.40 PM.png]]
+
 ### SQL Not
+- The [[NOT (SQL)|NOT]] operator is used in combination with other operators to give the opposite result, also called the negative result.
+```SQL
+SELECT * FROM Customers
+WHERE NOT Country = 'Spain';
+```
+- Returns customers not from Spain
+	- The NOT operator can be used with comparison and/or logical operators
+```SQL
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
+```
+- Syntax
+```SQL
+SELECT * FROM Customers
+-- WHERE CustomerName NOT LIKE 'A%';
+-- WHERE CustomerID NOT BETWEEN 10 AND 60;
+-- WHERE City NOT IN ('Paris', 'London');
+-- WHERE NOT CustomerID > 50;
+-- WHERE NOT CustomerId < 50;
+```
+- Selects customers that doesn't start with A
+- Selects customers not between 10 and 60
+- Selects customers not from Paris or London
+- Selects customers not greater than 50
+	- !> would give the same result
+- Selects customers not less than 
+	- !< gives same result
+#### Exercises
+![[Screenshot 2025-02-09 at 2.55.52 PM.png]]
 ### SQL Insert Into
+- `INSERT INTO` statement is used to insert new records in a table
+- Possible to write in two ways
+```SQL
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+```
+- (1) 1. Specify both the column names and the values to be inserted:
+```SQL
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
+```
+- (2) If adding values for all the columns of the table, you do not need to specify the column names in the SQL query. However, make sure the order of the values is in the same order as the columns in the table
+```SQL
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+```
+- Result
+	- ![[Screenshot 2025-02-09 at 2.58.32 PM.png]]
+	- Notice that `CustomerID` column is an auto-increment field and will be generated automatically when a new record is inserted into the table
+```SQL
+INSERT INTO Customers (CustomerName, City, Country)
+VALUES ('Cardinal', 'Stavanger', 'Norway');
+```
+- Inserts data into specific columns
+	- ![[Screenshot 2025-02-09 at 2.59.33 PM.png]]
+	- Seems to make the columns without anything added `null`
+```SQL
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES
+('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway'),
+('Greasy Burger', 'Per Olsen', 'Gateveien 15', 'Sandnes', '4306', 'Norway'),
+('Tasty Tee', 'Finn Egan', 'Streetroad 19B', 'Liverpool', 'L1 0AA', 'UK');
+```
+- Inserting multiple rows
+	- ![[Screenshot 2025-02-09 at 3.00.15 PM.png]]
+#### Exercises
+![[Screenshot 2025-02-09 at 3.03.37 PM.png]]
+
 ### SQL Null Values
+
 ### SQL Update
 ### SQL Delete
 ### SQL Select Top

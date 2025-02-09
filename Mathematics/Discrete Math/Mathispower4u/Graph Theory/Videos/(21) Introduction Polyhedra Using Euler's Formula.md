@@ -3,4 +3,31 @@ Source:
   - https://www.youtube.com/watch?v=dh5mE1UEVbs
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-09 at 11.23.37 AM.png]]
+	- [[Polyhedra]]
+		- Another area of mathematics where we might have heard the terms "vertex," "edge", and "face" is [[geometry]]. A polyhedron is a geometric solid made up of flat polygonal faces joined at edges and vertices. We are especially interested in [[convex]] polyhedra, which means that any line segment connecting two points on the interior of the polyhedron must be entirely contained inside the polyhedron
+		- The vertices, edges, and faces of a cube satisfy Euler's formula for planar graphs. Notice that since $v-e+f = 8-12+6=2$, This is not a coincidence. We can represent a cube as a planar graph by projecting the vertices and edges onto the plane. One such projection looks like this
+			- $v = 8$ vertices
+			- $e = 12$ edges
+			- $f = 6$ faces
+		- Euler's Formula for planar graphs. For any (connected) planar graph with v vertices, e edges and f faces, we have:
+			- $v - e + f = 2$ 
+	- Polyhedra
+		- In fact, every [[convex polyhedron]] can be projected onto the plane without edges crossing. Think of placing the polyhedron inside a sphere, with a light at the center of the sphere. The edges and vertices of the polyhedron cast a shadow onto the interior of the sphere. We can then cut a hole in the sphere in the middle of one of the projected faces and "stretch" the sphere to lie down flat on the plane. The face that was punctured becomes the "outside" face of the planar graph.
+		- The point is, we can apply what we know about graphs (in particular planar graphs) to convex polyhedra. Since every convex polyhedron can be represented as a planar graph, we see that Euler's formula for planar graphs holds for all convex polyhedra as well. We also can apply the Handshake lemma. For example, we know that there is no convex polyhedron with 11 vertices all of degree 3. The degree sum is $11*3 = 33$. $2e = 33 \to e = \frac {33}{2}$. This is not possible
+		- Euler's Formula for Planar Graphs
+		- Lemma 4.1.5 Handshake Lemma (degree sum formula)
+	- Polyhedra
+		- Example
+			- Is there a convex polyhedron consisting of three triangles and six pentagons?
+				- How many edges would such polyhedron have?
+				- The triangles would contribute a total of $3*3 = 9$ edges, and the pentagons would contribute $6*5 = 30$ edges. However, this counts each edge twice (as each edge borders exactly two faces)
+				- This is not possible since the number of edges must be a whole number. There is no such polyhedron
+	- Polyhedra
+		- Example
+			- Is there a convex polyhedron consisting of three triangles and six pentagons and five heptagons (7-sided polygons)?
+				- How many edges would such polyhedron have?
+				- However, this counts each edge twice (as each edge borders exactly two faces)
+				- How many vertices would such polyhedron have? Using. Euler's formula
+			- But now use the vertices to count the edges again. Each vertex must have degree at least three (that is, each vertex joins at least three faces since the interior angle of all the polygons must be less than 180$\degree$), so the sum of the degrees of vertices is at least $3v = 3(25) = 75$. Since the sum of the degrees must be exactly twice the number of edges (Handshake lemma), we have $2e \ge 75 \to e \ge \frac {75}{2} = 37.5$. 
+			- This says that there are strictly more than 37 edges. Again, there is no such polyhedron.
