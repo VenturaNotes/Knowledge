@@ -455,21 +455,685 @@ VALUES
 ![[Screenshot 2025-02-09 at 3.03.37 PM.png]]
 
 ### SQL Null Values
+- A field with a NULL value is a field with no value
+- If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value.
+- A field with a NULL value is one that has been left blank during record creation!
+- Not possible to test for NULL values with [[comparison operator|comparison operators]] (=, <, or <>)
+	- Will use `IS NULL` and `IS NOT NULL` operators instead
+```SQL
+SELECT column_names
+FROM table_name
+-- WHERE column_name IS NULL;
+-- WHERE _column_name_ IS NOT NULL;
+-- One or the other above
+```
+- Syntax
+- The `IS NULL` operator is used to test for empty values (NULL values).
+	- Always use `IS NULL` to look for NULL values
+- To test non-empty values
+	- `WHERE Address IS NOT NULL`
+#### Exercises
+![[Screenshot 2025-02-09 at 5.55.57 PM.png]]
 
 ### SQL Update
+- The UPDATE statement is used to modify the existing records in a table.
+```SQL
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+- The WHERE clause specifies which record(s) that should be updated. If you omit the WHERE clause, all records in the table will be updated!
+```SQL
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;
+```
+- Updates first customer with new contact and city
+```SQL
+UPDATE Customers
+SET ContactName='Juan'
+WHERE Country='Mexico';
+```
+- Updates multiple records
+	- It is the `WHERE` clause that determines how many records will be updated
+	- All records where country is "Mexico" will update the contact name to "Juan"
+	- Without the `WHERE`clause, all records will update the `ContactName` to `Juan`
+#### Exercises
+![[Screenshot 2025-02-09 at 6.04.31 PM.png]]
+
 ### SQL Delete
+- The [[DELETE (SQL)|DELETE]] statement is used to delete existing records in a table.
+```SQL
+DELETE FROM table_name WHERE condition;
+```
+-  The WHERE clause specifies which record(s) should be deleted. If you omit the WHERE clause, all records in the table will be deleted!
+```SQL
+DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+```
+- Deletes the customer `Alfreds Futterkiste` from the table
+```SQL
+DELETE FROM table_name;
+```
+- Delete all records
+	- It is possible to delete all rows in a table without deleting the table. This means that the table structure, attributes, and indexes will be intact
+	- Above shows the syntax. Below shows example
+```SQL
+DELETE FROM Customers;
+```
+- This will delete all rows in the "Customers" table, without deleting the table for example
+```SQL
+DROP TABLE Customers;
+```
+- Deletes the table completely
+	- [[DROP TABLE (SQL)|DROP TABLE]]
+#### Exercises
+![[Screenshot 2025-02-10 at 6.12.58 AM.png]]
 ### SQL Select Top
+```SQL
+-- Not all database systems support SELECT TOP
+SELECT TOP 3 * FROM Customers;
+
+-- MySQL
+SELECT * FROM Customers  
+LIMIT 3;
+
+-- Oracle
+SELECT * FROM Customers  
+FETCH FIRST 3 ROWS ONLY;
+
+-- 
+-- Syntax of others Below
+--
+
+-- SQL Server / MS Access Syntax
+SELECT TOP number|percent column_name(s)
+FROM table_name
+WHERE condition;
+
+-- MySQL Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+LIMIT number;
+
+-- Oracle 12 Syntax
+SELECT column_name(s)
+FROM table_name
+ORDER BY column_name(s)
+FETCH FIRST number ROWS ONLY;
+
+-- Older Oracle Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE ROWNUM <= number;
+
+-- Older Oracle Syntax (with ORDER BY)
+SELECT *
+FROM (SELECT column_name(s) FROM table_name ORDER BY column_name(s))
+WHERE ROWNUM <= number;
+```
+- The [[SELECT TOP (SQL)|SELECT TOP]] clause is used to specify the number of records to return.
+	- Useful on large tables with thousands of records. Returning a large number of records can impact performance.
+- For top example, select only the first 3 records of the Customers table:
+	- Not all database systems support `SELECT TOP` clause
+		- [[MySQL]] supports the LIMIT clause to select a limited number of records
+		- [[Oracle]] uses `FETCH FIRST n ROWS ONLY` and `ROWNUM`
+```SQL
+-- SQL Server and MS Access
+SELECT TOP 50 PERCENT * FROM Customers;
+
+-- Oracle
+SELECT * FROM Customers
+FETCH FIRST 50 PERCENT ROWS ONLY;
+```
+- Selects the first 50% of the records from "Customers" table
+```SQL
+-- SQL SERVER / MS Access
+SELECT TOP 3 * FROM Customers
+WHERE Country='Germany';
+
+-- MySQL
+SELECT * FROM Customers  
+WHERE Country='Germany'  
+LIMIT 3;
+
+-- Oracle
+SELECT * FROM Customers  
+WHERE Country='Germany'  
+FETCH FIRST 3 ROWS ONLY;
+```
+- Selects first 3 records from "Customers" table where the country is "Germany"
+```SQL
+-- SQL Server / MS Access
+SELECT TOP 3 * FROM Customers  
+ORDER BY CustomerName DESC;
+
+-- MySQL
+SELECT * FROM Customers
+ORDER BY CustomerName DESC
+LIMIT 3;
+
+-- Oracle
+SELECT * FROM Customers
+ORDER BY CustomerName DESC
+FETCH FIRST 3 ROWS ONLY;
+```
+- [[ORDER BY (SQL)|ORDER BY]] keyword
+	- Sort table reverse alphabetically and then return the first 3 records
+		- #comment Essentially retrieves customers at end of alphabet
+
+#### Exercises
+![[Screenshot 2025-02-10 at 8.08.20 AM.png]]
 ### SQL Aggregate Functions
+- An [[aggregate function]] is a function that performs a calculation on a set of values, and returns a single value.
+- Aggregate functions are often used with the GROUP BY clause of the SELECT statement. The GROUP BY clause splits the result-set into groups of values and the aggregate function can be used to return a single value for each group.
+- Most Common SQL aggregate functions
+	- [[MIN() (SQL)|MIN()]] - returns the smallest value within the selected column
+	- [[MAX() (SQL)|MAX()]] - returns the largest value within the selected column
+	- [[COUNT() (SQL)|COUNT()]] - returns the number of rows in a set
+	- [[SUM() (SQL)|SUM()]] - returns the total sum of a numerical column
+	- [[AVG() (SQL)|AVG()]] - returns the average value of a numerical column
+- Aggregate functions ignore null values (except for `COUNT())
 ### SQL Min and Max
+- The [[MIN() (SQL)|MIN()]] function returns the smallest value of the selected column.
+- The [[MAX() (SQL)|MAX()]] function returns the largest value of the selected column.
+```SQL
+-- Lowest Price in column
+SELECT MIN(Price)  
+FROM Products;
+
+-- Highest price in Column
+SELECT MAX(Price)  
+FROM Products;
+
+-- Syntax for MIN
+SELECT MIN(_column_name_)  
+FROM _table_name_  
+WHERE _condition_;
+
+-- Syntax for MAX
+SELECT MAX(_column_name_)  
+FROM _table_name_  
+WHERE _condition_;
+```
+- Examples to find minimum and maximum prices as well as showing syntax
+```SQL
+SELECT MIN(Price) AS SmallestPrice
+FROM Products;
+```
+- Using Min or Max will not return a column with a descriptive name. Must use the [[AS (SQL)|AS]] keyword to give column a descriptive name
+	- ![[Screenshot 2025-02-10 at 8.18.50 AM.png|300]]
+		- With `AS` and without `AS`
+```SQL
+SELECT MIN(Price) AS SmallestPrice, CategoryID
+FROM Products
+GROUP BY CategoryID;
+```
+- This returns the smallest price for each category in the products table
+	- ![[Screenshot 2025-02-10 at 8.19.48 AM.png|400]]
+		- Select the minimum price from the products table from each group based on their CategoryID
+#### Exercises
+![[Screenshot 2025-02-10 at 8.22.44 AM.png]]
+
 ### SQL Count
+```SQL
+-- Total number of rows in Products table
+SELECT COUNT(*)
+FROM Products;
+
+-- Syntax
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
+```
+- The [[COUNT() (SQL)|COUNT()]] function returns the number of rows that matches a specified criterion.
+```SQL
+-- Find number of products for ProductName column and NULL values not counted
+SELECT COUNT(ProductName)
+FROM Products;
+
+-- Find products where Price is higher than 20
+SELECT COUNT(ProductID)  
+FROM Products  
+WHERE Price > 20;
+
+-- Ignore duplicates with DISTINCT keyword. 
+-- If DISTINCT specified, rows with the same value for specified colum will be counted as one
+-- Shows how many different prices there are in the Products table
+SELECT COUNT(DISTINCT Price)  
+FROM Products;
+
+-- Returns number of records and specifes column name using `AS`
+SELECT COUNT(*) AS [Number of records]  
+FROM Products;
+
+-- Returns number of records for each category in Products Table
+SELECT COUNT(*) AS [Number of records], CategoryID  
+FROM Products  
+GROUP BY CategoryID;
+
+```
+- [[DISTINCT (SQL)|DISTINCT]]
+- For last example
+	- ![[Screenshot 2025-02-10 at 8.29.10 AM.png]]
+#### Exercises
+![[Screenshot 2025-02-10 at 8.31.49 AM.png]]
 ### SQL Sum
+```SQL
+-- Returns sum of all Quantity fields in the OrderDetails table
+SELECT SUM(Quantity)
+FROM OrderDetails;
+
+-- Syntax
+SELECT SUM(column_name)
+FROM table_name
+WHERE condition;
+
+-- Return sum of the `Quantity` field for the product with ID 11
+SELECT SUM(Quantity)
+FROM OrderDetails
+WHERE ProductId = 11;
+
+-- Using alias (naming the column total) using `AS` keyword
+SELECT SUM(Quantity) AS total
+FROM OrderDetails;
+
+-- Returns quantity for each OrderID in the OrderDetails table
+SELECT OrderID, SUM(Quantity) AS [Total Quantity]
+FROM OrderDetails
+GROUP BY OrderID;
+
+-- SUM() can also be an expression
+-- Multiplying each quantity here by 10
+SELECT SUM(Quantity * 10)
+FROM OrderDetails;
+```
+- The [[SUM() (SQL)|SUM()]] function returns the total sum of a numeric column.
+```SQL
+SELECT SUM(Price * Quantity)
+FROM OrderDetails
+LEFT JOIN Products ON OrderDetails.ProductID = Products.ProductID;
+```
+- Joining `OrderDetails` table with `Products` table and summing to find the total price of the products
+	- Will learn about Joins later
+	- #question I don't understand this one
+#### Exercises
+![[Screenshot 2025-02-10 at 10.12.32 AM.png]]
 ### SQL Avg
+```SQL
+-- Finding aveare price of all products (NULL value ignored)
+SELECT AVG(Price)
+FROM Products;
+
+-- Syntax
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition;
+
+-- Return average price of products in category 1
+SELECT AVG(Price)
+FROM Products
+WHERE CategoryID = 1;
+
+-- Give AVG column a name using `AS` keyword
+SELECT AVG(Price) AS [average price]
+FROM Products;
+
+-- Retrun products with higeher price than average price 
+-- with AVG() function in a sub query
+SELECT * FROM Products
+WHERE price > (SELECT AVG(price) FROM Products);
+
+-- Return average price for each category in the products table
+SELECT AVG(Price) AS AveragePrice, CategoryID
+FROM Products
+GROUP BY CategoryID;
+```
+- The `AVG()` function returns the average value of a numeric column.
+	- #question Does doing the subquery mean it's calculated once or multiple times?
+
+#### Exercises
+![[Screenshot 2025-02-10 at 10.18.10 AM.png]]
+
 ### SQL Like
+```SQL
+-- Select all customers that start with "a"
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%';
+
+-- Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;
+```
+- The `LIKE` operator is used in a `WHERE` clause to search for a specified pattern in a column.
+- There are two wildcards often used in conjunction with the `LIKE` operator:
+	- The percent sign `%` represents zero, one, or multiple characters
+	- The underscore sign `_` represents one, single character
+```SQL
+-- Return customers from city that starts with L, followed by a wildcard character, then 'nd' and then two wildcard characters
+SELECT * FROM Customers  
+WHERE city LIKE 'L_nd__';
+```
+- The `_` wildcard represents a single character
+	- It can be any character or number, but each `_` represents one, and only one, character.
+```SQL
+-- Return all customers from a city that _contains_ the letter 'L':
+SELECT * FROM Customers
+WHERE city LIKE '%L%';
+```
+- The % wildcard represents any number of characters, even zero characters.
+```SQL
+-- Return customers that start with 'La'
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'La%';
+
+-- Return customers whose name starts with 'a' or 'b'
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%' OR CustomerName LIKE 'b%';
+```
+- To return records that starts with a specific letter or phrase, add the % at the end of the letter or phrase.
+	- #comment Solves the 'starts with' type of problems
+	- You can also combine any number of conditions using `AND` or `OR` operators.
+```SQL
+-- Returns customers that ends with 'a'
+SELECT * FROM Customers  
+WHERE CustomerName LIKE '%a';
+
+-- Return customers that start with 'b' and ends with 's'
+SELECT * FROM Customers  
+WHERE CustomerName LIKE 'b%s';
+```
+- To return records that ends with a specific letter or phrase, add the `%` at the beginning of the letter or phrase.
+	- Can also combine 'starts with' and 'ends with'
+```SQL
+-- Return all customers that contains the phrase 'or'
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%or%';
+
+-- Return customers that start with a and at least 3 characters in length
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a__%';
+
+-- Return customers with 'r' in second position
+SELECT * FROM Customers  
+WHERE CustomerName LIKE '_r%';
+
+-- Return all customers from Spain
+SELECT * FROM Customers
+WHERE Country LIKE 'Spain';
+```
+- To return records that contains a specific letter or phrase, add the `%` both before and after the letter or phrase.
+	- #comment Solves the 'contains' problem
+- Wildcard combinations also possible
+	- #comment without wildcard such as `WHERE Country LIKE 'Spain'` is probably equivalent to `WHERE Country = 'Spain'`
+#### Exercises
+![[Screenshot 2025-02-10 at 10.33.35 AM.png]]
 ### SQL Wildcards
+```SQL
+-- Returns all customers that start with the letter a
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%';
+```
+- A [[wildcard character]] is used to substitute one or more characters in a string.
+- Wildcard characters are used with the LIKE operator. The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+| Symbol | Description                                                  |
+| ------ | ------------------------------------------------------------ |
+| %      | Represents zero or more characters                           |
+| _      | Represents a single character                                |
+| []     | Represesents any single character within the brackets *      |
+| ^      | Represents any character not in the brackets *               |
+| -      | Represents any single character within the specified range * |
+| {}     | Represents any escaped character **                          |
+- Wildcard characters
+	* Means not supported in PostgreSQL and MySQL databases
+	-  ** Supported only in Oracle databases
+```SQL
+-- Returns customers that ends in 'es'
+SELECT * FROM Customers  
+WHERE CustomerName LIKE '%es';
+
+-- Returns customers that contain 'mer'
+SELECT * FROM Customers  
+WHERE CustomerName LIKE '%mer%';
+
+-- Returns customers with City starting with any character followed by "ondon"
+SELECT * FROM Customers  
+WHERE City LIKE '_ondon';
+
+-- Returns 'L' + 3 characters + "on"
+SELECT * FROM Customers  
+WHERE City LIKE 'L___on';
+
+-- Returns all customers starting with either "b", "s", or "p"
+SELECT * FROM Customers  
+WHERE CustomerName LIKE '[bsp]%';
+
+-- Return all customers starting with "a", "b", "c", "d", "e" or "f":
+SELECT * FROM Customers
+WHERE CustomerName LIKE '[a-f]%';
+
+-- Return customers starting with "a" and are at least 3 characters in length
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a__%';
+
+-- Customers with "r" in second position
+SELECT * FROM Customers
+WHERE CustomerName LIKE '_r%';
+
+-- Return customers in Spain (no wildcard)
+SELECT * FROM Customers
+WHERE Country LIKE 'Spain';
+```
+- The `%` wildcard represents any number of characters, even zero characters.
+- The `_` wildcard represents a single character.
+	- It can be any character or number, but each `_` represents one, and only one, character.
+- The `[]` wildcard returns a result if _any_ of the characters inside gets a match.
+	- #questoin is this regex?
+- The `-` wildcard allows you to specify a range of characters inside the `[]` wildcard.
+- Any wildcard, like % and _ , can be used in combination with other wildcards.
+- If no wildcard is specified, the phrase has to have an exact match to return a result.
+
+| Symbol | Description                                                | Example                                                          |
+| ------ | ---------------------------------------------------------- | ---------------------------------------------------------------- |
+| **     | Represents zero or more characters                         | `bl*` finds bl, black, blue, and blob                            |
+| ?      | Represents a single character                              | `h?t` finds hot, hat, and hit                                    |
+| []     | Represents any single character within the brackets        | `h[oa]t` finds hot and hat, but not hit                          |
+| !      | Represents any character not in the brackets               | `h[!oa]t` finds hit, but not hot and hat                         |
+| -      | Represents any single character within the specified range | `c[a-b]t` finds cat and cbt                                      |
+| #      | Represents any single numeric character                    | `2#5` finds 205, 215, 225, 235, 245, 255, 265, 275, 285, and 295 |
+- Microsoft Access Wildcards
+	- This database has some other wildcards
+#### Exercises
+![[Screenshot 2025-02-10 at 12.11.02 PM.png]]
+#question How would you parse the `!` character?
 ### SQL In
+```SQL
+-- Return all customers from 'Germany', 'France', or 'UK'
+SELECT * FROM Customers
+WHERE Country IN ('Germany', 'France', 'UK');
+
+-- Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+
+-- Return all customers that are NOT from 'Germany', 'France', or 'UK':
+SELECT * FROM Customers  
+WHERE Country NOT IN ('Germany', 'France', 'UK');
+
+-- Return all customers that have an order in the Orders table:
+SELECT * FROM Customers  
+WHERE CustomerID IN (SELECT CustomerID FROM Orders);
+
+-- Checks customers that haven't placed orders
+SELECT * FROM Customers
+WHERE CustomerID NOT IN (SELECT CustomerID FROM Orders);
+
+```
+- The [[IN (SQL)|IN]] operator allows you to specify multiple values in a WHERE clause.
+- The IN operator is a shorthand for multiple [[OR (SQL)|OR]] conditions.
+- Not In
+	- You return all records that are NOT any of the values in the list.
+- Can use `IN` with a [[subquery]]
+	- With a subquery, you can return all records from the main query that are present in the result of the subquery.
+
+#### Exercises
+![[Screenshot 2025-02-10 at 12.18.39 PM.png]]
+
 ### SQL Between
+```SQL
+-- Select products between 10 and 20
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;
+
+-- Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+
+-- Not Between (outside range of 10 and 20)
+SELECT * FROM Products
+WHERE Price NOT BETWEEN 10 AND 20;
+
+-- Returns Products with price between 10 and 20 and with CategoryID 1, 2, or 3
+SELECT * FROM Products  
+WHERE Price BETWEEN 10 AND 20  
+AND CategoryID IN (1,2,3);
+
+-- Product name is alphabetically between
+-- Carnarvon Tigers and Mozzarella di Giovanni
+SELECT * FROM Products
+WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
+ORDER BY ProductName;
+
+-- NOT BETWEEN
+SELECT * FROM Products
+WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
+ORDER BY ProductName;
+
+-- OrderDate between '01-July-1996' and '31-July-1996'
+SELECT * FROM Orders
+WHERE OrderDate BETWEEN #07/01/1996# AND #07/31/1996#;
+
+-- Date Alternative
+SELECT * FROM Orders  
+WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
+
+```
+- The [[BETWEEN (SQL)|BETWEEN]] operator selects values within a given range. The values can be numbers, text, or dates.
+- The `BETWEEN` operator is inclusive: begin and end values are included.
+
+#### Exercises
+![[Screenshot 2025-02-10 at 12.26.25 PM.png]]
+
 ### SQL Aliases
+```SQL
+-- Returns CustomerID from 'Customers' table in column 'ID'
+SELECT CustomerID AS ID
+FROM Customers;
+
+-- Returns alias without 'AS'
+SELECT CustomerID ID  
+FROM Customers;
+
+-- Syntax (alias used in column)
+SELECT column_name AS alias_name
+FROM table_name;
+
+-- Syntax (alias used on table)
+SELECT column_name(s)
+FROM table_name AS alias_name;
+
+-- Creating aliases for two columns
+SELECT CustomerID AS ID, CustomerName AS Customer
+FROM Customers;
+
+-- Creating Alias with spaces
+-- Just use square brackets
+SELECT ProductName AS [My Great Products]  
+FROM Products;
+
+-- Could also use double quotes for aliases with a space in its name
+SELECT ProductName AS "My Great Products"  
+FROM Products;
+
+-- 
+```
+- SQL aliases are used to give a table, or a column in a table, a temporary name.
+	- Aliases are often used to make column names more readable.
+	- An alias only exists for the duration of that query.
+	- An alias is created with the `AS` keyword.
+- In most database languages, you can skip the AS keyword and get the same result
+- Some databases allow both `[]` and "", and some only allows one when creating aliases with a space in its name
+```SQL
+-- Combines four columns
+SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address  
+FROM Customers;
+
+-- Equivalent statement for MySQL
+SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address
+FROM Customers;
+
+-- Equivalent Statement for Oracle
+SELECT CustomerName, (Address || ', ' || PostalCode || ' ' || City || ', ' || Country) AS Address
+FROM Customers;
+```
+- Concatenating columns
+	- This creates an alias named "Address" that combine four columns
+	- ![[Screenshot 2025-02-10 at 12.41.42 PM.png]]
+		- The right side is the output
+```SQL
+-- Refer Customers table as Persons
+SELECT * FROM Customers AS Persons;
+
+-- Makes aliases shorter here
+SELECT o.OrderID, o.OrderDate, c.CustomerName  
+FROM Customers AS c, Orders AS o  
+WHERE c.CustomerName='Around the Horn' AND c.CustomerID=o.CustomerID;
+
+-- Without aliases
+SELECT Orders.OrderID, Orders.OrderDate, Customers.CustomerName  
+FROM Customers, Orders  
+WHERE Customers.CustomerName='Around the Horn' AND Customers.CustomerID=Orders.CustomerID;
+```
+- Alias for Tables
+	- Useful so that when using more than one table in your queries, can make the SQL statements shorter
+- Aliases can be useful when
+	- There are more than one table involved in a query
+	- Functions are used in the query
+	- Column names are big or not very readable
+	- Two or more columns are combined together
+#### Exercises
+![[Screenshot 2025-02-10 at 1.07.19 PM.png]]
 ### SQL Joins
+- A [[JOIN (SQL)]] clause is used to combine rows from two or more tables, based on a related column between them.
+- ![[Screenshot 2025-02-10 at 1.10.01 PM.png]]
+	- The `CustomerID` column in the "Orders" table refers to the `CustomerID` column in the Customers table
+		- The relationships between the two tables is the `CustomerID` column
+```SQL
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+```
+- Can create SQL statement (that contains an [[INNER JOIN (SQL)|INNER JOIN]]) that selects records that have matching values in both tables
+	- #question What is meant by `ON`?
+	- #question How dos this work?
+	- Will produce this
+		- ![[Screenshot 2025-02-10 at 1.14.16 PM.png]]
+- Types of SQL joins
+	- (INNER) JOIN: Returns that have matching values in both tables
+	- LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+	- RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+	- FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+	- Diagram
+		- ![[Screenshot 2025-02-10 at 1.21.57 PM.png]]
+#### Exercises
+![[Screenshot 2025-02-10 at 1.27.02 PM.png]]
+
+
+
 ### SQL Inner Join
 ### SQL Left Join
 ### SQL Right Join
@@ -510,9 +1174,390 @@ VALUES
 ### SQL Data Types
 ## SQL References
 ### SQL Keywords
+#### ADD
+#### ADD CONSTRAINT
+#### ALL
+#### ALTER
+#### ALTER COLUMN
+#### ALTER TABLE
+#### AND
+#### ANY
+#### AS
+#### ASC
+#### BACKUP DATABASE
+#### BETWEEN
+#### CASE
+#### CHECK
+#### COLUMN
+#### CONSTRAINT
+#### CREATE
+#### CREATE DATABASE
+#### CREATE INDEX
+#### CREATE OR REPLACE VIEW
+#### CREATE TABLE
+#### CREATE PROCEDURE
+#### CREATE UNIQUE INDEX
+#### CREATE VIEW
+#### DATABASE
+#### DEFAULT
+#### DELETE
+#### DESC
+#### DISTINCT
+#### DROP
+#### DROP COLUMN
+#### DROP CONSTRAINT
+#### DROP DATABASE
+#### DROP DEFAULT
+#### DROP INDEX
+#### DROP TABLE
+#### DROP VIEW
+#### EXEC
+#### EXISTS
+#### FOREIGN KEY
+#### FROM
+#### FULL OUTER JOIN
+#### GROUP BY
+#### HAVING
+#### IN
+#### INDEX
+#### INNER JOIN
+#### INSERT INTO
+#### INSERT INTO SELECT
+#### IS NULL
+#### IS NOT NULL
+#### JOIN
+#### LEFT JOIN
+#### LIKE
+#### LIMIT
+#### NOT
+#### NOT NULL
+#### OR
+#### ORDER BY
+#### OUTER JOIN
+#### PRIMARY KEY
+#### PROCEDURE
+#### RIGHT JOIN
+#### ROWNUM
+#### SELECT
+#### SELECT DISTINCT
+#### SELECT INTO
+#### SELECT TOP
+#### SET
+#### TABLE
+#### TOP
+#### TRUNCATE TABLE
+#### UNION
+#### UNION ALL
+#### UNIQUE
+#### UPDATE
+#### VALUES
+#### VIEW
+#### WHERE
 ### MySQL Functions
+#### MySQL String Functions
+##### ASCII
+##### CHAR_LENGTH
+##### CHARACTER_LENGTH
+##### CONCAT
+##### CONCAT_WS
+##### FIELD
+##### FIND_IN_SET
+##### FORMAT
+##### INSERT
+##### INSTR
+##### LCASE
+##### LEFT
+##### LENGTH
+##### LOCATE
+##### LOWER
+##### LPAD
+##### LTRIM
+##### MID
+##### POSITION
+##### REPEAT
+##### REPLACE
+##### REVERSE
+##### RIGHT
+##### RPAD
+##### RTRIM
+##### SPACE
+##### STRCMP
+##### SUBSTR
+##### SUBSTRING
+##### SUBSTRING_INDEX
+##### TRIM
+##### UCASE
+##### UPPER
+#### MySQL Numeric Functions
+##### ABS
+##### ACOS
+##### ASIN
+##### ATAN
+##### ATAN2
+##### AVG
+##### CEIL
+##### CEILING
+##### COS
+##### COT
+##### COUNT
+##### DEGREES
+##### DIV
+##### EXP
+##### FLOOR
+##### GREATEST
+##### LEAST
+##### LN
+##### LOG
+
+##### LOG10
+##### LOG2
+##### MAX
+##### MIN
+##### MOD
+##### PI
+##### POW
+##### POWER
+##### RADIANS
+##### RAND
+##### ROUND
+##### SIGN
+##### SIN
+##### SQRT
+##### SUM
+##### TAN
+##### TRUNCATE
+#### MySQL Date Functions
+##### ADDDATE
+##### ADDTIME
+##### CURDATE
+##### CURRENT_DATE
+##### CURRENT_TIME
+##### CURTIME
+##### DATE
+##### DATEDIFF
+##### DATE_ADD
+##### DATE_FORMAT
+##### DATE_SUB
+##### DAY
+##### DAYNAME
+##### DAYOFMONTH
+##### DAYOFWEEK
+##### DAYOFYEAR
+##### EXTRACT
+##### FROM_DAYS
+##### HOUR
+##### LAST_DAY
+##### LOCALTIME
+##### LOCALTIMESTAMP
+##### MAKEDATE
+##### MAKETIME
+##### MICROSECOND
+##### MINUTE
+##### MONTH
+##### MONTHNAME
+##### NOW
+##### PERIOD_ADD
+##### PERIOD_DIFF
+##### QUARTER
+##### SECOND
+##### SEC_TO_TIME
+##### STR_TO_DATE
+##### SUBDATE
+##### SUBTIME
+##### SYSDATE
+##### TIME
+##### TIME_FORMAT
+##### TIME_TO_SEC
+##### TIMEDIFF
+##### TIMESTAMP
+##### TO_DAYS
+##### WEEK
+##### WEEKDAY
+##### WEEKOFYEAR
+##### YEAR
+##### YEARWEEK
+#### MySQL Advanced Functions
+##### BIN
+##### BINARY
+##### CASE
+##### CAST
+##### COALESCE
+##### CONNECTION_ID
+##### CONV
+##### CONVERT
+##### CURRENT_USER
+##### DATABASE
+##### IF
+##### IFNULL
+##### ISNULL
+##### LAST_INSERT_ID
+##### NULLIF
+##### SESSION_USER
+##### SYSTEM_USER
+##### USER
+##### VERSION
 ### SQL Server Functions
+#### SQL Server String Functions
+##### ASCII
+##### CHAR
+##### CHARINDEX
+##### CONCAT
+##### Concat with +
+##### CONCAT_WS
+##### DATALENGTH
+##### DIFFERENCE
+##### FORMAT
+##### LEFT
+##### LEN
+##### LOWER
+##### TRIM
+##### NCHAR
+##### PATINDEX
+##### QUOTENAME
+##### REPLACE
+##### REPLICATE
+##### REVERSE
+##### RIGHT
+##### RTRIM
+##### SOUNDEX
+##### SPACE
+##### STR
+##### STUFF
+##### SUBSTRING
+##### TRANSLATE
+##### TRIM
+##### UNICODE
+##### UPPER
+#### SQL Server Math/Numeric Functions
+##### ABS
+##### ACOS
+##### ASIN
+##### ATAN
+##### ATN2
+##### AVG
+##### CEILING
+##### COUNT
+##### COS
+##### COT
+##### DEGREES
+##### EXP
+##### FLOOR
+##### LOG
+##### LOG10
+##### MAX
+##### MIN
+##### PI
+##### POWER
+##### RADIANS
+##### RAND
+##### ROUND
+##### SIGN
+##### SIN
+##### SQRT
+##### SQUARE
+##### SUM
+##### TAN
+
+#### SQL Server Date Functions
+##### CURRENT_TIMESTAMP
+##### DATEADD
+##### DATEDIFF
+##### DATEFROMPARTS
+##### DATENAME
+##### DATEPART
+##### DAY
+##### GETDATE
+##### GETUTCDATE
+##### ISDATE
+##### MONTH
+##### SYSDATETIME
+##### YEAR
+#### SQL Server Advanced Functions
+##### CAST
+##### COALESCE
+##### CONVERT
+##### CURRENT_USER
+##### IIF
+##### ISNULL
+##### ISNUMERIC
+##### NULLIF
+##### SESSION_USER
+##### SESSIONPROPERTY
+##### SYSTEM_USER
+##### USER_NAME
 ### MS Access Functions
+#### MS Access String Functions
+##### Asc
+##### Chr
+##### Concat with &
+##### CurDir
+##### Format
+##### InStr
+##### InstrRev
+##### LCase
+##### Left
+##### Len
+##### LTrim
+##### Mid
+##### Replace
+##### Right
+##### RTrim
+##### Space
+##### Split
+##### Str
+##### StrComp
+##### StrConv
+##### StrReverse
+##### Trim
+##### UCase
+
+#### MS Access Numeric Functions
+##### Abs
+##### Atn
+##### Avg
+##### Cos
+##### Count
+##### Exp
+##### Fix
+##### Format
+##### Int
+##### Max
+##### Min
+##### Randomize
+##### Rnd
+##### Round
+##### Sgn
+##### Sgr
+##### Sum
+##### Val
+#### MS Access Date Functions
+##### Date
+##### DateAdd
+##### DateDiff
+##### DatePart
+##### DateSerial
+##### DateValue
+##### Day
+##### Format
+##### Hour
+##### Minute
+##### Month
+##### MonthName
+##### Now
+##### Second
+##### Time
+##### TimeSerial
+##### TimeValue
+##### Weekday
+##### WeekdayName
+##### Year
+#### MS Access Some Other Functions
+##### CurrentUser
+##### Environ
+##### IsDate
+##### IsNull
+##### IsNumeric
+
 ### SQL Quick Ref
 ## SQL Examples
 ### SQL Examples
@@ -525,3 +1570,4 @@ VALUES
 ### SQL Bootcamp
 ### SQL Certificate
 
+![[Screenshot 2025-02-10 at 10.17.25 AM.png]]![[Screenshot 2025-02-10 at 12.25.56 PM.png]]
