@@ -28,6 +28,13 @@ aliases:
 - Natural Numbers:
 	- $\mathbb{N}$ := {1, 2, 3, 4, 5, ...}
 	- Explicitly including zero: $\mathbb{N}_0 := \{0, 1, 2, 3, 4, ...\}$
+
+## Source[^6]
+- The sequence 1, 2, 3, 4, 5, .... are the counting numbers
+	- This sequence can be represented as $(s_n)_{n \ge 1}$ which has a [[closed formula]] $a_n = n$ 
+		- #comment An example would be if n = 6, then $a_6 = 6$ which means that the 6th element of the sequence would equal 6.
+			- The first element would be $a_1 = 1$ 
+			- Seems like this is the counting numbers where 0 is not part of the set
 ## References
 
 [^1]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^53cc8b]]
@@ -35,3 +42,4 @@ aliases:
 [^3]: https://en.wikipedia.org/wiki/Natural_number
 [^4]: https://math.berkeley.edu/~forte/notes/type_theory.pdf
 [^5]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
+[^6]: [[(1) Introduction to Sequences (Discrete Math)]]
