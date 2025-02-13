@@ -3,4 +3,23 @@ Source:
   - https://www.youtube.com/watch?v=5MM6h9VtF4Y
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-12 at 12.39.42 PM.png]]
+	- Arithmetic Sequences
+		- Consider the sequence 5, 8, 11, 14, 17, 20, 23, ... with $a_1 = 5$
+		- (a) Give a recursive definition for the sequence.
+			- For [[recursive definitions|recursive definition]], we need recurrence relation as well as the initial condition
+		- (b) Give a closed formula for the nth term of the sequence
+		- (c) Is 2627 a term in the sequence?
+			- Since the $n$ found is a natural number, the term is in the sequence
+		- (d) How many terms are in the sequence: 5, 8, 11, 14, 17, 20, 23, .., 1568?
+		- Notes
+			- Arithmetic ($d = a_n - a_{n-1}$)
+				- Recursive Definition: $a_n = a_{n-1} + d$
+				- Closed Formula: $a_n = a_0 + dn$ or $a_n = a_1 + d(n-1)$
+				- Partial Sum: $S = \frac {n+1}{2}(a_0 + a_n)$ or $S = \frac {n}{2} (a_1 + a_n)$
+			- Geometric ($r = \frac {a_n}{a_{n-1}}$)
+				- Recursive Definition: $a_n = ra_{n-1}$
+				- Closed Formula: $a_n = a_0*r^n$ or $a_n = a_1*r^{n-1}$
+				- Partial sum: $S = a_0(\frac {1-r^{n+1}}{1-r})$ or $S = a_1(\frac {1-r^{n}}{1-r})$
+		- Formula for [[common difference]]: $d = a_n - a_{n-1}$
+			- It means we have an arithmetic sequence to find the common difference. We can select any term except the first term and subtract the term before it.

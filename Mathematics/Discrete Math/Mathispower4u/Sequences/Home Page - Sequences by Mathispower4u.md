@@ -11,7 +11,6 @@ Reviewed: false
 	- [[(1) Introduction to Sequences (Discrete Math)]]
 	- [[(2) Determine a Closed Formula for a Given Sequence (1)]]
 	- [[(3) Determine a Closed Formula for a Given Sequence (2)]]
-- Incomplete
 	- [[(4) Determine Partial Sums and Recursive and Closed Formulas for Sequences]]
 	- [[(5) Given a Recursive Definition of a Sequence, Find Terms and a Closed Formula (1)]]
 	- [[(6) Given a Recursive Definition of a Sequence, Find Terms and a Closed Formula (2)]]
@@ -28,6 +27,7 @@ Reviewed: false
 	- [[(17) Sum of an Arithmetic Sequence and a Closed Formula for a Sequence of Partial Sums (Reverse and Add)]]
 	- [[(18) Arithmetic Sequence - Find Next Term, Closed Formula, and Partial Sum]]
 	- [[(19) Sum of Arithmetic Sequence - Find Number of Terms and Sum with No Formula]]
+- Incomplete
 	- [[(20) Arithmetic Sequence - Find Number of Terms, Second to Last Term, and Partial Sum (Reverse and Add)]]
 	- [[(21) Find a Sum of a Geometric Sequence Using Multiply, Shift, and Subtract Method (1)]]
 	- [[(22) Find a Sum of a Geometric Sequence Using Multiply, Shift, and Subtract Method (2)]]

@@ -1,3 +1,7 @@
+---
+aliases:
+  - arithmetic sequences
+---
 ## Synthesis
 - 
 ## Source [^1]
