@@ -1,7 +1,3 @@
----
-aliases:
-  - partial sums
----
 ## Synthesis
 - 
 ## Source [^1]

@@ -3,4 +3,19 @@ Source:
   - https://www.youtube.com/watch?v=aRwr_h_zm-4
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-12 at 10.11.25 AM.png]]
+	- Arithmetic and Geometric Sequences
+		- [[Arithmetic Sequence|Arithmetic Sequences]]
+			- If the terms of a sequence differ by a constant, the sequence is called [[arithmetic]]. If the initial term of the sequence is $a_0 = a$ and the [[common difference]] is d, then we have
+				- Recursive definition:
+				- Closed formula
+		- Informal proof
+	- Arithmetic and Geometric Sequences
+		- Special Note: If you look at other textbooks or online, you might find that their closed formulas for arithmetic and geometric sequences differ from ours. Specifically, you might find the formula $a_n = a + (n-1)d$  (arithmetic). In our case, we take $a$ to be $a_0$. If instead we had $a_1$ as our initial term, we would get the (slightly more complicated) formulas you find elsewhere
+	- Arithmetic and Geometric Sequences
+		- A sequence is called geometric if the ratio between successive terms is constant. Suppose the initial term $a_0 = a$ and the [[common ratio]] is $r$. Then we have,
+			- Recursive Definition
+			- Closed Formula
+		- Informal proof:
+	- Arithmetic and Geometric Sequences
+		- Special Note: If you look at other textbooks or online, you might find that their closed formulas for arithmetic and geometric sequences differ from ours. Specifically, you might find the formula $a_n = a*r^{n-1}$ (geometric). In our case, we take $a$ to be $a_0$. If instead we had $a_1$ as our initial term, we would get the (slightly more complicated) formulas you find elsewhere
