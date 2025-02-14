@@ -1,3 +1,7 @@
+---
+aliases:
+  - recurrence relations
+---
 ## Synthesis
 - 
 ## Source [^1]

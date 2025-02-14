@@ -3,4 +3,42 @@ Source:
   - https://www.youtube.com/watch?v=5n4GrgztIsM
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-13 at 10.12.17 AM.png]]
+	- Polynomial Fitting to Determine a Closed Formula for a Sequence
+		- How many squares (of all sizes) are there on a chessboard? A chessboard consists of 64 squares, but we also want to consider squares of longer side length. Even though we are only considering an 8x8 board, there is a lot to count. Instead, let's build a sequence: the first term will be the number of squares on a 1x1 board, the second term will be the number of squares on a 2x2 board, and so on. After a little thought, we arrive at the sequence
+		- This sequence is not arithmetic (or geometric for that matter), but perhaps it's sequence of differences is. For differences we get
+		- The original sequence is just the sum of squares. Notice sequence of first differences is not arithmetic. However, sequence of second differences (the differences of the differences of the original sequence) is arithmetic
+		- which is an arithmetic sequence (with constant difference 2)
+	- Polynomial fitting
+		- Original, First Difference, Second Difference, Third Difference
+		- Notice the third differences (that is, differences of differences of differences of the original) of the original sequence is a constant sequence. We will call such a sequence $\Delta^3 \text{-constant}$ 
+		- The sequence $1, 4, 9, 16$... has second differences constant, so it will be a $\Delta^2 -constant$ sequence
+			- Original
+			- First Difference
+			- Second Difference
+		- In general, we say a sequence is a $\Delta^k$-constant sequence if the kth differences are constant
+		- Every arithmetic sequence is $\Delta^1$-constant and can be written as a linear polynomial. $a_n = an + b$
+	- Polynomial Fitting
+		- Now we consider sequences in which the formulas are quadratic (2nd power of n) or cubic (3rd power of n):
+		- Not all sequences are $\Delta^k$-constant. For example $a_n = 2^n$ 
+	- Polynomial Fitting
+		- Finite Differences:
+			- The closed formula for a sequence will be a degree k polynomial if and only if the sequence is $\Delta^k$-constant
+			- The closed formula for a sequence will be a degree k polynomial if and only if the kth sequence of differences is constant
+		- Polynomial fitting for a given sequence is the process of:
+			- (a) Determine whether a sequence $\Delta^k$-constant to see if the closed formula for the sequence is a degree k polynomial
+			- (b) If the sequence $\Delta^k$-constant, find the coefficients of the closed formula by setting up and solving a system of equation
+			- At the bottom, we have the general forms of the closed formulas if a sequence is delta 1, 2, 3, or 4 constant
+- ![[Screenshot 2025-02-13 at 10.18.11 AM.png]]
+	- Polynomial Fitting
+		- Polynomial fitting
+			- How many squares (of all sizes) are there on a chessboard? A chessboard consists of 64 squares, but we also want to consider squares of longer side length. Even though we are only considering an 8x8 board, there is already a lot to count. Let's build a sequence: the first term will be the number of squares on a 1x1 board, the second term will be the number of squares on a 2x2 board, and so on. After a little thought, we arrive at the sequence
+		- Polynomial Fitting
+			- Now we need to decide on a method to solve the system. Will be using an augmented matrix
+		- Polynomial Fitting
+			- Sequence: 1, 5, 14, 30, 55, .... (sum of squares)
+			- The sequence is cubic: $a_n = an^3 + bn^2 + cn + d$
+			- How many squares (of all sizes) are there on a chessboard? A chessboard consists of 64 squares or is an 8x8 square board
+			- The right-most matrix is in [[Reduced Row Echelon Form|RREF]] form
+		- Polynomial Fitting
+			- Found 204 squares

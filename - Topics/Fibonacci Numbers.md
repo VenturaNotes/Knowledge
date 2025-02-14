@@ -1,3 +1,7 @@
+---
+aliases:
+  - Fibonacci sequence
+---
 ## Synthesis
 - 
 ## Source [^1]
