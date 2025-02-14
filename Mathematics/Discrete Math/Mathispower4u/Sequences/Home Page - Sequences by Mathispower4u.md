@@ -27,7 +27,6 @@ Reviewed: false
 	- [[(17) Sum of an Arithmetic Sequence and a Closed Formula for a Sequence of Partial Sums (Reverse and Add)]]
 	- [[(18) Arithmetic Sequence - Find Next Term, Closed Formula, and Partial Sum]]
 	- [[(19) Sum of Arithmetic Sequence - Find Number of Terms and Sum with No Formula]]
-- Incomplete
 	- [[(20) Arithmetic Sequence - Find Number of Terms, Second to Last Term, and Partial Sum (Reverse and Add)]]
 	- [[(21) Find a Sum of a Geometric Sequence Using Multiply, Shift, and Subtract Method (1)]]
 	- [[(22) Find a Sum of a Geometric Sequence Using Multiply, Shift, and Subtract Method (2)]]
@@ -39,6 +38,7 @@ Reviewed: false
 	- [[(28) Find a Closed Formula for a Sequence Using Polynomial Fitting (Degree 2, Aug Matrix)]]
 	- [[(29) Find a Closed Formula for a Sequence Using Polynomial Fitting (Degree 3, Aug Matrix)]]
 	- [[(30) Find a Closed Formula for a Sequence of Differences Given a_n]]
+- Incomplete
 	- [[(31) Sequences -  Introduction to Solving Recurrence Relations]]
 	- [[(32) Solve a Recurrence Relation Using Inspection]]
 	- [[(33) Solve a Recurrence Relation Using the Telescoping Technique]]
