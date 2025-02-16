@@ -3,9 +3,47 @@ Source:
   - https://www.youtube.com/watch?v=OoqINArRp98
 Reviewed: false
 ---
-- Image
+- ![[Screenshot 2025-02-14 at 11.59.51 AM.png]]
 	- Propositional Logic: Logically Equivalent Statements and De Morgan's Laws
 		- Notice that the final column in the truth table for $\lnot P \lor Q$ is identical to the final column in the truth table for $P \to Q$
 		- This says that no matter what P and Q are, the statements $\lnot P \lor Q$ and $P \to Q$ either are both true or both false. We therefore say these statements are [[logically equivalent]]
 		- Two [[molecular statement|(molecular) statements]] P and Q are logically equivalent provided P is true precisely when Q is true. That is, P and Q have the same truth value under any assignment of truth values to their atomic parts. To verify that two statements are logically equivalent, you can make a truth table for each and check whether the columns for the two statements are identical
 		- Recognizing two statements is logically equivalent can be very helpful. Rephrasing a mathematical statement can often lend insight into what it is saying, or how to prove or refute it. By using truth tables, we can systematically verify that two statements are indeed logically equivalent
+	- Propositional Logic: Logically Equivalent Statements and De Morgan's Laws
+		- Example 3.1.3: Are the statements, "it will not rain or snow" and "it will not rain, and it will not snow" logically equivalent?
+			- P: It will rain
+			- Q: It will snow
+		- We want to know whether $\lnot (P \lor Q)$ is logically equivalent to $\lnot P \land \lnot Q$
+			- $\lnot (P \lor Q)$ is true only when $P \lor Q$ is false,
+				- otherwise $\lnot(P \lor Q)$ is false
+			- $\lnot P \land \lnot Q$ is true only when $\lnot P$ and $\lnot Q$ are true, which is when P and Q are both false
+			- The two statements are equivalent
+		- Notice that this example gives us a way to "distribute" a negation over a disjunction (an "or"). We have a similar rule for distributing over conjunctions ("and"s)
+	- Logically Equivalent Statements
+		- This leads to DeMorgan's Laws
+			- [[De Morgan's Laws]]
+				- $\lnot (P \land Q)$ is logically equivalent to $\lnot P \lor \lnot Q$
+				- $\lnot (P \lor Q)$ is logically equivalent to $\lnot P \land \lnot Q$
+			- This suggests there might be a sort of "algebra" you could apply to statements (okay, there is: it is called [[Boolean algebra]]) to transform one statement into another. We can start collecting useful examples of logical equivalence, and apply them in succession to a statement, instead of writing out a complicated truth table
+	- Logically Equivalent Statements
+		- Implications are Disjunctions
+			- $P \to Q$ is logically equivalent to $\lnot P \lor Q$
+			- Example: If a number is a multiple of 4, then it is even" is equivalent to, "a number is not a multiple of 4 or (else) it is even"
+		- With this and De Morgan's laws, you can take any statement and simplify it to the point where negations are only being applied to atomic propositions. Well, actually not, because you could get multiple negations stacked up. But this can be easily dealt with
+		- Double Negation
+			- $\lnot \lnot P$ is logically equivalent to P
+			- Example: "It is not the case that c is not odd" means "c is odd"
+- ![[Screenshot 2025-02-14 at 12.04.42 PM.png]]
+	- Logically Equivalent Statements
+		- Example 3.1.4: Prove that the statements $\lnot (P \to Q$) and $P \land \lnot Q$ are logically equivalent without using truth tables
+		- This illustrates that the negation of an implication is not an implication. It is a conjunction. 
+	- Logically Equivalent Statements
+		- [[De Morgan's Laws]]
+			- $\lnot (P \land Q)$ is logically equivalent to $\lnot P \lor \lnot Q$
+			- $\lnot (P \lor Q)$ is logically equivalent to $\lnot P \land \lnot Q$
+		- Implications are disjunctions
+			- $P \to Q$ is logically equivalent to $\lnot P \lor Q$
+		- [[Double negation]]
+			- $\lnot \lnot P$ is logically equivalent to P
+		- Negation of an implication
+			- $\lnot (P \to Q)$ is equivalent to $P \land \lnot Q$ 

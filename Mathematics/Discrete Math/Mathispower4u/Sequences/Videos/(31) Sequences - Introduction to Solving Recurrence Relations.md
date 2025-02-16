@@ -1,0 +1,48 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=DTERgFa9jJc
+Reviewed: false
+---
+- ![[Screenshot 2025-02-14 at 10.35.38 AM.png]]
+	- Sequences: Solving [[Recurrence Relation|recurrence relations]]
+		- A [[recurrence relation]] is a recursive definition without the initial conditions.
+		- Example: 0, 1, 1, 2, 3, 5, 8, 13, ... The [[fibonacci numbers]] (or [[Fibonacci Numbers|Fibonacci sequence]]), defined recursively by $F_n = F_{n-1} + F_{n-2}$. Including initial conditions (e.g., $F_0 = 0, F_1 = 1$) makes it a recursive definition
+		- Converting recursive definitions to closed formulas is called "solving a recurrence relation." There are 3 main ways to solve recurrence relations.
+			- (1) Inspection
+				- Write down the first few terms beginning from the initial condition(s) and look for a pattern to find a closed formula
+					- For example, might recognize the sequence as arithmetic or geometric
+			- (2) Telescoping
+				- When many terms of the sequence cancel out when adding the equations of the sums or differences of terms. If we know the sum of the non-canceling terms, we can find a closed formula
+			- (3) The Characteristic Root Technique
+				- Given a recurrence relation of the form $a_n + \alpha_{n-1} + \beta_{n-2} = 0$, the characteristic polynomial is $x^2 + \alpha x + \beta$ giving the characteristic equation: $x^2 + \alpha x + \beta = 0$
+				- If $r_1$ and $r_2$ are two distinct roots of the characteristic polynomial (i.e, solutions to the characteristic equation), then the solution to the recurrence relation is:
+					- $a_n = ar_1^n + br_2^n$, where a and b are constants determined by the initial conditions.
+					- Note: If we have a repeated root or only 1 root, we use $a_n = ar_1^n + bnr_2^n$ 
+	- Sequences: Solving Recurrence Relations - Telescoping
+		- Inspection: Write down the first few terms beginning from the initial condition(s) and look for a familiar pattern.
+		- Solve the recurrence relation $a_n = a_{n-1} + 3$ with $a_0 = 4$ 
+			- Terms of the sequence:
+			- Notice the terms are increasing by 3. We have an arithmetic sequence with a common difference of 3
+			- $a_n = 4 + 3n$ is the solution to the recurrence relation
+				- #question Does solution just mean to find a closed formula?
+	- Sequences: Solving Recurrence Relations - Telescoping
+		- [[Telescoping]]: When many terms of the sequence cancel out when added. If we also know the sum of the non-canceling terms, we can find a closed form.
+		- Solve the recurrence relation $a_n = a_{n-1} + n$ with $a_0 = 4$
+			- Terms of the sequence:
+			- Notice the difference between terms is n. Let's look at the differences
+		- Recall: Reverse and Add Method to find the sum or an arithmetic sequence
+			- #question "or"? or "of an arithmetic sequence?"
+	- Sequences: Solving Recurrence Relations Using a Characteristic Root Technique
+		- Solve the recurrence relation
+		- Place the equation in the proper form
+		- The characteristic equation is
+		- We need to solve this equation. It can be solved algebraically or graphically. When possible, the quickest is by factoring
+		- The general solution is:  
+- ![[Screenshot 2025-02-14 at 10.39.24 AM.png]]
+	- Sequences: Solving Recurrence Relations
+		- The general solution is:
+		- No we need to find a and b sing $a_0 = 4$ and $a_1 = 1$ 
+		- Can solve using an [[augmented matrix]]
+	- Sequences: Solving Recurrence Relations
+		- We will not consider the case when the solutions to the characteristic equation are complex, nor when we have higher order polynomials for characteristic equations. For example, $a_n = 2a_{n-1} + a_{n-2} - 3a_{n-3}$ would have the characteristic equation $x^3-2x^2-x + 3 = 0$ 
+		- Also, we will only discuss "linear homogeneous recurrence relations with constant coefficients," $a_n + \alpha a_{n-1} + \beta a_{n-2} = 0$. The "[[homogeneous]]" refers to the fact that the right-hand side of the equation is zero. When it is non-zero, it is referred to as "non-homogeneous".

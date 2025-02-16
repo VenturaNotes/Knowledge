@@ -38,9 +38,9 @@ Reviewed: false
 	- [[(28) Find a Closed Formula for a Sequence Using Polynomial Fitting (Degree 2, Aug Matrix)]]
 	- [[(29) Find a Closed Formula for a Sequence Using Polynomial Fitting (Degree 3, Aug Matrix)]]
 	- [[(30) Find a Closed Formula for a Sequence of Differences Given a_n]]
-- Incomplete
-	- [[(31) Sequences -  Introduction to Solving Recurrence Relations]]
+	- [[(31) Sequences - Introduction to Solving Recurrence Relations]]
 	- [[(32) Solve a Recurrence Relation Using Inspection]]
+- Incomplete
 	- [[(33) Solve a Recurrence Relation Using the Telescoping Technique]]
 	- [[(34) Solve a Recurrence Relation Using the Characteristic Root Technique (1 Repeated Root)]]
 	- [[(35) Solve a Recurrence Relation Using the Characteristic Root Technique (2 Distinct Roots)]]
