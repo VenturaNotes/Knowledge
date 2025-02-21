@@ -930,7 +930,7 @@ WHERE Country LIKE 'Spain';
 - The `_` wildcard represents a single character.
 	- It can be any character or number, but each `_` represents one, and only one, character.
 - The `[]` wildcard returns a result if _any_ of the characters inside gets a match.
-	- #questoin is this regex?
+	- #question is this regex?
 - The `-` wildcard allows you to specify a range of characters inside the `[]` wildcard.
 - Any wildcard, like % and _ , can be used in combination with other wildcards.
 - If no wildcard is specified, the phrase has to have an exact match to return a result.

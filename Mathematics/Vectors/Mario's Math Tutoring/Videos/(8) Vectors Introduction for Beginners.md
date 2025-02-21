@@ -1,0 +1,71 @@
+---
+Source:
+  - https://www.youtube.com/watch?v=BYARjX1neao
+Reviewed: false
+---
+- ![[Screenshot 2025-02-20 at 2.11.39 PM.png]]
+	- Slide 1
+		- Vectors Introduction
+			- Magnitude
+			- Direction
+			- Add Vectors
+			- Scalar Multiplication
+			- Unit Vectors
+			- Component Form
+			- Linear Combination of the standard unit vectors `i` and `j`
+		- A [[vector]] represents magnitude and direction. Basically exerting a force towards a specific direction
+			- A vector with a greater magnitude (longer arrow) typically represents a larger force
+			- We write vectors like $\overrightarrow {AB}$ 
+				- This is like saying ray AB or vector AB similar to geometry
+				- A is the starting point and B is the terminal point
+		- (1) Find vector in component form from A(1, 2) to B(-2,-2) and find magnitude
+			- Terminal - Initial
+				- This is formula for component form of the vector
+				- $<-3, -4>$ is known as [[component form]]
+			- $||\vec {AB}||$
+				- Finding magnitude is just $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ 
+				- Gives distance formula
+	- Slide 2
+		- Adding Vectors
+			- When drawing, where one vector ends, another can begin. Resultant vector is the vector from where one begins and the other ends
+				- Can get the diagonal of a parallelogram
+				- Can be called the head to tail, head to tail, head to tail
+		- Subtracting vectors
+			- If you're subtracting a vector, it just goes the exact 180$\degree$ opposite direction
+		- Scalar multiplication
+	- Slide 3
+		- More examples of adding and subtracting vectors as well as scalar multiplication but with numbers this time
+		- Working with linear combinations of standard unit vectors
+			- A standard unit vector is a vector which is one unit long
+				- `i` is the unit vector in the horizontal direction
+					- $i = <1,0>$ 
+				- `j` is in the vertical direction
+					- $j = <0, 1>$ 
+			- $7i - 3j$ is a linear combination of unit vectors
+	- Slide 4
+		- Vectors Introduction
+			- [[Unit Vector|Unit Vectors]]
+				- (5) Turning a vector into a unit vector
+					- Just use the formula $\vec u = \frac {\vec v}{||\vec v||}$
+					- Can check if unit vector if magnitude is 1
+			- (6) Find the unit vector $\vec u$ in the same direction as vector $\vec r$ 
+- ![[Screenshot 2025-02-20 at 2.24.25 PM.png]]
+	- Slide 1
+		- (7) Find a vector with magnitude 5 in the same direction as $\vec v<8, 15>$
+			- Find unit vector first
+			- Then 
+		- (8) Given the initial point (7, 3) and terminal point (-2, -9), write a linear combination in terms of i and j
+			- Take terminal point - initial point and keep it in terms of $i$ and $j$ 
+	- Slide 2
+		- (9) What is the magnitude and angle of direction of the vector $<-3, -2>$? 
+			- First use magnitude formula
+				- $\sqrt{x^2 + y^2}$ 
+			- Then use angle formula
+				- $\theta = tan^{-1}(\frac yx)$ 
+					- When doing tan inverse, will always give angle from -90 to +90. When measuring angles, we start with the positive x-direction and we rotate counterclockwise if it's a positive angle
+					- If we want a positive angle, just add 360$\degree$ 
+						- So if you're measuring from the positive x-axis counterclockwise which gives the angle
+						- #comment seems like not always adding $360 \degree$, sometimes [[(9) How to Find the Direction Angle of a Vector|might add]] $180 \degree$ 
+	- Slide 3
+		- (10) Write component form of the vector given magnitude of 5 and angle of 120$\degree$ with the positive x-axis
+			- $<||\vec v|| cos \theta, ||\vec v || sin \theta>$ 

@@ -2,7 +2,7 @@
 aliases: permutations
 ---
 ## Synthesis
-- 
+- Order matters meaning AC and CA are distinct 
 ## Source[^1]
 - Combinatorics viewpoint
 	- Number of permutations of length "n" from an "m" [[characters|letter]] alphabet is
@@ -24,7 +24,8 @@ aliases: permutations
 		- CA, CT, AC, AT, TA, TC
 - Given CAT, find the total number of permutations
 	- Permutations = $n!$ = 3! = 6
-		- CAT, CTA, TCA, 
+		- CAT, CTA, TAC, TCA, ACT, ATC
+		- #question What happens when we have repeated characters? 
 
 ## References
 [^1]: [[(7) L2V3 Permutations & Combinations#^0a9870]]
