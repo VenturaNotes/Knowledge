@@ -3,4 +3,48 @@ Source:
   - https://www.youtube.com/watch?v=fPX1UBQKcSM
 Reviewed: false
 ---
-
+- ![[Screenshot 2025-02-20 at 11.53.36 AM.png]]
+	- [[Proof by induction]]
+		- Mathematical induction is a proof technique. In other words, induction is a style of argument we use to prove that a mathematical statement is always true. Many mathematical statements can be proved by simply explaining what they mean. Others are very difficult to prove - in fact, there are relatively simple mathematical statements which nobody yet knows how to prove. To facilitate the discovery of proofs, it is important to be familiar with some standard styles of argument. Induction is one such style.
+		- Proof by induction is useful when trying to prove statements about all natural numbers (or all natural numbers greater than some fixed first case). In particular, induction should be used when there is some way to go from one case to the next-when you can see how to always "do one more". Thinking more about a problem inductively can give new insight into the problem. When asked to provide a proof by induction, you are being asked to think about it dynamically. How does increasing $n$ change the problem? But there is another side to proofs by induction as well. In mathematics, it is not enough to understand a problem, you must also be able to communicate the problem to others. Like any discipline, mathematics has standard language and style, allowing mathematicians to share their ideas efficiently. Proofs by induction have a certain formal style. It allows us to keep our ideas organized and might even help us with formulating a proof. Here is the general structure of a proof by mathematical induction
+	- Proof by Induction
+		- Induction Proof Structure
+			- Start by saying what the statement is that you want to prove: "Let P(n) be the statement..."
+			- To prove that $P(n)$ is true for all $n \ge 0$, you must prove two facts:
+				- [[Base case]]: prove that P(0) is true. You do this directly and is often easy
+				- [[Inductive Case]]: Prove that $P(k) \to P(k+1)$ for all $k \ge 0$. That is, prove that for any $k \ge 0$ if P(k) is true, then $P(k+1)$ is true as well. This is the proof of an if... then... statement, so you can assume $P(k)$ is true (P(k) is called the [[inductive hypothesis]]). You must then explain why $P(k+1)$ is also true, given that assumption
+			- Assuming you are successful on both parts above, you can conclude, "Therefore, by the principle of mathematical induction, the statement P(n) is true for all $n \ge 0$"
+			- Sometimes the statement $P(n)$ will only be true for values of $n \ge 4$, for example, or some other value. In such cases, replace all the 0's above with 4's (or the other value)
+	- Proof by Induction
+		- The other advantage of formalizing inductive proofs is it allows us to verify that the logic behind this style of argument is valid. Why does induction work? Think of a row of dominoes set up standing on their edges. We want to argue that in a minute, all the dominoes will have fallen down. For this to happen, you will need to push the first domino. That is the base case. It will also have to be that dominos are close enough together that when any particular domino falls, it will cause the next domino to fall. That is the inductive case. If both conditions are met, you push the first domino over and each domino will cause the next to fall, then all the dominoes will fall
+		- Example of proof by induction
+			- Prove that 1 + 3 + 5 + ... + (2n-1) = $n^2$ for all natural numbers $n \ge 1$ 
+	- Proof by Induction
+		- #comment Summary
+			- By assuming the original equation $k^2$ is true, try to manipulate the equation to show an equation for $(k+1)^2$ which by default will be true as well
+		- #comment In the inductive case, it seems like an example was skipped
+			- Assume $P(k+1)$ is true
+				- $1 + 3 + 5 + \cdots + (2k-1) = k^2$
+			- One method (logically makes sense but not preferred method. Relies on assumption?)
+				- Need to show $P(k+1)$ is true. We know what $P(k+1)$ is supposed to look like since the next term would be $2(k+1)-1$ giving
+					- $1 + 3 + 5 + \cdots + (2k-1) + (2(k+1)-1) = (k+1)^2$
+					- Simplify to make it look like original equation. By showing you can make it equal to the original equation (which was true), the $P(k+1)$ equation would have to be true since algebraic transformations do not change its truth value
+						- $1 + 3 + 5 + \cdots + (2k-1) + (2k+1) = (k+1)^2$
+							- Simplified
+						- $1 + 3 + 5 + \cdots + (2k-1) + (2k+1) = k^2+2k+1$
+							- Expanded
+						- Subtract (2k+1)
+							- $1 + 3 + 5 + \cdots + (2k-1) = k^2$
+								- Looks like original equation now
+			- Alternative Method?
+				- We want to go from $1 + 3 + 5 + \cdots + (2k-1) = k^2$ to where the second equation is $= (k+1)^2$
+				- We do this by adding $2k+1$ to both sides
+				- This gives
+					- $1 + 3 + 5 + \cdots + (2k-1) + (2k+1) = (k+1)^2$
+					- Since the original equation was true, using algebraic transformations to find $P(k+1)$, by the principle of mathematical induction, the statement $P(n)$ is true for all natural numbers $n \ge 1$. QED
+- ![[Screenshot 2025-02-20 at 11.55.45 AM.png]]
+	- Proof by Induction
+		- Notes:
+			- (1) In order to prove the inductive case, you have to first determine what the conclusion should be, i.e., what $P(k+1)$ looks like
+			- (2) You can think of $P(n)$ as a "sequence" of statements, and $P(k+1)$ as a recursive definition, in terms of $P(k)$
+		- When you are asked to prove a statement by mathematical induction, you should first think about why the statement is true, using inductive reasoning. Explaining why induction is the right thing to do, and roughly why the inductive case will work. Then, sit down and write out a careful, formal proof using the structure above.
