@@ -1131,10 +1131,16 @@ INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 		- ![[Screenshot 2025-02-10 at 1.21.57 PM.png]]
 #### Exercises
 ![[Screenshot 2025-02-10 at 1.27.02 PM.png]]
-
-
-
 ### SQL Inner Join
+- The [[INNER JOIN (SQL)|INNER JOIN]] keyword selects records that have matching values in both tables
+```SQL
+SELECT ProductID, ProductName, CategoryName
+FROM Products
+INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID
+```
+- The order of commands is FROM, INNER JOIN, and then SELECT
+- The `INNER JOIN` keyword returns only rows with a match in both tables.
+	- So if you have a product with no CategoryID, or with a CategoryID not present in the Categories table, that record would not be returned in the result
 ### SQL Left Join
 ### SQL Right Join
 ### SQL Full Join
@@ -1175,6 +1181,7 @@ INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 ## SQL References
 ### SQL Keywords
 #### ADD
+- The 
 #### ADD CONSTRAINT
 #### ALL
 #### ALTER
@@ -1570,4 +1577,4 @@ INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 ### SQL Bootcamp
 ### SQL Certificate
 
-![[Screenshot 2025-02-10 at 10.17.25 AM.png]]![[Screenshot 2025-02-10 at 12.25.56 PM.png]]
+## References
