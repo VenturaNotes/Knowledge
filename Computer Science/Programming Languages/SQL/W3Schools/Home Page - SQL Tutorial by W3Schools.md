@@ -1141,6 +1141,7 @@ INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID
 - The order of commands is FROM, INNER JOIN, and then SELECT
 - The `INNER JOIN` keyword returns only rows with a match in both tables.
 	- So if you have a product with no CategoryID, or with a CategoryID not present in the Categories table, that record would not be returned in the result
+- #status/incomplete
 ### SQL Left Join
 ### SQL Right Join
 ### SQL Full Join
@@ -1181,32 +1182,429 @@ INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID
 ## SQL References
 ### SQL Keywords
 #### ADD
-- The 
+- [[ADD (SQL)|ADD]] is used to add a column in an existing table
+```SQL
+ALTER TABLE Customers
+ADD Email varchar(255);
+```
+- Adds an "Email" column to the customers table
+- Description[^1]
+	- `ALTER TABLE`: Modifying the structure of an existing table
+	- `Email`: Name of new column being added
+	- `varchar(255)` Defines the data type as a variable-length string with a maximum length of 255 characters
 #### ADD CONSTRAINT
+- Creates a constraint after a table is already created
+```SQL
+ALTER TABLE Persons
+ADD CONSTRAINT PK_Person PRIMARY KEY (ID,LastName);
+```
+- Adds a constraint named `PK_Person` that is a primary key constraint on multiple columns (ID and LastName)
+	- #question What is a primary key constraint?
+	- #question What will the constraint do in turn? Does it mean the column name can't be changed later?
 #### ALL
-#### ALTER
-#### ALTER COLUMN
+- [[ALL (SQL)|ALL]] returns true if all of the subquery values meet the condition
+```SQL
+SELECT ProductName
+FROM Products
+WHERE ProductID = ALL (SELECT ProductID FROM OrderDetails WHERE Quantity = 10);
+```
+- Returns TRUE and lists the ProductName If ALL the records in the OrderDetails table has quantity = 10
 #### ALTER TABLE
+- `ALTER TABLE` 
+	- Adds, deletes, or modifies columns in a table
+	- Adds and deletes various constraints in a table
+```SQL
+ALTER TABLE Customers
+ADD Email varchar(255);
+```
+- Adds an "Email" column to "Customers" table
+```SQL
+ALTER TABLE Customers
+DROP COLUMN Email;
+```
+- Deletes "Email" column from "Customers" table
+	- #question Will an error occur if an "Email" column did not exist?
+#### ALTER COLUMN
+- `ALTER COLUMN`
+	- Change the data type of a column in a table
+```SQL
+ALTER TABLE Employees
+ALTER COLUMN BirthDate year;
+```
+- Changes data type of column named "BirthDate" in the "Employees" table to type year
+	- #question What does type `year` look like?
 #### AND
+- [[AND (SQL)|AND]] used with WHERE to only include rows where both conditions true
+```SQL
+SELECT * FROM Customers
+WHERE Country='Germany' AND City='Berlin';
+```
+- Select all fields from table `Customers` where where Country is Germany and city is Berlin
 #### ANY
+- [[ANY (SQL)|ANY]] returns true if any of the subquery values meet the condition
+```SQL
+SELECT ProductName
+FROM Products
+WHERE ProductID = ANY (SELECT ProductID FROM OrderDetails WHERE Quantity = 10);
+```
+- Returns true and lists the ProductName if it finds any records in the OrderDetails table where quantity = 10
+```SQL
+SELECT ProductName
+FROM Products
+WHERE ProductID = ANY (SELECT ProductID FROM OrderDetails WHERE Quantity > 99);
+```
+- Same as above but only if ANY records in the OrderDetails table have a quantity above 99
+	- #question Is 'ANY' even required here? Is this just required for a subquery? Can't we just use the `WHERE` condition by itself for this case? (although I guess we do need to reference a separate table)
 #### AS
+- [[AS (SQL)|AS]] is used to rename a column or table with an alias
+	- Alias only exists for duration of query
+```SQL
+-- Creates 2 aliases. One for CustomerID and other for CustomerName
+SELECT CustomerID AS ID, CustomerName AS Customer  
+FROM Customers;
+
+-- Requires double quotation marks or square brackets if alias contains spaces
+SELECT CustomerName AS Customer, ContactName AS [Contact Person]  
+FROM Customers;
+
+-- Creates an alias named Address which combines four columns
+SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address  
+FROM Customers;
+
+-- Use this for MySQL to get above snippet working
+SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address  
+FROM Customers;
+
+-- Using aliases to make SQL shorter
+-- Selects all customers with CustomerID = 4 (Around the Horn)
+SELECT o.OrderID, o.OrderDate, c.CustomerName  
+FROM Customers AS c, Orders AS o  
+WHERE c.CustomerName="Around the Horn" AND c.CustomerID=o.CustomerID;
+```
 #### ASC
+- [[ASC (SQL)|ASC]] is used to sort the data returned in ascending order
+```SQL
+SELECT * FROM Customers
+ORDER BY CustomerName ASC;
+```
+- Sorted Customers table by the "CustomerName" column
 #### BACKUP DATABASE
+- Used in SQL Server to create a full back up of an existing SQL database
+```SQL
+BACKUP DATABASE testDB
+TO DISK = 'D:\backups\testDB.bak';
+```
+- Creates a full back up of the existing database "testDB" to the D disk
+	- #question What kind of data format is `.bak`? I guess it stands for backup?
+- Important
+	- Always back up database to different drive than actual database
+	- If you get a disk crash, you will not lose your backup file along with the database
+```SQL
+BACKUP DATABASE testDB
+TO DISK = 'D:\backups\testDB.bak'
+WITH DIFFERENTIAL;
+```
+- A differential back up only backs up the parts of the database that have changed since the last full database backup
+- Creates a differential back up of the database "testDB"
+	- #question Does this mean it just appends or overwrites the existing data or just it just save what the changes are?
+- A differential back up reduces back up time (since only the changes are backed up)
+	- #question Does this mean the old unchanged data is still backed up or lost?
+
 #### BETWEEN
+- [[BETWEEN (SQL)|BETWEEN]]
+	- Select values within a given range. Values can be numbers, text, or dates
+	- Inclusive. Begin and end values included
+```SQL
+-- Selects all products with price between 10 and 20
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;
+
+-- Selects all products outside of range 10 and 20
+SELECT * FROM Products  
+WHERE Price NOT BETWEEN 10 AND 20;
+
+-- Selects all products with a ProductName between the two names
+SELECT * FROM Products  
+WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'  
+ORDER BY ProductName;
+```
+- ![[Screenshot 2025-02-22 at 12.41.16 AM.png]]
+	- #comment Seems to then be ordered by the product name for last snippet. Default ascending
 #### CASE
+- [[CASE (SQL)|CASE]]
+	- Used to create different output based on conditions
+```SQL
+-- Goes through several conditions and returns a value
+-- when the specified condition is met
+SELECT OrderID, Quantity,
+CASE WHEN Quantity > 30 THEN 'The quantity is greater than 30'
+WHEN Quantity = 30 THEN 'The quantity is 30'
+ELSE 'The quantity is under 30'
+END AS QuantityText
+FROM OrderDetails;
+
+-- Will order custombers by Cit. If City is NULL, then order by Country
+SELECT CustomerName, City, Country
+FROM Customers
+ORDER BY
+(CASE
+    WHEN City IS NULL THEN Country
+    ELSE City
+END);
+```
+- First Snippet
+	- ![[Screenshot 2025-02-22 at 12.44.40 AM.png]]
 #### CHECK
-#### COLUMN
+- [[CHECK (SQL)|CHECK]] constraint limits the value that can be placed in a column
+```SQL
+-- MySQL
+-- Crates a CHECK constraint on the "Age" column
+-- Ensures no person beow 18 years
+CREATE TABLE Persons (
+    Age int,
+    CHECK (Age>=18)
+);
+
+-- SQL Server / Oracle / MS Access
+CREATE TABLE Persons (  
+    Age int CHECK (Age>=18)  
+);
+
+-- MySQL / SQL Server / Oracle / MS Access
+-- Allows for naming of a CHECK constraint
+-- Defines a CHECK constraint on multiple columns
+CREATE TABLE Persons (  
+    Age int,  
+    City varchar(255),  
+    CONSTRAINT CHK_Person CHECK (Age>=18 AND City='Sandnes')  
+);
+```
+- #question What does naming a CHECK constraint mean?
+```SQL
+
+-- MySQL / SQL Server / Oracle / MS Access
+-- Creates a CHECK constraint on "Age" column when table already created
+ALTER TABLE Persons
+ADD CHECK (Age>=18);
+
+-- MySQL / SQL Server / Oracle / MS Access
+-- Allows naming of a CHECK constraint
+-- Defining a CHECK constraint on multiple columns
+ALTER TABLE Persons  
+ADD CONSTRAINT CHK_PersonAge CHECK (Age>=18 AND City='Sandnes');
+```
+- SQL Check on Alter Table
+```SQL
+-- Drops a CHECK constraint
+
+-- SQL Server / Oracle / MS Access
+ALTER TABLE Persons  
+DROP CONSTRAINT CHK_PersonAge;
+
+-- MySQL
+ALTER TABLE Persons  
+DROP CHECK CHK_PersonAge;
+```
 #### CONSTRAINT
-#### CREATE
+- `ADD CONSTRAINT`
+	- Create a constraint after a table is already created
+```SQL
+-- The following SQL adds a constraint named "PK_Person" 
+-- that is a PRIMARY KEY constraint on multiple columns (ID and LastName):
+ALTER TABLE Persons
+ADD CONSTRAINT PK_Person PRIMARY KEY (ID,LastName);
+```
+- #question What is a primary key constraint?
+- `DROP CONSTRAINT`
+	- Delete a UNIQUE, PRIMARY KEY, FOREIGN KEY, or CHECK constraint
+```SQL
+-- SQL Server / Oracle / MS Access
+ALTER TABLE Persons  
+DROP CONSTRAINT UC_Person;
+
+-- MySQL
+ALTER TABLE Persons  
+DROP INDEX UC_Person;
+```
+- Drops a unique constraint
+```SQL
+
+-- SQL Server / Oracle / MS Access
+ALTER TABLE Persons  
+DROP CONSTRAINT PK_Person;
+
+-- MySQL
+ALTER TABLE Persons  
+DROP PRIMARY KEY;
+```
+- Drops a Primary Key Constraint
+```SQL
+-- SQL Server / Oracle / MS Access
+ALTER TABLE Orders  
+DROP CONSTRAINT FK_PersonOrder;
+
+-- My SQL
+ALTER TABLE Orders  
+DROP FOREIGN KEY FK_PersonOrder;
+```
+- Drop a Foreign Key Constraint
+```SQL
+-- SQL Server / Oracle / MS Access
+ALTER TABLE Persons  
+DROP CONSTRAINT CHK_PersonAge;
+
+-- My SQL
+ALTER TABLE Persons  
+DROP CHECK CHK_PersonAge;
+```
+- Drops a Check Constraint
 #### CREATE DATABASE
+```SQL
+CREATE DATABASE testDB;
+```
+- `CREATE DATABASE` Used to create a new SQL database
+	- The above creates a database called "testDB"
+- Have admin privilege before creating any database
+	- Can check list of databases with `SHOW DATABASES;`
 #### CREATE INDEX
+- `CREATE INDEX` is used to create indexes in tables (allows duplicate values)
+- Indexes are used to retrieve data from the database very fast
+	- User cannot see the indexes, they are just used to speed up searches / queries
+```SQL
+-- Creates an index named "idx_lastname" on the "LastName" column
+CREATE INDEX idx_lastname  
+ON Persons (LastName);
+
+-- Creating an index on a combination of columns
+CREATE INDEX idx_pname  
+ON Persons (LastName, FirstName);
+```
+- #question How does an index make querying faster?
+- Syntax for creating indexes varies among different databases. Check the syntax for creating indexes in your database
+- Note
+	- Updating a table with indexes takes more time than updating a table without (because the index also need an update)
+	- Only create indexes on columns that will be frequently searched against
 #### CREATE OR REPLACE VIEW
+- Updates a view
+```SQL
+CREATE OR REPLACE VIEW [Brazil Customers] AS
+SELECT CustomerName, ContactName, City
+FROM Customers
+WHERE Country = "Brazil";
+
+-- Able to query the view afterwards
+SELECT * FROM [Brazil Customers];
+```
+- Adds the "City" column to the "Brazil Customers" view
+- #question What does this look like in practice?
 #### CREATE TABLE
+- Creates a new table in the database
+```SQL
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+```
+- Creates a table called "Persons" containing 5 columns
+```SQL
+CREATE TABLE TestTable AS
+SELECT customername, contactname
+FROM customers;
+```
+- Creates a new table called "TestTables" which is a copy of two columns of the "Customers" table
+- #question What is the point of `AS` here?
 #### CREATE PROCEDURE
+- Creates a stored procedure
+- A [[stored procedure]] is a prepared SQL code that you can save, so the code can be reused over and over again
+```SQL
+CREATE PROCEDURE SelectAllCustomers
+AS
+SELECT * FROM Customers
+GO;
+```
+- Creates a stored procedure named "SelectAllCustomers" that selects all records from the "Customers" table
+- #question Is the "GO" necessary?
+```SQL
+EXEC SelectAllCustomers;
+```
+- This executes the stored procedure above
 #### CREATE UNIQUE INDEX
+- Creates a unique index on a table (no duplicate values allowed)
+- Indexes are used to retrieve data from the database very fast. The users cannot see the indexes, they are just used to speed up searches/queries.
+```SQL
+CREATE UNIQUE INDEX uidx_pid
+ON Persons (PersonID);
+```
+- Creates an index named "uidx_pid" on the "PersonID" column
+- Syntax for indexes varies among different databases
+- Updating a table with indexes takes more time than a table without so only create indexes on columns that will be frequently searched
 #### CREATE VIEW
-#### DATABASE
+- Creates a view
+- A [[view]] is a virtual table based on the result set of an SQL statement.
+```SQL
+CREATE VIEW [Brazil Customers] AS
+SELECT CustomerName, ContactName
+FROM Customers
+WHERE Country = "Brazil";
+```
+- Creates a view selecting all customers from Brazil
+```SQL
+SELECT * FROM [Brazil Customers];
+```
+- Queries the view above
 #### DEFAULT
+- The DEFAULT constraint provides a default value for a column
+	- Default value will be added to all new records if no other value is specified
+```SQL
+-- My SQL / SQL Server / Oracle / MS Access
+
+-- Sets default value for "City" column which in this case is 'Sandnes'
+CREATE TABLE Persons (
+    City varchar(255) DEFAULT 'Sandnes'
+);
+
+-- Default Constraint can also be used to insert system values
+-- such as GETDATE()
+CREATE TABLE Orders (
+    OrderDate date DEFAULT GETDATE()
+);
+```
+- SQL DEFAULT on CREATE TABLE
+```SQL
+
+-- MySQL
+ALTER TABLE Persons
+ALTER City SET DEFAULT 'Sandnes';
+
+-- SQL Server
+ALTER TABLE Persons  
+ADD CONSTRAINT df_City  
+DEFAULT 'Sandnes' FOR City;
+
+-- MS Access
+ALTER TABLE Persons  
+ALTER COLUMN City SET DEFAULT 'Sandnes';
+
+-- Oracle
+ALTER TABLE Persons  
+MODIFY City DEFAULT 'Sandnes';
+```
+- SQL DEFAULT on ALTER TABLE
+	- In this example, creates a default constraint on the "City" column when the table is already created
+	- #question Does this actively change the existing ones?
+```SQL
+-- MySQL
+ALTER TABLE Persons
+ALTER City DROP DEFAULT;
+
+-- SQL Server / Oracle / MS Access
+ALTER TABLE Persons
+ALTER COLUMN City DROP DEFAULT;
+```
+- DROP a DEFAULT Constraint
 #### DELETE
 #### DESC
 #### DISTINCT
@@ -1578,3 +1976,5 @@ INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID
 ### SQL Certificate
 
 ## References
+
+[^1]: Google's Search Labs | AI Overview
