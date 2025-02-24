@@ -3,6 +3,7 @@ aliases:
   - plasma membranes
   - cell membrane
   - plasma
+  - plasma membrane
 ---
 ## Synthesis
 - 
@@ -27,8 +28,12 @@ aliases:
 
 ## Source[^2]
 - Cell membrane also referred to as plasma
+## Source[^3]
+- Also called plasma membrane
+- It is a thin, flexible barrier that surrounds every living cell, separating the cell's interior from its external environment and regulating what enters and exits the cell by acting as a [[selective barrier]]
 
 ## References
 
 [^1]: ChatGPT
 [^2]: [[(3) 2-Minute Neuroscience - Membrane Potential]]
+[^3]: Google's Search Labs | AI Overview

@@ -22,5 +22,5 @@ Reviewed: false
 		- If Fluorine gains an electron, this creates an [[anion]] which is a negatively charged ion
 	- If Fluorine took Sodium's electron, the 2 ions would chemically bond together
 		- When you add or subtract electrons from shells around nucleus of an atom, it turns an atom into an ion. The ones that become ions will be a force of repulsion and attraction
-			- The ones that attract each other will form what we call [[molecules]].
+			- The ones that attract each other will form what we call [[molecule|molecules]].
 				- This is the basis of how molecules are formed by turning atoms into ions by either removing or adding electrons

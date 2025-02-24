@@ -164,7 +164,7 @@ Reviewed: false
 	- “the various functional components present in cells.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=EEFQ6855))
 		- Chloroplasts are an example
 	- Image shows single chloroplast
-- (10) [[Molecules]]
+- (10) [[molecule|molecules]]
 	- “A molecule is a chemical structure consisting of two or more units called atoms” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=V2SD6WYZ))
 	- Chlorophyll molecule is shown as example
 		- Shows individual atoms
@@ -323,7 +323,7 @@ Reviewed: false
 	- “chemicals cycle within an ecosystem, where they are used and then recycled” ([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=C6ALP92D))
 - [[Bacteria]] and [[fungi]] break down waste products
 ##### Molecules: Interactions Within Organisms
-- “lower levels of [[organization]], the interactions between components that make up living organisms—[[organs]], [[tissues]], [[cells]], and [[molecules]]—are crucial to their smooth operation.” ([Urry et al., 2020, p. 56](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=59&annotation=VKXUNZI4))
+- “lower levels of [[organization]], the interactions between components that make up living organisms—[[organs]], [[tissues]], [[cells]], and [[molecule|molecules]]—are crucial to their smooth operation.” ([Urry et al., 2020, p. 56](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=59&annotation=VKXUNZI4))
 #### Theme: From Molecules to Ecosystems, Interactions Are Important in Biological Systems
 - [[Biological Systems]]
 - “[[biological hierarchy]], interactions between the components of the system ensure smooth integration of all the parts, such that they function as a whole.” ([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=YE76NH7I))

@@ -107,7 +107,7 @@ Reviewed: false
 - “smallest part of an element that maintains the identity of that element is called an [[atom]].” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=CT2PNHVH))
 	- Extremely tiny
 - “lest part of a [[compound]] that maintains the identity of that compound is called a [[molecule]].” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=3JLUFI9F))
-	- “[[Molecules]] are composed of atoms that are attached together and behave as a unit.” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=2KLS8S3E))
+	- “[[molecule|molecules]] are composed of atoms that are attached together and behave as a unit.” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=2KLS8S3E))
 - [[Macroscopic viewpoint]]: Scientists working with large numbers of atoms or molecules at a time
 - [[Microscopic viewpoint]]: “Describe chemical events on the level of individual atoms or molecules,” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=4IXN3DQ4))
 - “[[matter]] is composed of microscopic [[particle|particles]] so tiny that billions of them are needed to make a speck we can see with the naked eye. The” ([Mueller, p. 11](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=15&annotation=SRJEWJKM))
