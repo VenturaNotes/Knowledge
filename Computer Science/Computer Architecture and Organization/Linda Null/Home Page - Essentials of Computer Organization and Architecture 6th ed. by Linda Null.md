@@ -253,7 +253,7 @@ Reviewed: false
 		- [[Cloud computing]]
 	- Appendix A
 		- [[Data structures]]
-		- [[stacks]]
+		- [[Stack|stacks]]
 		- [[queues]]
 		- [[linked lists]]
 ### What's New in the Sixth Edition

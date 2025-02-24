@@ -37,7 +37,7 @@ Reviewed: false
 	- Iterative programming concepts
 		- [[Variable|variables]], [[conditionals]], [[loops]], [[records]], [[indirection]], ([[addresses]]/[[pointers]]/[[references]]), [[subroutines]], [[recursion]].
 	- Fundamental abstract data types:
-		- [[scalars]], [[Sequence|sequences]], [[vectors]], [[set|sets]], [[stacks]], [[queues]], [[maps]]/[[dictionaries]], [[ordered maps]] / [[ordered dictionaries]], [[priority queues]]
+		- [[scalars]], [[Sequence|sequences]], [[vectors]], [[set|sets]], [[Stack|stacks]], [[queues]], [[maps]]/[[dictionaries]], [[ordered maps]] / [[ordered dictionaries]], [[priority queues]]
 	- Fundamental data structures
 		- [[arrays]]
 		- [[linked lists]]
