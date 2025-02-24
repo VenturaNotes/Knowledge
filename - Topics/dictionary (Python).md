@@ -74,10 +74,10 @@ graduation_year: 2024
 	- [[Tuple (Python)|tuples]] are immutable and can be used as keys
 
 ### Difference between hash table and hash table
-- In java [^7]
+- In java [^5]
 	- A [[Hashtable (Java)|Hashtable]] does not allow keys or values to be null
 	- A [[Hashmap (Java)|Hashmap]] allows any of its values to be null, as well as one of its keys
-- In normal programming jargon, a hash map and a hash table are the same thing [^8]
+- In normal programming jargon, a hash map and a hash table are the same thing [^6]
 	- Python's `dict` type is more analogous to Hashmap (doesn't inherently provide synchronization guarantees)
 
 #### Synchronization
@@ -95,12 +95,12 @@ graduation_year: 2024
 	- `key`: Retrieve value the key holds
 	- `default_value`: Optional value to return if key not in dictionary. Otherwise, returns `None` by default
 
-## Source [^5]
+## Source [^7]
 
 ### Methods
 - [[Built-in Functions (Python)|Built-in Functions]]
 
-## Source [^6]
+## Source [^8]
 ### Methods
 ```python
 # Given
@@ -125,8 +125,8 @@ car.clear() # Empties dictionary
 [^2]: https://www.codecademy.com/resources/docs/python/dictionaries
 [^3]: ChatGPT
 [^4]: https://www.w3schools.com/python/ref_keyword_del.asp#:~:text=Definition%20and%20Usage,parts%20of%20a%20list%20etc.
-[^5]: https://www.programiz.com/python-programming/methods/dictionary/items
-[^6]: https://www.w3schools.com/python/exercise.asp?filename=exercise_dictionaries1
-[^7]: https://sentry.io/answers/hashtable-vs-hashmap/#:~:text=Another%20difference%20between%20a%20HashMap,only%20one%20can%20be%20null%20.
-[^8]: https://stackoverflow.com/questions/63910315/whats-the-difference-between-a-hashmap-and-a-hashtable-in-python
+[^5]: https://sentry.io/answers/hashtable-vs-hashmap/#:~:text=Another%20difference%20between%20a%20HashMap,only%20one%20can%20be%20null%20.
+[^6]: https://stackoverflow.com/questions/63910315/whats-the-difference-between-a-hashmap-and-a-hashtable-in-python
+[^7]: https://www.programiz.com/python-programming/methods/dictionary/items
+[^8]: https://www.w3schools.com/python/exercise.asp?filename=exercise_dictionaries1
 [^9]: https://stackoverflow.com/questions/57346276/what-is-the-time-complexity-of-comparing-2-dictionaries-in-python#:~:text=Short%20answer%3A%20If%20the%20two,checks%20can%20be%20computationally%20expensive.
