@@ -69,6 +69,13 @@ print(len(fruits))
 	- Defined using square brackets `[]`, with elements separated by commas
 - Supports [[List comprehension (Python)|list comprehension]]
 	- Python offers a concise way to create lists using list comprehensions, enabling efficient list generation based on existing iterables
+- Methods
+	- Lists come with built-in methods for common operations
+		- Appending
+		- Inserting
+		- Removing
+		- Sorting
+		- Reversing elements
 ## Source[^4]
 
 | Method    | Description                                                                  |

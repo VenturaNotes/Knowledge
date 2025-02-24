@@ -38,6 +38,26 @@ aliases:
 		- Therefore, we don't need any parentheses here.
 	- Since the above is a [[tautology]], we can write it as $A \land B \implies B$ as the double arrow tells us that it's a tautology
 		- We will call this an [[implication]], as it's a normal conditional with extra information
+
+## Source[^6]
+- Equivalent statements for implications ($P \to Q$)
+- If P then Q
+- If P, Q
+- P is sufficient for Q
+- Q if P
+- Q when P
+- Q whenever P
+- Q is necessary for P
+- P is a necessary condition for Q[^7]
+- A necessary condition for P is Q
+- Q unless $\lnot$P
+- P implies Q
+- P only if Q
+- P is sufficient for Q
+- P is a sufficient condition for Q
+- Q follows from P
+- $\lnot Q \to \lnot P$ (contrapositive)
+- P $\to$ Q $\equiv$ $\lnot P \lor Q$
 ## References
 
 [^1]: [[Home Page - Algebra 1 - Groups, Rings, Fields and Arithmetic by Ramji Lal#^26r0fb]]
@@ -45,3 +65,5 @@ aliases:
 [^3]: https://sites.math.washington.edu/~aloveles/Math300Winter2011/m300Quantifiers.pdf
 [^4]: [[Home Page - Building Blocks for Theoretical Computer Science by Margaret M. Fleck#^5upwyw]]
 [^5]: [[(4) Start Learning Logic - Part 3 - Conditional, Biconditional, Implication and Deduction Rules]]
+[^6]: [[(14) Equivalent Statements to an Implication]]
+[^7]: https://calcworkshop.com/logic/logical-implication/

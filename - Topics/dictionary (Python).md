@@ -96,9 +96,42 @@ graduation_year: 2024
 	- `default_value`: Optional value to return if key not in dictionary. Otherwise, returns `None` by default
 
 ## Source [^7]
+### Dictionary Clear()
+```python
+# dictionary
+numbers = {1: "one", 2: "two"}
 
-### Methods
-- [[Built-in Functions (Python)|Built-in Functions]]
+# removes all the items from the dictionary
+numbers.clear()
+
+print(numbers)
+
+# Output: {}
+```
+- Removes all items from the dictionary
+### Dictionary Copy()
+```python
+original_marks = {'Physics':67, 'Maths':87}
+
+copied_marks = original_marks.copy()
+
+
+print('Original Marks:', original_marks)
+print('Copied Marks:', copied_marks)
+
+# Output: Original Marks: {'Physics': 67, 'Maths': 87}
+#         Copied Marks: {'Physics': 67, 'Maths': 87}
+```
+- Returns a shallow copy of the dictionary
+### Dictionary fromkeys()
+### Dictionary get()
+### Dictionary items()
+### Dictionary keys()
+### Dictionary popitem()
+### Dictionary setdefault()
+### Dictionary pop()
+### Dictionary values()
+### Dictionary update()
 
 ## Source [^8]
 ### Methods
