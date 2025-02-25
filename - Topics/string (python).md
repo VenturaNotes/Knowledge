@@ -3,7 +3,8 @@ aliases:
   - string
 ---
 ## Synthesis
-- 
+### Characteristics
+- Immutable
 ## Source [^1]
 
 | x value                | Intention                          | Command              | Output      |
@@ -15,11 +16,17 @@ aliases:
 | "Hello World"          | Uppercase                          | `x.upper()`          | HELLO WORLD |
 | "Hello World"          | Lowercase                          | `x.lower()`          | hello world |
 | "Hello World"          | Replace character H with J         | `x.replace('H','J')` | Jello World |
-| 36<br>a = "age is {}." | Add placeholder for age parameter  | a.format(x)          | age is 36   |
+| 36<br>a = "age is {}." | Add placeholder for age parameter  | `a.format(x)`        | age is 36   |
 
 ## Source[^2]
 - Removing all spaces from a string
 	- `sentence = sentence.replace(' ', '')`
+	- #comment
+		- Example
+			- `myString = "5 1 6 2 8 3 4 10 9 7"`
+			- `print(myString.replace(' ', ''))`
+			- `Output: 51628341097`
+				- Not useful though in separating numbers if they are greater than 1 digit (such as the number 10)
 
 ## Source[^3]
 - Strings are [[immutable]] meaning their values cannot be changed after they're created

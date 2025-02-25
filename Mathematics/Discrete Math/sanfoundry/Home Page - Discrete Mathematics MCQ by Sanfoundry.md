@@ -7,7 +7,7 @@ tags:
   - type/website
 ---
 ## (1) The Foundation: Logics and Proofs
-### (Done) (1.1) Propositions
+### (Complete) (1.1) Propositions
 - (1) Which of the following statement is a proposition?
 	- "The only odd prime number is 2" is a [[proposition]] because this statement has a truth value which is false
 - (2) The truth value of "4+3 = 7 or 5 is not prime"
