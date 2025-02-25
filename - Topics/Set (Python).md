@@ -4,8 +4,13 @@ aliases:
   - sets
 ---
 ## Synthesis
-- Empty set initialization: `my_variable = set()`
-	- Avoid `my_variable = {}` as that creates a [[dictionary (Python)|dictionary]]
+- Empty set initialization
+	- `my_variable = set()`
+- Removing vs Discarding
+	- `my_variable.remove("hello")` raises error if item does not exist
+	- `my_variable.discard("hello")` will not raise error if item does not exist
+	- #question Why would you ever use `remove` over `discard`? 
+
 ### Questions
 - #question what is [[auxiliary space (python)|auxiliary space]]
 ## Source [^1]

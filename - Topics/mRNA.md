@@ -1,6 +1,7 @@
 ---
 aliases:
   - messenger ribonucleic acid
+  - messenger RNA
 ---
 ## Synthesis
 - 

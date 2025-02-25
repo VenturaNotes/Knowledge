@@ -1,3 +1,7 @@
+---
+aliases:
+  - microprocessor
+---
 ## Synthesis
 - 
 ## Source [^1]
