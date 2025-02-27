@@ -11,7 +11,12 @@ aliases:
 	- This is what an NIC looks like
 ## Source[^2]
 - This is an input / output device
+
+## Source[^3]
+- ![[Screenshot 2025-02-25 at 11.27.11 AM.png|300]]
+	- Another angle of what NIC looks like
 ## References
 
 [^1]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
 [^2]: https://youtu.be/HGYOEeik844?si=FSE1pdbZWTo-TL_b
+[^3]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-3-computer-networks-quizzes/ks4-ocr-j277-1-3-wired-and-wireless-networks-quiz/
