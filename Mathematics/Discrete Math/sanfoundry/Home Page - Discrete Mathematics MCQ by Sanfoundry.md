@@ -5,6 +5,7 @@ Length: "1000"
 tags:
   - status/incomplete
   - type/website
+Reviewed: false
 ---
 ## (1) The Foundation: Logics and Proofs
 ### (Complete) (1.1) Propositions

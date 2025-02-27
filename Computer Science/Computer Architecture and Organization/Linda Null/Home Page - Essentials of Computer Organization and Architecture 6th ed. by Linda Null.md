@@ -389,7 +389,7 @@ Reviewed: false
 	- #comment Weird that this book was published in 2023 but ChatGPT is definitely something that can solve more problems than we can.
 #### (1.2.2) System Components
 - Combination of hardware and software is a [[computer system]]
-- Most important [[software]] is [[system software]], which includes the [[operating system]]
+- Most important [[software]] is [[system software]], which includes the [[Operating Systems|operating system]]
 - “[[System software]] is the collection of programs that allow you to use your computer.” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=60&annotation=LPUXQXIE))
 	- Integrates closely with hardware on system
 	- The interface between you and computer hardware

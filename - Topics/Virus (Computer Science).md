@@ -1,10 +1,9 @@
 ---
 aliases:
-  - MitM
-tags:
-  - video1/incomplete
+  - virus
 ---
 ## Synthesis
+- 
 ## Source [^1]
 - 
 ## References

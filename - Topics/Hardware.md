@@ -17,8 +17,12 @@
 
 ## Source[^3]
 - The collective term for all physical components of a computer system
+
+## Source[^4]
+- Hardware is built using multiple abstractions, such as transistors, logic gates, chips, and memory
 ## References
 
 [^1]: ChatGPT
 [^2]: Gemini
 [^3]: Google's Search Labs | AI Overview
+[^4]: https://quizizz.com/admin/quiz/5acb5f51c4daf70019c267e3/abstractions-quiz

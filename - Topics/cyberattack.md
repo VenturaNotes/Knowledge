@@ -13,7 +13,7 @@ tags:
 	- [[Distributed Denial of Service]]
 - [[SQL Injection]]
 - [[Cross-Site Scripting]]
-- [[Man-in-the-Middle]]
+- [[man-in-the-middle attack|Man-in-the-Middle]]
 - [[Credential Stuffing]]
 - [[Zero-Day Exploits]]
 - [[Advanced Persistent Threat|Advanced Persistent Threats]]

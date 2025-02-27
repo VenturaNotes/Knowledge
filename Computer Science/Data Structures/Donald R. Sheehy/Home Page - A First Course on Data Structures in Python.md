@@ -657,7 +657,7 @@ Time tanken for n =  1000 :  0.024152040481567383
 ```
 - Causes for time variation
 	- Computer performs many other tasks at the same time
-		- Running an [[operating system]]
+		- Running an [[Operating Systems|operating system]]
 		- Several other programs
 	- Different computers 
 		- Difference caused by [[processor]] speed

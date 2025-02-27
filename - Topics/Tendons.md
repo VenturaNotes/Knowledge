@@ -1,3 +1,7 @@
+---
+aliases:
+  - tendon
+---
 ## Synthesis
 - 
 ## Source[^1]

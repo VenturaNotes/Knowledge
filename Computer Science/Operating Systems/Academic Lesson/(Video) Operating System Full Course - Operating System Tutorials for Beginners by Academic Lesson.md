@@ -10,7 +10,7 @@ Reviewed: false
 ## Introduction to Operating Systems
 - ![[Screenshot 2023-09-22 at 3.34.13 AM.png]]
 	- Dr. Mike Murphy is an assistant professor of Computer Science and Information systems at Coastal Carolina University
-	- What is an [[operating system]] (it's a layer of [[software]] that provides 2 important services to a computer system)?
+	- What is an [[Operating Systems|operating system]] (it's a layer of [[software]] that provides 2 important services to a computer system)?
 		- [[Abstraction]]
 			- Hides details of different [[hardware]] configurations
 			- [[Applications]] do not need to be tailored for each possible device that might be present on a system

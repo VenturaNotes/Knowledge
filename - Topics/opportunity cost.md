@@ -37,8 +37,17 @@
 		- Shows the opportunity cost of acquiring an additional item on the x-axis. The slope is also called the [[marginal rate of substitution]] (ERS)
 - Examples of opportunity cost and budget constraints
 	- Burgers and bust tickets: With a limited budget, you can only buy a limited number of burgers and bus tickets. The more burgers you buy, the fewer bus tickets you can buy
+
+## Source[^4]
+- The cost of the next most valuable opportunity is known as an opportunity cost
+
+## Source[^5]
+- The value of the next best alternative foregone
+	- Example: If you choose to study for 4 hours instead of working, the wages you forgo are your opportunity cost. 
 ## References
 
 [^1]: https://www.investopedia.com/terms/o/opportunitycost.asp
 [^2]: https://courses.lumenlearning.com/suny-macroeconomics/chapter/problem-sets-choice-in-a-world-of-scarcity/
 [^3]: Google's SGE
+[^4]: https://mru.org/practice-questions/comparative-advantage-practice-questions?sid=8916440
+[^5]: ChatGPT
