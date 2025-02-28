@@ -1,3 +1,7 @@
+---
+aliases:
+  - bridges
+---
 ## Synthesis
 - 
 ## Source [^1]

@@ -57,30 +57,48 @@ Reviewed: false
 - (35) Organisms in the Domain [[Eukarya]] have a membrane bound nucleus
 - (36) The most inclusive group of organisms is a [[domain (Biology)|domain]]
 - (37) All organisms classified in the Domain Eukarya are multicellular is false
-- (38)
-- (39)
-- (40)
-- (41)
-- (42)
-- (43)
-- (44)
-- (45)
-- (46)
-- (47)
-- (48)
-- (49)
-- (50)
-- (51)
-- (52)
-- (53)
-- (54)
-- (55)
-- (56)
-- (57)
+- (38) A unicellular, eukaryotic organism would be classified as [[protists|protist]]
+- (39) The correct way to write the scientific name of the garden pea:
+	- [[Pisum sativum]]
+- (40 Hypotheses can be tested in
+	- Laboratory experiments
+	- [[field experiment|field experiments]]
+- (41) When a person uses isolated facts and creative thinking to arrive at an explanation for something, he/she used [[inductive reasoning]]
+- (42) [[Deductive reasoning]] begins with a general statement that implies a specific conclusion
+- (43) A [[control group]] does not experience all the steps in an experiment
+- (44) New data can support or reject a hypothesis
+- (45) The component in an experiment being tested is called the experimental variable
+- (46) Data should be objective
+- (47) An experiment is done to see if eating breakfast affects students' performance on exams. The experimental variable is
+	- Whether the student has breakfast or not
+- (48) Which of the following is an assumption scientists must accept when performing the scientific process?
+	- Natural laws are not affected by time
+	- Nature is real, understandable, and knowable by observation
+	- Nature is orderly and uniform
+- (49) The explanation that life comes only from life is associated with the [[biogenesis]] theory
+- (50) Science is impartial and does not make ethical or moral decisions
+	- #question What does this mean? 
+- (51) The theory that accounts for the differences and the unity that joins all living things is the [[evolution]] theory
+- (52) Theories that are generally accepted by an overwhelming number of scientists are called
+	- Principles
+	- Laws
+- (53) The first step in the scientific method is make observations and consider previous data
+- (54) The word theory is reserved for a conceptual scheme that is supported by a broad range of
+	- data
+	- observations
+	- experiments
+- (55) Scientists always gather data by experimenting is false
+- (56) If an experiment is done to see if a dietary supplement affects the weight gain of chickens, what variables need to be controlled?
+	- Where the chickens are kept
+	- The availability of water
+	- The temperature of the surroundings
+	- #comment Probably their activity level too (but that probably falls under the category of where they're kept)
+- (57) If the research subjects are different, it is hoped that [[random selection]] distributes them equally among the groups
 ## Chapter 2
-- (1)
-- (2)
-- (3)
+- (1) Which of the following elements is NOT one of the six that make up 98% of most organisms' body weight?
+	- Iron
+- (2) All atoms of a certain element have the same number of protons.
+- (3) 
 - (4)
 - (5)
 - (6)

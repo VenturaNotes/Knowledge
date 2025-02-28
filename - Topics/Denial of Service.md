@@ -1,8 +1,6 @@
 ---
 aliases:
   - DoS
-tags:
-  - video1/incomplete
 ---
 ## Synthesis
 - 

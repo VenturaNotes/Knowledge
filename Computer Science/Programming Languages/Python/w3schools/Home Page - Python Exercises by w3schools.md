@@ -1154,7 +1154,7 @@ myfunc()
 print(x) # 300
 ```
 - (2) Consider the following code. What will be the printed result?
-	- #errata This [problem](https://www.w3schools.com/python/exercise.asp?x=xrcise_scope2) forgot to ask a question
+	- #comment This [problem](https://www.w3schools.com/python/exercise.asp?x=xrcise_scope2) forgot to ask a question
 ```python
 x = 300
 def myfunc():

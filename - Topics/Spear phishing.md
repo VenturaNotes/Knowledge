@@ -1,8 +1,5 @@
----
-tags:
-  - video1/incomplete
----
 ## Synthesis
+- 
 ## Source [^1]
 - Targets specific individual in organization to steal their login credentials
 - Before starting attack, information about person is gathered such as

@@ -1,6 +1,7 @@
 ---
 aliases:
   - modulator-demodulator
+  - modems
 ---
 ## Synthesis
 - 

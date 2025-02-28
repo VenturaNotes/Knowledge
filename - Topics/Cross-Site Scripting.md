@@ -1,8 +1,6 @@
 ---
 aliases:
   - XSS
-tags:
-  - video1/incomplete
 ---
 ## Synthesis
 - 

@@ -1,8 +1,5 @@
----
-tags:
-  - video1/incomplete
----
 ## Synthesis
+- 
 ## Source [^1]
 - Phishing with SMS text messages
 ## References

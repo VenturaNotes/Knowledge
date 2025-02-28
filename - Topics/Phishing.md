@@ -1,7 +1,3 @@
----
-tags:
-  - video1/incomplete
----
 ## Synthesis
 - It's when someone receives a deceptive message claiming to be from a trusted source, but are just trying to retrieve sensitive information
 
