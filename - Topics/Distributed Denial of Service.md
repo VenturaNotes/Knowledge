@@ -1,8 +1,6 @@
 ---
 aliases:
   - DDoS
-tags:
-  - video1/incomplete
 ---
 ## Synthesis
 - 

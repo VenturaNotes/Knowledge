@@ -3,8 +3,6 @@ aliases:
   - APT
   - Advanced Persistent Threats
   - APTs
-tags:
-  - video1/incomplete
 ---
 ## Synthesis
 - 

@@ -2,6 +2,7 @@
 aliases:
   - repeaters
   - concentrators
+  - hubs
 ---
 ## Synthesis
 - 

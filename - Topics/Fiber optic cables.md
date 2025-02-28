@@ -1,3 +1,7 @@
+---
+aliases:
+  - fiber optic cable
+---
 ## Synthesis
 - 
 ## Source [^1]

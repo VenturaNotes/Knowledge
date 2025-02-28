@@ -1,3 +1,7 @@
+---
+aliases:
+  - protist
+---
 ## Synthesis
 - 
 ## Source [^1]

@@ -1,8 +1,6 @@
 ---
 aliases:
   - LOLBins
-tags:
-  - video1/incomplete
 ---
 ## Synthesis
 - 

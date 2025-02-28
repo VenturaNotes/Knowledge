@@ -1,10 +1,9 @@
 ---
 aliases:
   - voice phishing
-tags:
-  - video1/incomplete
 ---
 ## Synthesis
+- 
 ## Source [^1]
 - Also known as voice phishing
 ## References
