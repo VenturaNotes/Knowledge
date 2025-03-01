@@ -460,12 +460,12 @@ Reviewed: false
 
 ## (2) Neurons and Glia
 ### Introduction
-- “All [[tissues]] and [[organs]] in the body consist of [[cells]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=H6DYWGNM))
+- “All [[tissues]] and [[organs]] in the body consist of [[cell|cells]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=H6DYWGNM))
 	- “specialized functions of cells and how they interact determine the functions of organs.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=W5ZZWKMZ))
 - “[[brain]] is an organ” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=K9RNDCQQ))
 - “In neuroscience, there is no need to separate mind from brain;” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=7EM67949))
 - “organization of this book reflects this “neurophilosophy.”” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=647QXZSA))
-- “This chapter focuses on the structure of the different types of [[cells]] in the nervous system: [[neurons]] and [[glia]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=96JKBEHN))
+- “This chapter focuses on the structure of the different types of [[cell|cells]] in the nervous system: [[neurons]] and [[glia]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=96JKBEHN))
 - “Although there are approximately equal numbers of neurons and glia in the adult human brain (roughly 85 billion of each type), neurons are responsible for most of the unique functions of the brain.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=WD3AJBPW))
 - “It is the [[neurons]] that sense changes in the environment, communicate these changes to other neurons, and command the body’s responses to these sensations.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=VLZXCRB5))
 - “[[Glia]], or glial cells, contribute to brain function mainly by insulating, supporting, and nourishing neighboring neurons.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=SD2ULL35))
@@ -473,7 +473,7 @@ Reviewed: false
 - “neurons perform most information processing in the brain,” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=QZZAQC4F))
 
 ### The Neuron Doctrine
-- “Most [[cells]] are in the range of 0.01–0.05 mm in diameter.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=3LLWEE25))
+- “Most [[cell|cells]] are in the range of 0.01–0.05 mm in diameter.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=3LLWEE25))
 - “Units of Size in the Metric System” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=69&annotation=HCS84UIG))
 	- kilometer: km = $10^3m$
 		- About two-thirds a mile

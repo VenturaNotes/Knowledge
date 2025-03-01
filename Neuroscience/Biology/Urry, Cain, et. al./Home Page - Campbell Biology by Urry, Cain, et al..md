@@ -121,7 +121,7 @@ Reviewed: false
 		- [[Evolution]]
 #### (Theme) New Properties Emerge at Successive Levels of Biological Organization
 - “Zooming in at ever-finer resolution illustrates the principle that underlies [[reductionism]], an approach that reduces complex systems to simpler components that are more manageable to study.” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=DU3PMIU5))
-- “by studying the [[molecular structure]] of [[DNA]] that had been extracted from [[cells]], [[James Watson]] and [[Francis Crick]] inferred the chemical basis of [[biological inheritance]].” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=6QRNFXCY))
+- “by studying the [[molecular structure]] of [[DNA]] that had been extracted from [[cell|cells]], [[James Watson]] and [[Francis Crick]] inferred the chemical basis of [[biological inheritance]].” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=6QRNFXCY))
 	- Reductionism provides an incomplete view of life on Earth though.
 ##### (Figure 1.3) Exploring Levels of Biological Organization
 - ![[Screenshot 2023-06-03 at 3.29.08 PM.png]]
@@ -153,7 +153,7 @@ Reviewed: false
 	- “The honeycombed tissue in the interior of the leaf (left side of photo) is the main location of [[photosynthesis]], the process that converts light energy to the chemical energy of sugar.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=DX6HQMAJ)) ^w4kmwy
 	- “The jigsaw puzzle–like “skin” on the surface of the leaf (right side of photo) is a tissue called [[epidermis]].” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=FMG7QF42))
 	- “The pores through the epidermis allow entry of the gas $CO_2$, a raw material for sugar production.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=GLTQEG9L)) ^8n6578
-- (8) [[Cells]] ^ikngtm
+- (8) [[cell|cells]] ^ikngtm
 	- “life’s fundamental unit of structure and function.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=HITCDQ8V))
 	- “Some organisms consist of a [[single cell]], which performs all the functions of life.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=RZ7TAG2I))
 	- “Other organisms are [[multicellular]] and feature a division of labor among [[specialized cells]]” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=3JL6B7N7))
@@ -323,7 +323,7 @@ Reviewed: false
 	- “chemicals cycle within an ecosystem, where they are used and then recycled” ([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=C6ALP92D))
 - [[Bacteria]] and [[fungi]] break down waste products
 ##### Molecules: Interactions Within Organisms
-- “lower levels of [[organization]], the interactions between components that make up living organisms—[[organs]], [[tissues]], [[cells]], and [[molecule|molecules]]—are crucial to their smooth operation.” ([Urry et al., 2020, p. 56](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=59&annotation=VKXUNZI4))
+- “lower levels of [[organization]], the interactions between components that make up living organisms—[[organs]], [[tissues]], [[cell|cells]], and [[molecule|molecules]]—are crucial to their smooth operation.” ([Urry et al., 2020, p. 56](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=59&annotation=VKXUNZI4))
 #### Theme: From Molecules to Ecosystems, Interactions Are Important in Biological Systems
 - [[Biological Systems]]
 - “[[biological hierarchy]], interactions between the components of the system ensure smooth integration of all the parts, such that they function as a whole.” ([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=YE76NH7I))

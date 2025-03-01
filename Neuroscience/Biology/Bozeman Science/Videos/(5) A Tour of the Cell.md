@@ -42,7 +42,7 @@ Reviewed: false
 				- We can stain material that can stay alive
 					- Live-dead stains
 						- You would stain it and it would show you all the cells that were alive at that point and dead at that point
-	- There are two major types of [[cells]]
+	- There are two major types of [[cell|cells]]
 		- [[Prokaryotic cells]]
 			- Parts
 				- [[Pili]]

@@ -1,5 +1,9 @@
+---
+aliases:
+  - brute-force attacks
+---
 ## Synthesis
-- 
+- When a hacker tries multiple combinations of usernames and passwords until they find the correct login information
 ## Source [^1]
 - A brute force attack can be stopped by limiting the number of failed login attempts
 	- For example, many systems will lock the account after there failed logins

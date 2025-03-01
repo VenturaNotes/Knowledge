@@ -9,6 +9,7 @@ Reviewed: false
 ---
 ## Chapter 1
 - (1) [[Living things]] respond to stimuli, reproduce, and have adaptations
+#review
 - (2) The smallest unit of matter that can enter into chemical combination is an [[atom]]
 - (3) The smallest living unit is a [[cell]]
 - (4) Similar cells with a similar function describes a [[tissue]]
@@ -98,26 +99,34 @@ Reviewed: false
 - (1) Which of the following elements is NOT one of the six that make up 98% of most organisms' body weight?
 	- Iron
 - (2) All atoms of a certain element have the same number of protons.
-- (3) 
-- (4)
-- (5)
-- (6)
-- (7)
-- (8)
-- (9)
-- (10)
-- (11)
-- (12)
-- (13)
-- (14)
-- (15)
-- (16)
-- (17)
-- (18)
-- (19)
-- (20)
-- (21)
-- (22)
+- (3) All matter is composed of certain basic substances called elements
+- (4) The three isotopes of carbon 12C, 13C and 14C have different numbers of neutrons
+- (5) Protons have a positive electrical charge
+- (6) Electrons do not always have the same amount of potential energy
+- (7) The [[atomic number]] of an atom is the same as the number of protons the atom has
+- (8) If an atom has an atomic number of 17 and an atomic mass of 35, the number of neutrons in its nucleus equals 18
+- (9) Electrons with the least amount of potential energy are located in the K shell
+- (10) If an atom with an atomic number of 9 and an atomic mass of 19 es electrically neutral, it has 9 electrons
+- (11) Radioactive isotopes are used to
+	- determine the age of fossils
+	- trace chemicals during biochemical reactions
+	- detect thyroid abnormalities
+- (12) Electrons that are farther from the nucleus have more potential energy than electrons closer to the nucleus
+- (13) The subatomic particle with an atomic mass of one and a neutral charge is a neutron
+- (14) The nucleus contains protons and neutrons
+- (15) Electron shells, other than the first one, can contain up to eight electrons
+- (16) An electrically neutral atom with an atomic number of 7 will have two electron shells
+- (17) Electrically neutral magnesium (atomic number 12) is an example of an inert (non reactive) atom is false
+- (18) An atom of hydrogen (atomic number = 1; atomic mass = 1) has one proton and no neutrons.
+- (19) Which of the following is an inert (non-reactive) atom?
+	- neon; atomic number = 10
+- (20) The sodium ion (Na+) has 12 protons (atomic number of Na = 11) is false
+- (21) What bond is most easily broken?
+	- A hydrogen bond is more easily broken than 
+		- a triple covalent bond
+		- a single covalent bond
+- (22) What type of bond is formed when atoms share electrons?
+	- Covalent
 - (23)
 - (24)
 - (25)

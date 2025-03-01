@@ -1,6 +1,7 @@
 ---
 aliases:
   - OTP
+  - OTPs
 ---
 ## Synthesis
 - 
