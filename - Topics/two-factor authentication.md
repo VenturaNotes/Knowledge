@@ -32,16 +32,15 @@ aliases:
 	- Password + [[one-time password]]
 	- Online services implementation
 		- When logging into a service, a text message ([[SMS verification]]) to the user's phone with a unique code must be entered if computer not recognized
-			- #question how does SMS verification work?
 			- No one can access account without phone which increases security
-		- A smartphone app such as Google Authenticator, can generate random codes that verify the user
-			- #question what is google authenticator?
+		- A smartphone app such as [[Google Authenticator]], can generate random codes that verify the user
 - Bypassing 2FA
 	- Not meant to be bypassed
 	- If you lost your 2FA method of accessing an account
 		- Use a recovery e-mail or phone number
 		- Contact support of the company your trying to access to verify your identity
-		- Use 2FA backup code provided when 2FA created. Code is a long series of letters and numbers
+		- Use 2FA backup code provided when 2FA created.
+			- Code is a long series of letters and numbers
 ## References
 
 [^1]: https://www.computerhope.com/jargon/t/twofactor-auth.htm

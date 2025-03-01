@@ -9,3 +9,4 @@ aliases:
 ## References
 
 [^1]: ChatGPT
+[^2]: https://www.crackap.com/ap/macroeconomics/question-1.html

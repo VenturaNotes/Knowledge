@@ -116,7 +116,7 @@ Reviewed: false
 	- [[Systems]]
 		- In [[biology]], we're built on this hierarchy of life.
 			- Living things are made of [[carbon compounds]]
-				- Those are organized into [[macromolecules]] which make [[Organelle|organelles]] which make [[cells]] which make [[tissues]] which make [[organs]] which make [[organ systems]], which make [[organisms]] which make [[Population (Biology)|populations]] which make [[communities]] and [[ecosystems]] and [[biomes]] and [[Biosphere|biospheres]]
+				- Those are organized into [[macromolecules]] which make [[Organelle|organelles]] which make [[cell|cells]] which make [[tissues]] which make [[organs]] which make [[organ systems]], which make [[organisms]] which make [[Population (Biology)|populations]] which make [[communities]] and [[ecosystems]] and [[biomes]] and [[Biosphere|biospheres]]
 			- At each of the different levels, we start to get [[emergent properties]]
 				- Properties that weren't there the level before
 		- The way systems are organized is important.

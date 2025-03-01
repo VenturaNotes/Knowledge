@@ -1,6 +1,7 @@
 ---
 aliases:
   - Telecommunication network
+  - telecommunications network
 ---
 ## Synthesis
 - Telnet is used for remote login to other [[systems]]
