@@ -2,8 +2,13 @@
 - 
 ## Source [^1]
 - A set of practices, tools, and cultural philosophies that integrates software development and IT operations
+	- #question What is this set of practices tools, and cultural philosophies? Add information for each of these factors
 - Goal of DevOps is to improve the speed and quality of software delivery by breaking down [[silo|silos]] between development and operations teams
+
+## Source[^2]
+- A set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the systems development life cycle and provide continuous delivery with high software quality.
 
 ## References
 
 [^1]: Google's Search Labs | AI Overview
+[^2]: https://spdload.com/blog/software-development-glossary/

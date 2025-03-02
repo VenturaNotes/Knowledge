@@ -1,3 +1,7 @@
+---
+aliases:
+  - abstract class
+---
 ## Synthesis
 - 
 ## Source [^1]

@@ -1,15 +1,39 @@
 ## Synthesis
-- 
+- The goal of alpha testing is to find bugs and issues early in the development cycle by internal staff before it becomes available to external testers
 ## Source [^1]
-- Software testing performed by internal staff or developers before making it available to external testers, focusing on identifying bugs and issues early in the development cycle.
-	- Details[^2]
-		- [[External testers]] are typically end users, beta testers, or quality assurance (QA) professionals who are not part of the internal development team. They test the software in real-world conditions to identify issues that internal testing might have missed.
-	- #question What is the development cycle?
+- Alpha testing is [[software testing]] performed by [[Internal staff#Alpha Testing|internal staff]] or developers before making it available to [[external testers]], focusing on identifying [[bug|bugs]] and [[issues#Software Development|issues]] early in the [[Software Development Life Cycle|development cycle]].
+	- #question is alpha testing a type of software testing?
+## Source [^2]
+### Internal Development Team
+- Typically includes
+	- [[Software engineer|Software engineers]] (developers, programmers)
+		- #question are developers and programmers the same thing as software engineers?
+	- [[UI-UX Designers|UI/UX designers]]
+	- [[product manager|product managers]]
+	- [[Quality assurance engineer|QA engineers]] / [[quality assurance tester|QA testers]]
+	- [[DevOps engineers]]
+	- [[Analyst|business analysts]] (in some cases)
+		- #question Why only in some cases?
+### Internal Testers
+- Internal testers usually conduct testing in controlled environments using the below methods rather than real-world unpredictable scenarios. This is often referred to as [[pre-production testing]], [[staging]], or [[sandbox testing]]
+	- #question give an example for structured test cases, simulations, and predefined conditions
+	- structured test cases
+	- simulations
+	- predefined conditions
+- Internal testers can be
+	- QA teams (dedicated software testers)
+	- Developers (who do [[unit test|unit testing]])
+	- Other employees (for [[user acceptance testing|UAT]] and [[dogfooding]])
 
-## Source[^3]
-- A preliminary test of a 
+### Description and Real-world conditions
+- Alpha testing is done in a controlled, internal environment before releasing software to external users.
+	- #question is alpha testing after beta testing? What is the order of these tests? 
+- Real-world conditions involve unpredictable user interactions, varied hardware, internet conditions, and diverse usage scenarios.
+- Real-world testing includes:
+	- [[Beta testing]]
+	- [[Field testing]] (testing in live conditions)
+	- [[Usability testing]]
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: ChatGPT
-[^3]: Google's Search Labs | AI Overview

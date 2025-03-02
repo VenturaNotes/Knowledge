@@ -15,8 +15,12 @@
 - At one of the lowest levels of abstraction, digital data is represented in [[binary]] using only combinations of the digits zero and one
 - An abstraction generalizes functionality from specific examples in order to generalize concepts
 - The process of developing an abstraction involves removing details and generalizing functionality
+
+## Source[^4]
+- 
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
 [^2]: https://en.wikipedia.org/wiki/Abstraction_(computer_science)
 [^3]: https://quizizz.com/admin/quiz/5acb5f51c4daf70019c267e3/abstractions-quiz
+[^4]: 

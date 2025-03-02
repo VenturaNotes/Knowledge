@@ -244,7 +244,7 @@ Reviewed: false
 		- [[I-O architectures]]
 			- [[SCSI]]
 			- [[ATA]]
-			- [[IDE]]
+			- [[integrated development environments|IDE]]
 			- [[SATA]]
 			- [[PCI]]
 			- [[USB]]
@@ -339,7 +339,7 @@ Reviewed: false
 	- Their distinction is not clear-cut
 ### (1.2) Computer Systems
 #### (1.2.1) The Main Components of a Computer
-- “Computer scientists design [[algorithms]] that usually are implemented as [[Program|programs]] written in some computer language, such as Java or C++ .” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=58&annotation=2RKRBI6H))
+- “Computer scientists design [[Algorithm|algorithms]] that usually are implemented as [[Program|programs]] written in some computer language, such as Java or C++ .” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=58&annotation=2RKRBI6H))
 - Machine level can be thought of as an algorithm implemented as an electronic device
 - Modern computers are implementations of algorithms that execute other algorithms. Chain of nested algorithms leads to following principle
 	- [[Principle of equivalence of hardware and software]]
