@@ -3,4 +3,4 @@
 ## Stats
 - 8000+ Topics
 - 1.5 million+ words
-- 178 / 737 Complete Playlists or Textbooks
+- 178 Completed Playlists/Textbooks
