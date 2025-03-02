@@ -2,6 +2,7 @@
 - 
 ## Source [^1]
 - Product features or functions that developers must implement to enable users to accomplish their tasks
+	- #question Could you give some examples of functional requirements in software?
 - Generally, functional requirements describe system behavior under specific conditions
 ## References
 

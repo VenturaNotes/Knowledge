@@ -14,6 +14,11 @@ aliases:
 - Applications send data packets over physical media (cables, radio waves) using networking hardware and protocols
 	- #question is physical media the plural version of physical medium
 	- #question What does the code look like to send over data packets?
+
+## Source[^2]
+- A software program designed to perform a specific set of functions or tasks for the end-user.
+	- #question Could you give some examples of applications?
 ## References
 
 [^1]: ChatGPT
+[^2]: https://spdload.com/blog/software-development-glossary/

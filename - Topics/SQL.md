@@ -29,7 +29,11 @@ aliases:
 		- Sort derived values in ascending or descending order
 	- (7) LIMIT / OFFSET
 		- Keep or skip a specified number of rows
+
+## Source[^3]
+- A domain-specific language used in programming for managing and manipulating relational databases.
 ## References
 
 [^1]: [[Home Page - SQL Tutorial by W3Schools]]
 [^2]: https://builtin.com/data-science/sql-order-of-execution
+[^3]: https://spdload.com/blog/software-development-glossary/

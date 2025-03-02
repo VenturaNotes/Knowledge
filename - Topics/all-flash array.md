@@ -1,0 +1,11 @@
+---
+aliases:
+  - AFA
+---
+## Synthesis
+- 
+## Source [^1]
+- 
+## References
+
+[^1]:

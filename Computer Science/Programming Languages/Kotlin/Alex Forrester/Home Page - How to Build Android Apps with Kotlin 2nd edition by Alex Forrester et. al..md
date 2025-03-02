@@ -128,7 +128,7 @@ Reviewed: false
 - Complete code can be found within supplement given above
 #### (1.2) Creating an Android project with Android Studio
 - Become confident with [[Android Studio]]
-	- “This is the official integrated development environment ([[IDE]]) for [[Android development]], built on [[JetBrains]]’ [[IntelliJ IDEA IDE]] and developed by the Android Studio team at [[Google]].” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=29&annotation=5E39ZTEK))
+	- “This is the official integrated development environment ([[integrated development environments|IDE]]) for [[Android development]], built on [[JetBrains]]’ [[IntelliJ IDEA IDE]] and developed by the Android Studio team at [[Google]].” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=29&annotation=5E39ZTEK))
 - “development of Android Studio has followed the development of the IntelliJ IDEA IDE.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=29&annotation=24LDW8VL))
 	- IDE enables you to optimize code through suggestions, shortcuts, and standard refactoring
 - Will use [[Kotlin]]. Previous standard language for Android apps was [[Java]]

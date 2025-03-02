@@ -1,6 +1,7 @@
 ---
 aliases:
   - SWE
+  - Software engineers
 ---
 ## Synthesis
 - 
@@ -10,6 +11,7 @@ aliases:
 	- Their goal is to create efficient, reliable, and scalable software solutions for various needs
 		- #question What kind of needs are we talking about
 		- #question How do they make applications efficient, reliable, and scalable?
+	- #question Is there a difference between a software engineer, developer, or programmer?
 ### Responsibilities
 - 
 ## References

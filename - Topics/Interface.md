@@ -10,6 +10,10 @@
 - [[Hardware Interface]]
 - [[Network Interface]]
 - [[Programming Interface]]
+
+## Source[^2]
+- In object-oriented programming, an interface is a definition of methods that a class must implement. Interfaces enable a polymorphism known as interface inheritance and can define a set of functions or commands to which different objects can respond.
 ## References
 
 [^1]: ChatGPT
+[^2]: https://spdload.com/blog/software-development-glossary/
