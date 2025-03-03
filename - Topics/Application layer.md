@@ -72,9 +72,9 @@ aliases:
 - The application layer provides the services to user
 
 ## Source[^3]
-- 
+- The application layer sits at Layer 7, the top of the Open Systems Interconnection (OSI) communications model.
 ## References
 
 [^1]: ChatGPT
 [^2]: https://youtu.be/NRckVJk9n0k?si=sqFUKq8vDMUYCos4
-[^3]: 
+[^3]: https://www.techtarget.com/searchnetworking/definition/Application-layer
