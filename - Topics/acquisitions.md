@@ -1,3 +1,7 @@
+---
+aliases:
+  - acquisition
+---
 ## Synthesis
 - 
 ## Source [^1]

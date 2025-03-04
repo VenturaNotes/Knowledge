@@ -21,7 +21,6 @@ aliases:
 - [[Dynamic Programming]]
 - [[Backtracking Algorithm]]
 - [[Machine Learning Algorithm]]
-
 ### Examples of Algorithms
 - [[QuickSort]] (Sorting Algorithm) – A divide-and-conquer sorting algorithm that selects a pivot and partitions the array around it.
 - [[Binary Search]] (Searching Algorithm) – Searches for an element in a sorted array by repeatedly dividing the search range in half.

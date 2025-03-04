@@ -1,3 +1,7 @@
+---
+aliases:
+  - UML
+---
 ## Synthesis
 - 
 ## Source [^1]

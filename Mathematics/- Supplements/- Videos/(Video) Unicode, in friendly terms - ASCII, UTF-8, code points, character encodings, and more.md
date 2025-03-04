@@ -16,7 +16,7 @@ Reviewed: false
 			- This gives us the binary representation for storage
 		- What about the letter d, Chinese characters, or emojis?
 			- Solution is collectively agreed mapping between characters and numeric values
-				- Most popular simplest one is [[ASCII]] which is an acronym but nobody uses the full name
+				- Most popular simplest one is [[American Standard Code for Information Interchange|ASCII]] which is an acronym but nobody uses the full name
 					- It maps a set of basic western characters to numbers between 0 and 127. Supports 128 different characters
 	- To convert String "Hello" to ascii, look up the relevant value for each character (such as the ASCII value), then convert the value to binary, then concatenate them all together to get the storage ready version
 		- Each character becomes 8 bits or 1 byte of binary data. This is known as encoding the string

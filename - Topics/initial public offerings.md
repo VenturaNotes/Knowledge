@@ -1,6 +1,8 @@
 ---
 aliases:
   - IPOs
+  - IPO
+  - initial public offering
 ---
 ## Synthesis
 - 

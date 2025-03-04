@@ -1,3 +1,7 @@
+---
+aliases:
+  - network bandwidth
+---
 ## Synthesis
 - 
 ## Source [^1]

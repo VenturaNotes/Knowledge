@@ -1,3 +1,7 @@
+---
+aliases:
+  - AR
+---
 ## Synthesis
 - 
 ## Source [^1]

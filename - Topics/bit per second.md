@@ -1,6 +1,8 @@
 ---
 aliases:
   - bps
+  - bits per second
+  - bit/sec
 ---
 ## Synthesis
 - 

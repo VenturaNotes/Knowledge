@@ -12,4 +12,4 @@ Reviewed: false
 		- First draft of UTF-8 was written on the back of a napkin in a diner
 
 ## Comments
-- In [[ASCII]], "00110000" (48) for character zero.
+- In [[American Standard Code for Information Interchange|ASCII]], "00110000" (48) for character zero.
