@@ -12,7 +12,6 @@ Reviewed: false
 - “Content updates reflect rapid, ongoing changes in knowledge about [[climate change]], [[genomics]], gene-editing technology ([[CRISPR]]), [[evolutionary biology]], [[microbiome-based therapies]], and more.” ([Urry et al., 2020, p. 16](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=19&annotation=YNRX9ZI7))
 - “Unit 7 includes a new section on “Biological Sex, Gender Identity, and Sexual Orientation in Human Sexuality,”” ([Urry et al., 2020, p. 16](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=19&annotation=AJ72WJ43))
 - “they are well-aligned with the core competencies outlined by the Vision and Change national conferences.” ([Urry et al., 2020, p. 17](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=20&annotation=VKN3XJZB))
-
 ## Highlights of New Content
 - Unit 1 - The Chemistry of Life
 	- “In Chapter 5, the technique of [[cryo-electron microscopy]] is introduced, due to its increasing importance in the determination of molecular structure.” ([Urry et al., 2020, p. 18](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=21&annotation=4HWIUUAA))

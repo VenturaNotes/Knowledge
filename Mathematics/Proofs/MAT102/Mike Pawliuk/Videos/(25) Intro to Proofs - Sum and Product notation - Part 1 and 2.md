@@ -21,7 +21,7 @@ Reviewed: false
 		- Definition ([[sigma notation]])
 			- Let $a_i$ be a real number (for i $\in$ $\mathbb{N}$) and let n $\in$ $\mathbb{N}$
 				- $\Sigma_{i=1}^n a_i =$ 
-					- i is just an [[index]] 
+					- i is just an [[- Topics/index|index]] 
 					- n will be stopping at index
 					- Read as
 						- "The sum of i = 1 to n of $a_i$ "

@@ -9,7 +9,7 @@ Reviewed: false
 		- For example, the sequence 0, 1, 2, 3, 4, 5, ...
 		- This is different from the set $\mathbb{N}$ because, while the sequence is a complete list of every element in the set of natural numbers, in the sequence, we very much care what order the numbers come in. For this reason, we use variables to represent terms in a sequence, they will look like this:
 			- $a_0, a_1, a_2, a_3, ...$
-		- To refer to the entire sequence, we write $(a_n)_{n \in \mathbb{N}}$ or $(a_n)_{n \ge 0}$, or just $(a_n)$ (in which case we assume we start the sequence with $a_0$). Sometimes we omit $a_0$, starting with $a_1$, in which case we would use $(a_n)_{n \ge 1}$. The numbers in the subscripts are called indices (the plural of [[index]]).
+		- To refer to the entire sequence, we write $(a_n)_{n \in \mathbb{N}}$ or $(a_n)_{n \ge 0}$, or just $(a_n)$ (in which case we assume we start the sequence with $a_0$). Sometimes we omit $a_0$, starting with $a_1$, in which case we would use $(a_n)_{n \ge 1}$. The numbers in the subscripts are called indices (the plural of [[- Topics/index|index]]).
 		- A sequence is a special type of function. Specifically, the sequence $(a_n)_{n \ge 0}$ is a function with domain $\mathbb{N}$ where $a_n$ is the image of the natural number $n$
 			- $\mathbb{N}$
 				- The set of [[natural numbers]]. That is $\mathbb{N} = \{0, 1, 2, 3, ...\}$

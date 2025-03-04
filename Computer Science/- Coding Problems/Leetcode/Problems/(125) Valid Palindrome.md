@@ -36,7 +36,7 @@ class Solution:
 	- Left and right pointer
 	- Shift pointers
 	- Pointers either meet at same character or pass each other
-- Will use [[ASCII]] values to determine if a character is [[alphanumerical]]
+- Will use [[American Standard Code for Information Interchange|ASCII]] values to determine if a character is [[alphanumerical]]
 	- Letters 97 to 122 in ASCII are contiguous which represents "a" to "z"
 	- Will make an alphanumerical character detecting function 
 - The solution is a linear time algorithm O(n) as we need to iterate through string but memory complexity is O(1)

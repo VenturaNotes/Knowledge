@@ -1,3 +1,7 @@
+---
+aliases:
+  - SaaS
+---
 ## Synthesis
 - 
 ## Source [^1]

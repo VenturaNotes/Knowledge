@@ -127,7 +127,7 @@ Reviewed: false
 	- Chapter 1
 		- [[Computer system]], [[logical levels]], [[von Neumann computer model]], [[high-level view]], 
 	- Chapter 2
-		- [[Numerical Information]], [[Character information]], [[Addition]], [[Subtraction]], [[Multiplication]], [[Division]], [[number bases]], [[numeric representation techniques]], [[one's complement]], [[two's complement]], [[BCD]], [[EBCDIC]], [[ASCII]], [[Unicode character representations]], [[fixed representation]], [[floating-point representation]], [[data recording]], [[error detection and correction]]
+		- [[Numerical Information]], [[Character information]], [[Addition]], [[Subtraction]], [[Multiplication]], [[Division]], [[number bases]], [[numeric representation techniques]], [[one's complement]], [[two's complement]], [[BCD]], [[EBCDIC]], [[American Standard Code for Information Interchange|ASCII]], [[Unicode character representations]], [[fixed representation]], [[floating-point representation]], [[data recording]], [[error detection and correction]]
 	- Chapter 3
 		- [[Digital Logic]]
 		- [[Boolean algebra]]

@@ -61,7 +61,7 @@ Reviewed: false
 			- If a key has a lot of activity, will still lead to hot spots.
 				- Even though the keys may be evenly distributed, if constantly updating or writing to a given key, then it is going to be problematic. To mitigate this, take the popular key, add a random number to it (between 1 and 20), then you hash the key plus that random number so that one twentieth of the load on the key is distributed. Disadvantage is that every time you make a query, you have to search all twenty of those key + random number values and aggregate that data.
 	- Indexes in a partitioned database configuration
-		- Recall: An [[index]] is additional metadata that shows memory addresses of rows corresponding to certain field values in the row
+		- Recall: An [[- Topics/index|index]] is additional metadata that shows memory addresses of rows corresponding to certain field values in the row
 			- An index is basically saying here is some metadata where we have a value for a field or column and then all of the primary keys that correspond to it. A secondary index is the same thing.
 		- Secondary index
 			- Position: point guard - \[10, 14, 21, 37]
