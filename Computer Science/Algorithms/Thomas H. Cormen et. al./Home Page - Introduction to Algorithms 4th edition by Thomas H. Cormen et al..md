@@ -126,7 +126,7 @@ Reviewed: false
 	- the discrete [[Fourier transform]] converts the time domain to the frequency domain
 		- it approximates the [[signal]] as a weighted sum of [[sinusoids]] producing the strength of various frequencies which when summed approximate the sampled signal.
 	- In addition to [[signal processing]], discrete Fourier transforms have applications in [[data compression]] and multiplying large polynomials and integers
-		- [[fast Fourier transform]]
+		- [[Fast Fourier transform]]
 			- Chapter 30 will sketch design of a hardware FFT circuit
 
 #### Data Structures

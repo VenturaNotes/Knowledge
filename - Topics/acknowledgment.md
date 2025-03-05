@@ -12,4 +12,4 @@ aliases:
 ## References
 
 [^1]: ChatGPT
-[^2]: 
+[^2]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]

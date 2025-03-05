@@ -1,6 +1,7 @@
 ---
 aliases:
   - Local Area Network
+  - local area networks
 ---
 ## Synthesis
 - 

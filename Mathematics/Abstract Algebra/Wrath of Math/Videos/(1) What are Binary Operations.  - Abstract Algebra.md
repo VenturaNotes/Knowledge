@@ -5,7 +5,7 @@ Reviewed: false
 ---
 - ![[Screenshot 2024-10-29 at 11.12.07 PM.png]]
 	- First
-		- [[Binary operations]]
+		- [[Binary operation|binary operations]]
 			- Vital concept in [[abstract algebra]]
 		- A [[binary operation ]]on a set S is a function $f: S \times S \to S$ 
 			- A binary operation is a special type of function

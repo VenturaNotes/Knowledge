@@ -15,12 +15,12 @@ Reviewed: false
 	- [[Applications|application]]
 	- [[Architecture]]
 	- [[Backend]]
-- Created
 	- [[Beta testing]]
 	- [[Bug]]
 	- [[Branch]]
 	- [[Build]]
 	- [[CI-CD Pipeline|CI/CD Pipeline]]
+- Created
 	- [[Cloud Computing]]
 	- [[Code Refactoring]]
 	- [[Compiler]]
