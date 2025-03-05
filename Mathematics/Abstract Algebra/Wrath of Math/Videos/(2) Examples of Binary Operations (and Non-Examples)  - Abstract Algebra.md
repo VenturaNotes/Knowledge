@@ -5,7 +5,7 @@ Reviewed: false
 ---
 - ![[Screenshot 2024-11-07 at 12.54.53 AM.png]]
 	- First 
-		- Which of the following are [[binary operations]] on $\mathbb{N}$ 
+		- Which of the following are [[Binary operation|binary operations]] on $\mathbb{N}$ 
 			- A binary operation on a set S is a function from the cartesian product S $\times$ S back to that same set S
 				- $f: S \times S \to S$ 
 					- A binary operation takes two elements from the same set and assigns them to exactly one element of that same set.

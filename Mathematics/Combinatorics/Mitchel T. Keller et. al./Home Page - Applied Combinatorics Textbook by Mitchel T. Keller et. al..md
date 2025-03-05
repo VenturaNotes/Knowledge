@@ -43,7 +43,7 @@ Reviewed: false
 ### (B.2) Intersections and Unions
 - Inclusive version of "or" is used for this textbook
 	- Meaning that at least one of the two requirements need to be satisfied
-- $\cap$ and $\cup$ are commutative and associative [[Binary Operations|binary operations]] 
+- $\cap$ and $\cup$ are commutative and associative [[Binary Operation|binary operations]] 
 	- Commutative
 		- ![[Pasted image 20221231103504.png]]
 	- Associative

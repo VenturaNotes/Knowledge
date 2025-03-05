@@ -1,3 +1,7 @@
+---
+aliases:
+  - open-source
+---
 ## Synthesis
 - 
 ## Source [^1]

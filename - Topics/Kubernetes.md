@@ -2,7 +2,7 @@
 - 
 ## Source [^1]
 -  An open-source platform for automating containerized applications’ deployment, scaling, and operations, allowing for managing application containers across clusters of hosts.
-	- #question Is kubernetes similar to Docker?
+	- #question Is Kubernetes similar to Docker?
 	- #question What are application containers
 	- #question What are clusters
 	- #question What is meant by host in this case? Does a host mean server here?

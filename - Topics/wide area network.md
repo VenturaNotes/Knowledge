@@ -1,6 +1,7 @@
 ---
 aliases:
   - WAN
+  - wide area networks
 ---
 ## Synthesis
 - 
