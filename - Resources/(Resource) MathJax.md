@@ -56,6 +56,7 @@ http://detexify.kirelabs.org/classify.html
 - Writing 2 equations on the same line ("aligned" is proper? [@](https://forum.obsidian.md/t/how-to-add-a-new-line-among-math-equations-in-obsidian-markdown-editor/7399/3) but to me "align" seems easier) 
 	- $$ \begin{align*}  1 &= 1 \\  2 &= 2+35  \end{align*}  $$
 - Lower case Greek Letter rho: $\rho$ 
+	- Density $\rho$ 
 - Superset: $\supset$
 - Line segment: $\overset {\longleftrightarrow}{AB}$
 - Angle: $\angle$ 
@@ -68,6 +69,10 @@ http://detexify.kirelabs.org/classify.html
 - Point A: $\bullet$ A
 - Plane: $\mathscr R$
 - Sigma notation (series): $\Sigma_{i=1}^{5}i$
+	- Or sum: $$\sum_{i = 1}^5i$$
+		- Seems like this only works with `$$between here$$`
+	- Or overset and underset
+		- $\overset{5}{\underset{i=1}\Sigma}$
 - QED for proofs $\blacksquare$
 - Bar: $a \mid b$
 - Negation: 
@@ -136,3 +141,15 @@ http://detexify.kirelabs.org/classify.html
 		- Uses matrix (simpler)
 	- $f = \left(\begin{array}{cccccc} 1 & 2 & 3 & 4 & 5 & 6 \\ a & b & c & d & e & f \end{array}\right)$
 		- Uses an array
+- Del Operator: $\nabla$
+- Leftside symbols
+	- $\mu(^\infty_1 S_k)$
+	- $^{\infty}_{1}S_k$
+- Euler's constant with a harmonic series
+	- $\gamma$
+	- $\upgamma$ 
+- Heisenberg's uncertainty principle
+	- $\uppsi$ 
+	- $\psi$ 
+- Zeta function
+	- $\zeta$

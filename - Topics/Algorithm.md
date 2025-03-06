@@ -30,8 +30,12 @@ aliases:
 - [[A* Algorithm]] (Pathfinding) – A graph traversal algorithm used in AI for finding the shortest path.
 - [[K-Means Clustering]] (Machine Learning) – Groups data into clusters based on similarity.
 - [[Minimax Algorithm]] (Game Theory) – Used in decision-making for games like chess, minimizing the opponent's advantage while maximizing one's own.
+
+## Source[^4]
+- A precisely described routine procedure that can be applied and systematically followed through to a conclusion. The word derives from the mathematician Khwārizmī
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
 [^2]: https://spdload.com/blog/software-development-glossary/
 [^3]: ChatGPT
+[^4]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]

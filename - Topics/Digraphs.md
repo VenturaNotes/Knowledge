@@ -1,3 +1,7 @@
+---
+aliases:
+  - digraph
+---
 ## Synthesis
 - 
 ## Source [^1]

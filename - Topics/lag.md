@@ -9,7 +9,11 @@
 ## Source[^2]
 - Lag is the result of high ping or high latency
 	- Essentially means your internet connection is at a lower speed or quality than it should be
+
+## Source[^3]
+- The time difference between the pairs of observations used in calculating the autocorrelation of a sequence. For a monthly time series the important lags are likely to be 1 (the most recent performance), 3, 6, and 12, reflecting the performance at corresponding points in the business cycle
 ## References
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://britishesports.org/the-hub/guides/ping-latency-and-lag-what-you-need-to-know/#:~:text=Lag%20is%20the%20result%20of,on%20by%20the%20game%20immediately.
+[^3]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]

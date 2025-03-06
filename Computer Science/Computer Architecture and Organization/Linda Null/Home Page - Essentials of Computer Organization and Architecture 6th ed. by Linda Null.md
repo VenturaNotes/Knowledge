@@ -169,7 +169,7 @@ Reviewed: false
 		- [[Real-world ISAs]]
 			- [[Intel]]
 			- [[MIPS Technologies]]
-			- [[ARM]]
+			- [[Advanced RISC Machine|ARM]]
 			- [[Java]]
 	- Chapter 6
 		- [[Memory concepts]]
