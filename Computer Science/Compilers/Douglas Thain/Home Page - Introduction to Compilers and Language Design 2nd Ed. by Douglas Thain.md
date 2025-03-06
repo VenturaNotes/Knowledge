@@ -53,14 +53,14 @@ Reviewed: false
 - “[[Python]] is easy to learn and has great library support, but is [[weakly typed]].” ([Thain, p. 2](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=16&annotation=QN7EZ48D))
 - “[[Rust]] offers exceptional [[static type-safety]], but is not (yet) widely used.” ([Thain, p. 2](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=16&annotation=B35TEUDX))
 - Possible to write a compiler in nearly any language
-- Best to learn C, write compiler in C and compile a C-like language producing assembly for a widely-used processor like [[X86]] or [[ARM]]
+- Best to learn C, write compiler in C and compile a C-like language producing assembly for a widely-used processor like [[X86]] or [[Advanced RISC Machine|ARM]]
 	- Important since it's widely in use
 - “[[C]] is the most widely-used [[portable language]] for [[low-level coding]] ([[compilers]], and [[libraries]], and [[kernels]])” ([Thain, p. 3](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=17&annotation=ZRZMD3JS))
 	- “challenges related to [[type safety]] and [[pointer]] use” ([Thain, p. 3](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=17&annotation=RZ6P2US8))
 		- Manageable for a project the size of a compiler
 - “[[X86]] has been the most widely-deployed computer architecture in desktops, servers, and laptops for several decades.” ([Thain, p. 3](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=17&annotation=CSIWT6ML))
-	- “considerably more complex than other architectures like [[MIPS]] or [[SPARC]] or [[ARM]]” ([Thain, p. 3](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=17&annotation=LMTME9Y5))
-	- “[[ARM]] is quickly catching up as a popular architecture in the mobile, embedded, and low power space,” ([Thain, p. 3](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=17&annotation=YQ2G6MJ6))
+	- “considerably more complex than other architectures like [[MIPS]] or [[SPARC]] or [[Advanced RISC Machine|ARM]]” ([Thain, p. 3](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=17&annotation=LMTME9Y5))
+	- “[[Advanced RISC Machine|ARM]] is quickly catching up as a popular architecture in the mobile, embedded, and low power space,” ([Thain, p. 3](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=17&annotation=YQ2G6MJ6))
 - “If you are using this as part of a class, your instructor may very well choose a different [[compilation language]] and different [[target assembly]], and that’s fine too.” ([Thain, p. 3](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=17&annotation=ALZBJA7A))
 ### (1.5) How is this book different from others
 - “Most books on compilers are very heavy on the abstract theory of [[scanners]], [[parsers]], [[type systems]], and [[register allocation]], and rather light on how the design of a language affects the compiler and the runtime.” ([Thain, p. 3](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=17&annotation=NURH7DKM))
