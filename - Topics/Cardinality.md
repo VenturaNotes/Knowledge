@@ -31,6 +31,9 @@ aliases:
 #### Examples
 - The set of [[natural numbers]] $\mathbb{N}$ and the set of even natural numbers $2\mathbb{N}$ have the same cardinality because there is a [[bijection|one-to-one correspondence]] between them $(n \mapsto 2n)$
 	- #question what is Maps to ?
+
+## Source[^6]
+- The number of (distinct) elements in a set.
 ## References
 
 [^1]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^085ddd]]
@@ -38,3 +41,4 @@ aliases:
 [^3]: [[(30) Cardinality of the Union of Two Sets (Formula Explained) - Set Theory, Cardinality, Set Union#^143a4a]]
 [^4]: [[(Video) Set Theory - All-in-One Video by Dr. Will Wood]]
 [^5]: ChatGPT
+[^6]: [[Home Page - Glossary by ada computer science]]

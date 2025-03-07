@@ -357,7 +357,7 @@ Reviewed: false
 		- A mechanism for transferring data to and from the outside world
 - [[Central Processing Unit|CPU]] is computer's brain
 - [[Processor]] consists of
-	- [[Arithmetic Logic Unit|Arithmetic logic unit]]
+	- [[arithmetic-logic unit|Arithmetic logic unit]]
 		- To perform computations and make decisions
 	- [[Control unit]]
 		- to act as a "traffic police officer" directing data to correct locations 
@@ -378,7 +378,7 @@ Reviewed: false
 	- A [[hard drive]] provides a large, inexpensive place to store long-term data.
 	- [[Cache]] is a small, but fast and expensive type of memory that stores data being used most often. 
 		- By accessing the [[cache]], the [[Central Processing Unit|CPU]] can read and write data quickly without bogging down the entire system. 
-- [[Arithmetic Logic Unit|ALU]] must be connected to the [[registers]] and both must be connected to the [[memory]]. This is done by a special pathway called a [[bus]].
+- [[arithmetic-logic unit|ALU]] must be connected to the [[registers]] and both must be connected to the [[memory]]. This is done by a special pathway called a [[bus]].
 	- Collection of ALU, registers, and bus is called a [[datapath]] (important component of any computer because it is the hardware that is ultimately responsible for running programs)
 - [[Input-Output components]], such as keyboards, mice, monitors, printers, web cameras, scanners, graphics tablets, and thumb drives, are all examples of devices that allow us to communicate with the computer.
 - How a student exhibits the three components of a computer

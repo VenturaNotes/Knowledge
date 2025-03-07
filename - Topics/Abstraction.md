@@ -15,12 +15,14 @@
 - At one of the lowest levels of abstraction, digital data is represented in [[binary]] using only combinations of the digits zero and one
 - An abstraction generalizes functionality from specific examples in order to generalize concepts
 - The process of developing an abstraction involves removing details and generalizing functionality
-
 ## Source[^4]
-- 
+- A set of techniques used to solve complex problems that involves removing unnecessary details so the main processes involved can be easily identified.
+## Source[^5]
+- Abstraction (from the Latin abs, meaning away from and trahere, meaning to draw) is the process of taking away or removing characteristics from something in order to reduce it to a set of essential characteristics.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
 [^2]: https://en.wikipedia.org/wiki/Abstraction_(computer_science)
 [^3]: https://quizizz.com/admin/quiz/5acb5f51c4daf70019c267e3/abstractions-quiz
-[^4]: 
+[^4]: [[Home Page - Glossary by ada computer science]]
+[^5]: https://www.techtarget.com/whatis/definition/abstraction

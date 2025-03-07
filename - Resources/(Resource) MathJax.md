@@ -37,6 +37,8 @@ http://detexify.kirelabs.org/classify.html
 - Symmetric difference $A\Delta B$ 
 - Equivalent: $\equiv$ or $\sim$ 
 - Exclusive OR: $\oplus$ 
+- Big circle with crosses
+	- $\otimes$ 
 - Piecewise function: $h(x) = \begin{cases} x+1 & \text {for } x \ne 1 \\ 3& \text{for } x = 1 \end{cases}$ 
 - Limit: $\lim_{x\to\infty} f(x)$
 - To: $\to$ 
@@ -55,6 +57,8 @@ http://detexify.kirelabs.org/classify.html
 - Angstrom: $\mathring{A}$
 - Writing 2 equations on the same line ("aligned" is proper? [@](https://forum.obsidian.md/t/how-to-add-a-new-line-among-math-equations-in-obsidian-markdown-editor/7399/3) but to me "align" seems easier) 
 	- $$ \begin{align*}  1 &= 1 \\  2 &= 2+35  \end{align*}  $$
+	- Centering
+		- $$ \begin{gather}  1 = 1 \\  2 = 2+35  \end{gather}  $$
 - Lower case Greek Letter rho: $\rho$ 
 	- Density $\rho$ 
 - Superset: $\supset$

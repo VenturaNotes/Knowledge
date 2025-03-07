@@ -11,7 +11,11 @@ aliases:
 ## Source[^2]
 - This is when a hacker tries multiple usernames and passwords, often using a computer to test a wide range of combinations, until they find the correct login information
 - The name "brute force" comes from attackers using excessively forceful attempts to gain access to user accounts
+
+## Source[^3]
+- A method of systematically trying all possibilities to find secret information (eg a password or encryption key).
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-4-network-security-quizzes/ks4-ocr-j277-1-4-network-security-quiz/
 [^2]: https://www.fortinet.com/resources/cyberglossary/brute-force-attack#:~:text=The%20hacker%20tries%20multiple%20usernames,gain%20access%20to%20user%20accounts.
+[^3]: [[Home Page - Glossary by ada computer science]]
