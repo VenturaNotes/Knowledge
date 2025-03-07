@@ -6,6 +6,10 @@ aliases:
 - 
 ## Source [^1]
 - A software distribution model in which applications are hosted by a vendor or service provider and made available to customers over the internet.
+
+## Source[^2]
+- A delivery model for software in which the application is held by the vendor, who undertakes to deliver functionality, on demand, to customers. SaaS thus differs from traditional software distribution in which customers receive their own copy of the software. This notably frees companies from developing and managing software themselves. SaaS is generally supported by service-oriented architecture (SOA).
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
+[^2]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]

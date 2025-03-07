@@ -33,5 +33,5 @@ aliases:
 	- Many countries regulate A2P SMS more strictly than P2P messages to prevent spam and ensure consumer consent
 ## References
 
-[^1]: https://www.techtarget.com/whatis/definitions/A
+[^1]: https://www.techtarget.com/whatis/definition/A2P-messaging-application-to-person-messaging
 [^2]: ChatGPT

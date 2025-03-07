@@ -16,5 +16,5 @@ aliases:
 - AAA servers communicate with network access and gateway servers using the [[RADIUS server|Remote Authentication Dial-In User Service]] (RADIUS) protocol
 ## References
 
-[^1]: https://www.techtarget.com/whatis/definitions/A
+[^1]: https://www.techtarget.com/searchsecurity/definition/AAA-server
 [^2]: Google's Search Labs | AI Overview

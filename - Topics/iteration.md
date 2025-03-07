@@ -26,6 +26,10 @@ for i in range(10):
    print("Get me out of here")
 ```
 - This is count controlled
+
+## Source[^2]
+- A method uses iteration if it yields successive approximations to a required value by repetition of a certain procedure. Examples are fixed-point iteration and Newton's method for finding a root of an equation $f(x) = 0$ 
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-2-programming-fundamentals-quizzes/2-2-programming-fundamentals-quiz-10-questions/
+[^2]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]

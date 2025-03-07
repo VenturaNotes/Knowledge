@@ -1,7 +1,3 @@
----
-aliases:
-  - ALU
----
 ## Synthesis
 - 
 ## Source [^1]

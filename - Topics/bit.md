@@ -13,6 +13,10 @@ aliases:
 - The state is represented by a single binary value, usually a 0 or 1
 	- Can also be represented by yes/no, on/off, or true/false
 - Bits are stored in [[memory]] through the use of [[capacitor|capacitors]] that hold electrical charges
+
+## Source[^2]
+- A binary digit. The basic unit of data within a computer system that has the value 0 or 1.
 ## References
 
 [^1]: https://www.techtarget.com/whatis/definition/bit-binary-digit
+[^2]: [[Home Page - Glossary by ada computer science]]

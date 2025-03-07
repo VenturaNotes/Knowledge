@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A device that applies modulation to a carrier for transmission through an analogue channel. A demodulator performs the reverse transformation to recover the original digital signal. See also MODEM, MODULATION.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]

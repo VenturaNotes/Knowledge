@@ -33,9 +33,13 @@ aliases:
 
 ## Source[^4]
 - A precisely described routine procedure that can be applied and systematically followed through to a conclusion. The word derives from the mathematician Khwārizmī
+
+## Source[^5]
+- A finite and well-defined sequence of steps that need to be followed to perform a task.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
 [^2]: https://spdload.com/blog/software-development-glossary/
 [^3]: ChatGPT
 [^4]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^5]:  [[Home Page - Glossary by ada computer science]]

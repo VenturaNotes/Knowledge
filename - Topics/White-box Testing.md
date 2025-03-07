@@ -1,3 +1,7 @@
+---
+aliases:
+  - White box testing
+---
 ## Synthesis
 - 
 ## Source [^1]

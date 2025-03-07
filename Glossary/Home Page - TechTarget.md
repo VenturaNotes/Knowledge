@@ -9,7 +9,7 @@ Reviewed: false
 ---
  - Research
 - Question
-- Creation
+- Definition
 	- [[A-weighted decibel]]
 	- [[A2P messaging]]
 	- [[AAA server]]
@@ -138,6 +138,7 @@ Reviewed: false
 	- [[Advanced Micro Devices|AMD]]
 	- [[AMD Virtualization]]
 	- [[Amdahl's law]]
+- Creation (A-B)
 	- [[American Health Information Management Association]]
 	- [[American Medical Association]]
 	- [[American Wire Gauge]]
