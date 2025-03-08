@@ -30,12 +30,12 @@ aliases:
 - [[A* Algorithm]] (Pathfinding) – A graph traversal algorithm used in AI for finding the shortest path.
 - [[K-Means Clustering]] (Machine Learning) – Groups data into clusters based on similarity.
 - [[Minimax Algorithm]] (Game Theory) – Used in decision-making for games like chess, minimizing the opponent's advantage while maximizing one's own.
-
 ## Source[^4]
 - A precisely described routine procedure that can be applied and systematically followed through to a conclusion. The word derives from the mathematician Khwārizmī
-
 ## Source[^5]
 - A finite and well-defined sequence of steps that need to be followed to perform a task.
+## Source[^6]
+- An algorithm is a procedure used for solving a problem or performing a computation.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
@@ -43,3 +43,4 @@ aliases:
 [^3]: ChatGPT
 [^4]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
 [^5]:  [[Home Page - Glossary by ada computer science]]
+[^6]: https://www.techtarget.com/whatis/definition/algorithm
