@@ -33,7 +33,10 @@
 	- [[Beta testing]]
 	- [[Field testing]] (testing in live conditions)
 	- [[Usability testing]]
+## Source[^3]
+- Alpha testing is the initial phase of validating whether a new product will perform as expected.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: ChatGPT
+[^3]: https://www.techtarget.com/searchsoftwarequality/definition/alpha-testing

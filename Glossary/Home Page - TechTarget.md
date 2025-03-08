@@ -9,7 +9,7 @@ Reviewed: false
 ---
  - Research
 - Question
-- Definition
+- Definition (A-B)
 	- [[A-weighted decibel]]
 	- [[A2P messaging]]
 	- [[AAA server]]
@@ -138,7 +138,6 @@ Reviewed: false
 	- [[Advanced Micro Devices|AMD]]
 	- [[AMD Virtualization]]
 	- [[Amdahl's law]]
-- Creation (A-B)
 	- [[American Health Information Management Association]]
 	- [[American Medical Association]]
 	- [[American Wire Gauge]]
@@ -223,7 +222,6 @@ Reviewed: false
 	- [[Arm processor]]
 	- [[Army Knowledge Online]]
 	- [[ARPANET]]
-	- [[artifact]]
 	- [[artificial intelligence of things]]
 	- [[artificial neuron]]
 	- [[AS-400|AS/400]]
@@ -316,9 +314,9 @@ Reviewed: false
 	- [[actionable intelligence]]
 	- [[Active Directory Domain]]
 	- [[ad hoc analysis]]
+	- [[adversarial machine learning]]
 	- [[AgentGPT]]
 	- [[agentic AI]]
-	- [[Agile Software Development]]
 	- [[ai art]]
 	- [[ai ethics]]
 	- [[AI inference]]
@@ -365,6 +363,7 @@ Reviewed: false
 	- [[asynchronous]]
 	- [[augmented analytics]]
 	- [[augmented intelligence]]
+- Creation (A-B)
 	- [[authentication, authorization, and accounting]]
 	- [[AutoGPT]]
 	- [[autonomous AI]]

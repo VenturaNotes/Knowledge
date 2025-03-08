@@ -13,7 +13,11 @@ aliases:
 - It was a pioneering long-haul network funded by the U.S. Department of Defense's Advanced Research Projects Agency. 
 - It's considered to be the forerunner of the internet
 - Alias considered to be "Advanced Research Projects Agency Network"
+
+## Source[^3]
+- The U.S.
 ## References
 
 [^1]: https://youtu.be/NRckVJk9n0k?si=AiQU4wGU5BZR0qv-
 [^2]: https://www.gartner.com/en/information-technology/glossary/arpanet-advanced-research-projects-agency-network#:~:text=The%20Advanced%20Research%20Projects%20Agency,Research%20Projects%20Agency%20(ARPA).
+[^3]: https://www.techtarget.com/searchnetworking/definition/ARPANET

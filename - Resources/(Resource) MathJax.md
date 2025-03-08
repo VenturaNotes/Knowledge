@@ -122,6 +122,8 @@ http://detexify.kirelabs.org/classify.html
 - Proof by contradiction: $\implies \impliedby$ 
 - Abstract Algebra: $N \trianglelefteq G$ 
 	- When N is normal subgroup of G. Above is the notation
+- Right Triangle: $\triangleright$ 
+- Left Triangle: $\lhd$ 
 - Complex Numbers and Natural exponential
 	- $e^{i\varphi}$ ? 
 - Fourier transform
@@ -157,3 +159,5 @@ http://detexify.kirelabs.org/classify.html
 	- $\psi$ 
 - Zeta function
 	- $\zeta$
+- Involved in orbit-counting formula:
+	- $\upvarepsilon$ in it

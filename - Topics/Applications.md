@@ -18,7 +18,11 @@ aliases:
 ## Source[^2]
 - A software program designed to perform a specific set of functions or tasks for the end-user.
 	- #question Could you give some examples of applications?
+
+## Source[^3]
+- An application, also referred to as an application program or application software, is a computer software package that performs a specific function directly for an end user or, in some cases, for another application.
 ## References
 
 [^1]: ChatGPT
 [^2]: https://spdload.com/blog/software-development-glossary/
+[^3]: https://www.techtarget.com/searchsoftwarequality/definition/application

@@ -25,8 +25,10 @@ aliases:
 	- GraphQL APIs – Allow clients to request specific data, reducing unnecessary responses.
 	- Operating System APIs – Like Windows API or macOS APIs, which allow software to interact with the OS.
 
-
+## Source[^3]
+- An application programming interface (API) is code that enables two software programs to communicate.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: ChatGPT
+[^3]: https://www.techtarget.com/searchapparchitecture/definition/application-program-interface-API
