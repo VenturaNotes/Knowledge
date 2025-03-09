@@ -19,6 +19,10 @@
 
 ![[Screenshot 2023-05-12 at 10.06.13 AM.png|500]]
 - Truth table shows that the [[converse]] and [[inverse]] of an [[Implication]] are logically equivalent
+## Source[^2]
+- (1) (of a conditional, $P \to Q$) The statement $$\lnot P \to \lnot Q$$where $\lnot$ denotes negation. See also CONTRAPOSITIVE, INVERSE
+- (2) (of a binary relation) Another name for inverse
 ## References
 
 [^1]: [[(15) The Conditional and Its Related Statements]]
+[^2]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
