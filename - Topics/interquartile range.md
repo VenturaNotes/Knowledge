@@ -6,5 +6,5 @@
 - A measure of dispersion equal to the difference between the first and third quartiles in a set of numerical data.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
-[^2]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

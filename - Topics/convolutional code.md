@@ -9,4 +9,4 @@
 - Convolutional codes are of increasing importance as they become better understood theoretically, as better decoding algorithms are found, and as it becomes increasingly economical to provide programmable decoders, the decoding algorithms being best programmed in software owing to their complexity. 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

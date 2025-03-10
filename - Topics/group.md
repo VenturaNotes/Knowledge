@@ -8,4 +8,4 @@
 - The group may be denoted by $(G, \circ)$, when it is necessary to specify the operation, but it may be called simply the group G when the intended operation is clear.
 ## References
 
-[^1]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -127,14 +127,18 @@ Reviewed: false
 		- a single covalent bond
 - (22) What type of bond is formed when atoms share electrons?
 	- Covalent
-- (23)
-- (24)
-- (25)
-- (26)
-- (27)
-- (28)
-- (29)
-- (30)
+- (23) Chlorine (atomic number = 17) needs one electron to fill its outermost electron shell
+- (24) Electrically neutral atoms are not called ions
+- (25) In a double covalent bond, two atoms share two pairs of electrons
+- (26) An equal sharing of electrons creates a non-polar covalent bond
+- (27) Which of the following is most likely to form an ionic bond with $Cl-$?
+	- Na+
+		- F-, He, O$_2$ are not as likely
+- (28) $CO_2$ is an example of a compound
+	- $O_2, Na+, Ne$ are not examples of compounds
+- (29) What type of bond will form between 2 atoms of nitrogen (atomic number = 7) to form the gas $N_2$?
+	- triple covalent
+- (30) 
 - (31)
 - (32)
 - (33)

@@ -26,7 +26,7 @@
 	- ![[Screenshot 2025-03-04 at 11.09.51 AM.png]][^3]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: ChatGPT
 [^3]: https://www.digitalcheck.com/reader-sorter-quantum-ds/
 [^4]: https://en.wikipedia.org/wiki/IBM_document_processors

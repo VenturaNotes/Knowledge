@@ -12,7 +12,6 @@ Reviewed: false
 	- [[(2) Biology]]
 	- [[(3) The Molecules of Life]]
 	- [[(4) The Hierarchy of Life]]
-
 - Incomplete
 	- [[(5) A Tour of the Cell]]
 	- [[(6) Why Are Cells Small.]]

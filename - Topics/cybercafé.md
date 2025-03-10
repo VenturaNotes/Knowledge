@@ -10,4 +10,4 @@ aliases:
 - A place with several computers that members of the public can use to access the Internet, usually for a fee on a walk-in basis
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -22,4 +22,4 @@ aliases:
 ## References
 
 [^1]: [[Home Page - Learn Data Structures and Algorithms - Roadmap#1 1 1 Linked List - Concept]]
-[^2]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

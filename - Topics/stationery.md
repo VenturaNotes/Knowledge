@@ -12,4 +12,4 @@
 - “Stationery specifications consist of two main parts. There is the specification of the paper, which states the characteristics required of the paper in order to withstand the stresses of the types of printer for which it is intended and to give the required printing performance; such characteristics include strength, thickness, porosity, smoothness, density, and material content. A coating may also have to be defined for use with certain printer types, e.g. thermal printers. There is also the specification of the conversion requirements, which state what form the finished stationery must take, including dimensions, preprinting, and any special requirements. Stationery is subject to international standards.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

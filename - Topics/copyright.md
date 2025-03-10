@@ -6,4 +6,4 @@
 - No formalities are required to obtain copyright protection for any literary work (including computer programs) although it remains good practice to place a copyright notice in all original works.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

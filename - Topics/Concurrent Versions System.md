@@ -8,4 +8,4 @@ aliases:
 - A client-server source code control system, introduced in 1986. See also DCVS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

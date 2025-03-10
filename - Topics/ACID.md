@@ -10,5 +10,5 @@ aliases:
 - In transaction processing, ACID (atomicity, consistency, isolation, and durability) is an acronym and mnemonic device used to refer to the four essential properties a transaction should possess to ensure the integrity and reliability of the data involved in the transaction.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://www.techtarget.com/searchdatamanagement/definition/ACID

@@ -8,4 +8,4 @@ aliases:
 - A system in avionics for direct computer control of the engine to optimize fuel use and to monitor safety.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

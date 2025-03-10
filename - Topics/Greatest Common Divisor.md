@@ -27,4 +27,4 @@ aliases:
 [^1]: [[(28) Finding the Greatest Common Divisor#^7e3b13]]
 [^2]: [[(28) Finding the Greatest Common Divisor#^048c69]]
 [^3]: [[(28) Finding the Greatest Common Divisor#^bee4ed]]
-[^4]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^4]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

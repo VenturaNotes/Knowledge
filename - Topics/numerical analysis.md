@@ -5,4 +5,4 @@
 - The advent of very powerful computers means that such computational methods are increasingly important in modelling complex systems. For example, the design of aircraft and high-performance cars can now be extensively tested by simulations prior to physically building and testing models
 ## References
 
-[^1]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

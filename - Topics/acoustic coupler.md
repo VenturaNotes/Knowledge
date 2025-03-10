@@ -5,4 +5,4 @@
 - Although largely superseded by devices that connect directly to the telephone network, acoustic couplers are still used. The lack of any electrical connection between terminal and phone lines is of benefit when obtaining the approval of the PTT for the use of such a device. The quality of ordinary switched voice circuits normally limits the speed of transmission to 300 baud or less
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

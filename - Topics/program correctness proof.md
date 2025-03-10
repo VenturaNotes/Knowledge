@@ -13,4 +13,4 @@
 - Work on proofs of correctness has made a major contribution to software engineering in that many advances in the understanding of programming languages, principles, and methods have their origins in this work. In addition the scope for practical applications of program proofs is growing and the formal approach to program correctness is of increasing significance.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

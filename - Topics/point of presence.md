@@ -8,4 +8,4 @@ aliases:
 - An access point to the Internet, either the geographical location or, as a technical term, the equipment that supports the Internet access hardware and software
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

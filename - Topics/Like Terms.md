@@ -8,4 +8,4 @@
 ## References
 
 [^1]: https://byjus.com/maths/like-and-unlike-algebraic-terms/#:~:text=In%20Algebra%2C%20the%20like%20terms,raised%20to%20the%20same%20power.
-[^2]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
