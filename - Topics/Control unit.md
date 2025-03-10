@@ -10,4 +10,4 @@ aliases:
 - In more complex machines and non von Neumann architectures, the control unit may contain additional registers such as index registers, arithmetic units to provide address modifications, registers, stacks, or pipelines to contain forthcoming instructions, and other functional units. Control units in supercomputers have become powerful and complex; they may contain specialized hardware that allows for parallel processing of instructions which are issued sequentially.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

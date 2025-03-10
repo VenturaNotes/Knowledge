@@ -19,4 +19,4 @@
 
 [^1]: [[(3) Start Learning Logic - Part 2 - Disjunction, Tautology and Logical Equivalence]]
 [^2]: [[(4) Start Learning Logic - Part 3 - Conditional, Biconditional, Implication and Deduction Rules]]
-[^3]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

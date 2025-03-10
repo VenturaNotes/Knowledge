@@ -12,4 +12,4 @@
 ## References
 
 [^1]: https://www.albany.edu/~by872279/micro/Slides/costfunctions.pdf
-[^2]:  [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^2]:  [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

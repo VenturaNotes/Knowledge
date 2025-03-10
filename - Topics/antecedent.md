@@ -23,4 +23,4 @@ aliases:
 [^1]: [[Home Page - Algebra 1 - Groups, Rings, Fields and Arithmetic by Ramji Lal#^cvsjhu]]
 [^2]: https://math.stackexchange.com/questions/3098664/how-implication-or-material-concrete-conditional-works-when-the-antecedent-is-fa#:~:text=In%20a%20conditional%20P%E2%86%92,no%20premises%20and%20conclusion%20either.
 [^3]: [[Home Page - Discrete Mathematics and Its Applications by Kenneth H. Rosen (8th edition)#1 1 3 Conditional Statements]]
-[^4]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^4]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

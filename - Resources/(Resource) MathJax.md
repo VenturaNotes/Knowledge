@@ -89,6 +89,7 @@ http://detexify.kirelabs.org/classify.html
 	- $35 \choose 52$
 	- $\binom {35}{53}$
 - Em Dash: $\textemdash$ 
+- En Dash: $\textendash$ 
 - Basis: $\textlangle$ B, D $\textrangle$ 
 	- $\mathcal{B}$
 - Variable under symbol: $\underset{n} \cup$ 
@@ -160,4 +161,6 @@ http://detexify.kirelabs.org/classify.html
 - Zeta function
 	- $\zeta$
 - Involved in orbit-counting formula:
-	- $\upvarepsilon$ in it
+	- $\upvarepsilon$
+- Involved in Intermediate value theorem
+	- $\eta$ 

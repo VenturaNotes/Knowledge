@@ -9,4 +9,4 @@ aliases:
 - Rouse Ball Professor of Mathematics at Cambridge University. Winner of the Fields Medal in 1998 for his research on functional analysis and combinatorics
 ## References
 
-[^1]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

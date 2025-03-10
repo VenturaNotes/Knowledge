@@ -14,4 +14,4 @@ aliases:
 ## References
 
 [^1]: https://youtu.be/HGYOEeik844?si=bjNQiqPySxFo_l-k
-[^2]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

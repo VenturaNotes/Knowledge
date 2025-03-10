@@ -9,4 +9,4 @@
 - Any positive number $m$ can be represented uniquely as a sum of Fibonacci numbers, where the greatest $F_n$ in the expansion does not exceed $m$ and where no two of the $F_n$ are adjacent numbers in the Fibonacci series
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

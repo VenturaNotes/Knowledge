@@ -6,5 +6,5 @@
 - Access control is a security technique that regulates who or what can view or use resources in a computing environment.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://www.techtarget.com/searchsecurity/definition/access-control

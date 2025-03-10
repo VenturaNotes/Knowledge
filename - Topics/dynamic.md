@@ -5,4 +5,4 @@
 - With reference to programming, the adjective is applied to operations that take place while a program is running, as compared with those that take place during the compilation phase. For example, dynamic arrays are allocated space while the program is running. Compare STATIC
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

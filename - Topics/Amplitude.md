@@ -7,5 +7,5 @@
 - The height of an analogue wave, measured from its rest level, at a given point in time. For sound waves, this is a measurement of volume.
 ## References
 
-[^1]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Glossary by ada computer science]]

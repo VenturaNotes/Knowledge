@@ -24,4 +24,4 @@ aliases: Combinations
 
 [^1]: [[(1) Permutations Combinations Factorials & Probability#^73de9f]]
 [^2]: [[(52) Probability & Statistics (52 of 62) Permutations and Combinations - Example 17]]
-[^3]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

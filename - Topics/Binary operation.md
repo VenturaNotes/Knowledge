@@ -21,4 +21,4 @@ $$3 + 4, U \cup V, P \land Q$$
 
 [^1]: [[(1) What are Binary Operations.  - Abstract Algebra]]
 [^2]: https://en.wikipedia.org/wiki/Binary_operation
-[^3]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

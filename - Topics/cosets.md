@@ -10,4 +10,4 @@ aliases:
 - Cosets have important applications in computer science, e.g. in the development of efficient codes needed in the transmission of information and in the design of fast adders.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

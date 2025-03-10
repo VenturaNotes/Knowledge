@@ -4,4 +4,4 @@
 - An angular measure which is one-hundredth of a right triangle
 ## References
 
-[^1]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

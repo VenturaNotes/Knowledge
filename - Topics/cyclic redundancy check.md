@@ -11,4 +11,4 @@ aliases:
 - A binary code for which $$G = x + 1$$is known as a simple parity check (or simple parity code). When applied across each character of, say, a magnetic tape record, this is called a horizontal check; when applied along each track of the record, it is called a vertical check. Simple checks (horizontal and/or vertical) are much less secure against burst errors than a nontrivial CRC with G of degree (typically) 16. The term longitudinal redundancy check (LRC) usually refers to a nontrivial CRC, but may apply to a simple vertical check.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

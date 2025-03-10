@@ -6,4 +6,4 @@
 - The matching problem referred to is, in the bipartite case, the same as computing the permanent of a 0-1 matrix, for which no good methods are known
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

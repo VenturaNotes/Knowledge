@@ -5,4 +5,4 @@
 - A continuous function f(x) has no breaks or instantaneous changes in value. In the hierarchy of mathematical functions, the smoothest are those, such as sin x, cos x, that can be differentiated any number of times, always producing a continuous function
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

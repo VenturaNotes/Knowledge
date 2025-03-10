@@ -5,4 +5,4 @@
 - The analysis of covariance is an extension of the analysis of variance in which the variables to be tested are adjusted to take account of assumed linear relationships with other variables. See also CORRELATION
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

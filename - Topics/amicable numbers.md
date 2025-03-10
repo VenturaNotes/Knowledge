@@ -5,4 +5,4 @@
 - These numbers, known to the Pythagoreans, were used as symbols of friendship. The amicable numbers 17 296 and 18 416 were found by the Fermat, and a list of 64 pairs was produced by Euler. In 1867, a 16-year-old Italian boy found the second smallest pair, 1184 and 1210, overlooked by Euler. More than a billion pairs are now known. It is unknown whether or not there are infinitely many pairs of amicable numbers
 ## References
 
-[^1]: [[Home Page - Concise Oxford Dictionary of Mathematics by Oxford Reference]]
+[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

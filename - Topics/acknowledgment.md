@@ -14,5 +14,5 @@ aliases:
 ## References
 
 [^1]: ChatGPT
-[^2]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: https://www.techtarget.com/searchnetworking/definition/ACK

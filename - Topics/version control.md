@@ -9,4 +9,4 @@ aliases:
 - Version control promotes correct usage of the various versions, perhaps by restricting access to existing versions and creation of new versions. For example, the ‘current release’ version of some software component may be protected against modification or deletion, while access to (or even knowledge of) a version under development may be limited to the development team
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -34,4 +34,4 @@ aliases:
 [^2]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis]]
 [^3]: [[(11) Why is the Empty Set a Subset of Every Set. - Set Theory, Subsets, Subset Definition#^124a38]]
 [^4]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
-[^5]:  [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^5]:  [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

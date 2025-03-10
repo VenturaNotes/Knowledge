@@ -19,4 +19,4 @@ aliases:
 
 [^1]: https://www.investopedia.com/terms/p/probabilitydistribution.asp#:~:text=A%20probability%20distribution%20is%20a,take%20within%20a%20given%20range.
 [^2]: https://www.geeksforgeeks.org/probability-distribution/
-[^3]: [[Home Page - A Dictionary of Computer Science by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
