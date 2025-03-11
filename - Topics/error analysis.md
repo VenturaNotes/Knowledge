@@ -2,6 +2,10 @@
 - 
 ## Source [^1]
 - A term that when applied to numerical analysis refers to the mathematical analysis that describes the various aspects of error behavior in numerical methods (or algorithms). [[Convergence]] of an algorithm is a fundamental requirement. Most algorithms result in the construction of a sequence of approximations. If this sequence tends more and more closely to the true solution of the problem, the algorithm is convergent. How fast the algorithm converges is important for its efficiency; some insight is provided by the order of the method. Since most algorithms are terminated before convergence is reached, the size of the error after a finite number of steps must be estimated. How big the error is at most can be determined from an error bound. This must be reasonably ‘sharp’, i.e. it must not grossly overestimate the error. How big the error is approximately is referred to as an error estimate and is usually determined from an asymptotic formula. Such estimates are widely used in step-by-step methods for ordinary differential equations; here the stepsize, h, must be small enough for the estimate to be accurate.
+
+## Source[^2]
+- In numerical analysis, error analysis relates to the propagation of errors within calculations and to the bounding of those errors. An algorithm may involve many iterations, and so error propagation might make a calculated solution meaningless. See STABLE NUMERICAL ANALYSIS
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

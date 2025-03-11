@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A graphical device for depicting resource allocation in a two-consumer, two-good economy. The width of the box corresponds to the economy’s endowment of good 1 and the height of the box to the endowment of good 2. The bottom-left corner of the box is the origin for consumer 1 and the top-right corner is the origin for consumer 2. An allocation of the endowment between the two consumers is represented by a point in the box. Adding the consumers’ preferences to the box allows Pareto-efficient allocations to be determined. Introducing prices permits analysis of the outcome of competitive trading from an endowment point that represents the initial division of commodities. The Edgeworth box can also be used to analyse the allocation of a fixed stock of two inputs between the production of two different goods. The width and height of the box then correspond to the stocks of the two inputs, and a point in the box is an allocation of inputs between the production processes for the two goods. At a Pareto-efficient allocation of the inputs it is not possible to raise the output of one good without reducing the output of the other. See also ECONOMIC EFFICIENCY; GENERAL EQUILIBRIUM.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

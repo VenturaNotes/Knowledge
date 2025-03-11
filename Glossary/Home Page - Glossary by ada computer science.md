@@ -9,7 +9,7 @@ Reviewed: false
 ---
 - Researched
 - Questioned
-- Definition
+- Defined
 	1. [[A* algorithm]]
 	2. [[Absolute error]]
 	3. [[Abstract data type]]

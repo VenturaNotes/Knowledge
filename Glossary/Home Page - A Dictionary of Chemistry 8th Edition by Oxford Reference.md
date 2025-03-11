@@ -9,7 +9,7 @@ Reviewed: false
 ---
 - Researched
 - Questioned
-- Definition
+- Defined
 	1. [[cyanuric acid]]
 	2. [[cyclamates]]
 	3. [[cyclic]]

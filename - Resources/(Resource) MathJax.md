@@ -164,3 +164,5 @@ http://detexify.kirelabs.org/classify.html
 	- $\upvarepsilon$
 - Involved in Intermediate value theorem
 	- $\eta$ 
+- Upside-down T: $\bot$ 
+- British pound sterling: $\textsterling$

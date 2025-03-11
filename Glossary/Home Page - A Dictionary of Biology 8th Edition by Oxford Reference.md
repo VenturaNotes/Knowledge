@@ -9,7 +9,7 @@ Reviewed: false
 ---
 - Researched
 - Questioned
-- Definition
+- Defined
 	1. [[cytidine]]
 - Created
 	1. AAV

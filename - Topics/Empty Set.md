@@ -28,6 +28,9 @@ aliases:
 ## Source[^5]
 - Empty set is known as null set or void set
 - A set with no elements. It is usually denoted by $\varphi$
+
+## Source[^6]
+- The set, denoted by $\varnothing$ with no elements in it. Consequently, its cardinality is zero
 ## References
 
 [^1]: [[Home Page - Problems on Discrete Mathematics by Chung-Chih Li et. al.#^rxa786]]
@@ -35,3 +38,4 @@ aliases:
 [^3]: [[(11) Why is the Empty Set a Subset of Every Set. - Set Theory, Subsets, Subset Definition#^124a38]]
 [^4]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
 [^5]:  [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^6]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

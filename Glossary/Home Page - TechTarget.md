@@ -7,9 +7,9 @@ tags:
   - type/website
 Reviewed: false
 ---
- - Research
-- Question
-- Definition (A-B)
+- Researched 
+- Questioned
+- Defined (A-B)
 	- [[A-weighted decibel]]
 	- [[A2P messaging]]
 	- [[AAA server]]

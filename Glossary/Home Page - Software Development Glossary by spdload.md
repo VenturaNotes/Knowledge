@@ -20,7 +20,7 @@ Reviewed: false
 	- [[Branch]]
 	- [[Build]]
 	- [[CI-CD Pipeline|CI/CD Pipeline]]
-- Created
+- Defined
 	- [[Cloud Computing]]
 	- [[Code Refactoring]]
 	- [[Compiler]]
