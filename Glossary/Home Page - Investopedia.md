@@ -9,9 +9,10 @@ Reviewed: false
 ---
 Note: Doesn't matter if in alphabetical order. Cmd + F finds term.
 
-- Research
-- Question
-- Creation
+- Researched
+- Questioned
+- Defined
+- Created
 	- A
 		- [[A-B Trust]]
 		- [[A-Shares]]

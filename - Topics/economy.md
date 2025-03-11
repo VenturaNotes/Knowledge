@@ -13,7 +13,11 @@
 	- [[Tertiary Sector]]
 	- [[Quaternary Sector]]
 	- [[Quinary Sector]]
+
+## Source[^3]
+- The system of activity connected with the production, trade, and consumption of goods and services of a region, country, or other (not necessarily geographic) area. See also CLOSED ECONOMY; DUAL ECONOMY; FREE-MARKET ECONOMY; HIDDEN ECONOMY; MARKET ECONOMY; MIXED ECONOMY; OPEN ECONOMY; PLANNED ECONOMY.
 ## References
 
 [^1]: [[Home Page - Principles of Economics 3e by OpenStax#Trade and Markets]]
 [^2]: https://www.thoughtco.com/sectors-of-the-economy-1435795#:~:text=Below%20is%20a%20summary%20of,tertiary%2C%20quaternary%2C%20and%20quinary.
+[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

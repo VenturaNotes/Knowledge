@@ -11,6 +11,10 @@
 		- Countries can specialize in the production of goods in which they have the greatest efficiency and then trade for other goods
 	- (5) Helps understand the flows of financial capital because
 		- Countries with absolute advantages in certain industries may attract more investment and experience trade surpluses
+
+## Source[^2]
+- The ability to produce an output using fewer inputs than other producers. With only one type of resource, such as hours of work, a producer with lower inputs has an absolute advantage. When there are many factors of production absolute advantage means that the production set for one producer is everywhere outside that of another. Absolute advantage gives no guidance on how to allocate resources, which are best employed where their comparative advantage is greatest.
 ## References
 
 [^1]: https://library.fiveable.me/key-terms/ap-micro/absolute-advantage
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
