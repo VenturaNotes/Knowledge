@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A measure of how variations in the return on a particular share correlate with variations in the return on a market index. The beta coefficient is used as a summary of the riskiness of an asset. If $r_{it}$ is the return on asset $i$ from time $t-1$ to time $t$, and $r_{I t}$ is the return on the market index, $\beta_{i}$ is calculated by finding the best fit to$$r_{i t}=\alpha+\beta_{i} r_{I t}+\varepsilon_{t}$$so the beta of asset $i$ is defined by $\beta_{i}=\frac{\sigma_{iI}}{\sigma_{I}^{2}}$, where $\sigma_{I}^{2}$ is the variance of the return on the index representative of the market and $\sigma_{i I}$ is the covariance between the return on asset $i$ and the return on the index. In the special case of the Capital Asset Pricing Model the index $I$ is the market portfolio. Beta is used as a measure of risk because the variance of return for asset $i$ is$$\sigma_{i}^{2}=\beta_{i}^{2} \sigma_{I}^{2}+\sigma_{\varepsilon_{i}}^{2}$$where $\sigma_{\varepsilon_{i}}^{2}$ is the part of the variance unexplained by the index. $\beta_{i}<0$ means that $r_{i}$ moves opposite to the market on average; a zero or low value of $\beta_{i}$ means that the asset has mainly idiosyncratic risk, independent of overall market movements; a positive value of $\beta_{i}$ means that $r_{i}$ moves on average with the market.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

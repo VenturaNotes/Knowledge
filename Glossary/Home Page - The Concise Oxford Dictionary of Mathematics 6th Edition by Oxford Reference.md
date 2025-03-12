@@ -1532,9 +1532,9 @@ Year: 2021-09-01
 	1141. elementary function
 	1142. elementary matrix
 	1143. elementary row operation
-	1144. elementary symmetric polynomial
-	1145. elevation
-	1146. elimination method
+	1144. [[elementary symmetric polynomial]]
+	1145. [[elevation]]
+	1146. [[elimination method]]
 	1147. [[ellipse]]
 	1148. [[ellipsis]]
 	1149. [[ellipsoid]]
@@ -2252,7 +2252,7 @@ Year: 2021-09-01
 	1861. Kuratowski closure axioms
 	1862. ℒ
 	1863. L
-	1864. L'Hôpital's rule
+	1864. [[L'Hôpital's rule]]
 	1865. L'Hôpital, Guillaume François Antoine, Marquis de (1661-1704)
 	1866. labelling algorithm
 	1867. Lagrange's Theorem(sum of four squares)
@@ -2311,7 +2311,7 @@ Year: 2021-09-01
 	1920. limit inferior
 	1921. limit of integration
 	1922. limit point
-	1923. limit superior
+	1923. [[limit superior]]
 	1924. lim sup
 	1925. Lindemann, (Carl Louis) Ferdinand von (1852-1939)
 	1926. line(in two dimensions)
@@ -2975,9 +2975,9 @@ Year: 2021-09-01
 	2584. point
 	2585. point-set topology
 	2586. point estimate
-	2587. point mass(in mechanics)
-	2588. point of application
-	2589. point of inflexion
+	2587. [[point mass (mechanics)]]
+	2588. [[point of application]]
+	2589. [[point of inflection (flex)]]
 	2590. points at infinity
 	2591. pointwise addition
 	2592. pointwise convergence
@@ -3073,15 +3073,15 @@ Year: 2021-09-01
 	2682. principle of mathematical induction
 	2683. principle of moments
 	2684. principle of the excluded middle
-	2685. prior distribution
-	2686. prior probability
+	2685. [[prior distribution]]
+	2686. [[prior probability]]
 	2687. prism
-	2688. prisoner's dilemma
+	2688. [[prisoner's dilemma]]
 	2689. private key crytography
 	2690. probability
-	2691. probability density function
-	2692. probability generating function
-	2693. probability mass function
+	2691. [[probability density function]]
+	2692. [[probability generating function]]
+	2693. [[probability mass function]]
 	2694. probability measure
 	2695. probability paper
 	2696. probability space

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A financial institution whose main activities are borrowing and lending money. Banks borrow by accepting deposits from the general public or other financial institutions. Bank loans are an important source of finance for firms, consumers, and government. Commercial banks may be all-purpose or specialized. Investment banks specialize on loans to firms; merchant banks on financing capital market transactions and international trade; and savings banks on collecting and lending the savings of numerous, mostly small-scale, savers. Central banks supervise the banking system and control the money supply. In the US the central bank is the Federal Reserve; in France the Banque de France; and in the UK the Bank of England. There are also international banks. The World Bank, or International Bank for Reconstruction and Development, is an investment bank at the international level. The nearest international equivalent to a central bank is the International Monetary Fund. The European Central Bank conducts monetary policy in the eurozone. The European Bank for Reconstruction and Development is a European investment bank, similar to the World Bank at a European level. See also CLEARING BANK; INVESTMENT BANK; JOINT-STOCK BANK; MEMBER BANK; MERCHANT BANK; OVERSEAS BANK.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

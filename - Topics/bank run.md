@@ -23,8 +23,11 @@
 	- #question What is the banking system and how does it work
 	- #question How is public confidence determined and what is it?
 
+## Source[^3]
+- A situation when the customers of a bank lose confidence in it and all try to withdraw their money. The inability of a bank to provide customers with their money upon request causes inconvenience and often results in a panic, swiftly spreading to affect other banks. To avoid this danger, most countries have public bodies which supervise banks, to prevent their getting into difficulties, and central banks to rescue them if they do. See also FINANCIAL CRISIS.
 
 ## References
 
 [^1]: https://library.fiveable.me/key-terms/ap-macro/bank-run
 [^2]: ChatGPT
+[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

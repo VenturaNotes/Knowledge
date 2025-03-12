@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A stock of a commodity held for the purpose of stabilizing its price. If price is liable to fluctuate, because of variations in supply, demand, or both, a buffer stock operator can limit price rises by selling stocks and can limit price falls by buying stocks. This can be done either at the discretion of the manager of the buffer stock, or in accordance with a preannounced maximum selling price and minimum buying price. The price can only be kept within these limits if the prices set are consistent with long-run market conditions. If the minimum price is too high, stocks will tend to accumulate indefinitely, until the buffer stock runs out of funds; if the maximum price is set too low, stocks will run out during periods of high price. Successful stabilization requires that a buffer stock is provided with sufficient funds to be able to hold enough stocks to deal with periods of high demand, and not run out of funds during low price periods. With a selling price above the buying price, a buffer stock is bound to make a trading profit, but it has to meet storage, interest, and administrative costs. Whether it can break even after meeting these costs depends on having a sufficient margin between its buying and selling prices, and on judging correctly which market price changes represent short-run fluctuations to be stabilized, and which reflect changes in long-run market conditions, to which it must in time adapt.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

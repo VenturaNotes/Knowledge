@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The application to banks of public controls stricter than those on businesses in general. This is justified by concerns that bank failures may disrupt the rest of the economy in a way that other business failures do not. Banks provide most of the money used in a modern economy, and lend on a large scale. When a bank is managed irresponsibly, taking excessive risks and holding too small reserves, this is liable to cause a bank run by its customers if they suspect it of being illiquid or insolvent. If one bank defaults on its obligations, this is liable to undermine other banks or financial institutions. Most countries therefore empower either their central bank or some other public institution to supervise banks, laying down rules for their lending and reserve holding, and monitoring the banks' accounts to check that the rules are being obeyed. In many countries the central bank acts as lender of last resort, to prevent banks that are illiquid from defaulting. It is more important to safeguard banks' solvency than their liquidity; a solvent bank should be able to borrow liquid assets when it needs them, but no amount of liquidity can save a bank once it is known to be insolvent. Bank regulators have in the past also been concerned with restraining banks' use of monopoly power. See also BASEL AGREEMENT.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

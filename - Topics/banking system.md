@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The network of institutions that provides banking services. This consists of three parts. First, there are the actual banks providing services to the general public; these may be universal banks, or specialist institutions dealing with particular types of banking business. These range from 'high street' banks, with numerous branches dealing with many small clients, to merchant banks specializing in financing capital market transactions or foreign trade. Second, there are higher-level institutions, which are not involved in direct contact with the general public. These are central banks, which act as bankers for other banks and the government, and are responsible for monetary policy and macroeconomic management of the monetary system; and bank regulatory bodies, which supervise other banks and check their probity, liquidity, and solvency. These higher-tier functions can be combined in the same institution, as with the Bank of England for the UK, or separated, as in Germany. Third, there are shadow banks that engage in credit creation but do not register as banks in order to avoid regulation.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A formal or informal agreement among a number of firms in an industry to restrict competition. Cartel agreements may provide for setting minimum prices, setting limits on output or capacity, restrictions on non-price competition, division of markets between firms either geographically or in terms of type of product, or agreed measures to restrict entry to the industry. Cartels suffer from problems of enforcement, which make them liable to break down. So long as the other members of a cartel comply with the terms of a cartel agreement, it is usually beneficial for any one member to cheat, for example by giving secret price discounts or covertly exceeding quota limits on output. Enforcement of cartel agreements is made more difficult if governments regard cartels as undesirable, and make the existence of the cartels or the policies they follow either illegal, or lawful but not legally enforceable. The Organization of Petroleum Exporting Countries is the most famous and the longest-surviving cartel of recent times. See also INTERNATIONAL CARTEL; TACIT COLLUSION.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
