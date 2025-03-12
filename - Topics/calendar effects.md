@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (1) In finance, calendar effects are said to exist when the time period during which a stock is held affects its return. Calendar effects are based on the belief that stocks perform better or worse on some given days or in some months. For example, October is seen as a bad month to buy stock because the stock market crashes in 1929, 1987, and 2008 occurred in October. The old adage 'Sell in May and go away' and its inverse the Halloween effect (returns are higher from November to April) are further examples. Calendar effects are inconsistent with the efficient markets hypothesis, and it is debatable whether any of them are statistically significant.
+- (2) In statistics, the calendar effects component is the part of the seasonal component that represents calendar variations in a time series, such as training days/working days, moving holidays, and other calendar effects such as leap years. These periodic fluctuations need to be detected and isolated in the data to ensure they do not mask more fundamental variation. For example, many economic time series refer to daily activities which are recorded each month or each quarter. Since the number of working days varies from month to month, this induces some short-term movements in the time series. See also SEASONAL ADJUSTMENT
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

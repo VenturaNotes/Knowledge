@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A statement of the money values of the assets and liabilities of a firm or any other organization at some moment, particularly the end of a financial year. Assets can include money, securities, land, buildings and other capital equipment, stocks and work in progress, and amounts due from debtors. Liabilities include secured and unsecured debts. The excess of assets over liabilities is the net worth of the firm; for a solvent firm this is positive, and is treated as a liability of the firm to its shareholders, so that the balance sheet by definition balances. Any firm whose liabilities exceed its assets is insolvent. It should be noted that not all items on a balance sheet are equally reliable. The value of cash held and that of amounts due from debtors are certain, and the value of easily traded securities and commodities is reliably known, though liable to change rapidly; but the value of real assets such as land, buildings, and equipment, and that of securities which are not readily traded, are matters of estimation. A balance sheet, which shows the state of affairs at a moment in time, is contrasted with a profit-and-loss account, which shows flows over some period such as a firm's financial year.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

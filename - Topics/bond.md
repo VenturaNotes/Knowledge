@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- A security with a redemption date over a year later than its date of issue. Bonds may be issued by firms, financial institutions, or governments. They may have a fixed redemption date, have an option for the borrower to repay at any date over a period, or even be perpetuities. They may carry fixed interest, or interest variable with notice, or linked to some financial index. Their interest and redemption payments may be specified in money terms, or index-linked to a suitable price index. Finally, they may vary in the degree of risk attached to them. Government bonds are called 'giltedged', or 'gilts', and are generally regarded as very safe. Well-established firms issue 'investment-grade bonds', which are also regarded as safe, while financially adventurous firms issue junk bonds, where there is recognized to be a non-negligible danger that the borrower may default. When bonds have a long time to maturity, their market price is sensitive to changes in current and expected interest rates, which control the present discounted value of future redemption and interest payments. A rise in interest rates lowers present discounted value; thus even bonds which are extremely safe, in the sense of absence of risk if held to maturity, suffer from variations in their market value as interest rates change. This liability to price fluctuations diminishes as redeemable bonds approach maturity. See also BEARER BOND; GRANNY BOND; PREMIUM BOND; PERPETUAL BOND; RETRACTABLE BOND; STRIPPED BOND; ZERO COUPON BOND.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

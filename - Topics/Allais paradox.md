@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An example of choice under uncertainty where the outcome for most experimental subjects violates the axioms of expected utility theory. In the first experiment subjects are requested to choose between winning $£ 1$ million for sure and a gamble in which the prizes are $£ 1$ million with probability $0.89, £ 5$ million with probability 0.10 , and nothing with probability 0.01. Most experimental subjects would choose the option of $£ 1$ million for sure. In the second experiment the choice is between two different gambles. For the first gamble the prizes are nothing with probability 0.89 and $£ 1$ million with probability 0.11. The second gamble has prizes of nothing with probability 0.90 and $£ 5$ million with probability 0.10. Most subjects choose the second gamble. These typical choices violate the independence axiom of expected utility theory: if the first option is chosen in the first experiment then the first option should also be chosen in the second experiment. The Allais paradox and other similar examples have motivated the search for alternatives to expected utility theory. See also ANOMALIES; BEHAVIORAL ECONOMICS; DECISION THEORY; PROSPECT THEORY.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -41,6 +41,7 @@ http://detexify.kirelabs.org/classify.html
 	- $\otimes$ 
 - Piecewise function: $h(x) = \begin{cases} x+1 & \text {for } x \ne 1 \\ 3& \text{for } x = 1 \end{cases}$ 
 - Limit: $\lim_{x\to\infty} f(x)$
+	- Can use display style to put limits underneath $\displaystyle \lim_{x \to \infty}f(x)$ 
 - To: $\to$ 
 - Sizes
 	- Huge: $\Huge \in$
@@ -77,6 +78,9 @@ http://detexify.kirelabs.org/classify.html
 		- Seems like this only works with `$$between here$$`
 	- Or overset and underset
 		- $\overset{5}{\underset{i=1}\Sigma}$
+	- For product
+		- $\prod_3^5$ 
+		- $\displaystyle \prod_3^5$ 
 - QED for proofs $\blacksquare$
 - Bar: $a \mid b$
 - Negation: 
