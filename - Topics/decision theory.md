@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The analysis of rational decision-making. A rational decision-maker chooses between the available alternatives on the basis of their consequences. If there is certainty each alternative has a known consequence that can be evaluated in terms of the decision-maker's objectives. In most circumstances the objectives can be summarized in a utility function. Decision theory then describes the conditions under which an optimal choice exists, and provides a characterization of the optimal choice. When there is risk, each alternative generates a probability distribution over possible consequences and the decision-maker has to choose between probability distributions. The choice is made using the decision-maker's expected utility function. If the probability distribution is unknown then the choice is made under conditions of uncertainty. The decision-maker has to utilize subjective probabilities to assess the consequences of alternatives. The discovery of anomalies in empirical and experimental investigations of choice situations has brought into question some of the underlying assumptions of decision theory. See also Allais PARADOX.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

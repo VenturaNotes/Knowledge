@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A relationship between interest rates and exchange rates derived from the absence of an arbitrage opportunity. An investor can either invest in the domestic economy at interest rate $r_{a}$ per year or invest in a foreign economy at interest rate $r_{b}$. The investment abroad requires domestic currency to be exchanged into foreign currency. Let the current exchange rate be $e_{0}$ and the forward exchange rate be $e_{1}$. One unit of wealth invested at home yields final wealth a year later of ( $1+$ $r_{a}$ ). Alternatively, converting the unit into the foreign currency and entering a forward contract to convert back ensures final wealth $\left(1+r_{b}\right) e_{0} / e_{1}$. Both these investments are risk-free (apart from inflation risk) since all values are known at the time of investment. They must therefore have the same return if there is to be no arbitrage. Hence $\left(1+r_{a}\right)=\left(1+r_{b}\right) e_{0} / e_{1}$, which is the covered interest parity relationship. The same argument can be repeated for investments of different lengths thus linking the term structure of interest rates to forward exchange rates. See also UNCOVERED INTEREST PARITY.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
