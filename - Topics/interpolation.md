@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A simple means of approximating a function $f(x)$ in which the approximation, say $p(x)$, is constructed by requiring that$$p\left(x_{i}\right)=f\left(x_{i}\right), i=0,1,2, \ldots, n$$Here $f\left(x_{i}\right)$ are given values $p\left(x_{i}\right)$ that fit exactly at the distinct points $x_{i}$ (compare SMOOTHING). The value of $f$ can be approximated by $p(x)$ for $x \neq x_{i}$. In practice $p$ is often a polynomial, linear and quadratic polynomials providing the simplest examples. In addition the idea can be extended to include matching of $p^{\prime}\left(x_{i}\right)$ with $f^{\prime}\left(x_{i}\right)$; this is Hermite interpolation. The process is also widely used in the construction of many numerical methods, for example in numerical integration and ordinary differential equations. The interpolating polynomial can be represented in many equivalent forms. For example, when the $x_{i}$ are equally spaced, the forward and backward difference forms (see DIFFERENCE EQUATION) are convenient. More commonly, nonequally spaced $x_{i}$ give rise to the divided difference form, which incorporates successive differences$$\begin{aligned}& \left(f\left(x_{i+1}\right)-f\left(x_{i}\right)\right) /\left(x_{i+1}-x_{i}\right) \\& i=0,1,2, \ldots, n-1\end{aligned}$$These are the first divided differences; second divided differences are obtained by a similar differencing process and so on for higher order differences.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

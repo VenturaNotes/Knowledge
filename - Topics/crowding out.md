@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The possibility that an increase in one form of spending may cause another form to fall, or an incentive for some economic activity may reduce intrinsic motivation for that activity. Crowding out can happen in various ways. Suppose, for example, that government spending on public works rises. This might use scarce resources, such as skilled engineers, diverting them from alternative investment projects which are thus delayed. Alternatively, if increased demand causes inflation, this might lead to tighter monetary policy, thus cutting other forms of spending. Finally, if private investors dislike increased government debt, a rise in public works might lead to a fall in private investment. Complete crowding out occurs if other spending falls by 100 per cent of the rise in public works. Partial crowding out occurs if other spending falls, but by less than public spending rises. It is possible that crowding in may occur, that is, other spending is actually increased, if conditions are such that the Keynesian multiplier works, or through favorable effects of an overall rise in spending on the confidence of private investors.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
