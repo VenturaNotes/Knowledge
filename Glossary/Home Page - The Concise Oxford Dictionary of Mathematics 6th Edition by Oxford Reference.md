@@ -1387,7 +1387,7 @@ Year: 2021-09-01
 	996. dimension(linear algebra)
 	997. dimension(topology)
 	998. dimensions
-	999. Diophantine equation
+	999. [[Diophantine equation]]
 	1000. Diophantus of Alexandria (250)
 	1001. Dirac, Paul Adrien Maurice (1902-84)
 	1002. Dirac delta function
@@ -1486,7 +1486,7 @@ Year: 2021-09-01
 	1095. dual graph
 	1096. duality
 	1097. dual map
-	1098. dual space (algebraic)
+	1098. [[dual space (algebraic)]]
 	1099. dual space (analytic)
 	1100. dummy activity(in critical path analysis)
 	1101. dummy variable
@@ -2979,7 +2979,7 @@ Year: 2021-09-01
 	2588. [[point of application]]
 	2589. [[point of inflection (flex)]]
 	2590. points at infinity
-	2591. pointwise addition
+	2591. [[pointwise addition]]
 	2592. pointwise convergence
 	2593. Poisson's equation
 	2594. Poisson's integral formula

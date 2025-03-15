@@ -942,123 +942,123 @@ Reviewed: false
 	69. debt neutrality
 	70. debt rescheduling
 	71. deficit
-	72. defined contribution
-	73. deflation
-	74. deflationary gap
+	72. [[defined contribution]]
+	73. [[deflation]]
+	74. [[deflationary gap]]
 	75. deflator
-	76. degrees of freedom
-	77. deindustrialization
-	78. deintellectualization
-	79. Delors Report
-	80. demand
+	76. [[degrees of freedom]]
+	77. [[deindustrialization]]
+	78. [[deintellectualization]]
+	79. [[Delors Report]]
+	80. [[demand]]
 	81. demand-deficiency unemployment
-	82. demand-determined output
+	82. [[demand-determined output]]
 	83. demand-pull inflation
-	84. demand curve
-	85. demand for money
-	86. demand function
-	87. demand inflation
-	88. demand management
+	84. [[demand curve]]
+	85. [[demand for money]]
+	86. [[demand function]]
+	87. [[demand inflation]]
+	88. [[demand management]]
 	89. demand schedule
-	90. demarcation
-	91. demographic transition
-	92. demographic unemployment
-	93. demonetization
-	94. demutualization
-	95. Department for Business, Energy and Industrial Strategy
-	96. Department for Business, Enterprise and Regulatory Reform
+	90. [[demarcation]]
+	91. [[demographic transition]]
+	92. [[demographic unemployment]]
+	93. [[demonetization]]
+	94. [[demutualization]]
+	95. [[Department for Business, Energy and Industrial Strategy]]
+	96. [[Department for Business, Enterprise and Regulatory Reform]]
 	97. Department for Business, Innovation and Skills
-	98. dependency culture
+	98. [[dependency culture]]
 	99. dependency ratio
-	100. dependent variable
-	101. depletable resources
-	102. deposit
-	103. deposit account
-	104. deposit insurance
-	105. Depository Institutions Deregulation and Monetary Control Act
-	106. depreciation((capital))
+	100. [[dependent variable]]
+	101. [[depletable resources]]
+	102. [[deposit]]
+	103. [[deposit account]]
+	104. [[deposit insurance]]
+	105. [[Depository Institutions Deregulation and Monetary Control Act]]
+	106. [[depreciation (capital)]]
 	107. depreciation((currency))
-	108. depressed area
-	109. depression
-	110. deregulation
-	111. derivative((financial))
-	112. derived demand
-	113. descriptive statistics
+	108. [[depressed area]]
+	109. [[depression]]
+	110. [[deregulation]]
+	111. [[derivative (financial)]]
+	112. [[derived demand]]
+	113. [[descriptive statistics]]
 	114. deseasonalized data
-	115. destination principle of taxation
-	116. destructive competition
+	115. [[destination principle of taxation]]
+	116. [[destructive competition]]
 	117. deterrents to entry
 	118. detrending
-	119. Deutschmark
-	120. devaluation
+	119. [[Deutschmark]]
+	120. [[devaluation]]
 	121. developing countries
 	122. development
 	123. development aid
-	124. development economics
-	125. Diamond-Mirrlees production efficiency lemma
-	126. Dickey-Fuller
-	127. difference in differences
-	128. differential game
-	129. diffusion of innovations
+	124. [[development economics]]
+	125. [[Diamond-Mirrlees production efficiency lemma]]
+	126. [[Dickey-Fuller test]]
+	127. [[difference in differences]]
+	128. [[differential game]]
+	129. [[diffusion of innovations]]
 	130. Dillon Round
-	131. dilution
-	132. diminishing marginal product
+	131. [[dilution]]
+	132. [[diminishing marginal product]]
 	133. diminishing marginal utility
-	134. diminishing returns to scale
+	134. [[diminishing returns to scale]]
 	135. direct investment abroad
-	136. directive of the European Union
-	137. direct labour
+	136. [[directive of the European Union]]
+	137. [[direct labour]]
 	138. director
-	139. direct tax
-	140. dirigisme
+	139. [[direct tax]]
+	140. [[dirigisme]]
 	141. dirty floating
-	142. discount
-	143. discounted cash flow
-	144. discount house
-	145. discounting the future
-	146. discount rate
-	147. discount window
-	148. discouraged worker
-	149. discrete choice models
+	142. [[discount]]
+	143. [[discounted cash flow]]
+	144. [[discount house]]
+	145. [[discounting the future]]
+	146. [[discount rate]]
+	147. [[discount window]]
+	148. [[discouraged worker]]
+	149. [[discrete choice models]]
 	150. discrete distribution
-	151. discrete random variable
-	152. discrete time
-	153. discrete variable
-	154. discretion
-	155. discretionary policy
-	156. discretionary spending
-	157. discriminating monopoly
-	158. discrimination
-	159. discriminatory analysis
-	160. diseconomies of scale
-	161. disembodied technical progress
-	162. disequilibrium
-	163. disguised unemployment
-	164. disincentives
-	165. disintermediation
-	166. disinvestment
-	167. dismissal for cause
-	168. dispersion
-	169. disposable income
-	170. dissaving
-	171. distorted prices
-	172. distortions
-	173. distribution
+	151. [[discrete random variable]]
+	152. [[discrete time]]
+	153. [[discrete variable]]
+	154. [[discretion]]
+	155. [[discretionary policy]]
+	156. [[discretionary spending]]
+	157. [[discriminating monopoly]]
+	158. [[discrimination]]
+	159. [[discriminatory analysis]]
+	160. [[diseconomies of scale]]
+	161. [[disembodied technical progress]]
+	162. [[disequilibrium]]
+	163. [[disguised unemployment]]
+	164. [[disincentives]]
+	165. [[disintermediation]]
+	166. [[disinvestment]]
+	167. [[dismissal for cause]]
+	168. [[dispersion]]
+	169. [[disposable income]]
+	170. [[dissaving]]
+	171. [[distorted prices]]
+	172. [[distortions]]
+	173. [[distribution]]
 	174. distributional equity
-	175. distributional weight
+	175. [[distributional weight]]
 	176. distributive judgement
 	177. distributive justice
 	178. disturbance term
-	179. disutility
-	180. divergence indicator
-	181. diversification
-	182. divestment
-	183. dividend
-	184. dividend control
-	185. dividend cover
-	186. division of labour
+	179. [[disutility]]
+	180. [[divergence indicator]]
+	181. [[diversification]]
+	182. [[divestment]]
+	183. [[dividend]]
+	184. [[dividend control]]
+	185. [[dividend cover]]
+	186. [[division of labour]]
 	187. divorce of ownership and control of companies
-	188. do it yourself
+	188. [[do it yourself]]
 	189. dollar
 	190. dollarization
 	191. dollar standard
@@ -1168,7 +1168,7 @@ Reviewed: false
 	295. estimator
 	296. EU Emissions Trading Scheme
 	297. Euler's theorem
-	298. euro
+	298. euro 
 	299. Eurobarometer
 	300. eurobond
 	301. eurocurrency
