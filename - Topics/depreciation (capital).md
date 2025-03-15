@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Loss of value of capital goods due to wear and tear, ageing, or obsolescence. Economic depreciation is captured in the changing market value of the capital good: as the good ages, the market price will fall. For accounting purposes the value of a capital good is assumed to decrease each year in a systematic way to approximate economic depreciation. The approximation is needed because thin markets for capital goods make it difficult to observe market value. The amount by which to 'write down' an asset in a balance sheet can be determined in alternative ways. Straight-line depreciation assumes that the asset loses an equal amount of its value each year over its expected lifetime, the number of years allowed for write-down depending on the type of asset. Decreasing balance depreciation assumes that the asset loses a constant percentage of the value remaining each year after deducting previous write-downs until it is finally scrapped, when the remaining value is written off. See also ACCELERATED DEPRECIATION; DECREASING BALANCE DEPRECIATION; STRAIGHT-LINE DEPRECIATION.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
