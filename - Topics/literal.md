@@ -30,7 +30,11 @@ aliases:
 ## Source[^2]
 - Best practice of using literals is to avoid hard-coding literals into your code
 	- It's best to use descriptive variable names for literals
+
+## Source[^3]
+- A word or symbol in a program that stands for itself rather than as a name for something else, i.e. an object whose value is determined by its denotation. Numbers are literals; if other symbols are used as literals it is necessary to use some form of quoting mechanism to distinguish them from variables.
 ## References
 
 [^1]: ChatGPT
 [^2]: Gemini Pro
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

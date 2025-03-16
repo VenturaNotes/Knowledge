@@ -16,4 +16,4 @@ Reviewed: false
 			- $T(n)$ expresses how many steps allowed for each length of input
 				- T(n) gives you relationship between size of input and number of steps Turing machine is allowed to perform
 			- If there is a single input for which the machine does not halt, the machine doesn't compute anything
-				- A michen that computes function f needs to halt on every input
+				- A machine that computes function f needs to halt on every input
