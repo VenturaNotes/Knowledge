@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- The most powerful top-down parsing technique that proceeds without backtracking, LL standing for Left-to-right Leftmost derivation sequence. In general an LL parser uses a $k$-symbol lookahead, where $k$ is an integer $\geq 1$, to effect parsing decisions. For most practical purposes, however, $k$ is taken to be 1 .
+- An LL parser may be implemented as a pushdown automaton or by the method of recursive descent (see TOP-DOWN PARSING). In the former method a stack is used to store that portion of a leftmost derivation sequence that has not been matched against the input string. Initially the start symbol of the grammar is pushed onto an empty stack. 
+- Subsequently, if the top element of the stack is a terminal symbol it is matched against the next symbol in the input string. If they are the same then the stack symbol is popped and the input marker advanced, otherwise there is an error in the input string. If the top stack symbol is a nonterminal $A$, say, it is removed from the stack and replaced by the righthand side symbols of a production with left-hand side $A$. The right-hand side symbols are pushed onto the stack in right-to-left order. Thus if the production is$$A \rightarrow X Y Z$$the first symbol to be stacked is $Z$, then $Y$, and finally $X$. The choice of a production is made by consulting a parsing table that contains an entry for each combination of nonterminal symbol and $k$-symbol lookahead. Parsing is successfully completed when the input is exhausted and the stack is empty.
+- A grammar that can be parsed using this technique is said to be an LL(k) grammar. Not all grammars are $\operatorname{LL}(k)$; in particular any grammar that uses left recursion is not $\operatorname{LL}(k)$ for any value of $k$.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

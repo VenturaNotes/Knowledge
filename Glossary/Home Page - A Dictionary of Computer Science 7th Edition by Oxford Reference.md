@@ -3377,12 +3377,12 @@ Year: 2016-04-01
 	2646. keyboard encoder
 	2647. keypunch
 	2648. keyring drive
-	2649. [[Kleene's theorem]]
-	2650. Kleene-plus
-	2651. Kleene closure
-	2652. k lookahead
-	2653. [[kludge]]
-	2654. KMP algorithm
+	2649. KMP algorithm
+	2650. [[Kleene's theorem]]
+	2651. Kleene-plus
+	2652. Kleene closure
+	2653. k lookahead
+	2654. [[kludge]]
 	2655. [[knapsack problem]]
 	2656. [[knot]]
 	2657. [[knowledge]]
@@ -3485,122 +3485,122 @@ Year: 2016-04-01
 	2754. linear array
 	2755. [[linear codes]]
 	2756. [[linear grammar]]
-	2757. linear independence
+	2757. [[linear independence]]
 	2758. linear list
-	2759. linear logic
+	2759. [[linear logic]]
 	2760. linearly dependent
-	2761. linear multistep methods
+	2761. [[linear multistep methods]]
 	2762. linear predictor
-	2763. linear programming
-	2764. linear recurrence
+	2763. [[linear programming]]
+	2764. [[linear recurrence]]
 	2765. linear regression model
-	2766. line feed
-	2767. line finder
-	2768. line printer
+	2766. [[line feed]]
+	2767. [[line finder]]
+	2768. [[line printer]]
 	2769. link layer
-	2770. link
+	2770. [[link]]
 	2771. link access procedure
 	2772. linkage
 	2773. liquid-crystal display
-	2774. Lisp
-	2775. list
-	2776. list box
+	2774. [[Lisp]]
+	2775. [[list]]
+	2776. [[list box]]
 	2777. listing
 	2778. list insertion sort
-	2779. list processing
-	2780. list sorting
+	2779. [[list processing]]
+	2780. [[list sorting]]
 	2781. list structure
-	2782. literal
-	2783. literate programming
-	2784. little-endian
-	2785. liveness
-	2786. LL parsing
-	2787. loader
-	2788. local
+	2782. [[literal]]
+	2783. [[literate programming]]
+	2784. [[little-endian]]
+	2785. [[liveness]]
+	2786. [[LL parsing]]
+	2787. [[loader]]
+	2788. [[local]]
 	2789. local-echo mode
-	2790. local area network
-	2791. local bus
-	2792. local bus architecture
-	2793. local device
+	2790. [[LAN|Local Area Network]]
+	2791. [[local bus]]
+	2792. [[local bus architecture]]
+	2793. [[local device]]
 	2794. local discretization error
-	2795. local error
-	2796. local illumination
-	2797. localization
-	2798. local loop
+	2795. [[local error]]
+	2796. [[local illumination]]
+	2797. [[localization]]
+	2798. [[local loop]]
 	2799. local optimization
-	2800. location
-	2801. location operator
-	2802. locator
-	2803. lock
-	2804. lockout
-	2805. locks and keys
-	2806. lofting
+	2800. [[location]]
+	2801. [[location operator]]
+	2802. [[locator]]
+	2803. [[lock]]
+	2804. [[lockout]]
+	2805. [[locks and keys]]
+	2806. [[lofting]]
 	2807. logarithmic search algorithm
-	2808. log file
-	2809. logic
-	2810. logical
+	2808. [[log file]]
+	2809. [[logic]]
+	2810. [[logical]]
 	2811. logical cohesion
 	2812. logical connective
-	2813. logical encoding
+	2813. [[logical encoding]]
 	2814. logical expression
-	2815. logical formulas
-	2816. logical input device
+	2815. [[logical formulas]]
+	2816. [[logical input device]]
 	2817. logical operator
 	2818. logical record
-	2819. logical schema
+	2819. [[logical schema]]
 	2820. logical shift
-	2821. logical type
-	2822. logical value
-	2823. logic analyser
-	2824. logic bomb
-	2825. logic card
+	2821. [[logical type]]
+	2822. [[logical value]]
+	2823. [[logic analyzer]]
+	2824. [[logic bomb]]
+	2825. [[logic card]]
 	2826. logic cell array
-	2827. logic circuit
+	2827. [[logic circuit]]
 	2828. logic design
 	2829. logic device
-	2830. logic diagram
-	2831. logic element
-	2832. logic family
+	2830. [[logic diagram]]
+	2831. [[logic element]]
+	2832. [[logic family]]
 	2833. logic function
-	2834. logic gate
-	2835. logic instruction
+	2834. [[logic gate]]
+	2835. [[logic instruction]]
 	2836. logic languages
-	2837. logic level
-	2838. logic operation
+	2837. [[logic level]]
+	2838. [[logic operation]]
 	2839. logic operator
-	2840. logic probe
-	2841. logic programming languages
-	2842. logic state
-	2843. logic symbols
-	2844. login
-	2845. logistic function
+	2840. [[logic probe]]
+	2841. [[logic programming languages]]
+	2842. [[logic state]]
+	2843. [[logic symbols]]
+	2844. [[login]]
+	2845. [[logistic function]]
 	2846. logit
-	2847. Logo
-	2848. logoff
-	2849. logon
+	2847. [[Logo]]
+	2848. [[logoff]]
+	2849. [[logon]]
 	2850. logout
-	2851. long filename
+	2851. [[long filename]]
 	2852. longitudinal redundancy check
 	2853. lookahead
-	2854. lookahead unit
+	2854. [[lookahead unit]]
 	2855. lookup table
-	2856. loop
+	2856. [[loop]]
 	2857. loop invariant
-	2858. lossless coding
-	2859. lossless compression
-	2860. lossy coding
-	2861. lossy compression
-	2862. Lotus 1–2–3
-	2863. low-level language
+	2858. [[lossless coding]]
+	2859. [[lossless compression]]
+	2860. [[lossy coding]]
+	2861. [[lossy compression]]
+	2862. [[Lotus 1–2–3]]
+	2863. [[low-level language]]
 	2864. low-level scheduler
-	2865. low-pass filter
-	2866. lower bound
-	2867. lpm
-	2868. LPT port
-	2869. LQ
+	2865. [[low-pass filter]]
+	2866. [[lower bound]]
+	2867. [[lines per minute|lpm]]
+	2868. [[LPT port]]
+	2869. [[letter quality|LQ]]
 	2870. LRC
-	2871. LRM
-	2872. LR parsing
+	2871. [[language reference manual|LRM]]
+	2872. [[LR parsing]]
 	2873. LSD
 	2874. LSI
 	2875. LU decomposition
