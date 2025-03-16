@@ -3377,114 +3377,114 @@ Year: 2016-04-01
 	2646. keyboard encoder
 	2647. keypunch
 	2648. keyring drive
-	2649. Kleene's theorem
+	2649. [[Kleene's theorem]]
 	2650. Kleene-plus
 	2651. Kleene closure
 	2652. k lookahead
-	2653. kludge
+	2653. [[kludge]]
 	2654. KMP algorithm
-	2655. knapsack problem
-	2656. knot
-	2657. knowledge
-	2658. knowledge-based system
-	2659. knowledge acquisition
-	2660. knowledge base
+	2655. [[knapsack problem]]
+	2656. [[knot]]
+	2657. [[knowledge]]
+	2658. [[knowledge-based system]]
+	2659. [[knowledge acquisition]]
+	2660. [[knowledge base]]
 	2661. knowledge discovery in databases
 	2662. knowledge elicitation
-	2663. knowledge engineering
-	2664. knowledge engineering toolkits
-	2665. knowledge representation
-	2666. Knuth, Donald E. (1938–)
-	2667. Knuth–Bendix algorithm
-	2668. Knuth–Morris–Pratt algorithm
-	2669. Kolmogorov complexity
-	2670. Königsberg bridges problem
-	2671. Kraft's inequality
-	2672. kriging
-	2673. Kronrod's algorithm
-	2674. Kruskal's algorithm
+	2663. [[knowledge engineering]]
+	2664. [[knowledge engineering toolkits]]
+	2665. [[knowledge representation]]
+	2666. [[Donald Knuth]]
+	2667. [[Knuth–Bendix algorithm]]
+	2668. [[Knuth–Morris–Pratt algorithm]]
+	2669. [[Kolmogorov complexity]]
+	2670. [[Königsberg bridges problem]]
+	2671. [[Kraft's inequality]]
+	2672. [[kriging]]
+	2673. [[Kronrod's algorithm]]
+	2674. [[Kruskal's algorithm]]
 	2675. L-system
-	2676. label
-	2677. lambda calculus
-	2678. lambda expression
-	2679. lambda notation
-	2680. Lambert's law
-	2681. LAMP
+	2676. [[label]]
+	2677. [[lambda calculus]]
+	2678. [[lambda expression]]
+	2679. [[lambda notation]]
+	2680. [[Lambert's law]]
+	2681. [[Linux-Apache-MySQL-PHP]]
 	2682. LAN
-	2683. landscape
+	2683. [[landscape]]
 	2684. language
 	2685. language concatenation
-	2686. language construct
-	2687. LAP
-	2688. Laplacian operator
-	2689. laptop computer
+	2686. [[language construct]]
+	2687. [[link access procedure|LAP]]
+	2688. [[Laplacian operator]]
+	2689. [[laptop computer]]
 	2690. large-scale integration
-	2691. laser
-	2692. laserdisk
-	2693. laser printer
+	2691. [[laser]]
+	2692. [[laserdisk]]
+	2693. [[laser printer]]
 	2694. last in first out
-	2695. latch
-	2696. latch-up
-	2697. latency
-	2698. LaTeX
-	2699. Latin alphabet
-	2700. lattice
+	2695. [[latch]]
+	2696. [[latch-up]]
+	2697. [[latency]]
+	2698. [[LaTeX]]
+	2699. [[Latin alphabet]]
+	2700. [[lattice]]
 	2701. layer
-	2702. lazy evaluation
+	2702. [[lazy evaluation]]
 	2703. LBA
-	2704. LCA
+	2704. [[logic cell array|LCA]]
 	2705. LCC
-	2706. LCD
+	2706. [[liquid-crystal display|LCD]]
 	2707. LCM
-	2708. LCSAJ
-	2709. LDAP
+	2708. [[linear code sequence and jump|LCSAJ]]
+	2709. [[Lightweight Directory Access Protocol|LDAP]]
 	2710. LDU decomposition
 	2711. leading edge((of a pulse))
-	2712. leadless chip carrier
+	2712. [[leadless chip carrier]]
 	2713. leaf
-	2714. leaf node
+	2714. [[leaf node]]
 	2715. learning
 	2716. least fixed point
-	2717. least squares, method of
+	2717. [[least squares method]]
 	2718. least squares approximation
 	2719. least upper bound
-	2720. LED display
-	2721. Lee distance
+	2720. [[LED display]]
+	2721. [[Lee distance]]
 	2722. left-linear grammar
-	2723. left-to-right precedence
+	2723. [[left-to-right precedence]]
 	2724. left shift
 	2725. left subtree
-	2726. Leibniz, Gottfried Wilhelm (1646–1716)
-	2727. Lempel–Ziv–Welch compaction
-	2728. Lempel–Ziv compaction
-	2729. length
+	2726. [[Gottfried Leibniz]]
+	2727. [[Lempel–Ziv–Welch compaction]]
+	2728. [[Lempel–Ziv compaction]]
+	2729. [[length]]
 	2730. length-increasing grammar
-	2731. Lenovo Group Ltd
-	2732. LEO
+	2731. [[Lenovo Group Ltd]]
+	2732. [[LEO]]
 	2733. letter((in formal language theory))
 	2734. letter-equivalent languages
 	2735. letter distribution
-	2736. level
+	2736. [[level]]
 	2737. leverage point
-	2738. LEX
-	2739. lexical analyser
+	2738. [[LEX]]
+	2739. [[lexical analyser]]
 	2740. LF
-	2741. Liang–Barsky clipping
+	2741. [[Liang–Barsky clipping]]
 	2742. library
 	2743. life cycle
-	2744. LIFO
+	2744. [[Last in, First Out|LIFO]]
 	2745. light-emitting diode
-	2746. lighting model
+	2746. [[lighting model]]
 	2747. light intensity
 	2748. Lightweight Directory Access Protocol
-	2749. likelihood
-	2750. limited license
+	2749. [[likelihood]]
+	2750. [[limited license]]
 	2751. Lindenmeyer system
-	2752. linear-bounded automaton
-	2753. linear algebraic equations
+	2752. [[linear-bounded automaton]]
+	2753. [[linear algebraic equations]]
 	2754. linear array
-	2755. linear codes
-	2756. linear grammar
+	2755. [[linear codes]]
+	2756. [[linear grammar]]
 	2757. linear independence
 	2758. linear list
 	2759. linear logic
