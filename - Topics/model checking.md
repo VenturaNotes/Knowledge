@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- An automatic verification technique for finite-state concurrent systems (see CONCURRENCY). Typically, three elements are needed: a formal finite-state model of the system; a formal specification of the properties that the model must satisfy; and an algorithm that checks the specification against the model, normally through an exhaustive search of the state space. The algorithm, which is guaranteed to terminate given the finiteness of the state space, gives a positive answer when the model satisfies the specification; otherwise, a negative answer is returned, together with a counterexample indicating why the model is incorrect. The algorithm is in general fast, producing an answer in a matter of minutes.
+- There are two main approaches to model checking. In the first, which is referred to as temporal logic model checking, specifications are expressed using temporal logic, while systems are modeled using finite-state transition systems. In the second, both the specification and the model are expressed as automata, which are then compared using available techniques. Termination, speed, and full automation are the chief advantages of model checking over theorem proving. The main disadvantage is the problem of combinatorial explosion that arises with large concurrent systems, although many techniques can be used to minimize this. Model checking has been widely employed to verify hardware controllers and communication protocols.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A pyramidal structure used in mapping two-dimensional textures; mip stands for multum in parvo$\textemdash$Latin: many things in a small place. The use of mipmaps-mipmapping-enhances bilinear interpolation (which may be used to smoothly translate and magnify the texture) with interpolation between prefiltered versions of the map (which may be used to compress many pixels into a small place).
+- A mipmap is indexed by three coordinates: $U, V$, and $D . U$ and $V$ are spatial coordinates of the map and $D$ is used to index and interpolate between different levels of the pyramid. A mipmap is organized as a two-dimensional array, where successively filtered and downsampled versions of each color component of the image are instanced above and to the left of the originals, in a series of smaller and smaller images, each half the linear dimension (a quarter of the number of samples) of its parent. With this memory organization, addressing the maps is possible with binary scaling, which is inexpensive. When a target pixel is covered by a collection of source pixels, the mipmap pixels corresponding most closely to this collection are used to give a filtered value. Linear interpolation between levels of filtering (levels in the pyramid) is used to further smooth the values.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

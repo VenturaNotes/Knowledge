@@ -81,7 +81,7 @@ Reviewed: false
 		- (1) “[[preprocessor]] prepares the [[source code]] for the [[compiler proper]].” ([Thain, p. 5](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=19&annotation=NX8AQFY5)) ^4wix79
 			- In C/C++, consuming all [[directives]], starting with # symbol. 
 				- \#include directive causes preprocessor to open named file and insert its contents into the source code
-				- \#define directive causes the preprocessor to substitute a value wherever a [[macro]] name is encountered
+				- \#define directive causes the preprocessor to substitute a value wherever a [[macroinstruction|macro]] name is encountered
 					- Not all languages rely on a preprocessor
 		- (2) “The [[compiler proper]] consumes the clean output of the preprocessor.” ([Thain, p. 5](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=19&annotation=RVHNJKPM))
 			- “It scans and parses the source code, performs [[typechecking]] and other semantic routines, optimizes the code, and then produces assembly language as the output.” ([Thain, p. 5](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=19&annotation=523XX446))

@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A system that provides automated assistance to the production of a program correctness proof. Typically such a system consists of two distinct parts: a verification condition generator and a theorem prover. The former is responsible for generating the theorems that must be proven in order to demonstrate that preconditions and postconditions are consistent with the semantics of the statements to which they relate. The theorem prover is then responsible for proving these verification conditions.
+- Different mechanical verifiers vary considerably in their capabilities. A relatively simple verifier might require that assertions giving all relevant information are attached between every pair of successive statements (simple or compound), and would present any nontrivial verification conditions to the user for manual proof; this approach is sometimes called an assertion checker. A more sophisticated mechanical verifier requires only major assertions to be attached prior to verification (perhaps only the input assertion and output assertion) and is able to generate its own intermediate assertions as necessary. Further, the theorem prover is capable of proving complex verification conditions, perhaps presenting only the occasional lemma to the user for confirmation.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
