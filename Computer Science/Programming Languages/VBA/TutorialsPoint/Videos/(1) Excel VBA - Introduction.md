@@ -6,7 +6,7 @@ Reviewed: false
 - ![[Screenshot 2025-01-25 at 1.52.44 AM.png]]
 	- Introduction to [[Visual Basic for Application|VBA]] which is visual basic for applications
 		- Used for Microsoft office products like [[Microsoft Excel|Excel]], [[Microsoft Word|Word]], [[Microsoft PowerPoint|PowerPoint]] and so on.
-	- What is [[Macro|macros]] and [[Visual Basic for Application|VBA]]?
+	- What is [[macroinstruction|Macro]] and [[Visual Basic for Application|VBA]]?
 		- A Macro is a piece of code
 			- Set of instruction which are turned into a VBA
 			- Subroutines, functions, and so on

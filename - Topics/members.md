@@ -2,6 +2,7 @@
 aliases:
   - elements
   - element
+  - member
 ---
 ## Synthesis
 - 
@@ -13,7 +14,7 @@ aliases:
 		- $5 \notin A$ 
 
 ## Source [^1]
-- 
+- (element) (of a set $S$ ) An object $x$ that is in $S$, usually denoted by $x \in S$. One of the basic actions that can be performed on sets is asking whether or not an object is in a set. See also OPERATIONS ON SETS.
 ## References
 
 [^1]:

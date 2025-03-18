@@ -170,3 +170,6 @@ http://detexify.kirelabs.org/classify.html
 	- $\eta$ 
 - Upside-down T: $\bot$ 
 - British pound sterling: $\textsterling$
+- Shapes
+	- $\square$
+	- $\lozenge$ 

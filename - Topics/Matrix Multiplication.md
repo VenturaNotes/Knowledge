@@ -31,8 +31,12 @@ $$
 	- $(\textcolor{hotpink}{2}\times 3) \times (3 \times \textcolor{hotpink}{2})$
 		- Outer numbers
 
+## Source[^5]
+- The multiplication of two matrices $A$ and $B$ according to the rule$$c_{i j}=\sum_{k=1}^{n} a_{i k} b_{k j}$$
+
 ## References
 [^1]: [[(3) Matrices - Matrix Multiplication  - ExamSolutions#^724853]]
 [^2]: http://www.csc.villanova.edu/~japaridz/Archive/1300/lect2.6/sld004.htm
 [^3]: [[(3) Matrices - Matrix Multiplication  - ExamSolutions#^f01be6]]
 [^4]: [[(3) Matrices - Matrix Multiplication  - ExamSolutions#^6b6aa8]]
+[^5]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
