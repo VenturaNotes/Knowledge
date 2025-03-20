@@ -47,6 +47,10 @@
 - [[Category theory]]: Monoids relate closely to categories with a single object 
 	- #question What is category theory?
 	- #question What is meant by "categories with a single object?"
+
+## Source[^2]
+- A semigroup that possesses an identity element, $e$. If $S$ is a semigroup on which there is defined a dyadic operation , then$$x^{} e=e^{} x=x$$for all elements $x$ in $S$. Monoids play an important role in various areas of computing, especially in the study of formal languages and parsing.
 ## References
 
 [^1]: ChatGPT
+[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
