@@ -3888,22 +3888,22 @@ Year: 2016-04-01
 	2810. module invariant
 	2811. module testing
 	2812. modulo-n check
-	2813. MOHLL
-	2814. monadic
-	2815. monadic operation
+	2813. [[machine-oriented high-level language|MOHLL]]
+	2814. [[monadic]]
+	2815. [[monadic operation]]
 	2816. monalphabetic
-	2817. Mondex
+	2817. [[Mondex]]
 	2818. monic polynomial
-	2819. monitor
-	2820. monochrome display
-	2821. monoid
-	2822. monomode
-	2823. monomorphism
-	2824. monostable
-	2825. monotonic
-	2826. Monte Carlo methods
-	2827. MOO
-	2828. Moore's Law
+	2819. [[monitor]]
+	2820. [[monochrome display]]
+	2821. [[monoid]]
+	2822. [[monomode]]
+	2823. [[monomorphism]]
+	2824. [[monostable]]
+	2825. [[monotonic]]
+	2826. [[Monte Carlo methods]]
+	2827. [[multiuser object oriented|MOO]]
+	2828. [[Moore's Law]]
 	2829. Moore machine
 	2830. morphing
 	2831. morphism
