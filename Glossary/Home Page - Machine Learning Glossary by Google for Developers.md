@@ -7,8 +7,10 @@ tags:
   - status/incomplete
 Reviewed: false
 ---
-- Complete
-- Incomplete
+-  Researched
+- Questioned
+- Defined
+- Created
 	- A
 		- [[ablation]]
 		- [[A-B testing]]

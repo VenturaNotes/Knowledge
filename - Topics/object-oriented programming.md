@@ -22,7 +22,20 @@ aliases:
 	- ![[Screenshot 2025-03-09 at 3.57.58 AM.png]]
 - (The significance of the keyword ‘virtual’ is explained below.)
 ### Inheritance
-
+- The fact that objects can be defined in terms of other objects is an important feature of OOP. A 'child' object type (or subclass) inherits all of its parent's methods and properties (which may have been inherited in turn from its parent) as well as defining its own. This facility allows complex hierarchies of related objects to be created. A child object type may override a method or property of its parent by defining a new method or property of the same name:
+	- ![[Screenshot 2025-03-20 at 3.26.43 PM.png]]
+- If the 'travel' method of a variable of type 'stretchLimo' is called, it is stretchLimo's own version that is invoked rather the version inherited from class 'automobile.'
+- Child object types may be treated as if they are one of their ancestor types. The following is a legal assignment using C++ pointers:
+	- ![[Screenshot 2025-03-20 at 3.27.07 PM.png]]
+- No data is lost, but only those properties and methods defined for class 'automobile' will be available to variable myLimo.
+### Polymorphism
+- If a method has been overridden, it is usually the overriding method defined in a child class that is invoked. For example,
+	- ![[Screenshot 2025-03-20 at 3.27.39 PM.png]]
+	- will invoke the 'travel' method defined in class stretchLimo because 'myLimo' is in fact a stretchLimo object. (Note that in C++ methods must be designated 'virtual' to achieve this behavior; in such languages as Java it is automatic.)
+- This capability, called polymorphism, gives object-oriented programming its great power. The class 'automobile' could have numerous subclasses defined, each extending it in ways appropriate to a particular brand of automobile; and each might have its own version of the 'travel' method, tuned to suit its own characteristics. Yet, when an object of any subclass is assigned to pointer variable of class 'automobile' and the 'travel' method invoked, it is the variant defined for the appropriate subclass that is invoked. Each object thus carries the knowledge of how to manipulate itself, and the code that uses such objects need not be aware of exactly which type of object it is manipulating. This enhances encapsulation, reducing the complexity and increasing the robustness of almost any nontrivial programming project.
+- An important application of polymorphism is in interfaces. These may be defined as abstract classes: that is, classes that define properties and methods but which do not provide any implementations for the methods. An implementation of an interface is a subclass that overrides all the interface's methods with versions that provide appropriate functionality.
+### Languages
+- The first complete realization of an object-oriented programming system was Smalltalk. A more recent example is Ruby. In addition a large number of modern programming languages contain features of object-oriented systems; examples are C++, C\#, Java, and Visual Basic.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/

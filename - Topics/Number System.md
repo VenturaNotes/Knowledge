@@ -1,7 +1,8 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- Although early number systems were not positional, all of the number systems most commonly used today are positional systems: the value of a number in such a system is determined not just by the digits in the number but also by the position in the number of each of the digits. If a positional system has a fixed radix (or fixed base) $R$ then each digit $a_{i}$ in any number$$a_{n} a_{n-1} \ldots a_{0}$$is an integer in the range 0 to $(R-1)$ and the number is interpreted as$$a_{n} R^{n}+a_{n-1} R^{n-1}+\ldots+a_{1} R^{1}+a_{0} R^{0}$$Since this is a polynomial in $R$, such numbers are sometimes called polynomial numbers. The decimal and binary systems are both fixed-radix systems, with a radix of 10 and 2 , respectively.
+- Fractional values can also be represented in a fixed-radix system. Thus,$$0 \cdot a_{1} a_{2} \ldots a_{n}$$is interpreted as$$a_{1} R^{-1}+a_{2} R^{-2}+\ldots+a_{n} R^{-n}$$In a mixed-radix (or mixed-base) system, the digit $a_{i}$ in any number$$a_{n} a_{n-1} \ldots a_{0}$$lies in the range 0 to $R_{i}$, where $R_{i}$ is not the same for every $i$. The number is then interpreted as$$\left(\ldots\left(\left(a_{n} R_{n-1}\right)+a_{n-1}\right) R_{n-2}+\ldots+a_{1}\right) R_{0}+a_{0}$$for example, 122 days 17 hours 35 minutes 22 seconds is equal to$$(((((1 \times 10)+2) 10+2) 24+17) 60+35) 60+22$$seconds.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -144,7 +144,9 @@ http://detexify.kirelabs.org/classify.html
 - Tilde x: $\tilde x$ 
 - Adding extra space :
 	- $A \qquad B$
-	- $A \quad B$ 
+	- $A \quad B$
+	- $A~~~~B$
+		- Could use tildes here
 - Combination: $_nC_k$ 
 	- Might be a bug with equals sign: $=_nC_k$ 
 - Two-line notation:
