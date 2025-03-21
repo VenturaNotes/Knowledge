@@ -3802,7 +3802,7 @@ Year: 2016-04-01
 	2724. LZW
 	2725. M
 	2726. M-O
-	2727. m-sequence
+	2727. [[m-sequence]]
 	2728. M2FM
 	2729. Mac
 	2730. MAC-48
@@ -3905,324 +3905,324 @@ Year: 2016-04-01
 	2827. [[multiuser object oriented|MOO]]
 	2828. [[Moore's Law]]
 	2829. Moore machine
-	2830. morphing
+	2830. [[morphing]]
 	2831. morphism
-	2832. Mosaic
-	2833. MOSFET
+	2832. [[Mosaic]]
+	2833. [[metal oxide semiconductor field-effect transistor|MOSFET]]
 	2834. MOS integrated circuit
 	2835. MOS transistor
-	2836. most significant character
+	2836. [[most significant character]]
 	2837. moth-eye
-	2838. motherboard
-	2839. Motorola
-	2840. Mount Rainier specifications
-	2841. mouse
+	2838. [[motherboard]]
+	2839. [[Motorola]]
+	2840. [[Mount Rainier specifications]]
+	2841. [[mouse]]
 	2842. moving-average methods
-	2843. MP3
-	2844. MPEG
-	2845. MPP
-	2846. MS-DOS
+	2843. [[MP3]]
+	2844. [[Moving Pictures Experts Group|MPEG]]
+	2845. [[massively parallel processor|MPP]]
+	2846. [[MS-DOS]]
 	2847. MSD
-	2848. MSI
-	2849. MSR
+	2848. [[medium-scale integration|MSI]]
+	2849. [[magnetic strip reader|MSR]]
 	2850. MS Windows
-	2851. MTA
-	2852. MTBF
-	2853. MTBI
-	2854. MTS
+	2851. [[message-mail transfer agent|MTA]]
+	2852. [[mean time between failures|MTBF]]
+	2853. [[mean time between incidents|MTBI]]
+	2854. [[Michigan terminal system|MTS]]
 	2855. MTTR
 	2856. MTU
 	2857. mu-law encoding
 	2858. MUA
-	2859. multiaccess system
+	2859. [[multiaccess system]]
 	2860. multiaddress
-	2861. Multibus
-	2862. multicasting
+	2861. [[Multibus]]
+	2862. [[multicasting]]
 	2863. multicore cable
-	2864. MULTICS
-	2865. multidimensional array
-	2866. multidimensional spreadsheet
-	2867. multidrop line
-	2868. multifunction device
-	2869. multigrid methods
-	2870. multilevel memory
-	2871. multilevel security
-	2872. multilinked
-	2873. multimedia
+	2864. [[MULTICS]]
+	2865. [[multidimensional array]]
+	2866. [[multidimensional spreadsheet]]
+	2867. [[multidrop line]]
+	2868. [[multifunction device]]
+	2869. [[multigrid methods]]
+	2870. [[multilevel memory]]
+	2871. [[multilevel security]]
+	2872. [[multilinked]]
+	2873. [[multimedia]]
 	2874. multimedia mail
-	2875. multimode
+	2875. [[multimode]]
 	2876. multimode counter
 	2877. multipart stationery
-	2878. multiple-address machine
+	2878. [[multiple-address machine]]
 	2879. multiple-master font
-	2880. multiple-range tests
+	2880. [[multiple-range tests]]
 	2881. multiple-valued logic
-	2882. multiple assignment
+	2882. [[multiple assignment]]
 	2883. multiple chain
 	2884. multiple inheritance
 	2885. multiple instruction, multiple data
 	2886. multiple precision
 	2887. multiple regression model
-	2888. multiplexed bus
-	2889. multiplexer
+	2888. [[multiplexed bus]]
+	2889. [[multiplexer]]
 	2890. multiplexer channel
-	2891. multiplexing
-	2892. multiplier
-	2893. multiply connected
-	2894. multipoint connection
-	2895. multipoint line
-	2896. multiport memory
+	2891. [[multiplexing]]
+	2892. [[multiplier]]
+	2893. [[multiply connected]]
+	2894. [[multipoint connection]]
+	2895. [[multipoint line]]
+	2896. [[multiport memory]]
 	2897. multiprecision
-	2898. multiprocessing system
+	2898. [[multiprocessing system]]
 	2899. multiprocessor
-	2900. multiprogramming system
-	2901. multireader
-	2902. multiresolution image
+	2900. [[multiprogramming system]]
+	2901. [[multireader]]
+	2902. [[multiresolution image]]
 	2903. multisession compatible
 	2904. multiset
-	2905. multitape Turing machine
-	2906. multitasking
-	2907. multithreading
-	2908. multitouch
+	2905. [[multitape Turing machine]]
+	2906. [[multitasking]]
+	2907. [[multithreading]]
+	2908. [[multitouch]]
 	2909. multiunit processor
-	2910. multiuser system
-	2911. multivalued logic
-	2912. multivariate analysis
-	2913. multivibrator
-	2914. multiway search tree
-	2915. Munsell colour model
+	2910. [[multiuser system]]
+	2911. [[multivalued logic]]
+	2912. [[multivariate analysis]]
+	2913. [[multivibrator]]
+	2914. [[multiway search tree]]
+	2915. [[Munsell color model]]
 	2916. mu operator
-	2917. mutual exclusion
-	2918. Myhill equivalence
-	2919. MySpace
-	2920. mySQL
-	2921. N-ISDN
-	2922. n-tuple
+	2917. [[mutual exclusion]]
+	2918. [[Myhill equivalence]]
+	2919. [[MySpace]]
+	2920. [[mySQL]]
+	2921. [[Narrowband-Normal ISDN|N-ISDN]]
+	2922. [[n-tuple]]
 	2923. n-type semiconductor
-	2924. n-version programming
-	2925. nagware
-	2926. naive physics
-	2927. NAK
-	2928. name
+	2924. [[n-version programming]]
+	2925. [[nagware]]
+	2926. [[naive physics]]
+	2927. [[NAK]]
+	2928. [[name]]
 	2929. name lookup
-	2930. nameset
-	2931. namespace
-	2932. NAND gate
-	2933. NAND operation
-	2934. nano-
+	2930. [[nameset]]
+	2931. [[namespace]]
+	2932. [[NAND gate]]
+	2933. [[NAND operation]]
+	2934. [[nano-]]
 	2935. nanostore
-	2936. narrow
+	2936. [[narrow]]
 	2937. narrowband
-	2938. NAS
-	2939. Nassi–Shneiderman chart
+	2938. [[network-attached storage|NAS]]
+	2939. [[Nassi–Shneiderman chart]]
 	2940. NAT
-	2941. National Information Infrastructure
+	2941. [[National Information Infrastructure]]
 	2942. native code
-	2943. native software
-	2944. natural-language processing
-	2945. natural-language understanding
+	2943. [[native software]]
+	2944. [[natural language processing|natural-language processing]]
+	2945. [[natural language understanding|natural-language understanding]]
 	2946. natural binary-coded decimal
-	2947. natural number
+	2947. [[Natural Numbers|natural number]]
 	2948. NBCD
-	2949. NCP
-	2950. NCR
-	2951. NDC
-	2952. NEC Corporation
-	2953. negation
-	2954. negation as failure
+	2949. [[network control protocol|NCP]]
+	2950. [[NCR]]
+	2951. [[normalized device coordinates|NDC]]
+	2952. [[NEC Corporation]]
+	2953. [[negation]]
+	2954. [[negation as failure]]
 	2955. negative acknowledgment
-	2956. negative logic
+	2956. [[negative logic]]
 	2957. negator
 	2958. negentropy
 	2959. neighbour
-	2960. nerd
-	2961. Nerode equivalence
+	2960. [[nerd]]
+	2961. [[Nerode equivalence]]
 	2962. nested blocks
-	2963. nesting
+	2963. [[nesting]]
 	2964. nesting store
 	2965. Net
-	2966. netgod
-	2967. netiquette
+	2966. [[netgod]]
+	2967. [[netiquette]]
 	2968. Netnews
-	2969. netpolice
-	2970. Netscape Navigator
-	2971. Netware
-	2972. network
+	2969. [[netpolice]]
+	2970. [[Netscape Navigator]]
+	2971. [[Netware]]
+	2972. [[network]]
 	2973. network-attached storage
-	2974. network address translation
-	2975. network administrator
-	2976. network architecture
-	2977. network delay
-	2978. Network File System
-	2979. network front end
+	2974. [[network address translation]]
+	2975. [[network administrator]]
+	2976. [[network architecture]]
+	2977. [[network delay]]
+	2978. [[Network File System]]
+	2979. [[network front end]]
 	2980. network interconnection
 	2981. network layer
-	2982. network management
-	2983. network share
+	2982. [[network management]]
+	2983. [[network share]]
 	2984. network topology
 	2985. network virtual terminal
-	2986. neural computer
-	2987. neural network
-	2988. neuron
+	2986. [[neural computer]]
+	2987. [[neural network]]
+	2988. [[neuron]]
 	2989. newsgroup
-	2990. newsreader
-	2991. Newton's method
+	2990. [[newsreader]]
+	2991. [[Newton's method]]
 	2992. Newton–Cotes rules
 	2993. NFS
-	2994. nibble
+	2994. [[nibble]]
 	2995. Nigerian fraud
 	2996. nine's complement
 	2997. NLP
-	2998. NLQ
-	2999. NMOS
-	3000. no-address instruction
-	3001. no-op instruction
-	3002. node
+	2998. [[near letter quality|NLQ]]
+	2999. [[NMOS]]
+	3000. [[no-address instruction]]
+	3001. [[no-op instruction]]
+	3002. [[node]]
 	3003. Noetherian
-	3004. noise
+	3004. [[noise]]
 	3005. noise immunity
-	3006. noiseless coding
+	3006. [[noiseless coding]]
 	3007. noise margin
 	3008. noise sequence
-	3009. noise source
-	3010. noisy mode
+	3009. [[noise source]]
+	3010. [[noisy mode]]
 	3011. nonbinary logic
-	3012. nondestructive read
-	3013. nondeterminism
+	3012. [[nondestructive read]]
+	3013. [[nondeterminism]]
 	3014. nonequivalence gate
 	3015. nonequivalence operation
 	3016. nonerasable programmable device
 	3017. nonfunctional requirements
 	3018. nonhierarchical cluster analysis
-	3019. nonimpact printer
-	3020. nonlinear equations
+	3019. [[nonimpact printer]]
+	3020. [[nonlinear equations]]
 	3021. nonlinear regression model
 	3022. nonlocal entity
-	3023. nonmemory reference instruction
-	3024. nonmonotonic reasoning
-	3025. nonparametric techniques
-	3026. nonpreemptive allocation
+	3023. [[nonmemory reference instruction]]
+	3024. [[nonmonotonic reasoning]]
+	3025. [[nonparametric techniques]]
+	3026. [[nonpreemptive allocation]]
 	3027. nonprocedural language
 	3028. nonreturn to zero
-	3029. nonsingular matrix
-	3030. nonstop processing
+	3029. [[nonsingular matrix]]
+	3030. [[nonstop processing]]
 	3031. nonterminal
-	3032. nonterminal node
-	3033. nonvolatile memory
-	3034. non von Neumann architecture
-	3035. NOR gate
+	3032. [[nonterminal node]]
+	3033. [[nonvolatile memory]]
+	3034. [[non von Neumann architecture]]
+	3035. [[NOR gate]]
 	3036. norm
-	3037. normal distribution
-	3038. normal forms
-	3039. normalization
+	3037. [[normal distribution]]
+	3038. [[normal forms]]
+	3039. [[normalization]]
 	3040. normalized coordinates
-	3041. normal plots
+	3041. [[normal plots]]
 	3042. normal subgroup
-	3043. NOR operation
+	3043. [[NOR operation]]
 	3044. NOS
-	3045. NoSQL
+	3045. [[NoSQL]]
 	3046. not-equivalence gate
 	3047. notch filter
 	3048. notebook
 	3049. NOT gate
-	3050. NOT operation
-	3051. Novell Inc.
+	3050. [[NOT operation]]
+	3051. [[Novell Inc.]]
 	3052. NP
-	3053. NPC
+	3053. [[normalized projection coordinates|NPC]]
 	3054. npn
-	3055. NREN
-	3056. NRZ
+	3055. [[national research and education network|NREN]]
+	3056. [[nonreturn to zero|NRZ]]
 	3057. NS chart
 	3058. NSPACE
 	3059. NTFS
 	3060. nucleus
-	3061. null
+	3061. [[null]]
 	3062. nullary operation
-	3063. null character
+	3063. [[null character]]
 	3064. nullity
 	3065. null link
 	3066. null list
 	3067. null string
 	3068. number cruncher
-	3069. number system
-	3070. numerical analysis
-	3071. numerical code
-	3072. numerical control
-	3073. numerical differentiation
-	3074. numerical integration
-	3075. numerical linear algebra
-	3076. numerical methods
+	3069. [[number system]]
+	3070. [[numerical analysis]]
+	3071. [[numerical code]]
+	3072. [[numerical control]]
+	3073. [[numerical differentiation]]
+	3074. [[numerical integration]]
+	3075. [[numerical linear algebra]]
+	3076. [[numerical methods]]
 	3077. numerical stability
-	3078. numlock
-	3079. NURBS
-	3080. Nyquist's criterion
-	3081. Nyquist interval
+	3078. [[numlock]]
+	3079. [[nonuniform rational B-splines|NURBS]]
+	3080. [[Nyquist's criterion]]
+	3081. [[Nyquist interval]]
 	3082. Nyquist rate
-	3083. Nyquist sampling
-	3084. Nyström methods
-	3085. Oberon
-	3086. OBJ
-	3087. object
-	3088. object-oriented architecture
-	3089. object-oriented database
-	3090. Object-oriented Programming
-	3091. object code
-	3092. object language
-	3093. object linking and embedding
-	3094. Object Management Group
-	3095. object management system
+	3083. [[Nyquist sampling]]
+	3084. [[Nyström methods]]
+	3085. [[Oberon]]
+	3086. [[OBJ]]
+	3087. [[object]]
+	3088. [[object-oriented architecture]]
+	3089. [[object-oriented database]]
+	3090. [[Object-oriented Programming]]
+	3091. [[object code]]
+	3092. [[object language]]
+	3093. [[object linking and embedding]]
+	3094. [[Object Management Group]]
+	3095. [[object management system]]
 	3096. occam-pi
-	3097. OCR
+	3097. [[OCR]]
 	3098. octant
 	3099. odd-even check
 	3100. ODP
 	3101. OFB
-	3102. office software product
-	3103. offline
+	3102. [[office software product]]
+	3103. [[offline]]
 	3104. OLAP
 	3105. OLE
 	3106. OMG
 	3107. OMS
-	3108. OMT
+	3108. [[Object Modeling Technique|OMT]]
 	3109. on-the-fly error recovery
 	3110. one's complement
 	3111. one-address instruction
-	3112. one-level store
-	3113. one-pass program
+	3112. [[one-level store]]
+	3113. [[one-pass program]]
 	3114. one-plus-one address instruction
 	3115. one-shot
 	3116. one-to-one function
 	3117. one-to-one onto function
-	3118. one-way filter
+	3118. [[one-way filter]]
 	3119. one-way linked list
-	3120. online
-	3121. online analytical processing
-	3122. online transaction processing
+	3120. [[online]]
+	3121. [[online analytical processing]]
+	3122. [[online transaction processing]]
 	3123. O notation
 	3124. onto function
-	3125. ontology
+	3125. [[ontology]]
 	3126. op-amp
 	3127. op code
-	3128. open-collector device
+	3128. [[open-collector device]]
 	3129. open-reel tape
-	3130. open-source
-	3131. open distributed processing
-	3132. OpenGL
+	3130. [[open-source]]
+	3131. [[open distributed processing]]
+	3132. [[OpenGL]]
 	3133. Open Group
-	3134. open relay
-	3135. open shop
+	3134. [[open relay]]
+	3135. [[open shop]]
 	3136. Open Software Foundation
-	3137. open subroutine
-	3138. open system
-	3139. open systems interconnection
+	3137. [[open subroutine]]
+	3138. [[open system]]
+	3139. [[open systems interconnection]]
 	3140. open term
-	3141. OpenType font
-	3142. operand
-	3143. operating system
-	3144. operation
+	3141. [[OpenType font]]
+	3142. [[operand]]
+	3143. [[Operating Systems|operating system]]
+	3144. [[operation]]
 	3145. operational research
-	3146. operational semantics
-	3147. operation register
+	3146. [[operational semantics]]
+	3147. [[operation register]]
 	3148. operations on sets
 	3149. operations research
 	3150. operation table

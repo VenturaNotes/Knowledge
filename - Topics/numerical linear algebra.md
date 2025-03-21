@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A fundamentally important subject that deals with the theory and practice of processes in linear algebra. Principally these involve the central problems of the solution of linear algebraic equations$$A x=b$$and the eigenvalue problem in which eigenvalues $\lambda_{k}$ and the eigenvectors $x_{k}$ are sought where$$A x_{k}=\lambda_{k} x_{k}$$Numerical linear algebra forms the basis of much scientific computing. Both of these problems have many variants, determined by the properties of the matrix $A$. For example, a related problem is the solution of overdetermined systems where $A$ has more rows than columns. Here there are good reasons for computing $x$ to minimize the norm$$\left\|A_{x}-b\right\|_{2}$$(see APPROXIMATION THEORY). A major activity is the computing of certain linear transformations in the form of matrices, which brings about some simplification of the given problem. Most widely used are orthogonal matrices $Q$, for which$$Q^{\mathrm{T}} Q=I$$(see IDENTITY MATRIX, TRANSPOSE). An important feature of large-scale scientific computing is where the associated matrices are sparse, i.e. where a high proportion of the elements are zero (see SPARSE MATRIX). This is exploited in the algorithms for their solution.
+- There is now available high-quality software for an enormous variety of linear algebra processes.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

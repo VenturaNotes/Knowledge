@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- An equivalence relation arising in formal language theory. If $L$ is a language over alphabet $\Sigma$ (see WORD) then its Myhill equivalence is the relation $=\mathrm{M}$ on $\Sigma^{*}$ defined as follows:$$u =_\mathrm{M} u^{\prime}$$if, for all $w_{1}, w_{2}$ in $\Sigma^{*}$,$$w_{1} u w_{2} \in L \text { iff } w_{1} u^{\prime} w_{2} \in L$$Similarly (and more generally), if $f$ is a function from $\Sigma^{*}$ to any set, its Myhill equivalence is defined by:$$u =_{\mathrm{M}} u^{\prime}$$if, for all $w_{1}, w_{2}$ in $\Sigma^{*}$,$$f\left(w_{1} u w_{2}\right)=f\left(w_{1} u^{\prime} w_{2}\right)$$See also Nerode Equivalence.
+- An important fact is that $L$ is regular iff the equivalence relation $=_{\mathrm{M}}$ is of finite index (i.e. there are finitely many equivalence classes). Indeed, $L$ is regular iff it is a union of classes of any equivalence relation of finite index. In addition $=_{M}$ is a congruence on $\Sigma^{*}$, i.e.$$\begin{aligned}& u =_{\mathrm{M}} u^{\prime} \text { and } v=_{\mathrm{M}}v^{\prime}\text { implies } \\& u v =_{\mathrm{M}} u^{\prime} v^{\prime}\end{aligned}$$The equivalence classes therefore can be concatenated consistently and form a semigroup. This is in fact the semigroup of the minimal machine for $L$ (or $f$ ).
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
