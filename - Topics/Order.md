@@ -1,7 +1,10 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- 1. A means of indicating the way a function varies in magnitude as its argument tends to some limits, usually zero or infinity. More precisely if there is some constant $K$ such that$$|f(x)| \leq K \upvarphi(x)$$for all $x \geq x_{1}$, then we say that $f(x)$ is order $\upvarphi(x)$ as $x$ tends to infinity, and we write$$f(x)=\text{O}(\upvarphi(x))$$For example,$$\begin{aligned}& 100 x^{2}+100 x+2=\text{O}\left(x^{2}\right) \\& \text { as } x \rightarrow \infty\end{aligned}$$If$$\lim _{x \rightarrow a} f(x) / g(x)=0$$then we write$$f(x)=\text{o}(g(x))$$For example,$$x=\text{o}\left(x^{2}\right) \quad \text { as } x \rightarrow \infty$$Both these notations are statements about maximum magnitude and do not exclude $f$ from being of smaller magnitude. For example,$$x=\text{O}\left(x^{2}\right)$$is perfectly valid, but equally$$x=\text{O}(x)$$If$$\lim _{x \rightarrow a} f(x) / g(x)=\text { const. } k \neq 0$$then we write$$f(x) \cong k g(x) \quad \text { as } x \rightarrow a$$For example, $$\begin{align} &10x^2+x+1\cong 10x^2 \\ &\text{as }x \to \infty \end{align}$$
+- The term order and the O notation is used in numerical analysis, particularly in discretization methods. In ordinary differential equations, if $h$ denotes the stepsize, then a method (or formula) has order $p$ (a positive integer) if the global discretization error is $\mathrm{O}\left(h^{p}\right)$. This means that as the step size $h$ is decreased, the error goes to zero at least as rapidly as $h^{p}$. Similar considerations apply to partial differential equations. High-accuracy formulas (order up to 12 or 13) are sometimes used in methods for ordinary differential equations. For reasons of computational cost and stability, low-order formulas tend to be used in methods for partial differential equations.
+- The term is also used to refer to the speed of convergence of iteration schemes, for example Newton's method for computing the zero of a function $f(x)$. Subject to appropriate conditions, Newton's method converges quadratically (or has order of convergence 2), i.e. an approximate squaring of the error is obtained in each iteration. 
+- (2) Another name for operation code.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
