@@ -5,7 +5,12 @@ aliases:
 ## Synthesis
 - 
 ## Source [^1]
-- A term variously used in mathe matics and which is typically synonymous with function. The terms ‘linear operator ’ and ‘differential operator’ are comm on, where the elements of the domain are themselves functions.
+- A term variously used in mathematics and which is typically synonymous with function. The terms ‘linear operator ’ and ‘differential operator’ are comm on, where the elements of the domain are themselves functions.
+
+## Source[^2]
+- (1) A person responsible for the immediate supervision of the hardware of a computer system. 
+- (2) A function that can be applied to one or more operands so as to yield a result. It is (usually) a symbol representing an operation to be carried out, as opposed to a variable, which represents a data value. See also ARITHMETIC OPERATOR, LOGIC OPERATION, RELATIONAL OPERATOR, PRECEDENCE.
 ## References
 
 [^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- A type of optical storage in which the medium is in the form of a disk that is rotated to give one dimension of access while the light beam is scanned radially to give a second dimension. In nearly all cases the disk is exchangeable. This is easily arranged because there is a substantial clearance, typically 1 mm , between the surface of the disk and the nearest component of the optical system. Rewritable, write-once, and read-only media have been developed for optical disk drives: multifunction drives can read two or all three of these media types. Disk sizes range from 350 mm downward with 300 mm and 130 or 120 mm the most widely accepted, although smaller sizes are becoming popular. The only widely used formats for read-only disks are CD-ROM and DVD.
+- The first optical disk drives suitable for data storage (with a read error rate after correction better than 1 in $10^{12}$ bits) appeared on the market at the end of 1984: these all used write-once media on large-diameter disks ( 350 mm to 200 mm ). Read-only disks, particularly CD-ROM, appeared about the same time. Rewritable disks became practicable several years later because of difficulty in developing reliable media, but have now replaced write-once disks for many purposes. Optical disks are very robust, need no special environmental control, and have an almost unlimited life.
+- Optical disks have higher capacity than magnetic disks of similar cost, but their performance is lower than that of hard magnetic disks. They are therefore rarely used as the working store of a computer, but are suitable for archival storage, backup, and data distribution and exchange.
+- See also Blu-RAY, HD DVD, OPTICAL DISK LIBRARY.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
