@@ -2,65 +2,10 @@
 - 
 ## Source [^1]
 - Differential equations that involve one independent variable, which in practice may be a space or time variable. Except in simple cases the solution cannot be determined analytically and approximation methods are used.
-- Numerical methods are mainly developed for equations involving first derivatives only, written in the form
-
-  
-
-$$
-
-y^{\prime}=f(x, y), a \leq x \leq b
-
-$$
-
-  
-
-where $y$ and $f$ are $s$-component vectors with component functions
-
-  
-
-$$
-
-\begin{aligned}
-
-& y_{1}(x) \\
-
-& f\left(x, y_{1}(x), y_{2}(x), \ldots, y_{s}(x)\right)
-
-\end{aligned}
-
-$$
-
-  
-
-Equations involving higher derivatives can be equivalently written in this form by introducing intermediate functions for the higher derivatives. Alternatively direct methods may be derived for such problems (see NYSTRÖM METHODS).
-
-  
-
-In general, $s$ conditions must be imposed to determine a particular solution. If the values $y(a)=y_{0}$ are specified, it is an initial-value problem. These problems can be solved directly using step-by-step methods, such as Runge-Kutta methods, linear multistep methods, or extrapolation methods, which determine approximations at a set of points in $[a, b]$. The problem is a boundary-value problem if the $s$ conditions are given in terms of the component functions at $a$ and $b$. In general, such problems require iterative methods, such as the shooting method. However, if $\boldsymbol{f}$ is linear in $\boldsymbol{y}$, finite-difference methods can be advantageous. Excellent software has been developed for both types of problem.
-
-  
-
-An area of particular interest in many applications is the solution of stiff equations. A stiff system possesses solutions that decay very rapidly over an interval that is short relative to the range of integration, and the solution required varies slowly over most of the range. To allow large steps in the slowly varying phases, it is necessary to use special methods, such as the implicit trapezoidal rule:
-
-  
-
-$$
-
-\begin{aligned}
-
-& x_{n+1}=x_{n}+h \\
-
-& y_{n+1}=y_{n}+1 / 2 h\left(f\left(x_{n+1}, y_{n+1}\right)+\right. \\
-
-& \left.f\left(x_{n}, y_{n}\right)\right)
-
-\end{aligned}
-
-$$
-
-  
-
-At each step a system of equations has to be solved for $y_{n+1}$, using very often a modification of Newton's method. More straightforward explicit methods rapidly lead to catastrophic error growth unless the stepsize $h$ is prohibitively small. These problems have been the subject of very active research interest.
+- Numerical methods are mainly developed for equations involving first derivatives only, written in the form$$y^{\prime}=f(x, y), a \leq x \leq b$$where $y$ and $f$ are $s$-component vectors with component functions$$\begin{aligned}& y_{i}(x), \\& fi\left(x, y_{1}(x), y_{2}(x), \ldots, y_{s}(x)\right)\end{aligned}$$Equations involving higher derivatives can be equivalently written in this form by introducing intermediate functions for the higher derivatives. Alternatively direct methods may be derived for such problems (see NYSTRÖM METHODS).
+	- #question I don't know if its $fi$ or $f_i$ in the second line
+- In general, $s$ conditions must be imposed to determine a particular solution. If the values $y(a)=y_{0}$ are specified, it is an initial-value problem. These problems can be solved directly using step-by-step methods, such as Runge-Kutta methods, linear multistep methods, or extrapolation methods, which determine approximations at a set of points in $[a, b]$. The problem is a boundary-value problem if the $s$ conditions are given in terms of the component functions at $a$ and $b$. In general, such problems require iterative methods, such as the shooting method. However, if $\boldsymbol{f}$ is linear in $\boldsymbol{y}$, finite-difference methods can be advantageous. Excellent software has been developed for both types of problem.
+- An area of particular interest in many applications is the solution of stiff equations. A stiff system possesses solutions that decay very rapidly over an interval that is short relative to the range of integration, and the solution required varies slowly over most of the range. To allow large steps in the slowly varying phases, it is necessary to use special methods, such as the implicit trapezoidal rule:$$\begin{aligned}& x_{n+1}=x_{n}+h \\& y_{n+1}=y_{n}+1 / 2 h\left(f\left(x_{n+1}, y_{n+1}\right)+\right. \\& \left.f\left(x_{n}, y_{n}\right)\right)\end{aligned}$$At each step a system of equations has to be solved for $y_{n+1}$, using very often a modification of Newton's method. More straightforward explicit methods rapidly lead to catastrophic error growth unless the stepsize $h$ is prohibitively small. These problems have been the subject of very active research interest.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
