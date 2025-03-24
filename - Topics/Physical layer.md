@@ -16,7 +16,6 @@ aliases:
 - First layer when counting from the bottom up
 - The physical layer deals with the physical aspects of data transmission like cables, electrical signals, and connector types
 	- Essentially the hardware components involved in sending raw data bits across a network
-
 ## Source[^4]
 - It encodes [[frame|frames]] into electrical, optical, or radio wave signals
 

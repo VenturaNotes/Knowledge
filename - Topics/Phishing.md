@@ -50,6 +50,9 @@
 
 ## Source[^5]
 - Sending emails pretending to be from reputable companies to try and get people to reveal personal information
+
+## Source[^6]
+- A form of fraud that involves masquerading as a trustworthy entity in an electronic communication (often using forged emails or websites) in order to persuade users to disclose sensitive information such as usernames, passwords, or credit card details. See also SEMANTIC ATTACK.
 ## References
 
 [^1]: ChatGPT
@@ -57,3 +60,4 @@
 [^3]: https://www.fortinet.com/resources/cyberglossary/types-of-phishing-attacks
 [^4]: https://www.tessian.com/blog/5-real-world-examples-of-phishing-attacks/
 [^5]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-4-network-security-quizzes/ks4-ocr-j277-1-4-network-security-quiz/
+[^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

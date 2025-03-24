@@ -12,7 +12,10 @@
 ## Source[^2]
 - Ping uses [[ICMP]]
 
+## Source[^3]
+- A short message that an application sends from one system on a network to another (or, as a verb, to send such a message), primarily to establish whether the receiver is active, or the network linking sender and receiver is operational. A system receiving a ping will typically respond by immediately retransmitting the incoming message back to the original sender. (The word ping may be an acronym for packet Internet gopher or possibly imitative in origin.)
 ## References
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://youtu.be/NRckVJk9n0k?si=iGYuTxcHcFLF4y3E
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

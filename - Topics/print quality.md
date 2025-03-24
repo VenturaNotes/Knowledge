@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- The characteristics of the printed characters on a printout that make them acceptable for their application. These characteristics include degree of conformity with the intended shapes of the characters, uniformity of limb width, uniformity of print density, contrast with the paper, amount of smudging, accuracy of location of the characters compared with their intended positions on the paper, and amount of extraneous ink (or toner in an electrophotographic printer). The print quality depends on the type of printer, its age, cleanliness, and condition, the type and amount of previous use of the ribbon (on impact printers), and the characteristics of the stationery. The presence of streaks or bands of missing print is usually an indication of the need to replace ink or toner or the need to clean the print mechanism.
+- The basic print quality requirement is that all characters must be legible out of context. In the most demanding application, the printed page must have all characters accurately and completely printed with uniform density and high contrast, and no visible flaws. Print quality close to this is known as letter (or correspondence) quality; it is intended to match the quality attainable with a good typewriter. In general, slower impact printers produce higher-quality print but the highest quality is available from laser printers and inkjet printers.
+- Some printouts are intended for data capture via OCR equipment; examples are debit and payment slips and cheques. These must conform to the standards specifying font shape (e.g. OCR B) and with the minimum print-quality standards specified for OCR. These are international standards.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

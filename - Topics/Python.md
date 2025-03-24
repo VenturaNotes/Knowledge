@@ -81,6 +81,9 @@ settings = {"theme": "dark", "language": "English"}  # Dictionary initialization
 ## Source [^6]
 - `import this` prints out the zen of python
 
+## Source[^7]
+- A scripting language incorporating features from C, Modula 3, and Icon.
+
 ## References
 [^1]: https://www.w3schools.com/python/python_exercises.asp
 [^2]: https://www.geeksforgeeks.org/history-of-python/
@@ -88,3 +91,4 @@ settings = {"theme": "dark", "language": "English"}  # Dictionary initialization
 [^4]: ChatGPT
 [^5]: https://www.nielit.gov.in/gorakhpur/sites/default/files/Gorakhpur/ALevel_1_Python_26May_SS.pdf
 [^6]: https://peps.python.org/pep-0020/
+[^7]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
