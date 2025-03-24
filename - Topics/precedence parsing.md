@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- A bottom-up parsing technique that exploits precedence relations on the symbols of the grammar to decide when a string of symbols may be replaced, i.e. form a handle. Two precedence parsing techniques, operator precedence and simple precedence, are in common use.
+- In simple precedence three relations, $\langle\bullet ~\bullet\rangle$ and, $\doteq$ are defined on the symbols (terminal and nonterminal) of the grammar. If$$X<\bullet ~Y, X \overset{\bullet}= Y, \text { or } X ~\bullet> Y$$then, respectively, $X$ is said to yield precedence to $Y$, have the same precedence as $Y$, or take precedence over $Y$. Note that these relations are not symmetric. By inserting the precedence relations between symbols in a sentential form and then regarding the $<\bullet$ and $\bullet>$ symbols as matching brackets, a handle is determined as the leftmost string delimited by $<\bullet$ at its left end and $\bullet>$ at its right end.
+- Operator precedence differs from simple precedence in that the three precedence relations are defined on just the terminal symbols of the grammar. Furthermore the grammar must satisfy the property that nonterminals on the right-hand side of a production must always be separated by at least one terminal.
+- Arithmetic expressions provided the original motivation for operator precedence since conventionally multiplication takes precedence over addition. Simple precedence is a generalization of operator precedence. Both methods are limited in the scope of their application to grammars for which at most one precedence relation exists between any ordered pair of symbols. In addition the right-hand side of productions must be unique.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

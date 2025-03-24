@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Differential equations that involve two or more independent variables, which in practice are often space and time variables. Because more than one independent variable is present, the 'derivatives' that occur are partial derivatives. Such equations are widespread in science and model physical phenomena; they also arise frequently in the form of systems of equations. Simple examples in space and time are given by the heat conduction (or diffusion) equation,$$\partial u / \partial t=\alpha \partial^{2} u / \partial x^{2}$$and the wave equation,$$\partial^{2} u / \partial t^{2}=\beta \partial^{2} u / \partial x^{2}$$where $\alpha$ and $\beta$ are physical constants. Steady-state phenomena in two space variables are typified by Laplace's equation,$$\partial^{2} u / \partial x^{2}+\partial^{2} u / \partial y^{2}=0$$Appropriate initial and boundary conditions must be specified for these equations. The majority of partial differential equations that arise in practice require numerical techniques for their solution, the most successful and widely used being finite-difference and finite-element methods.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

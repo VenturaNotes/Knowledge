@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- A government grant to an inventor assuring him/her the exclusive right to exploit or sell the invention for a limited period (usually 20 years). Under the 1985 Guidelines for Examination in the European Patent Office, patent protection is available to inventive computer programs in Europe if the invention is expressed in terms of a programmed machine. Programs can be patented in the USA if they comply with the originality and other requirements of the US Patent Act. Inventive hardware is patentable in Europe and this leads to a serious flaw in the law; the same task can be performed by both software and hardware but the former is expressly excluded from protection by a clause in the European Patent Convention. The question of whether a program that performs the same task as a piece of patented hardware infringes the patent in the hardware has not yet been decided in Europe, nor has it been decided whether a PROM is a piece of software or hardware. Many of these inventions are now given a special type of copyright protection under new laws protecting chip masks. See also TRADE SECRETS.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
