@@ -540,7 +540,7 @@ Reviewed: false
 	456. [[Reference variable]]
 	457. [[Referential integrity]]
 	458. [[Register]]
-	459. [[Regular expression]]
+	459. [[Regular Expressions|regular expression]]
 	460. [[Regular language]]
 	461. [[Rehashing]]
 	462. [[Relational database management system (RDBMS)]]

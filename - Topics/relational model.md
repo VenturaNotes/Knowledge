@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- A data model that views information in a database as a collection of distinctly named tables. Each table has a specified set of named columns, each column name (also called an attribute) being distinct within a particular table, but not necessarily between tables. The entries within a particular column of a table must be atomic (that is, single data items) and all of the same type. The logical records held in a relational database are viewed as rows in these tables. Each logical record is thus constrained to contain only a set of elementary data items each of a prespecified type. The model is, in consequence, also known as the flat file model.
+- The model, first proposed by Codd in 1969 and used exclusively in the context of database management systems, takes its name from an analogy that can be drawn between a table as described and the mathematical concept of a relation. In this analogy table corresponds to relation, row (in a table) to tuple (of a relation), and the column names (of the table) to the domain ordering (in the relation). Using this analogy Codd developed various sets of operations on which languages for the manipulation of such tables might be based and from which the now widely used data sublanguage SQL is derived.
+- In spite of its name, which can be a source of confusion, the model makes no provision for maintaining relationships between rows in different tables and the only constraint on the rows within a particular table is that no two rows are identical. Each row, from the viewpoint of the model, is thus an independent entity. It can only be related to other rows by correspondences between contained data items, which is a matter for the user.
+- See also ERA MODEL, FOREIGN KEY, NORMAL FORMS.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
