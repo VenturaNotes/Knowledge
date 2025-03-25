@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- Imitation of the behavior of some existing or intended system, or some aspect of that behavior. Examples of areas where simulation is used include communication network design, where simulation can be used to explore overall behavior, traffic patterns, trunk capacity, etc., and weather forecasting, where simulation can be used to predict likely developments in the weather pattern. More generally, simulation is widely used as a design aid for both small and large systems, and is also used extensively in the training of people such as airline pilots or military commanders. It is a major application of digital computers and is the major application of analogue computers.
+- From an implementation viewpoint, a simulation is usually classified as being either discrete event or continuous. For a discrete event simulation it must be possible to view all significant changes to the state of the system as distinct events that occur at specific points in time; the simulation then achieves the desired behavior by modelling a sequence of such events, treating each individually. By contrast, a continuous simulation views changes as occurring gradually over a period of time and tracks the progress of these gradual changes. Clearly the choice between these two in any particular case is determined by the nature of the system to be simulated and the purposes that the simulation is intended to achieve.
+- Although the distinction between simulation and emulation is not always clear, an emulation is normally 'realistic' in the sense that it could be used as a direct replacement for all or part of the system that is emulated. In comparison, a simulation may provide no more than an abstract model of some aspect of a system.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

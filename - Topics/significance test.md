@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A statistical procedure whereby a quantity computed from data samples is compared with theoretical values of standard probability distributions. Formally it is a comparison between a null-hypothesis, $\mathrm{H}_{0}$ (for example that there is no difference between the means of two populations), and an alternative hypothesis, $\mathrm{H}_{1}$, (that a real difference exists). If $\mathrm{H}_{0}$ is assumed to be true, the probability distribution of the test statistic can be computed or tabulated. If the test statistic exceeds the critical value corresponding to a probability level of $\alpha$ per cent, the null-hypothesis is rejected at the $\alpha$ per cent significance level. The most commonly used levels of significance are $5 \%$, $1 \%$, and $0.1 \%$. Care must be taken to specify exactly what alternative hypothesis is being tested. Tests involving both tails of the probability distribution are known as two-tailed tests; those involving only one tail are one-tailed tests. See also ANALYSIS OF VARIANCE, CHI-SQUARED DISTRIBUTION, GOODNESS-OF-FIT TEST, MULTIPLE-RANGE TESTS, STUDENT'S T DISTRIBUTION.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

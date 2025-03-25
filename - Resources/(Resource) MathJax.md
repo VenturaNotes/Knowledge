@@ -147,6 +147,8 @@ http://detexify.kirelabs.org/classify.html
 	- $A \quad B$
 	- $A~~~~B$
 		- Could use tildes here
+	- $x \in \! C$ 
+		- Negative space
 - Combination: $_nC_k$ 
 	- Might be a bug with equals sign: $=_nC_k$ 
 - Two-line notation:

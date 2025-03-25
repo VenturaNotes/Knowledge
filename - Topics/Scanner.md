@@ -1,7 +1,8 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- (1) A device that can capture an image and convert it into a unique set of electrical signals. The image scanned may be a pattern that is directly related to a code, such as bar codes on retailed products, or it may be a picture, page, or portion of text. See also BAR-CODE SCANNER, DOCUMENT SCANNER, DRUM SCANNER, FLATBED SCANNER. 
+- (2) Another name for lexical analyzer.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

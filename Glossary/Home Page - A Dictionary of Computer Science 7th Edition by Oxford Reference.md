@@ -5347,1338 +5347,1332 @@ Year: 2016-04-01
 	4027. sampled-data system
 	4028. [[sample input]]
 	4029. [[sampling]]
-	4030. SAN
-	4031. sanitization
+	4030. [[Storage area networks|SAN]]
+	4031. [[sanitization]]
 	4032. SATA
-	4033. satellite computer
-	4034. satisfiability
+	4033. [[satellite computer]]
+	4034. [[satisfiability]]
 	4035. satisfiability problem
-	4036. saturation
-	4037. sawtooth waveform
-	4038. SAX
+	4036. [[saturation]]
+	4037. [[sawtooth waveform]]
+	4038. [[SAX]]
 	4039. SCA
 	4040. scalable
 	4041. scalable font
 	4042. scalable processor architecture
 	4043. scalable vector graphics
-	4044. scalar
-	4045. scanner
+	4044. [[scalar]]
+	4045. [[scanner]]
 	4046. SCC
-	4047. sccs
-	4048. scheduler
-	4049. scheduling algorithm
+	4047. [[Source code control systems|sccs]]
+	4048. [[scheduler]]
+	4049. [[scheduling algorithm]]
 	4050. schema
-	4051. SCHEME
-	4052. Schmitt trigger
-	4053. Schonhage-Strassen algorithm
-	4054. Schonhage algorithm
-	4055. Schottky TTL
-	4056. scissoring
-	4057. scope
+	4051. [[SCHEME]]
+	4052. [[Schmitt trigger]]
+	4053. [[Schonhage-Strassen algorithm]]
+	4054. [[Schonhage algorithm]]
+	4055. [[Schottky TTL]]
+	4056. [[scissoring]]
+	4057. [[scope]]
 	4058. Scott-Ershov domain
-	4059. scratchpad
-	4060. screen
-	4061. screen dump
+	4059. [[scratchpad]]
+	4060. [[screen]]
+	4061. [[screen dump]]
 	4062. screened cable
 	4063. screen editor
-	4064. screensaver
-	4065. script
-	4066. scripting
-	4067. scripting language
-	4068. script theory
-	4069. scroll
+	4064. [[screensaver]]
+	4065. [[script]]
+	4066. [[scripting]]
+	4067. [[scripting language]]
+	4068. [[script theory]]
+	4069. [[scroll]]
 	4070. scroll bar
-	4071. SCSI
-	4072. SD card
-	4073. SDH
-	4074. SDK
-	4075. SDL
-	4076. SDLC
+	4071. [[SCSI]]
+	4072. [[secure digital card|SD card]]
+	4073. [[synchronous digital hierarchy|SDH]]
+	4074. [[software development kit|SDK]]
+	4075. [[specification and description language|SDL]]
+	4076. [[synchronous data link control|SDLC]]
 	4077. SDPM
-	4078. SDRAM
-	4079. SEAC
-	4080. search
+	4078. [[synchronous dynamic RAM|SDRAM]]
+	4079. [[Standards Eastern Automatic Computer|SEAC]]
+	4080. [[search]]
 	4081. search and insertion algorithm
-	4082. search and replace
-	4083. search engine
-	4084. searching
+	4082. [[search and replace]]
+	4083. [[search engine]]
+	4084. [[searching]]
 	4085. search tree
-	4086. secant method
-	4087. SECDED
+	4086. [[secant method]]
+	4087. [[single error correction - double error correction|SECDED]]
 	4088. second-order logic
 	4089. secondary index
 	4090. secondary memory
 	4091. secondary ray
-	4092. second generation
-	4093. Second Life
+	4092. [[second generation]]
+	4093. [[Second Life]]
 	4094. second normal form
-	4095. sector
+	4095. [[sector]]
 	4096. Secure Digital Card
-	4097. security
-	4098. security accreditation
-	4099. security assurance
-	4100. security certification
-	4101. security classification
-	4102. security clearance
-	4103. security evaluation
-	4104. security kernel
-	4105. security label
-	4106. security model
-	4107. security policy
-	4108. security processing mode
-	4109. security standard
-	4110. seeding
-	4111. seek time
-	4112. segment
-	4113. select
-	4114. selector
+	4097. [[security]]
+	4098. [[security accreditation]]
+	4099. [[security assurance]]
+	4100. [[security certification]]
+	4101. [[security classification]]
+	4102. [[security clearance]]
+	4103. [[security evaluation]]
+	4104. [[security kernel]]
+	4105. [[security label]]
+	4106. [[security model]]
+	4107. [[security policy]]
+	4108. [[security processing mode]]
+	4109. [[security standard]]
+	4110. [[seeding]]
+	4111. [[seek time]]
+	4112. [[segment]]
+	4113. [[select]]
+	4114. [[selector]]
 	4115. selector channel
-	4116. self-adapting process
-	4117. self-checking code
-	4118. self-compiling compiler
-	4119. self-defining
-	4120. self-documenting program
+	4116. [[self-adapting process]]
+	4117. [[self-checking code]]
+	4118. [[self-compiling compiler]]
+	4119. [[self-defining]]
+	4120. [[self-documenting program]]
 	4121. self-dual
-	4122. self-extending
+	4122. [[self-extending]]
 	4123. self-learning process
-	4124. self-organizing system
+	4124. [[self-organizing system]]
 	4125. self-referent list
 	4126. self-relative addressing
-	4127. self-signed certificate
+	4127. [[self-signed certificate]]
 	4128. semantic analysis
-	4129. semantic attack
-	4130. semantic error
+	4129. [[semantic attack]]
+	4130. [[semantic error]]
 	4131. semantic network
-	4132. semantics
-	4133. semaphore
-	4134. semi-Thue system
-	4135. semicomputable algebra
-	4136. semicomputable set
-	4137. semiconductor
-	4138. semiconductor memory
-	4139. semicustom
-	4140. semidecidable
-	4141. semidecidable set
-	4142. semidecision procedure
-	4143. semigroup
-	4144. semiring
-	4145. sense
-	4146. sensitivity analysis
-	4147. sensor
-	4148. sensor-data fusion
-	4149. sentence
-	4150. sentence symbol
-	4151. sentential form
-	4152. sentinel
-	4153. separator
-	4154. SEQUEL
-	4155. sequence
-	4156. sequence control register
-	4157. sequence generator
-	4158. sequencer
-	4159. sequencing
-	4160. sequency
-	4161. sequential
-	4162. sequential access
-	4163. sequential algorithm
-	4164. sequential circuit
-	4165. sequential cohesion
-	4166. sequential composition
-	4167. sequential encoding
-	4168. sequential file
-	4169. sequential function
-	4170. sequential machine
-	4171. sequential quadratic programming
-	4172. sequential search algorithm
-	4173. sequential transducer
-	4174. serial
-	4175. serial-parallel
-	4176. serial access
-	4177. serial adder
-	4178. serial arithmetic
-	4179. serial ATA
-	4180. serial in parallel out
-	4181. serial input/output
-	4182. serial in serial out
-	4183. serial interface
-	4184. serial port
-	4185. serial printer
-	4186. serial process
-	4187. serial programming
-	4188. serial transfer
-	4189. serpentine recording
-	4190. server
-	4191. server-side
-	4192. server farm
-	4193. service-oriented architecture
-	4194. service bit
-	4195. service engineering
-	4196. service level agreement
-	4197. session
-	4198. session layer
-	4199. set
-	4200. set-up time
-	4201. set algebra
-	4202. set difference
-	4203. seven-layer reference model
-	4204. SGML
-	4205. shading model
-	4206. shadow-mask cathode-ray tube
-	4207. shadow buffer
-	4208. Shannon's model
-	4209. Shannon's theorems
-	4210. Shannon-Fano coding
-	4211. Shannon-Hartley law
-	4212. Shannon diagram
-	4213. shape blending
-	4214. share
-	4215. shared logic system
-	4216. shared memory
-	4217. shareware
-	4218. SHE
-	4219. sheet feeder
-	4220. shell
-	4221. Shell's method
-	4222. shell script
-	4223. shellsort
-	4224. shielded twisted pair
-	4225. shift
-	4226. shift-reduce parsing
-	4227. shift character
-	4228. shift counter
-	4229. shift instruction
-	4230. shift keying
-	4231. shift lock
-	4232. shift register
-	4233. Shlaer-Mellor
-	4234. shooting method
-	4235. shortest-path algorithm
-	4236. shrink-wrap license
-	4237. shrink-wrapped product
-	4238. sibling
-	4239. side effect
-	4240. sieve benchmark
-	4241. sifting technique
-	4242. sig
-	4243. sigma algebra
-	4244. sigma language
-	4245. sigma tree
-	4246. sigma word
-	4247. sign
-	4248. signal
-	4249. signal-to-noise ratio
-	4250. signal conditioning
-	4251. signal operation
-	4252. signal processing
-	4253. signature
-	4254. signature analysis
-	4255. signature scanning
-	4256. sign bit
-	4257. sign digit
-	4258. signed
-	4259. signed-magnitude representation
-	4260. signed field
-	4261. significance test
-	4262. significand
-	4263. sign off
-	4264. sign on
-	4265. SIL devices
-	4266. silicon chip
-	4267. silicon disk
-	4268. Silicon Valley
-	4269. SIMD processor
-	4270. similar trees
-	4271. SIMM
-	4272. Simple API for XML
-	4273. Simple Object Access Protocol
-	4274. simple parity check
-	4275. simplex
-	4276. simplex codes
-	4277. simplex method
-	4278. Simpson's rule
-	4279. Simula
-	4280. simulated annealing
-	4281. simulation
-	4282. simulation language
-	4283. simulator
-	4284. simultaneous equations
-	4285. single-address instruction
-	4286. single-assignment languages
-	4287. single-step operation
-	4288. single attach
-	4289. single in-line devices
-	4290. single instruction, multiple data
-	4291. single threading
-	4292. singly linked list
-	4293. singular matrix
-	4294. sinking technique
-	4295. SIO
-	4296. SIPO
-	4297. SISD processor
-	4298. SISO
-	4299. site licence
-	4300. site network
-	4301. situation semantics
-	4302. SI units
-	4303. sizing
-	4304. skeletal strokes
-	4305. skew
-	4306. skew-symmetric matrix
-	4307. skewed tree
-	4308. SLA
-	4309. slave machine
-	4310. sleep
-	4311. slice
-	4312. slice architecture
-	4313. slider bar
-	4314. SLOC
-	4315. slot reader
-	4316. slotted ring
-	4317. Smalltalk
-	4318. smart card
-	4319. smart machine
-	4320. smartphone
-	4321. smart terminal
-	4322. SMD
-	4323. smiley
-	4324. SML
-	4325. smoothing
-	4326. smooth shading
-	4327. SMP
-	4328. SMTP
-	4329. smurf
-	4330. SNA
-	4331. snapshot dump
-	4332. sniffer program
-	4333. SNMP
-	4334. SNOBOL
-	4335. snowflake
-	4336. SO
-	4337. SOA
-	4338. SOAP
-	4339. social engineering
-	4340. social media
-	4341. soft-sectored disk
-	4342. soft copy
-	4343. soft fill
-	4344. soft font
-	4345. soft keyboard
-	4346. soft object
-	4347. soft return
-	4348. software
-	4349. software best practice
-	4350. Software Capability Maturity Model
-	4351. software component specification
-	4352. software development environment
-	4353. Software Development Kit
-	4354. software development process model
-	4355. software engineering
-	4356. software engineering environment
-	4357. Software Engineering Institute
-	4358. software environment
-	4359. software fault injection
-	4360. software house
-	4361. software library
-	4362. software maintenance
-	4363. software metric
-	4364. software monitor
-	4365. software package
-	4366. software piracy
-	4367. software process
-	4368. software prototyping
-	4369. software reliability
-	4370. solid-state memory
-	4371. solid inkjet printer
-	4372. solvable problem
-	4373. SONET
-	4374. SOP expression
-	4375. sort generator
-	4376. sorting
-	4377. sortkey
-	4378. sort merge
-	4379. sound card
-	4380. soundex code
-	4381. soundness theorem
-	4382. source alphabet
-	4383. source code control
-	4384. source coding
-	4385. source coding theorem
-	4386. source compression coding
-	4387. source lines of code
-	4388. source listing
-	4389. source route bridge
-	4390. source set
-	4391. space character
-	4392. space complexity
-	4393. space quantization
-	4394. spanning subgraph
-	4395. SPARC
-	4396. sparse matrix
-	4397. special character
-	4398. specialization/generalization
-	4399. specification language
-	4400. spectral analysis
-	4401. specular reflection
-	4402. speech compression
-	4403. speech recognition
-	4404. speech synthesis
-	4405. speech understanding
-	4406. speedup theorem
-	4407. sphere-packing bound
-	4408. spidering
-	4409. spool
-	4410. spread
-	4411. spreadsheet
-	4412. SQA
-	4413. SQL
-	4414. SQL
-	4415. SQL injection
-	4416. SQL Server
-	4417. SRAM
-	4418. SRB
-	4419. SR flip-flop
-	4420. SSADM
-	4421. SSU
-	4422. stability
-	4423. stack
-	4424. standard deviation
-	4425. standard error
-	4426. standard product of sums
-	4427. standard sum of products
-	4428. standard sum term
-	4429. standby time
-	4430. STAR
-	4431. star closure
-	4432. star network
-	4433. start symbol
-	4434. start time
-	4435. state-transition diagram
-	4436. state-transition function
-	4437. statecharts
-	4438. statement label
-	4439. state table
-	4440. state variable
-	4441. static analysis
-	4442. static data structure
-	4443. static RAM
-	4444. station
-	4445. statistical analysis
-	4446. statistical compaction
-	4447. statistical methods
-	4448. statistical prediction
-	4449. statistics
-	4450. status
-	4451. status register
-	4452. status signal
-	4453. STD
-	4454. STEP
-	4455. stepped index fibre
-	4456. stepsize
-	4457. stiff equations
-	4458. STM
-	4459. stochastic matrix
-	4460. stochastic model
-	4461. stochastic process
-	4462. storage
-	4463. storage allocation
-	4464. storage area network
-	4465. storage device
-	4466. storage element
-	4467. storage hierarchy
-	4468. storage location
-	4469. storage pool
-	4470. storage schema
-	4471. storage tube
-	4472. store
-	4473. store and forward
-	4474. stored program
-	4475. storyboard
-	4476. STP
-	4477. straight insertion sort
-	4478. Strassen algorithm
-	4479. stream
-	4480. streamer
-	4481. streaming
-	4482. stream transformer
-	4483. strictness
-	4484. stride
-	4485. string
-	4486. string manipulation
-	4487. stripe disk
-	4488. strongly terminating
-	4489. strong typing
-	4490. Stroustrup, Bjarne (1950-)
-	4491. structural induction
-	4492. structure
-	4493. structured analysis
-	4494. structured coding
-	4495. structured English
-	4496. structured programming
-	4497. structured systems analysis
-	4498. structured variable
-	4499. stub
-	4500. Student's t distribution
-	4501. StuffIt
-	4502. STX
-	4503. sub-Nyquist sampling
-	4504. subgraph
-	4505. subgroup
-	4506. sublist
-	4507. subnet
-	4508. [[subnotebook]]
-	4509. [[subprogram]]
-	4510. subrecursive hierarchy
-	4511. subroutine
-	4512. subschema
-	4513. subscript
-	4514. subsemigroup
-	4515. subsequence
-	4516. subset
-	4517. substitution
-	4518. substitution cipher
-	4519. substring
-	4520. substring identifier
-	4521. subsurface scattering
-	4522. subtractor
-	4523. subtree
-	4524. subtype
-	4525. subversion
-	4526. successive approximation
-	4527. successive over-relaxation
-	4528. successor function
-	4529. suffix
-	4530. suffix notation
-	4531. suite
-	4532. sumcheck
-	4533. sum of products expression
-	4534. sum term
-	4535. Sun Microsystems Inc.
-	4536. super-Nyquist sampling
-	4537. supercomputer
-	4538. superconducting memory
-	4539. superconducting technology
-	4540. superconductivity
-	4541. SuperJANET
-	4542. supersampling
-	4543. superscalar
-	4544. supertwisted nematic display
-	4545. SuperVGA
-	4546. supervisor
-	4547. supervisor call
-	4548. supervisor state
-	4549. support programs
-	4550. suppress
-	4551. surface-accessibility shading
-	4552. surface-colour map
-	4553. surface-mount technology
-	4554. surface patch
-	4555. surface reconstruction
-	4556. surface reflection
-	4557. surface subdivision
-	4558. surfing
-	4559. surjection
-	4560. suspended process
-	4561. Sutherland-Hodgman clipping algorithm
-	4562. SVC
-	4563. SVG
-	4564. SVGA
-	4565. SVN
-	4566. swapping
-	4567. sweeping
-	4568. sweep surface
-	4569. SWIFT
-	4570. swipe reader
-	4571. switch
-	4572. switching
-	4573. switching algebra
-	4574. switching circuit
-	4575. switching speed
-	4576. switching theory
-	4577. switching waveform
-	4578. Sybase
-	4579. Sylvester matrices
-	4580. symbol
-	4581. symbolic addressing
-	4582. symbolic execution
-	4583. symbolic logic
-	4584. symbol manipulation
-	4585. symbol table
-	4586. symmetric difference
-	4587. symmetric function
-	4588. symmetric group
-	4589. symmetric list
-	4590. symmetric matrix
-	4591. symmetric order traversal
-	4592. symmetric relation
-	4593. symmetry group
-	4594. synchronization
-	4595. synchronizer
-	4596. synchronous
-	4597. synchronous bus
-	4598. synchronous circuit
-	4599. synchronous concurrent algorithm
-	4600. synchronous counter
-	4601. synchronous digital hierarchy
-	4602. synchronous optical network
-	4603. synchronous TDM
-	4604. synchronous transmission
-	4605. syndrome
-	4606. syntactic error
-	4607. syntactic monoid
-	4608. syntax
-	4609. syntax analyser
-	4610. syntax analysis
-	4611. syntax diagram
-	4612. syntax error
-	4613. syntax tree
-	4614. synthetic camera
-	4615. system
-	4616. system accounting
-	4617. system administrator
-	4618. systematic code
-	4619. system box
-	4620. system building tools
-	4621. system bus
-	4622. system crash
-	4623. system definition
-	4624. system design
-	4625. system development
-	4626. system dictionary
-	4627. system generation
-	4628. systemic grammar
-	4629. system life cycle
-	4630. system requirements specification
-	4631. systems analysis
-	4632. system security
-	4633. systems engineering
-	4634. systems house
-	4635. systems integrator
-	4636. system software
-	4637. system specification
-	4638. systems programmer
-	4639. systems programming
-	4640. systems software
-	4641. systems theory
-	4642. system tables
-	4643. system testing
-	4644. System V
-	4645. systolic array
-	4646. T
-	4647. T-carrier
-	4648. T-gate
-	4649. T-SQL
-	4650. T-type flip-flop
-	4651. T2L
-	4652. tab
-	4653. table
-	4654. table-driven algorithm
-	4655. table lookup
-	4656. tablet
-	4657. tabular documentation
-	4658. tag
-	4659. tagged architecture
-	4660. tagged image file format
-	4661. tail
-	4662. tape
-	4663. tape-bounded Turing machine
-	4664. tape backup system
-	4665. tape cartridge
-	4666. tape deck
-	4667. tape drive
-	4668. tape format
-	4669. tape header
-	4670. tape label
-	4671. tape library
-	4672. tape mark
-	4673. tape marker
-	4674. tape transport
-	4675. tape unit
-	4676. tar
-	4677. Targa
-	4678. target alphabet
-	4679. target computer
-	4680. task
-	4681. TB
-	4682. TBS
-	4683. Tbyte
-	4684. Tcl
-	4685. TCP
-	4686. TCP/IP
-	4687. t distribution
-	4688. TDM
-	4689. TDR
-	4690. TDS
-	4691. tear-off menu
-	4692. tebi-
-	4693. telebanking
-	4694. telecommuting
-	4695. teleconferencing
-	4696. teleprinter
-	4697. teleshopping
-	4698. telesoftware
-	4699. teletext
-	4700. teletypewriter
-	4701. teleworking
-	4702. TELNET
-	4703. template
-	4704. temporal cohesion
-	4705. temporal logic
-	4706. ten's complement
-	4707. ter
-	4708. tera-
-	4709. term
-	4710. term algebra
-	4711. terminal
-	4712. terminal controller
-	4713. terminal node
-	4714. terminal server
-	4715. terminal symbol
-	4716. termination
-	4717. termination, proof of
-	4718. terminator
-	4719. term language
-	4720. term rewriting system
-	4721. ternary logic
-	4722. ternary selector gate
-	4723. ternary threshold gate
-	4724. tessellation
-	4725. test-data generator
-	4726. test and set
-	4727. test bed
-	4728. test case
-	4729. test coverage
-	4730. test data
-	4731. testing
-	4732. test oracle
-	4733. test run
-	4734. test suite
-	4735. TeX
-	4736. Texas Instruments
-	4737. text-to-speech
-	4738. text box
-	4739. text editor
-	4740. text formatter
-	4741. text mode
-	4742. text processing
-	4743. texture mapping
-	4744. texture placement
-	4745. texturing
-	4746. TFEL
-	4747. T flip-flop
-	4748. Tflops
-	4749. TFT
-	4750. TGA
-	4751. The Anatomy of an Internet Address
-	4752. The Open Group
-	4753. theorem proving
-	4754. theory
-	4755. theory of types
-	4756. thermal inkjet
-	4757. thermal printer
-	4758. thermal transfer printer
-	4759. thesaurus
-	4760. thick Ethernet
-	4761. thick wire
-	4762. thin-film electroluminescent display
-	4763. thin-film transistor
-	4764. thin client
-	4765. thin Ethernet
-	4766. thin wire
-	4767. third-party maintenance
-	4768. third generation
-	4769. third normal form
-	4770. Thompson, Ken (1943-)
-	4771. thrashing
-	4772. threaded list
-	4773. threading
-	4774. threat
-	4775. three-address instruction
-	4776. three-dimensional array
-	4777. three-state output
-	4778. three-term control
-	4779. threshold element
-	4780. throughput
-	4781. Thue-system
-	4782. thumb drive
-	4783. thumbnail
-	4784. Thunderbolt
-	4785. thunk
-	4786. Tianhe-2
-	4787. TIFF
-	4788. tile
-	4789. tiling
-	4790. tiling structure
-	4791. time-bounded Turing machine
-	4792. time-of-day clock
-	4793. time complexity
-	4794. time division multiplexing
-	4795. time division switch
-	4796. time domain
-	4797. time domain reflectometer
-	4798. timeout
-	4799. time quantization
-	4800. timer clock
-	4801. time series
-	4802. time sharing
-	4803. time slicing
-	4804. timestamp
-	4805. timing analysis
-	4806. timing diagram
-	4807. tint fill
-	4808. TIP
-	4809. tip node
-	4810. Tk
-	4811. TLB
-	4812. TLU
-	4813. TM
-	4814. toggle
-	4815. toggling speed
-	4816. token
-	4817. token bus
-	4818. token ring
-	4819. tolerable risk
-	4820. toner
-	4821. toner cartridge
-	4822. tool
-	4823. toolbar
-	4824. toolbox
-	4825. toolkit
-	4826. top-down development
-	4827. top-down parsing
-	4828. topological sort
-	4829. topology
-	4830. Torvalds, Linus Benedict (1969-)
-	4831. total correctness, proof of
-	4832. total function
-	4833. total ordering
-	4834. total recursive function
-	4835. totem-pole output
-	4836. touch-sensitive device
-	4837. touchpad
-	4838. touchscreen
-	4839. tournament
-	4840. tournament method
-	4841. tower
-	4842. Towers of Hanoi
-	4843. TPM
-	4844. TP monitor
-	4845. trace program
-	4846. track
-	4847. tracker
-	4848. trackerball
-	4849. tractor
-	4850. trade secret
-	4851. traffic
-	4852. traffic control
-	4853. trailer label
-	4854. trailer record
-	4855. trailing edge
-	4856. train printer
-	4857. Transact-SQL
-	4858. transaction
-	4859. transaction processing
-	4860. transducer
-	4861. transfer rate
-	4862. transformation
-	4863. transformational grammar
-	4864. transformational semantics
-	4865. transformation matrix
-	4866. transformation monoid
-	4867. transformation semigroup
-	4868. transform domain
-	4869. transient error
-	4870. transistor
-	4871. transistor-transistor logic
-	4872. transitive closure
-	4873. transitive relation
-	4874. translation
-	4875. translation look-aside buffer
-	4876. translation table
-	4877. translator
-	4878. transmission channel
-	4879. Transmission Control Protocol
-	4880. transmission control unit
-	4881. transmission line
-	4882. transmission rate
-	4883. transparency
-	4884. transparent
-	4885. transport
-	4886. transportable
-	4887. transport layer
-	4888. transpose
-	4889. transposition cipher
-	4890. transputer
-	4891. trapezium rule
-	4892. trapezoidal rule
-	4893. travelling salesman problem
-	4894. traversal
-	4895. tree
-	4896. tree automaton
-	4897. tree grammar
-	4898. tree language
-	4899. treelike network
-	4900. tree search
-	4901. tree selection sort
-	4902. tree walking
-	4903. tri-state output
-	4904. trial function
-	4905. triangle inequality
-	4906. triangular matrix
-	4907. triangular patch
-	4908. triangular waveform
-	4909. triangulation
-	4910. tridiagonal matrix
-	4911. trie search
-	4912. trigger
-	4913. trim
-	4914. triple precision
-	4915. tristimulus values
-	4916. trivial graph
-	4917. Trojan horse
-	4918. Tron
-	4919. trouble shooting
-	4920. TRS
-	4921. TrueColor
-	4922. true complement
-	4923. TrueType font
-	4924. truncation
-	4925. truncation error
-	4926. trunk
-	4927. trunk circuit
-	4928. trusted
-	4929. truth-maintenance system
-	4930. truth table
-	4931. TSP
-	4932. TTF
-	4933. TTL
-	4934. TTS
-	4935. TTY
-	4936. tunnelling
-	4937. tuple
-	4938. Turing's thesis
-	4939. Turing, Alan (Mathison) (1912-54)
-	4940. Turing computability
-	4941. Turing machine
-	4942. Turing test
-	4943. turnaround time
-	4944. turnkey operation
-	4945. turtle graphics
-	4946. TWAIN
-	4947. tweening
-	4948. twisted pair
-	4949. Twitter
-	4950. two's complement
-	4951. two-address instruction
-	4952. two-dimensional array
-	4953. two-level grammars
-	4954. two-level memory
-	4955. two-norm
-	4956. two-plus-one address
-	4957. two-way linked list
-	4958. two-way merge
-	4959. type
-	4960. type-insensitive code
-	4961. type 0, 1, 2, 3 language
-	4962. Type 1 font
-	4963. Type 3 font
-	4964. typeahead
-	4965. type system
-	4966. typewriter terminal
-	4967. ubiquitous computing
-	4968. UCS
-	4969. UCS-2
-	4970. UCS-4
-	4971. UDF
-	4972. UI
-	4973. UIMS
-	4974. ULA
-	4975. UML
-	4976. unary operation
-	4977. unbalanced cable
-	4978. unbundling
-	4979. uncertainty
-	4980. uncommitted logic array
-	4981. unconditional jump
-	4982. uncontrolled format string
-	4983. undecidable
-	4984. underflow
-	4985. undirected graph
-	4986. undo
-	4987. unfolding
-	4988. Unicode
-	4989. unification
-	4990. Unified Modelling Language
-	4991. Unified Process
-	4992. unilaterally connected graph
-	4993. uninterruptible power supply
-	4994. union
-	4995. unipolar signal
-	4996. uniquely decodable
-	4997. Unisys
-	4998. unitary semiring
-	4999. unit matrix
-	5000. unit testing
-	5001. UNIVAC
-	5002. Universal Character Set
-	5003. universal flip-flop
-	5004. Universal Product Code
-	5005. universal quantifier
-	5006. universal serial bus
-	5007. universal set
-	5008. universal Turing machine
-	5009. UNIX
-	5010. unlock
-	5011. unordered tree
-	5012. unpack
-	5013. unshielded twisted pair
-	5014. unsigned
-	5015. unsolvable
-	5016. UP
-	5017. up
-	5018. UPC
-	5019. upline
-	5020. upload
-	5021. up operation
-	5022. upper bound
-	5023. UPS
-	5024. uptime
-	5025. up vector
-	5026. upward compatibility
-	5027. URI
-	5028. URL
-	5029. USB
-	5030. USB drive
-	5031. Usenet
-	5032. user-friendly
-	5033. user-interface management system
-	5034. user account
-	5035. user agent
-	5036. user area
-	5037. user interface
-	5038. user manual
-	5039. user requirements specification
-	5040. user state
-	5041. user view
-	5042. UTF-16
-	5043. UTF-32
-	5044. UTF-8
-	5045. utility programs
-	5046. UTP
-	5047. uvwxy lemma
-	5048. V
-	5049. V&V
-	5050. V-model
-	5051. V-series
-	5052. vaccine
-	5053. vacuum fluorescent display
-	5054. VADS
-	5055. validate
-	5056. validation
-	5057. validity check
-	5058. valuator
-	5059. value-added
-	5060. VAN
-	5061. van Wijngaarden grammar
-	5062. VAR
-	5063. variable
-	5064. variable-length code
-	5065. variable-length vector
-	5066. variable bit rate
-	5067. variable delay
-	5068. variable word length computer
-	5069. variance
-	5070. variant field
-	5071. variation
-	5072. variational method
-	5073. VAX
-	5074. VAX/VMS
-	5075. VB.NET
-	5076. VBA
-	5077. VBR
-	5078. VBScript
-	5079. VDI
-	5080. VDL
-	5081. VDM
-	5082. VDT
-	5083. VDU
-	5084. vector
-	5085. vector display
-	5086. vectored interrupts
-	5087. vector font
-	5088. vector graphics
-	5089. vector norm
-	5090. vector processing
-	5091. Veitch diagram
-	5092. Venn diagram
-	5093. verification
-	5094. verification and validation
-	5095. verification condition
-	5096. verification system
-	5097. Veronica
-	5098. vertical check
-	5099. vertical microinstruction
-	5100. vertical recording
-	5101. very large-scale integration
-	5102. VESA
-	5103. VFAT
-	5104. VFD
-	5105. VFU
-	5106. VGA
-	5107. VHDL
-	5108. video
-	5109. videoconferencing
-	5110. video scanner
-	5111. video terminal
-	5112. videotex
-	5113. Vienna Definition Language
-	5114. Vienna Development Method
-	5115. view
-	5116. viewing
-	5117. view plane
-	5118. viewport
-	5119. virgin medium
-	5120. virtual call service
-	5121. virtual circuit
-	5122. virtual connection
-	5123. virtual disk drive
-	5124. virtual learning environment
-	5125. virtual machine
-	5126. virtual memory
-	5127. virtual reality
-	5128. virtual screen
-	5129. virtual terminal
-	5130. virtual world
-	5131. virus
-	5132. virus detection
-	5133. VisiCalc
-	5134. Visual Basic
-	5135. Visual Basic .NET
-	5136. Visual Basic 2005
-	5137. Visual Basic for Applications
-	5138. Visual C++
-	5139. visual display unit
-	5140. visualization
-	5141. Viterbi decoding
-	5142. VLB
-	5143. VLE
-	5144. VLFMF
-	5145. VLIW
-	5146. VLSI
-	5147. VM/CMS
-	5148. VME bus
-	5149. VMS
-	5150. voice activation
-	5151. voiceband
-	5152. voice coil
-	5153. voice input device
-	5154. voice mail
-	5155. voice messaging
-	5156. Voice over Internet Protocol
-	5157. voice recognition
-	5158. void set
-	5159. VoIP
-	5160. volatile memory
-	5161. Volterra integral equation
-	5162. volume
-	5163. volume label
-	5164. volume visualization
-	5165. von Neumann, John (1903-57)
-	5166. von Neumann machine
-	5167. V operation
-	5168. Voronoi diagram
-	5169. voting logic
-	5170. voxel
-	5171. VPN
-	5172. VR
-	5173. VSAM
-	5174. VSO
-	5175. VTFL code
-	5176. VTVL code
-	5177. vulnerability
-	5178. VV&T
-	5179. VW-grammar
-	5180. W3
-	5181. W3C
-	5182. wafer
-	5183. wafer-scale integration
-	5184. WAIS
-	5185. wait list
-	5186. wait operation
-	5187. wait state
-	5188. walkthrough
-	5189. wallpaper
-	5190. Walsh analysis
-	5191. Walsh functions
-	5192. Walsh transform
-	5193. WAN
-	5194. wand
-	5195. WAP
-	5196. Ward-Mellor
-	5197. warm boot
-	5198. Warnock's algorithm
-	5199. warping
-	5200. Warshall's algorithm
-	5201. watchdog timer
-	5202. waterfall model
-	5203. WATFIV
-	5204. WATFOR
-	5205. wave-table synthesis
-	5206. wavelength-division multiplexing
-	5207. wavelet
-	5208. wavelet image compression
-	5209. wavelet radiosity
-	5210. wavelet transform
-	5211. WC
-	5212. weakening
-	5213. weakest precondition
-	5214. weakly terminating
-	5215. weak memory model
-	5216. weak mobility
-	5217. Web
-	5218. WEB
-	5219. Web-based Distributed Authoring and Versioning
-	5220. web 2.0
-	5221. web application
-	5222. web browser
-	5223. webcam
-	5224. web crawler
-	5225. WebDAV
-	5226. web design
-	5227. web development
-	5228. web feed
-	5229. web log
-	5230. web master
-	5231. web of trust
-	5232. web page
-	5233. web server
-	5234. web service
-	5235. website
-	5236. website defacement
-	5237. web spider
-	5238. weighted code
-	5239. weighted graph
-	5240. weighted least squares
-	5241. weighted mean
-	5242. Weiler-Atherton clipping algorithm
-	5243. well-formed
-	5244. well-formed formula
-	5245. well-founded relation
-	5246. well-ordered set
-	5247. WEP
-	5248. wff
-	5249. W grammar
-	5250. whetstone benchmark
-	5251. while loop
-	5252. while program
-	5253. while programming language
-	5254. Whirlwind
-	5255. white-box testing
-	5256. whiteboard
-	5257. white noise
-	5258. white pages
-	5259. whois
-	5260. whole number
-	5261. wide area information service
-	5262. wide area network
-	5263. widget
-	5264. width
-	5265. WiFi
-	5266. wiki
-	5267. WikiLeaks
-	5268. Wikipedia
-	5269. wildcard
-	5270. Williams-tube store
-	5271. wimp
-	5272. Winchester technology
-	5273. winding number
-	5274. window
-	5275. Windows
-	5276. Windows 2000
-	5277. Windows 7
-	5278. Windows 8
-	5279. Windows 95
-	5280. Windows 98
-	5281. windows manager
-	5282. Windows ME
-	5283. Windows Millennium Edition
-	5284. Windows NT
-	5285. Windows Phone
-	5286. windows system
-	5287. Windows Vista
-	5288. Windows XP
-	5289. WinZip
-	5290. wired logic
-	5291. wireless
-	5292. wireless access point
-	5293. wireless applications protocol
-	5294. wireless LAN
-	5295. wire wrapping
-	5296. Wirth, Niklaus (Emil) (1934-)
-	5297. WLAN
-	5298. word
-	5299. Word
-	5300. word length
-	5301. word processing
-	5302. word processor
-	5303. word size
-	5304. word wrap
-	5305. workbench
-	5306. work file
-	5307. working set
-	5308. workstation
-	5309. World Wide Web
-	5310. World Wide Web Consortium
-	5311. worm
-	5312. worst-case analysis
-	5313. worst fit
-	5314. wp
-	5315. WPA
-	5316. writeable control store
-	5317. write error
-	5318. write head
-	5319. WSDL
-	5320. WWW
-	5321. X
-	5322. X-ON/X-OFF
-	5323. X-series
-	5324. X/OPEN
-	5325. X509
-	5326. Xeon
-	5327. Xerox Corporation
-	5328. XGA
-	5329. XHTML
-	5330. XML
-	5331. XML
-	5332. XML database
-	5333. XML schema
-	5334. XModem
-	5335. XMS memory
-	5336. XOR
-	5337. XPath
-	5338. XQuery
-	5339. XS3 code
-	5340. XSL
-	5341. XSLT
-	5342. XSS
-	5343. X Terminal
-	5344. XUI
-	5345. X user interface
-	5346. X Windows
-	5347. y2k
-	5348. Yellow Book
-	5349. yellow Ethernet
-	5350. zero-trip loop
-	5351. zero-wait state
-	5352. zero function
-	5353. zero suppression
-	5354. zero word
-	5355. ZIF socket
-	5356. ZIP
-	5357. 7-Zip
-	5358. zip file
-	5359. Ziv-Lempel compaction
-	5360. zone
-	5361. Zuckerberg, Mark Elliot (1984-)
+	4132. [[semantics]]
+	4133. [[semaphore]]
+	4134. semicomputable algebra
+	4135. semicomputable set
+	4136. [[semiconductor]]
+	4137. [[semiconductor memory]]
+	4138. [[semicustom]]
+	4139. semidecidable
+	4140. semidecidable set
+	4141. semidecision procedure
+	4142. [[semigroup]]
+	4143. [[semiring]]
+	4144. [[sense]]
+	4145. [[sensitivity analysis]]
+	4146. sensor
+	4147. [[sensor-data fusion]]
+	4148. sentence
+	4149. sentence symbol
+	4150. sentential form
+	4151. [[sentinel]]
+	4152. [[separator]]
+	4153. [[SEQUEL]]
+	4154. [[sequence]]
+	4155. [[sequence control register]]
+	4156. [[sequence generator]]
+	4157. [[sequencer]]
+	4158. [[sequencing]]
+	4159. [[sequency]]
+	4160. [[sequential]]
+	4161. [[sequential access]]
+	4162. [[sequential algorithm]]
+	4163. [[sequential circuit]]
+	4164. sequential cohesion
+	4165. sequential composition
+	4166. [[sequential encoding]]
+	4167. [[sequential file]]
+	4168. [[sequential function]]
+	4169. [[sequential search algorithm]]
+	4170. [[sequential transducer]]
+	4171. [[serial]]
+	4172. [[serial-parallel]]
+	4173. [[serial access]]
+	4174. [[serial adder]]
+	4175. [[serial arithmetic]]
+	4176. [[serial ATA]]
+	4177. [[serial in parallel out]]
+	4178. [[serial input-output|serial input/output]]
+	4179. [[serial in serial out]]
+	4180. [[serial interface]]
+	4181. [[serial port]]
+	4182. [[serial printer]]
+	4183. [[serial process]]
+	4184. serial programming
+	4185. [[serial transfer]]
+	4186. [[serpentine recording]]
+	4187. [[server]]
+	4188. [[server-side]]
+	4189. [[server farm]]
+	4190. [[service-oriented architecture]]
+	4191. [[service bit]]
+	4192. [[service engineering]]
+	4193. [[service level agreement]]
+	4194. [[session]]
+	4195. session layer
+	4196. [[set-up time]]
+	4197. [[set algebra]]
+	4198. [[Difference of sets|Set Difference]]
+	4199. [[seven-layer reference model]]
+	4200. [[standard generalized mark-up language|SGML]]
+	4201. shading model
+	4202. [[shadow-mask cathode-ray tube]]
+	4203. [[shadow buffer]]
+	4204. [[Shannon's model]]
+	4205. Shannon's theorems
+	4206. Shannon-Fano coding
+	4207. Shannon-Hartley law
+	4208. [[Shannon diagram]]
+	4209. shape blending
+	4210. share
+	4211. [[shared logic system]]
+	4212. [[shared memory]]
+	4213. [[shareware]]
+	4214. SHE
+	4215. [[sheet feeder]]
+	4216. [[shell]]
+	4217. [[Shell's method]]
+	4218. shell script
+	4219. shellsort
+	4220. shielded twisted pair
+	4221. shift-reduce parsing
+	4222. [[shift character]]
+	4223. [[shift counter]]
+	4224. [[shift instruction]]
+	4225. shift keying
+	4226. [[shift lock]]
+	4227. [[shift register]]
+	4228. [[Shlaer-Mellor]]
+	4229. [[shooting method]]
+	4230. [[shortest-path algorithm]]
+	4231. [[shrink-wrap license]]
+	4232. [[shrink-wrapped product]]
+	4233. [[sibling]]
+	4234. [[side effect]]
+	4235. [[sieve benchmark]]
+	4236. sifting technique
+	4237. sig
+	4238. sigma algebra
+	4239. sigma language
+	4240. sigma tree
+	4241. sigma word
+	4242. [[sign]]
+	4243. [[signal]]
+	4244. [[signal-to-noise ratio]]
+	4245. [[signal conditioning]]
+	4246. signal operation
+	4247. [[signal processing]]
+	4248. [[signature analysis]]
+	4249. [[signature scanning]]
+	4250. sign bit
+	4251. [[sign digit]]
+	4252. [[signed]]
+	4253. signed-magnitude representation
+	4254. signed field
+	4255. [[significance test]]
+	4256. significand
+	4257. sign off
+	4258. sign on
+	4259. [[single in-line devices|SIL devices]]
+	4260. silicon chip
+	4261. silicon disk
+	4262. [[Silicon Valley]]
+	4263. SIMD processor
+	4264. [[similar trees]]
+	4265. [[single in-line memory module|SIMM]]
+	4266. Simple API for XML
+	4267. [[Simple Object Access Protocol]]
+	4268. simple parity check
+	4269. [[simplex]]
+	4270. [[simplex codes]]
+	4271. simplex method
+	4272. [[Simpson's rule]]
+	4273. [[Simula]]
+	4274. [[simulated annealing]]
+	4275. [[simulation]]
+	4276. [[simulation language]]
+	4277. [[simulator]]
+	4278. [[simultaneous equations]]
+	4279. [[single-address instruction]]
+	4280. [[single-assignment languages]]
+	4281. [[single-step operation]]
+	4282. single attach
+	4283. single in-line devices
+	4284. single instruction, multiple data
+	4285. [[single threading]]
+	4286. [[singly linked list]]
+	4287. [[singular matrix]]
+	4288. sinking technique
+	4289. SIO
+	4290. SIPO
+	4291. SISD processor
+	4292. SISO
+	4293. [[site licence]]
+	4294. [[site network]]
+	4295. [[situation semantics]]
+	4296. [[SI units]]
+	4297. [[sizing]]
+	4298. [[skeletal strokes]]
+	4299. [[skew]]
+	4300. [[skew-symmetric matrix]]
+	4301. [[skewed tree]]
+	4302. SLA
+	4303. [[slave machine]]
+	4304. [[sleep]]
+	4305. [[slice]]
+	4306. slice architecture
+	4307. [[slider bar]]
+	4308. [[source lines of code|SLOC]]
+	4309. slot reader
+	4310. slotted ring
+	4311. [[Smalltalk]]
+	4312. [[smart card]]
+	4313. smart machine
+	4314. [[smartphone]]
+	4315. smart terminal
+	4316. [[surface mount device|SMD]]
+	4317. smiley
+	4318. SML
+	4319. [[smoothing]]
+	4320. [[smooth shading]]
+	4321. [[symmetric multiprocessing|SMP]]
+	4322. [[SMTP]]
+	4323. [[smurf]]
+	4324. [[systems network architecture|SNA]]
+	4325. [[snapshot dump]]
+	4326. [[sniffer program]]
+	4327. [[simple network management protocol|SNMP]]
+	4328. [[SNOBOL]]
+	4329. [[snowflake]]
+	4330. SO
+	4331. SOA
+	4332. [[SOAP]]
+	4333. [[social engineering]]
+	4334. [[social media]]
+	4335. soft-sectored disk
+	4336. [[soft copy]]
+	4337. [[soft fill]]
+	4338. [[soft font]]
+	4339. [[soft keyboard]]
+	4340. soft object
+	4341. soft return
+	4342. [[software]]
+	4343. [[software best practice]]
+	4344. Software Capability Maturity Model
+	4345. [[software component specification]]
+	4346. [[software development environment]]
+	4347. Software Development Kit
+	4348. [[software development process model]]
+	4349. [[software engineering]]
+	4350. [[software engineering environment]]
+	4351. [[Software Engineering Institute]]
+	4352. [[software environment]]
+	4353. [[software fault injection]]
+	4354. [[software house]]
+	4355. software library
+	4356. [[software maintenance]]
+	4357. software metric
+	4358. software monitor
+	4359. software package
+	4360. [[software piracy]]
+	4361. software process
+	4362. software prototyping
+	4363. software reliability
+	4364. solid-state memory
+	4365. solid inkjet printer
+	4366. solvable problem
+	4367. SONET
+	4368. SOP expression
+	4369. sort generator
+	4370. sorting
+	4371. sortkey
+	4372. sort merge
+	4373. sound card
+	4374. soundex code
+	4375. soundness theorem
+	4376. source alphabet
+	4377. source code control
+	4378. source coding
+	4379. source coding theorem
+	4380. source compression coding
+	4381. source lines of code
+	4382. source listing
+	4383. source route bridge
+	4384. source set
+	4385. space character
+	4386. space complexity
+	4387. space quantization
+	4388. spanning subgraph
+	4389. SPARC
+	4390. sparse matrix
+	4391. special character
+	4392. specialization/generalization
+	4393. specification language
+	4394. spectral analysis
+	4395. specular reflection
+	4396. speech compression
+	4397. speech recognition
+	4398. speech synthesis
+	4399. speech understanding
+	4400. speedup theorem
+	4401. sphere-packing bound
+	4402. spidering
+	4403. spool
+	4404. spread
+	4405. spreadsheet
+	4406. SQA
+	4407. SQL
+	4408. SQL
+	4409. SQL injection
+	4410. SQL Server
+	4411. SRAM
+	4412. SRB
+	4413. SR flip-flop
+	4414. SSADM
+	4415. SSU
+	4416. stability
+	4417. stack
+	4418. standard deviation
+	4419. standard error
+	4420. standard product of sums
+	4421. standard sum of products
+	4422. standard sum term
+	4423. standby time
+	4424. STAR
+	4425. star closure
+	4426. star network
+	4427. start symbol
+	4428. start time
+	4429. state-transition diagram
+	4430. state-transition function
+	4431. statecharts
+	4432. statement label
+	4433. state table
+	4434. state variable
+	4435. static analysis
+	4436. static data structure
+	4437. static RAM
+	4438. station
+	4439. statistical analysis
+	4440. statistical compaction
+	4441. statistical methods
+	4442. statistical prediction
+	4443. statistics
+	4444. status
+	4445. status register
+	4446. status signal
+	4447. STD
+	4448. STEP
+	4449. stepped index fibre
+	4450. stepsize
+	4451. stiff equations
+	4452. STM
+	4453. stochastic matrix
+	4454. stochastic model
+	4455. stochastic process
+	4456. storage
+	4457. storage allocation
+	4458. storage area network
+	4459. storage device
+	4460. storage element
+	4461. storage hierarchy
+	4462. storage location
+	4463. storage pool
+	4464. storage schema
+	4465. storage tube
+	4466. store
+	4467. store and forward
+	4468. stored program
+	4469. storyboard
+	4470. STP
+	4471. straight insertion sort
+	4472. Strassen algorithm
+	4473. stream
+	4474. streamer
+	4475. streaming
+	4476. stream transformer
+	4477. strictness
+	4478. stride
+	4479. string
+	4480. string manipulation
+	4481. stripe disk
+	4482. strongly terminating
+	4483. strong typing
+	4484. Stroustrup, Bjarne (1950-)
+	4485. structural induction
+	4486. structure
+	4487. structured analysis
+	4488. structured coding
+	4489. structured English
+	4490. structured programming
+	4491. structured systems analysis
+	4492. structured variable
+	4493. stub
+	4494. Student's t distribution
+	4495. StuffIt
+	4496. STX
+	4497. sub-Nyquist sampling
+	4498. subgraph
+	4499. subgroup
+	4500. sublist
+	4501. subnet
+	4502. [[subnotebook]]
+	4503. [[subprogram]]
+	4504. subrecursive hierarchy
+	4505. subroutine
+	4506. subschema
+	4507. subscript
+	4508. subsemigroup
+	4509. subsequence
+	4510. subset
+	4511. substitution
+	4512. substitution cipher
+	4513. substring
+	4514. substring identifier
+	4515. subsurface scattering
+	4516. subtractor
+	4517. subtree
+	4518. subtype
+	4519. subversion
+	4520. successive approximation
+	4521. successive over-relaxation
+	4522. successor function
+	4523. suffix
+	4524. suffix notation
+	4525. suite
+	4526. sumcheck
+	4527. sum of products expression
+	4528. sum term
+	4529. Sun Microsystems Inc.
+	4530. super-Nyquist sampling
+	4531. supercomputer
+	4532. superconducting memory
+	4533. superconducting technology
+	4534. superconductivity
+	4535. SuperJANET
+	4536. supersampling
+	4537. superscalar
+	4538. supertwisted nematic display
+	4539. SuperVGA
+	4540. supervisor
+	4541. supervisor call
+	4542. supervisor state
+	4543. support programs
+	4544. suppress
+	4545. surface-accessibility shading
+	4546. surface-colour map
+	4547. surface-mount technology
+	4548. surface patch
+	4549. surface reconstruction
+	4550. surface reflection
+	4551. surface subdivision
+	4552. surfing
+	4553. surjection
+	4554. suspended process
+	4555. Sutherland-Hodgman clipping algorithm
+	4556. SVC
+	4557. SVG
+	4558. SVGA
+	4559. SVN
+	4560. swapping
+	4561. sweeping
+	4562. sweep surface
+	4563. SWIFT
+	4564. swipe reader
+	4565. switch
+	4566. switching
+	4567. switching algebra
+	4568. switching circuit
+	4569. switching speed
+	4570. switching theory
+	4571. switching waveform
+	4572. Sybase
+	4573. Sylvester matrices
+	4574. symbol
+	4575. symbolic addressing
+	4576. symbolic execution
+	4577. symbolic logic
+	4578. symbol manipulation
+	4579. symbol table
+	4580. symmetric difference
+	4581. symmetric function
+	4582. symmetric group
+	4583. symmetric list
+	4584. symmetric matrix
+	4585. symmetric order traversal
+	4586. symmetric relation
+	4587. symmetry group
+	4588. synchronization
+	4589. synchronizer
+	4590. synchronous
+	4591. synchronous bus
+	4592. synchronous circuit
+	4593. synchronous concurrent algorithm
+	4594. synchronous counter
+	4595. synchronous digital hierarchy
+	4596. synchronous optical network
+	4597. synchronous TDM
+	4598. synchronous transmission
+	4599. syndrome
+	4600. syntactic error
+	4601. syntactic monoid
+	4602. syntax
+	4603. syntax analyser
+	4604. syntax analysis
+	4605. syntax diagram
+	4606. syntax error
+	4607. syntax tree
+	4608. synthetic camera
+	4609. system
+	4610. system accounting
+	4611. system administrator
+	4612. systematic code
+	4613. system box
+	4614. system building tools
+	4615. system bus
+	4616. system crash
+	4617. system definition
+	4618. system design
+	4619. system development
+	4620. system dictionary
+	4621. system generation
+	4622. systemic grammar
+	4623. system life cycle
+	4624. system requirements specification
+	4625. systems analysis
+	4626. system security
+	4627. systems engineering
+	4628. systems house
+	4629. systems integrator
+	4630. system software
+	4631. system specification
+	4632. systems programmer
+	4633. systems programming
+	4634. systems software
+	4635. systems theory
+	4636. system tables
+	4637. system testing
+	4638. System V
+	4639. systolic array
+	4640. T
+	4641. T-carrier
+	4642. T-gate
+	4643. T-SQL
+	4644. T-type flip-flop
+	4645. T2L
+	4646. tab
+	4647. table
+	4648. table-driven algorithm
+	4649. table lookup
+	4650. tablet
+	4651. tabular documentation
+	4652. tag
+	4653. tagged architecture
+	4654. tagged image file format
+	4655. tail
+	4656. tape
+	4657. tape-bounded Turing machine
+	4658. tape backup system
+	4659. tape cartridge
+	4660. tape deck
+	4661. tape drive
+	4662. tape format
+	4663. tape header
+	4664. tape label
+	4665. tape library
+	4666. tape mark
+	4667. tape marker
+	4668. tape transport
+	4669. tape unit
+	4670. tar
+	4671. Targa
+	4672. target alphabet
+	4673. target computer
+	4674. task
+	4675. TB
+	4676. TBS
+	4677. Tbyte
+	4678. Tcl
+	4679. TCP
+	4680. TCP/IP
+	4681. t distribution
+	4682. TDM
+	4683. TDR
+	4684. TDS
+	4685. tear-off menu
+	4686. tebi-
+	4687. telebanking
+	4688. telecommuting
+	4689. teleconferencing
+	4690. teleprinter
+	4691. teleshopping
+	4692. telesoftware
+	4693. teletext
+	4694. teletypewriter
+	4695. teleworking
+	4696. TELNET
+	4697. template
+	4698. temporal cohesion
+	4699. temporal logic
+	4700. ten's complement
+	4701. ter
+	4702. tera-
+	4703. term
+	4704. term algebra
+	4705. terminal
+	4706. terminal controller
+	4707. terminal node
+	4708. terminal server
+	4709. terminal symbol
+	4710. termination
+	4711. termination, proof of
+	4712. terminator
+	4713. term language
+	4714. term rewriting system
+	4715. ternary logic
+	4716. ternary selector gate
+	4717. ternary threshold gate
+	4718. tessellation
+	4719. test-data generator
+	4720. test and set
+	4721. test bed
+	4722. test case
+	4723. test coverage
+	4724. test data
+	4725. testing
+	4726. test oracle
+	4727. test run
+	4728. test suite
+	4729. TeX
+	4730. Texas Instruments
+	4731. text-to-speech
+	4732. text box
+	4733. text editor
+	4734. text formatter
+	4735. text mode
+	4736. text processing
+	4737. texture mapping
+	4738. texture placement
+	4739. texturing
+	4740. TFEL
+	4741. T flip-flop
+	4742. Tflops
+	4743. TFT
+	4744. TGA
+	4745. The Anatomy of an Internet Address
+	4746. The Open Group
+	4747. theorem proving
+	4748. theory
+	4749. theory of types
+	4750. thermal inkjet
+	4751. thermal printer
+	4752. thermal transfer printer
+	4753. thesaurus
+	4754. thick Ethernet
+	4755. thick wire
+	4756. thin-film electroluminescent display
+	4757. thin-film transistor
+	4758. thin client
+	4759. thin Ethernet
+	4760. thin wire
+	4761. third-party maintenance
+	4762. third generation
+	4763. third normal form
+	4764. Thompson, Ken (1943-)
+	4765. thrashing
+	4766. threaded list
+	4767. threading
+	4768. threat
+	4769. three-address instruction
+	4770. three-dimensional array
+	4771. three-state output
+	4772. three-term control
+	4773. threshold element
+	4774. throughput
+	4775. Thue-system
+	4776. thumb drive
+	4777. thumbnail
+	4778. Thunderbolt
+	4779. thunk
+	4780. Tianhe-2
+	4781. TIFF
+	4782. tile
+	4783. tiling
+	4784. tiling structure
+	4785. time-bounded Turing machine
+	4786. time-of-day clock
+	4787. time complexity
+	4788. time division multiplexing
+	4789. time division switch
+	4790. time domain
+	4791. time domain reflectometer
+	4792. timeout
+	4793. time quantization
+	4794. timer clock
+	4795. time series
+	4796. time sharing
+	4797. time slicing
+	4798. timestamp
+	4799. timing analysis
+	4800. timing diagram
+	4801. tint fill
+	4802. TIP
+	4803. tip node
+	4804. Tk
+	4805. TLB
+	4806. TLU
+	4807. TM
+	4808. toggle
+	4809. toggling speed
+	4810. token
+	4811. token bus
+	4812. token ring
+	4813. tolerable risk
+	4814. toner
+	4815. toner cartridge
+	4816. tool
+	4817. toolbar
+	4818. toolbox
+	4819. toolkit
+	4820. top-down development
+	4821. top-down parsing
+	4822. topological sort
+	4823. topology
+	4824. Torvalds, Linus Benedict (1969-)
+	4825. total correctness, proof of
+	4826. total function
+	4827. total ordering
+	4828. total recursive function
+	4829. totem-pole output
+	4830. touch-sensitive device
+	4831. touchpad
+	4832. touchscreen
+	4833. tournament
+	4834. tournament method
+	4835. tower
+	4836. Towers of Hanoi
+	4837. TPM
+	4838. TP monitor
+	4839. trace program
+	4840. track
+	4841. tracker
+	4842. trackerball
+	4843. tractor
+	4844. trade secret
+	4845. traffic
+	4846. traffic control
+	4847. trailer label
+	4848. trailer record
+	4849. trailing edge
+	4850. train printer
+	4851. Transact-SQL
+	4852. transaction
+	4853. transaction processing
+	4854. transducer
+	4855. transfer rate
+	4856. transformation
+	4857. transformational grammar
+	4858. transformational semantics
+	4859. transformation matrix
+	4860. transformation monoid
+	4861. transformation semigroup
+	4862. transform domain
+	4863. transient error
+	4864. transistor
+	4865. transistor-transistor logic
+	4866. transitive closure
+	4867. transitive relation
+	4868. translation
+	4869. translation look-aside buffer
+	4870. translation table
+	4871. translator
+	4872. transmission channel
+	4873. Transmission Control Protocol
+	4874. transmission control unit
+	4875. transmission line
+	4876. transmission rate
+	4877. transparency
+	4878. transparent
+	4879. transport
+	4880. transportable
+	4881. transport layer
+	4882. transpose
+	4883. transposition cipher
+	4884. transputer
+	4885. trapezium rule
+	4886. trapezoidal rule
+	4887. travelling salesman problem
+	4888. traversal
+	4889. tree
+	4890. tree automaton
+	4891. tree grammar
+	4892. tree language
+	4893. treelike network
+	4894. tree search
+	4895. tree selection sort
+	4896. tree walking
+	4897. tri-state output
+	4898. trial function
+	4899. triangle inequality
+	4900. triangular matrix
+	4901. triangular patch
+	4902. triangular waveform
+	4903. triangulation
+	4904. tridiagonal matrix
+	4905. trie search
+	4906. trigger
+	4907. trim
+	4908. triple precision
+	4909. tristimulus values
+	4910. trivial graph
+	4911. Trojan horse
+	4912. Tron
+	4913. trouble shooting
+	4914. TRS
+	4915. TrueColor
+	4916. true complement
+	4917. TrueType font
+	4918. truncation
+	4919. truncation error
+	4920. trunk
+	4921. trunk circuit
+	4922. trusted
+	4923. truth-maintenance system
+	4924. truth table
+	4925. TSP
+	4926. TTF
+	4927. TTL
+	4928. TTS
+	4929. TTY
+	4930. tunnelling
+	4931. tuple
+	4932. Turing's thesis
+	4933. Turing, Alan (Mathison) (1912-54)
+	4934. Turing computability
+	4935. Turing machine
+	4936. Turing test
+	4937. turnaround time
+	4938. turnkey operation
+	4939. turtle graphics
+	4940. TWAIN
+	4941. tweening
+	4942. twisted pair
+	4943. Twitter
+	4944. two's complement
+	4945. two-address instruction
+	4946. two-dimensional array
+	4947. two-level grammars
+	4948. two-level memory
+	4949. two-norm
+	4950. two-plus-one address
+	4951. two-way linked list
+	4952. two-way merge
+	4953. type
+	4954. type-insensitive code
+	4955. type 0, 1, 2, 3 language
+	4956. Type 1 font
+	4957. Type 3 font
+	4958. typeahead
+	4959. type system
+	4960. typewriter terminal
+	4961. ubiquitous computing
+	4962. UCS
+	4963. UCS-2
+	4964. UCS-4
+	4965. UDF
+	4966. UI
+	4967. UIMS
+	4968. ULA
+	4969. UML
+	4970. unary operation
+	4971. unbalanced cable
+	4972. unbundling
+	4973. uncertainty
+	4974. uncommitted logic array
+	4975. unconditional jump
+	4976. uncontrolled format string
+	4977. undecidable
+	4978. underflow
+	4979. undirected graph
+	4980. undo
+	4981. unfolding
+	4982. Unicode
+	4983. unification
+	4984. Unified Modelling Language
+	4985. Unified Process
+	4986. unilaterally connected graph
+	4987. uninterruptible power supply
+	4988. union
+	4989. unipolar signal
+	4990. uniquely decodable
+	4991. Unisys
+	4992. unitary semiring
+	4993. unit matrix
+	4994. unit testing
+	4995. UNIVAC
+	4996. Universal Character Set
+	4997. universal flip-flop
+	4998. Universal Product Code
+	4999. universal quantifier
+	5000. universal serial bus
+	5001. universal set
+	5002. universal Turing machine
+	5003. UNIX
+	5004. unlock
+	5005. unordered tree
+	5006. unpack
+	5007. unshielded twisted pair
+	5008. unsigned
+	5009. unsolvable
+	5010. UP
+	5011. up
+	5012. UPC
+	5013. upline
+	5014. upload
+	5015. up operation
+	5016. upper bound
+	5017. UPS
+	5018. uptime
+	5019. up vector
+	5020. upward compatibility
+	5021. URI
+	5022. URL
+	5023. USB
+	5024. USB drive
+	5025. Usenet
+	5026. user-friendly
+	5027. user-interface management system
+	5028. user account
+	5029. user agent
+	5030. user area
+	5031. user interface
+	5032. user manual
+	5033. user requirements specification
+	5034. user state
+	5035. user view
+	5036. UTF-16
+	5037. UTF-32
+	5038. UTF-8
+	5039. utility programs
+	5040. UTP
+	5041. uvwxy lemma
+	5042. V
+	5043. V&V
+	5044. V-model
+	5045. V-series
+	5046. vaccine
+	5047. vacuum fluorescent display
+	5048. VADS
+	5049. validate
+	5050. validation
+	5051. validity check
+	5052. valuator
+	5053. value-added
+	5054. VAN
+	5055. van Wijngaarden grammar
+	5056. VAR
+	5057. variable
+	5058. variable-length code
+	5059. variable-length vector
+	5060. variable bit rate
+	5061. variable delay
+	5062. variable word length computer
+	5063. variance
+	5064. variant field
+	5065. variation
+	5066. variational method
+	5067. VAX
+	5068. VAX/VMS
+	5069. VB.NET
+	5070. VBA
+	5071. VBR
+	5072. VBScript
+	5073. VDI
+	5074. VDL
+	5075. VDM
+	5076. VDT
+	5077. VDU
+	5078. vector
+	5079. vector display
+	5080. vectored interrupts
+	5081. vector font
+	5082. vector graphics
+	5083. vector norm
+	5084. vector processing
+	5085. Veitch diagram
+	5086. Venn diagram
+	5087. verification
+	5088. verification and validation
+	5089. verification condition
+	5090. verification system
+	5091. Veronica
+	5092. vertical check
+	5093. vertical microinstruction
+	5094. vertical recording
+	5095. very large-scale integration
+	5096. VESA
+	5097. VFAT
+	5098. VFD
+	5099. VFU
+	5100. VGA
+	5101. VHDL
+	5102. video
+	5103. videoconferencing
+	5104. video scanner
+	5105. video terminal
+	5106. videotex
+	5107. Vienna Definition Language
+	5108. Vienna Development Method
+	5109. view
+	5110. viewing
+	5111. view plane
+	5112. viewport
+	5113. virgin medium
+	5114. virtual call service
+	5115. virtual circuit
+	5116. virtual connection
+	5117. virtual disk drive
+	5118. virtual learning environment
+	5119. virtual machine
+	5120. virtual memory
+	5121. virtual reality
+	5122. virtual screen
+	5123. virtual terminal
+	5124. virtual world
+	5125. virus
+	5126. virus detection
+	5127. VisiCalc
+	5128. Visual Basic
+	5129. Visual Basic .NET
+	5130. Visual Basic 2005
+	5131. Visual Basic for Applications
+	5132. Visual C++
+	5133. visual display unit
+	5134. visualization
+	5135. Viterbi decoding
+	5136. VLB
+	5137. VLE
+	5138. VLFMF
+	5139. VLIW
+	5140. VLSI
+	5141. VM/CMS
+	5142. VME bus
+	5143. VMS
+	5144. voice activation
+	5145. voiceband
+	5146. voice coil
+	5147. voice input device
+	5148. voice mail
+	5149. voice messaging
+	5150. Voice over Internet Protocol
+	5151. voice recognition
+	5152. void set
+	5153. VoIP
+	5154. volatile memory
+	5155. Volterra integral equation
+	5156. volume
+	5157. volume label
+	5158. volume visualization
+	5159. von Neumann, John (1903-57)
+	5160. von Neumann machine
+	5161. V operation
+	5162. Voronoi diagram
+	5163. voting logic
+	5164. voxel
+	5165. VPN
+	5166. VR
+	5167. VSAM
+	5168. VSO
+	5169. VTFL code
+	5170. VTVL code
+	5171. vulnerability
+	5172. VV&T
+	5173. VW-grammar
+	5174. W3
+	5175. W3C
+	5176. wafer
+	5177. wafer-scale integration
+	5178. WAIS
+	5179. wait list
+	5180. wait operation
+	5181. wait state
+	5182. walkthrough
+	5183. wallpaper
+	5184. Walsh analysis
+	5185. Walsh functions
+	5186. Walsh transform
+	5187. WAN
+	5188. wand
+	5189. WAP
+	5190. Ward-Mellor
+	5191. warm boot
+	5192. Warnock's algorithm
+	5193. warping
+	5194. Warshall's algorithm
+	5195. watchdog timer
+	5196. waterfall model
+	5197. WATFIV
+	5198. WATFOR
+	5199. wave-table synthesis
+	5200. wavelength-division multiplexing
+	5201. wavelet
+	5202. wavelet image compression
+	5203. wavelet radiosity
+	5204. wavelet transform
+	5205. WC
+	5206. weakening
+	5207. weakest precondition
+	5208. weakly terminating
+	5209. weak memory model
+	5210. weak mobility
+	5211. Web
+	5212. WEB
+	5213. Web-based Distributed Authoring and Versioning
+	5214. web 2.0
+	5215. web application
+	5216. web browser
+	5217. webcam
+	5218. web crawler
+	5219. WebDAV
+	5220. web design
+	5221. web development
+	5222. web feed
+	5223. web log
+	5224. web master
+	5225. web of trust
+	5226. web page
+	5227. web server
+	5228. web service
+	5229. website
+	5230. website defacement
+	5231. web spider
+	5232. weighted code
+	5233. weighted graph
+	5234. weighted least squares
+	5235. weighted mean
+	5236. Weiler-Atherton clipping algorithm
+	5237. well-formed
+	5238. well-formed formula
+	5239. well-founded relation
+	5240. well-ordered set
+	5241. WEP
+	5242. wff
+	5243. W grammar
+	5244. whetstone benchmark
+	5245. while loop
+	5246. while program
+	5247. while programming language
+	5248. Whirlwind
+	5249. white-box testing
+	5250. whiteboard
+	5251. white noise
+	5252. white pages
+	5253. whois
+	5254. whole number
+	5255. wide area information service
+	5256. wide area network
+	5257. widget
+	5258. width
+	5259. WiFi
+	5260. wiki
+	5261. WikiLeaks
+	5262. Wikipedia
+	5263. wildcard
+	5264. Williams-tube store
+	5265. wimp
+	5266. Winchester technology
+	5267. winding number
+	5268. window
+	5269. Windows
+	5270. Windows 2000
+	5271. Windows 7
+	5272. Windows 8
+	5273. Windows 95
+	5274. Windows 98
+	5275. windows manager
+	5276. Windows ME
+	5277. Windows Millennium Edition
+	5278. Windows NT
+	5279. Windows Phone
+	5280. windows system
+	5281. Windows Vista
+	5282. Windows XP
+	5283. WinZip
+	5284. wired logic
+	5285. wireless
+	5286. wireless access point
+	5287. wireless applications protocol
+	5288. wireless LAN
+	5289. wire wrapping
+	5290. Wirth, Niklaus (Emil) (1934-)
+	5291. WLAN
+	5292. word
+	5293. Word
+	5294. word length
+	5295. word processing
+	5296. word processor
+	5297. word size
+	5298. word wrap
+	5299. workbench
+	5300. work file
+	5301. working set
+	5302. workstation
+	5303. World Wide Web
+	5304. World Wide Web Consortium
+	5305. worm
+	5306. worst-case analysis
+	5307. worst fit
+	5308. wp
+	5309. WPA
+	5310. writeable control store
+	5311. write error
+	5312. write head
+	5313. WSDL
+	5314. WWW
+	5315. X
+	5316. X-ON/X-OFF
+	5317. X-series
+	5318. X/OPEN
+	5319. X509
+	5320. Xeon
+	5321. Xerox Corporation
+	5322. XGA
+	5323. XHTML
+	5324. XML
+	5325. XML
+	5326. XML database
+	5327. XML schema
+	5328. XModem
+	5329. XMS memory
+	5330. XOR
+	5331. XPath
+	5332. XQuery
+	5333. XS3 code
+	5334. XSL
+	5335. XSLT
+	5336. XSS
+	5337. X Terminal
+	5338. XUI
+	5339. X user interface
+	5340. X Windows
+	5341. y2k
+	5342. Yellow Book
+	5343. yellow Ethernet
+	5344. zero-trip loop
+	5345. zero-wait state
+	5346. zero function
+	5347. zero suppression
+	5348. zero word
+	5349. ZIF socket
+	5350. ZIP
+	5351. 7-Zip
+	5352. zip file
+	5353. Ziv-Lempel compaction
+	5354. zone
+	5355. Zuckerberg, Mark Elliot (1984-)
 - Special
 	36. [[asynchronous communications interface adapter|ACIA]]
 	37. [[ACID]]
@@ -6716,3 +6710,10 @@ Year: 2016-04-01
 	16. [[relation]]
 	17. [[ring]]
 	18. [[Runge-Kutta methods]]
+	19. [[semi-Thue system]]
+	20. [[sequential machine]]
+	21. [[sequential quadratic programming]]
+	22. [[set]]
+	23. [[shift]]
+	24. [[shooting method]]
+	25. [[signature]]
