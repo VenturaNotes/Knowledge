@@ -17,7 +17,11 @@ aliases:
 
 ## Source[^2]
 - A function $f: S \to T$ is onto (or surjective) if every element of the codomain T is the image under $f$ of at least one element of the domain $S$. So $f$ is into if the image (or range) $f(S)$ equals the codomain. Compare ONE-TO-ONE
+
+## Source[^3]
+- (onto function) A function whose range and codomain coincide. If$$f: X \rightarrow Y$$is a surjection then for each $y$ in the codomain $Y$ there is some $x$ in $X$ with the property that$$y=f(x)$$A function that is not surjective is sometimes said to be into.
 ## References
 
 [^1]: ChatGPT
 [^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

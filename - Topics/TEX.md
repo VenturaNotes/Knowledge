@@ -1,7 +1,9 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- (strictly $\mathbf{T}_{\mathbf{E}} \mathbf{X}$ ) (pronounced `tek`: the letters are Greek) A computer typesetting system designed by Donald E. Knuth that aims to produce results as good as 'hot metal' setting when using a modern raster-image laser typesetter. Knuth was particularly concerned to produce high-quality setting of mathematical material, but TeX is equally suited to textual material. The system includes many innovative techniques, particularly its algorithm for breaking paragraphs into lines in an optimal manner. The source code for TeX is in the public domain, and as a result it is widely used in academic institutions throughout the world.
+- The input language of TeX provides a very low-level control over the placing of marks on the printed page, and it is generally used via an intermediary macro language. The 'Plain TeX' macros provided as part of the system are still at quite a low level, and many users employ higher-level packages such as AMS-TeX and LaTeX.
+- The output from TeX is in a device-independent form, and separate drivers are required to convert this into the appropriate code for a particular printer. While output normally goes to a laser printer or phototypesetter, it is possible to write a driver for a dot-matrix printer operating in graphics mode. Knuth designed a whole new family of typefaces called Computer Modern Roman to go with TeX using his METAFONT system, but these do not reproduce well at low resolutions; many users therefore prefer to use PostScript fonts, using a conversion program to translate the device-independent output from TeX into PostScript or PDF code.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

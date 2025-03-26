@@ -263,7 +263,11 @@ fn main() -> ! {
 	- #question How is rust strong typing, give some examples
 	- #question Show how Rust is safer than other languages and make a comparison
 
+## Source[^3]
+- Work carried out by systems programmers, i.e. the production of systems software.
+
 ## References
 
 [^1]:[[Home Page - Programming Rust 2nd Edition by O'Reilly#Intro]]
 [^2]: ChatGPT
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
