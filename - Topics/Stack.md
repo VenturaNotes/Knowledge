@@ -36,6 +36,13 @@ END Procedure
 	- If the value of `Top` is equal to 0, then it signifies the stack is empty and will print out "Stack is empty"
 	- Otherwise, make a copy of the element at the top of the stack and then decrement by 1. I guess in this case, the `ArrayStack` will still keep the value there if the value of `Top` increases again
 		- #question Shouldn't the top of the stack be removed rather than just the pointer given by `Top`?
+
+## Source[^2]
+- (pushdown stack, pushdown list, LIFO list) 
+- (1) A linear list where all accesses, insertions, and removals are made at one end of the list, called the top. This implies access on a last in first out (LIFO) basis: the most recently inserted item on the list is the first to be removed. The operations push and pop refer respectively to the insertion and removal of items at the top of the stack. Stacks occur frequently in computing and in particular are closely associated with recursion.
+- (2) Loosely, a linear list where accesses, insertions, and removals are made at one end or both ends of the list. This includes a pushdown stack, described above. When the earliest inserted item on the linear list is the first to be removed (first in first out, FIFO), it is a pushup stack, more properly known as a queue. When insertions and deletions may be made at both ends, it is a double-ended queue, or deque.
+- A stack may be implemented in hardware as a specialized kind of addressless memory, with a control mechanism to implement any of the insertion/removal regimes. See also stack processing
 ## References
 
 [^1]: [[(2) Big O Part 2 – Constant Complexity]]
+[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

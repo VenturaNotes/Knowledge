@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A phenomenon that may arise in paging or other forms of virtual memory system. If the page-turning rate for a paging system becomes high, usually because the amount of real memory available for holding pages is small compared with the total working set of all the processes currently active, then each process will find itself in a situation in which, on attempting to reference a page, the appropriate page is not in memory. In trying to find space to hold the required page, the system is likely to move out onto backing store a page that will very shortly be required by some other process. As a consequence the paging rate rises to very high levels, the fraction of CPU cycles absorbed in managing page-turning overheads becomes very high, processes become blocked as they wait for page transfers to complete, and system throughput falls sharply.
+- One method by which thrashing may be alleviated is by an increase in the bandwidth between main memory and backing store, i.e. by providing sufficient interchange capacity to allow the thrashing to take place without inducing unduly long waits for page transfers. A more effective cure is to reduce the ratio between the total working-set size and the amount of space available for holding the active pages, thus increasing the hit rate on pages in memory, either by reducing the size of the working set or by increasing the amount of memory on the system.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

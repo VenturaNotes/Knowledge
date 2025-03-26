@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- (1) The reel or former on which magnetic tape or printer ribbon is wound. 
+- (2) To transfer data intended for a peripheral device (which may be a communication channel) into an intermediate store, either so that it can be transferred to the peripheral at a more convenient time or so that sections of data generated separately can be transferred to the peripheral in bulk. Spooling is therefore a method of handling virtual input and output devices in a multiprogramming system.
+- For simplicity consider the case of output. Normally a program wishing to output to a page printer will claim a printer, use it to produce its results, and then release the printer. In a multiprogramming environment this is a potent source of delay since the speed at which a printer operates is typically slow compared with the speed of the process driving the printer; it would therefore be necessary to provide a number of printers approximately equal to the number of processes active in the system.
+- Spooling is commonly used to overcome this problem. Output destined for a printer is diverted onto backing store. A process wishing to use a printer will be allocated an area of backing store, into which the results destined for the printer are written, and a server process, which acts as a virtual printer and transfers information destined for the printer into the backing store area. When the process has no more data to send to the printer, it will inform the server process, which will terminate the information written into backing store. Subsequently a system utility will be used to copy the contents of the backing store for this process onto the printer. Similar arrangements can be established for dealing with the input to processes.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

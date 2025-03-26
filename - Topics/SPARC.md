@@ -1,7 +1,8 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- (1) Trademark (scalable processor architecture) Sun Microsystems Inc.'s RISC architecture intended for multiple implementations with differing cost- performance requirements for workstations, compute servers, etc. The SPARC processor design is based on the early fundamental RISC processor design at the University of California, Berkeley. The architecture provides a 24 -register window into a larger register set as local space for a procedure, plus an additional 8 global registers. The 24 -register window is moved by 16 -register positions on procedure call leaving an 8 -register overlap with the window of the calling procedure. This technique normally avoids the reuse of a procedure's register set and hence the need to preserve register contents prior to procedure call; the overlap provides efficient parameter passing between calling and called procedures. If the depth of procedure nesting exceeds the number of register windows, then the oldest window is preserved in memory prior to procedure entry and its reuse; it must be recovered from memory before a return is made to this oldest procedure. The number of overlapping windows comprising the register set will determine the frequency of the need to preserve and recover register windows from memory. The number is a cost-performance design decision; eight is typical. Originally a 32-bit architecture, SPARC version 9 was the first 64-bit revision. 
+- (2) An RISC microprocessor chip introduced in 1987 by Sun Microsystems Inc., now part of Oracle. Originally 32-bit, the processor now has a 64-bit architecture and is widely employed in hardware for UNIX-based operating systems, including the Sun Solaris operating system. The latest version is the SPARC T5.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

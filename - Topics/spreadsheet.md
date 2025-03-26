@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- A program that manipulates tables consisting of rows and columns of cells, and displays them on a screen; the cells contain numerical information and formulas, or text. Each cell has a unique row and column identifier, but different spreadsheets use different conventions so the top left-hand cell may be A1, 1A, or 1,1. The value in a numerical cell is either typed in or is calculated from a formula in the cell; this formula can involve other cells. Each time the value of a cell is changed by typing in a new value from the keyboard, the value of all other cells whose values depend on this one are recalculated. The ability of the cells to store text is used to annotate the table with column headings, titles, etc.
+- The spreadsheet is particularly suited to the personal computer since it requires the fast and flexible display handling that is a feature of such systems. The common characteristic of all spreadsheets is the way the display screen of the computer acts as a window onto the matrix of cells; if there are more rows and columns than will fit on the screen, then the spreadsheet can be scrolled horizontally or vertically to bring into view previously hidden rows or columns. To change a value it is only necessary to move the cursor into the required cell displayed on the screen and type in the new value.
+- Spreadsheets can be used for storing and amending accounts, 'what if?' financial projections, and many other applications involving tables of numbers with interdependent rows and columns. A spreadsheet is often a component of an integrated office system. Excel is the most widely used spreadsheet application. See also MULTIDIMENSIONAL SPREADSHEET.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

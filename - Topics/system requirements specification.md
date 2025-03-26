@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- A detailed statement of the effects that a system is required to achieve. A good specification gives a complete statement of what the system is to do, without making any commitment as to how the system is to do it: it constrains only the externally observable behavior and omits any design or implementation bias.
+- A system requirements specification is normally produced in response to a user requirements specification or other expression of requirements, and is then used as the basis for system design. The system requirements specification typically differs from the expression of requirements in both scope and precision: the latter may cover both the envisaged system and the environment in which it will operate, but may leave many broad concepts unrefined. Traditionally, system requirements specifications took the form of natural-language documents. However, both the need for precision and problems with the increasing size of specification documents have led to the development of more formal notations. These are capable of being mathematically manipulated so as to show that the system as designed and implemented actually meets the specification. This may be especially important in connection with safety-critical systems.
+- A system requirements specification may also be used in contract negotiations during and after the purchase of the system, which must meet the specifications that the contractor has agreed to accept. This is especially important where the purchaser sets out the requirements in terms of a range of functions and performance levels that the contractor commits to supplying and meeting, rather than as an inventory of components (hardware and software) that the contractor undertakes to supply.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
