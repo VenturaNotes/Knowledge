@@ -18,7 +18,14 @@ aliases:
 
 ## Source[^2]
 - A storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value. Variables are fundamental in programming for storing and manipulating data.
+
+## Source[^3]
+- (1) A unit of storage that can be modified during program execution, usually by assignment or read operations. A variable is generally denoted by an identifier or by a name. 
+- (2) The name that denotes a modifiable unit of storage. 
+- (3) See PARAMETER. 
+- (4) (in logic) a name that can stand for any of a possibly infinite set of values.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-2-programming-fundamentals-quizzes/2-2-programming-fundamentals-quiz-10-questions/
 [^2]: https://spdload.com/blog/software-development-glossary/
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

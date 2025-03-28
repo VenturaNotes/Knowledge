@@ -11,7 +11,71 @@ aliases:
 
 ## Source[^2]
 - A statistical technique based on decomposing the total variance of some characteristic of a population into parts correlated with other characteristics, and residual variation. In particular, analysis of variance is used to test whether sections of a population appear to differ significantly in some property. For example, if $y_i$ is the personal income of individual $i$, analysis of variance can be used to test whether there are significant regional differences in mean income. The total variance of the population is decomposed into the part due to differences within regions, and the part due to differences between regional means. The larger the proportion of total variance due to differences between group means, the more likely it is that the groups are systematically different, whereas the higher the proportion of total variance due to within-group variance, the more likely it is that apparent differences between group means arise from sampling error.
+
+## Source[^3]
+- A technique, originally developed by R. A. Fisher, whereby the total variation in a vector of numbers $y_{1} \ldots y_{n}$, expressed as the sum of squares about the mean
+
+  
+
+$$
+
+\sum\left(y_{i}-y_{i}\right)^{2}
+
+$$
+
+  
+
+is split up into component sums of squares ascribable to the effects of various classifying factors that may index the data. Thus if the data consist of a two-way $m \times n$ array, classified by factors A and B and indexed by
+
+  
+
+$$
+
+i=1, \ldots, m \quad j=1, \ldots, n
+
+$$
+
+  
+
+then the analysis of variance gives the identity
+
+  
+
+$$
+
+\begin{aligned}
+
+& \sum_{\frac{\sum}{n}\left(y_{i j}-y\right)^{2} \equiv \sum_{\frac{\sum}{n}}\left(y_{i}-y\right)^{2}+} \\
+
+& \text { Total A } \\
+
+& \text { main effect } \\
+
+& \sum_{\frac{\sum}{n}\left(y_{j}-y\right)^{2}+\sum_{\frac{\sum}{n}}\left(y_{i j}-y_{i}-y_{j}+y\right)^{2}} \\
+
+& \text { main effect interaction }
+
+\end{aligned}
+
+$$
+
+  
+
+Geometrically the analysis of variance becomes the successive projections of the vector $\boldsymbol{y}$, considered as a point in $n$-dimensional space, onto orthogonal hyperplanes within that space. The dimensions of the hyperplanes give the degrees of freedom for each term; in the above example these are
+
+  
+
+$$
+
+m n-1 \equiv(m-1)+(n-1)+(m-1)(n-1)
+
+$$
+
+  
+
+A statistical model applied to the data allows mean squares, equal to (sum of squares)/(degrees of freedom), to be compared with an error mean square that measures the background 'noise'. Large mean squares indicate large effects of the factors concerned. The above processes can be much elaborated (see EXPERIMENTAL DESIGN, REGRESSION ANALYSIS).
 ## References
 
 [^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

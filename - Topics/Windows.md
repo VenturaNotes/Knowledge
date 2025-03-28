@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (Trademark) A graphical user interface introduced by Microsoft in 1983 for the Intel family of microprocessors; it is also known as Microsoft Windows or MS Windows. Versions of Windows prior to Windows 95 ran in conjunction with MS-DOS and concealed many of the innate limitations of MS-DOS by allowing a form of virtual memory, unified management of peripheral devices, and multitasking. Windows permits easy transfer of information between applications, which may be running in separate windows on the screen simultaneously. A style guide for application developers ensures that all Windows applications work in a similar way, markedly reducing the time taken to learn new applications.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

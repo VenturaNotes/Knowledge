@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A code whose target alphabet contains alphanumeric characters and/or strings thereof.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

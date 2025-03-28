@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A website whose content can be changed and extended by users via their web browsers. The term is also used for web applications that facilitates this. Wikis are a useful technique for rapidly assembling and disseminating 'collective wisdom' ('wiki wiki' is Hawaiian for 'fast' or 'quick'). They have become popular on many levels, ranging from small private wikis through internal departmental or corporate wikis to such popular websites as Wikipedia. Their major problem, for which they have been criticized, is the possibility of inappropriate or malicious changes. All wikis maintain lists of recent changes to and often a complete history of each web page, to aid the 'user community' in discovering and reverting unwanted changes. Often each web page has an associated discussion page where the merits of existing and potential changes can be debated. However, such self-policing has been found inadequate for highly exposed websites with their large but unknown user base. These impose additional security measures: finely graded levels of trust that control the extent to which a user can make alterations; programmatic techniques that seek to identify suspicious changes; etc.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
