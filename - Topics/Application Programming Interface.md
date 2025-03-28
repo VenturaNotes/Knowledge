@@ -27,8 +27,12 @@ aliases:
 
 ## Source[^3]
 - An application programming interface (API) is code that enables two software programs to communicate.
+
+## Source[^4]
+- An interface that is defined in terms of a set of functions and procedures, and enables a program to gain access to facilities within an application. A typical example would be a CASE tool that provides an API to enable users to develop special programs to utilize the information within the CASE tool's internal database. The use of such facilities enables users to customize the application for their own purposes and to integrate the application into a customized development environment.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: ChatGPT
 [^3]: https://www.techtarget.com/searchapparchitecture/definition/application-program-interface-API
+[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

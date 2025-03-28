@@ -19,6 +19,9 @@
 - A set of techniques used to solve complex problems that involves removing unnecessary details so the main processes involved can be easily identified.
 ## Source[^5]
 - Abstraction (from the Latin abs, meaning away from and trahere, meaning to draw) is the process of taking away or removing characteristics from something in order to reduce it to a set of essential characteristics.
+
+## Source[^6]
+- The principle of ignoring those aspects of a subject that are not relevant to the current purpose in order to concentrate solely on those that are. The application of this principle is essential in the development and understanding of all forms of computer system. See DATA ABSTRACTION, PROCEDURAL ABSTRACTION.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
@@ -26,3 +29,4 @@
 [^3]: https://quizizz.com/admin/quiz/5acb5f51c4daf70019c267e3/abstractions-quiz
 [^4]: [[Home Page - Glossary by ada computer science]]
 [^5]: https://www.techtarget.com/whatis/definition/abstraction
+[^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

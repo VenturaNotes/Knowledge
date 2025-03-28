@@ -12,8 +12,15 @@ aliases:
 
 ## Source[^3]
 - Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.
+
+## Source[^4]
+- A discipline concerned with the building of computer programs that perform tasks requiring intelligence when done by humans. However, intelligent tasks for which a decision procedure is known (e.g. inverting matrices) are generally excluded, whereas perceptual tasks that might seem not to involve intelligence (e.g. seeing) are generally included. For this reason, AI is better defined by indicating its range. Examples of tasks tackled within AI are: game playing, automated reasoning, machine learning, natural-language understanding, planning, speech understanding, and theorem proving.
+- Perceptual tasks (e.g. seeing and hearing) have been found to involve much more computation than is apparent from introspection. This computation is unconscious in humans, which has made it hard to simulate. AI has had relatively more success at intellectual tasks (e.g. game playing and theorem proving) than perceptual tasks. Sometimes these computer programs are intended to simulate human behaviour to assist psychologists and neuroscientists (see COGNITIVE MODELLING). Sometimes they are built to solve problems for technological application (see EXPERT SYSTEMS, ROBOTICS).
+- Both theoretical and applied AI research have made very significant contributions to computer science. Computational techniques that originated from AI include augmented transition networks, means/ends analysis, production rule systems, resolution, semantic networks, and heuristic search.
+- Philosophers have long been interested in the question, 'can a computer think?' There are two schools of thought: weak AI, which is the proposition that computers can at least simulate thought and intelligence; and strong AI, which argues that a machine that can perform cognitive tasks is actually thinking. This is a complex topic that has received new interest with a focus on consciousness. 
 ## References
 
 [^1]: ChatGPT
 [^2]: [[Home Page - Glossary by ada computer science]]
 [^3]: https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence
+[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

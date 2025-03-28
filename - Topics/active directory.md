@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- (Trademark) An implementation of directory services for Windows. It was introduced with Windows 2000 Server edition and has been developed in subsequent Windows releases.
 ## Source[^2]
 - Active Directory (AD) is Microsoft's proprietary directory service.
 ## References

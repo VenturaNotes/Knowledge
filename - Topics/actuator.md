@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- of a disk drive. The mechanism that causes the head carriage and heads to be moved to the desired track. The voice coil actuator gains its name because its operating principle is similar to that of a moving-coil loudspeaker. This type of actuator invariably forms part of a closed loop servosystem. The reference information may be provided by a disk with a dedicated servosurface: the servohead positions itself symmetrically between two servotracks by sensing positioning information from both tracks (di-bits) and moving in such a way that the amplitudes of the two signals are equal. A second method records the servo information in a fixed number of equiangular 'spokes'; this technique is known as embedded servo. Dedicated servo drives suffer head stack and/or disk stack tilt, due to temperature variations$\textemdash$especially after being powered-on. This causes heads located further away from the servo head to be misaligned from the corresponding data track centerline. Accordingly, these drives must interrupt the data flow to the host system to carry out regular calibrations. Embedded servo drives do not need to interrupt the data flow and so are better suited to applications that must provide a continuous data stream, e.g. video-on-demand systems. As track densities have increased embedded servo techniques have become more common.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

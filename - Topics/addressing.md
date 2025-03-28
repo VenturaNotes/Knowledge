@@ -1,7 +1,9 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- The method used to identify the location of a participant in a network. Ideally, addressing specifies where the participant is located rather than who they are (see NAME) or how to get there (see ROUTING). This is true for flat addressing, in which addresses are assigned independently of each other and carry no internal structure. More common, however, is hierarchical addressing, in which addresses are grouped to reflect relationships among the addressed entities. Often the grouping reflects the physical topology of the network, so addressing and routing are interrelated. Sometimes the grouping reflects administrative or functional relationships (logical addressing), so addressing and naming are interrelated.
+- In a system employing layered protocols (see SEVEN-LAYER REFERENCE MODEL), different forms of addressing may be used at different levels. The data link level may use addresses that identify specific stations on a multidrop line. The network level uses addresses that identify the source and destination hosts associated with a packet. Higher protocol layers may use addresses that distinguish different connections or processes.
+- Addresses may be fixed-length or extensible. In fixed-length addressing all addresses occupy a fixed number of digits. An example is the Ethernet protocol, which uses 48-bit addresses. In extensible addressing the length of an address may vary from case to case. For example, in X121 'international data numbers' are defined and these may be from 3 to 14 decimal digits in length.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
