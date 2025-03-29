@@ -3208,52 +3208,52 @@ Year: 2016-04-01
 	58. AS number
 	59. ASP
 	60. associative law
-	61. associative network
-	62. associative operation
-	63. associative processor
-	64. astable
+	61. [[associative network]]
+	62. [[associative operation]]
+	63. [[associative processor]]
+	64. [[astable]]
 	65. asymmetric encryption
-	66. asymmetric relation
-	67. asymptotic
-	68. asymptotic analysis
-	69. asymptotic expansion
-	70. asynchronous
-	71. asynchronous bus
-	72. asynchronous circuit
-	73. asynchronous interface
+	66. [[asymmetric relation]]
+	67. [[asymptotic]]
+	68. [[asymptotic analysis]]
+	69. [[asymptotic expansion]]
+	70. [[asynchronous]]
+	71. [[asynchronous bus]]
+	72. [[asynchronous circuit]]
+	73. [[asynchronous interface]]
 	74. asynchronous TDM
 	75. asynchronous transfer mode
-	76. asynchronous transmission
-	77. AT&T
-	78. ATA
+	76. [[asynchronous transmission]]
+	77. [[American Telephone and Telegraph Company|AT&T]]
+	78. [[advanced technology attachment|ATA]]
 	79. ATL
-	80. Atlas
-	81. ATM
-	82. atom
+	80. [[Atlas]]
+	81. [[Asynchronous Transfer Mode|ATM]]
+	82. [[atom]]
 	83. atomic formula
-	84. attribute
-	85. attribute grammar
+	84. [[attribute]]
+	85. [[attribute grammar]]
 	86. audio card
-	87. audio response unit
-	88. audit trail
-	89. augmented addressing
+	87. [[audio response unit]]
+	88. [[audit trail]]
+	89. [[augmented addressing]]
 	90. augmented reality
-	91. augmented transition network
-	92. AUI
+	91. [[augmented transition network]]
+	92. [[attachment unit interface|AUI]]
 	93. AUP
-	94. authentication
-	95. authentication code
-	96. authoring language
-	97. authorization
-	98. autobaud
-	99. autochanger
-	100. autodial
+	94. [[authentication]]
+	95. [[authentication code]]
+	96. [[authoring language]]
+	97. [[authorization]]
+	98. [[autobaud]]
+	99. [[autochanger]]
+	100. [[autodial]]
 	101. autodump
-	102. autoload
+	102. [[autoload]]
 	103. autoload cartridge
 	104. automated disk library
-	105. automated reasoning
-	106. automated tape library
+	105. [[automated reasoning]]
+	106. [[automated tape library]]
 	107. automatic coding
 	108. Automatic Computing Engine
 	109. automatic data conversion
