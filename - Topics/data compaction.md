@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- Removal of redundant information from a file or data stream. The term data compression is commonly used to mean the same thing, although, strictly, while compression permits the loss of information in the quest for brevity, compaction is lossless. The effects of compaction are thus exactly reversible.
+- Generally, in the context of discrete and continuous systems, the output from discrete systems, if it is to be abbreviated, is losslessly compacted. Data compaction is appropriate, by way of example, for files containing text (including source programs) and machine code. In fax transmission, the position of black pixels is discretely encoded, and so again data compaction is employed.
+- Data compaction may be carried out in a probabilistic or statistical manner, and a particular algorithm may be suited to one or other of these. A data compaction algorithm may be more or less effective (in achieving a high ratio of compaction) and more or less efficient (in economy of time taken for encoding and decoding). To a large extent, these demands conflict. For example, Huffman encoding is optimally effective when unconstrained, but may require a high extension of the source, and need the output stream to have a small alphabet (ultimately binary, which requires bit manipulation possibly on a large scale); Huffman can thus be very inefficient. On the other hand, Lempel-Ziv compaction is very efficient, and within given time constraints may be more effective than a similarly constrained Huffman code.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -11,6 +11,34 @@
 	- (vi) If A is an $n \times n$ matrix, then det kA = $k^n$detA
 	- (vii) det$A^T$ = detA, where $A^T$ is the transpose of A
 	- (viii) For an $n\times n$ matrix A, the map $x \mapsto Ax$ scales area/volume by |detA| and is sense-preserving if detA > 0 and sense-reversing if detA < 0
+
+## Source[^2]
+- A number associated with a square matrix of numbers. The determinant of an $n \times n$ matrix $A$ is denoted by $\operatorname{det}(A)$ or $\|A\|$ and given by
+
+  
+
+$$
+
+\sum \operatorname{par}(\sigma) a_{1} \sigma_{1} a_{2} \sigma_{2} \ldots a_{n} \sigma_{n}
+
+$$
+
+  
+
+where the sum is taken over all $n$ ! permutations
+
+  
+
+$$
+
+\sigma=\sigma_{1} \sigma_{2} \ldots \sigma_{n}
+
+$$
+
+  
+
+of the integers $1,2, \ldots, n$. par( $\sigma$ ), the parity of $\Sigma$, is either +1 or -1 depending on whether $\Sigma$ is an even permutation or an odd permutation.
 ## References
 
 [^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

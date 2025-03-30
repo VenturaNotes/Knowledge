@@ -1,0 +1,18 @@
+## Synthesis
+- 
+## Source [^1]
+- Legislation that has been or is being introduced all over the world to protect personal data handled in computers. The aim of the legislation is to control the immense potential for misuse of information that arises when personal data is stored in computers. Once the data has been transcribed from paper files into a form that is easily readable and accessible by computers, it is an inexpensive and easy task for the data to be extracted from one record and correlated with personal data concerning the same person from another file. This results in a combination of information that is considered to be an infringement of privacy.
+- To combat the fear of misuse of data, governments have introduced legislation that, among other things, makes the following requirements of organizations that maintain personal records on computers:
+	- to declare and/or register the use for which the data is stored;
+	- to provide the data subject with a right of access to data concerning himself or herself on their computers;
+	- to maintain a prescribed minimum level of electronic and physical security in their computer installation;
+	- not to transmit personal data to any organization that does not have similar controls over misuse of data.
+- This last requirement has led to fears that countries without data protection legislation on their statute books are losing contracts for the processing of data, since countries with such legislation can refuse to permit the export of data to countries where data is not adequately protected. For this reason companies that consider that the data protection fears are not borne out by real instances of misuse of data are nonetheless pressing for legislation.
+- In Europe a convention concerning misuse of data was signed by all member countries of the Council of Europe (1981). The OECD (Organization for Economic Cooperation and Development) has also drafted a convention of similar effect (1980). In 1984 the UK enacted the Data Protection Act to comply with the Council of Europe Convention.
+- In February 1995 the Council of Ministers of the European Union formally approved a common position on the 'Framework' Data Protection Directive, in response to the political agreement reached on 6 February 1995. The final version of the directive included a 12-year transition period for noncomputerized data. Member States were given a three-year transition period in which to implement the directive following its adoption. This led to a second UK Data Protection Act (1998), which eventually came into force on 1 March 2000, with a transitional arrangement limiting its effect until 24 October 2001. The 1998 act broadly retains the principles of the 1984 act, with a number of additional features.
+- The situation is rather different in the USA, where there is a Privacy Act dealing with data stored by government agencies. The approach to data protection involves a mixture of legislation, regulation, and self-regulation. The EU directive on data protection prohibits the transfer of personal data to non-European nations that do not meet the EU standard for privacy protection. This could have affected the ability of US companies to trade with European companies in certain areas. To deal with this the US Department of Commerce introduced a so-called safe harbor framework, agreed with the European Commission. This enables US companies to certify that they operate adequate privacy protection as defined by the EU directive.
+- http://www.legislation.gov.uk/
+	- The UK government official website about the legislation and related updates
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
