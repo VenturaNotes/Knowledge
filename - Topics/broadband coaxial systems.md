@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- Communication systems that use broadband networking techniques on coaxial cable. The 300 megahertz (MHz) bandwidth of a coaxial cable is divided into multiple channels through frequency division multiplexing. The channels can transmit signals at different data rates, allowing diverse applications to share the cable by means of dedicated channels. Channel bandwidth may range from a few kilohertz to several megahertz. A single cable may carry both digital data and analogue data (voice, television) simultaneously. Access to the cable is provided through radiofrequency transceivers (modems) assigned to a particular channel. Frequency-agile modems may be used to communicate on different bands at different times.
+- There are two classifications of broadband coaxial systems. In a one-way system signals travel in only one direction in the cable. This kind of system is common in cable TV (CATV) systems. In a two-way system signals can travel in both directions on the cable. All traffic that originates from network nodes travels on the inbound channels to the headend. The headend is the origin of all traffic on the outbound channels, routing all messages on inbound channels to the proper outbound channel to reach their destination. Network nodes transmit messages on inbound channels and receive messages on outbound channels.
+- Two-way systems fall into midsplit or subsplit categories. Midsplit systems divide the cable bandwidth equally between inbound and outbound channels. Subsplit systems put inbound traffic in the $5-30 \mathrm{MHz}$ bands and outbound traffic in the $54-100 \mathrm{kHz}$ bands. This format is the easiest way to retrofit onto a one-way CATV system, and leaves the VHF TV channels on their normal 'off-the-air' frequency assignments.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

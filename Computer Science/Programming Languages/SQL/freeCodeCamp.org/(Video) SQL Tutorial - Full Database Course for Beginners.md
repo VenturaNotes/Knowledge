@@ -336,7 +336,7 @@ Wrap Up
 		- [[Data Definition Language|Data Definition Language (DDL)]] 
 			- Used for defining database schemas
 				- A schema is an overall layout of the database such as what tables will be in the database, what columns those tables are going to have and the data types that those columns are going to be able to store. Can use SQL to define data in the different database schemas
-		- [[Data control Language (DCL)]]
+		- [[Data Control Language]] (DCL)
 			- Used for controlling access to the data in the database
 			- User & permissions management
 				- User could write to this table or read information from this table

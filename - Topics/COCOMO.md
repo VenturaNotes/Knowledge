@@ -1,0 +1,11 @@
+## Synthesis
+- 
+## Source [^1]
+- (CoCoMo) (constructive cost model) An algorithmic software cost estimation model devised by Barry Boehm. The basic model is intended to give an order of magnitude estimate of cost based on three classes of project: organic mode, semidetached mode, embedded mode. For each class an estimate for effort and duration can be calculated as a function of thousands of delivered source instructions (kdsi).
+- Organic mode projects require relatively small teams working in familiar environments on familiar projects. Semidetached mode projects have a mixture of experienced and inexperienced staff, with limited experience of the application type and probably unfamiliar with some of the aspects of the project. Embedded mode projects have tight time constraints, strong coupling between software, hardware, regulations, and operational procedures. Variations in specifications are usually impracticable, and validation is rigorous. Project team members are usually inexperienced in the particular application.
+- The intermediate COCOMO model applies a series of multipliers to the basic estimates for effort and time. There are 15 modifiers in four groups of attributes: Product attributes are required software reliability, database size, product complexity; computer attributes are execution time constraints, storage constraints, virtual machine volatility, computer turnaround time; personnel attributes are analyst capability, application experience, virtual machine experience, programmer capability, programming language experience; project attributes are modern programming practices, software tools, required development schedule.
+- Each attribute multiplier may be selected from points on a qualitative scale. The modifier value for modern programming practices also varies with the estimated kdsi size of the delivered software. The combined effect of all modifiers leads to a maximum multiplier of 84.6 , and a minimum of 0.0076 , for the basic estimates for each mode.
+- The COCOMO models essentially estimate cost to deliver, which may be a small proportion of the total software life-cycle cost. Boehm also provides models to estimate maintenance effort.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

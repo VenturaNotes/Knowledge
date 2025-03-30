@@ -17,6 +17,28 @@ aliases:
 $$3 + 4, U \cup V, P \land Q$$
 - A symbol, such as $\circ$, can be used to represent a generalized dyadic operation
 - When the set is finite, Cayley tables and sometimes truth tables are used to define the meaning of the operation
+---
+binary operation 1. (dyadic operation) defined on a set $S$. A function from the domain $S \times S$ into $S$ itself. Many of the everyday arithmetic and algebraic operations are binary, including the addition of two integers, the union of two sets, and the conjunction of two Boolean expressions.
+
+  
+
+Although basically functions, binary operations are usually represented using an infix notation, as in
+
+  
+
+$$
+
+3+4, \quad U \cup V, \quad P \wedge Q
+
+$$
+
+  
+
+The operation symbol then appears between the left and right operand. A symbol, such as ${ }^{\circ}$, can be used to represent a generalized binary operation.
+
+  
+
+When the set $S$ is finite, Cayley tables and sometimes truth tables are used to define the meaning of the operation. 2. An operation on binary operands.
 ## References
 
 [^1]: [[(1) What are Binary Operations.  - Abstract Algebra]]

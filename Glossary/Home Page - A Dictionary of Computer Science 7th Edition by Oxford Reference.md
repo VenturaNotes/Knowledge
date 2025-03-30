@@ -3254,3393 +3254,3363 @@ Year: 2016-04-01
 	104. automated disk library
 	105. [[automated reasoning]]
 	106. [[automated tape library]]
-	107. automatic coding
+	107. [[automatic coding]]
 	108. Automatic Computing Engine
-	109. automatic data conversion
+	109. [[automatic data conversion]]
 	110. automatic data processing
-	111. automatic programming
-	112. automaton
-	113. automorphism
-	114. autonomous guided vehicle
-	115. autonomous system
+	111. [[automatic programming]]
+	112. [[automaton]]
+	113. [[automorphism]]
+	114. [[autonomous guided vehicle]]
+	115. [[autonomous system]]
 	116. autoregression
-	117. autothread
+	117. [[autothread]]
 	118. auxiliary memory
-	119. availability
-	120. available list
-	121. available time
+	119. [[availability]]
+	120. [[available list]]
+	121. [[available time]]
 	122. average-case analysis
-	123. avionics
-	124. AVL tree
-	125. axiom
-	126. axiomatic semantics
-	127. axiomatic specification
-	128. axonometric projection
+	123. [[avionics]]
+	124. [[AVL tree]]
+	125. [[axiom]]
+	126. [[axiomatic semantics]]
+	127. [[axiomatic specification]]
+	128. [[axonometric projection]]
 	129. b
-	130. B
+	130. [[B]]
 	131. B+ tree
 	132. B-ISDN
-	133. B-spline
-	134. B-spline patch
-	135. B-tree
-	136. Babbage
-	137. Babbage, Charles (1791-1871)
-	138. back-end processor
-	139. back-face detection
-	140. backbone network
-	141. backdoor
-	142. back driving
-	143. back end
-	144. background processing
-	145. backing store
-	146. backplane
-	147. back plane
-	148. back propagation
-	149. backtracking
-	150. backup
+	133. [[B-spline]]
+	134. [[B-spline patch]]
+	135. [[B-Trees|B-tree]]
+	136. [[Babbage]]
+	137. [[Charles Babbage]]
+	138. [[back-end processor]]
+	139. [[back-face detection]]
+	140. [[backbone network]]
+	141. [[backdoor]]
+	142. [[back driving]]
+	143. [[back end]]
+	144. [[background processing]]
+	145. [[backing store]]
+	146. [[backplane]]
+	147. [[back plane]]
+	148. [[back propagation]]
+	149. [[backtracking]]
+	150. [[backup]]
 	151. Backus normal form
-	152. backward chaining
+	152. [[backward chaining]]
 	153. backward compatibility
-	154. backward error analysis
+	154. [[backward error analysis]]
 	155. backward error correction
-	156. backward error recovery
-	157. badge reader
-	158. bad sector
-	159. bag
-	160. balance((of a node in a `*binary tree`))
-	161. balanced
-	162. balanced cable
-	163. band
-	164. band-limited channel
-	165. band-pass filter
+	156. [[backward error recovery]]
+	157. [[badge reader]]
+	158. [[bad sector]]
+	159. [[bag]]
+	160. [[balance]]
+	161. [[balanced]]
+	162. [[balanced cable]]
+	163. [[band]]
+	164. [[band-limited channel]]
+	165. [[band-pass filter]]
 	166. band-reject filter
-	167. band-stop filter
-	168. band matrix
-	169. band printer
-	170. bandwidth
-	171. bank switching
-	172. banner
-	173. bar-code scanner
-	174. bar code
-	175. Barker sequence
+	167. [[band-stop filter]]
+	168. [[band matrix]]
+	169. [[band printer]]
+	170. [[bandwidth]]
+	171. [[bank switching]]
+	172. [[banner]]
+	173. [[bar-code scanner]]
+	174. [[bar code]]
+	175. [[Barker sequence]]
 	176. barrel printer
-	177. base
-	178. BASE
-	179. base-bound register
+	177. [[base]]
+	178. [[Basically Available, Soft state, Eventual consistency|BASE]]
+	179. [[base-bound register]]
 	180. base-limit register
 	181. base addressing
-	182. base band
-	183. baseband networking
+	182. [[base band]]
+	183. [[baseband networking]]
 	184. baseband signaling
 	185. base field
 	186. base register
-	187. Basic
-	188. batch control
-	189. Batcher's parallel method
+	187. [[Beginner's All-purpose Symbolic Instruction Code|Basic]]
+	188. [[batch control]]
+	189. [[Batcher's parallel method]]
 	190. batch learning
-	191. batch processing
-	192. baud rate
-	193. Bayes's theorem
+	191. [[batch processing]]
+	192. [[baud rate]]
+	193. [[Bayes's theorem]]
 	194. Bayesian network
-	195. Bayesian statistics
+	195. [[Bayesian statistics]]
 	196. BBS
 	197. BCD
-	198. BCD adder
+	198. [[BCD adder]]
 	199. BCH code
-	200. BCPL
-	201. BCS
+	200. [[BCPL]]
+	201. [[BCS]]
 	202. BDF methods
-	203. beam deflection
-	204. bearer
+	203. [[beam deflection]]
+	204. [[bearer]]
 	205. bearer network
-	206. behaviour-based systems
-	207. behavioural animation
-	208. belief systems
-	209. Bell Telephone Laboratories
-	210. belt printer
-	211. benchmark
-	212. BER
-	213. Berners-Lee, Sir Tim (1955-)
-	214. best-first search
-	215. best fit
-	216. Beta
-	217. beta
-	218. beta reduction
-	219. beta test
-	220. Bézier curve
-	221. Bézier patch
-	222. Bézier surface
-	223. BGP
-	224. bias
-	225. biased exponent
-	226. bicomponent algorithm
-	227. biconditional
-	228. biconnected graph
-	229. bidirectional reflection distribution
-	230. bifurcation
-	231. big-endian
-	232. bijection
-	233. binary-coded decimal
-	234. binary-level compatibility
-	235. binary-tree representation
-	236. binary adder
-	237. binary chop
-	238. binary code
-	239. binary counter
-	240. binary digit
-	241. binary encoding
-	242. binary logic
-	243. binary notation
-	244. binary number
-	245. binary operation
-	246. binary prefixes
-	247. binary relation
-	248. binary search algorithm
-	249. binary search tree
-	250. binary sequence
-	251. binary signal
-	252. binary space-partitioning tree
-	253. binary symmetric channel
-	254. binary synchronous communications
-	255. binary system
-	256. binary tree
-	257. bind
-	258. binding
-	259. binding occurrence
-	260. binomial distribution
-	261. bioinformatics
-	262. biomimetic robotics
-	263. BIOS
-	264. bipartite graph
-	265. biplot
-	266. bipolar integrated circuit
-	267. bipolar signal
-	268. bipolar transistor
-	269. biquinary code
-	270. Birkhoff's completeness theorem
-	271. bis
-	272. bisection algorithm
-	273. bistable
-	274. BISYNC
-	275. bit
-	276. bit-block transfer
-	277. bit-slice architecture
-	278. bitblt
-	279. bit density
-	280. bit error rate
-	281. bit handling
-	282. bitmap
-	283. bit matrix
-	284. Bitnet
-	285. bitpad
-	286. bit rate
-	287. bits per pixel
-	288. bit string
-	289. bit stuffing
-	290. black-box testing
-	291. BlackBerry
-	292. blackboard system
-	293. black box
-	294. black Ethernet
-	295. blank
-	296. blank character
-	297. blend
-	298. blending
-	299. blink
-	300. blobby model
-	301. block
-	302. block-structured languages
-	303. block cipher
-	304. block code
-	305. block compaction
-	306. block diagram
-	307. blocked process
-	308. blockette
-	309. blocking factor
-	310. block length
-	311. block retrieval
-	312. blog
-	313. blogosphere
-	314. Blu-ray
-	315. Blue Book
-	316. Bluetooth
-	317. Blum's axioms
-	318. BM algorithm
-	319. BMP
-	320. BNF
-	321. body
-	322. boilerplate
-	323. BOM
-	324. bookmark
-	325. Boole, George (1815-64)
-	326. Boolean algebra
-	327. Boolean expression
-	328. Boolean function
-	329. Boolean matrix
-	330. Boolean operation
-	331. Boolean operator
-	332. Boolean type
-	333. Boolean value
-	334. boom
-	335. boot
-	336. boot sector virus
-	337. bootstrap
-	338. Border Gateway Protocol
-	339. Borland Software Corporation
-	340. Bose-Chaudhuri-Hocquenghem codes
-	341. bot
-	342. BOT marker
-	343. botnet
-	344. bottleneck
-	345. bottom-up development
-	346. bottom-up parsing
-	347. bottoming
-	348. bounce
-	349. bound
-	350. boundary-scan testing
-	351. boundary-value problem
-	352. boundary protection
-	353. boundary representation
-	354. bounded delay
-	355. bound occurrence
-	356. bounds registers
-	357. bound variable
-	358. Box-Jenkins forecasting techniques
-	359. boxplot
-	360. Boyer-Moore algorithm
-	361. bpi
-	362. bps
-	363. bpt
-	364. branch
-	365. branch and bound algorithm
-	366. branching factor
-	367. branch instruction
-	368. branch testing
-	369. breadboard
-	370. breadth-first search
-	371. breakpoint
-	372. Bresenham's algorithm
-	373. BRI
-	374. bricks-and-clicks
-	375. bridge
-	376. bridgeware
-	377. Brin, Sergey (1973-)
-	378. broadband
-	379. broadband coaxial systems
-	380. broadband ISDN
-	381. broadband networking
-	382. broadcast domain
-	383. broadcasting
-	384. brouter
-	385. browse
-	386. browser
-	387. brute force
-	388. brute force attack
-	389. BS7799
-	390. BSC
-	391. BSI Group
-	392. BSP tree
-	393. BTron
-	394. bubble jet
-	395. bubble memory
-	396. bubble sort
-	397. bucket
-	398. bucket sort
-	399. buddy system
-	400. buffer
-	401. buffering
-	402. buffer overflow
-	403. buffer register
-	404. bug
-	405. bug seeding
-	406. bulk memory
-	407. bulletin board system
-	408. bump mapping
-	409. bundle
-	410. bundled attributes
-	411. burn
-	412. burst error
-	413. burst mode
-	414. bus
-	415. bus arbitration
-	416. bus driver
-	417. bused interface
-	418. bus hierarchy
-	419. business graphics
-	420. bus master
-	421. bus terminator
-	422. bus topology
-	423. busy signal
-	424. button
-	425. byte
-	426. byte-order mark
-	427. byte code
-	428. Byzantine Generals problem
-	429. C&C
-	430. C-sharp
-	431. c/s
-	432. C2
-	433. CA
-	434. cable
-	435. cache
-	436. CAD
-	437. CADCAM
-	438. CADMAT
-	439. CAE
-	440. CAFS
-	441. CAI
-	442. CAIS-A
-	443. CAL
-	444. call
-	445. call by name
-	446. call by reference
-	447. call by value
-	448. calling sequence
-	449. call instruction
-	450. CAM
-	451. CAMAC
-	452. Cambridge Ring
-	453. campus-wide information service
-	454. cancellation
-	455. capability architecture
-	456. capability list
-	457. Capability Maturity Model
-	458. capacity
-	459. CAPM
-	460. CAPP
-	461. caps lock
-	462. capstan
-	463. CAPTCHA
-	464. CAP theorem
-	465. CAR
-	466. card
-	467. card cage
-	468. cardinality
-	469. card punch
-	470. card reader
-	471. caret
-	472. carrier
-	473. carry lookahead
-	474. Cartesian product
-	475. Cartesian structure
-	476. cartridge
-	477. cartridge drive
-	478. cartridge font
-	479. cartridge tape
-	480. cascadable counter
-	481. cascade
-	482. cascaded windows
-	483. cascading style sheets
-	484. CASE
-	485. case-based reasoning
-	486. case-sensitive
-	487. case grammar
-	488. case statement
-	489. cassette
-	490. CAT
-	491. CAT-3
-	492. CAT-5
-	493. CAT-6
-	494. CAT-7
-	495. catastrophic code
-	496. catastrophic error propagation
-	497. category
-	498. cathode-ray tube
-	499. Catmull-Clark surfaces
-	500. causal reasoning
-	501. caustic
-	502. CAV
-	503. Cayley table
-	504. CBC
-	505. CBL
-	506. CBR
-	507. CBT
-	508. CCD
-	509. CCITT
-	510. CCS
-	511. CCTA
-	512. CD-DA
-	513. CD-E
-	514. CD-I
-	515. CD-R
-	516. CD-ROM
-	517. CD-ROM drive
-	518. CD-ROM format standards
-	519. CD-ROM library
-	520. CD-RW
-	521. CDC
-	522. CDDI
-	523. CDIF
-	524. CDOS
-	525. CDR
-	526. CDTV
-	527. ceiling
-	528. cel
-	529. Celeron
-	530. cell
-	531. cell array
-	532. cell relay
-	533. cellular automata machine
-	534. CEN/CENELEC
-	535. centralized structure store
-	536. central processor
-	537. Centronics interface
-	538. CEPIS
-	539. CERT
-	540. certainty factor
-	541. certificate
-	542. certificate authority
-	543. certification
-	544. CFB
-	545. CFF
-	546. CGA
-	547. CGI
-	548. CGM
-	549. chain
-	550. chain code
-	551. chained file
-	552. chaining
-	553. chaining search
-	554. chain printer
-	555. challenge/response
-	556. change dump
-	557. channel
-	558. channel capacity
-	559. channel coding
-	560. channel coding theorem
-	561. channel controller
-	562. channel error
-	563. channel mobility
-	564. channel switching
-	565. channel time response
-	566. chaos
-	567. character
-	568. character cell
-	569. character encoding
-	570. characteristic
-	571. characteristic function
-	572. characteristic vector
-	573. character machine
-	574. character mode
-	575. character recognition
-	576. character representation
-	577. character set
-	578. character string
-	579. character type
-	580. charge-coupled device
-	581. chassis
-	582. chat room
-	583. CHDL
-	584. Cheapernet
-	585. Chebyshev approximation, norm
-	586. check
-	587. check box
-	588. check character
-	589. check digit
-	590. checkers-playing programs
-	591. checking program
-	592. checkout
-	593. checkpoint
-	594. checksum
-	595. chemoinformatics
-	596. chess-playing programs
-	597. chi-squared distribution
-	598. chief programmer team
-	599. child
-	600. CHILL
-	601. Chinese remainder theorem
-	602. chip
-	603. chip card
-	604. chip set
-	605. chip socket
-	606. choice
-	607. Cholesky decomposition
-	608. Chomsky hierarchy
-	609. Chomsky normal form
-	610. chromaticity
-	611. chromaticity coefficient
-	612. chromaticity diagram
-	613. chromatic number
-	614. Chrome
-	615. Chrome OS
-	616. chunk
-	617. Church's thesis
-	618. Church-Rosser
-	619. Church-Rosser theorem
-	620. Church-Turing thesis
-	621. CICS
-	622. CIE
-	623. CIE colour model
-	624. CIELAB
-	625. CIM
-	626. Cineon format
-	627. cipher
-	628. ciphertext
-	629. CIR
-	630. circuit
-	631. circuit board
-	632. circuit card
-	633. circuit switching
-	634. circular list
-	635. circular shift
-	636. circulating register
-	637. CIX
-	638. CKD
-	639. clamp
-	640. class
-	641. classifier systems
-	642. Classless Inter-Domain Routing
-	643. clear
-	644. Clear
-	645. CLI
-	646. click
-	647. click-through rate
-	648. click and drag
-	649. click rate
-	650. clicks and mortar
-	651. click speed
-	652. clickstream
-	653. client
-	654. client-side
-	655. client/server
-	656. clip art
-	657. clipboard
-	658. clipping
-	659. CLNS
-	660. clock
-	661. clock cycle
-	662. clocked flip-flop
-	663. clocking
-	664. clock rate
-	665. clock signal
-	666. clock skew
-	667. clone
-	668. CLOS
-	669. close
-	670. closed
-	671. closed-world assumption
-	672. closed loop
-	673. closed semiring
-	674. closed shop
-	675. closed subroutine
-	676. closed term
-	677. closure
-	678. closure properties
-	679. cloud computing
-	680. CLP
-	681. cluster
-	682. cluster analysis
-	683. clustering
-	684. CLV
-	685. CM
-	686. CMI
-	687. CMM
-	688. CMMI
-	689. CMOS
-	690. CMS
-	691. CMY colour model
-	692. CMYK colour model
-	693. CNC
-	694. CNF
-	695. CNF satisfiability
-	696. Coad-Yourdon method
-	697. coax
-	698. coaxial cable
-	699. Cobol
-	700. cocktail shaker sort
-	701. CoCom
-	702. COCOMO
-	703. CODASYL
-	704. CODASYL network model
-	705. Codd, Ted (1923-2003)
-	706. code
-	707. codec
-	708. coded character set
-	709. code injection
-	710. code inspection
-	711. code length
-	712. code mobility
-	713. code of conduct
-	714. code point
-	715. coder-decoder
-	716. codeword
-	717. coding
-	718. coding bounds
-	719. coding standards
-	720. coding theorems
-	721. coding theory
-	722. codomain
-	723. cognitive modelling
-	724. cognitive science
-	725. cohesion
-	726. cold boot
-	727. collaborative software
-	728. collating sequence
-	729. collision detection
-	730. collision domain
-	731. collocation methods
-	732. Colossus
-	733. colour display
-	734. coloured book
-	735. colour gamut
-	736. colourimetry
-	737. colouring of graphs
-	738. colour model
-	739. colour printer
-	740. colour space
-	741. column-major order
-	742. column-ragged
-	743. column vector
-	744. COM
-	745. combinatorial circuit
-	746. command
-	747. commutative group
-	748. commutative law
-	749. commutative ring
-	750. commutative semiring
-	751. complexity classes
-	752. complementary logic
-	753. compiler validation
-	754. complete term rewriting system
-	755. complexity measure
-	756. command file
-	757. command language
-	758. common instance
-	759. common user access
-	760. comms
-	761. communicating sequential processes
-	762. communication channel
-	763. communication network
-	764. communication server
-	765. complex number
-	766. complex operation
-	767. com port
-	768. composition
-	769. composition table
-	770. compound document
-	771. compression
-	772. compression factor
-	773. CompuServe
-	774. computability
-	775. computable
-	776. computable algebra
-	777. computable function
-	778. computable real number
-	779. computable set
-	780. computation, model of
-	781. computational creativity
-	782. computational environment
-	783. computational geometry
-	784. computational psychology
-	785. computer
-	786. computer-aided design
-	787. computer-aided engineering
-	788. computer-aided instruction
-	789. computer-aided manufacturing
-	790. computer-aided process planning
-	791. computer-aided production management
-	792. computer-aided testing
-	793. computer-assisted learning
-	794. computer-assisted software engineering
-	795. computer-based learning
-	796. computer-based training
-	797. computer-integrated manufacturing
-	798. computer-managed instruction
-	799. computer-supported cooperative working
-	800. computer animation
-	801. computer architecture
-	802. computer chess
-	803. computer emergency response team
-	804. computer family
-	805. computer fraud
-	806. computer games
-	807. Computer Graphics
-	808. computer graphics
-	809. computer hardware description language
-	810. computer logic
-	811. Computer Misuse Act 1990
-	812. computer numerical control
-	813. computer object model
-	814. computer power
-	815. computer science
-	816. Computer Services Association
-	817. computer word
-	818. compute server
-	819. con
-	820. concatenated code
-	821. concatenated coding systems
-	822. concatenation
-	823. concatenation closure
-	824. concept learning
-	825. conceptual graphs
-	826. conceptual schema
-	827. concurrency
-	828. concurrent assignment
-	829. concurrent DOS
-	830. concurrent programming
-	831. condensation
-	832. condition-code register
-	833. conditional
-	834. conditional equation
-	835. conditional jump
-	836. condition number
-	837. cone of influence
-	838. conferencing
-	839. confidence interval
-	840. confidentiality
-	841. configuration
-	842. configuration management
-	843. configured-in, -off, -out
-	844. confluent
-	845. conformance testing
-	846. conform to
-	847. congruence relation
-	848. conjunction
-	849. conjunctive normal form
-	850. CONLAN
-	851. connected graph
-	852. connectedness
-	853. connection-oriented network service
-	854. connectionism
-	855. connectionless-mode network service
-	856. Connection Machine
-	857. connective
-	858. connectivity
-	859. connectivity matrix
-	860. CONS
-	861. consensus
-	862. consistency
-	863. console
-	864. constant
-	865. constant bit rate
-	866. constant delay((in a network))
-	867. constraint
-	868. constraint-based solid modelling
-	869. constraint logic programming
-	870. constraint network
-	871. constraint satisfaction
-	872. construct
-	873. constructive function
-	874. constructive solid geometry
-	875. constructive specification
-	876. consumable resource
-	877. contact bounce
-	878. contact forces
-	879. content-addressable memory
-	880. content-addressable parallel processor
-	881. contention
-	882. context-free grammar
-	883. context-sensitive grammar
-	884. context awareness
-	885. continuation
-	886. contrapositive((of a conditional, P → Q))
-	887. continuous inkjet printer
-	888. continuous signal, system
-	889. continuous simulation
-	890. continuous stationery
-	891. Control Data Corporation
-	892. control key
-	893. CPU
-	894. cropping
-	895. criticality analysis
-	896. cross-coupling
-	897. cross-site scripting
-	898. cross-validation
-	899. cross assembler
-	900. crossbar switch
-	901. cross compiler
-	902. crosstalk
-	903. crowbar circuit
-	904. CRT
-	905. cryogenic memory
-	906. cryptanalysis
-	907. cryptogram
-	908. CSCW
-	909. CSG
-	910. CSIRT
-	911. CSMA/CD
-	912. CSS
-	913. CTron
-	914. CU
-	915. CUA
-	916. cube
-	917. cubic spline
-	918. cull
-	919. cycle stealing
-	920. cycle
-	921. cut set
-	922. cycle time
-	923. cypher
-	924. D-type flip-flop
-	925. d.c. signalling
-	926. D/A converter
-	927. DAC
-	928. daemon
-	929. DAI
-	930. daisychain
-	931. daisywheel printer
-	932. dangling else
-	933. dangling reference
-	934. DANTE
-	935. dark fibre
-	936. DARPA
-	937. DASD
-	938. DAT
-	939. data
-	940. data-driven design
-	941. data-driven processing
-	942. data abstraction
-	943. data acquisition
-	944. databank
-	945. database
-	946. database administration
-	947. database administrator
-	948. database integrity
-	949. database language
-	950. database management system
-	951. database programming language
-	952. database recovery
-	953. database system
-	954. data break
-	955. data bus
-	956. data capture
-	957. data cartridge
-	958. data chaining
-	959. data channel
-	960. data cleaning
-	961. data collection
-	962. datacomms
-	963. data communication equipment
-	964. data communications
-	965. data compaction
-	966. data compression
-	967. data contamination
-	968. data controller
-	969. data dependency
-	970. data description
-	971. data dictionary
-	972. data directory
-	973. Data Encryption Algorithm
-	974. Data Encryption Standard
-	975. data entry
-	976. data field
-	977. data file
-	978. dataflow
-	979. dataflow diagram
-	980. dataflow machine
-	981. data fusion
-	982. dataglove
-	983. datagram
-	984. data hierarchy
-	985. data independence
-	986. data integrity
-	987. data item
-	988. data link
-	989. data link control protocol
-	990. data link layer
-	991. data logging
-	992. data management
-	993. data management system
-	994. data manipulation
-	995. data mark
-	996. data matrix
-	997. data medium
-	998. data mining
-	999. data model
-	1000. data name
-	1001. data network
-	1002. data path
-	1003. data preparation
-	1004. data processing
-	1005. data processor
-	1006. Data Protection Acts
-	1007. data protection legislation
-	1008. data rate
-	1009. data recipient
-	1010. data reduction
-	1011. data retrieval
-	1012. data security system
-	1013. data selector/multiplexer
-	1014. data set
-	1015. data sheet
-	1016. data store
-	1017. data stream
-	1018. data structure
-	1019. data subject
-	1020. data sublanguage
-	1021. data summarization
-	1022. data tablet
-	1023. data terminal equipment
-	1024. data transfer rate
-	1025. data transfer time
-	1026. data translation
-	1027. data transmission
-	1028. data transparency
-	1029. data type
-	1030. data validation
-	1031. data vetting
-	1032. data warehouse
-	1033. data word
-	1034. DB2
-	1035. DBA
-	1036. DBMS
-	1037. DC
-	1038. DCE
-	1039. DCT
-	1040. DCVS
-	1041. DDC
-	1042. DDCMP
-	1043. DDE
-	1044. DDL
-	1045. DDoS
-	1046. DDP
-	1047. DDS
-	1048. DEA
-	1049. deadlock
-	1050. deadly embrace
-	1051. debit/credit benchmark
-	1052. debouncing
-	1053. de Bruijn diagram
-	1054. debugging
-	1055. debug tool
-	1056. DEC
-	1057. decade counter
-	1058. decal
-	1059. de Casteljau algorithm
-	1060. decidable problem
-	1061. decidable set
-	1062. decision gate
-	1063. decision problem
-	1064. decision procedure
-	1065. decision support system
-	1066. decision surface
-	1067. decision table
-	1068. decision tree
-	1069. declaration
-	1070. declarative languages
-	1071. DECnet
-	1072. decoder
-	1073. decoder/demultiplexer
-	1074. decoder/driver
-	1075. decoder error
-	1076. decoding
-	1077. decollator
-	1078. decompiler
-	1079. decomposition
-	1080. decompression
-	1081. deconvolution
-	1082. decryption
-	1083. dedicated
-	1084. dedicated mode
-	1085. deduction
-	1086. deductive apparatus
-	1087. Deep Blue
-	1088. deep case
-	1089. deep structure
-	1090. Deep Thought
-	1091. default
-	1092. default rules
-	1093. defect skipping
-	1094. deferral
-	1095. deferred addressing
-	1096. deferred approach to the limit
-	1097. definition
-	1098. deflation
-	1099. defrag
-	1100. defragmentation
-	1101. degree
-	1102. degree of precision
-	1103. degrees of freedom
-	1104. Dekker's algorithm
-	1105. Delaunay triangulation
-	1106. delay-power product
-	1107. delay differential equations
-	1108. delayed branch
-	1109. delay line
-	1110. delete
-	1111. delimiter
-	1112. Dell
-	1113. delta PCM
-	1114. demand paging
-	1115. demand reading, writing
-	1116. Demilitarized Zone
-	1117. demodulator
-	1118. demon
-	1119. de Morgan's laws
-	1120. demultiplexer
-	1121. dendrogram
-	1122. denial
-	1123. denial of service
-	1124. denotational semantics
-	1125. density
-	1126. denumerable set
-	1127. deposit
-	1128. depth
-	1129. depth-balanced
-	1130. depth-first search
-	1131. depth buffer
-	1132. depth cueing
-	1133. deque
-	1134. derivation sequence
-	1135. derivation tree
-	1136. derivative
-	1137. DES
-	1138. descendant((of a node, A, in a tree))
-	1139. descriptor
-	1140. design database
-	1141. design pattern
-	1142. design review
-	1143. desktop
-	1144. desktop publishing
-	1145. destructive read
-	1146. determinant
-	1147. deterministic
-	1148. deterministic language
-	1149. deterministic Turing machine
-	1150. DEUCE
-	1151. developer
-	1152. development life cycle
-	1153. device
-	1154. device coordinates
-	1155. device driver
-	1156. DFD
-	1157. D flip-flop
-	1158. DFT
-	1159. DHTML
-	1160. diagonalization
-	1161. dialogue box
-	1162. dialogue management
-	1163. dictionary
-	1164. diff
-	1165. Difference Engine
-	1166. difference equations
-	1167. differential backup
-	1168. differential dump
-	1169. differential equations
-	1170. differential PCM
-	1171. diffuse reflection
-	1172. diffusion address
-	1173. digital
-	1174. digital-to-analogue converter
-	1175. digital certificate
-	1176. digital circuit
-	1177. digital computer
-	1178. digital copier
-	1179. digital data storage
-	1180. digital data transmission
-	1181. digital design
-	1182. digital design language
-	1183. Digital Equipment Corporation
-	1184. digital filtering
-	1185. digital halftone
-	1186. digital image
-	1187. digital logic
-	1188. digital signal
-	1189. digital signal processing
-	1190. digital signature
-	1191. digital sorting
-	1192. digital system
-	1193. digital versatile disk
-	1194. digital video
-	1195. digital video disk
-	1196. digital video interactive
-	1197. digital video interface
-	1198. digitization
-	1199. digitizer
-	1200. digraph
-	1201. Dijkstra's algorithm
-	1202. Dijkstra, Edsger (1930-2002)
-	1203. DIL
-	1204. DIL switch
-	1205. dimension
-	1206. diminished radix complement
-	1207. diminishing increment sort
-	1208. DIMM
-	1209. DIN connector
-	1210. diode
-	1211. diode-transistor logic
-	1212. DIP
-	1213. direct-access storage device
-	1214. direct-coupled machines
-	1215. direct addressing
-	1216. direct data entry
-	1217. direct digital control
-	1218. directed graph
-	1219. directed set
-	1220. directed tree
-	1221. direction keys
-	1222. directive
-	1223. direct memory access
-	1224. directory
-	1225. directory services
-	1226. directory tree
-	1227. direct product
-	1228. Dirichlet region
-	1229. disable
-	1230. disarm
-	1231. disc
-	1232. disconnected graph
-	1233. discourse understanding
-	1234. discrete and continuous systems
-	1235. discrete channel
-	1236. discrete component
-	1237. discrete cosine transform
-	1238. discrete event simulation
-	1239. discrete Fourier transform
-	1240. discrete mathematics
-	1241. discrete process control
-	1242. discrete signal
-	1243. discrete source
-	1244. discrete structure
-	1245. discrete system
-	1246. discretionary access control
-	1247. discretization
-	1248. discretization error
-	1249. discriminant analysis
-	1250. disjoint
-	1251. disjunction
-	1252. disjunctive normal form
-	1253. disk
-	1254. disk-to-plate
-	1255. disk array
-	1256. diskette
-	1257. disk format
-	1258. disk pack
-	1259. disk stack
-	1260. disk striping
-	1261. dispatcher
-	1262. dispersion
-	1263. displacement mapping
-	1264. display
-	1265. Display Port
-	1266. display processor
-	1267. Distiller
-	1268. distributed array processor
-	1269. distributed artificial intelligence
-	1270. distributed computing environment
-	1271. Distributed Concurrent Versions System
-	1272. distributed database
-	1273. distributed queue dual bus
-	1274. distributed system
-	1275. distribution
-	1276. distribution counting sort
-	1277. distributive lattice
-	1278. dithered colour
-	1279. dithering
-	1280. dither noise
-	1281. diverse programming
-	1282. divide and conquer sorting
-	1283. divided difference
-	1284. divider
-	1285. DLL
-	1286. DMA
-	1287. DME
-	1288. DML
-	1289. DMZ
-	1290. DNS
-	1291. do-nothing instruction
-	1292. do-while loop
-	1293. Document Object Model
-	1294. document processing
-	1295. document type definition
-	1296. do loop
-	1297. DOL system
-	1298. DOM
-	1299. domain
-	1300. domain knowledge
-	1301. domain modelling
-	1302. domain name server
-	1303. domain name system
-	1304. domain theory
-	1305. dominator
-	1306. don't care
-	1307. dongle
-	1308. dope vector
-	1309. DOS
-	1310. DOS box
-	1311. dot com
-	1312. dot diffusion
-	1313. double-density recording
-	1314. double-length arithmetic
-	1315. double buffering
-	1316. double click
-	1317. double complement
-	1318. double negation
-	1319. doubly linked list
-	1320. downline
-	1321. download
-	1322. down operation
-	1323. downsizing
-	1324. downtime
-	1325. DP
-	1326. DPCM
-	1327. dpi
-	1328. DQDB
-	1329. drag
-	1330. DRAM
-	1331. draughts-playing programs
-	1332. DRAW
-	1333. DRCS
-	1334. DRDW
-	1335. drive
-	1336. driver
-	1337. drop-down menu
-	1338. drop-on-demand inkjet printer
-	1339. drop-out
-	1340. drum plotter
-	1341. drum printer
-	1342. DSL
-	1343. DSM
-	1344. DSP
-	1345. DSPACE
-	1346. DSS
-	1347. DTD
-	1348. DTE
-	1349. DTIME
-	1350. DTL
-	1351. DTP
-	1352. dual
-	1353. dual attach
-	1354. dual core
-	1355. dual in-line package
-	1356. duality
-	1357. dual port memory
-	1358. dual processor
-	1359. dummy instruction
-	1360. dump
-	1361. dump point
-	1362. DVD
-	1363. DVI
-	1364. dynamic HTML
-	1365. dynamic link library
-	1366. dynamic logic
-	1367. dynamic memory
-	1368. dynamic programming
-	1369. dynamic testing
-	1370. dynamic web page
-	1371. e-book
-	1372. e-business
-	1373. e-commerce
-	1374. e-learning
-	1375. e-ticket
-	1376. EAN
-	1377. EAPROM
-	1378. EAROM
-	1379. Easter egg
-	1380. EBCDIC
-	1381. EBNF
-	1382. ECB
-	1383. ECBS
-	1384. echo
-	1385. echo check
-	1386. echoing
-	1387. echo suppression
-	1388. ECL
-	1389. ECMA International
-	1390. ECMAScript
-	1391. edge
-	1392. edge-triggered flip-flop
-	1393. edge board
-	1394. edge card
-	1395. edge connector
-	1396. edge detector
-	1397. EDI
-	1398. EDIFACT
-	1399. edit
-	1400. editor
-	1401. Edmonds' algorithm
-	1402. EDP
-	1403. EDS
-	1404. EDSAC
-	1405. EDVAC
-	1406. EEPROM
-	1407. EEROM
-	1408. effective address
-	1409. effective computability
-	1410. effective enumeration
-	1411. effective procedure
-	1412. EFT
-	1413. EFTPOS
-	1414. EFTS
-	1415. egoless programming
-	1416. EIA
-	1417. EIDE
-	1418. Eiffel
-	1419. eigenfunctions
-	1420. eigenvalue problems
-	1421. eigenvectors
-	1422. EIR
-	1423. EISA
-	1424. elapsed time
-	1425. electrographic printer
-	1426. electroluminescent display
-	1427. electromagnetic beam deflection
-	1428. electromagnetic compatibility
-	1429. electronic
-	1430. electronic blackboard
-	1431. electronic data interchange
-	1432. electronic data processing
-	1433. electronic filing
-	1434. electronic funds transfer system
-	1435. electronic graffiti
-	1436. electronic learning
-	1437. electronic mail
-	1438. electronic organizer
-	1439. electronic point-of-sale system
-	1440. electronic publishing
-	1441. electronic signature
-	1442. electrophotographic printer
-	1443. electrosensitive printer
-	1444. electrostatic beam deflection
-	1445. electrostatic printer
-	1446. electrostatic storage device
-	1447. electrothermal printer
-	1448. element
-	1449. Ellison, Larry (1944-)
-	1450. ELSE rule
-	1451. EMACS
-	1452. email
-	1453. EMAS
-	1454. embedded computer
-	1455. embedded servo
-	1456. embedding
-	1457. EMC
-	1458. EMI
-	1459. emittance texture
-	1460. emitter-coupled logic
-	1461. emoticon
-	1462. empty list
-	1463. empty medium
-	1464. EMS memory
-	1465. emulation
-	1466. encapsulation
-	1467. encoder
-	1468. encoding
-	1469. encryption
-	1470. end-around-carry
-	1471. end-around shift
-	1472. end-to-end control
-	1473. end-to-end encryption
-	1474. endomorphism
-	1475. endorder traversal
-	1476. energizer
-	1477. engine
-	1478. engineering of computer-based systems
-	1479. enhanced small-device interface
-	1480. ENIAC
-	1481. enterprise modelling
-	1482. enterprise resource planning
-	1483. enterprise server
-	1484. entity
-	1485. entity-relationship-attribute diagram, model
-	1486. entropy
-	1487. entry point
-	1488. entry time
-	1489. enumeration
-	1490. enumeration type
-	1491. environment
-	1492. environment mapping
-	1493. EOB
-	1494. EOD
-	1495. EOF
-	1496. EOJ
-	1497. EOR
-	1498. EOT
-	1499. EOT marker
-	1500. epimorphism
-	1501. epistemology
-	1502. EPLD
-	1503. epoch
-	1504. EPOS
-	1505. EPPT
-	1506. EPROM
-	1507. EPSF
-	1508. EPSI
-	1509. equation
-	1510. equational logic
-	1511. equational specification
-	1512. equational term rewriting system
-	1513. equipotent
-	1514. equivalence
-	1515. equivalence class
-	1516. equivalence gate
-	1517. equivalence relation
-	1518. equivalent binary digits
-	1519. equivalent trees
-	1520. ERA diagram
-	1521. ERA model
-	1522. erasable programmable logic device
-	1523. erasable PROM
-	1524. erase head
-	1525. eraser
-	1526. erasure channel
-	1527. ergodic source
-	1528. ergonomics
-	1529. Erlang
-	1530. ERP
-	1531. error
-	1532. error-correcting code
-	1533. error-detecting code
-	1534. error-indicating recording
-	1535. error bound
-	1536. error burst
-	1537. error control
-	1538. error correction
-	1539. error detection
-	1540. error diagnostics
-	1541. error estimate
-	1542. error handling
-	1543. error management
-	1544. error message
-	1545. error propagation
-	1546. error rate
-	1547. error recovery
-	1548. error routine
-	1549. error seeding
-	1550. escape character
-	1551. escape sequence
-	1552. escrow
-	1553. ESD
-	1554. ESDI
-	1555. ESF coating
-	1556. ESPRIT[^1]
-	1557. ESSI
-	1558. ETB
-	1559. Ether
-	1560. Ethernet
-	1561. Ethernet card
-	1562. ETX/ACK
-	1563. Euclid's algorithm
-	1564. Euclidean norm
-	1565. Eudora
-	1566. EUI-48
-	1567. EUI-64
-	1568. Euler's formula
-	1569. Euler's method
-	1570. Euler cycle
-	1571. Euler operators
-	1572. EUREKA
-	1573. European Article Numbering code
-	1574. evaluation function
-	1575. even parity
-	1576. event-driven
-	1577. event input
-	1578. event tree analysis
-	1579. evolutionary programming
-	1580. exa-
-	1581. exbi-
-	1582. Excel
-	1583. exception
-	1584. exception handling
-	1585. excess-3 code
-	1586. excess-n notation
-	1587. excess factor
-	1588. exchangeable disk store
-	1589. exchange selection
-	1590. exclusive-NOR gate
-	1591. exclusive-OR gate
-	1592. exclusive-OR operation
-	1593. executables
-	1594. execute
-	1595. execute phase
-	1596. execute step
-	1597. execution states
-	1598. execution time
-	1599. executive program
-	1600. executive state
-	1601. exerciser
-	1602. exhaustive search
-	1603. existential quantifier
-	1604. exit point
-	1605. EXNOR gate
-	1606. EXOR gate
-	1607. expanded memory
-	1608. expansion((of an algebra))
-	1609. expansion card
-	1610. expansion slot
-	1611. expectation
-	1612. experimental design
-	1613. expert systems
-	1614. explicit address
-	1615. exploratory data analysis
-	1616. exponent
-	1617. exponentially bounded algorithm
-	1618. exponential waveform
-	1619. exponentiation
-	1620. export list
-	1621. exposed terminal problem
-	1622. ExpressCard
-	1623. expression
-	1624. expression of requirements
-	1625. extended addressing
-	1626. extended ASCII
-	1627. extended BNF
-	1628. extended memory
-	1629. extended precision
-	1630. extensibility
-	1631. extensible addressing
-	1632. extensible language
-	1633. extensible stylesheet language
-	1634. extension
-	1635. extension field
-	1636. Exterior Gateway Protocol
-	1637. external device
-	1638. external fragmentation
-	1639. external interrupt
-	1640. external node
-	1641. external path length((of a tree))
-	1642. external schema((of a database))
-	1643. external sorting
-	1644. external storage
-	1645. extranet
-	1646. extrapolation
-	1647. extrapolation method
-	1648. extrinsic semiconductor
-	1649. Facebook
-	1650. facet
-	1651. facial animation
-	1652. facilities management
-	1653. facsimile
-	1654. factorable code
-	1655. factor analysis
-	1656. factorial designs
-	1657. Fagan inspection
-	1658. fairness
-	1659. fair surface design
-	1660. fallback
-	1661. false position method
-	1662. fan-in
-	1663. fan-out
-	1664. Fano coding
-	1665. FAT
-	1666. father file
-	1667. fault
-	1668. fax
-	1669. fax card
-	1670. FCC
-	1671. FDDI
-	1672. F distribution
-	1673. FDM
-	1674. feed
-	1675. feed-forward register
-	1676. feedback
-	1677. feedback queue
-	1678. feedback register
-	1679. Feistel cipher
-	1680. Ferranti Mark I
-	1681. ferroelectric display
-	1682. FET
-	1683. fetch-execute cycle
-	1684. fetch protect
-	1685. FF
-	1686. Fibonacci search
-	1687. Fibre Channel
-	1688. fibre distributed data interface
-	1689. fibre optics
-	1690. fiche
-	1691. field
-	1692. field-effect transistor
-	1693. field-programmable devices
-	1694. field bus
-	1695. FIFO
-	1696. fifth generation
-	1697. file
-	1698. file activity
-	1699. file allocation table
-	1700. file descriptor
-	1701. file directory
-	1702. file editing
-	1703. file extension
-	1704. file format
-	1705. file integrity
-	1706. file locking
-	1707. file maintenance
-	1708. file management
-	1709. file management system
-	1710. file manager
-	1711. file mark
-	1712. file name
-	1713. file organization
-	1714. file recovery
-	1715. file server
-	1716. file system
-	1717. file transfer
-	1718. file transfer protocol
-	1719. fill area primitive
-	1720. fill character
-	1721. filling
-	1722. film scanner
-	1723. filter
-	1724. filtering
-	1725. filtering bridge
-	1726. find
-	1727. find and change
-	1728. finite-difference method
-	1729. finite-element analysis
-	1730. finite-element method
-	1731. finite-length arithmetic
-	1732. finite-model theory
-	1733. finite-state automaton
-	1734. finite automaton
-	1735. finite field
-	1736. finite sequence
-	1737. finite set
-	1738. FIPS
-	1739. Fire codes
-	1740. Firefox
-	1741. firewall
-	1742. FireWire
-	1743. firing rule
-	1744. firmware
-	1745. FIRST
-	1746. first-class type
-	1747. first-order logic
-	1748. first-order term
-	1749. first fit
-	1750. first generation
-	1751. first in first out
-	1752. first normal form
-	1753. fixed-base system
-	1754. fixed-length arithmetic
-	1755. fixed-length code
-	1756. fixed-point notation
-	1757. fixed-point theorem
-	1758. fixed-radix system
-	1759. fixed disk drive
-	1760. fixed head((of a disk drive))
-	1761. fixed point
-	1762. fixed space
-	1763. fixed word length computer
-	1764. flag
-	1765. flame
-	1766. flash memory
-	1767. flat-panel display
-	1768. flat addressing
-	1769. flatbed plotter
-	1770. flatbed scanner
-	1771. flat file model
-	1772. flat pack
-	1773. flat screen
-	1774. flexible array
-	1775. flexible disk cartridge
-	1776. flexible manufacturing system
-	1777. flexible PCB
-	1778. flicker
-	1779. flip-flop
-	1780. float
-	1781. floating-point notation
-	1782. floating-point operation
-	1783. flood-fill
-	1784. floor
-	1785. flop
-	1786. floppy-disk drive
-	1787. floppy disk
-	1788. flops
-	1789. floptical disk
-	1790. flowchart
-	1791. flow control
-	1792. fluid logic
-	1793. Flynn's classification
-	1794. FM
-	1795. FMECA
-	1796. FMS
-	1797. FMV
-	1798. folding
-	1799. font
-	1800. font cartridge
-	1801. footprint
-	1802. foreground processing
-	1803. foreign key
-	1804. forest
-	1805. for loop
-	1806. form
-	1807. formal language
-	1808. formal language theory
-	1809. formal logic
-	1810. formal method
-	1811. formal parameter
-	1812. formal specification
-	1813. formal system
-	1814. formal verification
-	1815. formant
-	1816. format
-	1817. format string bug
-	1818. formatter
-	1819. form factor
-	1820. form feed
-	1821. form letter
-	1822. form overlay
-	1823. form stop
-	1824. Forth
-	1825. Fortran
-	1826. forum
-	1827. forward bias
-	1828. forward chaining
-	1829. forward error correction
-	1830. forward error recovery
-	1831. forward pruning
-	1832. Fourier analysis
-	1833. Fourier descriptors
-	1834. Fourier series
-	1835. Fourier transform
-	1836. four Russians algorithm
-	1837. fourth-generation language
-	1838. fourth generation((of computers))
-	1839. FP
-	1840. FPA
-	1841. FPGA
-	1842. FPLA
-	1843. FQDN
-	1844. fractal
-	1845. fractal image compression
-	1846. fraction
-	1847. fractional-level zooming
-	1848. fractional part
-	1849. fractional replication
-	1850. fragmentation
-	1851. frame
-	1852. frame buffer
-	1853. frame grabber
-	1854. frameless rendering
-	1855. frame relay
-	1856. frames
-	1857. framework
-	1858. Framework Programme
-	1859. Framework Programmes, I-VII
-	1860. FranzLisp
-	1861. 419 fraud
-	1862. Fredholm integral equation
-	1863. free-space list
-	1864. freedom of information
-	1865. free list
-	1866. free monoid
-	1867. free occurrence
-	1868. free semigroup
-	1869. Free Software Foundation
-	1870. free text retrieval
-	1871. free variable
-	1872. freeware
-	1873. freeze-frame
-	1874. frequency
-	1875. frequency distribution
-	1876. frequency divider
-	1877. frequency division multiplexing
-	1878. frequency domain
-	1879. frequency function
-	1880. frequency modulation
-	1881. frequency shift keying
-	1882. Fresnel factor
-	1883. friction drive
-	1884. front-end processor
-	1885. front end
-	1886. FSA
-	1887. FSF
-	1888. FSK
-	1889. FTAM
-	1890. FTFL code
-	1891. FTP
-	1892. FTVL code
-	1893. Fujitsu
-	1894. full-motion video
-	1895. full adder
-	1896. full backup
-	1897. full custom
-	1898. full duplex
-	1899. full subtractor
-	1900. full text retrieval
-	1901. full tree
-	1902. function
-	1903. functional cohesion
-	1904. functional dependency
-	1905. functional design
-	1906. functional languages
-	1907. functional partitioning
-	1908. functional specification
-	1909. functional testing
-	1910. functional unit
-	1911. function key
-	1912. function point analysis
-	1913. functor
-	1914. fuser
-	1915. fusible link
-	1916. fuzzy control
-	1917. fuzzy logic
-	1918. FYI
-	1919. G
-	1920. Galerkin's method
-	1921. gallium arsenide devices
-	1922. Galois field
-	1923. games console
-	1924. games port
-	1925. game theory
-	1926. game tree
-	1927. Gane-Sarson
-	1928. Gantt chart
-	1929. gap theorem
-	1930. garbage
-	1931. garbage collection
-	1932. garbage in garbage out
-	1933. gate
-	1934. gate array
-	1935. Gates, Bill (1955-)
-	1936. gateway
-	1937. gather write
-	1938. Gaussian distribution
-	1939. Gaussian elimination
-	1940. Gaussian noise
-	1941. Gaussian quadrature
-	1942. GB
-	1943. Gbps
-	1944. GBS method
-	1945. Gbyte
-	1946. GCD
-	1947. GCR
-	1948. GDI
-	1949. geek
-	1950. gender bender
-	1951. general-purpose computer
-	1952. general-purpose interface bus
-	1953. generalized additive models
-	1954. generalized Church-Turing thesis
-	1955. generalized linear model
-	1956. generalized sequential machine
-	1957. general recursive function
-	1958. generating polynomial
-	1959. generations
-	1960. generative grammar
-	1961. generator
-	1962. generator matrix
-	1963. generic
-	1964. generic compaction
-	1965. generics
-	1966. geodesic
-	1967. geographic information system
-	1968. Gflops
-	1969. gibi-
-	1970. giga-
-	1971. Gigabit Ethernet
-	1972. GIGO
-	1973. Gilbert-Varshamov bound
-	1974. GINO-F
-	1975. GIS
-	1976. Git
-	1977. GKS
-	1978. 4GL
-	1979. glass-box testing
-	1980. glass teletype
-	1981. glitch
-	1982. global
-	1983. global discretization error
-	1984. global illumination
-	1985. global optimization
-	1986. glossy reflection
-	1987. glyph
-	1988. GNU
-	1989. goal-directed processing
-	1990. Gödel's incompleteness theorems
-	1991. Gödel numbering((of a formal system))
-	1992. Golay codes
-	1993. golden section search
-	1994. gold master
-	1995. Good-de Bruijn diagram
-	1996. goodness-of-fit test
-	1997. Google
-	1998. gopher
-	1999. Gopher
-	2000. Goppa codes
-	2001. GOTO statement
-	2002. Gouraud shading
-	2003. GP
-	2004. GPIB
-	2005. GPU
-	2006. graceful degradation
-	2007. graded index fibre
-	2008. Gragg's extrapolation method
-	2009. grammar
-	2010. grandfather file
-	2011. granularity
-	2012. graph
-	2013. graphical device interface
-	2014. graphical kernel system
-	2015. graphical user interface
-	2016. graphic characters
-	2017. graphics
-	2018. graphics adapter
-	2019. graphics mode
-	2020. graphics primitive
-	2021. graphics processing unit
-	2022. graphics program
-	2023. graphics tablet
-	2024. graphics workstation
-	2025. graph plotter
-	2026. graph rewrite system
-	2027. gravity field
-	2028. Gray code
-	2029. greatest common divisor
-	2030. greatest lower bound
-	2031. greedy method
-	2032. greeking
-	2033. Green Book
-	2034. Greibach normal form
-	2035. grey-level array
-	2036. grey-level image
-	2037. grey importer
-	2038. greyscale
-	2039. grid
-	2040. Grosch's law
-	2041. ground term
-	2042. group
-	2043. group code
-	2044. group code recording
-	2045. group graph
-	2046. group mark
-	2047. groupware
-	2048. Grzegorczyk hierarchy
-	2049. gsm mapping
-	2050. guest
-	2051. GUI
-	2052. gulp
-	2053. H2020
-	2054. hacker
-	2055. hacking
-	2056. Hadamard codes
-	2057. Hadamard matrices
-	2058. half-adder
-	2059. half-height factor
-	2060. half duplex
-	2061. halfplane
-	2062. half subtractor
-	2063. halfsurface
-	2064. halftone
-	2065. half word
-	2066. halt
-	2067. halting problem
-	2068. Hamiltonian cycle
-	2069. Hamming bound
-	2070. Hamming codes
-	2071. Hamming distance
-	2072. Hamming metric
-	2073. Hamming radius
-	2074. Hamming space
-	2075. Hamming sphere
-	2076. Hamming weight
-	2077. hand-held computer
-	2078. handle
-	2079. handshake
-	2080. hands off
-	2081. hands on
-	2082. hang-up
-	2083. Hanoi
-	2084. haptics
-	2085. hard-sectored disk
-	2086. hard copy
-	2087. hard disk
-	2088. hard return
-	2089. hardware
-	2090. hardware character generation
-	2091. hardware circuitry
-	2092. hardware description
-	2093. hardware maintenance
-	2094. hardware reliability
-	2095. hardware security
-	2096. hardwired
-	2097. Harvard Mark I
-	2098. hash function
-	2099. hashing
-	2100. hashing algorithm
-	2101. hash P complete
-	2102. hash search
-	2103. hash table
-	2104. hash total
-	2105. hash value
-	2106. Haskell
-	2107. Hatley-Pirbhai
-	2108. Hayes-compatible
-	2109. Hayes command set
-	2110. hazard
-	2111. hazard and operability study
-	2112. HAZOP
-	2113. HCI
-	2114. HD
-	2115. HDD
-	2116. HD DVD
-	2117. HDLC
-	2118. HDTV
-	2119. head
-	2120. head-mounted display
-	2121. head-per-track drive
-	2122. head crash
-	2123. headend
-	2124. header
-	2125. heap
-	2126. heapsort
-	2127. height
-	2128. height-balanced
-	2129. helical scan
-	2130. help desk
-	2131. help system
-	2132. hemi cube
-	2133. He model
-	2134. Hermite interpolation
-	2135. hertz
-	2136. heuristic
-	2137. heuristic search
-	2138. Hewlett-Packard
-	2139. hex
-	2140. hexadecimal notation
-	2141. hex pad
-	2142. hibernate
-	2143. hidden-line/hidden-surface removal
-	2144. hierarchical addressing
-	2145. hierarchical B-splines
-	2146. hierarchical class structure
-	2147. hierarchical cluster analysis
-	2148. hierarchical communication system
-	2149. hierarchical database system
-	2150. hierarchical data model
-	2151. hierarchical encoding
-	2152. hierarchical memory structure
-	2153. hierarchical radiosity
-	2154. hierarchy
-	2155. hierarchy of functions
-	2156. High-Definition DVD
-	2157. high-level design
-	2158. high-level language
-	2159. high-level scheduler
-	2160. high-order language
-	2161. high-pass filter
-	2162. higher-order term
-	2163. highlight
-	2164. highlighting
-	2165. High Performance File System
-	2166. High Sierra standard
-	2167. highway
-	2168. hill climbing
-	2169. hi res
-	2170. histogram
-	2171. hit rate
-	2172. HLHSR
-	2173. HLS colour model
-	2174. HMD
-	2175. HMI
-	2176. Hoare logic
-	2177. HOL
-	2178. hold time
-	2179. Hollerith, Herman (1860-1929)
-	2180. Hollerith code
-	2181. holographic memory
-	2182. holographic scanner
-	2183. home key
-	2184. home page
-	2185. homogeneous coordinates
-	2186. homomorphic image((of a formal language))
-	2187. homomorphism
-	2188. HOOD
-	2189. hook into
-	2190. hop
-	2191. HOPE
-	2192. Horizon 2020
-	2193. horizon effect
-	2194. horizontal check
-	2195. horizontal microinstruction
-	2196. horizontal recording
-	2197. Horn clause
-	2198. Horner's method
-	2199. host computer
-	2200. hosting
-	2201. host language
-	2202. hot key
-	2203. hot link
-	2204. hotspot
-	2205. hot swapping
-	2206. housekeeping
-	2207. HP-PA(Trademark)
-	2208. HPF
-	2209. HPFS
-	2210. HSI
-	2211. HSV colour model
-	2212. HTML
-	2213. HTTP
-	2214. hub
-	2215. hub polling
-	2216. hue
-	2217. Huffman encoding
-	2218. human-computer interface
-	2219. hybrid computer
-	2220. hybrid integrated circuit
-	2221. hypercube
-	2222. hyperedge
-	2223. hypergraph
-	2224. hyperlink
-	2225. hypermedia
-	2226. hypertext
-	2227. hypertext mark-up language
-	2228. hypertext transfer protocol
-	2229. hypervisor
-	2230. I/O
-	2231. I/O channel
-	2232. I/O port
-	2233. I2C
-	2234. IA5
-	2235. IAB
-	2236. IANA
-	2237. IAP
-	2238. IAS
-	2239. IAS computer
-	2240. IBG
-	2241. IBM
-	2242. IBM-compatible
-	2243. IBM system 360
-	2244. IC
-	2245. ICANN
-	2246. ICC
-	2247. ICL
-	2248. icon
-	2249. ICON
-	2250. ICR
-	2251. ICT
-	2252. IDE
-	2253. IDEF
-	2254. idempotent law
-	2255. identification
-	2256. identifier
-	2257. identity burst
-	2258. identity element
-	2259. identity function
-	2260. identity matrix
-	2261. idle time
-	2262. IDMS
-	2263. IDP
-	2264. IEC
-	2265. IEEE
-	2266. IEEE1394
-	2267. IESG
-	2268. IETF
-	2269. if and only if statement
-	2270. IFE
-	2271. iff
-	2272. IFIP
-	2273. IFS
-	2274. if then else statement
-	2275. IGBT
-	2276. IGES
-	2277. ignore character
-	2278. IH
-	2279. iLink
-	2280. ill-conditioned
-	2281. illegal character
-	2282. illegal instruction
-	2283. ILLIAC IV
-	2284. illumination
-	2285. IMA
-	2286. iMac
-	2287. image
-	2288. image capture
-	2289. image compression
-	2290. image display
-	2291. image file format
-	2292. image grabber
-	2293. image management system
-	2294. image map
-	2295. image processing
-	2296. image tearing
-	2297. image understanding
-	2298. image warping
-	2299. IMAP
-	2300. immediate access store
-	2301. immediate addressing
-	2302. immunization
-	2303. impact printer
-	2304. imperative languages
-	2305. implementation
-	2306. implicant
-	2307. implicit surface
-	2308. implied addressing
-	2309. import list
-	2310. imprecision
-	2311. impulse noise
-	2312. IMS
-	2313. in-line function
-	2314. inactive
-	2315. incidence matrix
-	2316. inclusive-OR gate
-	2317. inclusive-OR operation
-	2318. incomplete knowledge-based system
-	2319. incompleteness theorems
-	2320. inconsistent
-	2321. increment
-	2322. incremental backup
-	2323. incremental compaction
-	2324. incremental compiler
-	2325. incremental dump
-	2326. incremental learning
-	2327. indegree
-	2328. indeterminate system
-	2329. index
-	2330. indexed addressing
-	2331. indexed file
-	2332. indexed sequential file
-	2333. index register
-	2334. indicator
-	2335. indirect addressing
-	2336. individual attributes
-	2337. induction
-	2338. industrial robotics
-	2339. Industry Standard Architecture
-	2340. inequality
-	2341. inference
-	2342. inference engine
-	2343. infinite resolution
-	2344. infix notation
-	2345. influence
-	2346. informatics
-	2347. information
-	2348. information and communications technology
-	2349. information destination
-	2350. information engineering
-	2351. information hiding
-	2352. information leak
-	2353. information management system
-	2354. information processing
-	2355. information retrieval
-	2356. information science
-	2357. information sciences
-	2358. information source
-	2359. information storage and retrieval
-	2360. information structure
-	2361. information superhighway
-	2362. information system
-	2363. information systems
-	2364. information technology
-	2365. information theory
-	2366. INFORMIX
-	2367. infrared interface
-	2368. infrastructure-based architecture
-	2369. INGRES
-	2370. inherent addressing
-	2371. inherently ambiguous language
-	2372. inheritance
-	2373. inhibit
-	2374. initial-value problem
-	2375. initial algebra
-	2376. initialization
-	2377. injection
-	2378. inkjet printer
-	2379. inner code
-	2380. inoculation
-	2381. inorder traversal
-	2382. input
-	2383. input-limited process
-	2384. input/output
-	2385. input area
-	2386. input device
-	2387. insert
-	2388. install
-	2389. instance
-	2390. instantaneously decodable
-	2391. instantiation
-	2392. instruction
-	2393. instruction counter
-	2394. instruction cycle
-	2395. instruction format
-	2396. instruction register
-	2397. instruction repertoire
-	2398. integer programming
-	2399. integral domain
-	2400. integrated data processing
-	2401. integrated device electronics
-	2402. integrated services digital network
-	2403. integrated systems factory
-	2404. integration testing
-	2405. interactive development environment
-	2406. interblock gap
-	2407. interior node
-	2408. internal schema (of a database)
-	2409. internal sorting
-	2410. Internet access provider
-	2411. Internet Architecture Board
-	2412. Internet café
-	2413. Internet Engineering Steering Group
-	2414. Internet Engineering Task Force
-	2415. Internet Message Access Protocol
-	2416. Internet Protocol Security
-	2417. Internet service provider
-	2418. interrupt service routine
-	2419. interrupt vector
-	2420. intrinsic semiconductor
-	2421. inverse homomorphic image
-	2422. inverse video
-	2423. invertible matrix
-	2424. IOP
-	2425. IP address
-	2426. IPC
-	2427. IPv4
-	2428. IPv6
-	2429. IRQ
-	2430. irrecoverable error
-	2431. irreducible polynomial
-	2432. IS
-	2433. ISA
-	2434. ISF
-	2435. ISOC
-	2436. ISR
-	2437. IT
-	2438. Itanium
-	2439. ITron
-	2440. ITU-T
-	2441. Jackson method
-	2442. Java Development Kit
-	2443. JCL
-	2444. join operator
-	2445. JSP
-	2446. JTMP
-	2447. jukebox
-	2448. jump instruction
-	2449. Just-in-time compiler
-	2450. JVM
-	2451. K
-	2452. K-complexity
-	2453. k-connectivity
-	2454. KADS
-	2455. Karmarkar's method
-	2456. kB
-	2457. Kbps
-	2458. KBS
-	2459. Kbyte
-	2460. KDC
-	2461. KDD
-	2462. kernel field
-	2463. keyboard encoder
-	2464. keypunch
-	2465. keyring drive
-	2466. KMP algorithm
-	2467. LSD
-	2468. leaf
-	2469. Kleene-plus
-	2470. Kleene closure
-	2471. k lookahead
-	2472. knowledge discovery in databases
-	2473. knowledge elicitation
-	2474. L-system
-	2475. LAN
-	2476. language
-	2477. language concatenation
-	2478. large-scale integration
-	2479. last in first out
-	2480. layer
-	2481. LBA
-	2482. LCC
-	2483. LCM
-	2484. LDU decomposition
-	2485. leading edge((of a pulse))
-	2486. learning
-	2487. least fixed point
-	2488. least squares approximation
-	2489. least upper bound
-	2490. left-linear grammar
-	2491. left shift
-	2492. left subtree
-	2493. length-increasing grammar
-	2494. letter((in formal language theory))
-	2495. letter-equivalent languages
-	2496. letter distribution
-	2497. leverage point
-	2498. LF
-	2499. library
-	2500. life cycle
-	2501. light-emitting diode
-	2502. light intensity
-	2503. Lightweight Directory Access Protocol
-	2504. Lindenmeyer system
-	2505. linear array
-	2506. linear list
-	2507. linearly dependent
-	2508. linear predictor
-	2509. linear regression model
-	2510. link layer
-	2511. link access procedure
-	2512. linkage
-	2513. liquid-crystal display
-	2514. listing
-	2515. list insertion sort
-	2516. list structure
-	2517. local-echo mode
-	2518. local discretization error
-	2519. local optimization
-	2520. logarithmic search algorithm
-	2521. logical cohesion
-	2522. logical connective
-	2523. logical expression
-	2524. logical operator
-	2525. logical record
-	2526. logical shift
-	2527. logic cell array
-	2528. logic design
-	2529. logic device
-	2530. logic function
-	2531. logic languages
-	2532. logic operator
-	2533. logit
-	2534. logout
-	2535. longitudinal redundancy check
-	2536. lookahead
-	2537. lookup table
-	2538. loop invariant
-	2539. low-level scheduler
-	2540. LRC
-	2541. LZW
-	2542. M
-	2543. M-O
-	2544. M2FM
-	2545. Mac
-	2546. MAC-48
-	2547. machine address
-	2548. machine intelligence
-	2549. machine word
-	2550. MAC layer
-	2551. macroassembler
-	2552. macrogenerator
-	2553. macroinstruction
-	2554. macroprocessor
-	2555. magnetic-ink character recognition
-	2556. magnetic head
-	2557. magnetic stripe
-	2558. magnetic tape unit
-	2559. mag tape
-	2560. mail
-	2561. mailshot
-	2562. main store
-	2563. MAN
-	2564. man-machine interface
-	2565. MANET
-	2566. Mann Whitney U-test
-	2567. mantissa
-	2568. many-sorted algebra
-	2569. many-sorted predicate calculus
-	2570. many-sorted signature
-	2571. map
-	2572. mapping
-	2573. marching tetrahedra
-	2574. marginal check
-	2575. mark-space ratio
-	2576. marker
-	2577. mark reading
-	2578. mask-programmable device
-	2579. masquerade
-	2580. massively parallel
-	2581. master
-	2582. mastering
-	2583. matching
-	2584. matrix-updating methods
-	2585. matrix norm
-	2586. maximum-length sequence
-	2587. maximum likelihood, method of
-	2588. MB
-	2589. Mbps
-	2590. Mbyte
-	2591. MCLs
-	2592. MCSs
-	2593. MDNS
-	2594. MDR
-	2595. Mealy machine
-	2596. mean
-	2597. mean deviation
-	2598. mebi-
-	2599. Media Access Control address
-	2600. median
-	2601. medium
-	2602. meet operator
-	2603. memory stick
-	2604. merge exchange sort
-	2605. merge sort
-	2606. MFM
-	2607. microfiche
-	2608. MIMD processor
-	2609. mini DIN connector
-	2610. minimization operator
-	2611. minimum-cost spanning tree
-	2612. mirroring
-	2613. mirror set
-	2614. MIS
-	2615. MISD processor
-	2616. mixed-base system
-	2617. mixed-radix system
-	2618. MMI
-	2619. MOB
-	2620. mod-ncounter
-	2621. modal dialogue
-	2622. modeless dialogue
-	2623. modular counter
-	2624. module coding review
-	2625. module design review
-	2626. module invariant
-	2627. module testing
-	2628. modulo-n check
-	2629. monalphabetic
-	2630. monic polynomial
-	2631. Moore machine
-	2632. morphism
-	2633. MOS integrated circuit
-	2634. MOS transistor
-	2635. moth-eye
-	2636. moving-average methods
-	2637. MSD
-	2638. MS Windows
-	2639. MTTR
-	2640. MTU
-	2641. mu-law encoding
-	2642. MUA
-	2643. multiaddress
-	2644. multicore cable
-	2645. multimedia mail
-	2646. multimode counter
-	2647. multipart stationery
-	2648. multiple-master font
-	2649. multiple-valued logic
-	2650. multiple chain
-	2651. multiple inheritance
-	2652. multiple instruction, multiple data
-	2653. multiple precision
-	2654. multiple regression model
-	2655. multiplexer channel
-	2656. multiprecision
-	2657. multiprocessor
-	2658. multisession compatible
-	2659. multiset
-	2660. multiunit processor
-	2661. mu operator
-	2662. n-type semiconductor
-	2663. name lookup
-	2664. nanostore
-	2665. narrowband
-	2666. NAT
-	2667. native code
-	2668. natural binary-coded decimal
-	2669. NBCD
-	2670. negative acknowledgment
-	2671. negator
-	2672. negentropy
-	2673. neighbour
-	2674. nested blocks
-	2675. nesting store
-	2676. Net
-	2677. Netnews
-	2678. network-attached storage
-	2679. network interconnection
-	2680. network layer
-	2681. network topology
-	2682. network virtual terminal
-	2683. newsgroup
-	2684. Newton-Cotes rules
-	2685. NFS
-	2686. Nigerian fraud
-	2687. nine's complement
-	2688. NLP
-	2689. Noetherian
-	2690. noise immunity
-	2691. noise margin
-	2692. noise sequence
-	2693. nonbinary logic
-	2694. nonequivalence gate
-	2695. nonequivalence operation
-	2696. nonerasable programmable device
-	2697. nonfunctional requirements
-	2698. nonhierarchical cluster analysis
-	2699. nonlinear regression model
-	2700. nonlocal entity
-	2701. nonprocedural language
-	2702. nonreturn to zero
-	2703. nonterminal
-	2704. norm
-	2705. normalized coordinates
-	2706. normal subgroup
-	2707. not-equivalence gate
-	2708. notch filter
-	2709. notebook
-	2710. NOT gate
-	2711. NP
-	2712. npn
-	2713. NS chart
-	2714. NSPACE
-	2715. NTFS
-	2716. nucleus
-	2717. nullary operation
-	2718. nullity
-	2719. null link
-	2720. null list
-	2721. null string
-	2722. number cruncher
-	2723. numerical stability
-	2724. Nyquist rate
-	2725. occam-pi
-	2726. octant
-	2727. odd-even check
-	2728. ODP
-	2729. OFB
-	2730. OLAP
-	2731. OLE
-	2732. OMG
-	2733. OMS
-	2734. NOS
-	2735. on-the-fly error recovery
-	2736. one's complement
-	2737. one-address instruction
-	2738. one-plus-one address instruction
-	2739. one-shot
-	2740. one-to-one function
-	2741. one-to-one onto function
-	2742. one-way linked list
-	2743. O notation
-	2744. onto function
-	2745. op-amp
-	2746. op code
-	2747. open-reel tape
-	2748. Open Group
-	2749. Open Software Foundation
-	2750. open term
-	2751. operational research
-	2752. operation table
-	2753. optical character recognition
-	2754. optical mark reading
-	2755. optical media
-	2756. optimum programming
-	2757. optional product
-	2758. optoisolator
-	2759. OR
-	2760. order code
-	2761. ordered tree
-	2762. order of precedence
-	2763. order register
-	2764. organizational information system
-	2765. Organizationally Unique Identifier
-	2766. OROM
-	2767. orthogonal analysis
-	2768. orthogonal equations
-	2769. orthogonal memory
-	2770. orthonormal analysis
-	2771. orthonormal functions
-	2772. OSI
-	2773. OSI reference model
-	2774. OTLP
-	2775. OUI
-	2776. outdegree
-	2777. outer code
-	2778. outlier
-	2779. P
-	2780. p-n junction
-	2781. p-type semiconductor
-	2782. packet assembler/disassembler
-	2783. packet switching network
-	2784. page frame
-	2785. paper throw
-	2786. PAR
-	2787. paradoxical combinator
-	2788. parallel ATA
-	2789. parallel composition
-	2790. parallel rewriting system
-	2791. parallel running
-	2792. parallel shooting method
-	2793. parametric techniques
-	2794. parent file
-	2795. parenthesis-free notation
-	2796. parity-check code
-	2797. parity bit
-	2798. parser
-	2799. partial correctness, proof of
-	2800. partially ordered set
-	2801. partition-exchange sort
-	2802. pass instruction
-	2803. passive-matrix LCD
-	2804. PATA
-	2805. patchcord
-	2806. pattern inventory
-	2807. payload
-	2808. PC-compatible
-	2809. PCB
-	2810. PC card
-	2811. PC clone
-	2812. PCM
-	2813. PCMCIA card
-	2814. PDL
-	2815. PDN
-	2816. PDP series
-	2817. PE
-	2818. pebi-
-	2819. peephole optimization
-	2820. pel
-	2821. pen drive
-	2822. Pentium
-	2823. perfective maintenance
-	2824. permanent error
-	2825. permanent virtual circuit
-	2826. persistent data
-	2827. pervasive computing
-	2828. phase-change inkjet printer
-	2829. phase-encoded
-	2830. phase-locked loop
-	2831. phase modulation
-	2832. phototransistor
-	2833. physical layer
-	2834. picture processing
-	2835. PIO
-	2836. PIPO
-	2837. PISO
-	2838. pixelization
-	2839. PKZIP
-	2840. PL/1
-	2841. PL/C
-	2842. plaintext
-	2843. plasma display
-	2844. PLL
-	2845. plotter font
-	2846. plugboard
-	2847. plug compatible
-	2848. PMS
-	2849. pnp
-	2850. pocket sorting
-	2851. point-to-point control
-	2852. point-to-point protocol
-	2853. polyalphabetic
-	2854. polynomial equation
-	2855. polynomial interpolation
-	2856. polynomially bounded algorithm
-	2857. PON
-	2858. pop
-	2859. POP3
-	2860. P operation
-	2861. population
-	2862. POS
-	2863. poset
-	2864. POS expression
-	2865. positional system
-	2866. positive acknowledgment
-	2867. Postal
-	2868. postedit
-	2869. postfix notation
-	2870. post office protocol
-	2871. POTS
-	2872. power down
-	2873. power routing
-	2874. power up
-	2875. ppm
-	2876. predictive PCM
-	2877. presentation layer
-	2878. PRF
-	2879. PRI
-	2880. primary index
-	2881. prime implicant
-	2882. primitive polynomial
-	2883. primitive recursive set
-	2884. principal component analysis
-	2885. printed circuit board
-	2886. print server
-	2887. priority encoder
-	2888. priority interrupt
-	2889. priority processing
-	2890. private key
-	2891. probability calculus
-	2892. procedural cohesion
-	2893. process model
-	2894. product group
-	2895. production
-	2896. productive time
-	2897. program analysis
-	2898. programmable array logic
-	2899. programmable electronic system
-	2900. programmable gate array
-	2901. programmable logic array
-	2902. programmable logic device
-	2903. programmable ROM
-	2904. program maintenance
-	2905. programmed logic array
-	2906. programmer workbench
-	2907. programming support environment
-	2908. program proving
-	2909. program virus
-	2910. project support environment
-	2911. PROM
-	2912. proper ancestor
-	2913. proper subgraph
-	2914. proportional spacing
-	2915. protocol hierarchy
-	2916. protocol stack
-	2917. protocol translation
-	2918. prototype
-	2919. pseudo-operation
-	2920. pseudocode
-	2921. pseudonymous record
-	2922. pseudorandom numbers
-	2923. PSG
-	2924. PSK
-	2925. PSL/PSA
-	2926. PSPACE
-	2927. PSTN
-	2928. PSU
-	2929. PSW
-	2930. PTIME
-	2931. PTO
-	2932. public key certificate
-	2933. public tool interface
-	2934. pulse-triggered flip-flop
-	2935. pulse height
-	2936. pulse width
-	2937. punched card reader
-	2938. pure BCD
-	2939. pushdown stack
-	2940. pushup stack
-	2941. PVC
-	2942. q-valued
-	2943. QAM
-	2944. QBE
-	2945. QC
-	2946. quad
-	2947. quad core
-	2948. quality assurance
-	2949. quartile
-	2950. quaternary logic
-	2951. quibinary code
-	2952. racking
-	2953. radix notation
-	2954. RAM drive
-	2955. random-access memory
-	2956. random sampling
-	2957. rank correlation
-	2958. rank correlation coefficient
-	2959. rasterop
-	2960. rational language
-	2961. raw error rate
-	2962. Rayleigh-Ritz method
-	2963. RBL
-	2964. RBT
-	2965. RDBMS
-	2966. RDF Site Summary
-	2967. reachability matrix
-	2968. read-mostly media
-	2969. read-only memory
-	2970. read-while-write check
-	2971. read/write memory
-	2972. read clock
-	2973. read error
-	2974. read head
-	2975. realism
-	2976. Really Simple Syndication
-	2977. reason-maintenance system
-	2978. recording density
-	2979. recoverable error
-	2980. recursive descent parsing
-	2981. recursively decidable problem
-	2982. recursively solvable problem
-	2983. recursively undecidable
-	2984. recursive real number
-	2985. reduced instruction set computer
-	2986. reducible polynomial
-	2987. reduction system
-	2988. reflexive closure
-	2989. regenerate
-	2990. register insertion ring
-	2991. register optimization
-	2992. regula falsi
-	2993. regular operations
-	2994. relative complement
-	2995. relatively prime
-	2996. relative product
-	2997. repeat-until loop
-	2998. repertoire
-	2999. repo
-	3000. report generator
-	3001. request for comments
-	3002. requirements specification
-	3003. residual mean square
-	3004. residue arithmetic
-	3005. residue check
-	3006. resistor-transistor logic
-	3007. resource descriptor
-	3008. response function
-	3009. retry
-	3010. return
-	3011. reverse authentication
-	3012. reversible execution
-	3013. rewrite rule
-	3014. rewriting system
-	3015. RGB components
-	3016. Richardson extrapolation
-	3017. Rich Site Summary
-	3018. rich text format
-	3019. right-linear grammar
-	3020. right shift
-	3021. right subtree
-	3022. Rijndael algorithm
-	3023. ring counter
-	3024. RIP
-	3025. rise time
-	3026. RJE
-	3027. RM code
-	3028. roll-call polling
-	3029. roller ball
-	3030. roll stationery
-	3031. root certificate
-	3032. root directory
-	3033. rooted tree
-	3034. ROSE
-	3035. routine
-	3036. routine maintenance
-	3037. row-ragged
-	3038. row vector
-	3039. RPC
-	3040. RS code
-	3041. RS flip-flop
-	3042. RTD Programme in IT
-	3043. RTOS
-	3044. rule-based system
-	3045. run-length limited encoding
-	3046. S-gate
-	3047. SA
-	3048. SA/RT
-	3049. safe harbor
-	3050. safety integrity
-	3051. sampled-data system
-	3052. SATA
-	3053. satisfiability problem
-	3054. SCA
-	3055. scalable
-	3056. scalable font
-	3057. scalable processor architecture
-	3058. scalable vector graphics
-	3059. SCC
-	3060. schema
-	3061. Scott-Ershov domain
-	3062. screened cable
-	3063. screen editor
-	3064. scroll bar
-	3065. SDPM
-	3066. search and insertion algorithm
-	3067. search tree
-	3068. second-order logic
-	3069. secondary index
-	3070. secondary memory
-	3071. secondary ray
-	3072. second normal form
-	3073. Secure Digital Card
-	3074. selector channel
-	3075. self-dual
-	3076. self-learning process
-	3077. self-referent list
-	3078. self-relative addressing
-	3079. semantic analysis
-	3080. semantic network
-	3081. semicomputable algebra
-	3082. semicomputable set
-	3083. semidecidable
-	3084. semidecidable set
-	3085. semidecision procedure
-	3086. sensor
-	3087. sentence
-	3088. sentence symbol
-	3089. sentential form
-	3090. sequential cohesion
-	3091. sequential composition
-	3092. serial programming
-	3093. session layer
-	3094. shading model
-	3095. Shannon's theorems
-	3096. Shannon-Fano coding
-	3097. Shannon-Hartley law
-	3098. shape blending
-	3099. share
-	3100. SHE
-	3101. shell script
-	3102. shellsort
-	3103. shielded twisted pair
-	3104. shift-reduce parsing
-	3105. shift keying
-	3106. sifting technique
-	3107. sig
-	3108. sigma algebra
-	3109. sigma language
-	3110. sigma tree
-	3111. sigma word
-	3112. signal operation
-	3113. sign bit
-	3114. signed-magnitude representation
-	3115. signed field
-	3116. significand
-	3117. sign off
-	3118. sign on
-	3119. silicon chip
-	3120. silicon disk
-	3121. SIMD processor
-	3122. Simple API for XML
-	3123. simple parity check
-	3124. simplex method
-	3125. single attach
-	3126. single in-line devices
-	3127. single instruction, multiple data
-	3128. sinking technique
-	3129. SIO
-	3130. SIPO
-	3131. SISD processor
-	3132. SISO
-	3133. SLA
-	3134. slice architecture
-	3135. slot reader
-	3136. slotted ring
-	3137. smart machine
-	3138. smart terminal
-	3139. smiley
-	3140. SML
-	3141. SO
-	3142. SOA
-	3143. soft-sectored disk
-	3144. soft object
-	3145. soft return
-	3146. Software Capability Maturity Model
-	3147. Software Development Kit
-	3148. software library
-	3149. software metric
-	3150. software monitor
-	3151. software package
-	3152. software process
-	3153. solid-state memory
-	3154. solid inkjet printer
-	3155. solvable problem
-	3156. SOP expression
-	3157. sort generator
-	3158. sort merge
-	3159. source alphabet
-	3160. source compression coding
-	3161. source lines of code
-	3162. source listing
-	3163. source set
-	3164. space complexity
-	3165. space quantization
-	3166. spanning subgraph
-	3167. special character
-	3168. spectral analysis
-	3169. sphere-packing bound
-	3170. spidering
-	3171. spread
-	3172. SQA
-	3173. SQL injection
-	3174. SRAM
-	3175. SRB
-	3176. SR flip-flop
-	3177. SSU
-	3178. standard deviation
-	3179. standard error
-	3180. standby time
-	3181. star closure
-	3182. start symbol
-	3183. start time
-	3184. state-transition function
-	3185. statement label
-	3186. static RAM
-	3187. station
-	3188. statistical analysis
-	3189. statistical prediction
-	3190. status
-	3191. status register
-	3192. stepped index fibre
-	3193. stepsize
-	3194. stiff equations
-	3195. STM
-	3196. stochastic model
-	3197. storage area network
-	3198. storage element
-	3199. storage hierarchy
-	3200. storage location
-	3201. STP
-	3202. streamer
-	3203. stride
-	3204. strongly terminating
-	3205. strong typing
-	3206. structured analysis
-	3207. structured coding
-	3208. sub-Nyquist sampling
-	3209. sublist
-	3210. subnet
-	3211. subrecursive hierarchy
-	3212. subschema
-	3213. subtree
-	3214. subversion
-	3215. successive approximation
-	3216. successive over-relaxation
-	3217. suffix notation
-	3218. sumcheck
-	3219. super-Nyquist sampling
-	3220. supertwisted nematic display
-	3221. SuperVGA
-	3222. supervisor call
-	3223. supervisor state
-	3224. surface patch
-	3225. suspended process
-	3226. SVC
-	3227. SWIFT
-	3228. swipe reader
-	3229. Sybase
-	3230. Sylvester matrices
-	3231. symmetric difference
-	3232. symmetric group
-	3233. symmetric list
-	3234. synchronous digital hierarchy
-	3235. synchronous optical network
-	3236. synchronous TDM
-	3237. syntactic error
-	3238. syntax analyser
-	3239. syntax analysis
-	3240. syntax tree
-	3241. system box
-	3242. system crash
-	3243. system development
-	3244. system dictionary
-	3245. system software
-	3246. system specification
-	3247. system testing
-	3248. T-gate
-	3249. T-SQL
-	3250. T-type flip-flop
-	3251. T2L
-	3252. tagged image file format
-	3253. tape-bounded Turing machine
-	3254. tape cartridge
-	3255. tape deck
-	3256. tape drive
-	3257. tape label
-	3258. tape marker
-	3259. tape unit
-	3260. target alphabet
-	3261. target computer
-	3262. TB
-	3263. TBS
-	3264. Tbyte
-	3265. TCP
-	3266. t distribution
-	3267. TDM
-	3268. TDR
-	3269. tebi-
-	3270. telecommuting
-	3271. teleprinter
-	3272. temporal cohesion
-	3273. ten's complement
-	3274. ter
-	3275. term algebra
-	3276. terminal node
-	3277. terminal symbol
-	3278. termination, proof of
-	3279. term language
-	3280. ternary logic
-	3281. test data
-	3282. test oracle
-	3283. test run
-	3284. test suite
-	3285. text formatter
-	3286. TFEL
-	3287. TFT
-	3288. TGA
-	3289. The Anatomy of an Internet Address
-	3290. theory of types
-	3291. thin Ethernet
-	3292. thin wire
-	3293. third-party maintenance
-	3294. third normal form
-	3295. three-address instruction
-	3296. three-dimensional array
-	3297. three-state output
-	3298. three-term control
-	3299. thumb drive
-	3300. tiling
-	3301. tiling structure
-	3302. time-bounded Turing machine
-	3303. time complexity
-	3304. time quantization
-	3305. tint fill
-	3306. tip node
-	3307. TLB
-	3308. TLU
-	3309. TM
-	3310. toggling speed
-	3311. tool
-	3312. toolkit
-	3313. total correctness, proof of
-	3314. total recursive function
-	3315. touchpad
-	3316. TP monitor
-	3317. tracker
-	3318. trailing edge
-	3319. transfer rate
-	3320. transformational semantics
-	3321. transformation monoid
-	3322. transform domain
-	3323. transistor-transistor logic
-	3324. translation
-	3325. transmission channel
-	3326. Transmission Control Protocol
-	3327. transmission control unit
-	3328. transportable
-	3329. transport layer
-	3330. trapezoidal rule
-	3331. treelike network
-	3332. trial function
-	3333. triangle inequality
-	3334. TRS
-	3335. true complement
-	3336. truncation
-	3337. trunk
-	3338. TSP
-	3339. TTF
-	3340. TTS
-	3341. TTY
-	3342. tuple
-	3343. Turing computability
-	3344. two's complement
-	3345. two-address instruction
-	3346. two-dimensional array
-	3347. two-norm
-	3348. two-plus-one address
-	3349. two-way linked list
-	3350. type 0, 1, 2, 3 language
-	3351. Type 1 font
-	3352. Type 3 font
-	3353. typewriter terminal
-	3354. UDF
-	3355. UI
-	3356. UIMS
-	3357. ULA
-	3358. uncontrolled format string
-	3359. undecidable
-	3360. undirected graph
-	3361. unfolding
-	3362. Unified Modelling Language
-	3363. unilaterally connected graph
-	3364. unitary semiring
-	3365. unit matrix
-	3366. unit testing
-	3367. Universal Character Set
-	3368. universal flip-flop
-	3369. Universal Product Code
-	3370. universal quantifier
-	3371. universal serial bus
-	3372. unordered tree
-	3373. unshielded twisted pair
-	3374. unsolvable
-	3375. UP
-	3376. UPC
-	3377. up operation
-	3378. UPS
-	3379. upward compatibility
-	3380. user agent
-	3381. user manual
-	3382. user state
-	3383. UTP
-	3384. uvwxy lemma
-	3385. V&V
-	3386. V-series
-	3387. vaccine
-	3388. VADS
-	3389. validate
-	3390. validation
-	3391. value-added
-	3392. VAN
-	3393. van Wijngaarden grammar
-	3394. variable delay
-	3395. variant field
-	3396. variation
-	3397. VAX
-	3398. VB.NET
-	3399. VBA
-	3400. VBR
-	3401. VDI
-	3402. VDT
-	3403. vector norm
-	3404. Veitch diagram
-	3405. verification condition
-	3406. verification system
-	3407. vertical check
-	3408. vertical microinstruction
-	3409. vertical recording
-	3410. very large-scale integration
-	3411. VFAT
-	3412. VFD
-	3413. VFU
-	3414. Vienna Definition Language
-	3415. Vienna Development Method
-	3416. virtual connection
-	3417. Visual Basic 2005
-	3418. visual display unit
-	3419. VLE
-	3420. VMS
-	3421. voiceband
-	3422. voice coil
-	3423. voice mail
-	3424. Voice over Internet Protocol
-	3425. void set
-	3426. VoIP
-	3427. Volterra integral equation
-	3428. volume label
-	3429. V operation
-	3430. voting logic
-	3431. VR
-	3432. VSO
-	3433. VV&T
-	3434. VW-grammar
-	3435. W3
-	3436. W3C
-	3437. wafer-scale integration
-	3438. wait operation
-	3439. Walsh transform
-	3440. WAN
-	3441. WC
-	3442. weakly terminating
-	3443. weak mobility
-	3444. Web
-	3445. WEB
-	3446. Web-based Distributed Authoring and Versioning
-	3447. web log
-	3448. web of trust
-	3449. web page
-	3450. web spider
-	3451. weighted least squares
-	3452. weighted mean
-	3453. well-formed formula
-	3454. wff
-	3455. W grammar
-	3456. while loop
-	3457. while program
-	3458. white-box testing
-	3459. white pages
-	3460. wide area information service
-	3461. Williams-tube store
-	3462. Windows ME
-	3463. windows system
-	3464. WinZip
-	3465. wireless access point
-	3466. wireless applications protocol
-	3467. WLAN
-	3468. word length
-	3469. word size
-	3470. word wrap
-	3471. workbench
-	3472. work file
-	3473. worst-case analysis
-	3474. wp
-	3475. WPA
-	3476. writeable control store
-	3477. write error
-	3478. write head
-	3479. WSDL
-	3480. WWW
-	3481. X-series
-	3482. Xeon
-	3483. XMS memory
-	3484. XOR
-	3485. XS3 code
-	3486. XSLT
-	3487. XSS
-	3488. XUI
-	3489. y2k
-	3490. yellow Ethernet
-	3491. zero-trip loop
-	3492. zip file
-	3493. Ziv-Lempel compaction
+	206. [[behavior-based systems]]
+	207. behavioral animation
+	208. [[belief systems]]
+	209. [[Bell Telephone Laboratories]]
+	210. [[belt printer]]
+	211. [[benchmark]]
+	212. [[BER]]
+	213. [[Tim Berners-Lee]]
+	214. [[best-first search]]
+	215. [[best fit]]
+	216. [[beta]]
+	217. beta reduction
+	218. [[beta test]]
+	219. [[Bézier patch]]
+	220. BGP
+	221. [[bias]]
+	222. biased exponent
+	223. [[bicomponent algorithm]]
+	224. [[biconnected graph]]
+	225. [[bidirectional reflection distribution]]
+	226. [[bifurcation]]
+	227. [[big-endian]]
+	228. [[binary-coded decimal]]
+	229. [[binary-level compatibility]]
+	230. [[binary-tree representation]]
+	231. binary adder
+	232. binary chop
+	233. [[binary code]]
+	234. binary counter
+	235. binary digit
+	236. [[binary encoding]]
+	237. [[binary logic]]
+	238. binary notation
+	239. [[binary number]]
+	240. [[binary relation]]
+	241. [[binary search algorithm]]
+	242. [[binary search tree]]
+	243. [[binary sequence]]
+	244. binary signal
+	245. [[binary space-partitioning tree]]
+	246. [[binary symmetric channel]]
+	247. binary synchronous communications
+	248. [[binary system]]
+	249. [[binary tree]]
+	250. [[bind]]
+	251. binding
+	252. binding occurrence
+	253. [[binomial distribution]]
+	254. bioinformatics
+	255. [[biomimetic robotics]]
+	256. [[BIOS]]
+	257. [[bipartite graph]]
+	258. [[biplot]]
+	259. bipolar integrated circuit
+	260. [[bipolar signal]]
+	261. [[bipolar transistor]]
+	262. [[biquinary code]]
+	263. [[Birkhoff's completeness theorem]]
+	264. bis
+	265. bisection algorithm
+	266. [[bistable]]
+	267. [[BISYNC]]
+	268. [[bit]]
+	269. bit-block transfer
+	270. [[bit-slice architecture]]
+	271. [[bitblt]]
+	272. [[bit density]]
+	273. [[bit error rate]]
+	274. [[bit handling]]
+	275. [[bitmap]]
+	276. [[bit matrix]]
+	277. [[Bitnet]]
+	278. [[bitpad]]
+	279. [[bit rate]]
+	280. [[bits per pixel]]
+	281. [[bit string]]
+	282. [[bit stuffing]]
+	283. [[black-box testing]]
+	284. [[BlackBerry]]
+	285. [[blackboard system]]
+	286. [[black box]]
+	287. black Ethernet
+	288. [[blank]]
+	289. [[blank character]]
+	290. [[blend]]
+	291. [[blending]]
+	292. [[blink]]
+
+	293. [[blobby model]]
+	294. [[block]]
+	295. [[block-structured languages]]
+	296. [[block cipher]]
+	297. [[block code]]
+	298. block compaction
+	299. [[block diagram]]
+	300. [[blocked process]]
+	301. blockette
+	302. [[blocking factor]]
+	303. [[block length]]
+	304. [[block retrieval]]
+	305. [[blog]]
+	306. [[blogosphere]]
+	307. [[Blu-ray]]
+	308. [[Blue Book]]
+	309. [[Bluetooth]]
+	310. BM algorithm
+	311. [[BMP]]
+	312. [[BNF]]
+	313. [[body]]
+	314. [[boilerplate]]
+	315. BOM
+	316. [[bookmark]]
+	317. [[George Boole]]
+	318. [[Boolean expression]]
+	319. [[Boolean function]]
+	320. [[Boolean matrix]]
+	321. [[Boolean operation]]
+	322. [[Boolean operator]]
+	323. [[Boolean type]]
+	324. [[Boolean value]]
+	325. [[boom]]
+	326. [[boot]]
+	327. boot sector virus
+	328. [[bootstrap]]
+	329. [[Border Gateway Protocol]]
+	330. [[Borland Software Corporation]]
+	331. [[Bose-Chaudhuri-Hocquenghem codes]]
+	332. [[bot]]
+	333. [[BOT marker]]
+	334. [[botnet]]
+	335. [[bottleneck]]
+	336. [[bottom-up development]]
+	337. bottoming
+	338. [[bounce]]
+	339. bound
+	340. [[boundary-scan testing]]
+	341. boundary-value problem
+	342. boundary protection
+	343. [[boundary representation]]
+	344. [[bounded delay]]
+	345. bound occurrence
+	346. [[bounds registers]]
+	347. [[bound variable]]
+	348. Box-Jenkins forecasting techniques
+	349. [[boxplot]]
+	350. [[Boyer-Moore algorithm]]
+	351. bpi
+	352. bps
+	353. bpt
+	354. [[branch]]
+	355. [[branch and bound algorithm]]
+	356. [[branching factor]]
+	357. branch instruction
+	358. [[branch testing]]
+	359. [[breadboard]]
+	360. [[Breadth First Search|breadth-first search]]
+	361. breakpoint
+	362. [[Bresenham's algorithm]]
+	363. BRI
+	364. bricks-and-clicks
+	365. [[bridge]]
+	366. [[bridgeware]]
+	367. [[Sergey Brin]]
+	368. [[broadband]]
+	369. [[broadband coaxial systems]]
+	370. broadband ISDN
+	371. [[broadband networking]]
+	372. [[broadcast domain]]
+	373. [[broadcasting]]
+	374. [[brouter]]
+	375. [[browse]]
+	376. [[browser]]
+	377. [[brute force]]
+	378. [[brute force attack]]
+	379. [[BS7799]]
+	380. BSC
+	381. [[BSI Group]]
+	382. BSP tree
+	383. BTron
+	384. [[bubble jet]]
+	385. bubble memory
+	386. [[bubble sort]]
+	387. [[bucket]]
+	388. [[bucket sort]]
+	389. [[buddy system]]
+	390. [[buffer]]
+	391. [[buffering]]
+	392. [[buffer overflow]]
+	393. [[buffer register]]
+	394. [[bug]]
+	395. bug seeding
+	396. bulk memory
+	397. [[bulletin board system]]
+	398. [[bump mapping]]
+	399. [[bundle]]
+	400. [[bundled attributes]]
+	401. [[burn]]
+	402. [[burst error]]
+	403. [[burst mode]]
+	404. [[bus]]
+	405. [[bus arbitration]]
+	406. bus driver
+	407. bused interface
+	408. [[bus hierarchy]]
+	409. [[business graphics]]
+	410. bus master
+	411. [[bus terminator]]
+	412. bus topology
+	413. [[busy signal]]
+	414. [[button]]
+	415. [[byte]]
+	416. [[byte-order mark]]
+	417. byte code
+	418. [[Byzantine Generals problem]]
+	419. C&C
+	420. C-sharp
+	421. c/s
+	422. C2
+	423. CA
+	424. [[cable]]
+	425. [[cache]]
+	426. CAD
+	427. CADCAM
+	428. CADMAT
+	429. CAE
+	430. [[content-addressable file system|CAFS]]
+	431. CAI
+	432. CAIS-A
+	433. CAL
+	434. [[call]]
+	435. call by name
+	436. call by reference
+	437. call by value
+	438. [[calling sequence]]
+	439. [[call instruction]]
+	440. CAM
+	441. [[CAMAC]]
+	442. [[Cambridge Ring]]
+	443. campus-wide information service
+	444. [[cancellation]]
+	445. [[capability architecture]]
+	446. [[capability list]]
+	447. [[Capability Maturity Model]]
+	448. [[capacity]]
+	449. CAPM
+	450. CAPP
+	451. [[caps lock]]
+	452. [[capstan]]
+	453. [[Completely Automated Public Turing test to tell Computers and Humans Apart|CAPTCHA]]
+	454. [[CAP theorem]]
+	455. [[CAR]]
+	456. card
+	457. [[card cage]]
+	458. [[card punch]]
+	459. [[card reader]]
+	460. [[caret]]
+	461. carrier
+	462. [[carry lookahead]]
+	463. [[Cartesian structure]]
+	464. [[cartridge]]
+	465. [[cartridge drive]]
+	466. cartridge font
+	467. [[cartridge tape]]
+	468. [[cascadable counter]]
+	469. [[cascade]]
+	470. cascaded windows
+	471. cascading style sheets
+	472. [[computer-assisted software engineering|CASE]]
+	473. [[case-based reasoning]]
+	474. [[case-sensitive]]
+	475. [[case grammar]]
+	476. [[case statement]]
+	477. [[cassette]]
+	478. CAT
+	479. [[category-3|CAT-3]]
+	480. [[category-5|CAT-5]]
+	481. [[category-6|CAT-6]]
+	482. [[CAT-7]]
+	483. [[catastrophic code]]
+	484. catastrophic error propagation
+	485. [[cathode-ray tube]]
+	486. [[Catmull-Clark surfaces]]
+	487. [[causal reasoning]]
+	488. [[caustic]]
+	489. [[constant angular velocity|CAV]]
+	490. [[Group Multiplication Tables|Cayley Table]]
+	491. CBC
+	492. CBL
+	493. CBR
+	494. CBT
+	495. [[charge-coupled device|CCD]]
+	496. [[CCITT]]
+	497. [[calculus of communicating systems|CCS]]
+	498. CCTA
+	499. CD-DA
+	500. CD-E
+	501. [[CD interactive|CD-I]]
+	502. CD-R
+	503. [[CD read-only memory|CD-ROM]]
+	504. CD-ROM drive
+	505. [[CD-ROM format standards]]
+	506. CD-ROM library
+	507. CD-RW
+	508. [[Control Data Corporation|CDC]]
+	509. [[copper distributed data interface|CDDI]]
+	510. [[CASE data interchange format|CDIF]]
+	511. [[concurrent DOS|CDOS]]
+	512. [[CDR]]
+	513. CDTV
+	514. [[ceiling]]
+	515. [[cel]]
+	516. Celeron
+	517. [[cell]]
+	518. [[cell array]]
+	519. [[cell relay]]
+	520. [[cellular automata machine]]
+	521. [[CEN-CENELEC|CEN/CENELEC]]
+	522. [[centralized structure store]]
+	523. [[central processor]]
+	524. [[Centronics interface]]
+	525. [[Council of European Professional Informatics Societies|CEPIS]]
+	526. CERT
+	527. [[certainty factor]]
+	528. [[certificate]]
+	529. [[certificate authority]]
+	530. [[certification]]
+	531. CFB
+	532. [[CFF]]
+	533. [[color graphics adapter|CGA]]
+	534. [[CGI]]
+	535. [[computer graphics metafile|CGM]]
+	536. [[chain]]
+	537. [[chain code]]
+	538. [[chained file]]
+	539. [[chaining]]
+	540. [[chaining search]]
+	541. [[chain printer]]
+	542. challenge/response
+	543. [[change dump]]
+	544. [[channel]]
+	545. channel capacity
+	546. [[channel coding]]
+	547. [[channel coding theorem]]
+	548. [[channel controller]]
+	549. [[channel error]]
+	550. channel mobility
+	551. [[channel switching]]
+	552. channel time response
+	553. [[chaos]]
+	554. [[character]]
+	555. character cell
+	556. [[character encoding]]
+	557. characteristic
+	558. [[characteristic function]]
+	559. [[characteristic vector]]
+	560. character machine
+	561. character mode
+	562. [[character recognition]]
+	563. [[character representation]]
+	564. [[character set]]
+	565. [[character string]]
+	566. [[character type]]
+	567. charge-coupled device
+	568. [[chassis]]
+	569. [[chat room]]
+	570. [[computer hardware description language|CHDL]]
+	571. Cheapernet
+	572. Chebyshev approximation, norm
+	573. [[check]]
+	574. [[check box]]
+	575. [[check character]]
+	576. check digit
+	577. [[checkers-playing programs]]
+	578. [[checking program]]
+	579. [[checkout]]
+	580. [[checkpoint]]
+	581. [[checksum]]
+	582. chemoinformatics
+	583. chess-playing programs
+	584. [[chi-squared distribution]]
+	585. [[chief programmer team]]
+	586. [[child]]
+	587. [[CHILL]]
+	588. [[chip]]
+	589. chip card
+	590. [[chip set]]
+	591. [[chip socket]]
+	592. [[choice]]
+	593. Cholesky decomposition
+	594. [[Chomsky hierarchy]]
+	595. [[Chomsky normal form]]
+	596. [[chromaticity]]
+	597. [[chromaticity coefficient]]
+	598. [[chromaticity diagram]]
+	599. chromatic number
+	600. [[Chrome]]
+	601. [[Chrome OS]]
+	602. chunk
+	603. [[Church's thesis]]
+	604. [[Church-Rosser]]
+	605. [[Church-Rosser theorem]]
+	606. [[Church-Turing thesis]]
+	607. [[customer information control system|CICS]]
+	608. [[CIE]]
+	609. [[CIE color model]]
+	610. CIELAB
+	611. [[CIM]]
+	612. [[Cineon format]]
+	613. [[cipher]]
+	614. [[ciphertext]]
+	615. CIR
+	616. [[circuit]]
+	617. [[circuit board]]
+	618. circuit card
+	619. [[circuit switching]]
+	620. [[circular list]]
+	621. circular shift
+	622. [[circulating register]]
+	623. [[computerlink information exchange|CIX]]
+	624. CKD
+	625. [[clamp]]
+	626. [[class]]
+	627. [[classifier systems]]
+	628. [[Classless Inter-Domain Routing]]
+	629. [[clear]]
+	630. CLI
+	631. [[click]]
+	632. click-through rate
+	633. click and drag
+	634. [[click rate]]
+	635. clicks and mortar
+	636. [[click speed]]
+	637. [[clickstream]]
+	638. [[client]]
+	639. [[client-side]]
+	640. client/server
+	641. [[clip art]]
+	642. [[clipboard]]
+	643. [[clipping]]
+	644. CLNS
+	645. [[clock]]
+	646. clock cycle
+	647. clocked flip-flop
+	648. [[clocking]]
+	649. clock rate
+	650. clock signal
+	651. clock skew
+	652. [[clone]]
+	653. [[CLOS]]
+	654. [[close]]
+	655. [[closed]]
+	656. [[closed-world assumption]]
+	657. [[closed loop]]
+	658. [[closed shop]]
+	659. closed subroutine
+	660. closed term
+	661. [[closure]]
+	662. [[closure properties]]
+	663. [[cloud computing]]
+	664. CLP
+	665. [[cluster]]
+	666. [[cluster analysis]]
+	667. [[clustering]]
+	668. [[constant linear velocity|CLV]]
+	669. CM
+	670. CMI
+	671. CMM
+	672. CMMI
+	673. [[complementary metal oxide semiconductor|CMOS]]
+	674. CMS
+	675. [[CMY color model]]
+	676. [[CMYK color model]]
+	677. CNC
+	678. CNF
+	679. CNF satisfiability
+	680. [[Coad-Yourdon method]]
+	681. coax
+	682. [[coaxial cable]]
+	683. [[common business-oriented language|Cobol]]
+	684. [[cocktail shaker sort]]
+	685. [[CoCom]]
+	686. [[COCOMO]]
+	687. [[CODASYL]]
+	688. [[CODASYL network model]]
+	689. [[Ted Codd]]
+	690. [[codec]]
+	691. [[coded character set]]
+	692. [[code injection]]
+	693. [[code inspection]]
+	694. [[code length]]
+	695. code mobility
+	696. [[code of conduct]]
+	697. [[code point]]
+	698. coder-decoder
+	699. codeword
+	700. [[coding]]
+	701. [[coding bounds]]
+	702. coding standards
+	703. coding theorems
+	704. [[coding theory]]
+	705. codomain
+	706. [[cognitive modeling]]
+	707. [[cognitive science]]
+	708. [[cohesion]]
+	709. [[cold boot]]
+	710. collaborative software
+	711. [[collating sequence]]
+	712. collision detection
+	713. [[collision domain]]
+	714. [[Colossus]]
+	715. [[color display]]
+	716. [[colored book]]
+	717. [[color gamut]]
+	718. [[colorimetry]]
+	719. [[coloring of graphs]]
+	720. [[color model]]
+	721. [[color printer]]
+	722. [[color space]]
+	723. [[column-major order]]
+	724. column-ragged
+	725. column vector
+	726. [[COM]]
+	727. combinatorial circuit
+	728. [[command]]
+	729. commutative group
+	730. commutative law
+	731. commutative ring
+	732. commutative semiring
+	733. complementary logic
+	734. compiler validation
+	735. complete term rewriting system
+	736. command file
+	737. command language
+	738. common instance
+	739. common user access
+	740. comms
+	741. communicating sequential processes
+	742. communication channel
+	743. communication network
+	744. communication server
+	745. [[complex number]]
+	746. [[complex operation]]
+	747. [[com port]]
+	748. composition table
+	749. [[compound document]]
+	750. [[compression]]
+	751. compression factor
+	752. [[CompuServe]]
+	753. computability
+	754. computable
+	755. [[computable function]]
+	756. computable real number
+	757. computable set
+	758. [[model of computation]]
+	759. [[computational creativity]]
+	760. computational environment
+	761. [[computational geometry]]
+	762. [[computational psychology]]
+	763. [[computer]]
+	764. [[computer-aided design]]
+	765. [[computer-aided engineering]]
+	766. computer-aided instruction
+	767. [[computer-aided manufacturing]]
+	768. [[computer-aided process planning]]
+	769. [[computer-aided production management]]
+	770. [[computer-aided testing]]
+	771. [[computer-assisted learning]]
+	772. computer-assisted software engineering
+	773. computer-based learning
+	774. [[computer-based training]]
+	775. [[computer-integrated manufacturing]]
+	776. [[computer-managed instruction]]
+	777. [[computer-supported cooperative working]]
+	778. [[computer animation]]
+	779. computer architecture
+	780. [[computer chess]]
+	781. [[computer emergency response team]]
+	782. [[computer family]]
+	783. [[computer fraud]]
+	784. [[computer games]]
+	785. computer hardware description language
+	786. [[computer logic]]
+	787. [[Computer Misuse Act 1990]]
+	788. computer numerical control
+	789. computer object model
+	790. [[computer power]]
+	791. [[computer science]]
+	792. Computer Services Association
+	793. computer word
+	794. [[compute server]]
+	795. [[con]]
+	796. [[concatenated code]]
+	797. [[concatenated coding systems]]
+	798. concatenation closure
+	799. [[concept learning]]
+	800. [[conceptual graphs]]
+	801. conceptual schema
+	802. [[concurrency]]
+	803. concurrent DOS
+	804. [[concurrent programming]]
+	805. condensation
+	806. [[condition-code register]]
+	807. [[conditional]]
+	808. [[conditional equation]]
+	809. [[conditional jump]]
+	810. [[cone of influence]]
+	811. conferencing
+	812. [[confidence interval]]
+	813. [[confidentiality]]
+	814. [[configuration]]
+	815. [[configuration management]]
+	816. [[configured-in, -off, -out]]
+	817. confluent
+	818. [[conformance testing]]
+	819. conform to
+	820. conjunctive normal form
+	821. [[CONLAN]]
+	822. [[connectedness]]
+	823. [[connection-oriented network service]]
+	824. [[connectionism]]
+	825. [[connectionless-mode network service]]
+	826. [[Connection Machine]]
+	827. [[connective]]
+	828. [[connectivity]]
+	829. connectivity matrix
+	830. CONS
+	831. [[consistency]]
+	832. [[console]]
+	833. [[constant]]
+	834. [[constant bit rate]]
+	835. constant delay((in a network))
+	836. [[constraint]]
+	837. [[constraint-based solid modeling]]
+	838. [[constraint logic programming]]
+	839. constraint network
+	840. [[constraint satisfaction]]
+	841. construct
+	842. [[constructive function]]
+	843. constructive solid geometry
+	844. constructive specification
+	845. consumable resource
+	846. contact bounce
+	847. contact forces
+	848. content-addressable memory
+	849. content-addressable parallel processor
+	850. contention
+	851. context-free grammar
+	852. context-sensitive grammar
+	853. context awareness
+	854. continuation
+	855. contrapositive((of a conditional, P → Q))
+	856. continuous inkjet printer
+	857. continuous signal, system
+	858. continuous simulation
+	859. continuous stationery
+	860. Control Data Corporation
+	861. control key
+	862. CPU
+	863. cropping
+	864. criticality analysis
+	865. cross-coupling
+	866. cross-site scripting
+	867. cross-validation
+	868. cross assembler
+	869. crossbar switch
+	870. cross compiler
+	871. crosstalk
+	872. crowbar circuit
+	873. CRT
+	874. cryogenic memory
+	875. cryptanalysis
+	876. cryptogram
+	877. CSCW
+	878. CSG
+	879. CSIRT
+	880. CSMA/CD
+	881. CSS
+	882. CTron
+	883. CU
+	884. CUA
+	885. cube
+	886. cubic spline
+	887. cull
+	888. cycle stealing
+	889. cycle
+	890. cut set
+	891. cycle time
+	892. cypher
+	893. D-type flip-flop
+	894. d.c. signalling
+	895. D/A converter
+	896. DAC
+	897. daemon
+	898. DAI
+	899. daisychain
+	900. daisywheel printer
+	901. dangling else
+	902. dangling reference
+	903. DANTE
+	904. dark fibre
+	905. DARPA
+	906. DASD
+	907. DAT
+	908. data
+	909. data-driven design
+	910. data-driven processing
+	911. data abstraction
+	912. data acquisition
+	913. databank
+	914. database
+	915. database administration
+	916. database administrator
+	917. database integrity
+	918. database language
+	919. database management system
+	920. database programming language
+	921. database recovery
+	922. database system
+	923. data break
+	924. data bus
+	925. data capture
+	926. data cartridge
+	927. data chaining
+	928. data channel
+	929. data cleaning
+	930. data collection
+	931. datacomms
+	932. data communication equipment
+	933. data communications
+	934. data compaction
+	935. data compression
+	936. data contamination
+	937. data controller
+	938. data dependency
+	939. data description
+	940. data dictionary
+	941. data directory
+	942. Data Encryption Algorithm
+	943. Data Encryption Standard
+	944. data entry
+	945. data field
+	946. data file
+	947. dataflow
+	948. dataflow diagram
+	949. dataflow machine
+	950. data fusion
+	951. dataglove
+	952. datagram
+	953. data hierarchy
+	954. data independence
+	955. data integrity
+	956. data item
+	957. data link
+	958. data link control protocol
+	959. data link layer
+	960. data logging
+	961. data management
+	962. data management system
+	963. data manipulation
+	964. data mark
+	965. data matrix
+	966. data medium
+	967. data mining
+	968. data model
+	969. data name
+	970. data network
+	971. data path
+	972. data preparation
+	973. data processing
+	974. data processor
+	975. Data Protection Acts
+	976. data protection legislation
+	977. data rate
+	978. data recipient
+	979. data reduction
+	980. data retrieval
+	981. data security system
+	982. data selector/multiplexer
+	983. data set
+	984. data sheet
+	985. data store
+	986. data stream
+	987. data structure
+	988. data subject
+	989. data sublanguage
+	990. data summarization
+	991. data tablet
+	992. data terminal equipment
+	993. data transfer rate
+	994. data transfer time
+	995. data translation
+	996. data transmission
+	997. data transparency
+	998. data type
+	999. data validation
+	1000. data vetting
+	1001. data warehouse
+	1002. data word
+	1003. DB2
+	1004. DBA
+	1005. DBMS
+	1006. DC
+	1007. DCE
+	1008. DCT
+	1009. DCVS
+	1010. DDC
+	1011. DDCMP
+	1012. DDE
+	1013. DDL
+	1014. DDoS
+	1015. DDP
+	1016. DDS
+	1017. DEA
+	1018. deadlock
+	1019. deadly embrace
+	1020. debit/credit benchmark
+	1021. debouncing
+	1022. de Bruijn diagram
+	1023. debugging
+	1024. debug tool
+	1025. DEC
+	1026. decade counter
+	1027. decal
+	1028. de Casteljau algorithm
+	1029. decidable problem
+	1030. decidable set
+	1031. decision gate
+	1032. decision problem
+	1033. decision procedure
+	1034. decision support system
+	1035. decision surface
+	1036. decision table
+	1037. decision tree
+	1038. declaration
+	1039. declarative languages
+	1040. DECnet
+	1041. decoder
+	1042. decoder/demultiplexer
+	1043. decoder/driver
+	1044. decoder error
+	1045. decoding
+	1046. decollator
+	1047. decompiler
+	1048. decomposition
+	1049. decompression
+	1050. deconvolution
+	1051. decryption
+	1052. dedicated
+	1053. dedicated mode
+	1054. deduction
+	1055. deductive apparatus
+	1056. Deep Blue
+	1057. deep case
+	1058. deep structure
+	1059. Deep Thought
+	1060. default
+	1061. default rules
+	1062. defect skipping
+	1063. deferral
+	1064. deferred addressing
+	1065. deferred approach to the limit
+	1066. definition
+	1067. deflation
+	1068. defrag
+	1069. defragmentation
+	1070. degree
+	1071. degree of precision
+	1072. degrees of freedom
+	1073. Dekker's algorithm
+	1074. Delaunay triangulation
+	1075. delay-power product
+	1076. delay differential equations
+	1077. delayed branch
+	1078. delay line
+	1079. delete
+	1080. delimiter
+	1081. Dell
+	1082. delta PCM
+	1083. demand paging
+	1084. demand reading, writing
+	1085. Demilitarized Zone
+	1086. demodulator
+	1087. demon
+	1088. de Morgan's laws
+	1089. demultiplexer
+	1090. dendrogram
+	1091. denial
+	1092. denial of service
+	1093. denotational semantics
+	1094. density
+	1095. denumerable set
+	1096. deposit
+	1097. depth
+	1098. depth-balanced
+	1099. depth-first search
+	1100. depth buffer
+	1101. depth cueing
+	1102. deque
+	1103. derivation sequence
+	1104. derivation tree
+	1105. derivative
+	1106. DES
+	1107. descendant((of a node, A, in a tree))
+	1108. descriptor
+	1109. design database
+	1110. design pattern
+	1111. design review
+	1112. desktop
+	1113. desktop publishing
+	1114. destructive read
+	1115. determinant
+	1116. deterministic
+	1117. deterministic language
+	1118. deterministic Turing machine
+	1119. DEUCE
+	1120. developer
+	1121. development life cycle
+	1122. device
+	1123. device coordinates
+	1124. device driver
+	1125. DFD
+	1126. D flip-flop
+	1127. DFT
+	1128. DHTML
+	1129. diagonalization
+	1130. dialogue box
+	1131. dialogue management
+	1132. dictionary
+	1133. diff
+	1134. Difference Engine
+	1135. difference equations
+	1136. differential backup
+	1137. differential dump
+	1138. differential equations
+	1139. differential PCM
+	1140. diffuse reflection
+	1141. diffusion address
+	1142. digital
+	1143. digital-to-analogue converter
+	1144. digital certificate
+	1145. digital circuit
+	1146. digital computer
+	1147. digital copier
+	1148. digital data storage
+	1149. digital data transmission
+	1150. digital design
+	1151. digital design language
+	1152. Digital Equipment Corporation
+	1153. digital filtering
+	1154. digital halftone
+	1155. digital image
+	1156. digital logic
+	1157. digital signal
+	1158. digital signal processing
+	1159. digital signature
+	1160. digital sorting
+	1161. digital system
+	1162. digital versatile disk
+	1163. digital video
+	1164. digital video disk
+	1165. digital video interactive
+	1166. digital video interface
+	1167. digitization
+	1168. digitizer
+	1169. digraph
+	1170. Dijkstra's algorithm
+	1171. Dijkstra, Edsger (1930-2002)
+	1172. DIL
+	1173. DIL switch
+	1174. dimension
+	1175. diminished radix complement
+	1176. diminishing increment sort
+	1177. DIMM
+	1178. DIN connector
+	1179. diode
+	1180. diode-transistor logic
+	1181. DIP
+	1182. direct-access storage device
+	1183. direct-coupled machines
+	1184. direct addressing
+	1185. direct data entry
+	1186. direct digital control
+	1187. directed graph
+	1188. directed set
+	1189. directed tree
+	1190. direction keys
+	1191. directive
+	1192. direct memory access
+	1193. directory
+	1194. directory services
+	1195. directory tree
+	1196. direct product
+	1197. Dirichlet region
+	1198. disable
+	1199. disarm
+	1200. disc
+	1201. disconnected graph
+	1202. discourse understanding
+	1203. discrete and continuous systems
+	1204. discrete channel
+	1205. discrete component
+	1206. discrete cosine transform
+	1207. discrete event simulation
+	1208. discrete Fourier transform
+	1209. discrete mathematics
+	1210. discrete process control
+	1211. discrete signal
+	1212. discrete source
+	1213. discrete structure
+	1214. discrete system
+	1215. discretionary access control
+	1216. discretization
+	1217. discretization error
+	1218. discriminant analysis
+	1219. disjoint
+	1220. disjunction
+	1221. disjunctive normal form
+	1222. disk
+	1223. disk-to-plate
+	1224. disk array
+	1225. diskette
+	1226. disk format
+	1227. disk pack
+	1228. disk stack
+	1229. disk striping
+	1230. dispatcher
+	1231. dispersion
+	1232. displacement mapping
+	1233. display
+	1234. Display Port
+	1235. display processor
+	1236. Distiller
+	1237. distributed array processor
+	1238. distributed artificial intelligence
+	1239. distributed computing environment
+	1240. Distributed Concurrent Versions System
+	1241. distributed database
+	1242. distributed queue dual bus
+	1243. distributed system
+	1244. distribution
+	1245. distribution counting sort
+	1246. distributive lattice
+	1247. dithered colour
+	1248. dithering
+	1249. dither noise
+	1250. diverse programming
+	1251. divide and conquer sorting
+	1252. divided difference
+	1253. divider
+	1254. DLL
+	1255. DMA
+	1256. DME
+	1257. DML
+	1258. DMZ
+	1259. DNS
+	1260. do-nothing instruction
+	1261. do-while loop
+	1262. Document Object Model
+	1263. document processing
+	1264. document type definition
+	1265. do loop
+	1266. DOL system
+	1267. DOM
+	1268. domain
+	1269. domain knowledge
+	1270. domain modelling
+	1271. domain name server
+	1272. domain name system
+	1273. domain theory
+	1274. dominator
+	1275. don't care
+	1276. dongle
+	1277. dope vector
+	1278. DOS
+	1279. DOS box
+	1280. dot com
+	1281. dot diffusion
+	1282. double-density recording
+	1283. double-length arithmetic
+	1284. double buffering
+	1285. double click
+	1286. double complement
+	1287. double negation
+	1288. doubly linked list
+	1289. downline
+	1290. download
+	1291. down operation
+	1292. downsizing
+	1293. downtime
+	1294. DP
+	1295. DPCM
+	1296. dpi
+	1297. DQDB
+	1298. drag
+	1299. DRAM
+	1300. draughts-playing programs
+	1301. DRAW
+	1302. DRCS
+	1303. DRDW
+	1304. drive
+	1305. driver
+	1306. drop-down menu
+	1307. drop-on-demand inkjet printer
+	1308. drop-out
+	1309. drum plotter
+	1310. drum printer
+	1311. DSL
+	1312. DSM
+	1313. DSP
+	1314. DSPACE
+	1315. DSS
+	1316. DTD
+	1317. DTE
+	1318. DTIME
+	1319. DTL
+	1320. DTP
+	1321. dual
+	1322. dual attach
+	1323. dual core
+	1324. dual in-line package
+	1325. duality
+	1326. dual port memory
+	1327. dual processor
+	1328. dummy instruction
+	1329. dump
+	1330. dump point
+	1331. DVD
+	1332. DVI
+	1333. dynamic HTML
+	1334. dynamic link library
+	1335. dynamic logic
+	1336. dynamic memory
+	1337. dynamic programming
+	1338. dynamic testing
+	1339. dynamic web page
+	1340. e-book
+	1341. e-business
+	1342. e-commerce
+	1343. e-learning
+	1344. e-ticket
+	1345. EAN
+	1346. EAPROM
+	1347. EAROM
+	1348. Easter egg
+	1349. EBCDIC
+	1350. EBNF
+	1351. ECB
+	1352. ECBS
+	1353. echo
+	1354. echo check
+	1355. echoing
+	1356. echo suppression
+	1357. ECL
+	1358. ECMA International
+	1359. ECMAScript
+	1360. edge
+	1361. edge-triggered flip-flop
+	1362. edge board
+	1363. edge card
+	1364. edge connector
+	1365. edge detector
+	1366. EDI
+	1367. EDIFACT
+	1368. edit
+	1369. editor
+	1370. Edmonds' algorithm
+	1371. EDP
+	1372. EDS
+	1373. EDSAC
+	1374. EDVAC
+	1375. EEPROM
+	1376. EEROM
+	1377. effective address
+	1378. effective computability
+	1379. effective enumeration
+	1380. effective procedure
+	1381. EFT
+	1382. EFTPOS
+	1383. EFTS
+	1384. egoless programming
+	1385. EIA
+	1386. EIDE
+	1387. Eiffel
+	1388. eigenfunctions
+	1389. eigenvalue problems
+	1390. eigenvectors
+	1391. EIR
+	1392. EISA
+	1393. elapsed time
+	1394. electrographic printer
+	1395. electroluminescent display
+	1396. electromagnetic beam deflection
+	1397. electromagnetic compatibility
+	1398. electronic
+	1399. electronic blackboard
+	1400. electronic data interchange
+	1401. electronic data processing
+	1402. electronic filing
+	1403. electronic funds transfer system
+	1404. electronic graffiti
+	1405. electronic learning
+	1406. electronic mail
+	1407. electronic organizer
+	1408. electronic point-of-sale system
+	1409. electronic publishing
+	1410. electronic signature
+	1411. electrophotographic printer
+	1412. electrosensitive printer
+	1413. electrostatic beam deflection
+	1414. electrostatic printer
+	1415. electrostatic storage device
+	1416. electrothermal printer
+	1417. element
+	1418. Ellison, Larry (1944-)
+	1419. ELSE rule
+	1420. EMACS
+	1421. email
+	1422. EMAS
+	1423. embedded computer
+	1424. embedded servo
+	1425. embedding
+	1426. EMC
+	1427. EMI
+	1428. emittance texture
+	1429. emitter-coupled logic
+	1430. emoticon
+	1431. empty list
+	1432. empty medium
+	1433. EMS memory
+	1434. emulation
+	1435. encapsulation
+	1436. encoder
+	1437. encoding
+	1438. encryption
+	1439. end-around-carry
+	1440. end-around shift
+	1441. end-to-end control
+	1442. end-to-end encryption
+	1443. endomorphism
+	1444. endorder traversal
+	1445. energizer
+	1446. engine
+	1447. engineering of computer-based systems
+	1448. enhanced small-device interface
+	1449. ENIAC
+	1450. enterprise modelling
+	1451. enterprise resource planning
+	1452. enterprise server
+	1453. entity
+	1454. entity-relationship-attribute diagram, model
+	1455. entropy
+	1456. entry point
+	1457. entry time
+	1458. enumeration
+	1459. enumeration type
+	1460. environment
+	1461. environment mapping
+	1462. EOB
+	1463. EOD
+	1464. EOF
+	1465. EOJ
+	1466. EOR
+	1467. EOT
+	1468. EOT marker
+	1469. epimorphism
+	1470. epistemology
+	1471. EPLD
+	1472. epoch
+	1473. EPOS
+	1474. EPPT
+	1475. EPROM
+	1476. EPSF
+	1477. EPSI
+	1478. equation
+	1479. equational logic
+	1480. equational specification
+	1481. equational term rewriting system
+	1482. equipotent
+	1483. equivalence
+	1484. equivalence class
+	1485. equivalence gate
+	1486. equivalence relation
+	1487. equivalent binary digits
+	1488. equivalent trees
+	1489. ERA diagram
+	1490. ERA model
+	1491. erasable programmable logic device
+	1492. erasable PROM
+	1493. erase head
+	1494. eraser
+	1495. erasure channel
+	1496. ergodic source
+	1497. ergonomics
+	1498. Erlang
+	1499. ERP
+	1500. error
+	1501. error-correcting code
+	1502. error-detecting code
+	1503. error-indicating recording
+	1504. error bound
+	1505. error burst
+	1506. error control
+	1507. error correction
+	1508. error detection
+	1509. error diagnostics
+	1510. error estimate
+	1511. error handling
+	1512. error management
+	1513. error message
+	1514. error propagation
+	1515. error rate
+	1516. error recovery
+	1517. error routine
+	1518. error seeding
+	1519. escape character
+	1520. escape sequence
+	1521. escrow
+	1522. ESD
+	1523. ESDI
+	1524. ESF coating
+	1525. ESPRIT[^1]
+	1526. ESSI
+	1527. ETB
+	1528. Ether
+	1529. Ethernet
+	1530. Ethernet card
+	1531. ETX/ACK
+	1532. Euclid's algorithm
+	1533. Euclidean norm
+	1534. Eudora
+	1535. EUI-48
+	1536. EUI-64
+	1537. Euler's formula
+	1538. Euler's method
+	1539. Euler cycle
+	1540. Euler operators
+	1541. EUREKA
+	1542. European Article Numbering code
+	1543. evaluation function
+	1544. even parity
+	1545. event-driven
+	1546. event input
+	1547. event tree analysis
+	1548. evolutionary programming
+	1549. exa-
+	1550. exbi-
+	1551. Excel
+	1552. exception
+	1553. exception handling
+	1554. excess-3 code
+	1555. excess-n notation
+	1556. excess factor
+	1557. exchangeable disk store
+	1558. exchange selection
+	1559. exclusive-NOR gate
+	1560. exclusive-OR gate
+	1561. exclusive-OR operation
+	1562. executables
+	1563. execute
+	1564. execute phase
+	1565. execute step
+	1566. execution states
+	1567. execution time
+	1568. executive program
+	1569. executive state
+	1570. exerciser
+	1571. exhaustive search
+	1572. existential quantifier
+	1573. exit point
+	1574. EXNOR gate
+	1575. EXOR gate
+	1576. expanded memory
+	1577. expansion((of an algebra))
+	1578. expansion card
+	1579. expansion slot
+	1580. expectation
+	1581. experimental design
+	1582. expert systems
+	1583. explicit address
+	1584. exploratory data analysis
+	1585. exponent
+	1586. exponentially bounded algorithm
+	1587. exponential waveform
+	1588. exponentiation
+	1589. export list
+	1590. exposed terminal problem
+	1591. ExpressCard
+	1592. expression
+	1593. expression of requirements
+	1594. extended addressing
+	1595. extended ASCII
+	1596. extended BNF
+	1597. extended memory
+	1598. extended precision
+	1599. extensibility
+	1600. extensible addressing
+	1601. extensible language
+	1602. extensible stylesheet language
+	1603. extension
+	1604. extension field
+	1605. Exterior Gateway Protocol
+	1606. external device
+	1607. external fragmentation
+	1608. external interrupt
+	1609. external node
+	1610. external path length((of a tree))
+	1611. external schema((of a database))
+	1612. external sorting
+	1613. external storage
+	1614. extranet
+	1615. extrapolation
+	1616. extrapolation method
+	1617. extrinsic semiconductor
+	1618. Facebook
+	1619. facet
+	1620. facial animation
+	1621. facilities management
+	1622. facsimile
+	1623. factorable code
+	1624. factor analysis
+	1625. factorial designs
+	1626. Fagan inspection
+	1627. fairness
+	1628. fair surface design
+	1629. fallback
+	1630. false position method
+	1631. fan-in
+	1632. fan-out
+	1633. Fano coding
+	1634. FAT
+	1635. father file
+	1636. fault
+	1637. fax
+	1638. fax card
+	1639. FCC
+	1640. FDDI
+	1641. F distribution
+	1642. FDM
+	1643. feed
+	1644. feed-forward register
+	1645. feedback
+	1646. feedback queue
+	1647. feedback register
+	1648. Feistel cipher
+	1649. Ferranti Mark I
+	1650. ferroelectric display
+	1651. FET
+	1652. fetch-execute cycle
+	1653. fetch protect
+	1654. FF
+	1655. Fibonacci search
+	1656. Fibre Channel
+	1657. fibre distributed data interface
+	1658. fibre optics
+	1659. fiche
+	1660. field
+	1661. field-effect transistor
+	1662. field-programmable devices
+	1663. field bus
+	1664. FIFO
+	1665. fifth generation
+	1666. file
+	1667. file activity
+	1668. file allocation table
+	1669. file descriptor
+	1670. file directory
+	1671. file editing
+	1672. file extension
+	1673. file format
+	1674. file integrity
+	1675. file locking
+	1676. file maintenance
+	1677. file management
+	1678. file management system
+	1679. file manager
+	1680. file mark
+	1681. file name
+	1682. file organization
+	1683. file recovery
+	1684. file server
+	1685. file system
+	1686. file transfer
+	1687. file transfer protocol
+	1688. fill area primitive
+	1689. fill character
+	1690. filling
+	1691. film scanner
+	1692. filter
+	1693. filtering
+	1694. filtering bridge
+	1695. find
+	1696. find and change
+	1697. finite-difference method
+	1698. finite-element analysis
+	1699. finite-element method
+	1700. finite-length arithmetic
+	1701. finite-model theory
+	1702. finite-state automaton
+	1703. finite automaton
+	1704. finite field
+	1705. finite sequence
+	1706. finite set
+	1707. FIPS
+	1708. Fire codes
+	1709. Firefox
+	1710. firewall
+	1711. FireWire
+	1712. firing rule
+	1713. firmware
+	1714. FIRST
+	1715. first-class type
+	1716. first-order logic
+	1717. first-order term
+	1718. first fit
+	1719. first generation
+	1720. first in first out
+	1721. first normal form
+	1722. fixed-base system
+	1723. fixed-length arithmetic
+	1724. fixed-length code
+	1725. fixed-point notation
+	1726. fixed-point theorem
+	1727. fixed-radix system
+	1728. fixed disk drive
+	1729. fixed head((of a disk drive))
+	1730. fixed point
+	1731. fixed space
+	1732. fixed word length computer
+	1733. flag
+	1734. flame
+	1735. flash memory
+	1736. flat-panel display
+	1737. flat addressing
+	1738. flatbed plotter
+	1739. flatbed scanner
+	1740. flat file model
+	1741. flat pack
+	1742. flat screen
+	1743. flexible array
+	1744. flexible disk cartridge
+	1745. flexible manufacturing system
+	1746. flexible PCB
+	1747. flicker
+	1748. flip-flop
+	1749. float
+	1750. floating-point notation
+	1751. floating-point operation
+	1752. flood-fill
+	1753. floor
+	1754. flop
+	1755. floppy-disk drive
+	1756. floppy disk
+	1757. flops
+	1758. floptical disk
+	1759. flowchart
+	1760. flow control
+	1761. fluid logic
+	1762. Flynn's classification
+	1763. FM
+	1764. FMECA
+	1765. FMS
+	1766. FMV
+	1767. folding
+	1768. font
+	1769. font cartridge
+	1770. footprint
+	1771. foreground processing
+	1772. foreign key
+	1773. forest
+	1774. for loop
+	1775. form
+	1776. formal language
+	1777. formal language theory
+	1778. formal logic
+	1779. formal method
+	1780. formal parameter
+	1781. formal specification
+	1782. formal system
+	1783. formal verification
+	1784. formant
+	1785. format
+	1786. format string bug
+	1787. formatter
+	1788. form factor
+	1789. form feed
+	1790. form letter
+	1791. form overlay
+	1792. form stop
+	1793. Forth
+	1794. Fortran
+	1795. forum
+	1796. forward bias
+	1797. forward chaining
+	1798. forward error correction
+	1799. forward error recovery
+	1800. forward pruning
+	1801. Fourier analysis
+	1802. Fourier descriptors
+	1803. Fourier series
+	1804. Fourier transform
+	1805. four Russians algorithm
+	1806. fourth-generation language
+	1807. fourth generation((of computers))
+	1808. FP
+	1809. FPA
+	1810. FPGA
+	1811. FPLA
+	1812. FQDN
+	1813. fractal
+	1814. fractal image compression
+	1815. fraction
+	1816. fractional-level zooming
+	1817. fractional part
+	1818. fractional replication
+	1819. fragmentation
+	1820. frame
+	1821. frame buffer
+	1822. frame grabber
+	1823. frameless rendering
+	1824. frame relay
+	1825. frames
+	1826. framework
+	1827. Framework Programme
+	1828. Framework Programmes, I-VII
+	1829. FranzLisp
+	1830. 419 fraud
+	1831. Fredholm integral equation
+	1832. free-space list
+	1833. freedom of information
+	1834. free list
+	1835. free monoid
+	1836. free occurrence
+	1837. free semigroup
+	1838. Free Software Foundation
+	1839. free text retrieval
+	1840. free variable
+	1841. freeware
+	1842. freeze-frame
+	1843. frequency
+	1844. frequency distribution
+	1845. frequency divider
+	1846. frequency division multiplexing
+	1847. frequency domain
+	1848. frequency function
+	1849. frequency modulation
+	1850. frequency shift keying
+	1851. Fresnel factor
+	1852. friction drive
+	1853. front-end processor
+	1854. front end
+	1855. FSA
+	1856. FSF
+	1857. FSK
+	1858. FTAM
+	1859. FTFL code
+	1860. FTP
+	1861. FTVL code
+	1862. Fujitsu
+	1863. full-motion video
+	1864. full adder
+	1865. full backup
+	1866. full custom
+	1867. full duplex
+	1868. full subtractor
+	1869. full text retrieval
+	1870. full tree
+	1871. function
+	1872. functional cohesion
+	1873. functional dependency
+	1874. functional design
+	1875. functional languages
+	1876. functional partitioning
+	1877. functional specification
+	1878. functional testing
+	1879. functional unit
+	1880. function key
+	1881. function point analysis
+	1882. functor
+	1883. fuser
+	1884. fusible link
+	1885. fuzzy control
+	1886. fuzzy logic
+	1887. FYI
+	1888. G
+	1889. Galerkin's method
+	1890. gallium arsenide devices
+	1891. Galois field
+	1892. games console
+	1893. games port
+	1894. game theory
+	1895. game tree
+	1896. Gane-Sarson
+	1897. Gantt chart
+	1898. gap theorem
+	1899. garbage
+	1900. garbage collection
+	1901. garbage in garbage out
+	1902. gate
+	1903. gate array
+	1904. Gates, Bill (1955-)
+	1905. gateway
+	1906. gather write
+	1907. Gaussian distribution
+	1908. Gaussian elimination
+	1909. Gaussian noise
+	1910. Gaussian quadrature
+	1911. GB
+	1912. Gbps
+	1913. GBS method
+	1914. Gbyte
+	1915. GCD
+	1916. GCR
+	1917. GDI
+	1918. geek
+	1919. gender bender
+	1920. general-purpose computer
+	1921. general-purpose interface bus
+	1922. generalized additive models
+	1923. generalized Church-Turing thesis
+	1924. generalized linear model
+	1925. generalized sequential machine
+	1926. general recursive function
+	1927. generating polynomial
+	1928. generations
+	1929. generative grammar
+	1930. generator
+	1931. generator matrix
+	1932. generic
+	1933. generic compaction
+	1934. generics
+	1935. geodesic
+	1936. geographic information system
+	1937. Gflops
+	1938. gibi-
+	1939. giga-
+	1940. Gigabit Ethernet
+	1941. GIGO
+	1942. Gilbert-Varshamov bound
+	1943. GINO-F
+	1944. GIS
+	1945. Git
+	1946. GKS
+	1947. 4GL
+	1948. glass-box testing
+	1949. glass teletype
+	1950. glitch
+	1951. global
+	1952. global discretization error
+	1953. global illumination
+	1954. global optimization
+	1955. glossy reflection
+	1956. glyph
+	1957. GNU
+	1958. goal-directed processing
+	1959. Gödel's incompleteness theorems
+	1960. Gödel numbering((of a formal system))
+	1961. Golay codes
+	1962. golden section search
+	1963. gold master
+	1964. Good-de Bruijn diagram
+	1965. goodness-of-fit test
+	1966. Google
+	1967. gopher
+	1968. Gopher
+	1969. Goppa codes
+	1970. GOTO statement
+	1971. Gouraud shading
+	1972. GP
+	1973. GPIB
+	1974. GPU
+	1975. graceful degradation
+	1976. graded index fibre
+	1977. Gragg's extrapolation method
+	1978. grammar
+	1979. grandfather file
+	1980. granularity
+	1981. graph
+	1982. graphical device interface
+	1983. graphical kernel system
+	1984. graphical user interface
+	1985. graphic characters
+	1986. graphics
+	1987. graphics adapter
+	1988. graphics mode
+	1989. graphics primitive
+	1990. graphics processing unit
+	1991. graphics program
+	1992. graphics tablet
+	1993. graphics workstation
+	1994. graph plotter
+	1995. graph rewrite system
+	1996. gravity field
+	1997. Gray code
+	1998. greatest common divisor
+	1999. greatest lower bound
+	2000. greedy method
+	2001. greeking
+	2002. Green Book
+	2003. Greibach normal form
+	2004. grey-level array
+	2005. grey-level image
+	2006. grey importer
+	2007. greyscale
+	2008. grid
+	2009. Grosch's law
+	2010. ground term
+	2011. group
+	2012. group code
+	2013. group code recording
+	2014. group graph
+	2015. group mark
+	2016. groupware
+	2017. Grzegorczyk hierarchy
+	2018. gsm mapping
+	2019. guest
+	2020. GUI
+	2021. gulp
+	2022. H2020
+	2023. hacker
+	2024. hacking
+	2025. Hadamard codes
+	2026. Hadamard matrices
+	2027. half-adder
+	2028. half-height factor
+	2029. half duplex
+	2030. halfplane
+	2031. half subtractor
+	2032. halfsurface
+	2033. halftone
+	2034. half word
+	2035. halt
+	2036. halting problem
+	2037. Hamiltonian cycle
+	2038. Hamming bound
+	2039. Hamming codes
+	2040. Hamming distance
+	2041. Hamming metric
+	2042. Hamming radius
+	2043. Hamming space
+	2044. Hamming sphere
+	2045. Hamming weight
+	2046. hand-held computer
+	2047. handle
+	2048. handshake
+	2049. hands off
+	2050. hands on
+	2051. hang-up
+	2052. Hanoi
+	2053. haptics
+	2054. hard-sectored disk
+	2055. hard copy
+	2056. hard disk
+	2057. hard return
+	2058. hardware
+	2059. hardware character generation
+	2060. hardware circuitry
+	2061. hardware description
+	2062. hardware maintenance
+	2063. hardware reliability
+	2064. hardware security
+	2065. hardwired
+	2066. Harvard Mark I
+	2067. hash function
+	2068. hashing
+	2069. hashing algorithm
+	2070. hash P complete
+	2071. hash search
+	2072. hash table
+	2073. hash total
+	2074. hash value
+	2075. Haskell
+	2076. Hatley-Pirbhai
+	2077. Hayes-compatible
+	2078. Hayes command set
+	2079. hazard
+	2080. hazard and operability study
+	2081. HAZOP
+	2082. HCI
+	2083. HD
+	2084. HDD
+	2085. HD DVD
+	2086. HDLC
+	2087. HDTV
+	2088. head
+	2089. head-mounted display
+	2090. head-per-track drive
+	2091. head crash
+	2092. headend
+	2093. header
+	2094. heap
+	2095. heapsort
+	2096. height
+	2097. height-balanced
+	2098. helical scan
+	2099. help desk
+	2100. help system
+	2101. hemi cube
+	2102. He model
+	2103. Hermite interpolation
+	2104. hertz
+	2105. heuristic
+	2106. heuristic search
+	2107. Hewlett-Packard
+	2108. hex
+	2109. hexadecimal notation
+	2110. hex pad
+	2111. hibernate
+	2112. hidden-line/hidden-surface removal
+	2113. hierarchical addressing
+	2114. hierarchical B-splines
+	2115. hierarchical class structure
+	2116. hierarchical cluster analysis
+	2117. hierarchical communication system
+	2118. hierarchical database system
+	2119. hierarchical data model
+	2120. hierarchical encoding
+	2121. hierarchical memory structure
+	2122. hierarchical radiosity
+	2123. hierarchy
+	2124. hierarchy of functions
+	2125. High-Definition DVD
+	2126. high-level design
+	2127. high-level language
+	2128. high-level scheduler
+	2129. high-order language
+	2130. high-pass filter
+	2131. higher-order term
+	2132. highlight
+	2133. highlighting
+	2134. High Performance File System
+	2135. High Sierra standard
+	2136. highway
+	2137. hill climbing
+	2138. hi res
+	2139. histogram
+	2140. hit rate
+	2141. HLHSR
+	2142. HLS colour model
+	2143. HMD
+	2144. HMI
+	2145. Hoare logic
+	2146. HOL
+	2147. hold time
+	2148. Hollerith, Herman (1860-1929)
+	2149. Hollerith code
+	2150. holographic memory
+	2151. holographic scanner
+	2152. home key
+	2153. home page
+	2154. homogeneous coordinates
+	2155. homomorphic image((of a formal language))
+	2156. homomorphism
+	2157. HOOD
+	2158. hook into
+	2159. hop
+	2160. HOPE
+	2161. Horizon 2020
+	2162. horizon effect
+	2163. horizontal check
+	2164. horizontal microinstruction
+	2165. horizontal recording
+	2166. Horn clause
+	2167. Horner's method
+	2168. host computer
+	2169. hosting
+	2170. host language
+	2171. hot key
+	2172. hot link
+	2173. hotspot
+	2174. hot swapping
+	2175. housekeeping
+	2176. HP-PA(Trademark)
+	2177. HPF
+	2178. HPFS
+	2179. HSI
+	2180. HSV colour model
+	2181. HTML
+	2182. HTTP
+	2183. hub
+	2184. hub polling
+	2185. hue
+	2186. Huffman encoding
+	2187. human-computer interface
+	2188. hybrid computer
+	2189. hybrid integrated circuit
+	2190. hypercube
+	2191. hyperedge
+	2192. hypergraph
+	2193. hyperlink
+	2194. hypermedia
+	2195. hypertext
+	2196. hypertext mark-up language
+	2197. hypertext transfer protocol
+	2198. hypervisor
+	2199. I/O
+	2200. I/O channel
+	2201. I/O port
+	2202. I2C
+	2203. IA5
+	2204. IAB
+	2205. IANA
+	2206. IAP
+	2207. IAS
+	2208. IAS computer
+	2209. IBG
+	2210. IBM
+	2211. IBM-compatible
+	2212. IBM system 360
+	2213. IC
+	2214. ICANN
+	2215. ICC
+	2216. ICL
+	2217. icon
+	2218. ICON
+	2219. ICR
+	2220. ICT
+	2221. IDE
+	2222. IDEF
+	2223. idempotent law
+	2224. identification
+	2225. identifier
+	2226. identity burst
+	2227. identity element
+	2228. identity function
+	2229. identity matrix
+	2230. idle time
+	2231. IDMS
+	2232. IDP
+	2233. IEC
+	2234. IEEE
+	2235. IEEE1394
+	2236. IESG
+	2237. IETF
+	2238. if and only if statement
+	2239. IFE
+	2240. iff
+	2241. IFIP
+	2242. IFS
+	2243. if then else statement
+	2244. IGBT
+	2245. IGES
+	2246. ignore character
+	2247. IH
+	2248. iLink
+	2249. ill-conditioned
+	2250. illegal character
+	2251. illegal instruction
+	2252. ILLIAC IV
+	2253. illumination
+	2254. IMA
+	2255. iMac
+	2256. image
+	2257. image capture
+	2258. image compression
+	2259. image display
+	2260. image file format
+	2261. image grabber
+	2262. image management system
+	2263. image map
+	2264. image processing
+	2265. image tearing
+	2266. image understanding
+	2267. image warping
+	2268. IMAP
+	2269. immediate access store
+	2270. immediate addressing
+	2271. immunization
+	2272. impact printer
+	2273. imperative languages
+	2274. implementation
+	2275. implicant
+	2276. implicit surface
+	2277. implied addressing
+	2278. import list
+	2279. imprecision
+	2280. impulse noise
+	2281. IMS
+	2282. in-line function
+	2283. inactive
+	2284. incidence matrix
+	2285. inclusive-OR gate
+	2286. inclusive-OR operation
+	2287. incomplete knowledge-based system
+	2288. incompleteness theorems
+	2289. inconsistent
+	2290. increment
+	2291. incremental backup
+	2292. incremental compaction
+	2293. incremental compiler
+	2294. incremental dump
+	2295. incremental learning
+	2296. indegree
+	2297. indeterminate system
+	2298. index
+	2299. indexed addressing
+	2300. indexed file
+	2301. indexed sequential file
+	2302. index register
+	2303. indicator
+	2304. indirect addressing
+	2305. individual attributes
+	2306. induction
+	2307. industrial robotics
+	2308. Industry Standard Architecture
+	2309. inequality
+	2310. inference
+	2311. inference engine
+	2312. infinite resolution
+	2313. infix notation
+	2314. influence
+	2315. informatics
+	2316. information
+	2317. information and communications technology
+	2318. information destination
+	2319. information engineering
+	2320. information hiding
+	2321. information leak
+	2322. information management system
+	2323. information processing
+	2324. information retrieval
+	2325. information science
+	2326. information sciences
+	2327. information source
+	2328. information storage and retrieval
+	2329. information structure
+	2330. information superhighway
+	2331. information system
+	2332. information systems
+	2333. information technology
+	2334. information theory
+	2335. INFORMIX
+	2336. infrared interface
+	2337. infrastructure-based architecture
+	2338. INGRES
+	2339. inherent addressing
+	2340. inherently ambiguous language
+	2341. inheritance
+	2342. inhibit
+	2343. initial-value problem
+	2344. initial algebra
+	2345. initialization
+	2346. injection
+	2347. inkjet printer
+	2348. inner code
+	2349. inoculation
+	2350. inorder traversal
+	2351. input
+	2352. input-limited process
+	2353. input/output
+	2354. input area
+	2355. input device
+	2356. insert
+	2357. install
+	2358. instance
+	2359. instantaneously decodable
+	2360. instantiation
+	2361. instruction
+	2362. instruction counter
+	2363. instruction cycle
+	2364. instruction format
+	2365. instruction register
+	2366. instruction repertoire
+	2367. integer programming
+	2368. integral domain
+	2369. integrated data processing
+	2370. integrated device electronics
+	2371. integrated services digital network
+	2372. integrated systems factory
+	2373. integration testing
+	2374. interactive development environment
+	2375. interblock gap
+	2376. interior node
+	2377. internal schema (of a database)
+	2378. internal sorting
+	2379. Internet access provider
+	2380. Internet Architecture Board
+	2381. Internet café
+	2382. Internet Engineering Steering Group
+	2383. Internet Engineering Task Force
+	2384. Internet Message Access Protocol
+	2385. Internet Protocol Security
+	2386. Internet service provider
+	2387. interrupt service routine
+	2388. interrupt vector
+	2389. intrinsic semiconductor
+	2390. inverse homomorphic image
+	2391. inverse video
+	2392. invertible matrix
+	2393. IOP
+	2394. IP address
+	2395. IPC
+	2396. IPv4
+	2397. IPv6
+	2398. IRQ
+	2399. irrecoverable error
+	2400. irreducible polynomial
+	2401. IS
+	2402. ISA
+	2403. ISF
+	2404. ISOC
+	2405. ISR
+	2406. IT
+	2407. Itanium
+	2408. ITron
+	2409. ITU-T
+	2410. Jackson method
+	2411. Java Development Kit
+	2412. JCL
+	2413. join operator
+	2414. JSP
+	2415. JTMP
+	2416. jukebox
+	2417. jump instruction
+	2418. Just-in-time compiler
+	2419. JVM
+	2420. K
+	2421. K-complexity
+	2422. k-connectivity
+	2423. KADS
+	2424. Karmarkar's method
+	2425. kB
+	2426. Kbps
+	2427. KBS
+	2428. Kbyte
+	2429. KDC
+	2430. KDD
+	2431. kernel field
+	2432. keyboard encoder
+	2433. keypunch
+	2434. keyring drive
+	2435. KMP algorithm
+	2436. LSD
+	2437. leaf
+	2438. Kleene-plus
+	2439. Kleene closure
+	2440. k lookahead
+	2441. knowledge discovery in databases
+	2442. knowledge elicitation
+	2443. L-system
+	2444. LAN
+	2445. language
+	2446. language concatenation
+	2447. large-scale integration
+	2448. last in first out
+	2449. layer
+	2450. LBA
+	2451. LCC
+	2452. LCM
+	2453. LDU decomposition
+	2454. leading edge((of a pulse))
+	2455. learning
+	2456. least fixed point
+	2457. least squares approximation
+	2458. least upper bound
+	2459. left-linear grammar
+	2460. left shift
+	2461. left subtree
+	2462. length-increasing grammar
+	2463. letter((in formal language theory))
+	2464. letter-equivalent languages
+	2465. letter distribution
+	2466. leverage point
+	2467. LF
+	2468. library
+	2469. life cycle
+	2470. light-emitting diode
+	2471. light intensity
+	2472. Lightweight Directory Access Protocol
+	2473. Lindenmeyer system
+	2474. linear array
+	2475. linear list
+	2476. linearly dependent
+	2477. linear predictor
+	2478. linear regression model
+	2479. link layer
+	2480. link access procedure
+	2481. linkage
+	2482. liquid-crystal display
+	2483. listing
+	2484. list insertion sort
+	2485. list structure
+	2486. local-echo mode
+	2487. local discretization error
+	2488. local optimization
+	2489. logarithmic search algorithm
+	2490. logical cohesion
+	2491. logical connective
+	2492. logical expression
+	2493. logical operator
+	2494. logical record
+	2495. logical shift
+	2496. logic cell array
+	2497. logic design
+	2498. logic device
+	2499. logic function
+	2500. logic languages
+	2501. logic operator
+	2502. logit
+	2503. logout
+	2504. longitudinal redundancy check
+	2505. lookahead
+	2506. lookup table
+	2507. loop invariant
+	2508. low-level scheduler
+	2509. LRC
+	2510. LZW
+	2511. M
+	2512. M-O
+	2513. M2FM
+	2514. Mac
+	2515. MAC-48
+	2516. machine address
+	2517. machine intelligence
+	2518. machine word
+	2519. MAC layer
+	2520. macroassembler
+	2521. macrogenerator
+	2522. macroinstruction
+	2523. macroprocessor
+	2524. magnetic-ink character recognition
+	2525. magnetic head
+	2526. magnetic stripe
+	2527. magnetic tape unit
+	2528. mag tape
+	2529. mail
+	2530. mailshot
+	2531. main store
+	2532. MAN
+	2533. man-machine interface
+	2534. MANET
+	2535. Mann Whitney U-test
+	2536. mantissa
+	2537. many-sorted algebra
+	2538. many-sorted predicate calculus
+	2539. many-sorted signature
+	2540. map
+	2541. mapping
+	2542. marching tetrahedra
+	2543. marginal check
+	2544. mark-space ratio
+	2545. marker
+	2546. mark reading
+	2547. mask-programmable device
+	2548. masquerade
+	2549. massively parallel
+	2550. master
+	2551. mastering
+	2552. matching
+	2553. matrix-updating methods
+	2554. matrix norm
+	2555. maximum-length sequence
+	2556. maximum likelihood, method of
+	2557. MB
+	2558. Mbps
+	2559. Mbyte
+	2560. MCLs
+	2561. MCSs
+	2562. MDNS
+	2563. MDR
+	2564. Mealy machine
+	2565. mean
+	2566. mean deviation
+	2567. mebi-
+	2568. Media Access Control address
+	2569. median
+	2570. medium
+	2571. meet operator
+	2572. memory stick
+	2573. merge exchange sort
+	2574. merge sort
+	2575. MFM
+	2576. microfiche
+	2577. MIMD processor
+	2578. mini DIN connector
+	2579. minimization operator
+	2580. minimum-cost spanning tree
+	2581. mirroring
+	2582. mirror set
+	2583. MIS
+	2584. MISD processor
+	2585. mixed-base system
+	2586. mixed-radix system
+	2587. MMI
+	2588. MOB
+	2589. mod-ncounter
+	2590. modal dialogue
+	2591. modeless dialogue
+	2592. modular counter
+	2593. module coding review
+	2594. module design review
+	2595. module invariant
+	2596. module testing
+	2597. modulo-n check
+	2598. monalphabetic
+	2599. monic polynomial
+	2600. Moore machine
+	2601. morphism
+	2602. MOS integrated circuit
+	2603. MOS transistor
+	2604. moth-eye
+	2605. moving-average methods
+	2606. MSD
+	2607. MS Windows
+	2608. MTTR
+	2609. MTU
+	2610. mu-law encoding
+	2611. MUA
+	2612. multiaddress
+	2613. multicore cable
+	2614. multimedia mail
+	2615. multimode counter
+	2616. multipart stationery
+	2617. multiple-master font
+	2618. multiple-valued logic
+	2619. multiple chain
+	2620. multiple inheritance
+	2621. multiple instruction, multiple data
+	2622. multiple precision
+	2623. multiple regression model
+	2624. multiplexer channel
+	2625. multiprecision
+	2626. multiprocessor
+	2627. multisession compatible
+	2628. multiset
+	2629. multiunit processor
+	2630. mu operator
+	2631. n-type semiconductor
+	2632. name lookup
+	2633. nanostore
+	2634. narrowband
+	2635. NAT
+	2636. native code
+	2637. natural binary-coded decimal
+	2638. NBCD
+	2639. negative acknowledgment
+	2640. negator
+	2641. negentropy
+	2642. neighbour
+	2643. nested blocks
+	2644. nesting store
+	2645. Net
+	2646. Netnews
+	2647. network-attached storage
+	2648. network interconnection
+	2649. network layer
+	2650. network topology
+	2651. network virtual terminal
+	2652. newsgroup
+	2653. Newton-Cotes rules
+	2654. NFS
+	2655. Nigerian fraud
+	2656. nine's complement
+	2657. NLP
+	2658. Noetherian
+	2659. noise immunity
+	2660. noise margin
+	2661. noise sequence
+	2662. nonbinary logic
+	2663. nonequivalence gate
+	2664. nonequivalence operation
+	2665. nonerasable programmable device
+	2666. nonfunctional requirements
+	2667. nonhierarchical cluster analysis
+	2668. nonlinear regression model
+	2669. nonlocal entity
+	2670. nonprocedural language
+	2671. nonreturn to zero
+	2672. nonterminal
+	2673. norm
+	2674. normalized coordinates
+	2675. normal subgroup
+	2676. not-equivalence gate
+	2677. notch filter
+	2678. notebook
+	2679. NOT gate
+	2680. NP
+	2681. npn
+	2682. NS chart
+	2683. NSPACE
+	2684. NTFS
+	2685. nucleus
+	2686. nullary operation
+	2687. nullity
+	2688. null link
+	2689. null list
+	2690. null string
+	2691. number cruncher
+	2692. numerical stability
+	2693. Nyquist rate
+	2694. occam-pi
+	2695. octant
+	2696. odd-even check
+	2697. ODP
+	2698. OFB
+	2699. OLAP
+	2700. OLE
+	2701. OMG
+	2702. OMS
+	2703. NOS
+	2704. on-the-fly error recovery
+	2705. one's complement
+	2706. one-address instruction
+	2707. one-plus-one address instruction
+	2708. one-shot
+	2709. one-to-one function
+	2710. one-to-one onto function
+	2711. one-way linked list
+	2712. O notation
+	2713. onto function
+	2714. op-amp
+	2715. op code
+	2716. open-reel tape
+	2717. Open Group
+	2718. Open Software Foundation
+	2719. open term
+	2720. operational research
+	2721. operation table
+	2722. optical character recognition
+	2723. optical mark reading
+	2724. optical media
+	2725. optimum programming
+	2726. optional product
+	2727. optoisolator
+	2728. OR
+	2729. order code
+	2730. ordered tree
+	2731. order of precedence
+	2732. order register
+	2733. organizational information system
+	2734. Organizationally Unique Identifier
+	2735. OROM
+	2736. orthogonal analysis
+	2737. orthogonal equations
+	2738. orthogonal memory
+	2739. orthonormal analysis
+	2740. orthonormal functions
+	2741. OSI
+	2742. OSI reference model
+	2743. OTLP
+	2744. OUI
+	2745. outdegree
+	2746. outer code
+	2747. outlier
+	2748. P
+	2749. p-n junction
+	2750. p-type semiconductor
+	2751. packet assembler/disassembler
+	2752. packet switching network
+	2753. page frame
+	2754. paper throw
+	2755. PAR
+	2756. paradoxical combinator
+	2757. parallel ATA
+	2758. parallel composition
+	2759. parallel rewriting system
+	2760. parallel running
+	2761. parallel shooting method
+	2762. parametric techniques
+	2763. parent file
+	2764. parenthesis-free notation
+	2765. parity-check code
+	2766. parity bit
+	2767. parser
+	2768. partial correctness, proof of
+	2769. partially ordered set
+	2770. partition-exchange sort
+	2771. pass instruction
+	2772. passive-matrix LCD
+	2773. PATA
+	2774. patchcord
+	2775. pattern inventory
+	2776. payload
+	2777. PC-compatible
+	2778. PCB
+	2779. PC card
+	2780. PC clone
+	2781. PCM
+	2782. PCMCIA card
+	2783. PDL
+	2784. PDN
+	2785. PDP series
+	2786. PE
+	2787. pebi-
+	2788. peephole optimization
+	2789. pel
+	2790. pen drive
+	2791. Pentium
+	2792. perfective maintenance
+	2793. permanent error
+	2794. permanent virtual circuit
+	2795. persistent data
+	2796. pervasive computing
+	2797. phase-change inkjet printer
+	2798. phase-encoded
+	2799. phase-locked loop
+	2800. phase modulation
+	2801. phototransistor
+	2802. physical layer
+	2803. picture processing
+	2804. PIO
+	2805. PIPO
+	2806. PISO
+	2807. pixelization
+	2808. PKZIP
+	2809. PL/1
+	2810. PL/C
+	2811. plaintext
+	2812. plasma display
+	2813. PLL
+	2814. plotter font
+	2815. plugboard
+	2816. plug compatible
+	2817. PMS
+	2818. pnp
+	2819. pocket sorting
+	2820. point-to-point control
+	2821. point-to-point protocol
+	2822. polyalphabetic
+	2823. polynomial equation
+	2824. polynomial interpolation
+	2825. polynomially bounded algorithm
+	2826. PON
+	2827. pop
+	2828. POP3
+	2829. P operation
+	2830. population
+	2831. POS
+	2832. poset
+	2833. POS expression
+	2834. positional system
+	2835. positive acknowledgment
+	2836. Postal
+	2837. postedit
+	2838. postfix notation
+	2839. post office protocol
+	2840. POTS
+	2841. power down
+	2842. power routing
+	2843. power up
+	2844. ppm
+	2845. predictive PCM
+	2846. presentation layer
+	2847. PRF
+	2848. PRI
+	2849. primary index
+	2850. prime implicant
+	2851. primitive polynomial
+	2852. primitive recursive set
+	2853. principal component analysis
+	2854. printed circuit board
+	2855. print server
+	2856. priority encoder
+	2857. priority interrupt
+	2858. priority processing
+	2859. private key
+	2860. probability calculus
+	2861. procedural cohesion
+	2862. process model
+	2863. product group
+	2864. production
+	2865. productive time
+	2866. program analysis
+	2867. programmable array logic
+	2868. programmable electronic system
+	2869. programmable gate array
+	2870. programmable logic array
+	2871. programmable logic device
+	2872. programmable ROM
+	2873. program maintenance
+	2874. programmed logic array
+	2875. programmer workbench
+	2876. programming support environment
+	2877. program proving
+	2878. program virus
+	2879. project support environment
+	2880. PROM
+	2881. proper ancestor
+	2882. proper subgraph
+	2883. proportional spacing
+	2884. protocol hierarchy
+	2885. protocol stack
+	2886. protocol translation
+	2887. prototype
+	2888. pseudo-operation
+	2889. pseudocode
+	2890. pseudonymous record
+	2891. pseudorandom numbers
+	2892. PSG
+	2893. PSK
+	2894. PSL/PSA
+	2895. PSPACE
+	2896. PSTN
+	2897. PSU
+	2898. PSW
+	2899. PTIME
+	2900. PTO
+	2901. public key certificate
+	2902. public tool interface
+	2903. pulse-triggered flip-flop
+	2904. pulse height
+	2905. pulse width
+	2906. punched card reader
+	2907. pure BCD
+	2908. pushdown stack
+	2909. pushup stack
+	2910. PVC
+	2911. q-valued
+	2912. QAM
+	2913. QBE
+	2914. QC
+	2915. quad
+	2916. quad core
+	2917. quality assurance
+	2918. quartile
+	2919. quaternary logic
+	2920. quibinary code
+	2921. racking
+	2922. radix notation
+	2923. RAM drive
+	2924. random-access memory
+	2925. random sampling
+	2926. rank correlation
+	2927. rank correlation coefficient
+	2928. rasterop
+	2929. rational language
+	2930. raw error rate
+	2931. Rayleigh-Ritz method
+	2932. RBL
+	2933. RBT
+	2934. RDBMS
+	2935. RDF Site Summary
+	2936. reachability matrix
+	2937. read-mostly media
+	2938. read-only memory
+	2939. read-while-write check
+	2940. read/write memory
+	2941. read clock
+	2942. read error
+	2943. read head
+	2944. realism
+	2945. Really Simple Syndication
+	2946. reason-maintenance system
+	2947. recording density
+	2948. recoverable error
+	2949. recursive descent parsing
+	2950. recursively decidable problem
+	2951. recursively solvable problem
+	2952. recursively undecidable
+	2953. recursive real number
+	2954. reduced instruction set computer
+	2955. reducible polynomial
+	2956. reduction system
+	2957. reflexive closure
+	2958. regenerate
+	2959. register insertion ring
+	2960. register optimization
+	2961. regula falsi
+	2962. regular operations
+	2963. relative complement
+	2964. relatively prime
+	2965. relative product
+	2966. repeat-until loop
+	2967. repertoire
+	2968. repo
+	2969. report generator
+	2970. request for comments
+	2971. requirements specification
+	2972. residual mean square
+	2973. residue arithmetic
+	2974. residue check
+	2975. resistor-transistor logic
+	2976. resource descriptor
+	2977. response function
+	2978. retry
+	2979. return
+	2980. reverse authentication
+	2981. reversible execution
+	2982. rewrite rule
+	2983. rewriting system
+	2984. RGB components
+	2985. Richardson extrapolation
+	2986. Rich Site Summary
+	2987. rich text format
+	2988. right-linear grammar
+	2989. right shift
+	2990. right subtree
+	2991. Rijndael algorithm
+	2992. ring counter
+	2993. RIP
+	2994. rise time
+	2995. RJE
+	2996. RM code
+	2997. roll-call polling
+	2998. roller ball
+	2999. roll stationery
+	3000. root certificate
+	3001. root directory
+	3002. rooted tree
+	3003. ROSE
+	3004. routine
+	3005. routine maintenance
+	3006. row-ragged
+	3007. row vector
+	3008. RPC
+	3009. RS code
+	3010. RS flip-flop
+	3011. RTD Programme in IT
+	3012. RTOS
+	3013. rule-based system
+	3014. run-length limited encoding
+	3015. S-gate
+	3016. SA
+	3017. SA/RT
+	3018. safe harbor
+	3019. safety integrity
+	3020. sampled-data system
+	3021. SATA
+	3022. satisfiability problem
+	3023. SCA
+	3024. scalable
+	3025. scalable font
+	3026. scalable processor architecture
+	3027. scalable vector graphics
+	3028. SCC
+	3029. schema
+	3030. Scott-Ershov domain
+	3031. screened cable
+	3032. screen editor
+	3033. scroll bar
+	3034. SDPM
+	3035. search and insertion algorithm
+	3036. search tree
+	3037. second-order logic
+	3038. secondary index
+	3039. secondary memory
+	3040. secondary ray
+	3041. second normal form
+	3042. Secure Digital Card
+	3043. selector channel
+	3044. self-dual
+	3045. self-learning process
+	3046. self-referent list
+	3047. self-relative addressing
+	3048. semantic analysis
+	3049. semantic network
+	3050. semicomputable algebra
+	3051. semicomputable set
+	3052. semidecidable
+	3053. semidecidable set
+	3054. semidecision procedure
+	3055. sensor
+	3056. sentence
+	3057. sentence symbol
+	3058. sentential form
+	3059. sequential cohesion
+	3060. sequential composition
+	3061. serial programming
+	3062. session layer
+	3063. shading model
+	3064. Shannon's theorems
+	3065. Shannon-Fano coding
+	3066. Shannon-Hartley law
+	3067. shape blending
+	3068. share
+	3069. SHE
+	3070. shell script
+	3071. shellsort
+	3072. shielded twisted pair
+	3073. shift-reduce parsing
+	3074. shift keying
+	3075. sifting technique
+	3076. sig
+	3077. sigma algebra
+	3078. sigma language
+	3079. sigma tree
+	3080. sigma word
+	3081. signal operation
+	3082. sign bit
+	3083. signed-magnitude representation
+	3084. signed field
+	3085. significand
+	3086. sign off
+	3087. sign on
+	3088. silicon chip
+	3089. silicon disk
+	3090. SIMD processor
+	3091. Simple API for XML
+	3092. simple parity check
+	3093. simplex method
+	3094. single attach
+	3095. single in-line devices
+	3096. single instruction, multiple data
+	3097. sinking technique
+	3098. SIO
+	3099. SIPO
+	3100. SISD processor
+	3101. SISO
+	3102. SLA
+	3103. slice architecture
+	3104. slot reader
+	3105. slotted ring
+	3106. smart machine
+	3107. smart terminal
+	3108. smiley
+	3109. SML
+	3110. SO
+	3111. SOA
+	3112. soft-sectored disk
+	3113. soft object
+	3114. soft return
+	3115. Software Capability Maturity Model
+	3116. Software Development Kit
+	3117. software library
+	3118. software metric
+	3119. software monitor
+	3120. software package
+	3121. software process
+	3122. solid-state memory
+	3123. solid inkjet printer
+	3124. solvable problem
+	3125. SOP expression
+	3126. sort generator
+	3127. sort merge
+	3128. source alphabet
+	3129. source compression coding
+	3130. source lines of code
+	3131. source listing
+	3132. source set
+	3133. space complexity
+	3134. space quantization
+	3135. spanning subgraph
+	3136. special character
+	3137. spectral analysis
+	3138. sphere-packing bound
+	3139. spidering
+	3140. spread
+	3141. SQA
+	3142. SQL injection
+	3143. SRAM
+	3144. SRB
+	3145. SR flip-flop
+	3146. SSU
+	3147. standard deviation
+	3148. standard error
+	3149. standby time
+	3150. star closure
+	3151. start symbol
+	3152. start time
+	3153. state-transition function
+	3154. statement label
+	3155. static RAM
+	3156. station
+	3157. statistical analysis
+	3158. statistical prediction
+	3159. status
+	3160. status register
+	3161. stepped index fibre
+	3162. stepsize
+	3163. stiff equations
+	3164. STM
+	3165. stochastic model
+	3166. storage area network
+	3167. storage element
+	3168. storage hierarchy
+	3169. storage location
+	3170. STP
+	3171. streamer
+	3172. stride
+	3173. strongly terminating
+	3174. strong typing
+	3175. structured analysis
+	3176. structured coding
+	3177. sub-Nyquist sampling
+	3178. sublist
+	3179. subnet
+	3180. subrecursive hierarchy
+	3181. subschema
+	3182. subtree
+	3183. subversion
+	3184. successive approximation
+	3185. successive over-relaxation
+	3186. suffix notation
+	3187. sumcheck
+	3188. super-Nyquist sampling
+	3189. supertwisted nematic display
+	3190. SuperVGA
+	3191. supervisor call
+	3192. supervisor state
+	3193. surface patch
+	3194. suspended process
+	3195. SVC
+	3196. SWIFT
+	3197. swipe reader
+	3198. Sybase
+	3199. Sylvester matrices
+	3200. symmetric difference
+	3201. symmetric group
+	3202. symmetric list
+	3203. synchronous digital hierarchy
+	3204. synchronous optical network
+	3205. synchronous TDM
+	3206. syntactic error
+	3207. syntax analyser
+	3208. syntax analysis
+	3209. syntax tree
+	3210. system box
+	3211. system crash
+	3212. system development
+	3213. system dictionary
+	3214. system software
+	3215. system specification
+	3216. system testing
+	3217. T-gate
+	3218. T-SQL
+	3219. T-type flip-flop
+	3220. T2L
+	3221. tagged image file format
+	3222. tape-bounded Turing machine
+	3223. tape cartridge
+	3224. tape deck
+	3225. tape drive
+	3226. tape label
+	3227. tape marker
+	3228. tape unit
+	3229. target alphabet
+	3230. target computer
+	3231. TB
+	3232. TBS
+	3233. Tbyte
+	3234. TCP
+	3235. t distribution
+	3236. TDM
+	3237. TDR
+	3238. tebi-
+	3239. telecommuting
+	3240. teleprinter
+	3241. temporal cohesion
+	3242. ten's complement
+	3243. ter
+	3244. term algebra
+	3245. terminal node
+	3246. terminal symbol
+	3247. termination, proof of
+	3248. term language
+	3249. ternary logic
+	3250. test data
+	3251. test oracle
+	3252. test run
+	3253. test suite
+	3254. text formatter
+	3255. TFEL
+	3256. TFT
+	3257. TGA
+	3258. The Anatomy of an Internet Address
+	3259. theory of types
+	3260. thin Ethernet
+	3261. thin wire
+	3262. third-party maintenance
+	3263. third normal form
+	3264. three-address instruction
+	3265. three-dimensional array
+	3266. three-state output
+	3267. three-term control
+	3268. thumb drive
+	3269. tiling
+	3270. tiling structure
+	3271. time-bounded Turing machine
+	3272. time complexity
+	3273. time quantization
+	3274. tint fill
+	3275. tip node
+	3276. TLB
+	3277. TLU
+	3278. TM
+	3279. toggling speed
+	3280. tool
+	3281. toolkit
+	3282. total correctness, proof of
+	3283. total recursive function
+	3284. touchpad
+	3285. TP monitor
+	3286. tracker
+	3287. trailing edge
+	3288. transfer rate
+	3289. transformational semantics
+	3290. transformation monoid
+	3291. transform domain
+	3292. transistor-transistor logic
+	3293. translation
+	3294. transmission channel
+	3295. Transmission Control Protocol
+	3296. transmission control unit
+	3297. transportable
+	3298. transport layer
+	3299. trapezoidal rule
+	3300. treelike network
+	3301. trial function
+	3302. triangle inequality
+	3303. TRS
+	3304. true complement
+	3305. truncation
+	3306. trunk
+	3307. TSP
+	3308. TTF
+	3309. TTS
+	3310. TTY
+	3311. tuple
+	3312. Turing computability
+	3313. two's complement
+	3314. two-address instruction
+	3315. two-dimensional array
+	3316. two-norm
+	3317. two-plus-one address
+	3318. two-way linked list
+	3319. type 0, 1, 2, 3 language
+	3320. Type 1 font
+	3321. Type 3 font
+	3322. typewriter terminal
+	3323. UDF
+	3324. UI
+	3325. UIMS
+	3326. ULA
+	3327. uncontrolled format string
+	3328. undecidable
+	3329. undirected graph
+	3330. unfolding
+	3331. Unified Modelling Language
+	3332. unilaterally connected graph
+	3333. unitary semiring
+	3334. unit matrix
+	3335. unit testing
+	3336. Universal Character Set
+	3337. universal flip-flop
+	3338. Universal Product Code
+	3339. universal quantifier
+	3340. universal serial bus
+	3341. unordered tree
+	3342. unshielded twisted pair
+	3343. unsolvable
+	3344. UP
+	3345. UPC
+	3346. up operation
+	3347. UPS
+	3348. upward compatibility
+	3349. user agent
+	3350. user manual
+	3351. user state
+	3352. UTP
+	3353. uvwxy lemma
+	3354. V&V
+	3355. V-series
+	3356. vaccine
+	3357. VADS
+	3358. validate
+	3359. validation
+	3360. value-added
+	3361. VAN
+	3362. van Wijngaarden grammar
+	3363. variable delay
+	3364. variant field
+	3365. variation
+	3366. VAX
+	3367. VB.NET
+	3368. VBA
+	3369. VBR
+	3370. VDI
+	3371. VDT
+	3372. vector norm
+	3373. Veitch diagram
+	3374. verification condition
+	3375. verification system
+	3376. vertical check
+	3377. vertical microinstruction
+	3378. vertical recording
+	3379. very large-scale integration
+	3380. VFAT
+	3381. VFD
+	3382. VFU
+	3383. Vienna Definition Language
+	3384. Vienna Development Method
+	3385. virtual connection
+	3386. Visual Basic 2005
+	3387. visual display unit
+	3388. VLE
+	3389. VMS
+	3390. voiceband
+	3391. voice coil
+	3392. voice mail
+	3393. Voice over Internet Protocol
+	3394. void set
+	3395. VoIP
+	3396. Volterra integral equation
+	3397. volume label
+	3398. V operation
+	3399. voting logic
+	3400. VR
+	3401. VSO
+	3402. VV&T
+	3403. VW-grammar
+	3404. W3
+	3405. W3C
+	3406. wafer-scale integration
+	3407. wait operation
+	3408. Walsh transform
+	3409. WAN
+	3410. WC
+	3411. weakly terminating
+	3412. weak mobility
+	3413. Web
+	3414. WEB
+	3415. Web-based Distributed Authoring and Versioning
+	3416. web log
+	3417. web of trust
+	3418. web page
+	3419. web spider
+	3420. weighted least squares
+	3421. weighted mean
+	3422. well-formed formula
+	3423. wff
+	3424. W grammar
+	3425. while loop
+	3426. while program
+	3427. white-box testing
+	3428. white pages
+	3429. wide area information service
+	3430. Williams-tube store
+	3431. Windows ME
+	3432. windows system
+	3433. WinZip
+	3434. wireless access point
+	3435. wireless applications protocol
+	3436. WLAN
+	3437. word length
+	3438. word size
+	3439. word wrap
+	3440. workbench
+	3441. work file
+	3442. worst-case analysis
+	3443. wp
+	3444. WPA
+	3445. writeable control store
+	3446. write error
+	3447. write head
+	3448. WSDL
+	3449. WWW
+	3450. X-series
+	3451. Xeon
+	3452. XMS memory
+	3453. XOR
+	3454. XS3 code
+	3455. XSLT
+	3456. XSS
+	3457. XUI
+	3458. y2k
+	3459. yellow Ethernet
+	3460. zero-trip loop
+	3461. zip file
+	3462. Ziv-Lempel compaction
 - Special
 	36. [[asynchronous communications interface adapter|ACIA]]
 	37. [[ACID]]
@@ -6711,3 +6681,31 @@ Year: 2016-04-01
 	59. [[approximation theory]]
 	60. [[array]]
 	61. [[assignment statement]]
+	62. [[Bézier curve]]
+	63. [[Bézier surface]]
+	64. [[biconditional]]
+	65. [[bijection]]
+	66. [[binary operation]]
+	67. [[binary prefixes]]
+	68. [[Blum's axioms]]
+	69. [[Boolean algebra]]
+	70. [[bottom-up parsing]]
+	71. [[cardinality]]
+	72. [[Cartesian product]]
+	73. [[category]]
+	74. [[Chinese remainder theorem]]
+	75. [[closed semiring]]
+	76. [[code]]
+	77. [[collocation methods]]
+	78. [[complexity classes]]
+	79. [[complexity measure]]
+	80. [[composition]]
+	81. [[computable algebra]]
+	82. [[computer graphics]]
+	83. [[concatenation]]
+	84. [[concurrent assignment]]
+	85. [[condition number]]
+	86. [[congruence relation]]
+	87. [[conjunction]]
+	88. [[connected graph]]
+	89. [[consensus]]

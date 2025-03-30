@@ -1,3 +1,7 @@
+---
+aliases:
+  - DCL
+---
 ## Synthesis
 - 
 ## Source [^1]

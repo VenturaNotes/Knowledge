@@ -14,8 +14,12 @@ aliases:
 
 ## Source[^3]
 - A method of systematically trying all possibilities to find secret information (eg a password or encryption key).
+
+## Source[^4]
+- An attempt to break a code (see CRYPTOGRAPHY) by brute force, by systematically running the decoding algorithm with each possible value of the key until the correct value is found. The possibility of a brute force attack is countered by making the range of possible key values so large that such an approach is not practical.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-4-network-security-quizzes/ks4-ocr-j277-1-4-network-security-quiz/
 [^2]: https://www.fortinet.com/resources/cyberglossary/brute-force-attack#:~:text=The%20hacker%20tries%20multiple%20usernames,gain%20access%20to%20user%20accounts.
 [^3]: [[Home Page - Glossary by ada computer science]]
+[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

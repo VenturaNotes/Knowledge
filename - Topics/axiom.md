@@ -5,7 +5,10 @@
 
 ## Source[^2]
 - A sentence or proposition that is not proved or demonstrated but is used as a starting point for deducing other conclusions. When used in economics, an axiom is any initial assumption from which other statements are logically derived. In this use, an axiom is not necessarily a self-evident truth but is instead a formal statement used in further deduction.
+## Source[^3]
+- In logic, a statement that is stipulated to be true for a particular chain of reasoning. See DEDUCTION.
 ## References
 
 [^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
