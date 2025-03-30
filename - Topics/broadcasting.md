@@ -1,7 +1,8 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- A message-routing algorithm in which a message is transmitted to all nodes in a network. Some data-communication media, such as the Ethernet, are inherently broadcast in nature. Address filtering is used to restrict the set of messages that any one host actually reads. The network service that delivers the message is known as broadcast service and is implemented using a special address, which all stations are prepared to accept. Other communication systems may require that a copy of the message be separately addressed to each possible recipient in order to implement broadcasting.
+- Broadcasting may be used for a variety of purposes. For instance, to find the shortest path to a destination, a message can be broadcast to all intermediate nodes repeatedly until the destination node is reached. If path information is recorded as the message traverses the network, the same path can be used for future messages to the same destination node. As a second example, in local area networks with a tree-like topology, or in satellite communication links with multiple ground stations within a beam radius, broadcasting can be used to simplify addressing. This allows certain messages, such as request for a bootstrap, to be sent to all hosts with the expectation that at least one host will be able to satisfy the request. Thirdly, a broadcast message may be one that carries general information of potential interest to all nodes on the net.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

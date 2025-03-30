@@ -34,6 +34,31 @@ aliases:
 
 ## Source[^6]
 - The number of (distinct) elements in a set.
+
+## Source[^7]
+- A measure of the size of a set. Two sets $S$ and $T$ have the same cardinality if there is a bijection from one to the other. $S$ and $T$ are said to be equipotent, often written as $S \sim T$. If the set $S$ is finite, then the cardinality of $S$ is the number of elements in the set. For an infinite set $S$, the idea of 'number' of elements no longer suffices. An important fact, discovered by Cantor, is that not all infinite sets have the same cardinality. The two most important 'grades' of infinite set can be illustrated as follows.
+
+  
+
+If $S$ is equipotent to the set of natural numbers
+
+$\{1,2,3, \ldots\}$
+
+then $S$ is said to have cardinality $\aleph_{0}$ (a symbol called aleph null).
+
+If $S$ is equipotent to the set of real numbers then $S$ is said to have cardinality $\mathbf{C}$, or cardinality of the continuum. It can be shown that in some sense
+
+  
+
+$$
+
+C=2^{\aleph 0}
+
+$$
+
+  
+
+since the real numbers can be put in bijective correspondence with the set of all subsets of natural numbers.
 ## References
 
 [^1]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^085ddd]]
@@ -42,3 +67,4 @@ aliases:
 [^4]: [[(Video) Set Theory - All-in-One Video by Dr. Will Wood]]
 [^5]: ChatGPT
 [^6]: [[Home Page - Glossary by ada computer science]]
+[^7]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

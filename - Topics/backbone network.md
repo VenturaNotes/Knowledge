@@ -1,7 +1,9 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- (bearer network) The underlying nodes of a multilevel distributed network, providing communication services for the rest of the network (the hosts). The backbone network usually consists of dedicated packet, message, or circuit switches connected by high-capacity trunk circuits, along with some special diagnostic and control equipment.
+- Backbone networks must be extremely reliable. For this reason they are usually built out of homogeneous (essentially similar) processors and run by a centralized administration, although the rest of the network may be highly heterogeneous and under distributed authority. Distributed procedures are often used to control the operation of the backbone network in order to reduce the possibility that a single failure might disrupt the entire network. When a central control system is used, there is usually a standby system ready to take over when the active system fails.
+- Backbone networks are often characterized by distributed traffic patterns. Packet switching may be used internally by backbone networks to take advantage of these traffic patterns, even though the backbone network may present a circuit switching appearance to external hosts (see VIRTUAL CIRCUIT). Traffic-pattern analysis may be used to construct backbone networks that minimize certain network parameters, such as average delay, circuit costs, etc. Backbone networks may themselves be multilevel, incorporating low-capacity terrestrial links, high-capacity terrestrial links, and satellite links.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The development of computer game playing methods to produce high-quality chess playing programs. Most programs are based on search techniques with sophisticated enhancements (see MINIMAX). Theoretical work on search has benefited from computer-chess experience$\textemdash$for example, through experiments on heuristics. Commercial and research systems of very high performance are now available. Particular interest has been taken in work at IBM to produce a chess-playing computer operating at the highest level. The computer known as Deep Thought, developed in the late 1980s, won the World Computer Chess Championship in 1989. In 1990 it was matched against the former world champion Garry Kasparov, who easily beat it $2-0$ in a two-match contest. Subsequently, Deep Thought was improved and installed on a RS/6000 SP supercomputer and in 1993 it was renamed Deep Blue. Kasparov played Deep Blue in 1996 and won the match by 3-1 with 2 drawn games. An improved version of Deep Blue capable of calculating 200 million moves in three minutes was produced and matched against Kasparov again in 1997. This time the computer won by 2-1 with 3 drawn games. Kasparov accused IBM of cheating by modifying the program during a match, although this was denied. In 2006 the then world champion Vladimir Kramnik lost 4-2 to a computer program Deep Fritz.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
