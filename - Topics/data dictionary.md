@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- Essentially a dictionary of the names used in the specifying documentation and programs for a data-processing application or group of related applications. Against each entry there would typically be the type of object being named (that is, whether it is a data item or field, record, file, report, screen display, etc.), its precise specification, some explanatory description of its use, and a reference to all places in the documentation and programs where it is used.
+- Developed in the late 1960s the purpose of such a dictionary was originally simply to assist in the maintenance of large-scale data-processing systems. The idea was further developed in the 1970s with the advent of special-purpose software systems to maintain such dictionaries, having features such as the automatic regeneration of Cobol data divisions as necessary when changes were made. These systems have evolved to include databases with features such as automatic DDL generation (see DATABASE LANGUAGE).
+- For large-scale and complex systems a data dictionary is a vital tool for the central control of naming, and of the semantics and syntax of the system. It is a tool widely used in database administration and increasingly to assist in the broader task of system design, many design methodologies being founded on the use of a data dictionary. The terms system dictionary and data directory may be used synonymously in the case of the more ambitious software-based dictionary systems.
+- The term data dictionary is sometimes used misleadingly by software product vendors to refer to the alphabetical listings of names automatically produced when database schema and data manipulation coding is being processed and compiled, and it is important not to confuse this use with the accepted technical meaning of the term.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

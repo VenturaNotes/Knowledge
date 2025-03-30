@@ -1,7 +1,10 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- The principle of defining a data type in terms of the operations that apply to objects of the type, with the constraint that the values of such objects can be modified and observed only by use of these operations. This application of the general principle of abstraction leads to the concept of an abstract data type.
+- Data abstraction is of very considerable importance in modern programming, especially for the coarse structuring of programs. Such use yields several benefits. The abstract data type provides a natural unit for specification and verification purposes (see MODULE SPECIFICATION). It provides some basis for high-level design, and is consistent with the principles of information hiding. The specification of the data type in terms of available operations provides all the information needed to make use of the data type while leaving maximum freedom of implementation, which indeed can be changed if required without affecting the users. There is also the possibility of developing a 'library' of useful data abstractions$\textemdash$stacks, queues, etc.
+- The typical implementation of an abstract data type within a program is by means of a multiprocedure module. This module has local data that can be used to represent a value of the type, and each procedure implements one of the operations associated with the type. The local data of the module can only be accessed by these procedures, so that the user of the data type can only access the operations and has no direct access to the representation. The implementer is therefore free to choose the representation, which remains 'invisible' to the users and can be changed if required. Each instance of the abstract data type employs one instance of the local data of the module to represent its value.
+- Proper support for such multiprocedure modules demands that the concept be recognized by the programming language, which must, for example, allow for the clustering of modules and data and have scope rules reflecting the desired restrictions on access. The first language to provide such support was SIMULA with its CLASS. Many modern languages now offer a similar facility. See also PACKAGE.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
