@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- A statement of the requirements that some envisaged computer system (or program) is expected to meet. In order to define these requirements adequately, it is normally necessary for the expression of requirements to address not just the envisaged system but also the environment in which that system is to operate.
+- A good expression of requirements should be one of the earliest products of any system-development project, and for a project of significant size it is of crucial importance, not least because errors introduced at the requirements stage tend to be the most expensive to correct. Since it is the first reasonably complete description of any given system, its production presents several significant problems. In particular it may be necessary to obtain information from many individuals, none of whom have a full understanding of all aspects of the envisaged system.
+- The expression of requirements is a primary vehicle for communication between the procurers of a system and its developers. It is useful to distinguish between user requirements and system or software requirements. User requirements are stated briefly in natural language using the jargon of the problem domain and primarily defining the nature of the problem to be solved by the computer-based system. This description should be free from any solution bias. System or software requirements represent the first step toward a solution to the problem and should be based on an abstract model but omitting any detailed design or implementation bias.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

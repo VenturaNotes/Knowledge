@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- The study of formal languages in the sense of sets of strings. A major branch of formal language theory concerns finite descriptions of infinite languages. Such a representation takes the form of an abstract device for generating or recognizing any string of the language (see GRAMMAR, L-SYSTEM, AUTOMATON). This branch of the subject has applications to the syntax of programming languages (as distinct from their semantics, which require quite different mathematical tools). Thus the set of all legal Java programs can be thought of as a formal language over the alphabet of Java tokens (see lexical analyzer). Grammars provide the basis for describing syntax, while automata underlie the design of parsers for it. On the other hand it was the desire to formalize natural languages that led to the initiation of the subject in 1956 by Noam Chomsky.
+- Automata also provide an abstract model for computation itself, thus linking formal language theory with the study of effective computability and complexity. Other issues in formal language theory include decidability of properties of languages, closure properties of language classes, and characterizations of language classes (see DYCK LANGUAGE). An example of a long-standing open question is the decidability of equivalence for deterministic push-down automata.
+- The subject has been extended beyond the study of strings to include the study of sets of trees, graphs, and infinite strings, resulting in many more applications.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

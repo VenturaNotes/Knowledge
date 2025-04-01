@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A mathematically and logically based framework for specifying, developing, and verifying systems. Formal methods typically allow a system to be viewed or represented as a mathematical formula. Hence, they enable an analyst to prove that a specification is feasible (can be implemented), to prove that an implementation is correct, and to prove the properties of a system without actually executing it.
+- A formal method generally comprises two main elements: a formal language or specification language, and a verification system involving a deductive apparatus. The language defines the authorized sentences or well-formed formulas (wff), and must be given independently of any possible interpretation of the sentences. The semantics of the language is determined by the meaning of each wff, which is not unique. Hence a language may have different semantics (for example, the same language may be used for describing a vending machine and a lottery system). The deductive apparatus has two components: axioms, i.e. formulas that cannot be derived from other wffs; and inference rules, stating how to produce new wffs from axioms or other wffs. In practice, the elements of a formal method are often not presented formally (i.e. by using a syntactical formulation such as BNF for the formal language, or an approach based on denotational semantics); definitions may also be used instead of axioms, and often an axiom in one method or system may be a theorem in another, and vice versa. A popular application of formal methods is for specifying systems properties, as in formal specifications. See also FORMAL VERIFICATION.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
