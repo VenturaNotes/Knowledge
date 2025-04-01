@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - In software development, an environment is a setup where software and applications are developed, tested, and deployed. Common environments include development, testing, staging, and production.
+## Source[^2]
+- (software environment) The set of facilities, such as operating system, windows management, database, etc., that is available to a program when it is being executed by a processor.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
+[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
