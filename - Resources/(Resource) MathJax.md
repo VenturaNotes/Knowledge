@@ -106,6 +106,8 @@ http://detexify.kirelabs.org/classify.html
 - Accents:  $\acute e$ , $\grave e$ 
 - Does not divide: $\huge\nmid$
 - Derivative: $\dot x$
+	- $\ddot x$ 
+		- Can more dots by adding a "d"
 - Ceil: $\lceil{x} \rceil$
 - Floor: $\lfloor x \rfloor$
 - Vertical Addition: $\begin{align} 124& \\ \underline{+\quad 53}& \\ 177& \end{align}$
