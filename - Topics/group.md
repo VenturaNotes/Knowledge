@@ -6,6 +6,56 @@
 	- (ii) there is an identity element $e$ in G such that $a \circ e = e \circ a = a$ for all $a$ in $G$
 	- (iii) for each $a$ in $G$, there is an inverse element $a'$ in $G$ such that $a \circ a' = a' \circ a = e$.
 - The group may be denoted by $(G, \circ)$, when it is necessary to specify the operation, but it may be called simply the group G when the intended operation is clear.
+
+## Source[^2]
+- A set $G$ on which there is defined a dyadic operation ${ }^{\circ}$ (mapping $G \times G$ into $G$ ) that satisfies the following properties:
+
+(a) ${ }^{\circ}$ is associative;
+
+(b) ${ }^{\circ}$ has an identity, i.e. there is a unique element $e$ in $G$ with the property that
+
+  
+
+$$
+
+x^{\circ} e=e^{\circ} x=x
+
+$$
+
+  
+
+for all $x$ in $G ; e$ is called the identity of the group;
+
+(c) inverses exist in $G$, i.e. for each $x$ in $G$ there is an inverse, denoted by $x^{-1}$, with the property that
+
+  
+
+$$
+
+x^{\circ} x^{-1}=x^{-1} \circ x=e
+
+$$
+
+  
+
+These are the group axioms.
+
+Certain kinds of groups are of particular interest. If the dyadic operation ${ }^{\circ}$ is commutative, the group is said to be a commutative group or an abelian group (named for the Norwegian mathematician Niels Abel).
+
+  
+
+If there is only a finite number of elements $n$ in the group, the group is said to be finite; $n$ is then the order of the group. Finite groups can be represented or depicted by means of a Cayley table.
+
+  
+
+If the group has a generator then it is said to be cyclic; a cyclic group must be abelian.
+
+The group is a very important algebraic structure that underlies many other algebraic structures such as rings and fields. There are direct applications of groups in the study of symmetry, in the study of transformations and in particular permutations, and also in error detecting and error correcting as well as in the design of fast adders.
+
+  
+
+Groups were originally introduced for solving an algebraic problem. By group theory it can be shown that algorithmic methods of a particular kind cannot exist for finding the roots of a general polynomial of degree greater than four. See also SEMIGROUP.
 ## References
 
 [^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
