@@ -33,6 +33,9 @@ aliases:
 
 ## Source[^5]
 - A function $f: S \to T$ is one-to-one if, whenever $s_1$ and $s_2$ are distinct elements of S, their images $f(s_1)$ and $f(s_2)$ are distinct elements of T. Equivalently, $f$ is one-to-one if $f(s_1) = $f(s_2)$ implies that $s_1 = s_2$. Synonymous with injective
+
+## Source[^6]
+- (one-to-one function) A function with the property that distinct elements in its domain are mapped onto distinct elements in the codomain. Formally,$$f: X \rightarrow Y$$is an injection if$$f\left(x_{1}\right)=f\left(x_{2}\right) \quad \text { implies } \quad x_{1}=x_{2}$$A common use of injections is to map or include elements of some smaller set, such as the set of integers, into a larger set, such as the set of real numbers.
 ## References
 
 [^1]: [[(34) Intro to Proofs - Injections Surjections Bijections - part 1 and 2]]
@@ -40,3 +43,4 @@ aliases:
 [^3]: ChatGPT
 [^4]: https://www.desmos.com/calculator
 [^5]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
