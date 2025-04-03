@@ -40,7 +40,7 @@ $$
 
 These are the group axioms.
 
-Certain kinds of groups are of particular interest. If the dyadic operation ${ }^{\circ}$ is commutative, the group is said to be a commutative group or an abelian group (named for the Norwegian mathematician Niels Abel).
+Certain kinds of groups are of particular interest. If the dyadic operation ${ }^{\circ}$ is commutative, the group is said to be a commutative group or an [[Commutative group|Abelian group]] (named for the Norwegian mathematician Niels Abel).
 
   
 
