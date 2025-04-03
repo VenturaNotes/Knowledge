@@ -23,7 +23,13 @@ aliases:
 
 ## Source[^2]
 - Protocol used to browse data
+
+## Source[^3]
+- HTTP (hypertext transport protocol) An application-level protocol with the lightness and speed necessary for distributed collaborative hypermedia information systems. It is generic, stateless, and object-oriented, with typing and negotiation of data representation, allowing systems to be built independently of the data being transferred. By extension of its request methods (commands), it can be used for many tasks, such as name servers and distributed object-management systems. HTTP has been in use by the World Wide Web since 1990, and is now described by RFCs 7230-5.
+- http://tools.ietf.org/html/ (not found)
+	- The HTTP (version 1.1) specification
 ## References
 
 [^1]: ChatGPT
 [^2]: https://youtu.be/NRckVJk9n0k?si=iGYuTxcHcFLF4y3E
+[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

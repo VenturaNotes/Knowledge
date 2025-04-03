@@ -23,6 +23,9 @@
 
 ## Source[^5]
 - The physical components of a computer system, such as the processor, memory devices, and input/output devices.
+
+## Source[^6]
+- The physical portion of a computer system, including the electrical/electronic components (e.g. devices and circuits), electromechanical components (e.g. a disk drive), and mechanical (e.g. cabinet) components. Compare SOFTWARE.
 ## References
 
 [^1]: ChatGPT
@@ -30,3 +33,4 @@
 [^3]: Google's Search Labs | AI Overview
 [^4]: https://quizizz.com/admin/quiz/5acb5f51c4daf70019c267e3/abstractions-quiz
 [^5]: https://spdload.com/blog/software-development-glossary/
+[^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

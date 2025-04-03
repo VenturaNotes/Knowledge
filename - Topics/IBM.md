@@ -1,7 +1,10 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- International Business Machines Corporation. IBM was incorporated in 1911, in the USA, as the Computing Tabulating Recording Company as a result of the merger of three companies, one of which had been Hermann Hollerith's Tabulating Machine Company, formed in 1896. It adopted its present name in 1924.
+- IBM occupied a dominating position in the computer industry from the mid-1950s to the 1980s. It was the largest computer manufacturer in the world, by any measure, and produced a wide range of processors, peripherals, software, and associated products, as well as related services. It operated all over the world. It owed its dominance primarily to its marketing strength. The architecture of its 360 range of computers, introduced in the early 1960s, became a de facto standard for mainframes.
+- The incorporation of the microprocessor into desktop computers of sufficient power to run useful business applications changed the emphasis from low volumes of mainframe computers, IBM's traditional strength, to very large numbers of smaller systems. It was IBM's version of the personal computer, the IBM PC, that set the standard, but paradoxically it was during the 1980s that IBM gradually lost its dominance. The very success of the PC series led competitors to introduce compatible machines (IBM had put the PC architecture in the public domain). These IBM-compatible machines sold at generally lower prices. In addition the growth of independent software producers meant that customers were no longer constrained to buy from IBM. IBM's subsequent ranges of personal computers, including the PS/2 series, have not achieved the same success.
+- IBM has recovered from the setbacks of the 1980s. It is still the largest IT company in the world and it continues to produce computer hardware, particularly servers, but the major part of its revenue now comes from software and services.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

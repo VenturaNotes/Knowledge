@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- International Computers Ltd. As ICT, International Computers and Tabulators Ltd., ICL was one of a considerable number of British computer companies active in the late 1950s and the 1960s. The computer manufacturing interests of Ferranti and Elliott Brothers were taken over by ICT in the 1960s, at which point the name ICL was adopted; at the same time, the computing interests of English Electric, LEO Computers, and Marconi were merged into a single company, which was also taken over by ICL, in the 1970s. In 1984, ICL itself became a wholly owned subsidiary of the UK company, Standard Telephones and Cable Ltd (STC). It ceased to be a UK company in the early 1990s, when it was taken over by the Japanese company, Fujitsu. Its identity gradually disappeared and the name was finally abandoned in 2002, when the operation was rechristened Fujitsu Services. The company's main activity in its later years was the provision of outsourcing services, particularly for large government contracts. It was the difficulties associated with some of these contracts that ultimately led to the disappearance of the ICL name.
+## References
+
+[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
