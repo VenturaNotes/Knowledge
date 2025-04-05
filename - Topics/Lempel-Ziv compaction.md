@@ -1,6 +1,7 @@
 ---
 aliases:
   - LZWcompaction
+  - Ziv-Lempel compaction
 ---
 ## Synthesis
 - 
