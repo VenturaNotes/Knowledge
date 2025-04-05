@@ -1,3 +1,7 @@
+---
+aliases:
+  - XS3 code
+---
 ## Synthesis
 - 
 ## Source [^1]

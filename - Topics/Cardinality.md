@@ -44,7 +44,7 @@ If $S$ is equipotent to the set of natural numbers
 
 $\{1,2,3, \ldots\}$
 
-then $S$ is said to have cardinality $\aleph_{0}$ (a symbol called aleph null).
+then $S$ is said to have cardinality $\aleph_{0}$ (a symbol called [[aleph null]]).
 
 If $S$ is equipotent to the set of real numbers then $S$ is said to have cardinality $\mathbf{C}$, or cardinality of the continuum. It can be shown that in some sense
 

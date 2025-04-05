@@ -13,7 +13,7 @@ Using this abstraction, it is easy to define a range of basic notions that play 
 
 (2) The reduction system $\rightarrow_{R}$ is Church-Rosser (or confluent) if for any $a \in A$ if there are $b_{1}, b_{2} \in A$ such that $a \rightarrow_{R} \mathrm{~b}_{1}$ and $a \rightarrow_{R} \mathrm{~b}_{2}$ then there exists $c \in A$ such that $b_{1}$ $\rightarrow_{R} \mathrm{c}$ and $b_{2} \rightarrow_{R} \mathrm{c}$.
 
-(3) The reduction system $\rightarrow_{R}$ is weakly terminating (or weakly normalizing) if for each $a \in A$ there is some normal form $b \in A$ so that $a \rightarrow_{R} \mathrm{~b}$.
+(3) The reduction system $\rightarrow_{R}$ is [[weakly terminating]] (or weakly normalizing) if for each $a \in A$ there is some normal form $b \in A$ so that $a \rightarrow_{R} \mathrm{~b}$.
 
 (4) The reduction system $\rightarrow_{R}$ is strongly terminating (or strongly normalizing or Noetherian) if there does not exist an infinite chain
 

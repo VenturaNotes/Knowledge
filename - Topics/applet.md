@@ -1,3 +1,7 @@
+---
+aliases:
+  - applets
+---
 ## Synthesis
 - 
 ## Source [^1]

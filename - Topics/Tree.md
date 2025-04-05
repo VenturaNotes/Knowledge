@@ -5,7 +5,7 @@ aliases:
 ## Synthesis
 - 
 ## Source [^1]
-- 1. Most commonly, short for rooted tree, i.e. a finite set of one or more nodes such that firstly there is a single designated node called the root and secondly the remaining nodes are partitioned into $n \geq 0$ disjoint sets, $T_{1}, T_{2}, \ldots, T_{n}$, where each of these sets is itself a tree. The sets $T_{1}, T_{2}, \ldots, T_{n}$ are called subtrees of the root. If the order of these subtrees is significant, the tree is called an ordered tree, otherwise it is sometimes called an unordered tree.
+- 1. Most commonly, short for rooted tree, i.e. a finite set of one or more nodes such that firstly there is a single designated node called the root and secondly the remaining nodes are partitioned into $n \geq 0$ disjoint sets, $T_{1}, T_{2}, \ldots, T_{n}$, where each of these sets is itself a tree. The sets $T_{1}, T_{2}, \ldots, T_{n}$ are called subtrees of the root. If the order of these subtrees is significant, the tree is called an ordered tree, otherwise it is sometimes called an [[unordered tree]].
 
   
 

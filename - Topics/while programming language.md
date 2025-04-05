@@ -19,7 +19,7 @@ $$
 
   
 
-where $x$ is any variable, $t$ is any term over the signature $\Sigma b$ is a Boolean term, and $S, S_{1}$, and $S_{2}$ are while programs. The role of the signature is to define the data types (and hence the types of variables needed) and the basic operations on data (and hence the terms that appear in assignments). The while programming language can compute functions and sets on any algebra with signature $\Sigma$. When applied to the simple algebra
+where $x$ is any variable, $t$ is any term over the signature $\Sigma b$ is a Boolean term, and $S, S_{1}$, and $S_{2}$ are [[while program|while programs]]. The role of the signature is to define the data types (and hence the types of variables needed) and the basic operations on data (and hence the terms that appear in assignments). The while programming language can compute functions and sets on any algebra with signature $\Sigma$. When applied to the simple algebra
 
   
 

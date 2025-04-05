@@ -1,6 +1,7 @@
 ---
 aliases:
   - WFF
+  - well-formed formula
 ---
 ## Synthesis
 - 

@@ -9,7 +9,7 @@ aliases:
 
   
 
-A graph is usually depicted in a pictorial form in which the vertices appear as dots or other shapes, perhaps labelled for identification purposes, and the edges are shown as lines joining the appropriate points. If direction is added to each edge of a graph, a directed graph or digraph is obtained. The edges then form a finite set of ordered pairs of distinct vertices, and are often called arcs. In the pictorial representation, arrows can be placed on each edge. With no direction specified, the graph is said to be undirected.
+A graph is usually depicted in a pictorial form in which the vertices appear as dots or other shapes, perhaps labelled for identification purposes, and the edges are shown as lines joining the appropriate points. If direction is added to each edge of a graph, a directed graph or digraph is obtained. The edges then form a finite set of ordered pairs of distinct vertices, and are often called [[arc|arcs]]. In the pictorial representation, arrows can be placed on each edge. With no direction specified, the graph is said to be undirected.
 
   
 

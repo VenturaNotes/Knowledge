@@ -5,11 +5,11 @@
 
   
 
-The only terms of the propositional calculus are the two symbols $T$ and $F$ (standing for true and false) together with variables for logical propositions, which are denoted by small letters $p, q, r, \ldots$; these symbols are basic and indivisible and are thus called atomic formulas.
+The only terms of the propositional calculus are the two symbols $T$ and $F$ (standing for true and false) together with variables for logical propositions, which are denoted by small letters $p, q, r, \ldots$; these symbols are basic and indivisible and are thus called [[atomic formulas]].
 
   
 
-The propositional calculus is based on the study of well-formed formulas, or wff for short. New wff of the form
+The propositional calculus is based on the study of well-formed formulas, or [[Well-formed formulas|WFF]] for short. New wff of the form
 
   
 

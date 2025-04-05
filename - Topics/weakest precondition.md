@@ -1,3 +1,8 @@
+---
+aliases:
+  - wp
+  - WP
+---
 ## Synthesis
 - 
 ## Source [^1]

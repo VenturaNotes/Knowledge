@@ -71,7 +71,15 @@ $$
 it can be determined whether two vertices are connected.
 
 It is also possible for adjacency matrices to be formed from Boolean matrices.
+
+## Source[^3]
+- For a graph $G$, which $n$ vertices $v_1, v_2, ..., v_n$, the adjacency matrix A is the $n\times n$ matrix $[a_{ij}]$ with $a_{ij}$ equaling the number of edges connecting $v_i$ to $v_j$. The matrix $A$ is symmetric if $G$ is not directed and the sum of any row's (or column's) entries is equal to the degree of the corresponding vertex. An example of a graph and its adjacency matrix $A$ is shown in the figure.
+- ![[Screenshot 2025-04-05 at 12.46.55 AM.png]]
+	- A graph G
+- ![[Screenshot 2025-04-05 at 12.47.10 AM.png]]
+	- The adjacency matrix of G
 ## References
 
 [^1]: [[Home Page - Glossary by ada computer science]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
