@@ -6539,11 +6539,6 @@ Year: 2016-04-01
 	1889. XSLT
 	1890. XSS
 	1891. XUI
-	1892. y2k
-	1893. yellow Ethernet
-	1894. zero-trip loop
-	1895. zip file
-	1896. Ziv-Lempel compaction
 - Special
 	36. [[asynchronous communications interface adapter|ACIA]]
 	37. [[ACID]]
