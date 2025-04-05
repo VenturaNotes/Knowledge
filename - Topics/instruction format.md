@@ -53,7 +53,7 @@ next instruction is taken
 
 from address z .
 
-The last may be called either a three-address instruction or a two-plus-one-address
+The last may be called either a three-address instruction or a [[two-plus-one-address]]
 
   
 

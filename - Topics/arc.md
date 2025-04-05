@@ -1,3 +1,7 @@
+---
+aliases:
+  - arcs
+---
 ## Synthesis
 - 
 ## Source [^1]

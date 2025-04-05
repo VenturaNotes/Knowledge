@@ -179,3 +179,5 @@ http://detexify.kirelabs.org/classify.html
 - Shapes
 	- $\square$
 	- $\lozenge$ 
+- Power set: $\wp$ 
+	- Used in 'algebra of sets' file

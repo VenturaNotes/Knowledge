@@ -5,7 +5,8 @@ aliases:
 ## Synthesis
 - 
 ## Source [^1]
-- A device that consists of a display, keyboard, and computer connection.
+- (visual display terminal, VDT) A device that consists of a display, keyboard, and computer connection.
+- VDT is another term for visual display unit
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

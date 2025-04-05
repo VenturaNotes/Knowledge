@@ -1,6 +1,7 @@
 ---
 aliases:
   - WLAN
+  - wireless local area network
 ---
 ## Synthesis
 - 

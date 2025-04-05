@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- The letter used by the ITU to categorize standards relating to data communications over digital circuits; the number following the letter identifies a particular standard. Some of the more important standards in the X -series are listed.
+- The letter used by the ITU to categorize standards relating to data communications over digital circuits; the number following the letter identifies a particular standard. Some of the more important standards in the [[X-series]] are listed.
 	- X3 PAD control;
 	- X25 data signaling between the equipment associated with the PTT and the user;
 	- X28 communication between a PAD and an ASCII device;

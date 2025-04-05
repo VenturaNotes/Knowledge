@@ -29,7 +29,7 @@ The first bit is a sign bit, denoting the sign of the significand. This is follo
 
   
 
-The exponent is often represented using excess-n notation. This means that a number, called the characteristic (or biased exponent), is stored instead of the exponent itself. To derive the characteristic for a floating-point number from its exponent, the bias (or excess factor) $n$ is added to the exponent. For example, for an 8-bit characteristic, exponents in the range -128 to +127 are represented in excess-128 notation by characteristics in the range 0 to 255 .
+The exponent is often represented using excess-n notation. This means that a number, called the characteristic (or [[biased exponent]]), is stored instead of the exponent itself. To derive the characteristic for a floating-point number from its exponent, the bias (or excess factor) $n$ is added to the exponent. For example, for an 8-bit characteristic, exponents in the range -128 to +127 are represented in excess-128 notation by characteristics in the range 0 to 255 .
 
   
 

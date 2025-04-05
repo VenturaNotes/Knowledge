@@ -21,7 +21,7 @@ Extra logic gating may be included in the RS device, and in more complex flip-fl
 
 Flip-flop. RS flip-flop, logic diagram, and truth table
 
-Various forms of flip-flop are available to perform specific functions; these include JK, D, T, and master-slave flip-flops. Flip-flops are important as memory devices in digital counters. The RS flip-flop is often considered to be the universal flip-flop since it forms the basic building block for more sophisticated implementations. JK, master-slave, and D flip-flops are all
+Various forms of flip-flop are available to perform specific functions; these include JK, D, T, and master-slave flip-flops. Flip-flops are important as memory devices in digital counters. The RS flip-flop is often considered to be the [[universal flip-flop]] since it forms the basic building block for more sophisticated implementations. JK, master-slave, and D flip-flops are all
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -19,7 +19,7 @@ repeat
 
 until 〈condition〉
 
-The first is a while loop and the second is a repeat-until loop. Apart from the obvious difference that the first specifies a continuation condition while the second specifies a termination condition, there is a more significant difference. The while loop is a [[zero-trip loop]], i.e. the body will not be executed at all if the condition is false the first time around. In contrast, the body of a repeat-until loop must be obeyed at least once.
+The first is a [[while loop]] and the second is a repeat-until loop. Apart from the obvious difference that the first specifies a continuation condition while the second specifies a termination condition, there is a more significant difference. The while loop is a [[zero-trip loop]], i.e. the body will not be executed at all if the condition is false the first time around. In contrast, the body of a repeat-until loop must be obeyed at least once.
 
   
 

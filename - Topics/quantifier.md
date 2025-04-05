@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- One of the two symbols $\forall$ or $\exists$ used in predicate calculus. $\forall$ is the universal quantifier and is read 'for all'. $\exists$ is the existential quantifier and is read 'there exists' or 'for some'. In either case the reference is to possible values of the variable $v$ that the quantifier introduces. $\forall v . F$ means that the formula $F$ is true for all values of $v$, while $\exists v . F$ means that $F$ is true for at least one value of $v$. As an example, suppose that $P(x, y)$ is the predicate ' $x$ is less than or equal to $y$ '. Then the following expression
+- One of the two symbols $\forall$ or $\exists$ used in predicate calculus. $\forall$ is the [[universal quantifier]] and is read 'for all'. $\exists$ is the existential quantifier and is read 'there exists' or 'for some'. In either case the reference is to possible values of the variable $v$ that the quantifier introduces. $\forall v . F$ means that the formula $F$ is true for all values of $v$, while $\exists v . F$ means that $F$ is true for at least one value of $v$. As an example, suppose that $P(x, y)$ is the predicate ' $x$ is less than or equal to $y$ '. Then the following expression
 
   
 
