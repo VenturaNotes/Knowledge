@@ -11,7 +11,11 @@
 - In three-dimensional arrays the position of each element is distinguished by three indexes. Arrays of higher dimension are similarly defined. 2. Short for disk array. See also RAID.
 - ![[Screenshot 2025-03-27 at 1.08.22 AM.png]]
 	- Array. Two-dimensional array
+
+## Source[^3]
+- An ordered collection of elements, usually numbers. A vector is an example of a 1-dimensional array, and a matrix is an example of a 2-dimensional array. Three or more dimensional arrays are more difficult to represent on paper, though the subscript notation $a_{i j}$ $=$ the element in the $i$-th row and $j$-th column of a matrix easily generalizes to higher dimensions. Arrays are equal if all corresponding elements are equal. Compare TENSOR.
 ## References
 
 [^1]: [[Home Page - Glossary by ada computer science]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
