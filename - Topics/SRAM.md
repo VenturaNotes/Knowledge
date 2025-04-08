@@ -1,3 +1,7 @@
+---
+aliases:
+  - static RAM
+---
 ## Synthesis
 - 
 ## Source [^1]

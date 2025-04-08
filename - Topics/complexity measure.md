@@ -5,7 +5,7 @@
 
   
 
-Given a Turing machine program $M$ and an input string $x$, then $\operatorname{Time}(M, x)$ is defined as the number of steps in the computation of $M$ on $x$ before $M$ halts. Time is undefined if $M$ does not halt on $x$. The time complexity of $M$ is defined to be the integer function $T_{\mathrm{M}}$ where
+Given a Turing machine program $M$ and an input string $x$, then $\operatorname{Time}(M, x)$ is defined as the number of steps in the computation of $M$ on $x$ before $M$ halts. Time is undefined if $M$ does not halt on $x$. The [[time complexity]] of $M$ is defined to be the integer function $T_{\mathrm{M}}$ where
 
   
 
@@ -23,7 +23,7 @@ $\operatorname{Space}(M, x)$ is similarly defined as the number of tape squares 
 
   
 
-space complexity $\mathbf{S}_{\mathbf{M}}$ is defined by
+[[space complexity]] $\mathbf{S}_{\mathbf{M}}$ is defined by
 
   
 

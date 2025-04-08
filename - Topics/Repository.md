@@ -1,3 +1,7 @@
+---
+aliases:
+  - repo
+---
 ## Synthesis
 - 
 ## Source [^1]
@@ -6,6 +10,7 @@
 
 ## Source[^2]
 - (repo) A location in which important data, such as program code, are stored.
+- repo: Short for repository, especially one used for storing source code
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/

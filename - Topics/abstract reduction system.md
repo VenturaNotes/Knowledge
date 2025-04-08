@@ -11,11 +11,11 @@ Using this abstraction, it is easy to define a range of basic notions that play 
 
 (1) An element $a \in A$ is a normal form for $\rightarrow_{R}$ if there does not exist $b$, different from $a$, such that $a \rightarrow_{R} \mathrm{~b}$.
 
-(2) The reduction system $\rightarrow_{R}$ is Church-Rosser (or confluent) if for any $a \in A$ if there are $b_{1}, b_{2} \in A$ such that $a \rightarrow_{R} \mathrm{~b}_{1}$ and $a \rightarrow_{R} \mathrm{~b}_{2}$ then there exists $c \in A$ such that $b_{1}$ $\rightarrow_{R} \mathrm{c}$ and $b_{2} \rightarrow_{R} \mathrm{c}$.
+(2) The [[reduction system]] $\rightarrow_{R}$ is Church-Rosser (or confluent) if for any $a \in A$ if there are $b_{1}, b_{2} \in A$ such that $a \rightarrow_{R} \mathrm{~b}_{1}$ and $a \rightarrow_{R} \mathrm{~b}_{2}$ then there exists $c \in A$ such that $b_{1}$ $\rightarrow_{R} \mathrm{c}$ and $b_{2} \rightarrow_{R} \mathrm{c}$.
 
 (3) The reduction system $\rightarrow_{R}$ is [[weakly terminating]] (or weakly normalizing) if for each $a \in A$ there is some normal form $b \in A$ so that $a \rightarrow_{R} \mathrm{~b}$.
 
-(4) The reduction system $\rightarrow_{R}$ is strongly terminating (or strongly normalizing or Noetherian) if there does not exist an infinite chain
+(4) The reduction system $\rightarrow_{R}$ is [[strongly terminating]] (or strongly normalizing or Noetherian) if there does not exist an infinite chain
 
   
 
@@ -42,6 +42,7 @@ $$
 (5) The reduction system $\rightarrow_{R}$ is complete if it is Church-Rosser and strongly terminating.
 
 (6) A reduction system is Church-Rosser and weakly terminating if, and only if, every element reduces to a unique normal form. Let $\equiv_{R}$ denote the smallest equivalence relation on $A$ containing $\rightarrow_{R}$. If $\rightarrow_{R}$ is a Church-Rosser weakly terminating reduction system then the set $N F\left(\rightarrow_{R}\right)$ of normal forms is a transversal for $\equiv_{R}$, i.e. a set that contains one and only one representative of each equivalence class.
+- Reduction system is short for abstract reduction system
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

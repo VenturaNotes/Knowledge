@@ -14,7 +14,7 @@ aliases:
 
 RAM. Typical organization of a RAM
 
-RAM devices can be classified as static or dynamic. Static RAM (SRAM) is fabricated from either bipolar or MOS components (see BIPOLAR TRANSISTOR, MOSFET); each cell is formed by an electronic latch whose contents remain fixed until written to or until the power is removed. Dynamic RAM (DRAM) cells, which comprise MOS devices, utilize the charge stored on a capacitance as a temporary store (see BUCKET); because of leakage currents, the cell contents must be refreshed at regular intervals. The design of RAM chips is evolving and new standards arise frequently. The trend is for RAM to be
+RAM devices can be classified as static or dynamic. [[SRAM|Static RAM]] (SRAM) is fabricated from either bipolar or MOS components (see BIPOLAR TRANSISTOR, MOSFET); each cell is formed by an electronic latch whose contents remain fixed until written to or until the power is removed. Dynamic RAM (DRAM) cells, which comprise MOS devices, utilize the charge stored on a capacitance as a temporary store (see BUCKET); because of leakage currents, the cell contents must be refreshed at regular intervals. The design of RAM chips is evolving and new standards arise frequently. The trend is for RAM to be
 
   
 

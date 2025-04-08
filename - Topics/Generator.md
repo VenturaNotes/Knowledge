@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 1. A program that accepts the definition of an operation that is to be accomplished, and automatically constructs a program for the purpose. The earliest example of this kind of program was the sort generator, which took a specification of the file format and the sorted order required, and produced a sorting program. This was followed by report generators, which constructed programs to print reports from files containing information in a specified format. The best-known program of this kind is RPG II. See also APPLICATION GENERATOR. 2. An element $g$ of a group $G$ with the property that the various powers
+- 1. A program that accepts the definition of an operation that is to be accomplished, and automatically constructs a program for the purpose. The earliest example of this kind of program was the [[sort generator]], which took a specification of the file format and the sorted order required, and produced a sorting program. This was followed by [[report generator|report generators]], which constructed programs to print reports from files containing information in a specified format. The best-known program of this kind is RPG II. See also APPLICATION GENERATOR. 2. An element $g$ of a group $G$ with the property that the various powers
 
   
 

@@ -9,7 +9,7 @@ Displayed or printed text can be enhanced using various features, including bold
 
   
 
-A font may be of fixed size when the shape is described by an array of pixels. Such fonts are commonly found in text terminals and printers where they occupy very little space in memory and require no processing or manipulation of the data. Fixed fonts provide the fastest printing and display but cannot satisfactorily be increased or reduced in size, i.e. scaled, unless they are represented by a scalable font. With a scalable font the character and symbol shapes are stored as a set of vectors and instructions. Because the data is described mathematically, it is possible to display and print such fonts to any desired size. The most common scalable-font systems are TrueType and PostScript fonts.
+A font may be of fixed size when the shape is described by an array of pixels. Such fonts are commonly found in text terminals and printers where they occupy very little space in memory and require no processing or manipulation of the data. Fixed fonts provide the fastest printing and display but cannot satisfactorily be increased or reduced in size, i.e. scaled, unless they are represented by a [[scalable font]]. With a scalable font the character and symbol shapes are stored as a set of vectors and instructions. Because the data is described mathematically, it is possible to display and print such fonts to any desired size. The most common scalable-font systems are TrueType and PostScript fonts.
 
   
 

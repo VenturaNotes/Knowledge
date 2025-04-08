@@ -1,6 +1,6 @@
 ---
 aliases:
-  - QEB
+  - QBE
 ---
 ## Synthesis
 - 

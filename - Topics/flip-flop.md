@@ -5,7 +5,7 @@
 
   
 
-The simplest form is the RS flip-flop; an implementation using NAND gates is shown in the diagram together with the flip-flop's truth table. A logic 1 on one of the two inputs either sets the Q output to logic 1 or resets Q to logic 0 . Output $\mathrm{Q}^{\prime}$; is the logical complement of Q . When $\mathrm{R}^{\prime}$ and $\mathrm{S}^{\prime}$ are both logic 1 (which is equivalent to R and S both logic 0 ), Q does not change state. The situation of both $\mathrm{R}^{\prime}$ and $\mathrm{S}^{\prime}$ at logic 0 is ambiguous and is avoided in more complex flip-flop implementations (see JK FLIP-FLOP). The outputs of this (and other) flip-flops are not just functions of the inputs but depend on both inputs and outputs. The device is thus a simple sequential circuit.
+The simplest form is the [[SR flip-flop|RS flip-flop]]; an implementation using NAND gates is shown in the diagram together with the flip-flop's truth table. A logic 1 on one of the two inputs either sets the Q output to logic 1 or resets Q to logic 0 . Output $\mathrm{Q}^{\prime}$; is the logical complement of Q . When $\mathrm{R}^{\prime}$ and $\mathrm{S}^{\prime}$ are both logic 1 (which is equivalent to R and S both logic 0 ), Q does not change state. The situation of both $\mathrm{R}^{\prime}$ and $\mathrm{S}^{\prime}$ at logic 0 is ambiguous and is avoided in more complex flip-flop implementations (see JK FLIP-FLOP). The outputs of this (and other) flip-flops are not just functions of the inputs but depend on both inputs and outputs. The device is thus a simple sequential circuit.
 
   
 

@@ -17,7 +17,7 @@ where $H^{\mathrm{T}}$ is the transpose of $H, I$ is the identity matrix, and $\
 
   
 
-The rows of any Hadamard matrix form an orthonormal basis, from which property follows many of their applications in the theory of codes, digital signal processing, and statistical sampling. When the order $m=2^{S}$, they are called Sylvester matrices.
+The rows of any Hadamard matrix form an orthonormal basis, from which property follows many of their applications in the theory of codes, digital signal processing, and statistical sampling. When the order $m=2^{S}$, they are called [[Sylvester matrices]].
 
   
 

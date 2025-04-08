@@ -17,7 +17,7 @@ where $I$ is the set of possible input symbols, $Q$ is the set of states, and $I
 
   
 
-The function $f$ is called a state-transition function. It is commonly represented either by a table or by a directed graph, known respectively as a state-transition table and a state-transition diagram. The figure shows two equivalent representations in which
+The function $f$ is called a [[state-transition function]]. It is commonly represented either by a table or by a directed graph, known respectively as a state-transition table and a state-transition diagram. The figure shows two equivalent representations in which
 
   
 

@@ -17,7 +17,7 @@ where $m$ is called the mantissa, $R$ is the radix (or base) of the number syste
 
   
 
-In the context of computing, a more common name for the mantissa is the significand.
+In the context of computing, a more common name for the mantissa is the [[significand]].
 
   
 

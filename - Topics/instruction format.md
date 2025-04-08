@@ -19,7 +19,7 @@ to contents of accumulator;
 
 sum remains in accumulator.
 
-An example of a three-address instruction is
+An example of a [[three-address instruction]] is
 
 add x,y,zi.e.
 

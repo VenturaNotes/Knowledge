@@ -21,7 +21,7 @@ $$
 
   
 
-then, if the machine is in state $q_{0}$ and reads $a$, it moves to state $q_{1}$ and outputs $x$, and so on. Assuming the starting state to be $q_{0}$, it can be seen for example that the input string abbbc is mapped to the output string xyyyz. This mapping from the set of all input strings to the set of all output strings, i.e. $I^{}$ to $O^{}$, is called the response function of the machine. The function $f$ comprises a state-transition function $\mathbf{f}_{Q}$ from $I \times Q$ to $Q$ and an output function $\mathbf{f}_{O}$ from $I \times Q$ to $O$.
+then, if the machine is in state $q_{0}$ and reads $a$, it moves to state $q_{1}$ and outputs $x$, and so on. Assuming the starting state to be $q_{0}$, it can be seen for example that the input string abbbc is mapped to the output string xyyyz. This mapping from the set of all input strings to the set of all output strings, i.e. $I^{}$ to $O^{}$, is called the [[response function]] of the machine. The function $f$ comprises a state-transition function $\mathbf{f}_{Q}$ from $I \times Q$ to $Q$ and an output function $\mathbf{f}_{O}$ from $I \times Q$ to $O$.
 
   
 

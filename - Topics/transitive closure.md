@@ -51,7 +51,7 @@ $$
 
 and that $R$ is a subset of $R^{}$.
 
-Reflexive closure is similar to transitive closure but includes the possibility that $n=0$. Transitive and reflexive closures play important roles in parsing and compiling techniques and in finding paths in graphs.
+[[Reflexive closure]] is similar to transitive closure but includes the possibility that $n=0$. Transitive and reflexive closures play important roles in parsing and compiling techniques and in finding paths in graphs.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
