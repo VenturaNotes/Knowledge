@@ -6315,23 +6315,17 @@ Year: 2016-04-01
 	1631. transmission control unit
 	1632. transportable
 	1633. transport layer
-	1634. trapezoidal rule
+	1634. trapezoidal rule 
 	1635. treelike network
 	1636. trial function
 	1637. triangle inequality
-	1638. TRS
+	1638. TRS 
 	1639. true complement
 	1640. truncation
 	1641. trunk
 	1642. TSP
-	1643. TTF
+	1643. TTF 
 	1644. TTS
-	1645. TTY
-	1646. tuple
-	1647. Turing computability
-	1648. two's complement
-	1649. two-address instruction
-	1650. two-dimensional array
 - Complete
 	1.  [[user manual]]
 	2. [[unitary semiring]]
@@ -6341,6 +6335,8 @@ Year: 2016-04-01
 	6. [[universal disk format|UDF]]
 	7. [[Type 3 font]]
 	8. [[type 0, 1, 2, 3 language]]
+	9. [[Turing computability]]
+	10. [[TTY]]
 - FormatA
 	1. [[predicate calculus]]
 	2. [[predictor-corrector methods]]
