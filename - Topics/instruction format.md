@@ -29,7 +29,7 @@ to contents of address $y$;
 
 sum is placed in location z .
 
-In some cases the last address is the address of the next instruction to be executed. The ability to specify this address was important when rotating (drum) main memories were prominent. Thus a two-address instruction such as
+In some cases the last address is the address of the next instruction to be executed. The ability to specify this address was important when rotating (drum) main memories were prominent. Thus a [[two-address instruction]] such as
 
 add x,y i.e.
 

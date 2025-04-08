@@ -1885,7 +1885,7 @@ Year: 2021-09-01
 	1375. Germain, (Marie) Sophie (1776-1831)
 	1376. Germain prime, Sophie
 	1377. Gershgorin's Theorem
-	1378. Gibbs' inequality
+	1378. [[Gibbs' inequality]]
 	1379. Gibbs, (Josiah) Willard (1839-1903)
 	1380. giga-
 	1381. Girard's theorem
@@ -2283,7 +2283,7 @@ Year: 2021-09-01
 	1773. LHS
 	1774. liar paradox
 	1775. Lie, (Marius) Sophus (1842-99)
-	1776. Lie algebra
+	1776. [[Lie algebra]]
 	1777. Lie correspondence
 	1778. Lie group
 	1779. life tables
@@ -3131,8 +3131,8 @@ Year: 2021-09-01
 	2621. quadrant
 	2622. quadratic complexity
 	2623. quadratic convergence
-	2624. quadratic equation
-	2625. quadratic field
+	2624. [[quadratic equation]]
+	2625. [[quadratic field]]
 	2626. quadratic form
 	2627. quadratic formula
 	2628. quadratic function

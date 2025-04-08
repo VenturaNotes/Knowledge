@@ -181,3 +181,5 @@ http://detexify.kirelabs.org/classify.html
 	- $\lozenge$ 
 - Power set: $\wp$ 
 	- Used in 'algebra of sets' file
+- Gothic g in Lie algebra
+	- $\mathfrak g$ 
