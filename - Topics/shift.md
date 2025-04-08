@@ -25,7 +25,7 @@ $$
 
   
 
-Similarly, a right shift of $m$ bits converts
+Similarly, a [[right shift]] of $m$ bits converts
 
   
 

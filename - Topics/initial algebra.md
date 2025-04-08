@@ -5,7 +5,7 @@
 
   
 
-Initial algebras have importance for the semantics of programming languages, abstract data types, and algebraic specifications. Of particular significance is the fact that, in the class of all $\Sigma$-algebras for a given signature $\Sigma$, an initial algebra is given by the terms or trees over $\Sigma$; this is often called the term algebra for $\Sigma$.
+Initial algebras have importance for the semantics of programming languages, abstract data types, and algebraic specifications. Of particular significance is the fact that, in the class of all $\Sigma$-algebras for a given signature $\Sigma$, an initial algebra is given by the terms or trees over $\Sigma$; this is often called the [[term algebra]] for $\Sigma$.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

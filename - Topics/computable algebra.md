@@ -71,7 +71,7 @@ $$
 
   
 
-A closely associated concept is that of a semicomputable algebra; this satisfies properties (a) and (b) above, and a third condition, weaker than (c), that whether or not two numbers in the set $\Omega$ code the same element of $A$ is recursively enumerable, rather than recursively decidable. $\varnothing$
+A closely associated concept is that of a [[semicomputable algebra]]; this satisfies properties (a) and (b) above, and a third condition, weaker than (c), that whether or not two numbers in the set $\Omega$ code the same element of $A$ is recursively enumerable, rather than recursively decidable. $\varnothing$
 
   
 

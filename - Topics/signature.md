@@ -1,7 +1,8 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 1. A collection of symbols intended to be associated with sets and with functions on and elements from the sets. Signatures provide names for the carrier sets, operations, and constants of algebras. They are central in the precise treatment of the syntax of many computer science concepts, including (a) abstract data types, (b) algebraic specifications, and (c) classes, modules, and objects. Typically, headers of modules are signatures. The specification of an Ada package is in effect a signature.
+- sig is short for signature (def. 2)
+1. A collection of symbols intended to be associated with sets and with functions on and elements from the sets. Signatures provide names for the carrier sets, operations, and constants of algebras. They are central in the precise treatment of the syntax of many computer science concepts, including (a) abstract data types, (b) algebraic specifications, and (c) classes, modules, and objects. Typically, headers of modules are signatures. The specification of an Ada package is in effect a signature.
 
   
 

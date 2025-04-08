@@ -5,7 +5,7 @@ aliases:
 ## Synthesis
 - 
 ## Source [^1]
-- A formal system for manipulating terms over a signature by means of rules. A set $R$ of rules (each a rewrite rule) creates an abstract reduction system $\rightarrow_{R}$ on the algebra $T(\Sigma, X)$ of all terms over signature $\Sigma$ and variables $X$. Usually, the rules are a set $E$ of equations that determine a reduction system $\rightarrow_{E}$ using rewrites based on equational logic.
+- A formal system for manipulating terms over a signature by means of rules. A set $R$ of rules (each a [[rewrite rule]]) creates an abstract reduction system $\rightarrow_{R}$ on the algebra $T(\Sigma, X)$ of all terms over signature $\Sigma$ and variables $X$. Usually, the rules are a set $E$ of equations that determine a reduction system $\rightarrow_{E}$ using rewrites based on equational logic.
 
   
 

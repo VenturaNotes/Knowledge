@@ -19,7 +19,7 @@ $$
 
   
 
-where $b, c, d, \alpha$, and $\beta$ are given constants, the interval $[0,1]$ is first divided into equal subintervals of length $h ; h$ is called the stepsize (or mesh or grid size). This gives the mesh points (or grid points) $x_{n}$,
+where $b, c, d, \alpha$, and $\beta$ are given constants, the interval $[0,1]$ is first divided into equal subintervals of length $h ; h$ is called the [[stepsize]] (or mesh or grid size). This gives the mesh points (or grid points) $x_{n}$,
 
   
 

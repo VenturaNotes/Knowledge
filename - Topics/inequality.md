@@ -25,7 +25,7 @@ A similar set of inequalities is usually defined on the real numbers; such inequ
 
   
 
-The term inequality is often applied to any comparison involving algebraic expressions and using the above symbols. A special case is the triangle inequality:
+The term inequality is often applied to any comparison involving algebraic expressions and using the above symbols. A special case is the [[triangle inequality]]:
 
   
 

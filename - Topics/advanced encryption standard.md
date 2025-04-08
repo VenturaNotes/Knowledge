@@ -9,7 +9,7 @@ aliases:
 ## Source[^2]
 - The Advanced Encryption Standard (AES) is a symmetric block cipher chosen by the U.
 ## Source[^3]
-- A replacement for the Data Encryption Standard (DES) cipher, selected in 2000 by the National Institute of Standards and Technology (NIST) after an open competition. AES supports key sizes of 128, 192 and 256 bits. The competition was won by the Rijndael algorithm, developed by Joan Daemen and Vincent Rijmen.
+- A replacement for the Data Encryption Standard (DES) cipher, selected in 2000 by the National Institute of Standards and Technology (NIST) after an open competition. AES supports key sizes of 128, 192 and 256 bits. The competition was won by the [[Rijndael algorithm]], developed by Joan Daemen and Vincent Rijmen.
 ## References
 
 [^1]: Google's Search Labs | AI Overview

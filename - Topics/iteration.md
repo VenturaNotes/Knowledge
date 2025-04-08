@@ -28,7 +28,7 @@ for i in range(10):
 - This is count controlled
 
 ## Source[^2]
-- A method uses iteration if it yields successive approximations to a required value by repetition of a certain procedure. Examples are fixed-point iteration and Newton's method for finding a root of an equation $f(x) = 0$ 
+- A method uses iteration if it yields [[successive approximation|successive approximations]] to a required value by repetition of a certain procedure. Examples are fixed-point iteration and Newton's method for finding a root of an equation $f(x) = 0$ 
 
 ## Source[^3]
 - (1) The repetition of a numerical or nonnumerical process where the results from one or more stages are used to form the input to the next. Generally the recycling of the process continues until some preset bound is achieved, or the process result is constantly repeated. This is one of the key ideas used in the design of numerical methods (see also ITERATIVE METHODS). 

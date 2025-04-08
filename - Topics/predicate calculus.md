@@ -13,7 +13,7 @@
 
   
 
-A sentence is a formula with no free variables. An example of a sentence is
+A [[sentence]] is a formula with no free variables. An example of a sentence is
 
   
 
@@ -33,7 +33,7 @@ Predicate calculus can claim to be a fundamental logical language since all the 
 
   
 
-Another possible extension is second-order logic, which allows predicate and function variables, such as $P$ in the following:
+Another possible extension is [[second-order logic]], which allows predicate and function variables, such as $P$ in the following:
 
   
 
