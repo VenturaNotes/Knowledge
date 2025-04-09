@@ -9,7 +9,7 @@
 
   
 
-Since recordings on disks are made as a serial bit stream on a single track at a time, special provision has to be made to allow the read electronics to acquire and maintain bit and byte synchronization. Bit synchronization is achieved when the read electronics can provide a data clock (known as the [[read clock]]) of the correct phase so that the data can be encoded. All modern fixed disk drives make use of a phase-locked loop (PLL) to generate the read clock from the data stream; currently the most common encoding scheme is RLL (see diagram). Very early floppy disk drives did not need a PLL because the encoding scheme used was FM (see below), which is self-clocking. Byte synchronization is achieved with the aid of address marks or data marks, as appropriate.
+Since recordings on disks are made as a serial bit stream on a single track at a time, special provision has to be made to allow the read electronics to acquire and maintain bit and byte synchronization. Bit synchronization is achieved when the read electronics can provide a data clock (known as the [[read clock]]) of the correct phase so that the data can be encoded. All modern fixed disk drives make use of a [[phase-locked loop]] (PLL) to generate the read clock from the data stream; currently the most common encoding scheme is RLL (see diagram). Very early floppy disk drives did not need a PLL because the encoding scheme used was FM (see below), which is self-clocking. Byte synchronization is achieved with the aid of address marks or data marks, as appropriate.
 
   
 

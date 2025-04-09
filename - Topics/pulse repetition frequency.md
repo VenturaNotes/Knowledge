@@ -1,3 +1,7 @@
+---
+aliases:
+  - PRF
+---
 ## Synthesis
 - 
 ## Source [^1]

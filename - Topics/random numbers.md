@@ -5,7 +5,7 @@
 
   
 
-Attempts to produce random numbers using the arithmetic properties of a computer result in pseudorandom numbers, since in principle the numbers generated depend on their predecessors. However, their frequency distribution may be assumed to correspond to a given theoretical form, and they may be assumed to be independent of each other. Basic pseudorandom numbers are uniformly distributed in the range $(0,1)$, and may be transformed to provide other distributions.
+Attempts to produce random numbers using the arithmetic properties of a computer result in [[pseudorandom numbers]], since in principle the numbers generated depend on their predecessors. However, their frequency distribution may be assumed to correspond to a given theoretical form, and they may be assumed to be independent of each other. Basic pseudorandom numbers are uniformly distributed in the range $(0,1)$, and may be transformed to provide other distributions.
 
   
 

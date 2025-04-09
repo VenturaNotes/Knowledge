@@ -367,7 +367,7 @@ Reviewed: false
 		- [[optimizer]]
 		- [[out-group homogeneity bias]]
 		- [[outlier detection]]
-		- [[outliers]]
+		- [[outlier|outliers]]
 		- [[out-of-bag evaluation]]
 		- [[output layer]]
 		- [[overfitting]]

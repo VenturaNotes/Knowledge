@@ -13,7 +13,7 @@ $$
 
   
 
-Each pair $\left\langle l_{i}, r_{i}\right\rangle$ is a rule, referred to as a production, with left-hand side $l_{i}$ and right-hand side $r_{i}$; it is usually written
+Each pair $\left\langle l_{i}, r_{i}\right\rangle$ is a rule, referred to as a [[production]], with left-hand side $l_{i}$ and right-hand side $r_{i}$; it is usually written
 
   
 

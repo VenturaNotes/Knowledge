@@ -39,9 +39,12 @@ END Procedure
 
 ## Source[^2]
 - (pushdown stack, pushdown list, LIFO list) 
-- (1) A linear list where all accesses, insertions, and removals are made at one end of the list, called the top. This implies access on a last in first out (LIFO) basis: the most recently inserted item on the list is the first to be removed. The operations push and pop refer respectively to the insertion and removal of items at the top of the stack. Stacks occur frequently in computing and in particular are closely associated with recursion.
+- (1) A linear list where all accesses, insertions, and removals are made at one end of the list, called the top. This implies access on a last in first out (LIFO) basis: the most recently inserted item on the list is the first to be removed. The operations push and [[pop]] refer respectively to the insertion and removal of items at the top of the stack. Stacks occur frequently in computing and in particular are closely associated with recursion.
 - (2) Loosely, a linear list where accesses, insertions, and removals are made at one end or both ends of the list. This includes a pushdown stack, described above. When the earliest inserted item on the linear list is the first to be removed (first in first out, FIFO), it is a pushup stack, more properly known as a queue. When insertions and deletions may be made at both ends, it is a double-ended queue, or deque.
 - A stack may be implemented in hardware as a specialized kind of addressless memory, with a control mechanism to implement any of the insertion/removal regimes. See also stack processing
+---
+- Pushdown stack: pushdown list. Other names for stack (def. 1).
+- pushup stack, pushup list. Other names for queue. See also STACK (def. 2).
 ## References
 
 [^1]: [[(2) Big O Part 2 – Constant Complexity]]

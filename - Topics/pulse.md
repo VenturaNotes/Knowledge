@@ -7,7 +7,7 @@
 	- Pulse. Rectangular voltage pulse
 	- Term
 		- Rise time
-- The time interval between the leading and trailing edge of a rectangular pulse is called the pulse width. The pulse height is the amplitude of a pulse, usually its maximum to minimum voltage, current, etc., ignoring any short-duration spikes or low-amplitude ripple superimposed on the main pulse. See also RINGING.
+- The time interval between the leading and trailing edge of a rectangular pulse is called the [[pulse width]]. The [[pulse height]] is the amplitude of a pulse, usually its maximum to minimum voltage, current, etc., ignoring any short-duration spikes or low-amplitude ripple superimposed on the main pulse. See also RINGING.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
