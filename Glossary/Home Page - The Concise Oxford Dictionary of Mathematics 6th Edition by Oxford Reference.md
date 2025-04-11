@@ -1884,7 +1884,7 @@ Year: 2021-09-01
 	1374. geometry
 	1375. Germain, (Marie) Sophie (1776-1831)
 	1376. Germain prime, Sophie
-	1377. Gershgorin's Theorem
+	1377. [[Gershgorin's Theorem]]
 	1378. [[Gibbs' inequality]]
 	1379. Gibbs, (Josiah) Willard (1839-1903)
 	1380. giga-
@@ -3448,7 +3448,7 @@ Year: 2021-09-01
 	2938. semigroup
 	2939. semiprime
 	2940. sense
-	2941. sensitivity analysis
+	2941. [[sensitivity analysis]]
 	2942. separable(of a function)
 	2943. separable(of a space)
 	2944. separable first-order differential equation
