@@ -5859,19 +5859,14 @@ Year: 2016-04-01
 	1067. Organizationally Unique Identifier
 	1068. OROM
 	1069. orthogonal analysis
-	1070. orthogonal equations
-	1071. orthogonal memory
-	1072. orthonormal analysis
-	1073. orthonormal functions
-	1074. OSI
-	1075. OSI reference model
-	1076. OTLP
-	1077. OUI
-	1078. outdegree
-	1079. outer code
+	1070. 
+	1071. orthogonal equations
+	1072. orthogonal memory
+	1073. orthonormal analysis
 - FormatA
 	1. [[parent file]]
-	2. [[Lindenmeyer system]]
+	2. [[OSI reference model]]
+	3. [[Lindenmeyer system]]
 - Finish This
 	1. [[predicate calculus]]
 	2. [[predictor-corrector methods]]
