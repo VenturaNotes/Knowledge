@@ -1784,7 +1784,7 @@ Year: 2021-09-01
 	1274. Fredholm alternative
 	1275. Fredholm integral equation
 	1276. Freedman, Michael Hartley (1951- )
-	1277. free group
+	1277. [[free group]]
 	1278. freely hinged
 	1279. free module
 	1280. Frege, (Friedrich Ludwig) Gottlob (1848-1925)
@@ -3488,7 +3488,7 @@ Year: 2021-09-01
 	2978. SIAM
 	2979. side
 	2980. Sierpinski triangle
-	2981. sieve of Eratosthenes
+	2981. [[sieve of Eratosthenes]]
 	2982. sifting property
 	2983. sigma
 	2984. sigma algebra
@@ -3665,7 +3665,7 @@ Year: 2021-09-01
 	3155. stochastic matrix
 	3156. stochastic process
 	3157. stochastic variable
-	3158. Stokes' Theorem
+	3158. [[Stokes' Theorem]]
 	3159. Stokes' Theorem(generalized form)
 	3160. Stokes, Sir George Gabriel (1819-1903)
 	3161. Stone-Weierstrass Theorem

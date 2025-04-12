@@ -5852,21 +5852,14 @@ Year: 2016-04-01
 	1060. optoisolator
 	1061. OR
 	1062. order code
-	1063. ordered tree
-	1064. order of precedence
-	1065. order register
-	1066. organizational information system
-	1067. Organizationally Unique Identifier
-	1068. OROM
-	1069. orthogonal analysis
-	1070. 
-	1071. orthogonal equations
-	1072. orthogonal memory
-	1073. orthonormal analysis
 - FormatA
 	1. [[parent file]]
 	2. [[OSI reference model]]
 	3. [[Lindenmeyer system]]
+	4. [[orthogonal equations]]
+	5. [[optical read-only memory|OROM]]
+	6. [[order register]]
+	7. [[order of precedence]]
 - Finish This
 	1. [[predicate calculus]]
 	2. [[predictor-corrector methods]]
