@@ -5,7 +5,7 @@
 
   
 
-Displayed or printed text can be enhanced using various features, including bold, italic, underline, outline, shadow, and colour.
+Displayed or printed text can be enhanced using various features, including bold, italic, underline, outline, shadow, and color.
 
   
 

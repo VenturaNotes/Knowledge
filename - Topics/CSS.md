@@ -10,7 +10,7 @@ aliases:
 ## Source[^2]
 - (1) (cascading style sheets) A method of specifying the appearance of HTML or XML text in a browser. The style sheet consists of a set of declarations of the type:
 ```css
-H1{colour: red;
+H1{color: red;
 font-family: Times;
 font-style: italic;
 font-size: 10pt;}

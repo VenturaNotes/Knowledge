@@ -17,7 +17,7 @@ Computer graphics is the creation of, manipulation of, analysis of, and interact
 
   
 
-This is the system used for scanned images and for photographs produced by a digital camera. It is suitable for complex pictures with a large number of different colours and shades. The image is stored as chunks of data, each representing the properties (e.g. colour, tint, transparency) of a small element of the picture. The overall picture is formed from lines in an analogous way to the picture on a television screen (hence the name 'raster'). A large number of different file formats are used for raster graphics images, many native to the application. Some of the ones in general use are shown in the table.
+This is the system used for scanned images and for photographs produced by a digital camera. It is suitable for complex pictures with a large number of different colors and shades. The image is stored as chunks of data, each representing the properties (e.g. color, tint, transparency) of a small element of the picture. The overall picture is formed from lines in an analogous way to the picture on a television screen (hence the name 'raster'). A large number of different file formats are used for raster graphics images, many native to the application. Some of the ones in general use are shown in the table.
 
   
 
@@ -25,7 +25,7 @@ This is the system used for scanned images and for photographs produced by a dig
 
   
 
-aster images can be viewed and changed using commercial raster (or bitmap) editors, such as Adobe PhotoShop or Corel Paint Shop Pro. Programs of their type allow images to be viewed and changed in a number of ways. They can be resized or distorted, parts can be cut and replaced by sections of other pictures, and various special effects can be applied (e.g. blurring, pixellating, bas relief). General properties such as brightness and contrast can be adjusted and selective colour changes can be made. Most raster editors also include simple drawing and painting features involving a selection of pens, brushes, and sprays. In general, however, such programs are used for editing existing pictures rather than creating new ones. Photoshop, for example, is routinely used to retouch the photographs reproduced in newspapers and magazines.
+aster images can be viewed and changed using commercial raster (or bitmap) editors, such as Adobe PhotoShop or Corel Paint Shop Pro. Programs of their type allow images to be viewed and changed in a number of ways. They can be resized or distorted, parts can be cut and replaced by sections of other pictures, and various special effects can be applied (e.g. blurring, pixellating, bas relief). General properties such as brightness and contrast can be adjusted and selective color changes can be made. Most raster editors also include simple drawing and painting features involving a selection of pens, brushes, and sprays. In general, however, such programs are used for editing existing pictures rather than creating new ones. Photoshop, for example, is routinely used to retouch the photographs reproduced in newspapers and magazines.
 
   
 
