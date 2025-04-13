@@ -5839,19 +5839,13 @@ Year: 2016-04-01
 	1047. op-amp
 	1048. op code
 	1049. open-reel tape
+
 	1050. Open Group
 	1051. Open Software Foundation
 	1052. open term
 	1053. operational research
 	1054. operation table
 	1055. optical character recognition
-	1056. optical mark reading
-	1057. optical media
-	1058. optimum programming
-	1059. optional product
-	1060. optoisolator
-	1061. OR
-	1062. order code
 - FormatA
 	1. [[parent file]]
 	2. [[OSI reference model]]
@@ -5860,6 +5854,8 @@ Year: 2016-04-01
 	5. [[optical read-only memory|OROM]]
 	6. [[order register]]
 	7. [[order of precedence]]
+	8. [[OR]]
+	9. [[optical media]]
 - Finish This
 	1. [[predicate calculus]]
 	2. [[predictor-corrector methods]]
