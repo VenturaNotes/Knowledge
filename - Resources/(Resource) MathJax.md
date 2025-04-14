@@ -183,3 +183,5 @@ http://detexify.kirelabs.org/classify.html
 	- Used in 'algebra of sets' file
 - Gothic g in Lie algebra
 	- $\mathfrak g$ 
+- Similar equal [@](https://math.stackexchange.com/questions/864606/difference-between-%E2%89%88-%E2%89%83-and-%E2%89%85)
+	- $\simeq$ 

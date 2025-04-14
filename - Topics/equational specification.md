@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- A set of equations that specifies a computing system or abstract data type. More precisely, the system or data type is modelled by an algebra, and this algebra is defined by the equations using initial algebra semantics.
+- A set of equations that specifies a computing system or abstract data type. More precisely, the system or data type is modeled by an algebra, and this algebra is defined by the equations using initial algebra semantics.
 
   
 

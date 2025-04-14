@@ -5839,13 +5839,6 @@ Year: 2016-04-01
 	1047. op-amp
 	1048. op code
 	1049. open-reel tape
-
-	1050. Open Group
-	1051. Open Software Foundation
-	1052. open term
-	1053. operational research
-	1054. operation table
-	1055. optical character recognition
 - FormatA
 	1. [[parent file]]
 	2. [[OSI reference model]]

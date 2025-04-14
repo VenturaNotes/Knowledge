@@ -2911,9 +2911,9 @@ function formatDuration2(durationMs) {
 function updateReward(reward,multiplier)
 {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Main');
-  sheet.getRange("S2").setValue(sheet.getRange("S2").getValue()+reward);
 
   temp = sheet.getRange("T6").getValue()
+  temp2 = sheet.getRange("S2").getValue()
 
   if (temp === ""){
     temp = 0;
@@ -2922,14 +2922,23 @@ function updateReward(reward,multiplier)
   {
     temp = temp - new Date(1899, 11, 30);
   }
+
+  if (temp2 === ""){
+    temp2 = 0;
+  }
+  else
+  {
+    temp2 = temp2 - new Date(1899, 11, 30);
+  }
   
+  sheet.getRange("S2").setValue(formatDuration(temp2 + reward));
   sheet.getRange("T6").setValue(formatDuration(temp + multiplier));
 }
 
 function calculateMultiplier() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
 
-  var sheet2Reward = sheet.getRange("Q10").getValue();
+  var sheet2Reward = sheet.getRange("Q10").getValue() - new Date(1899, 11, 30);
   var sheet2Multiplier = sheet.getRange("Q11").getValue() - new Date(1899, 11, 30);
 
   var initialDate = new Date(1899, 11, 30);
