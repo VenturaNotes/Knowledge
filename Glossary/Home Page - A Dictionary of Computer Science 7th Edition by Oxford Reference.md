@@ -5829,16 +5829,6 @@ Year: 2016-04-01
 	1037. on-the-fly error recovery
 	1038. one's complement
 	1039. one-address instruction
-	1040. one-plus-one address instruction
-	1041. one-shot
-	1042. one-to-one function
-	1043. one-to-one onto function
-	1044. one-way linked list
-	1045. O notation
-	1046. onto function
-	1047. op-amp
-	1048. op code
-	1049. open-reel tape
 - FormatA
 	1. [[parent file]]
 	2. [[OSI reference model]]

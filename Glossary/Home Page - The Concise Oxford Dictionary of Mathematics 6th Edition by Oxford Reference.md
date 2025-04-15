@@ -1247,7 +1247,7 @@ Year: 2021-09-01
 	620. corollary
 	621. correction
 	622. correlation
-	623. correlation matrix
+	623. [[correlation matrix]]
 	624. correspondence
 	625. corresponding angles
 	626. cosecant
@@ -2381,7 +2381,7 @@ Year: 2021-09-01
 	1754. Mandelbrot, Benoît (1924-2010)
 	1755. Mandelbrot set
 	1756. Manhattan norm
-	1757. manifold
+	1757. [[manifold]]
 	1758. Mann-Whitney U test
 	1759. MANOVA
 	1760. mantissa
@@ -2392,7 +2392,7 @@ Year: 2021-09-01
 	1765. marginal distribution
 	1766. Markov, Andrei Andreevich (1856-1922)
 	1767. Markov chain
-	1768. martingale
+	1768. [[martingale]]
 	1769. mass
 	1770. mass-energy equation
 	1771. matched-pairs design

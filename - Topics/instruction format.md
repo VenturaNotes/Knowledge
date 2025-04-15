@@ -57,7 +57,7 @@ The last may be called either a three-address instruction or a [[two-plus-one-ad
 
   
 
-instruction. In a similar way the term one-plus-one address instruction represents a one-address instruction together with the address where the next instruction is to be found. In these two cases the instructions do not come from sequential addresses; an instruction counter, if present, is bypassed.
+instruction. In a similar way the term [[one-plus-one address instruction]] represents a one-address instruction together with the address where the next instruction is to be found. In these two cases the instructions do not come from sequential addresses; an instruction counter, if present, is bypassed.
 
   
 
