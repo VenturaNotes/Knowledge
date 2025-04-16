@@ -9,7 +9,7 @@ aliases:
 
   
 
-Classically, the number of address references has been used to specify something about the architecture of a particular computer. In some instruction formats and machine architectures, the number of operand references may be fixed; in others the number is variable. In the former case descriptions of formats include one-address, twoaddress, three-address, and (now rarely) four-address. An example (symbolically) of a one-address instruction is
+Classically, the number of address references has been used to specify something about the architecture of a particular computer. In some instruction formats and machine architectures, the number of operand references may be fixed; in others the number is variable. In the former case descriptions of formats include one-address, twoaddress, three-address, and (now rarely) four-address. An example (symbolically) of a [[one-address instruction]] is
 
 add x i.e.
 

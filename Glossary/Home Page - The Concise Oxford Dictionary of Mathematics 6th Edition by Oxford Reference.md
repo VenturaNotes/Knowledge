@@ -1807,7 +1807,7 @@ Year: 2021-09-01
 	1180. Fundamental Theorem of Arithmetic
 	1181. Fundamental Theorem of Calculus
 	1182. Fundamental Theorem of Game Theory
-	1183. fuzzy set theory
+	1183. [[fuzzy set theory]]
 	1184. g
 	1185. G
 	1186. G
@@ -1826,7 +1826,7 @@ Year: 2021-09-01
 	1199. Gauss, Carl Friedrich (1777-1855)
 	1200. Gauss-Bonnet theorem(for closed surfaces)
 	1201. Gauss-Jordan elimination
-	1202. Gauss-Markov Theorem
+	1202. [[Gauss-Markov Theorem]]
 	1203. Gauss-Seidel iterative method
 	1204. Gauss error function
 	1205. Gauss flux theorem
@@ -2008,9 +2008,9 @@ Year: 2021-09-01
 	1381. icosahedron
 	1382. icosidodecahedron
 	1383. ideal
-	1384. ideal element
+	1384. [[ideal element]]
 	1385. ideal point
-	1386. idempotent
+	1386. [[idempotent]]
 	1387. identically distributed
 	1388. identification space
 	1389. identity
