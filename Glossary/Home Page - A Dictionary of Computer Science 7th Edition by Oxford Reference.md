@@ -5820,15 +5820,6 @@ Year: 2016-04-01
 	1028. octant
 	1029. odd-even check
 	1030. ODP
-	1031. OFB
-	1032. OLAP
-	1033. OLE
-	1034. OMG
-	1035. OMS
-	1036. NOS
-	1037. on-the-fly error recovery
-	1038. one's complement
-	1039. one-address instruction
 - FormatA
 	1. [[parent file]]
 	2. [[OSI reference model]]
@@ -5839,6 +5830,7 @@ Year: 2016-04-01
 	7. [[order of precedence]]
 	8. [[OR]]
 	9. [[optical media]]
+	10. [[network operating system|NOS]]
 - Finish This
 	1. [[predicate calculus]]
 	2. [[predictor-corrector methods]]
