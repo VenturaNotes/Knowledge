@@ -5811,15 +5811,6 @@ Year: 2016-04-01
 	1019. nullary operation
 	1020. nullity
 	1021. null link
-	1022. null list
-	1023. null string
-	1024. number cruncher
-	1025. numerical stability
-	1026. Nyquist rate
-	1027. occam-pi
-	1028. octant
-	1029. odd-even check
-	1030. ODP
 - FormatA
 	1. [[parent file]]
 	2. [[OSI reference model]]

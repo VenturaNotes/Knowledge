@@ -2619,7 +2619,7 @@ Year: 2021-09-01
 	1992. network
 	1993. network flow
 	1994. Neumann, John Von
-	1995. Neumann condition
+	1995. [[Neumann condition]]
 	1996. neural nets
 	1997. neutral element
 	1998. neutral geometry
@@ -2643,7 +2643,7 @@ Year: 2021-09-01
 	2016. nine-point circle
 	2017. node
 	2018. node
-	2019. Noether's theorem
+	2019. [[Noether's theorem]]
 	2020. Noether, Amalie (1882-1935)
 	2021. Noetherian ring
 	2022. noise
@@ -3269,7 +3269,7 @@ Year: 2021-09-01
 	2642. reversion to the mean
 	2643. revolution
 	2644. revolve
-	2645. Reynolds number
+	2645. [[Reynolds number]]
 	2646. Reynolds transport theorem
 	2647. rhombohedron
 	2648. rhombus
