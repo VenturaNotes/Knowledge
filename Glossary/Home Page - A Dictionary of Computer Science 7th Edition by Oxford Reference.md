@@ -5800,17 +5800,6 @@ Year: 2016-04-01
 	1008. normal subgroup
 	1009. not-equivalence gate
 	1010. notch filter
-	1011. notebook
-	1012. NOT gate
-	1013. NP
-	1014. npn
-	1015. NS chart
-	1016. NSPACE
-	1017. NTFS
-	1018. nucleus
-	1019. nullary operation
-	1020. nullity
-	1021. null link
 - FormatA
 	1. [[parent file]]
 	2. [[OSI reference model]]
