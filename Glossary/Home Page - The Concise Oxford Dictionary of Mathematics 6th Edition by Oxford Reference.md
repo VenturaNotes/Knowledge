@@ -1941,7 +1941,7 @@ Year: 2021-09-01
 	1314. Hero (Heron) of Alexandria
 	1315. hertz
 	1316. Hessian
-	1317. heteroscedastic
+	1317. [[heteroscedastic]]
 	1318. heuristic
 	1319. hexa-
 	1320. hexadecimal representation
@@ -1953,7 +1953,7 @@ Year: 2021-09-01
 	1326. higher derivative
 	1327. highest common factor
 	1328. Hilbert's basis theorem
-	1329. Hilbert's paradox
+	1329. [[Hilbert's paradox]]
 	1330. Hilbert's programme
 	1331. Hilbert's tenth problem
 	1332. Hilbert, David (1862-1943)
@@ -1965,7 +1965,7 @@ Year: 2021-09-01
 	1338. holomorphic
 	1339. holonomic
 	1340. Hom
-	1341. homeomorphism
+	1341. [[homeomorphism]]
 	1342. homogeneous(statistics)
 	1343. homogeneous(Markov chains)
 	1344. homogeneous coordinates

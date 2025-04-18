@@ -17,7 +17,7 @@ $$
 
   
 
-The nullity of $G$, written $\mu(G)$, is
+The [[nullity]] of $G$, written $\mu(G)$, is
 
   
 
