@@ -16,7 +16,7 @@ $$
 
   
 
-the real continuous functions on $[a, b]$, then a subclass of practical use is $P_{n}$, i.e. polynomials of degree $n$. The means of measuring the closeness or accuracy of the approximation is provided by a metric or norm. This is a nonnegative function that is defined on $F$ and measures the size of its elements. Norms of particular value in the approximation of mathematical functions (for computer subroutines, say) are the Chebyshev norm and the 2-norm (or Euclidean norm or [[two-norm]]). For functions
+the real continuous functions on $[a, b]$, then a subclass of practical use is $P_{n}$, i.e. polynomials of degree $n$. The means of measuring the closeness or accuracy of the approximation is provided by a metric or [[norm]]. This is a nonnegative function that is defined on $F$ and measures the size of its elements. Norms of particular value in the approximation of mathematical functions (for computer subroutines, say) are the Chebyshev norm and the 2-norm (or Euclidean norm or [[two-norm]]). For functions
 
   
 

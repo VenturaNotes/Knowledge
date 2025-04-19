@@ -15,7 +15,7 @@ Using this abstraction, it is easy to define a range of basic notions that play 
 
 (3) The reduction system $\rightarrow_{R}$ is [[weakly terminating]] (or weakly normalizing) if for each $a \in A$ there is some normal form $b \in A$ so that $a \rightarrow_{R} \mathrm{~b}$.
 
-(4) The reduction system $\rightarrow_{R}$ is [[strongly terminating]] (or strongly normalizing or Noetherian) if there does not exist an infinite chain
+(4) The reduction system $\rightarrow_{R}$ is [[strongly terminating]] (or strongly normalizing or [[Noetherian]]) if there does not exist an infinite chain
 
   
 
