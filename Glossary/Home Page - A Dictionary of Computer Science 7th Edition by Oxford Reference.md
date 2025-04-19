@@ -5780,26 +5780,6 @@ Year: 2016-04-01
 	988. Nigerian fraud
 	989. nine's complement
 	990. NLP
-	991. Noetherian
-	992. noise immunity
-	993. noise margin
-	994. noise sequence
-	995. nonbinary logic
-	996. nonequivalence gate
-	997. nonequivalence operation
-	998. nonerasable programmable device
-	999. nonfunctional requirements
-	1000. nonhierarchical cluster analysis
-	1001. nonlinear regression model
-	1002. nonlocal entity
-	1003. nonprocedural language
-	1004. nonreturn to zero
-	1005. nonterminal
-	1006. norm
-	1007. normalized coordinates
-	1008. normal subgroup
-	1009. not-equivalence gate
-	1010. notch filter
 - FormatA
 	1. [[parent file]]
 	2. [[OSI reference model]]
@@ -5811,6 +5791,8 @@ Year: 2016-04-01
 	8. [[OR]]
 	9. [[optical media]]
 	10. [[network operating system|NOS]]
+	11. [[normalized coordinates]]
+	12. [[noise sequence]]
 - Finish This
 	1. [[predicate calculus]]
 	2. [[predictor-corrector methods]]

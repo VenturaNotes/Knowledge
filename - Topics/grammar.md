@@ -52,7 +52,7 @@ $$
 
   
 
-These are the only strings of $b$ s and cs in $\{b, c\}^{}$ derivable from the start symbol $S$ by the three production rules. A string such as $S A b c A$, which is derivable from $S$ but still contains nonterminals, is referred to as a [[sentential form]].
+These are the only strings of $b$ s and cs in $\{b, c\}^{}$ derivable from the start symbol $S$ by the three production rules. A string such as $S A b c A$, which is derivable from $S$ but still contains [[nonterminal|nonterminals]], is referred to as a [[sentential form]].
 
   
 
