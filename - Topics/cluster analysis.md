@@ -9,7 +9,11 @@
 - Hierarchical cluster analysis methods form clusters in sequence, either by amalgamation of units into clusters and clusters into larger clusters, or by subdivision of clusters into smaller clusters and single units. Whichever direction is chosen, the results can be represented by a dendrogram or family tree in which the units at one level are nested within units at all higher levels.
 - [[Nonhierarchical cluster analysis]] methods allocate units to a fixed number of clusters so as to optimize some criterion representing a desired property of clusters. Such methods may be iterative, involving transfer of units between clusters until no further improvement can be achieved. The solution for a given number of clusters need bear little relation to the solution for a larger or smaller number.
 - Cluster analysis is often used in conjunction with other methods of multivariate analysis to describe the structure of a complex set of data.
+
+## Source[^3]
+- The task of assigning objects to recognizable groups called clusters, according to various measurements. These clusters commonly show correlation between different attributes. The notion of a cluster cannot be precisely given, and many different algorithms are hence used in cluster analysis.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
