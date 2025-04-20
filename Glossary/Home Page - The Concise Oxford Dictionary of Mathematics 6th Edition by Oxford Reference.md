@@ -968,8 +968,8 @@ Year: 2021-09-01
 	305. Cholesky's decomposition
 	306. chord
 	307. Christoffel symbol
-	308. chromatic number
-	309. Church's thesis
+	308. [[chromatic number]]
+	309. [[Church's thesis]]
 	310. Church, Alonzo (1903-95)
 	311. Chu Shih-chieh (1300)
 	312. cipher
@@ -997,26 +997,26 @@ Year: 2021-09-01
 	334. classical mechanics
 	335. Classification Theorem for Surfaces
 	336. class interval
-	337. class mark
-	338. cleartext
+	337. [[class mark]]
+	338. [[cleartext]]
 	339. clock arithmetic
 	340. clockwise
-	341. clopen set
+	341. [[clopen set]]
 	342. closed(under an operation)
 	343. closed(in geometry and graph theory)
-	344. closed-form
+	344. [[closed-form]]
 	345. closed disc
 	346. closed interval
 	347. closed set(in topology)
 	348. closed surface
 	349. closure
-	350. cluster analysis
+	350. [[cluster analysis]]
 	351. cluster point
 	352. cluster sampling
 	353. coaxial
 	354. cobweb plot
 	355. code
-	356. coded data
+	356. [[coded data]]
 	357. codomain
 	358. coefficient
 	359. coefficient of correlation
@@ -1026,7 +1026,7 @@ Year: 2021-09-01
 	363. coefficient of skewness
 	364. coefficient of variation
 	365. cofactor
-	366. coincident
+	366. [[coincident]]
 	367. Collatz conjecture
 	368. collinear
 	369. collision
