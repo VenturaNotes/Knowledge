@@ -1046,10 +1046,10 @@ Year: 2021-09-01
 	383. common factor
 	384. common fraction
 	385. common logarithm
-	386. common multiple
-	387. common perpendicular
+	386. [[common multiple]]
+	387. [[common perpendicular]]
 	388. common ratio
-	389. common tangent
+	389. [[common tangent]]
 	390. communicating class
 	391. commutative
 	392. commutative algebra

@@ -1,3 +1,7 @@
+---
+aliases:
+  - Moore machines
+---
 ## Synthesis
 - 
 ## Source [^1]

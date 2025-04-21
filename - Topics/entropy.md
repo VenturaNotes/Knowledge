@@ -62,7 +62,7 @@ Entropy is then measured in bits, in natural units or nats, or in Hartleys, resp
 
   
 
-The term arises by analogy with entropy in thermodynamics, where the defining expression has the same form but with a physical scale factor $k$ (Boltzmann constant) and with the sign changed. The word negentropy is therefore sometimes used for the measure of information, as is uncertainty or simply 'information'.
+The term arises by analogy with entropy in thermodynamics, where the defining expression has the same form but with a physical scale factor $k$ (Boltzmann constant) and with the sign changed. The word [[negentropy]] is therefore sometimes used for the measure of information, as is uncertainty or simply 'information'.
 ## References
 
 [^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

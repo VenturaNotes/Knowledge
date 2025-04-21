@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- A collection of objects $A$, together with a related set of morphisms M. An object is a generalization of a set and a morphism is a generalization of a function that maps between sets.
+- A collection of objects $A$, together with a related set of morphisms M. An object is a generalization of a set and a [[morphism]] is a generalization of a function that maps between sets.
 
   
 
