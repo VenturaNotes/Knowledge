@@ -6,7 +6,7 @@
 	- SISD, single instruction, single data;
 	- SIMD, [[single instruction, multiple data]];
 	- MISD, multiple instruction, single data;
-	- MIMD, multiple instruction, multiple data.
+	- MIMD, [[multiple instruction, multiple data]].
 - The first of these, SISD, is the conventional serial processor. The third of these, MISD, does not really occur in current systems. The other two are of most interest in multiprocessor systems. The SIMD is suited to operating upon data of the sort that exists in vectors and matrices by taking advantage of the inherent parallelism in that data. Thus the array processor is one such system. Another is represented by the supercomputer with parallel and different arithmetic units that overlap arithmetic operations. The MIMD system represents a wide range of architectures from the large symmetrical multiprocessor system to the small asymmetrical minicomputer/DMA channel combination.
 - Shared-memory systems form a distinct group within the MIMD category. They are general-purie multiprocessor systems that share common memory, and are thus also called closely coupled or tightly coupled systems. Distributed systems$\textemdash$wide area, metropolitan area, and local area networks$\textemdash$form another MIMD group, sometimes referred to as loosely coupled systems.
 ## References

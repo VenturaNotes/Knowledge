@@ -1,3 +1,7 @@
+---
+aliases:
+  - multimode counters
+---
 ## Synthesis
 - 
 ## Source [^1]

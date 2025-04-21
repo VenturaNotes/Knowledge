@@ -1,3 +1,7 @@
+---
+aliases:
+  - MSD
+---
 ## Synthesis
 - 
 ## Source [^1]

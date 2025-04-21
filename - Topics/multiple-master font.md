@@ -1,3 +1,7 @@
+---
+aliases:
+  - multiple-master fonts
+---
 ## Synthesis
 - 
 ## Source [^1]

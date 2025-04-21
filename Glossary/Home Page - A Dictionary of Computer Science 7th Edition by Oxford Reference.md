@@ -4789,6 +4789,21 @@ Year: 2016-04-01
 	4774. [[print server]]
 	4775. [[principal component analysis]]
 	4776. [[polynomially bounded algorithm]]
+	4777. [[parent file]]
+	4778. [[OSI reference model]]
+	4779. [[Lindenmeyer system]]
+	4780. [[orthogonal equations]]
+	4781. [[optical read-only memory|OROM]]
+	4782. [[order register]]
+	4783. [[order of precedence]]
+	4784. [[OR]]
+	4785. [[optical media]]
+	4786. [[network operating system|NOS]]
+	4787. [[normalized coordinates]]
+	4788. [[noise sequence]]
+	4789. [[network topology]]
+	4790. [[network interconnection]]
+	4791. [[nesting store]]
 - Created
 	1. binary adder
 	2. binary chop
@@ -5720,79 +5735,15 @@ Year: 2016-04-01
 	928. module invariant
 	929. module testing
 	930. modulo-n check
-	931. monalphabetic
-	932. monic polynomial
-	933. Moore machine
-	934. morphism
-	935. MOS integrated circuit
-	936. MOS transistor
-	937. moth-eye
-	938. moving-average methods
-	939. MSD
-	940. MS Windows
-	941. MTTR
-	942. MTU
-	943. mu-law encoding
-	944. MUA
-	945. multiaddress
-	946. multicore cable
-	947. multimedia mail
-	948. multimode counter
-	949. multipart stationery
-	950. multiple-master font
-	951. multiple-valued logic
-	952. multiple chain
-	953. multiple inheritance
-	954. multiple instruction, multiple data
-	955. multiple precision
-	956. multiple regression model
-	957. multiplexer channel
-	958. multiprecision
-	959. multiprocessor
-	960. multisession compatible
-	961. multiset
-	962. multiunit processor
-	963. mu operator
-	964. n-type semiconductor
-	965. name lookup
-	966. nanostore
-	967. narrowband
-	968. NAT
-	969. native code
-	970. natural binary-coded decimal
-	971. NBCD
-	972. negative acknowledgment
-	973. negator
-	974. negentropy
-	975. neighbour
-	976. nested blocks
-	977. nesting store
-	978. Net
-	979. Netnews
-	980. network-attached storage
-	981. network interconnection
-	982. network layer
-	983. network topology
-	984. network virtual terminal
-	985. newsgroup
-	986. Newton-Cotes rules
-	987. NFS
-	988. Nigerian fraud
-	989. nine's complement
-	990. NLP
 - FormatA
-	1. [[parent file]]
-	2. [[OSI reference model]]
-	3. [[Lindenmeyer system]]
-	4. [[orthogonal equations]]
-	5. [[optical read-only memory|OROM]]
-	6. [[order register]]
-	7. [[order of precedence]]
-	8. [[OR]]
-	9. [[optical media]]
-	10. [[network operating system|NOS]]
-	11. [[normalized coordinates]]
-	12. [[noise sequence]]
+	1. [[narrowband]]
+	2. [[mu operator]]
+	3. [[multisession compatible]]
+	4. [[multiprecision]]
+	5. [[multiple-valued logic]]
+	6. [[multiaddress]]
+	7. [[mu-law encoding]]
+	8. [[monic polynomial]]
 - Finish This
 	1. [[predicate calculus]]
 	2. [[predictor-corrector methods]]

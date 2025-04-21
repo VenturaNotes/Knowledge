@@ -9,7 +9,11 @@
 
 ## Source[^3]
 - The [[star topology]] is where all data passes through the central computer
+
+## Source[^4]
+- See Network Architecture
 ## References
 [^1]: https://youtu.be/NRckVJk9n0k?si=iGYuTxcHcFLF4y3E
 [^2]: Google's Search Labs | AI Overview
 [^3]: https://youtu.be/HGYOEeik844?si=7KJaPkDktjARENM4
+[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

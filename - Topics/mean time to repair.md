@@ -1,3 +1,7 @@
+---
+aliases:
+  - MTTR
+---
 ## Synthesis
 - 
 ## Source [^1]
