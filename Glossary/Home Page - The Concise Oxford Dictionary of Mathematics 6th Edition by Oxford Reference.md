@@ -1050,18 +1050,18 @@ Year: 2021-09-01
 	387. [[common perpendicular]]
 	388. common ratio
 	389. [[common tangent]]
-	390. communicating class
+	390. [[communicating class]]
 	391. commutative
 	392. commutative algebra
 	393. commutative diagram
 	394. commutative ring
 	395. commutator
 	396. commute
-	397. compact
+	397. [[compact]]
 	398. compactification
 	399. compact operator
 	400. companion matrix
-	401. comparison test
+	401. [[comparison test]]
 	402. compass
 	403. complement(probability)
 	404. complement
@@ -1073,9 +1073,9 @@ Year: 2021-09-01
 	410. complete lattice
 	411. completely balanced block design
 	412. completely normal space
-	413. completely regular space
-	414. complete matching
-	415. complete metric space
+	413. [[completely regular space]]
+	414. [[complete matching]]
+	415. [[complete metric space]]
 	416. completeness axiom of the real numbers
 	417. complete orthonormal basis
 	418. complete quadrangle
@@ -1083,15 +1083,15 @@ Year: 2021-09-01
 	420. complete solution
 	421. completing the square
 	422. completion
-	423. complex analysis
+	423. [[complex analysis]]
 	424. complex analytic
 	425. complex conjugate
 	426. complex exponential
-	427. complex function
+	427. [[complex function]]
 	428. complexity(of an algorithm)
 	429. complex logarithm
 	430. complex number
-	431. complex plane
+	431. [[complex plane]]
 	432. complex potential
 	433. complex system
 	434. component(of a compound statement)
