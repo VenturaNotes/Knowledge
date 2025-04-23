@@ -1093,31 +1093,32 @@ Year: 2021-09-01
 	430. complex number
 	431. [[complex plane]]
 	432. complex potential
-	433. complex system
+	433. [[complex system]]
 	434. component(of a compound statement)
-	435. component(of a graph)
+	435. [[component]]
 	436. component(of a vector)
-	437. componentwise
-	438. composite
+	437. [[componentwise]]
+	438. [[composite]]
 	439. composition(of a number)
 	440. composition(of functions)
 	441. composition factor
 	442. composition series
 	443. compound angle formulae(in hyperbolic functions)
 	444. compound angle formulae(in trigonometry)
-	445. compound fraction
+	445. [[compound fraction]]
 	446. compound interest
 	447. compound number
 	448. compound pendulum
 	449. compound statement
 	450. compression
-	451. computability theory
+	451. [[computability theory]]
 	452. computable number
 	453. computation
 	454. compute
-	455. computer
-	456. concatenation
-	457. concave polygon
+		1. A synonym for calculate.
+	455. [[computer]]
+	456. [[concatenation]]
+	457. [[concave polygon]]
 	458. concavity
 	459. concentric
 	460. conclusion(in logic)
