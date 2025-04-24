@@ -1,0 +1,13 @@
+## Synthesis
+- 
+## Source [^1]
+- Membership means checking if an element is present in a collection
+```python
+if "apple" in fruits:  # True if "apple" is in the set `fruits`
+```
+- Works with lists, sets, dictionaries, etc.
+	- #question What other data structures does it work with?
+	- #question Are lists and sets considered data structures? What are all the data structures in python?
+## References
+
+[^1]: ChatGPT

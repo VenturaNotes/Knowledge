@@ -2,7 +2,18 @@
 Source:
   - https://leetcode.com/problems/contains-duplicate/
 Reviewed: true
+Attempts: 1
 ---
+## Original
+```python
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        myset = set()
+        for i in nums:
+            myset.add(i)
+        return len(myset) != len(nums)
+```
+- Difference between my solution and [[(217) Contains Duplicate#Solution 1|this]] solution is that my solution also has an O(n) time and memory complexity (according to leetcode), but my code unfortunately will always run through the entire list before returning True/False.  
 ## Approach #1
 Brute Force Solution (Time Limit Exceeded Error)
 ```python

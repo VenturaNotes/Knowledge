@@ -227,6 +227,7 @@ print(my_set)  # Output: {1, 2, 3}
 #question Modify the code as well.
 
 ### Using the get Method
+#question How would I use the get method?
 
 ## References
 
