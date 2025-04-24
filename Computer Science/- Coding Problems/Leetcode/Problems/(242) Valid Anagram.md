@@ -2,6 +2,7 @@
 Source:
   - https://leetcode.com/problems/valid-anagram/
 Reviewed: false
+Attempts: 1
 ---
 ## Synthesis
 - This is an arrays & hashing type problem
@@ -13,6 +14,26 @@ Reviewed: false
 		- Sort both strings
 			- Best sorting algorithms have time complexity of O(nlogn)
 		- Check if they're equal
+### Hash Table Solution
+```python
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        #Compares Length of both strings
+        if len(s) != len(t):
+            return False
+
+		#Creates a dictionary
+        countS, countT = {}, {}
+
+		#Loops through each element in string
+        for i in range(len(s)):
+	        #Retrieves the value from the key and adds 1
+            countS[s[i]] = 1 + countS.get(s[i], 0)
+            countT[t[i]] = 1 + countT.get(t[i], 0)
+
+		# Checks if dictionaries the same
+        return countS == countT
+```
 ## Key Terms
 - [[Anagram]]: A word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once [^1]
 
@@ -149,13 +170,14 @@ class Solution:
 ```
 - Time Complexity: $O(n + m)$
 - Space Complexity: $O(1)$ since we have at most 26 different characters
+	- #comment So it has a space complexity of $O(26)$ but simplified is $O(1)$ 
 - Where `n` is the length of string `s` and `m` is the length of string `t`
 - #comment 
 	- If string length not equal, they're not anagrams
 	- Creating empty dictionaries
-	- Starting loop in first string (`s` and `t` guaranteed to be equal here due to initial check)
+	- Looping first string (Length of `s` and `t` guaranteed to be equal due to initial check)
 		- For `countS`, setting initial character of `s` as a key and setting value to the number of occurrences
-			- If there were no initial occurrences, sets default value to 0 + 1
+			- If there were no initial occurrences, sets default value to 0 + 1 = 1
 		- Same goes for `countT`
 	- Returns if both dictionaries are equal making them anagrams
 	- Potential reason for why time complexity is $O(n + m)$ 

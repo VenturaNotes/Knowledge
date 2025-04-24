@@ -1139,11 +1139,11 @@ Year: 2021-09-01
 	475. configuration
 	476. configuration space
 	477. confirm(of a statistical experiment)
-	478. confocal conics
+	478. [[confocal conics]]
 	479. conformable
-	480. conformal
+	480. [[conformal]]
 	481. conformally equivalent
-	482. confounding variable
+	482. [[confounding variable]]
 	483. congruence(modulo n)
 	484. congruence class
 	485. congruence equation
@@ -1200,7 +1200,7 @@ Year: 2021-09-01
 	536. contingency table
 	537. contingent(in logic)
 	538. continued fraction
-	539. continuity correction
+	539. [[continuity correction]]
 	540. continuity equation
 	541. continuous data
 	542. continuous function
@@ -1244,7 +1244,7 @@ Year: 2021-09-01
 	580. coordinates(in Euclidean space)
 	581. coordinate system
 	582. coordinate vector
-	583. Copenhagen interpretation
+	583. [[Copenhagen interpretation]]
 	584. coplanar
 	585. coplanar vectors
 	586. coprime
