@@ -3,7 +3,16 @@ aliases:
   - enumerated object
 ---
 ## Synthesis
-- 
+
+### Definition
+- An enumerated object contains pairs of indexes and elements from the original [[iterable]] that the enumerate() function was applied on
+### Example
+- `<enumerate object at 0x7f8c2c3b1c40>`
+	- This is an enumerated object
+- enum_object = `enumerate([-4, -1, -1, 0, 1, 2])`
+	- You can create an enumerated object as shown above
+- `list(enum_object)` outputs `[(0, -4), (1, -1), (2, -1), (3, 0), (4, 1), (5, 2)]`
+	- You must convert it to a list to see its contents.
 ## Source [^1]
 - Result of applying the [[enumerate() (Python)|enumerate()]] function in python to an iterable such as a list, string, or tuple. 
 	- A special object that contains pairs of indexes and corresponding elements from the original iterable

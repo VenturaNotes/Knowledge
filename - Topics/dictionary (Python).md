@@ -68,6 +68,7 @@ graduation_year: 2024
 	- Value: Each key is associated with a value
 	- Lookup Time: Close to O(1) to access values based on keys
 		- This is because dictionaries use hash tables internally to store key-value pairs
+		- So `my_dict(key)` and `key in my_dict` are both O(1) average time complexity
 ### Description
 - Dictionary keys in python must be [[hashable (python)|hashable]], which means they should be [[immutable]]
 - [[List (Python)|lists]] are [[mutable (Python)|mutable]] so they cannot be used directly as keys in dictionaries

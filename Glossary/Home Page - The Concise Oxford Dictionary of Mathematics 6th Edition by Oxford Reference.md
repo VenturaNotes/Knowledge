@@ -1568,11 +1568,11 @@ Year: 2021-09-01
 	904. Einstein, Albert (1879-1955)
 	905. Eisenstein's criterion
 	906. elastic
-	907. elastic collision
+	907. [[elastic collision]]
 	908. elasticity
 	909. elastic potential energy
-	910. elastic string
-	911. electric field
+	910. [[elastic string]]
+	911. [[electric field]]
 	912. electromagnetic potentials
 	913. electromagnetic wave
 	914. element
@@ -1642,11 +1642,11 @@ Year: 2021-09-01
 	978. existential quantifier
 	979. exp
 	980. expand
-	981. expansion
+	981. [[expansion]]
 	982. expectation(of a matrix game)
 	983. expectation(of a random variable)
 	984. expected monetary value
-	985. expected utility
+	985. [[expected utility]]
 	986. expected value
 	987. experiment
 	988. experimental design(in statistics)
@@ -1671,7 +1671,7 @@ Year: 2021-09-01
 	1007. face
 	1008. face-transitive
 	1009. factor
-	1010. factor analysis()
+	1010. [[factor analysis]]
 	1011. factorial
 	1012. factorize
 	1013. factor space
@@ -4116,7 +4116,7 @@ Year: 2021-09-01
 	13. actual infinity
 		1. See potential infinity
 	14. addition formulae (in trigonometry)
-		2. See compound angle formulae
+		1. See compound angle formulae
 	15. additive inverse
 		1. See inverse element
 	16. adj
