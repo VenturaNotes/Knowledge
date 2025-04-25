@@ -5,6 +5,22 @@ Reviewed: false
 ---
 ## Synthesis
 - Use a hashmap to solve the problem. Pay careful attention to defaultdict and transforming `count` to a tuple. It's all about whether it's [[mutable (Python)|mutable]] or not.
+## Original
+```python
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        my_sorted_list = []
+        my_dict = {}
+    
+        for i in strs: #n
+            my_sorted_list.append(sorted(i)) #nlogn
+        for i in range(len(my_sorted_list)): #n
+            if tuple(my_sorted_list[i]) not in my_dict: #O(1)
+                my_dict[tuple(my_sorted_list[i])] = []
+            my_dict[tuple(my_sorted_list[i])].append(strs[i])
+        return list(my_dict.values())
+```
+- 
 ## Source [^1]
 - [[anagram]]
 - Method 1

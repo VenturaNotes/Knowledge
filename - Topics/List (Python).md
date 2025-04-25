@@ -11,6 +11,13 @@ aliases:
 ```python
 numbers = [0] * 5  # [0, 0, 0, 0, 0]
 ```
+### Description of Lists
+- Type flexibility: Can hold elements of different data types
+	- #question Is "type flexibility" a common term?
+- Built-in: Part of python's core syntax, created with square brackets `[]`
+- Example: `my_list = [1, "hello", 3.14, True]`
+- Common use: Preferred for general-purpose, dynamic collections
+- 
 ## Source [^2]
 ```python
 #Retrieve second item in list

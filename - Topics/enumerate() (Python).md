@@ -4,7 +4,7 @@ aliases:
 ---
 ## Synthesis
 ### Description
-- Iterates over an iterable (such as list, tuple, string) while keeping track of index of current item
+- Iterates over an iterable (such as list, tuple, string) while keeping track of index of current item.
 ### Example
 ```python
 A = [10, 11, 12]
@@ -19,7 +19,7 @@ index i: 0 element j: 10
 index i: 1 element j: 11
 index i: 2 element j: 12
 ```
-
+- It seems like you need to have two variables to use enumerate
 ## Original
 ```python
 A = [1, 2, 3]
@@ -43,7 +43,7 @@ print(list(enumerate(a)))
 ```
 - `i` is the index and `name` is the element
 ## Source[^3]
-- enumerate() is a built-in function that allows you to iterate over an [[iterable (python)|iterable]] (like a list, tuple, or string) while also keeping track of the index of the current item
+- enumerate() is a built-in function that allows you to iterate over an [[iterable (python)|iterable]] (like a list, tuple, or string) while also keeping track of the index of the current item.
 ## References
 
 [^1]: ChatGPT

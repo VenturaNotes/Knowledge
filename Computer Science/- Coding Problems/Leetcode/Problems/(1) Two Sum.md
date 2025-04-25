@@ -2,10 +2,28 @@
 Source:
   - https://leetcode.com/problems/two-sum/
 Reviewed: false
+Attempts: 1
 ---
 ## Synthesis
 - You could use a brute force solution of time complexity $O(n^2)$ where you traverse the entire array twice to check if two of the values in the array sum to the target
-- One-pass solution is when you iterate through the array and check if there exists a value in the hashmap to add which will equal the target. Otherwise, just insert into hashmap. Time and memory complexity is O(n)
+	- ![[Screenshot 2025-04-23 at 11.20.01 PM.png]]
+		- This uses an inefficient algorithm that runs through the same calculations twice (where 3+2 and 2+ 3 are done).
+- One-pass solution is when you iterate through the list and check if there exists a value in the hashmap to add which will equal the target. Otherwise, just insert into hashmap. Time and memory complexity is O(n)
+### Hash Map (One Pass) Solution
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # Create Dictionary
+        prevMap = {} 
+        # index, value
+        for i, n in enumerate(nums):
+            diff = target - n
+            if diff in prevMap:
+                return [prevMap[diff], i]
+            prevMap[n] = i
+```
+- ![[Screenshot 2025-04-24 at 1.55.54 AM.png]]
+	- Steps shown here
 ## Source [^1]
 - Brute force solution is $O(n^2)$
 	- Example: Given 2153
@@ -31,7 +49,6 @@ Reviewed: false
 class Solution(object):
     def twoSum(self, nums, target):
         prevMap = {} #val : index
-
         for i, n in enumerate(nums):
             diff = target - n
             if diff in prevMap:
