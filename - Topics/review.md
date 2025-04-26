@@ -6,8 +6,9 @@
 	- user requirements specification review
 	- software requirements specification review
 	- system design review
-	- module design review
-	- module coding review
+	- [[module design review]]
+	- [[module coding review]]
+		- See Code Inspection
 	- module test procedure review
 	- integration test plan review
 	- acceptance test review
