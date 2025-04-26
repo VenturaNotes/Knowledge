@@ -4804,6 +4804,14 @@ Year: 2016-04-01
 	4789. [[network topology]]
 	4790. [[network interconnection]]
 	4791. [[nesting store]]
+	4792. [[narrowband]]
+	4793. [[mu operator]]
+	4794. [[multisession compatible]]
+	4795. [[multiprecision]]
+	4796. [[multiple-valued logic]]
+	4797. [[multiaddress]]
+	4798. [[mu-law encoding]]
+	4799. [[monic polynomial]]
 - Created
 	1. binary adder
 	2. binary chop
@@ -5446,304 +5454,567 @@ Year: 2016-04-01
 	639. HMD
 	640. HMI
 	641. homomorphic image((of a formal language))
+		1. 
 	642. hop
+		1. See Store and Forward. See also FLOW CONTROL
 	643. Horizon 2020
+		1. See ESPRIT
 	644. horizontal check
+		1. See cyclic redundancy check
 	645. horizontal microinstruction
+		1. See microprogramming
 	646. horizontal recording
+		1. See Magnetic Encoding
 	647. host language
-	648. HP-PA(Trademark)
-	649. HPF
-	650. HSI
-	651. hub polling
-	652. hyperedge
-	653. hypertext mark-up language
-	654. hypertext transfer protocol
-	655. I/O
-	656. I/O channel
-	657. I/O port
-	658. I2C
-	659. IA5
-	660. IAB
-	661. IAP
-	662. IAS
-	663. IBG
-	664. IC
-	665. ICC
-	666. ICT
-	667. identity burst
-	668. idle time
-	669. IDP
-	670. IEEE1394
-	671. IESG
-	672. IETF
-	673. IFE
-	674. iff
-	675. IFS
-	676. IH
-	677. iLink
-	678. ill-conditioned
-	679. IMA
-	680. image grabber
-	681. inclusive-OR gate
-	682. inclusive-OR operation
-	683. incomplete knowledge-based system
-	684. incompleteness theorems
-	685. incremental backup
-	686. incremental compaction
-	687. incremental dump
-	688. incremental learning
-	689. indegree
-	690. information destination
-	691. information source
-	692. information structure
-	693. INFORMIX
-	694. inherent addressing
-	695. initial-value problem
-	696. inner code
-	697. inorder traversal
-	698. instance
-	699. instantaneously decodable
-	700. instruction cycle
-	701. instruction register
-	702. instruction repertoire
-	703. integer programming
-	704. integral domain
-	705. integrated data processing
-	706. integrated device electronics
-	707. integrated services digital network
-	708. integrated systems factory
-	709. integration testing
-	710. interactive development environment
-	711. interblock gap
-	712. interior node
-	713. internal schema (of a database)
-	714. internal sorting
-	715. Internet access provider
-	716. Internet Architecture Board
-	717. Internet café
-	718. Internet Engineering Steering Group
-	719. Internet Engineering Task Force
-	720. Internet Message Access Protocol
-	721. Internet Protocol Security
-	722. Internet service provider
-	723. interrupt service routine
-	724. interrupt vector
-	725. intrinsic semiconductor
-	726. inverse homomorphic image
-	727. inverse video
-	728. invertible matrix
-	729. IOP
-	730. IP address
-	731. IPC
-	732. IPv4
-	733. IPv6
-	734. IRQ
-	735. irrecoverable error
-	736. irreducible polynomial
-	737. IS
-	738. ISA
-	739. ISF
-	740. ISOC
-	741. ISR
-	742. IT
-	743. Itanium
-	744. ITron
-	745. ITU-T
-	746. Jackson method
-	747. Java Development Kit
-	748. JCL
-	749. join operator
-	750. JSP
-	751. JTMP
-	752. jukebox
-	753. jump instruction
-	754. Just-in-time compiler
-	755. JVM
-	756. K
-	757. K-complexity
-	758. k-connectivity
-	759. KADS
-	760. Karmarkar's method
-	761. kB
-	762. Kbps
-	763. KBS
-	764. Kbyte
-	765. KDC
-	766. KDD
-	767. kernel field
-	768. keyboard encoder
-	769. keypunch
-	770. keyring drive
-	771. KMP algorithm
-	772. LSD
-	773. leaf
-	774. Kleene-plus
-	775. Kleene closure
-	776. k lookahead
-	777. knowledge discovery in databases
-	778. knowledge elicitation
-	779. LAN
-	780. language
-	781. language concatenation
-	782. large-scale integration
-	783. last in first out
-	784. layer
-	785. LBA
-	786. LCC
-	787. LCM
-	788. LDU decomposition
-	789. leading edge((of a pulse))
-	790. learning
-	791. least fixed point
-	792. least squares approximation
-	793. least upper bound
-	794. left-linear grammar
-	795. left shift
-	796. left subtree
-	797. length-increasing grammar
-	798. letter((in formal language theory))
-	799. letter-equivalent languages
-	800. letter distribution
-	801. leverage point
-	802. LF
-	803. library
-	804. life cycle
-	805. light-emitting diode
-	806. light intensity
-	807. Lightweight Directory Access Protocol
-	808. linear array
-	809. linear list
-	810. linearly dependent
-	811. linear predictor
-	812. linear regression model
-	813. link layer
-	814. link access procedure
-	815. linkage
-	816. liquid-crystal display
-	817. listing
-	818. list insertion sort
-	819. list structure
-	820. local-echo mode
-	821. local discretization error
-	822. local optimization
-	823. logarithmic search algorithm
-	824. logical cohesion
-	825. logical connective
-	826. logical expression
-	827. logical operator
-	828. logical record
-	829. logical shift
-	830. logic cell array
-	831. logic design
-	832. logic device
-	833. logic function
-	834. logic languages
-	835. logic operator
-	836. logit
-	837. logout
-	838. longitudinal redundancy check
-	839. lookahead
-	840. lookup table
-	841. loop invariant
-	842. low-level scheduler
-	843. LRC
-	844. LZW
-	845. M
-	846. M-O
-	847. M2FM
-	848. Mac
-	849. MAC-48
-	850. machine address
-	851. machine intelligence
-	852. machine word
-	853. MAC layer
-	854. macroassembler
-	855. macrogenerator
-	856. macroinstruction
-	857. macroprocessor
-	858. magnetic-ink character recognition
-	859. magnetic head
-	860. magnetic stripe
-	861. magnetic tape unit
-	862. mag tape
-	863. mail
-	864. mailshot
-	865. main store
-	866. MAN
-	867. man-machine interface
-	868. MANET
-	869. Mann Whitney U-test
-	870. mantissa
-	871. many-sorted algebra
-	872. many-sorted predicate calculus
-	873. many-sorted signature
-	874. map
-	875. mapping
-	876. marching tetrahedra
-	877. marginal check
-	878. mark-space ratio
-	879. marker
-	880. mark reading
-	881. mask-programmable device
-	882. masquerade
-	883. massively parallel
-	884. master
-	885. mastering
-	886. matching
-	887. matrix-updating methods
-	888. matrix norm
-	889. maximum-length sequence
-	890. maximum likelihood, method of
-	891. MB
-	892. Mbps
-	893. Mbyte
-	894. MCLs
-	895. MCSs
-	896. MDNS
-	897. MDR
-	898. Mealy machine
-	899. mean
-	900. mean deviation
-	901. mebi-
-	902. Media Access Control address
-	903. median
-	904. medium
-	905. meet operator
-	906. memory stick
-	907. merge sort
-	908. MFM
-	909. microfiche
-	910. MIMD processor
-	911. mini DIN connector
-	912. minimization operator
-	913. minimum-cost spanning tree
-	914. mirroring
-	915. mirror set
-	916. MIS
-	917. MISD processor
-	918. mixed-base system
-	919. mixed-radix system
-	920. MMI
-	921. MOB
-	922. mod-ncounter
-	923. modal dialogue
-	924. modeless dialogue
-	925. modular counter
-	926. module coding review
-	927. module design review
-	928. module invariant
-	929. module testing
-	930. modulo-n check
+		1. See Database Language
+	648. HP-PA
+		1. Trademark (Hewlett-Packard Precision Architecture) See RISC.
+	649. HSI
+		1. (human-system interface) See Human-computer interface
+	650. hub polling
+		1. See Polling
+	651. hyperedge
+		1. See Hypergraph
+	652. hypertext mark-up language
+		1. See HTML
+	653. hypertext transfer protocol
+		1. See HTTP
+	654. I/O
+		1. Abbrev. for input/output
+	655. I/O channel
+		1. See Channel
+	656. I/O port
+		1. See Port
+	657. IA5
+		1. See ITA-5
+	658. IAB
+		1. (Internet Architecture Board) See Internet Society
+	659. IAP
+		1. Internet access provider. See ISP
+	660. IAS
+		1. Abbrev. for immediate access store
+	661. IBG
+		1. (interblock gap) See Tape Format
+	662. IC
+		1. Abbrev. for integrated circuit.
+	663. ICC
+		1. (integrated circuit card) see Smart Card
+	664. ICT
+		1. Abbrev. for information and communications technology
+	665. identity burst
+		1. See Tape Format
+	666. idle time
+		1. See available time
+	667. IDP
+		1. (integrated data processing) See DATA PROCESSING
+	668. IEEE1394
+		1. See FireWire
+	669. IESG
+		1. (Internet Engineering Steering Group) See Internet Society
+	670. IETF
+		1. (Internet Engineering Task Force) See Internet Society
+	671. IFE
+		1. Abbrev. for intelligent front end.
+	672. iff
+		1. Short for if and only if.
+	673. IFS
+		1. Abbrev. for iterated function system.
+	674. IH
+		1. Abbrev. for interrupt handler
+	675. iLink
+		1. See FireWire
+	676. ill-conditioned
+		1. See condition Number
+	677. IMA
+		1. Abbrev. for integrated modular avionics.
+	678. image grabber
+		1. See Video Scanner
+	679. inclusive-OR gate
+		1. Another name for OR gate.
+	680. inclusive-OR operation
+		1. Another name for OR operation, making explicit the difference between this and the exclusive-OR operation
+	681. incomplete knowledge-based system
+		1. See Completeness
+	682. incompleteness theorems
+		1. See Gödel's Incompleteness Theorems
+	683. incremental backup
+		1. See Full Backup
+	684. incremental compaction
+		1. (incremental compression) See Statistical Compaction
+	685. incremental dump
+		1. See Dump
+	686. incremental learning
+		1. See Machine Learning
+	687. indegree
+		1. See Degree
+	688. information destination
+		1. See Shannon's Model
+	689. information source
+		1. See Shannon's Model
+	690. information structure
+		1. Another name for data structure.
+	691. INFORMIX
+		1. Trademark; see Database Management System
+	692. inherent addressing
+		1. Another name for implied addressing
+	693. initial-value problem
+		1. See ordinary differential equations, partial differential equations
+	694. inner code
+		1. See Concatenated Coding Systems
+	695. inorder traversal
+		1. Another name for symmetric order traversal.
+	696. instance
+		1. See Instantiation, Unification. See also Object-Oriented Programming
+	697. instantaneously decodable
+		1. See Prefix Codes
+	698. instruction cycle
+		1. Another name for fetch-execute cycle. See Control Unit.
+	699. instruction register
+		1. See Control Unit
+	700. instruction repertoire
+		1. Another name for instruction set.
+	701. integer programming
+		1. See Mathematical Programming
+	702. integral domain
+		1. See RING
+	703. integrated data processing
+		1. (IDP) See Data Processing
+	704. integrated device electronics
+		1. See IDE
+	705. integrated services digital network
+		1. See ISDN
+	706. integrated systems factory
+		1. See ISF
+	707. integration testing
+		1. See TESTING
+	708. interactive development environment
+		1. See IDE
+	709. interblock gap
+		1. (IBG) See tape format
+	710. interior node
+		1. Another name for nonterminal node.
+	711. internal schema
+		1. (of a database) Another name for storage schema
+	712. internal sorting
+		1. See Sorting
+	713. Internet access provider
+		1. See ISP
+	714. Internet Architecture Board
+		1. (IAB) See Internet Society
+	715. Internet café
+		1. See Cybercafe
+	716. Internet Engineering Steering Group
+		1. (IESG) See Internet Society
+	717. Internet Engineering Task Force
+		1. (IETF) See Internet Society
+	718. Internet Message Access Protocol
+		1. See IMAP
+	719. Internet Protocol Security
+		1. See IPSEC
+	720. Internet service provider
+		1. See ISP
+	721. interrupt service routine
+		1. (ISR) See Interrupt I/O.
+	722. interrupt vector
+		1. See Vectored Interrupts
+	723. intrinsic semiconductor
+		1. (i-type semiconductor) See Semiconductor
+	724. inverse homomorphic image
+		1. See Homomorphism
+	725. inverse video
+		1. Another term for reverse video
+	726. invertible matrix
+		1. See Inverse Matrix
+	727. IOP
+		1. Abbrev. for I/O processor.
+	728. IP address
+		1. (IP number) See TCP/IP.
+	729. IPC
+		1. Abbrev. for interprocess communication
+	730. IPv4
+		1. See TCP/IP
+	731. IPv6
+		1. See TCP/IP
+	732. IRQ
+		1. (interrupt request) See INTERRUPT, INTERRUPT I/O.
+	733. irrecoverable error
+		1. of peripheral storage. See ERROR RATE.
+	734. irreducible polynomial
+		1. See Polynomial
+	735. IS
+		1. Abbreviation for information systems
+	736. ISA
+		1. See Industry Standard Architecture
+	737. ISF
+		1. Abbrev. for integrated systems factory.
+	738. ISOC
+		1. Short for Internet Society
+	739. ISR
+		1. (1) (Interrupt service routine) See Interrupt I/O.
+		2. (2) Abbrev. for information storage and retrieval
+	740. IT
+		1. Abbrev. for information technology
+	741. Itanium
+		1. Trademark See INTEL
+	742. ITron
+		1. See Tron
+	743. ITU-T
+		1. See ITU
+	744. Jackson method
+		1. See JSD, JSP
+	745. Java Development Kit
+		1. See JDK
+	746. JCL
+		1. Abbrev. for job-control language
+	747. join operator
+		1. See Lattice. See also Relational Model
+	748. JTMP
+		1. (Job Transfer and Manipulation Protocol) See Red Book.
+	749. jukebox
+		1. Informal name for optical disk library
+	750. jump instruction
+		1. (branch instruction) SEE JUMP
+	751. Just-in-time compiler
+		1. See JIT compiler
+	752. JVM
+		1. Abbrev. for Java Virtual Machine
+	753. K
+		1. (k) See KILO-
+	754. K-complexity
+		1. See Kolmogorov complexity
+	755. k-connectivity
+		1. See Connectedness, connectivity
+	756. KADS
+		1. See KNOWLEDGE ACQUISITION
+	757. Karmarkar's method
+		1. See Linear Programming
+	758. kB
+		1. (KB, Kb) Symbols for kilobyte. See BYTE, KILO-.
+	759. Kbps
+		1. (kilobits per second, i.e. usually 1000 bits per second) See BPS, KILO-.
+	760. KBS
+		1. Abbrev. for knowledge-based system.
+	761. Kbyte
+		1. (kilobyte) See BYTE, KILO-.
+	762. KDC
+		1. Abbrev. for key distribution center (in data security).
+	763. KDD
+		1. (knowledge discovery in databases) See DATA MINING
+	764. kernel field
+		1. Another name for base field. See polynomial
+	765. keyboard encoder
+		1. See encoder
+	766. keypunch
+		1. See keyboard
+	767. keyring drive
+		1. See USB Drive
+	768. KMP algorithm
+		1. Short for Knuth-Morris-Pratt algorithm
+	769. LSD
+		1. , LSB (least significant digit, least significant bit) See Least Significant Character
+	770. leaf
+		1. Short for leaf node. See also TREE
+	771. Kleene-plus
+		1. See KLEENE STAR
+	772. Kleene closure
+		1. Another name for Kleene star.
+	773. k lookahead
+		1. See LL Parsing, LR Parsing
+	774. knowledge discovery in databases
+		1. (KDD) See DATA MINING
+	775. knowledge elicitation
+		1. See knowledge acquisition
+	776. LAN
+		1. Acronym for local area network
+	777. language
+		1. See formal language, programming language, specification language
+	778. language concatenation
+		1. See CONCATENATION.
+	779. large-scale integration
+		1. See Integrated Circuit, LSI.
+	780. last in first out
+		1. See LIFO
+	781. layer
+		1. in open systems interconnection (OSI). See SEVEN-LAYER REFERENCE MODEL.
+	782. LBA
+		1. Abbrev. for linear-bounded automaton.
+	783. LCC
+		1. Abbrev. for leadless chip carrier.
+	784. LCM
+		1. Abbrev. for least common multiple
+	785. LDU decomposition
+		1. See LU Decomposition
+	786. leading edge
+		1. (of a pulse) See Pulse
+	787. learning
+		1. See Machine Learning
+	788. least fixed point
+		1. See Fixed-Point Theorem
+	789. least squares approximation
+		1. See Approximation Theory
+	790. least upper bound
+		1. See UPPER BOUND
+	791. left-linear grammar
+		1. See Linear Grammar
+	792. left shift
+		1. See Shift
+	793. left subtree
+		1. See Binary Tree
+	794. length-increasing grammar
+		1. See Context-sensitive grammar.
+	795. letter
+		1. (in formal language theory) See WORD.
+	796. letter-equivalent languages
+		1. See Parikh's Theorem
+	797. letter distribution
+		1. See Parikh's Theorem
+	798. leverage point
+		1. See Influence
+	799. LF
+		1. Abbrev. for line feed
+	800. library
+		1. See DLL, LINK LIBRARY, OPTICAL DISK LIBRARY, PROGRAM LIBRARY, TAPE LIBRARY
+	801. life cycle
+		1. See SOFTWARE LIFE CYCLE, SYSTEM LIFE CYCLE
+	802. light-emitting diode
+		1. (LED) see LED DISPLAY
+	803. light intensity
+		1. See INTENSITY
+	804. Lightweight Directory Access Protocol
+		1. See LDAP
+	805. linear array
+		1. Another name for one-dimensional array, i.e. for a vector. See also ARRAY.
+	806. linear list
+		1. See LIST
+	807. linearly dependent
+		1. See Linear Independence
+	808. linear predictor
+		1. See Generalized Linear Model
+	809. linear regression model
+		1. See Regression Analysis
+	810. link layer
+		1. of network protocol function. See SEVEN-LAYER REFERENCE MODEL
+	811. link access procedure
+		1. See LAP
+	812. linkage
+		1. Another name for link (def. 2).
+	813. liquid-crystal display
+		1. See LCD
+	814. listing
+		1. Short for program listing
+	815. list insertion sort
+		1. See LIST SORTING
+	816. list structure
+		1. See LIST
+	817. local-echo mode
+		1. See ECHO
+	818. local discretization error
+		1. See Discretization Error
+	819. local optimization
+		1. (peephole optimization) See optimization (in programming).
+	820. logarithmic search algorithm
+		1. Another name for binary search algorithm
+	821. logical cohesion
+		1. See Cohesion
+	822. logical connective
+		1. See connective
+	823. logical expression
+		1. Another name for Boolean expression.
+	824. logical operator
+		1. (logical operation) See Logic Operation
+	825. logical record
+		1. See Record
+	826. logical shift
+		1. See Shift
+	827. logic cell array
+		1. See LCA
+	828. logic design
+		1. Another name for digital design
+	829. logic device
+		1. See LOGIC CIRCUIT
+	830. logic function
+		1. Another name for Boolean function.
+	831. logic languages
+		1. See LOGIC PROGRAMMING LANGUAGES
+	832. logic operator
+		1. See Logic Operation
+	833. logit
+		1. See LOGISTIC FUNCTION
+	834. logout
+		1. (log out) See LOGOFF
+	835. longitudinal redundancy check
+		1. (LRC) See Cyclic Redundancy Check
+	836. lookahead
+		1. Short for carry lookahead
+	837. lookup table
+		1. See TABLE LOOKUP
+	838. loop invariant
+		1. See Invariant
+	839. low-level scheduler
+		1. (dispatcher) See Scheduler
+	840. LRC
+		1. (longitudinal redundancy check) See Cyclic Redundancy Check
+	841. LZW
+		1. Abbrev. for Lempel-Ziv-Welch (compaction).
+	842. M
+		1. Symbol for mega-, as in MHz, Mbyte, Mbps. See MEGA-.
+	843. M-O
+		1. (magneto-optic) See Magneto-Optic Storage
+	844. M2FM
+		1. (modified modified frequency modulation) See Disk Format
+	845. Mac
+		1. Short for Macintosh. See APPLE INC.
+	846. MAC-48
+		1. See MAC ADDRESS
+	847. machine address
+		1. Another name for absolute address, now deprecated.
+	848. machine intelligence
+		1. Another name for artificial intelligence.
+	849. machine word
+		1. See WORD
+	850. MAC layer
+		1. (media access control layer) One or more layers in a protocol stack that deal(s) with the issues of allowing transmitter, wishing to send information, to gain access to the actual transmission medium. In particular the MAC layer is usually responsible for the resolution of contention for access to the transmission medium. 
+	851. macroassembler
+		1. See MACRO.
+	852. macrogenerator
+		1. Another name for macroprocessor. See MACRO.
+	853. macroinstruction
+		1. See MACRO.
+	854. macroprocessor
+		1. (macrogenerator) See MACRO.
+	855. magnetic-ink character recognition
+		1. See MICR
+	856. magnetic head
+		1. See HEAD
+	857. magnetic stripe
+		1. See Magnetic Card
+	858. magnetic tape unit
+		1. (MTU) Another name for tape transport. See Magnetic Tape
+	859. mag tape
+		1. Short for magnetic tape
+	860. mail
+		1. See EMAIL
+	861. mailshot
+		1. See mailmerge
+	862. main store
+		1. (main storage) Other names for main memory
+	863. MAN
+		1. acronym for metropolitan area network
+	864. man-machine interface
+		1. (MMI) Another name for human-computer interface
+	865. MANET
+		1. See AD HOC NETWORK
+	866. Mann Whitney U-test
+		1. See Nonparametric techniques
+	867. mantissa
+		1. (fractional part) Another name for significand. See Floating-point notation
+	868. many-sorted algebra
+		1. See Algebra
+	869. many-sorted predicate calculus
+		1. (many-sorted first-order logic) See Predicate Calculus
+	870. many-sorted signature
+		1. See signature
+	871. map
+		1. (1) (mapping) See FUNCTION
+		2. (2) See memory map
+		3. (3) See bitmap, pixmap
+		4. (4) See Karnaugh Map
+	872. mapping
+		1. (1) (map) See FUNCTION
+		2. (2). See I/O MAPPING, MEMORY MAPPING
+	873. marching tetrahedra
+		1. See Marching Cubes
+	874. marginal check
+		1. (marginal test) See Preventive Maintenance
+	875. mark-space ratio
+		1. See PULSE TRAIN.
+	876. marker
+		1. (on a magnetic tap) See BOT MARKER, EOT MARKER
+	877. mark reading
+		1. (mark scanning) See OMR
+	878. mask-programmable device
+		1. See Programmable Devices, ROM.
+	879. masquerade
+		1. See SEMANTIC ATTACK
+	880. massively parallel
+		1. See CONNECTIONISM, MPP.
+	881. master
+		1. See BUS ARBITRATION, MASTER-SLAVE SYSTEM.
+	882. mastering
+		1. (of a CD-ROM disk) See MASTER TAPE.
+	883. matching
+		1. (of a graph) See PERFECT MATCHING
+	884. matrix-updating methods
+		1. See Optimization
+	885. matrix norm
+		1. See APPROXIMATION THEORY
+	886. maximum-length sequence
+		1. See M-SEQUENCE
+	887. maximum likelihood, method of
+		1. See LIKELIHOOD
+	888. MB
+		1. (Mb) Symbols for megabyte. See BYTE, MEGA-.
+	889. Mbps
+		1. (megabits per second, usually $10^6$ (one million) bits per second) See BPS, MEGA-.
+	890. Mbyte
+		1. (megabyte) See BYTE, MEGA-
+	891. MCLs
+		1. See MOBILE CODE LANGUAGES
+	892. MCSs
+		1. (Mobile Code Systems) See MOBILE CODE LANGUAGES
+	893. MDNS
+		1. Abbrev. for managed data network service
+	894. MDR
+		1. abbrev. for memory data register
+	895. Mealy machine
+		1. See Sequential Machine
+	896. mean
+		1. See MEASURES OF LOCATION
+	897. mean deviation
+		1. See MEASURES OF VARIATION.
+	898. mebi-
+		1. See BINARY PREFIXES.
+	899. Media Access Control address
+		1. See MAC ADDRESS.
+	900. median
+		1. See MEASURES OF LOCATION
+	901. medium
+		1. (plural: media) See DATA MEDIUM
+	902. meet operator
+		1. See LATTICE
+	903. memory stick
+		1. See USB DRIVE
+	904. merge sort
+		1. See MERGING
+	905. MFM
+		1. (modified frequency modulation) See DISK FORMAT
+	906. microfiche
+		1. (microfilm) See COM
+	907. MIMD processor
+		1. Short fur multiple instruction (stream), multiple data (stream) processor. See concurrency.
+	908. mini DIN connector
+		1. See DIN CONNECTOR
+	909. minimization operator
+		1. ($\mu$-operator) See MINIMIZATION
+	910. minimum-cost spanning tree
+		1. See SPANNING TREE
+	911. mirroring
+		1. See RAID
+	912. mirror set
+		1. See Mirror disk
+	913. MIS
+		1. Abbrev. for management information system
+	914. MISD processor
+		1. Short for multiple instruction (stream), single data (stream) processor. See Concurrency.
+	915. mixed-base system
+		1. See Number System
+	916. mixed-radix system
+		1. See Number System
+	917. MMI
+		1. (man-machine interface) See Human-Computer Interface
+	918. MOB
+		1. (movable object block) Another term for sprite
 - FormatA
-	1. [[narrowband]]
-	2. [[mu operator]]
-	3. [[multisession compatible]]
-	4. [[multiprecision]]
-	5. [[multiple-valued logic]]
-	6. [[multiaddress]]
-	7. [[mu-law encoding]]
-	8. [[monic polynomial]]
 - Finish This
 	1. [[predicate calculus]]
 	2. [[predictor-corrector methods]]
