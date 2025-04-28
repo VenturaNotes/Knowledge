@@ -19,7 +19,7 @@ The common methods of encoding are as follows.
 
   
 
-Frequency modulation (FM; F2F) is a form of self-clocking recording. The beginning of each bit cell is marked by a clock pulse recorded as a change in the direction of the magnetic flux. If the cell is to represent a binary 1 a second pulse or transition is written at the centre of the cell, otherwise there is no further change until the start of the next cell. If the frequency of the clock is $F$ then a stream of 1 s will result in a frequency of $2 F$ (hence F2F recording). In this form of recording the minimum separation between transitions is half of one cell and the maximum is one cell.
+[[Frequency modulation]] (FM; F2F) is a form of self-clocking recording. The beginning of each bit cell is marked by a clock pulse recorded as a change in the direction of the magnetic flux. If the cell is to represent a binary 1 a second pulse or transition is written at the centre of the cell, otherwise there is no further change until the start of the next cell. If the frequency of the clock is $F$ then a stream of 1 s will result in a frequency of $2 F$ (hence F2F recording). In this form of recording the minimum separation between transitions is half of one cell and the maximum is one cell.
 
   
 
