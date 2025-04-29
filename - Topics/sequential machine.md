@@ -25,7 +25,7 @@ then, if the machine is in state $q_{0}$ and reads $a$, it moves to state $q_{1}
 
   
 
-What is described here is sometimes called a Mealy machine to distinguish it from the more restricted Moore machines. In a [[Moore machine]], the symbol output at each stage depends only on the current state, and not on the input symbol read. The example above is therefore not a Moore machine since
+What is described here is sometimes called a [[Mealy machine]] to distinguish it from the more restricted Moore machines. In a [[Moore machine]], the symbol output at each stage depends only on the current state, and not on the input symbol read. The example above is therefore not a Moore machine since
 
   
 

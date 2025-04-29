@@ -3,8 +3,19 @@ Source:
   - https://youtube.com/watch?v=k9SwNST1eW0
 Reviewed: false
 ---
-- Voltage is a quantity
-	- Has to do with potential energy of electrical charges.
-	- This will be an intuitive description of what voltage means
-- Gravity and voltage are very similar ideas
-- If you put mass at the top of a mountain and let it go, the potential energy (PE) that it has is going to be dissipated as kinetic energy. That mass will roll down hill.
+- ![[Screenshot 2025-04-28 at 6.26.16 PM.png]]
+	- [[Voltage]] is one of the most important quantities and ideas in electricity
+		- It has to do with potential energy of electrical charges
+	- Will do an intuitive description of what voltage means
+		- Gravity and voltage are similar ideas
+			- Gravity
+				- If we put mass at the top of a mountain and let it go, the potential energy it has is going to be dissipated as kinetic energy. This mass will roll down the hill.
+				- This mass can do some work. It could hit some trees. 
+			- Voltage
+				- The battery builds our mountain. The battery delivers electrons to the top of the hill. We have an electron coming out of the negative battery terminal. Releasing the electron will role down the hill. Eventually it will return to the bottom side of the battery. 
+					- This is the image we have in our head when hooking up a circuit
+				- Along the way (down the hill), we could put in different circuit components (resistors or capacitors) and can make electron do work and bump into things as it goes down. 
+				- Amount of voltage is proportional to hight of mountain. A high voltage is a high mountain. Low voltage is a low mountain.
+					- Electrons are pushed out top by battery (rolling down to bottom doing work along way) and this is where we do our [[circuit design]]
+						- We buy batteries and do our circuit design and study here
+				- This is a great way to think about voltage as you begin to build your circuits

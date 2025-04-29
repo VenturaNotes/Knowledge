@@ -9,8 +9,8 @@ Reviewed: false
 ---
 - Complete
 	- [[(1) Current - Introduction to electrical engineering - Electrical engineering - Khan Academy]]
-- Incomplete
 	- [[(2) Voltage - Introduction to electrical engineering - Electrical engineering - Khan Academy]]
+- Incomplete
 	- [[(3) Current direction - Electrical engineering - Khan Academy]]
 	- [[(4) Conventional current]]
 	- [[(5) Ideal circuit elements - Circuit analysis - Electrical engineering - Khan Academy]]

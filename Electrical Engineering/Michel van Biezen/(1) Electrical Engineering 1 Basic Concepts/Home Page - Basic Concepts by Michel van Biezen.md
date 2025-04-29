@@ -11,7 +11,6 @@ Reviewed: false
 	- [[(1) Electrical Engineering - Basic Concepts  (1 of 7) Content]]
 	- [[(2) Electrical Engineering - Basic Concepts  (2 of 7) Basic Circuit Elements]]
 	- [[(3) Electrical Engineering - Basic Concepts  (3 of 7) Electric Current (Conventional vs Electrical Flow)]]
-
 - Incomplete
 	- [[(4) Electrical Engineering - Basic Concepts  (4 of 7) Electric Current - DC vs AC]]
 	- [[(5) Electrical Engineering - Basic Concepts  (5 of 7) Voltage]]
