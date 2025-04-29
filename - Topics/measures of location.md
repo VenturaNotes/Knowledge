@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- Quantities that represent the average or typical value of a random variable (compare MEASURES OF VARIATION). They are either properties of a probability distribution or computed statistics of a sample. Three important measures are the mean, median, and mode.
+- Quantities that represent the average or typical value of a random variable (compare MEASURES OF VARIATION). They are either properties of a probability distribution or computed statistics of a sample. Three important measures are the [[mean]], [[median]], and mode.
 - The mean of a sample of $n$ observations, denoted by $\bar{x}$, is$$\sum_{i} x_{i} / n$$The mean of a probability distribution, denoted by $\mu$, is$$\sum x p(x)$$for a discrete distribution and$$\int x.f(x) \mathrm{dx}$$for a continuous distribution; it is also called the expectation of $x$, denoted by $E(x).$ 
 - A [[weighted mean]] is used when members of a sample are known with different reliability. To each observation $x_{i}$ corresponds a weight $w_{i}$, and now $\bar{x}$ is$$\sum\left(w_{i}, x_{i} / \sum w_{i}\right.$$If each observation is the mean of $w$ observations, the formulas for the weighted and unweighted means agree.
 	- #question Is there supposed to be a closing parenthesis here?

@@ -5,6 +5,25 @@ Reviewed: false
 ---
 ## Synthesis
 - Use a hashmap to solve the problem. Pay careful attention to defaultdict and transforming `count` to a tuple. It's all about whether it's [[mutable (Python)|mutable]] or not.
+### Solution
+```python
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        # Dictionary where each key's default value is an empty list
+        res = defaultdict(list)
+
+        for s in strs:
+	        # List for each letter in the alphabet
+            count = [0] * 26 #a ... z
+
+			# Keeps track of frequency of each letter in s
+            for c in s:
+                count[ord(c) - ord("a")] += 1
+            
+            res[tuple(count)].append(s)
+        return res.values()
+```
+
 ## Original
 ```python
 class Solution:
@@ -20,7 +39,8 @@ class Solution:
             my_dict[tuple(my_sorted_list[i])].append(strs[i])
         return list(my_dict.values())
 ```
-- 
+- I sort each string in alphabetical order within `strs` and add them to `my_sorted_list`. Then I have a dictionary where my `key` will represent that anagram in alphabetical order and store the original anagram strings (from `strs`) as the values. Then return the values in the end.
+	- Side note: I needed to convert the `my_sorte_list[i]` to a tuple because a key value must be immutable (in which a list is not)
 ## Source [^1]
 - [[anagram]]
 - Method 1
@@ -91,7 +111,7 @@ class Solution:
             sortedS = ''.join(sorted(s))
             # Add string to the list corresponding to key
             res[sortedS].append(s)
-		# Returns grouped anagrams it a rinh of lists
+		# Returns grouped anagrams in a list of lists
         return list(res.values())
 ```
 - Time Complexity: $O(m*nlogn)$
