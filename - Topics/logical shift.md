@@ -1,3 +1,7 @@
+---
+aliases:
+  - logical shifts
+---
 ## Synthesis
 - 
 ## Source [^1]
