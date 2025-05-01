@@ -1,3 +1,7 @@
+---
+aliases:
+  - leverage points
+---
 ## Synthesis
 - 
 ## Source [^1]

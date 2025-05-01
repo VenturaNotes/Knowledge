@@ -64,7 +64,7 @@ $$
 
   
 
-The 2-norm frequently incorporates a weight function (or weights). From these two norms the problems of Chebyshev approximation and least squares approximation arise. For example, with polynomial approximation we seek
+The 2-norm frequently incorporates a weight function (or weights). From these two norms the problems of Chebyshev approximation and [[least squares approximation]] arise. For example, with polynomial approximation we seek
 
   
 

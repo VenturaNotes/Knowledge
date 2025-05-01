@@ -29,7 +29,7 @@ must also be included, with $S$ not occurring in the right-hand side of any prod
 
   
 
-In a length-increasing grammar each production has a right-hand side at least as long as its left-hand side (apart possibly from $S \rightarrow \Lambda$ ). Clearly any context-sensitive grammar is length-increasing, but it can also be shown that any length-increasing grammar is equivalent to a context-sensitive one. Context-sensitive grammars are a class of phrase-structure grammar.
+In a [[length-increasing grammar]] each production has a right-hand side at least as long as its left-hand side (apart possibly from $S \rightarrow \Lambda$ ). Clearly any context-sensitive grammar is length-increasing, but it can also be shown that any length-increasing grammar is equivalent to a context-sensitive one. Context-sensitive grammars are a class of phrase-structure grammar.
 
   
 
