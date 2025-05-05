@@ -14,7 +14,7 @@ Reviewed: false
 	- (2) [[(242) Valid Anagram]]
 	- (3) [[(1) Two Sum]]
 	- (4) [[(49) Group Anagrams]]
-	- (5) [[(692) Top K Frequent Words]]
+	- (5) [[(347) Top K Frequent Elements]]
 	- (6) [[(172) Encode and Decode Strings - Leetcode 271 - Python]]
 	- (7) [[(238) Product of Array Except Self]]
 	- (8) [[(36) Valid Sudoku]]
