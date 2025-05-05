@@ -7,6 +7,14 @@ aliases:
   - dict (python)
 ---
 ## Synthesis
+- Initializing (constant time operation)
+	- `diner = {}`
+	- `diner = dict()`
+- Ordered after Python 3.7
+### Examples
+```python
+
+```
 ## Source [^1]
 ### Ordered or Unordered
 - As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered. 
@@ -47,6 +55,7 @@ for key, value in student_info.items():
     print(f"{key}: {value}")
 
 ```
+- #question Is `f` needed in the example above for the print line? 
 - The [[del (Python)|del]] keyword is used to delete objects. In Python, everything is an object, so the del keyword can also be used to delete variables, lists, or parts of a list etc. [^4]
 - The "f" while iterating through the dictionary stands for [[formatted string literal]]
 	- It is a way to embed expressions inside string literals using curly braces. 
@@ -95,6 +104,17 @@ graduation_year: 2024
 - In `dictionary.get(key, default_value)`
 	- `key`: Retrieve value the key holds
 	- `default_value`: Optional value to return if key not in dictionary. Otherwise, returns `None` by default
+
+### Common Subclasses
+- `collections.defaultdict`: Adds automatic default codes
+	- #question For a subclass within `dict`, why do you need to go to collections?
+	- #question Is collections considered a module? A library? 
+- `collections.OrderedDict`: Keeps items in insertion order (before Python 3.7 made this default for `dict`)
+	- #question Is this subclass still used?
+- `collections.Counter`: Subclass for counting hashable objects
+	- #
+- `collections.ChainMap`: Groups multiple dictionaries together
+- `types.MappingProxyType`: A read-only view of a dictionary
 
 ## Source [^7]
 ### Dictionary Clear()
