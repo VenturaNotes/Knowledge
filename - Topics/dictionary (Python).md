@@ -11,10 +11,11 @@ aliases:
 	- `diner = {}`
 	- `diner = dict()`
 - Ordered after Python 3.7
-### Examples
-```python
-
-```
+- To remove a key
+	- `car.pop("model")`
+	- A `KeyError` will occur if the key doesn't exist
+- To get value of key
+	- `car.get("model")`
 ## Source [^1]
 ### Ordered or Unordered
 - As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered. 

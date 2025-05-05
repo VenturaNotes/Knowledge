@@ -8,6 +8,7 @@ tags:
 Reviewed: false
 ---
 - Notes from [website](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/)
+	- Includes practice worksheets!
 
 ---
 - Reviewed

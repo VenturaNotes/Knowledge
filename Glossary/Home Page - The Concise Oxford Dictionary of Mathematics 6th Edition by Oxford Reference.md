@@ -2320,7 +2320,7 @@ Year: 2021-09-01
 	1602. ln
 	1603. load
 	1604. Lobachevsky, Nikolai Ivanovich (1792-1856)
-	1605. locally compact
+	1605. [[locally compact]]
 	1606. local maximum
 	1607. located vector
 	1608. location
@@ -2361,12 +2361,12 @@ Year: 2021-09-01
 	1643. Lp
 	1644. lub
 	1645. Lucas numbers
-	1646. Lucas theorem
+	1646. [[Lucas theorem]]
 	1647. LU decomposition
-	1648. lune
-	1649. lurking variable
+	1648. [[lune]]
+	1649. [[lurking variable]]
 	1650. Lyapunov, Aleksandr (1857-1918)
-	1651. Lyapunov stability
+	1651. [[Lyapunov stability]]
 	1652. M
 	1653. m
 	1654. M
