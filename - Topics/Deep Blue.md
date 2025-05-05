@@ -1,7 +1,3 @@
----
-aliases:
-  - gate
----
 ## Synthesis
 - 
 ## Source [^1]

@@ -1,6 +1,6 @@
 ---
 aliases:
-  - gate
+  - string literals
 ---
 ## Synthesis
 - 
@@ -8,4 +8,4 @@ aliases:
 - 
 ## References
 
-[^1]:
+[^1]: ChatGPT

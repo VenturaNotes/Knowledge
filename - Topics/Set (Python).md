@@ -4,11 +4,13 @@ aliases:
   - sets
 ---
 ## Synthesis
-- Empty set initialization
+- Initialization
 	- `my_variable = set()`
 - Removing vs Discarding
 	- `my_variable.remove("hello")` raises error if item does not exist
+		- #question Does this mean you always need to check first if the element is within the set? 
 	- `my_variable.discard("hello")` will not raise error if item does not exist
+		- #question What happens instead if an error is not raised?
 	- #question Why would you ever use `remove` over `discard`? 
 
 ### Questions

@@ -23,6 +23,7 @@ class Solution:
             res[tuple(count)].append(s)
         return res.values()
 ```
+- 
 
 ## Original
 ```python
@@ -40,7 +41,7 @@ class Solution:
         return list(my_dict.values())
 ```
 - I sort each string in alphabetical order within `strs` and add them to `my_sorted_list`. Then I have a dictionary where my `key` will represent that anagram in alphabetical order and store the original anagram strings (from `strs`) as the values. Then return the values in the end.
-	- Side note: I needed to convert the `my_sorte_list[i]` to a tuple because a key value must be immutable (in which a list is not)
+	- Side note: I needed to convert the `my_sorted_list[i]` to a tuple because a key value must be immutable (in which a list is not)
 ## Source [^1]
 - [[anagram]]
 - Method 1
