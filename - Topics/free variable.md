@@ -17,7 +17,7 @@ $$
 
   
 
-the variable $x$ occurs three times. The first occurrence, since it immediately follows a $\lambda$, introduces a new 'binding' of $x$, and is therefore called a binding occurrence. The second occurrence of $x$ falls inside the 'scope' of this binding and is therefore called a bound occurrence. The third $x$ is not within the scope of any such binding and is therefore called a free occurrence. Equally, the variable $f$ has a binding occurrence and a bound occurrence, while $g$ and $y$ just have one free occurrence each. Since only $x, y$, and $g$ have free occurrences, they are referred to as the free variables of the expression. The value of the whole expression then depends on what values are given to these free occurrences.
+the variable $x$ occurs three times. The first occurrence, since it immediately follows a $\lambda$, introduces a new 'binding' of $x$, and is therefore called a binding occurrence. The second occurrence of $x$ falls inside the 'scope' of this binding and is therefore called a [[bound occurrence]]. The third $x$ is not within the scope of any such binding and is therefore called a free occurrence. Equally, the variable $f$ has a binding occurrence and a bound occurrence, while $g$ and $y$ just have one free occurrence each. Since only $x, y$, and $g$ have free occurrences, they are referred to as the free variables of the expression. The value of the whole expression then depends on what values are given to these free occurrences.
 
   
 
