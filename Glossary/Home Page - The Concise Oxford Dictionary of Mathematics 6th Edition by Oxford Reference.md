@@ -3014,7 +3014,7 @@ Year: 2021-09-01
 	2296. primitive(nth root of unity)
 	2297. primitive
 	2298. primitive element
-	2299. primitive polynomial
+	2299. [[primitive polynomial]]
 	2300. primitive root
 	2301. principal axes(in mechanics)
 	2302. principal axes(of a quadric)
@@ -3420,7 +3420,7 @@ Year: 2021-09-01
 	2702. sequence of functions
 	2703. sequence space
 	2704. sequential compactness
-	2705. sequential sampling
+	2705. [[sequential sampling]]
 	2706. serial(of a relation)
 	2707. serial computation
 	2708. serial correlation
@@ -3449,7 +3449,7 @@ Year: 2021-09-01
 	2731. Sierpinski triangle
 	2732. sifting property
 	2733. sigma
-	2734. sigma algebra
+	2734. [[sigma algebra]]
 	2735. sigma function
 	2736. sign
 	2737. signed area
