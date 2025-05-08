@@ -3559,21 +3559,21 @@ Year: 2021-09-01
 	2823. stabilizer
 	2824. stable equilibrium
 	2825. stable numerical analysis
-	2826. stadium paradox
+	2826. [[stadium paradox]]
 	2827. stagnation point
 	2828. standard basis
 	2829. standard deviation
-	2830. standard error
+	2830. [[standard error]]
 	2831. standard form(of a linear programming problem)
 	2832. standard form(of a number)
 	2833. standardize
 	2834. standard normal distribution
 	2835. stars and bars
 	2836. state
-	2837. statement
+	2837. [[statement]]
 	2838. static friction
-	2839. statics
-	2840. stationary distribution
+	2839. [[statics]]
+	2840. [[stationary distribution]]
 	2841. stationary point(in one variable)
 	2842. stationary point(in two variables)
 	2843. stationary value
@@ -3586,7 +3586,7 @@ Year: 2021-09-01
 	2850. steady
 	2851. Steinitz exchange lemma
 	2852. stem-and-leaf plot
-	2853. step function
+	2853. [[step function]]
 	2854. steradian
 	2855. stereographic projection
 	2856. Stevin, Simon (1548-1620)
