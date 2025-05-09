@@ -6,7 +6,7 @@ aliases:
 ## Synthesis
 - 
 ## Source [^1]
-- Similar to list comprehension but crates a generator instead of a list. It uses `()`
+- Similar to list comprehension but creates a generator instead of a list.
 	- #question What kind of properties does a generator object have which makes it a generator?
 ### Format
 ```python

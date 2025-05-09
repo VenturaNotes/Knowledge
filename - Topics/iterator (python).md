@@ -39,6 +39,13 @@ Output
 1
 2
 ```
+
+## Source[^2]
+- An iterator is an object that contains a countable number of values
+	- #question What does countable number mean?
+- An iterator is an object that can be iterated upon, meaning that you can traverse through all the values. 
+- For python, an iterator is an object which implements the iterator protocol which consists of the methods [[__iter__() (python)|__iter__()]] and [[__next__() (python)|__next__()]]
 ## References
 
 [^1]: Google's Search Labs | AI Overview
+[^2]: https://www.w3schools.com/python/python_iterators.asp
