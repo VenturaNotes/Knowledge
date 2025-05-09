@@ -4,8 +4,15 @@ aliases:
 ---
 ## Synthesis
 - 
+## Original
+- A 'map' object is not subscriptable meaning the code below is NOT possible
+```python
+x = map(int, input().split())
+print((x[0]+ x[1] + x[2])/3)
+#Can't access elements using brackets like `x[0]`
+```
 ## Source [^1]
-- Applies a function to all items in an iterable and returns a map object which is an iterator. 
+- Applies a function to all items in an [[iterable]] and returns a map object which is an iterator. 
 	- #question what is the difference between [[iterator (python)|iterator]] and [[iterable (python)|iterable]]? 
 	- #question is a generator an iterator or iterable?
 - The map object can be converted to a list, tuple, or another type of iterable if needed
@@ -81,6 +88,10 @@ print(list(string_numbers))  # Output: ['1', '2', '3', '4', '5']
 - There is a difference between [[type conversion (python)|type conversion]] and [[type casting (python)|type casting]][^2]
 	- In type conversion, the python interpreter automatically converts one data type to another
 	- In type casting, the programmer converts the data type manually
+
+### What can you do with a map object?
+- A map object is an iterator so it needs to be consumed (converted to a list or iterated through with a loop)
+	- #question Is "consumed" the write question here? 
 ## References
 
 [^1]: ChatGPT

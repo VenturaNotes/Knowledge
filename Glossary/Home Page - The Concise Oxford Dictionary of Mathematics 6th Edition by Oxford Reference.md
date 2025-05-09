@@ -3592,27 +3592,28 @@ Year: 2021-09-01
 	2856. Stevin, Simon (1548-1620)
 	2857. Stewart, Ian (1945- )
 	2858. stiffness
-	2859. Stirling's formula
+	2859. [[Stirling's formula]]
 	2860. Stirling number of the first kind
 	2861. Stirling number of the second kind
 	2862. stochastic differential equation
-	2863. stochastic matrix
+	2863. [[stochastic matrix]]
 	2864. stochastic process
 	2865. stochastic variable
 	2866. Stokes' Theorem(generalized form)
 	2867. Stokes, Sir George Gabriel (1819-1903)
 	2868. Stone-Weierstrass Theorem
-	2869. Stone space
-	2870. straight angle
-	2871. straight edge
+	2869. [[Stone space]]
+	2870. [[straight angle]]
+	2871. [[straight edge]]
 	2872. straight line
+		1. See LINE (in two dimensions), LINE (in three dimensions)
 	2873. strain
-	2874. strategy
+	2874. [[strategy]]
 	2875. stratified sample
-	2876. stream function
-	2877. streamline
+	2876. [[stream function]]
+	2877. [[streamline]]
 	2878. stress
-	2879. strict
+	2879. [[strict]]
 	2880. strictly decreasing
 	2881. strictly determined game
 	2882. strictly increasing
