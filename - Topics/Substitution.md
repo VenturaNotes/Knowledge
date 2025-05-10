@@ -30,6 +30,10 @@ $$
   
 
 $s(L)$ is called the substitution image of $L$ under s. 2. See Substitution CIPHER.
+
+## Source[^2]
+- The replacement of a term in an expression or equation with another which is known to have the same value. This includes replacing variables with their numerical value to evaluate a formula. See also integration.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
