@@ -19,6 +19,10 @@ print(ord('b')) # Output: 98
 
 ### Example
 - `ord("a")` returns `97`, which is the Unicode code point for the lowercase letter `a`
+
+## Source[^2]
+- ord() function converts a character into its ASCII notation
 ## References
 
 [^1]: ChatGPT
+[^2]: https://www.geeksforgeeks.org/quizzes/functions-python-gq/

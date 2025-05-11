@@ -33,8 +33,19 @@ aliases:
 	- This means you cannot modify a character at a specific index.
 		- #comment For example, with the string "hello", you can't interchange "h" and "e" without creating a new string
 - When a string is modified, a new string object is created instead of altering the original one
+
+## Source[^4]
+- The join function combines the elements of a list into a string
+```python
+li = ['a','b','c','d']
+print("".join(li))
+```
+- The output is `abcd`
+	- The "" depicts a null string
+		- #question is there a difference between a null string and an empty string?
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_strings1
 [^2]: https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string
 [^3]: Google's Search Labs | AI Overview
+[^4]: https://www.geeksforgeeks.org/quizzes/functions-python-gq/

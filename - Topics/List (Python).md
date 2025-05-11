@@ -4,20 +4,38 @@ aliases:
   - lists
 ---
 ## Synthesis
-- 
+- Given the list `fruits = ["apple", "banana", "cherry"]`
+	- Remove an element
+		- `fruits.remove("banana")`
+	- Add multiple elements to list 
+		- `hello = []`
+		- `hello.extend(fruits)`
+		- `#Value:["apple", "banana", "cherry"]`
 ## Source [^1]
 - Lists are not hashable since lists are [[mutable (Python)|mutable]]
 - Initializing list with default values
 ```python
 numbers = [0] * 5  # [0, 0, 0, 0, 0]
 ```
+
+### Extend List
+```python
+test = [0] * 3
+hello = []
+
+hello.extend(test)
+
+print(hello)
+
+#Output: [0, 0, 0]
+```
+- Allows you to append elements to a list
 ### Description of Lists
 - Type flexibility: Can hold elements of different data types
 	- #question Is "type flexibility" a common term?
 - Built-in: Part of python's core syntax, created with square brackets `[]`
 - Example: `my_list = [1, "hello", 3.14, True]`
 - Common use: Preferred for general-purpose, dynamic collections
-- 
 ## Source [^2]
 ```python
 #Retrieve second item in list
