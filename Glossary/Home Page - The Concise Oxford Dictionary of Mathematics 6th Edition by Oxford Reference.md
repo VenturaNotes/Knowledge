@@ -830,7 +830,7 @@ Year: 2021-09-01
 	68. block design
 	69. block diagonal matrix
 	70. block multiplication
-	71. 3blue1brown
+	71. [[3blue1brown]]
 	72. BODMAS
 	73. body
 	74. Bohr, Niels Henrik David (1885-1962)
@@ -3678,7 +3678,7 @@ Year: 2021-09-01
 	2913. surface of revolution
 	2914. surjection
 	2915. Sylow's theorems
-	2916. Sylvester's equation
+	2916. [[Sylvester's equation]]
 	2917. Sym
 	2918. symbol
 	2919. symbolic logic
@@ -3738,7 +3738,7 @@ Year: 2021-09-01
 	2973. temperature
 	2974. tend to
 	2975. tension
-	2976. tensor
+	2976. [[tensor]]
 	2977. tensor product
 	2978. tera-
 	2979. term
@@ -3757,7 +3757,7 @@ Year: 2021-09-01
 	2992. theorem
 	2993. Theorema Egregium
 	2994. theorem proving
-	2995. there exists
+	2995. [[there exists]]
 	2996. theta function
 	2997. Thom, René Frédéric (1923-2002)
 	2998. Thomson, William
@@ -3772,7 +3772,7 @@ Year: 2021-09-01
 	3007. Tn
 	3008. Tonelli's theorem
 	3009. tonne
-	3010. topological data analysis
+	3010. [[topological data analysis]]
 	3011. topological group
 	3012. topologically distinguishable
 	3013. topological space
