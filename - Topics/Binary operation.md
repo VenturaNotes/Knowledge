@@ -39,8 +39,11 @@ The operation symbol then appears between the left and right operand. A symbol, 
   
 
 When the set $S$ is finite, Cayley tables and sometimes truth tables are used to define the meaning of the operation. 2. An operation on binary operands.
+## Source[^4]
+- A binary operation $\circ$ on a set $S$ is a rule that associates with any elements $a$ and $b$ of $S$ an element denoted by $a \circ b$. This is equivalent to saying that $S$ is closed under $\circ$. Common examples include addition, multiplication, and composition (on certain sets). See ASSOCIATIVE, COMMUTATIVE, OPERATION.
 ## References
 
 [^1]: [[(1) What are Binary Operations.  - Abstract Algebra]]
 [^2]: https://en.wikipedia.org/wiki/Binary_operation
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
