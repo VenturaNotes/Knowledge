@@ -87,9 +87,14 @@ aliases:
 			- $= 21$ 
 		- Solution
 			- $-4*21$ = $-84$ 
+
+## Source[^5]
+- The number, denoted by $\binom{n}{r}$, where $n$ is a positive integer and $r$ is an integer such that $0 \leq r \leq n$, defined by the formula$$\binom{n}{r}=\frac{n(n-1) \ldots(n-r+1)}{1 \times 2 \times \ldots \times r}=\frac{n!}{r!(n-r)!}$$Since, by convention, $0!=1$, we have $\binom{n}{0}=\binom{n}{n}=1$. These numbers are called binomial coefficients because they occur as coefficients in the Binomial Theorem. They are sometimes denoted by ${ }^{n} C_{r}$; this notation arose as the binomial coefficient equals the number of ways of selecting $r$ objects out of $n$ (see SELECTION). The numbers have the following properties:$$\begin{align}&(i)~~\binom{n}{r} \text{ is an integer (this is not obvious from the definition)} \\&(ii)~~\binom{n}{n-r}=\binom{n}{r}\\&(iii)~~\binom{n+1}{r}=\binom{n}{r-1} + \binom{n}{r}\\&(iv)~~\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\ldots+\binom{n}{n}=2^n. \end{align}$$
+- It is instructive to see the binomial coefficients laid out in the form of Pascal's triangle.
 ## References
 
 [^1]: https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_(Doerr_and_Levasseur)/02%3A_Combinatorics/2.04%3A_Combinations_and_the_Binomial_Theorem
 [^2]: [[Home Page - Open Data Structures (in Java) by Pat Morin#^f1b1p2]]
 [^3]: [[(10) Counting Subsets and the Binomial Theorem (full lecture)]]
 [^4]: [[(12) Mathematical Reasoning - Test 1 Review]]
+[^5]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

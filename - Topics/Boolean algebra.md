@@ -77,7 +77,16 @@ Boolean algebras, named for George Boole, the 19th-century English mathematician
   
 
 # Boolean algebra. Laws
+
+## Source[^3]
+- A set of elements defined with two binary operations ( $\lor$ and $\land$ ), a unary operation $(\neg)$ and two elements 0 and 1 which possess the following properties:
+	- (i) Both operations $\lor$ and $\land$ are commutative and associative.
+	- (ii) 0 is an identity for addition and 1 is an identity for multiplication.
+	- (iii) Each operation $\lor$ and $\land$ is distributive over the other.
+	- (iv) $a \vee(\neg a)=1$ and $a \wedge(\neg a)=0$ for all $a$.
+- For example, a power set $\wp(X)$, where $\lor$ is union, $\land$ is intersection, $\neg$ is complentation in $X$, and 0 is the empty set and 1 is $X$, is a Boolean algebra. Compare BOOLEAN RING; see also STONE SPACE.
 ## References
 
 [^1]: [[Home Page - Glossary by ada computer science]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

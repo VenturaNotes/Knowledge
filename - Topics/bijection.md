@@ -48,7 +48,10 @@ $$
   
 
 such that $f$ and $f^{-1}$ are inverses to each other; $f^{-1}$ will also be a bijection.
+## Source[^3]
+- (bijective mapping) A one-to-one onto mapping, that is, a mapping that is both injective and surjective. Also known as a one-to-one correspondence.
 ## References
 
 [^1]: ChatGPT
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

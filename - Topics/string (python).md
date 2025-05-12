@@ -3,6 +3,9 @@ aliases:
   - string
 ---
 ## Synthesis
+
+### .partition()
+- The `.partition()` method in Python is used to split a string into three parts based on the first occurrence of a specified separator.
 ### Characteristics
 - Immutable
 ## Source [^1]
@@ -43,9 +46,27 @@ print("".join(li))
 - The output is `abcd`
 	- The "" depicts a null string
 		- #question is there a difference between a null string and an empty string?
+
+## Source[^5]
+- `'Hello, World!'.partition(', ')`
+	- Result is `('Hello', ', ', 'World!')`
+
+## Source[^6]
+- The `.partition()` method in Python is used to split a string into three parts based on the first occurrence of a specified separator.
+- Format
+	- `string.partition(separator)`
+	- Returns a tuple of 3 elements
+		- Part before separator
+		- Separator
+		- Part after separator
+- If separator not found
+	- `(original_string, '', '')`
+
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_strings1
 [^2]: https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string
 [^3]: Google's Search Labs | AI Overview
 [^4]: https://www.geeksforgeeks.org/quizzes/functions-python-gq/
+[^5]: [[Home Page - 500+ Python Interview Questions and Answers by applyre]]
+[^6]: ChatGPT
