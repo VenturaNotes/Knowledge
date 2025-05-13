@@ -14,7 +14,6 @@ aliases:
 
 ## Source[^2]
 - A subset of artificial intelligence that involves training algorithms to recognize patterns and make decisions with minimal human intervention.
-
 ## Source[^3]
 - A branch of artificial intelligence concerned with the construction of programs that learn from experience. [[Learning]] may take many forms, ranging from learning from examples and learning by analogy to autonomous learning of concepts and learning by discovery.
 - [[Incremental learning]] involves continuous improvement as new data arrives while oneshot or [[batch learning]] distinguishes a training phase from the application phase. Supervised learning occurs when the training input has been explicitly labelled with the classes to be learned.

@@ -11,14 +11,17 @@ aliases:
 	- `diner = {}`
 	- `diner = dict()`
 - Ordered after Python 3.7
+	- #question If a dictionary is ordered, does that mean I can retrieve the first or second key of a dictionary?
 - To remove a key
 	- `car.pop("model")`
 	- A `KeyError` will occur if the key doesn't exist
+		- #question Give me some details about `KeyError`
 - To get value of key
 	- `car.get("model")`
 ## Source [^1]
 ### Ordered or Unordered
-- As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered. 
+- Python 3.7+, dictionaries are ordered
+- Python 3.6 and earlier, dictionaries ore unordered
 ## Source [^2]
 ### Dictionary Creation/Initialization
 - `diner = {}`
@@ -26,7 +29,7 @@ aliases:
 - `diner = dict()`
 
 ## Source [^3]
-
+- Dictionaries use hashmaps for fast key access
 ### Example
 Input
 ```python

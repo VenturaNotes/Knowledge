@@ -4,6 +4,7 @@ aliases:
 ---
 ## Synthesis
 - Hashable objects include integers, floating-point numbers, strings, booleans, and tuples (if elements within are hashable)
+	- #question Are integers, floating-point numbers, strings, and booleans the only types of elements that are hashable? Is it possible to make your own data type or object from a class that is hashable? 
 ## Source [^1]
 - An object is hashable if it has a hash value which never changes during its lifetime 
 	- #question What is a hash value? 

@@ -17,6 +17,12 @@ print(list(squares_gen)) #Output: [0, 1, 4, 9, 16]
 	- Could directly the generator expression into a list comprehension using brackets
 		- `squares = [x**2 for x in range(5)]`
 
+### Generator iterator or iterable
+- A generator is both
+	- Iterator because it implements `__next__()`
+	- Iterable because it implements `__iter__()` and returns itself
+	- #question can you give examples of both where the generator is being used here?
+
 ### Description
 - A special type of [[iterator (python)|iterator]] that allows you to iterate over a sequence of values lazily
 	- This means it generates values on the fly as you need them rather than storing the entire sequence in memory at once

@@ -10,9 +10,12 @@ aliases:
 	- Add multiple elements to list 
 		- `hello = []`
 		- `hello.extend(fruits)`
-		- `#Value:["apple", "banana", "cherry"]`
+		- `print(hello)` would give output `["apple", "banana", "cherry"]`
 ## Source [^1]
-- Lists are not hashable since lists are [[mutable (Python)|mutable]]
+- Lists are not [[hashable (python)|hashable]] since lists are [[mutable (Python)|mutable]]
+	- An object is hashable if it has a hash value which never changes during its lifetime [^5]
+	- #question What makes an object in python?
+	- #question Will an object have a hash value if it's immutable?
 - Initializing list with default values
 ```python
 numbers = [0] * 5  # [0, 0, 0, 0, 0]
@@ -124,3 +127,4 @@ print(len(fruits))
 [^2]: https://www.w3schools.com/python/exercise.asp?filename=exercise_lists1
 [^3]: Google's Search Labs | AI Overview
 [^4]: https://www.w3schools.com/python/python_ref_list.asp
+[^5]: [[hashable (python)#Source 1]]
