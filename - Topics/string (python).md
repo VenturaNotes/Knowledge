@@ -6,6 +6,9 @@ aliases:
 
 ### .partition()
 - The `.partition()` method in Python is used to split a string into three parts based on the first occurrence of a specified separator.
+### .lstrip()
+- Removes leading whitespace from a string
+- `   hello.lstrip()` $\to$ `hello`
 ### Characteristics
 - Immutable
 ## Source [^1]
@@ -50,6 +53,8 @@ print("".join(li))
 ## Source[^5]
 - `'Hello, World!'.partition(', ')`
 	- Result is `('Hello', ', ', 'World!')`
+- Removing leading whitespaces from a string
+	- `string.lstrip()`
 
 ## Source[^6]
 - The `.partition()` method in Python is used to split a string into three parts based on the first occurrence of a specified separator.

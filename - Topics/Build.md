@@ -5,7 +5,7 @@
 	- #question What is a dependency?
 	- #question How is source compiled using an IDE?
 	- #question Are there other ways to compile source code aside from an IDE?
-	- #questoin What is source code? Are there other types of codes in a software development project?
+	- #question What is source code? Are there other types of codes in a software development project?
 	- #question How does deployment work?
 ## References
 

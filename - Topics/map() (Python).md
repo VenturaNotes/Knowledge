@@ -12,11 +12,23 @@ print((x[0]+ x[1] + x[2])/3)
 #Can't access elements using brackets like `x[0]`
 ```
 ## Source [^1]
-- Applies a function to all items in an [[iterable]] and returns a map object which is an iterator. 
-	- #question what is the difference between [[iterator (python)|iterator]] and [[iterable (python)|iterable]]? 
-	- #question is a generator an iterator or iterable?
+- Applies a function to all items in an [[iterable (python)|iterable]] and returns a map object which is an [[iterator (python)|iterator]]. 
+	- #question What is a map object?
 - The map object can be converted to a list, tuple, or another type of iterable if needed
+	- Lists are iterable. 
+	- Dictionaries use hashmaps for fast key access
+		- #question How do hashmaps provide fast key access?
 	- #question I thought lists weren't iterable because of hashmaps or something like that?
+### Iterator vs Iterable
+- Iterable: An object capable of returning its members one at a time. Example includes, lists, tuples, dictionaries, strings, and generators. Any object with an `__iter__()` method is iterable
+	- #question Show how the `__iter__()` method works
+	- #question What is meant by object?
+	- #question How do you check if an iterable has an `__iter__()` method
+- Iterator: An object that represents a stream of data; it implements the `__next__()` method and returns the next item. Iterators are what actually do the iteration
+	- #question Is an iterator like a list or is it something different? 
+	- #question What is meant by stream of data? Does it need to be a stream? 
+- All iterators are iterables, but not all iterables are iterators
+	- #question Can you give some examples for this 
 
 ### Syntax
 ```python

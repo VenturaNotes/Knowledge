@@ -866,26 +866,32 @@ Year: 2021-09-01
 	88. [[Borel measure]]
 	89. [[Max Born]]
 	90. [[bottleneck problems]]
-	91. bound
-	92. boundary(of a set)
-	93. boundary condition
-	94. boundary layer
-	95. boundary value problem
+	91. [[bound]]
+	92. [[boundary]]
+	93. [[boundary condition]]
+	94. [[boundary layer]]
+	95. [[boundary value problem]]
 	96. bounded above
+		1. See Bound
 	97. bounded below
-	98. bounded function
-	99. bounded sequence
+		1. See Bound
+	98. [[bounded function]]
+	99. [[bounded sequence]]
 	100. bounded set
-	101. bounded space
-	102. bounded variation
-	103. Bourbaki, Nicolas
-	104. Box-Jenkins model
-	105. box plot
+		1. See Bound
+	101. [[bounded space]]
+	102. [[bounded variation]]
+	103. [[Nicolas Bourbaki]]
+	104. [[Box-Jenkins model]]
+	105. [[box plot]]
 	106. bra
+		1. See KET
 	107. braces
-	108. brachistochrone
-	109. brackets
-	110. Brahmagupta (598-665)
+		1. See BRACKETS
+	108. [[brachistochrone]]
+	109. [[brackets]]
+	110. [[Brahmagupta]]
+
 	111. Brahmagupta's formula
 	112. branch
 	113. branch(of a hyperbola)
@@ -1475,7 +1481,7 @@ Year: 2021-09-01
 	696. dihedral
 	697. dihedral group
 	698. Dijkstra's method
-	699. dilation
+	699. [[dilation]]
 	700. dimension(linear algebra)
 	701. dimension(topology)
 	702. dimensions
@@ -2049,7 +2055,7 @@ Year: 2021-09-01
 	1270. identity
 	1271. identity function
 	1272. identity matrix
-	1273. identity theorem
+	1273. [[identity theorem]]
 	1274. if and only if
 	1275. iff
 	1276. iid
@@ -2062,7 +2068,7 @@ Year: 2021-09-01
 	1283. imaginary part
 	1284. implication
 	1285. implicit
-	1286. implicit differentiation
+	1286. [[implicit differentiation]]
 	1287. implicit function theorem
 	1288. imply
 	1289. improper fraction
