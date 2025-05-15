@@ -13,16 +13,17 @@ Reviewed: false
 	- [[(3) Make Truth Tables for P and (If Q Then P) and If (Not P) and (If Q Then P)]]
 	- [[(4) Make a Truth Table for If (Not P) Then (Q and R)]]
 	- [[(5) Introduction to Logically Equivalent Statements]]
-- Incomplete
 	- [[(6) Determining if Two Statements Are Equivalent Using a Truth Table]]
 	- [[(7) Deduction Rules - Modus Ponens and Modul Tollens]]
 	- [[(8) Verify the Deduction Rule - If P then Q.  If (Not P) Then Q. Therefore Q.]]
 	- [[(9) Determine if an Argument is a Deduction Rule or Not - If P Then R. If Q Then R. R. Therefore P or Q.]]
 	- [[(10) Is an Argument a Deduction Rule or Not - If (P and Q) Then R. Not P or Not Q. Therefore Not R]]
+- Incomplete
 	- [[(11) Simplify Statements Using Logically Equivalent Statements]]
 	- [[(12) Logically Equivalent Statements - Draw a Conclusion from a False Implication]]
 	- [[(13) Introduction to Predicate Logic]]
 	- [[(14) Simplify the Negation of Statements with Quantifiers and Predicates]]
+
 	- [[(15) Is an Argument a Deduction Rule or Not - If (P and Q), Then R. Not P or Not Q. Therefore Not R]]
 	- [[(16) Introduction to Common Mathematical Proof Methods]]
 	- [[(17) Introduction to Direct Proofs - If n is even, then n squared is even]]

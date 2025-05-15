@@ -22,7 +22,7 @@ numbers = [0] * 5 # [0, 0, 0, 0, 0]
 	- [Useful link](https://launchschool.com/books/python/read/intro_collections)
 ### Initializing Objects
 #### No Default Values
-- In [[Object-Oriented Programming (Python)|Object-Oriented Programming]], you initialize objects using [[Constructor (Python)|constructors]]. The [[__init__() python]] method is called the constructor and is used to initialize an object's attributes
+- In [[Object-Oriented Programming (Python)|Object-Oriented Programming]], you initialize objects using [[Constructor (Python)|constructors]]. The [[__init__() (python)|__init__()]] method is called the constructor and is used to initialize an object's attributes
 ```python
 class Person:
     def __init__(self, name, age):

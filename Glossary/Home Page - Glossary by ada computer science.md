@@ -343,7 +343,7 @@ Reviewed: false
 	259. [[Inline style]]
 	260. [[Input device]]
 	261. [[Insertion sort]]
-	262. [[Instantiation]]
+	262. [[Instantiate|instantiation]]
 	263. [[Instruction set]]
 	264. [[Integer]]
 	265. [[Integer division]]

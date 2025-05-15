@@ -3,6 +3,7 @@ aliases:
   - sorted()
 ---
 ## Synthesis
+- #question What is the output when using sorted. What data type is this?
 ### Definition
 - `sorted()` returns a sorted list in ascending order by default
 ### Example
