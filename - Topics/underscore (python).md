@@ -3,7 +3,7 @@ aliases:
   - underscore
 ---
 ## Synthesis
-- 
+- #question What is `_` in a for loop?
 ## Source [^1]
 - The underscore `_` is commonly used as a throwaway variable name when the value of the variable is not going to be used.
 - This usage is part of a broader convention where _ serves as a placeholder for variables whose values are not needed.

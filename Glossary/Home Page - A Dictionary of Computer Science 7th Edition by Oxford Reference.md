@@ -4564,7 +4564,7 @@ Year: 2016-04-01
 	4549. [[input device]]
 	4550. [[insert]]
 	4551. [[install]]
-	4552. [[instantiation]]
+	4552. [[Instantiate|instantiation]]
 	4553. [[instruction]]
 	4554. [[instruction counter]]
 	4555. [[IBM system 360]]

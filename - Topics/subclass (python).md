@@ -1,6 +1,7 @@
 ---
 aliases:
   - subclass
+  - subclasses
 ---
 ## Synthesis
 - 

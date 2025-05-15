@@ -1,3 +1,7 @@
+---
+aliases:
+  - deduction rule
+---
 ## Synthesis
 - 
 ## Source [^1]
