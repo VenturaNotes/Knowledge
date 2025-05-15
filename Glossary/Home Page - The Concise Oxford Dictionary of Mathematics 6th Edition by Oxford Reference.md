@@ -1279,10 +1279,14 @@ Year: 2021-09-01
 	411. coset(group)
 	412. coset(ring)
 	413. cosine
+		1. See Trigonometric Functions
 	414. cosine rule
+		1. See Hyperbolic plane, spherical triangle, triangle
 	415. cotangent
+		1. See trigonometric function
 	416. coth
-	417. count
+		1. See hyperbolic function
+	417. [[count]]
 	418. countable
 	419. countably infinite
 	420. counterexample
@@ -1310,7 +1314,7 @@ Year: 2021-09-01
 	442. critical point
 	443. critical region
 	444. critical value
-	445. cross-correlation
+	445. [[cross-correlation]]
 	446. cross-multiply
 	447. crossing number
 	448. cross product
@@ -1325,7 +1329,7 @@ Year: 2021-09-01
 	457. cubic polynomial
 	458. cuboctahedron
 	459. cuboid
-	460. cumulative frequency
+	460. [[cumulative frequency]]
 	461. cumulative frequency distribution
 	462. cup
 	463. curl
@@ -1336,7 +1340,7 @@ Year: 2021-09-01
 	468. curvilinear coordinates
 	469. cusp
 	470. cut(in a network)
-	471. cycle decomposition
+	471. [[cycle decomposition]]
 	472. cyclic data
 	473. cyclic group
 	474. cyclic module
