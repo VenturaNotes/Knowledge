@@ -2106,7 +2106,7 @@ Year: 2021-09-01
 	1234. infinity
 	1235. inflection
 	1236. information
-	1237. information theory
+	1237. [[information theory]]
 	1238. inhomogeneous
 	1239. initial conditions
 	1240. initialize
@@ -2120,9 +2120,10 @@ Year: 2021-09-01
 	1248. inscribed circle(of a triangle)
 	1249. insoluble
 	1250. instance
-	1251. instantaneous
+	1251. [[instantaneous]]
 	1252. instantaneous code
-	1253. instrumental understanding
+		1. A synonym for prefix code
+	1253. [[instrumental understanding]]
 	1254. integer
 	1255. integer factorization(in cryptography)
 	1256. integer part
@@ -2270,7 +2271,7 @@ Year: 2021-09-01
 	1398. level set
 	1399. lever
 	1400. LHS
-	1401. liar paradox
+	1401. [[liar paradox]]
 	1402. Lie, (Marius) Sophus (1842-99)
 	1403. Lie correspondence
 	1404. Lie group
@@ -2322,7 +2323,7 @@ Year: 2021-09-01
 	1450. Lipschitz condition
 	1451. Lissajous curve
 	1452. litre
-	1453. little o notation
+	1453. [[little o notation]]
 	1454. Littlewood, John Edensor (1885-1977)
 	1455. LMS
 	1456. ln
@@ -2357,7 +2358,7 @@ Year: 2021-09-01
 	1485. Lorentz force law
 	1486. Lorentz group
 	1487. Lorentz transformation
-	1488. Lorenz attractor
+	1488. [[Lorenz attractor]]
 	1489. Lotka-Volterra equations
 	1490. lower bound
 	1491. lower limit
