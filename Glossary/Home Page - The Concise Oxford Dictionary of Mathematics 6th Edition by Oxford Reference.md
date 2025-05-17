@@ -2361,13 +2361,19 @@ Year: 2021-09-01
 	1488. [[Lorenz attractor]]
 	1489. Lotka-Volterra equations
 	1490. lower bound
+		1. See BOUND
 	1491. lower limit
+		1. See Limit of Integration
 	1492. lower triangular matrix
+		1. See Triangular Matrix
 	1493. lowest common denominator
+		1. A synonym for least common denominator
 	1494. lowest terms
+		1. See irreducible fraction
 	1495. lp
 	1496. Lp
 	1497. lub
+		1. A synonym for Least Upper Bound
 	1498. Lucas numbers
 	1499. LU decomposition
 	1500. Lyapunov, Aleksandr (1857-1918)
@@ -2541,9 +2547,9 @@ Year: 2021-09-01
 	1668. Monte Carlo methods
 	1669. Monty Hall problem
 	1670. Moore-Penrose inverse
-	1671. Mordell Conjecture
+	1671. [[Mordell Conjecture]]
 	1672. Morera's Theorem
-	1673. Morley's Theorem
+	1673. [[Morley's Theorem]]
 	1674. morphism
 	1675. Morse Theory
 	1676. Moser's circle problem
@@ -2552,7 +2558,7 @@ Year: 2021-09-01
 	1679. multi-
 	1680. multicollinearity
 	1681. multifunction
-	1682. multigraph
+	1682. [[multigraph]]
 	1683. multilinear
 	1684. multinomial
 	1685. multinomial coefficient
