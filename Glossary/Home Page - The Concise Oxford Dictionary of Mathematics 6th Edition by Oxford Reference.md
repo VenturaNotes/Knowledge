@@ -931,9 +931,9 @@ Year: 2021-09-01
 	57. categorical data
 	58. categorical proposition
 	59. category
-	60. category error
-	61. catenary
-	62. catenoid
+	60. [[category error]]
+	61. [[catenary]]
+	62. [[catenoid]]
 	63. Cauchy's formula for derivatives
 	64. Cauchy's integral formula
 	65. Cauchy's Integral Theorem
@@ -957,7 +957,7 @@ Year: 2021-09-01
 	83. Cayley's Theorem(for trees)
 	84. Cayley, Arthur (1821-95)
 	85. Cayley-Hamilton Theorem
-	86. Cayley Representation Theorem
+	86. [[Cayley Representation Theorem]]
 	87. ceiling
 	88. Celsius
 	89. centesimal
