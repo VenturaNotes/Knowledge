@@ -957,8 +957,6 @@ Year: 2021-09-01
 	37. Cauchy's Theorem(group theory)
 	38. Cauchy's Theorem(complex analysis)
 	39. Cauchy, Augustin-Louis (1789-1857)
-
-
 	40. Cauchy-Frobenius lemma
 	41. Cauchy-Riemann equations
 	42. Cauchy-Schwarz inequality
