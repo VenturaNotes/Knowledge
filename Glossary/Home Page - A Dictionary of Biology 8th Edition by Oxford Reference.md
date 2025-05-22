@@ -985,7 +985,7 @@ Reviewed: false
 	971. chlorophyll
 	972. Chlorophyta
 	973. chloroplast
-	974. chlorosis
+	974. [[chlorosis]]
 	975. chloroxybacteria
 	976. choanae
 	977. cholecalciferol
@@ -1361,7 +1361,7 @@ Reviewed: false
 	1347. [[cytosine]]
 	1348. cytoskeleton
 	1349. cytosol
-	1350. cytostome
+	1350. [[cytostome]]
 	1351. cytotaxonomy
 	1352. cytotoxic
 	1353. cytotoxic T cell
@@ -1412,7 +1412,7 @@ Reviewed: false
 	1398. dendrite
 	1399. dendritic cell
 	1400. dendrochronology
-	1401. dendrogram
+	1401. [[dendrogram]]
 	1402. dendron
 	1403. Denisovan
 	1404. denitrification
