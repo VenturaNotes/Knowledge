@@ -58,7 +58,7 @@ aliases:
 		- #question What is meant by inference
 		- #question What is a GPU
 		- #question What is a TPU
-	- Large-scale memory (RAM and VRAM)
+	- Large-scale memory ([[RAM]] and VRAM)
 		- #question What is RAM
 		- #question What is VRAM
 		- #question What is meant by large-scale memory? 
