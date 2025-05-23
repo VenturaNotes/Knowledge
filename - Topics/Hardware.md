@@ -1,5 +1,6 @@
 ## Synthesis
-- 
+
+
 ## Source[^1]
 ### Definition
 - Physical components and devices making up a computer system or electronic device

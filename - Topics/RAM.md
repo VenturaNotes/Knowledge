@@ -6,7 +6,7 @@ aliases:
 - 
 ## Source [^1]
 - RAM stands for random access memory
-- RAM is fast, volatile memory
+- RAM is fast, [[volatile memory]]
 	- It is volatile because it requires power to store data
 - RAM does not store instructions to load up the computer
 ## References
