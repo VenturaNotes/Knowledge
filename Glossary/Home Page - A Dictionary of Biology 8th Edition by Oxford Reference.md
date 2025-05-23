@@ -1438,7 +1438,7 @@ Reviewed: false
 	1424. desert
 	1425. desertification
 	1426. desiccation
-	1427. desiccator
+	1427. [[desiccator]]
 	1428. desmids
 	1429. desmosome
 	1430. desmotubule
@@ -1536,9 +1536,9 @@ Reviewed: false
 	1522. dispersive replication
 	1523. displacement activity
 	1524. display behaviour
-	1525. disruptive selection
+	1525. [[disruptive selection]]
 	1526. dissociation constant
-	1527. distal
+	1527. [[distal]]
 	1528. distal convoluted tubule
 	1529. distribution
 	1530. disulphide bridge
