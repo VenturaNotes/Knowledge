@@ -1865,7 +1865,7 @@ Reviewed: false
 	1851. Eumycota
 	1852. euphotic zone
 	1853. euphyllophyte
-	1854. euploid
+	1854. [[euploid]]
 	1855. eury-
 	1856. eusocial
 	1857. Eustachian tube
@@ -1874,7 +1874,7 @@ Reviewed: false
 	1860. eutrophic
 	1861. evergreen
 	1862. evo-devo
-	1863. evocation
+	1863. [[evocation]]
 	1864. evolution
 	1865. evolutionary tree
 	1866. exa-
@@ -1893,7 +1893,7 @@ Reviewed: false
 	1879. exocytosis
 	1880. exodermis
 	1881. exogamy
-	1882. exogenous
+	1882. [[exogenous]]
 	1883. exome
 	1884. exon
 	1885. exon shuffling

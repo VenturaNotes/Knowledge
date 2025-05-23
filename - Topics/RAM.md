@@ -3,12 +3,103 @@ aliases:
   - Radom Access Memory
 ---
 ## Synthesis
-- 
+- Random access memory is fast, volatile memory
 ## Source [^1]
 - RAM stands for random access memory
 - RAM is fast, [[volatile memory]]
 	- It is volatile because it requires power to store data
 - RAM does not store instructions to load up the computer
+### Source[^2]
+### Loading up Computer
+- RAM does not store the instructions (machine-level commands that a computer's [[Central Processing Unit|CPU]] can execute) to load up the computer.
+	- #question What is meant by "loading up" the computer? 
+- These instructions are written in low-level binary code and make up the programs that control what the computer does at each step
+	- #question Is there a difference between low-level binary code and binary code? 
+	- #question Could you give an example of what the instructions look like?
+- The instructions to load up the computer are the initial programs that tell the system how to start up such as
+	- Checking hardware (POST)
+		- #question What is POST?
+		- #question How does it check hardware?
+	- Finding the boot device
+		- #question What is a boot device? Is this hardware or software?
+	- Loading the bootloader
+		- #question Does the boot device load the bootloader?
+	- Starting the operating system
+		- #question Is this the process the same for every operating system?
+	- #question Are these all the instructions of an initial program? 
+	- These instructions live in non-volatile memory (like BIOS/UEFI) because RAM is empty at startup
+		- #question What is exactly meant by "empty"? 
+- Rough breakdown of "instructions" in plain terms
+	- Breakdown
+		- Check if memory is working
+		- Check if keyboard is connected
+			- #question Would this matter on startup?
+			- #question Is there a difference between computer startup and system startup?
+		- Find the hard drive
+		- Load the bootloader from disk into RAM
+			- #question What is "disk" in this case?
+		- Run the bootloader to start the OS
+	- Each of these steps is a set of instructions usually written in machine code and executed by the CPU
+		- #question Is it always written in machine code? What else could it be written in?
+		- #question Is the machine code written by humans or was it written by humans in a higher level language but then converted down to machine code?
+		- #question How does the CPU execute it? Could the GPU or TPU execute it as well? 
+- Essentially "instructions" means executable steps
+- RAM does not store the instructions to load up the computer (at least not initially)
+	- RAM plays no role at the very start (boot instructions live elsewhere)
+	- RAM becomes critical shortly after, the system loads and executes everything from RAM once the computer gets going 
+	- This means that RAM does not contain the instructions to start up the computer when power is first turned on, but after the system begins booting, RAM does store important instructions, just not the original ones that start the process
+		- #question What is meant by system here?
+	- On power-up
+		- RAM is completely empty - it loses all data when the computer shuts off
+		- CPU starts executing instructions stored in the motherboard's non-volatile memory (like BIOS or UEFI firmware)
+			- #question What kind of firmware is this?
+	- After boot begins
+		- #question what is meant by "boot begins"?
+		- The system loads software like the bootloader and operating system from the storage drive into RAM
+			- #question What is a bootloader
+			- #question what is an operating system
+			- #question What is storage drive? 
+		- From that point on, RAM stores and runs the computer's instructions like launching apps, managing files, or browsing the web. 
+	- #question What is meant by at least not initially?
+- RAM is volatile, meaning it loses all data when the computer is turned off
+	- #question What kind of data is lost? Does it mean when the computer is turned off, the data is completely wiped? Is it possible to recover the data? What if the computer is still plugged in?
+- The instructions to load up the computer (to boot it) need to be stored somewhere non-volatile, so they persist even when power is off
+	- #question What is meant by non-volatile
+	- #question is non-volatile and non-volatile storage different things? 
+- Where are boot instructions stored?
+	- #question What are boot instructions? Is this the formal term in computer science?
+	- They are stored in firmware, typically:
+		- ROM (Read-Only Memory) or Flash memory
+			- #question What is ROM?
+			- #question What is Flash memory?
+		- This is part of the BIOs or UEFI chip on the motherboard
+			- #question What is the BIOs
+			- #question What is the UEFI chip?
+			- #question What is the motherboard?
+		- #question What is firmware?
+- What happens at startup?
+	- (1) When powering on computer, the CPU accesses the BIOS/UEFI firmware which is stored in non-volatile memory
+		- #question What is a cpu? 
+		- #question What is BIOS/UEFI firmware?
+		- #question how is it stored in non-volatile memory? What makes this kind of memory persistent?
+	- (2) The BIOS/UEFI runs POST (Power-On Self-Test) and finds the boot device (e.g., SSD, HDD)
+		- #question What is BIOS?
+		- #question What is UEFI
+		- #question What is POST
+		- #question what is a boot device?
+		- #question what is ssd
+		- #question What is hdd
+	- (3) It then loads the bootloader (like GRUB or Windows Boot Manager) into RAM
+		- #question What is a bootloader
+		- #question What is GRUB?
+		- #question What is windows boot manager
+	- (4) The bootloader loads the operating system into RAM
+	- (5) The OS then takes over, and everything runs from RAM during operation
+		- #question Does everything always run from RAM during operation?
+		- #question What is meant by operation?
+		- #question What is an OS?
+		- #question What is meant by the OS taking over? 
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-2-memory-and-storage-quizzes/ks4-ocr-j277-1-2-memory-quiz/
+[^2]: ChatGPT
