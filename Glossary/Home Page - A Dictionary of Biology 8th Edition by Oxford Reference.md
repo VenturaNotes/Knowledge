@@ -2363,7 +2363,7 @@ Reviewed: false
 	2349. haemocoel
 	2350. haemocyanin
 	2351. haemocyte
-	2352. haemocytometer
+	2352. [[hemocytometer]]
 	2353. haemodynamics
 	2354. haemoglobin
 	2355. haemoglobinic acid
@@ -3023,7 +3023,7 @@ Reviewed: false
 	3009. limnology
 	3010. LINE
 	3011. linear energy transfer
-	3012. linkage
+	3012. [[linkage]]
 	3013. linkage disequilibrium
 	3014. linkage map
 	3015. Linnaean system
@@ -3043,7 +3043,7 @@ Reviewed: false
 	3029. lithosphere
 	3030. litre
 	3031. litter
-	3032. littoral
+	3032. [[littoral]]
 	3033. liver
 	3034. liverworts
 	3035. living fossil
