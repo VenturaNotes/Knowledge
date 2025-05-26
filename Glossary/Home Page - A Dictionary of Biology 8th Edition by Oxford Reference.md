@@ -3067,7 +3067,7 @@ Reviewed: false
 	3053. long noncoding RNA
 	3054. long terminal repeat
 	3055. loop of Henle
-	3056. lophophore
+	3056. [[lophophore]]
 	3057. Lophotrochozoa
 	3058. lower critical temperature
 	3059. LSD
@@ -3084,7 +3084,7 @@ Reviewed: false
 	3070. luteotrophic hormone
 	3071. lyase
 	3072. Lycopodiophyta
-	3073. lymph
+	3073. [[lymph]]
 	3074. lymphatic system
 	3075. lymph capillary
 	3076. lymph heart
@@ -3156,7 +3156,7 @@ Reviewed: false
 	3142. MAP kinase
 	3143. map unit
 	3144. Marchantiophyta
-	3145. mark-recapture method
+	3145. [[mark-recapture method]]
 	3146. marker gene
 	3147. marsupials
 	3148. masquerade
