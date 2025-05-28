@@ -16,12 +16,11 @@
 	- Types prevent contradictions:
 		- By restricting how objects can be combined, type theory avoids ambiguities and paradoxes
 			- #question how does it do this?
-
 ### Key Ideas in Type Theory
 - [[Dependent Types]]: Types that depend on values. For example, a type might represent vectors of a certain length, where the length is part of the type.
 
 ## Source[^2]
-- In type theory, the basic object of study is a [[type (type theory)]]. Here are some types:
+- In type theory, the basic object of study is a [[type (type theory)|type]]. Here are some types:
 	- $\mathbb{N}$ ([[natural numbers]])
 	- $\mathbb{Z}$ ([[integers]])
 	- $\mathbb{S}^1$ ([[circle]])
@@ -54,11 +53,9 @@
 	- The $\vdash$ is known as the [[turnstile symbol]][^4]
 ### Function Types (AKA Lambda Calculus)
 - [[Function Types]]
-- 
 ## Source[^5]
 - A [[type formation rule]] 
 ## References
-
 [^1]: ChatGPT
 [^2]: https://math.berkeley.edu/~forte/notes/type_theory.pdf
 [^3]: https://cs.stackexchange.com/questions/41834/type-theory-notation-troubles
