@@ -3279,7 +3279,7 @@ Reviewed: false
 	3265. metaphloem
 	3266. metaplasia
 	3267. metapopulation
-	3268. metaproteomics
+	3268. [[metaproteomics]]
 	3269. metastasis
 	3270. metatarsus
 	3271. Metatheria
@@ -3790,7 +3790,7 @@ Reviewed: false
 	3776. organism
 	3777. organizer
 	3778. organ of Corti
-	3779. organogenesis
+	3779. [[organogenesis]]
 	3780. orgasm
 	3781. Oriental region
 	3782. origin of life
@@ -3806,7 +3806,7 @@ Reviewed: false
 	3792. osmium tetroxide
 	3793. osmoconformer
 	3794. osmole
-	3795. osmolyte
+	3795. [[osmolyte]]
 	3796. osmoreceptor
 	3797. osmoregulation
 	3798. osmoregulator
