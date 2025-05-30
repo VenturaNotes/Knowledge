@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A model to explain the genetic control of floral organ determination during flower development. It proposes that the four principal organs$\textemdash$sepals, petals, stamens, and carpels-are specified by organ identity genes belonging to three classes: A, B, and C. The organs are arranged in four concentric whorls, and their identity is determined according to which combinations of genes are expressed in each whorl. Class A genes alone specify the outermost whorl of sepals; the formation of petals depends on activation of both class A and B genes; stamens are specified by class B and C genes acting together; and the innermost whorl of carpels is determined by class C genes alone. The model was based on observations of mutant flowers in the thale cress (Arabidopsis thaliana). Mutations in these genes cause the transformation of one flower organ into another (i.e. homeosis); for example, a class B mutation causes sepals to develop instead of petals, and carpels instead of stamens. The genes corresponding to these homeotic mutations are now known to be MADS box genes that encode transcription factors, capable of activating different target genes depending on what other transcription factors act with them. See also FLOWERING.
+## References
+
+[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]

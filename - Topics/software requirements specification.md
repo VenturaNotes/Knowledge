@@ -1,5 +1,12 @@
+---
+aliases:
+  - SRS
+---
 ## Synthesis
-- 
+- It is a formal document that
+	- describes what the software system should do (functional requirements)
+	- Includes constraints and non-functional requirements (e.g. performance, security)
+	- Is used as a reference by developers, testers, and stakeholders
 ## Source [^1]
 - A document that defines what a program or software system is required to do and the constraints under which this required functionality must be provided. These constraints are often referred to as [[nonfunctional requirements]]; they may affect the way in which the software is developed (e.g. for safetycritical or security-critical software) or may impose physical limits on the space, size, and performance of the software to be developed. A software requirements specification will usually be based upon an abstract model, which leaves open the design and implementation decisions; this model is developed using a recognized requirements-analysis method and is possibly supported by the use of a CASE tool.
 ## References

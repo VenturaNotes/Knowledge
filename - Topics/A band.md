@@ -10,7 +10,11 @@
 - The "dark band" in a muscle sarcomere refers to the A band, which appears dark under a microscope due to the presence of thick myosin filaments. The density of these filaments causes the region to absorb more light, making it appear darker than surrounding areas
 - "A band" is a noun as it is a specific anatomical structure in the muscle sarcomere
 - During muscle contraction, the actin (thin) filaments slide over the myosin (thick) filaments, reducing the [[H zone]] and shortening the [[sarcomere]]. This process, called the [[sliding filament theory]], allows muscles to contract and generate force
+
+## Source[^3]
+- The region of a striated muscle fibre that contains both thick (myosin) and thin (actin) filaments. It is visible as a dark band with a lighter central zone (see H ZONE) in the middle of a sarcomere.
 ## References
 
 [^1]:https://www.biologyonline.com/dictionary/a-band
 [^2]: ChatGPT
+[^3]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]

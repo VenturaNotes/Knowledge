@@ -1,7 +1,8 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- A sudden, large, transient change in the membrane potential of a cell (i.e. a depolarization) that is capable of propagating to other parts of the cell. It therefore can act as means of signalling to adjacent cells. A prime example is the passage of a nerve impulse, when an action potential travels in a wavelike manner along the axon of a nerve; it causes a localized and transient switch in electric potential across the membrane, typically from -70 mV (millivolts; the resting potential) to +40 mV in a mammalian neuron. Essentially the change in electric potential is caused by an influx of sodium ions $\left(\mathrm{Na}^{+}\right)$via voltage-gated ion channels, which makes the inside of the cell electrically positive with respect to the outside. Then the sodium channels close and voltage-gated potassium channels open, allowing the outflow of potassium ions $\left(\mathrm{K}^{+}\right)$. This has the effect of restoring the resting potential. Nervous stimulation of a muscle fibre also produces an action potential.
+- Plants too propagate action potentials, although these travel much more slowly than in neurons. They can transmit signals throughout the plant in response to a localized stimulus, such as the progressive folding of the leaflets of a sensitive plant (Mimosa pudica) in response to touching just a single leaflet. Compare GrADED POTENTIAL. See also MYElin SHEATH.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
