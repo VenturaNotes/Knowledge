@@ -3809,7 +3809,7 @@ Reviewed: false
 	3795. [[osmolyte]]
 	3796. osmoreceptor
 	3797. osmoregulation
-	3798. osmoregulator
+	3798. [[osmoregulator]]
 	3799. osmosis
 	3800. osmotic pressure
 	3801. osmotroph
@@ -3821,11 +3821,11 @@ Reviewed: false
 	3807. osteocyte
 	3808. osteoid
 	3809. osteon
-	3810. osteonectin
+	3810. [[osteonectin]]
 	3811. ostiole
 	3812. ostium
 	3813. Ostracoda
-	3814. otolith
+	3814. [[otolith]]
 	3815. ouabain
 	3816. outbreeding
 	3817. outer ear
