@@ -21,5 +21,5 @@
 ## References
 
 [^1]: [[(2) Start Learning Logic - Part 1 - Logical Statements, Negation and Conjunction]]
-[^2]: [[Home Page - Discrete Mathematics MCQ by Sanfoundry#1 2 Logic and Bit Operations]]
+[^2]: [[Mathematics/Discrete Math/sanfoundry/Home Page - Discrete Mathematics MCQ by Sanfoundry#1 2 Logic and Bit Operations]]
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]

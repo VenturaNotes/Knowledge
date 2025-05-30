@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Behavior aimed at intimidating or injuring another animal of the same or a competing species, generally as a means of excluding rivals from a resource such as food, mates, or territory. Aggression between individuals of the same species often starts with a series of ritualized displays or contests that can end at any stage if one of the combatants withdraws, leaving the victor with access to the disputed resource or with increased social dominance (see DOMINANT). It is also often seen in courtship. Aggression or threat displays usually appear to exaggerate the performer's size or strength; for example, many fish erect their fins and mammals and birds may erect hairs or feathers. Special markings may be prominently exhibited, and intention movements may be made: dogs bare their teeth, for example. Some animals have evolved special structures for use in aggressive interactions (e.g. antlers in deer) but these are seldom used to cause actual injury; the opponent usually flees first or adopts appeasement postures. Fights 'to the death' are comparatively rare. See Agonistic behavior; display behavior; ritualization.
+## References
+
+[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]

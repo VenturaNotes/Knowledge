@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Precipitation having a pH value of less than about 5.0, which has adverse effects on the fauna and flora on which it falls. Rainwater typically has a pH value of 5.6, due to the presence of dissolved carbon dioxide (forming carbonic acid). Acid rain results from the emission into the atmosphere of various pollutant gases, in particular sulphur dioxide and various oxides of nitrogen, which originate from the burning of fossil fuels and from car exhaust fumes, respectively. These gases dissolve in atmospheric water to form sulphuric and nitric acids in rain, snow, or hail (wet deposition). Alternatively, the pollutants are deposited as gases or minute particles (dry deposition). Both types of acid deposition affect plant growth$\textemdash$by damaging the leaves and impairing photosynthesis and by increasing the acidity of the soil, which results in the leaching of essential nutrients. This acid pollution of the soil also leads to acidification of water draining from the soil into lakes and rivers, which become unable to support fish life. Lichens are particularly sensitive to changes in pH and can be used as indicators of acid pollution (see INDICATOR SPECIES).
+## References
+
+[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
