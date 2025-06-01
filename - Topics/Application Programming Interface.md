@@ -30,9 +30,12 @@ aliases:
 
 ## Source[^4]
 - An interface that is defined in terms of a set of functions and procedures, and enables a program to gain access to facilities within an application. A typical example would be a CASE tool that provides an API to enable users to develop special programs to utilize the information within the CASE tool's internal database. The use of such facilities enables users to customize the application for their own purposes and to integrate the application into a customized development environment.
+## Source[^5]
+- An application program interface (API) refers to a set of parameters, protocols, and/or commands that determine how two software programs communicate with each other. Examples include the way the applications on your phone send data to the internet. APIs are critical software intermediaries that allow various data sets and programs to exchange information. As such, they are a critical component of the internet and are commonly used by software developers who are building applications for larger platforms. For instance, Apple and Google have numerous APIs.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: ChatGPT
 [^3]: https://www.techtarget.com/searchapparchitecture/definition/application-program-interface-API
 [^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[Home Page - Glossary by Capterra]]

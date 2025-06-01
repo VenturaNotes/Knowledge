@@ -179,7 +179,7 @@ Reviewed: false
 	151. allantois
 	152. allele
 	153. allele frequency
-	154. allelic exclusion
+	154. [[allelic exclusion]]
 	155. allelochemical
 	156. allelomorph
 	157. allelopathy
@@ -227,7 +227,7 @@ Reviewed: false
 	199. ammonotelic
 	200. amniocentesis
 	201. amnion
-	202. amniote
+	202. [[amniote]]
 	203. amniotic egg
 	204. Amoeba
 	205. amoebocyte
@@ -249,7 +249,7 @@ Reviewed: false
 	221. amplified fragment length polymorphism
 	222. ampulla
 	223. amylase
-	224. amyloid
+	224. [[amyloid]]
 	225. amylopectin
 	226. amyloplast
 	227. amylose
