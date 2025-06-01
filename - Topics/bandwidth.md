@@ -20,9 +20,12 @@ aliases:
 - In these cases bandwidth is measured in frequency units, i.e. hertz $(\mathrm{Hz})$. If the bandwidth is considered in a transform domain other than frequency (such as sequency) then it is measured in the appropriate units. In defining channels and filters in the frequency domain, bandwidth, unless otherwise defined, is assumed to be the frequency range between the points at which the frequency response is 3 decibels lower than the passband frequency and is sometimes known as the half-power bandwidth. See also band-Limited channel, channel coding theorem, Nyquist's CRITERION. 
 - (2) A measure of the rate of transfer of digital information, usually expressed in bits or bytes per second.
 - (3) See BAND MATRIX.
+## Source[^5]
+- Bandwidth is the word used to describe frequencies that can be transferred from one point to another. It's measured by bitrate and bits per second (bps). A connection's bandwidth sets the speed at which data can pass through the circuit or network. The higher the bandwidth, the more information that can be passed through at one time. Bandwidth is also key to radio signal processing. Here, the word is used to describe the difference between the upper and lower frequencies of a transmission and is measured in hertz (Hz).
 ## References
 
 [^1]: https://answers.mak.ac.ug/network-connectivity/computer-networking-terminology
 [^2]: [[Home Page - Glossary by ada computer science]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[Home Page - Glossary by Capterra]]
