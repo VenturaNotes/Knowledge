@@ -780,7 +780,7 @@ Reviewed: false
 	752. capillarity
 	753. capillary
 	754. capitulum
-	755. capsid
+	755. [[capsid]]
 	756. capsomere
 	757. capsule
 	758. carapace
@@ -1089,7 +1089,7 @@ Reviewed: false
 	1061. cocoon
 	1062. codeine
 	1063. coding strand
-	1064. codominance
+	1064. [[codominance]]
 	1065. codon
 	1066. coelacanth
 	1067. coelenterate
@@ -1114,7 +1114,7 @@ Reviewed: false
 	1086. coleorhiza
 	1087. coliform bacteria
 	1088. colinearity
-	1089. collagen
+	1089. [[collagen]]
 	1090. collectin
 	1091. collecting duct
 	1092. Collembola
