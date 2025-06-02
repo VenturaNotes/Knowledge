@@ -17,8 +17,12 @@ aliases:
 
 ## Source[^3]
 - An error in a program or system. The word is usually used to mean a localized implementation error rather than, say, an error introduced at the requirements or system-design stage. See also DEBUGGING.
+
+## Source[^4]
+- A bug is a problem that occurs in software or hardware. It can be caused by incorrect code, faulty equipment, or user error. Bugs can cause programs to crash, devices to malfunction, or data to be lost. Bugs are a common occurrence in technology, and they can sometimes be challenging to find and fix. They can also cause a lot of frustration for users trying to get their work done.
 ## References
 
 [^1]: ChatGPT
 [^2]: https://spdload.com/blog/software-development-glossary/
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[Home Page - Glossary by Capterra]]

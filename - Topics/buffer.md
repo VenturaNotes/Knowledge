@@ -7,7 +7,11 @@
 ## Source[^2]
 - (1) A temporary memory for data, normally used to accommodate the difference in the rate at which two devices can handle data during a transfer. The buffer may be built into a peripheral device, such as a printer or disk drive, or may be part of the system's main memory. See buffering. 
 - (2) Any circuit or device that is put between two others to smooth changes in rate or level or allow asynchronous operation. For example, line drivers can be used to isolate (or buffer) two sets of data lines.
+
+## Source[^3]
+- A buffer, otherwise known as a data buffer, is a region of memory (often located in the RAM) that temporarily stores data while it’s being transferred from one place to another. Buffers are often used when there is a discrepancy between the rate at which data is received and the rate at which it can be processed. For instance, when a computer downloads a video off the internet, it loads the first 25% of the file into a buffer. As the video begins to play, the computer continues downloading the remaining 75% and loading it into the buffer. This way users can view the video while it’s still downloading in the background, minimizing interruptions in playback. Without a buffer, users would have to wait for the entire file to be downloaded to begin viewing it.
 ## References
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - Glossary by Capterra]]

@@ -2155,7 +2155,7 @@ Reviewed: false
 	2127. gel
 	2128. gelatin(e)
 	2129. gel electrophoresis
-	2130. gel filtration
+	2130. [[gel filtration]]
 	2131. gemmation
 	2132. GenBank
 	2133. gene
@@ -2264,3592 +2264,3612 @@ Reviewed: false
 	2236. glutamate receptor
 	2237. glutamic acid
 	2238. glutamine
-	2239. glycoprotein
-	2240. glycosaminoglycan
-	2241. glycoside
-	2242. glycosidic bond
-	2243. glycosuria
-	2244. glycosylation
-	2245. glyoxylate cycle
-	2246. glyoxysome
-	2247. glyphosate
-	2248. GM-CSF
-	2249. Gnathostomata
-	2250. Gnetophyta
-	2251. gnotobiotic
-	2252. goblet cell
-	2253. goitre
-	2254. Golgi, Camillo (1843–1926)
-	2255. Golgi apparatus
-	2256. Golgi tendon organ
-	2257. gonad
-	2258. gonadotrophin
-	2259. Gondwanaland
-	2260. gonorrhoea
-	2261. G protein
-	2262. Graafian follicle
-	2263. grade
-	2264. graded potential
-	2265. graft
-	2266. graft hybrid
-	2267. gram
-	2268. Gram’s stain
-	2269. granulocyte
-	2270. granulocyte/macrophage colony-stimulating factor
-	2271. granulosa cells
-	2272. granum
-	2273. granzymes
-	2274. grape sugar
-	2275. graptolites
-	2276. grass-green bacteria
-	2277. grassland
-	2278. gravitropism
-	2279. gray
-	2280. grazing
-	2281. green algae
-	2282. green chemistry
-	2283. green fluorescent protein
-	2284. green gland
-	2285. greenhouse effect
-	2286. grey crescent
-	2287. grey matter
-	2288. grooming
-	2289. ground meristem
-	2290. ground substance
-	2291. ground tissues
-	2292. group selection
-	2293. growth
-	2294. growth cone
-	2295. growth factor
-	2296. growth hormone
-	2297. growth ring
-	2298. growth substance
-	2299. GSH
-	2300. GTP
-	2301. guanine
-	2302. guanine-nucleotide exchange factor
-	2303. guano
-	2304. guanosine
-	2305. guanylate cyclase
-	2306. guard cell
-	2307. guidepost cell
-	2308. guild((in ecology))
-	2309. gullet
-	2310. gum
-	2311. gustatory receptors
-	2312. gut
-	2313. gut-associated lymphoid tissue
-	2314. guttation
-	2315. gymnosperm
-	2316. gynandromorph
-	2317. gynoecium
-	2318. gyre
-	2319. habitat
-	2320. habituation
-	2321. Hadean
-	2322. Hadobacteria
-	2323. haem
-	2324. haemagglutination
-	2325. haematophagous
-	2326. haematoxylin
-	2327. haemerythrin
-	2328. haemocoel
-	2329. haemocyanin
-	2330. haemocyte
-	2331. [[hemocytometer]]
-	2332. haemodynamics
-	2333. haemoglobin
-	2334. haemoglobinic acid
-	2335. haemoglobin S
-	2336. haemolymph
-	2337. haemolysis
-	2338. haemophilia
-	2339. haemopoietic tissue
-	2340. haemostasis
-	2341. hagfish
-	2342. hair
-	2343. hair cell
-	2344. hair follicle
-	2345. hallucinogen
-	2346. hallux
-	2347. halophyte
-	2348. haploid
-	2349. haplont
-	2350. haplotype
-	2351. hapten
-	2352. haptonasty
-	2353. haptotropism
-	2354. hardwood
-	2355. Hardy-Weinberg equilibrium
-	2356. harvesting
-	2357. Hatch-Slack pathway
-	2358. haustorium
-	2359. Haversian canals
-	2360. hearing
-	2361. heart
-	2362. heartwood
-	2363. heat-shock protein
-	2364. heater cell
-	2365. heavy-metal pollution
-	2366. hecto-
-	2367. Hedgehog protein
-	2368. helicase
-	2369. helicotrema
-	2370. heliotropism
-	2371. helix-turn-helix
-	2372. helper T cell
-	2373. heme
-	2374. hemicellulose
-	2375. Hemichordata
-	2376. hemicryptophyte
-	2377. hemimetabolous
-	2378. hemiparasite
-	2379. hemipenis
-	2380. Hemiptera
-	2381. hemizygous
-	2382. Hensen’s node
-	2383. heparan sulphate
-	2384. heparin
-	2385. hepatic
-	2386. Hepaticae
-	2387. hepatic portal system
-	2388. hepatocyte
-	2389. Hepatophyta
-	2390. hepatotoxin
-	2391. herb
-	2392. herbaceous
-	2393. herbicide
-	2394. herbivore
-	2395. herd immunity
-	2396. heredity
-	2397. heritability
-	2398. hermaphrodite
-	2399. heroin
-	2400. herpesvirus
-	2401. herpetology
-	2402. hertz
-	2403. hesperidium
-	2404. heterobaric leaf anatomy
-	2405. heterochromatin
-	2406. heterochrony
-	2407. heterocyst
-	2408. heterodont
-	2409. heteroduplex DNA
-	2410. heteroecious
-	2411. heterogametic sex
-	2412. heterogamy
-	2413. heterogeneous nuclear ribonucleoprotein
-	2414. heterogeneous nuclear RNA
-	2415. heterokaryon
-	2416. heterokaryosis
-	2417. heterokonts
-	2418. heterometry((in embryonic development))
-	2419. heteromorphosis
-	2420. heteroplasmy
-	2421. heterosis
-	2422. heterosporous
-	2423. heterospory
-	2424. heterostyly
-	2425. heterothallic
-	2426. heterotherm
-	2427. heterotony
-	2428. heterotrichy
-	2429. heterotrophic nutrition
-	2430. heterotypy
-	2431. heterozygote advantage
-	2432. heterozygous
-	2433. Hexapoda
-	2434. hexose
-	2435. Hfr
-	2436. hibernation
-	2437. hidden variable
-	2438. hierarchy
-	2439. high-performance liquid chromatography
-	2440. highly repetitive DNA
-	2441. Hill reaction
-	2442. hilum
-	2443. hindbrain
-	2444. hindgut
-	2445. hip girdle
-	2446. hippocampus
-	2447. Hirudinea
-	2448. histamine
-	2449. histidine
-	2450. histiocyte
-	2451. histochemistry
-	2452. histocompatibility
-	2453. histocompatibility antigen
-	2454. histology
-	2455. histone
-	2456. HIV
-	2457. HLA system
-	2458. hnRNA
-	2459. hnRNP
-	2460. Hogness box
-	2461. holandric
-	2462. Holliday intermediate
-	2463. holobiont
-	2464. holocarpic
-	2465. Holocene
-	2466. holocrine secretion
-	2467. holoenzyme
-	2468. hologenome
-	2469. holometabolous
-	2470. holophytic
-	2471. holotype
-	2472. holozoic
-	2473. homeobox
-	2474. homeologous
-	2475. homeosis
-	2476. homeostasis
-	2477. homeothermy
-	2478. homeotic genes
-	2479. home range
-	2480. homing
-	2481. hominid
-	2482. hominin
-	2483. Homo
-	2484. homobaric leaf anatomy
-	2485. homodont
-	2486. homogametic sex
-	2487. homogamy
-	2488. homoiothermy
-	2489. homologous
-	2490. homologous chromosomes
-	2491. homoplasmy
-	2492. homoplasy
-	2493. homosporous
-	2494. homothallic
-	2495. homozygous
-	2496. hopeful monster
-	2497. horizontal cell
-	2498. horizontal gene transfer
-	2499. hormogonium
-	2500. hormone
-	2501. hornworts
-	2502. horsetails
-	2503. host
-	2504. housekeeping gene
-	2505. Hoxgenes
-	2506. HPLC
-	2507. HSP
-	2508. human chorionic gonadotrophin
-	2509. Human Genome Project
-	2510. human growth hormone
-	2511. human immunodeficiency virus
-	2512. humerus
-	2513. humidity
-	2514. humoral
-	2515. humus
-	2516. hyaline cartilage
-	2517. hyaloplasm
-	2518. hyaluronic acid
-	2519. hyaluronidase
-	2520. hybrid
-	2521. hybrid dysgenesis
-	2522. hybridization
-	2523. hybridoma
-	2524. hybrid vigour
-	2525. hybrid zone
-	2526. hydathode
-	2527. hydrochloric acid
-	2528. hydrocortisone
-	2529. hydrogen acceptor
-	2530. hydrogen bond
-	2531. hydrogencarbonate
-	2532. hydrogen carrier
-	2533. hydrogenosome
-	2534. hydroid
-	2535. hydrolase
-	2536. hydrological cycle
-	2537. hydrophilic
-	2538. hydrophily
-	2539. hydrophobic
-	2540. hydrophyte
-	2541. hydroponics
-	2542. hydrosere
-	2543. hydrosphere
-	2544. hydrostatic skeleton
-	2545. hydrotropism
-	2546. hydroxonium ion
-	2547. hydroxyl
-	2548. 5-hydroxytryptamine
-	2549. Hydrozoa
-	2550. hygroscopic
-	2551. hymen
-	2552. Hymenoptera
-	2553. hyoid arch
-	2554. hyomandibular
-	2555. hyostylic jaw suspension
-	2556. hyper-
-	2557. hyperaccumulator
-	2558. hyperglycaemia
-	2559. hypermetamorphosis
-	2560. hypermetropia
-	2561. hypermorphosis
-	2562. hyperparasite
-	2563. hyperplasia
-	2564. hyperpolarization
-	2565. hypersensitivity
-	2566. hypertension
-	2567. hyperthermophile
-	2568. hyperthyroidism
-	2569. hypertonic solution
-	2570. hypertrophy
-	2571. hypervariable loops
-	2572. hyperventilation
-	2573. hypha
-	2574. hypo-
-	2575. hypoblast
-	2576. hypocotyl
-	2577. hypodermis
-	2578. hypogeal
-	2579. hypoglycaemia
-	2580. hypogyny
-	2581. hypolimnion
-	2582. hypophysis
-	2583. hyporheic zone
-	2584. hypostasis
-	2585. hypothalamus
-	2586. hypothyroidism
-	2587. hypotonic solution
-	2588. hypoxia
-	2589. H zone
-	2590. IAA
-	2591. I band
-	2592. ICAM
-	2593. ice-nucleating agent
-	2594. ice age
-	2595. ichthyosaur
-	2596. ICSH
-	2597. identical twins
-	2598. identification key
-	2599. idioblast
-	2600. idiogram
-	2601. idiosyncrasy
-	2602. Ig
-	2603. IGF
-	2604. ileum
-	2605. ilium
-	2606. imaginal disc
-	2607. imago
-	2608. imbibition
-	2609. immersion objective
-	2610. immune clearance
-	2611. immune complex
-	2612. immune response
-	2613. immunity
-	2614. immunization
-	2615. immunoassay
-	2616. immunoelectron microscopy
-	2617. immunoelectrophoresis
-	2618. immunofluorescence
-	2619. immunogenicity
-	2620. immunoglobulin
-	2621. immunologically privileged site
-	2622. immunological memory
-	2623. immunological synapse
-	2624. immunological tolerance
-	2625. immunosuppression
-	2626. immunotoxin
-	2627. imperfect((in botany))
-	2628. imperfect fungi
-	2629. Imperial units
-	2630. implant
-	2631. implantation((in embryology))
-	2632. imprinting
-	2633. impulse
-	2634. inbreeding
-	2635. incisor
-	2636. inclusion body
-	2637. inclusive fitness
-	2638. incompatibility
-	2639. incomplete dominance
-	2640. incubation
-	2641. incus
-	2642. indefinite inflorescence
-	2643. indehiscent
-	2644. independent assortment
-	2645. indeterminate growth
-	2646. index fossil
-	2647. indicator species
-	2648. indigenous
-	2649. indoleacetic acid
-	2650. induced-fit model
-	2651. inducer
-	2652. inducible nitric oxide synthase
-	2653. induction
-	2654. indusium
-	2655. industrial melanism
-	2656. infection
-	2657. inferior
-	2658. inflammation
-	2659. inflorescence
-	2660. infradian rhythm
-	2661. infraspecific
-	2662. ingestion
-	2663. inguinal
-	2664. inhalation
-	2665. inheritance
-	2666. inhibin
-	2667. inhibition
-	2668. inhibitory postsynaptic potential
-	2669. initial
-	2670. initiation codon
-	2671. initiation factor
-	2672. innate behaviour
-	2673. innate immunity
-	2674. inner cell mass
-	2675. inner ear
-	2676. innervation
-	2677. innominate artery
-	2678. innominate bone
-	2679. inoculation
-	2680. inoculum
-	2681. inositol
-	2682. inquilinism
-	2683. INSDC
-	2684. Insecta
-	2685. insect growth regulator
-	2686. insecticide
-	2687. Insectivora
-	2688. insectivore
-	2689. insectivorous plant
-	2690. insertion
-	2691. insertion sequence
-	2692. insight learning
-	2693. in silico
-	2694. inspiration
-	2695. inspiratory centre
-	2696. instar
-	2697. instinct
-	2698. insula
-	2699. insulin
-	2700. insulin-like growth factor
-	2701. integrase
-	2702. integrated pest management
-	2703. integration((in neurophysiology))
-	2704. integrin
-	2705. integument
-	2706. intelligence
-	2707. interactome
-	2708. intercalary
-	2709. intercellular
-	2710. intercellular adhesion molecule
-	2711. intercostal muscles
-	2712. interfascicular cambium
-	2713. interference RNA
-	2714. interferon
-	2715. intergenic suppressor
-	2716. Intergovernmental Panel on Climate Change
-	2717. interkinesis
-	2718. interleukin
-	2719. intermediate filament
-	2720. internal environment
-	2721. International HapMap Project
-	2722. International Nucleotide Sequence Database Collaboration
-	2723. interneuron
-	2724. internode
-	2725. interoceptor
-	2726. interphase
-	2727. interpolation hypothesis
-	2728. intersex
-	2729. interspecific
-	2730. interspecific competition
-	2731. interstitial-cell-stimulating hormone
-	2732. interstitial cell
-	2733. interstitial fauna
-	2734. intervertebral disc
-	2735. intestinal juice
-	2736. intestine
-	2737. intine
-	2738. intracellular((in biology))
-	2739. intrafusal
-	2740. intramembranous ossification
-	2741. intraspecific
-	2742. intraspecific competition
-	2743. intrinsic factor
-	2744. intrinsic rate of increase
-	2745. introgression
-	2746. intron
-	2747. intussusception
-	2748. inulin
-	2749. in utero
-	2750. inverse myotatic response
-	2751. inversion((in genetics))
-	2752. invertebrate
-	2753. in vitro
-	2754. in vivo
-	2755. involucre
-	2756. involuntary((in biology))
-	2757. involuntary muscle
-	2758. involution
-	2759. iodine
-	2760. iodopsin
-	2761. ion
-	2762. ion-exchange chromatography
-	2763. ion channel
-	2764. ion exchange
-	2765. ionizing radiation
-	2766. ionophore
-	2767. ionotropic receptor
-	2768. IP3
-	2769. IPCC
-	2770. IPM
-	2771. ipsilateral
-	2772. iridium anomaly
-	2773. iris
-	2774. iron
-	2775. irradiation
-	2776. irrigation
-	2777. irritability
-	2778. ischium
-	2779. isidium
-	2780. islets of Langerhans
-	2781. isoelectric point
-	2782. isoenzyme
-	2783. isogamy
-	2784. isolating mechanism
-	2785. isoleucine
-	2786. isomerase
-	2787. isomers
-	2788. isoprene
-	2789. Isoptera
-	2790. isotonic
-	2791. isotope
-	2792. isotopic discrimination
-	2793. isotopic signature
-	2794. isotype
-	2795. isotype switching
-	2796. isozyme
-	2797. itaconic acid
-	2798. ITAMs
-	2799. iteroparity
-	2800. Jacob-Monod hypothesis
-	2801. JAK
-	2802. Janus kinase
-	2803. jasmonate
-	2804. jaw
-	2805. jejunum
-	2806. jellyfish
-	2807. JGA
-	2808. joint
-	2809. joule
-	2810. jugular vein
-	2811. jumping gene
-	2812. junk DNA
-	2813. Jurassic
-	2814. juvenile hormone
-	2815. juvenoid
-	2816. juxtaglomerular apparatus
-	2817. K–T boundary
-	2818. kainate
-	2819. Kainozoic
-	2820. kairomone
-	2821. kallidin
-	2822. karyogamy
-	2823. karyogram
-	2824. karyokinesis
-	2825. karyolysis
-	2826. karyoplasm
-	2827. karyorrhexis
-	2828. karyotype
-	2829. katadromous
-	2830. katal
-	2831. kb
-	2832. kDa
-	2833. keel
-	2834. kelp
-	2835. kelvin
-	2836. keratin
-	2837. keratinization
-	2838. ketohexose
-	2839. ketone
-	2840. ketone body
-	2841. ketopentose
-	2842. ketose
-	2843. key
-	2844. keystone species
-	2845. kidney
-	2846. killer cell
-	2847. kilo-
-	2848. kilobase
-	2849. kilodalton
-	2850. kilogram
-	2851. kinase
-	2852. kinesin
-	2853. kinesis
-	2854. kinetochore
-	2855. kinetoplast
-	2856. Kinetoplastida
-	2857. kinetosome
-	2858. kingdom
-	2859. kinin
-	2860. kinocilium
-	2861. kinomere
-	2862. kin selection
-	2863. Kleiber’s law
-	2864. Klinefelter’s syndrome
-	2865. klinostat
-	2866. knee-jerk reflex
-	2867. knockin
-	2868. knockout
-	2869. Kranz anatomy
-	2870. Krebs, Sir Hans Adolf (1900–81)
-	2871. Krebs cycle
-	2872. krill
-	2873. Kselection
-	2874. Kupffer cells
-	2875. kwashiorkor
-	2876. L-dopa
-	2877. l-form
-	2878. labelling
-	2879. labia
-	2880. labium
-	2881. labrum
-	2882. labyrinth
-	2883. lacoperon
-	2884. lacrimal gland
-	2885. lactase
-	2886. lactation
-	2887. lacteal
-	2888. lactic acid
-	2889. lactobacillus
-	2890. lactoferrin
-	2891. lactogenic hormone
-	2892. lactose
-	2893. lacuna
-	2894. laevorotatory
-	2895. laevulose
-	2896. lagging strand
-	2897. lag phase
-	2898. Lamarck, Jean Baptiste Pierre Antoine de Monet, Chevalier de (1744–1829)
-	2899. Lamarckism
-	2900. lambda phage
-	2901. lamella
-	2902. Lamellibranchia
-	2903. lamellipodium
-	2904. lamin
-	2905. lamina
-	2906. laminin
-	2907. lampbrush chromosome
-	2908. lamprey
-	2909. lancelet
-	2910. Langerhans cells
-	2911. La Niña
-	2912. lantibiotic
-	2913. LAR
-	2914. large intestine
-	2915. large virus
-	2916. lariat
-	2917. larva
-	2918. larvacean
-	2919. larynx
-	2920. lasso cell
-	2921. latent learning
-	2922. latent period
-	2923. latent virus
-	2924. lateral-line system
-	2925. lateral gene transfer
-	2926. lateralization
-	2927. lateral root
-	2928. latex
-	2929. Laurasia
-	2930. lauric acid
-	2931. Law of Independent Assortment
-	2932. Law of Segregation
-	2933. LD50
-	2934. leaching
-	2935. leading strand
-	2936. leaf
-	2937. leaf-height-seed scheme
-	2938. leaf area index
-	2939. leaf area ratio
-	2940. leaf buttress
-	2941. leaf litter
-	2942. leaf mass ratio
-	2943. LEA protein
-	2944. learning
-	2945. Learning in animals
-	2946. lecithin
-	2947. lectin
-	2948. leeches
-	2949. legume
-	2950. Leishman’s stain
-	2951. lek
-	2952. lemma
-	2953. lens
-	2954. lenticel
-	2955. Lepidoptera
-	2956. leptin
-	2957. leptoid
-	2958. leptotene
-	2959. lethal allele
-	2960. lethal dose 50
-	2961. leucine
-	2962. leucine zipper
-	2963. leucocyte
-	2964. leucoplast
-	2965. leukaemia
-	2966. leukotrienes
-	2967. LH
-	2968. LHS scheme
-	2969. lice
-	2970. lichens
-	2971. life cycle
-	2972. life form
-	2973. ligament
-	2974. ligand
-	2975. ligand-gated ion channel
-	2976. ligase
-	2977. light-dependent reaction
-	2978. light-harvesting complex
-	2979. light-independent reaction
-	2980. light green
-	2981. lignin
-	2982. lignite
-	2983. ligule
-	2984. limb
-	2985. limbic system
-	2986. liming
-	2987. limiting factor
-	2988. limnology
-	2989. LINE
-	2990. linear energy transfer
-	2991. [[linkage]]
-	2992. linkage disequilibrium
-	2993. linkage map
-	2994. Linnaean system
-	2995. Linnaeus, Carolus (1707–78)
-	2996. linoleic acid
-	2997. linolenic acid
-	2998. lipase
-	2999. lipid
-	3000. lipid bilayer
-	3001. lipid raft
-	3002. lipoic acid
-	3003. lipolysis
-	3004. lipoprotein
-	3005. liposome
-	3006. lipotropin
-	3007. Listeria
-	3008. lithosphere
-	3009. litre
-	3010. litter
-	3011. [[littoral]]
-	3012. liver
-	3013. liverworts
-	3014. living fossil
-	3015. lizards
-	3016. LMR
-	3017. lncRNA
-	3018. loam
-	3019. lobopod
-	3020. lock-and-key mechanism
-	3021. locomotion
-	3022. locule
-	3023. locus
-	3024. lodicule
-	3025. logarithmic scale
-	3026. log phase
-	3027. lomentum
-	3028. long-day plant
-	3029. long-sightedness
-	3030. long-term depression
-	3031. long-term potentiation
-	3032. long noncoding RNA
-	3033. long terminal repeat
-	3034. loop of Henle
-	3035. [[lophophore]]
-	3036. Lophotrochozoa
-	3037. lower critical temperature
-	3038. LSD
-	3039. LTR
-	3040. luciferase
-	3041. luciferin
-	3042. lumbar vertebrae
-	3043. lumen
-	3044. lung
-	3045. lung book
-	3046. lungfish
-	3047. luteal phase
-	3048. luteinizing hormone
-	3049. luteotrophic hormone
-	3050. lyase
-	3051. Lycopodiophyta
-	3052. [[lymph]]
-	3053. lymphatic system
-	3054. lymph capillary
-	3055. lymph heart
-	3056. lymph node
-	3057. lymphocyte
-	3058. lymphoid tissue
-	3059. lymphokine
-	3060. lymphoma
-	3061. lymphotoxin
-	3062. lyophilization
-	3063. Lysenkoism
-	3064. lysergic acid diethylamide
-	3065. lysigeny
-	3066. lysimeter
-	3067. lysine
-	3068. lysis
-	3069. lysogeny
-	3070. lysosome
-	3071. lysozyme
-	3072. m.u.
-	3073. MAC
-	3074. macroevolution
-	3075. macrofauna
-	3076. macromolecule
-	3077. macronutrient
-	3078. macrophage
-	3079. macrophagous
-	3080. macrophyll
-	3081. macropinocytosis
-	3082. macula
-	3083. macula adherens
-	3084. macula densa
-	3085. MADS box gene
-	3086. magnesium
-	3087. magnetic resonance imaging
-	3088. magnetite
-	3089. magnetoreceptor
-	3090. Magnoliophyta
-	3091. major histocompatibility complex
-	3092. malaria
-	3093. MALDI-TOF
-	3094. male
-	3095. malic acid
-	3096. malignant
-	3097. malleus
-	3098. Mallophaga
-	3099. malnutrition
-	3100. Malpighian body
-	3101. Malpighian layer
-	3102. Malpighian tubule
-	3103. malt
-	3104. MALT
-	3105. maltase
-	3106. maltose
-	3107. malt sugar
-	3108. Mammalia
-	3109. mammary glands
-	3110. mandible
-	3111. Mandibulata
-	3112. manganese
-	3113. mangrove swamp
-	3114. mannan
-	3115. mannitol
-	3116. mannose
-	3117. mannose-binding lectin
-	3118. manometer
-	3119. mantle
-	3120. Maotianshan shale
-	3121. MAP kinase
-	3122. map unit
-	3123. Marchantiophyta
-	3124. [[mark-recapture method]]
-	3125. marker gene
-	3126. marsupials
-	3127. [[masquerade]]
-	3128. mass extinction
-	3129. mass flow
-	3130. mass spectrometry
-	3131. mast cell
-	3132. mastication
-	3133. mastigoneme
-	3134. mastoid process
-	3135. maternal effect genes
-	3136. maternal inheritance
-	3137. mating
-	3138. mating season
-	3139. mating type
-	3140. matric potential
-	3141. matrix
-	3142. matrix-assisted laser desorption/ionization-time of flight
-	3143. maturation
-	3144. maturation-promoting factor
-	3145. maturity
-	3146. maxicell
-	3147. maxilla
-	3148. maxilliped
-	3149. maxillula
-	3150. maximum likelihood
-	3151. maximum parsimony
-	3152. maximum permissible dose
-	3153. Mb
-	3154. M band
-	3155. M cells
-	3156. mean
-	3157. meatus
-	3158. mechanoreceptor
-	3159. mechanotransduction
-	3160. meconium
-	3161. median
-	3162. median eye
-	3163. median lethal dose
-	3164. mediastinum
-	3165. MEDLINE
-	3166. medulla
-	3167. medulla oblongata
-	3168. medullary ray
-	3169. medullated nerve fibre
-	3170. medusa
-	3171. mega-
-	3172. megabase
-	3173. meganucleus
-	3174. megaphyll
-	3175. megasporangium
-	3176. megaspore
-	3177. megaspore mother cell
-	3178. megasporophyll
-	3179. Megavirus
-	3180. meiofauna
-	3181. meiosis
-	3182. Meissner’s corpuscles
-	3183. melanin
-	3184. melanism
-	3185. melanocyte-stimulating hormone
-	3186. melanophore
-	3187. melatonin
-	3188. membrane
-	3189. membrane attack complex
-	3190. membrane bone
-	3191. membrane potential
-	3192. membranous labyrinth
-	3193. meme
-	3194. memory
-	3195. memory cell
-	3196. Mendel’s laws
-	3197. Mendel, Johann Gregor (1822–84)
-	3198. Mendelism
-	3199. meninges
-	3200. meniscus
-	3201. menopause
-	3202. menstrual cycle
-	3203. mericarp
-	3204. meristem
-	3205. meristoderm
-	3206. Merkel’s disc
-	3207. merocrine secretion
-	3208. meromictic lake
-	3209. Merostomata
-	3210. merozygote
-	3211. mesencephalon
-	3212. mesenteric artery
-	3213. [[mesentery]]
-	3214. mesocarp
-	3215. mesoderm
-	3216. mesofauna
-	3217. mesoglea
-	3218. mesopelagic zone
-	3219. [[mesophilic]]
-	3220. mesophyll
-	3221. mesophyte
-	3222. mesothelium
-	3223. mesotrophic
-	3224. Mesozoic
-	3225. messenger RNA
-	3226. metabolic pathway
-	3227. metabolic rate
-	3228. metabolic waste
-	3229. metabolism
-	3230. metabolite
-	3231. [[metabolome]]
-	3232. metabolomics
-	3233. metabotropic receptor
-	3234. metacarpal
-	3235. metacarpus
-	3236. metacentric
-	3237. metafemale
-	3238. metagenomics
-	3239. metamale
-	3240. metameric segmentation
-	3241. metamorphosis
-	3242. metanephridium
-	3243. metaphase
-	3244. metaphloem
-	3245. metaplasia
-	3246. metapopulation
-	3247. [[metaproteomics]]
-	3248. metastasis
-	3249. metatarsus
-	3250. Metatheria
-	3251. metaxylem
-	3252. Metazoa
-	3253. methanogen
-	3254. methionine
-	3255. methylene blue
-	3256. methylome
-	3257. metre
-	3258. MHC
-	3259. MHC class II protein
-	3260. MHC class I protein
-	3261. micelle
-	3262. Michaelis-Menten curve
-	3263. micro-
-	3264. microarray
-	3265. Microarray Technology
-	3266. microbe
-	3267. microbiology
-	3268. microbiome
-	3269. microbody
-	3270. microcirculation
-	3271. microclimate
-	3272. microdissection
-	3273. microelectrode
-	3274. microevolution
-	3275. microfauna
-	3276. microfibril
-	3277. microfilament
-	3278. microflora
-	3279. microfossil
-	3280. microglia
-	3281. microhabitat
-	3282. microinjection
-	3283. micromanipulation
-	3284. micronucleus
-	3285. micronutrient
-	3286. microorganism
-	3287. microphagous
-	3288. microphyll
-	3289. micropipette
-	3290. micropropagation
-	3291. micropyle
-	3292. microRNA
-	3293. microsatellite DNA
-	3294. microscope
-	3295. Microscopy
-	3296. microsome
-	3297. microsporangium
-	3298. microspore
-	3299. microspore mother cell
-	3300. microsporidia
-	3301. microsporocyte
-	3302. microsporophyll
-	3303. microtome
-	3304. microtubule
-	3305. microtubule-organizing centre
-	3306. microvillus
-	3307. micturition
-	3308. midbrain
-	3309. middle ear
-	3310. middle lamella
-	3311. midgut
-	3312. migration
-	3313. milk
-	3314. milk sugar
-	3315. milk teeth
-	3316. milli-
-	3317. millipedes
-	3318. Millon’s reagent
-	3319. mimicry
-	3320. Mimivirus
-	3321. mineral deficiency
-	3322. mineralocorticoid
-	3323. mineral salts
-	3324. minicell
-	3325. minisatellite DNA
-	3326. minus 10 sequence
-	3327. Miocene
-	3328. miracidium
-	3329. miRNA
-	3330. mirror neuron
-	3331. mismatch repair
-	3332. missense mutation
-	3333. mites
-	3334. mitochondrial DNA
-	3335. mitochondrial Eve
-	3336. mitochondrial theory of ageing
-	3337. mitochondrion
-	3338. mitogen-activated protein kinase
-	3339. mitosis
-	3340. mitosis-promoting factor
-	3341. mitosome
-	3342. mitral valve
-	3343. mixed function oxidase
-	3344. mixotrophic
-	3345. MLST
-	3346. mmHg
-	3347. model organism
-	3348. moderately repetitive DNA
-	3349. modern synthesis
-	3350. modifier gene
-	3351. molality
-	3352. molar
-	3353. molarity
-	3354. mole
-	3355. molecular biology
-	3356. molecular chaperone
-	3357. molecular clock
-	3358. molecular fossil
-	3359. molecular imprinting
-	3360. molecular marker
-	3361. molecular mimicry
-	3362. molecular systematics
-	3363. Molisch’s test
-	3364. Mollusca
-	3365. molybdenum
-	3366. Monera
-	3367. monilophyte
-	3368. monoamine oxidase
-	3369. monobiontic
-	3370. monochasium
-	3371. monocistronic
-	3372. monoclonal antibody
-	3373. Monocotyledoneae
-	3374. monoculture
-	3375. monocyte
-	3376. monoecious
-	3377. monoglyceride
-	3378. monohybrid cross
-	3379. monolayer culture
-	3380. monomer
-	3381. mononuclear phagocyte system
-	3382. monooxygenase
-	3383. monophyletic
-	3384. monophyodont
-	3385. monopodium
-	3386. monosaccharide
-	3387. monosomy
-	3388. monosynaptic reflex
-	3389. monotremes
-	3390. monotypic
-	3391. monozygotic twins
-	3392. morph
-	3393. morphine
-	3394. morphogen
-	3395. morphogenesis
-	3396. morphology
-	3397. mortality
-	3398. morula
-	3399. mosaic
-	3400. mosaic evolution
-	3401. mosses
-	3402. moths
-	3403. motivation
-	3404. motor cell
-	3405. motor neuron
-	3406. motor protein
-	3407. motor unit
-	3408. moulting
-	3409. mouth
-	3410. mouth cavity
-	3411. mouthparts
-	3412. MPF
-	3413. MRI
-	3414. mRNA
-	3415. MRSA
-	3416. MSH
-	3417. mtDNA
-	3418. MTOC
-	3419. mucigel
-	3420. mucilage
-	3421. mucin
-	3422. mucopolysaccharide
-	3423. mucoprotein
-	3424. mucosa
-	3425. mucosal-associated lymphoid tissue
-	3426. mucous membrane
-	3427. mucus
-	3428. Muller’s ratchet
-	3429. Müller cell
-	3430. Müllerian mimicry
-	3431. multiadhesive protein
-	3432. multicellular
-	3433. multienzyme system
-	3434. multifactorial inheritance
-	3435. multilocus sequence typing
-	3436. multimer
-	3437. multiple alleles
-	3438. multipolar neuron
-	3439. muscarinic
-	3440. Musci
-	3441. muscle
-	3442. muscle spindle
-	3443. muscularis mucosae
-	3444. mutagen
-	3445. mutant
-	3446. mutation
-	3447. mutation frequency
-	3448. mutation rate
-	3449. mutualism
-	3450. mya
-	3451. mycelium
-	3452. mycobiont
-	3453. mycology
-	3454. Mycophycophyta
-	3455. mycoplasmas
-	3456. mycorrhiza
-	3457. Mycota
-	3458. myelin
-	3459. myelin sheath
-	3460. myeloid tissue
-	3461. myeloma
-	3462. Myllokunmingia
-	3463. myoblast
-	3464. myocardium
-	3465. myocyte
-	3466. myofibril
-	3467. myogenic
-	3468. myoglobin
-	3469. myometrium
-	3470. myopia
-	3471. myosin
-	3472. myotatic reflex
-	3473. myotome
-	3474. myotube
-	3475. Myriapoda
-	3476. myrmecochory
-	3477. myxamoeba
-	3478. myxobacteria
-	3479. Myxomycota
-	3480. myxovirus
-	3481. myxozoan
-	3482. n
-	3483. NAD
-	3484. nano-
-	3485. nanoarray
-	3486. NAR
-	3487. narcotic
-	3488. nares
-	3489. nasal cavity
-	3490. nastic movements
-	3491. natality
-	3492. natriuretic peptide
-	3493. natural group
-	3494. natural history
-	3495. naturalized
-	3496. natural killer cell
-	3497. natural selection
-	3498. nature and nurture
-	3499. nauplius
-	3500. navigation
-	3501. NCLDV
-	3502. ncRNA
-	3503. Neanderthal
-	3504. Nearctic region
-	3505. near point
-	3506. necrosis
-	3507. nectar
-	3508. negative-sense((in genetics))
-	3509. negative feedback
-	3510. negative selection
-	3511. nekton
-	3512. nematoblast
-	3513. nematocyst
-	3514. Nematoda
-	3515. Nemertea
-	3516. neo-Darwinism
-	3517. neo-Lamarckism
-	3518. neocortex
-	3519. Neogene
-	3520. Neolithic
-	3521. neonicotinoid
-	3522. neoplasm
-	3523. Neoproterozoic
-	3524. Neornithes
-	3525. neoteny
-	3526. Neotropical region
-	3527. nephridiopore
-	3528. nephridium
-	3529. nephron
-	3530. nephrostome
-	3531. nephrotoxin
-	3532. neritic zone
-	3533. nerve
-	3534. nerve-cell adhesion molecules
-	3535. nerve cell
-	3536. nerve cord
-	3537. nerve fibre
-	3538. nerve growth factor
-	3539. nerve impulse
-	3540. nerve net
-	3541. nervous system
-	3542. net assimilation rate
-	3543. net primary productivity
-	3544. netrin
-	3545. neural crest cells
-	3546. neural network
-	3547. neural plate
-	3548. neural tube
-	3549. neuregulin
-	3550. neurilemma cell
-	3551. neurite
-	3552. neuroendocrine system
-	3553. neurofibril
-	3554. neurofilament
-	3555. neuroglia
-	3556. neurohaemal organ
-	3557. neurohormone
-	3558. neurohypophysis
-	3559. neuromodulator
-	3560. neuromuscular junction
-	3561. neuron
-	3562. neuronal network
-	3563. neuropeptide
-	3564. neuropeptide Y
-	3565. neurophysin
-	3566. neuropil
-	3567. neurosecretion
-	3568. neurotoxin
-	3569. neurotransmitter
-	3570. neurotrophin
-	3571. neurotrophin receptor
-	3572. neurotubule
-	3573. neurula
-	3574. neuston
-	3575. neuter
-	3576. neutral
-	3577. neutral theory of molecular evolution
-	3578. neutrophil
-	3579. newton
-	3580. next-generation sequencing
-	3581. nexus
-	3582. NFκB
-	3583. NGF
-	3584. NGS
-	3585. niacin
-	3586. niche
-	3587. nicotinamide
-	3588. nicotinamide adenine dinucleotide
-	3589. nicotinamide adenine dinucleotide phosphate
-	3590. nicotine
-	3591. nicotinic
-	3592. nicotinic acid
-	3593. nictitating membrane
-	3594. nidation
-	3595. nidicolous
-	3596. nidifugous
-	3597. ninhydrin
-	3598. nipple
-	3599. Nissl granules
-	3600. nitrate
-	3601. nitric oxide
-	3602. nitrification
-	3603. nitrifying bacteria
-	3604. nitrite
-	3605. nitrogen
-	3606. nitrogenase
-	3607. nitrogen cycle
-	3608. nitrogen fixation
-	3609. nitrogenous base
-	3610. nitrogenous waste
-	3611. nitrogen oxides
-	3612. nitrosamines
-	3613. NK cell
-	3614. NMDA receptors
-	3615. NMR
-	3616. nociception
-	3617. node
-	3618. node of Ranvier
-	3619. Nod factor
-	3620. nodule
-	3621. nomad((in cytology))
-	3622. Nomarski microscope
-	3623. noncoding DNA
-	3624. noncoding RNA
-	3625. noncompetitive inhibition
-	3626. noncyclic phosphorylation
-	3627. nondisjunction
-	3628. nonreducing sugar
-	3629. nonrenewable energy sources
-	3630. nonsense mutation
-	3631. noradrenaline
-	3632. norepinephrine
-	3633. normalizing selection
-	3634. northern blotting
-	3635. nose
-	3636. nostrils
-	3637. notochord
-	3638. NPY
-	3639. nt
-	3640. nucellus
-	3641. nuclear-cytoplasmic ratio
-	3642. nuclear envelope
-	3643. nuclear factor κB
-	3644. nucleariid
-	3645. nuclear magnetic resonance
-	3646. nuclear pore
-	3647. nuclear transfer
-	3648. nuclease
-	3649. nucleic acid
-	3650. nucleic acid amplification test
-	3651. nucleic acid hybridization
-	3652. nucleocytoplasmic large DNA virus
-	3653. nucleoid
-	3654. nucleolar organizer
-	3655. nucleolus
-	3656. nucleomorph
-	3657. nucleoplasm
-	3658. nucleoprotein
-	3659. nucleoside
-	3660. nucleosome
-	3661. nucleotidase
-	3662. nucleotide
-	3663. nucleus
-	3664. null hypothesis
-	3665. numerical taxonomy
-	3666. nut
-	3667. nutation
-	3668. nutrient
-	3669. nutrition
-	3670. nyctinasty
-	3671. nymph
-	3672. objective
-	3673. obligate anaerobes
-	3674. occipital condyle
-	3675. oceanic zone
-	3676. ocellus
-	3677. ocular
-	3678. Odonata
-	3679. odontoblast
-	3680. odorant
-	3681. oedema
-	3682. oesophagus
-	3683. oestrogen
-	3684. oestrous cycle
-	3685. oestrus
-	3686. offset
-	3687. offspring
-	3688. oil
-	3689. oil-immersion lens
-	3690. Okazaki fragment
-	3691. oleaginous
-	3692. olecranon process
-	3693. oleic acid
-	3694. oleosome
-	3695. olfaction
-	3696. olfactory lobe
-	3697. Oligocene
-	3698. Oligochaeta
-	3699. oligodendrocyte
-	3700. oligonucleotide
-	3701. oligosaccharide
-	3702. oligotrophic
-	3703. omasum
-	3704. OMIM
-	3705. ommatidium
-	3706. omnivore
-	3707. oncogene
-	3708. oncogenic
-	3709. oncotic pressure
-	3710. one gene–one polypeptide hypothesis
-	3711. ontogeny
-	3712. ontology
-	3713. Onychophora
-	3714. oocyte
-	3715. oogamy
-	3716. oogenesis
-	3717. oogonium
-	3718. Oomycota
-	3719. oosphere
-	3720. oospore
-	3721. ootid
-	3722. open circulation
-	3723. open reading frame
-	3724. operant conditioning
-	3725. operculum
-	3726. operon
-	3727. opiate
-	3728. opioid
-	3729. opioid receptor
-	3730. opisthokonts
-	3731. opisthosoma
-	3732. opportunistic
-	3733. opsin
-	3734. opsonin
-	3735. opsonization
-	3736. optical activity
-	3737. optical fibre
-	3738. optical isomers
-	3739. optical microscope
-	3740. optic chiasm
-	3741. optic lobes
-	3742. optic nerve
-	3743. optic vesicle
-	3744. optimal foraging theory
-	3745. oral cavity
-	3746. oral contraceptive
-	3747. oral groove
-	3748. orbit((in anatomy))
-	3749. order((in taxonomy))
-	3750. Ordovician
-	3751. organ
-	3752. organ culture
-	3753. organelle
-	3754. organic evolution
-	3755. organism
-	3756. organizer
-	3757. organ of Corti
-	3758. [[organogenesis]]
-	3759. orgasm
-	3760. Oriental region
-	3761. origin of life
-	3762. ornithine
-	3763. ornithine cycle
-	3764. orphan receptor
-	3765. orthogenesis
-	3766. orthologous
-	3767. Orthonectida
-	3768. Orthoptera
-	3769. orthotropism
-	3770. osculum
-	3771. osmium tetroxide
-	3772. osmoconformer
-	3773. osmole
-	3774. [[osmolyte]]
-	3775. osmoreceptor
-	3776. osmoregulation
-	3777. [[osmoregulator]]
-	3778. osmosis
-	3779. osmotic pressure
-	3780. osmotroph
-	3781. ossicle
-	3782. ossification
-	3783. Osteichthyes
-	3784. osteoblast
-	3785. osteoclast
-	3786. osteocyte
-	3787. osteoid
-	3788. osteon
-	3789. [[osteonectin]]
-	3790. ostiole
-	3791. ostium
-	3792. Ostracoda
-	3793. [[otolith]]
-	3794. ouabain
-	3795. outbreeding
-	3796. outer ear
-	3797. outgroup
-	3798. oval window
-	3799. ovarian cycle
-	3800. ovarian follicle
-	3801. ovary
-	3802. overdominance
-	3803. overpopulation
-	3804. oviduct
-	3805. oviparity
-	3806. ovipositor
-	3807. ovoviviparity
-	3808. ovulation
-	3809. ovule
-	3810. ovuliferous scale
-	3811. ovum
-	3812. oxalic acid
-	3813. oxaloacetic acid
-	3814. oxidase
-	3815. oxidation-reduction
-	3816. oxidative burst
-	3817. oxidative deamination
-	3818. oxidative decarboxylation
-	3819. oxidative phosphorylation
-	3820. oxidoreductase
-	3821. oxygen
-	3822. oxygen-evolving complex
-	3823. oxygen cycle
-	3824. oxygen debt
-	3825. oxygen dissociation curve
-	3826. oxygen sag curve
-	3827. oxyhaemoglobin
-	3828. oxyntic cell
-	3829. oxytocin
-	3830. ozonation
-	3831. ozone layer
-	3832. P
-	3833. P-protein
-	3834. P/O ratio
-	3835. p21
-	3836. p53
-	3837. pacemaker
-	3838. pachytene
-	3839. Pacinian corpuscle
-	3840. paedogenesis
-	3841. paedomorphosis
-	3842. PAGE
-	3843. PAI
-	3844. pain
-	3845. pair-rule gene
-	3846. pairing
-	3847. Palaearctic region
-	3848. palaeobotany
-	3849. Palaeocene
-	3850. palaeoclimatology
-	3851. palaeoecology
-	3852. Palaeogene
-	3853. Palaeolithic
-	3854. palaeomagnetic dating
-	3855. palaeontology
-	3856. Palaeozoic
-	3857. palaeozoology
-	3858. palate
-	3859. palea
-	3860. palindromic
-	3861. palisade
-	3862. pallium
-	3863. palmitic acid
-	3864. palp
-	3865. palynology
-	3866. PAMP
-	3867. pancreas
-	3868. pancreatic islets
-	3869. pancreatin
-	3870. pancreozymin
-	3871. Pancrustacea
-	3872. pandemic
-	3873. Pandoravirus
-	3874. Paneth cells
-	3875. panicle
-	3876. panmictic
-	3877. panspermia
-	3878. pantothenic acid
-	3879. papain
-	3880. paper chromatography
-	3881. papilla
-	3882. papovavirus
-	3883. pappus
-	3884. parabiologist
-	3885. parabiosis
-	3886. paracellular pathway
-	3887. paracrine
-	3888. parallel evolution
-	3889. parallelophyly
-	3890. paralogous
-	3891. paramorph
-	3892. paramutation
-	3893. parapatric speciation
-	3894. paraphyletic
-	3895. paraphysis
-	3896. parapodium
-	3897. Paraquat
-	3898. parasexual cycle
-	3899. parasitism
-	3900. parasitoid
-	3901. parasympathetic nervous system
-	3902. parathyroid glands
-	3903. parathyroid hormone
-	3904. Parazoa
-	3905. parenchyma
-	3906. parent
-	3907. parental care
-	3908. parietal
-	3909. parietal cell
-	3910. parsimony
-	3911. parthenocarpy
-	3912. parthenogenesis
-	3913. partially permeable membrane
-	3914. particulate inheritance
-	3915. parturition
-	3916. pascal
-	3917. passive immunity
-	3918. passive transport
-	3919. Pasteur, Louis (1822–95)
-	3920. pasteurization
-	3921. patch clamp technique
-	3922. patella
-	3923. pathogen
-	3924. pathogen-associated molecular pattern
-	3925. pathogenesis-related proteins
-	3926. pathogenicity island
-	3927. pathology
-	3928. patristic
-	3929. pattern formation
-	3930. pattern recognition
-	3931. pattern recognition receptor
-	3932. Pavlov, Ivan Petrovich (1849–1936)
-	3933. PCR
-	3934. PDGF
-	3935. peat
-	3936. peck order
-	3937. pecten
-	3938. pectic substance
-	3939. pectin
-	3940. pectoral fins
-	3941. pectoral girdle
-	3942. pedicel
-	3943. pedigree
-	3944. pedipalp
-	3945. pedology
-	3946. peduncle
-	3947. pelagic
-	3948. Pelecypoda
-	3949. pellagra
-	3950. pellicle
-	3951. pelvic fins
-	3952. pelvic girdle
-	3953. pelvis
-	3954. penicillin
-	3955. penis
-	3956. pentadactyl limb
-	3957. pentose
-	3958. pentose phosphate pathway
-	3959. PEP
-	3960. pepo
-	3961. pepsin
-	3962. pepsinogen
-	3963. peptidase
-	3964. peptide
-	3965. peptide mapping
-	3966. peptide YY
-	3967. peptidoglycan
-	3968. peramorphosis
-	3969. perception
-	3970. perennation
-	3971. perennial
-	3972. perfect((in botany))
-	3973. perforin
-	3974. perfusion techniques
-	3975. perianth
-	3976. pericardial cavity
-	3977. pericardium
-	3978. pericarp
-	3979. perichondrium
-	3980. periclinal((in botany))
-	3981. pericycle
-	3982. periderm
-	3983. perigyny
-	3984. perilymph
-	3985. perinuclear space
-	3986. period
-	3987. periodontal membrane
-	3988. periosteum
-	3989. peripatric speciation
-	3990. Peripatus
-	3991. peripheral nervous system
-	3992. periphyton
-	3993. periplasm
-	3994. Perissodactyla
-	3995. peristalsis
-	3996. peristome
-	3997. peritoneum
-	3998. peritrichous
-	3999. permafrost
-	4000. permanent teeth
-	4001. Permian
-	4002. pernicious anaemia
-	4003. peroxisome
-	4004. persistent
-	4005. pest
-	4006. pesticide
-	4007. PET
-	4008. peta-
-	4009. petal
-	4010. petiole
-	4011. Petri dish
-	4012. petrification
-	4013. Peyer’s patches
-	4014. pFc′ fragment
-	4015. PFGE
-	4016. PGD
-	4017. pH
-	4018. PHA
-	4019. Phaeophyta
-	4020. phage
-	4021. phagemid
-	4022. phagocyte
-	4023. phagocytosis
-	4024. phagotroph
-	4025. phalanges
-	4026. phanerophyte
-	4027. Phanerozoic
-	4028. pharate
-	4029. pharmacodynamics
-	4030. pharmacogenomics
-	4031. pharmacokinetics
-	4032. pharmacology
-	4033. pharynx
-	4034. phase-contrast microscope
-	4035. phase II metabolism
-	4036. phase I metabolism
-	4037. phase variation
-	4038. phellem
-	4039. phelloderm
-	4040. phellogen
-	4041. phenetic
-	4042. phenocopy
-	4043. phenology
-	4044. phenolphthalein
-	4045. phenome
-	4046. phenotype
-	4047. phenotypic plasticity
-	4048. phenylalanine
-	4049. phenylketonuria
-	4050. pheophytin
-	4051. pheromone
-	4052. philopatry
-	4053. phloem
-	4054. phloem loading
-	4055. phloem protein
-	4056. phloem unloading
-	4057. phloroglucinol
-	4058. phonotaxis
-	4059. phoresy
-	4060. Phoronida
-	4061. phosphagen
-	4062. phosphatase
-	4063. phosphatide
-	4064. phosphatidylcholine
-	4065. phosphodiester bond
-	4066. phosphoenolpyruvate
-	4067. phosphoglyceric acid
-	4068. phosphokinase
-	4069. phospholipase
-	4070. phospholipid
-	4071. phosphorus
-	4072. phosphorus:oxygen ratio
-	4073. phosphorus cycle
-	4074. phosphorylase
-	4075. phosphorylation
-	4076. photic zone
-	4077. photoautotroph
-	4078. photoblastic
-	4079. photochemical smog
-	4080. photoheterotroph
-	4081. photoinhibition
-	4082. photolysis
-	4083. photomicrography
-	4084. photomorphogenesis
-	4085. photonasty
-	4086. photoperiod
-	4087. photoperiodism
-	4088. photophore
-	4089. photophosphorylation
-	4090. photopic vision
-	4091. photoprotection
-	4092. photoreactivation
-	4093. photoreceptor
-	4094. photorespiration
-	4095. photosynthate
-	4096. photosynthesis
-	4097. photosynthetic carbon reduction cycle
-	4098. photosynthetic nitrogen use efficiency
-	4099. photosynthetic pigments
-	4100. photosystems I and II
-	4101. phototaxis
-	4102. phototroph
-	4103. phototropin
-	4104. phototropism
-	4105. phragmoplast
-	4106. phrenic nerve
-	4107. pH scale
-	4108. phycobiliprotein
-	4109. phycobiont
-	4110. phycocyanin
-	4111. phycoerythrin
-	4112. phycomycetes
-	4113. phycoplast
-	4114. phyletic series
-	4115. phyllode
-	4116. phyllotaxis
-	4117. PhyloCode
-	4118. phylogenetic
-	4119. phylogenetic species concept
-	4120. phylogenetic tree
-	4121. phylogenomics
-	4122. phylogeny
-	4123. phylogeography
-	4124. phylogram
-	4125. phylum
-	4126. physical map((in genetics))
-	4127. physiognomy((in ecology))
-	4128. physiological saline
-	4129. physiological specialization
-	4130. physiology
-	4131. physiome
-	4132. physisorption
-	4133. phyto-
-	4134. phytoaccumulation
-	4135. phytoalexin
-	4136. phytochelatin
-	4137. phytochrome
-	4138. phytoecdysteroid
-	4139. phytogeography
-	4140. phytohaemagglutinin
-	4141. phytohormone
-	4142. phytomer
-	4143. phytoncide
-	4144. phytoplankton
-	4145. phytoremediation
-	4146. phytostabilization
-	4147. phytotelm
-	4148. phytotransformation
-	4149. pia mater
-	4150. pico-
-	4151. picornavirus
-	4152. pie chart
-	4153. pigment
-	4154. Pikaia
-	4155. pileus
-	4156. piliferous layer
-	4157. pilomotor
-	4158. Piltdown man
-	4159. pilus
-	4160. pineal eye
-	4161. pineal gland
-	4162. pinna
-	4163. pinocytosis
-	4164. pipette
-	4165. piRNA
-	4166. Pisces
-	4167. pistil
-	4168. pit
-	4169. pitfall trap
-	4170. pith
-	4171. Pithecanthropus
-	4172. pituitary gland
-	4173. piwi-interacting RNA
-	4174. PKC
-	4175. placenta
-	4176. Placentalia
-	4177. placode
-	4178. placoid scale
-	4179. Placozoa
-	4180. plagiotropism
-	4181. planarians
-	4182. plankton
-	4183. plant
-	4184. plant geography
-	4185. plant hormone
-	4186. plantigrade
-	4187. plant uncoupling protein
-	4188. planula
-	4189. plaque
-	4190. plasma
-	4191. plasma cell
-	4192. plasmagel
-	4193. plasma membrane
-	4194. plasma protein
-	4195. plasmasol
-	4196. plasmid
-	4197. plasmin
-	4198. plasminogen
-	4199. plasmodesmata
-	4200. plasmodium
-	4201. plasmogamy
-	4202. plasmolysis
-	4203. plasticity
-	4204. plastid
-	4205. plastocyanin
-	4206. plastoglobulus
-	4207. plastome
-	4208. plastoquinone
-	4209. plastron
-	4210. plate count
-	4211. platelet
-	4212. platelet-activating factor
-	4213. platelet-derived growth factor
-	4214. plate tectonics
-	4215. Platyhelminthes
-	4216. Platyzoa
-	4217. pleiomorphism
-	4218. pleiotropic
-	4219. Pleistocene
-	4220. plesiomorphy
-	4221. pleura
-	4222. plexus
-	4223. Pliocene
-	4224. plumule
-	4225. pluripotent
-	4226. pneumatophore
-	4227. pod
-	4228. podocyte
-	4229. pogonophoran
-	4230. poikilothermy
-	4231. point mutation
-	4232. polar body
-	4233. polarity
-	4234. polar molecule
-	4235. polar nuclei
-	4236. pollen
-	4237. pollen analysis
-	4238. pollen sac
-	4239. pollen tube
-	4240. pollex
-	4241. pollination
-	4242. pollutant
-	4243. pollution
-	4244. polyacrylamide gel electrophoresis
-	4245. polyandry
-	4246. Polychaeta
-	4247. polycistronic
-	4248. polyembryony
-	4249. polygene
-	4250. polygenic inheritance
-	4251. polygyny
-	4252. polymer
-	4253. polymerase
-	4254. polymerase chain reaction
-	4255. polymorphism
-	4256. polynucleotide
-	4257. polyol
-	4258. polyp
-	4259. polypeptide
-	4260. polypetalous
-	4261. polyphenism
-	4262. polyphyletic
-	4263. polyphyodont
-	4264. polyploid
-	4265. polyribosome
-	4266. polysaccharide
-	4267. polysepalous
-	4268. polysome
-	4269. polyspermy
-	4270. polysynaptic reflex
-	4271. polyteny
-	4272. polythetic
-	4273. polytopic
-	4274. polytypic
-	4275. pome
-	4276. pons
-	4277. population
-	4278. population bottleneck
-	4279. population dynamics
-	4280. population genetics
-	4281. population growth
-	4282. Porifera
-	4283. porin
-	4284. porphyrin
-	4285. portal vein
-	4286. positional cloning
-	4287. positional information((in embryology))
-	4288. positive-sense((in genetics))
-	4289. positive feedback
-	4290. positive selection
-	4291. positron emission tomography
-	4292. post-tetanic potentiation
-	4293. post-transcriptional gene silencing
-	4294. post-transcriptional modification
-	4295. post-translational modification
-	4296. postcaval vein
-	4297. posterior
-	4298. postreplicative repair
-	4299. postsynaptic membrane
-	4300. potassium
-	4301. potassium–argon dating
-	4302. potassium ion channel
-	4303. potentiation
-	4304. potometer
-	4305. poxvirus
-	4306. pre-messenger RNA
-	4307. pre-replication complex
-	4308. preadaptation
-	4309. Precambrian
-	4310. precaval vein
-	4311. precipitin
-	4312. precocial species
-	4313. predation
-	4314. predator
-	4315. pregnancy
-	4316. preimplantation genetic diagnosis
-	4317. premolar
-	4318. premotor cortex
-	4319. premutation
-	4320. presbyopia
-	4321. pressure flow
-	4322. pressure potential
-	4323. presumptive
-	4324. presynaptic membrane
-	4325. prey
-	4326. Pribnow box
-	4327. prickle
-	4328. primary cell wall
-	4329. primary consumer
-	4330. primary growth
-	4331. primary immune response
-	4332. primary motor cortex
-	4333. primary producer
-	4334. primary productivity
-	4335. primary somatosensory cortex
-	4336. primary structure
-	4337. primase
-	4338. Primates
-	4339. primitive node
-	4340. primitive streak
-	4341. primordial soup
-	4342. primordium
-	4343. primosome
-	4344. principle of parsimony
-	4345. prion
-	4346. Proboscidea
-	4347. proboscis
-	4348. procambium
-	4349. procarcinogen
-	4350. procaryote
-	4351. prochlorophytes
-	4352. Proconsul
-	4353. prodrug
-	4354. producer
-	4355. productivity((in ecology))
-	4356. profundal
-	4357. progenesis
-	4358. progeny
-	4359. progesterone
-	4360. progestogen
-	4361. proglottid
-	4362. programmed cell death
-	4363. progymnosperms
-	4364. prokaryote
-	4365. prolactin
-	4366. proline
-	4367. prometaphase
-	4368. promoter
-	4369. pronation
-	4370. proofreading
-	4371. propagation
-	4372. propagule
-	4373. prophage
-	4374. prophase
-	4375. proplastid
-	4376. proprioceptor
-	4377. prop root
-	4378. prosencephalon
-	4379. prosoma
-	4380. prostacyclin
-	4381. prostaglandin
-	4382. prostate gland
-	4383. prosthetic group
-	4384. protamine
-	4385. protandry
-	4386. protanopia
-	4387. protease
-	4388. proteasome
-	4389. protein
-	4390. protein blotting
-	4391. protein engineering
-	4392. protein family
-	4393. protein kinase
-	4394. protein kinase C
-	4395. proteinoid
-	4396. protein profiling
-	4397. protein sequencing
-	4398. protein synthesis
-	4399. protein targeting
-	4400. proteobacteria
-	4401. proteoglycan
-	4402. proteolysis
-	4403. proteolytic enzyme
-	4404. proteome
-	4405. proteomics
-	4406. Proterozoic
-	4407. prothallus
-	4408. prothoracic gland
-	4409. prothoracicotropic hormone
-	4410. prothrombin
-	4411. protist
-	4412. proto-oncogene
-	4413. protocell
-	4414. Protoctista
-	4415. protoderm
-	4416. protogyny
-	4417. protonema
-	4418. protonephridium
-	4419. proton pump
-	4420. protophloem
-	4421. protoplasm
-	4422. protoplast
-	4423. protostome
-	4424. Prototheria
-	4425. protoxylem
-	4426. protozoa
-	4427. Protura
-	4428. provascular tissue
-	4429. proventriculus
-	4430. provirus
-	4431. proximal
-	4432. proximal convoluted tubule
-	4433. PR protein
-	4434. PRR
-	4435. pruning
-	4436. PSC
-	4437. pseudoautosomal region
-	4438. pseudocarp
-	4439. Pseudociliata
-	4440. pseudocoelomate
-	4441. pseudogamy
-	4442. pseudogene
-	4443. pseudoheart
-	4444. pseudoparenchyma
-	4445. pseudoplasmodium
-	4446. pseudopodium
-	4447. pseudopregnancy
-	4448. Psilotum
-	4449. psychrophilic
-	4450. Pteridophyta
-	4451. Pteridospermales
-	4452. pterobranch
-	4453. pterodactyls
-	4454. Pterosauria
-	4455. Pterygota
-	4456. PTH
-	4457. PTTH
-	4458. ptyalin
-	4459. puberty
-	4460. pubis
-	4461. PubMed
-	4462. puff
-	4463. pufferfish
-	4464. pullulan
-	4465. pulmonary
-	4466. pulmonary artery
-	4467. pulmonary circulation
-	4468. pulmonary valve
-	4469. pulmonary vein
-	4470. pulp cavity
-	4471. pulse
-	4472. pulsed-field gel electrophoresis
-	4473. pulvinus
-	4474. punctuated equilibrium
-	4475. Punnett square
-	4476. pupa
-	4477. pupil
-	4478. pupillary reflex
-	4479. pure line
-	4480. purifying selection
-	4481. purine
-	4482. Purkyne cell
-	4483. Purkyne fibres
-	4484. purple sulphur bacteria
-	4485. putrefaction
-	4486. Pycnogonida
-	4487. pyknotic
-	4488. pyloric sphincter
-	4489. pyramidal cell
-	4490. pyramid of biomass
-	4491. pyramid of energy
-	4492. pyramid of numbers
-	4493. pyranose
-	4494. pyrenocarp
-	4495. pyrenoid
-	4496. pyrethrum
-	4497. pyridoxine
-	4498. pyrimidine
-	4499. pyrrole
-	4500. pyruvic acid
-	4501. PYY
-	4502. Q10
-	4503. QTL
-	4504. quadrat
-	4505. quadrate
-	4506. quadriceps
-	4507. qualitative variation
-	4508. quantitative inheritance
-	4509. quantitative structure-activity relationship
-	4510. quantitative trait
-	4511. quantitative trait locus
-	4512. quantitative variation
-	4513. quantum biology
-	4514. quantum hypothesis((in neurophysiology))
-	4515. quarantine
-	4516. Quaternary
-	4517. quaternary structure
-	4518. queen substance
-	4519. quinone
-	4520. quorum sensing
-	4521. r.a.m.
-	4522. race
-	4523. raceme
-	4524. racemose inflorescence
-	4525. rachis
-	4526. rad
-	4527. radial symmetry
-	4528. radiation
-	4529. radiation damage
-	4530. radiation units
-	4531. radicle
-	4532. radioactive age
-	4533. radioactive tracing
-	4534. radioactive waste
-	4535. radioactivity
-	4536. radiobiology
-	4537. radiocarbon dating
-	4538. radiography
-	4539. radioimmunoassay
-	4540. radioisotope
-	4541. radiolarian
-	4542. radiology
-	4543. radiometric dating
-	4544. radiopaque
-	4545. radiotherapy
-	4546. radius
-	4547. radula
-	4548. rainforest
-	4549. Ramapithecus
-	4550. ramus communicans
-	4551. randomly amplified polymorphic DNA
-	4552. random sampling
-	4553. rank
-	4554. RAPD
-	4555. raphe
-	4556. raphide
-	4557. rapid eye movement
-	4558. RAS protein
-	4559. rate-limiting step
-	4560. Ratitae
-	4561. ray
-	4562. reabsorption((in excretion))
-	4563. reactant
-	4564. reaction
-	4565. reaction centre
-	4566. reaction norm
-	4567. reaction time
-	4568. reactive oxygen species
-	4569. reading frame
-	4570. readthrough
-	4571. recapitulation
-	4572. Recent
-	4573. receptacle
-	4574. receptive field
-	4575. receptor
-	4576. receptor-mediated endocytosis
-	4577. receptor potential
-	4578. recessive
-	4579. recipient
-	4580. reciprocal cross
-	4581. recognition sequence
-	4582. recombinant DNA
-	4583. recombination
-	4584. recombinational repair
-	4585. recon
-	4586. reconciliation ecology
-	4587. recruitment
-	4588. rectal gland
-	4589. rectum
-	4590. recycling
-	4591. red algae
-	4592. red blood cell
-	4593. red fluorescent protein
-	4594. redox
-	4595. Red Queen hypothesis
-	4596. red tide
-	4597. reducing sugar
-	4598. reduction
-	4599. reduction division
-	4600. reflex
-	4601. reflex action
-	4602. reflex arc
-	4603. reforestation
-	4604. refractory period
-	4605. regeneration
-	4606. regma
-	4607. regulation((in embryology))
-	4608. regulator
-	4609. regulator gene
-	4610. regulatory enzyme
-	4611. regulatory genes
-	4612. reinforcement((in animal behaviour))
-	4613. Reissner’s membrane
-	4614. relative abundance
-	4615. relative atomic mass
-	4616. relative density
-	4617. relative growth rate
-	4618. relative molecular mass
-	4619. relative refractory period
-	4620. relaxin
-	4621. release-inhibiting hormone
-	4622. release factor
-	4623. releaser
-	4624. releasing hormone
-	4625. relict
-	4626. relictual((in systematics))
-	4627. rem
-	4628. REM sleep
-	4629. renal
-	4630. renal capsule
-	4631. renal tubule
-	4632. renaturation
-	4633. renin
-	4634. rennin
-	4635. Renshaw cell
-	4636. repetitive DNA
-	4637. replacing bone
-	4638. replication
-	4639. replicon
-	4640. repolarization
-	4641. reporter gene
-	4642. repressor
-	4643. reproduction
-	4644. reproduction rate
-	4645. reproductive system
-	4646. Reptilia
-	4647. rescue effect
-	4648. residual volume
-	4649. resin
-	4650. resistance
-	4651. resistance protein
-	4652. resistance response
-	4653. resolving power
-	4654. respiration
-	4655. respiratory burst
-	4656. respiratory chain
-	4657. respiratory movement
-	4658. respiratory organ
-	4659. respiratory pigment
-	4660. respiratory quotient
-	4661. respirometer
-	4662. response
-	4663. resting potential
-	4664. restriction enzyme
-	4665. restriction fragment length polymorphism
-	4666. restriction mapping
-	4667. restriction point
-	4668. resurrection biology
-	4669. reticular activating system
-	4670. reticular formation
-	4671. reticulate
-	4672. reticuloendothelial system
-	4673. reticulum
-	4674. retina
-	4675. retinal
-	4676. retinol
-	4677. retrotransposon
-	4678. retrovirus
-	4679. reverse genetics
-	4680. reverse transcriptase
-	4681. reversion((in genetics))
-	4682. rewilding
-	4683. RF
-	4684. RFLP
-	4685. RFP
-	4686. RF value((in chromatography))
-	4687. Rh
-	4688. rhabdom
-	4689. rhachis
-	4690. rhesus factor
-	4691. rhizarians
-	4692. rhizoid
-	4693. rhizome
-	4694. Rhizopoda
-	4695. rhizosphere
-	4696. Rhodophyta
-	4697. rhodopsin
-	4698. rhombencephalon
-	4699. Rhombozoa
-	4700. rhynchocoel
-	4701. rhyniophytes
-	4702. rhytidome
-	4703. rib
-	4704. ribbon worm
-	4705. riboflavin
-	4706. ribonuclease
-	4707. ribonucleic acid
-	4708. ribonucleoprotein
-	4709. ribose
-	4710. ribosomal RNA
-	4711. ribosome
-	4712. riboswitch
-	4713. ribotyping
-	4714. ribozyme
-	4715. ribulose
-	4716. ribulose bisphosphate
-	4717. rickets
-	4718. rickettsia
-	4719. rigor mortis
-	4720. RIH
-	4721. Ringer’s solution
-	4722. ring species
-	4723. RISC
-	4724. ritualization
-	4725. river continuum concept
-	4726. RMR
-	4727. RNA
-	4728. RNAase
-	4729. RNA interference
-	4730. RNA interference
-	4731. RNA polymerase
-	4732. RNA processing
-	4733. RNase
-	4734. RNA sequencing
-	4735. RNA splicing
-	4736. RNP
-	4737. rod
-	4738. Rodentia
-	4739. roentgen
-	4740. root
-	4741. root cap
-	4742. root hair
-	4743. root mass ratio
-	4744. root nodule
-	4745. root pressure
-	4746. rootstock
-	4747. ROS
-	4748. Rotifera
-	4749. roughage
-	4750. rough endoplasmic reticulum
-	4751. Roundup
-	4752. round window
-	4753. roundworms
-	4754. royal jelly
-	4755. R protein
-	4756. RQ
-	4757. rRNA
-	4758. rselection
-	4759. RT-PCR
-	4760. rubidium-strontium dating
-	4761. rubisco
-	4762. RuBP
-	4763. ruderal
-	4764. Ruffini’s capsule
-	4765. rumen
-	4766. Ruminantia
-	4767. runner
-	4768. rusts
-	4769. saccharide
-	4770. Saccharomyces
-	4771. saccharose
-	4772. sacculus
-	4773. sacral vertebrae
-	4774. safranin
-	4775. sagittal
-	4776. salicylic acid
-	4777. saline
-	4778. salinization
-	4779. saliva
-	4780. salivary glands
-	4781. Salmonella
-	4782. salt
-	4783. salt gland
-	4784. samara
-	4785. sampling
-	4786. Sanger, Frederick (1918–2013)
-	4787. sap
-	4788. saponin
-	4789. saprotroph
-	4790. sapwood
-	4791. SAR
-	4792. sarcolemma
-	4793. sarcoma
-	4794. sarcomere
-	4795. sarcoplasm
-	4796. sarcoplasmic reticulum
-	4797. satellite DNA
-	4798. saturated
-	4799. savanna
-	4800. scala
-	4801. scales
-	4802. scanning electron microscope
-	4803. scanning probe microscopy
-	4804. scanning tunnelling microscopy
-	4805. scapula
-	4806. scavenger
-	4807. Schiff’s reagent
-	4808. schizocarp
-	4809. schizogeny
-	4810. Schwann cell
-	4811. scintillation counter
-	4812. scion
-	4813. sclera
-	4814. sclereid
-	4815. sclerenchyma
-	4816. sclerophyllous
-	4817. scleroprotein
-	4818. sclerotic
-	4819. sclerotium
-	4820. sclerotization
-	4821. scolex
-	4822. scorpions
-	4823. scotopic vision
-	4824. SCP
-	4825. scRNP
-	4826. scrotum
-	4827. scurvy
-	4828. scutellum
-	4829. Scyphozoa
-	4830. SDS-PAGE
-	4831. seasonal isolation
-	4832. seaweeds
-	4833. sebaceous gland
-	4834. sebum
-	4835. second
-	4836. secondary cell wall
-	4837. secondary consumer
-	4838. secondary growth
-	4839. secondary immunological response
-	4840. secondary metabolite
-	4841. secondary productivity
-	4842. secondary sexual characteristics
-	4843. secondary structure
-	4844. secondary thickening
-	4845. second convoluted tubule
-	4846. second messenger
-	4847. secretin
-	4848. secretion
-	4849. secretion vector
-	4850. Sedentaria
-	4851. seed
-	4852. seed coat
-	4853. seed ferns
-	4854. seed leaf
-	4855. seed plant
-	4856. segmentation
-	4857. segmentation genes
-	4858. segregation
-	4859. Selachii
-	4860. selectin
-	4861. selection
-	4862. selection coefficient
-	4863. selection pressure
-	4864. selective breeding
-	4865. selective reabsorption
-	4866. self-fertilization
-	4867. self-pollination
-	4868. self-splicing
-	4869. self-sterility
-	4870. selfish DNA
-	4871. Seliwanoff’s test
-	4872. semaphorin
-	4873. semelparity
-	4874. semen
-	4875. semicircular canals
-	4876. semiconservative replication
-	4877. semilunar valve
-	4878. seminal receptacle
-	4879. seminal vesicle
-	4880. seminiferous tubules
-	4881. semiochemical
-	4882. semipermeable membrane
-	4883. senescence
-	4884. sensation
-	4885. sense organ
-	4886. senses
-	4887. sensillum
-	4888. sensitive period
-	4889. sensitivity
-	4890. sensitization
-	4891. sensory cell
-	4892. sensory neuron
-	4893. sepal
-	4894. sepsis
-	4895. septum
-	4896. sequence-tagged site
-	4897. sequence analysis
-	4898. sequence database
-	4899. sere
-	4900. serine
-	4901. seroconversion
-	4902. serology
-	4903. serotonin
-	4904. serous membrane
-	4905. serpin
-	4906. Sertoli cells
-	4907. serum
-	4908. sessile
-	4909. seta
-	4910. set point
-	4911. sewage
-	4912. Sewall Wright effect
-	4913. sex chromosome
-	4914. sex determination
-	4915. sex factor
-	4916. sex hormones
-	4917. sex linkage
-	4918. sex ratio
-	4919. sexual cycle
-	4920. sexual dimorphism
-	4921. sexual intercourse
-	4922. sexually transmitted disease
-	4923. sexual reproduction
-	4924. sexual selection
-	4925. SH2 domain
-	4926. SH3 domain
-	4927. shared derived trait
-	4928. shikimic acid pathway
-	4929. Shine-Dalgarno sequence
-	4930. shivering
-	4931. shoot
-	4932. short-day plant
-	4933. short-sightedness
-	4934. short interfering RNA
-	4935. short interspersed element
-	4936. short sequence repeat
-	4937. short tandem repeats
-	4938. shotgun cloning
-	4939. shotgun sequencing
-	4940. shoulder girdle
-	4941. shunt vessel
-	4942. siblings
-	4943. sibling species
-	4944. sickle-cell disease
-	4945. sieve element
-	4946. sievert
-	4947. sieve tube
-	4948. sigma factor
-	4949. sigmoid growth curve
-	4950. signal hypothesis
-	4951. signal transducer and activator of transcription
-	4952. signal transduction
-	4953. significance
-	4954. sign stimulus
-	4955. silent mutation
-	4956. silicula
-	4957. siliqua
-	4958. silk
-	4959. Silurian
-	4960. SINE
-	4961. single-cell protein
-	4962. single-locus sequence typing
-	4963. single circulation
-	4964. single nucleotide polymorphism
-	4965. sink strength
-	4966. sinoatrial node
-	4967. sinus
-	4968. sinusoid
-	4969. sinus venosus
-	4970. siphonaceous
-	4971. Siphonaptera
-	4972. Siphunculata
-	4973. siRNA
-	4974. sirtuin
-	4975. sister species
-	4976. site-directed mutagenesis
-	4977. Site of Special Scientific Interest
-	4978. SI units
-	4979. Sivapithecus
-	4980. skeletal muscle
-	4981. skeleton
-	4982. skin
-	4983. skull
-	4984. SLA
-	4985. sleep
-	4986. sleep movements
-	4987. sliding filament theory
-	4988. slime
-	4989. slime mould
-	4990. slow-twitch fibre
-	4991. slow-wave sleep
-	4992. slow virus
-	4993. sludge
-	4994. small cytoplasmic ribonucleoprotein
-	4995. small intestine
-	4996. small nuclear ribonucleoprotein
-	4997. small nuclear RNA
-	4998. small nucleolar RNA
-	4999. small ubiquitin-related modifier
-	5000. smell
-	5001. smooth endoplasmic reticulum
-	5002. smooth muscle
-	5003. smuts
-	5004. snakes
-	5005. SNAP
-	5006. SNARE
-	5007. snoRNA
-	5008. SNP
-	5009. snRNA
-	5010. snRNP
-	5011. social behaviour
-	5012. sodium
-	5013. sodium-potassium pump
-	5014. sodium chloride
-	5015. sodium fluoride
-	5016. sodium ion channel
-	5017. softwood
-	5018. soil
-	5019. soil erosion
-	5020. sol
-	5021. solenocytes
-	5022. solute
-	5023. solute potential
-	5024. solution
-	5025. solvent
-	5026. soma
-	5027. somatic
-	5028. somatic cell hybridization
-	5029. somatic cell nuclear transfer
-	5030. somatic hypermutation
-	5031. somatic recombination
-	5032. somatic sensory neuron
-	5033. somatomedin
-	5034. somatosensory cortex
-	5035. somatostatin
-	5036. somatotrophin
-	5037. somite
-	5038. sonicator
-	5039. Sonic hedgehog
-	5040. soredium
-	5041. sorosis
-	5042. sorus
-	5043. SOS response
-	5044. Southern blotting
-	5045. spacer DNA
-	5046. spadix
-	5047. spathe
-	5048. spatial summation
-	5049. special creation
-	5050. specialization
-	5051. speciation
-	5052. species
-	5053. species diversity
-	5054. species evenness
-	5055. species richness
-	5056. specific leaf area
-	5057. spectral karyotyping
-	5058. spectrin
-	5059. spectroscopy
-	5060. spectrum
-	5061. Spemann’s organizer
-	5062. sperm
-	5063. spermatheca
-	5064. spermatid
-	5065. spermatium
-	5066. spermatocyte
-	5067. spermatogenesis
-	5068. spermatogonium
-	5069. Spermatophyta
-	5070. spermatozoid
-	5071. spermatozoon
-	5072. sperm competition
-	5073. Sphenophyta
-	5074. spherosome
-	5075. sphincter
-	5076. sphingolipid
-	5077. spiders
-	5078. spike
-	5079. spinal column
-	5080. spinal cord
-	5081. spinal nerves
-	5082. spinal reflex
-	5083. spindle
-	5084. spindle attachment
-	5085. spine
-	5086. spinneret
-	5087. spinocerebellar tracts
-	5088. spiracle
-	5089. spirillum
-	5090. spirochaete
-	5091. spirometer
-	5092. spleen
-	5093. spliceosome
-	5094. splicing
-	5095. sponges
-	5096. spongy bone
-	5097. spongy mesophyll
-	5098. spontaneous generation
-	5099. sporangiophore
-	5100. sporangium
-	5101. spore
-	5102. spore mother cell
-	5103. sporocyte
-	5104. sporogonium
-	5105. sporophore
-	5106. sporophyll
-	5107. sporophyte
-	5108. Sporozoa
-	5109. sport
-	5110. squalene
-	5111. Squamata
-	5112. squamous epithelium
-	5113. Src tyrosine kinase
-	5114. SRY protein
-	5115. SSSI
-	5116. stabilizing selection
-	5117. staining
-	5118. stamen
-	5119. staminode
-	5120. standard deviation
-	5121. standard error of the mean
-	5122. standard metabolic rate
-	5123. standing biomass
-	5124. standing crop
-	5125. stapes
-	5126. Staphylococcus
-	5127. starch
-	5128. star diagram
-	5129. Starling’s law
-	5130. start codon
-	5131. startle display
-	5132. STAT
-	5133. stationary phase
-	5134. statoblast
-	5135. statocyst
-	5136. statocyte
-	5137. statolith
-	5138. stearic acid
-	5139. stele
-	5140. stem
-	5141. stem cell
-	5142. steno-
-	5143. stereocilium
-	5144. stereoisomerism
-	5145. sterigma
-	5146. sterile
-	5147. sterilization
-	5148. sternum
-	5149. steroid
-	5150. sterol
-	5151. sticky end
-	5152. stigma
-	5153. stilt root
-	5154. stimulus
-	5155. stimulus filtering
-	5156. stipe
-	5157. stipule
-	5158. STM
-	5159. stock
-	5160. stolon
-	5161. stoma
-	5162. stomach
-	5163. stomatal conductance
-	5164. stomium
-	5165. stop codon
-	5166. storage compound
-	5167. stramenopiles
-	5168. stratification
-	5169. stratified epithelium
-	5170. stratified sampling
-	5171. stratosphere
-	5172. stratum corneum
-	5173. Streptococcus
-	5174. streptomycin
-	5175. streptophyte
-	5176. stress protein
-	5177. stretch receptor
-	5178. stretch reflex
-	5179. striated muscle
-	5180. stridulation
-	5181. strigolactone
-	5182. strobilus
-	5183. stroke volume
-	5184. stroma
-	5185. stromatolite
-	5186. strontium
-	5187. structural gene
-	5188. strychnine
-	5189. STS
-	5190. style
-	5191. subarachnoid space
-	5192. subclavian artery
-	5193. subcutaneous tissue
-	5194. suberin
-	5195. sublittoral
-	5196. submucosa
-	5197. subsoil
-	5198. subspecies
-	5199. substance P
-	5200. substitution((in genetics))
-	5201. substrate
-	5202. substrate-level phosphorylation
-	5203. subtilisin
-	5204. succession((in ecology))
-	5205. succinate
-	5206. succulent
-	5207. succus entericus
-	5208. sucker
-	5209. sucrase
-	5210. sucrose
-	5211. sugar
-	5212. sulpha (sulfa) drugs
-	5213. sulphonamides
-	5214. sulphur
-	5215. sulphur bacteria
-	5216. sulphur bridge
-	5217. sulphur cycle
-	5218. sulphur dioxide
-	5219. summation
-	5220. SUMO
-	5221. super-resolution microscopy
-	5222. supercoiling
-	5223. supercooling
-	5224. supergene
-	5225. supergroup
-	5226. superior
-	5227. supernormal stimulus
-	5228. supernumerary chromosome
-	5229. superorganism
-	5230. superoxide dismutase
-	5231. supination
-	5232. supplementary units
-	5233. suprachiasmatic nucleus
-	5234. supramolecular adhesion complex
-	5235. suprarenal glands
-	5236. surface tension
-	5237. surfactant
-	5238. survivorship curve
-	5239. suspension culture
-	5240. suspensor
-	5241. suspensory ligaments
-	5242. sustainable
-	5243. suture
-	5244. SV40
-	5245. swallowing
-	5246. swamp
-	5247. sweat
-	5248. sweat gland
-	5249. swim bladder
-	5250. syconium
-	5251. symbiont
-	5252. symbiosis
-	5253. symmetry
-	5254. symmorphosis
-	5255. sympathetic nervous system
-	5256. sympathetic tone
-	5257. sympatric
-	5258. symphysis
-	5259. symplast
-	5260. symplesiomorphy
-	5261. sympodium
-	5262. symporter
-	5263. synapomorphy
-	5264. synapse
-	5265. synapsid
-	5266. synapsis
-	5267. synaptic cleft
-	5268. synaptic knob
-	5269. synaptic plasticity
-	5270. synaptobrevin
-	5271. synaptonemal complex
-	5272. synaptotagmin
-	5273. syncarpy
-	5274. syncytium
-	5275. synecology
-	5276. synergids
-	5277. synergism
-	5278. syngamy
-	5279. synomone
-	5280. synonymous substitution
-	5281. synovial membrane
-	5282. syntaxin
-	5283. synteny
-	5284. synthesis
-	5285. synthetic biology
-	5286. synthetic theory
-	5287. syphilis
-	5288. syrinx
-	5289. systematics
-	5290. systematic sampling
-	5291. Système International d’Unités
-	5292. systemic acquired resistance
-	5293. systemic arch
-	5294. systemic circulation
-	5295. systemic signalling
-	5296. systems biology
-	5297. systems ecology
-	5298. systole
-	5299. T-cell receptor
-	5300. tachycardia
-	5301. tachymetabolism
-	5302. TACK
-	5303. tactic movement
-	5304. tagma
-	5305. tagmosis
-	5306. taiga
-	5307. TALEN
-	5308. tandem array((in genetics))
-	5309. tannin
-	5310. tapetum
-	5311. tapeworms
-	5312. taphonomy
-	5313. tap root
-	5314. tarsal
-	5315. tarsus
-	5316. taste
-	5317. taste bud
-	5318. TATA-box-binding protein
-	5319. TATA box
-	5320. taxis
-	5321. taxon
-	5322. taxonomy
-	5323. TCA cycle
-	5324. T cell
-	5325. TDF
-	5326. tectorial membrane
-	5327. tectum
-	5328. teeth
-	5329. tegmentum
-	5330. Teleostei
-	5331. telocentric
-	5332. telomere
-	5333. telome theory
-	5334. telophase
-	5335. temperature inversion
-	5336. temperature sensitivity
-	5337. template
-	5338. temporal summation
-	5339. tendon
-	5340. tendril
-	5341. tentacle
-	5342. tera-
-	5343. teratogen
-	5344. tergum
-	5345. termination codon
-	5346. terminator
-	5347. terpenes
-	5348. territory
-	5349. Tertiary
-	5350. tertiary consumer
-	5351. tertiary structure
-	5352. testa
-	5353. test cross
-	5354. testis
-	5355. testis-determining factor
-	5356. testosterone
-	5357. tetanus
-	5358. tetracosactide
-	5359. tetrad
-	5360. tetraploid
-	5361. Tetrapoda
-	5362. tetraspore
-	5363. tetrodotoxin
-	5364. thalamus
-	5365. thalassaemia
-	5366. thallus
-	5367. TH cell
-	5368. theca
-	5369. thelytoky
-	5370. therapeutic half-life
-	5371. therapeutic index
-	5372. therapsid
-	5373. thermal denaturation
-	5374. thermal hysteresis protein
-	5375. thermocline
-	5376. thermogenesis
-	5377. thermogenin
-	5378. thermography
-	5379. thermonasty
-	5380. thermoneutral zone
-	5381. thermophilic
-	5382. thermoreceptor
-	5383. thermoregulation
-	5384. therophyte
-	5385. Theropoda
-	5386. thiamin(e)
-	5387. thigmotropism
-	5388. thin-layer chromatography
-	5389. thoracic cavity
-	5390. thoracic duct
-	5391. thoracic vertebrae
-	5392. thorax
-	5393. thorn
-	5394. thread cell
-	5395. threat display
-	5396. threatened species
-	5397. threonine
-	5398. threshold
-	5399. thrombin
-	5400. thrombocyte
-	5401. thromboplastin
-	5402. thrombosis
-	5403. thromboxane A2
-	5404. thylakoid
-	5405. thymidine
-	5406. thymine
-	5407. thymocyte
-	5408. thymus
-	5409. thyrocalcitonin
-	5410. thyroglobulin
-	5411. thyroid-stimulating hormone
-	5412. thyroid gland
-	5413. thyrotrophin-releasing hormone
-	5414. thyroxine
-	5415. Thysanura
-	5416. tibia
-	5417. ticks
-	5418. tidal volume
-	5419. tight junction
-	5420. Tiktaalik
-	5421. tiller
-	5422. time-lapse photography
-	5423. tinsel flagellum
-	5424. Ti plasmid
-	5425. tissue
-	5426. tissue culture
-	5427. tissue engineering
-	5428. tissue fluid
-	5429. tissue plasminogen activator
-	5430. tissue typing
-	5431. titre
-	5432. TLR
-	5433. T lymphocyte
-	5434. tmRNA
-	5435. TNF
-	5436. toads
-	5437. tobacco mosaic virus
-	5438. tocopherol
-	5439. tolerance
-	5440. Toll-like receptor
-	5441. Tollens reagent
-	5442. tomography
-	5443. tone
-	5444. tongue
-	5445. tonicity
-	5446. tonoplast
-	5447. tonsil
-	5448. tonus
-	5449. tooth
-	5450. top carnivore
-	5451. topoisomer
-	5452. topoisomerase
-	5453. topsoil
-	5454. tornaria
-	5455. torpor
-	5456. torus
-	5457. total peripheral resistance
-	5458. totipotent
-	5459. touch
-	5460. toxicogenomics
-	5461. toxicology
-	5462. toxin
-	5463. trace element
-	5464. trace fossil
-	5465. trachea
-	5466. tracheid
-	5467. tracheole
-	5468. tracheophyte
-	5469. tracing
-	5470. transaminase
-	5471. transamination
-	5472. transcellular pathway
-	5473. transcriptase
-	5474. transcription
-	5475. transcription factor
-	5476. transcriptome
-	5477. transcriptomic
-	5478. transducin
-	5479. transduction
-	5480. transect
-	5481. transfatty acid
-	5482. transfection
-	5483. transfer-messenger RNA
-	5484. transferase
-	5485. transfer cell
-	5486. transferrin
-	5487. transfer RNA
-	5488. transformation
-	5489. transformation hypothesis
-	5490. transforming growth factor beta
-	5491. transgene
-	5492. transgenic
-	5493. transient polymorphism
-	5494. transition((in genetics))
-	5495. transition zone
-	5496. translation
-	5497. translocation
-	5498. transmembrane domain
-	5499. transmission
-	5500. transmission electron microscope
-	5501. transmitter
-	5502. transpiration
-	5503. transplantation
-	5504. transport protein
-	5505. transposon
-	5506. transverse tubules
-	5507. transversion((in genetics))
-	5508. Treg
-	5509. Trematoda
-	5510. trial-and-error learning
-	5511. Triassic
-	5512. triazines
-	5513. tribe
-	5514. tricarboxylic acid cycle
-	5515. triceps
-	5516. trichogyne
-	5517. trichome
-	5518. Trichoplax
-	5519. trichromatic theory
-	5520. tricuspid valve
-	5521. triglyceride
-	5522. triiodothyronine
-	5523. trilobite
-	5524. trimerophytes
-	5525. trimethylamine
-	5526. triose
-	5527. triplet code
-	5528. triploblastic
-	5529. triploid
-	5530. trisomy
-	5531. tritanopia
-	5532. tritiated compound
-	5533. TRK
-	5534. tRNA
-	5535. trochanter
-	5536. trochophore
-	5537. trophic cascade
-	5538. trophic efficiency
-	5539. trophic level
-	5540. trophoblast
-	5541. tropic
-	5542. tropism
-	5543. tropomyosin
-	5544. troponin
-	5545. troposphere
-	5546. TRP protein
-	5547. trumpet cell
-	5548. trypsin
-	5549. trypsinogen
-	5550. tryptophan
-	5551. TSH
-	5552. T tubules
-	5553. tube feet
-	5554. tube nucleus
-	5555. tuber
-	5556. tubicolous
-	5557. tubulin
-	5558. Tullgren funnel
-	5559. tumour
-	5560. tumour-suppressor gene
-	5561. tumour necrosis factor
-	5562. tundra
-	5563. tunicates
-	5564. Turbellaria
-	5565. turgor
-	5566. turion
-	5567. Turner’s syndrome
-	5568. twins
-	5569. two-hybrid screening
-	5570. tylose
-	5571. tympanic cavity
-	5572. tympanum
-	5573. type I fibre
-	5574. type II fibre
-	5575. type specimen
-	5576. typological species concept
-	5577. tyramine
-	5578. tyrosine
-	5579. tyrosine kinase
-	5580. ubiquinone
-	5581. ubiquitin
-	5582. UCP
-	5583. ulna
-	5584. ultimobranchial bodies
-	5585. ultracentrifuge
-	5586. ultradian rhythm
-	5587. ultrafiltration
-	5588. ultramicroscope
-	5589. ultramicrotome
-	5590. ultrasonics
-	5591. ultrastructure
-	5592. ultraviolet microscope
-	5593. ultraviolet radiation
-	5594. umbel
-	5595. umbilical cord
-	5596. uncoupling protein
-	5597. undernourishment
-	5598. undulipodium
-	5599. ungulate
-	5600. unguligrade
-	5601. unicellular
-	5602. unikonts
-	5603. unipolar neuron
-	5604. uniporter
-	5605. UniProt
-	5606. Uniramia
-	5607. uniramous appendage
-	5608. unisexual
-	5609. unit
-	5610. Universal Protein Resource
-	5611. unsaturated
-	5612. upper critical temperature
-	5613. upregulation
-	5614. uracil
-	5615. uranium-lead dating
-	5616. urea
-	5617. urea cycle
-	5618. ureotelic
-	5619. ureter
-	5620. urethra
-	5621. uric acid
-	5622. uricotelic
-	5623. uridine
-	5624. urinary system
-	5625. urine
-	5626. uriniferous tubule
-	5627. Urochordata
-	5628. uterine cycle
-	5629. uterus
-	5630. utriculus
-	5631. UV
-	5632. V(D)J recombination
-	5633. vaccination
-	5634. vaccine
-	5635. vacuole
-	5636. vacuole membrane
-	5637. vagal tone
-	5638. vagina
-	5639. vagus nerve
-	5640. valine
-	5641. valve
-	5642. van der Waals interactions
-	5643. variable
-	5644. variable number tandem repeats
-	5645. variation
-	5646. variegation
-	5647. variety
-	5648. varve dating
-	5649. vasa recta
-	5650. vascular bundle
-	5651. vascular cambium
-	5652. vascular plants
-	5653. vascular system
-	5654. vascular tissue
-	5655. vas deferens
-	5656. vas efferens
-	5657. vasoactive intestinal peptide
-	5658. vasoconstriction
-	5659. vasodilation
-	5660. vasomotor centre
-	5661. vasomotor nerves
-	5662. vasopressin
-	5663. vector
-	5664. vegetal pole
-	5665. vegetative propagation
-	5666. vein
-	5667. velamen
-	5668. velum
-	5669. velvet worms
-	5670. vena cava
-	5671. venation
-	5672. venter
-	5673. ventilation
-	5674. ventilation centre
-	5675. ventral
-	5676. ventral aorta
-	5677. ventral root
-	5678. ventricle
-	5679. venule
-	5680. vermiform appendix
-	5681. vernalization
-	5682. vertebra
-	5683. vertebral column
-	5684. vertebrate
-	5685. vesicle
-	5686. vessel
-	5687. vessel element
-	5688. vestibular apparatus
-	5689. vestibular canal
-	5690. vestibule
-	5691. vestigial organ
-	5692. viable count
-	5693. vibrio
-	5694. vicariant event
-	5695. villus
-	5696. viologen dyes
-	5697. VIP
-	5698. virion
-	5699. viroid
-	5700. virology
-	5701. virulence
-	5702. virulence factor
-	5703. virus
-	5704. Viruses
-	5705. virusoid
-	5706. visceral
-	5707. visceral sensory neuron
-	5708. vision
-	5709. visual acuity
-	5710. visual cortex
-	5711. visual purple
-	5712. vital capacity
-	5713. vital staining
-	5714. vitamin
-	5715. vitamin A
-	5716. vitamin B complex
-	5717. vitamin C
-	5718. vitamin D
-	5719. vitamin E
-	5720. vitamin K
-	5721. Vitamins
-	5722. vitelline membrane
-	5723. vitreous humour
-	5724. viviparity
-	5725. VNTR
-	5726. vocal cords
-	5727. voltage-gated ion channel
-	5728. voltage clamp
-	5729. voluntary
-	5730. voluntary muscle
-	5731. volutin
-	5732. vomeronasal organ
-	5733. vulva
-	5734. waggle dance
-	5735. Wallace’s line
-	5736. Wallace, Alfred Russel (1823–1913)
-	5737. Wallerian degeneration
-	5738. warfarin
-	5739. warm-blooded animal
-	5740. warning coloration
-	5741. waste product
-	5742. water
-	5743. water cycle
-	5744. water potential
-	5745. water vascular system
-	5746. Watson, James Dewey (1928– )
-	5747. Watson-Crick model
-	5748. wax((in biology))
-	5749. weed
-	5750. Weismannism
-	5751. Wernicke’s area
-	5752. western blotting
-	5753. whalebone
-	5754. whales
-	5755. whey
-	5756. whisk ferns
-	5757. white blood cell
-	5758. white matter
-	5759. white muscle
-	5760. wild type
-	5761. wilting
-	5762. windpipe
-	5763. wind pollination
-	5764. wing
-	5765. withdrawal reflex
-	5766. WNT protein
-	5767. wobble
-	5768. Wolff’s law
-	5769. womb
-	5770. wood
-	5771. Woronin body
-	5772. wort
-	5773. X-ray crystallography
-	5774. X-rays
-	5775. xanthophyll
-	5776. xanthophyll cycle
-	5777. Xanthophyta
-	5778. X chromosome
-	5779. xenobiotic
-	5780. xeric
-	5781. xeromorphic
-	5782. xerophthalmia
-	5783. xerophyte
-	5784. X inactivation
-	5785. xylem
-	5786. xylenes
-	5787. YAC
-	5788. Y chromosome
-	5789. yeast artificial chromosome
-	5790. yeasts
-	5791. yeast two-hybrid screen
-	5792. yellow body
-	5793. yolk
-	5794. yolk sac
-	5795. Y organ
-	5796. zeatin
-	5797. Zika virus
-	5798. zinc
-	5799. zinc finger
-	5800. zinc finger nuclease
-	5801. Z line
-	5802. zona pellucida
-	5803. zonation
-	5804. zone fossil
-	5805. zone of polarizing activity
-	5806. zonula adherens
-	5807. zonula occludens
-	5808. zoogeography
-	5809. zooid
-	5810. zoology
-	5811. Zoomastigota
-	5812. zoonosis
-	5813. zooplankton
-	5814. zoosporangium
-	5815. zoospore
-	5816. zosterophyllophytes
-	5817. zwitterion
-	5818. zygomorphy
-	5819. Zygomycota
-	5820. zygospore
-	5821. zygote
-	5822. zygotene
-	5823. zymase
-	5824. zymogen
+	2239. glutathione
+	2240. [[gluten]]
+	2241. glycaemic index
+	2242. glycan
+	2243. glyceraldehyde 3-phosphate
+	2244. glycerate 3-phosphate
+	2245. glyceride
+	2246. glycerine
+	2247. glycerol
+	2248. glycerophospholipid
+	2249. [[glycine]]
+	2250. glycobiology
+	2251. glycocalyx
+	2252. glycogen
+	2253. glycogenesis
+	2254. glycogenolysis
+	2255. glycolate pathway
+	2256. glycolipid
+	2257. glycolysis
+	2258. glycomics
+	2259. glycoprotein
+	2260. glycosaminoglycan
+	2261. glycoside
+	2262. glycosidic bond
+	2263. glycosuria
+	2264. glycosylation
+	2265. glyoxylate cycle
+	2266. glyoxysome
+	2267. glyphosate
+	2268. GM-CSF
+	2269. Gnathostomata
+	2270. Gnetophyta
+	2271. gnotobiotic
+	2272. goblet cell
+	2273. goitre
+	2274. Golgi, Camillo (1843–1926)
+	2275. Golgi apparatus
+	2276. Golgi tendon organ
+	2277. gonad
+	2278. gonadotrophin
+	2279. Gondwanaland
+	2280. gonorrhoea
+	2281. G protein
+	2282. Graafian follicle
+	2283. grade
+	2284. graded potential
+	2285. graft
+	2286. graft hybrid
+	2287. gram
+	2288. Gram’s stain
+	2289. granulocyte
+	2290. granulocyte/macrophage colony-stimulating factor
+	2291. granulosa cells
+	2292. granum
+	2293. granzymes
+	2294. grape sugar
+	2295. graptolites
+	2296. grass-green bacteria
+	2297. grassland
+	2298. gravitropism
+	2299. gray
+	2300. grazing
+	2301. green algae
+	2302. green chemistry
+	2303. green fluorescent protein
+	2304. green gland
+	2305. greenhouse effect
+	2306. grey crescent
+	2307. grey matter
+	2308. grooming
+	2309. ground meristem
+	2310. ground substance
+	2311. ground tissues
+	2312. group selection
+	2313. growth
+	2314. growth cone
+	2315. growth factor
+	2316. growth hormone
+	2317. growth ring
+	2318. growth substance
+	2319. GSH
+	2320. GTP
+	2321. guanine
+	2322. guanine-nucleotide exchange factor
+	2323. guano
+	2324. guanosine
+	2325. guanylate cyclase
+	2326. guard cell
+	2327. guidepost cell
+	2328. guild((in ecology))
+	2329. gullet
+	2330. gum
+	2331. gustatory receptors
+	2332. gut
+	2333. gut-associated lymphoid tissue
+	2334. guttation
+	2335. gymnosperm
+	2336. gynandromorph
+	2337. gynoecium
+	2338. gyre
+	2339. habitat
+	2340. habituation
+	2341. Hadean
+	2342. Hadobacteria
+	2343. haem
+	2344. haemagglutination
+	2345. haematophagous
+	2346. haematoxylin
+	2347. haemerythrin
+	2348. haemocoel
+	2349. haemocyanin
+	2350. haemocyte
+	2351. [[hemocytometer]]
+	2352. haemodynamics
+	2353. haemoglobin
+	2354. haemoglobinic acid
+	2355. haemoglobin S
+	2356. haemolymph
+	2357. haemolysis
+	2358. haemophilia
+	2359. haemopoietic tissue
+	2360. haemostasis
+	2361. hagfish
+	2362. hair
+	2363. hair cell
+	2364. hair follicle
+	2365. hallucinogen
+	2366. hallux
+	2367. halophyte
+	2368. haploid
+	2369. haplont
+	2370. haplotype
+	2371. hapten
+	2372. haptonasty
+	2373. haptotropism
+	2374. hardwood
+	2375. Hardy-Weinberg equilibrium
+	2376. harvesting
+	2377. Hatch-Slack pathway
+	2378. haustorium
+	2379. Haversian canals
+	2380. hearing
+	2381. heart
+	2382. heartwood
+	2383. heat-shock protein
+	2384. heater cell
+	2385. heavy-metal pollution
+	2386. hecto-
+	2387. Hedgehog protein
+	2388. helicase
+	2389. helicotrema
+	2390. heliotropism
+	2391. helix-turn-helix
+	2392. helper T cell
+	2393. heme
+	2394. hemicellulose
+	2395. Hemichordata
+	2396. hemicryptophyte
+	2397. hemimetabolous
+	2398. hemiparasite
+	2399. hemipenis
+	2400. Hemiptera
+	2401. hemizygous
+	2402. Hensen’s node
+	2403. heparan sulphate
+	2404. heparin
+	2405. hepatic
+	2406. Hepaticae
+	2407. hepatic portal system
+	2408. hepatocyte
+	2409. Hepatophyta
+	2410. hepatotoxin
+	2411. herb
+	2412. herbaceous
+	2413. herbicide
+	2414. herbivore
+	2415. herd immunity
+	2416. heredity
+	2417. heritability
+	2418. hermaphrodite
+	2419. heroin
+	2420. herpesvirus
+	2421. herpetology
+	2422. hertz
+	2423. hesperidium
+	2424. heterobaric leaf anatomy
+	2425. heterochromatin
+	2426. heterochrony
+	2427. heterocyst
+	2428. heterodont
+	2429. heteroduplex DNA
+	2430. heteroecious
+	2431. heterogametic sex
+	2432. heterogamy
+	2433. heterogeneous nuclear ribonucleoprotein
+	2434. heterogeneous nuclear RNA
+	2435. heterokaryon
+	2436. heterokaryosis
+	2437. heterokonts
+	2438. heterometry((in embryonic development))
+	2439. heteromorphosis
+	2440. heteroplasmy
+	2441. heterosis
+	2442. heterosporous
+	2443. heterospory
+	2444. heterostyly
+	2445. heterothallic
+	2446. heterotherm
+	2447. heterotony
+	2448. heterotrichy
+	2449. heterotrophic nutrition
+	2450. heterotypy
+	2451. heterozygote advantage
+	2452. heterozygous
+	2453. Hexapoda
+	2454. hexose
+	2455. Hfr
+	2456. hibernation
+	2457. hidden variable
+	2458. hierarchy
+	2459. high-performance liquid chromatography
+	2460. highly repetitive DNA
+	2461. Hill reaction
+	2462. hilum
+	2463. hindbrain
+	2464. hindgut
+	2465. hip girdle
+	2466. hippocampus
+	2467. Hirudinea
+	2468. histamine
+	2469. histidine
+	2470. histiocyte
+	2471. histochemistry
+	2472. histocompatibility
+	2473. histocompatibility antigen
+	2474. histology
+	2475. histone
+	2476. HIV
+	2477. HLA system
+	2478. hnRNA
+	2479. hnRNP
+	2480. Hogness box
+	2481. holandric
+	2482. Holliday intermediate
+	2483. holobiont
+	2484. holocarpic
+	2485. Holocene
+	2486. holocrine secretion
+	2487. holoenzyme
+	2488. hologenome
+	2489. holometabolous
+	2490. holophytic
+	2491. holotype
+	2492. holozoic
+	2493. homeobox
+	2494. homeologous
+	2495. homeosis
+	2496. homeostasis
+	2497. homeothermy
+	2498. homeotic genes
+	2499. home range
+	2500. homing
+	2501. hominid
+	2502. hominin
+	2503. Homo
+	2504. homobaric leaf anatomy
+	2505. homodont
+	2506. homogametic sex
+	2507. homogamy
+	2508. homoiothermy
+	2509. homologous
+	2510. homologous chromosomes
+	2511. homoplasmy
+	2512. homoplasy
+	2513. homosporous
+	2514. homothallic
+	2515. homozygous
+	2516. hopeful monster
+	2517. horizontal cell
+	2518. horizontal gene transfer
+	2519. hormogonium
+	2520. hormone
+	2521. hornworts
+	2522. horsetails
+	2523. host
+	2524. housekeeping gene
+	2525. Hoxgenes
+	2526. HPLC
+	2527. HSP
+	2528. human chorionic gonadotrophin
+	2529. Human Genome Project
+	2530. human growth hormone
+	2531. human immunodeficiency virus
+	2532. humerus
+	2533. humidity
+	2534. humoral
+	2535. humus
+	2536. hyaline cartilage
+	2537. hyaloplasm
+	2538. hyaluronic acid
+	2539. hyaluronidase
+	2540. hybrid
+	2541. hybrid dysgenesis
+	2542. hybridization
+	2543. hybridoma
+	2544. hybrid vigour
+	2545. hybrid zone
+	2546. hydathode
+	2547. hydrochloric acid
+	2548. hydrocortisone
+	2549. hydrogen acceptor
+	2550. hydrogen bond
+	2551. hydrogencarbonate
+	2552. hydrogen carrier
+	2553. hydrogenosome
+	2554. hydroid
+	2555. hydrolase
+	2556. hydrological cycle
+	2557. hydrophilic
+	2558. hydrophily
+	2559. hydrophobic
+	2560. hydrophyte
+	2561. hydroponics
+	2562. hydrosere
+	2563. hydrosphere
+	2564. hydrostatic skeleton
+	2565. hydrotropism
+	2566. hydroxonium ion
+	2567. hydroxyl
+	2568. 5-hydroxytryptamine
+	2569. Hydrozoa
+	2570. hygroscopic
+	2571. hymen
+	2572. Hymenoptera
+	2573. hyoid arch
+	2574. hyomandibular
+	2575. hyostylic jaw suspension
+	2576. hyper-
+	2577. hyperaccumulator
+	2578. hyperglycaemia
+	2579. hypermetamorphosis
+	2580. hypermetropia
+	2581. hypermorphosis
+	2582. hyperparasite
+	2583. hyperplasia
+	2584. hyperpolarization
+	2585. hypersensitivity
+	2586. hypertension
+	2587. hyperthermophile
+	2588. hyperthyroidism
+	2589. hypertonic solution
+	2590. hypertrophy
+	2591. hypervariable loops
+	2592. hyperventilation
+	2593. hypha
+	2594. hypo-
+	2595. hypoblast
+	2596. hypocotyl
+	2597. hypodermis
+	2598. hypogeal
+	2599. hypoglycaemia
+	2600. hypogyny
+	2601. hypolimnion
+	2602. hypophysis
+	2603. hyporheic zone
+	2604. hypostasis
+	2605. hypothalamus
+	2606. hypothyroidism
+	2607. hypotonic solution
+	2608. hypoxia
+	2609. H zone
+	2610. IAA
+	2611. I band
+	2612. ICAM
+	2613. ice-nucleating agent
+	2614. ice age
+	2615. ichthyosaur
+	2616. ICSH
+	2617. identical twins
+	2618. identification key
+	2619. idioblast
+	2620. idiogram
+	2621. idiosyncrasy
+	2622. Ig
+	2623. IGF
+	2624. ileum
+	2625. ilium
+	2626. imaginal disc
+	2627. imago
+	2628. imbibition
+	2629. immersion objective
+	2630. immune clearance
+	2631. immune complex
+	2632. immune response
+	2633. immunity
+	2634. immunization
+	2635. immunoassay
+	2636. immunoelectron microscopy
+	2637. immunoelectrophoresis
+	2638. immunofluorescence
+	2639. immunogenicity
+	2640. immunoglobulin
+	2641. immunologically privileged site
+	2642. immunological memory
+	2643. immunological synapse
+	2644. immunological tolerance
+	2645. immunosuppression
+	2646. immunotoxin
+	2647. imperfect((in botany))
+	2648. imperfect fungi
+	2649. Imperial units
+	2650. implant
+	2651. implantation((in embryology))
+	2652. imprinting
+	2653. impulse
+	2654. inbreeding
+	2655. incisor
+	2656. inclusion body
+	2657. inclusive fitness
+	2658. incompatibility
+	2659. incomplete dominance
+	2660. incubation
+	2661. incus
+	2662. indefinite inflorescence
+	2663. indehiscent
+	2664. independent assortment
+	2665. indeterminate growth
+	2666. index fossil
+	2667. indicator species
+	2668. indigenous
+	2669. indoleacetic acid
+	2670. induced-fit model
+	2671. inducer
+	2672. inducible nitric oxide synthase
+	2673. induction
+	2674. indusium
+	2675. industrial melanism
+	2676. infection
+	2677. inferior
+	2678. inflammation
+	2679. inflorescence
+	2680. infradian rhythm
+	2681. infraspecific
+	2682. ingestion
+	2683. inguinal
+	2684. inhalation
+	2685. inheritance
+	2686. inhibin
+	2687. inhibition
+	2688. inhibitory postsynaptic potential
+	2689. initial
+	2690. initiation codon
+	2691. initiation factor
+	2692. innate behaviour
+	2693. innate immunity
+	2694. inner cell mass
+	2695. inner ear
+	2696. innervation
+	2697. innominate artery
+	2698. innominate bone
+	2699. inoculation
+	2700. inoculum
+	2701. inositol
+	2702. inquilinism
+	2703. INSDC
+	2704. Insecta
+	2705. insect growth regulator
+	2706. insecticide
+	2707. Insectivora
+	2708. insectivore
+	2709. insectivorous plant
+	2710. insertion
+	2711. insertion sequence
+	2712. insight learning
+	2713. in silico
+	2714. inspiration
+	2715. inspiratory centre
+	2716. instar
+	2717. instinct
+	2718. insula
+	2719. insulin
+	2720. insulin-like growth factor
+	2721. integrase
+	2722. integrated pest management
+	2723. integration((in neurophysiology))
+	2724. integrin
+	2725. integument
+	2726. intelligence
+	2727. interactome
+	2728. intercalary
+	2729. intercellular
+	2730. intercellular adhesion molecule
+	2731. intercostal muscles
+	2732. interfascicular cambium
+	2733. interference RNA
+	2734. interferon
+	2735. intergenic suppressor
+	2736. Intergovernmental Panel on Climate Change
+	2737. interkinesis
+	2738. interleukin
+	2739. intermediate filament
+	2740. internal environment
+	2741. International HapMap Project
+	2742. International Nucleotide Sequence Database Collaboration
+	2743. interneuron
+	2744. internode
+	2745. interoceptor
+	2746. interphase
+	2747. interpolation hypothesis
+	2748. intersex
+	2749. interspecific
+	2750. interspecific competition
+	2751. interstitial-cell-stimulating hormone
+	2752. interstitial cell
+	2753. interstitial fauna
+	2754. intervertebral disc
+	2755. intestinal juice
+	2756. intestine
+	2757. intine
+	2758. intracellular((in biology))
+	2759. intrafusal
+	2760. intramembranous ossification
+	2761. intraspecific
+	2762. intraspecific competition
+	2763. intrinsic factor
+	2764. intrinsic rate of increase
+	2765. introgression
+	2766. intron
+	2767. intussusception
+	2768. inulin
+	2769. in utero
+	2770. inverse myotatic response
+	2771. inversion((in genetics))
+	2772. invertebrate
+	2773. in vitro
+	2774. in vivo
+	2775. involucre
+	2776. involuntary((in biology))
+	2777. involuntary muscle
+	2778. involution
+	2779. iodine
+	2780. iodopsin
+	2781. ion
+	2782. ion-exchange chromatography
+	2783. ion channel
+	2784. ion exchange
+	2785. ionizing radiation
+	2786. ionophore
+	2787. ionotropic receptor
+	2788. IP3
+	2789. IPCC
+	2790. IPM
+	2791. ipsilateral
+	2792. iridium anomaly
+	2793. iris
+	2794. iron
+	2795. irradiation
+	2796. irrigation
+	2797. irritability
+	2798. ischium
+	2799. isidium
+	2800. islets of Langerhans
+	2801. isoelectric point
+	2802. isoenzyme
+	2803. isogamy
+	2804. isolating mechanism
+	2805. isoleucine
+	2806. isomerase
+	2807. isomers
+	2808. isoprene
+	2809. Isoptera
+	2810. isotonic
+	2811. isotope
+	2812. isotopic discrimination
+	2813. isotopic signature
+	2814. isotype
+	2815. isotype switching
+	2816. isozyme
+	2817. itaconic acid
+	2818. ITAMs
+	2819. iteroparity
+	2820. Jacob-Monod hypothesis
+	2821. JAK
+	2822. Janus kinase
+	2823. jasmonate
+	2824. jaw
+	2825. jejunum
+	2826. jellyfish
+	2827. JGA
+	2828. joint
+	2829. joule
+	2830. jugular vein
+	2831. jumping gene
+	2832. junk DNA
+	2833. Jurassic
+	2834. juvenile hormone
+	2835. juvenoid
+	2836. juxtaglomerular apparatus
+	2837. K–T boundary
+	2838. kainate
+	2839. Kainozoic
+	2840. kairomone
+	2841. kallidin
+	2842. karyogamy
+	2843. karyogram
+	2844. karyokinesis
+	2845. karyolysis
+	2846. karyoplasm
+	2847. karyorrhexis
+	2848. karyotype
+	2849. katadromous
+	2850. katal
+	2851. kb
+	2852. kDa
+	2853. keel
+	2854. kelp
+	2855. kelvin
+	2856. keratin
+	2857. keratinization
+	2858. ketohexose
+	2859. ketone
+	2860. ketone body
+	2861. ketopentose
+	2862. ketose
+	2863. key
+	2864. keystone species
+	2865. kidney
+	2866. killer cell
+	2867. kilo-
+	2868. kilobase
+	2869. kilodalton
+	2870. kilogram
+	2871. kinase
+	2872. kinesin
+	2873. kinesis
+	2874. kinetochore
+	2875. kinetoplast
+	2876. Kinetoplastida
+	2877. kinetosome
+	2878. kingdom
+	2879. kinin
+	2880. kinocilium
+	2881. kinomere
+	2882. kin selection
+	2883. Kleiber’s law
+	2884. Klinefelter’s syndrome
+	2885. klinostat
+	2886. knee-jerk reflex
+	2887. knockin
+	2888. knockout
+	2889. Kranz anatomy
+	2890. Krebs, Sir Hans Adolf (1900–81)
+	2891. Krebs cycle
+	2892. krill
+	2893. Kselection
+	2894. Kupffer cells
+	2895. kwashiorkor
+	2896. L-dopa
+	2897. l-form
+	2898. labelling
+	2899. labia
+	2900. labium
+	2901. labrum
+	2902. labyrinth
+	2903. lacoperon
+	2904. lacrimal gland
+	2905. lactase
+	2906. lactation
+	2907. lacteal
+	2908. lactic acid
+	2909. lactobacillus
+	2910. lactoferrin
+	2911. lactogenic hormone
+	2912. lactose
+	2913. lacuna
+	2914. laevorotatory
+	2915. laevulose
+	2916. lagging strand
+	2917. lag phase
+	2918. Lamarck, Jean Baptiste Pierre Antoine de Monet, Chevalier de (1744–1829)
+	2919. Lamarckism
+	2920. lambda phage
+	2921. lamella
+	2922. Lamellibranchia
+	2923. lamellipodium
+	2924. lamin
+	2925. lamina
+	2926. laminin
+	2927. lampbrush chromosome
+	2928. lamprey
+	2929. lancelet
+	2930. Langerhans cells
+	2931. La Niña
+	2932. lantibiotic
+	2933. LAR
+	2934. large intestine
+	2935. large virus
+	2936. lariat
+	2937. larva
+	2938. larvacean
+	2939. larynx
+	2940. lasso cell
+	2941. latent learning
+	2942. latent period
+	2943. latent virus
+	2944. lateral-line system
+	2945. lateral gene transfer
+	2946. lateralization
+	2947. lateral root
+	2948. latex
+	2949. Laurasia
+	2950. lauric acid
+	2951. Law of Independent Assortment
+	2952. Law of Segregation
+	2953. LD50
+	2954. leaching
+	2955. leading strand
+	2956. leaf
+	2957. leaf-height-seed scheme
+	2958. leaf area index
+	2959. leaf area ratio
+	2960. leaf buttress
+	2961. leaf litter
+	2962. leaf mass ratio
+	2963. LEA protein
+	2964. learning
+	2965. Learning in animals
+	2966. lecithin
+	2967. lectin
+	2968. leeches
+	2969. legume
+	2970. Leishman’s stain
+	2971. lek
+	2972. lemma
+	2973. lens
+	2974. lenticel
+	2975. Lepidoptera
+	2976. leptin
+	2977. leptoid
+	2978. leptotene
+	2979. lethal allele
+	2980. lethal dose 50
+	2981. leucine
+	2982. leucine zipper
+	2983. leucocyte
+	2984. leucoplast
+	2985. leukaemia
+	2986. leukotrienes
+	2987. LH
+	2988. LHS scheme
+	2989. lice
+	2990. lichens
+	2991. life cycle
+	2992. life form
+	2993. ligament
+	2994. ligand
+	2995. ligand-gated ion channel
+	2996. ligase
+	2997. light-dependent reaction
+	2998. light-harvesting complex
+	2999. light-independent reaction
+	3000. light green
+	3001. lignin
+	3002. lignite
+	3003. ligule
+	3004. limb
+	3005. limbic system
+	3006. liming
+	3007. limiting factor
+	3008. limnology
+	3009. LINE
+	3010. linear energy transfer
+	3011. [[linkage]]
+	3012. linkage disequilibrium
+	3013. linkage map
+	3014. Linnaean system
+	3015. Linnaeus, Carolus (1707–78)
+	3016. linoleic acid
+	3017. linolenic acid
+	3018. lipase
+	3019. lipid
+	3020. lipid bilayer
+	3021. lipid raft
+	3022. lipoic acid
+	3023. lipolysis
+	3024. lipoprotein
+	3025. liposome
+	3026. lipotropin
+	3027. Listeria
+	3028. lithosphere
+	3029. litre
+	3030. litter
+	3031. [[littoral]]
+	3032. liver
+	3033. liverworts
+	3034. living fossil
+	3035. lizards
+	3036. LMR
+	3037. lncRNA
+	3038. loam
+	3039. lobopod
+	3040. lock-and-key mechanism
+	3041. locomotion
+	3042. locule
+	3043. locus
+	3044. lodicule
+	3045. logarithmic scale
+	3046. log phase
+	3047. lomentum
+	3048. long-day plant
+	3049. long-sightedness
+	3050. long-term depression
+	3051. long-term potentiation
+	3052. long noncoding RNA
+	3053. long terminal repeat
+	3054. loop of Henle
+	3055. [[lophophore]]
+	3056. Lophotrochozoa
+	3057. lower critical temperature
+	3058. LSD
+	3059. LTR
+	3060. luciferase
+	3061. luciferin
+	3062. lumbar vertebrae
+	3063. lumen
+	3064. lung
+	3065. lung book
+	3066. lungfish
+	3067. luteal phase
+	3068. luteinizing hormone
+	3069. luteotrophic hormone
+	3070. lyase
+	3071. Lycopodiophyta
+	3072. [[lymph]]
+	3073. lymphatic system
+	3074. lymph capillary
+	3075. lymph heart
+	3076. lymph node
+	3077. lymphocyte
+	3078. lymphoid tissue
+	3079. lymphokine
+	3080. lymphoma
+	3081. lymphotoxin
+	3082. lyophilization
+	3083. Lysenkoism
+	3084. lysergic acid diethylamide
+	3085. lysigeny
+	3086. lysimeter
+	3087. lysine
+	3088. lysis
+	3089. lysogeny
+	3090. lysosome
+	3091. lysozyme
+	3092. m.u.
+	3093. MAC
+	3094. macroevolution
+	3095. macrofauna
+	3096. macromolecule
+	3097. macronutrient
+	3098. macrophage
+	3099. macrophagous
+	3100. macrophyll
+	3101. macropinocytosis
+	3102. macula
+	3103. macula adherens
+	3104. macula densa
+	3105. MADS box gene
+	3106. magnesium
+	3107. magnetic resonance imaging
+	3108. magnetite
+	3109. magnetoreceptor
+	3110. Magnoliophyta
+	3111. major histocompatibility complex
+	3112. malaria
+	3113. MALDI-TOF
+	3114. male
+	3115. malic acid
+	3116. malignant
+	3117. malleus
+	3118. Mallophaga
+	3119. malnutrition
+	3120. Malpighian body
+	3121. Malpighian layer
+	3122. Malpighian tubule
+	3123. malt
+	3124. MALT
+	3125. maltase
+	3126. maltose
+	3127. malt sugar
+	3128. Mammalia
+	3129. mammary glands
+	3130. mandible
+	3131. Mandibulata
+	3132. manganese
+	3133. mangrove swamp
+	3134. mannan
+	3135. mannitol
+	3136. mannose
+	3137. mannose-binding lectin
+	3138. manometer
+	3139. mantle
+	3140. Maotianshan shale
+	3141. MAP kinase
+	3142. map unit
+	3143. Marchantiophyta
+	3144. [[mark-recapture method]]
+	3145. marker gene
+	3146. marsupials
+	3147. [[masquerade]]
+	3148. mass extinction
+	3149. mass flow
+	3150. mass spectrometry
+	3151. mast cell
+	3152. mastication
+	3153. mastigoneme
+	3154. mastoid process
+	3155. maternal effect genes
+	3156. maternal inheritance
+	3157. mating
+	3158. mating season
+	3159. mating type
+	3160. matric potential
+	3161. matrix
+	3162. matrix-assisted laser desorption/ionization-time of flight
+	3163. maturation
+	3164. maturation-promoting factor
+	3165. maturity
+	3166. maxicell
+	3167. maxilla
+	3168. maxilliped
+	3169. maxillula
+	3170. maximum likelihood
+	3171. maximum parsimony
+	3172. maximum permissible dose
+	3173. Mb
+	3174. M band
+	3175. M cells
+	3176. mean
+	3177. meatus
+	3178. mechanoreceptor
+	3179. mechanotransduction
+	3180. meconium
+	3181. median
+	3182. median eye
+	3183. median lethal dose
+	3184. mediastinum
+	3185. MEDLINE
+	3186. medulla
+	3187. medulla oblongata
+	3188. medullary ray
+	3189. medullated nerve fibre
+	3190. medusa
+	3191. mega-
+	3192. megabase
+	3193. meganucleus
+	3194. megaphyll
+	3195. megasporangium
+	3196. megaspore
+	3197. megaspore mother cell
+	3198. megasporophyll
+	3199. Megavirus
+	3200. meiofauna
+	3201. meiosis
+	3202. Meissner’s corpuscles
+	3203. melanin
+	3204. melanism
+	3205. melanocyte-stimulating hormone
+	3206. melanophore
+	3207. melatonin
+	3208. membrane
+	3209. membrane attack complex
+	3210. membrane bone
+	3211. membrane potential
+	3212. membranous labyrinth
+	3213. meme
+	3214. memory
+	3215. memory cell
+	3216. Mendel’s laws
+	3217. Mendel, Johann Gregor (1822–84)
+	3218. Mendelism
+	3219. meninges
+	3220. meniscus
+	3221. menopause
+	3222. menstrual cycle
+	3223. mericarp
+	3224. meristem
+	3225. meristoderm
+	3226. Merkel’s disc
+	3227. merocrine secretion
+	3228. meromictic lake
+	3229. Merostomata
+	3230. merozygote
+	3231. mesencephalon
+	3232. mesenteric artery
+	3233. [[mesentery]]
+	3234. mesocarp
+	3235. mesoderm
+	3236. mesofauna
+	3237. mesoglea
+	3238. mesopelagic zone
+	3239. [[mesophilic]]
+	3240. mesophyll
+	3241. mesophyte
+	3242. mesothelium
+	3243. mesotrophic
+	3244. Mesozoic
+	3245. messenger RNA
+	3246. metabolic pathway
+	3247. metabolic rate
+	3248. metabolic waste
+	3249. metabolism
+	3250. metabolite
+	3251. [[metabolome]]
+	3252. metabolomics
+	3253. metabotropic receptor
+	3254. metacarpal
+	3255. metacarpus
+	3256. metacentric
+	3257. metafemale
+	3258. metagenomics
+	3259. metamale
+	3260. metameric segmentation
+	3261. metamorphosis
+	3262. metanephridium
+	3263. metaphase
+	3264. metaphloem
+	3265. metaplasia
+	3266. metapopulation
+	3267. [[metaproteomics]]
+	3268. metastasis
+	3269. metatarsus
+	3270. Metatheria
+	3271. metaxylem
+	3272. Metazoa
+	3273. methanogen
+	3274. methionine
+	3275. methylene blue
+	3276. methylome
+	3277. metre
+	3278. MHC
+	3279. MHC class II protein
+	3280. MHC class I protein
+	3281. micelle
+	3282. Michaelis-Menten curve
+	3283. micro-
+	3284. microarray
+	3285. Microarray Technology
+	3286. microbe
+	3287. microbiology
+	3288. microbiome
+	3289. microbody
+	3290. microcirculation
+	3291. microclimate
+	3292. microdissection
+	3293. microelectrode
+	3294. microevolution
+	3295. microfauna
+	3296. microfibril
+	3297. microfilament
+	3298. microflora
+	3299. microfossil
+	3300. microglia
+	3301. microhabitat
+	3302. microinjection
+	3303. micromanipulation
+	3304. micronucleus
+	3305. micronutrient
+	3306. microorganism
+	3307. microphagous
+	3308. microphyll
+	3309. micropipette
+	3310. micropropagation
+	3311. micropyle
+	3312. microRNA
+	3313. microsatellite DNA
+	3314. microscope
+	3315. Microscopy
+	3316. microsome
+	3317. microsporangium
+	3318. microspore
+	3319. microspore mother cell
+	3320. microsporidia
+	3321. microsporocyte
+	3322. microsporophyll
+	3323. microtome
+	3324. microtubule
+	3325. microtubule-organizing centre
+	3326. microvillus
+	3327. micturition
+	3328. midbrain
+	3329. middle ear
+	3330. middle lamella
+	3331. midgut
+	3332. migration
+	3333. milk
+	3334. milk sugar
+	3335. milk teeth
+	3336. milli-
+	3337. millipedes
+	3338. Millon’s reagent
+	3339. mimicry
+	3340. Mimivirus
+	3341. mineral deficiency
+	3342. mineralocorticoid
+	3343. mineral salts
+	3344. minicell
+	3345. minisatellite DNA
+	3346. minus 10 sequence
+	3347. Miocene
+	3348. miracidium
+	3349. miRNA
+	3350. mirror neuron
+	3351. mismatch repair
+	3352. missense mutation
+	3353. mites
+	3354. mitochondrial DNA
+	3355. mitochondrial Eve
+	3356. mitochondrial theory of ageing
+	3357. mitochondrion
+	3358. mitogen-activated protein kinase
+	3359. mitosis
+	3360. mitosis-promoting factor
+	3361. mitosome
+	3362. mitral valve
+	3363. mixed function oxidase
+	3364. mixotrophic
+	3365. MLST
+	3366. mmHg
+	3367. model organism
+	3368. moderately repetitive DNA
+	3369. modern synthesis
+	3370. modifier gene
+	3371. molality
+	3372. molar
+	3373. molarity
+	3374. mole
+	3375. molecular biology
+	3376. molecular chaperone
+	3377. molecular clock
+	3378. molecular fossil
+	3379. molecular imprinting
+	3380. molecular marker
+	3381. molecular mimicry
+	3382. molecular systematics
+	3383. Molisch’s test
+	3384. Mollusca
+	3385. molybdenum
+	3386. Monera
+	3387. monilophyte
+	3388. monoamine oxidase
+	3389. monobiontic
+	3390. monochasium
+	3391. monocistronic
+	3392. monoclonal antibody
+	3393. Monocotyledoneae
+	3394. monoculture
+	3395. monocyte
+	3396. monoecious
+	3397. monoglyceride
+	3398. monohybrid cross
+	3399. monolayer culture
+	3400. monomer
+	3401. mononuclear phagocyte system
+	3402. monooxygenase
+	3403. monophyletic
+	3404. monophyodont
+	3405. monopodium
+	3406. monosaccharide
+	3407. monosomy
+	3408. monosynaptic reflex
+	3409. monotremes
+	3410. monotypic
+	3411. monozygotic twins
+	3412. morph
+	3413. morphine
+	3414. morphogen
+	3415. morphogenesis
+	3416. morphology
+	3417. mortality
+	3418. morula
+	3419. mosaic
+	3420. mosaic evolution
+	3421. mosses
+	3422. moths
+	3423. motivation
+	3424. motor cell
+	3425. motor neuron
+	3426. motor protein
+	3427. motor unit
+	3428. moulting
+	3429. mouth
+	3430. mouth cavity
+	3431. mouthparts
+	3432. MPF
+	3433. MRI
+	3434. mRNA
+	3435. MRSA
+	3436. MSH
+	3437. mtDNA
+	3438. MTOC
+	3439. mucigel
+	3440. mucilage
+	3441. mucin
+	3442. mucopolysaccharide
+	3443. mucoprotein
+	3444. mucosa
+	3445. mucosal-associated lymphoid tissue
+	3446. mucous membrane
+	3447. mucus
+	3448. Muller’s ratchet
+	3449. Müller cell
+	3450. Müllerian mimicry
+	3451. multiadhesive protein
+	3452. multicellular
+	3453. multienzyme system
+	3454. multifactorial inheritance
+	3455. multilocus sequence typing
+	3456. multimer
+	3457. multiple alleles
+	3458. multipolar neuron
+	3459. muscarinic
+	3460. Musci
+	3461. muscle
+	3462. muscle spindle
+	3463. muscularis mucosae
+	3464. mutagen
+	3465. mutant
+	3466. mutation
+	3467. mutation frequency
+	3468. mutation rate
+	3469. mutualism
+	3470. mya
+	3471. mycelium
+	3472. mycobiont
+	3473. mycology
+	3474. Mycophycophyta
+	3475. mycoplasmas
+	3476. mycorrhiza
+	3477. Mycota
+	3478. myelin
+	3479. myelin sheath
+	3480. myeloid tissue
+	3481. myeloma
+	3482. Myllokunmingia
+	3483. myoblast
+	3484. myocardium
+	3485. myocyte
+	3486. myofibril
+	3487. myogenic
+	3488. myoglobin
+	3489. myometrium
+	3490. myopia
+	3491. myosin
+	3492. myotatic reflex
+	3493. myotome
+	3494. myotube
+	3495. Myriapoda
+	3496. myrmecochory
+	3497. myxamoeba
+	3498. myxobacteria
+	3499. Myxomycota
+	3500. myxovirus
+	3501. myxozoan
+	3502. n
+	3503. NAD
+	3504. nano-
+	3505. nanoarray
+	3506. NAR
+	3507. narcotic
+	3508. nares
+	3509. nasal cavity
+	3510. nastic movements
+	3511. natality
+	3512. natriuretic peptide
+	3513. natural group
+	3514. natural history
+	3515. naturalized
+	3516. natural killer cell
+	3517. natural selection
+	3518. nature and nurture
+	3519. nauplius
+	3520. navigation
+	3521. NCLDV
+	3522. ncRNA
+	3523. Neanderthal
+	3524. Nearctic region
+	3525. near point
+	3526. necrosis
+	3527. nectar
+	3528. negative-sense((in genetics))
+	3529. negative feedback
+	3530. negative selection
+	3531. nekton
+	3532. nematoblast
+	3533. nematocyst
+	3534. Nematoda
+	3535. Nemertea
+	3536. neo-Darwinism
+	3537. neo-Lamarckism
+	3538. neocortex
+	3539. Neogene
+	3540. Neolithic
+	3541. neonicotinoid
+	3542. neoplasm
+	3543. Neoproterozoic
+	3544. Neornithes
+	3545. neoteny
+	3546. Neotropical region
+	3547. nephridiopore
+	3548. nephridium
+	3549. nephron
+	3550. nephrostome
+	3551. nephrotoxin
+	3552. neritic zone
+	3553. nerve
+	3554. nerve-cell adhesion molecules
+	3555. nerve cell
+	3556. nerve cord
+	3557. nerve fibre
+	3558. nerve growth factor
+	3559. nerve impulse
+	3560. nerve net
+	3561. nervous system
+	3562. net assimilation rate
+	3563. net primary productivity
+	3564. netrin
+	3565. neural crest cells
+	3566. neural network
+	3567. neural plate
+	3568. neural tube
+	3569. neuregulin
+	3570. neurilemma cell
+	3571. neurite
+	3572. neuroendocrine system
+	3573. neurofibril
+	3574. neurofilament
+	3575. neuroglia
+	3576. neurohaemal organ
+	3577. neurohormone
+	3578. neurohypophysis
+	3579. neuromodulator
+	3580. neuromuscular junction
+	3581. neuron
+	3582. neuronal network
+	3583. neuropeptide
+	3584. neuropeptide Y
+	3585. neurophysin
+	3586. neuropil
+	3587. neurosecretion
+	3588. neurotoxin
+	3589. neurotransmitter
+	3590. neurotrophin
+	3591. neurotrophin receptor
+	3592. neurotubule
+	3593. neurula
+	3594. neuston
+	3595. neuter
+	3596. neutral
+	3597. neutral theory of molecular evolution
+	3598. neutrophil
+	3599. newton
+	3600. next-generation sequencing
+	3601. nexus
+	3602. NFκB
+	3603. NGF
+	3604. NGS
+	3605. niacin
+	3606. niche
+	3607. nicotinamide
+	3608. nicotinamide adenine dinucleotide
+	3609. nicotinamide adenine dinucleotide phosphate
+	3610. nicotine
+	3611. nicotinic
+	3612. nicotinic acid
+	3613. nictitating membrane
+	3614. nidation
+	3615. nidicolous
+	3616. nidifugous
+	3617. ninhydrin
+	3618. nipple
+	3619. Nissl granules
+	3620. nitrate
+	3621. nitric oxide
+	3622. nitrification
+	3623. nitrifying bacteria
+	3624. nitrite
+	3625. nitrogen
+	3626. nitrogenase
+	3627. nitrogen cycle
+	3628. nitrogen fixation
+	3629. nitrogenous base
+	3630. nitrogenous waste
+	3631. nitrogen oxides
+	3632. nitrosamines
+	3633. NK cell
+	3634. NMDA receptors
+	3635. NMR
+	3636. nociception
+	3637. node
+	3638. node of Ranvier
+	3639. Nod factor
+	3640. nodule
+	3641. nomad((in cytology))
+	3642. Nomarski microscope
+	3643. noncoding DNA
+	3644. noncoding RNA
+	3645. noncompetitive inhibition
+	3646. noncyclic phosphorylation
+	3647. nondisjunction
+	3648. nonreducing sugar
+	3649. nonrenewable energy sources
+	3650. nonsense mutation
+	3651. noradrenaline
+	3652. norepinephrine
+	3653. normalizing selection
+	3654. northern blotting
+	3655. nose
+	3656. nostrils
+	3657. notochord
+	3658. NPY
+	3659. nt
+	3660. nucellus
+	3661. nuclear-cytoplasmic ratio
+	3662. nuclear envelope
+	3663. nuclear factor κB
+	3664. nucleariid
+	3665. nuclear magnetic resonance
+	3666. nuclear pore
+	3667. nuclear transfer
+	3668. nuclease
+	3669. nucleic acid
+	3670. nucleic acid amplification test
+	3671. nucleic acid hybridization
+	3672. nucleocytoplasmic large DNA virus
+	3673. nucleoid
+	3674. nucleolar organizer
+	3675. nucleolus
+	3676. nucleomorph
+	3677. nucleoplasm
+	3678. nucleoprotein
+	3679. nucleoside
+	3680. nucleosome
+	3681. nucleotidase
+	3682. nucleotide
+	3683. nucleus
+	3684. null hypothesis
+	3685. numerical taxonomy
+	3686. nut
+	3687. nutation
+	3688. nutrient
+	3689. nutrition
+	3690. nyctinasty
+	3691. nymph
+	3692. objective
+	3693. obligate anaerobes
+	3694. occipital condyle
+	3695. oceanic zone
+	3696. ocellus
+	3697. ocular
+	3698. Odonata
+	3699. odontoblast
+	3700. odorant
+	3701. oedema
+	3702. oesophagus
+	3703. oestrogen
+	3704. oestrous cycle
+	3705. oestrus
+	3706. offset
+	3707. offspring
+	3708. oil
+	3709. oil-immersion lens
+	3710. Okazaki fragment
+	3711. oleaginous
+	3712. olecranon process
+	3713. oleic acid
+	3714. oleosome
+	3715. olfaction
+	3716. olfactory lobe
+	3717. Oligocene
+	3718. Oligochaeta
+	3719. oligodendrocyte
+	3720. oligonucleotide
+	3721. oligosaccharide
+	3722. oligotrophic
+	3723. omasum
+	3724. OMIM
+	3725. ommatidium
+	3726. omnivore
+	3727. oncogene
+	3728. oncogenic
+	3729. oncotic pressure
+	3730. one gene–one polypeptide hypothesis
+	3731. ontogeny
+	3732. ontology
+	3733. Onychophora
+	3734. oocyte
+	3735. oogamy
+	3736. oogenesis
+	3737. oogonium
+	3738. Oomycota
+	3739. oosphere
+	3740. oospore
+	3741. ootid
+	3742. open circulation
+	3743. open reading frame
+	3744. operant conditioning
+	3745. operculum
+	3746. operon
+	3747. opiate
+	3748. opioid
+	3749. opioid receptor
+	3750. opisthokonts
+	3751. opisthosoma
+	3752. opportunistic
+	3753. opsin
+	3754. opsonin
+	3755. opsonization
+	3756. optical activity
+	3757. optical fibre
+	3758. optical isomers
+	3759. optical microscope
+	3760. optic chiasm
+	3761. optic lobes
+	3762. optic nerve
+	3763. optic vesicle
+	3764. optimal foraging theory
+	3765. oral cavity
+	3766. oral contraceptive
+	3767. oral groove
+	3768. orbit((in anatomy))
+	3769. order((in taxonomy))
+	3770. Ordovician
+	3771. organ
+	3772. organ culture
+	3773. organelle
+	3774. organic evolution
+	3775. organism
+	3776. organizer
+	3777. organ of Corti
+	3778. [[organogenesis]]
+	3779. orgasm
+	3780. Oriental region
+	3781. origin of life
+	3782. ornithine
+	3783. ornithine cycle
+	3784. orphan receptor
+	3785. orthogenesis
+	3786. orthologous
+	3787. Orthonectida
+	3788. Orthoptera
+	3789. orthotropism
+	3790. osculum
+	3791. osmium tetroxide
+	3792. osmoconformer
+	3793. osmole
+	3794. [[osmolyte]]
+	3795. osmoreceptor
+	3796. osmoregulation
+	3797. [[osmoregulator]]
+	3798. osmosis
+	3799. osmotic pressure
+	3800. osmotroph
+	3801. ossicle
+	3802. ossification
+	3803. Osteichthyes
+	3804. osteoblast
+	3805. osteoclast
+	3806. osteocyte
+	3807. osteoid
+	3808. osteon
+	3809. [[osteonectin]]
+	3810. ostiole
+	3811. ostium
+	3812. Ostracoda
+	3813. [[otolith]]
+	3814. ouabain
+	3815. outbreeding
+	3816. outer ear
+	3817. outgroup
+	3818. oval window
+	3819. ovarian cycle
+	3820. ovarian follicle
+	3821. ovary
+	3822. overdominance
+	3823. overpopulation
+	3824. oviduct
+	3825. oviparity
+	3826. ovipositor
+	3827. ovoviviparity
+	3828. ovulation
+	3829. ovule
+	3830. ovuliferous scale
+	3831. ovum
+	3832. oxalic acid
+	3833. oxaloacetic acid
+	3834. oxidase
+	3835. oxidation-reduction
+	3836. oxidative burst
+	3837. oxidative deamination
+	3838. oxidative decarboxylation
+	3839. oxidative phosphorylation
+	3840. oxidoreductase
+	3841. oxygen
+	3842. oxygen-evolving complex
+	3843. oxygen cycle
+	3844. oxygen debt
+	3845. oxygen dissociation curve
+	3846. oxygen sag curve
+	3847. oxyhaemoglobin
+	3848. oxyntic cell
+	3849. oxytocin
+	3850. ozonation
+	3851. ozone layer
+	3852. P
+	3853. P-protein
+	3854. P/O ratio
+	3855. p21
+	3856. p53
+	3857. pacemaker
+	3858. pachytene
+	3859. Pacinian corpuscle
+	3860. paedogenesis
+	3861. paedomorphosis
+	3862. PAGE
+	3863. PAI
+	3864. pain
+	3865. pair-rule gene
+	3866. pairing
+	3867. Palaearctic region
+	3868. palaeobotany
+	3869. Palaeocene
+	3870. palaeoclimatology
+	3871. palaeoecology
+	3872. Palaeogene
+	3873. Palaeolithic
+	3874. palaeomagnetic dating
+	3875. palaeontology
+	3876. Palaeozoic
+	3877. palaeozoology
+	3878. palate
+	3879. palea
+	3880. palindromic
+	3881. palisade
+	3882. pallium
+	3883. palmitic acid
+	3884. palp
+	3885. palynology
+	3886. PAMP
+	3887. pancreas
+	3888. pancreatic islets
+	3889. pancreatin
+	3890. pancreozymin
+	3891. Pancrustacea
+	3892. pandemic
+	3893. Pandoravirus
+	3894. Paneth cells
+	3895. panicle
+	3896. panmictic
+	3897. panspermia
+	3898. pantothenic acid
+	3899. papain
+	3900. paper chromatography
+	3901. papilla
+	3902. papovavirus
+	3903. pappus
+	3904. parabiologist
+	3905. parabiosis
+	3906. paracellular pathway
+	3907. paracrine
+	3908. parallel evolution
+	3909. parallelophyly
+	3910. paralogous
+	3911. paramorph
+	3912. paramutation
+	3913. parapatric speciation
+	3914. paraphyletic
+	3915. paraphysis
+	3916. parapodium
+	3917. Paraquat
+	3918. parasexual cycle
+	3919. parasitism
+	3920. parasitoid
+	3921. parasympathetic nervous system
+	3922. parathyroid glands
+	3923. parathyroid hormone
+	3924. Parazoa
+	3925. parenchyma
+	3926. parent
+	3927. parental care
+	3928. parietal
+	3929. parietal cell
+	3930. parsimony
+	3931. parthenocarpy
+	3932. parthenogenesis
+	3933. partially permeable membrane
+	3934. particulate inheritance
+	3935. parturition
+	3936. pascal
+	3937. passive immunity
+	3938. passive transport
+	3939. Pasteur, Louis (1822–95)
+	3940. pasteurization
+	3941. patch clamp technique
+	3942. patella
+	3943. pathogen
+	3944. pathogen-associated molecular pattern
+	3945. pathogenesis-related proteins
+	3946. pathogenicity island
+	3947. pathology
+	3948. patristic
+	3949. pattern formation
+	3950. pattern recognition
+	3951. pattern recognition receptor
+	3952. Pavlov, Ivan Petrovich (1849–1936)
+	3953. PCR
+	3954. PDGF
+	3955. peat
+	3956. peck order
+	3957. pecten
+	3958. pectic substance
+	3959. pectin
+	3960. pectoral fins
+	3961. pectoral girdle
+	3962. pedicel
+	3963. pedigree
+	3964. pedipalp
+	3965. pedology
+	3966. peduncle
+	3967. pelagic
+	3968. Pelecypoda
+	3969. pellagra
+	3970. pellicle
+	3971. pelvic fins
+	3972. pelvic girdle
+	3973. pelvis
+	3974. penicillin
+	3975. penis
+	3976. pentadactyl limb
+	3977. pentose
+	3978. pentose phosphate pathway
+	3979. PEP
+	3980. pepo
+	3981. pepsin
+	3982. pepsinogen
+	3983. peptidase
+	3984. peptide
+	3985. peptide mapping
+	3986. peptide YY
+	3987. peptidoglycan
+	3988. peramorphosis
+	3989. perception
+	3990. perennation
+	3991. perennial
+	3992. perfect((in botany))
+	3993. perforin
+	3994. perfusion techniques
+	3995. perianth
+	3996. pericardial cavity
+	3997. pericardium
+	3998. pericarp
+	3999. perichondrium
+	4000. periclinal((in botany))
+	4001. pericycle
+	4002. periderm
+	4003. perigyny
+	4004. perilymph
+	4005. perinuclear space
+	4006. period
+	4007. periodontal membrane
+	4008. periosteum
+	4009. peripatric speciation
+	4010. Peripatus
+	4011. peripheral nervous system
+	4012. periphyton
+	4013. periplasm
+	4014. Perissodactyla
+	4015. peristalsis
+	4016. peristome
+	4017. peritoneum
+	4018. peritrichous
+	4019. permafrost
+	4020. permanent teeth
+	4021. Permian
+	4022. pernicious anaemia
+	4023. peroxisome
+	4024. persistent
+	4025. pest
+	4026. pesticide
+	4027. PET
+	4028. peta-
+	4029. petal
+	4030. petiole
+	4031. Petri dish
+	4032. petrification
+	4033. Peyer’s patches
+	4034. pFc′ fragment
+	4035. PFGE
+	4036. PGD
+	4037. pH
+	4038. PHA
+	4039. Phaeophyta
+	4040. phage
+	4041. phagemid
+	4042. phagocyte
+	4043. phagocytosis
+	4044. phagotroph
+	4045. phalanges
+	4046. phanerophyte
+	4047. Phanerozoic
+	4048. pharate
+	4049. pharmacodynamics
+	4050. pharmacogenomics
+	4051. pharmacokinetics
+	4052. pharmacology
+	4053. pharynx
+	4054. phase-contrast microscope
+	4055. phase II metabolism
+	4056. phase I metabolism
+	4057. phase variation
+	4058. phellem
+	4059. phelloderm
+	4060. phellogen
+	4061. phenetic
+	4062. phenocopy
+	4063. phenology
+	4064. phenolphthalein
+	4065. phenome
+	4066. phenotype
+	4067. phenotypic plasticity
+	4068. phenylalanine
+	4069. phenylketonuria
+	4070. pheophytin
+	4071. pheromone
+	4072. philopatry
+	4073. phloem
+	4074. phloem loading
+	4075. phloem protein
+	4076. phloem unloading
+	4077. phloroglucinol
+	4078. phonotaxis
+	4079. phoresy
+	4080. Phoronida
+	4081. phosphagen
+	4082. phosphatase
+	4083. phosphatide
+	4084. phosphatidylcholine
+	4085. phosphodiester bond
+	4086. phosphoenolpyruvate
+	4087. phosphoglyceric acid
+	4088. phosphokinase
+	4089. phospholipase
+	4090. phospholipid
+	4091. phosphorus
+	4092. phosphorus:oxygen ratio
+	4093. phosphorus cycle
+	4094. phosphorylase
+	4095. phosphorylation
+	4096. photic zone
+	4097. photoautotroph
+	4098. photoblastic
+	4099. photochemical smog
+	4100. photoheterotroph
+	4101. photoinhibition
+	4102. photolysis
+	4103. photomicrography
+	4104. photomorphogenesis
+	4105. photonasty
+	4106. photoperiod
+	4107. photoperiodism
+	4108. photophore
+	4109. photophosphorylation
+	4110. photopic vision
+	4111. photoprotection
+	4112. photoreactivation
+	4113. photoreceptor
+	4114. photorespiration
+	4115. photosynthate
+	4116. photosynthesis
+	4117. photosynthetic carbon reduction cycle
+	4118. photosynthetic nitrogen use efficiency
+	4119. photosynthetic pigments
+	4120. photosystems I and II
+	4121. phototaxis
+	4122. phototroph
+	4123. phototropin
+	4124. phototropism
+	4125. phragmoplast
+	4126. phrenic nerve
+	4127. pH scale
+	4128. phycobiliprotein
+	4129. phycobiont
+	4130. phycocyanin
+	4131. phycoerythrin
+	4132. phycomycetes
+	4133. phycoplast
+	4134. phyletic series
+	4135. phyllode
+	4136. phyllotaxis
+	4137. PhyloCode
+	4138. phylogenetic
+	4139. phylogenetic species concept
+	4140. phylogenetic tree
+	4141. phylogenomics
+	4142. phylogeny
+	4143. phylogeography
+	4144. phylogram
+	4145. phylum
+	4146. physical map((in genetics))
+	4147. physiognomy((in ecology))
+	4148. physiological saline
+	4149. physiological specialization
+	4150. physiology
+	4151. physiome
+	4152. physisorption
+	4153. phyto-
+	4154. phytoaccumulation
+	4155. phytoalexin
+	4156. phytochelatin
+	4157. phytochrome
+	4158. phytoecdysteroid
+	4159. phytogeography
+	4160. phytohaemagglutinin
+	4161. phytohormone
+	4162. phytomer
+	4163. phytoncide
+	4164. phytoplankton
+	4165. phytoremediation
+	4166. phytostabilization
+	4167. phytotelm
+	4168. phytotransformation
+	4169. pia mater
+	4170. pico-
+	4171. picornavirus
+	4172. pie chart
+	4173. pigment
+	4174. Pikaia
+	4175. pileus
+	4176. piliferous layer
+	4177. pilomotor
+	4178. Piltdown man
+	4179. pilus
+	4180. pineal eye
+	4181. pineal gland
+	4182. pinna
+	4183. pinocytosis
+	4184. pipette
+	4185. piRNA
+	4186. Pisces
+	4187. pistil
+	4188. pit
+	4189. pitfall trap
+	4190. pith
+	4191. Pithecanthropus
+	4192. pituitary gland
+	4193. piwi-interacting RNA
+	4194. PKC
+	4195. placenta
+	4196. Placentalia
+	4197. placode
+	4198. placoid scale
+	4199. Placozoa
+	4200. plagiotropism
+	4201. planarians
+	4202. plankton
+	4203. plant
+	4204. plant geography
+	4205. plant hormone
+	4206. plantigrade
+	4207. plant uncoupling protein
+	4208. planula
+	4209. plaque
+	4210. plasma
+	4211. plasma cell
+	4212. plasmagel
+	4213. plasma membrane
+	4214. plasma protein
+	4215. plasmasol
+	4216. plasmid
+	4217. plasmin
+	4218. plasminogen
+	4219. plasmodesmata
+	4220. plasmodium
+	4221. plasmogamy
+	4222. plasmolysis
+	4223. plasticity
+	4224. plastid
+	4225. plastocyanin
+	4226. plastoglobulus
+	4227. plastome
+	4228. plastoquinone
+	4229. plastron
+	4230. plate count
+	4231. platelet
+	4232. platelet-activating factor
+	4233. platelet-derived growth factor
+	4234. plate tectonics
+	4235. Platyhelminthes
+	4236. Platyzoa
+	4237. pleiomorphism
+	4238. pleiotropic
+	4239. Pleistocene
+	4240. plesiomorphy
+	4241. pleura
+	4242. plexus
+	4243. Pliocene
+	4244. plumule
+	4245. pluripotent
+	4246. pneumatophore
+	4247. pod
+	4248. podocyte
+	4249. pogonophoran
+	4250. poikilothermy
+	4251. point mutation
+	4252. polar body
+	4253. polarity
+	4254. polar molecule
+	4255. polar nuclei
+	4256. pollen
+	4257. pollen analysis
+	4258. pollen sac
+	4259. pollen tube
+	4260. pollex
+	4261. pollination
+	4262. pollutant
+	4263. pollution
+	4264. polyacrylamide gel electrophoresis
+	4265. polyandry
+	4266. Polychaeta
+	4267. polycistronic
+	4268. polyembryony
+	4269. polygene
+	4270. polygenic inheritance
+	4271. polygyny
+	4272. polymer
+	4273. polymerase
+	4274. polymerase chain reaction
+	4275. polymorphism
+	4276. polynucleotide
+	4277. polyol
+	4278. polyp
+	4279. polypeptide
+	4280. polypetalous
+	4281. polyphenism
+	4282. polyphyletic
+	4283. polyphyodont
+	4284. polyploid
+	4285. polyribosome
+	4286. polysaccharide
+	4287. polysepalous
+	4288. polysome
+	4289. polyspermy
+	4290. polysynaptic reflex
+	4291. polyteny
+	4292. polythetic
+	4293. polytopic
+	4294. polytypic
+	4295. pome
+	4296. pons
+	4297. population
+	4298. population bottleneck
+	4299. population dynamics
+	4300. population genetics
+	4301. population growth
+	4302. Porifera
+	4303. porin
+	4304. porphyrin
+	4305. portal vein
+	4306. positional cloning
+	4307. positional information((in embryology))
+	4308. positive-sense((in genetics))
+	4309. positive feedback
+	4310. positive selection
+	4311. positron emission tomography
+	4312. post-tetanic potentiation
+	4313. post-transcriptional gene silencing
+	4314. post-transcriptional modification
+	4315. post-translational modification
+	4316. postcaval vein
+	4317. posterior
+	4318. postreplicative repair
+	4319. postsynaptic membrane
+	4320. potassium
+	4321. potassium–argon dating
+	4322. potassium ion channel
+	4323. potentiation
+	4324. potometer
+	4325. poxvirus
+	4326. pre-messenger RNA
+	4327. pre-replication complex
+	4328. preadaptation
+	4329. Precambrian
+	4330. precaval vein
+	4331. precipitin
+	4332. precocial species
+	4333. predation
+	4334. predator
+	4335. pregnancy
+	4336. preimplantation genetic diagnosis
+	4337. premolar
+	4338. premotor cortex
+	4339. premutation
+	4340. presbyopia
+	4341. pressure flow
+	4342. pressure potential
+	4343. presumptive
+	4344. presynaptic membrane
+	4345. prey
+	4346. Pribnow box
+	4347. prickle
+	4348. primary cell wall
+	4349. primary consumer
+	4350. primary growth
+	4351. primary immune response
+	4352. primary motor cortex
+	4353. primary producer
+	4354. primary productivity
+	4355. primary somatosensory cortex
+	4356. primary structure
+	4357. primase
+	4358. Primates
+	4359. primitive node
+	4360. primitive streak
+	4361. primordial soup
+	4362. primordium
+	4363. primosome
+	4364. principle of parsimony
+	4365. prion
+	4366. Proboscidea
+	4367. proboscis
+	4368. procambium
+	4369. procarcinogen
+	4370. procaryote
+	4371. prochlorophytes
+	4372. Proconsul
+	4373. prodrug
+	4374. producer
+	4375. productivity((in ecology))
+	4376. profundal
+	4377. progenesis
+	4378. progeny
+	4379. progesterone
+	4380. progestogen
+	4381. proglottid
+	4382. programmed cell death
+	4383. progymnosperms
+	4384. prokaryote
+	4385. prolactin
+	4386. proline
+	4387. prometaphase
+	4388. promoter
+	4389. pronation
+	4390. proofreading
+	4391. propagation
+	4392. propagule
+	4393. prophage
+	4394. prophase
+	4395. proplastid
+	4396. proprioceptor
+	4397. prop root
+	4398. prosencephalon
+	4399. prosoma
+	4400. prostacyclin
+	4401. prostaglandin
+	4402. prostate gland
+	4403. prosthetic group
+	4404. protamine
+	4405. protandry
+	4406. protanopia
+	4407. protease
+	4408. proteasome
+	4409. protein
+	4410. protein blotting
+	4411. protein engineering
+	4412. protein family
+	4413. protein kinase
+	4414. protein kinase C
+	4415. proteinoid
+	4416. protein profiling
+	4417. protein sequencing
+	4418. protein synthesis
+	4419. protein targeting
+	4420. proteobacteria
+	4421. proteoglycan
+	4422. proteolysis
+	4423. proteolytic enzyme
+	4424. proteome
+	4425. proteomics
+	4426. Proterozoic
+	4427. prothallus
+	4428. prothoracic gland
+	4429. prothoracicotropic hormone
+	4430. prothrombin
+	4431. protist
+	4432. proto-oncogene
+	4433. protocell
+	4434. Protoctista
+	4435. protoderm
+	4436. protogyny
+	4437. protonema
+	4438. protonephridium
+	4439. proton pump
+	4440. protophloem
+	4441. protoplasm
+	4442. protoplast
+	4443. protostome
+	4444. Prototheria
+	4445. protoxylem
+	4446. protozoa
+	4447. Protura
+	4448. provascular tissue
+	4449. proventriculus
+	4450. provirus
+	4451. proximal
+	4452. proximal convoluted tubule
+	4453. PR protein
+	4454. PRR
+	4455. pruning
+	4456. PSC
+	4457. pseudoautosomal region
+	4458. pseudocarp
+	4459. Pseudociliata
+	4460. pseudocoelomate
+	4461. pseudogamy
+	4462. pseudogene
+	4463. pseudoheart
+	4464. pseudoparenchyma
+	4465. pseudoplasmodium
+	4466. pseudopodium
+	4467. pseudopregnancy
+	4468. Psilotum
+	4469. psychrophilic
+	4470. Pteridophyta
+	4471. Pteridospermales
+	4472. pterobranch
+	4473. pterodactyls
+	4474. Pterosauria
+	4475. Pterygota
+	4476. PTH
+	4477. PTTH
+	4478. ptyalin
+	4479. puberty
+	4480. pubis
+	4481. PubMed
+	4482. puff
+	4483. pufferfish
+	4484. pullulan
+	4485. pulmonary
+	4486. pulmonary artery
+	4487. pulmonary circulation
+	4488. pulmonary valve
+	4489. pulmonary vein
+	4490. pulp cavity
+	4491. pulse
+	4492. pulsed-field gel electrophoresis
+	4493. pulvinus
+	4494. punctuated equilibrium
+	4495. Punnett square
+	4496. pupa
+	4497. pupil
+	4498. pupillary reflex
+	4499. pure line
+	4500. purifying selection
+	4501. purine
+	4502. Purkyne cell
+	4503. Purkyne fibres
+	4504. purple sulphur bacteria
+	4505. putrefaction
+	4506. Pycnogonida
+	4507. pyknotic
+	4508. pyloric sphincter
+	4509. pyramidal cell
+	4510. pyramid of biomass
+	4511. pyramid of energy
+	4512. pyramid of numbers
+	4513. pyranose
+	4514. pyrenocarp
+	4515. pyrenoid
+	4516. pyrethrum
+	4517. pyridoxine
+	4518. pyrimidine
+	4519. pyrrole
+	4520. pyruvic acid
+	4521. PYY
+	4522. Q10
+	4523. QTL
+	4524. quadrat
+	4525. quadrate
+	4526. quadriceps
+	4527. qualitative variation
+	4528. quantitative inheritance
+	4529. quantitative structure-activity relationship
+	4530. quantitative trait
+	4531. quantitative trait locus
+	4532. quantitative variation
+	4533. quantum biology
+	4534. quantum hypothesis((in neurophysiology))
+	4535. quarantine
+	4536. Quaternary
+	4537. quaternary structure
+	4538. queen substance
+	4539. quinone
+	4540. quorum sensing
+	4541. r.a.m.
+	4542. race
+	4543. raceme
+	4544. racemose inflorescence
+	4545. rachis
+	4546. rad
+	4547. radial symmetry
+	4548. radiation
+	4549. radiation damage
+	4550. radiation units
+	4551. radicle
+	4552. radioactive age
+	4553. radioactive tracing
+	4554. radioactive waste
+	4555. radioactivity
+	4556. radiobiology
+	4557. radiocarbon dating
+	4558. radiography
+	4559. radioimmunoassay
+	4560. radioisotope
+	4561. radiolarian
+	4562. radiology
+	4563. radiometric dating
+	4564. radiopaque
+	4565. radiotherapy
+	4566. radius
+	4567. radula
+	4568. rainforest
+	4569. Ramapithecus
+	4570. ramus communicans
+	4571. randomly amplified polymorphic DNA
+	4572. random sampling
+	4573. rank
+	4574. RAPD
+	4575. raphe
+	4576. raphide
+	4577. rapid eye movement
+	4578. RAS protein
+	4579. rate-limiting step
+	4580. Ratitae
+	4581. ray
+	4582. reabsorption((in excretion))
+	4583. reactant
+	4584. reaction
+	4585. reaction centre
+	4586. reaction norm
+	4587. reaction time
+	4588. reactive oxygen species
+	4589. reading frame
+	4590. readthrough
+	4591. recapitulation
+	4592. Recent
+	4593. receptacle
+	4594. receptive field
+	4595. receptor
+	4596. receptor-mediated endocytosis
+	4597. receptor potential
+	4598. recessive
+	4599. recipient
+	4600. reciprocal cross
+	4601. recognition sequence
+	4602. recombinant DNA
+	4603. recombination
+	4604. recombinational repair
+	4605. recon
+	4606. reconciliation ecology
+	4607. recruitment
+	4608. rectal gland
+	4609. rectum
+	4610. recycling
+	4611. red algae
+	4612. red blood cell
+	4613. red fluorescent protein
+	4614. redox
+	4615. Red Queen hypothesis
+	4616. red tide
+	4617. reducing sugar
+	4618. reduction
+	4619. reduction division
+	4620. reflex
+	4621. reflex action
+	4622. reflex arc
+	4623. reforestation
+	4624. refractory period
+	4625. regeneration
+	4626. regma
+	4627. regulation((in embryology))
+	4628. regulator
+	4629. regulator gene
+	4630. regulatory enzyme
+	4631. regulatory genes
+	4632. reinforcement((in animal behaviour))
+	4633. Reissner’s membrane
+	4634. relative abundance
+	4635. relative atomic mass
+	4636. relative density
+	4637. relative growth rate
+	4638. relative molecular mass
+	4639. relative refractory period
+	4640. relaxin
+	4641. release-inhibiting hormone
+	4642. release factor
+	4643. releaser
+	4644. releasing hormone
+	4645. relict
+	4646. relictual((in systematics))
+	4647. rem
+	4648. REM sleep
+	4649. renal
+	4650. renal capsule
+	4651. renal tubule
+	4652. renaturation
+	4653. renin
+	4654. rennin
+	4655. Renshaw cell
+	4656. repetitive DNA
+	4657. replacing bone
+	4658. replication
+	4659. replicon
+	4660. repolarization
+	4661. reporter gene
+	4662. repressor
+	4663. reproduction
+	4664. reproduction rate
+	4665. reproductive system
+	4666. Reptilia
+	4667. rescue effect
+	4668. residual volume
+	4669. resin
+	4670. resistance
+	4671. resistance protein
+	4672. resistance response
+	4673. resolving power
+	4674. respiration
+	4675. respiratory burst
+	4676. respiratory chain
+	4677. respiratory movement
+	4678. respiratory organ
+	4679. respiratory pigment
+	4680. respiratory quotient
+	4681. respirometer
+	4682. response
+	4683. resting potential
+	4684. restriction enzyme
+	4685. restriction fragment length polymorphism
+	4686. restriction mapping
+	4687. restriction point
+	4688. resurrection biology
+	4689. reticular activating system
+	4690. reticular formation
+	4691. reticulate
+	4692. reticuloendothelial system
+	4693. reticulum
+	4694. retina
+	4695. retinal
+	4696. retinol
+	4697. retrotransposon
+	4698. retrovirus
+	4699. reverse genetics
+	4700. reverse transcriptase
+	4701. reversion((in genetics))
+	4702. rewilding
+	4703. RF
+	4704. RFLP
+	4705. RFP
+	4706. RF value((in chromatography))
+	4707. Rh
+	4708. rhabdom
+	4709. rhachis
+	4710. rhesus factor
+	4711. rhizarians
+	4712. rhizoid
+	4713. rhizome
+	4714. Rhizopoda
+	4715. rhizosphere
+	4716. Rhodophyta
+	4717. rhodopsin
+	4718. rhombencephalon
+	4719. Rhombozoa
+	4720. rhynchocoel
+	4721. rhyniophytes
+	4722. rhytidome
+	4723. rib
+	4724. ribbon worm
+	4725. riboflavin
+	4726. ribonuclease
+	4727. ribonucleic acid
+	4728. ribonucleoprotein
+	4729. ribose
+	4730. ribosomal RNA
+	4731. ribosome
+	4732. riboswitch
+	4733. ribotyping
+	4734. ribozyme
+	4735. ribulose
+	4736. ribulose bisphosphate
+	4737. rickets
+	4738. rickettsia
+	4739. rigor mortis
+	4740. RIH
+	4741. Ringer’s solution
+	4742. ring species
+	4743. RISC
+	4744. ritualization
+	4745. river continuum concept
+	4746. RMR
+	4747. RNA
+	4748. RNAase
+	4749. RNA interference
+	4750. RNA interference
+	4751. RNA polymerase
+	4752. RNA processing
+	4753. RNase
+	4754. RNA sequencing
+	4755. RNA splicing
+	4756. RNP
+	4757. rod
+	4758. Rodentia
+	4759. roentgen
+	4760. root
+	4761. root cap
+	4762. root hair
+	4763. root mass ratio
+	4764. root nodule
+	4765. root pressure
+	4766. rootstock
+	4767. ROS
+	4768. Rotifera
+	4769. roughage
+	4770. rough endoplasmic reticulum
+	4771. Roundup
+	4772. round window
+	4773. roundworms
+	4774. royal jelly
+	4775. R protein
+	4776. RQ
+	4777. rRNA
+	4778. rselection
+	4779. RT-PCR
+	4780. rubidium-strontium dating
+	4781. rubisco
+	4782. RuBP
+	4783. ruderal
+	4784. Ruffini’s capsule
+	4785. rumen
+	4786. Ruminantia
+	4787. runner
+	4788. rusts
+	4789. saccharide
+	4790. Saccharomyces
+	4791. saccharose
+	4792. sacculus
+	4793. sacral vertebrae
+	4794. safranin
+	4795. sagittal
+	4796. salicylic acid
+	4797. saline
+	4798. salinization
+	4799. saliva
+	4800. salivary glands
+	4801. Salmonella
+	4802. salt
+	4803. salt gland
+	4804. samara
+	4805. sampling
+	4806. Sanger, Frederick (1918–2013)
+	4807. sap
+	4808. saponin
+	4809. saprotroph
+	4810. sapwood
+	4811. SAR
+	4812. sarcolemma
+	4813. sarcoma
+	4814. sarcomere
+	4815. sarcoplasm
+	4816. sarcoplasmic reticulum
+	4817. satellite DNA
+	4818. saturated
+	4819. savanna
+	4820. scala
+	4821. scales
+	4822. scanning electron microscope
+	4823. scanning probe microscopy
+	4824. scanning tunnelling microscopy
+	4825. scapula
+	4826. scavenger
+	4827. Schiff’s reagent
+	4828. schizocarp
+	4829. schizogeny
+	4830. Schwann cell
+	4831. scintillation counter
+	4832. scion
+	4833. sclera
+	4834. sclereid
+	4835. sclerenchyma
+	4836. sclerophyllous
+	4837. scleroprotein
+	4838. sclerotic
+	4839. sclerotium
+	4840. sclerotization
+	4841. scolex
+	4842. scorpions
+	4843. scotopic vision
+	4844. SCP
+	4845. scRNP
+	4846. scrotum
+	4847. scurvy
+	4848. scutellum
+	4849. Scyphozoa
+	4850. SDS-PAGE
+	4851. seasonal isolation
+	4852. seaweeds
+	4853. sebaceous gland
+	4854. sebum
+	4855. second
+	4856. secondary cell wall
+	4857. secondary consumer
+	4858. secondary growth
+	4859. secondary immunological response
+	4860. secondary metabolite
+	4861. secondary productivity
+	4862. secondary sexual characteristics
+	4863. secondary structure
+	4864. secondary thickening
+	4865. second convoluted tubule
+	4866. second messenger
+	4867. secretin
+	4868. secretion
+	4869. secretion vector
+	4870. Sedentaria
+	4871. seed
+	4872. seed coat
+	4873. seed ferns
+	4874. seed leaf
+	4875. seed plant
+	4876. segmentation
+	4877. segmentation genes
+	4878. segregation
+	4879. Selachii
+	4880. selectin
+	4881. selection
+	4882. selection coefficient
+	4883. selection pressure
+	4884. selective breeding
+	4885. selective reabsorption
+	4886. self-fertilization
+	4887. self-pollination
+	4888. self-splicing
+	4889. self-sterility
+	4890. selfish DNA
+	4891. Seliwanoff’s test
+	4892. semaphorin
+	4893. semelparity
+	4894. semen
+	4895. semicircular canals
+	4896. semiconservative replication
+	4897. semilunar valve
+	4898. seminal receptacle
+	4899. seminal vesicle
+	4900. seminiferous tubules
+	4901. semiochemical
+	4902. semipermeable membrane
+	4903. senescence
+	4904. sensation
+	4905. sense organ
+	4906. senses
+	4907. sensillum
+	4908. sensitive period
+	4909. sensitivity
+	4910. sensitization
+	4911. sensory cell
+	4912. sensory neuron
+	4913. sepal
+	4914. sepsis
+	4915. septum
+	4916. sequence-tagged site
+	4917. sequence analysis
+	4918. sequence database
+	4919. sere
+	4920. serine
+	4921. seroconversion
+	4922. serology
+	4923. serotonin
+	4924. serous membrane
+	4925. serpin
+	4926. Sertoli cells
+	4927. serum
+	4928. sessile
+	4929. seta
+	4930. set point
+	4931. sewage
+	4932. Sewall Wright effect
+	4933. sex chromosome
+	4934. sex determination
+	4935. sex factor
+	4936. sex hormones
+	4937. sex linkage
+	4938. sex ratio
+	4939. sexual cycle
+	4940. sexual dimorphism
+	4941. sexual intercourse
+	4942. sexually transmitted disease
+	4943. sexual reproduction
+	4944. sexual selection
+	4945. SH2 domain
+	4946. SH3 domain
+	4947. shared derived trait
+	4948. shikimic acid pathway
+	4949. Shine-Dalgarno sequence
+	4950. shivering
+	4951. shoot
+	4952. short-day plant
+	4953. short-sightedness
+	4954. short interfering RNA
+	4955. short interspersed element
+	4956. short sequence repeat
+	4957. short tandem repeats
+	4958. shotgun cloning
+	4959. shotgun sequencing
+	4960. shoulder girdle
+	4961. shunt vessel
+	4962. siblings
+	4963. sibling species
+	4964. sickle-cell disease
+	4965. sieve element
+	4966. sievert
+	4967. sieve tube
+	4968. sigma factor
+	4969. sigmoid growth curve
+	4970. signal hypothesis
+	4971. signal transducer and activator of transcription
+	4972. signal transduction
+	4973. significance
+	4974. sign stimulus
+	4975. silent mutation
+	4976. silicula
+	4977. siliqua
+	4978. silk
+	4979. Silurian
+	4980. SINE
+	4981. single-cell protein
+	4982. single-locus sequence typing
+	4983. single circulation
+	4984. single nucleotide polymorphism
+	4985. sink strength
+	4986. sinoatrial node
+	4987. sinus
+	4988. sinusoid
+	4989. sinus venosus
+	4990. siphonaceous
+	4991. Siphonaptera
+	4992. Siphunculata
+	4993. siRNA
+	4994. sirtuin
+	4995. sister species
+	4996. site-directed mutagenesis
+	4997. Site of Special Scientific Interest
+	4998. SI units
+	4999. Sivapithecus
+	5000. skeletal muscle
+	5001. skeleton
+	5002. skin
+	5003. skull
+	5004. SLA
+	5005. sleep
+	5006. sleep movements
+	5007. sliding filament theory
+	5008. slime
+	5009. slime mould
+	5010. slow-twitch fibre
+	5011. slow-wave sleep
+	5012. slow virus
+	5013. sludge
+	5014. small cytoplasmic ribonucleoprotein
+	5015. small intestine
+	5016. small nuclear ribonucleoprotein
+	5017. small nuclear RNA
+	5018. small nucleolar RNA
+	5019. small ubiquitin-related modifier
+	5020. smell
+	5021. smooth endoplasmic reticulum
+	5022. smooth muscle
+	5023. smuts
+	5024. snakes
+	5025. SNAP
+	5026. SNARE
+	5027. snoRNA
+	5028. SNP
+	5029. snRNA
+	5030. snRNP
+	5031. social behaviour
+	5032. sodium
+	5033. sodium-potassium pump
+	5034. sodium chloride
+	5035. sodium fluoride
+	5036. sodium ion channel
+	5037. softwood
+	5038. soil
+	5039. soil erosion
+	5040. sol
+	5041. solenocytes
+	5042. solute
+	5043. solute potential
+	5044. solution
+	5045. solvent
+	5046. soma
+	5047. somatic
+	5048. somatic cell hybridization
+	5049. somatic cell nuclear transfer
+	5050. somatic hypermutation
+	5051. somatic recombination
+	5052. somatic sensory neuron
+	5053. somatomedin
+	5054. somatosensory cortex
+	5055. somatostatin
+	5056. somatotrophin
+	5057. somite
+	5058. sonicator
+	5059. Sonic hedgehog
+	5060. soredium
+	5061. sorosis
+	5062. sorus
+	5063. SOS response
+	5064. Southern blotting
+	5065. spacer DNA
+	5066. spadix
+	5067. spathe
+	5068. spatial summation
+	5069. special creation
+	5070. specialization
+	5071. speciation
+	5072. species
+	5073. species diversity
+	5074. species evenness
+	5075. species richness
+	5076. specific leaf area
+	5077. spectral karyotyping
+	5078. spectrin
+	5079. spectroscopy
+	5080. spectrum
+	5081. Spemann’s organizer
+	5082. sperm
+	5083. spermatheca
+	5084. spermatid
+	5085. spermatium
+	5086. spermatocyte
+	5087. spermatogenesis
+	5088. spermatogonium
+	5089. Spermatophyta
+	5090. spermatozoid
+	5091. spermatozoon
+	5092. sperm competition
+	5093. Sphenophyta
+	5094. spherosome
+	5095. sphincter
+	5096. sphingolipid
+	5097. spiders
+	5098. spike
+	5099. spinal column
+	5100. spinal cord
+	5101. spinal nerves
+	5102. spinal reflex
+	5103. spindle
+	5104. spindle attachment
+	5105. spine
+	5106. spinneret
+	5107. spinocerebellar tracts
+	5108. spiracle
+	5109. spirillum
+	5110. spirochaete
+	5111. spirometer
+	5112. spleen
+	5113. spliceosome
+	5114. splicing
+	5115. sponges
+	5116. spongy bone
+	5117. spongy mesophyll
+	5118. spontaneous generation
+	5119. sporangiophore
+	5120. sporangium
+	5121. spore
+	5122. spore mother cell
+	5123. sporocyte
+	5124. sporogonium
+	5125. sporophore
+	5126. sporophyll
+	5127. sporophyte
+	5128. Sporozoa
+	5129. sport
+	5130. squalene
+	5131. Squamata
+	5132. squamous epithelium
+	5133. Src tyrosine kinase
+	5134. SRY protein
+	5135. SSSI
+	5136. stabilizing selection
+	5137. staining
+	5138. stamen
+	5139. staminode
+	5140. standard deviation
+	5141. standard error of the mean
+	5142. standard metabolic rate
+	5143. standing biomass
+	5144. standing crop
+	5145. stapes
+	5146. Staphylococcus
+	5147. starch
+	5148. star diagram
+	5149. Starling’s law
+	5150. start codon
+	5151. startle display
+	5152. STAT
+	5153. stationary phase
+	5154. statoblast
+	5155. statocyst
+	5156. statocyte
+	5157. statolith
+	5158. stearic acid
+	5159. stele
+	5160. stem
+	5161. stem cell
+	5162. steno-
+	5163. stereocilium
+	5164. stereoisomerism
+	5165. sterigma
+	5166. sterile
+	5167. sterilization
+	5168. sternum
+	5169. steroid
+	5170. sterol
+	5171. sticky end
+	5172. stigma
+	5173. stilt root
+	5174. stimulus
+	5175. stimulus filtering
+	5176. stipe
+	5177. stipule
+	5178. STM
+	5179. stock
+	5180. stolon
+	5181. stoma
+	5182. stomach
+	5183. stomatal conductance
+	5184. stomium
+	5185. stop codon
+	5186. storage compound
+	5187. stramenopiles
+	5188. stratification
+	5189. stratified epithelium
+	5190. stratified sampling
+	5191. stratosphere
+	5192. stratum corneum
+	5193. Streptococcus
+	5194. streptomycin
+	5195. streptophyte
+	5196. stress protein
+	5197. stretch receptor
+	5198. stretch reflex
+	5199. striated muscle
+	5200. stridulation
+	5201. strigolactone
+	5202. strobilus
+	5203. stroke volume
+	5204. stroma
+	5205. stromatolite
+	5206. strontium
+	5207. structural gene
+	5208. strychnine
+	5209. STS
+	5210. style
+	5211. subarachnoid space
+	5212. subclavian artery
+	5213. subcutaneous tissue
+	5214. suberin
+	5215. sublittoral
+	5216. submucosa
+	5217. subsoil
+	5218. subspecies
+	5219. substance P
+	5220. substitution((in genetics))
+	5221. substrate
+	5222. substrate-level phosphorylation
+	5223. subtilisin
+	5224. succession((in ecology))
+	5225. succinate
+	5226. succulent
+	5227. succus entericus
+	5228. sucker
+	5229. sucrase
+	5230. sucrose
+	5231. sugar
+	5232. sulpha (sulfa) drugs
+	5233. sulphonamides
+	5234. sulphur
+	5235. sulphur bacteria
+	5236. sulphur bridge
+	5237. sulphur cycle
+	5238. sulphur dioxide
+	5239. summation
+	5240. SUMO
+	5241. super-resolution microscopy
+	5242. supercoiling
+	5243. supercooling
+	5244. supergene
+	5245. supergroup
+	5246. superior
+	5247. supernormal stimulus
+	5248. supernumerary chromosome
+	5249. superorganism
+	5250. superoxide dismutase
+	5251. supination
+	5252. supplementary units
+	5253. suprachiasmatic nucleus
+	5254. supramolecular adhesion complex
+	5255. suprarenal glands
+	5256. surface tension
+	5257. surfactant
+	5258. survivorship curve
+	5259. suspension culture
+	5260. suspensor
+	5261. suspensory ligaments
+	5262. sustainable
+	5263. suture
+	5264. SV40
+	5265. swallowing
+	5266. swamp
+	5267. sweat
+	5268. sweat gland
+	5269. swim bladder
+	5270. syconium
+	5271. symbiont
+	5272. symbiosis
+	5273. symmetry
+	5274. symmorphosis
+	5275. sympathetic nervous system
+	5276. sympathetic tone
+	5277. sympatric
+	5278. symphysis
+	5279. symplast
+	5280. symplesiomorphy
+	5281. sympodium
+	5282. symporter
+	5283. synapomorphy
+	5284. synapse
+	5285. synapsid
+	5286. synapsis
+	5287. synaptic cleft
+	5288. synaptic knob
+	5289. synaptic plasticity
+	5290. synaptobrevin
+	5291. synaptonemal complex
+	5292. synaptotagmin
+	5293. syncarpy
+	5294. syncytium
+	5295. synecology
+	5296. synergids
+	5297. synergism
+	5298. syngamy
+	5299. synomone
+	5300. synonymous substitution
+	5301. synovial membrane
+	5302. syntaxin
+	5303. synteny
+	5304. synthesis
+	5305. synthetic biology
+	5306. synthetic theory
+	5307. syphilis
+	5308. syrinx
+	5309. systematics
+	5310. systematic sampling
+	5311. Système International d’Unités
+	5312. systemic acquired resistance
+	5313. systemic arch
+	5314. systemic circulation
+	5315. systemic signalling
+	5316. systems biology
+	5317. systems ecology
+	5318. systole
+	5319. T-cell receptor
+	5320. tachycardia
+	5321. tachymetabolism
+	5322. TACK
+	5323. tactic movement
+	5324. tagma
+	5325. tagmosis
+	5326. taiga
+	5327. TALEN
+	5328. tandem array((in genetics))
+	5329. tannin
+	5330. tapetum
+	5331. tapeworms
+	5332. taphonomy
+	5333. tap root
+	5334. tarsal
+	5335. tarsus
+	5336. taste
+	5337. taste bud
+	5338. TATA-box-binding protein
+	5339. TATA box
+	5340. taxis
+	5341. taxon
+	5342. taxonomy
+	5343. TCA cycle
+	5344. T cell
+	5345. TDF
+	5346. tectorial membrane
+	5347. tectum
+	5348. teeth
+	5349. tegmentum
+	5350. Teleostei
+	5351. telocentric
+	5352. telomere
+	5353. telome theory
+	5354. telophase
+	5355. temperature inversion
+	5356. temperature sensitivity
+	5357. template
+	5358. temporal summation
+	5359. tendon
+	5360. tendril
+	5361. tentacle
+	5362. tera-
+	5363. teratogen
+	5364. tergum
+	5365. termination codon
+	5366. terminator
+	5367. terpenes
+	5368. territory
+	5369. Tertiary
+	5370. tertiary consumer
+	5371. tertiary structure
+	5372. testa
+	5373. test cross
+	5374. testis
+	5375. testis-determining factor
+	5376. testosterone
+	5377. tetanus
+	5378. tetracosactide
+	5379. tetrad
+	5380. tetraploid
+	5381. Tetrapoda
+	5382. tetraspore
+	5383. tetrodotoxin
+	5384. thalamus
+	5385. thalassaemia
+	5386. thallus
+	5387. TH cell
+	5388. theca
+	5389. thelytoky
+	5390. therapeutic half-life
+	5391. therapeutic index
+	5392. therapsid
+	5393. thermal denaturation
+	5394. thermal hysteresis protein
+	5395. thermocline
+	5396. thermogenesis
+	5397. thermogenin
+	5398. thermography
+	5399. thermonasty
+	5400. thermoneutral zone
+	5401. thermophilic
+	5402. thermoreceptor
+	5403. thermoregulation
+	5404. therophyte
+	5405. Theropoda
+	5406. thiamin(e)
+	5407. thigmotropism
+	5408. thin-layer chromatography
+	5409. thoracic cavity
+	5410. thoracic duct
+	5411. thoracic vertebrae
+	5412. thorax
+	5413. thorn
+	5414. thread cell
+	5415. threat display
+	5416. threatened species
+	5417. threonine
+	5418. threshold
+	5419. thrombin
+	5420. thrombocyte
+	5421. thromboplastin
+	5422. thrombosis
+	5423. thromboxane A2
+	5424. thylakoid
+	5425. thymidine
+	5426. thymine
+	5427. thymocyte
+	5428. thymus
+	5429. thyrocalcitonin
+	5430. thyroglobulin
+	5431. thyroid-stimulating hormone
+	5432. thyroid gland
+	5433. thyrotrophin-releasing hormone
+	5434. thyroxine
+	5435. Thysanura
+	5436. tibia
+	5437. ticks
+	5438. tidal volume
+	5439. tight junction
+	5440. Tiktaalik
+	5441. tiller
+	5442. time-lapse photography
+	5443. tinsel flagellum
+	5444. Ti plasmid
+	5445. tissue
+	5446. tissue culture
+	5447. tissue engineering
+	5448. tissue fluid
+	5449. tissue plasminogen activator
+	5450. tissue typing
+	5451. titre
+	5452. TLR
+	5453. T lymphocyte
+	5454. tmRNA
+	5455. TNF
+	5456. toads
+	5457. tobacco mosaic virus
+	5458. tocopherol
+	5459. tolerance
+	5460. Toll-like receptor
+	5461. Tollens reagent
+	5462. tomography
+	5463. tone
+	5464. tongue
+	5465. tonicity
+	5466. tonoplast
+	5467. tonsil
+	5468. tonus
+	5469. tooth
+	5470. top carnivore
+	5471. topoisomer
+	5472. topoisomerase
+	5473. topsoil
+	5474. tornaria
+	5475. torpor
+	5476. torus
+	5477. total peripheral resistance
+	5478. totipotent
+	5479. touch
+	5480. toxicogenomics
+	5481. toxicology
+	5482. toxin
+	5483. trace element
+	5484. trace fossil
+	5485. trachea
+	5486. tracheid
+	5487. tracheole
+	5488. tracheophyte
+	5489. tracing
+	5490. transaminase
+	5491. transamination
+	5492. transcellular pathway
+	5493. transcriptase
+	5494. transcription
+	5495. transcription factor
+	5496. transcriptome
+	5497. transcriptomic
+	5498. transducin
+	5499. transduction
+	5500. transect
+	5501. transfatty acid
+	5502. transfection
+	5503. transfer-messenger RNA
+	5504. transferase
+	5505. transfer cell
+	5506. transferrin
+	5507. transfer RNA
+	5508. transformation
+	5509. transformation hypothesis
+	5510. transforming growth factor beta
+	5511. transgene
+	5512. transgenic
+	5513. transient polymorphism
+	5514. transition((in genetics))
+	5515. transition zone
+	5516. translation
+	5517. translocation
+	5518. transmembrane domain
+	5519. transmission
+	5520. transmission electron microscope
+	5521. transmitter
+	5522. transpiration
+	5523. transplantation
+	5524. transport protein
+	5525. transposon
+	5526. transverse tubules
+	5527. transversion((in genetics))
+	5528. Treg
+	5529. Trematoda
+	5530. trial-and-error learning
+	5531. Triassic
+	5532. triazines
+	5533. tribe
+	5534. tricarboxylic acid cycle
+	5535. triceps
+	5536. trichogyne
+	5537. trichome
+	5538. Trichoplax
+	5539. trichromatic theory
+	5540. tricuspid valve
+	5541. triglyceride
+	5542. triiodothyronine
+	5543. trilobite
+	5544. trimerophytes
+	5545. trimethylamine
+	5546. triose
+	5547. triplet code
+	5548. triploblastic
+	5549. triploid
+	5550. trisomy
+	5551. tritanopia
+	5552. tritiated compound
+	5553. TRK
+	5554. tRNA
+	5555. trochanter
+	5556. trochophore
+	5557. trophic cascade
+	5558. trophic efficiency
+	5559. trophic level
+	5560. trophoblast
+	5561. tropic
+	5562. tropism
+	5563. tropomyosin
+	5564. troponin
+	5565. troposphere
+	5566. TRP protein
+	5567. trumpet cell
+	5568. trypsin
+	5569. trypsinogen
+	5570. tryptophan
+	5571. TSH
+	5572. T tubules
+	5573. tube feet
+	5574. tube nucleus
+	5575. tuber
+	5576. tubicolous
+	5577. tubulin
+	5578. Tullgren funnel
+	5579. tumour
+	5580. tumour-suppressor gene
+	5581. tumour necrosis factor
+	5582. tundra
+	5583. tunicates
+	5584. Turbellaria
+	5585. turgor
+	5586. turion
+	5587. Turner’s syndrome
+	5588. twins
+	5589. two-hybrid screening
+	5590. tylose
+	5591. tympanic cavity
+	5592. tympanum
+	5593. type I fibre
+	5594. type II fibre
+	5595. type specimen
+	5596. typological species concept
+	5597. tyramine
+	5598. tyrosine
+	5599. tyrosine kinase
+	5600. ubiquinone
+	5601. ubiquitin
+	5602. UCP
+	5603. ulna
+	5604. ultimobranchial bodies
+	5605. ultracentrifuge
+	5606. ultradian rhythm
+	5607. ultrafiltration
+	5608. ultramicroscope
+	5609. ultramicrotome
+	5610. ultrasonics
+	5611. ultrastructure
+	5612. ultraviolet microscope
+	5613. ultraviolet radiation
+	5614. umbel
+	5615. umbilical cord
+	5616. uncoupling protein
+	5617. undernourishment
+	5618. undulipodium
+	5619. ungulate
+	5620. unguligrade
+	5621. unicellular
+	5622. unikonts
+	5623. unipolar neuron
+	5624. uniporter
+	5625. UniProt
+	5626. Uniramia
+	5627. uniramous appendage
+	5628. unisexual
+	5629. unit
+	5630. Universal Protein Resource
+	5631. unsaturated
+	5632. upper critical temperature
+	5633. upregulation
+	5634. uracil
+	5635. uranium-lead dating
+	5636. urea
+	5637. urea cycle
+	5638. ureotelic
+	5639. ureter
+	5640. urethra
+	5641. uric acid
+	5642. uricotelic
+	5643. uridine
+	5644. urinary system
+	5645. urine
+	5646. uriniferous tubule
+	5647. Urochordata
+	5648. uterine cycle
+	5649. uterus
+	5650. utriculus
+	5651. UV
+	5652. V(D)J recombination
+	5653. vaccination
+	5654. vaccine
+	5655. vacuole
+	5656. vacuole membrane
+	5657. vagal tone
+	5658. vagina
+	5659. vagus nerve
+	5660. valine
+	5661. valve
+	5662. van der Waals interactions
+	5663. variable
+	5664. variable number tandem repeats
+	5665. variation
+	5666. variegation
+	5667. variety
+	5668. varve dating
+	5669. vasa recta
+	5670. vascular bundle
+	5671. vascular cambium
+	5672. vascular plants
+	5673. vascular system
+	5674. vascular tissue
+	5675. vas deferens
+	5676. vas efferens
+	5677. vasoactive intestinal peptide
+	5678. vasoconstriction
+	5679. vasodilation
+	5680. vasomotor centre
+	5681. vasomotor nerves
+	5682. vasopressin
+	5683. vector
+	5684. vegetal pole
+	5685. vegetative propagation
+	5686. vein
+	5687. velamen
+	5688. velum
+	5689. velvet worms
+	5690. vena cava
+	5691. venation
+	5692. venter
+	5693. ventilation
+	5694. ventilation centre
+	5695. ventral
+	5696. ventral aorta
+	5697. ventral root
+	5698. ventricle
+	5699. venule
+	5700. vermiform appendix
+	5701. vernalization
+	5702. vertebra
+	5703. vertebral column
+	5704. vertebrate
+	5705. vesicle
+	5706. vessel
+	5707. vessel element
+	5708. vestibular apparatus
+	5709. vestibular canal
+	5710. vestibule
+	5711. vestigial organ
+	5712. viable count
+	5713. vibrio
+	5714. vicariant event
+	5715. villus
+	5716. viologen dyes
+	5717. VIP
+	5718. virion
+	5719. viroid
+	5720. virology
+	5721. virulence
+	5722. virulence factor
+	5723. virus
+	5724. Viruses
+	5725. virusoid
+	5726. visceral
+	5727. visceral sensory neuron
+	5728. vision
+	5729. visual acuity
+	5730. visual cortex
+	5731. visual purple
+	5732. vital capacity
+	5733. vital staining
+	5734. vitamin
+	5735. vitamin A
+	5736. vitamin B complex
+	5737. vitamin C
+	5738. vitamin D
+	5739. vitamin E
+	5740. vitamin K
+	5741. Vitamins
+	5742. vitelline membrane
+	5743. vitreous humour
+	5744. viviparity
+	5745. VNTR
+	5746. vocal cords
+	5747. voltage-gated ion channel
+	5748. voltage clamp
+	5749. voluntary
+	5750. voluntary muscle
+	5751. volutin
+	5752. vomeronasal organ
+	5753. vulva
+	5754. waggle dance
+	5755. Wallace’s line
+	5756. Wallace, Alfred Russel (1823–1913)
+	5757. Wallerian degeneration
+	5758. warfarin
+	5759. warm-blooded animal
+	5760. warning coloration
+	5761. waste product
+	5762. water
+	5763. water cycle
+	5764. water potential
+	5765. water vascular system
+	5766. Watson, James Dewey (1928– )
+	5767. Watson-Crick model
+	5768. wax((in biology))
+	5769. weed
+	5770. Weismannism
+	5771. Wernicke’s area
+	5772. western blotting
+	5773. whalebone
+	5774. whales
+	5775. whey
+	5776. whisk ferns
+	5777. white blood cell
+	5778. white matter
+	5779. white muscle
+	5780. wild type
+	5781. wilting
+	5782. windpipe
+	5783. wind pollination
+	5784. wing
+	5785. withdrawal reflex
+	5786. WNT protein
+	5787. wobble
+	5788. Wolff’s law
+	5789. womb
+	5790. wood
+	5791. Woronin body
+	5792. wort
+	5793. X-ray crystallography
+	5794. X-rays
+	5795. xanthophyll
+	5796. xanthophyll cycle
+	5797. Xanthophyta
+	5798. X chromosome
+	5799. xenobiotic
+	5800. xeric
+	5801. xeromorphic
+	5802. xerophthalmia
+	5803. xerophyte
+	5804. X inactivation
+	5805. xylem
+	5806. xylenes
+	5807. YAC
+	5808. Y chromosome
+	5809. yeast artificial chromosome
+	5810. yeasts
+	5811. yeast two-hybrid screen
+	5812. yellow body
+	5813. yolk
+	5814. yolk sac
+	5815. Y organ
+	5816. zeatin
+	5817. Zika virus
+	5818. zinc
+	5819. zinc finger
+	5820. zinc finger nuclease
+	5821. Z line
+	5822. zona pellucida
+	5823. zonation
+	5824. zone fossil
+	5825. zone of polarizing activity
+	5826. zonula adherens
+	5827. zonula occludens
+	5828. zoogeography
+	5829. zooid
+	5830. zoology
+	5831. Zoomastigota
+	5832. zoonosis
+	5833. zooplankton
+	5834. zoosporangium
+	5835. zoospore
+	5836. zosterophyllophytes
+	5837. zwitterion
+	5838. zygomorphy
+	5839. Zygomycota
+	5840. zygospore
+	5841. zygote
+	5842. zygotene
+	5843. zymase
+	5844. zymogen
 - FormatA
 	1. AAV
 		1. See adeno-associated virus

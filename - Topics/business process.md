@@ -4,4 +4,4 @@
 - 
 ## References
 
-[^1]:
+[^1]: [[Home Page - Glossary by Capterra]]
