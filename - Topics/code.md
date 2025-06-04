@@ -13,7 +13,11 @@
 - (2) Any piece of program text written in a programming language (as opposed to a data structure or algorithm illustrated by a diagram or flowchart, or a program specified or sketched out in natural language prose). The term sometimes implies executable code as opposed to declarations or tables, but this is by no means always the case. See also CODING. 
 - (3) The particular language in which some code is written, e.g. machine code, source code.
 - [[Source set]] is another name for source alphabet
+## Source[^3]
+- In a technical sense, code can be described as the system of rules written using the protocol of a specific programming language. Computer code is commonly used by programmers to build computer programs, web applications, and mobile applications, in addition to developing artificial intelligence and machine learning technologies.
+- There are several types of coding languages used by computer programmers, includingJavascript, C#, C++, and Python.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-3-producing-robust-programs-quizzes/2-3-producing-robust-programs-quiz-10-questions/
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - Glossary by Capterra]]

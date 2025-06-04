@@ -2966,7 +2966,7 @@ Reviewed: false
 	2938. larvacean
 	2939. larynx
 	2940. lasso cell
-	2941. latent learning
+	2941. [[latent learning]]
 	2942. latent period
 	2943. latent virus
 	2944. lateral-line system
@@ -3002,7 +3002,7 @@ Reviewed: false
 	2974. lenticel
 	2975. Lepidoptera
 	2976. leptin
-	2977. leptoid
+	2977. [[leptoid]]
 	2978. leptotene
 	2979. lethal allele
 	2980. lethal dose 50
@@ -3048,7 +3048,7 @@ Reviewed: false
 	3020. lipid bilayer
 	3021. lipid raft
 	3022. lipoic acid
-	3023. lipolysis
+	3023. [[lipolysis]]
 	3024. lipoprotein
 	3025. liposome
 	3026. lipotropin
