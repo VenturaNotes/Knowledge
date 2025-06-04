@@ -3050,7 +3050,7 @@ Reviewed: false
 	3022. lipoic acid
 	3023. [[lipolysis]]
 	3024. lipoprotein
-	3025. liposome
+	3025. [[liposome]]
 	3026. lipotropin
 	3027. Listeria
 	3028. lithosphere
@@ -3111,7 +3111,7 @@ Reviewed: false
 	3083. Lysenkoism
 	3084. lysergic acid diethylamide
 	3085. lysigeny
-	3086. lysimeter
+	3086. [[lysimeter]]
 	3087. lysine
 	3088. lysis
 	3089. lysogeny
@@ -3288,7 +3288,7 @@ Reviewed: false
 	3260. metameric segmentation
 	3261. metamorphosis
 	3262. metanephridium
-	3263. metaphase
+	3263. [[metaphase]]
 	3264. metaphloem
 	3265. metaplasia
 	3266. metapopulation
@@ -3300,13 +3300,13 @@ Reviewed: false
 	3272. Metazoa
 	3273. methanogen
 	3274. methionine
-	3275. methylene blue
+	3275. [[methylene blue]]
 	3276. methylome
 	3277. metre
 	3278. MHC
 	3279. MHC class II protein
 	3280. MHC class I protein
-	3281. micelle
+	3281. [[micelle]]
 	3282. Michaelis-Menten curve
 	3283. micro-
 	3284. microarray
@@ -4037,7 +4037,7 @@ Reviewed: false
 	4009. peripatric speciation
 	4010. Peripatus
 	4011. peripheral nervous system
-	4012. periphyton
+	4012. [[periphyton]]
 	4013. periplasm
 	4014. Perissodactyla
 	4015. peristalsis
@@ -4077,7 +4077,7 @@ Reviewed: false
 	4049. pharmacodynamics
 	4050. pharmacogenomics
 	4051. pharmacokinetics
-	4052. pharmacology
+	4052. [[pharmacology]]
 	4053. pharynx
 	4054. phase-contrast microscope
 	4055. phase II metabolism
@@ -4187,7 +4187,7 @@ Reviewed: false
 	4159. phytogeography
 	4160. phytohaemagglutinin
 	4161. phytohormone
-	4162. phytomer
+	4162. [[phytomer]]
 	4163. phytoncide
 	4164. phytoplankton
 	4165. phytoremediation
@@ -4476,7 +4476,7 @@ Reviewed: false
 	4448. provascular tissue
 	4449. proventriculus
 	4450. provirus
-	4451. proximal
+	4451. [[proximal]]
 	4452. proximal convoluted tubule
 	4453. PR protein
 	4454. PRR
@@ -4509,7 +4509,7 @@ Reviewed: false
 	4481. PubMed
 	4482. puff
 	4483. pufferfish
-	4484. pullulan
+	4484. [[pullulan]]
 	4485. pulmonary
 	4486. pulmonary artery
 	4487. pulmonary circulation
