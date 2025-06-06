@@ -9,7 +9,7 @@ Reviewed: false
 - ![[Screenshot 2024-11-24 at 3.14.55 AM.png]]
 - Want to return the longest palindromic substring of a string.
 	- Can have multiple answers
-- [[Palindromes|palindrome]]
+- [[Palindrome]]
 	- Writing in reverse order is the exact same string
 - For any given substring, to check if it's a palindrome, it will take linear time complexity
 - Brute force approach is $n^3$ 

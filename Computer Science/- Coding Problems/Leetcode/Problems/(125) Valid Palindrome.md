@@ -4,14 +4,39 @@ Source:
 Reviewed: false
 ---
 ## Synthesis
-- 
+- Return true if a [[palindrome]]
+	- Make it case-insensitive
+	- Ignore non-alphanumeric characters
+
+```python
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+		# Sets left pointer to 0
+		# Sets right pointer to 
+        l, r = 0, len(s) - 1
+
+        while l < r:
+            while l < r and not self.alphaNum(s[l]):
+                l += 1
+            while r > l and not self.alphaNum(s[r]):
+                r -= 1
+            if s[l].lower() != s[r].lower():
+                return False
+            l, r = l + 1, r - 1
+        return True
+    
+    def alphaNum(self, c):
+        return (ord('A') <= ord(c) <= ord('Z') or 
+                ord('a') <= ord(c) <= ord('z') or 
+                ord('0') <= ord(c) <= ord('9'))
+```
 ## Source [^1]
 - ![[Screenshot 2024-10-14 at 7.42.34 PM.png]]
 	- Right Image shows second solution
 - Two different ways to solve this (both important in interview setting)
 - Part of the Blind 75 questions
 - Problem
-	- Determine if string is a [[Palindromes|palindrome]]. Only considering alphanumeric characters in the list and ignoring cases (meaning upper and lower cases)
+	- Determine if string is a [[Palindrome]]. Only considering alphanumeric characters in the list and ignoring cases (meaning upper and lower cases)
 		- Alphanumeric characters means A-Z, a-z, and 0-9
 	- A string is a palindrome when it reads the same way when reversed
 	- Remove spaces, special characters, and convert to lowercase 

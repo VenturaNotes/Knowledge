@@ -3341,7 +3341,7 @@ Reviewed: false
 	3313. microsatellite DNA
 	3314. microscope
 	3315. Microscopy
-	3316. microsome
+	3316. [[microsome]]
 	3317. microsporangium
 	3318. microspore
 	3319. microspore mother cell
@@ -4684,8 +4684,8 @@ Reviewed: false
 	4656. repetitive DNA
 	4657. replacing bone
 	4658. replication
-	4659. replicon
-	4660. repolarization
+	4659. [[replicon]]
+	4660. [[repolarization]]
 	4661. reporter gene
 	4662. repressor
 	4663. reproduction

@@ -7,7 +7,7 @@ Reviewed: false
 - 
 ## Source [^1]
 - ![[Screenshot 2024-11-22 at 12.20.37 AM.png]]
-- Want to partition `s` so that every single substring of the partition is a [[Palindromes|palindrome]]. Return all possible palindrome partitioning of `s`
+- Want to partition `s` so that every single substring of the partition is a [[palindrome]]. Return all possible palindrome partitioning of `s`
 	- A palindrome string is a string that reads the same backward as forward
 - The brute force way to solve this problem also happens to be the main way to solve this problem
 	- Will use [[backtracking]]

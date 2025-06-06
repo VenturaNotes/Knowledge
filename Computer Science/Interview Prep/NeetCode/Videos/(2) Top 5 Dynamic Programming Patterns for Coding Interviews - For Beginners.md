@@ -9,7 +9,7 @@ Reviewed: false
 		- Zero / One [[Knapsack]]
 		- Unbounded Knapsack
 		- [[Longest Common Subsequence]]
-		- [[Palindromes]]
+		- [[palindrome|palindromes]]
 	- Fibonacci Numbers Pattern
 		- F(0) = 0
 			- The 0th fibonacci number is 0
@@ -72,7 +72,7 @@ Reviewed: false
 		- Edit Distance
 		- Distinct Subsequences
 - ![[Screenshot 2023-08-30 at 3.08.15 AM.png]]
-	- [[Palindromes]]
+	- [[palindrome|palindromes]]
 		- "racecar"
 			- Naive way would be to check every character in the string starting at the ends and going towards the middle.
 			- Smart way
