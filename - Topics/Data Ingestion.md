@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Data ingestion can be described as the process of transporting data from a single source or multiple sources to another location where it can be deposited and then analyzed. These locations may include a data warehouse, document store, data mart, database, or other destinations where data is stored. Sources that data is often acquired from include spreadsheets, in-house applications, and web or Software-as-a-Service (SaaS) data. In real-time data ingestion, also often referred to as data streaming, data is processed, extracted, and stored as soon as it is generated to provide business professionals with insights. In batch-based data ingestion, data is processed, extracted, and stored in batches at recurring intervals and is often used by business professionals who wish to generate reports on a daily basis, but not necessarily in real time. For big data, software vendors commonly automate the data ingestion process and tailor it to particular technical environments. Data ingestion tools are commonly used to draw insights from large sets of data, helping companies improve their business decision-making.
+## References
+
+[^1]: [[Home Page - Glossary by Capterra]]

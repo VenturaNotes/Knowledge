@@ -67,6 +67,16 @@ print("".join(li))
 - If separator not found
 	- `(original_string, '', '')`
 
+## Source[^7]
+- Checks if all characters in the text are alphanumeric
+```python
+txt = "Company12"
+
+x = txt.isalnum()
+
+print(x)
+```
+
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_strings1
@@ -75,3 +85,4 @@ print("".join(li))
 [^4]: https://www.geeksforgeeks.org/quizzes/functions-python-gq/
 [^5]: [[Home Page - 500+ Python Interview Questions and Answers by applyre]]
 [^6]: ChatGPT
+[^7]: https://www.w3schools.com/python/ref_string_isalnum.asp

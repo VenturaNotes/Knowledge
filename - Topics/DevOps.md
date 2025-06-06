@@ -7,8 +7,11 @@
 
 ## Source[^2]
 - A set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the systems development life cycle and provide continuous delivery with high software quality.
+## Source[^3]
+- The term DevOps is a combination of software development (dev) and IT operations (ops). It can have several meanings, but in general, it refers to a method of collaboration between development teams and operations teams. These are traditionally isolated teams that typically work independently, yet software projects require expertise from both.
 
 ## References
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://spdload.com/blog/software-development-glossary/
+[^3]: [[Home Page - Glossary by Capterra]]
