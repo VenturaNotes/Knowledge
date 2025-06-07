@@ -2021,8 +2021,9 @@ Reviewed: false
 	1991. flame cells
 	1992. flatworms
 	1993. flavin adenine dinucleotide
-	1994. flavonoid
+	1994. [[flavonoid]]
 	1995. flavoprotein
+		1. See FAD
 	1996. FLC protein
 	1997. fleas
 	1998. Fleming, Sir Alexander (1881–1955)
@@ -2126,8 +2127,8 @@ Reviewed: false
 	2096. GALT
 	2097. gametangium
 	2098. gamete
-	2099. game theory
-	2100. gametogenesis
+	2099. [[game theory]]
+	2100. [[gametogenesis]]
 	2101. gametophyte
 	2102. gamma-aminobutyric acid
 	2103. gamma diversity((in ecology))
@@ -2283,7 +2284,7 @@ Reviewed: false
 	2253. glycogenesis
 	2254. glycogenolysis
 	2255. glycolate pathway
-	2256. glycolipid
+	2256. [[glycolipid]]
 	2257. glycolysis
 	2258. glycomics
 	2259. glycoprotein
