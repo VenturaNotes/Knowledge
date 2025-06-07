@@ -209,7 +209,7 @@ Reviewed: false
 	181. Alvarez event
 	182. alveolates
 	183. alveolus
-	184. Alzheimer’s disease
+	184. Alzheimer's disease
 	185. amacrine cell
 	186. amber
 	187. ambient
@@ -495,7 +495,7 @@ Reviewed: false
 	467. bacteriostatic
 	468. bacterium
 	469. bacteroid
-	470. baker’s yeast
+	470. baker's yeast
 	471. balance
 	472. balanced polymorphism
 	473. balancing selection
@@ -505,7 +505,7 @@ Reviewed: false
 	477. barb
 	478. barbiturate
 	479. barbule
-	480. Barfoed’s test
+	480. Barfoed's test
 	481. bark
 	482. baroreceptor
 	483. Barr body
@@ -541,7 +541,7 @@ Reviewed: false
 	513. behaviour
 	514. behavioural genetics
 	515. behavioural isolation
-	516. Benedict’s test
+	516. Benedict's test
 	517. benthos
 	518. beriberi
 	519. berry
@@ -685,7 +685,7 @@ Reviewed: false
 	657. botulinum toxin
 	658. bouton
 	659. bovine spongiform encephalopathy
-	660. Bowman’s capsule
+	660. Bowman's capsule
 	661. bp
 	662. Brachiopoda
 	663. bract
@@ -705,14 +705,14 @@ Reviewed: false
 	677. breeding
 	678. breeding season
 	679. brewing
-	680. Broca’s area
+	680. Broca's area
 	681. bronchial-associated lymphoid tissue
 	682. bronchiole
 	683. bronchus
 	684. brown algae
 	685. brown fat
 	686. Brownian movement
-	687. Brunner’s glands
+	687. Brunner's glands
 	688. brush border
 	689. Bryophyta
 	690. Bryozoa
@@ -1101,8 +1101,8 @@ Reviewed: false
 	1073. coenzyme A
 	1074. coenzyme Q
 	1075. coevolution
-	1076. cofactor
-	1077. cohesin
+	1076. [[cofactor]]
+	1077. [[cohesin]]
 	1078. cohesion
 	1079. cohort
 	1080. coitus
@@ -1110,7 +1110,7 @@ Reviewed: false
 	1082. cold-blooded animal
 	1083. cold hardening
 	1084. Coleoptera
-	1085. coleoptile
+	1085. [[coleoptile]]
 	1086. coleorhiza
 	1087. coliform bacteria
 	1088. colinearity
@@ -1133,10 +1133,10 @@ Reviewed: false
 	1105. communication
 	1106. community
 	1107. community immunity
-	1108. companion cell
+	1108. [[companion cell]]
 	1109. comparative genomic hybridization
 	1110. compass plant
-	1111. compatible solute
+	1111. [[compatible solute]]
 	1112. compensation point
 	1113. competent
 	1114. competition
@@ -1148,7 +1148,7 @@ Reviewed: false
 	1120. complementary DNA
 	1121. complementary genes
 	1122. complement receptor
-	1123. complexity science
+	1123. [[complexity science]]
 	1124. composite fruit
 	1125. compost
 	1126. compound eye
@@ -1209,7 +1209,7 @@ Reviewed: false
 	1181. coordinate bond
 	1182. coordination((in animal physiology))
 	1183. Copepoda
-	1184. coprophagy
+	1184. [[coprophagy]]
 	1185. CO protein
 	1186. copulation
 	1187. copy number
@@ -1247,7 +1247,7 @@ Reviewed: false
 	1219. courtship
 	1220. COV
 	1221. covalent bond
-	1222. Cowper’s glands
+	1222. Cowper's glands
 	1223. COX
 	1224. coxa
 	1225. coxal glands
@@ -1272,7 +1272,7 @@ Reviewed: false
 	1244. critical group
 	1245. critical period
 	1246. critical thermal maximum
-	1247. ‘Cro-Magnon man’
+	1247. 'Cro-Magnon man'
 	1248. crop
 	1249. crop rotation
 	1250. cross
@@ -1365,7 +1365,7 @@ Reviewed: false
 	1337. dark adaptation
 	1338. dark period
 	1339. dark reaction
-	1340. Darwin’s finches
+	1340. Darwin's finches
 	1341. Darwin, Charles (1809–82)
 	1342. Darwinism
 	1343. dating techniques
@@ -1463,7 +1463,9 @@ Reviewed: false
 	1435. diastema
 	1436. diastole
 	1437. diatoms
+		1. See bacillariophyta
 	1438. diatropism
+		1. See plagiotropism
 	1439. dibiontic
 	1440. dicarboxylic acid
 	1441. Dicer
@@ -1586,7 +1588,7 @@ Reviewed: false
 	1558. double fertilization
 	1559. double helix
 	1560. double recessive
-	1561. Down’s syndrome
+	1561. Down's syndrome
 	1562. down feathers
 	1563. downregulation
 	1564. draft sequence
@@ -1959,14 +1961,14 @@ Reviewed: false
 	1931. fecundity
 	1932. feedback
 	1933. feeding
-	1934. Fehling’s test
+	1934. Fehling's test
 	1935. female
 	1936. femoral
 	1937. femto-
 	1938. femur
 	1939. fen
 	1940. fenestra
-	1941. fenestration
+	1941. [[fenestration]]
 	1942. feral animal
 	1943. fermentation
 	1944. ferns
@@ -1977,7 +1979,7 @@ Reviewed: false
 	1949. fertilizer
 	1950. fetal membranes
 	1951. fetus
-	1952. Feulgen’s test
+	1952. Feulgen's test
 	1953. fibre
 	1954. fibre optics
 	1955. fibril
@@ -1989,11 +1991,11 @@ Reviewed: false
 	1961. fibrocartilage
 	1962. fibrous protein
 	1963. fibula
-	1964. Fick’s law of diffusion
-	1965. field-emission microscope
+	1964. Fick's law of diffusion
+	1965. [[field-emission microscope]]
 	1966. field-ionization microscope
-	1967. field capacity
-	1968. ‘fight-or-flight’ response
+	1967. [[field capacity]]
+	1968. 'fight-or-flight' response
 	1969. filament
 	1970. filoplumes
 	1971. filopodium
@@ -2313,7 +2315,7 @@ Reviewed: false
 	2285. graft
 	2286. graft hybrid
 	2287. gram
-	2288. Gram’s stain
+	2288. Gram's stain
 	2289. granulocyte
 	2290. granulocyte/macrophage colony-stimulating factor
 	2291. granulosa cells
@@ -2427,7 +2429,7 @@ Reviewed: false
 	2399. hemipenis
 	2400. Hemiptera
 	2401. hemizygous
-	2402. Hensen’s node
+	2402. Hensen's node
 	2403. heparan sulphate
 	2404. heparin
 	2405. hepatic
@@ -2908,8 +2910,8 @@ Reviewed: false
 	2880. kinocilium
 	2881. kinomere
 	2882. kin selection
-	2883. Kleiber’s law
-	2884. Klinefelter’s syndrome
+	2883. Kleiber's law
+	2884. Klinefelter's syndrome
 	2885. klinostat
 	2886. knee-jerk reflex
 	2887. knockin
@@ -2995,7 +2997,7 @@ Reviewed: false
 	2967. lectin
 	2968. leeches
 	2969. legume
-	2970. Leishman’s stain
+	2970. Leishman's stain
 	2971. lek
 	2972. lemma
 	2973. lens
@@ -3227,7 +3229,7 @@ Reviewed: false
 	3199. Megavirus
 	3200. meiofauna
 	3201. meiosis
-	3202. Meissner’s corpuscles
+	3202. Meissner's corpuscles
 	3203. melanin
 	3204. melanism
 	3205. melanocyte-stimulating hormone
@@ -3241,7 +3243,7 @@ Reviewed: false
 	3213. meme
 	3214. memory
 	3215. memory cell
-	3216. Mendel’s laws
+	3216. Mendel's laws
 	3217. Mendel, Johann Gregor (1822–84)
 	3218. Mendelism
 	3219. meninges
@@ -3251,7 +3253,7 @@ Reviewed: false
 	3223. mericarp
 	3224. meristem
 	3225. meristoderm
-	3226. Merkel’s disc
+	3226. Merkel's disc
 	3227. merocrine secretion
 	3228. meromictic lake
 	3229. Merostomata
@@ -3363,7 +3365,7 @@ Reviewed: false
 	3335. milk teeth
 	3336. milli-
 	3337. millipedes
-	3338. Millon’s reagent
+	3338. Millon's reagent
 	3339. mimicry
 	3340. Mimivirus
 	3341. mineral deficiency
@@ -3408,7 +3410,7 @@ Reviewed: false
 	3380. molecular marker
 	3381. molecular mimicry
 	3382. molecular systematics
-	3383. Molisch’s test
+	3383. Molisch's test
 	3384. Mollusca
 	3385. molybdenum
 	3386. Monera
@@ -3425,7 +3427,7 @@ Reviewed: false
 	3397. monoglyceride
 	3398. monohybrid cross
 	3399. monolayer culture
-	3400. monomer
+	3400. [[monomer]]
 	3401. mononuclear phagocyte system
 	3402. monooxygenase
 	3403. monophyletic
@@ -3473,7 +3475,7 @@ Reviewed: false
 	3445. mucosal-associated lymphoid tissue
 	3446. mucous membrane
 	3447. mucus
-	3448. Muller’s ratchet
+	3448. Muller's ratchet
 	3449. Müller cell
 	3450. Müllerian mimicry
 	3451. multiadhesive protein
@@ -3924,13 +3926,13 @@ Reviewed: false
 	3896. panmictic
 	3897. panspermia
 	3898. pantothenic acid
-	3899. papain
+	3899. [[papain]]
 	3900. paper chromatography
 	3901. papilla
 	3902. papovavirus
 	3903. pappus
 	3904. parabiologist
-	3905. parabiosis
+	3905. [[parabiosis]]
 	3906. paracellular pathway
 	3907. paracrine
 	3908. parallel evolution
@@ -4058,7 +4060,7 @@ Reviewed: false
 	4030. petiole
 	4031. Petri dish
 	4032. petrification
-	4033. Peyer’s patches
+	4033. Peyer's patches
 	4034. pFc′ fragment
 	4035. PFGE
 	4036. PGD
@@ -4658,7 +4660,7 @@ Reviewed: false
 	4630. regulatory enzyme
 	4631. regulatory genes
 	4632. reinforcement((in animal behaviour))
-	4633. Reissner’s membrane
+	4633. Reissner's membrane
 	4634. relative abundance
 	4635. relative atomic mass
 	4636. relative density
@@ -4766,7 +4768,7 @@ Reviewed: false
 	4738. rickettsia
 	4739. rigor mortis
 	4740. RIH
-	4741. Ringer’s solution
+	4741. Ringer's solution
 	4742. ring species
 	4743. RISC
 	4744. ritualization
@@ -4809,7 +4811,7 @@ Reviewed: false
 	4781. rubisco
 	4782. RuBP
 	4783. ruderal
-	4784. Ruffini’s capsule
+	4784. Ruffini's capsule
 	4785. rumen
 	4786. Ruminantia
 	4787. runner
@@ -4852,7 +4854,7 @@ Reviewed: false
 	4824. scanning tunnelling microscopy
 	4825. scapula
 	4826. scavenger
-	4827. Schiff’s reagent
+	4827. Schiff's reagent
 	4828. schizocarp
 	4829. schizogeny
 	4830. Schwann cell
@@ -4916,7 +4918,7 @@ Reviewed: false
 	4888. self-splicing
 	4889. self-sterility
 	4890. selfish DNA
-	4891. Seliwanoff’s test
+	4891. Seliwanoff's test
 	4892. semaphorin
 	4893. semelparity
 	4894. semen
@@ -5106,7 +5108,7 @@ Reviewed: false
 	5078. spectrin
 	5079. spectroscopy
 	5080. spectrum
-	5081. Spemann’s organizer
+	5081. Spemann's organizer
 	5082. sperm
 	5083. spermatheca
 	5084. spermatid
@@ -5174,7 +5176,7 @@ Reviewed: false
 	5146. Staphylococcus
 	5147. starch
 	5148. star diagram
-	5149. Starling’s law
+	5149. Starling's law
 	5150. start codon
 	5151. startle display
 	5152. STAT
@@ -5336,7 +5338,7 @@ Reviewed: false
 	5308. syrinx
 	5309. systematics
 	5310. systematic sampling
-	5311. Système International d’Unités
+	5311. Système International d'Unités
 	5312. systemic acquired resistance
 	5313. systemic arch
 	5314. systemic circulation
@@ -5612,7 +5614,7 @@ Reviewed: false
 	5584. Turbellaria
 	5585. turgor
 	5586. turion
-	5587. Turner’s syndrome
+	5587. Turner's syndrome
 	5588. twins
 	5589. two-hybrid screening
 	5590. tylose
@@ -5780,7 +5782,7 @@ Reviewed: false
 	5752. vomeronasal organ
 	5753. vulva
 	5754. waggle dance
-	5755. Wallace’s line
+	5755. Wallace's line
 	5756. Wallace, Alfred Russel (1823–1913)
 	5757. Wallerian degeneration
 	5758. warfarin
@@ -5796,7 +5798,7 @@ Reviewed: false
 	5768. wax((in biology))
 	5769. weed
 	5770. Weismannism
-	5771. Wernicke’s area
+	5771. Wernicke's area
 	5772. western blotting
 	5773. whalebone
 	5774. whales
@@ -5813,7 +5815,7 @@ Reviewed: false
 	5785. withdrawal reflex
 	5786. WNT protein
 	5787. wobble
-	5788. Wolff’s law
+	5788. Wolff's law
 	5789. womb
 	5790. wood
 	5791. Woronin body
