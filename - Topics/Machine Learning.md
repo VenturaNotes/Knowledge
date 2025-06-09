@@ -18,8 +18,11 @@ aliases:
 - A branch of artificial intelligence concerned with the construction of programs that learn from experience. [[Learning]] may take many forms, ranging from learning from examples and learning by analogy to autonomous learning of concepts and learning by discovery.
 - [[Incremental learning]] involves continuous improvement as new data arrives while oneshot or [[batch learning]] distinguishes a training phase from the application phase. Supervised learning occurs when the training input has been explicitly labelled with the classes to be learned.
 - Most learning methods aim to demonstrate generalization whereby the system develops efficient and effective representations that encompass large chunks of closely related data.
+## Source[^4]
+- Machine learning (ML) is a computer science that uses data to learn in the way humans do. It is a category that falls under artificial intelligence (AI). ML uses data and algorithms for different technologies, including deep learning, neural networks, and natural language processing (NLP). By analyzing data, ML can learn patterns and make decisions without the need for human intervention.
 ## References
 
 [^1]: ChatGPT
 [^2]: https://spdload.com/blog/software-development-glossary/
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[Home Page - Glossary by Capterra]]

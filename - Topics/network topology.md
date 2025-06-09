@@ -12,8 +12,11 @@
 
 ## Source[^4]
 - See Network Architecture
+## Source[^5]
+- Network topology describes the physical or logical arrangement of nodes and connections in a network. Physical network topology defines the placement of nodes and their interconnections; logical topology describes the ways data is transferred between nodes. These nodes include devices such as switches and servers. Network topologies follow six basic models, as well as a hybrid combination of one or more models: point-to-point, bus, star, ring, tree, and mesh.
 ## References
 [^1]: https://youtu.be/NRckVJk9n0k?si=iGYuTxcHcFLF4y3E
 [^2]: Google's Search Labs | AI Overview
 [^3]: https://youtu.be/HGYOEeik844?si=7KJaPkDktjARENM4
 [^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[Home Page - Glossary by Capterra]]

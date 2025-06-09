@@ -18,8 +18,11 @@
 - An example of accountability is taking ownership of mistakes and working to improve in the future.
 - Corporate accountability encourages companies to transparently report deviations from budgets and goals
 - A potential result of a lack of accountability within a company would be decreased trust from stakeholders and employees
+## Source[^4]
+- An obligation to give an account. For limited companies, it is assumed that the directors of the company are accountable to the shareholders and that this responsibility is discharged, in part, by the directors providing an annual report and accounts (see ANNUAL ACCOUNTS). In an accountability relationship there will be at least one principal and at least one agent (see AGENCY RELATIONSHIP).
 ## References
 
 [^1]: https://www.techtarget.com/whatis/definition/accountability
 [^2]: https://www.capterra.com/glossary/accountability/
 [^3]: ChatGPT
+[^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

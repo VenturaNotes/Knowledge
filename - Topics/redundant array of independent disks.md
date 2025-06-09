@@ -16,6 +16,9 @@ aliases:
 	- RAID 4 or Independent Access Array Data is striped to chunks on the data disks, which are very much larger than the data sectors. Redundant information is stored on a dedicated parity disk. Data reliability is much higher than for a single disk-comparable to RAID 2, 3, or 5. Data transfer capacity and I/O rate is similar to disk striping for reads but significantly lower than single disk for writes.
 	- RAID 5 or Independent Access Array with Rotating Parity Data is distributed as in RAID 4 but to all the disks of the array. Redundant information is interspersed with user data. Data reliability is comparable to RAID 2, 3, or 4. Data transfer capacity and I/O rate is similar to disk striping for reads but lower than a single disk for writes.
 	- RAID 6 is as RAID 5 but with an additional parity disk. The additional parity is independently computed such than any two disks in the array can simultaneously fail and the array will still provide user data. Data reliability is the highest except for RAID 2 with more than three member disks. Data transfer capacity and I/O rate is similar to disk striping for reads and lower than RAID 5 for writes.
+## Source[^2]
+- In simplest terms, a redundant array of independent disks (RAID) is a way of storing and securing the same information in a variety of ways. This method of data storage often includes several small-capacity hard disks, which can store a large amount of data while providing redundancy and overall reliability. A RAID approach involves capturing data, stripping that data, and copying it onto multiple drives. This approach provides fast, secure data storage.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - Glossary by Capterra]]

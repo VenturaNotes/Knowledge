@@ -10,6 +10,9 @@ aliases:
 - Delta ( $\Delta$ ) PCM is a version of DPCM in which a single bit is used for each sample, representing a signal change of plus or minus one unit. A constant signal is represented as a series of plus or minus transitions.
 - [[Predictive PCM]] extrapolates from the previous few samples what the next sample should be, and transmits the difference between the actual value and the predicted value.
 - See also MODULATION.
+## Source[^2]
+- Pulse code modulation (PCM) involves converting an analog signal into binary code to transmit information from one communication device to another. It is the communication standard for many technologies used to make calls over the internet, such as Voice over IP (VoIP). Changing)a signal into binary code can make communicating via these technologies much more effective. PCM can improve the quality of calls made over the internet, for example.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - Glossary by Capterra]]

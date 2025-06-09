@@ -51,7 +51,10 @@ aliases:
 - (10) In a large software company, how would you ensure that ABC is applied consistently across different teams and projects?
 	- ABC can be applied consistently across teams by establishing and maintaining "cost pools" or "cost drivers," which track all the relevant expenses for each activity. These pools are updated regularly to ensure accurate cost assignment across teams and projects. Proper documentation and communication are also critical to ensure all activities are accounted for.
 		- #question What are cost pools or cost drivers?
+## Source[^3]
+- (ABC; activity costing) A system of costing proposed by Professors Johnson and Kaplan in their book Relevance Lost: The Rise and Fall of Management Accounting (1987), in which they questioned accounting techniques based on absorption costing. Their method recognizes that costs are incurred by each activity that takes place within an organization and that products (or customers) should bear costs according to the activities they use. Cost drivers are identified, together with the appropriate activity cost pools, which are used to charge costs to products. Adherents of activity-based costing maintain that it provides accurate cause-and-effect allocations of costs that cannot be obtained from traditional costing systems.
 ## References
 
 [^1]: https://www.capterra.com/glossary/activity-based-costing-abc/
 [^2]: ChatGPT
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

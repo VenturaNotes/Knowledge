@@ -2765,7 +2765,7 @@ Reviewed: false
 	2734. interferon
 	2735. [[intergenic suppressor]]
 	2736. Intergovernmental Panel on Climate Change
-	2737. interkinesis
+	2737. [[interkinesis]]
 	2738. interleukin
 	2739. intermediate filament
 	2740. internal environment
@@ -3448,7 +3448,7 @@ Reviewed: false
 	3417. mortality
 	3418. morula
 	3419. mosaic
-	3420. mosaic evolution
+	3420. [[mosaic evolution]]
 	3421. mosses
 	3422. moths
 	3423. motivation
@@ -3518,8 +3518,8 @@ Reviewed: false
 	3487. myogenic
 	3488. myoglobin
 	3489. myometrium
-	3490. myopia
-	3491. myosin
+	3490. [[myopia]]
+	3491. [[myosin]]
 	3492. myotatic reflex
 	3493. myotome
 	3494. myotube
