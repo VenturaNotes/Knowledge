@@ -1,6 +1,3 @@
----
-aliases: []
----
 ## Synthesis
 - 
 ## Source [^1]

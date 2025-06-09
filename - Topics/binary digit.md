@@ -4,7 +4,7 @@ aliases:
   - bit
 ---
 ## Synthesis
-- 
+- A bit is the fundamental unit of information in computing. It can only take on one of two possible values: 0 or 1.
 ## Source [^1]
 - The values 0 and 1 are the only digits used in binary and form the basis of computer instructions. The term 'bit' comes from Binary digIT.
 ## Source[^2]
