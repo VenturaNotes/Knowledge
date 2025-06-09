@@ -2707,7 +2707,7 @@ Reviewed: false
 	2676. infection
 	2677. inferior
 	2678. inflammation
-	2679. inflorescence
+	2679. [[inflorescence]]
 	2680. infradian rhythm
 	2681. infraspecific
 	2682. ingestion
@@ -2749,21 +2749,21 @@ Reviewed: false
 	2718. insula
 	2719. insulin
 	2720. insulin-like growth factor
-	2721. integrase
+	2721. [[integrase]]
 	2722. integrated pest management
 	2723. integration((in neurophysiology))
 	2724. integrin
 	2725. integument
 	2726. intelligence
 	2727. interactome
-	2728. intercalary
+	2728. [[intercalary]]
 	2729. intercellular
 	2730. intercellular adhesion molecule
 	2731. intercostal muscles
 	2732. interfascicular cambium
 	2733. interference RNA
 	2734. interferon
-	2735. intergenic suppressor
+	2735. [[intergenic suppressor]]
 	2736. Intergovernmental Panel on Climate Change
 	2737. interkinesis
 	2738. interleukin
