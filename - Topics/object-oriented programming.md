@@ -41,8 +41,11 @@ aliases:
 - In object-oriented programming, a [[subclass]] can redefine a method from its [[superclass]]
 	- #question What is a subclass and what is a superclass?
 	- #question Do subclasses and superclasses only exist in object-oriented programming? 
+## Source[^4]
+- Object-oriented programming, or OOP, is a programming style focused on objects rather than long lists of functions. Objects tend to contain all the functions within them. Many objects can be reused which means that programmers don't have to recreate code for problems that have already been solved. OOP is highly structured and avoids repetition and bugs.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: ChatGPT
+[^4]: [[Home Page - Glossary by Capterra]]

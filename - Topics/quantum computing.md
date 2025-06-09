@@ -57,6 +57,9 @@ Factorization is important because it is the basis of the widely used RSA system
   
 
 So far no-one has produced a large working quantum computer, although a considerable amount of work has been done on physical systems that might be used to store qubits and to work with entangled registers. These include ions held in an ion trap, superconducting quantum devices, quantum dots in semiconductors, and nuclear magnetic resonance.
+## Source[^2]
+- Quantum computing is a type of computing where information is processed using quantum-mechanical phenomena, such as superposition. Quantum computers are much faster and more powerful than traditional ones because they can perform several calculations simultaneously. This makes them well-suited for tasks that require a high amount of computational power, such as data encryption and quantum simulation. Quantum computing is still in its early stages, but it has the potential to revolutionize the way people process information.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - Glossary by Capterra]]

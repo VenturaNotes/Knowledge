@@ -12,7 +12,10 @@ aliases:
 - Basic-rate ISDN (B/ISDN) is an internationally standardized service that provides digital access at 64 Kbps , referred to as a B-channel, and can carry one channel of digitized speech, or data. A D-channel operates at 16 Kbps and is intended primarily for data. A typical local loop can operate at 144 Kbps , and can support two B-channels and a D-channel.
 - [[Primary-rate ISDN]] (P/ISDN) is an internationally standardized service that provides digital access at 1.536 Mbps ( 1.920 Mbps in Europe), usually presented as 23 B-channels and one D-channel (30 B-channels and one D-channel in Europe). In addition some operators are now providing so-called N/ISDN, which offers multiple B-channels with several options on the number of channels in the range $1-30$.
 - ISDN has been superseded by ADSL for Internet access, but its high quality of service makes it popular for verbal communication. It remains a core technology in the telephone network.
+## Source[^3]
+- ISDN is a type of digital network that allows the transfer of data, voice, and video over a single line. ISDN is also known as a virtual circuit because it provides services such as teleconferencing or video conferencing without requiring special hardware or software at each endpoint.
 ## References
 
 [^1]: https://youtu.be/HGYOEeik844?si=dCv-AZS0AFMwsApv
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - Glossary by Capterra]]

@@ -123,6 +123,9 @@ and data.occupation = 'doctor'
 - This outline of SQL has only scratched the surface of the language. The SQL standard is many hundreds of pages long and there are also several standard extensions to increase functionality (e.g. the use of Java within SQL). Moreover individual commercial database developers usually have their own versions of SQL.
 ## Source[^5]
 - A programming language for storing and processing information in a [[relational database]]
+
+## Source[^6]
+- SQL is a programming language used by developers to manage data in relational database management systems. It is a simple query language and is often easier to learn than other programming languages such as Java. Roles that often require SQL skills include data scientists, database mitigation engineers, and database administrators.
 ## References
 
 [^1]: [[Home Page - SQL Tutorial by W3Schools]]
@@ -130,3 +133,4 @@ and data.occupation = 'doctor'
 [^3]: https://spdload.com/blog/software-development-glossary/
 [^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^5]: [[Home Page - System Design Daily by David Zhang]]
+[^6]: [[Home Page - Glossary by Capterra]]

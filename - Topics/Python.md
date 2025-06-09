@@ -83,7 +83,8 @@ settings = {"theme": "dark", "language": "English"}  # Dictionary initialization
 
 ## Source[^7]
 - A scripting language incorporating features from C, Modula 3, and Icon.
-
+## Source[^8]
+- Python is a free, open source, multi-purpose programming language that is commonly used for rapid application development (RAD). Python is an extremely versatile programming language that can be used for small tasks, such as creating bots, or larger tasks, such as developing complex code for technical applications. Pythonʻs code can implement both machine learning and data mining, in addition to web page development. Pythonʻs code uses the English language and an easy-to-learn syntax, which makes it an appealing programming language for beginning programmers.
 ## References
 [^1]: https://www.w3schools.com/python/python_exercises.asp
 [^2]: https://www.geeksforgeeks.org/history-of-python/
@@ -92,3 +93,4 @@ settings = {"theme": "dark", "language": "English"}  # Dictionary initialization
 [^5]: https://www.nielit.gov.in/gorakhpur/sites/default/files/Gorakhpur/ALevel_1_Python_26May_SS.pdf
 [^6]: https://peps.python.org/pep-0020/
 [^7]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^8]: [[Home Page - Glossary by Capterra]]

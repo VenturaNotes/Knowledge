@@ -8,7 +8,10 @@
 - The concept of probability is applied to a wide range of events in different contexts. Originally interest was in the study of games of chance, where correct knowledge of probability values allowed profitable wagers to be made. Later the subject was studied by insurance companies anxious to predict probable future claims on the basis of previously observed relative frequencies. Today probability theory is the basis of statistical analysis (see STATISTICAL METHODS).
 - The [[probability calculus]] is the set of rules for combining probabilities for combinations of events, using the methods of symbolic logic applied to sets.
 - See also PROBABILITY DISTRIBUTIONS.
+## Source[^3]
+- Probability is the branch of mathematics that deals with numerical descriptions of the likelihood that an event will occur, or how likely it is that a proposition is truthful. The probability of an event is a number between zero and one. Zero indicates the impossibility that an event will occur and one indicates certainty that the event will occur. The formula used to calculate the probability of a single event occurring is (P = n / N), which means the probability (P) of an event occurring equals the number of ways an event can occur (n) divided by the total number of possible outcomes (N). The formula used to calculate the probability of multiple events occurring is P(A and B) = P(A) x P(B),which means the probability of both A and B events occurring (P(A and B)) is equal to the probability of event A occurring (P(A)) multiplied by the probability of event B occurring (P(B)).
 ## References
 
 [^1]: [[(1) Probability & Statistics (1 of 62) Introduction]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - Glossary by Capterra]]

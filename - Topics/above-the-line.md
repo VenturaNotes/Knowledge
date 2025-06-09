@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- (1) Denoting those entries printed above the horizontal line on a company's profit and loss account that separates the entries that establish the profit (or loss) from the entries showing how the profit is distributed. Prior to the introduction of Financial Reporting Standard (FRS) 3, Reporting Financial Performance, in 1992, it was understood that any exceptional items that were within the ordinary activities of the business were shown above the line, while any extraordinary items that were outside the ordinary activities of the business were shown below it. There was, however, criticism that the definitions of extraordinary and exceptional items could be manipulated to improve the earnings per share figure. For example, if a building was sold for a large profit it could be interpreted as being exceptional and included in the earnings per share, whereas if it was sold at a loss it could be interpreted as being extraordinary and not included in the earnings per share. Both exceptional and extraordinary items are now shown above the line and are included in the earnings per share. 
+- (2) Denoting advertising expenditure on mass media advertising, including press, television, radio, and posters. It is traditionally defined as all advertising expenditure on which an advertising agency would charge commission (as opposed to a flat fee). 
+- (3) Denoting transactions concerned with revenue, as opposed to capital, in national accounts. Compare BELOW-THE-LINE.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
