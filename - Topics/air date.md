@@ -1,11 +1,7 @@
----
-aliases:
-  - AG
----
 ## Synthesis
 - 
 ## Source [^1]
-- A German, Austrian, or Swiss public limited company. See AG.
+- The date of first transmission of a commercial or an advertising campaign on television.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
