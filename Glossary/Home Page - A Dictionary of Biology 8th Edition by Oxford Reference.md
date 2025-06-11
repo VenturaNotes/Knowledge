@@ -2913,7 +2913,7 @@ Reviewed: false
 	2882. kin selection
 	2883. Kleiber's law
 	2884. Klinefelter's syndrome
-	2885. klinostat
+	2885. [[klinostat]]
 	2886. knee-jerk reflex
 	2887. knockin
 	2888. knockout
@@ -3158,7 +3158,7 @@ Reviewed: false
 	3127. malt sugar
 	3128. Mammalia
 	3129. mammary glands
-	3130. mandible
+	3130. [[mandible]]
 	3131. Mandibulata
 	3132. manganese
 	3133. mangrove swamp
@@ -3173,7 +3173,7 @@ Reviewed: false
 	3142. map unit
 	3143. Marchantiophyta
 	3144. [[mark-recapture method]]
-	3145. marker gene
+	3145. [[marker gene]]
 	3146. marsupials
 	3147. [[masquerade]]
 	3148. mass extinction
