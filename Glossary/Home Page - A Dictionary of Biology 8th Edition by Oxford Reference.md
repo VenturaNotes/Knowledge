@@ -3760,7 +3760,7 @@ Reviewed: false
 	3729. oncotic pressure
 	3730. one gene–one polypeptide hypothesis
 	3731. ontogeny
-	3732. ontology
+	3732. [[ontology]]
 	3733. Onychophora
 	3734. oocyte
 	3735. oogamy
@@ -4097,7 +4097,7 @@ Reviewed: false
 	4066. phenotype
 	4067. phenotypic plasticity
 	4068. phenylalanine
-	4069. phenylketonuria
+	4069. [[phenylketonuria]]
 	4070. pheophytin
 	4071. pheromone
 	4072. philopatry
@@ -4109,7 +4109,7 @@ Reviewed: false
 	4078. phonotaxis
 	4079. phoresy
 	4080. Phoronida
-	4081. phosphagen
+	4081. [[phosphagen]]
 	4082. phosphatase
 	4083. phosphatide
 	4084. phosphatidylcholine
