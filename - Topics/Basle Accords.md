@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A series of international agreements concerning capital adequacy regulations for banks. The first Accord (Basle I) was reached by the Basle Committee on Banking Supervision, representing the governors of the central banks of the G10 nations, in 1988. It stated that banks should hold specific types of capital to cover a minimum of $8 \%$ of their risk-adjusted assets. The latter were defined in terms of a set of multipliers to be attached to a number of different asseft classes and multiplied by their balance-sheet worth. In 2004 the Accord was superseded by Basle II, which established a new framework for defining risk-adjusted assets and capital at risk, based to a greater extent than previously on credit ratings and internal models. It also put in place a supervisory process to ensure that banks had adequate internal systems to understand and establish their capital at risk. A third Accord, Basle III, was agreed in 2011, largely as a response to the global banking crisis of 2008. The new Accord imposes more stringent capital adequacy requirements in several areas and introduces a Liquidity Coverage Ratio (LCR), requiring a bank to hold liquid assets sufficient to cover its cash outflows over a 30-day crisis period. The new provisions are being phased in between 2013 and 2018. The EU's Fourth Capital Requirements Directive made the Basle III rules legally binding in all member states.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

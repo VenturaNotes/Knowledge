@@ -50,7 +50,7 @@ Notes
 - “[[Second Incompleteness Theorem]], which said that no consistent formal system of mathematics could prove its own consistency.” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=YBCDWFTT))
 	- “Thus Hilbert’s program was impossible, and there would be no finitistic proof that the axioms of arithmetic were consistent.” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=WCSHLZUM))
 - “Thus we find ourselves in a situation where we cannot prove that mathematics is consistent.” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=393QFZ78))
-- “Our study of mathematical logic will take us to a point where we can understand the statement and the proof of [[Godel’s Incompleteness Theorems (Gödel's)|Gödel's Incompleteness Theorems]].” ([Leary, 2015, p. 18](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=18&annotation=HRDSV59U))
+- “Our study of mathematical logic will take us to a point where we can understand the statement and the proof of [[Godel's Incompleteness Theorems (Gödel's)|Gödel's Incompleteness Theorems]].” ([Leary, 2015, p. 18](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=18&annotation=HRDSV59U))
 - “On our way there, we will study [[formal languages]], [[mathematical structures]], and a certain [[deductive system]].” ([Leary, 2015, p. 18](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=18&annotation=WW5T67LY))
 
 ### (1.1) NaÏvely

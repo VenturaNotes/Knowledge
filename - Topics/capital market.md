@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - The stock exchanges and other institutions where securities with an expected maturity of a year or more on issue are bought and sold. The securities concerned include both shares in companies and various forms of private and public debt. The capital market allows firms, governments, and countries to finance spending in excess of their current incomes. It also enables individuals, firms, and countries to lend to others savings they cannot employ as profitably themselves. Some transactions in capital markets involve the sale of newly issued shares and debt instruments, but the vast majority occur in secondary markets, where existing shares and debt instruments change ownership. The lack of an efficiently organized capital market may create an obstacle to the efficient use of savings, and thus to overall economic development. Securities with an expected maturity of less than a year are traded on the money market.
+## Source[^2]
+- A market in which long-term capital is raised by industry and commerce, the government, and local authorities. The money comes from private investors, insurance companies, pension funds, and banks and is usually arranged by issuing houses and merchant banks. Stock exchanges are also part of the capital market in that they provide a market for the shares and loan stocks that represent the capital once it has been raised. It is the sophistication of their capital markets that distinguishes the industrial countries from the developing countries, in that this facility for raising industrial and commercial capital is either absent or undeveloped in the latter.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

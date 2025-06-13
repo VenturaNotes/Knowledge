@@ -40,7 +40,7 @@ Reviewed: false
 	- Practitioners, called alchemists, “thought that all matter was composed of different proportions of the four basic elements—fire, water, earth, and air” ([Mueller, p. 7](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=11&annotation=QIKSGSN8))
 		- Changing proportions would change substance
 - “attempts to “transmute” common metals into gold represented one goal of alchemy.” ([Mueller, p. 7](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=11&annotation=9NA6F8IM))
-	- “synthesize the [[philosopher’s stone]], a” ([Mueller, p. 7](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=11&annotation=8CIFYXE6))
+	- “synthesize the [[philosopher's stone]], a” ([Mueller, p. 7](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=11&annotation=8CIFYXE6))
 		- This would impart long life, perhaps immortality
 - Alchemists used symbols to represent substances to maintain secrecy of alchemical knowledge. Below is the first [[affinity table]]
 	-  ![[Screenshot 2023-09-05 at 11.29.51 PM.png|500]]

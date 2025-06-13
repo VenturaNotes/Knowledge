@@ -2,6 +2,11 @@
 - 
 ## Source [^1]
 - A written order by a customer to a bank to pay cash, or to transfer money on deposit to another account. It is convenient but not legally compulsory to use a form provided by the bank for this purpose. Cheques will not normally be honoured by the bank unless the customer has a sufficient credit balance or an agreed overdraft facility. Cheques were once convenient and very widely accepted; but they are not legal tender, and there is no compulsion to accept them. An increasing number of businesses are not accepting cheques as credit and debit cards become more ubiquitous.
+## Source[^2]
+- A preprinted form on which instructions are given to an account holder (a bank or building society) to pay a stated sum to a named recipient. It is the most common form of payment of debts of all kinds (see also CHEQUE ACCOUNT; CURRENT ACCOUNT).
+- In a crossed cheque two parallel lines across the face of the cheque indicate that it must be paid into a bank account and not cashed over the counter (a general crossing). A special crossing may be used in order to further restrict the negotiability of the cheque, for example by adding the name of the payee's bank. An open cheque is an uncrossed cheque that can be cashed at the bank of origin. An order cheque is one made payable to a named recipient 'or order', enabling the payee to either deposit it in an account or endorse it to a third party, i.e. transfer the rights to the cheque by signing it on the reverse. In a blank cheque the amount is not stated; it is often used if the exact debt is not known and the payee is left to complete it. However, the drawer may impose a maximum by writing 'under $£ \ldots$ ' on the cheque.
+- With the rise of electronic payment systems the use of cheques has fallen dramatically since the 1990s and most UK and European retailers no longer accept this form of payment. Cheques are still widely used in the USA (where the word is spelled check). See also MARKED CHEQUE; RETURNED CHEQUE; STALE CHEQUE.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

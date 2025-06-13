@@ -16,7 +16,10 @@
 - (8) $C^1$: $C^1(X)$ denotes the vector space of real-valued continuously differentiable functions on a space X
 - (9) $C^\infty$: $C^\infty(X)$ denotes the vector space of real-valued functions on a space X which have continuous derivatives of all orders.
 - (10) $C^\upomega$: $C^\upomega(X)$ denotes the vector space of real-valued analytic functions on a space X
+## Source[^3]
+- A language used to program computers. It was developed in the mid-1970s by the Bell laboratories in the USA. An extension of C, called C++, is widely used.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

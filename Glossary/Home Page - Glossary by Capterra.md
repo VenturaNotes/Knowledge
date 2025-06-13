@@ -284,7 +284,7 @@ Length: "1584"
 	264. [[Campaign Management System]]
 	265. [[CMYK]]
 	266. [[Converged Network Services]]
-	267. [[Codd’s Rule Zero]]
+	267. [[Codd's Rule Zero]]
 	268. [[Code]]
 	269. [[Code Division Multiple Access]]
 	270. [[Cognitive Radio]]

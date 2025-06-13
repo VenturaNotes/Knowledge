@@ -22,6 +22,8 @@ aliases:
 - (3) See BAND MATRIX.
 ## Source[^5]
 - Bandwidth is the word used to describe frequencies that can be transferred from one point to another. It's measured by bitrate and bits per second (bps). A connection's bandwidth sets the speed at which data can pass through the circuit or network. The higher the bandwidth, the more information that can be passed through at one time. Bandwidth is also key to radio signal processing. Here, the word is used to describe the difference between the upper and lower frequencies of a transmission and is measured in hertz (Hz).
+## Source[^6]
+- In computer systems, the limit on the amount of data that can be sent through a particular channel. As a result of the increase in computer processing power, most systems now offer the option of transmitting text, voice, still pictures, and full video. Transmission systems installed only a few years ago to deal with simple text applications do not now have the bandwidth to carry all the data that is available. See BROADBAND.
 ## References
 
 [^1]: https://answers.mak.ac.ug/network-connectivity/computer-networking-terminology
@@ -29,3 +31,4 @@ aliases:
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^5]: [[Home Page - Glossary by Capterra]]
+[^6]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

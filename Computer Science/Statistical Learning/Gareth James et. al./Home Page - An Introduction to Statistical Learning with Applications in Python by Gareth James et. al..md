@@ -38,7 +38,7 @@ Reviewed: false
 - “The Wage data involves predicting a [[continuous]] or [[quantitative]] output value.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=A6BBISHW))
 	- Often referred to as a [[regression]] problem
 - “However, in certain cases we may instead wish to predict a non-numerical value—that is, a [[categorical]] or [[qualitative]] output.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=3JH3WJSQ))
-- “Standard & Poor’s 500 ([[Standard & Poor’s|S&P]]) stock index over a 5-year period between 2001 and 2005.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=VUFHPYUE))
+- “Standard & Poor’s 500 ([[Standard & Poor's|S&P]]) stock index over a 5-year period between 2001 and 2005.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=VUFHPYUE))
 	- Will be referred to as `Smarket` data
 	- “goal is to predict whether the [[- Topics/index|index]] will increase or decrease on a given day, using the past 5 days’ percentage changes in the index.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=R9N59WXC))
 		- #comment I actually made a program similar to this

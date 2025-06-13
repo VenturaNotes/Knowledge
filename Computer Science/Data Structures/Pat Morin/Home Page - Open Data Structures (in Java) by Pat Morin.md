@@ -171,7 +171,7 @@ Reviewed: false
 	- “This is repeated until there is at most one possible answer” ([Morin, p. 10](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=22&annotation=UI2IV3BW))
 	- Therefore, the number of comparison done by binary search when there are initially at most n+1 possible answers is at most $[log_2(n+1)]$
 - “Another logarithm that comes up several times in this book is the [[Natural Logarithm]].” ([Morin, p. 10](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=22&annotation=T6ZMLA9C))
-	- “we use the notation ln k to denote $log_ek$, where e $\textemdash$ [[Euler’s constant]] — is given by” ([Morin, p. 10](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=22&annotation=AEN23SHP))
+	- “we use the notation ln k to denote $log_ek$, where e $\textemdash$ [[Euler's constant]] — is given by” ([Morin, p. 10](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=22&annotation=AEN23SHP))
 		- ![[Screenshot 2023-06-03 at 7.05.47 PM.png]]
 - “natural logarithm comes up frequently because it is the value of a particularly common integral:” ([Morin, p. 11](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=23&annotation=5JG8NPHM))
 	- ![[Screenshot 2023-06-03 at 7.06.21 PM.png]]

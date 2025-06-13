@@ -759,7 +759,7 @@ Reviewed: false
 
 ### (3.3) Bond Ratings and Yields
 - How good is a bond?
-- “[[Corporate bonds]] and some [[municipal bonds]] are [[rated]] by [[financial analysts]] at [[Standard & Poor’s]] (S&P) and Moody’s, among others.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=72&annotation=EUGUQH6N))
+- “[[Corporate bonds]] and some [[municipal bonds]] are [[rated]] by [[financial analysts]] at [[Standard & Poor's]] (S&P) and Moody’s, among others.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=72&annotation=EUGUQH6N))
 ### (3.4) Treasury and Municipal Bonds
 ### (3.5) Corporate Bonds
 ### (3.6) Mutual Funds

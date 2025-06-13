@@ -5,5 +5,5 @@ Reviewed: false
 ---
 - ![[Screenshot 2023-10-09 at 8.55.12 AM.png]]
 	- [[Trigonometric function]]
-	- [[Ptolemy’s Identities]]
+	- [[Ptolemy's Identities]]
 	- [[Special Trig limits]]
