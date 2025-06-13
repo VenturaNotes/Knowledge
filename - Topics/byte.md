@@ -11,9 +11,12 @@
 
 ## Source[^4]
 - A block of bits, usually 8, used in computing as the code for a single character (as in ASCII)
+## Source[^5]
+- A unit of information in a computer, consisting of a group of binary digits, that represents a number or character. Most computers use a byte with 8 binary digits. Byte and character are often used synonymously. For example, a USB flash drive holding 1 gigabyte will in theory store 1,000,000,000 characters.
 ## References
 
 [^1]: https://makecode.microbit.org/courses/csintro/binary/overview
 [^2]: [[Home Page - Glossary by ada computer science]]
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^5]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

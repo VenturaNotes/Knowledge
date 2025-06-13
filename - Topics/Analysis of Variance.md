@@ -74,8 +74,13 @@ $$
   
 
 A statistical model applied to the data allows mean squares, equal to (sum of squares)/(degrees of freedom), to be compared with an error mean square that measures the background 'noise'. Large mean squares indicate large effects of the factors concerned. The above processes can be much elaborated (see EXPERIMENTAL DESIGN, REGRESSION ANALYSIS).
+## Source[^4]
+- (ANOVA; variance analysis) 
+- (1) A commonly used method for examining the statistically significant differences between the means of two or more populations. In its simplest form (one-way analysis of variance), it involves only one dependent variable (metric measurement level) and one or more independent variables (non-metric). For example, a researcher may be interested in establishing if there is a statistically significant difference in the average amount spent on alcohol per week between two samples of population (say, male and female). Here, the dependent variable is the amount spent and the independent variable is the gender of the participants. 
+- (2) In standard costing and budgetary control, the analysis of variances in order to seek their causes. The total profit variance or production cost variance is analysed into sub-variances, based on such factors as direct labour, direct materials, fixed and variable overheads, and sales, in order to indicate the major reasons for the difference between budgeted figures and actual figures.
 ## References
 
 [^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

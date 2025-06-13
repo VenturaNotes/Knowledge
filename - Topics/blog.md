@@ -5,7 +5,10 @@
 - Blogs had antecedents before the explosive growth of the Internet from the 1990s, but, as in other areas, it was the global nature of the Web that encouraged the growth of modern blogging. It is very easy to create and maintain a blog, using freely available software and services, that can be read using a standard Web Browser; and blogs can contain links to other blogs, forming an extended online community. The term 'blog' was only coined in 1997, yet by the mid-2000s blogging had become a mainstream activity not confined only to Internet enthusiasts; in some professions, such as politics, it is becoming almost a required activity.
 ## Source[^2]
 - A blog, short for weblog, is an online journal or informational website that displays frequently updated information for public consumption. Blogs often consist of a series of blog posts that appear on a single webpage in reverse chronological order. Businesses use blogs to grab the attention of potential customers over the internet, which helps to boost web traffic to their company website. The act of creating a blog post is referred to as blogging, while the writers that produce blog posts are often referred to as bloggers.
+## Source[^3]
+- (web log) A publicly accessible journal maintained on the Web by an individual or group. The topics covered in a blog are dictated by the author and so vary widely: some have become respected sources of information or opinion, while others are vehicles for corporations or other bodies to disseminate information and obtain feedback. Many blogs include facilities for readers to post comments and to engage in debate; blogs can also contain links to other blogs, forming an extended online community. It is now very easy to create and maintain a blog, using freely available software and services. See USER-GENERATED CONTENT.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Glossary by Capterra]]
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

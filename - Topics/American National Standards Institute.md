@@ -13,8 +13,11 @@ aliases:
 	- The ANSI home page
 ## Source[^3]
 - The American National Standards Institute (ANSI) is a nonprofit organization that coordinates the development of voluntary consensus standards in the United States. ANSI sets standards such as how long cables should be or what color wires to use when building electronics such as printers or routers.
+## Source[^4]
+- Abbreviation for American National Standards Institute. This organization is the US equivalent of the British Standards Institution or the Deutsches Institut für Normung (DIN).
 ## References
 
 [^1]: [[Home Page - SQL Tutorial by W3Schools]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - Glossary by Capterra]]
+[^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

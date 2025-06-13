@@ -8,7 +8,7 @@ Reviewed: false
 	- Derivative of [[Sine|sin]](x) = cos(x)
 	- Can find out derivative of the sine function by taking concept of limits
 		- The sin of a sum of two angles $\text{sin}(\alpha + \beta) = \text{sin} \alpha \text{cos} \beta + \text{cos} \alpha \text{sin} \beta$
-			- [[Ptolemy’s Identities]], the sum and difference formulas for sine and cosine. [^1]
+			- [[Ptolemy's Identities]], the sum and difference formulas for sine and cosine. [^1]
 			- Shows that $sin(x + \Delta x)$ = $sinxcos\Delta x + cosx sin\Delta x$ 
 	- $\frac {sin\Delta x}{\Delta x}$ = 1 ^6eedca
 	- $lim_{\Delta x \to 0}\frac{cos\Delta x - 1}{\Delta x}$ = 0 

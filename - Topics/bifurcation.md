@@ -7,7 +7,10 @@
 - (2) Bifurcation theory is the theory of equilibrium solutions of nonlinear differential equations; an equilibrium solution is a steady solution, a time periodic, or a quasi-periodic solution. Generally bifurcation points are points at which branches and therefore multiple solutions appear.
 ## Source[^2]
 - The values of a parameter at which the nature of an equilibrium or attractor changes in a dynamical system. Commonly, a stable equilibrium might become unstable but bifurcate (i.e. split) into two stable equilibria. See LOGISTIC MAP.
+## Source[^3]
+- The divestment of part of a business to improve the strategic focus of the remaining part.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

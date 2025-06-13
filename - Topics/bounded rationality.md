@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - Bounded rationality arises because there is a finite limit to the amount of information the human brain can hold and process. Although teamwork and computers can vastly increase the amount of information that can be collected, and the calculations that can be performed, it is still the case that using the information and understanding the implications of the calculations are subject to severe limits. Bounded rationality casts doubt on the model of the economic consumer considering all possible alternatives and optimizing by choosing the most preferred option. The theory of satisficing assumes that individuals and organizations consider only a relatively small number of alternatives, and frequently stop searching once they find a tolerable course of action, rather than seeking the best possible. See also BEHAVIOURAL ECONOMICS.
+## Source[^2]
+- The type of rationality that most people (or organizations) resort to when faced with complex decisions in fast-moving, real-life situations where perfect information is unavailable. Given these constraints, decision makers will be content to find an alternative that gives satisfactory profits rather than one that maximizes profits. The concept of bounded rationality is thus a corrective to the assumption of many economic theories that economic agents make ideally rational decisions to optimize their self-interest. Similarly, some theorists have introduced the concepts of bounded willpower and bounded self-interest to explain decision making that appears to deviate from this model. See SATISFICING behavior. See also BEHAVIOURAL FINANCE.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
