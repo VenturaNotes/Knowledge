@@ -7,7 +7,10 @@
 
 ## Source[^2]
 - The exclusive right to reproduce artistic, dramatic, literary, or musical work, or to authorize its reproduction by others. Copyright persists for a finite period after the author's death; it can be sold or inherited. It also extends to films and television, and is one of the main forms of intellectual property rights.
+## Source[^3]
+- The exclusive right to reproduce or authorize others to reproduce artistic, dramatic, literary, or musical works. It is conferred by the Copyright Act 1988, which also extends to sound broadcasting, cinematograph films, television broadcasts, and computer programs. In EU countries copyright lasts for the author's lifetime plus 70 years from the end of the year of death (or from the end of the year of publication, if later); it can be assigned or transmitted on death. The principal remedies for breach of copyright (see PIRACY) are an action for damages and account of profits or an injunction. It is a criminal offence to make or deal in articles that infringe a copyright.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

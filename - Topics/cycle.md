@@ -40,6 +40,10 @@ $$
   
 
 are disjoint. Every permutation of a set can be expressed uniquely as the composition of disjoint cycles.
+
+## Source[^2]
+- The medium-term wavelike rise and fall of the sales of a product, resulting from changes in general economic and competitive activity. See also BUSINESS CYCLE.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

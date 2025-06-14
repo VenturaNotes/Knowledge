@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (compulsory winding-up) The liquidation of a company by a court. A petition must be presented both at the court and the registered office of the company. Those by whom it may be presented include: the company, the directors, a creditor, an official receiver, and the Secretary of State for Business, Innovation and Skills. The grounds on which a company may be wound up by the court include: a special resolution of the company that it be wound up by the court; that the company is unable to pay its debts; that the number of members is reduced below two; or that the court is of the opinion that it would be just and equitable for the company to be wound up. The court may appoint a provisional liquidator after the winding-up petition has been presented; it may also appoint a special manager to manage the company's property. On the grant of the order for winding-up, the official receiver becomes the liquidator and continues in office until some other person is appointed, either by the creditors or the members. Compare CREDITORS' VOLUNTARY LIQUIDATION; MEMBERS' VOLUNTARY LIQUIDATION.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
