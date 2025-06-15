@@ -13,6 +13,9 @@
 			- (a) Parts of a decision table
 			- (b) Example of a decision table
 - Decision tables have been used both for program specification and implementation, the latter being achieved by directly interpreting (or generating an executable program from) the decision table format.
+## Source[^2]
+- A table used to aid decision making. The table shows the problems requiring actions to be considered and estimated probabilities of outcomes. Where probabilities are difficult to estimate, the maximax and maximin criteria are often used, the former leading to the selection of the option with the greatest maximum outcome, the latter to the selection of the action with the greatest minimum outcome.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
