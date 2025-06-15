@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An annual report by the directors of a company to its shareholders, which forms parts of the accounts required to be filed with the Registrar of Companies under the Companies Act. The information that must be given includes the principal activities of the company, a fair review of the performance and position of the business with likely future developments, details of research and development, significant issues regarding the sale, purchase, or valuation of assets, recommended dividends, transfers to reserves, names of the directors and their interests in the company during the period, employee statistics, and any political or charitable gifts made during the period. The UK government issued new regulations for the directors' report in 2005; these required a more comprehensive review of the company's performance and a description of the principal risks and uncertainties affecting its future. The scope of the directors' report was further expanded by the Companies Act 2006, which requires public companies to include information on employees, crucial supply chains, and the company's environmental record; in the case of larger companies, key performance indicators must be cited. See also Accounts modernization directive.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

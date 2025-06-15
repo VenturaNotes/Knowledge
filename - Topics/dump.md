@@ -5,6 +5,10 @@
 - On a large multiuser system, the total volume of stored information means that it may not be practicable to dump all the information on every occasion. In these cases an [[incremental dump]] can be taken, containing only those files that are marked as having been altered since the last dump; this reduces the total amount of information to be copied during the dump, allowing dumps to be made more frequently.
 - (2) A snapshot of the contents of system memory taken when a system crash has occurred. In principle it is possible to determine the immediate cause of a system crash by studying the dump and determining the reason for any inconsistencies in its contents. In practice this may be difficult even with the assistance of dump analysis software. 
 - (3) To produce a dump (defs. 1 or 2 ).
+## Source[^2]
+- (1) To transfer the contents of a computer's main memory onto a backing memory. This provides a back-up copy of the main memory for security reasons. 
+- (2) A printout of the contents of computer memory, or of a file, used to diagnose such problems as crashes.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

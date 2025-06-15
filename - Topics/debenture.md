@@ -2,6 +2,11 @@
 - 
 ## Source [^1]
 - A secured loan raised by a company, usually with fixed interest and sometimes with a fixed redemption date. Debenture holders have no control over the company so long as their interest is paid and any conditions of the loan are complied with, but if the interest is not paid or the conditions are broken they can take control of the company, and they rank before other shareholders in the event of liquidation. Convertible debentures are debentures carrying a right to convert to equity shares at some future date.
+## Source[^2]
+- (1) The most common form of long-term loan taken by a company. It is usually a loan repayable at a fixed date, although some debentures are irredeemable securities; these are sometimes called perpetual debentures. Most debentures also pay a fixed rate of interest, and this interest must be paid before a dividend is paid to shareholders. Most debentures are also secured on the borrower's assets, although some, known as naked debentures or unsecured loan stock, are not. In the USA debentures are usually unsecured, relying only on the reputation of the borrower. In a secured debenture, the bond may have a fixed charge (i.e. a charge over a particular asset) or a floating charge. If debentures are issued to a large number of people (for example in the form of debenture stock or loan stock) trustees may be appointed to act on behalf of the debenture holders. There may be a premium on redemption and some debentures are convertible, i.e. they can be converted into ordinary shares on a specified date, usually at a specified price. The advantage of debentures to companies is that they carry lower interest rates than, say, overdrafts and are usually repayable a long time into the future. For an investor, they are usually saleable on a stock exchange and involve less risk than equities. 
+- (2) A deed under seal setting out the main terms of such a loan. 
+- (3) A form of bank security covering corporate debt, either fixed or floating; in either case the bank ranks as a preferred creditor in the event of liquidation.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
