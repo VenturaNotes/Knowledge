@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (FVA) A form of accounting in which assets are measured at their current market price (or an estimate of that price), with all changes in that value being recognized in the profit and loss. FVA developed in the 1980s and 1990s with the growth in the derivatives trade and the practice of marking these products to their market value or to an accepted pricing model. This form of accounting differs from traditional historical-cost accounting in that it allows for the recording of unrealized gains where the market price of assets has risen above their historical cost. Owing to the nature of the derivatives market, fair value accounting can therefore introduce a high degree of volatility to the profit and loss account (see HEDGE ACCOUNTING). Critics of FVA argue that it exacerbated the banking crisis of 2008, as mark-to-market rules helped to create a downward price spiral in which complex derivatives products held by the banks rapidly became 'toxic' assets for which there was no longer a functioning market. Nevertheless, it is now enshrined in International Financial Reporting Standards and the Financial Reporting Standard Applicable in the UK and Republic of Ireland.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
