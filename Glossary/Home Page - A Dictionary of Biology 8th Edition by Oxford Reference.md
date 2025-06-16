@@ -2938,7 +2938,7 @@ Reviewed: false
 	2907. lacteal
 	2908. lactic acid
 	2909. lactobacillus
-	2910. lactoferrin
+	2910. [[lactoferrin]]
 	2911. lactogenic hormone
 	2912. lactose
 	2913. lacuna
@@ -2954,7 +2954,7 @@ Reviewed: false
 	2923. lamellipodium
 	2924. lamin
 	2925. lamina
-	2926. laminin
+	2926. [[laminin]]
 	2927. lampbrush chromosome
 	2928. lamprey
 	2929. lancelet
@@ -2974,7 +2974,7 @@ Reviewed: false
 	2943. latent virus
 	2944. lateral-line system
 	2945. lateral gene transfer
-	2946. lateralization
+	2946. [[lateralization]]
 	2947. lateral root
 	2948. latex
 	2949. Laurasia

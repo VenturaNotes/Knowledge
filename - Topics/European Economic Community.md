@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (EEC; Common Market) The European common market set up by the six member states of the European Coal and Steel Community (ECSC) in 1957. At the same time the European Atomic Energy Community (Euratom) was set up. The European Parliament and the European Court of Justice were formed in accordance with the Treaty of Rome in 1957. The treaty aimed to forge a closer union between the countries of Europe by removing the economic effects of their frontiers. This included the elimination of customs duties and quotas between members, a common trade policy to outside countries, the abolition of restrictions on the movement of people and capital between member states, and a Common Agricultural Policy. In addition to these trading policies, the treaty envisaged a harmonization of social and economic legislation to enable the Common Market to work. The European Community (EC) was created in 1967, when the controlling bodies of the EEC, ECSC, and Euratom were merged to form the Commission of the European Communities (see European Commission) and the Council of the European Communities. The UK, Ireland, and Denmark joined the EC in 1973, Greece joined in 1981, and Portugal and Spain became members in 1986. In 1992, following the ratification of the Maastricht Treaty, the European Community became the European Union.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

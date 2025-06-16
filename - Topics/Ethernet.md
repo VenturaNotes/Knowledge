@@ -18,8 +18,11 @@
 - The physical size of the Ethernet can be increased by the use of repeaters, which simply amplify the signals, and by bridges and routers, which store and retransmit a complete packet.
 - http://standards.ieee.org/about/get/802/802.3.html
 	- The latest (10 Gigabit) Ethernet standard
+## Source[^4]
+- A high-speed local area network system. When first introduced in the 1980s, Ethernet worked at a standard 10 million bits per second; Fast Ethernet and Gigabit Ethernet working at respectively 10 and 100 times this speed have since become available.
 ## References
 
 [^1]: ChatGPT
 [^2]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
