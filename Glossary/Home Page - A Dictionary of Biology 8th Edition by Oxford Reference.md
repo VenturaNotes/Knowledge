@@ -4019,7 +4019,7 @@ Reviewed: false
 	3988. peramorphosis
 	3989. perception
 	3990. perennation
-	3991. perennial
+	3991. [[perennial]]
 	3992. perfect((in botany))
 	3993. perforin
 	3994. perfusion techniques
@@ -4090,7 +4090,7 @@ Reviewed: false
 	4059. phelloderm
 	4060. phellogen
 	4061. phenetic
-	4062. phenocopy
+	4062. [[phenocopy]]
 	4063. phenology
 	4064. phenolphthalein
 	4065. phenome
@@ -4161,7 +4161,7 @@ Reviewed: false
 	4130. phycocyanin
 	4131. phycoerythrin
 	4132. phycomycetes
-	4133. phycoplast
+	4133. [[phycoplast]]
 	4134. phyletic series
 	4135. phyllode
 	4136. phyllotaxis

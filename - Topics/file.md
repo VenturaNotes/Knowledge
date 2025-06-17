@@ -11,7 +11,10 @@ aliases:
 - A file (also referenced as a computer file) is a collection of data stored on a computer system under a unique filename. There are various categories of files; the most widely used file types include document files, image files, audio files, video files, log files, software library files, and application files.
 - Each file category contains various file formats. For example, image files contain an array of formats such as JPEGs, GIFs, BMPs, or PNGs. Computer users can determine a file's format by viewing either its file icon or its file extension (which is often a part of its file naming scheme).
 - Files can be opened, saved, deleted, and organized in file folders. In a business setting, employees typically transfer files throughout their organization over a company network as a means of information sharing.
+## Source[^3]
+- In computing, a collection of related information held on backing store that is treated as a unit. A file may contain data of any kind.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Glossary by Capterra]]
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
