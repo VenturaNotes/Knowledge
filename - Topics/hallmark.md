@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- In the UK, a series of marks (usually four) stamped on articles made of gold, silver, platinum, or (from 2010) palladium to indicate the maker, the hall or assay office making the mark, the quality of the metal, and the date of assay. Each of the four halls (London, Birmingham, Sheffield, and Edinburgh) have distinguishing marks (e.g. a leopard for London, an anchor for Birmingham). The quality of gold was indicated by a carat mark (22, 18, 14 , and 9 carats) until 1975, after which it was expressed in parts of gold per 1000 (e.g. 22 carat $=916,14$ carat $=585,9$ carat $=375$ ). The quality mark for sterling silver ( 925 parts per 1000) in England is a lion (passant) and in Scotland a thistle or lion (rampant). Britannia silver (958) is indicated by a full-length figure of Britannia. Platinum is indicated by an orb. The date is indicated by a letter in a specifically shaped shield. Hallmarks on precious metals are accepted internationally and there are heavy penalties for forging them or selling articles made in the UK of these metals (except those exempt) without them. The future of hallmarks is, however, uncertain, owing to current moves to make the marking of precious metals consistent throughout the EU. Since January 1999 all articles made in the EU of gold, silver, or platinum must carry a numeral indication of purity (in parts per 1000) in addition to any hallmarks.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

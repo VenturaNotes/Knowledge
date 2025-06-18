@@ -13,9 +13,12 @@
 
 ## Source[^4]
 - A branch of mathematics that predicts the outcomes of interactions between ‘players’ according to the costs and benefits of the strategy each player employs. Although originally developed to elucidate problems in economics, game theory is used in evolutionary biology to study behavioral strategies among animal populations, such as confrontation, cooperation, and altruism, and how these evolve. Organisms expend energy (a ‘cost’) to acquire resources (a ‘benefit’) from their surroundings. The net gain or loss of such an interaction is the payoff, and different strategies result in different payoffs. Game theory enables mathematical modelling of such interactions to predict outcomes and how the different strategies might affect reproductive fitness of individuals in the population and through subsequent generations.
+## Source[^5]
+- A mathematical theory, developed by J. von Neumann (1903-57) and O. Morgenstern (1902-77) in 1944, concerned with predicting the outcome of games of strategy (rather than games of chance) in which the participants have incomplete information about the others' intentions. Under perfect competition there is no scope for game theory, as individual actions are assumed not to influence others significantly; under oligopoly, however, this is not the case. Game theory has been increasingly applied to economics and the theory of industrial organizations. The theory was further elucidated by the economists John Nash, John Harsanyi, and Reinhard Selten (1930-2016), who received the Nobel Prize for Economics in 1994.
 ## References
 
 [^1]: ChatGPT
 [^2]: [[(1) Game Theory 101 (1) - Introduction]]
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^5]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

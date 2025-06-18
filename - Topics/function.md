@@ -43,7 +43,10 @@ See also BIJECTION, HOMOMORPHISM, INJECTION, OPERATION, SURJECTION. 2. A program
 - In python, a function is a block of code that performs a task and is defined using `def`, but when it's defined inside a class and takes `self` as the first parameter, it becomes a `method`
 	- #question Is this true? I just thought all blocks that perform a task are called methods in Python? So functions are all methods not in a class without `self`?
 	- #question Do all classes need the `self` handle in the first parameter? 
+## Source[^3]
+- A section or department of an organization that carries out a discrete activity, under the control of a manager or director. It is the section of the business for which functional budgets are produced. Examples of separate functions are production, sales, finance, and personnel.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: ChatGPT
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
