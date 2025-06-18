@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An agreement to buy or sell a fixed quantity of a particular commodity, currency, or security for delivery at a fixed date in the future at a fixed price. Unlike an option, a futures contract involves a definite purchase or sale and not an option to buy or sell; it therefore may entail a potentially unlimited loss. However, futures provide an opportunity for those who must purchase goods regularly to hedge against changes in price and for speculators to make large profits. In London, futures are traded in a variety of markets. Financial futures are traded on the LIFFE (now effectively part of ICE Futures Europe), whose commodity department deals with shipping and with cocoa, coffee, and other foodstuffs; the London Metal Exchange deals with metals; and the International Petroleum Exchange (ICE Futures Europe) with oil. In many cases actual goods (see ACTUALS) do not pass between dealers in these futures markets, a bought contract being cancelled out by an equivalent sale contract, and vice versa; money differences arising as a result are usually settled through a clearing house. In some futures markets only brokers are allowed to trade; in others, both dealers and brokers are permitted to do so. See also FORWARD DEALING.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

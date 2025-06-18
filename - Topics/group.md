@@ -55,7 +55,10 @@ The group is a very important algebraic structure that underlies many other alge
   
 
 Groups were originally introduced for solving an algebraic problem. By group theory it can be shown that algorithmic methods of a particular kind cannot exist for finding the roots of a general polynomial of degree greater than four. See also SEMIGROUP.
+## Source[^3]
+- A parent undertaking and its subsidiary or subsidiaries. In UK tax law, two or more companies constitute a group where one company holds more than $50 \%$ of the shares in the other(s). This test is usually applied to the voting share capital only. Where there is a group of companies, the availability of the lower rates of corporation tax is restricted. Where the links between companies are made by share ownership of $75 \%$ or over, assets can be passed among the companies without a tax charge in respect of capital gains. See CONSOLIDATED FINANCIAL STATEMENTS; GROUP RELIEF. See also MEDIUM-SIZED GROUP; SMALL GROUP.
 ## References
 
 [^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

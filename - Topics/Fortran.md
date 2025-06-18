@@ -9,6 +9,9 @@ aliases:
 - Fortran programs use a notation strongly reminiscent of algebra (hence formula translation), and it is thus fairly easy for the scientist to specify a computation. Fortran II introduced the important idea of independent compilation of subroutines, making it possible to establish libraries of scientific subroutines. The efficient code produced by the early Fortran compilers did much to ensure the acceptance of high-level languages as a normal mode of use of computers.
 - http://gcc.gnu.org/wiki/GFortranStandards
 	- Links to standards for the various versions of Fortran
+## Source[^2]
+- Acronym for formula translation, a computer programming language. The first high-level language to gain widespread acceptance for mathematical and scientific work, Fortran has been dominant in this field since the 1950s. A vast amount of software has been written in it, forming an investment that ensures its continued popularity despite advances in programming language design.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

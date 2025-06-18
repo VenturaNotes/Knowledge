@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A financial transaction or position designed to mitigate the risk of other transactions or positions. For example, a manufacturer may contract to sell a large quantity of a product for delivery over the next six months. If the product depends on a raw material that fluctuates in price, and if the manufacturer does not have sufficient raw material in stock, an open position will result. This open position can be hedged by buying the raw material required on a futures contract; if it has to be paid for in a foreign currency the manufacturer's currency needs can be hedged by buying that foreign currency forward or on an option. Operations of this type do not offer total protection because the prices of spot goods and futures do not always move together, but it is possible to reduce the vulnerability of an open position substantially by hedging.
+- Buying futures or options as a hedge is only one kind of hedging; it is known as long hedging. In short hedging, something is sold to cover a risk. For example, a fund manager may have a large holding of long-term fixed income investments and is worried that an anticipated rise in interest rates will reduce the value of the portfolio. This risk can be hedged by selling interest-rate futures on a financial futures market. If interest rates rise the loss in the value of the portfolio will be offset by the profit made in covering the futures sale at a lower price.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
