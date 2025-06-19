@@ -4183,7 +4183,7 @@ Reviewed: false
 	4152. physisorption
 	4153. phyto-
 	4154. phytoaccumulation
-	4155. phytoalexin
+	4155. [[phytoalexin]]
 	4156. phytochelatin
 	4157. phytochrome
 	4158. phytoecdysteroid
@@ -4420,7 +4420,7 @@ Reviewed: false
 	4389. pronation
 	4390. proofreading
 	4391. propagation
-	4392. propagule
+	4392. [[propagule]]
 	4393. prophage
 	4394. prophase
 	4395. proplastid
@@ -4432,7 +4432,7 @@ Reviewed: false
 	4401. prostaglandin
 	4402. prostate gland
 	4403. prosthetic group
-	4404. protamine
+	4404. [[protamine]]
 	4405. protandry
 	4406. protanopia
 	4407. protease
@@ -4741,7 +4741,7 @@ Reviewed: false
 	4710. rhesus factor
 	4711. rhizarians
 	4712. rhizoid
-	4713. rhizome
+	4713. [[rhizome]]
 	4714. Rhizopoda
 	4715. rhizosphere
 	4716. Rhodophyta
