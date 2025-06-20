@@ -1890,7 +1890,7 @@ Reviewed: false
 	1860. exogamy
 	1861. [[exogenous]]
 	1862. exome
-	1863. exon
+	1863. [[exon]]
 	1864. exon shuffling
 	1865. exonuclease
 	1866. exopeptidase
@@ -1904,7 +1904,7 @@ Reviewed: false
 	1874. experimental taxonomy
 	1875. expiration
 	1876. expiratory centre
-	1877. explantation
+	1877. [[explantation]]
 	1878. exponential growth
 	1879. expressed sequence tag
 	1880. expression vector
@@ -4843,7 +4843,7 @@ Reviewed: false
 	4812. sarcolemma
 	4813. sarcoma
 	4814. sarcomere
-	4815. sarcoplasm
+	4815. [[sarcoplasm]]
 	4816. sarcoplasmic reticulum
 	4817. satellite DNA
 	4818. saturated
