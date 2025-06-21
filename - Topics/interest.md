@@ -1,7 +1,9 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- (1) The charge made for borrowing a sum of money. The interest rate is the charge made, expressed as a percentage of the total sum loaned, for a stated period of time (usually one year). Thus, a rate of interest of $15 \%$ per annum means that for every $£ 100$ borrowed for one year, the borrower has to pay a charge of $£ 15$, or a charge in proportion for longer or shorter periods. In simple interest, the charge is calculated on the sum loaned only, thus $I=P r t$, where $I$ is the interest, $P$ is the principal sum, $r$ is the rate of interest, and $t$ is the period. In compound interest, the charge is calculated on the sum loaned plus any interest that has accrued in previous periods. In this case $I=P\left[(1+r)^{n}-1\right]$, where $n$ is the number of periods for which interest is separately calculated. Thus, if $£ 500$ is loaned for two years at a rate of $12 \%$ per annum, compounded quarterly, the value of $n$ will be $4 \times 2=8$ and the value of $r$ will be $12 / 4=3 \%$. Thus, $I=500\left[(1.03)^{8}-\right.$ $1]=\mathfrak{£} 133.38$, whereas on a simple-interest basis it would be only $£ 120$. These calculations of interest apply equally to deposits that attract income in the form of interest.
+- In general, rates of interest depend on the money supply, the demand for loans, government policy, the risk of nonrepayment as assessed by the lender, the period of the loan, and relative levels of foreign-exchange rates into other currencies. 
+- (2) A share of ownership. See CONTROLLING INTEREST; MINORITY INTEREST; PARTICIPATING INTEREST.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

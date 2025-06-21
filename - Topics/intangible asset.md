@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (invisible asset) An asset that can neither be seen nor touched. The most common of these are competencies, goodwill, and intellectual properties such as patents, trademarks, and copyrights. Goodwill is probably the most intangible and invisible of all assets as no document provides evidence of its existence and its commercial value is difficult to determine. However, it frequently does have very substantial value as the capitalized value of future profits, not attributable purely to the return on tangible assets. While goodwill is called either an intangible asset or an invisible asset, such items as insurance policies and less tangible overseas investments are usually called invisible assets. Intangible assets are increasingly seen as the key to competitive advantage and the market value of a firm (see also BOOK VALUE; INTELLECTUAL CAPITAL).
+- The accounting treatment for intangible assets has been a controversial topic. Under the Companies Act intangible assets is a main heading that should appear on the face of the balance sheet. The following subheadings are required but may be shown either on the face of the balance sheet or in the notes: research and development costs; concessions, patents, licences, trademarks, and similar rights and assets; goodwill; payments on account. Accounting for intangible assets is now covered by Sections 18 and 19 of the Financial Reporting Standard Applicable in the UK and Republic of Ireland. The relevant International Accounting Standards are IAS 22, Business Combinations; IAS 36, Impairment of Assets; and IAS 38, Intangible Assets.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

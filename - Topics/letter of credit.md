@@ -1,0 +1,11 @@
+## Synthesis
+- 
+## Source [^1]
+- (documentary credit) A letter from one banker to another authorizing the payment of a specified sum to the person named in the letter on certain specified conditions (see LETTER OF indication).
+- Commercially, letters of credit are widely used in the international import and export trade as a means of payment. In an export contract, the exporter may require the foreign importer to open a letter of credit at the importer's local bank (the issuing bank) for the amount of the goods. This will state that it is to be negotiable at a bank (the negotiating bank) in the exporter's country in favor of the exporter; often, the exporter (who is called the beneficiary of the credit) will give the name of the negotiating bank. On presentation of the shipping documents (which are listed in the letter of credit) the beneficiary will receive payment from the negotiating bank.
+- An irrevocable letter of credit cannot be cancelled by the person who opens it or by the issuing bank without the beneficiary's consent, whereas a revocable letter of credit can. In a confirmed letter of credit the negotiating bank guarantees to pay the beneficiary, even if the issuing bank fails to honor its commitments (in an unconfirmed letter of credit this guarantee is not given). A confirmed irrevocable letter of credit therefore provides the most reliable means of being paid for exported goods. However, all letters of credit have an expiry date, after which they can only be negotiated by the consent of all the parties.
+- A circular letter of credit is an instruction from a bank to its correspondent banks to pay the beneficiary a stated sum on presentation of a means of identification. It has now been replaced by traveller's cheques.
+- Although the term 'letter of credit' is still widely used, in 1983 the International Chamber of Commerce recommended documentary credit as the preferred term for these instruments.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
