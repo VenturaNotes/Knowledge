@@ -25,10 +25,12 @@ aliases:
 ## Source[^4]
 - (modulator and demodulator) A device that can convert a digital bit stream into an analogue signal suitable for transmission over some analogue communication channel (modulation), and can convert incoming analogue signals back into digital signals (demodulation). Modems are used to connect digital devices across analogue transmission lines. Most modems are designed to match specific national or international standards so that data communication equipment from one manufacturer can talk to that of another.
 - Modems can be packaged in many ways: as add-in cards or PC cards allowing personal computers to communicate over ordinary phone lines, as small external units, or as rack-mounted sets for large applications requiring many simultaneous connections. Modern modems, for attachment to a normal telephone line, can handle data at 56000 bps, which is about the upper limit attainable over voice-frequency channels. Broadband modems allow users to connect at speeds of several gigabits per second using ADSL or similar services.
-
+## Source[^5]
+- Abbreviation for modulator-demodulator, a device that enables a computer to transmit and receive data by means of a communications link, such as a telephone line. The process of converting computer signals into a form suitable for transmission is called modulation. The reverse process, making the transmitted signals intelligible to the computer, is called demodulation. Modems provide access to the telephone network for e-mail and for the Internet.
 ## References
 
 [^1]: https://youtu.be/HGYOEeik844?si=Of10rlTFtMnIvqiq
 [^2]: https://youtu.be/X3X5kYPgYV0?si=XvaSoTl0Uw9_bZW0
 [^3]: https://reolink.com/blog/modem-router-combo-vs-separate/
 [^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

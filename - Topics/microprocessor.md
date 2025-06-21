@@ -8,7 +8,10 @@
 - The next generation of microprocessors included the Zilog Z8000, Motorola 68000, Intel 8086, National 16000, as well as the older Texas Instruments 9900 and Digital Equipment Corporation LSI-11. All of these chips use a 16-bit-wide external data bus. Microprocessors that use 32-bit external data buses include the Intel386, Intel486, Motorola 68030, and Digital's VAX 78032 and 78132 (processor and FPA). Modern processors, for example recent products in Intel's Ivy Bridge family and its derivatives and in AMD's Piledriver family, use a 64-bit external data bus with 64-bit data types and have multiple CPU cores. RISC microprocessor chips with a 64-bit architecture include the PowerPC and SPARC families. See also MULTI-CORE PROCESSOR.
 ## Source[^2]
 - A microprocessor is a critical computer component. It contains various controls required to operate a computer. These include logic and arithmetic circuits. Microprocessors have been around since computers first became available commercially. They were conceived in 1938, and the first microprocessor was created in the late 1960s.
+## Source[^3]
+- In computer technology, an integrated circuit that contains on one chip the arithmetic, logical, and control functions of the central processing unit. Microprocessors are used as control systems in many devices, including car electronics and cameras, as well as in personal computers.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Glossary by Capterra]]
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
