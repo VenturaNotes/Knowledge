@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- The right to buy or sell a fixed quantity of a commodity, currency, security, etc., at a particular date at a particular price (the exercise price). Unlike the buyer of a futures contract, the purchaser of an option is not obliged to buy or sell at the exercise price and will only do so if it is profitable; the purchaser may allow the option to lapse, in which case only the initial purchase price of the option (the option money or premium) is lost.
+- An option to buy is known as a call option and is usually purchased in the expectation of a rising price; an option to sell is called a put option and is bought in the expectation of a falling price or to protect a profit on an investment. Options, like futures, allow individuals and firms to hedge against the risk of wide fluctuations in prices; they also allow dealers and speculators to gamble for large profits with limited initial payments.
+- Professional traders in options make use of a large range of potential strategies, often purchasing combinations of options that reflect particular expectations or cover several contingencies. A traded option is one that can be bought or sold on an exchange at any time, as opposed to a traditional option, which once bought cannot be resold. There is a further distinction between European options, in which the buyer can only exercise the right to take up the option or let it lapse on the expiry date, and American options, in which this right can be exercised at any time up to the expiry date. American options are generally worth more than European options because the option holder has more chance of buying or selling at a favourable price. American options are also more difficult to value. See also REAL OPTION.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -44,6 +44,8 @@
 ## Source[^5]
 - The value of the next best alternative foregone
 	- Example: If you choose to study for 4 hours instead of working, the wages you forgo are your opportunity cost. 
+## Source[^6]
+- The economic cost of an action measured in terms of the benefit foregone by not pursuing the best alternative course of action. The cost of funds, for example, must be measured in terms of the returns they could earn in the capital markets for taking the same degree of risk. Opportunity cost is an important factor in decision making (see COST-BENEFIT ANALYSIS), although it represents costs that are not recorded in the accounts of the relevant organization.
 ## References
 
 [^1]: https://www.investopedia.com/terms/o/opportunitycost.asp
@@ -51,3 +53,4 @@
 [^3]: Google's SGE
 [^4]: https://mru.org/practice-questions/comparative-advantage-practice-questions?sid=8916440
 [^5]: ChatGPT
+[^6]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

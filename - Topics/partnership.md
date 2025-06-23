@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An association of two or more people (partners) formed for the purpose of carrying on a business. Partnerships are governed by the Partnership Act 1890. Unlike an incorporated company, a partnership does not have a legal personality of its own and therefore, as a general rule, partners are liable for the debts of the firm. General partners are fully liable for these debts, limited partners only to the extent of their investment. A limited partnership is one consisting of both general and limited partners and is governed by the Limited Partnership Act 1907. The Limited Liability Partnership Act 2000 now enables some categories of business partnership to claim limited liability in a similar fashion to that enjoyed by limited companies. A partnership-at-will is one for which no fixed term has been agreed. Any partner may end the partnership at any time provided that notice of the intention to do so is given to all the other partners. Nominal partners allow their names to be used for the benefit of the partnership, usually for a reward but not for a share of the profits. They are not legal partners. Partnerships are usually governed by a partnership agreement.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
