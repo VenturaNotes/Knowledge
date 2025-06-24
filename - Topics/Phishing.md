@@ -53,6 +53,8 @@
 
 ## Source[^6]
 - A form of fraud that involves masquerading as a trustworthy entity in an electronic communication (often using forged emails or websites) in order to persuade users to disclose sensitive information such as usernames, passwords, or credit card details. See also SEMANTIC ATTACK.
+## Source[^7]
+- A type of fraud in which victims are tricked into disclosing bank-account or credit-card details, passwords, or other sensitive information by bogus e-mails or text messages, usually purporting to be from a bank or other trustworthy source.
 ## References
 
 [^1]: ChatGPT
@@ -61,3 +63,4 @@
 [^4]: https://www.tessian.com/blog/5-real-world-examples-of-phishing-attacks/
 [^5]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-4-network-security-quizzes/ks4-ocr-j277-1-4-network-security-quiz/
 [^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^7]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

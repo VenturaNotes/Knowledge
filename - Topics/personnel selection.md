@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The process of choosing the most suitable applicant for a vacancy within an organization. Normally, a job description is written, stating the purpose of the job and the tasks, duties, and responsibilities it entails. This enables a personnel specification to be created, listing the qualifications, experience, and personal attributes that will be required in the successful candidate (see KSAOs). A search for the right person then begins, using advertisements in newspapers, trade papers, or employment agencies; if the vacancy is sufficiently senior a head hunter may be employed. Initial selection is then made by inviting letters of application (or using application forms) supported by a curriculum vitae and listing the applicants that most closely match the job specification. Screening interviews may then be held, which may include practical tests so that a short list of final candidates can be drawn up. Second interviews are sometimes required and, when appropriate, psychological tests are used. The number of interviews and the extent of testing will depend on the organization and the level of the position within it. See ASSESSMENT CENTRE; SELECTION INTERVIEW.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The equipment required to operate a business. Capital allowances are available for plant and machinery although neither is defined in the tax legislation. The working definition often used is that given in the taxation case Yarmouth v France (1887). This defines plant and machinery as 'whatever apparatus is used by a businessman for carrying on his business - not his stock in trade which he buys or makes for resale: but all goods and chattels, fixed or moveable, live or dead, which he keeps for permanent employment in the business'. Subsequent cases have been largely concerned with the distinction between plant actively used in a business, and so qualifying for capital allowances, and expenditure on items that relate to the setting up of the business, which do not so qualify. Items ruled to be plant and machinery range from a barrister's law books to sculptures and other decorative items intended to create ambience. Although buildings and parts of buildings do not generally qualify as plant, there are various specified exceptions (e.g. safety and security features in certain types of premises).
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
