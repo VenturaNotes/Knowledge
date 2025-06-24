@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The disposal into the environment of substances that cannot be made harmless by normal biological processes. As part of a wider and increasing concern for environmental issues, the costs of industrialization are being assessed in terms of discharges into the air and water, the disposal and long-term effects of wastes, recycling, energy efficiency, land use and degradation, and the depletion of raw materials. Legislation has been enacted, increasingly, to limit levels of pollution and in 1996 an Environmental Agency was established in the UK to coordinate the previously separate activities of various agencies. Most other advanced industrial countries have introduced legislation and similar agencies. International targets have been agreed to eliminate the use of CFCs in aerosols and as a refrigerant (because they deplete the ozone layer). The adoption of the 'Polluter Pays Principle' (the fining of major companies for pollution incidents) and increasing awareness of green consumerism has meant that many leading companies have now issued environmental policy statements and some publish annual environmental audits. Under the UK's Pollution Prevention and Control Regulations (2000) excessive noise and vibrations are formally classed as pollutants. See also ENVIRONMENTAL COSTS; HAZARDOUS WASTE; WASTE DISPOSAL.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

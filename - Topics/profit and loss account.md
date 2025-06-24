@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- ($\mathbf{P} \& \mathbf{L}$ account) 
+- (1) An account in the books of an organization showing the profits (or losses) made on its business activities with the deduction of the appropriate expenses. 
+- (2) (income statement) A statement of the profit (or loss) of an organization over a financial period. It is one of the statutory accounts that, for most limited companies, has to be filed annually with the UK Registrar of Companies (see ANNUAL ACCOUNTS). The profit and loss account explains what has happened since the previous balance sheet; the users of financial statements require information on the progress and future prospects of the company. Under the Financial Reporting Standard Applicable in the UK and Republic of Ireland the $\mathrm{P} \& \mathrm{~L}$ (or income statement) may appear as a separate item within the statement of total recognized gains and losses (comprehensive income statement) or as an integral part of that statement.
+- The $\mathrm{P} \& \mathrm{~L}$ account typically consists of three parts. The first is a trading account, showing the total sales income less the costs of production, etc., and any changes in the value of stock or work in progress from the last accounting period. This gives the gross profit (or loss). The second part gives any other income and lists administrative and other costs to arrive at a net profit (or loss). From this net profit before taxation the appropriate corporation tax is deducted to give the net profit after taxation. In the third part, the net profit after tax is appropriated to dividends or to reserves (retained profit). The UK Companies Act gives a choice of four formats, one of which must be used to file a profit and loss account for a registered company.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Donations for political or charitable purposes made by an organization. Under the Companies Act a disclosure of such a donation has to be made by companies that are not wholly owned subsidiaries of another British company and which have on their own or with their subsidiaries given in the financial year in aggregate more than $£ 200$. Charitable purposes is taken to mean purposes that are exclusively charitable. A donation for political purposes is taken to mean the giving of money either directly or indirectly to a political party of the UK or any part of it, or to a person who is carrying on activities likely to affect support for a political party. The total amounts given for both political and charitable purposes must be separately disclosed. If the payments are for political purposes, where applicable, the following information must be provided: (a) the name of each person to whom money exceeding $£ 200$ in amount has been given for those purposes and the amount given; and (b) if more than $£ 200$ has been given as a donation or subscription to a political party, the identity of the party and the amount given must be disclosed.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
