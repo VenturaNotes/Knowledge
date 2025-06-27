@@ -2422,7 +2422,7 @@ Reviewed: false
 	2391. helix-turn-helix
 	2392. helper T cell
 	2393. heme
-	2394. hemicellulose
+	2394. [[hemicellulose]]
 	2395. Hemichordata
 	2396. hemicryptophyte
 	2397. hemimetabolous
@@ -3238,7 +3238,7 @@ Reviewed: false
 	3207. melatonin
 	3208. membrane
 	3209. membrane attack complex
-	3210. membrane bone
+	3210. [[membrane bone]]
 	3211. membrane potential
 	3212. membranous labyrinth
 	3213. meme
@@ -3263,7 +3263,7 @@ Reviewed: false
 	3232. mesenteric artery
 	3233. [[mesentery]]
 	3234. mesocarp
-	3235. mesoderm
+	3235. [[mesoderm]]
 	3236. mesofauna
 	3237. mesoglea
 	3238. mesopelagic zone
