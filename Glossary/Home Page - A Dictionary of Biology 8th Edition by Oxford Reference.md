@@ -3275,13 +3275,13 @@ Reviewed: false
 	3244. Mesozoic
 	3245. messenger RNA
 	3246. metabolic pathway
-	3247. metabolic rate
+	3247. [[metabolic rate]]
 	3248. metabolic waste
 	3249. metabolism
 	3250. metabolite
 	3251. [[metabolome]]
-	3252. metabolomics
-	3253. metabotropic receptor
+	3252. [[metabolomics]]
+	3253. [[metabotropic receptor]]
 	3254. metacarpal
 	3255. metacarpus
 	3256. metacentric
