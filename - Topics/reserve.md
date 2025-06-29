@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Part of the capital of a company, other than the share capital, largely arising from retained profit or from the issue of share capital at more than its nominal value. Reserves are distinguished from provisions in that for the latter there is a known diminution in value of an asset or a known liability, whereas reserves are surpluses not yet distributed and, in some cases (e.g. share premium account or capital redemption reserve), not distributable. The directors of a company may choose to earmark part of these funds for a special purpose (e.g. a reserve for obsolescence of plant). However, reserves should not be seen as specific sums of money put aside for special purposes as they are represented by the general net assets of the company. Reserves are subdivided into retained earnings (revenue reserves), which are available to be distributed to the shareholders by way of dividends, and undistributable reserves, which for various reasons are not distributable as dividends, although they may be converted into permanent share capital by way of a bonus issue.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

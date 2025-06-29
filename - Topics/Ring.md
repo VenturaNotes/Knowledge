@@ -40,6 +40,10 @@ The concept of a ring provides an algebraic structure into which can be fitted s
   
 
 itself are circularly linked. 3. In network topology, a ring network is a closed-loop network that does not require terminators. A token ring topology is physically cabled as a star, with a logical ring maintained at the hub. When a workstation connects to the hub, the ring is extended out to the workstation and back to the hub.
+## Source[^2]
+- (1) A number of manufacturers, dealers, or traders who agree among themselves to control the price or conditions of sale of a product for their own benefit. Such agreements are illegal in most countries, unless they can be shown to be in the public interest. See RESTRICTIVE TRADE PRACTICES. 
+- (2) An association of dealers in an auction sale, especially a sale of antiques or paintings, who agree not to bid against each other but to allow one of their number to buy an article being auctioned at an artificially low price, on the understanding that it will be auctioned again, exclusively to members of the ring. The difference between the purchase price and the final price paid is shared among the members of the ring. This is an illegal practice.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

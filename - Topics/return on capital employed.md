@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (ROCE) An accounting ratio expressing the profit of an organization for an accounting period as a percentage of the capital employed. It is one of the most frequently used ratios for assessing the performance of organizations. In making the calculation, however, there are a number of differing definitions of the terms used. Profit is usually taken as profit before interest and tax, while capital employed refers to fixed assets plus current assets minus current liabilities. Sometimes the expression return on investment (ROI) is used, in which case even greater care must be used in understanding the calculation of the separate items. Management may consider that profit before interest and tax, expressed as a percentage of total assets, is a useful measure of performance. Shareholders, however, may be more interested in taking profit after interest and comparing this to total assets less all liabilities. The ratio can be further analyzed by calculating profit margins and capital turnover ratios.
+- For managers, ROCE highlights the benefits that can obtain by reducing investments in current or fixed assets. However, it is important to emphasize that relying on a single performance measure is not desirable and managers should use ROCE in conjunction with other measures. For example, ROCE is often compared to residual income.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

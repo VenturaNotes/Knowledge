@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (share register) A list of the members of a company, which all UK companies must keep at their registered office or some other address notified to the Registrar of Companies. It contains the names and addresses of the members, the dates on which they were registered as members, and the dates on which any ceased to be members. If the company has a share capital, the register must state the number and class of the shares held by each member and the amount paid for the shares. Entry in the register constitutes evidence of ownership. Thus, a shareholder who loses a share certificate can obtain a replacement from the company provided proof of identity is supplied. However, as legal rather than beneficial ownership is registered, it is not always possible to discover from the register who controls the shares. Under the Companies Act 2006 the register must be open to inspection by members free of charge and by others on payment of a fee; in both cases the person seeking information must apply to the company in writing, explaining the reason for the request. A company that wishes to decline such a request must apply to the court.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
