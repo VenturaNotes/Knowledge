@@ -3299,7 +3299,7 @@ Reviewed: false
 	3268. metastasis
 	3269. metatarsus
 	3270. Metatheria
-	3271. metaxylem
+	3271. [[metaxylem]]
 	3272. Metazoa
 	3273. methanogen
 	3274. methionine
@@ -3554,7 +3554,7 @@ Reviewed: false
 	3523. Neanderthal
 	3524. Nearctic region
 	3525. near point
-	3526. necrosis
+	3526. [[necrosis]]
 	3527. nectar
 	3528. negative-sense((in genetics))
 	3529. negative feedback
@@ -3592,7 +3592,7 @@ Reviewed: false
 	3561. nervous system
 	3562. net assimilation rate
 	3563. net primary productivity
-	3564. netrin
+	3564. [[netrin]]
 	3565. neural crest cells
 	3566. neural network
 	3567. neural plate
