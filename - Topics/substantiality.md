@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- (plural sumy) (UZS) The standard monetary unit of Uzbekistan, divided into 100 tyin.
+- The extent to which a market segment is sufficiently large or profitable to provide a worthwhile attempt to service it.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
