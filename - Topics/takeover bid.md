@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (offer to purchase) An offer made to the shareholders of a company by an individual or organization to buy their shares at a specified price in order to gain control of that company. In a welcome takeover bid the directors of the company will advise shareholders to accept the terms of the bid. This is usually known as a merger. If the bid is unwelcome, or the terms are unacceptable, the board will advise against acceptance (see HOSTILE BID). In the ensuing takeover battle, the bidder may improve the terms offered and will then usually write to shareholders outlining the advantages that will follow from the successful takeover. In the meantime bids from other sources may be made (see GREY KNIGHT; WHITE KNIGHT) or the original bidder may withdraw as a result of measures taken by the board of the target company (see POISON PILL; PORCUPINE PROVISIONS). In an unconditional bid, the bidder will pay the offered price irrespective of the number of shares acquired, while the bidder of a conditional bid will only pay the price offered if sufficient shares are acquired to provide a controlling interest. Takeovers in the UK are subject to the rules and disciplines of the City Code on Takeovers and Mergers, which now incorporates articles of the EU's Takeover Directive (2005).
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
