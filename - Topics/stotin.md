@@ -1,8 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- (1) See STOCK EXCHANGE. 
-- (2) A market in which livestock are bought and sold.
+- A former monetary unit of Slovenia worth one hundredth of a tolar.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

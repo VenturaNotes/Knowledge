@@ -1,8 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- (1) See STOCK EXCHANGE. 
-- (2) A market in which livestock are bought and sold.
+- (SBU) An autonomous division of a large company that is responsible for planning the marketing of a particular range of products.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
