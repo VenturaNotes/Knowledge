@@ -217,7 +217,7 @@ Reviewed: false
 	189. amensalism
 	190. Ames test
 	191. ametabolous
-	192. amine
+	192. amine 
 	193. amino acid
 	194. aminopeptidase
 	195. amino sugar
@@ -3599,7 +3599,7 @@ Reviewed: false
 	3568. neural tube
 	3569. neuregulin
 	3570. neurilemma cell
-	3571. neurite
+	3571. [[neurite]]
 	3572. neuroendocrine system
 	3573. neurofibril
 	3574. neurofilament
@@ -4128,7 +4128,7 @@ Reviewed: false
 	4097. photoautotroph
 	4098. photoblastic
 	4099. photochemical smog
-	4100. photoheterotroph
+	4100. [[photoheterotroph]]
 	4101. photoinhibition
 	4102. photolysis
 	4103. photomicrography
@@ -4162,7 +4162,7 @@ Reviewed: false
 	4131. phycoerythrin
 	4132. phycomycetes
 	4133. [[phycoplast]]
-	4134. phyletic series
+	4134. [[phyletic series]]
 	4135. phyllode
 	4136. phyllotaxis
 	4137. PhyloCode
