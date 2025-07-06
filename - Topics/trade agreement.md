@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- The total income plus the capital growth obtained from an investment.
+- A commercial treaty between two (bilateral trade agreement) or more (multilateral trade agreement) nations.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
