@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- (industrial dispute) A dispute between an employer and employees (or their trade union), usually about wages or conditions of working. Under the Trade Union and Labour Relations (Consolidation) Act 1992, a person cannot be sued in tort for an act that is committed in furtherance of a trade dispute on the grounds that it induces or threatens any breach of interference with the performance of a contract. Generally, such immunity extends only to the acts of employees against their own employer. Secondary industrial action (see PICKETING) may be unlawful when it is directed against an employer who is neither a party to the dispute nor the customer or supplier of the employer in dispute. Moreover, there is no immunity in respect of action taken to enforce a closed shop.
+- The 1992 Act gives similar immunity to trade unions for their acts committed in contemplation or furtherance of a trade dispute provided the act concerned is authorized by a majority vote in favor of the action in a secret ballot of the union's members. A trade union member can obtain a court order preventing industrial action being taken if it has not been authorized by a ballot.
+- When a trade union's immunity does not apply and it is ordered to pay damages (other than for causing personal injury or for breach of duty concerning the ownership, control, or use of property, or for products liability under the Consumer Protection Act 1987), the amount awarded may not exceed specified limits. These limits depend on the number of members in the union.
+## References
+
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
