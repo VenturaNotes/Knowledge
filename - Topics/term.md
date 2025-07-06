@@ -43,7 +43,11 @@ would not be a term since the first $f$ has arity 2 while the second has arity 3
 since the first $h$ has arity 1 while the second has arity 0 .
 
 Terms are often built using signatures. A $\Sigma$-term is a term in which each constant and function symbol used is in a signature $\Sigma$, and has the arity associated with it by $\Sigma$ and, if $\Sigma$ is a many-sorted signature, all the sorts match properly. A $\Sigma$-term is also called a term over signature $\Sigma$. Often a $\Sigma$-term is allowed to contain variables (of arity 0 ) in addition to symbols in $\Sigma$. Terms containing variables are called [[open term|open terms]]; terms containing only symbols of the signature are called closed or ground terms. Terms can also be viewed as trees (see TREE LANGUAGE). Terms (whether as expressions or as trees) are important in the construction of virtually all syntactic concepts. Terms as defined here are sometimes called first-order terms, to distinguish them from the higher-order terms (such as those involved in lambda calculus). See also EQUATION, INITIAL ALGEBRA, PREDICATE CALCULUS.
-
+## Source[^3]
+- (1) The period of time before a security expires or is redeemed. 
+- (2) See TERM ASSURANCE. 
+- (3) A clause in a contract that refers to a particular obligation between the contracting parties.
 ## References
 [^1]: [[(1) Variables and Algebraic Expressions#^83d9b4]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
