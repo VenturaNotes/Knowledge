@@ -4244,7 +4244,7 @@ Reviewed: false
 	4213. plasma membrane
 	4214. plasma protein
 	4215. plasmasol
-	4216. plasmid
+	4216. [[plasmid]]
 	4217. plasmin
 	4218. plasminogen
 	4219. plasmodesmata
@@ -4266,7 +4266,7 @@ Reviewed: false
 	4235. Platyhelminthes
 	4236. Platyzoa
 	4237. pleiomorphism
-	4238. pleiotropic
+	4238. [[pleiotropic]]
 	4239. Pleistocene
 	4240. plesiomorphy
 	4241. pleura
@@ -4447,7 +4447,7 @@ Reviewed: false
 	4416. protein profiling
 	4417. protein sequencing
 	4418. protein synthesis
-	4419. protein targeting
+	4419. [[protein targeting]]
 	4420. proteobacteria
 	4421. proteoglycan
 	4422. proteolysis
