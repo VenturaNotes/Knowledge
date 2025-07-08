@@ -4171,7 +4171,7 @@ Reviewed: false
 	4140. phylogenetic tree
 	4141. phylogenomics
 	4142. phylogeny
-	4143. phylogeography
+	4143. [[phylogeography]]
 	4144. phylogram
 	4145. phylum
 	4146. physical map((in genetics))
@@ -4211,7 +4211,7 @@ Reviewed: false
 	4180. pineal eye
 	4181. pineal gland
 	4182. pinna
-	4183. pinocytosis
+	4183. [[pinocytosis]]
 	4184. pipette
 	4185. piRNA
 	4186. Pisces
@@ -4248,7 +4248,7 @@ Reviewed: false
 	4217. plasmin
 	4218. plasminogen
 	4219. plasmodesmata
-	4220. plasmodium
+	4220. [[plasmodium]]
 	4221. plasmogamy
 	4222. plasmolysis
 	4223. plasticity
