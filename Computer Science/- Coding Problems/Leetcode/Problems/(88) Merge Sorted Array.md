@@ -3,7 +3,7 @@ Source:
   - https://leetcode.com/problems/merge-sorted-array/
 Reviewed: false
 ---
-## Synthesis[^1]
+## Synthesis
 ### My Solution
 ```python
 class Solution:
@@ -11,9 +11,13 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
+        # Create array same length as nums1
         test = [0]*(m+n)
+
+		# Create two pointers that both start at zero-th index
         j = 0
         k = 0
+        # Loop through each index in nums1
         for i in range(len(nums1)):
             if m > j and n > k:
                 if nums1[j] <= nums2[k]:
@@ -33,11 +37,28 @@ class Solution:
             nums1[i] = test[i]
 ```
 
-### Alternative Solution
-```pyth
+### Alternative Solution [^1]
+```python
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        i = m - 1
+        j = n - 1
+        k = m + n - 1
+        
+        while j >= 0:
+            if i >= 0 and nums1[i] > nums2[j]:
+                nums1[k] = nums1[i]
+                i -= 1
+            else:
+                nums1[k] = nums2[j]
+                j -= 1
+            k -= 1
 ```
 
-## Source [^1]
+## Source
 - 
 ## References
 
