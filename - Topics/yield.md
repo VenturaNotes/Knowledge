@@ -1,7 +1,8 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- (1) The income from an investment expressed in various ways. The nominal yield of a fixed-interest security is the interest it pays, expressed as a percentage of its par value. For example, a $£ 100$ stock quoted as paying $8 \%$ interest will yield $£ 8$ per annum for every $£ 100$ of stock held. However, the current yield (also called running yield, earnings yield, or flat yield) will depend on the market price of the stock. If the $8 \% £ 100$ stock mentioned above was standing at a market price of $£ 90$, the current yield would be $100 / 90 \times 8=8.9 \%$. As interest rates rise, so the market value of fixed-interest stocks (not close to redemption) fall in order that they should give a competitive current yield. The capital gain (or loss) on redemption of a stock, which is normally redeemable at $£ 100$, can also be taken into account. This is called the yield to redemption (or the redemption yield). The redemption yield consists approximately of the current yield plus the capital gain (or loss) divided by the number of years to redemption. Thus, if the above stock had 9 years to run to redemption, its redemption yield would be about $8.9+10 / 9=10 \%$. The yields of the various stocks on offer are usually listed in commercial papers as both current yields and redemption yields, based on the current market price. However, for an investor who actually owns stock, the yield will be calculated not on the market price but the price the investor paid for it. The annual yield on a fixed-interest stock can be stated exactly once it has been purchased. This is not the case with equities, however, where neither the dividend yield (see DIVIDEND) nor the capital gain (or loss) can be forecast, reflecting the greater degree of risk attaching to investments in equities. Yields on fixed-interest securities and equities are normally quoted gross, i.e. before deduction of tax.
+- (2) The income obtained from a tax.
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

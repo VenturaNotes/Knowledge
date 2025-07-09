@@ -11,6 +11,9 @@
 	- immediate verification of data input, such as checking that a number is in the correct range or word-by-word spell checking (see SPELLING CHECKER).
 - As computers and terminals become available to many more people with no previous experience in the computer industry, it becomes important that only the simplest interactions should be necessary for them to start making practical use of the systems.
 - The term user-friendly is acquiring a wider ranging application, e.g. to other types of human-computer interfaces, catalogues, and training manuals.
+## Source[^2]
+- Denoting a computer system that is intended to be easy to use by people who are not computer specialists.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -11,7 +11,10 @@
 - UNIX has been implemented by a wide range of workers and on a wide range of hardware platforms. Versions have been written by individual workers through to large software houses and major hardware manufacturers, for computer systems from desktop computers through to enterprise servers. As an almost inevitable consequence there has been a bewildering number of restrictions and/or extensions to the facilities offered by the system, as well as differing implementations of what are apparently the same features. There have been repeated efforts at standardization, and several versions have been defined. The current position (2014) is that only those systems that comply with The Open Group's Single UNIX Specification may call themselves 'UNIX.'
 - http://www.unix.org/
 	- The Open Group's UNIX page
+## Source[^3]
+- A computer operating system that originated in Bell Laboratories in 1969. Originally used mainly by universities, it proved significant in the development of the Internet and is now widely used in workstations, mobile devices, and mid-range systems.
 ## References
 
 [^1]: Google's Search Labs 
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
