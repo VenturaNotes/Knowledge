@@ -5,6 +5,10 @@
 - The [[windows system]] was originally conceived at Rank Xerox and was first used commercially on the Apple Macintosh computer. It is now available on most types of computer. See also Windows, windows manager, X Windows. 
 - (2) A source region in one coordinate system that is mapped into a destination region (called a viewport) by a window-to-viewport transformation. Both window and viewport are normally rectangular regions, consequently a window-to-viewport transformation consists of translation and scaling components only. 
 - (3) An allocation of messages, data units, or both, given by a receiver to a sender in a data communication protocol. It controls how much data the sender may transmit before it receives an acknowledgment from the receiver. The window is used for flow control by the receiver, to prevent the sender from transmitting more rapidly than the receiver can process. The window is also used for error management, by establishing the range of data that is unacknowledged and thus may need to be retransmitted. The selection of a proper window size is dependent upon the properties of the path between the sender and receiver: bandwidth, delay, and network congestion are important factors.
+## Source[^2]
+- (1) An opportunity to borrow or invest that may be only temporary and should therefore be taken while it is available. 
+- (2) A period during the day during which interbank transfers and clearance may be enacted.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
