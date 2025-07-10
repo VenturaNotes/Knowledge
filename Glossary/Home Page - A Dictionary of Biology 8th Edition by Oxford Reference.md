@@ -4472,7 +4472,7 @@ Reviewed: false
 	4441. protoplasm
 	4442. protoplast
 	4443. protostome
-	4444. Prototheria
+	4444. [[Prototheria]]
 	4445. protoxylem
 	4446. protozoa
 	4447. Protura
@@ -4491,7 +4491,7 @@ Reviewed: false
 	4460. pseudocoelomate
 	4461. pseudogamy
 	4462. pseudogene
-	4463. pseudoheart
+	4463. [[pseudoheart]]
 	4464. pseudoparenchyma
 	4465. pseudoplasmodium
 	4466. pseudopodium
@@ -4683,7 +4683,7 @@ Reviewed: false
 	4652. renaturation
 	4653. renin
 	4654. rennin
-	4655. Renshaw cell
+	4655. [[Renshaw cell]]
 	4656. repetitive DNA
 	4657. replacing bone
 	4658. replication
