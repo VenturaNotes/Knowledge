@@ -25,7 +25,10 @@
 - Example
 	- Wage elasticity of labor supply 
 		- Measures how the quantity of labor supplied responds to changes in wages
+## Source[^3]
+- The ratio between the proportional change in one variable and the proportional change in another. The elasticity of variable $y$ with respect to $x$ is $\varepsilon=(d y / y) /(d x / x)$. The concept is useful because comparisons of proportional changes are independent of the units in which the variables, such as price or quantity, are measured. As $(d y / y) /(d x / x)=d(\log y) / d(\log x)$, elasticity equals the ratio of changes in the logarithms of the two variables. See also ARC ELASTICITY; POINT ELASTICITY.
 ## References
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: ChatGPT
+[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
