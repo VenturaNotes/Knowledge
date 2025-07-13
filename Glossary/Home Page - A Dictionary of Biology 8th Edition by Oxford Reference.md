@@ -4761,7 +4761,7 @@ Reviewed: false
 	4730. ribosomal RNA
 	4731. ribosome
 	4732. riboswitch
-	4733. ribotyping
+	4733. [[ribotyping]]
 	4734. ribozyme
 	4735. ribulose
 	4736. ribulose bisphosphate
@@ -4826,7 +4826,7 @@ Reviewed: false
 	4795. sagittal
 	4796. salicylic acid
 	4797. saline
-	4798. salinization
+	4798. [[salinization]]
 	4799. saliva
 	4800. salivary glands
 	4801. Salmonella
@@ -5081,12 +5081,16 @@ Reviewed: false
 	5050. somatic hypermutation
 	5051. somatic recombination
 	5052. somatic sensory neuron
+		1. See sensory neuron
 	5053. somatomedin
+		1. See insulin-like growth factor
 	5054. somatosensory cortex
+		1. See cerebrum
 	5055. somatostatin
 	5056. somatotrophin
+		1. See growth hormone
 	5057. somite
-	5058. sonicator
+	5058. [[sonicator]]
 	5059. Sonic hedgehog
 	5060. soredium
 	5061. sorosis
