@@ -4,6 +4,7 @@ Source:
 Reviewed: false
 ---
 ## Synthesis
+- Goal: Sort the two arrays inside the first array in non-decreasing order
 ### My Solution
 ```python
 class Solution:
@@ -36,6 +37,10 @@ class Solution:
         for i in range(len(nums1)):
             nums1[i] = test[i]
 ```
+- This takes extra time and space than the below solution
+	- First it creates an (n+m) space
+	- Then it goes through the entire array
+	- Then it copies that array from `test` to `nums1`
 
 ### Alternative Solution [^1]
 ```python
@@ -44,9 +49,9 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
-        i = m - 1
-        j = n - 1
-        k = m + n - 1
+        i = m - 1 # Gets the 'm' index of nums1
+        j = n - 1 #Gets the 'n' index of nums2
+        k = m + n - 1 # Need "-1" to place largest element at end of array
         
         while j >= 0:
             if i >= 0 and nums1[i] > nums2[j]:
@@ -57,6 +62,9 @@ class Solution:
                 j -= 1
             k -= 1
 ```
+- Time Complexity: $O(m+n)$
+- Space Complexity: $O(1)$
+- Known as the Two Pointer approach
 
 ## Source
 - 
