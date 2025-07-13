@@ -12,7 +12,6 @@ Reviewed: false
 - Author is [[Patrick Dunleavy]]
 - - “Study Guides” ([Dunleavy, 2003, p. 3](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=3&annotation=BZGF77KS))
 	- #resource Study guides for books in the future
-
 ## Preface
 - “All rules for study are summed up in this one: learn only in order to create. - [[Friedrich Schelling]]” ([Dunleavy, 2003, p. 7](zotero://select/library/items/2I3ANAEH)) ([pdf](zotero://open-pdf/library/items/SPDJ9NPH?page=7&annotation=JUGYXN4V)) 
 - #comment the table of comments honestly don't seem that well organized. Sort of difficult to tell when a subsection starts on one line and begins on the next. Most textbooks have many dots like these "..." to better indicate this.
@@ -160,4 +159,3 @@ Reviewed: false
 ## (9) Publishing your research
 ### (9.1) Writing and submitting journal papers
 ### (9.2) Re-working your thesis as a book
-

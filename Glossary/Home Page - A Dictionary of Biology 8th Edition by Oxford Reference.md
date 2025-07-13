@@ -1058,7 +1058,7 @@ Reviewed: false
 	1030. climate change
 	1031. climax community
 	1032. cline
-	1033. clinostat
+	1033. [[clinostat]]
 	1034. clitellum
 	1035. clitoris
 	1036. cloaca
@@ -1100,7 +1100,7 @@ Reviewed: false
 	1072. coenzyme
 	1073. coenzyme A
 	1074. coenzyme Q
-	1075. coevolution
+	1075. [[coevolution]]
 	1076. [[cofactor]]
 	1077. [[cohesin]]
 	1078. cohesion
@@ -1899,7 +1899,7 @@ Reviewed: false
 	1869. exothermic
 	1870. exotic
 	1871. exotoxin
-	1872. expansin
+	1872. [[expansin]]
 	1873. experiment
 	1874. experimental taxonomy
 	1875. expiration
