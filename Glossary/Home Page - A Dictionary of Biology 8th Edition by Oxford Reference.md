@@ -1177,9 +1177,9 @@ Reviewed: false
 	1149. connexon
 	1150. conodont
 	1151. consensual
-	1152. consensus sequence
+	1152. [[consensus sequence]]
 	1153. conservation
-	1154. conservative replication
+	1154. [[conservative replication]]
 	1155. conserved sequence
 	1156. consociation
 	1157. constitutive((in genetics))
@@ -1187,8 +1187,9 @@ Reviewed: false
 	1159. contact insecticide
 	1160. contig
 	1161. continental drift
-	1162. continuous culture
+	1162. [[continuous culture]]
 	1163. continuous replication
+		1. See discontinuous replication
 	1164. continuous variation
 	1165. contour feathers
 	1166. contraception
