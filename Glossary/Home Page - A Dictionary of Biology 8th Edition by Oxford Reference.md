@@ -1076,7 +1076,7 @@ Reviewed: false
 	1048. CoA
 	1049. coacervate
 	1050. coadaptation
-	1051. coagulation
+	1051. [[coagulation]]
 	1052. coal
 	1053. coated pit
 	1054. coated vesicle
@@ -1146,7 +1146,7 @@ Reviewed: false
 	1118. complemental males
 	1119. complementarity-determining region
 	1120. complementary DNA
-	1121. complementary genes
+	1121. [[complementary genes]]
 	1122. complement receptor
 	1123. [[complexity science]]
 	1124. composite fruit
@@ -1159,7 +1159,7 @@ Reviewed: false
 	1131. conceptacle
 	1132. conception
 	1133. condensation reaction
-	1134. condensin
+	1134. [[condensin]]
 	1135. conditional response
 	1136. conditioning
 	1137. condyle
