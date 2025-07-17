@@ -1263,7 +1263,7 @@ Reviewed: false
 	1234. creatinine
 	1235. creationist
 	1236. cremocarp
-	1237. crenation
+	1237. [[crenation]]
 	1238. Cretaceous
 	1239. cretinism
 	1240. Creutzfeldt-Jakob disease
@@ -1350,7 +1350,7 @@ Reviewed: false
 	1321. cytomegalovirus
 	1322. cytoplasm
 	1323. cytoplasmic inheritance
-	1324. cytoplasmic segregation
+	1324. [[cytoplasmic segregation]]
 	1325. cytoplasmic streaming
 	1326. [[cytosine]]
 	1327. cytoskeleton
@@ -1363,7 +1363,7 @@ Reviewed: false
 	1334. d-form
 	1335. dance of the bees
 	1336. Daphnia
-	1337. dark adaptation
+	1337. [[dark adaptation]]
 	1338. dark period
 	1339. dark reaction
 	1340. Darwin's finches
