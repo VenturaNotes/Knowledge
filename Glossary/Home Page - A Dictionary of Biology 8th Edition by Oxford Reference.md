@@ -1203,7 +1203,7 @@ Reviewed: false
 	1174. conus arteriosus
 	1175. Convention on Biological Diversity
 	1176. convergence
-	1177. convergent evolution
+	1177. [[convergent evolution]]
 	1178. convoluted tubule
 	1179. coomassie blue
 	1180. cooperation
@@ -1215,7 +1215,7 @@ Reviewed: false
 	1186. copulation
 	1187. copy number
 	1188. coral
-	1189. coreceptor
+	1189. [[coreceptor]]
 	1190. cork
 	1191. cork cambium
 	1192. corm
@@ -1244,7 +1244,7 @@ Reviewed: false
 	1215. coumarin
 	1216. countercurrent heat exchange
 	1217. countercurrent multiplier system
-	1218. counterflow
+	1218. [[counterflow]]
 	1219. courtship
 	1220. COV
 	1221. covalent bond
