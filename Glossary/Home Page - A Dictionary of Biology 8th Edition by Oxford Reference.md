@@ -1409,7 +1409,7 @@ Reviewed: false
 	1380. [[dendrogram]]
 	1381. dendron
 	1382. Denisovan
-	1383. denitrification
+	1383. [[denitrification]]
 	1384. de novopathway
 	1385. dense body
 	1386. density-dependent factor
@@ -1418,7 +1418,7 @@ Reviewed: false
 	1389. dental formula
 	1390. dentary
 	1391. denticle
-	1392. dentine
+	1392. [[dentine]]
 	1393. dentition
 	1394. deoxyribonuclease
 	1395. deoxyribonucleic acid
@@ -3266,7 +3266,7 @@ Reviewed: false
 	3234. mesocarp
 	3235. [[mesoderm]]
 	3236. mesofauna
-	3237. mesoglea
+	3237. [[mesoglea]]
 	3238. mesopelagic zone
 	3239. [[mesophilic]]
 	3240. mesophyll
