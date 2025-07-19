@@ -1374,17 +1374,17 @@ Reviewed: false
 	1345. DDT
 	1346. de-extinction
 	1347. deacetylation
-	1348. deamination
+	1348. [[deamination]]
 	1349. death
 	1350. death phase
 	1351. death rate
 	1352. deca-
 	1353. Decapoda
-	1354. decarboxylation
+	1354. [[decarboxylation]]
 	1355. decay
 	1356. deci-
 	1357. decibel
-	1358. deciduous
+	1358. [[deciduous]]
 	1359. deciduous teeth
 	1360. decomposer
 	1361. decomposition
