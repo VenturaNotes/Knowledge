@@ -1,5 +1,5 @@
 ## Synthesis
-- 
+- Optimal substructure just means that a problem can be broken down into smaller subproblems. 
 ## Source [^1]
 - Solve problems by breaking them into overlapping subproblems and storing results
 	- #question What does this look like?
@@ -12,9 +12,13 @@
 
 ## Source[^4]
 - The mathematical theory and planning of multistage decision processes; the term was introduced by Richard Bellman in 1957. It may be regarded as a branch of mathematical programming concerned with optimization of problems formulated as a sequence of decisions. Applications are very varied, including engineering problems and company planning.
+## Source[^5]
+- Dynamic programming approach is used when the solution has optimal substructure and overlapping problems
+	- #question What is meant by optimal substructure?
 ## References
 
 [^1]: ChatGPT
 [^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: https://www.geeksforgeeks.org/quizzes/top-mcqs-on-dynamic-programming-with-answers/
