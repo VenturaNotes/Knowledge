@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (EU ETS) A trading scheme for emission permits established in 2005 as part of European Union (EU) climate policy. The scheme operates in the 25 EU countries and Iceland, Lichtenstein, and Norway. The first phase ran from 2005 to 2007, the second phase finished in 2012, and the current third phase will run until 2020; a legislative proposal for a fourth phase, planned for 2021-30, was presented by the European Commission in June 2015. The scheme currently covers more than 11,000 installations in the energy and industrial sectors, and aircraft operators performing aviation activities in these countries, which are collectively responsible for about 45 per cent of total greenhouse gas emissions in the EU. Large emitters of carbon dioxide within the EU must monitor emissions, provide an annual report on emissions, and return a quantity of emission permits equivalent to the annual $\mathrm{CO}_{2}$ emissions. An initial allocation of permits is made to installations by national governments. These permits can then be traded. This establishes a price for emissions and provides a financial incentive to reduce emissions.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
