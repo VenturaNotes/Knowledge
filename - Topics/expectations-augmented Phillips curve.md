@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A version of the Phillips curve, relating wage increases to demand pressure, taking account of expected inflation. If the expected rate of price increases is given, the Phillips curve shows wage increases as a decreasing function of the unemployment rate, or an increasing function of demand pressure. Wage increases lead to price increases, so actual inflation is an increasing function of demand pressure. If the expected inflation rate did not respond, and the Phillips curve stayed the same from period to period, it would be possible by the use of monetary or fiscal measures to expand demand to get permanently higher employment at the price of accepting a higher rate of inflation. The expectations-augmented Phillips curve assumes that if actual inflation rises, expected inflation will also increase, and the Phillips curve will move upwards so as to give the same expected real wage increase at each employment level. Under this model there is no long-run trade-off between unemployment and inflation. To achieve an unemployment rate below the non-accelerating inflation rate of unemployment would involve an ever-increasing rate of inflation. This is thought to be undesirable, since while moderate rates of inflation may do relatively little harm, hyperinflation seriously interferes with the efficient running of the real economy by impairing the economic functions of money.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
