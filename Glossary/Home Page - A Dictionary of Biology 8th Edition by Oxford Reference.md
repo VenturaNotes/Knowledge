@@ -3319,7 +3319,7 @@ Reviewed: false
 	3287. microbiology
 	3288. microbiome
 	3289. microbody
-	3290. microcirculation
+	3290. [[microcirculation]]
 	3291. microclimate
 	3292. microdissection
 	3293. microelectrode
@@ -3602,7 +3602,7 @@ Reviewed: false
 	3570. neurilemma cell
 	3571. [[neurite]]
 	3572. neuroendocrine system
-	3573. neurofibril
+	3573. [[neurofibril]]
 	3574. neurofilament
 	3575. neuroglia
 	3576. neurohaemal organ
@@ -3686,7 +3686,7 @@ Reviewed: false
 	3654. northern blotting
 	3655. nose
 	3656. nostrils
-	3657. notochord
+	3657. [[notochord]]
 	3658. NPY
 	3659. nt
 	3660. nucellus
