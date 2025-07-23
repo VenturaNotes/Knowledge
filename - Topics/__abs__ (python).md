@@ -2,7 +2,7 @@
 aliases:
   - __abs__
 ---
-## Synthesis
+### Synthesis
 - 
 ## Source [^1]
 - 
