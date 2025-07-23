@@ -3730,7 +3730,7 @@ Reviewed: false
 	3698. Odonata
 	3699. odontoblast
 	3700. odorant
-	3701. oedema
+	3701. [[oedema]]
 	3702. oesophagus
 	3703. oestrogen
 	3704. oestrous cycle
@@ -3757,7 +3757,7 @@ Reviewed: false
 	3725. ommatidium
 	3726. omnivore
 	3727. oncogene
-	3728. oncogenic
+	3728. [[oncogenic]]
 	3729. oncotic pressure
 	3730. one gene–one polypeptide hypothesis
 	3731. ontogeny
@@ -3834,7 +3834,7 @@ Reviewed: false
 	3802. ossification
 	3803. Osteichthyes
 	3804. osteoblast
-	3805. osteoclast
+	3805. [[osteoclast]]
 	3806. osteocyte
 	3807. osteoid
 	3808. osteon
