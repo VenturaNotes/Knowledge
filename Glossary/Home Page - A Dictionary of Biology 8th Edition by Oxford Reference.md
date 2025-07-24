@@ -672,11 +672,11 @@ Reviewed: false
 	644. body fluid
 	645. body plan
 	646. bog
-	647. Bohr effect
+	647. [[Bohr effect]]
 	648. bolus
 	649. bomb calorimeter
 	650. bone
-	651. bone marrow
+	651. [[bone marrow]]
 	652. bone morphogenetic protein
 	653. bony fishes
 	654. bony labyrinth
@@ -1863,7 +1863,7 @@ Reviewed: false
 	1832. euphyllophyte
 	1833. [[euploid]]
 	1834. eury-
-	1835. eusocial
+	1835. [[eusocial]]
 	1836. Eustachian tube
 	1837. euthanasia
 	1838. Eutheria
