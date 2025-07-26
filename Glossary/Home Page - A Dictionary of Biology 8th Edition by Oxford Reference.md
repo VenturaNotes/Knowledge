@@ -1894,7 +1894,7 @@ Reviewed: false
 	1863. [[exon]]
 	1864. exon shuffling
 	1865. exonuclease
-	1866. exopeptidase
+	1866. [[exopeptidase]]
 	1867. exopterygote
 	1868. exoskeleton
 	1869. exothermic
@@ -1980,7 +1980,7 @@ Reviewed: false
 	1949. fertilizer
 	1950. fetal membranes
 	1951. fetus
-	1952. Feulgen's test
+	1952. [[Feulgen's test]]
 	1953. fibre
 	1954. fibre optics
 	1955. fibril
@@ -2004,7 +2004,7 @@ Reviewed: false
 	1973. filtrate
 	1974. filtration
 	1975. fimbria
-	1976. finger domain
+	1976. [[finger domain]]
 	1977. fingerprinting
 	1978. finished sequence
 	1979. fins
@@ -2013,7 +2013,7 @@ Reviewed: false
 	1982. FISH
 	1983. fish
 	1984. fission
-	1985. fission-track dating
+	1985. [[fission-track dating]]
 	1986. fitness((in genetics))
 	1987. fixation
 	1988. fixed action pattern
@@ -2032,7 +2032,7 @@ Reviewed: false
 	2000. flies
 	2001. flight
 	2002. flip-flop
-	2003. flocculation
+	2003. [[flocculation]]
 	2004. flora
 	2005. floral formula
 	2006. Florey, Howard Walter, Baron (1898–1968)
@@ -2104,7 +2104,7 @@ Reviewed: false
 	2072. fugitive species
 	2073. fugu
 	2074. fumaric acid
-	2075. functional group
+	2075. [[functional group]]
 	2076. functional magnetic resonance imaging
 	2077. functional trait
 	2078. fungi
