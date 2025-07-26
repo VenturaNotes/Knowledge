@@ -3900,7 +3900,7 @@ Reviewed: false
 	3868. palaeobotany
 	3869. Palaeocene
 	3870. palaeoclimatology
-	3871. palaeoecology
+	3871. [[palaeoecology]]
 	3872. Palaeogene
 	3873. Palaeolithic
 	3874. palaeomagnetic dating
@@ -3933,11 +3933,11 @@ Reviewed: false
 	3901. papilla
 	3902. papovavirus
 	3903. pappus
-	3904. parabiologist
+	3904. [[parabiologist]]
 	3905. [[parabiosis]]
 	3906. paracellular pathway
 	3907. paracrine
-	3908. parallel evolution
+	3908. [[parallel evolution]]
 	3909. parallelophyly
 	3910. paralogous
 	3911. paramorph
