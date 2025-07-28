@@ -3938,7 +3938,7 @@ Reviewed: false
 	3906. paracellular pathway
 	3907. paracrine
 	3908. [[parallel evolution]]
-	3909. parallelophyly
+	3909. [[parallelophyly]]
 	3910. paralogous
 	3911. paramorph
 	3912. paramutation
@@ -4605,7 +4605,7 @@ Reviewed: false
 	4573. rank
 	4574. RAPD
 	4575. raphe
-	4576. raphide
+	4576. [[raphide]]
 	4577. rapid eye movement
 	4578. RAS protein
 	4579. rate-limiting step
@@ -4657,7 +4657,7 @@ Reviewed: false
 	4625. regeneration
 	4626. regma
 	4627. regulation((in embryology))
-	4628. regulator
+	4628. [[regulator]]
 	4629. regulator gene
 	4630. regulatory enzyme
 	4631. regulatory genes
