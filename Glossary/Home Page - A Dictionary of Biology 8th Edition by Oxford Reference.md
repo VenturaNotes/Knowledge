@@ -4671,7 +4671,7 @@ Reviewed: false
 	4639. relative refractory period
 	4640. relaxin
 	4641. release-inhibiting hormone
-	4642. release factor
+	4642. [[release factor]]
 	4643. releaser
 	4644. releasing hormone
 	4645. relict
@@ -4681,7 +4681,7 @@ Reviewed: false
 	4649. renal
 	4650. renal capsule
 	4651. renal tubule
-	4652. renaturation
+	4652. [[renaturation]]
 	4653. renin
 	4654. rennin
 	4655. [[Renshaw cell]]
@@ -4701,7 +4701,7 @@ Reviewed: false
 	4669. resin
 	4670. resistance
 	4671. resistance protein
-	4672. resistance response
+	4672. [[resistance response]]
 	4673. resolving power
 	4674. respiration
 	4675. respiratory burst
