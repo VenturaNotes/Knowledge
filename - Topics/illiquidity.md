@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (1) The property of not being easily turned into money. Some assets are illiquid because there are no markets on which they can easily be traded: for example, unsecured loans to bank customers. Other assets are illiquid because, while they can be traded, the price that can be obtained may be hard to predict, especially if a quick sale is required. This applies to shares in companies, or to houses. This is contrasted with liquidity, the property of being able to be turned into money rapidly and at a fairly predictable price. Apart from money itself, short-dated securities or bills are the main asset of this form.
+- (2) Having illiquid assets. A business may have problems over meeting its obligations because, although it believes itself to be solvent, its assets are not liquid. If its own view of its solvency were shared by credit institutions it would be able to obtain liquidity on credit, but the information which leads it to feel solvent may be private, for example confidence in new products, and not convincing to creditors. It is possible for businesses forced into liquidation through illiquidity to eventually pay their creditors in full, that is, for experience to show that they really were solvent. A business which is insolvent, on the other hand, is liable to fail, however liquid its assets may be.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
