@@ -38,6 +38,9 @@ $$
   
 
 where || denotes the absolute value function.
+## Source[^2]
+- Differences in the distribution of economic stocks or flows among economic agents. For example, wealth inequality refers to the distribution of the stock of wealth, whereas income inequality refers to the distribution of the flow of income. Inequality can arise among individuals or groups within an economy, or among nations. Inequality can be graphically represented by the Lorenz curve or measured by a range of indicators including the Atkinson index and the Gini coefficient.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

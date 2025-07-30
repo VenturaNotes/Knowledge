@@ -1817,258 +1817,280 @@ Reviewed: false
 	659. [[immiserizing growth]]
 	660. [[immobile factors]]
 
-	661. impact effect
-	662. imperfect competition
-	663. implicit contract
-	664. implicit cost
-	665. implied volatility
-	666. importables
-	667. import control
-	668. import deposit
-	669. Import Duties Act
+	661. [[impact effect]]
+	662. [[imperfect competition]]
+	663. [[implicit contract]]
+	664. [[implicit cost]]
+	665. [[implied volatility]]
+	666. [[importables]]
+	667. [[import control]]
+	668. [[import deposit]]
+	669. [[Import Duties Act]]
 	670. import duty
+		1. See tariff
 
-	671. imported inflation
+	671. [[imported inflation]]
 	672. import levy
-	673. import licence
-	674. import penetration
-	675. import propensity
-	676. import quota
+		1. See tariff
+	673. [[import licence]]
+	674. [[import penetration]]
+	675. [[import propensity]]
+	676. [[import quota]]
 	677. import restriction
-	678. imports
-	679. import substitution
-	680. import surcharge
+		1. See import control
+	678. [[imports]]
+	679. [[import substitution]]
+	680. [[import surcharge]]
 
 	681. import tariff
-	682. impure public good
-	683. imputation system
-	684. imputed charge for consumption of non-trading capital
-	685. imputed income
-	686. imputed social contributions
-	687. in-kind redistribution
-	688. incentive compatibility
-	689. incentive contract
-	690. incentives
+		1. See tariff
+	682. [[impure public good]]
+	683. [[imputation system]]
+	684. [[imputed charge for consumption of non-trading capital]]
+	685. [[imputed income]]
+	686. [[imputed social contributions]]
+	687. [[in-kind redistribution]]
+	688. [[incentive compatibility]]
+	689. [[incentive contract]]
+	690. [[incentives]]
 
-	691. incidence of taxation
-	692. income
+	691. [[incidence of taxation]]
+	692. [[income]]
 	693. income approach to GDP
-	694. income distribution
-	695. income effect
-	696. income elasticity of demand
-	697. income expansion path
-	698. income from employment
-	699. income from self-employment
-	700. income inequality
+		1. See income method
+	694. [[income distribution]]
+	695. [[income effect]]
+	696. [[income elasticity of demand]]
+	697. [[income expansion path]]
+	698. [[income from employment]]
+	699. [[income from self-employment]]
+	700. [[income inequality]]
 
-	701. income maintenance programme
-	702. income method
-	703. income redistribution
-	704. income support
-	705. income tax
-	706. income velocity of circulation
-	707. incomplete contract
-	708. incomplete information
-	709. incomplete markets
-	710. increase in the book value of stocks and work in progress
+	701. [[income maintenance programme]]
+	702. [[income method]]
+	703. [[income redistribution]]
+	704. [[income support]]
+	705. [[income tax]]
+	706. [[income velocity of circulation]]
+	707. [[incomplete contract]]
+	708. [[incomplete information]]
+	709. [[incomplete markets]]
+	710. [[increase in the book value of stocks and work in progress]]
 
-	711. increasing returns to scale
-	712. incumbent firm
-	713. independent risks
-	714. independent taxation of spouses
-	715. index-linked
-	716. indexation
-	717. indexation
-	718. index number
-	719. Index of Industrial Production
-	720. indicative planning
+	711. [[increasing returns to scale]]
+	712. [[incumbent firm]]
+	713. [[independent risks]]
+	714. [[independent taxation of spouses]]
+	715. [[index-linked]]
+	716. [[indexation]]
+	717. [[index number]]
+	718. [[Index of Industrial Production]]
+	719. [[indicative planning]]
+	720. 
 
-	721. indicator
-	722. indifference curve
-	723. indirect investment
-	724. indirect least squares
-	725. indirect tax
-	726. indirect utility function
-	727. Individual Retirement Account
-	728. Individual Savings Account
-	729. indivisibility
-	730. induced investment
+	721. [[indicator]]
+	722. [[indifference curve]]
+	723. [[indirect investment]]
+	724. [[indirect least squares]]
+	725. [[indirect tax]]
+	726. [[indirect utility function]]
+	727. [[Individual Retirement Account]]
+	728. [[Individual Savings Account]]
+	729. [[indivisibility]]
+	730. [[induced investment]]
 
-	731. industrial action
+	731. [[industrial action]]
 	732. industrial concentration
-	733. industrial democracy
-	734. industrial dispute
-	735. industrial economics
-	736. industrial espionage
-	737. industrialization
+		1. See concentration
+	733. [[industrial democracy]]
+	734. [[industrial dispute]]
+	735. [[industrial economics]]
+	736. [[industrial espionage]]
+	737. [[industrialization]]
 	738. industrial licensing
-	739. industrial organization
-	740. industrial policy
+		1. See licensing
+	739. [[industrial organization]]
+	740. [[industrial policy]]
 
-	741. industrial relations
-	742. industrial sector
-	743. industry
-	744. industry demand for labour
+	741. [[industrial relations]]
+	742. [[industrial sector]]
+	743. [[industry]]
+	744. [[industry demand for labour]]
 	745. industry supply curve
-	746. inefficiency
-	747. inelastic
-	748. inelastic demand
-	749. inelastic supply
-	750. inequality
+		1. See supply curve
+	746. [[inefficiency]]
+	747. [[inelastic]]
+	748. [[inelastic demand]]
+	749. [[inelastic supply]]
+	750. [[inequality]]
 
-	751. infant industry
-	752. inferior good
-	753. inflation
-	754. inflation-adjusted budget deficit
-	755. inflation accounting
-	756. inflationary gap
-	757. inflationary spiral
-	758. inflation rate
-	759. inflation tax
+	751. [[infant industry]]
+	752. [[inferior good]]
+	753. [[inflation]]
+	754. [[inflation-adjusted budget deficit]]
+	755. [[inflation accounting]]
+	756. [[inflationary gap]]
+	757. [[inflationary spiral]]
+	758. [[inflation rate]]
+	759. [[inflation tax]]
 	760. informal economy
+		1. See hidden economy
 
-	761. information
-	762. information agreement
+	761. [[information]]
+	762. [[information agreement]]
 	763. information asymmetry
-	764. information criterion
-	765. infrastructure
-	766. inheritance tax
-	767. initial conditions
-	768. initial public offering
-	769. injections to the circular flow of income
+		1. See asymmetric information
+	764. [[information criterion]]
+	765. [[infrastructure]]
+	766. [[inheritance tax]]
+	767. [[initial conditions]]
+	768. [[initial public offering]]
+	769. [[injections to the circular flow of income]]
 	770. Inland Revenue
+		1. See HM Revenue and Customs
 
-	771. inlier
-	772. innocent entry barriers
-	773. innovation
-	774. input-output
-	775. input prices
-	776. inputs
-	777. inside money
-	778. insider dealing
-	779. insiders and outsiders
+	771. [[inlier]]
+	772. [[innocent entry barriers]]
+	773. [[innovation]]
+	774. [[input-output]]
+	775. [[input prices]]
+	776. [[inputs]]
+	777. [[inside money]]
+	778. [[insider dealing]]
+	779. [[insiders and outsiders]]
 	780. insider trading
+		1. See insider dealing
 
-	781. insolvency
-	782. Inspector of Taxes
-	783. instalment
-	784. institutional economics
-	785. institutional shareholder
-	786. instrumental variable
-	787. insurance
-	788. insurance company
-	789. intangible assets
-	790. integration
+	781. [[insolvency]]
+	782. [[Inspector of Taxes]]
+	783. [[instalment]]
+	784. [[institutional economics]]
+	785. [[institutional shareholder]]
+	786. [[instrumental variable]]
+	787. [[insurance]]
+	788. [[insurance company]]
+	789. [[intangible assets]]
+	790. [[integration]]
 
-	791. intellectual property rights
-	792. intensive margin
-	793. inter-industry trade
-	794. interdependent utility
-	795. interest
-	796. interest-elasticity of the demand for money
-	797. interest-rate futures
-	798. interest-rate swaps
-	799. interest equalization tax
-	800. interest payments
+	791. [[intellectual property rights]]
+	792. [[intensive margin]]
+	793. [[inter-industry trade]]
+	794. [[interdependent utility]]
+	795. [[interest]]
+	796. [[interest-elasticity of the demand for money]]
+	797. [[interest-rate futures]]
+	798. [[interest-rate swaps]]
+	799. [[interest equalization tax]]
+	800. [[interest payments]]
 
 	801. interest rate
-	802. intergenerational equity
-	803. intergenerational mobility
-	804. Intergovernmental Panel on Climate Change
-	805. interim dividend
-	806. interim report
-	807. interior solution
-	808. interlocking directorates
-	809. intermediate good
-	810. internal balance
+		1. See LONG-TERM INTEREST RATE; NATURAL RATE OF INTEREST; RATE OF INTEREST; REAL INTEREST RATE; TERM STRUCTURE OF INTEREST RATES.
+	802. [[intergenerational equity]]
+	803. [[intergenerational mobility]]
+	804. [[Intergovernmental Panel on Climate Change]]
+	805. [[interim dividend]]
+	806. [[interim report]]
+	807. [[interior solution]]
+	808. [[interlocking directorates]]
+	809. [[intermediate good]]
+	810. [[internal balance]]
 
-	811. internalizing externalities
-	812. internal labour market
-	813. internal market
-	814. internal market((health service))
-	815. internal rate of return
-	816. Internal Revenue Service
-	817. International Accounting Standards Board
-	818. International Bank for Reconstruction and Development
-	819. international cartel
-	820. international commodity agreement
+	811. [[internalizing externalities]]
+	812. [[internal labour market]]
+	813. [[internal market]]
+	814. [[internal rate of return]]
+	815. [[Internal Revenue Service]]
+	816. [[International Accounting Standards Board]]
+	817. [[International Bank for Reconstruction and Development]]
+	818. [[international cartel]]
+	819. international commodity agreement
+		1. See commodity agreement
+	820. 
 
 	821. international company
+		1. See multinational
 	822. international competitiveness
-	823. international debt
+		1. See competitiveness
+	823. [[international debt]]
 	824. international debt crisis
-	825. International Development Association
-	826. international economics
-	827. International Finance Corporation
-	828. International Labour Organization
-	829. International Monetary Fund
-	830. international monetary system
+		1. See debt crisis
+	825. [[International Development Association]]
+	826. [[international economics]]
+	827. [[International Finance Corporation]]
+	828. [[International Labour Organization]]
+	829. [[International Monetary Fund]]
+	830. [[international monetary system]]
 
-	831. international payments
+	831. [[international payments]]
 	832. international reserves
-	833. International Standard Classification of Occupations
+		1. See foreign exchange reserves
+	833. [[International Standard Classification of Occupations]]
 	834. international trade
-	835. interpersonal comparisons
-	836. interpolation
-	837. interquartile range
-	838. Interstate Commerce Commission
-	839. intertemporal budget constraint
-	840. intertemporal substitution
+		1. See trade
+	835. [[interpersonal comparisons]]
+	836. [[interpolation]]
+	837. [[interquartile range]]
+	838. [[Interstate Commerce Commission]]
+	839. [[intertemporal budget constraint]]
+	840. [[intertemporal substitution]]
 
-	841. intervention in foreign exchange markets
-	842. intra-industry trade
-	843. intra-marginal intervention((in foreign exchange markets))
-	844. intrapreneur
-	845. invention
-	846. inventories
-	847. inverse correlation
-	848. inverse elasticity rule
-	849. investment
-	850. investment bank
+	841. [[intervention in foreign exchange markets]]
+	842. [[intra-industry trade]]
+	843. [[intra-marginal intervention]]
+	844. [[intrapreneur]]
+	845. [[invention]]
+	846. [[inventories]]
+	847. [[inverse correlation]]
+	848. [[inverse elasticity rule]]
+	849. [[investment]]
+	850. [[investment bank]]
 
-	851. investment incentives
-	852. investment income
-	853. investment income surcharge
-	854. investment in knowledge
-	855. investment in stocks and work in progress
-	856. Investment Management Regulatory Organization
-	857. investment pools
-	858. investment trust
-	859. invisible balance
-	860. invisible hand
+	851. [[investment incentives]]
+	852. [[investment income]]
+	853. [[investment income surcharge]]
+	854. [[investment in knowledge]]
+	855. [[investment in stocks and work in progress]]
+	856. [[Investment Management Regulatory Organization]]
+	857. [[investment pools]]
+	858. [[investment trust]]
+	859. [[invisible balance]]
+	860. [[invisible hand]]
 
-	861. invisibles
-	862. involuntary unemployment
-	863. inward investment
-	864. IOU
-	865. irredeemable security
-	866. IS-LMmodel
-	867. IScurve
-	868. Islamic banking
-	869. isocost curve
-	870. isoprofit curve
+	861. [[invisibles]]
+	862. [[involuntary unemployment]]
+	863. [[inward investment]]
+	864. [[IOU]]
+	865. [[irredeemable security]]
+	866. [[IS-LM model]]
+	867. [[IS curve]]
+	868. [[Islamic banking]]
+	869. [[isocost curve]]
+	870. [[isoprofit curve]]
 
-	871. isoquant
-	872. issue
-	873. issued capital
-	874. J-curve
-	875. J-test
-	876. job
-	877. job acceptance schedule
-	878. jobber
+	871. [[isoquant]]
+	872. [[issue]]
+	873. [[issued capital]]
+	874. [[J-curve]]
+	875. [[J-test]]
+	876. [[job]]
+	877. [[job acceptance schedule]]
+	878. [[jobber]]
 	879. job quits
-	880. job search
+		1. See quits
+	880. [[job search]]
 
-	881. jobseeker's allowance
+	881. [[jobseeker's allowance]]
 	882. job vacancy
-	883. Johansen's approach
-	884. joint-stock bank
-	885. joint-stock company
-	886. joint costs
-	887. joint probability distribution
-	888. joint production
+		1. See vacancy
+	883. [[Johansen's approach]]
+	884. [[joint-stock bank]]
+	885. [[joint-stock company]]
+	886. [[joint costs]]
+	887. [[joint probability distribution]]
+	888. [[joint production]]
 	889. joint profit maximization
-	890. joint supply
+		1. See collusion
+	890. [[joint supply]]
 
 	891. joint venture
 	892. Juglar cycle
