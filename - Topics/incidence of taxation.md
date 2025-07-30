@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - The impact of a tax on those who bear its burden, which may not be limited to those who are charged to pay it. For example, value added tax (VAT) is paid by traders, but part of the ultimate tax burden falls on the consumer of the trader's goods or services. Again, a company may pay corporation tax but if it then raises its prices or reduces its employees' wages to recoup some or all of the tax, it may be said to have shifted the incidence.
+## Source[^2]
+- The distribution of the burden of taxation. There are two distinct concepts of incidence. The formal incidence of taxation refers to the legal liability to pay taxes. For example, the legal liability of the corporate tax falls upon the corporation. This is distinct from economic incidence which refers to the economic agents who suffer a welfare loss due to the imposition of the tax. For example, the economic incidence of the corporate tax may fall partly on the shareholders who receive a reduced dividend and partly on the customers who pay a higher price. The importance of the distinction is that the economic incidence determines the economic effects of a tax. In a competitive market the economic incidence of a tax on output is determined by the value of the elasticity of supply relative to the elasticity of demand. If demand is perfectly elastic the economic incidence falls on suppliers; if demand is perfectly inelastic the economic incidence falls on consumers. In all other cases the economic incidence is shared. A similar principle applies to the economic incidence of any tax. See also TAX SHIFTING.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

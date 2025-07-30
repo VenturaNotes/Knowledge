@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Differences in income among individuals or families, or among different groups, areas, or countries. Inequalities among individuals are accounted for by differences in earning ability, and in property. Individuals who are economically inactive, through age, ill health, or inability to find a job usually have low incomes even after taking account of social security benefits, and those who can work have varied earning power. Property is also unevenly distributed: inequalities in earned and property incomes are highly correlated, and there is also a tendency for high-income earners to intermarry. This means that families or households also show great inequality of incomes. Inequality can be measured either before or after taking account of direct taxes and social security payments: these tend to reduce income inequality but fall far short of eliminating it. Measures of inequality include the Atkinson index and the Gini coefficient. Regional and national income differences are similarly caused by differences in earning ability and national capital stocks. See also LORENZ CURVE.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
