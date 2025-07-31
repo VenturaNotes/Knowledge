@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The theory that the conduct of firms must be explained in terms of the motivation of managers. Such theories are alternatives to profit maximization as explanations of how firms are run. Profit maximization makes sense if there is full information and firms are run in the interests of their shareholders. This is open to two main objections, based on information and motivation. On the information side, satisficing theories state that firms do not have the information needed to maximize: they run by rules or habits so long as the results are tolerable, and if the current rules give poor results, they use trial and error to search for better ones. On the motivation side, decisions are taken by the directors, who are interested in maximizing their own welfare so long as the shareholders will allow it. This is a typical case of the principal-agent problem. The interests of top management are best served by growth of the firm, managerial pay and perquisites, and an easy life; the shareholders' interests matter only as a constraint on these. The possible brakes on the directors' autonomy are concentrated ownership, and the threat of takeovers by rival management groups who offer the shareholders a better deal.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

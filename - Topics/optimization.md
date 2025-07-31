@@ -13,8 +13,11 @@
 - Optimization problems are widespread in control theory, chemical engineering, and many other fields. 
 - (2) In programming the word is usually applied to part of the code-generation phase of a compiler, denoting production of object code that is in some sense optimal, i.e. making best use of the resources provided by the target machine, or at least using these resources in a manner that is not blatantly wasteful. Programs can be space-efficient in the sense of occupying minimal storage, or time-efficient in the sense of executing in the minimum time.
 - Compiler optimization is usually directed toward generating time-efficient programs, and takes three forms. Global optimization seeks to reorder the sequencing of a program so as to eliminate redundant computations (moving invariant operations outside loop bodies, coalescing loops, etc.). [[Register optimization]] adjusts the allocation of machine registers to variables and intermediate quantities in such a way as to minimize the number of occasions on which a register has to be stored and later reloaded. Local (peephole) optimization seeks to adapt the code to exploit particular features of the machine architecture and to remove local mishandling such as loading a register with a value that it already contains.
+## Source[^4]
+- In economics, the choice from all possible uses of resources of that which gives the best result. This is often represented by the maximization of benefits or the minimization of losses; in general, the objective function describes what is to be optimized. The set of potential choices may be unlimited (unconstrained optimization) or limited (constrained optimization) by resource scarcity, budget constraint, or legal barriers.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

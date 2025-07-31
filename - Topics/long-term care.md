@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (LTC) Support measures and services for personal care and, often, health care required on a regular basis for a prolonged period of time. Long-term care can be provided by unpaid or paid caregivers, at home or at special assisted living facilities. Forms of care include assistance with basic personal daily tasks, or the activities of daily living, such as bathing or eating, as well as help with regular tasks, or the instrumental activities of daily living, such as managing money or shopping for groceries. LTC provision has become an increasingly pressing problem in modern societies because of demographic changes: higher longevity raises demand, whereas low population growth and an increasing number of single households reduce the supply of unpaid care by family members. In the UK a limited amount of LTC is funded by the government through the National Health Service and local authorities. Market solutions are limited because the market for LTC insurance is thin. In 2014 the Association of British Insurers and the UK government signed a joint statement of intent listing measures for helping people with information and for enlarging and improving the market for the LTC insurance products.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

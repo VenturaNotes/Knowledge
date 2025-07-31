@@ -24,8 +24,11 @@ aliases:
 		- #comment The MRS seems to be calculated by $\frac {Y}{X}$ 
 	- (2) An MRS of 1.5 means that, from the consumer's point of view, 15 more unit of Good Y is as good as 10 more units of Good X
 	- (3) As you move to the right of any [[indifference map]], consumer [[utility]] always increases
+## Source[^4]
+- marginal rate of substitution The additional amount of one good required to compensate a consumer for a small decrease in the quantity of another, per unit of the decrease. The marginal rate of substitution at a particular level of consumption is given by the negative of the gradient of the indifference curve. This is the ratio of the marginal utilities for the two goods, so for a differentiable utility function the marginal rate of substitution between goods $x$ and $y$ is$$M R S_{x, y}=\frac{\partial U}{\partial x} / \frac{\partial U}{\partial y}$$
 ## References
 
 [^1]: Google's SGE
 [^2]: https://www.investopedia.com/terms/m/marginal_rate_substitution.asp
 [^3]: https://mru.org/practice-questions/indifference-curves-practice-questions
+[^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
