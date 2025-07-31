@@ -13,6 +13,11 @@
 	- derivatives$\textemdash$a recent diversification beyond the core equity markets. In collaboration with the Nordic exchange group OMX, the London Stock Exchange created the derivatives platform EDX London (now absorbed by Turquoise) in 2003
 - http://www.londonstockexchange.com/home/homepage.htm
 	- Website of the LSE: includes information for companies and traders and much educational material for private investors
+## Source[^2]
+- (LSE) The major European stock exchange. The LSE began in the coffee houses of 17th-century London and grew to become the most important institution in the City. In March 2016 its market capitalization stood at $£ 9.45 \mathrm{b}$.
+- http://www.londonstockexchange.com/ (page not loading?)
+	- The home page of the London Stock Exchange.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

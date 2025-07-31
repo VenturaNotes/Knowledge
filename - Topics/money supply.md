@@ -21,8 +21,11 @@ aliases:
 	- M4$\textemdash$M1 plus most private-sector bank deposits plus holdings of money-market instruments (e.g. Treasury bills);
 	- M5$\textemdash$M4 plus building society deposits.
 - In some contexts the amount of money existing in an economy is called the monetary stock. To obtain the money supply the monetary stock has to be multiplied by the velocity of circulation. See also MONETARY POLICY.
+## Source[^4]
+- The amount of money in an economy. This may be the country's own money, supplied by its banking system, or foreign money, used in preference to domestic money. There is no single accepted definition of what constitutes money: while notes and coin are legal tender and must be included in any definition, and bank deposits repayable on demand are unlikely to be excluded, there are various types of deposit in non-bank financial intermediaries such as building societies, and various forms of highly liquid security, which can be included or excluded in various ways. For various definitions applied in the UK see M0 to M5.
 ## References
 
 [^1]: https://en.wikipedia.org/wiki/Money_supply
 [^2]: ChatGPT
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

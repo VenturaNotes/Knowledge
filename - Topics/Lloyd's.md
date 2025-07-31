@@ -5,6 +5,9 @@
 - The 20,000 or so Lloyd's underwriters must each deposit a substantial sum of money with the corporation and accept unlimited liability before they can become members. They are grouped into syndicates, run by a syndicate manager or agent, but most of the members of syndicates are names, underwriting members of Lloyd's who take no part in organizing the underwriting business, but who share in the profits or losses of the syndicate and provide the risk capital. Lloyd's has long specialized in marine insurance but now covers almost all insurance risks. In the period 1988 to 1994 Lloyd's lost some $£ 8$ billion. This brought severe hardship to many names and a number of changes to the way in which the organization is run, including allowing limited liability companies to become underwriters.
 - http://www.lloyds.com/
 	- Lloyd's website
+## Source[^2]
+- A London institution whose members provide insurance of all types on a worldwide basis. In Lloyd's, individual investors, or 'names', provide limited cash funds and accept unlimited liability for insurance policies. The policies are arranged by managers on behalf of syndicates, that is, groups of names. Companies have recently been allowed to join Lloyd's. Lloyd's is a market, not a company, so does not itself provide insurance. It does maintain a central fund to back syndicates which might otherwise default, which would damage the reputation of Lloyd's as a whole. Lloyd's had operated profitably for centuries before the 1980s, but in the late 1980s and early 1990s some syndicates made losses of billions of pounds. Those losses led to large cash calls on names, and were followed by allegations of mismanagement and litigation.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

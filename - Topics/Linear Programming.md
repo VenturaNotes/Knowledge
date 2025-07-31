@@ -6,7 +6,10 @@
 - Computationally such problems are solved by the [[simplex method]], an algorithm that terminates after a finite number of steps. It starts at a basic feasible solution and moves through the set of such solutions in such a manner that the value of the linear form is nonincreasing. Very large problems occur in practice involving sparse matrices. Iterative infinite algorithms are sometimes faster, notably [[Karmarkar's method]].
 ## Source[^2]
 - A modelling technique that determines an optimal solution for attaining an objective by taking into consideration a number of constraints. The objective function, often to optimize profits or minimize costs, is expressed as an equation and the constraints are also expressed in mathematical terms. Where only two products and few constraints are involved a solution may be obtained graphically. More than two products requires a computer program.
+## Source[^3]
+- A mathematical procedure for finding the maximum or minimum value of a linear objective function subject to linear constraints.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

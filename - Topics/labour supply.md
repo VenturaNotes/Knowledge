@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The supply of work effort. This can refer to labour supply of an individual or the aggregate labour supply of an economy. Numerous factors affect labour supply. The participation rate is affected by rates of pay, the availability of jobs, and the rules of the social security system, which determine how much income is available without working. The size of the national labour force is also affected by immigration policy. The supply of workers with the specific skills or qualifications needed for particular types of work is affected by a country's education and training systems, and any past restrictions on entry to particular occupations. Given the size of the potential labour force, the number of hours worked per week or weeks worked per year is affected by the wages offered. Higher pay may induce those in a given occupation to work longer, and may induce entry by people from other occupations. If pay or the ease of getting work varies over time, labour supply at periods of high demand may be boosted by intertemporal substitution: people work more when the going is good, with the intention of taking time off later.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

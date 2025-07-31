@@ -10,7 +10,10 @@
 - The SD is important in marketing research as it provides the researcher with some idea of the range of answers to a question. In Figure 2 two sample populations, A and B , have the same mean, but population B has a greater SD than population A (indicated by the spread of the curve). While the researcher may have asked both populations the same questions, with both populations on average agreeing (i.e. the same mean), there is a greater dispersion in population B, indicating a greater variation of opinion than in A.
 - ![[Screenshot 2025-06-22 at 10.59.41 PM.png|500]]
 	- Figure 2: normal distribution curves having the same mean but different standard deviations
+## Source[^3]
+- normal distribution (Gaussian distribution) A continuous distribution of a random variable described by a probability density function of the form$$f(x)=\exp \left[-(x-\mu)^{2} /\left(2 \sigma^{2}\right)\right] / \sqrt{2 \pi \sigma^{2}},-\infty<x<\infty$$The normal distribution has mean $\mu$, variance $\sigma^{2}$, and is symmetric about the mean. The standard normal distribution is defined as the normal distribution with zero mean and unit variance; normal distributions with arbitrary mean and variance form a location-scale family. The normal distribution plays an important role in statistical inference due to the Central Limit Theorems.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

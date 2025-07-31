@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The number of people in or available for paid employment, also referred to as the workforce or manpower. According to the formal definition of the International Labour Organization, the labour force includes the population 15 years old and over who are either employed, unemployed, or seeking employment. The size of the labour force is affected by many factors. The population of working age is determined by the school-leaving age and the size of the further and higher education system, as well as the retirement age and pension system. Among the population of working age, the participation rate is affected by the social security system. Health standards affect the proportion of the population which is disabled, and family structure affects how many people stay out of the labour market to care for children and the elderly. The availability of childcare facilities affects how many parents are available for part-time work, and the availability of part-time jobs affects how many people can work at all. Past unemployment affects the number of discouraged workers who have effectively withdrawn from the labour force. The labour force is also affected by a country's immigration policy.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
