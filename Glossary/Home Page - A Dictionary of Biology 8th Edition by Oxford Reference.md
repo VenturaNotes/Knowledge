@@ -1746,7 +1746,7 @@ Reviewed: false
 	1715. endospore
 	1716. endostyle
 	1717. endosymbiont
-	1718. endosymbiont theory
+	1718. [[endosymbiont theory]]
 	1719. endothelin
 	1720. endothelium
 	1721. [[endotherm]]
@@ -1759,7 +1759,7 @@ Reviewed: false
 	1728. enhancer
 	1729. enkephalin
 	1730. Ensembl
-	1731. enteric nervous system
+	1731. [[enteric nervous system]]
 	1732. enterogastric reflex
 	1733. enterokinase
 	1734. enteron
@@ -1793,7 +1793,7 @@ Reviewed: false
 	1762. epicarp
 	1763. epicotyl
 	1764. epidemic
-	1765. epidemiology
+	1765. [[epidemiology]]
 	1766. epidermal growth factor
 	1767. epidermis
 	1768. epididymis
