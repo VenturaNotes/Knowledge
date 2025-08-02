@@ -1749,7 +1749,7 @@ Reviewed: false
 	1718. endosymbiont theory
 	1719. endothelin
 	1720. endothelium
-	1721. endotherm
+	1721. [[endotherm]]
 	1722. endothermic
 	1723. endotoxin
 	1724. endotrophic mycorrhiza
@@ -1807,7 +1807,7 @@ Reviewed: false
 	1776. epinephrine
 	1777. epipelagic zone
 	1778. epiphysis
-	1779. epiphyte
+	1779. [[epiphyte]]
 	1780. episome
 	1781. epistasis
 	1782. epithelium
@@ -4710,16 +4710,20 @@ Reviewed: false
 	4678. respiratory organ
 	4679. respiratory pigment
 	4680. respiratory quotient
-	4681. respirometer
+	4681. [[respirometer]]
 	4682. response
 	4683. resting potential
 	4684. restriction enzyme
 	4685. restriction fragment length polymorphism
 	4686. restriction mapping
 	4687. restriction point
+		1. See cell cycle
 	4688. resurrection biology
+		1. See de-extinction
 	4689. reticular activating system
+		1. See brainstem
 	4690. reticular formation
+		1. See brainstem
 	4691. reticulate
 	4692. reticuloendothelial system
 	4693. reticulum
