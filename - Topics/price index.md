@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An index number, or an aggregate measure, of the prices of goods in some given category. Consider good $i$. Let period 0 be the base period, period $t$ the current period, and $p_{i \tau}$ the price in period $\tau$. The price index for good $i$ is given by $p_{i t} / p_{i 0}$. This gives the index in ratio form and has a value of 1 in the base period. It is often multiplied by 100 to give a value of 100 in the base period. If a class of goods $i=1,2, \ldots, N$ is concerned, the price index is a ratio of the weighted average of their prices. The weights are the values of the goods purchased in some period. If $q_{i \tau}$ is the quantity of good $i$ in period $\tau$, the base-weighted or Laspeyres price index at time $t$ is defined as$$p_{B}=\sum_{i=1}^{N} p_{i t} q_{i 0} / \sum_{i=1}^{N} p_{i 0} q_{i 0}$$and the current-weighted or Paasche price index at time $t$ is defined as$$p_{C}=\sum_{i=1}^{N} p_{i t} q_{i t} / \sum_{i=1}^{N} p_{i 0} q_{i t}$$Again these are in ratio form but can be multiplied by 100. Price indices can also be found for security prices or wage rates. See also CONSUMER PRICE INDEX; RETAIL PRICE INDEX.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

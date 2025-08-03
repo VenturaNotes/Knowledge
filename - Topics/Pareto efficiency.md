@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - In economic theory, an alteration in the allocation of resources is said to be Pareto efficient when it leaves at least one person better off and nobody worse off. A state of Pareto optimality occurs when no further Pareto-efficient changes can be made. The concept was first described by the Italian economist Vilfredo Pareto (1848-1923). Compare Kaldor-Hicks EFFICIENCY.
+## Source[^2]
+- A form of efficiency for an economic allocation. An allocation is Pareto efficient if there is no feasible reallocation that can raise the welfare of one economic agent without lowering the welfare of any other economic agent. The concept of Pareto efficiency can be applied to any economic allocation whether it emerges from trade, bargaining, strategic interaction, or government imposition. The First Theorem of Welfare Economics states that the equilibrium of a competitive economy is Pareto efficient. This is often explained in terms of efficiency in consumption (allocation of commodities between consumers), production (allocation of inputs between firms), and product mix (the composition of output from firms). The outcome of bargaining need not be Pareto efficient if there is asymmetric information, but Pareto efficiency is usually imposed as a characteristic of a good bargaining mechanism. The Nash equilibrium of a strategic game also need not be Pareto efficient. This occurs in games such as the prisoners' dilemma because of the conflict between private and social rationality. It has to be stressed that even if an equilibrium is Pareto efficient it may not be equitable.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

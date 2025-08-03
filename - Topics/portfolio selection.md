@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The choice of the proportions of different assets which should be held in order to obtain the maximum expected benefit from any given stock of wealth. The chosen proportions depend on both the characteristics of various assets and the objectives of the person or institution holding them. Assets differ in their return and in their riskiness. The variance of expected returns, and covariance with other assets, are often used in portfolio selection, but these are not the only possible measures of risk. If variance is taken as the appropriate measure of risk, an efficient portfolio is one which gives the minimum variance available with any given expected mean returns, or the maximum returns available accepting any level of variance. As the returns on various securities are not perfectly correlated, the variance of returns on a portfolio can be reduced by holding more different securities. However, after a quite limited number the rise in transaction costs of smaller holdings means that further diversification does not pay. The choice of which efficient portfolio to hold depends on the degree of risk aversion of the investor. An individual pensioner, or a pension fund, may have a strong preference for a safe income, without much concern about short-term fluctuations in capital value. A bank or other financial intermediary may have a much stronger preference for stable capital values, even at the cost of a variable income.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

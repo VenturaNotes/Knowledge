@@ -7,6 +7,9 @@
 - The private sector of the insurance industry also provides a wide variety of occupational pension schemes, personal pension schemes, and stakeholder pension schemes, as well as annuities and endowment assurances. Financial analysts predict a major pensions crisis in the mid-21st century, since demographic trends will produce an ever-growing number of people beyond retirement age drawing on insufficient state and personal provision. See PAY-AS-YOU-GO PENSION SYSTEM.
 - http://www.thepensionservice.gov.uk/home.asp
 	- Information about state pensions from the Gov.uk website
+## Source[^2]
+- A regular income paid by the state to people above pensionable age, by former employers to people who have retired from employment, or by a personal pension fund to a contributor. State pensions may be conditional on having made contributions to an insurance fund during one's working life. Occupational pensions may be contributory or noncontributory. Pension schemes normally give members pensions for their own lives; they vary in their provision for surviving spouses and other dependants. Personal pensions can also be purchased from insurance companies. See also OCCUPATIONAL PENSION; PAY-AS-YOU-GO PENSION; PORTABLE PENSION.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

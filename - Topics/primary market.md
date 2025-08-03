@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - The market into which a new issue of securities is launched. Compare SECONDARY MARKET.
+## Source[^2]
+- A market on which new financial securities are initially traded.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

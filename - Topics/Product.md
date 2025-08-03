@@ -6,7 +6,10 @@
 ## Source[^2]
 - (1) Anything that can be offered to a market for attention, acquisition, use, or consumption that might satisfy a need. It includes physical objects and services. 
 - (2) Any item, sub-assembly or cost unit manufactured or sold by an organization.
+## Source[^3]
+- What is produced, by an individual firm, an industry, or the economy as a whole. See also GROSS DOMESTIC PRODUCT; MARGINAL PRODUCT; NATIONAL PRODUCT; PRODUCT DIFFERENTIATION; PRODUCT INNOVATION; PRODUCT LIFE CYCLE; STAPLE PRODUCT.
 ## References
 
 [^1]: [[Home Page - Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

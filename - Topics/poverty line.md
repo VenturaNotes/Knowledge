@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An income level supposed to be just enough to avoid less than adequate consumption. The poverty line can be defined as an absolute or as a relative concept. Absolute poverty assumes that there is some fixed minimum level of consumption that constitutes poverty and is independent of time or place. Such a minimum level of consumption, often called the subsistence level, can be a diet that is just sufficient to maintain health, and limited housing and clothing. The cost of this minimum consumption level defines the poverty line. If the incomes of all households rise, there will eventually be no absolute poverty. Relative poverty is defined in terms of the standards of a given society at a given time and, as the income of that society rises, so does the level that represents poverty. With a relative concept, it becomes much more difficult to eliminate poverty. Relative poverty has also been defined in terms of the ability to 'participate' in society. Poverty then arises whenever a household possesses insufficient resources to allow it to participate in the customary activities of its society.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
