@@ -2669,445 +2669,481 @@ Reviewed: false
 	1389. [[Organization for Economic Co-operation and Development]]
 	1390. [[Organization of the Petroleum Exporting Countries]]
 
-	1391. organized labour
-	1392. organized sector
-	1393. origin principle of taxation
-	1394. outlier
-	1395. output
-	1396. output effect
-	1397. output gap
-	1398. output method
-	1399. output per hour worked
-	1400. outside money
+	1391. [[organized labour]]
+	1392. [[organized sector]]
+	1393. [[origin principle of taxation]]
+	1394. [[outlier]]
+	1395. [[output]]
+	1396. [[output effect]]
+	1397. [[output gap]]
+	1398. [[output method]]
+	1399. [[output per hour worked]]
+	1400. [[outside money]]
 
-	1401. outsourcing
-	1402. outworker
-	1403. over-capacity working
-	1404. over-stimulation
-	1405. over-subscription
-	1406. over-the-counter market
-	1407. over-valued currency
-	1408. overdraft
-	1409. overfull employment
-	1410. overhead costs
+	1401. [[outsourcing]]
+	1402. [[outworker]]
+	1403. [[over-capacity working]]
+	1404. [[over-stimulation]]
+	1405. [[over-subscription]]
+	1406. [[over-the-counter market]]
+	1407. [[over-valued currency]]
+	1408. [[overdraft]]
+	1409. [[overfull employment]]
+	1410. [[overhead costs]]
 
-	1411. overheating
-	1412. overlapping generations economy
-	1413. overmanning
+	1411. [[overheating]]
+	1412. [[overlapping generations economy]]
+	1413. [[overmanning]]
 	1414. overnight money
-	1415. overseas bank
+		1. See day-to-day money
+	1415. [[overseas bank]]
 	1416. overseas investment
-	1417. overshooting
-	1418. overtime
-	1419. overtime ban
-	1420. overtrading
+		1. See foreign investment
+	1417. [[overshooting]]
+	1418. [[overtime]]
+	1419. [[overtime ban]]
+	1420. [[overtrading]]
 
-	1421. owner-occupied housing
-	1422. ownership
-	1423. ozone layer
-	1424. p-value
+	1421. [[owner-occupied housing]]
+	1422. [[ownership]]
+	1423. [[ozone layer]]
+	1424. [[p-value]]
 	1425. Paasche index
-	1426. package of policies
-	1427. paid-up capital
-	1428. Panchayati Raj
-	1429. panel data
-	1430. paradox of thrift
+		1. See current-weighted index
+	1426. [[package of policies]]
+	1427. [[paid-up capital]]
+	1428. [[Panchayati Raj]]
+	1429. [[panel data]]
+	1430. [[paradox of thrift]]
 
-	1431. paradox of voting
-	1432. parameter
-	1433. Pareto distribution
-	1434. Pareto efficiency
-	1435. Pareto efficient
-	1436. Pareto law
+	1431. [[paradox of voting]]
+	1432. [[parameter]]
+	1433. [[Pareto distribution]]
+	1434. [[Pareto efficiency]]
+	1435. [[Pareto efficient]]
+	1436. [[Pareto law]]
 	1437. Paris Club
-	1438. part-time work
-	1439. partial adjustment
-	1440. partial autocorrelation coefficient
+		1. See group of ten
+	1438. [[part-time work]]
+	1439. [[partial adjustment]]
+	1440. [[partial autocorrelation coefficient]]
 
-	1441. partial autocorrelation function
-	1442. partial correlation
-	1443. partial equilibrium
-	1444. participation rate
-	1445. partnership
-	1446. par value
-	1447. patent
-	1448. paternalism
-	1449. path dependence
-	1450. pay-as-you-go pension
+	1441. [[partial autocorrelation function]]
+	1442. [[partial correlation]]
+	1443. [[partial equilibrium]]
+	1444. [[participation rate]]
+	1445. [[partnership]]
+	1446. [[par value]]
+	1447. [[patent]]
+	1448. [[paternalism]]
+	1449. [[path dependence]]
+	1450. [[pay-as-you-go pension]]
 
-	1451. pay-back period
-	1452. pay-off matrix
-	1453. pay as you earn
-	1454. pay control
+	1451. [[pay-back period]]
+	1452. [[pay-off matrix]]
+	1453. [[pay as you earn]]
+	1454. [[pay control]]
 	1455. PAYE
-	1456. pay freeze
-	1457. payments in kind
-	1458. payments union
-	1459. payroll
-	1460. payroll tax
+		1. See pay as you earn
+	1456. [[pay freeze]]
+	1457. [[payments in kind]]
+	1458. [[payments union]]
+	1459. [[payroll]]
+	1460. [[payroll tax]]
 
-	1461. peace dividend
-	1462. peak
-	1463. peak-load pricing
-	1464. pecuniary externality
-	1465. pendulum arbitration
-	1466. pension
-	1467. pensionable age
-	1468. pension crisis
-	1469. pension fund
-	1470. pension insurance contract
+	1461. [[peace dividend]]
+	1462. [[peak]]
+	1463. [[peak-load pricing]]
+	1464. [[pecuniary externality]]
+	1465. [[pendulum arbitration]]
+	1466. [[pension]]
+	1467. [[pensionable age]]
+	1468. [[pension crisis]]
+	1469. [[pension fund]]
+	1470. [[pension insurance contract]]
 
-	1471. pension rights
+	1471. [[pension rights]]
 	1472. pension scheme
-	1473. People's Bank of China
-	1474. per capita income
-	1475. per capita real GDP
-	1476. 100 per cent gold backing
+		1. See contributory pension scheme; non-contributory pension scheme; under-funded pension scheme; unfunded pension scheme.
+	1473. [[People's Bank of China]]
+	1474. [[per capita income]]
+	1475. [[per capita real GDP]]
+	1476. [[100 per cent gold backing]]
 	1477. percentile
-	1478. perestroika
-	1479. perfect capital mobility
-	1480. perfect competition
+		1. See quantile
+	1478. [[perestroika]]
+	1479. [[perfect capital mobility]]
+	1480. [[perfect competition]]
 
-	1481. perfect foresight
-	1482. perfect market
-	1483. perfect substitute
-	1484. performance-related pay
-	1485. peril point
-	1486. period of gestation
-	1487. periphery
-	1488. permanent income
-	1489. permanent income hypothesis
-	1490. Permanent Interest Bearing Shares
+	1481. [[perfect foresight]]
+	1482. [[perfect market]]
+	1483. [[perfect substitute]]
+	1484. [[performance-related pay]]
+	1485. [[peril point]]
+	1486. [[period of gestation]]
+	1487. [[periphery]]
+	1488. [[permanent income]]
+	1489. [[permanent income hypothesis]]
+	1490. [[Permanent Interest Bearing Shares]]
 
-	1491. permit to pollute
-	1492. perpetual bond
-	1493. perpetual inventory method
-	1494. perpetuity
-	1495. perquisites
-	1496. persistence
-	1497. personal disposable income
-	1498. personal equity plan
-	1499. personal income distribution
-	1500. Personal Investment Authority
+	1491. [[permit to pollute]]
+	1492. [[perpetual bond]]
+	1493. [[perpetual inventory method]]
+	1494. [[perpetuity]]
+	1495. [[perquisites]]
+	1496. [[persistence]]
+	1497. [[personal disposable income]]
+	1498. [[personal equity plan]]
+	1499. [[personal income distribution]]
+	1500. [[Personal Investment Authority]]
 
-	1501. personal loan
-	1502. personal preferences
-	1503. personal sector
-	1504. peso crisis
-	1505. peso problem
-	1506. petro-currency
-	1507. petro-dollars
-	1508. phased retirement
-	1509. Phillips curve
-	1510. physical capital
+	1501. [[personal loan]]
+	1502. [[personal preferences]]
+	1503. [[personal sector]]
+	1504. [[peso crisis]]
+	1505. [[peso problem]]
+	1506. [[petro-currency]]
+	1507. [[petro-dollars]]
+	1508. [[phased retirement]]
+	1509. [[Phillips curve]]
+	1510. [[physical capital]]
 
-	1511. phytosanitary measures
-	1512. picketing
-	1513. picking winners
-	1514. piecework
-	1515. Pigou effect
-	1516. Pigouvian tax
-	1517. Pink Book
-	1518. piracy
-	1519. placing
-	1520. planned economy
+	1511. [[phytosanitary measures]]
+	1512. [[picketing]]
+	1513. [[picking winners]]
+	1514. [[piecework]]
+	1515. [[Pigou effect]]
+	1516. [[Pigouvian tax]]
+	1517. [[Pink Book]]
+	1518. [[piracy]]
+	1519. [[placing]]
+	1520. [[planned economy]]
 
-	1521. planned investment
-	1522. planned savings
-	1523. planning((land-use))
-	1524. planning permission
-	1525. player
-	1526. Plaza Accord
+	1521. [[planned investment]]
+	1522. [[planned savings]]
+	1523. [[planning]]
+	1524. [[planning permission]]
+	1525. [[player]]
+	1526. [[Plaza Accord]]
 	1527. PLC
-	1528. plough-back
-	1529. point elasticity
-	1530. points((change in index))
+		1. See public limited company
+	1528. [[plough-back]]
+	1529. [[point elasticity]]
+	1530. [[points]]
 
-	1531. polarization
-	1532. policy coordination
-	1533. policy instrument
-	1534. political business cycle
-	1535. political economy
-	1536. poll tax
-	1537. polluter pays principle
-	1538. pollution
-	1539. pollution control
-	1540. pollution rights
+	1531. [[polarization]]
+	1532. [[policy coordination]]
+	1533. [[policy instrument]]
+	1534. [[political business cycle]]
+	1535. [[political economy]]
+	1536. [[poll tax]]
+	1537. [[polluter pays principle]]
+	1538. [[pollution]]
+	1539. [[pollution control]]
+	1540. [[pollution rights]]
 
-	1541. pollution standards
-	1542. Ponzi scheme
-	1543. pooled least squares
-	1544. pooling equilibrium
+	1541. [[pollution standards]]
+	1542. [[Ponzi scheme]]
+	1543. [[pooled least squares]]
+	1544. [[pooling equilibrium]]
 	1545. population census
-	1546. population trap
-	1547. portable pension
-	1548. portfolio
-	1549. portfolio selection
-	1550. portfolio theory
+		1. See census
+	1546. [[population trap]]
+	1547. [[portable pension]]
+	1548. [[portfolio]]
+	1549. [[portfolio selection]]
+	1550. [[portfolio theory]]
 
 	1551. position
-	1552. positional good
-	1553. positive economics
-	1554. posterior
+		1. See long position; open position; short position
+	1552. [[positional good]]
+	1553. [[positive economics]]
+	1554. [[posterior]]
 	1555. Post Office Savings
-	1556. potential competition
-	1557. potential output
-	1558. pound
-	1559. poverty
-	1560. poverty line
+		1. See national savings
+	1556. [[potential competition]]
+	1557. [[potential output]]
+	1558. [[pound]]
+	1559. [[poverty]]
+	1560. [[poverty line]]
 
-	1561. Poverty Reduction and Growth Facility
-	1562. poverty trap
-	1563. power
-	1564. power of a test
+	1561. [[Poverty Reduction and Growth Facility]]
+	1562. [[poverty trap]]
+	1563. [[power]]
+	1564. [[power of a test]]
 	1565. PPP
+		1. See purchasing power parity; Public Private Partnership.
 	1566. pre-commitment
-	1567. pre-tax profits
-	1568. Prebisch thesis
-	1569. precautionary motive
-	1570. predatory pricing
+		1. See commitment
+	1567. [[pre-tax profits]]
+	1568. [[Prebisch thesis]]
+	1569. [[precautionary motive]]
+	1570. [[predatory pricing]]
 
-	1571. predetermined variable
-	1572. predictor
+	1571. [[predetermined variable]]
+	1572. [[predictor]]
 	1573. preference(s)
-	1574. preference revelation
-	1575. preference share
-	1576. premium
-	1577. premium bond
-	1578. prescriptive statement
-	1579. present discounted value
-	1580. pressure group
+		1. See AXIOMS OF PREFERENCE; LIQUIDITY PREFERENCE; PERSONAL PREFERENCES; REVEALED PREFERENCE; SINGLE-PEAKED PREFERENCES; TIME PREFERENCE.
+	1574. [[preference revelation]]
+	1575. [[preference share]]
+	1576. [[premium]]
+	1577. [[premium bond]]
+	1578. [[prescriptive statement]]
+	1579. [[present discounted value]]
+	1580. [[pressure group]]
 
-	1581. price
-	1582. price-earnings ratio
+	1581. [[price]]
+	1582. [[price-earnings ratio]]
 	1583. price-maker
-	1584. price-sensitive information
-	1585. price-setter
-	1586. price-taker
+		1. See price-setter
+	1584. [[price-sensitive information]]
+	1585. [[price-setter]]
+	1586. [[price-taker]]
 	1587. price-wage spiral
-	1588. price control
-	1589. price discrimination
-	1590. price effect
+		1. See wage-price spiral
+	1588. [[price control]]
+	1589. [[price discrimination]]
+	1590. [[price effect]]
 
-	1591. price elasticity
-	1592. price fixing
-	1593. price floor
-	1594. price index
-	1595. price leader
-	1596. price level
-	1597. price mechanism
-	1598. price reform
-	1599. prices and incomes policy
-	1600. price squeeze
+	1591. [[price elasticity]]
+	1592. [[price fixing]]
+	1593. [[price floor]]
+	1594. [[price index]]
+	1595. [[price leader]]
+	1596. [[price level]]
+	1597. [[price mechanism]]
+	1598. [[price reform]]
+	1599. [[prices and incomes policy]]
+	1600. [[price squeeze]]
 
-	1601. price stability
-	1602. price stickiness
-	1603. price support
-	1604. price volatility
-	1605. price war
+	1601. [[price stability]]
+	1602. [[price stickiness]]
+	1603. [[price support]]
+	1604. [[price volatility]]
+	1605. [[price war]]
 	1606. pricing
+		1. See AVERAGE COST PRICING; COST-PLUS PRICING; FULL COST PRICING; LIMIT PRICING; MARGINAL COST PRICING; PEAK-LOAD PRICING; TRANSFER PRICING.
 	1607. primary commodity
-	1608. primary market
-	1609. primary sector
-	1610. prime rate
+		1. See commodity
+	1608. [[primary market]]
+	1609. [[primary sector]]
+	1610. [[prime rate]]
 
-	1611. principal
-	1612. principal-agent problem
-	1613. principal components analysis
-	1614. prior
-	1615. prisoners' dilemma
-	1616. private benefit
-	1617. private company
-	1618. private cost
-	1619. private enterprise
+	1611. [[principal]]
+	1612. [[principal-agent problem]]
+	1613. [[principal components analysis]]
+	1614. [[prior]]
+	1615. [[prisoners' dilemma]]
+	1616. [[private benefit]]
+	1617. [[private company]]
+	1618. [[private cost]]
+	1619. [[private enterprise]]
 	1620. Private Finance Initiative
+		1. See public private partnership
 
-	1621. private good
-	1622. private internal rate of return
-	1623. private network
-	1624. private property
-	1625. private sector
-	1626. private sector balance
-	1627. privatization
-	1628. probability((of a random event))
-	1629. probability distribution((of a random variable))
-	1630. probit model
+	1621. [[private good]]
+	1622. [[private internal rate of return]]
+	1623. [[private network]]
+	1624. [[private property]]
+	1625. [[private sector]]
+	1626. [[private sector balance]]
+	1627. [[privatization]]
+	1628. [[probability]]
+	1629. [[probability distribution]]
+	1630. [[probit model]]
 
-	1631. process innovation
-	1632. procurement
-	1633. producer good
-	1634. producer surplus
-	1635. product
-	1636. product differentiation
-	1637. product innovation
-	1638. production
-	1639. production externality
-	1640. production function
+	1631. [[process innovation]]
+	1632. [[procurement]]
+	1633. [[producer good]]
+	1634. [[producer surplus]]
+	1635. [[product]]
+	1636. [[product differentiation]]
+	1637. [[product innovation]]
+	1638. [[production]]
+	1639. [[production externality]]
+	1640. [[production function]]
 
-	1641. production possibility frontier
-	1642. production possibility set
-	1643. production set
-	1644. production subsidy
+	1641. [[production possibility frontier]]
+	1642. [[production possibility set]]
+	1643. [[production set]]
+	1644. [[production subsidy]]
 	1645. productive efficiency
-	1646. productivity
-	1647. product liability
-	1648. product life cycle
-	1649. product proliferation
-	1650. professional body
+		1. See efficiency
+	1646. [[productivity]]
+	1647. [[product liability]]
+	1648. [[product life cycle]]
+	1649. [[product proliferation]]
+	1650. [[professional body]]
 
-	1651. profit
-	1652. profit-and-loss account
-	1653. profit-related pay
-	1654. profit-sharing
-	1655. profit-sharing arrangement
-	1656. profit-taking
-	1657. profit maximization
-	1658. profit motive
-	1659. profit warning
-	1660. progressive tax
+	1651. [[profit]]
+	1652. [[profit-and-loss account]]
+	1653. [[profit-related pay]]
+	1654. [[profit-sharing]]
+	1655. [[profit-sharing arrangement]]
+	1656. [[profit-taking]]
+	1657. [[profit maximization]]
+	1658. [[profit motive]]
+	1659. [[profit warning]]
+	1660. [[progressive tax]]
 
-	1661. prohibitive tariff
-	1662. propensity score matching
-	1663. propensity to consume
-	1664. propensity to save
-	1665. property
-	1666. property company
-	1667. property developer
-	1668. property income
-	1669. property income from abroad
-	1670. property lending
+	1661. [[prohibitive tariff]]
+	1662. [[propensity score matching]]
+	1663. [[propensity to consume]]
+	1664. [[propensity to save]]
+	1665. [[property]]
+	1666. [[property company]]
+	1667. [[property developer]]
+	1668. [[property income]]
+	1669. [[property income from abroad]]
+	1670. [[property lending]]
 
-	1671. property market
-	1672. property portfolio
-	1673. property rights
-	1674. proportional tax
-	1675. prospect theory
-	1676. prospectus
-	1677. protection
-	1678. protectionism
-	1679. proxy variable
-	1680. proxy vote
+	1671. [[property market]]
+	1672. [[property portfolio]]
+	1673. [[property rights]]
+	1674. [[proportional tax]]
+	1675. [[prospect theory]]
+	1676. [[prospectus]]
+	1677. [[protection]]
+	1678. [[protectionism]]
+	1679. [[proxy variable]]
+	1680. [[proxy vote]]
 
-	1681. Prudential Regulation Authority
-	1682. public choice
+	1681. [[Prudential Regulation Authority]]
+	1682. [[public choice]]
 	1683. public company
-	1684. public corporation
-	1685. public debt
-	1686. public economics
+		1. See public limited company
+	1684. [[public corporation]]
+	1685. [[public debt]]
+	1686. [[public economics]]
 	1687. public expenditure
-	1688. Public Expenditure Survey Committee
-	1689. public finance
-	1690. public good
+		1. See government expenditure
+	1688. [[Public Expenditure Survey Committee]]
+	1689. [[public finance]]
+	1690. [[public good]]
 
-	1691. public interest
-	1692. public limited company
-	1693. public network
-	1694. public ownership
-	1695. Public Private Partnership
-	1696. public procurement
-	1697. public sector
-	1698. Public Sector Borrowing Requirement
+	1691. [[public interest]]
+	1692. [[public limited company]]
+	1693. [[public network]]
+	1694. [[public ownership]]
+	1695. [[Public Private Partnership]]
+	1696. [[public procurement]]
+	1697. [[public sector]]
+	1698. [[Public Sector Borrowing Requirement]]
 	1699. public sector debt
-	1700. Public Sector Debt Repayment
+		1. See government debt
+	1700. [[Public Sector Debt Repayment]]
 
-	1701. Public Sector Net Cash Requirement
+	1701. [[Public Sector Net Cash Requirement]]
 	1702. public spending
+		1. See government expenditure
 	1703. public utility
-	1704. public works
-	1705. pump priming
-	1706. punishment strategy
-	1707. purchase tax
-	1708. purchasing power
-	1709. purchasing power parity
-	1710. pure floating exchange rate
+		1. See utility
+	1704. [[public works]]
+	1705. [[pump priming]]
+	1706. [[punishment strategy]]
+	1707. [[purchase tax]]
+	1708. [[purchasing power]]
+	1709. [[purchasing power parity]]
+	1710. [[pure floating exchange rate]]
 
 	1711. put bond
-	1712. put option
-	1713. pyramid scheme
-	1714. qualification of accounts
+		1. See retractable bond
+	1712. [[put option]]
+	1713. [[pyramid scheme]]
+	1714. [[qualification of accounts]]
 	1715. qualitative choice models
-	1716. qualitative data
-	1717. quality-adjusted life years
-	1718. quality control
-	1719. quality ladder
-	1720. quality standards
+		1. See discrete choice models
+	1716. [[qualitative data]]
+	1717. [[quality-adjusted life years]]
+	1718. [[quality control]]
+	1719. [[quality ladder]]
+	1720. [[quality standards]]
 
 	1721. quango
-	1722. quantile
-	1723. quantile regression
-	1724. quantitative easing
-	1725. quantity demanded
-	1726. quantity discount
-	1727. quantity equation
-	1728. quantity of money
-	1729. quantity supplied
-	1730. quantity theory of money
+		1. See QUASI-AUTONOMOUS NON-GOVERNMENT ORGANIZATION.
+	1722. [[quantile]]
+	1723. [[quantile regression]]
+	1724. [[quantitative easing]]
+	1725. [[quantity demanded]]
+	1726. [[quantity discount]]
+	1727. [[quantity equation]]
+	1728. [[quantity of money]]
+	1729. [[quantity supplied]]
+	1730. [[quantity theory of money]]
 
-	1731. quarterly data
+	1731. [[quarterly data]]
 	1732. quartile
-	1733. quasi-autonomous non-governmental organization
-	1734. quasi-fixed factors
-	1735. quasi-rent
-	1736. queue
-	1737. quits
-	1738. quota
-	1739. quota
-	1740. quota
+		1. See quantile
+	1733. [[quasi-autonomous non-governmental organization]]
+	1734. [[quasi-fixed factors]]
+	1735. [[quasi-rent]]
+	1736. [[queue]]
+	1737. [[quits]]
+	1738. [[quota]]
+	1739. 
+	1740. 
 
-	1741. quota sample
-	1742. quotation
-	1743. quote-driven market
-	1744. quoted company
+	1741. [[quota sample]]
+	1742. [[quotation]]
+	1743. [[quote-driven market]]
+	1744. [[quoted company]]
 	1745. R&D
+		1. See research and development
 	1746. R-squared
+		1. See coefficient of determination
 	1747. racial discrimination
-	1748. rainforest
-	1749. Ramsey pricing
-	1750. Ramsey regression equation specification error test
+		1. See discrimination
+	1748. [[rainforest]]
+	1749. [[Ramsey pricing]]
+	1750. [[Ramsey regression equation specification error test]]
 
-	1751. Ramsey rule
-	1752. random effects
-	1753. random error
-	1754. random event
-	1755. randomized response
+	1751. [[Ramsey rule]]
+	1752. [[random effects]]
+	1753. [[random error]]
+	1754. [[random event]]
+	1755. [[randomized response]]
 	1756. random process
-	1757. random sample
-	1758. random variable
-	1759. random walk
-	1760. range
+		1. See stochastic process
+	1757. [[random sample]]
+	1758. [[random variable]]
+	1759. [[random walk]]
+	1760. [[range]]
 
 	1761. rank correlation
-	1762. rank dependent expected utility theory
-	1763. ratchet effect
-	1764. rateable value
+		1. See spearman rank correlation coefficient
+	1762. [[rank dependent expected utility theory]]
+	1763. [[ratchet effect]]
+	1764. [[rateable value]]
 	1765. rate of exchange
+		1. See exchange rate
 	1766. rate of growth
-	1767. rate of interest
-	1768. rate of return
-	1769. rate of return regulation
-	1770. rates
+		1. See growth rate
+	1767. [[rate of interest]]
+	1768. [[rate of return]]
+	1769. [[rate of return regulation]]
+	1770. [[rates]]
 
-	1771. rate support grant
-	1772. rational expectations
-	1773. rational ignorance
-	1774. rationality
-	1775. rationalization
-	1776. rationing
-	1777. Rawlsian social welfare function
-	1778. raw materials
-	1779. reaction curve
-	1780. Reaganomics
+	1771. [[rate support grant]]
+	1772. [[rational expectations]]
+	1773. [[rational ignorance]]
+	1774. [[rationality]]
+	1775. [[rationalization]]
+	1776. [[rationing]]
+	1777. [[Rawlsian social welfare function]]
+	1778. [[raw materials]]
+	1779. [[reaction curve]]
+	1780. [[Reaganomics]]
 
-	1781. real balance effect
-	1782. real balances
-	1783. real business cycle
-	1784. real costs
-	1785. real effective exchange rate
-	1786. real exchange rate
-	1787. real GDP
-	1788. real GNP
-	1789. realignment of exchange rates
-	1790. real income
+	1781. [[real balance effect]]
+	1782. [[real balances]]
+	1783. [[real business cycle]]
+	1784. [[real costs]]
+	1785. [[real effective exchange rate]]
+	1786. [[real exchange rate]]
+	1787. [[real GDP]]
+	1788. [[real GNP]]
+	1789. [[realignment of exchange rates]]
+	1790. [[real income]]
 
 	1791. real interest rate
 	1792. real money supply

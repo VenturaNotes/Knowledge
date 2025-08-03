@@ -7,6 +7,11 @@
 - (4) The price paid by a buyer of an option contract to the seller for the right to exercise the option. In general, the premium asked for an option consists of two components, its intrinsic value and its time value. 
 - (5) The difference between the spot price for a commodity or currency and the forward price. 
 - (6) A bonus given to bank customers as an inducement to open an account.
+## Source[^2]
+- (1) The price paid for an insurance policy. This may be a monthly or annual payment, or a lump-sum payment for a single-premium policy.
+- (2) A share price higher than the issue price. A share traded at a price higher than its issue price stands at a premium.
+- (3) An addition to interest rates required to compensate lenders for risk. See also RISK PREMIUM.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

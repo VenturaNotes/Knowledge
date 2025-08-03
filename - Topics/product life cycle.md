@@ -12,6 +12,9 @@
 		- Losses and Investments
 			- Product Development 
 	- Product life cycle. Sales and profits rise during the growth and maturity stages but subsequently decline.
+## Source[^2]
+- A model of how products go through a series of phases over time. In this model, new products start as small-scale specialities produced by innovators. Prices are initially high, both because of high costs due to small-scale production and because initially the innovators have cost advantages of know-how, equipment, and possibly patents, which give them a quasi-monopoly position. As knowledge of the new product spreads, costs fall through increased scale and greater experience, other producers enter the market, and prices come down. Once the product becomes mature, with large-scale production by techniques now regarded as standard, production tends to shift to areas with low labour costs, often in newly industrialized countries. Eventually the product is replaced by something new and drops out of the economy.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

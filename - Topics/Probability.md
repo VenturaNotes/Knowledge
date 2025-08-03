@@ -12,9 +12,12 @@
 - Probability is the branch of mathematics that deals with numerical descriptions of the likelihood that an event will occur, or how likely it is that a proposition is truthful. The probability of an event is a number between zero and one. Zero indicates the impossibility that an event will occur and one indicates certainty that the event will occur. The formula used to calculate the probability of a single event occurring is (P = n / N), which means the probability (P) of an event occurring equals the number of ways an event can occur (n) divided by the total number of possible outcomes (N). The formula used to calculate the probability of multiple events occurring is P(A and B) = P(A) x P(B),which means the probability of both A and B events occurring (P(A and B)) is equal to the probability of event A occurring (P(A)) multiplied by the probability of event B occurring (P(B)).
 ## Source[^4]
 - The likelihood that an event or a particular result will occur. It can be represented on a scale by a number between 0 (zero probability of the event happening, i.e. it is certain not to) and 1 (certainty that it will occur). It is treated mathematically on this basis in statistics.
+## Source[^5]
+- (of a random event) A quantitative measure of the chance that a random event will occur, expressed by a number between 0 and 1 . The probability is 0 if the event is certain not to occur, and 1 if it is certain to occur.
 ## References
 
 [^1]: [[(1) Probability & Statistics (1 of 62) Introduction]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - Glossary by Capterra]]
 [^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

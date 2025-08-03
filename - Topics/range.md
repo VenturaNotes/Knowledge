@@ -17,7 +17,7 @@ $$
 
 f: X \rightarrow Y
 
-$$
+
 
   
 
@@ -26,7 +26,11 @@ can be written as
   
 
 2. See MEASURES OF VARIATION.
+
+## Source[^3]
+- The difference between the largest and the smallest observed or possible values of a variable. The sample range is not usually a good measure of dispersion, as it makes use of only two observations, which may each be outliers.
 ## References
 
 [^1]: ChatGPT
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
