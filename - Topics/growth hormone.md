@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (GH; somatotrophin) A hormone, secreted by the mammalian pituitary gland, that stimulates protein synthesis and growth of the long bones in the legs and arms. It also promotes the breakdown and use of fats as an energy source, rather than glucose. Production of GH is greatest during early life, and it triggers the liver to secrete insulin-like growth factor, which circulates in the blood and promotes the growth of bone and cartilage. GH secretion is controlled by the opposing actions of two hormones from the hypothalamus: growth hormone releasing hormone (somatoliberin), which promotes its release; and somatostatin, which inhibits it. It is released usually several hours after a meal, or following exercise, in response to falling blood glucose levels. By reducing uptake of glucose by muscles, GH causes blood glucose levels to rise; hence its action antagonizes that of insulin. Overproduction of human growth hormone (hGH) results in gigantism in childhood and acromegaly in adults; underproduction results in dwarfism. Bovine somatotrophin (BST) has been used to increase milk and meat production in cattle. Commercially, growth hormone is obtained from bacterial cells containing recombinant DNA expressing the growth hormone gene.
+## References
+
+[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]

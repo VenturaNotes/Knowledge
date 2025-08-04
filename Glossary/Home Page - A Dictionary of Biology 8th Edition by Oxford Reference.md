@@ -2345,7 +2345,7 @@ Reviewed: false
 	2313. growth
 	2314. growth cone
 	2315. growth factor
-	2316. growth hormone
+	2316. [[growth hormone]]
 	2317. growth ring
 	2318. growth substance
 	2319. GSH
@@ -2356,7 +2356,7 @@ Reviewed: false
 	2324. guanosine
 	2325. guanylate cyclase
 	2326. guard cell
-	2327. guidepost cell
+	2327. [[guidepost cell]]
 	2328. guild((in ecology))
 	2329. gullet
 	2330. gum
@@ -2408,7 +2408,7 @@ Reviewed: false
 	2376. harvesting
 	2377. Hatch-Slack pathway
 	2378. haustorium
-	2379. Haversian canals
+	2379. [[Haversian canals]]
 	2380. hearing
 	2381. heart
 	2382. heartwood
