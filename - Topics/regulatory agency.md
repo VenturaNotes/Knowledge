@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A body set up to decide on and enforce regulations. In some cases the government does this itself; in the UK, for example, town planning and weights and measures regulations are decided by the central government and enforced by local authorities. In many cases a quasiautonomous non-governmental organization (quango) is set up and the task of regulation deputed to it. This is largely because of the vast amount of detail involved, and also in an attempt to remove the influence of politicians from deciding on details, and to relieve them of responsibility for the results. In the UK, regulatory quangos include the Competition and Markets Authority and the various bodies, such as the Office of Communications, set up to regulate the pricing and other policies of the privatized public utilities. Regulatory agencies may be set up from outside an industry, or use may be made of self-regulation, by bodies representing firms in an industry. The advantage of self-regulatory organizations is that practitioners in an industry can be expected to be aware of its problems; the danger is that they may tend to identify the public interest with protection of existing firms in an industry.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
