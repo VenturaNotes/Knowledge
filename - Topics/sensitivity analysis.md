@@ -6,8 +6,12 @@
 - The varying of parameters in a simulation to discover which parameters have the greatest influence on the features of interest. 
 ## Source[^3]
 - A method of analyzing the sensitivity of a decision to a change in one or more of the assumptions used in making it. For instance, a company might analyze how its future performance might be affected by changing its level of advertising or by lowering the price of a product, to enable it to estimate the likely impact on sales and profitability. Similarly, in considering an investment decision, it could investigate the impact of changing assumptions regarding the life of an asset, the cost of borrowing, and the end value of the asset. Apart from suggesting a range of possible outcomes, a sensitivity analysis will indicate the degree of risk associated with a decision or course of action.
+## Source[^4]
+- (1) A method for the assessment of the robustness of predictions of a model to variations in the model assumptions. An example of sensitivity analysis in econometrics is the investigation of the robustness of the significance and of the predicted theoretical sign of the relationship between the dependent variable and each explanatory variable against variations in the set of explanatory variables.
+- (2) A method of assessment of a risky investment project based on a number of possible realizations for the macroeconomic and project-specific factors that determine the value of the project, where in computations the factors are changed one at a time. Typically, three realizations$\textemdash$pessimistic, most likely, and optimistic$\textemdash$are considered for each factor. See also SCENARIO ANALYSIS.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -3145,305 +3145,326 @@ Reviewed: false
 	1789. [[realignment of exchange rates]]
 	1790. [[real income]]
 
-	1791. real interest rate
+	1791. [[real interest rate]]
 	1792. real money supply
-	1793. real national income
-	1794. real option theory
-	1795. real terms
-	1796. real variable
-	1797. real wage resistance
-	1798. real wages
-	1799. rebate
-	1800. recapitalization
+		1. See real balances
+	1793. [[real national income]]
+	1794. [[real option theory]]
+	1795. [[real terms]]
+	1796. [[real variable]]
+	1797. [[real wage resistance]]
+	1798. [[real wages]]
+	1799. [[rebate]]
+	1800. [[recapitalization]]
 
-	1801. receivership
-	1802. recession
-	1803. reciprocity
-	1804. recommended retail price
-	1805. recourse loan
-	1806. recovery
-	1807. recursive model
-	1808. recycling
-	1809. Red Book
-	1810. redeemable security
+	1801. [[receivership]]
+	1802. [[recession]]
+	1803. [[reciprocity]]
+	1804. [[recommended retail price]]
+	1805. [[recourse loan]]
+	1806. [[recovery]]
+	1807. [[recursive model]]
+	1808. [[recycling]]
+	1809. [[Red Book]]
+	1810. [[redeemable security]]
 
-	1811. redemption date
-	1812. redemption value
-	1813. redemption yield
-	1814. redeployment
-	1815. Red Hat enterprise
-	1816. rediscount
-	1817. redistributive tax
-	1818. redlining
-	1819. reduced form
-	1820. reducing balance depreciation
+	1811. [[redemption date]]
+	1812. [[redemption value]]
+	1813. [[redemption yield]]
+	1814. [[redeployment]]
+	1815. [[Red Hat enterprise]]
+	1816. [[rediscount]]
+	1817. [[redistributive tax]]
+	1818. [[redlining]]
+	1819. [[reduced form]]
+	1820. [[reducing balance depreciation]]
 
-	1821. redundancy
+	1821. [[redundancy]]
 	1822. reference point
-	1823. reflation
+		1. See prospect theory
+	1823. [[reflation]]
 	1824. reform
-	1825. refusal to supply
-	1826. regional aid
-	1827. regional policy
-	1828. regional trade agreements
-	1829. registered unemployed
-	1830. Registrar of Companies
+		1. See currency reform; price reform
+	1825. [[refusal to supply]]
+	1826. [[regional aid]]
+	1827. [[regional policy]]
+	1828. [[regional trade agreements]]
+	1829. [[registered unemployed]]
+	1830. [[Registrar of Companies]]
 
-	1831. regression
-	1832. regression discontinuity design
-	1833. regression kink design
-	1834. regressive tax
-	1835. regret theory
-	1836. regulation
-	1837. regulatory agency
-	1838. regulatory capital
-	1839. regulatory capture
-	1840. reinsurance
+	1831. [[regression]]
+	1832. [[regression discontinuity design]]
+	1833. [[regression kink design]]
+	1834. [[regressive tax]]
+	1835. [[regret theory]]
+	1836. [[regulation]]
+	1837. [[regulatory agency]]
+	1838. [[regulatory capital]]
+	1839. [[regulatory capture]]
+	1840. [[reinsurance]]
 
 	1841. rejection region
-	1842. rejection rule
-	1843. relationship banking
-	1844. relationship investor
-	1845. relative income hypothesis
-	1846. relative price
-	1847. relative standard deviation
-	1848. relative standard error
+		1. See acceptance region; rejection rule.
+	1842. [[rejection rule]]
+	1843. [[relationship banking]]
+	1844. [[relationship investor]]
+	1845. [[relative income hypothesis]]
+	1846. [[relative price]]
+	1847. [[relative standard deviation]]
+	1848. [[relative standard error]]
 	1849. relief
-	1850. reneging
+		1. See DEBT RELIEF; MORTGAGE INTEREST RELIEF AT SOURCE.
+	1850. [[reneging]]
 
-	1851. renewable energy
-	1852. renewable resources
-	1853. rent
-	1854. rent-seeking
-	1855. rental payment
-	1856. rent control
-	1857. rented housing
-	1858. rentier
-	1859. repeated game
-	1860. replacement cost
+	1851. [[renewable energy]]
+	1852. [[renewable resources]]
+	1853. [[rent]]
+	1854. [[rent-seeking]]
+	1855. [[rental payment]]
+	1856. [[rent control]]
+	1857. [[rented housing]]
+	1858. [[rentier]]
+	1859. [[repeated game]]
+	1860. [[replacement cost]]
 
-	1861. replacement investment
-	1862. replacement ratio
-	1863. representative firm
-	1864. repressed inflation
-	1865. repudiation of debt
-	1866. reputational policy
-	1867. required rate of return
-	1868. resale price maintenance
-	1869. reschedule debt
-	1870. research and development
+	1861. [[replacement investment]]
+	1862. [[replacement ratio]]
+	1863. [[representative firm]]
+	1864. [[repressed inflation]]
+	1865. [[repudiation of debt]]
+	1866. [[reputational policy]]
+	1867. [[required rate of return]]
+	1868. [[resale price maintenance]]
+	1869. [[reschedule debt]]
+	1870. [[research and development]]
 
-	1871. reservation policy
-	1872. reservation price
-	1873. reservation utility
-	1874. reservation wage
-	1875. reserve asset ratio
-	1876. Reserve Bank of India
-	1877. reserve currency
-	1878. reserve ratio
-	1879. reserve requirements
+	1871. [[reservation policy]]
+	1872. [[reservation price]]
+	1873. [[reservation utility]]
+	1874. [[reservation wage]]
+	1875. [[reserve asset ratio]]
+	1876. [[Reserve Bank of India]]
+	1877. [[reserve currency]]
+	1878. [[reserve ratio]]
+	1879. [[reserve requirements]]
 	1880. reserves
+		1. See CAPITAL RESERVES; FOREIGN EXCHANGE RESERVES; LOAN-LOSS RESERVES.
 
-	1881. reserve tranche
+	1881. [[reserve tranche]]
 	1882. RESET
-	1883. residual
-	1884. residual unemployment
-	1885. residual variation
-	1886. resilience
-	1887. Resolution Trust Corporation
+		1. See RAMSEY REGRESSION EQUATION SPECIFICATION ERROR TEST.
+	1883. [[residual]]
+	1884. [[residual unemployment]]
+	1885. [[residual variation]]
+	1886. [[resilience]]
+	1887. [[Resolution Trust Corporation]]
 	1888. resource curse
-	1889. resources
-	1890. restraint of trade
+		1. See Dutch disease.
+	1889. [[resources]]
+	1890. [[restraint of trade]]
 
-	1891. restricted least squares estimator
-	1892. restrictive practices
-	1893. Restrictive Practices Court
-	1894. retail banking
-	1895. retail price index
-	1896. retail sales
-	1897. retained earnings
-	1898. retaliation
-	1899. retractable bond
+	1891. [[restricted least squares estimator]]
+	1892. [[restrictive practices]]
+	1893. [[Restrictive Practices Court]]
+	1894. [[retail banking]]
+	1895. [[retail price index]]
+	1896. [[retail sales]]
+	1897. [[retained earnings]]
+	1898. [[retaliation]]
+	1899. [[retractable bond]]
 	1900. return
+		1. See rate of return; tax return; VAT return.
 
 	1901. returns
-	1902. returns to scale
-	1903. revaluation
-	1904. revealed preference
-	1905. revealed preference pricing
-	1906. revenue
-	1907. revenue tariff
-	1908. reverse takeover
-	1909. reverse yield gap
-	1910. revolving loan
+		1. See CONSTANT RETURNS TO SCALE; DECREASING RETURNS TO SCALE; INCREASING RETURNS TO SCALE; RETURNS TO SCALE.
+	1902. [[returns to scale]]
+	1903. [[revaluation]]
+	1904. [[revealed preference]]
+	1905. [[revealed preference pricing]]
+	1906. [[revenue]]
+	1907. [[revenue tariff]]
+	1908. [[reverse takeover]]
+	1909. [[reverse yield gap]]
+	1910. [[revolving loan]]
 
-	1911. Reykjavik-on-Liffey
-	1912. Ricardian equivalence
-	1913. ridge regression
-	1914. right-hand-side variable
-	1915. rights issue
-	1916. risk
-	1917. risk-adjusted return on capital
-	1918. risk-averse
-	1919. risk-free asset
-	1920. risk-free interest rate
+	1911. [[Reykjavik-on-Liffey]]
+	1912. [[Ricardian equivalence]]
+	1913. [[ridge regression]]
+	1914. [[right-hand-side variable]]
+	1915. [[rights issue]]
+	1916. [[risk]]
+	1917. [[risk-adjusted return on capital]]
+	1918. [[risk-averse]]
+	1919. [[risk-free asset]]
+	1920. [[risk-free interest rate]]
 
-	1921. risk-loving
-	1922. risk-neutral
-	1923. risk-neutral valuation
-	1924. risk aversion
-	1925. risk avoidance
-	1926. risk bearing
-	1927. risk capital
-	1928. risk management
-	1929. risk pooling
-	1930. risk premium
+	1921. [[risk-loving]]
+	1922. [[risk-neutral]]
+	1923. [[risk-neutral valuation]]
+	1924. [[risk aversion]]
+	1925. [[risk avoidance]]
+	1926. [[risk bearing]]
+	1927. [[risk capital]]
+	1928. [[risk management]]
+	1929. [[risk pooling]]
+	1930. [[risk premium]]
 
-	1931. risk reduction
-	1932. risk retention
-	1933. risk sharing
-	1934. risk taking
-	1935. risk weighted assets
-	1936. robustness of policies
-	1937. roll-over of loans
-	1938. root mean squared error
-	1939. rounding error
-	1940. Royal Economic Society
+	1931. [[risk reduction]]
+	1932. [[risk retention]]
+	1933. [[risk sharing]]
+	1934. [[risk taking]]
+	1935. [[risk weighted assets]]
+	1936. [[robustness of policies]]
+	1937. [[roll-over of loans]]
+	1938. [[root mean squared error]]
+	1939. [[rounding error]]
+	1940. [[Royal Economic Society]]
 
-	1941. royalties
-	1942. RPIX
-	1943. rules-based policy
-	1944. rules of origin
-	1945. rules of the game
-	1946. running yield
-	1947. rust belt
-	1948. Rybczynski theorem
-	1949. sacking
-	1950. sacrifice ratio
+	1941. [[royalties]]
+	1942. [[RPIX]]
+	1943. [[rules-based policy]]
+	1944. [[rules of origin]]
+	1945. [[rules of the game]]
+	1946. [[running yield]]
+	1947. [[rust belt]]
+	1948. [[Rybczynski theorem]]
+	1949. [[sacking]]
+	1950. [[sacrifice ratio]]
 
-	1951. saddle point
+	1951. [[saddle point]]
 	1952. safety at work
-	1953. salary
-	1954. sales tax
-	1955. sample
-	1956. sample selectivity bias
+		1. See Health and Safety at Work Act.
+	1953. [[salary]]
+	1954. [[sales tax]]
+	1955. [[sample]]
+	1956. [[sample selectivity bias]]
 	1957. sampling distribution
-	1958. Samuelson rule
+		1. See FINITE SAMPLE DISTRIBUTION.
+	1958. [[Samuelson rule]]
 	1959. SARP
-	1960. satisficing
+		1. Strong Axiom of Revealed Preference. See WARP.
+	1960. [[satisficing]]
 
-	1961. saving(s)
-	1962. saving ratio
-	1963. savings and loan association
-	1964. savings function
-	1965. Say's law
-	1966. scarce currency clause
-	1967. scarcity
-	1968. scatter diagram
-	1969. scenario
-	1970. scenario analysis
+	1961. [[saving]]
+	1962. [[saving ratio]]
+	1963. [[savings and loan association]]
+	1964. [[savings function]]
+	1965. [[Say's law]]
+	1966. [[scarce currency clause]]
+	1967. [[scarcity]]
+	1968. [[scatter diagram]]
+	1969. [[scenario]]
+	1970. [[scenario analysis]]
 
-	1971. Schedule A tax
-	1972. score function
-	1973. screening
+	1971. [[Schedule A tax]]
+	1972. [[score function]]
+	1973. [[screening]]
 	1974. scrip issue
-	1975. search
-	1976. search unemployment
-	1977. seasonal adjustment
-	1978. seasonal component
-	1979. seasonal unemployment
-	1980. second-best
+		1. See bonus issue
+	1975. [[search]]
+	1976. [[search unemployment]]
+	1977. [[seasonal adjustment]]
+	1978. [[seasonal component]]
+	1979. [[seasonal unemployment]]
+	1980. [[second-best]]
 
-	1981. second-degree price discrimination
-	1982. second-order approximation
-	1983. second-price auction
-	1984. secondary market
-	1985. sector
-	1986. secured loan
-	1987. Securities and Exchange Commission
-	1988. Securities and Investment Board
+	1981. [[second-degree price discrimination]]
+	1982. [[second-order approximation]]
+	1983. [[second-price auction]]
+	1984. [[secondary market]]
+	1985. [[sector]]
+	1986. [[secured loan]]
+	1987. [[Securities and Exchange Commission]]
+	1988. [[Securities and Investment Board]]
 	1989. securities market
-	1990. securitization
+		1. See stock exchange
+	1990. [[securitization]]
 
-	1991. security
-	1992. security of tenure
-	1993. segmented market
-	1994. seigniorage
-	1995. self-assessment((tax))
-	1996. self-correcting system
-	1997. self-employment
-	1998. self-financing
-	1999. self-fulfilling expectations
-	2000. self-regulation
+	1991. [[security]]
+	1992. [[security of tenure]]
+	1993. [[segmented market]]
+	1994. [[seigniorage]]
+	1995. [[self-assessment]]
+	1996. [[self-correcting system]]
+	1997. [[self-employment]]
+	1998. [[self-financing]]
+	1999. [[self-fulfilling expectations]]
+	2000. [[self-regulation]]
 
-	2001. seller's market
-	2002. seller concentration
-	2003. selling costs
-	2004. sensitive sectors
-	2005. sensitivity analysis
-	2006. separable utility function
-	2007. separating equilibrium
+	2001. [[seller's market]]
+	2002. [[seller concentration]]
+	2003. [[selling costs]]
+	2004. [[sensitive sectors]]
+	2005. [[sensitivity analysis]]
+	2006. [[separable utility function]]
+	2007. [[separating equilibrium]]
 	2008. separation of ownership and control
-	2009. sequestration
+		1. See control (of a company)
+	2009. [[sequestration]]
 	2010. serial correlation
+		1. Same as autocorrelation
 
-	2011. service contract
-	2012. service flows
-	2013. service industry
-	2014. service life
-	2015. services
-	2016. set-aside
-	2017. settlement
-	2018. settlement risk
-	2019. shadow bank
+	2011. [[service contract]]
+	2012. [[service flows]]
+	2013. [[service industry]]
+	2014. [[service life]]
+	2015. [[services]]
+	2016. [[set-aside]]
+	2017. [[settlement]]
+	2018. [[settlement risk]]
+	2019. [[shadow bank]]
 	2020. shadow economy
+		1. See hidden economy
 
-	2021. shadow prices
-	2022. shake-out
-	2023. Shanghai Stock Exchange
-	2024. Shapley value
-	2025. share
-	2026. share buybacks
-	2027. share capital
-	2028. sharecropper
-	2029. shareholder
-	2030. share option
+	2021. [[shadow prices]]
+	2022. [[shake-out]]
+	2023. [[Shanghai Stock Exchange]]
+	2024. [[Shapley value]]
+	2025. [[share]]
+	2026. [[share buybacks]]
+	2027. [[share capital]]
+	2028. [[sharecropper]]
+	2029. [[shareholder]]
+	2030. [[share option]]
 
-	2031. share price
-	2032. share price index
-	2033. share register
-	2034. shark repellent
-	2035. shell company
-	2036. sheltered monopoly
-	2037. Shenzhen Stock Exchange
-	2038. Sherman Act
-	2039. shift work
-	2040. shock
+	2031. [[share price]]
+	2032. [[share price index]]
+	2033. [[share register]]
+	2034. [[shark repellent]]
+	2035. [[shell company]]
+	2036. [[sheltered monopoly]]
+	2037. [[Shenzhen Stock Exchange]]
+	2038. [[Sherman Act]]
+	2039. [[shift work]]
+	2040. [[shock]]
 
-	2041. shoe-leather costs of inflation
-	2042. Shogun bond
-	2043. shop steward
-	2044. short-dated security
-	2045. short-run capital movements
+	2041. [[shoe-leather costs of inflation]]
+	2042. [[Shogun bond]]
+	2043. [[shop steward]]
+	2044. [[short-dated security]]
+	2045. [[short-run capital movements]]
 	2046. short-run cost curve
+		1. See cost curve
 	2047. short-run marginal cost
+		1. See marginal cost
 	2048. short-run Phillips curve
-	2049. short-termism
-	2050. short-time working
+		1. See phillips curve
+	2049. [[short-termism]]
+	2050. [[short-time working]]
 
-	2051. shortage
-	2052. short position
-	2053. short run
-	2054. short selling
-	2055. shut-down price
-	2056. shuttle trade
-	2057. sickness benefit
-	2058. side-effects
-	2059. side-payment
-	2060. signalling
+	2051. [[shortage]]
+	2052. [[short position]]
+	2053. [[short run]]
+	2054. [[short selling]]
+	2055. [[shut-down price]]
+	2056. [[shuttle trade]]
+	2057. [[sickness benefit]]
+	2058. [[side-effects]]
+	2059. [[side-payment]]
+	2060. [[signalling]]
 
-	2061. significance level((of a test))
-	2062. significance test
+	2061. [[significance level]]
+	2062. [[significance test]]
 	2063. Silicon Valley
 	2064. simple interest
 	2065. simulation
