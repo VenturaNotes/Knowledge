@@ -26,9 +26,12 @@ aliases:
 - (4) (in logic) a name that can stand for any of a possibly infinite set of values.
 ## Source[^4]
 - A characteristic of a product or service that can be measured on a continuously variable scale, e.g. length, weight, time, price. Compare ATTRIBUTE.
+## Source[^5]
+- A quantity which is liable to change. Economic variables may measure prices, interest rates, income levels, quantities of goods, etc. An exogenous variable is one where the changes originate from causes outside the scope of a given model; an endogenous variable is determined within the model. See also RANDOM VARIABLE.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-2-programming-fundamentals-quizzes/2-2-programming-fundamentals-quiz-10-questions/
 [^2]: https://spdload.com/blog/software-development-glossary/
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

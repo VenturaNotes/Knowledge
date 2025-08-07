@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An index number of the total value of any economic aggregate at current prices: if $p_{t}$ is the price and $q_{t}$ the quantity concerned at time $t$, the value index is given by$$\mathrm{V}_{t}=p_{t} q_{t} / p_{0} q_{0}$$where 0 is the base date. Where $p_{t}$ and $q_{t}$ are themselves index numbers, as is the case when dealing with aggregates, for example consumption, the value index $V_{t}$ can be found as the product of a price and a quantity index; one of these must be base-weighted and the other current-weighted. Thus where there are $n$ goods,$$V_{\mathrm{t}}=\sum_{i=1}^{n} p_{i t} q_{i t} / \sum_{i=1}^{n} p_{i 0} q_{i 0}=\left(\sum_{i=1}^{n} p_{i t} q_{i t} / \sum_{i=1}^{n} p_{i 0} q_{i t}\right)\left(\sum_{i=1}^{n} p_{i 0} q_{i t} / \sum_{i=1}^{n} p_{i 0} q_{i 0}\right)$$,that is, the product of a current-weighted or Paasche price index and a base-weighted or Laspeyres quantity index; or alternatively$$V_{\mathrm{t}}=\left(\sum_{i=1}^{n} p_{i t} q_{i t} / \sum_{i=1}^{n} p_{i t} q_{i 0}\right)\left(\sum_{i=1}^{n} p_{i t} q_{i 0} / \sum_{i=1}^{n} p_{i 0} q_{i 0}\right)$$that is, the product of a base-weighted price index and a current-weighted quantity index.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
