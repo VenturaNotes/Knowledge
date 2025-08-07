@@ -5,6 +5,10 @@
 - (2) The firm that issues an insurance policy, thereby accepting liability for specified losses. 
 - (3) A financial institution, usually a merchant bank, that guarantees to buy a proportion of any unsold shares, bonds, etc. when a new issue is offered to the public. Underwriters usually work for a commission, and a number may combine together to buy all the unsold shares, provided that the minimum subscription stated in the prospectus has been sold to the public. 
 - (4) Any person or enterprise that accepts financial responsibility for a transaction or project.
+## Source[^2]
+- (1) In finance, a company or other legal entity that administers the issue and distribution of financial securities by a corporation or other issuing body. The underwriter determines the price at which the securities are offered, buys the shares from the issuer, and then sells them to investors. The underwriters receive a fee from the clients and usually earn additional profit from selling the underwritten securities. However, if the issue price is too high the underwriter will be left with unsold securities which must either be held or sold at a loss.
+- (2) In the insurance business, an insurance underwriter evaluates the exposure to risk of potential clients to determine whether insurance should be offered and, if it is offered, the extent of the coverage and the premium that should be charged. The role of the underwriter is to ensure that the insurance company is profitable and protect it from excessive risk.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

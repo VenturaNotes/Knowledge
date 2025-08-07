@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - (stock market) A market in which securities are bought and sold, prices being controlled by supply and demand. Stock markets have developed hand in hand with capitalism since the 17th century, constantly growing in importance and complexity. The basic function of a stock exchange is to enable public companies, governments, and local authorities to raise capital by selling securities to investors. The secondary market function of a stock exchange is to enable these investors to sell their securities to others, providing liquidity and reducing the risks attached to investment. Most countries now have stock exchanges. The major international stock exchanges are based in New York, London, Tokyo, Hong Kong, and Shanghai.
+## Source[^2]
+- An institution through which company shares and government stock are traded. Originally the exchange would be a building, where traders gathered and trade proceeded either by individual negotiation or by 'open outcry', where prices bid and offered were announced out loud so as to inform all traders within earshot. Modern stock exchanges are institutions with traders linked by computer networks and telephones. Stock exchanges have rules about the information companies have to provide for their shares to be listed, the individuals or firms allowed to trade, the notification of trades carried out, and the procedure for settlement, that is, actual delivery of shares and money payments. There are stock exchanges in all major world commercial centres, such as Mumbai (Bombay Stock Exchange), Frankfurt, London, New York, Paris, Shanghai, and Tokyo.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
