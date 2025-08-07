@@ -3465,135 +3465,141 @@ Reviewed: false
 
 	2061. [[significance level]]
 	2062. [[significance test]]
-	2063. Silicon Valley
-	2064. simple interest
-	2065. simulation
-	2066. simultaneous equations model
-	2067. single-peaked preferences
-	2068. single currency
-	2069. Single European Act
-	2070. single market
+	2063. [[Silicon Valley]]
+	2064. [[simple interest]]
+	2065. [[simulation]]
+	2066. [[simultaneous equations model]]
+	2067. [[single-peaked preferences]]
+	2068. [[single currency]]
+	2069. [[Single European Act]]
+	2070. [[single market]]
 
-	2071. size distribution of firms
-	2072. skewness
-	2073. skilled work
-	2074. skills
-	2075. slack
+	2071. [[size distribution of firms]]
+	2072. [[skewness]]
+	2073. [[skilled work]]
+	2074. [[skills]]
+	2075. [[slack]]
 	2076. slump
-	2077. Slutsky equation
-	2078. small and medium enterprises
-	2079. Smithsonian Agreement
-	2080. Smithsonian parities
+		1. See depression
+	2077. [[Slutsky equation]]
+	2078. [[small and medium enterprises]]
+	2079. [[Smithsonian Agreement]]
+	2080. [[Smithsonian parities]]
 
-	2081. smog
-	2082. Smoot-Hawley Tariff Act
-	2083. snake in the tunnel
-	2084. social benefit
-	2085. social capital
-	2086. Social Chapter
-	2087. social charges
-	2088. social choice
-	2089. social cost
-	2090. social custom
+	2081. [[smog]]
+	2082. [[Smoot-Hawley Tariff Act]]
+	2083. [[snake in the tunnel]]
+	2084. [[social benefit]]
+	2085. [[social capital]]
+	2086. [[Social Chapter]]
+	2087. [[social charges]]
+	2088. [[social choice]]
+	2089. [[social cost]]
+	2090. [[social custom]]
 
-	2091. social indicators
-	2092. social interaction
-	2093. social internal rate of return
-	2094. socialism
-	2095. social market economy
-	2096. social opportunity cost
-	2097. social optimum
-	2098. social overhead capital
-	2099. social planner
-	2100. social purpose company
+	2091. [[social indicators]]
+	2092. [[social interaction]]
+	2093. [[social internal rate of return]]
+	2094. [[socialism]]
+	2095. [[social market economy]]
+	2096. [[social opportunity cost]]
+	2097. [[social optimum]]
+	2098. [[social overhead capital]]
+	2099. [[social planner]]
+	2100. [[social purpose company]]
 
-	2101. social returns to education
-	2102. social safety net
-	2103. Social Security Act
-	2104. social security benefits
-	2105. social security contributions
-	2106. social services
-	2107. social time preference
-	2108. social welfare
-	2109. social welfare function
-	2110. socio-economic class
+	2101. [[social returns to education]]
+	2102. [[social safety net]]
+	2103. [[Social Security Act]]
+	2104. [[social security benefits]]
+	2105. [[social security contributions]]
+	2106. [[social services]]
+	2107. [[social time preference]]
+	2108. [[social welfare]]
+	2109. [[social welfare function]]
+	2110. [[socio-economic class]]
 
-	2111. soft budget constraint
-	2112. soft currency
-	2113. soft landing
-	2114. soft loan
-	2115. sole proprietor
+	2111. [[soft budget constraint]]
+	2112. [[soft currency]]
+	2113. [[soft landing]]
+	2114. [[soft loan]]
+	2115. [[sole proprietor]]
 	2116. sole trader
-	2117. Solow growth model
-	2118. Solow residual
-	2119. solvency
-	2120. Sonia
+		1. See SOLE PROPRIETOR.
+	2117. [[Solow growth model]]
+	2118. [[Solow residual]]
+	2119. [[solvency]]
+	2120. [[Sonia]]
 
-	2121. sound money
-	2122. sources of capital
-	2123. sovereign debt
-	2124. spare capacity
-	2125. spatial autocorrelation
-	2126. spatial data
-	2127. spatial model
-	2128. spatial price discrimination
-	2129. Spearman rank correlation coefficient
+	2121. [[sound money]]
+	2122. [[sources of capital]]
+	2123. [[sovereign debt]]
+	2124. [[spare capacity]]
+	2125. [[spatial autocorrelation]]
+	2126. [[spatial data]]
+	2127. [[spatial model]]
+	2128. [[spatial price discrimination]]
+	2129. [[Spearman rank correlation coefficient]]
 	2130. Special Anti-Avoidance Rule
+		1. (SAAR) See General Anti-Avoidance Rule (GAAR).
 
-	2131. special deposits
-	2132. special drawing rights
-	2133. specialization
-	2134. Special Liquidity Scheme
-	2135. specification error
-	2136. specific tax
-	2137. speculation
+	2131. [[special deposits]]
+	2132. [[special drawing rights]]
+	2133. [[specialization]]
+	2134. [[Special Liquidity Scheme]]
+	2135. [[specification error]]
+	2136. [[specific tax]]
+	2137. [[speculation]]
 	2138. speculative bubble
-	2139. speculative motive
-	2140. speculator
+		1. See bubble
+	2139. [[speculative motive]]
+	2140. [[speculator]]
 
-	2141. spillover
-	2142. spot market
-	2143. spot price
-	2144. spread
-	2145. spurious correlation
-	2146. stability conditions
-	2147. stabilization policy
-	2148. Stackelberg duopoly
-	2149. stag
-	2150. stages of economic growth
+	2141. [[spillover]]
+	2142. [[spot market]]
+	2143. [[spot price]]
+	2144. [[spread]]
+	2145. [[spurious correlation]]
+	2146. [[stability conditions]]
+	2147. [[stabilization policy]]
+	2148. [[Stackelberg duopoly]]
+	2149. [[stag]]
+	2150. [[stages of economic growth]]
 
-	2151. stagflation
-	2152. stagnation
-	2153. stakeholder
-	2154. stamp duty
-	2155. Standard and Poor's
-	2156. standard deviation
-	2157. standard error((of a statistic))
-	2158. Standard Industrial Classification
-	2159. Standard International Trade Classification
-	2160. standardized commodity
+	2151. [[stagflation]]
+	2152. [[stagnation]]
+	2153. [[stakeholder]]
+	2154. [[stamp duty]]
+	2155. [[Standard and Poor's]]
+	2156. [[standard deviation]]
+	2157. [[standard error]]
+	2158. [[Standard Industrial Classification]]
+	2159. [[Standard International Trade Classification]]
+	2160. [[standardized commodity]]
 
-	2161. standard of living
-	2162. standard rate
-	2163. standby arrangement
-	2164. staple product
-	2165. state-owned company
-	2166. State Earnings-Related Pension Scheme
-	2167. state enterprise
-	2168. states of the world
-	2169. static equilibrium
+	2161. [[standard of living]]
+	2162. [[standard rate]]
+	2163. [[standby arrangement]]
+	2164. [[staple product]]
+	2165. [[state-owned company]]
+	2166. [[State Earnings-Related Pension Scheme]]
+	2167. [[state enterprise]]
+	2168. [[states of the world]]
+	2169. [[static equilibrium]]
 	2170. stationary process
+		1. See COVARIANCE STATIONARY PROCESS; STRONGLY STATIONARY PROCESS.
 
-	2171. statistic
+	2171. [[statistic]]
 	2172. statistical adjustment
-	2173. statistics
-	2174. statutory monopoly
-	2175. steady state
-	2176. sterilization
-	2177. sterling
-	2178. sterling area
-	2179. sterling M3
-	2180. sticky prices
+		1. See balancing items
+	2173. [[statistics]]
+	2174. [[statutory monopoly]]
+	2175. [[steady state]]
+	2176. [[sterilization]]
+	2177. [[sterling]]
+	2178. [[sterling area]]
+	2179. [[sterling M3]]
+	2180. [[sticky prices]]
 
 	2181. sticky wages
 	2182. stochastic process
