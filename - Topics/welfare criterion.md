@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A method of deciding whether a proposed change in the economy should be made. The Pareto criterion says that a change should be made if somebody gains and nobody loses. This is uncontroversial, but fails to answer the much more common question of whether or not to make changes with both gainers and losers. The Hicks-Kaldor criterion says that changes should be made if the gainers could afford to compensate the losers. If such compensation is actually paid, the criterion becomes similar to the Pareto criterion. The Scitovsky criterion says that a change should be made if, after it has occurred, the losers could not afford to compensate the gainers for changing back. Differences between the Hicks-Kaldor and Scitovsky criteria arise if the change brings about alterations in relative prices. The Hicks-Kaldor criterion treats the pre-change distribution of real incomes as the status quo, the Scitovsky criterion is based on the post-change distribution. There is no general reason for preferring either distribution to the other. A number of difficulties have been identified in the application of welfare criteria based on compensation, so only the Pareto criterion remains in use. See also Pareto Efficiency.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Participation by workers in the process of decision-making in a firm. This varies widely between firms. At the one extreme are producers' cooperatives, or worker-controlled firms, where the workers are the owners and elect the directors. At the other are firms with no worker participation except for any informal contacts between owners and workers, though in very small firms this may be quite effective. In between are firms with works councils, where matters of general policy like manning levels and redundancies can be discussed, though management makes the final decisions. There are also firms with arrangements for workers to become ordinary shareholders, sometimes on concessional terms. It is possible for firms to co-opt directors nominated by workers, though this is uncommon. It is also possible, as in Germany, to have a two-tier board: workers elect representatives to the upper tier, which decides general policy, but not to the lower tier, which takes operational decisions. Many firms consider that some degree of worker participation is in the interests of shareholders, as it is expected to reduce feelings of alienation, promote loyalty to the firm, and induce workers to take a more sympathetic view of its problems.
+## References
+
+[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
