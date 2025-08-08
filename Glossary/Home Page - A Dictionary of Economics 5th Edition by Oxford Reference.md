@@ -1,7 +1,7 @@
 ---
 Source:
   - https://www.oxfordreference.com/display/10.1093/acref/9780198759430.001.0001/acref-9780198759430
-Length: "3614"
+Length: "3609"
 tags:
   - status/incomplete
   - type/textbook
@@ -963,3207 +963,2952 @@ Reviewed: false
 	951. [[destructive competition]]
 	952. [[Deutschmark]]
 	953. [[devaluation]]
-- Created
-	1. AAA rating
+	954. AAA rating
 		1. See Triple-A Rating
-	2. ability and earnings
+	955. ability and earnings
 		1. See earnings function
-	3. abnormal profit
+	956. abnormal profit
 		1. See supernormal profit
-	4. actuarially fair odds
+	957. actuarially fair odds
 		1. See fair odds
-	5. adjustment
+	958. adjustment
 		1. See cyclical adjustment; partial adjustment; seasonal adjustment
-	6. accounting
+	959. accounting
 		1. See cost accounting; creative accounting; inflation accounting; management accounting
-	7. advantage
+	960. advantage
 		1. See absolute advantage; comparative advantage
-	8. Advisory, Conciliation and Arbitration Service
+	961. Advisory, Conciliation and Arbitration Service
 		1. (ACAS) A UK quango providing facilities for conciliation, arbitration, and mediation in industrial disputes.
-	9. agency cost
+	962. agency cost
 		1. See agency theory
-	10. aggregate production function
+	963. aggregate production function
 		1. See production function
-	11. Aitken estimator
+	964. Aitken estimator
 		1. This is more commonly known as the generalized least squares estimator
-	12. anticipated inflation
+	965. anticipated inflation
 		1. See expected inflation
-	13. amalgamation
+	966. amalgamation
 		1. See merger
-	14. augmented Dickey-Fuller
+	967. augmented Dickey-Fuller
 		1. (ADF) test See Dickey-Fuller Test
-	15. augmented Phillips curve
+	968. augmented Phillips curve
 		1. See Phillips Curve
-	16. automatic stabilizers
+	969. automatic stabilizers
 		1. See built-in stabilizers
-	17. average earnings scheme
+	970. average earnings scheme
 		1. See career average scheme
-	18. ‘bad money drives out good'
+	971. ‘bad money drives out good'
 		1. See Gresham's Law
-	19. balance
+	972. balance
 		1. See external balance; internal balance; invisible balance
-	20. bank deposit
+	973. bank deposit
 		1. See deposit
-	21. base money
+	974. base money
 		1. See monetary base
-	22. behavioral equation
+	975. behavioral equation
 		1. See structural equation
-	23. benefit(s)
+	976. benefit(s)
 		1. See defined benefit; fringe benefits; housing benefit; marginal benefit; means-tested benefits; sickness benefit; social security benefits; supplementary benefit; unemployment benefit; universal benefit.
-	24. Bergson-Samuelson social welfare function
+	977. Bergson-Samuelson social welfare function
 		1. See social welfare function
-	25. bid
+	978. bid
 		1. See hostile bid; takeover bid
-	26. binary choice models
+	979. binary choice models
 		1. See discrete choice models
-	27. black economy
+	980. black economy
 		1. See hidden economy
-	28. bond default swap
+	981. bond default swap
 		1. See credit default swap
-	29. burden
+	982. burden
 		1. See debt burden; tax burden
-	30. capital-augmenting technical progress
+	983. capital-augmenting technical progress
 		1. See technical progress
-	31. CAP
+	984. CAP
 		1. See common agricultural policy
-	32. capital outflow
+	985. capital outflow
 		1. See capital movements
-	33. capital inflow
+	986. capital inflow
 		1. See capital movements
-	34. capital gearing
+	987. capital gearing
 		1. See gearing
-	35. capital levy
+	988. capital levy
 		1. See capital tax
-	36. CAPM
+	989. CAPM
 		1. See capital asset pricing model
-	37. causality((in Granger's sense))
+	990. causality((in Granger's sense))
 		1. See granger causality
-	38. CES
+	991. CES
 		1. See constant elasticity of substitution
-	39. CET
+	992. CET
 		1. See common external tariff
-	40. CGT
+	993. CGT
 		1. See capital gains tax
-	41. CITES
+	994. CITES
 		1. See convention on international trade in endangered species.
-	42. clean floating exchange rate
+	995. clean floating exchange rate
 		1. See pure floating exchange rate.
-	43. continuous distribution
+	996. continuous distribution
 		1. See continuous random variable
-	44. continuous time process
+	997. continuous time process
 		1. See stochastic process
-	45. consumption goods
+	998. consumption goods
 		1. See consumer goods
-	46. consumption possibility line
+	999. consumption possibility line
 		1. See budget line
-	47. consumption tax
+	1000. consumption tax
 		1. See expenditure tax
-	48. consumer borrowing
+	1001. consumer borrowing
 		1. See consumer debt
-	49. consumer choice
+	1002. consumer choice
 		1. See consumer behavior
-	50. concentration ratio
+	1003. concentration ratio
 		1. See N-firm concentration ratio
-	51. collinearity
+	1004. collinearity
 		1. See multicollinearity
-	52. commercial bill
+	1005. commercial bill
 		1. See bill
-	53. commodity exchange
+	1006. commodity exchange
 		1. See commodity market
-	54. commons
+	1007. commons
 		1. See common access resource; global commons
-	55. comparability
+	1008. comparability
 		1. See interpersonal comparisons
-	56. complementary goods
+	1009. complementary goods
 		1. See complementarity
-	57. convertible currency
+	1010. convertible currency
 		1. See convertibility
-	58. cost-push inflation
+	1011. cost-push inflation
 		1. See cost inflation
-	59. cost schedule
+	1012. cost schedule
 		1. See cost curve
-	60. Cournot duopoly
+	1013. Cournot duopoly
 		1. See cournot competition
-	61. CPI
+	1014. CPI
 		1. See consumer price index
-	62. credit restriction
+	1015. credit restriction
 		1. See credit control
-	63. credit standing
+	1016. credit standing
 		1. See credit rating
-	64. cross-price elasticity
+	1017. cross-price elasticity
 		1. See cross-price elasticity of demand
-	65. CTT
+	1018. CTT
 		1. See capital transfer tax
-	66. currency swap
+	1019. currency swap
 		1. See swap
-	67. cycle
+	1020. cycle
 		1. See business cycle; credit cycle; kondratieff cycle; life cycle; stop-go cycle; trade cycle
-	68. dealing
+	1021. dealing
 		1. See exclusive dealing; insider dealing
-	69. debt neutrality
+	1022. debt neutrality
 		1. See Ricardian Equivalence
-	70. debt rescheduling
+	1023. debt rescheduling
 		1. See reschedule debt
-	71. deficit
+	1024. deficit
 		1. See budget deficit; current account deficit; trade deficit
-	72. deflator
+	1025. deflator
 		1. See expenditure-based deflator; GDP deflator.
-	73. demand-deficiency unemployment
+	1026. demand-deficiency unemployment
 		1. See keynesian unemployment
-	74. demand-pull inflation
+	1027. demand-pull inflation
 		1. See demand inflation
-	75. demand schedule
+	1028. demand schedule
 		1. See demand curve
-	76. Department for Business, Innovation and Skills
+	1029. Department for Business, Innovation and Skills
 		1. (BIS) See department for business, energy and industrial strategy
-	77. dependency ratio
+	1030. dependency ratio
 		1. See age-dependency ratio
-	78. depreciation
+	1031. depreciation
 		1. (currency) See currency depreciation
-	79. deseasonalized data
+	1032. deseasonalized data
 		1. See seasonal adjustment
-	80. deterrents to entry
+	1033. deterrents to entry
 		1. See barriers to entry
-	81. detrending
+	1034. detrending
 		1. See trend
-	82. developing countries
+	1035. developing countries
 		1. See less developed countries
-	83. development
+	1036. development
 		1. See economic development
-	84. development aid
+	1037. development aid
 		1. See aid
-	85. Dillon Round
+	1038. Dillon Round
 		1. See world trade organization
-	86. diminishing marginal utility
+	1039. diminishing marginal utility
 		1. See marginal utility
-	87. direct investment abroad
+	1040. direct investment abroad
 		1. See foreign direct investment
-	88. director
+	1041. director
 		1. See board of directors; company director; non-executive director
-	89. dirty floating
+	1042. dirty floating
 		1. See managed floating exchange rate
-	90. discrete distribution
+	1043. discrete distribution
 		1. See discrete random variable
-	91. distributional equity
+	1044. distributional equity
 		1. See equity
-	92. distributive judgement
+	1045. distributive judgement
 		1. See equity
-	93. distributive justice
+	1046. distributive justice
 		1. See equity
-	94. disturbance term
+	1047. disturbance term
 		1. See error term
-	95. divorce of ownership and control of companies
+	1048. divorce of ownership and control of companies
 		1. See control (of a company)
-	96. [[dollar]]
-	97. [[dollarization]]
-	98. [[dollar standard]]
-	99. [[domestic credit expansion]]
-	100. [[domestic product]]
-
-	101. [[domestic rates]]
-	102. [[dominant firm]]
-	103. [[dominant strategy]]
-	104. [[domino effect]]
-	105. [[dotcom company]]
-	106. [[double-dip recession]]
-	107. [[double-dividend hypothesis]]
-	108. double coincidence of wants
+	1049. [[dollar]]
+	1050. [[dollarization]]
+	1051. [[dollar standard]]
+	1052. [[domestic credit expansion]]
+	1053. [[domestic product]]
+	1054. [[domestic rates]]
+	1055. [[dominant firm]]
+	1056. [[dominant strategy]]
+	1057. [[domino effect]]
+	1058. [[dotcom company]]
+	1059. [[double-dip recession]]
+	1060. [[double-dividend hypothesis]]
+	1061. double coincidence of wants
 		1. See coincidence of wants
-	109. [[double counting]]
-	110. [[double entry bookkeeping]]
-
-	111. [[double taxation]]
-	112. [[double taxation agreement]]
-	113. [[Dow Jones]]
-	114. [[down payment]]
-	115. [[downside risk]]
-	116. downstream
+	1062. [[double counting]]
+	1063. [[double entry bookkeeping]]
+	1064. [[double taxation]]
+	1065. [[double taxation agreement]]
+	1066. [[Dow Jones]]
+	1067. [[down payment]]
+	1068. [[downside risk]]
+	1069. downstream
 		1. See forward integration
-	117. [[downward-sloping demand curve]]
-	118. [[drawing rights]]
-	119. [[Drobisch price index]]
-	120. [[dual currency bond]]
-
-	121. [[dual economy]]
-	122. [[duality]]
-	123. dummy variable
+	1070. [[downward-sloping demand curve]]
+	1071. [[drawing rights]]
+	1072. [[Drobisch price index]]
+	1073. [[dual currency bond]]
+	1074. [[dual economy]]
+	1075. [[duality]]
+	1076. dummy variable
 		1. See categorical variable
-	124. [[dumping]]
-	125. [[duopoly]]
-	126. [[duopsony]]
-	127. [[durable good]]
-	128. [[Durbin's test]]
-	129. [[Durbin-Watson test]]
-	130. [[Dutch auction]]
-
-	131. [[Dutch disease]]
-	132. duty/ies
+	1077. [[dumping]]
+	1078. [[duopoly]]
+	1079. [[duopsony]]
+	1080. [[durable good]]
+	1081. [[Durbin's test]]
+	1082. [[Durbin-Watson test]]
+	1083. [[Dutch auction]]
+	1084. [[Dutch disease]]
+	1085. duty/ies
 		1. See anti-dumping duty; countervailing duty; customs duty; death duties; estate duty; excise duty; stamp duty
-	133. [[dynamic equilibrium]]
-	134. [[e-government]]
-	135. e-money
+	1086. [[dynamic equilibrium]]
+	1087. [[e-government]]
+	1088. e-money
 		1. See electronic money
-	136. [[earnings]]
-	137. [[easy fiscal policy]]
-	138. [[economic activity classification]]
-	139. [[Economic and Social Research Council]]
-	140. [[economic development]]
-
-	141. [[economic growth]]
-	142. [[economic model]]
-	143. [[economics]]
-	144. economic sanctions
+	1089. [[earnings]]
+	1090. [[easy fiscal policy]]
+	1091. [[economic activity classification]]
+	1092. [[Economic and Social Research Council]]
+	1093. [[economic development]]
+	1094. [[economic growth]]
+	1095. [[economic model]]
+	1096. [[economics]]
+	1097. economic sanctions
 		1. See trade sanctions
-	145. Edgeworth price index
+	1098. Edgeworth price index
 		1. See Marshall-Edgeworth price index
-	146. [[efficiency]]
-	147. efficiency frontier
+	1099. [[efficiency]]
+	1100. efficiency frontier
 		1. See production possibility frontier
-	148. [[efficient allocation]]
-	149. efficient asset markets
+	1101. [[efficient allocation]]
+	1102. efficient asset markets
 		1. See efficient markets hypothesis
-	150. [[efficient estimator]]
-
-	151. [[efficient markets hypothesis]]
-	152. [[effluent charge]]
-	153. [[elastic]]
-	154. [[elasticity]]
-	155. [[elasticity of demand]]
-	156. [[elasticity of intertemporal substitution]]
-	157. [[elasticity of substitution]]
-	158. [[elasticity of supply]]
-	159. [[electronic trading]]
-	160. [[elementary price index]]
-
-	161. [[embargo]]
-	162. [[embodied technical progress]]
-	163. [[emerging market and developing economies]]
-	164. [[employment]]
-	165. [[employment protection]]
-	166. [[endogeneity problem]]
-	167. [[endogenous business cycle]]
-	168. [[enterprise]]
-	169. [[Enterprise Investment Scheme]]
-	170. [[entrepôt]]
-
-	171. [[entrepreneur]]
-	172. [[entry]]
-	173. [[envelope curve]]
-	174. [[envelope theorem]]
-	175. [[environment]]
-	176. [[environmental economics]]
-	177. [[Environmental Protection Agency]]
-	178. [[environmental taxes]]
-	179. [[Equal Employment Opportunity Commission]]
-	180. [[Equality and Human Rights Commission]]
-
-	181. [[equalization grant]]
-	182. [[equalizing wage differential]]
-	183. [[equal pay]]
-	184. [[equal sacrifice]]
-	185. [[equilibrium]]
-	186. [[equilibrium price]]
-	187. [[equilibrium quantity]]
-	188. [[equities]]
-	189. [[equity]]
-	190. [[equity-linked assurance]]
-
-	191. [[equity capital]]
-	192. [[equity withdrawal]]
-	193. [[equivalence scale]]
-	194. [[equivalent variation]]
-	195. [[error correction model]]
-	196. [[errors in variables bias]]
-	197. [[error term]]
-	198. [[escalator clause]]
-	199. [[estate duty]]
-	200. [[estimate]]
-
-	201. [[Estimates]]
-	202. [[estimator]]
-	203. [[EU Emissions Trading Scheme]]
-	204. [[Euler's theorem]]
-	205. [[euro]]
-	206. [[Eurobarometer]]
-	207. [[eurobond]]
-	208. [[eurocurrency]]
-	209. eurodollars
+	1103. [[efficient estimator]]
+	1104. [[efficient markets hypothesis]]
+	1105. [[effluent charge]]
+	1106. [[elastic]]
+	1107. [[elasticity]]
+	1108. [[elasticity of demand]]
+	1109. [[elasticity of intertemporal substitution]]
+	1110. [[elasticity of substitution]]
+	1111. [[elasticity of supply]]
+	1112. [[electronic trading]]
+	1113. [[elementary price index]]
+	1114. [[embargo]]
+	1115. [[embodied technical progress]]
+	1116. [[emerging market and developing economies]]
+	1117. [[employment]]
+	1118. [[employment protection]]
+	1119. [[endogeneity problem]]
+	1120. [[endogenous business cycle]]
+	1121. [[enterprise]]
+	1122. [[Enterprise Investment Scheme]]
+	1123. [[entrepôt]]
+	1124. [[entrepreneur]]
+	1125. [[entry]]
+	1126. [[envelope curve]]
+	1127. [[envelope theorem]]
+	1128. [[environment]]
+	1129. [[environmental economics]]
+	1130. [[Environmental Protection Agency]]
+	1131. [[environmental taxes]]
+	1132. [[Equal Employment Opportunity Commission]]
+	1133. [[Equality and Human Rights Commission]]
+	1134. [[equalization grant]]
+	1135. [[equalizing wage differential]]
+	1136. [[equal pay]]
+	1137. [[equal sacrifice]]
+	1138. [[equilibrium]]
+	1139. [[equilibrium price]]
+	1140. [[equilibrium quantity]]
+	1141. [[equities]]
+	1142. [[equity]]
+	1143. [[equity-linked assurance]]
+	1144. [[equity capital]]
+	1145. [[equity withdrawal]]
+	1146. [[equivalence scale]]
+	1147. [[equivalent variation]]
+	1148. [[error correction model]]
+	1149. [[errors in variables bias]]
+	1150. [[error term]]
+	1151. [[escalator clause]]
+	1152. [[estate duty]]
+	1153. [[estimate]]
+	1154. [[Estimates]]
+	1155. [[estimator]]
+	1156. [[EU Emissions Trading Scheme]]
+	1157. [[Euler's theorem]]
+	1158. [[euro]]
+	1159. [[Eurobarometer]]
+	1160. [[eurobond]]
+	1161. [[eurocurrency]]
+	1162. eurodollars
 		1. See eurocurrency
-	210. [[euroland]]
-
-	211. [[euromarket]]
-	212. [[Europe agreements]]
-	213. [[European Bank for Reconstruction and Development]]
-	214. [[European Central Bank]]
-	215. [[European Coal and Steel Community]]
-	216. [[European Commission]]
-	217. [[European Community]]
-	218. [[European Currency Unit]]
-	219. [[European Economic Community]]
-	220. [[European economic integration]]
-
-	221. [[European Financial Stability Facility]]
-	222. [[European Free Trade Association]]
-	223. [[European Monetary Institute]]
-	224. [[European Monetary System]]
-	225. [[European Monetary Union]]
-	226. [[European Single Market]]
-	227. [[European Social Survey]]
-	228. [[European Stability Mechanism]]
-	229. [[European System of Central Banks]]
-	230. [[European Union]]
-
-	231. [[Eurosystem]]
-	232. [[eurozone]]
-	233. [[evolutionary theory of the firm]]
-	234. [[ex ante]]
-	235. excess burden
+	1163. [[euroland]]
+	1164. [[euromarket]]
+	1165. [[Europe agreements]]
+	1166. [[European Bank for Reconstruction and Development]]
+	1167. [[European Central Bank]]
+	1168. [[European Coal and Steel Community]]
+	1169. [[European Commission]]
+	1170. [[European Community]]
+	1171. [[European Currency Unit]]
+	1172. [[European Economic Community]]
+	1173. [[European economic integration]]
+	1174. [[European Financial Stability Facility]]
+	1175. [[European Free Trade Association]]
+	1176. [[European Monetary Institute]]
+	1177. [[European Monetary System]]
+	1178. [[European Monetary Union]]
+	1179. [[European Single Market]]
+	1180. [[European Social Survey]]
+	1181. [[European Stability Mechanism]]
+	1182. [[European System of Central Banks]]
+	1183. [[European Union]]
+	1184. [[Eurosystem]]
+	1185. [[eurozone]]
+	1186. [[evolutionary theory of the firm]]
+	1187. [[ex ante]]
+	1188. excess burden
 		1. See deadweight loss
-	236. [[excess capacity]]
-	237. [[excess demand]]
-	238. [[excess profit]]
-	239. [[exchange]]
-	240. [[exchange control]]
-
-	241. [[Exchange Equalization Account]]
-	242. [[exchange rate]]
-	243. [[exchange rate bands]]
-	244. [[Exchange Rate Mechanism]]
-	245. [[exchange rate overshooting]]
-	246. [[exchange rate regime]]
-	247. exchange restrictions
+	1189. [[excess capacity]]
+	1190. [[excess demand]]
+	1191. [[excess profit]]
+	1192. [[exchange]]
+	1193. [[exchange control]]
+	1194. [[Exchange Equalization Account]]
+	1195. [[exchange rate]]
+	1196. [[exchange rate bands]]
+	1197. [[Exchange Rate Mechanism]]
+	1198. [[exchange rate overshooting]]
+	1199. [[exchange rate regime]]
+	1200. exchange restrictions
 		1. See exchange control
-	248. [[excise duty]]
-	249. [[exclusion]]
-	250. [[exclusive dealing]]
-
-	251. [[ex dividend]]
-	252. [[exercise price]]
-	253. exhaustible resources
+	1201. [[excise duty]]
+	1202. [[exclusion]]
+	1203. [[exclusive dealing]]
+	1204. [[ex dividend]]
+	1205. [[exercise price]]
+	1206. exhaustible resources
 		1. See depletable resources
-	254. [[existence of equilibrium]]
-	255. [[exit]]
-	256. [[exit price]]
-	257. [[exogenous expectations]]
-	258. [[exogenous variable]]
-	259. [[expectations]]
-	260. [[expectations-augmented Phillips curve]]
-
-	261. [[expected inflation]]
-	262. [[expected utility]]
-	263. [[expected value]]
-	264. [[expenditure]]
-	265. [[expenditure-based deflator]]
-	266. [[Expenditure and Food Survey]]
-	267. [[expenditure changing]]
-	268. [[expenditure function]]
-	269. [[expenditure method]]
-	270. [[expenditure switching]]
-
-	271. [[expenditure tax]]
-	272. [[experimental economics]]
-	273. [[exponential distribution]]
-	274. [[exponential smoothing]]
-	275. [[Export-Import Bank]]
-	276. [[export-led growth]]
-	277. [[exportables]]
-	278. [[export concentration]]
-	279. [[export control]]
-	280. [[export credit]]
-
-	281. [[export credit agency]]
-	282. [[Export Credits Guarantee Department]]
-	283. [[export incentives]]
-	284. [[export promotion]]
-	285. [[exports]]
-	286. [[export subsidy]]
-	287. [[export surplus]]
-	288. [[ex post]]
-	289. [[exposure to risk]]
-	290. [[extensive form]]
-
-	291. [[extensive margin]]
-	292. [[external balance]]
-	293. [[external diseconomies of scale]]
-	294. [[external economies of scale]]
-	295. [[externality]]
-	296. [[external labour market]]
-	297. [[extrapolation]]
-	298. [[extrapolative expectations]]
-	299. [[F-distribution]]
-	300. [[F-test]]
-
-	301. [[factor(s) of production]]
-	302. factor-augmenting technical progress
+	1207. [[existence of equilibrium]]
+	1208. [[exit]]
+	1209. [[exit price]]
+	1210. [[exogenous expectations]]
+	1211. [[exogenous variable]]
+	1212. [[expectations]]
+	1213. [[expectations-augmented Phillips curve]]
+	1214. [[expected inflation]]
+	1215. [[expected utility]]
+	1216. [[expected value]]
+	1217. [[expenditure]]
+	1218. [[expenditure-based deflator]]
+	1219. [[Expenditure and Food Survey]]
+	1220. [[expenditure changing]]
+	1221. [[expenditure function]]
+	1222. [[expenditure method]]
+	1223. [[expenditure switching]]
+	1224. [[expenditure tax]]
+	1225. [[experimental economics]]
+	1226. [[exponential distribution]]
+	1227. [[exponential smoothing]]
+	1228. [[Export-Import Bank]]
+	1229. [[export-led growth]]
+	1230. [[exportables]]
+	1231. [[export concentration]]
+	1232. [[export control]]
+	1233. [[export credit]]
+	1234. [[export credit agency]]
+	1235. [[Export Credits Guarantee Department]]
+	1236. [[export incentives]]
+	1237. [[export promotion]]
+	1238. [[exports]]
+	1239. [[export subsidy]]
+	1240. [[export surplus]]
+	1241. [[ex post]]
+	1242. [[exposure to risk]]
+	1243. [[extensive form]]
+	1244. [[extensive margin]]
+	1245. [[external balance]]
+	1246. [[external diseconomies of scale]]
+	1247. [[external economies of scale]]
+	1248. [[externality]]
+	1249. [[external labour market]]
+	1250. [[extrapolation]]
+	1251. [[extrapolative expectations]]
+	1252. [[F-distribution]]
+	1253. [[F-test]]
+	1254. [[factor(s) of production]]
+	1255. factor-augmenting technical progress
 		1. See technical progress
-	303. [[factor cost]]
-	304. [[factor endowment]]
-	305. [[factor incomes]]
-	306. [[factor incomes from abroad]]
-	307. [[factoring]]
-	308. [[factor intensity]]
-	309. [[factor market]]
-	310. [[factor mobility]]
-
-	311. [[factor price equalization]]
-	312. [[factor price frontier]]
-	313. [[factor prices]]
-	314. [[factor productivity]]
-	315. [[fair gamble]]
-	316. [[fairness]]
-	317. [[fair odds]]
-	318. [[fair rate of return]]
-	319. [[fair trade]]
-	320. [[family allowance]]
-
-	321. [[Family Expenditure Survey]]
-	322. [[Family Income Supplement]]
-	323. [[fan chart]]
-	324. [[Farm Credit System]]
-	325. [[farm subsidies]]
-	326. feasible generalized least squares estimator
+	1256. [[factor cost]]
+	1257. [[factor endowment]]
+	1258. [[factor incomes]]
+	1259. [[factor incomes from abroad]]
+	1260. [[factoring]]
+	1261. [[factor intensity]]
+	1262. [[factor market]]
+	1263. [[factor mobility]]
+	1264. [[factor price equalization]]
+	1265. [[factor price frontier]]
+	1266. [[factor prices]]
+	1267. [[factor productivity]]
+	1268. [[fair gamble]]
+	1269. [[fairness]]
+	1270. [[fair odds]]
+	1271. [[fair rate of return]]
+	1272. [[fair trade]]
+	1273. [[family allowance]]
+	1274. [[Family Expenditure Survey]]
+	1275. [[Family Income Supplement]]
+	1276. [[fan chart]]
+	1277. [[Farm Credit System]]
+	1278. [[farm subsidies]]
+	1279. feasible generalized least squares estimator
 		1. (FGLS) See Generalized Least Squares Estimator
-	327. [[feasible set]]
-	328. [[Federal Deposit Insurance Corporation]]
-	329. [[federal fiscal system]]
-	330. [[Federal Reserve System]]
-
-	331. [[Federal Trade Commission]]
-	332. [[fiat money]]
-	333. [[fiduciary issue]]
-	334. [[field experiment]]
-	335. [[final goods]]
-	336. [[final salary scheme]]
-	337. [[Finance Act]]
-	338. [[financial assets]]
-	339. [[Financial Conduct Authority]]
-	340. [[financial crisis]]
-
-	341. [[financial deregulation]]
-	342. [[financial economics]]
-	343. [[financial futures]]
-	344. [[financial innovation]]
-	345. [[financial intermediary]]
-	346. [[financial markets]]
-	347. [[Financial Policy Committee]]
-	348. [[financial ratios]]
-	349. [[financial repression]]
-	350. [[financial sector]]
-
-	351. financial security
+	1280. [[feasible set]]
+	1281. [[Federal Deposit Insurance Corporation]]
+	1282. [[federal fiscal system]]
+	1283. [[Federal Reserve System]]
+	1284. [[Federal Trade Commission]]
+	1285. [[fiat money]]
+	1286. [[fiduciary issue]]
+	1287. [[field experiment]]
+	1288. [[final goods]]
+	1289. [[final salary scheme]]
+	1290. [[Finance Act]]
+	1291. [[financial assets]]
+	1292. [[Financial Conduct Authority]]
+	1293. [[financial crisis]]
+	1294. [[financial deregulation]]
+	1295. [[financial economics]]
+	1296. [[financial futures]]
+	1297. [[financial innovation]]
+	1298. [[financial intermediary]]
+	1299. [[financial markets]]
+	1300. [[Financial Policy Committee]]
+	1301. [[financial ratios]]
+	1302. [[financial repression]]
+	1303. [[financial sector]]
+	1304. financial security
 		1. See security
-	352. [[Financial Services Act]]
-	353. [[Financial Services Authority]]
-	354. [[financial soundness indicators]]
-	355. [[Financial Times-Stock Exchange 100 Share Index]]
-	356. [[Financial Times Actuaries All-Share Index]]
-	357. [[Financial Times Actuaries Share Indexes]]
-	358. [[Financial Times Industrial Ordinary Share Index]]
-	359. [[Financial Times Share Indexes]]
-	360. [[financial year]]
-
-	361. [[fine tuning]]
-	362. [[finite sample distribution]]
-	363. [[firm]]
-	364. [[firm-specific human capital]]
-	365. [[firm objective]]
-	366. [[first-best allocations]]
-	367. [[first-degree price discrimination]]
-	368. [[first-in, first-out]]
-	369. [[first-mover advantage]]
-	370. [[first-price auction]]
-
-	371. [[first difference]]
-	372. [[fiscal drag]]
-	373. [[fiscal federalism]]
-	374. [[fiscal illusion]]
-	375. [[fiscal neutrality]]
-	376. [[fiscal policy]]
-	377. [[fiscal stance]]
-	378. [[fiscal stimulus]]
-	379. [[fiscal year]]
-	380. [[Fisher's ideal price index]]
-
-	381. [[Fisher effect]]
-	382. [[five-year plan(s)]]
-	383. [[fixed-interest security]]
-	384. [[fixed coefficient production function]]
-	385. [[fixed cost]]
-	386. [[fixed effects]]
-	387. [[fixed exchange rate]]
-	388. [[fixed factors]]
-	389. [[fixed investment]]
-	390. [[fixprice]]
-
-	391. [[flag carrier]]
-	392. [[flag of convenience]]
-	393. flexible exchange rate
+	1305. [[Financial Services Act]]
+	1306. [[Financial Services Authority]]
+	1307. [[financial soundness indicators]]
+	1308. [[Financial Times-Stock Exchange 100 Share Index]]
+	1309. [[Financial Times Actuaries All-Share Index]]
+	1310. [[Financial Times Actuaries Share Indexes]]
+	1311. [[Financial Times Industrial Ordinary Share Index]]
+	1312. [[Financial Times Share Indexes]]
+	1313. [[financial year]]
+	1314. [[fine tuning]]
+	1315. [[finite sample distribution]]
+	1316. [[firm]]
+	1317. [[firm-specific human capital]]
+	1318. [[firm objective]]
+	1319. [[first-best allocations]]
+	1320. [[first-degree price discrimination]]
+	1321. [[first-in, first-out]]
+	1322. [[first-mover advantage]]
+	1323. [[first-price auction]]
+	1324. [[first difference]]
+	1325. [[fiscal drag]]
+	1326. [[fiscal federalism]]
+	1327. [[fiscal illusion]]
+	1328. [[fiscal neutrality]]
+	1329. [[fiscal policy]]
+	1330. [[fiscal stance]]
+	1331. [[fiscal stimulus]]
+	1332. [[fiscal year]]
+	1333. [[Fisher's ideal price index]]
+	1334. [[Fisher effect]]
+	1335. [[five-year plan(s)]]
+	1336. [[fixed-interest security]]
+	1337. [[fixed coefficient production function]]
+	1338. [[fixed cost]]
+	1339. [[fixed effects]]
+	1340. [[fixed exchange rate]]
+	1341. [[fixed factors]]
+	1342. [[fixed investment]]
+	1343. [[fixprice]]
+	1344. [[flag carrier]]
+	1345. [[flag of convenience]]
+	1346. flexible exchange rate
 		1. See floating exchange rate
-	394. [[flexible prices]]
-	395. [[flexible wages]]
-	396. [[flexitime]]
-	397. [[flexprice]]
-	398. [[flight from money]]
-	399. [[floating exchange rate]]
-	400. [[floor]]
-
-	401. [[floor price]]
-	402. [[flotation]]
-	403. [[flow]]
-	404. [[folk theorem]]
-	405. [[Food and Agriculture Organization]]
-	406. [[food security]]
-	407. [[food stamps]]
-	408. [[food subsidies]]
-	409. [[footloose industry]]
-	410. [[forecast]]
-
-	411. [[foreclosure]]
-	412. foreign aid
+	1347. [[flexible prices]]
+	1348. [[flexible wages]]
+	1349. [[flexitime]]
+	1350. [[flexprice]]
+	1351. [[flight from money]]
+	1352. [[floating exchange rate]]
+	1353. [[floor]]
+	1354. [[floor price]]
+	1355. [[flotation]]
+	1356. [[flow]]
+	1357. [[folk theorem]]
+	1358. [[Food and Agriculture Organization]]
+	1359. [[food security]]
+	1360. [[food stamps]]
+	1361. [[food subsidies]]
+	1362. [[footloose industry]]
+	1363. [[forecast]]
+	1364. [[foreclosure]]
+	1365. foreign aid
 		1. See aid
-	413. [[foreign currency-denominated borrowing]]
-	414. [[foreign direct investment]]
-	415. [[foreign exchange]]
-	416. foreign exchange control
+	1366. [[foreign currency-denominated borrowing]]
+	1367. [[foreign direct investment]]
+	1368. [[foreign exchange]]
+	1369. foreign exchange control
 		1. See exchange control
-	417. [[foreign exchange markets]]
-	418. foreign exchange rate
+	1370. [[foreign exchange markets]]
+	1371. foreign exchange rate
 		1. See exchange rate
-	419. [[foreign exchange reserves]]
-	420. [[foreign investment]]
-
-	421. [[foreign trade]]
-	422. [[fortress Europe]]
-	423. [[forward]]
-	424. [[forward-looking behaviour]]
-	425. [[forward and futures]]
-	426. [[forward contract]]
-	427. [[forward exchange market]]
-	428. [[forward exchange rate]]
-	429. [[forward integration]]
-	430. [[forward market]]
-
-	431. [[forward price]]
-	432. [[Fourier analysis]]
-	433. [[fractional reserve banking]]
-	434. [[franc fort]]
-	435. [[franchise]]
-	436. [[free-market economy]]
-	437. [[free-trade agreement]]
-	438. [[free-trade area]]
-	439. [[free-trade zone]]
-	440. [[free enterprise]]
-
-	441. [[free entry]]
-	442. free exchange rate
+	1372. [[foreign exchange reserves]]
+	1373. [[foreign investment]]
+	1374. [[foreign trade]]
+	1375. [[fortress Europe]]
+	1376. [[forward]]
+	1377. [[forward-looking behaviour]]
+	1378. [[forward and futures]]
+	1379. [[forward contract]]
+	1380. [[forward exchange market]]
+	1381. [[forward exchange rate]]
+	1382. [[forward integration]]
+	1383. [[forward market]]
+	1384. [[forward price]]
+	1385. [[Fourier analysis]]
+	1386. [[fractional reserve banking]]
+	1387. [[franc fort]]
+	1388. [[franchise]]
+	1389. [[free-market economy]]
+	1390. [[free-trade agreement]]
+	1391. [[free-trade area]]
+	1392. [[free-trade zone]]
+	1393. [[free enterprise]]
+	1394. [[free entry]]
+	1395. free exchange rate
 		1. See floating exchange rate
-	443. [[free exit]]
-	444. [[free good]]
-	445. [[freehold]]
-	446. [[free lunch]]
-	447. [[free market]]
-	448. [[free on board]]
-	449. [[free port]]
-	450. [[free rider]]
-
-	451. [[free trade]]
-	452. frequency distribution
+	1396. [[free exit]]
+	1397. [[free good]]
+	1398. [[freehold]]
+	1399. [[free lunch]]
+	1400. [[free market]]
+	1401. [[free on board]]
+	1402. [[free port]]
+	1403. [[free rider]]
+	1404. [[free trade]]
+	1405. frequency distribution
 		1. See probability distribution
-	453. [[frequency domain analysis]]
-	454. [[frequency table]]
-	455. [[frictional unemployment]]
-	456. [[friendly society]]
-	457. [[fringe benefits]]
-	458. [[front-end charge]]
-	459. [[full cost pricing]]
-	460. [[full employment]]
-
-	461. [[full employment national income]]
-	462. [[full information maximum likelihood]]
-	463. [[full line forcing]]
-	464. [[fully funded pension]]
-	465. [[functional income distribution]]
-	466. [[fundamental analysis]]
-	467. [[fundamental disequilibrium]]
-	468. [[fundamentals]]
-	469. [[Fundamental Theorems of Welfare Economics]]
-	470. [[funding]]
-
-	471. futures
+	1406. [[frequency domain analysis]]
+	1407. [[frequency table]]
+	1408. [[frictional unemployment]]
+	1409. [[friendly society]]
+	1410. [[fringe benefits]]
+	1411. [[front-end charge]]
+	1412. [[full cost pricing]]
+	1413. [[full employment]]
+	1414. [[full employment national income]]
+	1415. [[full information maximum likelihood]]
+	1416. [[full line forcing]]
+	1417. [[fully funded pension]]
+	1418. [[functional income distribution]]
+	1419. [[fundamental analysis]]
+	1420. [[fundamental disequilibrium]]
+	1421. [[fundamentals]]
+	1422. [[Fundamental Theorems of Welfare Economics]]
+	1423. [[funding]]
+	1424. futures
 		1. See FINAL FUTURES; FUTURES CONTRACTS; INTEREST-RATE FUTURES.
-	472. [[futures contract]]
-	473. [[futures market]]
-	474. G10
+	1425. [[futures contract]]
+	1426. [[futures market]]
+	1427. G10
 		1. See Group of Ten
-	475. G7
+	1428. G7
 		1. See group of seven
-	476. G8
+	1429. G8
 		1. See group of eight
-	477. [[gains from trade]]
-	478. [[gambling]]
-	479. [[game theory]]
-	480. [[gamma distribution]]
-
-	481. [[gamma stocks]]
-	482. GARP
+	1430. [[gains from trade]]
+	1431. [[gambling]]
+	1432. [[game theory]]
+	1433. [[gamma distribution]]
+	1434. [[gamma stocks]]
+	1435. GARP
 		1. Generalized Axiom of Revealed Preference. See WARP
-	483. [[Gauss-Markov theorem]]
-	484. [[Gaussian process]]
-	485. [[gazumping]]
-	486. [[gazundering]]
-	487. GDP
+	1436. [[Gauss-Markov theorem]]
+	1437. [[Gaussian process]]
+	1438. [[gazumping]]
+	1439. [[gazundering]]
+	1440. GDP
 		1. See gross domestic product
-	488. [[GDP deflator]]
-	489. [[gearing]]
-	490. [[General Agreement on Tariffs and Trade]]
-
-	491. [[General Agreement on Trade in Services]]
-	492. [[General Agreement to Borrow]]
-	493. [[General Anti-Avoidance Rule]]
-	494. [[general equilibrium]]
-	495. [[general government]]
-	496. [[general government final consumption]]
-	497. General Household Survey
+	1441. [[GDP deflator]]
+	1442. [[gearing]]
+	1443. [[General Agreement on Tariffs and Trade]]
+	1444. [[General Agreement on Trade in Services]]
+	1445. [[General Agreement to Borrow]]
+	1446. [[General Anti-Avoidance Rule]]
+	1447. [[general equilibrium]]
+	1448. [[general government]]
+	1449. [[general government final consumption]]
+	1450. General Household Survey
 		1. See general lifestyle survey
-	498. [[general human capital]]
-	499. [[generalized least squares estimator]]
-	500. [[generalized method of moments estimator]]
-
-	501. [[Generalized System of Preferences]]
-	502. [[General Lifestyle Survey]]
-	503. [[general linear hypothesis]]
-	504. [[general linear model]]
-	505. [[geometric distribution]]
-	506. [[geometric lag model]]
-	507. [[geometric mean]]
-	508. [[German Economic and Monetary Union]]
-	509. Geysha bond
+	1451. [[general human capital]]
+	1452. [[generalized least squares estimator]]
+	1453. [[generalized method of moments estimator]]
+	1454. [[Generalized System of Preferences]]
+	1455. [[General Lifestyle Survey]]
+	1456. [[general linear hypothesis]]
+	1457. [[general linear model]]
+	1458. [[geometric distribution]]
+	1459. [[geometric lag model]]
+	1460. [[geometric mean]]
+	1461. [[German Economic and Monetary Union]]
+	1462. Geysha bond
 		1. See shogun bond
-	510. [[Giffen good]]
-
-	511. [[gift tax]]
-	512. [[gilt-edged security]]
-	513. [[Gini coefficient]]
-	514. Ginnie Mae
+	1463. [[Giffen good]]
+	1464. [[gift tax]]
+	1465. [[gilt-edged security]]
+	1466. [[Gini coefficient]]
+	1467. Ginnie Mae
 		1. See government national mortgage association
-	515. [[giro]]
-	516. [[Glass-Steagal Act]]
-	517. [[Glejser test]]
-	518. [[global commons]]
-	519. [[Global Financial Stability Report]]
-	520. [[globalization]]
-
-	521. [[global public good]]
-	522. [[global warming]]
-	523. [[glut]]
-	524. GNP
+	1468. [[giro]]
+	1469. [[Glass-Steagal Act]]
+	1470. [[Glejser test]]
+	1471. [[global commons]]
+	1472. [[Global Financial Stability Report]]
+	1473. [[globalization]]
+	1474. [[global public good]]
+	1475. [[global warming]]
+	1476. [[glut]]
+	1477. GNP
 		1. See gross national product
-	525. [[gold]]
-	526. gold and foreign exchange reserves
+	1478. [[gold]]
+	1479. gold and foreign exchange reserves
 		1. See foreign exchange reserves
-	527. [[golden handshake]]
-	528. [[golden rule]]
-	529. gold exchange standard
+	1480. [[golden handshake]]
+	1481. [[golden rule]]
+	1482. gold exchange standard
 		1. See gold standard
-	530. [[Goldfeld-Quandt test]]
-
-	531. [[gold parity]]
-	532. [[gold points]]
-	533. [[gold standard]]
-	534. [[good]]
-	535. [[Goodhart's law]]
-	536. [[goodness of fit measures]]
-	537. [[goodwill]]
-	538. [[Gosplan]]
-	539. [[government]]
-	540. [[Government Accountability Office]]
-
-	541. [[government debt]]
-	542. [[government expenditure]]
-	543. [[government failure]]
-	544. [[Government National Mortgage Association]]
-	545. [[government production]]
-	546. government regulation
+	1483. [[Goldfeld-Quandt test]]
+	1484. [[gold parity]]
+	1485. [[gold points]]
+	1486. [[gold standard]]
+	1487. [[good]]
+	1488. [[Goodhart's law]]
+	1489. [[goodness of fit measures]]
+	1490. [[goodwill]]
+	1491. [[Gosplan]]
+	1492. [[government]]
+	1493. [[Government Accountability Office]]
+	1494. [[government debt]]
+	1495. [[government expenditure]]
+	1496. [[government failure]]
+	1497. [[Government National Mortgage Association]]
+	1498. [[government production]]
+	1499. government regulation
 		1. See regulation
-	547. [[government spending on real goods and services]]
-	548. [[government transfer payments]]
-	549. [[gradualism]]
-	550. [[gradualist monetarism]]
-
-	551. [[Gramm-Rudman-Hollings]]
-	552. [[Granger causality]]
-	553. [[granny bond]]
-	554. [[grant in aid]]
-	555. [[gravity model]]
-	556. [[Great Depression]]
-	557. [[Great Leap Forward]]
-	558. [[greenfield development]]
-	559. [[green GDP]]
-	560. [[greenhouse gases]]
-
-	561. [[green issues]]
-	562. [[green paper]]
-	563. [[green pound]]
-	564. [[green revolution]]
-	565. [[green sleeves worker]]
-	566. [[green taxes]]
-	567. [[Gresham's law]]
-	568. [[gross]]
-	569. [[gross domestic capital formation]]
-	570. [[gross domestic fixed capital formation]]
-
-	571. [[gross domestic product]]
-	572. [[gross fixed investment]]
-	573. [[grossing up]]
-	574. [[gross investment]]
-	575. [[gross national product]]
-	576. [[gross profit]]
-	577. [[gross trading profit]]
-	578. [[Group of Eight]]
-	579. [[Group of Seven]]
-	580. [[Group of Ten]]
-
-	581. growth
+	1500. [[government spending on real goods and services]]
+	1501. [[government transfer payments]]
+	1502. [[gradualism]]
+	1503. [[gradualist monetarism]]
+	1504. [[Gramm-Rudman-Hollings]]
+	1505. [[Granger causality]]
+	1506. [[granny bond]]
+	1507. [[grant in aid]]
+	1508. [[gravity model]]
+	1509. [[Great Depression]]
+	1510. [[Great Leap Forward]]
+	1511. [[greenfield development]]
+	1512. [[green GDP]]
+	1513. [[greenhouse gases]]
+	1514. [[green issues]]
+	1515. [[green paper]]
+	1516. [[green pound]]
+	1517. [[green revolution]]
+	1518. [[green sleeves worker]]
+	1519. [[green taxes]]
+	1520. [[Gresham's law]]
+	1521. [[gross]]
+	1522. [[gross domestic capital formation]]
+	1523. [[gross domestic fixed capital formation]]
+	1524. [[gross domestic product]]
+	1525. [[gross fixed investment]]
+	1526. [[grossing up]]
+	1527. [[gross investment]]
+	1528. [[gross national product]]
+	1529. [[gross profit]]
+	1530. [[gross trading profit]]
+	1531. [[Group of Eight]]
+	1532. [[Group of Seven]]
+	1533. [[Group of Ten]]
+	1534. growth
 		1. See economic growth
-	582. [[growth accounting]]
-	583. [[growth cycles]]
-	584. growth model
+	1535. [[growth accounting]]
+	1536. [[growth cycles]]
+	1537. growth model
 		1. See endogenous Growth; Harrod-Domar Growth MODEL; SOLOW GROWTH MODEL.
-	585. [[growth rate]]
-	586. [[guarantee]]
-	587. [[habit persistence]]
-	588. [[Hang Seng index]]
-	589. [[happiness index]]
-	590. [[Harberger triangle]]
-
-	591. [[hard-core unemployed]]
-	592. [[hard budget constraint]]
-	593. [[hard currency]]
-	594. [[hard Ecu]]
-	595. [[hard landing]]
-	596. [[hard loan]]
-	597. [[harmonic mean]]
-	598. [[harmonization]]
-	599. [[Harrod-Domar growth model]]
-	600. [[Harrod-neutral technical progress]]
-
-	601. [[Hausman test]]
-	602. [[hawala]]
-	603. [[Health and Safety at Work Act]]
-	604. [[health economics]]
-	605. [[health insurance]]
-	606. [[heavily indebted poor countries]]
-	607. [[Heckscher-Ohlin model]]
-	608. [[hedge fund]]
-	609. [[hedging]]
-	610. [[hedonic pricing]]
-
-	611. [[Herfindahl index]]
-	612. [[heteroscedasticity]]
-	613. [[Hicks-neutral technical progress]]
-	614. Hicksian demand
+	1538. [[growth rate]]
+	1539. [[guarantee]]
+	1540. [[habit persistence]]
+	1541. [[Hang Seng index]]
+	1542. [[happiness index]]
+	1543. [[Harberger triangle]]
+	1544. [[hard-core unemployed]]
+	1545. [[hard budget constraint]]
+	1546. [[hard currency]]
+	1547. [[hard Ecu]]
+	1548. [[hard landing]]
+	1549. [[hard loan]]
+	1550. [[harmonic mean]]
+	1551. [[harmonization]]
+	1552. [[Harrod-Domar growth model]]
+	1553. [[Harrod-neutral technical progress]]
+	1554. [[Hausman test]]
+	1555. [[hawala]]
+	1556. [[Health and Safety at Work Act]]
+	1557. [[health economics]]
+	1558. [[health insurance]]
+	1559. [[heavily indebted poor countries]]
+	1560. [[Heckscher-Ohlin model]]
+	1561. [[hedge fund]]
+	1562. [[hedging]]
+	1563. [[hedonic pricing]]
+	1564. [[Herfindahl index]]
+	1565. [[heteroscedasticity]]
+	1566. [[Hicks-neutral technical progress]]
+	1567. Hicksian demand
 		1. See compensated demand
-	615. [[hidden economy]]
-	616. [[hidden unemployment]]
-	617. [[high-powered money]]
-	618. [[hire purchase]]
-	619. [[hiring]]
-	620. [[histogram]]
-
-	621. [[historical cost]]
-	622. [[hit-and-run entry]]
-	623. [[HM Revenue and Customs]]
-	624. [[HM Treasury]]
-	625. [[hockey stick]]
-	626. hog cycle
+	1568. [[hidden economy]]
+	1569. [[hidden unemployment]]
+	1570. [[high-powered money]]
+	1571. [[hire purchase]]
+	1572. [[hiring]]
+	1573. [[histogram]]
+	1574. [[historical cost]]
+	1575. [[hit-and-run entry]]
+	1576. [[HM Revenue and Customs]]
+	1577. [[HM Treasury]]
+	1578. [[hockey stick]]
+	1579. hog cycle
 		1. See cobweb
-	627. [[hold-up]]
-	628. [[holding company]]
-	629. [[home bias]]
-	630. home production
+	1580. [[hold-up]]
+	1581. [[holding company]]
+	1582. [[home bias]]
+	1583. home production
 		1. See household production
-
-	631. homo economicus
+	1584. homo economicus
 		1. See economic man
-	632. [[homogeneous good]]
-	633. [[homoscedasticity]]
-	634. [[Hong Kong Stock Exchange]]
-	635. [[horizontal equity]]
-	636. [[horizontal integration]]
-	637. [[horizontal merger]]
-	638. [[hostile bid]]
-	639. [[Hotelling's law]]
-	640. [[hot money]]
-
-	641. [[hours of work]]
-	642. [[household]]
-	643. [[household decision-making]]
-	644. [[household production]]
-	645. [[housing association]]
-	646. [[housing benefit]]
-	647. [[human capital]]
-	648. [[Human Development Index]]
-	649. [[hyperbolic discounting]]
-	650. [[hyperinflation]]
-
-	651. [[hypothecation]]
-	652. [[hypothesis testing]]
-	653. [[hysteresis]]
-	654. [[identification problem]]
-	655. [[idiosyncratic risk]]
-	656. [[if and only if]]
-	657. [[illiquidity]]
-	658. [[immigration]]
-	659. [[immiserizing growth]]
-	660. [[immobile factors]]
-
-	661. [[impact effect]]
-	662. [[imperfect competition]]
-	663. [[implicit contract]]
-	664. [[implicit cost]]
-	665. [[implied volatility]]
-	666. [[importables]]
-	667. [[import control]]
-	668. [[import deposit]]
-	669. [[Import Duties Act]]
-	670. import duty
+	1585. [[homogeneous good]]
+	1586. [[homoscedasticity]]
+	1587. [[Hong Kong Stock Exchange]]
+	1588. [[horizontal equity]]
+	1589. [[horizontal integration]]
+	1590. [[horizontal merger]]
+	1591. [[hostile bid]]
+	1592. [[Hotelling's law]]
+	1593. [[hot money]]
+	1594. [[hours of work]]
+	1595. [[household]]
+	1596. [[household decision-making]]
+	1597. [[household production]]
+	1598. [[housing association]]
+	1599. [[housing benefit]]
+	1600. [[human capital]]
+	1601. [[Human Development Index]]
+	1602. [[hyperbolic discounting]]
+	1603. [[hyperinflation]]
+	1604. [[hypothecation]]
+	1605. [[hypothesis testing]]
+	1606. [[hysteresis]]
+	1607. [[identification problem]]
+	1608. [[idiosyncratic risk]]
+	1609. [[if and only if]]
+	1610. [[illiquidity]]
+	1611. [[immigration]]
+	1612. [[immiserizing growth]]
+	1613. [[immobile factors]]
+	1614. [[impact effect]]
+	1615. [[imperfect competition]]
+	1616. [[implicit contract]]
+	1617. [[implicit cost]]
+	1618. [[implied volatility]]
+	1619. [[importables]]
+	1620. [[import control]]
+	1621. [[import deposit]]
+	1622. [[Import Duties Act]]
+	1623. import duty
 		1. See tariff
-
-	671. [[imported inflation]]
-	672. import levy
+	1624. [[imported inflation]]
+	1625. import levy
 		1. See tariff
-	673. [[import licence]]
-	674. [[import penetration]]
-	675. [[import propensity]]
-	676. [[import quota]]
-	677. import restriction
+	1626. [[import licence]]
+	1627. [[import penetration]]
+	1628. [[import propensity]]
+	1629. [[import quota]]
+	1630. import restriction
 		1. See import control
-	678. [[imports]]
-	679. [[import substitution]]
-	680. [[import surcharge]]
-
-	681. import tariff
+	1631. [[imports]]
+	1632. [[import substitution]]
+	1633. [[import surcharge]]
+	1634. import tariff
 		1. See tariff
-	682. [[impure public good]]
-	683. [[imputation system]]
-	684. [[imputed charge for consumption of non-trading capital]]
-	685. [[imputed income]]
-	686. [[imputed social contributions]]
-	687. [[in-kind redistribution]]
-	688. [[incentive compatibility]]
-	689. [[incentive contract]]
-	690. [[incentives]]
-
-	691. [[incidence of taxation]]
-	692. [[income]]
-	693. income approach to GDP
+	1635. [[impure public good]]
+	1636. [[imputation system]]
+	1637. [[imputed charge for consumption of non-trading capital]]
+	1638. [[imputed income]]
+	1639. [[imputed social contributions]]
+	1640. [[in-kind redistribution]]
+	1641. [[incentive compatibility]]
+	1642. [[incentive contract]]
+	1643. [[incentives]]
+	1644. [[incidence of taxation]]
+	1645. [[income]]
+	1646. income approach to GDP
 		1. See income method
-	694. [[income distribution]]
-	695. [[income effect]]
-	696. [[income elasticity of demand]]
-	697. [[income expansion path]]
-	698. [[income from employment]]
-	699. [[income from self-employment]]
-	700. [[income inequality]]
-
-	701. [[income maintenance programme]]
-	702. [[income method]]
-	703. [[income redistribution]]
-	704. [[income support]]
-	705. [[income tax]]
-	706. [[income velocity of circulation]]
-	707. [[incomplete contract]]
-	708. [[incomplete information]]
-	709. [[incomplete markets]]
-	710. [[increase in the book value of stocks and work in progress]]
-
-	711. [[increasing returns to scale]]
-	712. [[incumbent firm]]
-	713. [[independent risks]]
-	714. [[independent taxation of spouses]]
-	715. [[index-linked]]
-	716. [[indexation]]
-	717. [[index number]]
-	718. [[Index of Industrial Production]]
-	719. [[indicative planning]]
-	720. 
-
-	721. [[indicator]]
-	722. [[indifference curve]]
-	723. [[indirect investment]]
-	724. [[indirect least squares]]
-	725. [[indirect tax]]
-	726. [[indirect utility function]]
-	727. [[Individual Retirement Account]]
-	728. [[Individual Savings Account]]
-	729. [[indivisibility]]
-	730. [[induced investment]]
-
-	731. [[industrial action]]
-	732. industrial concentration
+	1647. [[income distribution]]
+	1648. [[income effect]]
+	1649. [[income elasticity of demand]]
+	1650. [[income expansion path]]
+	1651. [[income from employment]]
+	1652. [[income from self-employment]]
+	1653. [[income inequality]]
+	1654. [[income maintenance programme]]
+	1655. [[income method]]
+	1656. [[income redistribution]]
+	1657. [[income support]]
+	1658. [[income tax]]
+	1659. [[income velocity of circulation]]
+	1660. [[incomplete contract]]
+	1661. [[incomplete information]]
+	1662. [[incomplete markets]]
+	1663. [[increase in the book value of stocks and work in progress]]
+	1664. [[increasing returns to scale]]
+	1665. [[incumbent firm]]
+	1666. [[independent risks]]
+	1667. [[independent taxation of spouses]]
+	1668. [[index-linked]]
+	1669. [[indexation]]
+	1670. [[index number]]
+	1671. [[Index of Industrial Production]]
+	1672. [[indicative planning]]
+	1673. [[indicator]]
+	1674. [[indifference curve]]
+	1675. [[indirect investment]]
+	1676. [[indirect least squares]]
+	1677. [[indirect tax]]
+	1678. [[indirect utility function]]
+	1679. [[Individual Retirement Account]]
+	1680. [[Individual Savings Account]]
+	1681. [[indivisibility]]
+	1682. [[induced investment]]
+	1683. [[industrial action]]
+	1684. industrial concentration
 		1. See concentration
-	733. [[industrial democracy]]
-	734. [[industrial dispute]]
-	735. [[industrial economics]]
-	736. [[industrial espionage]]
-	737. [[industrialization]]
-	738. industrial licensing
+	1685. [[industrial democracy]]
+	1686. [[industrial dispute]]
+	1687. [[industrial economics]]
+	1688. [[industrial espionage]]
+	1689. [[industrialization]]
+	1690. industrial licensing
 		1. See licensing
-	739. [[industrial organization]]
-	740. [[industrial policy]]
-
-	741. [[industrial relations]]
-	742. [[industrial sector]]
-	743. [[industry]]
-	744. [[industry demand for labour]]
-	745. industry supply curve
+	1691. [[industrial organization]]
+	1692. [[industrial policy]]
+	1693. [[industrial relations]]
+	1694. [[industrial sector]]
+	1695. [[industry]]
+	1696. [[industry demand for labour]]
+	1697. industry supply curve
 		1. See supply curve
-	746. [[inefficiency]]
-	747. [[inelastic]]
-	748. [[inelastic demand]]
-	749. [[inelastic supply]]
-	750. [[inequality]]
-
-	751. [[infant industry]]
-	752. [[inferior good]]
-	753. [[inflation]]
-	754. [[inflation-adjusted budget deficit]]
-	755. [[inflation accounting]]
-	756. [[inflationary gap]]
-	757. [[inflationary spiral]]
-	758. [[inflation rate]]
-	759. [[inflation tax]]
-	760. informal economy
+	1698. [[inefficiency]]
+	1699. [[inelastic]]
+	1700. [[inelastic demand]]
+	1701. [[inelastic supply]]
+	1702. [[inequality]]
+	1703. [[infant industry]]
+	1704. [[inferior good]]
+	1705. [[inflation]]
+	1706. [[inflation-adjusted budget deficit]]
+	1707. [[inflation accounting]]
+	1708. [[inflationary gap]]
+	1709. [[inflationary spiral]]
+	1710. [[inflation rate]]
+	1711. [[inflation tax]]
+	1712. informal economy
 		1. See hidden economy
-
-	761. [[information]]
-	762. [[information agreement]]
-	763. information asymmetry
+	1713. [[information]]
+	1714. [[information agreement]]
+	1715. information asymmetry
 		1. See asymmetric information
-	764. [[information criterion]]
-	765. [[infrastructure]]
-	766. [[inheritance tax]]
-	767. [[initial conditions]]
-	768. [[initial public offering]]
-	769. [[injections to the circular flow of income]]
-	770. Inland Revenue
+	1716. [[information criterion]]
+	1717. [[infrastructure]]
+	1718. [[inheritance tax]]
+	1719. [[initial conditions]]
+	1720. [[initial public offering]]
+	1721. [[injections to the circular flow of income]]
+	1722. Inland Revenue
 		1. See HM Revenue and Customs
-
-	771. [[inlier]]
-	772. [[innocent entry barriers]]
-	773. [[innovation]]
-	774. [[input-output]]
-	775. [[input prices]]
-	776. [[inputs]]
-	777. [[inside money]]
-	778. [[insider dealing]]
-	779. [[insiders and outsiders]]
-	780. insider trading
+	1723. [[inlier]]
+	1724. [[innocent entry barriers]]
+	1725. [[innovation]]
+	1726. [[input-output]]
+	1727. [[input prices]]
+	1728. [[inputs]]
+	1729. [[inside money]]
+	1730. [[insider dealing]]
+	1731. [[insiders and outsiders]]
+	1732. insider trading
 		1. See insider dealing
-
-	781. [[insolvency]]
-	782. [[Inspector of Taxes]]
-	783. [[instalment]]
-	784. [[institutional economics]]
-	785. [[institutional shareholder]]
-	786. [[instrumental variable]]
-	787. [[insurance]]
-	788. [[insurance company]]
-	789. [[intangible assets]]
-	790. [[integration]]
-
-	791. [[intellectual property rights]]
-	792. [[intensive margin]]
-	793. [[inter-industry trade]]
-	794. [[interdependent utility]]
-	795. [[interest]]
-	796. [[interest-elasticity of the demand for money]]
-	797. [[interest-rate futures]]
-	798. [[interest-rate swaps]]
-	799. [[interest equalization tax]]
-	800. [[interest payments]]
-
-	801. interest rate
+	1733. [[insolvency]]
+	1734. [[Inspector of Taxes]]
+	1735. [[instalment]]
+	1736. [[institutional economics]]
+	1737. [[institutional shareholder]]
+	1738. [[instrumental variable]]
+	1739. [[insurance]]
+	1740. [[insurance company]]
+	1741. [[intangible assets]]
+	1742. [[integration]]
+	1743. [[intellectual property rights]]
+	1744. [[intensive margin]]
+	1745. [[inter-industry trade]]
+	1746. [[interdependent utility]]
+	1747. [[interest]]
+	1748. [[interest-elasticity of the demand for money]]
+	1749. [[interest-rate futures]]
+	1750. [[interest-rate swaps]]
+	1751. [[interest equalization tax]]
+	1752. [[interest payments]]
+	1753. interest rate
 		1. See LONG-TERM INTEREST RATE; NATURAL RATE OF INTEREST; RATE OF INTEREST; REAL INTEREST RATE; TERM STRUCTURE OF INTEREST RATES.
-	802. [[intergenerational equity]]
-	803. [[intergenerational mobility]]
-	804. [[Intergovernmental Panel on Climate Change]]
-	805. [[interim dividend]]
-	806. [[interim report]]
-	807. [[interior solution]]
-	808. [[interlocking directorates]]
-	809. [[intermediate good]]
-	810. [[internal balance]]
-
-	811. [[internalizing externalities]]
-	812. [[internal labour market]]
-	813. [[internal market]]
-	814. [[internal rate of return]]
-	815. [[Internal Revenue Service]]
-	816. [[International Accounting Standards Board]]
-	817. [[International Bank for Reconstruction and Development]]
-	818. [[international cartel]]
-	819. international commodity agreement
+	1754. [[intergenerational equity]]
+	1755. [[intergenerational mobility]]
+	1756. [[Intergovernmental Panel on Climate Change]]
+	1757. [[interim dividend]]
+	1758. [[interim report]]
+	1759. [[interior solution]]
+	1760. [[interlocking directorates]]
+	1761. [[intermediate good]]
+	1762. [[internal balance]]
+	1763. [[internalizing externalities]]
+	1764. [[internal labour market]]
+	1765. [[internal market]]
+	1766. [[internal rate of return]]
+	1767. [[Internal Revenue Service]]
+	1768. [[International Accounting Standards Board]]
+	1769. [[International Bank for Reconstruction and Development]]
+	1770. [[international cartel]]
+	1771. international commodity agreement
 		1. See commodity agreement
-	820. 
-
-	821. international company
+	1772. international company
 		1. See multinational
-	822. international competitiveness
+	1773. international competitiveness
 		1. See competitiveness
-	823. [[international debt]]
-	824. international debt crisis
+	1774. [[international debt]]
+	1775. international debt crisis
 		1. See debt crisis
-	825. [[International Development Association]]
-	826. [[international economics]]
-	827. [[International Finance Corporation]]
-	828. [[International Labour Organization]]
-	829. [[International Monetary Fund]]
-	830. [[international monetary system]]
-
-	831. [[international payments]]
-	832. international reserves
+	1776. [[International Development Association]]
+	1777. [[international economics]]
+	1778. [[International Finance Corporation]]
+	1779. [[International Labour Organization]]
+	1780. [[International Monetary Fund]]
+	1781. [[international monetary system]]
+	1782. [[international payments]]
+	1783. international reserves
 		1. See foreign exchange reserves
-	833. [[International Standard Classification of Occupations]]
-	834. international trade
+	1784. [[International Standard Classification of Occupations]]
+	1785. international trade
 		1. See trade
-	835. [[interpersonal comparisons]]
-	836. [[interpolation]]
-	837. [[interquartile range]]
-	838. [[Interstate Commerce Commission]]
-	839. [[intertemporal budget constraint]]
-	840. [[intertemporal substitution]]
-
-	841. [[intervention in foreign exchange markets]]
-	842. [[intra-industry trade]]
-	843. [[intra-marginal intervention]]
-	844. [[intrapreneur]]
-	845. [[invention]]
-	846. [[inventories]]
-	847. [[inverse correlation]]
-	848. [[inverse elasticity rule]]
-	849. [[investment]]
-	850. [[investment bank]]
-
-	851. [[investment incentives]]
-	852. [[investment income]]
-	853. [[investment income surcharge]]
-	854. [[investment in knowledge]]
-	855. [[investment in stocks and work in progress]]
-	856. [[Investment Management Regulatory Organization]]
-	857. [[investment pools]]
-	858. [[investment trust]]
-	859. [[invisible balance]]
-	860. [[invisible hand]]
-
-	861. [[invisibles]]
-	862. [[involuntary unemployment]]
-	863. [[inward investment]]
-	864. [[IOU]]
-	865. [[irredeemable security]]
-	866. [[IS-LM model]]
-	867. [[IS curve]]
-	868. [[Islamic banking]]
-	869. [[isocost curve]]
-	870. [[isoprofit curve]]
-
-	871. [[isoquant]]
-	872. [[issue]]
-	873. [[issued capital]]
-	874. [[J-curve]]
-	875. [[J-test]]
-	876. [[job]]
-	877. [[job acceptance schedule]]
-	878. [[jobber]]
-	879. job quits
+	1786. [[interpersonal comparisons]]
+	1787. [[interpolation]]
+	1788. [[interquartile range]]
+	1789. [[Interstate Commerce Commission]]
+	1790. [[intertemporal budget constraint]]
+	1791. [[intertemporal substitution]]
+	1792. [[intervention in foreign exchange markets]]
+	1793. [[intra-industry trade]]
+	1794. [[intra-marginal intervention]]
+	1795. [[intrapreneur]]
+	1796. [[invention]]
+	1797. [[inventories]]
+	1798. [[inverse correlation]]
+	1799. [[inverse elasticity rule]]
+	1800. [[investment]]
+	1801. [[investment bank]]
+	1802. [[investment incentives]]
+	1803. [[investment income]]
+	1804. [[investment income surcharge]]
+	1805. [[investment in knowledge]]
+	1806. [[investment in stocks and work in progress]]
+	1807. [[Investment Management Regulatory Organization]]
+	1808. [[investment pools]]
+	1809. [[investment trust]]
+	1810. [[invisible balance]]
+	1811. [[invisible hand]]
+	1812. [[invisibles]]
+	1813. [[involuntary unemployment]]
+	1814. [[inward investment]]
+	1815. [[IOU]]
+	1816. [[irredeemable security]]
+	1817. [[IS-LM model]]
+	1818. [[IS curve]]
+	1819. [[Islamic banking]]
+	1820. [[isocost curve]]
+	1821. [[isoprofit curve]]
+	1822. [[isoquant]]
+	1823. [[issue]]
+	1824. [[issued capital]]
+	1825. [[J-curve]]
+	1826. [[J-test]]
+	1827. [[job]]
+	1828. [[job acceptance schedule]]
+	1829. [[jobber]]
+	1830. job quits
 		1. See quits
-	880. [[job search]]
-
-	881. [[jobseeker's allowance]]
-	882. job vacancy
+	1831. [[job search]]
+	1832. [[jobseeker's allowance]]
+	1833. job vacancy
 		1. See vacancy
-	883. [[Johansen's approach]]
-	884. [[joint-stock bank]]
-	885. [[joint-stock company]]
-	886. [[joint costs]]
-	887. [[joint probability distribution]]
-	888. [[joint production]]
-	889. joint profit maximization
+	1834. [[Johansen's approach]]
+	1835. [[joint-stock bank]]
+	1836. [[joint-stock company]]
+	1837. [[joint costs]]
+	1838. [[joint probability distribution]]
+	1839. [[joint production]]
+	1840. joint profit maximization
 		1. See collusion
-	890. [[joint supply]]
-
-	891. [[joint venture]]
-	892. Juglar cycle
+	1841. [[joint supply]]
+	1842. [[joint venture]]
+	1843. Juglar cycle
 		1. See business cycle
-	893. [[junk bonds]]
-	894. [[just-in-time]]
-	895. [[Kalman filter]]
-	896. [[Kennedy Round]]
-	897. [[kernel]]
-	898. [[kernel regression]]
-	899. [[Keynesian economics]]
-	900. [[Keynesian unemployment]]
-
-	901. [[Keynes Plan]]
-	902. [[kinked demand curve]]
-	903. [[kleptocracy]]
-	904. [[knock-on effect]]
-	905. [[know-how]]
-	906. [[Know-How Fund]]
-	907. [[knowledge economy]]
-	908. [[Kondratieff cycle]]
-	909. [[Koyck transformation]]
-	910. [[kurtosis]]
-
-	911. [[Kuznets curve]]
-	912. [[Kyoto Protocol]]
-	913. [[labour]]
-	914. [[labour-augmenting technical progress]]
-	915. [[labour economics]]
-	916. [[labour force]]
-	917. [[Labour Force Survey]]
-	918. [[labour hoarding]]
-	919. [[labour intensity]]
-	920. [[labour market]]
-
-	921. [[labour standards]]
-	922. [[labour supply]]
-	923. [[labour theory of value]]
-	924. [[labour turnover]]
-	925. [[Laffer curve]]
-	926. [[lag operator]]
-	927. [[Lagrange multiplier]]
-	928. [[Lagrange multiplier test]]
-	929. [[laissez-faire]]
-	930. [[land]]
-
-	931. [[landlord]]
-	932. Laspeyres index
+	1844. [[junk bonds]]
+	1845. [[just-in-time]]
+	1846. [[Kalman filter]]
+	1847. [[Kennedy Round]]
+	1848. [[kernel]]
+	1849. [[kernel regression]]
+	1850. [[Keynesian economics]]
+	1851. [[Keynesian unemployment]]
+	1852. [[Keynes Plan]]
+	1853. [[kinked demand curve]]
+	1854. [[kleptocracy]]
+	1855. [[knock-on effect]]
+	1856. [[know-how]]
+	1857. [[Know-How Fund]]
+	1858. [[knowledge economy]]
+	1859. [[Kondratieff cycle]]
+	1860. [[Koyck transformation]]
+	1861. [[kurtosis]]
+	1862. [[Kuznets curve]]
+	1863. [[Kyoto Protocol]]
+	1864. [[labour]]
+	1865. [[labour-augmenting technical progress]]
+	1866. [[labour economics]]
+	1867. [[labour force]]
+	1868. [[Labour Force Survey]]
+	1869. [[labour hoarding]]
+	1870. [[labour intensity]]
+	1871. [[labour market]]
+	1872. [[labour standards]]
+	1873. [[labour supply]]
+	1874. [[labour theory of value]]
+	1875. [[labour turnover]]
+	1876. [[Laffer curve]]
+	1877. [[lag operator]]
+	1878. [[Lagrange multiplier]]
+	1879. [[Lagrange multiplier test]]
+	1880. [[laissez-faire]]
+	1881. [[land]]
+	1882. [[landlord]]
+	1883. Laspeyres index
 		1. See base-weighted index
-	933. [[last-in, first-out]]
-	934. [[latent variable]]
-	935. [[Latin American crisis]]
-	936. [[law of demand]]
-	937. [[law of diminishing returns]]
-	938. [[law of large numbers]]
-	939. [[law of one price]]
-	940. [[layoffs]]
-
-	941. [[leading indicator]]
-	942. [[leads and lags]]
-	943. [[leakages from the circular flow of income]]
-	944. [[learning by doing]]
-	945. [[learning curve]]
-	946. [[lease]]
-	947. [[leasehold]]
-	948. [[leasing]]
-	949. [[least-squares growth rate]]
-	950. [[least developed countries]]
-
-	951. [[least squares]]
-	952. [[legal tender]]
-	953. [[leisure]]
-	954. [[lemon]]
-	955. [[lender of last resort]]
-	956. [[Leontief paradox]]
-	957. [[Lerner index]]
-	958. [[less developed countries]]
-	959. level of significance
+	1884. [[last-in, first-out]]
+	1885. [[latent variable]]
+	1886. [[Latin American crisis]]
+	1887. [[law of demand]]
+	1888. [[law of diminishing returns]]
+	1889. [[law of large numbers]]
+	1890. [[law of one price]]
+	1891. [[layoffs]]
+	1892. [[leading indicator]]
+	1893. [[leads and lags]]
+	1894. [[leakages from the circular flow of income]]
+	1895. [[learning by doing]]
+	1896. [[learning curve]]
+	1897. [[lease]]
+	1898. [[leasehold]]
+	1899. [[leasing]]
+	1900. [[least-squares growth rate]]
+	1901. [[least developed countries]]
+	1902. [[least squares]]
+	1903. [[legal tender]]
+	1904. [[leisure]]
+	1905. [[lemon]]
+	1906. [[lender of last resort]]
+	1907. [[Leontief paradox]]
+	1908. [[Lerner index]]
+	1909. [[less developed countries]]
+	1910. level of significance
 		1. See significance level
-	960. [[leverage]]
-
-	961. [[leveraged buy-out]]
-	962. [[leveraging]]
-	963. [[liabilities]]
-	964. [[liability]]
-	965. [[liberalization]]
-	966. [[liberalized economies]]
-	967. [[liberal trade policy]]
-	968. [[Licence Raj]]
-	969. [[licensing]]
-	970. life assurance
+	1911. [[leverage]]
+	1912. [[leveraged buy-out]]
+	1913. [[leveraging]]
+	1914. [[liabilities]]
+	1915. [[liability]]
+	1916. [[liberalization]]
+	1917. [[liberalized economies]]
+	1918. [[liberal trade policy]]
+	1919. [[Licence Raj]]
+	1920. [[licensing]]
+	1921. life assurance
 		1. See life insurance
-
-	971. [[Life Assurance and Unit Trust Regulatory Organization]]
-	972. [[life cycle]]
-	973. [[life insurance]]
-	974. [[likelihood function]]
-	975. [[likelihood ratio test]]
-	976. [[limited company]]
-	977. [[limited dependent variable]]
-	978. [[limited information maximum likelihood estimation]]
-	979. [[limited liability]]
-	980. [[limit pricing]]
-
-	981. [[Lindahl equilibrium]]
-	982. [[linear approximation]]
-	983. [[linear probability model]]
-	984. [[linear programming]]
-	985. [[linear regression]]
-	986. [[liquid assets]]
-	987. [[liquidation]]
-	988. [[liquidity]]
-	989. [[liquidity constraint]]
-	990. [[liquidity preference]]
-
-	991. [[liquidity ratio]]
-	992. [[liquidity risk]]
-	993. [[liquidity trap]]
-	994. [[Lisbon Agreement]]
-	995. [[lishu]]
-	996. [[listing]]
-	997. [[Living Costs and Food Survey]]
-	998. [[Lloyd's]]
-	999. [[LM curve]]
-	1000. [[loan]]
-
-	1001. [[loan-loss reserve]]
-	1002. [[loanable funds]]
-	1003. [[loan portfolio]]
-	1004. [[loans-to-deposit ratio]]
-	1005. [[lobbying]]
-	1006. [[local authority housing]]
-	1007. [[local content]]
-	1008. [[local government]]
-	1009. [[local public good]]
-	1010. [[location]]
-
-	1011. [[location-scale family of distributions]]
-	1012. [[lock-out]]
-	1013. [[locomotive principle]]
-	1014. [[log-linear function]]
-	1015. [[log-normal distribution]]
-	1016. [[log-rolling]]
-	1017. [[logarithmic scale]]
-	1018. [[logistic curve]]
-	1019. [[logistic distribution]]
-	1020. [[logit model]]
-
-	1021. [[Lomé Convention]]
-	1022. [[London Inter Bank Offered Rate]]
-	1023. [[London International Financial Futures and Options Exchange]]
-	1024. [[London Stock Exchange]]
-	1025. [[long-dated security]]
-	1026. long-run average cost
+	1922. [[Life Assurance and Unit Trust Regulatory Organization]]
+	1923. [[life cycle]]
+	1924. [[life insurance]]
+	1925. [[likelihood function]]
+	1926. [[likelihood ratio test]]
+	1927. [[limited company]]
+	1928. [[limited dependent variable]]
+	1929. [[limited information maximum likelihood estimation]]
+	1930. [[limited liability]]
+	1931. [[limit pricing]]
+	1932. [[Lindahl equilibrium]]
+	1933. [[linear approximation]]
+	1934. [[linear probability model]]
+	1935. [[linear programming]]
+	1936. [[linear regression]]
+	1937. [[liquid assets]]
+	1938. [[liquidation]]
+	1939. [[liquidity]]
+	1940. [[liquidity constraint]]
+	1941. [[liquidity preference]]
+	1942. [[liquidity ratio]]
+	1943. [[liquidity risk]]
+	1944. [[liquidity trap]]
+	1945. [[Lisbon Agreement]]
+	1946. [[lishu]]
+	1947. [[listing]]
+	1948. [[Living Costs and Food Survey]]
+	1949. [[Lloyd's]]
+	1950. [[LM curve]]
+	1951. [[loan]]
+	1952. [[loan-loss reserve]]
+	1953. [[loanable funds]]
+	1954. [[loan portfolio]]
+	1955. [[loans-to-deposit ratio]]
+	1956. [[lobbying]]
+	1957. [[local authority housing]]
+	1958. [[local content]]
+	1959. [[local government]]
+	1960. [[local public good]]
+	1961. [[location]]
+	1962. [[location-scale family of distributions]]
+	1963. [[lock-out]]
+	1964. [[locomotive principle]]
+	1965. [[log-linear function]]
+	1966. [[log-normal distribution]]
+	1967. [[log-rolling]]
+	1968. [[logarithmic scale]]
+	1969. [[logistic curve]]
+	1970. [[logistic distribution]]
+	1971. [[logit model]]
+	1972. [[Lomé Convention]]
+	1973. [[London Inter Bank Offered Rate]]
+	1974. [[London International Financial Futures and Options Exchange]]
+	1975. [[London Stock Exchange]]
+	1976. [[long-dated security]]
+	1977. long-run average cost
 		1. See average cost
-	1027. long-run marginal cost
+	1978. long-run marginal cost
 		1. See marginal cost
-	1028. [[long-run Phillips curve]]
-	1029. [[long-term care]]
-	1030. [[long-term interest rate]]
-
-	1031. [[long-term unemployment]]
-	1032. [[long position]]
-	1033. long rate
+	1979. [[long-run Phillips curve]]
+	1980. [[long-term care]]
+	1981. [[long-term interest rate]]
+	1982. [[long-term unemployment]]
+	1983. [[long position]]
+	1984. long rate
 		1. See long-term interest rate
-	1034. [[long run]]
-	1035. [[Lorenz curve]]
-	1036. [[loss]]
-	1037. [[loss leader]]
-	1038. [[Louvre Accord]]
-	1039. [[Lucas critique]]
-	1040. [[lump-sum tax]]
-
-	1041. lumpiness
+	1985. [[long run]]
+	1986. [[Lorenz curve]]
+	1987. [[loss]]
+	1988. [[loss leader]]
+	1989. [[Louvre Accord]]
+	1990. [[Lucas critique]]
+	1991. [[lump-sum tax]]
+	1992. lumpiness
 		1. See indivisibility
-	1042. [[lump of labour fallacy]]
-	1043. [[luxury]]
-	1044. [[M0]]
-	1045. [[M1]]
-	1046. [[M2]]
-	1047. [[M3]]
-	1048. [[Maastricht Treaty]]
-	1049. [[macroeconometrics]]
-	1050. [[macroeconomic policy]]
-
-	1051. [[macroeconomics]]
-	1052. [[macroeconomic trilemma]]
-	1053. [[Madoff]]
-	1054. [[majority shareholder]]
-	1055. [[majority voting]]
-	1056. [[Malthusian problem]]
-	1057. managed currency
+	1993. [[lump of labour fallacy]]
+	1994. [[luxury]]
+	1995. [[M0]]
+	1996. [[M1]]
+	1997. [[M2]]
+	1998. [[M3]]
+	1999. [[Maastricht Treaty]]
+	2000. [[macroeconometrics]]
+	2001. [[macroeconomic policy]]
+	2002. [[macroeconomics]]
+	2003. [[macroeconomic trilemma]]
+	2004. [[Madoff]]
+	2005. [[majority shareholder]]
+	2006. [[majority voting]]
+	2007. [[Malthusian problem]]
+	2008. managed currency
 		1. See intervention in foreign exchange markets
-	1058. [[managed floating exchange rate]]
-	1059. [[managed trade]]
-	1060. [[management]]
-
-	1061. [[management accounting]]
-	1062. [[management buy-out]]
-	1063. [[managerial theories of the firm]]
-	1064. [[mandatory spending programme]]
-	1065. [[margin]]
-	1066. [[marginal benefit]]
-	1067. [[marginal conditions for optimality]]
-	1068. [[marginal cost]]
-	1069. [[marginal cost of abatement]]
-	1070. [[marginal cost pricing]]
-
-	1071. [[marginal effect]]
-	1072. [[marginal efficiency of investment]]
-	1073. [[marginal firm]]
-	1074. [[marginal land]]
-	1075. marginal physical product
+	2009. [[managed floating exchange rate]]
+	2010. [[managed trade]]
+	2011. [[management]]
+	2012. [[management accounting]]
+	2013. [[management buy-out]]
+	2014. [[managerial theories of the firm]]
+	2015. [[mandatory spending programme]]
+	2016. [[margin]]
+	2017. [[marginal benefit]]
+	2018. [[marginal conditions for optimality]]
+	2019. [[marginal cost]]
+	2020. [[marginal cost of abatement]]
+	2021. [[marginal cost pricing]]
+	2022. [[marginal effect]]
+	2023. [[marginal efficiency of investment]]
+	2024. [[marginal firm]]
+	2025. [[marginal land]]
+	2026. marginal physical product
 		1. See marginal product
-	1076. [[marginal private benefit]]
-	1077. [[marginal private cost]]
-	1078. [[marginal product]]
-	1079. marginal propensity to consume
+	2027. [[marginal private benefit]]
+	2028. [[marginal private cost]]
+	2029. [[marginal product]]
+	2030. marginal propensity to consume
 		1. See propensity to consume
-	1080. marginal propensity to import
+	2031. marginal propensity to import
 		1. See import propensity
-
-	1081. marginal propensity to save
+	2032. marginal propensity to save
 		1. See propensity to save
-	1082. [[marginal rate of substitution]]
-	1083. [[marginal rate of technical substitution]]
-	1084. [[marginal rate of transformation]]
-	1085. [[marginal revenue]]
-	1086. [[marginal revenue product]]
-	1087. [[marginal social benefit]]
-	1088. [[marginal social cost]]
-	1089. [[marginal tax rate]]
-	1090. [[marginal utility]]
-
-	1091. [[marginal utility of income]]
-	1092. [[marginal utility of money]]
-	1093. [[marginal utility of wealth]]
-	1094. [[margin requirement]]
-	1095. [[margin trading]]
-	1096. [[mark-to-market]]
-	1097. [[mark-up]]
-	1098. [[market]]
-	1099. [[market-maker]]
-	1100. [[marketable security]]
-
-	1101. [[market access]]
-	1102. [[market capitalization]]
-	1103. [[market clearing]]
-	1104. market conduct
+	2033. [[marginal rate of substitution]]
+	2034. [[marginal rate of technical substitution]]
+	2035. [[marginal rate of transformation]]
+	2036. [[marginal revenue]]
+	2037. [[marginal revenue product]]
+	2038. [[marginal social benefit]]
+	2039. [[marginal social cost]]
+	2040. [[marginal tax rate]]
+	2041. [[marginal utility]]
+	2042. [[marginal utility of income]]
+	2043. [[marginal utility of money]]
+	2044. [[marginal utility of wealth]]
+	2045. [[margin requirement]]
+	2046. [[margin trading]]
+	2047. [[mark-to-market]]
+	2048. [[mark-up]]
+	2049. [[market]]
+	2050. [[market-maker]]
+	2051. [[marketable security]]
+	2052. [[market access]]
+	2053. [[market capitalization]]
+	2054. [[market clearing]]
+	2055. market conduct
 		1. See structure-conduct-performance
-	1105. [[market definition]]
-	1106. [[market economy]]
-	1107. market entry
+	2056. [[market definition]]
+	2057. [[market economy]]
+	2058. market entry
 		1. See entry
-	1108. [[market equilibrium]]
-	1109. [[market failure]]
-	1110. [[market forces]]
-
-	1111. market for lemons
+	2059. [[market equilibrium]]
+	2060. [[market failure]]
+	2061. [[market forces]]
+	2062. market for lemons
 		1. See lemon
-	1112. [[marketing]]
-	1113. [[market power]]
-	1114. [[market prices]]
-	1115. [[market risk]]
-	1116. [[market share]]
-	1117. [[market structure]]
-	1118. [[Markov chain]]
-	1119. [[Marshal-Edgeworth price index]]
-	1120. [[Marshall-Lerner condition]]
-
-	1121. [[Marshallian demand]]
-	1122. [[martingale]]
-	1123. [[Marxian economics]]
-	1124. [[massaging statistics]]
-	1125. [[mass production]]
-	1126. [[matching]]
-	1127. [[matching pennies]]
-	1128. material resources
+	2063. [[marketing]]
+	2064. [[market power]]
+	2065. [[market prices]]
+	2066. [[market risk]]
+	2067. [[market share]]
+	2068. [[market structure]]
+	2069. [[Markov chain]]
+	2070. [[Marshal-Edgeworth price index]]
+	2071. [[Marshall-Lerner condition]]
+	2072. [[Marshallian demand]]
+	2073. [[martingale]]
+	2074. [[Marxian economics]]
+	2075. [[massaging statistics]]
+	2076. [[mass production]]
+	2077. [[matching]]
+	2078. [[matching pennies]]
+	2079. material resources
 		1. See resources
-	1129. [[mathematical economics]]
-	1130. [[maturity]]
-
-	1131. [[maximin]]
-	1132. [[maximum likelihood estimator]]
-	1133. [[Meade Review]]
-	1134. [[mean]]
-	1135. [[mean reversion]]
-	1136. [[mean squared error]]
-	1137. [[median]]
-	1138. [[median voter theorem]]
-	1139. [[Medicare]]
-	1140. [[medium-dated security]]
-
-	1141. [[medium of exchange]]
-	1142. [[Mercado Común del Sur]]
-	1143. [[merchandise account]]
-	1144. [[merger]]
-	1145. [[merit goods]]
-	1146. [[method of moments estimator]]
-	1147. [[microeconometrics]]
-	1148. [[microeconomics]]
-	1149. [[military-industrial complex]]
-	1150. [[Millennium Development Goals]]
-
-	1151. [[Millennium Round]]
-	1152. [[minimax]]
-	1153. [[minority shareholder]]
-	1154. [[Mirrlees Review]]
-	1155. [[misaligned exchange rate]]
-	1156. [[mismatch]]
-	1157. [[mixed strategy]]
-	1158. [[mobility of labour]]
-	1159. [[modal choice models]]
-	1160. [[monetary base]]
-
-	1161. monetary control
+	2080. [[mathematical economics]]
+	2081. [[maturity]]
+	2082. [[maximin]]
+	2083. [[maximum likelihood estimator]]
+	2084. [[Meade Review]]
+	2085. [[mean]]
+	2086. [[mean reversion]]
+	2087. [[mean squared error]]
+	2088. [[median]]
+	2089. [[median voter theorem]]
+	2090. [[Medicare]]
+	2091. [[medium-dated security]]
+	2092. [[medium of exchange]]
+	2093. [[Mercado Común del Sur]]
+	2094. [[merchandise account]]
+	2095. [[merger]]
+	2096. [[merit goods]]
+	2097. [[method of moments estimator]]
+	2098. [[microeconometrics]]
+	2099. [[microeconomics]]
+	2100. [[military-industrial complex]]
+	2101. [[Millennium Development Goals]]
+	2102. [[Millennium Round]]
+	2103. [[minimax]]
+	2104. [[minority shareholder]]
+	2105. [[Mirrlees Review]]
+	2106. [[misaligned exchange rate]]
+	2107. [[mismatch]]
+	2108. [[mixed strategy]]
+	2109. [[mobility of labour]]
+	2110. [[modal choice models]]
+	2111. [[monetary base]]
+	2112. monetary control
 		1. See monetary policy
-	1162. [[monetary overhang]]
-	1163. [[monetary rule]]
-	1164. [[monetary system]]
-	1165. [[monetary union]]
-	1166. [[money]]
-	1167. [[money at call and short notice]]
-	1168. [[money illusion]]
-	1169. [[money laundering]]
-	1170. [[money market]]
-
-	1171. [[money multiplier]]
-	1172. [[money supply]]
-	1173. [[money wages]]
-	1174. [[monitoring]]
-	1175. [[Monopolies and Mergers Commission]]
-	1176. [[monopolistic competition]]
-	1177. [[monopoly]]
-	1178. [[monopoly policy]]
-	1179. [[monopoly power]]
-	1180. [[monopoly profit]]
-
-	1181. [[monopsony]]
-	1182. [[monopsony power]]
-	1183. [[Monte Carlo method]]
-	1184. [[Montreal Protocol]]
-	1185. [[Moody's]]
-	1186. [[moral hazard]]
-	1187. [[moratorium]]
-	1188. [[mortgage]]
-	1189. [[mortgage-backed security]]
-	1190. [[mortgage interest relief at source]]
-
-	1191. [[most favoured nation]]
-	1192. [[moving average]]
-	1193. [[moving average process MA(q), of order q]]
-	1194. [[Multi-Fibre Arrangement]]
-	1195. [[multi-plant firm]]
-	1196. [[multi-product firm]]
-	1197. [[multicollinearity]]
-	1198. [[multilateralism]]
-	1199. [[multilateral trade]]
-	1200. [[multinational]]
-
-	1201. [[multiple equilibrium]]
-	1202. [[multiple exchange rates]]
-	1203. [[multiple regression]]
-	1204. [[multiplier]]
-	1205. [[multiplier-accelerator model]]
-	1206. [[multivariate data analysis]]
-	1207. [[mutual fund]]
-	1208. [[N-firm concentration ratio]]
-	1209. [[naked short-selling]]
-	1210. [[name]]
-
-	1211. [[narrow-band ERM]]
-	1212. [[narrow money]]
-	1213. Nash bargaining
+	2113. [[monetary overhang]]
+	2114. [[monetary rule]]
+	2115. [[monetary system]]
+	2116. [[monetary union]]
+	2117. [[money]]
+	2118. [[money at call and short notice]]
+	2119. [[money illusion]]
+	2120. [[money laundering]]
+	2121. [[money market]]
+	2122. [[money multiplier]]
+	2123. [[money supply]]
+	2124. [[money wages]]
+	2125. [[monitoring]]
+	2126. [[Monopolies and Mergers Commission]]
+	2127. [[monopolistic competition]]
+	2128. [[monopoly]]
+	2129. [[monopoly policy]]
+	2130. [[monopoly power]]
+	2131. [[monopoly profit]]
+	2132. [[monopsony]]
+	2133. [[monopsony power]]
+	2134. [[Monte Carlo method]]
+	2135. [[Montreal Protocol]]
+	2136. [[Moody's]]
+	2137. [[moral hazard]]
+	2138. [[moratorium]]
+	2139. [[mortgage]]
+	2140. [[mortgage-backed security]]
+	2141. [[mortgage interest relief at source]]
+	2142. [[most favoured nation]]
+	2143. [[moving average]]
+	2144. [[moving average process MA(q), of order q]]
+	2145. [[Multi-Fibre Arrangement]]
+	2146. [[multi-plant firm]]
+	2147. [[multi-product firm]]
+	2148. [[multicollinearity]]
+	2149. [[multilateralism]]
+	2150. [[multilateral trade]]
+	2151. [[multinational]]
+	2152. [[multiple equilibrium]]
+	2153. [[multiple exchange rates]]
+	2154. [[multiple regression]]
+	2155. [[multiplier]]
+	2156. [[multiplier-accelerator model]]
+	2157. [[multivariate data analysis]]
+	2158. [[mutual fund]]
+	2159. [[N-firm concentration ratio]]
+	2160. [[naked short-selling]]
+	2161. [[name]]
+	2162. [[narrow-band ERM]]
+	2163. [[narrow money]]
+	2164. Nash bargaining
 		1. See bargaining
-	1214. [[Nash equilibrium]]
-	1215. national accounts
+	2165. [[Nash equilibrium]]
+	2166. national accounts
 		1. See national income accounts
-	1216. [[National Association of Securities Dealers Automated Quotation System]]
-	1217. [[National Bureau of Economic Research]]
-	1218. [[national debt]]
-	1219. [[National Economic Council]]
-	1220. [[National Health Service]]
-
-	1221. [[national income]]
-	1222. [[national income accounts]]
-	1223. [[National Institute of Economic and Social Research]]
-	1224. [[National Institution for Transforming India]]
-	1225. [[National Insurance contributions]]
-	1226. [[nationalization]]
-	1227. [[nationalized industry]]
-	1228. [[national product]]
-	1229. [[National Rural Employment Guarantee Act]]
-	1230. [[National Savings]]
-
-	1231. [[National Stock Exchange of India]]
-	1232. [[national treatment]]
-	1233. [[national wealth]]
-	1234. [[natural assets]]
-	1235. [[natural experiment]]
-	1236. [[natural growth rate]]
-	1237. [[natural monopoly]]
-	1238. [[natural pollutant]]
-	1239. [[natural rate of interest]]
-	1240. [[natural rate of unemployment]]
-
-	1241. [[natural resources]]
-	1242. [[natural wastage]]
-	1243. [[near money]]
-	1244. [[necessary and sufficient conditions]]
-	1245. [[necessity]]
-	1246. [[negative equity]]
-	1247. [[negative income tax]]
-	1248. [[negative interest rate]]
-	1249. [[neoclassical economics]]
-	1250. [[neoclassical synthesis]]
-
-	1251. [[nested hypothesis]]
-	1252. [[nested models]]
-	1253. [[net]]
-	1254. [[Net Book Agreement]]
-	1255. net capital formation
+	2167. [[National Association of Securities Dealers Automated Quotation System]]
+	2168. [[National Bureau of Economic Research]]
+	2169. [[national debt]]
+	2170. [[National Economic Council]]
+	2171. [[National Health Service]]
+	2172. [[national income]]
+	2173. [[national income accounts]]
+	2174. [[National Institute of Economic and Social Research]]
+	2175. [[National Institution for Transforming India]]
+	2176. [[National Insurance contributions]]
+	2177. [[nationalization]]
+	2178. [[nationalized industry]]
+	2179. [[national product]]
+	2180. [[National Rural Employment Guarantee Act]]
+	2181. [[National Savings]]
+	2182. [[National Stock Exchange of India]]
+	2183. [[national treatment]]
+	2184. [[national wealth]]
+	2185. [[natural assets]]
+	2186. [[natural experiment]]
+	2187. [[natural growth rate]]
+	2188. [[natural monopoly]]
+	2189. [[natural pollutant]]
+	2190. [[natural rate of interest]]
+	2191. [[natural rate of unemployment]]
+	2192. [[natural resources]]
+	2193. [[natural wastage]]
+	2194. [[near money]]
+	2195. [[necessary and sufficient conditions]]
+	2196. [[necessity]]
+	2197. [[negative equity]]
+	2198. [[negative income tax]]
+	2199. [[negative interest rate]]
+	2200. [[neoclassical economics]]
+	2201. [[neoclassical synthesis]]
+	2202. [[nested hypothesis]]
+	2203. [[nested models]]
+	2204. [[net]]
+	2205. [[Net Book Agreement]]
+	2206. net capital formation
 		1. See net investment
-	1256. [[net domestic product]]
-	1257. [[net economic welfare]]
-	1258. [[net exports]]
-	1259. [[net foreign assets]]
-	1260. [[net investment]]
-
-	1261. [[net national product]]
-	1262. [[net present value]]
-	1263. [[net profit]]
-	1264. [[net property income from abroad]]
-	1265. [[net tangible assets]]
-	1266. [[net transfer income from abroad]]
-	1267. [[net wealth]]
-	1268. [[network]]
-	1269. [[network externality]]
-	1270. [[net worth]]
-
-	1271. [[net yield]]
-	1272. [[neutrality of money]]
-	1273. [[neutral taxes]]
-	1274. [[new classical economics]]
-	1275. [[New Deal]]
-	1276. [[New Development Bank]]
-	1277. [[new economy]]
-	1278. [[New International Economic Order]]
-	1279. [[new issues]]
-	1280. [[New Keynesian economics]]
-
-	1281. [[newly industrialized countries]]
-	1282. [[new orders]]
-	1283. [[new protectionism]]
-	1284. [[New York Stock Exchange]]
-	1285. [[Nikkei index]]
-	1286. [[no-strike agreement]]
-	1287. [[no arbitrage]]
-	1288. [[noise]]
-	1289. [[nominal anchor]]
-	1290. [[nominal protection]]
-
-	1291. [[nominal variable]]
-	1292. [[nominee holding]]
-	1293. [[non-accelerating inflation rate of unemployment]]
-	1294. [[non-contributory pension scheme]]
-	1295. [[non-discrimination]]
-	1296. [[non-executive director]]
-	1297. [[non-governmental organization]]
-	1298. [[non-inflationary growth]]
-	1299. [[non-labour income]]
-	1300. [[non-marketable debt]]
-
-	1301. [[non-marketed economic activities]]
-	1302. [[non-monetary job characteristics]]
-	1303. non-observed economy
+	2207. [[net domestic product]]
+	2208. [[net economic welfare]]
+	2209. [[net exports]]
+	2210. [[net foreign assets]]
+	2211. [[net investment]]
+	2212. [[net national product]]
+	2213. [[net present value]]
+	2214. [[net profit]]
+	2215. [[net property income from abroad]]
+	2216. [[net tangible assets]]
+	2217. [[net transfer income from abroad]]
+	2218. [[net wealth]]
+	2219. [[network]]
+	2220. [[network externality]]
+	2221. [[net worth]]
+	2222. [[net yield]]
+	2223. [[neutrality of money]]
+	2224. [[neutral taxes]]
+	2225. [[new classical economics]]
+	2226. [[New Deal]]
+	2227. [[New Development Bank]]
+	2228. [[new economy]]
+	2229. [[New International Economic Order]]
+	2230. [[new issues]]
+	2231. [[New Keynesian economics]]
+	2232. [[newly industrialized countries]]
+	2233. [[new orders]]
+	2234. [[new protectionism]]
+	2235. [[New York Stock Exchange]]
+	2236. [[Nikkei index]]
+	2237. [[no-strike agreement]]
+	2238. [[no arbitrage]]
+	2239. [[noise]]
+	2240. [[nominal anchor]]
+	2241. [[nominal protection]]
+	2242. [[nominal variable]]
+	2243. [[nominee holding]]
+	2244. [[non-accelerating inflation rate of unemployment]]
+	2245. [[non-contributory pension scheme]]
+	2246. [[non-discrimination]]
+	2247. [[non-executive director]]
+	2248. [[non-governmental organization]]
+	2249. [[non-inflationary growth]]
+	2250. [[non-labour income]]
+	2251. [[non-marketable debt]]
+	2252. [[non-marketed economic activities]]
+	2253. [[non-monetary job characteristics]]
+	2254. non-observed economy
 		1. See hidden economy
-	1304. [[non-parametric regression]]
-	1305. [[non-parametric statistics]]
-	1306. [[non-pecuniary benefits]]
-	1307. [[non-performing debt]]
-	1308. [[non-price competition]]
-	1309. [[non-profit organization]]
-	1310. [[non-satiation]]
-
-	1311. non-systematic risk
+	2255. [[non-parametric regression]]
+	2256. [[non-parametric statistics]]
+	2257. [[non-pecuniary benefits]]
+	2258. [[non-performing debt]]
+	2259. [[non-price competition]]
+	2260. [[non-profit organization]]
+	2261. [[non-satiation]]
+	2262. non-systematic risk
 		1. See idiosyncratic risk
-	1312. [[non-tariff barriers]]
-	1313. [[non-tradables]]
-	1314. [[non-uniqueness of equilibrium]]
-	1315. [[non-voting share]]
-	1316. [[nonlinear least squares estimator]]
-	1317. [[nonlinear regression]]
-	1318. [[nonstationary process]]
-	1319. norm
+	2263. [[non-tariff barriers]]
+	2264. [[non-tradables]]
+	2265. [[non-uniqueness of equilibrium]]
+	2266. [[non-voting share]]
+	2267. [[nonlinear least squares estimator]]
+	2268. [[nonlinear regression]]
+	2269. [[nonstationary process]]
+	2270. norm
 		1. See social custom
-	1320. [[normal distribution]]
-
-	1321. [[normal equations]]
-	1322. [[normal good]]
-	1323. [[normal obsolescence]]
-	1324. [[normal profit]]
-	1325. [[normative economics]]
-	1326. [[North American Free Trade Agreement]]
-	1327. [[North Sea oil]]
-	1328. not-for-profit organization
+	2271. [[normal distribution]]
+	2272. [[normal equations]]
+	2273. [[normal good]]
+	2274. [[normal obsolescence]]
+	2275. [[normal profit]]
+	2276. [[normative economics]]
+	2277. [[North American Free Trade Agreement]]
+	2278. [[North Sea oil]]
+	2279. not-for-profit organization
 		1. See non-profit organization
-	1329. [[nucleolus]]
-	1330. Nudge Unit
+	2280. [[nucleolus]]
+	2281. Nudge Unit
 		1. See behavioral insights team
-
-	1331. [[null hypothesis]]
-	1332. [[numeraire]]
-	1333. [[NYSE Euronext]]
-	1334. [[Obamacare]]
-	1335. [[Objective 1 region]]
-	1336. [[obsolescence]]
-	1337. [[Occam's razor]]
-	1338. [[occupational pension]]
-	1339. [[off-balance-sheet finance]]
-	1340. [[offer curve]]
-
-	1341. [[Office for Budget Responsibility]]
-	1342. [[Office for National Statistics]]
-	1343. [[Office of Communications]]
-	1344. [[Office of Fair Trading]]
-	1345. [[Office of Management and Budget]]
-	1346. [[Office of Telecommunications]]
-	1347. [[Official Development Assistance]]
-	1348. [[official financing]]
-	1349. [[offshore fund]]
-	1350. [[offshoring]]
-
-	1351. [[oil crisis]]
-	1352. [[oil embargo]]
-	1353. [[oil price]]
-	1354. [[Okun's law]]
-	1355. [[oligopoly]]
-	1356. [[oligopsony]]
-	1357. [[ombudsman]]
-	1358. [[omitted variable bias]]
-	1359. [[on-the-job training]]
-	1360. [[one-tailed test]]
-
-	1361. [[opaque policy measures]]
-	1362. [[open-ended fund]]
-	1363. [[open-loop equilibrium]]
-	1364. [[open economy]]
-	1365. [[opening prices]]
-	1366. [[open market operations]]
-	1367. [[open outcry]]
-	1368. [[open position]]
-	1369. [[operational research]]
-	1370. [[opportunism]]
-
-	1371. [[opportunity cost]]
-	1372. [[optimal control]]
-	1373. [[optimal growth theory]]
-	1374. [[optimal level of pollution]]
-	1375. [[optimal taxation]]
-	1376. [[optimism index]]
-	1377. [[optimization]]
-	1378. [[optimum currency area]]
-	1379. [[optimum tariff]]
-	1380. [[option]]
-
-	1381. [[option value]]
-	1382. [[order-driven market]]
-	1383. [[order book]]
-	1384. [[order of integration]]
-	1385. [[ordinal utility]]
-	1386. [[ordinary least squares]]
-	1387. [[ordinary share]]
-	1388. organizational slack
+	2282. [[null hypothesis]]
+	2283. [[numeraire]]
+	2284. [[NYSE Euronext]]
+	2285. [[Obamacare]]
+	2286. [[Objective 1 region]]
+	2287. [[obsolescence]]
+	2288. [[Occam's razor]]
+	2289. [[occupational pension]]
+	2290. [[off-balance-sheet finance]]
+	2291. [[offer curve]]
+	2292. [[Office for Budget Responsibility]]
+	2293. [[Office for National Statistics]]
+	2294. [[Office of Communications]]
+	2295. [[Office of Fair Trading]]
+	2296. [[Office of Management and Budget]]
+	2297. [[Office of Telecommunications]]
+	2298. [[Official Development Assistance]]
+	2299. [[official financing]]
+	2300. [[offshore fund]]
+	2301. [[offshoring]]
+	2302. [[oil crisis]]
+	2303. [[oil embargo]]
+	2304. [[oil price]]
+	2305. [[Okun's law]]
+	2306. [[oligopoly]]
+	2307. [[oligopsony]]
+	2308. [[ombudsman]]
+	2309. [[omitted variable bias]]
+	2310. [[on-the-job training]]
+	2311. [[one-tailed test]]
+	2312. [[opaque policy measures]]
+	2313. [[open-ended fund]]
+	2314. [[open-loop equilibrium]]
+	2315. [[open economy]]
+	2316. [[opening prices]]
+	2317. [[open market operations]]
+	2318. [[open outcry]]
+	2319. [[open position]]
+	2320. [[operational research]]
+	2321. [[opportunism]]
+	2322. [[opportunity cost]]
+	2323. [[optimal control]]
+	2324. [[optimal growth theory]]
+	2325. [[optimal level of pollution]]
+	2326. [[optimal taxation]]
+	2327. [[optimism index]]
+	2328. [[optimization]]
+	2329. [[optimum currency area]]
+	2330. [[optimum tariff]]
+	2331. [[option]]
+	2332. [[option value]]
+	2333. [[order-driven market]]
+	2334. [[order book]]
+	2335. [[order of integration]]
+	2336. [[ordinal utility]]
+	2337. [[ordinary least squares]]
+	2338. [[ordinary share]]
+	2339. organizational slack
 		1. See slack
-	1389. [[Organization for Economic Co-operation and Development]]
-	1390. [[Organization of the Petroleum Exporting Countries]]
-
-	1391. [[organized labour]]
-	1392. [[organized sector]]
-	1393. [[origin principle of taxation]]
-	1394. [[outlier]]
-	1395. [[output]]
-	1396. [[output effect]]
-	1397. [[output gap]]
-	1398. [[output method]]
-	1399. [[output per hour worked]]
-	1400. [[outside money]]
-
-	1401. [[outsourcing]]
-	1402. [[outworker]]
-	1403. [[over-capacity working]]
-	1404. [[over-stimulation]]
-	1405. [[over-subscription]]
-	1406. [[over-the-counter market]]
-	1407. [[over-valued currency]]
-	1408. [[overdraft]]
-	1409. [[overfull employment]]
-	1410. [[overhead costs]]
-
-	1411. [[overheating]]
-	1412. [[overlapping generations economy]]
-	1413. [[overmanning]]
-	1414. overnight money
+	2340. [[Organization for Economic Co-operation and Development]]
+	2341. [[Organization of the Petroleum Exporting Countries]]
+	2342. [[organized labour]]
+	2343. [[organized sector]]
+	2344. [[origin principle of taxation]]
+	2345. [[outlier]]
+	2346. [[output]]
+	2347. [[output effect]]
+	2348. [[output gap]]
+	2349. [[output method]]
+	2350. [[output per hour worked]]
+	2351. [[outside money]]
+	2352. [[outsourcing]]
+	2353. [[outworker]]
+	2354. [[over-capacity working]]
+	2355. [[over-stimulation]]
+	2356. [[over-subscription]]
+	2357. [[over-the-counter market]]
+	2358. [[over-valued currency]]
+	2359. [[overdraft]]
+	2360. [[overfull employment]]
+	2361. [[overhead costs]]
+	2362. [[overheating]]
+	2363. [[overlapping generations economy]]
+	2364. [[overmanning]]
+	2365. overnight money
 		1. See day-to-day money
-	1415. [[overseas bank]]
-	1416. overseas investment
+	2366. [[overseas bank]]
+	2367. overseas investment
 		1. See foreign investment
-	1417. [[overshooting]]
-	1418. [[overtime]]
-	1419. [[overtime ban]]
-	1420. [[overtrading]]
-
-	1421. [[owner-occupied housing]]
-	1422. [[ownership]]
-	1423. [[ozone layer]]
-	1424. [[p-value]]
-	1425. Paasche index
+	2368. [[overshooting]]
+	2369. [[overtime]]
+	2370. [[overtime ban]]
+	2371. [[overtrading]]
+	2372. [[owner-occupied housing]]
+	2373. [[ownership]]
+	2374. [[ozone layer]]
+	2375. [[p-value]]
+	2376. Paasche index
 		1. See current-weighted index
-	1426. [[package of policies]]
-	1427. [[paid-up capital]]
-	1428. [[Panchayati Raj]]
-	1429. [[panel data]]
-	1430. [[paradox of thrift]]
-
-	1431. [[paradox of voting]]
-	1432. [[parameter]]
-	1433. [[Pareto distribution]]
-	1434. [[Pareto efficiency]]
-	1435. [[Pareto efficient]]
-	1436. [[Pareto law]]
-	1437. Paris Club
+	2377. [[package of policies]]
+	2378. [[paid-up capital]]
+	2379. [[Panchayati Raj]]
+	2380. [[panel data]]
+	2381. [[paradox of thrift]]
+	2382. [[paradox of voting]]
+	2383. [[parameter]]
+	2384. [[Pareto distribution]]
+	2385. [[Pareto efficiency]]
+	2386. [[Pareto efficient]]
+	2387. [[Pareto law]]
+	2388. Paris Club
 		1. See group of ten
-	1438. [[part-time work]]
-	1439. [[partial adjustment]]
-	1440. [[partial autocorrelation coefficient]]
-
-	1441. [[partial autocorrelation function]]
-	1442. [[partial correlation]]
-	1443. [[partial equilibrium]]
-	1444. [[participation rate]]
-	1445. [[partnership]]
-	1446. [[par value]]
-	1447. [[patent]]
-	1448. [[paternalism]]
-	1449. [[path dependence]]
-	1450. [[pay-as-you-go pension]]
-
-	1451. [[pay-back period]]
-	1452. [[pay-off matrix]]
-	1453. [[pay as you earn]]
-	1454. [[pay control]]
-	1455. PAYE
+	2389. [[part-time work]]
+	2390. [[partial adjustment]]
+	2391. [[partial autocorrelation coefficient]]
+	2392. [[partial autocorrelation function]]
+	2393. [[partial correlation]]
+	2394. [[partial equilibrium]]
+	2395. [[participation rate]]
+	2396. [[partnership]]
+	2397. [[par value]]
+	2398. [[patent]]
+	2399. [[paternalism]]
+	2400. [[path dependence]]
+	2401. [[pay-as-you-go pension]]
+	2402. [[pay-back period]]
+	2403. [[pay-off matrix]]
+	2404. [[pay as you earn]]
+	2405. [[pay control]]
+	2406. PAYE
 		1. See pay as you earn
-	1456. [[pay freeze]]
-	1457. [[payments in kind]]
-	1458. [[payments union]]
-	1459. [[payroll]]
-	1460. [[payroll tax]]
-
-	1461. [[peace dividend]]
-	1462. [[peak]]
-	1463. [[peak-load pricing]]
-	1464. [[pecuniary externality]]
-	1465. [[pendulum arbitration]]
-	1466. [[pension]]
-	1467. [[pensionable age]]
-	1468. [[pension crisis]]
-	1469. [[pension fund]]
-	1470. [[pension insurance contract]]
-
-	1471. [[pension rights]]
-	1472. pension scheme
+	2407. [[pay freeze]]
+	2408. [[payments in kind]]
+	2409. [[payments union]]
+	2410. [[payroll]]
+	2411. [[payroll tax]]
+	2412. [[peace dividend]]
+	2413. [[peak]]
+	2414. [[peak-load pricing]]
+	2415. [[pecuniary externality]]
+	2416. [[pendulum arbitration]]
+	2417. [[pension]]
+	2418. [[pensionable age]]
+	2419. [[pension crisis]]
+	2420. [[pension fund]]
+	2421. [[pension insurance contract]]
+	2422. [[pension rights]]
+	2423. pension scheme
 		1. See contributory pension scheme; non-contributory pension scheme; under-funded pension scheme; unfunded pension scheme.
-	1473. [[People's Bank of China]]
-	1474. [[per capita income]]
-	1475. [[per capita real GDP]]
-	1476. [[100 per cent gold backing]]
-	1477. percentile
+	2424. [[People's Bank of China]]
+	2425. [[per capita income]]
+	2426. [[per capita real GDP]]
+	2427. [[100 per cent gold backing]]
+	2428. percentile
 		1. See quantile
-	1478. [[perestroika]]
-	1479. [[perfect capital mobility]]
-	1480. [[perfect competition]]
-
-	1481. [[perfect foresight]]
-	1482. [[perfect market]]
-	1483. [[perfect substitute]]
-	1484. [[performance-related pay]]
-	1485. [[peril point]]
-	1486. [[period of gestation]]
-	1487. [[periphery]]
-	1488. [[permanent income]]
-	1489. [[permanent income hypothesis]]
-	1490. [[Permanent Interest Bearing Shares]]
-
-	1491. [[permit to pollute]]
-	1492. [[perpetual bond]]
-	1493. [[perpetual inventory method]]
-	1494. [[perpetuity]]
-	1495. [[perquisites]]
-	1496. [[persistence]]
-	1497. [[personal disposable income]]
-	1498. [[personal equity plan]]
-	1499. [[personal income distribution]]
-	1500. [[Personal Investment Authority]]
-
-	1501. [[personal loan]]
-	1502. [[personal preferences]]
-	1503. [[personal sector]]
-	1504. [[peso crisis]]
-	1505. [[peso problem]]
-	1506. [[petro-currency]]
-	1507. [[petro-dollars]]
-	1508. [[phased retirement]]
-	1509. [[Phillips curve]]
-	1510. [[physical capital]]
-
-	1511. [[phytosanitary measures]]
-	1512. [[picketing]]
-	1513. [[picking winners]]
-	1514. [[piecework]]
-	1515. [[Pigou effect]]
-	1516. [[Pigouvian tax]]
-	1517. [[Pink Book]]
-	1518. [[piracy]]
-	1519. [[placing]]
-	1520. [[planned economy]]
-
-	1521. [[planned investment]]
-	1522. [[planned savings]]
-	1523. [[planning]]
-	1524. [[planning permission]]
-	1525. [[player]]
-	1526. [[Plaza Accord]]
-	1527. PLC
+	2429. [[perestroika]]
+	2430. [[perfect capital mobility]]
+	2431. [[perfect competition]]
+	2432. [[perfect foresight]]
+	2433. [[perfect market]]
+	2434. [[perfect substitute]]
+	2435. [[performance-related pay]]
+	2436. [[peril point]]
+	2437. [[period of gestation]]
+	2438. [[periphery]]
+	2439. [[permanent income]]
+	2440. [[permanent income hypothesis]]
+	2441. [[Permanent Interest Bearing Shares]]
+	2442. [[permit to pollute]]
+	2443. [[perpetual bond]]
+	2444. [[perpetual inventory method]]
+	2445. [[perpetuity]]
+	2446. [[perquisites]]
+	2447. [[persistence]]
+	2448. [[personal disposable income]]
+	2449. [[personal equity plan]]
+	2450. [[personal income distribution]]
+	2451. [[Personal Investment Authority]]
+	2452. [[personal loan]]
+	2453. [[personal preferences]]
+	2454. [[personal sector]]
+	2455. [[peso crisis]]
+	2456. [[peso problem]]
+	2457. [[petro-currency]]
+	2458. [[petro-dollars]]
+	2459. [[phased retirement]]
+	2460. [[Phillips curve]]
+	2461. [[physical capital]]
+	2462. [[phytosanitary measures]]
+	2463. [[picketing]]
+	2464. [[picking winners]]
+	2465. [[piecework]]
+	2466. [[Pigou effect]]
+	2467. [[Pigouvian tax]]
+	2468. [[Pink Book]]
+	2469. [[piracy]]
+	2470. [[placing]]
+	2471. [[planned economy]]
+	2472. [[planned investment]]
+	2473. [[planned savings]]
+	2474. [[planning]]
+	2475. [[planning permission]]
+	2476. [[player]]
+	2477. [[Plaza Accord]]
+	2478. PLC
 		1. See public limited company
-	1528. [[plough-back]]
-	1529. [[point elasticity]]
-	1530. [[points]]
-
-	1531. [[polarization]]
-	1532. [[policy coordination]]
-	1533. [[policy instrument]]
-	1534. [[political business cycle]]
-	1535. [[political economy]]
-	1536. [[poll tax]]
-	1537. [[polluter pays principle]]
-	1538. [[pollution]]
-	1539. [[pollution control]]
-	1540. [[pollution rights]]
-
-	1541. [[pollution standards]]
-	1542. [[Ponzi scheme]]
-	1543. [[pooled least squares]]
-	1544. [[pooling equilibrium]]
-	1545. population census
+	2479. [[plough-back]]
+	2480. [[point elasticity]]
+	2481. [[points]]
+	2482. [[polarization]]
+	2483. [[policy coordination]]
+	2484. [[policy instrument]]
+	2485. [[political business cycle]]
+	2486. [[political economy]]
+	2487. [[poll tax]]
+	2488. [[polluter pays principle]]
+	2489. [[pollution]]
+	2490. [[pollution control]]
+	2491. [[pollution rights]]
+	2492. [[pollution standards]]
+	2493. [[Ponzi scheme]]
+	2494. [[pooled least squares]]
+	2495. [[pooling equilibrium]]
+	2496. population census
 		1. See census
-	1546. [[population trap]]
-	1547. [[portable pension]]
-	1548. [[portfolio]]
-	1549. [[portfolio selection]]
-	1550. [[portfolio theory]]
-
-	1551. position
+	2497. [[population trap]]
+	2498. [[portable pension]]
+	2499. [[portfolio]]
+	2500. [[portfolio selection]]
+	2501. [[portfolio theory]]
+	2502. position
 		1. See long position; open position; short position
-	1552. [[positional good]]
-	1553. [[positive economics]]
-	1554. [[posterior]]
-	1555. Post Office Savings
+	2503. [[positional good]]
+	2504. [[positive economics]]
+	2505. [[posterior]]
+	2506. Post Office Savings
 		1. See national savings
-	1556. [[potential competition]]
-	1557. [[potential output]]
-	1558. [[pound]]
-	1559. [[poverty]]
-	1560. [[poverty line]]
-
-	1561. [[Poverty Reduction and Growth Facility]]
-	1562. [[poverty trap]]
-	1563. [[power]]
-	1564. [[power of a test]]
-	1565. PPP
+	2507. [[potential competition]]
+	2508. [[potential output]]
+	2509. [[pound]]
+	2510. [[poverty]]
+	2511. [[poverty line]]
+	2512. [[Poverty Reduction and Growth Facility]]
+	2513. [[poverty trap]]
+	2514. [[power]]
+	2515. [[power of a test]]
+	2516. PPP
 		1. See purchasing power parity; Public Private Partnership.
-	1566. pre-commitment
+	2517. pre-commitment
 		1. See commitment
-	1567. [[pre-tax profits]]
-	1568. [[Prebisch thesis]]
-	1569. [[precautionary motive]]
-	1570. [[predatory pricing]]
-
-	1571. [[predetermined variable]]
-	1572. [[predictor]]
-	1573. preference(s)
+	2518. [[pre-tax profits]]
+	2519. [[Prebisch thesis]]
+	2520. [[precautionary motive]]
+	2521. [[predatory pricing]]
+	2522. [[predetermined variable]]
+	2523. [[predictor]]
+	2524. preference(s)
 		1. See AXIOMS OF PREFERENCE; LIQUIDITY PREFERENCE; PERSONAL PREFERENCES; REVEALED PREFERENCE; SINGLE-PEAKED PREFERENCES; TIME PREFERENCE.
-	1574. [[preference revelation]]
-	1575. [[preference share]]
-	1576. [[premium]]
-	1577. [[premium bond]]
-	1578. [[prescriptive statement]]
-	1579. [[present discounted value]]
-	1580. [[pressure group]]
-
-	1581. [[price]]
-	1582. [[price-earnings ratio]]
-	1583. price-maker
+	2525. [[preference revelation]]
+	2526. [[preference share]]
+	2527. [[premium]]
+	2528. [[premium bond]]
+	2529. [[prescriptive statement]]
+	2530. [[present discounted value]]
+	2531. [[pressure group]]
+	2532. [[price]]
+	2533. [[price-earnings ratio]]
+	2534. price-maker
 		1. See price-setter
-	1584. [[price-sensitive information]]
-	1585. [[price-setter]]
-	1586. [[price-taker]]
-	1587. price-wage spiral
+	2535. [[price-sensitive information]]
+	2536. [[price-setter]]
+	2537. [[price-taker]]
+	2538. price-wage spiral
 		1. See wage-price spiral
-	1588. [[price control]]
-	1589. [[price discrimination]]
-	1590. [[price effect]]
-
-	1591. [[price elasticity]]
-	1592. [[price fixing]]
-	1593. [[price floor]]
-	1594. [[price index]]
-	1595. [[price leader]]
-	1596. [[price level]]
-	1597. [[price mechanism]]
-	1598. [[price reform]]
-	1599. [[prices and incomes policy]]
-	1600. [[price squeeze]]
-
-	1601. [[price stability]]
-	1602. [[price stickiness]]
-	1603. [[price support]]
-	1604. [[price volatility]]
-	1605. [[price war]]
-	1606. pricing
+	2539. [[price control]]
+	2540. [[price discrimination]]
+	2541. [[price effect]]
+	2542. [[price elasticity]]
+	2543. [[price fixing]]
+	2544. [[price floor]]
+	2545. [[price index]]
+	2546. [[price leader]]
+	2547. [[price level]]
+	2548. [[price mechanism]]
+	2549. [[price reform]]
+	2550. [[prices and incomes policy]]
+	2551. [[price squeeze]]
+	2552. [[price stability]]
+	2553. [[price stickiness]]
+	2554. [[price support]]
+	2555. [[price volatility]]
+	2556. [[price war]]
+	2557. pricing
 		1. See AVERAGE COST PRICING; COST-PLUS PRICING; FULL COST PRICING; LIMIT PRICING; MARGINAL COST PRICING; PEAK-LOAD PRICING; TRANSFER PRICING.
-	1607. primary commodity
+	2558. primary commodity
 		1. See commodity
-	1608. [[primary market]]
-	1609. [[primary sector]]
-	1610. [[prime rate]]
-
-	1611. [[principal]]
-	1612. [[principal-agent problem]]
-	1613. [[principal components analysis]]
-	1614. [[prior]]
-	1615. [[prisoners' dilemma]]
-	1616. [[private benefit]]
-	1617. [[private company]]
-	1618. [[private cost]]
-	1619. [[private enterprise]]
-	1620. Private Finance Initiative
+	2559. [[primary market]]
+	2560. [[primary sector]]
+	2561. [[prime rate]]
+	2562. [[principal]]
+	2563. [[principal-agent problem]]
+	2564. [[principal components analysis]]
+	2565. [[prior]]
+	2566. [[prisoners' dilemma]]
+	2567. [[private benefit]]
+	2568. [[private company]]
+	2569. [[private cost]]
+	2570. [[private enterprise]]
+	2571. Private Finance Initiative
 		1. See public private partnership
-
-	1621. [[private good]]
-	1622. [[private internal rate of return]]
-	1623. [[private network]]
-	1624. [[private property]]
-	1625. [[private sector]]
-	1626. [[private sector balance]]
-	1627. [[privatization]]
-	1628. [[probability]]
-	1629. [[probability distribution]]
-	1630. [[probit model]]
-
-	1631. [[process innovation]]
-	1632. [[procurement]]
-	1633. [[producer good]]
-	1634. [[producer surplus]]
-	1635. [[product]]
-	1636. [[product differentiation]]
-	1637. [[product innovation]]
-	1638. [[production]]
-	1639. [[production externality]]
-	1640. [[production function]]
-
-	1641. [[production possibility frontier]]
-	1642. [[production possibility set]]
-	1643. [[production set]]
-	1644. [[production subsidy]]
-	1645. productive efficiency
+	2572. [[private good]]
+	2573. [[private internal rate of return]]
+	2574. [[private network]]
+	2575. [[private property]]
+	2576. [[private sector]]
+	2577. [[private sector balance]]
+	2578. [[privatization]]
+	2579. [[probability]]
+	2580. [[probability distribution]]
+	2581. [[probit model]]
+	2582. [[process innovation]]
+	2583. [[procurement]]
+	2584. [[producer good]]
+	2585. [[producer surplus]]
+	2586. [[product]]
+	2587. [[product differentiation]]
+	2588. [[product innovation]]
+	2589. [[production]]
+	2590. [[production externality]]
+	2591. [[production function]]
+	2592. [[production possibility frontier]]
+	2593. [[production possibility set]]
+	2594. [[production set]]
+	2595. [[production subsidy]]
+	2596. productive efficiency
 		1. See efficiency
-	1646. [[productivity]]
-	1647. [[product liability]]
-	1648. [[product life cycle]]
-	1649. [[product proliferation]]
-	1650. [[professional body]]
-
-	1651. [[profit]]
-	1652. [[profit-and-loss account]]
-	1653. [[profit-related pay]]
-	1654. [[profit-sharing]]
-	1655. [[profit-sharing arrangement]]
-	1656. [[profit-taking]]
-	1657. [[profit maximization]]
-	1658. [[profit motive]]
-	1659. [[profit warning]]
-	1660. [[progressive tax]]
-
-	1661. [[prohibitive tariff]]
-	1662. [[propensity score matching]]
-	1663. [[propensity to consume]]
-	1664. [[propensity to save]]
-	1665. [[property]]
-	1666. [[property company]]
-	1667. [[property developer]]
-	1668. [[property income]]
-	1669. [[property income from abroad]]
-	1670. [[property lending]]
-
-	1671. [[property market]]
-	1672. [[property portfolio]]
-	1673. [[property rights]]
-	1674. [[proportional tax]]
-	1675. [[prospect theory]]
-	1676. [[prospectus]]
-	1677. [[protection]]
-	1678. [[protectionism]]
-	1679. [[proxy variable]]
-	1680. [[proxy vote]]
-
-	1681. [[Prudential Regulation Authority]]
-	1682. [[public choice]]
-	1683. public company
+	2597. [[productivity]]
+	2598. [[product liability]]
+	2599. [[product life cycle]]
+	2600. [[product proliferation]]
+	2601. [[professional body]]
+	2602. [[profit]]
+	2603. [[profit-and-loss account]]
+	2604. [[profit-related pay]]
+	2605. [[profit-sharing]]
+	2606. [[profit-sharing arrangement]]
+	2607. [[profit-taking]]
+	2608. [[profit maximization]]
+	2609. [[profit motive]]
+	2610. [[profit warning]]
+	2611. [[progressive tax]]
+	2612. [[prohibitive tariff]]
+	2613. [[propensity score matching]]
+	2614. [[propensity to consume]]
+	2615. [[propensity to save]]
+	2616. [[property]]
+	2617. [[property company]]
+	2618. [[property developer]]
+	2619. [[property income]]
+	2620. [[property income from abroad]]
+	2621. [[property lending]]
+	2622. [[property market]]
+	2623. [[property portfolio]]
+	2624. [[property rights]]
+	2625. [[proportional tax]]
+	2626. [[prospect theory]]
+	2627. [[prospectus]]
+	2628. [[protection]]
+	2629. [[protectionism]]
+	2630. [[proxy variable]]
+	2631. [[proxy vote]]
+	2632. [[Prudential Regulation Authority]]
+	2633. [[public choice]]
+	2634. public company
 		1. See public limited company
-	1684. [[public corporation]]
-	1685. [[public debt]]
-	1686. [[public economics]]
-	1687. public expenditure
+	2635. [[public corporation]]
+	2636. [[public debt]]
+	2637. [[public economics]]
+	2638. public expenditure
 		1. See government expenditure
-	1688. [[Public Expenditure Survey Committee]]
-	1689. [[public finance]]
-	1690. [[public good]]
-
-	1691. [[public interest]]
-	1692. [[public limited company]]
-	1693. [[public network]]
-	1694. [[public ownership]]
-	1695. [[Public Private Partnership]]
-	1696. [[public procurement]]
-	1697. [[public sector]]
-	1698. [[Public Sector Borrowing Requirement]]
-	1699. public sector debt
+	2639. [[Public Expenditure Survey Committee]]
+	2640. [[public finance]]
+	2641. [[public good]]
+	2642. [[public interest]]
+	2643. [[public limited company]]
+	2644. [[public network]]
+	2645. [[public ownership]]
+	2646. [[Public Private Partnership]]
+	2647. [[public procurement]]
+	2648. [[public sector]]
+	2649. [[Public Sector Borrowing Requirement]]
+	2650. public sector debt
 		1. See government debt
-	1700. [[Public Sector Debt Repayment]]
-
-	1701. [[Public Sector Net Cash Requirement]]
-	1702. public spending
+	2651. [[Public Sector Debt Repayment]]
+	2652. [[Public Sector Net Cash Requirement]]
+	2653. public spending
 		1. See government expenditure
-	1703. public utility
+	2654. public utility
 		1. See utility
-	1704. [[public works]]
-	1705. [[pump priming]]
-	1706. [[punishment strategy]]
-	1707. [[purchase tax]]
-	1708. [[purchasing power]]
-	1709. [[purchasing power parity]]
-	1710. [[pure floating exchange rate]]
-
-	1711. put bond
+	2655. [[public works]]
+	2656. [[pump priming]]
+	2657. [[punishment strategy]]
+	2658. [[purchase tax]]
+	2659. [[purchasing power]]
+	2660. [[purchasing power parity]]
+	2661. [[pure floating exchange rate]]
+	2662. put bond
 		1. See retractable bond
-	1712. [[put option]]
-	1713. [[pyramid scheme]]
-	1714. [[qualification of accounts]]
-	1715. qualitative choice models
+	2663. [[put option]]
+	2664. [[pyramid scheme]]
+	2665. [[qualification of accounts]]
+	2666. qualitative choice models
 		1. See discrete choice models
-	1716. [[qualitative data]]
-	1717. [[quality-adjusted life years]]
-	1718. [[quality control]]
-	1719. [[quality ladder]]
-	1720. [[quality standards]]
-
-	1721. quango
+	2667. [[qualitative data]]
+	2668. [[quality-adjusted life years]]
+	2669. [[quality control]]
+	2670. [[quality ladder]]
+	2671. [[quality standards]]
+	2672. quango
 		1. See QUASI-AUTONOMOUS NON-GOVERNMENT ORGANIZATION.
-	1722. [[quantile]]
-	1723. [[quantile regression]]
-	1724. [[quantitative easing]]
-	1725. [[quantity demanded]]
-	1726. [[quantity discount]]
-	1727. [[quantity equation]]
-	1728. [[quantity of money]]
-	1729. [[quantity supplied]]
-	1730. [[quantity theory of money]]
-
-	1731. [[quarterly data]]
-	1732. quartile
+	2673. [[quantile]]
+	2674. [[quantile regression]]
+	2675. [[quantitative easing]]
+	2676. [[quantity demanded]]
+	2677. [[quantity discount]]
+	2678. [[quantity equation]]
+	2679. [[quantity of money]]
+	2680. [[quantity supplied]]
+	2681. [[quantity theory of money]]
+	2682. [[quarterly data]]
+	2683. quartile
 		1. See quantile
-	1733. [[quasi-autonomous non-governmental organization]]
-	1734. [[quasi-fixed factors]]
-	1735. [[quasi-rent]]
-	1736. [[queue]]
-	1737. [[quits]]
-	1738. [[quota]]
-	1739. 
-	1740. 
-
-	1741. [[quota sample]]
-	1742. [[quotation]]
-	1743. [[quote-driven market]]
-	1744. [[quoted company]]
-	1745. R&D
+	2684. [[quasi-autonomous non-governmental organization]]
+	2685. [[quasi-fixed factors]]
+	2686. [[quasi-rent]]
+	2687. [[queue]]
+	2688. [[quits]]
+	2689. [[quota]]
+	2690. [[quota sample]]
+	2691. [[quotation]]
+	2692. [[quote-driven market]]
+	2693. [[quoted company]]
+	2694. R&D
 		1. See research and development
-	1746. R-squared
+	2695. R-squared
 		1. See coefficient of determination
-	1747. racial discrimination
+	2696. racial discrimination
 		1. See discrimination
-	1748. [[rainforest]]
-	1749. [[Ramsey pricing]]
-	1750. [[Ramsey regression equation specification error test]]
-
-	1751. [[Ramsey rule]]
-	1752. [[random effects]]
-	1753. [[random error]]
-	1754. [[random event]]
-	1755. [[randomized response]]
-	1756. random process
+	2697. [[rainforest]]
+	2698. [[Ramsey pricing]]
+	2699. [[Ramsey regression equation specification error test]]
+	2700. [[Ramsey rule]]
+	2701. [[random effects]]
+	2702. [[random error]]
+	2703. [[random event]]
+	2704. [[randomized response]]
+	2705. random process
 		1. See stochastic process
-	1757. [[random sample]]
-	1758. [[random variable]]
-	1759. [[random walk]]
-	1760. [[range]]
-
-	1761. rank correlation
+	2706. [[random sample]]
+	2707. [[random variable]]
+	2708. [[random walk]]
+	2709. [[range]]
+	2710. rank correlation
 		1. See spearman rank correlation coefficient
-	1762. [[rank dependent expected utility theory]]
-	1763. [[ratchet effect]]
-	1764. [[rateable value]]
-	1765. rate of exchange
+	2711. [[rank dependent expected utility theory]]
+	2712. [[ratchet effect]]
+	2713. [[rateable value]]
+	2714. rate of exchange
 		1. See exchange rate
-	1766. rate of growth
+	2715. rate of growth
 		1. See growth rate
-	1767. [[rate of interest]]
-	1768. [[rate of return]]
-	1769. [[rate of return regulation]]
-	1770. [[rates]]
-
-	1771. [[rate support grant]]
-	1772. [[rational expectations]]
-	1773. [[rational ignorance]]
-	1774. [[rationality]]
-	1775. [[rationalization]]
-	1776. [[rationing]]
-	1777. [[Rawlsian social welfare function]]
-	1778. [[raw materials]]
-	1779. [[reaction curve]]
-	1780. [[Reaganomics]]
-
-	1781. [[real balance effect]]
-	1782. [[real balances]]
-	1783. [[real business cycle]]
-	1784. [[real costs]]
-	1785. [[real effective exchange rate]]
-	1786. [[real exchange rate]]
-	1787. [[real GDP]]
-	1788. [[real GNP]]
-	1789. [[realignment of exchange rates]]
-	1790. [[real income]]
-
-	1791. [[real interest rate]]
-	1792. real money supply
+	2716. [[rate of interest]]
+	2717. [[rate of return]]
+	2718. [[rate of return regulation]]
+	2719. [[rates]]
+	2720. [[rate support grant]]
+	2721. [[rational expectations]]
+	2722. [[rational ignorance]]
+	2723. [[rationality]]
+	2724. [[rationalization]]
+	2725. [[rationing]]
+	2726. [[Rawlsian social welfare function]]
+	2727. [[raw materials]]
+	2728. [[reaction curve]]
+	2729. [[Reaganomics]]
+	2730. [[real balance effect]]
+	2731. [[real balances]]
+	2732. [[real business cycle]]
+	2733. [[real costs]]
+	2734. [[real effective exchange rate]]
+	2735. [[real exchange rate]]
+	2736. [[real GDP]]
+	2737. [[real GNP]]
+	2738. [[realignment of exchange rates]]
+	2739. [[real income]]
+	2740. [[real interest rate]]
+	2741. real money supply
 		1. See real balances
-	1793. [[real national income]]
-	1794. [[real option theory]]
-	1795. [[real terms]]
-	1796. [[real variable]]
-	1797. [[real wage resistance]]
-	1798. [[real wages]]
-	1799. [[rebate]]
-	1800. [[recapitalization]]
-
-	1801. [[receivership]]
-	1802. [[recession]]
-	1803. [[reciprocity]]
-	1804. [[recommended retail price]]
-	1805. [[recourse loan]]
-	1806. [[recovery]]
-	1807. [[recursive model]]
-	1808. [[recycling]]
-	1809. [[Red Book]]
-	1810. [[redeemable security]]
-
-	1811. [[redemption date]]
-	1812. [[redemption value]]
-	1813. [[redemption yield]]
-	1814. [[redeployment]]
-	1815. [[Red Hat enterprise]]
-	1816. [[rediscount]]
-	1817. [[redistributive tax]]
-	1818. [[redlining]]
-	1819. [[reduced form]]
-	1820. [[reducing balance depreciation]]
-
-	1821. [[redundancy]]
-	1822. reference point
+	2742. [[real national income]]
+	2743. [[real option theory]]
+	2744. [[real terms]]
+	2745. [[real variable]]
+	2746. [[real wage resistance]]
+	2747. [[real wages]]
+	2748. [[rebate]]
+	2749. [[recapitalization]]
+	2750. [[receivership]]
+	2751. [[recession]]
+	2752. [[reciprocity]]
+	2753. [[recommended retail price]]
+	2754. [[recourse loan]]
+	2755. [[recovery]]
+	2756. [[recursive model]]
+	2757. [[recycling]]
+	2758. [[Red Book]]
+	2759. [[redeemable security]]
+	2760. [[redemption date]]
+	2761. [[redemption value]]
+	2762. [[redemption yield]]
+	2763. [[redeployment]]
+	2764. [[Red Hat enterprise]]
+	2765. [[rediscount]]
+	2766. [[redistributive tax]]
+	2767. [[redlining]]
+	2768. [[reduced form]]
+	2769. [[reducing balance depreciation]]
+	2770. [[redundancy]]
+	2771. reference point
 		1. See prospect theory
-	1823. [[reflation]]
-	1824. reform
+	2772. [[reflation]]
+	2773. reform
 		1. See currency reform; price reform
-	1825. [[refusal to supply]]
-	1826. [[regional aid]]
-	1827. [[regional policy]]
-	1828. [[regional trade agreements]]
-	1829. [[registered unemployed]]
-	1830. [[Registrar of Companies]]
-
-	1831. [[regression]]
-	1832. [[regression discontinuity design]]
-	1833. [[regression kink design]]
-	1834. [[regressive tax]]
-	1835. [[regret theory]]
-	1836. [[regulation]]
-	1837. [[regulatory agency]]
-	1838. [[regulatory capital]]
-	1839. [[regulatory capture]]
-	1840. [[reinsurance]]
-
-	1841. rejection region
+	2774. [[refusal to supply]]
+	2775. [[regional aid]]
+	2776. [[regional policy]]
+	2777. [[regional trade agreements]]
+	2778. [[registered unemployed]]
+	2779. [[Registrar of Companies]]
+	2780. [[regression]]
+	2781. [[regression discontinuity design]]
+	2782. [[regression kink design]]
+	2783. [[regressive tax]]
+	2784. [[regret theory]]
+	2785. [[regulation]]
+	2786. [[regulatory agency]]
+	2787. [[regulatory capital]]
+	2788. [[regulatory capture]]
+	2789. [[reinsurance]]
+	2790. rejection region
 		1. See acceptance region; rejection rule.
-	1842. [[rejection rule]]
-	1843. [[relationship banking]]
-	1844. [[relationship investor]]
-	1845. [[relative income hypothesis]]
-	1846. [[relative price]]
-	1847. [[relative standard deviation]]
-	1848. [[relative standard error]]
-	1849. relief
+	2791. [[rejection rule]]
+	2792. [[relationship banking]]
+	2793. [[relationship investor]]
+	2794. [[relative income hypothesis]]
+	2795. [[relative price]]
+	2796. [[relative standard deviation]]
+	2797. [[relative standard error]]
+	2798. relief
 		1. See DEBT RELIEF; MORTGAGE INTEREST RELIEF AT SOURCE.
-	1850. [[reneging]]
-
-	1851. [[renewable energy]]
-	1852. [[renewable resources]]
-	1853. [[rent]]
-	1854. [[rent-seeking]]
-	1855. [[rental payment]]
-	1856. [[rent control]]
-	1857. [[rented housing]]
-	1858. [[rentier]]
-	1859. [[repeated game]]
-	1860. [[replacement cost]]
-
-	1861. [[replacement investment]]
-	1862. [[replacement ratio]]
-	1863. [[representative firm]]
-	1864. [[repressed inflation]]
-	1865. [[repudiation of debt]]
-	1866. [[reputational policy]]
-	1867. [[required rate of return]]
-	1868. [[resale price maintenance]]
-	1869. [[reschedule debt]]
-	1870. [[research and development]]
-
-	1871. [[reservation policy]]
-	1872. [[reservation price]]
-	1873. [[reservation utility]]
-	1874. [[reservation wage]]
-	1875. [[reserve asset ratio]]
-	1876. [[Reserve Bank of India]]
-	1877. [[reserve currency]]
-	1878. [[reserve ratio]]
-	1879. [[reserve requirements]]
-	1880. reserves
+	2799. [[reneging]]
+	2800. [[renewable energy]]
+	2801. [[renewable resources]]
+	2802. [[rent]]
+	2803. [[rent-seeking]]
+	2804. [[rental payment]]
+	2805. [[rent control]]
+	2806. [[rented housing]]
+	2807. [[rentier]]
+	2808. [[repeated game]]
+	2809. [[replacement cost]]
+	2810. [[replacement investment]]
+	2811. [[replacement ratio]]
+	2812. [[representative firm]]
+	2813. [[repressed inflation]]
+	2814. [[repudiation of debt]]
+	2815. [[reputational policy]]
+	2816. [[required rate of return]]
+	2817. [[resale price maintenance]]
+	2818. [[reschedule debt]]
+	2819. [[research and development]]
+	2820. [[reservation policy]]
+	2821. [[reservation price]]
+	2822. [[reservation utility]]
+	2823. [[reservation wage]]
+	2824. [[reserve asset ratio]]
+	2825. [[Reserve Bank of India]]
+	2826. [[reserve currency]]
+	2827. [[reserve ratio]]
+	2828. [[reserve requirements]]
+	2829. reserves
 		1. See CAPITAL RESERVES; FOREIGN EXCHANGE RESERVES; LOAN-LOSS RESERVES.
-
-	1881. [[reserve tranche]]
-	1882. RESET
+	2830. [[reserve tranche]]
+	2831. RESET
 		1. See RAMSEY REGRESSION EQUATION SPECIFICATION ERROR TEST.
-	1883. [[residual]]
-	1884. [[residual unemployment]]
-	1885. [[residual variation]]
-	1886. [[resilience]]
-	1887. [[Resolution Trust Corporation]]
-	1888. resource curse
+	2832. [[residual]]
+	2833. [[residual unemployment]]
+	2834. [[residual variation]]
+	2835. [[resilience]]
+	2836. [[Resolution Trust Corporation]]
+	2837. resource curse
 		1. See Dutch disease.
-	1889. [[resources]]
-	1890. [[restraint of trade]]
-
-	1891. [[restricted least squares estimator]]
-	1892. [[restrictive practices]]
-	1893. [[Restrictive Practices Court]]
-	1894. [[retail banking]]
-	1895. [[retail price index]]
-	1896. [[retail sales]]
-	1897. [[retained earnings]]
-	1898. [[retaliation]]
-	1899. [[retractable bond]]
-	1900. return
+	2838. [[resources]]
+	2839. [[restraint of trade]]
+	2840. [[restricted least squares estimator]]
+	2841. [[restrictive practices]]
+	2842. [[Restrictive Practices Court]]
+	2843. [[retail banking]]
+	2844. [[retail price index]]
+	2845. [[retail sales]]
+	2846. [[retained earnings]]
+	2847. [[retaliation]]
+	2848. [[retractable bond]]
+	2849. return
 		1. See rate of return; tax return; VAT return.
-
-	1901. returns
+	2850. returns
 		1. See CONSTANT RETURNS TO SCALE; DECREASING RETURNS TO SCALE; INCREASING RETURNS TO SCALE; RETURNS TO SCALE.
-	1902. [[returns to scale]]
-	1903. [[revaluation]]
-	1904. [[revealed preference]]
-	1905. [[revealed preference pricing]]
-	1906. [[revenue]]
-	1907. [[revenue tariff]]
-	1908. [[reverse takeover]]
-	1909. [[reverse yield gap]]
-	1910. [[revolving loan]]
-
-	1911. [[Reykjavik-on-Liffey]]
-	1912. [[Ricardian equivalence]]
-	1913. [[ridge regression]]
-	1914. [[right-hand-side variable]]
-	1915. [[rights issue]]
-	1916. [[risk]]
-	1917. [[risk-adjusted return on capital]]
-	1918. [[risk-averse]]
-	1919. [[risk-free asset]]
-	1920. [[risk-free interest rate]]
-
-	1921. [[risk-loving]]
-	1922. [[risk-neutral]]
-	1923. [[risk-neutral valuation]]
-	1924. [[risk aversion]]
-	1925. [[risk avoidance]]
-	1926. [[risk bearing]]
-	1927. [[risk capital]]
-	1928. [[risk management]]
-	1929. [[risk pooling]]
-	1930. [[risk premium]]
-
-	1931. [[risk reduction]]
-	1932. [[risk retention]]
-	1933. [[risk sharing]]
-	1934. [[risk taking]]
-	1935. [[risk weighted assets]]
-	1936. [[robustness of policies]]
-	1937. [[roll-over of loans]]
-	1938. [[root mean squared error]]
-	1939. [[rounding error]]
-	1940. [[Royal Economic Society]]
-
-	1941. [[royalties]]
-	1942. [[RPIX]]
-	1943. [[rules-based policy]]
-	1944. [[rules of origin]]
-	1945. [[rules of the game]]
-	1946. [[running yield]]
-	1947. [[rust belt]]
-	1948. [[Rybczynski theorem]]
-	1949. [[sacking]]
-	1950. [[sacrifice ratio]]
-
-	1951. [[saddle point]]
-	1952. safety at work
+	2851. [[returns to scale]]
+	2852. [[revaluation]]
+	2853. [[revealed preference]]
+	2854. [[revealed preference pricing]]
+	2855. [[revenue]]
+	2856. [[revenue tariff]]
+	2857. [[reverse takeover]]
+	2858. [[reverse yield gap]]
+	2859. [[revolving loan]]
+	2860. [[Reykjavik-on-Liffey]]
+	2861. [[Ricardian equivalence]]
+	2862. [[ridge regression]]
+	2863. [[right-hand-side variable]]
+	2864. [[rights issue]]
+	2865. [[risk]]
+	2866. [[risk-adjusted return on capital]]
+	2867. [[risk-averse]]
+	2868. [[risk-free asset]]
+	2869. [[risk-free interest rate]]
+	2870. [[risk-loving]]
+	2871. [[risk-neutral]]
+	2872. [[risk-neutral valuation]]
+	2873. [[risk aversion]]
+	2874. [[risk avoidance]]
+	2875. [[risk bearing]]
+	2876. [[risk capital]]
+	2877. [[risk management]]
+	2878. [[risk pooling]]
+	2879. [[risk premium]]
+	2880. [[risk reduction]]
+	2881. [[risk retention]]
+	2882. [[risk sharing]]
+	2883. [[risk taking]]
+	2884. [[risk weighted assets]]
+	2885. [[robustness of policies]]
+	2886. [[roll-over of loans]]
+	2887. [[root mean squared error]]
+	2888. [[rounding error]]
+	2889. [[Royal Economic Society]]
+	2890. [[royalties]]
+	2891. [[RPIX]]
+	2892. [[rules-based policy]]
+	2893. [[rules of origin]]
+	2894. [[rules of the game]]
+	2895. [[running yield]]
+	2896. [[rust belt]]
+	2897. [[Rybczynski theorem]]
+	2898. [[sacking]]
+	2899. [[sacrifice ratio]]
+	2900. [[saddle point]]
+	2901. safety at work
 		1. See Health and Safety at Work Act.
-	1953. [[salary]]
-	1954. [[sales tax]]
-	1955. [[sample]]
-	1956. [[sample selectivity bias]]
-	1957. sampling distribution
+	2902. [[salary]]
+	2903. [[sales tax]]
+	2904. [[sample]]
+	2905. [[sample selectivity bias]]
+	2906. sampling distribution
 		1. See FINITE SAMPLE DISTRIBUTION.
-	1958. [[Samuelson rule]]
-	1959. SARP
+	2907. [[Samuelson rule]]
+	2908. SARP
 		1. Strong Axiom of Revealed Preference. See WARP.
-	1960. [[satisficing]]
-
-	1961. [[saving]]
-	1962. [[saving ratio]]
-	1963. [[savings and loan association]]
-	1964. [[savings function]]
-	1965. [[Say's law]]
-	1966. [[scarce currency clause]]
-	1967. [[scarcity]]
-	1968. [[scatter diagram]]
-	1969. [[scenario]]
-	1970. [[scenario analysis]]
-
-	1971. [[Schedule A tax]]
-	1972. [[score function]]
-	1973. [[screening]]
-	1974. scrip issue
+	2909. [[satisficing]]
+	2910. [[saving]]
+	2911. [[saving ratio]]
+	2912. [[savings and loan association]]
+	2913. [[savings function]]
+	2914. [[Say's law]]
+	2915. [[scarce currency clause]]
+	2916. [[scarcity]]
+	2917. [[scatter diagram]]
+	2918. [[scenario]]
+	2919. [[scenario analysis]]
+	2920. [[Schedule A tax]]
+	2921. [[score function]]
+	2922. [[screening]]
+	2923. scrip issue
 		1. See bonus issue
-	1975. [[search]]
-	1976. [[search unemployment]]
-	1977. [[seasonal adjustment]]
-	1978. [[seasonal component]]
-	1979. [[seasonal unemployment]]
-	1980. [[second-best]]
-
-	1981. [[second-degree price discrimination]]
-	1982. [[second-order approximation]]
-	1983. [[second-price auction]]
-	1984. [[secondary market]]
-	1985. [[sector]]
-	1986. [[secured loan]]
-	1987. [[Securities and Exchange Commission]]
-	1988. [[Securities and Investment Board]]
-	1989. securities market
+	2924. [[search]]
+	2925. [[search unemployment]]
+	2926. [[seasonal adjustment]]
+	2927. [[seasonal component]]
+	2928. [[seasonal unemployment]]
+	2929. [[second-best]]
+	2930. [[second-degree price discrimination]]
+	2931. [[second-order approximation]]
+	2932. [[second-price auction]]
+	2933. [[secondary market]]
+	2934. [[sector]]
+	2935. [[secured loan]]
+	2936. [[Securities and Exchange Commission]]
+	2937. [[Securities and Investment Board]]
+	2938. securities market
 		1. See stock exchange
-	1990. [[securitization]]
-
-	1991. [[security]]
-	1992. [[security of tenure]]
-	1993. [[segmented market]]
-	1994. [[seigniorage]]
-	1995. [[self-assessment]]
-	1996. [[self-correcting system]]
-	1997. [[self-employment]]
-	1998. [[self-financing]]
-	1999. [[self-fulfilling expectations]]
-	2000. [[self-regulation]]
-
-	2001. [[seller's market]]
-	2002. [[seller concentration]]
-	2003. [[selling costs]]
-	2004. [[sensitive sectors]]
-	2005. [[sensitivity analysis]]
-	2006. [[separable utility function]]
-	2007. [[separating equilibrium]]
-	2008. separation of ownership and control
+	2939. [[securitization]]
+	2940. [[security]]
+	2941. [[security of tenure]]
+	2942. [[segmented market]]
+	2943. [[seigniorage]]
+	2944. [[self-assessment]]
+	2945. [[self-correcting system]]
+	2946. [[self-employment]]
+	2947. [[self-financing]]
+	2948. [[self-fulfilling expectations]]
+	2949. [[self-regulation]]
+	2950. [[seller's market]]
+	2951. [[seller concentration]]
+	2952. [[selling costs]]
+	2953. [[sensitive sectors]]
+	2954. [[sensitivity analysis]]
+	2955. [[separable utility function]]
+	2956. [[separating equilibrium]]
+	2957. separation of ownership and control
 		1. See control (of a company)
-	2009. [[sequestration]]
-	2010. serial correlation
+	2958. [[sequestration]]
+	2959. serial correlation
 		1. Same as autocorrelation
-
-	2011. [[service contract]]
-	2012. [[service flows]]
-	2013. [[service industry]]
-	2014. [[service life]]
-	2015. [[services]]
-	2016. [[set-aside]]
-	2017. [[settlement]]
-	2018. [[settlement risk]]
-	2019. [[shadow bank]]
-	2020. shadow economy
+	2960. [[service contract]]
+	2961. [[service flows]]
+	2962. [[service industry]]
+	2963. [[service life]]
+	2964. [[services]]
+	2965. [[set-aside]]
+	2966. [[settlement]]
+	2967. [[settlement risk]]
+	2968. [[shadow bank]]
+	2969. shadow economy
 		1. See hidden economy
-
-	2021. [[shadow prices]]
-	2022. [[shake-out]]
-	2023. [[Shanghai Stock Exchange]]
-	2024. [[Shapley value]]
-	2025. [[share]]
-	2026. [[share buybacks]]
-	2027. [[share capital]]
-	2028. [[sharecropper]]
-	2029. [[shareholder]]
-	2030. [[share option]]
-
-	2031. [[share price]]
-	2032. [[share price index]]
-	2033. [[share register]]
-	2034. [[shark repellent]]
-	2035. [[shell company]]
-	2036. [[sheltered monopoly]]
-	2037. [[Shenzhen Stock Exchange]]
-	2038. [[Sherman Act]]
-	2039. [[shift work]]
-	2040. [[shock]]
-
-	2041. [[shoe-leather costs of inflation]]
-	2042. [[Shogun bond]]
-	2043. [[shop steward]]
-	2044. [[short-dated security]]
-	2045. [[short-run capital movements]]
-	2046. short-run cost curve
+	2970. [[shadow prices]]
+	2971. [[shake-out]]
+	2972. [[Shanghai Stock Exchange]]
+	2973. [[Shapley value]]
+	2974. [[share]]
+	2975. [[share buybacks]]
+	2976. [[share capital]]
+	2977. [[sharecropper]]
+	2978. [[shareholder]]
+	2979. [[share option]]
+	2980. [[share price]]
+	2981. [[share price index]]
+	2982. [[share register]]
+	2983. [[shark repellent]]
+	2984. [[shell company]]
+	2985. [[sheltered monopoly]]
+	2986. [[Shenzhen Stock Exchange]]
+	2987. [[Sherman Act]]
+	2988. [[shift work]]
+	2989. [[shock]]
+	2990. [[shoe-leather costs of inflation]]
+	2991. [[Shogun bond]]
+	2992. [[shop steward]]
+	2993. [[short-dated security]]
+	2994. [[short-run capital movements]]
+	2995. short-run cost curve
 		1. See cost curve
-	2047. short-run marginal cost
+	2996. short-run marginal cost
 		1. See marginal cost
-	2048. short-run Phillips curve
+	2997. short-run Phillips curve
 		1. See phillips curve
-	2049. [[short-termism]]
-	2050. [[short-time working]]
-
-	2051. [[shortage]]
-	2052. [[short position]]
-	2053. [[short run]]
-	2054. [[short selling]]
-	2055. [[shut-down price]]
-	2056. [[shuttle trade]]
-	2057. [[sickness benefit]]
-	2058. [[side-effects]]
-	2059. [[side-payment]]
-	2060. [[signalling]]
-
-	2061. [[significance level]]
-	2062. [[significance test]]
-	2063. [[Silicon Valley]]
-	2064. [[simple interest]]
-	2065. [[simulation]]
-	2066. [[simultaneous equations model]]
-	2067. [[single-peaked preferences]]
-	2068. [[single currency]]
-	2069. [[Single European Act]]
-	2070. [[single market]]
-
-	2071. [[size distribution of firms]]
-	2072. [[skewness]]
-	2073. [[skilled work]]
-	2074. [[skills]]
-	2075. [[slack]]
-	2076. slump
+	2998. [[short-termism]]
+	2999. [[short-time working]]
+	3000. [[shortage]]
+	3001. [[short position]]
+	3002. [[short run]]
+	3003. [[short selling]]
+	3004. [[shut-down price]]
+	3005. [[shuttle trade]]
+	3006. [[sickness benefit]]
+	3007. [[side-effects]]
+	3008. [[side-payment]]
+	3009. [[signalling]]
+	3010. [[significance level]]
+	3011. [[significance test]]
+	3012. [[Silicon Valley]]
+	3013. [[simple interest]]
+	3014. [[simulation]]
+	3015. [[simultaneous equations model]]
+	3016. [[single-peaked preferences]]
+	3017. [[single currency]]
+	3018. [[Single European Act]]
+	3019. [[single market]]
+	3020. [[size distribution of firms]]
+	3021. [[skewness]]
+	3022. [[skilled work]]
+	3023. [[skills]]
+	3024. [[slack]]
+	3025. slump
 		1. See depression
-	2077. [[Slutsky equation]]
-	2078. [[small and medium enterprises]]
-	2079. [[Smithsonian Agreement]]
-	2080. [[Smithsonian parities]]
-
-	2081. [[smog]]
-	2082. [[Smoot-Hawley Tariff Act]]
-	2083. [[snake in the tunnel]]
-	2084. [[social benefit]]
-	2085. [[social capital]]
-	2086. [[Social Chapter]]
-	2087. [[social charges]]
-	2088. [[social choice]]
-	2089. [[social cost]]
-	2090. [[social custom]]
-
-	2091. [[social indicators]]
-	2092. [[social interaction]]
-	2093. [[social internal rate of return]]
-	2094. [[socialism]]
-	2095. [[social market economy]]
-	2096. [[social opportunity cost]]
-	2097. [[social optimum]]
-	2098. [[social overhead capital]]
-	2099. [[social planner]]
-	2100. [[social purpose company]]
-
-	2101. [[social returns to education]]
-	2102. [[social safety net]]
-	2103. [[Social Security Act]]
-	2104. [[social security benefits]]
-	2105. [[social security contributions]]
-	2106. [[social services]]
-	2107. [[social time preference]]
-	2108. [[social welfare]]
-	2109. [[social welfare function]]
-	2110. [[socio-economic class]]
-
-	2111. [[soft budget constraint]]
-	2112. [[soft currency]]
-	2113. [[soft landing]]
-	2114. [[soft loan]]
-	2115. [[sole proprietor]]
-	2116. sole trader
+	3026. [[Slutsky equation]]
+	3027. [[small and medium enterprises]]
+	3028. [[Smithsonian Agreement]]
+	3029. [[Smithsonian parities]]
+	3030. [[smog]]
+	3031. [[Smoot-Hawley Tariff Act]]
+	3032. [[snake in the tunnel]]
+	3033. [[social benefit]]
+	3034. [[social capital]]
+	3035. [[Social Chapter]]
+	3036. [[social charges]]
+	3037. [[social choice]]
+	3038. [[social cost]]
+	3039. [[social custom]]
+	3040. [[social indicators]]
+	3041. [[social interaction]]
+	3042. [[social internal rate of return]]
+	3043. [[socialism]]
+	3044. [[social market economy]]
+	3045. [[social opportunity cost]]
+	3046. [[social optimum]]
+	3047. [[social overhead capital]]
+	3048. [[social planner]]
+	3049. [[social purpose company]]
+	3050. [[social returns to education]]
+	3051. [[social safety net]]
+	3052. [[Social Security Act]]
+	3053. [[social security benefits]]
+	3054. [[social security contributions]]
+	3055. [[social services]]
+	3056. [[social time preference]]
+	3057. [[social welfare]]
+	3058. [[social welfare function]]
+	3059. [[socio-economic class]]
+	3060. [[soft budget constraint]]
+	3061. [[soft currency]]
+	3062. [[soft landing]]
+	3063. [[soft loan]]
+	3064. [[sole proprietor]]
+	3065. sole trader
 		1. See SOLE PROPRIETOR.
-	2117. [[Solow growth model]]
-	2118. [[Solow residual]]
-	2119. [[solvency]]
-	2120. [[Sonia]]
-
-	2121. [[sound money]]
-	2122. [[sources of capital]]
-	2123. [[sovereign debt]]
-	2124. [[spare capacity]]
-	2125. [[spatial autocorrelation]]
-	2126. [[spatial data]]
-	2127. [[spatial model]]
-	2128. [[spatial price discrimination]]
-	2129. [[Spearman rank correlation coefficient]]
-	2130. Special Anti-Avoidance Rule
+	3066. [[Solow growth model]]
+	3067. [[Solow residual]]
+	3068. [[solvency]]
+	3069. [[Sonia]]
+	3070. [[sound money]]
+	3071. [[sources of capital]]
+	3072. [[sovereign debt]]
+	3073. [[spare capacity]]
+	3074. [[spatial autocorrelation]]
+	3075. [[spatial data]]
+	3076. [[spatial model]]
+	3077. [[spatial price discrimination]]
+	3078. [[Spearman rank correlation coefficient]]
+	3079. Special Anti-Avoidance Rule
 		1. (SAAR) See General Anti-Avoidance Rule (GAAR).
-
-	2131. [[special deposits]]
-	2132. [[special drawing rights]]
-	2133. [[specialization]]
-	2134. [[Special Liquidity Scheme]]
-	2135. [[specification error]]
-	2136. [[specific tax]]
-	2137. [[speculation]]
-	2138. speculative bubble
+	3080. [[special deposits]]
+	3081. [[special drawing rights]]
+	3082. [[specialization]]
+	3083. [[Special Liquidity Scheme]]
+	3084. [[specification error]]
+	3085. [[specific tax]]
+	3086. [[speculation]]
+	3087. speculative bubble
 		1. See bubble
-	2139. [[speculative motive]]
-	2140. [[speculator]]
-
-	2141. [[spillover]]
-	2142. [[spot market]]
-	2143. [[spot price]]
-	2144. [[spread]]
-	2145. [[spurious correlation]]
-	2146. [[stability conditions]]
-	2147. [[stabilization policy]]
-	2148. [[Stackelberg duopoly]]
-	2149. [[stag]]
-	2150. [[stages of economic growth]]
-
-	2151. [[stagflation]]
-	2152. [[stagnation]]
-	2153. [[stakeholder]]
-	2154. [[stamp duty]]
-	2155. [[Standard and Poor's]]
-	2156. [[standard deviation]]
-	2157. [[standard error]]
-	2158. [[Standard Industrial Classification]]
-	2159. [[Standard International Trade Classification]]
-	2160. [[standardized commodity]]
-
-	2161. [[standard of living]]
-	2162. [[standard rate]]
-	2163. [[standby arrangement]]
-	2164. [[staple product]]
-	2165. [[state-owned company]]
-	2166. [[State Earnings-Related Pension Scheme]]
-	2167. [[state enterprise]]
-	2168. [[states of the world]]
-	2169. [[static equilibrium]]
-	2170. stationary process
+	3088. [[speculative motive]]
+	3089. [[speculator]]
+	3090. [[spillover]]
+	3091. [[spot market]]
+	3092. [[spot price]]
+	3093. [[spread]]
+	3094. [[spurious correlation]]
+	3095. [[stability conditions]]
+	3096. [[stabilization policy]]
+	3097. [[Stackelberg duopoly]]
+	3098. [[stag]]
+	3099. [[stages of economic growth]]
+	3100. [[stagflation]]
+	3101. [[stagnation]]
+	3102. [[stakeholder]]
+	3103. [[stamp duty]]
+	3104. [[Standard and Poor's]]
+	3105. [[standard deviation]]
+	3106. [[standard error]]
+	3107. [[Standard Industrial Classification]]
+	3108. [[Standard International Trade Classification]]
+	3109. [[standardized commodity]]
+	3110. [[standard of living]]
+	3111. [[standard rate]]
+	3112. [[standby arrangement]]
+	3113. [[staple product]]
+	3114. [[state-owned company]]
+	3115. [[State Earnings-Related Pension Scheme]]
+	3116. [[state enterprise]]
+	3117. [[states of the world]]
+	3118. [[static equilibrium]]
+	3119. stationary process
 		1. See COVARIANCE STATIONARY PROCESS; STRONGLY STATIONARY PROCESS.
-
-	2171. [[statistic]]
-	2172. statistical adjustment
+	3120. [[statistic]]
+	3121. statistical adjustment
 		1. See balancing items
-	2173. [[statistics]]
-	2174. [[statutory monopoly]]
-	2175. [[steady state]]
-	2176. [[sterilization]]
-	2177. [[sterling]]
-	2178. [[sterling area]]
-	2179. [[sterling M3]]
-	2180. [[sticky prices]]
-
-	2181. [[sticky wages]]
-	2182. [[stochastic process]]
-	2183. [[stochastic volatility]]
-	2184. [[stock]]
-	2185. [[stock appreciation]]
-	2186. [[stockbroker]]
-	2187. [[stock dividend]]
-	2188. [[stock exchange]]
-	2189. [[Stock Exchange Automated Quotation System]]
-	2190. [[stock exchange listing]]
-
-	2191. stock market
+	3122. [[statistics]]
+	3123. [[statutory monopoly]]
+	3124. [[steady state]]
+	3125. [[sterilization]]
+	3126. [[sterling]]
+	3127. [[sterling area]]
+	3128. [[sterling M3]]
+	3129. [[sticky prices]]
+	3130. [[sticky wages]]
+	3131. [[stochastic process]]
+	3132. [[stochastic volatility]]
+	3133. [[stock]]
+	3134. [[stock appreciation]]
+	3135. [[stockbroker]]
+	3136. [[stock dividend]]
+	3137. [[stock exchange]]
+	3138. [[Stock Exchange Automated Quotation System]]
+	3139. [[stock exchange listing]]
+	3140. stock market
 		1. See stock exchange
-	2192. [[stock market crash]]
-	2193. stock option
+	3141. [[stock market crash]]
+	3142. stock option
 		1. See share option
-	2194. [[stockpile]]
-	2195. stock split
+	3143. [[stockpile]]
+	3144. stock split
 		1. See bonus issue
-	2196. [[Stolper-Samuelson theorem]]
-	2197. [[stop-go cycle]]
-	2198. [[store of value]]
-	2199. [[St Petersburg paradox]]
-	2200. [[straight-line depreciation]]
-
-	2201. [[strategic behavior]]
-	2202. [[strategic entry deterrence]]
-	2203. [[strategic interaction]]
-	2204. [[strategic trade policy]]
-	2205. [[strategic trade retaliation]]
-	2206. [[strategic voting]]
-	2207. [[strategy]]
-	2208. [[stratified sample]]
-	2209. [[strengthening of a currency]]
-	2210. [[strike]]
-
-	2211. [[strike ballot]]
-	2212. strike price
+	3145. [[Stolper-Samuelson theorem]]
+	3146. [[stop-go cycle]]
+	3147. [[store of value]]
+	3148. [[St Petersburg paradox]]
+	3149. [[straight-line depreciation]]
+	3150. [[strategic behavior]]
+	3151. [[strategic entry deterrence]]
+	3152. [[strategic interaction]]
+	3153. [[strategic trade policy]]
+	3154. [[strategic trade retaliation]]
+	3155. [[strategic voting]]
+	3156. [[strategy]]
+	3157. [[stratified sample]]
+	3158. [[strengthening of a currency]]
+	3159. [[strike]]
+	3160. [[strike ballot]]
+	3161. strike price
 		1. See exercise price
-	2213. [[stripped bond]]
-	2214. [[strongly stationary process]]
-	2215. [[structural break]]
-	2216. [[structural equation]]
-	2217. [[Structural Funds]]
-	2218. [[structural transformation]]
-	2219. [[structural unemployment]]
-	2220. [[structure-conduct-performance]]
-
-	2221. [[structured investment vehicle]]
-	2222. [[Student's t-distribution]]
-	2223. [[stylized facts]]
-	2224. [[sub-prime mortgage]]
-	2225. [[subcontracting]]
-	2226. [[subgame]]
-	2227. [[subgame perfect equilibrium]]
-	2228. [[subsidiarity]]
-	2229. [[subsidiary]]
-	2230. [[subsidized credit]]
-
-	2231. [[subsidy]]
-	2232. [[subsistence level]]
-	2233. [[subsistence wages]]
-	2234. [[substitute]]
-	2235. [[substitution]]
-	2236. [[substitution effect]]
-	2237. [[sucre]]
-	2238. [[sunk costs]]
-	2239. [[sunspot theory]]
-	2240. [[superannuation]]
-
-	2241. [[supernormal profit]]
-	2242. [[Supplementary Benefit]]
-	2243. [[supply]]
-	2244. [[supply-side economics]]
-	2245. [[supply-side policy]]
-	2246. [[supply curve]]
-	2247. surplus
+	3162. [[stripped bond]]
+	3163. [[strongly stationary process]]
+	3164. [[structural break]]
+	3165. [[structural equation]]
+	3166. [[Structural Funds]]
+	3167. [[structural transformation]]
+	3168. [[structural unemployment]]
+	3169. [[structure-conduct-performance]]
+	3170. [[structured investment vehicle]]
+	3171. [[Student's t-distribution]]
+	3172. [[stylized facts]]
+	3173. [[sub-prime mortgage]]
+	3174. [[subcontracting]]
+	3175. [[subgame]]
+	3176. [[subgame perfect equilibrium]]
+	3177. [[subsidiarity]]
+	3178. [[subsidiary]]
+	3179. [[subsidized credit]]
+	3180. [[subsidy]]
+	3181. [[subsistence level]]
+	3182. [[subsistence wages]]
+	3183. [[substitute]]
+	3184. [[substitution]]
+	3185. [[substitution effect]]
+	3186. [[sucre]]
+	3187. [[sunk costs]]
+	3188. [[sunspot theory]]
+	3189. [[superannuation]]
+	3190. [[supernormal profit]]
+	3191. [[Supplementary Benefit]]
+	3192. [[supply]]
+	3193. [[supply-side economics]]
+	3194. [[supply-side policy]]
+	3195. [[supply curve]]
+	3196. surplus
 		1. See BUDGET SURPLUS; CONSUMER SURPLUS; CURRENT ACCOUNT SURPLUS; EXPORT SURPLUS; PRODUCER SURPLUS.
-	2248. [[surplus value]]
-	2249. [[surtax]]
-	2250. [[survey data]]
-
-	2251. [[Survey of Current Business]]
-	2252. [[sustainability]]
-	2253. [[sustainable development indicators]]
-	2254. [[Sustainable Development Strategy]]
-	2255. [[sustained yield]]
-	2256. [[swap]]
-	2257. [[sweated labour]]
-	2258. [[symmetrical distribution]]
-	2259. [[syndicate]]
-	2260. [[syndicated loan]]
-
-	2261. [[synergy]]
-	2262. [[systematic risk]]
-	2263. [[systemic risk]]
-	2264. [[systemic threat]]
-	2265. t-distribution
+	3197. [[surplus value]]
+	3198. [[surtax]]
+	3199. [[survey data]]
+	3200. [[Survey of Current Business]]
+	3201. [[sustainability]]
+	3202. [[sustainable development indicators]]
+	3203. [[Sustainable Development Strategy]]
+	3204. [[sustained yield]]
+	3205. [[swap]]
+	3206. [[sweated labour]]
+	3207. [[symmetrical distribution]]
+	3208. [[syndicate]]
+	3209. [[syndicated loan]]
+	3210. [[synergy]]
+	3211. [[systematic risk]]
+	3212. [[systemic risk]]
+	3213. [[systemic threat]]
+	3214. t-distribution
 		1. See student's t-distribution
-	2266. [[t-test]]
-	2267. [[tacit collusion]]
-	2268. [[Taft-Hartley Act]]
-	2269. [[take-off]]
-	2270. [[take-up rate]]
-
-	2271. [[takeover]]
-	2272. [[takeover bid]]
-	2273. [[talk down]]
-	2274. [[tangency optimum]]
-	2275. [[tangible assets]]
-	2276. [[tap issue]]
-	2277. [[target]]
-	2278. [[targeting]]
-	2279. [[target zone]]
-	2280. [[tariff]]
-
-	2281. [[tastes]]
-	2282. [[tax]]
-	2283. [[tax-based incomes policy]]
-	2284. [[taxable income]]
-	2285. [[tax allowance]]
-	2286. [[tax assessment]]
-	2287. [[tax avoidance]]
-	2288. [[tax base]]
-	2289. [[tax burden]]
-	2290. [[tax credit]]
-
-	2291. [[tax evasion]]
-	2292. [[Tax Exempt Special Savings Account]]
-	2293. [[tax expenditure]]
-	2294. [[tax gap]]
-	2295. [[tax haven]]
-	2296. [[tax holiday]]
-	2297. [[tax planning]]
-	2298. [[Tax Reform Act]]
-	2299. [[tax refund]]
-	2300. [[tax relief]]
-
-	2301. [[tax return]]
-	2302. [[tax schedule]]
-	2303. [[tax shelter]]
-	2304. [[tax shifting]]
-	2305. [[tax threshold]]
-	2306. [[tax wedge]]
-	2307. [[Taylor contract]]
-	2308. [[Taylor rule]]
-	2309. [[technical analysis]]
-	2310. [[technical barriers to trade]]
-
-	2311. [[technical efficiency]]
-	2312. [[technical progress]]
-	2313. [[technical standard]]
-	2314. technical substitution
+	3215. [[t-test]]
+	3216. [[tacit collusion]]
+	3217. [[Taft-Hartley Act]]
+	3218. [[take-off]]
+	3219. [[take-up rate]]
+	3220. [[takeover]]
+	3221. [[takeover bid]]
+	3222. [[talk down]]
+	3223. [[tangency optimum]]
+	3224. [[tangible assets]]
+	3225. [[tap issue]]
+	3226. [[target]]
+	3227. [[targeting]]
+	3228. [[target zone]]
+	3229. [[tariff]]
+	3230. [[tastes]]
+	3231. [[tax]]
+	3232. [[tax-based incomes policy]]
+	3233. [[taxable income]]
+	3234. [[tax allowance]]
+	3235. [[tax assessment]]
+	3236. [[tax avoidance]]
+	3237. [[tax base]]
+	3238. [[tax burden]]
+	3239. [[tax credit]]
+	3240. [[tax evasion]]
+	3241. [[Tax Exempt Special Savings Account]]
+	3242. [[tax expenditure]]
+	3243. [[tax gap]]
+	3244. [[tax haven]]
+	3245. [[tax holiday]]
+	3246. [[tax planning]]
+	3247. [[Tax Reform Act]]
+	3248. [[tax refund]]
+	3249. [[tax relief]]
+	3250. [[tax return]]
+	3251. [[tax schedule]]
+	3252. [[tax shelter]]
+	3253. [[tax shifting]]
+	3254. [[tax threshold]]
+	3255. [[tax wedge]]
+	3256. [[Taylor contract]]
+	3257. [[Taylor rule]]
+	3258. [[technical analysis]]
+	3259. [[technical barriers to trade]]
+	3260. [[technical efficiency]]
+	3261. [[technical progress]]
+	3262. [[technical standard]]
+	3263. technical substitution
 		1. See ELASTICITY OF TECHNICAL SUBSTITUTION; MARGINAL RATE OF TECHNICAL SUBSTITUTION.
-	2315. [[technological unemployment]]
-	2316. [[technology]]
-	2317. [[technology gap]]
-	2318. [[technology transfer]]
-	2319. [[Temporary Assistance to Needy Families]]
-	2320. [[temporary equilibrium]]
-
-	2321. [[tender]]
-	2322. [[tender issue]]
-	2323. [[Tennessee Valley Authority]]
-	2324. [[Term Asset-Backed Loan Facility]]
-	2325. [[term loan]]
-	2326. [[term premium]]
-	2327. [[terms of trade]]
-	2328. [[term structure of interest rates]]
-	2329. [[test discount rate]]
-	2330. [[Thatcherism]]
-
-	2331. [[thin market]]
-	2332. [[third-degree price discrimination]]
-	2333. [[third-party insurance]]
-	2334. [[Third Way]]
-	2335. [[third world]]
-	2336. [[thrift]]
-	2337. [[thrifts]]
-	2338. [[tick]]
-	2339. [[Tiebout hypothesis]]
-	2340. [[tied aid]]
-
-	2341. [[tied loans]]
-	2342. tier 1 capital
+	3264. [[technological unemployment]]
+	3265. [[technology]]
+	3266. [[technology gap]]
+	3267. [[technology transfer]]
+	3268. [[Temporary Assistance to Needy Families]]
+	3269. [[temporary equilibrium]]
+	3270. [[tender]]
+	3271. [[tender issue]]
+	3272. [[Tennessee Valley Authority]]
+	3273. [[Term Asset-Backed Loan Facility]]
+	3274. [[term loan]]
+	3275. [[term premium]]
+	3276. [[terms of trade]]
+	3277. [[term structure of interest rates]]
+	3278. [[test discount rate]]
+	3279. [[Thatcherism]]
+	3280. [[thin market]]
+	3281. [[third-degree price discrimination]]
+	3282. [[third-party insurance]]
+	3283. [[Third Way]]
+	3284. [[third world]]
+	3285. [[thrift]]
+	3286. [[thrifts]]
+	3287. [[tick]]
+	3288. [[Tiebout hypothesis]]
+	3289. [[tied aid]]
+	3290. [[tied loans]]
+	3291. tier 1 capital
 		1. See capital ratio
-	2343. tier 2 capital
+	3292. tier 2 capital
 		1. See capital ratio
-	2344. [[tight fiscal policy]]
-	2345. [[tight monetary policy]]
-	2346. [[time-inconsistency]]
-	2347. [[time-series data]]
-	2348. [[time deposit]]
-	2349. [[time discounting]]
-	2350. [[time horizon]]
-
-	2351. [[time lags]]
-	2352. [[time preference]]
-	2353. [[times covered]]
-	2354. [[tit for tat]]
-	2355. [[Tobin's q]]
-	2356. [[Tobin tax]]
-	2357. [[Tobit model]]
-	2358. [[Todaro model]]
-	2359. [[token money]]
-	2360. [[Tokyo Round]]
-
-	2361. [[tolerance interval]]
-	2362. total cost
+	3293. [[tight fiscal policy]]
+	3294. [[tight monetary policy]]
+	3295. [[time-inconsistency]]
+	3296. [[time-series data]]
+	3297. [[time deposit]]
+	3298. [[time discounting]]
+	3299. [[time horizon]]
+	3300. [[time lags]]
+	3301. [[time preference]]
+	3302. [[times covered]]
+	3303. [[tit for tat]]
+	3304. [[Tobin's q]]
+	3305. [[Tobin tax]]
+	3306. [[Tobit model]]
+	3307. [[Todaro model]]
+	3308. [[token money]]
+	3309. [[Tokyo Round]]
+	3310. [[tolerance interval]]
+	3311. total cost
 		1. See cost(s)
-	2363. [[total domestic expenditure]]
-	2364. [[total factor productivity]]
-	2365. [[total final expenditure]]
-	2366. total revenue
+	3312. [[total domestic expenditure]]
+	3313. [[total factor productivity]]
+	3314. [[total final expenditure]]
+	3315. total revenue
 		1. See revenue
-	2367. [[Township and Village Enterprise]]
-	2368. [[toxic asset]]
-	2369. [[toxic debt]]
-	2370. [[tradable emission permit]]
-
-	2371. [[tradables]]
-	2372. [[trade]]
-	2373. [[trade-off]]
-	2374. [[Trade-Related Intellectual Property Rights]]
-	2375. [[Trade-Related Investment Measures]]
-	2376. [[trade-weighted index number]]
-	2377. [[trade association]]
-	2378. [[trade barriers]]
-	2379. trade bill
+	3316. [[Township and Village Enterprise]]
+	3317. [[toxic asset]]
+	3318. [[toxic debt]]
+	3319. [[tradable emission permit]]
+	3320. [[tradables]]
+	3321. [[trade]]
+	3322. [[trade-off]]
+	3323. [[Trade-Related Intellectual Property Rights]]
+	3324. [[Trade-Related Investment Measures]]
+	3325. [[trade-weighted index number]]
+	3326. [[trade association]]
+	3327. [[trade barriers]]
+	3328. trade bill
 		1. See bill of exchange
-	2380. [[trade creation]]
-
-	2381. [[trade credit]]
-	2382. [[trade cycle]]
-	2383. [[trade deficit]]
-	2384. [[trade diversion]]
-	2385. trade gap
+	3329. [[trade creation]]
+	3330. [[trade credit]]
+	3331. [[trade cycle]]
+	3332. [[trade deficit]]
+	3333. [[trade diversion]]
+	3334. trade gap
 		1. See trade deficit
-	2386. [[trade liberalization]]
-	2387. [[trademark]]
-	2388. [[trade not aid]]
-	2389. trade policy
+	3335. [[trade liberalization]]
+	3336. [[trademark]]
+	3337. [[trade not aid]]
+	3338. trade policy
 		1. See LIBERAL TRADE POLICY; STRATEGIC TRADE POLICY.
-	2390. [[trade sanctions]]
-
-	2391. [[Trades Union Congress]]
-	2392. [[trade talks]]
-	2393. [[trade union]]
-	2394. [[trade war]]
-	2395. [[trading currency]]
-	2396. [[tragedy of the commons]]
-	2397. [[training]]
-	2398. [[tranche]]
-	2399. [[Trans-Pacific Partnership]]
-	2400. [[transaction cost economics]]
-
-	2401. [[transaction costs]]
-	2402. [[transaction motive]]
-	2403. [[Transatlantic Trade and Investment Partnership]]
-	2404. [[transfer earnings]]
-	2405. [[transfer payments]]
-	2406. [[transfer pricing]]
-	2407. transfers in kind
+	3339. [[trade sanctions]]
+	3340. [[Trades Union Congress]]
+	3341. [[trade talks]]
+	3342. [[trade union]]
+	3343. [[trade war]]
+	3344. [[trading currency]]
+	3345. [[tragedy of the commons]]
+	3346. [[training]]
+	3347. [[tranche]]
+	3348. [[Trans-Pacific Partnership]]
+	3349. [[transaction cost economics]]
+	3350. [[transaction costs]]
+	3351. [[transaction motive]]
+	3352. [[Transatlantic Trade and Investment Partnership]]
+	3353. [[transfer earnings]]
+	3354. [[transfer payments]]
+	3355. [[transfer pricing]]
+	3356. transfers in kind
 		1. See benefits in kind
-	2408. transformation
+	3357. transformation
 		1. See marginal rate of transformation; structural transformation
-	2409. transformation curve
+	3358. transformation curve
 		1. See production possibility frontier
-	2410. [[transitional economy]]
-
-	2411. [[transitional unemployment]]
-	2412. [[transitive relation]]
-	2413. [[transitory income]]
-	2414. [[transmission mechanism]]
-	2415. transnational corporation
+	3359. [[transitional economy]]
+	3360. [[transitional unemployment]]
+	3361. [[transitive relation]]
+	3362. [[transitory income]]
+	3363. [[transmission mechanism]]
+	3364. transnational corporation
 		1. See multinational
-	2416. [[transparent policy measures]]
-	2417. [[transplant]]
-	2418. [[transport costs]]
-	2419. trap
+	3365. [[transparent policy measures]]
+	3366. [[transplant]]
+	3367. [[transport costs]]
+	3368. trap
 		1. See liquidity trap; poverty trap
-	2420. Treasury
+	3369. Treasury
 		1. See HM Treasury
-
-	2421. [[Treasury bill]]
-	2422. treatment group
+	3370. [[Treasury bill]]
+	3371. treatment group
 		1. See control group
-	2423. [[Treaty of Rome]]
-	2424. [[trend]]
-	2425. [[trend-cycle decomposition]]
-	2426. [[Treuhandanstalt]]
-	2427. [[triangle of loss]]
-	2428. [[trickle-down theory]]
-	2429. [[trigger strategy]]
-	2430. [[trillion]]
-
-	2431. [[triple-A rating]]
-	2432. [[Troubled Asset Relief Program]]
-	2433. [[trough]]
-	2434. [[true and fair view]]
-	2435. [[truncated sample]]
-	2436. [[trust]]
-	2437. [[trustee]]
-	2438. [[turnkey project]]
-	2439. [[turnover]]
-	2440. [[turnover tax]]
-
-	2441. [[turnpike theorem]]
-	2442. [[two-gap model]]
-	2443. [[two-part tariff]]
-	2444. [[two-sector endogenous growth model]]
-	2445. [[two-stage least squares]]
-	2446. [[two-tailed test]]
-	2447. [[two-tier board]]
-	2448. [[type I and II errors]]
-	2449. [[U-shaped average cost curve]]
-	2450. u-v curve
+	3372. [[Treaty of Rome]]
+	3373. [[trend]]
+	3374. [[trend-cycle decomposition]]
+	3375. [[Treuhandanstalt]]
+	3376. [[triangle of loss]]
+	3377. [[trickle-down theory]]
+	3378. [[trigger strategy]]
+	3379. [[trillion]]
+	3380. [[triple-A rating]]
+	3381. [[Troubled Asset Relief Program]]
+	3382. [[trough]]
+	3383. [[true and fair view]]
+	3384. [[truncated sample]]
+	3385. [[trust]]
+	3386. [[trustee]]
+	3387. [[turnkey project]]
+	3388. [[turnover]]
+	3389. [[turnover tax]]
+	3390. [[turnpike theorem]]
+	3391. [[two-gap model]]
+	3392. [[two-part tariff]]
+	3393. [[two-sector endogenous growth model]]
+	3394. [[two-stage least squares]]
+	3395. [[two-tailed test]]
+	3396. [[two-tier board]]
+	3397. [[type I and II errors]]
+	3398. [[U-shaped average cost curve]]
+	3399. u-v curve
 		1. See beveridge curve
-
-	2451. [[UK Data Service]]
-	2452. [[unanimity rule]]
-	2453. [[UNASUR]]
-	2454. [[unbiased estimator]]
-	2455. [[unbiased expectations hypothesis]]
-	2456. [[unbundling]]
-	2457. [[uncertainty]]
-	2458. [[uncompetitive]]
-	2459. [[unconditional grant]]
-	2460. [[uncovered interest parity]]
-
-	2461. [[undated security]]
-	2462. [[under-capitalized]]
-	2463. under-developed countries
+	3400. [[UK Data Service]]
+	3401. [[unanimity rule]]
+	3402. [[UNASUR]]
+	3403. [[unbiased estimator]]
+	3404. [[unbiased expectations hypothesis]]
+	3405. [[unbundling]]
+	3406. [[uncertainty]]
+	3407. [[uncompetitive]]
+	3408. [[unconditional grant]]
+	3409. [[uncovered interest parity]]
+	3410. [[undated security]]
+	3411. [[under-capitalized]]
+	3412. under-developed countries
 		1. See less developed countries
-	2464. [[under-funded pension scheme]]
-	2465. [[under-subscription]]
-	2466. [[under-valued currency]]
-	2467. [[underemployment]]
-	2468. underground economy
+	3413. [[under-funded pension scheme]]
+	3414. [[under-subscription]]
+	3415. [[under-valued currency]]
+	3416. [[underemployment]]
+	3417. underground economy
 		1. See hidden economy
-	2469. [[underlying rate of inflation]]
-	2470. [[Understanding Society]]
-
-	2471. [[underwriter]]
-	2472. [[underwriting]]
-	2473. [[undistributed profits]]
-	2474. [[unearned income]]
-	2475. [[unemployable]]
-	2476. [[unemployment]]
-	2477. [[unemployment benefit]]
-	2478. [[unemployment rate]]
-	2479. [[unexpected inflation]]
-	2480. [[unfair competition]]
-
-	2481. [[unfair dismissal]]
-	2482. [[unfunded pension scheme]]
-	2483. [[unified budget]]
-	2484. [[uniform business rate]]
-	2485. [[uniform distribution]]
-	2486. [[unimodal distribution]]
-	2487. union
+	3418. [[underlying rate of inflation]]
+	3419. [[Understanding Society]]
+	3420. [[underwriter]]
+	3421. [[underwriting]]
+	3422. [[undistributed profits]]
+	3423. [[unearned income]]
+	3424. [[unemployable]]
+	3425. [[unemployment]]
+	3426. [[unemployment benefit]]
+	3427. [[unemployment rate]]
+	3428. [[unexpected inflation]]
+	3429. [[unfair competition]]
+	3430. [[unfair dismissal]]
+	3431. [[unfunded pension scheme]]
+	3432. [[unified budget]]
+	3433. [[uniform business rate]]
+	3434. [[uniform distribution]]
+	3435. [[unimodal distribution]]
+	3436. union
 		1. See CUSTOMS UNION; PAYMENTS UNION; TRADE UNION.
-	2488. [[union versus non-union wage differential|union/non-union wage differential]]
-	2489. [[unionized]]
-	2490. [[unique equilibrium]]
-
-	2491. [[unit-free measure]]
-	2492. [[unitary taxation]]
-	2493. [[United Nations Conference on Trade and Development]]
-	2494. [[United Nations Development Programme]]
-	2495. [[unit elasticity]]
-	2496. [[unit of account]]
-	2497. [[unit root process]]
-	2498. [[unit trust]]
-	2499. [[universal benefit]]
-	2500. [[Universal Credit]]
-
-	2501. [[unlimited liability]]
-	2502. [[Unlisted Securities Market]]
-	2503. unofficial economy
+	3437. [[union versus non-union wage differential|union/non-union wage differential]]
+	3438. [[unionized]]
+	3439. [[unique equilibrium]]
+	3440. [[unit-free measure]]
+	3441. [[unitary taxation]]
+	3442. [[United Nations Conference on Trade and Development]]
+	3443. [[United Nations Development Programme]]
+	3444. [[unit elasticity]]
+	3445. [[unit of account]]
+	3446. [[unit root process]]
+	3447. [[unit trust]]
+	3448. [[universal benefit]]
+	3449. [[Universal Credit]]
+	3450. [[unlimited liability]]
+	3451. [[Unlisted Securities Market]]
+	3452. unofficial economy
 		1. See hidden economy
-	2504. [[unpaid labour]]
-	2505. [[unsecured loan]]
-	2506. [[unskilled work]]
-	2507. unsterilized intervention
+	3453. [[unpaid labour]]
+	3454. [[unsecured loan]]
+	3455. [[unskilled work]]
+	3456. unsterilized intervention
 		1. See INTERVENTION IN FOREIGN EXCHANGE MARKETS.
-	2508. [[untied aid]]
-	2509. [[unwind]]
-	2510. upstream
+	3457. [[untied aid]]
+	3458. [[unwind]]
+	3459. upstream
 		1. See backward integration
-
-	2511. [[urban economics]]
-	2512. [[Uruguay Round]]
-	2513. [[US deficit]]
-	2514. user cost of capital
+	3460. [[urban economics]]
+	3461. [[Uruguay Round]]
+	3462. [[US deficit]]
+	3463. user cost of capital
 		1. See cost of capital
-	2515. [[US Trade Representative]]
-	2516. [[usury]]
-	2517. [[usury laws]]
-	2518. [[util]]
-	2519. [[utilitarianism]]
-	2520. [[utility]]
-
-	2521. [[utility function]]
-	2522. [[utility maximization]]
-	2523. [[utility possibility frontier]]
-	2524. [[vacancy]]
-	2525. [[vacancy rate]]
-	2526. [[valuation]]
-	2527. [[value]]
-	2528. [[value-added tax]]
-	2529. [[value-subtracting industry]]
-	2530. [[value added]]
-
-	2531. [[value at risk]]
-	2532. [[value index]]
-	2533. [[value judgement]]
-	2534. [[value of the physical increase in stocks and work in progress]]
-	2535. [[valuer]]
-	2536. VaR
+	3464. [[US Trade Representative]]
+	3465. [[usury]]
+	3466. [[usury laws]]
+	3467. [[util]]
+	3468. [[utilitarianism]]
+	3469. [[utility]]
+	3470. [[utility function]]
+	3471. [[utility maximization]]
+	3472. [[utility possibility frontier]]
+	3473. [[vacancy]]
+	3474. [[vacancy rate]]
+	3475. [[valuation]]
+	3476. [[value]]
+	3477. [[value-added tax]]
+	3478. [[value-subtracting industry]]
+	3479. [[value added]]
+	3480. [[value at risk]]
+	3481. [[value index]]
+	3482. [[value judgement]]
+	3483. [[value of the physical increase in stocks and work in progress]]
+	3484. [[valuer]]
+	3485. VaR
 		1. See value at risk
-	2537. VAR
+	3486. VAR
 		1. See vector autoregressive model
-	2538. [[variable]]
-	2539. [[variable cost]]
-	2540. [[variable factor proportions]]
-
-	2541. [[variable rate note]]
-	2542. [[variance]]
-	2543. variance-covariance matrix
+	3487. [[variable]]
+	3488. [[variable cost]]
+	3489. [[variable factor proportions]]
+	3490. [[variable rate note]]
+	3491. [[variance]]
+	3492. variance-covariance matrix
 		1. See covariance matrix
-	2544. variation
+	3493. variation
 		1. See COEFFICIENT OF VARIATION; COMPENSATING VARIATION; EQUIVALENT VARIATION.
-	2545. [[variety]]
-	2546. VAT
+	3494. [[variety]]
+	3495. VAT
 		1. See value-added tax.
-	2547. [[VAT registration]]
-	2548. [[VAT return]]
-	2549. [[vector autoregressive model]]
-	2550. [[vector error correction model]]
-
-	2551. vehicle currency
+	3496. [[VAT registration]]
+	3497. [[VAT return]]
+	3498. [[vector autoregressive model]]
+	3499. [[vector error correction model]]
+	3500. vehicle currency
 		1. See trading currency
-	2552. [[velocity of circulation]]
-	2553. [[venture capital]]
-	2554. [[vertical equity]]
-	2555. [[vertical integration]]
-	2556. [[vertical merger]]
-	2557. visible balance
+	3501. [[velocity of circulation]]
+	3502. [[venture capital]]
+	3503. [[vertical equity]]
+	3504. [[vertical integration]]
+	3505. [[vertical merger]]
+	3506. visible balance
 		1. See balance of trade
-	2558. visible trade
+	3507. visible trade
 		1. See trade
-	2559. [[voice]]
-	2560. [[volatility]]
-
-	2561. [[volume index]]
-	2562. [[voluntary exchange]]
-	2563. [[voluntary export restraint]]
-	2564. [[voluntary unemployment]]
-	2565. [[voting]]
-	2566. [[voting share]]
-	2567. [[voucher]]
-	2568. [[wage]]
-	2569. [[wage-price spiral]]
-	2570. wage-push inflation
+	3508. [[voice]]
+	3509. [[volatility]]
+	3510. [[volume index]]
+	3511. [[voluntary exchange]]
+	3512. [[voluntary export restraint]]
+	3513. [[voluntary unemployment]]
+	3514. [[voting]]
+	3515. [[voting share]]
+	3516. [[voucher]]
+	3517. [[wage]]
+	3518. [[wage-price spiral]]
+	3519. wage-push inflation
 		1. See cost inflation
-
-	2571. [[wage differential]]
-	2572. [[wage drift]]
-	2573. wage flexibility
+	3520. [[wage differential]]
+	3521. [[wage drift]]
+	3522. wage flexibility
 		1. See flexible wages
-	2574. [[wage freeze]]
-	2575. [[wage rate]]
-	2576. [[wage resistance]]
-	2577. [[wage restraint]]
-	2578. [[wage rigidity]]
-	2579. [[wage round]]
-	2580. [[wages council]]
-
-	2581. Wagner's law
-	2582. Wagner Act
-	2583. Wald test
-	2584. Wall Street
-	2585. Walras's law
-	2586. WARP
-	2587. warrant
-	2588. warranted growth rate
-	2589. warranty
-	2590. Washington consensus
-
-	2591. wasting asset
-	2592. Ways and Means Advances
-	2593. weak convergence
-	2594. weakening of a currency
-	2595. weak stationarity
-	2596. wealth
-	2597. wealth effect
-	2598. wealth tax
-	2599. wear and tear
-	2600. weighted average
-
-	2601. weighted least squares estimator
-	2602. weights in index numbers
-	2603. welfare
-	2604. welfare criterion
-	2605. welfare economics
-	2606. welfare state
-	2607. White's test
-	2608. white knight
-	2609. white noise
-	2610. white paper
-
-	2611. wholesale banking
-	2612. wholesale prices
-	2613. wholesaling
-	2614. widget
-	2615. wildcat strike
-	2616. willingness to pay
-	2617. windfall gain
-	2618. winding up
-	2619. winner's curse
-	2620. Wirtschaftswunder
-
-	2621. with-profits life insurance
-	2622. withholding tax
-	2623. within-groups estimator
-	2624. Wold's decomposition theorem
-	2625. work
-	2626. worker-controlled firm
-	2627. worker participation
-	2628. workfare
-	2629. workforce
-	2630. working capital
-
-	2631. working conditions
-	2632. working practices
-	2633. Working Tax Credit
-	2634. work in progress
-	2635. works council
-	2636. work study
-	2637. World Bank
-	2638. World Development Indicators
-	2639. World Trade Organization
-	2640. write-down
-
-	2641. write-off
-	2642. wrongful dismissal
-	2643. X-efficiency
-	2644. X-inefficiency
-	2645. Yaoundé Convention
-	2646. year
-	2647. yen
-	2648. yield
-	2649. yield curve
-	2650. yield gap
-
-	2651. yield spread
-	2652. Yule-Walker equations
-	2653. zaibatsu
-	2654. zero-base budgeting
-	2655. zero-rated
-	2656. zero-sum game
-	2657. zero coupon bond
-	2658. zero growth
-	2659. zero interest rate
-	2660. zoning
+	3523. [[wage freeze]]
+	3524. [[wage rate]]
+	3525. [[wage resistance]]
+	3526. [[wage restraint]]
+	3527. [[wage rigidity]]
+	3528. [[wage round]]
+	3529. [[wages council]]
+	3530. [[Wagner's law]]
+	3531. [[Wagner Act]]
+	3532. [[Wald test]]
+	3533. [[Wall Street]]
+	3534. [[Walras's law]]
+	3535. [[WARP]]
+	3536. [[warrant]]
+	3537. [[warranted growth rate]]
+	3538. [[warranty]]
+	3539. [[Washington consensus]]
+	3540. [[wasting asset]]
+	3541. [[Ways and Means Advances]]
+	3542. weak convergence
+		1. See convergence in distribution
+	3543. [[weakening of a currency]]
+	3544. weak stationarity
+		1. See covariance stationary process
+	3545. [[wealth]]
+	3546. [[wealth effect]]
+	3547. [[wealth tax]]
+	3548. [[wear and tear]]
+	3549. [[weighted average]]
+	3550. [[weighted least squares estimator]]
+	3551. [[weights in index numbers]]
+	3552. [[welfare]]
+	3553. [[welfare criterion]]
+	3554. [[welfare economics]]
+	3555. [[welfare state]]
+	3556. [[White's test]]
+	3557. [[white knight]]
+	3558. [[white noise]]
+	3559. [[white paper]]
+	3560. [[wholesale banking]]
+	3561. [[wholesale prices]]
+	3562. [[wholesaling]]
+	3563. [[widget]]
+	3564. [[wildcat strike]]
+	3565. [[willingness to pay]]
+	3566. [[windfall gain]]
+	3567. [[winding up]]
+	3568. [[winner's curse]]
+	3569. [[Wirtschaftswunder]]
+	3570. [[with-profits life insurance]]
+	3571. [[withholding tax]]
+	3572. [[within-groups estimator]]
+	3573. [[Wold's decomposition theorem]]
+	3574. [[work]]
+	3575. [[worker-controlled firm]]
+	3576. [[worker participation]]
+	3577. [[workfare]]
+	3578. workforce
+		1. See labor force
+	3579. [[working capital]]
+	3580. [[working conditions]]
+	3581. [[working practices]]
+	3582. [[Working Tax Credit]]
+	3583. work in progress
+		1. See INVESTMENT IN STOCKS AND WORK IN PROGRESS.
+	3584. [[works council]]
+	3585. [[work study]]
+	3586. World Bank
+		1. See International Bank for Reconstruction and Development.
+	3587. [[World Development Indicators]]
+	3588. [[World Trade Organization]]
+	3589. [[write-down]]
+	3590. [[write-off]]
+	3591. [[wrongful dismissal]]
+	3592. [[X-efficiency]]
+	3593. [[X-inefficiency]]
+	3594. [[Yaoundé Convention]]
+	3595. year
+		1. See budget year; financial year; fiscal year.
+	3596. [[yen]]
+	3597. [[yield]]
+	3598. [[yield curve]]
+	3599. [[yield gap]]
+	3600. [[yield spread]]
+	3601. [[Yule-Walker equations]]
+	3602. [[zaibatsu]]
+	3603. [[zero-base budgeting]]
+	3604. [[zero-rated]]
+	3605. [[zero-sum game]]
+	3606. [[zero coupon bond]]
+	3607. [[zero growth]]
+	3608. [[zero interest rate]]
+	3609. [[zoning]]

@@ -5,7 +5,7 @@ Source:
 Length: "6509"
 tags:
   - status/incomplete
-  - type/website
+  - type/textbook
 Reviewed: false
 Year: 2016-04-01
 ---

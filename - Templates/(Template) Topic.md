@@ -4,4 +4,4 @@
 - 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
