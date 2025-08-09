@@ -5,11 +5,13 @@
 - (2) In industrial organization, a merger in which the acquired company transfers all its assets and liabilities to the acquiring company in exchange for its securities and cash.
 ## Source[^2]
 - The movement of fluid or a dissolved substance across a plasma membrane. In many animals, for example, soluble food material is absorbed into cells lining the alimentary canal and thence into the blood. In plants, water and mineral salts are absorbed from the soil by the roots. See osmosis; transport protein.
-
 ## Source[^3]
 - (cost absorption; overhead absorption) An accounting process, used in absorption costing, in which the overhead of an organization is charged to the production of that organization by the use of absorption rates.
+## Source[^4]
+- $n$. (in physiology) the uptake of fluids or other substances by the tissues of the body. Digested food is absorbed into the blood and lymph from the alimentary canal. Most absorption of food occurs in the small intestine - in the jejunum and ileum - although alcohol is readily absorbed from the stomach. The small intestine is lined with minute finger-like processes (see VILLUS), which greatly increase its surface area and therefore the speed at which absorption can take place. See also ASSIMILATION; DIGESTION.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

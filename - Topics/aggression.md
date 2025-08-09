@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - Behavior aimed at intimidating or injuring another animal of the same or a competing species, generally as a means of excluding rivals from a resource such as food, mates, or territory. Aggression between individuals of the same species often starts with a series of ritualized displays or contests that can end at any stage if one of the combatants withdraws, leaving the victor with access to the disputed resource or with increased social dominance (see DOMINANT). It is also often seen in courtship. Aggression or threat displays usually appear to exaggerate the performer's size or strength; for example, many fish erect their fins and mammals and birds may erect hairs or feathers. Special markings may be prominently exhibited, and intention movements may be made: dogs bare their teeth, for example. Some animals have evolved special structures for use in aggressive interactions (e.g. antlers in deer) but these are seldom used to cause actual injury; the opponent usually flees first or adopts appeasement postures. Fights 'to the death' are comparatively rare. See Agonistic behavior; display behavior; ritualization.
+## Source[^2]
+- $n$. Behavior whose primary or sole purpose or function is to injure another person or organism, whether physically or psychologically. See also DISPLACED AGGRESSION, ESCALATED FIGHTING, FRUSTRATION-AGGRESSION HYPOTHESIS, HOT SAUCE TASK, IRRITABLE MALE SYNDROME, POINT SUBTRACTION AGGRESSION PARADIGM, QUIET-BITING ATTACK, ROAD RAGE, ROLD RAGE, Rosenzweig Picture-Frustration Study, sham rage, sublimation, Taylor aggression paradigm, testosterone, Thanatos, Type A, ventromedial hypothalamus. \[From Latin aggredi, aggressus to attack, from ad to + gradi to step + -ion indicating an action, process, or state]
 ## References
 
 [^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]

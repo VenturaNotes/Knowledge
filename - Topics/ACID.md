@@ -10,8 +10,15 @@ aliases:
 - In transaction processing, ACID (atomicity, consistency, isolation, and durability) is an acronym and mnemonic device used to refer to the four essential properties a transaction should possess to ensure the integrity and reliability of the data involved in the transaction.
 ## Source[^3]
 - A type of compound that contains hydrogen and dissociates in water to produce positive hydrogen ions. The reaction, for an acid HX, is commonly written:$$\mathrm{HX} \rightleftharpoons \mathrm{H}^{+}+\mathrm{X}^{-}$$In fact, the hydrogen ion (the proton) is hydrated, and the complete reaction is:$$\mathrm{HX}+\mathrm{H}_{2} \mathrm{O} \rightleftharpoons \mathrm{H}_{3} \mathrm{O}^{+}+\mathrm{X}^{-}$$The ion $\mathrm{H}_{3} \mathrm{O}^{+}$is the hydroxonium ion. The strength of an acid depends on the extent to which it dissociates: strong acids (e.g. sulphuric acid and hydrochloric acid) are almost completely dissociated in water; weak acids (e.g. carbonic acid) are only partially dissociated. See also BUFFER; PH SCALE. Compare BASE.
+## Source[^4]
+- $n$. 
+- (1) Any substance that when dissolved in water releases positively charged hydrogen ions and produces a corrosive solution having a pH of less than 7. Compare alkali. 
+- (2) A common street name for LSD. 
+- acidic adj. Of, relating to, or consisting of an acid (1). 
+- acidity $n$. The degree to which a solution is acidic. \[From Latin acidus sharp or sour]
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://www.techtarget.com/searchdatamanagement/definition/ACID
 [^3]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]

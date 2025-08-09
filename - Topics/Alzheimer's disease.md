@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- $n$. A degenerative brain disease, classified by DSM-5 as a neurocognitive disorder, with insidious onset beginning before 65 years of age, followed by slow development over several years, characterized by dementia called dementia of the Alzheimer type (DAT), loss of memory, and emotional instability, accompanied by postmortem evidence of amyloid plaques, neurofibrillary tangles, and other brain pathology, usually leading to death between four and twelve years after the onset of the disease. Some authorities believe that the amyloid plaques are responsible for the symptoms and that the neurofibrillary tangles are secondary; others believe that the neurofibrillary tangles are primary and the amyloid plaques are secondary. The disorder is associated with a deficit of the neurotransmitter acetylcholine and may be caused by mutations in mitochondrial DNA, by a defect in chromosome 14, 19, or 21, or by a prion. See also Clock Drawing Test, Down's syndrome, mild cognitive impairment, Mini-Mental State Examination, neurogenesis, nucleus basalis of Meynert. Compare Pick's disease, sdat. AD abbrev. \[Named after the German neurologist Alois Alzheimer (1864-1915) who first described the brain lesions associated with it in 1907]
 ## References
 
-[^1]:
+[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]

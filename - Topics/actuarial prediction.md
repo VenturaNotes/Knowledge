@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Any prediction of behavior based on purely statistical information and not subjective judgement. It is characterized by mechanical processing of information, leading to probabilities representing empirically determined relative frequencies, as when psychometric test scores are compared with tables of normative (2) data to make a prediction that the probability is $p$ that an individual will succeed on a training programme, reoffend when released from prison, develop a certain mental disorder, or commit suicide, the prediction being based on the relative frequencies of such outcomes among people with similar test scores. It was first systematically analysed and compared with clinical prediction by the US psychologist Paul Everett Meehl (1920-2003) in his book Clinical Versus Statistical Prediction: A Theoretical Analysis and a Review of the Evidence (1954). Meehl was the first to point out that it is almost always more accurate than clinical prediction. Also called statistical prediction . See also bootstrapping. \[From Latin actuarius a keeper of records, from acta chronicles or records]
+## References
+
+[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]

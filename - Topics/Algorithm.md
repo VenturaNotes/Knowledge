@@ -46,6 +46,8 @@ aliases:
 - An algorithm is a set of instructions that tells a computer system how to solve a problem or perform a computation. Algorithms help computer systems find the best way to solve a problem by sorting and processing large amounts of data. Algorithms enable computers to automatically make decisions and execute them accordingly.
 ## Source[^9]
 - A set of well-defined rules for solving a problem in a finite number of steps. Algorithms are extensively used in computer science. The steps in the algorithm are translated into a series of instructions that the computer can understand. These instructions form the computer program.
+## Source[^10]
+- $n$. Any well-defined computational procedure that takes a value or set of values as input and, after a finite sequence of computational steps, produces a value or set of values as output. Computer programs are the most familiar examples of algorithms, and another useful definition of an algorithm is any operation that can be carried out by a Turing machine. Also, more generally and informally, any step-by-step procedure for finding the unique solution to a problem. Compare heuristic. \[From Arabic alKhwārazmi a native of Khwārazm (Khiva), the name by which the ninth-century Arab mathematician Abu Ja'far Mohommed ben Musa came to be known]
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
@@ -57,3 +59,4 @@ aliases:
 [^7]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^8]: [[Home Page - Glossary by Capterra]]
 [^9]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^10]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]

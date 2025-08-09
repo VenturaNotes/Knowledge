@@ -10,6 +10,12 @@
 	- lack of prospects-a feeling of frustration at being trapped in a situation that offers little prospect of advancement;
 	- lack of equality-a result of strict differentiation between the grades and levels in a hierarchical organization.
 - Only by addressing these causes can managers achieve groups of people who feel pride in their work, supported in solving their problems, and rewarded for their skills and effort. See MOTIVATION; ORGANIZATIONAL COMMITMENT.
+## Source[^2]
+- $n$. 
+- (1) Turning away; inducing someone to become indifferent or hostile or causing their affections to be diverted. 
+- (2) The state of being an outsider or feeling detached from society. 
+- (3) A state in which one's emotions are experienced as foreign so that the self and the outside world appear unreal. See also depersonalization, derealization. \[From Latin alienus foreign, from alius other + -ation indicating a process or condition]
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -23,6 +23,11 @@
 - The principle of ignoring those aspects of a subject that are not relevant to the current purpose in order to concentrate solely on those that are. The application of this principle is essential in the development and understanding of all forms of computer system. See DATA ABSTRACTION, PROCEDURAL ABSTRACTION.
 ## Source[^7]
 - The process of studying the underlying rules and structures that often connect seemingly different results, and distilling that structure by means of formal axioms. The purpose is to derive, from a set of axioms, general results that are then applicable to any example of that structure. This was a common theme of much of 20th-century pure mathematics, applying equally in algebra (e.g. groups), analysis (e.g. Banach spaces), geometry (e.g. manifolds), topology (metric spaces).
+## Source[^8]
+- n. 
+- (1) The act or process of formulating a general concept by identifying common features (1) from specific instances or examples, or a concept formed in this way.
+- (2) A state of absent-mindedness or preoccupation. 
+- (3) In general, the act of withdrawing or removing something. \[From Latin abstractus drawn off, from $a b$ away from + trahere, tractum to draw + -ion indicating an action, process, or state]
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
@@ -32,3 +37,4 @@
 [^5]: https://www.techtarget.com/whatis/definition/abstraction
 [^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^7]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^8]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
