@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A sensory experience, especially a visual image, that persists after the stimulus has ceased, also called a primary afterimage, or one that appears after a primary afterimage. The first in the sequence of visual afterimages following brief exposure to a bright stimulus is called a Hering image and is normally a positive afterimage, dark areas of the original image appearing dark, and light areas appearing light, usually appearing in the same colours as the original stimulus but sometimes colourless, and persisting for only a fraction of a second. The subsequent Purkinje image is a complementary afterimage, colours of the original stimulus appearing in approximate complementary colours in the image, and it is more persistent than the Hering image but also tends to disappear if the gaze is shifted, though it can often be briefly restored by blinking. The third afterimage is positive and is called a Hess image. These effects can be demonstrated by adapting one's eyes to darkness for at least 15 minutes and then setting off a camera's electronic flash, which for safety reasons should not be looked at directly with dark-adapted eyes, or by briefly switching on a bright light. See also aftersensation, Aubert effect, Bidwell's ghost, Emmert's law, flight of colours, iconic store, McCollough effect, visual illusion. Compare EIDETIC IMAGE.
+## References
+
+[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
