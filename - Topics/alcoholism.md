@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. the syndrome due to physical dependence on alcohol, such that sudden deprivation may cause withdrawal symptoms - tremor, anxiety, hallucinations, and delusions (see DELIRIUM TREMENS). The risk of alcoholism for an individual depends on genetic and environmental factors. Several years' heavy drinking is often needed for addiction to develop, with a wide range from 1 to 40 years. Alcoholism impairs intellectual function, physical skills, memory, and judgment. Social skills can also be affected. Heavy consumption of alcohol causes cardiomyopathy, peripheral neuropathy, cirrhosis of the liver, and enteritis. Treatment is usually provided on an out-patient basis, in specialist units for detoxification or medical wards. Unsupervised sudden withdrawal carries a mortality of about $10 \%$, mostly due to seizures. If there are complicating psychiatric problems detoxification may be part of psychiatric treatment. Psychological aspects of treatment include helping the patient to understand the psychological pressures that led to his or her heavy drinking, treatment of underlying anxiety, and motivational interviewing. Drugs such as disulfiram (Antabuse), which cause vomiting if alcohol is taken, can help in treatment. Drugs to reduce craving, such as acamprosate calcium, are less successful, with around a third of patients benefiting.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

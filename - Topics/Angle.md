@@ -17,7 +17,11 @@ aliases:
 
 ### (between vectors)
 - Given non-zero vectors $a$ and $b$, let $\overrightarrow {OA}$ and $\overrightarrow {OB}$ be directed line segments representing $a$ and $b$. Then the angle $\theta$ between the vectors $a$ and $b$ is the angle $\angle AOB$, where $\theta$ is taken to satisfy $0 \le \theta \le \pi$ ($\theta$ in radians), or $0 \le \theta \le 180$ ($\theta$ in degrees). It can be expressed in terms of the scalar product by $$cos \theta= \frac{a\cdot b}{|a||b|}$$
-
+## Source[^2]
+- $n$. 
+- (1) (in anatomy) a corner. For example, the angle of the eye is the outer or inner corner of the eye; the angle of the mouth is the site where the upper and lower lips join on either side. 
+- (2) the degree of divergence of two lines or planes that meet each other; the space between two such lines. The carrying angle is the obtuse angle formed between the forearm and the upper arm when the forearm is fully extended and the hand is supinated.
 ## References
 
 [^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -15,7 +15,13 @@
 - (1) Turning away; inducing someone to become indifferent or hostile or causing their affections to be diverted. 
 - (2) The state of being an outsider or feeling detached from society. 
 - (3) A state in which one's emotions are experienced as foreign so that the self and the outside world appear unreal. See also depersonalization, derealization. \[From Latin alienus foreign, from alius other + -ation indicating a process or condition]
+
+## Source[^3]
+- $n$. 
+- (1) a feeling of estrangement, important to overcome in communication with patients who are from different cultures or backgrounds from the clinician. 
+- (2) (in psychiatry) see THOUGHT ALIENATION.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

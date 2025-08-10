@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. a reduction in the quantity of the oxygen-carrying pigment haemoglobin in the blood. The main symptoms are excessive tiredness and fatigability, breathlessness on exertion, pallor, and poor resistance to infection.
+- There are many causes of anaemia. It may be due to loss of blood (haemorrhagic anaemia), resulting from an accident, operation, etc., or from chronic bleeding, as from an ulcer or haemorrhoids. Iron-deficiency anaemia results from lack of iron, which is necessary for the production of haemoglobin (see SIDEROPENIA). Haemolytic anaemias result from the increased destruction of red blood cells (which contain the pigment). This can be caused by toxic chemicals; autoimmunity; the action of parasites, especially in malaria; or conditions such as thalassaemia and sickle-cell disease, associated with abnormal forms of haemoglobin, or spherocytosis, which is associated with abnormal red blood cells. (See also HAEMOLYTIC DISEASE OF THE NEWBORN.) Anaemia can also be caused by the impaired production of red blood cells, as in leukaemia (when red-cell production in the bone marrow is suppressed) or pernicious anaemia. Aplastic anaemia is characterized by a failure of blood cell production resulting in pancytopenia and reduced bone marrow cellularity.
+- Anaemias can be classified on the basis of the size of the red cells, which may be large (macrocytic anaemias), small (microcytic anaemias), or normal-sized (normocytic anaemias). (See also MACROCYTOSIS; MICROCYTOSIS.) The treatment of anaemia depends on the cause. $\textemdash$ anaemic adj.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
