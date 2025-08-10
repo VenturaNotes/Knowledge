@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. imaging of blood vessels (see also CORONARY ANGIOGRAPHY; LYMPHANGIOGRAPHY). In the older form of angiography Xray imaging was carried out after injection of radiopaque contrast medium and digital subtraction applied to enhance visualization. The use of X-rays has now been largely replaced by methods using MRI or CT scanners. Magnetic resonance angiography (MRA) can be performed with (contrast-enhanced) or without (noncontrast) injection of a magnetic resonance contrast agent (see CONTRAST MEDIUM). Contrast-enhanced MRA will show the vessels better. These images can be reconstructed in two or three dimensions. Computerized tomographic angiography (CTA) uses a radiographic contrast agent, usually injected into a vein, to increase the visibility of the blood vessels. Fluorescein angiography is a common method of investigation in ophthalmology. Fluorescein sodium is injected into a vein in the arm, from which it circulates throughout the body. Light of an appropriate wavelength is shone into the eye, causing the dye in the retinal blood vessels to fluoresce. This allows the circulation through the retinal blood vessels to be observed and photographed. Indocyanine green (ICG) angiography uses indocyanine green dye, which fluoresces in infrared light. It is valuable in assessing circulation in the deeper layers of the fundus.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

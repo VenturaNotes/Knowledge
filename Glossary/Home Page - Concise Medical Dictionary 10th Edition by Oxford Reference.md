@@ -281,401 +281,466 @@ Reviewed: false
 	210. ADLs
 		1. See ACTIVITIES OF DAILY LIVING.
 	
-	211. admission rate
-	212. adnexa
-	213. adolescence
-	214. ADP
-	215. adrenalectomy
-	216. adrenal glands
-	217. adrenaline
-	218. adrenarche
-	219. adrenergic
-	220. adrenoceptor
+	211. [[admission rate]]
+	212. [[adnexa]]
+	213. [[adolescence]]
+	214. [[ADP]]
+	215. [[adrenalectomy]]
+	216. [[adrenal glands]]
+	217. [[adrenaline]]
+	218. [[adrenarche]]
+	219. [[adrenergic]]
+	220. [[adrenoceptor]]
 	
 	221. adrenocorticotrophic hormone
-	222. adrenogenital syndrome
-	223. adrenoleukodystrophy
-	224. adrenolytic
-	225. adult respiratory distress syndrome
-	226. advanced glycation end-products
-	227. advance directive, decision, or statement((in England and Wales under the Mental Capacity Act 2005))
-	228. advanced life support
-	229. advancement
-	230. adventitia
+		1. (adrenocorticotrophin) see ACTH.
+	222. [[adrenogenital syndrome]]
+	223. [[adrenoleukodystrophy]]
+	224. [[adrenolytic]]
+	225. [[adult respiratory distress syndrome]]
+	226. [[advanced glycation end-products]]
+	227. [[advance directive, decision, or statement]]
+	228. [[advanced life support]]
+	229. [[advancement]]
+	230. [[adventitia]]
 	
-	231. adventitious
-	232. advocacy
+	231. [[adventitious]]
+	232. [[advocacy]]
 	233. AECOPD
+		1. acute exacerbation of COPD (see CHRONIC OBSTRUCTIVE PULMONARY DISEASE).
 	234. AED
-	235. Aëdes
+		1. see AUTOMATED EXTERNAL DEFIBRILLATOR.
+	235. [[Aëdes]]
 	236. aegophony
-	237. -aemia
-	238. aer-
-	239. aerobe
-	240. aerobic
+		1. $n$. see VOCAL RESONANCE.
+	237. [[-aemia]]
+	238. [[aer-]]
+	239. [[aerobe]]
+	240. [[aerobic]]
 	
 	241. aerobic exercises
-	242. aerodontalgia
-	243. aeroneurosis
-	244. aerophagia
-	245. aerosol
-	246. aetiology
-	247. afebrile
-	248. affect((in psychiatry))
-	249. affective disorder
-	250. afferent
+		1. see EXERCISE.
+	242. [[aerodontalgia]]
+	243. [[aeroneurosis]]
+	244. [[aerophagia]]
+	245. [[aerosol]]
+	246. [[aetiology]]
+	247. [[afebrile]]
+	248. [[affect]]
+	249. [[affective disorder]]
+	250. [[afferent]]
 	
-	251. Affordable Care Act 2010 (ACA)
-	252. afibrinogenaemia
-	253. aflatoxin
-	254. aflibercept
+	251. [[Affordable Care Act 2010]]
+	252. [[afibrinogenaemia]]
+	253. [[aflatoxin]]
+	254. [[aflibercept]]
 	255. AFP
-	256. after-image
-	257. afterbirth
-	258. aftercare
-	259. afterpains
-	260. agammaglobulinaemia
+		1. see ALPHA-FETOPROTEIN.
+	256. [[after-image]]
+	257. [[afterbirth]]
+	258. [[aftercare]]
+	259. [[afterpains]]
+	260. [[agammaglobulinaemia]]
 	
-	261. agar
+	261. [[agar]]
 	262. age-related macular degeneration
-	263. agenesis
-	264. Age UK
-	265. agglutination
-	266. agglutinin
-	267. agglutinogen
-	268. aglossia
-	269. agnathia
-	270. agnosia
+		1. (AMD, ARMD) See Macular Degeneration
+	263. [[agenesis]]
+	264. [[Age UK]]
+	265. [[agglutination]]
+	266. [[agglutinin]]
+	267. [[agglutinogen]]
+	268. [[aglossia]]
+	269. [[agnathia]]
+	270. [[agnosia]]
 	
-	271. agonal
-	272. agonist
-	273. agoraphobia
-	274. agranulocytosis
-	275. agraphia
+	271. [[agonal]]
+	272. [[agonist]]
+	273. [[agoraphobia]]
+	274. [[agranulocytosis]]
+	275. [[agraphia]]
 	276. ague
-	277. Ahmed valve
+		1. $n$. see MALARIA.
+	277. [[Ahmed valve]]
 	278. AHSN
-	279. Aicardi syndrome
-	280. AIDS
+		1. see ACADEMIC HEALTH SCIENCE NETWORK.
+	279. [[Aicardi syndrome]]
+	280. [[AIDS]]
 	
 	281. AIH
-	282. ainhum
-	283. air bed
-	284. air embolism
+		1. see ARTIFICIAL INSEMINATION.
+	282. [[ainhum]]
+	283. [[air bed]]
+	284. [[air embolism]]
 	285. air sickness
-	286. airway
-	287. airway obstruction
-	288. akathisia
-	289. AKI
-	290. akinesia
+		1. see MOTION SICKNESS.
+	286. [[airway]]
+	287. [[airway obstruction]]
+	288. [[akathisia]]
+	289. [[AKI]]
+	290. [[akinesia]]
 	
-	291. ala((in anatomy))
-	292. alactasia
-	293. Alagille syndrome
+	291. [[ala]]
+	292. [[alactasia]]
+	293. [[Alagille syndrome]]
 	294. alanine
-	295. alanine aminotransferase
+		1. $n$. see AMINO ACID.
+	295. [[alanine aminotransferase]]
 	296. ALARA principle
-	297. alastrim
-	298. albendazole
+		1. see RADIATION PROTECTION.
+	297. [[alastrim]]
+	298. [[albendazole]]
 	299. Albers-Schönberg disease
-	300. Alberti regime
+		1. see Osteopetrosis. \[H. E. Albers-Schönberg (1865-1921), German radiologist]
+	300. [[Alberti regime]]
 	
-	301. albinism
-	302. albino
-	303. Albright's hereditary osteodystrophy
-	304. albumin
-	305. albuminuria
-	306. albumose
-	307. alcaptonuria
-	308. alclometazone
-	309. alcohol
-	310. alcoholic hallucinosis
+	301. [[albinism]]
+	302. [[albino]]
+	303. [[Albright's hereditary osteodystrophy]]
+	304. [[albumin]]
+	305. [[albuminuria]]
+	306. [[albumose]]
+	307. [[alcaptonuria]]
+	308. [[alclometazone]]
+	309. [[alcohol]]
+	310. [[alcoholic hallucinosis]]
 	
-	311. Alcoholics Anonymous
-	312. alcoholism
+	311. [[Alcoholics Anonymous]]
+	312. [[alcoholism]]
 	313. aldesleukin
-	314. aldosterone
-	315. aldosteronism
-	316. alendronic acid
+		1. $n$. see INTERLEUKIN.
+	314. [[aldosterone]]
+	315. [[aldosteronism]]
+	316. [[alendronic acid]]
 	317. Aleppo boil
+		1. see ORIENTAL SORE.
 	318. alerting device
-	319. alexia
-	320. alexin
+		1. see ENVIRONMENTAL HEARING AID.
+	319. [[alexia]]
+	320. [[alexin]]
 	
-	321. alexithymia
-	322. alfacalcidol
-	323. alfentanil
-	324. alfuzosin
+	321. [[alexithymia]]
+	322. [[alfacalcidol]]
+	323. [[alfentanil]]
+	324. [[alfuzosin]]
 	325. ALG
-	326. algesimeter
-	327. -algia
-	328. algid
-	329. alginatespl.
-	330. algodystrophy
+		1. antilymphocyte globulin. See ANTILYMPHOCYTE SERUM.
+	326. [[algesimeter]]
+	327. [[-algia]]
+	328. [[algid]]
+	329. [[alginates]]
+	330. [[algodystrophy]]
 	
 	331. algoliptin
-	332. algorithm
-	333. alienation
-	334. alien limb syndrome
-	335. alimemazine
-	336. alimentary canal
+		1. see DPP-IV INHIBITORS.
+	332. [[algorithm]]
+	333. [[alienation]]
+	334. [[alien limb syndrome]]
+	335. [[alimemazine]]
+	336. [[alimentary canal]]
 	337. alitretinoin
-	338. alizarin
+		1. $n$. see RETINOID.
+	338. [[alizarin]]
 	339. ALK
-	340. alkalaemia
+		1. see AUTOMATED LAMELLAR KERATECTOMY.
+	340. [[alkalaemia]]
 	
-	341. alkaloid
-	342. alkalosis
+	341. [[alkaloid]]
+	342. [[alkalosis]]
 	343. alkaptonuria
-	344. alkylating agents
-	345. allantois
-	346. allele
+		1. $n$. see ALCAPTONURIA.
+	344. [[alkylating agents]]
+	345. [[allantois]]
+	346. [[allele]]
 	347. allelomorph
-	348. allergen
-	349. allergy
-	350. allied health professional
+		1. n. see allele
+	348. [[allergen]]
+	349. [[allergy]]
+	350. [[allied health professional]]
 	
 	351. alloantibody
+		1. n. see isoantibody
 	352. alloantigen
-	353. allodynia
-	354. allogeneic
-	355. allograft
-	356. alloisoleucine
-	357. allopathy((in homeopathic medicine))
-	358. alloplasty
-	359. allopurinol
+		1. n. see isoantigen
+	353. [[allodynia]]
+	354. [[allogeneic]]
+	355. [[allograft]]
+	356. [[alloisoleucine]]
+	357. [[allopathy]]
+	358. [[alloplasty]]
+	359. [[allopurinol]]
 	360. almotriptan
+		1. $n$. see $5 \mathrm{HT}_{1}$ AGONIST.
 	
-	361. alopecia
-	362. alpha-1 antitrypsin deficiency
-	363. alpha-fetoprotein
-	364. alpha-glucosidase inhibitor
+	361. [[alopecia]]
+	362. [[alpha-1 antitrypsin deficiency]]
+	363. [[alpha-fetoprotein]]
+	364. [[alpha-glucosidase inhibitor]]
 	365. alpha agonist
-	366. alpha blocker
-	367. alphavirus
-	368. Alport's syndrome
-	369. alprazolam
-	370. alprostadil
+		1. see SYMPATHOMIMETIC.
+	366. [[alpha blocker]]
+	367. [[alphavirus]]
+	368. [[Alport's syndrome]]
+	369. [[alprazolam]]
+	370. [[alprostadil]]
 	
 	371. ALS
+		1. ALS
+		2. (1) amyotrophic lateral sclerosis. See MOTOR NEURON DISEASE. 
+		3. (2) see ADVANCED LIFE SUPPORT. 
+		4. (3) see ANTILYMPHOCYTE SERUM.
 	372. ALT
-	373. alteplase
+		1. ALT 
+		2. (1) see ALANINE AMINOTRANSFERASE. 
+		3. (2) argon laser trabeculoplasty.
+	373. [[alteplase]]
 	374. alternative medicine
-	375. altitude sickness
-	376. altruistic donation
-	377. aluminium chloride hexahydrate
-	378. aluminium hydroxide
+		1. See complementary medicine
+	375. [[altitude sickness]]
+	376. [[altruistic donation]]
+	377. [[aluminium chloride hexahydrate]]
+	378. [[aluminium hydroxide]]
 	379. alveolar osteotis
-	380. alveolitis
+		1. see DRY SOCKET.
+	380. [[alveolitis]]
 	
-	381. alveolus
-	382. alverine citrate
-	383. alveus
-	384. Alzheimer's disease
+	381. [[alveolus]]
+	382. [[alverine citrate]]
+	383. [[alveus]]
+	384. [[Alzheimer's disease]]
 	385. AMA
-	386. amalgam
-	387. Amanita
-	388. amantadine
-	389. amaurosis
-	390. ambitendence
+		1. see American Medical Association.
+	386. [[amalgam]]
+	387. [[Amanita]]
+	388. [[amantadine]]
+	389. [[amaurosis]]
+	390. [[ambitendence]]
 	
-	391. ambivalence
-	392. Amblyomma
-	393. amblyopia
-	394. amblyoscope
-	395. AMD
-	396. amelia
-	397. ameloblast
-	398. ameloblastoma
-	399. amelogenesis
-	400. amenorrhoea
+	391. [[ambivalence]]
+	392. [[Amblyomma]]
+	393. [[amblyopia]]
+	394. [[amblyoscope]]
+	395. [[AMD]]
+	396. [[amelia]]
+	397. [[ameloblast]]
+	398. [[ameloblastoma]]
+	399. [[amelogenesis]]
+	400. [[amenorrhoea]]
 	
-	401. American Medical Association
+	401. [[American Medical Association]]
 	402. amethocaine
-	403. ametropia
+		1. $n$. see TETRACAINE.
+	403. [[ametropia]]
 	404. amfebutamone
-	405. amiloride
-	406. amino acid
+		1. $n$. see BUPROPION.
+	405. [[amiloride]]
+	406. [[amino acid]]
 	407. aminoacidopathy
-	408. aminoglycosidespl.
-	409. aminopeptidase
-	410. aminophylline
+		1. n. see MAPLE SYRUP URINE DISEASE; METHYLMALONIC ACIDURIA.
+	408. [[aminoglycosides]]
+	409. [[aminopeptidase]]
+	410. [[aminophylline]]
 	
-	411. aminosalicylatespl.
-	412. amiodarone
+	411. [[aminosalicylates]]
+	412. [[amiodarone]]
 	413. amisulpride
-	414. amitosis
-	415. amitriptyline
-	416. amlodipine
-	417. amnesia
+		1. $n$. see ANTIPSYCHOTIC.
+	414. [[amitosis]]
+	415. [[amitriptyline]]
+	416. [[amlodipine]]
+	417. [[amnesia]]
 	418. amnestic MCI
-	419. amnihook
-	420. amniocentesis
+		1. See mild cognitive impairment
+	419. [[amnihook]]
+	420. [[amniocentesis]]
 	
-	421. amnion
-	422. amnioreduction
-	423. amniotic cavity
-	424. amniotic fluid
-	425. amniotic fluid embolism
-	426. amniotomy
-	427. amobarbital
-	428. amoeba
+	421. [[amnion]]
+	422. [[amnioreduction]]
+	423. [[amniotic cavity]]
+	424. [[amniotic fluid]]
+	425. [[amniotic fluid embolism]]
+	426. [[amniotomy]]
+	427. [[amobarbital]]
+	428. [[amoeba]]
 	429. amoebiasis
-	430. amoebocyte
+		1. $n$. see DYSENTERY.
+	430. [[amoebocyte]]
 	
-	431. amoeboma
-	432. amok
-	433. amorolfine
-	434. amoxicillin
-	435. AMP
-	436. ampere
-	437. amphetaminespl.
-	438. amphiarthrosis
+	431. [[amoeboma]]
+	432. [[amok]]
+	433. [[amorolfine]]
+	434. [[amoxicillin]]
+	435. [[AMP]]
+	436. [[ampere]]
+	437. [[amphetamines]]
+	438. [[amphiarthrosis]]
 	439. amphoric breath sounds
-	440. amphotericin
+		1. See breath sounds
+	440. [[amphotericin]]
 	
-	441. ampicillin
-	442. ampoule
-	443. ampulla
-	444. amputation
-	445. Amsler grid
-	446. amygdala
-	447. amylase
+	441. [[ampicillin]]
+	442. [[ampoule]]
+	443. [[ampulla]]
+	444. [[amputation]]
+	445. [[Amsler grid]]
+	446. [[amygdala]]
+	447. [[amylase]]
 	448. amylobarbitone
-	449. amyloid
-	450. amyloidosis
+		1. $n$. see AMOBARBITAL.
+	449. [[amyloid]]
+	450. [[amyloidosis]]
 	
 	451. amylopectin
+		1. n. see starch
 	452. amylose
-	453. amyotonia congenita
-	454. amyotrophy
-	455. an-prefix.
+		1. n. see starch
+	453. [[amyotonia congenita]]
+	454. [[amyotrophy]]
+	455. an-
+		1. prefix. see A-.
 	456. ANA
-	457. anabolic
-	458. anabolism
-	459. anacidity
-	460. anacrotism
+		1. see ANTINUCLEAR ANTIBODY.
+	457. [[anabolic]]
+	458. [[anabolism]]
+	459. [[anacidity]]
+	460. [[anacrotism]]
 	
-	461. anaemia
-	462. anaerobe
-	463. anaerobic
-	464. anaesthesia
-	465. anaesthetic
-	466. anaesthetist
-	467. anagen
+	461. [[anaemia]]
+	462. [[anaerobe]]
+	463. [[anaerobic]]
+	464. [[anaesthesia]]
+	465. [[anaesthetic]]
+	466. [[anaesthetist]]
+	467. [[anagen]]
 	468. anákhré
-	469. anakinra
-	470. anal
+		1. $n$. see GOUNDOU.
+	469. [[anakinra]]
+	470. [[anal]]
 	
-	471. anal canal
-	472. analeptic
-	473. anal fissure
-	474. analgesia
-	475. analgesic
-	476. analgesic nephropathy
+	471. [[anal canal]]
+	472. [[analeptic]]
+	473. [[anal fissure]]
+	474. [[analgesia]]
+	475. [[analgesic]]
+	476. [[analgesic nephropathy]]
 	477. anal incontinence
-	478. analogous
-	479. analogue
-	480. analogue image
+		1. see INCONTINENCE.
+	478. [[analogous]]
+	479. [[analogue]]
+	480. [[analogue image]]
 	
 	481. anal sphincter tears
-	482. analysis
-	483. anamnesis
-	484. anankastic
-	485. anaphase
-	486. anaphylaxis
-	487. anaplasia
-	488. anasarca
-	489. anastomosis
+		1. see PERINEAL TEAR; OBSTETRIC ANAL SPHINCTER INJURY.
+	482. [[analysis]]
+	483. [[anamnesis]]
+	484. [[anankastic]]
+	485. [[anaphase]]
+	486. [[anaphylaxis]]
+	487. [[anaplasia]]
+	488. [[anasarca]]
+	489. [[anastomosis]]
 	490. anastrazole
+		1. $n$. see AROMATASE INHIBITOR.
 	
-	491. anatomical position
-	492. anatomical snuffbox
-	493. anatomy
+	491. [[anatomical position]]
+	492. [[anatomical snuffbox]]
+	493. [[anatomy]]
 	494. anatoxin
-	495. ANCA
-	496. anconeus
-	497. Ancylostoma
-	498. ancylostomiasis
+		1. n. a former name for toxoid
+	495. [[ANCA]]
+	496. [[anconeus]]
+	497. [[Ancylostoma]]
+	498. [[ancylostomiasis]]
 	499. Anderson-Fabry disease
-	500. ANDI
+		1. see FABRY DISEASE.
+	500. [[ANDI]]
 	
-	501. andr-
-	502. androblastoma
-	503. androgen
-	504. androgen insensitivity syndrome
-	505. androgenization
-	506. andrology
-	507. andropause
+	501. [[andr-]]
+	502. [[androblastoma]]
+	503. [[androgen]]
+	504. [[androgen insensitivity syndrome]]
+	505. [[androgenization]]
+	506. [[andrology]]
+	507. [[andropause]]
 	508. androstenedione
-	509. androsterone
-	510. anencephaly
+		1. $n$. see ADRENARCHE; DEHYDROEPIANDROSTERONE; TESTOSTERONE.
+	509. [[androsterone]]
+	510. [[anencephaly]]
 	
-	511. anergy
-	512. aneuploidy
+	511. [[anergy]]
+	512. [[aneuploidy]]
 	513. aneurine
-	514. aneurysm
-	515. Angelman syndrome
-	516. angi-
+		1. n. see Vitamin $B_1.$
+	514. [[aneurysm]]
+	515. [[Angelman syndrome]]
+	516. [[angi-]]
 	517. angiitis
-	518. angina
-	519. angina pectoris
+		1. n. see vasculitis
+	518. [[angina]]
+	519. [[angina pectoris]]
 	520. angio-oedema
+		1. n. see urticaria
 	
-	521. angiodysplasia
-	522. angiogenesis
-	523. angiogenesis inhibitor
-	524. angiography
-	525. angioid streaks
-	526. angiokeratoma
-	527. angioma
-	528. angioplasty
-	529. angioscope
+	521. [[angiodysplasia]]
+	522. [[angiogenesis]]
+	523. [[angiogenesis inhibitor]]
+	524. [[angiography]]
+	525. [[angioid streaks]]
+	526. [[angiokeratoma]]
+	527. [[angioma]]
+	528. [[angioplasty]]
+	529. [[angioscope]]
 	530. angiospasm
+		1. n. See Raynaud's Disease
 	
-	531. angiotensin
-	532. angiotensin II antagonist
-	533. angle
+	531. [[angiotensin]]
+	532. [[angiotensin II antagonist]]
+	533. [[angle]]
 	534. angle of Louis
-	535. angstrom
-	536. anhedonia
-	537. anhidrosis
-	538. anhidrotic
-	539. anhydraemia
-	540. anhydramnios
+		1. See sternum
+	535. [[angstrom]]
+	536. [[anhedonia]]
+	537. [[anhidrosis]]
+	538. [[anhidrotic]]
+	539. [[anhydraemia]]
+	540. [[anhydramnios]]
 	
-	541. anhydrase
-	542. anima/animus
-	543. anion
-	544. aniridia
-	545. aniseikonia
-	546. anisocoria
-	547. anisocytosis
-	548. anisomelia
-	549. anisometropia
-	550. ankle
+	541. [[anhydrase]]
+	542. anima-animus
+		1. n. see archetype
+	543. [[anion]]
+	544. [[aniridia]]
+	545. [[aniseikonia]]
+	546. [[anisocoria]]
+	547. [[anisocytosis]]
+	548. [[anisomelia]]
+	549. [[anisometropia]]
+	550. [[ankle]]
 	
-	551. ankle jerk
-	552. ankyloblepharon
-	553. ankyloglossia
+	551. [[ankle jerk]]
+	552. [[ankyloblepharon]]
+	553. [[ankyloglossia]]
 	554. ankylosing spondylitis
-	555. ankylosis
+		1. see SPONDYLITIS.
+	555. [[ankylosis]]
 	556. Ankylostoma
-	557. annulus((in anatomy))
-	558. anodontia
-	559. anodyne
+		1. n. see Ancylostoma.
+	557. [[annulus]]
+	558. [[anodontia]]
+	559. [[anodyne]]
 	560. anogenital warts
+		1. see CONDYLOMA; WART.
 	
-	561. anomaloscope
-	562. anomalous pulmonary venous drainage
-	563. anomaly
-	564. anomia
-	565. anonychia
-	566. Anopheles
-	567. anophthalmos
-	568. anoplasty
-	569. anorchism
-	570. anorexia
+	561. [[anomaloscope]]
+	562. [[anomalous pulmonary venous drainage]]
+	563. [[anomaly]]
+	564. [[anomia]]
+	565. [[anonychia]]
+	566. [[Anopheles]]
+	567. [[anophthalmos]]
+	568. [[anoplasty]]
+	569. [[anorchism]]
+	570. [[anorexia]]
 	
 	571. anorexia nervosa
 	572. anosmia
@@ -1210,7 +1275,7 @@ Reviewed: false
 	1053. baclofen
 	1054. bacteraemia
 	1055. bacteri-
-	1056. bacteriapl.
+	1056. bacteria
 	1057. bacterial vaginosis
 	1058. bactericidal
 	1059. bacteriology
@@ -1348,7 +1413,7 @@ Reviewed: false
 	1179. benzalkonium
 	1180. benzhexol
 	
-	1181. benzodiazepinespl.
+	1181. benzodiazepines
 	1182. benzoic acid
 	1183. benzoyl peroxide
 	1184. benzydamine hydrochloride
@@ -1476,7 +1541,7 @@ Reviewed: false
 	1295. Bishop score
 	1296. Bismarck brown
 	1297. bisoprolol
-	1298. bisphosphonatespl.
+	1298. bisphosphonates
 	1299. bistoury
 	1300. bite-raiser
 	
@@ -1618,7 +1683,7 @@ Reviewed: false
 	1424. Bourneville's disease
 	1425. boutonnière deformity
 	1426. bovine spongiform encephalopathy
-	1427. bow-legspl.
+	1427. bow-legs
 	1428. bowel
 	1429. Bowen's disease
 	1430. Bowman's capsule
@@ -2035,7 +2100,7 @@ Reviewed: false
 	1803. catatonia
 	1804. CATCH-22
 	1805. catchment area
-	1806. catecholaminespl.
+	1806. catecholamines
 	1807. categorical imperative
 	1808. catgut
 	1809. catharsis
@@ -2242,7 +2307,7 @@ Reviewed: false
 	1991. chignon
 	1992. chigoe
 	1993. chikungunya fever
-	1994. chilblainspl.
+	1994. chilblains
 	1995. Child-Turcotte-Pugh score
 	1996. child abuse
 	1997. childbirth
@@ -3125,7 +3190,7 @@ Reviewed: false
 	2794. cytogenetics
 	2795. cytokeratin
 	2796. cytokine inhibitor
-	2797. cytokinespl.
+	2797. cytokines
 	2798. cytokinesis
 	2799. cytology
 	2800. cytolysis
@@ -3254,7 +3319,7 @@ Reviewed: false
 	2911. delirium
 	2912. delirium tremens
 	2913. delivery
-	2914. dellenpl.
+	2914. dellen
 	2915. deltoid
 	2916. delusion
 	2917. delusional infestation
@@ -3704,7 +3769,7 @@ Reviewed: false
 	
 	3321. drug dependence
 	3322. drug intolerance
-	3323. drusenpl.
+	3323. drusen
 	3324. DRVs
 	3325. dry mouth
 	3326. dry socket
@@ -3724,7 +3789,7 @@ Reviewed: false
 	3339. duct
 	3340. ductal carcinoma in situ
 	
-	3341. ductionspl.
+	3341. ductions
 	3342. ductless gland
 	3343. ductule
 	3344. ductus
@@ -4329,7 +4394,7 @@ Reviewed: false
 	3889. etoricoxib
 	3890. eu-prefix denoting
 	
-	3891. eubacteriapl.
+	3891. eubacteria
 	3892. eucalyptol
 	3893. euchromatin
 	3894. eugenics
@@ -4613,7 +4678,7 @@ Reviewed: false
 	4147. fever
 	4148. FGF23
 	4149. fibr-
-	4150. fibratespl.
+	4150. fibrates
 	
 	4151. fibre
 	4152. fibre optics
@@ -4722,7 +4787,7 @@ Reviewed: false
 	4246. flexor
 	4247. flexure
 	4248. flight of ideas
-	4249. floaterspl.
+	4249. floaters
 	4250. floccillation
 	
 	4251. flocculation
@@ -5081,7 +5146,7 @@ Reviewed: false
 	4572. genioplasty
 	4573. genital
 	4574. genital herpes
-	4575. genitaliapl.
+	4575. genitalia
 	4576. genito-
 	4577. genitourinary medicine
 	4578. genodermatosis
@@ -5167,7 +5232,7 @@ Reviewed: false
 	
 	4651. glatiramer
 	4652. glaucoma
-	4653. glaukomfleckenpl.
+	4653. glaukomflecken
 	4654. Gleason grade
 	4655. Gleason score
 	4656. gleet
@@ -5491,7 +5556,7 @@ Reviewed: false
 	4945. haemorrhagic
 	4946. haemorrhagic disease of the newborn
 	4947. haemorrhoidectomy
-	4948. haemorrhoidspl.
+	4948. haemorrhoids
 	4949. haemosalpinx
 	4950. haemosiderin
 	
@@ -5515,7 +5580,7 @@ Reviewed: false
 	4967. hallux rigidus
 	4968. hallux valgus
 	4969. hallux varus
-	4970. haloespl.
+	4970. haloes
 	
 	4971. haloperidol
 	4972. halophilic
@@ -5938,7 +6003,7 @@ Reviewed: false
 	5351. hyaluronic acid
 	5352. hyaluronidase
 	5353. hybrid
-	5354. hybridomaspl.
+	5354. hybridomas
 	5355. HYCOSY
 	5356. hydatid
 	5357. hydatid disease
@@ -6397,7 +6462,7 @@ Reviewed: false
 	5769. infundibulum
 	5770. infusion
 	
-	5771. ingestapl.
+	5771. ingesta
 	5772. ingestion
 	5773. ingravescent
 	5774. ingrowing toenail
@@ -6917,7 +6982,7 @@ Reviewed: false
 	6241. L-dopa
 	6242. labelling index
 	6243. labetalol
-	6244. labiapl.
+	6244. labia
 	6245. labial
 	6246. labio-
 	6247. labiomancy
@@ -7087,7 +7152,7 @@ Reviewed: false
 	6396. lept-
 	6397. leptin
 	6398. leptocyte
-	6399. leptomeningespl.
+	6399. leptomeninges
 	6400. leptomeningitis
 	
 	6401. leptophonia
@@ -7152,7 +7217,7 @@ Reviewed: false
 	6455. liaison psychiatry
 	6456. libido
 	6457. Librium
-	6458. licepl.
+	6458. lice
 	6459. licence
 	6460. licensing
 	
@@ -7719,7 +7784,7 @@ Reviewed: false
 	
 	6971. megaureter
 	6972. megestrol
-	6973. meglitinidespl.
+	6973. meglitinides
 	6974. megophthalmia
 	6975. meibomian cyst
 	6976. meibomian glands
@@ -7769,7 +7834,7 @@ Reviewed: false
 	7016. Ménétrier's disease
 	7017. Ménière's disease
 	7018. mening-
-	7019. meningespl.
+	7019. meninges
 	7020. meningioma
 	
 	7021. meningism
@@ -7945,7 +8010,7 @@ Reviewed: false
 	7176. microbe
 	7177. microbiology
 	7178. microblepharon
-	7179. microbubblespl. ((in radiology))
+	7179. microbubbles ((in radiology))
 	7180. microcephaly
 	
 	7181. microcheilia
@@ -8416,7 +8481,7 @@ Reviewed: false
 	7604. narcolepsy
 	7605. narcosis
 	7606. narcotic
-	7607. narespl.
+	7607. nares
 	7608. narrative ethics
 	7609. NAS
 	7610. nasal bone
@@ -8437,7 +8502,7 @@ Reviewed: false
 	7623. natalizumab
 	7624. natal teeth
 	7625. nateglinide
-	7626. natespl.
+	7626. nates
 	7627. national census
 	7628. National Clinical Assessment Service
 	7629. National Health Service((in Britain))
@@ -8687,7 +8752,7 @@ Reviewed: false
 	
 	7851. Nissl granules
 	7852. nit
-	7853. nitratespl.
+	7853. nitrates
 	7854. nitrazepam
 	7855. nitric acid
 	7856. nitric oxide
@@ -9761,7 +9826,7 @@ Reviewed: false
 	8827. pesticide
 	8828. PET
 	8829. PET/CT scanning
-	8830. petechiaepl.
+	8830. petechiae
 	
 	8831. pethidine
 	8832. petit mal
@@ -9830,7 +9895,7 @@ Reviewed: false
 	8890. phenobarbital
 	
 	8891. phenol
-	8892. phenothiazinespl.
+	8892. phenothiazines
 	8893. phenotype
 	8894. phenoxybenzamine
 	8895. phenoxymethylpenicillin
@@ -9969,7 +10034,7 @@ Reviewed: false
 	9016. pigmentation
 	9017. pigment epitheliopathy
 	9018. piles
-	9019. pilipl.
+	9019. pili
 	9020. pill
 	
 	9021. pillar((in anatomy))
@@ -10348,7 +10413,7 @@ Reviewed: false
 	
 	9361. pre-excitation
 	9362. pre-gangrene
-	9363. prebioticspl.
+	9363. prebiotics
 	9364. precancerous
 	9365. precipitin
 	9366. precipitinogen
@@ -10450,7 +10515,7 @@ Reviewed: false
 	9453. probe
 	9454. probenecid
 	9455. probing depth
-	9456. probioticspl.
+	9456. probiotics
 	9457. procarbazine
 	9458. procarcinogen
 	9459. process
@@ -10583,7 +10648,7 @@ Reviewed: false
 	9574. protoplasm
 	9575. protoplast
 	9576. protoporphyrin IX
-	9577. protozoapl.
+	9577. protozoa
 	9578. protozoan
 	9579. protozoology
 	9580. protruding ears
@@ -10720,7 +10785,7 @@ Reviewed: false
 	9699. pubovaginal sling
 	9700. pudendal nerve
 	
-	9701. pudendum((pl.)
+	9701. pudendum(()
 	9702. puerperal
 	9703. puerperal cardiomyopathy
 	9704. puerperal infection
@@ -11044,7 +11109,7 @@ Reviewed: false
 	9993. regional specialty
 	9994. registrar
 	9995. regression((in psychiatry))
-	9996. regulationspl.
+	9996. regulations
 	9997. regulatory T cell
 	9998. regurgitation
 	9999. rehabilitation
@@ -11205,7 +11270,7 @@ Reviewed: false
 	10140. rhabdomyoma
 	
 	10141. rhabdomyosarcoma
-	10142. rhagadespl.
+	10142. rhagades
 	10143. rhegmatogenous
 	10144. rheo-
 	10145. rhesus factor
@@ -11255,7 +11320,7 @@ Reviewed: false
 	10185. Richter's hernia
 	10186. ricin
 	10187. rickets
-	10188. rickettsiaepl.
+	10188. rickettsiae
 	10189. rickettsial pox
 	10190. ridge
 	
@@ -11936,7 +12001,7 @@ Reviewed: false
 	10804. soporific
 	10805. sorafenib
 	10806. sorbitol
-	10807. sordespl.
+	10807. sordes
 	10808. sore
 	10809. sore throat
 	10810. sotalol
@@ -12181,7 +12246,7 @@ Reviewed: false
 	11027. stercobilin
 	11028. stercolith
 	11029. stereognosis
-	11030. stereoisomerspl.
+	11030. stereoisomers
 	
 	11031. stereopsis
 	11032. stereoscopic vision
@@ -12605,11 +12670,11 @@ Reviewed: false
 	11412. TCRE
 	11413. Td/IPV
 	11414. tear gas
-	11415. tearspl.
+	11415. tears
 	11416. technetium-99m
 	11417. tectospinal tract
 	11418. tectum
-	11419. teethpl.
+	11419. teeth
 	11420. tegafur
 	
 	11421. tegmen
@@ -12715,7 +12780,7 @@ Reviewed: false
 	11512. tetra-
 	11513. tetracaine
 	11514. tetracosactide
-	11515. tetracyclinespl.
+	11515. tetracyclines
 	11516. tetrad((in genetics))
 	11517. tetradactyly
 	11518. tetrahydrocannabinol
@@ -12768,11 +12833,11 @@ Reviewed: false
 	
 	11561. thiamine
 	11562. thiazide diuretic
-	11563. thiazolidinedionespl.
+	11563. thiazolidinediones
 	11564. Thiersch's graft
 	11565. thin membrane disease
 	11566. thioguanine
-	11567. thionamidespl.
+	11567. thionamides
 	11568. thiopental
 	11569. thiophilic
 	11570. thioxanthene
@@ -12944,7 +13009,7 @@ Reviewed: false
 	
 	11721. tonsillectomy
 	11722. tonsillitis
-	11723. tonsilspl.
+	11723. tonsils
 	11724. tonus
 	11725. tooth
 	11726. tooth extraction
@@ -13201,7 +13266,7 @@ Reviewed: false
 	11954. tropical ulcer
 	11955. tropicamide
 	11956. tropocollagen
-	11957. troponinspl.
+	11957. troponins
 	11958. trospium chloride
 	11959. Trousseau's sign
 	11960. TRT
@@ -13287,7 +13352,7 @@ Reviewed: false
 	12032. TVT
 	12033. twin-peak sign
 	12034. twin-to-twin transfusion syndrome
-	12035. twinspl.
+	12035. twins
 	12036. tylosis
 	12037. tympan-
 	12038. tympanic cavity
@@ -13504,7 +13569,7 @@ Reviewed: false
 	12230. valsartan
 	
 	12231. value judgment
-	12232. valuespl. ((in ethics))
+	12232. values ((in ethics))
 	12233. valve
 	12234. valvoplasty
 	12235. valvotomy
@@ -13525,7 +13590,7 @@ Reviewed: false
 	12249. varicectomy
 	12250. varicella
 	
-	12251. varicespl.
+	12251. varices
 	12252. varicocele
 	12253. varicose veins
 	12254. varicotomy
@@ -13539,7 +13604,7 @@ Reviewed: false
 	12261. vas-
 	12262. vasa efferentia
 	12263. vasa praevia
-	12264. vasa vasorumpl.
+	12264. vasa vasorum
 	12265. vascular
 	12266. vascular dementia
 	12267. vascular endothelial growth factor
@@ -13729,7 +13794,7 @@ Reviewed: false
 	12434. virtue ethics
 	12435. virulence
 	12436. virus
-	12437. viscerapl.
+	12437. viscera
 	12438. visceral arch
 	12439. visceral cleft
 	12440. visceral hyperalgesia
@@ -13927,7 +13992,7 @@ Reviewed: false
 	12614. Wuchereria
 	12615. X-linked disease
 	12616. X-linked lymphoproliferative syndrome
-	12617. X-rayspl.
+	12617. X-rays
 	12618. X-ray screening
 	12619. xanthaemia
 	12620. xanthelasma
