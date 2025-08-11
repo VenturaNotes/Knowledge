@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. inflammation of one or more joints, characterized by pain, swelling, warmth, redness of the overlying skin, and diminished range of joint motion. There are four basic subgroups of arthritis: noninflammatory arthritis, including osteoarthritis, neuropathic arthritis, and osteochondritis dissecans; inflammatory arthritis, including rheumatoid arthritis, gout, psoriatic arthritis, and juvenile idiopathic arthritis; infectious arthritis, including septic arthritis; and haemorrhagic arthritis, including haemophilic arthritis (which occurs in patients with haemophilia). Arthritis may be monoarticular (involving one joint), pauciarticular (involving four or fewer joints), or polyarticular (involving five or more joints, either simultaneously or in sequence). Diagnosis is based on clinical and laboratory findings, including X-rays, blood tests, and where necessary analysis of synovial fluid obtained by arthrocentesis. Treatment is specific for each subgroup and may include any combination of supportive measures with activity modification, analgesics, antiinflammatory medications (e.g. NSAIDs), disease-modifying antirheumatic drugs (DMARDs), corticosteroids, and surgical procedures, such as joint replacement (see ARTHROPLASTY). —arthritic adj.
+- https://www.versusarthritis.org/
+	- Website of Versus Arthritis (a merger of the former Arthritis Care and Arthritis Research): advice on living with arthritis together with the latest research into the causes, treatment, and cure of the condition
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
