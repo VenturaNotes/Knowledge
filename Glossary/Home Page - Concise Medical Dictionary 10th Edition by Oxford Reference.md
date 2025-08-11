@@ -742,522 +742,603 @@ Reviewed: false
 	569. [[anorchism]]
 	570. [[anorexia]]
 	
-	571. anorexia nervosa
-	572. anosmia
-	573. anosognosia
-	574. anovulation
-	575. anoxaemia
-	576. anoxia
+	571. [[anorexia nervosa]]
+	572. [[anosmia]]
+	573. [[anosognosia]]
+	574. [[anovulation]]
+	575. [[anoxaemia]]
+	576. [[anoxia]]
 	577. ANP
-	578. ansa((in anatomy))
-	579. ansiform((in anatomy))
-	580. ant-
+		1. atrial natriuretic peptide.
+	578. [[ansa]]
+	579. [[ansiform]]
+	580. [[ant-]]
 	
 	581. Antabuse
-	582. antacid
-	583. antagonist
-	584. antazoline
-	585. ante-
-	586. anteflexion
-	587. antegrade
+		1. n. see disulfiram
+	582. [[antacid]]
+	583. [[antagonist]]
+	584. [[antazoline]]
+	585. [[ante-]]
+	586. [[anteflexion]]
+	587. [[antegrade]]
 	588. ante mortem
+		1. before death. Compare post mortem
 	589. antenatal diagnosis
-	590. antepartum
+		1. see prenatal diagnosis
+	590. [[antepartum]]
 	
-	591. antepartum haemorrhage
-	592. anterior
-	593. anteroposterior
-	594. anteversion
-	595. anthelmintic
+	591. [[antepartum haemorrhage]]
+	592. [[anterior]]
+	593. [[anteroposterior]]
+	594. [[anteversion]]
+	595. [[anthelmintic]]
 	596. anthracosis
-	597. anthracycline
-	598. anthrax
-	599. anthrop-
-	600. anthropometry
+		1. $n$. see COAL-WORKER'S PNEUMOCONIOSIS.
+	597. [[anthracycline]]
+	598. [[anthrax]]
+	599. [[anthrop-]]
+	600. [[anthropometry]]
 	
-	601. anthropozoonosis
-	602. anti-androgen
-	603. anti-arrhythmic
-	604. anti-D immunoglobulin
-	605. anti-inflammatory
+	601. [[anthropozoonosis]]
+	602. [[anti-androgen]]
+	603. [[anti-arrhythmic]]
+	604. [[anti-D immunoglobulin]]
+	605. [[anti-inflammatory]]
 	606. anti-Müllerian hormone
-	607. anti-oestrogen
+		1. See Müllerian Duct.
+	607. [[anti-oestrogen]]
 	608. anti-TNF drugs
-	609. anti-VEGF
-	610. antibacterial
+		1. See cytokine inhibitor
+	609. [[anti-VEGF]]
+	610. [[antibacterial]]
 	
-	611. antibiotic
-	612. antibody
-	613. anticardiolipin antibodies
+	611. [[antibiotic]]
+	612. [[antibody]]
+	613. [[anticardiolipin antibodies]]
 	614. anticholinergic
-	615. anticholinesterase
-	616. anticoagulant
-	617. anticonvulsant
-	618. antidepressant
-	619. antidiabetic drugs
+		1. adj. see ANTIMUSCARINIC.
+	615. [[anticholinesterase]]
+	616. [[anticoagulant]]
+	617. [[anticonvulsant]]
+	618. [[antidepressant]]
+	619. [[antidiabetic drugs]]
 	620. antidiuretic hormone
+		1. (ADH) see vasopressin
 	
-	621. antidote
-	622. antidromic
-	623. antiemetic
+	621. [[antidote]]
+	622. [[antidromic]]
+	623. [[antiemetic]]
 	624. antiepileptic drug
-	625. antifibrinolytic
-	626. antifungal
-	627. antigen
-	628. antigen-presenting cell
-	629. antihelix
-	630. antihistamine
+		1. see ANTICONVULSANT.
+	625. [[antifibrinolytic]]
+	626. [[antifungal]]
+	627. [[antigen]]
+	628. [[antigen-presenting cell]]
+	629. [[antihelix]]
+	630. [[antihistamine]]
 	
-	631. antihypertensive drugs
-	632. antiketogenic
-	633. antilymphocyte serum
-	634. antimetabolite
-	635. antimitotic
-	636. antimuscarinic
-	637. antimutagen
+	631. [[antihypertensive drugs]]
+	632. [[antiketogenic]]
+	633. [[antilymphocyte serum]]
+	634. [[antimetabolite]]
+	635. [[antimitotic]]
+	636. [[antimuscarinic]]
+	637. [[antimutagen]]
 	638. antimycotic
-	639. antinuclear antibody
-	640. antioxidant
+		1. adj. see antifungal
+	639. [[antinuclear antibody]]
+	640. [[antioxidant]]
 	
-	641. antiphospholipid antibody syndrome
-	642. antiplatelet drug
-	643. antipruritic
-	644. antipsychotic
-	645. antipyretic
-	646. antiretroviral drug
-	647. antisecretory drug
-	648. antisepsis
-	649. antiseptic
-	650. antiserum
+	641. [[antiphospholipid antibody syndrome]]
+	642. [[antiplatelet drug]]
+	643. [[antipruritic]]
+	644. [[antipsychotic]]
+	645. [[antipyretic]]
+	646. [[antiretroviral drug]]
+	647. [[antisecretory drug]]
+	648. [[antisepsis]]
+	649. [[antiseptic]]
+	650. [[antiserum]]
 	
-	651. antisocial personality disorder
-	652. antispasmodic
-	653. antispastic
-	654. antitachycardia pacing
-	655. antithyroid drugs
-	656. antitoxin
-	657. antitragus
-	658. antitussive
-	659. antivenene
-	660. antiviral drug
+	651. [[antisocial personality disorder]]
+	652. [[antispasmodic]]
+	653. [[antispastic]]
+	654. [[antitachycardia pacing]]
+	655. [[antithyroid drugs]]
+	656. [[antitoxin]]
+	657. [[antitragus]]
+	658. [[antitussive]]
+	659. [[antivenene]]
+	660. [[antiviral drug]]
 	
 	661. Anton's syndrome
-	662. antrectomy
-	663. antroscopy
-	664. antrostomy
-	665. antrum
+		1. see ANOSOGNOSIA. \[G. Anton (1858-1933), Austrian neurologist]
+	662. [[antrectomy]]
+	663. [[antroscopy]]
+	664. [[antrostomy]]
+	665. [[antrum]]
 	666. ANUG
-	667. anuria
-	668. anus
-	669. anvil((in anatomy))
-	670. anxiety
+		1. acute necrotizing ulcerating gingivitis: see ULCERATIVE GINGIVITIS.
+	667. [[anuria]]
+	668. [[anus]]
+	669. anvil
+		1. $n$. (in anatomy) see INCUS.
+	670. [[anxiety]]
 	
-	671. anxiety management
-	672. anxiolytic
-	673. any qualified provider
-	674. aorta
+	671. [[anxiety management]]
+	672. [[anxiolytic]]
+	673. [[any qualified provider]]
+	674. [[aorta]]
 	675. aortic aneurysm
-	676. aortic arch
-	677. aortic regurgitation
-	678. aortic replacement
-	679. aortic stenosis
-	680. aortic valve
+		1. see ANEURYSM.
+	676. [[aortic arch]]
+	677. [[aortic regurgitation]]
+	678. [[aortic replacement]]
+	679. [[aortic stenosis]]
+	680. [[aortic valve]]
 	
-	681. aortitis
-	682. aortocaval compression
-	683. aortography
+	681. [[aortitis]]
+	682. [[aortocaval compression]]
+	683. [[aortography]]
 	684. AP
-	685. APACHE scoring system
-	686. apareunia
-	687. apathetic hyperthyroidism
-	688. apathy
+		1. see ANTEROPOSTERIOR.
+	685. [[APACHE scoring system]]
+	686. [[apareunia]]
+	687. [[apathetic hyperthyroidism]]
+	688. [[apathy]]
 	689. APC
+		1. see ANTIGEN-PRESENTING CELL.
 	690. APD
+		1. (1) see AUDITORY PROCESSING DISORDER.
+		2. (2) automated peritoneal dialysis.
 	
-	691. aperient
-	692. Apert syndrome
-	693. apex
-	694. apex beat
-	695. apexification
-	696. apexogenesis
-	697. Apgar score
-	698. aphagia
-	699. aphakia
-	700. aphakic spectacles
+	691. [[aperient]]
+	692. [[Apert syndrome]]
+	693. [[apex]]
+	694. [[apex beat]]
+	695. [[apexification]]
+	696. [[apexogenesis]]
+	697. [[Apgar score]]
+	698. [[aphagia]]
+	699. [[aphakia]]
+	700. [[aphakic spectacles]]
 	
-	701. aphasia
-	702. aphonia
-	703. aphrodisiac
-	704. aphthous ulcer
-	705. apical abscess
-	706. apicectomy((in dentistry))
-	707. aplasia
-	708. aplasia cutis congenita
+	701. [[aphasia]]
+	702. [[aphonia]]
+	703. [[aphrodisiac]]
+	704. [[aphthous ulcer]]
+	705. [[apical abscess]]
+	706. [[apicectomy]]
+	707. [[aplasia]]
+	708. [[aplasia cutis congenita]]
 	709. aplastic anaemia
+		1. See anaemia
 	710. APMPPE
+		1. acute posterior multifocal placoid pigment epitheliopathy.
 	
-	711. apneusis
-	712. apnoea
-	713. apnoea index
-	714. apnoea monitor
-	715. apocrine
-	716. apolipoprotein
-	717. apomorphine
-	718. aponeurosis
-	719. apophysis
-	720. apophysitis
+	711. [[apneusis]]
+	712. [[apnoea]]
+	713. [[apnoea index]]
+	714. [[apnoea monitor]]
+	715. [[apocrine]]
+	716. [[apolipoprotein]]
+	717. [[apomorphine]]
+	718. [[aponeurosis]]
+	719. [[apophysis]]
+	720. [[apophysitis]]
 	
 	721. apoplexy
-	722. apoptosis
+		1. n. see stroke
+	722. [[apoptosis]]
 	723. appendectomy
-	724. appendicectomy
-	725. appendicitis
-	726. appendicular
-	727. appendix
-	728. apperception((in psychology))
-	729. appestat
-	730. applanation
+		1. $n$. the usual US term for appendicectomy.
+	724. [[appendicectomy]]
+	725. [[appendicitis]]
+	726. [[appendicular]]
+	727. [[appendix]]
+	728. [[apperception]]
+	729. [[appestat]]
+	730. [[applanation]]
 	
-	731. apple-core
-	732. applicator
-	733. apposition
-	734. appraisal
-	735. apraclonidine
-	736. apraxia
-	737. aprepitant
-	738. aproctia
-	739. apronectomy
-	740. aprosexia
+	731. [[apple-core]]
+	732. [[applicator]]
+	733. [[apposition]]
+	734. [[appraisal]]
+	735. [[apraclonidine]]
+	736. [[apraxia]]
+	737. [[aprepitant]]
+	738. [[aproctia]]
+	739. [[apronectomy]]
+	740. [[aprosexia]]
 	
 	741. APTT
-	742. APUD cells
-	743. apudoma
-	744. apyrexia
+		1. activated partial thromboplastin time (see PTTK).
+	742. [[APUD cells]]
+	743. [[apudoma]]
+	744. [[apyrexia]]
 	745. AQP
-	746. aquaporin
-	747. aqueduct((in anatomy))
-	748. aqueous humour
-	749. aqueous misdirection
+		1. see ANY QUALIFIED PROVIDER.
+	746. [[aquaporin]]
+	747. [[aqueduct]]
+	748. [[aqueous humour]]
+	749. [[aqueous misdirection]]
 	750. arachidonic acid
+		1. see ESSENTIAL FATTY ACID.
 	
-	751. arachnidism
-	752. arachnodactyly
-	753. arachnoid
-	754. arachnoiditis
-	755. arachnoid villus
-	756. arbor((in anatomy))
-	757. arbovirus
+	751. [[arachnidism]]
+	752. [[arachnodactyly]]
+	753. [[arachnoid]]
+	754. [[arachnoiditis]]
+	755. [[arachnoid villus]]
+	756. [[arbor]]
+	757. [[arbovirus]]
 	758. ARC
-	759. arc-eye
-	760. arch-
+		1. AIDS-related complex: see AIDS.
+	759. [[arc-eye]]
+	760. [[arch-]]
 	
-	761. archenteron
-	762. archetype((in Jungian psychology))
-	763. archipallium
-	764. arcuate keratotomy
-	765. arcuate uterus
-	766. arcus
+	761. [[archenteron]]
+	762. [[archetype]]
+	763. [[archipallium]]
+	764. [[arcuate keratotomy]]
+	765. [[arcuate uterus]]
+	766. [[arcus]]
 	767. ARDS
-	768. areola
-	769. areolar tissue
+		1. see ADULT RESPIRATORY DISTRESS SYNDROME.
+	768. [[areola]]
+	769. [[areolar tissue]]
 	770. ARF
+		1. see ACUTE RESPIRATORY FAILURE.
 	
 	771. Argasidae
-	772. argentaffin cells
-	773. arginine
-	774. argon laser
-	775. argon plasma coagulation
-	776. Argyll Robertson pupil
-	777. argyria
-	778. ariboflavinosis
+		1. n. See Tick
+	772. [[argentaffin cells]]
+	773. [[arginine]]
+	774. [[argon laser]]
+	775. [[argon plasma coagulation]]
+	776. [[Argyll Robertson pupil]]
+	777. [[argyria]]
+	778. [[ariboflavinosis]]
 	779. Arimidex
+		1. $n$. see AROMATASE INHIBITOR.
 	780. aripiprazole
+		1. $n$. see ANTIPSYCHOTIC.
 	
-	781. Aristolochia
+	781. [[Aristolochia]]
 	782. ARMD
+		1. age-related macular degeneration.
 	783. ARN
-	784. Arnold-Chiari malformation
+		1. see ACUTE RETINAL NECROSIS.
+	784. [[Arnold-Chiari malformation]]
 	785. Aromasin
-	786. aromatase inhibitor
-	787. aromatherapy
-	788. arousal
+		1. $n$. see AROMATASE INHIBITOR.
+	786. [[aromatase inhibitor]]
+	787. [[aromatherapy]]
+	788. [[arousal]]
 	789. arrhenoblastoma
-	790. arrhythmia
+		1. $n$. see ANDROBLASTOMA.
+	790. [[arrhythmia]]
 	
-	791. arsenic
+	791. [[arsenic]]
 	792. artefact
-	793. artemisinin
-	794. arter-
-	795. arterial line
-	796. arterial ulcer
-	797. arteriectomy
-	798. arteriogenesis
-	799. arteriography
-	800. arteriole
+		1. n. see artifact
+	793. [[artemisinin]]
+	794. [[arter-]]
+	795. [[arterial line]]
+	796. [[arterial ulcer]]
+	797. [[arteriectomy]]
+	798. [[arteriogenesis]]
+	799. [[arteriography]]
+	800. [[arteriole]]
 	
-	801. arteriolitis
+	801. [[arteriolitis]]
 	802. arteriolosclerosis
-	803. arterioplasty
-	804. arterioportography
-	805. arteriosclerosis
-	806. arteriotomy
-	807. arteriovenous anastomosis
-	808. arteriovenous aneurysm
+		1. $n$. see NEPHROSCLEROSIS.
+	803. [[arterioplasty]]
+	804. [[arterioportography]]
+	805. [[arteriosclerosis]]
+	806. [[arteriotomy]]
+	807. [[arteriovenous anastomosis]]
+	808. [[arteriovenous aneurysm]]
 	809. arteriovenous malformation
-	810. arteritis
+		1. see ANGIOMA.
+	810. [[arteritis]]
 	
-	811. artery
-	812. arthr-
-	813. arthralgia
-	814. arthrectomy
-	815. arthritis
-	816. arthrocentesis
-	817. arthrodesis
-	818. arthrodic joint
+	811. [[artery]]
+	812. [[arthr-]]
+	813. [[arthralgia]]
+	814. [[arthrectomy]]
+	815. [[arthritis]]
+	816. [[arthrocentesis]]
+	817. [[arthrodesis]]
+	818. [[arthrodic joint]]
 	819. arthrodynia
-	820. arthrography
+		1. $n$. see ARTHRALGIA.
+	820. [[arthrography]]
 	
-	821. arthrogryposis
-	822. arthropathy
-	823. arthroplasty
-	824. arthropod
-	825. arthroscope
-	826. arthroscopy
-	827. arthrostomy
-	828. arthrotomy
-	829. articaine
-	830. articular
+	821. [[arthrogryposis]]
+	822. [[arthropathy]]
+	823. [[arthroplasty]]
+	824. [[arthropod]]
+	825. [[arthroscope]]
+	826. [[arthroscopy]]
+	827. [[arthrostomy]]
+	828. [[arthrotomy]]
+	829. [[articaine]]
+	830. [[articular]]
 	
-	831. articulation((in anatomy))
-	832. articulator((in dentistry))
-	833. artifact
+	831. [[articulation]]
+	832. [[articulator]]
+	833. [[artifact]]
 	834. artificial heart
-	835. artificial insemination
-	836. artificial nutrition and hydration
-	837. artificial respiration
+		1. see VENTRICULAR ASSIST DEVICE.
+	835. [[artificial insemination]]
+	836. [[artificial nutrition and hydration]]
+	837. [[artificial respiration]]
 	838. artificial rupture of membranes
-	839. artificial sphincter
+		1. (ARM) see AMNIOtOmy.
+	839. [[artificial sphincter]]
 	840. ARV
+		1. see ANTIRETROVIRAL DRUG.
 	
-	841. arytenoid cartilage
-	842. arytenoidectomy
-	843. ASA classification
-	844. asbestos-related pleural disease
-	845. asbestosis
-	846. ascariasis
-	847. Ascaris
-	848. ascites
+	841. [[arytenoid cartilage]]
+	842. [[arytenoidectomy]]
+	843. [[ASA classification]]
+	844. [[asbestos-related pleural disease]]
+	845. [[asbestosis]]
+	846. [[ascariasis]]
+	847. [[Ascaris]]
+	848. [[ascites]]
 	849. ascorbic acid
+		1. See vitamin C
 	850. ASD
+		1. See atrial septal defect
 	
-	851. -ase
-	852. asepsis
-	853. ash-leaf macules
-	854. Asherman syndrome
+	851. [[-ase]]
+	852. [[asepsis]]
+	853. [[ash-leaf macules]]
+	854. [[Asherman syndrome]]
 	855. Askanazy cells
-	856. asparaginase
+		1. see Hürthle Cell Tumour.
+	856. [[asparaginase]]
 	857. asparagine
-	858. aspartame
-	859. aspartate aminotransferase
+		1. n. See amino acid
+	858. [[aspartame]]
+	859. [[aspartate aminotransferase]]
 	860. aspartic acid
+		1. (aspartate) see amino acid
 	
-	861. Asperger's syndrome
-	862. aspergillosis
-	863. Aspergillus
-	864. aspermia
-	865. asphyxia
-	866. aspiration
-	867. aspiration cytology
-	868. aspirin
-	869. assay
-	870. assent
+	861. [[Asperger's syndrome]]
+	862. [[aspergillosis]]
+	863. [[Aspergillus]]
+	864. [[aspermia]]
+	865. [[asphyxia]]
+	866. [[aspiration]]
+	867. [[aspiration cytology]]
+	868. [[aspirin]]
+	869. [[assay]]
+	870. [[assent]]
 	
-	871. assertive outreach team
-	872. assimilation
-	873. assisted living
-	874. assisted suicide
-	875. assistive listening device
-	876. association area
-	877. association of ideas((in psychology))
+	871. [[assertive outreach team]]
+	872. [[assimilation]]
+	873. [[assisted living]]
+	874. [[assisted suicide]]
+	875. [[assistive listening device]]
+	876. [[association area]]
+	877. [[association of ideas]]
 	878. ASSR
+		1. See auditory steady state responsive
 	879. AST
+		1. See ASPARTATE AMINOTRANSFERASE.
 	880. astasia-abasia
+		1. See abasia
 	
-	881. aster
+	881. [[aster]]
 	882. astereognosis
-	883. asteroid hyalosis
-	884. asthenia
+		1. n. See agnosia
+	883. [[asteroid hyalosis]]
+	884. [[asthenia]]
 	885. asthenopia
+		1. n. see eyestrain
 	886. asthenospermia
-	887. asthma
-	888. astigmatism
+		1. n. see oligospermia
+	887. [[asthma]]
+	888. [[astigmatism]]
 	889. astragalus
-	890. astringent
+		1. n. See Talus
+	890. [[astringent]]
 	
-	891. astrocyte
-	892. astrocytoma
+	891. [[astrocyte]]
+	892. [[astrocytoma]]
 	893. asymbolia
+		1. n. see alexia
 	894. asymmetric septal hypertrophy
-	895. asymmetric tonic neck reflex
-	896. asymptomatic
-	897. asynclitism
-	898. asystole
+		1. (ASH) see hypertrophic cardiomyopathy
+	895. [[asymmetric tonic neck reflex]]
+	896. [[asymptomatic]]
+	897. [[asynclitism]]
+	898. [[asystole]]
 	899. at-risk register
-	900. atavism
+		1. See child protection register
+	900. [[atavism]]
 	
-	901. ataxia
-	902. ataxia telangiectasia
-	903. atel-
-	904. atelectasis
-	905. ateleiosis
-	906. atenolol
-	907. atherectomy
-	908. atheroembolic renal disease
-	909. atheroma
-	910. atherosclerosis
+	901. [[ataxia]]
+	902. [[ataxia telangiectasia]]
+	903. [[atel-]]
+	904. [[atelectasis]]
+	905. [[ateleiosis]]
+	906. [[atenolol]]
+	907. [[atherectomy]]
+	908. [[atheroembolic renal disease]]
+	909. [[atheroma]]
+	910. [[atherosclerosis]]
 	
-	911. athetosis
-	912. athlete's foot
-	913. athyreosis
-	914. atlas
+	911. [[athetosis]]
+	912. [[athlete's foot]]
+	913. [[athyreosis]]
+	914. [[atlas]]
 	915. ATLS
+		1. advanced trauma life support: see ADVANCED LIFE SUPPORT.
 	916. ATN
-	917. atomoxetine
-	918. atony
-	919. atopen
-	920. atopy
+		1. see ACUTE TUBULAR NECROSIS.
+	917. [[atomoxetine]]
+	918. [[atony]]
+	919. [[atopen]]
+	920. [[atopy]]
 	
-	921. atorvastatin
+	921. [[atorvastatin]]
 	922. atosiban
-	923. ATP
-	924. atracurium besilate
-	925. atresia
-	926. atri-
+		1. n. see Tocolytic
+	923. [[ATP]]
+	924. [[atracurium besilate]]
+	925. [[atresia]]
+	926. [[atri-]]
 	927. atrial fibrillation
+		1. see FIBRILLATION.
 	928. atrial natriuretic peptide
-	929. atrial septal defect
-	930. atrioventricular bundle
+		1. (ANP) see NATRIURETIC PEPTIDE.
+	929. [[atrial septal defect]]
+	930. [[atrioventricular bundle]]
 	
-	931. atrioventricular nodal re-entry tachycardia
-	932. atrioventricular node
-	933. atrioventricular reciprocating tachycardia
-	934. atrium
+	931. [[atrioventricular nodal re-entry tachycardia]]
+	932. [[atrioventricular node]]
+	933. [[atrioventricular reciprocating tachycardia]]
+	934. [[atrium]]
 	935. atrophic vaginitis
-	936. atrophy
-	937. atropine
-	938. attachment
-	939. attachment disorder
+		1. see VAGINITIS.
+	936. [[atrophy]]
+	937. [[atropine]]
+	938. [[attachment]]
+	939. [[attachment disorder]]
 	940. attendance allowance
+		1. see DISABILITY LIVING ALLOWANCE.
 	
-	941. attention-deficit/hyperactivity disorder
-	942. attenuation
-	943. atticotomy
-	944. attrition((in dentistry))
+	941. [[attention-deficit and-or hyperactivity disorder]]
+	942. [[attenuation]]
+	943. [[atticotomy]]
+	944. [[attrition]]
 	945. atypical antipsychotics
+		1. see ANTIPSYCHOTIC.
 	946. atypical facial pain
-	947. atypical mole syndrome
-	948. atypical pneumonia
-	949. audi-
-	950. audiogram
+		1. see PERSISTENT IDIOPATHIC FACIAL PAIN.
+	947. [[atypical mole syndrome]]
+	948. [[atypical pneumonia]]
+	949. [[audi-]]
+	950. [[audiogram]]
 	
-	951. audiology
-	952. audiometer
+	951. [[audiology]]
+	952. [[audiometer]]
 	953. audit
-	954. AUDIT
-	955. auditory
-	956. auditory brainstem implant
-	957. auditory brainstem response audiometry
-	958. auditory canal
+		1. n. See clinical audit
+	954. [[AUDIT]]
+	955. [[auditory]]
+	956. [[auditory brainstem implant]]
+	957. [[auditory brainstem response audiometry]]
+	958. [[auditory canal]]
 	959. auditory dyssynchrony
+		1. see AUDITORY NEUROPATHY SPECTRUM DISORDER.
 	960. auditory nerve
+		1. see COCHLEAR NERVE.
 	
-	961. auditory neuropathy spectrum disorder
-	962. auditory processing disorder
-	963. auditory skills training
-	964. auditory steady state response
-	965. auditory verbal therapy
-	966. Auerbach's plexus
+	961. [[auditory neuropathy spectrum disorder]]
+	962. [[auditory processing disorder]]
+	963. [[auditory skills training]]
+	964. [[auditory steady state response]]
+	965. [[auditory verbal therapy]]
+	966. [[Auerbach's plexus]]
 	967. AUR
-	968. aura
-	969. aural
-	970. auricle
+		1. acute urinary retention (see RETENTION).
+	968. [[aura]]
+	969. [[aural]]
+	970. [[auricle]]
 	
-	971. auriscope
-	972. auscultation
-	973. auscultatory gap
-	974. Austin Flint murmur
-	975. Australia antigen
-	976. aut-
-	977. autism
-	978. autoagglutination
-	979. autoantibody
-	980. autochthonous
+	971. [[auriscope]]
+	972. [[auscultation]]
+	973. [[auscultatory gap]]
+	974. [[Austin Flint murmur]]
+	975. [[Australia antigen]]
+	976. [[aut-]]
+	977. [[autism]]
+	978. [[autoagglutination]]
+	979. [[autoantibody]]
+	980. [[autochthonous]]
 	
-	981. autoclave
-	982. autocrine
-	983. autofluorescence
-	984. autogenous
-	985. autograft
-	986. autoimmune disease
-	987. autoimmunity
-	988. autoinoculation
-	989. autointoxication
-	990. autologous
+	981. [[autoclave]]
+	982. [[autocrine]]
+	983. [[autofluorescence]]
+	984. [[autogenous]]
+	985. [[autograft]]
+	986. [[autoimmune disease]]
+	987. [[autoimmunity]]
+	988. [[autoinoculation]]
+	989. [[autointoxication]]
+	990. [[autologous]]
 	
-	991. autolysis
-	992. automated external defibrillator
-	993. automated lamellar keratectomy
+	991. [[autolysis]]
+	992. [[automated external defibrillator]]
+	993. [[automated lamellar keratectomy]]
 	994. automated perimeter
-	995. automatism
-	996. autonomic nervous system
-	997. autonomy
-	998. autophony
-	999. autoploidy
-	1000. autopsy
+		1. See perimeter
+	995. [[automatism]]
+	996. [[autonomic nervous system]]
+	997. [[autonomy]]
+	998. [[autophony]]
+	999. [[autoploidy]]
+	1000. [[autopsy]]
 	
-	1001. autopulse
-	1002. autoradiography
-	1003. autorefractor
+	1001. [[autopulse]]
+	1002. [[autoradiography]]
+	1003. [[autorefractor]]
 	1004. autosomal dominant
+		1. See dominant
 	1005. autosomal recessive
-	1006. autosome
-	1007. autotransfusion
-	1008. autotrophic
-	1009. aux-
-	1010. auxiliary
+		1. See recessive
+	1006. [[autosome]]
+	1007. [[autotransfusion]]
+	1008. [[autotrophic]]
+	1009. [[aux-]]
+	1010. [[auxiliary]]
 	
-	1011. auxotroph
-	1012. avascular
+	1011. [[auxotroph]]
+	1012. [[avascular]]
 	1013. avascular necrosis
+		1. see OSTEONECROSIS.
 	1014. Avastin
-	1015. aversion therapy
-	1016. avian influenza
+		1. n. see BEVACIZUMAB.
+	1015. [[aversion therapy]]
+	1016. [[avian influenza]]
 	1017. AVM
+		1. arteriovenous malformation (see ANGIOMA).
 	1018. AVNRT
-	1019. avoidant
-	1020. AVPU
+		1. see ATRIOVENTRICULAR NODAL RE-ENTRY TACHYCARDIA.
+	1019. [[avoidant]]
+	1020. [[AVPU]]
 	
 	1021. AVRT
+		1. see ATRIOVENTRICULAR RECIPROCATING TACHYCARDIA.
 	1022. AVT
-	1023. avulsion
-	1024. axial
-	1025. axilla
-	1026. axis
-	1027. axolemma
-	1028. axon
-	1029. axonotmesis
-	1030. axoplasm
+		1. see AUDITORY VERBAL THERAPY.
+	1023. [[avulsion]]
+	1024. [[axial]]
+	1025. [[axilla]]
+	1026. [[axis]]
+	1027. [[axolemma]]
+	1028. [[axon]]
+	1029. [[axonotmesis]]
+	1030. [[axoplasm]]
 	
-	1031. azathioprine
-	1032. azelaic acid
-	1033. azelastine
-	1034. azithromycin
-	1035. azo-
-	1036. azoospermia
+	1031. [[azathioprine]]
+	1032. [[azelaic acid]]
+	1033. [[azelastine]]
+	1034. [[azithromycin]]
+	1035. [[azo-]]
+	1036. [[azoospermia]]
 	1037. azotaemia
-	1038. azoturia
-	1039. aztreonam
-	1040. azygos vein
+		1. $n$. a former name for uraemia.
+	1038. [[azoturia]]
+	1039. [[aztreonam]]
+	1040. [[azygos vein]]
 	
 	1041. B-Lynch brace suture
 	1042. B-scan

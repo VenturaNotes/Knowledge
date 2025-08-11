@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. the condition of subjects with widespread narrowing of the bronchial airways, which changes in severity over short periods of time (either spontaneously or under treatment) and leads to cough, wheezing, and difficulty in breathing. Bronchial asthma may be precipitated by exposure to one or more of a wide range of stimuli, including allergens, drugs (such as aspirin and other NSAIDs and beta blockers), exertion, emotion, infections, and air pollution. The onset of asthma is usually early in life and in atopic subjects (see ATOPY) may be accompanied by other manifestations of hypersensitivity, such as hay fever and dermatitis; however, the onset may be delayed into adulthood or even middle or old age. Treatment is with bronchodilators, with or without corticosteroids, usually administered via aerosol or dry-powder inhalers, or $\textendash$ if the condition is more severe $\textendash$ via a nebulizer. Oral corticosteroids are reserved for those patients who fail to respond adequately to these measures. Severe asthmatic attacks may need large doses of oral corticosteroids (see status Asthmaticus). Selection of treatment for individual cases is made using stepped guidelines issued by respiratory organizations, e.g. the British and American Thoracic Societies and the European Respiratory Society. A new group of drug treatments, using monoclonal antibodies to target components in the allergic response, have recently become available (see OMALIZUMAB). Avoidance of known allergens, especially the house dust mite, allergens arising from domestic pets, and food additives, will help to reduce the frequency of attacks, as will the discouragement of smoking.
+- Cardiac asthma occurs in left ventricular heart failure and must be distinguished from bronchial asthma, as the treatment is quite different. $\textemdash$ asthmatic adj.
+- https://www.asthma.org.uk/
+	- Website of Asthma UK
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
