@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. a highly infectious disease caused by a herpesvirus (the varicella-zoster virus) that is transmitted by airborne droplets. After an incubation period of 11-18 days a mild fever develops, followed after about 24 hours by an itchy rash of red pimples that soon change to vesicles. These usually start on the trunk or scalp and spread to the face and limbs; they crust over and resolve after about 12 days. Treatment is aimed at reducing the fever and controlling the itching (e.g. by the application of calamine lotion). Complications are rare but include secondary infection and occasionally encephalitis. The patient is infectious from two days before the spots appear until they all scab over, usually five days after they first appeared. One attack usually confers life-long immunity, although the virus may reactivate at a later date and cause shingles (see HERPES). In adult patients who are particularly vulnerable, e.g. those with AIDS or who are otherwise immunosuppressed, chickenpox can be a serious disease, which may be treated with aciclovir. Medical name: varicella.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

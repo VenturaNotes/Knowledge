@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (beta-adrenergic receptor blocker) a drug that prevents stimulation of the beta adrenoceptors at the nerve endings of the sympathetic nervous system. Blockade of $\beta_{1}$ receptors causes a decrease in heart rate and force; blockade of $\beta_{2}$ receptors causes constriction of the airways and the arteries. Beta blockers include acebutolol, atenolol, bisoprolol, oxprenolol, propranolol, and sotalol; they are used to control abnormal heart rhythms, to treat angina, and to reduce high blood pressure (although they are no longer regarded by some experts as the first choice of drug for treating hypertension in the absence of heart disease, being less effective than newer antihypertensive drugs). Beta blockers that block both $\beta_{1}$ and $\beta_{2}$ receptor sites cause constriction of air passages in the lungs, and these drugs should not be used in patients with asthma and bronchospasm. Other beta blockers are relatively selective for the heart (cardioselective) and are less likely to constrict the airways. Some beta blockers (e.g. carteolol, levobunolol, and timolol) reduce the production of aqueous humour and therefore the pressure inside the eye; they are taken as eye drops in the treatment of glaucoma.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -1340,1094 +1340,1274 @@ Reviewed: false
 	1039. [[aztreonam]]
 	1040. [[azygos vein]]
 	
-	1041. B-Lynch brace suture
-	1042. B-scan
-	1043. Babinski reflex
-	1044. baby blues
-	1045. bacillaemia
+	1041. [[B-Lynch brace suture]]
+	1042. [[B-scan]]
+	1043. [[Babinski reflex]]
+	1044. [[baby blues]]
+	1045. [[bacillaemia]]
 	1046. bacille Calmette-Guérin
-	1047. bacilluria
-	1048. bacillus
-	1049. Bacillus
-	1050. bacitracin zinc
+		1. see BCG. \[A. L. C. Calmette (1863-1933) and C. Guérin (1872-1961), French bacteriologists]
+	1047. [[bacilluria]]
+	1048. [[bacillus]]
+	1049. [[bacitracin zinc]]
+	1050. 
 	
-	1051. backbone
-	1052. back slaps
-	1053. baclofen
-	1054. bacteraemia
-	1055. bacteri-
-	1056. bacteria
-	1057. bacterial vaginosis
-	1058. bactericidal
-	1059. bacteriology
+	1051. [[backbone]]
+	1052. [[back slaps]]
+	1053. [[baclofen]]
+	1054. [[bacteraemia]]
+	1055. [[bacteri-]]
+	1056. [[bacteria]]
+	1057. [[bacterial vaginosis]]
+	1058. [[bactericidal]]
+	1059. [[bacteriology]]
 	1060. bacteriolysin
+		1. n. See lysin
 	
-	1061. bacteriophage
-	1062. bacteriostatic
+	1061. [[bacteriophage]]
+	1062. [[bacteriostatic]]
 	1063. bacterium
-	1064. bacteriuria
-	1065. Bacteroides
-	1066. bagassosis
+		1. n. See bacteria
+	1064. [[bacteriuria]]
+	1065. [[Bacteroides]]
+	1066. [[bagassosis]]
 	1067. Baghdad boil
-	1068. Bagolini lens
+		1. See oriental sore
+	1068. [[Bagolini lens]]
 	1069. BAHA
-	1070. Baker's cyst
+		1. See bone-anchored hearing aid
+	1070. [[Baker's cyst]]
 	
 	1071. Bakri balloon
+		1. see RusCH CATHETER. \[Y. Bakri (21st century), US obstetrician]
 	1072. BAL
-	1073. balanced salt solution
-	1074. balanitis
-	1075. balanoposthitis
-	1076. balantidiasis
-	1077. Balantidium
+		1. see BRONCHOALVEOLAR LAVAGE.
+	1073. [[balanced salt solution]]
+	1074. [[balanitis]]
+	1075. [[balanoposthitis]]
+	1076. [[balantidiasis]]
+	1077. [[Balantidium]]
 	1078. baldness
-	1079. Balint's syndrome
-	1080. Balkan nephropathy
+		1. $n$. see ALOPECIA.
+	1079. [[Balint's syndrome]]
+	1080. [[Balkan nephropathy]]
 	
-	1081. ball-and-cage valve
+	1081. [[ball-and-cage valve]]
 	1082. ball-and-socket joint
-	1083. Ballantyne syndrome
-	1084. ballism
-	1085. balloon
-	1086. balloon Eustachian tuboplasty
-	1087. balloon sinuplasty
-	1088. ballottement
-	1089. balneotherapy
-	1090. bamboo spine
+		1. see ENARTHROSIS.
+	1083. [[Ballantyne syndrome]]
+	1084. [[ballism]]
+	1085. [[balloon]]
+	1086. [[balloon Eustachian tuboplasty]]
+	1087. [[balloon sinuplasty]]
+	1088. [[ballottement]]
+	1089. [[balneotherapy]]
+	1090. [[bamboo spine]]
 	
-	1091. banana and lemon signs
-	1092. bandage
-	1093. bandage lens
-	1094. band keratopathy
+	1091. [[banana and lemon signs]]
+	1092. [[bandage]]
+	1093. [[bandage lens]]
+	1094. [[band keratopathy]]
 	1095. Bandl's ring
+		1. see RETRACTION RING. \[L. Bandl (1842-92), German obstetrician]
 	1096. band ligation
-	1097. Banti's syndrome
-	1098. barbiturate
-	1099. barbiturism
+		1. (banding) see OESOPHAGEAL VARICES. See also GASTRIC BANDING.
+	1097. [[Banti's syndrome]]
+	1098. [[barbiturate]]
+	1099. [[barbiturism]]
 	1100. barefoot doctor
+		1. See medical assistant
 	
-	1101. bariatric surgery
-	1102. baritosis
-	1103. barium enema
+	1101. [[bariatric surgery]]
+	1102. [[baritosis]]
+	1103. [[barium enema]]
 	1104. barium follow-through
-	1105. barium sulphate
-	1106. barium swallow and meal
-	1107. Barlow manoeuvre
+		1. See small-bowel meal
+	1105. [[barium sulphate]]
+	1106. [[barium swallow and meal]]
+	1107. [[Barlow manoeuvre]]
 	1108. BARN
-	1109. baroreceptor
-	1110. barotitis
+		1. bilateral acute retinal necrosis.
+	1109. [[baroreceptor]]
+	1110. [[barotitis]]
 	
-	1111. barotrauma
+	1111. [[barotrauma]]
 	1112. Barr body
-	1113. Barrett's oesophagus
-	1114. barrier cream
-	1115. Barron's banding apparatus
-	1116. Bartholin's glands
-	1117. bartholinitis
-	1118. Bartonella
-	1119. bartonellosis
-	1120. Bartter syndrome
+		1. see SEX CHROMATIN. \[M. L. Barr (1908-95), Canadian anatomist]
+	1113. [[Barrett's oesophagus]]
+	1114. [[barrier cream]]
+	1115. [[Barron's banding apparatus]]
+	1116. [[Bartholin's glands]]
+	1117. [[bartholinitis]]
+	1118. [[Bartonella]]
+	1119. [[bartonellosis]]
+	1120. [[Bartter syndrome]]
 	
-	1121. basal cell carcinoma
-	1122. basal ganglia
-	1123. basal metabolism
-	1124. basement membrane
-	1125. base pairing
-	1126. basic life support
-	1127. basilar artery
-	1128. basilar membrane
-	1129. basilic vein
-	1130. basion
+	1121. [[basal cell carcinoma]]
+	1122. [[basal ganglia]]
+	1123. [[basal metabolism]]
+	1124. [[basement membrane]]
+	1125. [[base pairing]]
+	1126. [[basic life support]]
+	1127. [[basilar artery]]
+	1128. [[basilar membrane]]
+	1129. [[basilic vein]]
+	1130. [[basion]]
 	
-	1131. basophil
-	1132. basophilia
+	1131. [[basophil]]
+	1132. [[basophilia]]
 	1133. basophilic
+		1. adj. see basophil
 	1134. bat ears
-	1135. bathyaesthesia
-	1136. Batten's disease
+		1. see protruding ears
+	1135. [[bathyaesthesia]]
+	1136. [[Batten's disease]]
 	1137. battered baby syndrome
-	1138. battery((in law))
-	1139. Bazin's disease
+		1. see NONACCIDENTAL INJURY.
+	1138. [[battery]]
+	1139. [[Bazin's disease]]
 	1140. BCC
+		1. see basal cell carcinoma
 	
 	1141. B cell
-	1142. BCG
-	1143. BCI
-	1144. bear tracks((in ophthalmology))
-	1145. Beau's lines
+		1. $n$. see LYMPHOCYTE.
+	1142. [[BCG]]
+	1143. [[BCI]]
+	1144. [[bear tracks]]
+	1145. [[Beau's lines]]
 	1146. Beck's triad
-	1147. Becker's naevus (Becker melanosis)
-	1148. Becker muscular dystrophy
-	1149. beclometasone
-	1150. becquerel
+		1. see CARDIAC TAMPONADE. \[C. S. Beck (1894-1971), US surgeon]
+	1147. [[Becker's naevus]]
+	1148. [[Becker muscular dystrophy]]
+	1149. [[beclometasone]]
+	1150. [[becquerel]]
 	
-	1151. bed bug
-	1152. bed occupancy
+	1151. [[bed bug]]
+	1152. [[bed occupancy]]
 	1153. bedsore
+		1. n. see pressure sore
 	1154. bedwetting
-	1155. behaviourism
-	1156. behaviour modification
-	1157. behaviour therapy
-	1158. Behçet's syndrome
-	1159. bejel
+		1. n. see enuresis
+	1155. [[behaviorism]]
+	1156. [[behavior modification]]
+	1157. [[behavior therapy]]
+	1158. [[Behçet's syndrome]]
+	1159. [[bejel]]
 	1160. bel
+		1. n. see decibel.
 	
-	1161. Bell's palsy
-	1162. Bell's phenomenon
-	1163. belladonna
-	1164. bell and pad
-	1165. belle indifference
-	1166. belly
-	1167. Bence-Jones protein
-	1168. benchmarking
-	1169. bendroflumethiazide
+	1161. [[Bell's palsy]]
+	1162. [[Bell's phenomenon]]
+	1163. [[belladonna]]
+	1164. [[bell and pad]]
+	1165. [[belle indifference]]
+	1166. [[belly]]
+	1167. [[Bence-Jones protein]]
+	1168. [[benchmarking]]
+	1169. [[bendroflumethiazide]]
 	1170. bends
+		1. n. see compressed air illness
 	
-	1171. Benedict's test
-	1172. beneficence
-	1173. benign
+	1171. [[Benedict's test]]
+	1172. [[beneficence]]
+	1173. [[benign]]
 	1174. benign intracranial hypertension
-	1175. benign paroxysmal positional vertigo
+		1. see IDIOPATHIC INTRACRANIAL HYPERTENSION.
+	1175. [[benign paroxysmal positional vertigo]]
 	1176. benign prostatic hyperplasia
-	1177. benperidol
+		1. (BPH) See prostate gland
+	1177. [[benperidol]]
 	1178. benserazide
-	1179. benzalkonium
+		1. n. see levodopa
+	1179. [[benzalkonium]]
 	1180. benzhexol
+		1. n. see TRIHEXYPHENIDYL.
 	
-	1181. benzodiazepines
-	1182. benzoic acid
-	1183. benzoyl peroxide
-	1184. benzydamine hydrochloride
-	1185. benzyl benzoate
+	1181. [[benzodiazepines]]
+	1182. [[benzoic acid]]
+	1183. [[benzoyl peroxide]]
+	1184. [[benzydamine hydrochloride]]
+	1185. [[benzyl benzoate]]
 	1186. benzylpenicillin
-	1187. bereavement
-	1188. Berger's nephropathy
-	1189. beriberi
+		1. n. see penicillin
+	1187. [[bereavement]]
+	1188. [[Berger's nephropathy]]
+	1189. [[beriberi]]
 	1190. berry aneurysm
+		1. see aneurysm
 	
-	1191. berylliosis
+	1191. [[berylliosis]]
 	1192. Best's disease
-	1193. best interests
-	1194. beta-lactam antibiotic
+		1. see VITELLIFORM DEGENERATION. \[F. Best (20th century), German physician]
+	1193. [[best interests]]
+	1194. [[beta-lactam antibiotic]]
 	1195. beta agonist
-	1196. beta blocker
+		1. see SYMPATHOMIMETIC.
+	1196. [[beta blocker]]
 	1197. beta cells
-	1198. betahistine
-	1199. betamethasone
-	1200. betaxolol
+		1. See islets of Langerhans
+	1198. [[betahistine]]
+	1199. [[betamethasone]]
+	1200. [[betaxolol]]
 	
-	1201. bevacizumab
-	1202. bezafibrate
-	1203. bezoar
+	1201. [[bevacizumab]]
+	1202. [[bezafibrate]]
+	1203. [[bezoar]]
 	1204. BHT
-	1205. bi-
+		1. See black hairy tongue
+	1205. [[bi-]]
 	1206. bi-level positive airways pressure
-	1207. BI-RADS
-	1208. bias
-	1209. bicalutamide
-	1210. biceps
+		1. see BiPAP
+	1207. [[BI-RADS]]
+	1208. [[bias]]
+	1209. [[bicalutamide]]
+	1210. [[biceps]]
 	
-	1211. biceps jerk
-	1212. biconcave
-	1213. biconvex
-	1214. bicornuate
+	1211. [[biceps jerk]]
+	1212. [[biconcave]]
+	1213. [[biconvex]]
+	1214. [[bicornuate]]
 	1215. BICROS hearing aid
-	1216. bicuspid
+		1. see CONTRALATERAL-ROUTING-OF-SIGNAL HEARING AID.
+	1216. [[bicuspid]]
 	1217. bicuspid valve
-	1218. Bielschowsky head tilt
-	1219. bifid
-	1220. bifocal lens
+		1. See mitral valve
+	1218. [[Bielschowsky head tilt]]
+	1219. [[bifid]]
+	1220. [[bifocal lens]]
 	
-	1221. bifurcation((in anatomy))
-	1222. bigeminal body
-	1223. bigeminy
-	1224. biguanide
-	1225. bilateral((in anatomy))
-	1226. bile
-	1227. bile-acid sequestrant
-	1228. bile acids
-	1229. bile duct
-	1230. bile pigments
+	1221. [[bifurcation]]
+	1222. [[bigeminal body]]
+	1223. [[bigeminy]]
+	1224. [[biguanide]]
+	1225. [[bilateral]]
+	1226. [[bile]]
+	1227. [[bile-acid sequestrant]]
+	1228. [[bile acids]]
+	1229. [[bile duct]]
+	1230. [[bile pigments]]
 	
-	1231. bile salts
+	1231. [[bile salts]]
 	1232. Bilharzia
+		1. n. see Schistosoma.
 	1233. bilharziasis
-	1234. bili-
-	1235. biliary
-	1236. biliary atresia
-	1237. biliary colic
-	1238. bilious
+		1. $n$. see SCHISTOSOMIASIS.
+	1234. [[bili-]]
+	1235. [[biliary]]
+	1236. [[biliary atresia]]
+	1237. [[biliary colic]]
+	1238. [[bilious]]
 	1239. bilirubin
-	1240. biliuria
+		1. $n$. see BILE PIGMENTS.
+	1240. [[biliuria]]
 	
 	1241. biliverdin
-	1242. Billings method
-	1243. bimanual
-	1244. bimatoprost
-	1245. binaural
-	1246. binder
+		1. $n$. see BILE PIGMENTS.
+	1242. [[Billings method]]
+	1243. [[bimanual]]
+	1244. [[bimatoprost]]
+	1245. [[binaural]]
+	1246. [[binder]]
 	1247. binge-purge syndrome
-	1248. binocular
-	1249. binocular vision
-	1250. bio-
+		1. see bulimia
+	1248. [[binocular]]
+	1249. [[binocular vision]]
+	1250. [[bio-]]
 	
-	1251. bioassay
-	1252. bioavailability
-	1253. Biochemical reference values for blood
-	1254. Biochemical reference values for cerebrospinal fluid
-	1255. Biochemical reference values for faeces
-	1256. Biochemical reference values for urine
-	1257. biochemistry
-	1258. biocompatibility
-	1259. bioengineering
-	1260. bioethics
+	1251. [[bioassay]]
+	1252. [[bioavailability]]
+	1253. [[biochemistry]]
+	1254. [[biocompatibility]]
+	1255. [[bioengineering]]
+	1256. [[bioethics]]
+	1257. 
+	1258. 
+	1259. 
+	1260. 
 	
-	1261. biofeedback
-	1262. biofilm
+	1261. [[biofeedback]]
+	1262. [[biofilm]]
 	1263. biologic
-	1264. biological response modifier
-	1265. biological therapy
-	1266. biologic width((in dentistry))
-	1267. biology
-	1268. biomarker
-	1269. biometry
-	1270. bionics
+		1. $n$. see BIOPHARMACEUTICAL.
+	1264. [[biological response modifier]]
+	1265. [[biological therapy]]
+	1266. [[biologic width]]
+	1267. [[biology]]
+	1268. [[biomarker]]
+	1269. [[biometry]]
+	1270. [[bionics]]
 	
 	1271. bionomics
-	1272. biopharmaceutical (biological medical product)
-	1273. biophysical profile
-	1274. biopsy
-	1275. biosimilar
-	1276. biostatistics
-	1277. biotechnology
-	1278. biotin
-	1279. BiPAP
-	1280. biparietal diameter
+		1. n. see ecology
+	1272. [[biopharmaceutical]] 
+	1273. [[biophysical profile]]
+	1274. [[biopsy]]
+	1275. [[biosimilar]]
+	1276. [[biostatistics]]
+	1277. [[biotechnology]]
+	1278. [[biotin]]
+	1279. [[BiPAP]]
+	1280. [[biparietal diameter]]
 	
 	1281. biphasic defibrillator
-	1282. bipolar((in neurology))
-	1283. bipolar affective disorder
-	1284. bird-fancier's lung
+		1. see DEFIBRILLATOR.
+	1282. [[bipolar]]
+	1283. [[bipolar affective disorder]]
+	1284. [[bird-fancier's lung]]
 	1285. bird flu
-	1286. birefringence
-	1287. birth((in obstetrics))
+		1. see AVIAN INFLUENZA.
+	1286. [[birefringence]]
+	1287. birth
+		1. $n$. (in obstetrics) see LABOUR.
 	1288. birth asphyxia
-	1289. birth control
-	1290. birthing chair
+		1. see HYPOXIC-ISCHAEMIC ENCEPHALOPATHY.
+	1289. [[birth control]]
+	1290. [[birthing chair]]
 	
-	1291. birthmark
-	1292. birth rate
-	1293. bisacodyl
-	1294. bisexual
-	1295. Bishop score
-	1296. Bismarck brown
-	1297. bisoprolol
-	1298. bisphosphonates
-	1299. bistoury
-	1300. bite-raiser
+	1291. [[birthmark]]
+	1292. [[birth rate]]
+	1293. [[bisacodyl]]
+	1294. [[bisexual]]
+	1295. [[Bishop score]]
+	1296. [[Bismarck brown]]
+	1297. [[bisoprolol]]
+	1298. [[bisphosphonates]]
+	1299. [[bistoury]]
+	1300. [[bite-raiser]]
 	
-	1301. bite-wing
-	1302. Bitot's spots
-	1303. bivalent((in genetics))
+	1301. [[bite-wing]]
+	1302. [[Bitot's spots]]
+	1303. [[bivalent]]
 	1304. bivalirudin
-	1305. blackdamp((in mining))
+		1. $n$. see HIRUDIN.
+	1305. [[blackdamp]]
 	1306. Black Death
-	1307. black eye
-	1308. black fly
-	1309. black hairy tongue
-	1310. blackhead
+		1. see plague
+	1307. [[black eye]]
+	1308. [[black fly]]
+	1309. [[black hairy tongue]]
+	1310. [[blackhead]]
 	
-	1311. black heel
-	1312. blackwater fever
-	1313. bladder
-	1314. bladder augmentation
-	1315. bladder neck incision
-	1316. bladder pressure study
+	1311. [[black heel]]
+	1312. [[blackwater fever]]
+	1313. [[bladder]]
+	1314. [[bladder augmentation]]
+	1315. [[bladder neck incision]]
+	1316. [[bladder pressure study]]
 	1317. bladder replacement
+		1. see CYSTECTOMY.
 	1318. bladderworm
-	1319. blast
-	1320. -blast
+		1. n. see CYSTICERCUS.
+	1319. [[blast]]
+	1320. [[-blast]]
 	
-	1321. blastema
-	1322. blasto-
-	1323. blastocoele
-	1324. blastocyst
-	1325. blastomere
-	1326. blastomycosis
-	1327. blastopore
-	1328. blastula
-	1329. bleaching (tooth whitening)((in dentistry))
-	1330. bleb
+	1321. [[blastema]]
+	1322. [[blasto-]]
+	1323. [[blastocoele]]
+	1324. [[blastocyst]]
+	1325. [[blastomere]]
+	1326. [[blastomycosis]]
+	1327. [[blastopore]]
+	1328. [[blastula]]
+	1329. [[bleaching]] 
+	1330. [[bleb]]
 	
 	1331. bleeding
-	1332. blenn-
-	1333. blennorrhagia
-	1334. blennorrhoea
-	1335. bleomycin
-	1336. blephar-
-	1337. blepharitis
-	1338. blepharochalasis
-	1339. blepharoconjunctivitis
+		1. $n$. see HAEMORRHAGE.
+	1332. [[blenn-]]
+	1333. [[blennorrhagia]]
+	1334. [[blennorrhoea]]
+	1335. [[bleomycin]]
+	1336. [[blephar-]]
+	1337. [[blepharitis]]
+	1338. [[blepharochalasis]]
+	1339. [[blepharoconjunctivitis]]
 	1340. blepharon
+		1. n. see eyelid
 	
-	1341. blepharophimosis
-	1342. blepharoplasty
+	1341. [[blepharophimosis]]
+	1342. [[blepharoplasty]]
 	1343. blepharoptosis
-	1344. blepharospasm
-	1345. blind and partially sighted register((in Britain))
-	1346. blind loop syndrome
-	1347. blindness
-	1348. blind spot
+		1. n. see ptosis
+	1344. [[blepharospasm]]
+	1345. [[blind and partially sighted register]]
+	1346. [[blind loop syndrome]]
+	1347. [[blindness]]
+	1348. [[blind spot]]
 	1349. blind trial
-	1350. blinking
+		1. see intervention study
+	1350. [[blinking]]
 	
-	1351. blister
-	1352. bloating
-	1353. block
-	1354. blocking((in psychiatry))
+	1351. [[blister]]
+	1352. [[bloating]]
+	1353. [[block]]
+	1354. [[blocking]]
 	1355. Blocq's disease
-	1356. blood
-	1357. blood-brain barrier
-	1358. blood bank
-	1359. blood cell
-	1360. blood clot
+		1. See abasia
+	1356. [[blood]]
+	1357. [[blood-brain barrier]]
+	1358. [[blood bank]]
+	1359. [[blood cell]]
+	1360. [[blood clot]]
 	
 	1361. blood clotting
-	1362. blood coagulation
+		1. see BLOOD COAGULATION.
+	1362. [[blood coagulation]]
 	1363. blood corpuscle
-	1364. blood count
-	1365. blood donor
-	1366. blood group
+		1. See blood cell
+	1364. [[blood count]]
+	1365. [[blood donor]]
+	1366. [[blood group]]
 	1367. blood plasma
-	1368. blood poisoning
-	1369. blood pressure
+		1. See plasma
+	1368. [[blood poisoning]]
+	1369. [[blood pressure]]
 	1370. blood serum
+		1. See serum
 	
-	1371. blood sugar
-	1372. blood test
+	1371. [[blood sugar]]
+	1372. [[blood test]]
 	1373. blood transfusion
-	1374. blood vessel
-	1375. Bloom's syndrome
-	1376. Blount disease
-	1377. blue baby
-	1378. blue bloater
+		1. See transfusion
+	1374. [[blood vessel]]
+	1375. [[Bloom's syndrome]]
+	1376. [[Blount disease]]
+	1377. [[blue baby]]
+	1378. [[blue bloater]]
 	1379. B lymphocyte
+		1. $n$. see LYMPHOCYTE.
 	1380. BMA
+		1. See British Medical Association
 	
 	1381. BMI
+		1. See body mass index
 	1382. BMS
+		1. See burning mouth syndrome
 	1383. BNF
+		1. See british national formulary
 	1384. BNP
-	1385. Boari flap
-	1386. Boas's sign
-	1387. boceprevir
-	1388. body
-	1389. body dysmorphic disorder
-	1390. body image
+		1. brain natriuretic peptide.
+	1385. [[Boari flap]]
+	1386. [[Boas's sign]]
+	1387. [[boceprevir]]
+	1388. [[body]]
+	1389. [[body dysmorphic disorder]]
+	1390. [[body image]]
 	
-	1391. body mass index
-	1392. body temperature
-	1393. body type
+	1391. [[body mass index]]
+	1392. [[body temperature]]
+	1393. [[body type]]
 	1394. Boeck's disease
-	1395. Boerhaave's syndrome
-	1396. boil
-	1397. Bolam and Bolitho tests
-	1398. bolus
-	1399. bonding
-	1400. bone
+		1. see SARCOIDOSIS. \[C. P. M. Boeck (1845-1913), Norwegian dermatologist]
+	1395. [[Boerhaave's syndrome]]
+	1396. [[boil]]
+	1397. [[Bolam and Bolitho tests]]
+	1398. [[bolus]]
+	1399. [[bonding]]
+	1400. [[bone]]
 	
-	1401. bone-anchored hearing aid
-	1402. bone graft
-	1403. bone growth factors
-	1404. bone marrow
-	1405. bone scan
+	1401. [[bone-anchored hearing aid]]
+	1402. [[bone graft]]
+	1403. [[bone growth factors]]
+	1404. [[bone marrow]]
+	1405. [[bone scan]]
 	1406. bony labyrinth
-	1407. BOO
+		1. See labyrinth
+	1407. [[BOO]]
 	1408. BOOI
+		1. bladder outlet obstruction index: see Abrams-GrifFithS NUMBER.
 	1409. BOOP
-	1410. borborygmus
+		1. see BRONCHIOLITIS OBLITERANS ORGANIZING PNEUMONIA.
+	1410. [[borborygmus]]
 	
-	1411. borderline
-	1412. Bordetella
-	1413. borneol
-	1414. Bornholm disease
-	1415. Borrelia
-	1416. bortezomib
+	1411. [[borderline]]
+	1412. [[Bordetella]]
+	1413. [[borneol]]
+	1414. [[Bornholm disease]]
+	1415. [[Borrelia]]
+	1416. [[bortezomib]]
 	1417. bosentan
-	1418. Bosniak classification
-	1419. bottom shuffling
-	1420. botulinum toxin
+		1. n. see endothelin
+	1418. [[Bosniak classification]]
+	1419. [[bottom shuffling]]
+	1420. [[botulinum toxin]]
 	
-	1421. botulism
-	1422. Bouchard's node
-	1423. bougie
+	1421. [[botulism]]
+	1422. [[Bouchard's node]]
+	1423. [[bougie]]
 	1424. Bourneville's disease
-	1425. boutonnière deformity
+		1. see TUBEROUS SCLEROSIS. \[D.-M. Bourneville (1840-1909), French neurologist]
+	1425. [[boutonnière deformity]]
 	1426. bovine spongiform encephalopathy
-	1427. bow-legs
+		1. (BSE) see SPONGIFORM ENCEPHALOPATHY.
+	1427. [[bow-legs]]
 	1428. bowel
-	1429. Bowen's disease
-	1430. Bowman's capsule
+		1. n. see intestine
+	1429. [[Bowen's disease]]
+	1430. [[Bowman's capsule]]
 	
 	1431. BPAD
+		1. see BIPOLAR AFFECTIVE DISORDER.
 	1432. BPH
+		1. benign prostatic hyperplasia. See PROSTATE GLAND.
 	1433. BPPV
-	1434. brachi-
-	1435. brachial
-	1436. brachial artery
-	1437. brachialis
-	1438. brachial plexus
+		1. see BENIGN PAROXYSMAL POSITIONAL VERTIGO.
+	1434. [[brachi-]]
+	1435. [[brachial]]
+	1436. [[brachial artery]]
+	1437. [[brachialis]]
+	1438. [[brachial plexus]]
 	1439. brachiocephalic artery
-	1440. brachium
+		1. see INNOMINATE ARTERY.
+	1440. [[brachium]]
 	
-	1441. brachy-
-	1442. brachycephaly
-	1443. brachytherapy
-	1444. bracket((in dentistry))
-	1445. brady-
+	1441. [[brachy-]]
+	1442. [[brachycephaly]]
+	1443. [[brachytherapy]]
+	1444. [[bracket]]
+	1445. [[brady-]]
 	1446. bradyarrhythmia
-	1447. bradycardia
-	1448. bradykinesia
-	1449. bradykinin
-	1450. braille
+		1. $n$. see ARRHYTHMIA.
+	1447. [[bradycardia]]
+	1448. [[bradykinesia]]
+	1449. [[bradykinin]]
+	1450. [[braille]]
 	
-	1451. brain
+	1451. [[brain]]
 	1452. brain death
+		1. See death
 	1453. brain natriuretic peptide
-	1454. brainstem
+		1. (BNP) see NATRIURETIC PEPTIDE.
+	1454. [[brainstem]]
 	1455. brainstem evoked response audiometry
-	1456. brain tumour
+		1. see AUDITORY BRAINSTEM RESPONSE AUDIOMETRY.
+	1456. brain tumor
+		1. see CEREBRAL TUMOUR.
 	1457. branchial arch
+		1. see PHARYNGEAL CLEFT.
 	1458. branchial cleft
-	1459. branchial cyst
+		1. see PHARYNGEAL CLEFT.
+	1459. [[branchial cyst]]
 	1460. branchial pouch
+		1. see PHARYNGEAL POUCH.
 	
-	1461. Brandt-Andrews method
-	1462. Brandt-Daroff exercises
-	1463. Braxton Hicks contractions
-	1464. BRCA1
+	1461. [[Brandt-Andrews method]]
+	1462. [[Brandt-Daroff exercises]]
+	1463. [[Braxton Hicks contractions]]
+	1464. [[BRCA1 and BRCA2]]
 	1465. breakbone fever
-	1466. breast
-	1467. breast-milk jaundice
+		1. see DENGUE.
+	1466. [[breast]]
+	1467. [[breast-milk jaundice]]
 	1468. breastbone
-	1469. breast cancer
-	1470. breast implant
+		1. n. see sternum
+	1469. [[breast cancer]]
+	1470. [[breast implant]]
 	
-	1471. breath-holding attacks
-	1472. breathing
+	1471. [[breath-holding attacks]]
+	1472. [[breathing]]
 	1473. breathlessness
-	1474. breath sounds
-	1475. breech presentation
-	1476. bregma
-	1477. brentuximab vedotin
-	1478. Breslow thickness
-	1479. bridge((in dentistry))
-	1480. brief resolved unexplained episode
+		1. n. see dyspnoea
+	1474. [[breath sounds]]
+	1475. [[breech presentation]]
+	1476. [[bregma]]
+	1477. [[brentuximab vedotin]]
+	1478. [[Breslow thickness]]
+	1479. [[bridge]]
+	1480. [[brief resolved unexplained episode]]
 	
 	1481. Bright's disease
-	1482. brimonidine
-	1483. brinzolamide
-	1484. British Medical Association
-	1485. British National Formulary
+		1. see NEPHRITIS. \[R. Bright (1789-1858), British physician]
+	1482. [[brimonidine]]
+	1483. [[brinzolamide]]
+	1484. [[British Medical Association]]
+	1485. [[British National Formulary]]
 	1486. British Sign Language
-	1487. British thermal unit
+		1. (BSL) see SIGN LANGUAGE.
+	1487. [[British thermal unit]]
 	1488. brittle bone disease
-	1489. brittle diabetes
+		1. see OSTEOGENESIS IMPERFECTA.
+	1489. [[brittle diabetes]]
 	1490. BRM
+		1. see BIOLOGICAL RESPONSE MODIFIER.
 	
-	1491. Broca's area
-	1492. Brodie's abscess
-	1493. Brodmann areas
-	1494. bromism
-	1495. bromocriptine
-	1496. Brompton cocktail
-	1497. bromsulphthalein
-	1498. bronch-
-	1499. bronchial carcinoma
-	1500. bronchial tree
+	1491. [[Broca's area]]
+	1492. [[Brodie's abscess]]
+	1493. [[Brodmann areas]]
+	1494. [[bromism]]
+	1495. [[bromocriptine]]
+	1496. [[Brompton cocktail]]
+	1497. [[bromsulphthalein]]
+	1498. [[bronch-]]
+	1499. [[bronchial carcinoma]]
+	1500. [[bronchial tree]]
 	
-	1501. bronchiectasis
-	1502. bronchiole
-	1503. bronchiolitis
-	1504. bronchiolitis obliterans organizing pneumonia
-	1505. bronchitis
-	1506. bronchoalveolar lavage
-	1507. bronchoconstrictor
-	1508. bronchodilator
-	1509. bronchography
+	1501. [[bronchiectasis]]
+	1502. [[bronchiole]]
+	1503. [[bronchiolitis]]
+	1504. [[bronchiolitis obliterans organizing pneumonia]]
+	1505. [[bronchitis]]
+	1506. [[bronchoalveolar lavage]]
+	1507. [[bronchoconstrictor]]
+	1508. [[bronchodilator]]
+	1509. [[bronchography]]
 	1510. bronchophony
+		1. $n$. see VOCAL RESONANCE.
 	
 	1511. bronchopneumonia
-	1512. bronchopulmonary dysplasia
-	1513. bronchoscope
-	1514. bronchospasm
-	1515. bronchus
+		1. $n$. see PNEUMONIA.
+	1512. [[bronchopulmonary dysplasia]]
+	1513. [[bronchoscope]]
+	1514. [[bronchospasm]]
+	1515. [[bronchus]]
 	1516. bronze diabetes
-	1517. Brown's syndrome
-	1518. Brown-Séquard syndrome
-	1519. brown fat
-	1520. Brucella
+		1. see HAEMOCHROMATOSIS.
+	1517. [[Brown's syndrome]]
+	1518. [[Brown-Séquard syndrome]]
+	1519. [[brown fat]]
+	1520. [[Brucella]]
 	
-	1521. brucellosis
-	1522. Bruch's membrane
-	1523. Brudzinski sign
+	1521. [[brucellosis]]
+	1522. [[Bruch's membrane]]
+	1523. [[Brudzinski sign]]
 	1524. BRUE
+		1. see BRIEF RESOLVED UNEXPLAINED EPISODE.
 	1525. Brufen
-	1526. Brugia
-	1527. bruise
-	1528. bruit
-	1529. Brunner's glands
+		1. $n$. see IBUPROFEN.
+	1526. [[Brugia]]
+	1527. [[bruise]]
+	1528. [[bruit]]
+	1529. [[Brunner's glands]]
 	1530. brush border
+		1. see MICROVILLUS.
 	
-	1531. Brushfield spots
-	1532. bruxism
+	1531. [[Brushfield spots]]
+	1532. [[bruxism]]
 	1533. BSE
+		1. bovine spongiform encephalopathy. See also Creutzfeldt-JAKOb DISEASE.
 	1534. BSER
+		1. brainstem evoked response audiometry. See AUDITORY BRAINSTEM RESPONSE AUDIOMETRY.
 	1535. BSS
-	1536. bubo
+		1. see BALANCED SALT SOLUTION.
+	1536. [[bubo]]
 	1537. bubonic plague
-	1538. buccal
-	1539. buccal cavity
-	1540. buccal glands
+		1. see PLAGUE.
+	1538. [[buccal]]
+	1539. [[buccal cavity]]
+	1540. [[buccal glands]]
 	
-	1541. buccinator
-	1542. buclizine
-	1543. Budd-Chiari syndrome
-	1544. budesonide
-	1545. Buerger's disease
-	1546. buffalo hump
-	1547. buffer
-	1548. bulb((in anatomy))
-	1549. bulbar
+	1541. [[buccinator]]
+	1542. [[buclizine]]
+	1543. [[Budd-Chiari syndrome]]
+	1544. [[budesonide]]
+	1545. [[Buerger's disease]]
+	1546. [[buffalo hump]]
+	1547. [[buffer]]
+	1548. [[bulb]]
+	1549. [[bulbar]]
 	1550. bulbourethral glands
+		1. see Cowper's Glands.
 	
-	1551. bulimia
+	1551. [[bulimia]]
 	1552. bull's-eye maculopathy
-	1553. bulla
-	1554. bullous keratopathy
+		1. see MACULOPATHY.
+	1553. [[bulla]]
+	1554. [[bullous keratopathy]]
 	1555. bullous pemphigoid
-	1556. bumetanide
-	1557. BUN
-	1558. bundle
-	1559. bundle branch block
+		1. see PEMPHIGOID.
+	1556. [[bumetanide]]
+	1557. [[BUN]]
+	1558. [[bundle]]
+	1559. [[bundle branch block]]
 	1560. bundle of His
+		1. see atrioVentricular bundle. \[W. His (1863-1934), Swiss anatomist]
 	
-	1561. bunion
-	1562. buphthalmos
-	1563. bupivacaine
-	1564. buprenorphine
-	1565. bupropion
-	1566. bur
-	1567. burden of treatment
-	1568. bur hole
-	1569. buried bumper syndrome
-	1570. Burkitt's lymphoma
+	1561. [[bunion]]
+	1562. [[buphthalmos]]
+	1563. [[bupivacaine]]
+	1564. [[buprenorphine]]
+	1565. [[bupropion]]
+	1566. [[bur]]
+	1567. [[burden of treatment]]
+	1568. [[bur hole]]
+	1569. [[buried bumper syndrome]]
+	1570. [[Burkitt's lymphoma]]
 	
-	1571. burn
-	1572. burning mouth syndrome
-	1573. burnout
-	1574. Burns-Marshall manoeuvre
+	1571. [[burn]]
+	1572. [[burning mouth syndrome]]
+	1573. [[burnout]]
+	1574. [[Burns-Marshall manoeuvre]]
 	1575. burr
-	1576. burr cell
-	1577. bursa
-	1578. bursitis
-	1579. burst abdomen
-	1580. Buruli ulcer
+		1. n. See Bur
+	1576. [[burr cell]]
+	1577. [[bursa]]
+	1578. [[bursitis]]
+	1579. [[burst abdomen]]
+	1580. [[Buruli ulcer]]
 	
-	1581. Busacca nodule
-	1582. buserelin
-	1583. buspirone
-	1584. busulfan
-	1585. butobarbital
+	1581. [[Busacca nodule]]
+	1582. [[buserelin]]
+	1583. [[buspirone]]
+	1584. [[busulfan]]
+	1585. [[butobarbital]]
 	1586. butterfly rash
+		1. see LUPUS ERYTHEMATOSUS.
 	1587. buttonhole deformity
-	1588. butyrophenone
-	1589. bypass
-	1590. byssinosis
+		1. see BOUTONNIÉRE DEFORMITY.
+	1588. [[butyrophenone]]
+	1589. [[bypass]]
+	1590. [[byssinosis]]
 	
-	1591. C-peptide
-	1592. C-reactive protein
+	1591. [[C-peptide]]
+	1592. [[C-reactive protein]]
 	1593. C. diff
-	1594. CA125
-	1595. CA19-9
-	1596. cabergoline
+		1. Clostridium difficile. See clostridium
+	1594. [[CA125]]
+	1595. [[CA19-9]]
+	1596. [[cabergoline]]
 	1597. CABG
-	1598. cac-
-	1599. cachet
-	1600. cachexia
+		1. see CORONARY ARTERY BYPASS GRAFT.
+	1598. [[cac-]]
+	1599. [[cachet]]
+	1600. [[cachexia]]
 	
-	1601. cacosmia
+	1601. [[cacosmia]]
 	1602. CAD
-	1603. cadmium
-	1604. caecostomy
-	1605. caecum
-	1606. caeruloplasmin
-	1607. Caesarean section
-	1608. caesium-137
-	1609. café au lait spots
-	1610. caffeine
+		1. see CORONARY ARTERY DISEASE.
+	1603. [[cadmium]]
+	1604. [[caecostomy]]
+	1605. [[caecum]]
+	1606. [[caeruloplasmin]]
+	1607. [[Caesarean section]]
+	1608. [[caesium-137]]
+	1609. [[café au lait spots]]
+	1610. [[caffeine]]
 	
 	1611. Caffey's disease
-	1612. CAGE questionnaire
+		1. see HYPEROSTOSIS. \[J. Caffey (1895-1966), US paediatrician]
+	1612. [[CAGE questionnaire]]
 	1613. caisson disease
-	1614. calamine
-	1615. calc-
-	1616. calcaneus
-	1617. calcar
-	1618. calcicosis
+		1. see compressed air illness
+	1614. [[calamine]]
+	1615. [[calc-]]
+	1616. [[calcaneus]]
+	1617. [[calcar]]
+	1618. [[calcicosis]]
 	1619. calciferol
-	1620. calcification
+		1. n. see vitamin D
+	1620. [[calcification]]
 	
-	1621. calcineurin inhibitors
-	1622. calcinosis
-	1623. calciphylaxis
-	1624. calcipotriol
-	1625. calcitonin
-	1626. calcitriol
-	1627. calcium
-	1628. calcium-channel blocker
-	1629. calcium pyrophosphate deposition disease
-	1630. calcium score
+	1621. [[calcineurin inhibitors]]
+	1622. [[calcinosis]]
+	1623. [[calciphylaxis]]
+	1624. [[calcipotriol]]
+	1625. [[calcitonin]]
+	1626. [[calcitriol]]
+	1627. [[calcium]]
+	1628. [[calcium-channel blocker]]
+	1629. [[calcium pyrophosphate deposition disease]]
+	1630. [[calcium score]]
 	
-	1631. calculosis
-	1632. calculus
-	1633. Caldicott guardian
-	1634. calibrator
-	1635. caliectasis
-	1636. calliper
-	1637. callosity
-	1638. callotasis
-	1639. callus
-	1640. calor
+	1631. [[calculosis]]
+	1632. [[calculus]]
+	1633. [[Caldicott guardian]]
+	1634. [[calibrator]]
+	1635. [[caliectasis]]
+	1636. [[calliper]]
+	1637. [[callosity]]
+	1638. [[callotasis]]
+	1639. [[callus]]
+	1640. [[calor]]
 	
-	1641. calorie
-	1642. calorimeter
-	1643. calprotectin
-	1644. calvaria
-	1645. calyx
-	1646. Cameron's ulcer
+	1641. [[calorie]]
+	1642. [[calorimeter]]
+	1643. [[calprotectin]]
+	1644. [[calvaria]]
+	1645. [[calyx]]
+	1646. [[Cameron's ulcer]]
 	1647. Campbell de Morgan spots
-	1648. camphor
-	1649. camptodactyly
-	1650. Campylobacter
+		1. see angIOMA. \[C. G. de Morgan (1811-76), British physician]
+	1648. [[camphor]]
+	1649. [[camptodactyly]]
+	1650. [[Campylobacter]]
 	
 	1651. canaglifozin
-	1652. canal
-	1653. canaliculitis
-	1654. canaliculus
-	1655. canalith
-	1656. cancellous
-	1657. cancer
-	1658. cancer phobia
+		1. see SGLT-2 INHIBITORS.
+	1652. [[canal]]
+	1653. [[canaliculitis]]
+	1654. [[canaliculus]]
+	1655. [[canalith]]
+	1656. [[cancellous]]
+	1657. [[cancer]]
+	1658. [[cancer phobia]]
 	1659. cancrum oris
-	1660. candela
+		1. See Noma
+	1660. [[candela]]
 	
 	1661. candesartan
-	1662. Candida
-	1663. candidiasis
+		1. $n$. see ANGIOTENSIN II ANTAGONIST.
+	1662. [[Candida]]
+	1663. [[candidiasis]]
 	1664. candour
-	1665. canine
-	1666. cannabis
-	1667. cannula
-	1668. cantholysis
-	1669. canthoplasty
-	1670. canthus
+		1. n. See Truth-Telling
+	1665. [[canine]]
+	1666. [[cannabis]]
+	1667. [[cannula]]
+	1668. [[cantholysis]]
+	1669. [[canthoplasty]]
+	1670. [[canthus]]
 	
-	1671. cap
-	1672. CAP
-	1673. capacity
-	1674. CAPD
-	1675. capecitabine
-	1676. Capgras' syndrome
-	1677. capillary
-	1678. capillary refill time
-	1679. capitate
-	1680. capitate bone
+	1671. [[cap]]
+	1672. 
+	1673. [[capacity]]
+	1674. [[CAPD]]
+	1675. [[capecitabine]]
+	1676. [[Capgras' syndrome]]
+	1677. [[capillary]]
+	1678. [[capillary refill time]]
+	1679. [[capitate]]
+	1680. [[capitate bone]]
 	
 	1681. capitellum
-	1682. capitulum
-	1683. capping((in dentistry))
-	1684. capreomycin
-	1685. capsule
+		1. n. see capitulum
+	1682. [[capitulum]]
+	1683. [[capping]]
+	1684. [[capreomycin]]
+	1685. [[capsule]]
 	1686. capsule endoscopy
-	1687. capsulitis
-	1688. capsulorrhexis
-	1689. capsulotomy
-	1690. captopril
+		1. see VIDEO CAPSULE ENDOSCOPY.
+	1687. [[capsulitis]]
+	1688. [[capsulorrhexis]]
+	1689. [[capsulotomy]]
+	1690. [[captopril]]
 	
-	1691. caput succedaneum
-	1692. carbamazepine
-	1693. carbamide peroxide
+	1691. [[caput succedaneum]]
+	1692. [[carbamazepine]]
+	1693. [[carbamide peroxide]]
 	1694. carbidopa
-	1695. carbimazole
+		1. n. see levodopa
+	1695. [[carbimazole]]
 	1696. carbocisteine
-	1697. carbohydrate
-	1698. carbol fuchsin
+		1. $n$. see MUCOLYTIC.
+	1697. [[carbohydrate]]
+	1698. [[carbol fuchsin]]
 	1699. carbolic acid
-	1700. carbon dioxide
+		1. see phenol
+	1700. [[carbon dioxide]]
 	
-	1701. carbonic anhydrase inhibitor
-	1702. carbon monoxide
-	1703. carbon tetrachloride
-	1704. carboplatin
-	1705. carboprost
-	1706. carboxyhaemoglobin
-	1707. carboxylase
-	1708. carbuncle
-	1709. carcin-
-	1710. carcino-embryonic antigen
+	1701. [[carbonic anhydrase inhibitor]]
+	1702. [[carbon monoxide]]
+	1703. [[carbon tetrachloride]]
+	1704. [[carboplatin]]
+	1705. [[carboprost]]
+	1706. [[carboxyhaemoglobin]]
+	1707. [[carboxylase]]
+	1708. [[carbuncle]]
+	1709. [[carcin-]]
+	1710. [[carcino-embryonic antigen]]
 	
-	1711. carcinogen
-	1712. carcinogenesis
-	1713. carcinoid
-	1714. carcinoma
-	1715. carcinoma in situ
-	1716. carcinomatosis
-	1717. carcinosarcoma
-	1718. cardi-
-	1719. cardia
-	1720. cardiac
+	1711. [[carcinogen]]
+	1712. [[carcinogenesis]]
+	1713. [[carcinoid]]
+	1714. [[carcinoma]]
+	1715. [[carcinoma in situ]]
+	1716. [[carcinomatosis]]
+	1717. [[carcinosarcoma]]
+	1718. [[cardi-]]
+	1719. [[cardia]]
+	1720. [[cardiac]]
 	
-	1721. cardiac-arrest team
-	1722. cardiac arrest
-	1723. cardiac arrest simulation
-	1724. cardiac cycle
+	1721. [[cardiac-arrest team]]
+	1722. [[cardiac arrest]]
+	1723. [[cardiac arrest simulation]]
+	1724. [[cardiac cycle]]
 	1725. cardiac glycosides
-	1726. cardiac index
-	1727. cardiac muscle
-	1728. cardiac output
-	1729. cardiac reflex
-	1730. cardiac rehabilitation
+		1. see GLYCOSIDE; DIGOXIN.
+	1726. [[cardiac index]]
+	1727. [[cardiac muscle]]
+	1728. [[cardiac output]]
+	1729. [[cardiac reflex]]
+	1730. [[cardiac rehabilitation]]
 	
-	1731. cardiac resynchronization therapy
-	1732. cardiac tamponade
-	1733. cardinal veins
+	1731. [[cardiac resynchronization therapy]]
+	1732. [[cardiac tamponade]]
+	1733. [[cardinal veins]]
 	1734. cardiogenic shock
-	1735. cardiology
-	1736. cardiomyopathy
-	1737. cardiomyoplasty
+		1. see heart failure; shock
+	1735. [[cardiology]]
+	1736. [[cardiomyopathy]]
+	1737. [[cardiomyoplasty]]
 	1738. cardiomyotomy
-	1739. cardioplegia
-	1740. cardiopulmonary bypass
+		1. $n$. see ACHALASIA; MYOTOMY.
+	1739. [[cardioplegia]]
+	1740. [[cardiopulmonary bypass]]
 	
-	1741. cardiopulmonary resuscitation
-	1742. cardiotocograph
-	1743. cardiotocography
-	1744. cardiotomy syndrome
-	1745. cardiovascular system
-	1746. cardioversion
-	1747. care assistant
-	1748. Care Quality Commission
-	1749. caries
-	1750. carina
+	1741. [[cardiopulmonary resuscitation]]
+	1742. [[cardiotocograph]]
+	1743. [[cardiotocography]]
+	1744. [[cardiotomy syndrome]]
+	1745. [[cardiovascular system]]
+	1746. [[cardioversion]]
+	1747. [[care assistant]]
+	1748. [[Care Quality Commission]]
+	1749. [[caries]]
+	1750. [[carina]]
 	
-	1751. cariogenic
-	1752. cariology
-	1753. carminative
-	1754. carmustine
-	1755. carneous mole
-	1756. Caroli's disease
-	1757. Caroli's syndrome
+	1751. [[cariogenic]]
+	1752. [[cariology]]
+	1753. [[carminative]]
+	1754. [[carmustine]]
+	1755. [[carneous mole]]
+	1756. [[Caroli's disease]]
+	1757. [[Caroli's syndrome]]
 	1758. carotenaemia
-	1759. carotene
-	1760. carotenoid
+		1. $n$. see XANTHAEMIA.
+	1759. [[carotene]]
+	1760. [[carotenoid]]
 	
-	1761. carotid artery
-	1762. carotid artery stenosis
-	1763. carotid body
-	1764. carotid sinus
-	1765. carp-
-	1766. carpal
-	1767. carpal tunnel
-	1768. carpal tunnel syndrome
+	1761. [[carotid artery]]
+	1762. [[carotid artery stenosis]]
+	1763. [[carotid body]]
+	1764. [[carotid sinus]]
+	1765. [[carp-]]
+	1766. [[carpal]]
+	1767. [[carpal tunnel]]
+	1768. [[carpal tunnel syndrome]]
 	1769. carphology
+		1. $n$. see FLOCCILLATION.
 	1770. carpopedal spasm
+		1. see spasm.
 	
-	1771. carpus
-	1772. carrier
-	1773. carteolol
-	1774. cartilage
-	1775. CARTO
-	1776. caruncle
-	1777. caseation
-	1778. case control study
-	1779. case fatality rate
-	1780. casein
+	1771. [[carpus]]
+	1772. [[carrier]]
+	1773. [[carteolol]]
+	1774. [[cartilage]]
+	1775. [[CARTO]]
+	1776. [[caruncle]]
+	1777. [[caseation]]
+	1778. [[case control study]]
+	1779. [[case fatality rate]]
+	1780. [[casein]]
 	
 	1781. case work
+		1. see Social Services
 	1782. Casodex
-	1783. cassette((in radiography))
-	1784. cast
-	1785. cast nephropathy
-	1786. castration
-	1787. casuistry
-	1788. CAT
-	1789. cat-scratch disease
-	1790. cata-
+		1. n. see bicalutamide
+	1783. [[cassette]]
+	1784. [[cast]]
+	1785. [[cast nephropathy]]
+	1786. [[castration]]
+	1787. [[casuistry]]
+	1788. [[CAT]]
+	1789. [[cat-scratch disease]]
+	1790. [[cata-]]
 	
-	1791. catabolism
+	1791. [[catabolism]]
 	1792. catagen
-	1793. catalase
-	1794. catalepsy
-	1795. catalyst
-	1796. cataphoresis
-	1797. cataplasia
-	1798. cataplexy
-	1799. cataract
-	1800. cataract extraction
+		1. n. see anagen.
+	1793. [[catalase]]
+	1794. [[catalepsy]]
+	1795. [[catalyst]]
+	1796. [[cataphoresis]]
+	1797. [[cataplasia]]
+	1798. [[cataplexy]]
+	1799. [[cataract]]
+	1800. [[cataract extraction]]
 	
-	1801. catarrh
-	1802. catastrophic illness
-	1803. catatonia
+	1801. [[catarrh]]
+	1802. [[catastrophic illness]]
+	1803. [[catatonia]]
 	1804. CATCH-22
-	1805. catchment area
-	1806. catecholamines
+		1. see DI GEORGE SYNDROME.
+	1805. [[catchment area]]
+	1806. [[catecholamines]]
 	1807. categorical imperative
-	1808. catgut
-	1809. catharsis
+		1. see imperative
+	1808. [[catgut]]
+	1809. [[catharsis]]
 	1810. cathartic
+		1. $n$. see LAXATIVE.
 	
-	1811. cathepsin
-	1812. catheter
-	1813. catheterization
-	1814. cation
-	1815. cation-exchange resins
-	1816. cauda
-	1817. cauda equina syndrome
-	1818. caudal
-	1819. caul
-	1820. causal agent
+	1811. [[cathepsin]]
+	1812. [[catheter]]
+	1813. [[catheterization]]
+	1814. [[cation]]
+	1815. [[cation-exchange resins]]
+	1816. [[cauda]]
+	1817. [[cauda equina syndrome]]
+	1818. [[caudal]]
+	1819. [[caul]]
+	1820. [[causal agent]]
 	
-	1821. causalgia
-	1822. caustic
+	1821. [[causalgia]]
+	1822. [[caustic]]
 	1823. caustic soda
-	1824. cauterize
+		1. see sodium hydroxide
+	1824. [[cauterize]]
 	1825. Caverject
-	1826. cavernitis
-	1827. cavernosography
-	1828. cavernosometry
+		1. $n$. see ALPROSTADIL.
+	1826. [[cavernitis]]
+	1827. [[cavernosography]]
+	1828. [[cavernosometry]]
 	1829. cavernous breathing
-	1830. cavernous sinus
+		1. see breath sounds
+	1830. [[cavernous sinus]]
 	
-	1831. cavity
-	1832. cavity varnish
-	1833. cavogram
+	1831. [[cavity]]
+	1832. [[cavity varnish]]
+	1833. [[cavogram]]
 	1834. CBT
-	1835. CBW
+		1. see COGNITIVE BEHAVIOURAL THERAPY.
+	1835. [[CBW]]
 	1836. CCDC
-	1837. C cells
+		1. see Consultant in Health Protection.
+	1837. [[C cells]]
 	1838. CCF
+		1. congestive cardiac failure (see HEART FAILURE).
 	1839. CCG
+		1. see CLINICAL COMMISSIONING GROUP.
 	1840. CCT
+		1. Certificate of Completion of Training. See CONSULTANT.
 	
 	1841. CCU
-	1842. CD
-	1843. CD4
+		1. see CORONARY CARE UNIT.
+	1842. [[CD]]
+	1843. [[CD4]]
 	1844. CDH
-	1845. cefaclor
-	1846. cefadroxil
-	1847. cefalexin
+		1. (1) see CONGENITAL DIAPHRAGMATIC HERNIA. 
+		2. (2) see CONGENITAL DISLOCATION OF THE HIP.
+	1845. [[cefaclor]]
+	1846. [[cefadroxil]]
+	1847. [[cefalexin]]
 	1848. cefotaxime
-	1849. ceftazidime
-	1850. cefuroxime
+		1. $n$. see CEPHALOSPORIN.
+	1849. [[ceftazidime]]
+	1850. [[cefuroxime]]
 	
 	1851. CEJ
-	1852. -cele
-	1853. celecoxib
-	1854. cell
-	1855. cell-surface molecules
-	1856. cell body
-	1857. cell division
+		1. see CEMENTO-ENAMEL JUNCTION.
+	1852. [[-cele]]
+	1853. [[celecoxib]]
+	1854. [[cell]]
+	1855. [[cell-surface molecules]]
+	1856. [[cell body]]
+	1857. [[cell division]]
 	1858. cellophane maculopathy
-	1859. cell saver
-	1860. cellulitis
+		1. see EPIRETINAL MEMBRANE.
+	1859. [[cell saver]]
+	1860. [[cellulitis]]
 	
-	1861. cellulose
-	1862. Celsius temperature
-	1863. cement
-	1864. cemento-enamel junction
-	1865. cementocyte
-	1866. cementoma
-	1867. cementoplasty
-	1868. cementum
-	1869. censor((in psychology))
-	1870. census
+	1861. [[cellulose]]
+	1862. [[Celsius temperature]]
+	1863. [[cement]]
+	1864. [[cemento-enamel junction]]
+	1865. [[cementocyte]]
+	1866. [[cementoma]]
+	1867. [[cementoplasty]]
+	1868. [[cementum]]
+	1869. [[censor]]
+	1870. [[census]]
 	
-	1871. -centesis
-	1872. centi-
+	1871. [[-centesis]]
+	1872. [[centi-]]
 	1873. centigrade temperature
-	1874. centile chart
+		1. see Celsius TEMPERATURE.
+	1874. [[centile chart]]
 	1875. central auditory processing disorder
-	1876. central island
-	1877. central nervous system
-	1878. central pontine myelinolysis
-	1879. central serous chorioretinopathy
-	1880. central venous catheter
+		1. see AUDITORY PROCESSING DISORDER.
+	1876. [[central island]]
+	1877. [[central nervous system]]
+	1878. [[central pontine myelinolysis]]
+	1879. [[central serous chorioretinopathy]]
+	1880. [[central venous catheter]]
 	
-	1881. central venous pressure
-	1882. centre((in neurology))
-	1883. centrencephalic((in electroencephalography))
-	1884. centri-
-	1885. centrifugal
-	1886. centrifuge
-	1887. centriole
-	1888. centripetal
-	1889. centromere
-	1890. centrosome
+	1881. [[central venous pressure]]
+	1882. [[centre]]
+	1883. [[centrencephalic]]
+	1884. [[centri-]]
+	1885. [[centrifugal]]
+	1886. [[centrifuge]]
+	1887. [[centriole]]
+	1888. [[centripetal]]
+	1889. [[centromere]]
+	1890. [[centrosome]]
 	
-	1891. centrosphere
-	1892. centrum
-	1893. cephal-
-	1894. cephalad
-	1895. cephalhaematoma
-	1896. cephalic
-	1897. cephalic index
-	1898. cephalic version
-	1899. cephalin
+	1891. [[centrosphere]]
+	1892. [[centrum]]
+	1893. [[cephal-]]
+	1894. [[cephalad]]
+	1895. [[cephalhaematoma]]
+	1896. [[cephalic]]
+	1897. [[cephalic index]]
+	1898. [[cephalic version]]
+	1899. [[cephalin]]
 	1900. cephalocele
+		1. n. see neural tube defects
 	
-	1901. cephalogram
-	1902. cephalometry
-	1903. cephalopelvic disproportion
-	1904. cephalosporin
-	1905. CEPOD
+	1901. [[cephalogram]]
+	1902. [[cephalometry]]
+	1903. [[cephalopelvic disproportion]]
+	1904. [[cephalosporin]]
+	1905. [[CEPOD]]
 	1906. CERA
-	1907. cercaria
-	1908. cerebellum
-	1909. cerebr-
+		1. see CORTICAL EVOKED RESPONSE AUDIOMETRY.
+	1907. [[cercaria]]
+	1908. [[cerebellum]]
+	1909. [[cerebr-]]
 	1910. cerebral abscess
+		1. See abscess
 	
-	1911. cerebral aqueduct
-	1912. cerebral cortex
-	1913. cerebral haemorrhage
-	1914. cerebral hemisphere
-	1915. cerebral palsy
-	1916. cerebral tumour
-	1917. cerebral venous sinus thrombosis
-	1918. cerebration
-	1919. cerebroside
+	1911. [[cerebral aqueduct]]
+	1912. [[cerebral cortex]]
+	1913. [[cerebral haemorrhage]]
+	1914. [[cerebral hemisphere]]
+	1915. [[cerebral palsy]]
+	1916. [[cerebral tumour]]
+	1917. [[cerebral venous sinus thrombosis]]
+	1918. [[cerebration]]
+	1919. [[cerebroside]]
 	1920. cerebrospinal fever
+		1. (spotted fever) see MENINGITIS.
 	
-	1921. cerebrospinal fluid
-	1922. cerebrovascular disease
-	1923. cerebrum
-	1924. cerumen
-	1925. cervic-
-	1926. cervical
-	1927. cervical cancer
-	1928. cervical cerclage
+	1921. [[cerebrospinal fluid]]
+	1922. [[cerebrovascular disease]]
+	1923. [[cerebrum]]
+	1924. [[cerumen]]
+	1925. [[cervic-]]
+	1926. [[cervical]]
+	1927. [[cervical cancer]]
+	1928. [[cervical cerclage]]
 	1929. cervical ectopy
-	1930. cervical fracture
+		1. see ectropion
+	1930. [[cervical fracture]]
 	
-	1931. cervical incompetence
-	1932. cervical intraepithelial neoplasia
-	1933. cervical resistance index
-	1934. cervical screening
-	1935. cervical smear
-	1936. cervical vertebrae
-	1937. cervicitis
-	1938. cervix
+	1931. [[cervical incompetence]]
+	1932. [[cervical intraepithelial neoplasia]]
+	1933. [[cervical resistance index]]
+	1934. [[cervical screening]]
+	1935. [[cervical smear]]
+	1936. [[cervical vertebrae]]
+	1937. [[cervicitis]]
+	1938. [[cervix]]
 	1939. cestode
+		1. n. see tapeworm
 	1940. cetirizine
+		1. $n$. see ANTIHISTAMINE.
 	
-	1941. cetrimide
-	1942. cetuximab
+	1941. [[cetrimide]]
+	1942. [[cetuximab]]
 	1943. CFA
-	1944. CFS/ME/PVF
+		1. cryptogenic fibrosing alveolitis.
+	1944. [[CFS-ME-PVF|CFS/ME/PVF]]
 	1945. CGI
-	1946. Chagas' disease
-	1947. chaining
-	1948. chalazion
-	1949. chalcosis
-	1950. chancre
+		1. see Clinical Global Impression.
+	1946. [[Chagas' disease]]
+	1947. [[chaining]]
+	1948. [[chalazion]]
+	1949. [[chalcosis]]
+	1950. [[chancre]]
 	
 	1951. chancroid
-	1952. channelopathy
+		1. n. see soft sore
+	1952. [[channelopathy]]
 	1953. CHAPS
+		1. see Children's Auditory Performance Scale.
 	1954. Charcot's joint
-	1955. Charcot's triad
-	1956. Charcot-Leyden crystals
-	1957. Charcot-Marie-Tooth disease
-	1958. charity patients
-	1959. Charnley clamps
-	1960. CHART
+		1. see NEUROPATHIC ARTHRITIS. \[J. M. Charcot]
+	1955. [[Charcot's triad]]
+	1956. [[Charcot-Leyden crystals]]
+	1957. [[Charcot-Marie-Tooth disease]]
+	1958. [[charity patients]]
+	1959. [[Charnley clamps]]
+	1960. [[CHART]]
 	
-	1961. Chediak-Higashi syndrome
-	1962. cheil-
-	1963. cheilectomy
-	1964. cheilitis
+	1961. [[Chediak-Higashi syndrome]]
+	1962. [[cheil-]]
+	1963. [[cheilectomy]]
+	1964. [[cheilitis]]
 	1965. cheiloplasty
+		1. $n$. see LABIOPLASTY.
 	1966. cheiloschisis
-	1967. cheilosis
-	1968. cheir-
-	1969. cheiroarthropathy
-	1970. cheiropompholyx
+		1. $n$. see CLEFT LIP.
+	1967. [[cheilosis]]
+	1968. [[cheir-]]
+	1969. [[cheiroarthropathy]]
+	1970. [[cheiropompholyx]]
 	
-	1971. chelating agent
-	1972. chem-
-	1973. chemodectoma
-	1974. chemoembolization
-	1975. chemokine
-	1976. chemoradiotherapy
-	1977. chemoreceptor
-	1978. chemosis
-	1979. chemotaxis
-	1980. chemotherapy
+	1971. [[chelating agent]]
+	1972. [[chem-]]
+	1973. [[chemodectoma]]
+	1974. [[chemoembolization]]
+	1975. [[chemokine]]
+	1976. [[chemoradiotherapy]]
+	1977. [[chemoreceptor]]
+	1978. [[chemosis]]
+	1979. [[chemotaxis]]
+	1980. [[chemotherapy]]
 	
 	1981. cherry angioma
+		1. see angioma
 	1982. chest
-	1983. Cheyne-Stokes respiration
-	1984. chi-square test
-	1985. chiasma
-	1986. chickenpox
-	1987. chiclero's ulcer
-	1988. Chief Medical Officer
-	1989. Chief Nursing Officer
+		1. n. see thorax
+	1983. [[Cheyne-Stokes respiration]]
+	1984. [[chi-square test]]
+	1985. [[chiasma]]
+	1986. [[chickenpox]]
+	1987. [[chiclero's ulcer]]
+	1988. [[Chief Medical Officer]]
+	1989. [[Chief Nursing Officer]]
 	1990. chigger
+		1. n. see trombicula
 	
-	1991. chignon
+	1991. [[chignon]]
 	1992. chigoe
-	1993. chikungunya fever
-	1994. chilblains
-	1995. Child-Turcotte-Pugh score
-	1996. child abuse
+		1. n. see tunga
+	1993. [[chikungunya fever]]
+	1994. [[chilblains]]
+	1995. [[Child-Turcotte-Pugh score]]
+	1996. [[child abuse]]
 	1997. childbirth
-	1998. child health clinic
-	1999. child protection register((in Britain))
-	2000. Children's Auditory Performance Scale
+		1. n. see labour
+	1998. [[child health clinic]]
+	1999. [[child protection register]]
+	2000. [[Children's Auditory Performance Scale]]
 	
-	2001. children's centre
-	2002. Chinese herb nephropathy
-	2003. chir-
+	2001. [[children's centre]]
+	2002. [[Chinese herb nephropathy]]
+	2003. [[chir-]]
 	2004. chiropody
-	2005. chiropractic
-	2006. Chlamydia
-	2007. chloasma
-	2008. chlor-
-	2009. chloracne
-	2010. chloral hydrate
+		1. $n$. see PODIATRY. -chiropodist $n$.
+	2005. [[chiropractic]]
+	2006. [[Chlamydia]]
+	2007. [[chloasma]]
+	2008. [[chlor-]]
+	2009. [[chloracne]]
+	2010. [[chloral hydrate]]
 	
-	2011. chlorambucil
-	2012. chloramphenicol
-	2013. chlordiazepoxide
-	2014. chlorhexidine
-	2015. chlorination
-	2016. chlorine
+	2011. [[chlorambucil]]
+	2012. [[chloramphenicol]]
+	2013. [[chlordiazepoxide]]
+	2014. [[chlorhexidine]]
+	2015. [[chlorination]]
+	2016. [[chlorine]]
 	2017. chlormethiazole
-	2018. chloroform
+		1. $n$. see CLOMETHIAZOLE.
+	2018. [[chloroform]]
 	2019. chlorophenothane
-	2020. chlorophyll
+		1. $n$. see DDT.
+	2020. [[chlorophyll]]
 	
-	2021. chloropsia
-	2022. chloroquine
-	2023. chlorphenamine
-	2024. chlorpromazine
-	2025. chlortalidone
-	2026. choana
+	2021. [[chloropsia]]
+	2022. [[chloroquine]]
+	2023. [[chlorphenamine]]
+	2024. [[chlorpromazine]]
+	2025. [[chlortalidone]]
+	2026. [[choana]]
 	2027. chokedamp
-	2028. chol-
-	2029. cholagogue
-	2030. cholangiocarcinoma
+		1. n. see blackdamp
+	2028. [[chol-]]
+	2029. [[cholagogue]]
+	2030. [[cholangiocarcinoma]]
 	
 	2031. cholangiography
 	2032. cholangioma
