@@ -9,7 +9,10 @@
 	- Cost reduction. The benchmarking exercise may identify an area in which the organization has higher costs than competitors. Potential savings may be identified, such as reducing the number of suppliers or making better use of technology. Benchmarking can be applied to all departments.
 	- Increased efficiency and effectiveness. Benchmarking can help to streamline processes and identify ways of delivering a better service.
 - Before introducing benchmarking an organization will have to identify the costs of the exercise and the potential benefits and cost savings. The most significant cost will be the management time.
+## Source[^3]
+- $n$. in public health, a process in which best practice is identified and continuous improvement is generated through the sharing of evidence and the comparison of practice. See also PRACTICE DEVELOPMENT.
 ## References
 
 [^1]: [[Home Page - Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

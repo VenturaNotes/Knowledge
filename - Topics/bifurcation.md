@@ -9,8 +9,11 @@
 - The values of a parameter at which the nature of an equilibrium or attractor changes in a dynamical system. Commonly, a stable equilibrium might become unstable but bifurcate (i.e. split) into two stable equilibria. See LOGISTIC MAP.
 ## Source[^3]
 - The divestment of part of a business to improve the strategic focus of the remaining part.
+## Source[^4]
+- $n$. (in anatomy) the point at which division into two branches occurs; for example in blood vessels or in the trachea.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

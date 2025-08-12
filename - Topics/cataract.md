@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. an opacity in the lens of the eye that may result in blurred vision. Minor degrees of cataract do not necessarily impair vision seriously. Cataracts may be congenital or acquired. The latter are most commonly a result of age (senile cataract); metabolic disease (such as diabetes), injury to the eye, or exposure of the eye to infrared rays (e.g. glass-blowers' cataract) or ionizing radiation can also cause a cataract. A type commonly related to ageing is nuclear sclerotic cataract, which results from increasing density and yellowing of the centre of the lens. A posterior subcapsular cataract (at the rear surface of the lens within the lens capsule) is also related to ageing but may occur with prolonged use of steroids and chronic ocular inflammation. Brunescent cataracts are dark brown and very dense, and a cortical cataract is one in which the opacity occurs in the soft outer part (cortex) of the lens. A Morgagnian cataract is a longstanding very opaque cataract in which the cortex has started to shrink and liquefy, leaving a central shrunken nucleus.
+- Cataract is treated by removal of the affected lens (see CATARACT EXTRACTION; PHACOEMULSIFICATION); patients may wear appropriate spectacles or a contact lens to compensate for the missing lens but in modern practice a synthetic intraocular lens implant is routinely placed inside the eye as a part of the surgical procedure.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

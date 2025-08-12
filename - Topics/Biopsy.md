@@ -18,6 +18,9 @@ aliases:
 	- [[Endoscopic biopsy]]
 		- Using a flexible tube with a camera to access and biopsy internal tissues
 - The tissue sample is then sent to a laboratory for analysis by a [[pathologist]], who will examine it for abnormalities and provide a diagnosis
+## Source[^2]
+- $n$. the removal of a small piece of living tissue from an organ or part of the body for microscopic examination. Biopsy is an important means of diagnosing cancer from examination of a fragment of tumor. It is often carried out with a special hollow needle, inserted into the liver, kidney, or other organ, with relatively little discomfort to the patient.
 ## References
 
 [^1]: Google's Search Labs | AI Overview
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

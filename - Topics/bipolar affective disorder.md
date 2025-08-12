@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (BPAD) a severe mental illness affecting about $1 \%$ of the population and causing repeated episodes of depression, mania, and/or mixed affective state. Type I BPAD consists equally of depressive and manic episodes, whereas Type II BPAD consists primarily of depressive episodes with occasional phases of hypomania. Treatment is that of the individual episode. Antidepressants and antipsychotics are used to treat depressive episodes together with mood stabilizers (e.g. lithium) or antiepileptics. Mood stabilizers are also used to prevent or lessen future episodes. Mania is most commonly treated with benzodiazepines, antipsychotics, and mood stabilizers. ECT may be used for either episode in severe cases. To prevent future episodes many patients need combinations of mood stabilizers with antidepressant or antipsychotic medication. Certain types of educational psychotherapy can be used to prevent relapse as well as to treat the individual episode. Up to $50 \%$ of BPAD patients have substance abuse problems, and many suffer from residual mood symptoms between episodes.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

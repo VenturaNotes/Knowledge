@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. the introduction of a catheter into a hollow organ or vessel. In urethral catheterization a catheter is introduced into the bladder through the urethra to relieve obstruction to the outflow of urine (see also INTERMITTENT SELF-CATHETERIZATION). Catheters can also be passed above the pubis through the anterior abdominal wall (suprapubic catheterization) directly into a full bladder if urethral catheterization is not possible. Cardiac catheterization entails the introduction of special catheters into the chambers of the heart. This allows the measurement of pressures in the chambers and pressure gradients across the heart valves, as well as the injection of contrast medium for visualization of structures using X-rays (see CORONARY ANGIOGRAPHY). Vascular catheterization enables the introduction into the arteries or veins of: (1) contrast medium for angiography or venography; (2) drugs to constrict or expand vessels or to dissolve a thrombus (see THROMBOLYSIS); (3) metal coils or other solid materials to block bleeding vessels or to thrombose aneurysms (see EMBOLIZATION); (4) devices for monitoring pressures within important vessels (e.g. Swan-Ganz catheters for monitoring pulmonary artery pressure in critically ill patients); or (5) balloons and stents to relieve obstruction.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
