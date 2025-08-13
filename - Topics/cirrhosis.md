@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. a condition in which the liver responds to liver cell (hepatocyte) injury or death by replacing damaged tissue with interlacing strands of fibrous tissue and nodules of regenerating cells. The liver becomes tawny and characteristically knobbly in appearance (due to the nodules). Causes include chronic alcoholism (alcoholic cirrhosis), viral hepatitis, nonalcoholic fatty liver disease (NAFLD), chronic obstruction of the common bile duct (secondary biliary cirrhosis), autoimmune diseases (chronic autoimmune hepatitis, primary biliary cirrhosis), sclerosing cholangitis, and chronic heart failure (cardiac cirrhosis). In a small minority of cases no cause is found (cryptogenic cirrhosis). Complications include portal hypertension, ascites, hepatic encephalopathy, and hepatoma. Cirrhosis is irreversible. The withdrawal or treatment of causative factors prevents further deterioration of liver function. Liver transplantation may be considered when liver failure has become established. Complete abstinence from alcohol should be recommended to those patients with cirrhosis secondary to alcoholic liver disease. $\textemdash$cirrhotic adj.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

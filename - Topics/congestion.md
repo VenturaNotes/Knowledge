@@ -14,8 +14,11 @@
 
 ## Source[^3]
 - A situation when too many consumers are trying to use the same impure public good simultaneously, and, as a result, the benefit to each user of this public good is reduced. Examples of impure public goods that may suffer from congestion are parks and roads. Congestion is a negative externality: while drivers on crowded roads, for example, are themselves inconvenienced, a cost they bear themselves, they also cause delay, higher fuel costs, and a greater chance of accidents to other road users.
+## Source[^4]
+- $n$. an accumulation of blood within an organ due to back pressure within its veins (for example congestion of the lungs and of the liver occurs in heart failure). Congestion may be associated with oedema (accumulation of fluid in the tissues). It is relieved by treatment of the cause.
 ## References
 
 [^1]: https://quizgecko.com/learn/network-congestion-and-delays-fg5kdx
 [^2]: Google's Search Labs | AI Overview
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

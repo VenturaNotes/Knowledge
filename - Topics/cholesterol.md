@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- $n$. a fatlike material (a sterol) present in the blood and most tissues, especially nervous tissue. Cholesterol and its esters are important constituents of cell membranes and are precursors of many steroid hormones and bile salts. Western dietary intake is approximately 500-1000 $\mathrm{mg} /$ day. Cholesterol is synthesized in the body from acetate, mainly in the liver, and blood concentration is normally $140-300 \mathrm{mg} / 100 \mathrm{ml}(3.6-7.8$ $\mathrm{mmol} / \mathrm{l})$. An elevated concentration of cholesterol in the blood (see HYPERCHOLESTEROLAEMIA) is often associated with atheroma, of which cholesterol is a major component. Hypercholesterolaemia and the resulting atheroma have been linked with a high dietary intake of saturated fats and cholesterol. However, current thinking suggests that the damage to blood vessels is caused by high levels (over $4.4 \mathrm{mmol} / \mathrm{l}$ ) of low-density lipoprotein (LDL), one of the forms in which cholesterol and other lipids are transported in the bloodstream. See also HYPERLIPIDAEMIA; LIPOPROTEIN.
 ## References
 
-[^1]:
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

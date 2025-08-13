@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (in medical ethics) the situation in which a health professional is subject to potential or actual pressures that may conflict with his or her obligation to promote the best interests of the patient over and above all else. A conflict of interest arises from a particular context or situation and may threaten a doctor's integrity and undermine trust between professional and patient. For example, a drug company may encourage a doctor to prescribe a particular medicine, which may not be the treatment of choice for a patient, or contractual financial disincentives may discourage a doctor from providing a more expensive treatment of choice for a patient. In medical research, there is always a potential conflict between protecting the individual and benefiting society. Particular problems of this kind occur in randomized controlled trials (see EQUIPOISE; INTERVENTION STUDY). Doctors will always experience competing pressures and it is important for them to be able to recognize and then, where possible, disclose, resolve, or mitigate morally problematic conflicts.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

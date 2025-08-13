@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. the prevention of unwanted pregnancy, which can be achieved by various means. Hormonal contraceptives (combined oestrogen and progestogen or progestogen only) act by preventing ovulation. They are usually taken in regular oral doses (see ORAL CONTRACEPTIVE), but may also be administered through the skin, by means of an adhesive patch impregnated with the hormones, or by three- or two-monthly injections of a long-acting progestogen. More recently developed methods for continuous administration of the hormones include subcutaneous implants of progestogen (Nexplanon) and hormonal intrauterine devices (see IUS). Methods that aim to prevent fertilization of the ovum include coitus interruptus, the condom, the diaphragm, and surgical intervention (tubal occlusion and vasectomy: see STERILIZATION). Methods that aim to prevent implantation of a fertilized ovum in the uterus include the intrauterine contraceptive device (see IUCD); these methods can be used after intercourse but before implantation (see POSTCOITAL CONTRACEPTION). Couples whose religious beliefs forbid the use of mechanical or hormonal contraceptives may use the rhythm method, in which intercourse is limited to those days in the menstrual cycle when conception is least likely.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

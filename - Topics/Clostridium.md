@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- n. a genus of mostly Gram-positive anaerobic spore-forming rodlike bacteria commonly found in soil and in the intestinal tract of humans and animals. Many species cause disease and produce extremely potent exotoxins. C. botulinum grows freely in badly preserved canned foods, producing a toxin causing serious food poisoning (botulism); an extremely dilute form of this toxin is now used to treat muscle spasm (see BOTULINUM TOXIN). C. histolyticum, C. oedematiens, and C. septicum all cause gas gangrene when they infect wounds. C. tetani lives as a harmless commensal in the intestine but causes tetanus on contamination of wounds (with manured soil). The species C. perfringens - Welch's bacillus - causes blood poisoning, food poisoning, and gas gangrene. Overgrowth of Clostridium difficile (often shortened to C. diff), a normal inhabitant of the human large intestine, is not uncommon as a complication of some antibiotic therapy and produces a specific condition $\textendash$ pseudomembranous colitis (see PSEUDOMEMBRANE) $\textendash$ which is life-threatening unless treated promptly and is becoming more common as a hospital-acquired infection.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

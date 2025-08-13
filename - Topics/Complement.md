@@ -15,8 +15,10 @@ aliases:
 - (2) See BOOLEAN ALGEBRA
 - (3) Complement of a subgraph $G'$, with vertices $V'$ and edges $E'$, of a graph $G$, with vertices V and edges E. The subgraph consisting of the vertices V and the edges in E but not in $E'$
 - (4) See RADIX-MINUS-ONE COMPLEMENT. See also COMPLEMENT NUMBER SYSTEM, RADIX COMPLEMENT
-
+## Source[^4]
+- $n$. a system of functionally linked proteins that interact with one another to aid the body's defences when antibodies combine with antigens. Complement is involved in the breaking-up (lysis) and opsonization of foreign organisms. It is also involved in inflammation and clearing immune (antigen-antibody) complexes.
 ## References
 [^1]: [[Home Page - Problems on Discrete Mathematics by Chung-Chih Li et. al.#^mlxap7]]
 [^2]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^a3ec37]]
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

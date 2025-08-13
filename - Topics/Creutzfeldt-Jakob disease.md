@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (CJD) a rapidly progressive rare neurological disease, a form of human spongiform encephalopathy in which dementia progresses to death after a period of 3-12 months. There is no effective treatment. The causative agent is an abnormal prion protein that accumulates in the brain and causes widespread destruction of tissue. CJD typically affects middle-aged to elderly people. Some 15% of cases are due to a form of the disease that is inherited as an autosomal dominant trait but most cases are sporadic, susceptibility being genetically determined. A few cases of CJD are acquired: the agent is known to have been transmitted by tissue and organ transplantation and by human growth hormone injections, but the disease may take years to manifest itself. Variant CreutzfeldtJakob disease (vCJD) is the human form of bovine spongiform encephalopathy (BSE), which is most likely acquired by the ingestion of infected beef products. Patients are younger than those affected with sporadic CJD and present with psychiatric symptoms (e.g. depression, anxiety) and hypersensitivity to touch, which are followed after months by myoclonic jerks (see MYOCLONUS) and dementia. \[H. G. Creutzfeldt (1885-1964) and A. M. Jakob (1884-1931), German psychiatrists]
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

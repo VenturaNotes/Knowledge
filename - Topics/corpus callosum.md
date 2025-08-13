@@ -6,6 +6,9 @@
 	- It connects the left and right cerebral hemispheres
 - Makes up largest collection of white matter found in the brain
 - Patients have had their corpus callosum surgically severed to stop the spread of epileptic seizures
+## Source[^2]
+- the broad band of nervous tissue that connects the two cerebral hemispheres, containing an estimated 300 million fibres. See CEREBRUM.
 ## References
 
 [^1]: [[(72) 2-Minute Neuroscience - Corpus Callosum]]
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
