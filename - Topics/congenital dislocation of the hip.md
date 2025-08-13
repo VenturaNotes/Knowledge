@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (CDH) an abnormality present at birth in which the head of the femur is displaced or easily displaceable from the acetabulum (socket) of the ilium, which is poorly developed; it frequently affects both hip joints. CDH occurs in about 1.5 per 1000 live births, being more common in first-born girls, in breech deliveries, and if there is a family history of the condition. The leg is shortened and has a reduced range of movement, and the skin creases may be asymmetrical. All babies are routinely screened for CDH at birth and at developmental check-ups by gentle manipulation of the hip causing it to be reduced and dislocated with a clunk (see Barlow MAnOeuvre; Ortolani MANOEUVRE). The diagnosis is confirmed by X-ray or ultrasound scan. Treatment is with a special harness holding the hip in the correct position. If this is unsuccessful, the hip is reduced under anaesthetic and held with a plaster of Paris cast or the defect is corrected by surgery. Successful treatment of an infant can give a normal hip; if the dislocation is not detected, the hip does not develop normally and osteoarthritis develops at a young age.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

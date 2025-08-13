@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. imaging of the bile ducts in order to demonstrate congenital anatomical abnormalities (such as biliary atresia), biliary diseases, and the presence of gallstones or strictures. It may be combined with imaging of the pancreatic duct (cholangiopancreatography), as in endoscopic retrograde cholangiopancreatography (see ERCP). Magnetic resonance cholangiopancreatography (MRCP) is a noninvasive magnetic resonance imaging technique that has largely superseded ERCP for diagnostic purposes. ERCP following MRCP is used for therapeutic intervention. In operative (or on-table) cholangiography, a radiopaque contrast medium is injected into the bile ducts during cholecystectomy, to ensure that there are no remaining gallstones in the ducts. Percutaneous transhepatic cholangiography (PTC) is an invasive technique in which a catheter is manipulated under direct fluoroscopic guidance through the anterior abdominal wall, across the liver, and into a bile duct; contrast solution is injected to outline the bile ducts. Using a Seldinger technique, drains or stents can be placed to treat infection or malignant strictures. T-tube cholangiography involves the postoperative injection of radiopaque contrast material via a drain (T-tube) left in the main bile duct after cholecystectomy.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

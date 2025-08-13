@@ -2609,665 +2609,751 @@ Reviewed: false
 	2029. [[cholagogue]]
 	2030. [[cholangiocarcinoma]]
 	
-	2031. cholangiography
-	2032. cholangioma
+	2031. [[cholangiography]]
+	2032. [[cholangioma]]
 	2033. cholangiopancreatography
-	2034. cholangioscope
-	2035. cholangitis
+		1. $n$. see CHOLANGIOGRAPHY.
+	2034. [[cholangioscope]]
+	2035. [[cholangitis]]
 	2036. cholecalciferol
-	2037. cholecyst-
-	2038. cholecystectomy
-	2039. cholecystenterostomy
-	2040. cholecystitis
+		1. $n$. see VITAMIN D.
+	2037. [[cholecyst-]]
+	2038. [[cholecystectomy]]
+	2039. [[cholecystenterostomy]]
+	2040. [[cholecystitis]]
 	
-	2041. cholecystoduodenostomy
-	2042. cholecystography
-	2043. cholecystokinin
-	2044. cholecystolithiasis
-	2045. cholecystostomy
-	2046. choledoch-
-	2047. choledocholithiasis
-	2048. choledochoscope
-	2049. choledochotomy
-	2050. cholelithiasis
+	2041. [[cholecystoduodenostomy]]
+	2042. [[cholecystography]]
+	2043. [[cholecystokinin]]
+	2044. [[cholecystolithiasis]]
+	2045. [[cholecystostomy]]
+	2046. [[choledoch-]]
+	2047. [[choledocholithiasis]]
+	2048. [[choledochoscope]]
+	2049. [[choledochotomy]]
+	2050. [[cholelithiasis]]
 	
-	2051. cholelithotomy
-	2052. cholera
-	2053. choleresis
-	2054. choleretic
-	2055. cholestasis
-	2056. cholesteatoma
-	2057. cholesterol
-	2058. cholesterosis
+	2051. [[cholelithotomy]]
+	2052. [[cholera]]
+	2053. [[choleresis]]
+	2054. [[choleretic]]
+	2055. [[cholestasis]]
+	2056. [[cholesteatoma]]
+	2057. [[cholesterol]]
+	2058. [[cholesterosis]]
 	2059. cholestyramine
+		1. $n$. see COLESTYRAMINE.
 	2060. cholic acid
+		1. (cholalic acid) see BILE ACIDS.
 	
-	2061. choline
-	2062. cholinergic
+	2061. [[choline]]
+	2062. [[cholinergic]]
 	2063. cholinergic urticaria
-	2064. cholinesterase
-	2065. choluria
-	2066. chondr-
-	2067. chondrin
+		1. see URTICARIA.
+	2064. [[cholinesterase]]
+	2065. [[choluria]]
+	2066. [[chondr-]]
+	2067. [[chondrin]]
 	2068. chondriosome
-	2069. chondroblast
-	2070. chondroblastoma
+		1. $n$. see MITOCHONDRION.
+	2069. [[chondroblast]]
+	2070. [[chondroblastoma]]
 	
-	2071. chondrocalcinosis
-	2072. chondroclast
-	2073. chondrocranium
-	2074. chondrocyte
-	2075. chondrodermatitis nodularis helicis
-	2076. chondrodysplasia
-	2077. chondroitin sulphate
-	2078. chondroma
-	2079. chondromalacia
-	2080. chondroplasty
+	2071. [[chondrocalcinosis]]
+	2072. [[chondroclast]]
+	2073. [[chondrocranium]]
+	2074. [[chondrocyte]]
+	2075. [[chondrodermatitis nodularis helicis]]
+	2076. [[chondrodysplasia]]
+	2077. [[chondroitin sulphate]]
+	2078. [[chondroma]]
+	2079. [[chondromalacia]]
+	2080. [[chondroplasty]]
 	
-	2081. chondrosarcoma
+	2081. [[chondrosarcoma]]
 	2082. choose and book
-	2083. chord-
-	2084. chorda
-	2085. chordee
-	2086. chordoma
-	2087. chorea
-	2088. chorioamnionitis
-	2089. choriocarcinoma
-	2090. chorion
+		1. see NHS e-Referral Service.
+	2083. [[chord-]]
+	2084. [[chorda]]
+	2085. [[chordee]]
+	2086. [[chordoma]]
+	2087. [[chorea]]
+	2088. [[chorioamnionitis]]
+	2089. [[choriocarcinoma]]
+	2090. [[chorion]]
 	
-	2091. chorionicity
-	2092. chorionic villus sampling
-	2093. chorioretinopathy
-	2094. choristoma
-	2095. choroid
-	2096. choroidal detachment
-	2097. choroideraemia
-	2098. choroiditis
-	2099. choroid plexus
+	2091. [[chorionicity]]
+	2092. [[chorionic villus sampling]]
+	2093. [[chorioretinopathy]]
+	2094. [[choristoma]]
+	2095. [[choroid]]
+	2096. [[choroidal detachment]]
+	2097. [[choroideraemia]]
+	2098. [[choroiditis]]
+	2099. [[choroid plexus]]
 	2100. CHP
+		1. see Consultant in Health Protection.
 	
-	2101. Christmas disease
-	2102. chrom-
-	2103. chromaffin
-	2104. -chromasia
-	2105. chromat-
-	2106. chromatid
-	2107. chromatin
-	2108. chromatography
-	2109. chromatolysis
-	2110. chromatophore
+	2101. [[Christmas disease]]
+	2102. [[chrom-]]
+	2103. [[chromaffin]]
+	2104. [[-chromasia]]
+	2105. [[chromat-]]
+	2106. [[chromatid]]
+	2107. [[chromatin]]
+	2108. [[chromatography]]
+	2109. [[chromatolysis]]
+	2110. [[chromatophore]]
 	
-	2111. chromatopsia
-	2112. chromium
-	2113. chromoblastomycosis
-	2114. chromogen
-	2115. chromophobe
-	2116. chromosome
-	2117. chron-
-	2118. chronic
+	2111. [[chromatopsia]]
+	2112. [[chromium]]
+	2113. [[chromoblastomycosis]]
+	2114. [[chromogen]]
+	2115. [[chromophobe]]
+	2116. [[chromosome]]
+	2117. [[chron-]]
+	2118. [[chronic]]
 	2119. chronic fatigue syndrome
+		1. see CFS/ME/PVF.
 	2120. chronic idiopathic facial pain
+		1. see PERSISTENT IDIOPATHIC FACIAL PAIN.
 	
-	2121. chronic obstructive pulmonary disease
-	2122. chronic pelvic pain
-	2123. Chronic Sick and Disabled Persons Act 1970
-	2124. chronic total occlusion
-	2125. chrys-
-	2126. chrysiasis
-	2127. Chrysops
-	2128. chrysotherapy
-	2129. Churg-Strauss syndrome
-	2130. Chvosteck's sign
+	2121. [[chronic obstructive pulmonary disease]]
+	2122. [[chronic pelvic pain]]
+	2123. [[Chronic Sick and Disabled Persons Act 1970]]
+	2124. [[chronic total occlusion]]
+	2125. [[chrys-]]
+	2126. [[chrysiasis]]
+	2127. [[Chrysops]]
+	2128. [[chrysotherapy]]
+	2129. [[Churg-Strauss syndrome]]
+	2130. [[Chvosteck's sign]]
 	
-	2131. chyle
-	2132. chylomicron
-	2133. chyluria
-	2134. chyme
-	2135. chymotrypsin
+	2131. [[chyle]]
+	2132. [[chylomicron]]
+	2133. [[chyluria]]
+	2134. [[chyme]]
+	2135. [[chymotrypsin]]
 	2136. chymotrypsinogen
+		1. $n$. see CHYMOTRYPSIN.
 	2137. Cialis
-	2138. cicatricial
-	2139. ciclosporin
-	2140. -cide
+		1. n. see SILDENAFIL.
+	2138. [[cicatricial]]
+	2139. [[ciclosporin]]
+	2140. [[-cide]]
 	
-	2141. ciliary body
-	2142. cilium
-	2143. cimetidine
+	2141. [[ciliary body]]
+	2142. [[cilium]]
+	2143. [[cimetidine]]
 	2144. Cimex
+		1. $n$. see BED BUG.
 	2145. CIN
-	2146. cinacalcet
-	2147. cinchocaine
-	2148. cinchona
-	2149. cinchonism
-	2150. cine-
+		1. see CERVICAL INTRAEPITHELIAL NEOPLASIA.
+	2146. [[cinacalcet]]
+	2147. [[cinchocaine]]
+	2148. [[cinchona]]
+	2149. [[cinchonism]]
+	2150. [[cine-]]
 	
-	2151. cingulectomy
-	2152. cingulum
+	2151. [[cingulectomy]]
+	2152. [[cingulum]]
 	2153. ciprofibrate
-	2154. ciprofloxacin
-	2155. circadian
-	2156. circle of Willis
+		1. $n$. see FIBRATES.
+	2154. [[ciprofloxacin]]
+	2155. [[circadian]]
+	2156. [[circle of Willis]]
 	2157. circulatory system
-	2158. circum-
-	2159. circumcision
-	2160. circumduction
+		1. see CARDIOVASCULAR SYSTEM.
+	2158. [[circum-]]
+	2159. [[circumcision]]
+	2160. [[circumduction]]
 	
-	2161. circumflex nerve
-	2162. circumoral
-	2163. circumstantiality((in psychiatry))
-	2164. cirrhosis
-	2165. cirs-
-	2166. cirsoid
+	2161. [[circumflex nerve]]
+	2162. [[circumoral]]
+	2163. [[circumstantiality]]
+	2164. [[cirrhosis]]
+	2165. [[cirs-]]
+	2166. [[cirsoid]]
 	2167. CIS
+		1. see CARCINOMA IN SITU.
 	2168. cisatracurium
+		1. $n$. see MUSCLE RELAXANT.
 	2169. CISC
-	2170. cisplatin
+		1. clean intermittent self-catheterization. See INTERMITTENT SELF-CATHETERIZATION.
+	2170. [[cisplatin]]
 	
-	2171. cisterna
-	2172. cistron
-	2173. citalopram
-	2174. citric acid
+	2171. [[cisterna]]
+	2172. [[cistron]]
+	2173. [[citalopram]]
+	2174. [[citric acid]]
 	2175. citric acid cycle
-	2176. Citrobacter
-	2177. citrullinaemia
-	2178. citrulline
+		1. see KREBS CYCLE.
+	2176. [[Citrobacter]]
+	2177. [[citrullinaemia]]
+	2178. [[citrulline]]
 	2179. CJD
-	2180. clamp
+		1. see Creutzfeldt-JaKob disease.
+	2180. [[clamp]]
 	
-	2181. Clark's levels
-	2182. clasp
+	2181. [[Clark's levels]]
+	2182. [[clasp]]
 	2183. clasp-knife rigidity
-	2184. claudication
-	2185. claustrophobia
-	2186. claustrum
-	2187. clavicle
-	2188. clavulanic acid
-	2189. clavus
-	2190. claw-foot
+		1. see SPASTICITY.
+	2184. [[claudication]]
+	2185. [[claustrophobia]]
+	2186. [[claustrum]]
+	2187. [[clavicle]]
+	2188. [[clavulanic acid]]
+	2189. [[clavus]]
+	2190. [[claw-foot]]
 	
-	2191. claw-hand
-	2192. clear-cell carcinoma
-	2193. clearance
-	2194. clearing
-	2195. cleavage
-	2196. cleft lip
-	2197. cleft palate
-	2198. cleid-
-	2199. cleidocranial dysostosis
-	2200. clemastine
+	2191. [[claw-hand]]
+	2192. [[clear-cell carcinoma]]
+	2193. [[clearance]]
+	2194. [[clearing]]
+	2195. [[cleavage]]
+	2196. [[cleft lip]]
+	2197. [[cleft palate]]
+	2198. [[cleid-]]
+	2199. [[cleidocranial dysostosis]]
+	2200. [[clemastine]]
 	
-	2201. client-centred therapy
-	2202. climacteric
-	2203. clindamycin
-	2204. clinic
-	2205. clinical audit
-	2206. clinical commissioning groups
-	2207. clinical ethics
-	2208. Clinical Global Impression
-	2209. clinical governance
+	2201. [[client-centred therapy]]
+	2202. [[climacteric]]
+	2203. [[clindamycin]]
+	2204. [[clinic]]
+	2205. [[clinical audit]]
+	2206. [[clinical commissioning groups]]
+	2207. [[clinical ethics]]
+	2208. [[Clinical Global Impression]]
+	2209. [[clinical governance]]
 	2210. clinical medical officer
+		1. see COMMUNITY HEALTH.
 	
-	2211. clinical medicine
+	2211. [[clinical medicine]]
 	2212. clinical trial
-	2213. clinodactyly
-	2214. clitoridectomy
-	2215. clitoris
-	2216. clitoromegaly
-	2217. clivus
-	2218. CLO
-	2219. cloaca
-	2220. clomethiazole
+		1. see INTERVENTION STUDY.
+	2213. [[clinodactyly]]
+	2214. [[clitoridectomy]]
+	2215. [[clitoris]]
+	2216. [[clitoromegaly]]
+	2217. [[clivus]]
+	2218. [[CLO]]
+	2219. [[cloaca]]
+	2220. [[clomethiazole]]
 	
-	2221. clomifene
-	2222. clomipramine
-	2223. clonazepam
-	2224. clone
-	2225. clonic
-	2226. clonidine
-	2227. cloning
-	2228. clonogenic
-	2229. clonorchiasis
-	2230. Clonorchis
+	2221. [[clomifene]]
+	2222. [[clomipramine]]
+	2223. [[clonazepam]]
+	2224. [[clone]]
+	2225. [[clonic]]
+	2226. [[clonidine]]
+	2227. [[cloning]]
+	2228. [[clonogenic]]
+	2229. [[clonorchiasis]]
+	2230. [[Clonorchis]]
 	
-	2231. clonus
-	2232. clopidogrel
-	2233. Clostridium
-	2234. clotrimazole
+	2231. [[clonus]]
+	2232. [[clopidogrel]]
+	2233. [[Clostridium]]
+	2234. [[clotrimazole]]
 	2235. clotting factors
+		1. see coagulation factors
 	2236. clotting time
-	2237. clozapine
+		1. see coagulation time
+	2237. [[clozapine]]
 	2238. CLS
-	2239. club-foot
-	2240. clubbing
+		1. see Coffin-Lowry SYndrome.
+	2239. [[club-foot]]
+	2240. [[clubbing]]
 	
 	2241. clumping
-	2242. cluster headache
-	2243. Clutton's joint
-	2244. clyster
+		1. $n$. see AGGLUTINATION.
+	2242. [[cluster headache]]
+	2243. [[Clutton's joint]]
+	2244. [[clyster]]
 	2245. CMO
+		1. see Chief Medical Officer.
 	2246. CMV
+		1. see CYTOMEGALOVIRUS.
 	2247. CNS
+		1. see CENTRAL NERVOUS SYSTEM.
 	2248. co-amoxiclav
+		1. see BETA-LACTAM ANTIBIOTIC.
 	2249. co-codamol
+		1. $n$. see CODEINE.
 	2250. co-dydramol
+		1. $n$. see DIHYDROCODEINE.
 	
 	2251. co-magaldrox
-	2252. co-phenotrope
-	2253. co-registration((in diagnostic imaging))
-	2254. co-trimoxazole
-	2255. coagulant
-	2256. coagulase
-	2257. coagulation
-	2258. coagulation factors
-	2259. coagulation time
-	2260. coagulum
+		1. $n$. see ALUMINIUM HYDROXIDE.
+	2252. [[co-phenotrope]]
+	2253. [[co-registration]]
+	2254. [[co-trimoxazole]]
+	2255. [[coagulant]]
+	2256. [[coagulase]]
+	2257. [[coagulation]]
+	2258. [[coagulation factors]]
+	2259. [[coagulation time]]
+	2260. [[coagulum]]
 	
-	2261. coal-worker's pneumoconiosis
-	2262. coalesce
-	2263. coal tar
-	2264. coarctation
-	2265. Coats' disease
+	2261. [[coal-worker's pneumoconiosis]]
+	2262. [[coalesce]]
+	2263. [[coal tar]]
+	2264. [[coarctation]]
+	2265. [[Coats' disease]]
 	2266. cobalamin
-	2267. cobalt
-	2268. cobalt-chromium
-	2269. coblation
-	2270. cocaine
+		1. $n$. see VITAMIN $\mathrm{B}_{12}$.
+	2267. [[cobalt]]
+	2268. [[cobalt-chromium]]
+	2269. [[coblation]]
+	2270. [[cocaine]]
 	
-	2271. coccidioidomycosis
-	2272. coccobacillus
-	2273. coccus
-	2274. coccy-
-	2275. coccygodynia
-	2276. coccyx
-	2277. cochlea
+	2271. [[coccidioidomycosis]]
+	2272. [[coccobacillus]]
+	2273. [[coccus]]
+	2274. [[coccy-]]
+	2275. [[coccygodynia]]
+	2276. [[coccyx]]
+	2277. [[cochlea]]
 	2278. cochlear duct
-	2279. cochlear implant
-	2280. cochlear microphonic
+		1. (scala media) see cochlea
+	2279. [[cochlear implant]]
+	2280. [[cochlear microphonic]]
 	
-	2281. cochlear nerve
-	2282. Cockayne's syndrome
-	2283. Cockcroft-Gault formula
-	2284. codeine
-	2285. Codman's triangle
-	2286. codon
-	2287. -coele
-	2288. coeli-
-	2289. coeliac
-	2290. coeliac disease
+	2281. [[cochlear nerve]]
+	2282. [[Cockayne's syndrome]]
+	2283. [[Cockcroft-Gault formula]]
+	2284. [[codeine]]
+	2285. [[Codman's triangle]]
+	2286. [[codon]]
+	2287. [[-coele]]
+	2288. [[coeli-]]
+	2289. [[coeliac]]
+	2290. [[coeliac disease]]
 	
-	2291. coelioscopy
-	2292. coelom
-	2293. coenzyme
-	2294. coenzyme A
-	2295. cofactor
-	2296. coffee-ground vomit
-	2297. Coffin-Lowry syndrome
-	2298. Cogan's syndrome
-	2299. cognition
-	2300. cognitive behavioural therapy
+	2291. [[coelioscopy]]
+	2292. [[coelom]]
+	2293. [[coenzyme]]
+	2294. [[coenzyme A]]
+	2295. [[cofactor]]
+	2296. [[coffee-ground vomit]]
+	2297. [[Coffin-Lowry syndrome]]
+	2298. [[Cogan's syndrome]]
+	2299. [[cognition]]
+	2300. [[cognitive behavioral therapy]]
 	
-	2301. cognitive psychology
-	2302. cognitive therapy
-	2303. cohort study
-	2304. coiling((in interventional radiology))
-	2305. coinsurance
-	2306. coitus
-	2307. coitus interruptus
-	2308. col-
-	2309. colchicine
-	2310. cold
+	2301. [[cognitive psychology]]
+	2302. [[cognitive therapy]]
+	2303. [[cohort study]]
+	2304. [[coiling]]
+	2305. [[coinsurance]]
+	2306. [[coitus]]
+	2307. [[coitus interruptus]]
+	2308. [[col-]]
+	2309. [[colchicine]]
+	2310. [[cold]]
 	
 	2311. cold coagulation
+		1. see CERVICAL INTRAEPITHELIAL NEOPLASIA.
 	2312. cold sore
-	2313. colectomy
-	2314. colestipol
-	2315. colestyramine
-	2316. colic
-	2317. coliform bacteria
-	2318. colistimethate sodium
-	2319. colitis
-	2320. collagen
+		1. see HERPES.
+	2313. [[colectomy]]
+	2314. [[colestipol]]
+	2315. [[colestyramine]]
+	2316. [[colic]]
+	2317. [[coliform bacteria]]
+	2318. [[colistimethate sodium]]
+	2319. [[colitis]]
+	2320. [[collagen]]
 	
 	2321. collagen disease
+		1. an obsolete term for connective-tissue disease.
 	2322. collapsing pulse
+		1. see CORRIGAN's PULSE.
 	2323. collar bone
-	2324. collateral
-	2325. collateral circulation
-	2326. collective unconscious((in Jungian psychology))
-	2327. Colles' fracture
-	2328. colliculus
-	2329. collimator
-	2330. collodion
+		1. see CLAVICLE.
+	2324. [[collateral]]
+	2325. [[collateral circulation]]
+	2326. [[collective unconscious]]
+	2327. [[Colles' fracture]]
+	2328. [[colliculus]]
+	2329. [[collimator]]
+	2330. [[collodion]]
 	
-	2331. colloidian baby
-	2332. collyrium
-	2333. coloboma
-	2334. colography
-	2335. colon
-	2336. colonic irrigation
+	2331. [[colloidian baby]]
+	2332. [[collyrium]]
+	2333. [[coloboma]]
+	2334. [[colography]]
+	2335. [[colon]]
+	2336. [[colonic irrigation]]
 	2337. colonography
-	2338. colonoscopy
-	2339. colony
-	2340. colony-stimulating factor
+		1. $n$. see COLOGRAPHY.
+	2338. [[colonoscopy]]
+	2339. [[colony]]
+	2340. [[colony-stimulating factor]]
 	
-	2341. colorectal cancer
-	2342. colorimeter
-	2343. colostomy
-	2344. colostrum
-	2345. colour blindness
-	2346. colour flow ultrasound imaging
-	2347. colp-
-	2348. colpoperineorrhaphy
-	2349. colporrhaphy
-	2350. colposcopy
+	2341. [[colorectal cancer]]
+	2342. [[colorimeter]]
+	2343. [[colostomy]]
+	2344. [[colostrum]]
+	2345. [[color blindness]]
+	2346. color flow ultrasound imaging
+		1. see DOPPLER ULTRASOUND.
+	2347. [[colp-]]
+	2348. [[colpoperineorrhaphy]]
+	2349. [[colporrhaphy]]
+	2350. [[colposcopy]]
 	
-	2351. colposuspension
-	2352. columella
-	2353. column
+	2351. [[colposuspension]]
+	2352. [[columella]]
+	2353. [[column]]
 	2354. COM
-	2355. coma
-	2356. combined therapy
-	2357. Combitube
+		1. chronic otitis media (see otitis).
+	2355. [[coma]]
+	2356. [[combined therapy]]
+	2357. [[Combitube]]
 	2358. comedo
-	2359. commando operation
-	2360. commensal
+		1. $n$. (pl. comedones) see BLACKHEAD.
+	2359. [[commando operation]]
+	2360. [[commensal]]
 	
-	2361. comminuted fracture
-	2362. commissure
-	2363. commotio retinae
-	2364. communicable disease
-	2365. communicable disease control
-	2366. communicans
-	2367. communitarianism
+	2361. [[comminuted fracture]]
+	2362. [[commissure]]
+	2363. [[commotio retinae]]
+	2364. [[communicable disease]]
+	2365. [[communicable disease control]]
+	2366. [[communicans]]
+	2367. [[communitarianism]]
 	2368. community-acquired pneumonia
-	2369. community health
+		1. (CAP) see PNEUMONIA.
+	2369. [[community health]]
 	2370. community hospital
+		1. see HOSPITAL.
 	
-	2371. community interest group((in Britain))
+	2371. [[community interest group]]
 	2372. community medicine
-	2373. community mental health team
-	2374. community midwife
-	2375. community nurses
-	2376. community paediatrician
+		1. see PUBLIC HEALTH MEDICINE.
+	2373. [[community mental health team]]
+	2374. [[community midwife]]
+	2375. [[community nurses]]
+	2376. [[community paediatrician]]
 	2377. community services
+		1. see DOMICILIARY SERVICES.
 	2378. Community Treatment Order
+		1. see Mental Health Act.
 	2379. comparative mortality figure
-	2380. compartment
+		1. see OCCUPATIONAL MORTALITY.
+	2380. [[compartment]]
 	
-	2381. compartment syndrome
-	2382. compassion
-	2383. compatibility
-	2384. compensation
+	2381. [[compartment syndrome]]
+	2382. [[compassion]]
+	2383. [[compatibility]]
+	2384. [[compensation]]
 	2385. competence
-	2386. complaints system
-	2387. complement
-	2388. complementary medicine
-	2389. complement fixation
-	2390. complex
+		1. n. see capacity
+	2386. [[complaints system]]
+	2387. [[complement]]
+	2388. [[complementary medicine]]
+	2389. [[complement fixation]]
+	2390. [[complex]]
 	
 	2391. complex partial seizure
-	2392. complex regional pain syndrome
+		1. see EPILEPSY.
+	2392. [[complex regional pain syndrome]]
 	2393. compliance
-	2394. complication
-	2395. compomer
-	2396. composite resin
-	2397. compress
-	2398. compressed air illness
-	2399. compression venography
-	2400. compulsion
+		1. $n$. see ADHERENCE.
+	2394. [[complication]]
+	2395. [[compomer]]
+	2396. [[composite resin]]
+	2397. [[compress]]
+	2398. [[compressed air illness]]
+	2399. [[compression venography]]
+	2400. [[compulsion]]
 	
-	2401. compulsory admission
-	2402. computer-assisted surgery
-	2403. computerized radiography
+	2401. [[compulsory admission]]
+	2402. [[computer-assisted surgery]]
+	2403. [[computerized radiography]]
 	2404. computerized tomographic angiography
-	2405. computerized tomography
-	2406. conception
-	2407. conceptus
-	2408. concha
-	2409. concomitant
-	2410. concordance
+		1. (CTA) see ANGIOGRAPHY.
+	2405. [[computerized tomography]]
+	2406. [[conception]]
+	2407. [[conceptus]]
+	2408. [[concha]]
+	2409. [[concomitant]]
+	2410. [[concordance]]
 	
-	2411. concretion
-	2412. concussion
-	2413. condenser
-	2414. conditioned reflex
-	2415. conditioning
-	2416. condom
-	2417. conduct disorder
-	2418. conducting tissue
-	2419. condylarthrosis
-	2420. condyle
+	2411. [[concretion]]
+	2412. [[concussion]]
+	2413. [[condenser]]
+	2414. [[conditioned reflex]]
+	2415. [[conditioning]]
+	2416. [[condom]]
+	2417. [[conduct disorder]]
+	2418. [[conducting tissue]]
+	2419. [[condylarthrosis]]
+	2420. [[condyle]]
 	
-	2421. condyloma
-	2422. cone
+	2421. [[condyloma]]
+	2422. [[cone]]
 	2423. cone beam
-	2424. cone biopsy
-	2425. confabulation
-	2426. confection
-	2427. confidence interval
-	2428. confidential enquiries
-	2429. confidentiality
-	2430. conflict
+		1. see IMAGE-GUIDED RADIOTHERAPY
+	2424. [[cone biopsy]]
+	2425. [[confabulation]]
+	2426. [[confection]]
+	2427. [[confidence interval]]
+	2428. [[confidential enquiries]]
+	2429. [[confidentiality]]
+	2430. [[conflict]]
 	
-	2431. conflict of interest
-	2432. confluence
-	2433. confocal microscopy
-	2434. confounding
-	2435. congenital
-	2436. congenital adrenal hyperplasia
-	2437. congenital diaphragmatic hernia
-	2438. congenital dislocation of the hip
+	2431. [[conflict of interest]]
+	2432. [[confluence]]
+	2433. [[confocal microscopy]]
+	2434. [[confounding]]
+	2435. [[congenital]]
+	2436. [[congenital adrenal hyperplasia]]
+	2437. [[congenital diaphragmatic hernia]]
+	2438. [[congenital dislocation of the hip]]
 	2439. congenitally corrected transposition
-	2440. congestion
+		1. see TRANSPOSITION OF THE GREAT VESSELS.
+	2440. [[congestion]]
 	
 	2441. congestive cardiac failure
-	2442. Congo red
-	2443. coniine
-	2444. coning
-	2445. conization
-	2446. conjoined twins
-	2447. conjugate
-	2448. conjugation
-	2449. conjunctiva
-	2450. conjunctivitis
+		1. (CCF, congestive heart failure) see HEART FAILURE.
+	2442. [[Congo red]]
+	2443. [[coniine]]
+	2444. [[coning]]
+	2445. [[conization]]
+	2446. [[conjoined twins]]
+	2447. [[conjugate]]
+	2448. [[conjugation]]
+	2449. [[conjunctiva]]
+	2450. [[conjunctivitis]]
 	
-	2451. Conn's syndrome
-	2452. connective-tissue disease
-	2453. connective tissue
-	2454. consanguinity
-	2455. conscientious objection
-	2456. consent
-	2457. consequentialism
-	2458. conservative treatment
-	2459. consolidation
-	2460. constipation
+	2451. [[Conn's syndrome]]
+	2452. [[connective-tissue disease]]
+	2453. [[connective tissue]]
+	2454. [[consanguinity]]
+	2455. [[conscientious objection]]
+	2456. [[consent]]
+	2457. [[consequentialism]]
+	2458. [[conservative treatment]]
+	2459. [[consolidation]]
+	2460. [[constipation]]
 	
-	2461. constrictor
-	2462. consultant
-	2463. Consultant in Health Protection
-	2464. consumption
-	2465. contact
-	2466. contact lenses
-	2467. contact therapy
-	2468. contagious disease
+	2461. [[constrictor]]
+	2462. [[consultant]]
+	2463. [[Consultant in Health Protection]]
+	2464. [[consumption]]
+	2465. [[contact]]
+	2466. [[contact lenses]]
+	2467. [[contact therapy]]
+	2468. [[contagious disease]]
 	2469. continent diversion
-	2470. continuity of care
+		1. see URINARY DIVERSION.
+	2470. [[continuity of care]]
 	
-	2471. continuous patient pathway
-	2472. continuous positive airways pressure
-	2473. continuous subcutaneous insulin infusion
-	2474. contra-
-	2475. contraception
-	2476. contraction
-	2477. contracture
-	2478. contraindication
-	2479. contralateral
-	2480. contralateral-routing-of-signal hearing aid
+	2471. [[continuous patient pathway]]
+	2472. [[continuous positive airways pressure]]
+	2473. [[continuous subcutaneous insulin infusion]]
+	2474. [[contra-]]
+	2475. [[contraception]]
+	2476. [[contraction]]
+	2477. [[contracture]]
+	2478. [[contraindication]]
+	2479. [[contralateral]]
+	2480. [[contralateral-routing-of-signal hearing aid]]
 	
-	2481. contrast
-	2482. contrast medium
-	2483. contrast nephropathy
-	2484. contrecoup
+	2481. [[contrast]]
+	2482. [[contrast medium]]
+	2483. [[contrast nephropathy]]
+	2484. [[contrecoup]]
 	2485. controlled drug
+		1. see Misuse of Drugs Act 1971.
 	2486. controlled ovarian stimulation
+		1. (COS) see SUPEROVULATION.
 	2487. controlled trial
-	2488. contusion
-	2489. conus arteriosus
-	2490. conus medullaris
+		1. see INTERVENTION STUDY.
+	2488. [[contusion]]
+	2489. [[conus arteriosus]]
+	2490. [[conus medullaris]]
 	
-	2491. convergence
-	2492. convergence insufficiency
-	2493. conversion
-	2494. conversion disorder
+	2491. [[convergence]]
+	2492. [[convergence insufficiency]]
+	2493. [[conversion]]
+	2494. [[conversion disorder]]
 	2495. conversion seizure
-	2496. convolution
-	2497. convulsion
-	2498. Cooksey-Cawthorne exercises
+		1. see NON-EPILEPTIC SEIZURE.
+	2496. [[convolution]]
+	2497. [[convulsion]]
+	2498. [[Cooksey-Cawthorne exercises]]
 	2499. Cooley's anaemia
-	2500. Coombs' test
+		1. see thalassaemia. \[T. B. Cooley (1871-1945), US paediatrician]
+	2500. [[Coombs' test]]
 	
 	2501. Copaxone
+		1. $n$. see Glatiramer.
 	2502. COPD
-	2503. copr-
-	2504. coprolalia
+		1. see CHRONIC OBSTRUCTIVE PULMONARY DISEASE.
+	2503. [[copr-]]
+	2504. [[coprolalia]]
 	2505. coprolith
-	2506. coproporphyrin
+		1. $n$. see FAECALITH.
+	2506. [[coproporphyrin]]
 	2507. copulation
+		1. $n$. see COITUS.
 	2508. cor
-	2509. coracoid process
-	2510. cord
+		1. $n$. the heart.
+	2509. [[coracoid process]]
+	2510. [[cord]]
 	
-	2511. cordectomy
-	2512. cordocentesis
-	2513. cordotomy
-	2514. cord presentation
-	2515. cord prolapse
+	2511. [[cordectomy]]
+	2512. [[cordocentesis]]
+	2513. [[cordotomy]]
+	2514. [[cord presentation]]
+	2515. [[cord prolapse]]
 	2516. Cordylobia
-	2517. corectopia
+		1. $n$. see TUMBU FLY.
+	2517. [[corectopia]]
 	2518. corium
-	2519. corn
-	2520. cornea
+		1. n. see dermis
+	2519. [[corn]]
+	2520. [[cornea]]
 	
-	2521. corneal arcus
+	2521. [[corneal arcus]]
 	2522. corneal graft
-	2523. corneal reflex
-	2524. corneal ring
-	2525. corneal topography
+		1. see KERATOPLASTY.
+	2523. [[corneal reflex]]
+	2524. [[corneal ring]]
+	2525. [[corneal topography]]
 	2526. cornification
-	2527. cornu
-	2528. corona
-	2529. coronal
+		1. $n$. see KERATINIZATION.
+	2527. [[cornu]]
+	2528. [[corona]]
+	2529. [[coronal]]
 	2530. coronal suture
+		1. see SUTURE.
 	
-	2531. corona radiata
-	2532. coronary angiography
-	2533. coronary angioplasty
-	2534. coronary arteries
-	2535. coronary artery bypass graft
-	2536. coronary artery disease
-	2537. coronary care unit
-	2538. coronary revascularization
-	2539. coronary thrombosis
-	2540. coroner
+	2531. [[corona radiata]]
+	2532. [[coronary angiography]]
+	2533. [[coronary angioplasty]]
+	2534. [[coronary arteries]]
+	2535. [[coronary artery bypass graft]]
+	2536. [[coronary artery disease]]
+	2537. [[coronary care unit]]
+	2538. [[coronary revascularization]]
+	2539. [[coronary thrombosis]]
+	2540. [[coroner]]
 	
-	2541. coronoid process
-	2542. cor pulmonale
-	2543. corpus
-	2544. corpus albicans
-	2545. corpus callosum
-	2546. corpus cavernosum
-	2547. corpuscle
-	2548. corpus luteum
-	2549. corpus spongiosum
-	2550. corpus striatum
+	2541. [[coronoid process]]
+	2542. [[cor pulmonale]]
+	2543. [[corpus]]
+	2544. [[corpus albicans]]
+	2545. [[corpus callosum]]
+	2546. [[corpus cavernosum]]
+	2547. [[corpuscle]]
+	2548. [[corpus luteum]]
+	2549. [[corpus spongiosum]]
+	2550. [[corpus striatum]]
 	
-	2551. correlation
-	2552. Corrigan's pulse
-	2553. Corrigan's sign
-	2554. cortex
-	2555. cortical evoked response audiometry
-	2556. cortical Lewy body disease
-	2557. corticosteroid
-	2558. corticosterone
+	2551. [[correlation]]
+	2552. [[Corrigan's pulse]]
+	2553. [[Corrigan's sign]]
+	2554. [[cortex]]
+	2555. [[cortical evoked response audiometry]]
+	2556. [[cortical Lewy body disease]]
+	2557. [[corticosteroid]]
+	2558. [[corticosterone]]
 	2559. corticotrophin
-	2560. corticotrophin-releasing hormone
+		1. n. see ACTH
+	2560. [[corticotrophin-releasing hormone]]
 	
-	2561. cortisol
-	2562. cortisone
-	2563. cor triloculare
-	2564. Corynebacterium
-	2565. coryza
-	2566. COSHH
-	2567. cost-
+	2561. [[cortisol]]
+	2562. [[cortisone]]
+	2563. [[cor triloculare]]
+	2564. [[Corynebacterium]]
+	2565. [[coryza]]
+	2566. [[COSHH]]
+	2567. [[cost-]]
 	2568. cost-benefit analysis
-	2569. costal
-	2570. costal cartilage
+	2569. [[costal]]
+	2570. [[costal cartilage]]
 	
-	2571. costalgia
-	2572. costochondritis
+	2571. [[costalgia]]
+	2572. [[costochondritis]]
 	2573. cot death
-	2574. cotton-wool spots
-	2575. cotyledon
+		1. see SUDDEN INFANT DEATH SYNDROME.
+		2. https://www.lullabytrust.org.uk
+			1. Website of the Lullaby Trust (formerly the Foundation for the Study of Infant Deaths)
+	2574. [[cotton-wool spots]]
+	2575. [[cotyledon]]
 	2576. cotyloid cavity
-	2577. couching
-	2578. coughing
+		1. see ACETABULUM.
+	2577. [[couching]]
+	2578. [[coughing]]
 	2579. cough suppressant
-	2580. coulomb
+		1. see ANTITUSSIVE.
+	2580. [[coulomb]]
 	
-	2581. counselling
-	2582. counterextension
-	2583. counterirritant
-	2584. countertraction
-	2585. coupling agents
-	2586. couvelaire
-	2587. covariate
-	2588. cover-slip
-	2589. cover test
-	2590. Cowper's glands
+	2581. [[counselling]]
+	2582. [[counterextension]]
+	2583. [[counterirritant]]
+	2584. [[countertraction]]
+	2585. [[coupling agents]]
+	2586. [[couvelaire]]
+	2587. [[covariate]]
+	2588. [[cover-slip]]
+	2589. [[cover test]]
+	2590. [[Cowper's glands]]
 	
-	2591. cowpox
-	2592. cox-
-	2593. COX-2 inhibitor
-	2594. coxa
-	2595. Coxiella
-	2596. Cox maze procedure
-	2597. Coxsackie virus
+	2591. [[cowpox]]
+	2592. [[cox-]]
+	2593. [[COX-2 inhibitor]]
+	2594. [[coxa]]
+	2595. [[Coxiella]]
+	2596. [[Cox maze procedure]]
+	2597. [[Coxsackie virus]]
 	2598. CPAP
+		1. see CONTINUOUS POSITIVE AIRWAYS PRESSURE.
 	2599. CPR
+		1. see CARDIOPULMONARY RESUSCITATION.
 	2600. CQC
+		1. see Care Quality Commission.
 	
 	2601. crab louse
-	2602. cradle
-	2603. cradle cap
-	2604. CRAFFT screening test
-	2605. cramp
-	2606. crani-
-	2607. cranial nerves
-	2608. craniometry
-	2609. craniopagus
-	2610. craniopharyngioma
+		1. see Phthirus.
+	2602. [[cradle]]
+	2603. [[cradle cap]]
+	2604. [[CRAFFT screening test]]
+	2605. [[cramp]]
+	2606. [[crani-]]
+	2607. [[cranial nerves]]
+	2608. [[craniometry]]
+	2609. [[craniopagus]]
+	2610. [[craniopharyngioma]]
 	
-	2611. craniostenosis
-	2612. craniosynostosis
-	2613. craniotomy
-	2614. cranium
-	2615. cream
-	2616. creatinase
-	2617. creatine
-	2618. creatine kinase
-	2619. creatinine
-	2620. creatinuria
+	2611. [[craniostenosis]]
+	2612. [[craniosynostosis]]
+	2613. [[craniotomy]]
+	2614. [[cranium]]
+	2615. [[cream]]
+	2616. [[creatinase]]
+	2617. [[creatine]]
+	2618. [[creatine kinase]]
+	2619. [[creatinine]]
+	2620. [[creatinuria]]
 	
-	2621. creeping eruption
-	2622. cremasteric reflex
-	2623. crenation
+	2621. [[creeping eruption]]
+	2622. [[cremasteric reflex]]
+	2623. [[crenation]]
 	2624. Creon
-	2625. crepitation
-	2626. crepitus
-	2627. crest
-	2628. CREST syndrome
-	2629. cretinism
-	2630. Creutzfeldt-Jakob disease
+		1. $n$. see PANCREATIC ENZYME REPLACEMENT THERAPY.
+	2625. [[crepitation]]
+	2626. [[crepitus]]
+	2627. [[crest]]
+	2628. [[CREST syndrome]]
+	2629. [[cretinism]]
+	2630. [[Creutzfeldt-Jakob disease]]
 	
 	2631. CRH
 	2632. cri-du-chat syndrome
