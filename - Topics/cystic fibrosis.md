@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- (fibrocystic disease of the pancreas, mucoviscidosis) a hereditary disease affecting cells of the exocrine glands (including mucussecreting glands, sweat glands, and others). The faulty gene responsible for the most common form of the disease has been identified as lying on chromosome no. 7 and is recessive, i.e. both parents of the patient can be carriers without being affected by the disease. Affected individuals have abnormalities in a protein, cystic fibrosis transmembrane conductance regulator (CFTR), that enables the transport of chloride ions across cell membranes: this results in the production of thick mucus, which obstructs the intestinal glands (causing meconium ileus in newborn babies), pancreas (causing deficiency of pancreatic enzymes resulting in malabsorption and failure to thrive), and bronchi (causing bronchiectasis). Respiratory infections, which may be severe, are a common complication. Common agents include Haemophilus, Pseudomonas, Staphylococcus, and Burkholderia cepacia. The sweat contains excessive amounts of sodium and chloride, which is an aid to diagnosis.
+- Treatment consists of minimizing the effects of the disease by administration of pancreatic enzymes and physiotherapy for the lungs and by preventing and combating secondary infection. Sputum viscosity can be reduced by nebulized recombinant human DNAse. Genetic counselling is essential, as each subsequent child of carrier parents has a one in four chance of being affected (see also MOUTHWASH TEST; PREIMPLANTATION GENETIC DIAGNOSIS). Some patients are benefiting from revolutionary new treatments, including transplantation of heart and lungs and treatment aimed at altering the genetic content of the faulty cells (see GENE THERAPY).
+- https://www.cysticfibrosis.org.uk/
+	- Website of the Cystic Fibrosis Trust
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -23,7 +23,9 @@
 	- the right to prevent processing where such processing would cause substantial unwarranted damage or substantial distress to themselves or anyone else;
 	- the right to prevent the processing of data for direct marketing;
 	- the right to compensation from a data controller for damage or damage and distress caused by any breach of the 1998 Act.
-
+## Source[^2]
+- legal safeguards relating to the use and storage of personal information about a living person. Under the Data Protection Act 2018, which implements the EU's General Data Protection Regulation (GDPR) and supersedes the Data Protection Act 1998, individuals have a basic right to control information stored about them. Information concerning health, considered 'sensitive personal data' under the legislation, must be used only for the purpose (health care of the individual) for which it was gathered, must be kept secret, and cannot be used or passed on to others without the knowledge of the subject. However, anonymized health data from individual patients' electronic records may be used for research purposes or to improve medical treatment and health-service delivery.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
