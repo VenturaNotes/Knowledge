@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- any drug that damages or destroys cells: usually refers to those drugs used to treat various types of cancer. There are various classes of cytotoxic drugs, including alkylating agents (e.g. chlorambucil, cyclophosphamide, melphalan), antimetabolites (e.g. fluorouracil, methotrexate, mercaptopurine), anthracycline antibiotics (e.g. doxorubicin, daunorubicin, dactinomycin), vinca alkaloids, and platinum compounds (e.g. carboplatin, cisplatin). Other cytotoxic drugs include taxanes and topoisomerase inhibitors, and some monoclonal antibodies (e.g. bevacizumab, trastuzumab) have cytotoxic activity. All these drugs offer successful treatment in some conditions and help reduce symptoms and prolong life in others. Cytotoxic drugs destroy cancer cells by interfering with cell division, but they also affect normal cells, particularly in bone marrow (causing myelosuppression), hair follicles (causing hair loss), the stomach lining (resulting in severe nausea and vomiting), mouth (causing soreness), and fetal tissue (they should not be taken during the later stages of pregnancy). Dosage must therefore be carefully controlled. See also CHEMOTHERAPY.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

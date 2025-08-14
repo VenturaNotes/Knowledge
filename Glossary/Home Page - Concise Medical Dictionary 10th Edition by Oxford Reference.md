@@ -3356,415 +3356,477 @@ Reviewed: false
 	2630. [[Creutzfeldt-Jakob disease]]
 	
 	2631. CRH
-	2632. cri-du-chat syndrome
+		1. see CORTICOTROPHIN-RELEASING HORMONE.
+	2632. [[cri-du-chat syndrome]]
 	2633. cribriform plate
-	2634. cricoid cartilage
-	2635. cricoid pressure
-	2636. cricothyroid membrane
-	2637. cricothyroidotomy
-	2638. Crigler-Najjar syndrome
-	2639. Crimean Congo haemorrhagic fever
+		1. see ETHMOID BONE
+	2634. [[cricoid cartilage]]
+	2635. [[cricoid pressure]]
+	2636. [[cricothyroid membrane]]
+	2637. [[cricothyroidotomy]]
+	2638. [[Crigler-Najjar syndrome]]
+	2639. [[Crimean Congo haemorrhagic fever]]
 	2640. crisantaspase
+		1. $n$. see ASPARAGINASE.
 	
-	2641. crisis
-	2642. crisis resolution and home treatment team
-	2643. crista
-	2644. critical incident
-	2645. critical realism
-	2646. Crohn's disease
-	2647. cromoglicate
+	2641. [[crisis]]
+	2642. [[crisis resolution and home treatment team]]
+	2643. [[crista]]
+	2644. [[critical incident]]
+	2645. [[critical realism]]
+	2646. [[Crohn's disease]]
+	2647. [[cromoglicate]]
 	2648. CROS hearing aid
+		1. see CONTRALATERAL-ROUTING-OF-SIGNAL HEARING AID.
 	2649. cross-dressing
+		1. $n$. see TRANSVESTISM.
 	2650. cross-over trial
+		1. see INTERVENTION STUDY.
 	
-	2651. cross-sectional imaging
-	2652. cross-sectional study
-	2653. crossbite
-	2654. crossing over
-	2655. crotamiton
-	2656. croup
-	2657. Crouzon syndrome
-	2658. crown
-	2659. crown-rump length
-	2660. crowning
+	2651. [[cross-sectional imaging]]
+	2652. [[cross-sectional study]]
+	2653. [[crossbite]]
+	2654. [[crossing over]]
+	2655. [[crotamiton]]
+	2656. [[croup]]
+	2657. [[Crouzon syndrome]]
+	2658. [[crown]]
+	2659. [[crown-rump length]]
+	2660. [[crowning]]
 	
 	2661. CRP
+		1. See C-Reactive Protein
 	2662. CRPS
+		1. See Complex Regional Pain Syndrome
 	2663. CRT
-	2664. cruciate ligaments
-	2665. crude rate
-	2666. cruising
-	2667. crural
-	2668. crus
+		1. See Cardiac Resynchronization Therapy
+	2664. [[cruciate ligaments]]
+	2665. [[crude rate]]
+	2666. [[cruising]]
+	2667. [[crural]]
+	2668. [[crus]]
 	2669. crush syndrome
-	2670. cry-
+		1. see MYOGLOBINURIC ACUTE RENAL FAILURE.
+	2670. [[cry-]]
 	
-	2671. cryaesthesia
-	2672. cryoablation
-	2673. cryoglobulin
-	2674. cryoprecipitate
-	2675. cryopreservation
+	2671. [[cryaesthesia]]
+	2672. [[cryoablation]]
+	2673. [[cryoglobulin]]
+	2674. [[cryoprecipitate]]
+	2675. [[cryopreservation]]
 	2676. cryoprobe
-	2677. cryoretinopexy
-	2678. cryostat
-	2679. cryosurgery
-	2680. cryotherapy
+		1. $n$. see CRYOSURGERY.
+	2677. [[cryoretinopexy]]
+	2678. [[cryostat]]
+	2679. [[cryosurgery]]
+	2680. [[cryotherapy]]
 	
-	2681. crypt
-	2682. crypt-
-	2683. cryptococcosis
-	2684. Cryptococcus
-	2685. cryptomenorrhoea
-	2686. cryptophthalmos
-	2687. cryptorchidism
-	2688. cryptosporidiosis
+	2681. [[crypt]]
+	2682. [[crypt-]]
+	2683. [[cryptococcosis]]
+	2684. [[Cryptococcus]]
+	2685. [[cryptomenorrhoea]]
+	2686. [[cryptophthalmos]]
+	2687. [[cryptorchidism]]
+	2688. [[cryptosporidiosis]]
 	2689. CSF
-	2690. CS gas
+		1. (1) see CEREBROSPINAL FLUID. 
+		2. (2) see COLONY-STIMULATING FACTOR.
+	2690. [[CS gas]]
 	
 	2691. CSOM
+		1. chronic suppurative otitis media (see otitis).
 	2692. CT
+		1. COMPUTERIZED TOMOGRAPHY.
 	2693. CTA
+		1. computerized tomographic angiography.
 	2694. CTO
-	2695. CTPA
+		1. see CHRONIC TOTAL OCCLUSION.
+	2695. [[CTPA]]
 	2696. CTU
-	2697. cubital
-	2698. cuboid bone
-	2699. cui bono?((Latin))
+		1. CT urography.
+	2697. [[cubital]]
+	2698. [[cuboid bone]]
+	2699. [[cui bono?]]
 	2700. cuirass ventilator
+		1. see VENTILATOR.
 	
-	2701. culdoplasty
-	2702. Culex
-	2703. culicide
-	2704. Cullen sign
-	2705. culmen
-	2706. culture
-	2707. cumulative action
-	2708. cumulus oophoricus
-	2709. cuneiform bones
-	2710. cuneus
+	2701. [[culdoplasty]]
+	2702. [[Culex]]
+	2703. [[culicide]]
+	2704. [[Cullen sign]]
+	2705. [[culmen]]
+	2706. [[culture]]
+	2707. [[cumulative action]]
+	2708. [[cumulus oophoricus]]
+	2709. [[cuneiform bones]]
+	2710. [[cuneus]]
 	
-	2711. Cuniculus
-	2712. cupola
-	2713. cupping
-	2714. cupula
-	2715. cupulolith
-	2716. curare
-	2717. curettage
-	2718. curette
-	2719. curie
+	2711. [[Cuniculus]]
+	2712. [[cupola]]
+	2713. [[cupping]]
+	2714. [[cupula]]
+	2715. [[cupulolith]]
+	2716. [[curare]]
+	2717. [[curettage]]
+	2718. [[curette]]
+	2719. [[curie]]
 	2720. Curling's ulcers
+		1. see STRESS ULCERS. \[T. B. Curling (1811-88), British surgeon]
 	
-	2721. Curschmann's spirals
-	2722. Cushing's syndrome
+	2721. [[Curschmann's spirals]]
+	2722. [[Cushing's syndrome]]
 	2723. Cushing's ulcers
-	2724. cusp
-	2725. cutaneous
-	2726. cutaneous T-cell lymphoma
-	2727. cuticle
+		1. see STRESS ULCERS. \[H. W. Cushing]
+	2724. [[cusp]]
+	2725. [[cutaneous]]
+	2726. [[cutaneous T-cell lymphoma]]
+	2727. [[cuticle]]
 	2728. cutis
+		1. $n$. see SKIN.
 	2729. CVP
+		1. see CENTRAL VENOUS PRESSURE.
 	2730. CVS
+		1. see CHORIONIC VILLUS SAMPLING.
 	
-	2731. cyan-
-	2732. cyanide
+	2731. [[cyan-]]
+	2732. [[cyanide]]
 	2733. cyanocobalamin
-	2734. cyanopsia
-	2735. cyanosis
-	2736. cyberknife
-	2737. cybernetics
-	2738. cycl-
-	2739. cyclamate
-	2740. cyclitis
+		1. $n$. see VITAMIN $\mathrm{B}_{12}$.
+	2734. [[cyanopsia]]
+	2735. [[cyanosis]]
+	2736. [[cyberknife]]
+	2737. [[cybernetics]]
+	2738. [[cycl-]]
+	2739. [[cyclamate]]
+	2740. [[cyclitis]]
 	
-	2741. cyclizine
-	2742. cycloablation
-	2743. cyclocryotherapy
-	2744. cyclodialysis
-	2745. cyclopenthiazide
-	2746. cyclopentolate
-	2747. cyclophoria
-	2748. cyclophosphamide
-	2749. cyclophotoablation
-	2750. cycloplegia
+	2741. [[cyclizine]]
+	2742. [[cycloablation]]
+	2743. [[cyclocryotherapy]]
+	2744. [[cyclodialysis]]
+	2745. [[cyclopenthiazide]]
+	2746. [[cyclopentolate]]
+	2747. [[cyclophoria]]
+	2748. [[cyclophosphamide]]
+	2749. [[cyclophotoablation]]
+	2750. [[cycloplegia]]
 	
-	2751. cycloserine
+	2751. [[cycloserine]]
 	2752. cyclosporin
-	2753. cyclothymia
-	2754. cyclotron
+		1. $n$. see CICLOSPORIN.
+	2753. [[cyclothymia]]
+	2754. [[cyclotron]]
 	2755. cyesis
-	2756. cylinder((in optometry))
-	2757. cyproheptadine
-	2758. cyproterone
-	2759. cyrtometer
-	2760. cyst
+		1. $n$. see PREGNANCY.
+	2756. cylinder
+		1. $n$. (in optometry) see ASTIGMATISM.
+	2757. [[cyproheptadine]]
+	2758. [[cyproterone]]
+	2759. [[cyrtometer]]
+	2760. [[cyst]]
 	
-	2761. cyst-
-	2762. cystadenoma
-	2763. cystalgia
-	2764. cystectomy
-	2765. cysteine
-	2766. cystic
+	2761. [[cyst-]]
+	2762. [[cystadenoma]]
+	2763. [[cystalgia]]
+	2764. [[cystectomy]]
+	2765. [[cysteine]]
+	2766. [[cystic]]
 	2767. cystic duct
-	2768. cysticercosis
-	2769. cysticercus
-	2770. cystic fibrosis
+		1. see BILE DUCT.
+	2768. [[cysticercosis]]
+	2769. [[cysticercus]]
+	2770. [[cystic fibrosis]]
 	
-	2771. cystic hygroma
+	2771. [[cystic hygroma]]
 	2772. cystine
-	2773. cystinosis
-	2774. cystinuria
-	2775. cystitis
-	2776. cystitome
-	2777. cystocele
-	2778. cystography
-	2779. cystoid macular oedema
-	2780. cystolithiasis
+		1. $n$. see AMINO ACID.
+	2773. [[cystinosis]]
+	2774. [[cystinuria]]
+	2775. [[cystitis]]
+	2776. [[cystitome]]
+	2777. [[cystocele]]
+	2778. [[cystography]]
+	2779. [[cystoid macular oedema]]
+	2780. [[cystolithiasis]]
 	
-	2781. cystometry
-	2782. cystopexy
-	2783. cystoplasty
-	2784. cystosarcoma phylloides
-	2785. cystoscopy
-	2786. cystostomy
-	2787. cystotomy
-	2788. cyt-
-	2789. cytarabine
-	2790. -cyte
+	2781. [[cystometry]]
+	2782. [[cystopexy]]
+	2783. [[cystoplasty]]
+	2784. [[cystosarcoma phylloides]]
+	2785. [[cystoscopy]]
+	2786. [[cystostomy]]
+	2787. [[cystotomy]]
+	2788. [[cyt-]]
+	2789. [[cytarabine]]
+	2790. [[-cyte]]
 	
-	2791. cytidine
-	2792. cytochemistry
-	2793. cytochrome
-	2794. cytogenetics
-	2795. cytokeratin
-	2796. cytokine inhibitor
-	2797. cytokines
-	2798. cytokinesis
-	2799. cytology
-	2800. cytolysis
+	2791. [[cytidine]]
+	2792. [[cytochemistry]]
+	2793. [[cytochrome]]
+	2794. [[cytogenetics]]
+	2795. [[cytokeratin]]
+	2796. [[cytokine inhibitor]]
+	2797. [[cytokines]]
+	2798. [[cytokinesis]]
+	2799. [[cytology]]
+	2800. [[cytolysis]]
 	
-	2801. cytomegalovirus
-	2802. cytometer
-	2803. cytomorphosis
-	2804. cytopenia
-	2805. cytophotometry
-	2806. cytoplasm
-	2807. cytoplasmic inheritance
-	2808. cytosine
-	2809. cytosome
-	2810. cytotoxic drug
+	2801. [[cytomegalovirus]]
+	2802. [[cytometer]]
+	2803. [[cytomorphosis]]
+	2804. [[cytopenia]]
+	2805. [[cytophotometry]]
+	2806. [[cytoplasm]]
+	2807. [[cytoplasmic inheritance]]
+	2808. [[cytosine]]
+	2809. [[cytosome]]
+	2810. [[cytotoxic drug]]
 	
-	2811. cytotoxic T cell
+	2811. [[cytotoxic T cell]]
 	2812. cytotrophoblast
-	2813. D-dimer
-	2814. dabigatran etexilate
-	2815. dacarbazine
-	2816. dacrocyte
-	2817. dacry-
-	2818. dacryoadenitis
-	2819. dacryocystitis
-	2820. dacryocystorhinostomy
+		1. $n$. see TROPHOBLAST.
+	2813. [[D-dimer]]
+	2814. [[dabigatran etexilate]]
+	2815. [[dacarbazine]]
+	2816. [[dacrocyte]]
+	2817. [[dacry-]]
+	2818. [[dacryoadenitis]]
+	2819. [[dacryocystitis]]
+	2820. [[dacryocystorhinostomy]]
 	
-	2821. dactinomycin
-	2822. dactyl-
-	2823. dactylitis
-	2824. dactylology
-	2825. DAFNE
+	2821. [[dactinomycin]]
+	2822. [[dactyl-]]
+	2823. [[dactylitis]]
+	2824. [[dactylology]]
+	2825. [[DAFNE]]
 	2826. dalteparin sodium
-	2827. Daltonism
-	2828. damp((in mining))
-	2829. danazol
+		1. see LOW-MOLECULAR-WEIGHT HEPARIN.
+	2827. [[Daltonism]]
+	2828. [[damp]]
+	2829. [[danazol]]
 	2830. Dance's sign
+		1. see SIGN OF DANCE.
 	
 	2831. D and C
-	2832. dandruff
-	2833. Dandy-Walker syndrome
+		1. see DILATATION AND CURETTAGE.
+	2832. [[dandruff]]
+	2833. [[Dandy-Walker syndrome]]
 	2834. dangerous drugs
-	2835. dantrolene
-	2836. dantron
+		1. see Misuse of Drugs Act 1971.
+	2835. [[dantrolene]]
+	2836. [[dantron]]
 	2837. dapaglifozin
-	2838. dapsone
+		1. $n$. see SGLT-2 INHIBITORS.
+	2838. [[dapsone]]
 	2839. DAPT
-	2840. dark adaptation
+		1. see DUAL ANTIPLATELET THERAPY.
+	2840. [[dark adaptation]]
 	
 	2841. dasatinib
-	2842. data protection
-	2843. daunorubicin
+		1. n. see TYROSINE KINASE INHIBITOR.
+	2842. [[data protection]]
+	2843. [[daunorubicin]]
 	2844. da Vinci robot
-	2845. dawn phenomenon
-	2846. day-case surgery
-	2847. day blindness
-	2848. day hospital
+		1. see PROSTATECTOMY.
+	2845. [[dawn phenomenon]]
+	2846. [[day-case surgery]]
+	2847. [[day blindness]]
+	2848. [[day hospital]]
 	2849. DBS
+		1. see DEEP BRAIN STIMULATION.
 	2850. D cells
+		1. see ISLETS OF LANGERHANS.
 	
 	2851. DCIS
+		1. see DUCTAL CARCINOMA IN SITU.
 	2852. DCR
-	2853. DDT
-	2854. de-prefix denoting
-	2855. deafness
-	2856. deamination
-	2857. death
-	2858. death certificate
-	2859. debridement
-	2860. dec-prefix denoting
+		1. see DACRYOCYSTORHINOSTOMY.
+	2853. [[DDT]]
+	2854. [[de-]]
+	2855. [[deafness]]
+	2856. [[deamination]]
+	2857. [[death]]
+	2858. [[death certificate]]
+	2859. [[debridement]]
+	2860. [[dec-]]
 	
-	2861. decalcification
-	2862. decapitation
+	2861. [[decalcification]]
+	2862. [[decapitation]]
 	2863. decapsulation
-	2864. decay((in bacteriology))
-	2865. deception
-	2866. decerebrate
-	2867. deci-prefix denoting
-	2868. decibel
-	2869. decidua
+		1. $n$. see DECORTICATION.
+	2864. [[decay]]
+	2865. [[deception]]
+	2866. [[decerebrate]]
+	2867. [[deci-]]
+	2868. [[decibel]]
+	2869. [[decidua]]
 	2870. deciduous teeth
+		1. see PRIMARY TEETH.
 	
 	2871. de Clérambault syndrome
-	2872. declive
-	2873. declotting
-	2874. decomposition
-	2875. decompression
+		1. see EROTOMANIA. \[G. G. de Clérambault (1872-1934), French physician]
+	2872. [[declive]]
+	2873. [[declotting]]
+	2874. [[decomposition]]
+	2875. [[decompression]]
 	2876. decompression sickness
-	2877. decongestant
-	2878. decongestive therapy
-	2879. decontamination
-	2880. decortication
+		1. see COMPRESSED AIR ILLNESS.
+	2877. [[decongestant]]
+	2878. [[decongestive therapy]]
+	2879. [[decontamination]]
+	2880. [[decortication]]
 	
-	2881. decubitus
+	2881. [[decubitus]]
 	2882. decubitus ulcer
-	2883. decussation
-	2884. deep brain stimulation
-	2885. deep transverse arrest
+		1. see PRESSURE SORE.
+	2883. [[decussation]]
+	2884. [[deep brain stimulation]]
+	2885. [[deep transverse arrest]]
 	2886. deep vein thrombosis
+		1. (DVT) see PHLEBOTHROMBOSIS.
 	2887. deer fly
-	2888. defecation
-	2889. defence mechanism
-	2890. defensive medicine
+		1. ChrysOPs.
+	2888. [[defecation]]
+	2889. [[defence mechanism]]
+	2890. [[defensive medicine]]
 	
-	2891. deferent
-	2892. defervescence
-	2893. defibrillation
+	2891. [[deferent]]
+	2892. [[defervescence]]
+	2893. [[defibrillation]]
 	2894. defibrillation gel pads
-	2895. defibrillator
-	2896. defibrination
-	2897. deficiency((in genetics))
-	2898. deficiency disease
-	2899. degarelix
-	2900. degeneration
+		1. see COUPLING AGENTS.
+	2895. [[defibrillator]]
+	2896. [[defibrination]]
+	2897. deficiency
+		1. $n$. (in genetics) see DELETION.
+	2898. [[deficiency disease]]
+	2899. [[degarelix]]
+	2900. [[degeneration]]
 	
 	2901. deglutition
-	2902. dehiscence
-	2903. dehydration
-	2904. dehydroepiandrosterone
+		1. $n$. see SWALLOWING.
+	2902. [[dehiscence]]
+	2903. [[dehydration]]
+	2904. [[dehydroepiandrosterone]]
 	2905. dehydrogenase
-	2906. déjà vu
-	2907. delayed suture
-	2908. deletion((in genetics))
+		1. $n$. see OXIDOREDUCTASE.
+	2906. [[déjà vu]]
+	2907. [[delayed suture]]
+	2908. [[deletion]]
 	2909. Delhi boil
-	2910. deliberate self-harm
+		1. see ORIENTAL SORE.
+	2910. [[deliberate self-harm]]
 	
-	2911. delirium
-	2912. delirium tremens
+	2911. [[delirium]]
+	2912. [[delirium tremens]]
 	2913. delivery
-	2914. dellen
-	2915. deltoid
-	2916. delusion
-	2917. delusional infestation
-	2918. delusional intensity
-	2919. delusional jealousy
+		1. $n$. see LABOUR.
+	2914. [[dellen]]
+	2915. [[deltoid]]
+	2916. [[delusion]]
+	2917. [[delusional infestation]]
+	2918. [[delusional intensity]]
+	2919. [[delusional jealousy]]
 	2920. delusional parasitosis
+		1. see DELUSIONAL INFESTATION.
 	
-	2921. delusional perception
-	2922. delusion by proxy
-	2923. delusion of reference
-	2924. demeclocycline
-	2925. dementia
-	2926. demi-prefix denoting
-	2927. Demodex
-	2928. demography
-	2929. demulcent
-	2930. demyelination
+	2921. [[delusional perception]]
+	2922. [[delusion by proxy]]
+	2923. [[delusion of reference]]
+	2924. [[demeclocycline]]
+	2925. [[dementia]]
+	2926. [[demi-]]
+	2927. [[Demodex]]
+	2928. [[demography]]
+	2929. [[demulcent]]
+	2930. [[demyelination]]
 	
-	2931. denaturation
-	2932. dendrite
-	2933. dendritic cell
-	2934. dendritic ulcer
-	2935. denervation
-	2936. dengue
-	2937. denominator
-	2938. denosumab
-	2939. dens
+	2931. [[denaturation]]
+	2932. [[dendrite]]
+	2933. [[dendritic cell]]
+	2934. [[dendritic ulcer]]
+	2935. [[denervation]]
+	2936. [[dengue]]
+	2937. [[denominator]]
+	2938. [[denosumab]]
+	2939. [[dens]]
 	2940. dense deposit disease
+		1. see MESANGIOCAPILLARY GLOMERULONEPHRITIS.
 	
-	2941. dens invaginatus
-	2942. Dent's disease
-	2943. dent-
-	2944. dental care professional
-	2945. dental caries
-	2946. dental chair
-	2947. dental floss
-	2948. dental handpiece
+	2941. [[dens invaginatus]]
+	2942. [[Dent's disease]]
+	2943. [[dent-]]
+	2944. [[dental care professional]]
+	2945. [[dental caries]]
+	2946. [[dental chair]]
+	2947. [[dental floss]]
+	2948. [[dental handpiece]]
 	2949. dental implant
-	2950. dental nerve
+		1. See implant
+	2950. [[dental nerve]]
 	
 	2951. dental nurse
-	2952. dental pantomogram
-	2953. dental unit
-	2954. dentate
-	2955. dentifrice
-	2956. dentine
-	2957. dentinogenesis
-	2958. dentist
-	2959. dentistry
-	2960. dentition
+		1. see DENTAL CARE PROFESSIONAL.
+	2952. [[dental pantomogram]]
+	2953. [[dental unit]]
+	2954. [[dentate]]
+	2955. [[dentifrice]]
+	2956. [[dentine]]
+	2957. [[dentinogenesis]]
+	2958. [[dentist]]
+	2959. [[dentistry]]
+	2960. [[dentition]]
 	
-	2961. denture
-	2962. Denys-Drash syndrome
-	2963. deodorant
-	2964. deontology
+	2961. [[denture]]
+	2962. [[Denys-Drash syndrome]]
+	2963. [[deodorant]]
+	2964. [[deontology]]
 	2965. deoxycholic acid
-	2966. deoxycorticosterone
-	2967. deoxyribonuclease
+		1. see BILE ACIDS.
+	2966. [[deoxycorticosterone]]
+	2967. [[deoxyribonuclease]]
 	2968. deoxyribonucleic acid
-	2969. Department of Health and Human Services
-	2970. Department of Health and Social Care((in Britain))
+		1. see DNA
+	2969. [[Department of Health and Human Services]]
+	2970. [[Department of Health and Social Care]]
 	
-	2971. dependence
-	2972. dependent practitioner
-	2973. depersonalization
-	2974. depilatory
-	2975. depolarization
-	2976. depot injection
-	2977. depressant
-	2978. depression
-	2979. depressor
-	2980. derealization
+	2971. [[dependence]]
+	2972. [[dependent practitioner]]
+	2973. [[depersonalization]]
+	2974. [[depilatory]]
+	2975. [[depolarization]]
+	2976. [[depot injection]]
+	2977. [[depressant]]
+	2978. [[depression]]
+	2979. [[depressor]]
+	2980. [[derealization]]
 	
-	2981. -derm
-	2982. derm-
-	2983. Dermacentor
-	2984. dermal
-	2985. Dermanyssus
-	2986. dermatitis
-	2987. Dermatobia
-	2988. dermatochalasis
-	2989. dermatofibrosarcoma protuberans
-	2990. dermatoglyphics
+	2981. [[-derm]]
+	2982. [[derm-]]
+	2983. [[Dermacentor]]
+	2984. [[dermal]]
+	2985. [[Dermanyssus]]
+	2986. [[dermatitis]]
+	2987. [[Dermatobia]]
+	2988. [[dermatochalasis]]
+	2989. [[dermatofibrosarcoma protuberans]]
+	2990. [[dermatoglyphics]]
 	
-	2991. dermatology
-	2992. dermatology life quality index
-	2993. dermatome
-	2994. dermatomyositis
-	2995. Dermatophagoides
-	2996. dermatophyte
-	2997. dermatosis
-	2998. dermis
-	2999. dermographism
-	3000. dermoid cyst
+	2991. [[dermatology]]
+	2992. [[dermatology life quality index]]
+	2993. [[dermatome]]
+	2994. [[dermatomyositis]]
+	2995. [[Dermatophagoides]]
+	2996. [[dermatophyte]]
+	2997. [[dermatosis]]
+	2998. [[dermis]]
+	2999. [[dermographism]]
+	3000. [[dermoid cyst]]
 	
-	3001. dermoscopy
-	3002. Descemet's membrane
-	3003. descemetocele
+	3001. [[dermoscopy]]
+	3002. [[Descemet's membrane]]
+	3003. [[descemetocele]]
 	3004. desensitization
 	3005. desert
 	3006. desferrioxamine
