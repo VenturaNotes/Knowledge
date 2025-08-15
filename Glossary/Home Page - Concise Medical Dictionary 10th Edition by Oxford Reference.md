@@ -3827,68 +3827,79 @@ Reviewed: false
 	3001. [[dermoscopy]]
 	3002. [[Descemet's membrane]]
 	3003. [[descemetocele]]
-	3004. desensitization
-	3005. desert
-	3006. desferrioxamine
-	3007. designer drug
-	3008. desmoid tumour
-	3009. DESMOND
-	3010. desmoplasia
+	3004. [[desensitization]]
+	3005. [[desert]]
+	3006. [[desferrioxamine]]
+	3007. [[designer drug]]
+	3008. [[desmoid tumor]]
+	3009. [[DESMOND]]
+	3010. [[desmoplasia]]
 	
-	3011. desmopressin
-	3012. desmosome
-	3013. desogestrel
-	3014. desquamation
+	3011. [[desmopressin]]
+	3012. [[desmosome]]
+	3013. [[desogestrel]]
+	3014. [[desquamation]]
 	3015. detached retina
-	3016. detergent
-	3017. detoxification
-	3018. detrition
-	3019. detrusor
-	3020. detumescence
+		1. see RETINAL DETACHMENT.
+	3016. [[detergent]]
+	3017. [[detoxification]]
+	3018. [[detrition]]
+	3019. [[detrusor]]
+	3020. [[detumescence]]
 	
-	3021. deut-
-	3022. deuteranopia
+	3021. [[deut-]]
+	3022. [[deuteranopia]]
 	3023. deutoplasm
-	3024. developmental delay
-	3025. developmental disorder
-	3026. developmental milestones
-	3027. deviance
-	3028. deviation
+		1. $n$. see YOLK.
+	3024. [[developmental delay]]
+	3025. [[developmental disorder]]
+	3026. [[developmental milestones]]
+	3027. [[deviance]]
+	3028. [[deviation]]
 	3029. Devic's disease
-	3030. devitalization((in dentistry))
+		1. see NEUROMYELITIS OPTICA. \[E. Devic (1869-1930), French physician]
+	3030. [[devitalization]]
 	
 	3031. dew-point hygrometer
-	3032. DEXA
-	3033. dexamethasone
-	3034. dexamethasone suppression tests
+		1. see HYGROMETER.
+	3032. [[DEXA]]
+	3033. [[dexamethasone]]
+	3034. [[dexamethasone suppression tests]]
 	3035. dexamfetamine
-	3036. dextr-
-	3037. dextran
-	3038. dextrin
-	3039. dextrocardia
+		1. (dexamphetamine) $n$. see AMPHETAMINES.
+	3036. [[dextr-]]
+	3037. [[dextran]]
+	3038. [[dextrin]]
+	3039. [[dextrocardia]]
 	3040. dextrose
+		1. $n$. see GLUCOSE.
 	
 	3041. DFT
+		1. dental foundation training: see FOUNDATION TRAINING.
 	3042. DHA
+		1. (docosahexaenoic acid) see OMEGA-3 FATTY ACIDS.
 	3043. DHEA
+		1. see DEHYDROEPIANDROSTERONE.
 	3044. DI
-	3045. di-prefix denoting
-	3046. dia-prefix denoting
-	3047. diabetes
-	3048. diabetes insipidus
-	3049. diabetes mellitus
-	3050. Diabetes UK
+		1. see ARTIFICIAL INSEMINATION.
+	3045. [[di-]]
+	3046. [[dia-]]
+	3047. [[diabetes]]
+	3048. [[diabetes insipidus]]
+	3049. [[diabetes mellitus]]
+	3050. [[Diabetes UK]]
 	
-	3051. diabetic amyotrophy
-	3052. diabetic glomerulosclerosis
-	3053. diabetic hand syndrome
-	3054. diabetic holiday foot syndrome
-	3055. diabetic honeymoon period
-	3056. diabetic ketoacidosis
-	3057. diabetic nephropathy
-	3058. diabetic neuropathy
+	3051. [[diabetic amyotrophy]]
+	3052. [[diabetic glomerulosclerosis]]
+	3053. [[diabetic hand syndrome]]
+	3054. [[diabetic holiday foot syndrome]]
+	3055. [[diabetic honeymoon period]]
+	3056. [[diabetic ketoacidosis]]
+	3057. [[diabetic nephropathy]]
+	3058. [[diabetic neuropathy]]
 	3059. diabetic retinopathy
-	3060. diabetologist
+		1. see RETINOPATHY.
+	3060. [[diabetologist]]
 	
 	3061. diaclast
 	3062. diagnosis
