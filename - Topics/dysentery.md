@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. an infection of the intestinal tract that causes severe diarrhoea with blood and mucus. Amoebic dysentery (amoebiasis) is caused by the protozoan Entamoeba histolytica and results in intestinal ulceration (amoebic colitis) and occasionally abscesses in the liver (amoebic or tropical abscesses), lungs, testes, or brain. The parasite is spread by food or water contaminated by infected faeces. Symptoms appear days or even years after infection and include diarrhoea, indigestion, loss of weight, and anaemia. Prolonged treatment with drugs, including metronidazole, is usually effective in treating the condition. Amoebic dysentery is mainly confined to tropical and subtropical countries.
+- Bacillary dysentery is caused by bacteria of the genus Shigella and is spread by contact with a patient or carrier or through contaminated food or water. Epidemics are common in overcrowded, insanitary conditions. Symptoms develop 1-6 days after infection and persist for up to 2 weeks; they include diarrhoea, nausea, abdominal cramping, and fever. An attack may vary from mild diarrhoea to states of severe dehydration and gastrointestinal haemorrhage. In most cases, provided fluid losses are replaced, recovery occurs within 7-10 days; antibiotics may be given to eliminate the bacteria. Compare CHOLERA.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

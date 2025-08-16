@@ -36,7 +36,10 @@ $$
   
 
 where $\Lambda$ is the $$ AND operation and each $y_{i}$ is equal to $x_{i}$ or the complement of $x_{i}$. Reducing expressions to disjunctive normal form provides a ready method of determining the equivalence of two Boolean expressions. See also PROPOSITIONAL CALCULUS. Compare CONJUNCTION.
+## Source[^3]
+- $n$. the separation of pairs of homologous chromosomes during meiosis or of the chromatids of a chromosome during anaphase of mitosis or meiosis. Compare NONDISJUNCTION.
 ## References
 
 [^1]: [[(3) Start Learning Logic - Part 2 - Disjunction, Tautology and Logical Equivalence]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

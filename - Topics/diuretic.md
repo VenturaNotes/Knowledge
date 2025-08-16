@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. a drug that increases the volume of urine produced by promoting the excretion of salts and water from the kidney. The main classes of diuretics act by inhibiting the reabsorption of salts and water from the kidney tubules into the bloodstream. Thiazide diuretics (e.g. bendroflumethiazide, chlortalidone) act at the distal convoluted tubules (see NEPHRON), preventing the reabsorption of sodium and potassium. Potassium-sparing diuretics (e.g. amiloride, spironolactone, triamterene) prevent excessive loss of potassium at the distal convoluted tubules, and loop diuretics (e.g. furosemide) prevent reabsorption of sodium and potassium in Henle's loop. Diuretics are used to reduce the oedema due to salt and water retention in disorders of the heart, kidneys, liver, or lungs. Thiazides and potassium-sparing diuretics are also used - in conjunction with other drugs - in the treatment of high blood pressure. Treatment with thiazide and loop diuretics often results in potassium deficiency; this is corrected by simultaneous administration of potassium salts or a potassium-sparing diuretic.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

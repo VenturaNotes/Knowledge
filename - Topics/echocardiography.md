@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. the use of ultrasound waves to investigate and display the action of the heart as it beats. Used in the diagnosis and assessment of congenital and acquired heart diseases, it is safe, painless, and reliable and reduces the need for cardiac catheterization. M-mode echocardiography uses a single beam of ultrasound. The image produced is not anatomical but permits precise measurement of cardiac dimensions and the diagnosis of valvular, myocardial, and pericardial disease. 2-D echocardiography uses a pulsed array of ultrasound beams to build up a moving image on a TV monitor of the chambers and valves of the heart. In Doppler echocardiography ultrasound reflected from moving red blood cells is subject to the Doppler effect (change of frequency with velocity relative to the observer), which can be used to calculate blood flow and pressure within the heart and great vessels. It is useful in the diagnosis and assessment of valve disease and intracardiac shunts. In transoesophageal echocardiography (TOE) the ultrasound probe is mounted on an oesophageal endoscope. The examination from within the oesophagus allows the probe to be placed directly against the back of the heart, which enables improved visualization of the posterior structures.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
