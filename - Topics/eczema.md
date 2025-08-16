@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. a common itchy skin disease characterized by reddening (erythema) and vesicle formation, which may lead to weeping and crusting. It is endogenous, or constitutional, i.e. outside agents do not play a primary role (compare DERMATITIS), but in some contexts the terms 'dermatitis' and 'eczema' are used interchangeably. There are five main types: (1) atopic eczema, which affects up to $20 \%$ of the population and is associated with asthma and hay fever; (2) seborrhoeic eczema (or seborrhoeic dermatitis), which involves the scalp, eyelids, nose, and lips, is associated with the presence of Malassezia yeasts and may also be seen in HIV infection; (3) discoid (or nummular) eczema, which is characterized by coin-shaped lesions and occurs in adults, especially on the limbs; (4) pompholyx, affecting the palms and soles; (5) gravitational (or stasis) eczema, associated with poor venous circulation and incorrectly known as varicose eczema.
+- Treatment of eczema is with regular emollients and topical corticosteroids. Other treatments include topical calcineurin inhibitors, phototherapy, and systemic immunosuppressants. There is emerging evidence that effective treatment of eczema helps to reduce the risk of subsequently developing asthma and hay fever. -eczematous adj.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

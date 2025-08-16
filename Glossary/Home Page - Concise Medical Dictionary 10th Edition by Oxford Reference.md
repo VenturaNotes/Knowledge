@@ -3901,467 +3901,546 @@ Reviewed: false
 		1. see RETINOPATHY.
 	3060. [[diabetologist]]
 	
-	3061. diaclast
-	3062. diagnosis
+	3061. [[diaclast]]
+	3062. [[diagnosis]]
 	3063. Diagnostic and Statistical Manual of Mental Disorders
-	3064. diagnostic peritoneal lavage
-	3065. diakinesis
-	3066. dialysate
-	3067. dialyser
-	3068. dialysis
-	3069. diamorphine
+		1. see DSM.
+	3064. [[diagnostic peritoneal lavage]]
+	3065. [[diakinesis]]
+	3066. [[dialysate]]
+	3067. [[dialyser]]
+	3068. [[dialysis]]
+	3069. [[diamorphine]]
 	3070. Dianette
+		1. $n$. see CYPROTERONE.
 	
-	3071. diapedesis
-	3072. diaphoresis
-	3073. diaphoretic
-	3074. diaphragm
+	3071. [[diapedesis]]
+	3072. [[diaphoresis]]
+	3073. [[diaphoretic]]
+	3074. [[diaphragm]]
 	3075. diaphyseal aclasia
-	3076. diaphysis
-	3077. diaphysitis
-	3078. diarrhoea
-	3079. diarthrosis
-	3080. diaschisis
+		1. see EXOSTOSIS.
+	3076. [[diaphysis]]
+	3077. [[diaphysitis]]
+	3078. [[diarrhoea]]
+	3079. [[diarthrosis]]
+	3080. [[diaschisis]]
 	
-	3081. diastase
-	3082. diastema
-	3083. diastole
-	3084. diastolic dysfunction
+	3081. [[diastase]]
+	3082. [[diastema]]
+	3083. [[diastole]]
+	3084. [[diastolic dysfunction]]
 	3085. diastolic pressure
-	3086. diathermy
-	3087. diathesis
-	3088. diazepam
-	3089. diazoxide
+		1. see BLOOD PRESSURE.
+	3086. [[diathermy]]
+	3087. [[diathesis]]
+	3088. [[diazepam]]
+	3089. [[diazoxide]]
 	3090. DIC
+		1. see DISSEMINATED INTRAVASCULAR COAGULATION.
 	
 	3091. dicephalus
+		1. $n$. see CRANIOPAGUS.
 	3092. dichorionicity
-	3093. dichromatic
-	3094. Dick test
-	3095. diclofenac
+		1. $n$. see CHORIONICITY; TWINS. -dichorionic adj.
+	3093. [[dichromatic]]
+	3094. [[Dick test]]
+	3095. [[diclofenac]]
 	3096. dicophane
-	3097. dicrotism
-	3098. dicycloverine
-	3099. didanosine
+		1. $n$. see DDT.
+	3097. [[dicrotism]]
+	3098. [[dicycloverine]]
+	3099. [[didanosine]]
 	3100. DIDMOAD syndrome
+		1. see Wolfram SYndROME.
 	
-	3101. didym-
-	3102. dieldrin
-	3103. diencephalon
-	3104. diet
-	3105. dietary fibre
-	3106. Dietary Reference Values
-	3107. dietetics
-	3108. diethylcarbamazine
-	3109. diethylstilbestrol
-	3110. Dietl's crisis
+	3101. [[didym-]]
+	3102. [[dieldrin]]
+	3103. [[diencephalon]]
+	3104. [[diet]]
+	3105. [[dietary fibre]]
+	3106. [[Dietary Reference Values]]
+	3107. [[dietetics]]
+	3108. [[diethylcarbamazine]]
+	3109. [[diethylstilbestrol]]
+	3110. [[Dietl's crisis]]
 	
-	3111. Dieulafoy's lesion
+	3111. [[Dieulafoy's lesion]]
 	3112. differences of sexual development
-	3113. differential diagnosis
-	3114. differential leucocyte count
-	3115. differentiation
-	3116. diffuse oesophageal spasm
-	3117. diffusion tensor imaging
-	3118. diffusion weighted imaging
-	3119. di George syndrome
-	3120. digestion
+		1. (DSDs) see INTERSEX.
+	3113. [[differential diagnosis]]
+	3114. [[differential leucocyte count]]
+	3115. [[differentiation]]
+	3116. [[diffuse oesophageal spasm]]
+	3117. [[diffusion tensor imaging]]
+	3118. [[diffusion weighted imaging]]
+	3119. [[di George syndrome]]
+	3120. [[digestion]]
 	
-	3121. digit
-	3122. digital
+	3121. [[digit]]
+	3122. [[digital]]
 	3123. digital hearing aid
-	3124. digital image
-	3125. digitalis
-	3126. digitalization
-	3127. digital radiography
-	3128. digital spot imaging
-	3129. digital subtraction
-	3130. digitization((in radiology))
+		1. see HEARING AID.
+	3124. [[digital image]]
+	3125. [[digitalis]]
+	3126. [[digitalization]]
+	3127. [[digital radiography]]
+	3128. [[digital spot imaging]]
+	3129. [[digital subtraction]]
+	3130. [[digitization]]
 	
-	3131. dignity((in clinical practice))
-	3132. digoxin
-	3133. dihydrocodeine
-	3134. dihydrofolate reductase inhibitor
-	3135. dihydrotestosterone
-	3136. diiodotyrosine
-	3137. dilaceration
-	3138. dilatation
-	3139. dilatation and curettage
-	3140. dilator
+	3131. [[dignity]]
+	3132. [[digoxin]]
+	3133. [[dihydrocodeine]]
+	3134. [[dihydrofolate reductase inhibitor]]
+	3135. [[dihydrotestosterone]]
+	3136. [[diiodotyrosine]]
+	3137. [[dilaceration]]
+	3138. [[dilatation]]
+	3139. [[dilatation and curettage]]
+	3140. [[dilator]]
 	
-	3141. diltiazem
-	3142. dimethyl sulfoxide
-	3143. dimeticone
-	3144. dinoprostone
+	3141. [[diltiazem]]
+	3142. [[dimethyl sulfoxide]]
+	3143. [[dimeticone]]
+	3144. [[dinoprostone]]
 	3145. dioctyl sodium sulphosuccinate
-	3146. diode laser
-	3147. dioptre
+		1. see DOCUSATE SODIUM.
+	3146. [[diode laser]]
+	3147. [[dioptre]]
 	3148. Dioralyte
-	3149. dipeptidase
-	3150. dipeptide
+		1. $n$. see ORAL REHYDRATION THERAPY.
+	3149. [[dipeptidase]]
+	3150. [[dipeptide]]
 	
 	3151. diphenoxylate
-	3152. diphtheria
-	3153. diphtheroid
-	3154. diphyllobothriasis
-	3155. Diphyllobothrium
-	3156. dipipanone
-	3157. dipl-
-	3158. diplacusis
-	3159. diplegia
-	3160. diplococcus
+		1. $n$. see CO-PHENOTROPE.
+	3152. [[diphtheria]]
+	3153. [[diphtheroid]]
+	3154. [[diphyllobothriasis]]
+	3155. [[Diphyllobothrium]]
+	3156. [[dipipanone]]
+	3157. [[dipl-]]
+	3158. [[diplacusis]]
+	3159. [[diplegia]]
+	3160. [[diplococcus]]
 	
-	3161. diploë
-	3162. diploid
-	3163. diplopia
-	3164. diplotene
-	3165. diprosopus
-	3166. dipsomania
-	3167. Diptera
-	3168. Dipylidium
-	3169. dipyridamole
+	3161. [[diploë]]
+	3162. [[diploid]]
+	3163. [[diplopia]]
+	3164. [[diplotene]]
+	3165. [[diprosopus]]
+	3166. [[dipsomania]]
+	3167. [[Diptera]]
+	3168. [[Dipylidium]]
+	3169. [[dipyridamole]]
 	3170. directly observed therapy
+		1. (DOT) see TUBERCULOSIS.
 	
-	3171. director
-	3172. direct oral anticoagulant
-	3173. Director of Public Health
-	3174. dis-prefix denoting
-	3175. disability
-	3176. disability-adjusted life year
-	3177. disability living allowance((in Britain))
+	3171. [[director]]
+	3172. [[direct oral anticoagulant]]
+	3173. [[Director of Public Health]]
+	3174. [[dis-]]
+	3175. [[disability]]
+	3176. [[disability-adjusted life year]]
+	3177. [[disability living allowance]]
 	3178. Disability Rights Commission
-	3179. disaccharide
-	3180. disarticulation
+		1. see Equality and Human Rights COMMISSION.
+	3179. [[disaccharide]]
+	3180. [[disarticulation]]
 	
-	3181. disc((in anatomy))
-	3182. disc cupping
-	3183. discectomy
-	3184. disc herniation
+	3181. [[disc]]
+	3182. [[disc cupping]]
+	3183. [[discectomy]]
+	3184. [[disc herniation]]
 	3185. discoid lupus erythematosus
-	3186. discontinuation syndrome
-	3187. discrimination
-	3188. disease
-	3189. disease-modifying antirheumatic drug
+		1. (DLE) see LUPUS ERYTHEMATOSUS.
+	3186. [[discontinuation syndrome]]
+	3187. [[discrimination]]
+	3188. [[disease]]
+	3189. [[disease-modifying antirheumatic drug]]
 	3190. disembarkment syndrome
+		1. see MAL DE DEBARQUEMENT.
 	
-	3191. disimpaction
-	3192. disinfectant
-	3193. disinfection
-	3194. disinfestation
-	3195. disjunction
-	3196. dislocation
-	3197. dismemberment
+	3191. [[disimpaction]]
+	3192. [[disinfectant]]
+	3193. [[disinfection]]
+	3194. [[disinfestation]]
+	3195. [[disjunction]]
+	3196. [[dislocation]]
+	3197. [[dismemberment]]
 	3198. disodium pamidronate
-	3199. disoma
-	3200. disopyramide
+		1. see PAMIDRONATE.
+	3199. [[disoma]]
+	3200. [[disopyramide]]
 	
 	3201. disorders of sexual development
+		1. (DSDs) see INTERSEX.
 	3202. disorganized schizophrenia
-	3203. disorientation
-	3204. dispensary
-	3205. dispensing practice((in Britain))
-	3206. displacement((in psychology))
-	3207. dissection
-	3208. disseminated
-	3209. disseminated intravascular coagulation
+		1. see HEBEPHRENIA.
+	3203. [[disorientation]]
+	3204. [[dispensary]]
+	3205. [[dispensing practice]]
+	3206. [[displacement]]
+	3207. [[dissection]]
+	3208. [[disseminated]]
+	3209. [[disseminated intravascular coagulation]]
 	3210. disseminated sclerosis
+		1. see MULTIPLE SCLEROSIS.
 	
-	3211. dissociated vertical deviation
-	3212. dissociation((in psychiatry))
-	3213. dissociative disorder
-	3214. distal
-	3215. distichiasis
-	3216. distraction((in orthopaedics))
-	3217. distraction test
-	3218. distribution
-	3219. district nurse
-	3220. disulfiram
+	3211. [[dissociated vertical deviation]]
+	3212. [[dissociation]]
+	3213. [[dissociative disorder]]
+	3214. [[distal]]
+	3215. [[distichiasis]]
+	3216. [[distraction]]
+	3217. [[distraction test]]
+	3218. [[distribution]]
+	3219. [[district nurse]]
+	3220. [[disulfiram]]
 	
-	3221. dithranol
-	3222. diuresis
-	3223. diuretic
-	3224. diurnal
-	3225. diurnal variation of mood
-	3226. divarication
-	3227. divaricator
-	3228. divergence
-	3229. diverticular disease
-	3230. diverticulitis
+	3221. [[dithranol]]
+	3222. [[diuresis]]
+	3223. [[diuretic]]
+	3224. [[diurnal]]
+	3225. [[diurnal variation of mood]]
+	3226. [[divarication]]
+	3227. [[divaricator]]
+	3228. [[divergence]]
+	3229. [[diverticular disease]]
+	3230. [[diverticulitis]]
 	
-	3231. diverticulosis
-	3232. diverticulum
-	3233. division
-	3234. Dix-Hallpike test
+	3231. [[diverticulosis]]
+	3232. [[diverticulum]]
+	3233. [[division]]
+	3234. [[Dix-Hallpike test]]
 	3235. dizygotic twins
+		1. see TWINS.
 	3236. DLE
+		1. discoid lupus erythematosus. See LUPUS ERYTHEMATOSUS.
 	3237. DLQI
-	3238. 3-D magnetic imager
+		1. see DERMATOLOGY LIFE QUALITY INDEX.
+	3238. [[3-D magnetic imager]]
 	3239. DMARD
+		1. see DISEASE-MODIFYING ANTIRHEUMATIC DRUG.
 	3240. DMD
+		1. (Duchenne muscular dystrophy) see MUSCULAR DYSTROPHY.
 	
-	3241. DMSA
-	3242. DNA
-	3243. DNA polymerase inhibitor
-	3244. DNA repair
-	3245. DNAR order
-	3246. DNAse
+	3241. [[DMSA]]
+	3242. [[DNA]]
+	3243. [[DNA polymerase inhibitor]]
+	3244. [[DNA repair]]
+	3245. [[DNAR order]]
+	3246. [[DNAse]]
 	3247. DOAC
-	3248. dobutamine
-	3249. docetaxel
-	3250. Doctor
+		1. see DIRECT ORAL ANTICOAGULANT.
+	3248. [[dobutamine]]
+	3249. [[docetaxel]]
+	3250. [[Doctor]]
 	
-	3251. Doctors' training grades
-	3252. doctrine of double effect
-	3253. docusate sodium
-	3254. dolich-
-	3255. dolichocephaly
-	3256. dolor
-	3257. dolorimetry
-	3258. domiciliary consultation
+	3251. 
+	3252. [[doctrine of double effect]]
+	3253. [[docusate sodium]]
+	3254. [[dolich-]]
+	3255. [[dolichocephaly]]
+	3256. [[dolor]]
+	3257. [[dolorimetry]]
+	3258. [[domiciliary consultation]]
 	3259. domiciliary midwife
-	3260. domiciliary services((in Britain))
+		1. see COMMUNITY MIDWIFE.
+	3260. [[domiciliary services]]
 	
-	3261. dominant((in genetics))
-	3262. domperidone
+	3261. [[dominant]]
+	3262. [[domperidone]]
 	3263. donepezil
-	3264. donor
+		1. $n$. see ACETYLCHOLINESTERASE INHIBITOR.
+	3264. [[donor]]
 	3265. donor insemination
+		1. see ARTIFICIAL INSEMINATION.
 	3266. Do Not Attempt Resuscitation order
-	3267. door to balloon time
-	3268. dopa
-	3269. dopamine
-	3270. dopamine hypothesis
+		1. see DNAR ORDER.
+	3267. [[door to balloon time]]
+	3268. [[dopa]]
+	3269. [[dopamine]]
+	3270. [[dopamine hypothesis]]
 	
-	3271. Doppler ultrasound
+	3271. [[Doppler ultrasound]]
 	3272. dornase alfa
-	3273. dors-
-	3274. dorsal
-	3275. dorsiflexion
-	3276. dorsoventral((in anatomy))
-	3277. dorsum
-	3278. dorzolamide
-	3279. dose
-	3280. dosimeter
+		1. $n$. see DNAse.
+	3273. [[dors-]]
+	3274. [[dorsal]]
+	3275. [[dorsiflexion]]
+	3276. [[dorsoventral]]
+	3277. [[dorsum]]
+	3278. [[dorzolamide]]
+	3279. [[dose]]
+	3280. [[dosimeter]]
 	
-	3281. dosimetry
+	3281. [[dosimetry]]
 	3282. DOT
+		1. directly observed therapy: see TUBERCULOSIS.
 	3283. double-blind trial
-	3284. double-outlet right ventricle
-	3285. double contrast
-	3286. double delusion
+		1. see INTERVENTION STUDY.
+	3284. [[double-outlet right ventricle]]
+	3285. [[double contrast]]
+	3286. [[double delusion]]
 	3287. double J stents
+		1. see STENT.
 	3288. double uterus
+		1. see UTERUS DIDELPHYS.
 	3289. double vision
-	3290. douche
+		1. see DIPLOPIA.
+	3290. [[douche]]
 	
-	3291. dowager's hump
-	3292. Down's syndrome
-	3293. doxapram
-	3294. doxazosin
-	3295. doxepin
-	3296. doxorubicin
-	3297. doxycycline
-	3298. DPP-IV inhibitors
+	3291. [[dowager's hump]]
+	3292. [[Down's syndrome]]
+	3293. [[doxapram]]
+	3294. [[doxazosin]]
+	3295. [[doxepin]]
+	3296. [[doxorubicin]]
+	3297. [[doxycycline]]
+	3298. [[DPP-IV inhibitors]]
 	3299. DPT
-	3300. DPT vaccine
+		1. see DENTAL PANTOMOGRAM.
+	3300. [[DPT vaccine]]
 	
 	3301. DR
-	3302. drachm
-	3303. dracontiasis
+		1. see DIGITAL RADIOGRAPHY.
+	3302. [[drachm]]
+	3303. [[dracontiasis]]
 	3304. Dracunculus
-	3305. dragee
-	3306. drain
-	3307. drainage
-	3308. drastic
-	3309. draw-sheet
+		1. n. see GUINEA WORM.
+	3305. [[dragee]]
+	3306. [[drain]]
+	3307. [[drainage]]
+	3308. [[drastic]]
+	3309. [[draw-sheet]]
 	3310. drepanocyte
+		1. (sickle cell) n. see SICKLE-CELL DISEASE.
 	
 	3311. drepanocytosis
-	3312. DRESS
-	3313. dressing
-	3314. drill((in dentistry))
-	3315. drip
-	3316. drom-
+		1. $n$. see SICKLE-CELL DISEASE.
+	3312. [[DRESS]]
+	3313. [[dressing]]
+	3314. [[drill]]
+	3315. [[drip]]
+	3316. [[drom-]]
 	3317. dropsy
-	3318. Drosophila
-	3319. drug
+		1. $n$. see OEDEMA.
+	3318. [[Drosophila]]
+	3319. [[drug]]
 	3320. drug-eluting stent
+		1. see STENT.
 	
 	3321. drug dependence
-	3322. drug intolerance
-	3323. drusen
+		1. see DEPENDENCE.
+	3322. [[drug intolerance]]
+	3323. [[drusen]]
 	3324. DRVs
-	3325. dry mouth
-	3326. dry socket
+		1. see Dietary Reference Values.
+	3325. [[dry mouth]]
+	3326. [[dry socket]]
 	3327. DSDs
+		1. disorders (or differences) of sexual development. See INTERSEX.
 	3328. DSEK
+		1. Descemet's stripping endothelial keratoplasty.
 	3329. DSI
-	3330. DSM
+		1. see DIGITAL SPOT IMAGING.
+	3330. [[DSM]]
 	
 	3331. DSTs
-	3332. DTaP/IPV
-	3333. DTaP/IPV/Hib/HepB
-	3334. DTPA
-	3335. dual antiplatelet therapy
-	3336. dual diagnosis
-	3337. Duane's syndrome
+		1. see DEXAMETHASONE SUPPRESSION TESTS.
+	3332. [[DTaP-IPV|DTaP/IPV]]
+	3333. [[DTaP-IPV-Hib-HepB]]
+	3334. [[DTPA]]
+	3335. [[dual antiplatelet therapy]]
+	3336. [[dual diagnosis]]
+	3337. [[Duane's syndrome]]
 	3338. Duchenne muscular dystrophy
-	3339. duct
-	3340. ductal carcinoma in situ
+		1. see MUSCULAR DYSTROPHY. \[G. B. A. Duchenne (1806-75), French neurologist]
+	3339. [[duct]]
+	3340. [[ductal carcinoma in situ]]
 	
-	3341. ductions
+	3341. [[ductions]]
 	3342. ductless gland
-	3343. ductule
-	3344. ductus
-	3345. ductus arteriosus
-	3346. ductus venosus
-	3347. Dukes' staging
+		1. see ENDOCRINE GLAND.
+	3343. [[ductule]]
+	3344. [[ductus]]
+	3345. [[ductus arteriosus]]
+	3346. [[ductus venosus]]
+	3347. [[Dukes' staging]]
 	3348. duloxetine
+		1. $n$. see SNRI.
 	3349. dumbness
+		1. $n$. see MUTISM.
 	3350. Dumdum fever
+		1. see KALA-AZAR.
 	
-	3351. dumping syndrome
+	3351. [[dumping syndrome]]
 	3352. Duncan disease
-	3353. duo-
-	3354. duoden-
-	3355. duodenal atresia
-	3356. duodenal ulcer
-	3357. duodenitis
-	3358. duodenoscope
-	3359. duodenostomy
-	3360. duodenum
+		1. see X-LINKED LYMPHOPROLIFERATIVE SYNDROME. \[Duncan family, in whom the disease was first studied]
+	3353. [[duo-]]
+	3354. [[duoden-]]
+	3355. [[duodenal atresia]]
+	3356. [[duodenal ulcer]]
+	3357. [[duodenitis]]
+	3358. [[duodenoscope]]
+	3359. [[duodenostomy]]
+	3360. [[duodenum]]
 	
 	3361. duplex imaging
-	3362. Dupuytren's contracture
-	3363. dura
-	3364. dural
-	3365. dutasteride
-	3366. duty
+		1. see DOPPLER ULTRASOUND.
+	3362. [[Dupuytren's contracture]]
+	3363. [[dura]]
+	3364. [[dural]]
+	3365. [[dutasteride]]
+	3366. [[duty]]
 	3367. DVD
+		1. see DISSOCIATED VERTICAL DEVIATION.
 	3368. DVT
-	3369. dwarfism
-	3370. dydrogesterone
+		1. (deep vein thrombosis) see PHLEBOTHROMBOSIS.
+	3369. [[dwarfism]]
+	3370. [[dydrogesterone]]
 	
-	3371. dying
-	3372. dynamic splintage
-	3373. dynamometer
-	3374. dyne
-	3375. -dynia
-	3376. dys-prefix denoting
-	3377. dysaesthesia
-	3378. dysarthria
-	3379. dysbarism
-	3380. dyscalculia
+	3371. [[dying]]
+	3372. [[dynamic splintage]]
+	3373. [[dynamometer]]
+	3374. [[dyne]]
+	3375. [[-dynia]]
+	3376. [[dys-]]
+	3377. [[dysaesthesia]]
+	3378. [[dysarthria]]
+	3379. [[dysbarism]]
+	3380. [[dyscalculia]]
 	
-	3381. dyschezia
-	3382. dyschondroplasia
-	3383. dyschromatopsia
-	3384. dyscoria
-	3385. dyscrasia
-	3386. dysdiadochokinesis
-	3387. dysentery
+	3381. [[dyschezia]]
+	3382. [[dyschondroplasia]]
+	3383. [[dyschromatopsia]]
+	3384. [[dyscoria]]
+	3385. [[dyscrasia]]
+	3386. [[dysdiadochokinesis]]
+	3387. [[dysentery]]
 	3388. dysfunctional uterine bleeding
-	3389. dysgenesis
-	3390. dysgerminoma
+		1. see MENORRHAGIA.
+	3389. [[dysgenesis]]
+	3390. [[dysgerminoma]]
 	
 	3391. dysgraphia
-	3392. dyshormonogenesis
-	3393. dyskaryosis
-	3394. dyskinesia
-	3395. dyslexia
-	3396. dysmenorrhoea
-	3397. dysmetria
-	3398. dysmnesic syndrome
-	3399. dysmorphic
-	3400. dysmorphology
+		1. $n$. see AGRAPHIA.
+	3392. [[dyshormonogenesis]]
+	3393. [[dyskaryosis]]
+	3394. [[dyskinesia]]
+	3395. [[dyslexia]]
+	3396. [[dysmenorrhoea]]
+	3397. [[dysmetria]]
+	3398. [[dysmnesic syndrome]]
+	3399. [[dysmorphic]]
+	3400. [[dysmorphology]]
 	
 	3401. dysmorphophobia
-	3402. dysostosis
-	3403. dyspareunia
-	3404. dyspepsia
-	3405. dysphagia
+		1. see BODY DYSMORPHIC DISORDER.
+	3402. [[dysostosis]]
+	3403. [[dyspareunia]]
+	3404. [[dyspepsia]]
+	3405. [[dysphagia]]
 	3406. dysphasia
-	3407. dysphonia
-	3408. dysplasia
-	3409. dysplastic kidneys
-	3410. dyspnoea
+		1. $n$. see APHASIA.
+	3407. [[dysphonia]]
+	3408. [[dysplasia]]
+	3409. [[dysplastic kidneys]]
+	3410. [[dyspnoea]]
 	
 	3411. dyspraxia
+		1. $n$. see APRAXIA.
 	3412. dyssocial
-	3413. dysthymia
-	3414. dystocia
-	3415. dystonia
-	3416. dystrophia myotonica
-	3417. dystrophic calcification
-	3418. dystrophy
-	3419. dysuria
+		1. adj. see ANTISOCIAL PERSONALITY DISORDER.
+	3413. [[dysthymia]]
+	3414. [[dystocia]]
+	3415. [[dystonia]]
+	3416. [[dystrophia myotonica]]
+	3417. [[dystrophic calcification]]
+	3418. [[dystrophy]]
+	3419. [[dysuria]]
 	3420. Eagle-Barrett syndrome
+		1. see PRUNE BELLY SYNDROME.
 	
-	3421. Eales' disease
-	3422. ear
-	3423. ear-lobe creases
+	3421. [[Eales' disease]]
+	3422. [[ear]]
+	3423. [[ear-lobe creases]]
 	3424. earache
+		1. $n$. see OTITIS; OTALGIA.
 	3425. eardrum
+		1. $n$. see TYMPANIC MEMBRANE.
 	3426. early neonatal death
-	3427. early warning system
+		1. see PERINATAL MORTALITY RATE.
+	3427. [[early warning system]]
 	3428. earwax
-	3429. Ebola virus
-	3430. Ebstein's anomaly
+		1. $n$. see CERUMEN.
+	3429. [[Ebola virus]]
+	3430. [[Ebstein's anomaly]]
 	
-	3431. eburnation
+	3431. [[eburnation]]
 	3432. EBV
-	3433. ec-prefix denoting
-	3434. ecbolic
-	3435. ecchondroma
-	3436. ecchymosis
-	3437. eccrine
-	3438. ecdemic
-	3439. ecdysis
+		1. (EB virus) see EPSTEIN-BARR VIRUS.
+	3433. [[ec-]]
+	3434. [[ecbolic]]
+	3435. [[ecchondroma]]
+	3436. [[ecchymosis]]
+	3437. [[eccrine]]
+	3438. [[ecdemic]]
+	3439. [[ecdysis]]
 	3440. ECG
+		1. $n$. see ELECTROCARDIOGRAM.
 	
 	3441. echinococciasis
-	3442. Echinococcus
+		1. (echinococcosis) $n$. see HYDATID DISEASE.
+	3442. [[Echinococcus]]
 	3443. echinocyte
-	3444. echoacousia
-	3445. echocardiography
+		1. $n$. see BURR CELL.
+	3444. [[echoacousia]]
+	3445. [[echocardiography]]
 	3446. echo de la pensée
-	3447. echolalia
-	3448. echopraxia
-	3449. echovirus
-	3450. eclabium
+		1. see THOUGHT ECHO.
+	3447. [[echolalia]]
+	3448. [[echopraxia]]
+	3449. [[echovirus]]
+	3450. [[eclabium]]
 	
-	3451. eclampsia
+	3451. [[eclampsia]]
 	3452. ECMO
+		1. see EXTRACORPOREAL MEMBRANE OXYGENATION.
 	3453. ECoG
-	3454. ecology
-	3455. econazole
-	3456. ecraseur
-	3457. ecstasy
-	3458. Ecstasy
+		1. see ELECTROCOCHLEOGRAPHY.
+	3454. [[ecology]]
+	3455. [[econazole]]
+	3456. [[ecraseur]]
+	3457. [[ecstasy]]
+	3458. 
 	3459. ECT
-	3460. ect-
+		1. see ELECTROCONVULSIVE THERAPY.
+	3460. [[ect-]]
 	
-	3461. ectasia
-	3462. ecthyma
-	3463. ectoderm
-	3464. ectomorphic
-	3465. -ectomy
-	3466. ectoparasite
-	3467. ectopia
-	3468. ectopic beat
-	3469. ectopic hormone
-	3470. ectopic pregnancy
+	3461. [[ectasia]]
+	3462. [[ecthyma]]
+	3463. [[ectoderm]]
+	3464. [[ectomorphic]]
+	3465. [[-ectomy]]
+	3466. [[ectoparasite]]
+	3467. [[ectopia]]
+	3468. [[ectopic beat]]
+	3469. [[ectopic hormone]]
+	3470. [[ectopic pregnancy]]
 	
-	3471. ectoplasm
-	3472. ectro-
-	3473. ectrodactyly
-	3474. ectromelia
-	3475. ectropion
-	3476. eczema
-	3477. eczema herpeticum
-	3478. ED
-	3479. edentulous
-	3480. edetate
+	3471. [[ectoplasm]]
+	3472. [[ectro-]]
+	3473. [[ectrodactyly]]
+	3474. [[ectromelia]]
+	3475. [[ectropion]]
+	3476. [[eczema]]
+	3477. [[eczema herpeticum]]
+	3478. [[ED]]
+	3479. [[edentulous]]
+	3480. [[edetate]]
 	
 	3481. edrophonium
 	3482. EDTA

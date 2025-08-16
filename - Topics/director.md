@@ -12,6 +12,9 @@
 	- the duty not to accept benefits from third parties;
 	- the duty to declare an interest in any proposed transaction or arrangement with the company.
 - Directors' remuneration consists of a salary and in some cases directors' fees, paid to them for being a director, and an expense allowance to cover their expenses incurred in the service of the company. Directors' remuneration must be disclosed in the company's accounts and shown separately from any pension payments or compensation for loss of office. See also EXECUTIVE DIRECTOR; NON-EXECUTIVE DIRECTOR; SHADOW DIRECTOR.
+## Source[^2]
+- $n$. an instrument used to guide the extent and direction of a surgical incision.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
