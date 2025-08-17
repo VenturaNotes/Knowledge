@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- the removal of the entire endometrium by means of an ablative technique under hysteroscopic control, usually performed as a day case or in a specialized out-patient clinic. It is an alternative to the more traditional hysterectomies that were undertaken for the relief of menorrhagia. Methods for hysteroscopic endometrial ablation introduced in the 1980s included Nd: YAG (neodymium: yttrium-aluminium-garnet) laser ablation, transcervical resection of the endometrium (TCRE), and rollerball electrocoagulation (RBE). These first-generation procedures remain the gold standard for the hysteroscopic treatment of menorrhagia. Since the 1990s, the second generation of hysteroscopic ablation techniques have been developed. These include balloon thermal coagulation, in which a heated balloon is inserted into the uterus and destroys the endometrium; microwave endometrial ablation (MEA), which vaporizes the endometrial tissue; and Novasure, which destroys the endometrium by radiofrequency ablation. About 75\% of women obtain satisfactory improvement in their symptoms after these procedures.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

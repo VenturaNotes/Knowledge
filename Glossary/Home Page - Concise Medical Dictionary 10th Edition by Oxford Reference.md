@@ -4442,335 +4442,375 @@ Reviewed: false
 	3479. [[edentulous]]
 	3480. [[edetate]]
 	
-	3481. edrophonium
+	3481. [[edrophonium]]
 	3482. EDTA
-	3483. Edwards' syndrome
+		1. (ethylenediaminetetraacetic acid) see EDETATE.
+	3483. [[Edwards' syndrome]]
 	3484. EECP
+		1. see ENHANCED EXTERNAL COUNTERPULSATION.
 	3485. EEG
+		1. (electroencephalogram) see ELECTROENCEPHALOGRAPHY.
 	3486. EF
-	3487. effectiveness and efficiency
-	3488. effector
-	3489. efferent
-	3490. effleurage
+		1. see EJECTION FRACTION.
+	3487. [[effectiveness and efficiency]]
+	3488. [[effector]]
+	3489. [[efferent]]
+	3490. [[effleurage]]
 	
-	3491. effusion
+	3491. [[effusion]]
 	3492. eformoterol
+		1. $n$. see FORMOTEROL.
 	3493. EGFR
-	3494. eGFR
+		1. see EPIDERMAL GROWTH FACTOR RECEPTOR.
+	3494. [[eGFR]]
 	3495. egg cell
+		1. see OVUM.
 	3496. egg donation
-	3497. ego((in psychoanalysis))
-	3498. Ehlers-Danlos syndrome
+		1. see OOCYTE DONATION.
+	3497. [[ego]]
+	3498. [[Ehlers-Danlos syndrome]]
 	3499. EHS
+		1. see EXPLODING HEAD SYNDROME.
 	3500. eidetic
+		1. adj. see IMAGERY.
 	
-	3501. eikonometer
-	3502. Eisenmenger reaction
-	3503. ejaculation
-	3504. ejection fraction
+	3501. [[eikonometer]]
+	3502. [[Eisenmenger reaction]]
+	3503. [[ejaculation]]
+	3504. [[ejection fraction]]
 	3505. Ekbom's syndrome
-	3506. elastase
-	3507. elastic cartilage
-	3508. elastic tissue
-	3509. elastin
-	3510. elastography
+		1. (1) see RESTLESS LEGS SYNDROME. 
+		2. (2) see DELUSIONAL INFESTATION. \[K. A. Ekbom (1907-77), Swedish neurologist]
+	3506. [[elastase]]
+	3507. [[elastic cartilage]]
+	3508. [[elastic tissue]]
+	3509. [[elastin]]
+	3510. [[elastography]]
 	
-	3511. elastosis
-	3512. elation
-	3513. elbow
-	3514. electrocardiogram
-	3515. electrocardiography
-	3516. electrocardiophonography
-	3517. electrocautery
-	3518. electrocoagulation
-	3519. electrocochleography
-	3520. electroconvulsive therapy
+	3511. [[elastosis]]
+	3512. [[elation]]
+	3513. [[elbow]]
+	3514. [[electrocardiogram]]
+	3515. [[electrocardiography]]
+	3516. [[electrocardiophonography]]
+	3517. [[electrocautery]]
+	3518. [[electrocoagulation]]
+	3519. [[electrocochleography]]
+	3520. [[electroconvulsive therapy]]
 	
 	3521. electrodesiccation
+		1. $n$. see FULGURATION.
 	3522. electroencephalogram
-	3523. electroencephalography
-	3524. electroglottography
-	3525. electrolarynx
-	3526. electrolyte
-	3527. electromyography
-	3528. electron microscope
-	3529. electron transport chain
-	3530. electronvolt
+		1. (EEG) n. see ELECTROENCEPHALOGRAPHY.
+	3523. [[electroencephalography]]
+	3524. [[electroglottography]]
+	3525. [[electrolarynx]]
+	3526. [[electrolyte]]
+	3527. [[electromyography]]
+	3528. [[electron microscope]]
+	3529. [[electron transport chain]]
+	3530. [[electronvolt]]
 	
-	3531. electrooculography
-	3532. electrophoresis
-	3533. electrophysiological study
-	3534. electroretinography
-	3535. electrosurgery
-	3536. electrotherapy
-	3537. electuary
-	3538. elephantiasis
-	3539. elevator
-	3540. elimination((in physiology))
+	3531. [[electrooculography]]
+	3532. [[electrophoresis]]
+	3533. [[electrophysiological study]]
+	3534. [[electroretinography]]
+	3535. [[electrosurgery]]
+	3536. [[electrotherapy]]
+	3537. [[electuary]]
+	3538. [[elephantiasis]]
+	3539. [[elevator]]
+	3540. [[elimination]]
 	
-	3541. elimination diet
+	3541. [[elimination diet]]
 	3542. ELISA
-	3543. ELISPOT
-	3544. elixir
-	3545. elliptocytosis
-	3546. Elschnig pearls
-	3547. eltrombopag
-	3548. elutriation
-	3549. em-prefix.
-	3550. emaciation
+		1. see ENZYME-LINKED IMMUNOSORBENT ASSAY.
+	3543. [[ELISPOT]]
+	3544. [[elixir]]
+	3545. [[elliptocytosis]]
+	3546. [[Elschnig pearls]]
+	3547. [[eltrombopag]]
+	3548. [[elutriation]]
+	3549. [[em-]]
+	3550. [[emaciation]]
 	
-	3551. emasculation
-	3552. embalming
-	3553. embedding((in microscopy))
-	3554. embolectomy
-	3555. embolism
-	3556. embolization
-	3557. embolus
-	3558. embrasure
-	3559. embrocation
-	3560. embryo
+	3551. [[emasculation]]
+	3552. [[embalming]]
+	3553. [[embedding]]
+	3554. [[embolectomy]]
+	3555. [[embolism]]
+	3556. [[embolization]]
+	3557. [[embolus]]
+	3558. [[embrasure]]
+	3559. [[embrocation]]
+	3560. [[embryo]]
 	
-	3561. embryology
-	3562. embryonic disc
-	3563. embryo transfer
+	3561. [[embryology]]
+	3562. [[embryonic disc]]
+	3563. [[embryo transfer]]
 	3564. EMDR
+		1. see EYE MOVEMENT DESENSITIZATION AND REPROCESSING THERAPY.
 	3565. emergency contraception
+		1. see POSTCOITAL CONTRACEPTION.
 	3566. emesis
-	3567. emetic
-	3568. eminence
-	3569. emissary veins
-	3570. emission
+		1. $n$. see VOMITING.
+	3567. [[emetic]]
+	3568. [[eminence]]
+	3569. [[emissary veins]]
+	3570. [[emission]]
 	
-	3571. EMLA cream
-	3572. emmetropia
-	3573. emollient
-	3574. emotion
-	3575. emotionally unstable personality disorder
-	3576. emotional touchpoints
-	3577. empathy
-	3578. emphysema
-	3579. empirical
-	3580. employment and support allowance((in Britain))
+	3571. [[EMLA cream]]
+	3572. [[emmetropia]]
+	3573. [[emollient]]
+	3574. [[emotion]]
+	3575. [[emotionally unstable personality disorder]]
+	3576. [[emotional touchpoints]]
+	3577. [[empathy]]
+	3578. [[emphysema]]
+	3579. [[empirical]]
+	3580. [[employment and support allowance]]
 	
-	3581. empowerment
-	3582. empty nose syndrome
-	3583. empty sella syndrome
-	3584. empyema
-	3585. emulsion
-	3586. en-prefix denoting
-	3587. enable
-	3588. enalapril
-	3589. enamel
-	3590. enarthrosis
+	3581. [[empowerment]]
+	3582. [[empty nose syndrome]]
+	3583. [[empty sella syndrome]]
+	3584. [[empyema]]
+	3585. [[emulsion]]
+	3586. [[en-]]
+	3587. [[enable]]
+	3588. [[enalapril]]
+	3589. [[enamel]]
+	3590. [[enarthrosis]]
 	
-	3591. encapsulated((of an organ, tumour, bacterium, etc.))
-	3592. encephal-
-	3593. encephalin
-	3594. encephalitis
+	3591. [[encapsulated]]
+	3592. [[encephal-]]
+	3593. [[encephalin]]
+	3594. [[encephalitis]]
 	3595. encephalocele
-	3596. encephalography
-	3597. encephalomyelitis
-	3598. encephalomyelopathy
+		1. $n$. see NEURAL TUBE DEFECTS.
+	3596. [[encephalography]]
+	3597. [[encephalomyelitis]]
+	3598. [[encephalomyelopathy]]
 	3599. encephalon
-	3600. encephalopathy
+		1. $n$. see BRAIN.
+	3600. [[encephalopathy]]
 	
-	3601. enchondroma
-	3602. encopresis
-	3603. encysted
-	3604. end-
-	3605. end-of-life care
-	3606. end-plate
-	3607. end-stage renal failure
-	3608. endarterectomy
-	3609. endarteritis
-	3610. end artery
+	3601. [[enchondroma]]
+	3602. [[encopresis]]
+	3603. [[encysted]]
+	3604. [[end-]]
+	3605. [[end-of-life care]]
+	3606. [[end-plate]]
+	3607. [[end-stage renal failure]]
+	3608. [[endarterectomy]]
+	3609. [[endarteritis]]
+	3610. [[end artery]]
 	
-	3611. endemic
+	3611. [[endemic]]
 	3612. endemic syphilis
-	3613. endocarditis
-	3614. endocardium
-	3615. endocervicitis
-	3616. endocervix
-	3617. endochondral
-	3618. endocrine gland
-	3619. endocrinology
-	3620. endoderm
+		1. see BEJEL.
+	3613. [[endocarditis]]
+	3614. [[endocardium]]
+	3615. [[endocervicitis]]
+	3616. [[endocervix]]
+	3617. [[endochondral]]
+	3618. [[endocrine gland]]
+	3619. [[endocrinology]]
+	3620. [[endoderm]]
 	
-	3621. endodermal sinus tumour
-	3622. endodontics
-	3623. endogenous
-	3624. endolymph
-	3625. endolymphatic duct
-	3626. endolymphatic sac
-	3627. endometrial ablation
-	3628. endometrial cancer
-	3629. endometrial hyperplasia
-	3630. endometrioma
+	3621. [[endodermal sinus tumor]]
+	3622. [[endodontics]]
+	3623. [[endogenous]]
+	3624. [[endolymph]]
+	3625. [[endolymphatic duct]]
+	3626. [[endolymphatic sac]]
+	3627. [[endometrial ablation]]
+	3628. [[endometrial cancer]]
+	3629. [[endometrial hyperplasia]]
+	3630. [[endometrioma]]
 	
-	3631. endometriosis
-	3632. endometritis
-	3633. endometrium
-	3634. endomorphic
+	3631. [[endometriosis]]
+	3632. [[endometritis]]
+	3633. [[endometrium]]
+	3634. [[endomorphic]]
 	3635. endomorphin
-	3636. endomyocarditis
-	3637. endomysium
-	3638. endonasal
-	3639. endoneurium
-	3640. endoparasite
+		1. $n$. see ENDORPHIN.
+	3636. [[endomyocarditis]]
+	3637. [[endomysium]]
+	3638. [[endonasal]]
+	3639. [[endoneurium]]
+	3640. [[endoparasite]]
 	
-	3641. endopeptidase
-	3642. endophthalmitis
-	3643. endophytic
-	3644. endoplasm
-	3645. endoplasmic reticulum
-	3646. endopyelotomy
-	3647. end organ
-	3648. endorphin
-	3649. endoscope
+	3641. [[endopeptidase]]
+	3642. [[endophthalmitis]]
+	3643. [[endophytic]]
+	3644. [[endoplasm]]
+	3645. [[endoplasmic reticulum]]
+	3646. [[endopyelotomy]]
+	3647. [[end organ]]
+	3648. [[endorphin]]
+	3649. [[endoscope]]
 	3650. endoscopic retrograde cholangiopancreatography
+		1. See ERCP
 	
-	3651. endoscopic sinus surgery
-	3652. endoscopic ultrasound
-	3653. endospore
-	3654. endostapler
-	3655. endosteum
-	3656. endothelin
-	3657. endothelioma
-	3658. endothelium
-	3659. endothermic
-	3660. endotoxin
+	3651. [[endoscopic sinus surgery]]
+	3652. [[endoscopic ultrasound]]
+	3653. [[endospore]]
+	3654. [[endostapler]]
+	3655. [[endosteum]]
+	3656. [[endothelin]]
+	3657. [[endothelioma]]
+	3658. [[endothelium]]
+	3659. [[endothermic]]
+	3660. [[endotoxin]]
 	
-	3661. endotracheal
-	3662. endovascular
-	3663. endovascular aneurysm repair
-	3664. endovenous laser treatment
-	3665. enema
-	3666. enervation
-	3667. engagement((in obstetrics))
-	3668. enhanced external counterpulsation
+	3661. [[endotracheal]]
+	3662. [[endovascular]]
+	3663. [[endovascular aneurysm repair]]
+	3664. [[endovenous laser treatment]]
+	3665. [[enema]]
+	3666. [[enervation]]
+	3667. [[engagement]]
+	3668. [[enhanced external counterpulsation]]
 	3669. enkephalin
-	3670. enophthalmos
+		1. $n$. see ENCEPHALIN.
+	3670. [[enophthalmos]]
 	
 	3671. enoxaparin sodium
-	3672. enoximone
+		1. see LOW-MOLECULAR-WEIGHT HEPARIN.
+	3672. [[enoximone]]
 	3673. ensiform cartilage
+		1. see XIPHOID PROCESS.
 	3674. ENT
-	3675. Entamoeba
-	3676. enter-
-	3677. enteral
-	3678. enteral feeding
+		1. see OTORHINOLARYNGOLOGY.
+	3675. [[Entamoeba]]
+	3676. [[enter-]]
+	3677. [[enteral]]
+	3678. [[enteral feeding]]
 	3679. enteralgia
-	3680. enterectomy
+		1. $n$. see COLIC.
+	3680. [[enterectomy]]
 	
-	3681. enteric
-	3682. enteric-coated
+	3681. [[enteric]]
+	3682. [[enteric-coated]]
 	3683. enteric fever
-	3684. enteritis
-	3685. enterobiasis
+		1. see PARATYPHOID FEVER; TYPHOID FEVER.
+	3684. [[enteritis]]
+	3685. [[enterobiasis]]
 	3686. Enterobius
-	3687. enterocele
-	3688. enterocentesis
+		1. (Oxyuris) n. see THREADWORM.
+	3687. [[enterocele]]
+	3688. [[enterocentesis]]
 	3689. enteroclysis
-	3690. Enterococcus
+		1. $n$. see SMALL-BOWEL ENEMA.
+	3690. [[Enterococcus]]
 	
-	3691. enterocolitis
-	3692. enterogastrone
-	3693. enterogenous
-	3694. enterokinase
-	3695. enterolith
-	3696. enteropathic arthritis
-	3697. enteropathy
-	3698. enteropeptidase
-	3699. enterorrhaphy
-	3700. enteroscope
+	3691. [[enterocolitis]]
+	3692. [[enterogastrone]]
+	3693. [[enterogenous]]
+	3694. [[enterokinase]]
+	3695. [[enterolith]]
+	3696. [[enteropathic arthritis]]
+	3697. [[enteropathy]]
+	3698. [[enteropeptidase]]
+	3699. [[enterorrhaphy]]
+	3700. [[enteroscope]]
 	
-	3701. enterostomy
-	3702. enterotomy
-	3703. enterotoxin
-	3704. enterovirus
-	3705. enterozoon
-	3706. enthesis
-	3707. enthesopathy
+	3701. [[enterostomy]]
+	3702. [[enterotomy]]
+	3703. [[enterotoxin]]
+	3704. [[enterovirus]]
+	3705. [[enterozoon]]
+	3706. [[enthesis]]
+	3707. [[enthesopathy]]
 	3708. Entonox
-	3709. entoptic phenomena
-	3710. entrapment neuropathy
+		1. see NITROUS OXIDE.
+	3709. [[entoptic phenomena]]
+	3710. [[entrapment neuropathy]]
 	
-	3711. entropion
-	3712. enucleation
-	3713. enuresis
-	3714. environment
-	3715. Environmental Health Officer
-	3716. environmental hearing aid
-	3717. enzyme
-	3718. enzyme-linked immunosorbent assay
+	3711. [[entropion]]
+	3712. [[enucleation]]
+	3713. [[enuresis]]
+	3714. [[environment]]
+	3715. [[Environmental Health Officer]]
+	3716. [[environmental hearing aid]]
+	3717. [[enzyme]]
+	3718. [[enzyme-linked immunosorbent assay]]
 	3719. EOG
-	3720. eosin
+		1. see ELECTROOCULOGRAPHY.
+	3720. [[eosin]]
 	
-	3721. eosinopenia
-	3722. eosinophil
-	3723. eosinophilia
+	3721. [[eosinopenia]]
+	3722. [[eosinophil]]
+	3723. [[eosinophilia]]
 	3724. eosinophilic granulomatosis with polyangiitis
+		1. see Churg-Strauss SYNDROME.
 	3725. EPA
-	3726. eparterial
-	3727. ependyma
-	3728. ependymoma
-	3729. ephebiatrics
-	3730. ephedrine
+		1. (eicosapentaenoic acid) see OMEGA-3 FATTY ACIDS.
+	3726. [[eparterial]]
+	3727. [[ependyma]]
+	3728. [[ependymoma]]
+	3729. [[ephebiatrics]]
+	3730. [[ephedrine]]
 	
-	3731. epi-prefix denoting
-	3732. epiblepharon
-	3733. epicanthus
-	3734. epicardia
-	3735. epicardium
-	3736. epicondyle
-	3737. epicranium
-	3738. epicranius
-	3739. epicritic
-	3740. epidemic
+	3731. [[epi-]]
+	3732. [[epiblepharon]]
+	3733. [[epicanthus]]
+	3734. [[epicardia]]
+	3735. [[epicardium]]
+	3736. [[epicondyle]]
+	3737. [[epicranium]]
+	3738. [[epicranius]]
+	3739. [[epicritic]]
+	3740. [[epidemic]]
 	
-	3741. epidemiology
-	3742. epidermal growth factor receptor
-	3743. epidermis
-	3744. epidermoid
+	3741. [[epidemiology]]
+	3742. [[epidermal growth factor receptor]]
+	3743. [[epidermis]]
+	3744. [[epidermoid]]
 	3745. epidermoid cyst
-	3746. epidermolysis bullosa
-	3747. Epidermophyton
-	3748. epidiascope
-	3749. epididymectomy
-	3750. epididymis
+		1. see SEBACEOUS CYST.
+	3746. [[epidermolysis bullosa]]
+	3747. [[Epidermophyton]]
+	3748. [[epidiascope]]
+	3749. [[epididymectomy]]
+	3750. [[epididymis]]
 	
-	3751. epididymitis
-	3752. epididymovasostomy
-	3753. epidural
-	3754. epidural anaesthesia
-	3755. epigastrium
-	3756. epigastrocele
-	3757. epiglottis
-	3758. epiglottitis
-	3759. epikeratophakia
-	3760. epilation
+	3751. [[epididymitis]]
+	3752. [[epididymovasostomy]]
+	3753. [[epidural]]
+	3754. [[epidural anaesthesia]]
+	3755. [[epigastrium]]
+	3756. [[epigastrocele]]
+	3757. [[epiglottis]]
+	3758. [[epiglottitis]]
+	3759. [[epikeratophakia]]
+	3760. [[epilation]]
 	
-	3761. epilepsy
-	3762. epileptogenic
+	3761. [[epilepsy]]
+	3762. [[epileptogenic]]
 	3763. epiloia
-	3764. epimysium
+		1. $n$. see TUBEROUS SCLEROSIS.
+	3764. [[epimysium]]
 	3765. epinephrine
-	3766. epineural
-	3767. epineurium
-	3768. epinucleus
-	3769. epiphenomenon
-	3770. epiphora
+		1. $n$. see ADRENALINE.
+	3766. [[epineural]]
+	3767. [[epineurium]]
+	3768. [[epinucleus]]
+	3769. [[epiphenomenon]]
+	3770. [[epiphora]]
 	
-	3771. epiphysis
-	3772. epiphysitis
-	3773. epiplo-
+	3771. [[epiphysis]]
+	3772. [[epiphysitis]]
+	3773. [[epiplo-]]
 	3774. epiploon
-	3775. epiretinal membrane
+		1. $n$. see OMENTUM.
+	3775. [[epiretinal membrane]]
 	3776. epirubicin
-	3777. episclera
-	3778. episcleritis
-	3779. episio-
-	3780. episiotomy
+		1. $n$. see ANTHRACYCLINE.
+	3777. [[episclera]]
+	3778. [[episcleritis]]
+	3779. [[episio-]]
+	3780. [[episiotomy]]
 	
 	3781. episode
 	3782. episodic cranial sensory shock
