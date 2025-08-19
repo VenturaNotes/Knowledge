@@ -7,7 +7,10 @@
 - (1) The difference between a computed, observed, or measured value or condition and the true, specified, or theoretically correct value or condition. 
 - (2) An incorrect result resulting from some failure in the hardware of a system. 
 - (3) An incorrect step, process, or data definition in for example a program. See also SEMANTIC ERROR, SYNTAX ERROR.
+## Source[^3]
+- $n$. (in research) incorrectly rejecting a null hypothesis when it is true (type I error) or failing to reject a null hypothesis when it is false (type II error). See SIGNIFICANCE.
 ## References
 
 [^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

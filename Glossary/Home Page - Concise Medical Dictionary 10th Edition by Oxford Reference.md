@@ -4813,345 +4813,401 @@ Reviewed: false
 	3780. [[episiotomy]]
 	
 	3781. episode
+		1. $n$. see FINISHED CONSULTANT EPISODE.
 	3782. episodic cranial sensory shock
-	3783. epispadias
-	3784. epistasis
-	3785. epistaxis
-	3786. epithalamus
-	3787. epithalaxia
-	3788. epithelial ingrowth
-	3789. epithelioma
-	3790. epithelium
+		1. see EXPLODING HEAD SYNDROME.
+	3783. [[epispadias]]
+	3784. [[epistasis]]
+	3785. [[epistaxis]]
+	3786. [[epithalamus]]
+	3787. [[epithalaxia]]
+	3788. [[epithelial ingrowth]]
+	3789. [[epithelioma]]
+	3790. [[epithelium]]
 	
-	3791. epitrichium
-	3792. Epley particle repositioning manoeuvre
+	3791. [[epitrichium]]
+	3792. [[Epley particle repositioning manoeuvre]]
 	3793. EPO
-	3794. epoetin
+		1. see ERYTHROPOIETIN.
+	3794. [[epoetin]]
 	3795. eponychium
-	3796. eponym
+		1. $n$. see NAIL.
+	3796. [[eponym]]
 	3797. epoophoron
-	3798. epoprostenol
+		1. $n$. see PAROOPHORON.
+	3798. [[epoprostenol]]
 	3799. EPS
-	3800. Epstein-Barr virus
+		1. see ELECTROPHYSIOLOGICAL STUDY.
+	3800. [[Epstein-Barr virus]]
 	
-	3801. epulis
-	3802. Epworth Sleepiness Scale
-	3803. equality
-	3804. Equality and Human Rights Commission
-	3805. equi-
+	3801. [[epulis]]
+	3802. [[Epworth Sleepiness Scale]]
+	3803. [[equality]]
+	3804. [[Equality and Human Rights Commission]]
+	3805. [[equi-]]
 	3806. equinia
-	3807. equipoise
-	3808. equity
-	3809. Erb's palsy
-	3810. ERCP
+		1. $n$. see GLANDERS.
+	3807. [[equipoise]]
+	3808. [[equity]]
+	3809. [[Erb's palsy]]
+	3810. [[ERCP]]
 	
-	3811. erectile
-	3812. erectile dysfunction
-	3813. erection
-	3814. erepsin
-	3815. erethism
-	3816. erg
+	3811. [[erectile]]
+	3812. [[erectile dysfunction]]
+	3813. [[erection]]
+	3814. [[erepsin]]
+	3815. [[erethism]]
+	3816. [[erg]]
 	3817. ERG
-	3818. erg-
+		1. see ELECTRORETINOGRAPHY.
+	3818. [[erg-]]
 	3819. ergocalciferol
-	3820. ergograph
+		1. $n$. see VITAMIN D
+	3820. [[ergograph]]
 	
-	3821. ergometrine
-	3822. ergonomics
-	3823. ergosterol
-	3824. ergot
-	3825. ergotamine
-	3826. ergotism
+	3821. [[ergometrine]]
+	3822. [[ergonomics]]
+	3823. [[ergosterol]]
+	3824. [[ergot]]
+	3825. [[ergotamine]]
+	3826. [[ergotism]]
 	3827. erlotinib
-	3828. erogenous
-	3829. erosion
-	3830. erot-
+		1. n. see EPIDERMAL GROWTH FACTOR RECEPTOR; TYROSINE KINASE INHIBITOR.
+	3828. [[erogenous]]
+	3829. [[erosion]]
+	3830. [[erot-]]
 	
-	3831. erotomania
-	3832. error((in research))
-	3833. eructation
-	3834. eruption
-	3835. erysipelas
-	3836. erysipeloid
-	3837. Erysipelothrix
-	3838. erythema
-	3839. erythr-
-	3840. erythrasma
+	3831. [[erotomania]]
+	3832. [[error]]
+	3833. [[eructation]]
+	3834. [[eruption]]
+	3835. [[erysipelas]]
+	3836. [[erysipeloid]]
+	3837. [[Erysipelothrix]]
+	3838. [[erythema]]
+	3839. [[erythr-]]
+	3840. [[erythrasma]]
 	
-	3841. erythroblast
-	3842. erythroblastosis
-	3843. erythroblastosis foetalis
-	3844. erythrocyanosis
-	3845. erythrocyte
+	3841. [[erythroblast]]
+	3842. [[erythroblastosis]]
+	3843. [[erythroblastosis foetalis]]
+	3844. [[erythrocyanosis]]
+	3845. [[erythrocyte]]
 	3846. erythrocyte sedimentation rate
-	3847. erythrocytic
-	3848. erythroderma
+		1. see ESR.
+	3847. [[erythrocytic]]
+	3848. [[erythroderma]]
 	3849. erythroedema
+		1. $n$. see PINK DISEASE.
 	3850. erythrogenesis
+		1. $n$. a former name for erythropoiesis.
 	
-	3851. erythromelalgia
-	3852. erythromycin
-	3853. erythron
-	3854. erythropenia
-	3855. erythroplasia
-	3856. erythropoiesis
-	3857. erythropoietin
-	3858. erythropsia
+	3851. [[erythromelalgia]]
+	3852. [[erythromycin]]
+	3853. [[erythron]]
+	3854. [[erythropenia]]
+	3855. [[erythroplasia]]
+	3856. [[erythropoiesis]]
+	3857. [[erythropoietin]]
+	3858. [[erythropsia]]
 	3859. erythrovirus
-	3860. ESA
+		1. $n$. see PARVOVIRUS.
+	3860. [[ESA]]
 	
-	3861. eschar
-	3862. Escherichia
+	3861. [[eschar]]
+	3862. [[Escherichia]]
 	3863. escitalopram
-	3864. esophoria
+		1. $n$. see SSRI.
+	3864. [[esophoria]]
 	3865. esotropia
-	3866. espundia
-	3867. ESR
-	3868. essence
-	3869. essential
-	3870. essential amino acid
+		1. $n$. convergent squint (see STRABISMUS).
+	3866. [[espundia]]
+	3867. [[ESR]]
+	3868. [[essence]]
+	3869. [[essential]]
+	3870. [[essential amino acid]]
 	
-	3871. essential fatty acids
-	3872. essential oil
-	3873. esterase
+	3871. [[essential fatty acids]]
+	3872. [[essential oil]]
+	3873. [[esterase]]
 	3874. ESWL
-	3875. etanercept
-	3876. ethambutol
+		1. extracorporeal shock-wave lithotripsy. See LITHOTRIPSY.
+	3875. [[etanercept]]
+	3876. [[ethambutol]]
 	3877. ethanol
-	3878. ether
-	3879. ethical erosion
-	3880. ethics
+		1. (ethyl alcohol) $n$. see ALCOHOL.
+	3878. [[ether]]
+	3879. [[ethical erosion]]
+	3880. [[ethics]]
 	
-	3881. ethics committee
-	3882. ethinylestradiol
-	3883. ethmoid bone
-	3884. ethnology
-	3885. ethosuximide
+	3881. [[ethics committee]]
+	3882. [[ethinylestradiol]]
+	3883. [[ethmoid bone]]
+	3884. [[ethnology]]
+	3885. [[ethosuximide]]
 	3886. etidronate
+		1. (disodium etidronate) $n$. see BISPHOSPHONATES.
 	3887. etiology
-	3888. etoposide
+		1. $n$. see AETIOLOGY.
+	3888. [[etoposide]]
 	3889. etoricoxib
-	3890. eu-prefix denoting
+		1. $n$. see COX-2 INHIBITOR.
+	3890. [[eu-]]
 	
-	3891. eubacteria
-	3892. eucalyptol
-	3893. euchromatin
-	3894. eugenics
+	3891. [[eubacteria]]
+	3892. [[eucalyptol]]
+	3893. [[euchromatin]]
+	3894. [[eugenics]]
 	3895. euglycaemia
-	3896. euphoria
-	3897. euplastic
-	3898. euploidy
-	3899. European Resuscitation Council
-	3900. Eustachian tube
+		1. $n$. see NORMOGLYCAEMIA.
+	3896. [[euphoria]]
+	3897. [[euplastic]]
+	3898. [[euploidy]]
+	3899. [[European Resuscitation Council]]
+	3900. [[Eustachian tube]]
 	
-	3901. euthanasia
-	3902. euthymia
-	3903. euthyroid
-	3904. euthyroid sick syndrome
-	3905. evacuator
-	3906. evagination
+	3901. [[euthanasia]]
+	3902. [[euthymia]]
+	3903. [[euthyroid]]
+	3904. [[euthyroid sick syndrome]]
+	3905. [[evacuator]]
+	3906. [[evagination]]
 	3907. EVAR
-	3908. evening primrose oil
-	3909. eventration
-	3910. eversion
+		1. see ENDOVASCULAR ANEURYSM REPAIR.
+	3908. [[evening primrose oil]]
+	3909. [[eventration]]
+	3910. [[eversion]]
 	
-	3911. evidence-based medicine
-	3912. evisceration
+	3911. [[evidence-based medicine]]
+	3912. [[evisceration]]
 	3913. EVLT
-	3914. Ewing's sarcoma
+		1. see ENDOVENOUS LASER TREATMENT.
+	3914. [[Ewing's sarcoma]]
 	3915. EWS
-	3916. ex-prefix denoting
+		1. see EARLY WARNING SYSTEM.
+	3916. [[ex-]]
 	3917. exanteride
-	3918. exanthem
-	3919. excavator
-	3920. exchange transfusion
+		1. $n$. see GLP-1 RECEPTOR AGONISTS.
+	3918. [[exanthem]]
+	3919. [[excavator]]
+	3920. [[exchange transfusion]]
 	
-	3921. excimer laser
-	3922. excipient
-	3923. excise
-	3924. excitation((in neurophysiology))
+	3921. [[excimer laser]]
+	3922. [[excipient]]
+	3923. [[excise]]
+	3924. [[excitation]]
 	3925. exclusion diet
-	3926. excoriation
-	3927. excrescence
-	3928. excreta
-	3929. excretion
-	3930. executive dysfunction
+		1. see ELIMINATION DIET.
+	3926. [[excoriation]]
+	3927. [[excrescence]]
+	3928. [[excreta]]
+	3929. [[excretion]]
+	3930. [[executive dysfunction]]
 	
 	3931. exemestane
-	3932. exenteration((in ophthalmology))
-	3933. exercise
-	3934. exflagellation
-	3935. exfoliation
-	3936. exhalation
-	3937. exhibitionism
-	3938. exo-prefix.
+		1. $n$. see AROMATASE INHIBITOR.
+	3932. [[exenteration]]
+	3933. [[exercise]]
+	3934. [[exflagellation]]
+	3935. [[exfoliation]]
+	3936. [[exhalation]]
+	3937. [[exhibitionism]]
+	3938. exo-
+		1. prefix. see EX-.
 	3939. exocoelom
-	3940. exocrine gland
+		1. $n$. see EXTRAEMBRYONIC COELOM.
+	3940. [[exocrine gland]]
 	
-	3941. exoenzyme
-	3942. exoerythrocytic
-	3943. exogenous
-	3944. exomphalos
-	3945. exopeptidase
-	3946. exophoria
+	3941. [[exoenzyme]]
+	3942. [[exoerythrocytic]]
+	3943. [[exogenous]]
+	3944. [[exomphalos]]
+	3945. [[exopeptidase]]
+	3946. [[exophoria]]
 	3947. exophthalmic goitre
-	3948. exophthalmometer
-	3949. exophthalmos
-	3950. exophytic
+		1. (Graves' disease) see THYROTOXICOSIS.
+	3948. [[exophthalmometer]]
+	3949. [[exophthalmos]]
+	3950. [[exophytic]]
 	
-	3951. exosmosis
-	3952. exostosis
-	3953. exothermic
-	3954. exotic
-	3955. exotoxin
-	3956. exotropia
-	3957. expectorant
-	3958. expectoration
-	3959. expiration
-	3960. explant
+	3951. [[exosmosis]]
+	3952. [[exostosis]]
+	3953. [[exothermic]]
+	3954. [[exotic]]
+	3955. [[exotoxin]]
+	3956. [[exotropia]]
+	3957. [[expectorant]]
+	3958. [[expectoration]]
+	3959. [[expiration]]
+	3960. [[explant]]
 	
-	3961. exploding head syndrome
-	3962. exploitation
-	3963. exploration((in surgery))
-	3964. exposure((in behaviour therapy))
-	3965. expressed emotion
-	3966. expulsive haemorrhage
-	3967. exsanguination
-	3968. exsiccation
-	3969. exstrophy
-	3970. exsufflation
+	3961. [[exploding head syndrome]]
+	3962. [[exploitation]]
+	3963. [[exploration]]
+	3964. [[exposure]]
+	3965. [[expressed emotion]]
+	3966. [[expulsive haemorrhage]]
+	3967. [[exsanguination]]
+	3968. [[exsiccation]]
+	3969. [[exstrophy]]
+	3970. [[exsufflation]]
 	
-	3971. extension
-	3972. extensor
-	3973. exteriorization
+	3971. [[extension]]
+	3972. [[extensor]]
+	3973. [[exteriorization]]
 	3974. external beam radiotherapy
-	3975. external fixator
-	3976. exteroceptor
-	3977. extirpation
-	3978. extra-prefix denoting
-	3979. extra-articular
-	3980. extracellular
+		1. see TELETHERAPY.
+	3975. [[external fixator]]
+	3976. [[exteroceptor]]
+	3977. [[extirpation]]
+	3978. [[extra-]]
+	3979. [[extra-articular]]
+	3980. [[extracellular]]
 	
-	3981. extracorporeal
-	3982. extracorporeal membrane oxygenation
-	3983. extract
-	3984. extraction
-	3985. extractor
+	3981. [[extracorporeal]]
+	3982. [[extracorporeal membrane oxygenation]]
+	3983. [[extract]]
+	3984. [[extraction]]
+	3985. [[extractor]]
 	3986. extradural
-	3987. extraembryonic coelom
-	3988. extraembryonic membranes
-	3989. extraordinary means
-	3990. extrapleural
+		1. adj. see EPIDURAL.
+	3987. [[extraembryonic coelom]]
+	3988. [[extraembryonic membranes]]
+	3989. [[extraordinary means]]
+	3990. [[extrapleural]]
 	
-	3991. extrapyramidal effects
-	3992. extrapyramidal system
+	3991. [[extrapyramidal effects]]
+	3992. [[extrapyramidal system]]
 	3993. extrasystole
-	3994. extrauterine
-	3995. extravasation
+		1. $n$. see ECTOPIC BEAT.
+	3994. [[extrauterine]]
+	3995. [[extravasation]]
 	3996. extraversion
-	3997. extrinsic muscle
-	3998. extroversion
+		1. $n$. see EXTROVERSION.
+	3997. [[extrinsic muscle]]
+	3998. [[extroversion]]
 	3999. extrovert
-	4000. extrusion((in dentistry))
+		1. $n$. see EXTROVERSION.
+	4000. [[extrusion]]
 	
-	4001. exudation
-	4002. eye
-	4003. eyeball
-	4004. eyebrow
-	4005. eyelash
-	4006. eyelid
-	4007. eye movement desensitization and reprocessing therapy
-	4008. eyepiece
-	4009. eyespot
-	4010. eyestrain
+	4001. [[exudation]]
+	4002. [[eye]]
+	4003. [[eyeball]]
+	4004. [[eyebrow]]
+	4005. [[eyelash]]
+	4006. [[eyelid]]
+	4007. [[eye movement desensitization and reprocessing therapy]]
+	4008. [[eyepiece]]
+	4009. [[eyespot]]
+	4010. [[eyestrain]]
 	
-	4011. Fabry disease
-	4012. FACE
-	4013. face-bow((in dentistry))
-	4014. face-lift
-	4015. facet
-	4016. facial nerve
-	4017. facial paralysis
-	4018. -facientsuffix denoting
-	4019. facies
-	4020. facilitation
+	4011. [[Fabry disease]]
+	4012. [[FACE]]
+	4013. [[face-bow]]
+	4014. [[face-lift]]
+	4015. [[facet]]
+	4016. [[facial nerve]]
+	4017. [[facial paralysis]]
+	4018. [[-facient]]
+	4019. [[facies]]
+	4020. [[facilitation]]
 	
-	4021. facio-
-	4022. factitious
-	4023. factor((in biochemistry))
-	4024. Factor IX
-	4025. Factor VIII
-	4026. Factor V Leiden
-	4027. Factor XI
-	4028. facultative
-	4029. Faculty of Public Health
-	4030. FAD
+	4021. [[facio-]]
+	4022. [[factitious]]
+	4023. [[factor]]
+	4024. [[Factor IX]]
+	4025. [[Factor VIII]]
+	4026. [[Factor V Leiden]]
+	4027. [[Factor XI]]
+	4028. [[facultative]]
+	4029. [[Faculty of Public Health]]
+	4030. [[FAD]]
 	
 	4031. faecal calprotectin
+		1. see CALPROTECTIN.
 	4032. faecal impaction
+		1. see CONSTIPATION; IMPACTED.
 	4033. faecal incontinence
-	4034. faecalith
-	4035. faecal occult blood test
+		1. see INCONTINENCE.
+	4034. [[faecalith]]
+	4035. [[faecal occult blood test]]
 	4036. faecal pancreatic elastase
-	4037. faeces
-	4038. Fahrenheit temperature
-	4039. failure to thrive
+		1. see ELASTASE.
+	4037. [[faeces]]
+	4038. [[Fahrenheit temperature]]
+	4039. [[failure to thrive]]
 	4040. fainting
+		1. $n$. see SYNCOPE.
 	
 	4041. fairness
-	4042. falciform ligament
-	4043. Fallopian tube
-	4044. Fallopian tube recanalization
-	4045. falloposcope
-	4046. falloposcopy
+		1. n. see EQUALITY; JUSTICE.
+	4042. [[falciform ligament]]
+	4043. [[Fallopian tube]]
+	4044. [[Fallopian tube recanalization]]
+	4045. [[falloposcope]]
+	4046. [[falloposcopy]]
 	4047. Fallot's tetralogy
-	4048. false negative
-	4049. false positive
+		1. see tetralogy of Fallot
+	4048. [[false negative]]
+	4049. [[false positive]]
 	4050. false pregnancy
+		1. see PSEUDOCYESIS.
 	
 	4051. false rib
-	4052. falx
-	4053. familial
+		1. see RIB.
+	4052. [[falx]]
+	4053. [[familial]]
 	4054. familial adenomatous polyposis
+		1. (FAP) see POLYPOSIS.
 	4055. familial hypercholesterolaemia
+		1. see HYPERCHOLESTEROLAEMIA.
 	4056. familial mixed hyperlipidaemia
+		1. see HYPERLIPIDAEMIA.
 	4057. family doctor
-	4058. family planning
+		1. see GENERAL PRACTITIONER.
+	4058. [[family planning]]
 	4059. family practitioner
-	4060. family therapy
+		1. see GENERAL PRACTITIONER.
+	4060. [[family therapy]]
 	
-	4061. famotidine
-	4062. Fanconi's anaemia
-	4063. Fanconi syndrome
+	4061. [[famotidine]]
+	4062. [[Fanconi's anaemia]]
+	4063. [[Fanconi syndrome]]
 	4064. Fansidar
-	4065. fantasy
-	4066. FARA((cryptogenic))
-	4067. farad
-	4068. faradism
+		1. n. see PYRIMETHAMINE.
+	4065. [[fantasy]]
+	4066. FARA
+		1. (cryptogenic) fibrosing alveolitis associated with rheumatoid arthritis. See ALVEOLITIS.
+	4067. [[farad]]
+	4068. [[faradism]]
 	4069. farcy
-	4070. farmer's lung
+		1. $n$. see GLANDERS.
+	4070. [[farmer's lung]]
 	
-	4071. fascia
-	4072. fasciculation
-	4073. fasciculus
-	4074. fasciitis
-	4075. Fasciola
-	4076. fascioliasis
-	4077. fasciolopsiasis
-	4078. Fasciolopsis
-	4079. fasciotomy
-	4080. FASS((cryptogenic))
+	4071. [[fascia]]
+	4072. [[fasciculation]]
+	4073. [[fasciculus]]
+	4074. [[fasciitis]]
+	4075. [[Fasciola]]
+	4076. [[fascioliasis]]
+	4077. [[fasciolopsiasis]]
+	4078. [[Fasciolopsis]]
+	4079. [[fasciotomy]]
+	4080. FASS
+		1. (cryptogenic) fibrosing alveolitis associated with systemic sclerosis. See ALVEOLITIS.
 	
-	4081. fastigium
-	4082. fat
-	4083. fatal familial insomnia
-	4084. fatigue
+	4081. [[fastigium]]
+	4082. [[fat]]
+	4083. [[fatal familial insomnia]]
+	4084. [[fatigue]]
 	4085. fatigue fracture
-	4086. fatty acid
-	4087. fatty degeneration
+		1. see STRESS FRACTURE.
+	4086. [[fatty acid]]
+	4087. [[fatty degeneration]]
 	4088. fatty liver
-	4089. fauces
-	4090. favism
+		1. see NONALCOHOLIC FATTY LIVER DISEASE; ACUTE FATTY LIVER OF PREGNANCY.
+	4089. [[fauces]]
+	4090. [[favism]]
 	
 	4091. FCE
 	4092. FDA

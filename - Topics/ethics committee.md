@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- a group usually including lay people, medical and healthcare professionals, and other experts set up to review health-care practice. There are two types of ethics committee. A research ethics committee reviews research that involves the use of human subjects. It is responsible for safeguarding the rights and welfare of patients by ensuring that they are adequately informed of the procedures involved in a research project (including the use of dummy or placebo treatments as controls), that the tests and/or therapies are relatively safe, and that no-one is pressurized into participating in research. There are legal as well as professional requirements to seek ethics committee approval, e.g. when carrying out clinical trials of drugs. The National Research Ethics Service (see Health Research Authority) coordinates the ethical review and governance of research referring submissions to research ethics committees (RECs) throughout the UK. The second type of ethics committee is a clinical ethics committee, which provides a resource to health-care professionals about ethical issues in clinical practice. There is neither an obligation for trusts to have a clinical ethics committee nor for clinicians to refer cases to such committees where they exist, although clinical ethics committees are an increasing presence in the NHS.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
