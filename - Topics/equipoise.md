@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. a state of genuine and substantial uncertainty as to which of two or more courses of action will be best for a patient. Equipoise is an important ethical principle in research, specifically in the design of clinical trials. It is generally held that the random allocation of patients to one or other arm of a trial is ethically acceptable only where there is a genuine uncertainty (equipoise) as to which treatment will most benefit trial participants. Knowingly to assign an individual to inferior or ineffective treatment (such as a placebo) would offend against the principle that his or her best interests are paramount. A distinction is sometimes made between clinical equipoise, which refers to uncertainty across the medical profession as a whole, and theoretical equipoise, which refers to the uncertainty of an individual doctor. In addition, patients may not share the state of equipoise; for example, if a patient has his or her own preferences and there are significant side-effects influencing the choice of treatment, it would be paternalistic and counter to beneficence not to respect that patient's wishes.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

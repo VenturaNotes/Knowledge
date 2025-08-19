@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. flushing of the skin due to dilatation of the blood capillaries in the dermis. It may be physiological or a sign of inflammation or infection. Erythema nodosum is characterized by tender bruiselike swellings on the shins and is often associated with streptococcal infection. In erythema multiforme the eruption, which can take various forms, is characterized by so-called 'target lesions' that may be recurrent and follow herpes simplex infection (especially in children) or medications (especially in adults). Erythema ab igne is a reticular pigmented rash on the lower legs or elsewhere caused by persistent exposure to radiant heat. Erythema infectiosum (fifth disease, slapped cheek syndrome) is a common benign infectious disease of children caused by erythrovirus (human parvovirus B19). It is characterized by fever and a rash, first on the cheeks and later on the trunk and extremities, that disappears after several days. Erythema toxicum neonatorum (neonatal urticaria) is a common self-limiting asymptomatic rash appearing in up to half of newborns, usually $2-5$ days after birth. It is characterized by small erythematous papules and pustules surrounded by a diffuse blotchy erythematous halo. The eruption typically resolves within the first two weeks of life. See also PALMAR ERYTHEMA. $\textemdash$erythematous adj.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
