@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (in Britain) a building, usually owned or leased by a health authority, that houses personnel and/or services from one or more sections of the National Health Service (e.g. general practitioners, district nurses, dentists, and child health clinics. Services provided by local authorities, such as social services, may also operate from such a centre. A GP-led health centre (polyclinic) is one where a greater range of health services are available compared to conventional GP practices. They offer extended opening hours and other health services, such as ophthalmology and dentistry, as well as diagnostics, outpatient appointments, urgent care, and community services, such as community mental health care, community nursing, and management of long-term conditions. The main aim is to move more services into the community, thus making them easier to access for patients. Various models have been proposed for polyclinics, ranging from large premises housing many separate GP practices to more extensive facilities with additional services available. See also CHILDREN'S CENTRE.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -8,8 +8,11 @@
 - (1) The number of times the average person in a target market is exposed to an advertising message during a given period. 
 - (2) The number of times an advertisement is repeated in a given medium (television, radio, etc.) within a given period, usually a month. 
 - (3) In statistics, a measurement of the likelihood of a particular event occurring.
+## Source[^4]
+- $n$. (of urine) the passage of urine more than six or seven times a day: a lower urinary tract symptom that usually indicates genitourinary disorders and diseases but also accompanies polyuria.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

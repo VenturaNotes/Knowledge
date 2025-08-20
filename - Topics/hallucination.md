@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- $n$. a false sensory perception of something that is not really there; the perception is subjectively convincing but lacks an external stimulus. Hallucinations may be visual, auditory, tactile, gustatory (of taste), or olfactory (of smell). They may be provoked by mental illness (such as schizophrenia or severe anxiety disorders), personality disorders, or physical disorders affecting the brain (such as temporal lobe epilepsy, sepsis, acute organic syndrome, or stroke) or they may be caused by drugs, alcohol, or sensory deprivation. Hallucinations should be distinguished from dreams and from illusions (which are misinterpretations of real stimuli). A substantial minority of the population experiences hallucinations not caused by mental illness. Some hallucinations are not always pathological: hypnagogic hallucinations occur in the state between wakefulness and sleep, and the images are often very distinct; these hallucinations occur in $30-60 \%$ of patients with narcolepsy. Hypnopompic hallucinations occur in the state between sleep and full wakefulness; like hypnagogic hallucinations, the experiences may be very vivid.
 ## References
 
-[^1]:
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
