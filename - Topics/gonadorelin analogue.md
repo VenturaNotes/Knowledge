@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (GnRH analogue, LHRH analogue) any one of a group of analogues of gonadotrophin-releasing hormone (gonadorelin), which stimulates release of the gonadotrophins luteinizing hormone (LH) and follicle-stimulating hormone (FSH) from the pituitary gland. They are more powerful than the naturally occurring hormone, initially increasing the secretion of gonadotrophins by the pituitary: this acts to block the hormone receptors and to inhibit the release of further gonadotrophins, which suppresses production of oestrogens and androgens. Gonadorelin analogues include buserelin, goserelin, leuprorelin, and triptorelin. They are used in the treatment of endometriosis, fibroids, and some types of infertility. GnRH analogues are also used in the treatment of advanced prostate cancer. After causing an initial rise in plasma testosterone for approximately ten days the level then falls to the same low level as that achieved by castration. Because the initial flare in testosterone may cause an acute enlargement of the cancer, anti-androgens are given usually for the first two weeks following the first injection of the gonadorelin analogue.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

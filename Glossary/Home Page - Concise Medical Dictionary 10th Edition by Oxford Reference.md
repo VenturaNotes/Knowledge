@@ -5210,1062 +5210,1216 @@ Reviewed: false
 	4090. [[favism]]
 	
 	4091. FCE
+		1. see FINISHED CONSULTANT EPISODE.
 	4092. FDA
+		1. see Food and Drug Administration.
 	4093. FDG
-	4094. fear
-	4095. febricula
-	4096. febrifuge
-	4097. febrile
-	4098. febrile convulsion
-	4099. febuxostat
-	4100. feedback((in physiology))
+		1. see FLUORODEOXYGLUCOSE.
+	4094. [[fear]]
+	4095. [[febricula]]
+	4096. [[febrifuge]]
+	4097. [[febrile]]
+	4098. [[febrile convulsion]]
+	4099. [[febuxostat]]
+	4100. [[feedback]]
 	
-	4101. Fehling's test
-	4102. Felty's syndrome
-	4103. female genital cosmetic surgery
-	4104. female genital mutilation
+	4101. [[Fehling's test]]
+	4102. [[Felty's syndrome]]
+	4103. [[female genital cosmetic surgery]]
+	4104. [[female genital mutilation]]
 	4105. Femara
-	4106. feminist ethics
-	4107. feminization
-	4108. femoral
-	4109. femoral artery
+		1. n. see AROMATASE INHIBITOR.
+	4106. [[feminist ethics]]
+	4107. [[feminization]]
+	4108. [[femoral]]
+	4109. [[femoral artery]]
 	4110. femoral epiphysis
+		1. see FEMUR.
 	
-	4111. femoral nerve
-	4112. femoral triangle
-	4113. femtosecond laser
-	4114. femur
-	4115. fenestra((in anatomy))
-	4116. fenestration
+	4111. [[femoral nerve]]
+	4112. [[femoral triangle]]
+	4113. [[femtosecond laser]]
+	4114. [[femur]]
+	4115. [[fenestra]]
+	4116. [[fenestration]]
 	4117. fenofibrate
-	4118. fenoprofen
-	4119. fentanyl
-	4120. fermentation
+		1. $n$. see FIBRATES.
+	4118. [[fenoprofen]]
+	4119. [[fentanyl]]
+	4120. [[fermentation]]
 	
-	4121. ferning
-	4122. ferri-
-	4123. ferric sulphate
-	4124. ferritin
-	4125. ferrous sulphate
-	4126. ferrule((in dentistry))
-	4127. fertility rate
-	4128. fertilization
+	4121. [[ferning]]
+	4122. [[ferri-]]
+	4123. [[ferric sulphate]]
+	4124. [[ferritin]]
+	4125. [[ferrous sulphate]]
+	4126. [[ferrule]]
+	4127. [[fertility rate]]
+	4128. [[fertilization]]
 	4129. FESS
-	4130. festination
+		1. functional endoscopic sinus surgery.
+	4130. [[festination]]
 	
-	4131. fetal alcohol spectrum disorder
-	4132. fetal blood sampling
-	4133. fetal growth chart
+	4131. [[fetal alcohol spectrum disorder]]
+	4132. [[fetal blood sampling]]
+	4133. [[fetal growth chart]]
 	4134. fetal growth restriction
-	4135. fetal implant
-	4136. fetal scalp electrode
-	4137. fetal transplant
-	4138. feticide
-	4139. fetishism
-	4140. feto-
+		1. see INTRAUTERINE GROWTH RESTRICTION.
+	4135. [[fetal implant]]
+	4136. [[fetal scalp electrode]]
+	4137. [[fetal transplant]]
+	4138. [[feticide]]
+	4139. [[fetishism]]
+	4140. [[feto-]]
 	
-	4141. fetor
-	4142. fetoscopy
-	4143. fetus
-	4144. fetus papyraceous
-	4145. Feulgen reaction
+	4141. [[fetor]]
+	4142. [[fetoscopy]]
+	4143. [[fetus]]
+	4144. [[fetus papyraceous]]
+	4145. [[Feulgen reaction]]
 	4146. FEV
-	4147. fever
-	4148. FGF23
-	4149. fibr-
-	4150. fibrates
+		1. see FORCED EXPIRATORY VOLUME.
+	4147. [[fever]]
+	4148. [[FGF23]]
+	4149. [[fibr-]]
+	4150. [[fibrates]]
 	
-	4151. fibre
-	4152. fibre optics
-	4153. fibrescope
-	4154. fibril
-	4155. fibrillation
-	4156. fibrin
-	4157. fibrinogen
+	4151. [[fibre]]
+	4152. [[fibre optics]]
+	4153. [[fibrescope]]
+	4154. [[fibril]]
+	4155. [[fibrillation]]
+	4156. [[fibrin]]
+	4157. [[fibrinogen]]
 	4158. fibrinogenopenia
-	4159. fibrinoid
+		1. $n$. a former name for hypofibrinogenaemia.
+	4159. [[fibrinoid]]
 	4160. fibrinolysin
+		1. $n$. see PLASMIN.
 	
-	4161. fibrinolysis
-	4162. fibrinolytic
+	4161. [[fibrinolysis]]
+	4162. [[fibrinolytic]]
 	4163. fibroadenoma
-	4164. fibroblast
-	4165. fibrocartilage
-	4166. fibrocyst
+		1. $n$. see ADENOMA.
+	4164. [[fibroblast]]
+	4165. [[fibrocartilage]]
+	4166. [[fibrocyst]]
 	4167. fibrocystic disease of the pancreas
-	4168. fibrocyte
-	4169. fibrodysplasia
-	4170. fibroelastosis
+		1. see CYSTIC FIBROSIS.
+	4168. [[fibrocyte]]
+	4169. [[fibrodysplasia]]
+	4170. [[fibroelastosis]]
 	
-	4171. fibroepithelial polyp
-	4172. fibroid
-	4173. fibroma
-	4174. fibromyalgia
-	4175. fibromyositis
-	4176. fibronectin
-	4177. fibroplasia
-	4178. fibrosarcoma
-	4179. fibrosis
-	4180. fibrositis
+	4171. [[fibroepithelial polyp]]
+	4172. [[fibroid]]
+	4173. [[fibroma]]
+	4174. [[fibromyalgia]]
+	4175. [[fibromyositis]]
+	4176. [[fibronectin]]
+	4177. [[fibroplasia]]
+	4178. [[fibrosarcoma]]
+	4179. [[fibrosis]]
+	4180. [[fibrositis]]
 	
-	4181. fibrous dysplasia
-	4182. fibula
-	4183. fiduciary relationship
+	4181. [[fibrous dysplasia]]
+	4182. [[fibula]]
+	4183. [[fiduciary relationship]]
 	4184. field of vision
+		1. see VISUAL FIELD.
 	4185. fifth disease
-	4186. figlu test
-	4187. FIGO staging
-	4188. filaggrin
-	4189. filament
-	4190. filaria
+		1. see ERYTHEMA.
+	4186. [[figlu test]]
+	4187. [[FIGO staging]]
+	4188. [[filaggrin]]
+	4189. [[filament]]
+	4190. [[filaria]]
 	
-	4191. filariasis
-	4192. file
-	4193. filiform
-	4194. filling((in dentistry))
-	4195. filum
+	4191. [[filariasis]]
+	4192. [[file]]
+	4193. [[filiform]]
+	4194. [[filling]]
+	4195. [[filum]]
 	4196. FIM
-	4197. fimbria
-	4198. fimbrial cyst
-	4199. finasteride
-	4200. fine-needle aspiration cytology
+		1. see Functional Independence Measure.
+	4197. [[fimbria]]
+	4198. [[fimbrial cyst]]
+	4199. [[finasteride]]
+	4200. [[fine-needle aspiration cytology]]
 	
 	4201. finger-flexion reflex
-	4202. finger-nose test
-	4203. fingerprint
-	4204. finished consultant episode
-	4205. firedamp((in mining))
-	4206. first-line treatment
-	4207. first-pass metabolism
+		1. see HOFFMANN's SIGN.
+	4202. [[finger-nose test]]
+	4203. [[fingerprint]]
+	4204. [[finished consultant episode]]
+	4205. [[firedamp]]
+	4206. [[first-line treatment]]
+	4207. [[first-pass metabolism]]
 	4208. first-rank symptom
-	4209. first aid
+		1. see Schneiderian first- and second-Rank SYMPTOMS.
+	4209. [[first aid]]
 	4210. first do no harm
+		1. see PRIMUM NON NOCERE. See also NONMALEFICENCE.
 	
 	4211. first intention
-	4212. FISH
-	4213. fission
-	4214. fissure
-	4215. fissure sealant((in dentistry))
-	4216. fistula
-	4217. fistulography
-	4218. fistuloplasty
-	4219. fit
-	4220. Fitz-Hugh-Curtis syndrome
+		1. see INTENTION.
+	4212. [[FISH]]
+	4213. [[fission]]
+	4214. [[fissure]]
+	4215. [[fissure sealant]]
+	4216. [[fistula]]
+	4217. [[fistulography]]
+	4218. [[fistuloplasty]]
+	4219. [[fit]]
+	4220. [[Fitz-Hugh-Curtis syndrome]]
 	
-	4221. fixation
-	4222. fixative
-	4223. flaccid
-	4224. flagellate
-	4225. flagellum
-	4226. flail chest
-	4227. flap
-	4228. flare
-	4229. flashback
-	4230. flat-foot
+	4221. [[fixation]]
+	4222. [[fixative]]
+	4223. [[flaccid]]
+	4224. [[flagellate]]
+	4225. [[flagellum]]
+	4226. [[flail chest]]
+	4227. [[flap]]
+	4228. [[flare]]
+	4229. [[flashback]]
+	4230. [[flat-foot]]
 	
-	4231. flat-panel detector
-	4232. flatulence
-	4233. flatus
-	4234. flatworm
-	4235. flav-
+	4231. [[flat-panel detector]]
+	4232. [[flatulence]]
+	4233. [[flatus]]
+	4234. [[flatworm]]
+	4235. [[flav-]]
 	4236. flavin adenine dinucleotide
+		1. see FAD
 	4237. flavin mononucleotide
-	4238. flavivirus
-	4239. flavoprotein
-	4240. flea
+		1. see FMN
+	4238. [[flavivirus]]
+	4239. [[flavoprotein]]
+	4240. [[flea]]
 	
-	4241. flecainide
-	4242. Fleischer ring
-	4243. Fleischner criteria
+	4241. [[flecainide]]
+	4242. [[Fleischer ring]]
+	4243. [[Fleischner criteria]]
 	4244. flexibilitas cerea
-	4245. flexion
-	4246. flexor
-	4247. flexure
-	4248. flight of ideas
-	4249. floaters
-	4250. floccillation
+		1. see CATATONIA.
+	4245. [[flexion]]
+	4246. [[flexor]]
+	4247. [[flexure]]
+	4248. [[flight of ideas]]
+	4249. [[floaters]]
+	4250. [[floccillation]]
 	
-	4251. flocculation
-	4252. flocculent
-	4253. flocculus
-	4254. flooding
+	4251. [[flocculation]]
+	4252. [[flocculent]]
+	4253. [[flocculus]]
+	4254. [[flooding]]
 	4255. floppy baby syndrome
-	4256. flow cytometry
-	4257. flowmeter
-	4258. flucloxacillin
-	4259. fluconazole
-	4260. fluctuation
+		1. see AMYOTONIA CONGENITA.
+	4256. [[flow cytometry]]
+	4257. [[flowmeter]]
+	4258. [[flucloxacillin]]
+	4259. [[fluconazole]]
+	4260. [[fluctuation]]
 	
-	4261. flucytosine
-	4262. fludrocortisone
-	4263. fluid level
-	4264. fluke
-	4265. flumazenil
-	4266. flunisolide
-	4267. fluocinolone
-	4268. fluorescein sodium
-	4269. fluorescence
+	4261. [[flucytosine]]
+	4262. [[fludrocortisone]]
+	4263. [[fluid level]]
+	4264. [[fluke]]
+	4265. [[flumazenil]]
+	4266. [[flunisolide]]
+	4267. [[fluocinolone]]
+	4268. [[fluorescein sodium]]
+	4269. [[fluorescence]]
 	4270. fluorescence in situ hybridization
+		1. see FISH.
 	
-	4271. fluoridation
-	4272. fluoride
-	4273. fluorodeoxyglucose
-	4274. fluoropyrimidine
-	4275. fluoroscope
-	4276. fluoroscopy
-	4277. fluorosis
-	4278. fluorouracil
-	4279. fluoxetine
-	4280. flupentixol
+	4271. [[fluoridation]]
+	4272. [[fluoride]]
+	4273. [[fluorodeoxyglucose]]
+	4274. [[fluoropyrimidine]]
+	4275. [[fluoroscope]]
+	4276. [[fluoroscopy]]
+	4277. [[fluorosis]]
+	4278. [[fluorouracil]]
+	4279. [[fluoxetine]]
+	4280. [[flupentixol]]
 	
-	4281. fluphenazine
-	4282. flurazepam
-	4283. flurbiprofen
-	4284. flush
-	4285. flutamide
-	4286. fluticasone proprionate
-	4287. flutter
+	4281. [[fluphenazine]]
+	4282. [[flurazepam]]
+	4283. [[flurbiprofen]]
+	4284. [[flush]]
+	4285. [[flutamide]]
+	4286. [[fluticasone proprionate]]
+	4287. [[flutter]]
 	4288. fluvastatin
-	4289. fluvoxamine
-	4290. flux
+		1. $n$. see STATIN.
+	4289. [[fluvoxamine]]
+	4290. [[flux]]
 	
-	4291. fly
-	4292. FMN
+	4291. [[fly]]
+	4292. [[FMN]]
 	4293. FNA
+		1. see FINE-NEEDLE ASPIRATION CYTOLOGY.
 	4294. FOBT
-	4295. focal distance((of the eye))
-	4296. focal segmental glomerulosclerosis
-	4297. focus
-	4298. FODMAPS
+		1. see FAECAL OCCULT BLOOD TEST.
+	4295. [[focal distance]]
+	4296. [[focal segmental glomerulosclerosis]]
+	4297. [[focus]]
+	4298. [[FODMAPS]]
 	4299. foetus
-	4300. folate
+		1. $n$. see FETUS.
+	4300. [[folate]]
 	
-	4301. fold((in anatomy and embryology))
-	4302. folic acid
-	4303. folie à deux
-	4304. folinic acid
-	4305. folium
-	4306. follicle
-	4307. follicle-stimulating hormone
+	4301. [[fold]]
+	4302. [[folic acid]]
+	4303. [[folie à deux]]
+	4304. [[folinic acid]]
+	4305. [[folium]]
+	4306. [[follicle]]
+	4307. [[follicle-stimulating hormone]]
 	4308. follicular cyst
-	4309. follicular occlusion tetrad
-	4310. folliculitis
+		1. see OVARIAN CYST.
+	4309. [[follicular occlusion tetrad]]
+	4310. [[folliculitis]]
 	
 	4311. fomentation
-	4312. fomes
-	4313. fontanelle
-	4314. Food and Drug Administration
-	4315. food intolerance
-	4316. food poisoning
-	4317. foot
-	4318. footling
-	4319. foramen
-	4320. forced expiratory volume
+		1. $n$. see POULTICE.
+	4312. [[fomes]]
+	4313. [[fontanelle]]
+	4314. [[Food and Drug Administration]]
+	4315. [[food intolerance]]
+	4316. [[food poisoning]]
+	4317. [[foot]]
+	4318. [[footling]]
+	4319. [[foramen]]
+	4320. [[forced expiratory volume]]
 	
-	4321. forced preferential looking test
-	4322. forceps
-	4323. Fordyce spots
-	4324. forebrain
-	4325. foregut
-	4326. forensic medicine
-	4327. forequarter amputation
+	4321. [[forced preferential looking test]]
+	4322. [[forceps]]
+	4323. [[Fordyce spots]]
+	4324. [[forebrain]]
+	4325. [[foregut]]
+	4326. [[forensic medicine]]
+	4327. [[forequarter amputation]]
 	4328. foreskin
-	4329. forewaters
-	4330. formaldehyde
+		1. $n$. see PREPUCE.
+	4329. [[forewaters]]
+	4330. [[formaldehyde]]
 	
-	4331. formalin
-	4332. formal thought disorder
-	4333. forme fruste
-	4334. formication
-	4335. formoterol
-	4336. formulary
-	4337. fornix
-	4338. forward parachute reflex
-	4339. foscarnet
-	4340. fossa
+	4331. [[formalin]]
+	4332. [[formal thought disorder]]
+	4333. [[forme fruste]]
+	4334. [[formication]]
+	4335. [[formoterol]]
+	4336. [[formulary]]
+	4337. [[fornix]]
+	4338. [[forward parachute reflex]]
+	4339. [[foscarnet]]
+	4340. [[fossa]]
 	
 	4341. foundation hospitals
-	4342. Foundation Programme
-	4343. foundation training
-	4344. foundation trusts
-	4345. four-layer system
+		1. see FOUNDATION TRUSTS.
+	4342. [[Foundation Programme]]
+	4343. [[foundation training]]
+	4344. [[foundation trusts]]
+	4345. [[four-layer system]]
 	4346. Fourier domain OCT
-	4347. Fournier's gangrene
-	4348. four principles
-	4349. fovea((in anatomy))
-	4350. foveola((in anatomy))
+		1. see SPECTRAL DOMAIN OPTICAL COHERENCE TOMOGRAPHY.
+	4347. [[Fournier's gangrene]]
+	4348. [[four principles]]
+	4349. [[fovea]]
+	4350. [[foveola]]
 	
 	4351. FPL test
-	4352. fractional flow reserve
-	4353. fracture
-	4354. fraenectomy
-	4355. fraenum
-	4356. fragile-X syndrome
-	4357. fragilitas
+		1. see FORCED PREFERENTIAL LOOKING TEST.
+	4352. [[fractional flow reserve]]
+	4353. [[fracture]]
+	4354. [[fraenectomy]]
+	4355. [[fraenum]]
+	4356. [[fragile-X syndrome]]
+	4357. [[fragilitas]]
 	4358. framboesia
-	4359. Framingham risk score
-	4360. framycetin
+		1. $n$. see YAWS.
+	4359. [[Framingham risk score]]
+	4360. [[framycetin]]
 	
 	4361. Fraser guidelines
+		1. see GILLICK COMPETENCE.
 	4362. fraternal twins
-	4363. freckle
-	4364. free-floating anxiety
-	4365. free association((in *psychoanalysis))
+		1. see TWINS.
+	4363. [[freckle]]
+	4364. [[free-floating anxiety]]
+	4365. [[free association]]
 	4366. free field audiogram
-	4367. free gas
-	4368. freeze drying
-	4369. freeze etching
-	4370. Frei test
+		1. see AUDIOGRAM.
+	4367. [[free gas]]
+	4368. [[freeze drying]]
+	4369. [[freeze etching]]
+	4370. [[Frei test]]
 	
-	4371. fremitus
-	4372. frenuloplasty
+	4371. [[fremitus]]
+	4372. [[frenuloplasty]]
 	4373. frenulum
+		1. $n$. see FRAENUM.
 	4374. frenum
-	4375. frequency((of urine))
-	4376. frequency distribution((in statistics))
-	4377. Fresnel prism
-	4378. Freudian
-	4379. friction murmur
+		1. $n$. see FRAENUM.
+	4375. [[frequency]]
+	4376. [[frequency distribution]]
+	4377. [[Fresnel prism]]
+	4378. [[Freudian]]
+	4379. [[friction murmur]]
 	4380. Friedreich's ataxia
+		1. see ATAXIA. \[N. Friedreich (1825-82), German neurologist]
 	
 	4381. fringe medicine
-	4382. Fröhlich's syndrome
-	4383. Froin's syndrome
-	4384. frontal
-	4385. frontal bone
-	4386. frontal lobe
+		1. see COMPLEMENTARY MEDICINE.
+	4382. [[Fröhlich's syndrome]]
+	4383. [[Froin's syndrome]]
+	4384. [[frontal]]
+	4385. [[frontal bone]]
+	4386. [[frontal lobe]]
 	4387. frontal sinus
-	4388. frontotemporal dementia
-	4389. frostbite
-	4390. frozen shoulder
+		1. see PARANASAL SINUSES.
+	4388. [[frontotemporal dementia]]
+	4389. [[frostbite]]
+	4390. [[frozen shoulder]]
 	
-	4391. frozen watchfulness
-	4392. fructose
-	4393. fructosuria
+	4391. [[frozen watchfulness]]
+	4392. [[fructose]]
+	4393. [[fructosuria]]
 	4394. frusemide
+		1. $n$. see FUROSEMIDE.
 	4395. FSGS
+		1. see FOCAL SEGMENTAL GLOMERULOSCLEROSIS.
 	4396. FSH
+		1. see FOLLICLE-STIMULATING HORMONE.
 	4397. FTD
+		1. see FRONTOTEMPORAL DEMENTIA.
 	4398. FTR
+		1. see FALLOPIAN TUBE RECANALIZATION.
 	4399. FTT
+		1. see FAILURE TO THRIVE.
 	4400. 5FU
+		1. n. see fluorouracil.
 	
-	4401. Fuchs' endothelial dystrophy
-	4402. Fuchs' heterochromic cyclitis
-	4403. Fuchs' spots
-	4404. fuchsin
-	4405. -fuge
-	4406. fugue
-	4407. fulguration
-	4408. fulminating
-	4409. fumigation
-	4410. functional disorder
+	4401. [[Fuchs' endothelial dystrophy]]
+	4402. [[Fuchs' heterochromic cyclitis]]
+	4403. [[Fuchs' spots]]
+	4404. [[fuchsin]]
+	4405. [[-fuge]]
+	4406. [[fugue]]
+	4407. [[fulguration]]
+	4408. [[fulminating]]
+	4409. [[fumigation]]
+	4410. [[functional disorder]]
 	
 	4411. functional endoscopic sinus surgery
-	4412. functional foods
-	4413. Functional Independence Measure
-	4414. functional magnetic resonance imaging
-	4415. Functional Recovery Index
+		1. (FESS) see ENDOSCOPIC SINUS SURGERY.
+	4412. [[functional foods]]
+	4413. [[Functional Independence Measure]]
+	4414. [[functional magnetic resonance imaging]]
+	4415. [[Functional Recovery Index]]
 	4416. functional seizure
-	4417. fundal height
-	4418. fundoplication
-	4419. fundoscopy
-	4420. fundus
+		1. see NON-EPILEPTIC SEIZURE.
+	4417. [[fundal height]]
+	4418. [[fundoplication]]
+	4419. [[fundoscopy]]
+	4420. [[fundus]]
 	
-	4421. fungating
-	4422. fungicide
-	4423. fungoid
-	4424. fungus
-	4425. funiculitis
-	4426. funiculus
-	4427. funis((in anatomy))
-	4428. funnel chest
-	4429. furcation
-	4430. furosemide
+	4421. [[fungating]]
+	4422. [[fungicide]]
+	4423. [[fungoid]]
+	4424. [[fungus]]
+	4425. [[funiculitis]]
+	4426. [[funiculus]]
+	4427. [[funis]]
+	4428. [[funnel chest]]
+	4429. [[furcation]]
+	4430. [[furosemide]]
 	
 	4431. furuncle
-	4432. furunculosis
-	4433. fusidic acid
-	4434. fusiform
-	4435. fusion
+		1. n. see Boil
+	4432. [[furunculosis]]
+	4433. [[fusidic acid]]
+	4434. [[fusiform]]
+	4435. [[fusion]]
 	4436. fusion imaging
-	4437. Fusobacterium
-	4438. futile
-	4439. G-cell
+		1. see CO-REGISTRATION.
+	4437. [[Fusobacterium]]
+	4438. [[futile]]
+	4439. [[G-cell]]
 	4440. GABA
+		1. see GAMMA-AMINOBUTYRIC ACID.
 	
-	4441. gabapentin
+	4441. [[gabapentin]]
 	4442. GAD
-	4443. GAD-7
+		1. see GLUTAMIC ACID DECARBOXYLASE.
+	4443. [[GAD-7]]
 	4444. GAD antibodies
-	4445. Gaffkya
-	4446. gag((in medicine))
-	4447. gag reflex
-	4448. galact-
-	4449. galactagogue
-	4450. galactocele
+		1. see ISLET CELL ANTIBODIES.
+	4445. [[Gaffkya]]
+	4446. [[gag]]
+	4447. [[gag reflex]]
+	4448. [[galact-]]
+	4449. [[galactagogue]]
+	4450. [[galactocele]]
 	
-	4451. galactorrhoea
-	4452. galactosaemia
-	4453. galactose
-	4454. galanin
+	4451. [[galactorrhoea]]
+	4452. [[galactosaemia]]
+	4453. [[galactose]]
+	4454. [[galanin]]
 	4455. galantamine
-	4456. galea
-	4457. galenical
-	4458. gall bladder
-	4459. gallium
-	4460. gallop rhythm
+		1. $n$. see ACETYLCHOLINESTERASE INHIBITOR.
+	4456. [[galea]]
+	4457. [[galenical]]
+	4458. [[gall bladder]]
+	4459. [[gallium]]
+	4460. [[gallop rhythm]]
 	
-	4461. gallstone
-	4462. galvanism((formerly))
+	4461. [[gallstone]]
+	4462. [[galvanism]]
 	4463. gamekeeper's thumb
-	4464. gamete
-	4465. gamete intrafallopian transfer
-	4466. gametocide
-	4467. gametocyte
-	4468. gametogenesis
-	4469. gaming disorder
-	4470. gamma-aminobutyric acid
+		1. see SKIER's THUMB.
+	4464. [[gamete]]
+	4465. [[gamete intrafallopian transfer]]
+	4466. [[gametocide]]
+	4467. [[gametocyte]]
+	4468. [[gametogenesis]]
+	4469. [[gaming disorder]]
+	4470. [[gamma-aminobutyric acid]]
 	
-	4471. gamma camera
-	4472. gammaglobulin
-	4473. gamma knife
-	4474. gamma rays
-	4475. gamo-
-	4476. ganciclovir
-	4477. gangli-
-	4478. ganglion
-	4479. ganglioside
-	4480. gangosa
+	4471. [[gamma camera]]
+	4472. [[gammaglobulin]]
+	4473. [[gamma knife]]
+	4474. [[gamma rays]]
+	4475. [[gamo-]]
+	4476. [[ganciclovir]]
+	4477. [[gangli-]]
+	4478. [[ganglion]]
+	4479. [[ganglioside]]
+	4480. [[gangosa]]
 	
-	4481. gangrene
-	4482. Ganser syndrome
-	4483. Gardner's syndrome
-	4484. Gardner-Diamond syndrome
-	4485. Gardnerella
+	4481. [[gangrene]]
+	4482. [[Ganser syndrome]]
+	4483. [[Gardner's syndrome]]
+	4484. [[Gardner-Diamond syndrome]]
+	4485. [[Gardnerella]]
 	4486. gargoylism
-	4487. Gartner's duct cysts
-	4488. gas gangrene
-	4489. Gasterophilus
-	4490. gastr-
+		1. n. see Hunter's syndrome; Hurler's syndrome.
+	4487. [[Gartner's duct cysts]]
+	4488. [[gas gangrene]]
+	4489. [[Gasterophilus]]
+	4490. [[gastr-]]
 	
-	4491. gastrectasia
-	4492. gastrectomy
-	4493. gastric
-	4494. gastric banding
-	4495. gastric bypass surgery
-	4496. gastric glands
-	4497. gastric juice
+	4491. [[gastrectasia]]
+	4492. [[gastrectomy]]
+	4493. [[gastric]]
+	4494. [[gastric banding]]
+	4495. [[gastric bypass surgery]]
+	4496. [[gastric glands]]
+	4497. [[gastric juice]]
 	4498. gastric stapling
-	4499. gastric ulcer
-	4500. gastrin
+		1. see STOMACH STAPLING.
+	4499. [[gastric ulcer]]
+	4500. [[gastrin]]
 	
-	4501. gastrinoma
-	4502. gastritis
+	4501. [[gastrinoma]]
+	4502. [[gastritis]]
 	4503. gastro-
-	4504. gastro-oesophageal reflux
-	4505. gastro-oesophageal reflux disease
-	4506. gastro-oesophagostomy
-	4507. gastrocnemius
-	4508. gastrocolic reflex
+		1. combining form. See GASTR-.
+	4504. [[gastro-oesophageal reflux]]
+	4505. [[gastro-oesophageal reflux disease]]
+	4506. [[gastro-oesophagostomy]]
+	4507. [[gastrocnemius]]
+	4508. [[gastrocolic reflex]]
 	4509. gastroduodenoscope
+		1. $n$. see GASTROSCOPE.
 	4510. gastroduodenoscopy
+		1. $n$. see OESOPHAGOGASTRODUODENOSCOPY.
 	
-	4511. gastroduodenostomy
-	4512. gastroenteritis
-	4513. gastroenterology
-	4514. gastroenterostomy
-	4515. Gastrografin
-	4516. gastroileac reflex
-	4517. gastrointestinal stromal tumour
-	4518. gastrojejunostomy
-	4519. gastrolith
-	4520. gastroparesis
+	4511. [[gastroduodenostomy]]
+	4512. [[gastroenteritis]]
+	4513. [[gastroenterology]]
+	4514. [[gastroenterostomy]]
+	4515. [[Gastrografin]]
+	4516. [[gastroileac reflex]]
+	4517. [[gastrointestinal stromal tumor]]
+	4518. [[gastrojejunostomy]]
+	4519. [[gastrolith]]
+	4520. [[gastroparesis]]
 	
-	4521. gastropexy
-	4522. gastroplasty
-	4523. gastroschisis
-	4524. gastroscope
-	4525. gastrostomy
-	4526. gastrotomy
-	4527. gastrula
-	4528. gating
-	4529. Gaucher's disease
-	4530. gauss
+	4521. [[gastropexy]]
+	4522. [[gastroplasty]]
+	4523. [[gastroschisis]]
+	4524. [[gastroscope]]
+	4525. [[gastrostomy]]
+	4526. [[gastrotomy]]
+	4527. [[gastrula]]
+	4528. [[gating]]
+	4529. [[Gaucher's disease]]
+	4530. [[gauss]]
 	
 	4531. Gaussian distribution
-	4532. gauze
-	4533. gavage
-	4534. GAVE
+		1. see FREQUENCY DISTRIBUTION; SIGNIFICANCE. \[K. F. Gauss (1777-1855), German mathematician]
+	4532. [[gauze]]
+	4533. [[gavage]]
+	4534. [[GAVE]]
 	4535. GCS
+		1. see Glasgow Coma Scale.
 	4536. GDC
+		1. see General Dental Council.
 	4537. gefitinib
-	4538. gel
-	4539. gelatin
-	4540. gemcitabine
+		1. $n$. see EPIDERMAL GROWTH FACTOR RECEPTOR; TYROSINE KINASE INHIBITOR.
+	4538. [[gel]]
+	4539. [[gelatin]]
+	4540. [[gemcitabine]]
 	
-	4541. gemeprost
-	4542. gemfibrozil
-	4543. gemmule
-	4544. gender dysphoria
-	4545. gene
+	4541. [[gemeprost]]
+	4542. [[gemfibrozil]]
+	4543. [[gemmule]]
+	4544. [[gender dysphoria]]
+	4545. [[gene]]
 	4546. gene clone
-	4547. General Dental Council((in Britain))
-	4548. general dental services
-	4549. general health questionnaire
-	4550. general household survey
+		1. see CLONE.
+	4547. [[General Dental Council]]
+	4548. [[general dental services]]
+	4549. [[general health questionnaire]]
+	4550. [[general household survey]]
 	
-	4551. generalized anxiety disorder
+	4551. [[generalized anxiety disorder]]
 	4552. Generalized Anxiety Disorder Questionnaire
-	4553. General Medical Council
-	4554. general paralysis of the insane
-	4555. general practitioner
+		1. see GAD-7. ///
+			1. #question What are the 3 forward slashes for?
+	4553. [[General Medical Council]]
+	4554. [[general paralysis of the insane]]
+	4555. [[general practitioner]]
 	4556. general practitioner with special interest
-	4557. generic
-	4558. -genesis
-	4559. gene therapy
-	4560. genethics
+		1. (GPwSI, GPSI) see GENERAL PRACTITIONER.
+	4557. [[generic]]
+	4558. [[-genesis]]
+	4559. [[gene therapy]]
+	4560. [[genethics]]
 	
-	4561. genetic code
-	4562. genetic counselling
-	4563. genetic drift
-	4564. genetic engineering
-	4565. genetics
-	4566. genetic screening
-	4567. geni-
-	4568. -genic
-	4569. genicular
-	4570. geniculum
+	4561. [[genetic code]]
+	4562. [[genetic counselling]]
+	4563. [[genetic drift]]
+	4564. [[genetic engineering]]
+	4565. [[genetics]]
+	4566. [[genetic screening]]
+	4567. [[geni-]]
+	4568. [[-genic]]
+	4569. [[genicular]]
+	4570. [[geniculum]]
 	
-	4571. genion((in *craniometry))
-	4572. genioplasty
-	4573. genital
+	4571. [[genion]]
+	4572. [[genioplasty]]
+	4573. [[genital]]
 	4574. genital herpes
-	4575. genitalia
-	4576. genito-
-	4577. genitourinary medicine
-	4578. genodermatosis
-	4579. genogram
-	4580. genome
+		1. see HERPES.
+	4575. [[genitalia]]
+	4576. [[genito-]]
+	4577. [[genitourinary medicine]]
+	4578. [[genodermatosis]]
+	4579. [[genogram]]
+	4580. [[genome]]
 	
-	4581. genomics
-	4582. genotype
-	4583. gentamicin
-	4584. gentian violet
-	4585. genu
+	4581. [[genomics]]
+	4582. [[genotype]]
+	4583. [[gentamicin]]
+	4584. [[gentian violet]]
+	4585. [[genu]]
 	4586. genuine stress incontinence
-	4587. genus
-	4588. genu valgum
-	4589. genu varum
-	4590. geo-
+		1. see INCONTINENCE.
+	4587. [[genus]]
+	4588. [[genu valgum]]
+	4589. [[genu varum]]
+	4590. [[geo-]]
 	
-	4591. geographical tongue
-	4592. ger-
-	4593. geriatrics
-	4594. germ
-	4595. German measles
-	4596. germ cell
-	4597. germ cell tumour
-	4598. germicide
-	4599. germinal
-	4600. germinal epithelium
+	4591. [[geographical tongue]]
+	4592. [[ger-]]
+	4593. [[geriatrics]]
+	4594. [[germ]]
+	4595. [[German measles]]
+	4596. [[germ cell]]
+	4597. [[germ cell tumor]]
+	4598. [[germicide]]
+	4599. [[germinal]]
+	4600. [[germinal epithelium]]
 	
-	4601. germinal vesicle
-	4602. germ layer
-	4603. germ plasm
-	4604. gerontology
-	4605. Gerstmann's syndrome
-	4606. Gerstmann-Straussler-Scheinker syndrome
-	4607. gestaltism (gestalt psychology)
-	4608. gestation
-	4609. gestational diabetes mellitus
-	4610. gestational trophoblastic disease
+	4601. [[germinal vesicle]]
+	4602. [[germ layer]]
+	4603. [[germ plasm]]
+	4604. [[gerontology]]
+	4605. [[Gerstmann's syndrome]]
+	4606. [[Gerstmann-Straussler-Scheinker syndrome]]
+	4607. [[gestaltism]]
+	4608. [[gestation]]
+	4609. [[gestational diabetes mellitus]]
+	4610. [[gestational trophoblastic disease]]
 	
-	4611. gestational trophoblastic neoplasia
-	4612. gestodene
+	4611. [[gestational trophoblastic neoplasia]]
+	4612. [[gestodene]]
 	4613. GFR
-	4614. Ghon's focus
-	4615. ghost vessels
+		1. see GLOMERULAR FILTRATION RATE.
+	4614. [[Ghon's focus]]
+	4615. [[ghost vessels]]
 	4616. GHQ
-	4617. ghrelin
+		1. see GENERAL HEALTH QUESTIONNAIRE.
+	4617. [[ghrelin]]
 	4618. GI
+		1. see GLYCAEMIC INDEX.
 	4619. giant-cell arteritis
-	4620. giant cell
+		1. see ARTERITIS.
+	4620. [[giant cell]]
 	
-	4621. Giardia
-	4622. giardiasis
-	4623. gibbus
-	4624. Giemsa's stain
-	4625. gift
+	4621. [[Giardia]]
+	4622. [[giardiasis]]
+	4623. [[gibbus]]
+	4624. [[Giemsa's stain]]
+	4625. [[gift]]
 	4626. GIFT
-	4627. gigantism
+		1. see GAMETE INTRAFALLOPIAN TRANSFER.
+	4627. [[gigantism]]
 	4628. GIK regime
-	4629. Gilbert's syndrome
+		1. see Alberti Regime.
+	4629. [[Gilbert's syndrome]]
 	4630. Gilles de la Tourette syndrome
+		1. see Tourette's Syndrome.
 	
-	4631. Gillick competence
-	4632. Gimbernat's ligament
-	4633. gingiv-
-	4634. gingiva
-	4635. gingival biotype
-	4636. gingivectomy
-	4637. gingivitis
-	4638. ginglymus
-	4639. girdle
+	4631. [[Gillick competence]]
+	4632. [[Gimbernat's ligament]]
+	4633. [[gingiv-]]
+	4634. [[gingiva]]
+	4635. [[gingival biotype]]
+	4636. [[gingivectomy]]
+	4637. [[gingivitis]]
+	4638. [[ginglymus]]
+	4639. [[girdle]]
 	4640. GIST
+		1. see GASTROINTESTINAL STROMAL TUMOR.
 	
-	4641. glabella
-	4642. gladiolus
-	4643. gland
-	4644. glanders
-	4645. glandular fever
-	4646. glans
-	4647. glansectomy
-	4648. glare
-	4649. Glasgow Coma Scale
-	4650. glass ionomer
+	4641. [[glabella]]
+	4642. [[gladiolus]]
+	4643. [[gland]]
+	4644. [[glanders]]
+	4645. [[glandular fever]]
+	4646. [[glans]]
+	4647. [[glansectomy]]
+	4648. [[glare]]
+	4649. [[Glasgow Coma Scale]]
+	4650. [[glass ionomer]]
 	
-	4651. glatiramer
-	4652. glaucoma
-	4653. glaukomflecken
-	4654. Gleason grade
-	4655. Gleason score
-	4656. gleet
-	4657. glenohumeral
-	4658. glenoid cavity
-	4659. gli-
-	4660. glia
+	4651. [[glatiramer]]
+	4652. [[glaucoma]]
+	4653. [[glaukomflecken]]
+	4654. [[Gleason grade]]
+	4655. [[Gleason score]]
+	4656. [[gleet]]
+	4657. [[glenohumeral]]
+	4658. [[glenoid cavity]]
+	4659. [[gli-]]
+	4660. [[glia]]
 	
-	4661. gliadin
-	4662. glibenclamide
-	4663. gliclazide
+	4661. [[gliadin]]
+	4662. [[glibenclamide]]
+	4663. [[gliclazide]]
 	4664. gliding joint
-	4665. glioblastoma
-	4666. glioma
-	4667. gliosome
-	4668. glipizide
+		1. see ARTHRODIC JOINT.
+	4665. [[glioblastoma]]
+	4666. [[glioma]]
+	4667. [[gliosome]]
+	4668. [[glipizide]]
 	4669. Glivec
-	4670. global ethics
+		1. $n$. see IMATINIB.
+	4670. [[global ethics]]
 	
-	4671. globin
-	4672. globulin
-	4673. globulinuria
-	4674. globus
+	4671. [[globin]]
+	4672. [[globulin]]
+	4673. [[globulinuria]]
+	4674. [[globus]]
 	4675. globus hystericus
-	4676. globus pharyngeus
+		1. see GLOBUS PHARYNGEUS.
+	4676. [[globus pharyngeus]]
 	4677. glomangioma
-	4678. glomerular filtration rate
-	4679. glomerulonephritis
-	4680. glomerulus
+		1. n. See GLOMUS TUMOUR. See also GLOMUS.
+	4678. [[glomerular filtration rate]]
+	4679. [[glomerulonephritis]]
+	4680. [[glomerulus]]
 	
-	4681. glomus
-	4682. glomus jugulare
-	4683. glomus tumour
-	4684. gloss-
+	4681. [[glomus]]
+	4682. [[glomus jugulare]]
+	4683. [[glomus tumor]]
+	4684. [[gloss-]]
 	4685. glossa
-	4686. glossectomy
+		1. $n$. see TONGUE.
+	4686. [[glossectomy]]
 	4687. Glossina
-	4688. glossitis
-	4689. glossolalia
-	4690. glossopharyngeal nerve
+		1. $n$. see TSETSE.
+	4688. [[glossitis]]
+	4689. [[glossolalia]]
+	4690. [[glossopharyngeal nerve]]
 	
-	4691. glossoplegia
-	4692. glottis
-	4693. GLP-1 receptor agonists
-	4694. gluc-
-	4695. glucagon
-	4696. glucagon-like peptide-1
-	4697. glucagonoma
-	4698. glucagon stimulation test
+	4691. [[glossoplegia]]
+	4692. [[glottis]]
+	4693. [[GLP-1 receptor agonists]]
+	4694. [[gluc-]]
+	4695. [[glucagon]]
+	4696. [[glucagon-like peptide-1]]
+	4697. [[glucagonoma]]
+	4698. [[glucagon stimulation test]]
 	4699. glucocorticoid
-	4700. glucokinase
+		1. $n$. see CORTICOSTEROID.
+	4700. [[glucokinase]]
 	
-	4701. gluconeogenesis
-	4702. glucosamine
-	4703. glucose
-	4704. glucose-6-phosphate dehydrogenase deficiency
-	4705. glucose tolerance test
+	4701. [[gluconeogenesis]]
+	4702. [[glucosamine]]
+	4703. [[glucose]]
+	4704. [[glucose-6-phosphate dehydrogenase deficiency]]
+	4705. [[glucose tolerance test]]
 	4706. glucoside
-	4707. glucuronic acid
-	4708. glue ear
-	4709. glutamate dehydrogenase
+		1. $n$. see GLYCOSIDE.
+	4707. [[glucuronic acid]]
+	4708. [[glue ear]]
+	4709. [[glutamate dehydrogenase]]
 	4710. glutamic acid
+		1. see AMINO ACID; NEUROTRANSMITTER.
 	
-	4711. glutamic acid decarboxylase
+	4711. [[glutamic acid decarboxylase]]
 	4712. glutamic oxaloacetic transaminase
+		1. (GOT) see ASPARTATE AMINOTRANSFERASE.
 	4713. glutamic pyruvic transaminase
-	4714. glutaminase
+		1. (GPT) see ALANINE AMINOTRANSFERASE
+	4714. [[glutaminase]]
 	4715. glutamine
-	4716. glutathione
-	4717. glutelin
-	4718. gluten
-	4719. gluteus
-	4720. glyc-
+		1. $n$. see AMINO ACID.
+	4716. [[glutathione]]
+	4717. [[glutelin]]
+	4718. [[gluten]]
+	4719. [[gluteus]]
+	4720. [[glyc-]]
 	
-	4721. glycaemic index
-	4722. glycated haemoglobin
-	4723. glycation
-	4724. glyceride
-	4725. glycerin
-	4726. glyceryl trinitrate
+	4721. [[glycaemic index]]
+	4722. [[glycated haemoglobin]]
+	4723. [[glycation]]
+	4724. [[glyceride]]
+	4725. [[glycerin]]
+	4726. [[glyceryl trinitrate]]
 	4727. glycine
-	4728. glycobiology
+		1. $n$. see AMINO ACID.
+	4728. [[glycobiology]]
 	4729. glycocholic acid
-	4730. glycogen
+		1. see BILE ACIDS.
+	4730. [[glycogen]]
 	
-	4731. glycogenesis
-	4732. glycogenolysis
-	4733. glycolipid
-	4734. glycolysis
+	4731. [[glycogenesis]]
+	4732. [[glycogenolysis]]
+	4733. [[glycolipid]]
+	4734. [[glycolysis]]
 	4735. glycopeptide antibiotics
-	4736. glycoprotein
-	4737. glycopyrrhonium bromide
-	4738. glycoside
-	4739. glycosuria
+		1. see VANCOMYCIN.
+	4736. [[glycoprotein]]
+	4737. [[glycopyrrhonium bromide]]
+	4738. [[glycoside]]
+	4739. [[glycosuria]]
 	4740. glycosylated haemoglobin
+		1. see GLYCATED HAEMOGLOBIN.
 	
 	4741. GMC
-	4742. gnath-
-	4743. gnathion
-	4744. Gnathostoma
-	4745. gnotobiotic
+		1. see General Medical Council.
+	4742. [[gnath-]]
+	4743. [[gnathion]]
+	4744. [[Gnathostoma]]
+	4745. [[gnotobiotic]]
 	4746. GnRH
+		1. see GONADOTROPHIN-RELEASING HORMONE.
 	4747. GnRH analogue
-	4748. goblet cell
-	4749. goitre
-	4750. gold
+		1. see GONADORELIN ANALOGUE.
+	4748. [[goblet cell]]
+	4749. [[goitre]]
+	4750. [[gold]]
 	
-	4751. GOLD
+	4751. [[GOLD]]
 	4752. Goldmann applanation tonometer
-	4753. golfer's elbow
-	4754. Golgi apparatus
-	4755. Golgi cells
+		1. see TONOMETER. \[H. Goldmann (1899-1991), Swiss ophthalmologist]
+	4753. [[golfer's elbow]]
+	4754. [[Golgi apparatus]]
+	4755. [[Golgi cells]]
 	4756. Golgi tendon organ
-	4757. Gomori's method
-	4758. gomphosis
-	4759. gonad
+		1. see TENDON ORGAN.
+	4757. [[Gomori's method]]
+	4758. [[gomphosis]]
+	4759. [[gonad]]
 	4760. gonadal dysgenesis
+		1. see TURNER's SYNDROME.
 	
-	4761. gonadarche
-	4762. gonadorelin analogue
-	4763. gonadotrophin
-	4764. gonadotrophin-releasing hormone
-	4765. gonagra
-	4766. goni-
-	4767. goniometer
-	4768. gonion
-	4769. gonioscope
-	4770. goniotomy
+	4761. [[gonadarche]]
+	4762. [[gonadorelin analogue]]
+	4763. [[gonadotrophin]]
+	4764. [[gonadotrophin-releasing hormone]]
+	4765. [[gonagra]]
+	4766. [[goni-]]
+	4767. [[goniometer]]
+	4768. [[gonion]]
+	4769. [[gonioscope]]
+	4770. [[goniotomy]]
 	
-	4771. gonococcus
+	4771. [[gonococcus]]
 	4772. gonocyte
-	4773. gonorrhoea
-	4774. good
-	4775. good enough
-	4776. Goodpasture's disease
-	4777. Goodpasture's syndrome
-	4778. gooseflesh
+		1. $n$. see GERM CELL.
+	4773. [[gonorrhoea]]
+	4774. [[good]]
+	4775. [[good enough]]
+	4776. [[Goodpasture's disease]]
+	4777. [[Goodpasture's syndrome]]
+	4778. [[gooseflesh]]
 	4779. GORD
-	4780. Gordon's syndrome
+		1. see GASTRO-OESOPHAGEAL REFLUX DISEASE.
+	4780. [[Gordon's syndrome]]
 	
-	4781. gorget
-	4782. Gorlin's syndrome
-	4783. goserelin
+	4781. [[gorget]]
+	4782. [[Gorlin's syndrome]]
+	4783. [[goserelin]]
 	4784. Gottron's papules
-	4785. Gott shunt
-	4786. gouge
-	4787. goundou
-	4788. gout
-	4789. governance
+		1. see DERMATOMYOSITIS.
+	4785. [[Gott shunt]]
+	4786. [[gouge]]
+	4787. [[goundou]]
+	4788. [[gout]]
+	4789. [[governance]]
 	4790. GPA
+		1. see GRANULOMATOSIS WITH POLYANGIITIS.
 	
-	4791. Graafian follicle
-	4792. grade
-	4793. graded self-exposure
-	4794. graft
-	4795. graft-versus-host disease
-	4796. Graham Steell murmur
-	4797. grain
-	4798. gram
-	4799. -gram
-	4800. Gram's stain
+	4791. [[Graafian follicle]]
+	4792. [[grade]]
+	4793. [[graded self-exposure]]
+	4794. [[graft]]
+	4795. [[graft-versus-host disease]]
+	4796. [[Graham Steell murmur]]
+	4797. [[grain]]
+	4798. [[gram]]
+	4799. [[-gram]]
+	4800. [[Gram's stain]]
 	
 	4801. grand mal
-	4802. grand multiparity
+		1. (major epilepsy) see EPILEPSY.
+	4802. [[grand multiparity]]
 	4803. granisetron
-	4804. granular cast
-	4805. granulation
-	4806. granulocyte
-	4807. granulocytopenia
-	4808. granuloma
-	4809. granuloma annulare
+		1. $n$. see ONDANSETRON.
+	4804. [[granular cast]]
+	4805. [[granulation]]
+	4806. [[granulocyte]]
+	4807. [[granulocytopenia]]
+	4808. [[granuloma]]
+	4809. [[granuloma annulare]]
 	4810. granuloma gravidarum
+		1. see PREGNANCY EPULIS.
 	
-	4811. granuloma inguinale
-	4812. granulomatosis
-	4813. granulomatosis with polyangiitis
-	4814. granulopoiesis
-	4815. granzyme
-	4816. -graph
-	4817. graph-
-	4818. graphology
-	4819. grasp reflex
-	4820. grattage
+	4811. [[granuloma inguinale]]
+	4812. [[granulomatosis]]
+	4813. [[granulomatosis with polyangiitis]]
+	4814. [[granulopoiesis]]
+	4815. [[granzyme]]
+	4816. [[-graph]]
+	4817. [[graph-]]
+	4818. [[graphology]]
+	4819. [[grasp reflex]]
+	4820. [[grattage]]
 	
-	4821. gravel
+	4821. [[gravel]]
 	4822. Graves' disease
-	4823. gravid
-	4824. Grawitz tumour
-	4825. gray
+		1. (exophthalmic goitre) see THYROTOXICOSIS. \[R. J. Graves (1797-1853), Irish physician]
+	4823. [[gravid]]
+	4824. Grawitz tumor
+		1. see RENAL CELL CARCINOMA. \[P. A. Grawitz (1850-1932), German pathologist]
+	4825. [[gray]]
 	4826. green monkey disease
-	4827. greenstick fracture
-	4828. grey matter
-	4829. grey scale((in radiology))
-	4830. Grey Turner sign
+		1. see MARBURG DISEASE.
+	4827. [[greenstick fracture]]
+	4828. [[grey matter]]
+	4829. [[grey scale]]
+	4830. [[Grey Turner sign]]
 	
-	4831. gridiron incision
-	4832. gripe
-	4833. griseofulvin
-	4834. groin
-	4835. grommet
-	4836. ground substance
-	4837. group B streptococcus
+	4831. [[gridiron incision]]
+	4832. [[gripe]]
+	4833. [[griseofulvin]]
+	4834. [[groin]]
+	4835. [[grommet]]
+	4836. [[ground substance]]
+	4837. [[group B streptococcus]]
 	4838. group practice
-	4839. group therapy
-	4840. growth factor
+		1. see GENERAL PRACTITIONER.
+	4839. [[group therapy]]
+	4840. [[growth factor]]
 	
-	4841. growth hormone
+	4841. [[growth hormone]]
 	4842. growth plate
-	4843. grumous
-	4844. guanethidine
-	4845. guanine
-	4846. guanosine
-	4847. gubernaculum
-	4848. guidewire
-	4849. Guillain-Barré syndrome
-	4850. guillotine((in surgery))
+		1. see PHYSIS.
+	4843. [[grumous]]
+	4844. [[guanethidine]]
+	4845. [[guanine]]
+	4846. [[guanosine]]
+	4847. [[gubernaculum]]
+	4848. [[guidewire]]
+	4849. [[Guillain-Barré syndrome]]
+	4850. [[guillotine]]
 	
-	4851. guinea worm
-	4852. Gulf War syndrome
+	4851. [[guinea worm]]
+	4852. [[Gulf War syndrome]]
 	4853. gullet
-	4854. gum((in anatomy))
-	4855. gumboil
-	4856. gumma
-	4857. gumshield
-	4858. gunshot wound
-	4859. gustation
-	4860. gustatory
+		1. $n$. see OESOPHAGUS.
+	4854. gum
+		1. $n$. (in anatomy) see GINGIVA.
+	4855. [[gumboil]]
+	4856. [[gumma]]
+	4857. [[gumshield]]
+	4858. [[gunshot wound]]
+	4859. [[gustation]]
+	4860. [[gustatory]]
 	
 	4861. gut
-	4862. Guthrie test
-	4863. gut microbiota
-	4864. gutta((in pharmacy))
-	4865. gutta-percha
-	4866. guttate
+		1. n. 
+		2. (1) see INTESTINE. 
+		3. (2) see CATGUT.
+	4862. [[Guthrie test]]
+	4863. [[gut microbiota]]
+	4864. [[gutta]]
+	4865. [[gutta-percha]]
+	4866. [[guttate]]
 	4867. GVHD
-	4868. gyn-
-	4869. gynaecology
-	4870. gynaecomastia
+		1. see GRAFT-VERSUS-HOST DISEASE.
+	4868. [[gyn-]]
+	4869. [[gynaecology]]
+	4870. [[gynaecomastia]]
 	
 	4871. gypsum
-	4872. gyr-
-	4873. gyrate atrophy
-	4874. gyrus
+		1. n. see PLASTER OF PARIS.
+	4872. [[gyr-]]
+	4873. [[gyrate atrophy]]
+	4874. [[gyrus]]
 	4875. H1N1
+		1. see SWINE INFLUENZA.
 	4876. H2-receptor antagonist
+		1. see ANTIHISTAMINE.
 	4877. H5N1
-	4878. Haab's striae
-	4879. habit
-	4880. habituation
+		1. see AVIAN INFLUENZA.
+	4878. [[Haab's striae]]
+	4879. [[habit]]
+	4880. [[habituation]]
 	
-	4881. habitus
-	4882. haem
-	4883. haem-
-	4884. haemagglutination
-	4885. haemagglutinin
-	4886. haemangioblastoma
-	4887. haemangioma
-	4888. Haemaphysalis
-	4889. haemarthrosis
-	4890. haematemesis
+	4881. [[habitus]]
+	4882. [[haem]]
+	4883. [[haem-]]
+	4884. [[haemagglutination]]
+	4885. [[haemagglutinin]]
+	4886. [[haemangioblastoma]]
+	4887. [[haemangioma]]
+	4888. [[Haemaphysalis]]
+	4889. [[haemarthrosis]]
+	4890. [[haematemesis]]
 	
 	4891. haemathidrosis
-	4892. haematin
-	4893. haematinic
-	4894. haematochesia
-	4895. haematocoele
-	4896. haematocolpos
+		1. (haematidrosis) $n$. see HAEMATOHIDROSIS.
+	4892. [[haematin]]
+	4893. [[haematinic]]
+	4894. [[haematochesia]]
+	4895. [[haematocoele]]
+	4896. [[haematocolpos]]
 	4897. haematocrit
-	4898. haematocyst
-	4899. haematogenous
-	4900. haematohidrosis
+		1. $n$. see PACKED CELL VOLUME.
+	4898. [[haematocyst]]
+	4899. [[haematogenous]]
+	4900. [[haematohidrosis]]
 	
-	4901. Haematological reference values
-	4902. haematology
-	4903. haematoma
-	4904. haematometra
-	4905. haematomyelia
+	4901. 
+	4902. [[haematology]]
+	4903. [[haematoma]]
+	4904. [[haematometra]]
+	4905. [[haematomyelia]]
 	4906. haematopoiesis
-	4907. haematoporphyrin
-	4908. haematosalpinx
-	4909. haematospermia
-	4910. haematoxylin
+		1. $n$. see HAEMOPOIESIS.
+	4907. [[haematoporphyrin]]
+	4908. [[haematosalpinx]]
+	4909. [[haematospermia]]
+	4910. [[haematoxylin]]
 	
-	4911. haematuria
-	4912. haemin
+	4911. [[haematuria]]
+	4912. [[haemin]]
 	4913. haemo-
+		1. combining form. see HAEM-.
 	4914. Haemobartonella
-	4915. haemobilia
-	4916. haemochromatosis
-	4917. haemoconcentration
-	4918. haemocytometer
-	4919. haemodiafiltration
-	4920. haemodialysis
+		1. n. see BARTONELLA.
+	4915. [[haemobilia]]
+	4916. [[haemochromatosis]]
+	4917. [[haemoconcentration]]
+	4918. [[haemocytometer]]
+	4919. [[haemodiafiltration]]
+	4920. [[haemodialysis]]
 	
-	4921. haemodilution
-	4922. haemofiltration
-	4923. haemoglobin
+	4921. [[haemodilution]]
+	4922. [[haemofiltration]]
+	4923. [[haemoglobin]]
 	4924. haemoglobin A1c
-	4925. haemoglobinometer
-	4926. haemoglobinopathy
-	4927. haemoglobinuria
-	4928. haemogram
-	4929. haemolysin
-	4930. haemolysis
+		1. $\mathbf{A}_{1 \mathrm{c}}$ see GLYCATED HAEMOGLOBIN.
+	4925. [[haemoglobinometer]]
+	4926. [[haemoglobinopathy]]
+	4927. [[haemoglobinuria]]
+	4928. [[haemogram]]
+	4929. [[haemolysin]]
+	4930. [[haemolysis]]
 	
-	4931. haemolytic
-	4932. haemolytic disease of the newborn
-	4933. haemolytic uraemic syndrome
-	4934. haemoperfusion
-	4935. haemopericardium
-	4936. haemoperitoneum
-	4937. haemophilia
-	4938. Haemophilus
-	4939. haemophthalmia
-	4940. haemopneumothorax
+	4931. [[haemolytic]]
+	4932. [[haemolytic disease of the newborn]]
+	4933. [[haemolytic uraemic syndrome]]
+	4934. [[haemoperfusion]]
+	4935. [[haemopericardium]]
+	4936. [[haemoperitoneum]]
+	4937. [[haemophilia]]
+	4938. [[Haemophilus]]
+	4939. [[haemophthalmia]]
+	4940. [[haemopneumothorax]]
 	
-	4941. haemopoiesis
-	4942. haemopoietic stem cell
-	4943. haemoptysis
-	4944. haemorrhage
-	4945. haemorrhagic
-	4946. haemorrhagic disease of the newborn
-	4947. haemorrhoidectomy
-	4948. haemorrhoids
+	4941. [[haemopoiesis]]
+	4942. [[haemopoietic stem cell]]
+	4943. [[haemoptysis]]
+	4944. [[haemorrhage]]
+	4945. [[haemorrhagic]]
+	4946. [[haemorrhagic disease of the newborn]]
+	4947. [[haemorrhoidectomy]]
+	4948. [[haemorrhoids]]
 	4949. haemosalpinx
-	4950. haemosiderin
+		1. $n$. see HAEMATOSALPINX.
+	4950. [[haemosiderin]]
 	
-	4951. haemosiderosis
-	4952. haemostasis
-	4953. haemostatic
-	4954. haemothorax
-	4955. haemozoin
-	4956. hair
+	4951. [[haemosiderosis]]
+	4952. [[haemostasis]]
+	4953. [[haemostatic]]
+	4954. [[haemothorax]]
+	4955. [[haemozoin]]
+	4956. [[hair]]
 	4957. hairball
-	4958. hair follicle
-	4959. hair papilla
-	4960. hairy cell
+		1. $n$. see TRICHOBEZOAR.
+	4958. [[hair follicle]]
+	4959. [[hair papilla]]
+	4960. [[hairy cell]]
 	
-	4961. halfway house
-	4962. halitosis
+	4961. [[halfway house]]
+	4962. [[halitosis]]
 	4963. Hallpike test
-	4964. hallucination
-	4965. hallucinogen
-	4966. hallux
-	4967. hallux rigidus
-	4968. hallux valgus
-	4969. hallux varus
-	4970. haloes
+		1. see Dix-Hallpike test.
+	4964. [[hallucination]]
+	4965. [[hallucinogen]]
+	4966. [[hallux]]
+	4967. [[hallux rigidus]]
+	4968. [[hallux valgus]]
+	4969. [[hallux varus]]
+	4970. [[haloes]]
 	
-	4971. haloperidol
-	4972. halophilic
-	4973. hamartoma
-	4974. hamate bone
-	4975. Hamman's sign
-	4976. hammer((in anatomy))
-	4977. hammer toe
-	4978. hamstring
-	4979. hamulus
-	4980. HAN
+	4971. [[haloperidol]]
+	4972. [[halophilic]]
+	4973. [[hamartoma]]
+	4974. [[hamate bone]]
+	4975. [[Hamman's sign]]
+	4976. hammer
+		1. $n$. (in anatomy) see MALLEUS.
+	4977. [[hammer toe]]
+	4978. [[hamstring]]
+	4979. [[hamulus]]
+	4980. [[HAN]]
 	
-	4981. hand
-	4982. hand, foot, and mouth disease
+	4981. [[hand]]
+	4982. [[hand, foot, and mouth disease]]
 	4983. hand-foot syndrome
+		1. see PALMOPLANTAR ERYTHRODYSAESTHESIA.
 	4984. Hand-Schüller-Christian disease
-	4985. handedness
-	4986. handicap
+		1. see LANGERHANS CELL HISTIOCYTOSIS. \[A. Hand (1868-1949), US paediatrician; A. Schüller (1874-1958), Austrian neurologist; H. A. Christian (1876-1951), US physician]
+	4985. [[handedness]]
+	4986. [[handicap]]
 	4987. Hansen's bacillus
+		1. see Mycobacterium. \[G. H. A. Hansen (1841-1912), Norwegian physician]
 	4988. Hansen's disease
-	4989. hantavirus
-	4990. haploid
+		1. see LEPROSY.
+	4989. [[hantavirus]]
+	4990. [[haploid]]
 	
-	4991. haplotype
+	4991. [[haplotype]]
 	4992. happy puppet syndrome
-	4993. hapt-
+		1. see Angelman Syndrome.
+	4993. [[hapt-]]
 	4994. hapten
-	4995. haptoglobin
-	4996. harara
+		1. $n$. see ANTIGEN.
+	4995. [[haptoglobin]]
+	4996. [[harara]]
 	4997. harelip
-	4998. harlequin colour change
-	4999. harm
-	5000. Harrison's sulcus
+		1. $n$. see CLEFT LIP.
+	4998. [[harlequin color change]]
+	4999. [[harm]]
+	5000. [[Harrison's sulcus]]
 	
-	5001. Hartmann's operation
-	5002. Hartmann's pouch
-	5003. Hartmann's solution
-	5004. Hartnup disease
+	5001. [[Hartmann's operation]]
+	5002. [[Hartmann's pouch]]
+	5003. [[Hartmann's solution]]
+	5004. [[Hartnup disease]]
 	5005. harvest mite
-	5006. Hashimoto's disease
+		1. see Trombicula.
+	5006. [[Hashimoto's disease]]
 	5007. hashish
-	5008. Hasson technique
-	5009. haustrum
-	5010. Haversian canal
+		1. $n$. see CANNABIS.
+	5008. [[Hasson technique]]
+	5009. [[haustrum]]
+	5010. [[Haversian canal]]
 	
-	5011. Haversian system
-	5012. hay fever
-	5013. hazardous substance((in occupational health))
+	5011. [[Haversian system]]
+	5012. [[hay fever]]
+	5013. hazardous substance
+		1. (in occupational health) see COSHH.
 	5014. HbA1c
+		1. see GLYCATED HAEMOGLOBIN.
 	5015. hCG
+		1. see HUMAN CHORIONIC GONADOTROPHIN.
 	5016. HDL
+		1. see HIGH-DENSITY LIPOPROTEIN.
 	5017. HDU
-	5018. head
-	5019. headache
-	5020. head injury
+		1. see HIGH-DEPENDENCY UNIT.
+	5018. [[head]]
+	5019. [[headache]]
+	5020. [[head injury]]
 	
-	5021. head tilt, chin lift
-	5022. Heaf test
-	5023. healing
-	5024. health
-	5025. health-adjusted life expectancy
-	5026. health-care commissioning
-	5027. Health and Safety Executive((in Britain))
-	5028. Health and Social Care Information Centre
-	5029. health and wellbeing board
+	5021. [[head tilt, chin lift]]
+	5022. [[Heaf test]]
+	5023. [[healing]]
+	5024. [[health]]
+	5025. [[health-adjusted life expectancy]]
+	5026. [[health-care commissioning]]
+	5027. [[Health and Safety Executive]]
+	5028. [[Health and Social Care Information Centre]]
+	5029. [[health and wellbeing board]]
 	5030. health authority
+		1. see National Health Service.
 	
-	5031. health board
+	5031. [[health board]]
 	5032. health care
-	5033. health centre((in Britain))
-	5034. health education
-	5035. Health Education England
-	5036. health impact assessment
-	5037. health inequalities
-	5038. health maintenance organization
-	5039. health needs assessment
-	5040. health promotion
+		1. see PRIMARY CARE; SECONDARY CARE; TERTIARY CARE.
+	5033. [[health centre]]
+	5034. [[health education]]
+	5035. [[Health Education England]]
+	5036. [[health impact assessment]]
+	5037. [[health inequalities]]
+	5038. [[health maintenance organization]]
+	5039. [[health needs assessment]]
+	5040. [[health promotion]]
 	
-	5041. health protection
-	5042. Health Protection Agency
-	5043. Health Research Authority
-	5044. health service manager
-	5045. health service planning
-	5046. health visitor
-	5047. Healthwatch England
-	5048. hearing aid
+	5041. [[health protection]]
+	5042. [[Health Protection Agency]]
+	5043. [[Health Research Authority]]
+	5044. [[health service manager]]
+	5045. [[health service planning]]
+	5046. [[health visitor]]
+	5047. [[Healthwatch England]]
+	5048. [[hearing aid]]
 	5049. hearing loss
-	5050. hearing therapy
+		1. see DEAFNESS.
+	5050. [[hearing therapy]]
 	
-	5051. heart
+	5051. [[heart]]
 	5052. heart-lung machine
 	5053. heart age
 	5054. heart attack
