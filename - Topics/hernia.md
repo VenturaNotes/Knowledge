@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. the protrusion of an organ or tissue out of the body cavity in which it normally lies. An inguinal hernia (or rupture) occurs in the lower abdomen; a sac of peritoneum, containing fat or part of the bowel, bulges through a weak part (inguinal canal) of the abdominal wall. It may result from physical straining or coughing. A scrotal hernia is an inguinal hernia so large that it passes into the scrotum; a femoral hernia is similar to an inguinal hernia but protrudes at the top of the thigh, through the point at which the femoral artery passes from the abdomen to the thigh. Other hernias of the abdominal wall include periumbilical, epigastric, and postsurgical hernias. A diaphragmatic hernia is the protrusion of an abdominal organ through the diaphragm into the chest cavity; the most common type is the hiatus hernia, in which the stomach passes partly or completely into the chest cavity through the opening (hiatus) for the oesophagus. This may be associated with gastro-oesophageal reflux, although most patients have no symptoms.
+- Hernias may be complicated by becoming impossible to return to their normal site (irreducible); swollen and fixed within their sac (incarcerated); or cut off from their blood supply, becoming painful and eventually gangrenous (strangulated). The best treatment for hernias, especially if they are painful, is surgical repair (see HERNIOPLASTY).
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
