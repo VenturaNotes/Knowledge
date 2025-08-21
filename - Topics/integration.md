@@ -6,7 +6,10 @@
 - (1) The combination of different economic activities under unified control. This may involve vertical integration, that is, either backward integration, where a business is combined with one supplying its inputs, or forward integration, where a business is combined with one using its outputs. It may also involve horizontal integration, where a business is combined with another which may use the same suppliers or sell in the same markets. See also BACKWARD INTEGRATION; FORWARD INTEGRATION; HORIZONTAL INTEGRATION; VERTICAL INTEGRATION.
 - (2) The organization of economic activities so that national boundaries do not matter. The European Union and the North American Free Trade Agreement are examples of integration. Complete economic integration would imply free trade in all goods and services, perfect capital mobility, complete freedom of migration, complete freedom of establishment for businesses, and an unhindered flow of information and ideas. It would also imply the elimination of national differences in taxation, in the financing of social services, in the rules governing competition and monopoly, and in environmental regulation; and arguably a single currency.
 - (3) In time series analysis, stationary increments in a time series process. See also ORDER OF INTEGRATION.
+## Source[^3]
+- $n$. the blending together of the nerve impulses that arrive through the thousands of synapses at a nerve cell body. Impulses from some synapses cause excitation, and from others inhibition; the overall pattern decides whether an individual nerve cell is activated to transmit a message or not.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6420,994 +6420,1148 @@ Reviewed: false
 	5050. [[hearing therapy]]
 	
 	5051. [[heart]]
-	5052. heart-lung machine
-	5053. heart age
+	5052. [[heart-lung machine]]
+	5053. [[heart age]]
 	5054. heart attack
-	5055. heart block
-	5056. heartburn
-	5057. heart failure
+		1. see MYOCARDIAL INFARCTION.
+	5055. [[heart block]]
+	5056. [[heartburn]]
+	5057. [[heart failure]]
 	5058. heart rate
-	5059. heater-probe
-	5060. heat exhaustion
+		1. see PULSE.
+	5059. [[heater-probe]]
+	5060. [[heat exhaustion]]
 	
-	5061. heatstroke
-	5062. heavy-chain disease
-	5063. hebephrenia
-	5064. Heberden's node
-	5065. hectic
-	5066. hecto-prefix denoting
+	5061. [[heatstroke]]
+	5062. [[heavy-chain disease]]
+	5063. [[hebephrenia]]
+	5064. [[Heberden's node]]
+	5065. [[hectic]]
+	5066. [[hecto-]]
 	5067. HEE
-	5068. heel
+		1. see Health Education England.
+	5068. [[heel]]
 	5069. heel-prick blood test
-	5070. Heerfordt's syndrome
+		1. see Guthrie TEST.
+	5070. [[Heerfordt's syndrome]]
 	
 	5071. HEFNEF
-	5072. Hegar's sign
+		1. heart failure with normal ejection fraction: see DIASTOLIC DYSFUNCTION.
+	5072. [[Hegar's sign]]
 	5073. Heimlich manoeuvre
-	5074. helc-
-	5075. Helicobacter
+		1. see ABDOMINAL THRUSTS. \[H. J. Heimlich (19202016), US physician]
+	5074. [[helc-]]
+	5075. [[Helicobacter]]
 	5076. helicopter-based emergency medical services
-	5077. helicotrema
-	5078. helio-
-	5079. heliotherapy
-	5080. heliotrope rash
+		1. see HEMS.
+	5077. [[helicotrema]]
+	5078. [[helio-]]
+	5079. [[heliotherapy]]
+	5080. [[heliotrope rash]]
 	
-	5081. helix
+	5081. [[helix]]
 	5082. Heller's operation
-	5083. Heller's test
-	5084. HELLP syndrome
-	5085. Helly's fluid
-	5086. helminth
-	5087. helminthiasis
-	5088. helminthology
-	5089. helper T cell
+		1. see ACHALASIA. \[E. Heller (1877-1964), Austrian pathologist]
+	5083. [[Heller's test]]
+	5084. [[HELLP syndrome]]
+	5085. [[Helly's fluid]]
+	5086. [[helminth]]
+	5087. [[helminthiasis]]
+	5088. [[helminthology]]
+	5089. [[helper T cell]]
 	5090. hemeralopia
+		1. $n$. see DAY BLINDNESS.
 	
-	5091. hemi-prefix denoting((in medicine))
-	5092. hemiachromatopsia
-	5093. hemianopia
+	5091. [[hemi-]]
+	5092. [[hemiachromatopsia]]
+	5093. [[hemianopia]]
 	5094. hemiarthroplasty
+		1. $n$. see ARTHROPLASTY.
 	5095. hemiballismus
-	5096. hemicolectomy
-	5097. hemicrania
-	5098. hemifacial spasm
-	5099. hemihypertrophy
-	5100. hemimelia
+		1. $n$. see BALLISM.
+	5096. [[hemicolectomy]]
+	5097. [[hemicrania]]
+	5098. [[hemifacial spasm]]
+	5099. [[hemihypertrophy]]
+	5100. [[hemimelia]]
 	
 	5101. hemiparesis
-	5102. hemiplegia
-	5103. hemisacralization
-	5104. hemispatial neglect
-	5105. hemisphere
-	5106. hemizygous
-	5107. hemlock
+		1. $n$. see HEMIPLEGIA.
+	5102. [[hemiplegia]]
+	5103. [[hemisacralization]]
+	5104. [[hemispatial neglect]]
+	5105. [[hemisphere]]
+	5106. [[hemizygous]]
+	5107. [[hemlock]]
 	5108. hemp
-	5109. HEMS
-	5110. Henle's loop
+		1. n. see CANNABIS.
+	5109. [[HEMS]]
+	5110. [[Henle's loop]]
 	
-	5111. Henoch-Schönlein purpura
-	5112. henry
-	5113. Henry equation
-	5114. Hensen's node
-	5115. heparin
-	5116. hepat-
-	5117. hepatalgia
-	5118. hepatectomy
-	5119. hepatic
+	5111. [[Henoch-Schönlein purpura]]
+	5112. [[henry]]
+	5113. [[Henry equation]]
+	5114. [[Hensen's node]]
+	5115. [[heparin]]
+	5116. [[hepat-]]
+	5117. [[hepatalgia]]
+	5118. [[hepatectomy]]
+	5119. [[hepatic]]
 	5120. hepatic duct
+		1. see BILE DUCT.
 	
-	5121. hepatic encephalopathy
-	5122. hepatic flexure
-	5123. hepaticostomy
-	5124. hepatic vein
-	5125. hepatitis
-	5126. hepatization
+	5121. [[hepatic encephalopathy]]
+	5122. [[hepatic flexure]]
+	5123. [[hepaticostomy]]
+	5124. [[hepatic vein]]
+	5125. [[hepatitis]]
+	5126. [[hepatization]]
 	5127. hepato-
-	5128. hepatoblastoma
-	5129. hepatocellular
-	5130. hepatocyte
+		1. combining form. see HEPAT-.
+	5128. [[hepatoblastoma]]
+	5129. [[hepatocellular]]
+	5130. [[hepatocyte]]
 	
-	5131. hepatoma
-	5132. hepatomegaly
-	5133. hepatorenal syndrome
-	5134. hepatotoxic
-	5135. hepcidin
-	5136. hept-prefix denoting
-	5137. HER2
-	5138. herbal medicine
+	5131. [[hepatoma]]
+	5132. [[hepatomegaly]]
+	5133. [[hepatorenal syndrome]]
+	5134. [[hepatotoxic]]
+	5135. [[hepcidin]]
+	5136. [[hept-]]
+	5137. [[HER2]]
+	5138. [[herbal medicine]]
 	5139. Herceptin
-	5140. herd immunity
+		1. see TRASTUZUMAB.
+	5140. [[herd immunity]]
 	
-	5141. hereditary
+	5141. [[hereditary]]
 	5142. hereditary multiple exostoses
-	5143. hereditary nonpolyposis colorectal cancer
-	5144. hereditary periodic fever syndromes
-	5145. heredity
-	5146. heredo-
-	5147. Hering-Breuer reflex
-	5148. hermaphrodite
-	5149. hermeneutics
-	5150. hernia
+		1. see EXOSTOSIS.
+	5143. [[hereditary nonpolyposis colorectal cancer]]
+	5144. [[hereditary periodic fever syndromes]]
+	5145. [[heredity]]
+	5146. [[heredo-]]
+	5147. [[Hering-Breuer reflex]]
+	5148. [[hermaphrodite]]
+	5149. [[hermeneutics]]
+	5150. [[hernia]]
 	
-	5151. hernia-en-glissade
-	5152. hernio-
-	5153. hernioplasty
-	5154. herniorrhaphy
-	5155. herniotomy
-	5156. heroic measures
-	5157. heroin
+	5151. [[hernia-en-glissade]]
+	5152. [[hernio-]]
+	5153. [[hernioplasty]]
+	5154. [[herniorrhaphy]]
+	5155. [[herniotomy]]
+	5156. [[heroic measures]]
+	5157. [[heroin]]
 	5158. heroin-associated nephropathy
-	5159. herpangina
-	5160. herpes
+		1. see HAN.
+	5159. [[herpangina]]
+	5160. [[herpes]]
 	
-	5161. herpesvirus
-	5162. hertz
+	5161. [[herpesvirus]]
+	5162. [[hertz]]
 	5163. Herxheimer reaction
-	5164. hesitation
-	5165. heter-
-	5166. heterochromatin
-	5167. heterochromia
-	5168. heterogametic
-	5169. heterogeneity((in oncology))
+		1. see JARISCH-HERXHEIMER REACTION.
+	5164. [[hesitation]]
+	5165. [[heter-]]
+	5166. [[heterochromatin]]
+	5167. [[heterochromia]]
+	5168. [[heterogametic]]
+	5169. [[heterogeneity]]
 	5170. heterograft
+		1. $n$. see XENOGRAFT.
 	
-	5171. heterophoria
-	5172. Heterophyes
-	5173. heterophyiasis
-	5174. heteropsia
-	5175. heterosis
-	5176. heterotopia
+	5171. [[heterophoria]]
+	5172. [[Heterophyes]]
+	5173. [[heterophyiasis]]
+	5174. [[heteropsia]]
+	5175. [[heterosis]]
+	5176. [[heterotopia]]
 	5177. heterotopic transplantation
-	5178. heterotrophic
+		1. see ORTHOTOPIC TRANSPLANTATION.
+	5178. [[heterotrophic]]
 	5179. heterotropia
-	5180. heterozygous
+		1. n. see STRABISMUS.
+	5180. [[heterozygous]]
 	
-	5181. hex-
+	5181. [[hex-]]
 	5182. hexacanth
-	5183. hexachromia
+		1. $n$. see ONCOSPHERE.
+	5183. [[hexachromia]]
 	5184. hexamine
-	5185. hexokinase
-	5186. hexosamine
-	5187. hexose
+		1. $n$. see METHENAMINE.
+	5185. [[hexokinase]]
+	5186. [[hexosamine]]
+	5187. [[hexose]]
 	5188. HHS
+		1. see Department of Health and Human Services.
 	5189. HIA
+		1. see HEALTH IMPACT ASSESSMENT.
 	5190. 5-HIAA
+		1. see 5-HYDROXYINDOLEACETIC ACID.
 	
-	5191. hiatus
+	5191. [[hiatus]]
 	5192. hiatus hernia
-	5193. Hib/MenC
-	5194. hibernating myocardium
-	5195. Hib vaccine
-	5196. hiccup
-	5197. Hickman catheter
-	5198. hidr-
-	5199. hidradenitis suppurativa
-	5200. hidrosis
+		1. see HERNIA.
+	5193. [[Hib-MenC]]
+	5194. [[hibernating myocardium]]
+	5195. [[Hib vaccine]]
+	5196. [[hiccup]]
+	5197. [[Hickman catheter]]
+	5198. [[hidr-]]
+	5199. [[hidradenitis suppurativa]]
+	5200. [[hidrosis]]
 	
-	5201. hidrotic
+	5201. [[hidrotic]]
 	5202. HIE
-	5203. HIFU
-	5204. high-density lipoprotein
-	5205. high-dependency unit
+		1. see HYPOXIC-ISCHAEMIC ENCEPHALOPATHY.
+	5203. [[HIFU]]
+	5204. [[high-density lipoprotein]]
+	5205. [[high-dependency unit]]
 	5206. high-intensity focused ultrasound
-	5207. hilar cell tumour
-	5208. hilum
-	5209. hindbrain
-	5210. hindgut
+		1. see HIFU; ULTRASOUND.
+	5207. [[hilar cell tumor]]
+	5208. [[hilum]]
+	5209. [[hindbrain]]
+	5210. [[hindgut]]
 	
-	5211. hindquarter amputation
+	5211. [[hindquarter amputation]]
 	5212. hinge joint
-	5213. hip
-	5214. hip bone
+		1. see GINGLYMUS.
+	5213. [[hip]]
+	5214. [[hip bone]]
 	5215. hip girdle
-	5216. hip joint
-	5217. Hippelates
-	5218. hippocampal formation
-	5219. hippocampus
-	5220. Hippocratic oath
+		1. see PELVIC GIRDLE.
+	5216. [[hip joint]]
+	5217. [[Hippelates]]
+	5218. [[hippocampal formation]]
+	5219. [[hippocampus]]
+	5220. [[Hippocratic oath]]
 	
-	5221. Hippuran
-	5222. hippus
-	5223. hip replacement
-	5224. Hirschsprung's disease
-	5225. hirsutism
-	5226. hirudin
-	5227. hist-
-	5228. histaminase
-	5229. histamine
-	5230. histamine acid phosphate
+	5221. [[Hippuran]]
+	5222. [[hippus]]
+	5223. [[hip replacement]]
+	5224. [[Hirschsprung's disease]]
+	5225. [[hirsutism]]
+	5226. [[hirudin]]
+	5227. [[hist-]]
+	5228. [[histaminase]]
+	5229. [[histamine]]
+	5230. [[histamine acid phosphate]]
 	
-	5231. histidine
-	5232. histiocyte
-	5233. histiocytoma
-	5234. histiocytosis
-	5235. histochemistry
-	5236. histocompatibility
-	5237. histogenesis
-	5238. histogram
-	5239. histoid
-	5240. histology
+	5231. [[histidine]]
+	5232. [[histiocyte]]
+	5233. [[histiocytoma]]
+	5234. [[histiocytosis]]
+	5235. [[histochemistry]]
+	5236. [[histocompatibility]]
+	5237. [[histogenesis]]
+	5238. [[histogram]]
+	5239. [[histoid]]
+	5240. [[histology]]
 	
-	5241. histone
-	5242. Histoplasma
-	5243. histoplasmin
-	5244. histoplasmosis
-	5245. histotoxic
-	5246. histrionic personality disorder
-	5247. HIV
-	5248. HIVAN
+	5241. [[histone]]
+	5242. [[Histoplasma]]
+	5243. [[histoplasmin]]
+	5244. [[histoplasmosis]]
+	5245. [[histotoxic]]
+	5246. [[histrionic personality disorder]]
+	5247. [[HIV]]
+	5248. [[HIVAN]]
 	5249. hives
-	5250. HLA system
+		1. $n$. see URTICARIA.
+	5250. [[HLA system]]
 	
-	5251. HMG CoA reductase
+	5251. [[HMG CoA reductase]]
 	5252. HNA
+		1. see HEALTH NEEDS ASSESSMENT.
 	5253. HNPCC
-	5254. hoarding disorder
-	5255. hobnail liver
-	5256. Hodgkin's disease
-	5257. Hoffmann's sign
+		1. see HEREDITARY NONPOLYPOSIS COLORECTAL CANCER.
+	5254. [[hoarding disorder]]
+	5255. [[hobnail liver]]
+	5256. [[Hodgkin's disease]]
+	5257. [[Hoffmann's sign]]
 	5258. hole in the heart
-	5259. holistic
-	5260. Hollister ring
+		1. see SEPTAL DEFECT.
+	5259. [[holistic]]
+	5260. [[Hollister ring]]
 	
 	5261. Holmes-Adie syndrome
-	5262. holmium:YAG laser
-	5263. holo-
-	5264. holocrine
-	5265. Homans' sign
+		1. see Adie's Syndrome.
+	5262. [[holmium-YAG laser]]
+	5263. [[holo-]]
+	5264. [[holocrine]]
+	5265. [[Homans' sign]]
 	5266. home delivery
+		1. see COMMUNITY MIDWIFE.
 	5267. home help
-	5268. homeo-
-	5269. homeopathy
-	5270. homeostasis
+		1. see CARE ASSISTANT.
+	5268. [[homeo-]]
+	5269. [[homeopathy]]
+	5270. [[homeostasis]]
 	
 	5271. home visit
-	5272. homo-
-	5273. homocysteine
-	5274. homocystinuria
+		1. see DOMICILIARY CONSULTATION.
+	5272. [[homo-]]
+	5273. [[homocysteine]]
+	5274. [[homocystinuria]]
 	5275. homoeopathy
-	5276. homogametic
-	5277. homogenize
-	5278. homogentisic acid
+		1. $n$. see HOMEOPATHY.
+	5276. [[homogametic]]
+	5277. [[homogenize]]
+	5278. [[homogentisic acid]]
 	5279. homograft
-	5280. homoiothermic
+		1. $n$. see ALLOGRAFT.
+	5280. [[homoiothermic]]
 	
 	5281. homolateral
-	5282. homologous
-	5283. homonymous
-	5284. homozygous
-	5285. homunculus
-	5286. honeycomb lung
+		1. adj. see IPSILATERAL.
+	5282. [[homologous]]
+	5283. [[homonymous]]
+	5284. [[homozygous]]
+	5285. [[homunculus]]
+	5286. [[honeycomb lung]]
 	5287. HONK
-	5288. hook
-	5289. hookworm
-	5290. hookworm disease
+		1. see HYPEROSMOLAR HYPERGLYCAEMIC STATE.
+	5288. [[hook]]
+	5289. [[hookworm]]
+	5290. [[hookworm disease]]
 	
 	5291. hordeolum
-	5292. horizontal transmission
-	5293. hormone
-	5294. hormone-binding globulins
-	5295. hormone replacement therapy
-	5296. horn((in anatomy))
-	5297. Horner's syndrome
-	5298. horseshoe kidney
-	5299. hospice
-	5300. hospital
+		1. $n$. see STYE.
+	5292. [[horizontal transmission]]
+	5293. [[hormone]]
+	5294. [[hormone-binding globulins]]
+	5295. [[hormone replacement therapy]]
+	5296. [[horn]]
+	5297. [[Horner's syndrome]]
+	5298. [[horseshoe kidney]]
+	5299. [[hospice]]
+	5300. [[hospital]]
 	
-	5301. Hospital Episode Statistics((in England))
+	5301. [[Hospital Episode Statistics]]
 	5302. hospital fatality rate
+		1. see CASE FATALITY RATE.
 	5303. hospital infection
-	5304. hospital social worker
-	5305. host
-	5306. Hounsfield unit
-	5307. hourglass stomach
-	5308. House-Brackmann facial nerve grading system
+		1. see NOSOCOMIAL INFECTION.
+	5304. [[hospital social worker]]
+	5305. [[host]]
+	5306. [[Hounsfield unit]]
+	5307. [[hourglass stomach]]
+	5308. [[House-Brackmann facial nerve grading system]]
 	5309. house-dust mite
-	5310. housemaid's knee
+		1. see DERMATOPHAGOIDES.
+	5310. [[housemaid's knee]]
 	
 	5311. HPV
+		1. see HUMAN PAPILLOMAVIRUS.
 	5312. HRT
+		1. see HORMONE REPLACEMENT THERAPY.
 	5313. HSE
+		1. see Health and Safety Executive.
 	5314. 5HT
-	5315. 5HT1 agonist
-	5316. HTLV
+		1. 5-hydroxytryptamine (see SEROTONIN).
+	5315. [[5HT_1 agonist]]
+	5316. [[HTLV]]
 	5317. HU
-	5318. Hudson-Stähli line
+		1. see Hounsfield unit.
+	5318. [[Hudson-Stähli line]]
 	5319. Hughes syndrome
-	5320. human chorionic gonadotrophin
+		1. see ANTIPHOSPHOLIPID ANTIBODY SYNDROME. \[G. Hughes (21st century), British physician]
+	5320. [[human chorionic gonadotrophin]]
 	
 	5321. human chorionic somatomammotrophin
-	5322. Human Fertilisation and Embryology Acts
-	5323. Human Genome Project
+		1. see HUMAN PLACENTAL LACTOGEN.
+	5322. [[Human Fertilisation and Embryology Acts]]
+	5323. [[Human Genome Project]]
 	5324. human immunodeficiency virus
-	5325. humanity
+		1. see HIV
+	5325. [[humanity]]
 	5326. human leucocyte antigen system
-	5327. human menopausal gonadotrophins
-	5328. human papillomavirus
-	5329. human placental lactogen
-	5330. human rights
+		1. see HLA SYSTEM.
+	5327. [[human menopausal gonadotrophins]]
+	5328. [[human papillomavirus]]
+	5329. [[human placental lactogen]]
+	5330. [[human rights]]
 	
-	5331. Human Tissue Authority
-	5332. humectant
-	5333. humerus
-	5334. humoral
-	5335. humour
+	5331. [[Human Tissue Authority]]
+	5332. [[humectant]]
+	5333. [[humerus]]
+	5334. [[humoral]]
+	5335. [[humour]]
 	5336. hunchback deformity
+		1. see KYPHOS.
 	5337. Hunner's ulcer
-	5338. Hunter's syndrome
-	5339. Huntington's disease
-	5340. Hurler's syndrome
+		1. see INTERSTITIAL CYSTITIS. \[G. L. Hunner (1868-1957), US urologist]
+	5338. [[Hunter's syndrome]]
+	5339. [[Huntington's disease]]
+	5340. [[Hurler's syndrome]]
 	
-	5341. Hürthle cell tumour
-	5342. Hutchinson's teeth
-	5343. hyal-
-	5344. hyalin
-	5345. hyaline cartilage
+	5341. [[Hürthle cell tumor]]
+	5342. [[Hutchinson's teeth]]
+	5343. [[hyal-]]
+	5344. [[hyalin]]
+	5345. [[hyaline cartilage]]
 	5346. hyaline membrane disease
-	5347. hyalitis
-	5348. hyaloid artery
-	5349. hyaloid canal
-	5350. hyaloid membrane
+		1. see RESPIRATORY DISTRESS SYNDROME.
+	5347. [[hyalitis]]
+	5348. [[hyaloid artery]]
+	5349. [[hyaloid canal]]
+	5350. [[hyaloid membrane]]
 	
-	5351. hyaluronic acid
-	5352. hyaluronidase
-	5353. hybrid
-	5354. hybridomas
-	5355. HYCOSY
-	5356. hydatid
-	5357. hydatid disease
-	5358. hydatidiform mole
+	5351. [[hyaluronic acid]]
+	5352. [[hyaluronidase]]
+	5353. [[hybrid]]
+	5354. [[hybridomas]]
+	5355. [[HYCOSY]]
+	5356. [[hydatid]]
+	5357. [[hydatid disease]]
+	5358. [[hydatidiform mole]]
 	5359. hydatidosis
-	5360. hydr-
+		1. $n$. see HYDATID DISEASE.
+	5360. [[hydr-]]
 	
-	5361. hydraemia
-	5362. hydralazine
+	5361. [[hydraemia]]
+	5362. [[hydralazine]]
 	5363. hydramnios
+		1. $n$. see POLYHYDRAMNIOS.
 	5364. hydrargyria
-	5365. hydrarthrosis
+		1. $n$. see MERCURIALISM.
+	5365. [[hydrarthrosis]]
 	5366. hydrocalycosis
-	5367. hydrocele
-	5368. hydrocephalus
-	5369. hydrochloric acid
-	5370. hydrochlorothiazide
+		1. $n$. see CALIECTASIS.
+	5367. [[hydrocele]]
+	5368. [[hydrocephalus]]
+	5369. [[hydrochloric acid]]
+	5370. [[hydrochlorothiazide]]
 	
-	5371. hydrocortisone
-	5372. hydrocyanic acid
-	5373. hydrogenase
-	5374. hydrogen bond
-	5375. hydrogen peroxide
-	5376. hydrolase
+	5371. [[hydrocortisone]]
+	5372. [[hydrocyanic acid]]
+	5373. [[hydrogenase]]
+	5374. [[hydrogen bond]]
+	5375. [[hydrogen peroxide]]
+	5376. [[hydrolase]]
 	5377. hydroma
-	5378. hydronephrosis
+		1. $n$. see HYGROMA.
+	5378. [[hydronephrosis]]
 	5379. hydropericarditis
-	5380. hydropericardium
+		1. $n$. see HYDROPERICARDIUM.
+	5380. [[hydropericardium]]
 	
 	5381. hydroperitoneum
+		1. $n$. see ASCITES.
 	5382. hydrophobia
+		1. $n$. see RABIES.
 	5383. hydrophthalmos
-	5384. hydropneumopericardium
-	5385. hydropneumoperitoneum
-	5386. hydropneumothorax
-	5387. hydrops
-	5388. hydrops fetalis
-	5389. hydrosalpinx
-	5390. hydrotherapy
+		1. $n$. see BUPHTHALMOS.
+	5384. [[hydropneumopericardium]]
+	5385. [[hydropneumoperitoneum]]
+	5386. [[hydropneumothorax]]
+	5387. [[hydrops]]
+	5388. [[hydrops fetalis]]
+	5389. [[hydrosalpinx]]
+	5390. [[hydrotherapy]]
 	
-	5391. hydrothorax
-	5392. hydrotubation
-	5393. hydroureter
-	5394. hydroxocobalamin
-	5395. hydroxyapatite
-	5396. hydroxycarbamide
-	5397. hydroxychloroquine
-	5398. 5-hydroxyindoleacetic acid
-	5399. hydroxyproline
+	5391. [[hydrothorax]]
+	5392. [[hydrotubation]]
+	5393. [[hydroureter]]
+	5394. [[hydroxocobalamin]]
+	5395. [[hydroxyapatite]]
+	5396. [[hydroxycarbamide]]
+	5397. [[hydroxychloroquine]]
+	5398. [[5-hydroxyindoleacetic acid]]
+	5399. [[hydroxyproline]]
 	5400. 5-hydroxytryptamine
+		1. $n$. see SEROTONIN.
 	
 	5401. hydroxyurea
-	5402. hydroxyzine
-	5403. hygiene
-	5404. hygr-
-	5405. hygroma
-	5406. hygrometer
-	5407. hymen
-	5408. Hymenolepis
+		1. $n$. see HYDROXYCARBAMIDE.
+	5402. [[hydroxyzine]]
+	5403. [[hygiene]]
+	5404. [[hygr-]]
+	5405. [[hygroma]]
+	5406. [[hygrometer]]
+	5407. [[hymen]]
+	5408. [[Hymenolepis]]
 	5409. hymenoplasty
-	5410. hymenotomy
+		1. n. see FEMALE GENITAL COSMETIC SURGERY.
+	5410. [[hymenotomy]]
 	
-	5411. hyo-
-	5412. hyoglossus
-	5413. hyoid bone
-	5414. hyoscine
-	5415. hyp-prefix denoting
-	5416. hypalgesia
-	5417. hyper-prefix denoting
-	5418. hyper-IgM syndrome
-	5419. hyperacusis
-	5420. hyperadrenalism
+	5411. [[hyo-]]
+	5412. [[hyoglossus]]
+	5413. [[hyoid bone]]
+	5414. [[hyoscine]]
+	5415. [[hyp-]]
+	5416. [[hypalgesia]]
+	5417. [[hyper-]]
+	5418. [[hyper-IgM syndrome]]
+	5419. [[hyperacusis]]
+	5420. [[hyperadrenalism]]
 	
-	5421. hyperaemia
-	5422. hyperaesthesia
+	5421. [[hyperaemia]]
+	5422. [[hyperaesthesia]]
 	5423. hyperaldosteronism
-	5424. hyperalgesia
-	5425. hyperandrogenism
-	5426. hyperbaric
-	5427. hyperbaric oxygenation
-	5428. hyperbilirubinaemia
-	5429. hypercalcaemia
-	5430. hypercalcaemic nephropathy
+		1. $n$. see ALDOSTERONISM.
+	5424. [[hyperalgesia]]
+	5425. [[hyperandrogenism]]
+	5426. [[hyperbaric]]
+	5427. [[hyperbaric oxygenation]]
+	5428. [[hyperbilirubinaemia]]
+	5429. [[hypercalcaemia]]
+	5430. [[hypercalcaemic nephropathy]]
 	
-	5431. hypercalcinuria
-	5432. hypercapnia
-	5433. hyperchloraemia
-	5434. hyperchlorhydria
-	5435. hypercholesterolaemia
-	5436. hyperchromatism
-	5437. hyperdactylism
-	5438. hyperdontia
-	5439. hyperdynamia
-	5440. hyperechoic((in ultrasound imaging))
+	5431. [[hypercalcinuria]]
+	5432. [[hypercapnia]]
+	5433. [[hyperchloraemia]]
+	5434. [[hyperchlorhydria]]
+	5435. [[hypercholesterolaemia]]
+	5436. [[hyperchromatism]]
+	5437. [[hyperdactylism]]
+	5438. [[hyperdontia]]
+	5439. [[hyperdynamia]]
+	5440. [[hyperechoic]]
 	
-	5441. hyperemesis gravidarum
-	5442. hyperextension
-	5443. hyperglycaemia
-	5444. hyperhidrosis
-	5445. hyperinsulinism
-	5446. hyperintense((in CT scanning))
-	5447. hyperkalaemia
-	5448. hyperkeratosis
-	5449. hyperkinesia
+	5441. [[hyperemesis gravidarum]]
+	5442. [[hyperextension]]
+	5443. [[hyperglycaemia]]
+	5444. [[hyperhidrosis]]
+	5445. [[hyperinsulinism]]
+	5446. [[hyperintense]]
+	5447. [[hyperkalaemia]]
+	5448. [[hyperkeratosis]]
+	5449. [[hyperkinesia]]
 	5450. hyperkinetic disorder
+		1. see ATTENTION-DEFICIT/HYPERACTIVITY DISORDER.
 	
-	5451. hyperlipidaemia
-	5452. hyperlipoproteinaemia
-	5453. hypermetropia
-	5454. hypermobility
-	5455. hypermotility
-	5456. hypernatraemia
+	5451. [[hyperlipidaemia]]
+	5452. [[hyperlipoproteinaemia]]
+	5453. [[hypermetropia]]
+	5454. [[hypermobility]]
+	5455. [[hypermotility]]
+	5456. [[hypernatraemia]]
 	5457. hypernephroma
+		1. n. see RENAL CELL CARCINOMA.
 	5458. hyperopia
-	5459. hyperosmia
-	5460. hyperosmolar hyperglycaemic state
+		1. $n$. the usual US term for hypermetropia.
+	5459. [[hyperosmia]]
+	5460. [[hyperosmolar hyperglycaemic state]]
 	
-	5461. hyperostosis
-	5462. hyperparathyroidism
-	5463. hyperphagia
+	5461. [[hyperostosis]]
+	5462. [[hyperparathyroidism]]
+	5463. [[hyperphagia]]
 	5464. hyperpiesia
-	5465. hyperplasia
-	5466. hyperpnoea
-	5467. hyperpraxia
+		1. $n$. see HYPERTENSION.
+	5465. [[hyperplasia]]
+	5466. [[hyperpnoea]]
+	5467. [[hyperpraxia]]
 	5468. hyperprolactinaemia
-	5469. hyperpyrexia
-	5470. hypersensitive
+		1. $n$. see PROLACTIN.
+	5469. [[hyperpyrexia]]
+	5470. [[hypersensitive]]
 	
-	5471. hypersomnia
-	5472. hypersplenism
-	5473. hypersthenia
-	5474. hypertelorism
-	5475. hypertension
-	5476. hyperthermia
-	5477. hyperthyroidism
-	5478. hypertonia
-	5479. hypertonic
-	5480. hypertrichosis
+	5471. [[hypersomnia]]
+	5472. [[hypersplenism]]
+	5473. [[hypersthenia]]
+	5474. [[hypertelorism]]
+	5475. [[hypertension]]
+	5476. [[hyperthermia]]
+	5477. [[hyperthyroidism]]
+	5478. [[hypertonia]]
+	5479. [[hypertonic]]
+	5480. [[hypertrichosis]]
 	
-	5481. hypertriglyceridaemia
-	5482. hypertrophic cardiomyopathy
-	5483. hypertrophy
+	5481. [[hypertriglyceridaemia]]
+	5482. [[hypertrophic cardiomyopathy]]
+	5483. [[hypertrophy]]
 	5484. hypertropia
-	5485. hyperuricaemia
-	5486. hyperuricuria
-	5487. hyperventilation
-	5488. hyperviscosity syndrome
-	5489. hypervitaminosis
-	5490. hypervolaemia
+		1. n. see STRABISMUS.
+	5485. [[hyperuricaemia]]
+	5486. [[hyperuricuria]]
+	5487. [[hyperventilation]]
+	5488. [[hyperviscosity syndrome]]
+	5489. [[hypervitaminosis]]
+	5490. [[hypervolaemia]]
 	
-	5491. hyphaema
-	5492. hyphedonia
-	5493. hypn-
+	5491. [[hyphaema]]
+	5492. [[hyphedonia]]
+	5493. [[hypn-]]
 	5494. hypnagogic
+		1. adj. see HALLUCINATION.
 	5495. hypnopompic
-	5496. hypnosis
-	5497. hypnotic
-	5498. hypnotism
-	5499. hypo-prefix.
-	5500. hypoadrenalism
+		1. adj. see HALLUCINATION.
+	5496. [[hypnosis]]
+	5497. [[hypnotic]]
+	5498. [[hypnotism]]
+	5499. hypo-
+		1. prefix. see HYP-.
+	5500. [[hypoadrenalism]]
 	
-	5501. hypoaesthesia
-	5502. hypobaric
-	5503. hypocalcaemia
+	5501. [[hypoaesthesia]]
+	5502. [[hypobaric]]
+	5503. [[hypocalcaemia]]
 	5504. hypocapnia
-	5505. hypochloraemia
-	5506. hypochlorhydria
-	5507. hypochondriasis
-	5508. hypochondrium
-	5509. hypocretin
-	5510. Hypoderma
+		1. $n$. see ACAPNIA.
+	5505. [[hypochloraemia]]
+	5506. [[hypochlorhydria]]
+	5507. [[hypochondriasis]]
+	5508. [[hypochondrium]]
+	5509. [[hypocretin]]
+	5510. [[Hypoderma]]
 	
-	5511. hypodermic
-	5512. hypodipsia
-	5513. hypodontia
-	5514. hypoechoic((in ultrasound imaging))
-	5515. hypofibrinogenaemia
-	5516. hypogammaglobulinaemia
-	5517. hypogastrium
-	5518. hypogeusia
-	5519. hypoglossal nerve
-	5520. hypoglycaemia
+	5511. [[hypodermic]]
+	5512. [[hypodipsia]]
+	5513. [[hypodontia]]
+	5514. [[hypoechoic]]
+	5515. [[hypofibrinogenaemia]]
+	5516. [[hypogammaglobulinaemia]]
+	5517. [[hypogastrium]]
+	5518. [[hypogeusia]]
+	5519. [[hypoglossal nerve]]
+	5520. [[hypoglycaemia]]
 	
-	5521. hypoglycaemic unawareness
-	5522. hypogonadism
+	5521. [[hypoglycaemic unawareness]]
+	5522. [[hypogonadism]]
 	5523. hypohidrosis
-	5524. hypoinsulinism
-	5525. hypointense((in CT scanning))
-	5526. hypokalaemia
-	5527. hypokalaemic nephropathy
-	5528. hypomania
-	5529. hyponatraemia
-	5530. hypoparathyroidism
+		1. $n$. see ANHIDROSIS.
+	5524. [[hypoinsulinism]]
+	5525. [[hypointense]]
+	5526. [[hypokalaemia]]
+	5527. [[hypokalaemic nephropathy]]
+	5528. [[hypomania]]
+	5529. [[hyponatraemia]]
+	5530. [[hypoparathyroidism]]
 	
-	5531. hypopharynx
-	5532. hypophysectomy
+	5531. [[hypopharynx]]
+	5532. [[hypophysectomy]]
 	5533. hypophysis
-	5534. hypophysitis
-	5535. hypopiesis
-	5536. hypopituitarism
-	5537. hypoplasia
-	5538. hypoplastic left heart
-	5539. hypoplastic leukaemia
-	5540. hypopnoea
+		1. n. see PITUITARY GLAND.
+	5534. [[hypophysitis]]
+	5535. [[hypopiesis]]
+	5536. [[hypopituitarism]]
+	5537. [[hypoplasia]]
+	5538. [[hypoplastic left heart]]
+	5539. [[hypoplastic leukaemia]]
+	5540. [[hypopnoea]]
 	
-	5541. hypoproteinaemia
-	5542. hypoprothrombinaemia
-	5543. hypopyon
-	5544. hyposensitive
+	5541. [[hypoproteinaemia]]
+	5542. [[hypoprothrombinaemia]]
+	5543. [[hypopyon]]
+	5544. [[hyposensitive]]
 	5545. hyposensitization
-	5546. hyposmia
-	5547. hypospadias
-	5548. hypostasis
-	5549. hyposthenia
-	5550. hyposthenuria
+		1. $n$. see DESENSITIZATION.
+	5546. [[hyposmia]]
+	5547. [[hypospadias]]
+	5548. [[hypostasis]]
+	5549. [[hyposthenia]]
+	5550. [[hyposthenuria]]
 	
-	5551. hypotension
-	5552. hypothalamus
-	5553. hypothenar
-	5554. hypothermia
+	5551. [[hypotension]]
+	5552. [[hypothalamus]]
+	5553. [[hypothenar]]
+	5554. [[hypothermia]]
 	5555. hypothetical imperative
-	5556. hypothyroidism
-	5557. hypotonia
-	5558. hypotonic
-	5559. hypotony
-	5560. hypotrichosis
+		1. see IMPERATIVE.
+	5556. [[hypothyroidism]]
+	5557. [[hypotonia]]
+	5558. [[hypotonic]]
+	5559. [[hypotony]]
+	5560. [[hypotrichosis]]
 	
 	5561. hypotropia
-	5562. hypoventilation
-	5563. hypovitaminosis
-	5564. hypovolaemia
-	5565. hypoxaemia
-	5566. hypoxia
-	5567. hypoxic-ischaemic encephalopathy
-	5568. hypsarrhythmia
-	5569. hyster-
-	5570. hysterectomy
+		1. n. see STRABISMUS.
+	5562. [[hypoventilation]]
+	5563. [[hypovitaminosis]]
+	5564. [[hypovolaemia]]
+	5565. [[hypoxaemia]]
+	5566. [[hypoxia]]
+	5567. [[hypoxic-ischaemic encephalopathy]]
+	5568. [[hypsarrhythmia]]
+	5569. [[hyster-]]
+	5570. [[hysterectomy]]
 	
-	5571. hysteria
-	5572. hysterical
-	5573. hysterosalphingography
-	5574. hysterosalpingography
+	5571. [[hysteria]]
+	5572. [[hysterical]]
+	5573. [[hysterosalphingography]]
+	5574. [[hysterosalpingography]]
 	5575. hysterosalpingosonography
-	5576. hysteroscopy
-	5577. hysterotomy
-	5578. -iasis
-	5579. iatro-
-	5580. iatrogenic
+		1. $n$. see HYCOSY.
+	5576. [[hysteroscopy]]
+	5577. [[hysterotomy]]
+	5578. [[-iasis]]
+	5579. [[iatro-]]
+	5580. [[iatrogenic]]
 	
 	5581. IBD
+		1. see INFLAMMATORY BOWEL DISEASE.
 	5582. IBS
-	5583. ibuprofen
+		1. see IRRITABLE BOWEL SYNDROME.
+	5583. [[ibuprofen]]
 	5584. ICD
+		1. (1) see International Classification of Diseases. The version in current use is ICD-10. 
+		2. (2) see imPlantable CARDIOVERTOR DEFIBRILLATOR.
 	5585. ICF
+		1. International Classification of Functioning, Disabilities and Health. See International Classification of Diseases.
 	5586. ICG angiography
-	5587. ichor
-	5588. ichthyosis
-	5589. icodextrin
+		1. indocyanine green angiography.
+	5587. [[ichor]]
+	5588. [[ichthyosis]]
+	5589. [[icodextrin]]
 	5590. ICSH
+		1. (interstitial-cell-stimulating hormone) see LUTEINIZING HORMONE.
 	
-	5591. ICSI
+	5591. [[ICSI]]
 	5592. icterus
-	5593. ictus
-	5594. id((in psychoanalysis))
-	5595. -id
+		1. $n$. see JAUNDICE.
+	5593. [[ictus]]
+	5594. [[id]]
+	5595. [[-id]]
 	5596. idea of reference
-	5597. ideation
+		1. see DELUSION OF REFERENCE.
+	5597. [[ideation]]
 	5598. identical twins
-	5599. ideo-
-	5600. idio-
+		1. see TWINS.
+	5599. [[ideo-]]
+	5600. [[idio-]]
 	
-	5601. idiopathic
-	5602. idiopathic intracranial hypertension
-	5603. idiopathic pulmonary fibrosis
-	5604. idiopathic thrombocytopenic purpura
-	5605. idiosyncrasy
-	5606. idiotype
-	5607. idioventricular
+	5601. [[idiopathic]]
+	5602. [[idiopathic intracranial hypertension]]
+	5603. [[idiopathic pulmonary fibrosis]]
+	5604. [[idiopathic thrombocytopenic purpura]]
+	5605. [[idiosyncrasy]]
+	5606. [[idiotype]]
+	5607. [[idioventricular]]
 	5608. IFG
-	5609. ifosfamide
+		1. impaired fasting glucose (see GLUCOSE TOLERANCE TEST).
+	5609. [[ifosfamide]]
 	5610. Ig
+		1. see IMMUNOGLOBULIN.
 	
 	5611. IgA nephropathy
-	5612. IGF
+		1. see BERGER'S NEPHROPATHY.
+	5612. [[IGF]]
 	5613. IGRT
+		1. see IMAGE-GUIDED RADIOTHERAPY.
 	5614. IGT
+		1. impaired glucose tolerance (see GLUCOSE TOLERANCE TEST).
 	5615. IL-2
-	5616. ile-
-	5617. ileal conduit
-	5618. ileal pouch
-	5619. ileectomy
-	5620. ileitis
+		1. n. see INTERLEUKIN.
+	5616. [[ile-]]
+	5617. [[ileal conduit]]
+	5618. [[ileal pouch]]
+	5619. [[ileectomy]]
+	5620. [[ileitis]]
 	
-	5621. ileocaecal valve
-	5622. ileocolitis
-	5623. ileocolostomy
+	5621. [[ileocaecal valve]]
+	5622. [[ileocolitis]]
+	5623. [[ileocolostomy]]
 	5624. ileocystoplasty
-	5625. ileorectal anastomosis
-	5626. ileostomy
-	5627. ileum
-	5628. ileus
-	5629. ili-
-	5630. iliac arteries
+		1. $n$. see CYSTOPLASTY.
+	5625. [[ileorectal anastomosis]]
+	5626. [[ileostomy]]
+	5627. [[ileum]]
+	5628. [[ileus]]
+	5629. [[ili-]]
+	5630. [[iliac arteries]]
 	
-	5631. iliacus
-	5632. iliac veins
-	5633. iliopsoas
-	5634. ilium
+	5631. [[iliacus]]
+	5632. [[iliac veins]]
+	5633. [[iliopsoas]]
+	5634. [[ilium]]
 	5635. illness
+		1. $n$. see DISEASE.
 	5636. illness anxiety disorder
-	5637. illusion
-	5638. image-guided radiotherapy
+		1. see HYPOCHONDRIA.
+	5637. [[illusion]]
+	5638. [[image-guided radiotherapy]]
 	5639. image-guided surgery
-	5640. image intensifier
+		1. see COMPUTER-ASSISTED SURGERY.
+	5640. [[image intensifier]]
 	
-	5641. imagery
-	5642. imaging((in radiology))
-	5643. imago((in psychoanalysis))
-	5644. imatinib
-	5645. imidazole
-	5646. imipramine
-	5647. imiquimod
-	5648. imitation
+	5641. [[imagery]]
+	5642. [[imaging]]
+	5643. [[imago]]
+	5644. [[imatinib]]
+	5645. [[imidazole]]
+	5646. [[imipramine]]
+	5647. [[imiquimod]]
+	5648. [[imitation]]
 	5649. immersion foot
-	5650. immobilization
+		1. see TRENCH FOOT.
+	5650. [[immobilization]]
 	
-	5651. immune
-	5652. immune response
-	5653. immune system
-	5654. immunity
-	5655. immunization
-	5656. immuno-
-	5657. immunoassay
-	5658. immunocompromised
-	5659. immunodeficiency
-	5660. immunoelectrophoresis
+	5651. [[immune]]
+	5652. [[immune response]]
+	5653. [[immune system]]
+	5654. [[immunity]]
+	5655. [[immunization]]
+	5656. [[immuno-]]
+	5657. [[immunoassay]]
+	5658. [[immunocompromised]]
+	5659. [[immunodeficiency]]
+	5660. [[immunoelectrophoresis]]
 	
-	5661. immunofluorescence
-	5662. immunogenicity
-	5663. immunoglobulin
-	5664. immunological tolerance
-	5665. immunology
-	5666. immunosuppressant
-	5667. immunosuppression
-	5668. immunotherapy
-	5669. immunotoxin
-	5670. immunotransfusion
+	5661. [[immunofluorescence]]
+	5662. [[immunogenicity]]
+	5663. [[immunoglobulin]]
+	5664. [[immunological tolerance]]
+	5665. [[immunology]]
+	5666. [[immunosuppressant]]
+	5667. [[immunosuppression]]
+	5668. [[immunotherapy]]
+	5669. [[immunotoxin]]
+	5670. [[immunotransfusion]]
 	
-	5671. impacted
+	5671. [[impacted]]
 	5672. impaired fasting glucose
+		1. (IFG) see GLUCOSE TOLERANCE TEST.
 	5673. impaired glucose tolerance
-	5674. impairment
-	5675. impalpable
-	5676. imperative
-	5677. imperforate
-	5678. imperforate anus
-	5679. impetigo
-	5680. implant
+		1. (IGT) see GLUCOSE TOLERANCE TEST.
+	5674. [[impairment]]
+	5675. [[impalpable]]
+	5676. [[imperative]]
+	5677. [[imperforate]]
+	5678. [[imperforate anus]]
+	5679. [[impetigo]]
+	5680. [[implant]]
 	
-	5681. implantable cardiovertor defibrillator
-	5682. implantable hearing aid
-	5683. implantable loop recorder
-	5684. implantation
-	5685. impotence
-	5686. impression((in dentistry))
-	5687. imprinting
-	5688. impulse((in neurology))
+	5681. [[implantable cardiovertor defibrillator]]
+	5682. [[implantable hearing aid]]
+	5683. [[implantable loop recorder]]
+	5684. [[implantation]]
+	5685. [[impotence]]
+	5686. [[impression]]
+	5687. [[imprinting]]
+	5688. impulse
+		1. $n$. (in neurology) see NERVE IMPULSE.
 	5689. IMRT
-	5690. in-
+		1. see INTENSITY-MODULATED RADIOTHERAPY.
+	5690. [[in-]]
 	
-	5691. in-patient
-	5692. in-toe gait
-	5693. inanition
-	5694. inappetence
-	5695. in articulo mortis
-	5696. inborn error of metabolism
-	5697. inbreeding
-	5698. incarcerated
-	5699. incidence rate
-	5700. incidentaloma
+	5691. [[in-patient]]
+	5692. [[in-toe gait]]
+	5693. [[inanition]]
+	5694. [[inappetence]]
+	5695. [[in articulo mortis]]
+	5696. [[inborn error of metabolism]]
+	5697. [[inbreeding]]
+	5698. [[incarcerated]]
+	5699. [[incidence rate]]
+	5700. [[incidentaloma]]
 	
-	5701. incision
-	5702. incisional hernia
-	5703. incisor
-	5704. incisure((in anatomy))
-	5705. inclusion bodies
-	5706. inclusion conjunctivitis
-	5707. income support
+	5701. [[incision]]
+	5702. [[incisional hernia]]
+	5703. [[incisor]]
+	5704. [[incisure]]
+	5705. [[inclusion bodies]]
+	5706. [[inclusion conjunctivitis]]
+	5707. [[income support]]
 	5708. incompatibility
-	5709. incompetence
-	5710. incontinence
+		1. $n$. see COMPATIBILITY.
+	5709. [[incompetence]]
+	5710. [[incontinence]]
 	
-	5711. incoordination((in neurology))
-	5712. incretin
-	5713. incubation
-	5714. incubation period
-	5715. incubator
-	5716. incus
-	5717. independent contractors((in Britain))
-	5718. Independent Mental Capacity Advocate
+	5711. [[incoordination]]
+	5712. [[incretin]]
+	5713. [[incubation]]
+	5714. [[incubation period]]
+	5715. [[incubator]]
+	5716. [[incus]]
+	5717. [[independent contractors]]
+	5718. [[Independent Mental Capacity Advocate]]
 	5719. Inderal-LA
-	5720. indican
+		1. $n$. see PROPRANOLOL.
+	5720. [[indican]]
 	
-	5721. indicanuria
-	5722. indication((in medicine))
+	5721. [[indicanuria]]
+	5722. [[indication]]
 	5723. indigestion
+		1. $n$. see DYSPEPSIA.
 	5724. indinavir
+		1. $n$. see PROTEASE INHIBITOR.
 	5725. indocyanine green angiography
-	5726. indole
-	5727. indolent
-	5728. indometacin
-	5729. indoramin
-	5730. indoxyl
+		1. see ANGIOGRAPHY.
+	5726. [[indole]]
+	5727. [[indolent]]
+	5728. [[indometacin]]
+	5729. [[indoramin]]
+	5730. [[indoxyl]]
 	
 	5731. induced abortion
+		1. see ABORTION.
 	5732. inducer
-	5733. induction
-	5734. induction loop system
-	5735. induration
-	5736. indusium
+		1. n. see DELUSION BY PROXY; DOUBLE DELUSION; FOLIE À DEUX.
+	5733. [[induction]]
+	5734. [[induction loop system]]
+	5735. [[induration]]
+	5736. [[indusium]]
 	5737. industrial disease
-	5738. industrial injuries disablement benefit
-	5739. inertia((in physiology))
-	5740. in extremis
+		1. see OCCUPATIONAL DISEASE.
+	5738. [[industrial injuries disablement benefit]]
+	5739. [[inertia]]
+	5740. [[in extremis]]
 	
-	5741. infant
-	5742. infanticide((in England and Wales))
-	5743. infantile
-	5744. infantile spasms
-	5745. infantilism
-	5746. infant mortality rate
+	5741. [[infant]]
+	5742. [[infanticide]]
+	5743. [[infantile]]
+	5744. [[infantile spasms]]
+	5745. [[infantilism]]
+	5746. [[infant mortality rate]]
 	5747. infarct
-	5748. infarction
-	5749. infection
+		1. $n$. see INFARCTION.
+	5748. [[infarction]]
+	5749. [[infection]]
 	5750. infectious disease
+		1. see COMMUNICABLE DISEASE.
 	
 	5751. infectious mononucleosis
-	5752. inferior((in anatomy))
-	5753. inferior dental block
-	5754. inferior dental canal
-	5755. inferiority complex
-	5756. infertility
-	5757. infestation
+		1. see GLANDULAR FEVER.
+	5752. [[inferior]]
+	5753. [[inferior dental block]]
+	5754. [[inferior dental canal]]
+	5755. [[inferiority complex]]
+	5756. [[infertility]]
+	5757. [[infestation]]
 	5758. infibulation
-	5759. infiltration
-	5760. inflammation
+		1. $n$. see FEMALE GENITAL MUTILATION.
+	5759. [[infiltration]]
+	5760. [[inflammation]]
 	
-	5761. inflammatory bowel disease
-	5762. infliximab
-	5763. influenza
-	5764. Information Commissioner
-	5765. informed consent
-	5766. infra-
+	5761. [[inflammatory bowel disease]]
+	5762. [[infliximab]]
+	5763. [[influenza]]
+	5764. [[Information Commissioner]]
+	5765. [[informed consent]]
+	5766. [[infra-]]
 	5767. infracolic omentectomy
-	5768. infrared radiation
-	5769. infundibulum
-	5770. infusion
+		1. see OMENTECTOMY.
+	5768. [[infrared radiation]]
+	5769. [[infundibulum]]
+	5770. [[infusion]]
 	
-	5771. ingesta
-	5772. ingestion
-	5773. ingravescent
-	5774. ingrowing toenail
-	5775. inguinal
-	5776. inguinal canal
+	5771. [[ingesta]]
+	5772. [[ingestion]]
+	5773. [[ingravescent]]
+	5774. [[ingrowing toenail]]
+	5775. [[inguinal]]
+	5776. [[inguinal canal]]
 	5777. inguinal hernia
-	5778. inguinal ligament
+		1. see HERNIA.
+	5778. [[inguinal ligament]]
 	5779. INH
-	5780. inhalation
+		1. see ISONIAZID.
+	5780. [[inhalation]]
 	
-	5781. Inherited medical conditions
+	5781. 
 	5782. inherited thrombophilias
+		1. see THROMBOPHILIA.
 	5783. inhibin
-	5784. inhibition
-	5785. inhibitor
-	5786. inion
-	5787. initiation((in oncology))
-	5788. initiator((in oncogenesis))
-	5789. injection
-	5790. injury scoring system
+		1. $n$. see ACTIVIN.
+	5784. [[inhibition]]
+	5785. [[inhibitor]]
+	5786. [[inion]]
+	5787. [[initiation]]
+	5788. [[initiator]]
+	5789. [[injection]]
+	5790. [[injury scoring system]]
 	
-	5791. inlay
-	5792. inlet
-	5793. innate
+	5791. [[inlay]]
+	5792. [[inlet]]
+	5793. [[innate]]
 	5794. inner ear
-	5795. innervation
-	5796. innominate artery
+		1. inner ear see LABYRINTH.
+	5795. [[innervation]]
+	5796. [[innominate artery]]
 	5797. innominate bone
-	5798. innominate vein
+		1. see Hip Bone
+	5798. [[innominate vein]]
 	5799. INO
-	5800. ino-
+		1. internuclear ophthalmoplegia (see OPHTHALMOPLEGIA).
+	5800. [[ino-]]
 	
-	5801. inoculation
-	5802. inoculum
-	5803. inosine pranobex
-	5804. inositol
-	5805. inositol triphosphate
-	5806. inotropic
+	5801. [[inoculation]]
+	5802. [[inoculum]]
+	5803. [[inosine pranobex]]
+	5804. [[inositol]]
+	5805. [[inositol triphosphate]]
+	5806. [[inotropic]]
 	5807. Inoue balloon
-	5808. inquest
-	5809. INR
-	5810. insanity
+		1. see MITRAL STENOSIS; VALVULOPLASTY.
+	5808. [[inquest]]
+	5809. [[INR]]
+	5810. [[insanity]]
 	
-	5811. insect
-	5812. insecticide
-	5813. insemination
-	5814. insertion((in anatomy))
-	5815. insight
-	5816. insolation
-	5817. insomnia
+	5811. [[insect]]
+	5812. [[insecticide]]
+	5813. [[insemination]]
+	5814. [[insertion]]
+	5815. [[insight]]
+	5816. [[insolation]]
+	5817. [[insomnia]]
 	5818. inspiration
-	5819. inspissated((of secretions, etc.))
-	5820. instillation
+		1. $n$. see INHALATION.
+	5819. [[inspissated]]
+	5820. [[instillation]]
 	
-	5821. instinct
-	5822. institutionalization
-	5823. insufficiency
-	5824. insufflation
-	5825. insula
-	5826. insulin
-	5827. insulin analogues
-	5828. insulinase
-	5829. insulinoma
-	5830. insulin pen
+	5821. [[instinct]]
+	5822. [[institutionalization]]
+	5823. [[insufficiency]]
+	5824. [[insufflation]]
+	5825. [[insula]]
+	5826. [[insulin]]
+	5827. [[insulin analogues]]
+	5828. [[insulinase]]
+	5829. [[insulinoma]]
+	5830. [[insulin pen]]
 	
-	5831. insulin resistance
-	5832. insulin shock
-	5833. insulin stress test
-	5834. insult
+	5831. [[insulin resistance]]
+	5832. [[insulin shock]]
+	5833. [[insulin stress test]]
+	5834. [[insult]]
 	5835. Intal
-	5836. integrated care pathway
+		1. $n$. see CROMOGLICATE.
+	5836. [[integrated care pathway]]
 	5837. integrated governance
-	5838. integration
-	5839. integrity
-	5840. integument
+		1. see CLINICAL GOVERNANCE.
+	5838. [[integration]]
+	5839. [[integrity]]
+	5840. [[integument]]
 	
-	5841. intelligence quotient
-	5842. intelligence test
-	5843. intensity-modulated radiotherapy
-	5844. intensive therapy unit
-	5845. intention
-	5846. intention to treat analysis
+	5841. [[intelligence quotient]]
+	5842. [[intelligence test]]
+	5843. [[intensity-modulated radiotherapy]]
+	5844. [[intensive therapy unit]]
+	5845. [[intention]]
+	5846. [[intention to treat analysis]]
 	5847. intention tremor
-	5848. inter-
-	5849. intercalated
-	5850. intercellular
+		1. see TREMOR.
+	5848. [[inter-]]
+	5849. [[intercalated]]
+	5850. [[intercellular]]
 	
-	5851. intercostal muscles
-	5852. intercurrent
-	5853. interferon
-	5854. interkinesis
-	5855. interleukin
-	5856. intermediate care
-	5857. intermenstrual bleeding
-	5858. intermittency
-	5859. intermittent auscultation
+	5851. [[intercostal muscles]]
+	5852. [[intercurrent]]
+	5853. [[interferon]]
+	5854. [[interkinesis]]
+	5855. [[interleukin]]
+	5856. [[intermediate care]]
+	5857. [[intermenstrual bleeding]]
+	5858. [[intermittency]]
+	5859. [[intermittent auscultation]]
 	5860. intermittent claudication
+		1. see CLAUDICATION.
 	
-	5861. intermittent fever
-	5862. intermittent pneumatic compression
-	5863. intermittent self-catheterization
-	5864. intern
-	5865. internal medicine
-	5866. International Classification of Diseases
+	5861. [[intermittent fever]]
+	5862. [[intermittent pneumatic compression]]
+	5863. [[intermittent self-catheterization]]
+	5864. [[intern]]
+	5865. [[internal medicine]]
+	5866. [[International Classification of Diseases]]
 	5867. International Normalized Ratio
-	5868. International Prostate Symptom Score
-	5869. interneuron
-	5870. internode
+		1. see INR.
+	5868. [[International Prostate Symptom Score]]
+	5869. [[interneuron]]
+	5870. [[internode]]
 	
 	5871. internuclear ophthalmoplegia
-	5872. interobserver error((in statistical surveys))
-	5873. interoceptor
-	5874. interparietal bone
-	5875. interpeduncular
-	5876. interphase
-	5877. intersex
-	5878. interstice
+		1. (INO) see OPHTHALMOPLEGIA.
+	5872. interobserver error
+		1. (in statistical surveys) see VALIDITY.
+	5873. [[interoceptor]]
+	5874. [[interparietal bone]]
+	5875. [[interpeduncular]]
+	5876. [[interphase]]
+	5877. [[intersex]]
+	5878. [[interstice]]
 	5879. interstitial-cell-stimulating hormone
-	5880. interstitial cells
+		1. see LUTEINIZING HORMONE.
+	5880. [[interstitial cells]]
 	
-	5881. interstitial cystitis
-	5882. interstitial nephritis
-	5883. interstitial pneumonia
-	5884. intertrigo
-	5885. interventional cardiology
-	5886. interventional radiology
-	5887. intervention study
-	5888. intervertebral disc
-	5889. intestinal flora
+	5881. [[interstitial cystitis]]
+	5882. [[interstitial nephritis]]
+	5883. [[interstitial pneumonia]]
+	5884. [[intertrigo]]
+	5885. [[interventional cardiology]]
+	5886. [[interventional radiology]]
+	5887. [[intervention study]]
+	5888. [[intervertebral disc]]
+	5889. [[intestinal flora]]
 	5890. intestinal juice
+		1. see SUCCUS ENTERICUS.
 	
-	5891. intestinal obstruction
-	5892. intestine
-	5893. intima
-	5894. intolerance
-	5895. intoxication
-	5896. intra-
-	5897. intra-articular
-	5898. intracameral
-	5899. intracellular
-	5900. intracorneal
+	5891. [[intestinal obstruction]]
+	5892. [[intestine]]
+	5893. [[intima]]
+	5894. [[intolerance]]
+	5895. [[intoxication]]
+	5896. [[intra-]]
+	5897. [[intra-articular]]
+	5898. [[intracameral]]
+	5899. [[intracellular]]
+	5900. [[intracorneal]]
 	
-	5901. intracranial
-	5902. intracranial hypotension headache
+	5901. [[intracranial]]
+	5902. [[intracranial hypotension headache]]
 	5903. intracytoplasmic sperm injection
-	5904. intradermal
-	5905. intramural
-	5906. intramuscular
-	5907. intraobserver error((in statistical surveys))
-	5908. intraocular
-	5909. intraosseous needle
-	5910. intrapartum
+		1. see ICSI.
+	5904. [[intradermal]]
+	5905. [[intramural]]
+	5906. [[intramuscular]]
+	5907. intraobserver error
+		1. (in statistical surveys) see VALIDITY.
+	5908. [[intraocular]]
+	5909. [[intraosseous needle]]
+	5910. [[intrapartum]]
 	
-	5911. intrastromal((in ophthalmology))
-	5912. intrastromal keratomileusis
-	5913. intrathecal
-	5914. intratympanic
+	5911. [[intrastromal]]
+	5912. [[intrastromal keratomileusis]]
+	5913. [[intrathecal]]
+	5914. [[intratympanic]]
 	5915. intrauterine contraceptive device
-	5916. intrauterine fetal death
-	5917. intrauterine growth restriction
-	5918. intrauterine insemination
+		1. see IUCD
+	5916. [[intrauterine fetal death]]
+	5917. [[intrauterine growth restriction]]
+	5918. [[intrauterine insemination]]
 	5919. intrauterine system
-	5920. intravascular ultrasound
+		1. see IUS
+	5920. [[intravascular ultrasound]]
 	
 	5921. intravenous
+		1. adj. into or within a vein. See INFUSION; INJECTION.
 	5922. intravenous feeding
+		1. see ARTIFICIAL NUTRITION AND HYDRATION; NUTRITION.
 	5923. intravenous pyelography
-	5924. intravenous urography
+		1. (IVP) see PYELOGRAPHY.
+	5924. [[intravenous urography]]
 	5925. intraventricular haemorrhage
+		1. (IVH) see PERIVENTRICULAR HAEMORRHAGE.
 	5926. intraversion
-	5927. intra vitam
-	5928. intravitreal
-	5929. intrinsic factor
-	5930. intrinsic muscle
+		1. $n$. see INTROVERSION.
+	5927. [[intra vitam]]
+	5928. [[intravitreal]]
+	5929. [[intrinsic factor]]
+	5930. [[intrinsic muscle]]
 	
-	5931. intro-
-	5932. introitus((in anatomy))
-	5933. introjection((in psychoanalysis))
-	5934. intromission
-	5935. introversion
-	5936. intubation
-	5937. intumescence
-	5938. intussusception
-	5939. inulin
-	5940. inunction
+	5931. [[intro-]]
+	5932. [[introitus]]
+	5933. [[introjection]]
+	5934. [[intromission]]
+	5935. [[introversion]]
+	5936. [[intubation]]
+	5937. [[intumescence]]
+	5938. [[intussusception]]
+	5939. [[inulin]]
+	5940. [[inunction]]
 	
-	5941. invagination
-	5942. invasion
-	5943. inverse care law
-	5944. inversion
-	5945. invertebrate
-	5946. in vitro
-	5947. in vitro fertilization
-	5948. in vivo
-	5949. involucrum
-	5950. involuntary muscle
+	5941. [[invagination]]
+	5942. [[invasion]]
+	5943. [[inverse care law]]
+	5944. [[inversion]]
+	5945. [[invertebrate]]
+	5946. [[in vitro]]
+	5947. [[in vitro fertilization]]
+	5948. [[in vivo]]
+	5949. [[involucrum]]
+	5950. [[involuntary muscle]]
 	
 	5951. involution
 	5952. iodine

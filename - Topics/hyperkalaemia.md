@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. the presence in the blood of an abnormally high concentration of potassium, usually due to failure of the kidneys to excrete it. See also ELECTROLYTE.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

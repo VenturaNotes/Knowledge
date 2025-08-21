@@ -36,6 +36,8 @@ aliases:
 
 ## Source[^6]
 - (one-to-one function) A function with the property that distinct elements in its domain are mapped onto distinct elements in the codomain. Formally,$$f: X \rightarrow Y$$is an injection if$$f\left(x_{1}\right)=f\left(x_{2}\right) \quad \text { implies } \quad x_{1}=x_{2}$$A common use of injections is to map or include elements of some smaller set, such as the set of integers, into a larger set, such as the set of real numbers.
+## Source[^7]
+- $n$. introduction into the body of drugs or other fluids by means of a syringe, usually drugs that would be destroyed by the digestive processes if taken by mouth. Common routes for injection are into the skin (intracutaneous or intradermal); below the skin (subcutaneous), e.g. for insulin; into a muscle (intramuscular), for drugs that are slowly absorbed; and into a vein (intravenous, IV), for drugs to be rapidly absorbed. Enemas are also regarded as injections.
 ## References
 
 [^1]: [[(34) Intro to Proofs - Injections Surjections Bijections - part 1 and 2]]
@@ -44,3 +46,4 @@ aliases:
 [^4]: https://www.desmos.com/calculator
 [^5]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^7]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

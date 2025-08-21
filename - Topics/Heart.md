@@ -21,6 +21,8 @@
 		- Mitral valve
 		- Chorda tendina (tendon)
 		- Left ventricle
+- https://www.bhf.org.uk/
+	- Website of British Heart Foundation: provides information on the operation of the heart, keeping the heart healthy, and the main types of heart condition
 ## References
 
 [^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

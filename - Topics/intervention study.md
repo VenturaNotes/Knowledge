@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- a comparison of the outcome between two or more groups of patients that are deliberately subjected to different regimes to test a hypothesis, usually of treatment (in a clinical trial). Wherever possible those entering the trial should be allocated to their respective groups by means of random numbers, and one such group (the control group) should have no active treatment (randomized controlled trial). Ideally neither the patient nor the person assessing the outcome should be aware of which group each patient is allocated to. In a blind trial, the patients are not aware of their group; in a double-blind trial, neither the patients nor the doctor or observer are aware of the therapy group. The groups may exchange treatment after a prearranged period (cross-over trial). Randomized controlled trials are increasingly used to assess new treatments against current standards; for example, to compare new chemotherapeutic agents to established treatment (the control group). To be ethically sound, there must not be evidence at the time of the study to show conclusively which arm of the trial is the best (see EQUIPOISE).
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

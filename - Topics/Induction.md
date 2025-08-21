@@ -24,6 +24,11 @@ $$
   
 
 for suitable $i$. Statements of several variables can also be considered. See also STRUCTURAL INDUCTION.
+## Source[^2]
+- $n$. 
+- (1) (in obstetrics) the starting of labour by artificial means. It is carried out using such drugs as prostaglandins to prime the cervix and/or amniotomy prior to synthetic oxytocin (Syntocinon), which stimulate uterine contractions. Induction of labour is carried out if the wellbeing or life of mother or child is threatened by continuance of the pregnancy. 
+- (2) (in anaesthesia) initiation of anaesthesia. General anaesthesia is usually induced by the intravenous injection of short-acting anaesthetics, e.g. thiopental.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
