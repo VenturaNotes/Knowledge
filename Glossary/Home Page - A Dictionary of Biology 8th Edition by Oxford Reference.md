@@ -2632,7 +2632,7 @@ Reviewed: false
 	2600. hypogyny
 	2601. hypolimnion
 	2602. hypophysis
-	2603. hyporheic zone
+	2603. [[hyporheic zone]]
 	2604. hypostasis
 	2605. hypothalamus
 	2606. hypothyroidism
@@ -2657,10 +2657,10 @@ Reviewed: false
 	2625. ilium
 	2626. imaginal disc
 	2627. imago
-	2628. imbibition
+	2628. [[imbibition]]
 	2629. immersion objective
 	2630. immune clearance
-	2631. immune complex
+	2631. [[immune complex]]
 	2632. immune response
 	2633. immunity
 	2634. immunization
