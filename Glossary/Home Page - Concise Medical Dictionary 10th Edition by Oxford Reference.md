@@ -7563,676 +7563,778 @@ Reviewed: false
 	5949. [[involucrum]]
 	5950. [[involuntary muscle]]
 	
-	5951. involution
-	5952. iodine
-	5953. iodism
+	5951. [[involution]]
+	5952. [[iodine]]
+	5953. [[iodism]]
 	5954. IOL
-	5955. ion
-	5956. ion channel
-	5957. ionization
-	5958. iontophoresis
+		1. intraocular lens implant. See CATARACT.
+	5955. [[ion]]
+	5956. [[ion channel]]
+	5957. [[ionization]]
+	5958. [[iontophoresis]]
 	5959. IOUS
-	5960. ipecacuanha
+		1. intraoperative ultrasound examination (see ULTRASONOGRAPHY).
+	5960. [[ipecacuanha]]
 	
 	5961. IPF
-	5962. ipilimumab
-	5963. ipratropium
-	5964. ipsilateral
+		1. see IDIOPATHIC PULMONARY FIBROSIS.
+	5962. [[ipilimumab]]
+	5963. [[ipratropium]]
+	5964. [[ipsilateral]]
 	5965. IPSS
+		1. see International Prostate Symptom Score.
 	5966. IQ
+		1. see INTELLIGENCE QUOTIENT.
 	5967. irbesartan
-	5968. irid-
-	5969. iridectomy
-	5970. iridencleisis
+		1. $n$. see ANGIOTENSIN II ANTAGONIST.
+	5968. [[irid-]]
+	5969. [[iridectomy]]
+	5970. [[iridencleisis]]
 	
-	5971. iridium-192
-	5972. iridocyclitis
-	5973. iridodialysis
-	5974. iridodonesis
-	5975. iridoplegia
-	5976. iridotomy
+	5971. [[iridium-192]]
+	5972. [[iridocyclitis]]
+	5973. [[iridodialysis]]
+	5974. [[iridodonesis]]
+	5975. [[iridoplegia]]
+	5976. [[iridotomy]]
 	5977. irinotecan
-	5978. iris
-	5979. iris bombé
+		1. $n$. see TOPOISOMERASE INHIBITOR.
+	5978. [[iris]]
+	5979. [[iris bombé]]
 	5980. Irish Sign Language
+		1. (ISL) see SIGN LANGUAGE.
 	
-	5981. irisin
-	5982. iritis
+	5981. [[irisin]]
+	5982. [[iritis]]
 	5983. IRMER
-	5984. iron
+		1. Ionising Radiation (Medical Exposures) Regulations 2000. See RADIATION PROTECTION.
+	5984. [[iron]]
 	5985. iron-storage disease
-	5986. iron dextran
+		1. see HAEMOCHROMATOSIS.
+	5986. [[iron dextran]]
 	5987. iron lung
-	5988. irradiation
-	5989. irreducible
-	5990. irrigation
+		1. see VENTILATOR.
+	5988. [[irradiation]]
+	5989. [[irreducible]]
+	5990. [[irrigation]]
 	
-	5991. irritability
-	5992. irritable bowel syndrome
-	5993. irritable hip
-	5994. irritant
-	5995. isch-
-	5996. ischaemia
-	5997. ischi-
-	5998. ischiorectal abscess
-	5999. ischium
-	6000. island((in anatomy))
+	5991. [[irritability]]
+	5992. [[irritable bowel syndrome]]
+	5993. [[irritable hip]]
+	5994. [[irritant]]
+	5995. [[isch-]]
+	5996. [[ischaemia]]
+	5997. [[ischi-]]
+	5998. [[ischiorectal abscess]]
+	5999. [[ischium]]
+	6000. [[island]]
 	
-	6001. islet((in anatomy))
-	6002. islet cell antibodies
-	6003. islet cell transplantation
-	6004. islet cell tumour
-	6005. islets of Langerhans
-	6006. iso-
-	6007. isoagglutinin
-	6008. isoagglutinogen
-	6009. isoantibody((alloantibody) )
-	6010. isoantigen
+	6001. [[islet]]
+	6002. [[islet cell antibodies]]
+	6003. [[islet cell transplantation]]
+	6004. [[islet cell tumor]]
+	6005. [[islets of Langerhans]]
+	6006. [[iso-]]
+	6007. [[isoagglutinin]]
+	6008. [[isoagglutinogen]]
+	6009. [[isoantibody]]
+	6010. [[isoantigen]]
 	
-	6011. isodactylism
-	6012. isoechoic((in ultrasound imaging))
-	6013. isoenzyme
+	6011. [[isodactylism]]
+	6012. [[isoechoic]]
+	6013. [[isoenzyme]]
 	6014. isohaemagglutinin
-	6015. isoimmunization
-	6016. isointense((in CT scanning))
-	6017. isolation
-	6018. isoleucine
-	6019. isomerase
-	6020. isometheptene
+		1. $n$. see ISOAGGLUTININ.
+	6015. [[isoimmunization]]
+	6016. [[isointense]]
+	6017. [[isolation]]
+	6018. [[isoleucine]]
+	6019. [[isomerase]]
+	6020. [[isometheptene]]
 	
-	6021. isometric exercises
-	6022. isometropia
-	6023. isomorphism
-	6024. isoniazid
-	6025. isophane insulins
-	6026. isosorbide dinitrate
-	6027. isosthenuria
-	6028. isotonic
+	6021. [[isometric exercises]]
+	6022. [[isometropia]]
+	6023. [[isomorphism]]
+	6024. [[isoniazid]]
+	6025. [[isophane insulins]]
+	6026. [[isosorbide dinitrate]]
+	6027. [[isosthenuria]]
+	6028. [[isotonic]]
 	6029. isotonic exercises
-	6030. isotope
+		1. see EXERCISE.
+	6030. [[isotope]]
 	
-	6031. isotretinoin
-	6032. isotropic((in computerized tomography or magnetic resonance imaging))
+	6031. [[isotretinoin]]
+	6032. [[isotropic]]
 	6033. isozyme
-	6034. ispaghula husk
+		1. $n$. see ISOENZYME.
+	6034. [[ispaghula husk]]
 	6035. ISS
-	6036. isthmus
-	6037. itch
-	6038. -itis
-	6039. itraconazole
+		1. see INJURY SCORING SYSTEM.
+	6036. [[isthmus]]
+	6037. [[itch]]
+	6038. [[-itis]]
+	6039. [[itraconazole]]
 	6040. ITU
+		1. see INTENSIVE THERAPY UNIT.
 	
-	6041. IUCD
+	6041. [[IUCD]]
 	6042. IUGR
+		1. see INTRAUTERINE GROWTH RESTRICTION.
 	6043. IUI
-	6044. IUS
+		1. see INTRAUTERINE INSEMINATION.
+	6044. [[IUS]]
 	6045. IV
-	6046. ivermectin
+		1. intravenous. See INFUSION; INJECTION.
+	6046. [[ivermectin]]
 	6047. IVF
+		1. see IN VITRO FERTILIZATION.
 	6048. IVU
+		1. see INTRAVENOUS UROGRAPHY.
 	6049. IVUS
-	6050. Ixodes
+		1. see INTRAVASCULAR ULTRASOUND.
+	6050. [[Ixodes]]
 	
-	6051. ixodiasis
-	6052. Ixodidae
+	6051. [[ixodiasis]]
+	6052. [[Ixodidae]]
 	6053. Jacksonian march
-	6054. Jacquemier's sign
-	6055. jactitation
-	6056. Jaeger test types
-	6057. jamais vu
-	6058. Janeway lesions
-	6059. Jarisch-Herxheimer reaction
-	6060. jaundice
+		1. see EPILEPSY. \[J. H. Jackson (1835-1911), British neurologist]
+	6054. [[Jacquemier's sign]]
+	6055. [[jactitation]]
+	6056. [[Jaeger test types]]
+	6057. [[jamais vu]]
+	6058. [[Janeway lesions]]
+	6059. [[Jarisch-Herxheimer reaction]]
+	6060. [[jaundice]]
 	
-	6061. jaw
-	6062. jaw-jerk reflex
-	6063. jaw thrust
-	6064. jaw wiring
+	6061. [[jaw]]
+	6062. [[jaw-jerk reflex]]
+	6063. [[jaw thrust]]
+	6064. [[jaw wiring]]
 	6065. JE
-	6066. Jehovah's Witnesses
-	6067. jejun-
-	6068. jejunal biopsy
+		1. see JUNCTIONAL EPITHELIUM.
+	6066. [[Jehovah's Witnesses]]
+	6067. [[jejun-]]
+	6068. [[jejunal biopsy]]
 	6069. jejunal ulcer
-	6070. jejunectomy
+		1. see PEPTIC ULCER; ZOLLINGER-Ellison SYNDROME.
+	6070. [[jejunectomy]]
 	
-	6071. jejunoileostomy
-	6072. jejunostomy
-	6073. jejunotomy
-	6074. jejunum
-	6075. jerk
+	6071. [[jejunoileostomy]]
+	6072. [[jejunostomy]]
+	6073. [[jejunotomy]]
+	6074. [[jejunum]]
+	6075. [[jerk]]
 	6076. JGA
+		1. see JUXTAGLOMERULAR APPARATUS.
 	6077. JIA
+		1. see JUVENILE IDIOPATHIC ARTHRITIS.
 	6078. jigger
-	6079. Jod-Basedow phenomenon
-	6080. joint
+		1. $n$. see TunGA.
+	6079. [[Jod-Basedow phenomenon]]
+	6080. [[joint]]
 	
-	6081. joule
-	6082. judgment
-	6083. jugular
-	6084. jugular vein
-	6085. jugular venous pressure
-	6086. jugum((in anatomy))
-	6087. jumper's knee
-	6088. junction((in anatomy))
-	6089. junctional epithelium((in dentistry))
-	6090. justice
+	6081. [[joule]]
+	6082. [[judgment]]
+	6083. [[jugular]]
+	6084. [[jugular vein]]
+	6085. [[jugular venous pressure]]
+	6086. [[jugum]]
+	6087. [[jumper's knee]]
+	6088. [[junction]]
+	6089. [[junctional epithelium]]
+	6090. [[justice]]
 	
 	6091. juvenile-onset spondylarthropathy
-	6092. juvenile idiopathic arthritis
+		1. see JUVENILE IDIOPATHIC ARTHRITIS.
+	6092. [[juvenile idiopathic arthritis]]
 	6093. juvenile plantar dermatosis
+		1. see DERMATOSIS.
 	6094. juvenile polyp
-	6095. juxta-
-	6096. juxtaglomerular apparatus
+		1. see POLYP.
+	6095. [[juxta-]]
+	6096. [[juxtaglomerular apparatus]]
 	6097. JVP
+		1. see JUGULAR VENOUS PRESSURE.
 	6098. K-nail
-	6099. Kahn reaction
-	6100. kala-azar
+		1. n. see KÜNTSCHER NAIL.
+	6099. [[Kahn reaction]]
+	6100. [[kala-azar]]
 	
-	6101. kallidin
-	6102. kallikrein
-	6103. Kallmann's syndrome
-	6104. Kantian ethics
-	6105. kaolin
-	6106. Kaposi's sarcoma
-	6107. Kartagener's syndrome
-	6108. kary-
-	6109. karyokinesis
-	6110. karyolysis
+	6101. [[kallidin]]
+	6102. [[kallikrein]]
+	6103. [[Kallmann's syndrome]]
+	6104. [[Kantian ethics]]
+	6105. [[kaolin]]
+	6106. [[Kaposi's sarcoma]]
+	6107. [[Kartagener's syndrome]]
+	6108. [[kary-]]
+	6109. [[karyokinesis]]
+	6110. [[karyolysis]]
 	
 	6111. karyoplasm
-	6112. karyosome
-	6113. karyotype
-	6114. katathermometer
-	6115. Kawasaki disease
-	6116. Kayser-Fleischer ring
-	6117. Kegel exercises
-	6118. Kehr's sign
-	6119. Kell antigens
-	6120. Keller's operation
+		1. $n$. see NUCLEOPLASM.
+	6112. [[karyosome]]
+	6113. [[karyotype]]
+	6114. [[katathermometer]]
+	6115. [[Kawasaki disease]]
+	6116. [[Kayser-Fleischer ring]]
+	6117. [[Kegel exercises]]
+	6118. [[Kehr's sign]]
+	6119. [[Kell antigens]]
+	6120. [[Keller's operation]]
 	
-	6121. keloid
-	6122. kelvin
+	6121. [[keloid]]
+	6122. [[kelvin]]
 	6123. Kemp echoes
-	6124. kerat-
-	6125. keratalgia
-	6126. keratectasia
-	6127. keratectomy
-	6128. keratin
-	6129. keratinization
-	6130. keratinocyte
+		1. see OTOACOUSTIC EMISSIONS.
+	6124. [[kerat-]]
+	6125. [[keratalgia]]
+	6126. [[keratectasia]]
+	6127. [[keratectomy]]
+	6128. [[keratin]]
+	6129. [[keratinization]]
+	6130. [[keratinocyte]]
 	
-	6131. keratitis
-	6132. keratoacanthoma
-	6133. keratocele
-	6134. keratoconjunctivitis
-	6135. keratoconus
-	6136. keratocyte
-	6137. keratoglobus
-	6138. keratomalacia
-	6139. keratome
-	6140. keratometer
+	6131. [[keratitis]]
+	6132. [[keratoacanthoma]]
+	6133. [[keratocele]]
+	6134. [[keratoconjunctivitis]]
+	6135. [[keratoconus]]
+	6136. [[keratocyte]]
+	6137. [[keratoglobus]]
+	6138. [[keratomalacia]]
+	6139. [[keratome]]
+	6140. [[keratometer]]
 	
 	6141. keratomileusis
-	6142. keratopathy
-	6143. keratoplasty
-	6144. keratoprosthesis
-	6145. keratoscope
-	6146. keratosis
-	6147. keratosis obturans
-	6148. keratosis pilaris
-	6149. keratotomy
-	6150. keratouveitis
+		1. $n$. see INTRASTROMAL KERATOMILEUSIS; LASIK.
+	6142. [[keratopathy]]
+	6143. [[keratoplasty]]
+	6144. [[keratoprosthesis]]
+	6145. [[keratoscope]]
+	6146. [[keratosis]]
+	6147. [[keratosis obturans]]
+	6148. [[keratosis pilaris]]
+	6149. [[keratotomy]]
+	6150. [[keratouveitis]]
 	
-	6151. kerion
-	6152. Kerley B lines
-	6153. kernicterus
-	6154. Kernig's sign
-	6155. Kernohan's phenomenon
-	6156. ketoacidosis
-	6157. ketoconazole
-	6158. ketogenesis
-	6159. ketogenic diet
-	6160. ketonaemia
+	6151. [[kerion]]
+	6152. [[Kerley B lines]]
+	6153. [[kernicterus]]
+	6154. [[Kernig's sign]]
+	6155. [[Kernohan's phenomenon]]
+	6156. [[ketoacidosis]]
+	6157. [[ketoconazole]]
+	6158. [[ketogenesis]]
+	6159. [[ketogenic diet]]
+	6160. [[ketonaemia]]
 	
-	6161. ketone
-	6162. ketonuria
-	6163. ketoprofen
-	6164. ketose
-	6165. ketosis
+	6161. [[ketone]]
+	6162. [[ketonuria]]
+	6163. [[ketoprofen]]
+	6164. [[ketose]]
+	6165. [[ketosis]]
 	6166. keV
+		1. symbol for kiloelectronvolt. See ELECTRONVOLT.
 	6167. keyhole surgery
-	6168. khat
-	6169. kidney
-	6170. Kielland's forceps
+		1. see MINIMALLY INVASIVE SURGERY.
+	6168. [[khat]]
+	6169. [[kidney]]
+	6170. [[Kielland's forceps]]
 	
-	6171. Kienböck's disease
-	6172. Kiesselbach's plexus
-	6173. kilo-
-	6174. kilocalorie
-	6175. kilogram
-	6176. kilovolt
-	6177. Kimmelstiel-Wilson lesion
-	6178. kin-
-	6179. kinaesthesia
-	6180. kinaesthesiometer
+	6171. [[Kienböck's disease]]
+	6172. [[Kiesselbach's plexus]]
+	6173. [[kilo-]]
+	6174. [[kilocalorie]]
+	6175. [[kilogram]]
+	6176. [[kilovolt]]
+	6177. [[Kimmelstiel-Wilson lesion]]
+	6178. [[kin-]]
+	6179. [[kinaesthesia]]
+	6180. [[kinaesthesiometer]]
 	
-	6181. kinanaesthesia
-	6182. kinase
-	6183. kinematics
-	6184. kineplasty
-	6185. -kinesis
+	6181. [[kinanaesthesia]]
+	6182. [[kinase]]
+	6183. [[kinematics]]
+	6184. [[kineplasty]]
+	6185. [[-kinesis]]
 	6186. kinetochore
+		1. $n$. see CENTROMERE.
 	6187. King-Kopetzky syndrome
-	6188. kinin
-	6189. KIRs
+		1. see OBSCURE AUDITORY DYSFUNCTION.
+	6188. [[kinin]]
+	6189. [[KIRs]]
 	6190. kiss of life
+		1. see MOUTH-TO-MOUTH RESUSCITATION.
 	
-	6191. kisspeptin
+	6191. [[kisspeptin]]
 	6192. Klatskin tumour
+		1. see CHOLANGIOCARCINOMA. \[G. Klatskin (20th century), US physician]
 	6193. Klebs-Loeffler bacillus
-	6194. Klebsiella
-	6195. Kleihauer-Betke test
-	6196. Kleine-Levin syndrome
-	6197. klepto-
-	6198. kleptomania
-	6199. Klinefelter's syndrome
-	6200. Klumpke's paralysis
+		1. see Corynebacterium. \[T. Klebs (1834-1913) and F. A. J. Loeffler (1852-1915), German bacteriologists]
+	6194. [[Klebsiella]]
+	6195. [[Kleihauer-Betke test]]
+	6196. [[Kleine-Levin syndrome]]
+	6197. [[klepto-]]
+	6198. [[kleptomania]]
+	6199. [[Klinefelter's syndrome]]
+	6200. [[Klumpke's paralysis]]
 	
 	6201. kneading
-	6202. knee
-	6203. knee-elbow position
+		1. $n$. see PETRISSAGE.
+	6202. [[knee]]
+	6203. [[knee-elbow position]]
 	6204. knee jerk
-	6205. knight's-move thinking
-	6206. knock-knee
+		1. see PATELLAR REFLEX.
+	6205. [[knight's-move thinking]]
+	6206. [[knock-knee]]
 	6207. Kobberling-Dunnigan syndrome
+		1. see LIPODYSTROPHY.
 	6208. Koch's bacillus
-	6209. Kocher's incision
-	6210. Kocher manoeuvre
+		1. see MyCObacterium. \[R. Koch (1843-1910), German bacteriologist]
+	6209. [[Kocher's incision]]
+	6210. [[Kocher manoeuvre]]
 	
-	6211. Koebner phenomenon
-	6212. Koeppe nodule
-	6213. Köhler's disease
-	6214. koilonychia
-	6215. Koplik's spots
-	6216. koro
-	6217. Korsakoff's syndrome
-	6218. Kostmann's syndrome
-	6219. KRAS
-	6220. kraurosis
+	6211. [[Koebner phenomenon]]
+	6212. [[Koeppe nodule]]
+	6213. [[Köhler's disease]]
+	6214. [[koilonychia]]
+	6215. [[Koplik's spots]]
+	6216. [[koro]]
+	6217. [[Korsakoff's syndrome]]
+	6218. [[Kostmann's syndrome]]
+	6219. [[KRAS]]
+	6220. [[kraurosis]]
 	
-	6221. Krebs cycle
-	6222. Krukenberg's spindle
-	6223. Krukenberg tumour
-	6224. krypton-81m
-	6225. KUB X-ray
+	6221. [[Krebs cycle]]
+	6222. [[Krukenberg's spindle]]
+	6223. [[Krukenberg tumor]]
+	6224. [[krypton-81m]]
+	6225. [[KUB X-ray]]
 	6226. Kugelberg-Wellander disease
-	6227. Küntscher nail
-	6228. Kupffer cells
-	6229. kuru
-	6230. Kussmaul breathing
+		1. (juvenile spinal muscular atrophy) see SPINAL MUSCULAR ATROPHY. \[E. Kugelberg and L. Wellander (20th century), Swedish neurologists]
+	6227. [[Küntscher nail]]
+	6228. [[Kupffer cells]]
+	6229. [[kuru]]
+	6230. [[Kussmaul breathing]]
 	
 	6231. kV
-	6232. Kveim test
-	6233. kwashiorkor
-	6234. Kyasanur Forest disease
-	6235. kymograph
-	6236. kypho-
-	6237. kyphoplasty((in interventional radiology))
-	6238. kyphos
-	6239. kyphoscoliosis
-	6240. kyphosis
+		1. symbol for kilovolt.
+	6232. [[Kveim test]]
+	6233. [[kwashiorkor]]
+	6234. [[Kyasanur Forest disease]]
+	6235. [[kymograph]]
+	6236. [[kypho-]]
+	6237. [[kyphoplasty]]
+	6238. [[kyphos]]
+	6239. [[kyphoscoliosis]]
+	6240. [[kyphosis]]
 	
 	6241. L-dopa
-	6242. labelling index
-	6243. labetalol
+		1. $n$. see LEVODOPA.
+	6242. [[labelling index]]
+	6243. [[labetalol]]
 	6244. labia
-	6245. labial
-	6246. labio-
-	6247. labiomancy
-	6248. labioplasty
-	6249. labium
-	6250. labour
+		1. pl. n. see labium
+	6245. [[labial]]
+	6246. [[labio-]]
+	6247. [[labiomancy]]
+	6248. [[labioplasty]]
+	6249. [[labium]]
+	6250. [[labour]]
 	
-	6251. labrum
-	6252. labyrinth
-	6253. labyrinthectomy
-	6254. labyrinthitis
-	6255. laceration
-	6256. lacertus
-	6257. lacrimal apparatus
-	6258. lacrimal bone
-	6259. lacrimal nerve
-	6260. lacrimation
+	6251. [[labrum]]
+	6252. [[labyrinth]]
+	6253. [[labyrinthectomy]]
+	6254. [[labyrinthitis]]
+	6255. [[laceration]]
+	6256. [[lacertus]]
+	6257. [[lacrimal apparatus]]
+	6258. [[lacrimal bone]]
+	6259. [[lacrimal nerve]]
+	6260. [[lacrimation]]
 	
-	6261. lacrimator
-	6262. lact-
-	6263. lactalbumin
-	6264. lactase
-	6265. lactation
-	6266. lacteal
-	6267. lactic acid
-	6268. lactic acidosis
-	6269. lactiferous
-	6270. lactifuge
+	6261. [[lacrimator]]
+	6262. [[lact-]]
+	6263. [[lactalbumin]]
+	6264. [[lactase]]
+	6265. [[lactation]]
+	6266. [[lacteal]]
+	6267. [[lactic acid]]
+	6268. [[lactic acidosis]]
+	6269. [[lactiferous]]
+	6270. [[lactifuge]]
 	
-	6271. Lactobacillus
+	6271. [[Lactobacillus]]
 	6272. lactogenic hormone
-	6273. lactose
-	6274. lactosuria
-	6275. lactulose
-	6276. lacuna
-	6277. laetrile
+		1. see PROLACTIN.
+	6273. [[lactose]]
+	6274. [[lactosuria]]
+	6275. [[lactulose]]
+	6276. [[lacuna]]
+	6277. [[laetrile]]
 	6278. laevo-
-	6279. laevocardia
-	6280. lagaena
+		1. combining form. see LEVO-.
+	6279. [[laevocardia]]
+	6280. [[lagaena]]
 	
-	6281. lagophthalmos
-	6282. laking
-	6283. -lalia
-	6284. lambda
-	6285. lambda sign
+	6281. [[lagophthalmos]]
+	6282. [[laking]]
+	6283. [[-lalia]]
+	6284. [[lambda]]
+	6285. [[lambda sign]]
 	6286. lambdoidal suture
+		1. see SUTURE.
 	6287. lambliasis
-	6288. lamella
-	6289. lamellar bone
-	6290. lamina
+		1. n. See GIARDIASIS.
+	6288. [[lamella]]
+	6289. [[lamellar bone]]
+	6290. [[lamina]]
 	
-	6291. lamina cribrosa
-	6292. laminaria
-	6293. laminectomy
-	6294. laminotomy
-	6295. lamivudine
-	6296. lamotrigine
-	6297. Lancefield classification
-	6298. lancet
-	6299. lancinating
-	6300. Landau reflex
+	6291. [[lamina cribrosa]]
+	6292. [[laminaria]]
+	6293. [[laminectomy]]
+	6294. [[laminotomy]]
+	6295. [[lamivudine]]
+	6296. [[lamotrigine]]
+	6297. [[Lancefield classification]]
+	6298. [[lancet]]
+	6299. [[lancinating]]
+	6300. [[Landau reflex]]
 	
-	6301. Langer's lines
-	6302. Langerhans cell histiocytosis
+	6301. [[Langer's lines]]
+	6302. [[Langerhans cell histiocytosis]]
 	6303. lanreotide
+		1. $n$. a somatostatin analogue (see SOMATOSTATIN).
 	6304. lansoprazole
-	6305. lanugo
-	6306. laparo-
-	6307. laparoscope
+		1. $n$. see PROTON-PUMP INHIBITOR.
+	6305. [[lanugo]]
+	6306. [[laparo-]]
+	6307. [[laparoscope]]
 	6308. laparoscopic myolysis
-	6309. laparoscopy
-	6310. laparotomy
+		1. see fibroid
+	6309. [[laparoscopy]]
+	6310. [[laparotomy]]
 	
-	6311. lardaceous
+	6311. [[lardaceous]]
 	6312. Lariam
-	6313. larva
+		1. $n$. see MEFLOQUINE.
+	6313. [[larva]]
 	6314. larva migrans
-	6315. laryng-
-	6316. laryngeal mask
-	6317. laryngeal reflex
-	6318. laryngeal stroboscopy
-	6319. laryngectomy
-	6320. laryngismus
+		1. see CREEPING ERUPTION.
+	6315. [[laryng-]]
+	6316. [[laryngeal mask]]
+	6317. [[laryngeal reflex]]
+	6318. [[laryngeal stroboscopy]]
+	6319. [[laryngectomy]]
+	6320. [[laryngismus]]
 	
-	6321. laryngitis
-	6322. laryngocele
-	6323. laryngofissure
-	6324. laryngology
-	6325. laryngomalacia
+	6321. [[laryngitis]]
+	6322. [[laryngocele]]
+	6323. [[laryngofissure]]
+	6324. [[laryngology]]
+	6325. [[laryngomalacia]]
 	6326. laryngopharynx
-	6327. laryngoscope
-	6328. laryngoscopy
-	6329. laryngospasm
-	6330. laryngotomy
+		1. $n$. see HYPOPHARYNX.
+	6327. [[laryngoscope]]
+	6328. [[laryngoscopy]]
+	6329. [[laryngospasm]]
+	6330. [[laryngotomy]]
 	
-	6331. laryngotracheobronchitis
-	6332. laryngotracheoplasty
-	6333. larynx
-	6334. LASEK
-	6335. laser
-	6336. laser-assisted uvulopalatoplasty
-	6337. laser Doppler flowmeter
-	6338. LASIK
+	6331. [[laryngotracheobronchitis]]
+	6332. [[laryngotracheoplasty]]
+	6333. [[larynx]]
+	6334. [[LASEK]]
+	6335. [[laser]]
+	6336. [[laser-assisted uvulopalatoplasty]]
+	6337. [[laser Doppler flowmeter]]
+	6338. [[LASIK]]
 	6339. Lasix
-	6340. Lassa fever
+		1. $n$. see FUROSEMIDE.
+	6340. [[Lassa fever]]
 	
-	6341. latah
-	6342. latanoprost
-	6343. late-onset schizophrenia
-	6344. late neonatal death
-	6345. latent period((in neurology))
-	6346. lateral
+	6341. [[latah]]
+	6342. [[latanoprost]]
+	6343. [[late-onset schizophrenia]]
+	6344. [[late neonatal death]]
+	6345. [[latent period]]
+	6346. [[lateral]]
 	6347. lateral parapharyngeal space
-	6348. lathyrism
-	6349. laudanum
+		1. see PARAPHARYNGEAL SPACE.
+	6348. [[lathyrism]]
+	6349. [[laudanum]]
 	6350. laughing gas
+		1. see NITROUS OXIDE.
 	
 	6351. LAUP
-	6352. Laurence-Moon-Biedl syndrome
-	6353. lavage
-	6354. laxative
+		1. see LASER-ASSISTED UVULOPALATOPLASTY.
+	6352. [[Laurence-Moon-Biedl syndrome]]
+	6353. [[lavage]]
+	6354. [[laxative]]
 	6355. lazy eye
+		1. see AMBLYOPIA.
 	6356. LBC
-	6357. LD50
-	6358. LD flap
+		1. see LIQUID-BASED CYTOLOGY.
+	6357. [[LD_{50}]]
+	6358. [[LD flap]]
 	6359. LDL
-	6360. lead1
+		1. see LOW-DENSITY LIPOPROTEIN.
+	6360. [[lead]]
 	
-	6361. lead2
-	6362. learning disability
+	6361. 
+	6362. [[learning disability]]
 	6363. leather-bottle stomach
-	6364. Leber's congenital amaurosis
-	6365. Leber's optic atrophy
-	6366. lecithin
-	6367. lecithinase
-	6368. leech
-	6369. leflunomide
-	6370. Le Fort classification
+		1. see LINITIS PLASTICA.
+	6364. [[Leber's congenital amaurosis]]
+	6365. [[Leber's optic atrophy]]
+	6366. [[lecithin]]
+	6367. [[lecithinase]]
+	6368. [[leech]]
+	6369. [[leflunomide]]
+	6370. [[Le Fort classification]]
 	
 	6371. left ventricular failure
-	6372. Legg-Calvé-Perthes disease
-	6373. legionnaires' disease
-	6374. Leigh syndrome
-	6375. leio-
-	6376. leiomyoma
-	6377. leiomyosarcoma
-	6378. Leishman-Donovan body
-	6379. Leishmania
-	6380. leishmaniasis
+		1. see HEART FAILURE.
+	6372. [[Legg-Calvé-Perthes disease]]
+	6373. [[legionnaires' disease]]
+	6374. [[Leigh syndrome]]
+	6375. [[leio-]]
+	6376. [[leiomyoma]]
+	6377. [[leiomyosarcoma]]
+	6378. [[Leishman-Donovan body]]
+	6379. [[Leishmania]]
+	6380. [[leishmaniasis]]
 	
-	6381. lemniscus
+	6381. [[lemniscus]]
 	6382. lemon sign
-	6383. lenalidomide
-	6384. lens
-	6385. lensectomy
+		1. see BANANA AND LEMON SIGNS.
+	6383. [[lenalidomide]]
+	6384. [[lens]]
+	6385. [[lensectomy]]
 	6386. lens implant
-	6387. lensmeter
-	6388. lenticonus
+		1. see CATARACT.
+	6387. [[lensmeter]]
+	6388. [[lenticonus]]
 	6389. lenticular nucleus
-	6390. lentigo
+		1. (lentiform nucleus) see BASAL GANGLIA.
+	6390. [[lentigo]]
 	
-	6391. leontiasis
-	6392. lepra reaction
-	6393. leproma
-	6394. lepromin
-	6395. leprosy
-	6396. lept-
-	6397. leptin
-	6398. leptocyte
-	6399. leptomeninges
-	6400. leptomeningitis
+	6391. [[leontiasis]]
+	6392. [[lepra reaction]]
+	6393. [[leproma]]
+	6394. [[lepromin]]
+	6395. [[leprosy]]
+	6396. [[lept-]]
+	6397. [[leptin]]
+	6398. [[leptocyte]]
+	6399. [[leptomeninges]]
+	6400. [[leptomeningitis]]
 	
-	6401. leptophonia
-	6402. Leptospira
-	6403. leptospirosis
-	6404. leptotene
-	6405. Leriche's syndrome
-	6406. Lesch-Nyhan disease
-	6407. lesion
-	6408. lethal gene
-	6409. lethargy
+	6401. [[leptophonia]]
+	6402. [[Leptospira]]
+	6403. [[leptospirosis]]
+	6404. [[leptotene]]
+	6405. [[Leriche's syndrome]]
+	6406. [[Lesch-Nyhan disease]]
+	6407. [[lesion]]
+	6408. [[lethal gene]]
+	6409. [[lethargy]]
 	6410. letrozole
+		1. $n$. see AROMATASE INHIBITOR.
 	
 	6411. Letterer-Siwe disease
-	6412. leuc-
-	6413. leucapheresis
-	6414. leucine
-	6415. leucocyte
-	6416. leucocytosis
-	6417. leucocytospermia
-	6418. leucoderma
+		1. see LANGERHANS CELL HISTIOCYTOSIS. \[E. Letterer (20th century) and S. A. Siwe (1897-1966), German physicians]
+	6412. [[leuc-]]
+	6413. [[leucapheresis]]
+	6414. [[leucine]]
+	6415. [[leucocyte]]
+	6416. [[leucocytosis]]
+	6417. [[leucocytospermia]]
+	6418. [[leucoderma]]
 	6419. leucolysin
-	6420. leucoma
+		1. $n$. see LYSIN.
+	6420. [[leucoma]]
 	
-	6421. leuconychia
-	6422. leucopenia
+	6421. [[leuconychia]]
+	6422. [[leucopenia]]
 	6423. leucoplakia
-	6424. leucopoiesis
-	6425. leucorrhoea
-	6426. leucostasis
-	6427. leucotomy
-	6428. leukaemia
-	6429. leukocidin
-	6430. leukoplakia
+		1. $n$. see LEUKOPLAKIA.
+	6424. [[leucopoiesis]]
+	6425. [[leucorrhoea]]
+	6426. [[leucostasis]]
+	6427. [[leucotomy]]
+	6428. [[leukaemia]]
+	6429. [[leukocidin]]
+	6430. [[leukoplakia]]
 	
 	6431. leukostasis
-	6432. leukotaxine
-	6433. leukotrichia
-	6434. leukotriene
-	6435. leukotriene receptor antagonist
+		1. $n$. see LEUCOSTASIS.
+	6432. [[leukotaxine]]
+	6433. [[leukotrichia]]
+	6434. [[leukotriene]]
+	6435. [[leukotriene receptor antagonist]]
 	6436. leuprorelin
-	6437. levamisole
-	6438. levator
+		1. $n$. see GONADORELIN ANALOGUE.
+	6437. [[levamisole]]
+	6438. [[levator]]
 	6439. Levitra
-	6440. levo-
+		1. n. see SILDENAFIL.
+	6440. [[levo-]]
 	
-	6441. levobunolol
-	6442. levodopa
-	6443. levodopa test
-	6444. levomepromazine
-	6445. levonorgestrel
+	6441. [[levobunolol]]
+	6442. [[levodopa]]
+	6443. [[levodopa test]]
+	6444. [[levomepromazine]]
+	6445. [[levonorgestrel]]
 	6446. levothyroxine sodium
+		1. see THYROXINE.
 	6447. levulosuria
+		1. $n$. see FRUCTOSURIA.
 	6448. Lewy bodies
+		1. see Cortical Lewy body disease. \[F. H. Lewy (1885-1950), German neurologist]
 	6449. Leydig cells
-	6450. Leydig tumour
+		1. see INTERSTITIAL CELLS. \[F. von Leydig (1821-1908), German anatomist]
+	6450. [[Leydig tumor]]
 	
 	6451. LH
-	6452. Lhermitte's sign
+		1. see LUTEINIZING HORMONE.
+	6452. [[Lhermitte's sign]]
 	6453. LHRH analogue
+		1. see GONADORELIN ANALOGUE.
 	6454. LI-RADS
-	6455. liaison psychiatry
-	6456. libido
+		1. Liver Imaging Reporting and Data System: see BI-RADS.
+	6455. [[liaison psychiatry]]
+	6456. [[libido]]
 	6457. Librium
+		1. $n$. see CHLORDIAZEPOXIDE.
 	6458. lice
-	6459. licence
-	6460. licensing
+		1. pl. n. see LOUSE; PEDICULOSIS.
+	6459. [[licence]]
+	6460. [[licensing]]
 	
-	6461. lichenification
-	6462. lichenoid
-	6463. lichen planus
-	6464. lichen sclerosus
-	6465. lichen simplex chronicus
-	6466. Liddle's syndrome
-	6467. lidocaine
-	6468. lie
-	6469. Lieberkühn's glands
+	6461. [[lichenification]]
+	6462. [[lichenoid]]
+	6463. [[lichen planus]]
+	6464. [[lichen sclerosus]]
+	6465. [[lichen simplex chronicus]]
+	6466. [[Liddle's syndrome]]
+	6467. [[lidocaine]]
+	6468. [[lie]]
+	6469. [[Lieberkühn's glands]]
 	6470. lien
+		1. n. see spleen
 	
-	6471. lien-
-	6472. life expectancy
-	6473. life table
-	6474. ligament
-	6475. ligamentum flavum
-	6476. ligand
-	6477. ligation
-	6478. ligature
-	6479. light adaptation
-	6480. lightening
+	6471. [[lien-]]
+	6472. [[life expectancy]]
+	6473. [[life table]]
+	6474. [[ligament]]
+	6475. [[ligamentum flavum]]
+	6476. [[ligand]]
+	6477. [[ligation]]
+	6478. [[ligature]]
+	6479. [[light adaptation]]
+	6480. [[lightening]]
 	
 	6481. light reflex
+		1. see PUPILLARY REFLEX.
 	6482. lignocaine
-	6483. likelihood ratio
-	6484. limbic system
-	6485. limb lengthening
-	6486. limbus((in anatomy))
-	6487. limen((in anatomy))
-	6488. liminal((in physiology))
-	6489. limosis
+		1. $n$. see LIDOCAINE.
+	6483. [[likelihood ratio]]
+	6484. [[limbic system]]
+	6485. [[limb lengthening]]
+	6486. [[limbus]]
+	6487. [[limen]]
+	6488. [[liminal]]
+	6489. [[limosis]]
 	6490. linac
+		1. $n$. see LINEAR ACCELERATOR.
 	
 	6491. linagliptin
-	6492. linctus
-	6493. Lindau's tumour
-	6494. linea
-	6495. linea nigra
-	6496. linear accelerator
-	6497. linezolid
-	6498. lingual
-	6499. lingula
-	6500. liniment
+		1. $n$. see DPP-IV INHIBITORS.
+	6492. [[linctus]]
+	6493. Lindau's tumor
+		1. see HAEMANGIOBLASTOMA. \[A. Lindau (1892-1958), Swedish pathologist]
+	6494. [[linea]]
+	6495. [[linea nigra]]
+	6496. [[linear accelerator]]
+	6497. [[linezolid]]
+	6498. [[lingual]]
+	6499. [[lingula]]
+	6500. [[liniment]]
 	
-	6501. lining((in dentistry))
-	6502. linitis plastica
-	6503. linkage((in genetics))
-	6504. linogram
+	6501. [[lining]]
+	6502. [[linitis plastica]]
+	6503. [[linkage]]
+	6504. [[linogram]]
 	6505. linoleic acid
+		1. see ESSENTIAL FATTY ACID.
 	6506. linolenic acid
-	6507. lint
-	6508. liothyronine
-	6509. lip-
-	6510. lipaemia
+		1. see ESSENTIAL FATTY ACID.
+	6507. [[lint]]
+	6508. [[liothyronine]]
+	6509. [[lip-]]
+	6510. [[lipaemia]]
 	
-	6511. lipase
-	6512. lipid
-	6513. lipidosis
-	6514. lip licker's dermatitis
-	6515. lipoatrophy
-	6516. lipochondrodystrophy
-	6517. lipochrome
-	6518. lipodystrophy
-	6519. lipoedema
-	6520. lipofuscin
+	6511. [[lipase]]
+	6512. [[lipid]]
+	6513. [[lipidosis]]
+	6514. [[lip licker's dermatitis]]
+	6515. [[lipoatrophy]]
+	6516. [[lipochondrodystrophy]]
+	6517. [[lipochrome]]
+	6518. [[lipodystrophy]]
+	6519. [[lipoedema]]
+	6520. [[lipofuscin]]
 	
-	6521. lipogenesis
-	6522. lipogranulomatosis
-	6523. lipohypertrophy
-	6524. lipoic acid
+	6521. [[lipogenesis]]
+	6522. [[lipogranulomatosis]]
+	6523. [[lipohypertrophy]]
+	6524. [[lipoic acid]]
 	6525. lipoidosis
-	6526. lipolysis
-	6527. lipoma
-	6528. lipomatosis
-	6529. lipopolysaccharide
-	6530. lipoprotein
+		1. $n$. see LIPIDOSIS.
+	6526. [[lipolysis]]
+	6527. [[lipoma]]
+	6528. [[lipomatosis]]
+	6529. [[lipopolysaccharide]]
+	6530. [[lipoprotein]]
 	
-	6531. lipoprotein lipase
-	6532. liposarcoma
-	6533. liposome
-	6534. liposuction
-	6535. lipotrophin
-	6536. lipotropic
-	6537. lipping
-	6538. Lipsitz score
-	6539. lipuria
-	6540. liquid-based cytology
+	6531. [[lipoprotein lipase]]
+	6532. [[liposarcoma]]
+	6533. [[liposome]]
+	6534. [[liposuction]]
+	6535. [[lipotrophin]]
+	6536. [[lipotropic]]
+	6537. [[lipping]]
+	6538. [[Lipsitz score]]
+	6539. [[lipuria]]
+	6540. [[liquid-based cytology]]
 	
-	6541. liquor
+	6541. [[liquor]]
 	6542. liraglutide
-	6543. Lisch nodules
-	6544. lissencephaly
-	6545. Listeria
-	6546. -lith
-	6547. lith-
+		1. $n$. see GLP-1 RECEPTOR AGONISTS.
+	6543. [[Lisch nodules]]
+	6544. [[lissencephaly]]
+	6545. [[Listeria]]
+	6546. [[-lith]]
+	6547. [[lith-]]
 	6548. lithaemia
-	6549. lithiasis
-	6550. lithium
+		1. $n$. see HYPERURICAEMIA.
+	6549. [[lithiasis]]
+	6550. [[lithium]]
 	
-	6551. litholapaxy
-	6552. lithonephrotomy
-	6553. lithopaedion
-	6554. lithotomy
-	6555. lithotomy position
-	6556. lithotripsy
-	6557. lithotrite
+	6551. [[litholapaxy]]
+	6552. [[lithonephrotomy]]
+	6553. [[lithopaedion]]
+	6554. [[lithotomy]]
+	6555. [[lithotomy position]]
+	6556. [[lithotripsy]]
+	6557. [[lithotrite]]
 	6558. lithotrophic
-	6559. lithuresis
+		1. adj. see AUTOTROPHIC.
+	6559. [[lithuresis]]
 	6560. lithuria
+		1. $n$. see HYPERURICURIA.
 	
 	6561. litre
 	6562. Little's area
