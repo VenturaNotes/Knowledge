@@ -2659,7 +2659,7 @@ Reviewed: false
 	2627. imago
 	2628. [[imbibition]]
 	2629. immersion objective
-	2630. immune clearance
+	2630. [[immune clearance]]
 	2631. [[immune complex]]
 	2632. immune response
 	2633. immunity
@@ -2689,7 +2689,7 @@ Reviewed: false
 	2657. inclusive fitness
 	2658. incompatibility
 	2659. incomplete dominance
-	2660. incubation
+	2660. [[incubation]]
 	2661. incus
 	2662. indefinite inflorescence
 	2663. indehiscent
@@ -2700,7 +2700,7 @@ Reviewed: false
 	2668. indigenous
 	2669. indoleacetic acid
 	2670. induced-fit model
-	2671. inducer
+	2671. [[inducer]]
 	2672. inducible nitric oxide synthase
 	2673. induction
 	2674. indusium
