@@ -4,6 +4,11 @@
 - n. 
 - (1) the process of development of an egg or a culture of bacteria. 
 - (2) the care of a premature baby in an incubator.
+## Source[^2]
+- (1) The process of maintaining the fertilized eggs of birds and of some reptiles and egg-laying mammals at the optimum temperature for the successful development of the embryos. A period of incubation follows the laying of the eggs and precedes their hatching. 
+- (2) The process of maintaining a culture of bacteria or other microorganisms at the optimum temperature for growth of the culture or of maintaining a reaction mixture at an appropriate or specified temperature. 
+- (3) The phase in the development of an infectious disease between initial infection and the appearance of the first symptoms.
 ## References
 
 [^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
