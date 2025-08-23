@@ -4,7 +4,10 @@
 - In international marketing, an agreement by which a company (the licensor) permits a foreign company (the licensee) to set up a business in the foreign market using the licensor's manufacturing processes, patents, trademarks, trade secrets, etc., in exchange for payment of a fee or royalty.
 ## Source[^2]
 - Allowing another firm, for payment, to make use of a patent or trademark. This is a method of profiting from a patent without the need to undertake investment on the scale necessary to exploit an innovatory idea. The advantage of licensing over sale of the patent is that is allows the inventor to retain ownership. Licensing is also used by firms to shift profit to low-tax jurisdictions by requiring subsidiaries in high-tax jurisdictions to pay a licence fee, and locating the subsidiary receiving the fee in a low-tax jurisdiction. See also Base Erosion and Profit Shifting (BEPS); tax AVOIDANCE.
+## Source[^3]
+- $n$. a system in which the medical register shows whether a doctor is a licensed medical practitioner or holds registration only. It is the licence to practise rather than registration that signifies to patients and employers that a doctor has the legal authority to hold a post as a doctor, write prescriptions, sign death certificates, and exercise various other legal privileges. See also REVALIDATION.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

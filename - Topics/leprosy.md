@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (Hansen's disease) $n$. a chronic disease, caused by the bacterium Mycobacterium leprae, that affects the skin, mucous membranes, and nerves. It is confined mainly to the tropics and is transmitted by direct contact. After an incubation period of 1-30 years, symptoms develop gradually and mainly involve the skin and nerves. Lepromatous (multibacillary) leprosy is a contagious steadily progressive form of the disease characterized by the development of widely distributed lumps on the skin, thickening of the skin and nerves, and in serious cases by severe numbness of the skin, muscle weakness, and paralysis, which leads to disfigurement and deformity. Tuberculosis is a common complication. Tuberculoid leprosy is a benign, often self-limiting, form of leprosy causing discoloration and disfiguration of patches of skin (sparsely distributed) associated with localized numbness. Indeterminate leprosy is a form of the disease in which skin manifestations represent a combination of the two main types; tuberculoid and indeterminate leprosy are known as paucibacillary leprosy.
+- Like tuberculosis, leprosy should be treated with a combination of antibacterial drugs, to overcome the problem of resistance developing to a single drug; the WHO advocates a combination of rifampicin and dapsone for six months to treat paucibacillary leprosy and these drugs with the addition of clofazimine for multibacillary leprosy, this multidrug therapy (MDT) to be continued for two years. Reconstructive surgery can repair some of the damage caused by the disease. A vaccine is being developed and tested.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
