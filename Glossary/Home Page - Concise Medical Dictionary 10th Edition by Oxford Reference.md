@@ -8336,159 +8336,187 @@ Reviewed: false
 	6560. lithuria
 		1. $n$. see HYPERURICURIA.
 	
-	6561. litre
-	6562. Little's area
-	6563. Little's disease
-	6564. Littre's hernia
+	6561. [[litre]]
+	6562. [[Little's area]]
+	6563. [[Little's disease]]
+	6564. [[Littre's hernia]]
 	6565. Litzmann's obliquity
-	6566. livedo
-	6567. liver
-	6568. livid
+		1. see ASYnCLITISM. \[K. C. T. Litzmann (1815-90), German obstetrician]
+	6566. [[livedo]]
+	6567. [[liver]]
+	6568. [[livid]]
 	6569. lividity
+		1. $n$. see HYPOSTASIS.
 	6570. living will
+		1. see ADVANCE DIRECTIVE, DECISION, OR STATEMENT.
 	
 	6571. lixisenatide
-	6572. LLETZ
+		1. $n$. see GLP-1 RECEPTOR AGONISTS.
+	6572. [[LLETZ]]
 	6573. LMC
-	6574. Loa
-	6575. lobe
-	6576. lobectomy
+		1. see LOCAL MEDICAL COMMITTEE.
+	6574. [[Loa]]
+	6575. [[lobe]]
+	6576. [[lobectomy]]
 	6577. lobotomy
-	6578. lobular carcinoma
-	6579. lobule
-	6580. local education and training board
+		1. (prefrontal leucotomy) n. see LEUCOTOMY.
+	6578. [[lobular carcinoma]]
+	6579. [[lobule]]
+	6580. [[local education and training board]]
 	
-	6581. local involvement networks
-	6582. local medical committee
-	6583. lochia
+	6581. [[local involvement networks]]
+	6582. [[local medical committee]]
+	6583. [[lochia]]
 	6584. locked-in syndrome
+		1. see VEGETATIVE STATE.
 	6585. lockjaw
+		1. n. see TETANUS.
 	6586. locomotor ataxia
-	6587. loculation
-	6588. loculus((in anatomy))
-	6589. locum tenens
-	6590. locus
+		1. see TABES DORSALIS.
+	6587. [[loculation]]
+	6588. [[loculus]]
+	6589. [[locum tenens]]
+	6590. [[locus]]
 	
-	6591. lofepramine
-	6592. Löfgren's syndrome
-	6593. log-
-	6594. LogMAR chart
-	6595. logopaedics
-	6596. logorrhoea
-	6597. -logy
-	6598. loiasis
-	6599. loin
+	6591. [[lofepramine]]
+	6592. [[Löfgren's syndrome]]
+	6593. [[log-]]
+	6594. [[LogMAR chart]]
+	6595. [[logopaedics]]
+	6596. [[logorrhoea]]
+	6597. [[-logy]]
+	6598. [[loiasis]]
+	6599. [[loin]]
 	6600. Lomotil
+		1. $n$. see CO-PHENOTROPE.
 	
 	6601. long-sightedness
-	6602. long-stretch bandage
-	6603. longitudinal study
-	6604. long QT syndrome
-	6605. loop
+		1. $n$. see HYPERMETROPIA.
+	6602. [[long-stretch bandage]]
+	6603. [[longitudinal study]]
+	6604. [[long QT syndrome]]
+	6605. [[loop]]
 	6606. loop system
-	6607. loosening of associations((in psychiatry))
+		1. see INDUCTION LOOP SYSTEM.
+	6607. [[loosening of associations]]
 	6608. Looser zone
-	6609. loperamide
+		1. see OSTEOMALACIA. \[E. Looser (1877-1936), Swiss surgeon]
+	6609. [[loperamide]]
 	6610. lopinavir
+		1. $n$. see PROTEASE INHIBITOR.
 	
-	6611. loprazolam
+	6611. [[loprazolam]]
 	6612. loratidine
-	6613. lorazepam
-	6614. lordosis
+		1. $n$. see ANTIHISTAMINE.
+	6613. [[lorazepam]]
+	6614. [[lordosis]]
 	6615. losartan
-	6616. loss
-	6617. lotion
+		1. $n$. see ANGIOTENSIN II ANTAGONIST.
+	6616. [[loss]]
+	6617. [[lotion]]
 	6618. Lou Gehrig's disease
-	6619. loupe
-	6620. louse
+		1. amyotrophic lateral sclerosis. See also MOTOR NEURON DISEASE. \[Lou Gehrig (1903-41), US baseball player who suffered from it]
+	6619. [[loupe]]
+	6620. [[louse]]
 	
-	6621. Løvset's manoeuvre
-	6622. low-density lipoprotein
-	6623. low-molecular-weight heparin
+	6621. [[Løvset's manoeuvre]]
+	6622. [[low-density lipoprotein]]
+	6623. [[low-molecular-weight heparin]]
 	6624. Lowe's syndrome
-	6625. lower urinary tract symptoms
-	6626. lower uterine segment
-	6627. lozenge
+		1. see DENT's DISEASE.
+	6625. [[lower urinary tract symptoms]]
+	6626. [[lower uterine segment]]
+	6627. [[lozenge]]
 	6628. LSD
-	6629. lubb-dupp
+		1. see LYSERGIC ACID DIETHYLAMIDE.
+	6629. [[lubb-dupp]]
 	6630. Lucentis
+		1. $n$. see RANIBIZUMAB.
 	
-	6631. lucid interval
-	6632. Ludwig's angina
-	6633. lues
-	6634. Lugol's solution
-	6635. lumbago
-	6636. lumbar
-	6637. lumbar puncture
-	6638. lumbar triangle
-	6639. lumbar vertebrae
-	6640. lumbo-
+	6631. [[lucid interval]]
+	6632. [[Ludwig's angina]]
+	6633. [[lues]]
+	6634. [[Lugol's solution]]
+	6635. [[lumbago]]
+	6636. [[lumbar]]
+	6637. [[lumbar puncture]]
+	6638. [[lumbar triangle]]
+	6639. [[lumbar vertebrae]]
+	6640. [[lumbo-]]
 	
-	6641. lumbosacral
-	6642. lumen
-	6643. luminescence
-	6644. lumpectomy
-	6645. lunate bone
-	6646. lung
-	6647. lung cancer
-	6648. lunula
-	6649. lupus
-	6650. lupus anticoagulant
+	6641. [[lumbosacral]]
+	6642. [[lumen]]
+	6643. [[luminescence]]
+	6644. [[lumpectomy]]
+	6645. [[lunate bone]]
+	6646. [[lung]]
+	6647. [[lung cancer]]
+	6648. [[lunula]]
+	6649. [[lupus]]
+	6650. [[lupus anticoagulant]]
 	
-	6651. lupus erythematosus
-	6652. lupus nephritis
-	6653. lupus verrucosus
-	6654. lupus vulgaris
-	6655. lute((in dentistry))
+	6651. [[lupus erythematosus]]
+	6652. [[lupus nephritis]]
+	6653. [[lupus verrucosus]]
+	6654. [[lupus vulgaris]]
+	6655. [[lute]]
 	6656. luteal cyst
-	6657. lutein
-	6658. luteinizing hormone
-	6659. luteo-
+		1. see OVARIAN CYST.
+	6657. [[lutein]]
+	6658. [[luteinizing hormone]]
+	6659. [[luteo-]]
 	6660. luteotrophic hormone
+		1. (luteotrophin) see PROLACTIN.
 	
 	6661. LUTS
-	6662. lux
-	6663. luxation
-	6664. lyase
+		1. see LOWER URINARY TRACT SYMPTOMS.
+	6662. [[lux]]
+	6663. [[luxation]]
+	6664. [[lyase]]
 	6665. Lyell's syndrome
-	6666. Lyme disease
-	6667. lymph
-	6668. lymphaden-
-	6669. lymphadenectomy
-	6670. lymphadenitis
+		1. see TOXIC EPIDERMAL NECROLYSIS. \[A. Lyell (20th century), British dermatologist]
+	6666. [[Lyme disease]]
+	6667. [[lymph]]
+	6668. [[lymphaden-]]
+	6669. [[lymphadenectomy]]
+	6670. [[lymphadenitis]]
 	
-	6671. lymphadenopathy
-	6672. lymphangi-
-	6673. lymphangiectasis
-	6674. lymphangiography
-	6675. lymphangioma
-	6676. lymphangiosarcoma
-	6677. lymphangitis
-	6678. lymphatic
-	6679. lymphatic system
-	6680. lymph node
+	6671. [[lymphadenopathy]]
+	6672. [[lymphangi-]]
+	6673. [[lymphangiectasis]]
+	6674. [[lymphangiography]]
+	6675. [[lymphangioma]]
+	6676. [[lymphangiosarcoma]]
+	6677. [[lymphangitis]]
+	6678. [[lymphatic]]
+	6679. [[lymphatic system]]
+	6680. [[lymph node]]
 	
-	6681. lympho-
-	6682. lymphoblast
-	6683. lymphocele
-	6684. lymphocyte
+	6681. [[lympho-]]
+	6682. [[lymphoblast]]
+	6683. [[lymphocele]]
+	6684. [[lymphocyte]]
 	6685. lymphocytopenia
-	6686. lymphocytosis
-	6687. lymphoedema
-	6688. lymphogranuloma venereum
+		1. $n$. see LYMPHOPENIA.
+	6686. [[lymphocytosis]]
+	6687. [[lymphoedema]]
+	6688. [[lymphogranuloma venereum]]
 	6689. lymphography
-	6690. lymphoid tissue
+		1. $n$. see LYMPHANGIOGRAPHY.
+	6690. [[lymphoid tissue]]
 	
-	6691. lymphokine
-	6692. lymphoma
-	6693. lymphopenia
+	6691. [[lymphokine]]
+	6692. [[lymphoma]]
+	6693. [[lymphopenia]]
 	6694. lymphoplasmacytic lymphoma
-	6695. lymphopoiesis
-	6696. lymphorrhagia
+		1. see WALDENSTROM'S MACROGLOBULINAEMIA.
+	6695. [[lymphopoiesis]]
+	6696. [[lymphorrhagia]]
 	6697. lymphosarcoma
-	6698. lymphoscintigraphy
-	6699. lymphotoxin
-	6700. lymphovascular invasion
+		1. $n$. a former name for non-Hodgkin's lymphoma.
+	6698. [[lymphoscintigraphy]]
+	6699. [[lymphotoxin]]
+	6700. [[lymphovascular invasion]]
 	
 	6701. lymphuria
 	6702. Lynch syndrome
