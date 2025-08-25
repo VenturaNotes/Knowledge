@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. an inflammation of the meninges due to infection by viruses or bacteria or fungi. Meningitis causes an intense headache, fever, loss of appetite, intolerance to light (photophobia) and sound (phonophobia), rigidity of muscles, especially those in the neck (see also KERNIG's SIGN), and in severe cases convulsions, vomiting, and delirium leading to death. The most important causes of bacterial meningitis are Haemophilus influenzae (especially in young children); two strains of Neisseria meningitidis (the meningococcus), B and C; and Streptococcus pneumoniae (pneumococcal meningitis). Immunization against Haemophilus, Neisseria meningitidis B and C, and pneumococcal meningitis is now routine for children (see Hib VACCine; MENingitis B VACCINE; MENingitis C VACCINE; PNEUMOCOCCAL VACCINE); In meningococcal meningitis (meningitis B and C, previously known as cerebrospinal fever and spotted fever) the symptoms appear suddenly and the bacteria can cause widespread meningococcal infection, which may be associated with meningococcal septicaemia, with its characteristic purple haemorrhagic rash anywhere on the body. The rash does not disappear on pressure (if a glass is pressed on the rash, it is still visible through the glass). Unless quickly diagnosed and treated, death can occur within a few hours.
+- Bacterial meningitis is treated with antibiotics administered as soon as possible after diagnosis. With the exception of herpes simplex encephalitis (which is treated with aciclovir), viral meningitis does not respond to drugs but normally has a relatively benign prognosis. See also LEPTOMENINGITIS; PACHYMENINGITIS.
+- https://www.meningitisnow.org/
+	- Website of Meningitis Now: includes information on signs and symptoms of meningitis
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- a group of conditions affecting the macula lutea of the eye, resulting in a reduction or loss of central vision. Age-related macular degeneration (AMD, ARMD) is the most common cause of poor vision in the elderly. Two types are commonly recognized. Atrophic (or dry) AMD results from chronic choroidal ischaemia: small blood vessels of the choroid, which lies beneath the retina, become constricted, reducing the blood supply to the macula. This gives rise to degenerative changes in the retinal pigment epithelium (RPE; see RETINA), clinically recognized by macular pigmentation and the deposition of drusen. Wet AMD is associated with the growth of abnormal new blood vessels underneath the retina, derived from the choroid (see NEOVASCULARIZATION). These can leak fluid and blood beneath the retina, which further reduces the macular function. Nutritional supplements can delay the progression of AMD in some cases. Laser surgery (see PHOTOCOAGULATION; PHOTODYNAMIC THERAPY) and anti-VEGF therapy (see VASCULAR ENDOTHELIAL GROWTH FACTOR) can delay progression in cases of wet AMD.
 ## References
 
-[^1]:
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

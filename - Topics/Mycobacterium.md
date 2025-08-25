@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- n. a genus of rodlike Gram-positive aerobic bacteria that can form filamentous branching structures. Some species are pathogenic to animals and humans: M. leprae (Hansen's bacillus) causes leprosy; M. tuberculosis (Koch's bacillus) causes tuberculosis. M. bovis causes tuberculosis in cattle but can also infect the human lungs, joints, and intestines. M. paratuberculosis, which causes Johne's disease in cattle, can also be transmitted in milk and is suspected of being a cause of Crohn's disease.
+- M. tuberculosis is by far the most common species responsible for infections of the lung. Other mycobacteria that infect the lung are variously described as atypical, anonymous, or opportunistic $textendash$ the favored term since they usually require pre-existing lung damage or a defect in the patient's immunity before they can give rise to infection. The opportunistic mycobacteria that most commonly cause lung infections are M. kansacii, M. xenopi, M. malmoense, and a group known as the MAI complex (M. avium, M. intracellulare). Infections caused by all these organisms can mimic pulmonary tuberculosis but are much more difficult to treat since they are resistant to many of the antituberculosis drugs. The MAI organisms are particularly likely to cause superimposed infection in cases of AIDS.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
