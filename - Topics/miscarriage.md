@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. spontaneous loss of pregnancy before 24 weeks, formerly known as spontaneous abortion. In threatened miscarriage there is vaginal bleeding (often minimal) associated with mild period-type pains; the cervix is closed and ultrasound confirms a viable pregnancy. In inevitable miscarriage, vaginal bleeding is associated with crampy pelvic pains and an open cervix; the pregnancy has not yet been expelled, but eventually will be. The miscarriage is incomplete if the cervix remains open and the uterus still contains some fetal tissue (which may need to be removed to prevent further haemorrhage). The miscarriage is complete if the cervix has closed and ultrasound scanning shows an empty uterus. Failure of a nonviable fetus to be expelled from the uterus is called a silent (or missed) miscarriage. A late miscarriage is one occurring after 20-24 weeks when the fetus has shown no signs of life after delivery. Recurrent miscarriage is the loss of three or more pregnancies consecutively; there are many possible causes, including antiphospholipid antibody syndrome.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

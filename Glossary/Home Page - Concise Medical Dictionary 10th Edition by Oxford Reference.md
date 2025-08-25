@@ -8518,1127 +8518,1298 @@ Reviewed: false
 	6699. [[lymphotoxin]]
 	6700. [[lymphovascular invasion]]
 	
-	6701. lymphuria
+	6701. [[lymphuria]]
 	6702. Lynch syndrome
-	6703. Lyon hypothesis
-	6704. lys-
-	6705. lysergic acid diethylamide
-	6706. lysin
-	6707. lysine
-	6708. lysis
-	6709. -lysis
-	6710. lysogenic
+		1. see HEREDITARY NONPOLYPOSIS COLORECTAL CANCER.
+	6703. [[Lyon hypothesis]]
+	6704. [[lys-]]
+	6705. [[lysergic acid diethylamide]]
+	6706. [[lysin]]
+	6707. [[lysine]]
+	6708. [[lysis]]
+	6709. [[-lysis]]
+	6710. [[lysogenic]]
 	
-	6711. lysogeny
-	6712. lysosome
-	6713. lysozyme
-	6714. lytic
-	6715. mAsymbol for
+	6711. [[lysogeny]]
+	6712. [[lysosome]]
+	6713. [[lysozyme]]
+	6714. [[lytic]]
+	6715. mA
+		1. symbol for *milliamp.
 	6716. MabThera
-	6717. maceration
-	6718. machinery murmur
-	6719. Macleod's syndrome
-	6720. macr-
+		1. n. see RITUXIMAB.
+	6717. [[maceration]]
+	6718. [[machinery murmur]]
+	6719. [[Macleod's syndrome]]
+	6720. [[macr-]]
 	
-	6721. macrocephaly
-	6722. macrocheilia
-	6723. macrocyte
-	6724. macrocytosis
-	6725. macrodactyly
-	6726. macrodontia
-	6727. macrogamete
-	6728. macrogametocyte
-	6729. macrogenitosoma
-	6730. macroglia
+	6721. [[macrocephaly]]
+	6722. [[macrocheilia]]
+	6723. [[macrocyte]]
+	6724. [[macrocytosis]]
+	6725. [[macrodactyly]]
+	6726. [[macrodontia]]
+	6727. [[macrogamete]]
+	6728. [[macrogametocyte]]
+	6729. [[macrogenitosoma]]
+	6730. [[macroglia]]
 	
-	6731. macroglobulin
-	6732. macroglobulinaemia
-	6733. macroglossia
-	6734. macrognathia
-	6735. macromelia
-	6736. macronormoblast
-	6737. macrophage
-	6738. macroprolactin
-	6739. macropsia
-	6740. macroscopic
+	6731. [[macroglobulin]]
+	6732. [[macroglobulinaemia]]
+	6733. [[macroglossia]]
+	6734. [[macrognathia]]
+	6735. [[macromelia]]
+	6736. [[macronormoblast]]
+	6737. [[macrophage]]
+	6738. [[macroprolactin]]
+	6739. [[macropsia]]
+	6740. [[macroscopic]]
 	
-	6741. macrosomia
-	6742. macrotia
-	6743. macula
-	6744. macular degeneration
-	6745. macule
-	6746. maculopapular
-	6747. maculopathy
-	6748. madarosis
-	6749. Maddox rod
+	6741. [[macrosomia]]
+	6742. [[macrotia]]
+	6743. [[macula]]
+	6744. [[macular degeneration]]
+	6745. [[macule]]
+	6746. [[maculopapular]]
+	6747. [[maculopathy]]
+	6748. [[madarosis]]
+	6749. [[Maddox rod]]
 	6750. Madopar
+		1. n. see LEVODOPA.
 	
-	6751. Madura foot
-	6752. Madurella
+	6751. [[Madura foot]]
+	6752. [[Madurella]]
 	6753. maduromycosis
-	6754. MAG3
+		1. $n$. see MADURA FOOT.
+	6754. [[MAG3]]
 	6755. magenta
-	6756. maggot
-	6757. magic bullet
-	6758. Magill's forceps
-	6759. magnesium
-	6760. magnesium carbonate
+		1. $n$. see FUCHSIN.
+	6756. [[maggot]]
+	6757. [[magic bullet]]
+	6758. [[Magill's forceps]]
+	6759. [[magnesium]]
+	6760. [[magnesium carbonate]]
 	
-	6761. magnesium hydroxide
-	6762. magnesium sulphate
-	6763. magnesium trisilicate
+	6761. [[magnesium hydroxide]]
+	6762. [[magnesium sulphate]]
+	6763. [[magnesium trisilicate]]
 	6764. magnetic imager
-	6765. magnetic resonance imaging
-	6766. magnetic resonance spectroscopy
-	6767. MAGPI operation
-	6768. MAI complex
-	6769. main d'accoucheur
+		1. see 3-D MAGNETIC IMAGER.
+	6765. [[magnetic resonance imaging]]
+	6766. [[magnetic resonance spectroscopy]]
+	6767. [[MAGPI operation]]
+	6768. [[MAI complex]]
+	6769. [[main d'accoucheur]]
 	6770. major histocompatibility complex
+		1. see MHC.
 	
-	6771. mal
-	6772. mal-
-	6773. malabsorption
-	6774. malacia
-	6775. -malacia
-	6776. maladie de Roger
-	6777. malaise
-	6778. malakoplakia
+	6771. [[mal]]
+	6772. [[mal-]]
+	6773. [[malabsorption]]
+	6774. [[malacia]]
+	6775. [[-malacia]]
+	6776. [[maladie de Roger]]
+	6777. [[malaise]]
+	6778. [[malakoplakia]]
 	6779. malar bone
-	6780. malaria
+		1. see ZYGOMATIC BONE.
+	6780. [[malaria]]
 	
 	6781. Malarone
-	6782. Malassezia
-	6783. malathion
-	6784. mal de debarquement syndrome
-	6785. malformation
-	6786. malignant
-	6787. malignant hypertension
+		1. $n$. see PROGUANIL.
+	6782. [[Malassezia]]
+	6783. [[malathion]]
+	6784. [[mal de debarquement syndrome]]
+	6785. [[malformation]]
+	6786. [[malignant]]
+	6787. [[malignant hypertension]]
 	6788. malignant melanoma
+		1. see MELANOMA.
 	6789. malignant vasovagal syndrome
-	6790. malingering
+		1. see NEUROCARDIOGENIC SYNCOPE.
+	6790. [[malingering]]
 	
-	6791. malleolus
-	6792. mallet finger
-	6793. malleus
-	6794. Mallory's triple stain
-	6795. Mallory-Weiss syndrome
-	6796. Mallory bodies
-	6797. malnutrition
+	6791. [[malleolus]]
+	6792. [[mallet finger]]
+	6793. [[malleus]]
+	6794. [[Mallory's triple stain]]
+	6795. [[Mallory-Weiss syndrome]]
+	6796. [[Mallory bodies]]
+	6797. [[malnutrition]]
 	6798. malnutrition universal screening tool
-	6799. malocclusion
-	6800. Malpighian body
+		1. see MUST
+	6799. [[malocclusion]]
+	6800. [[Malpighian body]]
 	
-	6801. Malpighian layer
-	6802. malposition((in obstetrics))
-	6803. malpractice
-	6804. malpresentation
-	6805. malt
-	6806. MALT
-	6807. malt-worker's lung
+	6801. [[Malpighian layer]]
+	6802. [[malposition]]
+	6803. [[malpractice]]
+	6804. [[malpresentation]]
+	6805. [[malt]]
+	6806. 
+	6807. [[malt-worker's lung]]
 	6808. Malta fever
-	6809. maltase
-	6810. maltoma
+		1. see BRUCELLOSIS.
+	6809. [[maltase]]
+	6810. [[maltoma]]
 	
-	6811. maltose
-	6812. malunion
+	6811. [[maltose]]
+	6812. [[malunion]]
 	6813. mamilla
-	6814. mamillary bodies
+		1. $n$. see NIPPLE.
+	6814. [[mamillary bodies]]
 	6815. mamma
-	6816. mammary gland
-	6817. mammography
-	6818. mammoplasty
-	6819. mammothermography
-	6820. managed care
+		1. $n$. see BREAST.
+	6816. [[mammary gland]]
+	6817. [[mammography]]
+	6818. [[mammoplasty]]
+	6819. [[mammothermography]]
+	6820. [[managed care]]
 	
-	6821. mancinism
-	6822. mandible
-	6823. mandibular advancement splint
-	6824. manganese
-	6825. mania
-	6826. -mania
+	6821. [[mancinism]]
+	6822. [[mandible]]
+	6823. [[mandibular advancement splint]]
+	6824. [[manganese]]
+	6825. [[mania]]
+	6826. [[-mania]]
 	6827. manic depression
+		1. a former (but still quite commonly used) name for bipolar affective disorder.
 	6828. manikin
-	6829. manipulation
+		1. $n$. see HOMUNCULUS.
+	6829. [[manipulation]]
 	6830. Mann-Whitney U test
+		1. see SIGNIFICANCE.
 	
-	6831. mannitol
-	6832. mannosidosis
-	6833. manometer
-	6834. manometry
-	6835. manslaughter
-	6836. mantle((in radiotherapy))
+	6831. [[mannitol]]
+	6832. [[mannosidosis]]
+	6833. [[manometer]]
+	6834. [[manometry]]
+	6835. [[manslaughter]]
+	6836. mantle
+		1. adj. (in radiotherapy) see TREATMENT FIELD.
 	6837. Mantoux test
-	6838. manual lymphatic drainage
+		1. see TUBERCULIN. \[C. Mantoux (1877-1947), French physician]
+	6838. [[manual lymphatic drainage]]
 	6839. manual vacuum aspiration
-	6840. manubrium
+		1. (MVA) see VACUUM ASPIRATION.
+	6840. [[manubrium]]
 	
-	6841. manuka honey
+	6841. [[manuka honey]]
 	6842. MAO
-	6843. MAO inhibitor
-	6844. maple syrup urine disease
-	6845. marasmus
-	6846. maraviroc
+		1. see MONOAMINE OXIDASE.
+	6843. [[MAO inhibitor]]
+	6844. [[maple syrup urine disease]]
+	6845. [[marasmus]]
+	6846. [[maraviroc]]
 	6847. marble-bone disease
-	6848. Marburg disease
-	6849. march fracture
-	6850. Marcus Gunn jaw-winking syndrome
+		1. see OSTEOPETROSIS.
+	6848. [[Marburg disease]]
+	6849. [[march fracture]]
+	6850. [[Marcus Gunn jaw-winking syndrome]]
 	
-	6851. Marfan's syndrome
+	6851. [[Marfan's syndrome]]
 	6852. marijuana
-	6853. Marion's disease
-	6854. Marjolin's ulcer
+		1. n. see CANNABIS.
+	6853. [[Marion's disease]]
+	6854. [[Marjolin's ulcer]]
 	6855. marrow
-	6856. marsupialization
+		1. $n$. see BONE MARROW.
+	6856. [[marsupialization]]
 	6857. MAS
-	6858. masculinization
-	6859. massage
-	6860. masseter
+		1. see MANDIBULAR ADVANCEMENT SPLINT.
+	6858. [[masculinization]]
+	6859. [[massage]]
+	6860. [[masseter]]
 	
-	6861. mast-
-	6862. mastalgia
-	6863. mast cell
-	6864. mastectomy
-	6865. mastication
-	6866. mastitis
-	6867. mastocytosis
-	6868. mastoid
-	6869. mastoidectomy
-	6870. mastoiditis
+	6861. [[mast-]]
+	6862. [[mastalgia]]
+	6863. [[mast cell]]
+	6864. [[mastectomy]]
+	6865. [[mastication]]
+	6866. [[mastitis]]
+	6867. [[mastocytosis]]
+	6868. [[mastoid]]
+	6869. [[mastoidectomy]]
+	6870. [[mastoiditis]]
 	
-	6871. mastoid process
-	6872. masturbation
+	6871. [[mastoid process]]
+	6872. [[masturbation]]
 	6873. matched pair study
-	6874. materia medica
-	6875. maternal death
-	6876. maternal mortality rate
-	6877. matrix
-	6878. matrix band
-	6879. matrix metalloproteinase
-	6880. maturation
+		1. see CASE CONTROL STUDY.
+	6874. [[materia medica]]
+	6875. [[maternal death]]
+	6876. [[maternal mortality rate]]
+	6877. [[matrix]]
+	6878. [[matrix band]]
+	6879. [[matrix metalloproteinase]]
+	6880. [[maturation]]
 	
-	6881. maturity-onset diabetes of the young
-	6882. Mauriceau-Smellie-Viet manoeuvre
-	6883. maxilla
+	6881. [[maturity-onset diabetes of the young]]
+	6882. [[Mauriceau-Smellie-Viet manoeuvre]]
+	6883. [[maxilla]]
 	6884. maxillary sinus
-	6885. maxillofacial
+		1. (maxillary antrum) see PARANASAL SINUSES.
+	6885. [[maxillofacial]]
 	6886. maximin principle
-	6887. maximum intensity projection
-	6888. maxwell
-	6889. Maydl hernia
-	6890. Mayer-Rokitansky-Küster-Hauser syndrome
+		1. see VEIL OF IGNORANCE.
+	6887. [[maximum intensity projection]]
+	6888. [[maxwell]]
+	6889. [[Maydl hernia]]
+	6890. [[Mayer-Rokitansky-Küster-Hauser syndrome]]
 	
-	6891. Mayo operation
+	6891. [[Mayo operation]]
 	6892. MBRRACE-UK
-	6893. McArdle's disease
-	6894. McBurney's point
-	6895. McCormick toy test
-	6896. McCune-Albright syndrome
+		1. see CONFIDENTIAL ENQUIRIES.
+	6893. [[McArdle's disease]]
+	6894. [[McBurney's point]]
+	6895. [[McCormick toy test]]
+	6896. [[McCune-Albright syndrome]]
 	6897. MCI
-	6898. McRobert's manoeuvre
+		1. see MILD COGNITIVE IMPAIRMENT.
+	6898. [[McRobert's manoeuvre]]
 	6899. MCS
+		1. see MINIMALLY CONSCIOUS STATE.
 	6900. MCU
+		1. micturating cystourethrogram. See URETHROGRAPHY.
 	
 	6901. MDCT
+		1. see MULTIDETECTOR COMPUTERIZED TOMOGRAPHY.
 	6902. MdDS
+		1. see MAL DE DEBARQUEMENT SYNDROME.
 	6903. MDRD eGFR
+		1. see EGFR.
 	6904. MDS
+		1. see MYELODYSPLASTIC SYNDROMES.
 	6905. MDT
+		1. see MULTIDISCIPLINARY TEAM.
 	6906. ME
+		1. myalgic encephalomyelitis. See CFS/ME/PVF.
 	6907. MEA
+		1. microwave endometrial ablation.
 	6908. meals on wheels
-	6909. mean
-	6910. measles
+		1. see SOCIAL SERVICES.
+	6909. [[mean]]
+	6910. [[measles]]
 	
-	6911. meat-
-	6912. meatus((in anatomy))
-	6913. mebendazole
+	6911. [[meat-]]
+	6912. [[meatus]]
+	6913. [[mebendazole]]
 	6914. mebeverine
-	6915. mechanoreceptor
-	6916. mechanotherapy
-	6917. Meckel's cartilage
+		1. $n$. see ANTISPASMODIC.
+	6915. [[mechanoreceptor]]
+	6916. [[mechanotherapy]]
+	6917. [[Meckel's cartilage]]
 	6918. Meckel's diverticulum
-	6919. meconism
-	6920. meconium
+		1. see DIVERTICULUM.
+	6919. [[meconism]]
+	6920. [[meconium]]
 	
-	6921. meconium aspiration
-	6922. media
-	6923. medial
-	6924. median
-	6925. median raphe
-	6926. mediastinitis
-	6927. mediastinoscopy
-	6928. mediastinum
-	6929. Medicaid
-	6930. medical
+	6921. [[meconium aspiration]]
+	6922. [[media]]
+	6923. [[medial]]
+	6924. [[median]]
+	6925. [[median raphe]]
+	6926. [[mediastinitis]]
+	6927. [[mediastinoscopy]]
+	6928. [[mediastinum]]
+	6929. [[Medicaid]]
+	6930. [[medical]]
 	
-	6931. medical assistant
+	6931. [[medical assistant]]
 	6932. medical audit
-	6933. medical certificate
-	6934. Medical certificates
+		1. see CLINICAL AUDIT.
+	6933. [[medical certificate]]
+	6934. 
 	6935. medical committee
-	6936. medical emergency team
-	6937. medical ethics
-	6938. medical jurisprudence
+		1. see LOCAL MEDICAL COMMITTEE.
+	6936. [[medical emergency team]]
+	6937. [[medical ethics]]
+	6938. [[medical jurisprudence]]
 	6939. medically indigent patients
+		1. see CHARITY PATIENTS.
 	6940. medical negligence
+		1. see NEGLIGENCE.
 	
-	6941. Medical Research Council
-	6942. medical tourism
-	6943. Medicare
-	6944. medicated
-	6945. medication
-	6946. medicine
-	6947. Medicines and Healthcare products Regulatory Agency
-	6948. medicochirurgical
-	6949. medicolegal
+	6941. [[Medical Research Council]]
+	6942. [[medical tourism]]
+	6943. [[Medicare]]
+	6944. [[medicated]]
+	6945. [[medication]]
+	6946. [[medicine]]
+	6947. [[Medicines and Healthcare products Regulatory Agency]]
+	6948. [[medicochirurgical]]
+	6949. [[medicolegal]]
 	6950. Mediterranean fever
+		1. (1) see BRUCELLOSIS. 
+		2. (2) see POLYSEROSITIS.
 	
-	6951. medium
-	6952. medroxyprogesterone
-	6953. medulla
-	6954. medulla oblongata
-	6955. medullary carcinoma
+	6951. [[medium]]
+	6952. [[medroxyprogesterone]]
+	6953. [[medulla]]
+	6954. [[medulla oblongata]]
+	6955. [[medullary carcinoma]]
 	6956. medullated nerve fibre
-	6957. medulloblastoma
-	6958. mefenamic acid
-	6959. mefloquine
-	6960. mega-
+		1. (myelinated nerve fibre) see MYELIN.
+	6957. [[medulloblastoma]]
+	6958. [[mefenamic acid]]
+	6959. [[mefloquine]]
+	6960. [[mega-]]
 	
-	6961. megacolon
+	6961. [[megacolon]]
 	6962. megadontia
-	6963. megakaryoblast
-	6964. megakaryocyte
-	6965. megal-
-	6966. megaloblast
-	6967. megalocephaly
+		1. $n$. see MACRODONTIA.
+	6963. [[megakaryoblast]]
+	6964. [[megakaryocyte]]
+	6965. [[megal-]]
+	6966. [[megaloblast]]
+	6967. [[megalocephaly]]
 	6968. megalocyte
-	6969. megalomania
-	6970. -megaly
+		1. $n$. see MACROCYTE.
+	6969. [[megalomania]]
+	6970. [[-megaly]]
 	
-	6971. megaureter
-	6972. megestrol
-	6973. meglitinides
-	6974. megophthalmia
+	6971. [[megaureter]]
+	6972. [[megestrol]]
+	6973. [[meglitinides]]
+	6974. [[megophthalmia]]
 	6975. meibomian cyst
-	6976. meibomian glands
-	6977. meibomianitis
-	6978. Meigs syndrome
-	6979. meiosis
-	6980. Meissner's plexus
+		1. $n$. see CHALAZION.
+	6976. [[meibomian glands]]
+	6977. [[meibomianitis]]
+	6978. [[Meigs syndrome]]
+	6979. [[meiosis]]
+	6980. [[Meissner's plexus]]
 	
-	6981. melaena
-	6982. melan-
-	6983. melancholia
-	6984. melanin
-	6985. melanism
-	6986. melanocyte
-	6987. melanocyte-stimulating hormone
-	6988. melanoma
-	6989. melanonychia
+	6981. [[melaena]]
+	6982. [[melan-]]
+	6983. [[melancholia]]
+	6984. [[melanin]]
+	6985. [[melanism]]
+	6986. [[melanocyte]]
+	6987. [[melanocyte-stimulating hormone]]
+	6988. [[melanoma]]
+	6989. [[melanonychia]]
 	6990. melanophore
+		1. $n$. see MELANIN.
 	
-	6991. melanoplakia
-	6992. melanosis
-	6993. melanuria
-	6994. MELAS
+	6991. [[melanoplakia]]
+	6992. [[melanosis]]
+	6993. [[melanuria]]
+	6994. [[MELAS]]
 	6995. melasma
-	6996. melatonin
-	6997. melioidosis
-	6998. Melkersson-Rosenthal syndrome
-	6999. melomelus
-	7000. melphalan
+		1. $n$. see CHLOASMA.
+	6996. [[melatonin]]
+	6997. [[melioidosis]]
+	6998. [[Melkersson-Rosenthal syndrome]]
+	6999. [[melomelus]]
+	7000. [[melphalan]]
 	
-	7001. memantine hydrochloride
-	7002. membrane
-	7003. membrane bone
+	7001. [[memantine hydrochloride]]
+	7002. [[membrane]]
+	7003. [[membrane bone]]
 	7004. membranous labyrinth
-	7005. membranous nephropathy
-	7006. Memokath
-	7007. memory cell
+		1. See labyrinth
+	7005. [[membranous nephropathy]]
+	7006. [[Memokath]]
+	7007. [[memory cell]]
 	7008. MEN
-	7009. men-
-	7010. MenACWY vaccine
+		1. multiple endocrine neoplasia. See MENS.
+	7009. [[men-]]
+	7010. [[MenACWY vaccine]]
 	
-	7011. menarche
-	7012. MENCAP
-	7013. Mendel's laws
-	7014. mendelism
-	7015. Mendelson's syndrome
-	7016. Ménétrier's disease
-	7017. Ménière's disease
-	7018. mening-
-	7019. meninges
-	7020. meningioma
+	7011. [[menarche]]
+	7012. [[MENCAP]]
+	7013. [[Mendel's laws]]
+	7014. [[mendelism]]
+	7015. [[Mendelson's syndrome]]
+	7016. [[Ménétrier's disease]]
+	7017. [[Ménière's disease]]
+	7018. [[mening-]]
+	7019. [[meninges]]
+	7020. [[meningioma]]
 	
-	7021. meningism
-	7022. meningitis
-	7023. meningitis B vaccine
-	7024. meningitis C vaccine
+	7021. [[meningism]]
+	7022. [[meningitis]]
+	7023. [[meningitis B vaccine]]
+	7024. [[meningitis C vaccine]]
 	7025. meningocele
-	7026. meningococcaemia
-	7027. meningococcus
-	7028. meningoencephalitis
+		1. $n$. see NEURAL TUBE DEFECTS.
+	7026. [[meningococcaemia]]
+	7027. [[meningococcus]]
+	7028. [[meningoencephalitis]]
 	7029. meningoencephalocele
+		1. $n$. see NEURAL TUBE DEFECTS.
 	7030. meningoencephalomyelitis
+		1. $n$. see MENINGOENCEPHALITIS.
 	
 	7031. meningomyelocele
-	7032. meningovascular
-	7033. meninx
-	7034. meniscectomy
-	7035. meniscus((in anatomy))
-	7036. Menkes kinky-hair disease
-	7037. menopause
-	7038. menorrhagia
-	7039. MENS
-	7040. menses
+		1. $n$. see NEURAL TUBE DEFECTS.
+	7032. [[meningovascular]]
+	7033. [[meninx]]
+	7034. [[meniscectomy]]
+	7035. [[meniscus]]
+	7036. [[Menkes kinky-hair disease]]
+	7037. [[menopause]]
+	7038. [[menorrhagia]]
+	7039. [[MENS]]
+	7040. [[menses]]
 	
-	7041. menstrual cycle
-	7042. menstruation
-	7043. mental1
-	7044. mental2
-	7045. mental age
-	7046. Mental Capacity Act 2005
-	7047. mental handicap
-	7048. Mental Health Act
-	7049. Mental Health Act Commission
-	7050. Mental Health Review Tribunal
+	7041. [[menstrual cycle]]
+	7042. [[menstruation]]
+	7043. [[mental]]
+	7044. 
+	7045. [[mental age]]
+	7046. [[Mental Capacity Act 2005]]
+	7047. [[mental handicap]]
+	7048. [[Mental Health Act]]
+	7049. [[Mental Health Act Commission]]
+	7050. [[Mental Health Review Tribunal]]
 	
-	7051. mental illness
-	7052. mental impairment((mostly in legal usage))
+	7051. [[mental illness]]
+	7052. [[mental impairment]]
 	7053. mental retardation
-	7054. mental state examination
-	7055. mento-
-	7056. mentum
-	7057. mepacrine
-	7058. meralgia paraesthetica
+		1. formerly, the state of those whose intellectual powers have failed to develop to such an extent that they are in need of care and protection and require special education. The preferred term is now learning disability.
+	7054. [[mental state examination]]
+	7055. [[mento-]]
+	7056. [[mentum]]
+	7057. [[mepacrine]]
+	7058. [[meralgia paraesthetica]]
 	7059. mercaptoacetyltriglycine
-	7060. mercaptopurine
+		1. $n$. see MAG3.
+	7060. [[mercaptopurine]]
 	
-	7061. mercurialism
-	7062. mercury
-	7063. merocrine
-	7064. merozoite
+	7061. [[mercurialism]]
+	7062. [[mercury]]
+	7063. [[merocrine]]
+	7064. [[merozoite]]
 	7065. MERS
-	7066. mes-
-	7067. MESA
+		1. see Middle EAST RESPIRATORY SYNDROME.
+	7066. [[mes-]]
+	7067. [[MESA]]
 	7068. mesalazine
+		1. $n$. see AMINOSALICYLATES.
 	7069. mesangial cells
-	7070. mesangiocapillary glomerulonephritis
+		1. see JUXTAGLOMERULAR APPARATUS.
+	7070. [[mesangiocapillary glomerulonephritis]]
 	
-	7071. mesaortitis
-	7072. mesarteritis
-	7073. mescaline
+	7071. [[mesaortitis]]
+	7072. [[mesarteritis]]
+	7073. [[mescaline]]
 	7074. mesencephalon
-	7075. mesenchyme
+		1. $n$. see MIDBRAIN.
+	7075. [[mesenchyme]]
 	7076. mesenteric adenitis
-	7077. mesenteric ischaemia
-	7078. mesentery
-	7079. mesial
-	7080. mesiodens
+		1. see ADENITIS.
+	7077. [[mesenteric ischaemia]]
+	7078. [[mesentery]]
+	7079. [[mesial]]
+	7080. [[mesiodens]]
 	
-	7081. mesmerism
-	7082. mesna
-	7083. mesoappendix
-	7084. mesocolon
-	7085. mesoderm
-	7086. mesometrium
-	7087. mesomorphic
-	7088. mesonephros
-	7089. mesophilic
-	7090. mesosalpinx
+	7081. [[mesmerism]]
+	7082. [[mesna]]
+	7083. [[mesoappendix]]
+	7084. [[mesocolon]]
+	7085. [[mesoderm]]
+	7086. [[mesometrium]]
+	7087. [[mesomorphic]]
+	7088. [[mesonephros]]
+	7089. [[mesophilic]]
+	7090. [[mesosalpinx]]
 	
-	7091. mesosome
-	7092. mesotendon
-	7093. mesothelioma
-	7094. mesothelium
-	7095. mesovarium
-	7096. mesozeaxanthin
-	7097. messenger RNA
-	7098. mestranol
+	7091. [[mesosome]]
+	7092. [[mesotendon]]
+	7093. [[mesothelioma]]
+	7094. [[mesothelium]]
+	7095. [[mesovarium]]
+	7096. [[mesozeaxanthin]]
+	7097. [[messenger RNA]]
+	7098. [[mestranol]]
 	7099. MET
-	7100. met-prefix denoting
+		1. see MEDICAL EMERGENCY TEAM.
+	7100. [[met-]]
 	
-	7101. meta-analysis
-	7102. metabolic syndrome
-	7103. metabolism
-	7104. metabolite
-	7105. metacarpal
-	7106. metacarpus
-	7107. metacentric
-	7108. metacercaria
-	7109. metachromasia
-	7110. metaethics
+	7101. [[meta-analysis]]
+	7102. [[metabolic syndrome]]
+	7103. [[metabolism]]
+	7104. [[metabolite]]
+	7105. [[metacarpal]]
+	7106. [[metacarpus]]
+	7107. [[metacentric]]
+	7108. [[metacercaria]]
+	7109. [[metachromasia]]
+	7110. [[metaethics]]
 	
-	7111. Metagonimus
-	7112. metamorphopsia
-	7113. metamyelocyte
-	7114. metanephrine and normetanephrine
-	7115. metanephros
-	7116. metaphase
-	7117. metaphysis
-	7118. metaplasia
-	7119. metaraminol
-	7120. metastasis
+	7111. [[Metagonimus]]
+	7112. [[metamorphopsia]]
+	7113. [[metamyelocyte]]
+	7114. [[metanephrine and normetanephrine]]
+	7115. [[metanephros]]
+	7116. [[metaphase]]
+	7117. [[metaphysis]]
+	7118. [[metaplasia]]
+	7119. [[metaraminol]]
+	7120. [[metastasis]]
 	
-	7121. metastasize((of a malignant tumour))
-	7122. metastatic calcification
-	7123. metatarsal
-	7124. metatarsalgia
-	7125. metatarsus
-	7126. metathalamus
-	7127. metencephalon
+	7121. [[metastasize]]
+	7122. [[metastatic calcification]]
+	7123. [[metatarsal]]
+	7124. [[metatarsalgia]]
+	7125. [[metatarsus]]
+	7126. [[metathalamus]]
+	7127. [[metencephalon]]
 	7128. meteorism
-	7129. -meter
-	7130. metformin
+		1. $n$. see TYMPANITES.
+	7129. [[-meter]]
+	7130. [[metformin]]
 	
-	7131. methadone
-	7132. methaemalbumin
-	7133. methaemoglobin
+	7131. [[methadone]]
+	7132. [[methaemalbumin]]
+	7133. [[methaemoglobin]]
 	7134. methanol
-	7135. methenamine
+		1. $n$. see METHYL ALCOHOL.
+	7135. [[methenamine]]
 	7136. methicillin
-	7137. methionine
-	7138. methotrexate
+		1. $n$. see METICILLIN.
+	7137. [[methionine]]
+	7138. [[methotrexate]]
 	7139. methotrimeprazine
-	7140. methyl alcohol
+		1. $n$. see LEVOMEPROMAZINE.
+	7140. [[methyl alcohol]]
 	
-	7141. methylated spirits
-	7142. methylcellulose
-	7143. methyldopa
-	7144. methylene blue
-	7145. methyl green
-	7146. methylisothiazolinone
-	7147. methylmalonic aciduria
-	7148. methylphenidate
-	7149. methylprednisolone
-	7150. methyl salicylate
+	7141. [[methylated spirits]]
+	7142. [[methylcellulose]]
+	7143. [[methyldopa]]
+	7144. [[methylene blue]]
+	7145. [[methyl green]]
+	7146. [[methylisothiazolinone]]
+	7147. [[methylmalonic aciduria]]
+	7148. [[methylphenidate]]
+	7149. [[methylprednisolone]]
+	7150. [[methyl salicylate]]
 	
-	7151. methyl violet
-	7152. meticillin
-	7153. metoclopramide
-	7154. metolazone
-	7155. metoprolol
-	7156. metr-
-	7157. metre
-	7158. metritis
-	7159. metronidazole
-	7160. -metry
+	7151. [[methyl violet]]
+	7152. [[meticillin]]
+	7153. [[metoclopramide]]
+	7154. [[metolazone]]
+	7155. [[metoprolol]]
+	7156. [[metr-]]
+	7157. [[metre]]
+	7158. [[metritis]]
+	7159. [[metronidazole]]
+	7160. [[-metry]]
 	
-	7161. metyrapone
-	7162. MHC
+	7161. [[metyrapone]]
+	7162. [[MHC]]
 	7163. MHRA
+		1. see Medicines and Healthcare products Regulatory Agency.
 	7164. MHRT
-	7165. mianserin
-	7166. MIBG
-	7167. micelle
+		1. see Mental Health Review Tribunal.
+	7165. [[mianserin]]
+	7166. [[MIBG]]
+	7167. [[micelle]]
 	7168. Michaelis-Gutmann bodies
-	7169. miconazole
-	7170. micr-
+		1. see MALAKOPLAKIA.
+	7169. [[miconazole]]
+	7170. [[micr-]]
 	
-	7171. microaerophilic
-	7172. microalbumin:creatinine ratio
-	7173. microalbuminuria
-	7174. microaneurysm
-	7175. microangiopathy
+	7171. [[microaerophilic]]
+	7172. [[microalbumin-creatinine ratio]]
+	7173. [[microalbuminuria]]
+	7174. [[microaneurysm]]
+	7175. [[microangiopathy]]
 	7176. microbe
-	7177. microbiology
-	7178. microblepharon
-	7179. microbubbles ((in radiology))
-	7180. microcephaly
+		1. $n$. see MICROORGANISM.
+	7177. [[microbiology]]
+	7178. [[microblepharon]]
+	7179. [[microbubbles]]
+	7180. [[microcephaly]]
 	
-	7181. microcheilia
-	7182. Micrococcus
-	7183. microcyte
-	7184. microcytosis
-	7185. microdactyly
-	7186. microdebrider
-	7187. microdiscectomy
-	7188. microdissection
-	7189. microdochectomy
-	7190. microdontia
+	7181. [[microcheilia]]
+	7182. [[Micrococcus]]
+	7183. [[microcyte]]
+	7184. [[microcytosis]]
+	7185. [[microdactyly]]
+	7186. [[microdebrider]]
+	7187. [[microdiscectomy]]
+	7188. [[microdissection]]
+	7189. [[microdochectomy]]
+	7190. [[microdontia]]
 	
-	7191. microelectrode
-	7192. microfilaria
-	7193. microgamete
-	7194. microgametocyte
-	7195. microglia
-	7196. microglossia
-	7197. micrognathia
-	7198. microgram
-	7199. micrograph
-	7200. microgyria
+	7191. [[microelectrode]]
+	7192. [[microfilaria]]
+	7193. [[microgamete]]
+	7194. [[microgametocyte]]
+	7195. [[microglia]]
+	7196. [[microglossia]]
+	7197. [[micrognathia]]
+	7198. [[microgram]]
+	7199. [[micrograph]]
+	7200. [[microgyria]]
 	
-	7201. microhaematocrit
-	7202. microkeratome
-	7203. microlithiasis
-	7204. micromanipulation
-	7205. micromelia
-	7206. micrometastasis
-	7207. micrometer
-	7208. micrometre
-	7209. microorganism
-	7210. microperimetry
+	7201. [[microhaematocrit]]
+	7202. [[microkeratome]]
+	7203. [[microlithiasis]]
+	7204. [[micromanipulation]]
+	7205. [[micromelia]]
+	7206. [[micrometastasis]]
+	7207. [[micrometer]]
+	7208. [[micrometre]]
+	7209. [[microorganism]]
+	7210. [[microperimetry]]
 	
-	7211. microphotograph
-	7212. microphthalmos
-	7213. micropipette
-	7214. micropsia
-	7215. microscope
-	7216. microscopic
-	7217. microscopic polyangiitis
-	7218. microsome
-	7219. Microsporum
-	7220. microsurgery
+	7211. [[microphotograph]]
+	7212. [[microphthalmos]]
+	7213. [[micropipette]]
+	7214. [[micropsia]]
+	7215. [[microscope]]
+	7216. [[microscopic]]
+	7217. [[microscopic polyangiitis]]
+	7218. [[microsome]]
+	7219. [[Microsporum]]
+	7220. [[microsurgery]]
 	
 	7221. microsurgical epididymal sperm aspiration
-	7222. microtia
-	7223. microtome
-	7224. microvascular
-	7225. microvillus
-	7226. microwave ablation
+		1. see MESA
+	7222. [[microtia]]
+	7223. [[microtome]]
+	7224. [[microvascular]]
+	7225. [[microvillus]]
+	7226. [[microwave ablation]]
 	7227. microwave endometrial ablation
-	7228. microwave therapy
+		1. see ENDOMETRIAL ABLATION.
+	7228. [[microwave therapy]]
 	7229. micturating cystourethrogram
+		1. (MCU) see URETHROGRAPHY.
 	7230. micturition
+		1. $n$. see URINATION.
 	
-	7231. midazolam
-	7232. midbrain
-	7233. middle ear
-	7234. middle ear myoclonus
-	7235. middle ear reflex
-	7236. Middle East respiratory syndrome
-	7237. midgut
-	7238. midstream specimen of urine
-	7239. midwifery
-	7240. mifepristone
+	7231. [[midazolam]]
+	7232. [[midbrain]]
+	7233. [[middle ear]]
+	7234. [[middle ear myoclonus]]
+	7235. [[middle ear reflex]]
+	7236. [[Middle East respiratory syndrome]]
+	7237. [[midgut]]
+	7238. [[midstream specimen of urine]]
+	7239. [[midwifery]]
+	7240. [[mifepristone]]
 	
-	7241. migraine
-	7242. Mikulicz's disease
-	7243. Milan criteria
-	7244. mild cognitive impairment
+	7241. [[migraine]]
+	7242. [[Mikulicz's disease]]
+	7243. [[Milan criteria]]
+	7244. [[mild cognitive impairment]]
 	7245. miliaria rubra
-	7246. miliary
-	7247. miliary tuberculosis
-	7248. milium
-	7249. milk
+		1. see PRICKLY HEAT.
+	7246. [[miliary]]
+	7247. [[miliary tuberculosis]]
+	7248. [[milium]]
+	7249. [[milk]]
 	7250. milk formulas
+		1. see Appendix 12.
 	
-	7251. milk rash
-	7252. milk teeth
-	7253. Miller-Deiker syndrome
-	7254. milli-prefix denoting
-	7255. milliamp
-	7256. milligram
-	7257. millilitre
-	7258. millimetre
-	7259. millimole
+	7251. [[milk rash]]
+	7252. [[milk teeth]]
+	7253. [[Miller-Deiker syndrome]]
+	7254. [[milli-]]
+	7255. [[milliamp]]
+	7256. [[milligram]]
+	7257. [[millilitre]]
+	7258. [[millimetre]]
+	7259. [[millimole]]
 	7260. Milroy's disease
+		1. see LYMPHOEDEMA. \[W. F. Milroy (1855-1942), US physician]
 	
-	7261. Minamata disease
-	7262. MIND
+	7261. [[Minamata disease]]
+	7262. [[MIND]]
 	7263. mineralocorticoid
-	7264. Mini-Mental State Examination
-	7265. minim
-	7266. minimal change nephropathy
-	7267. minimally conscious state
-	7268. minimally invasive surgery
-	7269. minitracheostomy
-	7270. minocycline
+		1. $n$. see CORTICOSTEROID.
+	7264. [[Mini-Mental State Examination]]
+	7265. [[minim]]
+	7266. [[minimal change nephropathy]]
+	7267. [[minimally conscious state]]
+	7268. [[minimally invasive surgery]]
+	7269. [[minitracheostomy]]
+	7270. [[minocycline]]
 	
-	7271. minoxidil
-	7272. mio-
-	7273. miosis
-	7274. miotic
+	7271. [[minoxidil]]
+	7272. [[mio-]]
+	7273. [[miosis]]
+	7274. [[miotic]]
 	7275. MIP
-	7276. miracidium
-	7277. miscarriage
-	7278. miso-
-	7279. misophonia
-	7280. misoprostol
+		1. see MAXIMUM INTENSITY PROJECTION.
+	7276. [[miracidium]]
+	7277. [[miscarriage]]
+	7278. [[miso-]]
+	7279. [[misophonia]]
+	7280. [[misoprostol]]
 	
-	7281. missed case
-	7282. Misuse of Drugs Act 1971((in the UK))
-	7283. mite
-	7284. mitochondrial disorders
-	7285. mitochondrion
-	7286. mitogen
-	7287. mitomycin
-	7288. mitosis
-	7289. mitotic index
-	7290. mitoxantrone
+	7281. [[missed case]]
+	7282. [[Misuse of Drugs Act 1971]]
+	7283. [[mite]]
+	7284. [[mitochondrial disorders]]
+	7285. [[mitochondrion]]
+	7286. [[mitogen]]
+	7287. [[mitomycin]]
+	7288. [[mitosis]]
+	7289. [[mitotic index]]
+	7290. [[mitoxantrone]]
 	
-	7291. mitral regurgitation
-	7292. mitral stenosis
-	7293. mitral valve
-	7294. mittelschmerz
-	7295. mixed affective state
-	7296. mixed connective tissue disease
-	7297. mlsymbol for
+	7291. [[mitral regurgitation]]
+	7292. [[mitral stenosis]]
+	7293. [[mitral valve]]
+	7294. [[mittelschmerz]]
+	7295. [[mixed affective state]]
+	7296. [[mixed connective tissue disease]]
+	7297. ml
+		1. symbol for millilitre.
 	7298. MLC
-	7299. MLD
-	7300. MLR
+		1. see MLR.
+	7299. [[MLD]]
+	7300. [[MLR]]
 	
-	7301. mmHg
-	7302. MMR vaccine
+	7301. [[mmHg]]
+	7302. [[MMR vaccine]]
 	7303. MMSE
+		1. see Mini-Mental State Examination.
 	7304. MND
-	7305. mobilization((in surgery))
-	7306. Mobitz type I and type II
-	7307. moclobemide
-	7308. modality
+		1. see MOTOR NEURON DISEASE.
+	7305. [[mobilization]]
+	7306. [[Mobitz type I and type II]]
+	7307. [[moclobemide]]
+	7308. [[modality]]
 	7309. mode
+		1. $n$. see MEAN.
 	7310. Modecate
+		1. $n$. see FLUPHENAZINE.
 	
-	7311. modelling
-	7312. modified release
-	7313. modiolus
+	7311. [[modelling]]
+	7312. [[modified release]]
+	7313. [[modiolus]]
 	7314. MODS
+		1. see MULTIPLE ORGAN DYSFUNCTION SYNDROME.
 	7315. Moduretic
+		1. $n$. see AMILORIDE.
 	7316. MODY
+		1. see MATURITY-ONSET DIABETES OF THE YOUNG.
 	7317. MOF
-	7318. Mohs' micrographic surgery
-	7319. molar
-	7320. molar-incisor hypomineralization
+		1. multi-organ failure. See MULTIPLE ORGAN DYSFUNCTION SYNDROME.
+	7318. [[Mohs' micrographic surgery]]
+	7319. [[molar]]
+	7320. [[molar-incisor hypomineralization]]
 	
-	7321. molarity
-	7322. molar solution
-	7323. mole1
-	7324. mole2
-	7325. molecular biology
-	7326. molecular imaging
-	7327. molluscum contagiosum
-	7328. Molteno implant
-	7329. mon-
-	7330. MONA
+	7321. [[molarity]]
+	7322. [[molar solution]]
+	7323. [[mole]]
+	7324. 
+	7325. [[molecular biology]]
+	7326. [[molecular imaging]]
+	7327. [[molluscum contagiosum]]
+	7328. [[Molteno implant]]
+	7329. [[mon-]]
+	7330. [[MONA]]
 	
-	7331. Mongolian blue spots
+	7331. [[Mongolian blue spots]]
 	7332. mongolism
+		1. n. see Down's SYndrome.
 	7333. Monilia
+		1. $n$. the former name of the genus of yeasts now known as Candida.
 	7334. moniliasis
-	7335. Monitor
-	7336. monoamine oxidase
+		1. $n$. an obsolete name for candidiasis.
+	7335. [[Monitor]]
+	7336. [[monoamine oxidase]]
 	7337. monoarthritis
-	7338. monoblast
+		1. $n$. see ARTHRITIS.
+	7338. [[monoblast]]
 	7339. monochorionicity
-	7340. monochromat
+		1. n. see CHORIONICITY; TWINS. —monochorionic adj.
+	7340. [[monochromat]]
 	
-	7341. monochromatic
-	7342. monoclonal antibody
-	7343. monocular
-	7344. monocyte
-	7345. monocytosis
-	7346. monodactylism
-	7347. monodelusional disorder
+	7341. [[monochromatic]]
+	7342. [[monoclonal antibody]]
+	7343. [[monocular]]
+	7344. [[monocyte]]
+	7345. [[monocytosis]]
+	7346. [[monodactylism]]
+	7347. [[monodelusional disorder]]
 	7348. monogenic diabetes
-	7349. monoiodotyrosine
-	7350. mononeuritis
+		1. see MATURITY-ONSET DIABETES OF THE YOUNG.
+	7349. [[monoiodotyrosine]]
+	7350. [[mononeuritis]]
 	
-	7351. mononucleosis
+	7351. [[mononucleosis]]
 	7352. monophasic defibrillator
-	7353. monophyletic
-	7354. monoplegia
+		1. see DEFIBRILLATOR.
+	7353. [[monophyletic]]
+	7354. [[monoplegia]]
 	7355. monoploid
-	7356. monorchism
-	7357. monosaccharide
-	7358. monosomy
+		1. adj. see HAPLOID.
+	7356. [[monorchism]]
+	7357. [[monosaccharide]]
+	7358. [[monosomy]]
 	7359. monozygotic twins
-	7360. mons((in anatomy))
+		1. see twins
+	7360. [[mons]]
 	
 	7361. montelukast
+		1. $n$. see LEUKOTRIENE RECEPTOR ANTAGONIST.
 	7362. mood disorder
-	7363. mood stabilizer
-	7364. moon face
-	7365. Mooren's ulcer
-	7366. moral agency
-	7367. morality
-	7368. Moraxella
-	7369. morbid
-	7370. morbidity
+		1. see AFFECTIVE DISORDER.
+	7363. [[mood stabilizer]]
+	7364. [[moon face]]
+	7365. [[Mooren's ulcer]]
+	7366. [[moral agency]]
+	7367. [[morality]]
+	7368. [[Moraxella]]
+	7369. [[morbid]]
+	7370. [[morbidity]]
 	
 	7371. morbilli
-	7372. morbilliform
-	7373. morbus
-	7374. mordant((in microscopy))
-	7375. moribund
-	7376. morning sickness
-	7377. Moro reflex
-	7378. morphine
-	7379. morpho-
-	7380. morphoea
+		1. n. see MEASLES.
+	7372. [[morbilliform]]
+	7373. [[morbus]]
+	7374. [[mordant]]
+	7375. [[moribund]]
+	7376. [[morning sickness]]
+	7377. [[Moro reflex]]
+	7378. [[morphine]]
+	7379. [[morpho-]]
+	7380. [[morphoea]]
 	
-	7381. morphogenesis
+	7381. [[morphogenesis]]
 	7382. morphology
-	7383. -morphous
-	7384. Morquio-Brailsford disease
-	7385. mortality rate
+		1. n. see ANATOMY.
+	7383. [[-morphous]]
+	7384. [[Morquio-Brailsford disease]]
+	7385. [[mortality rate]]
 	7386. mortification
-	7387. morula
-	7388. mosaicism
-	7389. mosquito
-	7390. motile
+		1. $n$. see NECROSIS.
+	7387. [[morula]]
+	7388. [[mosaicism]]
+	7389. [[mosquito]]
+	7390. [[motile]]
 	
-	7391. motilin
-	7392. motion sickness
-	7393. motivational interviewing
-	7394. motor cortex
-	7395. motor nerve
-	7396. motor neuron
-	7397. motor neuron disease
-	7398. mould
-	7399. moulding
+	7391. [[motilin]]
+	7392. [[motion sickness]]
+	7393. [[motivational interviewing]]
+	7394. [[motor cortex]]
+	7395. [[motor nerve]]
+	7396. [[motor neuron]]
+	7397. [[motor neuron disease]]
+	7398. [[mould]]
+	7399. [[moulding]]
 	7400. mountain sickness
+		1. see ALTITUDE SICKNESS.
 	
-	7401. mouth-to-mouth resuscitation
-	7402. mouthwash
-	7403. mouthwash test
-	7404. moxibustion
+	7401. [[mouth-to-mouth resuscitation]]
+	7402. [[mouthwash]]
+	7403. [[mouthwash test]]
+	7404. [[moxibustion]]
 	7405. MPA
+		1. see MICROSCOPIC POLYANGIITIS.
 	7406. MPR
+		1. see MULTIPLANAR RECONSTRUCTION.
 	7407. MR
+		1. magnetic resonance: relating to magnetic resonance imaging, as in MR scan.
 	7408. MRA
+		1. magnetic resonance angiography.
 	7409. MRC
+		1. see Medical Research Council.
 	7410. MRCP
+		1. magnetic resonance cholangiopancreatography. See CHOLANGIOGRAPHY.
 	
 	7411. MRI
+		1. see MAGNETIC RESONANCE IMAGING.
 	7412. MRS
-	7413. MRSA
+		1. see MAGNETIC RESONANCE SPECTROSCOPY.
+	7413. [[MRSA]]
 	7414. MRU
+		1. magnetic resonance urography.
 	7415. MS
+		1. see MULTIPLE SCLEROSIS.
 	7416. MSA
+		1. see MULTIPLE SYSTEM ATROPHY.
 	7417. MSE
+		1. see MENTAL STATE EXAMINATION.
 	7418. MSH
+		1. see MELANOCYTE-STIMULATING HORMONE.
 	7419. MSU
+		1. see MIDSTREAM SPECIMEN OF URINE.
 	7420. MSV manoeuvre
+		1. see MAURICEAU-SMELLIE-VIET MANOEUVRE.
 	
-	7421. mucilage((in pharmacy))
-	7422. mucin
-	7423. muco-
-	7424. mucociliary transport
-	7425. mucocoele
-	7426. mucolytic
-	7427. mucopolysaccharide
-	7428. mucopolysaccharidosis
-	7429. mucoprotein
-	7430. mucopurulent
+	7421. [[mucilage]]
+	7422. [[mucin]]
+	7423. [[muco-]]
+	7424. [[mucociliary transport]]
+	7425. [[mucocoele]]
+	7426. [[mucolytic]]
+	7427. [[mucopolysaccharide]]
+	7428. [[mucopolysaccharidosis]]
+	7429. [[mucoprotein]]
+	7430. [[mucopurulent]]
 	
-	7431. mucopus
-	7432. Mucor
-	7433. mucormycosis
+	7431. [[mucopus]]
+	7432. [[Mucor]]
+	7433. [[mucormycosis]]
 	7434. mucosa
-	7435. mucous membrane
+		1. n. see MUCOUS MEMBRANE. —mucosal adj.
+	7435. [[mucous membrane]]
 	7436. mucoviscidosis
-	7437. mucus
-	7438. MUGA scan
-	7439. Müllerian duct
+		1. $n$. see CYSTIC FIBROSIS.
+	7437. [[mucus]]
+	7438. [[MUGA scan]]
+	7439. [[Müllerian duct]]
 	7440. multi-organ failure
+		1. (MOF) see MULTIPLE ORGAN DYSFUNCTION SYNDROME.
 	
-	7441. multidetector computerized tomography
-	7442. multidisciplinary team
-	7443. multifactorial
-	7444. multifocal lenses
-	7445. multigravida
-	7446. multipara
-	7447. multiplanar reconstruction
+	7441. [[multidetector computerized tomography]]
+	7442. [[multidisciplinary team]]
+	7443. [[multifactorial]]
+	7444. [[multifocal lenses]]
+	7445. [[multigravida]]
+	7446. [[multipara]]
+	7447. [[multiplanar reconstruction]]
 	7448. multiple endocrine neoplasia
-	7449. multiple organ dysfunction syndrome
-	7450. multiple personality disorder
+		1. (MEN) see MENS.
+	7449. [[multiple organ dysfunction syndrome]]
+	7450. [[multiple personality disorder]]
 	
-	7451. multiple sclerosis
-	7452. multiple system atrophy
+	7451. [[multiple sclerosis]]
+	7452. [[multiple system atrophy]]
 	7453. multipotent
-	7454. multisystem
+		1. adj. see STEM CELL.
+	7454. [[multisystem]]
 	7455. multivariate analysis
-	7456. mummification
-	7457. mumps
-	7458. Munchausen's syndrome
-	7459. murmur
-	7460. Murphy's sign
+		1. see CORRELATION.
+	7456. [[mummification]]
+	7457. [[mumps]]
+	7458. [[Munchausen's syndrome]]
+	7459. [[murmur]]
+	7460. [[Murphy's sign]]
 	
 	7461. muscae volitantes
-	7462. muscle
-	7463. muscle relaxant
-	7464. muscle spindle
-	7465. muscular dystrophy
-	7466. muscularis
-	7467. muscular rheumatism
-	7468. musculo-
-	7469. musculocutaneous nerve
-	7470. mushroom
+		1. see FLOATERS.
+	7462. [[muscle]]
+	7463. [[muscle relaxant]]
+	7464. [[muscle spindle]]
+	7465. [[muscular dystrophy]]
+	7466. [[muscularis]]
+	7467. [[muscular rheumatism]]
+	7468. [[musculo-]]
+	7469. [[musculocutaneous nerve]]
+	7470. [[mushroom]]
 	
-	7471. musical tinnitus
-	7472. MUST
-	7473. mutagen
-	7474. mutant
-	7475. mutation
-	7476. mutism
-	7477. mutualism
+	7471. [[musical tinnitus]]
+	7472. [[MUST]]
+	7473. [[mutagen]]
+	7474. [[mutant]]
+	7475. [[mutation]]
+	7476. [[mutism]]
+	7477. [[mutualism]]
 	7478. MWA
-	7479. my-
-	7480. myalgia
+		1. see MICROWAVE ABLATION.
+	7479. [[my-]]
+	7480. [[myalgia]]
 	
 	7481. myalgic encephalomyelitis
-	7482. myasthenia gravis
-	7483. myc-
-	7484. mycelium
-	7485. mycetoma
-	7486. Mycobacterium
-	7487. mycology
-	7488. mycophenolate mofetil
-	7489. mycoplasma
-	7490. mycosis
+		1. (myalgic encephalopathy) see CFS/ME/PVF.
+	7482. [[myasthenia gravis]]
+	7483. [[myc-]]
+	7484. [[mycelium]]
+	7485. [[mycetoma]]
+	7486. [[Mycobacterium]]
+	7487. [[mycology]]
+	7488. [[mycophenolate mofetil]]
+	7489. [[mycoplasma]]
+	7490. [[mycosis]]
 	
-	7491. mycosis fungoides
+	7491. [[mycosis fungoides]]
 	7492. Mycota
-	7493. mydriasis
-	7494. mydriatic
-	7495. myectomy
-	7496. myel-
+		1. n. see UNDECENOIC ACID.
+	7493. [[mydriasis]]
+	7494. [[mydriatic]]
+	7495. [[myectomy]]
+	7496. [[myel-]]
 	7497. myelencephalon
-	7498. myelin
-	7499. myelination
-	7500. myelitis
+		1. $n$. see MEDULLA OBLONGATA.
+	7498. [[myelin]]
+	7499. [[myelination]]
+	7500. [[myelitis]]
 	
-	7501. myeloblast
+	7501. [[myeloblast]]
 	7502. myelocele
-	7503. myelocyte
-	7504. myelodysplastic syndromes
-	7505. myelofibrosis
-	7506. myelography
-	7507. myeloid
-	7508. myeloid leukaemia
-	7509. myeloid tissue
-	7510. myeloma
+		1. $n$. see NEURAL TUBE DEFECTS.
+	7503. [[myelocyte]]
+	7504. [[myelodysplastic syndromes]]
+	7505. [[myelofibrosis]]
+	7506. [[myelography]]
+	7507. [[myeloid]]
+	7508. [[myeloid leukaemia]]
+	7509. [[myeloid tissue]]
+	7510. [[myeloma]]
 	
 	7511. myeloma kidney
-	7512. myelomalacia
+		1. see CAST NEPHROPATHY.
+	7512. [[myelomalacia]]
 	7513. myelomatosis
+		1. $n$. see MYELOMA.
 	7514. myelomeningocele
-	7515. myeloproliferative disorders
-	7516. myelosuppression
-	7517. myenteric reflex
-	7518. myenteron
-	7519. myiasis
-	7520. mylohyoid
+		1. $n$. see NEURAL TUBE DEFECTS.
+	7515. [[myeloproliferative disorders]]
+	7516. [[myelosuppression]]
+	7517. [[myenteric reflex]]
+	7518. [[myenteron]]
+	7519. [[myiasis]]
+	7520. [[mylohyoid]]
 	
-	7521. myo-combining form.
-	7522. myoblast
-	7523. myocardial infarction
-	7524. myocardial perfusion scan
-	7525. myocardial stunning
-	7526. myocarditis
-	7527. myocardium
-	7528. myoclonus
-	7529. myocyte
-	7530. myoepithelium
+	7521. myo-
+		1. combining form. see MY-.
+	7522. [[myoblast]]
+	7523. [[myocardial infarction]]
+	7524. [[myocardial perfusion scan]]
+	7525. [[myocardial stunning]]
+	7526. [[myocarditis]]
+	7527. [[myocardium]]
+	7528. [[myoclonus]]
+	7529. [[myocyte]]
+	7530. [[myoepithelium]]
 	
-	7531. myofibril
-	7532. myogenic
-	7533. myoglobin
-	7534. myoglobinuria
-	7535. myoglobinuric acute renal failure
-	7536. myogram
-	7537. myograph
+	7531. [[myofibril]]
+	7532. [[myogenic]]
+	7533. [[myoglobin]]
+	7534. [[myoglobinuria]]
+	7535. [[myoglobinuric acute renal failure]]
+	7536. [[myogram]]
+	7537. [[myograph]]
 	7538. myohaemoglobin
+		1. $n$. see MYOGLOBIN.
 	7539. myohaemoglobinuria
-	7540. myokymia
+		1. $n$. see MYOGLOBINURIA.
+	7540. [[myokymia]]
 	
-	7541. myology
+	7541. [[myology]]
 	7542. myolysis
-	7543. myoma
-	7544. myomectomy
-	7545. myometritis
-	7546. myometrium
+		1. $n$. see FIBROID.
+	7543. [[myoma]]
+	7544. [[myomectomy]]
+	7545. [[myometritis]]
+	7546. [[myometrium]]
 	7547. myoneural junction
-	7548. myopathy
-	7549. myopia
+		1. see NEUROMUSCULAR JUNCTION.
+	7548. [[myopathy]]
+	7549. [[myopia]]
 	7550. myoplasm
+		1. $n$. see SARCOPLASM.
 	
-	7551. myoplasty
-	7552. myosarcoma
-	7553. myosin
+	7551. [[myoplasty]]
+	7552. [[myosarcoma]]
+	7553. [[myosin]]
 	7554. myosis
-	7555. myositis
-	7556. myositis ossificans
-	7557. myotactic
+		1. $n$. see MIOSIS.
+	7555. [[myositis]]
+	7556. [[myositis ossificans]]
+	7557. [[myotactic]]
 	7558. myotatic reflex
-	7559. myotome
-	7560. myotomy
+		1. see STRETCH REFLEX.
+	7559. [[myotome]]
+	7560. [[myotomy]]
 	
-	7561. myotonia
-	7562. myotonic
-	7563. myotonus
-	7564. myringa
-	7565. myringitis
-	7566. myringoplasty
-	7567. myringotomy
-	7568. myroxylon pereirae
-	7569. myx-
-	7570. myxoedema
+	7561. [[myotonia]]
+	7562. [[myotonic]]
+	7563. [[myotonus]]
+	7564. [[myringa]]
+	7565. [[myringitis]]
+	7566. [[myringoplasty]]
+	7567. [[myringotomy]]
+	7568. [[myroxylon pereirae]]
+	7569. [[myx-]]
+	7570. [[myxoedema]]
 	
-	7571. myxoedema coma
-	7572. myxofibroma
-	7573. myxoid cyst
-	7574. myxoma
-	7575. myxosarcoma
-	7576. myxovirus
-	7577. nabilone
-	7578. nabothian follicle
-	7579. NAD
-	7580. nadolol
+	7571. [[myxoedema coma]]
+	7572. [[myxofibroma]]
+	7573. [[myxoid cyst]]
+	7574. [[myxoma]]
+	7575. [[myxosarcoma]]
+	7576. [[myxovirus]]
+	7577. [[nabilone]]
+	7578. [[nabothian follicle]]
+	7579. [[NAD]]
+	7580. [[nadolol]]
 	
 	7581. NADP
+		1. (nicotinamide adenine dinucleotide phosphate) see NAD.
 	7582. Naegele's obliquity
-	7583. Naegele rule
-	7584. Naegleria
-	7585. naevus
+		1. see ASYNCLITISM.
+	7583. [[Naegele rule]]
+	7584. [[Naegleria]]
+	7585. [[naevus]]
 	7586. NAFLD
+		1. see NONALCOHOLIC FATTY LIVER DISEASE.
 	7587. Naga sore
+		1. see TROPICAL ULCER.
 	7588. NAI
-	7589. nail
-	7590. nalidixic acid
+		1. see NONACCIDENTAL INJURY.
+	7589. [[nail]]
+	7590. [[nalidixic acid]]
 	
-	7591. naloxone
-	7592. naltrexone
-	7593. nandrolone
-	7594. nano-
-	7595. nanometre
-	7596. nanophthalmos
-	7597. nanotechnology
-	7598. napkin rash
-	7599. naprapathy
-	7600. naproxen
+	7591. [[naloxone]]
+	7592. [[naltrexone]]
+	7593. [[nandrolone]]
+	7594. [[nano-]]
+	7595. [[nanometre]]
+	7596. [[nanophthalmos]]
+	7597. [[nanotechnology]]
+	7598. [[napkin rash]]
+	7599. [[naprapathy]]
+	7600. [[naproxen]]
 	
 	7601. naratriptan
-	7602. narcissism
-	7603. narco-
-	7604. narcolepsy
-	7605. narcosis
-	7606. narcotic
-	7607. nares
-	7608. narrative ethics
+		1. $n$. see $5 \mathrm{HT}_{1}$ AGONIST.
+	7602. [[narcissism]]
+	7603. [[narco-]]
+	7604. [[narcolepsy]]
+	7605. [[narcosis]]
+	7606. [[narcotic]]
+	7607. [[nares]]
+	7608. [[narrative ethics]]
 	7609. NAS
-	7610. nasal bone
+		1. see NEONATAL ABSTINENCE SYNDROME.
+	7610. [[nasal bone]]
 	
-	7611. nasal bridle
-	7612. nasal cavity
-	7613. nasal concha
-	7614. nasal flu vaccine((in Britain))
+	7611. [[nasal bridle]]
+	7612. [[nasal cavity]]
+	7613. [[nasal concha]]
+	7614. [[nasal flu vaccine]]
 	7615. NASH
-	7616. nasion
-	7617. naso-
-	7618. nasogastric tube
-	7619. nasolacrimal
-	7620. nasolacrimal duct
+		1. nonalcoholic steatohepatitis. See NONALCOHOLIC FATTY LIVER DISEASE.
+	7616. [[nasion]]
+	7617. [[naso-]]
+	7618. [[nasogastric tube]]
+	7619. [[nasolacrimal]]
+	7620. [[nasolacrimal duct]]
 	
-	7621. nasopharyngeal airway
-	7622. nasopharynx
-	7623. natalizumab
-	7624. natal teeth
+	7621. [[nasopharyngeal airway]]
+	7622. [[nasopharynx]]
+	7623. [[natalizumab]]
+	7624. [[natal teeth]]
 	7625. nateglinide
+		1. $n$. see MEGLITINIDES.
 	7626. nates
+		1. pl. n. the buttocks. —natal adj.
 	7627. national census
+		1. see Census; Office for National Statistics.
 	7628. National Clinical Assessment Service
-	7629. National Health Service((in Britain))
+		1. (NCAS) see Practitioner Performance Advice.
+	7629. [[National Health Service]]
 	7630. National Institute for Health and Care Excellence
+		1. see NICE.
 	
-	7631. National Institute for Health Research
-	7632. National Insurance((in Britain))
-	7633. National Patient Safety Agency
-	7634. national service frameworks
-	7635. National Statistics Socio-economic Classification
-	7636. natriuresis
-	7637. natriuretic
-	7638. natriuretic peptide
-	7639. natural killer cell
-	7640. naturopathy
+	7631. [[National Institute for Health Research]]
+	7632. [[National Insurance]]
+	7633. [[National Patient Safety Agency]]
+	7634. [[national service frameworks]]
+	7635. [[National Statistics Socio-economic Classification]]
+	7636. [[natriuresis]]
+	7637. [[natriuretic]]
+	7638. [[natriuretic peptide]]
+	7639. [[natural killer cell]]
+	7640. [[naturopathy]]
 	
-	7641. nausea
+	7641. [[nausea]]
 	7642. navel
-	7643. navicular bone
+		1. navel $n$. see UMBILICUS.
+	7643. [[navicular bone]]
 	7644. NEAD
+		1. see NON-EPILEPTIC ATTACK DISORDE.
 	7645. nearthrosis
-	7646. nebula
-	7647. nebulizer
+		1. $n$. see PSEUDARTHROSIS.
+	7646. [[nebula]]
+	7647. [[nebulizer]]
 	7648. NEC
-	7649. Necator
-	7650. necatoriasis
+		1. see NECROTIZING ENTEROCOLITIS.
+	7649. [[Necator]]
+	7650. [[necatoriasis]]
 	
-	7651. necessity
-	7652. neck
-	7653. necro-
-	7654. necrobiosis
-	7655. necrology
+	7651. [[necessity]]
+	7652. [[neck]]
+	7653. [[necro-]]
+	7654. [[necrobiosis]]
+	7655. [[necrology]]
 	7656. necropsy
-	7657. necrosis
-	7658. necrospermia
-	7659. necrotizing enterocolitis
-	7660. necrotizing fasciitis
+		1. $n$. see AUTOPSY.
+	7657. [[necrosis]]
+	7658. [[necrospermia]]
+	7659. [[necrotizing enterocolitis]]
+	7660. [[necrotizing fasciitis]]
 	
-	7661. nedocromil
-	7662. need
-	7663. needle
-	7664. needle-stick injury
-	7665. needling
-	7666. negative feedback loop
-	7667. negative symptoms((in psychiatry))
-	7668. negativism
-	7669. neglected tropical diseases
+	7661. [[nedocromil]]
+	7662. [[need]]
+	7663. [[needle]]
+	7664. [[needle-stick injury]]
+	7665. [[needling]]
+	7666. [[negative feedback loop]]
+	7667. [[negative symptoms]]
+	7668. [[negativism]]
+	7669. [[neglected tropical diseases]]
 	7670. neglect syndrome
+		1. see HEMISPATIAL NEGLECT.
 	
-	7671. negligence
-	7672. Neisseria
-	7673. Nelson's syndrome
-	7674. nematode
-	7675. nemosis
-	7676. neo-
-	7677. neoadjuvant chemotherapy
-	7678. neocerebellum
-	7679. neointimal hyperplasia
-	7680. neologism((in psychiatry))
+	7671. [[negligence]]
+	7672. [[Neisseria]]
+	7673. [[Nelson's syndrome]]
+	7674. [[nematode]]
+	7675. [[nemosis]]
+	7676. [[neo-]]
+	7677. [[neoadjuvant chemotherapy]]
+	7678. [[neocerebellum]]
+	7679. [[neointimal hyperplasia]]
+	7680. [[neologism]]
 	
-	7681. neomycin
-	7682. neonatal abstinence syndrome
-	7683. neonatal early warning score
+	7681. [[neomycin]]
+	7682. [[neonatal abstinence syndrome]]
+	7683. [[neonatal early warning score]]
 	7684. neonatal mortality rate
-	7685. neonatal screening
-	7686. neonatal teeth
+		1. see INFANT MORTALITY RATE.
+	7685. [[neonatal screening]]
+	7686. [[neonatal teeth]]
 	7687. neonatal urticaria
-	7688. neonate
-	7689. neopallium
-	7690. neoplasia
+		1. see ERYTHEMA.
+	7688. [[neonate]]
+	7689. [[neopallium]]
+	7690. [[neoplasia]]
 	
-	7691. neoplasm
-	7692. neosphincter
-	7693. neostigmine
-	7694. neovascularization
-	7695. nephr-
-	7696. nephralgia
-	7697. nephrectomy
-	7698. nephrin
-	7699. nephritic syndrome
-	7700. nephritis
+	7691. [[neoplasm]]
+	7692. [[neosphincter]]
+	7693. [[neostigmine]]
+	7694. [[neovascularization]]
+	7695. [[nephr-]]
+	7696. [[nephralgia]]
+	7697. [[nephrectomy]]
+	7698. [[nephrin]]
+	7699. [[nephritic syndrome]]
+	7700. [[nephritis]]
 	
-	7701. nephroblastoma
-	7702. nephrocalcinosis
-	7703. nephrogenic cord
-	7704. nephrogenic diabetes insipidus
-	7705. nephrogenic systemic fibrosis
-	7706. nephrolithiasis
-	7707. nephrolithotomy
-	7708. nephrology
-	7709. nephron
-	7710. nephropathy
+	7701. [[nephroblastoma]]
+	7702. [[nephrocalcinosis]]
+	7703. [[nephrogenic cord]]
+	7704. [[nephrogenic diabetes insipidus]]
+	7705. [[nephrogenic systemic fibrosis]]
+	7706. [[nephrolithiasis]]
+	7707. [[nephrolithotomy]]
+	7708. [[nephrology]]
+	7709. [[nephron]]
+	7710. [[nephropathy]]
 	
-	7711. nephropexy
-	7712. nephroptosis
-	7713. nephrosclerosis
-	7714. nephroscope
-	7715. nephroscopy
-	7716. nephrosis((in pathology))
-	7717. nephrostogram
-	7718. nephrostomy
-	7719. nephrotic syndrome
-	7720. nephrotomy
+	7711. [[nephropexy]]
+	7712. [[nephroptosis]]
+	7713. [[nephrosclerosis]]
+	7714. [[nephroscope]]
+	7715. [[nephroscopy]]
+	7716. [[nephrosis]]
+	7717. [[nephrostogram]]
+	7718. [[nephrostomy]]
+	7719. [[nephrotic syndrome]]
+	7720. [[nephrotomy]]
 	
 	7721. nephrotoxic
 	7722. nephroureterectomy
