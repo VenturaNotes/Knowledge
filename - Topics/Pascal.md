@@ -5,6 +5,9 @@
 - Pascal was relatively easy to implement on a variety of machines since the Pascal compiler was written in Pascal. Used first as an educational tool, Pascal became a more-or-less standard language for the teaching of computer science. It spread into microcomputing in the form of the UCSD p-System, but only achieved widespread popularity with Turbo Pascal. In 1982 ISO Standard Pascal was defined, but modern compilers, especially those for microcomputers, implement an extended and nonstandard version of the language.
 - http://www.pascal-central.com/docs/iso7185.pdf (Non-functional)
 	- The Pascal standard (1990 revision)
+## Source[^2]
+- $n$. the SI unit of pressure, equal to 1 newton per square metre. Symbol: Pa.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
