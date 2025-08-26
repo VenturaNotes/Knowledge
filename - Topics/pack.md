@@ -5,6 +5,9 @@
 	- (a) a special code indicating the start of a triplet;
 	- (b) a single instance of the replicated character or word;
 	- (c) a count of the number of times the character or word occurs.
+## Source[^2]
+- $n$. a pad of folded moistened material, such as cotton-wool, applied to the body or inserted into a cavity.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

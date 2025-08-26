@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- a tablet containing one or more synthetic female sex hormones, taken by women to prevent conception. Most oral contraceptives are combined pills, consisting of an oestrogen, which blocks the normal process of ovulation, and a progestogen, which acts on the pituitary gland to block the normal control of the menstrual cycle. Progestogens also alter the lining of the uterus and the viscosity of mucus in its outlet, the cervix, so that conception is less likely should ovulation occur. These pills are taken every day for three weeks and then stopped for a week, during which time menstruation occurs. Side-effects may include headache, weight gain, nausea, skin changes, and depression. There is also a small risk that blood clots may form in the veins, especially those of the legs (which may lead to pulmonary embolism), or that prolonged use of hormonal contraceptives may reduce fertility. The unwanted pregnancy rate is less than 1 per 100 woman-years. With progestogen-only pills (sometimes known as minipills) the unwanted pregnancy rate is slightly higher (1-2 per 100 woman-years) but there are fewer side-effects (due to the absence of oestrogen).
+- Other hormonal contraceptives include injections and implants (see CONTRACEPTION). See also POSTCOITAL CONTRACEPTION.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

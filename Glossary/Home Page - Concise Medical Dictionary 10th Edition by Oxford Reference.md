@@ -9811,1457 +9811,1669 @@ Reviewed: false
 	7719. [[nephrotic syndrome]]
 	7720. [[nephrotomy]]
 	
-	7721. nephrotoxic
-	7722. nephroureterectomy
-	7723. nerve
-	7724. nerve block
+	7721. [[nephrotoxic]]
+	7722. [[nephroureterectomy]]
+	7723. [[nerve]]
+	7724. [[nerve block]]
 	7725. nerve cell
-	7726. nerve conduction study
-	7727. nerve ending
-	7728. nerve entrapment syndrome
-	7729. nerve fibre
-	7730. nerve gas
+		1. See neuron
+	7726. [[nerve conduction study]]
+	7727. [[nerve ending]]
+	7728. [[nerve entrapment syndrome]]
+	7729. [[nerve fibre]]
+	7730. [[nerve gas]]
 	
-	7731. nerve growth factor
-	7732. nerve impulse
-	7733. nerve regeneration
-	7734. nervous breakdown
-	7735. nervous system
-	7736. Nesbit's operation
-	7737. nesidioblastosis
+	7731. [[nerve growth factor]]
+	7732. [[nerve impulse]]
+	7733. [[nerve regeneration]]
+	7734. [[nervous breakdown]]
+	7735. [[nervous system]]
+	7736. [[Nesbit's operation]]
+	7737. [[nesidioblastosis]]
 	7738. NETs
+		1. neuroendocrine tumors. See NEUROENDOCRINE SYSTEM.
 	7739. nettle rash
-	7740. neur-
+		1. see URTICARIA.
+	7740. [[neur-]]
 	
 	7741. neural arch
-	7742. neural crest
-	7743. neuralgia
-	7744. neural plate
-	7745. neural spine
-	7746. neural tube
-	7747. neural tube defects
-	7748. neuraminidase
-	7749. neurapraxia
-	7750. neurasthenia
+		1. see vertebra
+	7742. [[neural crest]]
+	7743. [[neuralgia]]
+	7744. [[neural plate]]
+	7745. [[neural spine]]
+	7746. [[neural tube]]
+	7747. [[neural tube defects]]
+	7748. [[neuraminidase]]
+	7749. [[neurapraxia]]
+	7750. [[neurasthenia]]
 	
-	7751. neurectasis
-	7752. neurectomy
-	7753. neurilemma
-	7754. neurilemmoma
+	7751. [[neurectasis]]
+	7752. [[neurectomy]]
+	7753. [[neurilemma]]
+	7754. [[neurilemmoma]]
 	7755. neurinoma
-	7756. neuritis
-	7757. neuroanatomy
-	7758. neurobiotaxis
-	7759. neuroblast
-	7760. neuroblastoma
+		1. $n$. see NEURILEMMOMA.
+	7756. [[neuritis]]
+	7757. [[neuroanatomy]]
+	7758. [[neurobiotaxis]]
+	7759. [[neuroblast]]
+	7760. [[neuroblastoma]]
 	
-	7761. neurocardiogenic syncope
-	7762. neurocranium
+	7761. [[neurocardiogenic syncope]]
+	7762. [[neurocranium]]
 	7763. neurodermatitis
-	7764. neuroendocrine system
-	7765. neuroepithelioma
-	7766. neuroepithelium
-	7767. neurofibril
-	7768. neurofibrillary tangles
-	7769. neurofibroma
-	7770. neurofibromatosis
+		1. $n$. see LICHEN SIMPLEX CHRONICUS.
+	7764. [[neuroendocrine system]]
+	7765. [[neuroepithelioma]]
+	7766. [[neuroepithelium]]
+	7767. [[neurofibril]]
+	7768. [[neurofibrillary tangles]]
+	7769. [[neurofibroma]]
+	7770. [[neurofibromatosis]]
 	
-	7771. neurogenesis
-	7772. neurogenic
+	7771. [[neurogenesis]]
+	7772. [[neurogenic]]
 	7773. neuroglia
-	7774. neurohormone
+		1. $n$. see GLIA.
+	7774. [[neurohormone]]
 	7775. neurohumour
-	7776. neurohypophysis
+		1. $n$. a neurohormone or a neurotransmitter.
+	7776. [[neurohypophysis]]
 	7777. neurolemma
-	7778. neuroleptic malignant syndrome
-	7779. neurology
-	7780. neuroma
+		1. $n$. see NEURILEMMA.
+	7778. [[neuroleptic malignant syndrome]]
+	7779. [[neurology]]
+	7780. [[neuroma]]
 	
-	7781. neuromuscular junction
-	7782. neuromyelitis optica
-	7783. neuron
-	7784. neuronophagia
-	7785. neuronoplasty
-	7786. neuropathic arthritis
-	7787. neuropathic bladder
-	7788. neuropathy
-	7789. neuropeptide Y
-	7790. neurophysiology
+	7781. [[neuromuscular junction]]
+	7782. [[neuromyelitis optica]]
+	7783. [[neuron]]
+	7784. [[neuronophagia]]
+	7785. [[neuronoplasty]]
+	7786. [[neuropathic arthritis]]
+	7787. [[neuropathic bladder]]
+	7788. [[neuropathy]]
+	7789. [[neuropeptide Y]]
+	7790. [[neurophysiology]]
 	
-	7791. neuropil
-	7792. neuroplasticity
-	7793. neuropsychiatry
-	7794. neuroretinitis
-	7795. neurosecretion
-	7796. neurosis
-	7797. neurosurgery
-	7798. neurosyphilis
-	7799. neuroticism
-	7800. neurotmesis
+	7791. [[neuropil]]
+	7792. [[neuroplasticity]]
+	7793. [[neuropsychiatry]]
+	7794. [[neuroretinitis]]
+	7795. [[neurosecretion]]
+	7796. [[neurosis]]
+	7797. [[neurosurgery]]
+	7798. [[neurosyphilis]]
+	7799. [[neuroticism]]
+	7800. [[neurotmesis]]
 	
-	7801. neurotomy
-	7802. neurotoxic
-	7803. neurotransmitter
-	7804. neurotrophic
-	7805. neurotropic
-	7806. neutropenia
-	7807. neutrophil
-	7808. newton
-	7809. nexus((in anatomy))
+	7801. [[neurotomy]]
+	7802. [[neurotoxic]]
+	7803. [[neurotransmitter]]
+	7804. [[neurotrophic]]
+	7805. [[neurotropic]]
+	7806. [[neutropenia]]
+	7807. [[neutrophil]]
+	7808. [[newton]]
+	7809. [[nexus]]
 	7810. NGF
+		1. see NERVE GROWTH FACTOR.
 	
 	7811. NHS
-	7812. NHS 111
-	7813. NHS Blood and Transplant
-	7814. NHS Business Services Authority
-	7815. NHS Choices
-	7816. NHS Constitution for England
-	7817. NHS Counter Fraud Authority
-	7818. NHS Digital
+		1. see National Health Service.
+	7812. [[NHS 111]]
+	7813. [[NHS Blood and Transplant]]
+	7814. [[NHS Business Services Authority]]
+	7815. [[NHS Choices]]
+	7816. [[NHS Constitution for England]]
+	7817. [[NHS Counter Fraud Authority]]
+	7818. [[NHS Digital]]
 	7819. NHS Direct
-	7820. NHS e-Referral Service
+		1. see NHS 111.
+	7820. [[NHS e-Referral Service]]
 	
-	7821. NHS England
-	7822. NHS Improvement
+	7821. [[NHS England]]
+	7822. [[NHS Improvement]]
 	7823. NHS Prescription Services Authority
-	7824. NHS Resolution
-	7825. NHS Trust Development Authority
-	7826. NHS walk-in centre
+		1. (NHSPSA) see NHS Business Services Authority.
+	7824. [[NHS Resolution]]
+	7825. [[NHS Trust Development Authority]]
+	7826. [[NHS walk-in centre]]
 	7827. niacin
-	7828. nicardipine
-	7829. NICE
-	7830. niche((in anatomy))
+		1. $n$. see NICOTINIC ACID.
+	7828. [[nicardipine]]
+	7829. [[NICE]]
+	7830. [[niche]]
 	
-	7831. niclosamide
+	7831. [[niclosamide]]
 	7832. nicorandil
-	7833. nicotinamide
+		1. n. see POTASSIUM-CHANNEL ACTIVATOR.
+	7833. [[nicotinamide]]
 	7834. nicotinamide adenine dinucleotide
-	7835. nicotine
-	7836. nicotinic acid
-	7837. nictitation
+		1. see NAD
+	7835. [[nicotine]]
+	7836. [[nicotinic acid]]
+	7837. [[nictitation]]
 	7838. nidation
-	7839. nidus
-	7840. Niemann-Pick disease
+		1. $n$. see IMPLANTATION.
+	7839. [[nidus]]
+	7840. [[Niemann-Pick disease]]
 	
-	7841. nifedipine
-	7842. night blindness
-	7843. night sweat
-	7844. night terror
-	7845. Nile blue
+	7841. [[nifedipine]]
+	7842. [[night blindness]]
+	7843. [[night sweat]]
+	7844. [[night terror]]
+	7845. [[Nile blue]]
 	7846. nilotinib
-	7847. ninhydrin reaction
-	7848. nipple
+		1. $n$. see TYROSINE KINASE INHIBITOR.
+	7847. [[ninhydrin reaction]]
+	7848. [[nipple]]
 	7849. NIPPV
-	7850. Nippy
+		1. noninvasive intermittent positive-pressure ventilation (see NONINVASIVE VENTILATION).
+	7850. [[Nippy]]
 	
-	7851. Nissl granules
-	7852. nit
-	7853. nitrates
-	7854. nitrazepam
-	7855. nitric acid
-	7856. nitric oxide
-	7857. nitrofurantoin
-	7858. nitrogen
-	7859. nitrogen balance
+	7851. [[Nissl granules]]
+	7852. [[nit]]
+	7853. [[nitrates]]
+	7854. [[nitrazepam]]
+	7855. [[nitric acid]]
+	7856. [[nitric oxide]]
+	7857. [[nitrofurantoin]]
+	7858. [[nitrogen]]
+	7859. [[nitrogen balance]]
 	7860. nitroglycerin
+		1. $n$. see GLYCERYL TRINITRATE.
 	
-	7861. nitroprusside
-	7862. nitrous oxide
+	7861. [[nitroprusside]]
+	7862. [[nitrous oxide]]
 	7863. NIV
-	7864. nizatidine
+		1. see NONINVASIVE VENTILATION.
+	7864. [[nizatidine]]
 	7865. NK cell
-	7866. nmsymbol for
+		1. see NATURAL KILLER CELL.
+	7866. nm
+		1. symbol for nanometre.
 	7867. NMC
-	7868. NMDA receptor
-	7869. NMP22
+		1. see Nursing and Midwifery Council.
+	7868. [[NMDA receptor]]
+	7869. [[NMP22]]
 	7870. NMR
+		1. see NUCLEAR MAGNETIC RESONANCE.
 	
-	7871. Nocardia
-	7872. nocardiosis
-	7873. noci-
-	7874. nociceptive
-	7875. nociceptor
-	7876. noct-
-	7877. nocturia
-	7878. node
-	7879. node of Ranvier
-	7880. nodule
+	7871. [[Nocardia]]
+	7872. [[nocardiosis]]
+	7873. [[noci-]]
+	7874. [[nociceptive]]
+	7875. [[nociceptor]]
+	7876. [[noct-]]
+	7877. [[nocturia]]
+	7878. [[node]]
+	7879. [[node of Ranvier]]
+	7880. [[nodule]]
 	
-	7881. noma
-	7882. non-epileptic attack disorder
-	7883. non-epileptic seizure
+	7881. [[noma]]
+	7882. [[non-epileptic attack disorder]]
+	7883. [[non-epileptic seizure]]
 	7884. non-Hodgkin's lymphoma
-	7885. non-small-cell lung cancer
-	7886. nonaccidental injury
+		1. see LYMPHOMA.
+	7885. [[non-small-cell lung cancer]]
+	7886. [[nonaccidental injury]]
 	7887. nonadherence
-	7888. nonalcoholic fatty liver disease
-	7889. noncompaction
-	7890. nondisjunction
+		1. $n$. see ADHERENCE.
+	7888. [[nonalcoholic fatty liver disease]]
+	7889. [[noncompaction]]
+	7890. [[nondisjunction]]
 	
-	7891. noninvasive
+	7891. [[noninvasive]]
 	7892. noninvasive prenatal diagnosis
-	7893. noninvasive ventilation
-	7894. nonmaleficence
-	7895. nonsecretor
+		1. (NIPD) see PRENATAL DIAGNOSIS.
+	7893. [[noninvasive ventilation]]
+	7894. [[nonmaleficence]]
+	7895. [[nonsecretor]]
 	7896. nonspecific interstitial pneumonia
+		1. (NSIP) see INTERSTITIAL PNEUMONIA.
 	7897. nonsteroidal anti-inflammatory drug
-	7898. Noonan's syndrome
-	7899. noradrenaline
+		1. see NSAID
+	7898. [[Noonan's syndrome]]
+	7899. [[noradrenaline]]
 	7900. norepinephrine
+		1. $n$. see NORADRENALINE.
 	
-	7901. norethisterone
-	7902. norfloxacin
-	7903. norma
+	7901. [[norethisterone]]
+	7902. [[norfloxacin]]
+	7903. [[norma]]
 	7904. normal distribution
-	7905. normalization((in psychiatry))
-	7906. normative
-	7907. normo-
-	7908. normoblast
-	7909. normocyte
-	7910. normoglycaemia
+		1. see DISTRIBUTION; SIGNIFICANCE.
+	7905. [[normalization]]
+	7906. [[normative]]
+	7907. [[normo-]]
+	7908. [[normoblast]]
+	7909. [[normocyte]]
+	7910. [[normoglycaemia]]
 	
-	7911. normotensive
-	7912. norovirus
-	7913. Northern blot analysis
+	7911. [[normotensive]]
+	7912. [[norovirus]]
+	7913. [[Northern blot analysis]]
 	7914. Northern Irish Sign Language
-	7915. nortriptyline
-	7916. nose
+		1. (NISL) see SIGN LANGUAGE.
+	7915. [[nortriptyline]]
+	7916. [[nose]]
 	7917. nosebleed
-	7918. noso-
-	7919. nosocomial infection
-	7920. nosology
+		1. $n$. see EPISTAXIS.
+	7918. [[noso-]]
+	7919. [[nosocomial infection]]
+	7920. [[nosology]]
 	
-	7921. Nosopsyllus
+	7921. [[Nosopsyllus]]
 	7922. nostrils
-	7923. notch((in anatomy))
-	7924. NOTES
-	7925. notifiable disease
-	7926. notochord
-	7927. novel substrate
-	7928. NSAID
+		1. $n$. see NARES.
+	7923. [[notch]]
+	7924. [[NOTES]]
+	7925. [[notifiable disease]]
+	7926. [[notochord]]
+	7927. [[novel substrate]]
+	7928. [[NSAID]]
 	7929. NSFs
+		1. see NATIONAL SERVICE FRAMEWORKS.
 	7930. NSIP
+		1. nonspecific interstitial pneumonia.
 	
 	7931. NSTEMI
+		1. non-S-T elevation myocardial infarction.
 	7932. NTDs
-	7933. nucha
-	7934. nuchal translucency scanning
-	7935. nuclear cardiology
-	7936. nuclear magnetic resonance
-	7937. nuclear medicine
-	7938. nuclease
-	7939. nucleic acid
-	7940. nucleolus
+		1. see NEGLECTED TROPICAL DISEASES.
+	7933. [[nucha]]
+	7934. [[nuchal translucency scanning]]
+	7935. [[nuclear cardiology]]
+	7936. [[nuclear magnetic resonance]]
+	7937. [[nuclear medicine]]
+	7938. [[nuclease]]
+	7939. [[nucleic acid]]
+	7940. [[nucleolus]]
 	
-	7941. nucleoplasm
-	7942. nucleoprotein
-	7943. nucleoside
-	7944. nucleotide
-	7945. nucleus
-	7946. nude mouse
-	7947. nuisance
+	7941. [[nucleoplasm]]
+	7942. [[nucleoprotein]]
+	7943. [[nucleoside]]
+	7944. [[nucleotide]]
+	7945. [[nucleus]]
+	7946. [[nude mouse]]
+	7947. [[nuisance]]
 	7948. null hypothesis
-	7949. nullipara
-	7950. number needed to treat
+		1. see SIGNIFICANCE.
+	7949. [[nullipara]]
+	7950. [[number needed to treat]]
 	
-	7951. nurse
-	7952. nurse practitioner
-	7953. Nursing and Midwifery Council
-	7954. nursing home
-	7955. nutation
-	7956. nutrient
-	7957. nutrition
-	7958. nutritional genomics
-	7959. nux vomica
-	7960. nyct-
+	7951. [[nurse]]
+	7952. [[nurse practitioner]]
+	7953. [[Nursing and Midwifery Council]]
+	7954. [[nursing home]]
+	7955. [[nutation]]
+	7956. [[nutrient]]
+	7957. [[nutrition]]
+	7958. [[nutritional genomics]]
+	7959. [[nux vomica]]
+	7960. [[nyct-]]
 	
 	7961. nyctalopia
-	7962. nyctohemeral
-	7963. nymph
-	7964. nympho-
-	7965. nystagmus
-	7966. nystagmus block syndrome
-	7967. nystatin
-	7968. O'nyong nyong fever
+		1. $n$. see NIGHT BLINDNESS.
+	7962. [[nyctohemeral]]
+	7963. [[nymph]]
+	7964. [[nympho-]]
+	7965. [[nystagmus]]
+	7966. [[nystagmus block syndrome]]
+	7967. [[nystatin]]
+	7968. [[O'nyong nyong fever]]
 	7969. OAD
+		1. see OBSCURE AUDITORY DYSFUNCTION.
 	7970. OAE
+		1. see OTOACOUSTIC EMISSIONS.
 	
 	7971. OASIS
+		1. see OBSTETRIC ANAL SPHINCTER INJURY.
 	7972. oat cell
+		1. see SMALL-CELL LUNG CANCER.
 	7973. Obamacare
-	7974. obeseogenic
-	7975. obesity
-	7976. obex
-	7977. objective((in microscopy))
-	7978. objective structured clinical examination
-	7979. obligate
+		1. see Affordable Care Act 2010.
+	7974. [[obeseogenic]]
+	7975. [[obesity]]
+	7976. [[obex]]
+	7977. [[objective]]
+	7978. [[objective structured clinical examination]]
+	7979. [[obligate]]
 	7980. obligation
+		1. n. see duty
 	
-	7981. obscure auditory dysfunction
+	7981. [[obscure auditory dysfunction]]
 	7982. observer error
-	7983. obsession
+		1. see validity
+	7983. [[obsession]]
 	7984. obsessional traits
-	7985. obsessive-compulsive disorder
-	7986. obstetric anal sphincter injury
-	7987. obstetric cholestasis
-	7988. obstetrics
-	7989. obstipation
-	7990. obstructed labour
+		1. see ANANKASTIC.
+	7985. [[obsessive-compulsive disorder]]
+	7986. [[obstetric anal sphincter injury]]
+	7987. [[obstetric cholestasis]]
+	7988. [[obstetrics]]
+	7989. [[obstipation]]
+	7990. [[obstructed labour]]
 	
 	7991. obstructive airways disease
-	7992. obstructive sleep apnoea
+		1. see BRONCHOSPASM.
+	7992. [[obstructive sleep apnoea]]
 	7993. obstructive sleep apnoea syndrome
-	7994. obtund
-	7995. obturation
-	7996. obturator
-	7997. obturator foramen
-	7998. obturator muscle
-	7999. obtusion
-	8000. occipital bone
+		1. (OSAS) see OBSTRUCTIVE SLEEP APNOEA.
+	7994. [[obtund]]
+	7995. [[obturation]]
+	7996. [[obturator]]
+	7997. [[obturator foramen]]
+	7998. [[obturator muscle]]
+	7999. [[obtusion]]
+	8000. [[occipital bone]]
 	
-	8001. occiput
-	8002. occlusal((in dental anatomy))
-	8003. occlusal rim
-	8004. occlusion
-	8005. occult
-	8006. occupational disease
-	8007. occupational health service
-	8008. occupational mortality
-	8009. occupational therapy
+	8001. [[occiput]]
+	8002. [[occlusal]]
+	8003. [[occlusal rim]]
+	8004. [[occlusion]]
+	8005. [[occult]]
+	8006. [[occupational disease]]
+	8007. [[occupational health service]]
+	8008. [[occupational mortality]]
+	8009. [[occupational therapy]]
 	8010. OCD
+		1. see OBSESSIVE-COMPULSIVE DISORDER.
 	
-	8011. ochronosis
-	8012. ocriplasmin
+	8011. [[ochronosis]]
+	8012. [[ocriplasmin]]
 	8013. OCT
-	8014. oct-
+		1. see OPTICAL COHERENCE TOMOGRAPHY.
+	8014. [[oct-]]
 	8015. octreotide
-	8016. ocular
-	8017. ocular hypertension
+		1. $n$. a somatostatin analogue (see SOMATOSTATIN).
+	8016. [[ocular]]
+	8017. [[ocular hypertension]]
 	8018. oculist
-	8019. oculo-
-	8020. oculogyric
+		1. $n$. a former name for an ophthalmologist.
+	8019. [[oculo-]]
+	8020. [[oculogyric]]
 	
-	8021. oculogyric crisis
-	8022. oculomotor
-	8023. oculomotor nerve
-	8024. oculonasal
-	8025. oculoplastics
-	8026. oculoplethysmography
-	8027. odds ratio
-	8028. odont-
-	8029. odontoblast
-	8030. odontogenic tumour
+	8021. [[oculogyric crisis]]
+	8022. [[oculomotor]]
+	8023. [[oculomotor nerve]]
+	8024. [[oculonasal]]
+	8025. [[oculoplastics]]
+	8026. [[oculoplethysmography]]
+	8027. [[odds ratio]]
+	8028. [[odont-]]
+	8029. [[odontoblast]]
+	8030. [[odontogenic tumor]]
 	
-	8031. odontoid process
-	8032. odontology
-	8033. odontome
-	8034. -odynia
-	8035. odynophagia
-	8036. oedema
-	8037. Oedipus complex
-	8038. oesophag-
+	8031. [[odontoid process]]
+	8032. [[odontology]]
+	8033. [[odontome]]
+	8034. [[-odynia]]
+	8035. [[odynophagia]]
+	8036. [[oedema]]
+	8037. [[Oedipus complex]]
+	8038. [[oesophag-]]
 	8039. oesophageal ulcer
-	8040. oesophageal varices
+		1. see PEPTIC ULCER; OESOPHAGITIS.
+	8040. [[oesophageal varices]]
 	
-	8041. oesophagitis
-	8042. oesophagocele
-	8043. oesophagogastroduodenoscopy
-	8044. oesophagoscope
-	8045. Oesophagostomum
-	8046. oesophagostomy
-	8047. oesophagotomy
-	8048. oesophagus
-	8049. oestradiol
-	8050. oestriol
+	8041. [[oesophagitis]]
+	8042. [[oesophagocele]]
+	8043. [[oesophagogastroduodenoscopy]]
+	8044. [[oesophagoscope]]
+	8045. [[Oesophagostomum]]
+	8046. [[oesophagostomy]]
+	8047. [[oesophagotomy]]
+	8048. [[oesophagus]]
+	8049. [[oestradiol]]
+	8050. [[oestriol]]
 	
-	8051. oestrogen
+	8051. [[oestrogen]]
 	8052. oestrogen-receptor antagonist
-	8053. oestrogen receptor
-	8054. oestrone
-	8055. Oestrus
-	8056. off-pump CABG
-	8057. Office for National Statistics((in Britain))
-	8058. ofloxacin
+		1. see ANTI-OESTROGEN.
+	8053. [[oestrogen receptor]]
+	8054. [[oestrone]]
+	8055. [[Oestrus]]
+	8056. [[off-pump CABG]]
+	8057. [[Office for National Statistics]]
+	8058. [[ofloxacin]]
 	8059. OGD
+		1. n. see OESOPHAGOGASTRODUODENOSCOPY.
 	8060. Ogilvie's syndrome
+		1. see PSEUDO-OBSTRUCTION.
 	
-	8061. ohm
+	8061. [[ohm]]
 	8062. OHT
+		1. see OCULAR HYPERTENSION.
 	8063. OI
-	8064. -oid
-	8065. ointment
+		1. see OSTEOGENESIS IMPERFECTA.
+	8064. [[-oid]]
+	8065. [[ointment]]
 	8066. olanzapine
+		1. $n$. see ANTIPSYCHOTIC.
 	8067. olaparib
-	8068. olecranon process
+		1. $n$. see PARP INHIBITOR.
+	8068. [[olecranon process]]
 	8069. oleic acid
-	8070. oleo-
+		1. See fatty acid
+	8070. [[oleo-]]
 	
-	8071. oleothorax
-	8072. oleum((in pharmacy))
-	8073. olfaction
-	8074. olfactory nerve
-	8075. olig-
+	8071. [[oleothorax]]
+	8072. [[oleum]]
+	8073. [[olfaction]]
+	8074. [[olfactory nerve]]
+	8075. [[olig-]]
 	8076. oligaemia
-	8077. oligo-ovulation
+		1. $n$. see HYPOVOLAEMIA.
+	8077. [[oligo-ovulation]]
 	8078. oligoarthritis
-	8079. oligoclonal bands
-	8080. oligodactylism
+		1. n. see arthritis
+	8079. [[oligoclonal bands]]
+	8080. [[oligodactylism]]
 	
-	8081. oligodendrocyte
-	8082. oligodendroglioma
-	8083. oligodipsia
-	8084. oligodontia
-	8085. oligohydramnios
-	8086. oligomenorrhoea
-	8087. oligospermia
-	8088. oliguria
-	8089. olive
+	8081. [[oligodendrocyte]]
+	8082. [[oligodendroglioma]]
+	8083. [[oligodipsia]]
+	8084. [[oligodontia]]
+	8085. [[oligohydramnios]]
+	8086. [[oligomenorrhoea]]
+	8087. [[oligospermia]]
+	8088. [[oliguria]]
+	8089. [[olive]]
 	8090. Ollier's disease
+		1. see DYSCHONDROPLASIA. \[L. L. X. E. Ollier (1830-1900), French surgeon]
 	
 	8091. -ology
-	8092. olsalazine
-	8093. om-
-	8094. -oma
-	8095. omalizumab
-	8096. omega-3 fatty acids
-	8097. omentectomy
-	8098. omentum
-	8099. omeprazole
-	8100. Ommaya reservoir
+		1. combining form. see -LOGY.
+	8092. [[olsalazine]]
+	8093. [[om-]]
+	8094. [[-oma]]
+	8095. [[omalizumab]]
+	8096. [[omega-3 fatty acids]]
+	8097. [[omentectomy]]
+	8098. [[omentum]]
+	8099. [[omeprazole]]
+	8100. [[Ommaya reservoir]]
 	
-	8101. omphal-
-	8102. omphalitis
-	8103. omphalocele
+	8101. [[omphal-]]
+	8102. [[omphalitis]]
+	8103. [[omphalocele]]
 	8104. omphalus
-	8105. on-off phenomenon
-	8106. Onchocerca
-	8107. onchocerciasis
-	8108. onco-
-	8109. oncocytoma
-	8110. oncofetal antigen
+		1. $n$. see UMBILICUS.
+	8105. [[on-off phenomenon]]
+	8106. [[Onchocerca]]
+	8107. [[onchocerciasis]]
+	8108. [[onco-]]
+	8109. [[oncocytoma]]
+	8110. [[oncofetal antigen]]
 	
-	8111. oncogene
-	8112. oncogenesis
-	8113. oncogenic
-	8114. oncology
-	8115. oncolysis
-	8116. oncometer
-	8117. oncosphere
-	8118. oncotic
-	8119. oncotic pressure
-	8120. ondansetron
+	8111. [[oncogene]]
+	8112. [[oncogenesis]]
+	8113. [[oncogenic]]
+	8114. [[oncology]]
+	8115. [[oncolysis]]
+	8116. [[oncometer]]
+	8117. [[oncosphere]]
+	8118. [[oncotic]]
+	8119. [[oncotic pressure]]
+	8120. [[ondansetron]]
 	
-	8121. oneir-
-	8122. Online medical resources
-	8123. Onodi cell
+	8121. [[oneir-]]
+	8122. 
+	8123. [[Onodi cell]]
 	8124. ONS
-	8125. ontogeny
-	8126. onych-
-	8127. onychogryphosis
-	8128. onycholysis
-	8129. onychomycosis
-	8130. Onyx
+		1. see Office for National Statistics.
+	8125. [[ontogeny]]
+	8126. [[onych-]]
+	8127. [[onychogryphosis]]
+	8128. [[onycholysis]]
+	8129. [[onychomycosis]]
+	8130. [[Onyx]]
 	
-	8131. oo-
-	8132. oocyst
-	8133. oocyte
-	8134. oocyte donation
-	8135. oogenesis
-	8136. oogonium
-	8137. ookinete
-	8138. oophor-
-	8139. oophorectomy
-	8140. oophoritis
+	8131. [[oo-]]
+	8132. [[oocyst]]
+	8133. [[oocyte]]
+	8134. [[oocyte donation]]
+	8135. [[oogenesis]]
+	8136. [[oogonium]]
+	8137. [[ookinete]]
+	8138. [[oophor-]]
+	8139. [[oophorectomy]]
+	8140. [[oophoritis]]
 	
-	8141. oophoropexy
-	8142. operant((in psychology))
-	8143. operating microscope
-	8144. operculum
-	8145. operon
-	8146. ophthalm-
-	8147. ophthalmia
-	8148. ophthalmia neonatorum
-	8149. ophthalmic
-	8150. ophthalmic nerve
+	8141. [[oophoropexy]]
+	8142. [[operant]]
+	8143. [[operating microscope]]
+	8144. [[operculum]]
+	8145. [[operon]]
+	8146. [[ophthalm-]]
+	8147. [[ophthalmia]]
+	8148. [[ophthalmia neonatorum]]
+	8149. [[ophthalmic]]
+	8150. [[ophthalmic nerve]]
 	
-	8151. ophthalmitis
-	8152. ophthalmodynamometry
-	8153. ophthalmologist
-	8154. ophthalmology
+	8151. [[ophthalmitis]]
+	8152. [[ophthalmodynamometry]]
+	8153. [[ophthalmologist]]
+	8154. [[ophthalmology]]
 	8155. ophthalmometer
-	8156. ophthalmoplegia
-	8157. ophthalmoscope
+		1. n. see keratometer
+	8156. [[ophthalmoplegia]]
+	8157. [[ophthalmoscope]]
 	8158. ophthalmotonometer
-	8159. -opia
-	8160. opiate
+		1. n. see tonometer
+	8159. [[-opia]]
+	8160. [[opiate]]
 	
-	8161. opisth-
-	8162. opisthorchiasis
-	8163. Opisthorchis
-	8164. opisthotonos
-	8165. opium
-	8166. opponens
-	8167. opportunistic
-	8168. opposition((in anatomy))
-	8169. -opsia
-	8170. opsoclonus
+	8161. [[opisth-]]
+	8162. [[opisthorchiasis]]
+	8163. [[Opisthorchis]]
+	8164. [[opisthotonos]]
+	8165. [[opium]]
+	8166. [[opponens]]
+	8167. [[opportunistic]]
+	8168. [[opposition]]
+	8169. [[-opsia]]
+	8170. [[opsoclonus]]
 	
-	8171. opsonin
-	8172. opsonization
-	8173. opt-
-	8174. optic
-	8175. optical activity
-	8176. optical coherence tomography
-	8177. optic atrophy
-	8178. optic chiasm
-	8179. optic cup
-	8180. optic disc
+	8171. [[opsonin]]
+	8172. [[opsonization]]
+	8173. [[opt-]]
+	8174. [[optic]]
+	8175. [[optical activity]]
+	8176. [[optical coherence tomography]]
+	8177. [[optic atrophy]]
+	8178. [[optic chiasm]]
+	8179. [[optic cup]]
+	8180. [[optic disc]]
 	
-	8181. optic foramen
-	8182. optician
-	8183. optic nerve
+	8181. [[optic foramen]]
+	8182. [[optician]]
+	8183. [[optic nerve]]
 	8184. optic neuritis
-	8185. opticokinetic
-	8186. optometer
-	8187. optometrist
-	8188. optotype
-	8189. oral
-	8190. oral cavity
+		1. see RETROBULBAR NEURITIS.
+	8185. [[opticokinetic]]
+	8186. [[optometer]]
+	8187. [[optometrist]]
+	8188. [[optotype]]
+	8189. [[oral]]
+	8190. [[oral cavity]]
 	
-	8191. oral contraceptive
-	8192. oral hypoglycaemic drug
+	8191. [[oral contraceptive]]
+	8192. [[oral hypoglycaemic drug]]
 	8193. oral medicine
-	8194. oral rehabilitation
-	8195. oral rehydration therapy
-	8196. orbicularis
-	8197. orbit
-	8198. orbitotomy
-	8199. orchi-
-	8200. orchidalgia
+		1. see STOMATOLOGY.
+	8194. [[oral rehabilitation]]
+	8195. [[oral rehydration therapy]]
+	8196. [[orbicularis]]
+	8197. [[orbit]]
+	8198. [[orbitotomy]]
+	8199. [[orchi-]]
+	8200. [[orchidalgia]]
 	
-	8201. orchidectomy
-	8202. orchidometer
-	8203. orchidopexy
-	8204. orchidotomy
-	8205. orchitis
-	8206. orf
-	8207. organ
-	8208. organelle
-	8209. organic
-	8210. organic disorder
+	8201. [[orchidectomy]]
+	8202. [[orchidometer]]
+	8203. [[orchidopexy]]
+	8204. [[orchidotomy]]
+	8205. [[orchitis]]
+	8206. [[orf]]
+	8207. [[organ]]
+	8208. [[organelle]]
+	8209. [[organic]]
+	8210. [[organic disorder]]
 	
-	8211. organism
-	8212. organo-
-	8213. organ of Corti
-	8214. organ of Jacobson
+	8211. [[organism]]
+	8212. [[organo-]]
+	8213. [[organ of Corti]]
+	8214. [[organ of Jacobson]]
 	8215. organotrophic
-	8216. orgasm
-	8217. oriental sore
-	8218. orientation((in psychology))
-	8219. origin((in anatomy))
-	8220. orlistat
+		1. adj. see HETEROTROPHIC.
+	8216. [[orgasm]]
+	8217. [[oriental sore]]
+	8218. [[orientation]]
+	8219. [[origin]]
+	8220. [[orlistat]]
 	
-	8221. ornithine
-	8222. Ornithodoros
+	8221. [[ornithine]]
+	8222. [[Ornithodoros]]
 	8223. ornithosis
-	8224. oro-
-	8225. oroantral fistula
-	8226. oropharyngeal airway
-	8227. oropharynx
+		1. $n$. see PSITTACOSIS.
+	8224. [[oro-]]
+	8225. [[oroantral fistula]]
+	8226. [[oropharyngeal airway]]
+	8227. [[oropharynx]]
 	8228. Oroya fever
-	8229. orphenadrine
+		1. see BARTONELLOSIS.
+	8229. [[orphenadrine]]
 	8230. ORT
+		1. see ORAL REHYDRATION THERAPY.
 	
-	8231. ortho-
-	8232. orthochromatic
-	8233. orthodontic appliance
-	8234. orthodontics
-	8235. orthognathic surgery
-	8236. orthokeratology
-	8237. orthopaedics
-	8238. orthophoria
-	8239. orthopnoea
-	8240. orthoptics
+	8231. [[ortho-]]
+	8232. [[orthochromatic]]
+	8233. [[orthodontic appliance]]
+	8234. [[orthodontics]]
+	8235. [[orthognathic surgery]]
+	8236. [[orthokeratology]]
+	8237. [[orthopaedics]]
+	8238. [[orthophoria]]
+	8239. [[orthopnoea]]
+	8240. [[orthoptics]]
 	
 	8241. orthoptoscope
-	8242. orthosis
-	8243. orthostatic
-	8244. orthotics
-	8245. orthotopic transplantation
-	8246. Ortolani manoeuvre
-	8247. os1
-	8248. os2
+		1. $n$. see AMBLYOSCOPE.
+	8242. [[orthosis]]
+	8243. [[orthostatic]]
+	8244. [[orthotics]]
+	8245. [[orthotopic transplantation]]
+	8246. [[Ortolani manoeuvre]]
+	8247. [[os]]
+	8248. 
 	8249. OSA
+		1. see OBSTRUCTIVE SLEEP APNOEA.
 	8250. OSAS
+		1. obstructive sleep apnoea syndrome (see OBSTRUCTIVE SLEEP APNOEA).
 	
 	8251. OSCE
-	8252. osche-
-	8253. oscilloscope
-	8254. osculum((in anatomy))
-	8255. oseltamivir
-	8256. Osgood-Schlatter disease
-	8257. -osis
-	8258. Osler's nodes
-	8259. Osler-Rendu-Weber disease
-	8260. osm-
+		1. see OBJECTIVE STRUCTURED CLINICAL EXAMINATION.
+	8252. [[osche-]]
+	8253. [[oscilloscope]]
+	8254. [[osculum]]
+	8255. [[oseltamivir]]
+	8256. [[Osgood-Schlatter disease]]
+	8257. [[-osis]]
+	8258. [[Osler's nodes]]
+	8259. [[Osler-Rendu-Weber disease]]
+	8260. [[osm-]]
 	
 	8261. osmic acid
-	8262. osmiophilic
-	8263. osmium tetroxide
-	8264. osmolality
-	8265. osmolar gap
-	8266. osmole
-	8267. osmoreceptor
-	8268. osmosis
-	8269. osseointegration
-	8270. osseous
+		1. see OSMIUM TETROXIDE.
+	8262. [[osmiophilic]]
+	8263. [[osmium tetroxide]]
+	8264. [[osmolality]]
+	8265. [[osmolar gap]]
+	8266. [[osmole]]
+	8267. [[osmoreceptor]]
+	8268. [[osmosis]]
+	8269. [[osseointegration]]
+	8270. [[osseous]]
 	
-	8271. ossicle
-	8272. ossification
-	8273. ost-
-	8274. ostectomy
-	8275. osteitis
+	8271. [[ossicle]]
+	8272. [[ossification]]
+	8273. [[ost-]]
+	8274. [[ostectomy]]
+	8275. [[osteitis]]
 	8276. osteo-
-	8277. osteoarthritis
-	8278. osteoarthropathy
+		1. combining form. see OST-.
+	8277. [[osteoarthritis]]
+	8278. [[osteoarthropathy]]
 	8279. osteoarthrosis
-	8280. osteoarthrotomy
+		1. $n$. see OSTEOARTHRITIS.
+	8280. [[osteoarthrotomy]]
 	
-	8281. osteoblast
-	8282. osteochondritis
-	8283. osteochondritis dissecans
-	8284. osteochondroma
+	8281. [[osteoblast]]
+	8282. [[osteochondritis]]
+	8283. [[osteochondritis dissecans]]
+	8284. [[osteochondroma]]
 	8285. osteochondrosis
-	8286. osteoclasia
-	8287. osteoclasis
-	8288. osteoclast
-	8289. osteoclastoma
-	8290. osteocyte
+		1. $n$. see OSTEOCHONDRITIS.
+	8286. [[osteoclasia]]
+	8287. [[osteoclasis]]
+	8288. [[osteoclast]]
+	8289. [[osteoclastoma]]
+	8290. [[osteocyte]]
 	
-	8291. osteodystrophy
+	8291. [[osteodystrophy]]
 	8292. osteogenesis
-	8293. osteogenesis imperfecta
-	8294. osteogenic
-	8295. osteology
-	8296. osteolysis
-	8297. osteoma
-	8298. osteomalacia
+		1. $n$. see OSSIFICATION.
+	8293. [[osteogenesis imperfecta]]
+	8294. [[osteogenic]]
+	8295. [[osteology]]
+	8296. [[osteolysis]]
+	8297. [[osteoma]]
+	8298. [[osteomalacia]]
 	8299. osteomeatal complex
-	8300. osteomyelitis
+		1. see OSTIOMEATAL COMPLEX.
+	8300. [[osteomyelitis]]
 	
-	8301. osteonecrosis
-	8302. osteopathy
-	8303. osteopenia
-	8304. osteopetrosis
-	8305. osteophyte
-	8306. osteoporosis
-	8307. osteosarcoma
-	8308. osteosclerosis
-	8309. osteotome
-	8310. osteotomy
+	8301. [[osteonecrosis]]
+	8302. [[osteopathy]]
+	8303. [[osteopenia]]
+	8304. [[osteopetrosis]]
+	8305. [[osteophyte]]
+	8306. [[osteoporosis]]
+	8307. [[osteosarcoma]]
+	8308. [[osteosclerosis]]
+	8309. [[osteotome]]
+	8310. [[osteotomy]]
 	
-	8311. ostiomeatal complex
-	8312. ostium
+	8311. [[ostiomeatal complex]]
+	8312. [[ostium]]
 	8313. -ostomy
-	8314. ot-
-	8315. otalgia
+		1. combining form. see -STOMY.
+	8314. [[ot-]]
+	8315. [[otalgia]]
 	8316. otapostasis
+		1. see PROTRUDING EARS.
 	8317. OTC drug
-	8318. otic
-	8319. otic capsule
-	8320. otitis
+		1. see OVER-THE-COUNTER DRUG.
+	8318. [[otic]]
+	8319. [[otic capsule]]
+	8320. [[otitis]]
 	
-	8321. otoacoustic emissions
+	8321. [[otoacoustic emissions]]
 	8322. otoconium
-	8323. otocyst
-	8324. otolaryngology
-	8325. otolith
-	8326. otology
+		1. $n$. see OTOLITH.
+	8323. [[otocyst]]
+	8324. [[otolaryngology]]
+	8325. [[otolith]]
+	8326. [[otology]]
 	8327. -otomy
-	8328. otomycosis
-	8329. otoplasty
+		1. combining form. see -TOMY.
+	8328. [[otomycosis]]
+	8329. [[otoplasty]]
 	8330. otopostasis
+		1. see PROTRUDING EARS.
 	
-	8331. otorhinolaryngology
-	8332. otorrhagia
-	8333. otorrhoea
-	8334. otosclerosis
+	8331. [[otorhinolaryngology]]
+	8332. [[otorrhagia]]
+	8333. [[otorrhoea]]
+	8334. [[otosclerosis]]
 	8335. otoscope
+		1. $n$. see AURISCOPE.
 	8336. otospongiosis
-	8337. ototoxic
-	8338. out-of-body experience
-	8339. out-of-hours((in general practice))
-	8340. out-patient
+		1. $n$. see OTOSCLEROSIS.
+	8337. [[ototoxic]]
+	8338. [[out-of-body experience]]
+	8339. [[out-of-hours]]
+	8340. [[out-patient]]
 	
-	8341. out-toe gait
-	8342. outbreeding
-	8343. outer ear
+	8341. [[out-toe gait]]
+	8342. [[outbreeding]]
+	8343. [[outer ear]]
 	8344. oval window
-	8345. ovari-
-	8346. ovarian cancer
-	8347. ovarian cyst
-	8348. ovarian hyperstimulation syndrome
+		1. see FENESTRA.
+	8345. [[ovari-]]
+	8346. [[ovarian cancer]]
+	8347. [[ovarian cyst]]
+	8348. [[ovarian hyperstimulation syndrome]]
 	8349. ovariectomy
-	8350. ovariotomy
+		1. $n$. see OOPHORECTOMY.
+	8350. [[ovariotomy]]
 	
 	8351. ovaritis
-	8352. ovary
-	8353. over-the-counter drug
+		1. $n$. see OOPHORITIS.
+	8352. [[ovary]]
+	8353. [[over-the-counter drug]]
 	8354. overactive bladder syndrome
-	8355. overbite
-	8356. overcompensation((in psychology))
-	8357. overdiagnosis
-	8358. overjet
-	8359. overt
-	8360. overtube
+		1. see detrusor
+	8355. [[overbite]]
+	8356. [[overcompensation]]
+	8357. [[overdiagnosis]]
+	8358. [[overjet]]
+	8359. [[overt]]
+	8360. [[overtube]]
 	
-	8361. ovi-
+	8361. [[ovi-]]
 	8362. oviduct
-	8363. ovulation
-	8364. ovum
-	8365. oxalic acid
-	8366. oxaliplatin
-	8367. oxalosis
-	8368. oxaluria
-	8369. oxazepam
-	8370. oxidant((in biological systems))
+		1. $n$. see Fallopian tube.
+	8363. [[ovulation]]
+	8364. [[ovum]]
+	8365. [[oxalic acid]]
+	8366. [[oxaliplatin]]
+	8367. [[oxalosis]]
+	8368. [[oxaluria]]
+	8369. [[oxazepam]]
+	8370. [[oxidant]]
 	
 	8371. oxidase
-	8372. oxidoreductase
-	8373. oximeter
-	8374. oxprenolol
-	8375. oxybutynin
-	8376. oxycephaly
-	8377. oxycodone
-	8378. oxygen
-	8379. oxygenator
-	8380. oxygen deficit
+		1. $n$. see OXIDOREDUCTASE.
+	8372. [[oxidoreductase]]
+	8373. [[oximeter]]
+	8374. [[oxprenolol]]
+	8375. [[oxybutynin]]
+	8376. [[oxycephaly]]
+	8377. [[oxycodone]]
+	8378. [[oxygen]]
+	8379. [[oxygenator]]
+	8380. [[oxygen deficit]]
 	
 	8381. oxygen tent
-	8382. oxyhaemoglobin
+		1. see tent
+	8382. [[oxyhaemoglobin]]
 	8383. oxyntic cells
-	8384. oxytetracycline
-	8385. oxytocic
-	8386. oxytocin
+		1. see PARIETAL CELLS.
+	8384. [[oxytetracycline]]
+	8385. [[oxytocic]]
+	8386. [[oxytocin]]
 	8387. oxyuriasis
+		1. $n$. see ENTEROBIASIS.
 	8388. Oxyuris
-	8389. ozaena
-	8390. ozone
+		1. $n$. see THREADWORM.
+	8389. [[ozaena]]
+	8390. [[ozone]]
 	
-	8391. P-R interval
-	8392. p53
+	8391. [[P-R interval]]
+	8392. [[p53]]
 	8393. PA
+		1. see POSTEROANTERIOR.
 	8394. Pacchionian body
-	8395. pacemaker
-	8396. pachy-
-	8397. pachydactyly
-	8398. pachyglossia
-	8399. pachymeningitis
-	8400. pachymeninx
+		1. see ARACHNOID VILLUS. \[A. Pacchioni (1665-1726), Italian anatomist]
+	8395. [[pacemaker]]
+	8396. [[pachy-]]
+	8397. [[pachydactyly]]
+	8398. [[pachyglossia]]
+	8399. [[pachymeningitis]]
+	8400. [[pachymeninx]]
 	
-	8401. pachymeter
-	8402. pachyonychia congenita
-	8403. pachysomia
-	8404. pachytene
-	8405. Pacinian corpuscles
-	8406. pack
-	8407. packed cell volume
-	8408. pack years
-	8409. paclitaxel
-	8410. PACS
+	8401. [[pachymeter]]
+	8402. [[pachyonychia congenita]]
+	8403. [[pachysomia]]
+	8404. [[pachytene]]
+	8405. [[Pacinian corpuscles]]
+	8406. [[pack]]
+	8407. [[packed cell volume]]
+	8408. [[pack years]]
+	8409. [[paclitaxel]]
+	8410. [[PACS]]
 	
-	8411. pad
-	8412. Paddington alcohol test
-	8413. paed-
-	8414. paediatric dentistry
-	8415. Paediatric reference values
-	8416. paediatrics
-	8417. paedophilia
-	8418. Paget's disease
-	8419. pain
-	8420. pain clinic
+	8411. [[pad]]
+	8412. [[Paddington alcohol test]]
+	8413. [[paed-]]
+	8414. [[paediatric dentistry]]
+	8415. 
+	8416. [[paediatrics]]
+	8417. [[paedophilia]]
+	8418. [[Paget's disease]]
+	8419. [[pain]]
+	8420. [[pain clinic]]
 	
 	8421. painful bruising syndrome
-	8422. paint((in pharmacy))
-	8423. palaeo-
-	8424. palaeocerebellum
-	8425. palaeopathology
+		1. see GARDNER-DIAMOND SYNDROME.
+	8422. [[paint]]
+	8423. [[palaeo-]]
+	8424. [[palaeocerebellum]]
+	8425. [[palaeopathology]]
 	8426. palaeostriatum
-	8427. palaeothalamus
-	8428. palatal myoclonus
-	8429. palate
-	8430. palatine bone
+		1. $n$. see PALLIDUM.
+	8427. [[palaeothalamus]]
+	8428. [[palatal myoclonus]]
+	8429. [[palate]]
+	8430. [[palatine bone]]
 	
-	8431. palato-
-	8432. palatoplasty
+	8431. [[palato-]]
+	8432. [[palatoplasty]]
 	8433. palatorrhaphy
-	8434. pali-
-	8435. palilalia
-	8436. palindromic
-	8437. paliphrasia
-	8438. palliative
-	8439. pallidotomy
-	8440. pallidum
+		1. $n$. see STAPHYLORRHAPHY.
+	8434. [[pali-]]
+	8435. [[palilalia]]
+	8436. [[palindromic]]
+	8437. [[paliphrasia]]
+	8438. [[palliative]]
+	8439. [[pallidotomy]]
+	8440. [[pallidum]]
 	
-	8441. pallium
-	8442. pallor
-	8443. palmar erythema
-	8444. Palmer's point
+	8441. [[pallium]]
+	8442. [[pallor]]
+	8443. [[palmar erythema]]
+	8444. [[Palmer's point]]
 	8445. palmitic acid
-	8446. palmoplantar erythrodysaesthesia
-	8447. palpation
-	8448. palpebral
-	8449. palpitation
+		1. see fatty acid
+	8446. [[palmoplantar erythrodysaesthesia]]
+	8447. [[palpation]]
+	8448. [[palpebral]]
+	8449. [[palpitation]]
 	8450. PALS
+		1. see Patient Advice and Liaison Service.
 	
 	8451. palsy
+		1. $n$. paralysis. This archaic word is retained in compound terms, such as Bell's palsy, cerebral palsy, and Todd's paralysis (or palsy).
 	8452. paludism
-	8453. pamidronate disodium
-	8454. pan-
-	8455. panacea
+		1. $n$. see MALARIA.
+	8453. [[pamidronate disodium]]
+	8454. [[pan-]]
+	8455. [[panacea]]
 	8456. pancarditis
-	8457. Pancoast syndrome
-	8458. pancreas
-	8459. pancreas divisum
-	8460. pancreatectomy
+		1. $n$. see ENDOMYOCARDITIS.
+	8457. [[Pancoast syndrome]]
+	8458. [[pancreas]]
+	8459. [[pancreas divisum]]
+	8460. [[pancreatectomy]]
 	
-	8461. pancreatic enzyme replacement therapy
-	8462. pancreatic juice
-	8463. pancreatic polypeptide
-	8464. pancreatin
-	8465. pancreatitis
-	8466. pancreatogram
-	8467. pancreatotomy
-	8468. pancreozymin
+	8461. [[pancreatic enzyme replacement therapy]]
+	8462. [[pancreatic juice]]
+	8463. [[pancreatic polypeptide]]
+	8464. [[pancreatin]]
+	8465. [[pancreatitis]]
+	8466. [[pancreatogram]]
+	8467. [[pancreatotomy]]
+	8468. [[pancreozymin]]
 	8469. pancuronium
-	8470. pancytopenia
+		1. n. see MUSCLE RELAXANT.
+	8470. [[pancytopenia]]
 	
-	8471. panda sign
-	8472. pandemic
-	8473. panic disorder
-	8474. panmixis
-	8475. panniculitis
-	8476. panniculus
-	8477. pannus
-	8478. panophthalmitis
-	8479. Panstrongylus
+	8471. [[panda sign]]
+	8472. [[pandemic]]
+	8473. [[panic disorder]]
+	8474. [[panmixis]]
+	8475. [[panniculitis]]
+	8476. [[panniculus]]
+	8477. [[pannus]]
+	8478. [[panophthalmitis]]
+	8479. [[Panstrongylus]]
 	8480. pant-
+		1. (panto-) combining form. see PAN-.
 	
-	8481. pantaloon hernia
-	8482. Panton-Valentine leukocidin
+	8481. [[pantaloon hernia]]
+	8482. [[Panton-Valentine leukocidin]]
 	8483. pantoprazole
-	8484. pantothenic acid
-	8485. pantropic
-	8486. papain
+		1. $n$. see PROTON-PUMP INHIBITOR.
+	8484. [[pantothenic acid]]
+	8485. [[pantropic]]
+	8486. [[papain]]
 	8487. Papanicolaou test
-	8488. papaverine
-	8489. papilla
-	8490. papillary
+		1. (Pap test) see CERVICAL SCREENING. \[G. N. Papanicolaou (1883-1962), Greek physician, anatomist, and cytologist]
+	8488. [[papaverine]]
+	8489. [[papilla]]
+	8490. [[papillary]]
 	
-	8491. papillitis
-	8492. papilloedema
-	8493. papilloma
-	8494. papillomatosis
-	8495. papillotomy
-	8496. papovavirus
-	8497. PAPP-A
+	8491. [[papillitis]]
+	8492. [[papilloedema]]
+	8493. [[papilloma]]
+	8494. [[papillomatosis]]
+	8495. [[papillotomy]]
+	8496. [[papovavirus]]
+	8497. [[PAPP-A]]
 	8498. Pappataci fever
-	8499. papule
-	8500. papulo-
+		1. see SANDFLY FEVER.
+	8499. [[papule]]
+	8500. [[papulo-]]
 	
-	8501. papulosquamous
-	8502. para-
-	8503. paracentesis
-	8504. paracetamol
-	8505. Paracoccidioides
-	8506. paracrine
-	8507. paracusis
-	8508. paradidymis
-	8509. paradox((in *family therapy))
-	8510. paradoxical breathing
+	8501. [[papulosquamous]]
+	8502. [[para-]]
+	8503. [[paracentesis]]
+	8504. [[paracetamol]]
+	8505. [[Paracoccidioides]]
+	8506. [[paracrine]]
+	8507. [[paracusis]]
+	8508. [[paradidymis]]
+	8509. [[paradox]]
+	8510. [[paradoxical breathing]]
 	
-	8511. paraesthesia
-	8512. paraffin
-	8513. paraganglioma
-	8514. paraganglion
-	8515. parageusia
-	8516. paragonimiasis
-	8517. Paragonimus
-	8518. paragranuloma
-	8519. parainfluenza viruses
-	8520. paralysis
+	8511. [[paraesthesia]]
+	8512. [[paraffin]]
+	8513. [[paraganglioma]]
+	8514. [[paraganglion]]
+	8515. [[parageusia]]
+	8516. [[paragonimiasis]]
+	8517. [[Paragonimus]]
+	8518. [[paragranuloma]]
+	8519. [[parainfluenza viruses]]
+	8520. [[paralysis]]
 	
-	8521. paramedian
-	8522. paramedical
+	8521. [[paramedian]]
+	8522. [[paramedical]]
 	8523. paramesonephric duct
-	8524. parameter((in medicine))
+		1. see MÜLlERIAN DUCT.
+	8524. [[parameter]]
 	8525. parametric test
-	8526. parametritis
-	8527. parametrium
-	8528. paramnesia
-	8529. paramyotonia congenita
+		1. see SIGNIFICANCE.
+	8526. [[parametritis]]
+	8527. [[parametrium]]
+	8528. [[paramnesia]]
+	8529. [[paramyotonia congenita]]
 	8530. paramyxovirus
+		1. $n$. see MYXOVIRUS.
 	
-	8531. paranasal sinuses
-	8532. paraneoplastic syndrome
-	8533. paranoia
-	8534. paraparesis
-	8535. parapharyngeal space
-	8536. paraphasia
-	8537. paraphimosis
+	8531. [[paranasal sinuses]]
+	8532. [[paraneoplastic syndrome]]
+	8533. [[paranoia]]
+	8534. [[paraparesis]]
+	8535. [[parapharyngeal space]]
+	8536. [[paraphasia]]
+	8537. [[paraphimosis]]
 	8538. paraphrenia
-	8539. paraplegia
-	8540. paraprotein
+		1. $n$. a former name for late-onset schizophrenia.
+	8539. [[paraplegia]]
+	8540. [[paraprotein]]
 	
 	8541. parapsoriasis
-	8542. parapsychology
-	8543. Paraquat
-	8544. parasite
-	8545. parasiticide
-	8546. parasitology
-	8547. parasternal
-	8548. parastomal
-	8549. parasympathetic nervous system
-	8550. parasympatholytic
+		1. $n$. an obsolete name for the earliest phase of mycosis fungoides.
+	8542. [[parapsychology]]
+	8543. [[Paraquat]]
+	8544. [[parasite]]
+	8545. [[parasiticide]]
+	8546. [[parasitology]]
+	8547. [[parasternal]]
+	8548. [[parastomal]]
+	8549. [[parasympathetic nervous system]]
+	8550. [[parasympatholytic]]
 	
-	8551. parasympathomimetic
-	8552. paratenon
-	8553. parathion
+	8551. [[parasympathomimetic]]
+	8552. [[paratenon]]
+	8553. [[parathion]]
 	8554. parathormone
-	8555. parathyroidectomy
-	8556. parathyroid glands
-	8557. parathyroid hormone
-	8558. parathyroid hormone-related protein
-	8559. paratyphoid fever
-	8560. pareidolia
+		1. $n$. see PARATHYROID HORMONE.
+	8555. [[parathyroidectomy]]
+	8556. [[parathyroid glands]]
+	8557. [[parathyroid hormone]]
+	8558. [[parathyroid hormone-related protein]]
+	8559. [[paratyphoid fever]]
+	8560. [[pareidolia]]
 	
-	8561. parenchyma
+	8561. [[parenchyma]]
 	8562. parental order
-	8563. parental responsibility
-	8564. parenteral
-	8565. paresis
-	8566. paries
-	8567. parietal
-	8568. parietal bone
-	8569. parietal cells
-	8570. parietal lobe
+		1. see SECTION 30 ORDER.
+	8563. [[parental responsibility]]
+	8564. [[parenteral]]
+	8565. [[paresis]]
+	8566. [[paries]]
+	8567. [[parietal]]
+	8568. [[parietal bone]]
+	8569. [[parietal cells]]
+	8570. [[parietal lobe]]
 	
-	8571. parity
-	8572. parkinsonism
-	8573. Parliamentary and Health Service Ombudsman((in England))
-	8574. paronychia
-	8575. paroophoron
-	8576. parosmia
-	8577. parotid gland
-	8578. parotitis
-	8579. parous
-	8580. paroxetine
+	8571. [[parity]]
+	8572. [[parkinsonism]]
+	8573. [[Parliamentary and Health Service Ombudsman]]
+	8574. [[paronychia]]
+	8575. [[paroophoron]]
+	8576. [[parosmia]]
+	8577. [[parotid gland]]
+	8578. [[parotitis]]
+	8579. [[parous]]
+	8580. [[paroxetine]]
 	
-	8581. paroxysm
-	8582. paroxysmal nocturnal haemoglobinuria
-	8583. PARP inhibitor
+	8581. [[paroxysm]]
+	8582. [[paroxysmal nocturnal haemoglobinuria]]
+	8583. [[PARP inhibitor]]
 	8584. parrot disease
-	8585. pars
-	8586. pars plana
-	8587. Part 2A order((in England))
-	8588. parthenogenesis
-	8589. partial volume artifact
-	8590. participatory action research
+		1. see PSITTACOSIS.
+	8585. [[pars]]
+	8586. [[pars plana]]
+	8587. [[Part 2A order]]
+	8588. [[parthenogenesis]]
+	8589. [[partial volume artifact]]
+	8590. [[participatory action research]]
 	
-	8591. particularism
-	8592. Part III accommodation
-	8593. partogram
+	8591. [[particularism]]
+	8592. [[Part III accommodation]]
+	8593. [[partogram]]
 	8594. parturition
+		1. $n$. childbirth. See LABOUR.
 	8595. parulis
-	8596. parvi-
-	8597. parvovirus
-	8598. pascal
-	8599. Paschen bodies
+		1. $n$. see EPULIS.
+	8596. [[parvi-]]
+	8597. [[parvovirus]]
+	8598. [[pascal]]
+	8599. [[Paschen bodies]]
 	8600. PASI
+		1. see PSORIASIS AREA SEVERITY INDEX.
 	
-	8601. passive movement
-	8602. passivity((in psychiatry))
-	8603. paste((in pharmacy))
-	8604. Pasteurella
-	8605. pasteurization
-	8606. pastille
-	8607. Patau syndrome
-	8608. patch test
-	8609. patella
-	8610. patellar reflex
+	8601. [[passive movement]]
+	8602. [[passivity]]
+	8603. [[paste]]
+	8604. [[Pasteurella]]
+	8605. [[pasteurization]]
+	8606. [[pastille]]
+	8607. [[Patau syndrome]]
+	8608. [[patch test]]
+	8609. [[patella]]
+	8610. [[patellar reflex]]
 	
-	8611. patency
+	8611. [[patency]]
 	8612. patent ductus arteriosus
-	8613. patent foramen ovale
-	8614. paternalism
-	8615. path-
-	8616. pathogen
-	8617. pathogenic
-	8618. pathognomonic
-	8619. pathological
-	8620. pathological fracture
+		1. see DUCTUS ARTERIOSUS.
+	8613. [[patent foramen ovale]]
+	8614. [[paternalism]]
+	8615. [[path-]]
+	8616. [[pathogen]]
+	8617. [[pathogenic]]
+	8618. [[pathognomonic]]
+	8619. [[pathological]]
+	8620. [[pathological fracture]]
 	
-	8621. pathology
-	8622. -pathy
-	8623. Patient Advice and Liaison Service((in England))
+	8621. [[pathology]]
+	8622. [[-pathy]]
+	8623. [[Patient Advice and Liaison Service]]
 	8624. Patient Health Questionnaire
+		1. see PHQ-9
 	8625. Patient Protection and Affordable Care Act
-	8626. patulous
+		1. see affordable care act 2010
+	8626. [[patulous]]
 	8627. pauciarthritis
-	8628. pavementation
-	8629. PCA3
+		1. n. see arthritis
+	8628. [[pavementation]]
+	8629. [[PCA3]]
 	8630. PCI
+		1. see PERCUTANEOUS CORONARY INTERVENTION.
 	
 	8631. PCNL
+		1. see PERCUTANEOUS NEPHROLITHOTOMY.
 	8632. PCO
+		1. see POLYCYSTIC OVARY.
 	8633. PCOS
+		1. see POLYCYSTIC OVARY SYNDROME.
 	8634. PCP
+		1. Pneumocystis jiroveci (formerly Pneumocystis carinii) pneumonia. Although the causative organism has been reclassified and renamed, the original abbreviation continues to be used for this type of pneumonia. See PNEUMOCYSTIS.
 	8635. PCR
+		1. see POLYMERASE CHAIN REACTION.
 	8636. PDGF
-	8637. peak expiratory flow rate
-	8638. peau d'orange
-	8639. pecten
-	8640. pectoral
+		1. platelet-derived growth factor (see GROWTH FACTOR).
+	8637. [[peak expiratory flow rate]]
+	8638. [[peau d'orange]]
+	8639. [[pecten]]
+	8640. [[pectoral]]
 	
 	8641. pectoral girdle
-	8642. pectoral muscles
-	8643. pectoriloquy
-	8644. pectus
+		1. see shoulder girdle
+	8642. [[pectoral muscles]]
+	8643. [[pectoriloquy]]
+	8644. [[pectus]]
 	8645. pectus carinatum
+		1. see PIGEON CHEST.
 	8646. pectus excavatum
-	8647. pedicle
-	8648. pediculicide
-	8649. Pediculoides
-	8650. pediculosis
+		1. see FUNNEL CHEST.
+	8647. [[pedicle]]
+	8648. [[pediculicide]]
+	8649. [[Pediculoides]]
+	8650. [[pediculosis]]
 	
-	8651. Pediculus
-	8652. pedometer
-	8653. peduncle
-	8654. pedunculated
+	8651. [[Pediculus]]
+	8652. [[pedometer]]
+	8653. [[peduncle]]
+	8654. [[pedunculated]]
 	8655. PEFR
+		1. see PEAK EXPIRATORY FLOW RATE.
 	8656. PEG
+		1. percutaneous endoscopic gastrostomy: see GASTROSTOMY.
 	8657. pegaptanib
+		1. $n$. see RANIBIZUMAB.
 	8658. peginterferon alfa
-	8659. peg lateral
+		1. $n$. see INTERFERON.
+	8659. [[peg lateral]]
 	8660. pegvisomant
+		1. $n$. see GROWTH HORMONE.
 	
-	8661. pellagra
-	8662. pellicle
+	8661. [[pellagra]]
+	8662. [[pellicle]]
 	8663. pelvic-floor muscle training
-	8664. pelvic girdle
-	8665. pelvic inflammatory disease
-	8666. pelvimetry
-	8667. pelvis
-	8668. pemetrexed
-	8669. pemphigoid
-	8670. pemphigoid gestationalis
+		1. see KEGEL EXERCISES.
+	8664. [[pelvic girdle]]
+	8665. [[pelvic inflammatory disease]]
+	8666. [[pelvimetry]]
+	8667. [[pelvis]]
+	8668. [[pemetrexed]]
+	8669. [[pemphigoid]]
+	8670. [[pemphigoid gestationalis]]
 	
-	8671. pemphigus
-	8672. Pena operation
-	8673. Pendred's syndrome
-	8674. penectomy
-	8675. penetrance
-	8676. -penia
-	8677. penicillamine
-	8678. penicillin
-	8679. penicillinase
-	8680. Penicillium
+	8671. [[pemphigus]]
+	8672. [[Pena operation]]
+	8673. [[Pendred's syndrome]]
+	8674. [[penectomy]]
+	8675. [[penetrance]]
+	8676. [[-penia]]
+	8677. [[penicillamine]]
+	8678. [[penicillin]]
+	8679. [[penicillinase]]
+	8680. [[Penicillium]]
 	
-	8681. penile fracture
-	8682. penile intraepithelial neoplasia
-	8683. penile pearly papules
+	8681. [[penile fracture]]
+	8682. [[penile intraepithelial neoplasia]]
+	8683. [[penile pearly papules]]
 	8684. penile prosthesis
-	8685. penis
-	8686. pent-
-	8687. pentamidine
-	8688. pentose
-	8689. pentostatin
-	8690. pentosuria
+		1. see PROSTHESIS.
+	8685. [[penis]]
+	8686. [[pent-]]
+	8687. [[pentamidine]]
+	8688. [[pentose]]
+	8689. [[pentostatin]]
+	8690. [[pentosuria]]
 	
-	8691. peppermint oil
-	8692. pepsin
+	8691. [[peppermint oil]]
+	8692. [[pepsin]]
 	8693. pepsinogen
-	8694. peptic
-	8695. peptic ulcer
-	8696. peptidase
-	8697. peptide
-	8698. peptide receptor radionuclide therapy
-	8699. peptone
-	8700. peptonuria
+		1. $n$. see PEPSIN.
+	8694. [[peptic]]
+	8695. [[peptic ulcer]]
+	8696. [[peptidase]]
+	8697. [[peptide]]
+	8698. [[peptide receptor radionuclide therapy]]
+	8699. [[peptone]]
+	8700. [[peptonuria]]
 	
-	8701. perception
-	8702. percussion
-	8703. percutaneous
-	8704. percutaneous coronary intervention
+	8701. [[perception]]
+	8702. [[percussion]]
+	8703. [[percutaneous]]
+	8704. [[percutaneous coronary intervention]]
 	8705. percutaneous epididymal sperm aspiration
-	8706. percutaneous nephrolithotomy
-	8707. percutaneous transhepatic cholangiopancreatography
-	8708. percutaneous transluminal coronary angioplasty
-	8709. perforation
-	8710. perforin
+		1. see PESA
+	8706. [[percutaneous nephrolithotomy]]
+	8707. [[percutaneous transhepatic cholangiopancreatography]]
+	8708. [[percutaneous transluminal coronary angioplasty]]
+	8709. [[perforation]]
+	8710. [[perforin]]
 	
-	8711. performance status
-	8712. perfusion
-	8713. perfusion scan
-	8714. pergolide
-	8715. peri-
-	8716. peri-arrest period
-	8717. periadenitis
-	8718. perianal haematoma
-	8719. periapical
+	8711. [[performance status]]
+	8712. [[perfusion]]
+	8713. [[perfusion scan]]
+	8714. [[pergolide]]
+	8715. [[peri-]]
+	8716. [[peri-arrest period]]
+	8717. [[periadenitis]]
+	8718. [[perianal haematoma]]
+	8719. [[periapical]]
 	8720. periarteritis nodosa
+		1. see POLYARTERITIS NODOSA.
 	
-	8721. periarthritis
-	8722. periarticular
-	8723. peribulbar((in ophthalmology))
-	8724. pericard-
-	8725. pericardiectomy
-	8726. pericardiocentesis
-	8727. pericardiolysis
-	8728. pericardiorrhaphy
-	8729. pericardiostomy
-	8730. pericardiotomy
+	8721. [[periarthritis]]
+	8722. [[periarticular]]
+	8723. [[peribulbar]]
+	8724. [[pericard-]]
+	8725. [[pericardiectomy]]
+	8726. [[pericardiocentesis]]
+	8727. [[pericardiolysis]]
+	8728. [[pericardiorrhaphy]]
+	8729. [[pericardiostomy]]
+	8730. [[pericardiotomy]]
 	
-	8731. pericarditis
-	8732. pericardium
+	8731. [[pericarditis]]
+	8732. [[pericardium]]
 	8733. pericardotomy
-	8734. perichondritis
-	8735. perichondrium
-	8736. pericoronitis
-	8737. pericranium
-	8738. pericystitis
+		1. $n$. see PERICARDIOTOMY.
+	8734. [[perichondritis]]
+	8735. [[perichondrium]]
+	8736. [[pericoronitis]]
+	8737. [[pericranium]]
+	8738. [[pericystitis]]
 	8739. periderm
-	8740. perihepatitis
+		1. $n$. see EPITRICHIUM.
+	8740. [[perihepatitis]]
 	
 	8741. perikaryon
-	8742. perilymph
-	8743. perimenopause
-	8744. perimeter
-	8745. perimetritis
-	8746. perimetrium
-	8747. perimysium
-	8748. perinatal
-	8749. perinatal mortality rate
-	8750. perineal descent
+		1. $n$. see CELL BODY.
+	8742. [[perilymph]]
+	8743. [[perimenopause]]
+	8744. [[perimeter]]
+	8745. [[perimetritis]]
+	8746. [[perimetrium]]
+	8747. [[perimysium]]
+	8748. [[perinatal]]
+	8749. [[perinatal mortality rate]]
+	8750. [[perineal descent]]
 	
 	8751. perineal repair
-	8752. perineal tear
-	8753. perineoplasty
-	8754. perineorrhaphy
-	8755. perinephric abscess
-	8756. perinephritis
-	8757. perineum
-	8758. perineurium
-	8759. periocular
-	8760. periodic acid-Schiff reaction
+		1. see PERINEORRHAPHY.
+	8752. [[perineal tear]]
+	8753. [[perineoplasty]]
+	8754. [[perineorrhaphy]]
+	8755. [[perinephric abscess]]
+	8756. [[perinephritis]]
+	8757. [[perineum]]
+	8758. [[perineurium]]
+	8759. [[periocular]]
+	8760. [[periodic acid-Schiff reaction]]
 	
 	8761. periodic fever
-	8762. periodontal
-	8763. periodontal abscess
-	8764. periodontal disease
-	8765. periodontal membrane
-	8766. periodontal pocket
-	8767. periodontium
-	8768. periodontology
-	8769. perioperative
-	8770. periorbital
+		1. see MALARIA.
+	8762. [[periodontal]]
+	8763. [[periodontal abscess]]
+	8764. [[periodontal disease]]
+	8765. [[periodontal membrane]]
+	8766. [[periodontal pocket]]
+	8767. [[periodontium]]
+	8768. [[periodontology]]
+	8769. [[perioperative]]
+	8770. [[periorbital]]
 	
-	8771. periosteum
-	8772. periostitis
-	8773. periotome
-	8774. peripheral nervous system
-	8775. peripheral neuropathy
-	8776. peripheral parenteral nutrition
-	8777. periphlebitis
-	8778. perisalpingitis
-	8779. perisplenitis
-	8780. peristalsis
+	8771. [[periosteum]]
+	8772. [[periostitis]]
+	8773. [[periotome]]
+	8774. [[peripheral nervous system]]
+	8775. [[peripheral neuropathy]]
+	8776. [[peripheral parenteral nutrition]]
+	8777. [[periphlebitis]]
+	8778. [[perisalpingitis]]
+	8779. [[perisplenitis]]
+	8780. [[peristalsis]]
 	
-	8781. peritendineum
+	8781. [[peritendineum]]
 	8782. peritendinitis
-	8783. peritomy
-	8784. peritoneal dialysis
+		1. $n$. see TENOSYNOVITIS.
+	8783. [[peritomy]]
+	8784. [[peritoneal dialysis]]
 	8785. peritoneoscope
-	8786. peritoneum
-	8787. peritonitis
+		1. $n$. see LAPAROSCOPE.
+	8786. [[peritoneum]]
+	8787. [[peritonitis]]
 	8788. peritonsillar abscess
-	8789. peritrichous
-	8790. perityphlitis
+		1. see quinsy
+	8789. [[peritrichous]]
+	8790. [[perityphlitis]]
 	
-	8791. periureteritis
-	8792. periurethral injection
+	8791. [[periureteritis]]
+	8792. [[periurethral injection]]
 	8793. perivascular spaces
-	8794. periventricular haemorrhage
-	8795. periventricular leucomalacia
-	8796. PERLA
-	8797. perle
-	8798. perleche
-	8799. permethrin
-	8800. pernicious
+		1. see Virchow-Robin Spaces.
+	8794. [[periventricular haemorrhage]]
+	8795. [[periventricular leucomalacia]]
+	8796. [[PERLA]]
+	8797. [[perle]]
+	8798. [[perleche]]
+	8799. [[permethrin]]
+	8800. [[pernicious]]
 	
-	8801. pernicious anaemia
+	8801. [[pernicious anaemia]]
 	8802. pernio
+		1. $n$. the medical name for a chilblain (see CHILBLAINS).
 	8803. perniosis
-	8804. pero-
-	8805. peroneal
-	8806. peroneus
-	8807. peroxidase
-	8808. peroxisome
-	8809. perphenazine
-	8810. perseveration
+		1. $n$. see CHILBLAINS.
+	8804. [[pero-]]
+	8805. [[peroneal]]
+	8806. [[peroneus]]
+	8807. [[peroxidase]]
+	8808. [[peroxisome]]
+	8809. [[perphenazine]]
+	8810. [[perseveration]]
 	
-	8811. persistent idiopathic facial pain
-	8812. persistent vegetative state
-	8813. person-centred care
-	8814. personal independence payment
-	8815. personality((in psychology))
-	8816. personality disorder
-	8817. personhood
-	8818. perspiration
+	8811. [[persistent idiopathic facial pain]]
+	8812. [[persistent vegetative state]]
+	8813. [[person-centred care]]
+	8814. [[personal independence payment]]
+	8815. [[personality]]
+	8816. [[personality disorder]]
+	8817. [[personhood]]
+	8818. [[perspiration]]
 	8819. PERT
+		1. see PANCREATIC ENZYME REPLACEMENT THERAPY.
 	8820. Perthes' disease
+		1. see LEGG-CALVÉ-PERTHES DISEASE.
 	
 	8821. pertussis
-	8822. pes((in anatomy))
-	8823. PESA
+		1. $n$. see WHOOPING COUGH.
+	8822. [[pes]]
+	8823. [[PESA]]
 	8824. pes cavus
+		1. see CLAW-FOOT.
 	8825. pes planus
-	8826. pessary
-	8827. pesticide
+		1. see FLAT-FOOT.
+	8826. [[pessary]]
+	8827. [[pesticide]]
 	8828. PET
-	8829. PET/CT scanning
-	8830. petechiae
+		1. see POSITRON EMISSION TOMOGRAPHY.
+	8829. [[PET-CT scanning]]
+	8830. [[petechiae]]
 	
-	8831. pethidine
+	8831. [[pethidine]]
 	8832. petit mal
-	8833. Petri dish
-	8834. petrissage
-	8835. petrositis
+		1. see EPILEPSY.
+	8833. [[Petri dish]]
+	8834. [[petrissage]]
+	8835. [[petrositis]]
 	8836. petrous bone
-	8837. Peutz-Jeghers syndrome
-	8838. -pexy
-	8839. Peyer's patches
-	8840. Peyronie's disease
+		1. see TEMPORAL BONE.
+	8837. [[Peutz-Jeghers syndrome]]
+	8838. [[-pexy]]
+	8839. [[Peyer's patches]]
+	8840. [[Peyronie's disease]]
 	
 	8841. PGD
-	8842. pH
+		1. see PREIMPLANTATION GENETIC DIAGNOSIS.
+	8842. [[pH]]
 	8843. PHA
-	8844. phaco-
-	8845. phacodonesis
-	8846. phacoemulsification
-	8847. phaeochromocytoma
-	8848. phag-
+		1. n. see PHYTOHAEMAGGLUTININ.
+	8844. [[phaco-]]
+	8845. [[phacodonesis]]
+	8846. [[phacoemulsification]]
+	8847. [[phaeochromocytoma]]
+	8848. [[phag-]]
 	8849. phage
-	8850. -phagia
+		1. $n$. see BACTERIOPHAGE.
+	8850. [[-phagia]]
 	
-	8851. phagocyte
-	8852. phagocytosis
-	8853. phakic
-	8854. phako-
-	8855. phalangeal cells
-	8856. phalangectomy
-	8857. phalanges
-	8858. phalangitis
+	8851. [[phagocyte]]
+	8852. [[phagocytosis]]
+	8853. [[phakic]]
+	8854. [[phako-]]
+	8855. [[phalangeal cells]]
+	8856. [[phalangectomy]]
+	8857. [[phalanges]]
+	8858. [[phalangitis]]
 	8859. phalanx
-	8860. Phalen's sign
+		1. $n$. see PHALANGES.
+	8860. [[Phalen's sign]]
 	
-	8861. phalloplasty
-	8862. phallus
-	8863. phanero-
-	8864. phantom limb
+	8861. [[phalloplasty]]
+	8862. [[phallus]]
+	8863. [[phanero-]]
+	8864. [[phantom limb]]
 	8865. phantom pregnancy
-	8866. phantom tumour
-	8867. pharmaceutical
-	8868. pharmacist
-	8869. pharmaco-
-	8870. pharmacodynamics
+		1. see PSEUDOCYESIS.
+	8866. [[phantom tumor]]
+	8867. [[pharmaceutical]]
+	8868. [[pharmacist]]
+	8869. [[pharmaco-]]
+	8870. [[pharmacodynamics]]
 	
-	8871. pharmacogenomics
-	8872. pharmacognosy
-	8873. pharmacokinetics
-	8874. pharmacology
-	8875. pharmacopoeia
-	8876. pharmacy
-	8877. pharyng-
-	8878. pharyngeal arch
-	8879. pharyngeal cleft
-	8880. pharyngeal pouch
+	8871. [[pharmacogenomics]]
+	8872. [[pharmacognosy]]
+	8873. [[pharmacokinetics]]
+	8874. [[pharmacology]]
+	8875. [[pharmacopoeia]]
+	8876. [[pharmacy]]
+	8877. [[pharyng-]]
+	8878. [[pharyngeal arch]]
+	8879. [[pharyngeal cleft]]
+	8880. [[pharyngeal pouch]]
 	
 	8881. pharyngeal reflex
-	8882. pharyngectomy
-	8883. pharyngitis
-	8884. pharyngocele
-	8885. pharyngoscope
-	8886. pharynx
+		1. see GAG REFLEX.
+	8882. [[pharyngectomy]]
+	8883. [[pharyngitis]]
+	8884. [[pharyngocele]]
+	8885. [[pharyngoscope]]
+	8886. [[pharynx]]
 	8887. PHE
+		1. see Public Health England.
 	8888. phenelzine
-	8889. phenindione
-	8890. phenobarbital
+		1. $n$. see MAO INHIBITOR.
+	8889. [[phenindione]]
+	8890. [[phenobarbital]]
 	
-	8891. phenol
-	8892. phenothiazines
-	8893. phenotype
-	8894. phenoxybenzamine
+	8891. [[phenol]]
+	8892. [[phenothiazines]]
+	8893. [[phenotype]]
+	8894. [[phenoxybenzamine]]
 	8895. phenoxymethylpenicillin
-	8896. phentolamine
-	8897. phenylalanine
-	8898. phenylephrine
-	8899. phenylketonuria
-	8900. phenylthiocarbamide
+		1. (penicillin V) $n$. see PENICILLIN.
+	8896. [[phentolamine]]
+	8897. [[phenylalanine]]
+	8898. [[phenylephrine]]
+	8899. [[phenylketonuria]]
+	8900. [[phenylthiocarbamide]]
 	
-	8901. phenytoin
-	8902. phial
-	8903. Philadelphia chromosome
-	8904. -philia
-	8905. phimosis
-	8906. phleb-
-	8907. phlebectomy
-	8908. phlebitis
+	8901. [[phenytoin]]
+	8902. [[phial]]
+	8903. [[Philadelphia chromosome]]
+	8904. [[-philia]]
+	8905. [[phimosis]]
+	8906. [[phleb-]]
+	8907. [[phlebectomy]]
+	8908. [[phlebitis]]
 	8909. phlebography
-	8910. phlebolith
+		1. $n$. see VENOGRAPHY.
+	8910. [[phlebolith]]
 	
-	8911. phlebosclerosis
-	8912. phlebothrombosis
+	8911. [[phlebosclerosis]]
+	8912. [[phlebothrombosis]]
 	8913. Phlebotomus
-	8914. phlebotomy
+		1. n. see sandfly
+	8914. [[phlebotomy]]
 	8915. phlegm
-	8916. phlegmon Archaic.
-	8917. phlycten
-	8918. phobia
-	8919. -phobia
-	8920. phocomelia
+		1. $n$. a nonmedical term for sputum.
+	8916. phlegmon
+		1. n. Archaic. inflammation of connective tissue, leading to ulceration.
+	8917. [[phlycten]]
+	8918. [[phobia]]
+	8919. [[-phobia]]
+	8920. [[phocomelia]]
 	
-	8921. pholcodine
-	8922. phon
-	8923. phon-
-	8924. phonasthenia
-	8925. phonation
-	8926. phoniatrics
+	8921. [[pholcodine]]
+	8922. [[phon]]
+	8923. [[phon-]]
+	8924. [[phonasthenia]]
+	8925. [[phonation]]
+	8926. [[phoniatrics]]
 	8927. phonocardiogram
-	8928. phonophobia
-	8929. phonosurgery
-	8930. -phoria
+		1. n. see ELECTROCARDIOPHONOGRAPHY. phonocardiography $n$.
+	8928. [[phonophobia]]
+	8929. [[phonosurgery]]
+	8930. [[-phoria]]
 	
-	8931. Phormia
-	8932. phosgene
+	8931. [[Phormia]]
+	8932. [[phosgene]]
 	8933. phosphagen
-	8934. phosphataemia
-	8935. phosphatase
+		1. $n$. creatine phosphate (see CREATINE).
+	8934. [[phosphataemia]]
+	8935. [[phosphatase]]
 	8936. phosphatidylcholine
-	8937. phosphatidylserine
-	8938. phosphaturia
+		1. $n$. see LECITHIN.
+	8937. [[phosphatidylserine]]
+	8938. [[phosphaturia]]
 	8939. phosphocreatine
-	8940. phosphofructokinase
+		1. $n$. creatine phosphate (see CREATINE).
+	8940. [[phosphofructokinase]]
 	
-	8941. phospholipid
-	8942. phosphonecrosis
-	8943. phosphorus
-	8944. phosphorylase
-	8945. phot-
-	8946. photalgia
-	8947. photoablation
+	8941. [[phospholipid]]
+	8942. [[phosphonecrosis]]
+	8943. [[phosphorus]]
+	8944. [[phosphorylase]]
+	8945. [[phot-]]
+	8946. [[photalgia]]
+	8947. [[photoablation]]
 	8948. photochemotherapy
-	8949. photocoagulation
-	8950. photodermatosis
+		1. $n$. see PHOTODYNAMIC THERAPY; PUVA.
+	8949. [[photocoagulation]]
+	8950. [[photodermatosis]]
 	
-	8951. photodynamic diagnosis
-	8952. photodynamic therapy
-	8953. photomicrograph
-	8954. photomultiplier tube
-	8955. photophobia
-	8956. photophthalmia
-	8957. photopic
-	8958. photopsia
+	8951. [[photodynamic diagnosis]]
+	8952. [[photodynamic therapy]]
+	8953. [[photomicrograph]]
+	8954. [[photomultiplier tube]]
+	8955. [[photophobia]]
+	8956. [[photophthalmia]]
+	8957. [[photopic]]
+	8958. [[photopsia]]
 	8959. photoradiation
+		1. $n$. see PHOTODYNAMIC THERAPY.
 	8960. photorefractive keratectomy
+		1. (PRK) see KERATECTOMY.
 	
-	8961. photoretinitis
-	8962. photoselective vaporization of the prostate
-	8963. photosensitivity
-	8964. photosynthesis
-	8965. phototaxis
+	8961. [[photoretinitis]]
+	8962. [[photoselective vaporization of the prostate]]
+	8963. [[photosensitivity]]
+	8964. [[photosynthesis]]
+	8965. [[phototaxis]]
 	8966. phototherapeutic keratectomy
-	8967. phototherapy
-	8968. phototoxicity
-	8969. photuria
-	8970. PHQ-9
+		1. see KERATECTOMY.
+	8967. [[phototherapy]]
+	8968. [[phototoxicity]]
+	8969. [[photuria]]
+	8970. [[PHQ-9]]
 	
-	8971. phren-
-	8972. -phrenia
-	8973. phrenic crush
-	8974. phrenic nerve
-	8975. phrenology
-	8976. Phrygian cap
+	8971. [[phren-]]
+	8972. [[-phrenia]]
+	8973. [[phrenic crush]]
+	8974. [[phrenic nerve]]
+	8975. [[phrenology]]
+	8976. [[Phrygian cap]]
 	8977. PHS
-	8978. Phthirus
-	8979. phthisis
-	8980. phycomycosis
+		1. see Public Health Service.
+	8978. [[Phthirus]]
+	8979. [[phthisis]]
+	8980. [[phycomycosis]]
 	
-	8981. phylogenesis
-	8982. physi-
-	8983. physical((in medicine))
-	8984. physical medicine
-	8985. physician
+	8981. [[phylogenesis]]
+	8982. [[physi-]]
+	8983. [[physical]]
+	8984. [[physical medicine]]
+	8985. [[physician]]
 	8986. physiological saline
-	8987. physiological solution
-	8988. physiology
-	8989. physiotherapy
-	8990. physis
+		1. see Saline
+	8987. [[physiological solution]]
+	8988. [[physiology]]
+	8989. [[physiotherapy]]
+	8990. [[physis]]
 	
-	8991. physo-
-	8992. phyt-
-	8993. phytochemical
-	8994. phytohaemagglutinin
-	8995. phytomenadione
-	8996. phytophotodermatitis
-	8997. phytotherapy
-	8998. phytotoxin
+	8991. [[physo-]]
+	8992. [[phyt-]]
+	8993. [[phytochemical]]
+	8994. [[phytohaemagglutinin]]
+	8995. [[phytomenadione]]
+	8996. [[phytophotodermatitis]]
+	8997. [[phytotherapy]]
+	8998. [[phytotoxin]]
 	8999. PI-RADS
-	9000. pia
+		1. Prostate Imaging Reporting and Data System: see BI-RADS.
+	9000. [[pia]]
 	
 	9001. pian
-	9002. PICC line
+		1. n. see yaws
+	9002. [[PICC line]]
 	9003. Pick's disease
-	9004. pico-
-	9005. picornavirus
-	9006. picric acid
+		1. see FRONTOTEMPORAL DEMENTIA. \[A. Pick (1851-1924), Czech psychiatrist]
+	9004. [[pico-]]
+	9005. [[picornavirus]]
+	9006. [[picric acid]]
 	9007. picture archiving and communication system
-	9008. PICU
+		1. see PACS
+	9008. [[PICU]]
 	9009. PID
-	9010. Pierre Robin syndrome
+		1. (1) see PELVIC INFLAMMATORY DISEASE. 
+		2. (2) see PROLAPSED INTERVERTEBRAL DISC.
+	9010. [[Pierre Robin syndrome]]
 	
-	9011. piezoelectric
+	9011. [[piezoelectric]]
 	9012. pig-tail stents
-	9013. pigeon chest
+		1. see stent
+	9013. [[pigeon chest]]
 	9014. pigeon toe
-	9015. pigment
-	9016. pigmentation
-	9017. pigment epitheliopathy
+		1. see in-toe gait
+	9015. [[pigment]]
+	9016. [[pigmentation]]
+	9017. [[pigment epitheliopathy]]
 	9018. piles
-	9019. pili
-	9020. pill
+		1. n. see haemorrhoids
+	9019. [[pili]]
+	9020. [[pill]]
 	
-	9021. pillar((in anatomy))
-	9022. pilo-
-	9023. pilocarpine
-	9024. pilomatrixoma
-	9025. pilomotor nerves
-	9026. pilonidal sinus
-	9027. pilosebaceous
+	9021. [[pillar]]
+	9022. [[pilo-]]
+	9023. [[pilocarpine]]
+	9024. [[pilomatrixoma]]
+	9025. [[pilomotor nerves]]
+	9026. [[pilonidal sinus]]
+	9027. [[pilosebaceous]]
 	9028. pilus
+		1. $n$. a hair. See also PILI.
 	9029. pimecrolimus
-	9030. pimel-
+		1. $n$. see CALCINEURIN INHIBITORS.
+	9030. [[pimel-]]
 	
-	9031. pimozide
-	9032. pimple
+	9031. [[pimozide]]
+	9032. [[pimple]]
 	9033. PIN
-	9034. pinard
-	9035. pincement
-	9036. pineal gland
-	9037. pinguecula
-	9038. pink disease
+		1. (1) see PROSTATIC INTRAEPITHELIAL NEOPLASIA. 
+		2. (2) see PENILE INTRAEPITHELIAL NEOPLASIA.
+	9034. [[pinard]]
+	9035. [[pincement]]
+	9036. [[pineal gland]]
+	9037. [[pinguecula]]
+	9038. [[pink disease]]
 	9039. pink eye
-	9040. pink puffer
+		1. see CONJUNCTIVITIS.
+	9040. [[pink puffer]]
 	
 	9041. pinna
 	9042. pinnaplasty

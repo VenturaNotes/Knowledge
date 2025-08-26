@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- (akinetic rigid syndrome) $n$. a clinical picture characterized by tremor, rigidity, slowness of movement, and postural instability. The commonest symptom is tremor, which often affects one hand, spreading first to the leg on the same side and then to the other limbs. It is most pronounced in resting limbs, interfering with such actions as holding a cup. The patient has an expressionless face, an unmodulated voice, an increasing tendency to stoop, and a shuffling walk. Parkinsonism is a disease process affecting the basal ganglia of the brain and associated with a deficiency of the neurotransmitter dopamine. Sometimes a distinction is made between Parkinson's disease, a degenerative disorder, and parkinsonism due to other causes. For example, it may be induced by the long-term use of antipsychotic drugs and uncommonly it can be attributed to the late effects of encephalitis or coal-gas poisoning, or to Wilson's disease, or to multiple strokes (vascular parkinsonism). Other syndromes of which parkinsonism is a feature are multiple system atrophy and progressive supranuclear palsy. Relief of the symptoms may be obtained with antimuscarinic drugs, dopamine-receptor agonists (see DOPAMINE), levodopa, and subcutaneous apomorphine injections and infusions. New surgical treatments include stereotactic pallidotomy and pallidal stimulation. The latter procedure involves placing an electronic stimulator in the globus pallidus that can be controlled by an external switch or control panel. \[J. Parkinson (1755-1824), British physician]
+- https://www.parkinsons.org.uk/
+	- Website of the Parkinson's Disease Society
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

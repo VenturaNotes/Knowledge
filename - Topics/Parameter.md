@@ -8,7 +8,10 @@
 - The probability distribution of a parameter estimate is often required, and it is usual to compute its standard deviation, known as its standard error (see MEASURES OF VARIATION), its correlation with other parameter estimates, and its confidence limits where appropriate (see CONFIDENCE INTERVAL).
 ## Source[^2]
 - In an economic model, a quantity which is taken as given by an economic agent in their decision-making process. Changes in the outcome in response to a small change in some parameter can be analyzed using the comparative statics approach.
+## Source[^3]
+- $n$. (in medicine) a measurement of some factor, such as blood pressure, pulse rate, or haemoglobin level, that may have a bearing on the condition being investigated.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
