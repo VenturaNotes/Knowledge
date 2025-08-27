@@ -11475,85 +11475,95 @@ Reviewed: false
 		1. see CONJUNCTIVITIS.
 	9040. [[pink puffer]]
 	
-	9041. pinna
+	9041. [[pinna]]
 	9042. pinnaplasty
-	9043. pinocytosis
+		1. $n$. see OTOPLASTY.
+	9043. [[pinocytosis]]
 	9044. pins and needles
-	9045. pinta
+		1. see PARAESTHESIA.
+	9045. [[pinta]]
 	9046. pinworm
+		1. n. see threadworm
 	9047. pioglitazone
-	9048. pipelle
-	9049. pirfenidone
-	9050. piriform fossae
+		1. $n$. see THIAZOLIDINEDIONES.
+	9048. [[pipelle]]
+	9049. [[pirfenidone]]
+	9050. [[piriform fossae]]
 	
-	9051. piroxicam
-	9052. pisiform bone
-	9053. pit((in anatomy))
-	9054. pithing
-	9055. pitting
-	9056. pituicyte
-	9057. pituitary apoplexy
-	9058. pituitary gland
-	9059. pityriasis((originally))
+	9051. [[piroxicam]]
+	9052. [[pisiform bone]]
+	9053. [[pit]]
+	9054. [[pithing]]
+	9055. [[pitting]]
+	9056. [[pituicyte]]
+	9057. [[pituitary apoplexy]]
+	9058. [[pituitary gland]]
+	9059. [[pityriasis]]
 	9060. Pityrosporum
+		1. n. see MALASSEZIA.
 	
-	9061. pivmecillinam
+	9061. [[pivmecillinam]]
 	9062. pivot joint
-	9063. pixel
-	9064. pizotifen
-	9065. placebo
-	9066. placenta
-	9067. placenta accreta
+		1. see TROCHOID JOINT.
+	9063. [[pixel]]
+	9064. [[pizotifen]]
+	9065. [[placebo]]
+	9066. [[placenta]]
+	9067. [[placenta accreta]]
 	9068. placental abruption
-	9069. placenta praevia
-	9070. placentography
+		1. see ABRUPTIO PLACENTAE.
+	9069. [[placenta praevia]]
+	9070. [[placentography]]
 	
-	9071. placode
-	9072. plagiocephaly
-	9073. plague
-	9074. plane
-	9075. planoconcave
-	9076. planoconvex
-	9077. plantar
-	9078. plantar arch
-	9079. plantar fasciitis
-	9080. plantar reflex
+	9071. [[placode]]
+	9072. [[plagiocephaly]]
+	9073. [[plague]]
+	9074. [[plane]]
+	9075. [[planoconcave]]
+	9076. [[planoconvex]]
+	9077. [[plantar]]
+	9078. [[plantar arch]]
+	9079. [[plantar fasciitis]]
+	9080. [[plantar reflex]]
 	
-	9081. plantar wart
-	9082. plantigrade
-	9083. plaque
-	9084. -plasia
-	9085. plasm-
-	9086. plasma
-	9087. plasma cells
-	9088. plasma coagulation
-	9089. plasmacytoma
-	9090. plasmalogen
+	9081. [[plantar wart]]
+	9082. [[plantigrade]]
+	9083. [[plaque]]
+	9084. [[-plasia]]
+	9085. [[plasm-]]
+	9086. [[plasma]]
+	9087. [[plasma cells]]
+	9088. [[plasma coagulation]]
+	9089. [[plasmacytoma]]
+	9090. [[plasmalogen]]
 	
-	9091. plasmapheresis
-	9092. plasmin
-	9093. plasminogen
-	9094. plasminogen activators
+	9091. [[plasmapheresis]]
+	9092. [[plasmin]]
+	9093. [[plasminogen]]
+	9094. [[plasminogen activators]]
 	9095. plasmoditrophoblast
-	9096. Plasmodium
-	9097. plasmolysis
-	9098. plaster
-	9099. plaster model((in dentistry))
-	9100. plaster of Paris
+		1. $n$. see TROPHOBLAST.
+	9096. [[Plasmodium]]
+	9097. [[plasmolysis]]
+	9098. [[plaster]]
+	9099. [[plaster model]]
+	9100. [[plaster of Paris]]
 	
-	9101. Plastibell device
-	9102. plastic lymph
-	9103. plastic surgery
-	9104. plastron
-	9105. -plasty
-	9106. platelet
+	9101. [[Plastibell device]]
+	9102. [[plastic lymph]]
+	9103. [[plastic surgery]]
+	9104. [[plastron]]
+	9105. [[-plasty]]
+	9106. [[platelet]]
 	9107. platelet-derived growth factor
-	9108. platelet activation
-	9109. platy-
+		1. (PDGF) see growth factor
+	9108. [[platelet activation]]
+	9109. [[platy-]]
 	9110. platyhelminth
+		1. n. see flatworm
 	
-	9111. platysma
-	9112. pledget
+	9111. [[platysma]]
+	9112. [[pledget]]
 	9113. -plegia
 	9114. pleio-
 	9115. pleiotropy
