@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (tinea) $n$. a fungal infection of the skin, the scalp, or the nails. Ringworm is caused by the dermatophyte fungi $\textendash$ species of Microsporum, Trichophyton, and Epidermophyton $\textendash$ and also affects animals, a source of infection for humans. It can be spread by direct contact or via infected materials. The lesions of ringworm may form partial or complete rings and may cause intense itching. The commonest form of ringworm is athlete's foot (tinea pedis), which affects the skin between the toes. Another common type is ringworm of the scalp (tinea capitis). There is currently an epidemic of scalp ringworm in industrialized nations spread by human-tohuman contact. It targets people of African or Afro-Caribbean extraction and is caused by Trichophyton tonsurans. Ringworm also affects the groin and thighs (tinea cruris) and the skin under a beard (tinea barbae). The disease is treated with antifungal agents taken by mouth (such as itraconazole or terbinafine, especially necessary with tinea capitis or nail involvement) or applied locally (for tinea on the body).
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

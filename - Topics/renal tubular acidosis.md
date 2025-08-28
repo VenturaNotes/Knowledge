@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (RTA) metabolic acidosis due to failure of the kidney to excrete acid into the urine. Three types of RTA are recognized. Type 1 (distal RTA) results from a reduction in net acid secretion in the distal convoluted tubule (see NEPHRON) and an inability to acidify the urine. Hypokalaemia is often present and may be severe. The condition can be either genetically determined or, more commonly, the result of systemic disease (e.g. autoimmune disorders) or drugs (e.g. amphotericin). Type II (proximal RTA) is due to a lowered threshold for bicarbonate reabsorption; eventually a steady state is established with a low serum bicarbonate but capacity to acidify the urine. Hypokalaemia is present due to aldosteronism caused by the increased delivery of sodium to the distal tubule. Proximal RTA usually occurs as part of more widespread proximal tubule dysfunction with the Fanconi syndrome. Type IV RTA results from impaired excretion of both acid and potassium and results in acidosis with hyperkalaemia. It is most commonly seen with aldosterone deficiency. This may be isolated, especially in diabetics, or it may be induced by drugs (angiotensin II antagonists or ACE inhibitors).
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

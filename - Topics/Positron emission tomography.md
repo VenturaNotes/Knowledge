@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- (PET) a technique in nuclear medicine for cross-sectional imaging that enables a noninvasive assessment and localization of metabolic activity to be made. Originally used to study activity in the brain, PET is now also used for investigating the chest and abdomen. Emission of a positron by a radioisotope results in annihilation of the positron on collision with an electron, and the creation of two gamma rays of known energy traveling in exactly opposite directions. The PET scanner has detectors on each side of the patient to detect the simultaneous arrival of the gamma rays. Images are created using reconstruction algorithms similar to CT scanning. Fluorodeoxyglucose, labelled with fluorine-18, is used to examine glucose metabolism, and ammonia, labelled with nitrogen-13, gives information on perfusion. Carbon-11 and oxygen-15 can also be used as radioisotopes for PET scanning. Some diseases result in decreased uptake of the radio-labelled material due to decreased function; others show increased glucose metabolism and concentrate the isotope avidly. In this way functional activity of the tissues can be compared with anatomical images obtained by CT or MRI scanning (see PET/CT SCANNING). Localized areas of increased glucose uptake revealed by PET scans can sometimes signify functional activity of malignant cells, which use more glucose than normal cells, although other processes, such as infection, can produce similar scans. PET scans can help to localize metastatic disease (see METASTASIS) that is not identified by other scanning techniques. See also TOMOGRAPHY. Compare COMPUTERIZED TOMOGRAPHY.
 ## References
 
-[^1]:
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (PSA) a protease enzyme produced by the glandular epithelium of the prostate. Its effect is to liquefy the semen within the ejaculate. Overall PSA has a half-life of 2-3 days. Increased quantities are secreted when the gland becomes enlarged or inflamed, and levels of PSA in the blood are significantly elevated in cancer of the prostate. Although there is no clear 'cut-off' level for normality, over $4~ \mathrm{ng} / \mathrm{ml}$ in the blood is associated with a $20 \%$ risk of prostate cancer, even in patients with normal-feeling prostates on rectal examination. Age-specific PSA reference ranges are often used. Newer PSA assays can measure free PSA and compare it to the total PSA in the blood. Low free:total PSA ratios indicate a greater risk of prostate cancer and improve the discrimination between cancer and benign disease in men with a PSA in the range $4-10 ~\mathrm{ng} / \mathrm{ml}$. PSA levels tend to be much higher in advanced prostate cancer and the rate of fall on treatment (e.g. after radical prostatectomy or radiotherapy) is a good prognostic indicator of response.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

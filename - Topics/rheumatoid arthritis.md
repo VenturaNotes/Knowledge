@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- the second most common form of arthritis (after osteoarthritis). It typically involves the joints of the fingers, wrists, feet, and ankles, with later involvement of the hips, knees, shoulders, and neck. It is a disease of the synovial lining of joints; the joints are initially painful, swollen, and stiff and are usually affected symmetrically. As the disease progresses the ligaments supporting the joints are damaged and there is erosion of the bone, leading to deformity of the joints. Tendon sheaths can be affected, leading to tendon rupture. Onset can be at any age, and there is a considerable range of severity. Women are at greater risk. Rheumatoid arthritis is an autoimmune disease, and most patients show the presence of rheumatoid factor or other antibodies in their serum. There are characteristic changes on X-ray. In the early stages there is soft tissue swelling and periarticular osteoporosis; late stages are characterized by marginal bony erosions, narrowing of the articular space, articular destruction, and joint deformity.
+- Treatment is with a variety of drugs, including anti-inflammatory analgesics (see NSAID), corticosteroids, disease-modifying antirheumatic drugs, and biological therapies. Surgical treatment is by excision of the synovium in early cases or by fusion or joint replacement once bony changes have occurred. (See also HIP REPLACEMENT.) The condition may resolve spontaneously, but is usually relapsing and remitting with steady progression. It may finally burn itself out, leaving severely deformed joints.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
