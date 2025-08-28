@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. itching. Mediated by histamine and other vasoactive chemicals, it is the predominant symptom of atopic eczema, lichen planus, and many other skin diseases. It also occurs in the elderly and may be a manifestation of psychological illness or infection (such as scabies). Perineal itching is common: itching of the vulva in women is termed pruritus vulvae; itching of the perianal region (pruritus ani) is more common in men. Causes of perineal itching include poor hygiene, candidiasis, threadworms, and itchy skin diseases (such as eczema). Pruritus also occurs as a symptom of dry skin and of certain systemic disorders, such as chronic renal failure, cholestasis, and iron deficiency. Pruritus gravidarum is generalized itching during pregnancy that starts in the first trimester. It is associated with obstetric cholestasis and requires monitoring of liver function and bile acids, high levels of which endanger the fetus. Other conditions marked by pregnancy-related pruritus include polymorphic eruption of pregnancy, prurigo of pregnancy, pruritic folliculitis of pregnancy, and pemphigoid gestationalis; all of these are associated with a rash. Treatment of pruritus is determined by the cause.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

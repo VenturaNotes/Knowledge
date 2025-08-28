@@ -1,0 +1,11 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. inflammation of the lung caused by bacteria, in which the air sacs (alveoli) become filled with inflammatory cells and the lung becomes solid (see CONSOLIDATION). The symptoms include those of any infection (fever, malaise, headaches, etc.), together with cough and chest pain. Pneumonias may be classified in different ways. 
+	- (1) According to the X-ray appearance. Lobar pneumonia affects whole lobes and is usually caused by Streptococcus pneumoniae, while lobular pneumonia refers to multiple patchy shadows in a localized or segmental area. When these multiple shadows are widespread, the term bronchopneumonia is used. In bronchopneumonia, the infection starts in a number of small bronchi and spreads in a patchy manner into the alveoli. Interstitial pneumonia is the result of an inflammatory process centred within the alveolar walls rather than the alveolar airspaces. It may be due to a variety of factors, including certain infections, drugs, inhalation of fumes, and exposure to high concentrations of oxygen.
+	- (2) According to the infecting organism. The most common organism is Streptococcus pneumoniae, but Haemophilus influenzae, Staphylococcus aureus, Legionella pneumophila, and Mycoplasma pneumoniae (among others) may all be responsible for the infection. See also ATYPICAL PNEUMONIA; VIRAL PNEUMONIA.
+	- (3) According to the clinical and environmental circumstances under which the pneumonia is acquired. These infections are divided into communityacquired pneumonia, hospital-acquired (nosocomial) pneumonia, and pneumonias occurring in immunocompromised subjects (including those with AIDS). The organisms responsible for community-acquired pneumonia are totally different from those in the other groups.
+- Appropriate antibiotic therapy, based on the clinical situation and on microbiological studies, will result in complete recovery in the majority of patients.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

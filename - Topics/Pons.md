@@ -6,6 +6,11 @@
 	- [[Spinothalamic tract]]
 	- [[Medial lemniscus]]
 	- [[Corticospinal tract]]
+## Source[^2]
+- n. 
+- (1) (pons Varolii) the part of the brainstem that links the medulla oblongata and the thalamus, bulging forwards in front of the cerebellum, from which it is separated by the fourth ventricle. It contains numerous nerve tracts between the cerebral cortex and the spinal cord and several nuclei of grey matter. From its front surface the trigeminal nerves emerge. 
+- (2) any portion of tissue that joins two parts of an organ.
 ## References
 
 [^1]: [[(71) 2-Minute Neuroscience - Pons]]
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

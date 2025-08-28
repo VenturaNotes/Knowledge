@@ -11564,1598 +11564,1815 @@ Reviewed: false
 	
 	9111. [[platysma]]
 	9112. [[pledget]]
-	9113. -plegia
-	9114. pleio-
-	9115. pleiotropy
-	9116. pleocytosis
-	9117. pleomastia
-	9118. pleomorphism
-	9119. pleoptics
-	9120. plerocercoid
+	9113. [[-plegia]]
+	9114. [[pleio-]]
+	9115. [[pleiotropy]]
+	9116. [[pleocytosis]]
+	9117. [[pleomastia]]
+	9118. [[pleomorphism]]
+	9119. [[pleoptics]]
+	9120. [[plerocercoid]]
 	
-	9121. plessimeter
-	9122. plessor
-	9123. plethora
-	9124. plethysmography
-	9125. pleur-
-	9126. pleura
-	9127. pleural cavity
-	9128. pleurectomy
-	9129. pleurisy
-	9130. pleurocele
+	9121. [[plessimeter]]
+	9122. [[plessor]]
+	9123. [[plethora]]
+	9124. [[plethysmography]]
+	9125. [[pleur-]]
+	9126. [[pleura]]
+	9127. [[pleural cavity]]
+	9128. [[pleurectomy]]
+	9129. [[pleurisy]]
+	9130. [[pleurocele]]
 	
-	9131. pleurocentesis
-	9132. pleurodesis
-	9133. pleurodynia
-	9134. pleurolysis
-	9135. pleuropneumonia
-	9136. pleurotyphoid
+	9131. [[pleurocentesis]]
+	9132. [[pleurodesis]]
+	9133. [[pleurodynia]]
+	9134. [[pleurolysis]]
+	9135. [[pleuropneumonia]]
+	9136. [[pleurotyphoid]]
 	9137. pleximeter
+		1. $n$. see PLESSIMETER.
 	9138. plexor
-	9139. plexus
-	9140. plica
+		1. $n$. see PLESSOR.
+	9139. [[plexus]]
+	9140. [[plica]]
 	
-	9141. plication
-	9142. ploidy
-	9143. plombage
-	9144. plugged biopsy
-	9145. plumbism
-	9146. Plummer's disease
-	9147. Plummer-Vinson syndrome
-	9148. pluri-
+	9141. [[plication]]
+	9142. [[ploidy]]
+	9143. [[plombage]]
+	9144. [[plugged biopsy]]
+	9145. [[plumbism]]
+	9146. [[Plummer's disease]]
+	9147. [[Plummer-Vinson syndrome]]
+	9148. [[pluri-]]
 	9149. pluripotent
+		1. adj. see STEM CELL.
 	9150. PMS
+		1. see PREMENSTRUAL SYNDROME.
 	
-	9151. pneo-
+	9151. [[pneo-]]
 	9152. pneum-
-	9153. pneumat-
-	9154. pneumatization
-	9155. pneumatocele
-	9156. pneumatosis
-	9157. pneumaturia
-	9158. pneumo-
-	9159. pneumocephalus
-	9160. pneumococcal vaccine
+		1. combining form. see PNEUMO-.
+	9153. [[pneumat-]]
+	9154. [[pneumatization]]
+	9155. [[pneumatocele]]
+	9156. [[pneumatosis]]
+	9157. [[pneumaturia]]
+	9158. [[pneumo-]]
+	9159. [[pneumocephalus]]
+	9160. [[pneumococcal vaccine]]
 	
-	9161. pneumococcus
-	9162. pneumoconiosis
-	9163. Pneumocystis
-	9164. pneumocyte
-	9165. pneumoencephalography
-	9166. pneumograph
+	9161. [[pneumococcus]]
+	9162. [[pneumoconiosis]]
+	9163. [[Pneumocystis]]
+	9164. [[pneumocyte]]
+	9165. [[pneumoencephalography]]
+	9166. [[pneumograph]]
 	9167. pneumolysis
-	9168. pneumomediastinum
-	9169. pneumon-
-	9170. pneumonectomy
+		1. $n$. see PLEUROLYSIS.
+	9168. [[pneumomediastinum]]
+	9169. [[pneumon-]]
+	9170. [[pneumonectomy]]
 	
-	9171. pneumonia
-	9172. pneumonitis
-	9173. pneumopericardium
-	9174. pneumoperitoneum
-	9175. pneumoretinopexy
-	9176. pneumothorax
-	9177. pneumotonometer
+	9171. [[pneumonia]]
+	9172. [[pneumonitis]]
+	9173. [[pneumopericardium]]
+	9174. [[pneumoperitoneum]]
+	9175. [[pneumoretinopexy]]
+	9176. [[pneumothorax]]
+	9177. [[pneumotonometer]]
 	9178. PNH
+		1. see PAROXYSMAL NOCTURNAL HAEMOGLOBINURIA.
 	9179. PNM
-	9180. -pnoea
+		1. see PERINATAL MORTALITY RATE.
+	9180. [[-pnoea]]
 	
-	9181. pock
-	9182. pocket((in dentistry))
-	9183. pocket resuscitation mask
-	9184. pod-
-	9185. podagra
-	9186. podalic version
-	9187. podiatry
-	9188. podocyte
+	9181. [[pock]]
+	9182. pocket
+		1. $n$. (in dentistry) see PERIODONTAL POCKET.
+	9183. [[pocket resuscitation mask]]
+	9184. [[pod-]]
+	9185. [[podagra]]
+	9186. [[podalic version]]
+	9187. [[podiatry]]
+	9188. [[podocyte]]
 	9189. podopompholyx
-	9190. POEMS syndrome
+		1. $n$. see POMPHOLYX.
+	9190. [[POEMS syndrome]]
 	
-	9191. -poiesis
-	9192. poikilo-
-	9193. poikilocyte
-	9194. poikilocytosis
-	9195. poikiloderma
-	9196. poikilothermic
-	9197. pointillage
-	9198. poison
-	9199. polar body
-	9200. pole((in anatomy))
+	9191. [[-poiesis]]
+	9192. [[poikilo-]]
+	9193. [[poikilocyte]]
+	9194. [[poikilocytosis]]
+	9195. [[poikiloderma]]
+	9196. [[poikilothermic]]
+	9197. [[pointillage]]
+	9198. [[poison]]
+	9199. [[polar body]]
+	9200. [[pole]]
 	
-	9201. poli-
+	9201. [[poli-]]
 	9202. policeman's heel
-	9203. polioencephalitis
-	9204. polioencephalomyelitis
-	9205. poliomyelitis
-	9206. poliovirus
-	9207. pollex
-	9208. pollinosis
-	9209. poly-
-	9210. polyarteritis nodosa
+		1. see PLANTAR FASCIITIS.
+	9203. [[polioencephalitis]]
+	9204. [[polioencephalomyelitis]]
+	9205. [[poliomyelitis]]
+	9206. [[poliovirus]]
+	9207. [[pollex]]
+	9208. [[pollinosis]]
+	9209. [[poly-]]
+	9210. [[polyarteritis nodosa]]
 	
-	9211. polyarthritis
-	9212. polychromasia
+	9211. [[polyarthritis]]
+	9212. [[polychromasia]]
 	9213. polyclinic
-	9214. polycoria
-	9215. polycystic disease of the kidneys
-	9216. polycystic ovary
-	9217. polycystic ovary syndrome
+		1. $n$. see HEALTH CENTRE.
+	9214. [[polycoria]]
+	9215. [[polycystic disease of the kidneys]]
+	9216. [[polycystic ovary]]
+	9217. [[polycystic ovary syndrome]]
 	9218. polycystin
-	9219. polycythaemia
-	9220. polycythaemia vera
+		1. $n$. see POLYCYSTIC DISEASE OF THE KIDNEYS.
+	9219. [[polycythaemia]]
+	9220. [[polycythaemia vera]]
 	
 	9221. polydactylism
-	9222. polydipsia
-	9223. polygene
-	9224. polyhydramnios
+		1. $n$. see HYPERDACTYLISM.
+	9222. [[polydipsia]]
+	9223. [[polygene]]
+	9224. [[polyhydramnios]]
 	9225. polymastia
-	9226. polymer
-	9227. polymerase chain reaction
-	9228. polymorph
-	9229. polymorphic eruption of pregnancy
-	9230. polymorphism((in genetics))
+		1. $n$. see PLEOMASTIA.
+	9226. [[polymer]]
+	9227. [[polymerase chain reaction]]
+	9228. [[polymorph]]
+	9229. [[polymorphic eruption of pregnancy]]
+	9230. [[polymorphism]]
 	
 	9231. polymorphous light eruption
-	9232. polymyalgia rheumatica
-	9233. polymyositis
-	9234. polymyxin B
+		1. see PHOTODERMATOSIS.
+	9232. [[polymyalgia rheumatica]]
+	9233. [[polymyositis]]
+	9234. [[polymyxin B]]
 	9235. polyneuritis
+		1. $n$. see PERIPHERAL NEUROPATHY.
 	9236. polyneuropathy
-	9237. polynucleotide
-	9238. polyopia
-	9239. polyorchidism
-	9240. polyp
+		1. $n$. see PERIPHERAL NEUROPATHY.
+	9237. [[polynucleotide]]
+	9238. [[polyopia]]
+	9239. [[polyorchidism]]
+	9240. [[polyp]]
 	
-	9241. polypectomy
-	9242. polypeptide
-	9243. polyphagia
-	9244. polypharmacy
-	9245. polyphyletic
-	9246. polyploid
-	9247. polypoid
-	9248. polyposis
+	9241. [[polypectomy]]
+	9242. [[polypeptide]]
+	9243. [[polyphagia]]
+	9244. [[polypharmacy]]
+	9245. [[polyphyletic]]
+	9246. [[polyploid]]
+	9247. [[polypoid]]
+	9248. [[polyposis]]
 	9249. polypus
-	9250. polyradiculitis
+		1. $n$. see POLYP.
+	9250. [[polyradiculitis]]
 	
 	9251. polyribosome
-	9252. polysaccharide
-	9253. polyserositis
-	9254. polysome
-	9255. polysomnograph
-	9256. polyspermia
-	9257. polyspermy
-	9258. polythelia
-	9259. polyuria
-	9260. pomalidomide
+		1. $n$. see POLYSOME.
+	9252. [[polysaccharide]]
+	9253. [[polyserositis]]
+	9254. [[polysome]]
+	9255. [[polysomnograph]]
+	9256. [[polyspermia]]
+	9257. [[polyspermy]]
+	9258. [[polythelia]]
+	9259. [[polyuria]]
+	9260. [[pomalidomide]]
 	
-	9261. pompholyx
-	9262. pons
-	9263. pontic((in dentistry))
-	9264. popliteus
-	9265. porcelain((in dentistry))
-	9266. pore
-	9267. porencephaly
+	9261. [[pompholyx]]
+	9262. [[pons]]
+	9263. pontic
+		1. $n$. (in dentistry) see BRIDGE.
+	9264. [[popliteus]]
+	9265. [[porcelain]]
+	9266. [[pore]]
+	9267. [[porencephaly]]
 	9268. porfimer sodium
-	9269. porocephaliasis
-	9270. Porocephalus
+		1. see PHOTODYNAMIC THERAPY.
+	9269. [[porocephaliasis]]
+	9270. [[Porocephalus]]
 	
-	9271. porphin
-	9272. porphobilinogen
-	9273. porphyria
-	9274. porphyrin
-	9275. porphyrinuria
+	9271. [[porphin]]
+	9272. [[porphobilinogen]]
+	9273. [[porphyria]]
+	9274. [[porphyrin]]
+	9275. [[porphyrinuria]]
 	9276. port-wine stain
-	9277. porta
-	9278. portable((in radiography))
-	9279. portacaval anastomosis
-	9280. portal
+		1. see naevus
+	9277. [[porta]]
+	9278. [[portable]]
+	9279. [[portacaval anastomosis]]
+	9280. [[portal]]
 	
-	9281. portal hypertension
-	9282. portal image
-	9283. portal system
-	9284. portal vein
+	9281. [[portal hypertension]]
+	9282. [[portal image]]
+	9283. [[portal system]]
+	9284. [[portal vein]]
 	9285. positive
+		1. adj. see normative
 	9286. positive-pressure ventilation
-	9287. positive symptoms((in psychiatry))
-	9288. positron
-	9289. positron emission tomography
-	9290. posology
+		1. see noninvasive ventilation
+	9287. [[positive symptoms]]
+	9288. [[positron]]
+	9289. [[positron emission tomography]]
+	9290. [[posology]]
 	
-	9291. posset
-	9292. Possum
-	9293. POSSUM scoring
-	9294. post-
-	9295. post-polio syndrome
-	9296. post-processing((in radiology))
-	9297. post-term pregnancy
-	9298. post-traumatic stress disorder
-	9299. postcentral
-	9300. postcibal
+	9291. [[posset]]
+	9292. [[Possum]]
+	9293. [[POSSUM scoring]]
+	9294. [[post-]]
+	9295. [[post-polio syndrome]]
+	9296. [[post-processing]]
+	9297. [[post-term pregnancy]]
+	9298. [[post-traumatic stress disorder]]
+	9299. [[postcentral]]
+	9300. [[postcibal]]
 	
-	9301. postcoital bleeding
-	9302. postcoital contraception
-	9303. postcoital test
-	9304. posterior
-	9305. posterior capsular opacification
-	9306. postero-
-	9307. posteroanterior
-	9308. postganglionic
+	9301. [[postcoital bleeding]]
+	9302. [[postcoital contraception]]
+	9303. [[postcoital test]]
+	9304. [[posterior]]
+	9305. [[posterior capsular opacification]]
+	9306. [[postero-]]
+	9307. [[posteroanterior]]
+	9308. [[postganglionic]]
 	9309. postgastrectomy syndrome
-	9310. posthitis
+		1. see dumping syndrome
+	9310. [[posthitis]]
 	
-	9311. posthumous birth
-	9312. postictal phase
-	9313. postmature
-	9314. postmenopausal bleeding
-	9315. postmenopause
-	9316. postmicturition dribble
+	9311. [[posthumous birth]]
+	9312. [[postictal phase]]
+	9313. [[postmature]]
+	9314. [[postmenopausal bleeding]]
+	9315. [[postmenopause]]
+	9316. [[postmicturition dribble]]
 	9317. post mortem
+		1. Latin: after death. See AUTOPSY.
 	9318. postnasal space
-	9319. postnatal depression
-	9320. postoperative
+		1. see NASOPHARYNX.
+	9319. [[postnatal depression]]
+	9320. [[postoperative]]
 	
-	9321. postpartum
+	9321. [[postpartum]]
 	9322. postpartum blues
-	9323. postpartum haemorrhage
+		1. see baby blues
+	9323. [[postpartum haemorrhage]]
 	9324. postpartum sepsis
-	9325. postprandial
-	9326. postresuscitation care
+		1. see sepsis.
+	9325. [[postprandial]]
+	9326. [[postresuscitation care]]
 	9327. postural hypotension
-	9328. postural muscles
-	9329. posturing((in psychiatry))
+		1. see hypotension
+	9328. [[postural muscles]]
+	9329. [[posturing]]
 	9330. postviral fatigue syndrome
+		1. see CFS/ME/PVF
 	
-	9331. potassium
-	9332. potassium-channel activator
-	9333. potassium chloride
-	9334. potassium permanganate
-	9335. Pott's disease
-	9336. Potter syndrome
-	9337. pouch
-	9338. poultice
+	9331. [[potassium]]
+	9332. [[potassium-channel activator]]
+	9333. [[potassium chloride]]
+	9334. [[potassium permanganate]]
+	9335. [[Pott's disease]]
+	9336. [[Potter syndrome]]
+	9337. [[pouch]]
+	9338. [[poultice]]
 	9339. Poupart's ligament
-	9340. poverty of speech
+		1. see inguinal Ligament. \[F. Poupart (1661-1708), French anatomist]
+	9340. [[poverty of speech]]
 	
-	9341. powder((in pharmacy))
-	9342. power of attorney
-	9343. pox
-	9344. poxvirus
+	9341. [[powder]]
+	9342. [[power of attorney]]
+	9343. [[pox]]
+	9344. [[poxvirus]]
 	9345. PPH
+		1. see POSTPARTUM HAEMORRHAGE.
 	9346. PPN
-	9347. PPROM
-	9348. practice development
-	9349. practice manager
-	9350. practice nurse
+		1. see PERIPHERAL PARENTERAL NUTRITION.
+	9347. [[PPROM]]
+	9348. [[practice development]]
+	9349. [[practice manager]]
+	9350. [[practice nurse]]
 	
-	9351. Practitioner Performance Advice
-	9352. Prader-Willi syndrome
+	9351. [[Practitioner Performance Advice]]
+	9352. [[Prader-Willi syndrome]]
 	9353. Prader orchidometer
+		1. see ORCHIDOMETER.
 	9354. prasugrel
-	9355. pravastatin
-	9356. praziquantel
-	9357. prazosin
-	9358. pre-
-	9359. pre-agonal
-	9360. pre-eclampsia
+		1. $n$. see ANTIPLATELET DRUG.
+	9355. [[pravastatin]]
+	9356. [[praziquantel]]
+	9357. [[prazosin]]
+	9358. [[pre-]]
+	9359. [[pre-agonal]]
+	9360. [[pre-eclampsia]]
 	
-	9361. pre-excitation
-	9362. pre-gangrene
-	9363. prebiotics
-	9364. precancerous
-	9365. precipitin
-	9366. precipitinogen
-	9367. precision attachment((in dentistry))
-	9368. precocious puberty
-	9369. precordial thump
-	9370. precordium
+	9361. [[pre-excitation]]
+	9362. [[pre-gangrene]]
+	9363. [[prebiotics]]
+	9364. [[precancerous]]
+	9365. [[precipitin]]
+	9366. [[precipitinogen]]
+	9367. [[precision attachment]]
+	9368. [[precocious puberty]]
+	9369. [[precordial thump]]
+	9370. [[precordium]]
 	
-	9371. precuneus
+	9371. [[precuneus]]
 	9372. prediabetes
-	9373. predisposition
-	9374. prednisolone
-	9375. prefrontal lobe
+		1. $n$. see GLUCOSE TOLERANCE TEST.
+	9373. [[predisposition]]
+	9374. [[prednisolone]]
+	9375. [[prefrontal lobe]]
 	9376. pregabalin
-	9377. preganglionic
-	9378. pregestational diabetes
-	9379. pregnancy
-	9380. pregnancy-induced hypertension
+		1. n. see gabapentin
+	9377. [[preganglionic]]
+	9378. [[pregestational diabetes]]
+	9379. [[pregnancy]]
+	9380. [[pregnancy-induced hypertension]]
 	
-	9381. pregnancy epulis
-	9382. pregnancy of unknown location
-	9383. pregnancy test
-	9384. pregnanediol
-	9385. pregnenolone
+	9381. [[pregnancy epulis]]
+	9382. [[pregnancy of unknown location]]
+	9383. [[pregnancy test]]
+	9384. [[pregnanediol]]
+	9385. [[pregnenolone]]
 	9386. preictal phase
-	9387. preimplantation genetic diagnosis
+		1. see aura
+	9387. [[preimplantation genetic diagnosis]]
 	9388. premature beat
+		1. see ectopic beat
 	9389. premature birth
-	9390. premature ejaculation
+		1. see preterm birth
+	9390. [[premature ejaculation]]
 	
-	9391. premature ovarian failure
+	9391. [[premature ovarian failure]]
 	9392. premature rupture of membranes
-	9393. premedication
-	9394. premenstrual syndrome
-	9395. premolar
+		1. see PROM; PPROM; LABOUR.
+	9393. [[premedication]]
+	9394. [[premenstrual syndrome]]
+	9395. [[premolar]]
 	9396. premyelocyte
-	9397. prenatal diagnosis
-	9398. prenatal screening
-	9399. preneoplastic
-	9400. preoperative
+		1. $n$. see PROMYELOCYTE.
+	9397. [[prenatal diagnosis]]
+	9398. [[prenatal screening]]
+	9399. [[preneoplastic]]
+	9400. [[preoperative]]
 	
-	9401. preparedness((in psychology))
+	9401. [[preparedness]]
 	9402. prepatellar bursitis
-	9403. prepubertal
-	9404. prepuce
-	9405. preputial glands
-	9406. preputioplasty
-	9407. prepyramidal
-	9408. presby-
-	9409. presbyacusis
-	9410. presbyopia
+		1. see housemaid's knee
+	9403. [[prepubertal]]
+	9404. [[prepuce]]
+	9405. [[preputial glands]]
+	9406. [[preputioplasty]]
+	9407. [[prepyramidal]]
+	9408. [[presby-]]
+	9409. [[presbyacusis]]
+	9410. [[presbyopia]]
 	
-	9411. prescribed disease
-	9412. prescription
-	9413. presenility
-	9414. present
-	9415. presentation
-	9416. pressor
-	9417. pressure index
-	9418. pressure point
-	9419. pressure sore
-	9420. presymptomatic
+	9411. [[prescribed disease]]
+	9412. [[prescription]]
+	9413. [[presenility]]
+	9414. [[present]]
+	9415. [[presentation]]
+	9416. [[pressor]]
+	9417. [[pressure index]]
+	9418. [[pressure point]]
+	9419. [[pressure sore]]
+	9420. [[presymptomatic]]
 	
-	9421. presystole
-	9422. preterm birth
-	9423. prevalence
-	9424. preventive dentistry
-	9425. preventive medicine
-	9426. preventive resin restoration
-	9427. priapism
-	9428. prickle cells
-	9429. prickly heat
-	9430. prilocaine
+	9421. [[presystole]]
+	9422. [[preterm birth]]
+	9423. [[prevalence]]
+	9424. [[preventive dentistry]]
+	9425. [[preventive medicine]]
+	9426. [[preventive resin restoration]]
+	9427. [[priapism]]
+	9428. [[prickle cells]]
+	9429. [[prickly heat]]
+	9430. [[prilocaine]]
 	
-	9431. prima facie
-	9432. primaquine
-	9433. primary care
-	9434. primary care trust
-	9435. primary prevention
-	9436. primary teeth
-	9437. prime((in chemotherapy))
+	9431. [[prima facie]]
+	9432. [[primaquine]]
+	9433. [[primary care]]
+	9434. [[primary care trust]]
+	9435. [[primary prevention]]
+	9436. [[primary teeth]]
+	9437. [[prime]]
 	9438. prime mover
-	9439. primidone
-	9440. primigravida
+		1. see agonist
+	9439. [[primidone]]
+	9440. [[primigravida]]
 	
-	9441. primipara
-	9442. primitive streak
-	9443. primordial((in embryology))
-	9444. primum non nocere
-	9445. prion
-	9446. privacy
+	9441. [[primipara]]
+	9442. [[primitive streak]]
+	9443. [[primordial]]
+	9444. [[primum non nocere]]
+	9445. [[prion]]
+	9446. [[privacy]]
 	9447. PRK
-	9448. pro-
-	9449. proarrhythmia
+		1. photorefractive keratectomy (see KERATECTOMY).
+	9448. [[pro-]]
+	9449. [[proarrhythmia]]
 	9450. probability
+		1. $n$. see SIGNIFICANCE.
 	
 	9451. proband
-	9452. probang
-	9453. probe
-	9454. probenecid
-	9455. probing depth
-	9456. probiotics
-	9457. procarbazine
-	9458. procarcinogen
-	9459. process
-	9460. prochlorperazine
+		1. $n$. see PROPOSITUS.
+	9452. [[probang]]
+	9453. [[probe]]
+	9454. [[probenecid]]
+	9455. [[probing depth]]
+	9456. [[probiotics]]
+	9457. [[procarbazine]]
+	9458. [[procarcinogen]]
+	9459. [[process]]
+	9460. [[prochlorperazine]]
 	
-	9461. procidentia
-	9462. proct-
-	9463. proctalgia
+	9461. [[procidentia]]
+	9462. [[proct-]]
+	9463. [[proctalgia]]
 	9464. proctatresia
-	9465. proctectasia
-	9466. proctectomy
-	9467. proctitis
+		1. $n$. see IMPERFORATE ANUS.
+	9465. [[proctectasia]]
+	9466. [[proctectomy]]
+	9467. [[proctitis]]
 	9468. proctocele
-	9469. proctocolectomy
-	9470. proctocolitis
+		1. $n$. see RECTOCELE.
+	9469. [[proctocolectomy]]
+	9470. [[proctocolitis]]
 	
-	9471. proctodeum
+	9471. [[proctodeum]]
 	9472. proctodynia
-	9473. proctogram
-	9474. proctology
-	9475. proctorrhaphy
-	9476. proctoscope
-	9477. proctosigmoiditis
-	9478. proctotomy
-	9479. procyclidine
-	9480. prodromal
+		1. n. see proctalgia
+	9473. [[proctogram]]
+	9474. [[proctology]]
+	9475. [[proctorrhaphy]]
+	9476. [[proctoscope]]
+	9477. [[proctosigmoiditis]]
+	9478. [[proctotomy]]
+	9479. [[procyclidine]]
+	9480. [[prodromal]]
 	
-	9481. prodrome
-	9482. prodrug
-	9483. proenzyme
-	9484. proerythroblast
-	9485. professionalism
-	9486. profilometer
-	9487. profunda
-	9488. profundaplasty
-	9489. progeria
-	9490. progesterone
+	9481. [[prodrome]]
+	9482. [[prodrug]]
+	9483. [[proenzyme]]
+	9484. [[proerythroblast]]
+	9485. [[professionalism]]
+	9486. [[profilometer]]
+	9487. [[profunda]]
+	9488. [[profundaplasty]]
+	9489. [[progeria]]
+	9490. [[progesterone]]
 	
-	9491. progestogen
-	9492. proglottis
-	9493. prognathism
-	9494. prognosis
+	9491. [[progestogen]]
+	9492. [[proglottis]]
+	9493. [[prognathism]]
+	9494. [[prognosis]]
 	9495. progressive lenses
-	9496. progressive supranuclear palsy
-	9497. proguanil
-	9498. proinsulin
-	9499. projection((in psychology))
-	9500. projective test((in psychology))
+		1. see varifocal lenses
+	9496. [[progressive supranuclear palsy]]
+	9497. [[proguanil]]
+	9498. [[proinsulin]]
+	9499. [[projection]]
+	9500. [[projective test]]
 	
-	9501. prokinetic agent
-	9502. prolactin
-	9503. prolactinoma
-	9504. prolapse
-	9505. prolapsed intervertebral disc
-	9506. proline
-	9507. PROM
-	9508. promazine
-	9509. promegakaryocyte
-	9510. promethazine
+	9501. [[prokinetic agent]]
+	9502. [[prolactin]]
+	9503. [[prolactinoma]]
+	9504. [[prolapse]]
+	9505. [[prolapsed intervertebral disc]]
+	9506. [[proline]]
+	9507. [[PROM]]
+	9508. [[promazine]]
+	9509. [[promegakaryocyte]]
+	9510. [[promethazine]]
 	
-	9511. prominence((in anatomy))
-	9512. promontory((in anatomy))
-	9513. promoter((in oncogenesis))
-	9514. prompting
-	9515. promyelocyte
-	9516. pronation
-	9517. pronator
-	9518. prone
-	9519. pronephros
-	9520. pronucleus
+	9511. [[prominence]]
+	9512. [[promontory]]
+	9513. [[promoter]]
+	9514. [[prompting]]
+	9515. [[promyelocyte]]
+	9516. [[pronation]]
+	9517. [[pronator]]
+	9518. [[prone]]
+	9519. [[pronephros]]
+	9520. [[pronucleus]]
 	
-	9521. propantheline
-	9522. properdin
-	9523. prophase
-	9524. prophylactic
-	9525. prophylaxis
+	9521. [[propantheline]]
+	9522. [[properdin]]
+	9523. [[prophase]]
+	9524. [[prophylactic]]
+	9525. [[prophylaxis]]
 	9526. propofol
-	9527. propositus
-	9528. propranolol
-	9529. proprietary name((in pharmacy))
-	9530. proprioceptor
+		1. $n$. see ANAESTHETIC.
+	9527. [[propositus]]
+	9528. [[propranolol]]
+	9529. [[proprietary name]]
+	9530. [[proprioceptor]]
 	
 	9531. proptometer
-	9532. proptosis
-	9533. propylthiouracil
+		1. n. see EXOPHTHALMOMETER.
+	9532. [[proptosis]]
+	9533. [[propylthiouracil]]
 	9534. prorennin
+		1. $n$. see RENNIN.
 	9535. Proscar
-	9536. prosect
-	9537. prosencephalon
-	9538. prosop-
-	9539. prosopagnosia
-	9540. prospective study
+		1. $n$. see FINASTERIDE.
+	9536. [[prosect]]
+	9537. [[prosencephalon]]
+	9538. [[prosop-]]
+	9539. [[prosopagnosia]]
+	9540. [[prospective study]]
 	
-	9541. prostacyclin
-	9542. prostaglandin
-	9543. prostate cancer
-	9544. prostatectomy
-	9545. prostate gland
-	9546. prostate specific antigen
-	9547. prostatic intraepithelial neoplasia
+	9541. [[prostacyclin]]
+	9542. [[prostaglandin]]
+	9543. [[prostate cancer]]
+	9544. [[prostatectomy]]
+	9545. [[prostate gland]]
+	9546. [[prostate specific antigen]]
+	9547. [[prostatic intraepithelial neoplasia]]
 	9548. prostatism
-	9549. prostatitis
-	9550. prostatorrhoea
+		1. $n$. see LOWER URINARY TRACT SYMPTOMS.
+	9549. [[prostatitis]]
+	9550. [[prostatorrhoea]]
 	
-	9551. prosthesis
-	9552. prosthodontics
-	9553. protamine
-	9554. protanopia
-	9555. protease
-	9556. protease inhibitor
-	9557. proteasome
-	9558. protein
-	9559. protein kinase
-	9560. proteinuria
+	9551. [[prosthesis]]
+	9552. [[prosthodontics]]
+	9553. [[protamine]]
+	9554. [[protanopia]]
+	9555. [[protease]]
+	9556. [[protease inhibitor]]
+	9557. [[proteasome]]
+	9558. [[protein]]
+	9559. [[protein kinase]]
+	9560. [[proteinuria]]
 	
-	9561. proteolysis
-	9562. proteolytic enzyme
-	9563. proteose
-	9564. Proteus
-	9565. prothrombin
-	9566. prothrombin time
-	9567. proto-
-	9568. proto-oncogene
-	9569. protodiastole
-	9570. proton-pump inhibitor
+	9561. [[proteolysis]]
+	9562. [[proteolytic enzyme]]
+	9563. [[proteose]]
+	9564. [[Proteus]]
+	9565. [[prothrombin]]
+	9566. [[prothrombin time]]
+	9567. [[proto-]]
+	9568. [[proto-oncogene]]
+	9569. [[protodiastole]]
+	9570. [[proton-pump inhibitor]]
 	
-	9571. proton pump
-	9572. proton therapy
-	9573. protopathic
-	9574. protoplasm
-	9575. protoplast
-	9576. protoporphyrin IX
-	9577. protozoa
-	9578. protozoan
-	9579. protozoology
-	9580. protruding ears
+	9571. [[proton pump]]
+	9572. [[proton therapy]]
+	9573. [[protopathic]]
+	9574. [[protoplasm]]
+	9575. [[protoplast]]
+	9576. [[protoporphyrin IX]]
+	9577. [[protozoa]]
+	9578. [[protozoan]]
+	9579. [[protozoology]]
+	9580. [[protruding ears]]
 	
-	9581. protrusion((in dentistry))
-	9582. protuberance((in anatomy))
-	9583. provitamin
-	9584. proximal((in anatomy))
+	9581. [[protrusion]]
+	9582. [[protuberance]]
+	9583. [[provitamin]]
+	9584. [[proximal]]
 	9585. proxy
-	9586. proxy decision
+		1. see delusion by proxy
+	9586. [[proxy decision]]
 	9587. Prozac
+		1. n. see fluoxetine
 	9588. PRRT
-	9589. prune belly syndrome
-	9590. prurigo
+		1. see peptide receptor radionuclide therapy
+	9589. [[prune belly syndrome]]
+	9590. [[prurigo]]
 	
-	9591. pruritus
+	9591. [[pruritus]]
 	9592. prussic acid
+		1. see HYDROCYANIC ACID.
 	9593. PSA
-	9594. psammoma
-	9595. pseud-
-	9596. pseudarthrosis
-	9597. pseudo-obstruction
-	9598. pseudoagglutination
+		1. see PROSTATE SPECIFIC ANTIGEN.
+	9594. [[psammoma]]
+	9595. [[pseud-]]
+	9596. [[pseudarthrosis]]
+	9597. [[pseudo-obstruction]]
+	9598. [[pseudoagglutination]]
 	9599. pseudoaneurysm
-	9600. pseudocholinesterase
+		1. n. see aneurysm
+	9600. [[pseudocholinesterase]]
 	
 	9601. pseudocoxalgia
-	9602. pseudocrisis
-	9603. pseudocryptorchidism
-	9604. pseudocyesis
-	9605. pseudocyst
-	9606. pseudodementia
-	9607. pseudoexfoliation syndrome
-	9608. pseudogout
-	9609. pseudohallucination
-	9610. pseudohermaphroditism
+		1. $n$. see LegG-CALVE'-PERTHES DISEASE.
+	9602. [[pseudocrisis]]
+	9603. [[pseudocryptorchidism]]
+	9604. [[pseudocyesis]]
+	9605. [[pseudocyst]]
+	9606. [[pseudodementia]]
+	9607. [[pseudoexfoliation syndrome]]
+	9608. [[pseudogout]]
+	9609. [[pseudohallucination]]
+	9610. [[pseudohermaphroditism]]
 	
-	9611. pseudohypertrophy
-	9612. pseudohypoparathyroidism
-	9613. pseudomembrane
+	9611. [[pseudohypertrophy]]
+	9612. [[pseudohypoparathyroidism]]
+	9613. [[pseudomembrane]]
 	9614. pseudomembranous colitis
-	9615. Pseudomonas
-	9616. pseudomyxoma
-	9617. pseudoneuritis
-	9618. pseudophakia
-	9619. pseudopodium
-	9620. pseudopolyposis
+		1. see Clostridium; PSEUDOMEMBRANE.
+	9615. [[Pseudomonas]]
+	9616. [[pseudomyxoma]]
+	9617. [[pseudoneuritis]]
+	9618. [[pseudophakia]]
+	9619. [[pseudopodium]]
+	9620. [[pseudopolyposis]]
 	
-	9621. pseudoprolactinoma
-	9622. pseudopseudohypoparathyroidism
+	9621. [[pseudoprolactinoma]]
+	9622. [[pseudopseudohypoparathyroidism]]
 	9623. pseudo seizure
+		1. see NON-EPILEPTIC SEIZURE.
 	9624. pseudotumour cerebri
-	9625. pseudoxanthoma elasticum
+		1. see IDIOPATHIC INTRACRANIAL HYPERTENSION.
+	9625. [[pseudoxanthoma elasticum]]
 	9626. psilosis
-	9627. psittacosis
-	9628. psoas
-	9629. psoas sign
+		1. n. see sprue
+	9627. [[psittacosis]]
+	9628. [[psoas]]
+	9629. [[psoas sign]]
 	9630. psoralen
+		1. n. see PUVA
 	
-	9631. psoriasis
-	9632. psoriasis area severity index
-	9633. psoriatic arthritis
-	9634. psych-
-	9635. psyche
-	9636. psychedelic
+	9631. [[psoriasis]]
+	9632. [[psoriasis area severity index]]
+	9633. [[psoriatic arthritis]]
+	9634. [[psych-]]
+	9635. [[psyche]]
+	9636. [[psychedelic]]
 	9637. psychiatric intensive care unit
-	9638. psychiatrist
-	9639. psychiatry
-	9640. psychic
+		1. see PICU
+	9638. [[psychiatrist]]
+	9639. [[psychiatry]]
+	9640. [[psychic]]
 	
-	9641. psychoanalysis
-	9642. psychodrama
-	9643. psychogenic
+	9641. [[psychoanalysis]]
+	9642. [[psychodrama]]
+	9643. [[psychogenic]]
 	9644. psychogenic polydipsia
+		1. see polydipsia
 	9645. psychogenic purpura
-	9646. psychogeriatrics
-	9647. psychologist
-	9648. psychology
-	9649. psychometrics
-	9650. psychomotor
+		1. see Gardner-Diamond Syndrome
+	9646. [[psychogeriatrics]]
+	9647. [[psychologist]]
+	9648. [[psychology]]
+	9649. [[psychometrics]]
+	9650. [[psychomotor]]
 	
 	9651. psychomotor epilepsy
-	9652. psychoneuroimmunology
-	9653. psychopath
-	9654. psychopathology
-	9655. psychopharmacology
-	9656. psychophysiology
-	9657. psychosexual development
-	9658. psychosis
-	9659. psychosocial assessment
-	9660. psychosomatic
+		1. see EPILEPSY.
+	9652. [[psychoneuroimmunology]]
+	9653. [[psychopath]]
+	9654. [[psychopathology]]
+	9655. [[psychopharmacology]]
+	9656. [[psychophysiology]]
+	9657. [[psychosexual development]]
+	9658. [[psychosis]]
+	9659. [[psychosocial assessment]]
+	9660. [[psychosomatic]]
 	
-	9661. psychosurgery
-	9662. psychotherapy
-	9663. psychoticism
-	9664. psychotropic
-	9665. psychro-
-	9666. psychrophilic
+	9661. [[psychosurgery]]
+	9662. [[psychotherapy]]
+	9663. [[psychoticism]]
+	9664. [[psychotropic]]
+	9665. [[psychro-]]
+	9666. [[psychrophilic]]
 	9667. PTA
+		1. pure tone audiogram
 	9668. PTC
-	9669. pterion
+		1. (1) percutaneous transhepatic cholangiography (see CHOLANGIOGRAPHY). 
+		2. (2) see PHENYLTHIOCARBAMIDE.
+	9669. [[pterion]]
 	9670. pteroylglutamic acid
+		1. see folate
 	
-	9671. pterygium
-	9672. pterygo-
-	9673. pterygoid process
+	9671. [[pterygium]]
+	9672. [[pterygo-]]
+	9673. [[pterygoid process]]
 	9674. PTH-RP
-	9675. ptomaine
-	9676. ptosis
-	9677. -ptosis
+		1. see PARATHYROID HORMONE-RELATED PROTEIN.
+	9675. [[ptomaine]]
+	9676. [[ptosis]]
+	9677. [[-ptosis]]
 	9678. PTSD
-	9679. PTTK
-	9680. ptyal-
+		1. see POST-TRAUMATIC STRESS DISORDER.
+	9679. [[PTTK]]
+	9680. [[ptyal-]]
 	
-	9681. ptyalin
-	9682. ptyalism
-	9683. ptyalith
+	9681. [[ptyalin]]
+	9682. [[ptyalism]]
+	9683. [[ptyalith]]
 	9684. ptyalography
-	9685. puberty
-	9686. pubes
-	9687. pubiotomy
-	9688. pubis
-	9689. public access defibrillation programmes
-	9690. publication ethics
+		1. $n$. see SIALOGRAPHY.
+	9685. [[puberty]]
+	9686. [[pubes]]
+	9687. [[pubiotomy]]
+	9688. [[pubis]]
+	9689. [[public access defibrillation programmes]]
+	9690. [[publication ethics]]
 	
-	9691. public health consultant((in Britain))
-	9692. Public Health England
-	9693. public health ethics
-	9694. public health medicine
-	9695. Public Health Service
-	9696. public health specialist
-	9697. public interest disclosure
+	9691. [[public health consultant]]
+	9692. [[Public Health England]]
+	9693. [[public health ethics]]
+	9694. [[public health medicine]]
+	9695. [[Public Health Service]]
+	9696. [[public health specialist]]
+	9697. [[public interest disclosure]]
 	9698. Public Services Ombudsman
-	9699. pubovaginal sling
-	9700. pudendal nerve
+		1. see Parliamentary and Health Service OMBUDSMAN.
+	9699. [[pubovaginal sling]]
+	9700. [[pudendal nerve]]
 	
-	9701. pudendum(()
-	9702. puerperal
-	9703. puerperal cardiomyopathy
-	9704. puerperal infection
-	9705. puerperal psychosis
-	9706. puerperal pyrexia
-	9707. puerperium
-	9708. Pulex
-	9709. Pulfrich phenomenon
-	9710. pulmo-
+	9701. [[pudendum]]
+	9702. [[puerperal]]
+	9703. [[puerperal cardiomyopathy]]
+	9704. [[puerperal infection]]
+	9705. [[puerperal psychosis]]
+	9706. [[puerperal pyrexia]]
+	9707. [[puerperium]]
+	9708. [[Pulex]]
+	9709. [[Pulfrich phenomenon]]
+	9710. [[pulmo-]]
 	
-	9711. pulmonary
-	9712. pulmonary artery
-	9713. pulmonary capillary wedge pressure
-	9714. pulmonary circulation
-	9715. pulmonary embolism
-	9716. pulmonary hypertension
-	9717. pulmonary regurgitation
-	9718. pulmonary stenosis
+	9711. [[pulmonary]]
+	9712. [[pulmonary artery]]
+	9713. [[pulmonary capillary wedge pressure]]
+	9714. [[pulmonary circulation]]
+	9715. [[pulmonary embolism]]
+	9716. [[pulmonary hypertension]]
+	9717. [[pulmonary regurgitation]]
+	9718. [[pulmonary stenosis]]
 	9719. pulmonary tuberculosis
-	9720. pulmonary valve
+		1. see tuberculosis
+	9720. [[pulmonary valve]]
 	
-	9721. pulmonary vein
-	9722. pulp
-	9723. pulp capping
-	9724. pulpectomy
-	9725. pulpitis
-	9726. pulpotomy
-	9727. pulsatile
-	9728. pulsatile tinnitus
-	9729. pulse
+	9721. [[pulmonary vein]]
+	9722. [[pulp]]
+	9723. [[pulp capping]]
+	9724. [[pulpectomy]]
+	9725. [[pulpitis]]
+	9726. [[pulpotomy]]
+	9727. [[pulsatile]]
+	9728. [[pulsatile tinnitus]]
+	9729. [[pulse]]
 	9730. pulseless disease
+		1. see TAKAYASU's DISEASE.
 	
-	9731. pulseless electrical activity
-	9732. pulsus alternans
-	9733. pulsus paradoxus
-	9734. pulvinar
-	9735. punch-drunk syndrome
-	9736. punctum
-	9737. puncture
-	9738. pupil
-	9739. pupillary reflex
-	9740. pupilloplasty
+	9731. [[pulseless electrical activity]]
+	9732. [[pulsus alternans]]
+	9733. [[pulsus paradoxus]]
+	9734. [[pulvinar]]
+	9735. [[punch-drunk syndrome]]
+	9736. [[punctum]]
+	9737. [[puncture]]
+	9738. [[pupil]]
+	9739. [[pupillary reflex]]
+	9740. [[pupilloplasty]]
 	
 	9741. PUPPS
+		1. see POLYMORPHIC ERUPTION OF PREGNANCY.
 	9742. pure tone audiogram
-	9743. purgation
+		1. (PTA) see AUDIOGRAM.
+	9743. [[purgation]]
 	9744. purgative
-	9745. purine
-	9746. Purkinje cells
+		1. n. see laxative
+	9745. [[purine]]
+	9746. [[Purkinje cells]]
 	9747. Purkinje fibres
-	9748. purpura
-	9749. Purtscher's retinopathy
-	9750. purulent
+		1. see ATRIOVENTRICULAR BUNDLE.
+	9748. [[purpura]]
+	9749. [[Purtscher's retinopathy]]
+	9750. [[purulent]]
 	
-	9751. pus
-	9752. push-bang technique
-	9753. pustule
-	9754. putamen
-	9755. putrefaction
-	9756. putrescine
-	9757. PUVA
+	9751. [[pus]]
+	9752. [[push-bang technique]]
+	9753. [[pustule]]
+	9754. [[putamen]]
+	9755. [[putrefaction]]
+	9756. [[putrescine]]
+	9757. [[PUVA]]
 	9758. P value
+		1. see significance
 	9759. PVP
+		1. see PHOTOSELECTIVE VAPORIZATION OF THE PROSTATE.
 	9760. PVS
+		1. see PERSISTENT VEGETATIVE STATE.
 	
-	9761. py-
-	9762. pyaemia
-	9763. pyarthrosis
-	9764. pyel-
-	9765. pyelitis
-	9766. pyelocystitis
+	9761. [[py-]]
+	9762. [[pyaemia]]
+	9763. [[pyarthrosis]]
+	9764. [[pyel-]]
+	9765. [[pyelitis]]
+	9766. [[pyelocystitis]]
 	9767. pyelogram
-	9768. pyelography
-	9769. pyelolithotomy
-	9770. pyelonephritis
+		1. $n$. see PYELOGRAPHY.
+	9768. [[pyelography]]
+	9769. [[pyelolithotomy]]
+	9770. [[pyelonephritis]]
 	
-	9771. pyeloplasty
-	9772. pyelotomy
+	9771. [[pyeloplasty]]
+	9772. [[pyelotomy]]
 	9773. Pyemotes
-	9774. pyg-
-	9775. pykno-
-	9776. pyknosis
-	9777. pyl-
-	9778. pylephlebitis
-	9779. pylethrombosis
+		1. n. see Pediculoldes.
+	9774. [[pyg-]]
+	9775. [[pykno-]]
+	9776. [[pyknosis]]
+	9777. [[pyl-]]
+	9778. [[pylephlebitis]]
+	9779. [[pylethrombosis]]
 	9780. PYLL
+		1. see years of life lost
 	
-	9781. pylor-
-	9782. pylorectomy
-	9783. pyloric stenosis
-	9784. pyloromyotomy
-	9785. pyloroplasty
-	9786. pylorospasm
-	9787. pylorus
+	9781. [[pylor-]]
+	9782. [[pylorectomy]]
+	9783. [[pyloric stenosis]]
+	9784. [[pyloromyotomy]]
+	9785. [[pyloroplasty]]
+	9786. [[pylorospasm]]
+	9787. [[pylorus]]
 	9788. pyo-
-	9789. pyocele
-	9790. pyocolpos
+		1. combining form. see PY-.
+	9789. [[pyocele]]
+	9790. [[pyocolpos]]
 	
-	9791. pyocyanin
-	9792. pyoderma gangrenosum
-	9793. pyogenic
+	9791. [[pyocyanin]]
+	9792. [[pyoderma gangrenosum]]
+	9793. [[pyogenic]]
 	9794. pyogenic arthritis
-	9795. pyogenic granuloma
-	9796. pyometra
-	9797. pyometritis
-	9798. pyomyositis
-	9799. pyonephrosis
-	9800. pyopneumothorax
+		1. see SEPTIC ARTHRITIS.
+	9795. [[pyogenic granuloma]]
+	9796. [[pyometra]]
+	9797. [[pyometritis]]
+	9798. [[pyomyositis]]
+	9799. [[pyonephrosis]]
+	9800. [[pyopneumothorax]]
 	
-	9801. pyorrhoea
-	9802. pyosalpingitis
-	9803. pyosalpingo-oophoritis
-	9804. pyosalpinx
-	9805. pyosis
+	9801. [[pyorrhoea]]
+	9802. [[pyosalpingitis]]
+	9803. [[pyosalpingo-oophoritis]]
+	9804. [[pyosalpinx]]
+	9805. [[pyosis]]
 	9806. pyothorax
-	9807. pyr-
-	9808. pyramid
-	9809. pyramidal cell
-	9810. pyramidal system
+		1. n. see empyema
+	9807. [[pyr-]]
+	9808. [[pyramid]]
+	9809. [[pyramidal cell]]
+	9810. [[pyramidal system]]
 	
-	9811. pyrazinamide
-	9812. pyret-
+	9811. [[pyrazinamide]]
+	9812. [[pyret-]]
 	9813. pyrexia
-	9814. pyridostigmine
-	9815. pyridoxal phosphate
+		1. n. see fever
+	9814. [[pyridostigmine]]
+	9815. [[pyridoxal phosphate]]
 	9816. pyridoxine
-	9817. pyrimethamine
-	9818. pyrimidine
-	9819. pyrogen
+		1. n. see vitamin $B_6$ 
+	9817. [[pyrimethamine]]
+	9818. [[pyrimidine]]
+	9819. [[pyrogen]]
 	9820. pyrosis
+		1. $n$. another name (chiefly US) for heartburn.
 	
-	9821. pyruvic acid
-	9822. pyuria
-	9823. Q-T interval
+	9821. [[pyruvic acid]]
+	9822. [[pyuria]]
+	9823. [[Q-T interval]]
 	9824. QALYs
+		1. quality-adjusted life years. See QUALITY OF LIFE.
 	9825. qat
-	9826. Q fever
+		1. n. see Khat
+	9826. [[Q fever]]
 	9827. qinghaosu
+		1. $n$. see ARTEMISININ.
 	9828. QOF
-	9829. QRISK2
-	9830. QRS complex
+		1. see Quality and Outcomes Framework.
+	9829. [[QRISK2]]
+	9830. [[QRS complex]]
 	
-	9831. quadrantanopia
-	9832. quadrate lobe
-	9833. quadratus
-	9834. quadri-
-	9835. quadriceps
-	9836. quadriplegia
-	9837. qualitative research
-	9838. Quality and Outcomes Framework
-	9839. quality assurance
-	9840. quality of life
+	9831. [[quadrantanopia]]
+	9832. [[quadrate lobe]]
+	9833. [[quadratus]]
+	9834. [[quadri-]]
+	9835. [[quadriceps]]
+	9836. [[quadriplegia]]
+	9837. [[qualitative research]]
+	9838. [[Quality and Outcomes Framework]]
+	9839. [[quality assurance]]
+	9840. [[quality of life]]
 	
-	9841. quantitative digital radiography
-	9842. quantitative research
-	9843. quarantine
+	9841. [[quantitative digital radiography]]
+	9842. [[quantitative research]]
+	9843. [[quarantine]]
 	9844. quartan fever
-	9845. quartile
-	9846. Queckenstedt test
-	9847. quellung reaction
+		1. see malaria
+	9845. [[quartile]]
+	9846. [[Queckenstedt test]]
+	9847. [[quellung reaction]]
 	9848. quetiapine
-	9849. quickening
-	9850. quiescent
+		1. $n$. see ANTIPSYCHOTIC.
+	9849. [[quickening]]
+	9850. [[quiescent]]
 	
-	9851. quinine
-	9852. quinism
-	9853. quinolone
-	9854. quinsy
+	9851. [[quinine]]
+	9852. [[quinism]]
+	9853. [[quinolone]]
+	9854. [[quinsy]]
 	9855. quotidian fever
-	9856. Q wave
+		1. see malaria
+	9856. [[Q wave]]
 	9857. rabbit fever
-	9858. rabies
-	9859. racemose
-	9860. rachi-
+		1. see TULARAEMIA.
+	9858. [[rabies]]
+	9859. [[racemose]]
+	9860. [[rachi-]]
 	
 	9861. rachis
+		1. n. see backbone
 	9862. rachischisis
-	9863. rachitic
-	9864. rad
-	9865. radial
-	9866. radial artery
-	9867. radial keratotomy
-	9868. radial nerve
-	9869. radial reflex
-	9870. radiation
+		1. n. see spina bifida
+	9863. [[rachitic]]
+	9864. [[rad]]
+	9865. [[radial]]
+	9866. [[radial artery]]
+	9867. [[radial keratotomy]]
+	9868. [[radial nerve]]
+	9869. [[radial reflex]]
+	9870. [[radiation]]
 	
-	9871. radiation protection
-	9872. radiation sickness
-	9873. radical treatment
-	9874. radicle((in anatomy))
-	9875. radiculitis
-	9876. radio-
-	9877. radioactive iodine therapy
-	9878. radioactivity
+	9871. [[radiation protection]]
+	9872. [[radiation sickness]]
+	9873. [[radical treatment]]
+	9874. [[radicle]]
+	9875. [[radiculitis]]
+	9876. [[radio-]]
+	9877. [[radioactive iodine therapy]]
+	9878. [[radioactivity]]
 	9879. radioautography
-	9880. radiobiology
+		1. $n$. see AUTORADIOGRAPHY.
+	9880. [[radiobiology]]
 	
-	9881. radiodermatitis
-	9882. radioembolization
-	9883. radiofrequency ablation
+	9881. [[radiodermatitis]]
+	9882. [[radioembolization]]
+	9883. [[radiofrequency ablation]]
 	9884. radiofrequency palatal myoplasty
-	9885. radiographer
-	9886. radiography
-	9887. radioimmunoassay
-	9888. radioimmunolocalization
-	9889. radioimmunotherapy
-	9890. radioiodine ablation
+		1. (RPM) see PALATOPLASTY.
+	9885. [[radiographer]]
+	9886. [[radiography]]
+	9887. [[radioimmunoassay]]
+	9888. [[radioimmunolocalization]]
+	9889. [[radioimmunotherapy]]
+	9890. [[radioiodine ablation]]
 	
-	9891. radioisotope
-	9892. radiologist
-	9893. radiology
-	9894. radiology information system
-	9895. radiolucent
-	9896. radionecrosis
-	9897. radionuclide
-	9898. radiopaque
+	9891. [[radioisotope]]
+	9892. [[radiologist]]
+	9893. [[radiology]]
+	9894. [[radiology information system]]
+	9895. [[radiolucent]]
+	9896. [[radionecrosis]]
+	9897. [[radionuclide]]
+	9898. [[radiopaque]]
 	9899. radiopeptide
-	9900. radiosensitive
+		1. $n$. see PEPTIDE RECEPTOR RADIONUCLIDE THERAPY.
+	9900. [[radiosensitive]]
 	
-	9901. radiosensitizer
-	9902. radiotherapist
-	9903. radiotherapy
-	9904. radium
-	9905. radius
+	9901. [[radiosensitizer]]
+	9902. [[radiotherapist]]
+	9903. [[radiotherapy]]
+	9904. [[radium]]
+	9905. [[radius]]
 	9906. radix
-	9907. radon
+		1. n. see root
+	9907. [[radon]]
 	9908. rale
-	9909. raloxifene
-	9910. raltegravir
+		1. $n$. see CREPITATION.
+	9909. [[raloxifene]]
+	9910. [[raltegravir]]
 	
-	9911. Ramsay Hunt syndrome
+	9911. [[Ramsay Hunt syndrome]]
 	9912. Ramstedt's operation
-	9913. ramus
-	9914. Randall's plaque
+		1. see PylOROMyotomy. \[W. C. Ramstedt (1867-1963), German surgeon]
+	9913. [[ramus]]
+	9914. [[Randall's plaque]]
 	9915. randomized controlled trial
-	9916. random sample
-	9917. ranibizumab
-	9918. ranitidine
-	9919. RANKL inhibitor
-	9920. ranula
+		1. see INTERVENTION STUDY.
+	9916. [[random sample]]
+	9917. [[ranibizumab]]
+	9918. [[ranitidine]]
+	9919. [[RANKL inhibitor]]
+	9920. [[ranula]]
 	
 	9921. rapamycin
-	9922. raphe
-	9923. rarefaction
-	9924. rash
-	9925. Rasmussen's encephalitis
-	9926. raspatory
-	9927. raspberry tumour
-	9928. rat-bite fever
+		1. $n$. see SIROLIMUS.
+	9922. [[raphe]]
+	9923. [[rarefaction]]
+	9924. [[rash]]
+	9925. [[Rasmussen's encephalitis]]
+	9926. [[raspatory]]
+	9927. [[raspberry tumour]]
+	9928. [[rat-bite fever]]
 	9929. Rathke's pouch
-	9930. rationalization((in psychology))
+		1. see CRANIOPHARYNGIOMA.
+	9930. [[rationalization]]
 	
-	9931. rationing
-	9932. rauwolfia
-	9933. Raynaud's disease
+	9931. [[rationing]]
+	9932. [[rauwolfia]]
+	9933. [[Raynaud's disease]]
 	9934. RDS
-	9935. re-entry tachycardia
-	9936. reaction formation((in psychoanalysis))
-	9937. reactive((in psychiatry))
-	9938. reactive arthritis
-	9939. reactive hypoglycaemia
-	9940. reagin
+		1. see RESPIRATORY DISTRESS SYNDROME.
+	9935. [[re-entry tachycardia]]
+	9936. [[reaction formation]]
+	9937. [[reactive]]
+	9938. [[reactive arthritis]]
+	9939. [[reactive hypoglycaemia]]
+	9940. [[reagin]]
 	
-	9941. real-time imaging
-	9942. reality orientation
-	9943. reamer
+	9941. [[real-time imaging]]
+	9942. [[reality orientation]]
+	9943. [[reamer]]
 	9944. rebase
-	9945. rebound
-	9946. reboxetine
-	9947. receptaculum
-	9948. receptor
-	9949. recess((in anatomy))
-	9950. recessive
+		1. $n$. see RELINE.
+	9945. [[rebound]]
+	9946. [[reboxetine]]
+	9947. [[receptaculum]]
+	9948. [[receptor]]
+	9949. [[recess]]
+	9950. [[recessive]]
 	
-	9951. recipient
-	9952. recombinant DNA
-	9953. record linkage
-	9954. recovery position
-	9955. recrudescence
-	9956. recruitment
-	9957. rect-
+	9951. [[recipient]]
+	9952. [[recombinant DNA]]
+	9953. [[record linkage]]
+	9954. [[recovery position]]
+	9955. [[recrudescence]]
+	9956. [[recruitment]]
+	9957. [[rect-]]
 	9958. rectal bleeding
-	9959. rectocele
-	9960. rectopexy
+		1. see HAEMATOCHESIA.
+	9959. [[rectocele]]
+	9960. [[rectopexy]]
 	
-	9961. rectosigmoid
-	9962. rectum
-	9963. rectus
-	9964. recurrent((in anatomy))
+	9961. [[rectosigmoid]]
+	9962. [[rectum]]
+	9963. [[rectus]]
+	9964. [[recurrent]]
 	9965. recurrent miscarriage
+		1. see miscarriage
 	9966. red blood cell
-	9967. redia
-	9968. red reflex
-	9969. reduction((in surgery))
-	9970. reduction division
+		1. see erythrocyte
+	9967. [[redia]]
+	9968. [[red reflex]]
+	9969. [[reduction]]
+	9970. [[reduction division]]
 	
-	9971. reduplication
-	9972. reduviid
-	9973. Reduvius
-	9974. Reed-Sternberg cell
-	9975. refeeding syndrome
-	9976. referred pain
-	9977. reflective practice
-	9978. reflex
-	9979. reflex arc
-	9980. reflexology
+	9971. [[reduplication]]
+	9972. [[reduviid]]
+	9973. [[Reduvius]]
+	9974. [[Reed-Sternberg cell]]
+	9975. [[refeeding syndrome]]
+	9976. [[referred pain]]
+	9977. [[reflective practice]]
+	9978. [[reflex]]
+	9979. [[reflex arc]]
+	9980. [[reflexology]]
 	
 	9981. reflex sympathetic dystrophy
-	9982. reflux
-	9983. reformatting
-	9984. refraction
-	9985. refractive error
-	9986. refractive surgery
+		1. see COMPLEX REGIONAL PAIN SYNDROME.
+	9982. [[reflux]]
+	9983. [[reformatting]]
+	9984. [[refraction]]
+	9985. [[refractive error]]
+	9986. [[refractive surgery]]
 	9987. refractometer
-	9988. refractory
-	9989. refractory period((in neurology))
-	9990. refrigeration
+		1. $n$. see OPTOMETER.
+	9988. [[refractory]]
+	9989. [[refractory period]]
+	9990. [[refrigeration]]
 	
-	9991. Refsum's disease
-	9992. regimen((in therapeutics))
+	9991. [[Refsum's disease]]
+	9992. [[regimen]]
 	9993. regional specialty
+		1. see catchment area
 	9994. registrar
-	9995. regression((in psychiatry))
-	9996. regulations
-	9997. regulatory T cell
-	9998. regurgitation
-	9999. rehabilitation
-	10000. Reifenstein's syndrome
+		1. n. see consultant
+	9995. [[regression]]
+	9996. [[regulations]]
+	9997. [[regulatory T cell]]
+	9998. [[regurgitation]]
+	9999. [[rehabilitation]]
+	10000. [[Reifenstein's syndrome]]
 	
-	10001. reiki
+	10001. [[reiki]]
 	10002. reimplantation
-	10003. reinforcement((in psychology))
-	10004. Reinke's oedema
-	10005. Reissner's membrane
+		1. $n$. see REPLANTATION.
+	10003. [[reinforcement]]
+	10004. [[Reinke's oedema]]
+	10005. [[Reissner's membrane]]
 	10006. Reiter's syndrome
-	10007. rejection((in transplantation))
-	10008. relapse
-	10009. relapsing fever
-	10010. relative analgesia
+		1. see REACTIVE ARTHRITIS. \[H. Reiter (1881-1969), German physician]
+	10007. [[rejection]]
+	10008. [[relapse]]
+	10009. [[relapsing fever]]
+	10010. [[relative analgesia]]
 	
 	10011. relative density
-	10012. relativism
-	10013. relaxant
-	10014. relaxation((in physiology))
-	10015. relaxation therapy
-	10016. relaxin
+		1. see SPECIFIC GRAVITY.
+	10012. [[relativism]]
+	10013. [[relaxant]]
+	10014. [[relaxation]]
+	10015. [[relaxation therapy]]
+	10016. [[relaxin]]
 	10017. Relenza
-	10018. reline
-	10019. rem
-	10020. REM
+		1. $n$. see ZANAMIVIR.
+	10018. [[reline]]
+	10019. [[rem]]
+	10020. [[REM]]
 	
 	10021. Remicade
-	10022. remission
+		1. $n$. see INFLIXIMAB.
+	10022. [[remission]]
 	10023. remittent fever
-	10024. renal
-	10025. renal artery
-	10026. renal cell carcinoma
-	10027. renal function tests
+		1. see fever
+	10024. [[renal]]
+	10025. [[renal artery]]
+	10026. [[renal cell carcinoma]]
+	10027. [[renal function tests]]
 	10028. renal osteodystrophy
+		1. see OSTEODYSTROPHY.
 	10029. renal transplantation
-	10030. renal tubular acidosis
+		1. see TRANSPLANTATION.
+	10030. [[renal tubular acidosis]]
 	
-	10031. renal tubule
-	10032. reni-
-	10033. renin
-	10034. rennin
-	10035. renography
-	10036. renovascular hypertension
-	10037. reovirus
+	10031. [[renal tubule]]
+	10032. [[reni-]]
+	10033. [[renin]]
+	10034. [[rennin]]
+	10035. [[renography]]
+	10036. [[renovascular hypertension]]
+	10037. [[reovirus]]
 	10038. repaglinide
-	10039. reperfusion
-	10040. repetitive strain injury
+		1. $n$. see MEGLITINIDES.
+	10039. [[reperfusion]]
+	10040. [[repetitive strain injury]]
 	
 	10041. repetitive transcranial magnetic stimulation
-	10042. replacement bone
-	10043. replantation
-	10044. replication
-	10045. repolarization
-	10046. repositor
-	10047. repression((in *psychoanalysis))
+		1. (rTMS) see TRANSCRANIAL MAGNETIC STIMULATION.
+	10042. [[replacement bone]]
+	10043. [[replantation]]
+	10044. [[replication]]
+	10045. [[repolarization]]
+	10046. [[repositor]]
+	10047. [[repression]]
 	10048. reproduction rate
-	10049. reproductive system
+		1. see fertility rate
+	10049. [[reproductive system]]
 	10050. research ethics committee
+		1. see ethics committee
 	
-	10051. resection
-	10052. resectoscope
+	10051. [[resection]]
+	10052. [[resectoscope]]
 	10053. reserpine
-	10054. reserve volume
-	10055. resident
-	10056. residual volume
-	10057. resistance
-	10058. resolution
-	10059. resorption
-	10060. respiration
+		1. n. see rauwolfia
+	10054. [[reserve volume]]
+	10055. [[resident]]
+	10056. [[residual volume]]
+	10057. [[resistance]]
+	10058. [[resolution]]
+	10059. [[resorption]]
+	10060. [[respiration]]
 	
-	10061. respirator
-	10062. respiratory arrest
-	10063. respiratory distress
-	10064. respiratory distress syndrome
-	10065. respiratory quotient
-	10066. respiratory rate
-	10067. respiratory syncytial virus
-	10068. respiratory system
-	10069. response
-	10070. response prevention
+	10061. [[respirator]]
+	10062. [[respiratory arrest]]
+	10063. [[respiratory distress]]
+	10064. [[respiratory distress syndrome]]
+	10065. [[respiratory quotient]]
+	10066. [[respiratory rate]]
+	10067. [[respiratory syncytial virus]]
+	10068. [[respiratory system]]
+	10069. [[response]]
+	10070. [[response prevention]]
 	
-	10071. responsibility
-	10072. restenosis
-	10073. restiform body
-	10074. resting cell
-	10075. restless legs syndrome
-	10076. restoration((in dentistry))
-	10077. rest pain
-	10078. restriction enzyme
-	10079. resuscitation
-	10080. resuscitation mannikin
+	10071. [[responsibility]]
+	10072. [[restenosis]]
+	10073. [[restiform body]]
+	10074. [[resting cell]]
+	10075. [[restless legs syndrome]]
+	10076. [[restoration]]
+	10077. [[rest pain]]
+	10078. [[restriction enzyme]]
+	10079. [[resuscitation]]
+	10080. [[resuscitation mannikin]]
 	
-	10081. retainer((in dentistry))
-	10082. retardation
-	10083. retching
-	10084. rete
-	10085. retention
+	10081. [[retainer]]
+	10082. [[retardation]]
+	10083. [[retching]]
+	10084. [[rete]]
+	10085. [[retention]]
 	10086. reteplase
-	10087. reticular activating system
-	10088. reticular fibres
-	10089. reticular formation
-	10090. reticulin
+		1. $n$. see FIBRINOLYTIC; TISSUE-TYPE PLASMINOGEN ACTIVATOR.
+	10087. [[reticular activating system]]
+	10088. [[reticular fibres]]
+	10089. [[reticular formation]]
+	10090. [[reticulin]]
 	
-	10091. reticulocyte
-	10092. reticulocytosis
-	10093. reticuloendothelial system
-	10094. reticulosis
-	10095. reticulum
-	10096. retin-
-	10097. retina
-	10098. retinaculum
-	10099. retinal
-	10100. retinal artery occlusion
+	10091. [[reticulocyte]]
+	10092. [[reticulocytosis]]
+	10093. [[reticuloendothelial system]]
+	10094. [[reticulosis]]
+	10095. [[reticulum]]
+	10096. [[retin-]]
+	10097. [[retina]]
+	10098. [[retinaculum]]
+	10099. [[retinal]]
+	10100. [[retinal artery occlusion]]
 	
-	10101. retinal detachment
-	10102. retinal dialysis
-	10103. retinal vein occlusion
+	10101. [[retinal detachment]]
+	10102. [[retinal dialysis]]
+	10103. [[retinal vein occlusion]]
 	10104. retinene
-	10105. retinitis
-	10106. retinitis pigmentosa
-	10107. retinoblastoma
-	10108. retinoid
+		1. n. see retinal
+	10105. [[retinitis]]
+	10106. [[retinitis pigmentosa]]
+	10107. [[retinoblastoma]]
+	10108. [[retinoid]]
 	10109. retinol
-	10110. retinopathy
+		1. n. see vitamin A
+	10110. [[retinopathy]]
 	
-	10111. retinopexy
-	10112. retinoschisis
-	10113. retinoscope
-	10114. retinotomy
-	10115. retraction
-	10116. retraction ring
-	10117. retractor
-	10118. retro-
-	10119. retrobulbar neuritis
-	10120. retroflexion
+	10111. [[retinopexy]]
+	10112. [[retinoschisis]]
+	10113. [[retinoscope]]
+	10114. [[retinotomy]]
+	10115. [[retraction]]
+	10116. [[retraction ring]]
+	10117. [[retractor]]
+	10118. [[retro-]]
+	10119. [[retrobulbar neuritis]]
+	10120. [[retroflexion]]
 	
-	10121. retrograde
+	10121. [[retrograde]]
 	10122. retrograde root canal treatment
+		1. see APICECTOMY.
 	10123. retrolental fibroplasia
-	10124. retroperitoneal fibrosis
-	10125. retroperitoneal space
-	10126. retropharyngeal space
-	10127. retropulsion
-	10128. retrospective study
-	10129. retroversion
-	10130. retrovirus
+		1. see RETINOPATHY.
+	10124. [[retroperitoneal fibrosis]]
+	10125. [[retroperitoneal space]]
+	10126. [[retropharyngeal space]]
+	10127. [[retropulsion]]
+	10128. [[retrospective study]]
+	10129. [[retroversion]]
+	10130. [[retrovirus]]
 	
-	10131. retrusion((in dentistry))
-	10132. Rett's syndrome
-	10133. revalidation
-	10134. revascularization
-	10135. reverse transcriptase
+	10131. [[retrusion]]
+	10132. [[Rett's syndrome]]
+	10133. [[revalidation]]
+	10134. [[revascularization]]
+	10135. [[reverse transcriptase]]
 	10136. Revlimid
-	10137. Reye's syndrome
+		1. $n$. see LENALIDOMIDE.
+	10137. [[Reye's syndrome]]
 	10138. RFA
-	10139. rhabdomyolysis
-	10140. rhabdomyoma
+		1. see RADIOFREQUENCY ABLATION.
+	10139. [[rhabdomyolysis]]
+	10140. [[rhabdomyoma]]
 	
-	10141. rhabdomyosarcoma
-	10142. rhagades
-	10143. rhegmatogenous
-	10144. rheo-
-	10145. rhesus factor
+	10141. [[rhabdomyosarcoma]]
+	10142. [[rhagades]]
+	10143. [[rhegmatogenous]]
+	10144. [[rheo-]]
+	10145. [[rhesus factor]]
 	10146. rhesus prophylaxis
-	10147. rheumatic fever
-	10148. rheumatism
-	10149. rheumatoid arthritis
-	10150. rheumatology
+		1. see ANTI-D IMMUNOGLOBULIN; HAEMOLYTIC DISEASE OF THE NEWBORN.
+	10147. [[rheumatic fever]]
+	10148. [[rheumatism]]
+	10149. [[rheumatoid arthritis]]
+	10150. [[rheumatology]]
 	
-	10151. rhexis
+	10151. [[rhexis]]
 	10152. Rh factor
-	10153. rhin-
-	10154. rhinencephalon
-	10155. rhinitis
-	10156. rhinolith
-	10157. rhinology
-	10158. rhinomycosis
-	10159. rhinophyma
-	10160. rhinoplasty
+		1. see rhesus factor
+	10153. [[rhin-]]
+	10154. [[rhinencephalon]]
+	10155. [[rhinitis]]
+	10156. [[rhinolith]]
+	10157. [[rhinology]]
+	10158. [[rhinomycosis]]
+	10159. [[rhinophyma]]
+	10160. [[rhinoplasty]]
 	
-	10161. rhinorrhoea
-	10162. rhinoscleroma
-	10163. rhinoscopy
-	10164. rhinosinusitis
-	10165. rhinosporidiosis
-	10166. rhinovirus
-	10167. Rhipicephalus
-	10168. rhiz-
-	10169. rhizotomy
-	10170. Rhodnius
+	10161. [[rhinorrhoea]]
+	10162. [[rhinoscleroma]]
+	10163. [[rhinoscopy]]
+	10164. [[rhinosinusitis]]
+	10165. [[rhinosporidiosis]]
+	10166. [[rhinovirus]]
+	10167. [[Rhipicephalus]]
+	10168. [[rhiz-]]
+	10169. [[rhizotomy]]
+	10170. [[Rhodnius]]
 	
-	10171. rhodopsin
+	10171. [[rhodopsin]]
 	10172. rhombencephalon
-	10173. rhomboid
-	10174. rhonchus
-	10175. rhythm method
+		1. $n$. see HINDBRAIN.
+	10173. [[rhomboid]]
+	10174. [[rhonchus]]
+	10175. [[rhythm method]]
 	10176. RI
-	10177. rib
-	10178. ribavirin
+		1. reference intake (see Dietary Reference Values).
+	10177. [[rib]]
+	10178. [[ribavirin]]
 	10179. riboflavin
-	10180. ribonuclease
+		1. $n$. see VITAMIN $\mathrm{B}_{2}$.
+	10180. [[ribonuclease]]
 	
 	10181. ribonucleic acid
-	10182. ribose
-	10183. ribosome
-	10184. ribozyme
-	10185. Richter's hernia
-	10186. ricin
-	10187. rickets
-	10188. rickettsiae
-	10189. rickettsial pox
-	10190. ridge
+		1. see RNA
+	10182. [[ribose]]
+	10183. [[ribosome]]
+	10184. [[ribozyme]]
+	10185. [[Richter's hernia]]
+	10186. [[ricin]]
+	10187. [[rickets]]
+	10188. [[rickettsiae]]
+	10189. [[rickettsial pox]]
+	10190. [[ridge]]
 	
-	10191. Riedel's struma
-	10192. rifampicin
-	10193. Rift Valley fever
+	10191. [[Riedel's struma]]
+	10192. [[rifampicin]]
+	10193. [[Rift Valley fever]]
 	10194. RIG
-	10195. right
-	10196. rigidity((in neurology))
-	10197. rigor
-	10198. rigor mortis
-	10199. riluzole
-	10200. rima((in anatomy))
+		1. radiologically inserted gastrostomy: see GASTROSTOMY.
+	10195. [[right]]
+	10196. [[rigidity]]
+	10197. [[rigor]]
+	10198. [[rigor mortis]]
+	10199. [[riluzole]]
+	10200. [[rima]]
 	
-	10201. ring((in anatomy))
-	10202. ring block
-	10203. Ringer's solution
-	10204. ringworm
-	10205. Rinne's test
+	10201. ring
+		1. $n$. (in anatomy) see ANNULUS.
+	10202. [[ring block]]
+	10203. [[Ringer's solution]]
+	10204. [[ringworm]]
+	10205. [[Rinne's test]]
 	10206. RIS
-	10207. risk-benefit analysis
-	10208. risk assessment((in psychiatry))
-	10209. risk factor
-	10210. risk management
+		1. see RADIOLOGY INFORMATION SYSTEM.
+	10207. [[risk-benefit analysis]]
+	10208. [[risk assessment]]
+	10209. [[risk factor]]
+	10210. [[risk management]]
 	
-	10211. risk of malignancy index
-	10212. risk register
-	10213. risperidone
-	10214. risus sardonicus
+	10211. [[risk of malignancy index]]
+	10212. [[risk register]]
+	10213. [[risperidone]]
+	10214. [[risus sardonicus]]
 	10215. ritonavir
+		1. $n$. see PROTEASE INHIBITOR.
 	10216. Ritter's disease
-	10217. rituximab
+		1. see STAPHYLOCOCCAL SCALDED SKIN SYNDROME. \[G. Ritter von Rittershain (1820-83), German physician]
+	10217. [[rituximab]]
 	10218. rivastigmine
+		1. $n$. see ACETYLCHOLINESTERASE INHIBITOR.
 	10219. river blindness
+		1. see ONCHOCERCIASIS.
 	10220. RMI
+		1. see RISK OF MALIGNANCY INDEX.
 	
-	10221. RNA
-	10222. RNA interference
+	10221. [[RNA]]
+	10222. [[RNA interference]]
 	10223. robotic prostatectomy
-	10224. robotic surgery
-	10225. Rocky Mountain spotted fever
+		1. see PROSTATECTOMY.
+	10224. [[robotic surgery]]
+	10225. [[Rocky Mountain spotted fever]]
 	10226. rocuronium
-	10227. rod
+		1. $n$. see MUSCLE RELAXANT.
+	10227. [[rod]]
 	10228. rodent ulcer
-	10229. roentgen
+		1. see basal cell carcinoma
+	10229. [[roentgen]]
 	10230. Rokitansky-Küster-Hauser syndrome
+		1. see Mayer-Rokitansky-Küster-Hauser SYndrome.
 	
-	10231. role playing
-	10232. Romaña's sign
-	10233. Romanowsky stains
-	10234. Romberg's sign
-	10235. romiplostim
-	10236. rongeur
-	10237. R on T phenomenon((in *electrocardiography))
-	10238. root
-	10239. root canal treatment
+	10231. [[role playing]]
+	10232. [[Romaña's sign]]
+	10233. [[Romanowsky stains]]
+	10234. [[Romberg's sign]]
+	10235. [[romiplostim]]
+	10236. [[rongeur]]
+	10237. [[R on T phenomenon]]
+	10238. [[root]]
+	10239. [[root canal treatment]]
 	10240. root end resection
+		1. see APICECTOMY.
 	
-	10241. root filling
-	10242. root induction((in *endodontics))
-	10243. rooting reflex
-	10244. ropinirole
-	10245. Rorschach test
-	10246. rosacea
-	10247. roseola
-	10248. Ross River fever
-	10249. rostellum
-	10250. rostrum((in anatomy))
+	10241. [[root filling]]
+	10242. [[root induction]]
+	10243. [[rooting reflex]]
+	10244. [[ropinirole]]
+	10245. [[Rorschach test]]
+	10246. [[rosacea]]
+	10247. [[roseola]]
+	10248. [[Ross River fever]]
+	10249. [[rostellum]]
+	10250. [[rostrum]]
 	
-	10251. Rosving's sign
+	10251. [[Rosving's sign]]
 	10252. rotablation
-	10253. rotator
-	10254. rotavirus
-	10255. rotavirus vaccine
-	10256. Rothera's test
-	10257. Roth spot
+		1. $n$. see ATHERECTOMY.
+	10253. [[rotator]]
+	10254. [[rotavirus]]
+	10255. [[rotavirus vaccine]]
+	10256. [[Rothera's test]]
+	10257. [[Roth spot]]
 	10258. roughage
-	10259. rouleau
+		1. n. see dietary fibre
+	10259. [[rouleau]]
 	10260. round window
+		1. see fenestra
 	
 	10261. roundworm
-	10262. roux-en-Y
+		1. n. see nematode
+	10262. [[roux-en-Y]]
 	10263. RPE
+		1. retinal pigment epithelium. See RETINA.
 	10264. RPM
-	10265. -rrhagia
-	10266. -rrhaphy
-	10267. -rrhexis
-	10268. -rrhoea
+		1. radiofrequency palatal myoplasty. See PALATOPLASTY.
+	10265. [[-rrhagia]]
+	10266. [[-rrhaphy]]
+	10267. [[-rrhexis]]
+	10268. [[-rrhoea]]
 	10269. RSI
+		1. see REPETITIVE STRAIN INJURY.
 	10270. RSV
+		1. see RESPIRATORY SYNCYTIAL VIRUS.
 	
 	10271. rTMS
-	10272. rubber dam((in dentistry))
-	10273. rubefacient
+		1. repetitive transcranial magnetic stimulation.
+	10272. [[rubber dam]]
+	10273. [[rubefacient]]
 	10274. rubella
+		1. n. see german measles
 	10275. rubeola
-	10276. rubeosis iridis
-	10277. rubidium-81
-	10278. rubor
-	10279. rubrospinal tract
-	10280. ruga
+		1. n. see measles
+	10276. [[rubeosis iridis]]
+	10277. [[rubidium-81]]
+	10278. [[rubor]]
+	10279. [[rubrospinal tract]]
+	10280. [[ruga]]
 	
-	10281. rule of nines
-	10282. rumination((in psychiatry))
-	10283. rupture
-	10284. Rusch catheter
-	10285. Russell-Silver syndrome
-	10286. Russian spring-summer encephalitis
-	10287. Ryle's tube
+	10281. [[rule of nines]]
+	10282. [[rumination]]
+	10283. [[rupture]]
+	10284. [[Rusch catheter]]
+	10285. [[Russell-Silver syndrome]]
+	10286. [[Russian spring-summer encephalitis]]
+	10287. [[Ryle's tube]]
 	10288. S-H classification
-	10289. S-T segment
-	10290. Sabin vaccine
+		1. see salter-harris classification
+	10289. [[S-T segment]]
+	10290. [[Sabin vaccine]]
 	
-	10291. sac
-	10292. saccade
-	10293. sacchar-
+	10291. [[sac]]
+	10292. [[saccade]]
+	10293. [[sacchar-]]
 	10294. saccharide
-	10295. saccharine
+		1. n. a carbohydrate. See also DISACCHARIDE; MONOSACCHARIDE; POLYSACCHARIDE.
+	10295. [[saccharine]]
 	10296. Saccharomyces
-	10297. saccule
-	10298. saccus
-	10299. sacral agenesis
-	10300. sacralization
+		1. n. see yeast
+	10297. [[saccule]]
+	10298. [[saccus]]
+	10299. [[sacral agenesis]]
+	10300. [[sacralization]]
 	
-	10301. sacral nerves
-	10302. sacral vertebrae
-	10303. sacro-
-	10304. sacrocolpopexy
-	10305. sacroiliitis
-	10306. sacroplasty
-	10307. sacrospinous ligament fixation
-	10308. sacrum
-	10309. SAD
-	10310. saddle joint
+	10301. [[sacral nerves]]
+	10302. [[sacral vertebrae]]
+	10303. [[sacro-]]
+	10304. [[sacrocolpopexy]]
+	10305. [[sacroiliitis]]
+	10306. [[sacroplasty]]
+	10307. [[sacrospinous ligament fixation]]
+	10308. [[sacrum]]
+	10309. [[SAD]]
+	10310. [[saddle joint]]
 	
-	10311. safeguarding
-	10312. safe period
-	10313. safety
-	10314. safranin
-	10315. sagittal
+	10311. [[safeguarding]]
+	10312. [[safe period]]
+	10313. [[safety]]
+	10314. [[safranin]]
+	10315. [[sagittal]]
 	10316. sagittal suture
-	10317. Saint's triad
+		1. see suture
+	10317. [[Saint's triad]]
 	10318. salaam attacks
-	10319. salbutamol
+		1. see infantile spasms
+	10319. [[salbutamol]]
 	10320. salcatonin
+		1. n. see calcitonin
 	
-	10321. salicylic acid
-	10322. salicylism
-	10323. saline
+	10321. [[salicylic acid]]
+	10322. [[salicylism]]
+	10323. [[saline]]
 	10324. saline infusion sonohysterography
-	10325. saliva
-	10326. salivary gland
+		1. (SIS) see SONOHYSTEROGRAPHY.
+	10325. [[saliva]]
+	10326. [[salivary gland]]
 	10327. salivary stone
-	10328. salivation
-	10329. Salk vaccine
-	10330. salmeterol
+		1. see sialolith
+	10328. [[salivation]]
+	10329. [[Salk vaccine]]
+	10330. [[salmeterol]]
 	
-	10331. Salmonella
-	10332. salmonellosis
-	10333. salmon patch
-	10334. salping-
-	10335. salpingectomy
-	10336. salpingitis
-	10337. salpingo-oophorectomy
-	10338. salpingo-oophoritis
-	10339. salpingography
-	10340. salpingolysis
+	10331. [[Salmonella]]
+	10332. [[salmonellosis]]
+	10333. [[salmon patch]]
+	10334. [[salping-]]
+	10335. [[salpingectomy]]
+	10336. [[salpingitis]]
+	10337. [[salpingo-oophorectomy]]
+	10338. [[salpingo-oophoritis]]
+	10339. [[salpingography]]
+	10340. [[salpingolysis]]
 	
-	10341. salpingostomy
-	10342. salt depletion
-	10343. Salter-Harris classification
-	10344. salvage procedure
+	10341. [[salpingostomy]]
+	10342. [[salt depletion]]
+	10343. [[Salter-Harris classification]]
+	10344. [[salvage procedure]]
 	10345. Salvarsan
-	10346. Salzmann's degeneration
-	10347. Samaritans
+		1. n. see arsenic
+	10346. [[Salzmann's degeneration]]
+	10347. [[Samaritans]]
 	10348. sampling frame
-	10349. Samter's triad
-	10350. sanatorium
+		1. see random sample
+	10349. [[Samter's triad]]
+	10350. [[sanatorium]]
 	
-	10351. sanctity of life
-	10352. sandfly
-	10353. sandfly fever
-	10354. sandwich therapy
-	10355. SANE
-	10356. sangui-
-	10357. sanguineous
-	10358. sanies
+	10351. [[sanctity of life]]
+	10352. [[sandfly]]
+	10353. [[sandfly fever]]
+	10354. [[sandwich therapy]]
+	10355. [[SANE]]
+	10356. [[sangui-]]
+	10357. [[sanguineous]]
+	10358. [[sanies]]
 	10359. sanitarian
+		1. n. see medical assistant
 	10360. saphena
+		1. n. see saphenous vein
 	
-	10361. saphena varix
-	10362. saphenous nerve
-	10363. saphenous vein
-	10364. sapr-
-	10365. sapraemia
-	10366. saprophyte
+	10361. [[saphena varix]]
+	10362. [[saphenous nerve]]
+	10363. [[saphenous vein]]
+	10364. [[sapr-]]
+	10365. [[sapraemia]]
+	10366. [[saprophyte]]
 	10367. saquinavir
-	10368. sarc-
-	10369. Sarcocystis
-	10370. sarcoid
+		1. $n$. see PROTEASE INHIBITOR.
+	10368. [[sarc-]]
+	10369. [[Sarcocystis]]
+	10370. [[sarcoid]]
 	
-	10371. sarcoidosis
-	10372. sarcolemma
-	10373. sarcoma
-	10374. sarcoma botryoides
-	10375. sarcomere
-	10376. Sarcophaga
-	10377. sarcoplasm
-	10378. sarcoplasmic reticulum
-	10379. Sarcoptes
-	10380. sarcostyle
+	10371. [[sarcoidosis]]
+	10372. [[sarcolemma]]
+	10373. [[sarcoma]]
+	10374. [[sarcoma botryoides]]
+	10375. [[sarcomere]]
+	10376. [[Sarcophaga]]
+	10377. [[sarcoplasm]]
+	10378. [[sarcoplasmic reticulum]]
+	10379. [[Sarcoptes]]
+	10380. [[sarcostyle]]
 	
-	10381. SARS
-	10382. sartorius
+	10381. [[SARS]]
+	10382. [[sartorius]]
 	10383. SAS
-	10384. saturated fatty acid
-	10385. saucerization
+		1. sleep apnoea syndrome (see OBSTRUCTIVE SLEEP APNOEA).
+	10384. [[saturated fatty acid]]
+	10385. [[saucerization]]
 	10386. saxagliptin
-	10387. Sayre's jacket
-	10388. scab
-	10389. scabicide
-	10390. scabies
+		1. $n$. see DPP-IV inhibitors.
+	10387. [[Sayre's jacket]]
+	10388. [[scab]]
+	10389. [[scabicide]]
+	10390. [[scabies]]
 	
-	10391. scala
-	10392. scald
-	10393. scale
-	10394. scalenus
-	10395. scalenus syndrome
-	10396. scaler
-	10397. scalpel
-	10398. scan
+	10391. [[scala]]
+	10392. [[scald]]
+	10393. [[scale]]
+	10394. [[scalenus]]
+	10395. [[scalenus syndrome]]
+	10396. [[scaler]]
+	10397. [[scalpel]]
+	10398. [[scan]]
 	10399. scanning laser ophthalmoscope
-	10400. scanning speech
+		1. see OPHTHALMOSCOPE.
+	10400. [[scanning speech]]
 	
-	10401. scaphocephaly
-	10402. scaphoid bone
-	10403. scaphoid fracture
-	10404. scapul-
-	10405. scapula
-	10406. scar
-	10407. scarification
+	10401. [[scaphocephaly]]
+	10402. [[scaphoid bone]]
+	10403. [[scaphoid fracture]]
+	10404. [[scapul-]]
+	10405. [[scapula]]
+	10406. [[scar]]
+	10407. [[scarification]]
 	10408. scarlatina
-	10409. scarlet fever
+		1. $n$. see SCARLET FEVER.
+	10409. [[scarlet fever]]
 	10410. Scarpa's triangle
+		1. see FEMORAL TRIANGLE. \[A. Scarpa (1747-1832), Italian anatomist and surgeon]
 	
-	10411. scat-
-	10412. scatter diagram((in statistics))
+	10411. [[scat-]]
+	10412. scatter diagram
+		1. (in statistics) see CORRELATION.
 	10413. SCC
+		1. see SQUAMOUS CELL CARCINOMA.
 	10414. SCDS
-	10415. Schatzki ring
-	10416. Scheuermann's disease
-	10417. Schick test
-	10418. Schiff's reagent
-	10419. Schilling test
-	10420. schindylesis
+		1. see SUPERIOR CANAL DEHISCENCE SYNDROME.
+	10415. [[Schatzki ring]]
+	10416. [[Scheuermann's disease]]
+	10417. [[Schick test]]
+	10418. [[Schiff's reagent]]
+	10419. [[Schilling test]]
+	10420. [[schindylesis]]
 	
-	10421. -schisis
-	10422. schisto-
-	10423. schistocyte
-	10424. schistoglossia
-	10425. Schistosoma
-	10426. schistosomiasis
-	10427. schiz-
-	10428. schizogony
-	10429. schizoid personality
-	10430. schizont
+	10421. [[-schisis]]
+	10422. [[schisto-]]
+	10423. [[schistocyte]]
+	10424. [[schistoglossia]]
+	10425. [[Schistosoma]]
+	10426. [[schistosomiasis]]
+	10427. [[schiz-]]
+	10428. [[schizogony]]
+	10429. [[schizoid personality]]
+	10430. [[schizont]]
 	
-	10431. schizonticide
-	10432. schizophrenia
-	10433. schizotypal personality disorder
-	10434. Schlemm's canal
-	10435. Schmidt's syndrome
-	10436. Schmorl's nodes
-	10437. Schneiderian first- and second-rank symptoms
-	10438. Schnitzler's syndrome
+	10431. [[schizonticide]]
+	10432. [[schizophrenia]]
+	10433. [[schizotypal personality disorder]]
+	10434. [[Schlemm's canal]]
+	10435. [[Schmidt's syndrome]]
+	10436. [[Schmorl's nodes]]
+	10437. [[Schneiderian first- and second-rank symptoms]]
+	10438. [[Schnitzler's syndrome]]
 	10439. Schönlein-Henoch purpura
-	10440. school health service((in Britain))
+		1. see Henoch-SChÖnlein purpura.
+	10440. [[school health service]]
 	
-	10441. school nurse
-	10442. Schwann cells
+	10441. [[school nurse]]
+	10442. [[Schwann cells]]
 	10443. schwannoma
-	10444. Schwartz rounds
-	10445. sciatica
-	10446. sciatic nerve
+		1. n. see NEUROFIBROMA; VESTIBULAR SCHWANNOMA.
+	10444. [[Schwartz rounds]]
+	10445. [[sciatica]]
+	10446. [[sciatic nerve]]
 	10447. SCID
-	10448. scintigram
-	10449. scintillation counter
-	10450. scintillator
+		1. see SEVERE COMBINED IMMUNE DEFICIENCY.
+	10448. [[scintigram]]
+	10449. [[scintillation counter]]
+	10450. [[scintillator]]
 	
 	10451. scintiscan
-	10452. scirrhous
-	10453. scissor leg
-	10454. scissura
-	10455. scler-
-	10456. sclera
-	10457. scleral buckle
-	10458. sclerectomy
-	10459. scleritis
-	10460. scleroderma
+		1. n. see scintigram
+	10452. [[scirrhous]]
+	10453. [[scissor leg]]
+	10454. [[scissura]]
+	10455. [[scler-]]
+	10456. [[sclera]]
+	10457. [[scleral buckle]]
+	10458. [[sclerectomy]]
+	10459. [[scleritis]]
+	10460. [[scleroderma]]
 	
-	10461. scleromalacia
-	10462. sclerosis
-	10463. sclerotherapy
-	10464. sclerotic
-	10465. sclerotome
-	10466. sclerotomy
-	10467. scolex
-	10468. scoliosis
-	10469. -scope
+	10461. [[scleromalacia]]
+	10462. [[sclerosis]]
+	10463. [[sclerotherapy]]
+	10464. [[sclerotic]]
+	10465. [[sclerotome]]
+	10466. [[sclerotomy]]
+	10467. [[scolex]]
+	10468. [[scoliosis]]
+	10469. [[-scope]]
 	10470. ScopeGuide
+		1. n. Trademark. See 3-D MAGNETIC IMAGER.
 	
 	10471. scopolamine
-	10472. scorbutic
-	10473. scoring system
-	10474. scoto-
-	10475. scotoma
-	10476. scotometer
-	10477. scotopic
-	10478. screening test
-	10479. scrofula
-	10480. scrofuloderma
+		1. n. see hyoscine
+	10472. [[scorbutic]]
+	10473. [[scoring system]]
+	10474. [[scoto-]]
+	10475. [[scotoma]]
+	10476. [[scotometer]]
+	10477. [[scotopic]]
+	10478. [[screening test]]
+	10479. [[scrofula]]
+	10480. [[scrofuloderma]]
 	
-	10481. scrototomy
-	10482. scrotum
-	10483. scrub typhus
-	10484. scrum-pox
-	10485. scruple
+	10481. [[scrototomy]]
+	10482. [[scrotum]]
+	10483. [[scrub typhus]]
+	10484. [[scrum-pox]]
+	10485. [[scruple]]
 	10486. SCUAD
-	10487. scurvy
+		1. see SEVERE CHRONIC UPPER AIRWAY DISEASE.
+	10487. [[scurvy]]
 	10488. SDB
+		1. see SLEEP DISORDERED BREATHING.
 	10489. seasickness
+		1. $n$. see MOTION SICKNESS.
 	10490. seasonal affective disorder
+		1. see SAD
 	
-	10491. seat-belt syndrome
-	10492. sebaceous cyst
-	10493. sebaceous gland
-	10494. seborrhoea
-	10495. sebum
-	10496. second
+	10491. [[seat-belt syndrome]]
+	10492. [[sebaceous cyst]]
+	10493. [[sebaceous gland]]
+	10494. [[seborrhoea]]
+	10495. [[sebum]]
+	10496. [[second]]
 	10497. second-rank symptom
-	10498. secondary care
-	10499. secondary prevention
-	10500. secondary sexual characteristics
+		1. see Schneiderian first- and second-rank SYMPTOMS.
+	10498. [[secondary care]]
+	10499. [[secondary prevention]]
+	10500. [[secondary sexual characteristics]]
 	
-	10501. second messenger
-	10502. secretin
-	10503. secretion
-	10504. secretor
-	10505. section
-	10506. section 30 order
-	10507. section 47 removal
-	10508. sedation
-	10509. sedative
-	10510. sedimentation rate
+	10501. [[second messenger]]
+	10502. [[secretin]]
+	10503. [[secretion]]
+	10504. [[secretor]]
+	10505. [[section]]
+	10506. [[section 30 order]]
+	10507. [[section 47 removal]]
+	10508. [[sedation]]
+	10509. [[sedative]]
+	10510. [[sedimentation rate]]
 	
-	10511. see-saw breathing
-	10512. segment((in anatomy))
-	10513. Seidel sign
+	10511. [[see-saw breathing]]
+	10512. [[segment]]
+	10513. [[Seidel sign]]
 	10514. Seip-Beradinelli syndrome
-	10515. Seldinger technique
-	10516. selective (o)estrogen receptor modulator
+		1. see LIPODYSTROPHY. \[M. Seip (20th century), Scandinavian physician; W. Beradinelli (1903-56), Argentinian physician]
+	10515. [[Seldinger technique]]
+	10516. [[selective (o)estrogen receptor modulator]]
 	10517. selective internal radiation therapy
+		1. see RADIOEMBOLIZATION.
 	10518. selective laser trabeculoplasty
+		1. (SLT) see TRABECULOPLASTY.
 	10519. selective serotonin and noradrenaline reuptake inhibitor
-	10520. selegiline
+		1. see SNRI
+	10520. [[selegiline]]
 	
-	10521. selenium
-	10522. selenium sulphide
-	10523. self-inflating bag
-	10524. self-limiting
-	10525. sella turcica
+	10521. [[selenium]]
+	10522. [[selenium sulphide]]
+	10523. [[self-inflating bag]]
+	10524. [[self-limiting]]
+	10525. [[sella turcica]]
 	10526. semeiology
-	10527. semen
-	10528. semi-
-	10529. semicircular canals
-	10530. semilunar cartilage
+		1. $n$. see SYMPTOMATOLOGY.
+	10527. [[semen]]
+	10528. [[semi-]]
+	10529. [[semicircular canals]]
+	10530. [[semilunar cartilage]]
 	
-	10531. semilunar valve
-	10532. seminal analysis
-	10533. seminal vesicle
-	10534. seminiferous tubule
-	10535. seminoma
-	10536. semipermeable membrane
-	10537. semiprone
-	10538. Semont liberatory manoeuvre
+	10531. [[semilunar valve]]
+	10532. [[seminal analysis]]
+	10533. [[seminal vesicle]]
+	10534. [[seminiferous tubule]]
+	10535. [[seminoma]]
+	10536. [[semipermeable membrane]]
+	10537. [[semiprone]]
+	10538. [[Semont liberatory manoeuvre]]
 	10539. SEN
-	10540. senescence
+		1. see special educational needs
+	10540. [[senescence]]
 	
-	10541. senile dementia
-	10542. senna
-	10543. sensation
-	10544. sense
-	10545. sense organ
-	10546. sensibility
-	10547. sensitive
-	10548. sensitivity
-	10549. sensitization
-	10550. sensory
+	10541. [[senile dementia]]
+	10542. [[senna]]
+	10543. [[sensation]]
+	10544. [[sense]]
+	10545. [[sense organ]]
+	10546. [[sensibility]]
+	10547. [[sensitive]]
+	10548. [[sensitivity]]
+	10549. [[sensitization]]
+	10550. [[sensory]]
 	
-	10551. sensory cortex
-	10552. sensory deprivation
-	10553. sensory nerve
-	10554. sentinel lymph node
-	10555. separation anxiety
-	10556. sepsis
-	10557. sept-
-	10558. septal defect
+	10551. [[sensory cortex]]
+	10552. [[sensory deprivation]]
+	10553. [[sensory nerve]]
+	10554. [[sentinel lymph node]]
+	10555. [[separation anxiety]]
+	10556. [[sepsis]]
+	10557. [[sept-]]
+	10558. [[septal defect]]
 	10559. septate uterus
-	10560. septic
+		1. see arcuate uterus
+	10560. [[septic]]
 	
 	10561. septicaemia
 	10562. septic arthritis

@@ -8,6 +8,19 @@
 	- Term
 		- Rise time
 - The time interval between the leading and trailing edge of a rectangular pulse is called the [[pulse width]]. The [[pulse height]] is the amplitude of a pulse, usually its maximum to minimum voltage, current, etc., ignoring any short-duration spikes or low-amplitude ripple superimposed on the main pulse. See also RINGING.
+## Source[^2]
+- $n$. a series of pressure waves within an artery caused by contractions of the left ventricle and corresponding with the heart rate (the number of times the heart beats per minute). It is easily detected on such superficial arteries as the radial artery near the wrist and the carotid artery in the neck (see illustration). The average adult pulse rate at rest is 60-80 per minute, but exercise, injury, illness, and emotion may produce much faster rates.
+- ![[Screenshot 2025-08-27 at 9.12.08 PM.png|400]]
+	- Peripheral pulses
+	- Parts
+		- carotid
+		- brachial
+		- radial
+		- femoral
+		- popliteal
+		- posterior tibial
+		- dorsalis pedis
 ## References
 
 [^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

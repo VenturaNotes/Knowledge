@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (PGD) a diagnostic procedure carried out on embryos at the earliest stage of development, before implantation in the uterus. Access to these early embryos requires the in vitro fertilization of egg cells: three days after fertilization one or two cells are aspirated from the six-cell embryo; alternatively, tissue is removed from an embryo at five or six days, when it has reached the blastocyst stage. Isolated cells can then be genetically analysed, allowing the transfer of selected embryos to the mother. One of the major applications of PGD is for the detection (using the FISH technique) of chromosomal abnormalities, especially aneuploidies (e.g. Down's syndrome); the procedure is used mainly in women who have had repeated miscarriages or have failed to achieve pregnancy after several IVF treatment cycles, which could be due to the presence of such abnormalities in the embryo. PGD can also be used to detect defective genes responsible for hereditary disorders (e.g. the commonest form of cystic fibrosis, Huntington's disease) and genes associated with susceptibility to certain cancers. When a defect is detected, genetic counselling is offered.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
