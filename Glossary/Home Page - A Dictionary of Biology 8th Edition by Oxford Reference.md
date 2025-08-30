@@ -2715,7 +2715,7 @@ Reviewed: false
 	2683. inguinal
 	2684. inhalation
 	2685. inheritance
-	2686. inhibin
+	2686. [[inhibin]]
 	2687. inhibition
 	2688. inhibitory postsynaptic potential
 	2689. initial
@@ -3025,7 +3025,7 @@ Reviewed: false
 	2993. ligament
 	2994. ligand
 	2995. ligand-gated ion channel
-	2996. ligase
+	2996. [[ligase]]
 	2997. light-dependent reaction
 	2998. light-harvesting complex
 	2999. light-independent reaction
@@ -3036,7 +3036,7 @@ Reviewed: false
 	3004. limb
 	3005. limbic system
 	3006. liming
-	3007. limiting factor
+	3007. [[limiting factor]]
 	3008. limnology
 	3009. LINE
 	3010. linear energy transfer
