@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (drepanocytosis) a hereditary blood disease that mainly affects people of African ancestry but also occurs in the Mediterranean region and reaches high frequencies in parts of Saudi Arabia and India. It occurs when the sickle-cell gene has been inherited from both parents and is characterized by the production of an abnormal type of haemoglobin $\textendash$ sickle-cell haemoglobin (Hbs) $\textendash$ which precipitates in the red cells when the blood is deprived of oxygen, forming crystals that distort the cells into the characteristic sickle shape: this process is known as sickling. An excess of sickle cells in the circulation results in blockage of small blood vessels, producing episodes of severe pain (a sickle-cell crisis). Sickle cells are rapidly removed from the circulation, leading to anaemia and jaundice. There is no satisfactory treatment; the highest mortality is in childhood but some patients may live to an age of 60-70 years.
+- The carrier condition (sickle-cell trait) occurs when the defective gene is inherited from only one parent. It generally causes no symptoms but confers some protection from malaria, which accounts for the high frequency of the gene in malarious areas. If a general anaesthetic is to be given to a patient with this condition, the anaesthetist should be alerted.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
