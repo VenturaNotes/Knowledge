@@ -13374,302 +13374,356 @@ Reviewed: false
 		1. see arcuate uterus
 	10560. [[septic]]
 	
-	10561. septicaemia
-	10562. septic arthritis
+	10561. [[septicaemia]]
+	10562. [[septic arthritis]]
 	10563. septic shock
-	10564. septostomy
+		1. see shock
+	10564. [[septostomy]]
 	10565. Septrin
-	10566. septum
-	10567. sequela
-	10568. sequestration
-	10569. sequestrectomy
-	10570. sequestrum
+		1. n. see CO-TRIMOXAZOLE.
+	10566. [[septum]]
+	10567. [[sequela]]
+	10568. [[sequestration]]
+	10569. [[sequestrectomy]]
+	10570. [[sequestrum]]
 	
-	10571. ser-
+	10571. [[ser-]]
 	10572. serine
+		1. n. see amino acid
 	10573. SERM
-	10574. sero-negative arthritis
-	10575. seroconvert
-	10576. serofibrinous
-	10577. serology
-	10578. seropus
+		1. see SELECTIVE (O)ESTROGEN RECEPTOR MODULATOR.
+	10574. [[sero-negative arthritis]]
+	10575. [[seroconvert]]
+	10576. [[serofibrinous]]
+	10577. [[serology]]
+	10578. [[seropus]]
 	10579. serosa
-	10580. serositis
+		1. $n$. a mixture of serum and pus, which forms, for example, in infected blisters.
+	10580. [[serositis]]
 	
-	10581. serotherapy
-	10582. serotonin
-	10583. serotype
-	10584. serous
-	10585. serous membrane
-	10586. serpiginous
-	10587. serratus
-	10588. Sertoli cells
-	10589. sertraline
-	10590. serum
+	10581. [[serotherapy]]
+	10582. [[serotonin]]
+	10583. [[serotype]]
+	10584. [[serous]]
+	10585. [[serous membrane]]
+	10586. [[serpiginous]]
+	10587. [[serratus]]
+	10588. [[Sertoli cells]]
+	10589. [[sertraline]]
+	10590. [[serum]]
 	
 	10591. serum hepatitis
-	10592. serum sickness
-	10593. sesamoid bone
-	10594. sessile((of a tumour))
-	10595. sestamibi parathyroid scan((in *nuclear medicine))
-	10596. seton
-	10597. Sever's disease
-	10598. severe chronic upper airway disease
-	10599. severe combined immune deficiency
-	10600. sevoflurane
+		1. see HEPATITIS.
+	10592. [[serum sickness]]
+	10593. [[sesamoid bone]]
+	10594. [[sessile]]
+	10595. [[sestamibi parathyroid scan]]
+	10596. [[seton]]
+	10597. [[Sever's disease]]
+	10598. [[severe chronic upper airway disease]]
+	10599. [[severe combined immune deficiency]]
+	10600. [[sevoflurane]]
 	
-	10601. sex-limited
-	10602. sex-linked
-	10603. sexarche
-	10604. sex chromatin
-	10605. sex chromosome
-	10606. sex hormone
-	10607. sexology
-	10608. sex ratio
+	10601. [[sex-limited]]
+	10602. [[sex-linked]]
+	10603. [[sexarche]]
+	10604. [[sex chromatin]]
+	10605. [[sex chromosome]]
+	10606. [[sex hormone]]
+	10607. [[sexology]]
+	10608. [[sex ratio]]
 	10609. sex reversal on Y
+		1. (SRY) see Y Chromosome
 	10610. sexual abuse
+		1. see child abuse; paedophilia
 	
-	10611. sexual deviation
-	10612. sexually transmitted disease
-	10613. Sézary syndrome
+	10611. [[sexual deviation]]
+	10612. [[sexually transmitted disease]]
+	10613. [[Sézary syndrome]]
 	10614. SGA
-	10615. SGLT-2 inhibitors
+		1. see small for gestational age
+	10615. [[SGLT-2 inhibitors]]
 	10616. SGOT
+		1. (serum glutamic oxaloacetic transaminase) see ASPARTATE AMINOTRANSFERASE.
 	10617. SGPT
+		1. (serum glutamic pyruvic transaminase) see ALANINE AMINOTRANSFERASE.
 	10618. shaking palsy
-	10619. shaping
+		1. an archaic name for Parkinson's disease (see PARKINSONISM).
+	10619. [[shaping]]
 	10620. shared delusion
+		1. see FOLIE À DEUX.
 	
-	10621. sheath
-	10622. Sheehan's syndrome
-	10623. sheltered housing
-	10624. Sheridan-Gardiner test
-	10625. Shigella
-	10626. shigellosis
+	10621. [[sheath]]
+	10622. [[Sheehan's syndrome]]
+	10623. [[sheltered housing]]
+	10624. [[Sheridan-Gardiner test]]
+	10625. [[Shigella]]
+	10626. [[shigellosis]]
 	10627. shingles
-	10628. shock
+		1. $n$. herpes zoster (see HERPES).
+	10628. [[shock]]
 	10629. short-sightedness
-	10630. short-stretch bandage
+		1. $n$. see MYOPIA.
+	10630. [[short-stretch bandage]]
 	
-	10631. short bowel syndrome
-	10632. shoulder
-	10633. shoulder dystocia
-	10634. shoulder girdle
-	10635. shunt
-	10636. shunt nephritis
+	10631. [[short bowel syndrome]]
+	10632. [[shoulder]]
+	10633. [[shoulder dystocia]]
+	10634. [[shoulder girdle]]
+	10635. [[shunt]]
+	10636. [[shunt nephritis]]
 	10637. SIADH
-	10638. sial-
-	10639. sialadenitis
-	10640. sialagogue
+		1. see SYNDROME OF INAPPROPRIATE SECRETION OF ANTIDIURETIC HORMONE.
+	10638. [[sial-]]
+	10639. [[sialadenitis]]
+	10640. [[sialagogue]]
 	
-	10641. sialendoscopy
-	10642. sialic acid
-	10643. sialography
-	10644. sialolith
+	10641. [[sialendoscopy]]
+	10642. [[sialic acid]]
+	10643. [[sialography]]
+	10644. [[sialolith]]
 	10645. sialorrhoea
+		1. $n$. see PTYALISM.
 	10646. Siamese twins
+		1. see conjoined twins
 	10647. sib
-	10648. sibilant
-	10649. sibling
-	10650. sickle-cell disease
+		1. n. see sibling
+	10648. [[sibilant]]
+	10649. [[sibling]]
+	10650. [[sickle-cell disease]]
 	
-	10651. sickle-cell nephropathy
+	10651. [[sickle-cell nephropathy]]
 	10652. SIDE
-	10653. side-effect
-	10654. sidero-
-	10655. sideroblast
-	10656. siderocyte
-	10657. sideropenia
-	10658. siderosis
+		1. see Coffin-Lowry SYndrome.
+	10653. [[side-effect]]
+	10654. [[sidero-]]
+	10655. [[sideroblast]]
+	10656. [[siderocyte]]
+	10657. [[sideropenia]]
+	10658. [[siderosis]]
 	10659. SIDS
-	10660. siemens
+		1. see SUDDEN INFANT DEATH SYNDROME.
+	10660. [[siemens]]
 	
-	10661. sievert
-	10662. sigmoid-
-	10663. sigmoid colectomy
-	10664. sigmoid colon
+	10661. [[sievert]]
+	10662. [[sigmoid-]]
+	10663. [[sigmoid colectomy]]
+	10664. [[sigmoid colon]]
 	10665. sigmoidoscope
-	10666. sigmoidoscopy
-	10667. sign
-	10668. significance((in statistics))
-	10669. sign language
-	10670. sign of Dance
+		1. $n$. see SIGMOIDOSCOPY.
+	10666. [[sigmoidoscopy]]
+	10667. [[sign]]
+	10668. [[significance]]
+	10669. [[sign language]]
+	10670. [[sign of Dance]]
 	
-	10671. sildenafil
-	10672. silicosis
+	10671. [[sildenafil]]
+	10672. [[silicosis]]
 	10673. Silver-Russell syndrome
-	10674. silver nitrate
-	10675. simeticone
-	10676. Simmonds disease
-	10677. Sims's position
-	10678. simulator
+		1. see RUSSELL-SILVER SYNDROME.
+	10674. [[silver nitrate]]
+	10675. [[simeticone]]
+	10676. [[Simmonds disease]]
+	10677. [[Sims's position]]
+	10678. [[simulator]]
 	10679. Simulium
-	10680. simultanagnosia
+		1. n. see black fly
+	10680. [[simultanagnosia]]
 	
-	10681. simvastatin
+	10681. [[simvastatin]]
 	10682. Sinemet
-	10683. sinew
-	10684. singer's nodule
-	10685. single-payer system
+		1. n. see levodopa
+	10683. [[sinew]]
+	10684. [[singer's nodule]]
+	10685. [[single-payer system]]
 	10686. single photon emission computed tomography
-	10687. singular nerve
+		1. see SPECT Scanning
+	10687. [[singular nerve]]
 	10688. singultus
-	10689. sinistr-
-	10690. sino-
+		1. n. see hiccup
+	10689. [[sinistr-]]
+	10690. [[sino-]]
 	
-	10691. sinoatrial node
+	10691. [[sinoatrial node]]
 	10692. sinuplasty
-	10693. sinus
-	10694. sinus arrhythmia
-	10695. sinusitis
-	10696. sinusoid
-	10697. sinus rhythm
-	10698. sinus venosus
-	10699. siphonage
-	10700. Siphunculina
+		1. $n$. see BALLOON SINUPLASTY.
+	10693. [[sinus]]
+	10694. [[sinus arrhythmia]]
+	10695. [[sinusitis]]
+	10696. [[sinusoid]]
+	10697. [[sinus rhythm]]
+	10698. [[sinus venosus]]
+	10699. [[siphonage]]
+	10700. [[Siphunculina]]
 	
 	10701. Sipple's syndrome
-	10702. sirenomelia
-	10703. sirolimus
+		1. see MENS. \[J. H. Sipple (1930- ), US physician]
+	10702. [[sirenomelia]]
+	10703. [[sirolimus]]
 	10704. SIRT
-	10705. Sister Mary Joseph nodule
+		1. selective internal radiation therapy: see RADIOEMBOLIZATION.
+	10705. [[Sister Mary Joseph nodule]]
 	10706. sitagliptin
-	10707. sito-
-	10708. sitz bath
-	10709. SI units
-	10710. six-category intervention analysis
+		1. $n$. see DPP-IV INHIBITORS.
+	10707. [[sito-]]
+	10708. [[sitz bath]]
+	10709. [[SI units]]
+	10710. [[six-category intervention analysis]]
 	
-	10711. Sjögren's syndrome
-	10712. skatole
+	10711. [[Sjögren's syndrome]]
+	10712. [[skatole]]
 	10713. skeletal muscle
-	10714. skeleton
-	10715. skew deviation
-	10716. ski-stick injury
-	10717. skia-
-	10718. skier's thumb
-	10719. skin
-	10720. skin graft
+		1. see striated muscle
+	10714. [[skeleton]]
+	10715. [[skew deviation]]
+	10716. [[ski-stick injury]]
+	10717. [[skia-]]
+	10718. [[skier's thumb]]
+	10719. [[skin]]
+	10720. [[skin graft]]
 	
-	10721. skull
+	10721. [[skull]]
 	10722. slapped cheek syndrome
+		1. see erythema
 	10723. SLE
-	10724. sleep
+		1. systemic lupus erythematosus. See LUPUS ERYTHEMATOSUS.
+	10724. [[sleep]]
 	10725. sleep-walking
-	10726. sleep apnoea
+		1. $n$. see SOMNAMBULISM.
+	10726. [[sleep apnoea]]
 	10727. sleep apnoea syndrome
-	10728. sleep disordered breathing
-	10729. sleeping sickness
-	10730. sleep paralysis
+		1. (SAS) see OBSTRUCTIVE SLEEP APNOEA.
+	10728. [[sleep disordered breathing]]
+	10729. [[sleeping sickness]]
+	10730. [[sleep paralysis]]
 	
-	10731. sling
-	10732. sling procedure
-	10733. slipped capital femoral epiphysis
+	10731. [[sling]]
+	10732. [[sling procedure]]
+	10733. [[slipped capital femoral epiphysis]]
 	10734. slipped disc
-	10735. slippery slope argument
-	10736. slit lamp
-	10737. slough
-	10738. slow virus
+		1. a colloquial term for a herniated intervertebral disc (see PROLAPSED INTERVERTEBRAL DISC).
+	10735. [[slippery slope argument]]
+	10736. [[slit lamp]]
+	10737. [[slough]]
+	10738. [[slow virus]]
 	10739. SLT
+		1. selective laser trabeculoplasty.
 	10740. SMA
+		1. see SPINAL MUSCULAR ATROPHY.
 	
-	10741. small-bowel enema
-	10742. small-bowel meal
-	10743. small-cell lung cancer
-	10744. small for gestational age
-	10745. small intestinal bacterial overgrowth
-	10746. smallpox
-	10747. smear
-	10748. smear layer
-	10749. smegma
-	10750. Smith's fracture
+	10741. [[small-bowel enema]]
+	10742. [[small-bowel meal]]
+	10743. [[small-cell lung cancer]]
+	10744. [[small for gestational age]]
+	10745. [[small intestinal bacterial overgrowth]]
+	10746. [[smallpox]]
+	10747. [[smear]]
+	10748. [[smear layer]]
+	10749. [[smegma]]
+	10750. [[Smith's fracture]]
 	
-	10751. smooth muscle
-	10752. snare
-	10753. sneeze
-	10754. Snellen chart
-	10755. snoring
-	10756. snow blindness
-	10757. SNRI
-	10758. snuffles
-	10759. social anxiety disorder
+	10751. [[smooth muscle]]
+	10752. [[snare]]
+	10753. [[sneeze]]
+	10754. [[Snellen chart]]
+	10755. [[snoring]]
+	10756. [[snow blindness]]
+	10757. [[SNRI]]
+	10758. [[snuffles]]
+	10759. [[social anxiety disorder]]
 	10760. social class
+		1. see National Statistics Socio-economic Classification.
 	
-	10761. social marketing
+	10761. [[social marketing]]
 	10762. social medicine
-	10763. social services
+		1. see PUBLIC HEALTH MEDICINE.
+	10763. [[social services]]
 	10764. social worker
+		1. see social services
 	10765. socio-economic group
-	10766. socket((in anatomy))
-	10767. sodium
-	10768. sodium bicarbonate
+		1. see National Statistics Socio-ECONOMIC Classification.
+	10766. [[socket]]
+	10767. [[sodium]]
+	10768. [[sodium bicarbonate]]
 	10769. sodium channel
-	10770. sodium chloride
+		1. see ION CHANNEL.
+	10770. [[sodium chloride]]
 	
 	10771. sodium cromoglicate
-	10772. sodium fluoride
-	10773. sodium fusidate
-	10774. sodium hydroxide
-	10775. sodium hypochlorite
-	10776. sodium nitrite
-	10777. sodium valproate
+		1. see CROMOGLICATE.
+	10772. [[sodium fluoride]]
+	10773. [[sodium fusidate]]
+	10774. [[sodium hydroxide]]
+	10775. [[sodium hypochlorite]]
+	10776. [[sodium nitrite]]
+	10777. [[sodium valproate]]
 	10778. sodokosis
-	10779. soft sore
-	10780. solarium
+		1. $n$. see RAT-BITE FEVER.
+	10779. [[soft sore]]
+	10780. [[solarium]]
 	
-	10781. solar plexus
-	10782. soleus
-	10783. solifenacin
-	10784. solitary rectal ulcer syndrome
-	10785. soma
-	10786. somat-
-	10787. somatic
-	10788. somatic symptom disorder
-	10789. somatoform disorders
-	10790. somatomedin
+	10781. [[solar plexus]]
+	10782. [[soleus]]
+	10783. [[solifenacin]]
+	10784. [[solitary rectal ulcer syndrome]]
+	10785. [[soma]]
+	10786. [[somat-]]
+	10787. [[somatic]]
+	10788. [[somatic symptom disorder]]
+	10789. [[somatoform disorders]]
+	10790. [[somatomedin]]
 	
-	10791. somatopleure
-	10792. somatostatin
-	10793. somatostatinoma
+	10791. [[somatopleure]]
+	10792. [[somatostatin]]
+	10793. [[somatostatinoma]]
 	10794. somatotrophin
+		1. $n$. see GROWTH HORMONE.
 	10795. somatotype
-	10796. somite
-	10797. somnambulism
-	10798. somnolism
+		1. $n$. see BODY TYPE.
+	10796. [[somite]]
+	10797. [[somnambulism]]
+	10798. [[somnolism]]
 	10799. somnoplasty
+		1. $n$. see PALATOPLASTY.
 	10800. Somogyi effect
+		1. see DAWN PHENOMENON. \[M. Somogyi (1883-1971), US biochemist]
 	
 	10801. sonography
-	10802. sonohysterography
+		1. $n$. see ULTRASONOGRAPHY.
+	10802. [[sonohysterography]]
 	10803. sonoplacentography
+		1. $n$. see PLACENTOGRAPHY.
 	10804. soporific
-	10805. sorafenib
-	10806. sorbitol
-	10807. sordes
-	10808. sore
-	10809. sore throat
-	10810. sotalol
+		1. $n$. see HYPNOTIC.
+	10805. [[sorafenib]]
+	10806. [[sorbitol]]
+	10807. [[sordes]]
+	10808. [[sore]]
+	10809. [[sore throat]]
+	10810. [[sotalol]]
 	
-	10811. Sotos syndrome
-	10812. souffle
-	10813. sound((in surgery))
-	10814. Southern blot analysis
-	10815. Southey's tubes
+	10811. [[Sotos syndrome]]
+	10812. [[souffle]]
+	10813. [[sound]]
+	10814. [[Southern blot analysis]]
+	10815. [[Southey's tubes]]
 	10816. SPA
-	10817. space maintainer
-	10818. spacer
-	10819. Spanish fly
-	10820. sparganosis
+		1. see SPHENOPALATINE ARTERY LIGATION
+	10817. [[space maintainer]]
+	10818. [[spacer]]
+	10819. [[Spanish fly]]
+	10820. [[sparganosis]]
 	
-	10821. sparganum
-	10822. spasm
-	10823. spasmo-
-	10824. spasmodic
-	10825. spasmolytic
-	10826. spasmus nutans
-	10827. spasticity
-	10828. spastic paralysis
-	10829. spatula
-	10830. spatulation
+	10821. [[sparganum]]
+	10822. [[spasm]]
+	10823. [[spasmo-]]
+	10824. [[spasmodic]]
+	10825. [[spasmolytic]]
+	10826. [[spasmus nutans]]
+	10827. [[spasticity]]
+	10828. [[spastic paralysis]]
+	10829. [[spatula]]
+	10830. [[spatulation]]
 	
 	10831. special educational needs
 	10832. special health authority
