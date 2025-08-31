@@ -2,6 +2,11 @@
 - 
 ## Source [^1]
 - The method by which a central bank prevents balance-of-payments surpluses or deficits from affecting the domestic money supply. If there is a surplus in the balance of payments on current and capital account combined, this leads to a rise in the foreign exchange reserves, and an increase in the money supply. If the central bank does not want the money supply to increase, it can prevent this by selling securities so as to sterilize the cash inflow. Similarly, if there is a deficit in the balance of payments on current and capital accounts combined, this leads to a loss of foreign exchange reserves and a shrinkage in the money supply. If the central bank does not want the money supply to fall, it can sterilize the cash outflow by buying securities. The central bank can choose to sterilize some proportion rather than the whole of the monetary effects of changes in foreign exchange reserves.
+## Source[^2]
+- n. 
+- (1) a surgical operation or any other process that induces sterility in men or women. In women, hysterectomy and bilateral oophorectomy (surgical removal of both ovaries) are 100\% effective and permanent. Alternatively, the Fallopian tubes may be removed (see SALPINGECTOMY) or divided and/or ligated. These operations can be performed through the abdomen or the vagina. The modern technique (tubal occlusion) is to occlude (close) permanently the inner (lower) half of the Fallopian tube through a laparoscope. The occluding device is usually a clip (the Hulka-Clemens or Filshie clips) or a small plastic ring (Falope ring); diathermy coagulation carries greater dangers (e.g. bowel burns) and is now little used. A more recent method is the use of a rapid-setting plastic introduced into the tubes through a hysteroscope (see HYSTEROSCOPY). Men are usually sterilized by vasectomy. See also CASTRATION. 
+- (2) the process by which all types of microorganisms (including spores) are destroyed. This is achieved by the use of heat, radiation, chemicals, or filtration. See also AUTOCLAVE.
 ## References
 
 [^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

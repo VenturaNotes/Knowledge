@@ -13725,318 +13725,355 @@ Reviewed: false
 	10829. [[spatula]]
 	10830. [[spatulation]]
 	
-	10831. special educational needs
-	10832. special health authority
-	10833. special hospitals
-	10834. special school((in Britain))
+	10831. [[special educational needs]]
+	10832. [[special health authority]]
+	10833. [[special hospitals]]
+	10834. [[special school]]
 	10835. specialty registrar
-	10836. species
-	10837. specific
-	10838. specific gravity
-	10839. specificity((in screening tests))
-	10840. spectral domain optical coherence tomography
+		1. (in a hospital) see CONSULTANT.
+	10836. [[species]]
+	10837. [[specific]]
+	10838. [[specific gravity]]
+	10839. specificity
+		1. $n$. (in screening tests) see SENSITIVITY.
+	10840. [[spectral domain optical coherence tomography]]
 	
-	10841. spectrograph
-	10842. spectrometer
-	10843. spectrophotometer
-	10844. spectroscope
-	10845. SPECT scanning((in nuclear medicine))
-	10846. specular reflection((in *ultrasonics))
-	10847. speculum
-	10848. speech and language therapy
-	10849. spell
+	10841. [[spectrograph]]
+	10842. [[spectrometer]]
+	10843. [[spectrophotometer]]
+	10844. [[spectroscope]]
+	10845. [[SPECT scanning]]
+	10846. [[specular reflection]]
+	10847. [[speculum]]
+	10848. [[speech and language therapy]]
+	10849. [[spell]]
 	10850. sperm
+		1. n. see SPERMATOZOON.
 	
 	10851. sperm-
-	10852. spermat-
-	10853. spermatic artery
-	10854. spermatic cord
-	10855. spermatid
-	10856. spermatocele
-	10857. spermatocyte
-	10858. spermatogenesis
-	10859. spermatogonium
-	10860. spermatorrhoea
+		1. (spermi(o)-, spermo-) combining form denoting sperm or semen.
+	10852. [[spermat-]]
+	10853. [[spermatic artery]]
+	10854. [[spermatic cord]]
+	10855. [[spermatid]]
+	10856. [[spermatocele]]
+	10857. [[spermatocyte]]
+	10858. [[spermatogenesis]]
+	10859. [[spermatogonium]]
+	10860. [[spermatorrhoea]]
 	
-	10861. spermatozoon
-	10862. spermaturia
-	10863. sperm bank
+	10861. [[spermatozoon]]
+	10862. [[spermaturia]]
+	10863. [[sperm bank]]
 	10864. sperm count
-	10865. spermicide
-	10866. spermiogenesis
-	10867. spheno-
-	10868. sphenoid bone
-	10869. sphenopalatine artery ligation
-	10870. spherocyte
+		1. see seminal analysis
+	10865. [[spermicide]]
+	10866. [[spermiogenesis]]
+	10867. [[spheno-]]
+	10868. [[sphenoid bone]]
+	10869. [[sphenopalatine artery ligation]]
+	10870. [[spherocyte]]
 	
-	10871. spherocytosis
-	10872. sphincter
+	10871. [[spherocytosis]]
+	10872. [[sphincter]]
 	10873. sphincter-
-	10874. sphincterectomy
-	10875. sphincterotomy
-	10876. sphingolipid
-	10877. sphingosine
+		1. combining form denoting a sphincter.
+	10874. [[sphincterectomy]]
+	10875. [[sphincterotomy]]
+	10876. [[sphingolipid]]
+	10877. [[sphingosine]]
 	10878. sphygmo-
-	10879. sphygmocardiograph
-	10880. sphygmograph
+		1. combining form denoting the pulse.
+	10879. [[sphygmocardiograph]]
+	10880. [[sphygmograph]]
 	
-	10881. sphygmomanometer
-	10882. sphygmophone
-	10883. sphygmoscope
-	10884. spica
-	10885. spicule
-	10886. spider naevus
-	10887. spigelian hernia
-	10888. spina bifida
-	10889. spina bifida occulta
+	10881. [[sphygmomanometer]]
+	10882. [[sphygmophone]]
+	10883. [[sphygmoscope]]
+	10884. [[spica]]
+	10885. [[spicule]]
+	10886. [[spider naevus]]
+	10887. [[spigelian hernia]]
+	10888. [[spina bifida]]
+	10889. [[spina bifida occulta]]
 	10890. spinal accessory nerve
+		1. see accessory nerve
 	
-	10891. spinal anaesthesia
+	10891. [[spinal anaesthesia]]
 	10892. spinal column
-	10893. spinal cord
-	10894. spinal muscular atrophy
-	10895. spinal nerves
-	10896. spinal shock
-	10897. spindle
-	10898. spine
-	10899. spino-
-	10900. spinocerebellar degeneration
+		1. see backbone
+	10893. [[spinal cord]]
+	10894. [[spinal muscular atrophy]]
+	10895. [[spinal nerves]]
+	10896. [[spinal shock]]
+	10897. [[spindle]]
+	10898. [[spine]]
+	10899. [[spino-]]
+	10900. [[spinocerebellar degeneration]]
 	
-	10901. spiral bandage
-	10902. spiral CT scanning
+	10901. [[spiral bandage]]
+	10902. [[spiral CT scanning]]
 	10903. spiral organ
-	10904. Spirillum
-	10905. spiro-
-	10906. spirochaete
-	10907. spirograph
-	10908. spirometer
-	10909. spironolactone
-	10910. Spitz-Holter valve
+		1. see organ of corti
+	10904. [[Spirillum]]
+	10905. [[spiro-]]
+	10906. [[spirochaete]]
+	10907. [[spirograph]]
+	10908. [[spirometer]]
+	10909. [[spironolactone]]
+	10910. [[Spitz-Holter valve]]
 	
-	10911. splanch-
-	10912. splanchnic
-	10913. splanchnic nerves
-	10914. splanchnocranium
-	10915. splanchnopleure
-	10916. spleen
-	10917. splen-
-	10918. splenectomy
-	10919. splenitis
-	10920. splenium
+	10911. [[splanch-]]
+	10912. [[splanchnic]]
+	10913. [[splanchnic nerves]]
+	10914. [[splanchnocranium]]
+	10915. [[splanchnopleure]]
+	10916. [[spleen]]
+	10917. [[splen-]]
+	10918. [[splenectomy]]
+	10919. [[splenitis]]
+	10920. [[splenium]]
 	
-	10921. splenomegaly
-	10922. splenorenal anastomosis
-	10923. splenunculus
-	10924. splint
-	10925. splinter haemorrhage
-	10926. split-skin graft
-	10927. splitting
-	10928. spondyl-
-	10929. spondylitis
-	10930. spondyloarthropathy
+	10921. [[splenomegaly]]
+	10922. [[splenorenal anastomosis]]
+	10923. [[splenunculus]]
+	10924. [[splint]]
+	10925. [[splinter haemorrhage]]
+	10926. [[split-skin graft]]
+	10927. [[splitting]]
+	10928. [[spondyl-]]
+	10929. [[spondylitis]]
+	10930. [[spondyloarthropathy]]
 	
-	10931. spondylolisthesis
-	10932. spondylolysis
-	10933. spondylosis
-	10934. spondylosyndesis
-	10935. spongiform encephalopathy
-	10936. spongioblast
-	10937. spontaneous
-	10938. spontaneous bacterial peritonitis
+	10931. [[spondylolisthesis]]
+	10932. [[spondylolysis]]
+	10933. [[spondylosis]]
+	10934. [[spondylosyndesis]]
+	10935. [[spongiform encephalopathy]]
+	10936. [[spongioblast]]
+	10937. [[spontaneous]]
+	10938. [[spontaneous bacterial peritonitis]]
 	10939. spontaneous intracranial hypotension
-	10940. sporadic
+		1. see INTRACRANIAL HYPOTENSION HEADACHE.
+	10940. [[sporadic]]
 	
-	10941. spore
-	10942. sporicide
-	10943. sporocyst
-	10944. sporogony
-	10945. sporotrichosis
-	10946. Sporozoa
-	10947. sporozoite
-	10948. sports injury
-	10949. sports medicine
+	10941. [[spore]]
+	10942. [[sporicide]]
+	10943. [[sporocyst]]
+	10944. [[sporogony]]
+	10945. [[sporotrichosis]]
+	10946. [[Sporozoa]]
+	10947. [[sporozoite]]
+	10948. [[sports injury]]
+	10949. [[sports medicine]]
 	10950. spotted fever
+		1. see MENINGitis; RoCKY MOUNTAIN SPOTTED FEVER; TYPHUS.
 	
-	10951. sprain
-	10952. Sprengel's deformity
-	10953. sprue
-	10954. spud
-	10955. spur
-	10956. sputum
-	10957. squalene
-	10958. squama
-	10959. squamo-
+	10951. [[sprain]]
+	10952. [[Sprengel's deformity]]
+	10953. [[sprue]]
+	10954. [[spud]]
+	10955. [[spur]]
+	10956. [[sputum]]
+	10957. [[squalene]]
+	10958. [[squama]]
+	10959. [[squamo-]]
 	10960. squamous bone
+		1. see temporal bone
 	
-	10961. squamous cell carcinoma
+	10961. [[squamous cell carcinoma]]
 	10962. squamous epithelium
+		1. see EPITHELIUM.
 	10963. squint
+		1. $n$. see STRABISMUS.
 	10964. SRY
+		1. sex reversal on Y. See Y CHROMOSOME.
 	10965. SSG
+		1. see SPLIT-SKIN GRAFT.
 	10966. SSPE
-	10967. SSRI
-	10968. stadium
-	10969. stage((in oncology))
-	10970. staghorn calculus
+		1. see SUBACUTE SCLEROSING PANENCEPHALITIS.
+	10967. [[SSRI]]
+	10968. [[stadium]]
+	10969. [[stage]]
+	10970. [[staghorn calculus]]
 	
 	10971. stagnant loop syndrome
-	10972. stain
-	10973. stammering
-	10974. standard deviation((in statistics))
-	10975. standard error of the mean
-	10976. standardized mortality ratio
-	10977. standardized rates
-	10978. standard population
+		1. see blind loop syndrome
+	10972. [[stain]]
+	10973. [[stammering]]
+	10974. [[standard deviation]]
+	10975. [[standard error of the mean]]
+	10976. [[standardized mortality ratio]]
+	10977. [[standardized rates]]
+	10978. [[standard population]]
 	10979. St Anthony's fire
-	10980. stapedectomy
+		1. an old colloquial name for the inflammation of the skin associated with ergot poisoning. See ERGOTISM.
+	10980. [[stapedectomy]]
 	
-	10981. stapedial reflex
-	10982. stapes
+	10981. [[stapedial reflex]]
+	10982. [[stapes]]
 	10983. staphylectomy
-	10984. staphylococcal scalded skin syndrome
-	10985. Staphylococcus
-	10986. staphyloma
-	10987. staphylorrhaphy
-	10988. staple((in surgery))
-	10989. starch
-	10990. Starling's law
+		1. n. see uvulectomy
+	10984. [[staphylococcal scalded skin syndrome]]
+	10985. [[Staphylococcus]]
+	10986. [[staphyloma]]
+	10987. [[staphylorrhaphy]]
+	10988. [[staple]]
+	10989. [[starch]]
+	10990. [[Starling's law]]
 	
 	10991. startle reflex
+		1. see moro reflex
 	10992. starvation
-	10993. stasis
-	10994. -stasis
-	10995. statementing
-	10996. statement of fitness for work
-	10997. static reflex
-	10998. statin
-	10999. status asthmaticus
-	11000. status epilepticus
+		1. n. see malnutrition
+	10993. [[stasis]]
+	10994. [[-stasis]]
+	10995. [[statementing]]
+	10996. [[statement of fitness for work]]
+	10997. [[static reflex]]
+	10998. [[statin]]
+	10999. [[status asthmaticus]]
+	11000. [[status epilepticus]]
 	
-	11001. status lymphaticus
-	11002. Statutory Sick Pay
+	11001. [[status lymphaticus]]
+	11002. [[Statutory Sick Pay]]
 	11003. STD
+		1. see SEXUALLY TRANSMITTED DISEASE.
 	11004. steapsin
+		1. $n$. see LIPASE.
 	11005. stearic acid
-	11006. steat-
-	11007. steatoma
-	11008. steatopygia
-	11009. steatorrhoea
-	11010. steatosis
+		1. see FATTY ACID.
+	11006. [[steat-]]
+	11007. [[steatoma]]
+	11008. [[steatopygia]]
+	11009. [[steatorrhoea]]
+	11010. [[steatosis]]
 	
 	11011. Steele-Richardson-Olszewski syndrome
+		1. see PROGRESSIVE SUPRANUCLEAR PALSY. \[J. C. Steele and J. C. Richardson (20th century), Canadian neurologists; J. Olszewski (1913-64), Polish-born Canadian neuropathologist]
 	11012. Stein-Leventhal syndrome
-	11013. stellate fracture
-	11014. stellate ganglion
-	11015. Stellwag's sign
-	11016. stem cell
+		1. see POLYCYSTIC OVARY SYNDROME. \[I. F. Stein and M. L. Leventhal (20th century), U.S. gynaecologists]
+	11013. [[stellate fracture]]
+	11014. [[stellate ganglion]]
+	11015. [[Stellwag's sign]]
+	11016. [[stem cell]]
 	11017. STEMI
-	11018. Stemmer's sign
-	11019. steno-
-	11020. stenopaeic((in ophthalmology))
+		1. S-T elevation myocardial infarction.
+	11018. [[Stemmer's sign]]
+	11019. [[steno-]]
+	11020. [[stenopaeic]]
 	
-	11021. stenosis
-	11022. stenostomia
-	11023. Stensen's duct
-	11024. stent
-	11025. stepping reflex
-	11026. sterco-
-	11027. stercobilin
-	11028. stercolith
-	11029. stereognosis
-	11030. stereoisomers
+	11021. [[stenosis]]
+	11022. [[stenostomia]]
+	11023. [[Stensen's duct]]
+	11024. [[stent]]
+	11025. [[stepping reflex]]
+	11026. [[sterco-]]
+	11027. [[stercobilin]]
+	11028. [[stercolith]]
+	11029. [[stereognosis]]
+	11030. [[stereoisomers]]
 	
 	11031. stereopsis
-	11032. stereoscopic vision
-	11033. stereotactic localization
-	11034. stereotaxy
-	11035. stereotypy
-	11036. sterile
-	11037. sterility
-	11038. sterilization
-	11039. stern-
+		1. $n$. see STEREOSCOPIC VISION.
+	11032. [[stereoscopic vision]]
+	11033. [[stereotactic localization]]
+	11034. [[stereotaxy]]
+	11035. [[stereotypy]]
+	11036. [[sterile]]
+	11037. [[sterility]]
+	11038. [[sterilization]]
+	11039. [[stern-]]
 	11040. Sternberg-Reed cell
+		1. see Reed-Sternberg Cell.
 	
-	11041. sternebra
+	11041. [[sternebra]]
 	11042. sternocleidomastoid muscle
-	11043. sternohyoid
-	11044. sternomastoid muscle
-	11045. sternomastoid tumour
-	11046. sternotomy
-	11047. sternum
-	11048. steroid
-	11049. steroid card
-	11050. sterol
+		1. see STERNOMASTOID MUSCLE.
+	11043. [[sternohyoid]]
+	11044. [[sternomastoid muscle]]
+	11045. [[sternomastoid tumor]]
+	11046. [[sternotomy]]
+	11047. [[sternum]]
+	11048. [[steroid]]
+	11049. [[steroid card]]
+	11050. [[sterol]]
 	
-	11051. stertor
-	11052. steth-
-	11053. stethoscope
-	11054. stevia
-	11055. sthenia
-	11056. stigma
-	11057. stilet
-	11058. Still's disease
-	11059. stillbirth
-	11060. stimulant
+	11051. [[stertor]]
+	11052. [[steth-]]
+	11053. [[stethoscope]]
+	11054. [[stevia]]
+	11055. [[sthenia]]
+	11056. [[stigma]]
+	11057. [[stilet]]
+	11058. [[Still's disease]]
+	11059. [[stillbirth]]
+	11060. [[stimulant]]
 	
-	11061. stimulator
-	11062. stimulus
-	11063. stippling
-	11064. stirrup((in anatomy))
-	11065. stitch
-	11066. St Mark's solution
+	11061. [[stimulator]]
+	11062. [[stimulus]]
+	11063. [[stippling]]
+	11064. stirrup
+		1. $n$. (in anatomy) see STAPES.
+	11065. [[stitch]]
+	11066. [[St Mark's solution]]
 	11067. stock culture
-	11068. Stokes-Adams syndrome
-	11069. stoma
-	11070. stomach
+		1. see culture
+	11068. [[Stokes-Adams syndrome]]
+	11069. [[stoma]]
+	11070. [[stomach]]
 	
-	11071. stomach stapling
-	11072. stomat-
-	11073. stomatitis
-	11074. stomatology
-	11075. stomodeum
-	11076. -stomy
+	11071. [[stomach stapling]]
+	11072. [[stomat-]]
+	11073. [[stomatitis]]
+	11074. [[stomatology]]
+	11075. [[stomodeum]]
+	11076. [[-stomy]]
 	11077. stone
-	11078. stool
-	11079. STOP-Bang
-	11080. stop needle
+		1. n. see calculus
+	11078. [[stool]]
+	11079. [[STOP-Bang]]
+	11080. [[stop needle]]
 	
-	11081. strabismus
-	11082. strain
-	11083. strain gauge
-	11084. strangulated
-	11085. strangulation
-	11086. strangury
-	11087. Strassman procedure
-	11088. strategic health authority
-	11089. stratum
+	11081. [[strabismus]]
+	11082. [[strain]]
+	11083. [[strain gauge]]
+	11084. [[strangulated]]
+	11085. [[strangulation]]
+	11086. [[strangury]]
+	11087. [[Strassman procedure]]
+	11088. [[strategic health authority]]
+	11089. [[stratum]]
 	11090. strawberry mark
+		1. (strawberry naevus) see NAEVUS.
 	
-	11091. streak((in anatomy))
-	11092. Street names for illicit drugs
-	11093. Streptobacillus
-	11094. streptococcal toxic shock syndrome
-	11095. Streptococcus
-	11096. streptodornase
-	11097. streptokinase
-	11098. streptolysin
-	11099. Streptomyces
-	11100. streptomycin
+	11091. [[streak]]
+	11092. [[Street names for illicit drugs]]
+	11093. [[Streptobacillus]]
+	11094. [[streptococcal toxic shock syndrome]]
+	11095. [[Streptococcus]]
+	11096. [[streptodornase]]
+	11097. [[streptokinase]]
+	11098. [[streptolysin]]
+	11099. [[Streptomyces]]
+	11100. [[streptomycin]]
 	
-	11101. stress
-	11102. stress fracture
+	11101. [[stress]]
+	11102. [[stress fracture]]
 	11103. stress incontinence
-	11104. stress test
-	11105. stress ulcers
-	11106. stretch receptor
-	11107. stretch reflex
-	11108. stria
-	11109. striated muscle
-	11110. stricture
+		1. see INCONTINENCE.
+	11104. [[stress test]]
+	11105. [[stress ulcers]]
+	11106. [[stretch receptor]]
+	11107. [[stretch reflex]]
+	11108. [[stria]]
+	11109. [[striated muscle]]
+	11110. [[stricture]]
 	
-	11111. stricturoplasty
-	11112. stridor
-	11113. strobila
-	11114. stroke
+	11111. [[stricturoplasty]]
+	11112. [[stridor]]
+	11113. [[strobila]]
+	11114. [[stroke]]
 	11115. stroke volume
 	11116. stroma
 	11117. Strongyloides
