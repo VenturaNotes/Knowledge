@@ -131,8 +131,11 @@ class TCPClient {
 - Given another physical machine or virtual machine, you can verify the code works across a network provided you change the name or IP address of the server in the client from `localhost` to that of the server
 - Doesn't quite illustrate TCP's [[bytestream]] abstraction. Hidden underneath the `readLine` method.
 	- Python version incomplete because the `read` method assumes everything sent by other side has been received and read
+## Source[^4]
+- Trade name. a solution of halogenated phenols: an effective antiseptic for minor skin injuries and irritations. It may also be used as a gargle for colds and sore throats.
 ## References
 
 [^1]: [[Home Page - Computer Networking A Top-Down Approach 8th Edition by James F. Kurose and Keith W. Ross#1 1 What is the Internet]]
 [^2]: ChatGPT
 [^3]: [README: Getting Started with TCP](zotero://open-pdf/library/items/Z39YA2G3?page=1&annotation=8KH2BLT2)
+[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
