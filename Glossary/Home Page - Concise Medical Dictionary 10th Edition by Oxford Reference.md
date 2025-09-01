@@ -14074,954 +14074,1106 @@ Reviewed: false
 	11112. [[stridor]]
 	11113. [[strobila]]
 	11114. [[stroke]]
-	11115. stroke volume
-	11116. stroma
-	11117. Strongyloides
-	11118. strongyloidiasis
-	11119. strontium
-	11120. struma
+	11115. [[stroke volume]]
+	11116. [[stroma]]
+	11117. [[Strongyloides]]
+	11118. [[strongyloidiasis]]
+	11119. [[strontium]]
+	11120. [[struma]]
 	
-	11121. struma ovarii
-	11122. strychnine
-	11123. Student's t test
+	11121. [[struma ovarii]]
+	11122. [[strychnine]]
+	11123. Student's test
+		1. see SIGNIFICANCE. \[Pseudonym of W. S. Gosset (1876-1937), British statistician]
 	11124. Studer pouch
-	11125. stupe
-	11126. stupor
+		1. see CYSTECTOMY.
+	11125. [[stupe]]
+	11126. [[stupor]]
 	11127. Sturge-Weber syndrome
+		1. see angioma. \[W. A. Sturge (1850-1919) and F. P. Weber (1863-1962), British physicians]
 	11128. stuttering
+		1. n. se stammering
 	11129. St Vitus' dance
-	11130. Stycar tests
+		1. an archaic name for Sydenham's chorea
+	11130. [[Stycar tests]]
 	
-	11131. stye
+	11131. [[stye]]
 	11132. stylet
-	11133. stylo-
-	11134. styloglossus
-	11135. stylohyoid
-	11136. styloid process
-	11137. stylus
+		1. n. see stilet
+	11133. [[stylo-]]
+	11134. [[styloglossus]]
+	11135. [[stylohyoid]]
+	11136. [[styloid process]]
+	11137. [[stylus]]
 	11138. styptic
-	11139. sub-
-	11140. subacute
+		1. $n$. see HAEMOSTATIC.
+	11139. [[sub-]]
+	11140. [[subacute]]
 	
-	11141. subacute combined degeneration of the cord
-	11142. subacute sclerosing panencephalitis
-	11143. subaponeurotic haemorrhage
-	11144. subarachnoid haemorrhage
-	11145. subarachnoid space
-	11146. subclavian artery
-	11147. subclavian steal syndrome
-	11148. subclinical
-	11149. subconscious
-	11150. subcutaneous
+	11141. [[subacute combined degeneration of the cord]]
+	11142. [[subacute sclerosing panencephalitis]]
+	11143. [[subaponeurotic haemorrhage]]
+	11144. [[subarachnoid haemorrhage]]
+	11145. [[subarachnoid space]]
+	11146. [[subclavian artery]]
+	11147. [[subclavian steal syndrome]]
+	11148. [[subclinical]]
+	11149. [[subconscious]]
+	11150. [[subcutaneous]]
 	
-	11151. subdural
-	11152. subgingival
-	11153. subglottis
-	11154. subintimal
-	11155. subinvolution
-	11156. sublimation
-	11157. subliminal
-	11158. sublingual
-	11159. sublingual gland
-	11160. subluxation
+	11151. [[subdural]]
+	11152. [[subgingival]]
+	11153. [[subglottis]]
+	11154. [[subintimal]]
+	11155. [[subinvolution]]
+	11156. [[sublimation]]
+	11157. [[subliminal]]
+	11158. [[sublingual]]
+	11159. [[sublingual gland]]
+	11160. [[subluxation]]
 	
-	11161. submandibular gland
+	11161. [[submandibular gland]]
 	11162. submaxillary gland
-	11163. submentovertical
-	11164. submucosa
-	11165. subphrenic abscess
-	11166. substance misuse
-	11167. substituted judgment
-	11168. substitution
-	11169. substitution therapy
-	11170. substrate
+		1. see SUBMANDIBULAR GLAND.
+	11163. [[submentovertical]]
+	11164. [[submucosa]]
+	11165. [[subphrenic abscess]]
+	11166. [[substance misuse]]
+	11167. [[substituted judgment]]
+	11168. [[substitution]]
+	11169. [[substitution therapy]]
+	11170. [[substrate]]
 	
-	11171. subsultus
-	11172. subtertian fever
-	11173. subthalamic nucleus
-	11174. subtotal
-	11175. subzonal insemination
-	11176. succus
-	11177. succus entericus
-	11178. succussion
-	11179. sucralfate
-	11180. sucrase
+	11171. [[subsultus]]
+	11172. [[subtertian fever]]
+	11173. [[subthalamic nucleus]]
+	11174. [[subtotal]]
+	11175. [[subzonal insemination]]
+	11176. [[succus]]
+	11177. [[succus entericus]]
+	11178. [[succussion]]
+	11179. [[sucralfate]]
+	11180. [[sucrase]]
 	
-	11181. sucrose
-	11182. suction
-	11183. Sudan stains
-	11184. sudden infant death syndrome
-	11185. sudden unexpected death in epilepsy
+	11181. [[sucrose]]
+	11182. [[suction]]
+	11183. [[Sudan stains]]
+	11184. [[sudden infant death syndrome]]
+	11185. [[sudden unexpected death in epilepsy]]
 	11186. Sudek's atrophy
+		1. see COMPLEX REGIONAL PAIN SYNDROME. \[P. H. M. Sudek (1866-1938), German surgeon]
 	11187. sudor
+		1. n. see sweat
 	11188. sudorific
-	11189. suffocation
-	11190. suffusion
+		1. $n$. see DIAPHORETIC.
+	11189. [[suffocation]]
+	11190. [[suffusion]]
 	
-	11191. sugar
-	11192. suggestion((in psychology))
-	11193. suicide
-	11194. sulcus
-	11195. sulfadiazine
+	11191. [[sugar]]
+	11192. [[suggestion]]
+	11193. [[suicide]]
+	11194. [[sulcus]]
+	11195. [[sulfadiazine]]
 	11196. sulfamethoxazole
-	11197. sulfasalazine
-	11198. sulfinpyrazone
+		1. (sulphamethoxazole) n. see CO-TRIMOXAZOLE; SULPHONAMIDE.
+	11197. [[sulfasalazine]]
+	11198. [[sulfinpyrazone]]
 	11199. sulpha drug
-	11200. sulphonamide
+		1. see SULPHONAMIDE.
+	11200. [[sulphonamide]]
 	
-	11201. sulphone
-	11202. sulphonylurea
-	11203. sulphur
-	11204. sulphuric acid
-	11205. sumatriptan
-	11206. sunburn
-	11207. sunitinib
+	11201. [[sulphone]]
+	11202. [[sulphonylurea]]
+	11203. [[sulphur]]
+	11204. [[sulphuric acid]]
+	11205. [[sumatriptan]]
+	11206. [[sunburn]]
+	11207. [[sunitinib]]
 	11208. sunstroke
-	11209. super-
-	11210. superciliary
+		1. n. see heatstroke
+	11209. [[super-]]
+	11210. [[superciliary]]
 	
-	11211. superego((in psychoanalysis))
-	11212. supererogation((in ethics))
-	11213. superfecundation
-	11214. superfetation
-	11215. superficial((in anatomy))
-	11216. superinfection
-	11217. superior((in anatomy))
-	11218. superior canal dehiscence syndrome
-	11219. supernumerary((in dentistry))
-	11220. superovulation
+	11211. [[superego]]
+	11212. [[supererogation]]
+	11213. [[superfecundation]]
+	11214. [[superfetation]]
+	11215. [[superficial]]
+	11216. [[superinfection]]
+	11217. [[superior]]
+	11218. [[superior canal dehiscence syndrome]]
+	11219. [[supernumerary]]
+	11220. [[superovulation]]
 	
-	11221. supination
-	11222. supinator
-	11223. supine
+	11221. [[supination]]
+	11222. [[supinator]]
+	11223. [[supine]]
 	11224. supine hypotension
-	11225. supportive((of treatment))
-	11226. suppository
-	11227. suppression
-	11228. suppressor gene
-	11229. suppressor T cell
-	11230. suppuration
+		1. see AORTOCAVAL COMPRESSION.
+	11225. [[supportive]]
+	11226. [[suppository]]
+	11227. [[suppression]]
+	11228. [[suppressor gene]]
+	11229. [[suppressor T cell]]
+	11230. [[suppuration]]
 	
-	11231. supra-
-	11232. supragingival
-	11233. supraglottis
-	11234. supraorbital
-	11235. supraorbital reflex
-	11236. suprapubic catheter
+	11231. [[supra-]]
+	11232. [[supragingival]]
+	11233. [[supraglottis]]
+	11234. [[supraorbital]]
+	11235. [[supraorbital reflex]]
+	11236. [[suprapubic catheter]]
 	11237. supraregional specialty
+		1. see CATCHMENT AREA.
 	11238. suprarenal glands
-	11239. supraventricular tachycardia
-	11240. supravital staining
+		1. see ADRENAL GLANDS.
+	11239. [[supraventricular tachycardia]]
+	11240. [[supravital staining]]
 	
 	11241. Sure Start Children's Centre
-	11242. surfactant
-	11243. surgeon
-	11244. surgery
+		1. see CHILDREN'S CENTRE.
+	11242. [[surfactant]]
+	11243. [[surgeon]]
+	11244. [[surgery]]
 	11245. surgical emphysema
+		1. see EMPHYSEMA.
 	11246. surgical navigation
-	11247. surgical neck
-	11248. surgical spirit
+		1. see COMPUTER-ASSISTED SURGERY.
+	11247. [[surgical neck]]
+	11248. [[surgical spirit]]
 	11249. surrogate decision
-	11250. surrogate mother
+		1. see proxy decision
+	11250. [[surrogate mother]]
 	
-	11251. susceptibility
-	11252. suspensory bandage
-	11253. suspensory ligament
-	11254. sustentaculum
+	11251. [[susceptibility]]
+	11252. [[suspensory bandage]]
+	11253. [[suspensory ligament]]
+	11254. [[sustentaculum]]
 	11255. Sutent
-	11256. suture
-	11257. suxamethonium
+		1. $n$. see SUNITINIB.
+	11256. [[suture]]
+	11257. [[suxamethonium]]
 	11258. Suzi
+		1. $n$. see SUBZONAL INSEMINATION.
 	11259. SVT
-	11260. swab
+		1. see SUPRAVENTRICULAR TACHYCARDIA.
+	11260. [[swab]]
 	
-	11261. swallowing
-	11262. Swan-Ganz catheter
-	11263. sweat
-	11264. sweat gland
-	11265. swine influenza
-	11266. sycosis
-	11267. Sydenham's chorea
+	11261. [[swallowing]]
+	11262. [[Swan-Ganz catheter]]
+	11263. [[sweat]]
+	11264. [[sweat gland]]
+	11265. [[swine influenza]]
+	11266. [[sycosis]]
+	11267. [[Sydenham's chorea]]
 	11268. Symbicort
-	11269. symbiosis
-	11270. symblepharon
+		1. $n$. see BUDESONIDE.
+	11269. [[symbiosis]]
+	11270. [[symblepharon]]
 	
-	11271. symbolism((in psychology))
+	11271. [[symbolism]]
 	11272. symmelia
-	11273. symmetry((in anatomy))
-	11274. sympathectomy
-	11275. sympathetic nervous system
-	11276. sympathin
-	11277. sympathoblast
-	11278. sympatholytic
-	11279. sympathomimetic
-	11280. sympathy((in physiology))
+		1. $n$. see SIRENOMELIA.
+	11273. [[symmetry]]
+	11274. [[sympathectomy]]
+	11275. [[sympathetic nervous system]]
+	11276. [[sympathin]]
+	11277. [[sympathoblast]]
+	11278. [[sympatholytic]]
+	11279. [[sympathomimetic]]
+	11280. [[sympathy]]
 	
-	11281. symphysiotomy
-	11282. symphysis
+	11281. [[symphysiotomy]]
+	11282. [[symphysis]]
 	11283. symphysis-fundal height
-	11284. symphysis pubis dysfunction
+		1. (SFH) see fundal height
+	11284. [[symphysis pubis dysfunction]]
 	11285. sympodia
-	11286. symptom
-	11287. symptomatology
-	11288. syn-
-	11289. Synacthen tests
-	11290. synaesthesia
+		1. $n$. see SIRENOMELIA.
+	11286. [[symptom]]
+	11287. [[symptomatology]]
+	11288. [[syn-]]
+	11289. [[Synacthen tests]]
+	11290. [[synaesthesia]]
 	
 	11291. synalgia
-	11292. synapse
-	11293. synarthrosis
-	11294. synchilia
-	11295. synchondrosis
+		1. n. see referred pain
+	11292. [[synapse]]
+	11293. [[synarthrosis]]
+	11294. [[synchilia]]
+	11295. [[synchondrosis]]
 	11296. synchronized cardioversion
-	11297. synchysis scintillans
-	11298. syncope
+		1. see CARDIOVERSION.
+	11297. [[synchysis scintillans]]
+	11298. [[syncope]]
 	11299. syncytiotrophoblast
-	11300. syncytium
+		1. $n$. see TROPHOBLAST.
+	11300. [[syncytium]]
 	
-	11301. syndactyly
-	11302. syndesm-
-	11303. syndesmology
-	11304. syndesmophyte
-	11305. syndesmosis
-	11306. syndrome
-	11307. syndrome of inappropriate secretion of antidiuretic hormone
+	11301. [[syndactyly]]
+	11302. [[syndesm-]]
+	11303. [[syndesmology]]
+	11304. [[syndesmophyte]]
+	11305. [[syndesmosis]]
+	11306. [[syndrome]]
+	11307. [[syndrome of inappropriate secretion of antidiuretic hormone]]
 	11308. syndrome X
-	11309. synechia
-	11310. synechialysis
+		1. see METABOLIC SYNDROME.
+	11309. [[synechia]]
+	11310. [[synechialysis]]
 	
-	11311. syneresis
-	11312. synergist
-	11313. synergistic gangrene
-	11314. syngeneic
-	11315. synkinesis
+	11311. [[syneresis]]
+	11312. [[synergist]]
+	11313. [[synergistic gangrene]]
+	11314. [[syngeneic]]
+	11315. [[synkinesis]]
 	11316. synoptophore
-	11317. synostosis
-	11318. synovectomy
-	11319. synovia
+		1. $n$. see AMBLYOSCOPE.
+	11317. [[synostosis]]
+	11318. [[synovectomy]]
+	11319. [[synovia]]
 	11320. synovial joint
+		1. see DIARTHROSIS.
 	
-	11321. synovial membrane
-	11322. synovioma
-	11323. synovitis
+	11321. [[synovial membrane]]
+	11322. [[synovioma]]
+	11323. [[synovitis]]
 	11324. synovium
+		1. $n$. see SYNOVIAL MEMBRANE.
 	11325. Syntometrine
-	11326. syphilide
-	11327. syphilis
-	11328. syring-
-	11329. syringe
+		1. $n$. see ERGOMETRINE.
+	11326. [[syphilide]]
+	11327. [[syphilis]]
+	11328. [[syring-]]
+	11329. [[syringe]]
 	11330. syringobulbia
+		1. $n$. see SYRINGOMYELIA.
 	
-	11331. syringoma
-	11332. syringomyelia
-	11333. system((in anatomy))
-	11334. systemic
-	11335. systemic circulation
+	11331. [[syringoma]]
+	11332. [[syringomyelia]]
+	11333. [[system]]
+	11334. [[systemic]]
+	11335. [[systemic circulation]]
 	11336. systemic inflammatory response
-	11337. systemic sclerosis
-	11338. systole
-	11339. systolic anterior motion
-	11340. systolic dysfunction
+		1. see shock
+	11337. [[systemic sclerosis]]
+	11338. [[systole]]
+	11339. [[systolic anterior motion]]
+	11340. [[systolic dysfunction]]
 	
 	11341. systolic pressure
-	11342. T-sign
+		1. see blood pressure
+	11342. [[T-sign]]
 	11343. T3
+		1. $\mathrm{T}_{3}$ see TRIODOTHYRONINE.
 	11344. T4
-	11345. tabes dorsalis
-	11346. tablet((in pharmacy))
-	11347. tabo-paresis
-	11348. TAB vaccine
+		1. $\mathrm{T}_{4}$ see THYROXINE.
+	11345. [[tabes dorsalis]]
+	11346. [[tablet]]
+	11347. [[tabo-paresis]]
+	11348. [[TAB vaccine]]
 	11349. TACE
-	11350. tachy-
+		1. see TRANSARTERIAL CHEMOEMBOLIZATION.
+	11350. [[tachy-]]
 	
 	11351. tachyarrhythmia
-	11352. tachycardia
-	11353. tachyphylaxis
-	11354. tachypnoea
-	11355. tacrolimus
-	11356. tactile
+		1. n. see ARRHYTHMIA.
+	11352. [[tachycardia]]
+	11353. [[tachyphylaxis]]
+	11354. [[tachypnoea]]
+	11355. [[tacrolimus]]
+	11356. [[tactile]]
 	11357. tadalafil
-	11358. taenia
-	11359. Taenia
-	11360. taeniacide
+		1. $n$. see SILDENAFIL.
+	11358. [[taenia]]
+	11359. 
+	11360. [[taeniacide]]
 	
-	11361. taeniafuge
-	11362. taeniasis
+	11361. [[taeniafuge]]
+	11362. [[taeniasis]]
 	11363. Tagamet
-	11364. Takayasu's disease
-	11365. takotsubo syndrome
-	11366. tal-
-	11367. talc
+		1. $n$. see CIMETIDINE.
+	11364. [[Takayasu's disease]]
+	11365. [[takotsubo syndrome]]
+	11366. [[tal-]]
+	11367. [[talc]]
 	11368. talipes
-	11369. talus
-	11370. tambour
+		1. n. see club-foot
+	11369. [[talus]]
+	11370. [[tambour]]
 	
 	11371. Tamiflu
-	11372. tamoxifen
-	11373. tampon
-	11374. tamponade
-	11375. tamsulosin
-	11376. tantalum
-	11377. tapetum
-	11378. tapeworm
-	11379. tapotement
+		1. $n$. see OSELTAMIVIR.
+	11372. [[tamoxifen]]
+	11373. [[tampon]]
+	11374. [[tamponade]]
+	11375. [[tamsulosin]]
+	11376. [[tantalum]]
+	11377. [[tapetum]]
+	11378. [[tapeworm]]
+	11379. [[tapotement]]
 	11380. tapping
+		1. $n$. see PARACENTESIS.
 	
-	11381. tardive dyskinesia
-	11382. target cell
-	11383. targeted agent
+	11381. [[tardive dyskinesia]]
+	11382. [[target cell]]
+	11383. [[targeted agent]]
 	11384. target lesions
-	11385. target organ
-	11386. tars-
-	11387. tarsal
-	11388. tarsalgia
+		1. see erythema
+	11385. [[target organ]]
+	11386. [[tars-]]
+	11387. [[tarsal]]
+	11388. [[tarsalgia]]
 	11389. tarsal glands
-	11390. tarsectomy
+		1. see MEIBOMIAN GLANDS.
+	11390. [[tarsectomy]]
 	
-	11391. tarsitis
+	11391. [[tarsitis]]
 	11392. tarsoplasty
-	11393. tarsorrhaphy
-	11394. tarsus
-	11395. tartar
-	11396. taste
-	11397. taste buds
-	11398. taurine
+		1. $n$. see BLEPHAROPLASTY.
+	11393. [[tarsorrhaphy]]
+	11394. [[tarsus]]
+	11395. [[tartar]]
+	11396. [[taste]]
+	11397. [[taste buds]]
+	11398. [[taurine]]
 	11399. taurocholic acid
+		1. see bile acids
 	11400. TAVI
+		1. see TRANSCATHETER AORTIC VALVE IMPLANTATION.
 	
-	11401. taxane
-	11402. taxis((in surgery))
+	11401. [[taxane]]
+	11402. [[taxis]]
 	11403. Taxol
+		1. n. see PACLITAXEL.
 	11404. Taxotere
-	11405. Tay-Sachs disease
+		1. $n$. see DOCETAXEL.
+	11405. [[Tay-Sachs disease]]
 	11406. tazarotene
+		1. $n$. see RETINOID.
 	11407. TBI
+		1. see TRAUMATIC BRAIN INJURY.
 	11408. TCC
+		1. transabdominal cervical cerclage: see CERVICAL CERCLAGE.
 	11409. T cell
-	11410. TCP
+		1. n. see LYMPHOCYTE; CYTOTOXIC T CELL; HELPER T CELL; REGULATORY T CELL; SUPPRESSOR T CELL.
+	11410. [[TCP]]
 	
-	11411. TCR
+	11411. [[TCR]]
 	11412. TCRE
-	11413. Td/IPV
-	11414. tear gas
-	11415. tears
-	11416. technetium-99m
-	11417. tectospinal tract
-	11418. tectum
+		1. see TRANSCERVICAL RESECTION OF THE ENDOMETRIUM.
+	11413. [[Td-IPV]]
+	11414. [[tear gas]]
+	11415. [[tears]]
+	11416. [[technetium-99m]]
+	11417. [[tectospinal tract]]
+	11418. [[tectum]]
 	11419. teeth
+		1. pl. n. see tooth
 	11420. tegafur
+		1. see FLUOROPYRIMIDINE; FLUOROURACIL.
 	
-	11421. tegmen
-	11422. tegmentum
-	11423. teichopsia
-	11424. tel-
-	11425. tela
-	11426. telangiectasis
-	11427. telangiitis
+	11421. [[tegmen]]
+	11422. [[tegmentum]]
+	11423. [[teichopsia]]
+	11424. [[tel-]]
+	11425. [[tela]]
+	11426. [[telangiectasis]]
+	11427. [[telangiitis]]
 	11428. telaprevir
-	11429. teleceptor
-	11430. telegony
+		1. $n$. see BOCEPREVIR.
+	11429. [[teleceptor]]
+	11430. [[telegony]]
 	
-	11431. telemedicine
+	11431. [[telemedicine]]
 	11432. telencephalon
-	11433. teleradiology
-	11434. teletherapy
+		1. n. see cerebrum
+	11433. [[teleradiology]]
+	11434. [[teletherapy]]
 	11435. telmisartan
-	11436. telocentric
-	11437. telodendron
+		1. $n$. see ANGIOTENSIN II ANTAGONIST.
+	11436. [[telocentric]]
+	11437. [[telodendron]]
 	11438. telogen
-	11439. telomere
-	11440. telophase
+		1. n. see anagen
+	11439. [[telomere]]
+	11440. [[telophase]]
 	
-	11441. temazepam
+	11441. [[temazepam]]
 	11442. temoporfin
-	11443. temozolomide
-	11444. temple
-	11445. temporal
+		1. $n$. see PHOTODYNAMIC THERAPY.
+	11443. [[temozolomide]]
+	11444. [[temple]]
+	11445. [[temporal]]
 	11446. temporal arteritis
-	11447. temporal artery
-	11448. temporal bone
-	11449. temporalis
-	11450. temporal lobe
+		1. see ARTERITIS.
+	11447. [[temporal artery]]
+	11448. [[temporal bone]]
+	11449. [[temporalis]]
+	11450. [[temporal lobe]]
 	
 	11451. temporal lobe epilepsy
-	11452. temporo-
-	11453. temporomandibular joint
-	11454. temporomandibular joint syndrome
+		1. see EPILEPSY.
+	11452. [[temporo-]]
+	11453. [[temporomandibular joint]]
+	11454. [[temporomandibular joint syndrome]]
 	11455. TEMS
-	11456. temsirolimus
-	11457. tenaculum
-	11458. tendinitis
-	11459. tendinosis
-	11460. tendon
+		1. see TRANSANAL ENDOSCOPIC MICROSURGERY.
+	11456. [[temsirolimus]]
+	11457. [[tenaculum]]
+	11458. [[tendinitis]]
+	11459. [[tendinosis]]
+	11460. [[tendon]]
 	
-	11461. tendon organ
-	11462. tendon transfer
-	11463. tendovaginitis
+	11461. [[tendon organ]]
+	11462. [[tendon transfer]]
+	11463. [[tendovaginitis]]
 	11464. tenecteplase
-	11465. tenesmus
-	11466. tennis elbow
-	11467. teno-
-	11468. tenofovir disoproxil
-	11469. Tenon's capsule
-	11470. tenonectomy
+		1. $n$. see FIBRINOLYTIC; TISSUE-TYPE PLASMINOGEN ACTIVATOR.
+	11465. [[tenesmus]]
+	11466. [[tennis elbow]]
+	11467. [[teno-]]
+	11468. [[tenofovir disoproxil]]
+	11469. [[Tenon's capsule]]
+	11470. [[tenonectomy]]
 	
-	11471. tenonotomy
-	11472. tenoplasty
-	11473. tenorrhaphy
-	11474. tenosynovitis
-	11475. tenotomy
+	11471. [[tenonotomy]]
+	11472. [[tenoplasty]]
+	11473. [[tenorrhaphy]]
+	11474. [[tenosynovitis]]
+	11475. [[tenotomy]]
 	11476. tenovaginitis
+		1. $n$. see TENDOVAGINITIS.
 	11477. TENS
-	11478. tension-free vaginal tape
-	11479. tensor
+		1. see TRANSCUTANEOUS ELECTRICAL NERVE STIMULATION.
+	11478. [[tension-free vaginal tape]]
+	11479. [[tensor]]
 	11480. tensor tympani
+		1. see TONIC TENSOR TYMPANI SYNDROME.
 	
-	11481. tent
-	11482. tented diaphragm
-	11483. tentorium
-	11484. terat-
-	11485. teratogen
-	11486. teratogenesis
-	11487. teratology
-	11488. teratoma
+	11481. [[tent]]
+	11482. [[tented diaphragm]]
+	11483. [[tentorium]]
+	11484. [[terat-]]
+	11485. [[teratogen]]
+	11486. [[teratogenesis]]
+	11487. [[teratology]]
+	11488. [[teratoma]]
 	11489. teratospermia
-	11490. terbinafine
+		1. $n$. see OLIGOSPERMIA.
+	11490. [[terbinafine]]
 	
-	11491. terbutaline
-	11492. teres
-	11493. terlipressin
-	11494. terminal dribble
-	11495. terpene
+	11491. [[terbutaline]]
+	11492. [[teres]]
+	11493. [[terlipressin]]
+	11494. [[terminal dribble]]
+	11495. [[terpene]]
 	11496. tertian fever
-	11497. tertiary care
-	11498. tertiary prevention
-	11499. TESA
-	11500. tesla
+		1. see malaria
+	11497. [[tertiary care]]
+	11498. [[tertiary prevention]]
+	11499. [[TESA]]
+	11500. [[tesla]]
 	
-	11501. test-tube baby
-	11502. testicle
+	11501. [[test-tube baby]]
+	11502. [[testicle]]
 	11503. testicular feminization syndrome
-	11504. testis
-	11505. test meal
-	11506. testosterone
-	11507. tetan-
-	11508. tetanolysin
-	11509. tetanospasmin
-	11510. tetanus
+		1. see ANDROGEN INSENSITIVITY SYNDROME.
+	11504. [[testis]]
+	11505. [[test meal]]
+	11506. [[testosterone]]
+	11507. [[tetan-]]
+	11508. [[tetanolysin]]
+	11509. [[tetanospasmin]]
+	11510. [[tetanus]]
 	
-	11511. tetany
-	11512. tetra-
-	11513. tetracaine
+	11511. [[tetany]]
+	11512. [[tetra-]]
+	11513. [[tetracaine]]
 	11514. tetracosactide
-	11515. tetracyclines
-	11516. tetrad((in genetics))
-	11517. tetradactyly
+		1. (tetracosactin) n. see ACTH; SYNACTHEN TESTS.
+	11515. [[tetracyclines]]
+	11516. [[tetrad]]
+	11517. [[tetradactyly]]
 	11518. tetrahydrocannabinol
+		1. n. see cannabis
 	11519. tetraiodothyronine
-	11520. tetralogy of Fallot
+		1. n. see thyroxine
+	11520. [[tetralogy of Fallot]]
 	
 	11521. tetraplegia
-	11522. tetrodotoxin
+		1. $n$. see QUADRIPLEGIA.
+	11522. [[tetrodotoxin]]
 	11523. TGF
-	11524. thalam-
-	11525. thalamencephalon
-	11526. thalamic syndrome
-	11527. thalamotomy
-	11528. thalamus
-	11529. thalassaemia
-	11530. thalassotherapy
+		1. see TRANSFORMING GROWTH FACTOR.
+	11524. [[thalam-]]
+	11525. [[thalamencephalon]]
+	11526. [[thalamic syndrome]]
+	11527. [[thalamotomy]]
+	11528. [[thalamus]]
+	11529. [[thalassaemia]]
+	11530. [[thalassotherapy]]
 	
-	11531. thalidomide
-	11532. thallium
-	11533. thallium-technetium isotope subtraction imaging
+	11531. [[thalidomide]]
+	11532. [[thallium]]
+	11533. [[thallium-technetium isotope subtraction imaging]]
 	11534. thallium scan
-	11535. theca
-	11536. theine
-	11537. thelarche
-	11538. thenar
-	11539. theobromine
-	11540. theophylline
+		1. see MYOCARDIAL PERFUSION SCAN.
+	11535. [[theca]]
+	11536. [[theine]]
+	11537. [[thelarche]]
+	11538. [[thenar]]
+	11539. [[theobromine]]
+	11540. [[theophylline]]
 	
-	11541. therapeutic index
-	11542. therapeutic misconception
-	11543. therapeutic privilege
-	11544. therapeutics
-	11545. therm
-	11546. therm-
-	11547. thermoalgesia
-	11548. thermoanaesthesia
-	11549. thermocautery
-	11550. thermocoagulation
+	11541. [[therapeutic index]]
+	11542. [[therapeutic misconception]]
+	11543. [[therapeutic privilege]]
+	11544. [[therapeutics]]
+	11545. [[therm]]
+	11546. [[therm-]]
+	11547. [[thermoalgesia]]
+	11548. [[thermoanaesthesia]]
+	11549. [[thermocautery]]
+	11550. [[thermocoagulation]]
 	
-	11551. thermography
-	11552. thermoluminescent dosimeter
-	11553. thermolysis((in physiology))
-	11554. thermometer
-	11555. thermophilic
-	11556. thermophore
-	11557. thermoreceptor
-	11558. thermotaxis
-	11559. thermotherapy
+	11551. [[thermography]]
+	11552. [[thermoluminescent dosimeter]]
+	11553. [[thermolysis]]
+	11554. [[thermometer]]
+	11555. [[thermophilic]]
+	11556. [[thermophore]]
+	11557. [[thermoreceptor]]
+	11558. [[thermotaxis]]
+	11559. [[thermotherapy]]
 	11560. thiabendazole
+		1. $n$. see TIABENDAZOLE.
 	
 	11561. thiamine
+		1. $n$. see VITAMIN $\mathrm{B}_{1}$.
 	11562. thiazide diuretic
-	11563. thiazolidinediones
+		1. see DIURETIC.
+	11563. [[thiazolidinediones]]
 	11564. Thiersch's graft
-	11565. thin membrane disease
+		1. see SPLIT-SKIN GRAFT. \[K. Thiersch (1822-95), German surgeon]
+	11565. [[thin membrane disease]]
 	11566. thioguanine
-	11567. thionamides
-	11568. thiopental
-	11569. thiophilic
+		1. $n$. see TIOGUANINE.
+	11567. [[thionamides]]
+	11568. [[thiopental]]
+	11569. [[thiophilic]]
 	11570. thioxanthene
+		1. $n$. see ANTIPSYCHOTIC.
 	
-	11571. third-party payer
-	11572. thorac-
+	11571. [[third-party payer]]
+	11572. [[thorac-]]
 	11573. thoracentesis
-	11574. thoracic cavity
-	11575. thoracic duct
-	11576. thoracic vertebrae
+		1. $n$. see PLEUROCENTESIS.
+	11574. [[thoracic cavity]]
+	11575. [[thoracic duct]]
+	11576. [[thoracic vertebrae]]
 	11577. thoracocentesis
-	11578. thoracoplasty
-	11579. thoracoscope
-	11580. thoracotomy
+		1. $n$. see PLEUROCENTESIS.
+	11578. [[thoracoplasty]]
+	11579. [[thoracoscope]]
+	11580. [[thoracotomy]]
 	
-	11581. thorax
-	11582. thought-stopping
-	11583. thought alienation
-	11584. thought block
-	11585. thought broadcast
-	11586. thought echo
-	11587. thought insertion
-	11588. thought withdrawal
-	11589. threadworm
-	11590. threonine
+	11581. [[thorax]]
+	11582. [[thought-stopping]]
+	11583. [[thought alienation]]
+	11584. [[thought block]]
+	11585. [[thought broadcast]]
+	11586. [[thought echo]]
+	11587. [[thought insertion]]
+	11588. [[thought withdrawal]]
+	11589. [[threadworm]]
+	11590. [[threonine]]
 	
-	11591. threshold((in neurology))
-	11592. thrill
-	11593. -thrix
-	11594. thromb-
-	11595. thrombasthenia
-	11596. thrombectomy
-	11597. thrombin
+	11591. [[threshold]]
+	11592. [[thrill]]
+	11593. [[-thrix]]
+	11594. [[thromb-]]
+	11595. [[thrombasthenia]]
+	11596. [[thrombectomy]]
+	11597. [[thrombin]]
 	11598. thromboangiitis obliterans
+		1. see Buerger's DISEASE.
 	11599. thrombocyte
-	11600. thrombocythaemia
+		1. $n$. see PLATELET.
+	11600. [[thrombocythaemia]]
 	
-	11601. thrombocytopenia
-	11602. thrombocytosis
-	11603. thromboembolism
+	11601. [[thrombocytopenia]]
+	11602. [[thrombocytosis]]
+	11603. [[thromboembolism]]
 	11604. thromboendarterectomy
-	11605. thromboendarteritis
+		1. $n$. see ENDARTERECTOMY.
+	11605. [[thromboendarteritis]]
 	11606. thrombokinase
-	11607. thrombolysis
-	11608. thrombolytic
-	11609. thrombophilia
-	11610. thrombophlebitis
+		1. $n$. see THROMBOPLASTIN.
+	11607. [[thrombolysis]]
+	11608. [[thrombolytic]]
+	11609. [[thrombophilia]]
+	11610. [[thrombophlebitis]]
 	
-	11611. thromboplastin
-	11612. thrombopoiesis
-	11613. thromboprophylaxis
-	11614. thrombosis
-	11615. thrombotic microangiopathy
-	11616. thrombotic thrombocytopenic purpura
-	11617. thromboxane A2
+	11611. [[thromboplastin]]
+	11612. [[thrombopoiesis]]
+	11613. [[thromboprophylaxis]]
+	11614. [[thrombosis]]
+	11615. [[thrombotic microangiopathy]]
+	11616. [[thrombotic thrombocytopenic purpura]]
+	11617. [[thromboxane A_2]]
 	11618. thrombus
+		1. $n$. see BLOOD CLOT; THROMBOSIS.
 	11619. thrush
-	11620. thym-
+		1. $n$. see CANDIDIASIS.
+	11620. [[thym-]]
 	
-	11621. thymectomy
-	11622. -thymia
-	11623. thymic aplasia
-	11624. thymidine
-	11625. thymine
-	11626. thymitis
-	11627. thymocyte
-	11628. thymoma
-	11629. thymus
-	11630. thyro-
+	11621. [[thymectomy]]
+	11622. [[-thymia]]
+	11623. [[thymic aplasia]]
+	11624. [[thymidine]]
+	11625. [[thymine]]
+	11626. [[thymitis]]
+	11627. [[thymocyte]]
+	11628. [[thymoma]]
+	11629. [[thymus]]
+	11630. [[thyro-]]
 	
 	11631. thyrocalcitonin
-	11632. thyrocele
-	11633. thyroglobulin
-	11634. thyrohyoid
-	11635. thyroid-stimulating hormone
-	11636. thyroid acropachy
-	11637. thyroid antibodies
-	11638. thyroid cancer
-	11639. thyroid cartilage
-	11640. thyroid crisis
+		1. $n$. see CALCITONIN.
+	11632. [[thyrocele]]
+	11633. [[thyroglobulin]]
+	11634. [[thyrohyoid]]
+	11635. [[thyroid-stimulating hormone]]
+	11636. [[thyroid acropachy]]
+	11637. [[thyroid antibodies]]
+	11638. [[thyroid cancer]]
+	11639. [[thyroid cartilage]]
+	11640. [[thyroid crisis]]
 	
-	11641. thyroidectomy
-	11642. thyroid gland
-	11643. thyroid hormone
-	11644. thyroiditis
+	11641. [[thyroidectomy]]
+	11642. [[thyroid gland]]
+	11643. [[thyroid hormone]]
+	11644. [[thyroiditis]]
 	11645. thyroid storm
-	11646. thyroplasty
-	11647. thyrotomy
-	11648. thyrotoxicosis
-	11649. thyrotoxic periodic paralysis
+		1. see thyroid crisis
+	11646. [[thyroplasty]]
+	11647. [[thyrotomy]]
+	11648. [[thyrotoxicosis]]
+	11649. [[thyrotoxic periodic paralysis]]
 	11650. thyrotrophin
+		1. $n$. see THYROID-STIMULATING HORMONE.
 	
-	11651. thyrotrophin-releasing hormone
-	11652. thyroxine
+	11651. [[thyrotrophin-releasing hormone]]
+	11652. [[thyroxine]]
 	11653. TI-RADS
+		1. Thyroid Imaging Reporting and Data System: see BI-RADS.
 	11654. TIA
-	11655. tiabendazole
-	11656. tibia
-	11657. tibialis
-	11658. tibial torsion
-	11659. tibio-
-	11660. tic
+		1. see TRANSIENT ISCHAEMIC ATTACK.
+	11655. [[tiabendazole]]
+	11656. [[tibia]]
+	11657. [[tibialis]]
+	11658. [[tibial torsion]]
+	11659. [[tibio-]]
+	11660. [[tic]]
 	
 	11661. ticagrelor
-	11662. ticarcillin
+		1. $n$. see ANTIPLATELET DRUG.
+	11662. [[ticarcillin]]
 	11663. tic douloureux
-	11664. tick
-	11665. tick fever
-	11666. Tietze's syndrome
-	11667. tilting-disc valve
-	11668. timolol
-	11669. tincture
+		1. see NEURALGIA.
+	11664. [[tick]]
+	11665. [[tick fever]]
+	11666. [[Tietze's syndrome]]
+	11667. [[tilting-disc valve]]
+	11668. [[timolol]]
+	11669. [[tincture]]
 	11670. tinea
+		1. $n$. see RINGWORM.
 	
-	11671. Tinel's sign
-	11672. tinnitus
+	11671. [[Tinel's sign]]
+	11672. [[tinnitus]]
 	11673. tinnitus masker
-	11674. tinnitus retraining therapy
-	11675. tintometer
+		1. the former name for a white noise instrument.
+	11674. [[tinnitus retraining therapy]]
+	11675. [[tintometer]]
 	11676. tinzaparin sodium
-	11677. tioguanine
+		1. see LOW-MOLECULAR-WEIGHT HEPARIN.
+	11677. [[tioguanine]]
 	11678. TIPSS
-	11679. tissue
-	11680. tissue-type plasminogen activator
+		1. (transjugular intrahepatic porto-systemic shunt) see PORTAL HYPERTENSION.
+	11679. [[tissue]]
+	11680. [[tissue-type plasminogen activator]]
 	
-	11681. tissue culture
-	11682. tissue typing
-	11683. titre((in immunology))
-	11684. titubation
+	11681. [[tissue culture]]
+	11682. [[tissue typing]]
+	11683. [[titre]]
+	11684. [[titubation]]
 	11685. TLD
+		1. see THERMOLUMINESCENT DOSIMETER.
 	11686. T lymphocyte
+		1. $n$. see LYMPHOCYTE.
 	11687. TMS
+		1. see TRANSCRANIAL MAGNETIC STIMULATION.
 	11688. TNF
-	11689. TNM classification
-	11690. tobacco
+		1. see TUMOUR NECROSIS FACTOR.
+	11689. [[TNM classification]]
+	11690. [[tobacco]]
 	
-	11691. tobramycin
-	11692. tocilizumab
-	11693. toco-
-	11694. tocolytic
+	11691. [[tobramycin]]
+	11692. [[tocilizumab]]
+	11693. [[toco-]]
+	11694. [[tocolytic]]
 	11695. tocopherol
+		1. n. see vitamin E
 	11696. tocophobia
-	11697. Todd's paralysis
-	11698. toddler's diarrhoea
+		1. n. see Tokophobia
+	11697. [[Todd's paralysis]]
+	11698. [[toddler's diarrhoea]]
 	11699. toko-
-	11700. tokophobia
+		1. combining form. see TOCO-.
+	11700. [[tokophobia]]
 	
-	11701. tolbutamide
-	11702. tolerance
-	11703. tolterodine
-	11704. toluidine blue
-	11705. -tome
-	11706. tomo-
-	11707. tomography
-	11708. tomotherapy
-	11709. -tomy
+	11701. [[tolbutamide]]
+	11702. [[tolerance]]
+	11703. [[tolterodine]]
+	11704. [[toluidine blue]]
+	11705. [[-tome]]
+	11706. [[tomo-]]
+	11707. [[tomography]]
+	11708. [[tomotherapy]]
+	11709. [[-tomy]]
 	11710. tone
+		1. n. see Tonus
 	
-	11711. tongue
+	11711. [[tongue]]
 	11712. tongue-tie
-	11713. tonic
-	11714. tonicity
-	11715. tonic pupil
-	11716. tonic tensor tympani syndrome
-	11717. tono-
-	11718. tonofibril
-	11719. tonography
-	11720. tonometer
+		1. $n$. see ANKYLOGLOSSIA.
+	11713. [[tonic]]
+	11714. [[tonicity]]
+	11715. [[tonic pupil]]
+	11716. [[tonic tensor tympani syndrome]]
+	11717. [[tono-]]
+	11718. [[tonofibril]]
+	11719. [[tonography]]
+	11720. [[tonometer]]
 	
-	11721. tonsillectomy
-	11722. tonsillitis
-	11723. tonsils
-	11724. tonus
-	11725. tooth
+	11721. [[tonsillectomy]]
+	11722. [[tonsillitis]]
+	11723. [[tonsils]]
+	11724. [[tonus]]
+	11725. [[tooth]]
 	11726. tooth extraction
-	11727. toothpaste
-	11728. tooth wear
+		1. see extraction
+	11727. [[toothpaste]]
+	11728. [[tooth wear]]
 	11729. tooth whitening
-	11730. topagnosis
+		1. see bleaching
+	11730. [[topagnosis]]
 	
-	11731. tophus
-	11732. topical
+	11731. [[tophus]]
+	11732. [[topical]]
 	11733. topical calcineurin inhibitors
+		1. see CALCINEURIN INHIBITORS.
 	11734. topiramate
-	11735. topo-
-	11736. topography
-	11737. topoisomerase inhibitor
+		1. $n$. see ANTICONVULSANT.
+	11735. [[topo-]]
+	11736. [[topography]]
+	11737. [[topoisomerase inhibitor]]
 	11738. topotecan
-	11739. Torkildsen procedure
-	11740. torpor
+		1. $n$. see TOPOISOMERASE INHIBITOR.
+	11739. [[Torkildsen procedure]]
+	11740. [[torpor]]
 	
 	11741. TORS
-	11742. torsades de pointes
-	11743. torsion
-	11744. torticollis
-	11745. toruloma
+		1. see TRANS-ORAL ROBOTIC SURGERY.
+	11742. [[torsades de pointes]]
+	11743. [[torsion]]
+	11744. [[torticollis]]
+	11745. [[toruloma]]
 	11746. torulosis
-	11747. Torus mandibularis
-	11748. Torus palatinus
+		1. $n$. see CRYPTOCOCCOSIS.
+	11747. [[Torus mandibularis]]
+	11748. [[Torus palatinus]]
 	11749. TOT
-	11750. total parenteral nutrition
+		1. transobturator tape. See TENSION-FREE VAGINAL TAPE.
+	11750. [[total parenteral nutrition]]
 	
 	11751. totipotent
-	11752. Tourette's syndrome
-	11753. tourniquet
-	11754. tow
-	11755. Towne's projection
-	11756. tox-
-	11757. toxaemia
-	11758. toxic
-	11759. toxic epidermal necrolysis
-	11760. toxicity
+		1. adj. see stem cell
+	11752. [[Tourette's syndrome]]
+	11753. [[tourniquet]]
+	11754. [[tow]]
+	11755. [[Towne's projection]]
+	11756. [[tox-]]
+	11757. [[toxaemia]]
+	11758. [[toxic]]
+	11759. [[toxic epidermal necrolysis]]
+	11760. [[toxicity]]
 	
-	11761. toxicology
-	11762. toxicosis
-	11763. toxic shock syndrome
-	11764. toxin
-	11765. Toxocara
-	11766. toxocariasis
-	11767. toxoid
-	11768. Toxoplasma
-	11769. toxoplasmosis
+	11761. [[toxicology]]
+	11762. [[toxicosis]]
+	11763. [[toxic shock syndrome]]
+	11764. [[toxin]]
+	11765. [[Toxocara]]
+	11766. [[toxocariasis]]
+	11767. [[toxoid]]
+	11768. [[Toxoplasma]]
+	11769. [[toxoplasmosis]]
 	11770. tPA
+		1. (TPA) see TISSUE-TYPE PLASMINOGEN ACTIVATOR.
 	
 	11771. TPN
-	11772. Tpot
-	11773. trabecula
-	11774. trabecular meshwork
-	11775. trabeculectomy
-	11776. trabeculoplasty
-	11777. trace element
-	11778. tracer
-	11779. trache-
-	11780. trachea
+		1. see TOTAL PARENTERAL NUTRITION.
+	11772. [[Tpot]]
+	11773. [[trabecula]]
+	11774. [[trabecular meshwork]]
+	11775. [[trabeculectomy]]
+	11776. [[trabeculoplasty]]
+	11777. [[trace element]]
+	11778. [[tracer]]
+	11779. [[trache-]]
+	11780. [[trachea]]
 	
-	11781. tracheal tugging
-	11782. tracheitis
-	11783. trachelectomy
-	11784. tracheoplasty
-	11785. tracheostomy
+	11781. [[tracheal tugging]]
+	11782. [[tracheitis]]
+	11783. [[trachelectomy]]
+	11784. [[tracheoplasty]]
+	11785. [[tracheostomy]]
 	11786. tracheotomy
-	11787. trachoma
-	11788. tract
-	11789. traction
-	11790. tractography
+		1. $n$. see TRACHEOSTOMY.
+	11787. [[trachoma]]
+	11788. [[tract]]
+	11789. [[traction]]
+	11790. [[tractography]]
 	
-	11791. tractotomy
-	11792. tragus
-	11793. tramadol
-	11794. TRAM flap
-	11795. trance
-	11796. tranexamic acid
-	11797. tranquillizer
-	11798. trans-
-	11799. trans-oral robotic surgery
-	11800. transaminase
+	11791. [[tractotomy]]
+	11792. [[tragus]]
+	11793. [[tramadol]]
+	11794. [[TRAM flap]]
+	11795. [[trance]]
+	11796. [[tranexamic acid]]
+	11797. [[tranquillizer]]
+	11798. [[trans-]]
+	11799. [[trans-oral robotic surgery]]
+	11800. [[transaminase]]
 	
-	11801. transamination
-	11802. transanal endoscopic microsurgery
-	11803. transarterial chemoembolization
-	11804. transcatheter aortic valve implantation
-	11805. transcervical resection of the endometrium
-	11806. transcoelomic spread
-	11807. transcranial magnetic stimulation
-	11808. transcription
-	11809. transcutaneous electrical nerve stimulation
-	11810. transducer
+	11801. [[transamination]]
+	11802. [[transanal endoscopic microsurgery]]
+	11803. [[transarterial chemoembolization]]
+	11804. [[transcatheter aortic valve implantation]]
+	11805. [[transcervical resection of the endometrium]]
+	11806. [[transcoelomic spread]]
+	11807. [[transcranial magnetic stimulation]]
+	11808. [[transcription]]
+	11809. [[transcutaneous electrical nerve stimulation]]
+	11810. [[transducer]]
 	
-	11811. transduction
-	11812. transection
-	11813. transfection
-	11814. transferase
-	11815. transference((in psychoanalysis))
-	11816. transferrin
-	11817. transfer RNA
-	11818. transformation zone
-	11819. transforming growth factor
-	11820. transfusion
+	11811. [[transduction]]
+	11812. [[transection]]
+	11813. [[transfection]]
+	11814. [[transferase]]
+	11815. [[transference]]
+	11816. [[transferrin]]
+	11817. [[transfer RNA]]
+	11818. [[transformation zone]]
+	11819. [[transforming growth factor]]
+	11820. [[transfusion]]
 	
-	11821. transgender
-	11822. transhepatic
-	11823. transient ischaemic attack
-	11824. transillumination
-	11825. transitional cell carcinoma
-	11826. transjugular
-	11827. translation((in cell biology))
-	11828. translational research
-	11829. translocation((in genetics))
-	11830. transmethylation
+	11821. [[transgender]]
+	11822. [[transhepatic]]
+	11823. [[transient ischaemic attack]]
+	11824. [[transillumination]]
+	11825. [[transitional cell carcinoma]]
+	11826. [[transjugular]]
+	11827. [[translation]]
+	11828. [[translational research]]
+	11829. [[translocation]]
+	11830. [[transmethylation]]
 	
-	11831. transmigration
-	11832. transmural myocardial infarction
+	11831. [[transmigration]]
+	11832. [[transmural myocardial infarction]]
 	11833. transobturator tape
+		1. (TOT) see TENSION-FREE VAGINAL TAPE.
 	11834. transoesophageal echocardiography
-	11835. transplantation
-	11836. transposition
-	11837. transposition of the great vessels
-	11838. transrectal ultrasonography
-	11839. transseptal puncture
+		1. (TOE) see ECHOCARDIOGRAPHY.
+	11835. [[transplantation]]
+	11836. [[transposition]]
+	11837. [[transposition of the great vessels]]
+	11838. [[transrectal ultrasonography]]
+	11839. [[transseptal puncture]]
 	11840. transsexual
+		1. n. see transgender
 	
-	11841. transthoracic impedance
-	11842. transtympanic
-	11843. transudation
-	11844. transuretero-ureterostomy
+	11841. [[transthoracic impedance]]
+	11842. [[transtympanic]]
+	11843. [[transudation]]
+	11844. [[transuretero-ureterostomy]]
 	11845. transurethral resection of the prostate
-	11846. transurethral vaporization of the prostate
+		1. (TURP) see resection
+	11846. [[transurethral vaporization of the prostate]]
 	11847. transvaginal tape
-	11848. transvaginal ultrasonography
-	11849. transverse((in anatomy))
-	11850. transverse process
+		1. (TVT) see TENSION-FREE VAGINAL TAPE.
+	11848. [[transvaginal ultrasonography]]
+	11849. [[transverse]]
+	11850. [[transverse process]]
 	
-	11851. transvestism
-	11852. Trantas dots
+	11851. [[transvestism]]
+	11852. [[Trantas dots]]
 	11853. tranylcypromine
-	11854. trapezium
-	11855. trapezius
-	11856. trapezoid bone
-	11857. trash foot
-	11858. trastuzumab
-	11859. trauma
-	11860. traumatic brain injury
+		1. n. see MAO Inhibitor
+	11854. [[trapezium]]
+	11855. [[trapezius]]
+	11856. [[trapezoid bone]]
+	11857. [[trash foot]]
+	11858. [[trastuzumab]]
+	11859. [[trauma]]
+	11860. [[traumatic brain injury]]
 	
-	11861. traumatic fever
-	11862. traumatology
+	11861. [[traumatic fever]]
+	11862. [[traumatology]]
 	11863. travel sickness
-	11864. trazodone
-	11865. Treacher Collins syndrome
-	11866. treatment bias
-	11867. treatment field((in radiotherapy))
+		1. see motion sickness
+	11864. [[trazodone]]
+	11865. [[Treacher Collins syndrome]]
+	11866. [[treatment bias]]
+	11867. [[treatment field]]
 	11868. Treg cell
+		1. see regulatory T cell
 	11869. trematode
-	11870. tremor
+		1. n. see fluke
+	11870. [[tremor]]
 	
-	11871. trench fever
-	11872. trench foot
-	11873. Trendelenburg's test
-	11874. Trendelenburg position
-	11875. trephine
-	11876. Treponema
-	11877. treponematosis
+	11871. [[trench fever]]
+	11872. [[trench foot]]
+	11873. [[Trendelenburg's test]]
+	11874. [[Trendelenburg position]]
+	11875. [[trephine]]
+	11876. [[Treponema]]
+	11877. [[treponematosis]]
 	11878. trespass against the person
-	11879. tretinoin
-	11880. triad((in medicine))
+		1. see battery
+	11879. [[tretinoin]]
+	11880. [[triad]]
 	
-	11881. triage
-	11882. triamcinolone
-	11883. triamterene
-	11884. triangle((in anatomy))
-	11885. triangular bandage
-	11886. Triatoma
-	11887. triceps
-	11888. triceps jerk
-	11889. trich-
-	11890. trichiasis
+	11881. [[triage]]
+	11882. [[triamcinolone]]
+	11883. [[triamterene]]
+	11884. [[triangle]]
+	11885. [[triangular bandage]]
+	11886. [[Triatoma]]
+	11887. [[triceps]]
+	11888. [[triceps jerk]]
+	11889. [[trich-]]
+	11890. [[trichiasis]]
 	
-	11891. Trichinella
+	11891. [[Trichinella]]
 	11892. trichiniasis
-	11893. trichinosis
-	11894. trichloracetic acid
-	11895. trichobezoar
+		1. n. see trichinosis
+	11893. [[trichinosis]]
+	11894. [[trichloracetic acid]]
+	11895. [[trichobezoar]]
 	11896. Trichocephalus
-	11897. trichoglossia
-	11898. trichology
-	11899. Trichomonas
-	11900. trichomoniasis
+		1. n. see whipworm
+	11897. [[trichoglossia]]
+	11898. [[trichology]]
+	11899. [[Trichomonas]]
+	11900. [[trichomoniasis]]
 	
-	11901. trichomycosis
-	11902. Trichophyton
-	11903. trichorrhexis nodosa
-	11904. Trichosporon
-	11905. trichotillomania
-	11906. trichromatic
-	11907. trichuriasis
+	11901. [[trichomycosis]]
+	11902. [[Trichophyton]]
+	11903. [[trichorrhexis nodosa]]
+	11904. [[Trichosporon]]
+	11905. [[trichotillomania]]
+	11906. [[trichromatic]]
+	11907. [[trichuriasis]]
 	11908. Trichuris
-	11909. tricuspid atresia
-	11910. tricuspid valve
+		1. n. see whipworm
+	11909. [[tricuspid atresia]]
+	11910. [[tricuspid valve]]
 	
 	11911. tricyclic antidepressants
-	11912. tridactyly
-	11913. trifluoperazine
-	11914. trifocal lenses
-	11915. trigeminal nerve
+		1. (tricyclics) see ANTIDEPRESSANT.
+	11912. [[tridactyly]]
+	11913. [[trifluoperazine]]
+	11914. [[trifocal lenses]]
+	11915. [[trigeminal nerve]]
 	11916. trigeminal neuralgia
-	11917. trigeminy
-	11918. trigger finger
-	11919. triglyceride
-	11920. trigone
+		1. (tic douloureux) see NEURALGIA.
+	11917. [[trigeminy]]
+	11918. [[trigger finger]]
+	11919. [[triglyceride]]
+	11920. [[trigone]]
 	
-	11921. trigonitis
-	11922. trigonocephaly
-	11923. trihexyphenidyl
-	11924. triiodothyronine
+	11921. [[trigonitis]]
+	11922. [[trigonocephaly]]
+	11923. [[trihexyphenidyl]]
+	11924. [[triiodothyronine]]
 	11925. trimeprazine
-	11926. trimester((in obstetrics))
-	11927. trimethoprim
-	11928. trimipramine
+		1. $n$. see ALIMEMAZINE.
+	11926. [[trimester]]
+	11927. [[trimethoprim]]
+	11928. [[trimipramine]]
 	11929. trinitrophenol
-	11930. triose
+		1. $n$. see PICRIC ACID.
+	11930. [[triose]]
 	
 	11931. triple rhythm
-	11932. triple test
-	11933. triploid
+		1. see GALLOP RHYTHM.
+	11932. [[triple test]]
+	11933. [[triploid]]
 	11934. triptan
-	11935. triquetrum
-	11936. trismus
-	11937. trisomy
-	11938. tritanopia
-	11939. trocar
-	11940. trochanter
+		1. $n$. see $5 \mathrm{HT}_{1}$ AGONIST.
+	11935. [[triquetrum]]
+	11936. [[trismus]]
+	11937. [[trisomy]]
+	11938. [[tritanopia]]
+	11939. [[trocar]]
+	11940. [[trochanter]]
 	
-	11941. troche
-	11942. trochlea
-	11943. trochlear nerve
-	11944. trochoid joint
-	11945. Troisier's sign
-	11946. Trombicula
-	11947. troph-
-	11948. trophoblast
-	11949. trophozoite
-	11950. -trophy
+	11941. [[troche]]
+	11942. [[trochlea]]
+	11943. [[trochlear nerve]]
+	11944. [[trochoid joint]]
+	11945. [[Troisier's sign]]
+	11946. [[Trombicula]]
+	11947. [[troph-]]
+	11948. [[trophoblast]]
+	11949. [[trophozoite]]
+	11950. [[-trophy]]
 	
-	11951. -tropic
-	11952. tropical abscess
-	11953. tropical medicine
-	11954. tropical ulcer
-	11955. tropicamide
-	11956. tropocollagen
-	11957. troponins
-	11958. trospium chloride
-	11959. Trousseau's sign
+	11951. [[-tropic]]
+	11952. [[tropical abscess]]
+	11953. [[tropical medicine]]
+	11954. [[tropical ulcer]]
+	11955. [[tropicamide]]
+	11956. [[tropocollagen]]
+	11957. [[troponins]]
+	11958. [[trospium chloride]]
+	11959. [[Trousseau's sign]]
 	11960. TRT
+		1. see TINNITUS RETRAINING THERAPY.
 	
-	11961. truncus
-	11962. truncus arteriosus
-	11963. trunk
+	11961. [[truncus]]
+	11962. [[truncus arteriosus]]
+	11963. [[trunk]]
 	11964. TRUS
-	11965. truss
-	11966. trust((in the NHS))
-	11967. truth-telling
-	11968. trypanocide
-	11969. Trypanosoma
-	11970. trypanosomiasis
+		1. see TRANSRECTAL ULTRASONOGRAPHY.
+	11965. [[truss]]
+	11966. [[trust]]
+	11967. [[truth-telling]]
+	11968. [[trypanocide]]
+	11969. [[Trypanosoma]]
+	11970. [[trypanosomiasis]]
 	
-	11971. trypsin
+	11971. [[trypsin]]
 	11972. trypsinogen
-	11973. tryptophan
-	11974. T score
-	11975. tsetse
+		1. $n$. see TRYPSIN.
+	11973. [[tryptophan]]
+	11974. [[T score]]
+	11975. [[tsetse]]
 	11976. TSH
+		1. 
 	11977. TSH receptor antibodies
 	11978. tsutsugamushi disease
 	11979. TTP
