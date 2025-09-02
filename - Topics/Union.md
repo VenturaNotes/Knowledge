@@ -38,7 +38,10 @@ $$
   
 
 The union of $S$ and the empty set is $S$. See also SET AlGEBRA. 2. (of two graphs, $G_{1}$ and $G_{2}$ ) The graph that includes all the vertices and edges of $G_{1}$ and $G_{2}$, i.e. that contains the union of the two sets of vertices and of the two sets of edges as its vertices and edges.
+## Source[^4]
+- $n$. (in a fractured bone) the successful result of healing of a fracture, in which the previously separated bone ends have become firmly united by newly formed bone. Failure of union (non-union) may result if the bone ends are not immobilized or from infection or bone diseases. Compare MALUNION.
 ## References
 [^1]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^d1af4a]]
 [^2]: [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]
 [^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

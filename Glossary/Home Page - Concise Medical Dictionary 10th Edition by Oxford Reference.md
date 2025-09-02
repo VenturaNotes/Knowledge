@@ -15173,806 +15173,956 @@ Reviewed: false
 	11974. [[T score]]
 	11975. [[tsetse]]
 	11976. TSH
-		1. 
-	11977. TSH receptor antibodies
+		1. see thyroid-stimulating hormone
+	11977. [[TSH receptor antibodies]]
 	11978. tsutsugamushi disease
+		1. see scrub typhus
 	11979. TTP
+		1. see THROMBOTIC THROMBOCYTOPENIC PURPURA.
 	11980. TTTS
+		1. see TWIN-TO-TWIN TRANSFUSION SYNDROME.
 	
-	11981. tubal occlusion
+	11981. [[tubal occlusion]]
 	11982. tubal pregnancy
-	11983. tube((in anatomy))
-	11984. tuber((in anatomy))
-	11985. tubercle
-	11986. tubercular
-	11987. tuberculide
-	11988. tuberculin
-	11989. tuberculoma
-	11990. tuberculosis
+		1. see ectopic pregnancy
+	11983. [[tube]]
+	11984. [[tuber]]
+	11985. [[tubercle]]
+	11986. [[tubercular]]
+	11987. [[tuberculide]]
+	11988. [[tuberculin]]
+	11989. [[tuberculoma]]
+	11990. [[tuberculosis]]
 	
 	11991. tuberose
-	11992. tuberosity
-	11993. tuberous
-	11994. tuberous sclerosis
-	11995. tubo-
-	11996. tubo-ovarian
-	11997. tuboabdominal
-	11998. tubogram
-	11999. tubotympanal
-	12000. tubule((in anatomy))
+		1. adj. see tuberous
+	11992. [[tuberosity]]
+	11993. [[tuberous]]
+	11994. [[tuberous sclerosis]]
+	11995. [[tubo-]]
+	11996. [[tubo-ovarian]]
+	11997. [[tuboabdominal]]
+	11998. [[tubogram]]
+	11999. [[tubotympanal]]
+	12000. [[tubule]]
 	
-	12001. tubulointerstitium
-	12002. tubulovillous adenoma
-	12003. tufting
-	12004. tuftsin
-	12005. tularaemia
-	12006. tulle gras
-	12007. Tullio phenomenon
-	12008. tumbu fly
-	12009. tumefaction
-	12010. tumescence
+	12001. [[tubulointerstitium]]
+	12002. [[tubulovillous adenoma]]
+	12003. [[tufting]]
+	12004. [[tuftsin]]
+	12005. [[tularaemia]]
+	12006. [[tulle gras]]
+	12007. [[Tullio phenomenon]]
+	12008. [[tumbu fly]]
+	12009. [[tumefaction]]
+	12010. [[tumescence]]
 	
-	12011. tumid
-	12012. tumor
-	12013. tumour
-	12014. tumour-associated antigen
-	12015. tumour-infiltrating lymphocyte
-	12016. tumour marker
-	12017. tumour necrosis factor
-	12018. Tunga
-	12019. tunica
-	12020. tunnel((in anatomy))
+	12011. [[tumid]]
+	12012. [[tumor]]
+	12013. [[tumour]]
+	12014. [[tumour-associated antigen]]
+	12015. [[tumour-infiltrating lymphocyte]]
+	12016. [[tumour marker]]
+	12017. [[tumour necrosis factor]]
+	12018. [[Tunga]]
+	12019. [[tunica]]
+	12020. [[tunnel]]
 	
-	12021. tunnel vision
+	12021. [[tunnel vision]]
 	12022. turbinate bone
-	12023. turbinectomy
-	12024. turgescence
-	12025. turgor
-	12026. Turkel's needle
-	12027. Turner's syndrome
+		1. see nasal concha
+	12023. [[turbinectomy]]
+	12024. [[turgescence]]
+	12025. [[turgor]]
+	12026. [[Turkel's needle]]
+	12027. [[Turner's syndrome]]
 	12028. TURP
+		1. transurethral resection of the prostate: see RESECTION.
 	12029. turricephaly
+		1. $n$. see OXYCEPHALY.
 	12030. tussis
+		1. $n$. the medical name for coughing.
 	
 	12031. TUVP
+		1. see TRANSURETHRAL VAPORIZATION OF THE PROSTATE.
 	12032. TVT
+		1. see TENSION-FREE VAGINAL TAPE.
 	12033. twin-peak sign
-	12034. twin-to-twin transfusion syndrome
-	12035. twins
-	12036. tylosis
-	12037. tympan-
+		1. see LAMBDA SIGN.
+	12034. [[twin-to-twin transfusion syndrome]]
+	12035. [[twins]]
+	12036. [[tylosis]]
+	12037. [[tympan-]]
 	12038. tympanic cavity
-	12039. tympanic membrane
-	12040. tympanites
+		1. see middle ear
+	12039. [[tympanic membrane]]
+	12040. [[tympanites]]
 	
-	12041. tympanogram
-	12042. tympanometer
-	12043. tympanoplasty
-	12044. tympanotomy
-	12045. tympanum
-	12046. typho-
-	12047. typhoid fever
-	12048. typhus
-	12049. tyramine
+	12041. [[tympanogram]]
+	12042. [[tympanometer]]
+	12043. [[tympanoplasty]]
+	12044. [[tympanotomy]]
+	12045. [[tympanum]]
+	12046. [[typho-]]
+	12047. [[typhoid fever]]
+	12048. [[typhus]]
+	12049. [[tyramine]]
 	12050. Tyroglyphus
+		1. n. see Acarus
 	
 	12051. tyrosine
-	12052. tyrosine kinase inhibitor
-	12053. tyrosinosis
-	12054. ubiquinone
+		1. n. see amino acid
+	12052. [[tyrosine kinase inhibitor]]
+	12053. [[tyrosinosis]]
+	12054. [[ubiquinone]]
 	12055. uE3
-	12056. UGH syndrome
-	12057. Uhthoff phenomenon
-	12058. UICC
+		1. see UNCONJUGATED OESTRIOL.
+	12056. [[UGH syndrome]]
+	12057. [[Uhthoff phenomenon]]
+	12058. [[UICC]]
 	12059. UIP
-	12060. UK National Screening Committee
+		1. usual interstitial pneumonia. See also IDIOPATHIC PULMONARY FIBROSIS.
+	12060. [[UK National Screening Committee]]
 	
-	12061. ulcer
-	12062. ulcerative colitis
-	12063. ulcerative gingivitis
-	12064. ule-
-	12065. ulipristal
-	12066. ulna
-	12067. ulnar artery
-	12068. ulnar nerve
-	12069. ultra-
-	12070. ultracentrifuge
+	12061. [[ulcer]]
+	12062. [[ulcerative colitis]]
+	12063. [[ulcerative gingivitis]]
+	12064. [[ule-]]
+	12065. [[ulipristal]]
+	12066. [[ulna]]
+	12067. [[ulnar artery]]
+	12068. [[ulnar nerve]]
+	12069. [[ultra-]]
+	12070. [[ultracentrifuge]]
 	
-	12071. ultradian
-	12072. ultrafiltration
-	12073. ultramicroscope
-	12074. ultramicrotome
-	12075. ultrasonics
-	12076. ultrasonography
-	12077. ultrasound
-	12078. ultrasound marker
-	12079. ultraviolet rays
-	12080. umbilical cord
+	12071. [[ultradian]]
+	12072. [[ultrafiltration]]
+	12073. [[ultramicroscope]]
+	12074. [[ultramicrotome]]
+	12075. [[ultrasonics]]
+	12076. [[ultrasonography]]
+	12077. [[ultrasound]]
+	12078. [[ultrasound marker]]
+	12079. [[ultraviolet rays]]
+	12080. [[umbilical cord]]
 	
-	12081. umbilical cord blood banked stem cells
-	12082. umbilical granuloma
+	12081. [[umbilical cord blood banked stem cells]]
+	12082. [[umbilical granuloma]]
 	12083. umbilical hernia
-	12084. umbilicus
-	12085. umbo
-	12086. uncertainty
+		1. see EXOMPHALOS.
+	12084. [[umbilicus]]
+	12085. [[umbo]]
+	12086. [[uncertainty]]
 	12087. unciform bone
-	12088. uncinate fits
-	12089. unconjugated oestriol
-	12090. unconscious
+		1. see hamate bone
+	12088. [[uncinate fits]]
+	12089. [[unconjugated oestriol]]
+	12090. [[unconscious]]
 	
-	12091. unconsciousness
-	12092. uncus
-	12093. undecenoic acid
-	12094. undine
+	12091. [[unconsciousness]]
+	12092. [[uncus]]
+	12093. [[undecenoic acid]]
+	12094. [[undine]]
 	12095. undulant fever
-	12096. ungual
-	12097. unguentum((in pharmacy))
-	12098. unguis
-	12099. uni-
-	12100. unicellular
+		1. see BRUCELLOSIS.
+	12096. [[ungual]]
+	12097. unguentum
+		1. $n$. (in pharmacy) an ointment.
+	12098. [[unguis]]
+	12099. [[uni-]]
+	12100. [[unicellular]]
 	
-	12101. unilateral((in anatomy))
-	12102. union((in a fractured bone))
+	12101. [[unilateral]]
+	12102. [[union]]
 	12103. Union international contre le cancer
-	12104. unipolar((in neurology))
-	12105. Units of alcohol
-	12106. universal credit
-	12107. unsaturated fatty acid
+		1. see UICC
+	12104. [[unipolar]]
+	12105. 
+	12106. [[universal credit]]
+	12107. [[unsaturated fatty acid]]
 	12108. uPM3
+		1. see PCA3
 	12109. UPPP
-	12110. urachus
+		1. n. see UVULOPALATOPHARYNGOPLASTY.
+	12110. [[urachus]]
 	
-	12111. uracil
-	12112. uraemia
-	12113. uran-
-	12114. urataemia
-	12115. uraturia
-	12116. urea
-	12117. urease
-	12118. urecchysis
-	12119. ureter
-	12120. ureter-
+	12111. [[uracil]]
+	12112. [[uraemia]]
+	12113. [[uran-]]
+	12114. [[urataemia]]
+	12115. [[uraturia]]
+	12116. [[urea]]
+	12117. [[urease]]
+	12118. [[urecchysis]]
+	12119. [[ureter]]
+	12120. [[ureter-]]
 	
-	12121. ureterectomy
-	12122. ureteritis
-	12123. ureterocele
-	12124. ureteroenterostomy
-	12125. ureterolithotomy
-	12126. ureterolysis
-	12127. ureteroneocystostomy
+	12121. [[ureterectomy]]
+	12122. [[ureteritis]]
+	12123. [[ureterocele]]
+	12124. [[ureteroenterostomy]]
+	12125. [[ureterolithotomy]]
+	12126. [[ureterolysis]]
+	12127. [[ureteroneocystostomy]]
 	12128. ureteronephrectomy
-	12129. ureteroplasty
-	12130. ureteropyelonephritis
+		1. $n$. see NEPHROURETERECTOMY.
+	12129. [[ureteroplasty]]
+	12130. [[ureteropyelonephritis]]
 	
-	12131. ureteroscope
-	12132. ureteroscopy
-	12133. ureterosigmoidostomy
-	12134. ureterostomy
-	12135. ureterotomy
-	12136. urethr-
-	12137. urethra
-	12138. urethritis
-	12139. urethrocele
-	12140. urethrography
+	12131. [[ureteroscope]]
+	12132. [[ureteroscopy]]
+	12133. [[ureterosigmoidostomy]]
+	12134. [[ureterostomy]]
+	12135. [[ureterotomy]]
+	12136. [[urethr-]]
+	12137. [[urethra]]
+	12138. [[urethritis]]
+	12139. [[urethrocele]]
+	12140. [[urethrography]]
 	
-	12141. urethroplasty
-	12142. urethrorrhaphy
-	12143. urethrorrhoea
-	12144. urethroscope
-	12145. urethrostenosis
-	12146. urethrostomy
-	12147. urethrotomy
+	12141. [[urethroplasty]]
+	12142. [[urethrorrhaphy]]
+	12143. [[urethrorrhoea]]
+	12144. [[urethroscope]]
+	12145. [[urethrostenosis]]
+	12146. [[urethrostomy]]
+	12147. [[urethrotomy]]
 	12148. urge incontinence
-	12149. urgency
+		1. see INCONTINENCE.
+	12149. [[urgency]]
 	12150. urgent treatment centre
+		1. see NHS WALK-IN CENTRE.
 	
-	12151. -uria
-	12152. uric acid
-	12153. uricosuric drug
-	12154. uridine
-	12155. uridrosis
-	12156. urin-
-	12157. urinalysis
+	12151. [[-uria]]
+	12152. [[uric acid]]
+	12153. [[uricosuric drug]]
+	12154. [[uridine]]
+	12155. [[uridrosis]]
+	12156. [[urin-]]
+	12157. [[urinalysis]]
 	12158. urinary bladder
-	12159. urinary diversion
-	12160. urinary tract
+		1. see bladder
+	12159. [[urinary diversion]]
+	12160. [[urinary tract]]
 	
-	12161. urination
-	12162. urine
+	12161. [[urination]]
+	12162. [[urine]]
 	12163. urine output
+		1. see vital signs
 	12164. uriniferous tubule
-	12165. urinogenital
-	12166. urinogenital sinus
-	12167. urinometer
-	12168. urobilinogen
-	12169. urocele
-	12170. urochesia
+		1. see renal tubule
+	12165. [[urinogenital]]
+	12166. [[urinogenital sinus]]
+	12167. [[urinometer]]
+	12168. [[urobilinogen]]
+	12169. [[urocele]]
+	12170. [[urochesia]]
 	
-	12171. urodynamics
+	12171. [[urodynamics]]
 	12172. urofollitropin
+		1. $n$. see HUMAN MENOPAUSAL GONADOTROPHINS.
 	12173. urogenital
-	12174. urogram
-	12175. urography
-	12176. urokinase
-	12177. urolith
-	12178. urology
-	12179. uroporphyrin
-	12180. ursodeoxycholic acid
+		1. adj. see URINOGENITAL.
+	12174. [[urogram]]
+	12175. [[urography]]
+	12176. [[urokinase]]
+	12177. [[urolith]]
+	12178. [[urology]]
+	12179. [[uroporphyrin]]
+	12180. [[ursodeoxycholic acid]]
 	
-	12181. urticaria
+	12181. [[urticaria]]
 	12182. usual interstitial pneumonia
-	12183. uter-
-	12184. uterine
-	12185. uterine artery embolization
-	12186. uteroplacental insufficiency
-	12187. uterosacral suspension
-	12188. uterus
-	12189. uterus didelphys
-	12190. utilitarianism
+		1. (UIP) see INTERSTITIAL PNEUMONIA; IDIOPATHIC PULMONARY FIBROSIS.
+	12183. [[uter-]]
+	12184. [[uterine]]
+	12185. [[uterine artery embolization]]
+	12186. [[uteroplacental insufficiency]]
+	12187. [[uterosacral suspension]]
+	12188. [[uterus]]
+	12189. [[uterus didelphys]]
+	12190. [[utilitarianism]]
 	
-	12191. utilization behaviour
-	12192. utricle
-	12193. uvea
+	12191. [[utilization behavior]]
+	12192. [[utricle]]
+	12193. [[uvea]]
 	12194. uveal tract
-	12195. uveitis
-	12196. uveoparotitis
+		1. see uvea
+	12195. [[uveitis]]
+	12196. [[uveoparotitis]]
 	12197. UVPP
-	12198. uvula
-	12199. uvulectomy
-	12200. uvulitis
+		1. see UVULOPALATOPHARYNGOPLASTY.
+	12198. [[uvula]]
+	12199. [[uvulectomy]]
+	12200. [[uvulitis]]
 	
-	12201. uvulopalatopharyngoplasty
-	12202. vaccination
-	12203. vaccine
+	12201. [[uvulopalatopharyngoplasty]]
+	12202. [[vaccination]]
+	12203. [[vaccine]]
 	12204. vaccinia
-	12205. vaccinoid
-	12206. vacuole
-	12207. vacuum aspiration
+		1. n. see cowpox
+	12205. [[vaccinoid]]
+	12206. [[vacuole]]
+	12207. [[vacuum aspiration]]
 	12208. vacuum extractor
+		1. see ventouse
 	12209. VAD
-	12210. vagin-
+		1. see ventricular assist device.
+	12210. [[vagin-]]
 	
-	12211. vagina
-	12212. vaginal adenosis
-	12213. vaginal agenesis
-	12214. vaginectomy
-	12215. vaginismus
-	12216. vaginitis
-	12217. vaginoplasty
+	12211. [[vagina]]
+	12212. [[vaginal adenosis]]
+	12213. [[vaginal agenesis]]
+	12214. [[vaginectomy]]
+	12215. [[vaginismus]]
+	12216. [[vaginitis]]
+	12217. [[vaginoplasty]]
 	12218. vaginosis
-	12219. vago-
-	12220. vagotomy
+		1. $n$. see BACTERIAL VAGINOSIS.
+	12219. [[vago-]]
+	12220. [[vagotomy]]
 	
-	12221. vagus nerve
-	12222. VAIN
-	12223. valaciclovir
-	12224. valgus
-	12225. validity
-	12226. valine
-	12227. vallecula
+	12221. [[vagus nerve]]
+	12222. [[VAIN]]
+	12223. [[valaciclovir]]
+	12224. [[valgus]]
+	12225. [[validity]]
+	12226. [[valine]]
+	12227. [[vallecula]]
 	12228. valproic acid
-	12229. Valsalva manoeuvre
+		1. see sodium valproate
+	12229. [[Valsalva manoeuvre]]
 	12230. valsartan
+		1. n. see ANGIOTENSIN II ANTAGONIST.
 	
-	12231. value judgment
-	12232. values ((in ethics))
-	12233. valve
+	12231. [[value judgment]]
+	12232. [[values]]
+	12233. [[valve]]
 	12234. valvoplasty
-	12235. valvotomy
-	12236. valvula
-	12237. valvulitis
-	12238. valvuloplasty
-	12239. vancomycin
-	12240. van den Bergh's test
+		1. $n$. see VALVULOPLASTY.
+	12235. [[valvotomy]]
+	12236. [[valvula]]
+	12237. [[valvulitis]]
+	12238. [[valvuloplasty]]
+	12239. [[vancomycin]]
+	12240. [[van den Bergh's test]]
 	
-	12241. vanillylmandelic acid
-	12242. vaporizer
+	12241. [[vanillylmandelic acid]]
+	12242. [[vaporizer]]
 	12243. Vaquez-Osler disease
+		1. see POLYCYTHAEMIA VERA. \[L. H. Vaquez (1860-1936), French physician; Sir W. Osler (1849-1919), Canadian physician]
 	12244. vardenafil
-	12245. variable((in statistics))
+		1. vardenafil $n$. see SILDENAFIL.
+	12245. [[variable]]
 	12246. variable positive airways pressure
+		1. see BIPAP.
 	12247. variance
+		1. n. see standard deviation
 	12248. variant Creutzfeldt-Jakob disease
+		1. (vCJD) see Creutzfeldt-JaKob DISEASE.
 	12249. varicectomy
+		1. $n$. see PHLEBECTOMY.
 	12250. varicella
+		1. n. see chickenpox
 	
 	12251. varices
-	12252. varicocele
-	12253. varicose veins
-	12254. varicotomy
-	12255. varifocal lenses
+		1. pl. n. see varicose veins
+	12252. [[varicocele]]
+	12253. [[varicose veins]]
+	12254. [[varicotomy]]
+	12255. [[varifocal lenses]]
 	12256. variola
-	12257. varioloid
-	12258. varix
-	12259. varus
-	12260. vas
+		1. n. see smallpox
+	12257. [[varioloid]]
+	12258. [[varix]]
+	12259. [[varus]]
+	12260. [[vas]]
 	
-	12261. vas-
-	12262. vasa efferentia
-	12263. vasa praevia
-	12264. vasa vasorum
-	12265. vascular
+	12261. [[vas-]]
+	12262. [[vasa efferentia]]
+	12263. [[vasa praevia]]
+	12264. [[vasa vasorum]]
+	12265. [[vascular]]
 	12266. vascular dementia
-	12267. vascular endothelial growth factor
-	12268. vascularization
+		1. see dementia
+	12267. [[vascular endothelial growth factor]]
+	12268. [[vascularization]]
 	12269. vascular system
-	12270. vasculitis
+		1. see cardiovascular system
+	12270. [[vasculitis]]
 	
-	12271. vasculogenesis
-	12272. vas deferens
-	12273. vasectomy
-	12274. vaso-combining form.
-	12275. vaso-epididymostomy
-	12276. vasoactive
+	12271. [[vasculogenesis]]
+	12272. [[vas deferens]]
+	12273. [[vasectomy]]
+	12274. vaso-
+		1. combining form. See VAS-
+	12275. [[vaso-epididymostomy]]
+	12276. [[vasoactive]]
 	12277. vasoactive intestinal peptide
-	12278. vasoconstriction
-	12279. vasoconstrictor
-	12280. vasodilatation
+		1. see VIP
+	12278. [[vasoconstriction]]
+	12279. [[vasoconstrictor]]
+	12280. [[vasodilatation]]
 	
-	12281. vasodilator
-	12282. vasography
-	12283. vasoligation
-	12284. vasomotion
-	12285. vasomotor
-	12286. vasomotor centre
-	12287. vasomotor nerve
-	12288. vasomotor symptoms
-	12289. vasopressin
-	12290. vasopressor
+	12281. [[vasodilator]]
+	12282. [[vasography]]
+	12283. [[vasoligation]]
+	12284. [[vasomotion]]
+	12285. [[vasomotor]]
+	12286. [[vasomotor centre]]
+	12287. [[vasomotor nerve]]
+	12288. [[vasomotor symptoms]]
+	12289. [[vasopressin]]
+	12290. [[vasopressor]]
 	
 	12291. vasospasm
-	12292. vasotomy
-	12293. vasovagal
-	12294. vasovagal attack
-	12295. vasovasostomy
-	12296. vasovesiculitis
-	12297. vastus
-	12298. vault prolapse
+		1. $n$. see Raynaud's DISEASE.
+	12292. [[vasotomy]]
+	12293. [[vasovagal]]
+	12294. [[vasovagal attack]]
+	12295. [[vasovasostomy]]
+	12296. [[vasovesiculitis]]
+	12297. [[vastus]]
+	12298. [[vault prolapse]]
 	12299. VCE
+		1. see VIDEO CAPSULE ENDOSCOPY.
 	12300. vCJD
+		1. see CREUTZFELDT-JAKOB DISEASE.
 	
-	12301. vectis
-	12302. vector
-	12303. vegetation((in pathology))
-	12304. vegetative
-	12305. vegetative state
+	12301. [[vectis]]
+	12302. [[vector]]
+	12303. [[vegetation]]
+	12304. [[vegetative]]
+	12305. [[vegetative state]]
 	12306. VEGF
-	12307. vehicle((in pharmacy))
-	12308. veil of ignorance
-	12309. vein
-	12310. velamen
+		1. see VASCULAR ENDOTHELIAL GROWTH FACTOR.
+	12307. [[vehicle]]
+	12308. [[veil of ignorance]]
+	12309. [[vein]]
+	12310. [[velamen]]
 	
 	12311. Velcade
-	12312. vellus
-	12313. velum((in anatomy))
+		1. $n$. see BORTEZOMIB.
+	12312. [[vellus]]
+	12313. [[velum]]
 	12314. VEMP
+		1. see VESTIBULAR EVOKED MYOGENIC POTENTIAL TEST.
 	12315. vena
-	12316. vena cava
-	12317. vene-
-	12318. veneer
-	12319. venene
-	12320. venepuncture
+		1. n. (pl. venae) see vein
+	12316. [[vena cava]]
+	12317. [[vene-]]
+	12318. [[veneer]]
+	12319. [[venene]]
+	12320. [[venepuncture]]
 	
 	12321. venereal disease
+		1. (VD) see sexually transmitted disease
 	12322. venesection
+		1. n. see phlebotomy
 	12323. venlafaxine
+		1. n. see snri
 	12324. veno-
-	12325. venoclysis
-	12326. venography
-	12327. venom
-	12328. venoplasty
+		1. combining form. see vene-.
+	12325. [[venoclysis]]
+	12326. [[venography]]
+	12327. [[venom]]
+	12328. [[venoplasty]]
 	12329. venosclerosis
-	12330. venous thromboembolism
+		1. $n$. see PHLEBOSCLEROSIS.
+	12330. [[venous thromboembolism]]
 	
-	12331. ventilation
-	12332. ventilation-perfusion scanning
-	12333. ventilator
-	12334. ventouse
-	12335. ventral
-	12336. ventricle
-	12337. ventricul-
-	12338. ventricular assist device
+	12331. [[ventilation]]
+	12332. [[ventilation-perfusion scanning]]
+	12333. [[ventilator]]
+	12334. [[ventouse]]
+	12335. [[ventral]]
+	12336. [[ventricle]]
+	12337. [[ventricul-]]
+	12338. [[ventricular assist device]]
 	12339. ventricular fibrillation
+		1. (VF) see fibrillation
 	12340. ventricular folds
+		1. see VOCAL FOLDS.
 	
-	12341. ventricular septal defect
-	12342. ventricular tachycardia
-	12343. ventriculitis
-	12344. ventriculoatriostomy
-	12345. ventriculography
+	12341. [[ventricular septal defect]]
+	12342. [[ventricular tachycardia]]
+	12343. [[ventriculitis]]
+	12344. [[ventriculoatriostomy]]
+	12345. [[ventriculography]]
 	12346. ventriculoperitoneal shunt
-	12347. ventriculoscopy
-	12348. ventriculostomy
-	12349. ventro-
+		1. see shunt
+	12347. [[ventriculoscopy]]
+	12348. [[ventriculostomy]]
+	12349. [[ventro-]]
 	12350. ventrofixation
+		1. $n$. see VENTROSUSPENSION.
 	
-	12351. ventrosuspension
-	12352. venule
-	12353. VERA
-	12354. verapamil
-	12355. Veress needle
-	12356. vermicide
+	12351. [[ventrosuspension]]
+	12352. [[venule]]
+	12353. [[VERA]]
+	12354. [[verapamil]]
+	12355. [[Veress needle]]
+	12356. [[vermicide]]
 	12357. vermiform appendix
-	12358. vermifuge
-	12359. vermis
-	12360. vermix
+		1. see appendix
+	12358. [[vermifuge]]
+	12359. [[vermis]]
+	12360. [[vermix]]
 	
-	12361. vernal conjunctivitis
+	12361. [[vernal conjunctivitis]]
 	12362. Verner-Morrison syndrome
-	12363. vernier
-	12364. vernix caseosa
+		1. see VIPoma. \[J. V. Verner (1927- ), US physician; A. B. Morrison (1922- ), Irish pathologist]
+	12363. [[vernier]]
+	12364. [[vernix caseosa]]
 	12365. verruca
-	12366. verrucous carcinoma
-	12367. version
-	12368. vertebra
+		1. (plantar wart) n. (pl. verrucae) see WART.
+	12366. [[verrucous carcinoma]]
+	12367. [[version]]
+	12368. [[vertebra]]
 	12369. vertebral column
-	12370. vertebroplasty
+		1. see backbone
+	12370. [[vertebroplasty]]
 	
 	12371. verteporfin
+		1. $n$. see PHOTODYNAMIC THERAPY.
 	12372. vertical banded gastroplasty
-	12373. vertical transmission
-	12374. vertigo
-	12375. very low-density lipoprotein
-	12376. vesical
-	12377. vesicant
-	12378. vesicle
-	12379. vesico-
+		1. see GASTROPLASTY; STOMACH STAPLING.
+	12373. [[vertical transmission]]
+	12374. [[vertigo]]
+	12375. [[very low-density lipoprotein]]
+	12376. [[vesical]]
+	12377. [[vesicant]]
+	12378. [[vesicle]]
+	12379. [[vesico-]]
 	12380. vesicofixation
+		1. $n$. see CYSTOPEXY.
 	
-	12381. vesicostomy
-	12382. vesicoureteric reflux
-	12383. vesicovaginal fistula
+	12381. [[vesicostomy]]
+	12382. [[vesicoureteric reflux]]
+	12383. [[vesicovaginal fistula]]
 	12384. vesicular breathing
-	12385. vesiculectomy
-	12386. vesiculitis
-	12387. vesiculography
-	12388. vessel
-	12389. vestibular apparatus
-	12390. vestibular evoked myogenic potential test
+		1. see breath sounds
+	12385. [[vesiculectomy]]
+	12386. [[vesiculitis]]
+	12387. [[vesiculography]]
+	12388. [[vessel]]
+	12389. [[vestibular apparatus]]
+	12390. [[vestibular evoked myogenic potential test]]
 	
-	12391. vestibular glands
-	12392. vestibular nerve
-	12393. vestibular neuronitis
-	12394. vestibular schwannoma
-	12395. vestibular system
-	12396. vestibule((in anatomy))
-	12397. vestibulocochlear nerve
-	12398. vestigial
+	12391. [[vestibular glands]]
+	12392. [[vestibular nerve]]
+	12393. [[vestibular neuronitis]]
+	12394. [[vestibular schwannoma]]
+	12395. [[vestibular system]]
+	12396. [[vestibule]]
+	12397. [[vestibulocochlear nerve]]
+	12398. [[vestigial]]
 	12399. VF
-	12400. viable
+		1. ventricular fibrillation
+	12400. [[viable]]
 	
 	12401. viable myocardium
+		1. see hibernating myocardium.
 	12402. Viagra
+		1. $n$. see SILDENAFIL.
 	12403. Vibramycin
-	12404. vibrator
-	12405. Vibrio
-	12406. vibrissa
-	12407. vicarious
-	12408. video-
-	12409. video-otoscope
-	12410. video capsule endoscopy
+		1. $n$. see DOXYCYCLINE.
+	12404. [[vibrator]]
+	12405. [[Vibrio]]
+	12406. [[vibrissa]]
+	12407. [[vicarious]]
+	12408. [[video-]]
+	12409. [[video-otoscope]]
+	12410. [[video capsule endoscopy]]
 	
-	12411. videofluoroscopy
+	12411. [[videofluoroscopy]]
 	12412. videokeratography
-	12413. videokymography
+		1. $n$. see CORNEAL TOPOGRAPHY.
+	12413. [[videokymography]]
 	12414. vildagliptin
-	12415. villus
+		1. $n$. see DPP-IV INHIBITORS.
+	12415. [[villus]]
 	12416. VIN
+		1. see VULVAL INTRAEPITHELIAL NEOPLASIA.
 	12417. vinblastine
-	12418. vinca alkaloid
+		1. $n$. see VINCA ALKALOID.
+	12418. [[vinca alkaloid]]
 	12419. Vincent's angina
+		1. an obsolete term for ulcerative gingivitis. \[H. Vincent (1862-1950), French physician]
 	12420. vincristine
+		1. $n$. see VINCA ALKALOID.
 	
-	12421. vinculum
+	12421. [[vinculum]]
 	12422. vindesine
+		1. $n$. see VINCA ALKALOID.
 	12423. vinflunine
+		1. $n$. see VINCA ALKALOID.
 	12424. vinorelbine
-	12425. VIP
-	12426. VIPoma
-	12427. viraemia
-	12428. viral pneumonia
-	12429. Virchow's node
-	12430. Virchow-Robin spaces
+		1. $n$. see VINCA ALKALOID.
+	12425. [[VIP]]
+	12426. [[VIPoma]]
+	12427. [[viraemia]]
+	12428. [[viral pneumonia]]
+	12429. [[Virchow's node]]
+	12430. [[Virchow-Robin spaces]]
 	
-	12431. virilism
-	12432. virilization
-	12433. virology
-	12434. virtue ethics
-	12435. virulence
-	12436. virus
-	12437. viscera
+	12431. [[virilism]]
+	12432. [[virilization]]
+	12433. [[virology]]
+	12434. [[virtue ethics]]
+	12435. [[virulence]]
+	12436. [[virus]]
+	12437. [[viscera]]
 	12438. visceral arch
+		1. see PHARYNGEAL ARCH.
 	12439. visceral cleft
-	12440. visceral hyperalgesia
+		1. see PHARYNGEAL CLEFT.
+	12440. [[visceral hyperalgesia]]
 	
 	12441. visceral pouch
-	12442. viscero-
-	12443. viscodissection
-	12444. viscoelastic material
+		1. see PHARYNGEAL POUCH.
+	12442. [[viscero-]]
+	12443. [[viscodissection]]
+	12444. [[viscoelastic material]]
 	12445. viscus
-	12446. visual acuity
-	12447. visual field
+		1. $n$. see VISCERA.
+	12446. [[visual acuity]]
+	12447. [[visual field]]
 	12448. visual pathway
+		1. see optic nerve
 	12449. visual purple
-	12450. visual reinforcement audiometry
+		1. see rhodopsin
+	12450. [[visual reinforcement audiometry]]
 	
-	12451. vital capacity
-	12452. vital centre
-	12453. Vitallium
-	12454. vital signs
-	12455. vital staining
+	12451. [[vital capacity]]
+	12452. [[vital centre]]
+	12453. [[Vitallium]]
+	12454. [[vital signs]]
+	12455. [[vital staining]]
 	12456. vital statistics
-	12457. vitamin
-	12458. vitamin A
-	12459. vitamin B
-	12460. vitamin B1
+		1. see biostatistics
+	12457. [[vitamin]]
+	12458. [[vitamin A]]
+	12459. [[vitamin B]]
+	12460. [[vitamin B_1]]
 	
-	12461. vitamin B12
-	12462. vitamin B2
-	12463. vitamin B6
-	12464. vitamin C
-	12465. vitamin D
-	12466. vitamin E
-	12467. vitamin K
-	12468. vitelliform degeneration
-	12469. vitellus
-	12470. vitiligo
+	12461. [[vitamin B_12]]
+	12462. [[vitamin B_2]]
+	12463. [[vitamin B_6]]
+	12464. [[vitamin C]]
+	12465. [[vitamin D]]
+	12466. [[vitamin E]]
+	12467. [[vitamin K]]
+	12468. [[vitelliform degeneration]]
+	12469. [[vitellus]]
+	12470. [[vitiligo]]
 	
-	12471. vitrectomy
-	12472. vitreous detachment
-	12473. vitreous humour
-	12474. vitrification
-	12475. vitritis
-	12476. viviparous
-	12477. vivisection
+	12471. [[vitrectomy]]
+	12472. [[vitreous detachment]]
+	12473. [[vitreous humour]]
+	12474. [[vitrification]]
+	12475. [[vitritis]]
+	12476. [[viviparous]]
+	12477. [[vivisection]]
 	12478. VMA
-	12479. vocal folds
+		1. see VANILLYLMANDELIC ACID.
+	12479. [[vocal folds]]
 	12480. vocal fremitus
+		1. see fremitus
 	
-	12481. vocal resonance
+	12481. [[vocal resonance]]
 	12482. vocational training
-	12483. volar
-	12484. Volkmann's contracture
-	12485. volsellum
-	12486. volt
-	12487. voluntary
-	12488. voluntary admission
-	12489. voluntary hospital
+		1. see foundation training
+	12483. [[volar]]
+	12484. [[Volkmann's contracture]]
+	12485. [[volsellum]]
+	12486. [[volt]]
+	12487. [[voluntary]]
+	12488. [[voluntary admission]]
+	12489. [[voluntary hospital]]
 	12490. voluntary muscle
+		1. see striated muscle
 	
-	12491. volvulus
-	12492. vomer
-	12493. vomica
-	12494. vomit
-	12495. vomiting
-	12496. von Hippel-Lindau disease
-	12497. von Recklinghausen's disease
+	12491. [[volvulus]]
+	12492. [[vomer]]
+	12493. [[vomica]]
+	12494. [[vomit]]
+	12495. [[vomiting]]
+	12496. [[von Hippel-Lindau disease]]
+	12497. [[von Recklinghausen's disease]]
 	12498. Von Rosen's sign
-	12499. von Willebrand's disease
-	12500. voxel
+		1. see BARLOW MANOEUVRE. \[S. Von Rosen, Swedish orthopaedic surgeon]
+	12499. [[von Willebrand's disease]]
+	12500. [[voxel]]
 	
-	12501. vPAP
+	12501. [[vPAP]]
 	12502. VRA
+		1. see VISUAL REINFORCEMENT AUDIOMETRY.
 	12503. VSD
+		1. see VENTRICULAR SEPTAL DEFECT.
 	12504. VT
+		1. see VENTRICULAR TACHYCARDIA.
 	12505. VTE
-	12506. VT storm
-	12507. vulnerability
+		1. see VENOUS THROMBOEMBOLISM.
+	12506. [[VT storm]]
+	12507. [[vulnerability]]
 	12508. vulsellum
-	12509. vulv-
-	12510. vulva
+		1. n. se volsellum
+	12509. [[vulv-]]
+	12510. [[vulva]]
 	
-	12511. vulval cancer
-	12512. vulval intraepithelial neoplasia
-	12513. vulval vestibulitis
-	12514. vulvectomy
-	12515. vulvitis
-	12516. vulvodynia
-	12517. vulvovaginitis
-	12518. Waardenburg's syndrome
-	12519. wafer
-	12520. WAGR syndrome
+	12511. [[vulval cancer]]
+	12512. [[vulval intraepithelial neoplasia]]
+	12513. [[vulval vestibulitis]]
+	12514. [[vulvectomy]]
+	12515. [[vulvitis]]
+	12516. [[vulvodynia]]
+	12517. [[vulvovaginitis]]
+	12518. [[Waardenburg's syndrome]]
+	12519. [[wafer]]
+	12520. [[WAGR syndrome]]
 	
-	12521. waist to hip ratio
+	12521. [[waist to hip ratio]]
 	12522. waiter's-tip deformity
-	12523. waiting list
-	12524. Waldenstrom's macroglobulinaemia
-	12525. Waldeyer's ring
-	12526. walking distance
-	12527. Wallerian degeneration
-	12528. warfarin
-	12529. wart
-	12530. Warthin's tumour
+		1. waiter's-tip deformity see ERb's PALSY.
+	12523. [[waiting list]]
+	12524. [[Waldenstrom's macroglobulinaemia]]
+	12525. [[Waldeyer's ring]]
+	12526. [[walking distance]]
+	12527. [[Wallerian degeneration]]
+	12528. [[warfarin]]
+	12529. [[wart]]
+	12530. [[Warthin's tumour]]
 	
-	12531. Wassermann reaction
-	12532. water-deprivation test
-	12533. water bed
-	12534. waterbrash
-	12535. Waterhouse-Friderichsen syndrome
-	12536. Waters' projection
-	12537. watt
-	12538. Watzke-Allen sign
-	12539. weal
-	12540. weaning
+	12531. [[Wassermann reaction]]
+	12532. [[water-deprivation test]]
+	12533. [[water bed]]
+	12534. [[waterbrash]]
+	12535. [[Waterhouse-Friderichsen syndrome]]
+	12536. [[Waters' projection]]
+	12537. [[watt]]
+	12538. [[Watzke-Allen sign]]
+	12539. [[weal]]
+	12540. [[weaning]]
 	
-	12541. weber
-	12542. Weber's test
-	12543. web space
-	12544. Wechsler scales
+	12541. [[weber]]
+	12542. [[Weber's test]]
+	12543. [[web space]]
+	12544. [[Wechsler scales]]
 	12545. Wegener's granulomatosis
-	12546. Weigart-Meyer rule
+		1. see GRANULOMATOSIS WITH POLYANGIITIS. \[F. Wegener (1907-90), German pathologist]
+	12546. [[Weigart-Meyer rule]]
 	12547. Weil's disease
-	12548. Weil-Felix reaction
-	12549. Weiss ring
+		1. see LePtOSPIROSIS. \[A. Weil (1848-1916), German physician]
+	12548. [[Weil-Felix reaction]]
+	12549. [[Weiss ring]]
 	12550. Welch's bacillus
+		1. see Clostridium. \[W. H. Welch (1850-1934), US pathologist]
 	
-	12551. Werdnig-Hoffmann disease
+	12551. [[Werdnig-Hoffmann disease]]
 	12552. Wermer's syndrome
-	12553. Werner's syndrome
-	12554. Wernicke's encephalopathy
-	12555. Wertheim's hysterectomy
-	12556. Western blot analysis
-	12557. West Nile fever
+		1. see MENS. \[P. Wermer, US physician]
+	12553. [[Werner's syndrome]]
+	12554. [[Wernicke's encephalopathy]]
+	12555. [[Wertheim's hysterectomy]]
+	12556. [[Western blot analysis]]
+	12557. [[West Nile fever]]
 	12558. wet-and-dry bulb hygrometer
-	12559. Wharton's duct
-	12560. Wharton's jelly
+		1. see hygrometer
+	12559. [[Wharton's duct]]
+	12560. [[Wharton's jelly]]
 	
-	12561. wheeze
-	12562. whiplash injury
-	12563. Whipple's disease
+	12561. [[wheeze]]
+	12562. [[whiplash injury]]
+	12563. [[Whipple's disease]]
 	12564. Whipple's operation
-	12565. Whipple's triad
-	12566. whipworm
-	12567. whistle-blowing
-	12568. Whitaker's test
+		1. see PANCREATECTOMY. \[A. O. Whipple (1881-1963), US surgeon]
+	12565. [[Whipple's triad]]
+	12566. [[whipworm]]
+	12567. [[whistle-blowing]]
+	12568. [[Whitaker's test]]
 	12569. white blood cell
+		1. see leucocyte
 	12570. white fat
+		1. see brown fat
 	
-	12571. white finger
-	12572. white matter
-	12573. white noise instrument
+	12571. [[white finger]]
+	12572. [[white matter]]
+	12573. [[white noise instrument]]
 	12574. whitlow
+		1. $n$. see PARONYCHIA.
 	12575. WHO
-	12576. WHO checklist
-	12577. whoop
-	12578. whooping cough
+		1. see World Health Organization
+	12576. [[WHO checklist]]
+	12577. [[whoop]]
+	12578. [[whooping cough]]
 	12579. WHR
-	12580. Widal reaction
+		1. see waist to hip ratio
+	12580. [[Widal reaction]]
 	
-	12581. Williams syndrome
-	12582. Williams vulvovaginoplasty
+	12581. [[Williams syndrome]]
+	12582. [[Williams vulvovaginoplasty]]
 	12583. Wilms' tumour
-	12584. Wilson's disease
-	12585. windigo psychosis
-	12586. windowing
+		1. see NEPHROBLASTOMA. \[M. Wilms (1867-1918), German surgeon]
+	12584. [[Wilson's disease]]
+	12585. [[windigo psychosis]]
+	12586. [[windowing]]
 	12587. windpipe
-	12588. wisdom tooth
-	12589. Wiskott-Aldrich syndrome
-	12590. witch hazel
+		1. n. see trachea
+	12588. [[wisdom tooth]]
+	12589. [[Wiskott-Aldrich syndrome]]
+	12590. [[witch hazel]]
 	
-	12591. withdrawal
+	12591. [[withdrawal]]
 	12592. withdrawal symptoms
-	12593. Wohlfahrtia
-	12594. Wolff-Chaikoff effect
-	12595. Wolff-Parkinson-White syndrome
+		1. see dependence
+	12593. [[Wohlfahrtia]]
+	12594. [[Wolff-Chaikoff effect]]
+	12595. [[Wolff-Parkinson-White syndrome]]
 	12596. Wolffian body
+		1. see MESONEPHROS. \[K. F. Wolff (1733-94), German anatomist]
 	12597. Wolffian duct
-	12598. Wolfram syndrome
+		1. see MESONEPHROS.
+	12598. [[Wolfram syndrome]]
 	12599. womb
-	12600. Wood's light
+		1. n. see uterus
+	12600. [[Wood's light]]
 	
-	12601. Woods' screw manoeuvre
+	12601. [[Woods' screw manoeuvre]]
 	12602. woolsorter's disease
+		1. see anthrax
 	12603. word blindness
-	12604. working tax credit
-	12605. World Health Organization
-	12606. worm
-	12607. wormian bone
-	12608. wound
-	12609. wound colonization
-	12610. woven bone
+		1. see alexia
+	12604. [[working tax credit]]
+	12605. [[World Health Organization]]
+	12606. [[worm]]
+	12607. [[wormian bone]]
+	12608. [[wound]]
+	12609. [[wound colonization]]
+	12610. [[woven bone]]
 	
-	12611. wrist
-	12612. wrist drop
+	12611. [[wrist]]
+	12612. [[wrist drop]]
 	12613. wryneck
-	12614. Wuchereria
+		1. n. see torticollis
+	12614. [[Wuchereria]]
 	12615. X-linked disease
-	12616. X-linked lymphoproliferative syndrome
-	12617. X-rays
-	12618. X-ray screening
-	12619. xanthaemia
-	12620. xanthelasma
+		1. see sex-linked
+	12616. [[X-linked lymphoproliferative syndrome]]
+	12617. [[X-rays]]
+	12618. [[X-ray screening]]
+	12619. [[xanthaemia]]
+	12620. [[xanthelasma]]
 	
-	12621. xanthine
-	12622. xanthinuria
-	12623. xantho-
-	12624. xanthochromia
-	12625. xanthoma
-	12626. xanthomatosis
-	12627. xanthophyll
-	12628. xanthopsia
-	12629. X chromosome
+	12621. [[xanthine]]
+	12622. [[xanthinuria]]
+	12623. [[xantho-]]
+	12624. [[xanthochromia]]
+	12625. [[xanthoma]]
+	12626. [[xanthomatosis]]
+	12627. [[xanthophyll]]
+	12628. [[xanthopsia]]
+	12629. [[X chromosome]]
 	12630. Xeloda
+		1. n. see CAPECITABINE.
 	
-	12631. xeno-
-	12632. xenodiagnosis
-	12633. xenogeneic
-	12634. xenograft
-	12635. xenon-133
-	12636. xenophobia
-	12637. Xenopsylla
-	12638. xenotransplantation
-	12639. xero-
-	12640. xeroderma
+	12631. [[xeno-]]
+	12632. [[xenodiagnosis]]
+	12633. [[xenogeneic]]
+	12634. [[xenograft]]
+	12635. [[xenon-133]]
+	12636. [[xenophobia]]
+	12637. [[Xenopsylla]]
+	12638. [[xenotransplantation]]
+	12639. [[xero-]]
+	12640. [[xeroderma]]
 	
-	12641. xerophthalmia
-	12642. xeroradiography
-	12643. xerosis
+	12641. [[xerophthalmia]]
+	12642. [[xeroradiography]]
+	12643. [[xerosis]]
 	12644. xerostomia
-	12645. xiphi-
+		1. n. see dry mouth. Compare ptyalism
+	12645. [[xiphi-]]
 	12646. xiphisternum
-	12647. xiphoid process
+		1. n. see xiphoid process
+	12647. [[xiphoid process]]
 	12648. XLP syndrome
+		1. see X-LINKED LYMPHOPROLIFERATIVE SYNDROME.
 	12649. Xolair
-	12650. xylene
+		1. n. see OMALIZUMAB.
+	12650. [[xylene]]
 	
-	12651. xylometazoline
-	12652. xylose
-	12653. YAG laser
-	12654. yawning
-	12655. yaws
-	12656. Y chromosome
-	12657. years of life lost
-	12658. yeast
-	12659. yellow fever
+	12651. [[xylometazoline]]
+	12652. [[xylose]]
+	12653. [[YAG laser]]
+	12654. [[yawning]]
+	12655. [[yaws]]
+	12656. [[Y chromosome]]
+	12657. [[years of life lost]]
+	12658. [[yeast]]
+	12659. [[yellow fever]]
 	12660. yellow spot
+		1. see macula
 	
-	12661. Yersinia
+	12661. [[Yersinia]]
 	12662. YLL
-	12663. yolk
-	12664. yolk sac
+		1. see years of life lost
+	12663. [[yolk]]
+	12664. [[yolk sac]]
 	12665. YPLL
-	12666. yttrium-90
+		1. see years of life lost
+	12666. [[yttrium-90]]
 	12667. zafirlukast
+		1. $n$. see LEUKOTRIENE RECEPTOR ANTAGONIST.
 	12668. zaleplon
-	12669. zanamivir
+		1. $n$. see HYPNOTIC.
+	12669. [[zanamivir]]
 	12670. Zantac
+		1. n. see ranitidine
 	
 	12671. zeaxanthin
-	12672. zein
-	12673. zidovudine
-	12674. Ziehl-Neelsen stain
-	12675. Zieve's syndrome
-	12676. Zika virus
-	12677. zinc
-	12678. zinc oxide
-	12679. zinc sulphate
-	12680. zinc undecenoate
+		1. n. see lutein
+	12672. [[zein]]
+	12673. [[zidovudine]]
+	12674. [[Ziehl-Neelsen stain]]
+	12675. [[Zieve's syndrome]]
+	12676. [[Zika virus]]
+	12677. [[zinc]]
+	12678. [[zinc oxide]]
+	12679. [[zinc sulphate]]
+	12680. [[zinc undecenoate]]
 	
-	12681. zoledronic acid
-	12682. Zollinger-Ellison syndrome
+	12681. [[zoledronic acid]]
+	12682. [[Zollinger-Ellison syndrome]]
 	12683. zolmitriptan
+		1. $n$. see $5 \mathrm{HT}_{1}$ AGONIST.
 	12684. zolpidem
-	12685. zona pellucida
+		1. n. see hypnotic
+	12685. [[zona pellucida]]
 	12686. zonula
-	12687. zonule((in anatomy))
-	12688. zonulolysis
-	12689. zoo-
-	12690. zoonosis
+		1. n. see zonule
+	12687. [[zonule]]
+	12688. [[zonulolysis]]
+	12689. [[zoo-]]
+	12690. [[zoonosis]]
 	
-	12691. zoophobia
+	12691. [[zoophobia]]
 	12692. zopiclone
-	12693. zwitterion
+		1. n. see hypnotic
+	12693. [[zwitterion]]
 	12694. Zyban
+		1. n. see bupropion
 	12695. zygoma
-	12696. zygomatic arch
-	12697. zygomatic bone
-	12698. zygote
-	12699. zygotene
-	12700. zym-
+		1. n. see ZYGOMATIC ARCH; ZYGOMATIC BONE.
+	12696. [[zygomatic arch]]
+	12697. [[zygomatic bone]]
+	12698. [[zygote]]
+	12699. [[zygotene]]
+	12700. [[zym-]]
 	
 	12701. zymogen
-	12702. zymology
-	12703. zymolysis
-	12704. zymosis
-	12705. zymotic disease
+		1. n. see proenzyme
+	12702. [[zymology]]
+	12703. [[zymolysis]]
+	12704. [[zymosis]]
+	12705. [[zymotic disease]]

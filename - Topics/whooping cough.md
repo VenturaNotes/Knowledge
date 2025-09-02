@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- an acute highly infectious disease usually caused by the bacterium Bordetella pertussis, primarily affecting infants and often occurring in epidemics. After an incubation period of 1-2 weeks there is a catarrhal stage, in which the infant has signs of an upper respiratory tract infection; transmission is through droplet spread. This is followed by an irritating cough that gradually becomes paroxysmal within 1-2 weeks. The paroxysms are followed by a characteristic whoop and vomiting. In the very young the classical whoop may not develop and instead the paroxysms may be followed by periods of apnoea. The illness can last 2-3 months, giving it the name 'the cough of 100 days' in some countries. Infection can be complicated by bronchopneumonia, weight loss due to repeated vomiting, bronchiectasis, and convulsions due to asphyxia or bleeding into the brain tissue. Minor complications include subconjunctival haemorrhage, epistaxis (nosebleed), facial oedema, and ulceration of the tongue.
+- Immunization against the infection was introduced in the UK in the 1950s and offers protection. An attack usually confers lifelong immunity. Despite good vaccine coverage resulting in the current low levels of disease, whooping cough is still a significant cause of illness and death in the very young. Medical name: pertussis.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

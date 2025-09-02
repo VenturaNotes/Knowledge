@@ -493,38 +493,43 @@ Reviewed: false
 	389. [[amphetamine-related disorders]]
 	390. [[amphetamine psychosis]]
 	
-	391. amphiboly
-	392. amphipathic
-	393. amplification
-	394. amplitude
-	395. ampulla
+	391. [[amphiboly]]
+	392. [[amphipathic]]
+	393. [[amplification]]
+	394. [[amplitude]]
+	395. [[ampulla]]
 	396. amputee
+		1. See ACROTOMORPHILIA, APOTEMNOPHILIA.
 	397. amuck
+		1. see amok
 	398. amurakh
-	399. amusia
-	400. amygdala
+		1. see latah
+	399. [[amusia]]
+	400. [[amygdala]]
 	
-	401. amygdalohippocampectomy
-	402. amyl nitrite
+	401. [[amygdalohippocampectomy]]
+	402. [[amyl nitrite]]
 	403. amylobarbitone
-	404. amyloid plaque
-	405. amyotrophic lateral sclerosis
-	406. Amytal
+		1. $n$. See amobarbital.
+	404. [[amyloid plaque]]
+	405. [[amyotrophic lateral sclerosis]]
+	406. [[Amytal]]
 	407. anabolic androgenic steroid
-	408. anabolic steroid
-	409. anabolism
-	410. anaclitic
+		1. See anabolic steroid. AAS abbrev.
+	408. [[anabolic steroid]]
+	409. [[anabolism]]
+	410. [[anaclitic]]
 	
-	411. anaclitic depression
-	412. anaclitic object-choice
-	413. anacoluthon
-	414. anacusia
-	415. anaerobic
-	416. anaesthesia
-	417. anaesthetic
-	418. Anafranil
-	419. anaglyph
-	420. anaglyptoscope
+	411. [[anaclitic depression]]
+	412. [[anaclitic object-choice]]
+	413. [[anacoluthon]]
+	414. [[anacusia]]
+	415. [[anaerobic]]
+	416. [[anaesthesia]]
+	417. [[anaesthetic]]
+	418. [[Anafranil]]
+	419. [[anaglyph]]
+	420. [[anaglyptoscope]]
 	
 	421. anagogic interpretation
 	422. anal-expulsive phase
