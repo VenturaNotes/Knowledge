@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- the area in front of the eye in any part of which an object can be seen without moving the eye. With both eyes open and looking straight forward it is possible to see well-illuminated objects placed anywhere in front of the eyes, although the eyebrows and eyelids reduce the extent of the field somewhat. This is the binocular visual field. With only one eye open the field is uniocular and is restricted inwards by the nose. If the object is small or poorly illuminated it will not be seen until it is moved closer to the point at which the eye is actually looking, i.e. nearer to the centre of the visual field. Similarly, coloured objects are not seen so far away from the centre as are white objects of the same size and brightness. This is because the retina is not uniformly sensitive to light of different colours or intensities (see ROD; CONE): retinal sensitivity increases towards its centre (the macula). Thus, while there is an absolute visual field beyond which things cannot be seen, no matter how large or bright they are, a relative field exists for objects of different brightness, size, and colour. The most common visual field loss is due to glaucoma. See also PERIMETER.
+## References
+
+[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
