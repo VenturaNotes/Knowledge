@@ -8,4 +8,4 @@
 	- external failure costs. These are the costs incurred when the customer receives a poor quality product. Examples include the costs of investigating complaints, of replacing products returned by the customer, and warranty charges. If the customer is dissatisfied and finds a new supplier, the total cost will be much higher. See also ENVIRONMENTAL COSTS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

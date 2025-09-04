@@ -5,4 +5,4 @@
 - Averaging out is the opposite process, of selling a large holding at various price levels over a long period.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

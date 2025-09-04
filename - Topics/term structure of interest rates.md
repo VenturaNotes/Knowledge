@@ -6,5 +6,5 @@
 - The relation between the rate of interest paid by a financial security and the time until maturity of the security. The term structure is generally upward-sloping so that securities with longer maturities pay higher rates of interest. This slope may be reversed if on average interest rates are expected to fall.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -15,5 +15,5 @@
 - Buying goods for resale without further processing. Debt factoring is buying debts due from another business's customers and collecting them.
 ## References
 [^1]: [[(Video) Factoring an expression with a greater than one and two square variables 8x squared -6xy -9y squared]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

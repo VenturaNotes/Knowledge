@@ -6,5 +6,5 @@
 - A chapter of the Maastricht Treaty of 1993, dealing largely with social questions, including employment protection and works councils. The UK government chose originally to opt out of this section of the treaty, but has since accepted it.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

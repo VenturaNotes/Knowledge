@@ -6,5 +6,5 @@
 - The analysis of how individual assets should be selected for a portfolio to achieve the most preferred combination of risk and return. Portfolio theory studies how the returns and risks of individual assets interact when combined into a portfolio. The fundamental results of the theory are the characterization of the portfolio frontier (the set of portfolios that maximize return for a given level of risk) and the identification of the minimum variance portfolio (the portfolio with the least variance). Any risk-averse investor will select a portfolio from the efficient frontier according to their degree of risk aversion. The higher the degree of risk aversion, the closer will be the chosen portfolio to the minimum variance portfolio. See also MEAN-VARIANCE PREFERENCES.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - The costs incurred by a firm when it changes its prices. The term alludes to the case of a restaurant, which is obliged to reprint its menus every time it changes a price; this means that it will only make such changes when the costs of not doing so clearly outweigh the cost and inconvenience of reprinting. Menu costs are frequently cited as one explanation for the stickiness of prices, i.e. their failure to respond immediately to shifts in supply and demand. Some analysts have argued that e-commerce will eradicate most traditional forms of menu costs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

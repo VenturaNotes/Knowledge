@@ -5,4 +5,4 @@
 - Insurable interest was made a condition of all insurance by the Life Assurance Act 1774. Without an insurable interest, an insured person is unable to enforce an insurance contract (or life-assurance contract) as it is the insurable interest that distinguishes insurance from a bet or wager.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

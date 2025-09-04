@@ -7,5 +7,5 @@
 - An excess of the receipts over the spending of a business during any period. This includes credit transactions and asset revaluations as well as cash transactions and changes in holdings of real assets. Profit for a period includes dividends and profits taxes as well as the excess of net assets at the end of the period over net assets at its start. So long as a business is a going concern, its profits are a matter of judgement rather than objective fact. Only when a business has been finally wound up and its assets converted to cash can profits be objectively measured. Until then, judgement is required as to the valuation of physical and financial assets, particularly if they are not traded on liquid markets, and as to the quality of debts due from credit customers. See also EXCESS PROFIT; GROSS PROFIT; MONOPOLY PROFIT; NET PROFIT; NORMAL PROFITS; PRE-TAX PROFITS; SUPERNORMAL PROFIT; UNDISTRIBUTED PROFITS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (3) Formerly, the standard monetary unit of Malta, divided into 100 cents. Malta adopted the euro in 2008.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

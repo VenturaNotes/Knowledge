@@ -10,6 +10,6 @@
 - (3) A sum of money paid as the first instalment on a hire-purchase agreement. It is usually paid when the buyer takes possession of the goods.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

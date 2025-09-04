@@ -5,4 +5,4 @@
 - (2) The interest rate charged by a European commercial bank lending against security.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

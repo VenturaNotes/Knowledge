@@ -6,4 +6,4 @@
 - A charge can also be created upon shares. For example, the articles of association usually give the company a lien in respect of unpaid calls, and company members may, in order to secure a debt owed to a third party, charge their shares, either by a full transfer of shares coupled with an agreement to retransfer upon repayment of the debt or by a deposit of the share certificate.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) In the USA, an account with a credit union (a non-profit making co-operative institution) that pays dividends rather than interest.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

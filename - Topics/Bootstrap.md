@@ -15,6 +15,6 @@
 - (4) A technique enabling a computer to load a program of instructions. Before computer hardware can function, a program must be loaded into it. However, as a program is needed in the computer to enable it to load a program, preliminary instructions are stored permanently in the computer making it possible for longer programs to be accepted.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

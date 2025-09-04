@@ -6,5 +6,5 @@
 - An IOU issued by a borrower to a lender. Bonds usually take the form of fixed-interest securities issued by governments, local authorities, or companies. However, bonds come in many forms: with fixed or variable rates of interest, redeemable or irredeemable, short- or long-term, secured or unsecured, and marketable or unmarketable. Fixed-interest payments are usually made twice a year but may alternatively be credited at the end of the agreement (typically 5 to 10 years). The borrower repays a specific sum of money plus the face value (par) of the bond. Most bonds are unsecured and do not grant shares in an organization (see DEBENTURE). Bonds are usually sold against loans, mortgages, credit-card income, etc., as marketable securities. A discount bond is one sold below its face value; a premium bond is one sold above par. See also EUROBOND; INCOME BOND; PREMIUM BONDS. Compare NOTE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

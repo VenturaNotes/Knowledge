@@ -9,4 +9,4 @@
 - The potential profitability of a particular marketing mix and its acceptability to its market are assessed by marketing research. See also EXTENDED MARKETING MIX.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

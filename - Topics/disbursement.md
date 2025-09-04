@@ -5,4 +5,4 @@
 - (2) A payment made by an agent, often a professional such as a solicitor, on behalf of a client.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

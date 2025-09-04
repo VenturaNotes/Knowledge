@@ -11,5 +11,5 @@ aliases:
 - (2) An expenditure, usually of money, incurred in achieving a goal, e.g. producing certain goods, building a factory, or closing down a branch. See also CURRENT COST; ECONOMIC COSTS; FIXED COST; HISTORICAL COST; MARGINAL COST; OPPORTUNITY COST; REPLACEMENT COST.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

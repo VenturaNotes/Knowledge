@@ -6,5 +6,5 @@
 - A change in the proportions of debt and equity in a company's capital structure. An example of recapitalization is using the proceeds from a new issue of shares to buy back the company's debt securities, thus reducing the company's leverage.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -8,4 +8,4 @@
 - are two of the stereotypes that have to be resisted in carrying out job selection interviews. See also HORNS AND HALO EFFECT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

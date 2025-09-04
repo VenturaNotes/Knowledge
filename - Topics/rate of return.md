@@ -6,5 +6,5 @@
 - The increase in the value of an asset expressed as a proportion of the asset's initial value over a given time period (the 'holding period'). For example, if a share costs $£ 2.00$ to purchase and a year later is worth $£ 2.10$, the return over the holding period of a year is (2.10- 2.00) / 2.00 = 0.05. A rate of return can be calculated before or after the deduction of tax, and over any length of holding period. See also INTERNAL RATE OF RETURN; REQUIRED RATE OF RETURN.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

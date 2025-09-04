@@ -7,5 +7,5 @@
 - $n$. (in biochemistry) a substance that is essential to a physiological process, often a substance the nature of which is unknown. See also COAGULATION FACTORS; GROWTH FACTOR.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

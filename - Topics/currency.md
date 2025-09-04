@@ -11,6 +11,6 @@
 - (4) The time that has to elapse before a bill of exchange matures.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

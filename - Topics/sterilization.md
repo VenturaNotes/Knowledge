@@ -8,5 +8,5 @@
 - (2) the process by which all types of microorganisms (including spores) are destroyed. This is achieved by the use of heat, radiation, chemicals, or filtration. See also AUTOCLAVE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

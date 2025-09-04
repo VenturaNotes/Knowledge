@@ -8,6 +8,6 @@
 - $n$. a system in which the medical register shows whether a doctor is a licensed medical practitioner or holds registration only. It is the licence to practise rather than registration that signifies to patients and employers that a doctor has the legal authority to hold a post as a doctor, write prescriptions, sign death certificates, and exercise various other legal privileges. See also REVALIDATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

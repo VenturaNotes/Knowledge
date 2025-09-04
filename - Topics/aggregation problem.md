@@ -5,4 +5,4 @@
 - (2) The erroneous interpretation of observed association between two variables at the aggregate level as evidence of association at the individual level. This is also known as the ecological fallacy.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

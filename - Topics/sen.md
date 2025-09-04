@@ -7,4 +7,4 @@
 - (4) A former monetary unit of Japan (still used as a unit of account), worth one hundredth of a yen.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

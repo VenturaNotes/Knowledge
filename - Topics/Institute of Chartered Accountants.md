@@ -6,4 +6,4 @@
 	- Website of the Institute of Chartered Accountants in England and Wales: provides technical information, advice on training and careers, and help in finding a chartered accountant
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Subsequently, the entrepreneur can either revitalize the management of the company and later sell off the acquired shareholding at a profit or, in some cases, close the business down. Because the asset stripper is heedless of the welfare of the other shareholders, the employees, the suppliers, or creditors of the stripped company, the practice is generally deprecated. See also PRIVATE EQUITY FIRM.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -11,5 +11,5 @@
 - (3) A synonym for share. Common stock is the US term for ordinary share. Government stock is government debt instruments. See also ALPHA STOCKS; BETA STOCKS; COMMON STOCK; GAMMA STOCKS; OVER-THE-COUNTER MARKET.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -10,5 +10,5 @@
 - (5) That part of the balance of payments account that shows flows of money between currencies for investment purposes.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) The activity of a solicitor when dealing with proceedings in a court of law.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

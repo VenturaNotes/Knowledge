@@ -31,4 +31,4 @@
 [^2]: https://www.proprofs.com/quiz-school/story.php?title=economics-practice-test_3
 [^3]: [[(Home Page) Principles of Economics 3e by OpenStax]]
 [^4]: [[(Home Page) Principles of Economics 3e by OpenStax#The Division of and Specialization of Labor]]
-[^5]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

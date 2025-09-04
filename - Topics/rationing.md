@@ -6,5 +6,5 @@
 - $n$. the process of allocating health-care resources among a population when demand outstrips supply. Where "first come first served" is not considered an appropriate policy, access to treatment may be rationed on a basis of need, effectiveness, or quality of life. See EQUALITY; JUSTICE; NICE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

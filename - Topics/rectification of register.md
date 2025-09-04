@@ -5,4 +5,4 @@
 - (2) An alteration of the register of members of a company by the court if any members have been omitted, a person's name has been wrongly entered, or delay has occurred in removing the name of a former member. The court may award damages as well as rectifying the register.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

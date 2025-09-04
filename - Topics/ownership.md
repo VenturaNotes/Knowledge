@@ -6,5 +6,5 @@
 - The right to exclusive use of an asset. The owner of an asset normally has the right to decide what use shall be made of it, and cannot be deprived of it except by law. The state, however, claims the right to regulate the use of many assets, and to tax income derived from them. The use that can be made of land and buildings is subject to planning permission, and rent from them is subject to income tax. The state also has rights of compulsory purchase of land needed for public works. Other people have contractual rights over assets, such as tenancies; and the general public has some rights, for example public rights of way. The extent to which ownership confers exclusive control over the use of an asset is thus a matter of degree. See also PUBLIC OWNERSHIP.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

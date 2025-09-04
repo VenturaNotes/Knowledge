@@ -6,5 +6,5 @@
 - The observation that a contract which promises payment on the occurrence of certain events will cause a change in behavior to make these events more likely. For example, moral hazard suggests that if possessions are fully insured, their owners are likely to take less good care of them than if they were uninsured. The consequence is that insurance companies cannot offer full insurance. Moral hazard results from asymmetric information and is a cause of market failure. See also PRINCIPAL-AGENT PROBLEM.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

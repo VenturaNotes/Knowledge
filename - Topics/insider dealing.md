@@ -6,5 +6,5 @@
 - Stock exchange transactions by 'insiders'. These are people who through their positions in or contacts with companies are able to obtain price-sensitive information, such as profits figures or news of takeover bids, in a more detailed and accurate form, and, in particular, earlier than 'outsiders', who have to rely on published information. Insiders are able to profit by their superior information, buying before share prices rise and selling before share prices fall. Insider dealing is restricted both by stock exchange regulations and by law in many countries.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

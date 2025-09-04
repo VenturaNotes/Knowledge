@@ -13,4 +13,4 @@
 	- Force-field analysis. A simple force-field diagram analyzing whether or not to move house.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

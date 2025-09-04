@@ -6,5 +6,5 @@
 - Benefits from combining different businesses. For example, if company $A$ has a large stock of good ideas ripe for development but few production facilities or funds, and company $B$ has a large fund of accumulated reserves and factories whose products face declining markets, the two can both benefit by combining their businesses. Benefits from synergy are frequently claimed by the promoters of mergers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

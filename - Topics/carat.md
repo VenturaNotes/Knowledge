@@ -5,4 +5,4 @@
 - (2) A unit for measuring the weight of a diamond or other gemstone, equal to 0.2 gram.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

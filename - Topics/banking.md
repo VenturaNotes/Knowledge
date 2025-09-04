@@ -6,5 +6,5 @@
 - The activities undertaken by banks; this includes personal banking (non-business customers), commercial banking (small and medium-sized business customers), and corporate and investment banking (large international and multinational corporations, pension funds, hedge funds). In the UK most banking for both business and personal customers is undertaken through the high-street banks, known as branch banking (see also COMMERCIAL BANK.)
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - A UK government account at the Bank of England, in which the country's gold and foreign exchange reserves, and the International Monetary Fund special drawing rights are held. This account is used to intervene in the foreign exchange market.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

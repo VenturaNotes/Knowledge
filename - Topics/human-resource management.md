@@ -5,4 +5,4 @@
 - HRM was traditionally called personnel management and involved such responsibilities as interviewing job applicants, providing training, and storing personal data on employees. However, current trends place a greater emphasis on the morale and motivation of employees, which is increasingly seen as the key to competitiveness. Strategies for achieving enhanced job satisfaction may include training employees to do more than one job and encouraging all the members of a workforce to accept responsibility (see EMPOWERMENT).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

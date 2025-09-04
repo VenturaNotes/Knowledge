@@ -6,5 +6,5 @@
 - (G7) An informal group of leading industrial countries, whose leaders meet periodically to discuss economic problems and policies. The G7 nations are Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -10,4 +10,4 @@
 
 [^1]: ChatGPT
 [^2]: https://www.investopedia.com/terms/e/exchangerate.asp
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - (DCF) A method used in capital budgeting, capital expenditure appraisal, and decision appraisal that predicts the future stream of cash flows, both inflows and outflows, over time and discounts them, using a cost of capital rate or hurdle rate, to present values in order to determine whether the project or decision is likely to be financially sensible. A number of appraisal approaches use the DCF principle, namely net present value, internal rate of return, and the profitability index. Most computer spreadsheet programs now include a DCF appraisal routine.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - UK listed companies are required to follow International Accounting Standard 27, Consolidated and Separate Financial Statements, and International Financial Reporting Standard 3, Business Combinations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

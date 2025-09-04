@@ -6,5 +6,5 @@
 - The terms under which the International Monetary Fund (IMF) provides balance-of-payments support to member states. The principle is that support will only be given on the condition that it is accompanied by steps to solve the underlying problem. Programmes of economic reform are agreed with the member; these emphasize the attainment of a sustainable balance-of-payments position and boosting the supply side of the economy. Lending by commercial banks is frequently linked to IMF conditionality.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

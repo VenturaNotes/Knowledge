@@ -7,5 +7,5 @@
 - (2) A prohibition on releasing or quoting published material until some deadline. This is generally intended to avoid political embarrassment or opportunities for insider trading by synchronizing the release of information through various channels.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

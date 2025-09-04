@@ -6,5 +6,5 @@
 - an income-related benefit payable to those whose income and savings do not exceed a specified maximum level and who do not work full-time. It is currently being replaced by universal credit.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (3) In finance, basic data about the financial characteristics and market situation of a firm.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

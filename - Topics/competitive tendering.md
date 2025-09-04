@@ -5,4 +5,4 @@
 - Competitive tendering is also used in selecting applicants to run franchises or contracted-out public services.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

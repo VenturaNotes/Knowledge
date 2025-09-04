@@ -6,5 +6,5 @@
 - The relations between the management and workforce of an enterprise, particularly bargaining through trade unions. This mainly concerns pay, hours and conditions of work, fringe benefits, security of employment, redundancy and redundancy payments, and disciplinary and grievance procedures. These can be determined by economy-wide legislation or, whenever there is scope, by bargaining at the firm or industry level, sometimes through trade unions.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - The prudence concept was identified as a fundamental accounting concept in Statement of Standard Accounting Practice (SSAP) 2, Disclosure of Accounting Policies, the UK Companies Acts, and the EU's Fourth Company Law Directive; it is also emphasized in the Financial Reporting Standard Applicable in the UK and Republic of Ireland. However, current thinking recognizes the prudence concept as a desirable rather than a fundamental quality of financial information.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

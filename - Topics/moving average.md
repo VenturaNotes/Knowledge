@@ -6,5 +6,5 @@
 - A class of data-smoothing techniques used in the analysis of economic and financial time series. A simple moving average is the arithmetic average of $n$ previous data points. A weighted moving average assigns lower weights to older data points, with the weights declining linearly or exponentially; the latter method is also referred to as exponential smoothing. See also MOVING AVERAGE PROCESS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

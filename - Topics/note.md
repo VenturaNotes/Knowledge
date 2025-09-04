@@ -7,4 +7,4 @@
 - (4) An inscription on an unpaid bill of exchange (see NOTING) made by a notary public.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

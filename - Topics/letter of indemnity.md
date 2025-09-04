@@ -6,4 +6,4 @@
 - (3) A letter written by an exporter accepting responsibility for any losses arising from faulty packing, short weight, etc., at the time of shipment. If this letter accompanies the shipping documents, the shipping company will issue a clean bill of lading, even if the packages are damaged, enabling the exporter to negotiate the documents and receive payment without trouble.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

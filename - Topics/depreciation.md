@@ -5,4 +5,4 @@
 - (2) A fall in the value of a currency with a floating exchange rate relative to other currencies. Depreciation can refer both to day-to-day movements and to long-term realignments in value. For currencies with a fixed exchange rate a devaluation or revaluation of currency is required to change the relative value. Compare APPRECIATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

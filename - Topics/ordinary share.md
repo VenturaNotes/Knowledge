@@ -6,5 +6,5 @@
 - The UK term for a share in the equity of a company. The US equivalent term is common stock. The holder of an ordinary share is entitled to share in any distribution of dividends in proportion to the number of shares held. Ordinary shares usually but not invariably entitle their holder to vote at company meetings. They are contrasted with debentures and preference shares. Debenture holders usually have a fixed entitlement to interest, but no vote provided the interest is paid and any other conditions are complied with. Preference shareholders have no votes but must be paid their dividends before any distribution to ordinary shareholders is allowed. In the event of winding up a company, ordinary shareholders rank last in any claim to company assets, but get an unlimited part of any residual there is after paying off the others.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

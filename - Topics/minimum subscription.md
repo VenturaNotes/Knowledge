@@ -5,4 +5,4 @@
 - (2) The smallest bid required in terms of the number of new securities at issue.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

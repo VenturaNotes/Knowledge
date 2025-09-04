@@ -17,4 +17,4 @@
 - JIT has been facilitated by the advent of cheap computing power and computer-aided manufacturing systems. It is easier to install JIT techniques from the outset, rather than attempting to introduce them piecemeal when a process is running. See also LEAN PRODUCTION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

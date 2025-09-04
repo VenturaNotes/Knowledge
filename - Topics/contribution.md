@@ -5,4 +5,4 @@
 - (2) The sharing of claim payments between two or more insurers who find themselves insuring the same item, against the same risks, for the same person. As that person is not entitled to claim more than the full value of the item once, each insurer pays a share. For example, if a coat was stolen from a car, it might be insured under both a personal-effects insurance and a motor policy. As the policyholder is only entitled to the value of the coat (and cannot profit from the theft), each insurer contributes half of the loss.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) An organization, usually a merchant bank, who advises the board of a company during a takeover (see TAKEOVER BID).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

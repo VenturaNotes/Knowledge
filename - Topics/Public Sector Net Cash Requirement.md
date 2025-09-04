@@ -6,5 +6,5 @@
 - (PSNCR) The amount the UK government has to borrow each year, when the government's expenditure exceeds its income. Formerly known as the Public Sector Borrowing Requirement. The PSNCR must lead either to sales of securities to the public, which may raise interest rates and crowd out private investment, or borrowing from the banking system, leading to inflationary increases in the money supply.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

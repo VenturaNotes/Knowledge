@@ -6,4 +6,4 @@
 - For companies, a trading loss can be set off against the profits of the previous 12-month period provided the company was carrying on the same trade during that period. Capital losses can be set against capital gains in the same period. Any surplus capital loss that cannot be utilized during the current year must be carried forward to set against future capital gains. Capital losses cannot be set against other income, unlike trading losses. See also TERMINAL-LOSS RELIEF.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

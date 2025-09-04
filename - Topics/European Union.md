@@ -13,5 +13,5 @@ aliases:
 ## References
 
 [^1]: https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en#:~:text=7%20February%201992%20%E2%80%93%20Maastricht%20Treaty&text=The%20'European%20Union'%20is%20officially,force%20on%201%20November%201993.
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

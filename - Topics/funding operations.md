@@ -5,4 +5,4 @@
 - (2) A change in the gearing of a company, in which short-term debts, such as overdrafts, are replaced by longer-term debts, such as debentures.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

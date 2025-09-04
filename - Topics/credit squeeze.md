@@ -6,5 +6,5 @@
 - A government measure, or set of measures, to reduce economic activity by restricting the money supply. Measures used include increasing the interest rate (to restrain borrowing), controlling moneylending by banks and others, and increasing down payments or making other changes to hire-purchase regulations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

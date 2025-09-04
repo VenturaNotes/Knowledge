@@ -6,5 +6,5 @@
 - A lump-sum tax levied on every citizen at the same rate regardless of income or wealth. A poll tax is necessarily regressive, since it is a larger proportion of low incomes than of high incomes. The UK community charge of 1989-93, though it was labelled 'the poll tax' by its critics, was not exactly a poll tax because it had exemptions for some citizens and lower rates for some taxpayers, taking account of their lower incomes.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

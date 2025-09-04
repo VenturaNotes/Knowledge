@@ -5,4 +5,4 @@
 - A secondary market in CDs has developed, made up of the discount houses and the banks in the interbank market. They are issued in various amounts between $£ 10,000$ and $£ 50,000$, although they may be subdivided into units of the lower figure to facilitate negotiation of part holdings. See also ROLL-OVER CD.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

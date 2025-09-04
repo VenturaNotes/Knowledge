@@ -12,5 +12,5 @@ aliases:
 - (EIS) A UK scheme to encourage the formation of new small companies, by giving income tax relief to individuals investing up to $£ 1~000~000$ (as of 2012) in the equity of new companies. The scheme also includes provision for exemption or deferral of capital gains tax, and for loss relief, The EIS replaced the Business Expansion Scheme in 1994.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

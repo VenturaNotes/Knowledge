@@ -7,5 +7,5 @@
 - (HP) The system by which goods are made available to the buyer for immediate use, but payment is made by instalments. HP may or may not require a down payment; instalments are spread over an agreed period, and until the final instalment is paid the goods remain the property of the seller, who can reclaim them if payments are not made on time. Goods being bought on HP cannot legally be sold or given away. Effectively, the purchaser is renting the good during the term of the contract and exercises an option to purchase at the end of the contract. The cost of goods bought on HP usually exceeds the price for cash payment. HP is widely used in buying durable goods such as cars, furniture, and household appliances. HP controls were at one time used in the UK as part of government policies to control aggregate demand.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

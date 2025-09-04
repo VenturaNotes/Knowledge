@@ -6,5 +6,5 @@
 - A buy-out of the equity of a firm largely financed by borrowing. This is risky for the purchasers, as interest on the loan will absorb a large proportion of any operating profits. If the firm does badly, this may leave nothing for the equity holders.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

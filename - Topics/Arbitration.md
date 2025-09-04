@@ -6,5 +6,5 @@
 - The determination of a dispute by an arbitrator or arbitrators rather than by a court of law. Any civil (i.e. noncriminal) matter may be settled in this way; commercial contracts often contain arbitration clauses providing for this to be done in a specified way. Various industries and chambers of commerce have set up tribunals for dealing with disputes in their particular trades or business. The judgment of the arbitrator may be either binding or indicative. The current legal framework for arbitration is provided by the Arbitration Act 1996 See also Advisory Conciliation and Arbitration Service.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

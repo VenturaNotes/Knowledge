@@ -7,5 +7,5 @@
 - The main banks with national networks of branches in the UK are the so-called Big Four (the Royal Bank of Scotland group, including NatWest; Barclays, including Woolwich; Lloyds, including HBOS; and HSBC), together with the Spanish-owned Santander Group, which includes the former building societies Abbey and Alliance and Leicester. These are also known as high-street banks, or retail banks.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

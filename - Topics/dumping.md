@@ -6,5 +6,5 @@
 - Selling goods in a foreign country at a price which local producers regard as unfairly low. This may mean selling at less than the long-run average costs of production plus transport costs; charging a lower price in export markets than is charged for comparable goods in home markets; or simply selling at a price with which producers in the importing country cannot compete. Anti-dumping duties are tariffs imposed in response to alleged dumping.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

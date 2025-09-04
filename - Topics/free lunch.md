@@ -6,5 +6,5 @@
 - A colloquialism with its root in the expression 'There's no such thing as a free lunch'. A free lunch would be something beneficial obtained for nothing. The expression warns that everything has a price, even if this is not immediately apparent. A production set satisfies the no free lunch assumption if inputs are required to produce output.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

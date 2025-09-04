@@ -10,4 +10,4 @@ aliases:
 	- CIM website: provides news, analysis, and a wide range of information services
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

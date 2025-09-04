@@ -6,5 +6,5 @@
 - The district of London that contains the Stock Exchange, the Bank of England, Lloyds, and the head offices of many financial institutions. Occupying the so-called Square Mile on the north side of the River Thames between Waterloo Bridge and Tower Bridge, the City has been an international merchanting centre since medieval times. Although many institutions remain in the square mile, others have migrated eastwards, to the Docklands area or westwards to former newspaper offices in Fleet Street.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

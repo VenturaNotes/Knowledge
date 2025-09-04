@@ -5,4 +5,4 @@
 - The rules of natural justice apply equally in judicial as well as in administrative proceedings. Alleging a breach of natural justice is the method commonly used to challenge an administrative decision before the courts.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

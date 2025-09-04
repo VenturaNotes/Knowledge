@@ -17,4 +17,4 @@
 - The size of a particular cost pool will vary widely from one organization to another. For example, a cost pool for order processing may include hundreds of staff in a large organization, whereas a smaller organization may not have a separate cost pool for this activity as it involves only one or two staff. Note that some costs may not be included in any activity cost pool, usually because they are too minor or too difficult to allocate in this way.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

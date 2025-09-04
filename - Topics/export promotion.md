@@ -5,4 +5,4 @@
 - (2) A strategy for promoting economic development in less developed countries. This involves running an open economy, relying on foreign markets to allow export-led growth. This strategy has been successfully used by many countries, including the newly industrialized countries of East Asia. It is contrasted with the strategy of import substitution, where countries started to industrialize by protecting local industries against imports.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

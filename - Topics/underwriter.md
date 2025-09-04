@@ -10,5 +10,5 @@
 - (2) In the insurance business, an insurance underwriter evaluates the exposure to risk of potential clients to determine whether insurance should be offered and, if it is offered, the extent of the coverage and the premium that should be charged. The role of the underwriter is to ensure that the insurance company is profitable and protect it from excessive risk.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

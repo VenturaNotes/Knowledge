@@ -13,4 +13,4 @@
 - In practice, different companies will have different value drivers. For example, Sony is a company that produces high-quality products for which customers are prepared to pay a relatively high price. Maintaining a high operating profit margin is therefore more important for Sony than sales growth. For another company, however, sales growth may well be the more important factor.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

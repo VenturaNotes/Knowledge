@@ -6,5 +6,5 @@
 - The ability of workers to change jobs. This may be between different firms, different occupations, different locations, or different countries. There can be a range of obstacles to mobility. Workers changing employers lose seniority, which may affect their pay, vacations, and redundancy rights, and may lose in terms of their pension rights. Workers changing occupations lose in terms of the weight given to their experience and possibly to their formal qualifications. Workers changing location face problems over housing. International mobility of labour is hindered by immigration controls, problems over recognition of the immigrants' qualifications, and language barriers. Governments and supranational organizations such as the European Union attempt to improve labour mobility in the interests of economic efficiency, but perfect mobility of labour seems extremely unlikely. See also FACTOR MOBILITY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

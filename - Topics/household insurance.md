@@ -5,4 +5,4 @@
 - (2) An insurance policy covering the personal goods and effects kept inside a home (contents policy). A comprehensive householder's policy will cover both the buildings and the contents.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

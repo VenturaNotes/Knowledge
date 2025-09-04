@@ -6,5 +6,5 @@
 - The situation in which one party to an agreement or transaction has superior information to the other. Any serious or systematic imbalance of this kind can compromise the efficiency of markets and lead to market failure. The problem of asymmetric information is often discussed in the context of agency relationships, notably those between managers and shareholders: in most cases managers will have superior information to shareholders regarding the state of the latter's investment. Information asymmetry also occurs in insurance, where the purchaser of an insurance contract is likely to know more about the nature of the risks than the seller of the contract (see ADVERSE SELECTION; UTMOST GOOD FAITH). See also SIGNALLING HYPOTHESIS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

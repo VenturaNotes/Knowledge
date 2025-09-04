@@ -7,5 +7,5 @@
 - (2) (the Budget) In the UK, the government's annual budget, which is presented to parliament by the Chancellor of the Exchequer (traditionally, but not always, on a Tuesday in March). It contains estimates for the government's income and expenditure, together with the tax rates and the fiscal policies designed to meet the government's financial goals for the succeeding fiscal year.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

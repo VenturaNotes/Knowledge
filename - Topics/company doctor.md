@@ -5,4 +5,4 @@
 - (2) A medical doctor employed by a company, either full-time or part-time, to look after its staff, especially its senior executives, and to advise on medical and public-health matters.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) A marketing exercise in which the marketer selects more than one target market and then develops a separate marketing mix for each. The differentiation strategy for each of these target markets is a strategy in which the marketer offers a product that is unique in the industry, provides a distinct advantage, or is otherwise set apart from competitors' brands in some way other than price.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

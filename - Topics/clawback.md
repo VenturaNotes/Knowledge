@@ -5,4 +5,4 @@
 - (2) An agreement requiring the sponsors of a project to repay past profits in the event of a shortfall in later periods. This may be a condition in project financing.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

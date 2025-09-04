@@ -7,4 +7,4 @@
 ## References
 
 [^1]: https://www.techtarget.com/searcherp/definition/ABC-classification
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

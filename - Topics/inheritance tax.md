@@ -8,5 +8,5 @@
 - A tax on amounts inherited by particular heirs. The tax rate can vary according to the relation with the deceased; for example, spouses may be exempt, or taxed progressively with the amount received. It is possible, as in the UK, to combine an inheritance tax with a tax on gifts inter vivos, that is, gifts made while the donor is still alive, via a capital transfer tax.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - See also ACCRUAL RATE; DEFINED CONTRIBUTION; FINAL SALARY SCHEME.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

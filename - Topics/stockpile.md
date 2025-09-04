@@ -7,5 +7,5 @@
 - A large stock of a commodity. Stockpiles of goods such as wheat or tin may be held as strategic reserves, for use in emergencies such as wars or natural disasters. They may also be held to try to stabilize commodity prices, or more usually as the result of trying to hold commodity prices above a market-clearing level.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

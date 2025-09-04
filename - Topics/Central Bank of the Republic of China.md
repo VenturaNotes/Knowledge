@@ -6,4 +6,4 @@
 	- The official website of the Central Bank of the Republic of China (Taiwan).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

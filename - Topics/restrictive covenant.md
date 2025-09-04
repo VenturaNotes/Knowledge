@@ -5,4 +5,4 @@
 - (2) A clause in a contract affecting the use of land. See COVENANT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

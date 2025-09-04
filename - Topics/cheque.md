@@ -8,5 +8,5 @@
 - With the rise of electronic payment systems the use of cheques has fallen dramatically since the 1990s and most UK and European retailers no longer accept this form of payment. Cheques are still widely used in the USA (where the word is spelled check). See also MARKED CHEQUE; RETURNED CHEQUE; STALE CHEQUE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

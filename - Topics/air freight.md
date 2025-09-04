@@ -5,4 +5,4 @@
 - (2) The cost of transporting goods by aircraft. It is usually quoted on the basis of a price per kilogram.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

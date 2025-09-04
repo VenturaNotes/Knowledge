@@ -9,4 +9,4 @@
 - Broadly, two types of systems can be used to assign indirect costs to cost objects: traditional costing systems and activity-based costing. Traditional costing systems focus on product costs and are often criticized for relying on arbitrary allocations. Activity-based costing systems use cause-and-effect allocations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

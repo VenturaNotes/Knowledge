@@ -6,4 +6,4 @@
 	- property given by a parent to a child, although the parent continues to live in the property, rent-free. HM Revenue and Customs has detailed rules to cover gifts with reservation to ensure that such gifts are not used as a means of avoiding tax.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

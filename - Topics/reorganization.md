@@ -5,4 +5,4 @@
 - (2) The restructuring of a larger organization without the formation of a new company.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

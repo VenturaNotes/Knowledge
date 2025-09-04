@@ -5,4 +5,4 @@
 - (2) In statistics, the calendar effects component is the part of the seasonal component that represents calendar variations in a time series, such as training days/working days, moving holidays, and other calendar effects such as leap years. These periodic fluctuations need to be detected and isolated in the data to ensure they do not mask more fundamental variation. For example, many economic time series refer to daily activities which are recorded each month or each quarter. Since the number of working days varies from month to month, this induces some short-term movements in the time series. See also SEASONAL ADJUSTMENT
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

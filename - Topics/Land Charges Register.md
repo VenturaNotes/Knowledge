@@ -5,4 +5,4 @@
 - (2) (Local Land Charges Register) A register kept by each London borough, the City of London, and each unitary authority or district council. Public authorities may register statutory restrictions on land, e.g. under town and country planning legislation. These are registered against the land itself, not the estate owner. If restrictions are not registered, the purchaser is still bound by them, but will be entitled to compensation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

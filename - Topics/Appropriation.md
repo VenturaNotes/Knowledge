@@ -6,4 +6,4 @@
 - (3) A document identifying a particular batch of goods to be supplied in fulfilment of a forward contract for a commodity. In some cases, for example, a forward contract may call for goods to be shipped in six months' time. At the time the contract is made the goods may not be identifiable. As the period for shipment approaches the supplier will notify the customer exactly which parcel of goods he is going to ship against the contract by identifying them (e.g. by the marks and numbers on the packages) in an appropriation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

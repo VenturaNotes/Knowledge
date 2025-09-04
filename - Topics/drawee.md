@@ -6,4 +6,4 @@
 - (3) The bank named in a bank draft. Compare DRAWER.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

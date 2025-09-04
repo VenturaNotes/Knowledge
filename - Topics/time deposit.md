@@ -6,5 +6,5 @@
 - A deposit in a US bank or other financial institution where the depositor is required to give notice of withdrawal, or is subject to an interest penalty in lieu of notice. The UK equivalent is deposit account.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

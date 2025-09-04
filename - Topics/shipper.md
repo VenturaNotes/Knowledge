@@ -5,4 +5,4 @@
 - (2) In some trades, the importer who sells on to merchants or users, especially one that buys FOB port of shipment and pays the freight cost.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - A quantitative limit to imports of some type of good. This may be set in terms of value or in physical units. A tariff-quota system is a combination of import quotas and tariffs whereby lower tariff rates apply to a specified quantity, or a quota, and higher rates apply to quantities that exceed this quota.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

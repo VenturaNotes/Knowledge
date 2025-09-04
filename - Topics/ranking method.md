@@ -5,4 +5,4 @@
 - (2) A method of employee evaluation in which a group of employees are ranked on the basis of relevant performance criteria.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

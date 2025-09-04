@@ -8,4 +8,4 @@
 	- gains not charged in full or at all owing to the system of entrepreneurs' relief.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

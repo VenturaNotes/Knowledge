@@ -6,5 +6,5 @@
 - (renal clearance) $n$. a quantitative measure of the rate at which waste products are removed from the blood by the kidneys or through the process of dialysis. It is expressed in terms of the volume of blood that could be completely cleared of a particular substance in a particular unit of time. Clearance by the kidney is usually measured as $\mathrm{ml} / \mathrm{min}$ while clearance with, say, peritoneal dialysis is usually measured in litres/week.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

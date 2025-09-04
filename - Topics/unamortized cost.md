@@ -5,4 +5,4 @@
 - (2) The value given to a fixed asset in the accounts of an organization after revaluation of assets less the total depreciation shown against that asset since it was revalued.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

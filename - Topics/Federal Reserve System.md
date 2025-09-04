@@ -8,5 +8,5 @@
 - (Fed) The US system of central banking. This consists of a Board of Governors in charge of twelve District Reserve Banks (a district here means a group of states). The Governors are appointed by the President, with Senate approval. They fix reserve and margin requirements and discount rates through the Federal Open Market Committee, provide discounting facilities, and appoint the directors of the twelve District Reserve Banks. The District Banks supervise member banks in their regions: member banks are subject to stricter reserve requirements than other banks, but in return can obtain cheaper services from the Fed. The Fed acts as agent in collecting taxes and administering federal government debt, and Federal Reserve Notes form the US currency.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

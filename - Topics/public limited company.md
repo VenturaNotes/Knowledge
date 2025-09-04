@@ -6,5 +6,5 @@
 - (PLC) A UK company registered under the Companies Act. Its name must end in 'PLC'. The act lays down minimum capital requirements, and sets the form for its memorandum. Such companies can offer shares and securities to the public with limited liability. The rules governing public companies are stricter than those for private companies.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

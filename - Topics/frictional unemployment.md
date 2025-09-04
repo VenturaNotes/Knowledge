@@ -6,5 +6,5 @@
 - The unemployment that occurs because, as people change jobs when some sectors of the economy grow and others contract, it is not practicable to dovetail precisely leaving old jobs and starting new ones. At times of fairly full employment, frictional unemployment may form an appreciable fraction of total unemployment.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

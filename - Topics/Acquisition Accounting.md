@@ -5,4 +5,4 @@
 - Acquisition accounting is now covered by Section 19 of the Financial Reporting Standard Applicable in the UK and Republic of Ireland. UK listed companies are now required to follow International Financial Reporting Standard 3, Business Combinations. See MERGER ACCOUNTING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

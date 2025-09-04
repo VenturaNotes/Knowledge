@@ -6,5 +6,5 @@
 - A legal arrangement by which investors pool their funds to carry out a business activity. Investors receive shares in proportion to the funds put in, and the shareholders elect directors to manage the business. Shareholders receive any distributed profits as dividends, proportional to the number of shares they own. Joint-stock companies generally also have limited liability for their shareholders.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

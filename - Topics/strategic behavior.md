@@ -6,5 +6,5 @@
 - Making a choice of action with an awareness of how the pay-off depends on the choices of other agents, and taking into account how the choice of action will influence the choices of others. See also STRATEGIC INTERACTION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

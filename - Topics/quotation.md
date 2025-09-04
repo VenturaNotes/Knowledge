@@ -8,5 +8,5 @@
 - Acceptance of a company's shares to be traded on a stock exchange. This is normally conditional on providing an acceptable level of information to investors. Market-makers are allowed, but not compelled, to quote prices at which they will buy or sell such shares, up to some quantitative limit.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -8,5 +8,5 @@
 - A company which does not trade, but has a legal existence, and possibly some non-trading assets. These may include a credit rating, and the right to carry forward losses for tax purposes. For anybody who needs a company to trade through, acquiring a shell company may be cheaper and quicker than registering a new company.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

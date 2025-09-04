@@ -12,4 +12,4 @@
 - The need for achievement is based on a combination of intrinsic motivation (drives from within the individual) and extrinsic motivation (pressures and expectations exerted by an organization, peers, and society). Achievement is also clearly influenced by education, social awareness, cultural background, and values. See MOTIVATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

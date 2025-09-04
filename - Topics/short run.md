@@ -5,4 +5,4 @@
 - (2) In macroeconomics, short run is associated with the business cycle, or the fluctuations of economic variables about the trend, whereas the trend is associated with the long run. See also TREND-CYCLE DECOMPOSITION
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -8,6 +8,6 @@
 - (Alcohol Use Disorders Identification Tool) an international tool used as an outcome or screening measure for alcohol problems. Developed by the World Health Organization, it consists of 10 questions that review consumption, drinking behaviors, and alcohol-related issues using an interview or a self-report approach. A score of 8 or above suggests hazardous or harmful alcohol consumption; 20 or above suggests alcohol dependence.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

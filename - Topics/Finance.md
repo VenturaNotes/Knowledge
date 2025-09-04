@@ -7,4 +7,4 @@
 - (4) An academic discipline within the general field of economics dealing with funding, financial markets, and the funding implications for managing businesses.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

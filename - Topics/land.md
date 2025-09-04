@@ -6,5 +6,5 @@
 - A natural resource employed as a factor of production. Land is used in economic activity in a variety of ways: for growing crops and keeping animals; for extracting minerals; and to provide sites for buildings and for transport and leisure facilities. Land as provided by nature can be changed by human activities: agricultural land can be improved by fertilizers and drainage, or ruined by erosion. See also MARGINAL LAND.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

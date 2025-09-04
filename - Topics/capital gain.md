@@ -6,5 +6,5 @@
 - The gain on the disposal of an asset calculated by deducting the cost of the asset from the proceeds received on its disposal. Under capital gains tax legislation the chargeable gain may be reduced by various exemptions and reliefs. Capital gains by companies are adjusted by indexation and are chargeable to corporation tax.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

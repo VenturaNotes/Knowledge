@@ -5,4 +5,4 @@
 - The liquidator is in a relationship of trust with the company and the creditors as a body; a liquidator appointed in a compulsory liquidation is an officer of the court, is under statutory obligations, and may not profit from the position. A liquidator must be a qualified insolvency practitioner, according to the Insolvency Act 1986. On appointment, the liquidator assumes control of the company, collects the assets, pays the debts, and distributes any surplus to company members according to their rights. In the case of a compulsory liquidation, the liquidator is supervised by the court, the liquidation committee, and the Department for Business, Innovation and Skills. The liquidator receives a statement of affairs from the company officers and must report on these to the court.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

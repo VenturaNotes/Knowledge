@@ -5,4 +5,4 @@
 - (2) (consumer co-operative) A movement launched in 1844 by 28 Rochdale weavers who combined to establish retail outlets where members enjoyed not only the benefits of good-quality products at fair prices but also a share of the profits (a dividend) based on the amount of each member's purchases.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

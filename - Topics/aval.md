@@ -5,4 +5,4 @@
 - (2) A signature on a bill of exchange that endorses or guarantees the bill.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

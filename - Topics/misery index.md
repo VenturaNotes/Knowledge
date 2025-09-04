@@ -6,5 +6,5 @@
 - A measure of economic distress calculated by adding the unemployment rate to the inflation rate at any time. Some versions include additional measures, such as the base rate, annual GDP, and the number of bankruptcies.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

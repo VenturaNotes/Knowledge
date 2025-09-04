@@ -10,5 +10,5 @@ aliases:
 - (trade creditors; trade payables) The amounts owed by a business to suppliers (e.g. for raw materials). Accounts payable are classed as current liabilities on the balance sheet, but distinguished from accruals and other non-trade creditors (such as HM Revenue and Customs).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

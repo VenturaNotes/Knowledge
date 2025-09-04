@@ -9,5 +9,5 @@
 - (2) A group of sectors, mainly in manufacturing and construction, typically producing physical goods rather than services. The Confederation of British Industry is a UK organization representing firms in these sectors, and the Department for Business, Energy and Industrial Strategy is the main UK government department responsible for dealing with them. See also FOOTLOOSE INDUSTRY; INFANT INDUSTRY; NATIONALIZED INDUSTRY; SERVICE INDUSTRY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

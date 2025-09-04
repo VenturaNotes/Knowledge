@@ -7,5 +7,5 @@
 - A symbol, logo, or name used to enable the public to identify the supplier of goods. In the UK and many other countries trademarks can be registered, which gives the holder exclusive right to use them. Trademarks may be registered by manufacturers, distributors, or importers. They can be sold, and are an important form of commercial property.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

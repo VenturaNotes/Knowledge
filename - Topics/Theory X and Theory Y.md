@@ -7,4 +7,4 @@
 - The generally accepted view is that if management follow Theory Y they will achieve better operational performance. See also THEORY Z.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

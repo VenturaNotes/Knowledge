@@ -4,4 +4,4 @@
 - A monetary unit of Bangladesh, worth one hundredth of a taka.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

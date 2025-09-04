@@ -6,4 +6,4 @@
 - Muqarada is a joint venture by finance providers. Ijarah involves profit from rental income on real estate. Ijarawa-iktina is leasing of large capital items, such as property or plant and machinery. Leasing is achieved by the equivalent of monthly rental payments, and at the expiry the lessee purchases the equipment. See also ALTERNATIVE FINANCE ARRANGEMENTS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

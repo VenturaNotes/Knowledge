@@ -6,5 +6,5 @@
 - Debt of the governments of independent countries. With the debt of an individual or corporation, it is generally possible to use legal procedures compelling them to pay the interest and redemption payments due, or to hand their assets over to the creditor if they do not pay. Such legal sanctions are not available against governments, unless they choose to submit voluntarily to legal procedures. There is thus a risk that sovereign debt may be subject to repudiation, interest reductions, or compulsory rescheduling. The only protection for the creditors of sovereign debtors is the borrowers' concern about loss of reputation: default makes it difficult or expensive for them to borrow in the future.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

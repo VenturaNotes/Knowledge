@@ -6,4 +6,4 @@
 - (3) (constant dollar) In the USA, the method of converting historical cost to current cost and then adjusting to constant purchasing power by using the average Consumer Price Index for the current year.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

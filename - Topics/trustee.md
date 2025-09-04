@@ -6,5 +6,5 @@
 - An individual or company who is the legal owner of property which he or she administers on behalf of a beneficiary. The beneficiary in turn may be an individual, a charity, the creditors of a bankrupt, or the investors in a unit trust. Trustees may be paid for their services, but are bound to administer the trust in the interests of the beneficiaries and not for their own profit.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

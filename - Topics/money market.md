@@ -7,5 +7,5 @@
 - The market for very short-term loans. In lending money for very short periods, for example overnight, transaction costs are quite large relative to the interest that can be earned, so transactions in the money market are usually for large amounts, and the participants are mainly banks and other financial institutions such as discount houses, though large firms and a few exceptionally rich individuals also participate.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

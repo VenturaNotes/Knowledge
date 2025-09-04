@@ -6,5 +6,5 @@
 - A simplified representation of something (the referent). The representation may be physical or abstract, and may be restricted to certain properties of the referent. In computing, models are usually abstract and are typically represented in a diagramming notation, such as dataflow diagrams (in functional design), ERA diagrams (for a data model), or state-transition diagrams (for a model of behavior); in the case of the relational model the referent is the target system while in the waterfall model, V-model, and spiral model the referent is the development process. In computer graphics, models are used to create realistic images of objects and their attributes (see COLOR MODEL, LIGHTING MODEL, REFLECTANCE MODEL).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -11,4 +11,4 @@
 - With the single currency established, all countries subsequently joining the EU are required to participate in ERM II as soon as this is judged economically practicable and to adopt the euro in due course. Countries must participate in ERM II for a minimum of two years before adopting the euro. Of the 13 states that have joined the EU since 2004, Slovenia joined the eurozone in 2007, Cyprus and Malta in 2008, Slovakia in 2009, Estonia in 2011, Latvia in 2014, and Lithuania in 2015. Of the earlier members, only Sweden and the UK remain outside the European Monetary System. See also CONVERGENCE CRITERIA.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - A national registration for a ship which does not correspond to its actual ownership or control. Owners may choose this for tax reasons, to avoid stringent controls on safety and manning prevailing in their own countries, or to allow the use of foreign crew at lower wages than those payable to their own nationals.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

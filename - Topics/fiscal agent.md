@@ -6,4 +6,4 @@
 - (3) In the USA, an agent empowered to collect taxes, revenues, and duties on behalf of the government. For example, the Federal Reserve Banks perform this function for the US Treasury.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

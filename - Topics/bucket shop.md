@@ -5,4 +5,4 @@
 - (2) A travel agent who provides a service for travellers who book late, require the lowest prices, and will accept a minimum standard of service.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

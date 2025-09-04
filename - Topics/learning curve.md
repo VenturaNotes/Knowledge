@@ -6,5 +6,5 @@
 - A relationship between the duration of learning and the amount of accumulated knowledge or skills, or between experience and efficiency. The learning curve effect states that as a task is performed more and more often the cost of doing this task falls.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

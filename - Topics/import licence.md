@@ -6,5 +6,5 @@
 - A permit from the government to import particular goods. The requirement for import licences may be intended to protect domestic producers from competition, to improve the balance of trade by restricting imports, or to facilitate government control over dangerous materials such as explosives.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

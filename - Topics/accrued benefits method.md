@@ -7,4 +7,4 @@
 - Allowance may be made for expected increases in earnings after the given date, and for additional pension increases not promised by the rules. The given date may be a current or future date. The further into the future the adopted date lies, the closer the results will be to those obtained by a prospective benefits valuation method.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

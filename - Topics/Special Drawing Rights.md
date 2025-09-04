@@ -6,5 +6,5 @@
 - (SDRs) A form of international money, created by the International Monetary Fund (IMF) and defined as a weighted average of various convertible currencies. The IMF's official accounts are kept in terms of SDRs as units of account. Members have holdings of SDRs which can be used to settle balance-of-payments deficits between them, subject to rules governing the average amount to be held over any five-year period.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - A method of trading in which goods or services are exchanged without the use of money. It is a cumbersome system, which severely limits the scope for trade. Money, used as a medium of exchange, enables individuals to trade with each other at much greater distance and through whole chains of intermediaries, which are inconceivable in a barter system. The modern equivalent of barter is known as countertrading.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

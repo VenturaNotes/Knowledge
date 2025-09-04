@@ -6,4 +6,4 @@
 - The part of the profits of a company available for equity shareholders, after deducting debenture interest. Companies may distribute these earnings in dividends, pay tax, or retain them to expand the business. Share prices are believed to depend strongly on company earnings. See also RETAINED EARNINGS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

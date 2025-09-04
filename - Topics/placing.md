@@ -6,5 +6,5 @@
 - Sale of shares by a UK company to selected individuals or institutions approached directly, rather than by an issue open to the general public. A placing may be preferred on grounds of lower costs, or because it gives the company a chance to choose its new shareholders.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) The amount charged to borrowers over and above the base rate. This margin is the bank's profit on the transaction but has to take account of risk of loss or default by the borrower.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

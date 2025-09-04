@@ -6,4 +6,4 @@
 - (2) The costs of holding a particular financial position; these may include funding costs and opportunity costs (often calculated as the prevailing risk-free rate of return).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

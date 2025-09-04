@@ -9,4 +9,4 @@
 	- Customer-level activities, i.e. activities that are carried out for a customer but are not related to a specific product. See also FACILITY-SUSTAINING ACTIVITY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

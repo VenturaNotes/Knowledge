@@ -6,5 +6,5 @@
 - A document that states the country from which a particular parcel of goods originated. In international trade it is one of the shipping documents and will often determine whether or not an import duty has to be paid on the goods and, if it has, on what tariff. Such certificates are usually issued by a chamber of commerce in the country of origin.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

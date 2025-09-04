@@ -6,5 +6,5 @@
 - A method for the assessment of a risky investment project based on information about possible realizations for some, or all, macroeconomic and project-specific factors that determine the value of the project. A variant of scenario analysis is best-case/worst-case analysis, where each factor is assumed to take the best possible value and the worst possible value; the difference between the values of the project for the two cases is used to gauge its riskiness. More generally, a multiple scenario analysis involves calculations of the value of the project for various combinations of realizations for the factors, sometimes taking into account possible comovements of different factors. The expected value of the project can be calculated if the probabilities of all possible outcomes are known.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

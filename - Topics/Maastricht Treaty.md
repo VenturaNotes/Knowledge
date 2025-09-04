@@ -6,5 +6,5 @@
 - A treaty concluded in 1993 between members of the European Community. This changed its name to the European Union, and set out a programme for progress towards a European Monetary Union (EMU) and the creation of a European Central Bank. The treaty included convergence criteria, including a 3 per cent limit to budget deficits and a 60 per cent limit to debt-gross domestic product ratio for members to be eligible to join the EMU. The treaty also included a Social Chapter, containing various employment protection provisions.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

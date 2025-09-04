@@ -5,4 +5,4 @@
 - (2) In the context of advertising, marketing research on the effectiveness of an advertisement; it begins at the earliest stage of development and continues until the advertisement is ready for use.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

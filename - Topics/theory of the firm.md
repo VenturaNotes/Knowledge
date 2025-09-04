@@ -9,4 +9,4 @@
 - Whereas early neoclassical answers to these questions concentrated largely on the company's role in reducing transaction costs, subsequent approaches have incorporated insights from psychology, sociology, game theory, and the study of agency relationships.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

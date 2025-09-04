@@ -6,5 +6,5 @@
 - A tax levied on the consumption of particular goods. Excise duties may be levied to raise government revenue, but are often levied at higher rates on goods whose consumption is believed to have adverse effects on public health, public order, or the environment. Excise duties on alcoholic drinks, tobacco, and petrol are widely used for both purposes.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

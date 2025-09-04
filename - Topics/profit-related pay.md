@@ -9,5 +9,5 @@
 - The system of making pay a function of the employer's profits. This usually takes the form of additional payments when profits are good, either as a rise in pay scales or as bonuses. Bonuses are more common, since the level of profits continually varies, and is not usually known until well after normal pay is received. Employers hope that relating pay to profits will make workers more cooperative in trying to increase profits, decrease labour turnover, and improve morale generally. Employees who are risk-averse may prefer smaller but safer incomes.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

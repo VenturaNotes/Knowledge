@@ -9,6 +9,6 @@
 - $n$. treating individuals differently on the basis of morally insignificant characteristics, such as race, sex, or religion. In medicine, any discrimination of this kind (e.g. when deciding on treatments or allocating resources) offends against the ethical principle of justice. Legally, discrimination can be direct (i.e. overtly differentiating between people and groups) or indirect (i.e. behaviour that will disproportionately affect particular people or some groups more than others). See also EQUALITY; STIGMA.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

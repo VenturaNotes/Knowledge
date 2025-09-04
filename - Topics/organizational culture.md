@@ -7,4 +7,4 @@
 	- In a fragmentation culture there are multiple interpretations of values and assumptions, which produce great ambiguity. This can arise from fast changes within the organization, the growing diversity of the workforce, and the increasingly global environment with which organizations are faced.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

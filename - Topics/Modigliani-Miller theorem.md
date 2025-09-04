@@ -6,5 +6,5 @@
 - (MM hypothesis) A theory of corporate finance, first advanced by Franco Modigliani and Merton Miller in 1958, which holds that the capital structure of a firm has, under certain assumptions, no effect on the firm's value. The theorem states that, in a perfect market with no taxation or costs of financial distress, neither the relative levels of debt and equity in a firm, nor its dividend policy, would affect the market value. In real-world markets, this is by no means the case.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

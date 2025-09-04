@@ -5,4 +5,4 @@
 - (2) The waste arising from a production process, which may also have a salvage value.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

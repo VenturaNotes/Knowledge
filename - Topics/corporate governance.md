@@ -6,5 +6,5 @@
 - The manner in which organizations, particularly limited companies, are managed and the nature of accountability of the managers to the owners. This topic has been of increased importance since the publication of the Cadbury Report in 1992, which set out a code of practice later incorporated into the Corporate Governance Code.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

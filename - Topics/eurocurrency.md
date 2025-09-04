@@ -6,5 +6,5 @@
 - A currency held in a European country other than its country of origin. Such currencies need not themselves be European: there are large eurodollar and euroyen deposits. This market is useful for short-and medium-term international borrowing, mainly by banks and large companies, and for financing international trade and investment.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

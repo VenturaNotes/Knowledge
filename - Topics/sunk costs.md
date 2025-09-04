@@ -7,5 +7,5 @@
 - Those parts of the costs of an enterprise which cannot be recovered if it ceases operations, even in the long run. These include items such as the construction costs of mines or tunnels, or the development costs of industrial processes. The existence of sunk costs tends to produce hysteresis in the economy, and helps to explain the rarity of contestable markets.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -34,4 +34,4 @@
 - As indicated, many IASs have been issued in revised form under the International Accounting Standards Board's Improvements Project.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

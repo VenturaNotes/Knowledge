@@ -6,5 +6,5 @@
 - In the market for insurance products and loans, the tendency for the most risky customers to be the most likely to demand products that exempt them from disclosing their status. To reduce their exposure to large claims on this basis, sellers often raise premiums generally or exclude high-risk customers from such products. See UTMOST GOOD FAITH. See also ASYMMETRIC INFORMATION; MORAL HAZARD.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

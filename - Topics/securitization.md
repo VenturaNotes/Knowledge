@@ -6,5 +6,5 @@
 - The packaging of several non-marketable assets, such as mortgage loans, into bundles which are marketable. Individual mortgages are not generally marketable because there is too much idiosyncratic risk in dealing with any one of them. A package of several similar mortgages reduces the riskiness, which allows the package to be marketed. The fact that mortgages are made marketable may enable them to be financed at lower interest rates.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

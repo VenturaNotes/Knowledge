@@ -16,5 +16,5 @@
 
 [^1]: [[(Home Page) Glossary by ada computer science]]
 [^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -8,5 +8,5 @@
 - Any system used by an organization to ensure that its outstanding debts are paid within a reasonable period. It involves establishing a credit policy, credit rating of clients, and chasing accounts that become overdue. See also factoring.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

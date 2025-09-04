@@ -6,4 +6,4 @@
 - (3) An arrangement between banks who have loans to a company in trouble, in which they each agree to maintain their existing credit facilities and not to force the company into receivership by acting alone.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

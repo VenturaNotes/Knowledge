@@ -6,5 +6,5 @@
 - A UK official responsible for registering companies, issuing certificates of registration, maintaining a register of companies, and receiving annual returns. One Registrar covers England and Wales; Scotland and Northern Ireland each have a separate Registrar.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

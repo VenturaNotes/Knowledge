@@ -5,4 +5,4 @@
 - (2) A supplier's price as shown on an invoice to a retailer or wholesaler, before deduction of any discounts.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

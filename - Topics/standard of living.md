@@ -10,4 +10,4 @@
 
 [^1]: https://library.fiveable.me/key-terms/principles-macroeconomics/economic-growth
 [^2]: https://www.investopedia.com/terms/s/standard-of-living.asp
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

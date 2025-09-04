@@ -12,4 +12,4 @@
 - The innovators are clearly critical to the process of adoption. Without their support an innovation is unlikely to be successful. See also PRODUCT LIFE CYCLE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

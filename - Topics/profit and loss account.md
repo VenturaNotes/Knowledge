@@ -7,4 +7,4 @@
 - The $\mathrm{P} \& \mathrm{~L}$ account typically consists of three parts. The first is a trading account, showing the total sales income less the costs of production, etc., and any changes in the value of stock or work in progress from the last accounting period. This gives the gross profit (or loss). The second part gives any other income and lists administrative and other costs to arrive at a net profit (or loss). From this net profit before taxation the appropriate corporation tax is deducted to give the net profit after taxation. In the third part, the net profit after tax is appropriated to dividends or to reserves (retained profit). The UK Companies Act gives a choice of four formats, one of which must be used to file a profit and loss account for a registered company.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -13,4 +13,4 @@
 - This model emphasizes that the decision process is sequential and combines both mental and physical activities. In broad terms, the first four of these stages constitute the decision phase. This is followed by the actual purchase, and the subsequent experience of using the newly acquired product. If this experience is positive it can act as a reinforcement to make further similar purchases. A negative experience will encourage a change to another product or supplier.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

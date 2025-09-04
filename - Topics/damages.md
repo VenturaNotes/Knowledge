@@ -11,4 +11,4 @@
 - Exemplary damages, on the other hand, are punitive damages awarded not merely as a means of compensation but also to punish the party responsible for the loss or injury. This usually occurs when the party causing the damage has done so wilfully or has received financial gain from the wrongful conduct. Exemplary damages will be greater than the amount that would have been payable purely as compensation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

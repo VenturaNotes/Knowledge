@@ -7,5 +7,5 @@
 - (2) The property of having liquid assets. Without these a business may have problems over meeting its obligations because, although it believes itself to be solvent, this view is not shared by credit institutions. The information which leads it to feel solvent, for example confidence in new products, may be private and not convincing to creditors.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

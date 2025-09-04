@@ -5,4 +5,4 @@
 - (2) To reduce to zero a debt that cannot be collected (see BAD DEBT). Such a loss will be shown in the profit and loss account of an organization.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

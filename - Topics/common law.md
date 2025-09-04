@@ -6,4 +6,4 @@
 - (3) The law of the UK as opposed to foreign law. In this sense, the common law would include case law as well as legislation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - An idealized market situation in which all information is known to all market participants, and both buyers and sellers are so numerous that each is a price-taker, able to buy or sell any desired quantity without affecting the market price. It was once thought that these were the assumptions necessary to describe a competitive economy. This is not the case. Provided all market participants have symmetric information (but not necessarily complete information) and act as if they were price-takers, the competitive equilibrium will emerge.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

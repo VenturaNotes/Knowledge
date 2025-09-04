@@ -8,5 +8,5 @@
 - A scale of charges. In economics a tariff was originally a schedule of taxes on imports; it now refers to the actual import duties. An ad valorem tariff is set as a percentage of the price of the goods imported. A specific tariff is set in money terms per physical unit of the good imported, and does not depend on its price. A non-discriminatory tariff taxes imports from all countries equally; tariff preferences mean that similar imports from different countries are taxed at different rates. See also OPTIMUM TARIFF; PROHIBITIVE TARIFF; REVENUE TARIFF; TWO-PART TARIFF.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

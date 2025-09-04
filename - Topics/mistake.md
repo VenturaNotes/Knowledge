@@ -6,4 +6,4 @@
 - A deed or other signed document (whether or not constituting a contract) that does not correctly record what both parties intended may be rectified by the courts. When one signatory to a document was fundamentally (but not carelessly) mistaken as to the character or effect of the transaction it embodies, the signatory may plead the mistake as a defence to any action based on the document.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

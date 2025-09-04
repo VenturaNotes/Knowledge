@@ -7,5 +7,5 @@
 - $n$. a form of private medical insurance policy in which the patient or other beneficiary shares the costs of treatment for injury or disease with the insurance company. Coinsurance policies are very common in the USA.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

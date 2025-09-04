@@ -8,4 +8,4 @@ aliases:
 - (IRC) The federal tax law of the USA, which comprises the regulations applied to taxpayers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -14,4 +14,4 @@
 - For management, the main application of the value-chain concept is that a company should examine its costs and performance at each stage, and decide, among other things, whether it is best to carry out a particular stage in house or externally. The value chain can provide the basis for a strategic analysis in terms of the search for competitive advantage.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

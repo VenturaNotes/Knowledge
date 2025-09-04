@@ -6,5 +6,5 @@
 - The theory that where assets are traded in organized markets, prices take account of all available information, so that it is impossible to predict whether some assets will give better risk-adjusted returns than others. This cannot be predicted because it depends on news, that is, information which is not yet available, and cannot be deduced from information which is available. There are several variants of the efficient markets hypothesis. Weak-form efficiency asserts that it is not possible to use historical share prices to construct a trading strategy that yields excess returns. Semi-strong efficiency states that excess returns cannot be earned on the basis of public information. Strong-form efficiency states that excess returns cannot be earned by trading on the basis of private information. Empirical evidence seems to support semi-strong efficiency as a description of markets.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

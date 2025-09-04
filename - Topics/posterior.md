@@ -6,5 +6,5 @@
 - adj. situated at or near the back of the body or an organ. The posterior chamber of the eye is the rear section, behind the lens, which is filled with vitreous humour.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

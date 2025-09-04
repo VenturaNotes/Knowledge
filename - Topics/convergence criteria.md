@@ -6,5 +6,5 @@
 - (Maastricht criteria) The economic tests used to determine whether member states of the European Union are ready to adopt the euro, as set out in the 1991 Maastricht Treaty. The four principal criteria concern (i) the inflation rate; (ii) ratios of government deficit and government debt to GDP; (iii) long-term interest rates; and (iv) membership of the Exchange Rate Mechanism (ERM). See European Economic and Monetary Union.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

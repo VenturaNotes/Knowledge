@@ -6,5 +6,5 @@
 - A measure of the volatility of a share. A share with a high beta coefficient is likely to respond to stock market movements by rising or falling in value by more than the market average. It is thus a measure of the systematic risk associated with a particular security. See also ALPHA COEFFICIENT; CAPITAL ASSET PRICING MODEL.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

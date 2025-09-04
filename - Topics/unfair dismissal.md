@@ -6,5 +6,5 @@
 - Dismissal of an employee that the employer cannot show to be fair. Fair grounds for dismissal include the employee's conduct, lack of capacity or qualifications, or laws prohibiting their employment; or that while the employee is satisfactory, the need for their services no longer exists, so that they are redundant. Employees in the UK who believe they have been unfairly dismissed can apply to an industrial tribunal for reinstatement or compensation; not all groups of employees have this right.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

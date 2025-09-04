@@ -6,5 +6,5 @@
 - (SIV) An investment company spun off from a bank or a similar financial institution, intended to profit by borrowing money cheaply and then buying securities such as mortgage-backed bonds, and more complex instruments such as collateralized debt obligations, that pay higher rates of interest. SIVs became a problem during the credit crunch in 2007, when the value of the securities in SIVs dropped.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

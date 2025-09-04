@@ -5,4 +5,4 @@
 - (2) A budgeted amount that can be spent for day-to-day operational expenses, especially in public-sector budgeting. Compare CAPITAL ACCOUNT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

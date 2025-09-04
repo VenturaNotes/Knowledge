@@ -6,5 +6,5 @@
 - A form of financial futures where the pay-off from the contract is determined by an interest rate. These futures can be used either to hedge, that is to reduce risks, or to speculate, accepting extra risks for the sake of expected profits. Interest-rate futures are traded in the UK on the London International Financial Futures and Options Exchange.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

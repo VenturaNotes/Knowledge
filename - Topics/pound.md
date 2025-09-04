@@ -8,5 +8,5 @@
 - ($\textsterling$) The UK currency unit; this is often referred to as the pound sterling. The name is also used for the currency units of several other countries, including Cyprus, Egypt, Lebanon, and Syria. If no type of pound is specified, the reference is normally to sterling, unless the context suggests that it is the local currency unit.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

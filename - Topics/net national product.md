@@ -6,5 +6,5 @@
 - The value of the incomes produced by factors of production owned by residents of a country, whether operating domestically or abroad, measured after deducting an estimate of capital consumption. Net national product thus includes the earnings of factors owned by residents and operating abroad, and excludes the earnings of factors operating domestically but owned by non-residents.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

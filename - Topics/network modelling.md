@@ -6,4 +6,4 @@
 - Programme evaluation and review technique (PERT) was developed in 1958 by the US Navy to assist in the construction of the first Polaris submarines. It is based on the same principles as CPA but uses statistical techniques to project optimistic, most probable, and pessimistic times for each activity.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

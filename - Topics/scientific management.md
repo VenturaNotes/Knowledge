@@ -7,4 +7,4 @@
 - Scientific management is credited with increasing productivity enormously, but only at the cost of deskilling many areas of work. The boring, repetitive, and alienating nature of the jobs created using scientific management methods causes demotivation in staff and can lead to an extreme emphasis on pay rates as the primary form of motivation. See also ADMINISTRATIVE MANAGEMENT; CLASSICAL SCHOOL OF MANAGEMENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

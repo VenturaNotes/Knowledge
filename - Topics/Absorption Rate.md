@@ -17,4 +17,4 @@
 - These rates have been used by accountants for over a century and they are still widely applied. Many, however, would argue that they cannot provide the accurate cause-and-effect allocations of costs that modern managers require; for this a system of activity-based costing must be used. See also TRADITIONAL COSTING SYSTEM.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

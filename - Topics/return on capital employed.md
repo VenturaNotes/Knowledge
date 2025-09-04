@@ -5,4 +5,4 @@
 - For managers, ROCE highlights the benefits that can obtain by reducing investments in current or fixed assets. However, it is important to emphasize that relying on a single performance measure is not desirable and managers should use ROCE in conjunction with other measures. For example, ROCE is often compared to residual income.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -12,4 +12,4 @@
 ## References
 
 [^1]: [[(8) Applications of Linear Equations Part 2#^a9ce29]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

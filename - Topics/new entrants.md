@@ -5,4 +5,4 @@
 - (2) Firms entering an industry for the first time. They may be new organizations or established organizations entering a new field.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

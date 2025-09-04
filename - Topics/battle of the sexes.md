@@ -6,4 +6,4 @@
 - The game has two Nash equilibria in pure strategies, $\{$Opera, Opera$\}$ and {Football, Football}, and a mixed strategy equilibrium in which the players randomize between playing strategy {Opera} and strategy {Football}. The interesting feature of the game is that all the equilibria can be criticized. In the pure strategy equilibria one of the players receives a pay-off consistently lower than the other even though the underlying game is symmetric. In the mixed strategy equilibria there will be a positive probability that the players fail to attend the same event. The players can both gain if they adopt a random device (such as tossing a coin) to correlate their choices.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

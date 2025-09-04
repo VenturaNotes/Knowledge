@@ -11,4 +11,4 @@ aliases:
 ## References
 
 [^1]: https://news.uchicago.edu/what-are-field-experiments#:~:text=A%20field%20experiment%20is%20a,natural%2C%20real%2Dworld%20settings.
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

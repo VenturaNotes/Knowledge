@@ -6,4 +6,4 @@
 - (3) The market for goods or services created by older people with a comfortable disposable income and a willingness to spend.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

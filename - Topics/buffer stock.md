@@ -6,5 +6,5 @@
 - A stock of a commodity owned by a government or trade organization and used to stabilize the price of the commodity. Usually the manager of the buffer stock is authorized to buy the commodity in question if its price falls below a certain level, which is itself reviewed periodically, to enable producers to find a ready market for their goods at a profitable level. If the price rises above another fixed level, the buffer stock manager is authorized to sell the commodity on the open market. Thus, producers are encouraged to keep up a steady supply of the commodity and users are reassured that its price has a ceiling. This arrangement is often effective, but may collapse during a boom or slump. See also United Nations Conference on Trade and Development.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

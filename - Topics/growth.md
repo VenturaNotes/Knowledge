@@ -5,4 +5,4 @@
 - (2) The expansion of an economy, usually expressed in terms of an increase of national income.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

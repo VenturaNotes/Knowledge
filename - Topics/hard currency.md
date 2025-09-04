@@ -6,5 +6,5 @@
 - A currency which is convertible into other currencies, and whose price in terms of other currencies is expected to remain stable or rise. Hard currencies are attractive to hold as private stores of wealth or national foreign exchange reserves. See also SOFT CURRENCY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

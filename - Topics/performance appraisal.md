@@ -5,4 +5,4 @@
 - In most organizations, appraisal consists of assessing the employee's ability (or otherwise) to meet expected standards and his or her general demeanour as a member of the workforce. See also EMPLOYEE EVALUATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

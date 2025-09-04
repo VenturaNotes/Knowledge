@@ -6,5 +6,5 @@
 - $n$. failure by a health-care professional to exercise a reasonable standard of care, as defined in the UK by the Bolam and Bolitho tests, which ask whether the care provided fell short of that of a reasonable body of professional opinion and whether actions or omissions withstand logical analysis (the determination of which falls to the court). In order to establish negligence a claimant must show that a doctor had a duty of care, that he or she breached this duty by falling below the expected standard of care, and that foreseeable harm was caused as a result of the professional's conduct. The standard of proof in negligence actions is that of the civil law (i.e. on the balance of probabilities). Payment of compensation to the claimant upon proving negligence is required by the UK civil law. Rarely, doctors may be charged with the criminal offence of manslaughter by gross negligence, which must be proved according to the standards of the criminal law (beyond reasonable doubt). If convicted, the sentence for gross negligence cases is likely to be custodial.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

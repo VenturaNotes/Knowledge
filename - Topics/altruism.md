@@ -6,5 +6,5 @@
 - $n$. In social psychology and sociobiology, behavior that benefits another individual or other individuals in terms of direct advantages or chances of survival and reproduction at some cost to the benefactor. See also alarm signal, prosocial behaviour, reciprocal altruism. altruist $n$. One who acts with altruism. altruistic adj. Compare selfish. \[French altruisme, from Italian altrui others, from Latin alteri huic to this other]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

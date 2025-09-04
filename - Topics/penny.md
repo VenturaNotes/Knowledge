@@ -5,4 +5,4 @@
 - (2) A former monetary unit of the Republic of Ireland, worth one hundredth of a punt (until 2002).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

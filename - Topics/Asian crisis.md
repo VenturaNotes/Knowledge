@@ -6,4 +6,4 @@
 - The Asian crisis had significant repercussions throughout the world with a slowdown in trade and foreign direct investment. The crisis has raised questions about the structure of the international financial system and the extent of systemic risk. Policy proposals to avoid a similar crisis in the future included setting global standards for banking regulation, raising the quality of economic statistics, and improving access to information for investors in emerging markets. 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

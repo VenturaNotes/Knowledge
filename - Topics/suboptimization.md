@@ -9,4 +9,4 @@
 - Most organizations recognize that individual members have a range of personal needs that may not be entirely compatible with the organization's aims. Desired outputs are necessarily a compromise between personal needs and the ideals of an organization. See also GOAL DIVERGENCE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

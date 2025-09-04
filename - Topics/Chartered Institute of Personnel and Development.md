@@ -10,4 +10,4 @@ aliases:
 	- CIPD website: includes a wealth of resources on HR subjects ranging from employment law to training and development
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

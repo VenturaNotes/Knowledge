@@ -6,5 +6,5 @@
 - (ESCB) The system is composed of the European Central Bank and the central banks of all 28 European Union member states. Not all member states have adopted the euro so the ESCB cannot act as the monetary authority for the eurozone. This task is undertaken by the Eurosystem.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

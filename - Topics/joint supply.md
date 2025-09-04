@@ -7,5 +7,5 @@
 - The supply conditions when outputs are produced jointly. If two or more goods are produced by the same process in completely inflexible proportions, there is no supply curve for each good separately, only for the fixed combination of goods. If the proportions can be varied, the supply curve for each good depends on the extra costs involved in changing the production process so as to obtain more of it.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

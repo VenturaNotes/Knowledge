@@ -15,8 +15,8 @@
 - $n$. the state of being able to make decisions about one's medical care, i.e. to consent to or to refuse treatment. The law, by virtue of the Mental Capacity Act 2005, requires that to assess capacity doctors should evaluate whether a patient can comprehend, retain, and weigh up information in the balance such as to make a considered decision that can be communicated. The patient must understand the nature, purpose, and possible consequences of having and not having investigations or treatments. Capacity is often impaired in such conditions as stroke, dementia, learning disability, mental illness, and intoxication with illicit substances. The term competence is often used as a synonym, but since the Mental Capacity Act 2005 came into force capacity is the preferred term. See also INCOMPETENCE. $\textemdash$capacitous adj.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^5]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - A document provided by a company wishing to sell newly issued shares or debentures to the public. A prospectus must provide information on the aims, past financial history, and capital structure of the venture, and may contain profit forecasts. Prospectuses in the UK have to be lodged with the Registrar of Companies, and there are penalties for making false claims in a prospectus.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

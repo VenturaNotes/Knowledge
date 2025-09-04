@@ -5,4 +5,4 @@
 - (2) A group in the sales department of an organization that is responsible for managing the relationship with existing clients.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

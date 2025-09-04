@@ -5,4 +5,4 @@
 - (2) To agree that salary increases, especially those settled in a pay award, should apply from a specified date in the recent past.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

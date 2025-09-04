@@ -6,4 +6,4 @@
 	- The home page hosted by the Ministry of Rural Development of the Government of India.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

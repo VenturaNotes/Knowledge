@@ -6,5 +6,5 @@
 - An organization of employees, formed for the purpose of collective bargaining with employers over wages, hours, conditions of service, job security, and manning levels. They collect subscriptions from which to fund services for members such as legal advice about unfair dismissal, and pay during strikes. Trade unions have in the past provided friendly society facilities for their members, including sick and unemployment pay, and may also negotiate price concessions for their members. They may engage in political activity to promote their members' interests, particularly over issues such as legislation affecting security of employment and the social security system. A union's membership may be confined to a narrowly defined group of skills, or may be spread widely over the workforce in general unions. In the UK most unions belong to the Trades Union Congress, an organization representing unions at the national level. Many US unions belong to the American Federation of Labor and Congress of Industrial Organizations. The rights and duties of both UK and US trade unions are governed by extensive legislation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

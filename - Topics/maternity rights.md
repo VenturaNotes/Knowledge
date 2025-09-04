@@ -13,4 +13,4 @@
 - In the UK men enjoyed no statutory paternity rights until 1999, when an EU directive was adopted into British law entitling a parent of either sex to take a total of 13 weeks unpaid leave in the first five years of a child's life (but only four weeks in any one year). New fathers became entitled to two weeks' statutory paternity pay in April 2003. It is also now possible for a new father to claim additional paternity leave and pay if his partner returns to work before the end of her statutory maternity leave or pay. A growing number of companies now operate contractual schemes providing for a period of paid and/or unpaid paternity leave.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

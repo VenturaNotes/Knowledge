@@ -11,4 +11,4 @@
 	- critical ratio (CR)—this is the ratio of the time until the due date to the processing time: jobs with the lowest CR are processed first.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

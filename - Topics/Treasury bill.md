@@ -6,5 +6,5 @@
 - A short-dated government security. Treasury bills bear no formal interest, but are promises to pay in less than one year, issued at a discount on their redemption price. They are regarded as a highly liquid financial asset by banks and other financial institutions.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

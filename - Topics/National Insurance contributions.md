@@ -14,5 +14,5 @@
 - (NICs) Charges levied in the UK on employees, employers, and the self-employed to help pay for social security. These contributions are levied as fixed percentages of wages, with exemptions for very low incomes. NICs form part of the tax wedge between the cost of labour to employers and the cash benefit of working to their employees.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

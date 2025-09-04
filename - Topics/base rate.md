@@ -8,5 +8,5 @@
 - (2) An informal name for the rate at which a country's central bank lends to the banking system, which effectively controls the lending rate throughout the banking system. In the UK, suspension of the official minimum lending rate in 1981 heralded a loosening of government control over the banking system, but the need to increase interest rates in the late 1980s (to control inflation and the balance of payments deficit) led to the use of a base rate. In 1997 sole responsibility for setting the base rate was given to the Bank of England. The base rate is more formally known as the bank rate.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

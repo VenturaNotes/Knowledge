@@ -5,4 +5,4 @@
 - (2) A monetary unit of Jordan, worth one hundredth of a dinar.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

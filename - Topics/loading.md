@@ -5,4 +5,4 @@
 - (2) The addition of a charge to cover incidental expenses, administrative costs, profit, etc., on an insurance policy, bank account, or purchases of unit trusts. See BACK-END LOAD; FRONT-END LOAD.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

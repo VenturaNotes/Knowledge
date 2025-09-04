@@ -7,5 +7,5 @@
 - If a particular market for a product is dominated by a large multinational corporation, barriers to entry for smaller firms may be formidable: the multinational may be able to produce the product more cheaply because of economies of scale, the existing product may have built up a strong brand loyalty, the multinational may control the supply of raw material, or own the patent rights to all or part of the production process. See also MOBILITY BARRIERS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

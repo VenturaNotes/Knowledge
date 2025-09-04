@@ -9,4 +9,4 @@
 ## References
 
 [^1]: https://www.investopedia.com/ask/answers/072915/what-utility-function-and-how-it-calculated.asp
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

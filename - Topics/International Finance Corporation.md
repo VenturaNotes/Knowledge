@@ -10,5 +10,5 @@ aliases:
 - (IFC) An international investment bank affiliated to the International Bank for Reconstruction and Development (IBRD or World Bank), founded in 1956 to make loans to the private sector. The IFC was set up to broaden the scope of the IBRD, which lends directly only for projects in the public sector or with government guarantees, but lends to the IFC to fund loans to the private sector.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

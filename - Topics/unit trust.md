@@ -7,5 +7,5 @@
 - A UK system by which small investors can benefit from diversified portfolios. Unit trusts sell units to investors, and use the funds to hold a portfolio of securities managed by the trust and held by a bank as trustee. Unit trust shareholdings may be widely spread, or concentrated on a particular sector or country. They may aim at varying combinations of income and capital growth. Investors receive professional management and a diversified portfolio without high transaction costs. They can buy more units or sell their units back to the trust at published prices at any time. Unit trusts are distinguished from investment trusts, where investors buy shares in the trust company.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -9,4 +9,4 @@ $$V(a)=m a x_{\{x\}} f(x ; a)=f(x(a) ; a).$$
 	- #question Is it normal for the bar on the right to be that long? 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

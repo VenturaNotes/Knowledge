@@ -7,5 +7,5 @@
 - (2) The rule introduced by the UK Securities and Investment Board that bodies such as banks and building societies must choose either to give independent advice on all brands of life insurance and unit trusts or confine themselves to selling the products of only one company. The intention was to ensure either that advice was truly independent or that customers were aware that it was not.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -16,5 +16,5 @@
 
 [^1]: ChatGPT
 [^2]: https://www.statlect.com/fundamentals-of-statistics/Bayesian-inference
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

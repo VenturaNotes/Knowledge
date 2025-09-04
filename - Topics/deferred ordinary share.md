@@ -5,4 +5,4 @@
 - (2) A type of share on which little or no dividend is paid for a fixed number of years, after which it ranks with other ordinary shares for dividend.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

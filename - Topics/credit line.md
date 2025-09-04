@@ -5,4 +5,4 @@
 - (2) The facility for borrowing money over a given period to a specified extent.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

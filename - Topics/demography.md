@@ -6,5 +6,5 @@
 - $n$. the study of populations on a national, regional, or local basis in terms of age, sex, and other variables, including patterns of migration and survival. It is used in public health medicine to help identify health needs and risk factors. See also BIOSTATISTICS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

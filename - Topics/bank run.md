@@ -30,4 +30,4 @@
 
 [^1]: https://library.fiveable.me/key-terms/ap-macro/bank-run
 [^2]: ChatGPT
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

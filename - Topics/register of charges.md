@@ -5,4 +5,4 @@
 - (2) A list of charges that a company must maintain at its registered address or principal place of business. Failure to do so may render the directors and company officers liable to a fine. This register must be available for inspection by other persons during normal business hours.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -13,4 +13,4 @@
 [^1]: https://en.wikipedia.org/wiki/Comparative_advantage
 [^2]: https://library.fiveable.me/key-terms/ap-micro/absolute-advantage
 [^3]: https://mru.org/node/201827/done?sid=8916441
-[^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) The money value of a contract for the purchase or sale of securities on the London Stock Exchange, before commissions, charges, stamp duty, and any other expenses have been deducted.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

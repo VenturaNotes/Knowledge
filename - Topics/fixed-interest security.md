@@ -7,5 +7,5 @@
 - A security whose return is fixed, up to some redemption date or indefinitely. The fixed amounts may be stated in money terms, or indexed to some measure of the price level. A fixed-interest security is liable to vary in price with the rate of interest, its price rising as the rate of interest used to find the present discounted value of the fixed receipts falls. This sensitivity to changes in the interest rate increases with the time to maturity of the security.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

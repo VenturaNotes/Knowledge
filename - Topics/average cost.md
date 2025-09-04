@@ -7,5 +7,5 @@
 - (2) (AVCO; weighted-average cost) A method of valuing units of raw material or finished goods issued from stock; it involves recalculating the unit value to be used for pricing the issues after each new consignment of raw materials or finished goods has been added to the stock. The average cost is obtained by dividing the total stock value by the number of units in stock. Because the issues are at an average cost, it follows that the valuation of the closing stock should be made on the same average cost basis. The method may also be used in process costing to value the work in process at the end of an accounting period.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

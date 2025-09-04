@@ -33,6 +33,6 @@ class Solution:
 - 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: https://leetcode.com/problems/remove-element/solutions/12584/6-line-python-solution-48-ms/comments/514928/
 [^3]: https://leetcode.com/problems/remove-element/solutions/3670940/best-100-c-java-python-beginner-friendly/?envType=study-plan-v2&envId=top-interview-150

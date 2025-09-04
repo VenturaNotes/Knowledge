@@ -25,4 +25,4 @@
 [^1]: https://www.techtarget.com/whatis/definition/accountability
 [^2]: https://www.capterra.com/glossary/accountability/
 [^3]: ChatGPT
-[^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

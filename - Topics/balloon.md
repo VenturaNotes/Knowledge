@@ -6,5 +6,5 @@
 - $n$. an inflatable plastic cylinder of variable size that is mounted on a thin tube and used for dilating narrow areas (stenosis) in blood vessels (see ANGIOPLASTY), in the alimentary tract (strictures), or in the urinary tract (see ENDOPYELOTOMY).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - The concept is defined in the Financial Reporting Standard Applicable in the UK and Republic of Ireland. It is also recognized in the International Accounting Standards Board's Conceptual Framework.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

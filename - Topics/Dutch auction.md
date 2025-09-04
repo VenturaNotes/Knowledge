@@ -6,5 +6,5 @@
 - An auction that begins with a high price which is then lowered until either a purchaser is willing to accept the price or a minimum reserve is met and the item is withdrawn from sale. See also Auction.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

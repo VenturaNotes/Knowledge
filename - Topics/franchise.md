@@ -8,5 +8,5 @@
 - (2) The civil right to vote. Also known as suffrage. Universal suffrage still remains a relatively recent development. All women were only granted the right to vote in the UK in 1928. Universal suffrage was adopted by the US in 1920 but not enforced until the Civil Rights Act of 1964.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

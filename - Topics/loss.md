@@ -6,5 +6,5 @@
 - $n$. no longer having some valued aspect of one's life, such as a relationship, a job, or a home, that one has previously enjoyed. This may have health consequences: shock, disbelief, and emotional numbness may be followed by anger, guilt, anxiety, or profound sadness. Such emotions may lead to behavioral changes or symptoms that bring people to health care. Encouraging the patient to talk about the loss will require empathy, sensitivity, and judgment from the professional, both to obtain the history of the events and to provide helpful advice and direction to assist in adjustment. See also BEREAVEMENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

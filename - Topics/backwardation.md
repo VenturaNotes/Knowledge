@@ -7,5 +7,5 @@
 - (2) A situation that occasionally occurs on a stock exchange when a market maker quotes a buying price for a share that is lower than the selling price quoted by another market maker. This can only occur in a quote-driven system.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

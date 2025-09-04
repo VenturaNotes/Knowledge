@@ -15,4 +15,4 @@ aliases:
 
 [^1]: https://www.techtarget.com/searchapparchitecture/definition/application-service-provider-ASP
 [^2]: [[(Home Page) Glossary by Capterra]]
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

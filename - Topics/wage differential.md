@@ -6,5 +6,5 @@
 - A difference in wage rates between two types of workers. Wage differentials may be on account of different levels of skill or different formal qualifications, between unionized and non-unionized firms, or between workers of different age, sex, or ethnic group. In the UK wage differentials based on age are legal, while those based on sex or ethnic group are not.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

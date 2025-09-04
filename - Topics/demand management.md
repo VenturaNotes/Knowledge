@@ -5,4 +5,4 @@
 - (2) The activities of a firm directed towards the forecasting and management of the demand for its products and services. Demand management is part of the general process of business planning.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

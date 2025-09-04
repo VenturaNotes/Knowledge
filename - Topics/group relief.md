@@ -7,4 +7,4 @@
 	- the rights to the net assets in a winding-up. From 1 April 2000 members of a group no longer have to be resident in the UK to qualify for relief. See also CONSORTIUM RELIEF.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

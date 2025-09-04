@@ -6,5 +6,5 @@
 - A purchaser for a company, willing to rescue it from an unwanted takeover bid by another buyer. A company threatened with takeover may welcome a competitive bid by a white knight as a means of improving the terms offered by the first bidder, whether or not the alternative bid is ultimately accepted.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) A document instructing a bank to open an account in the name of the mandator (customer), giving details of the way it is to be run, and providing specimen signatures of those authorized to sign cheques, etc.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

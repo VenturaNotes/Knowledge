@@ -6,4 +6,4 @@
 	- RICS website: includes a digest of economic news and analysis and authoritative surveys of the UK's residential and commercial property markets
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

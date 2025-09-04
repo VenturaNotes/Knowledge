@@ -5,4 +5,4 @@
 - Buying futures or options as a hedge is only one kind of hedging; it is known as long hedging. In short hedging, something is sold to cover a risk. For example, a fund manager may have a large holding of long-term fixed income investments and is worried that an anticipated rise in interest rates will reduce the value of the portfolio. This risk can be hedged by selling interest-rate futures on a financial futures market. If interest rates rise the loss in the value of the portfolio will be offset by the profit made in covering the futures sale at a lower price.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

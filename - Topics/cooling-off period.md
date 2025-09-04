@@ -5,4 +5,4 @@
 - (2) The time that must elapse after a failed takeover bid before a new bid can be made.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

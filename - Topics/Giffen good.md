@@ -6,5 +6,5 @@
 - A good for which quantity demanded falls when its price falls. This can in theory occur: a Giffen good must be inferior with limited possibilities for substitution. A fall in the price of a good increases real purchasing power: if the good is inferior the income effect of this rise in real income is negative. The substitution effect of a price fall cannot be negative, but it can be small. If the substitution effect is smaller than the negative income effect, the overall effect of a fall in price is a fall in consumption.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

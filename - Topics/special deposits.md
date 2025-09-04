@@ -6,5 +6,5 @@
 - Additional deposits that other banks are required to make with the central bank. These may carry low or no interest, and do not count towards any normal minimum reserve requirements. Special deposits reduce bank profits, and their ability to extend credit.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) An extra charge for handling goods with special care when they are being loaded or unloaded from a ship, aircraft, etc.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

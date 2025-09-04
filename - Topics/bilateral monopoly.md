@@ -6,5 +6,5 @@
 - A situation in which a monopoly seller bargains with a monopoly buyer (see MONOPSONY). The classic application of bilateral monopoly is to the negotiation of wages between a union and a firm. The most famous solution (1950) is that stated by John Nash, which suggests that both sides will settle for the wage that maximizes the benefits from cooperation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

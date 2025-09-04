@@ -22,5 +22,5 @@
 
 [^1]: ChatGPT
 [^2]: https://web.uvic.ca/~bettyj/203/Practice_Final_2_answ.pdf
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

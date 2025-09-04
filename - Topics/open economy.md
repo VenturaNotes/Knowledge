@@ -6,5 +6,5 @@
 - An economy which has transactions with the rest of the world. These may include trade in goods and services, movements of capital, transfers of information and technical know-how, and migration of labour. Most economies are at least partially open for some of these forms of contact. See also AUTARCHY; CLOSED ECONOMY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

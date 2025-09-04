@@ -5,4 +5,4 @@
 - (2) In the USA, an investment trust in which the managers can decide what investments to make.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

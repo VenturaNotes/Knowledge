@@ -5,4 +5,4 @@
 - (2) More generally, the risk of disruption of inputs into a firm.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

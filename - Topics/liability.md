@@ -9,5 +9,5 @@
 - (2) The legal obligation to pay debts. Unlimited liability means that the individual or company concerned must make the payment if their assets permit; if not, they can be made bankrupt or liquidated. Unlimited liability typically applies to individuals, and firms trading as sole traders or partnerships. Limited liability, which applies only to companies, means that their shareholders are liable for the company's debts only to the extent of losing the money originally put into a business, plus any unpaid portion of the par value of shares purchased.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

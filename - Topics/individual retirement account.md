@@ -10,5 +10,5 @@ aliases:
 - (IRA) A US retirement plan that provides tax advantages on savings for retirement. IRAs were introduced in 1974 to permit saving in tax-privileged form for employees without pension plans. Eligibility for IRAs was expanded by the Economic Recovery Tax Act of 1981 to permit almost all working taxpayers to contribute, and the IRA limits were increased. This led to a major increase in saving in IRAs. The Tax Reform Act of 1986 changed the position by excluding higher-income taxpayers with employer-provided pensions.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

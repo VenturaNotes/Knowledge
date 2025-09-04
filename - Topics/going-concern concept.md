@@ -5,4 +5,4 @@
 - Users of financial statements may assume that the going-concern concept has been applied unless there is clear warning to the contrary.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

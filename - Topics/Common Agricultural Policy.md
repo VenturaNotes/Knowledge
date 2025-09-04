@@ -10,5 +10,5 @@ aliases:
 - (CAP) A policy set up by the European Economic Community to support free trade within the Common Market and to protect farmers in the member states. The European Commission fixes a threshold price, below which cereals may not be imported into the European Union (EU), and also buys surplus cereals at an agreed intervention price in order to help farmers achieve a reasonable average price, called the target price. Prices are also agreed for meats, poultry, eggs, fruit, and vegetables, with arrangements similar to those for cereals. The European Commission is also empowered by the CAP to subsidize the modernization of farms within the community. The common policy for exporting agricultural products to non-member countries is laid down by the CAP. In the UK, the Intervention Board for Agricultural Produce is responsible for the implementation of EU regulations regarding the CAP. Important reforms designed mainly to eliminate surpluses and to uphold environmental and production standards were agreed in 1984, 1988, 1999, 2003, and 2014.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

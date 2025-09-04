@@ -8,5 +8,5 @@
 - A report by a taxpayer to the tax authorities of his or her income, and of any facts affecting their entitlement to tax allowances. Tax returns may be demanded by the tax authorities, with legal penalties for failing to make returns. Alternatively, where a withholding tax system is in force, it may be left to taxpayers to make tax returns as a condition for reclaiming any tax refunds to which they are entitled.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

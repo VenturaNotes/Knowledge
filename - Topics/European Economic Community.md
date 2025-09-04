@@ -6,5 +6,5 @@
 - (EEC) The European common market set up in 1958 by the original six members of the European Coal and Steel Community. These were Belgium, France, (West) Germany, Italy, Luxembourg, and the Netherlands. The EEC was combined with the European Atomic Energy Community in 1967 to form the European Community. The aims of the EEC included the abolition of tariffs and quota restrictions on trade between members, the adoption of a common tariff on trade with non-members, full mobility of workers and capital between members, harmonization of social and economic legislation, and a Common Agricultural Policy.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

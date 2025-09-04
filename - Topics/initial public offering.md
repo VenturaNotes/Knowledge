@@ -10,5 +10,5 @@ aliases:
 - (IPO) The first sale of stock by a private company to the public. An IPO represents the transition from private ownership to public trading. The public offering is accompanied by a prospectus describing the activities and prospects for the firm and is usually underwritten by investment banks.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

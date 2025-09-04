@@ -6,5 +6,5 @@
 - The practice of hiring items of equipment, rather than buying them outright. This enables firms to operate with less capital than they would need if all their equipment had to be bought. It also shifts to the owners the risk of obsolescence; this will be reflected in the rentals demanded. Leasing may give tax benefits where a new firm has no profits against which it can set tax allowances on any equipment it buys. It may also enable local authorities to avoid cash limits on their expenditure.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

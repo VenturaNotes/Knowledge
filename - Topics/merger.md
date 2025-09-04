@@ -11,5 +11,5 @@
 - A combination of two or more firms into a single new firm. This takes over all the assets and liabilities of the merging firms; shares in the new firm are divided between the shareholders of the original firms on an agreed basis. Merger procedures in the UK are subject to the City Code on Takeovers and Mergers. A merger may allow economies of scale or scope between the firms, which should lead to gains in efficiency. It may, however, also reduce competition, so that mergers in the UK may be referred to the Competition and Markets Authority. See also CONCENTRIC MERGER; CONGLOMERATE MERGER; HORIZONTAL MERGER; VERTICAL MERGER.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

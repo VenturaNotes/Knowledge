@@ -6,5 +6,5 @@
 - The process of getting customers to buy a firm's products. This involves making arrangements for distribution and advertising of current products. It also covers market research to discover likely customer reaction to potential new products, and whether possible modifications to existing products would improve their appeal.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

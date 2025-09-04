@@ -6,5 +6,5 @@
 - A country which provides foreign residents with opportunities to reduce their tax payments by doing business there. Tax havens can be used for tax avoidance, when tax liabilities can legally be reduced by using foreign financial intermediaries. They can also be used for tax evasion, for example by the use of confidential bank accounts to facilitate concealment of income and money laundering.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

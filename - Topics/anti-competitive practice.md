@@ -8,4 +8,4 @@
 ## References
 
 [^1]: https://www.techtarget.com/whatis/definition/anti-competitive-practice
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

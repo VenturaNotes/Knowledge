@@ -9,4 +9,4 @@
 ## References
 
 [^1]: https://www.investopedia.com/terms/d/demand.asp
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

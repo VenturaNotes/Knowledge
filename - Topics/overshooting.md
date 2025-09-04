@@ -6,5 +6,5 @@
 - The possibility that after a shock to the economy, some variables will move further in the short run than it is necessary for them to adjust in the long run. This occurs because of differences in speeds of adjustment of different variables. See also EXCHANGE RATE OVERSHOOTING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

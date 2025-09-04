@@ -6,4 +6,4 @@
 	- The website providing access to the credit rating services and other products of Standard and Poor's.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

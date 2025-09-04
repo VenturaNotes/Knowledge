@@ -10,4 +10,4 @@
 	- media timing (the schedule of the appearance of the ads in the chosen media).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

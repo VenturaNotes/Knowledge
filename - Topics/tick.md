@@ -8,6 +8,6 @@
 - $n$. a bloodsucking parasite belonging to the order of arthropods (the Acarina) that also includes the mites. Tick bites can cause serious skin lesions and occasionally paralysis (see Ixodes; Amblyomma), and certain tick species transmit typhus, Lyme disease, and relapsing fever. Diethyltoluamide (DEET) is used as a tick repellent. There are two families: Argasidae (soft ticks), which includes Ornithodoros, with mouthparts invisible from above and no hard shield (scutum) on the dorsal surface; and Ixodidae (hard ticks), including Dermacentor, Haemaphysalis, and Rhipicephalus, with clearly visible mouthparts and a definite scutum.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

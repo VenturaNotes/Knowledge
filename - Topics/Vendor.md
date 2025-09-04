@@ -13,4 +13,4 @@ aliases: Vendors
 
 [^1]: ChatGPT
 [^2]: [[(Home Page) Glossary by Capterra]]
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

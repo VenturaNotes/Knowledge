@@ -6,5 +6,5 @@
 - $n$. the ethical and legal doctrine that provides justification for doing something that might otherwise be seen as blameworthy when the consequences of not doing so would be worse. For example, doctors have no right to touch a patient without consent, yet might be considered lacking in duty of care if they did not restrain patients who were about to kill themselves. See also PATERNALISM.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

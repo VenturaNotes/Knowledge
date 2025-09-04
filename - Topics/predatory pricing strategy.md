@@ -5,4 +5,4 @@
 - (2) An illegal pricing strategy in which a product is offered at a low price to eliminate competition and the price is subsequently raised after the competition has been eliminated.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

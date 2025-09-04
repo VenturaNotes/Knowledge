@@ -8,4 +8,4 @@
 - The owner's title is guaranteed by registration in most circumstances. Rights in registered land may be a registered interest, which amounts to ownership of the freehold or leasehold estate; an overriding interest, which binds a purchaser without needing to be registered; or a minor interest, which needs to be protected by an entry on the register (e.g. interest under a trust or restrictive covenant). The purpose of the system is to simplify conveyancing, so that instead of checking title deeds, a search of the register will reveal all relevant matters. Eventually, all land in England and Wales will be registered, enabling unregistered conveyancing to disappear; this process is now over $80 \%$ complete. See also ELECTRONIC CONVEYANCING; RECTIFICATION OF REGISTER.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

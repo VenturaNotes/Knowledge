@@ -6,5 +6,5 @@
 - An asset which diminishes over time. This wastage may be due to gradual destruction through use, for example the depletion of ore reserves by mining them. Alternatively, it may be due to the passage of time: for example, a patent will expire on some future date, which draws closer as time passes.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

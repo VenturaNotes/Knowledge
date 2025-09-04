@@ -6,5 +6,5 @@
 - A business where the provision of risk capital is shared between two or more firms. This is a method of organization often adopted for projects which are too large or too risky for any one firm to attempt alone. The firms joining in such a venture may provide different forms of expertise: for example, it is common for firms investing abroad to seek local partners. Foreign firms can provide technical expertise, but locals have advantages in familiarity with local conditions and business practices, in marketing, and in dealing with national governments and the labour force.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

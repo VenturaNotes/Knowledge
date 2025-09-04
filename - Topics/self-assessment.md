@@ -8,5 +8,5 @@
 - (tax) The system of tax assessment where the taxpayer reports all items of income and all allowances due, and works out how much tax is payable. The tax authorities then check this calculation. The alternative is the system where the taxpayer reports income and claims allowances, but the calculations leading to the tax assessment are made by the authorities. The disadvantage of self-assessment is that it demands both knowledge of the tax system and arithmetic competence: this is realistic for companies whose tax returns are prepared by professional accountants, but less so for small businesses and individuals, who are amateurs where the tax authorities are professionals.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

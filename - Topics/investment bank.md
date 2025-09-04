@@ -6,5 +6,5 @@
 - A bank dealing mainly with the financing of businesses and, sometimes, the government, rather than the general public. Investment banks raise funds by issuing and selling debt and equity; provide hire purchase and industrial finance; underwrite new issues; advise on and arrange finance for mergers and takeover bids; and manage investment for institutions and wealthy individuals.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -25,4 +25,4 @@
 [^2]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
 [^3]: https://www.uninets.com/blog/switching-in-computer-networks#:~:text=Switching%20techniques%20enhance%20bandwidth%20utilization,routed%20directly%20to%20their%20destinations.
 [^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^5]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

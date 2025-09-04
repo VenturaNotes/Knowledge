@@ -6,5 +6,5 @@
 - A refusal by employees to work for more than normal working hours. This is used in industrial disputes to inconvenience employers, and to press them to increase the numbers employed, in particular to avoid redundancies. While an overtime ban reduces workers' pay, it causes a much less severe drop in their incomes than a strike.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

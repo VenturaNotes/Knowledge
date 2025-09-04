@@ -5,4 +5,4 @@
 - (2) A limit on the possible subdivision of a commodity or security. For example, US Treasury Bills are sold in increments of $\$ 1000$. Indivisibilities limit the extent to which a consumption plan or a portfolio can exactly match the optimal choice. The market offers solutions to some indivisibilities: indirect investment is a method of overcoming the indivisibility of securities.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

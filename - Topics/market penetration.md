@@ -7,4 +7,4 @@
 - (3) A marketing strategy based on low prices and extensive advertising to increase a product's market share. For penetration strategy to be effective the market will have to be large enough to be able to sustain low profit margins. See PRODUCT-MARKET STRATEGY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

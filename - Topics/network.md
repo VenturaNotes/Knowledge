@@ -43,4 +43,4 @@ aliases:
 [^4]: ChatGPT
 [^5]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-3-computer-networks-quizzes/ks4-ocr-j277-1-3-wired-and-wireless-networks-quiz/
 [^6]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^7]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^7]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

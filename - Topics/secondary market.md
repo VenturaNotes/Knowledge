@@ -6,5 +6,5 @@
 - The market for resale of shares. This is distinct from the market for new issues: the vast majority of dealings in shares is in secondary markets. The existence of a liquid secondary market for shares is an important factor in making them saleable as new issues. If people intending to buy newly issued shares knew they could not sell them readily, but had to retain them permanently, they would be much more reluctant to risk buying them in the first place.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

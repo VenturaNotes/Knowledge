@@ -9,5 +9,5 @@
 - (2) The additional return that a risky asset must pay over that paid by the risk-free security in order to induce risk-averse investors to purchase it. The risk premium is endogenously determined by the equilibrium in financial markets. For example, in the Capital Asset Pricing Model the risk premium on asset $i$ is given by $\beta_{i}\left(r_{m}-r_{f}\right)$, where $\beta_{i}$ is the beta coefficient of asset $i, r_{m}$ is the expected return on the market portfolio, and $r_{f}$ is the return on the risk-free security.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Market research, which is often used synonymously with the preferred term 'marketing research', is more correctly used to refer to research with the restricted objective of discovering the size of the market for a particular brand or product.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

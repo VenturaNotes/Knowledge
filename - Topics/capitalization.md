@@ -7,4 +7,4 @@
 - (4) The accounting practice of treating capital expenditure as a fixed asset on the balance sheet rather than charging it against profits when it occurs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

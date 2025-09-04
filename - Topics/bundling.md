@@ -6,5 +6,5 @@
 - The marketing ploy of giving away a relatively cheap product with a relatively expensive one to attract customers; for example, incorporating one or more CD-ROMs with the software package supplied with a computer. See PRICE-BUNDLING STRATEGY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

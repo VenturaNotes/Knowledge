@@ -5,4 +5,4 @@
 - The accounting treatment for intangible assets has been a controversial topic. Under the Companies Act intangible assets is a main heading that should appear on the face of the balance sheet. The following subheadings are required but may be shown either on the face of the balance sheet or in the notes: research and development costs; concessions, patents, licences, trademarks, and similar rights and assets; goodwill; payments on account. Accounting for intangible assets is now covered by Sections 18 and 19 of the Financial Reporting Standard Applicable in the UK and Republic of Ireland. The relevant International Accounting Standards are IAS 22, Business Combinations; IAS 36, Impairment of Assets; and IAS 38, Intangible Assets.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

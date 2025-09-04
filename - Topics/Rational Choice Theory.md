@@ -10,4 +10,4 @@
 
 [^1]: ChatGPT
 [^2]: https://www.investopedia.com/ask/answers/072915/what-utility-function-and-how-it-calculated.asp
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

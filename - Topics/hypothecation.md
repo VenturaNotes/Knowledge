@@ -8,5 +8,5 @@
 - Originally a pledge of property as collateral for a mortgage without transfer of possession to the party making the loan. Now hypothecation is also used to describe a tax collected for a specific purpose. See also EARMARKING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

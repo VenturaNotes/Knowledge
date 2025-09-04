@@ -6,4 +6,4 @@
 - (3) Denoting a market that has risen too rapidly as a result of excessive buying. An overbought market is unstable and likely to fall if unsupported. Compare OVERSOLD.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

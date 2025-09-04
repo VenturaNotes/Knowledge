@@ -6,5 +6,5 @@
 - A period during which lenders are unwilling to extend credit to borrowers or the costs of borrowing rise. The term is particularly associated with the period beginning in late 2007, when the previous era of 'easy credit' came to a sudden end in the wake of the subprime lending fiasco. See also CREDIT SQUEEZE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

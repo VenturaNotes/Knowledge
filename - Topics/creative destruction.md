@@ -6,5 +6,5 @@
 - A phrase describing the dynamic, destabilizing effects of free-market capitalism, in which established businesses, industries, and ways of doing things are constantly overturned by new products, technologies, markets, and organizational structures. The phrase is chiefly associated with the Austrian economist Joseph Schumpeter (1883-1950). See also Schumpeterian Growth.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

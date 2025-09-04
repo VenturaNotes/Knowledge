@@ -6,5 +6,5 @@
 - A commercial institution that takes deposits and extends loans. Banks are concerned mainly with making and receiving payments on behalf of their customers, accepting deposits, and making short-term loans to private individuals, companies, and other organizations. However, they also provide money transmission services and in more recent decades have diversified into many areas of finance, including high-risk speculative activities. Since the financial crisis of 2007-08 there have been widespread calls for the separation of the riskier forms of corporate and investment banking from traditional 'retail banking'. In the UK, the banking system comprises the Bank of England (the central bank), the commercial banks, merchant banks, branches of overseas banks, and the National Savings Bank. The first (1990) building society to become a bank in the UK was the Abbey National (now part of Santander), after its public flotation; many other building societies have now followed this precedent.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

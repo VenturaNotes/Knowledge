@@ -9,4 +9,4 @@
 - However, payback is a relatively simple technique for managers to use and for this reason it remains popular. Often managers use payback and discounted cash flow techniques at the same time, even though they are very different methods of capital budgeting (see DISCOUNTED PAYBACK METHOD).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

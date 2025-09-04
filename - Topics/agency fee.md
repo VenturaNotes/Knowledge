@@ -5,4 +5,4 @@
 - (2) (facility fee) An annual fee paid to an agent for the work and responsibility involved in managing a loan after it has been signed.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

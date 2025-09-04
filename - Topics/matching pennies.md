@@ -6,4 +6,4 @@
 - It is easy to see there is no pure strategy equilibrium. Assume there is a pure strategy equilibrium. If the two players choose the same strategy then player 1 will wish to deviate. If the two players choose different strategies then player 2 will wish to deviate. The unique mixed strategy is to play each pure strategy with probability one half.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

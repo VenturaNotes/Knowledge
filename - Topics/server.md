@@ -30,4 +30,4 @@ aliases:
 [^2]: https://youtu.be/X3X5kYPgYV0?si=G6yc2tASgppI7u6G
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Glossary by Capterra]]
-[^5]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

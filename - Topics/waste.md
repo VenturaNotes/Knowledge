@@ -5,4 +5,4 @@
 - (2) Any process or activity that does not add value. See Shingo's Seven Wastes.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

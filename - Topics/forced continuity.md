@@ -5,4 +5,4 @@
 - (2) In Internet sales, a dark pattern on a website that operates so that a consumer who enters his or her bank details (either to make a payment or to enjoy a 'free trial') is subsequently charged on a recurring basis, usually without having given explicit authorization. The charges may be small and irregular in the hope that the consumer will not notice them.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -7,5 +7,5 @@
 - The delegation of decision-making responsibilities to the subunits of an organization. The advantages claimed for decentralization are that local managers are more aware of immediate problems, are better motivated, and have greater control over local circumstances. The disadvantages of decentralization are the possibility of wasteful competition between subunits, the duplication of certain services and functions, and the loss of central control and access to information. See DIVISIONALIZATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -4,4 +4,4 @@
 - In direct-mail selling, the total cost of orders, divided by the total number of orders.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

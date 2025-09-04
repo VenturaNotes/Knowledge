@@ -6,5 +6,5 @@
 - Support by consumers for a particular brand or product. Brand loyalty is usually the result of continued satisfaction with a product or its price and is reinforced by effective and heavy advertising. Strong brand loyalty, which is often subjective or subconscious, reduces the impact of competitive brand promotions and brand switching unless it is for an improved product.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

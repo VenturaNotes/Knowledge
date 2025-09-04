@@ -7,4 +7,4 @@
 	- process-an evaluation of the overall experience provided by the service to ensure that all the elements of which it consists operate effectively together.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

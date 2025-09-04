@@ -6,5 +6,5 @@
 - The risk taken by any trader on a market who holds either a long or a short position, that the price will change. The holder of stocks of goods, securities, or currencies not hedged by futures sales runs the risk of losing if the price falls; the seller of futures for goods, securities, or currencies they do not hold runs the risk of losing if the market price rises. Market risk in some markets can be reduced by hedging. Market risk exists even if the other party delivers fully and promptly; it is contrasted with counter-party risk, which is the risk that the other party to a deal may fail to deliver punctually, or at all.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

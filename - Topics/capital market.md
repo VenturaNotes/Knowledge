@@ -6,5 +6,5 @@
 - A market in which long-term capital is raised by industry and commerce, the government, and local authorities. The money comes from private investors, insurance companies, pension funds, and banks and is usually arranged by issuing houses and merchant banks. Stock exchanges are also part of the capital market in that they provide a market for the shares and loan stocks that represent the capital once it has been raised. It is the sophistication of their capital markets that distinguishes the industrial countries from the developing countries, in that this facility for raising industrial and commercial capital is either absent or undeveloped in the latter.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

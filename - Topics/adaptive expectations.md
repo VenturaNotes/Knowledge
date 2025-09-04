@@ -6,5 +6,5 @@
 - In macroeconomic theory, the hypothesis that economic agents form forecasts or expectations of the future values of certain economic variables by adjusting past values of the variable. This may lead agents to make systematic forecasting errors. In modern economic thought the theory of adaptive expectations has been largely superseded by that of rational expectations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

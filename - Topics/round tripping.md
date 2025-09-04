@@ -5,4 +5,4 @@
 - (2) A transaction in which a company borrows money from one source and lends it at profit to another by taking advantage of a short-term rise in interest rates or a regulatory anomaly. For example, a company may use its bank overdraft facility to deposit funds in the money market at rates that exceed the cost of the overdraft. This practice is frowned upon by banks because they may be having to use the money market themselves to fund their customers' overdrafts.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

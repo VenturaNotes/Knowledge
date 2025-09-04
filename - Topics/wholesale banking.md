@@ -6,5 +6,5 @@
 - Banking by institutions which specialize in dealing with other financial institutions, large firms, and wealthy individuals. Wholesale banks do not need the dense network of branches which characterizes retail banking.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -8,5 +8,5 @@
 - A payment from the government to an individual or a family. The payment of a tax credit is conditional on certain characteristics. The UK government currently offers a Child Tax Credit, which is payable to any person over 16 below a certain income level with at least one child and the primary care responsibility for that child, and the Working Tax Credit, which is paid to anyone below a certain income level working over 16 hours per week. The level of payment for both of these credits is contingent upon income.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

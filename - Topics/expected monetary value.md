@@ -10,4 +10,4 @@
 	- Expected monetary value. In this simple example the EMV of a project is calculated as $\textsterling3900$ 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

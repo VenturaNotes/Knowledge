@@ -7,5 +7,5 @@
 - The upheaval on the London Stock Exchange (LSE) when major changes in operation were introduced on 27 October 1986. The major changes enacted on that date were: (a) the abolition of LSE rules enforcing a dual-capacity system; (b) the abolition of fixed commission rates charged by stockbrokers to their clients. The measures were introduced by the LSE in return for an undertaking by the government (given in 1983) that they would not prosecute the LSE under the Restrictive Trade Practices Act. Since 1986 the Big Bang has also been associated with the globalization and modernization of the London securities market.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

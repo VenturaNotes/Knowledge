@@ -8,5 +8,5 @@
 - A system of money transfers available even to those without bank accounts. The UK Girobank system works via post office branches, and Bank Giro enables bank customers to make giro payments. The Department of Work and Pensions also makes use of giro cheques for benefit payments.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -7,5 +7,5 @@
 - (at Lloyd's) A group of Lloyd's names who combine to provide insurance. Each member of a syndicate provides a stated amount of capital; if the syndicate makes a profit on the policies it has issued, all members of the syndicate gain in proportion to their share of the capital employed. If a syndicate makes a loss, each member is liable in proportion to his or her share in the capital, with unlimited liability as to the extent of the loss. Every member of a syndicate is also responsible to an unlimited extent for the losses if other members default on their share of the liabilities.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

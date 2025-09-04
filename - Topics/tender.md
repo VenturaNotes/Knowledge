@@ -7,5 +7,5 @@
 - A bid to undertake a project. The bid will consist of information on the company or individual placing the tender, an outline of how the project will be approached, and a price for completing the project. See also COMPETITIVE TENDERING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

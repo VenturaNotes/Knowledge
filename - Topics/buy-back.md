@@ -6,4 +6,4 @@
 - (3) Action by a developing country's government to reduce some or all of its debt to overseas banks by buying back that debt at the market price or at a substantial discount. The attraction for the banks is the removal of a damaging and negative debt, which may already have been provided for in its balance sheet. The advantage to the country in debt is a return to creditworthiness and the possibility of acquiring new loans.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

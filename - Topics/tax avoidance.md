@@ -6,5 +6,5 @@
 - Arranging one's affairs to reduce the amount of tax that has to be paid. Tax avoidance may be legal, as contrasted with tax evasion which is the deliberate non-payment of tax that is in fact legally due, for example by making false tax returns. While in theory tax avoidance and tax evasion are entirely distinct, in many practical cases it requires a court to rule which description applies to any specific set of transactions. See also General Anti-Avoidance Rule.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

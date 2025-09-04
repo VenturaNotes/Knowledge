@@ -6,4 +6,4 @@
 	- Website of the OECD: links to detailed economic statistics for all member countries
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

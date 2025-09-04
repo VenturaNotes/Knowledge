@@ -5,4 +5,4 @@
 - (2) The UK National Economic Council was set up by Gordon Brown in 2008 but abolished by the Conservative-Liberal Democrat coalition government in 2010.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
