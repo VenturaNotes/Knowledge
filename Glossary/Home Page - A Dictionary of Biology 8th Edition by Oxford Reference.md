@@ -4963,7 +4963,7 @@ Reviewed: false
 	4927. serum
 	4928. sessile
 	4929. seta
-	4930. set point
+	4930. [[set point]]
 	4931. sewage
 	4932. Sewall Wright effect
 	4933. sex chromosome
@@ -4994,14 +4994,14 @@ Reviewed: false
 	4958. shotgun cloning
 	4959. shotgun sequencing
 	4960. shoulder girdle
-	4961. shunt vessel
+	4961. [[shunt vessel]]
 	4962. siblings
 	4963. sibling species
 	4964. sickle-cell disease
 	4965. sieve element
 	4966. sievert
 	4967. sieve tube
-	4968. sigma factor
+	4968. [[sigma factor]]
 	4969. sigmoid growth curve
 	4970. signal hypothesis
 	4971. signal transducer and activator of transcription
