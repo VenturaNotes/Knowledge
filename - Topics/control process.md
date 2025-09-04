@@ -12,4 +12,4 @@
 		- Corrective action is taken; the standard is changed or performance is continued
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

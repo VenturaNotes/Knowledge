@@ -6,5 +6,5 @@
 - The study of working procedures with a view to improving their efficiency, safety, or comfort. This includes looking at the order of operations to see whether rearranging them could save time or effort, and looking at the physical processes to see whether changes in equipment or in environmental features such as lighting could reduce fatigue or improve accuracy and reduce defects in the products.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

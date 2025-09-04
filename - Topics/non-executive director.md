@@ -6,5 +6,5 @@
 - A company director who is not a full-time executive employee of the firm. Non-executive directors are usually chosen either for their expertise in areas relevant to a company's activities, or because they have titles or hold other positions which lend respectability to bodies they join. They may well be executives of other companies.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

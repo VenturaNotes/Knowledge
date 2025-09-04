@@ -6,5 +6,5 @@
 - A business which has more than one owner but is not incorporated, the individual partners remaining fully responsible for its debts. Partners need not all be equal: in professional partnerships it is common for senior partners to get a larger share of the rewards and do a smaller share of the routine work than junior partners. The senior partners' contribution is their capital, experience, and reputation. Partners may also be either active participants in the business, or 'sleeping partners', who provide capital, reputation, or guarantees while other partners do most of the work.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

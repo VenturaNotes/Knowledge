@@ -6,4 +6,4 @@
 	- BARB website: the public area includes a summary of the latest viewing figures and trends with monthly news bulletins
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -11,7 +11,7 @@
 - $n$. (in physiology) the uptake of fluids or other substances by the tissues of the body. Digested food is absorbed into the blood and lymph from the alimentary canal. Most absorption of food occurs in the small intestine - in the jejunum and ileum - although alcohol is readily absorbed from the stomach. The small intestine is lined with minute finger-like processes (see VILLUS), which greatly increase its surface area and therefore the speed at which absorption can take place. See also ASSIMILATION; DIGESTION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

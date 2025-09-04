@@ -6,5 +6,5 @@
 - Securities which are very close substitutes for money. Short-dated securities with a government guarantee which are either marketable, or redeemable by the government at short notice, are such substitutes. They are not themselves money, but are so near to being money that their existence reduces the demand to hold money proper.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -9,6 +9,6 @@
 - An agent who brings two parties together, enabling them to enter into a contract to which the broker is not a principal. The broker's remuneration consists of a brokerage, usually calculated as a percentage of the sum involved in the contract but sometimes fixed by a tariff. Brokers are used because they have specialized knowledge of certain markets or to conceal the identity of a principal, in addition to introducing buyers to sellers. See AVIATION BROKER; BILL BROKER; COMMODITY BROKER; INSURANCE BROKER; SHIPBROKER; STOCKBROKER.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

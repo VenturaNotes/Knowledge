@@ -6,5 +6,5 @@
 - An extreme form of monetary policy whereby the central bank creates money and uses this to engage in open market operations. The open market operations involve the purchase of bonds with cash which increases the stock of money held by financial institutions and enhances liquidity. The aim of quantitative easing is to stimulate the economy. It is employed when a conventional monetary expansion through a reduced interest rate cannot be used because the interest rate is close to, or equal to, zero.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

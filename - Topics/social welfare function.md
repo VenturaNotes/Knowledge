@@ -5,4 +5,4 @@
 - (2) A process for aggregating individual preferences into social preferences. This is the Arrow sense. Arrow's impossibility theorem addresses the difficulties of finding an acceptable aggregation process that works in all circumstances.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

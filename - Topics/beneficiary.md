@@ -7,4 +7,4 @@
 - (4) A person who receives payment at the conclusion of a transaction, e.g. a retailer who has been paid by a customer by means of a credit card.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

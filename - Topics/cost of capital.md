@@ -6,5 +6,5 @@
 - The return, expressed in terms of an interest rate, that an organization is required to pay for the capital used in financing its activities. This will vary according to the type or types of capital employed (e.g., equity capital, loan capital, or some mixture of the two). One approach to establishing the cost of capital is therefore to compute a unique weighted average cost of capital for each organization, based on its particular mix of capital sources. The cost of capital is often used as a hurdle rate in discounted cash flow calculations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

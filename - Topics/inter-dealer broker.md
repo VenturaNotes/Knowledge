@@ -5,4 +5,4 @@
 - (2) A specialized brokerage firm that acts in the same capacity. The leading such firm is the London-based ICAP.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -7,5 +7,5 @@
 - (2) A general term for payment in excess of opportunity cost. Rent can be created by monopoly power, by legislation, or by network externalities. See also ECONOMIC RENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

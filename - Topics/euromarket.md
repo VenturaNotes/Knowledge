@@ -7,5 +7,5 @@
 - A market dealing in eurobonds and eurocurrencies, that is, securities and currencies held in European countries other than their country of origin. There are large euromarkets in several centres, including Brussels, Frankfurt, London, and Paris.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

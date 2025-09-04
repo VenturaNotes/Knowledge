@@ -7,5 +7,5 @@
 - A contract to buy or sell a good, share, or currency on a future date, at a price decided when the contract is entered into. A futures contract entails for each party both the right and the obligation to trade; it is contrasted with an option which confers the right to trade only on one party and the obligation only on the other. Futures contracts can be used to reduce risk by traders who have to hold a good and want protection against a low price, or who know they are going to have to buy and want protection against a high price. The contract can also be used for speculation by a trader who has a different opinion about expected price movements from that prevailing in the futures market. Futures contracts are traded on an exchange, which balances its buying and selling contracts, enforces daily settlement, and collects margin payments from each side to ensure that they will be able to honour their contracts.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

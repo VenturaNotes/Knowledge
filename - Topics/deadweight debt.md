@@ -6,5 +6,5 @@
 - A debt that is incurred to meet current needs without the security of an enduring asset. It is usually a debt incurred by a government; the national debt is a deadweight debt incurred by the UK government during the two World Wars.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

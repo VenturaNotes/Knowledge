@@ -5,4 +5,4 @@
 - (2) Displaying the web address of a company in those settings (e.g. advertisements, company literature, other related websites) that are most likely to generate traffic.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

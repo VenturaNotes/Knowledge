@@ -5,4 +5,4 @@
 - In practice there is little necessity to compute discount factors when carrying out appraisal calculations as they are readily available in discount tables. Most computer spreadsheet programs now include a discounted cash flow routine, which also obviates the need for using discount factors.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

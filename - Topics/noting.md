@@ -5,4 +5,4 @@
 - (2) In advertising research, noticing a particular advertisement when first looking through a newspaper or magazine in which it appears. See NOTING SCORE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

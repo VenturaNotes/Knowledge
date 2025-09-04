@@ -6,5 +6,5 @@
 - (LIBOR) The rate of interest on short-term wholesale loans in the London money market: this is the rate at which banks are willing to lend to each other. LIBOR is used as a benchmark for variable-rate loans within the UK and internationally. LIBOR is formed as the average of the interest rates that leading London banks report they would expect to be charged to borrow from other banks. The fact that it is based on reports has led to incidents of deliberate manipulation of the rate by collusion in false reporting.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

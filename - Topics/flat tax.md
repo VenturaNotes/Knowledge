@@ -14,4 +14,4 @@
 
 [^1]: https://en.wikipedia.org/wiki/Flat_tax
 [^2]: https://extras.itep.org/
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

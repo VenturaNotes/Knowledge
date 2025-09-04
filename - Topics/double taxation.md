@@ -8,5 +8,5 @@
 - The collection of taxes on the same flow by two tax instruments. Double taxation of income by two countries can occur when an economic asset earns income in one country but is owned in another. If countries tax both the profits of firms operating in their territories, and the incomes of their residents, double taxation will occur unless there is an agreement between the two countries to prevent it. Double taxation is thought to be undesirable as it hinders international factor mobility. The double taxation of saving refers to the taxation of labour income and the taxation of the interest income that results from saving part of the labour income. The terminology is often used, but it is arguable whether this constitutes double taxation as defined since the two flows are distinct in this case.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

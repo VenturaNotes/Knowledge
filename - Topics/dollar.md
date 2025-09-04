@@ -6,5 +6,5 @@
 - ($) Several countries use 'dollar' as the name for their national currency. These countries include Australia, Canada, Fiji, Hong Kong, Jamaica, New Zealand, Singapore, and the United States. Any mention of 'a dollar' without qualification normally refers to the US dollar, unless it occurs in a context which implies that it means the local currency.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

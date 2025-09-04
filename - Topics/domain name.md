@@ -19,4 +19,4 @@
 - The Domain Name System (DNS) is the Internet system in which the domain name is given a unique numeric Internet Protocol (IP) address (e.g. 162.18.2.3). When the domain name is keyed into the Internet to access a website the name is automatically translated into its numeric equivalent to enable it to be used by the Internet routing software. The Domain Name Service is the Internet system that implements the Domain Name System and retains in its databases both the domain name and its IP address, which can be accessed by the user. See also UNIFORM RESOURCE LOCATOR.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (3) (YER) The standard monetary unit of Yemen, divided into 100 fils.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

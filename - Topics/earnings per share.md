@@ -7,5 +7,5 @@
 - Earnings per share was seen as an important measure of performance in the 1950s and 1960s but its significance has since declined. UK listed companies or other entities choosing to disclose an earnings-per-share figure must now follow the rules set out in International Accounting Standard 33. This requires the disclosure of both basic eps and fully diluted earnings per share on the profit and loss account. See also bottom line.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

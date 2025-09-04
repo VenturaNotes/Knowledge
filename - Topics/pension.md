@@ -11,5 +11,5 @@
 - A regular income paid by the state to people above pensionable age, by former employers to people who have retired from employment, or by a personal pension fund to a contributor. State pensions may be conditional on having made contributions to an insurance fund during one's working life. Occupational pensions may be contributory or noncontributory. Pension schemes normally give members pensions for their own lives; they vary in their provision for surviving spouses and other dependants. Personal pensions can also be purchased from insurance companies. See also OCCUPATIONAL PENSION; PAY-AS-YOU-GO PENSION; PORTABLE PENSION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

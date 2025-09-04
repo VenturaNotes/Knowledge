@@ -13,5 +13,5 @@
 - The maximum level of international oil sales allocated to each member of the Organization of Petroleum Exporting Countries (OPEC) at its periodic meetings. There is an incentive for each OPEC member to exceed its quota, as the resulting increase in revenue accrues to the individual member, while any resulting decrease in world oil prices affects all producers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

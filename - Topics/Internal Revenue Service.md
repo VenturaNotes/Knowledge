@@ -18,5 +18,5 @@ aliases:
 
 [^1]: https://www.irs.gov/about-irs
 [^2]: https://en.wikipedia.org/wiki/Internal_Revenue_Service
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

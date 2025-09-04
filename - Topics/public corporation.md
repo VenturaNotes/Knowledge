@@ -6,5 +6,5 @@
 - The UK form of organization for nationalized industries. Public corporations were supposed to operate in the public interest, using capital provided by the government, but with managerial autonomy in day-to-day business. In fact there was considerable government intervention in their management, particularly in relation to investment spending and pricing policy.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

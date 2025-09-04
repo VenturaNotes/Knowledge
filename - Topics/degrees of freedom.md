@@ -8,6 +8,6 @@
 - In data samples, degrees of freedom are the maximum number of logically independent values that have the freedom to vary. The degrees of freedom are calculated by subtracting one from the number of items provided in the data sample. Calculating the degrees of freedom when making business decisions is important since it determines the lack of constraint in a data set. For example, say a business is trying to decide how much output a company wants to produce and the number of employees they need to do so, these are two variables that are intertwined. Freely deciding one, determines the fate of the other.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Glossary by Capterra]]

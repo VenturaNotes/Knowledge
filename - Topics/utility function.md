@@ -21,4 +21,4 @@
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://www.investopedia.com/ask/answers/072915/what-utility-function-and-how-it-calculated.asp
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

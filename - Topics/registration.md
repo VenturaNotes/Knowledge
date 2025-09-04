@@ -5,4 +5,4 @@
 - (2) The process of reserving a unique web address that can be used to refer to a company website. See also DOMAIN NAME; UNIFORM RESOURCE LOCATOR.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

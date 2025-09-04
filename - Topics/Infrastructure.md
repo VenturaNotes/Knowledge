@@ -6,5 +6,5 @@
 - The capital equipment used to produce publicly available services, including transport and telecommunications, and gas, electricity, and water supplies. These provide an essential background for other economic activities in modern economies; the fact that they are not available or reliable is characteristic of less developed countries, and handicaps their development. Infrastructure services are generally either provided or regulated by the state.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

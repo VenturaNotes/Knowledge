@@ -8,5 +8,5 @@
 - (2) A present obligation that arises from past events in which either the amount of the obligation cannot be measured reliably or it is not probable that a transfer of economic benefits will be required to settle the obligation. Generally, an entity should disclose a contingent liability but not recognize it as a liability. Compare CONTINGENT ASSET. See also CONTINGENT LOSS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

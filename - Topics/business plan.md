@@ -5,4 +5,4 @@
 - (2) A forecast of the activity volumes and cash flows relating to a specific project within an organization.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

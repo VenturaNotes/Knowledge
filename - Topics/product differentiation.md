@@ -6,5 +6,5 @@
 - A form of non-price competition between firms under which products that fulfil the same needs but are not necessarily identical are offered under different brand names. Differentiated products can also be produced within the same firm and targeted to different groups of consumers. The differentiation is vertical if the products can be ordered according to their quality (low to high). The differentiation is horizontal if the feature along which the products differ does not allow ordering, such as different colours.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

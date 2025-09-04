@@ -9,5 +9,5 @@
 ## References
 
 [^1]: https://quizizz.com/admin/quiz/5de78a13bc9b87001b17eb5d/theory-of-costs-production-function
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

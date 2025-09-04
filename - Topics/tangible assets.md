@@ -6,5 +6,5 @@
 - Assets that can be physically touched. This should literally include only physical objects like plant and equipment, but it is often also used to include leases and company shares, as these are mainly titles to tangible assets. See also INTANGIBLE ASSETS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

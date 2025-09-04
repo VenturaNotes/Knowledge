@@ -6,5 +6,5 @@
 - A temporary additional tax on imports, imposed in addition to normal tariffs, in response to balance-of-payments problems. Such a temporary tax may be very effective in reducing imports, as it creates an incentive to postpone them until it has been removed.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

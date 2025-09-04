@@ -7,5 +7,5 @@
 - (2) Ownership of assets by private individuals or organizations. These assets may include property in sense 1 , but may also include securities and intellectual property such as patents. Property incomes are incomes derived from such assets. See also INTELLECTUAL PROPERTY RIGHTS; PRIVATE PROPERTY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

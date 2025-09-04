@@ -6,5 +6,5 @@
 - The part of the capital of a business that is not tied up in land, buildings, or fixed equipment. Working capital is used to hold liquid balances, pay for wages and materials, and extend credit to customers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

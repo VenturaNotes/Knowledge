@@ -5,4 +5,4 @@
 - In theory, a company can lower its weighted average cost of capital by increasing the proportion of debt. However, this could become a problem for shareholders, who may feel that higher levels of debt will increase the risk of their investment. See also COST OF CAPITAL.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

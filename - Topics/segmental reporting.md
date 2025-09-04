@@ -5,4 +5,4 @@
 - (2) The approach in management accounting in which the financial and quantitative performance of each definitive part of an organization is reported to the management both of the business segment and of the organization as a whole.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

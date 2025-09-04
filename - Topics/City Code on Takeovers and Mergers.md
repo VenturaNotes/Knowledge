@@ -6,4 +6,4 @@
 - Under the Companies Act 2006 the City Code was revised to incorporate articles of the EU's Takeover Directive (2005).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

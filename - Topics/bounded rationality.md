@@ -6,5 +6,5 @@
 - The type of rationality that most people (or organizations) resort to when faced with complex decisions in fast-moving, real-life situations where perfect information is unavailable. Given these constraints, decision makers will be content to find an alternative that gives satisfactory profits rather than one that maximizes profits. The concept of bounded rationality is thus a corrective to the assumption of many economic theories that economic agents make ideally rational decisions to optimize their self-interest. Similarly, some theorists have introduced the concepts of bounded willpower and bounded self-interest to explain decision making that appears to deviate from this model. See SATISFICING behavior. See also BEHAVIOURAL FINANCE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

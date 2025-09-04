@@ -6,5 +6,5 @@
 - Risk associated with the insufficient stability of a system, such as a market or financial system, caused by the existence of numerous links and interdependencies between the entities in the system, so that the inability of one or a few entities to perform their functions may lead to a cascade of failures of other entities and ultimately result in the collapse of the entire system. This should be distinguished from the systematic risk.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

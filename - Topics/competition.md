@@ -9,5 +9,5 @@
 - Rivalry between suppliers providing goods or services for a market. The consensus of most economic theory is that competition is beneficial for the public, largely because it brings prices down. Governments usually pursue policies aimed at increasing competition in markets, although there may sometimes be a conflict between policies that increase competition and those that promote the national interest. See MONOPOLISTIC COMPETITION; PERFECT COMPETITION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

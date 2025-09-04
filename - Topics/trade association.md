@@ -6,5 +6,5 @@
 - A voluntary body representing the firms engaged in a particular type of business. Trade associations promote the collection and exchange of information and discussion of technical standards; they also lobby government concerning legislation affecting the industry, and possible subsidies to it.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

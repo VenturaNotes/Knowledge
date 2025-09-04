@@ -8,4 +8,4 @@
 - The fourth strategy is a losing strategy in which a company pursues a middle-of-the-road path. Companies that try to be good at everything are rarely particularly good at anything.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

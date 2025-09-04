@@ -6,5 +6,5 @@
 - The system by which the issuers of insurance policies pass on part of the risk to others, by themselves taking out further insurance policies. Reinsurance generally applies only to claims on a policy or group of policies in excess of some minimum amount. This limits the insurer's maximum possible losses if claims on the policies turn out to be higher than expected: it is thus a method of risk-spreading.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

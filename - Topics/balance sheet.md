@@ -6,5 +6,5 @@
 - (statement of financial position) A statement of the total assets and liabilities of an organization at a particular date, usually the last day of the accounting period. The first part of the statement lists the fixed and current assets and the liabilities, whereas the second part shows how they have been financed; the totals for each part must be equal. Under the UK Companies Act the balance sheet is one of the primary statements to be included in the annual accounts of a company. The Companies Act requires that the balance sheet of a company must give a true and fair view of its state of affairs at the end of its financial year, and must comply with statute as to its form and content. A balance sheet does not necessarily value a company, as some assets may be given an unrealistic value and important intangible assets may be omitted altogether (see ASSET VALUE (PER SHARE); BOOK VALUE). It can be difficult to compare the balance sheets of companies from different countries as they may disclose different information.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

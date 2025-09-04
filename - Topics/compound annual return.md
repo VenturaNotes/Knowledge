@@ -9,4 +9,4 @@ aliases:
 - The CAR is usually quoted on a gross basis. The return, taking into account the deduction of tax at the basic rate on the interest, is known as the compound net annual rate (CNAR).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

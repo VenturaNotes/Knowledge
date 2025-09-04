@@ -6,5 +6,5 @@
 - (RPM) The fixing by manufacturers of minimum prices at which their products may be resold by distributors. While RPM does not necessarily imply a price-fixing cartel of producers, it does make such a cartel easier to organize. RPM was stopped in the UK by the Retail Prices Act of 1964 and the Restrictive Practices Act of 1966, with some exceptions, including the Net Book Agreement, until that system collapsed in 1995. Manufacturers can still set a recommended retail price, but cannot legally enforce this.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Some activity measures, such as labour hours, are very closely related to the volume of production, whereas others, such as the number of orders, are not.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

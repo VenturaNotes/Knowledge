@@ -6,5 +6,5 @@
 - A monopoly in which the supplier's products or services are sold to consumers at different prices; by dividing the market into segments and charging each market segment the price it will bear, the monopolist increases profits. An example is the different domestic and industrial tariffs operated by suppliers of electricity in many countries.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

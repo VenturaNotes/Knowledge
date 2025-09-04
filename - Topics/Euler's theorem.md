@@ -6,4 +6,4 @@ K \frac{\partial f}{\partial K}+L \frac{\partial f}{\partial L}=f(K, L).
 $$If the price of output is $p$, it follows that$$K p \frac{\partial f}{\partial K}+L p \frac{\partial f}{\partial K}=p f(K, L)$$Competition on the factor market ensures that $r=p \frac{\partial f}{\partial K}$ and $w=p \frac{\partial f}{\partial L}$. Hence,$$r K+w L=p f(K, L)$$so total payment to factors equals revenue. This argument has been used as the basis for a theory of distribution.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

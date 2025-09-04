@@ -12,5 +12,5 @@
 ## References
 
 [^1]: https://www.investopedia.com/terms/s/solvency.asp#:~:text=Key%20Takeaways-,Solvency%20is%20the%20ability%20of%20a%20company%20to%20meet%20its,to%20analyze%20a%20company's%20solvency.
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

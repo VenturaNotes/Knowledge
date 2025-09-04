@@ -7,5 +7,5 @@
 - Obtaining the maximum output for given inputs. Efficiency in consumption means allocating goods between consumers so that it would not be possible by any reallocation to make some people better off without making anybody else worse off. Efficiency in production means allocating the available resources between industries so that it would not be possible to produce more of some goods without producing less of any others. Efficiency in the choice of goods to produce means choosing so that it would not be possible to change the set of goods so as to make some consumers better off without others becoming worse off. The concept of Pareto efficiency is used as a test of efficiency for an economic allocation. See also TECHNICAL EFFICIENCY; X-EFFICIENCY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

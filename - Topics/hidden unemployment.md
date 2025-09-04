@@ -6,5 +6,5 @@
 - Unemployment of potential workers that is not captured in official unemployment statistics. Many countries count as unemployed only those without work who are actively looking for work. Potential workers who have abandoned the search for work, taken early retirement as an alternative to unemployment, or chosen to register as out of work for medical reasons, are not officially unemployed.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

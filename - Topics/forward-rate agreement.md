@@ -6,4 +6,4 @@
 - (2) A specified amount of a specified currency to be exchanged on an agreed future date at a specified rate of exchange.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

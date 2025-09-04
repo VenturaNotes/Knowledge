@@ -12,5 +12,5 @@ aliases:
 - A US exchange for trading in futures and options. It started in 1848, trading in grain, and began to offer standardized futures contracts in 1864. A screen-based trading system was introduced in 2000, but the exchange continues to use its traditional open outcry method. CBOT was purchased by the Chicago Mercantile Exchange in 2007.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

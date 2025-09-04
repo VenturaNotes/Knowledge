@@ -8,5 +8,5 @@
 - Differences between the skills and location of unemployed workers and available job vacancies. These help to explain why unemployment exists at the same time as unsatisfied demand for labour. Mismatch may occur because the location and skill patterns of new entrants to the labour market, those finishing education and immigrants, do not match the pattern of those leaving the labour market through retirement or emigration. It is increased by rapid changes in the pattern of demand for labour through changes in tastes or technology. Methods by which mismatch can be reduced include retraining, regulation of migration, industrial relocation, and changes in the relative wages of different occupations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

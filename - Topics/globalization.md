@@ -8,5 +8,5 @@
 - In a general sense, the increasing worldwide integration of economic, cultural, political, religious, and social systems. Economic globalization is the process by which the whole world becomes a single market. This means that goods and services, capital, and labour are traded on a worldwide basis, and information and the results of research flow readily between countries.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

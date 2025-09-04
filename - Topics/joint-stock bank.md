@@ -6,5 +6,5 @@
 - A bank operated by a joint-stock company. This is contrasted with a private bank, owned by an individual, family, or partnership. The large commercial or 'high street' banks in the UK are all joint-stock banks.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

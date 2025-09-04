@@ -8,5 +8,5 @@
 - (2) In psychodynamic counselling and therapy, the practice of the counsellor or therapist of holding back from uninhibited interaction and conversation with the client or patient. \[From Latin abstinere to abstain]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

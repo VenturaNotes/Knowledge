@@ -6,5 +6,5 @@
 - The process of making shares in a company available for sale to the investing public. Floating has the effect of changing a private company into a public company. Flotation may raise money to finance new company activities, or may enable the owners of existing private companies to realize their assets. The term also applies to the privatization of state-owned businesses.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

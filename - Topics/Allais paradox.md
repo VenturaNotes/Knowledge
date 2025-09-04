@@ -12,5 +12,5 @@
 - Most people prefer $A$ to $B$, because they prefer the certainty of winning a large amount to the small probability of winning an even larger amount coupled with a risk of winning nothing at all. But most of the same people prefer $D$ to $C$, because the chances of winning are nearly the same in both cases but the prize is much larger in $D$ than in $C$. Writing $u(2,500,000)$, $u(500,000)$, and $u(0)$ for the utilities that a person attaches to the corresponding amounts of money, the first preference implies that$$.11 u(500,000)>.10 u(2,500,000)+.01 u(0)$$and the second implies that$$.11 u(500,000)<.10 u(2,500,000)+.01 u(0)$$a contradiction, showing that expected utility theory does not accurately describe human choice behavior. See also REVEALED PREFERENCE, RISK aversion. Compare common ratio effect, Ellsberg paradox, MODified Ellsberg paradox, St Petersburg paradox. \[Named after the French economist Maurice (Félix Charles) Allais (1911-2010) who formulated it in 1953]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

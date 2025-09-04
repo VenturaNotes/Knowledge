@@ -7,5 +7,5 @@
 - A promise that if a good is unsatisfactory it will be repaired or replaced, or that if a loan is not repaid the guarantor will repay it. Some guarantees are legally enforceable, which protects the holder of the guarantee provided that the guarantor is solvent. Even if a guarantee is not legally binding, the guarantor risks loss of reputation if the guarantee is not honoured.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

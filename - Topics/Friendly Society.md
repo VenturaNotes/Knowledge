@@ -6,5 +6,5 @@
 - A UK institution for small savings and life insurance. Friendly societies are non-profit-making institutions owned by their members. They are regulated under Friendly Society Acts, and have limited power to offer tax-free investments and life insurance.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

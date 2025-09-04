@@ -5,4 +5,4 @@
 - (2) The expression of preferences by leaving unsatisfactory situations: this can apply to selling shares, changing jobs, or migration between areas or countries. It is contrasted with 'voice', which is attempting to change the situation one is in by voting, lobbying, or use of complaints procedures or litigation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

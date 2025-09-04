@@ -6,5 +6,5 @@
 - A contract for the provision of services. These may be routine services, such as inspection, regular maintenance, or cleaning, or emergency services such as repair after breakdowns, or provision of temporary staff to cover absence of permanent employees. Service contracts are useful where firms require services involving specialized labour, management skills, or equipment, but do not need them regularly enough to make it economic to provide them in-house.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

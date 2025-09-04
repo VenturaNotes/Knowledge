@@ -6,5 +6,5 @@
 - Failure to pay taxes legally due, for example by making a false tax return or failing to make a return at all. Tax evasion is thus illegal; it is contrasted with tax avoidance, which means arranging one's affairs to reduce the tax that is legally payable. An individual choosing whether to engage in tax evasion has to weigh the gains from reduced tax payment against the punishment if caught evading. This is a standard example of the economics of choice with risk.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

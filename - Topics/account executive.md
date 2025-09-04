@@ -14,4 +14,4 @@ aliases:
 ## References
 
 [^1]: https://www.capterra.com/glossary/account-executive-ae/
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

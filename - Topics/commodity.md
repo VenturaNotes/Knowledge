@@ -8,5 +8,5 @@
 - (3) A raw material traded on a commodity market, such as grain, coffee, cocoa, wool, cotton, jute, rubber, pork bellies, or orange juice (sometimes known as soft commodities) or base metals and other solid raw materials (known as hard commodities). In some contexts soft commodities are referred to as produce.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

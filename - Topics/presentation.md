@@ -7,5 +7,5 @@
 - $n$. the part of the fetus that is closest to the birth canal and can be felt on inserting a finger into the vagina. Normally the back of the head (vertex) presents, the most favourable position for delivery being occipital anterior (see oCCIPUT). However, the buttocks may present (see BREECH PRESENTATION) or, if the fetus lies transversely across the uterus, the shoulder or arm may present (see MALPRESENTATION). These abnormal presentations may cause complications during childbirth, and attempts may be made to correct them. See also DENOMINATOR.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -7,5 +7,5 @@
 - The situation in which there is a general decrease in prices, especially when this is accompanied by falling levels of output, employment, and trade. Because of these associations, advocates of anti-inflationary policies usually now prefer the term disinflation. Compare INFLATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

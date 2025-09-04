@@ -12,4 +12,4 @@ aliases:
 ## References
 
 [^1]: https://library.fiveable.me/key-terms/principles-macroeconomics/real-gdp
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

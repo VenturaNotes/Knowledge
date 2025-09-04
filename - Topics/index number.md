@@ -7,5 +7,5 @@
 - A number showing the size of some variable, relative to a given base. The base may be assigned any value, but is usually chosen to be either 1 or 100 . For a time series, the base may be the value at a given date; for cross-section data, it may be some chosen instance, or the mean of the items covered. Where an index number describes a constructed variable, such as 'the price level', which is an average of prices, or gross domestic product, which is an aggregate of many different sectors, it is a weighted average of the various components. A base-weighted or Laspeyres index uses as weights the relative sizes of the different items at the base period; a current-weighted or Paasche index uses as weights the relative sizes of the component items during the current period.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

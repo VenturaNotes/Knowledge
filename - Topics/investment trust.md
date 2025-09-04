@@ -7,5 +7,5 @@
 - A company that invests its shareholders' funds in a portfolio of securities. These are normally quoted on a stock exchange; trusts may select from a wide range, or concentrate on securities from particular sectors or countries. They may aim for varying combinations of income and capital growth. Using investment trusts gives investors the benefits of a varied portfolio without excessive transaction costs, and the services of professional management. Investment trusts are distinguished from unit trusts, where a trustee holds the portfolio for the benefit of the unit holders.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) Denoting an investment portfolio in which the owner is not aware of the asset composition or the transactions entered into. See BLIND TRUST.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

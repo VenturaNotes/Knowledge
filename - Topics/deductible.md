@@ -10,4 +10,4 @@
 ## References
 
 [^1]: https://giftplanning.boisestate.edu/giftlawpro/glawpro_quiz_submit.jsp?SS=1.1.1&Adv=false
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

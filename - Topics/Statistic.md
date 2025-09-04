@@ -7,4 +7,4 @@
 ## References
 
 [^1]: [[(1) Statistics Lecture 1.1 - The Key Words and Definitions For Elementary Statistics]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

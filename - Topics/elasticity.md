@@ -31,4 +31,4 @@
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: ChatGPT
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

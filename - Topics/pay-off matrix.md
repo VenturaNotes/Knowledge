@@ -6,4 +6,4 @@
 	- In the special case of a zero-sum game the pay-offs to one player are equal and opposite to those of the other, so only one set needs to be shown explicitly.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

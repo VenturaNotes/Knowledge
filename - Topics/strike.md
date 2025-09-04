@@ -7,5 +7,5 @@
 - Withdrawal of labor by a group of employees, typically members of a trade union. An official strike is one called or recognized by a union; an unofficial strike is one started without union authorization. See also NO-STRIKE AGREEMENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

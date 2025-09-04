@@ -5,4 +5,4 @@
 - (2) A practice used by some manufacturers in which intermediaries may only sell their products within a designated geographical area.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

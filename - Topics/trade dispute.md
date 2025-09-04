@@ -6,4 +6,4 @@
 - When a trade union's immunity does not apply and it is ordered to pay damages (other than for causing personal injury or for breach of duty concerning the ownership, control, or use of property, or for products liability under the Consumer Protection Act 1987), the amount awarded may not exceed specified limits. These limits depend on the number of members in the union.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

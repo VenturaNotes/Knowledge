@@ -6,5 +6,5 @@
 - A reference interest rate used by banks. Traditionally, this was the interest rate offered to the most creditworthy borrowers. Some variable interest rates are expressed in terms of percentage points above or below the prime rate. For example, the Wall Street Journal prime rate is the underlying rate for credit cards, home loans, and personal loans in the US. See also London Inter Bank Offered Rate.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

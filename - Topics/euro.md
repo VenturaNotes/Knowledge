@@ -6,5 +6,5 @@
 - The unit of the single European currency, adopted in 1999 as part of European Monetary Union by eleven members of the European Union: Austria, Belgium, Finland, France, Germany, Italy, Ireland, Luxembourg, the Netherlands, Portugal, and Spain. It had a fixed value in terms of each country's domestic currency: for example, approximately 1.6 Deutschmarks, or 200 Portuguese escudos. Initially the euro was only a common unit of account, and not a medium of exchange; in 2002 it replaced the domestic currencies of the eleven, plus Greece. Slovenia joined the eurozone in 2007, Cyprus and Malta in 2008, Slovakia in 2009, Estonia in 2011, Latvia in 2014, and Lithuania on 1 January 2015. Euro notes and coins circulate in all nineteen countries. Andorra, Monaco, San Marino, and Vatican City also use the euro through agreements with the EU. Kosovo and Montenegro use the euro but without any legal agreement with the EU. The euro is also used in the Azores, the Canary Islands, French Guiana, Guadeloupe, Madeira, Martinique, Mayotte, Réunion, Saint-Barthélemy, and Saint-Pierre-et-Miquelon.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

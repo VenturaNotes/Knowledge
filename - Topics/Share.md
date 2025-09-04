@@ -10,5 +10,5 @@ aliases:
 - A part of the ownership of a company. Shares may be held by individuals or other companies. Company law requires companies to treat all shareholders of any given type alike as regards dividends, or division of the assets on liquidation. Ordinary shares normally carry voting rights, though it is possible to have some non-voting shares. In some countries there may be limits on the total votes cast by any one shareholder. Preference shares rank before ordinary shares for dividends, but have no vote, and debentures rank before preference and ordinary shares for dividends. Debentures carry fixed interest, but the holders have the right to take over control of a company if these are not paid. A share register is an official list of the names and addresses of shareholders; a share certificate is a document proving ownership. In some countries, but not the UK, companies can have bearer shares, where there is no central share register, and the holder of share certificates is deemed to own the shares. See also A-SHARE; DEFERRED SHARE; NON-VOTING SHARE; VOTING SHARE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

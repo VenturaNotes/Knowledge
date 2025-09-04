@@ -6,5 +6,5 @@
 - The economic application of a new idea. Product innovation involves a new or modified product; process innovation involves a new or modified way of making a product. Innovation sometimes consists of a new or modified method of business organization. See also DIFFUSION OF INNOVATIONS; FINANCIAL INNOVATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

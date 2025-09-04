@@ -7,5 +7,5 @@
 - Money in bank balances or liquid securities which is liable to rapid removal to other countries if the holders suspect that the currency will depreciate. An inflow of hot money may make a country's balance-of-payments situation look satisfactory, but also makes it subject to sudden deterioration.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

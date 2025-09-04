@@ -10,5 +10,5 @@
 ## References
 
 [^1]: [[(Home Page) Principles of Economics 3e by OpenStax#Why the Division of Labor Increases Production]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

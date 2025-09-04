@@ -16,5 +16,5 @@ aliases:
 - (IASB) An independent and privately funded body responsible for developing the International Financial Reporting Standards, and promoting the use and application of these standards. The IASB was founded in April 2001 as the successor to the International Accounting Standards Committee.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

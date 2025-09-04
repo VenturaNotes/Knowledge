@@ -5,4 +5,4 @@
 - (2) The rescue of a company that is in financial difficulty by new or restructured loans from its group of bankers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

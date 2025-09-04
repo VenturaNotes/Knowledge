@@ -5,4 +5,4 @@
 - Before the knock-for-knock agreement, insurers found they were exchanging roughly similar amounts in payment of these claims. The agreement has cut down the expensive administration of claim and counterclaim, which has helped to reduce the cost of premiums.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

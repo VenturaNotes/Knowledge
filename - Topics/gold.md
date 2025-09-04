@@ -10,5 +10,5 @@
 - GOLD (Global Initiative for Chronic Obstructive Lung Disease) a body that works with health-care professionals and public health officials around the world to raise awareness of chronic obstructive pulmonary disease (COPD) and to improve prevention and treatment of this disease. The publication of management guidelines has had a significant impact on a change in treatment for this condition worldwide.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

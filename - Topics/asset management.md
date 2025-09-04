@@ -5,4 +5,4 @@
 - (2) An investment service offered by banks and some other financial institutions. In the UK some private banks offer an asset management service for wealthy customers. See also PORTFOLIO.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

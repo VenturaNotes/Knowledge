@@ -10,5 +10,5 @@ aliases:
 - (IRR) The interest rate at which the net present value of a project is zero. If the net cash flow on a project starts off negative, and once it becomes positive it remains so, the IRR is unique; but if cash flow at the end becomes negative, as can happen if there are costs of making a plant safe after its useful life is over, the IRR may not be unique. A project is worth investing in if its IRR exceeds the sum of the risk-free rate of interest and an appropriate risk premium.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - The behavioural assumption that an individual or firm will seek to purchase a given amount of goods or inputs at the least cost, other things being equal. By making certain assumptions, there will exist a single cost-minimizing combination of inputs for any level of output. Thus, assuming that firms or entrepreneurs choose to minimize costs, their behaviour can be predicted. It can be shown that the profit-maximizing level of output for a firm is also cost minimizing; however, it need not be assumed that firms actually maximize profits, which is a different behavioural assumption.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

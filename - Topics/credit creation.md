@@ -5,4 +5,4 @@
 - Collectively, if banks hold $100 n$ per cent of their total assets in base money, they can increase loans, and thus total deposits, by up to $£ 1 / n$ for every $£ 1$ of extra base money. How close to $1 / n$ the credit multiplier actually is depends on the proportion of the total money supply which the banks' customers choose to hold as cash rather than bank balances.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

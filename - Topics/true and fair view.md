@@ -6,5 +6,5 @@
 - The idea that accounts should provide a correct impression of the state of a company. It is the role of auditors to check and certify that accounts offer a true and fair view. Accounts should not contain false statements; this is the true part. Neither, however, should they mislead by omission; this is the fair part. It requires more information to be sure that accounts are fair than that they are true.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

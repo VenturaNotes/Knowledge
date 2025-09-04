@@ -6,5 +6,5 @@
 - The profits made by a ruler from issuing money, or 'inflation tax'. Originally this referred to the profits from the issue of coinage with a face value greater than its cost of production. Nowadays seigniorage refers to the ability of governments to obtain goods and services in return for newly created money. A growing economy needs some extra money, but if governments issue too much this produces inflation, which reduces the real purchasing power of the money they have already issued.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

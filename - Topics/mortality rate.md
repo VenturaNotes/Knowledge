@@ -6,5 +6,5 @@
 - the incidence of death in the population in a given period. The annual mortality rate is the number of registered deaths in a year, multiplied by 1000 and divided by the population at the middle of the year. See also INFANT MORTALITY RATE; MATERNAL MORTALITY RATE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

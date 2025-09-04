@@ -7,5 +7,5 @@
 - An average giving weights to different numbers in proportion to their importance. The weighted average of $n$ numbers $x_{1}$, $x_{2}, \ldots, x_{n}$ is found by taking the sum of the numbers times their weights $w_{1}$, $w_{2}, \ldots, w_{N}$, divided by the sum of the weights, and so$$\mu_{w}=\sum_{i=1}^{n} w_{i} x_{i} / \sum_{i=1}^{n} w_{i}.$$The unweighted average has $w_{i}=1, i=1, \ldots, n$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

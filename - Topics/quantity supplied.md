@@ -10,4 +10,4 @@
 
 [^1]: https://www.investopedia.com/terms/q/quantitysupplied.asp#:~:text=In%20economics%2C%20quantity%20supplied%20describes,actually%20put%20on%20the%20market.
 [^2]: ChatGPT
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

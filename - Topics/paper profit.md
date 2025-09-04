@@ -8,4 +8,4 @@
 - For example, a share that has risen in value since its purchase might show a paper profit but this would not be a real profit since the value of the share might fall again before it is sold.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

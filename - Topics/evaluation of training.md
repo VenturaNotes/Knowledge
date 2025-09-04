@@ -8,4 +8,4 @@
 	- (4) results-How has the effectiveness of the group or organization as a whole benefitted from the training? This involves relating the answers received for questions (1), (2), and (3) to an agreed system of performance measurement for the organization.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

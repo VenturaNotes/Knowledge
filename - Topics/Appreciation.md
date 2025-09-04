@@ -5,4 +5,4 @@
 - (2) An increase in the value of a currency with a floating exchange rate relative to another currency. Compare DEPRECIATION; DEVALUATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

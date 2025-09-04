@@ -5,4 +5,4 @@
 - (2) Denoting that part of the economy that is based on ideas and information rather than trade in physical goods.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) Shorthand for the international monetary system resulting from the conference. This involved pegged exchange rates, to be altered only in the event of fundamental disequilibrium. The Bretton Woods system lasted until 1971, when it gave way to a system of floating exchange rates.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

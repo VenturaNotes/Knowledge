@@ -6,5 +6,5 @@
 - Futures contracts in currencies, interest rates, or stock indices. Futures contracts, like forward contracts, commit both sides to a transaction on a future date at a pre-arranged price. Futures contracts are traded in futures markets on organized exchanges. These contracts can be used either for hedging to reduce the risks traders are exposed to, or for speculation, taking on extra risk for the sake of expected profits. Financial futures are traded in the UK on the London International Financial Futures and Options Exchange.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

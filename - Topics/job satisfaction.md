@@ -7,4 +7,4 @@
 - Organizational psychologists have shown that apart from the human needs fulfilled by working, satisfaction is also related to the expectations aroused by the job: both the needs and the expectations require fulfilment if the job is to provide satisfaction. See also HYGIENE FACTORS; MOTIVATORS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

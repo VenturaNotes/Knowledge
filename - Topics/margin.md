@@ -9,5 +9,5 @@
 - A deposit a trader has to make with either a stockbroker or an exchange to guarantee that they will complete a transaction. Buying shares on margin means borrowing money from a stockbroker to fund a fraction of the investment. To safeguard the broker, a buyer is required to deposit a margin, that is a fraction of the price sufficient to protect the seller against loss if the buyer cannot complete.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

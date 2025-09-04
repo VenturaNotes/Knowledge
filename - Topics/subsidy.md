@@ -6,5 +6,5 @@
 - A payment by the government to consumers or producers which makes the factor cost received by producers greater than the market price charged to consumers. Subsidies may be given on grounds of income distribution, to improve the incomes of producers, or the welfare of consumers. They are not usually efficient for either purpose: even goods consumed heavily by the poor are also consumed by the better-off, so that much of the benefit of a subsidy goes to those who do not need it. See also EXPORT SUBSIDY; FARM SUBSIDIES; FOOD SUBSIDIES.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

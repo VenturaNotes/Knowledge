@@ -7,5 +7,5 @@
 - A financial security giving the holder the option of buying an underlying asset at a fixed exercise price. Warrants are usually bundled with an issue of preferred stock to make the stock more attractive to purchasers. Most warrants have a fixed expiry date, but perpetual warrants have a theoretically infinite life. Warrants differ from options because they are issued by corporations when raising finance and not by individuals, brokers, or exchanges.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - (FSA) An independent nongovernmental body given statutory powers by the Financial Services and Markets Act of 2000 to regulate the financial services industry in the UK. The FSA was replaced by the Financial Conduct Authority, the Prudential Regulation Authority, and the Financial Policy Committee in 2013.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

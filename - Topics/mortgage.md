@@ -15,5 +15,5 @@
 - A loan using a real asset, such as a house or other building, as collateral. If the interest and redemption payments are not made, the lender or mortgagee can foreclose on the collateral, that is, can take it over and sell it to repay the loan. Mortgages can be for any period: 20 or 25 years is not unusual. With a repayment mortgage the principal is paid off gradually over the life of the mortgage. With an endowment mortgage the principal is paid off at the end of the mortgage from a capital sum built up by an endowment insurance policy.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

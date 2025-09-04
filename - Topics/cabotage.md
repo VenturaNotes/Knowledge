@@ -5,4 +5,4 @@
 - (2) A right to transport goods within a country granted to a foreign carrier.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

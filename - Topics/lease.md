@@ -6,5 +6,5 @@
 - A contract giving the right to use land or buildings for a set period, in return for payment of ground rent to the landlord. The rent payable may be fixed, or subject to periodic review. Leases may be for any period and may impose conditions on the tenant, for example concerning the maintenance of premises or the use to be made of them.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

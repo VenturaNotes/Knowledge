@@ -5,4 +5,4 @@
 - (2) An agreement between a debtor and his or her creditors to arrange the debtor's affairs to satisfy the creditors. The debtor usually agrees to such an arrangement in order to avoid bankruptcy. If the arrangement is agreed when no bankruptcy order has been made, it may take the form of either an ordinary private contract or a deed of arrangement. An arrangement agreed after a bankruptcy order has been made is governed by the statutory provisions relating to bankruptcy (see VOLUNTARY ARRANGEMENT).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

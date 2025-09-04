@@ -5,4 +5,4 @@
 - It is, however, permissible to make a job offer that is conditional on the applicant passing a medical examination or answering health-related questions. The employer may also ask whether an applicant will be able to carry out an intrinsic part of the job, such as handling heavy goods. In such cases, the employer is under a duty to make reasonable adjustments and this must be considered in dealing with the answer given by the applicant.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

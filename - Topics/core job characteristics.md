@@ -10,4 +10,4 @@
 - These core job characteristics are important to the psychological well-being of the individual. If they are lacking, then job satisfaction (and hence motivation) may well suffer unless a programme of job enlargement or job enrichment is instituted.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

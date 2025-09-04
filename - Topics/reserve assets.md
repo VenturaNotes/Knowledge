@@ -5,4 +5,4 @@
 - (2) Gold and foreign currency held by a central bank for intervention in foreign-exchange markets.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

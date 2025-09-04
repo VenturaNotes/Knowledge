@@ -6,5 +6,5 @@
 - (IMF) The first quarter of the quota of any member of the International Monetary Fund, which is available to the member unconditionally if required. This corresponds to the part of each member's quota originally deposited in gold or convertible currency.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

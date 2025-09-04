@@ -14,4 +14,4 @@ aliases:
 
 [^1]: https://www.techtarget.com/whatis/definition/attribute
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

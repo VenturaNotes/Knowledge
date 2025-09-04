@@ -5,4 +5,4 @@
 - (2) The principle in decision making that the impact of a particular decision on the performance of an organization can only be determined by identifying those elements of cost or revenue that are relevant to the decisions made. See RELEVANT COST.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

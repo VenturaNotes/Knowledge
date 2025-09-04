@@ -8,5 +8,5 @@
 - A suspension of the obligation to repay debts: this may apply to the principal, interest, or both, and may apply to all debts or only to particular types of debt. The payments are only deferred and not cancelled. The objective is usually to give time to make arrangements to refinance the obligations of some particular debtors. It is justified by the fear that their collapse might start a general financial panic. The drawback with a moratorium is that it makes it very difficult for anybody to obtain any new credit, both by freezing the assets of possible lenders and by creating fears of similar measures to intervene in credit markets in the future.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

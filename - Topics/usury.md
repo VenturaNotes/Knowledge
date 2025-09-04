@@ -6,5 +6,5 @@
 - Charging excessive interest on loans. The term was formerly applied to charging any interest, but now refers to interest rates regarded as excessive given the market rate for other loans with similar risk characteristics.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

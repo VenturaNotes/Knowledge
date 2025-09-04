@@ -6,5 +6,5 @@
 - A financial derivative in which two counter-parties agree to exchange one stream of cash flows for another stream. In an interest rate swap a flow of payments at a fixed interest rate is swapped for a flow at a variable interest rate. A currency swap involves the initial exchange of principal denominated in two different currencies, payments of interest in the currency received over the lifetime of the swap, and a final re-exchange of principal. See also DERIVATIVE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

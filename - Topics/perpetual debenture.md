@@ -6,4 +6,4 @@
 - (2) A bond or debenture that cannot be redeemed on demand.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

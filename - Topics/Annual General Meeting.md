@@ -10,5 +10,5 @@ aliases:
 - An annual meeting of the shareholders of a company, which must be held every year; the meetings may not be more than 15 months apart. Shareholders must be given 14 days' notice of the meeting. The usual business transacted at an AGM is the presentation of the audited accounts, the appointment of directors and auditors and the fixing of their remuneration, and recommendations for the payment of dividends. Other business may be transacted if notice of it has been given to the shareholders. See also AGENDA; ORDER OF BUSINESS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

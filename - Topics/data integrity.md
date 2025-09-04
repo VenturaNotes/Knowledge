@@ -14,4 +14,4 @@
 [^1]: https://en.wikipedia.org/wiki/Data_integrity
 [^2]: https://online.hbs.edu/blog/post/what-is-data-integrity
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

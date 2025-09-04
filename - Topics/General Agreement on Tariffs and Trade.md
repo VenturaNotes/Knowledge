@@ -6,5 +6,5 @@
 - (GATT) An agency of the United Nations, based in Geneva, founded in 1948 to promote international trade. By 1995 it had over 100 members, including most leading trading countries. GATT successfully concluded several rounds of multilateral negotiations to reduce world tariffs, but was unable to prevent the spread of non-tariff barriers to trade such as voluntary export restraints. The latest round of GATT negotiations, the Uruguay Round, finished in 1994. This included measures affecting trade in agricultural products and services, and intellectual property rights, all of which had been omitted from earlier rounds. It also led to the replacement of GATT by the World Trade Organization.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

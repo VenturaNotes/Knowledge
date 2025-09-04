@@ -8,4 +8,4 @@
 - (5) A former monetary unit of Andorra, Belgium, France, Luxembourg, and Monaco, worth one hundredth of a franc.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

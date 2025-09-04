@@ -10,5 +10,5 @@ aliases:
 - (ISA) A UK scheme designed to encourage saving, by allowing individuals to invest a limited sum annually in assets which are not subject to income tax or capital gains tax. This replaced the personal equity plan scheme in 1999. The permitted limits can vary annually; in 2016-17 they were up to $£ 15,240$ with any split between a stocks and shares ISA, a cash ISA, or an Innovative Finance ISA, which covers investment using peer-to-peer lending platforms. The limit for a 'Junior ISA' for children under 18 was $£ 4,800$ with any split between cash and stocks and shares.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

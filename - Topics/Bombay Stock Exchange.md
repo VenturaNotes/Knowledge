@@ -12,5 +12,5 @@ aliases:
 - Bombay Stock Exchange (BSE) India's leading stock exchange, listing over 5,000 companies. British influence brought share trading to Mumbai in the 1830s; exchanges now exist in many other cities and the Indian government has created a Securities and Exchange Board of India (SEBI) to regulate the market. The main index is the BSE Sensex of 30 representative stocks. Derivatives have been traded since 2000. The National Stock Exchange of India is also in Mumbai.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

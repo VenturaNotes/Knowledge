@@ -6,4 +6,4 @@
 - (3) Any person appointed by the courts to implement an administration order or undertake the duty of an administrative receiver, or appointed to carry out an out-of-court administration of the affairs of a person or a company. Debt administration is now recognized as an ancillary credit business.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

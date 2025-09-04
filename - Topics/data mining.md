@@ -10,7 +10,7 @@
 - The process of extracting useful knowledge from the huge volumes of data kept in modern computer databases. Sophisticated algorithms and statistical techniques are used to identify significant trends or patterns within complex data and to form predictive models. Major business applications include the mining of electronic point of sale data to build customer profiles and identify regional or seasonal buying patterns. In finance, data mining is used to formulate the algorithms used in automated high-frequency trading.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Glossary by Capterra]]
-[^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

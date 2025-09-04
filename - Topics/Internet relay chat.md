@@ -11,4 +11,4 @@ aliases:
 ## References
 
 [^1]: https://youtu.be/X3X5kYPgYV0?si=qXQv7uCaoUtWJNKT
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

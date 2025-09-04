@@ -11,4 +11,4 @@
 - Attitude is traditionally divided into cognitive, behavioural, and affective components, although the main emphasis now tends to fall on defining attitude in terms of affect - the person's feelings towards the object, brand, etc. Is the brand good or bad? Is it likeable? The importance of the cognitive and behavioural components is still accepted, but they are no longer regarded as critical components.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

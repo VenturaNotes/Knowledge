@@ -25,4 +25,4 @@
 - The written statement, although providing evidence of the terms of employment, is not itself the contract of employment.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

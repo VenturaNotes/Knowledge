@@ -14,6 +14,6 @@
 - The task of assigning objects to recognizable groups called clusters, according to various measurements. These clusters commonly show correlation between different attributes. The notion of a cluster cannot be precisely given, and many different algorithms are hence used in cluster analysis.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

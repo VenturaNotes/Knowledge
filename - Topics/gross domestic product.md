@@ -18,5 +18,5 @@ aliases:
 
 [^1]: ChatGPT
 [^2]: https://www.crackap.com/ap/macroeconomics/question-1.html
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

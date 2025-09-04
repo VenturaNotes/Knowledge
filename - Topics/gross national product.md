@@ -6,5 +6,5 @@
 - (GNP) One of the main measures of national economic activity. The GNP of a country is defined as the total market value of all final goods and services produced by the residents of this country in a given period of time (usually a calendar year). 'Gross' indicates that it is measured without subtracting any allowance for capital consumption; 'national' that it includes residents' incomes from economic activities carried out abroad as well as at home, and excludes incomes produced at home but belonging to non-residents. 'Product' indicates that it measures real output produced rather than real output absorbed by residents. GNP is reported at both current and constant prices.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

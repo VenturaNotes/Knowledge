@@ -14,4 +14,4 @@
 - (11) A former monetary unit of The Netherlands, worth one hundredth of a guilder.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

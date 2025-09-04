@@ -6,5 +6,5 @@
 - The techniques used in collecting, processing, and presenting financial and quantitative data within an organization to ascertain the cost of the cost centres, the cost units, and the various operations. Cost accounting is now regarded as a division of management accounting, which also incorporates the techniques of planning, decision making, and control.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

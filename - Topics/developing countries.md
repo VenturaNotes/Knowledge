@@ -5,4 +5,4 @@
 - The developing countries, in which nearly $80 \%$ of the world's population lives, are characterized by mainly agricultural economies from which poverty, hunger, and disease have not been eliminated. Many depend on a single product for their exports and are therefore vulnerable in world markets. Some have developed small low-technology companies, but market mechanisms (particularly distribution) do not exist.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

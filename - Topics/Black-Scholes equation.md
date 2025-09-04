@@ -7,5 +7,5 @@
 - A partial differential equation modelling the dynamics of a financial market and which provided estimates for (European-style) stock options. It states$$\frac{\partial V}{\partial t}+\frac{1}{2} \sigma^{2} S^{2} \frac{\partial^{2} V}{\partial S^{2}}+r S \frac{\partial V}{\partial S}-r V=0$$where $V$ is the option's price, $S$ is the stock's price, $r$ is the interest rate, and $\sigma$ represents volatility of the stock price.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

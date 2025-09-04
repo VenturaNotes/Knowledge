@@ -5,4 +5,4 @@
 - (2) A similar order given to a stockbroker in which the sum of money is specified but the broker has discretion as to which security to buy for his client.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

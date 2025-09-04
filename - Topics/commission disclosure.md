@@ -5,4 +5,4 @@
 - In 1991, the Office of Fair Trading objected that this practice was uncompetitive and amounted to an illegal price-fixing cartel. It was recommended that the industry move to a practice of hard disclosure. Initially, this took the form of disclosing the percentage of the commission charge rather than a strict monetary disclosure. But since 1995 there has been a practice of hard disclosure of the monetary value of commissions, expenses, charges and early surrender value to customers at the point of purchase.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

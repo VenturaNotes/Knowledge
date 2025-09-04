@@ -5,4 +5,4 @@
 - Measures designed to simplify the process of company formation were enacted in the Companies Act 2006 and came into force in late 2009.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

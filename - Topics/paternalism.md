@@ -6,5 +6,5 @@
 - $n$. an attitude or policy that overrides a person's own wishes (autonomy) in pursuit of his or her best interests. The classic argument against paternalism of the philosopher John Stuart Mill is that intervention is justified only when trying to prevent a person from causing harm to others, not to himself. However, a form of paternalism may be justified when a person lacks the capacity to make decisions for him- or herself, assuming there is no valid advance directive, decision, or statement or a proxy with power of attorney to represent the patient's wishes. See also THERAPEUTIC PRIVILEGE. —paternalistic adj.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

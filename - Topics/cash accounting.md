@@ -5,4 +5,4 @@
 - (2) (cash-flow accounting) A system of accounting that records only the cash payments and receipts relating to transactions made by a business, rather than when the money is earned or when expenses are incurred, as in accrual accounting. UK legislation does not permit this system of accounting to be used for published accounts.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -4,4 +4,4 @@
 - A style of portfolio management that involves holding assets over the long term and, in many cases, tracking a market index. Compare ACTIVE MANAGEMENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

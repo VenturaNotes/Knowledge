@@ -5,4 +5,4 @@
 - An entity that is not eligible for the small companies accounting regime (e.g. because it is a member of a group containing a public company) cannot qualify as a micro-entity whatever its size; nor can a parent company that prepares consolidated financial statements or a subsidiary included in group accounts by the method of full consolidation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

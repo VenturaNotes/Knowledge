@@ -5,4 +5,4 @@
 - (2) A method of employee evaluation in which each worker in a group is compared with each other worker on one or more performance measures. Employees are then ranked according to the number of favorable comparisons they receive.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

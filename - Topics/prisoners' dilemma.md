@@ -6,4 +6,4 @@
 	- The Nash equilibrium of the game is {Confess, Confess}. The interesting feature is that this equilibrium is not Pareto efficient: the pay-off of both players would be higher if they played {Don't confess, Don't confess}. However, if one player chose Don't confess then it is individually rational for the other player to choose Confess. Without a device for making a binding commitment it is not possible for {Don't confess, Don't confess} to be an equilibrium.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

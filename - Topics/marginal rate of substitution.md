@@ -31,4 +31,4 @@ aliases:
 [^1]: Google's SGE
 [^2]: https://www.investopedia.com/terms/m/marginal_rate_substitution.asp
 [^3]: https://mru.org/practice-questions/indifference-curves-practice-questions
-[^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

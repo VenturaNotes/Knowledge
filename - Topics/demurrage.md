@@ -6,4 +6,4 @@
 - (3) Liquidated damages included in any contract to compensate one party if the other is late in fulfilling his obligations. This occurs frequently in building contracts. Even if the loss caused by the delay is less than the demurrage, the demurrage must be paid in full.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

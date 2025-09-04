@@ -6,5 +6,5 @@
 - A person or firm appointed to carry out an audit of an organization. In the UK an external auditor must be a registered auditor or a member of a Recognized Supervisory Body and be eligible for appointment under the rules of that body. The supervisory bodies are required to have rules designed to ensure that persons eligible for appointment as company auditors are either individuals who hold the appropriate qualification or firms controlled by properly qualified persons. These bodies must also ensure that eligible persons continue to maintain the appropriate level of competence and must monitor and enforce compliance with their rules. These rules do not apply to internal auditors.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

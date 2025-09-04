@@ -6,5 +6,5 @@
 - An intangible asset, representing the fact that a business as a going concern is worth more than its tangible assets. This is usually due to the accumulated know-how and trade contacts of its staff. Goodwill is not normally included as an asset in balance sheets, but is listed if a company has taken over another business for more than the value of its tangible assets. It is then required to be written off over a period.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

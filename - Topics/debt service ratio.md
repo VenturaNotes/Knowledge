@@ -10,5 +10,5 @@ aliases:
 - (DSR) The proportion of annual export earnings needed to service a country's external debts, including both interest payments and repayment of principal. The DSR is an important statistic, indicating the severity of a country's indebtedness. The effect of rescheduling programmes can be examined by comparing pre- and post-rescheduling DSRs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

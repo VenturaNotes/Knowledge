@@ -6,5 +6,5 @@
 - (RAROC) A method of comparing returns on different investments taking account of risk. The actual return is adjusted by measuring how the assets held are exposed to risk, and adjusting downwards the returns on riskier assets. How useful RAROC is depends on how accurately the riskiness of different assets can be assessed, and on how well the penalties on riskier assets reflect the degree of risk aversion of any given investor. For new types of assets, such as derivatives, risk assessment is highly uncertain in advance of experience of how their prices will actually behave.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

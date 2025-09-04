@@ -6,5 +6,5 @@
 - The transfer of techniques from countries where they are more advanced to other countries where they are less advanced. Technology transfer may involve foreign direct investment, transfers of skilled personnel from more advanced countries, training of workers from less advanced countries, or licensing of patents. Technology transfer is of great importance to less developed countries but it is useful to all countries.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

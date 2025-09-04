@@ -6,5 +6,5 @@
 - The most liquid UK bank assets after cash. Money is lent to other banks and non-bank financial institutions such as discount houses, repayable on demand (call) or at up to 14 days' notice (short notice). These are secured loans bearing interest, usually at low rates.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

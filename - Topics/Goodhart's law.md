@@ -7,5 +7,5 @@
 - The observation by the economist C. Goodhart (b. 1936) that when an empirical regularity starts to be exploited as a basis for economic policy, it is liable to break down. This is one application of the Lucas critique, that the observed behavior of economic systems is affected by the economic policies in force. If the policy regime changes, the behavior of the economy is liable to change, so that econometric models fitted during earlier policy regimes become unreliable as a basis for predicting the effects of new policies.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

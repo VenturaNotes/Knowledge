@@ -7,5 +7,5 @@
 - The accounts setting out a country's transactions with the outside world. They are divided into various sub-accounts, notably the current account and the capital account. The former includes the trade account, which records the balance of imports and exports (see BALANCE OF TRADE). Overall, the accounts must always be in balance. A deficit or surplus on the balance of payments refers to the level of purchases or sales of the currency by the national government, usually through its central bank. The conventions used for presenting balance-of-payments statistics are those recommended by the International Monetary Fund.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

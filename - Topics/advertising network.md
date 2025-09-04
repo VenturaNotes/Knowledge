@@ -5,4 +5,4 @@
 - (2) A collection of independent websites of different companies and media networks, each of which has an arrangement with a single advertising broker to place banner advertisements.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Structured questionnaires and (less rigidly) structured interviews are also sometimes used in personnel selection.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

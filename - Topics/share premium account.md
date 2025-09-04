@@ -10,4 +10,4 @@
 - The share premium account may not be used to write off goodwill on consolidation. Relief from the creation of a share premium account is available in specified circumstances (see MERGER RELIEF).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

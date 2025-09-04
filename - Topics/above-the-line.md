@@ -6,4 +6,4 @@
 - (3) Denoting transactions concerned with revenue, as opposed to capital, in national accounts. Compare BELOW-THE-LINE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

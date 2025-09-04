@@ -6,4 +6,4 @@
 - (3) A method of sharing losses in property insurance to combat underinsurance. This is usually applied in an average clause in a fire insurance policy, in which it is stated that the sum payable in the event of a claim shall not be more than the proportion that the insured value of an item bears to its actual value.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

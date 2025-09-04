@@ -7,5 +7,5 @@
 - A tax on income. An individual's taxable income is calculated after deducting various allowances, in respect of assorted items which may include charitable donations, responsibility for dependants, age allowances, medical insurance, and superannuation contributions. Income for tax purposes may include or exclude imputed items such as the value of the services of owner-occupied houses. Capital gains may be included as income, excluded, or taxed separately from income. Income tax may be collected from individuals in arrears, or by deduction at source through pay-as-you-earn in the UK, or a withholding tax on incomes from employment and payment of dividends net of tax by companies in the US. Most countries have progressive income tax systems for which the average rate of tax rises with income. See also CORPORATE INCOME TAX; NEGATIVE INCOME TAX.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

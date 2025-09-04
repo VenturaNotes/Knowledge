@@ -6,5 +6,5 @@
 - A tax on wage payments. The UK's National Insurance contributions, for example, are a payroll tax. Many other countries have similar taxes, which make up a large part of the tax wedge between the costs of employment and wages received. Payroll taxes tend to discourage employment by raising the cost of labour relative to the cost of capital.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

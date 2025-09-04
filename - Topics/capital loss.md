@@ -6,5 +6,5 @@
 - (allowable capital loss) The excess of the cost of an asset over the proceeds received on its disposal. Both individuals and companies may set capital losses against capital gains to establish tax liability. Indexation is not permitted to create or increase a capital loss.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

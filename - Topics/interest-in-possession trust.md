@@ -5,4 +5,4 @@
 - Formerly, any lifetime transfer into an interest-in-possession trust was a potentially exempt transfer for purposes of inheritance tax; from March 2006, however, such transfers are no longer possible unless the trust is for the benefit of a disabled person. Compare DISCRETIONARY TRUST.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

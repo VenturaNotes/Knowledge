@@ -9,5 +9,5 @@
 - (2) A place where trading is carried out: thus shares were traded at the stock exchange, corn was traded at a corn exchange, and workers were hired at a labour exchange. In many cases most of the trade is nowadays done electronically, so that a stock exchange is often an institution rather than a physical place. See also COMMODITY MARKET.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

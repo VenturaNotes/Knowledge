@@ -6,5 +6,5 @@
 - To refuse to supply a customer or potential customer with one's products or to refuse to buy the products of a particular supplier, usually for commercial rather than political reasons. Compare EMBARGO.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

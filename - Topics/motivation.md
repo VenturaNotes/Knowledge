@@ -7,4 +7,4 @@
 - Although most psychologists now believe that human needs and motives are too variable to be confined to a fixed hierarchy, these theories have the merit of emphasizing that, besides goals, ambitions, and rewards, there is a need for success to be recognized by others and a need to develop and progress. A person in an organization never works in a vacuum; there can be a real conflict between different motivations that relate to the organization: Would I be worse paid working elsewhere? But would I be more secure/better trained/more appreciated elsewhere? See ACHIEVEMENT MOTIVATION THEORY; ALIENATION; THEORY X AND THEORY Y; THEORY Z; VALENCE-INSTRUMENTALITY-EXPECTANCY THEORY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

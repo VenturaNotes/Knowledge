@@ -10,4 +10,4 @@
 - A group containing a public company, a banking or insurance company, or an authorized person under the Financial Services Act 1986 is ineligible for the exemptions for small groups. Compare MEDIUM-SIZED GROUP.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

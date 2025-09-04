@@ -9,4 +9,4 @@
 	- If a consumer's preferences satisfy these axioms he can be described as rational. This is not the only set of possible axioms, so 'rationality' in this sense is not uniquely defined.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

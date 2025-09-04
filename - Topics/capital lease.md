@@ -8,4 +8,4 @@
 	- the present value of minimum lease payments equals or exceeds $90 \%$ of the fair value of the property. See also FINANCE LEASE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

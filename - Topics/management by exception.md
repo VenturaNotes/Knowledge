@@ -5,4 +5,4 @@
 - (2) The principle used in budgetary control in which items of income or expenditure that show no variances or small variances require no action, whereas exceptional items showing adverse variances to an unacceptable degree require action to be taken.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -7,5 +7,5 @@
 - (2) The day in September 2008 that is often regarded as marking the beginning of the global financial crisis and subsequent 'Great Recession'. On Monday 15 September the US financial services giant Lehman Brothers filed for bankruptcy and the investment bank Merrill Lynch was sold to the Bank of America.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

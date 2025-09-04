@@ -7,5 +7,5 @@
 - A collection of different assets owned by an individual or a firm. A variety of assets may be preferred to holding a single type of asset for several reasons. Holding a variety of assets can reduce risk, and allows a combination of some assets with higher income but poor liquidity, and others with lower income but more liquidity. Large institutions may also hold a variety of assets because there is not enough of some attractive assets to absorb all their funds or, more likely, if they invested all they could in any one asset their holding would be too large relative to the market to be liquid. See also LOAN PORTFOLIO; PROPERTY PORTFOLIO.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

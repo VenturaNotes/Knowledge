@@ -6,5 +6,5 @@
 - Action taken by trade unions or informal groups of workers to bring pressure to bear on employers when industrial disputes have not been settled by negotiation or arbitration. Such action by workers can include go-slows, 'working to rule', overtime bans, or strikes. Industrial action by employers can include temporary lay-offs or lock-outs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

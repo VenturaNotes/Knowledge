@@ -5,4 +5,4 @@
 - (2) A bargaining tactic employed by trade unions in which there is an attempt to spread wage and other concessions from one employer to another using 'coercive comparisons'.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

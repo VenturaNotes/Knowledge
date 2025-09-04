@@ -12,4 +12,4 @@
 - There are six main transfer-pricing methods: see COST-PLUS TRANSFER PRICES; DUAL-RATE TRANSFER PRICES; FULL-COST TRANSFER PRICES; MARGINAL-COST TRANSFER PRICES; MARKET-BASED TRANSFER PRICES; NEGOTIATED TRANSFER PRICES.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

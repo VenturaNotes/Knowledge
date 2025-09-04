@@ -9,5 +9,5 @@
 - A system for making the performance of an investment or unit trust mimic that of a share index. This is done by holding, in proportions approximating to their weights in the index, all the shares concerned or a sufficiently large selection of them.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

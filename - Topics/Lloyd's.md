@@ -9,5 +9,5 @@
 - A London institution whose members provide insurance of all types on a worldwide basis. In Lloyd's, individual investors, or 'names', provide limited cash funds and accept unlimited liability for insurance policies. The policies are arranged by managers on behalf of syndicates, that is, groups of names. Companies have recently been allowed to join Lloyd's. Lloyd's is a market, not a company, so does not itself provide insurance. It does maintain a central fund to back syndicates which might otherwise default, which would damage the reputation of Lloyd's as a whole. Lloyd's had operated profitably for centuries before the 1980s, but in the late 1980s and early 1990s some syndicates made losses of billions of pounds. Those losses led to large cash calls on names, and were followed by allegations of mismanagement and litigation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

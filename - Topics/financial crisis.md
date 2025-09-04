@@ -6,5 +6,5 @@
 - The collapse, or potential for collapse, of a financial institution that threatens the stability of the financial system. The financial institution may be a bank unable to continue trading or a sovereign nation unable to meet its obligations. The key feature of a financial crisis is its systemic nature. For example, the failure of a single bank is not a crisis but may become a crisis if the failure threatens the collapse of other financial institutions. A financial crisis can lead to bank runs, widespread bankruptcy, considerable default on debt obligations, shortage of liquidity, and redundancies in the financial sector. A financial crisis can also have a negative effect on real economic activity. A disruption in credit flows to investors and consumers causes investment and consumption spending to contract, which, in turn, may exacerbate the uncertainty about the future value of financial assets and deepen the financial disruption further, creating a vicious cycle. See also CREDIT CRUNCH.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

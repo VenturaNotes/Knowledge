@@ -6,5 +6,5 @@
 - Termination of employment by the employer contrary to the employee's contract of employment. Dismissal may be wrongful because the grounds given are not justified, or the procedure laid down by the contract of employment has not been followed.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

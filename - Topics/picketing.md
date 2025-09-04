@@ -6,5 +6,5 @@
 - The procedure during strikes of placing strikers outside workplaces to inform other workers that they are in dispute, and to attempt to persuade other employees, suppliers, and customers, not to cross the picket line. Actual picketing has varied between peaceful demonstrations by small numbers of strikers outside their own workplaces and violent intimidation by large numbers at the premises of firms not involved in a strike ('secondary picketing'). UK law prohibits secondary picketing, and if more than six pickets are present, the action can be challenged in the courts.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

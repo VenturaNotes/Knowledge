@@ -5,4 +5,4 @@
 - (2) A letter by one party to a bank indicating a relationship that will make a second party more likely to repay a bank loan.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

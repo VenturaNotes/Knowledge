@@ -6,5 +6,5 @@
 - $n$. the consequentialist theory that maximizing utility (the greatest good or happiness or preferences of the greatest number) has priority over other ethical considerations. Developed in the 19th century by the British philosophers Jeremy Bentham and John Stuart Mill, and thereafter influential in social planning, unadulterated utilitarian policies may threaten the rights (and duties) of individuals and therefore need to be balanced by considerations of deontology. —utilitarian adj.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

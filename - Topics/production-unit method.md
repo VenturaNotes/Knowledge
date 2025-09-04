@@ -5,4 +5,4 @@
 - Unlike the straight-line method of depreciation, which treats depreciation as a fixed cost, the production-unit method treats it as a variable cost.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

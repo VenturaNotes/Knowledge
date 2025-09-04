@@ -5,4 +5,4 @@
 - (2) Perishable goods the quantity of which can be estimated by number or weight.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

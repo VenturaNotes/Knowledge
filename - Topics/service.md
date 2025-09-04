@@ -18,4 +18,4 @@
 	- Geographical dispersion$\textemdash$most services need to be reasonably near to the customer. However, use of telecommunications and information technology increasingly allows major service organizations to centralize large parts of their process, while retaining an interface with the customer; e.g. the use of national (or international) call centres and the provision by banks of automated teller machines and home banking facilities.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

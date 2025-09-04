@@ -6,5 +6,5 @@
 - Factors that make it difficult for a company to leave a market that is no longer profitable or that has ceased to provide an acceptable return on capital. For example, the workforce producing the product may not be redeployable, the plant and machinery producing it may be unsaleable, the product may have a niche in the company's product range that would affect sales of the whole range if it was withdrawn, etc.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) In marine insurance, items or rights that are lost as a result of breach of warranty. In such cases the policyholder has no right to make an insurance claim.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) The price given to a security when it is issued. This is the maximum amount the holder can be required to contribute to the company. See PAR VALUE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

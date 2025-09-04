@@ -7,4 +7,4 @@
 	- (3) UK private sector time deposits plus public sector sterling deposits. This measure is now known simply as M3.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

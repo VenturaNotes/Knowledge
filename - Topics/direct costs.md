@@ -5,4 +5,4 @@
 - (2) Departmental or cost centre overhead costs that can be traced directly to the appropriate parts of an organization, without the necessity of cost allocation. For example, the costs of a maintenance section that serves only one particular cost centre should be charged directly to that cost centre. Compare INDIRECT COSTS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

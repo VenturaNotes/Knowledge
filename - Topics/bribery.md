@@ -6,4 +6,4 @@
 - Before the passage of the 2010 Act, the term 'bribery' referred specifically to the common-law offence of making improper payments to judges, magistrates, or other judicial officers. Offences relating more generally to the improper influencing of public servants and other persons in a position of trust were referred to as corruption.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

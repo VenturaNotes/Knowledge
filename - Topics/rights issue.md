@@ -6,5 +6,5 @@
 - An issue of new shares in a company which are first offered to existing shareholders in proportion to their present holdings: shareholders are entitled but not obliged to take up their rights. Where the issue price is below the market price of the shares, it may be possible to sell the rights. If rights are not taken up, the shares are sold in the market, and shareholders receive the excess if the shares fetch more than the issue price. The advantage of a rights issue as a means of raising capital is that the register of present shareholders provides a ready-made list of people who have already shown some interest in a company.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

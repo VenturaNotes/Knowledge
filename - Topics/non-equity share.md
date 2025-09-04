@@ -8,4 +8,4 @@
 - Until 2005 so-called preference shares were classed as non-equity share capital (see PREFERENCE SHARE CAPITAL); these are now considered liabilities rather than shareholders' equity. The concept of non-equity shares is not recognized under International Financial Reporting Standards or the Financial Reporting Standard Applicable in the UK and Republic of Ireland.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

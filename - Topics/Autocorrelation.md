@@ -6,5 +6,5 @@
 - (serial correlation) If $\left\{x_{i}\right\}$ is an ordered sequence of observations then the product moment correlation coefficient between pairs $\left(x_{i}, x_{i+1}\right)$ is the autocorrelation of lag 1, and between pairs $\left(x_{i}, x_{i+k}\right)$ is the autocorrelation of lag $k$. The values of $k$ for which the autocorrelation is not negligible can provide important information as to the underlying structure of a time series.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

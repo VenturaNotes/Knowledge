@@ -6,4 +6,4 @@
 	- Full text of the Financial Reporting Standard Applicable in the UK and Republic of Ireland
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

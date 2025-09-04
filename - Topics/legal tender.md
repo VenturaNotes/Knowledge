@@ -6,5 +6,5 @@
 - Forms of money which a creditor is legally obliged to accept in settlement of a debt. It is necessary to have some rules on this so that it is clear when debts have been defaulted on. What the rules should be is a matter of convenience. Coin and banknotes are generally legal tender, with some exceptions: small denomination coins are not legal tender in large amounts, and nobody is legally obliged to give change, so that large notes are not legal tender for small amounts. Nobody is obliged to accept cheques. Actual payment is very often accepted in forms that are not legal tender, for example payments by cheque or electronic transfer, but this is at the discretion of the party accepting the payment.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

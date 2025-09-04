@@ -6,5 +6,5 @@
 - An association of independent companies formed to regulate the price and sales conditions of the products or services they offer. A cartel may be national or international, although some countries, including the UK and the USA, have legislation forbidding cartels to be formed on the grounds that they are monopolies that function against the public interest. The International Air Transport Association is an example of an international price-fixing cartel that is regarded as acceptable because of fears that pricecutting of fares between airlines would jeopardize safety.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

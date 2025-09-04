@@ -10,4 +10,4 @@ aliases:
 	- Website of the ABI: includes general insurance advice for businesses and private consumers
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

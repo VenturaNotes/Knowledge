@@ -7,5 +7,5 @@
 - (2) In national income accounts, the total value of income of individuals and households available for consumer expenditure and savings, after deducting income tax, National Insurance contributions, and remittances overseas.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

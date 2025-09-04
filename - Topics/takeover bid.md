@@ -6,5 +6,5 @@
 - An offer to purchase all the shares of a company, thereby acquiring control of it. Payment may be offered in cash, in the shares of the purchaser, or a mixture of the two. A takeover bid becomes effective only if the holders of a majority of existing shares accept the bid. As ownership of a controlling interest by a single party leaves minority shareholders at a disadvantage, stock exchange rules usually require that all shares be purchased on the same terms, and that no party or group can buy more than a certain proportion of the shares ( 30 per cent in the UK) without making a takeover bid for the remainder.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - A manager whose status changes from company employee to proprietor of an independent firm. This change is encouraged and possibly financed by the former employer, in the expectation that increased autonomy and improved incentives for the intrapreneur will raise the parent firm's profits.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

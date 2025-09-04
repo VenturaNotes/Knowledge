@@ -8,5 +8,5 @@
 - (3) A secret agreement between the parties to a legal action to do or to refrain from doing something in order to influence the judicial decision. For instance, an agreement between the plaintiff and the defendant to suppress certain evidence would amount to collusion. Any judgment obtained by collusion is a nullity and may be set aside.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

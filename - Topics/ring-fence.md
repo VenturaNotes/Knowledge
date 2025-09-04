@@ -6,4 +6,4 @@
 - (3) To separate one part of a business from another for regulatory reasons. This is sometimes enforced when e.g. a public utility is acquired by a parent company with wider business interests. In the wake of the 2008 financial crisis a similar model has often been proposed for banks that engage in both everyday retail banking and more speculative activities.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

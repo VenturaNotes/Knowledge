@@ -6,5 +6,5 @@
 - A US anti-trust law passed in 1914; it placed restrictions on mergers and acquisitions that limited competition and debarred individuals from holding directorships on the boards of competing companies.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

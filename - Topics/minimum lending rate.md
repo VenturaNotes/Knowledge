@@ -6,5 +6,5 @@
 - (MLR) Between 1971 and 1981, the minimum rate at which the Bank of England would lend to the discount houses. This was a published figure; the present more informal base rate does not have the same status.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

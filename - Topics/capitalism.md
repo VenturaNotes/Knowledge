@@ -6,5 +6,5 @@
 - An economic system in which the factors of production are privately owned and individual owners of capital are free to make use of it as they see fit; in particular, for their own profit. In this system the market and the profit mechanism will play a major role in deciding what is to be produced, how it is to be produced, and who owns what is produced. See also FREE COMPETITION; PRIVATE ENTERPRISE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

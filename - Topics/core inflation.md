@@ -6,5 +6,5 @@
 - The rate of inflation calculated to exclude certain items that are subject to sudden and shortlived price movements, mainly food and energy. Core inflation is considered a better indicator of overall long-term trends than unadjusted headline inflation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

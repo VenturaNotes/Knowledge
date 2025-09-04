@@ -5,4 +5,4 @@
 - Company legislation sets out the rules for the application of historical-cost accounting to financial statements. Companies may also choose to use alternative accounting rules based on the modified historical-cost convention, in which certain assets are included at revalued amounts.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

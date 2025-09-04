@@ -9,4 +9,4 @@ aliases:
 - The APR in this case is $r=0.082$ ( 8.2 per cent). Where a loan is repaid in installments and the nominal interest rate is expressed as a percentage of the original capital, the APR may be considerably higher than the nominal interest rate. In the UK lenders are legally obliged to inform borrowers of the APR on mortgage, credit card, or other loans.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

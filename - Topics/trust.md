@@ -11,6 +11,6 @@
 - $n$. (in the NHS) a self-governing body that provides or commissions any of a range of health-care services, including hospital, community health, and mental health services. NHS trusts have their own boards and budgets and the freedom to provide services of their own selection (within legal and contractual frameworks). See FOUNDATION TRUSTS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

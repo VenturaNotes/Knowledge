@@ -7,5 +7,5 @@
 - $n$. giving or returning power to someone. Being ill is usually experienced as losing the ability to act as one wishes, and full recovery may only be achieved when the individual feels able to make their own decisions. This may be a problem where professionals insist on deciding for patients with certain conditions (e.g. mental illness). Empowerment involves action to redress the lack or loss, for instance by offering explanation in a language, style, and level that is appropriate. See also AUTONOMY; FEMINIST ETHICS; PATERNALISM.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

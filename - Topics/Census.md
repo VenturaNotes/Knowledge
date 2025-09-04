@@ -10,6 +10,6 @@
 - $n$. an official count of the population within a defined territory, together with information on such attributes as age, sex, etc. In the UK it takes the form of a ten-yearly enumeration of the population based on the actual presence of individuals in a house or institution on a designated night (known as a de facto census). This contrasts with the approach in the USA, where enumeration is based on official address (de jure census).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

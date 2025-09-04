@@ -6,5 +6,5 @@
 - A product from a process that has secondary economic significance compared to the main product of the process. For example, while the primary reason for cracking oil is to produce petroleum, other products produced as a result of the process, such as lubricating oil, paraffin, and other distillates, are by-products. See also PROCESS COSTING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

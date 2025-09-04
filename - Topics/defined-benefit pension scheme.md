@@ -5,4 +5,4 @@
 - In recent years rising costs have led many companies to close their existing DB schemes to new employees, who are obliged to join defined-contribution pension schemes.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

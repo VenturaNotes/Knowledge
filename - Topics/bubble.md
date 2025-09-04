@@ -6,5 +6,5 @@
 - A situation in which asset prices are seriously inflated. The unstable boom thus created may lead to a market crash. The most infamous example of this was the South Sea Bubble of 1720, which led to the collapse of the British share market and the bankruptcy of many investors. A more recent example was the so-called 'dot.com bubble' of 1999-2000, in which the share prices of Internet start-up companies rose to wildly inflated levels before collapsing amidst panic selling.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - A bond issued in a eurocurrency, that is, a European currency held outside its country of origin. Eurobonds are issued in bearer form, and the interest payments are free of withholding taxes. They are thus attractive to investors wishing to remain anonymous, for tax avoidance or other reasons. They may be of various maturities, and at fixed interest rates, or floating rates linked to the London Inter Bank Offered Rate.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

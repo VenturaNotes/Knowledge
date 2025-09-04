@@ -6,5 +6,5 @@
 - Selling an asset or commodity that you do not own. This can be achieved by borrowing the asset or commodity from an existing owner. In financial and commodity markets stockbrokers are able to arrange the loan of the asset or commodity. Short selling is equivalent to holding a negative quantity of the asset or commodity, and permits a gain to be made from a fall in price. See also NAKED SHORT SELLING; SHORT POSITION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

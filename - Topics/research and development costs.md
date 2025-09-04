@@ -7,4 +7,4 @@
 - Costs of pure and applied research should be treated as an expense in the year in which they were incurred. In the case of development expenditure, if there is reasonable expectation that the product or process involved is likely to create economic benefits, then the company has the option of capitalizing the development costs, thereby creating an intangible asset to be shown on the balance sheet. In all other circumstances development expenditure must be written off to the profit and loss account as soon as it is incurred.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

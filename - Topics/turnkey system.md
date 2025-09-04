@@ -5,4 +5,4 @@
 - (2) A computer system that is ready to start work as soon as it is installed. All the necessary programs and equipment are supplied with the system. 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

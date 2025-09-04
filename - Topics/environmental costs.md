@@ -8,4 +8,4 @@
 	- environmental external failure costs. These are the costs incurred by a company if it discharges waste into the environment. Examples include the costs of cleaning up oil spills or cleaning a polluted river. A company may also incur fines or other penalties or lose sales if it acquires a poor environmental reputation. See also COST OF QUALITY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

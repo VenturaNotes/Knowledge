@@ -10,5 +10,5 @@ aliases:
 - Debt obligations that represent a claim on the cash flow from a pool of mortgage loans. Most commonly, the mortgages are on residential property. See also SECURITIZATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

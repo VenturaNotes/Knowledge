@@ -6,4 +6,4 @@
 - (3) A government policy of paying a benefit to a wide category of persons and taxing it so that those paying little or no taxes receive it while the well-off return it through the tax system. There have been suggestions that a higher child benefit is suitable for churning.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

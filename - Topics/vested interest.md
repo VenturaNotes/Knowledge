@@ -5,4 +5,4 @@
 - (2) An involvement in the outcome of some business, scheme, transaction, etc., usually in anticipation of a personal gain.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

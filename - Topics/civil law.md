@@ -5,4 +5,4 @@
 - (2) The law generally in force on the Continent, which has its basis in Roman law.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

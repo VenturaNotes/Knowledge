@@ -9,5 +9,5 @@
 - (3) an animal, usually an insect, that passively transmits infectious organisms from one animal to another or from an infected animal to a human being. See also VECTOR.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

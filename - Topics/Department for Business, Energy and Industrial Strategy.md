@@ -10,4 +10,4 @@ aliases:
 	- The official website of the Department for Business, Energy and Industrial Strategy.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

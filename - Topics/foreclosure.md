@@ -6,5 +6,5 @@
 - Taking over by a lender of a mortgaged property, because of failure by the borrower to comply with the conditions of the mortgage. This failure usually consists of failure to make interest and amortization payments by the due dates. Foreclosure is usually only resorted to by lenders when considerable arrears have arisen, and normally requires authorization by a court. In the UK the term is repossession.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

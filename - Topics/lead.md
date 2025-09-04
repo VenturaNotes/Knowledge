@@ -11,5 +11,5 @@
 - (2) a flexible steerable insulated wire introduced into the heart under X-ray control to allow electrical stimulation of the heart for the purpose of pacing (see PACEMAKER).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (3) Denoting a sales-promotion offer that pays for itself. For example, if a seller of tea bags offers a free tea mug in exchange for a specified number of vouchers, each taken from a box of tea bags, the seller expects the extra number of tea-bag boxes sold during the promotion to pay for the costs of buying and despatching the mugs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

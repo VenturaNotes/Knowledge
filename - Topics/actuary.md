@@ -6,5 +6,5 @@
 - A person trained in the application of statistics and probability theory to questions of commercial risk. Some are employed by insurance companies to calculate probable lengths of life, and advise insurers on the amounts that should be put aside to pay claims and the amount of premium to be charged for each type of risk. Actuaries also advise on the administration of pension funds; the government actuary is responsible for advising the government on state pension schemes. See also Institute and Faculty of Actuaries.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

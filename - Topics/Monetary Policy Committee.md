@@ -12,5 +12,5 @@ aliases:
 - (MPC) The committee of Bank of England officials and outside economic experts that has been responsible for setting interest rates in the UK since 1997. Prior to this date, interest rates were set by the Treasury.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

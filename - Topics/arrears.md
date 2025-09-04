@@ -6,5 +6,5 @@
 - A liability that has not been settled by the due date. For example, cumulative preference shares entitle the shareholders to receive an annual fixed dividend. If this is not paid, the dividend is said to be in arrears and this fact must be disclosed in the notes to the financial statements.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

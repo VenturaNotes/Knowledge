@@ -5,4 +5,4 @@
 - (2) That part of a business or organization in which the real day-today work takes place, unseen by the public (and possibly by higher management).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

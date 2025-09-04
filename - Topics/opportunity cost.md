@@ -55,5 +55,5 @@
 [^3]: Google's SGE
 [^4]: https://mru.org/practice-questions/comparative-advantage-practice-questions?sid=8916440
 [^5]: ChatGPT
-[^6]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^7]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^7]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

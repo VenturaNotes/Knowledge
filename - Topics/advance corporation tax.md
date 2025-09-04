@@ -10,5 +10,5 @@ aliases:
 - (ACT) Formerly, an advance payment of corporation tax, payable when a company made a qualifying distribution. ACT was abolished in 1999. Larger companies must now pay corporation tax in instalments.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

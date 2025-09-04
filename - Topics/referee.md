@@ -6,4 +6,4 @@
 - (3) A person or organization named on some bills of exchange as a referee (or reference) in case of need. If the bill is dishonoured its holder may take it to the referee for payment.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

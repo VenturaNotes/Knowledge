@@ -7,5 +7,5 @@
 - Formerly an institution specializing in accepting or guaranteeing bills of exchange. A service fee was charged for guaranteeing payment, enabling the bill to be discounted at preferential rates on the money market. The 1990s saw a decline in the use of bills of exchange and most of the accepting houses were absorbed by the merchant banks.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

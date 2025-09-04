@@ -10,6 +10,6 @@
 - $n$. the blending together of the nerve impulses that arrive through the thousands of synapses at a nerve cell body. Impulses from some synapses cause excitation, and from others inhibition; the overall pattern decides whether an individual nerve cell is activated to transmit a message or not.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

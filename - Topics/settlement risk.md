@@ -6,5 +6,5 @@
 - The risk that other parties may fail to fulfil their side of bargains. Delay in settlement may merely cause inconvenience, but complete failure to settle could cause severe losses. To reduce counterparty risk many commodity and stock exchanges act as counter-parties for the actual traders, making payments to sellers and collecting payment from buyers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

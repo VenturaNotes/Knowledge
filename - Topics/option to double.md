@@ -5,4 +5,4 @@
 - (2) An option by a buyer to buy double the quantity of securities for which he or she has bought an option, if desired. In some markets this is called a call-of-more option.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

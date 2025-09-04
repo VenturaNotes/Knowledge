@@ -5,4 +5,4 @@
 - (2) An internal risk-management limit imposed on positions to be held by traders, desks, etc. within an organization. See also INTRADAY LIMIT; LIMIT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

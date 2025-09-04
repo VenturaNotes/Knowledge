@@ -5,4 +5,4 @@
 - (2) A unit of weight used in the USA, equal to 100 lb ; 20 hundredweights $=1$ short ton (2000 lb).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

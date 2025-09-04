@@ -6,5 +6,5 @@
 - A negative balance in a bank account, so that the customer owes the bank money. This is often allowed only by prior arrangement, though customers with a good credit record may be allowed to overdraw without prior arrangement. Overdrafts are allowed only up to a set limit, and incur interest and possibly extra service charges for the customer.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

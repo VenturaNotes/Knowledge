@@ -6,5 +6,5 @@
 - An approach to establishing the selling price of a product or service in a commercial organization, in which the total cost of the product or service is estimated and a percentage mark-up is added in order to obtain a profitable selling price. A variation to this approach is to estimate the costs to a particular stage, say the costs of production only, and then to add a percentage mark-up to cover both the other overheads (including administration, selling, and distribution costs) and the profit margin. This approach to costing is very different from target costing. Compare FULL COST PRICING; MARGINAL COST PRICING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

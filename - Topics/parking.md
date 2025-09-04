@@ -5,4 +5,4 @@
 - (2) Holding assets in a short-term riskless form pending an investment decision.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

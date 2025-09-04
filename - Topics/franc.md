@@ -6,4 +6,4 @@
 - (3) The former standard monetary unit of France, most French dependencies, Monaco, and (with the peseta) Andorra (French franc); of Belgium (Belgian franc); and of Luxembourg (Luxembourg franc). In each case it was replaced by the euro in 2002.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - A person with overall responsibility for decision-taking in a business, who receives any profits, and bears any losses. Entrepreneurs need not necessarily contribute either labour, which can be hired, or financial capital, which can be borrowed; but they must contribute either one of these or a credible guarantee, if their responsibility for possible losses is to be genuine. In a business run by a sole trader it is clear who is the entrepreneur; in incorporated businesses the role is dispersed among directors and shareholders.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

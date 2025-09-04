@@ -9,5 +9,5 @@
 - (3) The process of distribution, for example the motor trade. See also BALANCE OF TRADE; BILATERAL TRADE; FAIR TRADE; FREE TRADE; GAINS FROM TRADE; INTER-INDUSTRY TRADE; INTRA-INDUSTRY TRADE; INVISIBLES; MANAGED TRADE; MULTILATERAL TRADE; RESTRAINT OF TRADE; SHUTTLE TRADE; TERMS OF TRADE; TRADE DEFICIT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

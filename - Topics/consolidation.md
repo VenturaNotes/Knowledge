@@ -9,5 +9,5 @@
 - (2) the stage of repair of a broken bone following callus formation, during which the callus is transformed by osteoblasts into mature bone.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

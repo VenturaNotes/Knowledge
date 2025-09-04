@@ -8,4 +8,4 @@
 - See also PATH-GOAL LEADERSHIP MODEL; SITUATIONAL LEADERSHIP THEORY; Tannenbaum-Schmidt continuum; Vroom-Yetton-JAGO MODEL.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

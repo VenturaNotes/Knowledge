@@ -6,5 +6,5 @@
 - The use of taxation and government spending to influence the economy. This may work via changing tax rates or the rules about liability to tax, or via changes in government spending on real goods and services or transfer payments. Fiscal policy can be used both to influence the level of aggregate demand in the economy, and to change the incentives facing firms and individuals so as to encourage or discourage particular forms of activity. See also EASY FISCAL POLICY; TIGHT FISCAL POLICY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

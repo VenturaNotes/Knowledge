@@ -12,4 +12,4 @@
 - The FTSE All World Index Series was launched in 1987 and now covers over 2,800 share prices from 49 countries. With sectors for the developed, emerging, and advanced emerging economies, it is calculated daily and published in sterling, euros, US dollars, and yen.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

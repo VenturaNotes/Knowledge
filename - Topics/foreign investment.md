@@ -6,5 +6,5 @@
 - The acquisition by residents of a country of assets abroad. These assets may be real, in the case of foreign direct investment, or financial, in the case of acquisition of foreign securities or bank deposits. Foreign investment may be carried out by the state or the private sector, and foreign securities acquired may represent private or government debt. It is also possible for foreign residents to invest in real or financial assets in a country: this is inward foreign investment. Net foreign investment is the excess of outward over inward foreign investment.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (3) (proprietary estoppel) The rule that if one person allows or encourages another person to act to his or her detriment in respect of land, he or she will not later be able to refuse to grant something that he or she allowed the other person to expect. For example, if A encourages B to build a garage, which can only be reached by driving over A's land, saying that a right of way will be granted, A will not later be able to refuse to do so.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

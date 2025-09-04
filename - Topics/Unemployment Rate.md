@@ -10,4 +10,4 @@
 
 [^1]: https://www.oecd.org/en/data/indicators/unemployment-rate.html
 [^2]: ChatGPT
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

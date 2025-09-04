@@ -57,4 +57,4 @@ aliases:
 
 [^1]: https://www.capterra.com/glossary/activity-based-costing-abc/
 [^2]: ChatGPT
-[^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - The products of primary sector industries, intended for use as inputs to production. The main groups of raw materials are plant crops such as cotton, animal products such as wool and leather, and assorted mineral products such as bauxite ore, used to make aluminium. Raw materials form a decreasing proportion of international trade, but are still very important for many less developed countries.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

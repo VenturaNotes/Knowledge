@@ -5,4 +5,4 @@
 - (2) An item that may appear in a firm's accounts under current liabilities, summarizing the bills of exchange being held, which will have to be paid when they mature.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

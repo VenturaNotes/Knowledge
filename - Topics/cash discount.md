@@ -6,5 +6,5 @@
 - A discount receivable or allowable for settling an invoice for cash, or within a specified period. In the profit and loss account, discounts receivable are classed as revenue; discounts allowable as expenditure.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

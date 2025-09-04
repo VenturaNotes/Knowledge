@@ -6,4 +6,4 @@
 - (3) Any information that could be provided by a witness in court proceedings and could influence the decision of the court.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -10,5 +10,5 @@ aliases:
 - (CP) A relatively low-risk short-term (maturing at 60 days or less in the US but longer in the UK) form of borrowing. Commercial paper is often regarded as a reasonable substitute for Treasury bills, certificates of deposit, etc. The main issuers have traditionally been large creditworthy institutions, such as insurance companies, bank trust departments, and pension funds. Although commercial paper was traditionally unsecured, recent years have seen a major growth in asset-backed commercial paper (ABCP), in which the CP is secured against assets held by a structured investment vehicle (usually longer-term debt). In 2007 the market in ABCP was severely affected by the subprime lending crisis.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

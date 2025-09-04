@@ -10,5 +10,5 @@ aliases:
 - A model proposed by Stephen Ross in 1976 for calculating security returns in terms of the arbitrage-free condition. It is an alternative to the capital asset pricing model (CAPM). APT assumes a number of different systematic risk factors without, however, definitively identifying the various types of risk. In setting discount rates for decisions or valuations, companies therefore generally prefer to base their calculations on the CAPM.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

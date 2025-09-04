@@ -5,4 +5,4 @@
 - (2) The process of transforming the subsidiary organizations in a group into divisions of a single integrated company.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

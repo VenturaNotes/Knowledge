@@ -63,4 +63,4 @@
 [^4]: https://www.tessian.com/blog/5-real-world-examples-of-phishing-attacks/
 [^5]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-4-network-security-quizzes/ks4-ocr-j277-1-4-network-security-quiz/
 [^6]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^7]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^7]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

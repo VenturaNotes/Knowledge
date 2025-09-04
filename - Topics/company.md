@@ -8,5 +8,5 @@
 - There are legal requirements placed on companies to make certain financial information regarding their activities public. Such information normally comprises a profit and loss account and balance sheet and is included with other financial and non-financial information in an annual report and accounts (see ANNUAL ACCOUNTS). The term company is often used more widely to refer to any association of persons, such as a partnership, joined together for the purpose of conducting a business, although legally there are significant differences. See also ARTIFICIAL PERSON; CORPORATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - $n$. a test or trial to determine the strength of a solution, the proportion of a compound in a mixture, the potency of a drug, or the purity of a preparation. See also BIOASSAY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

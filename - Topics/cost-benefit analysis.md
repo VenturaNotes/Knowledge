@@ -6,5 +6,5 @@
 - A technique used in capital budgeting that takes into account the estimated costs to be incurred by a proposed investment and the estimated benefits likely to arise from it. In a financial appraisal the benefits may arise from an increase in the revenue from a product or service, from saved costs, or from other cash inflows, but in an economic appraisal the economic benefits, such as the value of time saved or of fewer accidents resulting from a road improvement, often require to be valued.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

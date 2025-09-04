@@ -6,5 +6,5 @@
 - The ratio of a company's debt to its equity. High gearing means high reliance on debt financing. This is risky for the shareholders, as debt service absorbs a large proportion of profits in a normal year, and in a bad year the cost of debt service may exceed total profits. This could lead to dividends being reduced or passed, and possibly to loss of control of the company to creditors or debenture holders. The US term for gearing is leverage.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

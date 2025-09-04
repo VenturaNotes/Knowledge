@@ -5,4 +5,4 @@
 	- #question Is the $\wedge$ a mistake in $\theta^{\wedge U}$?
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

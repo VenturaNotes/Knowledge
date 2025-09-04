@@ -6,5 +6,5 @@
 - A system for fixing exchange rates by the central bank or government of each country making its currency freely convertible into gold at a fixed price. Under this system the par value of exchange rates is set by the amount of each currency that can be obtained for a given quantity of gold. Exchange rates thus cannot shift further from parity than the limits set by the transaction costs of shipping gold between different countries, which is usually a very small percentage of its value. The same applies if gold actually circulates within each country, provided it can be imported and exported freely.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

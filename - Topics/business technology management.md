@@ -9,4 +9,4 @@ aliases:
 - (2) A comprehensive service offered to smaller companies that do not have their own IT department; it typically involves database and network management, security policy, and general advice and support.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

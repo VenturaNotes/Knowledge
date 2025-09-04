@@ -6,5 +6,5 @@
 - A theoretical model of an economy that neither imports nor exports and is therefore independent of economic factors in the outside world. No such economy exists, although the foreign sector of the US economy is a relatively small and most economic decisions are taken by the US government independently of the rest of the world. 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

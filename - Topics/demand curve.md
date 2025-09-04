@@ -6,5 +6,5 @@
 - A curve on a graph relating the quantity of a good demanded to its price. Economists usually expect the demand curve to slope downwards, i.e. an increase in the price of a good brings a lower level of demand.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

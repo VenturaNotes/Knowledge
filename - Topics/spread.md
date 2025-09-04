@@ -8,5 +8,5 @@
 - The difference between the bid and offer prices quoted by a market-maker. The prices of securities at which market-makers are willing to sell are higher than those at which they are willing to buy. The spread has to cover the market-makers' operating costs and provide profits, and includes a premium against the risk that any particular customer has insider knowledge about the security being traded. Spreads tend to be smaller on more widely traded securities.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

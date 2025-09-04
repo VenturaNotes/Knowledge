@@ -19,4 +19,4 @@ aliases:
 ## References
 
 [^1]:[[(Home Page) Investing 101 From Stocks and Bonds to ETFs and IPOs by Michel Cagan#NASDAQ]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

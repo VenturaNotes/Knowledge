@@ -5,4 +5,4 @@
 - (2) The appointment to a board of directors of a representative of the employees of a company, to enable the employees to take part in the direction of the company. See PARTICIPATIVE DECISION MAKING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

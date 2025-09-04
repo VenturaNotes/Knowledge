@@ -6,4 +6,4 @@
 - (3) The date that a buyer of securities receives the relevant certificates.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

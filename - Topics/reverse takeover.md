@@ -7,5 +7,5 @@
 - A situation where a smaller company takes over a larger company, or where a private company takes over a public company. In the latter case the ownership is transferred to the company that is taken over, allowing a private company a possibly easier route to public ownership.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

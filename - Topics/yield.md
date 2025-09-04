@@ -7,5 +7,5 @@
 - The income from a fixed-interest security as a percentage of its price. The nominal yield is the interest per annum divided by the par value. The running yield is the interest divided by the market price. The yield to maturity is the interest equivalent to the actual interest payments plus capital gains (or minus capital losses) if the security is held to maturity. A yield curve plots the yield on fixed-interest securities against their time to maturity. See also NET YIELD; REDEMPTION YIELD; RUNNING YIELD; SUSTAINED YIELD.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

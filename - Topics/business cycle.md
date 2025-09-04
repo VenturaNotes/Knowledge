@@ -6,5 +6,5 @@
 - (trade cycle) The process by which investment, output, and employment in an economy tend to move through a recurrent cycle of upturn, prosperity, downturn, and recession. The cycle does not describe a regular pattern in either length or amplitude. Cycles in the immediate postwar period were of historically low amplitude, while those of the late 1970s and 1980s had greater amplitude and involved much deeper recessions. The reasons for the business cycle remain little understood. See also Kondratieff cycle.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

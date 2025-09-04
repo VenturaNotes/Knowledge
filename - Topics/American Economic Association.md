@@ -10,4 +10,4 @@ aliases:
 	- The home page of the AEA with membership information and links to publications.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

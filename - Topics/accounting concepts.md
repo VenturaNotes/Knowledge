@@ -9,4 +9,4 @@
 - These four principles were laid down in Statement of Standard Accounting Practice (SSAP) 2, Disclosure of Accounting Policies; they were also recognized in the EU's Fourth Company Law Directive and the UK Companies Acts together with a fifth principle, the accounting entity concept. From 2000 SSAP 2 was superseded by Financial Reporting Standard (FRS) 18, which stated that the consistency concept and the prudence concept should no longer be regarded as fundamental. FRS 18 also identified four key objectives of financial information that can be regarded as fundamental principles: comparability, relevance, reliability, and understandability. The Financial Reporting Standard Applicable in the UK and Republic of Ireland issued in 2013 likewise emphasizes these qualities, together with those of timeliness, materiality, and completeness. The same qualities are recognized in the International Accounting Standards Board' Conceptual Framework for Financial Reporting.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

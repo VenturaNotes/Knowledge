@@ -8,6 +8,6 @@
 - (in statistics) a range of values for a parameter of interest that is estimated to contain the true value of the parameter within a given probability. For example, with a $95 \%$ confidence interval the parameter value will lie in this interval 95 times out of every 100.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

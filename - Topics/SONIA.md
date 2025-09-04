@@ -6,5 +6,5 @@
 - The Sterling overnight interbank average rate. The rate is an index that tracks sterling overnight funding rates for trades that occur in off hours and is a proxy for the interest rate expectations of the market.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

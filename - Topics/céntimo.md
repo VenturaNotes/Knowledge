@@ -12,4 +12,4 @@ aliases:
 - (5) A former monetary unit of Spain and Andorra, worth one hundredth of a peseta.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -9,4 +9,4 @@
 - (6) A monetary unit of Iran, worth one hundredth of a rial.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

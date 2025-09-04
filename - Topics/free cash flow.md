@@ -6,4 +6,4 @@
 - Free cash flow is important for managers as a positive cash flow can be used to pay dividends, acquire other companies, or invest in new opportunities. It is also an important measure of a company's ability to reduce debt. The value of a company can be calculated as the sum of the future discounted free cash flows (see DISCOUNTED CASH FLOW).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

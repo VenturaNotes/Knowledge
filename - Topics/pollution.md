@@ -6,5 +6,5 @@
 - Damage to the environment by the emission of noxious substances, which may be dirty, toxic, radioactive, or pathogenic. This may affect water, air, or land surfaces, in some cases over wide areas. Pollution resulting from economic activities is a major source of negative externalities. See also PERMIT TO POLLUTE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - The tangible assets of an organization less its current liabilities. This is different from total assets less total liabilities. On the assets side it excludes intangibles such as goodwill, and on the liabilities side it excludes debts not due for payment within the next financial year.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

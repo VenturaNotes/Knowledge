@@ -6,5 +6,5 @@
 - The stock of knowledge, skills, and abilities that determine the labour productivity of an individual. Investment in human capital through education and training can increase the stock, and such investment is one of the sources of economic growth. See also PHYSICAL CAPITAL.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

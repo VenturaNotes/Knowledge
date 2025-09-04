@@ -6,5 +6,5 @@
 - (stamp tax) A tax on transactions, levied by requiring that documents bear an official stamp to be legally valid. In the UK at one time there was a small stamp duty on cheques; it is now levied on some sales of property and on share transfers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

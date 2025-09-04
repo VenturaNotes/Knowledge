@@ -6,4 +6,4 @@
 - (2) More generally, a description of any transaction involving simultaneous exchange of assets and payment.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

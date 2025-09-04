@@ -5,4 +5,4 @@
 - (2) A document recording the change of ownership when a ship is sold; it is regarded internationally as legal proof of ownership.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

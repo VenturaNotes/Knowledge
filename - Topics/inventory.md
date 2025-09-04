@@ -11,4 +11,4 @@
 - Cycle inventory is a function of the economic order quantity (EOQ) calculation and represents a trade-off between minimizing the inventory and the costs of setting up and changing processes. Just-in-time techniques are designed to rely on a minimum EOQ. Clearly there is some overlap between these different types of inventory.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - A tax where the revenue collected rises more than proportionally to the taxable amount or the burden rises more than proportionately to the ability to pay. The UK income tax is made progressive in both senses by having an exemption for low incomes, a low rate for the first slice of taxable income, and higher rates for the largest incomes. This structure is fairly typical. Indirect taxes can be progressive in the second sense if there are exemptions or low tax rates for goods heavily consumed by the poor, for example the UK's zero value-added tax on food, and higher rates on luxury items more heavily consumed by the rich.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - The proportion of the labour force who quit their jobs each year for reasons other than being sacked by their employer. This includes workers who retire, and those who leave for personal reasons. An appreciable percentage of a firm's labour force may leave in any year and this often makes possible gradual reduction in the labour force without the need for redundancies.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

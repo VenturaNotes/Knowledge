@@ -6,5 +6,5 @@
 - The entering into a set of financial obligations to obtain profits with no risk, usually by taking advantage of differences in interest rates, exchange rates, or commodity prices between one market and another. Arbitrage is non-speculative because an arbitrageur will only switch from one market to another if the rates or prices in both markets are known and if the profit to be gained outweighs the costs of the operation. Thus, a large stock of a commodity in a user country may force its price below that in a producing country; if the difference is greater than the cost of shipping the goods back to the producing country, this could provide a profitable opportunity for arbitrage. Similar opportunities arise with bills of exchange and with foreign currencies. A person or firm that engages in arbitrage is known as an arbitrageur.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

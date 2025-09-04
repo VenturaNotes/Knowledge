@@ -29,4 +29,4 @@ aliases:
 [^2]: https://www.techtarget.com/whatis/definition/acceptable-use-policy-AUP
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: https://www.capterra.com/glossary/acceptable-use-policy-aup/
-[^5]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

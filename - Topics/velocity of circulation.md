@@ -6,5 +6,5 @@
 - The ratio of some aggregate of transactions, for example gross domestic product, to some measure of the money supply, for example M1. See also QUANTITY EQUATION; QUANTITY THEORY OF MONEY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

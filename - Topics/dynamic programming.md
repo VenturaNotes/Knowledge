@@ -19,6 +19,6 @@
 
 [^1]: ChatGPT
 [^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^5]: https://www.geeksforgeeks.org/quizzes/top-mcqs-on-dynamic-programming-with-answers/

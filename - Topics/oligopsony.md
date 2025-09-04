@@ -6,5 +6,5 @@
 - A market with a small number of buyers in which the choice of one buyer affects the pay-offs of the others. This is the equivalent on the demand side of oligopoly on the supply side of a market.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

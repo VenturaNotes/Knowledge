@@ -8,5 +8,5 @@
 - (3) Agreement to accept the terms of an offer; for example, the agreement of an insurance company to provide a specified insurance cover or of a trader to accept a specified parcel of goods at the offer price.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

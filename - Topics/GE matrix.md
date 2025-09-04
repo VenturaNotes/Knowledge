@@ -10,4 +10,4 @@
 - The GE matrix is essentially a more sophisticated development of the Boston matrix. It is so-called because it was first used by the management consultants McKinsey in their work for General Electric (GE).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

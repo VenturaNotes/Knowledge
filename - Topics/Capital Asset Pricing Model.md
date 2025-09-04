@@ -10,5 +10,5 @@ aliases:
 - (CAPM) A statistical model to explain the expected or average return on an investment. It assumes that this return will be composed of the risk-free rate of return and a risk premium. The risk premium is related to those systematic risks that cannot be avoided by diversification. Formally, the CAPM is based on the equation:$$\mathrm{E}\left(\mathrm{R}_{i}\right)=\mathrm{R}_{f}+\beta_{i}\left[\mathrm{E}\left(\mathrm{R}_{m}\right)-\mathrm{R}_{f}\right]$$where $\mathrm{E}\left(\mathrm{R}_{i}\right)$ is the expected/average return on the assets in portfolio $i, \mathrm{R}_{f}$ is the risk-free rate of return, $\mathrm{E}\left(\mathrm{R}_{m}\right)$ is the expected/average return on all assets, and $\beta_{i}$ is the beta coefficient of the asset or the portfolio $i$. The beta is the percentage that the return in $i$ will change with a $1 \%$ change in $\mathrm{R}_{m}$. The CAPM is a measure of the risk in the asset or the portfolio. It is the basis for calculating the required return on an investment and is frequently used to calculate the discount rate for a net present value calculation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

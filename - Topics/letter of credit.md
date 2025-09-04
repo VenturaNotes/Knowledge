@@ -8,4 +8,4 @@
 - Although the term 'letter of credit' is still widely used, in 1983 the International Chamber of Commerce recommended documentary credit as the preferred term for these instruments.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

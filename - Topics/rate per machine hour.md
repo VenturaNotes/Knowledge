@@ -5,4 +5,4 @@
 - This rate may not be very useful for managers if overheads do not increase or decrease as machine hours increase or decrease. Activity-based costing systems can provide a more accurate cause-and-effect allocation of costs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

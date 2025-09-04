@@ -6,5 +6,5 @@
 - $n$. (in microscopy) the process of removing the cloudiness from microscopical specimens after dehydration by means of a clearing agent. This increases the transparency of the specimens. Xylene, cedar oil, methyl benzoate plus benzol, and methyl salicylate plus benzol are commonly used as clearing agents.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

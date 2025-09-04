@@ -10,5 +10,5 @@
 - (3) The academic discipline that analyses the decision-making role in organizations. Management aims at understanding how decisions are made and at producing managers who can make better decisions. See also DEMAND MANAGEMENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

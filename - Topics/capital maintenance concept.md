@@ -5,4 +5,4 @@
 - (2) The physical capital maintenance concept is that the physical capital is only maintained if the physical productive or operating capacity, or the funds or resources required to achieve this capacity, is equal to or exceeds the physical productive capacity at the beginning of the period, after excluding any distributions to, or contributions from, owners during the financial period.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

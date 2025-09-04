@@ -5,4 +5,4 @@
 - (2)The amount of money that certain staff members are allowed to spend on personal expenses in carrying out their activities for an organization.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

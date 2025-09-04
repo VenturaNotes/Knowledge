@@ -6,4 +6,4 @@
 	- HMRC area of the Gov.uk website provides details of all UK tax rates, codes, and allowances and facilities for making returns online
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

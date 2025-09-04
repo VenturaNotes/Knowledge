@@ -13,6 +13,6 @@
 - $n$. the dispersion of a set of observations (e.g. of heights, weights, or blood pressures) about their arithmetic mean. A normal or Gaussian distribution is a continuous distribution that is symmetrical around the mean value and in which a large majority of the observations fall within one standard deviation of the mean in either direction: such a distribution forms the familiar symmetrical bell curve when plotted on a graph. In a skewed or asymmetrical distribution, the measurements are clustered on one side of the mean and spread out over a wider range on the other. See also FREQUENCY DISTRIBUTION; SIGNIFICANCE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

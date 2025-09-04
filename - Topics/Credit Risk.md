@@ -5,4 +5,4 @@
 - (2) The risk that the value of a flow of payments from a credit derivative will decline due to an adverse movement in the credit rating.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

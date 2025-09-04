@@ -5,4 +5,4 @@
 - (2) To transfer a bill of exchange or cheque to another for consideration (see NEGOTIABILITY; NEGOTIABLE INSTRUMENT).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

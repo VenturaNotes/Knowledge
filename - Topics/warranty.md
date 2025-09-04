@@ -8,5 +8,5 @@
 - A guarantee by the provider of goods or services as to their quality. A manufacturer's warranty is only of value to customers if it goes beyond the minimum properties of the good or service required by law. A warranty does not curtail the customer's statutory rights.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

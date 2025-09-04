@@ -5,4 +5,4 @@
 - However, the theory is also widely criticized as: (a) it describes only changes in relative prices (e.g. oil) rather than rises in the general price level (which is how inflation is defined); and (b) most economists would now agree that price rises can only continue if there is an accompanying increase in the money supply.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

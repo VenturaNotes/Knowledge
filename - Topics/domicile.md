@@ -6,4 +6,4 @@
 - (2) In banking, an account is said to be domiciled at a particular branch and the customer will usually treat that branch as his or her main banking contact. Computer technology, however, now allows customers to use other branches exactly as if their account was domiciled there.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

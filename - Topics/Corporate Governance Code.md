@@ -6,4 +6,4 @@
 	- Full text of the Code (2012) from the Financial Reporting Council website
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

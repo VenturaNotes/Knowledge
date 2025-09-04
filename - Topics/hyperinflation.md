@@ -6,5 +6,5 @@
 - Very rapid inflation; it is sometimes reckoned to set in when price increases exceed 50 per cent per month. Such rapid inflation not merely makes money useless as a store of value, but seriously affects its use as a medium of exchange, and greatly disrupts productive economic activity.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) The fixing of wages or prices at existing levels by government order to prevent them rising during a period of inflation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

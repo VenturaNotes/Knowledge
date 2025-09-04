@@ -8,5 +8,5 @@
 - A provision in the tax code that reduces the tax liability of an individual or a firm, granted on the basis of a characteristic of the taxpayer or an action of the taxpayer. A reduction in the marginal rate of income tax for people aged over 65 is an example of a tax relief based on a characteristic. An enhanced rate of depreciation for investment in energy-efficient equipment which reduces taxable profit is an example of a tax relief based on an action. See also TAX EXPENDITURE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

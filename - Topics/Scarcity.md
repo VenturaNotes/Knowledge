@@ -14,4 +14,4 @@
 
 [^1]: [[(Home Page) Principles of Economics 3e by OpenStax#1 1 What is Economics and Why Is It Important]]
 [^2]: ChatGPT
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

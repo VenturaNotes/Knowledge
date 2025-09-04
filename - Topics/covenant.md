@@ -6,4 +6,4 @@
 - (2) An undertaking in a loan agreement the breaching of which will make the loan repayable immediately. See also EVENT OF DEFAULT; RATIO COVENANT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

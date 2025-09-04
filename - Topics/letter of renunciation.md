@@ -5,4 +5,4 @@
 - (2) A form on the reverse of some unit-trust certificates, which the holder completes to dispose of the holding. The holder sends the completed certificate to the trust managers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

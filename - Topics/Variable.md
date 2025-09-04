@@ -35,6 +35,6 @@ aliases:
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-2-programming-fundamentals-quizzes/2-2-programming-fundamentals-quiz-10-questions/
 [^2]: https://spdload.com/blog/software-development-glossary/
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^5]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^6]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

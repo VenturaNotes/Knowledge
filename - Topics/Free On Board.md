@@ -6,5 +6,5 @@
 - (f.o.b.) A term used to refer to a quoted price for a good that is placed on a ship, lorry, or aeroplane by the seller, ready to leave a country. F.o.b. thus includes costs of production and of transport to the port of embarkation, but does not include the costs of freight and insurance in getting them to their foreign destination. F.o.b. is contrasted with c.i.f. (cost, insurance, and freight), the value of goods on arrival at a foreign port, which includes freight and insurance.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

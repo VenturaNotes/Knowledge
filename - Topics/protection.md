@@ -5,4 +5,4 @@
 - (2) Government policies aimed at safeguarding the interests of consumers, producers, or the environment. See AGRICULTURAL PROTECTION; CONSUMER PROTECTION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

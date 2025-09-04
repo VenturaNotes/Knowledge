@@ -10,4 +10,4 @@ aliases:
 	- Website of the IMS: explains many tools and techniques used in management services
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

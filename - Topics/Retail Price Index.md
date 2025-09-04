@@ -8,5 +8,5 @@
 - (RPI) The official UK cost of living index. The RPI is based on a monthly survey of the prices of UK consumer goods and services, and is used as the basis for payments on index-linked government securities, and pensions and allowances. 'RPI' is in fact a misleading description, as it covers many forms of consumer expenditure such as rents, mortgage interest, and public utility charges which do not pass through retail outlets. The RPI measures prices inclusive of valueadded tax and other indirect taxes, and so may change as the result of changes in indirect taxation. In many countries a similar index is referred to as a consumer price index. See also RPIX.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

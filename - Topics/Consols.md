@@ -6,5 +6,5 @@
 - Government securities that pay interest but have no redemption date. The present bonds, called consolidated annuities or consolidated stock, are the result of merging several loans at various different times going back to the 18th century. Their original interest rate was $3 \%$ on the nominal price of $£ 100$; some now pay 2.5% and therefore stand at a price that makes their annual yield comparable to long-dated gilt-edged securities, e.g. at $£ 31$ they yield about $8 \%$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

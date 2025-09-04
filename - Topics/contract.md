@@ -14,5 +14,5 @@
 - Certain contracts, though valid, may be liable to be set aside by one of the parties on such grounds as misrepresentation or the exercise of undue influence. See also AFFIRMATION OF CONTRACT; BREACH OF CONTRACT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

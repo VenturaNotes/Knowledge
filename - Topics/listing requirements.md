@@ -7,4 +7,4 @@
 - Listing requirements are generally more stringent the larger the market. For example, the main market in London demands considerably more information from companies than the Alternative Investment Market. The listing requirements are set out in the Yellow Book.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

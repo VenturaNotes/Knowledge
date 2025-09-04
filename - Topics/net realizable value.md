@@ -6,4 +6,4 @@
 - (2) The amount at which any asset could be disposed of, less any direct selling costs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

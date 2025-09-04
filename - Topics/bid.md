@@ -6,4 +6,4 @@
 - (3) An approach by one company to buy the share capital of another. See TAKEOVER BID.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
