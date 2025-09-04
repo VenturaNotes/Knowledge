@@ -5022,12 +5022,12 @@ Reviewed: false
 	4986. sinoatrial node
 	4987. sinus
 	4988. sinusoid
-	4989. sinus venosus
+	4989. [[sinus venosus]]
 	4990. siphonaceous
 	4991. Siphonaptera
 	4992. Siphunculata
 	4993. siRNA
-	4994. sirtuin
+	4994. [[sirtuin]]
 	4995. sister species
 	4996. site-directed mutagenesis
 	4997. Site of Special Scientific Interest
@@ -5064,7 +5064,7 @@ Reviewed: false
 	5028. SNP
 	5029. snRNA
 	5030. snRNP
-	5031. social behaviour
+	5031. [[social behavior]]
 	5032. sodium
 	5033. sodium-potassium pump
 	5034. sodium chloride
@@ -5115,7 +5115,7 @@ Reviewed: false
 	5075. species richness
 	5076. specific leaf area
 	5077. spectral karyotyping
-	5078. spectrin
+	5078. [[spectrin]]
 	5079. spectroscopy
 	5080. spectrum
 	5081. Spemann's organizer
