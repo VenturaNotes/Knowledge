@@ -5,4 +5,4 @@
 - Although simple, Arden's rule is significant as one of the earliest fixed-point results on equation solving in computer science. In conjunction with the normal process of eliminating variables, it can be used to solve any set of simultaneous linear equations over sets of strings. See also Kleene's THEOREM (on regular expressions).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

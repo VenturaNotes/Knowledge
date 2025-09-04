@@ -5,4 +5,4 @@
 - To a good approximation, the inner code should be designed to correct any channel errors arising in the original channel, while the [[outer code]] should be designed to cope with decoder errors occurring in the inner decoder. Since these decoder errors tend to occur in bursts, the outer code is usually a burst-error-correcting code: the Reed-Solomon codes are often used for this purpose. The inner code is often a convolutional code.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

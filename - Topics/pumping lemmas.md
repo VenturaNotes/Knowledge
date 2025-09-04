@@ -12,4 +12,4 @@
 - The conditions are used in constructing algorithms for decision problems about regular and context-free grammars, and in proving certain languages are not regular or are not context-free.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

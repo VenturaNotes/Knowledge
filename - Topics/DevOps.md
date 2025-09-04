@@ -14,4 +14,4 @@
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://spdload.com/blog/software-development-glossary/
-[^3]: [[Home Page - Glossary by Capterra]]
+[^3]: [[(Home Page) Glossary by Capterra]]

@@ -6,5 +6,5 @@
 -  An accumulator is a type of register for short-term, intermediate storage of arithmetic and logic data in a computer's central processing unit (CPU).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://www.techtarget.com/whatis/definition/accumulator

@@ -12,4 +12,4 @@ aliases:
 	- The emv is $3 \times 0.2+0 + 0.3+(-1) \times 0.5 = 0.1$ as written in the circle. 
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

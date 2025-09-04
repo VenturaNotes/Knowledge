@@ -27,5 +27,5 @@ aliases:
 [^1]: https://youtu.be/NRckVJk9n0k?si=AiQU4wGU5BZR0qv-
 [^2]: https://www.gartner.com/en/information-technology/glossary/arpanet-advanced-research-projects-agency-network#:~:text=The%20Advanced%20Research%20Projects%20Agency,Research%20Projects%20Agency%20(ARPA).
 [^3]: https://www.techtarget.com/searchnetworking/definition/ARPANET
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^5]: [[Home Page - Glossary by Capterra]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[(Home Page) Glossary by Capterra]]

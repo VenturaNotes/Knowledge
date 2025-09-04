@@ -5,4 +5,4 @@
 - With software, use of the term normally implies that all major design decisions have been made so that the implementation activity could be relatively straightforward. For many systems a number of important characteristics may not become bound until the implementation activity; examples include the programming language in which the system is written, the type of computer employed, the actual hardware configuration, or the operating system used. With such systems there may be a number of distinct implementation activities in order to provide several versions of the system, e.g. written in different languages or operating on different hardware.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

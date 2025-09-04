@@ -8,4 +8,4 @@
 - The COCOMO models essentially estimate cost to deliver, which may be a small proportion of the total software life-cycle cost. Boehm also provides models to estimate maintenance effort.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

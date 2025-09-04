@@ -5,4 +5,4 @@
 - Refinement and transformation are two of the main ideas in the increasingly important study of the systematic derivation of correct programs from specifications.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

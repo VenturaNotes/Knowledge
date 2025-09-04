@@ -11,4 +11,4 @@ aliases:
 - The importance of RPN is that an expression in this form can be readily evaluated on a stack. Thus translation to RPN, followed by stack evaluation, is a simple but effective strategy for dealing with arithmetic expressions in a programming language. See also Polish Notation
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

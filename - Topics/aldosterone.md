@@ -8,6 +8,6 @@
 - $n$. a steroid hormone (see CORTICOSTEROID) that is synthesized and released by the adrenal cortex and acts on the kidney to regulate salt (potassium and sodium) and water balance.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

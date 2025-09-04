@@ -9,4 +9,4 @@ aliases:
 - A MAN may either be operated as a joint activity by a number of separate organizations, which may set up a jointly owned enterprise to operate the MAN, or it may be operated by a company that specializes in the operation of networks and acts as a managing agent on behalf of the organizations that require the MAN. The MAN interconnects the LANs of the organizations that operate the MAN, but may also provide immediate connection to the MAN for organizations that do not operate their own internal LAN.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -9,4 +9,4 @@
 - Other languages may have further operators such as exponentiation and further categories such as logic operators, whose position in the order would be defined. Operators of the same precedence are usually applied in order from left to right, but in some languages the order is undefined.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -54,5 +54,5 @@ the original problem is solved. As the calculation proceeds each solution can be
 - An arrangement between an investor and a stockbroker in which the broker reduces the commission for a series of purchases by that investor of the same stock over a stated period.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

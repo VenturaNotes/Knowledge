@@ -6,4 +6,4 @@
 - Businesses often purchase a custom TLD that reflects their company name to increase brand visibility and help customers avoid spoofing websites (pages that pose as a valid company website to steal customer information). Examples of a custom TLD include “.Microsoft” or “.Apple”.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

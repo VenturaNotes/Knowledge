@@ -10,4 +10,4 @@ aliases:
 
 ## References
 
-[^1]: [[Home Page - Algebra 1 - Groups, Rings, Fields and Arithmetic by Ramji Lal#^n4jyhw]]
+[^1]: [[(Home Page) Algebra 1 - Groups, Rings, Fields and Arithmetic by Ramji Lal#^n4jyhw]]

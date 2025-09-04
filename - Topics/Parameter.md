@@ -12,6 +12,6 @@
 - $n$. (in medicine) a measurement of some factor, such as blood pressure, pulse rate, or haemoglobin level, that may have a bearing on the condition being investigated.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

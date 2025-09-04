@@ -5,4 +5,4 @@
 - (2) A finite graph of $k$ points (the vertices), or a geometric figure, in which every vertex is connected to every other vertex (e.g. a triangle or tetrahedron).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

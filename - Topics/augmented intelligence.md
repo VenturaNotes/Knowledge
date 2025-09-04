@@ -8,4 +8,4 @@
 ## References
 
 [^1]: https://www.techtarget.com/searchenterpriseai/definition/augmented-intelligence
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

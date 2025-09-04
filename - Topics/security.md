@@ -16,6 +16,6 @@
 - A financial asset described by a contract that sets out the terms and conditions under which payments will be made. Securities include government debt, both long- and short-term, company shares, and company debt. Securities may be registered, where legal ownership depends on the entry in a register, usually run by a bank, and the paper is merely evidence of ownership; or may be in bearer form, where ownership is conferred by possession of the document. See also BEARER BOND; BLUE CHIP; COLLATERAL; FIXED-INTEREST SECURITY; GILT-EDGED SECURITY; IRREDEEMABLE SECURITY; LONG-DATED SECURITY; MARKETABLE SECURITY; REDEEMABLE SECURITY; SHORT-DATED SECURITY; UNDATED SECURITY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

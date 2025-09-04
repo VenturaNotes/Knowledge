@@ -7,5 +7,5 @@
 - $n$. (in pharmacy) a small disc containing one or more drugs, made by compressing a powdered form of the drug(s). It is usually taken by mouth but may be inserted into a body cavity (see SUPPOSITORY).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - Knowledge of some process or product belonging to a business, disclosure of which would harm the business's interests. In the UK, the courts will generally grant injunctions to prohibit any threatened disclosure of trade secrets by employees, former employees, and others to whom the secrets have been disclosed in confidence. See also INDUSTRIAL ESPIONAGE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) The fraction of radiation diffusely emitted from one surface that is received by another. Form factors are used in radiosity calculations and are strictly geometric quantities whose values depend only on the shape and relative location of the surfaces in the scene. Form factors are independent of view and hence do not have to be recomputed for a change of view.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

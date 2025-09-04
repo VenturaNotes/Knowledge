@@ -7,4 +7,4 @@
 - (4) To indicate an item in a menu, menu bar, button bar, etc., with the selection cursor before initiating an action.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

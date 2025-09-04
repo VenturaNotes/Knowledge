@@ -32,4 +32,4 @@ where $\operatorname{cond}(A)=\llbracket A \rrbracket\left\llbracket A^{-1} \rrb
 Similar ideas apply to other problem areas and condition numbers feature in a measure of eigenvalue sensitivity in the matrix eigenvalue problem.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

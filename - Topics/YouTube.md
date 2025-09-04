@@ -6,5 +6,5 @@
 - A website dedicated to sharing video files uploaded by its users. Established in 2005, by 2012 it was receiving more than four billion views per day. It is now a subsidiary of Google. See USER-GENERATED CONTENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

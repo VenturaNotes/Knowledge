@@ -9,4 +9,4 @@
 ## References
 
 [^1]: https://simple.wikipedia.org/wiki/Tuple#:~:text=Tuples%20are%20different%20from%20sets,in%20a%20tuple%20is%20important
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

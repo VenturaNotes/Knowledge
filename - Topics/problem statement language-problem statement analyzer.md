@@ -11,4 +11,4 @@ aliases:
 - PSL/PSA was developed by Daniel Teichroew on the ISDOS project at the University of Michigan. The system was implemented on a wide range of computers and was used extensively by many organizations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

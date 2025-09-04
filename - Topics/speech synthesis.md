@@ -7,5 +7,5 @@
 - Speech synthesis is the process of creating artificial human speech using a computerized device. These devices are referred to as speech synthesizers or speech computers. There are three phases of the speech synthesis process. During the normalization phase, a speech synthesizer reads a piece of text and uses statistical probability techniques to decide what the most appropriate way to read it aloud would be. The next stage of the process requires the speech synthesizer to use phonemes to generate the sounds necessary to read the piece of text aloud. Next, the speech synthesizer uses short recordings of human speech and sound generation techniques to mimic a human voice and read the piece of text aloud. Businesses in various industries use speech synthesis to create human-like voices for audiobook recordings, video game character voices, and virtual assistant voices.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

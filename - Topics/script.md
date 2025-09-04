@@ -9,6 +9,6 @@
 - A section of programming code used in web pages to add functionality. The script may run on the web server (server-side script). Commonly, scripts written in Javascript are included in the HTML (see HYPERTEXT) of the web page and are interpreted by the web browser when the page is opened (client-side script).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

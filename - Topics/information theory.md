@@ -7,5 +7,5 @@
 - The area of mathematics concerned with the transmission and processing of information, especially concerned with methods of coding, decoding, storage, and retrieval and evaluating likelihoods of degree of accuracy in the process. See entropy, Shannon's theorem. 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

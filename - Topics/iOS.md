@@ -5,4 +5,4 @@
 	- #comment Looks like the book didn't update this comment. It came out in 2016 which means the iOS should've been update #9 or #10 since iOS 8 came out in 2014
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

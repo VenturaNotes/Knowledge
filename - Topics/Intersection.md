@@ -24,4 +24,4 @@ aliases: Intersections
 [^1]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^ad1d83]]
 [^2]: https://www.cuemath.com/probability-a-intersection-b-formula/
 [^3]: https://www.nagwa.com/en/explainers/407167856270/
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

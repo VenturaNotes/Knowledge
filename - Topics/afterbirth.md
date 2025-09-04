@@ -6,5 +6,5 @@
 - $n$. the placenta, umbilical cord, and ruptured membranes associated with the fetus, which normally become detached from the uterus and expelled within a few hours of birth.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

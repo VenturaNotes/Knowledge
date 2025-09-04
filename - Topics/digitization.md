@@ -9,6 +9,6 @@
 - $n$. (in radiology) the conversion of an analogue image to a digital image. The image is broken down to pixels and numerical values assigned to each pixel for its position and to describe its shade on the grey scale. This allows storage, electronic manipulation, and transfer via computer links of any images, including radiographs or CT, MRI, or ultrasound scans.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

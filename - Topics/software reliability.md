@@ -5,4 +5,4 @@
 - A program that is 'correct' may be regarded as unreliable if, for example, the specification against which the program is shown to be correct does not capture all of the users' expectations of the program. Conversely, a program that is not completely correct may be regarded as reliable if the errors are insignificant, occur infrequently at noncritical times, or can simply be avoided by the users.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

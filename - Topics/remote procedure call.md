@@ -9,4 +9,4 @@ aliases:
 - These factors have given rise to a number of different proposals for the course of action to be followed in the event of one or other of the systems failing; essentially to have the procedure body executed either at least once (by retry) or at most once. These proposals tend to reflect the different priorities attached to the effect on the total system in the event of part of it failing.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Without impedance, the capacitors that control and regulate the electrical flow that power electronic devices or building electrical systems would not be able to function properly, resulting in fried electrical circuits.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

@@ -10,5 +10,5 @@ aliases:
 - SIEM typically refers to a software system that aids computer security. Instead of merely logging alerts, this technology generates in-depth reports and analysis to aid threat detection, compliance, incident management, and more. SIEM monitors all aspects of an organization’s IT structure, including apps and websites.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

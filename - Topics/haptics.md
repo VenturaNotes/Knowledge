@@ -6,5 +6,5 @@
 - Haptics technology provides feedback to users through the sense of touch, motion, or vibration. One widespread example of haptic technology is Apple's iPhone; when users move or delete an app on their device and press down on an icon with their finger, the screen vibrates slightly as a shortcut menu opens, indicating that the action has succeeded. Gaming controllers that rumble in response to player motions are another example of haptics in action.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

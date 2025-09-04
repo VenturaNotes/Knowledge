@@ -12,4 +12,4 @@ LIMIT 3;
 - Selects first 3 records of the Customers table for [[MySQL]]
 ## References
 
-[^1]: [[Home Page - SQL Tutorial by W3Schools#SQL Select Top]]
+[^1]: [[(Home Page) SQL Tutorial by W3Schools#SQL Select Top]]

@@ -6,4 +6,4 @@
 - (2) (trim) The array that is obtained from a larger array of dimension $n$ by restricting the range of an index. For example, if $A$ is a $3 \times 4$ two-dimensional array then the $2 \times 4$ two-dimensional array comprising the first two rows only of $A$ is a slice of $A$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

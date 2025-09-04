@@ -27,4 +27,4 @@ aliases:
 [^2]: https://youtu.be/HGYOEeik844?si=FSE1pdbZWTo-TL_b
 [^3]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-3-computer-networks-quizzes/ks4-ocr-j277-1-3-wired-and-wireless-networks-quiz/
 [^4]: Perplexity
-[^5]: [[Home Page - Glossary by Capterra]]
+[^5]: [[(Home Page) Glossary by Capterra]]

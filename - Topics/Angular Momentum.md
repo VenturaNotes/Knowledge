@@ -7,4 +7,4 @@
 - The rotational motion of a rigid body depends on the angular momentum of the rigid body. In particular, the rate of change of the angular momentum about a fixed point (or centre of mass) equals the sum of the moments of the forces acting on the rigid body about the fixed point (or center of mass).
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -26,4 +26,4 @@ for particular choices of $a, c$ and $m$.
 Pseudorandom numbers are used in a number of applications: in Monte Carlo methods of numerical integration, to sample a large set and so gain insight into the set, and to simulate natural phenomena such as the collision of nuclear particles.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

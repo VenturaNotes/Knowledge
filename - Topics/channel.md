@@ -13,4 +13,4 @@
 - (7) In a field-effect transistor (FET), the path in the semiconductor through which current flows.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

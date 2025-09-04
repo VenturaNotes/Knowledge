@@ -15,4 +15,4 @@ aliases:
 - A single root $\alpha$ may be found by an iteration such as Newton's method or the secant method. The polynomial $$p_{n-1}(x) = p_n(x)/(x-\alpha)$$has the same roots as $p_n$ except for $\alpha$; it may be used to determine the other roots. The process of calculating $p_{n-1}$ is known as [[deflation]], and is used after each root is found; thus the polynomials used are of progressively lower degree. Deflation depends on the roots being accurate. If an approximate root is used, the deflated polynomial will have inaccurate coefficients, and possibly very inaccurate roots. To minimize deterioration of the successive polynomials used, it is important to determine each root to the greatest possible precision, and where feasible, to determine the roots in increasing order of magnitude
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

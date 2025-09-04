@@ -9,4 +9,4 @@
 - Turing machines are a particular kind of automaton. Other kinds include the finite-state automaton, pushdown automaton, and linear-bounded automaton. Sequential machines are automata that produce an output string. According to the Church-Turing thesis, if a language is recognizable (in either of the above senses) by any kind of automaton, it is so recognizable by a Turing machine.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -24,4 +24,4 @@ The rows of any Hadamard matrix form an orthonormal basis, from which property f
 A Sylvester matrix has an equivalent matrix whose rows form a set of $m$-point Walsh functions or, in a different arrangement, Paley functions. Various linear Hadamard codes can be derived from a normalized Sylvester matrix in which +1 has been replaced by 0 , and -1 by 1 .
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

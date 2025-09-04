@@ -11,6 +11,6 @@
 - $n$. (in microscopy) the fixing of a specimen within a mass of firm material in order to facilitate the cutting of thin sections for microscopical study. The embedding medium, e.g. paraffin wax for light microscopy or Araldite for electron microscopy, helps to keep the specimen intact.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

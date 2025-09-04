@@ -26,4 +26,4 @@ aliases:
 [^1]: ChatGPT
 [^2]: https://spdload.com/blog/software-development-glossary/
 [^3]: https://www.techtarget.com/searchsoftwarequality/definition/application
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

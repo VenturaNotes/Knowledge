@@ -44,4 +44,4 @@ Bézier curves have a number of important properties. For example, the curve pas
 through the first and last control points and is completely contained within the polygon that forms the convex hull of the control points; the gradient at each of the end points is the same as the gradient of the line joining the end point to its immediate neighbour; the control points exert a pull on the direction of the curve which is clamped by the slope at the end points.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

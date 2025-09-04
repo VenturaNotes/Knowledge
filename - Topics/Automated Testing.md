@@ -10,4 +10,4 @@
 
 [^1]: ChatGPT
 [^2]: https://www.techtarget.com/searchsoftwarequality/definition/automated-software-testing
-[^3]: [[Home Page - Glossary by Capterra]]
+[^3]: [[(Home Page) Glossary by Capterra]]

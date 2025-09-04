@@ -5,4 +5,4 @@
 - An example of simple harmonic motion is the motion of a particle suspended from a fixed support by a spring (see Hooke's Law). Also, the motion of a simple pendulum performing oscillations of small amplitude is approximately simple harmonic motion. 
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

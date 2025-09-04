@@ -53,6 +53,6 @@ Most of the real numbers that we know and use come from solving equations (e.g. 
 The approximations to real numbers used in computers must have finite representations or codings. In particular, there are gaps and separations between adjacent pairs of the real numbers that are represented (see MODEL NUMBERS). The separation may be the same between all numbers (fixed-point) or may vary and depend on the size of the adjacent values (floating-point). Some programming languages ignore this difference, describing floating-point numbers as 'real'. Calculations with real numbers on a computer must take account of these approximations.
 ## References
 
-[^1]: [[Home Page - Building Blocks for Theoretical Computer Science by Margaret M. Fleck#^m6l8g4]]
+[^1]: [[(Home Page) Building Blocks for Theoretical Computer Science by Margaret M. Fleck#^m6l8g4]]
 [^2]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

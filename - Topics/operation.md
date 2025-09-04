@@ -13,5 +13,5 @@ aliases:
 - (3) (in a programming language) Whatever is carried out by an operator (def. 2), or, more generally, anything that can take place within a program: a declaration, an assignment statement, a selection, a loop, the call of a function, and so on.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

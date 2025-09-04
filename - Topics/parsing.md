@@ -5,4 +5,4 @@
 - The input to a parser is a string of tokens supplied by a lexical analyzer. Its output may be in the form of a parse tree or a derivation sequence. See also BOTTOM-UP PARSING, PRECEDENCE PARSING, TOP-DOWN PARSING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

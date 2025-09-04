@@ -20,4 +20,4 @@ Reviewed: false
 	- [[(9) Set Theory Example - Difference of Complements]]
 	- [[(10) The Problem with 4 Sets (and 2 ways to solve it)]]
 	- [[(11) 3-Set Venn & Carroll Diagrams]]
-	- [[Home Page - Exploring Mathematics - Set Theory by Eddie Woo]]
+	- [[(Home Page) Exploring Mathematics - Set Theory by Eddie Woo]]

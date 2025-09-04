@@ -5,4 +5,4 @@
 - This allows small financial firms to buy stock and receive purchase confirmation at an optimal rate, which is the key to winning trades before the stock market shifts. However, to use the OUCH protocol, stock market subscribers must obtain a OUCH protocol certificate or use an OUCH-certified application to purchase stock.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

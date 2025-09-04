@@ -5,4 +5,4 @@
 - (2) To repeat at regular intervals the display of digital information on a cathode-ray tube or television monitor in order that the display can appear persistent. See also REFRESH FREQUENCY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

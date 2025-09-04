@@ -8,4 +8,4 @@
 	- (4) Unknown self (something that a person doesn't know about themselves and others are also unaware of)
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

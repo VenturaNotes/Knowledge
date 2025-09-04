@@ -8,4 +8,4 @@
 	- For the curve $r=r(\theta)(\alpha \leq \theta \leq \beta)$, the arc length equals$$\int_{\alpha}^{\beta} \sqrt{r^{2}+\left(\frac{\mathrm{d} r}{\mathrm{~d} \theta}\right)^{2}} \mathrm{~d} \theta$$
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

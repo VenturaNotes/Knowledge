@@ -9,4 +9,4 @@
 ## References
 
 [^1]: https://economics.stackexchange.com/questions/40601/what-is-monotonicity-and-strict-monotonicity-in-preferences
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

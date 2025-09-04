@@ -9,5 +9,5 @@
 	- The PHP home page
 ## References
 
-[^1]:[[Home Page - SQL Tutorial by W3Schools]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]:[[(Home Page) SQL Tutorial by W3Schools]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -13,4 +13,4 @@ aliases:
 ## References
 
 [^1]: https://www.ibm.com/think/topics/optical-character-recognition#:~:text=Optical%20character%20recognition%20(OCR)%20is,images%20and%20image%2Donly%20PDFs.
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

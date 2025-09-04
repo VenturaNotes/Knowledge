@@ -5,4 +5,4 @@
 - Double-sided and multilayer PCBs are commonly produced. These consist of insulating sheets (normally known as PCB laminate) with a circuit on each side, with interconnections possible between the two layers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

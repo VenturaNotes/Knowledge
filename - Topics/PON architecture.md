@@ -16,4 +16,4 @@
 ## References
 
 [^1]: ChatGPT
-[^2]: [[Home Page - Computer Networking A Top-Down Approach 8th Edition by James F. Kurose and Keith W. Ross#1 2 The Network Edge]]
+[^2]: [[(Home Page) Computer Networking A Top-Down Approach 8th Edition by James F. Kurose and Keith W. Ross#1 2 The Network Edge]]

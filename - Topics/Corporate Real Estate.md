@@ -12,4 +12,4 @@ aliases:
 	- Multi-family rental properties
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

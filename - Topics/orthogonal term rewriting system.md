@@ -8,4 +8,4 @@
 		- (b) for any rule $t=t \vee E, t$ does not overlap with itself in the following sense-there exist closed substitutions $\tau, \rho$ of $t$ such that $\tau(t)$ is a proper subterm of $\rho(t)$ and the outermost function symbol of $\tau(t)$ occurs as a part of $t$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

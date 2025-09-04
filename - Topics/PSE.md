@@ -6,4 +6,4 @@
 - (2) (project support environment) A software system that provides support for the full life cycle of software development and also the project control and management aspects of a software-intensive project. The project support environment will have all the features of a programming support environment (see def. 1) plus software tools to support the earlier phases of software development (see CASE) and tools associated with the management and control of the project.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

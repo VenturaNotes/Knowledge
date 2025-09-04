@@ -6,5 +6,5 @@
 - A formula relating an initial change in spending to the total change in activity which will result. The multiplier was central to the argument for demand management in Keynesian economics. It is based on the argument that an increase in government spending becomes income for consumers. Some of this income is saved but some is spent. The cycle is then repeated, resulting in the initial increase in expenditure being multiplied. See also BALANCED BUDGET MULTIPLIER; MONEY MULTIPLIER.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -10,5 +10,5 @@ aliases:
 - (WAP) A standard that enables mobile phones to access text from websites.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

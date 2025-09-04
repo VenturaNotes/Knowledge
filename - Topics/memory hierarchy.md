@@ -12,4 +12,4 @@
 	- (6) Read-only library-Complete files, and collections of associated files relating to a single application, held on read-only devices such as DVD, or on a device with some form of write-protection control. Complete sets of files are read into the system from the read-only device, but for obvious reasons there are never any transfers from the system to the device.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

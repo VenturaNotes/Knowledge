@@ -8,4 +8,4 @@
 - Manufacturers of supercomputers have not, in general, employed microprogramming because they have been prepared to accept the higher complexity of hardwired control for the sake of ultimate performance. The simpler designs of current RISC processors have also opted for hardwired techniques to optimize instruction-execution rates of their simple instruction sets.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

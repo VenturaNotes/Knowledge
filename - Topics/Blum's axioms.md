@@ -36,4 +36,4 @@ $F_{i}(x) \leq y$ is a recursive predicate of $i, x$, and $y$,
 then $F_{i}(n)$ is a computational complexity measure and can be thought of as the amount of some 'resource' consumed by $M_{i}$ in computing $f_{i}(n)$. This notion represents a useful abstraction of the basic resources-time and space. Several remarkable theorems about computational complexity have been proved for any measure of resources satisfying the two axioms (see GAP THEOREM, SPEEDUP THEOREM).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

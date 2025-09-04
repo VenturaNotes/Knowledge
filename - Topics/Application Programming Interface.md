@@ -37,5 +37,5 @@ aliases:
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: ChatGPT
 [^3]: https://www.techtarget.com/searchapparchitecture/definition/application-program-interface-API
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^5]: [[Home Page - Glossary by Capterra]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[(Home Page) Glossary by Capterra]]

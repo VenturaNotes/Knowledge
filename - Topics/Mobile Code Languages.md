@@ -10,4 +10,4 @@ aliases:
 - Mobility in this sense is not to be confused with mobile computing, which is concerned with the computation carried in portable devices. Use of MCLs is not widespread and research on the topic is still ongoing.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

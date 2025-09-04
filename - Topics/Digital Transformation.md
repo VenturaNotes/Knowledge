@@ -11,4 +11,4 @@
 - Digital transformation can improve almost every aspect of a business, including marketing, field service, customer service, project management, and financial management.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

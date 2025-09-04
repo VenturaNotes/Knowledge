@@ -6,5 +6,5 @@
 - $n$. (in dentistry) a negative imprint (mould) of the teeth and surrounding soft tissues or of a toothless jaw. A soft impression material (e.g. silicone or alginate) is placed over the teeth or jaw and sets within several minutes, producing an elastic mould. Impressions may also be taken with hard-setting materials (e.g. plaster or zinc oxide-eugenol cement). From the impression, a positive reproduction (cast or model) can be made out of plaster or stone. On these are constructed restorations of teeth, dentures, or orthodontic appliances.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

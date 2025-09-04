@@ -7,4 +7,4 @@
 - See also Blu-RAY, HD DVD, OPTICAL DISK LIBRARY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -9,4 +9,4 @@ aliases:
 - These disks were originally described as CD-E (CD-erasable). In the earliest type it was possible to add data incrementally to the disk, but to re-use space it was necessary to erase (i.e. reformat) the whole disk. Drag-and-drop could be used only with special packet-writing applications. These problems were solved by the Mount Rainier specification. Designed to enable native operating-system support for CD-RW, it eliminated the need for third-party software and enabled CD-RW to function in (almost) the same way as a magnetic disk.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

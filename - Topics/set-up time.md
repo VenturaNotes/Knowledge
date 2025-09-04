@@ -7,5 +7,5 @@
 - (2) The time that elapses between the production of the last acceptable piece in one batch and the first acceptable piece in the next batch. This unproductive time is a cost that should be minimized. See SET-UP REDUCTION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

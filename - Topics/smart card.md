@@ -9,6 +9,6 @@
 - A plastic card that contains a microprocessor that stores and updates information, typically used in performing financial transactions. Unlike an ordinary debit card or cash card, a smart card memorizes all transactions in which the card is used. Other uses include storing a person's medical records.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

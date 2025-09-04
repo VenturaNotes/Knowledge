@@ -9,4 +9,4 @@ aliases:
 - 100.5
 ## References
 
-[^1]: [[Home Page - Chem U109 Chemistry of Living Things by Chad Mueller#^zd4osa]]
+[^1]: [[(Home Page) Chem U109 Chemistry of Living Things by Chad Mueller#^zd4osa]]

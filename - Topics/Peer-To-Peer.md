@@ -23,4 +23,4 @@ aliases:
 
 [^1]: Gemini
 [^2]: Google's Search Labs | AI Overview
-[^3]: [[Home Page - Glossary by Capterra]]
+[^3]: [[(Home Page) Glossary by Capterra]]

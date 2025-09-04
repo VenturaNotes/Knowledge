@@ -5,4 +5,4 @@
 - Dataflow machines are one of the major examples of non von Neumann architectures, and are of considerable research interest. They are usually programmed in a single-assignment language or a declarative language. Traditional imperative languages, which prescribe a particular flow of control, are poorly suited to dataflow machines.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

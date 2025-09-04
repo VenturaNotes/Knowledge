@@ -5,4 +5,4 @@
 - (2) A finite or infinite set of strings, considered in isolation from any possible meaning the strings or the symbols in them may have. If $A$ is any set, an A-language (or language over $\mathbf{A}$ ) is any set of $A$-words (see WORD). $A$ is referred to as the alphabet of such a language.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

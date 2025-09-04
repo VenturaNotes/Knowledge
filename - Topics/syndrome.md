@@ -6,5 +6,5 @@
 - $n$. a combination of signs and/or symptoms that forms a distinct clinical picture indicative of a particular disorder.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

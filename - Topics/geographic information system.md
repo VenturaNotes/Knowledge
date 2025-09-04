@@ -9,5 +9,5 @@
 - (GIS) A tool for interpreting data based on geodemographic segmentation. It consists of a demographic database, digitized maps, and computer software; lifestyle data may also be included in the analysis. The two main systems currently available in the UK are ACORN, which has 56 neighbourhood types classified into 17 groups, and Mosaic, which identifies 61 types of neighbourhood with a wide range of variables classified into 11 market groupings. Both systems now operate at the level of individual postcodes, thereby targeting potential customers more closely.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

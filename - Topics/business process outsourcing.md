@@ -14,4 +14,4 @@ aliases:
 	- Vertical-specific services that require specific industry knowledge. For example, outsourced social media management services for marketing companies.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

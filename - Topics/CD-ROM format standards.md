@@ -7,4 +7,4 @@
 - As the Red Book standard is common to all CD disks, most CD-ROM drives can play standard audio CD disks on which sound is recorded in the simple Red Book format and not interleaved with data or images.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -10,4 +10,4 @@
 \end{aligned}$$where $x$ and $y$ are arbitrary elements of $S$. The relation 'is equal to' defined on the integers is symmetric. See also ANTISYMMETRIC RELATION, ASYMMETRIC RELATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

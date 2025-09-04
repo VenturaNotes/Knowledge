@@ -6,5 +6,5 @@
 - A supplementary accessory, replacement part, or a premium version of a product or service sold to a customer. See also CROSSSELLING.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Logic programming languages are important because of their declarative nature, their potential power and flexibility, and their suitability for execution on highly parallel architectures.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

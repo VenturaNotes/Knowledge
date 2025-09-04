@@ -18,6 +18,6 @@ aliases:
 
 [^1]: ChatGPT
 [^2]: Google's Search Labs | AI Overview
-[^3]: [[Home Page - Glossary by ada computer science]]
+[^3]: [[(Home Page) Glossary by ada computer science]]
 [^4]: https://www.techtarget.com/searchsecurity/definition/authentication
-[^5]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

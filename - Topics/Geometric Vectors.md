@@ -7,4 +7,4 @@
 - orthogonality
 ## References
 
-[^1]: [[Home Page - Foundations of Data Science#^0t90io]]
+[^1]: [[(Home Page) Foundations of Data Science#^0t90io]]

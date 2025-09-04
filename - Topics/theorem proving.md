@@ -5,4 +5,4 @@
 - Such formal proofs are often long and tedious. Sophisticated programs known as theorem provers can be used to automate much of the process. See also MECHANICAL VERIFIER.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

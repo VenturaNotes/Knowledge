@@ -6,4 +6,4 @@
 	- Links to the thirteen Archimedean solids, which can be manipulated to see the shapes fully.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

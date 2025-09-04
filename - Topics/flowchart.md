@@ -5,4 +5,4 @@
 - Flowcharts have been used extensively for many years but are now rather unpopular. For one reason they tend to obscure the structure of programs that follow the tenets of structured coding (see STRUCTURED PROGRAMMING) and, more important, they ignore the topic of data structuring.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -10,5 +10,5 @@
 - Adrenaline given by injection is used in the emergency treatment of anaphylaxis and cardiac arrest. It is also included in some local anaesthetic solutions, particularly those used in dentistry, to prolong anaesthesia, and is used as eye drops for treating glaucoma.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

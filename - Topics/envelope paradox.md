@@ -7,4 +7,4 @@
 - Different stances can be taken on what is erroneous about this argument. It may be seen as an abuse of notation by letting $X$ denote different amounts in the two different scenarios or equivalently not recognizing the swapping is not independent of the dealing. See also BERTRAND'S PARADOX, MONTY HALL PROBLEM
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

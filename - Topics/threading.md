@@ -5,4 +5,4 @@
 - (2) A concurrent programming technique used where an operating system process permits concurrent threads of execution, i.e. sequences of actions that share the process context and can be scheduled by the operating system.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

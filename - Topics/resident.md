@@ -12,6 +12,6 @@
 - $n$. in the USA, a licensed physician or surgeon in postgraduate training in a particular specialty, who is responsible for the care of a number of hospital patients with the assistance of interns, whom he or she instructs. A resident may work with one or more senior surgeons or physicians.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

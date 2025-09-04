@@ -28,4 +28,4 @@ $$
 One significance of this form is that it makes clear the existence of an equivalent pushdown automaton: on reading $b$ the PDA can pop $A$ from the stack and push $C_{1} \ldots C_{n}$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

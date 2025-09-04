@@ -5,4 +5,4 @@
 - The notion of a utility function develops this type of problem further by recognizing that the same amount of money may be valued differently by people in different financial circumstances.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -19,4 +19,4 @@ aliases:
 ## References
 
 [^1]: https://en.wikipedia.org/wiki/Ring_network#:~:text=A%20ring%20network%20is%20a,the%20way%20handling%20every%20packet.
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

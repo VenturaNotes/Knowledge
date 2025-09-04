@@ -9,4 +9,4 @@
 - Early work (1975-6) led to analyzers (DAVE, AUDIT, FACES) for single languages such as Fortran. Later work led to analyzers for C (e.g. LINT, 1978). There are now analysis tools (e.g. MALPAS, SPADE) that are multilanguage and have facilities for comparing specification and code.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

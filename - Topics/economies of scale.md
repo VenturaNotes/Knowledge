@@ -9,6 +9,6 @@
 - (scale effect) Reductions in the average cost of production, and hence in the unit costs, when output is increased. If the average costs of production rise with output, this is known as diseconomies of scale. Economies of scale can enable a producer to offer his product at more competitive prices and thus to capture a larger share of the market. Internal economies of scale occur when better use is made of the factors of production and by using the increased output to pay for a higher proportion of the costs of marketing, financing, and development, etc. Internal diseconomies can occur when a plant exceeds its optimum size, requiring a disproportionate unwieldy administrative staff. External economies and diseconomies arise from the effects of a firm's expansion on market conditions and on technological advance.
 ## References
 
-[^1]: [[Home Page - Principles of Economics 3e by OpenStax#Why the Division of Labor Increases Production]]
+[^1]: [[(Home Page) Principles of Economics 3e by OpenStax#Why the Division of Labor Increases Production]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

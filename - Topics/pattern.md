@@ -7,4 +7,4 @@
 - These ideas are often applied in combinatorics and switching theory. For example, a pattern inventory can indicate the number of essentially different wiring diagrams or logic circuits needed to realize the different possible logic functions.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

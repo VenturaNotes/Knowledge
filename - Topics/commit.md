@@ -5,4 +5,4 @@
 - (2) The process or command by which a software developer asks the source code control system to take note of the changes they have just made.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

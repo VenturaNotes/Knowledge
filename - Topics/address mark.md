@@ -5,4 +5,4 @@
 - The data mark fulfills the same function with respect to data as the address mark to the address.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

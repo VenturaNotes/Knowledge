@@ -61,5 +61,5 @@ So far no-one has produced a large working quantum computer, although a consider
 - Quantum computing is a type of computing where information is processed using quantum-mechanical phenomena, such as superposition. Quantum computers are much faster and more powerful than traditional ones because they can perform several calculations simultaneously. This makes them well-suited for tasks that require a high amount of computational power, such as data encryption and quantum simulation. Quantum computing is still in its early stages, but it has the potential to revolutionize the way people process information.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

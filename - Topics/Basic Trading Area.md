@@ -15,4 +15,4 @@ aliases:
 - Each metropolitan trading area (MTA) comprises several BTAs. For example, Minneapolis—St. Paul. As of 2021, there are 487 BTAs in the U.S., according to the FCC.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

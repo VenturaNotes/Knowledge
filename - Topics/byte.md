@@ -16,7 +16,7 @@
 ## References
 
 [^1]: https://makecode.microbit.org/courses/csintro/binary/overview
-[^2]: [[Home Page - Glossary by ada computer science]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^4]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by ada computer science]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^5]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -20,4 +20,4 @@ for each $1 \leq i \leq n$,
 $w_{i+1}$ is obtained from $w_{i}$ by rewriting the leftmost (or rightmost) nonterminal in $w_{i}$. Such sequences exist for all derivable words.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

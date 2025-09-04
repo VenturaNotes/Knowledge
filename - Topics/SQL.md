@@ -128,9 +128,9 @@ and data.occupation = 'doctor'
 - SQL is a programming language used by developers to manage data in relational database management systems. It is a simple query language and is often easier to learn than other programming languages such as Java. Roles that often require SQL skills include data scientists, database mitigation engineers, and database administrators.
 ## References
 
-[^1]: [[Home Page - SQL Tutorial by W3Schools]]
+[^1]: [[(Home Page) SQL Tutorial by W3Schools]]
 [^2]: https://builtin.com/data-science/sql-order-of-execution
 [^3]: https://spdload.com/blog/software-development-glossary/
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^5]: [[Home Page - System Design Daily by David Zhang]]
-[^6]: [[Home Page - Glossary by Capterra]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[(Home Page) System Design Daily by David Zhang]]
+[^6]: [[(Home Page) Glossary by Capterra]]

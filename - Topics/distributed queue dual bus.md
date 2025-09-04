@@ -10,4 +10,4 @@ aliases:
 - As each cell passes through each node, the node has the opportunity to convert a single bit within the cell to a request for access to the bus. Each node also maintains counters of requests for access to the bus, and of free cells, and the nodes are thus able to cooperate to implement what is in effect a first come first served queue for access to the two buses.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

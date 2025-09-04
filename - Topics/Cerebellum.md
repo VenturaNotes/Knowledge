@@ -24,6 +24,6 @@
 - The cerebellum is essential for the maintenance of muscle tone, balance, and the synchronization of activity in groups of muscles under voluntary control, converting muscular contractions into smooth coordinated movement. It does not, however, initiate movement and plays no part in the perception of conscious sensations or in intelligence. $\textemdash$cerebellar adj.
 ## References
 
-[^1]: [[Home Page - Neuroscience - Exploring the Brain by Mark F. Bear et al.#^zp122j]]
+[^1]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^zp122j]]
 [^2]: ChatGPT and Gemini
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

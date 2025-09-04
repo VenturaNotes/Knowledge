@@ -26,4 +26,4 @@ $$
 The concept of exponentiation can be extended to include exponents that are negative, fractional, or variable or are complex numbers. Exponentiation is an operation that is supplied in some form in most common programming languages (the significant exception being Pascal). It is also a fundamental part of the floating-point notation for real numbers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

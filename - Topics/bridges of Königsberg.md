@@ -14,4 +14,4 @@ aliases:
 	- An interactive page in which you can construct your own problem like the bridges of Königsberg.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

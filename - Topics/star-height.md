@@ -5,4 +5,4 @@
 - If complement and intersection are allowed, the class of generalized regular expressions is obtained. For these it is not known if there are languages of star-height greater than one.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

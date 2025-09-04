@@ -13,6 +13,6 @@
 - $n$. in public health, a process in which best practice is identified and continuous improvement is generated through the sharing of evidence and the comparison of practice. See also PRACTICE DEVELOPMENT.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

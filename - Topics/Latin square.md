@@ -5,4 +5,4 @@
 - ![[Screenshot 2025-03-05 at 12.28.52 AM.png]]
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -14,5 +14,5 @@ aliases:
 - Asymmetric encryption is also known as public key encryption
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://www.cloudflare.com/learning/ssl/what-is-asymmetric-encryption/#:~:text=Asymmetric%20encryption%2C%20also%20known%20as,are%20used%20instead%20of%20one.

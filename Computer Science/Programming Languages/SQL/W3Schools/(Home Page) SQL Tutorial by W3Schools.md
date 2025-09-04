@@ -380,7 +380,7 @@ WHERE City = 'Berlin' OR CustomerName LIKE 'G%' OR Country = 'Norway';
 ```
 - At least one condition must be true
 	- City is Berlin, CustomerName starts with G, or Country is Norway
-- Can combine "AND" and OR (found [[Home Page - SQL Tutorial by W3Schools#^sy1rb1|here]] )
+- Can combine "AND" and OR (found [[(Home Page) SQL Tutorial by W3Schools#^sy1rb1|here]] )
 
 #### Exercises
 ![[Screenshot 2025-02-09 at 2.45.40 PM.png]]

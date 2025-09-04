@@ -6,4 +6,4 @@
 - Such plotters are now rarely used. Standard laser and inkjet printers can produce the same results more quickly, cheaply, and flexibly. Modern dedicated plotters generally use inkjet technology and are distinguished by their ability to handle large paper sizes and to accept input in special-purpose plotting languages.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

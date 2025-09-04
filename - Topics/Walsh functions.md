@@ -38,4 +38,4 @@ Note that the Walsh functions (usually denoted wal) consist alternatively of eve
 A set of Walsh functions corresponds, with some permutation of columns, to a ReedMuller code and, with a column deleted, to a simplex code. See also HadAMARD MATRICES.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

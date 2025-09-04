@@ -5,4 +5,4 @@
 - (2) A finite or infinite sequence of elements of a nonempty set $A$ indexed by time. If $T$ is a set of time instants, or clock cycles, then the stream can be represented by a function$$a: T \rightarrow A$$where $a(t)$ is the element in the stream at time $t$ in $T$. Usually, in modelling computing systems, the elements of $A$ are data or instructions, and time is assumed to be discrete, in which case $T=\{0,1,2, \ldots\}$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -13,4 +13,4 @@
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://www.techtarget.com/searchnetworking/definition/propagation-delay#:~:text=Propagation%20delay%20is%20the%20amount,to%20travel%20through%20a%20medium.
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

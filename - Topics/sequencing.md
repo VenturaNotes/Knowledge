@@ -7,5 +7,5 @@
 - (priority sequencing) Establishing an exact order for jobs, taking into account job interference and queuing times. Priority sequencing specifies the order in which waiting jobs are to be processed. It requires the adoption of a rule to decide the basis upon which priorities are to be allocated. See DISPATCHING RULES.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

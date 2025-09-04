@@ -4,4 +4,4 @@
 - $n$. Keenness or sharpness, especially of sensation. See also absolute ACUITY, ABSOLUTE THRESHOLD, ACUITY GRATING, AUDIOGRAM, DIFFERENCE THRESHOLD, DIFFERENTIAL ACUITY, DYNAMIC VISUAL ACUITY, KÖNIG BARS, LANDOLT CIRCLE, MINIMUM AUDIBLE ANGLE, MINIMUM AUDIBLE FIELD, MINIMUM SEPARABLE, MINIMUM VISIBLE, RECEIVER OPERATING CHARACTERISTIC, SIGNAL DETECTION THEORY, SNELLEN FRACTION, STEREOSCOPIC ACUITY, TWO-POINT THRESHOLD, VERNIER ACUITY, VISUAL ACUITY. \[From Latin acutus sharp, from acus a needle]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

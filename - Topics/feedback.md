@@ -8,6 +8,6 @@
 - $n$. (in physiology) the coupling of the output of a process to the input. Feedback mechanisms are important in regulating many physiological processes; for example, the production of hormones and neurotransmitters. In negative feedback, a rise in the output of a substance will inhibit a further increase in its production, either directly or indirectly (see NEGATIVE FEEDBACK LOOP). In positive feedback, a rise in the output of a substance is associated with an increase in the output of another substance, either directly or indirectly.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

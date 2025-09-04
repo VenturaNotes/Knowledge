@@ -5,4 +5,4 @@
 - A persistent programming language has constructs that define the lifetimes of data objects (as well as their types), without prescribing how they are stored. Programs that are written in such a language reference and use data in the same way whether or not it is persistent. (In contrast, programming using a database or filing system requires explicit operations that read the persistent data from backing store into main memory, and subsequently write it out if it has been modified.)
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

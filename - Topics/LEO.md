@@ -5,4 +5,4 @@
 - In 1954, Leo Computers Limited was founded. The company traded until 1963, when it was merged with the computing division of English Electric. During that time it marketed the LEO III, an extremely advanced commercial machine for its time. See also ICL.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

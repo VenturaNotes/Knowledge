@@ -5,4 +5,4 @@
 - Greek astronomer, noted for being the first to affirm that the Earth rotates and travels around the Sun. He treated astronomy mathematically and used geometrical methods to calculate the relative sizes of the Sun and Moon and their relative distances from the Earth
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

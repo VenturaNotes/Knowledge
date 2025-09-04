@@ -6,4 +6,4 @@
 - A violation of the memory protection system usually leads via an interrupt to a forced process termination.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

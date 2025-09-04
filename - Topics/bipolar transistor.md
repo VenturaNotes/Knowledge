@@ -6,4 +6,4 @@
 - If the base current is increased but the collector current is restrained, so that the transistor effectively receives more base current than it would seem to require, the transistor is driven into a state of saturation, also known as bottoming. It then behaves as a very efficient switch since the base-collector junction becomes reverse biased and, in saturation, the collector-emitter voltage can fall as low as 20 millivolts. The device thus seems virtually a short circuit. Bipolar transistor switches, working into saturation, are the basis of TTL circuits. Saturated transistors do however have a fairly low switching speed. The much higher switching speeds of Schottky TTL and ECL circuits are achieved by using a nonsaturated mode of operation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

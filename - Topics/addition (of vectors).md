@@ -13,4 +13,4 @@
 - Addition of coordinate vectors in n-dimensional space is done componentwise. So if $a = (a_1, a_2, ...,a_n)$ and $b = (b_1, b_2, ...,b_n),$ then $a+b = (a_1 + b_1, a_2 + b_2, ..., a_n + b_n).$ 
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

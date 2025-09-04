@@ -9,4 +9,4 @@ aliases:
 - The most common type of spool businesses use is a print spool. Since a printer often needs time to warm up before printing a document, the print spool is used to hold the document during the warm-up period. Once the printer is ready to print the document, the print spool transmits the document's data to the computer to proceed with the printing process.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

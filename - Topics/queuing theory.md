@@ -7,5 +7,5 @@
 - An approach to simulating the way that work arrives in a system (e.g. the rate at which components queue to be processed by a machine) or customers require service, enabling the most effective process for handling these inputs to be designed and evaluated.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - When no operator intervention is required the mode of operation can be described as hands off.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

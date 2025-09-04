@@ -25,4 +25,4 @@ aliases:
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://en.wikipedia.org/wiki/Star_network
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

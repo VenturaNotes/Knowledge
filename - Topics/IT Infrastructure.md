@@ -6,4 +6,4 @@
 - Without resources such as networks and servers, a business can't achieve its operational goals. Traditional IT infrastructure lets organizations manage hardware, software, and network resources on-premise. Modern infrastructure allows for the management of these components in a virtualized environment. Many vendors offer cloud-based infrastructure solutions such as Infrastructure-as-a-Service (IaaS).
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

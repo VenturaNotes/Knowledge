@@ -6,5 +6,5 @@
 - Trademark A graphical user interface developed by Microsoft for microprocessors. It is the most widely used operating system on personal computers. There have been a number of versions, including versions for mobile devices. It was originally based on MS-DOS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

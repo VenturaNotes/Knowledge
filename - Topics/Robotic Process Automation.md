@@ -15,4 +15,4 @@ aliases:
 - RPA uses automation, machine learning, and computer vision to complete rules-based tasks. A bot mimics the behavior of the human that programs it and then completes the same tasks manually.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

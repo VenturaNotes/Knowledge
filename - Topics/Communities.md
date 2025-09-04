@@ -16,4 +16,4 @@ aliases:
 
 ## References
 
-[^1]: [[Home Page - Campbell Biology by Urry, Cain, et al.#^bb55l5]]
+[^1]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^bb55l5]]

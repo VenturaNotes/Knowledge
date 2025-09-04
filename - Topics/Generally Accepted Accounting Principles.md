@@ -10,5 +10,5 @@ aliases:
 - (GAAP) In the USA, the rules, accounting standards, and accounting concepts followed by accountants in measuring, recording, and reporting transactions. There is a requirement to state whether financial statements conform with GAAP.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - The series of linked stages in a supply network along which a particular set of goods or services flows; it usually consists of: suppliers, vendors of the suppliers, producers, distribution partners, and customers. See SUPPLY-CHAIN MANAGEMENT.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

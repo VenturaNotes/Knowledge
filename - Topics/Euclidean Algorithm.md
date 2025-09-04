@@ -5,4 +5,4 @@
 - The algorithm also enables $s$ and $t$ to be found such that the gcd can be expressed as $sa + tb$ (see Bézout's lemma). We use the previous equations in turn to express each remainder in this form. Thus, $$\begin{align} 403 &=1274 - 1 \times 871 = a-b, \\ 65 &= 871-2\times 403 = b - 2(a-b) = 3b - 2a, \\13 &= 403 - 6 \times 65 = (a-b) -6(3b-2a) = 13a - 19b.  \end {align}$$
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

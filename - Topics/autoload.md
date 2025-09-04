@@ -6,4 +6,4 @@
 - (3) A facility in a magnetic tape subsystem whereby a single unqualified command from the host causes a quantity of data from the tape mounted on a transport, selected according to predetermined rules, to be read and transferred to the host. The function is provided to assist in initial program loading. The corresponding process in which data is written to tape is known as [[autodump]].
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

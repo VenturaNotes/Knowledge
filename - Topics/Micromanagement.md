@@ -9,5 +9,5 @@
 - A management style characterized by excessive attention to small details and constant interference in the work of subordinates. Apart from being inefficient, micromanagement can have a severely demotivating effect on workers, who may feel that their abilities and experience are not respected.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

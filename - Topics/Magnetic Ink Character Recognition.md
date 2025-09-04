@@ -15,4 +15,4 @@ aliases:
 ## References
 
 [^1]: https://en.wikipedia.org/wiki/Magnetic_ink_character_recognition
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

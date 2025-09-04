@@ -4,4 +4,4 @@
 - A device that can both transmit and receive signals on a communication medium. Many communication devices, including modems, codecs, and terminals, are transceivers
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -8,6 +8,6 @@
 - $n$. a nucleoside that contains adenine and the sugar ribose and occurs in ATP. It is also used as an anti-arrhythmic drug to stop supraventricular tachycardias and restore a normal heart rhythm. As such, it needs to be injected or infused quickly, which may fleetingly make the patient feel faint and develop chest pain.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -9,5 +9,5 @@
 ## References
 
 [^1]: https://youtu.be/HGYOEeik844?si=7KJaPkDktjARENM4
-[^2]: [[Home Page - Glossary by ada computer science]]
-[^3]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by ada computer science]]
+[^3]: [[(Home Page) Glossary by Capterra]]

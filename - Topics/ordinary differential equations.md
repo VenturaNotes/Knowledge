@@ -8,4 +8,4 @@
 - An area of particular interest in many applications is the solution of [[stiff equations]]. A stiff system possesses solutions that decay very rapidly over an interval that is short relative to the range of integration, and the solution required varies slowly over most of the range. To allow large steps in the slowly varying phases, it is necessary to use special methods, such as the implicit [[trapezoidal rule]]:$$\begin{aligned}& x_{n+1}=x_{n}+h \\& y_{n+1}=y_{n}+1 / 2 h\left(f\left(x_{n+1}, y_{n+1}\right)+\right. \\& \left.f\left(x_{n}, y_{n}\right)\right)\end{aligned}$$At each step a system of equations has to be solved for $y_{n+1}$, using very often a modification of Newton's method. More straightforward explicit methods rapidly lead to catastrophic error growth unless the stepsize $h$ is prohibitively small. These problems have been the subject of very active research interest.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

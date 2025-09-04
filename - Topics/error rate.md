@@ -12,4 +12,4 @@
 - An undetected error is an error that is not detected by the storage subsystem, presumably because of some inadequacy in the error check facilities defined by the format or in their implementation, or because of errors occurring outside the ambit of these facilities (see DATA INTEGRITY).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -36,5 +36,5 @@
 [^3]: Google's Search Labs | AI Overview
 [^4]: https://quizizz.com/admin/quiz/5acb5f51c4daf70019c267e3/abstractions-quiz
 [^5]: https://spdload.com/blog/software-development-glossary/
-[^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^7]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

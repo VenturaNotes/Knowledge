@@ -6,4 +6,4 @@
 - When the error is detected during writing or verification, the faulty data unit may be corrected or replaced (see WRITE ERROR RECOVERY); in a device with powerful error correction, such as an optical disk drive, this is not always necessary.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

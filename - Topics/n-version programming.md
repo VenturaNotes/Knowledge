@@ -5,4 +5,4 @@
 - The use of n -version programming inevitably leads to an increase in the development costs of a software system, but this is compensated by an increase in confidence in the quality of the software and often leads to a lower cost in validation, verification, and testing.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

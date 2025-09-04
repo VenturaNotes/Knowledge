@@ -8,5 +8,5 @@
 - A statistical procedure that simultaneously analyses multiple measurements on each individual or object under study in a marketing-research enquiry. Examples of the procedures used include multiple regression, factor analysis, cluster analysis (see CLUSTER THEORY), and conjoint analysis.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - The mouse has one or more buttons to indicate to the computer the desired function. It is normally connected by cable to the computer or may communicate by means of radio, infrared, or optical signals. Some mice incorporate a finger-operated roller to control scrolling.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

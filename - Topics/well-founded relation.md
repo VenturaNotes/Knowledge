@@ -20,4 +20,4 @@ such that there does not exist any infinite sequence $x_{1}, x_{2}, x_{3}, \ldot
 In the application to terminate proofs it is shown that, whenever a certain point in the program is visited during execution, the current value of some quantity lies within $S$ and also that, if $x$ is the value of that quantity at one such visit, and $x^{\prime}$ its value at a later visit, the pair $\left\langle x, x^{\prime}\right\rangle$ belongs to $R$. It then follows that that point in the program cannot be visited infinitely often. By considering enough such points it can be concluded that any execution must have finite length.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

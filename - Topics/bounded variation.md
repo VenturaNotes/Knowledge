@@ -5,4 +5,4 @@
 - Differentiable functions with bounded derivatives have bounded variation. $x \cos (1 / x)$ is an example of a function which does not have bounded variation.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

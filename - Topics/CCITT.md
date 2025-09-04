@@ -6,4 +6,4 @@
 - In 1992, there was a reorganization of the ITU, which led to the CCITT being renamed as the ITU-T (International Telecommunications Union-Telecommunication Standardization Sector; see ITU).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

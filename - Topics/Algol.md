@@ -6,4 +6,4 @@
 - In the years following the publication of the Algol 60 Report, a working group of the International Federation for Information Processing was set up to consider the definition of a successor to Algol 60. There were many dissensions within the group, and eventually a minority report was issued proposing the language Algol 68. Although Algol 68 introduced many novel concepts of great theoretical interest and significance, its specification was very difficult to understand and its practical application was almost nil. One of the most significant effects of the split in the Algol 68 working group is that it led indirectly to the development of Pascal.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - When the serial input is some function of the current state, the behavior of the shift register is described by a Good-de Bruijn graph with some arcs deleted: such subgraphs are used in the study of feedback registers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

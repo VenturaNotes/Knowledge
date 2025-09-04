@@ -13,5 +13,5 @@
 - In the cybersecurity industry, a security token is a physical or digital device used as a form of user identification to provide access to a computer system or application that uses two-factor authentication. Sometimes security tokens take the form of radio frequency identification (RFID) smart cards that are used to access company buildings.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

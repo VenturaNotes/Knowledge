@@ -7,5 +7,5 @@
 - Any form of marketing research in which data is gathered systematically from a sample of people by means of a questionnaire. Surveys are usually conducted by means of face-to-face interviews, telephone interviews, or mailed questionnaires.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

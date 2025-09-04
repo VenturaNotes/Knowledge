@@ -5,4 +5,4 @@
 - The set of relative frequencies for all the events that are possible is called a frequency distribution. It may be displayed graphically as a histogram.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

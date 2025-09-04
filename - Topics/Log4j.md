@@ -6,4 +6,4 @@
 - Most software vendors whose products use Log4j have not fixed this system vulnerability, leaving users susceptible to cyberattackers.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

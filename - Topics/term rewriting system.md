@@ -24,4 +24,4 @@ The first set of properties of a term rewriting system $(\Sigma, E)$ is now obta
 See also ORTHOGONAL TERM REWRITING SYSTEM.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

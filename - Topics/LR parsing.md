@@ -9,4 +9,4 @@
 - Many different parsing tables may be constructed for one grammar, each differing in the number of states it defines. The so-called canonical LR table tends to be too long for practical purposes and it is commonly replaced by an SLR (simple LR) or LALR (lookahead LR) table. A grammar that is LR(1) may not however be SLR(1) or LALR(1).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

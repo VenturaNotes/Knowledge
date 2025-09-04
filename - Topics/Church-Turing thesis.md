@@ -6,4 +6,4 @@
 - The Church$\textendash$Turing thesis leads to a mathematical theory of digital computation that classifies what data can be represented, what processes simulated, and what functions computed (see COMPUTABLE ALGEBRA). It provides a scientific foundation for a discussion of the scope and limits of computable processes in the physical and biological sciences, and hence attracts the attention of philosophers, scientists, and engineers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

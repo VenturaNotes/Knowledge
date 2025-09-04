@@ -15,6 +15,6 @@ aliases:
 - Arithmetic unit (AU) is short for arithmetic and logic unit.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
 [^2]: https://www.techtarget.com/whatis/definition/arithmetic-logic-unit-ALU
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -10,4 +10,4 @@
 	- Become part of a vendor management organization that serves their business
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

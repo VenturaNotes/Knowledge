@@ -7,5 +7,5 @@
 - For a given $n \times n$ matrix of numbers, $A$, if there is an $n \times n$ matrix $B$ for which$$A B=B A=I$$where $I$ denotes the identity matrix, then $B$ is the inverse matrix of $A$ and $A$ is said to be invertible with $B$. If it exists, $B$ is unique and is denoted by $A^{-1}$.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - $n$. short for 'picture element', the smallest individual component of an electronically produced image. Numerical values are ascribed to each pixel, which describe its position and relative intensity and/or color. A two-dimensional matrix of pixels produces the final image.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

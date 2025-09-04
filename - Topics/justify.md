@@ -5,4 +5,4 @@
 - (2) To move the bit pattern stored in a register so that either the least or most significant bit is at the appropriate end of the register.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

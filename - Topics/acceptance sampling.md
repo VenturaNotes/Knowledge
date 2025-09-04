@@ -7,5 +7,5 @@
 - (lot acceptance sampling) A statistical process-control technique that uses inspection of a sample from a batch to decide whether to accept or reject the whole batch. In deciding the level of sampling, a balance has to be struck between achieving the desired quality levels and the cost of undertaking the sampling.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

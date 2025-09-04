@@ -9,6 +9,6 @@
 - the change in voltage that occurs across the membrane of a nerve or muscle cell when a nerve impulse is triggered. It is due to the passage of charged particles across the membrane (see DEPOLARIZATION) and is an observable manifestation of the passage of an impulse.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

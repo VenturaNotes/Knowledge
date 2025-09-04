@@ -6,5 +6,5 @@
 - $n$. a small particle consisting of a piece of endoplasmic reticulum to which ribosomes are attached. Microsomes are formed when homogenized cells are centrifuged. —microsomal adj.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

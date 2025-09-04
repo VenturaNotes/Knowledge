@@ -5,4 +5,4 @@
 - Developed at Bell Telephone Laboratories in the 1970s, it failed commercially and is now obsolete.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -28,4 +28,4 @@ Variations exist in the definition of a graph. There is some dispute about wheth
 See also CONNECTED GRAPH, NETWORK, WEIGHTED GRAPH. 2. (of a function $f$ ) The set of all ordered pairs $(x, y)$ with the property that $y=f(x)$. Often such a graph is represented by a curve.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

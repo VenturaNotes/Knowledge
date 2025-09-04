@@ -22,4 +22,4 @@ exbi- $2^{60}$
 These names are contractions of 'kilobinary', 'megabinary', etc., but are pronounced so that the second syllable rhymes with 'bee'. Using these prefixes, one gebibyte would be 1 073741824 bytes and one gigabyte would (unambiguously) be 1000000000 bytes. At the present time (2008) these prefixes are not widely used. The IEEE has suggested that the normal SI prefixes (kilo-, mega-, etc.) should be used with their standard meanings unless an explicit explanation of the meaning is given.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

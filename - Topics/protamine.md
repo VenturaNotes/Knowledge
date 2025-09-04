@@ -6,5 +6,5 @@
 - $n$. one of a group of simple proteins that can be conjugated with nucleic acids to form nucleoproteins. Protamine sulphate is injected as an antidote to heparin overdosage in oral anticoagulant therapy.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

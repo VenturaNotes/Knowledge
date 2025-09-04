@@ -5,4 +5,4 @@
 - (2) The act of committing an organization to use specific standards to meet particular needs whenever they arise within the organization. Typically an organization might standardize upon use of a specific compiler for some language, some specific application package, or a particular database management system.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

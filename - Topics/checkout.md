@@ -5,4 +5,4 @@
 - (2) The action of taking a configuration item from a repository prior to making changes to it. The act of removal usually locks the item so that nobody else may check it out until it has been formally returned.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

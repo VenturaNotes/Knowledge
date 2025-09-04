@@ -156,7 +156,7 @@ Reviewed: false
 		- “the implementation of a USet as a ChainedHashTable in Chapter 5 has a find(x) operation that runs in constant expected time” ([Morin, p. 9](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=21&annotation=ZGQATKJ6))
 		- “one should always use a USet unless the extra functionality offered by an SSet is truly needed.” ([Morin, p. 9](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=21&annotation=SF3ZFFDD))
 ### (1.3) Mathematical Background
-- “Readers who feel they are missing this background are encouraged to read, and do exercises from, the appropriate sections of the very good (and free) [[Home Page - Mathematics for Computer Science by Lehman et al|textbook on mathematics for computer science]] $[50]$.” ([Morin, p. 10](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=22&annotation=7IB5E6V5))
+- “Readers who feel they are missing this background are encouraged to read, and do exercises from, the appropriate sections of the very good (and free) [[(Home Page) Mathematics for Computer Science by Lehman et al|textbook on mathematics for computer science]] $[50]$.” ([Morin, p. 10](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=22&annotation=7IB5E6V5))
 #### (1.3.1) Exponentials and Logarithms
 
 - $b^x =\underbrace {b \times b \times b ... \times b}_\text{x}$

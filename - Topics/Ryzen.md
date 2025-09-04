@@ -9,4 +9,4 @@ aliases:
 - AMD’s Ryzen architecture brought a wide range of new processors to the market, including Ryzen 3 - 9 and Threadripper. Each processor is named by its model number. The higher the model number, the more powerful its CPU. AMD Ryzen is commonly used to power business workstations that are heavily used, given its memory encryption capabilities and powerful CPU performance.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

@@ -6,4 +6,4 @@
 - ICON: A programming language developed as a successor to SNOBOL. ICON is a general-purpose programming language in the style of Pascal, but includes many features for processing strings of characters and other non-numerical data. ICON's main use is in research in humanities computing, and in teaching computing to students of the humanities.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -8,5 +8,5 @@
 - (2) a surgical operation in which a new opening is formed in the bony labyrinth of the inner ear as part of the treatment of deafness due to otosclerosis. It is rarely performed today, having been superseded by stapedectomy.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

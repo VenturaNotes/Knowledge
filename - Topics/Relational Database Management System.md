@@ -9,4 +9,4 @@ aliases:
 - An RDBMS lets SMBs maintain the security, accuracy, and integrity of data in a relational database. Unlike other database management systems, an RDBMS doesn't require complicated tasks such as data structuring and querying, making it useful for SMBs without a data engineering team.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

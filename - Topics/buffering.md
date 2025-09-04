@@ -6,5 +6,5 @@
 - The practice of isolating the operations within an organization from the effects of environmental uncertainty. This can be achieved either by holding inventory or by the design of the organization's systems. While a degree of stability may be appropriate in some situations, management theory now favors a close relationship between operations and the ultimate customers, to ensure that the process is both effective in meeting the customers' needs and commercially efficient. See JUST IN TIME.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

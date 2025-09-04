@@ -7,4 +7,4 @@
 - (2) (structured coding) An approach to coding in which only three constructs are employed for governing the flow of control through the program. These three constructs allow for sequential, conditional, and iterative control flow. Arbitrary transfer of control (i.e. the GOTO statement) is expressly forbidden. As a direct result, for each compound statement within the program there is precisely one entry point and one exit point, and reasoning about the program is thereby made easier.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

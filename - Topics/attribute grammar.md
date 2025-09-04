@@ -5,4 +5,4 @@
 - The concept of an attribute grammar was introduced by D. E. Knuth who suggested that the semantics of a program could be specified by the attributes of the root node in its parse tree.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

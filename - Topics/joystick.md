@@ -5,4 +5,4 @@
 - A joystick may often be found controlling industrial equipment such as cranes and earth-moving equipment.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

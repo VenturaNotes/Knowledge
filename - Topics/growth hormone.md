@@ -6,5 +6,5 @@
 - (GH, somatotrophin) a hormone, synthesized and stored in the anterior pituitary gland, that promotes growth of the long bones in the limbs and increases protein synthesis (via somatomedin). Its release is controlled by the opposing actions of growth-hormone releasing hormone and somatostatin. Excessive production of growth hormone results in gigantism before puberty and acromegaly in adults. Lack of growth hormone in children causes dwarfism. Synthetic human growth hormone (somatotropin) is used to treat a variety of conditions of growth-hormone deficiency. Pegvisomant is an analogue of human growth hormone that blocks GH receptors; it may be used to treat acromegaly.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

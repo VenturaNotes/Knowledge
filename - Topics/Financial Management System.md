@@ -16,4 +16,4 @@ aliases:
 	- Manage multiple bank accounts
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

@@ -11,4 +11,4 @@ aliases:
 - Examples of M2M communication include Wi-Fi, WiMAX, wireless LAN (WLAN), cellular communication, generic DSL (xDSL) and fiber to the x (FTTx). This type of communication typically includes two endpoints that use hardware to enable access to a network. These endpoints collect information and transfer it to the network.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

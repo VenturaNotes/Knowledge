@@ -18,4 +18,4 @@ aliases:
 ## References
 
 [^1]: Google's Search Labs | AI Overview
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

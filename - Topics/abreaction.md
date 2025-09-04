@@ -6,5 +6,5 @@
 - $n$. the therapeutic release of strong emotion commonly associated with a buried memory. The therapist may help the patient to retrieve the memory (sometimes through hypnosis), which is accompanied by the release and discharge of tension and anxiety associated with it; this is supposed to rid the memory of its power. This intervention is now largely obsolete in psychological practice. See REPRESSION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

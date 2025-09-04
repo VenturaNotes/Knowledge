@@ -6,5 +6,5 @@
 - $n$. an inability to express one's emotions or describe them in words, commonly accompanied by a lack of empathy for the feelings of others. Most often seen in males, it is associated with autistic spectrum disorders (see AUTISM) and also with certain eating disorders.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

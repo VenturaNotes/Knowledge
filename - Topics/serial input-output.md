@@ -10,4 +10,4 @@ aliases:
 - Formerly SIO was a relatively slow mode, but advances in silicon technology mean that very fast SIO (hundreds of megabits per second) now make SIO preferable to parallel interfaces. See USB, Firewire.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

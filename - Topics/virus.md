@@ -6,5 +6,5 @@
 - $n$. a minute particle that is capable of replication but only within living cells. Viruses are too small to be visible with a light microscope and too small to be trapped by filters. They infect animals, plants, and microorganisms (see BACTERIOPHAGE). Each consists of a core of nucleic acid (DNA or RNA) surrounded by a protein shell. Some bear an outer lipid capsule. Viruses cause many diseases, including the common cold, influenza, measles, mumps, chickenpox, herpes, AIDS, polio, and rabies. Antiviral drugs are effective against some of them, and many viral diseases are controlled by means of vaccines. $\textemdash$viral adj.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

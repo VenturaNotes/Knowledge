@@ -9,4 +9,4 @@ aliases:
 - (2) A format command that with some operating systems is used to terminate a line of input and an implicit CR (carriage return) actioned so that the next input is displayed/printed at the start of the next line.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

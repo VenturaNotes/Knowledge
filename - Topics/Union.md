@@ -43,5 +43,5 @@ The union of $S$ and the empty set is $S$. See also SET AlGEBRA. 2. (of two grap
 ## References
 [^1]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^d1af4a]]
 [^2]: [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - The Hamming sphere is the set of all words in Hamming space whose Hamming distance from some given word (the 'centre') does not exceed some given value (the Hamming radius).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

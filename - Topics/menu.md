@@ -6,5 +6,5 @@
 - A list of choices displayed by a computer. When many options are available the user may be presented first with a main menu, from which more detailed menus can be selected. A well-designed menu system can make a complicated program simple to use.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

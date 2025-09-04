@@ -6,4 +6,4 @@
 - Parikh's theorem now states that if $L$ is context-free $\upvarphi(L)$ is semilinear. It can also be shown that $\upvarphi(L)$ is semilinear if and only if $L$ is letter-equivalent to a regular language. Hence any context-free language is letter-equivalent to a regular language-although not all such languages are context-free.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

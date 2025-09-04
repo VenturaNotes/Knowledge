@@ -5,4 +5,4 @@
 - For both terminating and cyclic programs a variety of notations have been employed for program specifications, ranging from natural language with embedded equations and tables to formal notations such as those based upon first-order predicate calculus.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

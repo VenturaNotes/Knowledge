@@ -6,5 +6,5 @@
 - (dysgraphia) $n$. an acquired inability to write, although the strength and coordination of the hand remain normal. It is related to the disorders of language and it is caused by disease in the dominant parietal lobe of the brain. See Gerstmann's SYndrome.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

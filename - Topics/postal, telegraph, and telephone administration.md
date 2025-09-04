@@ -9,4 +9,4 @@ aliases:
 - The image of the PTTs was as suppliers of limited data communications, based on speech-quality circuits operating at low bit rates, and in some countries this persists. However, in response both to competition from other suppliers and to the growing demands of the marketplace, many PTTs are now aggressive suppliers of innovative high-grade services, offering digital services with operating speeds up to several Gbps, and with extensive interworking with other suppliers for both domestic and international traffic.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

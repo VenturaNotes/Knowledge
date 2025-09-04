@@ -14,4 +14,4 @@ end;
 - Nesting of blocks in block-structured languages provides an elegant, though not entirely practicable, control over the scope of identifiers, since identifiers are local to the innermost level of nesting at which they are declared.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

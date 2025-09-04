@@ -10,5 +10,5 @@ aliases:
 - Computer-aided engineering (CAE) refers to multiple computer applications needed to carry out engineering tasks, such as design, testing, and simulation. CAE software typically falls into one of four categories: Computer-aided design (CAD), computational fluid dynamics (CFD), finite element analysis/method (FEA/FEM), and multibody simulation (MBS).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

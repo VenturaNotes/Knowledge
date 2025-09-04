@@ -10,4 +10,4 @@ aliases:
 - Supertwisted nematic displays may be [[passive-matrix LCD|passive-matrix LCDs]], containing no active (switching) electronic components. Nowadays much higher performance, especially for color displays, is obtained from [[active-matrix LCD|active-matrix LCDs]]. In this construction, a thinfilm transistor is added to each pixel to ensure an adequate and constant drive is maintained between refresh cycles. This gives a more uniform display and wider viewing angle, though in this respect it has some way to go to match the CRT. Nevertheless, as prices have fallen in recent years, thin-film transistor LCD displays have become very popular and have superseded CRTs on new systems.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

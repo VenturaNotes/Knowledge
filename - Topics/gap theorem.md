@@ -32,4 +32,4 @@ $$
 This has the following counter-intuitive consequence: given two universal models of computation, say a Turing machine that makes one move per century and the other a random-access machine capable of performing a million arithmetic operations per second, then there is a total recursive function $S(n)$ such that any language recognizable in time $S(n)$ on one machine is also recognizable within time $S(n)$ on the other.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

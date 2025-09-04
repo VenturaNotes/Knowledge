@@ -8,6 +8,6 @@
 - A network within a single company or other organization that provides access to private information using the familiar tools of the Internet, such as web browsers and e-mail. Only staff within the company or organization can access the intranet, which is usually protected by a password.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

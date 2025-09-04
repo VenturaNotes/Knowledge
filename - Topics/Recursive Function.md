@@ -12,4 +12,4 @@ aliases:
 - A primitive recursive function, however, cannot involve the $\mu$-operator and is hence guaranteed to be total. The Ackermann function is the standard example of a total recursive function that is not primitive recursive.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

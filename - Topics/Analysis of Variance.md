@@ -80,7 +80,7 @@ A statistical model applied to the data allows mean squares, equal to (sum of sq
 - (2) In standard costing and budgetary control, the analysis of variances in order to seek their causes. The total profit variance or production cost variance is analysed into sub-variances, based on such factors as direct labour, direct materials, fixed and variable overheads, and sales, in order to indicate the major reasons for the difference between budgeted figures and actual figures.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

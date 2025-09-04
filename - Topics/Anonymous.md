@@ -6,4 +6,4 @@
 - This group typically launches their cyberattacks on organizations that, in their opinion, either censor the public, promote inequality, or attempt to get away with injustice.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

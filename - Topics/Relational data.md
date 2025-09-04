@@ -7,4 +7,4 @@
 	- Maps two rows in two tables together
 ## References
 
-[^1]: [[Home Page - System Design Daily by David Zhang]]
+[^1]: [[(Home Page) System Design Daily by David Zhang]]

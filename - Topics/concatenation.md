@@ -47,5 +47,5 @@ This set is usually written $K L$. The phrase language concatenation is sometime
 - Concatenation is a binary operation on words, which places one word after another. For example, given the binary words $w_{1}=10$ and $w_{2}=1101$, then their concatenation is $w_{1} w_{2}=101101$. Concatenation is the group operation for free groups and groups defined by a presentation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

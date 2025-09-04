@@ -8,4 +8,4 @@ aliases:
 - Consumer-generated media (CGM) is the term given to any media produced by the consumer of a good or service. This media can include a product-review video, an article or other text-based media, or graphics.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

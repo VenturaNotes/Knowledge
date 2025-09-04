@@ -5,4 +5,4 @@
 - Help-desk software is used to keep track of help-desk queries. The software will allow the details of the problem to be entered, and its progress to be monitored as it is passed from the desk to one or more specialists. It will also help to ensure that all problems are eventually answered, and that the details of the solution are stored to assist in the solution of future problems.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -8,5 +8,5 @@
 - A branch of mathematics/computer science dealing with the study of algorithms for the numerical solution of problems formulated and studied in other branches of mathematics. Numerical analysis now plays a central role in engineering and in the quantitative parts of pure and applied science. The tasks of numerical analysis include the development of fast and reliable numerical methods together with the provision of a suitable error analysis. The algorithms are developed as computer programs, taking full account of machine architectures such as parallelism.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

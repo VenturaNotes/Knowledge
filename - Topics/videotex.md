@@ -6,5 +6,5 @@
 - An information system in which information from a distant computer is displayed on a television screen. There are two types: in viewdata the information is sent to the video display using telephone lines or cables; in teletext, the information is broadcast as a part of the normal signal from a television station.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -44,4 +44,4 @@ More formally, let $G$ be a directed graph with vertices $V$ and edges $E$. The 
 The process of replacing each of the strongly connected components of a directed graph by a single vertex is known as condensation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

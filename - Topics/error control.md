@@ -5,4 +5,4 @@
 - Error control is expensive: the balance between the cost and the benefit (measured by the degree of protection) has to be weighed within the technological and financial context of the system being designed. See also ERROR RECOVERY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

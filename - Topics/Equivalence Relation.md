@@ -7,5 +7,5 @@
 - A relation that is transitive, symmetric, and reflexive. The concept is a convenient generalization or abstraction of equality. It covers most notions of equals, equivalence, and similarity as defined between triangles, algorithms, Boolean expressions, algebraic structures, statements, etc. See also EQUIVALENCE CLASS, PARTIAL ORDERING.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

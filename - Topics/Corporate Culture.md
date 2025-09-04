@@ -5,4 +5,4 @@
 - Company culture often influences an organization's dress code, office environment, hiring decisions, employee and client treatment, and all other operational aspects. An appealing company culture helps businesses fight high turnover rates and attract talented employees.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

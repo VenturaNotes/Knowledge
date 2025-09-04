@@ -6,5 +6,5 @@
 - $n$. a glycoprotein, resembling starch, that is deposited in the internal organs in amyloidosis. $\beta$-amyloid protein has been found in the brains of Alzheimer's patients but the significance of this is unclear.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

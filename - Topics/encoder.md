@@ -6,4 +6,4 @@
 - If two or more of the device inputs can be active simultaneously then a [[priority encoder]] is required, which usually encodes only the highest-order data input.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

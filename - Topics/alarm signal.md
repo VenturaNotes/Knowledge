@@ -6,5 +6,5 @@
 - $n$. A sound or other communication that is emitted by a bird or an animal in response to a danger or threat and that is recognized by other members of the same species as a signal to take evasive action. It is sometimes classified as a type of altruism, because it draws attention to the individual giving the alarm signal and sometimes exposes it to added danger. See also alarm CALL, ALARM PHEROMONE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

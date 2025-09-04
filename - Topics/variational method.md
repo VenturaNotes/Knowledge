@@ -52,4 +52,4 @@ $$
 When the trial functions $\phi_{j}(x)$ are splines, the resulting method is an example of the finite-element method.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

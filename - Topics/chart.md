@@ -7,5 +7,5 @@
 - n. continuous hyperfractionated accelerated radiotherapy: a radiotherapy technique aimed at the rapid destruction of tumor cells when they are actively proliferating $\textendash$ and therefore most sensitive to radiation $\textendash$ by treating them several times a day over a greatly shortened total treatment time. The technique has been shown to be of benefit in the treatment of lung cancer.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

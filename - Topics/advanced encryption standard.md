@@ -14,4 +14,4 @@ aliases:
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://www.techtarget.com/searchsecurity/definition/Advanced-Encryption-Standard
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

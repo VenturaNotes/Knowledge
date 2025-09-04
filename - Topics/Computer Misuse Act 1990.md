@@ -5,4 +5,4 @@
 - Section 3 of the Act provides that an offense will be committed by a person who, acting with intent, causes an unauthorized modification of the contents of any computer. The term modification is defined in Section 17 to include the addition of data or its alteration or erasure. A modification will be regarded as unauthorized if the person causing it is not authorized so to act or does not possess the consent of a person who is so entitled.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

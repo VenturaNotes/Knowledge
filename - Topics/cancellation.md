@@ -6,5 +6,5 @@
 - The right to cancel a commercial contract after it has been entered into. The right to cancel exists generally for contracts concluded at a distance (see DISTANCE SELLING), such as mail order and Internet sales when the contract is with a consumer, and in particular in such sectors as time-share sales and consumer credit.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

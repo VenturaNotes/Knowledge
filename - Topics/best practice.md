@@ -7,4 +7,4 @@
 	- A marketing agency might use Facebook to promote its clients' products and services because it thinks the social media platform reaches the most customers.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

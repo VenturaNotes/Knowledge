@@ -25,4 +25,4 @@
 ## References
 
 [^1]: [[(15) The Conditional and Its Related Statements]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

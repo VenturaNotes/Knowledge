@@ -7,4 +7,4 @@
 ## References
 
 [^1]: https://www.3cx.com/pbx/codecs/#:~:text=A%20codec%20can%20be%20for,lossless%20codec%20and%20lossy%20codecs.
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

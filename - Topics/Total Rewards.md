@@ -16,4 +16,4 @@
 - Total rewards can also refer to the department within HR that handles benefits, rewards, and compensation. Additionally, it can mean the total value that an employee perceives their rewards package to be worth.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

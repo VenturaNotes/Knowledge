@@ -6,5 +6,5 @@
 - (in ultrasonics) the reflection of sound waves from the surface of an internal structure, which can be used to produce a picture of the surface as a sonogram (see ULTRASONOGRAPHY). A specular reflection contrasts with vaguer diffuse echoes produced by minor differences in tissue density.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

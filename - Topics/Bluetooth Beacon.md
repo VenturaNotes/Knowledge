@@ -6,4 +6,4 @@
 - Beacons are most commonly used in proximity marketing, a marketing strategy in which businesses target customers based on how close a person or their device is to a specific location. Beacons allow businesses to more effectively target potential customers in close proximity to their storefront locations. Push notifications triggered by such beacons entice customers to check out a business' product and service offerings, even if they did not intend to previously_._
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

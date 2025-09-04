@@ -5,4 +5,4 @@
 - The base register, used in the construction of relative addresses, should not be confused with the base of a base-bound system; the result of modifying an address by a base register's contents is still an address within virtual memory space of the process, and is not necessarily a physical address.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

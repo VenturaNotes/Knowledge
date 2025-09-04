@@ -64,4 +64,4 @@ A slightly different way of generating a language is by means of an L-system (or
 ## References
 
 [^1]: https://youtu.be/tdkYOla0CiQ?si=jalrDjw7G9ZWsHe6
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

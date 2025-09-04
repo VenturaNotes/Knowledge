@@ -8,5 +8,5 @@
 - (2) (in psychiatry) the condition of making varying decisions about a treatment plan without the ability to adhere to the decision agreed.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

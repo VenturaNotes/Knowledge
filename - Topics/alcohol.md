@@ -11,6 +11,6 @@
 - $n$. any of a class of organic compounds formed when a hydroxyl group $(-\mathrm{OH})$ is substituted for a hydrogen atom in a hydrocarbon. The alcohol in alcoholic drinks is ethyl alcohol (ethanol), which has the formula $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}$. It is produced by the fermentation of sugar by yeast. 'Pure' alcohol contains not less than $94.9 \%$ by volume of ethyl alcohol. It is obtained by distillation. A solution of $70 \%$ alcohol can be used as a preservative or antiseptic. When taken into the body ethyl alcohol depresses activity of the central nervous system (see also ALCOHOLISM). Methyl alcohol (methanol) is extremely poisonous. See Appendix 11.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

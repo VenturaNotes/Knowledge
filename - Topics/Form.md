@@ -5,4 +5,4 @@
 - (2) The data structure within a computer system representing the final result to be printed or displayed.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

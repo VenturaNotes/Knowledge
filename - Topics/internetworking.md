@@ -7,4 +7,4 @@
 - The encapsulation approach provides a uniform set of semantics across all networks, while the translation approach results in unanticipated problems due to subtle differences between protocols. The encapsulation approach generally requires that new software be written for all hosts on all networks, while the translation approach requires new software only in the gateways. See also IP.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

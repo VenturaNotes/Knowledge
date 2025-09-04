@@ -7,5 +7,5 @@
 - A scanner is a piece of office equipment used to scan documents, meaning it takes a 2D image and transfers it to a computer. This is also called digitization. Most office scanners are flatbed scanners, which means the user lays the document flat on the scanner, which then uses light, lenses, and mirrors to record and upload the document.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

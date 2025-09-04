@@ -6,5 +6,5 @@
 - A file server is a single location that holds multiple files. These files can be accessed by any user that has permission to use the server. File servers use cybersecurity methods to protect the data they hold.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

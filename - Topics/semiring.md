@@ -5,4 +5,4 @@
 - The set of polynomials in $x$ whose coefficients are nonnegative integers constitutes an example of a semiring (which is not a ring), the two operations being addition and multiplication. Other uses of semirings occur in fuzzy logic. See also CLOSED SEMIRING, RING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

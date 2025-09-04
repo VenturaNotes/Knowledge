@@ -9,4 +9,4 @@ aliases:
 - PL/I was adopted as a teaching language by a number of universities, notably Cornell, who produced their own versions, [[PL-C|PL/C]] and PL/CT. It was also used as a basis for the microcomputer language PL/M.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

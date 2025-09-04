@@ -40,4 +40,4 @@ where $\vee$ is the OR operation and $y_{i}$ is equal to $x_{i}$ or the compleme
 ## References
 
 [^1]: [[(2) Start Learning Logic - Part 1 - Logical Statements, Negation and Conjunction]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

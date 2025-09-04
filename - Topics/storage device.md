@@ -5,4 +5,4 @@
 	- #question What is meant by capacities or speeds of access? What formula would be used for this? 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

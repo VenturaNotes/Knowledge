@@ -5,4 +5,4 @@
 - The floppy-disk drive was first introduced by IBM as a diagnostic software load device but it has been used extensively as a data storage and transfer device on small computing systems. With the increased use of rewritable CDs and other types of removable storage and of the Internet for data transfer, the use of these drives has declined. See also DISK DRIVE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - (otoconium) n. one of the small particles of calcium carbonate associated with a macula in the saccule or utricle of the inner ear.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Adds more servers into pool of resources 
 ## References
 
-[^1]: [[Home Page - System Design Interview (An Insider's Guide) by Alex Xu#Vertical scaling vs horizontal scaling]]
+[^1]: [[(Home Page) System Design Interview (An Insider's Guide) by Alex Xu#Vertical scaling vs horizontal scaling]]

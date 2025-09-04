@@ -13,6 +13,6 @@ aliases:
 - (ERP) A single computer-based information system that aims to integrate all key functions of an enterprise, including material requirements planning, customer relationship management, human resources, accounting and payroll, and a decision support system for managers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

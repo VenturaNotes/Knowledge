@@ -13,4 +13,4 @@ aliases:
 - Other popular MOOCs include content about law, science and math. These courses rely on web technologies such as email and video conferencing.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

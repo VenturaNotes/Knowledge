@@ -5,4 +5,4 @@
 - This approach leads to modules that are readily understood and can be developed independently. More important, it also leads to programs that are easy to change, with many desired changes requiring modification of only the inner workings of a single module.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

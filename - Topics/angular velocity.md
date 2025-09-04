@@ -32,4 +32,4 @@ In general, for a rigid body that is rotating, such as a top spinning about a fi
 though the formula $\mathbf{v}=\omega \times \mathbf{r}$ still applies.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

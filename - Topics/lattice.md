@@ -6,4 +6,4 @@
 - Lattices in the form of Boolean algebras play a very important role in much of the theory and mathematical ideas underlying computer science. Lattices are also basic to much of the approximation theory underlying the ideas of denotational semantics.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

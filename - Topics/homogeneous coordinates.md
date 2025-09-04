@@ -5,4 +5,4 @@
 - Homogeneous coordinates are widely used in computer graphics because they enable affine and projective transformations to be described as matrix manipulations in a coherent way.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -56,4 +56,4 @@ Any Moore machine can be converted to an equivalent Mealy machine by adding more
 A generalized sequential machine is an extension of the notion of sequential machine: a string of symbols is output at each stage rather than a single symbol. Thus there is a function from $I \times Q$ to $Q \times O^{}$. See also GSM MAPPING. 2. Another name for sequential circuit.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

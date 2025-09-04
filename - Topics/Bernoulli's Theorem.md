@@ -9,4 +9,4 @@
 - In an inviscid, incompressible, irrotational fluid flow,$$H=\frac{p}{\rho}+\frac{1}{2}|\mathbf{u}|^{2}+g z$$is constant along streamlines. Here $p$ denotes pressure, $\rho$ denotes density, $\mathbf{u}$ is the flow velocity, and $g$ denotes gravity. If, further, the flow is steady, then $H$ is constant throughout the flow.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

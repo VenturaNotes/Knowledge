@@ -4,4 +4,4 @@
 - In general, any algorithm executed sequentially, but, specifically, one for decoding a convolutional code.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

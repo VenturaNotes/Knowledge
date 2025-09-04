@@ -20,4 +20,4 @@ $$
 where $m$ characterizes the particular code. Where multiple-error-correcting abilities are required, Hamming codes may be generalized into Bose-Chaudhuri-Hocquenghem (BCH) codes. The code was discovered by Richard Hamming in 1950.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

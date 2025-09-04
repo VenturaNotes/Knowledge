@@ -10,4 +10,4 @@
 - Ideally, the manager would like to be able to perform all these activities from a workstation connected to the network. For this to be done, the nodes must themselves be treated as addressable objects on the network, and there must be a protocol that allows suitably authorized and qualified personnel to carry out both the routine activities (a) and (b) above, and to take corrective action in the event of a failure. There is a suitable protocol, SNMP (simple network management protocol), and nearly all suppliers now market products that can process SNMP queries and commands.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -17,4 +17,4 @@
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://www.ir.com/guides/what-is-network-jitter#:~:text=is%20available%20here.-,What%20exactly%20is%20network%20jitter%3F,or%20not%20implementing%20packet%20prioritization.
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

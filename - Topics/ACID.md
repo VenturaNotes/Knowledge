@@ -18,7 +18,7 @@ aliases:
 - acidity $n$. The degree to which a solution is acidic. \[From Latin acidus sharp or sour]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://www.techtarget.com/searchdatamanagement/definition/ACID
-[^3]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^4]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

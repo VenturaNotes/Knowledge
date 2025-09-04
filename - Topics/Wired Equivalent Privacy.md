@@ -10,5 +10,5 @@ aliases:
 - Wired Equivalent Privacy (WEP) is a form of wireless-based security protocol. It is a security standard that is meant to bring wireless connectivity on par with wired connectivity. It was first created in 1997. At the time, it had revolutionary security protocols, including the use of hexadecimal digits. In 2003, it was supplanted by Wi-Fi Protected Access (WPA).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

@@ -13,5 +13,5 @@
 - Modulation is a term used in electronics and telecommunications to describe the application of data to radio waves. This process happens when someone applies an input signal to a carrier wave, which changes the characteristics of that signal. These characteristics might include frequency, amplitude, or phase. Modulation can also happen by converting a digital signal into an analog format.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

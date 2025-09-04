@@ -11,4 +11,4 @@ aliases:
 ## References
 
 [^1]: https://en.wikipedia.org/wiki/Biometrics
-[^2]: [[Home Page - Glossary by ada computer science]]
+[^2]: [[(Home Page) Glossary by ada computer science]]

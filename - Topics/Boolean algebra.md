@@ -87,6 +87,6 @@ Boolean algebras, named for George Boole, the 19th-century English mathematician
 - For example, a power set $\wp(X)$, where $\lor$ is union, $\land$ is intersection, $\neg$ is complentation in $X$, and 0 is the empty set and 1 is $X$, is a Boolean algebra. Compare BOOLEAN RING; see also STONE SPACE.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

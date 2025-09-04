@@ -52,4 +52,4 @@ The function is a special kind of relation. Graphs are often used to provide a c
 Relations play an important part in theoretical aspects of many areas of computing, including the mathematical foundations of the subject, databases, compiling techniques, and operating systems. See also Equivalence RELATION, Partial ORdering.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

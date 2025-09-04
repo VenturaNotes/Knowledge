@@ -8,5 +8,5 @@
 - $n$. the lower jawbone. It consists of a horseshoe-shaped body, the upper surface of which bears the lower teeth (see ALVEOLUS), and two vertical parts (rami). Each ramus divides into a condyle and a coronoid process. The condyle articulates with the temporal bone of the cranium to form the temporomandibular joint (a hinge joint). See also MAXILLA; SKULL. —mandibular adj.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

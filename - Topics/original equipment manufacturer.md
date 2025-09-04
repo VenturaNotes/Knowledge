@@ -10,5 +10,5 @@ aliases:
 - An original equipment manufacturer, or OEM, is a company that manufactures products for other companies to resell under their own brands. For example, Dell Inc. is an OEM because it makes computers for other companies such as HP and Apple to sell under their brands. OEMs are often referred to as "white label" because their products are usually sold without any branding from the OEM itself.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

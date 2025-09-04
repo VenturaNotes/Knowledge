@@ -9,4 +9,4 @@
 - IT consulting might involve architecture planning, which defines how an organization will use new and existing technologies to achieve its business goals and meet customer requirements. Another IT consulting method called operational assessment (or benchmarking) determines the operating capacity and efficiency of an organization's IT architecture. IT consultants might also use implementation planning to advise an SMB about the rollout, testing and deployment of IT solutions.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

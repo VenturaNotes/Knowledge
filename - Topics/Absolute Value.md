@@ -37,5 +37,5 @@ Graph of absolute value
 [^1]: ChatGPT
 [^2]: https://library.fiveable.me/key-terms/ap-micro/absolute-value
 [^3]: https://www.techtarget.com/whatis/definition/absolute-value
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^5]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

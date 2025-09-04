@@ -5,4 +5,4 @@
 - In some literature the term is used to refer to all printers in which an electrostatic image is formed as one of the steps in the process, including electrophotographic printers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

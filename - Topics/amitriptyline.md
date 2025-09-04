@@ -6,5 +6,5 @@
 - $n$. a tricyclic antidepressant drug that has a mild tranquillizing action. Side-effects can include abnormal heart rhythms, which may be fatal following overdosage, and the drug is now rarely used for depression; it may be used to treat chronic pain.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -9,6 +9,6 @@
 - (web log) A publicly accessible journal maintained on the Web by an individual or group. The topics covered in a blog are dictated by the author and so vary widely: some have become respected sources of information or opinion, while others are vehicles for corporations or other bodies to disseminate information and obtain feedback. Many blogs include facilities for readers to post comments and to engage in debate; blogs can also contain links to other blogs, forming an extended online community. It is now very easy to create and maintain a blog, using freely available software and services. See USER-GENERATED CONTENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

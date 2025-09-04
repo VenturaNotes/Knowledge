@@ -6,5 +6,5 @@
 - $n$. a state of dependence produced either by the habitual taking of drugs or by regularly engaging in certain activities (e.g. gambling). People can develop physical and psychological symptoms of dependence, which include a strong desire to take the substance or exercise the behavior, impaired capacity to control such behavior or substance taking, a physical or psychological withdrawal state, evidence of tolerance development, social and mental preoccupation with substance use or the given behavior, and persistent use despite harmful consequences. Treatment is directed to withdrawal of the drug or behavior with the aim of partial or total abstinence. See also ALCOHOLISM; TOLERANCE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

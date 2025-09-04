@@ -139,9 +139,9 @@ The idea of a set is fundamental to mathematics. It forms the basis for all idea
 ## References
 
 [^1]: [[(28) Universal Set Example Problems - Set Builder Notation, Absolute Complement, Roster Notation#^19ae11]]
-[^2]: [[Home Page - Abstract Algebra Theory and Applications 2022 Edition by Thomas W. Judson]]
+[^2]: [[(Home Page) Abstract Algebra Theory and Applications 2022 Edition by Thomas W. Judson]]
 [^3]: [[(2) Probability & Statistics (2 of 62) Definition of Sets and Elements]]
 [^4]: [[(1) Start Learning Mathematics]]
 [^5]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
 [^6]: [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]
-[^7]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^7]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

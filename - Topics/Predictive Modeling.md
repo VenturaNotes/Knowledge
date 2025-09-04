@@ -9,4 +9,4 @@
 	- The number of employees required to fulfill a particular project or task.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

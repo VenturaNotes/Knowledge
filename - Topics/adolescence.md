@@ -8,6 +8,6 @@
 - $n$. the stage of development between childhood and adulthood. It begins with the start of puberty, which in girls is usually at the age of 12-13 years and in boys about 14 years, and usually lasts until 19 years of age. All adolescents must learn gradually to exercise their own autonomy, whether they have legal capacity or not. Clinicians may not know who has the responsibility to take decisions without careful thought and discussion (see also GILLICK COMPETENCE).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

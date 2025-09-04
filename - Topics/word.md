@@ -24,4 +24,4 @@ $$
 WORD:  Trademark A major word processing system developed over many years by the Microsoft Corporation. There are versions for Windows and Macintosh operating environments.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

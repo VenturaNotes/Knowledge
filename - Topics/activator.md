@@ -6,4 +6,4 @@
 - 3. Any compound that potentiates the activity of a drug or other foreign substance in the body.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

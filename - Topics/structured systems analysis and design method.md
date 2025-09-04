@@ -9,4 +9,4 @@ aliases:
 - SSADM covers the data (information), processing (function), and events (logical) views of a system. The methodology has six phases covering analysis, requirements specification, logical design, and physical design of data and processes down to the program specification. Notations provided are for entity life history diagrams, dataflow diagrams, and process outline specifications. Tools support is available. SSADM is also compatible with the PROMPT II project management methodology.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

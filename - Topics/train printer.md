@@ -5,4 +5,4 @@
 - Train printers dominated the high-speed printer market up to 1982, when the band printer offered superior performance at lower cost and nonimpact printers with superior print quality and versatility became financially viable.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

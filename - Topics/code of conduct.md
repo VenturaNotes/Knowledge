@@ -6,5 +6,5 @@
 - A statement setting out guidelines regarding the ethical principles and standards of behavior expected of a professional person or company. For example, the Market Research Society has a professional code of conduct and utility companies have customer charters. Codes of conduct have no statutory effect but can have legal consequences: e.g. a code of conduct for the handling of personal data in a particular trade may be referred to by a court in determining whether there is a prima facie case of misuse of data under the Data Protection Act.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

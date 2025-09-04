@@ -12,6 +12,6 @@
 - $n$. adjustment of the shape of the lens to change the focus of the eye. When the ciliary muscle (see CILIARY BODY) is relaxed, suspensory ligaments attached to the ciliary body and holding the lens in position are stretched, which causes the lens to be flattened. The eye is then able to focus on distant objects. To focus the eye on near objects the ciliary muscles contract and the tension in the ligaments is thus lowered, allowing the lens to become rounder. Adjustments in convergence also contribute to accommodation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

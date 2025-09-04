@@ -6,5 +6,5 @@
 - A social media platform that is chiefly used for professional networking. The site, which was launched in 2003 and became a public company in 2011, is increasingly important as a place to make business contacts and to find jobs or candidates for jobs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

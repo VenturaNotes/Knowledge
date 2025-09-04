@@ -16,6 +16,6 @@ aliases:
 - A cache is a temporary storage component that’s designed to store data for quick and easy access and retrieval. Located near the computer’s central processing unit (CPU), the cache immediately stores files from websites you’ve visited and automatically retains data that your computer is most likely to use again. This acts as a huge time-saving device, because once data is cached, it doesn’t need to be reloaded. By holding on to this data, a cache can enable websites, apps, and browsers to load much more quickly.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Glossary by Capterra]]

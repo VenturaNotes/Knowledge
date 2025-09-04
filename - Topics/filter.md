@@ -6,4 +6,4 @@
 - (3) A set of conditions applied to data so that only certain conforming items are displayed or processed.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Companies that develop virtual reality gaming experiences and simulations use the concept of virtual embodiment to allow people to experience situations and environments that are either extremely risky or impossible to experience in real life.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

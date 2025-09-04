@@ -7,4 +7,4 @@
 - The figure shows box plots for three samples, each of size 20, drawn uniformly from the set of integers from 1 to 100.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -44,4 +44,4 @@ $$
 Wavelets are particularly useful for representing functions that are local in time and frequency. The idea of wavelets grew out of seismic analysis and is now a rapidly developing area in mathematics. There are elegant recursive algorithms for decomposing a signal into its wavelet coefficients and for reconstructing a signal from its wavelet coefficients.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

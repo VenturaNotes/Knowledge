@@ -9,4 +9,4 @@ aliases:
 - While there is no pass or fail score for these PI assessments, candidates who score above 20 are more likely to make a positive impression on recruiters. These assessments aim to measure an existing employee or job candidate's ability to understand complex concepts and describe their personality traits, such as extraversion, patience, formality, and dominance.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

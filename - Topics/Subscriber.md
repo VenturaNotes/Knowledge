@@ -6,5 +6,5 @@
 - A person who signs the memorandum of association of a new company and who joins with other members in paying for a specified quantity of shares in the company, signing the articles of association, and appointing the first directors.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

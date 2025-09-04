@@ -14,4 +14,4 @@ FROM Products;
 ### Example 2: 
 ## References
 
-[^1]: [[Home Page - SQL Tutorial by W3Schools#SQL Count]]
+[^1]: [[(Home Page) SQL Tutorial by W3Schools#SQL Count]]

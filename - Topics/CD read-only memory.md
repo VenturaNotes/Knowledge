@@ -12,4 +12,4 @@ aliases:
 - CD-ROM was first announced in 1983 and became a mass-market medium in the mid1990s.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

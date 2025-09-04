@@ -15,5 +15,5 @@
 - Examples of intellectual properties include inventions, literary and artistic works, names, images, designs used in commerce, and computer programs. See also ROYALTY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

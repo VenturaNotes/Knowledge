@@ -6,4 +6,4 @@
 - (vertices as activities) The networks used in critical path analysis where the vertices (nodes) represent activities to be performed. The edges (arcs) coming out from any vertex $X$ join $X$ to any vertex $Y$ whose activity cannot start until $X$ has been completed, and the edge is labelled with the time taken for activity $X$. Note that there will often be more than one such activity, in which case each edge will carry the same time. The construction of an activity network requires a listing of the activities, their duration, and the precedence relations which identify which activities are dependent on the prior completion of other activities. With this structure, dummy activities are not needed, but the same activity will be represented by more than one edge when more than one other activity depends on its prior completion, and the sequence of activities is less easy to follow than the alternative structure activity networks (edges as activities).
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -40,4 +40,4 @@ $$
 then $L$ or $U$ is said to be strictly lower or strictly upper triangular respectively. The inverse of a lower (or an upper) triangular matrix, if it exists, is easy to calculate and is itself lower (or upper) triangular.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

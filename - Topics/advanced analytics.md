@@ -7,4 +7,4 @@
 ## References
 
 [^1]: https://www.techtarget.com/searchbusinessanalytics/definition/advanced-analytics
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

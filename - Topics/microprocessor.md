@@ -12,6 +12,6 @@
 - In computer technology, an integrated circuit that contains on one chip the arithmetic, logical, and control functions of the central processing unit. Microprocessors are used as control systems in many devices, including car electronics and cameras, as well as in personal computers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

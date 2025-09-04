@@ -6,5 +6,5 @@
 - $n$. total or partial loss of memory following physical injury, disease, drugs, or psychological trauma (see CONFABULATION; FUGUE; REPRESSION). Anterograde amnesia is loss of memory for the events following a trauma; retrograde amnesia is loss of memory for events preceding the trauma. Some patients experience both types.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

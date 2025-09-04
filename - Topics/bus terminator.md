@@ -5,4 +5,4 @@
 - It is important to ensure that the electric impedance of a bus carrying high-frequency signals does not have any abrupt changes. If the ends of the conductors are not terminated, the signals see an almost infinite impedance and are reflected back along the conductor. A fast switching circuit connected to an unterminated bus could detect both the signal and the reflection and so give rise to errors.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

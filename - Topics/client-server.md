@@ -13,5 +13,5 @@ aliases:
 - Client/server is a form of computer network architecture that allows several different clients (known as remote processors) to receive service from one central server or host computer. This type of network is commonly used for web services, hosting games, and creating private networks that extend across organizations. Alternatively, a peer-to-peer network architecture does not use a central server and grants all devices on the network the same levels of access, authority, and functionality.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

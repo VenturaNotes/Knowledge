@@ -5,4 +5,4 @@
 - A token bus system has the advantage that the priority of stations can be redefined by redefining the order in which stations are permitted to acquire the token.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

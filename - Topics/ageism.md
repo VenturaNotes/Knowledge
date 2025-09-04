@@ -7,4 +7,4 @@
 	- (2) Of or relating to ageism. \[Coined in 1969 by the US gerontologist Robert N(eil) Butler (1927-2010) from age on the model of racism]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

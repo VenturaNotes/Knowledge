@@ -5,4 +5,4 @@
 - Various models of reflection can be used to understand and learn from past situations, such as the CARL Model of Reflection, the Gibbs Reflective Cycle, the Atkins and Murphy Model, John’s Model of Structured Reflection, and Boud’s Triangular Representation, among others. The models of reflection can help business professionals to view circumstances with a broader lens.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

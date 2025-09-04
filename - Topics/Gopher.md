@@ -6,4 +6,4 @@
 - Gopher (uppercase g?): A protocol and supporting utilities formerly popular on the Internet. Gopher presented the user with a hierarchy of nodes, each of which was either a menu (a directory of material accessible at this point), a search node (a set of documents that could be searched using keywords), or a leaf node (a document containing text or other forms of material that the workstation could display). Its use declined because of the World Wide Web's greater flexibility.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

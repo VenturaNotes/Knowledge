@@ -8,6 +8,6 @@
 - fibrous connective tissue packed with masses of fat cells (adipocytes). In human adults it consists mostly of white fat (see also BROWN FAT). It forms a thick layer under the skin and occurs around the kidneys and in the buttocks. It serves both as an insulating layer and an energy store; food in excess of requirements is converted into fats and stored within these cells.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

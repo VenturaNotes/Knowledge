@@ -56,4 +56,4 @@ G(n / N T)=\sum_{k=0}^{N-1} g(k t) \exp (-2 \pi i n k / N)
 $$
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

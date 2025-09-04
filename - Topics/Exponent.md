@@ -38,6 +38,6 @@ explored:
 - Inverse of an exponential function is a logarithmic function
 ## References
 [^1]: [[(1) PreCalc 1.1 Exponents]]
-[^2]: [[Home Page - Building Blocks for Theoretical Computer Science by Margaret M. Fleck#^wjg58a]]
+[^2]: [[(Home Page) Building Blocks for Theoretical Computer Science by Margaret M. Fleck#^wjg58a]]
 [^3]: https://content.byui.edu/file/b8b83119-9acc-4a7b-bc84-efacf9043998/1/Math-1-10-6.html#:~:text=The%20basic%20rule%20when%20a,%E2%86%92%20the%20answer%20is%20negative.
 [^4]: https://web.ics.purdue.edu/~pdevlin/Traditional%20Class/Lesson%2032/Finding%20the%20Inverse%20of%20an%20Exponential%20or%20Logarithmic%20Function.pdf

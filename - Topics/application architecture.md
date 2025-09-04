@@ -8,4 +8,4 @@
 ## References
 
 [^1]: https://www.techtarget.com/searchapparchitecture/definition/application-architecture
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

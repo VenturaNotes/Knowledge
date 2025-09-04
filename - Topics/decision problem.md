@@ -5,4 +5,4 @@
 - Some [[unsolvable]] problems possess a [[semidecision procedure]], i.e. an algorithm that correctly outputs 'true' but fails to terminate in cases where 'false' should be output. This is the same as saying that the inputs requiring the output 'true' form a set that is recursively enumerable (but need not be recursive). Alternatively one can say that the problem corresponds to a predicate that is [[semidecidable]] (but need not be decidable).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

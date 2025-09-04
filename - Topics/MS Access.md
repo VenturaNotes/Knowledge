@@ -4,4 +4,4 @@
 - An RDBMS database program
 ## References
 
-[^1]: [[Home Page - SQL Tutorial by W3Schools]]
+[^1]: [[(Home Page) SQL Tutorial by W3Schools]]

@@ -18,4 +18,4 @@ print(round(3.145, 2)) # 3.15
 - Result of `(2.675, 2)` is `2.67`
 ## References
 
-[^1]: [[Home Page - 500+ Python Interview Questions and Answers by applyre]]
+[^1]: [[(Home Page) 500+ Python Interview Questions and Answers by applyre]]

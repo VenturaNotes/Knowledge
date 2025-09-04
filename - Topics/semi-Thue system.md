@@ -106,4 +106,4 @@ $w$ derives $\Lambda$ (the empty word) if and only if $w$ has the same number of
 The question of whether $w$ derives $w^{\prime}$ is algorithmically undecidable.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - (user's network) A very large network of online newsgroups, run very informally to discuss particular topics, such as a sport, hobby, or business area. USENET predates the Internet: some Internet hosts do not subscribe to USENET and some USENET hosts are not on the Internet.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

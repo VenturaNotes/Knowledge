@@ -9,4 +9,4 @@ aliases:
 - A similar concept applies to functions $f_{1}(x), f_{2}(x), \ldots, f_{n}(x)$ defined on an interval $[a, b]$, which are linearly independent if for some scalars $\alpha_{1}, \alpha_{2}, \ldots, \alpha_{n}$, the condition,$$\begin{align}&\sum_{i=1}^{n} \alpha_{i} f_{i}(x)=0 \\ &\text{for all } x \text{ in} [a,b],\end{align}$$implies$$\alpha_{1}=\alpha_{2}=\ldots=\alpha_{n}=0$$
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

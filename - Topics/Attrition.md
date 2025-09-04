@@ -6,5 +6,5 @@
 - $n$. (in dentistry) non-carious tooth-surface loss caused by tooth-to-tooth contact. A small amount of attrition occurs with age but accelerated wear may occur in bruxism and with certain diets.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

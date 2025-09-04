@@ -11,5 +11,5 @@
 - The term domain refers to how the internet is structured. Internet domains can be described as online structures for organizing, delivering, and accessing internet services. Typically, domains are named according to their structure. Domains are set up using a domain name service (DNS), which is an app layer protocol used on networks to translate host names to their linked IP addresses. A domain name is the address that people type into a browserʻs address bar in order to navigate to a specific website.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

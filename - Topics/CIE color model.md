@@ -5,4 +5,4 @@
 - In 1964, the model was updated and based on data with a wider viewing angle and correcting the $Y$ primary, which was found to be slightly in error. Two new specifications, CIELAB and CIELUV, were defined in 1976. The CIELAB model represents colors on subtractive media, where light is absorbed by inks, dyes, and other pigments; the CIELUV model represents colors on additive color media such as emissive phosphor displays and colored lights. The lightness scale for both is the same and is based on the cube root of luminance, which gives a linear scale.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

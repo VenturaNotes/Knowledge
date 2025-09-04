@@ -12,5 +12,5 @@
 - A program that performs modifications to data in order to make it suitable for input to another program, especially a compiler. The modifications may be simple changes of format, or may include macro expansions.
 ## References
 
-[^1]: [[Home Page - Introduction to Compilers and Language Design 2nd Ed. by Douglas Thain#^4wix79]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Introduction to Compilers and Language Design 2nd Ed. by Douglas Thain#^4wix79]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

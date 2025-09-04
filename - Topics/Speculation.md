@@ -12,6 +12,6 @@ aliases:
 - Economic activity aimed at profiting from expected changes in the prices of goods, assets, or currencies. In a world of uncertainty, most transactions are capable of being interpreted as speculative, but the term speculation is reserved for transactions where expected capital gains provide a major motive. Speculators may buy goods or assets they do not want but whose prices they expect to rise, or buy call options on such assets. They can contract to buy assets they do not have the funds to pay for. Speculators may sell goods, assets, or currencies they do not really want to part with, but whose prices they expect to fall, so that they will be able to buy them back more cheaply; or they may buy put options on such assets. It is also possible to contract to sell assets one does not actually possess. The introduction of new forms of financial derivative have extended the possibilities for speculation.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

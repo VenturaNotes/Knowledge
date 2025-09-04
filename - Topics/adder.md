@@ -23,4 +23,4 @@ See also CARRY LOOKAHEAD, PARALLEL ADDER, SERIAL ADDER.
 Adder. Truth table of binary half-adder
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

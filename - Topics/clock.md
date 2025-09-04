@@ -6,4 +6,4 @@
 - Because of its constant rate, a clock signal is used to initiate actions within a sequential logic circuit and to synchronize the activities of a number of such circuits. These circuits are said to be clocked. The primary clock rate controls the fastest parts of a computer while slower components are timed by numerous submultiples of the basic frequency.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

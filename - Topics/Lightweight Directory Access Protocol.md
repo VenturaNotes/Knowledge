@@ -12,5 +12,5 @@ aliases:
 - Lightweight Directory Access Protocol (LDAP) locates data about organizations and individuals by searching data directories within a network over the internet. LDAP is a simpler version of the Directory Access Protocol because it requires less code. Organizations most commonly use LDAP to validate usernames and passwords. The protocol does this by authenticating information stored in directories.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

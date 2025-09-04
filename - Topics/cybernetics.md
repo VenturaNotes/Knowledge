@@ -6,5 +6,5 @@
 - $n$. the science of communication processes and automatic control systems in both machines and living things: a study linking the working of the brain and nervous system with the functioning of computers and automated feedback devices. See also BIONICS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

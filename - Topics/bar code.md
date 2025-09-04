@@ -9,5 +9,5 @@
 - (universal product code; UPC) A code, consisting of an array of parallel rectangular bars and spaces, printed on a package for sale in a retail outlet. When an optical scanner (bar-code reader) reads the bar code at the checkout till (see ELECTRONIC POINT OF SALE), the price and description of the goods are displayed on the till screen and the computer-controlled stock record is simultaneously reduced. This also enables the retailer to compile sales volume information.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

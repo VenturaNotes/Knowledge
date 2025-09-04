@@ -10,6 +10,6 @@
 - A market supplied by a small number of firms in which the choice of one firm affects the profits of the other firms. The firms are linked by strategic interaction, so market equilibrium is determined by the outcome of strategic considerations. In Cournot oligopoly the strategic variable for each firm is output level. In Bertrand oligopoly the strategic variable is price. The firms in an oligopoly can also engage in non-price competition through product specifications or advertising. The standard analysis of oligopoly represents the market as a game and computes the Nash equilibrium. The properties of the Nash equilibrium are dependent on the precise specification of the game played between firms. See also BERTRAND COMPETITION; COURNOT COMPETITION; MONOPOLISTIC COMPETITION.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -7,4 +7,4 @@
 - (2) In some graphical applications, a horizontal row of control icons that can often be redefined to suit the user's requirements.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

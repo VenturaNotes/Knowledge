@@ -8,6 +8,6 @@
 - An investment fund specializing in taking speculative positions in markets for shares or currencies. This may involve selling short, that is, selling shares or currency which the fund does not actually possess, in the expectation that the price will fall. Hedge funds also operate in the markets for financial derivatives. In the US only accredited investors (those judged sufficiently wealthy) are permitted to invest in hedge funds due to the risk involved, and the funds are free from direct regulation.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

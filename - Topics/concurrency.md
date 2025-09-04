@@ -11,4 +11,4 @@
 - Shared-memory systems form a distinct group within the MIMD category. They are general-purie multiprocessor systems that share common memory, and are thus also called closely coupled or tightly coupled systems. Distributed systems$\textemdash$wide area, metropolitan area, and local area networks$\textemdash$form another MIMD group, sometimes referred to as loosely coupled systems.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

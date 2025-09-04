@@ -7,5 +7,5 @@
 - The number of people using social media and the speed and ease with which information can be exchanged make these sites an increasingly vital channel for business communication. Because they enable companies to interact directly with customers, they have become an important vehicle for public relations, marketing, and marketing research, as well as advertising (see VIRAL MARKETING). The fact that social media are now increasingly accessed from mobile devices means that business messaging can be both time- and location-sensitive. Maintaining a lively blog and a presence on Facebook and Twitter is now considered essential by many companies, who may employ staff specifically to manage their social-media operations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

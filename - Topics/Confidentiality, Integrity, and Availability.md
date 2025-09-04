@@ -10,4 +10,4 @@ aliases:
 - Availability is a guarantee that authorized persons will be able to access the information when necessary. To guarantee data availability, proper security measures must be in place to maintain software and hardware infrastructures.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

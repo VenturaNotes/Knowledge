@@ -7,5 +7,5 @@
 - (2) (in ethics) the process of assessing the different moral and medical justifications or arguments for particular approaches to a problem. These need to be weighed up in order to reach an appropriate conclusion.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

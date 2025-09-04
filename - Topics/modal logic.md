@@ -7,4 +7,4 @@
 - In temporal logics the modal operators deal with interpretations that might depend on the time: formulas express ' $F$ is sometimes true' or ' $F$ is always true'. Other modal operators express notions of belief, desirability, and obligation. All these ideas are of great relevance in reasoning about programs and systems. Hence recent years have seen extensive use of modal logics in program verification and formal specification, especially for concurrent programs and systems.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - Blu-ray refers to the third generation of compact disc (CD) technology, which was conceived after the creation of audio CDs and digital video discs (or DVDs). The major difference between DVDs and Blu-ray is that this newer optical disc data storage format is better suited for the playback of HD (high definition) videos, and DVDs play videos in standard definition. The process of reading from and writing to a Blu-ray disc is conducted using blue lasers, which is where the technology derives its namesake.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

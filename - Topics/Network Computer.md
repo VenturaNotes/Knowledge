@@ -10,5 +10,5 @@ aliases:
 - A simple access device designed for use on a computer network; it depends on a powerful central server for programs and storage.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

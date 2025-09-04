@@ -11,4 +11,4 @@ aliases:
 - Measuring customer satisfaction helps businesses understand how to improve their offerings, marketing tactics, and customer service techniques, and ultimately boost customer acquisition and retention rates.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

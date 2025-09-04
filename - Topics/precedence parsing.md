@@ -7,4 +7,4 @@
 - Arithmetic expressions provided the original motivation for operator precedence since conventionally multiplication takes precedence over addition. Simple precedence is a generalization of operator precedence. Both methods are limited in the scope of their application to grammars for which at most one precedence relation exists between any ordered pair of symbols. In addition the right-hand side of productions must be unique.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

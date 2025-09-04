@@ -5,4 +5,4 @@
 - Carry lookahead affords a considerable improvement in performance over, say, ripplecarry adders since the carry is generated in parallel at all stages of addition rather than sequentially, as in the ripple-carry adder. Adders using the lookahead technique are thus often described as high-speed adders.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

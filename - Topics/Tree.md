@@ -19,4 +19,4 @@ Tree. Sample tree represented as a Venn diagram (top) and as a directed graph
 The terminology associated with trees is either of a botanic nature, as with forest, leaf, root, or is genealogical, as with ancestor, descendant, child, parent, sibling. See also BINARY TREE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

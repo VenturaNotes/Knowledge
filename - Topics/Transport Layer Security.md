@@ -10,5 +10,5 @@ aliases:
 - (TLS) A commonly used encryption technique for scrambling data, such as credit card numbers, as they are passed across the Internet from a web browser to a web server. TLS was developed as a successor to the secure sockets layer (SSL) protocol.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

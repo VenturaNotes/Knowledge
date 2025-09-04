@@ -20,4 +20,4 @@ aliases:
 	- Substitution of variable information when printing the document, for easy production of form letters, etc.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -36,4 +36,4 @@ Font. Commonly used fonts
 A font usually has [[proportional spacing]], where each character and symbol is allotted a horizontal space commensurate with its width (as in the print you are now reading). In monospace (or fixed pitch) fonts, such as Courier, each character or symbol is allocated the same width, as on a typewriter. See also KERNING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

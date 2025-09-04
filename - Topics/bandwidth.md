@@ -27,8 +27,8 @@ aliases:
 ## References
 
 [^1]: https://answers.mak.ac.ug/network-connectivity/computer-networking-terminology
-[^2]: [[Home Page - Glossary by ada computer science]]
+[^2]: [[(Home Page) Glossary by ada computer science]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^5]: [[Home Page - Glossary by Capterra]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[(Home Page) Glossary by Capterra]]
 [^6]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

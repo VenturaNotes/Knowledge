@@ -5,4 +5,4 @@
 - Any syllogism must relate to three entities (which can be a group, an individual entity, or a concept$\textemdash$here 'men', Socrates', and 'mortality'), each of which appears exactly twice. 
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

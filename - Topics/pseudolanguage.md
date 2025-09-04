@@ -5,4 +5,4 @@
 - Pseudolanguages are not intended to be executed by computer; they must be interpreted by people.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

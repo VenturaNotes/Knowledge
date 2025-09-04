@@ -6,5 +6,5 @@
 - A digital currency launched in 2009. The currency units, bitcoins, are used as a medium of exchange and store of value despite not being backed by any bank. They can be bought and sold using most recognized currencies or created from nothing by solving certain mathematical problems using specialized software, a process known as 'bitcoin mining'. Although transactions using bitcoins are recorded in a public ledger, the identities of those exchanging the currency for goods or services are withheld. This has caused questions to be raised about the extent of its use in illegal activities.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

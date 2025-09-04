@@ -14,4 +14,4 @@ $$\begin{align*}  \lnot p \implies q \\ \text{Therefore, p} \end{align*}$$
 ## References
 
 [^1]: [[(23) Logical Argument Forms - Generalizations, Specialization, Contradiction#^bc0652]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

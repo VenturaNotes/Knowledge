@@ -6,4 +6,4 @@
 - Unlike a set, a type cannot contain itself (i.e. a type cannot be one its subtypes). This avoids some well-known paradoxes of sets, notably Russell's paradox. See also ABSTRACT DATA TYPE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

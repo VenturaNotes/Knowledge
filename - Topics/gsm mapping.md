@@ -5,4 +5,4 @@
 - for all $u, v$ in $I^{*}, f(u v)$ has the form $f(u) w$ for some $w$ in $O^{*}$, where $I^{*}$ and $O^{*}$ are the sets of all input and output strings.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

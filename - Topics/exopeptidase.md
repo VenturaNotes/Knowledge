@@ -6,5 +6,5 @@
 - $n$. an enzyme (e.g. trypsin) that takes part in the digestion of proteins by splitting off the terminal amino acids of a polypeptide chain. Compare ENDOPEPTIDASE. See also PEPTIDASE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

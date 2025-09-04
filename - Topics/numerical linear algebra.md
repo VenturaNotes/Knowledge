@@ -5,4 +5,4 @@
 - There is now available high-quality software for an enormous variety of linear algebra processes.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

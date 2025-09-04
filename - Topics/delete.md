@@ -6,4 +6,4 @@
 - (3) One of the basic actions performed on sets that, when applied in the form$$delete(el,S)$$removes the element $e l$ from $S$; if $e l$ was not present in $S$ the action has no effect on the membership of $S$. See also OPERATIONS ON SETS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

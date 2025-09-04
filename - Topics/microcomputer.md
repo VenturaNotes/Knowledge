@@ -6,4 +6,4 @@
 - (2) A single integrated circuit containing all the logic elements needed for a complete computer system.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

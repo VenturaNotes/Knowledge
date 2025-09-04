@@ -8,4 +8,4 @@
 
 ## References
 
-[^1]: [[Home Page - Open Data Structures (in Java) by Pat Morin#^4scvjk]]
+[^1]: [[(Home Page) Open Data Structures (in Java) by Pat Morin#^4scvjk]]

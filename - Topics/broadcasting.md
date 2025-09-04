@@ -5,4 +5,4 @@
 - Broadcasting may be used for a variety of purposes. For instance, to find the shortest path to a destination, a message can be broadcast to all intermediate nodes repeatedly until the destination node is reached. If path information is recorded as the message traverses the network, the same path can be used for future messages to the same destination node. As a second example, in local area networks with a tree-like topology, or in satellite communication links with multiple ground stations within a beam radius, broadcasting can be used to simplify addressing. This allows certain messages, such as request for a bootstrap, to be sent to all hosts with the expectation that at least one host will be able to satisfy the request. Thirdly, a broadcast message may be one that carries general information of potential interest to all nodes on the net.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

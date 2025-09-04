@@ -8,4 +8,4 @@
 	- Animations of related curves, and an interactive manipulation of the spiral in Geometer's Sketchpad
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

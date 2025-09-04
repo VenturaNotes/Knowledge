@@ -6,5 +6,5 @@
 - $n$. the administration of a derivative of digitalis to a patient with heart failure until the optimum level has been reached in the heart tissues. At this stage the control of heart failure should be adequate and there should be few side-effects. The process of digitalization may take several days.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

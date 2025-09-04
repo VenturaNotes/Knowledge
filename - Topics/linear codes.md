@@ -5,4 +5,4 @@
 - In the case of linear $(n, k)$ block codes, the generator matrix is $k \times n$ and the parity-check matrix is $(n-k) \times n$; the elements of both matrices are elements of the base field (this being $\{0,1\}$ for binary codes). See also CONVOLUTIONAL CODE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

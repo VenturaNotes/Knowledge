@@ -5,4 +5,4 @@
 - Google Fi puts a strong emphasis on privacy and security features, adding secure VPNs to its three-tier pricing plan. All calls made using Google Fi and an Android phone automatically feature end-to-end call encryption when chatting with other Google Fi customers. Google Fi is compatible with select Apple, Samsung, LG, Motorola, Huawei, OnePlus, and other cell phone models. If a cell phone model does not support CDMA radio technology, it will not be able to connect to Google Fi.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

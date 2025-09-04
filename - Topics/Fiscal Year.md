@@ -8,6 +8,6 @@
 - The year used for accounting purposes by a government. In the UK, for example, the fiscal year runs from 6 April to 5 April. The US budget year runs from 1 October to 30 September.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

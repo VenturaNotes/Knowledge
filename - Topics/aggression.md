@@ -6,5 +6,5 @@
 - $n$. Behavior whose primary or sole purpose or function is to injure another person or organism, whether physically or psychologically. See also DISPLACED AGGRESSION, ESCALATED FIGHTING, FRUSTRATION-AGGRESSION HYPOTHESIS, HOT SAUCE TASK, IRRITABLE MALE SYNDROME, POINT SUBTRACTION AGGRESSION PARADIGM, QUIET-BITING ATTACK, ROAD RAGE, ROLD RAGE, Rosenzweig Picture-Frustration Study, sham rage, sublimation, Taylor aggression paradigm, testosterone, Thanatos, Type A, ventromedial hypothalamus. \[From Latin aggredi, aggressus to attack, from ad to + gradi to step + -ion indicating an action, process, or state]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

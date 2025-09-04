@@ -6,5 +6,5 @@
 - $n$. an antiviral drug that increases the activity of dopamine in the brain and is used mainly to treat Parkinson's disease. Common side-effects include nervousness, loss of muscular coordination, and insomnia.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

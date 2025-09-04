@@ -11,4 +11,4 @@
 ## References
 
 [^1]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

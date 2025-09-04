@@ -10,4 +10,4 @@ aliases:
 - The MPEG video-compression algorithm relies on two basic techniques: block-based motion compensation for the reduction of temporal redundancy (effectively recognizing the similarity between adjacent frames in the video) and DCT (discrete cosine transform) compression for the reduction of spatial redundancy (see JPEG).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

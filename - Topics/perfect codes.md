@@ -5,4 +5,4 @@
 - The only binary linear perfect codes are the repetition codes, the Hamming codes, and the $(23,12)$ Golay code.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

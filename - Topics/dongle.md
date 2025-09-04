@@ -5,4 +5,4 @@
 - (2) Any small hardware device that plugs into a computer port. Examples include USB drives and some Bluetooth transceivers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

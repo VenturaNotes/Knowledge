@@ -11,5 +11,5 @@
 - A form of heterochrony in which, during the course of evolution, the rate of development of an organism is speeded up and new stages are added to the end of the ancestral developmental sequence without prolonging the total development time. The morphological outcome is an example of peramorphosis, and the developmental sequence (ontogeny) conforms to the theory of recapitulation.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - The second definition implies that the communication system provides protocol translation between input and output devices whereas the first definition implies that there is a compensating translation. The second definition cannot be implemented in all cases since there are functions that are supported by some terminal devices but have no equivalent in others.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

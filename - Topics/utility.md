@@ -12,5 +12,5 @@
 ## References
 
 [^1]: https://www.investopedia.com/terms/u/utility.asp#:~:text=In%20economics%2C%20utility%20is%20a,strive%20to%20maximize%20their%20utility.
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

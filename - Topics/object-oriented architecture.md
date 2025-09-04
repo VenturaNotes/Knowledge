@@ -5,4 +5,4 @@
 - Examples of object-oriented architecture systems were the IBM System 38, the Carnegie-Mellon experimental `C.mmp/Hydra`, and the Intel iAPX 432.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Data may also be verified when it is copied to a storage peripheral from the main store or another storage peripheral. In this case the data is normally coded in a way that allows error detection, and verification only involves checking the written data for consistency: it is not compared with the source data.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

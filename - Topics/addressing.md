@@ -6,4 +6,4 @@
 - Addresses may be fixed-length or extensible. In fixed-length addressing all addresses occupy a fixed number of digits. An example is the Ethernet protocol, which uses 48-bit addresses. In extensible addressing the length of an address may vary from case to case. For example, in X121 'international data numbers' are defined and these may be from 3 to 14 decimal digits in length.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

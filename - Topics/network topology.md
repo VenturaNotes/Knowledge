@@ -18,5 +18,5 @@
 [^1]: https://youtu.be/NRckVJk9n0k?si=iGYuTxcHcFLF4y3E
 [^2]: Google's Search Labs | AI Overview
 [^3]: https://youtu.be/HGYOEeik844?si=7KJaPkDktjARENM4
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^5]: [[Home Page - Glossary by Capterra]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[(Home Page) Glossary by Capterra]]

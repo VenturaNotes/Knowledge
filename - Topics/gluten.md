@@ -6,5 +6,5 @@
 - $n$. a mixture of the two proteins gliadin and glutenin. Gluten is present in wheat and rye and is important for its baking properties: when mixed with water it becomes sticky and enables air to be trapped and dough to be formed. Sensitivity to gluten leads to coeliac disease in children.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

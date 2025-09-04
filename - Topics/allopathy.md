@@ -6,5 +6,5 @@
 - $n$. (in homeopathic medicine) the orthodox system of medicine, in which the use of drugs is directed to producing effects in the body that will directly oppose and so alleviate the symptoms of a disease. Compare HOMEOPATHY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

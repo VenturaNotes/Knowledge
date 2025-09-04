@@ -6,5 +6,5 @@
 - (vision statement) A statement that encapsulates the overriding purpose and objectives of an organization. It is used to communicate this purpose to all stakeholder groups, both internal and external, and to guide employees in their contribution towards achieving it. See also STRATEGIC INTENT; VALUE STATEMENT.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Typically, distributors earn revenue by buying huge quantities of discounted products from the manufacturers and selling them directly to customers or retailers at an inflated price. Distributors are an important part of the supply chain because they help manufacturers sell their products to a wider customer base.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

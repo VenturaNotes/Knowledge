@@ -5,4 +5,4 @@
 - (2) An RISC microprocessor chip introduced in 1987 by Sun Microsystems Inc., now part of Oracle. Originally 32-bit, the processor now has a 64-bit architecture and is widely employed in hardware for UNIX-based operating systems, including the Sun Solaris operating system. The latest version is the SPARC T5.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

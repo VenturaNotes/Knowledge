@@ -48,4 +48,4 @@ END Procedure
 ## References
 
 [^1]: [[(2) Big O Part 2 – Constant Complexity]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

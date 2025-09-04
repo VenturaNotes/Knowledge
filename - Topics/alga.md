@@ -5,4 +5,4 @@
 - The organisms formerly known as blue-green algae are now classified as bacteria (see CYANOBACTERIA).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

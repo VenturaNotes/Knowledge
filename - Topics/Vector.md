@@ -22,5 +22,5 @@ aliases:
 
 [^1]: https://www.rpi.edu/dept/phys/Courses/PHYS4210/S10/NotesOnVectors.pdf
 [^2]: [[(7) Angle Between 2 Vectors (Formula)]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

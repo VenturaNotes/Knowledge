@@ -11,7 +11,7 @@
 - (2) A method of assessment of a risky investment project based on a number of possible realizations for the macroeconomic and project-specific factors that determine the value of the project, where in computations the factors are changed one at a time. Typically, three realizations$\textemdash$pessimistic, most likely, and optimistic$\textemdash$are considered for each factor. See also SCENARIO ANALYSIS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

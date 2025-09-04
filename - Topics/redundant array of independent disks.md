@@ -20,5 +20,5 @@ aliases:
 - In simplest terms, a redundant array of independent disks (RAID) is a way of storing and securing the same information in a variety of ways. This method of data storage often includes several small-capacity hard disks, which can store a large amount of data while providing redundancy and overall reliability. A RAID approach involves capturing data, stripping that data, and copying it onto multiple drives. This approach provides fast, secure data storage.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

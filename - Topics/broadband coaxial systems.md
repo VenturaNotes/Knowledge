@@ -7,4 +7,4 @@
 - Two-way systems fall into midsplit or subsplit categories. Midsplit systems divide the cable bandwidth equally between inbound and outbound channels. Subsplit systems put inbound traffic in the $5-30 \mathrm{MHz}$ bands and outbound traffic in the $54-100 \mathrm{kHz}$ bands. This format is the easiest way to retrofit onto a one-way CATV system, and leaves the VHF TV channels on their normal 'off-the-air' frequency assignments.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

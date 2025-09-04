@@ -11,5 +11,5 @@ aliases:
 - Trademark Abbreviation for Microsoft Disk Operating System. Designed originally for the IBM Personal Computer, it became the standard operating system for larger personal computers. Earlier versions of Windows ran on MS-DOS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

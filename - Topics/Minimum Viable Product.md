@@ -11,4 +11,4 @@ aliases:
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

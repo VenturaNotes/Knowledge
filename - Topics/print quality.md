@@ -6,4 +6,4 @@
 - Some printouts are intended for data capture via OCR equipment; examples are debit and payment slips and cheques. These must conform to the standards specifying font shape (e.g. OCR B) and with the minimum print-quality standards specified for OCR. These are international standards.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

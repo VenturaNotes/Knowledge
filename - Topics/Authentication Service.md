@@ -13,5 +13,5 @@
 	- #question What is a time-sharing operating system?
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: ChatGPT

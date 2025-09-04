@@ -6,5 +6,5 @@
 - A measure of how 'humped' a probability distribution is, compared to a normal distribution with the same mean and variance. The kurtosis of a variable $x$ with mean $\mu$ is defined by $K=E\left[(x-\mu)^{4}\right] /[E(x-\left.\mu)^{2}\right]^{2}$. A variable with a normal distribution has $K=3$. A distribution with $K$ $>3$ is slim and long-tailed, with more weight in its centre and extremes and less at medium distances from the mean than a normal distribution. A distribution with $K<3$ is fat and short-tailed, with less weight in its centre and extremes and more at medium distances from the mean than a normal distribution.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

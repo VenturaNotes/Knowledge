@@ -10,4 +10,4 @@
 	- Can get product to market early
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

@@ -6,5 +6,5 @@
 - A family, or a collection of random variables, indexed by time. It is said to be a discrete process, or a discrete time process, if the time index only takes integer values (typically, $0, \pm 1, \pm 2, \ldots$ ), and a continuous process, or a continuous time process, if the time index takes a continuous range of real values (finite or infinite).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

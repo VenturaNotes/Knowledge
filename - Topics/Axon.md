@@ -10,5 +10,5 @@ aliases: axons
 - $n$. a nerve fibre: a single process extending from the cell body of a neuron and carrying nerve impulses away from it. An axon may be over a metre in length in certain neurons. In large nerves the axon has a sheath (neurilemma) made of myelin; this is interrupted at intervals by gaps called nodes of Ranvier, at which branches of the axon leave. An axon ends by dividing into several branches called telodendria, which make contact with other nerves or with muscle or gland membranes.
 ## References
 
-[^1]: [[Home Page - Neuroscience - Exploring the Brain by Mark F. Bear et al.#^30ee8f]]
+[^1]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^30ee8f]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - Complex systems are commonly represented as networks with vertices representing the parts and edges representing interactions. As the number of individual elements may be too great to treat each as a part, homogeneous subsets may be compartmentalized together; for example, an entire city may be treated as a single component.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

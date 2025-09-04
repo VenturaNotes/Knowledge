@@ -10,5 +10,5 @@ aliases:
 - Classless Inter-Domain Routing (CIDR) is the successor to class-oriented domains for internet routing. The original IPv4 system would give Class A and B networks addresses that could handle between 65 thousand and 16 million hosts, but few organizations needed even a fraction of that many addresses. Organizations simply were not using that many computers on the internet. CIDR can assign addresses more precisely. One IP address can represent thousands of users of a single internet service provider (ISP).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

@@ -6,5 +6,5 @@
 - $n$. an indication of a particular disorder that is detected by a physician while examining a patient but is not apparent to the patient. Compare SYMPTOM.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

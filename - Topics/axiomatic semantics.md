@@ -5,4 +5,4 @@
 - The approach grew out of the early work of R. W. Floyd and C. A. R. Hoare. Though originally intended as methods for program correctness proofs (in particular as an alternative notation for the Floyd method), it was observed that Hoare logic could also be viewed as an axiomatic semantics for a very simple programming language, namely the while programming language. The approach was consequently extended to the description of practically useful languages.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - A variant of the method, the method of [[LDU decomposition]], seeks lower and upper triangular matrices with unit diagonal and a diagonal matrix $D$, such that$$A=L D U$$If the matrix $A$ is symmetric and positive definite, there is an advantage in finding a lower triangular matrix $L$ such that$$A=L L^{\mathrm{T}}$$(see TRANSPOSE). This method is known as Cholesky decomposition; the diagonal elements of $L$ are not, in general, unity.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

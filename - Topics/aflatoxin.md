@@ -6,5 +6,5 @@
 - $n$. a poisonous substance produced in the spores of the fungus Aspergillus flavus, which infects peanuts. The toxin is known to produce cancer in certain animals and is suspected of being the cause of liver cancers in human beings living in warm and humid regions of the world, where stored nuts and cereals may be contaminated by the fungus.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

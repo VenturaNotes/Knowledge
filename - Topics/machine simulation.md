@@ -9,4 +9,4 @@
 - Machine simulation of this kind is generally discussed for idealized abstract machines, such as Turing machines, and for formal models of microprocessors. It provides a useful approach to defining the correctness of implementations. See also MACHINE EQUIVALENCE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

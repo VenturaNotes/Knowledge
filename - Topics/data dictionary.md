@@ -7,4 +7,4 @@
 - The term data dictionary is sometimes used misleadingly by software product vendors to refer to the alphabetical listings of names automatically produced when database schema and data manipulation coding is being processed and compiled, and it is important not to confuse this use with the accepted technical meaning of the term.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

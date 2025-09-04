@@ -8,5 +8,5 @@
 - (2) In a cooperative game the kernel of the game is the set of all individually rational pay-off configurations (that is, each player's pay-off in a coalition is no lower than in a one-person coalition) in which every pair of players is in an equilibrium. Equilibrium is defined here as a situation in which, whenever two players, say $j$ and $k$, belong to the same coalition, $j(k)$ cannot gain more than $k(j)$ by switching to any other coalition which does not require $k$ 's ($j$ 's) consent.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -7,5 +7,5 @@
 - Literally translated from Latin: from what is before. In the economic literature it is used to indicate that a claim is true on the basis of earlier reasoning rather than empirical evidence.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

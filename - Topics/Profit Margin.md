@@ -6,4 +6,4 @@
 - That being said, it's important to note that a low profit margin doesn't necessarily mean a business is struggling to turn a profit. It can mean that the company compensates for earning less cents on the dollar by increasing its volume of products or services sold. However, if a company has a low profit margin and doesn't sell many of its offerings, it's unlikely to survive long on the market.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

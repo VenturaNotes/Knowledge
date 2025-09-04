@@ -40,5 +40,5 @@ $$
 of the integers $1,2, \ldots, n$. par( $\sigma$ ), the parity of $\Sigma$, is either +1 or -1 depending on whether $\Sigma$ is an even permutation or an odd permutation.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

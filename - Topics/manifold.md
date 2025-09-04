@@ -5,4 +5,4 @@
 - The above defines what a topological manifold is, but manifolds can have further smooth or metric structure. See classification theorem for surfaces, orientability, transition map, Riemann surface, Riemannian manifold.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

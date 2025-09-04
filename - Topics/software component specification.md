@@ -5,4 +5,4 @@
 - A software component specification should be detailed, focusing on what the software is to do rather than how this is to be done. The traditional use of natural language for this purpose is being superseded by use of more formal notations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

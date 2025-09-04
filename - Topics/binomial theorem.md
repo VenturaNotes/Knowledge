@@ -20,4 +20,4 @@ $$where $\binom{n}{r}=\frac{n!}{r!(n-r)!}$ (see BINOMIAL COEFFICIENT).
 ## References
 
 [^1]: [[(10) Counting Subsets and the Binomial Theorem (full lecture)]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

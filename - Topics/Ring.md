@@ -45,5 +45,5 @@ itself are circularly linked. 3. In network topology, a ring network is a closed
 - (2) An association of dealers in an auction sale, especially a sale of antiques or paintings, who agree not to bid against each other but to allow one of their number to buy an article being auctioned at an artificially low price, on the understanding that it will be auctioned again, exclusively to members of the ring. The difference between the purchase price and the final price paid is shared among the members of the ring. This is an illegal practice.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

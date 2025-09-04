@@ -7,5 +7,5 @@
 - Wildcard characters enable IT administrators to write shorter computer commands, eliminating the need to specifically mention each item that a command covers. For instance, say an IT administrator wants to search a computer system for all notepad files using a Windows command prompt. They could simply type ‘dir*.exe.’ into the Windows command line interface to display all notepad files in the directory instead of typing out the entire search command.
 ## References
 
-[^1]: [[Home Page - SQL Tutorial by W3Schools#SQL Wildcards]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) SQL Tutorial by W3Schools#SQL Wildcards]]
+[^2]: [[(Home Page) Glossary by Capterra]]

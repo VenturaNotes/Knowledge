@@ -8,6 +8,6 @@
 - A background program that operates unsupervised on the Internet. Bots often perform repetitive tasks-a web crawler is the most common example of this-or provide automated responses. Bots can also be used for malicious purposes: a botnet is a collection of computers compromised by bots controlled by the same intruder.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

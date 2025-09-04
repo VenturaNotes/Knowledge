@@ -11,4 +11,4 @@
 - Service providers offer these telecommunications services to customers for a fee.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

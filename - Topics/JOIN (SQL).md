@@ -10,4 +10,4 @@ aliases:
 	- #question What is meant by related?
 ## References
 
-[^1]: [[Home Page - SQL Tutorial by W3Schools#SQL Joins]]
+[^1]: [[(Home Page) SQL Tutorial by W3Schools#SQL Joins]]

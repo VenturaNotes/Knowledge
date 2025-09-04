@@ -6,5 +6,5 @@
 - $n$. a benzodiazepine used for the short-term relief of anxiety. Side-effects include drowsiness and lightheadedness.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

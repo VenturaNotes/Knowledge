@@ -5,4 +5,4 @@
 - IMS, an important database management system supplied by IBM, is based on and implements this data model.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

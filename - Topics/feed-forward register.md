@@ -6,4 +6,4 @@
 - When used in coding or in digital signal processing, feed-forward registers may be binary or q-ary, and may be implemented in hardware or software.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

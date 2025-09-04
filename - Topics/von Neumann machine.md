@@ -9,4 +9,4 @@
 - The vast majority of present-day computers are von Neumann machines. The name is taken from that of the American, John von Neumann. Compare NON VON NeUMANN ARCHITECTURE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

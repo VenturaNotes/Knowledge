@@ -6,4 +6,4 @@
 - (3) A computer used to emulate another computer, known as the target computer. See also emulation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

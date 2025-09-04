@@ -5,4 +5,4 @@
 - (2) Either of the two voltage levels used in a binary logic gate. See also MULTIVALUED LOGIC.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

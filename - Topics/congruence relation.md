@@ -62,4 +62,4 @@ $$
 This is often referred to as the substitution property. Congruence relations can be defined for such algebraic structures as certain kinds of algebras, automata, groups, monoids, and for the integers; the latter is the congruence modulo $m$ of def. 1.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

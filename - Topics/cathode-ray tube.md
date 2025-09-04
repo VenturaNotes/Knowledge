@@ -9,4 +9,4 @@ aliases:
 - For many years the most widely used computer display device, the CRT is being rapidly superseded by flat-panel displays.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - Semiconductors of different conductivity$\textemdash$n-type, p-type, highly doped n- and p-type, i-type$\textemdash$can be brought together to form a variety of junctions, which are the basis of semiconductor devices used as electronic components. The term semiconductor is frequently applied to the devices themselves.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

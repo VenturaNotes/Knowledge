@@ -7,4 +7,4 @@
 	- (2) Of or relating to ableism. \[From able + Greek ismos indicating a state or condition, on the model of words such as ageism]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

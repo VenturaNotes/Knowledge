@@ -1,17 +1,17 @@
 {
 	"nodes":[
-		{"type":"file","file":"Neuroscience/General Chemistry/Michel van Biezen/(2) CHEMISTRY 2 ATOMS, MOLECULES, AND IONS/Home Page - Atoms, Molecules, and Ions by Michel van BIezen.md","id":"b70c8c9bc9539122","x":-1120,"y":-520,"width":400,"height":400},
-		{"type":"file","file":"Mathematics/Calculus/Calculus I/Michel van Biezen/(2) CALCULUS 1 CH 2 WHAT IS A DERIVATIVE/Home Page - What is a Derivative by Michel van Biezen.md","id":"2d1dbcb0009ea470","x":-1120,"y":-40,"width":400,"height":400,"color":"4"},
-		{"type":"file","file":"Mathematics/Linear Algebra/Michel van Biezen/(2) LINEAR ALGEBRA 2 - DETERMINANTS/Home Page - Determinants by Michel van Biezen.md","id":"eb59f767df3368fe","x":-1120,"y":440,"width":400,"height":400},
-		{"type":"file","file":"Mathematics/Linear Algebra/Dr. Trefor Bazett/Home Page - Linear Algebra by Dr. Trefor Bazett.md","id":"d3121343673fb627","x":-160,"y":410,"width":400,"height":400},
+		{"type":"file","file":"Neuroscience/General Chemistry/Michel van Biezen/(2) CHEMISTRY 2 ATOMS, MOLECULES, AND IONS/(Home Page) Atoms, Molecules, and Ions by Michel van BIezen.md","id":"b70c8c9bc9539122","x":-1120,"y":-520,"width":400,"height":400},
+		{"type":"file","file":"Mathematics/Calculus/Calculus I/Michel van Biezen/(2) CALCULUS 1 CH 2 WHAT IS A DERIVATIVE/(Home Page) What is a Derivative by Michel van Biezen.md","id":"2d1dbcb0009ea470","x":-1120,"y":-40,"width":400,"height":400,"color":"4"},
+		{"type":"file","file":"Mathematics/Linear Algebra/Michel van Biezen/(2) LINEAR ALGEBRA 2 - DETERMINANTS/(Home Page) Determinants by Michel van Biezen.md","id":"eb59f767df3368fe","x":-1120,"y":440,"width":400,"height":400},
+		{"type":"file","file":"Mathematics/Linear Algebra/Dr. Trefor Bazett/(Home Page) Linear Algebra by Dr. Trefor Bazett.md","id":"d3121343673fb627","x":-160,"y":410,"width":400,"height":400},
 		{"type":"file","file":"- Topics/Molar Mass.md","id":"687e338fb09effd9","x":-160,"y":-380,"width":400,"height":400},
-		{"type":"file","file":"Mathematics/Linear Algebra/3Blue1Brown/Home Page - Essence of Linear Algebra by 3Blue1Brown.md","id":"bf2859fd2674e8e5","x":720,"y":440,"width":400,"height":400},
-		{"type":"file","file":"Mathematics/Linear Algebra/MathTheBeautiful/Part 1 Linear Algebra - An In-Depth Introduction with a Focus on Applications/Home Page - Part 1 Linear Algebra by MathThe Beautiful.md","id":"c14ae239ef603472","x":-320,"y":1080,"width":400,"height":400},
-		{"type":"file","file":"Mathematics/Calculus/Calculus I/Michel van Biezen/(3) CALCULUS 1 CH 3 DERIVATIVES, TECHNIQUES OF DIFFERENTIATION/Home Page - Derivatives, Techniques of Differentiation by Michel van Biezen.md","id":"e170b90cc3fad33f","x":-1840,"y":240,"width":400,"height":400},
-		{"type":"file","file":"Computer Science/Algorithms/Thomas H. Cormen et. al./Home Page - Introduction to Algorithms 4th edition by Thomas H. Cormen et al..md","id":"90d7f986f50c97b8","x":-1840,"y":1400,"width":400,"height":400},
-		{"type":"file","file":"Computer Science/Programming Languages/Java/Bro Code/Home Page - Java tutorial for beginners.md","id":"1ffdbd61393d7d75","x":-1200,"y":2000,"width":400,"height":400},
+		{"type":"file","file":"Mathematics/Linear Algebra/3Blue1Brown/(Home Page) Essence of Linear Algebra by 3Blue1Brown.md","id":"bf2859fd2674e8e5","x":720,"y":440,"width":400,"height":400},
+		{"type":"file","file":"Mathematics/Linear Algebra/MathTheBeautiful/Part 1 Linear Algebra - An In-Depth Introduction with a Focus on Applications/(Home Page) Part 1 Linear Algebra by MathThe Beautiful.md","id":"c14ae239ef603472","x":-320,"y":1080,"width":400,"height":400},
+		{"type":"file","file":"Mathematics/Calculus/Calculus I/Michel van Biezen/(3) CALCULUS 1 CH 3 DERIVATIVES, TECHNIQUES OF DIFFERENTIATION/(Home Page) Derivatives, Techniques of Differentiation by Michel van Biezen.md","id":"e170b90cc3fad33f","x":-1840,"y":240,"width":400,"height":400},
+		{"type":"file","file":"Computer Science/Algorithms/Thomas H. Cormen et. al./(Home Page) Introduction to Algorithms 4th edition by Thomas H. Cormen et al..md","id":"90d7f986f50c97b8","x":-1840,"y":1400,"width":400,"height":400},
+		{"type":"file","file":"Computer Science/Programming Languages/Java/Bro Code/(Home Page) Java tutorial for beginners.md","id":"1ffdbd61393d7d75","x":-1200,"y":2000,"width":400,"height":400},
 		{"type":"file","file":"- Topics/Java.md","id":"42fbc2eeb2dbbd50","x":-2480,"y":2160,"width":400,"height":400,"color":"4"},
-		{"id":"b2bb6946ab1da243","type":"file","file":"Computer Science/Data Structures/Margaret M. Fleck/Home Page - Building Blocks for Theoretical Computer Science by Margaret M. Fleck.md","x":-1440,"y":2720,"width":400,"height":400}
+		{"id":"b2bb6946ab1da243","type":"file","file":"Computer Science/Data Structures/Margaret M. Fleck/(Home Page) Building Blocks for Theoretical Computer Science by Margaret M. Fleck.md","x":-1440,"y":2720,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"41d68fe238fdb660","fromNode":"2d1dbcb0009ea470","fromSide":"left","toNode":"e170b90cc3fad33f","toSide":"right","color":"4","label":"Calc Chapter 2 to 3"},

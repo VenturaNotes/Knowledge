@@ -6,4 +6,4 @@
 - Logic gates based on fluid logic have been successfully used as have optical switches used as logic gates. See also DIGITAL LOGIC, LOGIC CIRCUIT, MULTIVALUED LOGIC.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

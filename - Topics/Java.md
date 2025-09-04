@@ -21,6 +21,6 @@ for(int i=10; i>=0; i--)
 - A programming language and associated software platform that enable complex and graphical customer applications to be written and then accessed from a web browser. An example might be a form for calculating interest on a loan.
 ## References
 [^1]: [[(13) Java for loop]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

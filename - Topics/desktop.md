@@ -5,4 +5,4 @@
 - (2) Part of a graphical user interface which invites the user to imagine that some or all of the screen is an actual desktop on which actions analogous to those occurring on a physical desktop can be carried out. These include the opening and closing of folders, the entry and modification of text, the disposal of unwanted material into a wastebasket, and the use of communication systems analogous to telephones and mailboxes. The analogy is supposed to make life easier for office workers unused to computers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - In partial differential equations, linear systems arise for which the method of [[successive over-relaxation]] is particularly suitable. This is given by$$(\mathrm{D}+\omega \mathrm{L}) x_{k+1}=\{(1-\omega) \mathrm{D}-\omega \mathrm{U}\} x_{k}+\omega b$$where $\mathrm{A}=\mathrm{D}+\mathrm{L}+\mathrm{U}, \mathrm{D}$ consists of the diagonal elements of A , and $\mathrm{L}, \mathrm{U}$ are respectively the strictly lower and upper triangular parts. The scalar $\omega$ is a free parameter and is chosen to try to maximize the rate of convergence. For special problems in partial differential equations, optimal values of $\omega$ can be computed. More recently the successive over-relaxation method is an important technique in the multigrid method.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

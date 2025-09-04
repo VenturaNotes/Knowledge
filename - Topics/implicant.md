@@ -5,4 +5,4 @@
 - A [[prime implicant]] is an implicant that includes a standard product of a function that is not otherwise included.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

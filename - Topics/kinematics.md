@@ -6,5 +6,5 @@
 - $n$. the study of motion and the forces required to produce it. This includes the different forces at work during the movement of a single part of the body, and more complex movements such as running and climbing.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

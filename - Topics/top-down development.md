@@ -5,4 +5,4 @@
 - In practice, 'pure' top-down development is not possible; the choice of more basic elements at each stage must always be guided by an awareness of the facilities of the implementation language, and even then it will often be discovered at a later stage that some earlier choice was inappropriate, leading to a need for iteration. Compare BOTTOM-UP DEVELOPMENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

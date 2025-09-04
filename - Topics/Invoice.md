@@ -5,4 +5,4 @@
 - Businesses use invoices to accurately track their revenue and expenses. Invoices also help businesses decrease the risk of miscommunication with their customers and business partners regarding financial transactions.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

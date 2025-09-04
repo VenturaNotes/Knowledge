@@ -14,4 +14,4 @@ aliases:
 - This equipment has one function: To support voice, video, voicemail, messaging, and content-sharing communication. Sometimes UC communications include consumer applications and devices.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

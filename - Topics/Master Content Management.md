@@ -9,4 +9,4 @@ aliases:
 - MCM also relates to a set of identifiers and attributes businesses apply to unstructured data. Organizations can incorporate these data sets into a content management system (CMS) and link that system to a master data management (MDM) application. By doing so, organizations can align data to their marketing, sales, and operational objectives.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

@@ -38,4 +38,4 @@ $$
 according as it is unsigned or signed. In practice, the value of $n$ is usually $8,10,12,14$, or 16 . Since the resolution is finite, the conversion process introduces quantization noise (see DISCRETE AND CONTINUOUS SYSTEMS). A/D converters are available in integrated circuit form. See also D/A CONVERTER.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

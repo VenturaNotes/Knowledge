@@ -14,6 +14,6 @@
 - normal distribution (Gaussian distribution) A continuous distribution of a random variable described by a probability density function of the form$$f(x)=\exp \left[-(x-\mu)^{2} /\left(2 \sigma^{2}\right)\right] / \sqrt{2 \pi \sigma^{2}},-\infty<x<\infty$$The normal distribution has mean $\mu$, variance $\sigma^{2}$, and is symmetric about the mean. The standard normal distribution is defined as the normal distribution with zero mean and unit variance; normal distributions with arbitrary mean and variance form a location-scale family. The normal distribution plays an important role in statistical inference due to the Central Limit Theorems.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

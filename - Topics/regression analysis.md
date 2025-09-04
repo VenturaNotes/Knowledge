@@ -9,5 +9,5 @@
 - A statistical technique that attempts to measure the extent to which one variable is related to two or more other variables, often with the aim of predicting future values of the dependent variable. It is used extensively in financial economics and marketing theory. See CAUSAL QUANTITATIVE MODELS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

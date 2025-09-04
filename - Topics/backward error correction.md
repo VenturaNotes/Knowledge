@@ -6,4 +6,4 @@
 - Since the return channel itself may be prone to errors, and to limit the amount of storage necessary at the transmitter, the [[positive acknowledgment and retransmission]] (PAR) technique is generally preferred. See also ERROR-DETECTING CODE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

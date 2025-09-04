@@ -5,4 +5,4 @@
 - The pgf of the sum $X + Y$ of two independent random variables is given by $$G_{X+Y}(s) = G_X(s)G_Y(s),$$and for random sampling, where $Z = X_1 + ... + X_n$, with N itself a random variable and the $X_i$ are iid, then $G_Z(s) = G_N(G_X(s)).$ 
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

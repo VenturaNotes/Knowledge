@@ -83,6 +83,6 @@ print(x)
 [^2]: https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string
 [^3]: Google's Search Labs | AI Overview
 [^4]: https://www.geeksforgeeks.org/quizzes/functions-python-gq/
-[^5]: [[Home Page - 500+ Python Interview Questions and Answers by applyre]]
+[^5]: [[(Home Page) 500+ Python Interview Questions and Answers by applyre]]
 [^6]: ChatGPT
 [^7]: https://www.w3schools.com/python/ref_string_isalnum.asp

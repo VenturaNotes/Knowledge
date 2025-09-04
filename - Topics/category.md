@@ -24,4 +24,4 @@ to $[A, C]$. The image $\beta^{\circ} \alpha$ of the ordered pair $(\beta, \alph
 Examples of categories include the set of groups and homomorphisms on groups, and the set of rings and homomorphisms on rings. See FUNCTION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

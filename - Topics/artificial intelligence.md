@@ -28,7 +28,7 @@ aliases:
 ## References
 
 [^1]: ChatGPT
-[^2]: [[Home Page - Glossary by ada computer science]]
+[^2]: [[(Home Page) Glossary by ada computer science]]
 [^3]: https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^5]: [[Home Page - Glossary by Capterra]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[(Home Page) Glossary by Capterra]]

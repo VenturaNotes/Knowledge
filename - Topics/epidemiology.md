@@ -6,5 +6,5 @@
 - $n$. the study of the distribution of diseases and determinants of disease in populations. Originally restricted to the study of epidemic infectious diseases, such as smallpox and cholera, it now covers all forms of disease that relate to the environment and ways of life. It thus includes the study of the links between smoking and cancer, and diet and coronary disease, as well as communicable diseases.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

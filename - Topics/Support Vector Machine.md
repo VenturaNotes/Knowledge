@@ -9,4 +9,4 @@ aliases:
 - The SVM algorithm focuses on finding a hyperplane (a supervised learning tool that separates and classifies a dataset) that accurately classifies the various points within an existing dataset. SVMs are used in various industries for gene classification, handwriting recognition, facial detection, image classification, and other tasks that use algorithms to classify datasets.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

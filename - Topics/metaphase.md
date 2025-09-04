@@ -6,5 +6,5 @@
 - $n$. the second stage of mitosis and of each division of meiosis, in which the chromosomes line up at the centre of the spindle, with their centromeres attached to the spindle fibres.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

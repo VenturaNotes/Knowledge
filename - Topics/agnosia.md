@@ -7,5 +7,5 @@
 - $n$. a disorder of the brain whereby the patient cannot interpret sensations correctly although the sense organs and nerves conducting sensation to the brain are functioning normally. It is due to a disorder of the association areas in the parietal lobes. In auditory agnosia the patient can hear but cannot interpret sounds (including speech). A patient with tactile agnosia (astereognosis) retains normal sensation in his hands but cannot recognize three-dimensional objects by touch alone. In visual agnosia the patient can see but cannot interpret symbols, including letters (see ALEXIA).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

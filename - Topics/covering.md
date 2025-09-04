@@ -5,4 +5,4 @@
 - (2) A relationship between two elements of a partially ordered set S. If x and y are elements of S, then y covers x if and only if $x < y$, and whenever $x \le z \le y$ for some element $z$ in S, then either $x = z$ or $z = y$ 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

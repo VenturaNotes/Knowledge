@@ -6,4 +6,4 @@
 - Logic circuits are fabricated for the implementation of logic operations on their input signals. The inputs may be words (or bytes), and the logic operation is applied to each bit in accordance with Boolean algebra.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

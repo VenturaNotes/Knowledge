@@ -6,5 +6,5 @@
 - $n$. the process by which spermatozoa and ova are formed. In both sexes the precursor cells undergo meiosis, which halves the number of chromosomes. However, the timing of events and the size and number of gametes produced are very different in the male and female. See OOGENESIS; SPERMATOGENESIS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -82,4 +82,4 @@ $$
 These language-mappings are also homomorphisms, between the monoids of languages over $S$ and over $T$, the binary operation being concatenation of languages.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

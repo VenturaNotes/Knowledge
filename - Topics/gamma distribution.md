@@ -6,5 +6,5 @@
 - A continuous distribution with a density function of the form$$f(x \mid \alpha, \beta)=\frac{1}{\Gamma(\alpha) \beta^{\alpha}} x^{\alpha-1} e^{-x / \beta}$$for $0 \leq x<\infty$ and $\alpha, \beta>0$, and the moment generating function $M(t)=(1-\beta t)^{-\alpha}$ for $t<1 / \beta$. The gamma distribution has mean $\alpha \beta$ and variance $\alpha \beta^{2}$. Important special cases are the exponential distribution $(\alpha=1)$ and the chi-square distribution $(\alpha=n / 2, \beta=2)$. The gamma distribution is also related to the Poisson distribution: if $X$ is a gamma $(\alpha, \beta)$ random variable with integer $\alpha$ and $Y$ is a Poisson $(x / \beta)$ random variable, then $P[X \leq x]=P[Y$ $\geq \alpha]$.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

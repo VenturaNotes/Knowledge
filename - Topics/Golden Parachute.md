@@ -6,5 +6,5 @@
 - A clause in an employment contract, usually of a senior executive, that provides for financial and other benefits if this person is sacked or decides to leave as the result of a takeover or change of ownership.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

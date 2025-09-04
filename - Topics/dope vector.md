@@ -8,4 +8,4 @@
 - The position in memory of an element is found by taking the inner product of the strides with the differences between the actual subscript values and those that correspond to the fixed element referred to in (a), and adding to this the address of the fixed element.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -49,5 +49,5 @@ The Hamming distance is important in the theory of error-correcting codes and er
 See also CODING BOUNDS, CODING THEORY, HAMMING BOUND, HAMMING SPACE, PERFECT CODES.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -4,4 +4,4 @@
 - A form of energy and the study of thermodynamics. The heat in a medium, with density $\rho$, specific heat capacity c, at temperature T, occupying a region R, equals $$\int\int\int_R \rho cT \space dV.$$In that it is energy, the unit of heat is the joule.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

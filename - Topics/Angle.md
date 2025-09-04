@@ -23,5 +23,5 @@ aliases:
 - (2) the degree of divergence of two lines or planes that meet each other; the space between two such lines. The carrying angle is the obtuse angle formed between the forearm and the upper arm when the forearm is fully extended and the hand is supinated.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

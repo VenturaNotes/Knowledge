@@ -7,5 +7,5 @@
 - $n$. a device used to convert one form of signal into another, allowing its measurement or display to be made appropriately. For example, an ultrasound probe converts reflected ultrasound waves into electronic impulses, which can be displayed on a TV monitor.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

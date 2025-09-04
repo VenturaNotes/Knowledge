@@ -7,4 +7,4 @@
 - Most of the main results in the theory of computability on the natural numbers can also be proved for abstract computability theory on any finite generated minimal algebra.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

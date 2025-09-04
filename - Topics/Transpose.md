@@ -17,4 +17,4 @@ aliases: transposed
 
 ## References
 [^1]: [[(13) Linear Algebra - Ch 2 - Determinants (13 of 48) Example of Rule 7 - Transpose of a Matrix]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

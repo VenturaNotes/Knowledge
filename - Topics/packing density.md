@@ -5,4 +5,4 @@
 - (2) (recording density) A measure of the amount of information in a given dimension of a storage medium.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

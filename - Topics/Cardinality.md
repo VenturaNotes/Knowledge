@@ -66,5 +66,5 @@ since the real numbers can be put in bijective correspondence with the set of al
 [^3]: [[(30) Cardinality of the Union of Two Sets (Formula Explained) - Set Theory, Cardinality, Set Union#^143a4a]]
 [^4]: [[(Video) Set Theory - All-in-One Video by Dr. Will Wood]]
 [^5]: ChatGPT
-[^6]: [[Home Page - Glossary by ada computer science]]
-[^7]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^6]: [[(Home Page) Glossary by ada computer science]]
+[^7]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -20,4 +20,4 @@ The functions $\phi_{1}, \phi_{2}, \ldots, \phi_{n}$ are always chosen to be sim
 In Galerkin's method the criterion for choosing the coefficients is that the amount by which $u(x)$ fails to satisfy the equation is in a certain sense small. The [[Rayleigh-Ritz method]] is a variational method. The finite-element method can in general be regarded as a process in which a solution in an infinite-dimensional space is replaced by an approximation that lies in a finite-dimensional subspace. The whole process is referred to as finite-element analysis.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

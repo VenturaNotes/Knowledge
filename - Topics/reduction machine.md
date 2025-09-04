@@ -6,4 +6,4 @@
 - Reduction machines represent one of the major examples of non von Neumann architecture, and are of considerable research interest. Traditional imperative programming languages are unsuited to reduction machines, so declarative languages are employed.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

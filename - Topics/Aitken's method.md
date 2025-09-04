@@ -5,4 +5,4 @@
 - If $x_{0}, x_{1}, x_{2}$ are the initial value and the first two iterations and $\Delta x_{r}=x_{r+1}-x_{r}, \Delta^{2} x_{r}=\Delta x_{r+1}-\Delta x_{r}$ are the forward differences then $x_{4}=x_{3}-\frac{\left(\Delta x_{2}\right)^{2}}{\Delta^{2} x_{1}}$. More generally this will be expressed as $x_{r+1}=x_{r}-\frac{\left(\Delta x_{r-1}\right)^{2}}{\Delta^{2} x_{r-2}}$.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
