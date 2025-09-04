@@ -6,4 +6,4 @@
 	- Guidance from the Director of Public Prosecutions for prosecutors in cases of assisted suicide
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

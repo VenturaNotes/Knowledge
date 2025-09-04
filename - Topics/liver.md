@@ -19,4 +19,4 @@
 	- Website of the British Liver Trust: information on the liver, liver care, and liver conditions
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

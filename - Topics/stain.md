@@ -5,4 +5,4 @@
 - (2) $v b$. to treat a specimen for microscopical study with a stain.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

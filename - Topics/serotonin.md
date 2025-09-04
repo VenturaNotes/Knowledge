@@ -7,4 +7,4 @@
 ## References
 
 [^1]: [[(63) 2-Minute Neuroscience - Serotonin]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

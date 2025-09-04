@@ -20,4 +20,4 @@
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://www.purposegames.com/game/omentum
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

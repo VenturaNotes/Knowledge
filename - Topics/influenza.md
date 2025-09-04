@@ -5,4 +5,4 @@
 - An influenzal infection provides later protection only against the specific strain of virus concerned; the same holds true for immunization. Strains are classified according to the presence of different subtypes of two glycoproteins (antigens) on the viral surface: haemagglutinin (H) and neuraminidase (N). Small changes in the structure of these antigens, which occur frequently in influenza A and B viruses, require the continual development of new vaccines to protect against annual outbreaks of the disease. Major changes in antigenic structure occur much more rarely, when there is genetic recombination between strains that can infect more than one species (most strains of the virus are highly species-specific). However, when it does occur, it could result in the development of hybrid strains causing new forms of influenza that are difficult to contain; the pandemic of 1918-19 is thought to have arisen in this way (see also AVIAN INFLUENZA; SWINE INFLUENZA).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

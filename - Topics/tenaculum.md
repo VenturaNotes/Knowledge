@@ -6,4 +6,4 @@
 - (2) a band of fibrous tissue that holds a part of the body in place.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

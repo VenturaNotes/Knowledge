@@ -6,4 +6,4 @@
 - (2) An element of normal social learning and development whereby children learn through emulating other people's behavior (often that of parents, other adults, or other children).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

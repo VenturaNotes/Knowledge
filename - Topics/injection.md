@@ -46,4 +46,4 @@ aliases:
 [^4]: https://www.desmos.com/calculator
 [^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^6]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^7]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^7]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

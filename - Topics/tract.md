@@ -6,4 +6,4 @@
 - (2) an organ or collection of organs providing for the passage of something, e.g. the digestive tract.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

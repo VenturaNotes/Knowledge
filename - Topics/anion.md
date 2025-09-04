@@ -13,4 +13,4 @@ aliases:
 ## References
 
 [^1]: [[(4) 2.1 Atomic Structure & Theory & Introduction to the Periodic Table - General Chemistry#^b327f9]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

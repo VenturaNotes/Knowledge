@@ -9,4 +9,4 @@
 - Chronic hepatitis continues for months or years, eventually leading to cirrhosis and possibly to malignancy (see HEPATOMA). It is usually caused by chronic viral hepatitis, alcohol, or autoimmune disease.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

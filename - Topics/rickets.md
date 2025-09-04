@@ -5,4 +5,4 @@
 - Renal rickets is due to impaired kidney function causing bone-forming minerals to be excreted in the urine, which results in softening of the bones.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

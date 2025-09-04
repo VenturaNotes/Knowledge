@@ -6,4 +6,4 @@
 - (2) extrusion of a tooth from its socket by trauma or pathology.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

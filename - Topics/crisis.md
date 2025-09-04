@@ -6,4 +6,4 @@
 - (2) the occurrence of sudden severe pain in certain diseases. See also DIETL's CRISIS.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

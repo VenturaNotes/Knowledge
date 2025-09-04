@@ -6,4 +6,4 @@
 - (2) relating to or situated in the central region of an organ, tissue, or the body.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

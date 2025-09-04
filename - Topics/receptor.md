@@ -6,4 +6,4 @@
 - (2) a specialized area of a cell membrane, consisting of a specially adapted protein, that can bind with a specific hormone (e.g. oestrogen receptors), neurotransmitter (e.g. adrenoceptors), drug, or other chemical, thereby initiating a change within the cell.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

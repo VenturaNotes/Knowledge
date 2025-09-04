@@ -6,4 +6,4 @@
 - (2) (in genetics) describing a pair of chromosomes of similar shape and size and having identical gene loci. One member of the pair is derived from the mother; the other from the father.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

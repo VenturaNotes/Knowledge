@@ -6,4 +6,4 @@
 - (2) one form of therapy as opposed to another, such as the modality of physiotherapy contrasted with that of radiotherapy.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

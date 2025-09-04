@@ -6,4 +6,4 @@
 - (2) the abrupt expulsion from the mouth of a large quantity of pus or decaying matter originating in the throat or lungs.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

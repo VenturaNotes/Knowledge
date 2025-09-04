@@ -6,4 +6,4 @@
 - (2) a device to record the amount of radiation received by workers exposed to X-rays or other radiation. See THERMOLUMINESCENT DOSIMETER.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

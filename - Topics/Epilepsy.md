@@ -11,4 +11,4 @@
 ## References
 
 [^1]: https://www.google.com/search?q=what+area+of+the+brain+is+affected+by+someone+with+a+seizure&oq=what+area+of+the+brain+is+affected+by+someone+with+a+seizure&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigAdIBCDc0MzdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

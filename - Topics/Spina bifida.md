@@ -9,4 +9,4 @@
 ## References
 
 [^1]: [[(141) 2-Minute Neuroscience - Spina Bifida]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) (in psychology) a defence mechanism by which a person consciously and deliberately ignores an idea that is unpleasant.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

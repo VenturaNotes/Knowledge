@@ -6,4 +6,4 @@
 - (2) a procedure for the hardening and preservation of tissues or microorganisms to be examined under a microscope. Fixation kills the tissues and ensures that their original shape and structure are retained as closely as possible. It also prepares them for sectioning and staining. The specimens can be immersed in a chemical fixative or subjected to freeze drying.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

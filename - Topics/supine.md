@@ -6,4 +6,4 @@
 - (2) (of the forearm) in the position in which the palm of the hand faces upwards. Compare PRONE.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

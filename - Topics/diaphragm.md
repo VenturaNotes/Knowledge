@@ -6,4 +6,4 @@
 - (2) a hemispherical rubber cap fitted inside the vagina over the neck (cervix) of the uterus as a contraceptive. When combined with the use of a chemical spermicide the diaphragm provides reliable contraception with a failure rate as low as 2-10 pregnancies per 100 woman-years.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

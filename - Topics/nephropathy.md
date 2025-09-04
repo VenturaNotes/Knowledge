@@ -4,4 +4,4 @@
 - $n$. disease of the kidney. See also BALKAN NEPHROPATHY; BERGER's NEPHROPATHY; CAST NEPHROPATHY; Chinese HERB NEPHROPATHY; DIABETIC NEPHROPATHY; HAN; HIVAN; HYPERCALCAEMIC NEPHROPATHY; HYPOKALAEMIC NEPHROPATHY; MEMBRANOUS NEPHROPATHY; MINIMAL CHANGE NEPHROPATHY; SICKLE-CELL NEPHROPATHY.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - Tuberculosis is curable by various combinations of the antibiotics streptomycin, ethambutol, isoniazid (INH), rifampicin, and pyrazinamide. Preventive measures in the UK include the detection of cases by X-ray screening of vulnerable populations and vaccination with BCG vaccine of those with no immunity to the disease (the tuberculin test identifies which people require vaccination). The childhood immunization schedule no longer includes BCG vaccination at 10-14 years of age; vaccination now targets high-risk groups, such as immigrants from countries with a high incidence of TB. There has been a resurgence of tuberculosis in recent years in association with HIV infection. The number of patients with multidrug resistant TB has also increased due to patients not completing drug courses. Many centres have introduced directly observed therapy (DOT), in which nurse practitioners watch patients taking their drugs or administer the drugs.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

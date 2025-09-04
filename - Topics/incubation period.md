@@ -6,4 +6,4 @@
 - (2) (in bacteriology) the period of development of a bacterial culture.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

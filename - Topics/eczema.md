@@ -5,4 +5,4 @@
 - Treatment of eczema is with regular emollients and topical corticosteroids. Other treatments include topical calcineurin inhibitors, phototherapy, and systemic immunosuppressants. There is emerging evidence that effective treatment of eczema helps to reduce the risk of subsequently developing asthma and hay fever. -eczematous adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

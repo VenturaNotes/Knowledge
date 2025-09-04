@@ -5,4 +5,4 @@
 - (2) glomangioma) a harmless but often painful tumour produced by malformation and overgrowth of a glomus, usually in the skin at the ends of the fingers or toes. It may be cauterized or removed surgically.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

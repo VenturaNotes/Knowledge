@@ -6,4 +6,4 @@
 - (2) the whole region of the ankle joint, including the tarsus and the ends of the tibia and fibula.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -16,4 +16,4 @@
 - The narrowed end of the femur (femoral neck), which carries the head, is the commonest site of fracture of the leg in elderly women. Partial dislocation of the femoral epiphysis, the growth area of the upper end of the bone, leads to deformity of the head of the femur and premature degeneration of the hip joint.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -7,4 +7,4 @@
 - (3) the use of air, gas, or a heavy liquid injected into the vitreous humour to exert pressure on the retina, which keeps it apposed to the choroid during surgery to repair a detached retina. See PNEUMORETINOPEXY.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

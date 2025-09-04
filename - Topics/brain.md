@@ -31,4 +31,4 @@ aliases:
 ## References
 
 [^1]: [[(1) 2-Minute Neuroscience - The Neuron]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

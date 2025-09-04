@@ -6,4 +6,4 @@
 - (2) the partial displacement of a tooth from its socket as a result of traumatic injury.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

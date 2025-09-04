@@ -11,4 +11,4 @@ aliases:
 ## References
 
 [^1]: https://en.wikipedia.org/wiki/Rarefaction
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

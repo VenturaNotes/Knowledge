@@ -6,4 +6,4 @@
 - Anaemias can be classified on the basis of the size of the red cells, which may be large (macrocytic anaemias), small (microcytic anaemias), or normal-sized (normocytic anaemias). (See also MACROCYTOSIS; MICROCYTOSIS.) The treatment of anaemia depends on the cause. $\textemdash$ anaemic adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) the second cervical vertebra, which articulates with the atlas vertebra above and allows rotational movement of the head.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

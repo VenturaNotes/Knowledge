@@ -6,4 +6,4 @@
 - In a pseudoaneurysm (or false aneurysm) the swelling of the artery is contained by clotted blood rather than the wall of the artery. $\textemdash$ aneurysmal adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

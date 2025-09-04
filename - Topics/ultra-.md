@@ -6,4 +6,4 @@
 - (2) an extreme degree (e.g. of large or small size).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

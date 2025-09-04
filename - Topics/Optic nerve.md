@@ -18,4 +18,4 @@
 ## References
 
 [^1]: [[(80) 2-Minute Neuroscience - Optic Nerve (Cranial Nerve II)]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 	- GMC website: includes the Council's guide to Good Medical Practice
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) a small protuberance on the lingual surface of the crowns of incisor and canine teeth.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -12,4 +12,4 @@ aliases:
 ## References
 
 [^1]: [[(101) 2-Minute Neuroscience - Functional Magnetic Resonance Imaging (fMRI)]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

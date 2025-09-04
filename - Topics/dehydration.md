@@ -6,4 +6,4 @@
 - (2) the removal of water from tissue during its preparation for microscopical study, by placing it successively in stronger solutions of ethyl alcohol. Dehydration follows fixation and precedes clearing.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

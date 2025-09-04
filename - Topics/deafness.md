@@ -9,4 +9,4 @@
 	- Website of Action on Hearing Loss (formerly the Royal National Institute for Deaf People)
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

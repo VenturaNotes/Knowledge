@@ -22,4 +22,4 @@
 - Individual bones may be classed as long, short, flat, or irregular. The outer layer of a bone is called the periosteum. The medullary cavity is lined with endosteum and contains the marrow. Bones not only form the skeleton but also act as stores for mineral salts and play an important part in the formation of blood cells.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

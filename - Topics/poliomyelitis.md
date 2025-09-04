@@ -5,4 +5,4 @@
 - There is no specific treatment, apart from measures to relieve the symptoms: cases of bulbar polio may require the use of a ventilator. Immunization, using the Sabin vaccine (taken orally) or the Salk vaccine (injected), is highly effective.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

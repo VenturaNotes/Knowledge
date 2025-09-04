@@ -4,4 +4,4 @@
 - $n$. (in microscopy) the lens or system of lenses in a light microscope that is nearest to the object under examination and furthest from the eyepiece. In many types of microscope interchangeable objectives with different powers of magnification are provided.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

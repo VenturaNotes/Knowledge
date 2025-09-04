@@ -5,4 +5,4 @@
 - Teratomas often produce alpha-fetoprotein, beta human chorionic gonadotrophin, or both; the presence of these substances (tumor markers) in the blood is a useful indication of the amount of tumor and the effect of treatment.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

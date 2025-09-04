@@ -27,4 +27,4 @@ aliases:
 [^1]: https://teslascans.com/sonography-difference-between-sonography-and-ultrasound/#:~:text=The%20image%20generated%20by%20the%20ultrasound%20is%20called%20a%20sonogram.&text=In%20simple%20terms%2C%20sonography%20is,ultrasonography%20means%20extreme%20sound%20writing.
 [^2]: https://my.clevelandclinic.org/health/diagnostics/4995-ultrasound
 [^3]: ChatGPT
-[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

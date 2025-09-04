@@ -13,4 +13,4 @@ aliases: bacterium
 ## References
 [^1]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^z11lt5]]
 [^2]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^bb55l5]]
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

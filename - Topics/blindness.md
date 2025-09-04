@@ -6,4 +6,4 @@
 	- Website of the Royal National Institute of Blind People: includes links to a database for researchers
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

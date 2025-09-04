@@ -6,4 +6,4 @@
 - (2) the foods or supplements containing these microorganisms, which are often given to patients who are taking antibiotics to help prevent antibiotic-induced diarrhoea. $\textemdash$probiotic adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

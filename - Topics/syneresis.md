@@ -6,4 +6,4 @@
 - (2) (in ophthalmology) degenerative shrinkage of the vitreous humour due to ageing, which usually results in a vitreous detachment.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

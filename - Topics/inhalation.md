@@ -6,4 +6,4 @@
 - (2) a gas, vapour, or aerosol breathed in for the treatment of conditions of the respiratory tract. $\textemdash$inhaler $n$.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

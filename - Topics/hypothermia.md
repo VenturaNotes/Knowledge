@@ -6,4 +6,4 @@
 - (2) deliberate lowering of body temperature for therapeutic purposes. This may be done during surgery, in order to reduce the patient's requirement for oxygen.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

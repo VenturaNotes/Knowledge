@@ -6,4 +6,4 @@
 - (2) (vaginal suppository) a plug or cylinder of cocoa butter or some other soft material containing a drug that is fitted into the vagina for the treatment of gynaecological disorders (e.g. vaginitis) or for the induction of labour (a Prostin pessary containing prostaglandin).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

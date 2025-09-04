@@ -23,4 +23,4 @@
 ## References
 [^1]: https://medlineplus.gov/ency/article/002380.htm#:~:text=The%20hypothalamus%20is%20an%20area,Mood
 [^2]: ChatGPT, Gemini
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

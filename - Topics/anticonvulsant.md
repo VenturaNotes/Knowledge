@@ -5,4 +5,4 @@
 - Certain anticonvulsants have shown efficacy in treating bipolar disorder and chronic pain, as in postherpetic neuralgia or peripheral neuropathy, and can be used to prevent migraine and other primary headache syndromes.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

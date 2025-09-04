@@ -6,4 +6,4 @@
 - (2) (in dentistry) the emergence of a growing tooth from the gum into the mouth.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

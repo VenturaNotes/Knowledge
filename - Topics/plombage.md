@@ -6,4 +6,4 @@
 - (2) the insertion of plastic balls into the pleural cavity to cause collapse of the lung. This was done in the days before effective antituberculous drugs to help tuberculosis to heal.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

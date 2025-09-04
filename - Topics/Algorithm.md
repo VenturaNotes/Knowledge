@@ -62,4 +62,4 @@ aliases:
 [^8]: [[(Home Page) Glossary by Capterra]]
 [^9]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^10]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
-[^11]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^11]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) any muscle that lifts the structure into which it is inserted; for example, the levator scapulis helps to lift the shoulder blade.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

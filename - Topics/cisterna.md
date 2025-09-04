@@ -6,4 +6,4 @@
 - (2) a dilatation at the lower end of the thoracic duct, into which the great lymph ducts of the lower limbs drain.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

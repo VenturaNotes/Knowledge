@@ -6,4 +6,4 @@
 - (2) designating vessels or ducts that drain fluid (such as lymph) from an organ or part. Compare AFFERENT.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

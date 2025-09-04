@@ -21,4 +21,4 @@ aliases:
 [^1]: [[(Home Page) Problems on Discrete Mathematics by Chung-Chih Li et. al.#^mlxap7]]
 [^2]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^a3ec37]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

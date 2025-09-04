@@ -10,4 +10,4 @@ aliases:
 - Chromosome. Human male chromosomes, arranged in numbered pairs according to a standard classification. The female set differs only in the sex chromosomes (XX instead of XY).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

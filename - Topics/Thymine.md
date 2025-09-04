@@ -4,4 +4,4 @@
 - $n$. one of the nitrogen-containing bases (see PYRIMIDINE) occurring in the nucleic acid DNA.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

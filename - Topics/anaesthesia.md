@@ -7,5 +7,5 @@
 - $n$. Absence of sensation or feeling, often resulting from a disorder or induced by anaesthetic (1) drugs or hypnosis, called general anaesthesia when it involves loss of consciousness and local anaesthesia when it affects only a restricted area of the body. US anesthesia. See also ACUPUNCTURE, BATHYANAESTHESIA, CONVERSION SYMPTOM, EPIDURAL ANAESTHETIC, GATE-CONTROL THEORY, GLOVE ANAESTHESIA, NARCOTIC, PALLANAESTHESIA, RAUSCH, SHOE ANAESTHESIA, STOCKING ANAESTHESIA. Compare analgesia. \[Coined in 1846 by the US anatomist and writer Oliver Wendell Holmes (1809-94) from Greek anaisthesia absence of sensation, from an-without + aisthesis feeling + -ia indicating a condition or quality]
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

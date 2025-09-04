@@ -6,4 +6,4 @@
 - (2) financial redress for injury or loss caused, for example, by negligence, usually weighed against. the degree of harm suffered.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

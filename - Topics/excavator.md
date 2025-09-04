@@ -6,4 +6,4 @@
 - (2) a type of hand instrument with spoon ends used for removing decayed dentine from teeth. It may also be used as a curette.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

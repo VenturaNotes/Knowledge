@@ -6,4 +6,4 @@
 - (2) (in dentistry) a piece of mucous membrane and periosteum attached by a broad base. It is lifted back to expose the underlying bone and enable a procedure such as surgical extraction or apicectomy to be performed. It is subsequently replaced and stabilized using sutures during the healing period.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

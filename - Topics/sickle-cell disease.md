@@ -5,4 +5,4 @@
 - The carrier condition (sickle-cell trait) occurs when the defective gene is inherited from only one parent. It generally causes no symptoms but confers some protection from malaria, which accounts for the high frequency of the gene in malarious areas. If a general anaesthetic is to be given to a patient with this condition, the anaesthetist should be alerted.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

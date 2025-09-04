@@ -5,4 +5,4 @@
 - (2) $v b$. to grow bacteria or other microorganisms in cultures.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

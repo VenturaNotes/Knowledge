@@ -7,4 +7,4 @@
 - (3) the myelin layer of certain nerve fibres. $\textendash$medullary adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

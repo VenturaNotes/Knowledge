@@ -6,4 +6,4 @@
 - (2) describing any disorder or condition that does not produce harmful effects. Compare MALIGNANT.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

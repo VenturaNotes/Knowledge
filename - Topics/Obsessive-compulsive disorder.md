@@ -11,4 +11,4 @@ aliases:
 ## References
 
 [^1]: [[(135) 2-Minute Neuroscience - Obsessive-Compulsive Disorder (OCD)]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

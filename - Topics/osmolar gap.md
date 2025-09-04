@@ -6,4 +6,4 @@
 - It is an aid to the diagnosis of severe anion gap acidoses. The normal range for the difference is $\pm ~10~ \mathrm{mOsm} / \mathrm{kg}$. A high osmolar gap is normally due to the presence of acetone, mannitol, or an alcohol.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

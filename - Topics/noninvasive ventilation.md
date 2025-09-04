@@ -5,4 +5,4 @@
 - Negative-pressure ventilation involves the use of devices that draw air into and out of the lungs noninvasively by applying negative pressure in a cyclical way (see VENTILATOR).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

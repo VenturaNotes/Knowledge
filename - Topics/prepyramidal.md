@@ -6,4 +6,4 @@
 - (2) describing nerve fibres in tracts that descend from the cerebral cortex to the spinal cord, before the crossing over that occurs at the pyramid of the medulla oblongata.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

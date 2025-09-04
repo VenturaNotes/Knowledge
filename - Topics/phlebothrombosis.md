@@ -5,4 +5,4 @@
 - The affected leg may become swollen and tender. The main danger is that the clot may become detached and give rise to pulmonary embolism. Regular leg exercises help to prevent deep vein thrombosis, and anticoagulant drugs (such as heparin and warfarin) are used in prevention and treatment. Large clots may be removed surgically in the operation of thrombectomy to relieve leg swelling.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

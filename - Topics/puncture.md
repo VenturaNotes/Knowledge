@@ -5,4 +5,4 @@
 - (2) vb. to pierce a tissue with a sharp instrument or needle. A gall bladder that is tense with bile may need to be punctured while being removed, to make it more amenable to manipulation.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

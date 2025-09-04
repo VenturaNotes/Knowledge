@@ -8,4 +8,4 @@
 - Appropriate antibiotic therapy, based on the clinical situation and on microbiological studies, will result in complete recovery in the majority of patients.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

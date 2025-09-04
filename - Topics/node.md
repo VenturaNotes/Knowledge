@@ -20,4 +20,4 @@ aliases:
 
 [^1]: https://youtu.be/X3X5kYPgYV0?si=XvaSoTl0Uw9_bZW0
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

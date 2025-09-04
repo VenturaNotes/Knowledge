@@ -7,4 +7,4 @@
 - (3) (in dentistry) a naturally occurring groove in the enamel on the surface of a tooth, especially a premolar or molar. It is a common site of dental caries.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

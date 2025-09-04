@@ -6,4 +6,4 @@
 - (2) the title given to a recipient of a higher university degree than a Master's degree (this is usually a Doctor of Philosophy (PhD or DPhil) degree). The degree Medicinae Doctor (MD) is awarded by some British universities as a research degree to those with a first degree in medicine. In the US, the degree is awarded on qualification.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

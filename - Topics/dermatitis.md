@@ -5,4 +5,4 @@
 - Dermatitis herpetiformis is an uncommon very itchy rash with symmetrical blistering, especially on the knees, elbows, buttocks, and shoulders. It is associated with gluten sensitivity and responds well to treatment with dapsone or a gluten-free diet.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

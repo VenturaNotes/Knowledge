@@ -7,4 +7,4 @@
 ## References
 
 [^1]: [[(154) 2-Minute Neuroscience - Carpal Tunnel Syndrome]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Bacillary dysentery is caused by bacteria of the genus Shigella and is spread by contact with a patient or carrier or through contaminated food or water. Epidemics are common in overcrowded, insanitary conditions. Symptoms develop 1-6 days after infection and persist for up to 2 weeks; they include diarrhoea, nausea, abdominal cramping, and fever. An attack may vary from mild diarrhoea to states of severe dehydration and gastrointestinal haemorrhage. In most cases, provided fluid losses are replaced, recovery occurs within 7-10 days; antibiotics may be given to eliminate the bacteria. Compare CHOLERA.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

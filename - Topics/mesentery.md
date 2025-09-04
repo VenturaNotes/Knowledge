@@ -10,4 +10,4 @@
 
 [^1]: https://www.mayoclinic.org/diseases-conditions/swollen-lymph-nodes/multimedia/mesentery/img-20007559#:~:text=The%20mesentery%20is%20a%20fold,lymph%20nodes%20in%20the%20mesentery.
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) a state of mind in which the individual has a strong belief that he or she is persecuted by others and therefore displays behavior marked by suspiciousness. Severe paranoia can lead to the diagnosis of personality disorder. $\textemdash$paranoid adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

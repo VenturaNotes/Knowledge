@@ -7,4 +7,4 @@
 - (4) vb. (in psychiatry) to issue an order for the compulsory admission of a patient to a psychiatric hospital for assessment and/or treatment of a mental disorder under the appropriate provision or section of the Mental Health Act 1983 as amended by the Mental Health Act 2007. There are formal procedures, such as review and right to appeal, to ensure this legislation is not abused. A patient who otherwise has capacity may still consent to or refuse treatment for conditions unrelated to the mental disorder for which he or she is detained.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

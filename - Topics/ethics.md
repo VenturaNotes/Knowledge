@@ -6,4 +6,4 @@
 - (2) the principles, values, virtues, or rules of conduct accepted within a particular profession or field of activity. See BIOETHICS; MEDICAL ETHICS.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

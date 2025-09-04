@@ -5,4 +5,4 @@
 - Cataract is treated by removal of the affected lens (see CATARACT EXTRACTION; PHACOEMULSIFICATION); patients may wear appropriate spectacles or a contact lens to compensate for the missing lens but in modern practice a synthetic intraocular lens implant is routinely placed inside the eye as a part of the surgical procedure.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

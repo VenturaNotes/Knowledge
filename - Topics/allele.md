@@ -14,4 +14,4 @@ aliases:
 
 [^1]: https://quizizz.com/admin/quiz/5c052eaf2e4e0a001bd385bd/genotype-and-phenotype-practice
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

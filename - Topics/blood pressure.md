@@ -5,4 +5,4 @@
 - Individual variations are common. Muscular exertion and emotional factors, such as fear, stress, and excitement, all raise systolic blood pressure (see HYPERTENSION). Systolic blood pressure is normally at its lowest during sleep. Severe shock may lead to an abnormally low blood pressure and possible circulatory failure (see HYPOTENSION). Blood pressure is adjusted to its normal level by the sympathetic nervous system and hormonal controls.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

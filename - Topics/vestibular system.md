@@ -7,4 +7,4 @@
 ## References
 
 [^1]: [[(40) 2-Minute Neuroscience - Vestibular System]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

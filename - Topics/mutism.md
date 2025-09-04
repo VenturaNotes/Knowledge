@@ -5,4 +5,4 @@
 - Treatment of mutism due to psychological causes is now increasingly by behavioral means, such as prompting: people that the patient does not address are slowly introduced into the situation where the patient does speak. This may be done either alone or in combination with more traditional psychotherapy. Psychotic or depressive mutism or catatonia are addressed by treating the underlying condition. $\textendash$mute adj., $n$.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

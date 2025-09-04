@@ -8,4 +8,4 @@
 - (4) any flat and often raised patch, for example on mucous membrane, resulting from local damage.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

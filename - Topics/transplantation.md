@@ -5,4 +5,4 @@
 - Ethical questions arise over donated organs. If the donor is living, is the organ properly a gift? If the donor has recently died, how has the death been judged and has consent been given explicitly by the patient or surviving relatives (opting in) or is it assumed if the donor has not forbidden it (opting out)?
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

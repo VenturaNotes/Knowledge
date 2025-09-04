@@ -6,4 +6,4 @@
 - (2) the ability to store events in memory. If retention is impaired because of a storage defect, the person affected will have difficulty retrieving memories. This is a feature of dementia.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

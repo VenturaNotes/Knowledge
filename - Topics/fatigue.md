@@ -6,4 +6,4 @@
 - (2) the inability of an organism, an organ, or a tissue to give a normal response to a stimulus until a certain recovery period has elapsed.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

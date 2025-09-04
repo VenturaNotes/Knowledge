@@ -5,4 +5,4 @@
 - Certain drugs (dopamine receptor agonists) have an effect on the body similar to that of dopamine. They include apomorphine, pergolide, ropinirole, cabergoline, and pramipexole and are used to treat parkinsonism. Drugs that compete with dopamine to occupy and block the dopamine receptor sites in the body are known as dopamine receptor antagonists. They include some antipsychotic drugs (e.g. the phenothiazines and butyrophenones) and certain drugs (e.g. domperidone and metoclopramide) used to treat nausea and vomiting.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

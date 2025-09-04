@@ -6,4 +6,4 @@
 - (2) (in optics) a piece of glass shaped to refract rays of light in a particular direction. Convex lenses converge the light, and concave lenses diverge it; they are worn to correct faulty eyesight. See also BIFOCAL LENS; CONTACT LENSES; TRIFOCAL LENSES.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

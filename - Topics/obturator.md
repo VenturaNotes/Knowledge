@@ -7,4 +7,4 @@
 - (3) a removable prosthetic device that both closes a defect in the palate and also restores the dentition. The defect may result from removal of a tumor or, less commonly, be congenital, as in a cleft palate.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

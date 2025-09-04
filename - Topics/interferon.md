@@ -5,4 +5,4 @@
 - Human interferon can be produced in bacterial host cells by genetic engineering for clinical use. Interferon alfa is used in treating hepatitis B and C and certain lymphomas and other cancers, peginterferon alfa is used for hepatitis B and C, and interferon beta for multiple sclerosis. Sideeffects, including flulike symptoms, lethargy, and depression, may be severe.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -7,4 +7,4 @@
 - (3) describing drugs that mimic the actions of acetylcholine (see PARASYMPATHOMIMETIC). Compare ADRENERGIC.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

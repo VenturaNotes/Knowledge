@@ -8,4 +8,4 @@
 - $n$. a hormone that is released into the bloodstream from muscle during physical activity and that activates fat cells to increase energy turnover. It was discovered in 2002.
 ## References
 [^1]: ChatGPT
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

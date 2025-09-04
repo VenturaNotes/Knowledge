@@ -6,4 +6,4 @@
 - (2) a piece of dried vegetable material, usually a seaweed stem, shaped to fit into an orifice, such as the cervical canal. As it absorbs moisture it expands, providing a slow but forceful means of dilating the orifice.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

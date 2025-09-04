@@ -6,4 +6,4 @@
 - (2) a triangular overgrowth of nail-fold skin extending onto the nail bed. It may occur as a result of such conditions as lichen planus and epidermolysis bullosa.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - The success of BI-RADS has inspired several other systems of the same kind: TI-RADS (Thyroid Imaging Reporting and Data System); LI-RADS (Liver Imaging Reporting and Data System); and PI-RADS (Prostate Imaging Reporting and Data System).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

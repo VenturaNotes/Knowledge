@@ -5,4 +5,4 @@
 - (2) any means for restoring the independence of a patient after diseases or injury, including employment retraining.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

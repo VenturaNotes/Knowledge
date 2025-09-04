@@ -6,4 +6,4 @@
 - (2) (in behavior therapy) a form of aversion therapy in which anxiety-producing stimuli are associated with the unwanted behavior. In covert sensitization the behavior and an unpleasant feeling (such as disgust) are evoked simultaneously by verbal cues.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

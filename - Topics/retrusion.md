@@ -6,4 +6,4 @@
 - (2) a malocclusion in which some of the teeth are further back than usual. Compare PROTRUSION.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

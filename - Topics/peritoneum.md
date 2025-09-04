@@ -26,4 +26,4 @@
 
 [^1]: https://my.clevelandclinic.org/health/body/22894-peritoneum
 [^2]: Google's Search Labs | AI Overview
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

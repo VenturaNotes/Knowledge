@@ -6,4 +6,4 @@
 - (2) an abnormal form of IgM (see PARAPROTEIN) produced by lymphoma cells or in other plasma-cell disorders, such as multiple myeloma.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

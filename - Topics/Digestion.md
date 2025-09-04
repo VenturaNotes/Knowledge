@@ -7,4 +7,4 @@
 ## References
 
 [^1]: https://quizizz.com/admin/quiz/5ae31ed16b164f0019047957/biology-vocabulary
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

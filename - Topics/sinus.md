@@ -8,4 +8,4 @@
 - (4) (sinus tract) an infected blind-ending epithelium-lined tract leading from a focus of infection to the surface of the skin or a hollow organ. See PILONIDAL SINUS.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

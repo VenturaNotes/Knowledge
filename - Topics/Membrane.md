@@ -10,4 +10,4 @@ aliases:
 - (2) the lipoprotein envelope surrounding a cell (plasma or cell membrane). —membranous adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

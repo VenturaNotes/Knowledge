@@ -6,4 +6,4 @@
 - (2) a lever-like instrument used to ease a tooth or root out of its socket during dental extraction.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -10,4 +10,4 @@
 - The guidelines for COPD recommend different treatment regimens for different stages. Although the response to inhaled corticosteriods is less for COPD than for asthma, these drugs, especially combined with inhaled long-acting beta agonists (e.g. salmeterol), can improve quality of life and survival in stages 3 and 4 . There is also a decrease in the number of acute exacerbations of COPD (AECOPD): increased sputum volume or purulence and/or breathlessness, with or without symptoms (e.g. cough, wheeze, chest pain, malaise, fever).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

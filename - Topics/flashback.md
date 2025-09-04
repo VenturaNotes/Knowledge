@@ -6,4 +6,4 @@
 - (2) a symptom of post-traumatic stress disorder characterized by the reliving of a traumatic experience.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

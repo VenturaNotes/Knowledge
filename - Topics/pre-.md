@@ -7,4 +7,4 @@
 - Example: precardiac (in front of the heart); prepatellar (in front of the patella).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

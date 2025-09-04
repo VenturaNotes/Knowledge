@@ -6,4 +6,4 @@
 - (2) (in dentistry) the complete displacement of a tooth from its socket owing to trauma. The ideal treatment for an avulsed permanent tooth would be replantation (immediately if possible).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

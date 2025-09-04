@@ -5,4 +5,4 @@
 - (2) any of various other spiny projections; occurring, for example, at the lower ends of the ulna and radius.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

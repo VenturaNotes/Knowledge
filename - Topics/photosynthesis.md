@@ -8,4 +8,4 @@
 $$6 \mathrm{CO}_{2}+6 \mathrm{H}_{2} \mathrm{O} \rightarrow \mathrm{C}_{6} \mathrm{H}_{12} \mathrm{O}_{6}+6 \mathrm{O}_{2}$$
 ## References
 [^1]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^w4kmwy]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

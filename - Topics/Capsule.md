@@ -7,4 +7,4 @@
 - (3) the slimy substance that forms a protective layer around certain bacteria, hindering their ingestion by phagocytes. It is usually made of polysaccharide.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 	- List of notifiable diseases in England and guidance on how to report them
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

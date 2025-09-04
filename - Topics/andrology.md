@@ -6,4 +6,4 @@
 - (2) the study of androgen production and the relationship of plasma androgen to androgen action. This study is necessary to understand hirsutism and other conditions caused by abnormal androgen production.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

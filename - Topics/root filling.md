@@ -5,4 +5,4 @@
 - (2) the material used to fill the canal in the root, usually a core of gutta-percha with a thin coating of sealing cement.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

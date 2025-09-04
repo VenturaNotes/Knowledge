@@ -6,4 +6,4 @@
 - (2) the reduction or removal of chemical agents from a site following a terrorist attack or industrial accident; this includes decontaminating people who have come into contact with such agents.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

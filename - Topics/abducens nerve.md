@@ -10,4 +10,4 @@
 
 [^1]: [[(84) 2-Minute Neuroscience - Abducens Nerve (Cranial Nerve VI)]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -11,4 +11,4 @@
 
 [^1]: https://highered.mheducation.com/sites/0072919345/student_view0/chapter10/multiple_choice_quiz.html
 [^2]: Google's Search Labs | AI Overview
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

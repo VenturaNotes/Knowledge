@@ -6,4 +6,4 @@
 - (2) a small sac (the prostatic utricle) extending out of the urethra of the male into the substance of the prostate gland.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

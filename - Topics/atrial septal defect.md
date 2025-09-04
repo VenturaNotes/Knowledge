@@ -5,4 +5,4 @@
 - Intrauterine surgical techniques now enable a fetus in which an ASD has been detected to proceed to full term by using the placental circulation as a substitute for the extracorporeal circulation that would otherwise be required.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

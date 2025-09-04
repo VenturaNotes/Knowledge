@@ -23,4 +23,4 @@ explored:
 
 [^1]: [[(4) Chemistry - Atoms, Molecules, and Ions (4 of 23) Avogadro's Number]]
 [^2]: Google's Search Labs | AI Overview
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

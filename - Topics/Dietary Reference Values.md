@@ -10,4 +10,4 @@
 	- RI reference intake: a guide to how many calories and nutrients an average person can consume each day for a healthy balanced diet. This is used in labelling information for energy, protein, carbohydrate, sugars, fat, saturated fat, fibre, and salt.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

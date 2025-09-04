@@ -5,4 +5,4 @@
 - The treatment of pericarditis is directed to the cause. Pericardial effusions may be aspirated by a needle inserted through the chest wall. Chronic constrictive pericarditis is treated by surgical removal of the pericardium (pericardiectomy).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

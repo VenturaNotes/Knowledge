@@ -5,4 +5,4 @@
 - A blood test early in pregnancy enables the detection of antibodies in the mother's blood and the adoption of various precautions for the infant's safety, including Doppler measurement of the fetal cerebral vessels (MCA Doppler; see Doppler ultrasound) to detect fetal anaemia, which may require intrauterine transfusion. The incidence of the disease has been greatly reduced by preventing the formation of antibodies in a Rh-negative mother (see ANTI-D IMMUNOGLOBULIN).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

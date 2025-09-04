@@ -6,4 +6,4 @@
 - (2) (in audiology) the phenomenon in which a person with sensorineural deafness cannot hear quiet sounds but can perceive loud sounds just as loudly as, or even more loudly than, a person with normal hearing.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

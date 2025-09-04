@@ -6,4 +6,4 @@
 - (2) physiological activation of the cerebral cortex by centres lower in the brain, such as the reticular activating system, resulting in wakefulness and alertness.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

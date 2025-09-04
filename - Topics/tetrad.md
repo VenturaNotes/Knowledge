@@ -6,4 +6,4 @@
 - (2) the four chromatids of a pair of homologous chromosomes (see BIVALENT) in the first stage of meiosis.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

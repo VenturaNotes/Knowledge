@@ -24,4 +24,4 @@
 ## References
 
 [^1]: [[(17) 2-Minute Neuroscience - The Meninges]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

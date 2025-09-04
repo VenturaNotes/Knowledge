@@ -6,4 +6,4 @@
 	- Blood coagulation. The clotting cascade showing sites of action of anticoagulants and tissue-type plasminogen activators
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

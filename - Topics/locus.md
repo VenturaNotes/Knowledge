@@ -6,4 +6,4 @@
 - (2) (in genetics) the region of a chromosome occupied by a particular gene.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

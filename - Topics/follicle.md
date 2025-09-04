@@ -6,4 +6,4 @@
 - (2) (in ophthalmology) any of the smooth translucent elevations of the conjunctiva produced by an immune response. They are usually associated with viral inflammation. $\textendash$follicular adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

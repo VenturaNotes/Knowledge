@@ -6,4 +6,4 @@
 - (2) cutting across the tissue of an organ (see also SECTION).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) impatience and lack of empathy. This has been found to be a major factor in patients' dissatisfaction with their medical advisors.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) a turning inside out of a hollow organ, such as the uterus (which sometimes occurs after childbirth).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

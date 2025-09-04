@@ -7,4 +7,4 @@
 - (3) a layer of cells, such as the outer layer of cells in a hair.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 	- ChildLine website: advice on physical, emotional, and sexual abuse from the NHS's Child and Adolescent Mental Health Services, together with a confidential helpline
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
