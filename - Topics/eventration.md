@@ -6,4 +6,4 @@
 - (2) abnormal elevation of part of the diaphragm due to congenital weakness (but without true herniation).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

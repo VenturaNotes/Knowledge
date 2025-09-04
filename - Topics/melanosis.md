@@ -7,4 +7,4 @@
 - (3) cachexia associated with the spread of the skin cancer melanoma. —melanotic adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

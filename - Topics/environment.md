@@ -13,4 +13,4 @@
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
-[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

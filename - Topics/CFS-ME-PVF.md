@@ -10,4 +10,4 @@ aliases:
 	- Website of Action for ME: includes information for health-care professionals
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

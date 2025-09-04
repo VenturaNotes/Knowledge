@@ -6,4 +6,4 @@
 - (2) a thin process projecting from a bone, e.g. the rami of the mandible.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

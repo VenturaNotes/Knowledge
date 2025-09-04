@@ -6,4 +6,4 @@
 - (3) an uncommon condition of the vulva characterized by an epithelial lesion that histologically resembles the lesion of Paget's disease of the nipple. It may be associated with locally invasive adenocarcinomas of the surrounding skin, as well as tumors at other sites. \[Sir J. Paget (1814-99), British surgeon]
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - A major objection to consequentialism is that the consequences of actions cannot always be predicted or perceived. Questions also arise regarding the likelihood of the consequences, whom they will affect (individuals, populations, animals, the environment), and by whom and what means they should be evaluated. $\textemdash$consequentialist adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

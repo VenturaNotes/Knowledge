@@ -6,4 +6,4 @@
 - (2) describing a type of gland that loses part of its protoplasm when secreting. See SECRETION.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

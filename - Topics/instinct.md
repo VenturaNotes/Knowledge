@@ -6,4 +6,4 @@
 - (2) an innate drive that urges the individual towards a particular goal (for example, libido in psychoanalytic psychology).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

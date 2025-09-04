@@ -138,4 +138,4 @@ class TCPClient {
 [^1]: [[(Home Page) Computer Networking A Top-Down Approach 8th Edition by James F. Kurose and Keith W. Ross#1 1 What is the Internet]]
 [^2]: ChatGPT
 [^3]: [README: Getting Started with TCP](zotero://open-pdf/library/items/Z39YA2G3?page=1&annotation=8KH2BLT2)
-[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

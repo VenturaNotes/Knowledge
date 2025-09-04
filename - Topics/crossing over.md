@@ -13,4 +13,4 @@
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://www.genome.gov/genetics-glossary/Crossing-Over#:~:text=Crossing%20over%20is%20a%20cellular,different%20forms%20of%20the%20genes.
 [^3]: https://wayground.com/admin/quiz/5ae31ed16b164f0019047957/biology-vocabulary
-[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

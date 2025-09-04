@@ -6,4 +6,4 @@
 - (2) (reimplantation) (in dentistry) the reinsertion of a tooth into its socket after its accidental or deliberate removal. The prognosis for the tooth is improved if the tooth is not allowed to dry out prior to reimplantation. $\textemdash$replant $v b$.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

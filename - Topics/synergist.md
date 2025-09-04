@@ -6,4 +6,4 @@
 - (2) a muscle that acts with an agonist in making a particular movement. $\textemdash$synergism $n$.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

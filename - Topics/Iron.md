@@ -5,4 +5,4 @@
 - Many preparations of iron are used to treat iron-deficiency anaemia. These include preparations taken by mouth, such as ferrous sulphate, and those administered by injection, such as iron dextran.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

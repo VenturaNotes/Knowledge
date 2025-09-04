@@ -5,4 +5,4 @@
 - (2) in the USA, a person $\textendash$ licensed or unlicensed, certified or uncertified $\textendash$ who provides administrative and/or clinical assistance in a physician's office or other health-care facility. Administrative duties typically include filling out insurance forms, billing, and bookkeeping, while clinical duties may include taking medical histories, preparing patients to be examined, and preparing blood and urine specimens.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

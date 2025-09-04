@@ -4,4 +4,4 @@
 - $n$. the use of gases or vapours to bring about disinfestation of clothing, buildings, etc. Sulphur dioxide, formaldehyde, and chlorine are common fumigating agents.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

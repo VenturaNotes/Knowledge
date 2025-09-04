@@ -13,4 +13,4 @@
 ## References
 
 [^1]: [[(71) 2-Minute Neuroscience - Pons]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

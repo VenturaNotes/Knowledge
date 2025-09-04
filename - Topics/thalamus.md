@@ -16,4 +16,4 @@
 
 [^1]: ChatGPT and Gemini
 [^2]: [[(19) 2-Minute Neuroscience - The Thalamus]]
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

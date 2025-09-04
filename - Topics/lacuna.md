@@ -6,4 +6,4 @@
 - (2) (in ethics) a crucial gap, for instance in laying out the arguments for or against a controversial approach or treatment, that may invalidate the whole approach.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

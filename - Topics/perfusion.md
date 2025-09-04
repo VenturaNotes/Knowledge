@@ -6,4 +6,4 @@
 - (2) the deliberate introduction of fluid into a tissue, usually by injection into the blood vessels supplying the tissue.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

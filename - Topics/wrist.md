@@ -6,4 +6,4 @@
 - (2) the whole region of the wrist joint, including the carpus and lower parts of the radius and ulna.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

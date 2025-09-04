@@ -7,4 +7,4 @@
 - There are a number of separate rare autosomal dominant conditions other than ADPKD1 and ADPKD 2 that can present with polycystic kidneys. These include von Hippel-Lindau disease and tuberous sclerosis.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) the administration of any fluid, such as plasma or saline solution, into a patient's vein by means of a drip. See also AUTOTRANSFUSION.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

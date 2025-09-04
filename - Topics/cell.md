@@ -47,4 +47,4 @@ aliases:
 [^1]: ChatGPT
 [^2]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^ikngtm]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

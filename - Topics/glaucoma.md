@@ -5,4 +5,4 @@
 - In all types of glaucoma the aim of the treatment is to reduce the intraocular pressure. Drugs used for this purpose include beta blockers (e.g. timolol, levobunolol, carteolol), carbonic anhydrase inhibitors (e.g. brinzolamide, dorzolamide), alpha-receptor stimulants (e.g. apraclonidine, brimonidine), and prostaglandin analogues (e.g. latanoprost, bimatoprost, travaprost, tafluprost). They can be used in the form of eye drops. If the medical treatment is ineffective, surgery may be performed to allow the aqueous humour to drain from the eye in sufficient quantities to enable the pressure to return to normal. Such operations may either make a new channel through which the aqueous drains (known as drainage or filtering operations) or involve the insertion of a narrow tube (tube surgery).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

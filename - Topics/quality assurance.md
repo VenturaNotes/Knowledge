@@ -27,4 +27,4 @@ aliases:
 [^2]: ChatGPT
 [^3]: https://spdload.com/blog/software-development-glossary/
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^5]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^5]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

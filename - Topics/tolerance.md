@@ -6,4 +6,4 @@
 - (2) acceptance of others whose beliefs, customs, behavior, or lifestyle are different from one's own or from accepted social norms. Tolerance is an indispensable virtue in all medical staff and may be of clinical importance when a patient displays unusual behavior during initial assessment.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) (in pharmacology) the condition of being psychologically dependent on a drug, following repeated consumption, marked by reduced sensitivity to its effects and a craving for the drug if it is withdrawn. See also DEPENDENCE.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

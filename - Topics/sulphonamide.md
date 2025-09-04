@@ -5,4 +5,4 @@
 - A variety of side-effects may occur with sulphonamide treatment, including nausea, vomiting, headache, and loss of appetite; more severe effects include cyanosis, blood disorders, skin rashes, and fever. Because of increasing bacterial resistance to sulphonamides, and with the development of more effective less toxic antibiotics, the clinical use of these drugs has declined. Those still used include sulfadiazine, sulfasalazine, and sulfamethoxazole (combined with trimethoprim in co-trimoxazole).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

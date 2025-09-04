@@ -5,4 +5,4 @@
 - A former treatment for pulmonary tuberculosis $\textendash$ artificial pneumothorax $\textendash$ was the deliberate injection of air into the pleural cavity to collapse the lung and allow the tuberculous areas to heal.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

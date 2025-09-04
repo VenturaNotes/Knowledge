@@ -6,4 +6,4 @@
 - (2) the process by which a phagocytic cell takes in solid material, such as bacteria.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

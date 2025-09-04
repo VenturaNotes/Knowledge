@@ -6,4 +6,4 @@
 - (2) a sheet of peritoneum that supports or links together abdominal organs.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

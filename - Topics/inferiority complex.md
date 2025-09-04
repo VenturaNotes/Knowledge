@@ -5,4 +5,4 @@
 - (2) (in Freudian psychoanalysis) a complex said to result from the conflict between Oedipal wishes (see Oedipus COMPLEX) and the reality of the child's lack of power. This gives rise to repressed feelings of personal inferiority if not worked through.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

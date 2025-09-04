@@ -6,4 +6,4 @@
 - (2) a biocompatible ceramic material that is a synthetic form of natural hydroxyapatite. Some joint replacement prostheses are coated with synthetic hydroxyapatite, which encourages bone to grow on to the implant. The material is also used in some forms of middle-ear surgery.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

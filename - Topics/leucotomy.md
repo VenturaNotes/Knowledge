@@ -5,4 +5,4 @@
 - Modern procedures use stereotaxy and make selective lesions in smaller areas of the brain. Side-effects are uncommon and the operation is very occasionally (only a few each year in the UK) used for intractable pain, severe depression, obsessive-compulsive disorder, and chronic anxiety, where very severe emotional tension has not been relieved by other treatments.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

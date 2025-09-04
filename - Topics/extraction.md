@@ -6,4 +6,4 @@
 - (2) the act of pulling out a baby from the body of its mother during childbirth.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

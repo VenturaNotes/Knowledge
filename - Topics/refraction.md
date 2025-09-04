@@ -6,4 +6,4 @@
 - (2) determination of the power of refraction of the eye. This gives the degree to which the eye differs from normal, which will determine whether or not the patient needs glasses and, if so, how strong they should be.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

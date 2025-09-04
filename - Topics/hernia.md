@@ -5,4 +5,4 @@
 - Hernias may be complicated by becoming impossible to return to their normal site (irreducible); swollen and fixed within their sac (incarcerated); or cut off from their blood supply, becoming painful and eventually gangrenous (strangulated). The best treatment for hernias, especially if they are painful, is surgical repair (see HERNIOPLASTY).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

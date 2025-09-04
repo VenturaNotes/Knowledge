@@ -6,4 +6,4 @@
 - (2) the restoration of blood flow to an organ by angioplasty/stenting or surgical bypass grafting. See CORONARY REVASCULARIZATION.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -7,4 +7,4 @@
 - (3) the component of a bridge that is fixed to a natural tooth.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

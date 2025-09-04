@@ -6,4 +6,4 @@
 - (2) describing a stain that is not removed from a specimen by washing with an acidic solution.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

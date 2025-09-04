@@ -8,4 +8,4 @@
 - (4) (gene probe) a radioactively labelled cloned section of DNA that is used to detect identical sections of nucleic acid by means of pairing between complementary bases. See Northern blot analysis; Southern blot ANALYSIS.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

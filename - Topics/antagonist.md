@@ -6,4 +6,4 @@
 - (2) a drug or other substance with opposite action to that of another drug or natural body chemical, which it inhibits. Examples are the antimetabolites. $\textemdash$ antagonism $n$.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

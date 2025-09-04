@@ -7,4 +7,4 @@
 - (3) the removal of blood from a part (usually a limb) prior to stopping the inflow of blood (by tourniquet). —exsanguinate $v b$.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

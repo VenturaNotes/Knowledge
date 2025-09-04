@@ -6,4 +6,4 @@
 - (2) the part of the heart that regulates the rate at which it beats: the sinoatrial node.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

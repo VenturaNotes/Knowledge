@@ -6,4 +6,4 @@
 - (2) a rash of pimples that become pus-filled, as in chickenpox and smallpox.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

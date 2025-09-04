@@ -7,4 +7,4 @@
 - (3) (decapsulation) the surgical removal of a capsule from an organ; for example, the stripping of the membrane that envelops the kidney or of the inflammatory capsule that encloses a chronic abscess, as in the treatment of empyema.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

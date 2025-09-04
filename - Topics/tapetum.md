@@ -6,4 +6,4 @@
 - (2) a band of nerve fibres that form the roof and wall of the lower posterior part of the corpus callosum.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

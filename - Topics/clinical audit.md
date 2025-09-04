@@ -13,4 +13,4 @@
 - A distinction may be made between clinical audit, which refers to total care (involving doctors, nurses, paramedical staff, etc.), and medical audit, which refers to medical care specifically performed by doctors, although in practice the two terms are often used interchangeably.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

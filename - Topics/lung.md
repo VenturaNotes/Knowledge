@@ -40,4 +40,4 @@
 	- British Lung Foundation: basic information on the lungs and some common lung conditions
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

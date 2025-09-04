@@ -5,4 +5,4 @@
 - (2) a swelling in the abdomen or elsewhere, caused by local muscular contraction or the accumulation of gases, that mimics a swelling caused by a tumor.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

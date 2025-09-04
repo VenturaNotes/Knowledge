@@ -6,4 +6,4 @@
 - (2) evaluation of a person's aims or purpose in undergoing an action, which is important for the assessment and attribution of responsibility in ethicolegal questions and defined legally for the purposes of criminal law. See also DOCTRINE OF DOUBLE EFFECT.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Alpha-fetoprotein is also produced by certain tumours, including malignant teratomas and primary liver tumours (hepatomas). See TUMOUR MARKER.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -8,4 +8,4 @@
 ## References
 
 [^1]: https://www.genome.gov/genetics-glossary/Diploid#:~:text=Diploid%20is%20a%20term%20that,cells%20contain%2023%20chromosomes%20pairs.
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) (of inanimate objects) completely free from bacteria, fungi, viruses, or other microorganisms that could cause infection.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

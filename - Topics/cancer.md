@@ -10,4 +10,4 @@
 	- Website of Cancer Research UK: includes information for patients and their families
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

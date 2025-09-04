@@ -5,4 +5,4 @@
 - (2) in research, an incident that defines an importantly altered outcome for one group of participants compared to others.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

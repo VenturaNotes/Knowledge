@@ -7,4 +7,4 @@
 - (3) a similar sound heard over an inflamed extensor tendon in the hand in scleroderma caused by thickening of the skin, or over a tendon injured by repetitive use in de Quervain's tendovaginitis.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

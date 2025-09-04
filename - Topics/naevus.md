@@ -5,4 +5,4 @@
 - It is not uncommon for a pale or white halo to develop around an ordinary pigmented naevus, especially on the trunk, forming a halo naevus. The pigmented naevus disappears over the course of a few months; this is followed by resolution of the pale area. A blue naevus is a small blue-grey papule appearing at birth or later in life, mainly on the extremities. Progression to malignant melanoma is very rare. A naevus of Ota is a bluegrey pigmented area on the cheek, eyelid, or forehead with similar pigmentation of the sclera of an eye. It is associated with melanomas of the uvea, orbit, and brain as well as with glaucoma of the affected eye. See also MOLE$^{2}$.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

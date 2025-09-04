@@ -6,4 +6,4 @@
 - (2) (in education and group therapy) the process of running, leading, or controlling a group discussion.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

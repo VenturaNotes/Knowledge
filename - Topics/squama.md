@@ -6,4 +6,4 @@
 - (2) a scale, such as any of the scales from the cornified layer of the epidermis.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

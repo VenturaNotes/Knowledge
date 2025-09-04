@@ -7,4 +7,4 @@
 - (2) n. a medicinal substance purporting to increase vigour and liveliness and produce a feeling of wellbeing: beneficial effects of tonics are probably due to their placebo action.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

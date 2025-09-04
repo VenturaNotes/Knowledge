@@ -17,4 +17,4 @@ aliases:
 
 [^1]: https://www.genome.gov/genetics-glossary/Gamete#:~:text=A%20gamete%20is%20a%20reproductive,form%20a%20new%20diploid%20organism.
 [^2]: https://quizizz.com/admin/quiz/5ae31ed16b164f0019047957/biology-vocabulary
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

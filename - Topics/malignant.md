@@ -6,4 +6,4 @@
 - (2) describing any disorder that becomes life-threatening if untreated (e.g. malignant hypertension). Compare BENIGN.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

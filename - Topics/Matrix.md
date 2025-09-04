@@ -44,4 +44,4 @@ $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{bmatrix} a & b \\ c & d 
 [^5]: Google's Search Labs | AI Overview
 [^6]: [[(1) Linear Algebra 1.1.1 Systems of Linear Equations]]
 [^7]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^8]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^8]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

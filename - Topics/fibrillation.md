@@ -6,4 +6,4 @@
 - When ventricular fibrillation occurs the ventricles stop beating (see CARDIAC ARREST). It is most commonly the result of myocardial infarction.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

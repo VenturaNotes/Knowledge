@@ -6,4 +6,4 @@
 - (2) any of the conditions for which a particular drug treatment may be prescribed, as defined by its licence. Compare CONTRAINDICATION.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

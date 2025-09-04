@@ -7,4 +7,4 @@
 - (3) (aqueous flare) the visible passage of a beam of light through the aqueous humor, which is a sign of inflammation of the anterior segment of the eye. The light is scattered by proteins in the aqueous humor that have exuded from blood vessels (see EXUDATION).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

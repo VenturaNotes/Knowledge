@@ -5,4 +5,4 @@
 - Heart block may be congenital or it may be due to heart disease, including myocardial infarction, myocarditis, cardiomyopathy, and disease of the valves. It is most frequently seen in the elderly as the result of chronic degenerative scarring around the conducting tissue. There may be no symptoms, but when very slow heart and pulse rates occur the patient may develop heart failure or syncope (see Stokes-Adams syndrome). Symptoms may be abolished by the use of an artificial pacemaker.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

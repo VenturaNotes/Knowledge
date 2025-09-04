@@ -6,4 +6,4 @@
 - (2) the injection of a local anaesthetic solution into the tissues to cause local anaesthesia. Infiltration anaesthesia is routinely used to anaesthetize upper teeth to allow dental procedures to be carried out.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

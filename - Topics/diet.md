@@ -6,4 +6,4 @@
 - (2) a restrictive regime of food intake used by an individual to lose weight.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

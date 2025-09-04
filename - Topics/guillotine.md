@@ -6,4 +6,4 @@
 - (2) an encircling suture to control the escape of fluid or blood from an orifice or to close a gap.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

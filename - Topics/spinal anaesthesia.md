@@ -5,4 +5,4 @@
 - (2) loss of sensation in part of the body as a result of injury or disease to the spinal cord. The area of the body affected depends upon the site of the lesion: the lower it is in the cord the less the sensory disability.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) (in anatomy) a specified surface of a bone or other body part.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

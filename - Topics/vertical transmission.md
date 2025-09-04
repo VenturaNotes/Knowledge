@@ -5,4 +5,4 @@
 - (2) (in population genetics) inheritance of an allele or condition from either the father or mother.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -8,4 +8,4 @@
 ## References
 
 [^1]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^7cunf7]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

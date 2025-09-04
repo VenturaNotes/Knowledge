@@ -5,4 +5,4 @@
 - Frequent intake of sugar as well as poor oral hygiene is a major cause. The disease is more common in young people and has a predilection for specific sites. Dental caries can be most effectively prevented by restricting the frequency of sugar intake and avoiding sweet food and drinks at bedtime. The resistance of enamel to dental caries can be increased by the application of fluoride salts to the tooth surface from toothpastes or mouth rinses. Fluoridation of water also makes teeth resistant to caries during the period of tooth development. Once caries has spread into the dentine, treatment usually consists of removing the decayed part of the tooth using a drill and replacing it with a filling.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

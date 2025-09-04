@@ -7,4 +7,4 @@
 - (3) inability to fulfil the responsibilities and meet the standards of care expected of individuals working in a professional role in health care.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

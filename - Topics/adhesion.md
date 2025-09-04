@@ -6,4 +6,4 @@
 - (2) a healing process in which the edges of a wound fit together. In primary adhesion there is very little granulation tissue; in secondary adhesion the two edges are joined together by granulation tissue.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

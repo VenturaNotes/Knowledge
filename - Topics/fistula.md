@@ -6,4 +6,4 @@
 - (2) (arteriovenous fistula) a surgically created connection between an artery and a vein, usually in a limb, to create arterial and venous access for haemodialysis. It can be a direct anastomosis between the artery and vein or a loop connecting the two, which may be autogenous or prosthetic.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

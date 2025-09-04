@@ -6,4 +6,4 @@
 - (2) (formerly) discharge through the nostrils associated with necrosis of the nasal bones: seen in infants with congenital syphilis.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

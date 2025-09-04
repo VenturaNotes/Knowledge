@@ -6,4 +6,4 @@
 - (2) denoting a syndrome consisting of a mixture of symptoms of emotionally unstable personality disorder and schizophrenia. Borderline syndrome was first defined by Eckhart Tölle in the 1980s.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

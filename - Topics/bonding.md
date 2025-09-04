@@ -6,4 +6,4 @@
 - (2) (in dentistry) the attachment of dental restorations, sealants, and orthodontic brackets to teeth. Bonding may be mechanical (see ACID-ETCH TECHNIQUE) or chemical, by the use of adhesive cements or resins. Dentine bonding agents are increasingly used to attach dental fillings to dentine as well as to enamel. In certain artificial crowns porcelain is bonded to a metal substructure to produce a bonded porcelain crown.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

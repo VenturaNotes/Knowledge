@@ -6,4 +6,4 @@
 - (2) (loupes) a binocular telescope system of variable magnification range mounted on a spectacle frame or a headband and used in microsurgical procedures, such as nerve repair or anastomosis of fine vessels.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

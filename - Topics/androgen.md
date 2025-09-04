@@ -5,4 +5,4 @@
 - Naturally occurring and synthetic androgens are used in replacement therapy (to treat such conditions as delayed puberty in adolescent boys, hypogonadism, and impotence due to testicular insufficiency) and as anabolic agents. Side-effects include salt and water retention, increased bone growth, and masculinization in women. Androgens should not be used in patients with cancer of the prostate gland or in pregnant women. $\textemdash$androgenic adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

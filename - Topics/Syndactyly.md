@@ -13,4 +13,4 @@
 
 [^1]: https://www.cincinnatichildrens.org/health/w/webbed-fingers-toes#:~:text=The%20medical%20term%20for%20two,of%20every%202%2C500%2D3%2C000%20newborns
 [^2]: Google's Search Labs | AI Overview
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -7,4 +7,4 @@
 - (3) the central part of the lens of the eye, which is harder than the outer cortex.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

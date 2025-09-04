@@ -6,4 +6,4 @@
 - (2) a turning inwards of a hollow organ (such as the uterus) on itself.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

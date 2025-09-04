@@ -6,4 +6,4 @@
 - (2) the clinical syndrome due to hypothyroidism in adult life, including coarsening of the skin, intolerance to cold, weight gain, and mental dullness. The symptoms are abolished with thyroxine treatment. $\textemdash$myxoedematous adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) a mass of dead cellular, fatty, and other material that forms within a body cavity and takes its shape. It may then be released and appear elsewhere. For example, granular casts appearing in the urine indicate kidney disease.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Treatment consists of the use of drugs that suppress the inflammation, combined with measures to relieve the discomfort and more specific drug treatment if a specific cause of the uveitis is found. The drugs may be given as drops, injections, or tablets, often in combination.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

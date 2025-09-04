@@ -5,4 +5,4 @@
 - Like tuberculosis, leprosy should be treated with a combination of antibacterial drugs, to overcome the problem of resistance developing to a single drug; the WHO advocates a combination of rifampicin and dapsone for six months to treat paucibacillary leprosy and these drugs with the addition of clofazimine for multibacillary leprosy, this multidrug therapy (MDT) to be continued for two years. Reconstructive surgery can repair some of the damage caused by the disease. A vaccine is being developed and tested.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

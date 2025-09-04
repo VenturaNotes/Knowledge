@@ -6,4 +6,4 @@
 - (2) exposure of a substance or object to ionizing radiation. Irradiation of food with gamma rays, which kill bacteria, is a technique used in food preservation.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

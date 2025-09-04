@@ -6,4 +6,4 @@
 - (2) an enzyme that catalyses the transfer of phosphate groups. An example is phosphofructokinase.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

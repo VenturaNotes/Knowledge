@@ -5,4 +5,4 @@
 - (2) a test to confirm leakage of the aqueous humour. Fluorescein sodium dye is instilled and viewed with cobalt blue light; a bright green flow of liquid is seen at the site of the leakage. \[E. Seidel (1882-1948), German ophthalmologist]
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

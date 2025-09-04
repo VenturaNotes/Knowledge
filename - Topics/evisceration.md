@@ -6,4 +6,4 @@
 - (2) (in ophthalmology) an operation in which the contents of the eyeball are removed, the empty outer envelope (sclera) being left behind. Compare ENUCLEATION.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

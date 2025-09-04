@@ -5,4 +5,4 @@
 - Isosorbide dinitrate is converted in the body to the active form of the drug, isosorbide mononitrate, which is available as a preventative oral treatment for angina.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) (in ethics) an untruthful statement that is intended to deceive. See also TRUTH-TELLING.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

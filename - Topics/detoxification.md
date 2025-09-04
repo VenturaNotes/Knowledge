@@ -6,4 +6,4 @@
 - (2) the period of withdrawal when a person stops long-term consumption of alcohol or some other drug. Withdrawal symptoms (e.g. delirium tremens) may occur during detoxification.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

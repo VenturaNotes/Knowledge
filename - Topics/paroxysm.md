@@ -6,4 +6,4 @@
 - (2) the abrupt worsening of symptoms or recurrence of disease. $\textemdash$paroxysmal adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

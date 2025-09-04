@@ -5,4 +5,4 @@
 - Immunization against the infection was introduced in the UK in the 1950s and offers protection. An attack usually confers lifelong immunity. Despite good vaccine coverage resulting in the current low levels of disease, whooping cough is still a significant cause of illness and death in the very young. Medical name: pertussis.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

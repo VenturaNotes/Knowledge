@@ -5,4 +5,4 @@
 - (2) see NEUROFIBROMATOSIS. \[F. D. von Recklinghausen (1833-1910), German pathologist]
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

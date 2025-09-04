@@ -13,4 +13,4 @@
 
 [^1]: ChatGPT and Gemini
 [^2]: [[(20) 2-Minute Neuroscience - The Hippocampus]]
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

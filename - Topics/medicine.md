@@ -7,4 +7,4 @@
 - (3) any drug or preparation used for the treatment or prevention of disease, particularly a drug that is taken by mouth.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

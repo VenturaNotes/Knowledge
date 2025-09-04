@@ -6,4 +6,4 @@
 - (2) the effective osmotic pressure of a solution. See HYPERTONIC; HYPOTONIC; OSMOSIS.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

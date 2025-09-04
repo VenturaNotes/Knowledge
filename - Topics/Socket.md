@@ -11,4 +11,4 @@ aliases:
 ## References
 
 [^1]: [[(2) What is a Socket.]]
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

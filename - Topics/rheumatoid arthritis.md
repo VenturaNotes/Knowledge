@@ -5,4 +5,4 @@
 - Treatment is with a variety of drugs, including anti-inflammatory analgesics (see NSAID), corticosteroids, disease-modifying antirheumatic drugs, and biological therapies. Surgical treatment is by excision of the synovium in early cases or by fusion or joint replacement once bony changes have occurred. (See also HIP REPLACEMENT.) The condition may resolve spontaneously, but is usually relapsing and remitting with steady progression. It may finally burn itself out, leaving severely deformed joints.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

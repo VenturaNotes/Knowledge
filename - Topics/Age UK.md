@@ -6,4 +6,4 @@
 	- Website of Age UK: includes advice on health and lifestyle issues affecting older people
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

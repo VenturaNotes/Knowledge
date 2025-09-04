@@ -5,4 +5,4 @@
 - (2) (basophilic) adj. describing any cell that stains well with basic dyes. For example, certain cells in the anterior pituitary gland are basophilic.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

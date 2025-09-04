@@ -35,4 +35,4 @@
 
 [^1]: ChatGPT
 [^2]: https://medlineplus.gov/genetics/understanding/howgeneswork/cellsdivide/#:~:text=During%20mitosis%2C%20a%20cell%20duplicates,such%20as%20cancer%20can%20result.
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

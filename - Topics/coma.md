@@ -6,4 +6,4 @@
 - (2) (in optics) an aberration, inherent in certain optical designs or due to imperfection in the lens or cornea, that results in off-axis point sources (e.g. stars) appearing to have a tail, like the coma of a comet. -comatic adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

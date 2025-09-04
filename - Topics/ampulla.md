@@ -6,5 +6,5 @@
 - $n$. A small vessel such as a miniature two-handled ancient Roman flask; also any membranous vesicle, especially the bulge in each semicircular canal with its crest-shaped inner surface or crista containing hair cells. It is part of the vestibular system and plays a part in sensations of body orientation. \[From Latin ampulla a small flagon, irregular diminutive of amphora a flagon]
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

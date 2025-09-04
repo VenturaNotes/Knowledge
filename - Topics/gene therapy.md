@@ -7,4 +7,4 @@
 - Gene therapy for certain types of cancer is also undergoing clinical trials. Here the approach is aimed at introducing into the cancer cells tumoursuppressing genes, such as $ p 53$ (which prevents uncontrolled cell division), or genes that direct the production of substances (such as interleukin 2) that stimulate the immune system to destroy the tumor cells.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

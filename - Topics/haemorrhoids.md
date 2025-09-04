@@ -6,4 +6,4 @@
 - External haemorrhoids are either prolapsed internal haemorrhoids or more often $\textendash$ perianal haematomas $\textendash$ or the residual skin tags remaining after a perianal haematoma has healed.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

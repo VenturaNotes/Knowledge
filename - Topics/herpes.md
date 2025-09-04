@@ -6,4 +6,4 @@
 - Treatment of all forms of herpes is with an appropriate preparation of aciclovir or related antiviral drugs; shingles may require potent analgesics and treatment of secondary bacterial infection.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

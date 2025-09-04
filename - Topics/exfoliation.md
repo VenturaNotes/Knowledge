@@ -7,4 +7,4 @@
 - (3) the natural shedding of primary teeth due to the eruption of their permanent successors. $\textemdash$exfoliative adj.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

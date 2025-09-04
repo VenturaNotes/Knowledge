@@ -6,4 +6,4 @@
 - (2) a form of retractor used to open out the sides of an abdominal incision and facilitate access.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

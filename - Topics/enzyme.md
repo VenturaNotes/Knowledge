@@ -21,4 +21,4 @@ aliases:
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://my.clevelandclinic.org/health/articles/21532-enzymes#:~:text=Enzymes%20are%20proteins%20that%20help%20speed%20up%20metabolism%2C%20or%20the,in%20manufactured%20products%20and%20food.
-[^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

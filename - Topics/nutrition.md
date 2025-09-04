@@ -6,4 +6,4 @@
 - (2) the intake of nutrients and their subsequent absorption and assimilation by the tissues. Patients who cannot be fed in a normal way can be given nutrients by tubes into the gastrointestinal tract (see ARTIFICIAL NUTRITION AND HYDRATION; ENTERAL FEEDING) or by infusion into a vein (intravenous feeding or parenteral nutrition; see TOTAL PARENTERAL NUTRITION).
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

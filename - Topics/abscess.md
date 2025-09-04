@@ -5,4 +5,4 @@
 - The brain and its meninges have a low resistance to infection and a cerebral abscess is liable to follow any penetration of these by microorganisms. The condition is fatal unless relieved by aspiration or surgical drainage.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) the study of these patterns. In addition to its use in medicine, dermatoglyphics is also of value in criminology and is of interest to anthropologists. See also FINGERPRINT.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

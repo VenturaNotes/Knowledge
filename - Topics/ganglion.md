@@ -6,4 +6,4 @@
 - (2) an abnormal but harmless swelling (cyst) that sometimes forms in tendon sheaths, especially at the wrist.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

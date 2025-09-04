@@ -8,4 +8,4 @@
 - (4) a protrusion of the medial wall of the vestibule of the middle ear.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

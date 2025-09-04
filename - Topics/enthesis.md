@@ -6,4 +6,4 @@
 - (2) the insertion of synthetic inorganic material to replace lost tissue.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) (in dentistry) the technique of preparing and fitting a tooth with an artificial crown.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

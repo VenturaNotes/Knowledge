@@ -48,4 +48,4 @@ aliases:
 ## References
 
 [^1]: https://www.pennmedicine.org/for-patients-and-visitors/patient-information/conditions-treated-a-to-z/abdominal-aortic-aneurysm
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

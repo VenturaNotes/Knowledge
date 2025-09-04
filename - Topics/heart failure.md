@@ -5,4 +5,4 @@
 - Diuretics (e.g. furosemide) improve symptoms. ACE inhibitors, beta blockers, and spironolactone improve symptoms and life expectancy in patients with left ventricular failure. Heart surgery may be required for the correction of valve problems.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) that part of the segmented mesoderm in the early embryo that forms the deeper layers of the skin (dermis) and associated tissues. See SOMITE.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

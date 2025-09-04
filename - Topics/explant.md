@@ -6,4 +6,4 @@
 - (3) $v b$. to transfer live tissue for culture outside the body. $\textendash$explantation $n$.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

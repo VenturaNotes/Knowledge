@@ -5,4 +5,4 @@
 - Patients with myocardial infarction are best cared for in a specialized coronary care unit with facilities for the early detection, prevention, and treatment of arrhythmias and cardiac arrest. Blockage of a major coronary artery is detected by elevation of the S-T segment on the electrocardiogram (STEMI or S-T elevation myocardial infarction). It is relieved by emergency coronary angioplasty (commonly called primary percutaneous coronary intervention) or the intravenous infusion of a drug to dissolve thrombus (thrombolysis). Most survivors of myocardial infarction are able to return to a full and active life, including those who have been successfully resuscitated from cardiac arrest. Lesser degrees of coronary obstruction may not be seen on the electrocardiogram but are revealed by the detection of raised troponin levels in the blood (NSTEMI or non-S-T elevation myocardial infarction). Treatment is with antiplatelet drugs and early percutaneous coronary intervention.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -7,4 +7,4 @@
 ## References
 
 [^1]: https://www.khanacademy.org/science/hs-ed/x2613d8165d88df5e:chemical-bonding/x2613d8165d88df5e:covalent-bonds/a/molecules-salts-compounds-and-chemicals-what-s-the-difference
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

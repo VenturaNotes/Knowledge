@@ -7,4 +7,4 @@
 - (3) any condition or disposition that makes a person the subject of moral reproach by society and thus creates a potential barrier to access to health care.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

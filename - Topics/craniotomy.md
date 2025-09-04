@@ -6,4 +6,4 @@
 - (2) surgical perforation of the skull of a dead fetus during difficult labour, so that delivery may continue. For both operations the instrument used is called a craniotome.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 	- Website of Diabetes UK: supplies recent research as well as information on living with type 1 and type 2 diabetes (including recipes)
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

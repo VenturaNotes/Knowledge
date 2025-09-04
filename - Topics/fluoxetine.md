@@ -4,4 +4,4 @@
 - $n$. an antidepressant drug that acts by prolonging the action of the neurotransmitter serotonin (5-hydroxytryptamine) in the brain (see SSRI). It is used to treat depression, bulimia nervosa, and obsessivecompulsive disorder. Possible side-effects include nausea, vomiting, diarrhoea, allergic reactions (e.g. rash), insomnia, and anxiety.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (2) a gathering of instructors, students, and patients, usually in a hospital ward, for the examination and treatment of the patients.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

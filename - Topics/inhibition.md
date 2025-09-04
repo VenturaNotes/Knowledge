@@ -6,4 +6,4 @@
 - (2) (in psychoanalysis) an inner command that prevents one from doing something forbidden. Some inhibitions are essential for social adjustment, but excessive inhibitions can severely restrict one's life.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

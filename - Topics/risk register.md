@@ -5,4 +5,4 @@
 - (2) (at-risk register) see CHILD PROTECTION REGISTER.
 ## References
 
-[^1]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

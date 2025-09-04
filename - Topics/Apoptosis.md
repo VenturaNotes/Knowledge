@@ -11,4 +11,4 @@
 ## References
 
 [^1]: https://www.genome.gov/genetics-glossary/apoptosis#:~:text=Apoptosis%20is%20the%20process%20of,a%20role%20in%20preventing%20cancer.
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

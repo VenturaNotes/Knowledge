@@ -12,4 +12,4 @@
 ## References
 
 [^1]: https://www.google.com/search?q=what+is+catalysis+in+chemistry.+Practice+questions&oq=what+is+catalysis+in+chemistry.+Practice+questions&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigAdIBCDgxODFqMGo5qAIAsAIB8QXEfRX5COLbOQ&sourceid=chrome&ie=UTF-8
-[^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
