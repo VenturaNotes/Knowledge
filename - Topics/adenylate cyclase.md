@@ -6,5 +6,5 @@
 - $n$. An enzyme in a cell membrane that responds to a hormone by initiating the conversion of ATP to cyclic AMP as a second messenger. \[From aden- yl(ic acid) + -ate indicating a salt or ester of an acid + cycl(ic AMP) + Greek -ase denoting an enzyme, from diastasis separation]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

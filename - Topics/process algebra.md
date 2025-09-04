@@ -6,4 +6,4 @@
 - Process algebra has the potential to become a general theory of computing, relevant to system modelling and parallel-program development. There is much research needed to develop its foundations, tools, and applications.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

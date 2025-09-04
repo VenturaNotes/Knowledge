@@ -7,4 +7,4 @@
 ## References
 
 [^1]: https://www.techtarget.com/whatis/definition/augmented-analytics
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

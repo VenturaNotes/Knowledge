@@ -9,6 +9,6 @@
 - A form of uncertainty where, while the actual outcome of an action is not known, probabilities can be assigned to each of the possible outcomes. This permits application of the expected utility function to represent preferences over alternatives. The variance of the distribution of possible outcomes is frequently used as a measure of risk, particularly in financial theory. See also COUNTER-PARTY CREDIT RISK; CURRENCY RISK; DOWNSIDE RISK; EXPOSURE TO RISK; IDIOSYNCRATIC RISK; INDEPENDENT RISKS; MARKET RISK; SETTLEMENT RISK; SYSTEMATIC RISK; SYSTEMIC RISK.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

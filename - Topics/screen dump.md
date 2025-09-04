@@ -4,4 +4,4 @@
 - A way of transferring the entire graphical or textual contents of a display screen to a printer. Each pixel of the display appears as a dot of suitable density on the printer. Color screens can be dumped to color printers. A screenshot is a screen dump in which the display screen pixels are recorded in a data file.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

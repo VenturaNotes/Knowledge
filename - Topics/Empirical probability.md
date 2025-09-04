@@ -8,4 +8,4 @@
 ## References
 
 [^1]: [[(1) Probability & Statistics (1 of 62) Introduction]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

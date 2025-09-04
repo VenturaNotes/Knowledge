@@ -5,4 +5,4 @@
 - Businesses encourage employees to use encryption services when storing PST files on their local hard drive to ensure security of sensitive company communications.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

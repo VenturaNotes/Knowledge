@@ -7,5 +7,5 @@
 - The idea that there are multiple ways of viewing a single issue. More formally, duality applied to optimization theory states that every maximization problem has a dual minimization problem and vice versa. Any problem can be transformed into its dual by interchanging constraints and objectives. In consumer theory the problem of maximizing utility subject to a budget constraint is dual to minimizing expenditure subject to achieving a given level of utility. The use of duality provides alternative ways to represent the solution. For example, the expenditure function and the indirect utility function are equivalent representations of consumer behaviour.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

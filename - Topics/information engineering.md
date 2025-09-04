@@ -10,5 +10,5 @@ aliases:
 - Information engineering, or IE, is an approach to creating information systems. IE involves creating data pipelines that connect data sources to the information system. They may also link into a data lake or data warehouse. Information engineers, also called data engineers, focus on the resilience of a system, data security, and scalability. They may design the system in line with business goals, using data modeling and process modeling practices. IE may also be referred to as information technology engineering or ITE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

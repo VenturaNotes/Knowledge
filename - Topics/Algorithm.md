@@ -55,11 +55,11 @@ aliases:
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
 [^2]: https://spdload.com/blog/software-development-glossary/
 [^3]: ChatGPT
-[^4]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^5]:  [[Home Page - Glossary by ada computer science]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^5]:  [[(Home Page) Glossary by ada computer science]]
 [^6]: https://www.techtarget.com/whatis/definition/algorithm
-[^7]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^8]: [[Home Page - Glossary by Capterra]]
+[^7]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^8]: [[(Home Page) Glossary by Capterra]]
 [^9]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
-[^10]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^10]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^11]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

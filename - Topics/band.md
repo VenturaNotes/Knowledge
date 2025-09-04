@@ -8,5 +8,5 @@
 - (2) Four ranges of maturities set by the Bank of England to influence short-term interest rates in the money market. They are set on Treasury bills, local authority bills, and eligible bank bills (see ELIGIBLE PAPER); band 1 is from 1 to 14 days, band 2 from 15 to 33 days, band 3 from 34 to 63 days, and band 4 from 64 to 91 days.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

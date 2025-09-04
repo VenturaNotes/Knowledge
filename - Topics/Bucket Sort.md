@@ -33,5 +33,5 @@ def bucket_sort(arr):
 - #question How does this code work? 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: ChatGPT

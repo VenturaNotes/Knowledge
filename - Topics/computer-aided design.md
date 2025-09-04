@@ -13,5 +13,5 @@ aliases:
 - (CAD) The use of computers to produce designs and to manipulate them rapidly. In many cases it can replace the need to produce expensive prototypes. In conjunction with live data, CAD can also be used for testing complex projects; for example, nuclear tests in the Pacific provided data enabling computer simulations to test future weapons. In conjunction with virtual reality, CAD can allow potential customers to view new products at an early stage, before significant amounts of capital have been expended on plant, etc. CAD is also linked to material requirements planning systems permitting rapid costing of new models to be made, together with the appropriate bills of materials.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

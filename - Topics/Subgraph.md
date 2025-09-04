@@ -12,4 +12,4 @@ aliases:
 If $V^{\prime}$ is a proper subset of $V$ or $E^{\prime}$ is a proper subset of $E$ then $G^{\prime}$ is a [[proper subgraph]] of $G$. If all the vertices of $G$ are present in the subgraph $G^{\prime}$ then $G^{\prime}$ is a [[spanning subgraph]] of $G$. See also SPANNING TREE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

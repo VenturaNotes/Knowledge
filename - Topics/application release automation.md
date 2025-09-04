@@ -11,4 +11,4 @@ aliases:
 ## References
 
 [^1]: https://www.techtarget.com/searchitoperations/definition/application-release-automation-ARA
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

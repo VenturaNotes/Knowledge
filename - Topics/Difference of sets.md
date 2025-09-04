@@ -17,5 +17,5 @@ aliases: Set Difference
 ## References
 
 [^1]: https://mathworld.wolfram.com/SetDifference.html
-[^2]: [[Home Page - Problems on Discrete Mathematics by Chung-Chih Li et. al.#^50uda4]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Problems on Discrete Mathematics by Chung-Chih Li et. al.#^50uda4]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

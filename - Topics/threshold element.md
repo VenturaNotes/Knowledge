@@ -5,4 +5,4 @@
 - A system of threshold elements is described by or as threshold logic. See also TERNARY THRESHOLD GATE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

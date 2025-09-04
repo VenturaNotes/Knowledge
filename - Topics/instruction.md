@@ -7,5 +7,5 @@
 - An instruction is a term used by computer programmers to describe an order that is given to a computer processor by a computer program. Computer instructions are typically communicated using binary code, a sequence of 0s and 1s that describe the action a computer system is expected to perform. Computer instructions have three components: operation code, an address field, and a mode field. Operation code identifies a specific action to be performed. The address field displays where registers (special storage areas that contain data that can be used to carry out an instruction) and memory are located. The mode field shows how the register and memory will work together to perform an operation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

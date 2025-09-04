@@ -5,4 +5,4 @@
 - Examples of real-time systems include process control, embedded computer systems, point-of-sale systems, and computer-aided testing.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

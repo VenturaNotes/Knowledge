@@ -5,4 +5,4 @@
 - Several multiprocessing systems have an architecture based on the hypercube, where processors replace corners and communication links replace edges. In an $n$-dimensional hypercube network, no processor is more than $n$ links from any other processor; doubling the number of processors by using an $(n+1)$-dimensional network means information has to travel over only one additional connection. However, as the number of processors increases, the number of connections each one must make has also to be increased.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

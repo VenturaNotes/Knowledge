@@ -5,4 +5,4 @@
 - Both matrices have characteristic polynomials $(x-1)^2(x-2)^4$; the minimal polynomials are $(x-1)(x-2)^4$ and $(x-1)(x-2)^2$ respectively.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

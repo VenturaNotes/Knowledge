@@ -7,5 +7,5 @@
 - 1G or analog networks were among the first generation of wireless telephone networks. The first-ever commercially deployed wireless communications network used 1G. Japan first deployed this network in 1979. At the time, the technology was high-tech and cutting edge. However, cellular phone adaption was not widespread.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

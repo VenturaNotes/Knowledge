@@ -6,4 +6,4 @@
 - With the growth in the processing power of PCs most workstations are now based on PC hardware rather than dedicated hardware (such as SPARC).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

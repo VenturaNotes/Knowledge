@@ -10,5 +10,5 @@ aliases:
 - Online transaction processing (OLTP) is a database system paradigm for handling transactional data. In computing, a transaction is defined as a sequence of discrete actions that are treated as a single unit. For example, withdrawing money from a bank account is a transaction that involves multiple steps (debiting the first account and crediting the second). OLTP systems need to be atomic: if one step fails, the entire transaction should fail. They also need to be highly available, fast, and capable of handling potentially large amounts of concurrent transactions. The OLTP paradigm is contrasted with online analytical processing (OLAP), which is a database architecture for performing business queries and analytics.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

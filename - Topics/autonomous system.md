@@ -12,6 +12,6 @@ aliases:
 - On the Internet, a network or group of networks that can be viewed by the rest of the Internet as a single system for routing purposes. Autonomous systems must be registered and allocated a unique [[AS number]] by IANA, and their routers must communicate with each other using the Border Gateway Protocol. Autonomous systems are usually run by large organizations, in particular Internet Service Providers.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
 [^2]: https://www.techtarget.com/searchnetworking/definition/autonomous-system
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

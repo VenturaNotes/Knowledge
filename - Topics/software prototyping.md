@@ -5,4 +5,4 @@
 - The intention with a prototype is normally to obtain the required information as rapidly as possible and with the minimum investment of resources, and it is therefore common to concentrate on certain aspects of the intended system and completely ignore others. A prototype may for example be developed with no concern for its efficiency or performance, and certain functions of the final system may be entirely omitted. It must however be realistic in those aspects specifically under investigation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

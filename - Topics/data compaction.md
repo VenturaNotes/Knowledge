@@ -6,4 +6,4 @@
 - Data compaction may be carried out in a probabilistic or statistical manner, and a particular algorithm may be suited to one or other of these. A data compaction algorithm may be more or less effective (in achieving a high ratio of compaction) and more or less efficient (in economy of time taken for encoding and decoding). To a large extent, these demands conflict. For example, Huffman encoding is optimally effective when unconstrained, but may require a high extension of the source, and need the output stream to have a small alphabet (ultimately binary, which requires bit manipulation possibly on a large scale); Huffman can thus be very inefficient. On the other hand, Lempel-Ziv compaction is very efficient, and within given time constraints may be more effective than a similarly constrained Huffman code.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

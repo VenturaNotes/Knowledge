@@ -5,4 +5,4 @@
 - The law of copyright gives authors and/or publishers control over the use of their work, and applies both to paper and electronic media. Computers make the copying of information very easy, and if a computer is connected to a network then publications can be copied to multiple sites. Practical approaches to providing protection against copyright infringement are under constant investigation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

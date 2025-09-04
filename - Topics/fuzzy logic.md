@@ -8,5 +8,5 @@
 - Fuzzy logic in various disciplines such as engineering or computing is a model used to deal with approximate or imprecise information. For instance, artificial intelligence strives to mimic the way humans think, which is non-binary. Most reasoning is not a yes or no proposition. It is based on several variables, including human preferences.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

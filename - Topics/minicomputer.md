@@ -6,5 +6,5 @@
 - A computer that is less powerful than a mainframe but more powerful than a personal computer. It is unable to handle as many people or programs at the same time as a mainframe, but it is adequate for a wide range of business and scientific applications.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

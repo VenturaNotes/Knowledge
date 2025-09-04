@@ -9,4 +9,4 @@ aliases:
 - Most software service providers use TOS agreements to prevent abuse in cases of disagreement and to claim ownership of their content. A user must abide by the TOS to fully access the company’s services.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

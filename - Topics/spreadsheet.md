@@ -8,5 +8,5 @@
 - A computer application used for tabular calculations. A spreadsheet display consists of a large number of cells arranged in rows and columns. Generally, columns are labelled by a letter, or combination of letters, and rows are labelled by numbers. Each cell in the array has a unique identification: A1, A2, etc., B1, B2, etc. The user can enter text, numbers, or formulas into individual cells. The formulas can be used to perform calculations on values in other cells. For example, A1\*100/B1 takes the value in cell A1 and expresses it as a percentage of the value in cell B1. A formula of the type sum (A1:A20) adds all the values in the cells from A1 to A20. Values and formulas can be copied from a single cell to a block of cells. In this way it is possible to set up complex calculations for accounting or financial modelling purposes. Spreadsheet programs generally have a facility for producing graphs and charts automatically from the data. Widely used spreadsheets include Excel and Lotus 1-2-3.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

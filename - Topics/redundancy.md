@@ -13,7 +13,7 @@
 - Termination of employment without any fault on the part of the employees concerned, because of a fall in the employer's need for labour. Some UK workers have a legal right to compensation for redundancy. Employers may make redundancy payments in excess of legal requirements to induce workers to accept offers of voluntary redundancy and so avoid the need for compulsory redundancies.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^4]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

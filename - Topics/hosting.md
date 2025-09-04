@@ -8,5 +8,5 @@
 - Hosting, also known as website hosting or web hosting, is an online service that provides both businesses and individuals a platform to store website files and make them accessible to other internet users. Web hosting service providers charge a fee in exchange for space on their web server to store website data, such as images, videos, documents, and HTML files. Web hosts also provide access to tools and services that allow customers to customize and manage their websites as they see fit. In shared hosting services, a website shares server space with other websites, whereas dedicated hosting services do not share server space with other websites. Cloud hosting services are most optimal for growing businesses, as they host a website using multiple servers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

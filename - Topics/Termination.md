@@ -9,5 +9,5 @@
 - (2) (of an Ethernet) The device attached to the end of an Ethernet segment that suppresses any reflection from the end of the cable. The terminator is a simple resistor, whose resistance is equal to the characteristic impedance of the cable to which it is attached, standardized as being 50 ohms. The termination totally absorbs any incoming signal, and eliminates reflections back into the segment. See also BUS TERMINATOR.
 ## References
 
-[^1]: [[Home Page - Introduction to Algorithms 4th edition by Thomas H. Cormen et al.#^k19qqs]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Introduction to Algorithms 4th edition by Thomas H. Cormen et al.#^k19qqs]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

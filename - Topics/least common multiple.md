@@ -13,5 +13,5 @@ aliases:
 - Least common multiple of two integers m and n. The smallest integer p such that m divides p exactly and n divides p exactly. For example, the LCM of 9 and 6 is 18
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

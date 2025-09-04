@@ -7,5 +7,5 @@
 - A digital signature is a type of e-signature that relies on an encryption method. A digital signature uses public-key cryptography. This is a type of cryptography in which pairs of encoded keys are used. Information can only be decoded if someone possesses the key. When used appropriately, this signature can confirm the identity of the sender of the information. It adds another layer of trust to the exchange of electronic information.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

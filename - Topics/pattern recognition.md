@@ -15,4 +15,4 @@
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://www.arm.com/glossary/pattern-recognition#:~:text=Pattern%20recognition%20is%20a%20data,familiar%20patterns%20quickly%20and%20accurately.
 [^3]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

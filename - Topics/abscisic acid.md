@@ -14,4 +14,4 @@ aliases:
 
 [^1]: https://www.crackap.com/ap/biology/flashcards1.html
 [^2]: Google's Search Labs | AI Overview
-[^3]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

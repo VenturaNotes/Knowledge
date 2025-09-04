@@ -6,4 +6,4 @@
 - The local error is related to the local truncation error (see DISCRETIZATION ERROR), which is defined in terms of the exact solution of the original problem rather than the current computed values used here.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -9,4 +9,4 @@ aliases:
 - Unlike the traditional COM, the DCOM allows a computer to run programs on another computer over the network as if the program were running in the same environment. Businesses that use Windows applications employ DCOM to ease communications between internal and external stakeholders operating on different machines.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

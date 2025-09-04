@@ -9,4 +9,4 @@
 - Vendor-neutral differs from the vendor-specific model, where vendors work on behalf of a technology company and sell its products and services.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

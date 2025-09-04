@@ -76,4 +76,4 @@ As registers became common, distinct operation codes were used to refer to regis
 Complex one-address instruction
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -9,4 +9,4 @@ aliases:
 - An ISV can be compared to an independent film producer who isn't owned or controlled by a larger movie studio. Unlike hardware companies, ISVs exist to independently develop, promote, and sell software products. While hardware manufacturers typically sell software and hardware, ISVs are independent and unaffiliated with specific hardware or hardware manufacturers.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

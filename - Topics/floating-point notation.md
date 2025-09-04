@@ -40,4 +40,4 @@ IEEE 754 specifies an 8-bit single-precision exponent, with a bias of 127, and a
 Although normalized floating-point numbers are most frequently used, unnormalized representations are also needed to represent numbers close to zero.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

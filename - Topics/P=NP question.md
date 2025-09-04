@@ -13,4 +13,4 @@
 - A language is said to be NP-hard if any language in $\boldsymbol{N P}$ can be polynomially reduced to it, even if the language itself is not in $\boldsymbol{N P}$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

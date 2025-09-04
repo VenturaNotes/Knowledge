@@ -7,4 +7,4 @@
 - A grammar that can be parsed using this technique is said to be an LL(k) grammar. Not all grammars are $\operatorname{LL}(k)$; in particular any grammar that uses left recursion is not $\operatorname{LL}(k)$ for any value of $k$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

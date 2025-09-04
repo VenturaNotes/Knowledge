@@ -5,4 +5,4 @@
 - (2) The study of algorithms for solving geometric problems on a computer. (This is a more restrictive definition, reflecting the way in which the term is more commonly used nowadays.)
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

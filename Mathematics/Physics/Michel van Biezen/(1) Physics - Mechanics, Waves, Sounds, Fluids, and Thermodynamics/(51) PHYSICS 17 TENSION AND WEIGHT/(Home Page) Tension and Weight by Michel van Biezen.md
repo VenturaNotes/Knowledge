@@ -12,4 +12,4 @@ Reviewed: false
 	- [[(1) Physics - Mechanics - The Elevator (1 of 2) A General Discussion of weight and tension.]]
 	- [[(2) Physics - Mechanics - The Elevator (2 of 2) Weight and tension of man In Elevator]]
 - References
-	- [[Home Page - Statics & Equilibrium  by Michel van Biezen]]
+	- [[(Home Page) Statics & Equilibrium  by Michel van Biezen]]

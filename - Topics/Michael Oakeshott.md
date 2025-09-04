@@ -9,4 +9,4 @@
 ## References
 
 [^1]: [[Michael Oakeshott#References]]
-[^2]: [[Home Page - Neuroscience - Exploring the Brain by Mark F. Bear et al.#^upydvy]]
+[^2]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^upydvy]]

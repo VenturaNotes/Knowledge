@@ -5,4 +5,4 @@
 - Daisychain connection is also used as a means to prioritize I/O interrupts. In this application there is active logic at the points of interconnection to ensure that the priority accorded to a device is directly related to its place in the chain. The device nearest to the controller has highest priority.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

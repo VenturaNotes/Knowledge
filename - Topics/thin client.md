@@ -6,5 +6,5 @@
 - In client/server computing, a thin client is a computer that runs from resources stored on a central server, not the local hard drive. The thin client connects remotely to a server-based computing environment where most applications, memory, and sensitive data are stored.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

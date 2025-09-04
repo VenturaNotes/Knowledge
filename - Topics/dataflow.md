@@ -5,4 +5,4 @@
 - (2) An item on a dataflow diagram that represents a flow of data between two functions or between a function and a data store.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

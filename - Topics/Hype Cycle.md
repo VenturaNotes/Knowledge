@@ -9,4 +9,4 @@
 	- Plateau of productivity: Use of the technology hits the mainstream.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

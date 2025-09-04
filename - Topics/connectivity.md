@@ -6,4 +6,4 @@
 - The quantity described above is sometimes called the vertex connectivity to distinguish it from the edge connectivity, which by analogy is the minimum number of edges whose removal from $G$ results in a graph that is disconnected or trivial.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

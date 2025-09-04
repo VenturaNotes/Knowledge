@@ -38,4 +38,4 @@ aliases:
 
 [^1]: ChatGPT
 [^2]: Gemini Pro
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

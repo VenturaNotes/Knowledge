@@ -5,4 +5,4 @@
 - Frequently the design phase is divided into two subphases, one of coarse architectural design and one of detailed design. The [[architectural design]] produces a description of the program at a gross level; it is normally given in terms of the major components of the program and their interrelationships, the main algorithms that these components employ, and the major data structures. The detailed design then refines the architectural design to the stage where actual implementation can begin. See also PROGRAM DESIGN LANGUAGE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

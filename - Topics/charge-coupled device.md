@@ -12,5 +12,5 @@ aliases:
 - A charge-coupled device is a type of circuit. It contains linked (charged) capacitors that enable electric charges to move from one capacitor to a nearby one. This technology has extensive uses. It is commonly found in many image sensors and digital cameras for capturing images. At the moment, they are one of the most extensively and commonly used forms of technology in these devices.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

@@ -9,4 +9,4 @@ aliases:
 - The end-stations are designated as either a primary or a secondary station. There is only one primary station, which initiates and terminates link activity and is responsible for error recovery and for link sharing among multiple secondary stations. The address field has two special values: 0 , which is reserved for testing, and 255 , which indicates that this is a broadcast frame. The control field is used to carry acknowledgments that frames have been received correctly, or that an error has occurred and that a designated frame is to be retransmitted.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

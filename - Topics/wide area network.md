@@ -13,4 +13,4 @@ aliases:
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-3-computer-networks-quizzes/ks4-ocr-j277-1-3-wired-and-wireless-networks-quiz/
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

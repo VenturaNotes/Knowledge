@@ -11,5 +11,5 @@ aliases:
 - Study of the flows of goods and services between different sectors of the economy. An input-output table lists all flows of goods and services between sectors of origin and factor services, usually denoted by rows, and sectors of destination, including both intermediate and various types of final use, usually represented by columns. Input-output analysis then assumes that each activity has constant returns to scale, and that the ratio of inputs to production for each sector is constant. On these assumptions it is possible to work out what gross outputs of all sectors are required for any set of final products, and what total factor inputs must be. These totals can then be compared with the available labour force and industrial capacity to see if such a programme is feasible. Input-output has sometimes been advocated as a part of a centralized economic planning mechanism. The results of input-output analysis are limited by the assumptions of constant input proportions and aggregation into sectors.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

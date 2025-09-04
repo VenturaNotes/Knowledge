@@ -12,4 +12,4 @@ aliases:
 - A multilevel multiple-priority system has both the property of masking interrupts according to priority and of immediate identification via identification lines.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

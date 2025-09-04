@@ -10,4 +10,4 @@
 ## References
 
 [^1]: ChatGPT
-[^2]: [[Home Page - Glossary by ada computer science]]
+[^2]: [[(Home Page) Glossary by ada computer science]]

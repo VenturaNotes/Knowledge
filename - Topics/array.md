@@ -16,6 +16,6 @@
 - An ordered collection of elements, usually numbers. A vector is an example of a 1-dimensional array, and a matrix is an example of a 2-dimensional array. Three or more dimensional arrays are more difficult to represent on paper, though the subscript notation $a_{i j}$ $=$ the element in the $i$-th row and $j$-th column of a matrix easily generalizes to higher dimensions. Arrays are equal if all corresponding elements are equal. Compare TENSOR.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -12,4 +12,4 @@
 ## References
 
 [^1]: [[(15) What is a Path - Graph Theory#^c4db94]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

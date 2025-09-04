@@ -5,4 +5,4 @@
 - For an abstract specification, the implementation will involve binding to a language. For example, the PCTE specification is available in C and Ada language bindings, each having a binding to UNIX.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

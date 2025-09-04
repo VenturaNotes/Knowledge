@@ -17,4 +17,4 @@ aliases:
 - Digital integrated circuits are often represented by their logic function rather than their electronic function in order to ease their understanding. See also HYBRID INTEGRATED CIRCUIT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

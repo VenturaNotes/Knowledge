@@ -12,4 +12,4 @@
 - In networks using only terrestrial links, the total network delay is typically dominated by packet assembly times, (b) above. This is not the case where satellite links are used, especially where geostationary satellites are involved.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

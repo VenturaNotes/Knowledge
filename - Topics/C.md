@@ -20,6 +20,6 @@
 - A language used to program computers. It was developed in the mid-1970s by the Bell laboratories in the USA. An extension of C, called C++, is widely used.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

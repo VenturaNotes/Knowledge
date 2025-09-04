@@ -96,4 +96,4 @@ If $A$ and $B$ do have a common instance however, they must have a most general 
 artificial intelligence. More recently it has provided the conceptual basis for the logic programming language Prolog. Another use of unification is in compile-time typeinference, especially for polymorphic types.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

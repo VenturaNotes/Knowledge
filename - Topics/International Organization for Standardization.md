@@ -13,6 +13,6 @@ aliases:
 - (ISO) An organization founded in 1946 to standardize measurements and other standards for industrial, commercial, and scientific purposes. The British Standards Institution is a member. See also ISO 9000.
 ## References
 
-[^1]: [[Home Page - SQL Tutorial by W3Schools]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) SQL Tutorial by W3Schools]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

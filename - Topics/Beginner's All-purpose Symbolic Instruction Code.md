@@ -13,6 +13,6 @@ aliases:
 - Acronym for Beginner's All-purpose Symbolic Instruction Code, a family of languages used especially to program small computers. It is easy to learn and became virtually ubiquitous in the teaching of programming during the 1980s. Visual Basic was developed by Microsoft and launched in 1991. This was widely used by smaller businesses into the 2000s but is no longer supported.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

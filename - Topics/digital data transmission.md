@@ -5,4 +5,4 @@
 - For transmission over longer distances (over about 50 to 1000 meters) it is common to insert transformers and/or optoisolators to improve the signal integrity by breaking ground loops and eliminating common mode interference. Alternative methods use modems, fibre-optic cables, or wireless links. See also MODULATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

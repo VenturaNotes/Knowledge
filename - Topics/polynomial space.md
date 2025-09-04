@@ -6,4 +6,4 @@
 - Many problems associated with recognizing whether a player of a certain game (like GO) has a forced win from a given position are PSPACE-complete, which is defined in a similar manner to NP-completeness (see P=NP QUESTION). This implies that such languages can be recognized in polynomial time only if $$PSPACE = P$$Such problems can thus be considered to be even harder than NP-complete problems
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

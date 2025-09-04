@@ -9,4 +9,4 @@ aliases:
 - Many variants of the basic principle have been derived to overcome synchronization problems that occur at high speeds and long bit streams. See also DISK FORMAT, TAPE FORMAT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

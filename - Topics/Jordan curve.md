@@ -4,4 +4,4 @@
 - A simple, closed curve in the plane. Thus, a Jordan curve is a continuous plane curve that has no ends (or, in other words, it begins and ends at the same point) and does not intersect itself.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

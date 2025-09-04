@@ -66,4 +66,4 @@ $$
 Closed semirings have applications in various branches of computing such as automata theory, the theory of grammars, the theory of recursion and fixed points, sequential machines, aspects of matrix manipulation, and various problems involving graphs, e.g. finding shortest-path algorithms within graphs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

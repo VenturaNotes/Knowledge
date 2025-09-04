@@ -11,4 +11,4 @@
 - Here, $\operatorname{Pr}\left(A_{i}\right)$ is a prior probability and $\operatorname{Pr}\left(A_{i} \mid B\right)$ is a posterior probability.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -9,4 +9,4 @@
 - From the figure we see that the optimal solution is to choose items $B, C, D$ with total weight 15 and value 31 .
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -20,5 +20,5 @@ aliases:
 - TQM as a philosophy should be able to incorporate other programmes of management change. However, many organizations fail to exploit its full potential by abandoning it too soon, either through lack of commitment or because it costs too much.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

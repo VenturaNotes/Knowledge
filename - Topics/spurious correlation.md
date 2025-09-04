@@ -6,5 +6,5 @@
 - Statistically significant estimated correlation between two random variables observed in a sample when the true correlation between these variables is zero. The most common cause of spurious correlation between two uncorrelated and possibly independent time series is the presence of a trend in both.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

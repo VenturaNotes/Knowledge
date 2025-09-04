@@ -9,4 +9,4 @@ aliases:
 - The problems of configuration management can be complex and subtle, and for many projects effective configuration management can be crucial to overall success. Approaches to configuration management fall into two broad classes. One approach attempts to retain control over the product as it evolves, so that configuration management is viewed as a continuous activity that is an integral part of product development. The other approach views configuration management as a separate activity; it is a distinct milestone when the product is first placed under configuration management, and each new revision of the product is subject to the configuration management process, but configuration controls are not imposed during periods of development.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

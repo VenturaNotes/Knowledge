@@ -7,5 +7,5 @@
 - Any telecommunications facility enabling users in two or more locations to participate in a live exchange of information or views. It may involve the transmission of voice only (audioconferencing), voice and pictures (videoconferencing), or the written word only. The main business advantage is that teleconferencing reduces the time and money spent in travelling to meetings; it also permits meetings to be scheduled at very short notice.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

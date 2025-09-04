@@ -71,5 +71,5 @@ $$
 
 [^1]: ChatGPT
 [^2]: [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]
-[^3]: [[Home Page - Glossary by ada computer science]]
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Glossary by ada computer science]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

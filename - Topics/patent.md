@@ -8,6 +8,6 @@
 - A legal device to encourage and reward invention by giving exclusive rights to inventors. In many countries the inventor of a new product or process can apply for a patent, giving the holder the exclusive right for a number of years to produce the good or use the process. This right can be used either through their own business, or by charging a licence fee to other users. A patent grants monopoly power with the intention that the flow of profit is sufficient to reward the innovator and to provide an incentive to create inventions. The granting of patents trades the static inefficiency of monopoly against the dynamic gains from increased innovation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

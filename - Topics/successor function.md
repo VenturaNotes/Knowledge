@@ -5,4 +5,4 @@
 - (2) The function $$\begin{align}&S: N \to N \\ &\text{for which }S(n) = n+1\end{align}$$where $N$ is the nonnegative integers. $S$ plays a crucial role in recursive function theory, particularly in the definition of primitive recursive functions.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

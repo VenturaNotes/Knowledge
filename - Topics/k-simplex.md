@@ -4,4 +4,4 @@
 - In geometry, the k-simplex generalizes the notion of the triangle and tetrahedron from two and three dimensions to k-dimensional space. The k-simplex has $k+1$ vertices and is defined as the convex hull of its vertices
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

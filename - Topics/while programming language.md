@@ -34,4 +34,4 @@ $$
 of natural numbers, the while programs compute all partial recursive functions. The while language is an important language for the theoretical analysis of ideas about imperative languages. It is easily extended by adding constructs, such as the concurrent assignment, repeat and for statements, and nondeterministic constructs (like the random assignment $x:=$ ?).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

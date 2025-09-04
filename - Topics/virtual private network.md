@@ -16,5 +16,5 @@ aliases:
 
 [^1]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
 [^2]: https://youtu.be/X3X5kYPgYV0?si=79Q6gugIpPcOOfgl
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^4]: [[Home Page - Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Glossary by Capterra]]

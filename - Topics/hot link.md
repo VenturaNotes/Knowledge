@@ -5,4 +5,4 @@
 - (2) A word or phrase in a hypertext document that when selected using a mouse or cursor keys causes information relevant to the word or phrase to be displayed. If this were a hypertext dictionary, selecting 'hypertext' above would cause the appropriate definition to be displayed. The hot link is usually highlighted in some way.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

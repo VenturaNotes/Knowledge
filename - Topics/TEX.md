@@ -6,4 +6,4 @@
 - The output from TeX is in a device-independent form, and separate drivers are required to convert this into the appropriate code for a particular printer. While output normally goes to a laser printer or phototypesetter, it is possible to write a driver for a dot-matrix printer operating in graphics mode. Knuth designed a whole new family of typefaces called Computer Modern Roman to go with TeX using his METAFONT system, but these do not reproduce well at low resolutions; many users therefore prefer to use PostScript fonts, using a conversion program to translate the device-independent output from TeX into PostScript or PDF code.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

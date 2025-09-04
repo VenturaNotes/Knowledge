@@ -7,4 +7,4 @@
 	- $ABC_1$ and $ABC_2$ both satisfy the known conditions in the ambiguous case. 
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

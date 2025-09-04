@@ -6,4 +6,4 @@
 - (3) A technique used in software for manipulating graphic images. An area of the image may be defined by a mark based on color, brightness, or some other parameter. The mask can then be used to allow separation of parts of the image.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -8,5 +8,5 @@
 - A measure of the degree of linear relationship between two random variables, say, $X$ and $Y$, defined by$$\operatorname{Cov}(X, Y)=E[(X-E[X])(Y-E[Y])]$$Positive (negative) covariance means that large values of $X$ are likely to be observed with large (small) values of $Y$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

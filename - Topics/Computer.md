@@ -10,6 +10,6 @@
 - Traditionally, computers have been classified into three types according to size. The largest is the mainframe, used typically for large-scale corporate data processing; and the smallest is the personal computer, designed for a single user. Between these extremes is the minicomputer. These distinctions have become blurred, as minicomputers and personal computers become more powerful. Moreover, mainframe and minicomputers have been replaced in many situations by groups of personal computers linked to form local area networks.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -13,4 +13,4 @@
 	- $\Gamma$ is some set of wff whose truth has been established; $A$ and $B$ are some other wff highlighted for the purposes of the rule; $\Rightarrow$ denotes implication (to avoid confusion with the symbol $\supset$ ). For example, the rules for the introduction and elimination respectively of the $\land$ connective are shown in Fig. 2.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

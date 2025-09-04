@@ -9,4 +9,4 @@ aliases:
 - Conferring Gödel numberings has the effect of permitting statements about elements in the nonnumeric system to be transformed into statements about natural numbers. Conversely, since much is known about natural numbers, it becomes possible to prove assertions about aspects of nonnumeric systems. The mapping was first used by the German mathematician Kurt Gödel.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

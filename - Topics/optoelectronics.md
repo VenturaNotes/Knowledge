@@ -5,4 +5,4 @@
 - Optical signals may be generated from electric signals using transducers such as switchable semiconductor lasers. Detection of optical signals is often achieved using [[phototransistor|phototransistors]], i.e. bipolar transistors whose base drive is made dependent on incident light. See also OPTICAL STORAGE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

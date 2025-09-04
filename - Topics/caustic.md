@@ -6,5 +6,5 @@
 - $n$. an agent, such as silver nitrate, that destroys tissue. Caustic agents may be used to remove dead skin, warts, etc., but care must be taken not to damage the surrounding area.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

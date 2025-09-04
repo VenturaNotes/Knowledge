@@ -14,4 +14,4 @@ aliases:
 ## References
 
 [^1]: https://www.techtarget.com/searchsecurity/definition/Data-Encryption-Standard#:~:text=Data%20Encryption%20Standard%20(DES)%20is,was%20officially%20retired%20in%202005.
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

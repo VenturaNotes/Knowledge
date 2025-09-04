@@ -9,5 +9,5 @@
 - (bar diagram) A chart that presents statistical data by means of rectangles (i.e. bars) of differing heights. For example, the sales figures for a range of products for an accounting period may be presented in this way, the different sizes of the bars enabling the users to see at a glance how each product has performed during the period.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

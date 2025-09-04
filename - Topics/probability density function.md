@@ -5,4 +5,4 @@
 - Suppose that, for the random variable $X$, a sample is taken and a corresponding histogram is drawn with class intervals of a certain width. Then, loosely speaking, as the number of observations increases and the width of the class intervals decreases, the histogram assumes more closely the shape of the graph of the probability density function
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

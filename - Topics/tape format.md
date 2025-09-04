@@ -8,4 +8,4 @@
 - Cartridge tape was introduced after open-reel tape; it is used more for backup than for interchange, so standards are less essential. There is therefore a much wider range of formats. Some are defined as ISO standards, but others remain proprietary. Capacities extend to tens of gigabytes per cartridge.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

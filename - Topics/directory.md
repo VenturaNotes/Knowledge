@@ -7,5 +7,5 @@
 - A web site that provides a structured listing of links to other sites in different categories. Yahoo! and the Open Directory Project are the best known examples of web directories. The distinction between a search engine and a directory has to some extent become blurred, since many sites now include both facilities as part of a portal service.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

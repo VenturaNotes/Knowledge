@@ -12,6 +12,6 @@ aliases:
 - The present value of a security or an investment project, taking into account both costs and receipts. The net present value is calculated by summing the discounted value of all present and future receipts and costs. If the net present value calculated is positive, it is worthwhile investing in the project or buying the security. If the receipts or outgoings are subject to uncertainty, the appropriate rate of discount has to include a risk premium that reflects the degree of risk.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

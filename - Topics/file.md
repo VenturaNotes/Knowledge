@@ -18,7 +18,7 @@ aliases:
 - (2) an instrument used in endodontics to prepare the walls of a root canal for root canal treatment. Files may be used by hand or in a dental handpiece (rotary files); they are made from stainless steel or nickel-titanium alloy.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - (spinal accessory nerve) the eleventh cranial nerve (XI), which arises from two roots, cranial and spinal. Fibres from the cranial root travel with the nerve for only a short distance before branching to join the vagus and then forming the recurrent laryngeal nerve, which supplies the internal laryngeal muscles. Fibres from the spinal root supply the sternomastoid and trapezius muscles, in the neck region (front and back).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

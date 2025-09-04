@@ -70,4 +70,4 @@ $$
 and $y_{n}$ denotes the approximation to the true solution $y(x)$ at the point $x_{n}$. See also DISCRETIZATION ERROR.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

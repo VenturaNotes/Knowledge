@@ -6,4 +6,4 @@
 - (2) Any set of symbols used for a particular purpose, not necessarily connected with computing.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

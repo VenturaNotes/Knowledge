@@ -6,5 +6,5 @@
 - $n$. (in genetics) the situation in which two or more genes lie close to each other on a chromosome and are therefore very likely to be inherited together. The further two genes are apart the more likely they are to be separated by crossing over during meiosis.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

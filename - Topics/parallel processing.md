@@ -7,5 +7,5 @@
 - A method of computing in which two or more parts of a program are executed simultaneously rather than sequentially. Strictly, parallel processing is only possible on computers with more than one arithmetic and logical unit in the central processing unit, but it is often simulated on other machines by such techniques as time sharing.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

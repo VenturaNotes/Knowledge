@@ -6,5 +6,5 @@
 - $n$. a reaction in which normally invisible material leaves solution to form a coarse suspension or precipitate as a result of a change in physical or chemical conditions. See also AGGLUTINATION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

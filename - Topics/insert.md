@@ -5,4 +5,4 @@
 - (2) One of the basic actions performed on lists, that places a new element into a list, not necessarily at one end or the other.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

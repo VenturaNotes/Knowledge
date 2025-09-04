@@ -19,4 +19,4 @@ aliases:
 
 [^1]: ChatGPT
 [^2]: https://youtu.be/HGYOEeik844?si=bjNQiqPySxFo_l-k
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - (2) (component object model) A component software architecture that allows applications and systems to be built from components supplied by different software vendors.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

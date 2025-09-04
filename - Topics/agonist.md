@@ -11,6 +11,6 @@
 - $n$. 1. (prime mover) a muscle whose active contraction causes movement of a part of the body. Contraction of an agonist is associated with relaxation of its antagonist. 2. a drug or other substance that acts at a cellreceptor site to produce an effect that is the same as, or similar to, that of the body's normal chemical messenger. Sympathomimetic drugs (alpha agonists and beta agonists) are examples.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

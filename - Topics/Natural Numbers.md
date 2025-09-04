@@ -46,4 +46,4 @@ aliases:
 [^4]: https://math.berkeley.edu/~forte/notes/type_theory.pdf
 [^5]: [[(5) Start Learning Sets - Part 1 - Overview and Element Relation]]
 [^6]: [[(1) Introduction to Sequences (Discrete Math)]]
-[^7]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^7]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

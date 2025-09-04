@@ -6,5 +6,5 @@
 - A specification of the assumptions, terms, or concepts underlying a particular field of knowledge. For example, the Gene Ontology Consortium is an international collaboration between various databases in the field of genomics to standardize terminology used by researchers. It has developed three ontologies, each containing a controlled vocabulary for naming, respectively, cellular components, biological processes, and molecular functions. Standardization of terms in this way is vital for efficient searching of databases, particularly for devising and using automated search programs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

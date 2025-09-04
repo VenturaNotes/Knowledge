@@ -11,6 +11,6 @@
 - (2) Environmental noise is the noise from transport and industrial activities. In the European Union the assessment and monitoring of environmental noise is regulated by a set of directives that serve as a basis for the development of local measures.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

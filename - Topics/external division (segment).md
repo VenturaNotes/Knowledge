@@ -5,4 +5,4 @@
 	- If A and B have position vectors $a$ and $b$, from some origin, then the position vector of $E$ is $$e = \frac{ka - b}{k-1},$$sometimes referred to as the section formula. Compare INTERNAL DIVISION
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

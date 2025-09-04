@@ -10,4 +10,4 @@ aliases:
 - GIMP is supported by all major operating systems, including Windows OS, macOS, and Linux OS.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

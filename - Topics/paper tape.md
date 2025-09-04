@@ -5,4 +5,4 @@
 - Punched paper tape was in use for data communication purposes (telex) prior to its use for computer input/output. It has also been used for programmed control of industrial equipment, and the preprogrammed control of continuous paper through computer printers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

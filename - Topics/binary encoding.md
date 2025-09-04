@@ -6,4 +6,4 @@
 - (3) (of a set $A$ ) Any assignment of distinctive bit strings to the elements of A. See also character encoding, Huffman encoding.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

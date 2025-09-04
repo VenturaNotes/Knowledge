@@ -25,8 +25,8 @@ aliases:
 - (AUP) The rules of permitted behaviour on a particular computer system, network, or website. Businesses and other organizations often require new users to sign an AUP document before providing access to their information systems. The main types of misuse proscribed typically include transmission of offensive or illegal material, breach of copyright or confidentiality, and any behaviour likely to lead to the corruption of data. The main aim of such documents is usually to avoid legal liability on the part of the organization. See CYBERLIABILITIES
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
 [^2]: https://www.techtarget.com/whatis/definition/acceptable-use-policy-AUP
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: https://www.capterra.com/glossary/acceptable-use-policy-aup/
 [^5]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

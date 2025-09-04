@@ -5,4 +5,4 @@
 - Strictly speaking a compiler-compiler includes a parser generator as a component part, but the two terms are often used synonymously. See also LEX, YACC.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

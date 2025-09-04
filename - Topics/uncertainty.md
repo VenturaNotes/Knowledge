@@ -9,6 +9,6 @@
 - $n$. the situation in which no diagnostic conclusion can (yet) be reached but the patient remains ill. Professionals vary in their ability to cope with this uncertainty: the best clinical practice is to accept the lack of clarity, to continue to support the patient, and to use the situation creatively in his or her best interest in the interim.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

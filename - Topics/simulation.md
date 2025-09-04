@@ -10,6 +10,6 @@
 - The use of quantitative models to represent the working of an economy. Given assumptions about how an economy works, simulation is used to see how a model economy responds to changes in these assumptions, changes in the distribution of stochastic shocks, or changes in economic policy. Simulation models often use numerical methods, as their structure is too complicated for analytical conclusions about their behaviour to be obtainable. See also Monte Carlo method.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

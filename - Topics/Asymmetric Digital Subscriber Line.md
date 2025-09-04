@@ -14,6 +14,6 @@ aliases:
 - A mechanism by which broadband communication via the Internet can be made available via pre-existing telephone lines, while allowing simultaneous use of the line for normal telephone calls. Data communication via ADSL is asymmetric in that upstream (transmitting) communication is slower than downstream (receiving) communication, typically one fifth or less as fast. Downstream data rates vary. In the UK the notional maximum, 8Mbps, is rarely achieved, with $1\textendash4 \mathrm{Mbps}$ being more common. Faster rates are available in other countries. ADSL coexists with standard telephone operation on the same line by the use of band separation filters at each telephone socket.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
 [^2]: https://www.techtarget.com/searchnetworking/definition/ADSL
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

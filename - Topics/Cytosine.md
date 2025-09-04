@@ -6,5 +6,5 @@
 - $n$. one of the nitrogen-containing bases (see PYRIMIDINE) that occurs in the nucleic acids DNA and RNA.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

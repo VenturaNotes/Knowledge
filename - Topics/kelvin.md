@@ -11,5 +11,5 @@ aliases:
 - $n$. the SI unit of temperature, formally defined as the fraction 1/273.16 of the temperature of the triple point of water. A temperature in kelvins is equal to a Celsius temperature plus $273.15^{\circ} \mathrm{C}$. Symbol: K.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

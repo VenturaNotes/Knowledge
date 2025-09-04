@@ -10,4 +10,4 @@ aliases:
 	- Horizontal system integration, where a subsystem communicates with different systems.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

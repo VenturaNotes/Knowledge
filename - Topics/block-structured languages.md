@@ -5,4 +5,4 @@
 - The concept of block structure was introduced in the Algol family of languages, and block-structured languages are sometimes described as Algol-like. The concept of nested scopes implicit in block structure contrasted with Fortran, where variables were either local to a program unit (subroutine) or global to several program units if declared to be common. Both of these contrasted with Cobol, where all data items were visible throughout the entire program. Modern languages are almost all block-structured, and such languages as Fortran and Basic have acquired features of block structure in later versions.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

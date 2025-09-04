@@ -7,5 +7,5 @@
 - (at Lloyd's) A member of one or more syndicates at Lloyd's providing insurance. A name contributes limited cash when joining a syndicate, and accepts unlimited liability for its obligations. Members share in the profits or losses of syndicates in proportion to the cash they have put in, but are liable for all losses if other members cannot pay. Traditionally, it was assumed that people would only become Lloyd's names if they could afford to lose large amounts. In the 1980s and 1990s large losses by some syndicates led to calls for cash from names. Those calls have led to widespread hardship among names who paid, and extensive litigation involving names who refused to pay.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

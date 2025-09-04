@@ -5,4 +5,4 @@
 - (2) Information about connected parties in a networked transaction or information interchange, maintained for the duration of the communication activity. On the World Wide Web sessions play a key role in maintaining state, given the stateless nature of the HTTP protocol.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

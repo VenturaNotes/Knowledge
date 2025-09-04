@@ -11,4 +11,4 @@ aliases:
 	- The time it takes for the server to respond to the network request
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

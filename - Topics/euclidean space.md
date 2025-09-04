@@ -6,4 +6,4 @@
 - Sometimes $n$-dimensional Euclidean space is denoted as $E^n$, signifying that space has no predetermined coordinates, no natural origin or axes. Once an origin, perpendicular axes, and unit length have been decided, coordinates may be assigned and $E^n$ can now be identified with $\mathbb{R}^n$ 
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

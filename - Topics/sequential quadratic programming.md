@@ -46,4 +46,4 @@ $$
 A quadratic approximation to this function is now constructed that along with linearized constraints forms a quadratic programming problem - i.e., the minimization of a function quadratic in the variables, subject to linear constraints. The solution of the original optimization problem, say $x^{}$, is now obtained from an initial estimate and solving a sequence of updated quadratic programs; the solutions of these provide improved approximations, which under certain conditions converge to $x^{}$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

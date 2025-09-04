@@ -31,6 +31,6 @@ aliases: elementary reduction operations, elementary reduction operation, row op
 	- More practice solving a system of linear equations using row operations and augmented matrices
 	- The solution
 ## References
-[^1]: [[Home Page - Linear Algebra 4th ed. by Jim Hefferon#^e4e628]]
+[^1]: [[(Home Page) Linear Algebra 4th ed. by Jim Hefferon#^e4e628]]
 [^2]: [[(1) Linear Algebra 1.1.1 Systems of Linear Equations]]
 [^3]: [[(2) Linear Algebra 1.1.2 Solve Systems of Linear Equations in Augmented Matrices Using Row Operations]]

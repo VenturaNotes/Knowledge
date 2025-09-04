@@ -11,4 +11,4 @@ aliases:
 - Since the PLA is made specific only by the interconnections, it represents a general-purpose building block that requires changes in only one or two steps of the production process to provide different functionality. PLAs can be programmed at the time of manufacture; alternatively they may be programmed by the user, and are then called field-programmable. See also PROGRAMMABLE DEVICE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

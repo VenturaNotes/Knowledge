@@ -5,4 +5,4 @@
 - One method by which thrashing may be alleviated is by an increase in the bandwidth between main memory and backing store, i.e. by providing sufficient interchange capacity to allow the thrashing to take place without inducing unduly long waits for page transfers. A more effective cure is to reduce the ratio between the total working-set size and the amount of space available for holding the active pages, thus increasing the hit rate on pages in memory, either by reducing the size of the working set or by increasing the amount of memory on the system.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

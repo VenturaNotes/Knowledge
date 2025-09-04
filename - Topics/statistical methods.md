@@ -8,4 +8,4 @@
 - More recently, less formal methods of looking at data have been proposed, including exploratory data analysis.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

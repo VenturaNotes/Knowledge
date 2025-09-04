@@ -5,4 +5,4 @@
 - Browser extensions are commonly used by web users to enhance the functionality of a website, remove unwanted website elements, and add features to their web browsers.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

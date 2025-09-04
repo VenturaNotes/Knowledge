@@ -17,5 +17,5 @@
 		- Dermal papilla
 ## References
 
-[^1]: [[Home Page - Campbell Biology by Urry, Cain, et al.#^8n6578]]
+[^1]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^8n6578]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

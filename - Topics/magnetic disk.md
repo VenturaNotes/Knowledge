@@ -5,4 +5,4 @@
 - Data is stored on and retrieved from magnetic disks by means of a disk drive. See also ACCESS TIME, FIXED DISK DRIVE, MEMORY HIERARCHY, WINCHESTER TECHNOLOGY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

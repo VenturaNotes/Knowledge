@@ -5,4 +5,4 @@
 - (2) (distributed computing environment) A software system for UNIX, providing distributed services to applications. It is sponsored by the OSF.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

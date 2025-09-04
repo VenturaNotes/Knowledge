@@ -10,6 +10,6 @@
 - What is produced, by an individual firm, an industry, or the economy as a whole. See also GROSS DOMESTIC PRODUCT; MARGINAL PRODUCT; NATIONAL PRODUCT; PRODUCT DIFFERENTIATION; PRODUCT INNOVATION; PRODUCT LIFE CYCLE; STAPLE PRODUCT.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

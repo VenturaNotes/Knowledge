@@ -7,4 +7,4 @@
 ## References
 
 [^1]: Google's Search Labs | AI Overview
-[^2]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

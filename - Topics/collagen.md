@@ -6,5 +6,5 @@
 - $n$. a protein that is the principal constituent of white fibrous connective tissue (as occurs in tendons). Collagen is also found in skin, bone, cartilage, and ligaments. It is relatively inelastic but has a high tensile strength.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

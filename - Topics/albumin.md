@@ -6,5 +6,5 @@
 - $n$. a protein that is soluble in water and coagulated by heat. An example is serum albumin, which is found in blood plasma and is important for the maintenance of plasma volume. Albumin is synthesized in the liver; the inability to synthesize it is a prominent feature of chronic liver disease (cirrhosis).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -8,5 +8,5 @@
 - In data-processing applications, the data values stored at the nodes of a binary search tree will be key values with an associated link to the record to be retrieved. The same principle is used in the binary search algorithm. The concept can be generalized to a multiway search tree. See also AVL TREE, OPTIMAL BINARY SEARCH TREE.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -11,5 +11,5 @@ aliases:
 - A term invented by J. W. Tukey to denote techniques for looking at numerical data with a view to discerning pattern. Exploratory data analysis is open-ended and makes few prior assumptions about the nature of any pattern that may be found. Graphical techniques are freely used. It can be contrasted with model-fitting techniques, which make highly specific prior assumptions. Statistical methods contain aspects of both these processes.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

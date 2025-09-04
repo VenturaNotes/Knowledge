@@ -7,4 +7,4 @@
 - The smart card reader has a guide and a connector that engages contacts on the card. When the machine senses that the card is in place and the related code has been keyed in, the memory device embedded in the card can be read. Some types can also modify the data on the card, e.g. debiting the amount of credit available.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

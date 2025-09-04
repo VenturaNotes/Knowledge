@@ -10,6 +10,6 @@
 - $n$. the degree to which the body's defence systems will tolerate the presence of intruding foreign material, such as blood when transfused or a kidney when transplanted. Complete compatibility exists between identical twins: a blood transfusion between identical twins will evoke no antibody formation in the recipient. In severe incompatibility, for example between completely unrelated people, there are likely to be swift immune reactions as antibodies attack and destroy any offending antigenic material. See also HistocompatibilitY; IMMUNITY. $\textemdash$compatible adj.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

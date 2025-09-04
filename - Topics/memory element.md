@@ -5,4 +5,4 @@
 - Memory elements are employed specifically in computer memories and generally in sequential circuits. A memory element is any smallest part of such a system that possesses more than one stable state. For example, a binary shift register contains four flip-flops and has 16 states, but each of its four memory elements has only two states; a similar ternary shift register would have 81 states, but would still consist of four memory elements, each having three states.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

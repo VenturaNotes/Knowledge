@@ -66,4 +66,4 @@ Context-free grammars are a class of phrase-structure grammar (PSG). GPSG repres
 Compare CONTEXT-SENSITIVE GRAMMAR.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

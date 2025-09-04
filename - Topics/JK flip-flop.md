@@ -7,4 +7,4 @@
 - #question Is it supposed to be $Q-$ or $\overline Q$? Was the first sentence a typo?
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

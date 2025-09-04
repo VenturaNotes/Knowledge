@@ -15,4 +15,4 @@ aliases:
 	- A tracking number for any inquiries about the delivery
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

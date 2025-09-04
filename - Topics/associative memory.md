@@ -6,4 +6,4 @@
 - Some associative memories have been built to be accessed conventionally (by words in parallel) and as serial comparison associative memories; these have been called [[orthogonal memory|orthogonal memories]]. See also ASSOCIATIVE ADDRESSING, ASSOCIATIVE PROCESSOR.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

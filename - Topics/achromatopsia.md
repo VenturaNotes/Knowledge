@@ -6,5 +6,5 @@
 - $n$. the inability to differentiate different shades of color. Such complete color blindness is very rare and is usually associated with poor visual acuity, nystagmus, and sensitivity to bright light. It is usually determined by hereditary factors.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

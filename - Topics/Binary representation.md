@@ -6,4 +6,4 @@
 - Real numbers, not just integers, can also be written in binary notation, by using binary digits after a 'binary' point, just as familiar decimal representations of real numbers are written to base 10 . For example, the number $\frac{1}{10}$, which equals 0.1 in decimal notation, has, in binary notation, a recurring representation: $0.00011001100110011\ldots_2$.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

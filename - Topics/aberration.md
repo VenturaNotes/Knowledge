@@ -8,5 +8,5 @@
 - $n$. (in optics) a defect in the image formed by an optical device (e.g. a lens). In chromatic aberration the image has coloured fringes as a result of the different extent to which light of different colours is refracted. In spherical aberration, the image is blurred because rays from the object come to a focus in slightly different positions: the rays passing through more peripherally are bent more than those passing through centrally. This occurs even with monochromatic light.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

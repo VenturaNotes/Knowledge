@@ -14,7 +14,7 @@
 ## Source[^4]
 - $n$. a term used to indicate the number of pregnancies a woman has had that have each resulted in the birth of an infant capable of survival, as distinct from gravidity (see GRAVID). See also GRAND MULTIPARITY.
 ## References
-[^1]: [[Home Page - Proofs by Jay Cummings#^qry7ja]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Proofs by Jay Cummings#^qry7ja]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

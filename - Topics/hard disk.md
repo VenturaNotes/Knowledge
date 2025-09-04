@@ -5,4 +5,4 @@
 - (2) A disk permanently mounted in its drive; in certain circumstances disk + drive may be demountable.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

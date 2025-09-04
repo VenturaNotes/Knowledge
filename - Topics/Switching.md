@@ -13,5 +13,5 @@
 ## References
 
 [^1]: https://www.uninets.com/blog/switching-in-computer-networks#:~:text=Switching%20techniques%20enhance%20bandwidth%20utilization,routed%20directly%20to%20their%20destinations.
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

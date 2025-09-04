@@ -12,5 +12,5 @@
 - To get information into a data warehouse, data is first extracted from its source. Then, it's transformed into the correct format to analyze. Finally, it's loaded into the data warehouse. SMBs can then compare and analyze the uploaded data via business intelligence (BI) tools for better problem-solving and decision-making.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

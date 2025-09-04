@@ -16,4 +16,4 @@
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://britishesports.org/the-hub/guides/ping-latency-and-lag-what-you-need-to-know/#:~:text=Lag%20is%20the%20result%20of,on%20by%20the%20game%20immediately.
-[^3]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

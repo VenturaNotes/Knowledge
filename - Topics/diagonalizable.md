@@ -7,4 +7,4 @@
 - A linear map of a finite-dimensional vector space is diagonalizable if any matrix representing it is diagonalizable. See also MINIMAL POLYNOMIAL, SPECTRAL THEOREM, TRIANGULARIZABLE.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

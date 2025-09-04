@@ -11,5 +11,5 @@ aliases:
 - (DTP) An application of computers that enables small companies and individuals to produce reports, advertising, magazines, etc., to near-typeset quality. Modern systems, which simulate many of the functions of professional typesetting systems, consist of a personal computer, using DTP software, and a laser printer. The software is designed to format text into pages using a wide range of different typefaces. A common feature is the ability to preview each page on the computer's screen before it is printed and to import pictures and diagrams into the page.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

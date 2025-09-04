@@ -5,4 +5,4 @@
 - The first cryptocurrency brought into existence was Bitcoin, which was founded in 2009. Cryptocurrency units are created through a process called mining, where computer nodes solve complicated mathematical equations that generate coins. However, most cryptocurrency users receive their cryptocurrency by exchanging or purchasing it from other users.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

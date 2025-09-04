@@ -6,4 +6,4 @@
 - (3) The input word length (i.e. the extension of the source) used in a variable-length code.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

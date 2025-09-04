@@ -15,6 +15,6 @@
 - $n$. systematic deviation of results from the truth. The many different types of bias include selection bias (failing to select a sample that is representative of the wider population), nonresponse bias (respondents differing from nonrespondents in statistical surveys), social desirability bias (respondents giving false answers they believe to be more socially acceptable than the truth), and systematic measurement errors (all measurements deviate from the truth in the same systematic fashion).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

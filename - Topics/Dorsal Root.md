@@ -9,5 +9,5 @@ aliases: dorsal roots
 ## Source [^2]
 - Contains only sensory fibers
 ## References
-[^1]: [[Home Page - Neuroscience - Exploring the Brain by Mark F. Bear et al.#^ak17yk]]
-[^2]: [[Home Page - Neuroscience - Exploring the Brain by Mark F. Bear et al.#^38z2c6]]
+[^1]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^ak17yk]]
+[^2]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^38z2c6]]

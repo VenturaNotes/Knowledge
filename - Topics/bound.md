@@ -5,4 +5,4 @@
 - Any non-empty set that is bounded above has a supremum$\textemdash$this is the completeness axiom of the real numbers$\textemdash$and likewise any non-empty set that is bounded below has an infimum.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

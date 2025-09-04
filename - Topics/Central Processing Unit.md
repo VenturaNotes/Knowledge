@@ -25,4 +25,4 @@ aliases:
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-1-systems-architecture-quizzes/ks4-ocr-j277-1-1-cpu-performance-quiz/
 [^2]: ChatGPT
-[^3]: [[Home Page - Glossary by Capterra]]
+[^3]: [[(Home Page) Glossary by Capterra]]

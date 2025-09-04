@@ -7,4 +7,4 @@
 - Nondeterminism is important in the field of complexity: it is believed that a nondeterministic Turing machine is capable of performing in 'reasonable time' computations that could not be so performed by any deterministic Turing machine (see $\mathrm{P}=\mathrm{NP}$ QUESTION).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

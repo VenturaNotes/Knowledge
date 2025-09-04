@@ -12,5 +12,5 @@ aliases:
 - An application-specific integrate circuit (ASIC) is a chip where the connections have been designed and set up for a single specific use, for example, in a bitcoin miner context. An ASIC miner refers to electronic circuits or a device that enables microprocessors to help mine a single specific digital currency.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

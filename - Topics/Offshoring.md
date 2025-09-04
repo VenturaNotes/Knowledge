@@ -8,6 +8,6 @@
 - Relocation of business to a foreign country, typically to reduce costs, to enter a new market, or to avoid domestic restrictions on a particular business activity.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

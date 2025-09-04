@@ -5,4 +5,4 @@
 - A preamble updates a data packet’s delivery status to a network receiver.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

@@ -6,4 +6,4 @@
 - The combinatorial number of conditional probabilities that have to be computed by the method can be significantly reduced by using [[Bayesian network|Bayesian networks]], where arcs between propositions define causal influences and the independence of relations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -10,4 +10,4 @@
 ## References
 
 [^1]: [[(2) Linear Algebra 1.1.2 Solve Systems of Linear Equations in Augmented Matrices Using Row Operations]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

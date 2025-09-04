@@ -9,6 +9,6 @@
 - Construction of new data points outside the given set of existing data points. Popular methods are linear and polynomial extrapolation; linear extrapolation uses regression-like techniques and is similar to linear prediction. The reliability of extrapolation is measured by the prediction error or the prediction confidence interval.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

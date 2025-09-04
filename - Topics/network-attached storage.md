@@ -10,5 +10,5 @@ aliases:
 - Network-attached storage refers to a storage device that is accessed through and connected to a network. It is often compared to cloud storage, because they both provide access to data remotely, but they are different. One of the biggest differences between the two is that with cloud storage, another party is responsible for the security of your data, while you are responsible for your data with a NAS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

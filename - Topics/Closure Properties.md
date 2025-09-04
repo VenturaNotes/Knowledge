@@ -40,4 +40,4 @@ Most familiar classes of languages are closed under these operations. The detail
 Closure properties. Closure properties for Chomsky hierarchy
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

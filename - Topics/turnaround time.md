@@ -6,4 +6,4 @@
 - (2) (n data communications) The time taken to reverse the direction of transmission on a channel.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

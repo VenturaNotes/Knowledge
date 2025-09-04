@@ -6,4 +6,4 @@
 - See also BETA TEST, BLACK-BOX TESTING, BRANCH TESTING, GLASS-BOX TESTING, PATH TESTING, PERFORMANCE TESTING, REGRESSION TESTING, STATEMENT TESTING. Compare STATIC ANALYSIS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

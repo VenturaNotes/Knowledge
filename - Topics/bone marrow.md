@@ -6,5 +6,5 @@
 - (marrow) the tissue contained within the internal cavities of the bones. At birth, these cavities are filled entirely with blood-forming myeloid tissue (red marrow) but in later life the marrow in the limb bones is replaced by fat (yellow marrow). Samples of bone marrow may be obtained for examination by aspiration through a stout needle or by trephine biopsy. See also HAEMOPOIESIS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -47,4 +47,4 @@ Reviewed: false
 
 ---
 References
-[[Home Page - Statics & Equilibrium  by Michel van Biezen]]
+[[(Home Page) Statics & Equilibrium  by Michel van Biezen]]

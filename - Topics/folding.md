@@ -5,4 +5,4 @@
 - (2) A simple method of hashing a key, in which the key is subdivided into several parts that are added together to give an address. The folding ratio is the ratio of the sizes of the domain of this hashing function to the size of its range.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

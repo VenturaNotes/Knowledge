@@ -6,4 +6,4 @@
 - (3) (of an amplifier) A state in which the signal level exceeds the dynamic range.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

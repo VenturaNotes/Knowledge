@@ -5,4 +5,4 @@
 - This type of printer can yield very good print quality, forming its image as a fine matrix of dots. It can thus readily produce graphics and a wide variety of typestyles. The most common example is the laser printer.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - A language is a typed language if there exists a type system for it: otherwise, it is an untyped language (i.e. it has no type or, equivalently, has a single universal type for all expressions). Whether it is expedient to provide a type system for a particular programming language will depend on importance of types in the description of the behavior of the programs that can be written in that language.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

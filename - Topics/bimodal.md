@@ -8,5 +8,5 @@
 	- Mode two is more exploratory. It's a work style that attempts to solve new problems. For example, organizations might release a new product with basic features to test customer responses for future product development.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

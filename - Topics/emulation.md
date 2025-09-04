@@ -6,5 +6,5 @@
 - In a software context, emulation is the process of using a computer device or application to mimic the behavior of another device or program. Typically, emulation involves running different operating systems in a singular virtual environment. Emulation can be used to run an operating system on a computer device that it was not originally designed for, or to run legacy applications on modern devices.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

@@ -6,4 +6,4 @@
 - Semigroups play a major role in the theory of sequential machines and formal languages. If M is a sequential machine then any input string induces a function over the state-set of M. The set of all such induced functions forms a semigroup of the machine under function composition (see MyHill Equivalence, Nerode EQUIVALENCE). Semigroups are also used in certain aspects of computer arithmetic. See also FREE SEMIGROUP, MONOID, TRANSFORMATION SEMIGROUP.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

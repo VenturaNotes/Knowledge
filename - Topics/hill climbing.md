@@ -5,4 +5,4 @@
 - A heuristic variation uses an evaluation function to examine and select the best successor from the current position. This produces a faster ascent through the problem space.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

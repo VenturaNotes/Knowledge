@@ -8,5 +8,5 @@
 - (2) Shorthand for the sequence of effects in behavior therapy: antecedent, behavior, consequence.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

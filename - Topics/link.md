@@ -14,5 +14,5 @@ aliases:
 - The term link is shorthand for hyperlink. A hyperlink is a word or phrase on a web page that web users can click to easily jump to another section of the same web page or to a web page on a different website. Most links usually take the form of underlined text. With this being said, web developers are able to render web links using whatever format they choose, whether underlined or not. Content strategists often use links to encourage website browsers to navigate to another part of their organizationʻs webpage. Other times, content writers use links to guide web page or social media platform browsers to a resource on an external website.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

@@ -22,4 +22,4 @@ where the waveform $f(x)$ is approximated by $N$ samples at $x=0,1, \ldots N-1$.
 Discrete cosine transforms find application in image-compression techniques, for example in JPEG.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

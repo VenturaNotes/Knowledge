@@ -5,4 +5,4 @@
 - Across-phase activities such as project and quality management are included; some links to contractual procedures are also included, for example invitation to tender (ITT). The model shares the weakness of waterfall-type models in omitting a diagrammatic representation of iteration between life-cycle phases. See also SPIRAL MODEL.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 	- #comment Was a spelling mistake in original source. So maybe not ChatGPT generated?
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

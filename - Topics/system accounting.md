@@ -5,4 +5,4 @@
 - In a bureau, which relies for its revenue on real money charges made to clients, the implementation of the accounting system is a nontrivial problem, especially in regard to decisions concerning spoilt work, or delays experienced by one client because of other clients' activities.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

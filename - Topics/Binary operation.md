@@ -45,5 +45,5 @@ When the set $S$ is finite, Cayley tables and sometimes truth tables are used to
 
 [^1]: [[(1) What are Binary Operations.  - Abstract Algebra]]
 [^2]: https://en.wikipedia.org/wiki/Binary_operation
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^4]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

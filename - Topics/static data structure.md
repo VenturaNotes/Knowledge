@@ -9,4 +9,4 @@
 - Relaxation of these features leads to the concept of a dynamic data structure.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

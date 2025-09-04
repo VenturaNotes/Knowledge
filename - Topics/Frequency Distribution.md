@@ -9,5 +9,5 @@
 - (in statistics) a presentation in the form of a table or graph of the number of times that the categories of a categorical variable (e.g. sex) occur in a sample of observations. See DISTRIBUTION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

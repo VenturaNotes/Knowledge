@@ -5,4 +5,4 @@
 - The following result relating to continuous real functions might also be referred to as the inverse function theorem. If $f:[a,b] \to [c,d]$ is continuous, strictly increasing, and satisfies $f(a) = c,f(b) = d$, then $f$ has a strictly increasing continuous inverse.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

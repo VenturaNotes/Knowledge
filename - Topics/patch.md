@@ -5,4 +5,4 @@
 - (2) (surface patch) A boundary piece of a surface. Patches are descriptions of three-dimensional shapes specified as bounded equations with criteria for joining other patches along their edges; for example, for smooth surfaces the patch equations must be differentiable at the edge. Complex surfaces are often broken down into patches. The whole surface is then described by the collection of patches. There is a wide variety of techniques for defining patches, for example Coons patches and Bézier patches. Patches are widely used in computer-aided design to describe curved surfaces and complex smooth geometries.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -28,6 +28,6 @@ aliases:
 
 [^1]: https://gemini.google.com/app/69e4c346b270d5f5
 [^2]: https://youtu.be/X3X5kYPgYV0?si=G6yc2tASgppI7u6G
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^4]: [[Home Page - Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Glossary by Capterra]]
 [^5]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

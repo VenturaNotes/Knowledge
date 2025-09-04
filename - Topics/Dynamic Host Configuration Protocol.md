@@ -15,4 +15,4 @@ aliases:
 ## References
 
 [^1]: https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

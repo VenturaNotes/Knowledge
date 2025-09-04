@@ -9,4 +9,4 @@ aliases:
 	- #question what is social data?
 ## References
 
-[^1]: [[Home Page - Principles of Economics 3e by OpenStax#Introduction to FRED]]
+[^1]: [[(Home Page) Principles of Economics 3e by OpenStax#Introduction to FRED]]

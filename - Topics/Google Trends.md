@@ -6,4 +6,4 @@
 - Search engine marketers often use Google Trends to help them cater their content to search engines, with the goal of increasing the chances that their content lands on the first page of Google’s search results.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

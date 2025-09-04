@@ -6,4 +6,4 @@
 	- #question Shouldn't there be commas in $(s_1s_2...s_n)$?
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

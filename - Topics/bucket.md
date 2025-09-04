@@ -5,4 +5,4 @@
 - (2) A capacitor whose electric charge is used as a form of dynamic RAM. A fully charged bucket, or full bucket, is equivalent to a logic 1; an uncharged or empty bucket is equivalent to a logic 0 . The charge may be passed through an array of capacitors and associated electronics, which together form a bucket brigade.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

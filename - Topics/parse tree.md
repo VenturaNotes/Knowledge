@@ -8,4 +8,4 @@
 - An early stage in compiling a program usually consists of generating a parse tree in which the constructs that make up the program are expressed in terms of the syntax of the programming language.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

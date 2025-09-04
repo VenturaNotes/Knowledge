@@ -20,4 +20,4 @@ aliases:
 - document stores
 ## References
 
-[^1]: [[Home Page - System Design Interview (An Insider's Guide) by Alex Xu#^888b0e]]
+[^1]: [[(Home Page) System Design Interview (An Insider's Guide) by Alex Xu#^888b0e]]

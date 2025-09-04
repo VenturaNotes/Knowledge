@@ -5,4 +5,4 @@
 - Many other methods are used to deal with matrices of special form. Very large systems where the matrix $A$ has predominantly zero entries occur in the solution of partial differential equations. Elimination methods tend to fill in the zeros causing storage problems and iterative methods are often preferred for such problems.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

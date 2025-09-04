@@ -5,4 +5,4 @@
 - The term is sometimes erroneously used in an optical-storage context simply to imply that written information is immediately ready for reading, without an intermediate processing operation such as would be required for photographic recording.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

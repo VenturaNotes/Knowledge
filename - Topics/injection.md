@@ -44,6 +44,6 @@ aliases:
 [^2]: [[(7) Algebra Ch. 45 The Inverse of a Function (7 of 15) A Function is 'One-to-One' When...]]
 [^3]: ChatGPT
 [^4]: https://www.desmos.com/calculator
-[^5]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^7]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Redaction tools can remove both text and images from a document and specific words and phrases from websites so that information doesn't show on search engines. While redaction tools have existed for decades, more SMBs now use these platforms to improve brand reputation and protect company information.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

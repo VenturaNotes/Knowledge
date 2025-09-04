@@ -82,4 +82,4 @@ The concepts of computable and semicomputable algebras are used to establish the
 (2) an algebra is computable if and only if it can be defined uniquely by a finite set of equations (possibly using hidden functions) whose associated term rewriting system has the Church-Rosser and strong termination properties.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

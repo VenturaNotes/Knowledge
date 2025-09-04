@@ -5,4 +5,4 @@
 - The above is true by definition of the equality of polynomials. Note that, for a prime $p$, the polynomials $x^p$ and $x$ take the same values for all $x$ mod $p$ (as a consequence of Fermat's Little Theorem). However, $x^p$ and $x$ are distinct polynomials, having different coefficients.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

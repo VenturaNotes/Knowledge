@@ -5,4 +5,4 @@
 - (2) A logical organization of communication facilities, in which the lowest levels deal with the physical network while higher levels deal with the communication between specific applications. See also PROTOCOL.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

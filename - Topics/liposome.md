@@ -6,5 +6,5 @@
 - $n$. a microscopic spherical membrane-enclosed vesicle or sac (2030 nm in diameter) made artificially in the laboratory by the addition of an aqueous solution to a phospholipid gel. The membrane resembles a cell membrane and the whole vesicle is similar to a cell organelle. Liposomes can be incorporated into living cells and may be used to transport relatively toxic drugs into cancer cells, where they can exert their maximum effects. The cancerous organ is at a higher temperature than normal body temperature, so that when the liposome passes through its blood vessels the membrane melts and the drug (e.g. doxorubicin) is released. Liposomes are also undergoing clinical trials as vehicles in gene therapy for cystic fibrosis.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

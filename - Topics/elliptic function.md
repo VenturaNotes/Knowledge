@@ -5,4 +5,4 @@
 - Note further by Liouville's theorem that holomorphic elliptic functions are constant. Elliptic functions became of interest as a consequence of elliptic integrals.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

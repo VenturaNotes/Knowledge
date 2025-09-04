@@ -6,5 +6,5 @@
 - $n$. the caplike structure on the front end of a spermatozoon. It breaks down just before fertilization (the acrosome reaction), releasing a number of enzymes that assist penetration between the follicle cells that still surround the ovum. Failure of the acrosome reaction is a cause of male infertility (see also ANDROLOGY).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

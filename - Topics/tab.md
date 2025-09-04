@@ -5,4 +5,4 @@
 - (2) A feature of many graphical interfaces where the user may select one of several optional screens by clicking on the tab. The term derives from card-indexes where a small extension of the card allows easy identification of the required card.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - An element in a system that is effectively opaque to those observing it. Inputs enter one end of the box and emerge, transformed, at the other. In terms of controlling the system, this may be perfectly adequate, however complex the processes might be within the element. The black box may be used as a way of representing the unobservable psychological processes that underlie a consumer's decision making. Researchers must focus on the input to and the output from the black box, as they are unable to observe the processes within it.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

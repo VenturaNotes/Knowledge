@@ -5,4 +5,4 @@
 - (2) The proportion of records or blocks on a file that are retrieved or updated in a batch run or in a given period of time.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -17,5 +17,5 @@
 - (of a string $\alpha$) Any string $\beta$ where $\alpha$ is the concatenation $\beta \gamma$ for some string $\gamma$. Thus in coding theory, a word is said to be a prefix of another word if the former word matches the first symbols of the latter. See also PREFIX CODES.
 ## References
 
-[^1]: [[Home Page - Chem U109 Chemistry of Living Things by Chad Mueller#^sw380f]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Chem U109 Chemistry of Living Things by Chad Mueller#^sw380f]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

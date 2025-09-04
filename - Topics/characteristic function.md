@@ -7,5 +7,5 @@
 - (probability Given a random variable $X$, then its characteristic function is $\varphi_X(t)=\mathrm{E}\left(\mathrm{e}^{i t X}\right)$, where E denotes the expectation. If the probability density function is $f_{X}:\mathbb{R} \rightarrow \mathbb{R}$, then note that $\varphi_{X}(t)=\hat{f}_{X}(-t)$, where $\hat{f}_{X}$ denotes the Fourier transform. Characteristic functions have the merit of converging, which is not always the case for moment generating functions (see CAUCHY DISTRIBUTION).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -8,4 +8,4 @@ aliases:
 - Part of a program instruction that specifies how the operand must be interpreted.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
+[^1]: [[(Home Page) Glossary by ada computer science]]

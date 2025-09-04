@@ -13,5 +13,5 @@ aliases:
 - Cyclic redundancy check is used to catch errors in digital networks. CRCs are also run on certain types of computer storage mediums. The specific purpose of a CRC is to make sure that there are no accidental changes to data. A CRC will check the same data repeatedly to ensure that older values match. If they do, a correction is made to the data, bringing it in line with its older and correct form.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

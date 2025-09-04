@@ -6,4 +6,4 @@
 - The technique was also used by J. Richard to generate a paradox about the namability of real numbers. This paradox (together with the 'liar paradox' of antiquity) is reputed to have prompted K. Gödel to apply a similar technique of diagonalization in constructing a number-theory formula not provable in formal arithmetic. See GÖDEL's INCOMPLETENESS THEOREMS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

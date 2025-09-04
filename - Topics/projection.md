@@ -6,5 +6,5 @@
 - $n$. (in psychology) the attribution of one's own qualities to other people. In psychoanalysis this is considered to be one of the defence mechanisms; people who cannot tolerate their own feelings (e.g. anger) may cope by imagining that other people have those feelings (e.g. are angry).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

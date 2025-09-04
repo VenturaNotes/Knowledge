@@ -8,6 +8,6 @@
 - A service provided on the Internet that enables the user to search for items of interest. Some, such as the widely used Google, Yahoo, and Bing, are free and attempt to capture information from the whole range of material available on the net. Others are subscription-based but in return provide access to specialist publications, full-text retrieval capabilities, or other added-value services.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

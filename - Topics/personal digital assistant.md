@@ -12,5 +12,5 @@ aliases:
 - A personal digital assistant (PDA) is a term that refers to a small computing device. They are also referred to as handheld computers. Before the widespread popularity of cell phones, these devices were relatively popular. Today, they are still used but usually have more business-centric functions. Common business uses include mobile checkout and inventory management purposes.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

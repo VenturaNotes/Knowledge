@@ -5,4 +5,4 @@
 - (2) The process of adding marks (crop marks) to a page to indicate where it is to be trimmed.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

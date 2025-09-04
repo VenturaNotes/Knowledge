@@ -9,4 +9,4 @@
 ## References
 
 [^1]: [[(4) Linear Algebra 1.2.2 Solution Sets and Free Variables]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

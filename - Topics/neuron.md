@@ -41,5 +41,5 @@ aliases:
 
 [^1]: Gemini
 [^2]: [[(1) 2-Minute Neuroscience - The Neuron]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

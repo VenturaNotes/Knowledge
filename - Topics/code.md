@@ -19,5 +19,5 @@
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-3-producing-robust-programs-quizzes/2-3-producing-robust-programs-quiz-10-questions/
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Glossary by Capterra]]

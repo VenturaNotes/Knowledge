@@ -8,4 +8,4 @@
 - Take a manufacturer that purchases materials from an external supplier. The manufacturer might implement cost optimization strategies to leverage a better deal for those materials and pass on these savings to customers.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

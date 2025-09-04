@@ -5,4 +5,4 @@
 - Various frameworks for agile working have been defined, for example Scrum, XP (eXtreme Programming), and ASD (Adaptive Software Development).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

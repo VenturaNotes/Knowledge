@@ -5,4 +5,4 @@
 - An important fact is that $L$ is regular iff the equivalence relation $=_{\mathrm{M}}$ is of finite index (i.e. there are finitely many equivalence classes). Indeed, $L$ is regular iff it is a union of classes of any equivalence relation of finite index. In addition $=_{M}$ is a congruence on $\Sigma^{*}$, i.e.$$\begin{aligned}& u =_{\mathrm{M}} u^{\prime} \text { and } v=_{\mathrm{M}}v^{\prime}\text { implies } \\& u v =_{\mathrm{M}} u^{\prime} v^{\prime}\end{aligned}$$The equivalence classes therefore can be concatenated consistently and form a semigroup. This is in fact the semigroup of the minimal machine for $L$ (or $f$ ).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

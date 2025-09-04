@@ -6,5 +6,5 @@
 - $n$. the inherited absence of pigmentation in the skin, hair, and eyes, resulting in white hair and pink skin and eyes. The pink color is produced by blood in underlying blood vessels, which are normally masked by pigment. Ocular signs are reduced visual acuity, sensitivity to light (see PHOTOPHOBIA), and involuntary side-to-side eye movements.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

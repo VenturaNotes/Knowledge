@@ -12,4 +12,4 @@ aliases:
 ## References
 
 [^1]: https://www.techtarget.com/searchenterprisedesktop/definition/Application-monitoring-app-monitoring
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

@@ -9,5 +9,5 @@
 	- Trademark A relational database management system developed and supplied by Oracle Corporation. It runs on a wide range of platforms, from mainframes to workstations, and a suite of application development tools is available. Recent versions support the deployment of databases in the cloud (see CLOUD COMPUTING).
 ## References
 
-[^1]: [[Home Page - SQL Tutorial by W3Schools]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) SQL Tutorial by W3Schools]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - It is however difficult to be certain that the seeded errors are truly representative both of the occurrence and the effect of real errors. It is particularly difficult to seed nontrivial errors.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

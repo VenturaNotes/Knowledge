@@ -5,4 +5,4 @@
 - In a technical context, Murphyʻs Law is highly relevant to the process of testing software and hardware solutions. Murphyʻs Law suggests that during the testing process, testing equipment will have faults, testers will fail to follow procedure, or run into other types of issues.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

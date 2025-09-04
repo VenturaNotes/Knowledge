@@ -6,5 +6,5 @@
 - the balance between the amount of carbonic acid and bicarbonate in the blood, which must be maintained at a constant ratio of 1:20 in order to keep the hydrogen ion concentration of the plasma at a constant value (pH 7.4 ). Any alteration in this ratio will disturb the acidbase balance of the blood and tissues and cause either acidosis or alkalosis. The lungs and the kidneys play an important role in the regulation of the acid-base balance.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

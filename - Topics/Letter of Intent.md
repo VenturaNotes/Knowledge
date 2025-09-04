@@ -10,5 +10,5 @@ aliases:
 - A letter in which a person formally sets out his or her intentions to do something, such as signing a contract in certain circumstances, which are often specified in detail in the letter. The letter does not constitute either a contract or a promise to do anything, but it does indicate the writer's serious wish to pursue the course set out.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

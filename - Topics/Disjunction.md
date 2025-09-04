@@ -41,5 +41,5 @@ where $\Lambda$ is the $$ AND operation and each $y_{i}$ is equal to $x_{i}$ or 
 ## References
 
 [^1]: [[(3) Start Learning Logic - Part 2 - Disjunction, Tautology and Logical Equivalence]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

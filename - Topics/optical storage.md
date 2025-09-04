@@ -8,4 +8,4 @@
 - Write-once media offer permanent storage once recorded and so are an attractive alternative to magnetic tape for archival storage. Read-only media are a very cheap means of distributing large amounts of data, such as images, or software in machine-readable form (see CD-ROM, DVD). Rewritable media compete more directly with magnetic storage, but are becoming popular for backup and for the storage of bitmapped images, which tend to need very large files.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -10,4 +10,4 @@ aliases:
 - A macroprocessor provides similar facilities, though not in combination with an assembler. It accepts macro definitions and then reads arbitrary text in which macro calls (i.e. instances of a macro name) can occur. Text is copied to the output until a macro name is encountered: when this happens the arguments (parameters) are found and the macro call is replaced by the macro body in the output stream, with appropriate substitution of the parameters.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -32,4 +32,4 @@ Assuming initial values for $f(0), f(1), \ldots, f(k-1)$, values for other point
 Equations of this type arise naturally in the discretization of continuous problems, and in a slightly different form, known as a difference equation, appear repeatedly in combinatorics.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

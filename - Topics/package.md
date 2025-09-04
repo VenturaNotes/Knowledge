@@ -6,4 +6,4 @@
 - Similar features are found in other languages, particularly Modula 2: here the term module is used in preference to package. In Modula 2 a module comprises a definition part and an implementation part, corresponding to the specification and body of the Ada package. The main difference is that the definition part of a module contains declarations of all the objects required by the module, together with an export list specifying which objects are visible outside the module.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

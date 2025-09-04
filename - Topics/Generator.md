@@ -20,4 +20,4 @@ ultimately include all the elements of $G$. Such a group is said to be a cyclic 
 The set of generators $S$ of a group $G$ is a subset of $G$ having the property that every element of $G$ can be expressed as a combination of elements of $S$. See also GROUP GRAPH.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -8,4 +8,4 @@
 ## References
 
 [^1]: https://nordvpn.com/cybersecurity/glossary/time-division-multiplexing/#:~:text=Asynchronous%20TDM.,that%20have%20information%20to%20send.
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

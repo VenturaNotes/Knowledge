@@ -16,4 +16,4 @@ $$
 for $r=1, \ldots n$ and $i=0, \ldots n-r$ and $\mathbf{r}_{i}{ }^{0}(u)=\mathbf{r}_{i}$. Then $\mathbf{r}_{i}{ }^{\mathrm{n}}(u)$ is the point with parameter value $u$ on the Bézier curve of degree $n$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

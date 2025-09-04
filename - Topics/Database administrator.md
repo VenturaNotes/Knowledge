@@ -10,4 +10,4 @@ aliases:
 - The activity is an ongoing one involving the monitoring of performance and any consequential modification of the storage schema to improve it, responsibility for backup and recovery, for creating further user views as required, and generally with database integrity, security, and efficiency. The work is usually seen as encompassing both the business modelling role at one extreme and, at the other, the day-to-day technical problems of making the database system work effectively in practice.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

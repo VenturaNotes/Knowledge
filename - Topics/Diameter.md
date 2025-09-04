@@ -5,4 +5,4 @@
 - In the case of a circle or sphere, all such line segments have the same length. This length is also called the diameter of the circle or sphere, and is equal to twice the radius.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

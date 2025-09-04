@@ -4,4 +4,4 @@
 - Typically, a set whose elements are sets or have some further structure. Thus, one might discuss a family of curves. A family may be called an n-parameter family if n parameters need to be specified to identify an element of the family.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

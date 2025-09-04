@@ -60,4 +60,4 @@ $$
 When combined with the boundary conditions these approximations result in a system of equations for approximations to $y\left(x_{n}\right), n=1,2, \ldots, N$. Nonlinear differential equations yield a system of nonlinear equations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -18,4 +18,4 @@ aliases:
 	- (ii) For any point $P$ on the ellipse, let $\alpha$ be the angle between the tangent at $P$ and the line $PF_1$, and $\beta$ the angle between the tangent at $P$ and the line $PF_2$, as shown in the figure; then $\alpha = \beta$. This property is analogous to that of the parabolic reflector (see PARABOLA).
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

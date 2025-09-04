@@ -7,4 +7,4 @@
 		- (1) [[Specialization]] in a particular small job allows workers to focus on the parts of the production process where they have an advantage
 ## References
 
-[^1]: [[Home Page - Principles of Economics 3e by OpenStax#Why the Division of Labor Increases Production]]
+[^1]: [[(Home Page) Principles of Economics 3e by OpenStax#Why the Division of Labor Increases Production]]

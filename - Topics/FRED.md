@@ -6,4 +6,4 @@
 - Able to display data in tables or charts
 ## References
 
-[^1]: [[Home Page - Principles of Economics 3e by OpenStax#Introduction to FRED]]
+[^1]: [[(Home Page) Principles of Economics 3e by OpenStax#Introduction to FRED]]

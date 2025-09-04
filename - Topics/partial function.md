@@ -5,4 +5,4 @@
 - Partial functions arise naturally in computing. When recursive definitions of functions are given, the definition can sometimes loop for certain parameters. Definitions of functions can also give rise to overflow or exception situations. In these cases it is convenient to talk about partial functions. Compare TOTAL FUNCTION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

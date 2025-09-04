@@ -9,4 +9,4 @@
 ## References
 
 [^1]: https://csrc.nist.gov/glossary/term/correctness_proof
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

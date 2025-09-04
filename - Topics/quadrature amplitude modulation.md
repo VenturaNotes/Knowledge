@@ -11,5 +11,5 @@ aliases:
 - QAM (quadrature amplitude modulation) is a technique that combines two amplitude modulation (AM) signals into one channel. QAM translates digital packets into an analog signal to transmit data.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

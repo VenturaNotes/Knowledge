@@ -5,4 +5,4 @@
 - Enumeration is used to define data types in languages of the Pascal and Jovial families. It also plays a significant role in combinatorics where one might typically talk of an enumeration of permutations or combinations, of binary trees, of graphs, of groups, etc.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

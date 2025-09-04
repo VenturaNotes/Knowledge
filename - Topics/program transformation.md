@@ -6,4 +6,4 @@
 - Other aims of transformation include expressing certain language constructs in terms of others ([[transformational semantics]]). Also, developing algorithms by transformation can serve to verify their correctness, to elucidate their structure, and to provide better understanding of the possible algorithms. See also REFINEMENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

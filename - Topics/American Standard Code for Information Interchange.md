@@ -27,9 +27,9 @@ aliases:
 
 [^1]: https://www.asciitable.com/
 [^2]: https://www.ascii-code.com/articles/ASCII-Control-Characters
-[^3]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^4]: [[Home Page - Glossary by ada computer science]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Glossary by ada computer science]]
 [^5]: https://www.techtarget.com/whatis/definition/ASCII-American-Standard-Code-for-Information-Interchange
-[^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^7]: [[Home Page - Glossary by Capterra]]
+[^6]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^7]: [[(Home Page) Glossary by Capterra]]
 [^8]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

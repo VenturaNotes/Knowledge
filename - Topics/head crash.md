@@ -5,4 +5,4 @@
 - The possibility of a head crash is reduced by keeping the disk clean and at a constant temperature and humidity. Disks are copied at regular intervals so that in the event of a crash a duplicate is available. Fixed disk drives have greatly reduced the probability of a head crash because they are sealed (except for a 'breather' filter) and have an internal filter through which the air inside the drive circulates.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

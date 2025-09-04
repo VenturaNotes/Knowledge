@@ -5,4 +5,4 @@
 - (2) A piece of software that, for example, compares the contents of two text files and highlights any differences between the contents. It is often used in word processing or editing of program source files and as a software quality assurance tool in configuration management.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

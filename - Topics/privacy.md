@@ -9,5 +9,5 @@
 - $n$. the condition of being apart from public view. The law recognizes privacy as a human right by virtue of the Human Rights Act 1998, although there are occasions when this right may be overridden (for example, in legal proceedings). In medical ethics, the concept is associated with maintaining a patient's dignity and autonomy and with the doctor's duty of confidentiality.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

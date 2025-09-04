@@ -8,4 +8,4 @@ aliases:
 - Electronic waste (e-waste) refers to electrical and electronic equipment that has been discarded, is old, or has reached the end of its life.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

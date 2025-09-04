@@ -5,4 +5,4 @@
 - (2) (statement label) A numeric or alphanumeric identifier associated with a line or statement in a program and used in other parts of the program to refer to that statement.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

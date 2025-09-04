@@ -6,5 +6,5 @@
 - A method of operating a computer in which several programs apparently run at the same time. Although the computer actually divides its time between the programs, it is fast enough to allow each program to operate at an acceptable speed. Most multitasking and multiuser systems are time sharing systems.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

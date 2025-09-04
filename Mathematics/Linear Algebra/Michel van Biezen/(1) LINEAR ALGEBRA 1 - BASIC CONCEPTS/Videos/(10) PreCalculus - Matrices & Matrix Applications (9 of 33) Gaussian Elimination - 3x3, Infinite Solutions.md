@@ -8,4 +8,4 @@ Reviewed: false
 
 ## References
 
-[^1]: [[Home Page - Linear Algebra 4th ed. by Jim Hefferon#^112812]]
+[^1]: [[(Home Page) Linear Algebra 4th ed. by Jim Hefferon#^112812]]

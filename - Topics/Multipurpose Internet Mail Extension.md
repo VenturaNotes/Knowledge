@@ -10,4 +10,4 @@ aliases:
 - In the hypertext transfer protocol (HTTP), web servers often insert MIME headers at the beginning of web transmissions, which allows web browsing applications to display files that are not in HTML format.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

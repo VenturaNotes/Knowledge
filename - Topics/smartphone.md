@@ -8,6 +8,6 @@
 - A mobile phone with computing features over and above the ability to make and take calls, and send or receive text messages. The extra features generally include data storage, Bluetooth, GPS, location-aware applications, and touchscreen user interfaces. Many current smartphones are essentially compact personal computers.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

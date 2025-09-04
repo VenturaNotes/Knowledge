@@ -6,4 +6,4 @@
 - HTML5 is free for anyone to use and incorporates easy-to-remember HTML tags such as `<video>, <audio>, <header>, <section>, <footer>`, and more. HTML5 is supported by all major browsers, including Google Chrome, Firefox, and Safari, which keeps web content consistent.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

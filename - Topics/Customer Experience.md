@@ -6,4 +6,4 @@
 	- Negative experiences can result in bad word-of-mouth, negative PR, and lost revenue.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

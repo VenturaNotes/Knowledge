@@ -10,6 +10,6 @@
 - (2) The process of breaking a product into separate components and selling each component separately. For example, discount airlines sell a ticket for a flight then charge separately for baggage, food, choice of seat, etc.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -28,4 +28,4 @@ $$
 where $V$ is the final voltage, $R$ the source resistance, and $C$ the capacitive load.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

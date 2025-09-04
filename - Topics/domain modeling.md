@@ -5,4 +5,4 @@
 - The purpose of a domain model is to enhance understanding of the structure and behavior of the domain, and of the requirements for systems that are to be embedded in it; a model could be said to provide the basic semantics for a class of systems. Domain modelling may have two benefits: (a) many individual systems may be tailored or instantiated from a single model; (b) the model may be more stable and longer lasting than individual systems. The more that either of those benefits can be obtained, the greater is the potential return on investment in the model. Achieving them, however, may mean that a domain model must be shared among a number of developers, and contributed to by a number of users; that may be difficult in the face of commercial competitive pressures.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

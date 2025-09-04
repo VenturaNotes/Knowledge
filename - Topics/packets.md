@@ -26,5 +26,5 @@ aliases:
 	- Each packet contains a header with control information (e.g., source and destination addresses, checksum) and a payload with the actual data
 ## References
 
-[^1]: [[Home Page - Computer Networking A Top-Down Approach 8th Edition by James F. Kurose and Keith W. Ross#1 1 What is the Internet]]
+[^1]: [[(Home Page) Computer Networking A Top-Down Approach 8th Edition by James F. Kurose and Keith W. Ross#1 1 What is the Internet]]
 [^2]: ChatGPT

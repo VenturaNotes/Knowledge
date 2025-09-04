@@ -8,5 +8,5 @@
 - Software maintenance refers to the process of updating software. Just like any piece of hardware or machinery, software requires maintenance which means checking it for viruses, updates, patches, and security vulnerabilities. Most software is updated automatically with minimal input from the user.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

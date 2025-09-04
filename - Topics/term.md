@@ -49,5 +49,5 @@ Terms are often built using signatures. A $\Sigma$-term is a term in which each 
 - (3) A clause in a contract that refers to a particular obligation between the contracting parties.
 ## References
 [^1]: [[(1) Variables and Algebraic Expressions#^83d9b4]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

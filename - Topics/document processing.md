@@ -5,4 +5,4 @@
 - (2) Dedicated document processing services are available where bulk mailing of bank, utility, or other statements are handled by specialists. Data is transmitted to the site where forms are printed as required, placed in envelopes together with advertising or informative material, and posted in bulk.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

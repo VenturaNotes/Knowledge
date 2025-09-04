@@ -6,4 +6,4 @@
 - Linear multistep methods are more efficient than Runge-Kutta methods when evaluations of $f(x, y)$ are sufficiently expensive. The ease with which the step number $k$ can be varied automatically permits the design of codes that can be efficient over a wide range of requested accuracies.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

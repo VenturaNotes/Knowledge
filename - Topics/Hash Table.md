@@ -15,4 +15,4 @@ aliases:
 ## References
 
 [^1]: https://www.askpython.com/python/examples/hashsets-and-hashtables-in-python
-[^2]: [[Home Page - A First Course on Data Structures in Python#2 4 4 Dictionaries dict]]
+[^2]: [[(Home Page) A First Course on Data Structures in Python#2 4 4 Dictionaries dict]]

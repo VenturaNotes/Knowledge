@@ -16,4 +16,4 @@
 
 [^1]: https://en.wikipedia.org/wiki/Memory_management
 [^2]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-5-systems-software-quizzes/ks4-ocr-j277-1-5-system-software-quiz/
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

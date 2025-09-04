@@ -5,4 +5,4 @@
 - Logic signals become corrupted as they travel through a system; the switching edges become exponentials, ringing can occur, and noise may be added. Feeding such a signal through a Schmitt trigger restores the rising and falling edges to a fast transition between the voltages corresponding to the 0 and 1 logic states.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

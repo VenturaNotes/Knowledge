@@ -5,4 +5,4 @@
 - Ubiquitous networking is an essential element of ubiquitous computing, which is the act of embedding microprocessors into world objects to make them perform useful tasks in a way that minimizes the user’s need to interact with computers as they are. An example of ubiquitous computing would be a smart speaker that allows users to listen to audiobooks by voice command.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

@@ -10,5 +10,5 @@
 	- #question So is method access just a difference between hardware and software?
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://www.capterra.com/glossary/access-method/

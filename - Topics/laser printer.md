@@ -6,5 +6,5 @@
 - A type of high-speed, high-quality printer used with computers and desktop publishing equipment. The characters to be printed are formed by a low-power laser, which alters the electrical charge on appropriate areas of the surface of a photoconductive rotating drum, as in xerography.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

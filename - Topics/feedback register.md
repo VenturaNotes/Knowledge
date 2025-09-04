@@ -6,4 +6,4 @@
 - When there is no external serial input, the linear feedback register can be used on its own to generate m-sequences or, with parallel loading of the shift register with a source word, as an encoder for simplex codes; either of these applications requires that the feedback logic coefficients represent a polynomial that is primitive. See also GOOD-DE BRUUN DIAGRAM.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

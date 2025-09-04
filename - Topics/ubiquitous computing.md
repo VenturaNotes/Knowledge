@@ -11,5 +11,5 @@ aliases:
 - (ambient computing; pervasive computing) A model for the development of computing in the early 21st century. It envisages a movement away from 'computers' as distinct specialized devices; rather, many objects used in everyday life will contain embedded computing devices that can interact in useful ways with each other and with their environment. Such a model becomes possible as the size of computing devices decreases and wireless networking makes the ad-hoc self-configuring networks necessary for ubiquitous computing viable. Ubiquitous computing is currently a subject of both academic and commercial research.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

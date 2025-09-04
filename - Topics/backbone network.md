@@ -6,4 +6,4 @@
 - Backbone networks are often characterized by distributed traffic patterns. Packet switching may be used internally by backbone networks to take advantage of these traffic patterns, even though the backbone network may present a circuit switching appearance to external hosts (see VIRTUAL CIRCUIT). Traffic-pattern analysis may be used to construct backbone networks that minimize certain network parameters, such as average delay, circuit costs, etc. Backbone networks may themselves be multilevel, incorporating low-capacity terrestrial links, high-capacity terrestrial links, and satellite links.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

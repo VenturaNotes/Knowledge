@@ -10,4 +10,4 @@ aliases:
 - MCPs might offer MSP and CSP services, as well as provide support, consulting, and maintenance for non-Microsoft technologies.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

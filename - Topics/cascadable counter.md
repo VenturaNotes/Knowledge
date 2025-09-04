@@ -5,4 +5,4 @@
 - Since cascadable counters are available as integrated-circuit blocks or modules, cascadable counters are also called [[modular counter|modular counters]]. See also COUNTER.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

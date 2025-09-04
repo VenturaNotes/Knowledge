@@ -10,4 +10,4 @@ aliases:
 - More advanced SWGs might include functionality to prevent data leaks. Or they might include the ability to block sensitive data, such as intellectual property, from leaving an organization's network. This process is called exfiltration.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

@@ -40,4 +40,4 @@ In an attempt to circumvent problems caused by recursion, Bertrand Russell inven
 The study of hierarchies of functions dates from work of David Hilbert around 1926 on the foundations of mathematics. More recent interest stems from their applicability to computational complexity.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

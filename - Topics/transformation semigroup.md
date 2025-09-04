@@ -5,4 +5,4 @@
 - If the identity transformation (see IDENTITY FUNCTION) is included in the transformation semigroup, a [[transformation monoid]] results. Every monoid is isomorphic to a transformation monoid.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - The counter may be made to count continuously by arranging that the output of the rightmost (leftmost) flip-flop sets the input of the leftmost (rightmost) flip-flop. The counter is then known as a [[ring counter]].
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

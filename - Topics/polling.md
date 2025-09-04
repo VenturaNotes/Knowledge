@@ -6,4 +6,4 @@
 - Polling is not suitable for situations where the response delay time is fairly large, as is the case in satellite transmission systems.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

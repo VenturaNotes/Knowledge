@@ -28,4 +28,4 @@ $$
 The term $b c$ is sometimes called an [[optional product]]. This operation is invaluable in the elimination of circuit static hazards. Its systematic application to a Boolean function provides the basis of a minimization procedure that is less voluminous than the Quine-McCluskey method, since it does not require the full canonical expansion of the original function.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

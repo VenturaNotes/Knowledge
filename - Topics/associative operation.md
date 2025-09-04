@@ -5,4 +5,4 @@
 - The arithmetic operations of addition and multiplication are associative, though subtraction is not. On a computer the associative law of addition of real numbers fails to hold because of the inherent inaccuracy in the way real numbers are usually represented (see FLOATING-POINT NOTATION), and the addition of integers fails to hold because of the possibility of overflow.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -7,5 +7,5 @@
 - The insertion of information into a computerized system. For example, information about the sale of an item (the item sold, the sales price, and discount given, date and location of sale, etc.) is taken into the accounting system either at the point of sale in a retail organization by an electronic till or by keyboarding into the system when the invoice is prepared. This information is then readily available and up-to-date; it can also be used to adjust stock levels.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

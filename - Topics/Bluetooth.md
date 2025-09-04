@@ -19,7 +19,7 @@
 ## References
 
 [^1]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
-[^2]: [[Home Page - Glossary by ada computer science]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^4]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by ada computer science]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Glossary by Capterra]]
 [^5]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

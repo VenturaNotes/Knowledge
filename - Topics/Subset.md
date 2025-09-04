@@ -19,4 +19,4 @@ aliases:
 
 [^1]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis]]
 [^2]: [[(40) Proof - Subset is a Transitive Relation - Set Theory, Subsets, Transitivity]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

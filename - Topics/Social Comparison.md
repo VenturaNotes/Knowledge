@@ -5,4 +5,4 @@
 - Businesses use the ‘social comparison theory’ as a means to motivate their employees to work harder. Social comparison in the workplace gives employees an idea of how their behavior, attitude, and accomplishments in the workplace compare to the actions of their co-workers. It drives competition among employees, and inspires them to outperform their peers by working harder.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

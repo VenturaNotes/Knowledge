@@ -8,4 +8,4 @@
 - See also Catalan's conjecture, Fermat's Last Theorem, Hilbert's Tenth Problem, and Pell's Equation
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

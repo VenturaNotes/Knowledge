@@ -5,4 +5,4 @@
 - Due to a number of difficulties, fixed-point arithmetic is rarely directly supported by programming languages. However, fixed-point arithmetic is implemented and used where needed; for example, for storing and tracking monetary values, or for decoding audio format on devices that do not support floating-point arithmetic.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

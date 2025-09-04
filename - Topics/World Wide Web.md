@@ -19,5 +19,5 @@ aliases:
 ## References
 
 [^1]: https://youtu.be/HGYOEeik844?si=2h1OafsPeHu4rcr_
-[^2]: [[Home Page - Glossary by ada computer science]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by ada computer science]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

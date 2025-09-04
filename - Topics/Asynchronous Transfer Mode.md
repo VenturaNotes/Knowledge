@@ -131,5 +131,5 @@ aliases:
 [^4]: https://www.tutorialspoint.com/explain-the-atm-cell-structure-in-computer-network
 [^5]: https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode#:~:text=An%20ATM%20cell%20consists%20of,links%20use%20UNI%20cell%20format.
 [^6]: https://www.lenovo.com/us/en/glossary/asynchronous-transfer-mode/
-[^7]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^8]: [[Home Page - Glossary by Capterra]]
+[^7]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^8]: [[(Home Page) Glossary by Capterra]]

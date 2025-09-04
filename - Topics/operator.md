@@ -13,6 +13,6 @@ aliases:
 - The term operator is used in the computer programming industry to describe a character in computer code that instructs a system to perform a logical or mathematical function. For instance, operator “+“ is used in computer code to either add numerical value together or to thread together literals and variables into a single data string (sequence of characters in computer code). Programmers use operators to compose the computer code that allows software programs to function properly.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Glossary by Capterra]]

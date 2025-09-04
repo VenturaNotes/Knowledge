@@ -10,5 +10,5 @@
 - (DP) Computing operations that manipulate large quantities of information. In business, these operations include book-keeping, printing invoices and mail shots, payroll calculations, and general record keeping. Data processing forms a major use of computers in business, and many firms have full-time data-processing departments.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

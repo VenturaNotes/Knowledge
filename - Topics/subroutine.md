@@ -5,4 +5,4 @@
 - In the early days of programming, what is now called a subroutine was known as a [[closed subroutine]]. This was in contrast with the open subroutine, which was a piece of code that appeared in several places in a program, and was substituted 'in line' by the assembler for each call appearing in the program. The open subroutine was just a convenient shorthand for the programmer: the same facility is now known as a macro.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

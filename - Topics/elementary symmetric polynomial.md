@@ -5,4 +5,4 @@
 - The elementary symmetric polynomials are symmetric functions, and any symmetric polynomial can be expressed in terms of the elementary symmetric polynomials. For example, if $s_k = \alpha^k + \beta^k + \gamma^k$, then $$s_{k+3} = \sigma_1s_{k+2} - \sigma_2s_{k+1} + \sigma_3s_k$$gives a general recursive means of expressing $s_k$ in terms of $\sigma_1, \sigma_2, ..., \sigma_k$. See NEWTON'S IDENTITIES. 
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]\
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]\

@@ -5,4 +5,4 @@
 - File integrity can be defined in similar terms. Typically, however, files are subject to less extensive integrity checking than databases.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

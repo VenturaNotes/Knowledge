@@ -6,4 +6,4 @@
 - CAMAC was proposed as a standard by the UK Atomic Energy Authority and further development and documentation was done by the European Standards of Nuclear Electronics (ESONE) and the Nuclear Instrument Module Committee of the US. The parallel interface is documented in IEC-522 and the modular construction is in IEC-516.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

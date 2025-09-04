@@ -8,4 +8,4 @@
 The reason for the name S-gate is because the French for threshold is seuil. The S-gate should not be confused with the ternary selector gate (T-gate). More complicated versions of the S-gate have been defined in various ways. See also THRESHOLD ELEMENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

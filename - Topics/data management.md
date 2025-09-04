@@ -10,5 +10,5 @@ aliases:
 - Data management (DM) includes the rules, methods, and tools a business uses to process, store, organize, and deliver data. Good data management means ensuring data is accessible across the range of devices used by a business. It's also important for the data to be quickly accessible.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

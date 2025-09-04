@@ -6,5 +6,5 @@
 - $n$. a process, occurring in the liver, that occurs during the metabolism of amino acids. The amino group $\left(-\mathrm{NH}_{2}\right)$ is removed from an amino acid and converted to ammonia, which is ultimately converted to urea and excreted.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

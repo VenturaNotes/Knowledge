@@ -6,5 +6,5 @@
 - A unit that measures the rate at which information is transmitted along a communications link. In normal computer usage, it is equivalent to bits per second (see BINARY NOTATION). Thus, a 300-baud communications link sends 300 bits of information per second.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

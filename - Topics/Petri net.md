@@ -13,4 +13,4 @@
 - Petri nets were devised in the early 1960s by C. A. Petri.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - A systematic approach to dealing with both planned and unplanned change in an organization. A major part of change management is dealing with fear of or resistance to change in the workforce. The best strategy for dealing with such resistance is usually one of communication, participation, encouragement, and support.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

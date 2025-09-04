@@ -5,4 +5,4 @@
 - Distributed database systems are currently an active topic for database research and development, largely because of the availability of national and international communication facilities.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -8,5 +8,5 @@
 - (3) The ownership/management side of firms, as opposed to their ordinary employees; this group is often referred to as the business community.
 ## References
 
-[^1]: [[Home Page - Principles of Economics 3e by OpenStax#Why the Division of Labor Increases Production]]
+[^1]: [[(Home Page) Principles of Economics 3e by OpenStax#Why the Division of Labor Increases Production]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - Lastly, the location in which the product can be purchased should be clearly stated, to ensure that customers know how and where they can purchase the product or service offering.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

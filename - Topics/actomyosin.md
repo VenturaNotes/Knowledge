@@ -8,6 +8,6 @@
 - $n$. a protein complex formed in muscle between actin and myosin during the process of contraction. See STRIATED MUSCLE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

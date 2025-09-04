@@ -7,4 +7,4 @@
 - then $P(s)$ is true for all $s$ in $S$. Structural induction tends to be used in proving properties of recursive programs.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

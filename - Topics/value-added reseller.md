@@ -10,5 +10,5 @@ aliases:
 - A VAR is a person or company that adds services, features, or other value to products manufactured by other businesses for which they sell products. A VAR might add customized features to software manufactured by another company, provide engineering or support on behalf of the company that manufactures a product, or offer "add-ons" to the original product.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

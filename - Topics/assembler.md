@@ -10,6 +10,6 @@
 - (2) Colloquial An assembly language.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
 [^2]: https://www.techtarget.com/searchdatacenter/definition/assembler
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

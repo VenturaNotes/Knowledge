@@ -8,5 +8,5 @@
 - A form that requires the recipient department or organization to carry out a specified procedure. Examples are purchase requisition, materials requisition, and manufacturing requisition (see PRODUCTION ORDER).
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

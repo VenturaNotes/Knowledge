@@ -9,4 +9,4 @@ aliases:
 - PCTE was originally developed by an ESPRIT project partially funded by the EEC in the 1980s. The current standard has evolved from the original specification under the influence of several international initiatives, and incorporates ideas from PCTE+ developed by NATO and CAIS-A developed by the US Department of Defense.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

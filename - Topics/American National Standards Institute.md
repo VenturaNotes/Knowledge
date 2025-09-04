@@ -17,7 +17,7 @@ aliases:
 - Abbreviation for American National Standards Institute. This organization is the US equivalent of the British Standards Institution or the Deutsches Institut für Normung (DIN).
 ## References
 
-[^1]: [[Home Page - SQL Tutorial by W3Schools]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) SQL Tutorial by W3Schools]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

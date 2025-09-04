@@ -10,5 +10,5 @@ aliases:
 - (OLAP) A software application that enables users to extract very specific types of data from a large, multidimensional database and to analyze that information in several ways at once. OLAP systems can therefore provide swift answers to very detailed and complex inquiries from managers about e.g. products, sales, and marketing costs. See DATA WAREHOUSING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

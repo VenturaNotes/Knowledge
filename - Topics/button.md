@@ -5,4 +5,4 @@
 - (2) On a mouse (or similar device), a switch that a user presses to initiate a specific function (see CLICK).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

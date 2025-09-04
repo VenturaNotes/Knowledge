@@ -14,5 +14,5 @@ aliases: sig figs
 				- Rounded the 11.8 first because of sig figs and then divided
 ## References
 
-[^1]: [[Home Page - Chem U109 Chemistry of Living Things by Chad Mueller#^4kt0bj]]
+[^1]: [[(Home Page) Chem U109 Chemistry of Living Things by Chad Mueller#^4kt0bj]]
 [^2]: [[(2) 1.2 Scientific Notation & Significant Figures - General Chemistry#^1572ef]]

@@ -11,4 +11,4 @@
 - The mean is 2.875 , the median is 2.5 , and the mode is 1 .
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

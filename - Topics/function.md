@@ -47,6 +47,6 @@ See also BIJECTION, HOMOMORPHISM, INJECTION, OPERATION, SURJECTION. 2. A program
 - A section or department of an organization that carries out a discrete activity, under the control of a manager or director. It is the section of the business for which functional budgets are produced. Examples of separate functions are production, sales, finance, and personnel.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: ChatGPT
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

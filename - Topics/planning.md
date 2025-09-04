@@ -8,6 +8,6 @@
 - (land-use) Controls by central or local government over the use of land. These are common, because of the importance of externalities resulting from land use. Land-use planning is intended to keep activities causing negative externalities, such as noise or visual intrusion, away from places where they are believed to be particularly harmful. Land-use controls typically operate more strictly on changes of use and new activities than on continuation of existing activities.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

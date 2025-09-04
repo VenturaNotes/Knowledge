@@ -64,4 +64,4 @@ $$
 where values of the parameter $\lambda$ (eigenvalues) are required that yield nontrivial eigenfunctions $y(x)$ (i.e. $y(x) \not \equiv 0$ ). Finite-difference methods applied to such problems generally lead to matrix eigenvalue problems.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

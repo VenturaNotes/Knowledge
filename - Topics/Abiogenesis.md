@@ -9,5 +9,5 @@
 ## References
 
 [^1]: https://library.fiveable.me/key-terms/ap-bio/abiogenesis
-[^2]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -17,4 +17,4 @@ aliases:
 ## References
 
 [^1]: [[(46) Linear Algebra Example Problems - Vector Space Basis Example 1]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

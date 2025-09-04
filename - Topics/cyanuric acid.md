@@ -6,4 +6,4 @@
 	- Cyanuric acid
 ## References
 
-[^1]: [[Home Page - A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]

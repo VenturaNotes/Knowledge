@@ -5,4 +5,4 @@
 - The technique has been automated, but the size of program that can be handled is limited and manual assistance may be needed to handle loops correctly and efficiently. See also PROGRAM CORRECTNESS PROOF, STATIC ANALYSIS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

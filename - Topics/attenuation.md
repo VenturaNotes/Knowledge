@@ -10,7 +10,7 @@
 - $n$. reduction of the disease-producing ability (virulence) of a bacterium or virus by chemical treatment, heating, drying, by growing under adverse conditions, or by passing through another organism. Treated (attenuated) bacteria or viruses are used for many immunizations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: https://www.techtarget.com/searchnetworking/definition/attenuation
-[^3]: [[Home Page - Glossary by Capterra]]
+[^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

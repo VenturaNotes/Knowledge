@@ -5,4 +5,4 @@
 - There are many different stages of autonomous vehicles. For example, a level one autonomous vehicle is when the driver is assisted by an advanced driver assistance system (or ADAS). A level five autonomous vehicle is in total control without any help from a human driver.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

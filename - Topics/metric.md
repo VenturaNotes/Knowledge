@@ -13,4 +13,4 @@
 ## References
 
 [^1]: https://www.geeksforgeeks.org/what-is-a-metric-in-analytics/#:~:text=Metrics%20are%20foundational%20elements%20in,and%20organizations%20toward%20desired%20results.
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

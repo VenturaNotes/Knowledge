@@ -7,5 +7,5 @@
 - The term used to describe an abstract concept defined as consisting of certain elements with binary operations satisfying given axioms. Thus groups, rings, fields, vector spaces and modules are algebraic structures. The aim is to recognize similarities that appear in different contexts within mathematics and to encapsulate these by means of a set of axioms.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

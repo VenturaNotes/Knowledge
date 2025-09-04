@@ -22,5 +22,5 @@ In computer science, however, it is natural to consider algebras involving more 
 - A vector space equipped with a bilinear product. An example is the space of $n \times$ $n$ real matrices, with product $(A, B) \mapsto A B$. As here, the product need not be commutative. See also BANACH ALGEBRA, DIVISION ALGEBRA, GROUP ALGEBRA.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

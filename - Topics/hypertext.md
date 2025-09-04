@@ -6,5 +6,5 @@
 - A document format used in multimedia and on the Internet in which a page of text contains links, usually in the form of highlighted words or icons (see HTML). Selecting one of these hyperlinks takes the user directly to related documents, enabling them to pursue a line of investigation without having to search for each item individually. Links could be to further documents directly relating to the initial search subject, to related subjects, or even to further specialist sources. The connections can therefore increase exponentially.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -13,5 +13,5 @@ aliases:
 - Acronym for formula translation, a computer programming language. The first high-level language to gain widespread acceptance for mathematical and scientific work, Fortran has been dominant in this field since the 1950s. A vast amount of software has been written in it, forming an investment that ensures its continued popularity despite advances in programming language design.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

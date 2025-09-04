@@ -6,4 +6,4 @@
 - (3) In mathematics, a commutative ring containing more than one element and in which every nonzero element has an inverse with respect to the multiplication operation. Apart from their obvious relationship to arithmetic involving numbers of various kinds, fields play a very important role in discussion about the analysis of algorithms. Results in this area mention the number of operations of a particular kind, and these operations are usually related to addition and multiplication of elements of some field.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

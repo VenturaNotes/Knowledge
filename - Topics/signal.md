@@ -10,4 +10,4 @@
 ## References
 
 [^1]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

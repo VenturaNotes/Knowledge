@@ -6,5 +6,5 @@
 - Modifying the operating system of a digital device, such as an iPhone or iPod, in order to run applications that are not authorized by the manufacturer. In 2010 the US copyright office determined that jailbreaking was permitted as an exemption to the Digital Millennium Copyright Act.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

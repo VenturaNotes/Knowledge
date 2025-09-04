@@ -14,4 +14,4 @@ aliases:
 	- Technology: Effective risk management relies on technology such as an IRM solution (IRMS).
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

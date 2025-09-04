@@ -8,6 +8,6 @@
 - A teleconferencing facility enabling groups of people at various locations to see and speak to each other, making it possible to hold meetings, seminars, etc., without travel. Desk-top PC-based systems are now readily available, as are systems that can be used with mobile devices. See also VoIP.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

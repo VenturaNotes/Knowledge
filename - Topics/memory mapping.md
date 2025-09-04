@@ -5,4 +5,4 @@
 - (2) A similar technique for reading and writing files. A file's contents are mapped to a section of a process's virtual memory and treated as an array of bytes.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

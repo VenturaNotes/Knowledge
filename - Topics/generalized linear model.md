@@ -10,4 +10,4 @@ aliases:
 - The analysis uses the method of maximum likelihood, solved by iterative use of weighted least squares estimation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

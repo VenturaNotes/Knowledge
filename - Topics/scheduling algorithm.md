@@ -7,4 +7,4 @@
 - The net effect is that low-priority processes, with long quanta, are likely to be interrupted by the completion of input/output transactions on behalf of higher-priority processes, which will thus be freed for further processing.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

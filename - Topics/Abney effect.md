@@ -6,4 +6,4 @@
 - (2) A perceptual phenomenon whereby a large surface that is suddenly illuminated appears to brighten first near its centre and then near its edges, and if the illumination is suddenly extinguished it appears to darken first near its edges and then near its centre. \[Named after the English chemist and physicist Sir William de Wiveleslie Abney (1843-1920)]
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

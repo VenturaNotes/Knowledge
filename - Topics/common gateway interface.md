@@ -10,5 +10,5 @@ aliases:
 - The Common Gateway Interface enables a web server to send or receive data from an application such as a database. A CGI script passes a request from the web server to the application. The script receives data from the application and returns that data to a web client, which is typically a web browser.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

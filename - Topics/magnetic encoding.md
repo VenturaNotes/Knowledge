@@ -5,4 +5,4 @@
 - In 1975 Shun-ichi Iwasaki published his work on [[vertical recording]] methods. The magnetic domains are oriented through the thickness of the magnetic film and have either a north or a south pole at the exposed surface. The magnetic material is usually a vacuum-deposited film of metal such as an alloy or combination of cobalt and chromium over a layer of permalloy. Vertical recording can yield an increase of at least 25 times and possibly 100 times the bit density achievable by current horizontal recording techniques. However, vertical recording proved difficult to implement. Disks using it began to appear in the 2000s.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

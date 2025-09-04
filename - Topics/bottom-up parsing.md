@@ -36,4 +36,4 @@ stage is respectively $a b, c, d e$, and $A C D$.
 See also LR PARSING, PRECEDENCE PARSING.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

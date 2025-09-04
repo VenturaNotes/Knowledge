@@ -5,4 +5,4 @@
 - (2) Denoting or using a transmission path that passes a signal, or some particular feature of a signal, without restricting or changing it. Note that nontransparent systems would not allow particular signals to be transmitted as data, reserving them for special purposes. See also DATA TRANSPARENCY.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -10,4 +10,4 @@ aliases:
 - Although its original design was directed at metropolitan area network (MAN) services, FDDI is used in LAN services, especially as a backbone network between routers or to connect a specific server with very heavy traffic requirement to the backbone.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

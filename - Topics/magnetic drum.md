@@ -5,4 +5,4 @@
 - A magnetic drum consists of a cylinder whose curved surface is coated with a suitable recording medium, either metal or iron oxide. This surface is divided into tracks on which data is recorded.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

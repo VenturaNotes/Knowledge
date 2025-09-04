@@ -18,4 +18,4 @@ aliases:
 ## References
 
 [^1]: https://support.mail.com/pop-imap/imap/imap.html#:~:text=IMAP%20stands%20for%20%22Internet%20Access,you%20have%20an%20internet%20connection.
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

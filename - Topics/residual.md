@@ -6,5 +6,5 @@
 - In a regression, this is the difference between the observed value of the dependent variable and its value predicted by the estimated regression equation. The residuals from a regression form the basis of many econometric tests.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

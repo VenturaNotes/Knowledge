@@ -6,4 +6,4 @@
 - Software development companies often use sockets to give their software solutions the ability to maintain network connection in real time, which is crucial for web-based applications to function properly.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

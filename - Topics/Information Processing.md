@@ -5,4 +5,4 @@
 - The term has related meanings outside the computing field. It is used in psychology, for instance, and may also be used to refer to clerical operations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

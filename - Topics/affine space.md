@@ -8,4 +8,4 @@
 - The solutions of an inhomogeneous linear equation form an affine space. For example, the solutions to the ODE $y''-y = 1$ has a solution set S and the vector space X is the solution space of $y''-y = 0$. Any vector space $V$ is an affine space with $S = X = V$
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

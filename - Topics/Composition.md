@@ -92,5 +92,5 @@ where each $a_{i}$ is a positive integer. It is thus similar to a partition (see
 - An agreement between a debtor and his or her creditors discharging the debts in exchange for a proportion of what is due. The agreement may be registered as a deed of arrangement or form part of an individual voluntary arrangement. See also SCHEME OF ARRANGEMENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

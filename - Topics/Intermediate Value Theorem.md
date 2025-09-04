@@ -9,4 +9,4 @@ aliases:
 - The theorem relies on the connectedness of the interval and naturally generalizes to real-valued functions on other connected spaces
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

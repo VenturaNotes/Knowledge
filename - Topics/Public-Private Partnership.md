@@ -10,5 +10,5 @@ aliases:
 - (PPP) In the UK, any of various schemes devised to bring private-sector investment and expertise into the provision of public services. Examples include the private-finance initiative (PFI) hospital-building programme in the National Health Service, the sale of local authority housing stock to housing associations, and the failed plan to modernize and refurbish the London Underground. Advocates of the policy claim that it will result in better services and lower costs; sceptics argue that the real attraction to government is the fact that PPPs enable upfront borrowing costs to be passed to the private sector, thus improving the Treasury balance sheet.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

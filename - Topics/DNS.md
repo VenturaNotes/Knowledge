@@ -38,4 +38,4 @@ aliases:
 
 [^1]: ChatGPT
 [^2]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

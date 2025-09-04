@@ -8,4 +8,4 @@
 - Because of the need for precision, module specifications are best given in some formal specification language. A variety of such languages have been developed, many drawing heavily on first-order predicate calculus. Specific examples include the SPECIAL language of the HDM system, which adopts the finite-state machine approach, and the language used by the AFFIRM system, which employs algebraic specification techniques.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -9,4 +9,4 @@
 ## References
 
 [^1]: https://www.encyclopedia.com/literature-and-arts/performing-arts/music-theory-forms-and-instruments/suite#:~:text=%E2%88%8E%20Comput.,the%20ability%20to%20share%20data.
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

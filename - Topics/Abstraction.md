@@ -33,8 +33,8 @@
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
 [^2]: https://en.wikipedia.org/wiki/Abstraction_(computer_science)
 [^3]: https://quizizz.com/admin/quiz/5acb5f51c4daf70019c267e3/abstractions-quiz
-[^4]: [[Home Page - Glossary by ada computer science]]
+[^4]: [[(Home Page) Glossary by ada computer science]]
 [^5]: https://www.techtarget.com/whatis/definition/abstraction
-[^6]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^7]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^8]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^7]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^8]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

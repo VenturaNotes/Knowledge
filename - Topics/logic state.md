@@ -5,4 +5,4 @@
 - Since only two logic states, logic 1 and logic 0 , are possible, the techniques of Boolean algebra may be used to analyze digital circuits involving binary signals. The term positive logic is applied to circuits where logic 1 is assigned to the higher voltage level; in negative logic circuits a logic 1 is indicated by the lower voltage level. See also MULTIVALUED LOGIC.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

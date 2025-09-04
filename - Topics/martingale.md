@@ -6,5 +6,5 @@
 - A stochastic process in which the expectation of the future value of a variable, conditional on currently available information, including the current value, is equal to the current value of the variable.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -7,5 +7,5 @@
 - The term module refers to a piece of computer code that provides a specific functionality in a complex software program. For instance, software applications intended for business use, such as enterprise resource management (ERP) programs, typically contain various modules that each perform unique business functions. ERP solutions typically include finance and accounting, procurement, manufacturing, inventory management, order management, customer relationship management, human resource management, eCommerce, and marketing automation modules that help companies streamline their business operations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

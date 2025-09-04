@@ -6,5 +6,5 @@
 - An exception is an unprecedented event that occurs after the execution of a software program, disrupting the normal flow of instructions. Various kinds of errors, including programing errors, hard disk crashes, and loss of connectivity, can result in exceptions. Typically, computer programmers can anticipate exceptions and address them within the code of a program. This practice is known as exception handling.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

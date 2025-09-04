@@ -5,4 +5,4 @@
 - The term quantization without the predication of time or space usually refers to the quantization of amplitude; the same applies to digitization, which is nearly synonymous with quantization.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

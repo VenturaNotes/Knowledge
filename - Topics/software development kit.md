@@ -10,5 +10,5 @@ aliases:
 - A software development kit (SDK) is a set of tools that can be used to create applications for specific platforms. SDKs usually include libraries, documentation, sample code, and other resources needed by developers when writing programs on those platforms.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

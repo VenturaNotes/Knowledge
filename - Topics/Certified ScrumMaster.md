@@ -9,4 +9,4 @@ aliases:
 - To receive this certification, business professionals must attend a course led by a Certified Scrum Trainer (CST) or be coached by a Certified Agile Coach (CAC). In addition to this, they are also required to complete 14 hours of hands-on online or in-person training with a CST or 25 hours of interaction with a CAC. Certified professionals can then fill the role of a Scrum Master or a Scrum team member.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

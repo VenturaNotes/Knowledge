@@ -6,5 +6,5 @@
 - A beta test, also known as a pre-release test, is the second phase of the software development process in which developers test a software solution with a sample audience. Beta testing comes after alpha testing, which is the initial product testing phase involving unit, component, and system testing. Beta tests allow software platforms to be used for real-world scenarios, helping developers validate their functionality, usability, and reliability. Developers collect and analyze the user experience data to make final changes to the software before releasing it on the market. Typically, beta tests are either facilitated using volunteers or paid subjects.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

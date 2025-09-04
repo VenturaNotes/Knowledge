@@ -13,4 +13,4 @@ aliases:
 - Programmers typically use tuples to pass a string of parameters between two programs. In relational databases, the term describes a row of data with related attributes.
 ## References
 [^1]: https://en.wikipedia.org/wiki/Tuple
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

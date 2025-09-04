@@ -13,4 +13,4 @@
 - Outsourcing helps to free up the resources required to manage and maintain IT processes or equipment such as servers, networks and data centers. Businesses negotiate contracts with external providers, resulting in service-level agreements (SLAs) that detail the requirements for outsourced tasks.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

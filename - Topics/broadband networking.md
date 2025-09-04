@@ -5,4 +5,4 @@
 - (2) A term sometimes used for wideband networking, i.e. networking with wideband channels (see BANDWIDTH).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

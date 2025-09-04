@@ -18,5 +18,5 @@
 ## References
 
 [^1]: https://youtu.be/n-7t33B64u8?si=a7Y0iBTs1S5sigYg
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Glossary by Capterra]]

@@ -27,6 +27,6 @@ explored:
 - Log function only takes positive numbers as inputs
 ## References
 
-[^1]: [[Home Page - Building Blocks for Theoretical Computer Science by Margaret M. Fleck#^rvpabl]]
+[^1]: [[(Home Page) Building Blocks for Theoretical Computer Science by Margaret M. Fleck#^rvpabl]]
 [^2]: [[(13) Algebra Ch 47 - Logarithmic Functions (13 of 26) Rules of Logarithms]]
-[^3]: [[Home Page - Building Blocks for Theoretical Computer Science by Margaret M. Fleck#^zfp0vs]]
+[^3]: [[(Home Page) Building Blocks for Theoretical Computer Science by Margaret M. Fleck#^zfp0vs]]

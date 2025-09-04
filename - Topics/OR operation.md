@@ -8,4 +8,4 @@
 - When it is implemented as a basic machine code instruction, OR usually operates on pairs of bytes or pairs of words. In these cases the OR operation defined above is normally applied to pairs of corresponding bits.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -20,4 +20,4 @@ where $Q$ is an $m \times m$ orthogonal matrix and $R$ is an $m \times n$ matrix
 For a square matrix, $m=n$, a further major application is in computing the eigenvalues and eigenvectors of $A$. Here a sequence of $Q R$ factorizations are carried out in an iteration scheme that ultimately reduces $A$ to a matrix of a particularly simple form whose eigenvalues are the same as those of $A$. The eigenvalues (and if required, eigenvectors) can now be easily computed.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

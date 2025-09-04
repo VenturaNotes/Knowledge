@@ -6,4 +6,4 @@
 	- (2) the re-triggerable monostable starts the timing interval again on the trailing edge of the trigger pulse. This can occur any number of times.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

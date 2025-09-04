@@ -5,4 +5,4 @@
 - The theorem was first expounded and proved by Claude Elwood Shannon in 1948.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

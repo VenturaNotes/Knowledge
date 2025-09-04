@@ -6,4 +6,4 @@
 - (2) An electrically controlled switch enabling small signals to control much larger powers than would normally be possible as well as providing isolation between circuits. Various contact arrangements, e.g. normally open, normally closed, change-over and multiple poles, are available, as are bistable versions.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

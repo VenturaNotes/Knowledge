@@ -11,5 +11,5 @@ aliases:
 - A good RFP indicates the exact information that the purchaser requires from suppliers in order to compare their bids objectively.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

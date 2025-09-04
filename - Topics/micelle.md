@@ -6,5 +6,5 @@
 - $n$. one of the microscopic particles into which the products of fat digestion (i.e. fatty acids and monoglycerides), present in the gut, are dispersed by the action of bile salts. Fatty material in this finely dispersed form is more easily absorbed by the small intestine.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

@@ -94,7 +94,7 @@ aliases:
 ## References
 
 [^1]: https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_(Doerr_and_Levasseur)/02%3A_Combinatorics/2.04%3A_Combinations_and_the_Binomial_Theorem
-[^2]: [[Home Page - Open Data Structures (in Java) by Pat Morin#^f1b1p2]]
+[^2]: [[(Home Page) Open Data Structures (in Java) by Pat Morin#^f1b1p2]]
 [^3]: [[(10) Counting Subsets and the Binomial Theorem (full lecture)]]
 [^4]: [[(12) Mathematical Reasoning - Test 1 Review]]
-[^5]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

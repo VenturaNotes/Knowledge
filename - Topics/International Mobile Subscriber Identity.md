@@ -12,4 +12,4 @@ aliases:
 - The International Telecommunication Union (ITU) standardizes IMSIs.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

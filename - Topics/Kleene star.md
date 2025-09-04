@@ -5,4 +5,4 @@
 - The Kleene-plus $\left(L^{+}\right)$of $L$, is defined by$$L \cup L \cup L L \cup \ldots$$Thus $L^{+}$comprises the nonempty strings of $L^{*}$.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

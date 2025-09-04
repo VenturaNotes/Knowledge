@@ -16,5 +16,5 @@ aliases:
 - The balanced scorecard approach requires managers to identify both lagging and leading measures. Lagging measures are financial measures that show the impact of decisions made in the past, whereas leading measures are non-financial measures relating to the customer, internal business-process, and learning and growth perspectives. The latter are the drivers of future financial performance.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

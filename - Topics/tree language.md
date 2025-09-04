@@ -12,4 +12,4 @@ For example, let $\Sigma$ be the alphabet $\{f, g, a, b\}$ and give arities $2,1
 Tree language. Examples of â-trees and â-terms
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - A similar property is defined when $(a, b)$ is replaced by the set of points$$x_{1}, x_{2}, \ldots, x_{n}$$and the integral is replaced by a sum,$$\begin{aligned}& \sum_{k=1}^{N} w\left(x_{k}\right) f_{i}\left(x_{k}\right) f_{j}\left(x_{k}\right)=0, \\& i \neq j\end{aligned}$$Orthogonal functions play an important part in the approximation of functions and data.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

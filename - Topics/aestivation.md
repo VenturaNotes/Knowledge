@@ -5,4 +5,4 @@
 - 2. (in botany) The arrangement of the parts of a flower bud, especially of the sepals and petals.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

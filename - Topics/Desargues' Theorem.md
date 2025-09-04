@@ -7,4 +7,4 @@
 - O is called the center of perspectivity of the triangles ABC and $A'B'C$ and the line $LMN$ is called the axis of perspectivity. The dual of Desargues's Theorem is then its converse
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

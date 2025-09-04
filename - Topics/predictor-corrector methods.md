@@ -5,4 +5,4 @@
 - This permits the more accurate implicit formula to be used effectively, without solving an equation for $y_{n+1}$, and provides an estimate for the local error, namely $y^p_{n+1} - y_{n+1}$. Such estimates are used to control accuracy and stability.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

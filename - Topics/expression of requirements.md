@@ -6,4 +6,4 @@
 - The expression of requirements is a primary vehicle for communication between the procurers of a system and its developers. It is useful to distinguish between user requirements and system or software requirements. User requirements are stated briefly in natural language using the jargon of the problem domain and primarily defining the nature of the problem to be solved by the computer-based system. This description should be free from any solution bias. System or software requirements represent the first step toward a solution to the problem and should be based on an abstract model but omitting any detailed design or implementation bias.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

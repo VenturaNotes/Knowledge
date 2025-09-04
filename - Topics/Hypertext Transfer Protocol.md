@@ -9,4 +9,4 @@ aliases:
 - With HTTP, client devices send requests to web servers to gain the resources needed to load a specific web page. Next, the web server sends a response back to the client device, fulfilling the requests. These requests and responses share subdocuments that contain data in the form of images, text, and textual layouts. These subdocuments are then configured by a client web browser to display the entirety of a web page file on the client’s device.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

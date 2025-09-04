@@ -48,4 +48,4 @@ aliases:
 [^1]: ChatGPT
 [^2]: https://en.wikipedia.org/wiki/Internet_protocol_suite
 [^3]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

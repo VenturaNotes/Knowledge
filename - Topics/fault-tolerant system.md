@@ -5,4 +5,4 @@
 - Fault tolerance is usually provided through a combination of redundant system elements and error detection and correction procedures.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

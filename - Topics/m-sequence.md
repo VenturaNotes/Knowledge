@@ -6,4 +6,4 @@
 - m-sequences have many useful properties. They are employed as pseudorandom sequences, error-correcting codes (as they stand, or shortened, or extended), and in determining the time response of linear channels (see CONVOLUTION). See also SIMPLEX CODES.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

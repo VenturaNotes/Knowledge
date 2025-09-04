@@ -5,4 +5,4 @@
 - There are two main approaches to model checking. In the first, which is referred to as temporal logic model checking, specifications are expressed using temporal logic, while systems are modeled using finite-state transition systems. In the second, both the specification and the model are expressed as automata, which are then compared using available techniques. Termination, speed, and full automation are the chief advantages of model checking over theorem proving. The main disadvantage is the problem of combinatorial explosion that arises with large concurrent systems, although many techniques can be used to minimize this. Model checking has been widely employed to verify hardware controllers and communication protocols.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

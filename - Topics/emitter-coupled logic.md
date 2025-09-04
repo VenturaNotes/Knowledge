@@ -13,4 +13,4 @@ aliases:
 - ECL provided the highest speed of any silicon-based logic family but its high power dissipation and the need for high levels of integration mean that it has been superseded by CMOS technology.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

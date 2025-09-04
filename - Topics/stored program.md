@@ -6,4 +6,4 @@
 - The concept of program and data sharing the same memory is fundamental to what is usually referred to as a von Neumann machine or a von Neumann architecture. Although there is some disagreement as to whether the stored-program concept was originated by John von Neumann or by the team of John W. Mauchly and J. Presper Eckert, the first documentation was written by von Neumann in 1945 in his proposal for the EDVAC. Details of the world's first working stored program computer commissioned at Manchester University, U.K., by F. C. Williams and T. Kilburn, were published in 1948 (see Manchester Mark I).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

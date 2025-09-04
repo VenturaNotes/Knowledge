@@ -112,4 +112,4 @@ A generalization is to allow more than one state to which the FSA can move, for 
 See also MINIMAL MACHINE, SEQUENTIAL MACHINE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

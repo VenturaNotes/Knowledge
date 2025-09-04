@@ -15,5 +15,5 @@ aliases:
 - (2) The configuration of the activities concerned with transforming resources within an organization. The way in which a particular organization arranges the components of its operating system will be a product of its operations strategy. While there may be areas of similarity between successful organizations, there is no single right way to set up an operating system. Each system is an attempt to achieve the optimum match between organizational capabilities and perceived environmental conditions.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -7,4 +7,4 @@
 - Post's theorem says that a set $A$ is recursive iff $A$ and $B-A$ are recursively enumerable.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

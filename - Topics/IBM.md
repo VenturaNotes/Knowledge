@@ -7,4 +7,4 @@
 - IBM has recovered from the setbacks of the 1980s. It is still the largest IT company in the world and it continues to produce computer hardware, particularly servers, but the major part of its revenue now comes from software and services.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

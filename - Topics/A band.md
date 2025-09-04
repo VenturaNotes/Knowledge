@@ -17,4 +17,4 @@
 
 [^1]:https://www.biologyonline.com/dictionary/a-band
 [^2]: ChatGPT
-[^3]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

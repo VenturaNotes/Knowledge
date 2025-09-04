@@ -12,6 +12,6 @@ aliases:
 - (GUI) A system that enables the user of a computer or hand-held device to operate software without a keyboard or without needing to learn a command language. GUIs rely on graphically presented menus, button-bars, and icons, which are activated by using a mouse or touching the screen.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

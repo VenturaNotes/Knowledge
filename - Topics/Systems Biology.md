@@ -5,4 +5,4 @@
 
 ## References
 
-[^1]: [[Home Page - Campbell Biology by Urry, Cain, et al.#^ldvqa9]]
+[^1]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^ldvqa9]]

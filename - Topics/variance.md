@@ -9,6 +9,6 @@
 - A measure of dispersion of probability distribution. The population variance of a random variable $X$ is $\operatorname{Var}(X)=E\left[(X-E[X])^{2}\right]$, where $E$ denotes expected value. The sample variance of a set of $N$ observations $\left\{x_{i}\right\}, i=1,2, \ldots, N$, is given by$$V=\frac{1}{N} \sum_{i=1}^{N}\left(x_{i}-\mu\right)^{2},$$where $\mu$ is the sample mean. See also COVARIANCE MATRIX.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

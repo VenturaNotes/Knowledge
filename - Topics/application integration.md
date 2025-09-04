@@ -13,4 +13,4 @@ aliases:
 ## References
 
 [^1]: https://www.techtarget.com/definition/application-integration-enterprise-application-integration-or-EAI
-[^2]: [[Home Page - Glossary by Capterra]]
+[^2]: [[(Home Page) Glossary by Capterra]]

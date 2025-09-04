@@ -26,4 +26,4 @@ The first is a [[while loop]] and the second is a [[repeat-until loop]]. Apart f
 Similar constructs are found in most languages, though there are many syntactic variations. See also DO LOOP.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

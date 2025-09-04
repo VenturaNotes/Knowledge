@@ -12,5 +12,5 @@ aliases:
 - A portable document format (PDF) is a file format created by Adobe that allows users to efficiently present and share documents. PDF files are read-only documents, which prevents users from modifying a documentʻs original content and layout. PDFs can contain videos, images, text, hyperlinks, audio, and other forms of digital content. PDFs operate independently of the operating system they are viewed on, allowing other users to quickly access shared documents without conversion issues.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

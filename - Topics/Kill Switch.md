@@ -5,4 +5,4 @@
 - Many company-issued mobile devices feature a remote kill switch that render the device useless or inaccessible when they are reported missing or stolen. This prevents sensitive company and customer information on such devices from being accessed by unauthorized users.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

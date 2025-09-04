@@ -7,5 +7,5 @@
 - A part of the economy. Sectors can be delimited in a number of different ways. One way is by the bodies organizing expenditures: thus the economy is divided between the public sector, that is, the government at various levels and government-controlled bodies; the corporate sector, which is companies; and the personal sector, which is individuals, and unincorporated businesses. For national income accounting purposes the rest of the world is sometimes regarded as a sector. Sectors may also be distinguished by the type of product: a primary sector, that is, agriculture and mining; a secondary, or manufacturing, sector; and a tertiary, or services, sector. See also INDUSTRIAL SECTOR; ORGANIZED SECTOR; SENSITIVE SECTORS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

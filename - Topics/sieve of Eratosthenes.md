@@ -6,4 +6,4 @@
 	- An interactive animation of the sieve of Eratosthenes used to obtain prime numbers. 
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

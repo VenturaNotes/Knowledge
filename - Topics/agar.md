@@ -6,5 +6,5 @@
 - $n$. an extract of certain seaweeds that forms a gel suitable for the solidification of liquid bacteriological culture media. Blood agar is nutrient agar containing $5-10 \%$ horse blood, used for the cultivation of certain bacteria or for detecting haemolytic (blood-destroying) activity.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

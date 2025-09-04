@@ -20,4 +20,4 @@ $$
 This leads to problems in expressing the concept of equality. Basic, being an unsophisticated language, is able to use $=$ for both purposes; $\mathrm{C}, \mathrm{C}++$, and Java use $==$ for equality and Fortran uses .EQ.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

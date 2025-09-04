@@ -10,7 +10,7 @@
 - a framework are applied to clinical and nonclinical aspects of health care to increase patient safety by identifying potential hazards, assessing the degree of risk, and reducing the risk or determining an acceptable balance between risk and benefit. Risk management should include systems for learning from untoward, significant, or critical incidents and near misses. It is a feature of clinical governance.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

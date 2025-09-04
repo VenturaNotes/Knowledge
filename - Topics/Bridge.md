@@ -11,5 +11,5 @@ aliases:
 - $n$. (in dentistry) a fixed replacement for missing teeth. The artificial tooth is attached to one or more natural teeth, usually by a crown. Bridges may also be fitted on dental implants. The supporting teeth (or implants) are referred to as abutments, and the artificial teeth that fit over them are referred to as retainers. The replacements of missing teeth are known as pontics. Adhesive bridges are attached to one or more adjacent teeth by a metal plate that adheres to the enamel on the tooth surface prepared by the acid-etch technique; these bridges require minimal tooth preparation compared with conventional types of bridges.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

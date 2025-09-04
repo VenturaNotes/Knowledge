@@ -6,5 +6,5 @@
 - A small portable personal computer that can be operated from its own rechargeable batteries, has a flat display screen that folds over the keyboard when not in use, and is generally suitable for use while traveling. Laptops usually have all the features of an equivalent desktop model. Small versions of laptops are sometimes called notebook computers. See also PDA; TABLET COMPUTER.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -7,4 +7,4 @@
 - Examples include $\mathbb{Z}$ with $d(n) = |n|$, the Gaussian integers with $d(a+ib) = a^2+b^2$, and polynomials over a field with $d(f)$ being the degree of $f$. Euclidean domains are principal ideal domains (see QUADRATIC FIELD).
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

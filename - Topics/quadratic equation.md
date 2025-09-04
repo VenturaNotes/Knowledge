@@ -9,4 +9,4 @@ aliases:
 - If $\alpha$ and $\beta$ are the roots of the quadratic equation $ax^2 + bx + c = 0$, then $\alpha + \beta = -b/a$ and $\alpha \beta = c/a$. (See Viète's Formulae.) The quadratic formula is still valid over other fields provided that the discriminant has a square root in the field
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

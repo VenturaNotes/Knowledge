@@ -7,4 +7,4 @@
 - Streaming also allows the interblock gap to be very short, increasing the amount of data that can be stored on a given length of tape; this is not compatible with the currently used international format standards for open-reel tape, but most cartridge-tape standards define a short or zero interblock gap.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - It is possible for the inductive reasoning process to produce inaccurate conclusions, as the conclusions it produces aren't mathematically certain.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

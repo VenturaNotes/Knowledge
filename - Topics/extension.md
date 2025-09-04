@@ -15,7 +15,7 @@
 - (2) the application of traction to a fractured or dislocated limb in order to restore it to its normal position.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

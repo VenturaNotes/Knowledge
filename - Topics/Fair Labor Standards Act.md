@@ -8,4 +8,4 @@ aliases:
 - 
 ## References
 
-[^1]: [[Home Page - Software Engineering MCQ by Sanfoundry]]
+[^1]: [[(Home Page) Software Engineering MCQ by Sanfoundry]]

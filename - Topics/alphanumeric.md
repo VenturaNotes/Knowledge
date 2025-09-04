@@ -13,5 +13,5 @@ aliases:
 ## References
 
 [^1]: https://www.techtarget.com/whatis/definition/alphanumeric-alphameric
-[^2]: [[Home Page - Glossary by Capterra]]
-[^3]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

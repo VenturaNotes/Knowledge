@@ -5,4 +5,4 @@
 - One of the main thrusts of artificial intelligence work has been to find ways, such as heuristic search, to circumvent the combinatorial explosion.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

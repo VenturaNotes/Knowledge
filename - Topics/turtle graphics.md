@@ -5,4 +5,4 @@
 - The action of the turtle can now be simulated by graphics on the display of a small computer: the screen turtle usually has the form of a triangular arrow that may or may not produce a line as it is made to move across the screen. See also LEGO.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

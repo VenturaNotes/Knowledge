@@ -6,5 +6,5 @@
 - A stochastic process described by a finite number of states and known probabilities of moving from any given state to other states. These probabilities depend only on the current state and do not depend on the previous history.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

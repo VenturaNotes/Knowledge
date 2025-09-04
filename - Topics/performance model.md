@@ -5,4 +5,4 @@
 - A model will often be created specifically so that it can be interpreted by a software tool that simulates the system's behavior, based on the information contained in the performance model. Such tools provide further insight into the system's behavior, and can be used to identify bottlenecks or hot spots where the design is inadequate. Solutions to the problems identified might involve provision of more physical resources, or change in the structure of the design.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

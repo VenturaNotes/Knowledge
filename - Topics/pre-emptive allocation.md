@@ -5,4 +5,4 @@
 - A more important type of pre-emptive allocation arises when a nonsharable resource, such as a tape transport, has been allocated to a process but not yet used by it. If a second process requests a tape transport then use of the transport may be denied the first process, and the transport pre-empted for use by the second process
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

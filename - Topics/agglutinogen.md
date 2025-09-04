@@ -6,5 +6,5 @@
 - $n$. any antigen that provokes formation of an agglutinin in the serum and is therefore likely to be involved in agglutination.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

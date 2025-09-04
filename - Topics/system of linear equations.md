@@ -25,6 +25,6 @@ aliases:
 
 ## References
 [^1]: [[(10) PreCalculus - Matrices & Matrix Applications (9 of 33) Gaussian Elimination - 3x3, Infinite Solutions]]
-[^2]: [[Home Page - Linear Algebra 4th ed. by Jim Hefferon#^112812]]
+[^2]: [[(Home Page) Linear Algebra 4th ed. by Jim Hefferon#^112812]]
 [^3]: [[(9) PreCalculus - Matrices & Matrix Applications (8 of 33) Gaussian Elimination - 3x3 Matrix, No Solution]]
 [^4]: [[(1) Linear Algebra 1.1.1 Systems of Linear Equations]]

@@ -13,4 +13,4 @@ aliases:
 	- (5) It keeps applications neutral.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]

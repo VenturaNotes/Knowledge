@@ -4,7 +4,7 @@ Source:
   - https://mikepawliuk.ca/introduction-to-proofs/
 Length: 9 hours, 14 minutes, 49 seconds
 Related:
-  - "[[Home Page - Introduction to Mathematical Proofs by Shay Fuchs]]"
+  - "[[(Home Page) Introduction to Mathematical Proofs by Shay Fuchs]]"
 tags:
   - status/incomplete
   - type/playlist

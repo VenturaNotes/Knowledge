@@ -6,5 +6,5 @@
 - $n$. the process by which lipids, particularly triglycerides in fat, are broken down into their constituent fatty acids in the body by the enzyme lipase. —lipolytic adj.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

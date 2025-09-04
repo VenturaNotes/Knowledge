@@ -6,4 +6,4 @@
 - Note that the term non von Neumann is usually reserved for machines that represent a radical departure from the von Neumann model, and is therefore not normally applied to multiprocessor or multicomputer architectures, which effectively offer a set of cooperating von Neumann machines.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

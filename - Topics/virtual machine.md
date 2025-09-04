@@ -23,5 +23,5 @@ aliases:
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: Google's Search Labs | AI Overview
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^4]: [[Home Page - Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) Glossary by Capterra]]

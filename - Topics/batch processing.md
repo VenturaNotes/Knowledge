@@ -11,6 +11,6 @@
 - A method of processing data, using a computer, in which the programs to be executed are collected together into groups, or batches, for processing. All the information needed to execute the programs is loaded into the computer at the start so that it can work without further intervention. This contrasts with interactive processing, in which information is fed into the computer during processing. Batch processing is used for such tasks as preparing payrolls, maintaining inventory records, and producing reports.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

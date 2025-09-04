@@ -6,5 +6,5 @@
 - Statistical multiplexing is a technique that is used for the allotment of channel slots in network transmission. Transmission channels are allotted automatically, based on need. If there are available channels, data can be transmitted over multiple channels. This has the effect of speeding up the rate of transmission. If channels are more limited, the information is transmitted based on how much data is needed for each channel. It can also be used when transmitting multiple types of data over the same network. This occurs when data is divided and sent over the total allotment of available channels.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

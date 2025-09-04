@@ -5,4 +5,4 @@
 - (2) An electronic circuit, often available in the form of a logic gate, that is capable of providing large currents or voltages to other circuits connected to the driver's output. These devices are often used to place signals onto bus lines, hence the term [[bus driver]].
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

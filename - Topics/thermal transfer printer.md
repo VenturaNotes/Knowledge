@@ -5,4 +5,4 @@
 - Thermal transfer printers are capable of producing very good color images but the cost has largely caused them to be replaced by color inkjet or laser printers. They are now used for such specialized applications as barcode or plastic labels.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

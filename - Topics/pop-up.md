@@ -7,5 +7,5 @@
 - Pop-ups typically appear on a screen without being prompted by a computer user. Pop-ups are often used for search engine optimization (SEO) purposes, presenting website viewers with clear, relevant calls-to-action.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

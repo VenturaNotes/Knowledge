@@ -14,5 +14,5 @@
 
 [^1]: https://developers.google.com/machine-learning/glossary
 [^2]: Google's Search Labs | AI Overview
-[^3]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^4]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

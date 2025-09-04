@@ -9,6 +9,6 @@
 - (electronic learning) Any form of training or education that uses computer technology as an essential part of the teaching process. Typically, computerized data and programs substitute partly or completely for the human teacher and students engage with all or part of the course remotely (e.g. over the Internet).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - Top-down parsing is often implemented as a set of recursive procedures, one for each nonterminal in the grammar, and is then called [[recursive descent parsing]].
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

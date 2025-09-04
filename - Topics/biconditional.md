@@ -64,4 +64,4 @@ Biconditional. Truth table
 
 [^1]: [[(4) Start Learning Logic - Part 3 - Conditional, Biconditional, Implication and Deduction Rules]]
 [^2]: https://truth-table.com/#A%20%E2%86%94B%20%E2%86%94(A%20%E2%86%92B)%E2%88%A7(B%20%E2%86%92A)
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

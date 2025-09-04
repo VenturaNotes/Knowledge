@@ -9,4 +9,4 @@ aliases:
 - (2) (in information retrieval) An interface in which the user submits examples and the software performs a search based on some measure of similarity.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

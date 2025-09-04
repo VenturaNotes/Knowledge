@@ -9,5 +9,5 @@
 - (2) Any data structure used to represent a binary tree. Each node is usually represented by pointers to the left and right subtrees as well as to the data value associated with the node. The binary tree can then be represented as a pointer to its root node.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

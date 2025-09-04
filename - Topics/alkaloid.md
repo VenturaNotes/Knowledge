@@ -6,5 +6,5 @@
 - $n$. one of a diverse group of nitrogen-containing substances that are produced by plants and have potent effects on body function. Many alkaloids are important drugs, including morphine, quinine, atropine, and codeine.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

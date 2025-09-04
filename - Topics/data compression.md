@@ -6,4 +6,4 @@
 - Generally, in the context of discrete and continuous systems, the output from continuous systems, if it is to be abbreviated, can often be lossily compressed. This is notably the case with sound, and with halftone and colored images. See also IMAGE COMPRESSION.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

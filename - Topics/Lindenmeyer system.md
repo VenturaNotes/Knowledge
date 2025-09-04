@@ -11,4 +11,4 @@ aliases:
 - Note that the productions define a homomorphism from $\{A, B\}^{*}$ to itself. A DOL-system consists therefore of an alphabet $\Sigma$, a homomorphism $h$ on $\Sigma^{*}$, and an initial $\Sigma$-word $w$. The sequence is then$$w \space h(w) \space h(h(w)) \ldots$$The letter D in DOL stands for deterministic, i.e. each symbol has just one production. An OL-system can have many productions for each symbol, and is thus a substitution rather than a homomorphism. Other classes are similarly indicated by the presence of various letters in the name: T means many homomorphisms (or many substitutions); E means that some symbols are terminals; P means that no symbol can be rewritten to the empty string; an integer $n$ in place of O means context-sensitivity$\textemdash$the rewriting of each symbol is dependent on the $n$ symbols immediately to the left of it in the string.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

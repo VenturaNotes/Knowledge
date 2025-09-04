@@ -13,6 +13,6 @@ aliases:
 - The application of mathematical and statistical methods to the practical problems facing businesses. The techniques used include linear programming, critical path analysis, and queuing and inventory analysis. These have been applied to problems including finance, purchasing, production, marketing, delivery systems, and inventory control.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

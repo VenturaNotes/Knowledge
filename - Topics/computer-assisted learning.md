@@ -9,4 +9,4 @@ aliases:
 - Computer-assisted learning is one of several terms used to describe this application of computers. Other terms include computer-aided (or -assisted) instruction, CAI, computer-based learning, CBL, and computer-managed instruction, CMI. 
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

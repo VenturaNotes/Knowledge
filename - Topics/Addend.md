@@ -15,4 +15,4 @@ aliases: addends
 - One of the numbers combined when forming a sum.
 ## References
 [^1]: [[(5) Properties of Addition#^f5f129]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

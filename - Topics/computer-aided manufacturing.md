@@ -12,6 +12,6 @@ aliases:
 - (CAM) The use of computers to control industrial processes, such as brewing, chemical manufacture, oil refining, and steel making. They are also used to control automatic machines that can be programmed to carry out different tasks, especially in the car-manufacturing industry. CAM is often used with computer-integrated manufacturing as well as computer-aided design.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

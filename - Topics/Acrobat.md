@@ -6,5 +6,5 @@
 - (Adobe Acrobat) A software application produced by Adobe Inc., used for producing and viewing electronic documents. The file format, known as PDF (portable document format), allows an exact reproduction of printed text, including fonts. It is widely used for Internet publication of official documents (e.g. annual accounts).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

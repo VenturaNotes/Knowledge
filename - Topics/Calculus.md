@@ -8,5 +8,5 @@
 - (2) a calcified deposit that forms on the surface of a tooth that is covered with dental plaque as a result of poor oral hygiene. Supragingival calculus forms above the gingivae (gums), principally in relation to the openings of the salivary gland ducts. Subgingival calculus forms beneath the crest of the gingivae. Calculus hinders the cleaning of teeth and its presence contributes to gingivitis and periodontal disease. A link has been demonstrated between increased calculus levels and infective endocarditis.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

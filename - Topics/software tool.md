@@ -5,4 +5,4 @@
 - It is now recognized that software tools can assist in all activities of all phases of the software life cycle, including management and quality-assurance activities. Thus a comprehensive set would address such issues as requirements specification, design, validation, configuration control, and project management. Such [[tool|tools]] would frequently form part of an integrated software engineering environment.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

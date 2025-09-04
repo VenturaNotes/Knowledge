@@ -9,4 +9,4 @@ aliases:
 - A nondeterministic PDA is one that has a choice of actions for some conditions. The languages recognized by nondeterministic PDAs are precisely the context-free languages. However not every context-free language is recognized by a deterministic PDA.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - (3) The proprietary standard defining the CD-R format, or the publication setting it out. See CD-ROM FORMAT STANDARDS.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

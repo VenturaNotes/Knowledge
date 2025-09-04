@@ -6,5 +6,5 @@
 - (1815-64) British mathematician who was one of the founding fathers of mathematical logic. His major work, published in 1854, is his Investigation of the Laws of Thought. The kind of symbolic argument that he developed led to the study of so-called Boolean algebras, of interest in computing and algebra. His work, together with that of De Morgan and others, helped to pave the way for the development of modern algebra.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

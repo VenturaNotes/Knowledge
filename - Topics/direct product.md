@@ -20,4 +20,4 @@ The identity of this group is then just $\left(e_{\mathrm{G}}, e_{\mathrm{H}}\ri
 These concepts can be generalized to deal with the direct product of any finite number of groups on which there are specified group operations.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

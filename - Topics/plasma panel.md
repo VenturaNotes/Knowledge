@@ -5,4 +5,4 @@
 - Plasma panels are rugged, largely immune to external fields, and do not suffer from flicker, but have proved too expensive for general computer use. Fabrication of large displays is possible. The device is essentially bistable so no special circuitry is required to isolate individual cells from their neighbors.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

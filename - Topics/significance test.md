@@ -6,5 +6,5 @@
 - For the individual significance of a parameter in a linear regression, a two-tailed test of the null hypothesis $H_{0}: \theta_{i}=0$ against the alternative $H_{1}: \theta_{i} \neq 0$, or a one-tailed test of $H_{0}: \theta_{i} \leq 0$ against $H_{1}: \theta_{i}>0$ (or $H_{0}: \theta_{i} \geq 0$ against $H_{1}: \theta_{i}<0$ ). This is a particular case of a t-test where the null hypothesis is interpreted as showing that the corresponding exogenous variable $x_{i}$ has no explanatory power in the regression. For the joint significance of a subset of parameters, a test of the null hypothesis that all parameters in the subset are zero against the alternative hypothesis that at least one of these parameters is not zero; this is a particular case of an F-test.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]

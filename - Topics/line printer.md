@@ -5,4 +5,4 @@
 - Although line printers have been superseded by page printers for many applications, they are still more efficient for high-volume jobs where a high print quality is not needed. See also BAND PRINTER.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

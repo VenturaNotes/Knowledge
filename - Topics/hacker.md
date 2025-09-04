@@ -7,5 +7,5 @@
 - An individual with a good understanding of the structure and operation of computer networks, who deliberately breaks into confidential systems. In many cases there are no malign intentions, although hackers can cause damage by inadvertently introducing viruses or commands that disrupt the proper working of the system. Those with more malign intentions are sometimes known as crackers. See also CYBERCRIME.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

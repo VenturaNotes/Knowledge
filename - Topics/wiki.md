@@ -8,6 +8,6 @@
 - A website whose content can be changed and extended by users via their web browsers. Wikis provide a useful way of rapidly assembling and disseminating 'collective wisdom' ('wiki wiki' is Hawaiian for 'fast' or 'quick'). They have become popular on many levels, ranging from small private wikis through internal departmental or corporate wikis to such websites as Wikipedia, the Internet encyclopedia. Their major drawback is the possibility of inappropriate or malicious changes. All wikis maintain lists of recent changes to and often a complete history of each web page, to aid the 'user community' in discovering and reversing unwanted changes. However, such self-policing has been found inadequate for highly exposed websites with their large but unknown user base. See USER-GENERATED CONTENT.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

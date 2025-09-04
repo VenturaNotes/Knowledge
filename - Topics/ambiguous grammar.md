@@ -32,4 +32,4 @@ has two interpretations, corresponding with two derivation trees, as shown in th
 Ambiguous grammar. Two derivation trees in an ambiguous grammar
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

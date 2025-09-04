@@ -6,4 +6,4 @@
 - (3) A number or other symbol assigned to a specific property by means of observation.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

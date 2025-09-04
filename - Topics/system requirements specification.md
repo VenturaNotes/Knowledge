@@ -6,4 +6,4 @@
 - A system requirements specification may also be used in contract negotiations during and after the purchase of the system, which must meet the specifications that the contractor has agreed to accept. This is especially important where the purchaser sets out the requirements in terms of a range of functions and performance levels that the contractor commits to supplying and meeting, rather than as an inventory of components (hardware and software) that the contractor undertakes to supply.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -5,4 +5,4 @@
 - Most life cycle definitions arose as a result of analysis of the tasks of [[system development]], with the objective of making those tasks more amenable to traditional techniques of management planning and control. In some cases, elaborate planning and control systems have been designed on the basis of the life cycle analysis, with highly formalized documentation and clearly defined managerial decision points.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

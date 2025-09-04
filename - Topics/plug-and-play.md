@@ -5,4 +5,4 @@
 - Originally the term was descriptive of the early life reliability of products: a product should work when delivered (plug it in and play).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

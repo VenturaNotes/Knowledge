@@ -7,4 +7,4 @@
 - Proper support for such multiprocedure modules demands that the concept be recognized by the programming language, which must, for example, allow for the clustering of modules and data and have scope rules reflecting the desired restrictions on access. The first language to provide such support was SIMULA with its CLASS. Many modern languages now offer a similar facility. See also PACKAGE.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

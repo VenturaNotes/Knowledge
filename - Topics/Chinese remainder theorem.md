@@ -48,4 +48,4 @@ u \equiv u_{j}\left(\text { modulo } m_{j}\right) \text { for } 1 \leq j \leq r
 $$
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

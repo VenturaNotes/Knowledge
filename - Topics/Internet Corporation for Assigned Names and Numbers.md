@@ -15,5 +15,5 @@ aliases:
 - ICANN allocates a collection of IP addresses to various companies, institutions, and internet service providers (ISPs) that they can use for their individual computer systems. These IP addresses enable users to share information between devices across a company network.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

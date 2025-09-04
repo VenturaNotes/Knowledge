@@ -7,5 +7,5 @@
 - A file stored on a web server that records every item downloaded by users. Log file analyzers are used to build a picture of the amount of usage of different parts of a website, based on the information contained in the $\log$ file.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

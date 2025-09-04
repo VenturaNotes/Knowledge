@@ -35,4 +35,4 @@ aliases: permutations
 ## References
 [^1]: [[(7) L2V3 Permutations & Combinations#^0a9870]]
 [^2]: [[(1) Permutations Combinations Factorials & Probability#^139416]]
-[^3]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

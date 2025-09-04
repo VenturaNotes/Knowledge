@@ -6,5 +6,5 @@
 - $n$. any substance used in conjunction with another to enhance its activity. Aluminium salts are used as adjuvants in the preparation of vaccines from the toxins of diphtheria and tetanus: by keeping the toxins in precipitated form, the salts increase the efficacy of the toxins as antigens.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

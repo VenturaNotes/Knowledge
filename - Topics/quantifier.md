@@ -16,4 +16,4 @@ $$
 says that there exists an $x$ that is less than or equal to all $y$. This statement is true if values range over the natural numbers, since $x$ can be taken to be 0 . It becomes false however if values are allowed to range over negative integers as well. Note also that it would be false even for natural numbers if the predicate were ' $x$ is less than $y$ '. Other notations such as $(\forall v) F$ in place of $\forall v . F$ are also found.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,4 +6,4 @@
 - See also BINARY SEARCH ALGORITHM, BREADTH-FIRST SEARCH, DEPTH-FIRST SEARCH, HEURISTIC SEARCH, SEQUENTIAL SEARCH ALGORITHM, TABLE LOOKUP, TRIE SEARCH.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

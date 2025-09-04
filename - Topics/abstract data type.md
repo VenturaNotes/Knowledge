@@ -59,5 +59,5 @@ ISZERO(SUCC \((x))=\operatorname{FALSE}\)
 These axioms specify precisely the laws that must hold for any implementation of the natural numbers. (Note that a practical implementation could not fulfil the axioms because of word length and overflow.) Such precise characterization is invaluable both to the user and the implementer. Sometimes the concept of function is extended to procedures with multiple results.
 ## References
 
-[^1]: [[Home Page - Glossary by ada computer science]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Glossary by ada computer science]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

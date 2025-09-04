@@ -8,6 +8,6 @@
 - $n$. the study of humans in relation to their work and working surroundings. This broad science involves the application of psychological as well as physiological principles to the design of buildings, machinery, vehicles, packaging, implements, and anything else with which people come into contact.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

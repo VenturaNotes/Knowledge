@@ -5,4 +5,4 @@
 - (2) A situation arising in a Petri net when the time between successive entries to a state can become indefinitely long.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

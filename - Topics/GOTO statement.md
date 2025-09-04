@@ -10,4 +10,4 @@
 - Modern programming practice deprecates the use of GOTO since its use makes programs more difficult to follow, the flow of control being less visibly explicit. GOTO is, however, sometimes unavoidable, particularly in error situations where it is necessary to abort execution of a number of nested loops or procedures, when the language does not provide for exceptions.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -11,5 +11,5 @@ aliases:
 - A database management system (DBMS) stores and organizes data to make information easier to find. A DBMS works by defining and processing data, and pulls that data from various tools, platforms, and applications that a business uses. It formats, manages, and organizes the data so it’s quickly retrievable in its most updated form.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

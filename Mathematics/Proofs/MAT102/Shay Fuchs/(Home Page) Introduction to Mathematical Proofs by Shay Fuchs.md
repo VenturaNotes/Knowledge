@@ -4,7 +4,7 @@ Source:
 Length: "177"
 Progress: "1"
 Related:
-  - "[[Home Page - Mathematical Proofs by Mike Pawliuk]]"
+  - "[[(Home Page) Mathematical Proofs by Mike Pawliuk]]"
 tags:
   - status/incomplete
   - type/textbook

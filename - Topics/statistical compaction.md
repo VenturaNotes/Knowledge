@@ -5,4 +5,4 @@
 - In the incremental case, if the gathering of statistics (and formation of the table) is recommenced (wholly or partly) whenever the performance falls below some limit, then the code is said to be adaptive.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

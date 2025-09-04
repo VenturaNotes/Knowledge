@@ -7,5 +7,5 @@
 - In numerical analysis, error analysis relates to the propagation of errors within calculations and to the bounding of those errors. An algorithm may involve many iterations, and so error propagation might make a calculated solution meaningless. See STABLE NUMERICAL ANALYSIS
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

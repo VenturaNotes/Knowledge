@@ -5,4 +5,4 @@
 - On CD-ROM optical disk, the word track is also used (as it is on compact audio disk) to define an item of the contents, of variable length, which may occupy many turns of the spiral path.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

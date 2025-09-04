@@ -32,4 +32,4 @@ $$
 Speaking generally, estimates of local errors are used in choosing the grid spacing $h$ hence providing a means of indirectly controlling the global error.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

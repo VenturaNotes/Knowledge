@@ -880,5 +880,5 @@ Reviewed: false
 
 ## References
 [^1]: https://math.stackexchange.com/questions/3098664/how-implication-or-material-concrete-conditional-works-when-the-antecedent-is-fa#:~:text=In%20a%20conditional%20P%E2%86%92,no%20premises%20and%20conclusion%20either.
-[^2]: [[Home Page - Discrete Mathematics and Its Applications by Kenneth H. Rosen (8th edition)#^qzfsb1]]
-[^3]: [[Home Page - Discrete Mathematics and Its Applications by Kenneth H. Rosen (8th edition)#^9qnq5b]]
+[^2]: [[(Home Page) Discrete Mathematics and Its Applications by Kenneth H. Rosen (8th edition)#^qzfsb1]]
+[^3]: [[(Home Page) Discrete Mathematics and Its Applications by Kenneth H. Rosen (8th edition)#^9qnq5b]]

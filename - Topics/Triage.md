@@ -6,5 +6,5 @@
 - $n$. a system whereby patients are evaluated and categorized according to the seriousness of their injuries or illnesses with a view to prioritizing treatment and other resources. In emergency situations it is designed to maximize the number of survivors.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]

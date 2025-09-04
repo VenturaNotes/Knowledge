@@ -39,4 +39,4 @@ $$
 [^2]: http://www.csc.villanova.edu/~japaridz/Archive/1300/lect2.6/sld004.htm
 [^3]: [[(3) Matrices - Matrix Multiplication  - ExamSolutions#^f01be6]]
 [^4]: [[(3) Matrices - Matrix Multiplication  - ExamSolutions#^6b6aa8]]
-[^5]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

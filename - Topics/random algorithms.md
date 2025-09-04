@@ -16,4 +16,4 @@ $\mathrm{O}\left(\log _{2} n\right)$ time to perform. If the test is successful 
 Several other examples of problems amenable to a similar approach have now been found. However, such examples are either already known to be solvable in polynomial time anyway (although the random algorithms are an order of magnitude faster) or, like prime-testing, under suspicion of so being.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

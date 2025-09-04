@@ -6,5 +6,5 @@
 - A systematic attempt to optimize a company's spending by achieving best value for money in every area of its expenditure. This is to be distinguished from simple cost cutting, which often achieves only short-term benefits. Spend management begins with an analysis of current spending behavior and develops a strategic approach integrating such areas as sourcing, procurement, contract management, supply-chain logistics, and a company's invoicing and payment processes. Specialized software is now available.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

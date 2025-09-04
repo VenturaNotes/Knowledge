@@ -6,5 +6,5 @@
 - An investigation to determine which of a range of decisions is likely to give a satisfactory return in a financial appraisal or economic appraisal of the alternatives.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

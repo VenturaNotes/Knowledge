@@ -25,5 +25,5 @@ Equations are a natural means of expressing possible relationships between the f
 Most systems in science and engineering are described mathematically using equations. Two stages are involved: a mathematical model of the system is made using sets and functions; some functions are known and others are to be found. Equations are postulated to define the unknown functions in terms of one another and the known functions. Research has shown that the same process is possible for computing systems. Indeed, theoretically it is known that any computing system, or any physical system that can be faithfully modeled using digital computation, can be characterized by small sets of equations. See also COMPUTABLE ALGEBRA.
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

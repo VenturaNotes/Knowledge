@@ -10,5 +10,5 @@ aliases:
 - Computer-integrated manufacturing (CIM) integrates manufacturing operations with computer systems (human-assisted, information, and manufacturing systems). Businesses can digitize production-related tasks to manufacture products more efficiently. CIM can automate many production-related tasks such as processing, packaging, and logistics.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) Glossary by Capterra]]

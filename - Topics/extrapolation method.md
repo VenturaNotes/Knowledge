@@ -5,4 +5,4 @@
 - Important examples are the Romberg method for numerical integration and Gragg's extrapolation method for the solution of ordinary differential equations based on the midpoint rule. An essential requirement for such methods are theoretical results establishing the existence of an expansion for the error in (usually even) powers of the parameter, for sufficiently smooth problems.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -7,4 +7,4 @@
 - (2) A method of access to a file (especially a data file): a file is said to be randomly accessed if the sequence of transactions submitted to it does not match any sequence in which records may be organized.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

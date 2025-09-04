@@ -25,4 +25,4 @@ aliases:
 [^1]: Google's Search Labs | AI Overview
 [^2]: https://www.lenovo.com/ie/en/glossary/what-is-a-hub/#:~:text=In%20networking%2C%20a%20hub%20is,local%20area%20network%20(LAN).
 [^3]: https://youtu.be/NRckVJk9n0k?si=iGYuTxcHcFLF4y3E
-[^4]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

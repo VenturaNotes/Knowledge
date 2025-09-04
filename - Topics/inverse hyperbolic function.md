@@ -6,4 +6,4 @@
   tanh^{-1}x &= ln\sqrt{\frac{1+x}{1-x}} \text{ for } -1 < x < 1.\end{align*}  $$The following derivatives can be obtained $$\begin{align*}  \frac{d}{dx}(cosh^{-1}x) &= \frac{1}{\sqrt{x^2-1}} (x\ne 1), \\ \frac{d}{dx}(sinh^{-1}x)&=\frac{1}{\sqrt{x^2+1}} \\ \frac{d}{dx}(tanh^{-1}x) &= \frac{1}{1-x^2}. \end{align*}$$
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

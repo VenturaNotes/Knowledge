@@ -9,4 +9,4 @@
 - Systematic sampling selects items in some regular manner. It is valid when the order in which items are encountered is irrelevant to the question under study, but can be an unintentional source of bias.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

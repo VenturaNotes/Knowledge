@@ -5,4 +5,4 @@
 - (2) A logic circuit that produces outputs that are intended to provide coordination stimuli for other logic circuits. The exact timing and sequence of these control outputs is dependent on the sequencer circuitry and may depend on a set of input control signals provided by external devices.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

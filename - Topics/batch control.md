@@ -5,4 +5,4 @@
 - The scope of batch control may extend beyond the data validation stage for as far into the system as batches retain their separate identities. In particular, they may be used to check that incorrect records, rejected during data validation, are resubmitted before a batch is released for further processing.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

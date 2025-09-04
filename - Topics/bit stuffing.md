@@ -5,4 +5,4 @@
 - (2) A means of inserting and deleting bits on multiply connected high-speed digital transmission links that are not synchronously clocked.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

@@ -6,5 +6,5 @@
 - Data about the marketing environment gathered from a variety of disparate sources and subjected to a structured analysis. The data should include information from customers, sales personnel, suppliers, retailers, agencies, monitoring of competitors, and government bodies.
 ## References
 
-[^1]: [[Home Page - Glossary by Capterra]]
+[^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[Home Page - A Dictionary of Business and Management 6th Edition by Oxford Reference]]

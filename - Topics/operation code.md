@@ -10,4 +10,4 @@ aliases:
 - (2) The set of such portions available for a particular computer, and defining the repertoire of operations it can perform
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

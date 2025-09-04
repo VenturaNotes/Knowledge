@@ -6,4 +6,4 @@
 - A special area of network architecture is involved with the necessary disciplines required of some of the newer network architectures (see Ethernet, RING NETWORK, TOKEN RING).
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

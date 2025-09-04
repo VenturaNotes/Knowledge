@@ -9,5 +9,5 @@
 - $n$. (in psychiatry) the process of making the living conditions of people with learning disabilities as similar as possible to those of people who are not disabled. This includes moves to living outside institutions and encouragement to cope with work, pay, social life, sexuality, and civil rights.
 ## References
 [^1]: ChatGPT
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[Home Page - Concise Medical Dictionary 10th Edition by Oxford Reference]]
