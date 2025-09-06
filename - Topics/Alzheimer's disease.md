@@ -6,7 +6,10 @@
 - The most common form of dementia, occurring in middle age or later. It is characterized by memory impairment and, as the disease progresses, language difficulties, apraxia, and visuospatial problems, leading to a loss of judgment and the inability to carry out even basic functions. At post mortem there are excess deposits of amyloid protein and neurofibrillary tangles in the brain. In rare cases of familial Alzheimer's, mutations in three genes have so far been detected; patients with these genes usually have early-onset dementia. The cause of the common sporadic form is not known although genetic factors can significantly increase the risk of developing the disease. Mutations in four other genes have been implicated in the more common late-onset form of the disease. The demonstration of damage to the cholinergic pathways has led to the development of acetylcholinesterase inhibitors, which have been shown to slow disease progression. Ethical problems in the care of someone who has been used to making their own decisions (but now cannot) include respecting what autonomy remains, how to gain valid consent for treatment, and how to allow the patient proper dignity. \[A. Alzheimer (1864-1915), German physician]
 - https://www.alzheimers.org.uk/
 	- Website of the Alzheimer's Society: includes resources for health and care professionals
+## Source[^3]
+- A neurological disease characterized by progressive loss of intellectual ability. The disease, which is named after German physician Alois Alzheimer (1864-1915), is associated with general shrinkage of the brain tissue, with deposits of $\beta$-amyloid protein and abnormal filaments composed of tau protein in the brain, and changes in the neurotransmitter systems within the brain that include a loss in the activity of cholinergic neurons. Some inherited forms are associated with a genetic locus on chromosome 21.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

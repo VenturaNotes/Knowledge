@@ -33,7 +33,6 @@ $$
 
 ## Source[^5]
 - The multiplication of two matrices $A$ and $B$ according to the rule$$c_{i j}=\sum_{k=1}^{n} a_{i k} b_{k j}$$
-
 ## References
 [^1]: [[(3) Matrices - Matrix Multiplication  - ExamSolutions#^724853]]
 [^2]: http://www.csc.villanova.edu/~japaridz/Archive/1300/lect2.6/sld004.htm

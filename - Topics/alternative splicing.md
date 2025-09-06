@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The splicing of the RNA transcript of a gene in different ways by the cellular machinery during RNA processing to create distinct mature messenger RNAs (mRNAs) encoding different proteins. Hence, the same gene can give rise to related but variant forms of a protein at different stages of development or in different tissues. The mechanism involves small RNAs and proteins contributing to the assembly of a spliceosome at a splice site in the pre-mRNA, which enables splicing to proceed. Selection of splice sites is determined by other proteins and ribonucleoproteins that bind to specific enhancer or silencer sites in the pre-mRNA. In this way, exons can be included or excluded to produce mature mRNAs with different lengths and coding sequences. For example, the gene encoding $\alpha$-tropomyosin contains 14 exons; alternative splicing in different cell types yields at least nine variants of the protein. About $90 \%$ of human protein-coding genes undergo alternative splicing, which accounts for the disparity between the relatively small number of such genes identified, roughly 20,000, and the potentially large number of different gene transcripts, although estimates of this vary widely, from 30,000 to more than 100,000.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

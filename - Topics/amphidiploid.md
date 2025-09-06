@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Describing an organism, cell, or nucleus that contains diploid sets of chromosomes originating from two different species. Crosses between taxonomically unrelated organisms are usually infertile, principally because the chromosomes lack a partner with which to pair during meiosis. However, if there is doubling of the parental sets of chromosomes, pairing can take place within each set, and meiosis may proceed to produce fertile gametes. For example, the $\mathrm{F}_{1}$ hybrid resulting from a cross between a cabbage (Brassica sp.) and a radish (Raphanus sp.) is sterile. Yet such crosses may produce a few seeds that are capable of germinating into fertile $\mathrm{F}_{2}$ plants. These seeds form following the chance fusion of two unreduced gametes, each of which contain all parental chromosomes. Hence, instead of the 18 chromosomes of the $\mathrm{F}_{1}$ hybrid (nine from each parent), the $\mathrm{F}_{2}$ has 36 chromosomes in its somatic nuclei, and thus contains the full diploid sets of both its progenitor species. During meiosis the chromosomes undergo pairing just like a normal diploid plant, and the result is a generally true-breeding hybrid, named Raphanobrassica. See also ALLOPOLYPLOID.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
