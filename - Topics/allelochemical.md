@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A substance (see SEMIOCHEMICAL) produced by members of one species that influences the behavior or growth of members of another species. Allelochemicals can be divided into several categories. Kairomones benefit the receiving organism but cause disadvantage to the producer. For example, many plants (e.g. cabbages) release aromatic chemicals that attract insect predators, while parasites often exploit the pheromones released by their hosts to locate a suitable host; certain insect predators detect their prey in a similar way. Allomones benefit the producer but have no effect on the receiver. For example, many members of the beetle family Lycidae emit pungent chemicals that warn potential predators of their distasteful nature. Hence they are protected from predation, while the impact on the potential predator is neutral. The flowers of certain orchids emit allomones that mimic the sex pheromones of their bee or wasp pollinator. Males of the respective insect species attempt to copulate with the orchid flower, and pollinate it in the process, thus benefiting the orchid, while the cost to the deceived male insect is minimal. Synomones are beneficial to both producer and recipient. For example, pine trees damaged by beetles often emit terpenes that attract parasitoid insects that parasitize the pest beetles. Hence the parasitoid finds a suitable host, and the tree's pests are controlled. See also AlLELOPATHY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

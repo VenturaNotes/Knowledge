@@ -6,6 +6,11 @@
 - (2) the part of the upper or lower jawbone that supports the roots of the teeth (see also MANDIBLE; MAXILLA). After tooth extraction it is largely absorbed. 
 - (3) the sac of a racemose gland (see also ACINUS). 
 - (4) any other small cavity, depression, or sac. -alveolar adj.
+## Source[^2]
+- (pl. alveoli) 
+- (1) The tiny air sac in the lung of mammals and reptiles at the end of each bronchiole. It is lined by a delicate moist membrane, has many blood capillaries, and is the site of exchange of respiratory gases (carbon dioxide and oxygen).
+- (2) The socket in the jawbone in which a tooth is rooted by means of the periodontal membrane.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

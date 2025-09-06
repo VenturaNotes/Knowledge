@@ -30,7 +30,35 @@
 		- appendix
 		- rectum
 		- anus
+## Source[^3]
+- (digestive tract; gut) A tubular organ in animals that is divided into a series of zones specialized for the ingestion, digestion, and absorption of food and for the elimination of indigestible material (see illustration). In most animals the canal has two openings, the mouth (for the intake of food) and the anus (for the elimination of waste). Simple animals, such as cnidarians (e.g. Hydra and jellyfish) and flatworms, have only one opening to their alimentary canal, which must serve both functions.
+- ![[Screenshot 2025-09-05 at 12.41.54 AM.png]]
+	- The human alimentary canal
+	- Parts
+		- Salivary glands
+		- epiglottis
+		- oesophagus (gullet)
+		- liver
+		- gall bladder
+		- bile duct
+		- pancreatic duct
+		- small intestine
+			- duodenum
+			- ileum
+		- appendix
+		- mouth
+		- tongue
+		- trachea
+		- stomach
+		- pyloric sphincter
+		- pancreas
+		- large intestine
+			- colon
+			- caecum
+			- rectum
+		- anus
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
