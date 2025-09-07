@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A proposed new epoch in the geological time scale that marks how human activities in recent decades have become the dominant force in shaping earth history, superseding natural geological, chemical, and climatological forces. It is argued that since the mid-20th century the growth in human population and economic activity has led to impacts of unprecedented scale and speed, such as climate change, land transformation, and rapid species extinction, which justify the transition to a new epoch from the current Holocene. Rock strata of any epoch are defined by a 'signal' that is incorporated into geological deposits globally, and several candidates have been suggested to define the Anthropocene. These include radionuclides from atomic bomb tests, microplastic particles, aluminium or concrete particles, and unburned carbon spheres emitted by power stations$\textemdash$all evidence of human activity. The term Anthropocene was coined by scientist Paul Crutzen (1933-) in 2000; formal acceptance of the new epoch by the International Commission on Stratigraphy is still awaited.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

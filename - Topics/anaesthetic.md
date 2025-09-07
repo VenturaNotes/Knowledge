@@ -7,7 +7,10 @@
 - $n$. 
 - (1) Any drug or substance that induces anaesthesia. adj. 
 - (2) Inducing or characterized by anaesthesia. US anesthetic.
+## Source[^3]
+- Any compound that can render an animal unconscious of painful stimuli. Anaesthetics can be used either at a local level, when sensation is removed from a specific area of the body; or at a general level, when a state of complete unconsciousness is induced.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

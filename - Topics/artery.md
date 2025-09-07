@@ -45,7 +45,10 @@ aliases:
 		- profunda femoris
 		- anterior tibial
 		- dorsalis pedis
+## Source[^3]
+- A blood vessel that carries blood away from the heart towards the other body tissues. Most arteries carry oxygenated blood (the pulmonary artery is an exception). The large arteries branch to form smaller ones, which in turn branch into arterioles. Collagen and elastin fibres in the walls of arteries enable them to withstand the high pressures of circulating blood. They also create elastic recoil of the artery wall during the nonpumping phase (diastole) of the cardiac cycle, which maintains and 'smooths' the directional flow of blood around the body. Contraction and relaxation of the smooth muscle layer in the wall regulates blood pressure under the influence of the autonomic nervous system and hormones. The accumulation of fatty deposits in the walls of the arteries leads to atherosclerosis, which limits and may eventually block the flow of blood. Compare VEIN.
 ## References
 
 [^1]: https://www.pennmedicine.org/for-patients-and-visitors/patient-information/conditions-treated-a-to-z/abdominal-aortic-aneurysm
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
