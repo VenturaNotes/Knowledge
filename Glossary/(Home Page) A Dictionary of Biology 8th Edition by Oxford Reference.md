@@ -912,202 +912,245 @@ Reviewed: false
 		1. See BETACYANIN.
 	
 	371. bicarbonate
-	372. biceps
-	373. bicuspid valve
-	374. biennial
-	375. bilateral symmetry
-	376. bile
-	377. bile duct
+		1. See HYDROGENCARBONATE.
+	372. [[biceps]]
+	373. [[bicuspid valve]]
+	374. [[biennial]]
+	375. [[bilateral symmetry]]
+	376. [[bile]]
+	377. [[bile duct]]
 	378. bilirubin
+		1. See bile
 	379. biliverdin
+		1. See bile
 	380. binary fission
+		1. See fission
 	
 	381. bindin
-	382. binding site
-	383. binocular vision
-	384. binomial nomenclature
-	385. bioaccumulation
-	386. bioactivation
-	387. bioassay
+		1. See Acrosome
+	382. [[binding site]]
+	383. [[binocular vision]]
+	384. [[binomial nomenclature]]
+	385. [[bioaccumulation]]
+	386. [[bioactivation]]
+	387. [[bioassay]]
 	388. biocapacity
-	389. biochemical evolution
-	390. biochemical oxygen demand
+		1. See ECOLOGICAL FOOTPRINT.
+	389. [[biochemical evolution]]
+	390. [[biochemical oxygen demand]]
 	
 	391. biochemical taxonomy
-	392. biochemistry
-	393. Biochemistry
-	394. biocoenosis
+		1. See MOLECULAR SYSTEMATICS.
+	392. [[biochemistry]]
+	393. 
+	394. [[biocoenosis]]
 	395. biodegradable
-	396. biodiversity
-	397. biodiversity gradient
-	398. bioelement
-	399. bioenergetics
-	400. bioengineering
+		1. See pollution
+	396. [[biodiversity]]
+	397. [[biodiversity gradient]]
+	398. [[bioelement]]
+	399. [[bioenergetics]]
+	400. [[bioengineering]]
 	
-	401. biofeedback
-	402. biofilm
-	403. biofuel
-	404. biogas
-	405. biogenesis
-	406. biogenic amine
-	407. biogeochemical cycle
-	408. biogeography
-	409. bioinformatics
-	410. Bioinformatics
+	401. [[biofeedback]]
+	402. [[biofilm]]
+	403. [[biofuel]]
+	404. [[biogas]]
+	405. [[biogenesis]]
+	406. [[biogenic amine]]
+	407. [[biogeochemical cycle]]
+	408. [[biogeography]]
+	409. [[bioinformatics]]
+	410. 
 	
-	411. biolistics
-	412. biological clock
-	413. biological control
-	414. biological fuel cell
+	411. [[biolistics]]
+	412. [[biological clock]]
+	413. [[biological control]]
+	414. [[biological fuel cell]]
 	415. biological rhythm
-	416. biological species concept
-	417. biological warfare
-	418. biology
-	419. bioluminescence
+		1. See Biorhythm.
+	416. [[biological species concept]]
+	417. [[biological warfare]]
+	418. [[biology]]
+	419. [[bioluminescence]]
 	420. biomagnification
+		1. See bioaccumulation.
 	
-	421. biomarker
-	422. biomass
-	423. biome
-	424. biomechanics
-	425. biomimicry
-	426. biomolecule
-	427. biophysics
-	428. biopoiesis
-	429. bioprospecting
-	430. biopsy
+	421. [[biomarker]]
+	422. [[biomass]]
+	423. [[biome]]
+	424. [[biomechanics]]
+	425. [[biomimicry]]
+	426. [[biomolecule]]
+	427. [[biophysics]]
+	428. [[biopoiesis]]
+	429. [[bioprospecting]]
+	430. [[biopsy]]
 	
-	431. bioreactor
-	432. biorhythm
-	433. biosensor
-	434. biosphere
-	435. biostratigraphy
-	436. biosynthesis
+	431. [[bioreactor]]
+	432. [[biorhythm]]
+	433. [[biosensor]]
+	434. [[biosphere]]
+	435. [[biostratigraphy]]
+	436. [[biosynthesis]]
 	437. biosystematics
-	438. biota
-	439. biotechnology
-	440. biotic factor
+		1. See Systematics.
+	438. [[biota]]
+	439. [[biotechnology]]
+	440. [[biotic factor]]
 	
-	441. biotic potential
-	442. biotin
-	443. biotope
-	444. biotype
+	441. [[biotic potential]]
+	442. [[biotin]]
+	443. [[biotope]]
+	444. [[biotype]]
 	445. biozone
-	446. bipedalism
+		1. See BIOSTRATIGRAPHY.
+	446. [[bipedalism]]
 	447. bipolar cell
-	448. bipolar neuron
-	449. biramous appendage
+		1. See retina
+	448. [[bipolar neuron]]
+	449. [[biramous appendage]]
 	450. birds
+		1. See Aves
 	
 	451. birth
-	452. birth control
-	453. birth rate
+		1. See PARTURITION.
+	452. [[birth control]]
+	453. [[birth rate]]
 	454. bisexual
-	455. biuret test
-	456. bivalent((in genetics))
-	457. Bivalvia
-	458. bladder
-	459. bladderworm
-	460. BLAST
+		1. See HERMAPHRODITE.
+	455. [[biuret test]]
+	456. bivalent
+		1. (in genetics) See PAIRING.
+	457. [[Bivalvia]]
+	458. [[bladder]]
+	459. [[bladderworm]]
+	460. [[BLAST]]
 	
 	461. blastocoel
+		1. See blastula.
 	462. blastocyst
-	463. blastoderm
+		1. See blastula; implantation.
+	463. [[blastoderm]]
 	464. blastomere
+		1. See blastula.
 	465. blastopore
-	466. blastula
-	467. blending inheritance
-	468. blind spot
-	469. blood
-	470. blood-brain barrier
+		1. See ARCHENTERON.
+	466. [[blastula]]
+	467. [[blending inheritance]]
+	468. [[blind spot]]
+	469. [[blood]]
+	470. [[blood-brain barrier]]
 	
 	471. blood capillary
-	472. blood cell
-	473. blood clotting
-	474. blood groups
-	475. blood pigment
-	476. blood plasma
+		1. See CAPILLARY.
+	472. [[blood cell]]
+	473. [[blood clotting]]
+	474. [[blood groups]]
+	475. [[blood pigment]]
+	476. [[blood plasma]]
 	477. blood platelet
-	478. blood pressure
-	479. blood serum
-	480. blood vascular system
+		1. See platelet
+	478. [[blood pressure]]
+	479. [[blood serum]]
+	480. [[blood vascular system]]
 	
-	481. blood vessel
+	481. [[blood vessel]]
 	482. blue-green bacteria
+		1. See CYANOBACTERIA.
 	483. B lymphocyte
+		1. See B Cell
 	484. BMP
+		1. See bone MORPHOGENETIC PROTEIN.
 	485. BMR
+		1. See BASAL METABOLIC RATE.
 	486. BOD
-	487. body cavity
-	488. body fluid
-	489. body plan
+		1. See BIOCHEMICAL OXYGEN DEMAND.
+	487. [[body cavity]]
+	488. [[body fluid]]
+	489. [[body plan]]
 	490. bog
+		1. See HYDROSERE.
 	
-	491. bolus
-	492. bomb calorimeter
-	493. bone
-	494. bone morphogenetic protein
+	491. [[bolus]]
+	492. [[bomb calorimeter]]
+	493. [[bone]]
+	494. [[bone morphogenetic protein]]
 	495. bony fishes
+		1. See OSTEICHTHYES.
 	496. bony labyrinth
-	497. borax carmine
-	498. botany
-	499. botulinum toxin
+		1. See LABYRINTH.
+	497. [[borax carmine]]
+	498. [[botany]]
+	499. [[botulinum toxin]]
 	500. bouton
+		1. (synaptic knob) See SYNAPSE.
 	
-	501. bovine spongiform encephalopathy
-	502. Bowman's capsule
-	503. bp
-	504. Brachiopoda
-	505. bract
-	506. bracteole
-	507. bradycardia
+	501. [[bovine spongiform encephalopathy]]
+	502. [[Bowman's capsule]]
+	503. [[bp]]
+	504. [[Brachiopoda]]
+	505. [[bract]]
+	506. [[bracteole]]
+	507. [[bradycardia]]
 	508. bradykinin
-	509. bradymetabolism
-	510. brain
+		1. See KININ.
+	509. [[bradymetabolism]]
+	510. [[brain]]
 	
 	511. brain-derived neurotrophic factor
-	512. brain death
-	513. brainstem
-	514. branchial
-	515. Branchiopoda
-	516. brassinosteroid
+		1. (BDNF) see NEUROTROPHIN.
+	512. [[brain death]]
+	513. [[brainstem]]
+	514. [[branchial]]
+	515. [[Branchiopoda]]
+	516. [[brassinosteroid]]
 	517. breathing
-	518. breed
-	519. breeding
-	520. breeding season
+		1. See EXPIRATION; INSPIRATION; RESPIRATORY MOVEMENT.
+	518. [[breed]]
+	519. [[breeding]]
+	520. [[breeding season]]
 	
-	521. brewing
-	522. Broca's area
-	523. bronchial-associated lymphoid tissue
-	524. bronchiole
-	525. bronchus
+	521. [[brewing]]
+	522. [[Broca's area]]
+	523. [[bronchial-associated lymphoid tissue]]
+	524. [[bronchiole]]
+	525. [[bronchus]]
 	526. brown algae
-	527. brown fat
-	528. Brownian movement
-	529. Brunner's glands
-	530. brush border
+		1. See PHAEOPHYTA.
+	527. [[brown fat]]
+	528. [[Brownian movement]]
+	529. [[Brunner's glands]]
+	530. [[brush border]]
 	
-	531. Bryophyta
-	532. Bryozoa
+	531. [[Bryophyta]]
+	532. [[Bryozoa]]
 	533. BSC
+		1. See BIOLOGICAL SPECIES CONCEPT.
 	534. BSE
-	535. buccal cavity
-	536. bud
-	537. budding
-	538. buffer
+		1. See BOVINE SPONGIFORM ENCEPHALOPATHY.
+	535. [[buccal cavity]]
+	536. [[bud]]
+	537. [[budding]]
+	538. [[buffer]]
 	539. bugs
-	540. bulb
+		1. See HEMIPTERA.
+	540. [[bulb]]
 	
-	541. bulbil
+	541. [[bulbil]]
 	542. bulbourethral glands
-	543. bulla
-	544. bundle of His
-	545. bundle sheath cells
-	546. Burgess shale
-	547. bursa
+		1. See COWPER'S GLANDS.
+	543. [[bulla]]
+	544. [[bundle of His]]
+	545. [[bundle sheath cells]]
+	546. [[Burgess shale]]
+	547. [[bursa]]
 	548. butanedioic acid
+		1. See SUCCINATE.
 	549. butterflies
+		1. See lePidoptera.
 	550. buttress root
+		1. See PROP ROOT.
 	
 	551. C-reactive protein
 	552. c.g.s. units

@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - The variety of life within a specific area
+## Source[^2]
+- (biological diversity) The existence of a wide variety of species (species diversity) or other taxa of plants, animals, and microorganisms in a natural community or habitat, or of communities within a particular environment (ecological diversity), or of genetic variation within a species (genetic diversity). The maintenance of a high level of biodiversity is important for the stability of ecosystems. Certain habitats, especially rainforests, have a rich species diversity, which is threatened by the continued destruction of habitats (see DEFORESTATION; DESERTIFICATION; GREENHOUSE EFFECT). Such ecosystems typically support large numbers of rare species, and population sizes of individual species tend to be small; they are therefore especially vulnerable to habitat destruction. Biodiversity in natural habitats also represents an important pool of species and genetic material of potential use to human societies. For example, wild plants continue to be used as a source of new drugs and other products, and the development of new strains and varieties of crop plants with increased disease resistance usually depends on incorporating genetic material from wild plants. Areas with exceptionally high biodiversity are termed biodiversity hotspots. Some 35 such hotspots have been identified; although they represent only $2.3 \%$ of the earth's land area, they contain $77 \%$ of all endemic plant species, $43 \%$ of all endemic vertebrate species, and $80 \%$ of threatened amphibians. See ALPHA DIVERSITY; BETA DIVERSITY; GAMMA DIVERSITY; CONVENTION ON BIOLOGICAL DIVERSITY.
 ## References
 
 [^1]: https://quizizz.com/admin/quiz/5ae31ed16b164f0019047957/biology-vocabulary
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

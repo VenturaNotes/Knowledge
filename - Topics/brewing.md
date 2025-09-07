@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The process by which beer is made. Fermentation of sugars from barley grain by the yeasts Saccharomyces cerevisiae and S. uvarum (or S. carlsbergenesis) produces alcohol (ethanol). In the first stage the barley grain is soaked in water, a process known as malting. The grain is then allowed to germinate and the natural enzymes of the grain (the amylases and the maltases) convert the starch to maltose and then to glucose. The next stage is kilning or roasting, in which the grains are dried and crushed. The color of a beer depends on the temperature used for this process: the higher the temperature, the darker the beer. In the next stage, mashing, the crushed grain is added to water at a specific temperature and any remaining starch is converted to sugar; the resultant liquid is the raw material of brewing, called wort. The yeast is then added to the wort to convert the sugar to alcohol, followed by hops, which give beer its flavour. Hops are the female flowers of the vine Humulus lupulus; they contain resins (humulones, cohumulones, and adhumulones) that give beer its distinctive bitter taste.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

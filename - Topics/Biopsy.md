@@ -20,7 +20,10 @@ aliases:
 - The tissue sample is then sent to a laboratory for analysis by a [[pathologist]], who will examine it for abnormalities and provide a diagnosis
 ## Source[^2]
 - $n$. the removal of a small piece of living tissue from an organ or part of the body for microscopic examination. Biopsy is an important means of diagnosing cancer from examination of a fragment of tumor. It is often carried out with a special hollow needle, inserted into the liver, kidney, or other organ, with relatively little discomfort to the patient.
+## Source[^3]
+- The removal of a small section of tissue from a potentially diseased organ or tissue in a living organism. The biopsied tissue is usually analysed by microscopic techniques in order to identify the nature of the disease.
 ## References
 
 [^1]: Google's Search Labs | AI Overview
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

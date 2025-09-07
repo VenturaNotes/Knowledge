@@ -9,6 +9,9 @@
 		- Biceps brachii short head
 		- biceps brachii long head
 		- radius
+## Source[^2]
+- A muscle that runs along the large bone of the upper arm (humerus) and is connected to the radius at one end and the shoulder bone (scapula) at the other. Contraction of the biceps causes the arm to flex at the elbow joint (see FLEXOR). It works antagonistically with the triceps, which contracts to extend the arm (see ANTAGONISM). See also SKELETAL MUSCLE.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
