@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - the use of contraception or sterilization (male or female) to prevent unwanted pregnancies.
+## Source[^2]
+- (contraception) The intentional avoidance of pregnancy by methods that do not normally hinder sexual activity. The methods used can be 'natural' or 'artificial'. Natural methods, often used because of religious or moral objections to artificial methods, include the rhythm method, in which sexual intercourse is avoided during times when ovulation occurs; and coitus interruptus, an unreliable method in which the penis is withdrawn from the vagina before ejaculation. The rhythm method requires a monitoring of the woman's menstrual cycle and may be unsuitable in those women with irregular cycles. Artificial methods use devices or other agents (contraceptives) to prevent pregnancy. They include the condom, a rubber sheath placed over the penis to trap the sperm; and the diaphragm, a rubber cap placed over the cervix. Contraceptives that prevent implantation include the intrauterine device (IUD), a metal or plastic coil placed in the uterus by a doctor (which may cause unacceptable bleeding in some women); and the 'morning-after pill', taken within three days after sexual intercourse. Other oral contraceptives prevent ovulation. Research is ongoing to develop a safe and effective male contraceptive pill or injection that will suppress sperm production. Sterilization is usually considered to be irreversible but attempts at reversing the process are possible. For casual relationships, or relationships involving a partner whose sexual history is not known, health workers advise the use of condoms with all other forms of contraception as this provides the safest means of reducing the risk of infection by sexually transmitted diseases.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

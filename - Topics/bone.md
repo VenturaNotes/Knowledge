@@ -20,6 +20,20 @@
 			- lacunae containing bone cells
 			- two lamellae of matrix
 - Individual bones may be classed as long, short, flat, or irregular. The outer layer of a bone is called the periosteum. The medullary cavity is lined with endosteum and contains the marrow. Bones not only form the skeleton but also act as stores for mineral salts and play an important part in the formation of blood cells.
+## Source[^2]
+- The hard connective tissue of which the skeleton of most vertebrates is formed. It comprises a matrix of collagen fibres ($30 \%$) impregnated with bone salts ($70 \%$), mostly calcium phosphate (hydroxyapatite, $\mathrm{Ca}_{10}\left(\mathrm{PO}_{4}\right)_{6}(\mathrm{OH})_{2}$), in which are embedded bone cells: osteoblasts (which secrete the matrix) and osteocytes. Bone generally replaces embryonic cartilage and is of two sorts$\textemdash$compact bone and spongy bone. The outer compact bone is formed as concentric layers (lamellae) that surround small holes (Haversian canals): see illustration. The inner spongy bone is chemically similar but forms a network of bony bars. The spaces between the bars may contain bone marrow or (in birds) air for lightness. Bone is resorbed by cells called osteoclasts, which work in dynamic interaction with the bone-forming osteoblasts to remodel bone during growth or repair, e.g. following injury or in response to changes in loads. See also BONE MORPHOGENETIC PROTEIN; CARTILAGE BONE; MEMBRANE BONE; PERIOSTEUM.
+- ![[Screenshot 2025-09-07 at 1.19.00 PM.png|400]]
+	- Structure of compact bone
+	- Parts
+		- Haversian canal
+		- Concentric lamellae
+		- Calcified matrix
+		- Bone cell
+		- Single Haversian system
+- http://www.lab.anhb.uwa.edu.au/mb140/CorePages/Bone/Bone.htm
+	- #comment Site down
+	- Descriptions and images of bone tissue from the School of Anatomy and Human Biology, University of Western Australia
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -14,6 +14,9 @@
 		- left bronchus
 		- bronchus to left superior lobe
 		- bronchus to left inferior lobe
+## Source[^2]
+- (bronchial tube) (pl. bronchi) One of the major air tubes in the lung. The trachea divides into two main bronchi, one for each lung, which split into smaller bronchi and then into bronchioles. The walls of the bronchi are stiffened by rings of cartilage.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

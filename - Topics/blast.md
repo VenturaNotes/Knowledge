@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - $n$. an important cause of serious soft-tissue injury that is associated with explosions or high-velocity missiles. The eardrums, lungs, and gastrointestinal tract are especially vulnerable to the indirect effects of the blast wave.
+## Source[^2]
+- (Basic Local Alignment Search Tool) a computational method, or algorithm, that is widely used in bioinformatics for comparing sequences of bases (e.g. from genes) or of amino acids (from proteins) by the process of local alignment. It enables researchers to assess the degree of similarity of a particular query (novel) sequence with the vast amount of sequence data held in public databases, amounting to billions of base pairs. This enables the identification of gene family members and potential functional and evolutionary relationships between sequences. The BLAST algorithm uses a feature called word matching, which initially identifies short strings of nucleotides or amino acids that match between two sequences. It then attempts to extend the match on either side to produce an alignment, and as it does so assesses the degree of similarity. If it fails to find any initial match, or to extend a match, the comparison is deleted. This avoids the need to compare every base or amino acid in the query sequence with every part of every sequence in the database$\textemdash$a hugely time$\textemdash$consuming operation. The highest scoring alignments are then listed in the result, along with an E-value ('expect' value), which indicates the expected number of random alignments with the same score or less. The lower the E-value, the greater the potential biological significance of the alignment. Several BLAST programs are now available for specialized searches.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

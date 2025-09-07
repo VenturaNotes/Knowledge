@@ -28,7 +28,25 @@ aliases:
 		- pons
 		- midbrain
 		- medulla oblongata
+## Source[^3]
+- (1) The enlarged anterior part of the vertebrate central nervous system, which is encased within the cranium of the skull. Continuous with the spinal cord, the brain is surrounded by three membranes (see MENINGES) and bathed in cerebrospinal fluid, which fills internal cavities (ventricles). It functions as the main coordinating centre for nervous activity, receiving information (in the form of nerve impulses) from sense organs, interpreting it, and transmitting 'instructions' to muscles and other effectors. It is also the seat of intelligence and memory. The embryonic vertebrate brain is in three sections (see FOREBRAIN; HINDBRAIN; MIDBRAIN), which become further differentiated during development into specialized regions. The main parts of the adult human brain are a highly developed cerebrum in the form of two cerebral hemispheres, a cerebellum, hypothalamus, and the brainstem comprising the medulla oblongata, pons, midbrain, and reticular formation (see illustration). 
+- (2) A concentration of nerve ganglia at the anterior end of an invertebrate animal.
+- ![[Screenshot 2025-09-07 at 1.25.13 PM.png|400]]
+	- The human brain in transverse section viewed from the left side
+	- Parts
+		- Cerebrum
+		- Frontal lobe
+		- Third ventricle
+		- Pons varolii
+		- Medulla oblongata
+		- Spinal cord
+		- Fourth ventricle
+		- Cerebellum
+		- Lateral ventricle
+- http://thebrain.mcgill.ca/index.php
+	- Multilevel exploration of brain structure and function, sponsored by the Canadian Institutes of Health Research
 ## References
 
 [^1]: [[(1) 2-Minute Neuroscience - The Neuron]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

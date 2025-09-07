@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The control of pests by biological (rather than chemical) means. This may be achieved, for example, by breeding disease-resistant crops or by introducing a natural enemy of the pest, such as a predator or a parasite. This technique, which may offer substantial advantages over the use of pesticides or herbicides, has been employed successfully on a number of occasions. Examples include the control of the prickly pear cactus (Opuntia) in Australia by introducing the cactus moth (Cactoblastis cactorum), whose caterpillars feed on the plant's growing shoots, and the use of the ladybird to prey upon the scale insect (Icerya), which kills citrus fruit trees. Insect pests have also been subjected to genetic control, by releasing large numbers of males of the pest species that have been sterilized by radiation: infertile matings subsequently cause a decline in the pest population. This method has been used to control the screw worm fly (Cochliomyia hominivora), which lays its eggs in the open wounds of domestic cattle. Biological control is considered to reduce a number of the problems associated with chemical control using pesticides, but care should be taken to avoid upsetting the natural ecological balance; for example, a particular predator may also destroy harmless or beneficial species.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
