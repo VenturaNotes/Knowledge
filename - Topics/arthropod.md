@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - $n$. any member of a large group of animals that possess a hard external skeleton and jointed legs and other appendages. Many arthropods are of medical importance, including the mites, ticks, and insects.
+## Source[^2]
+- Any invertebrate animal that, characteristically, possesses an outer body layer$\textemdash$the cuticle$\textemdash$that functions as a rigid protective exoskeleton; growth is thus possible only by periodic moults (see ECDYSIS). There are over one million described species of arthropods, inhabiting marine, freshwater, and terrestrial habitats worldwide. The arthropod body is composed of segments (see metameric SEGMENTATION) usually forming distinct specialized body regions, e.g. head, thorax, and abdomen. These segments may possess hardened jointed appendages, modified variously as mouthparts, limbs, wings, reproductive organs, or sense organs. The main body cavity, containing the internal organs, is a blood-filled haemocoel, within which lies the heart. Although arthropods are often placed in a single phylum, Arthropoda, the origins and relationships of the various groups of arthropods remain uncertain, and they are now usually assigned to several subphyla within the clade Ecdysozoa, notably Crustacea (shrimps, barnacles, crabs, etc.); Hexapoda (insects); Myriapoda (centipedes and millipedes); and Chelicerata, including the Arachnida (spiders, scorpions, mites, and ticks). Genetic evidence now indicates that insects evolved from crustacean ancestors and that some crustaceans are more closely related to insects than to other crustaceans. Hence, the insects and crustaceans are now placed in the clade Pancrustacea, with a group of predatory crustaceans, the Remipedia, regarded as the closest relatives to all insects.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

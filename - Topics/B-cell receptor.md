@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An assembly of proteins, attached to the plasma membrane of a B cell, that binds specific extracellular antigen. This activates an intracellular signal pathway that ultimately leads to changes in gene expression and hence triggers an immune response by the B cell. Additionally, bound soluble antigen (such as bacterial toxin) or small particles (such as viruses) can be taken into the cell attached to the receptor (i.e. internalized). Here the antigen is processed, bound with MHC class II proteins, and presented at the cell surface to be recognized by CD4-bearing effector T cells. The receptor consists essentially of a Yshaped immunoglobulin molecule with the same specificity as the antibodies that the cell will secrete following activation. Hence, like an antibody, it has paired heavy and light chains and two antigen-recognition sites, but is anchored to the membrane through its heavy chains. The latter are associated with two immunoglobulin signal molecules, $\operatorname{Ig}\!\alpha$ and $\operatorname{Ig} \beta$, whose intracellular portions carry amino acid sequences called immunoreceptor tyrosine-based activation motifs (ITAMs). When antigen binds to the extracellular recognition sites, these motifs recruit the cytoplasmic protein kinases responsible for initiating the signal pathway inside the cell. The involvement of several coreceptors is required for maximal activation of the pathway. Compare T-CELL RECEPTOR.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

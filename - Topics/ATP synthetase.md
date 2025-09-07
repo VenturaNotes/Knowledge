@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- (ATP synthase; $\mathbf{F}_{0} \mathbf{F}_{1}$ complex) An enzyme complex that catalyses the formation of ATP from ADP and inorganic phosphate. It occurs in the inner mitochondrial membrane and is responsible for oxidative phosphorylation during respiration. Similar complexes are also found in the thylakoid membranes of chloroplasts, where they generate ATP in the light-dependent reactions of photosynthesis, and in the cells of bacteria. Hence, ATP synthetase is of fundamental importance to the vast majority of living organisms. The mitochondrial synthetase complex consists of a membrane-spanning proton channel (the $\mathbf{F}_{0}$ portion), an ATP-synthesizing part (the $\mathbf{F}_{1}$ portion), and a membrane-spanning stator. Each portion comprises multiple polypeptides. According to the chemiosmotic mechanism, protons $\left(\mathrm{H}^{+}\right)$flowing through the $\mathrm{F}_{0}$ channel provide the energy for phosphorylation of ADP at catalytic sites in the $\mathrm{F}_{1}$ portion. The stator guides protons to binding sites on subunits of the $\mathrm{F}_{0}$ portion; this causes it to act as a rotor, spinning within the mitochondrial inner membrane and turning an internal rod. The spinning rod projects like an axle into the $\mathrm{F}_{1}$ portion, which is held stationary just inside the mitochondrial matrix. Rotation of the rod changes the shape of the $\mathrm{F}_{1}$ subunits, exposing catalytic sites that convert ADP to ATP. It is estimated that in humans this mechanism produces ATP equal to a person's body weight every day.
+- http://www.mrc-mbu.cam.ac.uk/projects/2245/atp-synthase
+	- #comment Page not found
+	- Models and animations of ATP synthetase and ATP formation
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

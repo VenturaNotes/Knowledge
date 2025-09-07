@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- The birds: traditionally a class of bipedal vertebrate chordates (see CHORDATA) with feathers, wings, and a beak, they are now regarded as bona fide reptiles. They evolved probably in the mid to late Jurassic period (165-150 million years ago) from reptilian ancestors$\textemdash$the theropod clade of saurischian dinosaurs (e.g. Tyrannosaurus)—although the identity of their immediate ancestors remains controversial. Modern birds still have scaly legs, like reptiles, but are warm-blooded (see HOMOIOTHERMY). The skin is dry and loose and has no sweat glands, so cooling is effected by panting. Their efficient lungs and fourchambered heart (which completely separates oxygenated and deoxygenated blood) ensure a good supply of oxygen to the tissues. Birds can therefore sustain a high body temperature and level of activity necessary for flight. The breastbone bears a keel for the attachment of flight muscles. The skeleton is very light; many of the bones are tubular, having internal struts to provide strength and air sacs to reduce weight and provide extra oxygen in flight. Their feathers are vital for flight, streamlining the body, and insulation against heat loss.
+- Many birds show a high degree of social behavior in forming large flocks and pair bonding for nesting, egg incubation, and rearing young. Fertilization is internal and the female lays hard-shelled eggs. In some classifications all modern birds are placed in the subclass Neornithes, whereas extinct birds having clawed forelimbs and toothed jaws (e.g. Archaeopteryx, considered to be one of the earliest birds) are placed in the subclass Archaeornithes. See also RATITAE.
+- http://www.birdlife.org/worldwide/partnership/about-birdlife
+	- Global partnership of organizations involved in bird conservation
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

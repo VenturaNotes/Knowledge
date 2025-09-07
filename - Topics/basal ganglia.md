@@ -14,7 +14,10 @@
 		- head of the caudate
 		- thalamus
 		- cerebral peduncle
+## Source[^3]
+- (basal nuclei) Small interconnected clusters of neurons found deep inside the cerebrum of the brain. The main ones are the caudate nucleus, the putamen, and the globus pallidus (the latter two constituting the lentiform nucleus)-one of each occurring in each cerebral hemisphere. They are involved in the subconscious initiation and coordination of voluntary movements, and act in conjunction with the cerebellum. Information from the cerebral cortex is processed by the basal ganglia, which relay their output via the thalamus back to the motor cortex. Patients whose basal ganglia are damaged have difficulty in starting movements, and experience slowness and tremor when performing movements. The bundles of myelinated axons ('white matter') that form the internal capsule traverse between the 'grey matter' of the caudate nucleus and lentiform nucleus, giving a striped appearance; hence the three structures together form the corpus striatum ('striped body').
 ## References
 
 [^1]: [[(30) 2-Minute Neuroscience - Basal Ganglia]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

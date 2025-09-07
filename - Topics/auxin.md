@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Any of a group of plant hormones responsible for such processes as the promotion of growth by cell enlargement, the maintenance of apical dominance, and the initiation of root formation in cuttings. Auxins are also involved in suppressing the abscission of leaves, fruit, or other plant organs and in the development of flowers and fruits. Naturally occurring auxin is principally indoleacetic acid (IAA), which is synthesized in actively growing regions of the plant, particularly shoot tips, from where it is transported in one direction only, from tip to base of the plant-so-called polar transport. Auxin acts by binding to auxinbinding proteins within target cells. According to the acid growth theory, auxin stimulates cell expansion by causing acidification of the cell wall and consequent loosening of the cell wall structure. It also activates the expression of genes involved in the cell's growth responses. Various other aspects of a plant's development are controlled, at least in part, by the flow of auxin, including the pattern of branches, the arrangement of leaves, and the organization of leaf veins. IAA is stored in the plant in an inactive form, conjugated (attached) to various compounds, such as myo-inositol. Synthetic auxins include 2,4-D, which is used as a weedkiller, whereas the natural auxin indolebutyric acid is sold in preparations of 'rooting hormones'.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
