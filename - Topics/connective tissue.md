@@ -12,6 +12,9 @@
 		- ground substance
 		- white collagenous fibres
 		- mast cell
+## Source[^2]
+- An animal tissue consisting of a small number of cells (e.g. fibroblasts and mast cells) and a large amount of extracellular matrix, including variable amounts of fibres (see collagen; Elastin). It is widely distributed and has many functions, including support, packing, defence, and repair. The individual constituents vary, depending on the function of the tissue. Different types of connective tissue include mesenchyme in the embryo, adipose tissue, areolar connective tissue, blood, lymph, cartilage, and bone.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

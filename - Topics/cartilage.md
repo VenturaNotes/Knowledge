@@ -16,6 +16,12 @@
 		- Fibrocartilage
 			- chondrocytes
 			- collagen fibres
+## Source[^2]
+- (gristle) A firm flexible connective tissue that forms the adult skeleton of cartilaginous fish (e.g. sharks). In other vertebrates cartilage forms the skeleton of the embryo, being largely replaced by bone in mature animals (although it persists in certain areas). Cartilage comprises a matrix consisting chiefly of a glycosaminoglycan (mucopolysaccharide) called chondroitin sulphate secreted by cells (chondroblasts) that become embedded in the matrix as chondrocytes. It also contains collagenous and elastic fibres. Hyaline cartilage consists largely of glycosaminoglycan, giving it a shiny glasslike appearance; this type of cartilage gives flexibility and support at the joints. Fibrocartilage, in which bundles of collagen fibres predominate, is stronger and less elastic than hyaline cartilage; it is found in such areas as the intervertebral discs. Elastic cartilage has a yellow appearance due to the presence of numerous elastic fibres (see Elastin). This cartilage maintains the shape of certain organs, such as the pinna of the ear.
+- http://www.lab.anhb.uwa.edu.au/mb140/CorePages/Cartilage/Cartil.htm
+	- #comment Site not available
+	- Images and descriptions of different types of cartilage
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

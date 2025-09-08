@@ -11,6 +11,9 @@
 - (5) On the World Wide Web, a pre-defined website that can automatically send updated information for immediate display or viewing on request. 
 - (6) In computer marketing, a 'middleman' between a product creator and the marketplace. This is distinct from direct selling where the manufacturer sells directly to the end user. Value-added resellers (VAR) and retail store chains are examples of channels in this context. 
 - (7) In a field-effect transistor (FET), the path in the semiconductor through which current flows.
+## Source[^2]
+- (in cell biology) A pore formed by a protein molecule in a plasma membrane that aids the diffusion of certain substances into and out of the cell. These substances are usually charged ions or lipid-insoluble molecules. See ION CHANNEL; LIGAND-GATED ION CHANNEL; VOLTAGE-GATED ION CHANNEL.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

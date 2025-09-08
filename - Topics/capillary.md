@@ -10,6 +10,9 @@
 		- Capillaries
 		- Endothelial cells
 		- Lumen
+## Source[^2]
+- (blood capillary) The narrowest type of blood vessel in the vertebrate circulatory system. Capillaries conduct blood from arterioles to all living cells: their walls consist of a single layer of endothelial cells, so that oxygen and nutrients can pass through them into the surrounding tissues. Capillaries also transport waste material (e.g. urea and carbon dioxide) to venules for ultimate excretion. Capillaries can be constricted or dilated, according to local tissue requirements. See MICROCIRCULATION.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

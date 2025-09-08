@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (CAM) Any of the proteins in the plasma membrane of animal cells that 'glue' cells to the extracellular matrix (ECM) or to each other, for example by forming cell junctions. CAMs are also important during growth and development in enabling cells to recognize each other and migrate appropriately within the embryo to ensure correct cell-cell interactions. CAMs typically protrude from the membrane to attach to another molecule, often another CAM, by means of a binding site. There are several families of CAMs, the largest being the cadherins, which are glycoproteins found abundantly in junctions between epithelial cells and also in desmosomes. The integrins bind cells to components of the ECM, such as collagens and laminins, and can form cell-matrix junctions, such as hemidesmosomes, which act like 'spot welds' between cells and the ECM. Selectins and intercellular adhesion molecules (ICAMs) occur on the surface of endothelial cells lining blood vessels, where they help to tether passing leucocytes (white blood cells) at sites of inflammation; nerve-cell adhesion molecules (N-CAMs) are important in ensuring proper cell-cell contacts during development of the nervous system and muscle tissue.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

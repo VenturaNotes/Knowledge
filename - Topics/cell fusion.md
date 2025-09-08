@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The combining of two cells to form a single cell. It occurs in nature, most notably in the merger of gamete cells in sexually reproducing organisms, but also in normal development of certain tissues such as muscle and bone, where multinucleate cells (syncytia) are formed, and in some immune cell lines. It is also implicated in the spread of cancer cells, with evidence that they may fuse with macrophages to create mobile hybrid cells. The fusion of plasma membranes requires proteins called fusogens. Cell fusion is performed experimentally to combine cells from different tissues or species in a cell culture (i.e. somatic cell hybridization). The fused cells coalesce (see CHEMICAL FUSOGEN) but their nuclei generally remain separate. However, during cell division a single spindle is formed so that each daughter cell has a single nucleus containing sets of chromosomes from each parental line. Subsequent division of the hybrid cells often results in the loss of chromosomes (and therefore genes), so that absence of a gene product in the culture can be related to the loss of a particular chromosome. Thus the technique is used to determine the control of characteristics exerted by specific chromosomes. Hybrid cells (see HYBRIDOMA) resulting from cell fusion are used to produce monoclonal antibodies.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

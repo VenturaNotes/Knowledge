@@ -16,6 +16,9 @@
 		- transverse colon
 		- ileum
 		- hepatic flexure
+## Source[^2]
+- The section of the vertebrate large intestine that lies between the caecum and the rectum. Its prime function is to absorb water and minerals from indigestible food residues passing from the small intestine, which results in the formation of faeces. In humans the colon contains the greatest abundance and diversity of all the intestinal microflora, with an estimated $10^{12}$ bacteria per gram (dry weight) of contents. These constitute a complex microbiome, with important protective, metabolic, and nutritional functions.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

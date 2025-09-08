@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (1) The formation of a void or gas bubble in a fluid subject to reduced pressure. Cavitation occurs in the water-conducting vessels of plants$\textemdash$the xylem vessels and tracheids$\textemdash$especially when the plant is losing water rapidly by transpiration or soil moisture levels are low. In this situation the water column within the conducting vessels is liable to break, creating a void into which air can diffuse to form an embolism. This causes the flow of water in the affected vessel to cease, thereby reducing the plant's overall conducting capacity. Plants have several mechanisms for overcoming or repairing embolisms. The air bubble is generally contained within a section of vessel, enabling water to bypass the obstruction by flowing laterally into neighbouring vessels. In some cases when transpiration is low, for instance at night, the reduced tension in the water column enables the gas to redissolve in the vessel water. Also, raised root pressure can force the gas to redissolve and the vessel to refill, a mechanism observed in many trees and herbaceous plants. Another mechanism seems to involve an osmotic refilling mechanism that can operate even in water-stressed plants. 
+- (2) (in pathology) The formation of a cavity, as in the lung due to tuberculosis.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

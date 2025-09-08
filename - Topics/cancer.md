@@ -8,6 +8,11 @@
 	- Website of Macmillan Cancer Support: provides information on all aspects of cancer and its treatment
 - https://www.cancerresearchuk.org/
 	- Website of Cancer Research UK: includes information for patients and their families
+## Source[^2]
+- Any disorder of cell growth that results in invasion and destruction of surrounding healthy tissue by abnormal cells. Cancer cells arise from normal cells whose nature is permanently changed. They multiply more rapidly than healthy body cells and do not seem subject to normal control by nerves and hormones. They may spread via the bloodstream or lymphatic system to other parts of the body, where they produce further tissue damage (metastases). Malignant tumour is another name for cancer. A cancer that arises in epithelium is termed a carcinoma; one that arises in connective tissue is called a sarcoma. Leukaemia is cancer of white blood cells; lymphoma is cancer of lymphoid tissue; and myeloma is cancer of plasma cells of the bone marrow. Causative agents (carcinogens) include various chemicals (including those in tobacco smoke), ionizing radiation, silica and asbestos particles, and oncogenic viruses. Hereditary factors and stress may also play a role. A key mechanism is mutation of genes in somatic cells; such mutations can, for example, relax normal controls on cell division, circumvent the orderly removal of cells through apoptosis, or disrupt normal cell signalling pathways. See ONCOGENE; TUMOUR-SUPPRESSOR GENE.
+- https://www.cancerquest.org/
+	- Extensive multimedia coverage of cancer biology and different types of cancer, produced by Emory University
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
