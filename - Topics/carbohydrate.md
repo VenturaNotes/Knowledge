@@ -2,6 +2,11 @@
 - 
 ## Source [^1]
 - $n$. any one of a large group of compounds, including the sugars and starch, that contain carbon, hydrogen, and oxygen and have the general formula $\mathrm{C}_{x}\left(\mathrm{H}_{2} \mathrm{O}\right)_{y}$. Carbohydrates are important as a source of energy: they are manufactured by plants and obtained by animals from the diet, being one of the three main constituents of food (see also FAT; PROTEIN). All carbohydrates are eventually broken down in the body to the simple sugar glucose, which can then take part in energy-producing metabolic processes. Excess carbohydrate, not immediately required by the body, is stored in the liver and muscles in the form of glycogen. In plants carbohydrates are important structural materials (e.g. cellulose) and storage products (commonly in the form of starch). See also DISACCHARIDE; MONOSACCHARIDE; POLYSACCHARIDE.
+## Source[^2]
+- One of a group of organic compounds based on the general formula $\mathrm{C}_{\mathrm{x}}\left(\mathrm{H}_{2} \mathrm{O}\right)_{\mathrm{y}}$. The simplest carbohydrates are the sugars (saccharides), including glucose and sucrose, and the oligosaccharides. Polysaccharides are carbohydrates of much greater molecular weight and complexity; examples are starch, glycogen, and cellulose. Carbohydrates perform many vital roles in living organisms. Sugars, notably glucose, and their derivatives are essential intermediates in the conversion of food to energy. Starch and other polysaccharides serve as energy stores in plants, particularly in seeds, tubers, etc., which provide a major energy source for animals, including humans. Cellulose, lignin, and others form the supporting cell walls and woody tissue of plants. Chitin is a structural polysaccharide found in the body shells of many invertebrate animals. Carbohydrates also occur in the surface coat of animal cells and in bacterial cell walls and serve as markers for the immune system of potentially pathogenic cells (see EPITOPE).
+- http://themedicalbiochemistrypage.org/carbohydrates.php
+	- Summary of carbohydrate nomenclature and classification
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

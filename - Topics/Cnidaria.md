@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- A phylum of aquatic invertebrates that includes Hydra, jellyfish, sea anemones, and corals. A cnidarian's body is diploblastic, with two cell layers of the body wall separated by mesoglea, and shows radial symmetry. The body cavity (gastrovascular cavity) is sac-shaped, with one opening acting as both mouth and anus. This opening is surrounded by tentacles bearing thread cells. Cnidarians exist both as free-swimming medusae (e.g. jellyfish) and as sedentary polyps. The latter may be colonial (e.g. corals) or solitary (e.g. sea anemones and Hydra). In many cnidarians the life cycle alternates between these two forms (see alternation of Generations). The phylum contains the classes Hydrozoa (e.g. Hydra, Obelia), most members of which show alternation of generations; Scyphozoa (jellyfish), in which the medusa phase is dominant; and Anthozoa (corals and sea anemones), in which medusae are absent. Some authorities recognize a fourth class, Cubozoa, containing the box jellies (traditionally regarded as anthozoans). The smallest cnidarians are the almost microscopic myxozoans. They live as parasites, typically with a two-host life cycle involving a fish and an annelid worm or bryozoan, and are significant pathogens of fish and amphibians. The traditional classes are now placed in two clades: the Medusozoa, containing all members that produce a medusa; and the Anthozoa, whose members occur only as polyps. See also COELENTERATE.
+- http://www.ucmp.berkeley.edu/cnidaria/cnidaria.html
+	- A summary of cnidarian biology and systematics: part of the website of the University of California Museum of Paleontology
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

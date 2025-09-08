@@ -22,8 +22,11 @@
 		- inferior semilunar lobule
 		- superior semilunar lobule
 - The cerebellum is essential for the maintenance of muscle tone, balance, and the synchronization of activity in groups of muscles under voluntary control, converting muscular contractions into smooth coordinated movement. It does not, however, initiate movement and plays no part in the perception of conscious sensations or in intelligence. $\textemdash$cerebellar adj.
+## Source[^4]
+- (pl. cerebellums or cerebella) The part of the vertebrate brain concerned with the coordination and regulation of muscle activity and the maintenance of muscle tone and balance. In mammals it consists of two connected hemispheres, composed of a core of white matter and a much-folded outer cortex of grey matter containing numerous Purkyne cells, and it is situated above the medulla oblongata and partly beneath the cerebrum. In humans it also receives input from hearing and vision centres elsewhere in the brain, analyses visual signals associated with body movements, and estimates the time intervals between events or when performing movements, e.g. in hand-eye coordination.
 ## References
 
 [^1]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^zp122j]]
 [^2]: ChatGPT and Gemini
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

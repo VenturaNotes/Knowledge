@@ -1152,511 +1152,591 @@ Reviewed: false
 	550. buttress root
 		1. See PROP ROOT.
 	
-	551. C-reactive protein
-	552. c.g.s. units
-	553. C3 pathway
-	554. C4 pathway
+	551. [[C-reactive protein]]
+	552. [[c.g.s. units]]
+	553. [[C_3 pathway]]
+	554. [[C_4 pathway]]
 	555. cadherin
-	556. caecum
-	557. Caenorhabditis elegans
+		1. See cell adhension molecule
+	556. [[caecum]]
+	557. [[Caenorhabditis elegans]]
 	558. Cainozoic
+		1. See Cenozoic.
 	559. calciferol
-	560. calcineurin
+		1. See vitamin D.
+	560. [[calcineurin]]
 	
-	561. calcitonin
-	562. calcitriol
-	563. calcium
-	564. calcium ion channel
-	565. calcium pump
-	566. calliclone
-	567. callose
-	568. callus
-	569. calmodulin
-	570. calnexin
+	561. [[calcitonin]]
+	562. [[calcitriol]]
+	563. [[calcium]]
+	564. [[calcium ion channel]]
+	565. [[calcium pump]]
+	566. [[calliclone]]
+	567. [[callose]]
+	568. [[callus]]
+	569. [[calmodulin]]
+	570. [[calnexin]]
 	
-	571. calorie
-	572. Calorie
-	573. calorific value
-	574. calorimeter
-	575. calreticulin
-	576. Calvin, Melvin (1911–97)
-	577. Calvin–Bassham–Benson cycle
-	578. calyptra
-	579. calyptrogen
-	580. calyx
+	571. [[calorie]]
+	572. 
+	573. [[calorific value]]
+	574. [[calorimeter]]
+	575. [[calreticulin]]
+	576. [[Melvin Calvin]] 
+	577. [[Calvin–Bassham–Benson cycle]]
+	578. [[calyptra]]
+	579. [[calyptrogen]]
+	580. [[calyx]]
 	
 	581. CAM
-	582. cambium
-	583. Cambrian
-	584. Cambrian explosion
-	585. camouflage
+		1. (1) See CELL ADHESION MOLECULE. 
+		2. (2) See CRASSULACEAN ACID METABOLISM.
+	582. [[cambium]]
+	583. [[Cambrian]]
+	584. [[Cambrian explosion]]
+	585. [[camouflage]]
 	586. cAMP
-	587. Canada balsam
-	588. canaliculus
-	589. canalization((in evolutionary genetics))
-	590. cancer
+		1. See cyclic amp
+	587. [[Canada balsam]]
+	588. [[canaliculus]]
+	589. [[canalization]]
+	590. [[cancer]]
 	
 	591. cane sugar
-	592. canine tooth
-	593. capacitation
+		1. See sucrose
+	592. [[canine tooth]]
+	593. [[capacitation]]
 	594. capillarity
-	595. capillary
-	596. capitulum
-	597. capsomere
-	598. capsule
-	599. carapace
-	600. carbamates
+		1. See SURFACE TENSION.
+	595. [[capillary]]
+	596. [[capitulum]]
+	597. [[capsomere]]
+	598. [[capsule]]
+	599. [[carapace]]
+	600. [[carbamates]]
 	
 	601. carbamide
-	602. carbohydrate
-	603. carbon
-	604. carbon:nutrient balance hypothesis
-	605. carbon assimilation
-	606. carbon cycle
-	607. carbon dating
-	608. carbon dioxide
-	609. carbonic acid
-	610. carbonic anhydrase
+		1. See urea
+	602. [[carbohydrate]]
+	603. [[carbon]]
+	604. [[carbon - nutrient balance hypothesis]]
+	605. [[carbon assimilation]]
+	606. [[carbon cycle]]
+	607. [[carbon dating]]
+	608. [[carbon dioxide]]
+	609. [[carbonic acid]]
+	610. [[carbonic anhydrase]]
 	
-	611. Carboniferous
-	612. carbon monoxide
-	613. carboxyhaemoglobin
-	614. carboxylase
-	615. carboxyl group
-	616. carboxylic acids
-	617. carboxypeptidase
-	618. carboxysome
-	619. carcerulus
-	620. carcinogen
+	611. [[Carboniferous]]
+	612. [[carbon monoxide]]
+	613. [[carboxyhaemoglobin]]
+	614. [[carboxylase]]
+	615. [[carboxyl group]]
+	616. [[carboxylic acids]]
+	617. [[carboxypeptidase]]
+	618. [[carboxysome]]
+	619. [[carcerulus]]
+	620. [[carcinogen]]
 	
 	621. carcinoma
-	622. cardiac
-	623. cardiac cycle
-	624. cardiac muscle
-	625. cardiac output
-	626. cardiovascular centre
+		1. (pl. carcinomas or carcinomata) See CANCER.
+	622. [[cardiac]]
+	623. [[cardiac cycle]]
+	624. [[cardiac muscle]]
+	625. [[cardiac output]]
+	626. [[cardiovascular centre]]
 	627. cardiovascular system
-	628. carnassial teeth
-	629. Carnivora
-	630. carnivore
+		1. See CIRCULATORY SYSTEM.
+	628. [[carnassial teeth]]
+	629. [[Carnivora]]
+	630. [[carnivore]]
 	
-	631. carnivorous plant
-	632. carotene
-	633. carotenoid
-	634. carotid artery
-	635. carotid body
-	636. carotid sinus
-	637. carpal
-	638. carpel
-	639. carpogonium
-	640. carpospore
+	631. [[carnivorous plant]]
+	632. [[carotene]]
+	633. [[carotenoid]]
+	634. [[carotid artery]]
+	635. [[carotid body]]
+	636. [[carotid sinus]]
+	637. [[carpal]]
+	638. [[carpel]]
+	639. [[carpogonium]]
+	640. [[carpospore]]
 	
-	641. carpus
+	641. [[carpus]]
 	642. carr
-	643. carrageenan
-	644. carrier
-	645. carrier molecule
-	646. carrying capacity
-	647. cartilage
-	648. cartilage bone
+		1. See HYDROSERE.
+	643. [[carrageenan]]
+	644. [[carrier]]
+	645. [[carrier molecule]]
+	646. [[carrying capacity]]
+	647. [[cartilage]]
+	648. [[cartilage bone]]
 	649. cartilaginous fishes
-	650. caruncle
+		1. See CHONDRICHTHYES.
+	650. [[caruncle]]
 	
-	651. caryopsis
-	652. casein
-	653. Casparian strip
-	654. caspase
-	655. caste
+	651. [[caryopsis]]
+	652. [[casein]]
+	653. [[Casparian strip]]
+	654. [[caspase]]
+	655. [[caste]]
 	656. casual
-	657. catabolism
-	658. catalase
-	659. catalysis
-	660. catalyst
+		1. See alien
+	657. [[catabolism]]
+	658. [[catalase]]
+	659. [[catalysis]]
+	660. [[catalyst]]
 	
-	661. catalytic activity
+	661. [[catalytic activity]]
 	662. catalytic RNA
-	663. catecholamine
+		1. See RIBOZYME.
+	663. [[catecholamine]]
 	664. category
-	665. catenin
-	666. cathepsins
-	667. cation
-	668. catkin
-	669. caudal vertebrae
-	670. caveola
+		1. See rank
+	665. [[catenin]]
+	666. [[cathepsins]]
+	667. [[cation]]
+	668. [[catkin]]
+	669. [[caudal vertebrae]]
+	670. [[caveola]]
 	
-	671. cavitation
+	671. [[cavitation]]
 	672. CBD
-	673. C cell
+		1. See CONVENTION ON BIOLOGICAL DIVERSITY.
+	673. [[C cell]]
 	674. CCK
-	675. CD
-	676. CD4
+		1. See CHOLECYSTOKININ.
+	675. [[CD]]
+	676. [[CD4]]
 	677. CD40 ligand
-	678. CD8
+		1. See Helper T Cell.
+	678. [[CD8]]
 	679. cDNA
+		1. See COMPLEMENTARY DNA.
 	680. CDR
+		1. See COMPLEMENTARITY-DETERMINING REGION.
 	
 	681. cecidium
-	682. cecropin
-	683. CED protein
-	684. cell
-	685. cell adhesion molecule
-	686. Cell Biology
-	687. cell body
-	688. cell culture
-	689. cell cycle
-	690. cell division
+		1. (pl. cecidia) See GALL.
+	682. [[cecropin]]
+	683. [[CED protein]]
+	684. [[cell]]
+	685. [[cell adhesion molecule]]
+	686. 
+	687. [[cell body]]
+	688. [[cell culture]]
+	689. [[cell cycle]]
+	690. [[cell division]]
 	
-	691. cell fusion
-	692. cell junction
-	693. cell membrane
-	694. cell plate
-	695. cell sap
-	696. cell theory
+	691. [[cell fusion]]
+	692. [[cell junction]]
+	693. [[cell membrane]]
+	694. [[cell plate]]
+	695. [[cell sap]]
+	696. [[cell theory]]
 	697. cellular respiration
-	698. cellulase
-	699. cellulolytic
-	700. cellulose
+		1. See RESPIRATION.
+	698. [[cellulase]]
+	699. [[cellulolytic]]
+	700. [[cellulose]]
 	
-	701. cell wall
-	702. Celsius scale
-	703. cement
-	704. Cenozoic
-	705. centi-
+	701. [[cell wall]]
+	702. [[Celsius scale]]
+	703. [[cement]]
+	704. [[Cenozoic]]
+	705. [[centi-]]
 	706. centigrade scale
+		1. See CELSIUS SCALE.
 	707. centimorgan
+		1. Symbol cM. See MAP UNIT.
 	708. centipedes
-	709. Central Dogma
-	710. central nervous system
+		1. See CHILOPODA.
+	709. [[Central Dogma]]
+	710. [[central nervous system]]
 	
-	711. centre((in neurology))
-	712. centric fusion
-	713. centrifuge
-	714. centriole
-	715. centroblast
-	716. centromere
-	717. centrosome
+	711. [[centre]]
+	712. [[centric fusion]]
+	713. [[centrifuge]]
+	714. [[centriole]]
+	715. [[centroblast]]
+	716. [[centromere]]
+	717. [[centrosome]]
 	718. centrum
-	719. cephalization
-	720. Cephalochordata
+		1. See VERTEBRA.
+	719. [[cephalization]]
+	720. [[Cephalochordata]]
 	
-	721. Cephalopoda
-	722. cephalothorax
-	723. cercaria
-	724. cerci
-	725. cerebellum
-	726. cerebral cortex
-	727. cerebral hemisphere
-	728. cerebroside
-	729. cerebrospinal fluid
-	730. cerebrum
+	721. [[Cephalopoda]]
+	722. [[cephalothorax]]
+	723. [[cercaria]]
+	724. [[cerci]]
+	725. [[cerebellum]]
+	726. [[cerebral cortex]]
+	727. [[cerebral hemisphere]]
+	728. [[cerebroside]]
+	729. [[cerebrospinal fluid]]
+	730. [[cerebrum]]
 	
-	731. cerumen
-	732. cervical vertebrae
-	733. cervix
-	734. Cestoda
-	735. Cetacea
+	731. [[cerumen]]
+	732. [[cervical vertebrae]]
+	733. [[cervix]]
+	734. [[Cestoda]]
+	735. [[Cetacea]]
 	736. Cetartiodactyla
+		1. See ARTIODACTYLA; CETACEA.
 	737. CFCs
+		1. See CHLOROFLUOROCARBONS.
 	738. CGH
+		1. See COMPARATIVE GENOMIC HYBRIDIZATION.
 	739. cGMP
-	740. chaeta
+		1. See cyclic GMP.
+	740. [[chaeta]]
 	
-	741. Chaetognatha
-	742. Chain, Sir Ernst Boris (1906–79)
-	743. chalaza
-	744. chalcone
-	745. chalk
-	746. chalone
-	747. chamaephyte
-	748. channel((in cell biology))
-	749. chaparral
+	741. [[Chaetognatha]]
+	742. [[Ernst Chain]]
+	743. [[chalaza]]
+	744. [[chalcone]]
+	745. [[chalk]]
+	746. [[chalone]]
+	747. [[chamaephyte]]
+	748. [[channel]]
+	749. [[chaparral]]
 	750. chaperone
+		1. See MOLECULAR CHAPERONE.
 	
-	751. character
-	752. character displacement
-	753. Chargaff, Erwin (1905–2002)
+	751. [[character]]
+	752. [[character displacement]]
+	753. [[Erwin Chargaff]]
 	754. charophyte
-	755. chela
-	756. chelicerae
-	757. Chelicerata
-	758. chemical bond
-	759. chemical control
-	760. chemical dating
+		1. See STREPTOPHYTE.
+	755. [[chela]]
+	756. [[chelicerae]]
+	757. [[Chelicerata]]
+	758. [[chemical bond]]
+	759. [[chemical control]]
+	760. [[chemical dating]]
 	
 	761. chemical evolution
-	762. chemical fossil
-	763. chemical fusogen
-	764. chemical reaction
-	765. chemiosmotic mechanism
-	766. chemoautotroph
-	767. chemoheterotroph
-	768. chemokine
-	769. chemoreceptor
-	770. chemosynthesis
+		1. See origin of life
+	762. [[chemical fossil]]
+	763. [[chemical fusogen]]
+	764. [[chemical reaction]]
+	765. [[chemiosmotic mechanism]]
+	766. [[chemoautotroph]]
+	767. [[chemoheterotroph]]
+	768. [[chemokine]]
+	769. [[chemoreceptor]]
+	770. [[chemosynthesis]]
 	
 	771. chemosystematics
+		1. See systematics
 	772. chemotaxis
-	773. chemotaxonomy
-	774. chemotherapy
-	775. chemotropism
-	776. Chengjiang fossils
-	777. chiasma
-	778. chikungunya
-	779. chill haze
-	780. Chilopoda
+		1. See taxis
+	773. [[chemotaxonomy]]
+	774. [[chemotherapy]]
+	775. [[chemotropism]]
+	776. [[Chengjiang fossils]]
+	777. [[chiasma]]
+	778. [[chikungunya]]
+	779. [[chill haze]]
+	780. [[Chilopoda]]
 	
-	781. chimaera
-	782. Chiroptera
-	783. chitin
-	784. chitinase
-	785. chlamydospore
-	786. chlorenchyma
-	787. chloride secretory cell
-	788. chloride shift
-	789. chlorocruorin
-	790. chlorofluorocarbons
+	781. [[chimaera]]
+	782. [[Chiroptera]]
+	783. [[chitin]]
+	784. [[chitinase]]
+	785. [[chlamydospore]]
+	786. [[chlorenchyma]]
+	787. [[chloride secretory cell]]
+	788. [[chloride shift]]
+	789. [[chlorocruorin]]
+	790. [[chlorofluorocarbons]]
 	
-	791. chlorophyll
-	792. Chlorophyta
-	793. chloroplast
-	794. chloroxybacteria
+	791. [[chlorophyll]]
+	792. [[Chlorophyta]]
+	793. [[chloroplast]]
+	794. [[chloroxybacteria]]
 	795. choanae
+		1. (internal nares) (sing. choana) See naRes.
 	796. cholecalciferol
-	797. cholecystokinin
-	798. cholesterol
-	799. choline
-	800. cholinergic
+		1. See vitamin D.
+	797. [[cholecystokinin]]
+	798. [[cholesterol]]
+	799. [[choline]]
+	800. [[cholinergic]]
 	
-	801. cholinesterase
-	802. Chondrichthyes
-	803. chondrin
-	804. chondrocyte
-	805. chordamesoderm
-	806. Chordata
-	807. chordotonal organs
-	808. chorion
+	801. [[cholinesterase]]
+	802. [[Chondrichthyes]]
+	803. [[chondrin]]
+	804. [[chondrocyte]]
+	805. [[chordamesoderm]]
+	806. [[Chordata]]
+	807. [[chordotonal organs]]
+	808. [[chorion]]
 	809. chorionic gonadotrophin
-	810. choroid
+		1. See GONADOTROPHIN.
+	810. [[choroid]]
 	
-	811. choroid plexus
-	812. chromaffin tissue
-	813. chromalveolates
-	814. chromatid
-	815. chromatin
-	816. chromatin remodelling
-	817. chromatogram
-	818. chromatography
-	819. chromatophore
-	820. chromophore
+	811. [[choroid plexus]]
+	812. [[chromaffin tissue]]
+	813. [[chromalveolates]]
+	814. [[chromatid]]
+	815. [[chromatin]]
+	816. [[chromatin remodelling]]
+	817. [[chromatogram]]
+	818. [[chromatography]]
+	819. [[chromatophore]]
+	820. [[chromophore]]
 	
-	821. chromoplast
-	822. chromosome
-	823. chromosome conformation capture
-	824. chromosome diminution
+	821. [[chromoplast]]
+	822. [[chromosome]]
+	823. [[chromosome conformation capture]]
+	824. [[chromosome diminution]]
 	825. chromosome jumping
-	826. chromosome map
-	827. chromosome mutation
-	828. chromosome painting
-	829. chromosome walking
+		1. See CHROMOSOME WALKING.
+	826. [[chromosome map]]
+	827. [[chromosome mutation]]
+	828. [[chromosome painting]]
+	829. [[chromosome walking]]
 	830. chrysalis
+		1. See pupa
 	
-	831. Chrysophyta
-	832. chyle
-	833. chylomicron
-	834. chyme
+	831. [[Chrysophyta]]
+	832. [[chyle]]
+	833. [[chylomicron]]
+	834. [[chyme]]
 	835. chymosin
-	836. chymotrypsin
+		1. See RENNIN.
+	836. [[chymotrypsin]]
 	837. chymotrypsinogen
-	838. Chytridiomycota
-	839. ciliary body
-	840. ciliary feeding
+		1. See CHYMOTRYPSIN.
+	838. [[Chytridiomycota]]
+	839. [[ciliary body]]
+	840. [[ciliary feeding]]
 	
 	841. ciliary muscle
-	842. ciliated epithelium
-	843. Ciliophora
-	844. cilium
-	845. circadian rhythm
-	846. circalunar rhythm
+		1. See CILIARY BODY.
+	842. [[ciliated epithelium]]
+	843. [[Ciliophora]]
+	844. [[cilium]]
+	845. [[circadian rhythm]]
+	846. [[circalunar rhythm]]
 	847. circannual rhythm
-	848. circulation
-	849. circulatory system
-	850. cirrus
+		1. See annual rhythm.
+	848. [[circulation]]
+	849. [[circulatory system]]
+	850. [[cirrus]]
 	
-	851. cis-transtest
-	852. cisterna
-	853. cistron
-	854. citric acid
+	851. [[cis-trans test]]
+	852. [[cisterna]]
+	853. [[cistron]]
+	854. [[citric acid]]
 	855. citric acid cycle
+		1. See krebs cycle
 	856. CJD
-	857. clade
-	858. cladistics
-	859. cladode
+		1. See CREUTZFELDT-JAKOB DISEASE.
+	857. [[clade]]
+	858. [[cladistics]]
+	859. [[cladode]]
 	860. cladogram
+		1. See cladistics
 	
 	861. cladophyll
-	862. class
-	863. classification
-	864. clathrin
-	865. clavicle
-	866. clay
-	867. cleavage((in embryology))
+		1. See cladode
+	862. [[class]]
+	863. [[classification]]
+	864. [[clathrin]]
+	865. [[clavicle]]
+	866. [[clay]]
+	867. [[cleavage]]
 	868. cleistothecium
-	869. climate
-	870. climate change
+		1. (pl. cleistothecia) See ASCOCARP.
+	869. [[climate]]
+	870. [[climate change]]
 	
-	871. climax community
-	872. cline
-	873. clitellum
-	874. clitoris
-	875. cloaca
-	876. clonal selection
-	877. clone
+	871. [[climax community]]
+	872. [[cline]]
+	873. [[clitellum]]
+	874. [[clitoris]]
+	875. [[cloaca]]
+	876. [[clonal selection]]
+	877. [[clone]]
 	878. cloning vector
-	879. clonotype
+		1. See vector
+	879. [[clonotype]]
 	880. closed circulation
+		1. See circulation
 	
-	881. clotting factors
+	881. [[clotting factors]]
 	882. clubmoss
+		1. See LYCOPODIOPHYTA.
 	883. cluster of differentiation
-	884. Cnidaria
+		1. See CD
+	884. [[Cnidaria]]
 	885. cnidoblast
+		1. See thread cell
 	886. CNS
+		1. See central nervous system
 	887. CoA
-	888. coacervate
-	889. coadaptation
-	890. coal
+		1. See coenzyme A
+	888. [[coacervate]]
+	889. [[coadaptation]]
+	890. [[coal]]
 	
 	891. coated pit
+		1. See endosome
 	892. coated vesicle
+		1. See endosome
 	893. cobalamin
-	894. cobalt
-	895. coccus
-	896. coccyx
-	897. cochlea
+		1. (vitamin $\mathbf{B}_{12}$ ) See VITAMIN B COMPLEX.
+	894. [[cobalt]]
+	895. [[coccus]]
+	896. [[coccyx]]
+	897. [[cochlea]]
 	898. cockroaches
-	899. cocoon
-	900. codeine
+		1. See DICTYOPTERA.
+	899. [[cocoon]]
+	900. [[codeine]]
 	
-	901. coding strand
-	902. codon
-	903. coelacanth
-	904. coelenterate
-	905. coelom
+	901. [[coding strand]]
+	902. [[codon]]
+	903. [[coelacanth]]
+	904. [[coelenterate]]
+	905. [[coelom]]
 	906. coelomoduct
-	907. coenobium
-	908. coenocyte
-	909. coenzyme
-	910. coenzyme A
+		1. See COELOM.
+	907. [[coenobium]]
+	908. [[coenocyte]]
+	909. [[coenzyme]]
+	910. [[coenzyme A]]
 	
 	911. coenzyme Q
-	912. cohesion
-	913. cohort
+		1. See ubiQUINONE.
+	912. [[cohesion]]
+	913. [[cohort]]
 	914. coitus
-	915. colchicine
+		1. See SEXUAL INTERCOURSE.
+	915. [[colchicine]]
 	916. cold-blooded animal
-	917. cold hardening
-	918. Coleoptera
-	919. coleorhiza
-	920. coliform bacteria
+		1. See ectotherm.
+	917. [[cold hardening]]
+	918. [[Coleoptera]]
+	919. [[coleorhiza]]
+	920. [[coliform bacteria]]
 	
 	921. colinearity
+		1. See hox genes
 	922. collectin
-	923. collecting duct
-	924. Collembola
-	925. collenchyma
+		1. See lectin
+	923. [[collecting duct]]
+	924. [[Collembola]]
+	925. [[collenchyma]]
 	926. colloblast
-	927. colloids
-	928. colon
-	929. colony
-	930. colony-stimulating factor
+		1. See LASSO CELL.
+	927. [[colloids]]
+	928. [[colon]]
+	929. [[colony]]
+	930. [[colony-stimulating factor]]
 	
-	931. colostrum
-	932. colour blindness
-	933. colour vision
+	931. [[colostrum]]
+	932. [[color blindness]]
+	933. [[color vision]]
 	934. columnar epithelium
-	935. commensalism
+		1. See epitheliUm.
+	935. [[commensalism]]
 	936. communicating junction
-	937. communication
-	938. community
+		1. See gap junction
+	937. [[communication]]
+	938. [[community]]
 	939. community immunity
-	940. comparative genomic hybridization
+		1. See herd immunity
+	940. [[comparative genomic hybridization]]
 	
-	941. compass plant
-	942. compensation point
-	943. competent
-	944. competition
-	945. competitive exclusion principle
+	941. [[compass plant]]
+	942. [[compensation point]]
+	943. [[competent]]
+	944. [[competition]]
+	945. [[competitive exclusion principle]]
 	946. competitive inhibition
-	947. complement
-	948. complemental males
-	949. complementarity-determining region
-	950. complementary DNA
+		1. See inhibition
+	947. [[complement]]
+	948. [[complemental males]]
+	949. [[complementarity-determining region]]
+	950. [[complementary DNA]]
 	
-	951. complement receptor
-	952. composite fruit
-	953. compost
-	954. compound eye
+	951. [[complement receptor]]
+	952. [[composite fruit]]
+	953. [[compost]]
+	954. [[compound eye]]
 	955. compound microscope
+		1. See MICROSCOPE.
 	956. concanavalin
-	957. concentration
-	958. concentration gradient
-	959. conceptacle
-	960. conception
+		1. See LECTIN.
+	957. [[concentration]]
+	958. [[concentration gradient]]
+	959. [[conceptacle]]
+	960. [[conception]]
 	
-	961. condensation reaction
-	962. conditional response
-	963. conditioning
-	964. condyle
-	965. cone
-	966. confocal fluorescence microscopy
-	967. conformer
-	968. confounding
-	969. congenital
+	961. [[condensation reaction]]
+	962. [[conditional response]]
+	963. [[conditioning]]
+	964. [[condyle]]
+	965. [[cone]]
+	966. [[confocal fluorescence microscopy]]
+	967. [[conformer]]
+	968. [[confounding]]
+	969. [[congenital]]
 	970. conidiospore
+		1. See CONIDIUM.
 	
-	971. conidium
-	972. Coniferophyta
-	973. conjugation
-	974. conjunctiva
-	975. connective tissue
-	976. connexon
-	977. conodont
-	978. consensual
-	979. conservation
-	980. conserved sequence
+	971. [[conidium]]
+	972. [[Coniferophyta]]
+	973. [[conjugation]]
+	974. [[conjunctiva]]
+	975. [[connective tissue]]
+	976. [[connexon]]
+	977. [[conodont]]
+	978. [[consensual]]
+	979. [[conservation]]
+	980. [[conserved sequence]]
 	
-	981. consociation
-	982. constitutive((in genetics))
-	983. consumer
-	984. contact insecticide
+	981. [[consociation]]
+	982. [[constitutive]]
+	983. [[consumer]]
+	984. [[contact insecticide]]
 	985. contig
-	986. continental drift
+		1. See physical map
+	986. [[continental drift]]
 	987. 
 	988. 
-	989. continuous variation
-	990. contour feathers
+	989. [[continuous variation]]
+	990. [[contour feathers]]
 	
 	991. contraception
-	992. contractile root
-	993. contractile vacuole
-	994. contraction((in animal physiology))
-	995. contralateral
-	996. control
-	997. control element
-	998. control mechanism
-	999. conus arteriosus
-	1000. Convention on Biological Diversity
+		1. See birth control
+	992. [[contractile root]]
+	993. [[contractile vacuole]]
+	994. [[contraction]]
+	995. [[contralateral]]
+	996. [[control]]
+	997. [[control element]]
+	998. [[control mechanism]]
+	999. [[conus arteriosus]]
+	1000. [[Convention on Biological Diversity]]
 	
-	1001. convergence
+	1001. [[convergence]]
 	1002. convoluted tubule
-	1003. coomassie blue
-	1004. cooperation
+		1. See DISTAL CONVOLUTED TUBULE; PROXIMAL CONVOLUTED TUBULE; NEPHRON.
+	1003. [[coomassie blue]]
+	1004. [[cooperation]]
 	1005. coordinate bond
-	1006. coordination((in animal physiology))
-	1007. Copepoda
-	1008. CO protein
+		1. See covalent bond
+	1006. [[coordination]]
+	1007. [[Copepoda]]
+	1008. [[CO protein]]
 	1009. copulation
-	1010. copy number
+		1. See sexual intercourse
+	1010. [[copy number]]
 	
 	1011. coral
 	1012. cork

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Alterations in the degree of condensation of chromatin as a means of epigenetic regulation of gene expression. A key mechanism is chemical modification of the histone proteins that form the scaffolding around which the DNA is coiled. Methylation of certain amino acids in the 'tails' of the histones, which protrude from the coiled chromatin structure, is associated with silencing of genes. Conversely, acetylation of histones tends to relax the nucleosome and activate gene transcription. Chromatin-binding proteins, such as heterochromatin protein 1 (HP1), bind to the methylated histones and reinforce the silenced state by recruiting histone methyltransferases, which add more methyl groups to the histones. Noncoding RNA molecules are also involved in chromatin remodelling, for example in inactivation of one or more X chromosomes in female mammals (see X inACTIVATION). In yeast cells, small interfering RNAs (siRNAs) and other noncoding RNAs coooperate in reforming the highly condensed chromatin of the centromeres following replication of the chromosomes. See also DNA METHYLATION.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (CGH) A technique for scanning the genome of an organism or tissue sample for variations in copy number, i.e. deletions or duplications of stretches of DNA. Such variations can be associated with certain diseases, and CGH is used in medicine as a diagnostic tool, e.g. to assess genetic markers of inherited disease compared to a reference (normal or control) genome. In taxonomy CGH is useful for comparing the genomes from different organisms to determine how closely related they are, e.g. whether two microorganisms are different strains of the same species. The technique creates a set of single DNA strands from each genome, differentially labels them with colored fluorescent markers, and allows the strands to competitively bind (hybridize) to a complete set of metaphase chromosomes. Variations in the intensity and color of the bound labels indicate gain or loss of DNA in the original sample. These variations are viewed under a fluorescence microscope, recorded, and analysed. Greater speed and better resolution are obtained by microarray-based CGH (or array CGH). Instead of a complete set of chromosomes, the labelled DNA samples are applied to a microarray of DNA probes representative of the genome. A scanner then measures the fluorescent signals and a computer analyses the data.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

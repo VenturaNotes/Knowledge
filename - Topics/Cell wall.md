@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- A rigid outer layer that surrounds the plasma membrane of plant, fungal, algal, and bacterial (but not animal) cells. It protects and/or gives shape to a cell, and in herbaceous plants provides mechanical support for the plant body. The cell walls in most plants and algae are composed of polysaccharide fibrils embedded in a matrix of other polysaccharides and proteins. In young plant cells cellulose microfibrils and matrix components are secreted into the extracellular space outside the plasma membrane, to form a primary cell wall. This typically ranges from $0.1 \mathrm{~\mu m}$ to several micrometres in thickness and is perforated by fine cytoplasmic channels called plasmodesmata. Adjacent cells are joined together by a middle lamella of sticky pectins. When plant cells have stopped growing, they can strengthen the primary cell wall by secreting hardening substances, or add a secondary cell wall inside the primary wall. This consists of further layers of cellulose microfibrils embedded in lignin, a complex polymer and a major component of wood. This creates a strong, waterproof, protective layer for the plant. The cell walls of fungi consist mainly of chitin. Bacterial cell walls consist of complex polymers of polysaccharides and amino acids (see GRAM'S STAIN; PEPTIDOGLYCAN). See also CELL PLATE.
 ## References
 
-[^1]:
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

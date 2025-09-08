@@ -17,8 +17,13 @@ aliases:
 - (4) See RADIX-MINUS-ONE COMPLEMENT. See also COMPLEMENT NUMBER SYSTEM, RADIX COMPLEMENT
 ## Source[^4]
 - $n$. a system of functionally linked proteins that interact with one another to aid the body's defences when antibodies combine with antigens. Complement is involved in the breaking-up (lysis) and opsonization of foreign organisms. It is also involved in inflammation and clearing immune (antigen-antibody) complexes.
+## Source[^5]
+- A group of proteins present in blood plasma and tissue fluid that aids the body's defences following an immune response; the genes encoding it form part of the major histocompatibility complex. Following an antibody-antigen reaction, complement is activated chemically and becomes bound to the antibody-antigen complex (complement fixation). It can cause lysis of certain types of bacteria, through the formation of a membrane attack complex, or it can render the target cell more susceptible to phagocytosis—a process called opsonization. Binding of complement components to their respective complement receptors on immune cells stimulates various defence mechanisms.
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3820029/
+	- An illustrated overview of complement activation and regulation, from the US National Library of Medicine
 ## References
 [^1]: [[(Home Page) Problems on Discrete Mathematics by Chung-Chih Li et. al.#^mlxap7]]
 [^2]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^a3ec37]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
