@@ -14,6 +14,12 @@
 		- processes of hair cell
 		- gelatinous matrix
 		- cupula
+## Source[^2]
+- (pl. cristae) 
+- (1) (in anatomy) A crest, e.g. the crista nasalis (nasal crest). 
+- (2) See SEMICIRCULAR CANALS. 
+- (3) See MITOCHONDRION.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

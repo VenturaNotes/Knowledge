@@ -9,7 +9,11 @@
 - (6) See PROTECTION DOMAIN.
 ## Source[^2]
 - The term domain refers to how the internet is structured. Internet domains can be described as online structures for organizing, delivering, and accessing internet services. Typically, domains are named according to their structure. Domains are set up using a domain name service (DNS), which is an app layer protocol used on networks to translate host names to their linked IP addresses. A domain name is the address that people type into a browserʻs address bar in order to navigate to a specific website.
+## Source[^3]
+- (1) (in biochemistry) A functional unit of the tertiary structure of a protein. It consists of chains of amino acids folded into alpha helices and beta sheets to form a globular structure. Different domains are linked together by relatively straight sections of polypeptide chain to form the protein molecule. Domains allow a degree of movement in the protein structure. See also FINGER DOMAIN. 
+- (2) (in taxonomy) The highest taxonomic category, consisting of one or more kingdoms. Living organisms are divided into three domains: Archaea, Bacteria, and Eukarya (eukaryotic organisms).
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (anhydrobiosis) A state of apparent suspended animation entered by certain invertebrate animals in order to survive desiccation or other extreme stresses. It is best documented among the rotifers, nematodes, collembolans, tardigrades, and other minute inhabitants of mosses and lichens, where the water film essential for active life is transient and sporadic. When the film dries out these animals appear to be dead for periods of days, weeks, or even years until moisture returns, when they 'come back to life' and resume their normal activities. Entering cryptobiosis involves various processes. The animal typically retracts its legs and other appendages, or curls up into a ball to minimize its surface area. Biochemical changes in the cuticle or the secretion of wax ensure that at least some water is retained, although this may be only some $5 \%$ of the normal content, and the body becomes contracted and shrivelled. Sugars, such as trehalose, manufactured by the body cells protect the integrity of the plasma membranes and also convert the cytoplasm to a glasslike state. When reverting to its normal state the animal absorbs water, swells, and becomes active in a few hours.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

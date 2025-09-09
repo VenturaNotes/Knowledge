@@ -11,8 +11,11 @@
 - (4) The allocation of goods to consumers by means of wholesalers and retailers.
 ## Source[^3]
 - $n$. the dispersion of a set of observations (e.g. of heights, weights, or blood pressures) about their arithmetic mean. A normal or Gaussian distribution is a continuous distribution that is symmetrical around the mean value and in which a large majority of the observations fall within one standard deviation of the mean in either direction: such a distribution forms the familiar symmetrical bell curve when plotted on a graph. In a skewed or asymmetrical distribution, the measurements are clustered on one side of the mean and spread out over a wider range on the other. See also FREQUENCY DISTRIBUTION; SIGNIFICANCE.
+## Source[^4]
+- In statistics, the relationship between the values in a data set and the relative frequency with which each value occurs, especially as presented in a table or graph. A normal or Gaussian distribution is a continuous distribution that is symmetrical around the mean value and in which a large majority (64\%) of the observations fall within one standard deviation of the mean in either direction (and nearly all fall within two standard deviations); such a distribution forms the familiar symmetrical bell curve when plotted on a graph. In a skewed or asymmetrical distribution, by contrast, the observations are clustered on one side of the mean and spread out over a wider range on the other. See also SIGNIFICANCE.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- (resurrection biology) The process of resurrecting species that have gone extinct. One strategy is back breeding, as used since 2008 by the Tauros Programme to produce cattle resembling the aurochs, an extinct European wild ox. This involves selective mating of living breeds of cattle having morphological characteristics similar to their extinct relatives, coupled with assisted reproductive technologies such as artificial insemination, embryo transfer, and in vitro fertilization. Genetic analysis of the resulting offspring is then compared with the genome sequence of an aurochs, obtained from DNA in fossilized tissue samples. This information directs the breeding programme, which it is hoped will produce a sustainable population of wild cattle called 'tauros' that will occupy the ecological niche once filled by the aurochs (see REWILDING).
+- Another approach is to use nuclear transfer to clone an extinct species. This requires intact cell nuclei from cells derived from well-preserved tissue samples. For example, in 2009 nuclei from thawed cryopreserved skin cells of the extinct Pyrenean ibex were reprogrammed to develop as embryos and transferred to surrogate Spanish ibex mothers. A single viable Pyrenean ibex kid was born but died shortly after due to malfunctioning lungs.
+- DNA sequencing coupled with gene editing now offers the potential to reconstruct the genome of an extinct species by directly manipulating the genome of a close living relative. The extinct North American passenger pigeon is a candidate for such an approach. Just 3\% of its genome differs from that of its closest living relative, the band-tailed pigeon, prompting efforts to reinstate the key genetic differences that will produce a passenger pigeon.
+- De-extinction raises several ethical concerns, including whether it is right to tamper with the course of natural history and whether resurrected species could adapt to the often radically altered natural habitats of today.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

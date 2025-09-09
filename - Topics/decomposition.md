@@ -5,7 +5,10 @@
 - (2) In programming, the analysis of a problem into simpler subproblems. See MODULAR PROGRAMMING, PROGRAM DECOMPOSITION.
 ## Source[^2]
 - $n$. the temperature-dependent gradual disintegration of dead organic matter, usually foodstuffs or tissues, by the chemical action of bacteria and/or fungi.
+## Source[^3]
+- (decay) The chemical breakdown of organic matter into its constituents by the action of decomposers.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

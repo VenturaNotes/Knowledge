@@ -1738,621 +1738,742 @@ Reviewed: false
 		1. See sexual intercourse
 	1010. [[copy number]]
 	
-	1011. coral
-	1012. cork
-	1013. cork cambium
-	1014. corm
-	1015. cornea
+	1011. [[coral]]
+	1012. [[cork]]
+	1013. [[cork cambium]]
+	1014. [[corm]]
+	1015. [[cornea]]
 	1016. cornification
-	1017. corolla
-	1018. coronary vessels
+		1. See KERATINIZATION.
+	1017. [[corolla]]
+	1018. [[coronary vessels]]
 	1019. corpus allatum
-	1020. corpus callosum
+		1. (pl. corpora allata) See JUVENILE HORMONE.
+	1020. [[corpus callosum]]
 	
-	1021. corpus cardiacum
-	1022. corpus luteum
+	1021. [[corpus cardiacum]]
+	1022. [[corpus luteum]]
 	1023. corpus striatum
-	1024. correlation
-	1025. cortex
-	1026. Corti cell
-	1027. corticosteroid
+		1. (pl. corpora striata) See BASAL GANGLIA.
+	1024. [[correlation]]
+	1025. [[cortex]]
+	1026. [[Corti cell]]
+	1027. [[corticosteroid]]
 	1028. corticotrophin
-	1029. cortisol
-	1030. cortisone
+		1. See ACTH.
+	1029. [[cortisol]]
+	1030. [[cortisone]]
 	
-	1031. corymb
-	1032. cosmid
+	1031. [[corymb]]
+	1032. [[cosmid]]
 	1033. cosmoid scale
-	1034. cotransmitter
-	1035. cotransporter
-	1036. cotyledon
-	1037. coumarin
-	1038. countercurrent heat exchange
-	1039. countercurrent multiplier system
-	1040. courtship
+		1. See scales
+	1034. [[cotransmitter]]
+	1035. [[cotransporter]]
+	1036. [[cotyledon]]
+	1037. [[coumarin]]
+	1038. [[countercurrent heat exchange]]
+	1039. [[countercurrent multiplier system]]
+	1040. [[courtship]]
 	
 	1041. COV
-	1042. covalent bond
-	1043. Cowper's glands
+		1. See crossover value
+	1042. [[covalent bond]]
+	1043. [[Cowper's glands]]
 	1044. COX
-	1045. coxa
-	1046. coxal glands
-	1047. CpG island
-	1048. cranial nerves
+		1. See CYCLO-OXYGENASE.
+	1045. [[coxa]]
+	1046. [[coxal glands]]
+	1047. [[CpG island]]
+	1048. [[cranial nerves]]
 	1049. cranial reflex
-	1050. craniates
+		1. See reflex
+	1050. [[craniates]]
 	
-	1051. cranium
-	1052. crassulacean acid metabolism
-	1053. Cre/loxPrecombination
-	1054. creatine
+	1051. [[cranium]]
+	1052. [[crassulacean acid metabolism]]
+	1053. [[Cre-loxP recombination]]
+	1054. [[creatine]]
 	1055. creatinine
-	1056. creationist
-	1057. cremocarp
-	1058. Cretaceous
-	1059. cretinism
-	1060. Creutzfeldt-Jakob disease
+		1. See creatine
+	1056. [[creationist]]
+	1057. [[cremocarp]]
+	1058. [[Cretaceous]]
+	1059. [[cretinism]]
+	1060. [[Creutzfeldt-Jakob disease]]
 	
-	1061. Crick, Francis Harry Compton (1916–2004)
-	1062. CRISPR-Cas9
-	1063. crista
-	1064. critical group
-	1065. critical period
+	1061. [[Francis Crick]]
+	1062. [[CRISPR-Cas9]]
+	1063. [[crista]]
+	1064. [[critical group]]
+	1065. [[critical period]]
 	1066. critical thermal maximum
-	1067. 'Cro-Magnon man'
-	1068. crop
-	1069. crop rotation
-	1070. cross
+		1. See UPPER CRITICAL TEMPERATURE.
+	1067. [['Cro-Magnon man']]
+	1068. [[crop]]
+	1069. [[crop rotation]]
+	1070. [[cross]]
 	
 	1071. cross-fertilization
+		1. See FERTILIZATION.
 	1072. cross-pollination
-	1073. crossing over
-	1074. crossover value
+		1. See pollination
+	1073. [[crossing over]]
+	1074. [[crossover value]]
 	1075. CRP
-	1076. Crustacea
-	1077. cryobiology
-	1078. Cryogenian
-	1079. cryophyte
-	1080. cryoprotectant
+		1. See C-REACTIVE PROTEIN.
+	1076. [[Crustacea]]
+	1077. [[cryobiology]]
+	1078. [[Cryogenian]]
+	1079. [[cryophyte]]
+	1080. [[cryoprotectant]]
 	
-	1081. cryptic coloration
+	1081. [[cryptic coloration]]
 	1082. cryptic species
-	1083. cryptobiosis
-	1084. cryptochrome
-	1085. Cryptomonada
-	1086. Cryptomycota
-	1087. cryptonephridial system
-	1088. cryptozoic
-	1089. crypts of Lieberkühn
-	1090. crystallin
+		1. See SIBLING SPECIES.
+	1083. [[cryptobiosis]]
+	1084. [[cryptochrome]]
+	1085. [[Cryptomonada]]
+	1086. [[Cryptomycota]]
+	1087. [[cryptonephridial system]]
+	1088. [[cryptozoic]]
+	1089. [[crypts of Lieberkühn]]
+	1090. [[crystallin]]
 	
 	1091. CSF
-	1092. CSR strategies
-	1093. ctenidia
-	1094. Ctenophora
+		1. (1) See CEREBROSPINAL FLUID. 
+		2. (2) See COLONY-STIMULATING FACTOR.
+	1092. [[CSR strategies]]
+	1093. [[ctenidia]]
+	1094. [[Ctenophora]]
 	1095. CT scanner
+		1. (computerized tomography scanner) See tomogRAPHY.
 	1096. cuboidal epithelium
-	1097. cultivar
-	1098. cultivation
-	1099. culture
-	1100. culture medium
+		1. See epitheliUm.
+	1097. [[cultivar]]
+	1098. [[cultivation]]
+	1099. [[culture]]
+	1100. [[culture medium]]
 	
 	1101. cupula
-	1102. cupule
-	1103. curare
-	1104. curd
-	1105. cusp
-	1106. cuticle
-	1107. cuticularization
-	1108. cutin
-	1109. cutinization
+		1. (pl. cupulae) See ampulla.
+	1102. [[cupule]]
+	1103. [[curare]]
+	1104. [[curd]]
+	1105. [[cusp]]
+	1106. [[cuticle]]
+	1107. [[cuticularization]]
+	1108. [[cutin]]
+	1109. [[cutinization]]
 	1110. cutis
+		1. See dermis
 	
-	1111. cutting
+	1111. [[cutting]]
 	1112. cyanelle
-	1113. Cyanobacteria
+		1. See GLAUCOPHYTA.
+	1113. [[Cyanobacteria]]
 	1114. cyanocobalamin
-	1115. Cycadofilicales
-	1116. Cycadophyta
-	1117. cyclic AMP
-	1118. cyclic GMP
+		1. See vitamin B COMPLEX.
+	1115. [[Cycadofilicales]]
+	1116. [[Cycadophyta]]
+	1117. [[cyclic AMP]]
+	1118. [[cyclic GMP]]
 	1119. cyclic phosphorylation
-	1120. cyclin
+		1. (cyclic photophosphorylation) See photOPHOSPHORYLATION; PHOTOSYSTEMS I AND II.
+	1120. [[cyclin]]
 	
-	1121. cyclo-oxygenase
-	1122. cyclomorphosis
+	1121. [[cyclo-oxygenase]]
+	1122. [[cyclomorphosis]]
 	1123. cyclosis
-	1124. Cyclostomata
+		1. See CYTOPLASMIC STREAMING.
+	1124. [[Cyclostomata]]
 	1125. cyme
-	1126. cymose inflorescence
-	1127. cypsela
+		1. See CYMOSE INFLORESCENCE.
+	1126. [[cymose inflorescence]]
+	1127. [[cypsela]]
 	1128. cysteine
+		1. See AMINO ACID.
 	1129. cysticercus
-	1130. cystine
+		1. (pl. cysticerci) See BLADDERWORM.
+	1130. [[cystine]]
 	
 	1131. cystocarp
-	1132. cytochrome
-	1133. cytochrome oxidase
-	1134. cytogenetics
-	1135. cytokine
+		1. See CARPOGONIUM.
+	1132. [[cytochrome]]
+	1133. [[cytochrome oxidase]]
+	1134. [[cytogenetics]]
+	1135. [[cytokine]]
 	1136. cytokinesis
-	1137. cytokinin
+		1. See CELL CYCLE; CELL DIVISION.
+	1137. [[cytokinin]]
 	1138. cytological map
-	1139. cytology
-	1140. cytomegalovirus
+		1. See physical map
+	1139. [[cytology]]
+	1140. [[cytomegalovirus]]
 	
-	1141. cytoplasm
-	1142. cytoplasmic inheritance
-	1143. cytoplasmic streaming
-	1144. cytoskeleton
-	1145. cytosol
+	1141. [[cytoplasm]]
+	1142. [[cytoplasmic inheritance]]
+	1143. [[cytoplasmic streaming]]
+	1144. [[cytoskeleton]]
+	1145. [[cytosol]]
 	1146. cytotaxonomy
-	1147. cytotoxic
-	1148. cytotoxic T cell
-	1149. 2,4-D
+		1. See taxonomy
+	1147. [[cytotoxic]]
+	1148. [[cytotoxic T cell]]
+	1149. [[2,4-D]]
 	1150. d-form
+		1. See optical activity
 	
-	1151. dance of the bees
-	1152. Daphnia
-	1153. dark period
+	1151. [[dance of the bees]]
+	1152. [[Daphnia]]
+	1153. [[dark period]]
 	1154. dark reaction
-	1155. Darwin's finches
-	1156. Darwin, Charles (1809–82)
-	1157. Darwinism
-	1158. dating techniques
-	1159. day-neutral plant
-	1160. DDT
+		1. See PHOTOSYNTHESIS.
+	1155. [[Darwin's finches]]
+	1156. [[Charles Darwin]]
+	1157. [[Darwinism]]
+	1158. [[dating techniques]]
+	1159. [[day-neutral plant]]
+	1160. [[DDT]]
 	
-	1161. de-extinction
-	1162. deacetylation
-	1163. death
+	1161. [[de-extinction]]
+	1162. [[deacetylation]]
+	1163. [[death]]
 	1164. death phase
-	1165. death rate
-	1166. deca-
-	1167. Decapoda
+		1. See bacterial growth curve
+	1165. [[death rate]]
+	1166. [[deca-]]
+	1167. [[Decapoda]]
 	1168. decay
-	1169. deci-
-	1170. decibel
+		1. See DECOMPOSITION.
+	1169. [[deci-]]
+	1170. [[decibel]]
 	
-	1171. deciduous teeth
-	1172. decomposer
-	1173. decomposition
-	1174. defecation
+	1171. [[deciduous teeth]]
+	1172. [[decomposer]]
+	1173. [[decomposition]]
+	1174. [[defecation]]
 	1175. defective ribosomal products
-	1176. defensin
-	1177. deficiency disease
+		1. See drips
+	1176. [[defensin]]
+	1177. [[deficiency disease]]
 	1178. definite inflorescence
-	1179. deforestation
-	1180. degeneration
+		1. See CYMOSE INFLORESCENCE.
+	1179. [[deforestation]]
+	1180. [[degeneration]]
 	
-	1181. deglutition
-	1182. dehiscence
-	1183. dehydrogenase
-	1184. dehydrogenation
-	1185. deletion((in genetics))
-	1186. deme
+	1181. [[deglutition]]
+	1182. [[dehiscence]]
+	1183. [[dehydrogenase]]
+	1184. [[dehydrogenation]]
+	1185. [[deletion]]
+	1186. [[deme]]
 	1187. demosponge
-	1188. denature
-	1189. dendrite
-	1190. dendritic cell
+		1. See PORIFERA.
+	1188. [[denature]]
+	1189. [[dendrite]]
+	1190. [[dendritic cell]]
 	
-	1191. dendrochronology
-	1192. dendron
+	1191. [[dendrochronology]]
+	1192. [[dendron]]
 	1193. Denisovan
-	1194. de novopathway
-	1195. dense body
-	1196. density-dependent factor
-	1197. density-independent factor
-	1198. dental caries
-	1199. dental formula
-	1200. dentary
+		1. See homo
+	1194. [[de novo pathway]]
+	1195. [[dense body]]
+	1196. [[density-dependent factor]]
+	1197. [[density-independent factor]]
+	1198. [[dental caries]]
+	1199. [[dental formula]]
+	1200. [[dentary]]
 	
 	1201. denticle
-	1202. dentition
+		1. (placoid scale) See scales
+	1202. [[dentition]]
 	1203. deoxyribonuclease
+		1. See DNASE
 	1204. deoxyribonucleic acid
-	1205. deoxyribose
-	1206. depolarization
+		1. See DNA
+	1205. [[deoxyribose]]
+	1206. [[depolarization]]
 	1207. derived trait
+		1. See APOMORPHY; SYNAPOMORPHY.
 	1208. dermal bone
-	1209. Dermaptera
-	1210. dermis
+		1. See MEMBRANE BONE.
+	1209. [[Dermaptera]]
+	1210. [[dermis]]
 	
 	1211. descending tracts
-	1212. desert
-	1213. desertification
-	1214. desiccation
-	1215. desmids
-	1216. desmosome
+		1. See spinal cord
+	1212. [[desert]]
+	1213. [[desertification]]
+	1214. [[desiccation]]
+	1215. [[desmids]]
+	1216. [[desmosome]]
 	1217. desmotubule
-	1218. desorption
+		1. See PLASMODESMATA.
+	1218. [[desorption]]
 	1219. determinate growth
-	1220. determined
+		1. See growth
+	1220. [[determined]]
 	
-	1221. detoxification
-	1222. detritivore
-	1223. detritus
-	1224. detrusor muscle
+	1221. [[detoxification]]
+	1222. [[detritivore]]
+	1223. [[detritus]]
+	1224. [[detrusor muscle]]
 	1225. deuteranopia
-	1226. Deuteromycota
-	1227. deuterostome
-	1228. deutoplasm
-	1229. development
-	1230. Devonian
+		1. See COLOUR BLINDNESS.
+	1226. [[Deuteromycota]]
+	1227. [[deuterostome]]
+	1228. [[deutoplasm]]
+	1229. [[development]]
+	1230. [[Devonian]]
 	
-	1231. dextrin
-	1232. dextrorotatory
+	1231. [[dextrin]]
+	1232. [[dextrorotatory]]
 	1233. dextrose
+		1. See glucose
 	1234. diabetes
+		1. See ANTIDIURETIC HORMONE; INSULIN.
 	1235. diacylglycerol
+		1. (DAG) See INOSITOL.
 	1236. diagenesis
-	1237. diakinesis
-	1238. dialysis
-	1239. diapause
-	1240. diaphragm
+		1. See TAPHONOMY.
+	1237. [[diakinesis]]
+	1238. [[dialysis]]
+	1239. [[diapause]]
+	1240. [[diaphragm]]
 	
-	1241. diaphysis
+	1241. [[diaphysis]]
 	1242. diastase
-	1243. diastema
-	1244. diastole
+		1. See amylase
+	1243. [[diastema]]
+	1244. [[diastole]]
 	1245. 
 	1246. 
 	1247. 
 	1248. 
-	1249. dibiontic
-	1250. dicarboxylic acid
+	1249. [[dibiontic]]
+	1250. [[dicarboxylic acid]]
 	
-	1251. Dicer
+	1251. [[Dicer]]
 	1252. dichasium
+		1. (pl. dichasia) See CYMOSE INFLORESCENCE.
 	1253. 2,4-dichlorophenoxyacetic acid
-	1254. dichogamy
-	1255. dichopatric speciation
-	1256. dichotomous
-	1257. Dicotyledoneae
+		1. See 2,4-D.
+	1254. [[dichogamy]]
+	1255. [[dichopatric speciation]]
+	1256. [[dichotomous]]
+	1257. [[Dicotyledoneae]]
 	1258. dicoumarol
-	1259. Dictyoptera
-	1260. dictyosome
+		1. See coumarin
+	1259. [[Dictyoptera]]
+	1260. [[dictyosome]]
 	
-	1261. Dicyemida
-	1262. diet
+	1261. [[Dicyemida]]
+	1262. [[diet]]
 	1263. dietary fibre
+		1. See fibre.
 	1264. differential-interference contrast microscope
-	1265. differentiation
-	1266. diffuse coevolution
-	1267. diffusion
+		1. See NOMARSKI MICROSCOPE.
+	1265. [[differentiation]]
+	1266. [[diffuse coevolution]]
+	1267. [[diffusion]]
 	1268. diffusion gradient
-	1269. digestion
-	1270. digestive system
+		1. See CONCENTRATION GRADIENT.
+	1269. [[digestion]]
+	1270. [[digestive system]]
 	
-	1271. digit
-	1272. digitalis
-	1273. digitigrade
-	1274. dihybrid cross
-	1275. dikaryon
-	1276. dikaryosis
+	1271. [[digit]]
+	1272. [[digitalis]]
+	1273. [[digitigrade]]
+	1274. [[dihybrid cross]]
+	1275. [[dikaryon]]
+	1276. [[dikaryosis]]
 	1277. dilation
-	1278. dimethylbenzenes
-	1279. dimictic lake
-	1280. dimorphism
+		1. See vasODILATION.
+	1278. [[dimethylbenzenes]]
+	1279. [[dimictic lake]]
+	1280. [[dimorphism]]
 	
-	1281. Dinomastigota
-	1282. dinosaur
-	1283. dinucleotide
-	1284. dioecious
-	1285. dioxin
-	1286. dipeptide
-	1287. diphyodont
-	1288. diploblastic
-	1289. diploid
-	1290. diplomonad
+	1281. [[Dinomastigota]]
+	1282. [[dinosaur]]
+	1283. [[dinucleotide]]
+	1284. [[dioecious]]
+	1285. [[dioxin]]
+	1286. [[dipeptide]]
+	1287. [[diphyodont]]
+	1288. [[diploblastic]]
+	1289. [[diploid]]
+	1290. [[diplomonad]]
 	
-	1291. diplont
-	1292. Diplopoda
-	1293. diplotene
-	1294. Diplura
-	1295. Dipnoi
-	1296. Diptera
-	1297. directed evolution
+	1291. [[diplont]]
+	1292. [[Diplopoda]]
+	1293. [[diplotene]]
+	1294. [[Diplura]]
+	1295. [[Dipnoi]]
+	1296. [[Diptera]]
+	1297. [[directed evolution]]
 	1298. directional selection
-	1299. disaccharide
+		1. See positive selection
+	1299. [[disaccharide]]
 	1300. disassortative mating
+		1. See ASSORTATIVE MATING.
 	
-	1301. discicristates
-	1302. Discomitochondria
-	1303. discontinuous replication
-	1304. discontinuous variation
-	1305. disease
-	1306. dishabituation
-	1307. disinfectant
-	1308. disinhibition
-	1309. dispersal
-	1310. dispersion((in ecology))
+	1301. [[discicristates]]
+	1302. [[Discomitochondria]]
+	1303. [[discontinuous replication]]
+	1304. [[discontinuous variation]]
+	1305. [[disease]]
+	1306. [[dishabituation]]
+	1307. [[disinfectant]]
+	1308. [[disinhibition]]
+	1309. [[dispersal]]
+	1310. dispersion
+		1. (in ecology) see population
 	
-	1311. dispersive replication
-	1312. displacement activity
-	1313. display behaviour
-	1314. dissociation constant
-	1315. distal convoluted tubule
-	1316. distribution
-	1317. disulphide bridge
-	1318. diuresis
-	1319. diuretic
-	1320. diurnal
+	1311. [[dispersive replication]]
+	1312. [[displacement activity]]
+	1313. [[display behavior]]
+	1314. [[dissociation constant]]
+	1315. [[distal convoluted tubule]]
+	1316. [[distribution]]
+	1317. [[disulphide bridge]]
+	1318. [[diuresis]]
+	1319. [[diuretic]]
+	1320. [[diurnal]]
 	
 	1321. diurnal rhythm
-	1322. divergence
+		1. See CIRCADIAN RHYTHM.
+	1322. [[divergence]]
 	1323. divergent evolution
-	1324. diverticulum
-	1325. division
+		1. See adaptive radiation
+	1324. [[diverticulum]]
+	1325. [[division]]
 	1326. dizygotic twins
+		1. See fraternal twins
 	1327. dl-form
-	1328. DNA
-	1329. DNA-binding proteins
+		1. See optical activity.
+	1328. [[DNA]]
+	1329. [[DNA-binding proteins]]
 	1330. DNA-dependent RNA polymerase
+		1. See polymerase
 	
 	1331. DNAase
-	1332. DNA barcode
+		1. See DNASE
+	1332. [[DNA barcode]]
 	1333. DNA blotting
+		1. See southern blotting
 	1334. DNA chip
+		1. See DNA microarray
 	1335. DNA cloning
-	1336. DNA fingerprinting
-	1337. DNA hybridization
-	1338. DNA library
-	1339. DNA ligase
-	1340. DNA methylation
+		1. See gene cloning
+	1336. [[DNA fingerprinting]]
+	1337. [[DNA hybridization]]
+	1338. [[DNA library]]
+	1339. [[DNA ligase]]
+	1340. [[DNA methylation]]
 	
-	1341. DNA microarray
-	1342. DNA photolyase
+	1341. [[DNA microarray]]
+	1342. [[DNA photolyase]]
 	1343. DNA polymerase
-	1344. DNA probe
-	1345. DNA profiling
-	1346. DNA repair
-	1347. DNA replication
-	1348. DNase
-	1349. DNA sequencing
-	1350. Dobzhansky–Muller model
+		1. See polymerase
+	1344. [[DNA probe]]
+	1345. [[DNA profiling]]
+	1346. [[DNA repair]]
+	1347. [[DNA replication]]
+	1348. [[DNase]]
+	1349. [[DNA sequencing]]
+	1350. [[Dobzhansky–Muller model]]
 	
 	1351. dodecanoic acid
-	1352. domain
+		1. See lauric acid
+	1352. [[domain]]
 	1353. dominance hierarchy
-	1354. dominant
-	1355. donor
-	1356. dopa
-	1357. dopamine
-	1358. dormancy
-	1359. dorsal
-	1360. dorsal aorta
+		1. See dominant
+	1354. [[dominant]]
+	1355. [[donor]]
+	1356. [[dopa]]
+	1357. [[dopamine]]
+	1358. [[dormancy]]
+	1359. [[dorsal]]
+	1360. [[dorsal aorta]]
 	
 	1361. dorsal lip
-	1362. dorsal root
-	1363. dose
-	1364. dot-blot
-	1365. double circulation
-	1366. double fertilization
+		1. See SPEMANN'S ORGANIZER.
+	1362. [[dorsal root]]
+	1363. [[dose]]
+	1364. [[dot-blot]]
+	1365. [[double circulation]]
+	1366. [[double fertilization]]
 	1367. double helix
-	1368. double recessive
-	1369. Down's syndrome
-	1370. down feathers
+		1. See DNA
+	1368. [[double recessive]]
+	1369. [[Down's syndrome]]
+	1370. [[down feathers]]
 	
 	1371. downregulation
-	1372. draft sequence
+		1. see upregulation
+	1372. [[draft sequence]]
 	1373. dragonflies
-	1374. DRiPs
-	1375. DRIPs
-	1376. drive
-	1377. drone
-	1378. Drosophila
-	1379. drug
-	1380. drupe
+		1. See ODONATA.
+	1374. [[DRiPs]]
+	1375. 
+	1376. [[drive]]
+	1377. [[drone]]
+	1378. [[Drosophila]]
+	1379. [[drug]]
+	1380. [[drupe]]
 	
-	1381. dry mass
-	1382. Dryopithecus
-	1383. duct
+	1381. [[dry mass]]
+	1382. [[Dryopithecus]]
+	1383. [[duct]]
 	1384. ductless gland
-	1385. ductus arteriosus
-	1386. duodenum
-	1387. duplex
-	1388. duplication
-	1389. dura mater
+		1. See ENDOCRINE GLAND.
+	1385. [[ductus arteriosus]]
+	1386. [[duodenum]]
+	1387. [[duplex]]
+	1388. [[duplication]]
+	1389. [[dura mater]]
 	1390. duramen
+		1. See heartwood
 	
 	1391. dwarfism
-	1392. dynein
-	1393. dynorphin
+		1. See growth hormone
+	1392. [[dynein]]
+	1393. [[dynorphin]]
 	1394. dysphotic zone
-	1395. dystrophic
-	1396. e-cell
+		1. See EUPHOTIC ZONE.
+	1395. [[dystrophic]]
+	1396. [[e-cell]]
 	1397. E. coli
-	1398. ear
+		1. See esCherichia COLI.
+	1398. [[ear]]
 	1399. eardrum
-	1400. ear ossicles
+		1. See TYMPANUM.
+	1400. [[ear ossicles]]
 	
 	1401. earwigs
+		1. See dermaptera
 	1402. eccrine secretion
-	1403. ecdysis
-	1404. ecdysis-triggering hormone
-	1405. ecdysone
-	1406. Ecdysozoa
+		1. See secretion
+	1403. [[ecdysis]]
+	1404. [[ecdysis-triggering hormone]]
+	1405. [[ecdysone]]
+	1406. [[Ecdysozoa]]
 	1407. ECG
-	1408. Echinodermata
-	1409. echolocation
-	1410. eclosion hormone
+		1. See ELECTROCARDIOGRAM.
+	1408. [[Echinodermata]]
+	1409. [[echolocation]]
+	1410. [[eclosion hormone]]
 	
 	1411. ECM
-	1412. ecological equivalents
-	1413. ecological footprint
-	1414. ecological niche
+		1. See EXTRACELLULAR MATRIX.
+	1412. [[ecological equivalents]]
+	1413. [[ecological footprint]]
+	1414. [[ecological niche]]
 	1415. ecological pyramid
-	1416. ecology
-	1417. ecosystem
-	1418. ecosystem services
-	1419. ecotoxicology
-	1420. ecotype
+		1. See PYRAMID OF BIOMASS; PYRAMID OF ENERGY; PYRAMID OF NUMBERS.
+	1416. [[ecology]]
+	1417. [[ecosystem]]
+	1418. [[ecosystem services]]
+	1419. [[ecotoxicology]]
+	1420. [[ecotype]]
 	
-	1421. ectoderm
-	1422. ectoparasite
+	1421. [[ectoderm]]
+	1422. [[ectoparasite]]
 	1423. ectoplasm
+		1. See cytoplasm
 	1424. Ectoprocta
-	1425. ectotherm
+		1. See bryozoa
+	1425. [[ectotherm]]
 	1426. ectotrophic mycorrhiza
-	1427. edaphic factor
-	1428. eddy covariance technique
-	1429. edge effect((in ecology))
+		1. See mycorrhiza
+	1427. [[edaphic factor]]
+	1428. [[eddy covariance technique]]
+	1429. [[edge effect]]
 	1430. Ediacaran fauna
+		1. See PROTEROZOIC.
 	
-	1431. Ediacaran period
-	1432. EDTA
+	1431. [[Ediacaran period]]
+	1432. [[EDTA]]
 	1433. EEG
-	1434. effector
+		1. See electroencephalogram.
+	1434. [[effector]]
 	1435. effector-triggered immunity
-	1436. effector neuron
-	1437. efferent
-	1438. egestion
+		1. (ETI) See IMMUNITY (sense 2).
+	1436. [[effector neuron]]
+	1437. [[efferent]]
+	1438. [[egestion]]
 	1439. EGF
-	1440. egg
+		1. See EPIDERMAL GROWTH FACTOR.
+	1440. [[egg]]
 	
-	1441. egg membrane
-	1442. eicosanoid
-	1443. ejaculation
+	1441. [[egg membrane]]
+	1442. [[eicosanoid]]
+	1443. [[ejaculation]]
 	1444. elaiosome
+		1. See MYRMECOCHORY.
 	1445. Elasmobranchii
+		1. See CHONDRICHTHYES.
 	1446. elastic cartilage
+		1. See cartilage
 	1447. elastic fibres
-	1448. elastin
-	1449. electric organ
-	1450. electric potential
+		1. See elastin
+	1448. [[elastin]]
+	1449. [[electric organ]]
+	1450. [[electric potential]]
 	
-	1451. electro-olfactogram
-	1452. electrocardiogram
-	1453. electroencephalogram
-	1454. electrogenic
-	1455. electrogenic pump
+	1451. [[electro-olfactogram]]
+	1452. [[electrocardiogram]]
+	1453. [[electroencephalogram]]
+	1454. [[electrogenic]]
+	1455. [[electrogenic pump]]
 	1456. electrolocation
-	1457. electrolyte
-	1458. electromagnetic spectrum
-	1459. electromyogram
-	1460. electron
+		1. See ELECTRORECEPTOR.
+	1457. [[electrolyte]]
+	1458. [[electromagnetic spectrum]]
+	1459. [[electromyogram]]
+	1460. [[electron]]
 	
-	1461. electron flow
-	1462. electron microscope
-	1463. electron transport chain
-	1464. electrophoresis
-	1465. electroplax
-	1466. electroreceptor
-	1467. electrovalent bond
-	1468. elicitor
-	1469. ELISA
-	1470. El Niño-Southern Oscillation
+	1461. [[electron flow]]
+	1462. [[electron microscope]]
+	1463. [[electron transport chain]]
+	1464. [[electrophoresis]]
+	1465. [[electroplax]]
+	1466. [[electroreceptor]]
+	1467. [[electrovalent bond]]
+	1468. [[elicitor]]
+	1469. [[ELISA]]
+	1470. [[El Niño-Southern Oscillation]]
 	
-	1471. elongation
-	1472. elytra
-	1473. emasculation((in plant breeding))
-	1474. Embase
+	1471. [[elongation]]
+	1472. [[elytra]]
+	1473. [[emasculation]]
+	1474. [[Embase]]
 	1475. Embden-Meyerhof pathway
-	1476. embedding
-	1477. embryo
-	1478. embryology
+		1. See GLYcolysis.
+	1476. [[embedding]]
+	1477. [[embryo]]
+	1478. [[embryology]]
 	1479. embryo mother cell
+		1. See MEGASPORE MOTHER CELL.
 	1480. embryonic stem cell
+		1. See stem cell
 	
-	1481. embryophyte
-	1482. embryo sac
+	1481. [[embryophyte]]
+	1482. [[embryo sac]]
 	1483. EMG
-	1484. emulsification((in digestion))
-	1485. emulsion
-	1486. enamel
-	1487. enamel organ
+		1. See ELECTROMYOGRAM.
+	1484. [[emulsification]]
+	1485. [[emulsion]]
+	1486. [[enamel]]
+	1487. [[enamel organ]]
 	1488. encephalin
-	1489. encephalization quotient
-	1490. ENCODE
+		1. See ENKEPHALIN.
+	1489. [[encephalization quotient]]
+	1490. [[ENCODE]]
 	
-	1491. end-plate potential
-	1492. endangered species
-	1493. endemic
-	1494. endergonic reaction
+	1491. [[end-plate potential]]
+	1492. [[endangered species]]
+	1493. [[endemic]]
+	1494. [[endergonic reaction]]
 	1495. endocardium
+		1. See MYOCARDIUM.
 	1496. endocarp
+		1. See PERICARP.
 	1497. endochondral ossification
-	1498. endocrine gland
-	1499. endocrinology
-	1500. endocytosis
+		1. See ossification.
+	1498. [[endocrine gland]]
+	1499. [[endocrinology]]
+	1500. [[endocytosis]]
 	
-	1501. endoderm
-	1502. endodermis
-	1503. endogamy
-	1504. endogenous
-	1505. endolymph
-	1506. endomembrane system
-	1507. endometrium
-	1508. endomitosis
-	1509. endonuclease
-	1510. endoparasite
+	1501. [[endoderm]]
+	1502. [[endodermis]]
+	1503. [[endogamy]]
+	1504. [[endogenous]]
+	1505. [[endolymph]]
+	1506. [[endomembrane system]]
+	1507. [[endometrium]]
+	1508. [[endomitosis]]
+	1509. [[endonuclease]]
+	1510. [[endoparasite]]
 	
-	1511. endopeptidase
-	1512. endophenotype
+	1511. [[endopeptidase]]
+	1512. [[endophenotype]]
 	1513. endoplasm
-	1514. endoplasmic reticulum
-	1515. endopterygote
-	1516. endoreduplication
-	1517. end organ
-	1518. endorphin
-	1519. endoscopy
-	1520. endoskeleton
+		1. See cytoplasm
+	1514. [[endoplasmic reticulum]]
+	1515. [[endopterygote]]
+	1516. [[endoreduplication]]
+	1517. [[end organ]]
+	1518. [[endorphin]]
+	1519. [[endoscopy]]
+	1520. [[endoskeleton]]
 	
-	1521. endosome
-	1522. endosperm
-	1523. endospore
-	1524. endostyle
-	1525. endosymbiont
-	1526. endothelin
-	1527. endothelium
-	1528. endothermic
+	1521. [[endosome]]
+	1522. [[endosperm]]
+	1523. [[endospore]]
+	1524. [[endostyle]]
+	1525. [[endosymbiont]]
+	1526. [[endothelin]]
+	1527. [[endothelium]]
+	1528. [[endothermic]]
 	1529. endotoxin
+		1. See toxin
 	1530. endotrophic mycorrhiza
+		1. See mycorrhiza
 	
-	1531. end plate
-	1532. energy
-	1533. energy flow((in ecology))
-	1534. enhancer
-	1535. enkephalin
-	1536. Ensembl
-	1537. enterogastric reflex
-	1538. enterokinase
+	1531. [[end plate]]
+	1532. [[energy]]
+	1533. [[energy flow]]
+	1534. [[enhancer]]
+	1535. [[enkephalin]]
+	1536. [[Ensembl]]
+	1537. [[enterogastric reflex]]
+	1538. [[enterokinase]]
 	1539. enteron
-	1540. enthalpy
+		1. (coelenteron) See GASTROVASCULAR CAVITY.
+	1540. [[enthalpy]]
 	
 	1541. entoderm
-	1542. entomology
-	1543. entomophily
-	1544. Entoprocta
-	1545. entrainment
-	1546. Entrez
-	1547. entropy
-	1548. environment((in ecology))
+		1. See endotherm
+	1542. [[entomology]]
+	1543. [[entomophily]]
+	1544. [[Entoprocta]]
+	1545. [[entrainment]]
+	1546. [[Entrez]]
+	1547. [[entropy]]
+	1548. [[environment]]
 	1549. environmental constraint hypothesis
-	1550. environmental resistance
+		1. See CARBON:NUTRIENT BALANCE HYPOTHESIS.
+	1550. [[environmental resistance]]
 	
-	1551. environmental selection
-	1552. enzyme
+	1551. [[environmental selection]]
+	1552. [[enzyme]]
 	1553. enzyme-linked immunosorbent assay
-	1554. enzyme-substrate complex
+		1. See Elisa
+	1554. [[enzyme-substrate complex]]
 	1555. enzyme inhibition
-	1556. enzyme kinetics
-	1557. Eoarchaean
-	1558. Eocene
+		1. See inhibition.
+	1556. [[enzyme kinetics]]
+	1557. [[Eoarchaean]]
+	1558. [[Eocene]]
 	1559. EOG
-	1560. eosin
+		1. See ELECTRO-OLFACTOGRAM.
+	1560. [[eosin]]
 	
-	1561. eosinophil
-	1562. ephemeral
-	1563. Ephemeroptera
+	1561. [[eosinophil]]
+	1562. [[ephemeral]]
+	1563. [[Ephemeroptera]]
 	1564. epiblast
-	1565. epiboly
-	1566. epicalyx
+		1. See blastula
+	1565. [[epiboly]]
+	1566. [[epicalyx]]
 	1567. epicarp
-	1568. epicotyl
-	1569. epidemic
-	1570. epidermal growth factor
+		1. See PERICARP.
+	1568. [[epicotyl]]
+	1569. [[epidemic]]
+	1570. [[epidermal growth factor]]
 	
 	1571. epidermis
 	1572. epididymis

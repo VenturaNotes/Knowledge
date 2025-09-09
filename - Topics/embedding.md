@@ -9,8 +9,11 @@
 - (3) The inclusion of fonts in a document, as in a PostScript or PDF file.
 ## Source[^3]
 - $n$. (in microscopy) the fixing of a specimen within a mass of firm material in order to facilitate the cutting of thin sections for microscopical study. The embedding medium, e.g. paraffin wax for light microscopy or Araldite for electron microscopy, helps to keep the specimen intact.
+## Source[^4]
+- A stage in the preparation of a sample for examination by microscopy that involves impregnation of the sample with wax or plastic following dehydration. The embedded sample can then be cut into extremely thin sections to reveal cellular and subcellular structure.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

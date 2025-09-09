@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- A technique for editing DNA in living cells that can block, repair, or modify specific genes. It is based on a system found in prokaryotes (both bacteria and archaea) that involves a genetic locus called CRISPR (clustered regularly interspaced short palindromic repeats) and CRISPR-associated protein 9 (Cas9). These components function to defend the prokaryote cell against infection with bacteriophages. The CRISPR sequences encode small RNA molecules, called CRISPR RNAs (crRNAs), which recognize and base-pair with complementary sequences in incoming viral DNA or RNA. This specific pairing guides CRISPR-associated protein 9 (Cas9) to cleave the virus DNA, thus protecting the cell from further viral infection. This system has been adapted so that the CRISPR-Cas9 mechanism can precisely locate and cut double-stranded DNA in eukaryotes, including humans, enabling target sequences to be cut out and new ones inserted at specific sites. This makes it a valuable tool for genome editing, e.g. in correcting mutations during gene therapy. A guide crRNA sequence is devised based on knowledge of the target site, and its complementary DNA is incorporated into a plasmid vector that also includes sequences encoding a Cas9 protein plus a reporter gene. Thus, when the vector is introduced to a cell, the crRNA and Cas9 protein are expressed and perform the required editing.
 ## References
 
-[^1]:
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
