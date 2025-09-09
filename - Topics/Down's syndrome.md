@@ -5,6 +5,9 @@
 - Prenatal diagnosis of Down's syndrome can be obtained by amniocentesis and chorionic villus sampling, which are invasive procedures, and about $33 \%$ of structural abnormalities in fetuses with Down's can be detected prenatally by ultrasonography. Prenatal screening tests (e.g. the triple test) and soft ultrasound markers (e.g. nuchal translucency scanning) can estimate the risk of Down's syndrome being present. \[J. L. H. Down (1828-96), British physician]
 - https://www.downs-syndrome.org.uk/
 	- Website of the Down's Syndrome Association
+## Source[^2]
+- A congenital disability due to a chromosome defect in which there are three copies of chromosome no. 21 instead of the usual two (see TrisОМY). The affected individual has a short broad face and slanted eyes (as in the Mongolian races), short fingers, and weak muscles. Down's syndrome can be detected before birth by amniocentesis. It is named after the British physician John Down (1828-96), who first studied the incidence of the disorder.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

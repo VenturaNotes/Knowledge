@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A concept, devised originally by British plant ecologist J. Philip Grime, in which plants are classified according to their life-history characteristics as competitive (C), stress-tolerant (S), or ruderal (R), or some combination of these. It is based on the proposition that habitats are affected by two principal external factors: the level of disturbance (e.g. grazing, disease, trampling) and the degree of stress (e.g. drought, nutrient deficiencies, fire, shading). Plants that are S-strategists tend to flourish under conditions of severe stress but little disturbance; R-strategists are favored by high levels of disturbance coupled with plentiful resources; and competitors thrive under the crowded conditions that occur when resources are abundant and disturbance is rare. The concept illuminates the analysis of plant communities and helps in predicting their responses to change. It is often depicted as a CSR triangle, with the three extreme strategies occupying the angles and intermediate forms (e.g. SR, CS) arrayed within the triangle. Compare LEAF-HEIGHT-SEED SCHEME.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -6,6 +6,9 @@
 	- A typical electrocardiogram
 	- P wave due to atrial activation. Q, R, S, and T waves due to ventricular activation
 		- heart at rest
+## Source[^2]
+- (ECG) A tracing or graph of the electrical activity of the heart. Recordings are made from electrodes fastened over the heart and usually on both arms and a leg. Changes in the normal pattern of an ECG may indicate heart irregularities or disease.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

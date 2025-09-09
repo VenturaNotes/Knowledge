@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- In traditional classifications, a subphylum of arthropods containing over 35,000 species distributed worldwide, mainly in freshwater and marine habitats, where they constitute a major component of plankton. Crustaceans include shrimps, crabs, lobsters, etc. (see DECAPODA) and the terrestrial woodlice, all of which belong to the class Malacostraca; the barnacles (class Cirripedia); the water fleas (see DAPHNIA), fairy shrimps and tadpole shrimps (see BRANCHIOPODA); and the copepods (see COPEPODA). The segmented body usually has a distinct head (bearing compound eyes, two pairs of antennae, and various mouthparts), thorax, and abdomen, and is protected by a shell-like carapace. Each body segment may bear a pair of biramous appendages used for locomotion, as gills, and for filtering food particles from the water. Appendages in the head region are modified to form jaws and in the abdominal region are often reduced or absent. Typically, the eggs hatch to produce a free-swimming nauplius larva. This develops either by a series of moults or undergoes metamorphosis to the adult form. Genetic and other molecular evidence now shows that the insects evolved from crustacean ancestors and that certain groups of crustaceans are more closely related to insects than to other crustaceans. Hence, although the evolutionary relationships of many crustacean lineages are still debatable, both groups are now placed in the clade Pancrustacea (see ARTHROPOD).
+- http://tolweb.org/Crustacea/2529
+	- Overview of crustacean phylogeny at the Tree of Life web project
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -20,6 +20,9 @@
 		- Canines
 		- Premolars
 		- Molars
+## Source[^2]
+- The type, number, and arrangement of teeth in a species. This can be represented concisely by a dental formula. See also PERMANENT TEETH; DIPHYODONT; MONOPHYODONT; POLYPHYODONT; HETERODONT; HOMODONT.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

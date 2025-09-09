@@ -12,7 +12,11 @@ aliases:
 - $n$. 
 - (1) (in ophthalmology) simultaneous abduction of the eyes. Divergence excess is a divergent squint (see STRABISMUS) in which the eyes are deviated outwards more when looking in the distance than when looking at near objects. Divergence insufficiency is a convergent squint (see STRABISMUS) in which the eyes are deviated slightly inwards only when looking in the distance. 
 - (2) (in ethics) a difference of opinion.
+## Source[^3]
+- (1) (in neuroanatomy) The branching of the terminal axon of a neuron so that it connects with numerous target cells. For example, each horizontal cell in the retina of the eye has a greatly branched axon ending that can transmit signals to many other cells in the retina. 
+- (2) Divergent evolution. See adaptive RADIATION. Compare CONVERGENCE.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

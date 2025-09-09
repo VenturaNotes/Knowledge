@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An approach used in biomolecular engineering that employs evolutionary principles to generate molecules with improved or novel properties. Essentially, mutated forms of a target molecule are replicated, and the best-performing ones are selected for further rounds of mutation and selection until the desired outcome is achieved. This may be, e.g. an enzyme with enhanced affinity for a substrate, an antibody with a new specificity for a receptor, or a protein that is stable at higher temperatures. In a typical scenario, a progenitor enzyme with a similar activity to that sought is identified, and its gene is replicated and mutated (e.g. by error-prone polymerase chain reaction or site-directed mutagenesis) to create a 'library' of mutants. The mutant genes are then cloned, screened for the desired activity, and the most promising clones selected for further mutation. The random nature of the approach can lead to novel and useful outcomes that molecular modelling would not yield. Moreover, the use of high-throughput screening techniques enables the selection of the few promising candidate genes from the very large numbers of mutants generated. See also PROTEIN ENGINEERING.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

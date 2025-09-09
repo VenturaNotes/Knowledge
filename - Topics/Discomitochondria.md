@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- In some earlier classifications, a phylum of protists consisting of motile single-celled organisms characterized by disc-shaped cristae in their mitochondria and the absence of sexual reproduction in their life cycles. There are four classes, all of which are traditionally described as flagellate protozoans. The Euglenida comprise mainly photosynthetic organisms, such as Euglena itself, and have a sculpted outer covering (pellicle). The Kinetoplastida are characterized by a large modified mitochondrion (kinetoplast) at the base of the flagellum and include parasites such as the trypanosomes as well as free-living representatives (e.g. bodos). Members of the third class, the Amoebomastigota, can transform themselves from an amoeboid form into a flagellated form, and back again, depending on the nutrient status of their surroundings. Finally, the Pseudociliata are free-living marine organisms that resemble true ciliates (see CILIOPHORA) in having rows of cilia on their surface, but lack the two different types of nuclei found in ciliates. Members of the Discomitochondria are now included, with acrasid cellular slime moulds, in the discicristates.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

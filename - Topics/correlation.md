@@ -6,7 +6,10 @@
 - Correlation does not imply causation. Variables may be correlated accidentally, or because of joint association with other unmeasured agencies such as a general upward trend with time. If the relationship is not linear the correlation coefficient may be misleading.
 ## Source[^2]
 - $n$. (in statistics) the degree of linear relationship between two or more variables. Pairs of observations can be plotted as a series of points on a graph. The correlation coefficient measures the extent to which the points on the resulting scatter diagram form a straight line. The correlation coefficient varies within the range of +1 (where an increase of one variable is associated with a corresponding increase in the other, and vice versa) to -1 (where an increase of one variable is associated with a corresponding decrease of the other); a coefficient of 0 indicates no linear relationship between the two variables. The statistical technique known as multivariate analysis can be used to investigate the relationships between several variables.
+## Source[^3]
+- In statistics, the degree of linear relationship between two or more variables. Pairs of observations can be plotted as a series of points on a graph. The correlation coefficient measures the extent to which the points on the resulting scatter diagram form a straight line. The correlation coefficient varies within the range of +1 (where an increase of one variable is associated with a corresponding increase in the other, and vice versa) to -1 (where an increase of one variable is associated with a corresponding decrease of the other); a coefficient of 0 indicates no linear relationship between the two variables. The statistical technique known as multivariate analysis can be used to investigate the relationships between several variables. See also CONFOUNDING.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

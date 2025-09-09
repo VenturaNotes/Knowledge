@@ -8,7 +8,10 @@
 - Patients have had their corpus callosum surgically severed to stop the spread of epileptic seizures
 ## Source[^2]
 - the broad band of nervous tissue that connects the two cerebral hemispheres, containing an estimated 300 million fibres. See CEREBRUM.
+## Source[^3]
+- (pl. corpora callosa) The sweeping band (commissure) of white matter that provides a connection between the two halves of the cerebrum in the brain. It enables the transfer of information and learning from one cerebral hemisphere to the other.
 ## References
 
 [^1]: [[(72) 2-Minute Neuroscience - Corpus Callosum]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

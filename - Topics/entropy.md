@@ -63,7 +63,11 @@ Entropy is then measured in bits, in natural units or nats, or in Hartleys, resp
   
 
 The term arises by analogy with entropy in thermodynamics, where the defining expression has the same form but with a physical scale factor $k$ (Boltzmann constant) and with the sign changed. The word [[negentropy]] is therefore sometimes used for the measure of information, as is uncertainty or simply 'information'.
+## Source[^3]
+- Symbol S. A measure of the unavailability of a system's energy to do work; an increase in entropy is accompanied by a decrease in energy availability. When a system undergoes a reversible change the entropy $(S)$ changes by an amount equal to the energy $(Q)$ absorbed by the system divided by the thermodynamic temperature $(T)$ at which the energy is absorbed, i.e. $\Delta S=\Delta Q / T$. However, all real processes are to a certain extent irreversible changes and in any closed system an irreversible change is always accompanied by an increase in entropy.
+- In a wider sense entropy can be interpreted as a measure of a system's disorder; the higher the entropy the greater the disorder. As any real change to a closed system tends towards higher entropy, and therefore higher disorder, it follows that the entropy of the universe (if it can be considered a closed system) is increasing and its available energy is decreasing. This increase in the entropy of the universe is one way of stating the second law of thermodynamics.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

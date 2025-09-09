@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The benefits that people receive from ecosystems. These benefits can be classified into several categories. Provisioning services include the products that humans derive from ecosystems, such as food, fibres, fuel, drinking water, and medicinal products. Regulating services encompass such processes as control of the climate, purification of air and water, amelioration of erosion, reduction of pests and diseases, and provision of pollination mechanisms. Cultural services comprise the nonmaterial benefits that accrue from the landscape, such as recreational pursuits, spiritual renewal, and aesthetic experiences. Underlying all these are the fundamental supporting services of all ecosystems, such as primary production (i.e. photosynthesis by green plants, algae, etc.), nutrient cycling (e.g. carbon, nitrogen, sulphur cycles), water cycling, and soil formation. The notion that humans depend on their environment, which was deeply entrenched in early societies, came to be widely disregarded with the migration of populations to urban centres and increasing reliance on technology to support those populations. However, in recent decades the widespread degradation of many of the world's ecosystems has seen the concept of ecosystem services acquire greater prominence, chiefly as a means of assessing the economic value of particular ecological benefits and the cost of their destruction.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

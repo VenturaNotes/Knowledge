@@ -27,7 +27,35 @@
 		- bone
 		- external auditory meatus
 		- malleus
+## Source[^3]
+- The sense organ in vertebrates that is specialized for the detection of sound and the maintenance of balance. It can be divided into the outer ear and middle ear, which collect and transmit sound waves, and the inner ear, which contains the organs of balance and (except in fish) hearing (see illustration). The term ear is often used for the pinna of the mammalian outer ear.
+- ![[Screenshot 2025-09-09 at 12.58.15 AM.png]]
+	- Structure of the mammalian ear
+	- Parts
+		- Pinna
+		- ear ossicles
+			- malleus (hammer)
+			- incus (anvil)
+			- stapes (stirrup)
+		- semicircular canals
+		- utriculus
+		- perilymph
+		- ampulla
+		- auditory nerve
+		- sacculus
+		- oval window
+		- nerve fibre
+		- cochlea
+		- endolymph
+		- Eustachian tube
+		- inner ear
+		- middle ear
+		- round window
+		- tympanum (eardrum)
+		- outer ear
+		- external auditory meatus
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -19,6 +19,29 @@
 		- Uterus lining (endometrium)
 		- muscular wall of uterus
 		- Cervix
+## Source[^2]
+- (1) An animal in the earliest stages of its development, from the time when the fertilized ovum starts to divide (see Cleavage), while it is contained within the egg or reproductive organs of the mother, until hatching or birth. A human embryo (see illustration) is called a fetus after the first eight weeks of pregnancy.
+- (2) The structure in plants that develops from the zygote prior to germination. In seed plants the zygote is situated in the embryo sac of the ovule. It divides by mitosis to form the embryonic cell and a structure called the suspensor, which embeds the embryo in the surrounding nutritive tissue. The embryonic cell divides continuously and eventually gives rise to the radicle (young root), plumule (young shoot), and one or two cotyledons (seed leaves). Changes also take place in the surrounding tissues of the ovule, which becomes the seed enclosing the embryo plant.
+- ![[Screenshot 2025-09-09 at 1.28.22 AM.png]]
+	- A developing human embryo
+	- Parts
+		- Fallopian tube
+		- yolk sac
+		- cervix
+		- vagina
+		- amniotic fluid
+		- chorion
+		- embryo
+		- amnion
+		- umbilical cord
+		- blood vessel
+		- placenta
+		- uterus wall
+		- chorionic villi
+- http://discovery.lifemapsc.com/
+	- #comment Seems like the site has shutdown but there is a message on there for that
+	- A compendium of embryonic development, stem cell research, and regenerative medicine
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

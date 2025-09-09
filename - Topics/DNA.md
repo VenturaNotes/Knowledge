@@ -22,6 +22,30 @@ aliases:
 			- S deoxyribose sugar
 			- P phosphate
 			- --- hydrogen bond
+## Source[^2]
+- (deoxyribonucleic acid) The genetic material of most living organisms, which is a major constituent of the chromosomes within the cell nucleus and plays a central role in the determination of hereditary characteristics by controlling protein synthesis in cells (see also GENETIC CODE). It is also found in chloroplasts and mitochondria (see EXTRANUCLEAR GENES; MITOCHONDRIAL DNA). DNA is a nucleic acid composed of two chains of nucleotides in which the sugar is deoxyribose and the bases are adenine, cytosine, guanine, and thymine (compare RNA). The carbon atoms of each deoxyribose unit are numbered 1' (i.e. 1 'prime') to 5'. Attached to each 5' carbon atom is a phosphate group, via which a covalent bond forms with the 3 ' carbon of the ribose of the adjoining nucleotide. The chains run in opposite directions$\textemdash$they are antiparallel—with 3' and 5' chain ends apposed at either end of the molecule. The two chains are wound round each other and linked together by hydrogen bonds between specific complementary bases (see BASE PAIRING) to form a spiral ladder-shaped molecule (double helix; see also SUPERCOILING). Van der Waals forces between adjacent bases on the same strand also contribute to chain stability. See illustration.
+- When the cell divides, its DNA also replicates in such a way that each of the two daughter molecules is identical to the parent molecule (see DNA REPLICATION). Synthesis of DNA from scratch is a key technology of synthetic biology and particularly crucial to fulfilling the potential of DNA as a medium for storing digital data. See also COMPLEMENTARY DNA.
+- ![[Screenshot 2025-09-09 at 12.33.04 AM.png]]
+	- Molecular structure of DNA
+	- Parts
+		- double helical structure of DNA
+			- Sugar-phosphate backbone
+			- Hydrogen bond
+			- Base
+		- detail of molecular structure of the sugar-phosphate backbone. Each deoxyribose unit is attached via its 5' carbon atom to a phosphate group, and during DNA replication, new nucleotides are added via the 3' -OH group. Hence, the chain is said to grow in the 5' to 3' direction.
+			- Nucleotide
+			- Deoxyribose
+			- Bases
+		- The four bases of DNA, showing the hydrogen bonding between base pairs.
+			- thymine (T)
+			- cytosine (C)
+			- guanine (G)
+			- Adenine (A)
+			- Sugar-phosphate backbone
+			- hydrogen bond
+- http://www.dnaftb.org/
+	- An animated primer on basic aspects of DNA, genes, and heredity, produced for the Cold Spring Harbor Laboratory
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

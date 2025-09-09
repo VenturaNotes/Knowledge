@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The study of the harmful effects of chemicals on the environment and living organisms. Numerous chemicals enter terrestrial and aquatic environments from a wide range of sources, including geological deposits of metals, salts, or hydrocarbons (e.g. coal, petroleum, gas), mining, industries, farming, horticulture, forestry, power generation, vehicles, homes, businesses, and living organisms (i.e. biotoxins). Toxicants individually or in combination can interfere with the life processes of microbial, plant, and animal communities and thereby impact on food webs and ecosystems, with possible consequences for human health and society. Ecotoxicologists study the physical and chemical properties of materials, monitor how they behave in the environment, and use their knowledge to predict how a parent chemical and its metabolites are transferred among organisms; the potential toxic impacts; and also whether clean-up and bioremediation measures may be usefully deployed. They are also concerned with developing 'green chemistry', which seeks to make and use safer compounds that have minimal ecological impact. See also bioAccumulation.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
