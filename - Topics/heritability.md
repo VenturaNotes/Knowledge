@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A measure of the degree to which the variance of a particular phenotype is caused by genetic factors. It is given by a value between 0 and 1 and effectively measures the extent to which offspring resemble their parents relative to the population mean. Estimates of heritability are important in applied genetics, especially in agriculture and horticulture, because they enable prediction of the response of a population to artificial selection. The higher the heritability value, the greater the response, although heritability declines after several generations of artificial selection due to increasing homozygosity. The term is used in two different ways. Heritability in the narrow sense is the proportion of phenotypic variance due only to the additive genetic effect of all the polygenes controlling a particular trait; hence it measures the proportion that is transmissible to offspring and therefore amenable to selection. Heritability in the broad sense considers other genetic but nontransmissible factors as well, including dominance and epistasis; it is used, for example, in psychology to quantify genetic and environmental influences.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

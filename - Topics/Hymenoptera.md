@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- An order of insects that includes the ants, bees, wasps, ichneumon flies, and sawflies. Hymenopterans generally have a narrow waist between thorax and abdomen. The smaller hindwings are interlocked with the larger forewings by a row of tiny hooks on the leading edges of the hindwings. Some species are wingless. The mouthparts are typically adapted for biting, although some advanced forms (e.g. bees) possess a tubelike proboscis for sucking liquid food, such as nectar. The long slender ovipositor can serve for sawing, piercing, or stinging. Metamorphosis occurs via a pupal stage to the adult form. Parthenogenesis is common in the group.
+- Ants and some bees and wasps live in colonies, often comprising numerous individuals divided into castes and organized into a coordinated and complex society. The colony of the honeybee (Apis mellifera), for example, consists of workers (sterile females), drones (fertile males), and usually a single fertile female$\textemdash$the queen. The primary concern of the queen is egg laying. She determines the gender of the egg by either withholding or releasing stored sperm. Unfertilized eggs become males; fertilized eggs become females. Under the influence of pheromones released by the queen, the workers fulfil a variety of tasks, including nursing the developing larvae, building the wax cells (combs) of the hive, guarding the colony, and foraging for nectar and pollen. The single function of the larger drones is to mate with the young queen on her nuptial flight.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -10,6 +10,9 @@
 		- goblet cell
 	- Ciliated columnar epithelium 
 	- Types of epithelium
+## Source[^2]
+- (pl. epithelia) A tissue in vertebrates consisting of closely packed cells in a sheet with little intercellular material. It covers the outer surfaces of the body and walls of the internal cavities (coeloms) and is often underlain by a basement membrane. It also forms glands and parts of sense organs. Its functions are protective, absorptive, secretory, and sensory. The types of cell vary, giving rise to squamous epithelium; ciliated epithelium; cuboidal epithelium, with cube-shaped cells; and columnar epithelium, with rectangular cells (see also STRATIFIED EPITHELIUM). Epithelium is derived from ectoderm and endoderm. Compare ENDOTHELIUM; MESOTHELIUM.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The formation of flowers and their associated reproductive structures in flowering plants. Whether flowering will take place under appropriate conditions depends on many factors, notably the type of plant (i.e. whether an annual, biennial, or perennial), its stage of maturity, and the season. Many plants use day length as a cue (see photoperiodism) to synchronize individuals within the same population, so that the chances of crosspollination are maximized. In others flowering is regulated by temperature (see VERnALIZATION). The transition from vegetative growth to a flowering state requires that a vegetative apical meristem changes into an inflorescence meristem or floral meristem, which in turn gives rise to the whorls of organs (sepals, petals, stamens, and carpels) that constitute each individual flower (see ABC MODEL). Genes controlling this transition have been studied in the model plant Arabidopsis thaliana (thale cress). A crucial step is the expression of two meristem identity genes, LEAFY and APETALA1, which encode respective transcription factors. These genes are switched on by the flowering initiation hormone florigen in conjunction with other proteins, notably FD protein. See also CO PROTEIN.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

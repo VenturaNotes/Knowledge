@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A change in the membrane potential of a cell from its resting potential that varies with the strength of a stimulus reaching the cell. It can result from chemical or physical factors that affect the transfer of ions into and out of the cell via ion channels. Such movements may cause the membrane potential to become more negative (hyperpolarization) or less negative (depolarization). The magnitude of the change reflects the net size of the stimulus and is thus a way of integrating positive and negative inputs. This integration is particularly important in nervous systems, when nerve cells (neurons) receive numerous excitatory and inhibitory signals from other neurons; it determines how the neuron will respond. Graded potentials usually give rise to very small electric currents, which travel short distances from the cell and decay rapidly. But in neurons, if the depolarization reaches a certain threshold, it triggers an action potential, which travels along the axon as a signal to other excitatory cells. Sensory receptor cells, such as occur in the eye, ear, and other sense organs, typically respond to stimuli by producing a graded potential called a receptor potential. This may trigger an action potential in the receptor cell itself, or in a sensory neuron, or change the rate at which the sensory neuron generates spontaneous action potentials.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

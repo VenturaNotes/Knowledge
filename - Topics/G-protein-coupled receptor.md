@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (GPCR) Any of a superfamily of proteins that are located in cell membranes and act as metabotropic receptors, relaying signals from the exterior to the interior of the cell via associated G proteins. The latter then activate second messengers, which regulate the activity of the cell. GPCRs function in vision, hearing, smell, and embryonic development, among many other roles, and their malfunction is involved in various diseases. GPCRs are characterized by having seven transmembrane domains, connected by intracellular and extracellular loops, an extracellular amino terminus, and an intracellular carboxy terminus. The second and third intracellular loops and part of the carboxy tail form the binding domain for the G protein. A wide range of substances, including peptide hormones, acetylcholine, adrenaline, noradrenaline, gamma-aminobutyric acid, and glutamate, can bind as ligands to the various types of GPCR, at binding sites in the extracellular region of the receptor molecule. Ligand binding changes the shape of the receptor allowing the G protein to bind to it, which activates the G protein by causing GTP to replace bound GDP.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

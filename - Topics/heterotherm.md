@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An organism whose ability to regulate its body temperature is intermediate between an endotherm and an ectotherm. Some small birds and mammals$\textemdash$generally endothermic ('warm-blooded') groups$\textemdash$may reduce their metabolic rate during a particular season or even a certain time of day, allowing their body temperature to fall and entering a state of torpor. In small animals, for example hummingbirds and certain rodents, this avoids the relatively high cost of maintaining a constant body temperature during periods of food scarcity or other adverse conditions. This strategy is sometimes called partial endothermy. At the opposite end of the spectrum, certain animals that are generally regarded as ectothermic ('cold-blooded') have the ability to generate heat internally for limited periods, thus temporarily raising their body temperature to enable activity when the environmental temperature is low. Various insects, including bumblebees, are known to shiver in cold conditions in order to attain the body temperature necessary for flight. This may be termed facultative endothermy.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

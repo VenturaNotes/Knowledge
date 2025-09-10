@@ -31,6 +31,28 @@
 		- optic nerve
 		- retina
 		- extrinsic muscle
+## Source[^2]
+- The organ of sight. The most primitive eyes are the eyespots of some unicellular organisms. More advanced eyes are the ocelli and compound eyes of arthropods (e.g. insects). The cephalopod molluscs (e.g. the octopus and squid) and vertebrates possess the most highly developed eyes (see illustration). These normally occur in pairs, are nearly spherical, and filled with fluid. Light is refracted by the cornea through the pupil in the iris and onto the lens, which focuses images onto the retina. These images are received by lightsensitive cells in the retina (see CONE; ROD), which transmit impulses to the brain via the optic nerve.
+- ![[Screenshot 2025-09-09 at 5.15.35 PM.png]]
+	- Structure of the vertebrate eye
+	- Parts
+		- Conjunctiva
+		- Iris
+		- Cornea
+		- Lens
+		- Pupil
+		- Aqueous humour
+		- Ciliary body
+		- Retina
+		- Sclerotic
+		- Choroid
+		- Fovea
+		- Blind spot
+		- Optic nerve
+		- Vitreous humour
+- https://www.emedicinehealth.com/anatomy_of_the_eye/article_em.htm
+	- Gross anatomy of the eye, from emedicine
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

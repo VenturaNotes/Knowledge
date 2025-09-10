@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A region of the earth with a distinct and characteristic assemblage of animal taxa. There are six commonly recognized faunal regions used in zoogeography: the Ethiopian region, consisting of Africa south of the Sahara and part of southern Arabia; the Oriental region, which covers tropical Asia and associated continental islands; the Palaearctic region, comprising Europe and Asia north of the tropics; the Nearctic region, consisting of North America except for tropical Mexico; the Neotropical region, consisting of South and Central America including tropical Mexico; and the Australian region, covering principally Australia and New Guinea. The regions are described mainly in terms of their terrestrial and freshwater vertebrate fauna, especially mammals and birds, although the invertebrate fauna may sometimes be included. The concept was originated by 19th century naturalists, such as P. L. Sclater and A. R. Wallace, and held as evidence of continental drift (see wallace's line). However, another important factor in determining the nature of a region's fauna is the historical migration of species from their centres of origin, a process influenced by the presence of physical barriers, such as mountains. Climate, and hence latitude, is also an important factor.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
