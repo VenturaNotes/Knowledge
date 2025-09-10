@@ -12,6 +12,9 @@
 		- coronal suture
 		- anterior fontanelle
 		- frontal bones
+## Source[^2]
+- A gap in the bones of the skull. Newborn babies are born with a fontanelle, which disappears as the bones in the skull fuse; the fusion is complete at around 18 months of age.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

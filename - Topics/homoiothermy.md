@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (homeothermy) The maintenance by an animal of its internal body temperature at a relatively constant value by using metabolic processes to counteract fluctuations in the temperature of the environment. Homoiothermy occurs chiefly in birds and mammals, which are described as endotherms. However, some degree of homoiothermy is also found in certain fish and reptiles and in some insects. In homoiotherms, the heat produced by their tissue metabolism and the heat lost to the environment are balanced by various means to keep body temperature constant: $36\textendash38^{\circ} \mathrm{C}$ in mammals and $38\textendash40^{\circ} \mathrm{C}$ in birds. The hypothalamus in the brain monitors blood temperature and controls thermoregulation by both nervous and hormonal means. This produces both short-term responses, such as shivering or sweating, and long-term adjustments to metabolism according to seasonal changes in climate (acclimatization). Endotherms generally possess insulating feathers or fur. Their relatively high internal temperature permits fast action of muscles and nerves and enables them to lead highly active lives even in cold climates. However, in certain animals, homoiothermy is abandoned during periods of hibernation. Compare POIKILOTHERMY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

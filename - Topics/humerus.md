@@ -13,6 +13,9 @@
 		- Deltoid tubercle
 		- Trochlea
 		- Lateral epicondyle
+## Source[^2]
+- (pl. humeri) The long bone of the upper arm of tetrapod vertebrates. It articulates with the scapula (shoulder blade) at the glenoid cavity and with the ulna and radius (via a condyle) at the elbow.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (G + C content) The percentage of nucleotides containing the bases guanine (G) and cytosine (C) relative to the total nucleotide base content in a sample of DNA or RNA. The complementary attribute is the AT (adenine+thymine) content-or in RNA the AU (adenine+uracil) content. So a high GC content necessarily means a low AT content. The stacking arrangement of paired G-C bases enhances the physical stability of GC-rich regions of the nucleic acid molecule, particularly in RNA, whereas AT-rich regions are more 'bendable'. Regions of increased GC content in eukaryote genomes are often associated with genes or other functional elements. One form of GC-richness is due to the occurrence of CG or GC dinucleotide repeats along the same strand, and many genes have stretches relatively rich in CG repeats near their start site (so-called CpG islands). These play a role in controlling expression of the gene. Because GC content varies between different species, it is used in taxonomy, particularly in prokaryote systematics to characterize broad groups (e.g. see FIRMICUTES).
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (FGF) Any of a family of proteins, characterized by a 120-amino-acid core region in the molecule, that influence cell division, migration, or differentiation in a wide range of tissues. They are crucial in embryonic development, the formation of blood vessels (angiogenesis), the differentiation of nerve cells, bone formation, and wound healing. Although originally named for causing the proliferation of fibroblasts in cell culture, FGFs are now known to affect various cell types, with 23 different FGF members identified so far. FGFs bind to heparin or heparan sulphate (as components of proteoglycans) in the extracellular matrix and act on their target cells by binding to one of four types of fibroblast growth factor receptor (FGFR1-FGFR4). Mutations in these receptors can cause developmental abnormalities. Basic fibroblast growth factor (bFGF, or FGF-2) promotes the proliferation and organization of embryonic endothelial cells into the tubular precursors of blood vessels, helps determine the fate of nerve cells during development, and triggers fibroblast proliferation and formation of granulation tissue during healing. FGF-2 is also an essential component of the culture medium for human embryonic stem cells.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

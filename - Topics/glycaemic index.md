@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - (GI) a ranking system measuring the effect carbohydrate (CHO) ingestion has on blood glucose levels. Glucose is used as the standard reference value ( 50 g glucose has a GI of 100). A portion of food containing 50 g CHO is ingested and the effect on blood glucose levels measured over a three-hour period and compared with the effect of 50 g of glucose. Foods with a low GI ( $<60$ ), such as apples, yoghurt, and beans, are slowly absorbed, causing a lower and more prolonged increase in blood glucose levels, than foods with a high GI ( $>70$ ), e.g. white bread, white rice, and potatoes. Low GI foods help with diabetes control and may be beneficial in the treatment of polycystic ovary syndrome. The glycaemic load (GL) also takes into account the amount of food that is eaten: GL = (g CHO in food portion eaten $\times \mathrm{GI}) / 100$.
+## Source[^2]
+- (GI) An indication of how eating a particular food will affect the concentration of glucose in the blood. GI is determined relative to the effects of a standard test meal of (usually) 50g of glucose in a fasting individual, which is given the value 100. Foods with a high GI (typically $>85$ ), such as white bread, white rice, and potatoes, cause blood glucose to rise rapidly following ingestion, whereas the increase is lower and more prolonged in foods with a low GI ( $<60$ ), such as apples, beans, and yogurt. The GI of a food is governed by various factors, such as the type of carbohydrate, the concentration and nature of the fibre, the proportions of protein and fat, and the methods of cooking or processing. Lower GI foods are recommended for endurance sports and to optimize control of blood glucose for diabetics.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

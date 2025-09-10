@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A vector used in genetic engineering that enables a particular gene to be not only cloned but also expressed in a host cell. The vector is constructed to contain appropriate regulatory sequences, such as a promoter and operator, so that the host-cell machinery can transcribe the gene and translate the resultant messenger RNA to synthesize the corresponding protein. Such vectors are thus essential for the manufacture of, for example, mammalian proteins by bacterial host cells. Expression vectors used in prokaryotes are typically based on plasmids or phages, or plasmid-phage hybrids (phagemids). Some eukaryote proteins are extensively modified during or following their synthesis, for example by the addition of carbohydrate groups. Prokaryote host cells are unable to accomplish these modifications, and therefore expression systems based on eukaryotic cells must be used instead. For example, vectors based on baculovirus, a DNA virus of insects, are used successfully in cultures of insect cells. Secretion vectors allow both expression and secretion of the novel protein by the host cell, by ensuring that the expressed protein carries a signal peptide that allows it to be transported across the plasma membrane.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

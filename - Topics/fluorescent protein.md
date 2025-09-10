@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Any of various proteins that are used as molecular markers in experimental cell biology. They act as fluorophores, emitting fluorescent light when illuminated by light of a certain wavelength. This enables their abundance, location, and movements to be tracked by fluorescence microscopy. The gene for the fluorescent protein is fused with the gene encoding a protein of interest, and this construct is introduced to the cell. Expression of the target gene inside the cell results in a fusion protein incorporating the fluorescent protein. Hence it is possible to see when and where the target protein is produced, and its fate in the cell. Among the most commonly used are green fluorescent protein, originally derived from a jellyfish; several mutations giving different colour variants, ranging from blue to yellow, have since been developed. Other fluorescent proteins (e.g. red fluorescent protein) have been derived from sea anemones and coral animals. Choice of marker is dictated by factors such as its spectral properties, photostability, brightness, and effect on the behavior of the target protein. Differently colored markers can be used to track interactions of their respective fusion proteins.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

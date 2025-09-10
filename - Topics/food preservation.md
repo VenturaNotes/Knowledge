@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Prevention of the spoilage of food, which is achieved by a variety of techniques. These aim to prevent bacterial and fungal decay and contamination of food, which can cause food poisoning. For example, dehydration removes the water from food, which prevents microorganisms from growing. Treating food with salt (salting) causes the microorganisms to lose water due to osmosis. Pickling involves treatment with vinegar (ethanoic acid), which reduces the pH and prevents bacteria from growing. Heating food (blanching) to temperatures of $90^{\circ} \mathrm{C}$ denatures the enzymes that cause the breakdown of food and kills many bacteria. The food is then packed in air-tight containers, such as cans or bottles. Heating milk to high temperatures to kill the bacteria is the basis of pasteurization. Freezing food prevents the growth of bacteria but does not necessarily kill them; thorough cooking is therefore essential. In freeze drying, food is rapidly frozen and then dehydrated, usually in a vacuum. Preprepared food can be preserved by the addition of chemicals (see FOOD ADDITIVE), such as sodium benzenecarboxylate, propionates, and sulphur dioxide, but some of these may have adverse side-effects. Irradiation is a method of food preservation in which the bacteria are killed by irradiating the food with gamma rays.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

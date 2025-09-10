@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (molecular imprinting) The differential expression of a gene according to whether it is derived from the mother or father. This leads to unequal genetic contributions from the mother and father to their offspring and is essential for normal development. For example, loss of maternal imprinting in mice results in an abnormally large fetus, whereas loss of paternal imprinting leads to a small fetus. In humans only a small proportion of genes normally exhibit imprinting, and these occur chiefly in two clusters, one on the short arm of chromosome 11 and the other on the long arm of chromosome 15. Several human diseases are associated with failures of imprinting, including Angelman syndrome, Prader-Willi syndrome, and certain cancers. A diverse range of organisms, including plants, insects, and mammals, exhibit gene imprinting. It depends on the DNA methylation of certain bases, particularly cytosine residues, effectively silencing expression of the affected gene by causing inhibitory proteins to bind to methylated residues. Another imprinting mechanism is evident in yeast, fruit flies, and the nematode Caenorhabditis elegans. Here, imprinting is determined by patterns of chemical modifications of the histone proteins that package the DNA into chromatin (see CHROMATIN REMODELLING). Such patterns, although reversible, are inherited by being incorporated as the DNA is replicated.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

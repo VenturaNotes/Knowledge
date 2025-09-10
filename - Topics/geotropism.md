@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (gravitropism) The growth of plant organs in response to gravity. A main root is positively geotropic and a main stem negatively geotropic, growing downwards and upwards respectively, irrespective of the positions in which they are placed. For example, if a stem is placed in a horizontal position it will still grow upwards. This is caused by redistribution of the plant hormone auxin, which moves to the lower side of elongating cells in the stem or root; in stems auxin promotes cell elongation, whereas in roots it inhibits it. Hence, the accumulation of auxin leads to differential growth of the lower side of the cells in shoots and the upper side in roots, causing shoots to curve upwards and roots to curve downwards. One proposed mechanism involves membrane-bound clusters of starch grains called statoliths, which are thought to act as tilt 'switches' to regulate the distribution of auxin and ensure that the stem or root attains the correct angle of growth. However, mutant plants lacking statoliths are still capable of geotropism, albeit more slowly, so other gravitational sensors must be present. See TROPISM.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

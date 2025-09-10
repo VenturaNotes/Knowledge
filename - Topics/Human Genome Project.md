@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - a massive international research project to isolate all the genes in human DNA and determine the sequence of genes on human chromosomes. The project began in 1988 and the full draft sequence was published in 2001; the high-quality sequence was completed in 2003. The human genome comprises some $3 \times 10^{9}$ nucleotide base pairs (see DNA) forming 22,000-25,000 genes, distributed among 23 pairs of chromosomes. Knowledge of the entire human genome has already resulted in the identification of the genes associated with many hereditary disorders and revealed the existence of a genetic basis or component for many other diseases not previously known to have one. Theoretically, this would enable the development of targeted drugs and the large-scale genetic screening of populations. See PHARMACOGENOMICS; TARGETED AGENT.
+## Source[^2]
+- A coordinated international project, begun in 1988, to map the entire human genome so that the genes could be isolated and sequenced (see DNA SEQUENCING). It involved the production of a DNA library. The full draft sequence was completed in 2000 and published in February 2001, and the high-quality finished sequence was completed in April 2003, two years ahead of schedule. Subsequent work has shown that the haploid human genome contains about $3.2 \times 10^{9}$ nucleotide base pairs, but only around 21,000 protein-coding genes. Alternative splicing in about $50 \%$ of these means that the number of protein products is actually much greater. Moreover, there are many more 'RNA genes', sequences encoding the various types of RNA used for implementation and control of gene expression.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
