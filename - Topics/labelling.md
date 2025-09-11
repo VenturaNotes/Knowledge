@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (1) (isotopic labelling) The process of replacing a stable atom in a compound with a radioisotope of the same element to enable its path through a biological or mechanical system to be traced by the radiation it emits. In some cases a different stable isotope is used and the path is detected by means of a mass spectrometer. A compound containing either a radioactive or stable isotope is called a labelled compound and the atom used is a label. If a hydrogen atom in each molecule of the compound has been replaced by a tritium atom, the compound is called a tritiated compound. A radioactive labelled compound will behave chemically and physically in the same way as an otherwise identical stable compound, and its presence can easily be detected. This process of radioactive tracing is widely used in biology and medicine. 
+- (2) The addition to a target substance of a readily identifiable marker, such as a fluorescent or colored dye, so that each target molecule is labelled with the same amount of marker. This enables the presence and in some cases the amount of target molecule to be determined by a fluorescence or colorimetric detector. Markers such as fluorescein are now widely used in automated assay techniques, including DNA sequencing and microarrays, and fluorescent proteins are common markers in studies of gene expression and cell metabolism.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

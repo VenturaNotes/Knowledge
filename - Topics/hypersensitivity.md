@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (1) (in immunology) Increased or abnormal sensitivity to compounds, which can elicit a specific immune response accompanied by tissue damage. Hypersensitive reactions include allergies and anaphylaxis. See IMMUNITY. See also HAPTEN. 
+- (2) (in botany) A reaction by the tissues of a plant in response to invasion by pathogenic viruses, bacteria, fungi, or other organisms. Defence responses are induced by binding of elicitor substances to resistance proteins ( $\mathbf{R}$ proteins) located in the cytoplasm of the plant's cells. The elicitors can be components of the pathogens themselves or products of fungal degradation of the plant cell walls. The reaction varies according to the type of infecting agent, but typically involves the synthesis of enzymes (such as chitinase) that disarm or degrade the pathogen, the production of phytoalexins, which inhibit the growth of pathogens, and strengthening of cell walls in the vicinity of the attack by deposition of lignin and other materials. Localized generation of highly reactive oxygen derivatives is also commonly deployed, and various antimicrobial peptides (defensins) can be synthesized by stressed plant tissues. The final strategy is programmed cell death (apoptosis) around the infection site, which slows the spread of the pathogen to neighboring healthy tissues. See also IMMUNITY; SYSTEMIC ACQUIRED RESISTANCE.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A technique for inactivating a particular gene or genes within an organism or cell. Both single-celled and multicellular organisms can be genetically engineered so that a normal gene is replaced with a defective homologous gene. Experiments with laboratory organisms (especially mice) treated in this way reveal how defects in particular genes can affect the development and life of the organism. Knockout mice can be engineered by targeting specific chromosomal locations, particular tissues, or certain development stages, using Cre/loxP recombination or genome editing. An alternative approach involves injecting normal mouse oocytes with defective DNA and selecting transfected embryos that are heterozygous for the defective gene. If adults reared from such embryos are crossed with other similar heterozygotes, $25 \%$ of the progeny will be homozygous for the 'knocked out' gene, and hence the impact of the defect on such mice can be assessed. Instead of knockout the phenomenon of RNA interference can be used to suppress the expression of specific genes in cultured tissue cells$\textemdash$so-called gene silencing. The cells are transfected with small double-stranded RNA molecules, tailor-made to bind to specific RNA transcripts inside the cell nuclei, thereby causing degradation of the transcripts or preventing their translation into protein.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

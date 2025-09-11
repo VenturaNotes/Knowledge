@@ -28,7 +28,12 @@ for suitable $i$. Statements of several variables can also be considered. See al
 - $n$. 
 - (1) (in obstetrics) the starting of labour by artificial means. It is carried out using such drugs as prostaglandins to prime the cervix and/or amniotomy prior to synthetic oxytocin (Syntocinon), which stimulate uterine contractions. Induction of labour is carried out if the wellbeing or life of mother or child is threatened by continuance of the pregnancy. 
 - (2) (in anaesthesia) initiation of anaesthesia. General anaesthesia is usually induced by the intravenous injection of short-acting anaesthetics, e.g. thiopental.
+## Source[^3]
+- (1) (in embryology) The ability of natural stimuli (inducers) to cause unspecialized embryonic tissue to develop into specialized tissue. 
+- (2) (in genetics) Inactivation of repression of a gene or operon by binding of an inducer (sense 2) to a repressor. Gene products, such as enzymes, that are synthesized following induction are said to be inducible. 
+- (3) (in obstetrics) The initiation of childbirth by artificial means; for example, by injection of the hormone oxytocin.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -4,7 +4,10 @@
 - A prefix indicating a multiple of $10^{3}$ (1000), as in kilogram and kilowatt; the symbol for kilo- should then be k (not K ), as in kg and kW . When the binary number system is used in a structure or process (as in semiconductor RAM or ROM), kilo- then indicates a multiple of $2^{10}$ (1024), as in kilobyte and kilobit; the symbols k and K are both commonly used, as in kB or KB (symbols for kilobyte). The context usually clarifies which meaning of kilo- is intended, although being numerically close the meanings are often considered more or less equivalent. However, special care should be taken to disambiguate the intended meaning of this prefix when telecommunications and computing are both at issue. See also BINARY PREFIXES.
 ## Source[^2]
 - prefix denoting a thousand.
+## Source[^3]
+- Symbol k. A prefix used in the metric system to denote 1000 times. For example, 1000 volts $=1$ kilovolt $(\mathrm{kV})$.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

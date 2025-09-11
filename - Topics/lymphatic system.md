@@ -18,6 +18,11 @@
 			- lumbar vertebra
 		- intercostal lymphatic nodes
 		- superior vena cava
+## Source[^2]
+- The network of vessels that conveys lymph from the tissue fluids to the bloodstream. Tiny lacteals (in the small intestine) and lymph capillaries (in other tissues) drain into larger tubular vessels that converge to form the right lymphatic duct and the thoracic duct, which connect with the venous blood supply to the heart. Associated with the lymphatic vessels at intervals along the system are the lymph nodes. The lymph capillary walls are very permeable, so lymph bathing the body's tissues can drain away molecules that are too large to pass through blood capillary walls. In most vertebrates lymph is pumped by cycles of contraction and relaxation of the lymphatic vessels and also by the action of adjoining muscles. See also LYMPH HEART.
+- http://www.cancerresearchuk.org/what-is-cancer/body-systems-and-cancer/the-lymphatic-system-and-cancer
+	- An illustrated summary of the human lymphatic system: part of the Cancer Research UK website
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

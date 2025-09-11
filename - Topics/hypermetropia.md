@@ -8,6 +8,22 @@
 		- focusing point is beyond the retina
 	- Corrected
 		- Convex lens converges light rays falling on the eye
+## Source[^2]
+- (hyperopia) Long-sightedness. A vision defect in which the lens of the eye is unable to accommodate sufficiently to throw the image of near objects onto the retina. It is caused usually by shortness of the eyeball rather than any fault in the lens system. The subject requires spectacles with converging lenses to bring the image from behind the retina back on to its surface (see illustration).
+- ![[Screenshot 2025-09-10 at 3.19.21 PM.png]]
+	- Hypermetropia
+	- Parts
+		- Left Side
+			- Nearby object
+			- Lens
+			- Eye
+			- Retina
+			- Image formed behind retina
+		- Right side
+			- Object
+			- converging lens
+			- sharp image on retina
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
