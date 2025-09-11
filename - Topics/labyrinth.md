@@ -15,6 +15,9 @@
 		- endolymphatic duct
 		- ampulla of semicircular canal
 		- superior semicircular canal
+## Source[^2]
+- The system of cavities and tubes that comprises the inner ear of vertebrates. It consists of a system of membranous structures (membranous labyrinth) housed in a similar shaped bony cavity (bony labyrinth).
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

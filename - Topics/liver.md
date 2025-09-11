@@ -17,6 +17,11 @@
 		- bile duct
 - https://www.britishlivertrust.org.uk/
 	- Website of the British Liver Trust: information on the liver, liver care, and liver conditions
+## Source[^2]
+- A large lobed organ in the abdomen of vertebrates that plays an essential role in many metabolic processes by regulating the composition and concentration of nutrients and toxic materials in the blood. It is made up of units called lobules, each of which is a roughly hexagonal structure consisting largely of hepatocytes arranged around a central vein. The liver receives the products of digestion dissolved in the blood via the hepatic portal vein and its most important functions are to convert excess glucose to the storage product glycogen, which serves as a food reserve; to break down excess amino acids to ammonia, which is converted to urea or uric acid and excreted via the kidneys; and to store and break down fats (see LIPOLYSIS; LIPOPROTEIN). Other functions of the liver are (1) the production of bile; (2) the breakdown (detoxification) of poisonous substances in the blood; (3) the removal of damaged red blood cells; (4) the synthesis of vitamin A and the blood-clotting substances prothrombin and fibrinogen; and (5) the storage of iron (see FERRITIN).
+- https://www.britishlivertrust.org.uk/
+	- Summary of liver anatomy, functions, and diseases, compiled by the British Liver Trust
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

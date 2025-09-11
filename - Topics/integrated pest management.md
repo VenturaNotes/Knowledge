@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- (IPM) An approach to controlling insects and other crop pests that combines various physical, chemical, and biological methods in an attempt to reduce reliance on chemical pesticides, and hence minimize pollution and harmful residues in the product. It also helps to counter the threat posed by increasing resistance of many insect pests to conventional insecticides. IPM is now used on certain field crops worldwide, including cotton, rice, alfalfa, and citrus fruits, and with many greenhouse crops. To be effective, IPM requires thorough knowledge of the physiology, ecology and life cycles of not only the pest but also of its natural predators. This enables selection of the most appropriate strategy, drawing from a wide array of control techniques. These include: biological control, which encourages the pest's natural enemies and may involve the introduction of novel predators in certain situations; improving the resistance of crops to pests, either by conventional plant breeding or by genetic engineering (see GENETICALLY MODIFIED ORGANISMS); the use of agricultural practices that lessen the degree of pest damage, such as mixed cropping or timeliness of planting; and the selective use of insecticides or other chemical agents, such as insect growth regulators, so that these have the maximum controlling effect with minimum impact on beneficial insects and the environment.
+- http://www.whatisipm.org/whatIs_whatIs.asp
+	- Introduction to IPM for homes, schools, and businesses
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

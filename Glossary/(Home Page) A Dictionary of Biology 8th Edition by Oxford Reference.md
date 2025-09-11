@@ -3531,533 +3531,662 @@ Reviewed: false
 	2350. hyomandibular
 		1. See hyoid arch
 	
-	2351. hyostylic jaw suspension
-	2352. hyper-
-	2353. hyperaccumulator
-	2354. hyperglycaemia
+	2351. [[hyostylic jaw suspension]]
+	2352. [[hyper-]]
+	2353. [[hyperaccumulator]]
+	2354. [[hyperglycaemia]]
 	2355. hypermetamorphosis
-	2356. hypermetropia
-	2357. hypermorphosis
-	2358. hyperparasite
-	2359. hyperplasia
+		1. See HETEROMORPHOSIS.
+	2356. [[hypermetropia]]
+	2357. [[hypermorphosis]]
+	2358. [[hyperparasite]]
+	2359. [[hyperplasia]]
 	2360. hyperpolarization
+		1. See INHIBITORY POSTSYNAPTIC POTENTIAL.
 	
-	2361. hypersensitivity
+	2361. [[hypersensitivity]]
 	2362. hypertension
+		1. See blood pressure
 	2363. hyperthermophile
-	2364. hyperthyroidism
-	2365. hypertonic solution
-	2366. hypertrophy
+		1. See thermophilic
+	2364. [[hyperthyroidism]]
+	2365. [[hypertonic solution]]
+	2366. [[hypertrophy]]
 	2367. hypervariable loops
-	2368. hyperventilation
-	2369. hypha
-	2370. hypo-
+		1. See COMPLEMENTARITY-DETERMINING REGION.
+	2368. [[hyperventilation]]
+	2369. [[hypha]]
+	2370. [[hypo-]]
 	
 	2371. hypoblast
-	2372. hypocotyl
-	2373. hypodermis
-	2374. hypogeal
-	2375. hypoglycaemia
-	2376. hypogyny
-	2377. hypolimnion
+		1. See blastula
+	2372. [[hypocotyl]]
+	2373. [[hypodermis]]
+	2374. [[hypogeal]]
+	2375. [[hypoglycaemia]]
+	2376. [[hypogyny]]
+	2377. [[hypolimnion]]
 	2378. hypophysis
-	2379. hypostasis
-	2380. hypothalamus
+		1. (pl. hypophyses) See PITUITARY GLAND.
+	2379. [[hypostasis]]
+	2380. [[hypothalamus]]
 	
-	2381. hypothyroidism
-	2382. hypotonic solution
-	2383. hypoxia
-	2384. H zone
+	2381. [[hypothyroidism]]
+	2382. [[hypotonic solution]]
+	2383. [[hypoxia]]
+	2384. [[H zone]]
 	2385. IAA
-	2386. I band
+		1. (indoleacetic acid) See auxin.
+	2386. [[I band]]
 	2387. ICAM
-	2388. ice-nucleating agent
-	2389. ice age
-	2390. ichthyosaur
+		1. (intercellular adhesion molecule) See CELL ADHESION MOLECULE.
+	2388. [[ice-nucleating agent]]
+	2389. [[ice age]]
+	2390. [[ichthyosaur]]
 	
 	2391. ICSH
-	2392. identical twins
+		1. See LUTEINIZING HORMONE.
+	2392. [[identical twins]]
 	2393. identification key
-	2394. idioblast
+		1. See key
+	2394. [[idioblast]]
 	2395. idiogram
-	2396. idiosyncrasy
+		1. See KARYOGRAM.
+	2396. [[idiosyncrasy]]
 	2397. Ig
+		1. See IMMUNOGLOBULIN.
 	2398. IGF
-	2399. ileum
-	2400. ilium
+		1. See INSULIN-LIKE GROWTH FACTOR.
+	2399. [[ileum]]
+	2400. [[ilium]]
 	
-	2401. imaginal disc
-	2402. imago
-	2403. immersion objective
-	2404. immune response
-	2405. immunity
-	2406. immunization
-	2407. immunoassay
-	2408. immunoelectron microscopy
-	2409. immunoelectrophoresis
-	2410. immunofluorescence
+	2401. [[imaginal disc]]
+	2402. [[imago]]
+	2403. [[immersion objective]]
+	2404. [[immune response]]
+	2405. [[immunity]]
+	2406. [[immunization]]
+	2407. [[immunoassay]]
+	2408. [[immunoelectron microscopy]]
+	2409. [[immunoelectrophoresis]]
+	2410. [[immunofluorescence]]
 	
-	2411. immunogenicity
-	2412. immunoglobulin
-	2413. immunologically privileged site
-	2414. immunological memory
-	2415. immunological synapse
+	2411. [[immunogenicity]]
+	2412. [[immunoglobulin]]
+	2413. [[immunologically privileged site]]
+	2414. [[immunological memory]]
+	2415. [[immunological synapse]]
 	2416. immunological tolerance
-	2417. immunosuppression
-	2418. immunotoxin
-	2419. imperfect((in botany))
+		1. See tolerance
+	2417. [[immunosuppression]]
+	2418. [[immunotoxin]]
+	2419. [[imperfect]]
 	2420. imperfect fungi
+		1. See DEUTEROMYCOTA.
 	
-	2421. Imperial units
-	2422. implant
-	2423. implantation((in embryology))
-	2424. imprinting
-	2425. impulse
-	2426. inbreeding
-	2427. incisor
-	2428. inclusion body
-	2429. inclusive fitness
-	2430. incompatibility
+	2421. [[Imperial units]]
+	2422. [[implant]]
+	2423. [[implantation]]
+	2424. [[imprinting]]
+	2425. [[impulse]]
+	2426. [[inbreeding]]
+	2427. [[incisor]]
+	2428. [[inclusion body]]
+	2429. [[inclusive fitness]]
+	2430. [[incompatibility]]
 	
-	2431. incomplete dominance
-	2432. incus
+	2431. [[incomplete dominance]]
+	2432. [[incus]]
 	2433. indefinite inflorescence
-	2434. indehiscent
-	2435. independent assortment
+		1. See RACEMOSE INFLORESCENCE.
+	2434. [[indehiscent]]
+	2435. [[independent assortment]]
 	2436. indeterminate growth
-	2437. index fossil
-	2438. indicator species
-	2439. indigenous
+		1. See growth
+	2437. [[index fossil]]
+	2438. [[indicator species]]
+	2439. [[indigenous]]
 	2440. indoleacetic acid
+		1. (IAA) See auxin
 	
-	2441. induced-fit model
-	2442. inducible nitric oxide synthase
-	2443. induction
-	2444. indusium
-	2445. industrial melanism
-	2446. infection
-	2447. inferior
-	2448. inflammation
-	2449. infradian rhythm
-	2450. infraspecific
+	2441. [[induced-fit model]]
+	2442. [[inducible nitric oxide synthase]]
+	2443. [[induction]]
+	2444. [[indusium]]
+	2445. [[industrial melanism]]
+	2446. [[infection]]
+	2447. [[inferior]]
+	2448. [[inflammation]]
+	2449. [[infradian rhythm]]
+	2450. [[infraspecific]]
 	
-	2451. ingestion
-	2452. inguinal
+	2451. [[ingestion]]
+	2452. [[inguinal]]
 	2453. inhalation
-	2454. inheritance
-	2455. inhibition
-	2456. inhibitory postsynaptic potential
-	2457. initial
+		1. See inspiration
+	2454. [[inheritance]]
+	2455. [[inhibition]]
+	2456. [[inhibitory postsynaptic potential]]
+	2457. [[initial]]
 	2458. initiation codon
-	2459. initiation factor
-	2460. innate behaviour
+		1. See start codon
+	2459. [[initiation factor]]
+	2460. [[innate behavior]]
 	
 	2461. innate immunity
-	2462. inner cell mass
-	2463. inner ear
-	2464. innervation
-	2465. innominate artery
-	2466. innominate bone
-	2467. inoculation
-	2468. inoculum
-	2469. inositol
-	2470. inquilinism
+		1. See immunity
+	2462. [[inner cell mass]]
+	2463. [[inner ear]]
+	2464. [[innervation]]
+	2465. [[innominate artery]]
+	2466. [[innominate bone]]
+	2467. [[inoculation]]
+	2468. [[inoculum]]
+	2469. [[inositol]]
+	2470. [[inquilinism]]
 	
 	2471. INSDC
+		1. See INTERNATIONAL NUCLEOTIDE SEQUENCE DATABASE COLLABORATION.
 	2472. Insecta
-	2473. insect growth regulator
+		1. See HEXAPOD
+	2473. [[insect growth regulator]]
 	2474. insecticide
-	2475. Insectivora
-	2476. insectivore
+		1. See PESTICIDE.
+	2475. [[Insectivora]]
+	2476. [[insectivore]]
 	2477. insectivorous plant
-	2478. insertion
+		1. See carnivorous plant
+	2478. [[insertion]]
 	2479. insertion sequence
-	2480. insight learning
+		1. See TRANSPOSON.
+	2480. [[insight learning]]
 	
-	2481. in silico
-	2482. inspiration
-	2483. inspiratory centre
-	2484. instar
-	2485. instinct
-	2486. insula
-	2487. insulin
-	2488. insulin-like growth factor
-	2489. integrated pest management
-	2490. integration((in neurophysiology))
+	2481. [[in silico]]
+	2482. [[inspiration]]
+	2483. [[inspiratory centre]]
+	2484. [[instar]]
+	2485. [[instinct]]
+	2486. [[insula]]
+	2487. [[insulin]]
+	2488. [[insulin-like growth factor]]
+	2489. [[integrated pest management]]
+	2490. [[integration]]
 	
 	2491. integrin
-	2492. integument
-	2493. intelligence
-	2494. interactome
-	2495. intercellular
+		1. See cell adhesion molecule
+	2492. [[integument]]
+	2493. [[intelligence]]
+	2494. [[interactome]]
+	2495. [[intercellular]]
 	2496. intercellular adhesion molecule
-	2497. intercostal muscles
+		1. See CELL ADHESION MOLECULE.
+	2497. [[intercostal muscles]]
 	2498. interfascicular cambium
+		1. See cambium
 	2499. interference RNA
-	2500. interferon
+		1. See RNA interference
+	2500. [[interferon]]
 	
 	2501. Intergovernmental Panel on Climate Change
-	2502. interleukin
-	2503. intermediate filament
-	2504. internal environment
-	2505. International HapMap Project
-	2506. International Nucleotide Sequence Database Collaboration
-	2507. interneuron
-	2508. internode
-	2509. interoceptor
-	2510. interphase
+		1. (IPCC) See climate change
+	2502. [[interleukin]]
+	2503. [[intermediate filament]]
+	2504. [[internal environment]]
+	2505. [[International HapMap Project]]
+	2506. [[International Nucleotide Sequence Database Collaboration]]
+	2507. [[interneuron]]
+	2508. [[internode]]
+	2509. [[interoceptor]]
+	2510. [[interphase]]
 	
-	2511. interpolation hypothesis
-	2512. intersex
-	2513. interspecific
+	2511. [[interpolation hypothesis]]
+	2512. [[intersex]]
+	2513. [[interspecific]]
 	2514. interspecific competition
+		1. See competition
 	2515. interstitial-cell-stimulating hormone
-	2516. interstitial cell
-	2517. interstitial fauna
-	2518. intervertebral disc
+		1. See luteinizing hormone
+	2516. [[interstitial cell]]
+	2517. [[interstitial fauna]]
+	2518. [[intervertebral disc]]
 	2519. intestinal juice
-	2520. intestine
+		1. See SUCCUS ENTERICUS.
+	2520. [[intestine]]
 	
 	2521. intine
-	2522. intracellular((in biology))
-	2523. intrafusal
+		1. See pollen
+	2522. [[intracellular]]
+	2523. [[intrafusal]]
 	2524. intramembranous ossification
-	2525. intraspecific
+		1. See ossification
+	2525. [[intraspecific]]
 	2526. intraspecific competition
+		1. See competition
 	2527. intrinsic factor
+		1. See vitamin B complex
 	2528. intrinsic rate of increase
-	2529. introgression
-	2530. intron
+		1. See biotic potential
+	2529. [[introgression]]
+	2530. [[intron]]
 	
-	2531. intussusception
-	2532. inulin
-	2533. in utero
+	2531. [[intussusception]]
+	2532. [[inulin]]
+	2533. [[in utero]]
 	2534. inverse myotatic response
-	2535. inversion((in genetics))
-	2536. invertebrate
-	2537. in vitro
-	2538. in vivo
-	2539. involucre
-	2540. involuntary((in biology))
+		1. See golgi tendon organ
+	2535. [[inversion]]
+	2536. [[invertebrate]]
+	2537. [[in vitro]]
+	2538. [[in vivo]]
+	2539. [[involucre]]
+	2540. [[involuntary]]
 	
 	2541. involuntary muscle
-	2542. involution
-	2543. iodine
+		1. See smooth muscle
+	2542. [[involution]]
+	2543. [[iodine]]
 	2544. iodopsin
-	2545. ion
+		1. See color vision
+	2545. [[ion]]
 	2546. ion-exchange chromatography
-	2547. ion channel
-	2548. ion exchange
-	2549. ionizing radiation
-	2550. ionophore
+		1. See chromatography
+	2547. [[ion channel]]
+	2548. [[ion exchange]]
+	2549. [[ionizing radiation]]
+	2550. [[ionophore]]
 	
-	2551. ionotropic receptor
-	2552. IP3
+	2551. [[ionotropic receptor]]
+	2552. $IP_3$
+		1. See inositol
 	2553. IPCC
+		1. (Intergovernmental Panel on Climate Change) See Climate change.
 	2554. IPM
-	2555. ipsilateral
-	2556. iridium anomaly
-	2557. iris
-	2558. iron
-	2559. irradiation
-	2560. irrigation
+		1. See INTEGRATED PEST MANAGEMENT.
+	2555. [[ipsilateral]]
+	2556. [[iridium anomaly]]
+	2557. [[iris]]
+	2558. [[iron]]
+	2559. [[irradiation]]
+	2560. [[irrigation]]
 	
 	2561. irritability
-	2562. ischium
-	2563. isidium
-	2564. islets of Langerhans
-	2565. isoelectric point
+		1. See sensitivity
+	2562. [[ischium]]
+	2563. [[isidium]]
+	2564. [[islets of Langerhans]]
+	2565. [[isoelectric point]]
 	2566. isoenzyme
-	2567. isogamy
-	2568. isolating mechanism
+		1. See isozyme
+	2567. [[isogamy]]
+	2568. [[isolating mechanism]]
 	2569. isoleucine
-	2570. isomerase
+		1. See amino acid
+	2570. [[isomerase]]
 	
-	2571. isomers
-	2572. isoprene
-	2573. Isoptera
-	2574. isotonic
-	2575. isotope
-	2576. isotopic discrimination
-	2577. isotopic signature
-	2578. isotype
-	2579. isotype switching
-	2580. isozyme
+	2571. [[isomers]]
+	2572. [[isoprene]]
+	2573. [[Isoptera]]
+	2574. [[isotonic]]
+	2575. [[isotope]]
+	2576. [[isotopic discrimination]]
+	2577. [[isotopic signature]]
+	2578. [[isotype]]
+	2579. [[isotype switching]]
+	2580. [[isozyme]]
 	
-	2581. itaconic acid
+	2581. [[itaconic acid]]
 	2582. ITAMs
-	2583. iteroparity
-	2584. Jacob-Monod hypothesis
+		1. Immunoreceptor tyrosine-based activation motifs. See B-CELL RECEPTOR.
+	2583. [[iteroparity]]
+	2584. [[Jacob-Monod hypothesis]]
 	2585. JAK
-	2586. Janus kinase
-	2587. jasmonate
-	2588. jaw
-	2589. jejunum
+		1. See janus kinase
+	2586. [[Janus kinase]]
+	2587. [[jasmonate]]
+	2588. [[jaw]]
+	2589. [[jejunum]]
 	2590. jellyfish
+		1. See cnidaria
 	
 	2591. JGA
-	2592. joint
-	2593. joule
-	2594. jugular vein
+		1. See JUXTAGLOMERULAR APPARATUS.
+	2592. [[joint]]
+	2593. [[joule]]
+	2594. [[jugular vein]]
 	2595. jumping gene
-	2596. junk DNA
-	2597. Jurassic
-	2598. juvenile hormone
+		1. See transposon
+	2596. [[junk DNA]]
+	2597. [[Jurassic]]
+	2598. [[juvenile hormone]]
 	2599. juvenoid
-	2600. juxtaglomerular apparatus
+		1. See insect growth regulator
+	2600. [[juxtaglomerular apparatus]]
 	
 	2601. K–T boundary
-	2602. kainate
+		1. See alvarez event
+	2602. [[kainate]]
 	2603. Kainozoic
+		1. See CENOzoic.
 	2604. kairomone
+		1. See ALLELOCHEMICAL.
 	2605. kallidin
-	2606. karyogamy
-	2607. karyogram
-	2608. karyokinesis
+		1. See KININ.
+	2606. [[karyogamy]]
+	2607. [[karyogram]]
+	2608. [[karyokinesis]]
 	2609. karyolysis
+		1. See KARYORRHEXIS.
 	2610. karyoplasm
+		1. See NUCLEOPLASM.
 	
-	2611. karyorrhexis
-	2612. karyotype
-	2613. katadromous
-	2614. katal
+	2611. [[karyorrhexis]]
+	2612. [[karyotype]]
+	2613. [[katadromous]]
+	2614. [[katal]]
 	2615. kb
+		1. See Kilobase.
 	2616. kDa
-	2617. keel
-	2618. kelp
-	2619. kelvin
-	2620. keratin
+		1. See KILODALTON.
+	2617. [[keel]]
+	2618. [[kelp]]
+	2619. [[kelvin]]
+	2620. [[keratin]]
 	
-	2621. keratinization
+	2621. [[keratinization]]
 	2622. ketohexose
-	2623. ketone
-	2624. ketone body
+		1. See MONOSACCHARIDE.
+	2623. [[ketone]]
+	2624. [[ketone body]]
 	2625. ketopentose
+		1. See MONOSACCHARIDE.
 	2626. ketose
-	2627. key
-	2628. keystone species
-	2629. kidney
+		1. See MONOSACCHARIDE.
+	2627. [[key]]
+	2628. [[keystone species]]
+	2629. [[kidney]]
 	2630. killer cell
+		1. See CYTOTOXIC T CELL; NATURAL KILLER CELL.
 	
-	2631. kilo-
-	2632. kilobase
-	2633. kilodalton
-	2634. kilogram
-	2635. kinase
-	2636. kinesin
-	2637. kinesis
-	2638. kinetochore
+	2631. [[kilo-]]
+	2632. [[kilobase]]
+	2633. [[kilodalton]]
+	2634. [[kilogram]]
+	2635. [[kinase]]
+	2636. [[kinesin]]
+	2637. [[kinesis]]
+	2638. [[kinetochore]]
 	2639. kinetoplast
+		1. See DISCOMITOCHONDRIA.
 	2640. Kinetoplastida
+		1. See DISCOMITOCHONDRIA.
 	
 	2641. kinetosome
-	2642. kingdom
-	2643. kinin
-	2644. kinocilium
+		1. (basal body) See UNDULIPODIUM.
+	2642. [[kingdom]]
+	2643. [[kinin]]
+	2644. [[kinocilium]]
 	2645. kinomere
-	2646. kin selection
-	2647. Kleiber's law
-	2648. Klinefelter's syndrome
+		1. See centromere
+	2646. [[kin selection]]
+	2647. [[Kleiber's law]]
+	2648. [[Klinefelter's syndrome]]
 	2649. knee-jerk reflex
-	2650. knockin
+		1. See stretch reflex
+	2650. [[knockin]]
 	
-	2651. knockout
-	2652. Kranz anatomy
-	2653. Krebs, Sir Hans Adolf (1900–81)
-	2654. Krebs cycle
-	2655. krill
-	2656. Kselection
-	2657. Kupffer cells
+	2651. [[knockout]]
+	2652. [[Kranz anatomy]]
+	2653. [[Hans Krebs]]
+	2654. [[Krebs cycle]]
+	2655. [[krill]]
+	2656. [[K selection]]
+	2657. [[Kupffer cells]]
 	2658. kwashiorkor
+		1. See MALNUTRITION.
 	2659. L-dopa
+		1. See dopa
 	2660. l-form
+		1. See optical activity
 	
-	2661. labelling
+	2661. [[labelling]]
 	2662. labia
-	2663. labium
-	2664. labrum
-	2665. labyrinth
-	2666. lacoperon
-	2667. lacrimal gland
-	2668. lactase
-	2669. lactation
-	2670. lacteal
+		1. See labium
+	2663. [[labium]]
+	2664. [[labrum]]
+	2665. [[labyrinth]]
+	2666. [[lac operon]]
+	2667. [[lacrimal gland]]
+	2668. [[lactase]]
+	2669. [[lactation]]
+	2670. [[lacteal]]
 	
-	2671. lactic acid
-	2672. lactobacillus
+	2671. [[lactic acid]]
+	2672. [[lactobacillus]]
 	2673. lactogenic hormone
-	2674. lactose
-	2675. lacuna
-	2676. laevorotatory
+		1. See prolactin
+	2674. [[lactose]]
+	2675. [[lacuna]]
+	2676. [[laevorotatory]]
 	2677. laevulose
+		1. See fructose
 	2678. lagging strand
+		1. See discontinuous replication.
 	2679. lag phase
-	2680. Lamarck, Jean Baptiste Pierre Antoine de Monet, Chevalier de (1744–1829)
+		1. See bacterial growth curve
+	2680. [[Jean-Baptiste Lamarck]]
 	
-	2681. Lamarckism
-	2682. lambda phage
-	2683. lamella
+	2681. [[Lamarckism]]
+	2682. [[lambda phage]]
+	2683. [[lamella]]
 	2684. Lamellibranchia
-	2685. lamellipodium
-	2686. lamin
-	2687. lamina
-	2688. lampbrush chromosome
+		1. See bivalvia
+	2685. [[lamellipodium]]
+	2686. [[lamin]]
+	2687. [[lamina]]
+	2688. [[lampbrush chromosome]]
 	2689. lamprey
+		1. See CYCLOStomATA.
 	2690. lancelet
+		1. See CEPHALOCHORDATA.
 	
 	2691. Langerhans cells
+		1. See MACROPHAGE.
 	2692. La Niña
-	2693. lantibiotic
+		1. See el NiÑo-SOUTHERN OSCILLATION.
+	2693. [[lantibiotic]]
 	2694. LAR
-	2695. large intestine
+		1. See leaf area ratio
+	2695. [[large intestine]]
 	2696. large virus
+		1. See NUCLEOCYTOPLASMIC LARGE DNA VIRUS.
 	2697. lariat
-	2698. larva
+		1. See RNA processing
+	2698. [[larva]]
 	2699. larvacean
-	2700. larynx
+		1. See UROCHORDATA.
+	2700. [[larynx]]
 	
-	2701. lasso cell
-	2702. latent period
-	2703. latent virus
-	2704. lateral-line system
-	2705. lateral gene transfer
+	2701. [[lasso cell]]
+	2702. [[latent period]]
+	2703. [[latent virus]]
+	2704. [[lateral-line system]]
+	2705. [[lateral gene transfer]]
 	2706. lateral root
-	2707. latex
+		1. See root
+	2707. [[latex]]
 	2708. Laurasia
-	2709. lauric acid
+		1. See continental drift
+	2709. [[lauric acid]]
 	2710. Law of Independent Assortment
+		1. See MENDEL'S LAWS; INDEPENDENT ASSORTMENT.
 	
 	2711. Law of Segregation
-	2712. LD50
-	2713. leaching
+		1. See mendel's laws
+	2712. [[LD_{50}|LD50]]
+	2713. [[leaching]]
 	2714. leading strand
-	2715. leaf
-	2716. leaf-height-seed scheme
-	2717. leaf area index
-	2718. leaf area ratio
+		1. See DISCONTINUOUS REPLICATION.
+	2715. [[leaf]]
+	2716. [[leaf-height-seed scheme]]
+	2717. [[leaf area index]]
+	2718. [[leaf area ratio]]
 	2719. leaf buttress
+		1. See primordium
 	2720. leaf litter
+		1. See litter
 	
-	2721. leaf mass ratio
-	2722. LEA protein
-	2723. learning
-	2724. Learning in animals
-	2725. lecithin
-	2726. lectin
+	2721. [[leaf mass ratio]]
+	2722. [[LEA protein]]
+	2723. [[learning]]
+	2724. 
+	2725. [[lecithin]]
+	2726. [[lectin]]
 	2727. leeches
-	2728. legume
-	2729. Leishman's stain
-	2730. lek
+		1. See hirudinea
+	2728. [[legume]]
+	2729. [[Leishman's stain]]
+	2730. [[lek]]
 	
-	2731. lemma
-	2732. lens
-	2733. lenticel
-	2734. Lepidoptera
-	2735. leptin
-	2736. leptotene
-	2737. lethal allele
+	2731. [[lemma]]
+	2732. [[lens]]
+	2733. [[lenticel]]
+	2734. [[Lepidoptera]]
+	2735. [[leptin]]
+	2736. [[leptotene]]
+	2737. [[lethal allele]]
 	2738. lethal dose 50
+		1. See LD.
 	2739. leucine
-	2740. leucine zipper
+		1. See amino acid
+	2740. [[leucine zipper]]
 	
-	2741. leucocyte
-	2742. leucoplast
+	2741. [[leucocyte]]
+	2742. [[leucoplast]]
 	2743. leukaemia
-	2744. leukotrienes
+		1. See cancer
+	2744. [[leukotrienes]]
 	2745. LH
+		1. See luteinizing HORMONE.
 	2746. LHS scheme
+		1. See LEAF-HEIGHT-SEED SCHEME.
 	2747. lice
-	2748. lichens
-	2749. life cycle
+		1. See mallophaga (bird lice); SiphunCULATA (sucking lice).
+	2748. [[lichens]]
+	2749. [[life cycle]]
 	2750. life form
+		1. See PHYSIOGNOMy.
 	
-	2751. ligament
-	2752. ligand
-	2753. ligand-gated ion channel
+	2751. [[ligament]]
+	2752. [[ligand]]
+	2753. [[ligand-gated ion channel]]
 	2754. light-dependent reaction
+		1. See photosynthesis
 	2755. light-harvesting complex
+		1. See photosystems I and II
 	2756. light-independent reaction
+		1. See photosynthesis
 	2757. light green
-	2758. lignin
+		1. See fast green
+	2758. [[lignin]]
 	2759. lignite
-	2760. ligule
+		1. See coal
+	2760. [[ligule]]
 	
-	2761. limb
-	2762. limbic system
-	2763. liming
-	2764. limnology
-	2765. LINE
-	2766. linear energy transfer
-	2767. linkage disequilibrium
-	2768. linkage map
+	2761. [[limb]]
+	2762. [[limbic system]]
+	2763. [[liming]]
+	2764. [[limnology]]
+	2765. [[LINE]]
+	2766. [[linear energy transfer]]
+	2767. [[linkage disequilibrium]]
+	2768. [[linkage map]]
 	2769. Linnaean system
-	2770. Linnaeus, Carolus (1707–78)
+		1. See binomial nomenclature
+	2770. [[Carl Linnaeus]]
 	
-	2771. linoleic acid
-	2772. linolenic acid
-	2773. lipase
-	2774. lipid
-	2775. lipid bilayer
+	2771. [[linoleic acid]]
+	2772. [[linolenic acid]]
+	2773. [[lipase]]
+	2774. [[lipid]]
+	2775. [[lipid bilayer]]
 	2776. lipid raft
-	2777. lipoic acid
-	2778. lipoprotein
-	2779. lipotropin
-	2780. Listeria
+		1. See fluid mosaic model
+	2777. [[lipoic acid]]
+	2778. [[lipoprotein]]
+	2779. [[lipotropin]]
+	2780. [[Listeria]]
 	
-	2781. lithosphere
-	2782. litre
-	2783. litter
-	2784. liver
+	2781. [[lithosphere]]
+	2782. [[litre]]
+	2783. [[litter]]
+	2784. [[liver]]
 	2785. liverworts
-	2786. living fossil
+		1. See HEPATOPHYTA.
+	2786. [[living fossil]]
 	2787. lizards
+		1. See squamata
 	2788. LMR
+		1. See leaf mass ratio
 	2789. lncRNA
-	2790. loam
+		1. See long noncoding RNA
+	2790. [[loam]]
 	
-	2791. lobopod
-	2792. lock-and-key mechanism
-	2793. locomotion
-	2794. locule
-	2795. locus
-	2796. lodicule
-	2797. logarithmic scale
+	2791. [[lobopod]]
+	2792. [[lock-and-key mechanism]]
+	2793. [[locomotion]]
+	2794. [[locule]]
+	2795. [[locus]]
+	2796. [[lodicule]]
+	2797. [[logarithmic scale]]
 	2798. log phase
-	2799. lomentum
-	2800. long-day plant
+		1. See bacterial growth curve
+	2799. [[lomentum]]
+	2800. [[long-day plant]]
 	
 	2801. long-sightedness
+		1. See HYPERMETROPIA.
 	2802. long-term depression
+		1. (LTD) See SYNAPTIC PLASTICITY.
 	2803. long-term potentiation
-	2804. long noncoding RNA
-	2805. long terminal repeat
-	2806. loop of Henle
-	2807. Lophotrochozoa
-	2808. lower critical temperature
+		1. (LTP) See SYNAPTIC PLASTICITY.
+	2804. [[long noncoding RNA]]
+	2805. [[long terminal repeat]]
+	2806. [[loop of Henle]]
+	2807. [[Lophotrochozoa]]
+	2808. [[lower critical temperature]]
 	2809. LSD
+		1. See LYSERGIC ACID DIETHYLAMIDE.
 	2810. LTR
+		1. See LONG TERMINAL REPEAT.
 	
 	2811. luciferase
+		1. See BIOLUMINESCENCE.
 	2812. luciferin
-	2813. lumbar vertebrae
-	2814. lumen
-	2815. lung
-	2816. lung book
+		1. See BIOLUMINESCENCE.
+	2813. [[lumbar vertebrae]]
+	2814. [[lumen]]
+	2815. [[lung]]
+	2816. [[lung book]]
 	2817. lungfish
-	2818. luteal phase
-	2819. luteinizing hormone
+		1. See DIPNOI.
+	2818. [[luteal phase]]
+	2819. [[luteinizing hormone]]
 	2820. luteotrophic hormone
+		1. See prolactin
 	
-	2821. lyase
-	2822. Lycopodiophyta
-	2823. lymphatic system
+	2821. [[lyase]]
+	2822. [[Lycopodiophyta]]
+	2823. [[lymphatic system]]
 	2824. lymph capillary
-	2825. lymph heart
-	2826. lymph node
-	2827. lymphocyte
-	2828. lymphoid tissue
+		1. See LYMPHATIC SYSTEM.
+	2825. [[lymph heart]]
+	2826. [[lymph node]]
+	2827. [[lymphocyte]]
+	2828. [[lymphoid tissue]]
 	2829. lymphokine
+		1. See cytokine
 	2830. lymphoma
+		1. See cancer
 	
 	2831. lymphotoxin
 	2832. lyophilization

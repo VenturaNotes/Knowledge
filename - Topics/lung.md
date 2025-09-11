@@ -38,6 +38,25 @@
 		- terminal bronchiole
 - https://www.blf.org.uk/
 	- British Lung Foundation: basic information on the lungs and some common lung conditions
+## Source[^2]
+- The respiratory organ of air-breathing vertebrates. A pair of lungs is situated in the thorax, within the ribcage. Each consists essentially of a thin moist membrane that is folded to increase its surface area. Exchange of oxygen and carbon dioxide takes place between blood capillaries on one side of the membrane and air on the other. The lung is supplied with air through a bronchus. In mammals and reptiles the membrane of the lung takes the form of numerous sacs (see alveolus) that are connected to the bronchus via bronchioles (see illustration). The lungs themselves contain no muscular tissue and are ventilated by respiratory movements, the mechanisms of which vary with the species.
+- ![[Screenshot 2025-09-11 at 1.20.27 AM.png]]
+	- The lungs and air passages of a mammal (right lung cut open to show internal structure)
+	- Parts
+		- Blood capillaries
+		- alveolus
+		- oxygenated blood
+		- bronchiole
+		- deoxygenated blood
+		- alveolus
+		- bronchus
+		- bronchiole
+		- larynx
+		- trachea
+		- intercostal muscle
+		- rib
+		- diaphragm
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -8,8 +8,11 @@
 - (3) In time series analysis, stationary increments in a time series process. See also ORDER OF INTEGRATION.
 ## Source[^3]
 - $n$. the blending together of the nerve impulses that arrive through the thousands of synapses at a nerve cell body. Impulses from some synapses cause excitation, and from others inhibition; the overall pattern decides whether an individual nerve cell is activated to transmit a message or not.
+## Source[^4]
+- (in neurophysiology) The coordination within the brain of separate but related nervous processes. For example, sensory information from the inner ear and the eye are both necessary for the sense of balance. These stimuli must be integrated by the brain not only with each other but also with various motor nerves, which coordinate the muscles that control posture.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

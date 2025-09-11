@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The hairpin-shaped section of a kidney tubule situated between the proximal and distal tubules in the nephron. The loop of Henle extends from the cortex into the medulla; it consists of a thin descending limb, which is permeable to water, and a thick ascending limb, which is impermeable to water. In the descending limb the filtrate entering from the proximal tubule loses water to the surrounding medulla but not sodium chloride $(\mathrm{NaCl})$ and other solutes; hence its osmolarity increases, reaching a peak at the hairpin bend. In the first part of the ascending limb$\textemdash$the thin segment$\textemdash$NaCl diffuses out into the medulla, but water is retained; in the second part$\textemdash$the thick segment$\textemdash$NaCl is actively transported from the tubule into the medulla. These complex movements of ions and water across the walls of the loop, requiring the expenditure of energy for active transport, enable it to function as a countercurrent multiplier, resulting in the production of concentrated urine in the collecting duct. It is named after German anatomist F. G. J. Henle (1809-85).
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

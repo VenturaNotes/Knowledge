@@ -17,8 +17,10 @@
 | 3 years 4 months                | DTaP/IPV, MMR                                                  |
 | Girls aged 12-13 years          | HPV (two doses)                                                |
 | 14 years                        | Td/IPV, MenCAWY                                                |
-
+## Source[^3]
+- The production of immunity in an individual by artificial means. Active immunization (vaccination) involves the introduction, either orally or by injection (inoculation), of specially treated bacteria, viruses, or their toxins to stimulate the production of antibodies (see vACCINE). Passive immunization is induced by the injection of preformed antibodies.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
