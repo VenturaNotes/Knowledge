@@ -531,159 +531,177 @@ Reviewed: false
 	419. [[anaglyph]]
 	420. [[anaglyptoscope]]
 	
-	421. anagogic interpretation
-	422. anal-expulsive phase
-	423. anal-retentive phase
-	424. anal character
-	425. analeptic
-	426. anal erotism
-	427. analgesia
-	428. analgesic
-	429. analogies test
-	430. analogue
+	421. [[anagogic interpretation]]
+	422. [[anal-expulsive phase]]
+	423. [[anal-retentive phase]]
+	424. [[anal character]]
+	425. [[analeptic]]
+	426. [[anal erotism]]
+	427. [[analgesia]]
+	428. [[analgesic]]
+	429. [[analogies test]]
+	430. [[analogue]]
 	
 	431. anal sadistic stage
-	432. anal stage
-	433. anal triad
-	434. analysand
-	435. analysis
-	436. analysis by synthesis
-	437. analysis of covariance
-	438. analysis of covariance structures
-	439. analysis of variance
-	440. analyst
+		1. n. Another name for the anal stage.
+	432. [[anal stage]]
+	433. [[anal triad]]
+	434. [[analysand]]
+	435. [[analysis]]
+	436. [[analysis by synthesis]]
+	437. [[analysis of covariance]]
+	438. [[analysis of covariance structures]]
+	439. [[analysis of variance]]
+	440. [[analyst]]
 	
-	441. analytical psychology
+	441. [[analytical psychology]]
 	442. analytic language
-	443. analytic statement
-	444. anamnesis
-	445. anamorphic
-	446. anandamide
+		1. n. Another name for an isolating language
+	443. [[analytic statement]]
+	444. [[anamnesis]]
+	445. [[anamorphic]]
+	446. [[anandamide]]
 	447. anankastic neurosis
+		1. See obsessive-compulsive disorder. \[From Greek ananke necessity]
 	448. anankastic personality disorder
-	449. anaphase
-	450. anaphia
+		1. $n$. Another name for obsessive-compulsive personality disorder.
+	449. [[anaphase]]
+	450. [[anaphia]]
 	
-	451. anaphora
-	452. anaphrodisiac
-	453. anaphylactic shock
-	454. anaphylaxis
-	455. anarchic hand
-	456. anarthria
-	457. anchoring and adjustment
-	458. anchor test
-	459. ancient mariner effect
-	460. androgen
+	451. [[anaphora]]
+	452. [[anaphrodisiac]]
+	453. [[anaphylactic shock]]
+	454. [[anaphylaxis]]
+	455. [[anarchic hand]]
+	456. [[anarthria]]
+	457. [[anchoring and adjustment]]
+	458. [[anchor test]]
+	459. [[ancient mariner effect]]
+	460. [[androgen]]
 	
 	461. androgen decline in the ageing male
-	462. androgenization
-	463. androgenous
-	464. androgynous
-	465. andromania
-	466. andropause
-	467. androsterone
-	468. anecdotal evidence
-	469. anechoic room
-	470. anergasia
+		1. $n$. A form of irritable male syndrome. US aging. ADAM abbrev.
+	462. [[androgenization]]
+	463. [[androgenous]]
+	464. [[androgynous]]
+	465. [[andromania]]
+	466. [[andropause]]
+	467. [[androsterone]]
+	468. [[anecdotal evidence]]
+	469. [[anechoic room]]
+	470. [[anergasia]]
 	
-	471. anergia
+	471. [[anergia]]
 	472. anesthesia
-	473. aneurysm
-	474. angel dust
-	475. angina
-	476. angiogram
-	477. angiotensin II
-	478. angst
-	479. angstrom
-	480. angular gyrus
+		1. See ANAESTHESIA.
+	473. [[aneurysm]]
+	474. [[angel dust]]
+	475. [[angina]]
+	476. [[angiogram]]
+	477. [[angiotensin II]]
+	478. [[angst]]
+	479. [[angstrom]]
+	480. [[angular gyrus]]
 	
-	481. angular size
-	482. anhedonia
-	483. aniconia
-	484. anima
-	485. animal magnetism
-	486. animal psychology
-	487. animism
-	488. animus
-	489. anion
-	490. anion channel
+	481. [[angular size]]
+	482. [[anhedonia]]
+	483. [[aniconia]]
+	484. [[anima]]
+	485. [[animal magnetism]]
+	486. [[animal psychology]]
+	487. [[animism]]
+	488. [[animus]]
+	489. [[anion]]
+	490. [[anion channel]]
 	
-	491. anisotropic
+	491. [[anisotropic]]
 	492. ankle reflex
-	493. Anna O
-	494. annealing
-	495. anniversary reaction
-	496. anoesia
-	497. anomaloscope
-	498. anomalous dichromacy
-	499. anomalous myopia
-	500. anomalous sentence
+		1. $n$. Another name for the Achilles tendon reflex.
+	493. [[Anna O]]
+	494. [[annealing]]
+	495. [[anniversary reaction]]
+	496. [[anoesia]]
+	497. [[anomaloscope]]
+	498. [[anomalous dichromacy]]
+	499. [[anomalous myopia]]
+	500. [[anomalous sentence]]
 	
-	501. anomalous trichromacy
-	502. anomia
+	501. [[anomalous trichromacy]]
+	502. [[anomia]]
 	503. anomic aphasia
+		1. See aphasia
 	504. anomic suicide
-	505. anomie
-	506. anoopsia
-	507. anopia
-	508. anopsia
-	509. anorexia
-	510. anorexia nervosa
+		1. See suicide
+	505. [[anomie]]
+	506. [[anoopsia]]
+	507. [[anopia]]
+	508. [[anopsia]]
+	509. [[anorexia]]
+	510. [[anorexia nervosa]]
 	
-	511. anorgasmia
-	512. anorthopia
-	513. anorthoscope
-	514. anorthoscopic
-	515. anosmia
-	516. anosognosia
-	517. Antabuse
-	518. antagonist
+	511. [[anorgasmia]]
+	512. [[anorthopia]]
+	513. [[anorthoscope]]
+	514. [[anorthoscopic]]
+	515. [[anosmia]]
+	516. [[anosognosia]]
+	517. [[Antabuse]]
+	518. [[antagonist]]
 	519. antecedent
+		1. See conditional reasoning
 	520. antedating of consciousness
+		1. See Libet's Delay
 	
-	521. anterior
-	522. anterior cingulate cortex
-	523. anterior commissure
+	521. [[anterior]]
+	522. [[anterior cingulate cortex]]
+	523. [[anterior commissure]]
 	524. anterior funiculus
-	525. anterior horn
-	526. anterior pituitary
-	527. anterior prefrontal cortex
-	528. anterograde amnesia
+		1. See funiculus
+	525. [[anterior horn]]
+	526. [[anterior pituitary]]
+	527. [[anterior prefrontal cortex]]
+	528. [[anterograde amnesia]]
 	529. anterograde degeneration
-	530. anterograde transport
+		1. $n$. Another name for Wallerian degeneration. \[From Latin anterior in front or forward + gradi to go]
+	530. [[anterograde transport]]
 	
-	531. anthrax
-	532. anthropic principle
-	533. anthropobiology
-	534. anthropocentrism
-	535. anthropogenic
-	536. anthropography
-	537. anthropoid
-	538. Anthropoidea
-	539. anthropology
-	540. anthropomorphism
+	531. [[anthrax]]
+	532. [[anthropic principle]]
+	533. [[anthropobiology]]
+	534. [[anthropocentrism]]
+	535. [[anthropogenic]]
+	536. [[anthropography]]
+	537. [[anthropoid]]
+	538. [[Anthropoidea]]
+	539. [[anthropology]]
+	540. [[anthropomorphism]]
 	
-	541. anthroponomastics
-	542. anthropophagus
-	543. anthropophonics
-	544. anthroposophy
+	541. [[anthroponomastics]]
+	542. [[anthropophagus]]
+	543. [[anthropophonics]]
+	544. [[anthroposophy]]
 	545. anti-anxiety drug
-	546. anti-intraception
+		1. $n$. Another name for an anxiolytic drug.
+	546. [[anti-intraception]]
 	547. anti-Müllerian hormone
-	548. anti-Semitism scale
-	549. antibody
+		1. n. Another name for Müllerian inhibiting substance. AMH abbrev.
+	548. [[anti-Semitism scale]]
+	549. [[antibody]]
 	550. anticathexis
+		1. $n$. Another name for countercathexis.
 	
-	551. anticholinergic
-	552. anticholinesterase
+	551. [[anticholinergic]]
+	552. [[anticholinesterase]]
 	553. anticipation method
-	554. anticipatory socialization
-	555. anticonformity
-	556. anticonvulsant
-	557. antidepressant
+		1. $n$. Another name for the serial anticipation method.
+	554. [[anticipatory socialization]]
+	555. [[anticonformity]]
+	556. [[anticonvulsant]]
+	557. [[antidepressant]]
 	558. antidiuretic hormone
-	559. antidromic
-	560. antigen
+		1. n. Another name for vasopressin. ADH abbrev.
+	559. [[antidromic]]
+	560. [[antigen]]
 	
 	561. antigen-antibody response
 	562. antihistamine

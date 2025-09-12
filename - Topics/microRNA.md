@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (miRNA) A small RNA molecule that is encoded by a cell and can 'silence' the expression of a particular target gene within the cell (see RNA INTERFERENCE). miRNAs bind to target messenger RNA (mRNA) molecules and suppress translation of the mRNA into protein. They regulate expression of perhaps half of all human genes and are involved in many aspects of embryological development, cell differentiation, cell death, and cancer. In eukaryotes miRNA genes occur chiefly within the regions between genes or in the introns of protein-coding genes. The primary RNA transcripts are longer precursors (primary miRNAs, or pri-miRNAs) from which the RNAase-like enzyme Drosha cuts a 70-80$\textendash$nucleotide region. This forms a double-stranded (ds) hairpin structure (the pre-miRNA), which is trimmed by another protein, Dicer, to produce the miRNA$\textemdash$a single RNA strand approximately 22 nucleotides long. This is then incorporated into a complex of proteins called RISC (RNA-induced silencing complex). The miRNA binds to one or more sites with a more-or-less complementary base sequence on the target mRNA, thereby blocking translation of the mRNA in some way. Plant cells lack an equivalent of Drosha, and a Dicerlike RNAase enzyme is able to trim miRNAs directly from long dsRNA precursors. A single miRNA can be involved in regulating the synthesis of numerous proteins within the same cell. Compare SHORT INTERFERING RNA.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

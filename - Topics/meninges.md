@@ -21,7 +21,10 @@
 			- pia mater
 			- arachnoid
 			- durameter
+## Source[^3]
+- (sing. meninx) The three membranes that surround the brain and spinal cord of vertebrates: the pia mater, the arachnoid membrane, and the outer dura mater. The pia and arachnoid are separated by the subarachnoid space, which contains cerebrospinal fluid.
 ## References
 
 [^1]: [[(17) 2-Minute Neuroscience - The Meninges]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

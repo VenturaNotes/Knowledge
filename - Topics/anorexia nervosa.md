@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - a psychiatric illness in which the patients starve themselves or use other techniques, such as vomiting or taking laxatives, to induce weight loss. To fulfil ICD-10 criteria for anorexia nervosa a patient must have a distorted body image (thinking they are overweight when they are not), a defined weight loss or body mass index reduction, amenorrhoea, and vomiting or purging. The illness is most common in female adolescents, but about $10 \%$ of sufferers are male. There is a significant mortality associated with anorexia nervosa because of the medical consequences of weight loss. The causes of the illness are not clearly understood: problems within the family, rejection of adult sexuality, self-harming behavior in the context of an emotionally unstable personality disorder, and performance pressure are hypothesized as factors involved. Patients must be persuaded to eat enough to maintain a normal body weight and their emotional disturbance is usually treated with psychotherapy supported by a dietician and possibly the community mental health team. See also BULIMIA.
+## Source[^2]
+- $n$. An eating disorder in DSM-5 usually (but not exclusively) occurring in adolescent girls and young women, characterized by intense fear of becoming fat even though underweight, a refusal to maintain body weight at a normal level (at least 85 per cent of expected weight for sex, age, and height), disturbances in body image, and sometimes amenorrhoea. People with the disorder avoid eating even though hungry, and it is distinguished in careful usage from anorexia. It is popularly (and misleadingly) known as the slimmers' disease. See also lanugo, pro-anA. Compare bulimia nervosa. AN abbrev. \[From Greek an- not or without + orexis appetite + Latin nervus a nerve]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

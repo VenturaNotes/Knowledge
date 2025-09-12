@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A rare neurological condition, leading to complex, goal-directed actions performed by a person's hand involuntarily and against its owner's will. It is associated with lesions in the anterior corpus callosum and the supplementary motor area in the opposite cerebral hemisphere to the anarchic hand and is a symptom of disconnection syndrome. It was first reported by the German psychiatrist Kurt Goldstein (1878-1965) in the journal Neurologische Centralblatt in 1909 and named by the Italian neurologist Sergio Della Sala (born 1955) and two colleagues in an article in the journal Neuropsychologia in 1991. Also called Dr Strangelove syndrome, after the eponymous rocket scientist played by Peter Sellers in Stanley Kubrick's 1964 film, Dr Strangelove or: How I Learned to Stop Worrying and Love the Bomb, who struggles constantly to prevent his right hand from giving Nazi salutes. Compare alien hand sign, rubber hand phenomenon. AH abbrev. \[From Greek anarchia lawlessness or leaderlessness, from an- not + arche government + -ikos of, relating to, or resembling]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

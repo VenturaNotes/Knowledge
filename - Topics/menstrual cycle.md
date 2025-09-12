@@ -13,6 +13,9 @@
 		- degenerating follicle in ovary
 		- menstruation
 		- wall of uterus thickens to receive ovum
+## Source[^2]
+- (uterine cycle; sexual cycle) The approximately monthly cycle of events that prepares the uterus to receive the fertilized egg for pregnancy. It occurs in synchrony with the ovarian cycle and replaces the oestrous cycle in most primates (including humans). The lining of the uterus becomes progressively thicker with more blood vessels in preparation for the implantation of a fertilized egg cell (blastocyst). Ovulation occurs during the middle of the cycle (the fertile period). If fertilization does not occur the uterine lining breaks down and is discharged from the body (menstruation); the discharge is known as a 'period'. In women the fertile period is 11-15 days after the end of the last menstruation.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
