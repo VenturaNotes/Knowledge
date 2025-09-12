@@ -5,7 +5,12 @@
 - (2) adj. relieving pain.
 ## Source[^2]
 - A substance that reduces pain without causing unconsciousness, either by reducing the pain threshold or by increasing pain tolerance. There are several categories of analgesic drugs, including morphine and its derivatives (see OPIATE), which produce analgesia by acting on the central nervous system; nonsteroidal anti-inflammatory drugs (e.g. aspirin); and local anaesthetics.
+## Source[^3]
+- $n$. 
+- (1) Any drug or substance that induces analgesia. See ASPIRIN, BETA-ENDORPHIN, CARBAMAZEPINE, CODEINE, NARCOTIC ANALGESIC, QUININE. See also PHENYLQUININE WRITHING TEST. adj. 
+- (2) Inducing or characterized by analgesia.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

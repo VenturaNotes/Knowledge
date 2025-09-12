@@ -31,8 +31,27 @@
 			- cell divides into two
 			- chromosomes disappear
 			- nuclear membrane forms
+## Source[^4]
+- (pl. mitoses) A type of nuclear division that results in two daughter cells each having a nucleus containing the same number and kind of chromosomes as the mother cell. The changes during divisions are clearly visible with a light microscope. Each chromosome divides lengthwise into two chromatids, which separate and form the chromosomes of the resulting daughter nuclei. The process is divided into four stages, prophase, metaphase, anaphase, and telophase, which merge into each other. Mitotic divisions ensure that all the cells of an individual are genetically identical to each other and to the original fertilized egg. See also CELL CYCLE.
+- ![[Screenshot 2025-09-11 at 6.32.36 PM.png|400]]
+	- The stages of mitosis in a cell containing two pairs of homologous chromosomes
+	- Parts
+		- Chromosome
+		- Centriole
+		- nuclear membrane
+		- cytoplasm
+		- chromatids
+		- centromere
+		- Prophase
+		- Metaphase
+		- Anaphase
+		- Telophase
+		- pole of spindle
+		- equator of spindle
+		- spindle fibres
 ## References
 
 [^1]: ChatGPT
 [^2]: https://medlineplus.gov/genetics/understanding/howgeneswork/cellsdivide/#:~:text=During%20mitosis%2C%20a%20cell%20duplicates,such%20as%20cancer%20can%20result.
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

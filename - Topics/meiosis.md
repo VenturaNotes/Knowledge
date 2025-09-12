@@ -27,8 +27,34 @@
 		- chromatids separate
 		- Telophase II
 		- Four haploid nuclei
+## Source[^4]
+- (reduction division) A type of nuclear division that gives rise to four reproductive cells (gametes) each with half the chromosome number of the parent cell. Two consecutive divisions occur. In the first, homologous chromosomes become paired and may exchange genetic material (see crossing OVER) before moving away from each other into separate daughter nuclei. This is the actual reduction division because each of the two nuclei so formed contains only half of the original chromosomes. The daughter nuclei then divide by mitosis and four haploid cells are produced. See also PROPHASE; METAPHASE; ANAPHASE; TELOPHASE.
+- ![[Screenshot 2025-09-11 at 4.07.42 PM.png]]
+	- The stages of meiosis in a cell containing two pairs of homologous chromosomes
+	- Parts
+		- 1st Prophase: Leptotene
+			- Centriole
+			- Centromere
+			- Nuclear membrane
+			- chromatids
+		- 1st Prophase: Pachytene
+		- 1st Prophase: Diplotene
+			- Chiasmata
+		- 1st Prophase: Diakinesis
+		- 1st Metaphase
+			- Pole
+			- Equator
+			- Spindle fibres
+		- 1st Anaphase
+		- 1st Telophase
+			- developing cell membrane
+				- #question Is this correct (as a term?)
+		- 2nd Metaphase
+		- 2nd Anaphase
+		- 2nd Telophase
 ## References
 
 [^1]: https://highered.mheducation.com/sites/0072919345/student_view0/chapter10/multiple_choice_quiz.html
 [^2]: https://quizizz.com/admin/quiz/5ae31ed16b164f0019047957/biology-vocabulary
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

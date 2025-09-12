@@ -35,6 +35,9 @@ $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{bmatrix} a & b \\ c & d 
 - n. 
 - (1) (in histology) the substance of a tissue or organ in which more specialized structures are embedded; for example, the ground substance (extracellular matrix) of connective tissue. 
 - (2) (in radiology) the division of an image into rows and columns with equally sized elements (pixels). The final image is completed by assigning a density to each of these elements. Increasing the number of pixels in the matrix improves the resolution of the final image. A typical value could be 256 rows $\times 256$ columns.
+
+## Source[^9]
+- (pl. matrices or matrixes) (in histology) The component of tissues (e.g. bone and cartilage) in which the cells of the tissue are embedded. See also extracELLULAR MATRIX.
 ## References
 
 [^1]: https://stattrek.com/matrix-algebra/echelon-form
@@ -45,3 +48,4 @@ $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{bmatrix} a & b \\ c & d 
 [^6]: [[(1) Linear Algebra 1.1.1 Systems of Linear Equations]]
 [^7]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^8]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^9]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A self-replicating unit of cultural inheritance analogous to a gene. The term was introduced by British biologist Richard Dawkins (1941- ) in his book The Selfish Gene (1976) to denote a cultural entity, such as a song, a skill, a religion, or a recipe, that is transmitted between individuals and across generations, so that it is inherited and (potentially) can change over time. Such a concept can provide useful insights into the nature of cultural development. More controversial is the supposed role of memes in shaping the evolution of the human brain by a form of sexual selection. Proponents argue that the ability to reproduce memes, such as musical compositions or literary works, is a manifestation of the genetically determined ability to copy them, making that individual more attractive to potential mates. Hence such admired or talented individuals tend to have more offspring, who inherit their parent's meme-imitating, or even meme-generating abilities. Selection for such traits over time would, it is claimed, enhance the size and complexity of the brain.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

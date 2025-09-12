@@ -5,7 +5,10 @@
 - Naturally occurring and synthetic androgens are used in replacement therapy (to treat such conditions as delayed puberty in adolescent boys, hypogonadism, and impotence due to testicular insufficiency) and as anabolic agents. Side-effects include salt and water retention, increased bone growth, and masculinization in women. Androgens should not be used in patients with cancer of the prostate gland or in pregnant women. $\textemdash$androgenic adj.
 ## Source[^2]
 - One of a group of male sex hormones that stimulate development of the testes and of male secondary sexual characteristics (such as growth of facial and pubic hair in men). Testosterone is the most important. Androgens are produced principally by the testes when stimulated with luteinizing hormone but they are also secreted in smaller amounts by the adrenal glands and the ovaries. Injections of natural or synthetic androgens are used to treat hormonal disorders of the testes and breast cancer and to build up body tissue (see ANABOLIC STEROID).
+## Source[^3]
+- $n$. A male sex hormone such as testosterone or androsterone that is produced by the testes and that promotes the development of male sexual organs and masculine secondary sexual characteristics, or a synthetic substance with a similar pharmacological action. androgenic adj. Of or relating to androgens. \[From Greek andros a man + genes born or produced]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

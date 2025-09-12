@@ -10,7 +10,11 @@ aliases:
 - combining form denoting 
 - (1) large size, or abnormal enlargement or distension. Example: megacaecum (of the caecum). 
 - (2) a million. Example: megavolt (a million volts).
+## Source[^3]
+- (1) A prefix denoting large size; e.g. meganucleus, megasporangium. 
+- (2) Symbol M. A prefix used in the metric system to denote one million times. For example, $10^{6}$ volts $=1$ megavolt (MV).
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

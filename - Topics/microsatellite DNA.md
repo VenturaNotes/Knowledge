@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A form of highly repetitive DNA consisting of large numbers of very short base sequences scattered throughout the eukaryote genome. Each consists of a short base sequence$\textemdash$variously called a short tandem repeat (STR) or short sequence repeat (SSR)$\textemdash$generally 2-5 bp long, that is repeated 5-30 times in a tandem array at any given locus. Hence, for example, one individual might have 17 consecutive repeats of the sequence CA at a given locus, while another individual might have 15 repeats. Overall, the same sequence might occur at many different loci and be repeated tens of thousands of times throughout the genome. The variability in the number of such repeats between individuals provides a valuable set of molecular markers for characterizing the DNA (see DNA PROFILING; PHYSICAL MAP). The number of repeats in any particular region of DNA is determined by using the polymerase chain reaction (PCR) to amplify the region and assessing the size of the PCR products by gel electrophoresis. The DNA of two individuals with tandem arrays of different lengths at a given locus will yield PCR products of different sizes, which will be revealed as distinct bands on the developed gel. Microsatellite DNA is named by analogy with satellite DNA, although it does not form visible satellite peaks on centrifugation. Compare VARIABLE NUMBER TANDEM REPEATS.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The extinction of a large number of species within a relatively short interval of the geological time scale. The fossil record provides evidence for several mass extinctions, perhaps as many as 20, since the start of the Phanerozoic eon about 570 million years ago. Such extinctions cause radical changes in the characteristic fossil assemblages of rock, which have been reflected in the naming of strata by geologists. Hence, mass extinctions often mark the boundaries between geological strata and between the corresponding geological time intervals. The biggest mass extinctions occurred at the end of the Permian period (about 248 million years ago), when over $80 \%$ of all marine invertebrate genera disappeared (including the trilobites), and at the end of the Cretaceous (65 million years ago), when some $50 \%$ of all genera became extinct, including virtually all the dinosaurs (see Alvarez event). Such cataclysmic changes in the earth's biota have profound effects on the course of evolution, for example by leaving vacant ecological niches into which surviving groups can expand and radiate. Recent decades have witnessed a rapid acceleration in species loss, due largely to human activities. This has prompted calls to designate a new epoch, the Anthropocene. See Appendix 6.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

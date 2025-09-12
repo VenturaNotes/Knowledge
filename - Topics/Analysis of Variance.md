@@ -8,10 +8,8 @@ aliases:
 - A general procedure for partitioning the overall variability in a set of data into components due to specified causes and random variation. It involves calculating such quantities as the 'between-groups sum of squares' and the 'residual sum of squares' and dividing by the degrees of freedom to give so-called 'mean squares'. The results are usually presented in an ANOVA table, the name being derived from the opening letters of the words 'analysis of variance'. Such a table provides a concise summary from which the influence of the explanatory variables can be estimated and hypotheses can be tested, usually by means of F-tests
 - http://www.bmj.com/cgi/content/full/312/7044/1472
 	- A description of the analysis and ins interpretation in a medical context (subscription)
-
 ## Source[^2]
 - A statistical technique based on decomposing the total variance of some characteristic of a population into parts correlated with other characteristics, and residual variation. In particular, analysis of variance is used to test whether sections of a population appear to differ significantly in some property. For example, if $y_i$ is the personal income of individual $i$, analysis of variance can be used to test whether there are significant regional differences in mean income. The total variance of the population is decomposed into the part due to differences within regions, and the part due to differences between regional means. The larger the proportion of total variance due to differences between group means, the more likely it is that the groups are systematically different, whereas the higher the proportion of total variance due to within-group variance, the more likely it is that apparent differences between group means arise from sampling error.
-
 ## Source[^3]
 - A technique, originally developed by R. A. Fisher, whereby the total variation in a vector of numbers $y_{1} \ldots y_{n}$, expressed as the sum of squares about the mean
 
@@ -78,9 +76,12 @@ A statistical model applied to the data allows mean squares, equal to (sum of sq
 - (ANOVA; variance analysis) 
 - (1) A commonly used method for examining the statistically significant differences between the means of two or more populations. In its simplest form (one-way analysis of variance), it involves only one dependent variable (metric measurement level) and one or more independent variables (non-metric). For example, a researcher may be interested in establishing if there is a statistically significant difference in the average amount spent on alcohol per week between two samples of population (say, male and female). Here, the dependent variable is the amount spent and the independent variable is the gender of the participants. 
 - (2) In standard costing and budgetary control, the analysis of variances in order to seek their causes. The total profit variance or production cost variance is analysed into sub-variances, based on such factors as direct labour, direct materials, fixed and variable overheads, and sales, in order to indicate the major reasons for the difference between budgeted figures and actual figures.
+## Source[^5]
+- $n$. A statistical procedure for testing the significance of differences among several group means by partitioning the total variance in the dependent variable into effects due to the independent variable (in one-way ANOVA) or each of the two or more independent variables (in multifactorial ANOVA) plus error variance. In multifactorial designs the proportion of the total variance due to interaction effects involving two or more independent variables is also estimated. The term was introduced by the English statistician and geneticist Ronald Aylmer Fisher (1890-1962) in an article in the journal Eugenics Review in 1918. See also a posteriori TEST, MULTIPLE COMPARISONS, PLANNED COMPARISON, REPEATED-MEASURES ANALYSIS OF VARIANCE. Compare ANALYSIS OF COVARIANCE (ANCOVA), MULTIVARIATE ANALYSIS OF VARIANCE (MANOVA). ANOVA abbrev.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -4189,334 +4189,416 @@ Reviewed: false
 		1. See cancer
 	
 	2831. lymphotoxin
+		1. See TUMOUR NECROSIS FACTOR.
 	2832. lyophilization
-	2833. Lysenkoism
-	2834. lysergic acid diethylamide
-	2835. lysigeny
+		1. See freeze drying
+	2833. [[Lysenkoism]]
+	2834. [[lysergic acid diethylamide]]
+	2835. [[lysigeny]]
 	2836. lysine
-	2837. lysis
-	2838. lysogeny
-	2839. lysosome
-	2840. lysozyme
+		1. See amino acid
+	2837. [[lysis]]
+	2838. [[lysogeny]]
+	2839. [[lysosome]]
+	2840. [[lysozyme]]
 	
 	2841. m.u.
+		1. See map unit
 	2842. MAC
-	2843. macroevolution
-	2844. macrofauna
-	2845. macromolecule
-	2846. macronutrient
-	2847. macrophage
-	2848. macrophagous
+		1. See membrane attack complex
+	2843. [[macroevolution]]
+	2844. [[macrofauna]]
+	2845. [[macromolecule]]
+	2846. [[macronutrient]]
+	2847. [[macrophage]]
+	2848. [[macrophagous]]
 	2849. macrophyll
-	2850. macropinocytosis
+		1. See MEGAPHYLL.
+	2850. [[macropinocytosis]]
 	
-	2851. macula
+	2851. [[macula]]
 	2852. macula adherens
+		1. See desmosome
 	2853. macula densa
-	2854. MADS box gene
-	2855. magnesium
-	2856. magnetic resonance imaging
-	2857. magnetite
-	2858. magnetoreceptor
+		1. See JUXTAGLOMERULAR APPARATUS.
+	2854. [[MADS box gene]]
+	2855. [[magnesium]]
+	2856. [[magnetic resonance imaging]]
+	2857. [[magnetite]]
+	2858. [[magnetoreceptor]]
 	2859. Magnoliophyta
-	2860. major histocompatibility complex
+		1. See ANTHOPHYTA.
+	2860. [[major histocompatibility complex]]
 	
-	2861. malaria
+	2861. [[malaria]]
 	2862. MALDI-TOF
-	2863. male
-	2864. malic acid
-	2865. malignant
-	2866. malleus
-	2867. Mallophaga
-	2868. malnutrition
-	2869. Malpighian body
-	2870. Malpighian layer
+		1. See MATRIX-ASSISTED LASER DESORPTION/IONIZATION-TIME OF FLIGHT.
+	2863. [[male]]
+	2864. [[malic acid]]
+	2865. [[malignant]]
+	2866. [[malleus]]
+	2867. [[Mallophaga]]
+	2868. [[malnutrition]]
+	2869. [[Malpighian body]]
+	2870. [[Malpighian layer]]
 	
-	2871. Malpighian tubule
-	2872. malt
-	2873. MALT
-	2874. maltase
-	2875. maltose
+	2871. [[Malpighian tubule]]
+	2872. [[malt]]
+	2873. 
+	2874. [[maltase]]
+	2875. [[maltose]]
 	2876. malt sugar
-	2877. Mammalia
-	2878. mammary glands
+		1. See maltose
+	2877. [[Mammalia]]
+	2878. [[mammary glands]]
 	2879. Mandibulata
-	2880. manganese
+		1. See uniramia
+	2880. [[manganese]]
 	
-	2881. mangrove swamp
+	2881. [[mangrove swamp]]
 	2882. mannan
-	2883. mannitol
-	2884. mannose
-	2885. mannose-binding lectin
-	2886. manometer
-	2887. mantle
+		1. See mannose
+	2883. [[mannitol]]
+	2884. [[mannose]]
+	2885. [[mannose-binding lectin]]
+	2886. [[manometer]]
+	2887. [[mantle]]
 	2888. Maotianshan shale
-	2889. MAP kinase
-	2890. map unit
+		1. See CHENGJIANG FOSSILS.
+	2889. [[MAP kinase]]
+	2890. [[map unit]]
 	
 	2891. Marchantiophyta
+		1. See HEPATOPHYTA.
 	2892. marsupials
-	2893. mass extinction
-	2894. mass flow
-	2895. mass spectrometry
-	2896. mast cell
-	2897. mastication
+		1. See METATHERIA.
+	2893. [[mass extinction]]
+	2894. [[mass flow]]
+	2895. [[mass spectrometry]]
+	2896. [[mast cell]]
+	2897. [[mastication]]
 	2898. mastigoneme
-	2899. mastoid process
-	2900. maternal effect genes
+		1. See tinsel flagellum.
+	2899. [[mastoid process]]
+	2900. [[maternal effect genes]]
 	
 	2901. maternal inheritance
+		1. See CYTOPLASMIC INHERITANCE.
 	2902. mating
+		1. See sexual intercourse
 	2903. mating season
-	2904. mating type
-	2905. matric potential
-	2906. matrix
-	2907. matrix-assisted laser desorption/ionization-time of flight
-	2908. maturation
+		1. See breeding season
+	2904. [[mating type]]
+	2905. [[matric potential]]
+	2906. [[matrix]]
+	2907. [[matrix-assisted laser desorption-ionization-time of flight]]
+	2908. [[maturation]]
 	2909. maturation-promoting factor
-	2910. maturity
+		1. (MPF) See mitosis-PROMOTING FACTOR.
+	2910. [[maturity]]
 	
-	2911. maxicell
-	2912. maxilla
-	2913. maxilliped
-	2914. maxillula
-	2915. maximum likelihood
-	2916. maximum parsimony
+	2911. [[maxicell]]
+	2912. [[maxilla]]
+	2913. [[maxilliped]]
+	2914. [[maxillula]]
+	2915. [[maximum likelihood]]
+	2916. [[maximum parsimony]]
 	2917. maximum permissible dose
+		1. See dose
 	2918. Mb
+		1. See megabase
 	2919. M band
+		1. (M line) See sarcomere
 	2920. M cells
+		1. See peyer's patches
 	
-	2921. mean
-	2922. meatus
-	2923. mechanoreceptor
-	2924. mechanotransduction
-	2925. meconium
-	2926. median
-	2927. median eye
+	2921. [[mean]]
+	2922. [[meatus]]
+	2923. [[mechanoreceptor]]
+	2924. [[mechanotransduction]]
+	2925. [[meconium]]
+	2926. [[median]]
+	2927. [[median eye]]
 	2928. median lethal dose
-	2929. mediastinum
-	2930. MEDLINE
+		1. See LD.
+	2929. [[mediastinum]]
+	2930. [[MEDLINE]]
 	
-	2931. medulla
-	2932. medulla oblongata
-	2933. medullary ray
-	2934. medullated nerve fibre
-	2935. medusa
-	2936. mega-
-	2937. megabase
+	2931. [[medulla]]
+	2932. [[medulla oblongata]]
+	2933. [[medullary ray]]
+	2934. [[medullated nerve fibre]]
+	2935. [[medusa]]
+	2936. [[mega-]]
+	2937. [[megabase]]
 	2938. meganucleus
-	2939. megaphyll
+		1. See nucleus
+	2939. [[megaphyll]]
 	2940. megasporangium
+		1. See sporangium
 	
 	2941. megaspore
-	2942. megaspore mother cell
+		1. See MEGASPORE MOTHER CELL; SPOROPHYLL.
+	2942. [[megaspore mother cell]]
 	2943. megasporophyll
+		1. See SPOROPHYLL.
 	2944. Megavirus
-	2945. meiofauna
-	2946. meiosis
-	2947. Meissner's corpuscles
-	2948. melanin
-	2949. melanism
-	2950. melanocyte-stimulating hormone
+		1. See NUCLEOCYTOPLASMIC LARGE DNA VIRUS.
+	2945. [[meiofauna]]
+	2946. [[meiosis]]
+	2947. [[Meissner's corpuscles]]
+	2948. [[melanin]]
+	2949. [[melanism]]
+	2950. [[melanocyte-stimulating hormone]]
 	
 	2951. melanophore
-	2952. melatonin
-	2953. membrane
-	2954. membrane attack complex
-	2955. membrane potential
-	2956. membranous labyrinth
-	2957. meme
-	2958. memory
+		1. See CHROMATOPHORE.
+	2952. [[melatonin]]
+	2953. [[membrane]]
+	2954. [[membrane attack complex]]
+	2955. [[membrane potential]]
+	2956. [[membranous labyrinth]]
+	2957. [[meme]]
+	2958. [[memory]]
 	2959. memory cell
-	2960. Mendel's laws
+		1. See immunological memory
+	2960. [[Mendel's laws]]
 	
-	2961. Mendel, Johann Gregor (1822–84)
-	2962. Mendelism
-	2963. meninges
+	2961. [[Gregor Mendel]]
+	2962. [[Mendelism]]
+	2963. [[meninges]]
 	2964. meniscus
-	2965. menopause
-	2966. menstrual cycle
+		1. (pl. menisci) See SURFACE TENSION.
+	2965. [[menopause]]
+	2966. [[menstrual cycle]]
 	2967. mericarp
-	2968. meristem
-	2969. meristoderm
-	2970. Merkel's disc
+		1. See SCHIzOCARP.
+	2968. [[meristem]]
+	2969. [[meristoderm]]
+	2970. [[Merkel's disc]]
 	
 	2971. merocrine secretion
+		1. See secretion
 	2972. meromictic lake
+		1. See dimictic lake
 	2973. Merostomata
-	2974. merozygote
+		1. See chelicerata
+	2974. [[merozygote]]
 	2975. mesencephalon
-	2976. mesenteric artery
+		1. See midbrain
+	2976. [[mesenteric artery]]
 	2977. mesocarp
+		1. See PERICARP.
 	2978. mesofauna
+		1. See MACROFAUNA.
 	2979. mesopelagic zone
-	2980. mesophyll
+		1. See EUPHOTIC ZONE.
+	2980. [[mesophyll]]
 	
-	2981. mesophyte
-	2982. mesothelium
-	2983. mesotrophic
-	2984. Mesozoic
+	2981. [[mesophyte]]
+	2982. [[mesothelium]]
+	2983. [[mesotrophic]]
+	2984. [[Mesozoic]]
 	2985. messenger RNA
+		1. See RNA
 	2986. metabolic pathway
-	2987. metabolic waste
-	2988. metabolism
+		1. See metabolism
+	2987. [[metabolic waste]]
+	2988. [[metabolism]]
 	2989. metabolite
-	2990. metacarpal
+		1. See metabolism
+	2990. [[metacarpal]]
 	
-	2991. metacarpus
+	2991. [[metacarpus]]
 	2992. metacentric
-	2993. metafemale
-	2994. metagenomics
-	2995. metamale
-	2996. metameric segmentation
-	2997. metamorphosis
-	2998. metanephridium
-	2999. metaphloem
-	3000. metaplasia
+		1. See centromere
+	2993. [[metafemale]]
+	2994. [[metagenomics]]
+	2995. [[metamale]]
+	2996. [[metameric segmentation]]
+	2997. [[metamorphosis]]
+	2998. [[metanephridium]]
+	2999. [[metaphloem]]
+	3000. [[metaplasia]]
 	
-	3001. metapopulation
+	3001. [[metapopulation]]
 	3002. metastasis
-	3003. metatarsus
-	3004. Metatheria
-	3005. Metazoa
-	3006. methanogen
+		1. (pl. metastases) See CANCER.
+	3003. [[metatarsus]]
+	3004. [[Metatheria]]
+	3005. [[Metazoa]]
+	3006. [[methanogen]]
 	3007. methionine
+		1. See AMINO ACID.
 	3008. methylome
-	3009. metre
+		1. See DNA methylation
+	3009. [[metre]]
 	3010. MHC
+		1. See MAJOR HISTOCOMPATIBILITY COMPLEX.
 	
-	3011. MHC class II protein
-	3012. MHC class I protein
-	3013. Michaelis-Menten curve
-	3014. micro-
-	3015. microarray
-	3016. Microarray Technology
+	3011. [[MHC class II protein]]
+	3012. [[MHC class I protein]]
+	3013. [[Michaelis-Menten curve]]
+	3014. [[micro-]]
+	3015. [[microarray]]
+	3016. 
 	3017. microbe
-	3018. microbiology
-	3019. microbiome
-	3020. microbody
+		1. See microorganism
+	3018. [[microbiology]]
+	3019. [[microbiome]]
+	3020. [[microbody]]
 	
-	3021. microclimate
-	3022. microdissection
-	3023. microelectrode
-	3024. microevolution
-	3025. microfauna
-	3026. microfibril
-	3027. microfilament
-	3028. microflora
-	3029. microfossil
+	3021. [[microclimate]]
+	3022. [[microdissection]]
+	3023. [[microelectrode]]
+	3024. [[microevolution]]
+	3025. [[microfauna]]
+	3026. [[microfibril]]
+	3027. [[microfilament]]
+	3028. [[microflora]]
+	3029. [[microfossil]]
 	3030. microglia
+		1. See GLIA; MACROPHAGE.
 	
-	3031. microhabitat
-	3032. microinjection
+	3031. [[microhabitat]]
+	3032. [[microinjection]]
 	3033. micromanipulation
+		1. micromanipulation See MICRODISSECTION.
 	3034. micronucleus
-	3035. micronutrient
-	3036. microorganism
-	3037. microphagous
-	3038. microphyll
-	3039. micropipette
-	3040. micropropagation
+		1. See nucleus
+	3035. [[micronutrient]]
+	3036. [[microorganism]]
+	3037. [[microphagous]]
+	3038. [[microphyll]]
+	3039. [[micropipette]]
+	3040. [[micropropagation]]
 	
-	3041. micropyle
-	3042. microRNA
-	3043. microsatellite DNA
-	3044. microscope
-	3045. Microscopy
+	3041. [[micropyle]]
+	3042. [[microRNA]]
+	3043. [[microsatellite DNA]]
+	3044. [[microscope]]
+	3045. 
 	3046. microsporangium
+		1. See SPORANGIUM.
 	3047. microspore
-	3048. microspore mother cell
-	3049. microsporidia
+		1. See MICROSPORE MOTHER CELL; SPOROPHYLL.
+	3048. [[microspore mother cell]]
+	3049. [[microsporidia]]
 	3050. microsporocyte
+		1. See MICROSPORE MOTHER CELL.
 	
 	3051. microsporophyll
-	3052. microtome
-	3053. microtubule
-	3054. microtubule-organizing centre
-	3055. microvillus
-	3056. micturition
-	3057. midbrain
-	3058. middle ear
-	3059. middle lamella
-	3060. midgut
+		1. See SPOROPHYLL.
+	3052. [[microtome]]
+	3053. [[microtubule]]
+	3054. [[microtubule-organizing centre]]
+	3055. [[microvillus]]
+	3056. [[micturition]]
+	3057. [[midbrain]]
+	3058. [[middle ear]]
+	3059. [[middle lamella]]
+	3060. [[midgut]]
 	
-	3061. migration
-	3062. milk
+	3061. [[migration]]
+	3062. [[milk]]
 	3063. milk sugar
+		1. See lactose
 	3064. milk teeth
-	3065. milli-
+		1. See deciduous teeth
+	3065. [[milli-]]
 	3066. millipedes
-	3067. Millon's reagent
-	3068. mimicry
+		1. See diplopoda
+	3067. [[Millon's reagent]]
+	3068. [[mimicry]]
 	3069. Mimivirus
-	3070. mineral deficiency
+		1. See NUCLEOCYTOPLASMIC LARGE DNA VIRUS.
+	3070. [[mineral deficiency]]
 	
 	3071. mineralocorticoid
-	3072. mineral salts
-	3073. minicell
+		1. See corticosteroid
+	3072. [[mineral salts]]
+	3073. [[minicell]]
 	3074. minisatellite DNA
+		1. See variable NUMBER TANDEM REPEATS.
 	3075. minus 10 sequence
-	3076. Miocene
-	3077. miracidium
+		1. See pribnow box
+	3076. [[Miocene]]
+	3077. [[miracidium]]
 	3078. miRNA
-	3079. mirror neuron
-	3080. mismatch repair
+		1. See microrna
+	3079. [[mirror neuron]]
+	3080. [[mismatch repair]]
 	
-	3081. missense mutation
+	3081. [[missense mutation]]
 	3082. mites
-	3083. mitochondrial DNA
-	3084. mitochondrial Eve
-	3085. mitochondrial theory of ageing
-	3086. mitochondrion
+		1. See acarina
+	3083. [[mitochondrial DNA]]
+	3084. [[mitochondrial Eve]]
+	3085. mitochondrial theory of aging
+		1. See SENESCENCE.
+	3086. [[mitochondrion]]
 	3087. mitogen-activated protein kinase
-	3088. mitosis
-	3089. mitosis-promoting factor
-	3090. mitosome
+		1. See map kinase
+	3088. [[mitosis]]
+	3089. [[mitosis-promoting factor]]
+	3090. [[mitosome]]
 	
 	3091. mitral valve
+		1. See bicuspid valve
 	3092. mixed function oxidase
-	3093. mixotrophic
+		1. (mixed function oxygenase) See MONOOXYGENASE.
+	3093. [[mixotrophic]]
 	3094. MLST
-	3095. mmHg
-	3096. model organism
+		1. See MULTILOCUS SEQUENCE TYPING.
+	3095. [[mmHg]]
+	3096. [[model organism]]
 	3097. moderately repetitive DNA
+		1. See repetitive DNA
 	3098. modern synthesis
-	3099. modifier gene
+		1. See neo-darwinism
+	3099. [[modifier gene]]
 	3100. molality
+		1. See concentration
 	
-	3101. molar
+	3101. [[molar]]
 	3102. molarity
-	3103. mole
-	3104. molecular biology
-	3105. molecular chaperone
-	3106. molecular clock
-	3107. molecular fossil
+		1. See concentration
+	3103. [[mole]]
+	3104. [[molecular biology]]
+	3105. [[molecular chaperone]]
+	3106. [[molecular clock]]
+	3107. [[molecular fossil]]
 	3108. molecular imprinting
-	3109. molecular marker
-	3110. molecular mimicry
+		1. See gene imprinting
+	3109. [[molecular marker]]
+	3110. [[molecular mimicry]]
 	
-	3111. molecular systematics
+	3111. [[molecular systematics]]
 	3112. Molisch's test
-	3113. Mollusca
-	3114. molybdenum
+		1. See ALPHA-NAPHTHOL TEST.
+	3113. [[Mollusca]]
+	3114. [[molybdenum]]
 	3115. Monera
-	3116. monilophyte
-	3117. monoamine oxidase
-	3118. monobiontic
+		1. See prokaryote
+	3116. [[monilophyte]]
+	3117. [[monoamine oxidase]]
+	3118. [[monobiontic]]
 	3119. monochasium
-	3120. monocistronic
+		1. (pl. monochasia) See CYMOSE INFLORESCENCE.
+	3120. [[monocistronic]]
 	
-	3121. monoclonal antibody
-	3122. Monocotyledoneae
+	3121. [[monoclonal antibody]]
+	3122. [[Monocotyledoneae]]
 	3123. monoculture
-	3124. monocyte
-	3125. monoecious
+		1. See agriculture
+	3124. [[monocyte]]
+	3125. [[monoecious]]
 	3126. monoglyceride
-	3127. monohybrid cross
-	3128. monolayer culture
-	3129. mononuclear phagocyte system
-	3130. monooxygenase
+		1. See glyceride
+	3127. [[monohybrid cross]]
+	3128. [[monolayer culture]]
+	3129. [[mononuclear phagocyte system]]
+	3130. [[monooxygenase]]
 	
 	3131. monophyletic
 	3132. monophyodont

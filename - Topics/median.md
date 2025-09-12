@@ -8,8 +8,11 @@
 - adj. 
 - (1) (in anatomy) situated in or denoting the median plane, which divides the body into right and left halves. See ANATOMICAL POSITION. 
 - (2) (in statistics) see MEAN.
+## Source[^4]
+- The middle number or value in a series of numbers or values.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
