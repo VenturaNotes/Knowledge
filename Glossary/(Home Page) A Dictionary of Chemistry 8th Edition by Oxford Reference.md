@@ -2925,7 +2925,7 @@ Reviewed: false
 	2903. Le Chatelier’s principle
 	2904. lechatelierite
 	2905. Leclanché cell
-	2906. lectin
+	2906. [[lectin]]
 	2907. LEED
 	2908. Lennard–Jones potential
 	2909. leucine
@@ -3340,7 +3340,7 @@ Reviewed: false
 	3318. multiple-wavelength anomalous dispersion
 	3319. multiple bond
 	3320. multiple proportions
-	3321. multiplet
+	3321. [[multiplet]]
 	3322. multiplicity
 	3323. multipole interactions
 	3324. Mumetal
@@ -4787,7 +4787,7 @@ Reviewed: false
 	4765. synthesis
 	4766. synthesis gas
 	4767. synthetic
-	4768. synthon
+	4768. [[synthon]]
 	4769. Système International d’Unités
 	4770. Szilard–Chalmers effect
 	4771. 2,4,5-T
