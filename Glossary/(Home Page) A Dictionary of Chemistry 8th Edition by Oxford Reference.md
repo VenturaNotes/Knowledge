@@ -1302,7 +1302,7 @@ Reviewed: false
 	1280. Crick, Francis Harry Compton (1916–2004)
 	1281. cristobalite
 	1282. critical pressure
-	1283. critical state
+	1283. [[critical state]]
 	1284. critical temperature
 	1285. critical volume
 	1286. Crookes, Sir William (1832–1919)
@@ -1848,12 +1848,12 @@ Reviewed: false
 	1826. enols
 	1827. enrichment
 	1828. ensemble
-	1829. entanglement
+	1829. [[entanglement]]
 	1830. enthalpy
 	1831. entropy
 	1832. envelope
 	1833. environmental chemistry
-	1834. enyl complex
+	1834. [[enyl complex]]
 	1835. enzyme
 	1836. enzyme–substrate complex
 	1837. enzyme inhibition
