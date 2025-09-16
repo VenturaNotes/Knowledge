@@ -15,6 +15,9 @@ aliases:
 		- perineurium
 		- endoneurium
 		- fascicle (a group of nerve fibres)
+## Source[^2]
+- A strand of tissue comprising many nerve fibres plus supporting tissues (see GLIA), enclosed in a connective-tissue sheath. Nerves connect the central nervous system with the organs and tissues of the body. A nerve may carry only motor nerve fibres (motor nerve) or only sensory fibres (sensory nerve) or it may be mixed and carry both types (mixed nerve). Although the nerve fibres are in close proximity within the nerve, their physiological responses are independent of each other.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

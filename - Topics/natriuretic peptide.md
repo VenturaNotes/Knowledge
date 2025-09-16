@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - any of several peptides that stimulate diuresis (increased urine production) and vasodilatation (widening of blood vessels). They act on the kidney tubules to promote excretion of sodium (natriuresis) and water. Atrial natriuretic peptide (ANP) is produced in the atria of the heart in response to a rise in atrial pressure. Brain natriuretic peptide (BNP) is produced in the brain and the ventricles of the heart, mainly in response to stretching of the ventricular muscle (as occurs in congestive heart failure). Measurement of blood levels of BNP can be used as a diagnostic test for heart failure and also as an indicator of prognosis.
+## Source[^2]
+- Any of several peptide hormones that promote the excretion of sodium ions in the urine (i.e. natriuresis). The first to be discovered was atrial natriuretic peptide (ANP), which is produced by an upper chamber (atrium) of the heart. ANP is released from atrial muscle cells in response to various factors, including stretching of the atrial walls, raised concentration of sodium in the blood, angiotenism II, and stimulation of $\beta$ adrenoceptors. The overall effects are a decrease in blood volume and lowering of cardiac output and blood pressure. Brain natriuretic peptide (BNP, or B-type natriuretic peptide) is released in the brain and also the heart ventricles in response to stretching of the chambers; it has vasodilator and natriuretic properties, and levels increase markedly in cases of heart failure. C-type natriuretic peptide (CNP) is produced more generally in the cardiovascular system and serves as a regulator of vascular tone and growth.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

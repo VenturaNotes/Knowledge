@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A glass fibre through which light can be transmitted with near total internal reflection and very little leakage through the sidewalls. In the step-index fibre a pure glass core, with a diameter between 6 and $250 ~\mu \mathrm{m}$, is surrounded by a glass or plastic cladding of lower refractive index. The cladding is usually between 10 and $150~ \mu \mathrm{m}$ thick. The interface between core and cladding acts as a cylindrical mirror at which total internal reflection of the transmitted light takes place. This structure enables a beam of light to travel through many kilometres of fibre. In the graded-index fibre, each layer of glass, from the fibre axis to its outer wall, has a slightly lower refractive index than the layer inside it. This arrangement also prevents light from escaping through the fibre walls by a combination of refraction and total internal reflection, and can be made to give the same transit time for rays at different angles.
+- Fibre-optic systems use optical fibres to transmit information, in the form of coded pulses or fragmented images (using bundles of fibres), from a source to a receiver. They are used, for example, in medical instruments (endoscopes or fibrescopes) to examine internal body cavities, such as the stomach and bladder.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -18,6 +18,12 @@
 			- mature ovum
 			- second polar body
 			- additional polar bodies (do not always form)
+## Source[^2]
+- The production and growth of the ova (egg cells) in the animal ovary. Special cells (oogonia) within the ovary divide repeatedly by mitosis to produce large numbers of prospective egg cells (primary oocytes). When mature, these undergo meiosis, which halves the number of chromosomes. During the first meiotic division a polar body and a secondary oocyte are produced. At the second meiotic division the secondary oocyte produces a large haploid ootid, which matures into the ovum, and a second polar body. Oocytes may be present in the ovaries at birth and may represent the total number of eggs to be produced.
+- http://www.embryology.ch/anglais/cgametogen/oogenese01.html
+	- #comment Page not found
+	- Overview of oogenesis, including the development of follicles and the ovarian cycle, produced by Human Embryology
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -37,9 +37,36 @@ aliases:
 			- cell body
 			- nucleus
 			- axon
+## Source[^5]
+- (neurone; nerve cell) An elongated branched cell that is the fundamental unit of the nervous system, being specialized for the conduction of impulses. A neuron consists of a cell body, containing the nucleus and Nissl granules; dendrites, which receive incoming impulses and pass them towards the cell body; and an axon, which conducts impulses away from the cell body, sometimes over long distances. Impulses are passed from one neuron to the next via synapses. Sensory neurons transmit information from receptors to the central nervous system. Motor neurons conduct information from the central nervous system to effectors (e.g. muscles). Interneurons form connections between neurons in the brain and ganglia, and play a key role in interpreting and analysing sensory information. (See illustration.) See also BIPOLAR NEURON; GROWTH CONE; MULTIPOLAR NEURON; NEURITE; UNIPOLAR NEURON.
+- ![[Screenshot 2025-09-16 at 12.45.40 AM.png]]
+	- Sensory neuron
+	- Parts
+		- Myelin sheath
+		- Axon
+		- Node of Ranvier
+		- Nucleus
+		- Cell body
+		- Nissl granules
+		- Direction of impulses
+		- Dendrites
+		- Receptor
+- ![[Screenshot 2025-09-16 at 12.46.43 AM.png]]
+	- Motor neuron
+	- Parts
+		- Direction of impulses
+		- Dendron
+		- Dendrites
+		- Myelin sheath
+		- Effector muscle
+		- end plates
+		- axon
+		- Nissl granules
+		- Cell body
 ## References
 
 [^1]: Gemini
 [^2]: [[(1) 2-Minute Neuroscience - The Neuron]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

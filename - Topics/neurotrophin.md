@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (NT) Any of several growth factors that promote the development, maintenance, and repair of neurons. Each is a dimer of two identical polypeptides held together by disulphide bonds. The first to be discovered, nerve growth factor (NGF), is essential for the normal growth and survival of neurons of the sympathetic nervous system and also sensory neurons. It is produced by the neurons themselves and by astrocytes, Schwann cells, fibroblasts, and certain other cells. Some cells in the central nervous system (CNS), such as cholinergic neurons in the basal forebrain that supply the hippocampus, are sensitive to NGF, which is also required for the synthesis of neurotransmitter in adult brain cells. Other neurotrophins that are widely distributed in the CNS include brain-derived neurotrophic factor (BDNF) and neurotrophin 3 (NT-3). Both play important roles during development and survival of CNS neurons; they can also influence the activity of brain cells by altering the concentration of ion channels in neurons, which in turn affects synaptic transmission and neuronal excitability. Other neurotrophins are NT-4/5 and NT-6. All neurotrophins exert their effects by binding to neurotrophin receptors on the surface of target neurons.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

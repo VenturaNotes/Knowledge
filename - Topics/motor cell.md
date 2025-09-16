@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A type of plant cell that acts like a hinge at joints to enable the movement of plant parts, such as the closing and opening of leaflets in response to light intensity (see NYCTINASTY) or the rapid closure of a leaf in a carnivorous plant. Motor cells adjust their internal concentration of potassium ions $\left(\mathrm{K}^{+}\right)$to alter their turgidity, and hence the cell shape. They can accumulate $\mathrm{K}^{+}$via potassium channels in the plasma membrane, which promotes the osmotic uptake of water into the cell, making the cell swollen (turgid). Conversely, they can pump $\mathrm{K}^{+}$out of the cell, which causes water to leave and the cell to shrink. The movements resulting from the changes in motor-cell turgor are relatively gradual, taking minutes or hours. However, in the case of carnivorous plants, such as Venus' flytrap, a very rapid leaf closure is required to trap insect prey. Here the motor cells along the midrib of the leaf become freely permeable to $\mathrm{K}^{+}$, which surges out, causing water to follow and leading to near instantaneous collapse of the cells and swift closure of the leaf.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
