@@ -829,7 +829,7 @@ Reviewed: false
 	807. Calorie
 	808. calorie
 	809. calorific value
-	810. calorimeter
+	810. [[calorimeter]]
 	811. Calvin, Melvin (1911–97)
 	812. Calvin cycle
 	813. calx
@@ -932,7 +932,7 @@ Reviewed: false
 	910. cathetometer
 	911. cathine
 	912. cathinone
-	913. cathode
+	913. [[cathode]]
 	914. cathodic protection
 	915. cation
 	916. cationic detergent
@@ -1324,7 +1324,7 @@ Reviewed: false
 	1302. crystal
 	1303. crystal-field theory
 	1304. Crystal defects
-	1305. crystal growth
+	1305. [[crystal growth]]
 	1306. crystal habit
 	1307. crystal lattice
 	1308. crystalline
