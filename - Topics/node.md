@@ -16,8 +16,13 @@ aliases:
 - (2) A substructure of a hierarchical data structure that cannot be further decomposed, e.g. a vertex in a graph or tree.
 ## Source[^3]
 - $n$. a small swelling or knot of tissue. See ATRIOVENTRICULAR NODE; LYMPH NODE; SINOATRIAL NODE.
+## Source[^4]
+- (1) (in botany) The part of a plant stem from which one or more leaves arise. The nodes at the stem apex are very close together and remain so in species of monocotyledons that form bulbs. In older regions of the stem they are separated by areas of stem called internodes. 
+- (2) (in anatomy) A natural thickening, bulge, or distinct mass of tissue in an organ or part of the body. Examples are the sinoatrial node that controls the heartbeat (see pACEMAKER) and the lymph nodes. 
+- (3) (in phylogenetics) (vertex) A branch point in a phylogram.
 ## References
 
 [^1]: https://youtu.be/X3X5kYPgYV0?si=XvaSoTl0Uw9_bZW0
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

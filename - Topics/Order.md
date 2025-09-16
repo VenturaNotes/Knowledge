@@ -5,6 +5,9 @@
 - The term order and the [[O notation]] is used in numerical analysis, particularly in discretization methods. In ordinary differential equations, if $h$ denotes the stepsize, then a method (or formula) has order $p$ (a positive integer) if the global discretization error is $\mathrm{O}\left(h^{p}\right)$. This means that as the step size $h$ is decreased, the error goes to zero at least as rapidly as $h^{p}$. Similar considerations apply to partial differential equations. High-accuracy formulas (order up to 12 or 13) are sometimes used in methods for ordinary differential equations. For reasons of computational cost and stability, low-order formulas tend to be used in methods for partial differential equations.
 - The term is also used to refer to the speed of convergence of iteration schemes, for example Newton's method for computing the zero of a function $f(x)$. Subject to appropriate conditions, Newton's method converges quadratically (or has order of convergence 2), i.e. an approximate squaring of the error is obtained in each iteration. 
 - (2) Another name for operation code.
+## Source[^2]
+- (in taxonomy) A category used in the classification of organisms that consists of one or several similar or closely related families. Similar orders form a class. Order names typically end in -ales in botany, e.g. Rosales (roses and orchard fruits), and in -a in zoology, e.g. Carnivora (flesh eaters).
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

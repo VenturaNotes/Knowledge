@@ -31,6 +31,12 @@
 		- gynaecoid
 		- anthropoid
 		- platypelloid
+## Source[^2]
+- (pl. pelvises or pelves) 
+- (1) See PELVIC GIRDLE. 
+- (2) The lower part of the abdomen in the region of the pelvic girdle. 
+- (3) A conical chamber in the kidney into which urine drains from the kidney tubules before passing to the ureter.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

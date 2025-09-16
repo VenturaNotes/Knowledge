@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- (redox) Originally, oxidation was simply regarded as a chemical reaction with oxygen. The reverse process$\textemdash$loss of oxygen$\textemdash$was called reduction. Reaction with hydrogen also came to be regarded as reduction. Later, a more general idea of oxidation and reduction was developed in which oxidation was loss of electrons and reduction was gain of electrons. This wider definition covered the original one and also applies to reactions that do not involve oxygen. However, it applies only to reactions in which electron transfer occurs$\textemdash$i.e. to reactions involving ions. It can be extended to reactions between covalent compounds by using the concept of oxidation number (or state). This is a measure of the electron control that an atom has in a compound compared to the atom in the pure element. An oxidation number consists of two parts:
+	- (1) its sign, which indicates whether the control has increased (negative) or decreased (positive);
+	- (2) its value, which gives the number of electrons over which control has changed.
+- The change of electron control may be complete (in ionic compounds) or partial (in covalent compounds). Oxidation is a reaction involving an increase in oxidation number and reduction involves a decrease. Thus in $$2H_2+O_2 \to 2H_2O$$the hydrogen in water is +1 and the oxygen -2 . The hydrogen is oxidized and the oxygen is reduced. Compounds that tend to undergo reduction readily are oxidizing agents; those that undergo oxidation are reducing agents. Redox reactions are fundamental to the metabolism of living organisms, particularly the oxidation of glucose via glycolysis and the capture of energy via the Krebs cycle and the electron transport chain. Coenzymes such as $\mathrm{NAD}^{+}$ participate in these redox reactions as electron carriers.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

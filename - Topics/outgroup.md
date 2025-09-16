@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A species or higher taxon used in systematics for comparison with a group of closely related species or taxa in order to assess whether particular characters shared by the group members are derived (see APOMORPHY) or ancestral (see PLESIOMORPHY). For the outgroup comparison to be valid, the outgroup must be outside the phylogenetic group under consideration but not too distantly related$\textemdash$ideally the sister group$\textemdash$otherwise the comparison yields no useful information. For example, the reptiles, birds, and mammals are all amniotes known to comprise a monophyletic group, the Amniota. Suppose that the evolutionary relations between several representatives of this group are being investigated, using reproductive physiology as one of a set of homologies (see homologous). A dog and a kangaroo both bear live young (viviparity), whereas a sparrow, a turtle, and a crocodile all lay eggs (oviparity). Which is the ancestral trait and which is the derived trait? Outgroup comparison with frogs or fishes reveals that these anamniote fellow vertebrates exhibit oviparity: this is therefore inferred as the ancestral trait for the amniotes as a whole, and hence viviparity is a derived trait for mammals.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

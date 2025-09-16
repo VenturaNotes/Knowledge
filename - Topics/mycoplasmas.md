@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A group of bacteria that lack a rigid cell wall and are among the smallest of all living cells (diameter $0.2~ \mu \mathrm{m}\text{-}2.0 ~\mu \mathrm{m}$). They are either saprotrophic or parasitic and are found on animal mucous and synovial membranes, in insects, and in plants (in which they seem to inhabit sieve tubes). They cause a variety of diseases, including pleuropneumonia in cattle-hence they were formerly known as pleuropneumonia-like organisms (PPLO). Due to their small size and flexible three-layered cell membrane they can pass through a $0.2\text{-}\mu\text{m-diameter}$ filter and they represent a major contaminant of biotechnological products, such as monoclonal antibodies and vaccines, and of other cell cultures, in which they may exist symbiotically with the cells. Eight genera have been described (including Mycoplasma) with over 120 species. Some species live as commensals or parasites in the respiratory and urogenital tracts of humans and other vertebrates. For example, M. genitalium lives in the respiratory and urogenital tracts of primates; it has one of the smallest known genomes, with only 482 protein-coding genes. M. pneumoniae is a causative agent of pneumonia in humans.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

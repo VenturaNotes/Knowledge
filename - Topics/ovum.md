@@ -11,6 +11,11 @@
 		- centrosome with two centrioles
 		- nucleus
 		- corona radiata
+## Source[^2]
+- (egg cell) (pl. ova) 
+- (1) (in zoology) The mature reproductive cell (see GAMETE) of female animals, which is produced by the ovary (see OOGENESIS). It is spherical, has a nucleus, is covered with an egg membrane, and is not mobile. 
+- (2) (in botany) The oosphere of plants.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

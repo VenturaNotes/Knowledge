@@ -11,6 +11,11 @@
 		- endomysium
 		- bundle of muscle fibres
 		- tendon
+## Source[^2]
+- A tissue consisting of sheets or bundles of cells (muscle fibres) that are capable of contraction, so producing movement or tension in the body. There are three types of muscle. Skeletal muscle produces voluntary movement (e.g. at joints); smooth muscle mainly effects the movements of hollow organs (e.g. intestine and bladder); and cardiac muscle occurs only in the heart.
+- http://www.innerbody.com/image/musfov.html
+	- Interactive tutorial identifying the principal muscles of the human body
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

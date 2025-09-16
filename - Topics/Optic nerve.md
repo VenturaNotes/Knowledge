@@ -15,7 +15,10 @@
 		- optic chiasm
 		- optic radiation
 		- visual cortex (right occipital lobe)
+## Source[^3]
+- The second cranial nerve: a paired sensory nerve that runs from each eye to the brain. It is responsible for conveying visual stimuli received by the rods and cones in the retina to the brain for interpretation. See also optic CHIASM.
 ## References
 
 [^1]: [[(80) 2-Minute Neuroscience - Optic Nerve (Cranial Nerve II)]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

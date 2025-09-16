@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A protein on the surface of a cell that interacts with a neurotrophin molecule outside the cell. There are two types: low-affinity neurotrophin receptors, which are found on both neurons and other cell types; and high-affinity neurotrophin receptors, which are restricted to neurons. The latter are responsible for triggering the characteristic effects of neurotrophins on their target cells; designated as NTRK (neurotrophin tyrosine kinase receptor, or TRK), there are three types, NTRK1-3, each of which is the receptor for one or more neurotrophins. For example, NTRK1 is the receptor for nerve growth factor (NGF) and neurotrophin 6 (NT-6). Each neurotrophin binds to a pair of receptors, causing the formation of a receptor dimer, which leads to selfphosphorylation of tyrosine amino acids on the intracellular part of the receptor and activation of intracellular signalling pathways. The NGF-NTRK1 complex is taken inside the cell and transported along the axon to the cell body of the neuron, where it regulates expression of genes in the cell nucleus. The role of low-affinity receptors is less clear. They may simply bind neurotrophins to provide a local store of these molecules, or they might interact with high-affinity receptors in mediating the effects of neurotrophins. In some cases, binding of neurotrophin to low-affinity receptors can trigger cell death (apoptosis).
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

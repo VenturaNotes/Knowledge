@@ -1183,7 +1183,7 @@ Reviewed: false
 	574. [[calorimeter]]
 	575. [[calreticulin]]
 	576. [[Melvin Calvin]] 
-	577. [[Calvin–Bassham–Benson cycle]]
+	577. [[Calvin-Bassham-Benson cycle]]
 	578. [[calyptra]]
 	579. [[calyptrogen]]
 	580. [[calyx]]
@@ -2183,7 +2183,7 @@ Reviewed: false
 	1347. [[DNA replication]]
 	1348. [[DNase]]
 	1349. [[DNA sequencing]]
-	1350. [[Dobzhansky–Muller model]]
+	1350. [[Dobzhansky-Muller model]]
 	
 	1351. dodecanoic acid
 		1. See lauric acid
@@ -3862,7 +3862,7 @@ Reviewed: false
 		1. See insect growth regulator
 	2600. [[juxtaglomerular apparatus]]
 	
-	2601. K–T boundary
+	2601. K-T boundary
 		1. See alvarez event
 	2602. [[kainate]]
 	2603. Kainozoic
@@ -4600,643 +4600,792 @@ Reviewed: false
 	3129. [[mononuclear phagocyte system]]
 	3130. [[monooxygenase]]
 	
-	3131. monophyletic
-	3132. monophyodont
-	3133. monopodium
-	3134. monosaccharide
+	3131. [[monophyletic]]
+	3132. [[monophyodont]]
+	3133. [[monopodium]]
+	3134. [[monosaccharide]]
 	3135. monosomy
-	3136. monosynaptic reflex
+		1. See aneuploid
+	3136. [[monosynaptic reflex]]
 	3137. monotremes
-	3138. monotypic
+		1. See prototheria
+	3138. [[monotypic]]
 	3139. monozygotic twins
-	3140. morph
+		1. See identical twins
+	3140. [[morph]]
 	
-	3141. morphine
-	3142. morphogen
-	3143. morphogenesis
-	3144. morphology
+	3141. [[morphine]]
+	3142. [[morphogen]]
+	3143. [[morphogenesis]]
+	3144. [[morphology]]
 	3145. mortality
-	3146. morula
-	3147. mosaic
+		1. See death rate
+	3146. [[morula]]
+	3147. [[mosaic]]
 	3148. mosses
+		1. See BRYOPHYTA.
 	3149. moths
-	3150. motivation
+		1. See LEPIDOPTERA.
+	3150. [[motivation]]
 	
-	3151. motor cell
-	3152. motor neuron
-	3153. motor protein
-	3154. motor unit
-	3155. moulting
-	3156. mouth
+	3151. [[motor cell]]
+	3152. [[motor neuron]]
+	3153. [[motor protein]]
+	3154. [[motor unit]]
+	3155. [[moulting]]
+	3156. [[mouth]]
 	3157. mouth cavity
-	3158. mouthparts
+		1. See buccal cavity
+	3158. [[mouthparts]]
 	3159. MPF
+		1. See mitosis-promoting factor.
 	3160. MRI
+		1. See magnetic resonance imaging.
 	
 	3161. mRNA
+		1. See RNA
 	3162. MRSA
+		1. See STAPHYLOCOCCUS.
 	3163. MSH
+		1. See MELANOCYTE-STIMULATING HORMONE.
 	3164. mtDNA
+		1. See MITOCHONDRIAL DNA.
 	3165. MTOC
-	3166. mucigel
-	3167. mucilage
+		1. See MICROTUBULE-ORGANIZING CENTRE.
+	3166. [[mucigel]]
+	3167. [[mucilage]]
 	3168. mucin
+		1. See mucus
 	3169. mucopolysaccharide
-	3170. mucoprotein
+		1. See GLYCOSAMINOGLYCAN.
+	3170. [[mucoprotein]]
 	
-	3171. mucosa
-	3172. mucosal-associated lymphoid tissue
-	3173. mucous membrane
-	3174. mucus
-	3175. Muller's ratchet
-	3176. Müller cell
+	3171. [[mucosa]]
+	3172. [[mucosal-associated lymphoid tissue]]
+	3173. [[mucous membrane]]
+	3174. [[mucus]]
+	3175. [[Muller's ratchet]]
+	3176. [[Müller cell]]
 	3177. Müllerian mimicry
+		1. See mimicry
 	3178. multiadhesive protein
-	3179. multicellular
-	3180. multienzyme system
+		1. See extracellular matrix
+	3179. [[multicellular]]
+	3180. [[multienzyme system]]
 	
 	3181. multifactorial inheritance
-	3182. multilocus sequence typing
-	3183. multimer
-	3184. multiple alleles
-	3185. multipolar neuron
-	3186. muscarinic
+		1. See quantitative inheritance
+	3182. [[multilocus sequence typing]]
+	3183. [[multimer]]
+	3184. [[multiple alleles]]
+	3185. [[multipolar neuron]]
+	3186. [[muscarinic]]
 	3187. Musci
-	3188. muscle
-	3189. muscle spindle
-	3190. muscularis mucosae
+		1. See bryophyta
+	3188. [[muscle]]
+	3189. [[muscle spindle]]
+	3190. [[muscularis mucosae]]
 	
-	3191. mutagen
-	3192. mutant
-	3193. mutation
-	3194. mutation frequency
-	3195. mutation rate
-	3196. mutualism
+	3191. [[mutagen]]
+	3192. [[mutant]]
+	3193. [[mutation]]
+	3194. [[mutation frequency]]
+	3195. [[mutation rate]]
+	3196. [[mutualism]]
 	3197. mya
-	3198. mycelium
-	3199. mycobiont
-	3200. mycology
+		1. Abbreviation for million years ago.
+	3198. [[mycelium]]
+	3199. [[mycobiont]]
+	3200. [[mycology]]
 	
 	3201. Mycophycophyta
-	3202. mycoplasmas
-	3203. mycorrhiza
-	3204. Mycota
-	3205. myelin
-	3206. myelin sheath
-	3207. myeloid tissue
+		1. See lichens
+	3202. [[mycoplasmas]]
+	3203. [[mycorrhiza]]
+	3204. [[Mycota]]
+	3205. [[myelin]]
+	3206. [[myelin sheath]]
+	3207. [[myeloid tissue]]
 	3208. myeloma
+		1. See cancer
 	3209. Myllokunmingia
+		1. See CHENGJIANG FOSSILS.
 	3210. myoblast
+		1. See myotube
 	
-	3211. myocardium
-	3212. myocyte
+	3211. [[myocardium]]
+	3212. [[myocyte]]
 	3213. myofibril
-	3214. myogenic
-	3215. myoglobin
-	3216. myometrium
+		1. See SKELETAL MUSCLE.
+	3214. [[myogenic]]
+	3215. [[myoglobin]]
+	3216. [[myometrium]]
 	3217. myotatic reflex
-	3218. myotome
-	3219. myotube
-	3220. Myriapoda
+		1. See stretch reflex
+	3218. [[myotome]]
+	3219. [[myotube]]
+	3220. [[Myriapoda]]
 	
-	3221. myrmecochory
+	3221. [[myrmecochory]]
 	3222. myxamoeba
-	3223. myxobacteria
+		1. See slime mould
+	3223. [[myxobacteria]]
 	3224. Myxomycota
-	3225. myxovirus
+		1. See slime moulds
+	3225. [[myxovirus]]
 	3226. myxozoan
+		1. See cnidaria
 	3227. n
-	3228. NAD
-	3229. nano-
+		1. See haploid
+	3228. [[NAD]]
+	3229. [[nano-]]
 	3230. nanoarray
+		1. See microarray
 	
 	3231. NAR
-	3232. narcotic
-	3233. nares
-	3234. nasal cavity
-	3235. nastic movements
+		1. See net assimilation rate
+	3232. [[narcotic]]
+	3233. [[nares]]
+	3234. [[nasal cavity]]
+	3235. [[nastic movements]]
 	3236. natality
-	3237. natriuretic peptide
-	3238. natural group
-	3239. natural history
+		1. See birth rate
+	3237. [[natriuretic peptide]]
+	3238. [[natural group]]
+	3239. [[natural history]]
 	3240. naturalized
+		1. See alien
 	
-	3241. natural killer cell
-	3242. natural selection
-	3243. nature and nurture
-	3244. nauplius
-	3245. navigation
+	3241. [[natural killer cell]]
+	3242. [[natural selection]]
+	3243. [[nature and nurture]]
+	3244. [[nauplius]]
+	3245. [[navigation]]
 	3246. NCLDV
+		1. See NUCLEOCYTOPLASMIC LARGE DNA VIRUS.
 	3247. ncRNA
-	3248. Neanderthal
+		1. See NONCODING RNA.
+	3248. [[Neanderthal]]
 	3249. Nearctic region
-	3250. near point
+		1. See faunal region
+	3250. [[near point]]
 	
-	3251. nectar
-	3252. negative-sense((in genetics))
+	3251. [[nectar]]
+	3252. [[negative-sense]]
 	3253. negative feedback
+		1. See feedback
 	3254. negative selection
-	3255. nekton
+		1. See purifying selection
+	3255. [[nekton]]
 	3256. nematoblast
+		1. See thread cell
 	3257. nematocyst
-	3258. Nematoda
-	3259. Nemertea
-	3260. neo-Darwinism
+		1. See thread cell
+	3258. [[Nematoda]]
+	3259. [[Nemertea]]
+	3260. [[neo-Darwinism]]
 	
-	3261. neo-Lamarckism
-	3262. neocortex
-	3263. Neogene
-	3264. Neolithic
-	3265. neonicotinoid
-	3266. neoplasm
+	3261. [[neo-Lamarckism]]
+	3262. [[neocortex]]
+	3263. [[Neogene]]
+	3264. [[Neolithic]]
+	3265. [[neonicotinoid]]
+	3266. [[neoplasm]]
 	3267. Neoproterozoic
-	3268. Neornithes
-	3269. neoteny
+		1. See PROTEROZOIC.
+	3268. [[Neornithes]]
+	3269. [[neoteny]]
 	3270. Neotropical region
+		1. See faunal region
 	
 	3271. nephridiopore
-	3272. nephridium
-	3273. nephron
+		1. See nephridium
+	3272. [[nephridium]]
+	3273. [[nephron]]
 	3274. nephrostome
-	3275. nephrotoxin
-	3276. neritic zone
-	3277. nerve
+		1. See NEPHRIDIUM.
+	3275. [[nephrotoxin]]
+	3276. [[neritic zone]]
+	3277. [[nerve]]
 	3278. nerve-cell adhesion molecules
+		1. See cell adhesion molecule
 	3279. nerve cell
-	3280. nerve cord
+		1. See neuron
+	3280. [[nerve cord]]
 	
-	3281. nerve fibre
+	3281. [[nerve fibre]]
 	3282. nerve growth factor
+		1. (NGF) See neurotrophin
 	3283. nerve impulse
-	3284. nerve net
-	3285. nervous system
-	3286. net assimilation rate
+		1. See impulse
+	3284. [[nerve net]]
+	3285. [[nervous system]]
+	3286. [[net assimilation rate]]
 	3287. net primary productivity
+		1. See productivity
 	3288. neural crest cells
+		1. See neural plate
 	3289. neural network
-	3290. neural plate
+		1. See neuronal network
+	3290. [[neural plate]]
 	
-	3291. neural tube
+	3291. [[neural tube]]
 	3292. neuregulin
+		1. See epidermal growth factor
 	3293. neurilemma cell
-	3294. neuroendocrine system
-	3295. neurofilament
+		1. See schwann cell
+	3294. [[neuroendocrine system]]
+	3295. [[neurofilament]]
 	3296. neuroglia
-	3297. neurohaemal organ
-	3298. neurohormone
+		1. See glia
+	3297. [[neurohaemal organ]]
+	3298. [[neurohormone]]
 	3299. neurohypophysis
-	3300. neuromodulator
+		1. (pl. neurohypophyses) See PITUITARY GLAND.
+	3300. [[neuromodulator]]
 	
-	3301. neuromuscular junction
-	3302. neuron
-	3303. neuronal network
-	3304. neuropeptide
-	3305. neuropeptide Y
-	3306. neurophysin
-	3307. neuropil
-	3308. neurosecretion
-	3309. neurotoxin
-	3310. neurotransmitter
+	3301. [[neuromuscular junction]]
+	3302. [[neuron]]
+	3303. [[neuronal network]]
+	3304. [[neuropeptide]]
+	3305. [[neuropeptide Y]]
+	3306. [[neurophysin]]
+	3307. [[neuropil]]
+	3308. [[neurosecretion]]
+	3309. [[neurotoxin]]
+	3310. [[neurotransmitter]]
 	
-	3311. neurotrophin
-	3312. neurotrophin receptor
+	3311. [[neurotrophin]]
+	3312. [[neurotrophin receptor]]
 	3313. neurotubule
+		1. See neurofibril
 	3314. neurula
-	3315. neuston
-	3316. neuter
-	3317. neutral
-	3318. neutral theory of molecular evolution
-	3319. neutrophil
-	3320. newton
+		1. (pl. neurulae) See neural plate
+	3315. [[neuston]]
+	3316. [[neuter]]
+	3317. [[neutral]]
+	3318. [[neutral theory of molecular evolution]]
+	3319. [[neutrophil]]
+	3320. [[newton]]
 	
 	3321. next-generation sequencing
+		1. (NGS) See DNA sequencing
 	3322. nexus
+		1. See gap junction
 	3323. NFκB
+		1. See nuclear factor
 	3324. NGF
+		1. Nerve growth factor. See neurotrophin
 	3325. NGS
+		1. (next-generation sequencing) See DNA sequencing
 	3326. niacin
+		1. See nicotinic acid
 	3327. niche
+		1. See ecological niche
 	3328. nicotinamide
+		1. See nicotinic acid
 	3329. nicotinamide adenine dinucleotide
+		1. See NAD
 	3330. nicotinamide adenine dinucleotide phosphate
+		1. (NADP) See NAD
 	
-	3331. nicotine
-	3332. nicotinic
-	3333. nicotinic acid
-	3334. nictitating membrane
+	3331. [[nicotine]]
+	3332. [[nicotinic]]
+	3333. [[nicotinic acid]]
+	3334. [[nictitating membrane]]
 	3335. nidation
+		1. See implantation
 	3336. nidicolous
+		1. See altricial species
 	3337. nidifugous
-	3338. ninhydrin
+		1. See precocial species
+	3338. [[ninhydrin]]
 	3339. nipple
-	3340. Nissl granules
+		1. See mammary glands
+	3340. [[Nissl granules]]
 	
-	3341. nitrate
-	3342. nitric oxide
-	3343. nitrification
+	3341. [[nitrate]]
+	3342. [[nitric oxide]]
+	3343. [[nitrification]]
 	3344. nitrifying bacteria
-	3345. nitrite
-	3346. nitrogen
-	3347. nitrogenase
-	3348. nitrogen cycle
-	3349. nitrogen fixation
-	3350. nitrogenous base
+		1. See nitrification.
+	3345. [[nitrite]]
+	3346. [[nitrogen]]
+	3347. [[nitrogenase]]
+	3348. [[nitrogen cycle]]
+	3349. [[nitrogen fixation]]
+	3350. [[nitrogenous base]]
 	
-	3351. nitrogenous waste
-	3352. nitrogen oxides
-	3353. nitrosamines
+	3351. [[nitrogenous waste]]
+	3352. [[nitrogen oxides]]
+	3353. [[nitrosamines]]
 	3354. NK cell
+		1. See natural killer cell
 	3355. NMDA receptors
+		1. See glutamate receptor
 	3356. NMR
-	3357. nociception
-	3358. node
+		1. See nuclear magnetic resonance
+	3357. [[nociception]]
+	3358. [[node]]
 	3359. node of Ranvier
+		1. See myelin sheath
 	3360. Nod factor
+		1. See root nodule
 	
-	3361. nodule
-	3362. nomad((in cytology))
-	3363. Nomarski microscope
+	3361. [[nodule]]
+	3362. [[nomad]]
+	3363. [[Nomarski microscope]]
 	3364. noncoding DNA
-	3365. noncoding RNA
+		1. See junk DNA
+	3365. [[noncoding RNA]]
 	3366. noncompetitive inhibition
+		1. See inhibition
 	3367. noncyclic phosphorylation
-	3368. nondisjunction
-	3369. nonreducing sugar
-	3370. nonrenewable energy sources
+		1. (noncyclic photophosphorylation) See PHOTOPHOSPHORYLATION.
+	3368. [[nondisjunction]]
+	3369. [[nonreducing sugar]]
+	3370. [[nonrenewable energy sources]]
 	
-	3371. nonsense mutation
-	3372. noradrenaline
+	3371. [[nonsense mutation]]
+	3372. [[noradrenaline]]
 	3373. norepinephrine
+		1. See noradrenaline
 	3374. normalizing selection
+		1. See stabilizing selection
 	3375. northern blotting
-	3376. nose
+		1. See southern blotting
+	3376. [[nose]]
 	3377. nostrils
+		1. See nares
 	3378. NPY
+		1. See neuropeptide Y.
 	3379. nt
-	3380. nucellus
+		1. See nucleotide
+	3380. [[nucellus]]
 	
-	3381. nuclear-cytoplasmic ratio
-	3382. nuclear envelope
-	3383. nuclear factor κB
-	3384. nucleariid
-	3385. nuclear magnetic resonance
+	3381. [[nuclear-cytoplasmic ratio]]
+	3382. [[nuclear envelope]]
+	3383. [[nuclear factor κB]]
+	3384. [[nucleariid]]
+	3385. [[nuclear magnetic resonance]]
 	3386. nuclear pore
-	3387. nuclear transfer
-	3388. nuclease
-	3389. nucleic acid
-	3390. nucleic acid amplification test
+		1. See nuclear envelope
+	3387. [[nuclear transfer]]
+	3388. [[nuclease]]
+	3389. [[nucleic acid]]
+	3390. [[nucleic acid amplification test]]
 	
-	3391. nucleic acid hybridization
-	3392. nucleocytoplasmic large DNA virus
-	3393. nucleoid
-	3394. nucleolar organizer
-	3395. nucleolus
-	3396. nucleomorph
-	3397. nucleoplasm
-	3398. nucleoprotein
-	3399. nucleoside
-	3400. nucleosome
+	3391. [[nucleic acid hybridization]]
+	3392. [[nucleocytoplasmic large DNA virus]]
+	3393. [[nucleoid]]
+	3394. [[nucleolar organizer]]
+	3395. [[nucleolus]]
+	3396. [[nucleomorph]]
+	3397. [[nucleoplasm]]
+	3398. [[nucleoprotein]]
+	3399. [[nucleoside]]
+	3400. [[nucleosome]]
 	
-	3401. nucleotidase
-	3402. nucleotide
-	3403. nucleus
+	3401. [[nucleotidase]]
+	3402. [[nucleotide]]
+	3403. [[nucleus]]
 	3404. null hypothesis
+		1. See significance. See also error
 	3405. numerical taxonomy
-	3406. nut
-	3407. nutation
-	3408. nutrient
-	3409. nutrition
-	3410. nyctinasty
+		1. See taxonomy
+	3406. [[nut]]
+	3407. [[nutation]]
+	3408. [[nutrient]]
+	3409. [[nutrition]]
+	3410. [[nyctinasty]]
 	
-	3411. nymph
-	3412. objective
-	3413. obligate anaerobes
-	3414. occipital condyle
-	3415. oceanic zone
-	3416. ocellus
+	3411. [[nymph]]
+	3412. [[objective]]
+	3413. [[obligate anaerobes]]
+	3414. [[occipital condyle]]
+	3415. [[oceanic zone]]
+	3416. [[ocellus]]
 	3417. ocular
-	3418. Odonata
-	3419. odontoblast
-	3420. odorant
+		1. See eyepiece
+	3418. [[Odonata]]
+	3419. [[odontoblast]]
+	3420. [[odorant]]
 	
-	3421. oesophagus
-	3422. oestrogen
-	3423. oestrous cycle
+	3421. [[oesophagus]]
+	3422. [[oestrogen]]
+	3423. [[oestrous cycle]]
 	3424. oestrus
+		1. (heat) See oestrous cycle
 	3425. offset
-	3426. offspring
-	3427. oil
+		1. See runner
+	3426. [[offspring]]
+	3427. [[oil]]
 	3428. oil-immersion lens
+		1. See immersion objective
 	3429. Okazaki fragment
-	3430. oleaginous
+		1. See discontinuous REPLICATION.
+	3430. [[oleaginous]]
 	
-	3431. olecranon process
-	3432. oleic acid
+	3431. [[olecranon process]]
+	3432. [[oleic acid]]
 	3433. oleosome
-	3434. olfaction
-	3435. olfactory lobe
-	3436. Oligocene
-	3437. Oligochaeta
+		1. See spherosome
+	3434. [[olfaction]]
+	3435. [[olfactory lobe]]
+	3436. [[Oligocene]]
+	3437. [[Oligochaeta]]
 	3438. oligodendrocyte
-	3439. oligonucleotide
-	3440. oligosaccharide
+		1. See glia
+	3439. [[oligonucleotide]]
+	3440. [[oligosaccharide]]
 	
-	3441. oligotrophic
-	3442. omasum
-	3443. OMIM
+	3441. [[oligotrophic]]
+	3442. [[omasum]]
+	3443. [[OMIM]]
 	3444. ommatidium
-	3445. omnivore
-	3446. oncogene
-	3447. oncotic pressure
-	3448. one gene–one polypeptide hypothesis
-	3449. ontogeny
-	3450. Onychophora
+		1. (pl. ommatidia) See Compound Eye
+	3445. [[omnivore]]
+	3446. [[oncogene]]
+	3447. [[oncotic pressure]]
+	3448. [[one gene-one polypeptide hypothesis]]
+	3449. [[ontogeny]]
+	3450. [[Onychophora]]
 	
 	3451. oocyte
-	3452. oogamy
-	3453. oogenesis
-	3454. oogonium
-	3455. Oomycota
-	3456. oosphere
-	3457. oospore
+		1. See oogenesis
+	3452. [[oogamy]]
+	3453. [[oogenesis]]
+	3454. [[oogonium]]
+	3455. [[Oomycota]]
+	3456. [[oosphere]]
+	3457. [[oospore]]
 	3458. ootid
+		1. See oogenesis
 	3459. open circulation
+		1. See circulation
 	3460. open reading frame
+		1. See reading frame
 	
 	3461. operant conditioning
-	3462. operculum
-	3463. operon
-	3464. opiate
-	3465. opioid
-	3466. opioid receptor
-	3467. opisthokonts
-	3468. opisthosoma
-	3469. opportunistic
-	3470. opsin
+		1. See conditioning
+	3462. [[operculum]]
+	3463. [[operon]]
+	3464. [[opiate]]
+	3465. [[opioid]]
+	3466. [[opioid receptor]]
+	3467. [[opisthokonts]]
+	3468. [[opisthosoma]]
+	3469. [[opportunistic]]
+	3470. [[opsin]]
 	
 	3471. opsonin
-	3472. opsonization
-	3473. optical activity
-	3474. optical fibre
+		1. See OPSONIZATION.
+	3472. [[opsonization]]
+	3473. [[optical activity]]
+	3474. [[optical fibre]]
 	3475. optical isomers
+		1. See optical activity
 	3476. optical microscope
-	3477. optic chiasm
+		1. See microscope
+	3477. [[optic chiasm]]
 	3478. optic lobes
-	3479. optic nerve
-	3480. optic vesicle
+		1. See midbrain
+	3479. [[optic nerve]]
+	3480. [[optic vesicle]]
 	
-	3481. optimal foraging theory
+	3481. [[optimal foraging theory]]
 	3482. oral cavity
-	3483. oral contraceptive
-	3484. oral groove
-	3485. orbit((in anatomy))
-	3486. order((in taxonomy))
-	3487. Ordovician
-	3488. organ
-	3489. organ culture
-	3490. organelle
+		1. See buccal cavity
+	3483. [[oral contraceptive]]
+	3484. [[oral groove]]
+	3485. [[orbit]]
+	3486. [[order]]
+	3487. [[Ordovician]]
+	3488. [[organ]]
+	3489. [[organ culture]]
+	3490. [[organelle]]
 	
-	3491. organic evolution
-	3492. organism
-	3493. organizer
-	3494. organ of Corti
-	3495. orgasm
+	3491. [[organic evolution]]
+	3492. [[organism]]
+	3493. [[organizer]]
+	3494. [[organ of Corti]]
+	3495. [[orgasm]]
 	3496. Oriental region
-	3497. origin of life
-	3498. ornithine
+		1. See faunal region
+	3497. [[origin of life]]
+	3498. [[ornithine]]
 	3499. ornithine cycle
-	3500. orphan receptor
+		1. See urea cycle
+	3500. [[orphan receptor]]
 	
-	3501. orthogenesis
-	3502. orthologous
-	3503. Orthonectida
-	3504. Orthoptera
-	3505. orthotropism
-	3506. osculum
-	3507. osmium tetroxide
-	3508. osmoconformer
-	3509. osmole
-	3510. osmoreceptor
+	3501. [[orthogenesis]]
+	3502. [[orthologous]]
+	3503. [[Orthonectida]]
+	3504. [[Orthoptera]]
+	3505. [[orthotropism]]
+	3506. [[osculum]]
+	3507. [[osmium tetroxide]]
+	3508. [[osmoconformer]]
+	3509. [[osmole]]
+	3510. [[osmoreceptor]]
 	
-	3511. osmoregulation
-	3512. osmosis
+	3511. [[osmoregulation]]
+	3512. [[osmosis]]
 	3513. osmotic pressure
-	3514. osmotroph
-	3515. ossicle
-	3516. ossification
-	3517. Osteichthyes
-	3518. osteoblast
-	3519. osteocyte
-	3520. osteoid
+		1. See osmosis
+	3514. [[osmotroph]]
+	3515. [[ossicle]]
+	3516. [[ossification]]
+	3517. [[Osteichthyes]]
+	3518. [[osteoblast]]
+	3519. [[osteocyte]]
+	3520. [[osteoid]]
 	
 	3521. osteon
-	3522. ostiole
-	3523. ostium
-	3524. Ostracoda
-	3525. ouabain
-	3526. outbreeding
-	3527. outer ear
-	3528. outgroup
-	3529. oval window
-	3530. ovarian cycle
+		1. See haversian canals
+	3522. [[ostiole]]
+	3523. [[ostium]]
+	3524. [[Ostracoda]]
+	3525. [[ouabain]]
+	3526. [[outbreeding]]
+	3527. [[outer ear]]
+	3528. [[outgroup]]
+	3529. [[oval window]]
+	3530. [[ovarian cycle]]
 	
 	3531. ovarian follicle
-	3532. ovary
-	3533. overdominance
-	3534. overpopulation
-	3535. oviduct
-	3536. oviparity
-	3537. ovipositor
-	3538. ovoviviparity
-	3539. ovulation
-	3540. ovule
+		1. See graafian follicle
+	3532. [[ovary]]
+	3533. [[overdominance]]
+	3534. [[overpopulation]]
+	3535. [[oviduct]]
+	3536. [[oviparity]]
+	3537. [[ovipositor]]
+	3538. [[ovoviviparity]]
+	3539. [[ovulation]]
+	3540. [[ovule]]
 	
-	3541. ovuliferous scale
-	3542. ovum
-	3543. oxalic acid
-	3544. oxaloacetic acid
-	3545. oxidase
-	3546. oxidation-reduction
-	3547. oxidative burst
-	3548. oxidative deamination
-	3549. oxidative decarboxylation
-	3550. oxidative phosphorylation
+	3541. [[ovuliferous scale]]
+	3542. [[ovum]]
+	3543. [[oxalic acid]]
+	3544. [[oxaloacetic acid]]
+	3545. [[oxidase]]
+	3546. [[oxidation-reduction]]
+	3547. [[oxidative burst]]
+	3548. [[oxidative deamination]]
+	3549. [[oxidative decarboxylation]]
+	3550. [[oxidative phosphorylation]]
 	
-	3551. oxidoreductase
-	3552. oxygen
-	3553. oxygen-evolving complex
-	3554. oxygen cycle
-	3555. oxygen debt
-	3556. oxygen dissociation curve
-	3557. oxygen sag curve
+	3551. [[oxidoreductase]]
+	3552. [[oxygen]]
+	3553. [[oxygen-evolving complex]]
+	3554. [[oxygen cycle]]
+	3555. [[oxygen debt]]
+	3556. [[oxygen dissociation curve]]
+	3557. [[oxygen sag curve]]
 	3558. oxyhaemoglobin
-	3559. oxyntic cell
-	3560. oxytocin
+		1. See HAEMOGLOBIN.
+	3559. [[oxyntic cell]]
+	3560. [[oxytocin]]
 	
-	3561. ozonation
-	3562. ozone layer
-	3563. P
-	3564. P-protein
-	3565. P/O ratio
-	3566. p21
+	3561. [[ozonation]]
+	3562. [[ozone layer]]
+	3563. [[P]]
+	3564. [[P-protein]]
+	3565. [[P-O ratio]]
+	3566. [[p21]]
 	3567. p53
-	3568. pacemaker
-	3569. pachytene
-	3570. Pacinian corpuscle
+		1. See tumour-suppressor gene
+	3568. [[pacemaker]]
+	3569. [[pachytene]]
+	3570. [[Pacinian corpuscle]]
 	
-	3571. paedogenesis
-	3572. paedomorphosis
+	3571. [[paedogenesis]]
+	3572. [[paedomorphosis]]
 	3573. PAGE
+		1. (polyacrylamide gel electrophoresis) See GEL ELECTROPHORESIS.
 	3574. PAI
-	3575. pain
+		1. See PATHOGENICITY ISLAND.
+	3575. [[pain]]
 	3576. pair-rule gene
-	3577. pairing
+		1. See segmentation genes
+	3577. [[pairing]]
 	3578. Palaearctic region
-	3579. palaeobotany
-	3580. Palaeocene
+		1. See faunal region
+	3579. [[palaeobotany]]
+	3580. [[Palaeocene]]
 	
-	3581. palaeoclimatology
-	3582. Palaeogene
-	3583. Palaeolithic
-	3584. palaeomagnetic dating
-	3585. palaeontology
-	3586. Palaeozoic
-	3587. palaeozoology
-	3588. palate
+	3581. [[palaeoclimatology]]
+	3582. [[Palaeogene]]
+	3583. [[Palaeolithic]]
+	3584. [[palaeomagnetic dating]]
+	3585. [[palaeontology]]
+	3586. [[Palaeozoic]]
+	3587. [[palaeozoology]]
+	3588. [[palate]]
 	3589. palea
-	3590. palindromic
+		1. (pl. paleae) See Lemma
+	3590. [[palindromic]]
 	
 	3591. palisade
+		1. (palisade mesophyll) See mesophyll
 	3592. pallium
-	3593. palmitic acid
-	3594. palp
-	3595. palynology
+		1. See cerebral cortex
+	3593. [[palmitic acid]]
+	3594. [[palp]]
+	3595. [[palynology]]
 	3596. PAMP
-	3597. pancreas
+		1. (pathogen-associated molecular pattern) See IMMUNITY (sense 2).
+	3597. [[pancreas]]
 	3598. pancreatic islets
-	3599. pancreatin
+		1. See islets of langerhans
+	3599. [[pancreatin]]
 	3600. pancreozymin
+		1. See CHOLECYSTOKININ.
 	
-	3601. Pancrustacea
-	3602. pandemic
-	3603. Pandoravirus
+	3601. [[Pancrustacea]]
+	3602. [[pandemic]]
+	3603. [[Pandoravirus]]
 	3604. Paneth cells
-	3605. panicle
-	3606. panmictic
-	3607. panspermia
-	3608. pantothenic acid
-	3609. paper chromatography
-	3610. papilla
+		1. See CRYPTS OF LIEBERKÜHN.
+	3605. [[panicle]]
+	3606. [[panmictic]]
+	3607. [[panspermia]]
+	3608. [[pantothenic acid]]
+	3609. [[paper chromatography]]
+	3610. [[papilla]]
 	
-	3611. papovavirus
-	3612. pappus
-	3613. paracellular pathway
-	3614. paracrine
-	3615. paralogous
-	3616. paramorph
+	3611. [[papovavirus]]
+	3612. [[pappus]]
+	3613. [[paracellular pathway]]
+	3614. [[paracrine]]
+	3615. [[paralogous]]
+	3616. [[paramorph]]
 	3617. paramutation
-	3618. parapatric speciation
-	3619. paraphyletic
-	3620. paraphysis
+		1. See epigenetic
+	3618. [[parapatric speciation]]
+	3619. [[paraphyletic]]
+	3620. [[paraphysis]]
 	
 	3621. parapodium
-	3622. Paraquat
-	3623. parasexual cycle
-	3624. parasitism
-	3625. parasitoid
-	3626. parasympathetic nervous system
-	3627. parathyroid glands
-	3628. parathyroid hormone
+		1. (pl. parapodia) See chaEtA; POLYchaETA.
+	3622. [[Paraquat]]
+	3623. [[parasexual cycle]]
+	3624. [[parasitism]]
+	3625. [[parasitoid]]
+	3626. [[parasympathetic nervous system]]
+	3627. [[parathyroid glands]]
+	3628. [[parathyroid hormone]]
 	3629. Parazoa
-	3630. parenchyma
+		1. See metazoa
+	3630. [[parenchyma]]
 	
-	3631. parent
-	3632. parental care
-	3633. parietal
+	3631. [[parent]]
+	3632. [[parental care]]
+	3633. [[parietal]]
 	3634. parietal cell
+		1. See oxyntic CELL.
 	3635. parsimony
-	3636. parthenocarpy
-	3637. parthenogenesis
-	3638. partially permeable membrane
-	3639. particulate inheritance
-	3640. parturition
+		1. See MAXIMUM PARSIMONY; PRINCIPLE OF PARSIMONY.
+	3636. [[parthenocarpy]]
+	3637. [[parthenogenesis]]
+	3638. [[partially permeable membrane]]
+	3639. [[particulate inheritance]]
+	3640. [[parturition]]
 	
-	3641. pascal
+	3641. [[pascal]]
 	3642. passive immunity
+		1. See immunity
 	3643. passive transport
-	3644. Pasteur, Louis (1822–95)
-	3645. pasteurization
-	3646. patch clamp technique
-	3647. patella
-	3648. pathogen
+		1. See diffusion
+	3644. [[Louis Pasteur]]
+	3645. [[pasteurization]]
+	3646. [[patch clamp technique]]
+	3647. [[patella]]
+	3648. [[pathogen]]
 	3649. pathogen-associated molecular pattern
+		1. (PAMP) See PATTERN RECOGNITION RECEPTOR. See also IMMUNITY (2).
 	3650. pathogenesis-related proteins
+		1. (PR proteins) See SYSTEMIC ACQUIRED RESISTANCE.
 	
-	3651. pathogenicity island
-	3652. pathology
-	3653. patristic
-	3654. pattern formation
-	3655. pattern recognition
-	3656. pattern recognition receptor
-	3657. Pavlov, Ivan Petrovich (1849–1936)
+	3651. [[pathogenicity island]]
+	3652. [[pathology]]
+	3653. [[patristic]]
+	3654. [[pattern formation]]
+	3655. [[pattern recognition]]
+	3656. [[pattern recognition receptor]]
+	3657. [[Ivan Pavlov]]
 	3658. PCR
+		1. See POLYMERASE CHAIN REACTION.
 	3659. PDGF
-	3660. peat
+		1. See GROWTH FACTOR.
+	3660. [[peat]]
 	
 	3661. peck order
-	3662. pecten
+		1. See dominant
+	3662. [[pecten]]
 	3663. pectic substance
-	3664. pectin
+		1. See pectin
+	3664. [[pectin]]
 	3665. pectoral fins
-	3666. pectoral girdle
-	3667. pedicel
-	3668. pedigree
-	3669. pedipalp
-	3670. pedology
+		1. See fins
+	3666. [[pectoral girdle]]
+	3667. [[pedicel]]
+	3668. [[pedigree]]
+	3669. [[pedipalp]]
+	3670. [[pedology]]
 	
-	3671. peduncle
-	3672. pelagic
+	3671. [[peduncle]]
+	3672. [[pelagic]]
 	3673. Pelecypoda
-	3674. pellagra
-	3675. pellicle
+		1. See BIVALVIA.
+	3674. [[pellagra]]
+	3675. [[pellicle]]
 	3676. pelvic fins
-	3677. pelvic girdle
-	3678. pelvis
-	3679. penicillin
-	3680. penis
+		1. See fins
+	3677. [[pelvic girdle]]
+	3678. [[pelvis]]
+	3679. [[penicillin]]
+	3680. [[penis]]
 	
-	3681. pentadactyl limb
-	3682. pentose
-	3683. pentose phosphate pathway
+	3681. [[pentadactyl limb]]
+	3682. [[pentose]]
+	3683. [[pentose phosphate pathway]]
 	3684. PEP
+		1. See PHOSPHOENOLPYRUVATE.
 	3685. pepo
-	3686. pepsin
-	3687. pepsinogen
+		1. (pl. pepos) See berry
+	3686. [[pepsin]]
+	3687. [[pepsinogen]]
 	3688. peptidase
-	3689. peptide
-	3690. peptide mapping
+		1. See ENDOPEPTIDASE; EXOPEPTIDASE; PROTEASE.
+	3689. [[peptide]]
+	3690. [[peptide mapping]]
 	
-	3691. peptide YY
-	3692. peptidoglycan
-	3693. peramorphosis
-	3694. perception
-	3695. perennation
-	3696. perfect((in botany))
-	3697. perforin
-	3698. perfusion techniques
-	3699. perianth
-	3700. pericardial cavity
+	3691. [[peptide YY]]
+	3692. [[peptidoglycan]]
+	3693. [[peramorphosis]]
+	3694. [[perception]]
+	3695. [[perennation]]
+	3696. [[perfect]]
+	3697. [[perforin]]
+	3698. [[perfusion techniques]]
+	3699. [[perianth]]
+	3700. [[pericardial cavity]]
 	
-	3701. pericardium
-	3702. pericarp
-	3703. perichondrium
-	3704. periclinal((in botany))
-	3705. pericycle
+	3701. [[pericardium]]
+	3702. [[pericarp]]
+	3703. [[perichondrium]]
+	3704. [[periclinal]]
+	3705. [[pericycle]]
 	3706. periderm
-	3707. perigyny
-	3708. perilymph
+		1. See cork cambium
+	3707. [[perigyny]]
+	3708. [[perilymph]]
 	3709. perinuclear space
+		1. (perinuclear compartment) See NUCLEAR ENVELOPE.
 	3710. period
+		1. See menstrual cycle
 	
 	3711. periodontal membrane
 	3712. periosteum
@@ -5566,7 +5715,7 @@ Reviewed: false
 	4007. postreplicative repair
 	4008. postsynaptic membrane
 	4009. potassium
-	4010. potassium–argon dating
+	4010. potassium-argon dating
 	
 	4011. potassium ion channel
 	4012. potentiation
@@ -6083,7 +6232,7 @@ Reviewed: false
 	4477. salt gland
 	4478. samara
 	4479. sampling
-	4480. Sanger, Frederick (1918–2013)
+	4480. Sanger, Frederick (1918-2013)
 	
 	4481. sap
 	4482. saponin
@@ -7124,7 +7273,7 @@ Reviewed: false
 	5422. vulva
 	5423. waggle dance
 	5424. Wallace's line
-	5425. Wallace, Alfred Russel (1823–1913)
+	5425. Wallace, Alfred Russel (1823-1913)
 	5426. Wallerian degeneration
 	5427. warfarin
 	5428. warm-blooded animal
@@ -7135,7 +7284,7 @@ Reviewed: false
 	5432. water cycle
 	5433. water potential
 	5434. water vascular system
-	5435. Watson, James Dewey (1928– )
+	5435. Watson, James Dewey (1928- )
 	5436. Watson-Crick model
 	5437. wax((in biology))
 	5438. weed

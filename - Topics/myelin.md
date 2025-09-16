@@ -20,7 +20,10 @@
 		- Schwann cell
 		- myelin sheath
 		- axon
+## Source[^3]
+- A phospholipid produced by the Schwann cells of the nervous system. Myelin forms an insulating layer around the nerve fibres (see MYELIN SHEATH).
 ## References
 
 [^1]: [[(25) 2-Minute Neuroscience - Myelin]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
