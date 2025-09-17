@@ -5387,544 +5387,663 @@ Reviewed: false
 	3710. period
 		1. See menstrual cycle
 	
-	3711. periodontal membrane
-	3712. periosteum
-	3713. peripatric speciation
+	3711. [[periodontal membrane]]
+	3712. [[periosteum]]
+	3713. [[peripatric speciation]]
 	3714. Peripatus
-	3715. peripheral nervous system
-	3716. periplasm
-	3717. Perissodactyla
-	3718. peristalsis
-	3719. peristome
-	3720. peritoneum
+		1. See ONYCHOPHORA.
+	3715. [[peripheral nervous system]]
+	3716. [[periplasm]]
+	3717. [[Perissodactyla]]
+	3718. [[peristalsis]]
+	3719. [[peristome]]
+	3720. [[peritoneum]]
 	
-	3721. peritrichous
+	3721. [[peritrichous]]
 	3722. permafrost
-	3723. permanent teeth
-	3724. Permian
+		1. See tundra
+	3723. [[permanent teeth]]
+	3724. [[Permian]]
 	3725. pernicious anaemia
-	3726. peroxisome
-	3727. persistent
-	3728. pest
-	3729. pesticide
+		1. See vitamin B COMPLEX.
+	3726. [[peroxisome]]
+	3727. [[persistent]]
+	3728. [[pest]]
+	3729. [[pesticide]]
 	3730. PET
+		1. See POSITRON EMISSION TOMOGRAPHY.
 	
-	3731. peta-
-	3732. petal
-	3733. petiole
-	3734. Petri dish
+	3731. [[peta-]]
+	3732. [[petal]]
+	3733. [[petiole]]
+	3734. [[Petri dish]]
 	3735. petrification
-	3736. Peyer's patches
+		1. See fossil
+	3736. [[Peyer's patches]]
 	3737. pFc′ fragment
+		1. See F(AB').
 	3738. PFGE
+		1. Pulsed-field gel electrophoresis. See GEL ELECTROPHORESIS.
 	3739. PGD
+		1. See PREIMPLANTATION GENETIC DIAGNOSIS.
 	3740. pH
+		1. See PH SCALE.
 	
 	3741. PHA
-	3742. Phaeophyta
+		1. See PHYTOHAEMAGGLUTININ.
+	3742. [[Phaeophyta]]
 	3743. phage
+		1. See BACTERIOPHAGE.
 	3744. phagemid
-	3745. phagocyte
-	3746. phagocytosis
-	3747. phagotroph
-	3748. phalanges
-	3749. phanerophyte
-	3750. Phanerozoic
+		1. See EXPRESSION VECTOR.
+	3745. [[phagocyte]]
+	3746. [[phagocytosis]]
+	3747. [[phagotroph]]
+	3748. [[phalanges]]
+	3749. [[phanerophyte]]
+	3750. [[Phanerozoic]]
 	
-	3751. pharate
-	3752. pharmacodynamics
-	3753. pharmacogenomics
-	3754. pharmacokinetics
-	3755. pharynx
-	3756. phase-contrast microscope
-	3757. phase II metabolism
-	3758. phase I metabolism
-	3759. phase variation
+	3751. [[pharate]]
+	3752. [[pharmacodynamics]]
+	3753. [[pharmacogenomics]]
+	3754. [[pharmacokinetics]]
+	3755. [[pharynx]]
+	3756. [[phase-contrast microscope]]
+	3757. [[phase II metabolism]]
+	3758. [[phase I metabolism]]
+	3759. [[phase variation]]
 	3760. phellem
+		1. See cork
 	
 	3761. phelloderm
+		1. See cork cambium
 	3762. phellogen
-	3763. phenetic
-	3764. phenology
-	3765. phenolphthalein
-	3766. phenome
-	3767. phenotype
-	3768. phenotypic plasticity
+		1. See cork cambium
+	3763. [[phenetic]]
+	3764. [[phenology]]
+	3765. [[phenolphthalein]]
+	3766. [[phenome]]
+	3767. [[phenotype]]
+	3768. [[phenotypic plasticity]]
 	3769. phenylalanine
-	3770. pheophytin
+		1. See amino acid
+	3770. [[pheophytin]]
 	
-	3771. pheromone
-	3772. philopatry
-	3773. phloem
-	3774. phloem loading
+	3771. [[pheromone]]
+	3772. [[philopatry]]
+	3773. [[phloem]]
+	3774. [[phloem loading]]
 	3775. phloem protein
-	3776. phloem unloading
-	3777. phloroglucinol
-	3778. phonotaxis
-	3779. phoresy
-	3780. Phoronida
+		1. See p-protein
+	3776. [[phloem unloading]]
+	3777. [[phloroglucinol]]
+	3778. [[phonotaxis]]
+	3779. [[phoresy]]
+	3780. [[Phoronida]]
 	
-	3781. phosphatase
+	3781. [[phosphatase]]
 	3782. phosphatide
+		1. See PHOSPHOLIPID.
 	3783. phosphatidylcholine
-	3784. phosphodiester bond
-	3785. phosphoenolpyruvate
+		1. See leCITHIN.
+	3784. [[phosphodiester bond]]
+	3785. [[phosphoenolpyruvate]]
 	3786. phosphoglyceric acid
+		1. (PGA; 3-phosphoglycerate) See GLYCERATE 3-PHOSPHATE.
 	3787. phosphokinase
-	3788. phospholipase
-	3789. phospholipid
-	3790. phosphorus
+		1. See kinase
+	3788. [[phospholipase]]
+	3789. [[phospholipid]]
+	3790. [[phosphorus]]
 	
 	3791. phosphorus:oxygen ratio
-	3792. phosphorus cycle
+		1. See P/O ratio
+	3792. [[phosphorus cycle]]
 	3793. phosphorylase
-	3794. phosphorylation
+		1. See PHOSPHORYLATION.
+	3794. [[phosphorylation]]
 	3795. photic zone
-	3796. photoautotroph
-	3797. photoblastic
-	3798. photochemical smog
-	3799. photoinhibition
-	3800. photolysis
+		1. See EUPHOTIC ZONE.
+	3796. [[photoautotroph]]
+	3797. [[photoblastic]]
+	3798. [[photochemical smog]]
+	3799. [[photoinhibition]]
+	3800. [[photolysis]]
 	
-	3801. photomicrography
-	3802. photomorphogenesis
+	3801. [[photomicrography]]
+	3802. [[photomorphogenesis]]
 	3803. photonasty
+		1. See nastic movements
 	3804. photoperiod
-	3805. photoperiodism
-	3806. photophore
-	3807. photophosphorylation
-	3808. photopic vision
-	3809. photoprotection
+		1. See PHOTOPERIODISM.
+	3805. [[photoperiodism]]
+	3806. [[photophore]]
+	3807. [[photophosphorylation]]
+	3808. [[photopic vision]]
+	3809. [[photoprotection]]
 	3810. photoreactivation
+		1. See DNA photolyase
 	
-	3811. photoreceptor
-	3812. photorespiration
-	3813. photosynthate
-	3814. photosynthesis
+	3811. [[photoreceptor]]
+	3812. [[photorespiration]]
+	3813. [[photosynthate]]
+	3814. [[photosynthesis]]
 	3815. photosynthetic carbon reduction cycle
-	3816. photosynthetic nitrogen use efficiency
-	3817. photosynthetic pigments
-	3818. photosystems I and II
-	3819. phototaxis
-	3820. phototroph
+		1. See CALVIN-BASSHAM-BENSON CYCLE.
+	3816. [[photosynthetic nitrogen use efficiency]]
+	3817. [[photosynthetic pigments]]
+	3818. [[photosystems I and II]]
+	3819. [[phototaxis]]
+	3820. [[phototroph]]
 	
-	3821. phototropin
-	3822. phototropism
-	3823. phragmoplast
-	3824. phrenic nerve
-	3825. pH scale
-	3826. phycobiliprotein
-	3827. phycobiont
-	3828. phycocyanin
-	3829. phycoerythrin
-	3830. phycomycetes
+	3821. [[phototropin]]
+	3822. [[phototropism]]
+	3823. [[phragmoplast]]
+	3824. [[phrenic nerve]]
+	3825. [[pH scale]]
+	3826. [[phycobiliprotein]]
+	3827. [[phycobiont]]
+	3828. [[phycocyanin]]
+	3829. [[phycoerythrin]]
+	3830. [[phycomycetes]]
 	
-	3831. phyllode
-	3832. phyllotaxis
-	3833. PhyloCode
-	3834. phylogenetic
-	3835. phylogenetic species concept
+	3831. [[phyllode]]
+	3832. [[phyllotaxis]]
+	3833. [[PhyloCode]]
+	3834. [[phylogenetic]]
+	3835. [[phylogenetic species concept]]
 	3836. phylogenetic tree
-	3837. phylogenomics
-	3838. phylogeny
-	3839. phylogram
-	3840. phylum
+		1. (1) See EVOLUTIONARY TREE. 
+		2. (2) See PHYLOGRAM.
+	3837. [[phylogenomics]]
+	3838. [[phylogeny]]
+	3839. [[phylogram]]
+	3840. [[phylum]]
 	
-	3841. physical map((in genetics))
-	3842. physiognomy((in ecology))
-	3843. physiological saline
-	3844. physiological specialization
-	3845. physiology
-	3846. physiome
+	3841. [[physical map]]
+	3842. [[physiognomy]]
+	3843. [[physiological saline]]
+	3844. [[physiological specialization]]
+	3845. [[physiology]]
+	3846. [[physiome]]
 	3847. physisorption
-	3848. phyto-
+		1. See ADSORPTION.
+	3848. [[phyto-]]
 	3849. phytoaccumulation
-	3850. phytochelatin
+		1. See PhYTOREMEDIATION.
+	3850. [[phytochelatin]]
 	
-	3851. phytochrome
+	3851. [[phytochrome]]
 	3852. phytoecdysteroid
+		1. See ECDYSONE.
 	3853. phytogeography
-	3854. phytohaemagglutinin
+		1. See Plant GEOGRAPHY.
+	3854. [[phytohaemagglutinin]]
 	3855. phytohormone
-	3856. phytoncide
-	3857. phytoplankton
-	3858. phytoremediation
+		1. See plant hormone
+	3856. [[phytoncide]]
+	3857. [[phytoplankton]]
+	3858. [[phytoremediation]]
 	3859. phytostabilization
-	3860. phytotelm
+		1. See PhYTOREMEDIATION.
+	3860. [[phytotelm]]
 	
 	3861. phytotransformation
-	3862. pia mater
-	3863. pico-
-	3864. picornavirus
-	3865. pie chart
-	3866. pigment
+		1. See PhYTOREMEDIATION.
+	3862. [[pia mater]]
+	3863. [[pico-]]
+	3864. [[picornavirus]]
+	3865. [[pie chart]]
+	3866. [[pigment]]
 	3867. Pikaia
-	3868. pileus
-	3869. piliferous layer
-	3870. pilomotor
+		1. See burgess shale
+	3868. [[pileus]]
+	3869. [[piliferous layer]]
+	3870. [[pilomotor]]
 	
-	3871. Piltdown man
-	3872. pilus
+	3871. [[Piltdown man]]
+	3872. [[pilus]]
 	3873. pineal eye
-	3874. pineal gland
-	3875. pinna
-	3876. pipette
+		1. See median eye
+	3874. [[pineal gland]]
+	3875. [[pinna]]
+	3876. [[pipette]]
 	3877. piRNA
-	3878. Pisces
-	3879. pistil
-	3880. pit
+		1. See PIWI-INTERACTING RNA.
+	3878. [[Pisces]]
+	3879. [[pistil]]
+	3880. [[pit]]
 	
-	3881. pitfall trap
-	3882. pith
+	3881. [[pitfall trap]]
+	3882. [[pith]]
 	3883. Pithecanthropus
-	3884. pituitary gland
-	3885. piwi-interacting RNA
+		1. See homo
+	3884. [[pituitary gland]]
+	3885. [[piwi-interacting RNA]]
 	3886. PKC
-	3887. placenta
+		1. See protein kinase C.
+	3887. [[placenta]]
 	3888. Placentalia
-	3889. placode
+		1. See eutheria
+	3889. [[placode]]
 	3890. placoid scale
+		1. (denticle) See SCALES.
 	
-	3891. Placozoa
-	3892. plagiotropism
+	3891. [[Placozoa]]
+	3892. [[plagiotropism]]
 	3893. planarians
-	3894. plankton
-	3895. plant
-	3896. plant geography
-	3897. plant hormone
-	3898. plantigrade
+		1. See TURBELLARIA.
+	3894. [[plankton]]
+	3895. [[plant]]
+	3896. [[plant geography]]
+	3897. [[plant hormone]]
+	3898. [[plantigrade]]
 	3899. plant uncoupling protein
-	3900. planula
+		1. See uncoupling protein.
+	3900. [[planula]]
 	
-	3901. plaque
+	3901. [[plaque]]
 	3902. plasma
-	3903. plasma cell
-	3904. plasmagel
-	3905. plasma membrane
-	3906. plasma protein
-	3907. plasmasol
-	3908. plasmin
-	3909. plasminogen
-	3910. plasmodesmata
+		1. See blood plasma
+	3903. [[plasma cell]]
+	3904. [[plasmagel]]
+	3905. [[plasma membrane]]
+	3906. [[plasma protein]]
+	3907. [[plasmasol]]
+	3908. [[plasmin]]
+	3909. [[plasminogen]]
+	3910. [[plasmodesmata]]
 	
-	3911. plasmogamy
-	3912. plasmolysis
+	3911. [[plasmogamy]]
+	3912. [[plasmolysis]]
 	3913. plasticity
-	3914. plastid
-	3915. plastocyanin
-	3916. plastoglobulus
-	3917. plastome
-	3918. plastoquinone
+		1. See PHENOTYPIC PLASTICITY.
+	3914. [[plastid]]
+	3915. [[plastocyanin]]
+	3916. [[plastoglobulus]]
+	3917. [[plastome]]
+	3918. [[plastoquinone]]
 	3919. plastron
-	3920. plate count
+		1. See carapace
+	3920. [[plate count]]
 	
-	3921. platelet
-	3922. platelet-activating factor
+	3921. [[platelet]]
+	3922. [[platelet-activating factor]]
 	3923. platelet-derived growth factor
-	3924. plate tectonics
-	3925. Platyhelminthes
-	3926. Platyzoa
-	3927. pleiomorphism
-	3928. Pleistocene
-	3929. plesiomorphy
-	3930. pleura
+		1. See growth factor
+	3924. [[plate tectonics]]
+	3925. [[Platyhelminthes]]
+	3926. [[Platyzoa]]
+	3927. [[pleiomorphism]]
+	3928. [[Pleistocene]]
+	3929. [[plesiomorphy]]
+	3930. [[pleura]]
 	
-	3931. plexus
-	3932. Pliocene
-	3933. plumule
+	3931. [[plexus]]
+	3932. [[Pliocene]]
+	3933. [[plumule]]
 	3934. pluripotent
-	3935. pneumatophore
+		1. See stem cell
+	3935. [[pneumatophore]]
 	3936. pod
-	3937. podocyte
-	3938. pogonophoran
-	3939. poikilothermy
-	3940. point mutation
+		1. See legume
+	3937. [[podocyte]]
+	3938. [[pogonophoran]]
+	3939. [[poikilothermy]]
+	3940. [[point mutation]]
 	
 	3941. polar body
-	3942. polarity
+		1. See oogenesis
+	3942. [[polarity]]
 	3943. polar molecule
-	3944. polar nuclei
-	3945. pollen
+		1. See polarity
+	3944. [[polar nuclei]]
+	3945. [[pollen]]
 	3946. pollen analysis
-	3947. pollen sac
-	3948. pollen tube
-	3949. pollex
-	3950. pollination
+		1. See PALYNOLOGY.
+	3947. [[pollen sac]]
+	3948. [[pollen tube]]
+	3949. [[pollex]]
+	3950. [[pollination]]
 	
-	3951. pollutant
-	3952. pollution
+	3951. [[pollutant]]
+	3952. [[pollution]]
 	3953. polyacrylamide gel electrophoresis
-	3954. polyandry
-	3955. Polychaeta
-	3956. polycistronic
-	3957. polyembryony
-	3958. polygene
+		1. See page
+	3954. [[polyandry]]
+	3955. [[Polychaeta]]
+	3956. [[polycistronic]]
+	3957. [[polyembryony]]
+	3958. [[polygene]]
 	3959. polygenic inheritance
-	3960. polygyny
+		1. See QUANTITATIVE INHERITANCE.
+	3960. [[polygyny]]
 	
-	3961. polymer
-	3962. polymerase
-	3963. polymerase chain reaction
-	3964. polymorphism
+	3961. [[polymer]]
+	3962. [[polymerase]]
+	3963. [[polymerase chain reaction]]
+	3964. [[polymorphism]]
 	3965. polynucleotide
-	3966. polyol
-	3967. polyp
-	3968. polypeptide
-	3969. polypetalous
-	3970. polyphenism
+		1. See nucleotide
+	3966. [[polyol]]
+	3967. [[polyp]]
+	3968. [[polypeptide]]
+	3969. [[polypetalous]]
+	3970. [[polyphenism]]
 	
-	3971. polyphyletic
-	3972. polyphyodont
-	3973. polyploid
-	3974. polyribosome
-	3975. polysaccharide
-	3976. polysepalous
+	3971. [[polyphyletic]]
+	3972. [[polyphyodont]]
+	3973. [[polyploid]]
+	3974. [[polyribosome]]
+	3975. [[polysaccharide]]
+	3976. [[polysepalous]]
 	3977. polysome
-	3978. polyspermy
-	3979. polysynaptic reflex
-	3980. polyteny
+		1. See POLYRIBOSOME.
+	3978. [[polyspermy]]
+	3979. [[polysynaptic reflex]]
+	3980. [[polyteny]]
 	
-	3981. polythetic
-	3982. polytopic
-	3983. polytypic
-	3984. pome
-	3985. pons
-	3986. population
-	3987. population bottleneck
-	3988. population dynamics
-	3989. population genetics
-	3990. population growth
+	3981. [[polythetic]]
+	3982. [[polytopic]]
+	3983. [[polytypic]]
+	3984. [[pome]]
+	3985. [[pons]]
+	3986. [[population]]
+	3987. [[population bottleneck]]
+	3988. [[population dynamics]]
+	3989. [[population genetics]]
+	3990. [[population growth]]
 	
-	3991. Porifera
-	3992. porin
-	3993. porphyrin
-	3994. portal vein
-	3995. positional cloning
-	3996. positional information((in embryology))
-	3997. positive-sense((in genetics))
+	3991. [[Porifera]]
+	3992. [[porin]]
+	3993. [[porphyrin]]
+	3994. [[portal vein]]
+	3995. [[positional cloning]]
+	3996. [[positional information]]
+	3997. [[positive-sense]]
 	3998. positive feedback
-	3999. positive selection
-	4000. positron emission tomography
+		1. See feedback
+	3999. [[positive selection]]
+	4000. [[positron emission tomography]]
 	
 	4001. post-tetanic potentiation
+		1. See synaptic plasticity
 	4002. post-transcriptional gene silencing
+		1. See RNA interference
 	4003. post-transcriptional modification
+		1. See RNA processing
 	4004. post-translational modification
+		1. See translation
 	4005. postcaval vein
-	4006. posterior
-	4007. postreplicative repair
-	4008. postsynaptic membrane
-	4009. potassium
-	4010. potassium-argon dating
+		1. See vena cava
+	4006. [[posterior]]
+	4007. [[postreplicative repair]]
+	4008. [[postsynaptic membrane]]
+	4009. [[potassium]]
+	4010. [[potassium-argon dating]]
 	
-	4011. potassium ion channel
-	4012. potentiation
-	4013. potometer
-	4014. poxvirus
+	4011. [[potassium ion channel]]
+	4012. [[potentiation]]
+	4013. [[potometer]]
+	4014. [[poxvirus]]
 	4015. pre-messenger RNA
+		1. See RNA processing
 	4016. pre-replication complex
-	4017. preadaptation
-	4018. Precambrian
+		1. See DNA replication
+	4017. [[preadaptation]]
+	4018. [[Precambrian]]
 	4019. precaval vein
-	4020. precipitin
+		1. See vena cava
+	4020. [[precipitin]]
 	
-	4021. precocial species
-	4022. predation
-	4023. predator
+	4021. [[precocial species]]
+	4022. [[predation]]
+	4023. [[predator]]
 	4024. pregnancy
-	4025. preimplantation genetic diagnosis
-	4026. premolar
-	4027. premotor cortex
-	4028. premutation
-	4029. presbyopia
+		1. See gestation
+	4025. [[preimplantation genetic diagnosis]]
+	4026. [[premolar]]
+	4027. [[premotor cortex]]
+	4028. [[premutation]]
+	4029. [[presbyopia]]
 	4030. pressure flow
+		1. See mass flow
 	
-	4031. pressure potential
-	4032. presumptive
-	4033. presynaptic membrane
-	4034. prey
-	4035. Pribnow box
-	4036. prickle
+	4031. [[pressure potential]]
+	4032. [[presumptive]]
+	4033. [[presynaptic membrane]]
+	4034. [[prey]]
+	4035. [[Pribnow box]]
+	4036. [[prickle]]
 	4037. primary cell wall
+		1. See cell wall
 	4038. primary consumer
-	4039. primary growth
+		1. See consumer
+	4039. [[primary growth]]
 	4040. primary immune response
+		1. See immunological memory
 	
 	4041. primary motor cortex
+		1. See cerebrum
 	4042. primary producer
-	4043. primary productivity
+		1. See producer
+	4043. [[primary productivity]]
 	4044. primary somatosensory cortex
+		1. See cerebrum
 	4045. primary structure
-	4046. primase
-	4047. Primates
+		1. See protein
+	4046. [[primase]]
+	4047. [[Primates]]
 	4048. primitive node
-	4049. primitive streak
+		1. (primitive knot) See HENSEN'S NODE.
+	4049. [[primitive streak]]
 	4050. primordial soup
+		1. See origin of life
 	
-	4051. primordium
-	4052. primosome
-	4053. principle of parsimony
-	4054. prion
-	4055. Proboscidea
-	4056. proboscis
-	4057. procambium
-	4058. procarcinogen
+	4051. [[primordium]]
+	4052. [[primosome]]
+	4053. [[principle of parsimony]]
+	4054. [[prion]]
+	4055. [[Proboscidea]]
+	4056. [[proboscis]]
+	4057. [[procambium]]
+	4058. [[procarcinogen]]
 	4059. procaryote
+		1. See PROKARYOTE.
 	4060. prochlorophytes
+		1. See CHLOROXYBACTERIA.
 	
-	4061. Proconsul
-	4062. prodrug
-	4063. producer
-	4064. productivity((in ecology))
-	4065. profundal
-	4066. progenesis
+	4061. [[Proconsul]]
+	4062. [[prodrug]]
+	4063. [[producer]]
+	4064. [[productivity]]
+	4065. [[profundal]]
+	4066. [[progenesis]]
 	4067. progeny
-	4068. progesterone
-	4069. progestogen
+		1. See offspring
+	4068. [[progesterone]]
+	4069. [[progestogen]]
 	4070. proglottid
+		1. (proglottis) See CESTODA.
 	
 	4071. programmed cell death
-	4072. progymnosperms
-	4073. prokaryote
-	4074. prolactin
+		1. See APOPTOSIS.
+	4072. [[progymnosperms]]
+	4073. [[prokaryote]]
+	4074. [[prolactin]]
 	4075. proline
-	4076. prometaphase
-	4077. promoter
-	4078. pronation
-	4079. proofreading
-	4080. propagation
+		1. See amino acid
+	4076. [[prometaphase]]
+	4077. [[promoter]]
+	4078. [[pronation]]
+	4079. [[proofreading]]
+	4080. [[propagation]]
 	
-	4081. prophage
-	4082. prophase
+	4081. [[prophage]]
+	4082. [[prophase]]
 	4083. proplastid
-	4084. proprioceptor
-	4085. prop root
+		1. See plastid
+	4084. [[proprioceptor]]
+	4085. [[prop root]]
 	4086. prosencephalon
-	4087. prosoma
-	4088. prostacyclin
-	4089. prostaglandin
-	4090. prostate gland
+		1. see forebrain
+	4087. [[prosoma]]
+	4088. [[prostacyclin]]
+	4089. [[prostaglandin]]
+	4090. [[prostate gland]]
 	
-	4091. prosthetic group
-	4092. protandry
+	4091. [[prosthetic group]]
+	4092. [[protandry]]
 	4093. protanopia
-	4094. protease
-	4095. proteasome
-	4096. protein
+		1. See color blindness
+	4094. [[protease]]
+	4095. [[proteasome]]
+	4096. [[protein]]
 	4097. protein blotting
-	4098. protein engineering
-	4099. protein family
-	4100. protein kinase
+		1. See western blotting
+	4098. [[protein engineering]]
+	4099. [[protein family]]
+	4100. [[protein kinase]]
 	
-	4101. protein kinase C
-	4102. proteinoid
-	4103. protein profiling
-	4104. protein sequencing
-	4105. protein synthesis
-	4106. proteobacteria
-	4107. proteoglycan
+	4101. [[protein kinase C]]
+	4102. [[proteinoid]]
+	4103. [[protein profiling]]
+	4104. [[protein sequencing]]
+	4105. [[protein synthesis]]
+	4106. [[proteobacteria]]
+	4107. [[proteoglycan]]
 	4108. proteolysis
+		1. The enzymic splitting of proteins. See protease.
 	4109. proteolytic enzyme
-	4110. proteome
+		1. See protease.
+	4110. [[proteome]]
 	
-	4111. proteomics
-	4112. Proterozoic
-	4113. prothallus
+	4111. [[proteomics]]
+	4112. [[Proterozoic]]
+	4113. [[prothallus]]
 	4114. prothoracic gland
-	4115. prothoracicotropic hormone
-	4116. prothrombin
-	4117. protist
+		1. See ecdysone.
+	4115. [[prothoracicotropic hormone]]
+	4116. [[prothrombin]]
+	4117. [[protist]]
 	4118. proto-oncogene
-	4119. protocell
-	4120. Protoctista
+		1. See oncogene
+	4119. [[protocell]]
+	4120. [[Protoctista]]
 	
-	4121. protoderm
-	4122. protogyny
-	4123. protonema
+	4121. [[protoderm]]
+	4122. [[protogyny]]
+	4123. [[protonema]]
 	4124. protonephridium
-	4125. proton pump
-	4126. protophloem
-	4127. protoplasm
-	4128. protoplast
-	4129. protostome
-	4130. protoxylem
+		1. (pl. protonephridia) See NEPHRIDIUM.
+	4125. [[proton pump]]
+	4126. [[protophloem]]
+	4127. [[protoplasm]]
+	4128. [[protoplast]]
+	4129. [[protostome]]
+	4130. [[protoxylem]]
 	
-	4131. protozoa
-	4132. Protura
+	4131. [[protozoa]]
+	4132. [[Protura]]
 	4133. provascular tissue
-	4134. proventriculus
-	4135. provirus
-	4136. proximal convoluted tubule
+		1. See PROCAMBIUM.
+	4134. [[proventriculus]]
+	4135. [[provirus]]
+	4136. [[proximal convoluted tubule]]
 	4137. PR protein
+		1. (pathogenesis-related protein) See SYSTEMIC ACQUIRED RESISTANCE.
 	4138. PRR
+		1. See PATTERN RECOGNITION RECEPTOR.
 	4139. pruning
+		1. (in neurophysiology) See COMPETITION (sense 2).
 	4140. PSC
+		1. See PhYLOGENETIC SPECIES CONCEPT.
 	
 	4141. pseudoautosomal region
-	4142. pseudocarp
+		1. See X inACTIVATION.
+	4142. [[pseudocarp]]
 	4143. Pseudociliata
-	4144. pseudocoelomate
-	4145. pseudogamy
-	4146. pseudogene
-	4147. pseudoparenchyma
+		1. See DISCOMITOCHONDRIA.
+	4144. [[pseudocoelomate]]
+	4145. [[pseudogamy]]
+	4146. [[pseudogene]]
+	4147. [[pseudoparenchyma]]
 	4148. pseudoplasmodium
-	4149. pseudopodium
-	4150. pseudopregnancy
+		1. See slime mould
+	4149. [[pseudopodium]]
+	4150. [[pseudopregnancy]]
 	
 	4151. Psilotum
-	4152. psychrophilic
-	4153. Pteridophyta
+		1. See whisk ferns
+	4152. [[psychrophilic]]
+	4153. [[Pteridophyta]]
 	4154. Pteridospermales
+		1. See CYCADOFILICALES.
 	4155. pterobranch
+		1. See HEMICHORDATA.
 	4156. pterodactyls
-	4157. Pterosauria
-	4158. Pterygota
+		1. See PTEROSAURIA.
+	4157. [[Pterosauria]]
+	4158. [[Pterygota]]
 	4159. PTH
+		1. See PARATHYROID HORMONE.
 	4160. PTTH
+		1. See PROTHORACICOTROPIC HORMONE.
 	
-	4161. ptyalin
+	4161. [[ptyalin]]
 	4162. puberty
-	4163. pubis
+		1. See ADOLESCENCE.
+	4163. [[pubis]]
 	4164. PubMed
+		1. See medline
 	4165. puff
-	4166. pufferfish
-	4167. pulmonary
-	4168. pulmonary artery
-	4169. pulmonary circulation
+		1. (in genetics) see polyteny
+	4166. [[pufferfish]]
+	4167. [[pulmonary]]
+	4168. [[pulmonary artery]]
+	4169. [[pulmonary circulation]]
 	4170. pulmonary valve
+		1. See SEMILUNAR VALVE.
 	
-	4171. pulmonary vein
-	4172. pulp cavity
-	4173. pulse
+	4171. [[pulmonary vein]]
+	4172. [[pulp cavity]]
+	4173. [[pulse]]
 	4174. pulsed-field gel electrophoresis
-	4175. pulvinus
-	4176. punctuated equilibrium
-	4177. Punnett square
-	4178. pupa
+		1. (PFGE) See GEL ELECTROPHORESIS.
+	4175. [[pulvinus]]
+	4176. [[punctuated equilibrium]]
+	4177. [[Punnett square]]
+	4178. [[pupa]]
 	4179. pupil
-	4180. pupillary reflex
+		1. See iris
+	4180. [[pupillary reflex]]
 	
-	4181. pure line
-	4182. purifying selection
-	4183. purine
-	4184. Purkyne cell
-	4185. Purkyne fibres
+	4181. [[pure line]]
+	4182. [[purifying selection]]
+	4183. [[purine]]
+	4184. [[Purkyne cell]]
+	4185. [[Purkyne fibres]]
 	4186. purple sulphur bacteria
-	4187. putrefaction
+		1. See sulphur bacteria
+	4187. [[putrefaction]]
 	4188. Pycnogonida
-	4189. pyknotic
+		1. See CHELICERATA.
+	4189. [[pyknotic]]
 	4190. pyloric sphincter
+		1. See SPHINCTER; STOMACH.
 	
-	4191. pyramidal cell
-	4192. pyramid of biomass
-	4193. pyramid of energy
-	4194. pyramid of numbers
-	4195. pyranose
+	4191. [[pyramidal cell]]
+	4192. [[pyramid of biomass]]
+	4193. [[pyramid of energy]]
+	4194. [[pyramid of numbers]]
+	4195. [[pyranose]]
 	4196. pyrenocarp
-	4197. pyrenoid
-	4198. pyrethrum
+		1. See drupe
+	4197. [[pyrenoid]]
+	4198. [[pyrethrum]]
 	4199. pyridoxine
-	4200. pyrimidine
+		1. See vitamin B complex
+	4200. [[pyrimidine]]
 	
 	4201. pyrrole
 	4202. pyruvic acid

@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- The process of determining the amino-acid sequence of a protein or its component polypeptides. The technique traditionally used is Edman degradation (devised by Pehr Edman), in which the terminal amino-acid residues are removed sequentially and identified chromatographically. Each step is automated and the whole process can now be performed by a single machine$\textemdash$the sequenator. Large polypeptides must be cleaved into smaller peptides before sequencing. The identification of unknown protein samples, determination of protein structure, and detection of post-translational modifications, as well as amino acid sequencing now commonly employ mass spectrometry techniques, such as matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF). For large proteins, this can be complemented by peptide mapping, in which the polypeptide chain is cleaved at specific peptide links.
+- The results of chemical sequencing can often be compared with the amino-acid sequence deduced by DNA sequencing. The gene coding for the protein under investigation may be found by screening a DNA library, for example by western blotting. However, the base sequence of the gene gives only the amino-acid sequence of the nascent protein, i.e. before post-translational modification. The sequence of the functional protein can only be found by chemical analysis.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

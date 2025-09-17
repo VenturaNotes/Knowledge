@@ -12,7 +12,10 @@
 		- pleural cavity
 		- chest wall
 		- diaphragm
+## Source[^3]
+- (pleural membrane) (pl. pleurae) The double membrane that lines the thoracic cavity and covers the exterior surface of the lungs. It is a serous membrane forming a closed sac, with a small space (the pleural cavity) between the two layers.
 ## References
 
 [^1]: https://my.clevelandclinic.org/health/diseases/17373-pleural-effusion
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

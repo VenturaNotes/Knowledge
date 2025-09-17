@@ -18,6 +18,11 @@
 		- oropharynx
 		- nasopharynx
 		- nasal cavity
+## Source[^2]
+- (pl. pharynges)
+- (1) The cavity in vertebrates between the mouth and the oesophagus and windpipe (trachea), which serves for the passage of both food and respiratory gases. The presence of food in the pharynx stimulates swallowing (see deglutition). In fish and aquatic amphibians the pharynx is perforated by gill slits. 
+- (2) The corresponding region in invertebrates.
 
 ## References
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

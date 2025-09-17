@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An ion channel specifically for the passage of potassium ions $\left(\mathrm{K}^{+}\right)$through cell membranes. There are several types. Ungated or 'leak' potassium channels are largely responsible for the resting potential of cells. These are permanently open and allow $\mathrm{K}^{+}$ions to move in and out of the cell. Outward migration down the $\mathrm{K}^{+}$ion concentration gradient creates a net negative charge inside the cell. Voltage-gated $\mathrm{K}^{+}$ channels play a key role in transmitting electrical signals in excitable cells, particularly neurons and muscle cells. During a nerve impulse, the sudden reversal of polarity (i.e. the action potential) causes the voltage-gated $\mathrm{K}^{+}$channels to open, allowing excess positive charge, in the form of $\mathrm{K}^{+}$ions, to flood out of the cell thereby restoring the negative resting potential. Ligand-gated, or 'chemical' $\mathrm{K}^{+}$channels open in response to a chemical stimulus, and cause an excess negative charge inside the cell (i.e. hyperpolarization) by allowing more $\mathrm{K}^{+}$ions to leave than normal. They operate e.g. to reduce excitability of cells in parts of the brain during non-REM sleep. See LIGAND-GATED ION CHANNEL; SODIUM ION CHANNEL; VOLTAGE-GATED ION CHANNEL. See also SODIUM-POTASSIUM PUMP.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

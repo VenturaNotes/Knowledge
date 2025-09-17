@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The processes by which the products of photosynthesis enter the phloem for transport to other tissues within the plant. The carbon fixed by photosynthesis is transported in phloem primarily as sucrose, formed by combination of glucose and fructose in the cytosol of photosynthetic cells (the source). From here the sucrose travels the short distance to the vicinity of the nearest phloem vessels, chiefly by diffusing from cell to cell via the plasmodesmata. This symplastic pathway (see SYMPLAST) reaches the companion cells that lie alongside the phloem vessels (sieve elements) and can load sucrose into the phloem by simple diffusion through plasmodesmata. However, most sugar is loaded, via the apoplastic pathway (see APOPLAST), from the space between cells bordering the companion cells. The plasma membrane of the latter contains a sucrose$/ \mathrm{H}^{+}$ cotransporter, which pumps sucrose molecules from the intercellular space into the companion cells, from which the sucrose diffuses into the sieve elements for transport to other parts of the plant where food is required (the sink). Energy is derived from the $\mathrm{H}^{+}$gradient across the companion cell membrane, which is maintained by hydrolysis of ATP to ADP. Compare PHLOEM UNLOADING.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

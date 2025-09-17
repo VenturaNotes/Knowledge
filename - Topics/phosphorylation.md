@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The introduction of a phosphate group into a biomolecule in a reaction that is normally controlled by a phosphorylase enzyme. Phosphate is able to combine easily with inert organic compounds, making them chemically active. The first stage in many biochemical reactions is phosphorylation. The conversion of AMP and ADP to ATP occurs by phosphorylation reactions in two main metabolic pathways, oxidative phosphorylation, occurring in aerobic respiration, and photophosphorylation, occurring in chloroplasts. The formation of other nucleotides also involves a phosphorylation reaction. Substrate-level phosphorylation occurs during glycolysis; it generates two molecules of ATP per glucose molecule through reactions catalyzed by water-soluble glycolytic enzymes located in the cytosol. An estimated 30% of cellular proteins are phosphorylated, representing the phosphoproteome. The phosphorylation of proteins plays a central role in most cellular activities and is essential for cell proliferation and development. Phosphorylation can alter a protein's function, activity, localization, and stability. The activity of many enzymes is controlled by phosphorylation: certain enzymes are activated when they are phosphorylated (see KINASE), while others are deactivated. Phosphorylation of these enzymes is under the control of hormones and other messengers.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

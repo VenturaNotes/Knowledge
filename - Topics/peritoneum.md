@@ -22,8 +22,11 @@
 		- bladder
 		- pubic symphysis
 		- rectum
+## Source[^4]
+- (pl. peritoneums or peritonea) The thin layer of tissue (see SEROUS MEMBRANE) that lines the abdominal cavity of vertebrates and covers the abdominal organs. See also MESENTERY.
 ## References
 
 [^1]: https://my.clevelandclinic.org/health/body/22894-peritoneum
 [^2]: Google's Search Labs | AI Overview
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
