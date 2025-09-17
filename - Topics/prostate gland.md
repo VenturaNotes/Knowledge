@@ -12,6 +12,9 @@
 		- prostate gland
 		- Cowper's gland
 		- urethra
+## Source[^2]
+- A gland in male mammals that surrounds and opens into the urethra where it leaves the bladder. During ejaculation it secretes a slightly alkaline fluid into the semen that activates the sperms and prevents them from sticking together. It also counteracts the acidity of the male and female genital tracts and contains prostaglandins, which stimulate contractions of the female reproductive tract.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

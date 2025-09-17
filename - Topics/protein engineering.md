@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The techniques used to alter the structure of proteins (especially enzymes) in order to improve their use to humans. This involves artificially modifying the DNA sequences that encode them so that, for example, new amino acids are inserted into existing proteins. Synthesized lengths of novel DNA can be used to produce new proteins by cells or other systems containing the necessary factors for transcription and translation. Alternatively, new proteins can be synthesized by solid state synthesis, in which polypeptide chains are assembled under the control of chemicals. One end of the chain is anchored to a solid support and the chemicals selectively determine which amino acids are added to the free end. The appropriate chemicals can be renewed during the process; when synthesized, the polypeptide is removed and purified. Protein engineering is used to synthesize enzymes (so-called 'designer enzymes') used in biotechnology. The three-dimensional tertiary structure of proteins is crucially important for their function, and this can be investigated using computer-aided modelling. See also DIRECTED EVOLUTION.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

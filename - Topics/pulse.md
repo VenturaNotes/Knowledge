@@ -20,7 +20,10 @@
 		- popliteal
 		- posterior tibial
 		- dorsalis pedis
+## Source[^3]
+- (in physiology) A series of waves of dilation that pass along the arteries, caused by pressure of blood pumped from the heart through contractions of the left ventricle. In humans it can be felt easily where arteries pass close to the skin surface, e.g. at the wrist.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - (hypophysis) the master endocrine gland: a pea-sized body attached beneath the hypothalamus in a bony cavity at the base of the skull. It has an anterior lobe (adenohypophysis), which secretes thyroidstimulating hormone, ACTH (adrenocorticotrophic hormone), the gonadotrophins, growth hormone, prolactin, lipotrophin, and melanocyte-stimulating hormone. The secretion of all these hormones is regulated by specific releasing hormones, which are produced in the hypothalamus (see also CORTICOTROPHIN-RELEASING HORMONE; GONADOTROPHIN-RELEASING HORMONE; THYROTROPHIN-RELEASING HORMONE). The posterior lobe (neurohypophysis) secretes vasopressin and oxytocin, which are synthesized in the hypothalamus and transported to the pituitary, where they are stored before release.
+## Source[^2]
+- (pituitary body; hypophysis) A pea-sized endocrine gland attached by a thin stalk to the hypothalamus at the base of the brain. It consists of two main lobes, the anterior and the posterior, separated in nonhumans by a much smaller intermediate lobe. The anterior pituitary (or adenohypophysis) secretes such hormones as growth hormone, the gonadotrophins, prolactin, thyroid-stimulating hormone, and ACTH. Because these hormones regulate the growth and activity of several other endocrine glands, the anterior pituitary is often referred to as the master endocrine gland. Activity of the anterior pituitary itself is regulated by specific releasing hormones produced by the hypothalamus (see also NEUROENDOCRINE SYSTEM). The posterior pituitary (or neurohypophysis) secretes the hormones oxytocin and antidiuretic hormone, and the intermediate lobe secretes melanocyte-stimulating hormone. In humans the pituitary lacks a functionally discrete intermediate lobe.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

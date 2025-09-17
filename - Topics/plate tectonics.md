@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- The theory that the surface of the earth is made of lithospheric plates, which have moved throughout geological time resulting in the present-day positions of the continents. The theory explains the locations of mountain building as well as earthquakes and volcanoes. The rigid lithospheric plates consist of continental and oceanic crust together with the upper mantle, which lie above the weaker plastic asthenosphere. These plates move relative to each other across the earth. Six major plates (Eurasian, American, African, Pacific, Indian, and Antarctic) are recognized, together with a number of smaller ones. The plate margins coincide with zones of seismic and volcanic activity.
+- A constructive (or divergent) plate margin occurs when two plates move away from each other. It is marked by a mid-oceanic ridge where basaltic material wells up from the mantle to form new oceanic crust, in a process known as sea-floor spreading. The production of new crust at constructive plate margins is compensated for by the destruction of material along a destructive (or convergent) plate margin. Along these margins, which are also known as subduction zones and marked by an oceanic trench, one plate (usually oceanic) is forced to plunge down beneath the other (which may be continental or oceanic). The crust becomes partially melted and rises to form a chain of volcanoes in the upper plate parallel to the trench. When two continental plates collide the compression results in the formation of mountain chains. A third type of plate margin$\textemdash$the transform plate margin$\textemdash$occurs where two plates are slipping past each other.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

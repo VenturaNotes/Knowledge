@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A metabolic pathway that occurs in plants in the presence of light, in which ribulose bisphosphate carboxylase/oxygenase (rubisco), the enzyme involved in carbon dioxide fixation with ribulose bisphosphate, accepts oxygen, in place of carbon dioxide, resulting in the formation of a two-carbon compound, glycolate. Most of the fixed carbon represented by the glycolate can be salvaged by a series of reactions$\textemdash$the glycolate pathway$\textemdash$involving the peroxisomes and mitochondria, and returned to the chloroplasts. However, some of the carbon is lost as carbon dioxide. Unlike respiration, there is no production of ATP. In $\mathrm{C}_{3}$ plants (see c) photorespiration has the effect of reducing the rate of photosynthesis, as atmospheric oxygen can combine with rubisco. In $\mathrm{C}_{4}$ plants (see c) the effect of photorespiration is negligible as the affinity of phosphoenolpyruvate carboxylase for carbon dioxide is extremely high. As oxygen is a competitive inhibitor of rubisco, photorespiration will increase as oxygen concentration increases or as carbon dioxide concentration decreases.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

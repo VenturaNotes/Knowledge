@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The field of bioinformatics that integrates knowledge about the evolutionary history of organisms (i.e. phylogeny) with structural and functional analysis of their genomes (i.e. genomics) and proteins (proteomics). A basic supposition is that wellcharacterized genes (or proteins) in one organism provide valuable insights into the likely sequence and function of homologous genes or proteins in related organisms. Conversely, comparisons of gene or protein sequences from different species can provide evidence of possible homology, and hence shared evolutionary origins. On a molecular level, the vast amounts of data from genomics projects are used to construct phylogenetic databases for genes and proteins; sequence data are correlated with experimental findings about protein structure and function and subject to statistical analysis. Sequence data are used to construct phylogenetic trees (phylograms) using principles of maximum parsimony or maximum likelihood. The validity and accuracy of such methods can be tested by experiments with living organisms$\textemdash$e.g. by allowing bacteriophage to evolve over multiple generations and lineages-or by computer simulations.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

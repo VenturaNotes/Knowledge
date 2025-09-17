@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A hypothesis, published in 1972 by N. Eldredge and Stephen J. Gould, proposing that in evolutionary history most change occurs very rapidly in short bursts lasting typically less than 100,000 years and is associated with speciation events. In between these speciation events are long periods (perhaps millions of years) of relative stasis, in which little evolutionary change occurs. This hypothesis, which contradicted the orthodox Darwinian view of evolution as a gradual and continuous process, prompted controversy and often heated debate. The authors based their hypothesis on studies of various fossil lineages (e.g. ammonite molluscs) in which forms intermediate between species are absent, citing this as evidence that speciation events are often so brief as not to be represented in the fossil record. Subsequent scrutiny of the evidence supports a pattern of punctuated equilibrium for some, but not all, lineages, so it cannot be regarded as universal. For example, the rodent lineage shows as much morphological change between speciation events as during speciation.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

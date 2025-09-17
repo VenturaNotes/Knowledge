@@ -6,6 +6,12 @@
 - (2) a raised patch on the skin, formed by papules enlarging or coalescing to form an area 2 cm or more across. 
 - (3) a deposit, consisting of a fatty core covered with a fibrous cap, that develops on the inner wall of an artery in atherosclerosis (see ATHEROMA). 
 - (4) any flat and often raised patch, for example on mucous membrane, resulting from local damage.
+## Source[^2]
+- (1) A thin layer of organic material covering all or part of the exposed surface of a tooth. It contains dissolved food (mostly sugar) and bacteria. The bacteria in plaque metabolize the sugar and produce acid, which eats into the surface of the enamel of the tooth and eventually causes tooth decay (dental caries). 
+- (2) A clear area in a bacterial culture grown on an agar plate due to lysis of the bacteria by a bacteriophage. 
+- (3) A patch or differentiated zone on the surface of the skin or other organ. 
+- (4) A fatty deposit that causes thickening of an arterial wall. See ATHEROSCLEROSIS.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

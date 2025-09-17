@@ -13,9 +13,13 @@
 - Subtyping polymorphism allows programmers to substitute and reuse code in OOP languages by using a single name to refer to many programming objects that share variables and functions.
 ## Source[^4]
 - $n$. (in genetics) the occurrence of a chromosome or a genetic character in more than one form, resulting in the coexistence of more than one morphological type in the same population.
+## Source[^5]
+- The existence of two or more distinctly different forms (morphs) within a plant or animal species, particularly due to genetic differences. Two forms of genetic polymorphism exist: transient polymorphism, in which a particular form is in the process of spreading through a population, causing the relative proportion of phenotypes to alter; and balanced polymorphism, in which two or more forms coexist in a stable ratio within a population, each form possessing both advantageous and disadvantageous characteristics. An example of balanced polymorphism is the occurrence of sickle-cell disease, a genetic disease that principally affects Black populations of central Africa and is characterized by an abnormal form of the blood pigment haemoglobin (haemoglobin $\mathbf{S}$ ) and sickle-shaped red blood cells. Three different types of individual occur in such populations: those who have two alleles ( $A A$ ) for normal haemoglobin and therefore do not suffer from the disease; those with one normal and one abnormal allele (AS), who are described as having the sickle-cell trait and generally suffer no symptoms; and those with two abnormal alleles (SS), who suffer a chronic and eventually fatal form of anaemia. Normally such a harmful allele would have been eliminated from the population by the process of natural selection, but it is maintained in this case because people with the sickle-cell trait are resistant to a severe form of malaria endemic in central Africa. They exhibit heterozygote advantage (see BALANCING SELECTION). Environmental polymorphism is not due to genetic differences, an example being the caste system of social insects, in which the different morphs$\textemdash$i.e. workers, drones, and queens$\textemdash$are determined by the larvae receiving different types of food. Many authorities prefer the term polyphenism for this phenomenon. Compare MUTATION.
+- See also RESTRICTION FRAGMENT LENGTH POLYMORPHISM; SINGLE NUCLEOTIDE POLYMORPHISM.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

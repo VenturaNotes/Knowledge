@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A phylum of simple aquatic animals containing just a single officially described species, Trichoplax adhaerens. This has a transparent round flattened body, between 0.2 and 3 mm in diameter, without head, tail, or appendages. It is covered in cilia, which it uses to crawl over surfaces, and it feeds by secreting enzymes from its ventral surface, part of which it may invaginate to form a temporary stomach. An adult comprises a few thousand cells of just four types, whose DNA content is the smallest of any animal. Placozoans can reproduce asexually by binary fission or budding, and sexual reproduction has been observed in laboratory cultures, although full details of the life cycle under natural conditions are unknown. The evolutionary relationships of placozoans with other animals, especially the sponges (Porifera), remain speculative. For instance, some molecular studies of ribosomal RNA sequences have indicated that the Placozoa may be secondarily simplified descendants of more complex ancestors and are not closely related to the sponges. There is considerable genetic diversity in populations of placozoans from different sites around the world, indicating that the group may contain numerous species.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

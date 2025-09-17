@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - (polypus) $n$. a growth, usually benign, protruding from a mucous membrane. Polyps are commonly found in the nose and sinuses, giving rise to obstruction, chronic infection, and discharge. They are often present in patients with allergic rhinitis, in whom they may develop in response to long-term antigenic stimulation. Other sites of occurrence include the ear, the stomach, and the colon. Colonic polyps in the adult population are commonly seen in patients above the age of 50 and approximately $25 \%$ are multiple. Adenomatous colonic polyps (especially if large) have malignant potential, particularly so in larger polyps. Colonoscopy helps to detect and remove colonic polyps. Juvenile polyps occur in the intestine (usually colon or rectum) of infants or young people; sometimes they are multiple (juvenile polyposis). In the latter form there is a risk of malignant change ( $25 \%$ of cases) but most juvenile polyps are benign (see also POLYPOSIS; Peutz-JegHERS SYndROME). Polyps are usually removed endoscopically (see POLYPECTOMY); polyps that are large, difficult to remove endoscopically, or malignant require surgery.
+## Source[^2]
+- The sedentary stage in the life cycle of the Cnidaria, consisting of a cylindrical body fixed at one end to a firm base and having a mouth surrounded by a ring of tentacles at the other. Some polyps (e.g. Hydra) are single; others (e.g. the corals and Obelia) form colonies. Polyps typically reproduce asexually by budding to form either new polyps or medusae. The latter reproduce sexually giving rise to new polyps. Sea anemones are solitary polyps that reproduce sexually to form new polyps.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
