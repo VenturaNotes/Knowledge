@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A defined spatial distribution of stimuli that influences the activity of a particular neuron. For example, a sensory neuron relaying signals from a touch receptor will respond to stimuli affecting only the limited region of skin served by the receptor; similarly, in the eye, a given ganglion cell transmits signals to the brain exclusively from the photoreceptors to which it connects, within a defined area of the retina. Stimuli within the receptive field may either increase or decrease activity in the neuron, depending on the type of neuron and its location. Recording the activity of, say, a neuron in the striate cortex of the brain reveals how it responds selectively to spots of light or shapes sensed by the retina: stimuli in one part of the receptive field (the 'on' part) will increase the rate of firing of nerve impulses, whereas stimuli received in another part of the field (the 'off' part) will reduce the rate of firing. Auditory neurons in the brain also have their individual receptive fields, corresponding to sounds coming from a particular direction. Direction is determined by the differences (e.g. in timing or intensity) in the same sound arriving at each ear.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

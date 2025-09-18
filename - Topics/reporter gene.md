@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A gene that is used to 'tag' another gene or DNA sequence of interest, such as a promoter. Expression of the reporter is easily monitored and permits the function or whereabouts of the 'target' sequence to be tracked. It helps pinpoint which cells contain the tagged gene, for instance among a population of genetically engineered bacteria, or shows the varying degrees of expression of the tagged gene within different tissues of the body. For example, the $\beta$-galactosidase gene ( $l a c Z$ ) is a common reporter gene whose activity can be detected on indicator plates by causing a color change in a dye. One use of reporter genes is to investigate the function of 'foreign' promoters in transgenic organisms. The promoter is inserted in a vector 'upstream' of the reporter gene, and the vector is allowed to transfect the organism. How well and in what tissues the promoter functions can then be assessed by expression of the reporter. Another striking example, obtained from the jellyfish Aequorea victoria, is the reporter gene that encodes green fluorescent protein (GFP). Tissues in which the gene is expressed emit a green fluorescent light, making them easily identifiable.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

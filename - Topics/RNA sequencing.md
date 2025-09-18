@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (RNA-seq) A technique used to study gene expression by determining the nature and quantity of RNAs in a sample. It exploits the increasing availability of inexpensive next-generation DNA sequencing to produce an accurate and quantitative assay of the RNA transcripts in a given tissue, and is replacing DNA microarray analysis for many applications. There are several variants of the technique, focusing on different aspects of the RNA transcriptome, including messenger RNA (mRNA), ribosomal RNA, and noncoding RNA, but all employ the same essential steps. Firstly the RNAs are isolated from the tissue sample and cut into small, similar-sized fragments. These are then converted to double-stranded complementary DNA (cDNA) molecules using reverse transcriptase and DNA polymerase. The cDNA fragments are sequenced and analysed by computer. This can then be used to match the transcripts with the genome sequence when known or to assemble the short sequences into longer contiguous sequences from scratch (de novo assembly). Compared to microarrays, RNA sequencing provides a more comprehensive and sensitive assay of gene expression and can identify, e.g., alternatively spliced transcripts from the same gene. Moreover, unlike microarrays it does not require a probe based on pre-existing sequence information.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
