@@ -6045,280 +6045,357 @@ Reviewed: false
 		1. See vitamin B complex
 	4200. [[pyrimidine]]
 	
-	4201. pyrrole
-	4202. pyruvic acid
+	4201. [[pyrrole]]
+	4202. [[pyruvic acid]]
 	4203. PYY
-	4204. Q10
+		1. See peptide YY
+	4204. Q_{10}
+		1. See TEMPERATURE SENSITIVITY.
 	4205. QTL
-	4206. quadrat
-	4207. quadrate
-	4208. quadriceps
+		1. See QUANTITATIVE TRAIT LOCUS.
+	4206. [[quadrat]]
+	4207. [[quadrate]]
+	4208. [[quadriceps]]
 	4209. qualitative variation
-	4210. quantitative inheritance
+		1. See DISCONTINUOUS VARIATION.
+	4210. [[quantitative inheritance]]
 	
-	4211. quantitative structure-activity relationship
-	4212. quantitative trait
-	4213. quantitative trait locus
+	4211. [[quantitative structure-activity relationship]]
+	4212. [[quantitative trait]]
+	4213. [[quantitative trait locus]]
 	4214. quantitative variation
-	4215. quantum biology
-	4216. quantum hypothesis((in neurophysiology))
-	4217. quarantine
-	4218. Quaternary
+		1. See CONTINUOUS VARIATION.
+	4215. [[quantum biology]]
+	4216. [[quantum hypothesis]]
+	4217. [[quarantine]]
+	4218. [[Quaternary]]
 	4219. quaternary structure
-	4220. queen substance
+		1. See protein
+	4220. [[queen substance]]
 	
-	4221. quinone
-	4222. quorum sensing
+	4221. [[quinone]]
+	4222. [[quorum sensing]]
 	4223. r.a.m.
-	4224. race
-	4225. raceme
-	4226. racemose inflorescence
-	4227. rachis
+		1. See relative atomic mass
+	4224. [[race]]
+	4225. [[raceme]]
+	4226. [[racemose inflorescence]]
+	4227. [[rachis]]
 	4228. rad
-	4229. radial symmetry
-	4230. radiation
+		1. See radiation units
+	4229. [[radial symmetry]]
+	4230. [[radiation]]
 	
-	4231. radiation damage
-	4232. radiation units
-	4233. radicle
-	4234. radioactive age
+	4231. [[radiation damage]]
+	4232. [[radiation units]]
+	4233. [[radicle]]
+	4234. [[radioactive age]]
 	4235. radioactive tracing
-	4236. radioactive waste
-	4237. radioactivity
-	4238. radiobiology
+		1. See labelling
+	4236. [[radioactive waste]]
+	4237. [[radioactivity]]
+	4238. [[radiobiology]]
 	4239. radiocarbon dating
-	4240. radiography
+		1. See carbon dating
+	4240. [[radiography]]
 	
-	4241. radioimmunoassay
-	4242. radioisotope
+	4241. [[radioimmunoassay]]
+	4242. [[radioisotope]]
 	4243. radiolarian
-	4244. radiology
+		1. See rhizaria
+	4244. [[radiology]]
 	4245. radiometric dating
-	4246. radiopaque
+		1. (radioactive dating) See DATING TECHNIQUES; RADIOACTIVE AGE.
+	4246. [[radiopaque]]
 	4247. radiotherapy
-	4248. radius
-	4249. radula
-	4250. rainforest
+		1. See radiology
+	4248. [[radius]]
+	4249. [[radula]]
+	4250. [[rainforest]]
 	
 	4251. Ramapithecus
-	4252. ramus communicans
-	4253. randomly amplified polymorphic DNA
+		1. See SIVAPITHECUS.
+	4252. [[ramus communicans]]
+	4253. [[randomly amplified polymorphic DNA]]
 	4254. random sampling
-	4255. rank
+		1. See sampling
+	4255. [[rank]]
 	4256. RAPD
-	4257. raphe
+		1. See RANDOMLY AMPLIFIED POLYMORPHIC DNA.
+	4257. [[raphe]]
 	4258. rapid eye movement
-	4259. RAS protein
-	4260. rate-limiting step
+		1. (REM) See sleep
+	4259. [[RAS protein]]
+	4260. [[rate-limiting step]]
 	
-	4261. Ratitae
-	4262. ray
-	4263. reabsorption((in excretion))
+	4261. [[Ratitae]]
+	4262. [[ray]]
+	4263. reabsorption
+		1. (in excretion) See SElecTIVE REABSORPTION.
 	4264. reactant
+		1. See chemical reaction
 	4265. reaction
+		1. See chemical reaction
 	4266. reaction centre
-	4267. reaction norm
-	4268. reaction time
-	4269. reactive oxygen species
-	4270. reading frame
+		1. See photosystems I and II
+	4267. [[reaction norm]]
+	4268. [[reaction time]]
+	4269. [[reactive oxygen species]]
+	4270. [[reading frame]]
 	
-	4271. readthrough
-	4272. recapitulation
+	4271. [[readthrough]]
+	4272. [[recapitulation]]
 	4273. Recent
-	4274. receptacle
-	4275. receptive field
-	4276. receptor
+		1. See holocene
+	4274. [[receptacle]]
+	4275. [[receptive field]]
+	4276. [[receptor]]
 	4277. receptor-mediated endocytosis
+		1. See endocytosis
 	4278. receptor potential
-	4279. recessive
-	4280. recipient
+		1. See graded potential
+	4279. [[recessive]]
+	4280. [[recipient]]
 	
-	4281. reciprocal cross
+	4281. [[reciprocal cross]]
 	4282. recognition sequence
-	4283. recombinant DNA
-	4284. recombination
-	4285. recombinational repair
-	4286. recon
-	4287. reconciliation ecology
-	4288. recruitment
-	4289. rectal gland
-	4290. rectum
+		1. See restriction enzyme
+	4283. [[recombinant DNA]]
+	4284. [[recombination]]
+	4285. [[recombinational repair]]
+	4286. [[recon]]
+	4287. [[reconciliation ecology]]
+	4288. [[recruitment]]
+	4289. [[rectal gland]]
+	4290. [[rectum]]
 	
-	4291. recycling
+	4291. [[recycling]]
 	4292. red algae
+		1. See RHODOPHYTA.
 	4293. red blood cell
-	4294. red fluorescent protein
+		1. See ERYTHROCYTE.
+	4294. [[red fluorescent protein]]
 	4295. redox
-	4296. Red Queen hypothesis
-	4297. red tide
-	4298. reducing sugar
+		1. See oxidation-reduction
+	4296. [[Red Queen hypothesis]]
+	4297. [[red tide]]
+	4298. [[reducing sugar]]
 	4299. reduction
+		1. See oxidation-reduction
 	4300. reduction division
+		1. See meiosis
 	
-	4301. reflex
-	4302. reflex action
+	4301. [[reflex]]
+	4302. [[reflex action]]
 	4303. reflex arc
-	4304. reforestation
-	4305. refractory period
-	4306. regeneration
-	4307. regma
-	4308. regulation((in embryology))
+		1. See reflex
+	4304. [[reforestation]]
+	4305. [[refractory period]]
+	4306. [[regeneration]]
+	4307. [[regma]]
+	4308. [[regulation]]
 	4309. regulator gene
-	4310. regulatory enzyme
+		1. See operon
+	4310. [[regulatory enzyme]]
 	
-	4311. regulatory genes
-	4312. reinforcement((in animal behaviour))
-	4313. Reissner's membrane
+	4311. [[regulatory genes]]
+	4312. [[reinforcement]]
+	4313. [[Reissner's membrane]]
 	4314. relative abundance
-	4315. relative atomic mass
-	4316. relative density
-	4317. relative growth rate
-	4318. relative molecular mass
+		1. See abundance
+	4315. [[relative atomic mass]]
+	4316. [[relative density]]
+	4317. [[relative growth rate]]
+	4318. [[relative molecular mass]]
 	4319. relative refractory period
-	4320. relaxin
+		1. See refractory period
+	4320. [[relaxin]]
 	
-	4321. release-inhibiting hormone
+	4321. [[release-inhibiting hormone]]
 	4322. releaser
-	4323. releasing hormone
-	4324. relict
-	4325. relictual((in systematics))
+		1. See sign stimulus
+	4323. [[releasing hormone]]
+	4324. [[relict]]
+	4325. [[relictual]]
 	4326. rem
+		1. See radiation unit
 	4327. REM sleep
-	4328. renal
+		1. See sleep
+	4328. [[renal]]
 	4329. renal capsule
-	4330. renal tubule
+		1. See bowman's capsule
+	4330. [[renal tubule]]
 	
-	4331. renin
-	4332. rennin
-	4333. repetitive DNA
+	4331. [[renin]]
+	4332. [[rennin]]
+	4333. [[repetitive DNA]]
 	4334. replacing bone
+		1. See cartilage bone
 	4335. replication
-	4336. reporter gene
-	4337. repressor
-	4338. reproduction
-	4339. reproduction rate
-	4340. reproductive system
+		1. See DNA replication
+	4336. [[reporter gene]]
+	4337. [[repressor]]
+	4338. [[reproduction]]
+	4339. [[reproduction rate]]
+	4340. [[reproductive system]]
 	
-	4341. Reptilia
-	4342. rescue effect
-	4343. residual volume
-	4344. resin
-	4345. resistance
+	4341. [[Reptilia]]
+	4342. [[rescue effect]]
+	4343. [[residual volume]]
+	4344. [[resin]]
+	4345. [[resistance]]
 	4346. resistance protein
-	4347. resolving power
-	4348. respiration
+		1. See R protein
+	4347. [[resolving power]]
+	4348. [[respiration]]
 	4349. respiratory burst
+		1. See oxidative burst
 	4350. respiratory chain
+		1. See electron transport chain
 	
-	4351. respiratory movement
-	4352. respiratory organ
-	4353. respiratory pigment
-	4354. respiratory quotient
-	4355. response
-	4356. resting potential
-	4357. restriction enzyme
-	4358. restriction fragment length polymorphism
-	4359. restriction mapping
+	4351. [[respiratory movement]]
+	4352. [[respiratory organ]]
+	4353. [[respiratory pigment]]
+	4354. [[respiratory quotient]]
+	4355. [[response]]
+	4356. [[resting potential]]
+	4357. [[restriction enzyme]]
+	4358. [[restriction fragment length polymorphism]]
+	4359. [[restriction mapping]]
 	4360. restriction point
+		1. See cell cycle
 	
-	4361. See cell cycle
+	4361. 
 	4362. 
 	4363. 
 	4364. 
 	4365. 
 	4366. 
 	4367. 
-	4368. reticulate
+	4368. [[reticulate]]
 	4369. reticuloendothelial system
-	4370. reticulum
+		1. See MONONUCLEAR PHAGOCYTE SYSTEM.
+	4370. [[reticulum]]
 	
-	4371. retina
+	4371. [[retina]]
 	4372. retinal
+		1. (retinene) See rhodopsin; vitamin A.
 	4373. retinol
-	4374. retrotransposon
-	4375. retrovirus
-	4376. reverse genetics
-	4377. reverse transcriptase
-	4378. reversion((in genetics))
-	4379. rewilding
+		1. See vitamin A.
+	4374. [[retrotransposon]]
+	4375. [[retrovirus]]
+	4376. [[reverse genetics]]
+	4377. [[reverse transcriptase]]
+	4378. [[reversion]]
+	4379. [[rewilding]]
 	4380. RF
+		1. See release factor
 	
 	4381. RFLP
+		1. See RESTRICTION FRAGMENT LENGTH POLYMORPHISM.
 	4382. RFP
-	4383. RF value((in chromatography))
+		1. See RED FLUORESCENT PROTEIN.
+	4383. [[R_F value]]
 	4384. Rh
+		1. See rhesus factor
 	4385. rhabdom
+		1. See compound eye
 	4386. rhachis
-	4387. rhesus factor
-	4388. rhizarians
-	4389. rhizoid
-	4390. Rhizopoda
+		1. See rachis
+	4387. [[rhesus factor]]
+	4388. [[rhizarians]]
+	4389. [[rhizoid]]
+	4390. [[Rhizopoda]]
 	
-	4391. rhizosphere
-	4392. Rhodophyta
-	4393. rhodopsin
+	4391. [[rhizosphere]]
+	4392. [[Rhodophyta]]
+	4393. [[rhodopsin]]
 	4394. rhombencephalon
+		1. See hindbrain
 	4395. Rhombozoa
+		1. See dicyemida
 	4396. rhynchocoel
-	4397. rhyniophytes
+		1. See nemertea
+	4397. [[rhyniophytes]]
 	4398. rhytidome
-	4399. rib
+		1. See bark
+	4399. [[rib]]
 	4400. ribbon worm
+		1. See nemertea
 	
 	4401. riboflavin
+		1. See vitamin B complex
 	4402. ribonuclease
+		1. See RNase
 	4403. ribonucleic acid
-	4404. ribonucleoprotein
-	4405. ribose
+		1. See RNA
+	4404. [[ribonucleoprotein]]
+	4405. [[ribose]]
 	4406. ribosomal RNA
-	4407. ribosome
-	4408. riboswitch
-	4409. ribozyme
-	4410. ribulose
+		1. See ribosome; RNA
+	4407. [[ribosome]]
+	4408. [[riboswitch]]
+	4409. [[ribozyme]]
+	4410. [[ribulose]]
 	
-	4411. ribulose bisphosphate
-	4412. rickets
-	4413. rickettsia
-	4414. rigor mortis
+	4411. [[ribulose bisphosphate]]
+	4412. [[rickets]]
+	4413. [[rickettsia]]
+	4414. [[rigor mortis]]
 	4415. RIH
+		1. See RELEASE-INHIBITING HORMONE.
 	4416. Ringer's solution
-	4417. ring species
+		1. See PHYSIOLOGICAL SALINE.
+	4417. [[ring species]]
 	4418. RISC
-	4419. ritualization
-	4420. river continuum concept
+		1. (RNA-induced silencing complex) See MICRORNA; RNA INTERFERENCE.
+	4419. [[ritualization]]
+	4420. [[river continuum concept]]
 	
 	4421. RMR
-	4422. RNA
+		1. See root mass ratio
+	4422. [[RNA]]
 	4423. RNAase
-	4424. RNA interference
-	4425. RNA interference
+		1. See RNase
+	4424. [[RNA interference]]
+	4425. 
 	4426. RNA polymerase
-	4427. RNA processing
-	4428. RNase
-	4429. RNA sequencing
+		1. See polymerase.
+	4427. [[RNA processing]]
+	4428. [[RNase]]
+	4429. [[RNA sequencing]]
 	4430. RNA splicing
+		1. See RIBOZYME; RNA PROCESSING.
 	
 	4431. RNP
-	4432. rod
-	4433. Rodentia
-	4434. roentgen
-	4435. root
-	4436. root cap
+		1. See RIBONUCLEOPROTEIN
+	4432. [[rod]]
+	4433. [[Rodentia]]
+	4434. [[roentgen]]
+	4435. [[root]]
+	4436. [[root cap]]
 	4437. root hair
-	4438. root mass ratio
-	4439. root nodule
-	4440. root pressure
+		1. See root
+	4438. [[root mass ratio]]
+	4439. [[root nodule]]
+	4440. [[root pressure]]
 	
 	4441. rootstock
+		1. See rhizome
 	4442. ROS
-	4443. Rotifera
+		1. See reactive oxygen species
+	4443. [[Rotifera]]
 	4444. roughage
+		1. See (dietary) fibre
 	4445. rough endoplasmic reticulum
+		1. (rough ER) See endoplasmic reticulum
 	4446. Roundup
-	4447. round window
+		1. See glyphosate
+	4447. [[round window]]
 	4448. roundworms
-	4449. royal jelly
-	4450. R protein
+		1. See nematoda
+	4449. [[royal jelly]]
+	4450. [[R protein]]
 	
 	4451. RQ
 	4452. rRNA

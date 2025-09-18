@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A small G protein that functions in cells as a molecular switch in signal transduction pathways regulating cell growth and other activities. In its active state it binds the nucleotide guanosine triphosphate (GTP), but because RAS has intrinsic GTPase activity, the GTP is rapidly converted to GDP, thereby returning RAS to its inactive state. Activation of RAS is mediated by a guanine-nucleotide exchange factor (GEF). When a surface receptor is activated, GEF transiently displaces GDP from RAS, enabling it to bind GTP. RAS exerts its effects by activating a cascade of sequentially activating protein kinases, including MAP kinase, which ultimately regulates gene expression. RAS is encoded by the proto-oncogene RAS in humans, which is homologous to the rodent oncogene ras (named after rat sarcoma, and also found in a retrovirus). A gene mutation involving a single base change $(\mathrm{G} \rightarrow \mathrm{T})$ is sufficient to transform the normal protein into an oncoprotein, which lacks the intrinsic GTPase activity and is permanently activated. It is associated with many human tumours.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

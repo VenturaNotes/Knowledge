@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (RNP) Any complex, or conjugate, of protein and RNA. Ribonucleoproteins take part in many key cellular activities, notably transcription of DNA into RNA, processing of the RNA transcript, and translation of the mature RNA during protein synthesis. Ribosomes, responsible for transcription, are prime examples of RNPs. Certain RNPs are restricted to the nucleus whereas others are found in both the nucleus and the cytoplasm. The most common RNP occurring in the nucleus is heterogeneous nuclear RNP (hnRNP), which consists of protein bound to the primary transcript of DNA (see TRANSCRIPTION). It may be associated with small nuclear RNP (snRNP), which is involved in the removal of intron sequences from the primary transcript to form messenger RNA, which eventually leaves the nucleus (see RNA processing). A third type, small cytoplasmic RNP (scRNP), is found in the cytoplasm; examples include signal recognition particles$\textemdash$complexes of a single RNA and several proteins that help newly synthesized polypeptides to enter the endoplasmic reticulum (see SIGNAL HYPOTHESIS). See also HETEROGENEOUS NUCLEAR RNA.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

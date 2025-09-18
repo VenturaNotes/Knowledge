@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- (post-transcriptional modification) The modification of newly formed RNA transcripts to produce functional messenger RNA (mRNA) molecules. It occurs in the nucleus of eukaryotic cells and involves removal of the noncoding stretches (introns) from the primary transcript and splicing together of the discontinuous coding sequences (exons) (i.e. gene splicing). The primary transcript, or pre-messenger RNA (pre-mRNA), associates with other small RNA molecules and proteins (see heterogeneous nuclear RNA), and the leading ($5^{\prime}$) end is capped with a special nucleotide (7-methylguanosine), the $5^{\prime}$ cap. When transcription is terminated, a portion of the tail ($3^{\prime}$) end of the transcript is removed and replaced by a stretch of 100-250 adenine-containing nucleotides, forming the poly(A) tail. Splicing of pre-mRNA is performed by a complex particle called a spliceosome, which is about the size of a ribosome and comprises small RNA molecules and proteins. It binds sequentially to sites adjoining each intron and bends the intron into a loop structure (lariat). The lariat is cut out, and the cut ends of the pre-mRNA molecule are joined together. The mechanism known as alternative splicing produces variant proteins from the same gene by excluding certain exons from the mature mRNA, depending on the type of tissue or the developmental stage of the cell. In some organisms, the RNA molecules themselves catalyse splicing of the introns (see RIBOZYME). The fully processed mRNA molecule remains associated with RNAs and proteins while it is exported from the nucleus to the ribosomes for translation in the cytoplasm.
+- http://www.dnaftb.org/24/
+	- Animated account of RNA processing: part of the website DNA from the Beginning
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

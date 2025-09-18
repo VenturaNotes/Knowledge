@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A form of DNA repair that fills large gaps in a new DNA strand resulting from damage due to, e.g., UV irradiation. In E. coli, in which this repair process is best understood, thymine dimers in a damaged template strand cause the DNA polymerase to skip several hundred bases, leaving a large gap in the newly synthesized daughter strand and the template strand unpaired in this region. The repair is performed primarily by the action of an enzyme, the RecA protein (encoded by the recA locus), which fills in the gap by appropriating a complementary segment of DNA from the other, undamaged, newly synthesized duplex (double-stranded) DNA. The enzyme coats the unpaired template strand region and insinuates it into the other DNA duplex. Here it pairs with the complementary region of its original sister strand (the other template strand), displacing the newly formed strand. The two ends of this paired region are nicked by an endonuclease enzyme, hence freeing the original damaged region with its complementary 'filler' strand. The strand from which the 'filler' has been taken is then itself filled in by DNA polymerase I. Although the thymine dimer remains in the original damaged strand, it can be excised at a later stage. Most importantly, the integrity of the DNA is maintained. Many of the enzymes and processes of postreplicative repair are also involved in recombination. See also POSTREPLICATIVE REPAIR.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -15,6 +15,9 @@
 			- head of femur
 			- vastus intermedius
 			- cut end of rectus femoris
+## Source[^2]
+- A group of extensor muscles that cover the anterior surface and sides of the mammalian femur. These muscles join at the base and are connected to the tibia by a single tendon. Muscle spindles in the quadriceps are responsible for the knee-jerk reflex (see STRETCH REFLEX).
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
