@@ -957,7 +957,7 @@ Reviewed: false
 	935. cellulose ethanoate
 	936. cellulose nitrate
 	937. Celsius scale
-	938. cement
+	938. [[cement]]
 	939. cementation
 	940. cementite
 	941. centi-
@@ -1143,7 +1143,7 @@ Reviewed: false
 	1121. cluster aromaticity
 	1122. cluster compound
 	1123. CML
-	1124. coacervate
+	1124. [[coacervate]]
 	1125. coagulation
 	1126. coal
 	1127. coal gas
@@ -1158,7 +1158,7 @@ Reviewed: false
 	1136. cocurrent flow
 	1137. codeine
 	1138. codon
-	1139. coenzyme
+	1139. [[coenzyme]]
 	1140. coenzyme A
 	1141. coenzyme Q
 	1142. COF

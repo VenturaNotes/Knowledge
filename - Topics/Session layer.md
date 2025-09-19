@@ -3,9 +3,9 @@ aliases:
   - layer 5
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Manages sessions and connections between applications
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

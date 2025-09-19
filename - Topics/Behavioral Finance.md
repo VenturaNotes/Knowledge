@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Studies how psychological factors influence financial decisions, challenging the assumption of rational markets.
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]:

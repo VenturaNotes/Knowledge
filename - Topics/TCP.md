@@ -7,7 +7,6 @@ aliases:
 
 ## Source[^1]
 - Defined by RFCs
-
 ## Source[^2]
 - A core protocol in the [[TCP-IP suite]]
 - Requires a three-way handshake to establish a connection

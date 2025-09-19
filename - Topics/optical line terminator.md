@@ -4,9 +4,9 @@ aliases:
   - optical line terminal
 ---
 ## Synthesis
-- 
-## Source[^1]
 - aka optical line terminal
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

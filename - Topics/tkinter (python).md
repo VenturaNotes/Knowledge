@@ -3,9 +3,9 @@ aliases:
   - tkinter
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Provides a standard [[Graphical user interfaces|GUI]] toolkit
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

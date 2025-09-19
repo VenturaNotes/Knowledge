@@ -3,9 +3,9 @@ aliases:
   - NIDS
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Monitors network traffic for suspicious activity
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

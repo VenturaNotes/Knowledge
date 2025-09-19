@@ -1,8 +1,8 @@
 ## Synthesis
-- 
+- A square grid used to represent a graph, where each row and column corresponds to a vertex
+	- #question What happens at the intersections of these rows and columns?
 ## Source [^1]
 - A two-dimensional array used to store graph data.
-
 ## Source[^2]
 - (connectivity matrix, reachability matrix) A matrix used as a means of representing an adjacency structure, which in turn represents a graph. If $A$ is the adjacency matrix corresponding to a given graph $G$, then
 

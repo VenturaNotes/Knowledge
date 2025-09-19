@@ -3,9 +3,9 @@ aliases:
   - production cost
 ---
 ## Synthesis
-- 
-## Source [^1]
 - The total expenses incurred in manufacturing goods or providing services
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

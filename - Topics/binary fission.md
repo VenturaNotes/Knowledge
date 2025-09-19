@@ -1,8 +1,7 @@
 
 ## Synthesis
-- 
-## Source[^1]
 - Occurs in prokaryotic cells such as [[bacteria]]
-
+## Source[^1]
+- 
 ## References
-[^1]: ChatGPT
+[^1]: 

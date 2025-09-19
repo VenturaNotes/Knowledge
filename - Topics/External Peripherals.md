@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source[^1]
 ### Definition
 - Devices/Components connected to computer system from outside (through ports or cables)
 ### Functionality
@@ -16,6 +14,8 @@
 - External Optical Drives
 - Scanners
 - Game Controllers
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]:

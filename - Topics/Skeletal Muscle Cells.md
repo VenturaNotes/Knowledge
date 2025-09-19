@@ -2,10 +2,9 @@
 aliases: myocyte
 ---
 ## Synthesis
-- 
-## Source[^1]
 - Specialized cells found in [[Skeletal Muscle Tissue|skeletal muscle tissue]]
-
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

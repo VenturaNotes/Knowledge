@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Studies how subvarieties intersect within a variety.
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

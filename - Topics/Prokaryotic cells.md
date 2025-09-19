@@ -1,6 +1,6 @@
 ## Synthesis
-- 
-## Source [^1]
 - Undergoes a simpler form of cell division called [[binary fission]]
+## Source [^1]
+- 
 ## References
-[^1]: ChatGPT
+[^1]: 

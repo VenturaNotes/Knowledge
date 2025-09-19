@@ -4,9 +4,9 @@ aliases:
   - attributes
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Data associated with an object
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

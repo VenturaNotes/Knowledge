@@ -3,8 +3,6 @@ aliases:
   - QA
 ---
 ## Synthesis
-- 
-## Source [^1]
 - A QA professional is responsible for testing software and ensuring quality standards.
 	- #question I need some examples of quality standards
 - They can obtain the title through experience in software testing, certifications (e.g., ISTQB, CSTE), or degrees in computer science or related fields.
@@ -20,6 +18,8 @@ aliases:
 		- #question How do they do bug tracking?
 	- sometimes programming
 		- #question How can they be a QA professional without knowing programming?
+## Source [^1]
+- 
 ## References
 
-[^1] ChatGPT
+[^1]: 

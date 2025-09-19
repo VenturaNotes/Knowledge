@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
 - Immutable means unchangeable after creation
 	- Immutable:
 		- `int`
@@ -10,6 +8,8 @@
 		- `list`
 		- `dict`
 		- `set`
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

@@ -3,8 +3,6 @@ aliases:
   - input()
 ---
 ## Synthesis
-- 
-## Source [^1]
 ### Example
 ```python
 name = input("Enter your name: ")
@@ -16,6 +14,8 @@ Enter your name: Julian
 Hello, Julian
 """
 ```
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

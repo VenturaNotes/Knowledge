@@ -3,9 +3,9 @@ aliases:
   - os
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Used for operating system-related tasks
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

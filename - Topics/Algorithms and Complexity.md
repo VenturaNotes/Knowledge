@@ -1,6 +1,6 @@
 ## Synthesis
-- 
-## Source[^1]
 - [[Case Behaviors of an Algorithm]]
+## Source[^1]
+- 
 ## References
-[^1]: ChatGPT
+[^1]:

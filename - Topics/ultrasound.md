@@ -10,21 +10,21 @@ aliases:
 ## Source[^2]
 - Ultrasound is a noninvasive imaging test that shows structure inside your body using high-intensity sound waves. 
 - Healthcare providers use ultrasound exams for several purposes, including during pregnancy, for diagnosing conditions and for image guidance during certain procedures
-	- Examples of Procedures[^3]
-		- [[Biopsy|Biopsies]] (e.g., liver, thyroid, breast)
-			- Guides needle placement
-		- Fluid Drainage (e.g., from the lungs or abdomen)
-			- For procedures like [[thoracentesis]] and [[paracentesis]]
-		- Central Line Placement
-		- Joint Injections and Aspirations
-		- Kidney Stone Treatment
-		- Regional Anesthesia
+	- #comment
+		- Examples of Procedures
+			- [[Biopsy|Biopsies]] (e.g., liver, thyroid, breast)
+				- Guides needle placement
+			- Fluid Drainage (e.g., from the lungs or abdomen)
+				- For procedures like [[thoracentesis]] and [[paracentesis]]
+			- Central Line Placement
+			- Joint Injections and Aspirations
+			- Kidney Stone Treatment
+			- Regional Anesthesia
 - Ultrasound is also called sonography or ultrasonography
-## Source[^4]
+## Source[^3]
 - (ultrasonic waves) $n$. sound waves of high frequency (above 20 kHz ), inaudible to the human ear. Ultrasound in the range $2-20 \mathrm{MHz}$ can be used to produce images of the interior of the human body as the waves reflect off structures back to the probe (see ULTRASONOGRAPHY). Ultrasound waves have the advantage over X-rays of not being ionizing and are therefore much less harmful, particularly at energy levels used for diagnosis. The vibratory effect of ultrasound can also be used to break up stones in the body (see LITHOTRIPSY) and in the treatment of rheumatic conditions and cataract (see PHACOEMULSIFICATION). Ultrasonic instruments are used in dentistry to remove calculus from the surfaces of teeth and to remove debris from the root canals of teeth in root canal treatment. High-intensity focused ultrasound (see HIFU) can be used to destroy tissue, such as tumors. Keepsake ultrasound is the provision of ultrasound images of a fetus to the parents for nonmedical purposes; it is said by its proponents to help with bonding and to strengthen relationships in the family. See also ENDOSCOPIC ULTRASOUND.
 ## References
 
 [^1]: https://teslascans.com/sonography-difference-between-sonography-and-ultrasound/#:~:text=The%20image%20generated%20by%20the%20ultrasound%20is%20called%20a%20sonogram.&text=In%20simple%20terms%2C%20sonography%20is,ultrasonography%20means%20extreme%20sound%20writing.
 [^2]: https://my.clevelandclinic.org/health/diagnostics/4995-ultrasound
-[^3]: ChatGPT
-[^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
