@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Provide a way to track local algebraic data across a space.
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Highlights the role of economies of scale and network effects in international trade.
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

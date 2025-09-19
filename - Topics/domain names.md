@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source[^1]
 - Represents unique addresses, such as example.com
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

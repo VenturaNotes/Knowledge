@@ -3,8 +3,6 @@ aliases:
   - sorting algorithms
 ---
 ## Synthesis
-- 
-## Source [^1]
 ### Description
 - Sorting algorithms arrange elements in a specific order (e.g., ascending or descending)
 ### Types of Sorting
@@ -25,6 +23,8 @@ aliases:
 - Parallel and Distributed Sorting
 	- [[Parallel Merge Sort]]
 	- [[MapReduce Sorting]]
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

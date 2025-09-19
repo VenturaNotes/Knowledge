@@ -3,10 +3,10 @@ aliases:
   - streams
 ---
 ## Synthesis
-- 
-## Source[^1]
 - High-level primitives used for asynchronous Input/Output operations, especially in [[network programming]]
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 
  

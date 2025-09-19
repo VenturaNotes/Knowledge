@@ -3,10 +3,10 @@ aliases:
   - greedy algorithm
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Greedy algorithms make the best choice at each step to find an overall optimal solution
 	- #question What does a greedy algorithm look like?
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

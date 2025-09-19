@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source[^1]
 - any attempt by hackers to damage, disrupt, or gain unauthorized access to computer systems, networks, or data.
 ### Examples of Cyberattacks
 - [[Phishing]]
@@ -14,6 +12,8 @@
 - [[Zero-Day Exploits]]
 - [[Advanced Persistent Threat|Advanced Persistent Threats]]
 - [[Insider Threats]]
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

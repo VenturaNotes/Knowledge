@@ -3,9 +3,9 @@ aliases:
   - matplotlib
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Creates static, interactive, and animated visualizations in Python
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

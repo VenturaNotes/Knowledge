@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Addresses identify devices on a network
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

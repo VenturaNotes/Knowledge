@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - A complete [[executable file]] that can be run independently
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

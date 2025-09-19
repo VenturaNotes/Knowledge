@@ -3,9 +3,9 @@ aliases:
   - TCP/IP model
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Simplifies OSI into four layers
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

@@ -3,8 +3,6 @@ aliases:
   - network services
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Examples of network services
 	- [[Web service]] ([[HTTP]]/[[HTTPS]])
 	- [[Email service]] ([[SMTP]], [[IMAP]], [[POP3]])
@@ -14,6 +12,8 @@ aliases:
 - Designed through protocols that define how data is transmitted, processed, and interpreted. 
 	- Example: HTTP governs web communication
 	- #question Doesn't exactly explain how protocols are developed
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

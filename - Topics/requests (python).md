@@ -3,9 +3,9 @@ aliases:
   - requests
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Provides easy-to-use functions for HTTP requests
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

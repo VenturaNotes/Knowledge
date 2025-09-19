@@ -3,9 +3,9 @@ aliases:
   - HIDS
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Runs on individual devices to detect unauthorized changes or malicious activity
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

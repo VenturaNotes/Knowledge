@@ -5,9 +5,9 @@ aliases:
   - DSLAMs
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Used ATM for [[broadband]]
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

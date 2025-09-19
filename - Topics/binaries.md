@@ -8,4 +8,4 @@ aliases:
 - 
 ## References
 
-[^1]: ChatGPT
+[^1]: 
