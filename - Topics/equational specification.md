@@ -150,4 +150,4 @@ of the initial algebra $T\left(\Sigma_{0}, E_{0}\right)$ with respect to $\Sigma
 See also COMPUTABLE ALGEBRA.
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

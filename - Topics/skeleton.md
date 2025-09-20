@@ -31,6 +31,11 @@
 		- ribs
 		- clavicle
 		- mandible
+## Source[^2]
+- The structure in an animal that provides mechanical support for the body, protection for internal organs, and a framework for anchoring the muscles. The skeleton may be external (see EXOSKELETON) or internal (see ENDOSKELETON). Both types require joints to allow locomotion. The skeleton of higher vertebrates consists of a system of bones (see APPENDICULAR SKELETON; AXIAL SKELETON). Soft-bodied animals have a hydrostatic skeleton.
+- http://www.eskeletons.org/
+	- The e-Skeletons Project site explores the comparative skeletal anatomy of humans and other primates
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

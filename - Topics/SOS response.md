@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A suite of metabolic mechanisms that are invoked in a bacterial cell in response to damage by ultraviolet light, certain chemicals, or other mutagens. Such agents interfere with DNA replication, causing large gaps in newly synthesized DNA strands. Hence the main functions of the SOS response are to fill these gaps and maintain the integrity of the cell's DNA and to suspend cell division$\textemdash$and hence further rounds of DNA replication$\textemdash$until repairs have been made. In E. coli the key to this response is the RecA protein. This is involved in postreplicative repair, which is one of the SOS repair mechanisms. Moreover, activation of RecA by DNA damage causes it to cleave another protein, LexA, which is a repressor for several DNA repair genes. Inactivation of LexA causes these genes to become activated, and their products are instrumental in filling gaps in damaged DNA. However, some of the SOS repair mechanisms are error-prone, introducing mutations in the nucleotide sequences, and it is these repair mechanisms that are the direct cause of mutations in such circumstances. In cells infected with lambda prophage, activation of RecA protein causes derepression of the prophage genes, leading to vegetative growth of the phage and ultimately host cell lysis. Hence the phage has evolved a means of detecting the SOS response, and is able to 'escape' from a damaged host.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

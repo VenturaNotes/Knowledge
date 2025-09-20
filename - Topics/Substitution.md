@@ -40,9 +40,12 @@ $s(L)$ is called the substitution image of $L$ under s. 2. See Substitution CIPH
 - (1) (in psychoanalysis) the replacement of one idea by another: a form of defence mechanism. 
 - (2) (symptom substitution) (in psychology) the supposed process whereby removing one psychological symptom leads to another symptom appearing if the basic psychological cause has not been removed. It is controversial whether this happens. 
 - (3) the replacement of one addictive and dangerous drug with another that is better controlled and easier to manage, with the aim of harm reduction.
+## Source[^5]
+- (in genetics) A point mutation in which one base pair in the DNA sequence is replaced by another. In transition mutations a pyrimidine base (i.e. thymine or cytosine) is replaced by another pyrimidine base or a purine base (adenine or guanine) is replaced by another purine base; whereas in transversion mutations a pyrimidine base is replaced by a purine base, or vice versa. A substitution thus alters the base sequence of the genetic code; however, the effect on the gene product depends on the nature of the change. A synonymous substitution changes the codon to another that codes for the same amino acid, whereas a nonsynonymous substitution creates a codon for a different amino acid, which may or may not affect the functioning of the protein. Sickle-cell anaemia is an example of a substitution mutation in which thymine is replaced by adenine in the triplet coding for the sixth amino acid in the $\beta$-chain of haemoglobin.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - A solution set of polynomial equations in affine space ($\mathbb{A}^n$)
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

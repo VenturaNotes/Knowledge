@@ -12,6 +12,11 @@
 		- isthmus
 		- right lobe of thyroid gland
 		- trachea
+## Source[^2]
+- A bilobed endocrine gland in vertebrates, situated in the base of the neck. It secretes two iodine-containing thyroid hormones, thyroxine ($\mathbf{T}_{4}$; see formula) and triiodothyronine $\left(\mathbf{T}_{3}\right)$, which are formed in the gland from thyroglobulin. They control the rate of many metabolic processes in the body, including energy metabolism, blood pressure, heart rate, muscle tone, and digestive function; they also influence physical development and activity of the nervous system. Growth and activity of the thyroid are controlled by thyroidstimulating hormone, secreted by the anterior pituitary gland. Adequate amounts of dietary iodine are required for the body to synthesize sufficient $\mathrm{T}_{3}$ and $\mathrm{T}_{4}$, and iodine deficiency causes enlargement of the thyroid (i.e. 'goitre'). The thyroid gland also contains $\mathbf{C}$ cells, which secrete calcitonin.
+- https://www.medicinenet.com/thyroid_disorders/article.htm
+	- Overview of thyroid disease and function from MedicineNet
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

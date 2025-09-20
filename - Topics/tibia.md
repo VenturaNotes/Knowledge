@@ -15,6 +15,11 @@
 		- tibial tuberosity
 		- tibial shaft
 		- medial malleolus
+## Source[^2]
+- (pl. tibiae) 
+- (1) The larger of the two bones of the lower hindlimb of terrestrial vertebrates (compare fibula). It articulates with the femur at the knee and with the tarsus at the ankle. The tibia is the major load-bearing bone of the lower leg. 
+- (2) The fourth segment of an insect's leg, which is attached to the femur.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

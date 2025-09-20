@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The means by which individuals with certain characteristics have a greater likelihood of obtaining mates compared with others of their kind. In intersexual selection, or mate choice, members of one sex select members of the opposite sex with which to mate. For example, females often choose to mate with the male that gives the best courtship display and therefore has the brightest coloration, loudest mating call, etc. In intrasexual selection members of one sex compete among themselves for access to mates. This might entail aggressive displays or encounters between competing males to establish dominance and defence of territory or a group of females. Intersexual selection is assumed to have given rise to certain secondary sexual characteristics, particularly of male animals, resulting in sexual dimorphism. A theory of sexual selection was first advanced by Charles Darwin to explain the evolution of apparently nonadaptive features, exemplified by the extravagant tail of the peacock. These features would be inherited by its male offspring and would thus tend to become exaggerated down the generations. It is speculated that secondary sexual features, such as long tail feathers, indicate to the female that the male is vigorous and healthy and thus has good genes to transmit to her offspring.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

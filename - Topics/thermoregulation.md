@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- Regulation of body temperature by any means, whether physiological or behavioral. Some animals, particularly mammals and birds, can maintain a fairly constant internal body temperature (see HOMOIOTHERMY), whereas in others the body temperature varies with the temperature of the environment (see POIKILOTHERMY). In mammals body temperature is regulated by the hypothalamus in the brain, in conjunction with the autonomic nervous system. The hypothalamus contains temperature sensors and also receives input from thermoreceptors in the skin and viscera, besides other information about the body (e.g. its state of wakefulness and activity). Temperature is controlled by homeostatic mechanisms that maintain it at a set point. When cooling is detected, the hypothalamus triggers responses such as constriction of blood vessels in the skin to conserve body heat and shivering to generate additional heat. When the body is too warm, the skin blood vessels are dilated and the ventilation rate may increase (i.e. panting). Seasonal responses, such as changes in thickness of body hair between summer and winter, also contribute to thermoregulation (see acClimation). See also heterothERM; THERMOGENESIS.
 ## References
 
-[^1]:
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

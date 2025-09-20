@@ -1,5 +1,7 @@
 ## Synthesis
-- 
+- In python, a function is a block of code that performs a task and is defined using `def`, but when it's defined inside a class and takes `self` as the first parameter, it becomes a `method`
+	- #question Is this true? I just thought all blocks that perform a task are called methods in Python? So functions are all methods not in a class without `self`?
+	- #question Do all classes need the `self` handle in the first parameter? 
 ## Source [^1]
 - 1. from one set $X$ to another set $Y$. A relation $R$ defined on the Cartesian product $x \times y$ in which for each element $x$ in $X$ there is precisely one element $y$ in $Y$ with the property that $(x, y)$ is a member of $R$. It is then customary to talk about a function $f$, say, and to write
 
@@ -38,15 +40,9 @@ Functions are often represented pictorially as graphs.
   
 
 See also BIJECTION, HOMOMORPHISM, INJECTION, OPERATION, SURJECTION. 2. A program unit that given values for input parameters computes a value. Examples include the standard functions such as $\sin (x), \cos (x), \exp (x)$; in addition most languages permit user-defined functions. A function is a 'black box' that can be used without any knowledge or understanding of the detail of its internal working. In some languages a function may have side effects.
-
 ## Source[^2]
-- In python, a function is a block of code that performs a task and is defined using `def`, but when it's defined inside a class and takes `self` as the first parameter, it becomes a `method`
-	- #question Is this true? I just thought all blocks that perform a task are called methods in Python? So functions are all methods not in a class without `self`?
-	- #question Do all classes need the `self` handle in the first parameter? 
-## Source[^3]
 - A section or department of an organization that carries out a discrete activity, under the control of a manager or director. It is the section of the business for which functional budgets are produced. Examples of separate functions are production, sales, finance, and personnel.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: ChatGPT
-[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

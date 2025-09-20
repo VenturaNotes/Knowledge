@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (pl. sensilla) Any of various hairlike or peglike sense organs found in insects and other arthropods, comprising a cluster of basal receptor cells whose dendrites extend inside a sheath and hairshaft. They respond to a wide range of chemical and mechanical stimuli, acting as chemoreceptors of both 'smell' and 'taste', touch receptors, mechanoreceptors to detect movement at joints in the skeleton, and auditory organs. They may protrude from the surface, for example as setae, or they may be embedded in the cuticle. All the constituent cells of any one sensillum are derived from a single mother cell; they may include receptor cells responsive to several different classes of stimuli. The antennae, in particular, bear large numbers of olfactory sensilla. Chemicals enter the hairshaft via one or numerous pores and elicit nerve impulses in the dendrites. For example, males of the silkworm moth (Bombyx mori) have in each antenna about 17,000 sensilla that respond to the female sex pheromone; each sensillum has some 3,000 pores, giving sensitivity to just a few molecules of this vital odour.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

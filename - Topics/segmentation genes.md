@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Any of three classes of genes that determine the pattern of development of the early insect embryo. They have been extensively studied in the fruit fly Drosophila and are key to determining the number and polarity of the body segments in the adult fly. They are expressed in a sequential cascade normally commencing about 3 hours after fertilization. First to be 'switched on' are the gap genes, so named because mutations of these genes result in missing portions, or gaps, in the body plan of the larva. They are differentially expressed along the antero-posterior axis of the embryo according to the gradient of mRNAs derived from maternal effect genes in the mother's ovary and define broad longitudinal zones in the embryo. The gap genes in turn regulate expression of pair-rule genes, which refine these zones into units corresponding to two body segments each. Mutation in these results in the loss of alternate segments. Finally, the segment polarity genes define the boundaries and polarity of each body segment of the embryo; mutations in these cause the loss of part of the affected segment(s) and its replacement with its mirror image$\textemdash$e.g. two anterior half segments orientated back to back. Following completion of the segmentation sequence, subsequent cell fate and organ development within each segment is regulated by the expression of Hox genes (see HOMEOTIC GENES).
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -6398,299 +6398,375 @@ Reviewed: false
 	4450. [[R protein]]
 	
 	4451. RQ
+		1. See respiratory quotient
 	4452. rRNA
-	4453. rselection
+		1. See RNA
+	4453. [[r selection]]
 	4454. RT-PCR
-	4455. rubidium-strontium dating
-	4456. rubisco
+		1. See POLYMERASE CHAIN REACTION.
+	4455. [[rubidium-strontium dating]]
+	4456. [[rubisco]]
 	4457. RuBP
-	4458. ruderal
-	4459. Ruffini's capsule
-	4460. rumen
+		1. See ribulose bisphosphate 
+	4458. [[ruderal]]
+	4459. [[Ruffini's capsule]]
+	4460. [[rumen]]
 	
-	4461. Ruminantia
-	4462. runner
-	4463. rusts
+	4461. [[Ruminantia]]
+	4462. [[runner]]
+	4463. [[rusts]]
 	4464. saccharide
-	4465. Saccharomyces
+		1. See sugar
+	4465. [[Saccharomyces]]
 	4466. saccharose
-	4467. sacculus
-	4468. sacral vertebrae
-	4469. safranin
-	4470. sagittal
+		1. See sucrose
+	4467. [[sacculus]]
+	4468. [[sacral vertebrae]]
+	4469. [[safranin]]
+	4470. [[sagittal]]
 	
-	4471. salicylic acid
-	4472. saline
-	4473. saliva
-	4474. salivary glands
-	4475. Salmonella
-	4476. salt
-	4477. salt gland
-	4478. samara
-	4479. sampling
-	4480. Sanger, Frederick (1918-2013)
+	4471. [[salicylic acid]]
+	4472. [[saline]]
+	4473. [[saliva]]
+	4474. [[salivary glands]]
+	4475. [[Salmonella]]
+	4476. [[salt]]
+	4477. [[salt gland]]
+	4478. [[samara]]
+	4479. [[sampling]]
+	4480. [[Frederick Sanger]]
 	
-	4481. sap
-	4482. saponin
-	4483. saprotroph
-	4484. sapwood
-	4485. SAR
-	4486. sarcolemma
+	4481. [[sap]]
+	4482. [[saponin]]
+	4483. [[saprotroph]]
+	4484. [[sapwood]]
+	4485. [[SAR]]
+	4486. [[sarcolemma]]
 	4487. sarcoma
-	4488. sarcomere
-	4489. sarcoplasmic reticulum
-	4490. satellite DNA
+		1. (pl. sarcomas or sarcomata) See CANCER.
+	4488. [[sarcomere]]
+	4489. [[sarcoplasmic reticulum]]
+	4490. [[satellite DNA]]
 	
-	4491. saturated
+	4491. [[saturated]]
 	4492. savanna
-	4493. scala
-	4494. scales
+		1. See grassland
+	4493. [[scala]]
+	4494. [[scales]]
 	4495. scanning electron microscope
-	4496. scanning probe microscopy
-	4497. scanning tunnelling microscopy
-	4498. scapula
-	4499. scavenger
-	4500. Schiff's reagent
+		1. See ELECTRON MICROSCOPE.
+	4496. [[scanning probe microscopy]]
+	4497. [[scanning tunnelling microscopy]]
+	4498. [[scapula]]
+	4499. [[scavenger]]
+	4500. [[Schiff's reagent]]
 	
-	4501. schizocarp
-	4502. schizogeny
-	4503. Schwann cell
-	4504. scintillation counter
+	4501. [[schizocarp]]
+	4502. [[schizogeny]]
+	4503. [[Schwann cell]]
+	4504. [[scintillation counter]]
 	4505. scion
+		1. See graft
 	4506. sclera
-	4507. sclereid
-	4508. sclerenchyma
-	4509. sclerophyllous
-	4510. scleroprotein
+		1. (pl. scleras or sclerae) See SCLEROTIC.
+	4507. [[sclereid]]
+	4508. [[sclerenchyma]]
+	4509. [[sclerophyllous]]
+	4510. [[scleroprotein]]
 	
-	4511. sclerotic
-	4512. sclerotium
-	4513. sclerotization
+	4511. [[sclerotic]]
+	4512. [[sclerotium]]
+	4513. [[sclerotization]]
 	4514. scolex
+		1. (pl. scolices) See CESTODA.
 	4515. scorpions
-	4516. scotopic vision
+		1. See ARACHNIDA.
+	4516. [[scotopic vision]]
 	4517. SCP
+		1. See SINGLE-CELL PROTEIN.
 	4518. scRNP
-	4519. scrotum
-	4520. scurvy
+		1. See RIBONUCLEOPROTEIN.
+	4519. [[scrotum]]
+	4520. [[scurvy]]
 	
-	4521. scutellum
+	4521. [[scutellum]]
 	4522. Scyphozoa
+		1. See CNIDARIA.
 	4523. SDS-PAGE
+		1. (sodium dodecyl sulphate-polyacrylamide gel electrophoresis) See GEL ELECTROPHORESIS.
 	4524. seasonal isolation
-	4525. seaweeds
-	4526. sebaceous gland
-	4527. sebum
-	4528. second
+		1. See ISOLATING MECHANISM.
+	4525. [[seaweeds]]
+	4526. [[sebaceous gland]]
+	4527. [[sebum]]
+	4528. [[second]]
 	4529. secondary cell wall
+		1. See cell wall
 	4530. secondary consumer
+		1. See consumer
 	
-	4531. secondary growth
+	4531. [[secondary growth]]
 	4532. secondary immunological response
-	4533. secondary metabolite
-	4534. secondary productivity
-	4535. secondary sexual characteristics
+		1. See IMMUNOLOGICAL MEMORY.
+	4533. [[secondary metabolite]]
+	4534. [[secondary productivity]]
+	4535. [[secondary sexual characteristics]]
 	4536. secondary structure
+		1. See protein
 	4537. secondary thickening
+		1. See secondary growth
 	4538. second convoluted tubule
-	4539. second messenger
-	4540. secretin
+		1. See distal convoluted tubule
+	4539. [[second messenger]]
+	4540. [[secretin]]
 	
-	4541. secretion
+	4541. [[secretion]]
 	4542. secretion vector
-	4543. Sedentaria
-	4544. seed
+		1. See expression vector
+	4543. [[Sedentaria]]
+	4544. [[seed]]
 	4545. seed coat
+		1. See testa
 	4546. seed ferns
+		1. See CYCADOFILICALES.
 	4547. seed leaf
-	4548. seed plant
-	4549. segmentation
-	4550. segmentation genes
+		1. See COTYLEDON.
+	4548. [[seed plant]]
+	4549. [[segmentation]]
+	4550. [[segmentation genes]]
 	
-	4551. segregation
-	4552. Selachii
+	4551. [[segregation]]
+	4552. [[Selachii]]
 	4553. selectin
-	4554. selection
-	4555. selection coefficient
-	4556. selection pressure
+		1. See CELL ADHESION MOLECULE; LECTIN.
+	4554. [[selection]]
+	4555. [[selection coefficient]]
+	4556. [[selection pressure]]
 	4557. selective breeding
-	4558. selective reabsorption
+		1. See breeding
+	4558. [[selective reabsorption]]
 	4559. self-fertilization
+		1. See FERTILIZATION.
 	4560. self-pollination
+		1. See pollination
 	
 	4561. self-splicing
-	4562. self-sterility
-	4563. selfish DNA
-	4564. Seliwanoff's test
-	4565. semaphorin
-	4566. semelparity
-	4567. semen
-	4568. semicircular canals
-	4569. semiconservative replication
-	4570. semilunar valve
+		1. See ribozyme
+	4562. [[self-sterility]]
+	4563. [[selfish DNA]]
+	4564. [[Seliwanoff's test]]
+	4565. [[semaphorin]]
+	4566. [[semelparity]]
+	4567. [[semen]]
+	4568. [[semicircular canals]]
+	4569. [[semiconservative replication]]
+	4570. [[semilunar valve]]
 	
 	4571. seminal receptacle
-	4572. seminal vesicle
+		1. See SPERMATHECA.
+	4572. [[seminal vesicle]]
 	4573. seminiferous tubules
-	4574. semiochemical
+		1. See testis
+	4574. [[semiochemical]]
 	4575. semipermeable membrane
-	4576. senescence
-	4577. sensation
-	4578. sense organ
-	4579. senses
-	4580. sensillum
+		1. See partially PERMEABLE MEMBRANE.
+	4576. [[senescence]]
+	4577. [[sensation]]
+	4578. [[sense organ]]
+	4579. [[senses]]
+	4580. [[sensillum]]
 	
 	4581. sensitive period
-	4582. sensitivity
-	4583. sensitization
+		1. See imprinting (1).
+	4582. [[sensitivity]]
+	4583. [[sensitization]]
 	4584. sensory cell
-	4585. sensory neuron
-	4586. sepal
-	4587. sepsis
-	4588. septum
-	4589. sequence-tagged site
-	4590. sequence analysis
+		1. See receptor
+	4585. [[sensory neuron]]
+	4586. [[sepal]]
+	4587. [[sepsis]]
+	4588. [[septum]]
+	4589. [[sequence-tagged site]]
+	4590. [[sequence analysis]]
 	
-	4591. sequence database
-	4592. sere
+	4591. [[sequence database]]
+	4592. [[sere]]
 	4593. serine
-	4594. seroconversion
-	4595. serology
-	4596. serotonin
-	4597. serous membrane
-	4598. serpin
-	4599. Sertoli cells
+		1. See amino acid
+	4594. [[seroconversion]]
+	4595. [[serology]]
+	4596. [[serotonin]]
+	4597. [[serous membrane]]
+	4598. [[serpin]]
+	4599. [[Sertoli cells]]
 	4600. serum
+		1. (pl. sera or serums) See BLOOD SERUM.
 	
-	4601. sessile
-	4602. seta
-	4603. sewage
+	4601. [[sessile]]
+	4602. [[seta]]
+	4603. [[sewage]]
 	4604. Sewall Wright effect
-	4605. sex chromosome
-	4606. sex determination
-	4607. sex factor
-	4608. sex hormones
-	4609. sex linkage
-	4610. sex ratio
+		1. See GENETIC DRIFT. It is named after US statistician Sewall Wright (1889-1988).
+	4605. [[sex chromosome]]
+	4606. [[sex determination]]
+	4607. [[sex factor]]
+	4608. [[sex hormones]]
+	4609. [[sex linkage]]
+	4610. [[sex ratio]]
 	
 	4611. sexual cycle
+		1. See MENSTRUAL CYCLE; OESTROUS CYCLE.
 	4612. sexual dimorphism
-	4613. sexual intercourse
-	4614. sexually transmitted disease
-	4615. sexual reproduction
-	4616. sexual selection
-	4617. SH2 domain
+		1. See dimORPHISM.
+	4613. [[sexual intercourse]]
+	4614. [[sexually transmitted disease]]
+	4615. [[sexual reproduction]]
+	4616. [[sexual selection]]
+	4617. [[SH2 domain]]
 	4618. SH3 domain
+		1. See SRC TYROSINE KINASE.
 	4619. shared derived trait
-	4620. shikimic acid pathway
+		1. See SYNAPOMORPHY.
+	4620. [[shikimic acid pathway]]
 	
-	4621. Shine-Dalgarno sequence
+	4621. [[Shine-Dalgarno sequence]]
 	4622. shivering
-	4623. shoot
-	4624. short-day plant
+		1. See THERMOGENESIS.
+	4623. [[shoot]]
+	4624. [[short-day plant]]
 	4625. short-sightedness
-	4626. short interfering RNA
+		1. See myopia
+	4626. [[short interfering RNA]]
 	4627. short interspersed element
+		1. See sine
 	4628. short sequence repeat
-	4629. short tandem repeats
-	4630. shotgun cloning
+		1. (SSR) See microsatellite DNA.
+	4629. [[short tandem repeats]]
+	4630. [[shotgun cloning]]
 	
-	4631. shotgun sequencing
+	4631. [[shotgun sequencing]]
 	4632. shoulder girdle
-	4633. siblings
-	4634. sibling species
+		1. See pectoral girdle
+	4633. [[siblings]]
+	4634. [[sibling species]]
 	4635. sickle-cell disease
-	4636. sieve element
-	4637. sievert
-	4638. sieve tube
+		1. See POLYMORPHISM.
+	4636. [[sieve element]]
+	4637. [[sievert]]
+	4638. [[sieve tube]]
 	4639. sigmoid growth curve
-	4640. signal hypothesis
+		1. See population growth
+	4640. [[signal hypothesis]]
 	
 	4641. signal transducer and activator of transcription
-	4642. signal transduction
-	4643. significance
-	4644. sign stimulus
-	4645. silent mutation
-	4646. silicula
-	4647. siliqua
-	4648. silk
-	4649. Silurian
-	4650. SINE
+		1. (STAT) See JANUS KINASE.
+	4642. [[signal transduction]]
+	4643. [[significance]]
+	4644. [[sign stimulus]]
+	4645. [[silent mutation]]
+	4646. [[silicula]]
+	4647. [[siliqua]]
+	4648. [[silk]]
+	4649. [[Silurian]]
+	4650. [[SINE]]
 	
-	4651. single-cell protein
-	4652. single-locus sequence typing
-	4653. single circulation
-	4654. single nucleotide polymorphism
-	4655. sink strength
+	4651. [[single-cell protein]]
+	4652. [[single-locus sequence typing]]
+	4653. [[single circulation]]
+	4654. [[single nucleotide polymorphism]]
+	4655. [[sink strength]]
 	4656. sinoatrial node
-	4657. sinus
-	4658. sinusoid
-	4659. siphonaceous
-	4660. Siphonaptera
+		1. See pacemaker
+	4657. [[sinus]]
+	4658. [[sinusoid]]
+	4659. [[siphonaceous]]
+	4660. [[Siphonaptera]]
 	
-	4661. Siphunculata
+	4661. [[Siphunculata]]
 	4662. siRNA
-	4663. sister species
-	4664. site-directed mutagenesis
+		1. See short interfering RNA.
+	4663. [[sister species]]
+	4664. [[site-directed mutagenesis]]
 	4665. Site of Special Scientific Interest
-	4666. SI units
-	4667. Sivapithecus
-	4668. skeletal muscle
-	4669. skeleton
-	4670. skin
+		1. See SSSI
+	4666. [[SI units]]
+	4667. [[Sivapithecus]]
+	4668. [[skeletal muscle]]
+	4669. [[skeleton]]
+	4670. [[skin]]
 	
-	4671. skull
+	4671. [[skull]]
 	4672. SLA
-	4673. sleep
+		1. See specific leaf area
+	4673. [[sleep]]
 	4674. sleep movements
-	4675. sliding filament theory
-	4676. slime
-	4677. slime mould
-	4678. slow-twitch fibre
+		1. See NYCTINASTY.
+	4675. [[sliding filament theory]]
+	4676. [[slime]]
+	4677. [[slime mould]]
+	4678. [[slow-twitch fibre]]
 	4679. slow-wave sleep
-	4680. slow virus
+		1. See sleep
+	4680. [[slow virus]]
 	
 	4681. sludge
+		1. See sewage
 	4682. small cytoplasmic ribonucleoprotein
-	4683. small intestine
+		1. (scRNP) See RIBONUCLEOPROTEIN.
+	4683. [[small intestine]]
 	4684. small nuclear ribonucleoprotein
-	4685. small nuclear RNA
-	4686. small nucleolar RNA
+		1. (snRNP) See RIBONUCLEOPROTEIN.
+	4685. [[small nuclear RNA]]
+	4686. [[small nucleolar RNA]]
 	4687. small ubiquitin-related modifier
+		1. See sumo
 	4688. smell
+		1. See olfaction
 	4689. smooth endoplasmic reticulum
-	4690. smooth muscle
+		1. (smooth ER) See endOPLASMIC RETICULUM.
+	4690. [[smooth muscle]]
 	
-	4691. smuts
+	4691. [[smuts]]
 	4692. snakes
+		1. See squamata
 	4693. SNAP
-	4694. SNARE
+		1. See snare
+	4694. [[SNARE]]
 	4695. snoRNA
+		1. See small nUCleOlar RNA.
 	4696. SNP
+		1. See SINGLE NUCLEOTIDE POLYMORPHISM.
 	4697. snRNA
+		1. See SMALL NUCLEAR RNA.
 	4698. snRNP
-	4699. sodium
-	4700. sodium-potassium pump
+		1. See RIBONUCLEOPROTEIN.
+	4699. [[sodium]]
+	4700. [[sodium-potassium pump]]
 	
-	4701. sodium chloride
-	4702. sodium fluoride
-	4703. sodium ion channel
+	4701. [[sodium chloride]]
+	4702. [[sodium fluoride]]
+	4703. [[sodium ion channel]]
 	4704. softwood
-	4705. soil
-	4706. soil erosion
-	4707. sol
+		1. See wood
+	4705. [[soil]]
+	4706. [[soil erosion]]
+	4707. [[sol]]
 	4708. solenocytes
-	4709. solute
-	4710. solute potential
+		1. See flame cells
+	4709. [[solute]]
+	4710. [[solute potential]]
 	
-	4711. solution
-	4712. solvent
+	4711. [[solution]]
+	4712. [[solvent]]
 	4713. soma
-	4714. somatic
+		1. (pl. somata or somas) See CELL BODY.
+	4714. [[somatic]]
 	4715. somatic cell hybridization
+		1. See cell fusion
 	4716. somatic cell nuclear transfer
-	4717. somatic hypermutation
-	4718. somatic recombination
+		1. (SCNT) See nuclear transfer
+	4717. [[somatic hypermutation]]
+	4718. [[somatic recombination]]
 	4719. somatic sensory neuron
 	    1. See sensory neuron
 	
@@ -6701,483 +6777,592 @@ Reviewed: false
 	4724. 
 	4725. 
 	4726. 
-	4727. somatostatin
-	4728. somite
-	4729. Sonic hedgehog
-	4730. soredium
+	4727. [[somatostatin]]
+	4728. [[somite]]
+	4729. [[Sonic hedgehog]]
+	4730. [[soredium]]
 	
-	4731. sorosis
-	4732. sorus
-	4733. SOS response
-	4734. Southern blotting
-	4735. spacer DNA
-	4736. spadix
+	4731. [[sorosis]]
+	4732. [[sorus]]
+	4733. [[SOS response]]
+	4734. [[Southern blotting]]
+	4735. [[spacer DNA]]
+	4736. [[spadix]]
 	4737. spathe
+		1. See spadix
 	4738. spatial summation
-	4739. special creation
-	4740. specialization
+		1. See summation
+	4739. [[special creation]]
+	4740. [[specialization]]
 	
-	4741. speciation
-	4742. species
+	4741. [[speciation]]
+	4742. [[species]]
 	4743. species diversity
-	4744. species evenness
-	4745. species richness
-	4746. specific leaf area
-	4747. spectral karyotyping
-	4748. spectroscopy
-	4749. spectrum
-	4750. Spemann's organizer
+		1. See biodiversity
+	4744. [[species evenness]]
+	4745. [[species richness]]
+	4746. [[specific leaf area]]
+	4747. [[spectral karyotyping]]
+	4748. [[spectroscopy]]
+	4749. [[spectrum]]
+	4750. [[Spemann's organizer]]
 	
-	4751. sperm
-	4752. spermatheca
-	4753. spermatid
-	4754. spermatium
-	4755. spermatocyte
-	4756. spermatogenesis
-	4757. spermatogonium
-	4758. Spermatophyta
+	4751. [[sperm]]
+	4752. [[spermatheca]]
+	4753. [[spermatid]]
+	4754. [[spermatium]]
+	4755. [[spermatocyte]]
+	4756. [[spermatogenesis]]
+	4757. [[spermatogonium]]
+	4758. [[Spermatophyta]]
 	4759. spermatozoid
-	4760. spermatozoon
+		1. See ANTHEROZOID.
+	4760. [[spermatozoon]]
 	
-	4761. sperm competition
+	4761. [[sperm competition]]
 	4762. Sphenophyta
-	4763. spherosome
-	4764. sphincter
+		1. (Arthrophyta) See HORSETAILS.
+	4763. [[spherosome]]
+	4764. [[sphincter]]
 	4765. sphingolipid
+		1. See PHOSPHOLIPID.
 	4766. spiders
-	4767. spike
+		1. See ARACHNIDA.
+	4767. [[spike]]
 	4768. spinal column
-	4769. spinal cord
-	4770. spinal nerves
+		1. See vertebral column
+	4769. [[spinal cord]]
+	4770. [[spinal nerves]]
 	
 	4771. spinal reflex
-	4772. spindle
+		1. See reflex
+	4772. [[spindle]]
 	4773. spindle attachment
-	4774. spine
-	4775. spinneret
-	4776. spinocerebellar tracts
-	4777. spiracle
-	4778. spirillum
-	4779. spirochaete
+		1. See CENTROMERE.
+	4774. [[spine]]
+	4775. [[spinneret]]
+	4776. [[spinocerebellar tracts]]
+	4777. [[spiracle]]
+	4778. [[spirillum]]
+	4779. [[spirochaete]]
 	4780. spirometer
+		1. See RESPIROMETER.
 	
-	4781. spleen
+	4781. [[spleen]]
 	4782. spliceosome
+		1. See intron; RNA processing
 	4783. splicing
+		1. See intron; RNA processing
 	4784. sponges
+		1. See PORIFERA.
 	4785. spongy bone
+		1. See bone
 	4786. spongy mesophyll
-	4787. spontaneous generation
-	4788. sporangiophore
-	4789. sporangium
-	4790. spore
+		1. See MESOPHYLL.
+	4787. [[spontaneous generation]]
+	4788. [[sporangiophore]]
+	4789. [[sporangium]]
+	4790. [[spore]]
 	
-	4791. spore mother cell
+	4791. [[spore mother cell]]
 	4792. sporocyte
-	4793. sporogonium
-	4794. sporophore
-	4795. sporophyll
-	4796. sporophyte
+		1. See SPORE MOTHER CELL.
+	4793. [[sporogonium]]
+	4794. [[sporophore]]
+	4795. [[sporophyll]]
+	4796. [[sporophyte]]
 	4797. Sporozoa
-	4798. sport
-	4799. squalene
-	4800. Squamata
+		1. See APICOMPLEXA.
+	4798. [[sport]]
+	4799. [[squalene]]
+	4800. [[Squamata]]
 	
-	4801. squamous epithelium
-	4802. Src tyrosine kinase
+	4801. [[squamous epithelium]]
+	4802. [[Src tyrosine kinase]]
 	4803. SRY protein
-	4804. SSSI
-	4805. stabilizing selection
-	4806. staining
-	4807. stamen
-	4808. staminode
-	4809. standard deviation
-	4810. standard error of the mean
+		1. See TESTIS-DETERMINING FACTOR.
+	4804. [[SSSI]]
+	4805. [[stabilizing selection]]
+	4806. [[staining]]
+	4807. [[stamen]]
+	4808. [[staminode]]
+	4809. [[standard deviation]]
+	4810. [[standard error of the mean]]
 	
-	4811. standard metabolic rate
+	4811. [[standard metabolic rate]]
 	4812. standing biomass
-	4813. standing crop
-	4814. stapes
-	4815. Staphylococcus
-	4816. starch
+		1. See standing crop
+	4813. [[standing crop]]
+	4814. [[stapes]]
+	4815. [[Staphylococcus]]
+	4816. [[starch]]
 	4817. star diagram
-	4818. Starling's law
-	4819. start codon
-	4820. startle display
+		1. See PHYLOGRAM.
+	4818. [[Starling's law]]
+	4819. [[start codon]]
+	4820. [[startle display]]
 	
 	4821. STAT
+		1. (signal transducer and activator of transcription) See JANUS KINASE.
 	4822. stationary phase
-	4823. statoblast
-	4824. statocyst
-	4825. statocyte
-	4826. statolith
-	4827. stearic acid
-	4828. stele
-	4829. stem
-	4830. stem cell
+		1. (1) See bacterial Growth CURVE. 
+		2. (2) See CHROMATOGRAPHY.
+	4823. [[statoblast]]
+	4824. [[statocyst]]
+	4825. [[statocyte]]
+	4826. [[statolith]]
+	4827. [[stearic acid]]
+	4828. [[stele]]
+	4829. [[stem]]
+	4830. [[stem cell]]
 	
-	4831. steno-
-	4832. stereocilium
-	4833. stereoisomerism
-	4834. sterigma
-	4835. sterile
-	4836. sterilization
-	4837. sternum
-	4838. steroid
-	4839. sterol
-	4840. sticky end
+	4831. [[steno-]]
+	4832. [[stereocilium]]
+	4833. [[stereoisomerism]]
+	4834. [[sterigma]]
+	4835. [[sterile]]
+	4836. [[sterilization]]
+	4837. [[sternum]]
+	4838. [[steroid]]
+	4839. [[sterol]]
+	4840. [[sticky end]]
 	
-	4841. stigma
+	4841. [[stigma]]
 	4842. stilt root
-	4843. stimulus
-	4844. stimulus filtering
-	4845. stipe
-	4846. stipule
+		1. See prop root
+	4843. [[stimulus]]
+	4844. [[stimulus filtering]]
+	4845. [[stipe]]
+	4846. [[stipule]]
 	4847. STM
+		1. See scanning tunnelling microscopy.
 	4848. stock
-	4849. stolon
-	4850. stoma
+		1. See graft
+	4849. [[stolon]]
+	4850. [[stoma]]
 	
-	4851. stomach
-	4852. stomatal conductance
-	4853. stomium
-	4854. stop codon
+	4851. [[stomach]]
+	4852. [[stomatal conductance]]
+	4853. [[stomium]]
+	4854. [[stop codon]]
 	4855. storage compound
-	4856. stramenopiles
-	4857. stratification
-	4858. stratified epithelium
+		1. See food reserves
+	4856. [[stramenopiles]]
+	4857. [[stratification]]
+	4858. [[stratified epithelium]]
 	4859. stratified sampling
-	4860. stratosphere
+		1. See sampling
+	4860. [[stratosphere]]
 	
-	4861. stratum corneum
-	4862. Streptococcus
+	4861. [[stratum corneum]]
+	4862. [[Streptococcus]]
 	4863. streptomycin
-	4864. streptophyte
+		1. See ACTINOBACTERIA; ANTIBIOTICS.
+	4864. [[streptophyte]]
 	4865. stress protein
-	4866. stretch receptor
-	4867. stretch reflex
+		1. See HEAT-SHOCK PROTEIN.
+	4866. [[stretch receptor]]
+	4867. [[stretch reflex]]
 	4868. striated muscle
-	4869. stridulation
-	4870. strigolactone
+		1. See skeletal muscle
+	4869. [[stridulation]]
+	4870. [[strigolactone]]
 	
-	4871. strobilus
-	4872. stroke volume
-	4873. stroma
-	4874. stromatolite
-	4875. strontium
+	4871. [[strobilus]]
+	4872. [[stroke volume]]
+	4873. [[stroma]]
+	4874. [[stromatolite]]
+	4875. [[strontium]]
 	4876. structural gene
-	4877. strychnine
+		1. See operon
+	4877. [[strychnine]]
 	4878. STS
-	4879. style
-	4880. subarachnoid space
+		1. See sequence-tagged site
+	4879. [[style]]
+	4880. [[subarachnoid space]]
 	
-	4881. subclavian artery
-	4882. subcutaneous tissue
-	4883. suberin
-	4884. sublittoral
-	4885. submucosa
+	4881. [[subclavian artery]]
+	4882. [[subcutaneous tissue]]
+	4883. [[suberin]]
+	4884. [[sublittoral]]
+	4885. [[submucosa]]
 	4886. subsoil
-	4887. subspecies
-	4888. substance P
-	4889. substitution((in genetics))
-	4890. substrate
+		1. See soil
+	4887. [[subspecies]]
+	4888. [[substance P]]
+	4889. [[substitution]]
+	4890. [[substrate]]
 	
 	4891. substrate-level phosphorylation
-	4892. subtilisin
-	4893. succession((in ecology))
-	4894. succinate
-	4895. succulent
-	4896. succus entericus
-	4897. sucker
-	4898. sucrase
-	4899. sucrose
-	4900. sugar
+		1. See PHOSPHORYLATION.
+	4892. [[subtilisin]]
+	4893. [[succession]]
+	4894. [[succinate]]
+	4895. [[succulent]]
+	4896. [[succus entericus]]
+	4897. [[sucker]]
+	4898. [[sucrase]]
+	4899. [[sucrose]]
+	4900. [[sugar]]
 	
 	4901. sulpha (sulfa) drugs
-	4902. sulphonamides
-	4903. sulphur
-	4904. sulphur bacteria
+		1. See SULPHONAMIDES.
+	4902. [[sulphonamides]]
+	4903. [[sulphur]]
+	4904. [[sulphur bacteria]]
 	4905. sulphur bridge
-	4906. sulphur cycle
-	4907. sulphur dioxide
-	4908. summation
-	4909. SUMO
+		1. See DISULPHIDE BRIDGE.
+	4906. [[sulphur cycle]]
+	4907. [[sulphur dioxide]]
+	4908. [[summation]]
+	4909. [[SUMO]]
 	4910. super-resolution microscopy
+		1. See CONFOCAL FLUORESCENCE MICROSCOPY.
 	
-	4911. supercoiling
-	4912. supercooling
-	4913. supergene
-	4914. supergroup
-	4915. superior
-	4916. supernormal stimulus
+	4911. [[supercoiling]]
+	4912. [[supercooling]]
+	4913. [[supergene]]
+	4914. [[supergroup]]
+	4915. [[superior]]
+	4916. [[supernormal stimulus]]
 	4917. supernumerary chromosome
-	4918. superorganism
-	4919. superoxide dismutase
-	4920. supination
+		1. See ACCESSORY CHROMOSOME.
+	4918. [[superorganism]]
+	4919. [[superoxide dismutase]]
+	4920. [[supination]]
 	
 	4921. supplementary units
+		1. See SI units
 	4922. suprachiasmatic nucleus
+		1. See BIOLOGICAL CLOCK; HYPOTHALAMUS.
 	4923. supramolecular adhesion complex
+		1. (SMAC) See IMMUNOLOGICAL SYNAPSE.
 	4924. suprarenal glands
-	4925. surface tension
-	4926. surfactant
-	4927. survivorship curve
-	4928. suspension culture
-	4929. suspensor
+		1. See adRENAL GLANDS.
+	4925. [[surface tension]]
+	4926. [[surfactant]]
+	4927. [[survivorship curve]]
+	4928. [[suspension culture]]
+	4929. [[suspensor]]
 	4930. suspensory ligaments
+		1. See lens
 	
-	4931. sustainable
-	4932. suture
-	4933. SV40
+	4931. [[sustainable]]
+	4932. [[suture]]
+	4933. [[SV40]]
 	4934. swallowing
+		1. See deglutition.
 	4935. swamp
-	4936. sweat
-	4937. sweat gland
-	4938. swim bladder
-	4939. syconium
-	4940. symbiont
+		1. See HYDROSERE.
+	4936. [[sweat]]
+	4937. [[sweat gland]]
+	4938. [[swim bladder]]
+	4939. [[syconium]]
+	4940. [[symbiont]]
 	
-	4941. symbiosis
-	4942. symmetry
-	4943. symmorphosis
-	4944. sympathetic nervous system
-	4945. sympathetic tone
-	4946. sympatric
-	4947. symphysis
-	4948. symplast
-	4949. symplesiomorphy
-	4950. sympodium
+	4941. [[symbiosis]]
+	4942. [[symmetry]]
+	4943. [[symmorphosis]]
+	4944. [[sympathetic nervous system]]
+	4945. [[sympathetic tone]]
+	4946. [[sympatric]]
+	4947. [[symphysis]]
+	4948. [[symplast]]
+	4949. [[symplesiomorphy]]
+	4950. [[sympodium]]
 	
-	4951. symporter
-	4952. synapomorphy
-	4953. synapse
-	4954. synapsid
+	4951. [[symporter]]
+	4952. [[synapomorphy]]
+	4953. [[synapse]]
+	4954. [[synapsid]]
 	4955. synapsis
+		1. See pairing
 	4956. synaptic cleft
+		1. See SYNAPSE.
 	4957. synaptic knob
-	4958. synaptic plasticity
+		1. See SYNAPSE.
+	4958. [[synaptic plasticity]]
 	4959. synaptobrevin
-	4960. synaptonemal complex
+		1. See snare
+	4960. [[synaptonemal complex]]
 	
 	4961. synaptotagmin
-	4962. syncarpy
-	4963. syncytium
-	4964. synecology
-	4965. synergids
-	4966. synergism
+		1. See snare
+	4962. [[syncarpy]]
+	4963. [[syncytium]]
+	4964. [[synecology]]
+	4965. [[synergids]]
+	4966. [[synergism]]
 	4967. syngamy
+		1. See FERTILIZATION.
 	4968. synomone
+		1. See ALLELOCHEMICAL.
 	4969. synonymous substitution
-	4970. synovial membrane
+		1. See SUBSTITUTION.
+	4970. [[synovial membrane]]
 	
 	4971. syntaxin
-	4972. synteny
-	4973. synthesis
-	4974. synthetic biology
+		1. See snare
+	4972. [[synteny]]
+	4973. [[synthesis]]
+	4974. [[synthetic biology]]
 	4975. synthetic theory
+		1. See Neo-Darwinism.
 	4976. syphilis
-	4977. syrinx
-	4978. systematics
+		1. See SEXUALLY TRANSMITTED DISEASE.
+	4977. [[syrinx]]
+	4978. [[systematics]]
 	4979. systematic sampling
+		1. See sampling
 	4980. Système International d'Unités
+		1. See SI Units
 	
-	4981. systemic acquired resistance
-	4982. systemic arch
-	4983. systemic circulation
-	4984. systemic signalling
-	4985. systems biology
-	4986. systems ecology
-	4987. systole
-	4988. T-cell receptor
-	4989. tachycardia
-	4990. tachymetabolism
+	4981. [[systemic acquired resistance]]
+	4982. [[systemic arch]]
+	4983. [[systemic circulation]]
+	4984. [[systemic signalling]]
+	4985. [[systems biology]]
+	4986. [[systems ecology]]
+	4987. [[systole]]
+	4988. [[T-cell receptor]]
+	4989. [[tachycardia]]
+	4990. [[tachymetabolism]]
 	
-	4991. TACK
+	4991. [[TACK]]
 	4992. tactic movement
-	4993. tagma
+		1. See taxis
+	4993. [[tagma]]
 	4994. tagmosis
-	4995. taiga
-	4996. TALEN
-	4997. tandem array((in genetics))
-	4998. tannin
-	4999. tapetum
+		1. See tagma
+	4995. [[taiga]]
+	4996. [[TALEN]]
+	4997. [[tandem array]]
+	4998. [[tannin]]
+	4999. [[tapetum]]
 	5000. tapeworms
+		1. See cestoda
 	
-	5001. taphonomy
+	5001. [[taphonomy]]
 	5002. tap root
-	5003. tarsal
-	5004. tarsus
-	5005. taste
-	5006. taste bud
-	5007. TATA-box-binding protein
-	5008. TATA box
-	5009. taxis
-	5010. taxon
+		1. See root
+	5003. [[tarsal]]
+	5004. [[tarsus]]
+	5005. [[taste]]
+	5006. [[taste bud]]
+	5007. [[TATA-box-binding protein]]
+	5008. [[TATA box]]
+	5009. [[taxis]]
+	5010. [[taxon]]
 	
-	5011. taxonomy
+	5011. [[taxonomy]]
 	5012. TCA cycle
-	5013. T cell
+		1. See krebs cycle
+	5013. [[T cell]]
 	5014. TDF
+		1. See TESTIS-DETERMINING FACTOR.
 	5015. tectorial membrane
+		1. See organ of corti
 	5016. tectum
+		1. (pl. tecta) See MIDBRAIN.
 	5017. teeth
+		1. See DECIDUOUS TEETH; PERMANENT TEETH; DENTITION; TOOTH.
 	5018. tegmentum
-	5019. Teleostei
+		1. (pl. tegmenta) See MIDBRAIN.
+	5019. [[Teleostei]]
 	5020. telocentric
+		1. See centromere
 	
-	5021. telomere
-	5022. telome theory
-	5023. telophase
-	5024. temperature inversion
-	5025. temperature sensitivity
-	5026. template
+	5021. [[telomere]]
+	5022. [[telome theory]]
+	5023. [[telophase]]
+	5024. [[temperature inversion]]
+	5025. [[temperature sensitivity]]
+	5026. [[template]]
 	5027. temporal summation
-	5028. tendon
-	5029. tendril
-	5030. tentacle
+		1. See summation
+	5028. [[tendon]]
+	5029. [[tendril]]
+	5030. [[tentacle]]
 	
-	5031. tera-
-	5032. teratogen
-	5033. tergum
+	5031. [[tera-]]
+	5032. [[teratogen]]
+	5033. [[tergum]]
 	5034. termination codon
-	5035. terminator
-	5036. terpenes
-	5037. territory
-	5038. Tertiary
+		1. See stop codon
+	5035. [[terminator]]
+	5036. [[terpenes]]
+	5037. [[territory]]
+	5038. [[Tertiary]]
 	5039. tertiary consumer
+		1. See consumer
 	5040. tertiary structure
+		1. See protein
 	
-	5041. testa
-	5042. test cross
-	5043. testis
-	5044. testis-determining factor
-	5045. testosterone
-	5046. tetanus
+	5041. [[testa]]
+	5042. [[test cross]]
+	5043. [[testis]]
+	5044. [[testis-determining factor]]
+	5045. [[testosterone]]
+	5046. [[tetanus]]
 	5047. tetracosactide
-	5048. tetrad
-	5049. tetraploid
-	5050. Tetrapoda
+		1. See ACTH
+	5048. [[tetrad]]
+	5049. [[tetraploid]]
+	5050. [[Tetrapoda]]
 	
-	5051. tetraspore
+	5051. [[tetraspore]]
 	5052. tetrodotoxin
-	5053. thalamus
-	5054. thalassaemia
-	5055. thallus
-	5056. TH cell
+		1. See pufferfish
+	5053. [[thalamus]]
+	5054. [[thalassaemia]]
+	5055. [[thallus]]
+	5056. $T_H$ cell
+		1. See Helper T Cell
 	5057. theca
-	5058. thelytoky
-	5059. therapeutic half-life
-	5060. therapeutic index
+		1. (pl. thecae) See CAPSULE.
+	5058. [[thelytoky]]
+	5059. [[therapeutic half-life]]
+	5060. [[therapeutic index]]
 	
-	5061. therapsid
+	5061. [[therapsid]]
 	5062. thermal denaturation
+		1. See denature
 	5063. thermal hysteresis protein
-	5064. thermocline
-	5065. thermogenesis
+		1. See antifreeze molecule
+	5064. [[thermocline]]
+	5065. [[thermogenesis]]
 	5066. thermogenin
-	5067. thermography
+		1. See uncoupling protein
+	5067. [[thermography]]
 	5068. thermonasty
-	5069. thermoneutral zone
-	5070. thermophilic
+		1. See NASTIC MOVEMENTS.
+	5069. [[thermoneutral zone]]
+	5070. [[thermophilic]]
 	
-	5071. thermoreceptor
-	5072. thermoregulation
-	5073. therophyte
-	5074. Theropoda
+	5071. [[thermoreceptor]]
+	5072. [[thermoregulation]]
+	5073. [[therophyte]]
+	5074. [[Theropoda]]
 	5075. thiamin(e)
-	5076. thigmotropism
-	5077. thin-layer chromatography
-	5078. thoracic cavity
-	5079. thoracic duct
-	5080. thoracic vertebrae
+		1. See vitamin B complex
+	5076. [[thigmotropism]]
+	5077. [[thin-layer chromatography]]
+	5078. [[thoracic cavity]]
+	5079. [[thoracic duct]]
+	5080. [[thoracic vertebrae]]
 	
-	5081. thorax
-	5082. thorn
-	5083. thread cell
+	5081. [[thorax]]
+	5082. [[thorn]]
+	5083. [[thread cell]]
 	5084. threat display
+		1. See AGONISTIC BEHAVIOR.
 	5085. threatened species
+		1. See ENDANGERED SPECIES.
 	5086. threonine
-	5087. threshold
-	5088. thrombin
+		1. See amino acid
+	5087. [[threshold]]
+	5088. [[thrombin]]
 	5089. thrombocyte
-	5090. thromboplastin
+		1. See PLATELET.
+	5090. [[thromboplastin]]
 	
-	5091. thrombosis
-	5092. thromboxane A2
-	5093. thylakoid
-	5094. thymidine
-	5095. thymine
-	5096. thymocyte
-	5097. thymus
+	5091. [[thrombosis]]
+	5092. [[thromboxane A_2]]
+	5093. [[thylakoid]]
+	5094. [[thymidine]]
+	5095. [[thymine]]
+	5096. [[thymocyte]]
+	5097. [[thymus]]
 	5098. thyrocalcitonin
-	5099. thyroglobulin
-	5100. thyroid-stimulating hormone
+		1. See calcitonin
+	5099. [[thyroglobulin]]
+	5100. [[thyroid-stimulating hormone]]
 	
-	5101. thyroid gland
+	5101. [[thyroid gland]]
 	5102. thyrotrophin-releasing hormone
-	5103. thyroxine
-	5104. Thysanura
-	5105. tibia
+		1. (TRH) See THYROID-STIMULATING HORMONE.
+	5103. [[thyroxine]]
+	5104. [[Thysanura]]
+	5105. [[tibia]]
 	5106. ticks
-	5107. tidal volume
-	5108. tight junction
-	5109. Tiktaalik
-	5110. tiller
+		1. See acarina
+	5107. [[tidal volume]]
+	5108. [[tight junction]]
+	5109. [[Tiktaalik]]
+	5110. [[tiller]]
 	
-	5111. time-lapse photography
-	5112. tinsel flagellum
+	5111. [[time-lapse photography]]
+	5112. [[tinsel flagellum]]
 	5113. Ti plasmid
-	5114. tissue
-	5115. tissue culture
-	5116. tissue engineering
-	5117. tissue fluid
+		1. See AGROBACTERIUM TUMEFACIENS.
+	5114. [[tissue]]
+	5115. [[tissue culture]]
+	5116. [[tissue engineering]]
+	5117. [[tissue fluid]]
 	5118. tissue plasminogen activator
-	5119. tissue typing
-	5120. titre
+		1. (TPA) See plasminogen.
+	5119. [[tissue typing]]
+	5120. [[titre]]
 	
 	5121. TLR
+		1. See toll-like receptor
 	5122. T lymphocyte
+		1. See T cell
 	5123. tmRNA
+		1. See transfer-messenger RNA
 	5124. TNF
+		1. See tumour necrosis factor
 	5125. toads
-	5126. tobacco mosaic virus
+		1. See amphibia
+	5126. [[tobacco mosaic virus]]
 	5127. tocopherol
-	5128. tolerance
-	5129. Toll-like receptor
-	5130. Tollens reagent
+		1. See vitamin E
+	5128. [[tolerance]]
+	5129. [[Toll-like receptor]]
+	5130. [[Tollens reagent]]
 	
-	5131. tomography
-	5132. tone
-	5133. tongue
-	5134. tonicity
-	5135. tonoplast
-	5136. tonsil
+	5131. [[tomography]]
+	5132. [[tone]]
+	5133. [[tongue]]
+	5134. [[tonicity]]
+	5135. [[tonoplast]]
+	5136. [[tonsil]]
 	5137. tonus
-	5138. tooth
+		1. See tone
+	5138. [[tooth]]
 	5139. top carnivore
-	5140. topoisomer
+		1. See consumer
+	5140. [[topoisomer]]
 	
-	5141. topoisomerase
+	5141. [[topoisomerase]]
 	5142. topsoil
-	5143. tornaria
+		1. See soil
+	5143. [[tornaria]]
 	5144. torpor
+		1. See HETEROTHERM.
 	5145. torus
+		1. (pl. tori or toruses) See RECEPTACLE.
 	5146. total peripheral resistance
-	5147. totipotent
-	5148. touch
-	5149. toxicogenomics
-	5150. toxicology
+		1. See blood pressure
+	5147. [[totipotent]]
+	5148. [[touch]]
+	5149. [[toxicogenomics]]
+	5150. [[toxicology]]
 	
-	5151. toxin
+	5151. [[toxin]]
 	5152. trace element
+		1. See essential element
 	5153. trace fossil
-	5154. trachea
-	5155. tracheid
+		1. See fossil
+	5154. [[trachea]]
+	5155. [[tracheid]]
 	5156. tracheole
-	5157. tracheophyte
+		1. See trachea
+	5157. [[tracheophyte]]
 	5158. tracing
-	5159. transaminase
-	5160. transamination
+		1. (radioactive tracing) See LABELLING.
+	5159. [[transaminase]]
+	5160. [[transamination]]
 	
 	5161. transcellular pathway
 	5162. transcriptase

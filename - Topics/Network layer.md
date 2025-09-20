@@ -4,13 +4,11 @@ aliases:
 ---
 ## Synthesis
 ### Description
-- Handles routing, addressing, and delivering data across networks
-## Source [^1]
 - Handles [[routing]], [[addressing]], and delivering data across networks
-## Source[^2]
+## Source[^1]
 ### Questions
 - (1) If a company requires 60 hosts, then what is the best possible [[subnet mask]]?
-	- Explanation [^1]
+	- #comment
 		- The formula for total number of IPs in a [[subnet]] is $2^h$ where $h$ is the number of [[host bits]]
 		- Two IPs (Internet Protocol addresses) are reserved in every subnet
 			- [[Network address]]: The first IP in the range
@@ -45,10 +43,9 @@ aliases:
 				- Giving the dotted-decimal notation: $255.255.255.192$ 
 		- So we have 64 IPs in the subnet with 62 usable hosts
 
-## Source[^3]
+## Source[^2]
 - A [[routers|router]] is a device used in the network layer
 ## References
 
-[^1]: ChatGPT
-[^2]: https://www.geeksforgeeks.org/quizzes/network-layer-gq/
-[^3]: https://youtu.be/HGYOEeik844?si=g3dABQwtJHSi6W01
+[^1]: https://www.geeksforgeeks.org/quizzes/network-layer-gq/
+[^2]: https://youtu.be/HGYOEeik844?si=g3dABQwtJHSi6W01

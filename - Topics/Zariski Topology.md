@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - A topology on algebraic sets where closed sets are precisely the solution sets of polynomials
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

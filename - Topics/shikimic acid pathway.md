@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The key metabolic pathway in the biosynthesis of the aromatic amino acids$\textemdash$tyrosine, phenylalanine, and tryptophan$\textemdash$which occurs in plants, bacteria, and fungi, but not in animals. This series of reactions makes these amino acids available to animals, for which they are essential amino acids, required in the diet for proteins and as precursors for a wide range of aromatic molecules. The initial step of the pathway is the condensation of erythrose-4-phosphate (from the pentose phosphate pathway) and phosphoenolpyruvate (from glycolysis). The product of this is then cyclized and reduced to form the intermediate compound shikimate, with the phenolic ring structure characteristic of the aromatic amino acids. Combination with a further molecule of phosphoenolpyruvate produces chorismate, from which alternative pathways lead to either phenylalanine/tyrosine or to tryptophan. An enzyme responsible for a step in the conversion of shikimate to its immediate derivative, 3-enolpyruvyl-shikimate-5-phosphate, is inhibited by the herbicide glyphosate, thus blocking the biosynthesis of aromatic amino acids by the plant.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

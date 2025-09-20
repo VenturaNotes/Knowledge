@@ -19,8 +19,7 @@ SELECT * FROM Customers;
 DELETE FROM Customers
 WHERE CustomerName='Alfreds Futterkiste';
 ```
-- This modifies the original table "Customers" and permanently removes the row(s) that match the condition of a CustomerName holding the value 'Alfreds Futterkiste'[^2]
+- #comment This modifies the original table "Customers" and permanently removes the row(s) that match the condition of a CustomerName holding the value 'Alfreds Futterkiste'
 ## References
 
-[^1]: https://www.w3schools.com/sql/sql_ref_from.asp#:~:text=The%20FROM%20command%20is%20used,select%20or%20delete%20data%20from.
-[^2]: ChatGPT
+[^1]: https://www.w3schools.com/sql/sql_ref_from.asp#:~:text=The%20FROM%20command%20is%20used,select%20or%20delete%20data%20from

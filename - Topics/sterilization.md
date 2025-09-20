@@ -6,7 +6,11 @@
 - n. 
 - (1) a surgical operation or any other process that induces sterility in men or women. In women, hysterectomy and bilateral oophorectomy (surgical removal of both ovaries) are 100\% effective and permanent. Alternatively, the Fallopian tubes may be removed (see SALPINGECTOMY) or divided and/or ligated. These operations can be performed through the abdomen or the vagina. The modern technique (tubal occlusion) is to occlude (close) permanently the inner (lower) half of the Fallopian tube through a laparoscope. The occluding device is usually a clip (the Hulka-Clemens or Filshie clips) or a small plastic ring (Falope ring); diathermy coagulation carries greater dangers (e.g. bowel burns) and is now little used. A more recent method is the use of a rapid-setting plastic introduced into the tubes through a hysteroscope (see HYSTEROSCOPY). Men are usually sterilized by vasectomy. See also CASTRATION. 
 - (2) the process by which all types of microorganisms (including spores) are destroyed. This is achieved by the use of heat, radiation, chemicals, or filtration. See also AUTOCLAVE.
+## Source[^3]
+- (1) The process of destroying microorganisms that contaminate food, wounds, surgical instruments, etc. Common methods of sterilization include heat treatment (see AUTOCLAVE; PASTEURIZATION) and the use of disinfectants and antiseptics. 
+- (2) The operation of making an animal or human incapable of producing offspring. Men are usually sterilized by tying and then cutting the vas deferens (vasectomy); in women the operation often involves permanently blocking the fallopian tubes by means of clips (tubal occlusion). See also BIRTH CONTROL.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

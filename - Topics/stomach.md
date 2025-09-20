@@ -27,6 +27,9 @@
 			- circular muscle
 			- connective tissue
 			- longitudinal muscle
+## Source[^2]
+- The portion of the vertebrate alimentary canal between the oesophagus and the small intestine. It is a muscular organ, capable of dramatic changes in size and shape, in which ingested food is stored and undergoes preliminary digestion. Cells lining the stomach produce gastric juice, which is thoroughly mixed with the food by muscular contractions of the stomach. The resultant acidic partly digested food mass (chyme) is discharged into the duodenum through the pyloric sphincter for final digestion and absorption. Some herbivorous animals (see RUMINANTIA) have multichambered stomachs from which food is regurgitated, rechewed, and swallowed again.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

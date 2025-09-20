@@ -25,6 +25,19 @@
 		- anterior (ventral) horn
 		- cell bodies of motor neurones
 		- anterior (ventral) root
+## Source[^2]
+- The part of the vertebrate central nervous system that is posterior to the brain and enclosed within the vertebral column. It consists of a hollow core of grey matter (Hshaped in cross section) surrounded by an outer layer of white matter; the central cavity contains cerebrospinal fluid. The white matter contains numerous longitudinal nerve fibres organized into distinct tracts: ascending tracts consist of sensory neurons, conducting impulses towards the brain; descending tracts consist of motor neurons, transmitting impulses from the brain. Paired spinal nerves arise from the spinal cord.
+- ![[Screenshot 2025-09-19 at 11.46.23 PM.png|400]]
+	- Transverse section of the spinal cord
+	- Parts
+		- Grey matter
+		- Central canal
+		- Ventral root
+		- White matter
+		- Dorsal root
+		- Dorsal root ganglion
+		- Spinal nerve
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

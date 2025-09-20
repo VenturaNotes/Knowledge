@@ -30,4 +30,4 @@ w_{1} M_{2}+c_{1} w_{2} & c_{1} c_{2}
 $$
 ## References
 
-[^1]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
