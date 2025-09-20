@@ -46,4 +46,4 @@ $$obtained by adjoining to the matrix of coefficients an extra column of entries
 
 [^1]: [[(1) Linear Algebra 1.1.1 Systems of Linear Equations]]
 [^2]: [[(7) Linear Algebra Example Problems - General Solution of Augmented Matrix]]
-[^3]: [[Home Page - The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

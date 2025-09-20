@@ -22,6 +22,9 @@
 		- Vertical mattress
 		- Interrupted
 		- purse string (intestine)
+## Source[^2]
+- The line marking the junction of two body structures. Examples are the immovable joints between the bones of the skull and, in plants, the seam along the edge of a pea or bean pod.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

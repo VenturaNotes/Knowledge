@@ -3,8 +3,6 @@ aliases:
   - User Datagram Protocol
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Used for connectionless and unreliable data transmission in computer networks
 	- Provides a lightweight and fast way to send datagrams (packets) without the overhead of establishing a connection and ensuring reliability.
 	- Often used for real-time communication, multimedia streaming, and applications where speed is more critical than reliability
@@ -19,8 +17,7 @@ aliases:
 	- Stateless Protocol
 	- Efficient for Real-Time Applications
 - Often used for [[DNS]] because DNS queries are typically small and can be sent as single datagrams without the need for connection establishment and reliability features provided by TCP.
-
-## Source [^2]
+## Source [^1]
 
 UDPServer.java
 ```java
@@ -101,10 +98,9 @@ class UDPClient {
 }
 ```
 
-## Source[^3]
+## Source[^2]
 - Size of UDP header is 8 bytes
 ## References
 
-[^1]: ChatGPT
-[^2]: [README: Getting Started with TCP](zotero://open-pdf/library/items/Z39YA2G3?page=1&annotation=8KH2BLT2)
-[^3]: https://youtu.be/HGYOEeik844?si=7KJaPkDktjARENM4
+[^1]: [README: Getting Started with TCP](zotero://open-pdf/library/items/Z39YA2G3?page=1&annotation=8KH2BLT2)
+[^2]: https://youtu.be/HGYOEeik844?si=7KJaPkDktjARENM4

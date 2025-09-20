@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A material produced by the silk glands of spiders, some insects, and certain other invertebrates (e.g. centipedes). It is exuded as a liquid by a protruding appendage, the spinneret, but quickly hardens after leaving the gland. Silk is composed of $\alpha$-keratin crystals embedded in a rubbery matrix of amino-acid chains, giving the material its flexibility and strength. A spider typically has several silk glands each producing a different type of silk, with properties determined by the nature of the amino-acid matrix. The spider switches from one gland to another to produce the silk appropriate for the task. For example, the silk used for wrapping prey is softer and distinct from structural silk used for the main fibres of a capture web. The silk may also be coated with a lipid waterproofing layer, as well as fungicides and bactericides to prevent attack from microorganisms. Spider silk has outstanding toughness and elasticity and on an equal-weight basis is stronger than steel or Kevlar, but it is completely biodegradable. Hence it continues to inspire attempts to produce synthetic equivalents through bioengineering, possibly using some form of recombinant DNA technology.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

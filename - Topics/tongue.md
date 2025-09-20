@@ -13,6 +13,9 @@
 			- sweet
 		- fungiform papilla
 		- filiform papilla
+## Source[^2]
+- A muscular organ of vertebrates that in most species is attached to the floor of the mouth. It plays an important role in manipulating food during chewing and swallowing and in terrestrial species it bears numerous taste buds on its upper surface. In some advanced vertebrates the tongue is used in the articulation of sounds, particularly in human speech.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

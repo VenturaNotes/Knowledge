@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- An assemblage of eukaryotic organisms, sometimes regarded as constituting the phylum (division) Heterokontophyta, proposed on the basis of recent evidence from molecular systematics. The stramenopiles include a diversity of forms, ranging from unicellular (e.g. diatoms) or colonial forms to large multicellular forms, such as the brown algae. Many have hitherto been classified in separate phyla, including the diatoms (see BACILLARIOPHYTA), brown algae (see PHAEOPHYTA), oomycetes (see OOMYCOTA), goldenbrown algae (see CHRYSOPHYTA), and yellow-green algae (see XANTHOPHYTA). Stramenopiles are characterized by having, at some stage in their life cycles, cells with flagella of two distinct types: one smooth flagellum and one tinsel flagellum with hairlike projections. Other features are the presence in certain groups of chlorophylls $a$ and $c$ but the absence of chlorophyll $b$, use of the polysaccharide chrysolaminarin as a food reserve, and a double layer of endoplasmic reticulum enveloping the chloroplast membranes. The stramenopiles, along with the alveolates and rhizarians, are now widely regarded as constituting the SAR supergroup.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

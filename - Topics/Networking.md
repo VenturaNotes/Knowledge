@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
 - The practice of connecting devices (computers, servers, smartphones) to share resources, communicate, and exchange data
 ### How it Works
 - Devices (computers) use hardware ([[Network Interface Card|network interface cards]], routers) and software (protocols) to send and receive data
@@ -10,6 +8,8 @@
 - The application layer makes networking seamless
 	- Without it, user applications would need to directly handle complex networking tasks like managing protocols or routing data
 	- Application layer abstracts these details, simplifying communication
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

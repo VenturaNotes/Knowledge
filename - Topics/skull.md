@@ -22,6 +22,9 @@
 		- mastoid process
 		- styloid process
 		- mandible
+## Source[^2]
+- The skeleton of the head. In mammals it consists of a cranium enclosing the brain and the bones of the face and jaw. All the joints between the individual bones of the skull are immovable (see sUTURE) except for the joint between the mandible (lower jaw) and the rest of the skull. There is a large opening (foramen magnum) at the base of the skull through which the spinal cord passes from the brain.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,10 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
-- In $f : A \to B$ 
+- In $f : A \to B$
 	- The range is the set of actual outputs that the function produces when applied to all elements of domain A. 
-
-## Source[^2]
+## Source[^1]
 - 1. of a binary relation $R$, a subset of $S_{1} \times S_{2}$, say. The $$ subset of $S_{2}$ consisting of all elements to which some element of $S_{1}$ is related. If $R$ is the relation 'is the wife of' defined from men to women, the range of $R$ is the set of married women.
 
   
@@ -27,10 +24,9 @@ can be written as
 
 2. See MEASURES OF VARIATION.
 
-## Source[^3]
+## Source[^2]
 - The difference between the largest and the smallest observed or possible values of a variable. The sample range is not usually a good measure of dispersion, as it makes use of only two observations, which may each be outliers.
 ## References
 
-[^1]: ChatGPT
-[^2]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[Home Page - A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

@@ -13,7 +13,7 @@ aliases:
 - Session: Manages sessions
 - Presentation
 - Application
-## Source[^1]
+
 - Conceptual framework that standardizes network communication into seven layers each handling specific tasks related to data transmission and processing.
 	- Handles specific functions and protocols
 - Defines seven layers
@@ -25,7 +25,6 @@ aliases:
 	- [[Presentation layer]]: Formats and translates data for the application layer
 	- [[Application layer]]: Interfaces with applications to provide network services
 - A conceptual framework that standardizes how data is transmitted over a network. Divides the communication process into seven layers, each responsible for specific tasks
-
 ### Lower Layers
 - [[Physical layer|Physical]]: Handles transmission of bits
 - Data Link: Ensures reliable node-to-node communication
@@ -40,6 +39,8 @@ aliases:
 - Presentation: Data formatting
 - Application: [[End-user]] [[interface]]
 	- #question what is meant by interface here?
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

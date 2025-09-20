@@ -23,6 +23,34 @@
 		- epidermis
 		- dermis
 		- subcutaneous fat
+## Source[^2]
+- The outer layer of the body of a vertebrate. It is composed of two layers, the epidermis and dermis, with a complex nervous and blood supply. The skin may bear a variety of specialized structures, including hair, scales, and feathers. This skin has an important role in protecting the body from mechanical injury, water loss, and the entry of harmful agents (e.g. disease-causing bacteria; see IMMUNITY). It is also a sense organ, containing receptors sensitive to pain, temperature, and pressure (see MEISSNER'S CORPUSCLES; MERKEL'S DISC; PACINIAN CORPUSCLE). In warm-blooded animals it helps regulate body temperature by means of hair, fur, or feathers and sweat glands.
+- ![[Screenshot 2025-09-19 at 10.30.21 PM.png]]
+	- Structure of mammalian skin
+	- Parts
+		1. Sweat pore
+		2. high-temperature receptor
+		3. pain receptor
+		4. low-temperature receptor
+		5. papillary region
+		6. hair follicle
+		7. sebaceous gland
+		8. hair
+		9. Meissner's corpuscle (touch receptor)
+		10. arrector pili (hair erector muscle)
+		11. epidermis
+			1. stratum corneum
+			2. stratum granulosum
+			3. Malpighian (growing) layer
+		12. dermis
+		13. subcutaneous tissue
+		14. adipose (fat) tissue
+		15. sensory nerve
+		16. Pacinian corpuscle (pressure receptor)
+		17. blood capillary
+		18. sweat duct
+		19. sweat gland
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

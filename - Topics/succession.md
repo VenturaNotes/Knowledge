@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (in ecology) The sequence of communities that develops in an area from the initial stages of colonization until a stable mature climax community is achieved. Many factors, including climate and changes brought about by the colonizing organisms, influence the nature of a succession; for example, after many years shrubs produce soil deep enough to support trees, which then shade out the shrubs. Change in communities caused by abiotic factors, such as the gradual silting up of a pond, is termed allogenic succession; change brought about primarily through species' interactions (i.e. biotic factors), such as competition, is called autogenic succession. Autogenic succession can be either primary or secondary. Primary succession occurs on newly exposed substrate that has not previously supported a living community, such as a volcanic lava flow; secondary succession occurs where the vegetation of an area has been partially or completely removed, for example by fire or cultivation, but soil and seeds remain. In cyclical succession the climax community depends on a pattern of recurring disturbances that maintain conditions for its survival. Fireadapted forests are prime examples, where the mature trees have adapted to withstand periodic low-intensity fires. The fires clear understorey scrub and supply nutrients to the soil (in the form of ash) for germinating tree seeds. See also SERE.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

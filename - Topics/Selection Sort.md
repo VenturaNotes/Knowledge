@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Repeatedly finds the minimum element and places it in its correct position
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

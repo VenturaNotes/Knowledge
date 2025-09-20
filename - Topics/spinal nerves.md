@@ -16,6 +16,9 @@
 		- lumbar nerves 1-5
 		- sacral nerves 1-5
 		- coccygeal nerve
+## Source[^2]
+- Pairs of nerves that arise from the spinal cord (compare CRANIAL NERVES). In humans there are 31 pairs (one from each of the vertebrae). Each nerve arises from a dorsal root and a ventral root and contains both motor and sensory fibres (i.e. they are mixed nerves). The spinal nerves form an important part of the peripheral nervous system.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (SHH) A protein that has a crucial role in patterning and development of tissues in vertebrates, particularly of the nervous and skeletal systems. It is homologous to Hedgehog protein, which performs a similar function in the fruit fly Drosophila$\textemdash$Hedgehog was so named because mutation of its gene in Drosophila produced flies bearing spiky denticles resembling the spines of a hedgehog. Sonic hedgehog, named after a video game character, is one of three proteins belonging to the Hedgehog family in vertebrates$\textemdash$the others being Desert hedgehog ( DHH ) and Indian hedgehog (IHH). It acts as a morphogen, influencing the fate of embryonic cells in the vicinity according to its source and concentration. For example, it is released by the notochord and induces the formation of floor plate cells and motor neurons along the ventral midline of the spinal cord. Patterning of developing limbs is also regulated by SHH released from an organizer group of cells (the zone of polarizing activity, or ZPA) at the base of each limb bud. The concentration of SHH conveys positional information about posterior-anterior polarity of the limb for developing limb structures.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

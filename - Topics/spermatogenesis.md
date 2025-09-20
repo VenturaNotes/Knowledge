@@ -13,6 +13,9 @@
 		- second meiotic division
 		- spermatid
 		- four spermatozoa
+## Source[^2]
+- The series of cell divisions in the testis that results in the production of spermatozoa. Within the seminiferous tubules of the testis germ cells grow and divide by mitosis to produce spermatogonia. These divide by mitosis to produce spermatocytes, which divide by meiosis to produce spermatids. The spermatids, which thus have half the number of chromosomes of the original germ cells, then develop into spermatozoa.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

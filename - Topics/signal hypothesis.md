@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A hypothesis to explain how ribosomes become attached to membranes within cells in order to deliver the appropriate proteins to cell organelles, such as mitochondria and chloroplasts, or transport proteins outside the cell membrane. It proposes that the leading end of the nascent polypeptide chain consists of a signal peptide. This sticks out from the ribosome and is recognized by a ribonucleoprotein particle called a signal recognition particle (SRP). When the complex of ribosome and SRP encounters a membrane, the SRP binds to a docking protein (signal recognition particle receptor) on the membrane surface. Synthesis of the polypeptide, which has hitherto been stalled, now resumes, and the polypeptide (or fully formed protein) passes into the membrane, where the signal peptide is removed by a signal peptidase enzyme. Once translation is completed, the ribosome dissociates and is freed from the membrane. It is thought that the signal sequence tags the protein for insertion at particular sites, by interacting with membrane-bound glycoproteins (signal sequence receptors). If the signal sequence is not the correct one, the ribosome is released before delivering its protein. The hypothesis, which was formulated in the early 1970s by workers including Günter Blobel (1936-2018) and César Milstein (1927-2002), is now widely accepted.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

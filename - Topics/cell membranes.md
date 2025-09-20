@@ -6,8 +6,6 @@ aliases:
   - plasma membrane
 ---
 ## Synthesis
-- 
-## Source[^1]
 - Surround cells separating their internal contents from the external environment
 	- Composed of a complex arrangement of [[lipids]], [[proteins]], and [[carbohydrates]]
 		- Provides essential function such as [[selective permeability]], [[cellular communication]], [[structural integrity]]
@@ -25,15 +23,11 @@ aliases:
 - Carbohydrates typically present on outer surface of the cell membrane
 	- attached to lipids or proteins forming [[glycolipids]] or [[glycoproteins]] respectively
 		- These carbohydrate chains ([[glycocalyx]]) participate in [[cell recognition]], [[adhesion]] and [[signaling events]].
-
-## Source[^2]
-- Cell membrane also referred to as plasma
-## Source[^3]
+### Description 2
 - Also called plasma membrane
 - It is a thin, flexible barrier that surrounds every living cell, separating the cell's interior from its external environment and regulating what enters and exits the cell by acting as a [[selective barrier]]
-
+## Source[^1]
+- Cell membrane also referred to as plasma
 ## References
 
-[^1]: ChatGPT
-[^2]: [[(3) 2-Minute Neuroscience - Membrane Potential]]
-[^3]: Google's Search Labs | AI Overview
+[^1]: [[(3) 2-Minute Neuroscience - Membrane Potential]]

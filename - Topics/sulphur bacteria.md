@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Any of various groups of unrelated bacteria that utilize sulphur, sulphide, or sulphate in their metabolism. The anaerobic photoautotrophic green sulphur bacteria have specialized cellular organelles called chlorosomes, which are essentially sacs containing bacteriochlorophylls and accessory pigments, making them highly efficient at photosynthesis in low light conditions. They oxidize sulphides as electron donors and produce elemental sulphur as a by-product. The photosynthetic pigments in purple sulphur bacteria (gamma proteobacteria) give them a range of colors from purple to orange; they also can oxidize hydrogen sulphide and yield sulphur as a by-product:  $$2 \mathrm{H}_{2} \mathrm{~S}+\mathrm{CO}_{2} \rightarrow \mathrm{H}_{2} \mathrm{O}+\mathrm{CH}_{2} \mathrm{O}+2 \mathrm{~S}$$The chemoautotrophic sulphur-oxidizing bacteria, such as Thiobacillus, derive energy from the oxidation of sulphur or its compounds (e.g. sulphide), producing sulphate $\left(\mathrm{SO}_{4}{ }^{2-}\right)$. The anaerobic heterotrophic sulphate-reducing bacteria, such as Desulfovibrio, require sulphate for respiration, deriving energy from its reduction to sulphur or hydrogen sulphide. The aerobic filamentous sulphur bacteria (e.g. Beggiatoa), which belong to the phylum Myxobacteria (gliding bacteria), can grow by oxidizing sulphides to sulphates.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

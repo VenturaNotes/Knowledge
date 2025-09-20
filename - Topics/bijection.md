@@ -4,13 +4,10 @@ aliases:
   - one-to-one correspondence
 ---
 ## Synthesis
-- 
-## Source [^1]
 - A function that is both [[injection|1-1]] and [[surjection|onto]]
 	- This means it has a perfect "pairing" between elements of the domain and codomain
 - Every element of the domain maps uniquely to an element of the codomain, and every element of the codomain is mapped to by some element of the domain
-
-## Source[^2]
+## Source[^1]
 - (one-to-one onto function) A function that is both an injection and a surjection. if
 
   
@@ -48,10 +45,9 @@ $$
   
 
 such that $f$ and $f^{-1}$ are inverses to each other; $f^{-1}$ will also be a bijection.
-## Source[^3]
+## Source[^2]
 - (bijective mapping) A one-to-one onto mapping, that is, a mapping that is both injective and surjective. Also known as a one-to-one correspondence.
 ## References
 
-[^1]: ChatGPT
-[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

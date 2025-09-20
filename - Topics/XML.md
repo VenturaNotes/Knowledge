@@ -104,7 +104,7 @@ If a real ampersand is required \& is used. Similarly the 'less than' symbol ( $
 
 XML documents may be associated with another document that defines which elements can appear and where. This second document can be a document type definition (see DTD) or an XML schema. The section of this dictionary's DTD that defines the structure of an 'en' element might look like this:
 
-$<$ !ELEMENT en (cod, hw, def)>
+< !ELEMENT en (cod, hw, def)>
 
 This means that every 'en' element must contain exactly one 'cod' element, followed by one 'hw' element, followed by one 'def' element. Changing this definition to
 
@@ -112,11 +112,12 @@ This means that every 'en' element must contain exactly one 'cod' element, follo
 
 would make the 'cod' element optional and would allow one or more 'def' elements. An XML document whose content is not only well-formed but also matches the structure laid down by its DTD or schema is said to be valid. Most XML parsers will check a document's validity and report any errors.
 
-  
 
 XML documents are associated with a particular DTD by a declaration at the head of the document. This can refer to a disk file or to an Internet address. The latter facility makes ensuring conformance to international standards very simple. For example, the declaration:
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+<<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+
+/>
 
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
 
@@ -127,6 +128,7 @@ XML schemas are more flexible and more powerful than DTDs; in particular, indivi
   
 
 The power of XML lies in the flexibility with which its rules can be applied to create document types suited to many purposes that nevertheless all use the same system of nested elements and attributes. As well as storing dictionary data and other text, XML is used for such different applications as RSS web feeds and specifying the interfaces of web services. Yet data for all these document types can be manipulated according to standard models using publicly available utilities. For example, all XML documents can be validated and parsed into a form that software can manipulate (usually a tree of objects, such as that specified by the Document Object Model); they can be transformed into another structure using an XSLT processor; and so on. There is usually no need to write bespoke software for these common tasks, which immediately gives XML a cost and efficiency advantage. Also, all XML data is held as Unicode text and so is platform-independent.
+
 ## References
 
-[^1]: [[Home Page - A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

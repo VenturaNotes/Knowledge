@@ -13,6 +13,9 @@
 		- spine of scapula
 		- coracoid process
 		- acromion
+## Source[^2]
+- (shoulder blade) (pl. scapulae or scapulas) The largest of the bones that make up each half of the pectoral (shoulder) girdle. It is a flat triangular bone, providing anchorage for the muscles of the forelimb and an articulation for the humerus at the glenoid cavity. It is joined to the clavicle (collar bone) in front.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

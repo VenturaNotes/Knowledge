@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - An application (such as [[Outlook]]) used to send, receive, and manage emails
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The study of the biological, chemical, and physical processes that change organisms after death, leading ultimately to their preservation as fossils in rock. The initial phase in this process is removal or decay of the organism's soft parts by scavengers or microbes. Thereafter the remaining hard parts, such as bones and shells, may undergo disarticulation and fragmentation, and are often moved from the site of death, for example by water currents or the wind. Exposure to such movements causes abrasion against other solid particles, and consequent erosion of sharp edges. Burial underneath sediment is common, resulting in flattening or collapse of shell or skeletal cavities, depending on their mechanical strength. The chemical components of the remains may also change; for example, the calcium carbonate of a shell may be converted from aragonite to calcite. Also, concretions of carbonates often form with shell cavities, sometimes protecting them from collapse. The physical and chemical processes occurring after burial of an organism's remains are termed diagenesis. Knowledge of all these processes, which may take thousands or millions of years, enables a fuller and more accurate interpretation of fossil remains.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

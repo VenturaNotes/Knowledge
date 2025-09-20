@@ -3,9 +3,9 @@ aliases:
   - layer 6
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Formats and translates data for the application layer
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

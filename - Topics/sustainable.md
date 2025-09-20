@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- Describing a system whose current state or conditions do not jeopardize its ability to function to its full potential over the long term. In terms of economic and social development, one of the earliest and most enduring definitions comes from the Brundtland Report of 1987, which describes 'sustainable development' as 'development which meets the needs of the present, without compromising the ability of future generations to meet their own needs'. In ecology, the concept is often used to assess the impact of human activities on ecosystems at various scales, from local to global. Criteria of ecological sustainability can thus vary, but include measures such as projected effects on biodiversity, habitats, resources (e.g. water, soil, air, minerals), and the climate. It is widely accepted that on current trends many aspects of human behavior and lifestyles are unsustainable, and are damaging crucial components of the global ecosystem and its ability to provide ecosystem services. Chief areas of concern are human population growth, resource depletion, pollution, misuse of the land and seas, and climate change. Moreover, these underlying impacts frequently have adverse social and political consequences, such as social instability, poverty, war, famine, and mass migration, which compound the problems. One of the United Nations’ Millennium Development Goals is to 'ensure environmental sustainability' by integrating the principles of sustainable development into the policies of member states. This remains a distant prospect, although such principles are steadily gaining wider appreciation and acceptance. See also ECOLOGICAL FOOTPRINT.
+- http://sustainabledevelopment.un.org/
+	- UN Sustainable Development Knowledge Platform
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

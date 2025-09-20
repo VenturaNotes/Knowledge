@@ -7,6 +7,9 @@
 - A [[population]] is a complete set of items about which information is required. It must be defined before selecting the sample or results may be ill-defined. The sample is the basis for inference about probability distributions of measurements on the population. Problems of sampling include avoidance of bias and selection of enough samples to ensure adequate precision.
 - [[Random sampling]] is the process that results in each item having the same probability of inclusion in the sample. Items may be selected with the aid of tables of random numbers or with mechanical devices such as cards or coins.
 - Systematic sampling selects items in some regular manner. It is valid when the order in which items are encountered is irrelevant to the question under study, but can be an unintentional source of bias.
+## Source[^2]
+- In statistics and experimental design, the selection of a small group of entities to represent a larger population of entities. In random sampling, a chance process is used so that each individual of a population has an equal chance of being selected as part of the sample. In stratified sampling, the population is divided into subgroups or strata (e.g. male and female), and the number of individuals chosen from each corresponds to the relative size of that group within the population. In systematic sampling, individuals are chosen at fixed intervals; for example, every tenth animal in a population. In sampling with replacement, each individual chosen is returned to the general pool before the next selection is made (with the effect that some items may be selected more than once).
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,9 +1,6 @@
 ## Synthesis
-- 
-## Source [^1]
 - In every subnet, this IP address is reserved and is the first IP in the range
-
-## Source[^2]
+## Source[^1]
 - Generally refers to address that identifies a specific network segment
 - Network address often derived from an [[IP addresses|IP address]] and its [[subnet mask]].
 - Example
@@ -11,5 +8,4 @@
 		- This address represents the entire network and not a specific device
 ## References
 
-[^1]: ChatGPT
-[^2]: https://www.quora.com/Is-a-network-address-the-same-as-an-IP-address
+[^1]: https://www.quora.com/Is-a-network-address-the-same-as-an-IP-address

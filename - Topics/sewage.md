@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- Waste matter from industrial and domestic sources that is dissolved or suspended in water. Raw (untreated) sewage is a pollutant. It has a high content of organic matter (notably faeces and nitrogenous waste) and therefore provides a rich source of food for many decomposers (bacteria, fungi) and detritivores, some of which are pathogenic to humans. The release of raw (untreated) sewage into a river causes eutrophication (see eutrophic); there is a sudden increase in the biochemical oxygen demand (BOD), as the organisms that feed on sewage proliferate and use up the available dissolved oxygen in the river. Oxygen-sensitive organisms, such as fish, will die. Certain organisms can proliferate in particular concentrations of sewage, depending on their tolerance, and can be used as markers of the extent to which a river is polluted by sewage. For example, Tubifex worms are able to tolerate high concentrations of sewage.
+- Sewage can be treated before release. This involves a number of stages, including filtration, sedimentation, and microbial degradation (notably by methanogens). When most of the solid waste has been removed, the remaining liquid (effluent) is discharged into rivers, etc. During sedimentation, particulate organic matter accumulates at the bottom of large tanks. This material, known as sludge, is periodically removed, further decomposed by microorganisms (see ACTIVATED SLUDGE PROCESS), and then sold as fertilizer or dumped.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

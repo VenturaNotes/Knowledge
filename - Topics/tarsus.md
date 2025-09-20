@@ -15,6 +15,9 @@
 		- Cuneiform bones
 		- Metatarsus
 		- Phalanges
+## Source[^2]
+- (pl. tarsi) The ankle (or corresponding part of the hindlimb) in terrestrial vertebrates, consisting of a number of small bones (tarsals). The number of tarsal bones varies with the species: humans, for example, have seven.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

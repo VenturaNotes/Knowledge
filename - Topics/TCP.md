@@ -4,7 +4,6 @@ aliases:
 ---
 ## Synthesis
 - They are defined by [[Request for Comments|requests for comments]] (RFCs). 
-
 ## Source[^1]
 - Defined by RFCs
 ## Source[^2]

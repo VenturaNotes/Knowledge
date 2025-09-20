@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (pl. spectra) A range of electromagnetic energies arrayed in order of increasing or decreasing wavelength or frequency. The emission spectrum of a body or substance is the characteristic range of radiations it emits when it is heated, bombarded by electrons or ions, or absorbs photons. The absorption spectrum of a substance is produced by examining, through the substance and through a spectroscope, a continuous spectrum of radiation. The energies removed from the continuous spectrum by the absorbing medium show up as black lines or bands; with a substance capable of emitting a spectrum these are in exactly the same positions in the spectrum as the emission lines and bands would occur in the emission spectrum.
+- Emission and absorption spectra may show a continuous spectrum, a line spectrum, or a band spectrum. A continuous spectrum contains an unbroken sequence of frequencies over a relatively wide range; it is produced by incandescent solids, liquids, and compressed gases. Line spectra are discontinuous lines produced by excited atoms and ions as they fall back to a lower energy level. Band spectra (closely grouped bands of lines) are characteristic of molecular gases or chemical compounds. Absorption spectra of chlorophylls and other photosynthetic pigments are important in the study of photosynthesis. See ACTION SPECTRUM.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
