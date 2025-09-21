@@ -9,6 +9,11 @@
 		- endothelium
 		- thin tunica media
 		- tunica adventitia
+## Source[^2]
+- (1) A blood vessel that carries blood towards the heart. Most veins carry deoxygenated blood (the pulmonary vein is an exception). The largest veins are fed by smaller ones, which are formed by the merger of venules. Veins have thin walls and a relatively large internal diameter. Valves within the veins ensure that the flow of blood is always towards the heart. Compare ARTERY. 
+- (2) A vascular bundle in a leaf (see VENATION). 
+- (3) Any of the tubes of chitin that strengthen an insect's wing.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

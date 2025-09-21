@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The promotion of flowering by exposure of a plant to low temperatures. For example, winter cereals will not flower unless subjected to a period of chilling early in their development. Winter cereals are therefore sown in the autumn for flowering the following year. However, if germinating seeds are artificially vernalized they can be sown in the spring for flowering the same year. Biennial plants, such as carrot (Daucus carota), will remain in their nonflowering rosette form until subjected to cold treatment. For vernalization to be effective, the plant tissue must be actively metabolizing and supplied with carbohydrate (i.e. energy) and oxygen. In biennials, perception of the cold stimulus is confined to the shoot apex, and cold treatment of other parts of the plant is ineffective. Studies in thale cress (Arabidopsis thaliana) have shown that flowering is suppressed by high concentrations of a protein called FLC (Flowering locus C). Levels of FLC fall when the plant is exposed to prolonged cold, mediated by other proteins that cause chromatin remodelling of the FLC gene. This cessation of FLC production enables flowering genes to be switched on and flowers to be produced as the vernalized plant develops during the ensuing spring. However, this mechanism does not seem to be conserved in other species, such as wheat.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

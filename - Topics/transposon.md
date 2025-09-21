@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (transposable genetic element) A mobile genetic element, known informally as a 'jumping gene', that can become integrated at many different sites in the genome, either by moving from place to place or by producing copies of itself that insert elsewhere in the genome. The simplest types are known as insertion sequences, typically found in bacteria and consisting of some 700-2500 base pairs and with numerous short repeated nucleotide sequences at either end. Larger and more complex are the composite transposons, which consist of a central portion, possibly containing functional genes, flanked by insertion sequences at either end. Transposons were first discovered by the US geneticist Barbara McClintock (1902-92) in maize in the 1940s and have since been found in other eukaryotes and in prokaryotes. They can disrupt gene expression or cause deletions and inversions, and hence affect both the genotype and phenotype of the organisms concerned. However, most eukaryotic transposons are retrotransposons, which form RNA copies of themselves in a manner similar to the replication of retroviruses. Transposons account for a sizable proportion of the repetitive DNA in eukaryotes$\textemdash$making up around $45 \%$ of the human genome and $85 \%$ of the maize genome. See also Alu family.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

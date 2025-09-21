@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (UCP) Any of a family of proteins that uncouple electron transport from oxidative phosphorylation in mitochondria, so that the energy derived from aerobic tissue respiration is released chiefly as heat instead of being used to make ATP. The archetype is the UCP found in brown fat, a type of adipose tissue associated with newborn or hibernating mammals. Called UCP1, or thermogenin, it enables oxidation of fat reserves within the tissues to generate heat (see THERMOGENESIS), which is vital to combat cold stress in small mammals or when awakening from hibernation. It works by promoting the leakage of protons back into the mitochondrial matrix across the inner mitochondrial membrane, thus abolishing the electrochemical gradient necessary for ATP production according to the chemiosmotic theory. Similar UCPs occur in a wide range of eukaryotic organisms, including plants, fungi, and protists. Plant uncoupling proteins are thought mainly to control the production of reactive oxygen species in mitochondria and to regulate levels of respiration in response to stress. See also alternative RESPIRATORY PATHWAY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

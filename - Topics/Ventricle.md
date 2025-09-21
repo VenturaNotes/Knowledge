@@ -18,6 +18,10 @@ aliases:
 		- foramen of Monro (interventricular foramen)
 		- third ventricle
 		- cerebral aqueduct
+## Source[^2]
+- (1) A chamber of the heart that receives blood from an atrium and pumps it into the arterial system. Amphibians and fish have a single ventricle, but mammals, birds, and reptiles have two, pumping deoxygenated blood to the lungs and oxygenated blood to the rest of the body, respectively. 
+- (2) Any of the four linked fluid-filled cavities in the brain of vertebrates. One of these cavities is in the medulla oblongata, two are in the cerebral hemispheres (see CEREBRUM), and the fourth is in the posterior part of the forebrain. The ventricles contain cerebrospinal fluid filtered from the blood by the choroid plexus.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

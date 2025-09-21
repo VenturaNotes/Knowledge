@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (anti-oncogene) Any of a class of genes that suppress the development of cancers in living cells. The products of tumour-suppressor genes are typically involved in monitoring replication of DNA and progress of the cell cycle and in promoting repair of damaged DNA. Hence, mutation and consequent loss of activity of such genes leads to the formation of tumours. For example, development of the childhood cancer of retinal cells, known as retinoblastoma, is caused by loss of the chromosome segment containing the tumour-suppressor gene $R B$. This codes for a protein, retinoblastoma protein, that restrains cell proliferation. The RB tumour-suppressor protein can also be inactivated by an oncoprotein encoded by an adenovirus; this is the mechanism by which such DNA tumour viruses cause cancer. Another common tumour-suppressor gene is the p53 gene, mutations of which are linked to about half of all human cancers. Its product, a $53\text{-}\mathrm{kDa}$ protein, acts as a key transcription factor for genes that encode cell cycle-inhibiting proteins. If genetic damage has occurred, the p53 protein halts the cell cycle to allow repair of the faulty DNA. If the damage is severe, it can trigger cell death.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

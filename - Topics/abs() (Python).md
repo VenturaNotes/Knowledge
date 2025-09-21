@@ -8,7 +8,6 @@ aliases:
 - Returns [[absolute value]] of a given number.
 	- Converts negative numbers to positive and leaves positive numbers unchanged
 - When evaluating a number, it can be an integer, float, or a complex number
-
 ### Examples
 ```python
 # Integers
@@ -39,7 +38,6 @@ print(y) #Output: 30
 
 ## Source[^2]
 - function built into the Python interpreter
-
 ## References
 
 [^1]: ChatGPT

@@ -11,6 +11,9 @@
 		- clitoris
 		- labium minoris
 		- vaginal opening
+## Source[^2]
+- The female external genitalia, comprising in women two sets of skin folds surrounding the opening to both the vagina and (just in front) the urethra. The thicker, outer folds are the labia majora, and the thinner, inner folds are the labia minora; the latter meet in front to partially enclose the erectile clitoris. See LABIUM.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

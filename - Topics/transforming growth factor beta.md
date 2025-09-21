@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (TGF-$\boldsymbol{\beta}$) Any of several related proteins, including the multifunctional transforming growth factor beta-1 (TGF-$\beta 1$). The latter controls many cell functions, including proliferation, differentiation, bone remodelling, collagen formation, and immune cell development. TGF-$\beta 1$ is secreted by diverse cells, and numerous cells have specific receptors for it. It positively and negatively regulates many other growth factors. Somatic mutations in the TGF-$\beta 1$ gene are associated with certain cancers. TGFs give their name to a large superfamily of proteins, including bone morphogenetic proteins, that act as cytokines for a wide range of cell types in animals, both during development and in adults. They regulate cell growth, division, adhesion, and differentiation, cell migration, and programmed cell death (apoptosis), and stimulate or repress other growth factors. Inhibin is a TGF family member that regulates sperm formation and maturation of ovarian follicles. Transforming growth factor alpha (TGF-$\boldsymbol{\alpha}$) is a member of the epidermal growth factor family of cytokines.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

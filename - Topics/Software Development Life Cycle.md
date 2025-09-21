@@ -5,8 +5,6 @@ aliases:
   - development cycle
 ---
 ## Synthesis
-- 
-## Source [^1]
 - The development cycle is the process of designing, developing, testing, and deploying software. It usually includes phases like planning, design, implementation (coding), testing, deployment, and maintenance.
 	- #question how is software deployed. Are dockers the only way to do this?
 - The full SDLC usually includes these phases:
@@ -21,6 +19,8 @@ aliases:
 		- #question how does deployment work? Where is the software being released to?
 	- Maintenance & Support – Fix bugs, update features, and optimize performance post-release.
 		- #question How can updates be pushed without building the entire software or application again?
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Any of a family of proteins that are involved in signal transduction pathways crucial in regulating cell proliferation, differentiation, and survival, both during embryological development and in later life. The components of the WNT signal pathway show marked similarity in a wide range of organisms, both invertebrates and vertebrates, signifying the pathway's fundamental role and ancient origin. The prototypical family member is encoded by the wingless gene (named after the effects of its mutation) in the fruit fly Drosophila. The Wingless protein (WG) plays a vital part in establishing the segment polarity of the embryonic fly (see SEGMENTATION GENES). It binds to the receptor protein Frizzled, which through the mediation of other pathway components, including the protein Dishevelled, causes the accumulation of $\beta$-catenin (see CATENIN) in the cytosol. This migrates to the nucleus, where it interacts with the transcription factor TCF (T-cell factor) to activate transcription of target genes. The homologous gene in mammals, Wnt1, acts through a similar pathway. WNT1 protein binds to receptors of the Frizzled family and is involved in development of the central nervous system. Other members of the WNT family have roles in the patterning of various tissues.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Any ion channel that opens and closes in response to changes in electrical potential across the cell membrane in which the channel is situated. There are several types of voltage-gated channel, each allowing the selective passage of a particular ion. Two types are especially important in transmitting action potentials along axons: voltage-gated sodium channels and voltage-gated potassium channels. The sodium channels open rapidly in response to initial depolarization of the axon plasma membrane, allowing sodium ions $\left(\mathrm{Na}^{+}\right)$to flood in. Depolarization also triggers less rapid opening of the potassium channels, which permits outflow of potassium ions $\left(\mathrm{K}^{+}\right)$, thus acting to restore the membrane potential to its resting state. Voltage-dependent calcium channels also carry some of the depolarizing current in some cells. The sodium channel protein has positively charged voltage-sensing regions, which move towards negative charges on the outer surface of the membrane when the latter becomes depolarized. This opens the channel, allowing passage of sodium ions. Within a millisecond of channel opening, the voltage-sensing region returns to its original location, and a channel-inactivating segment moves to block the channel and allow the channel protein to revert to its resting state. See also Calcium ION CHANNEL; POTASSIUM ION CHANNEL; SODIUM ION CHANNEL.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
