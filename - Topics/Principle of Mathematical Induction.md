@@ -4,8 +4,6 @@ aliases:
   - induction
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Used to prove statements about natural numbers
 - Consists of two steps
 	- Base Case: Prove that the statement holds for the smallest number in the domain (usually n = 0 or n = 1)
@@ -17,7 +15,8 @@ aliases:
 	- Assume $S(k)$ is true, and use it to prove $S(k + 1)$ 
 	- #question What is the complete solution?
 	- #question Is the colon there appropriate? 
-
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

@@ -30,6 +30,8 @@ aliases:
 - A quantity which is liable to change. Economic variables may measure prices, interest rates, income levels, quantities of goods, etc. An exogenous variable is one where the changes originate from causes outside the scope of a given model; an endogenous variable is determined within the model. See also RANDOM VARIABLE.
 ## Source[^6]
 - $n$. (in statistics) any characteristic (e.g. age, lifestyle, or habit) relating to an individual or group that can take a number of different values. Categorical or qualitative variables are descriptive characteristics, such as sex, race, or occupation; quantitative variables relate to a numerical scale and are subdivided into discrete variables, found only at fixed points (e.g. number of children), and continuous variables, found at any point on a scale (e.g. weight). See also CONFOUNDING; CORRELATION.
+## Source[^7]
+- In statistics and research, any characteristic relating to an individual or group that can take a number of different values. Categorical or qualitative variables are descriptive characteristics, such as sex or species; quantitative variables relate to a numerical scale and are subdivided into discrete variables, found only at fixed points (e.g. number of offspring), and continuous variables, found at any point on a scale (e.g. weight). See also CONFOUNDING; CORRELATION.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-2-programming-fundamentals-quizzes/2-2-programming-fundamentals-quiz-10-questions/
@@ -38,3 +40,4 @@ aliases:
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^6]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^7]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

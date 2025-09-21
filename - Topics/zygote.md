@@ -7,8 +7,11 @@
 		- A zygote carries genetic information from both parents, making it diploid
 ## Source[^3]
 - $n$. the fertilized ovum before cleavage begins. It contains both male and female pronuclei.
+## Source[^4]
+- A fertilized female gamete: the product of the fusion of the nucleus of the ovum or ovule with the nucleus of the sperm or pollen grain. See FERTILIZATION.
 ## References
 
 [^1]: https://highered.mheducation.com/sites/0072919345/student_view0/chapter10/multiple_choice_quiz.html
 [^2]: Google's Search Labs | AI Overview
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

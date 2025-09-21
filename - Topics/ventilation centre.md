@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Two paired groups of neurons (i.e. nuclei, sense 2) in the medulla oblongata of the brain that control the process of breathing (i.e.ventilation). The partial pressure of carbon dioxide in the blood and the pH of the blood are monitored by chemoreceptors in the arteries and on the surface of the medulla. These include the carotid bodies in the carotid arteries and the aortic bodies in the wall of the aorta close to the heart. The ventilation centre responds to an increase in the amount of carbon dioxide in the blood by increasing the rate of breathing. The nuclei comprising the ventral respiratory group have both inspiratory and expiratory neurons and set the basic respiratory rhythm, while the dorsal respiratory group (see INSPIRATORY CENTRE) alters the basic rhythm in response to the body's oxygen requirements. The pontine respiratory centre, located in the pons, fine-tunes breathing during activities such as speaking, exercise, and sleeping. Furthermore, conscious centres within the cerebral cortex can override the involuntary control mechanisms, e.g. during singing or holding of breath. Changes in the rate and depth of breathing are achieved by nerve impulses sent from the ventilation centre to the muscles of the ribs and diaphragm. A negative feedback circuit prevents overexpansion of the lungs.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

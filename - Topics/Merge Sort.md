@@ -3,7 +3,9 @@ aliases:
   - mergesort
 ---
 ## Synthesis
-- 
+- A divide and Conquer algorithm
+- Recursively divides the array into halves, sorts them, and merges them back.
+	- #question Could you show an example and python sample code for it?
 ## Source [^1]
 Python Code
 ```python
@@ -52,14 +54,8 @@ Dry run of video
 ### Complexities
 Time Complexity: $O(nlog(n))$
 Space Complexity: $O(n)$ 
-
-## Source[^4]
-- A divide and Conquer algorithm
-- Recursively divides the array into halves, sorts them, and merges them back.
-	- #question Could you show an example and python sample code for it?
 ## References
 
 [^1]: https://www.youtube.com/watch?v=cVZMah9kEjI
 [^2]: https://www.youtube.com/watch?v=Axva2VdsXkk
 [^3]: https://medium.com/karuna-sehgal/a-simplified-explanation-of-merge-sort-77089fe03bb2
-[^4]: ChatGPT

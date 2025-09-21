@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (UV) Electromagnetic radiation having wavelengths between that of violet light and long X-rays, i.e. between 400 nanometres and 4 nm. In the range 400-300 nm the radiation is known as the near ultraviolet. In the range 300-200 nm it is known as the far ultraviolet. Below 200 nm it is known as the extreme ultraviolet or the vacuum ultraviolet, as absorption by the oxygen in the air makes the use of evacuated apparatus essential. The sun is a strong emitter of UV radiation but only some reaches the surface of the earth. Ultraviolet radiation is classified in three ranges: UV-A (320-400 nm), UV-B (290-320 nm), and UV-C (230-290 nm). All UV-C and some UV-B radiation is absorbed by the ozone layer in the atmosphere, so that $95 \%$ of UV reaching the earth's surface is UV-A. The shorter the wavelength, the more harmful but less penetrating to skin; however, all UV radiation is considered potentially harmful, causing burning, pigmentation (tanning), premature ageing of skin, and skin cancers. The risk of skin cancers has been increased by the depletion of the ozone layer. UV radiation is used clinically in the treatment of certain skin complaints, such as psoriasis. It is also used to induce vitamin D formation in patients who are allergic to vitamin D preparations.
+- Most UV radiation for practical use is produced by various types of mercury-vapour lamps. Ordinary glass absorbs UV radiation and therefore lenses and prisms for use in the UV are made from quartz.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

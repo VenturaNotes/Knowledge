@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
 - A branch of mathematical logic and computer science that serves as an alternative foundation for mathematics and computation.
 	- #question What other types of foundation for mathematics and computation are there? 
 	- Instead of working with sets through [[set theory]], type theory organizes [[mathematical objects]] into types
@@ -18,8 +16,7 @@
 			- #question how does it do this?
 ### Key Ideas in Type Theory
 - [[Dependent Types]]: Types that depend on values. For example, a type might represent vectors of a certain length, where the length is part of the type.
-
-## Source[^2]
+## Source[^1]
 - In type theory, the basic object of study is a [[type (type theory)|type]]. Here are some types:
 	- $\mathbb{N}$ ([[natural numbers]])
 	- $\mathbb{Z}$ ([[integers]])
@@ -49,15 +46,15 @@
 	- A collection of such rules is known as [[type theory]]
 - There are "obvious" judgements such as $x : A \vdash x : A$ which always hold
 	- #question How is this an obvious judgement?
-	- X $\vdash$ Y means "The Information in X lets you prove that Y is true". You can read this as "X says that Y is true"[^3]
-	- The $\vdash$ is known as the [[turnstile symbol]][^4]
+	- X $\vdash$ Y means "The Information in X lets you prove that Y is true". You can read this as "X says that Y is true"[^2]
+	- The $\vdash$ is known as the [[turnstile symbol]][^3]
 ### Function Types (AKA Lambda Calculus)
 - [[Function Types]]
-## Source[^5]
+## Source[^4]
 - A [[type formation rule]] 
 ## References
-[^1]: ChatGPT
-[^2]: https://math.berkeley.edu/~forte/notes/type_theory.pdf
-[^3]: https://cs.stackexchange.com/questions/41834/type-theory-notation-troubles
-[^4]: https://en.wikipedia.org/wiki/Turnstile_(symbol)#:~:text=In%20Unicode%2C%20the%20turnstile%20symbol,assertion%20sign%20(%E2%8A%A6).)
-[^5]: https://ncatlab.org/nlab/show/type+formation
+
+[^1]: https://math.berkeley.edu/~forte/notes/type_theory.pdf
+[^2]: https://cs.stackexchange.com/questions/41834/type-theory-notation-troubles
+[^3]: https://en.wikipedia.org/wiki/Turnstile_(symbol)#:~:text=In%20Unicode%2C%20the%20turnstile%20symbol,assertion%20sign%20(%E2%8A%A6).)
+[^4]: https://ncatlab.org/nlab/show/type+formation

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (T tubules) A series of infoldings of the plasma membrane (sarcolemma) of skeletal muscle fibres that envelop each myofibril at the Z line (see SARCOMERE). The T tubules transfer action potentials from the sarcolemma to the sarcoplasmic reticulum, which releases calcium ions $\left(\mathrm{Ca}^{2+}\right)$ into the cytosol causing contraction of the muscle fibres. This release is accomplished by the action of two types of receptors: dihydropyridine (DHP) receptors in the wall of the T tubule; and ryanodine receptors in the sarcoplasmic reticulum membrane, which act as $\mathrm{Ca}^{2+}$ channels. Each DHP receptor is physically linked to a ryanodine receptor. An action potential arriving in the T tubule triggers a change in shape of the DHP receptors. This causes the associated ryanodine receptor channels to open, allowing $\mathrm{Ca}^{2+}$ to flow out of the sarcoplasmic reticulum into the sarcoplasm. This affects the binding properties of the proteins troponin and tropomyosin, leading to the interaction of actin and myosin filaments that produces muscle contraction. In the absence of further action potentials, calcium pumps in the sarcoplasmic reticulum membrane remove the $\mathrm{Ca}^{2+}$ from the sarcoplasm and restore the resting state of the muscle fibre.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

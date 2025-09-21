@@ -18,9 +18,13 @@ aliases:
 - $n$. 
 - (1) an animal, usually an insect or a tick, that transmits parasitic microorganisms $\textendash$ and therefore the diseases they cause $\textendash$ from person to person or from infected animals to human beings. Mosquitoes, for example, are vectors of malaria, filariasis, and yellow fever. 
 - (2) an agent used to insert a foreign gene or DNA fragment into a bacterial or other cell in genetic engineering and gene therapy. Viruses, especially retroviruses, are often used as vectors: once inside the host cell, the virus can replicate and thus produce copies (clones) of the gene.
+## Source[^5]
+- (1) An animal, usually an insect, that passively transmits disease-causing microorganisms from one animal or plant to another or from an animal to a human. Compare CARRIER. 
+- (2) (cloning vector) A vehicle used in gene cloning to insert a foreign DNA fragment into the genome of a host cell. For bacterial hosts several different types of vector are used: bacteriophages, artificial chromosomes, plasmids, and their hybrid derivatives, cosmids. The foreign DNA is spliced into the vector using specific restriction enzymes and DNA ligases to cleave the vector DNA and join the foreign DNA to the two ends created (insertional vectors). In some phage vectors, part of the viral genome is enzymically removed and replaced with the foreign DNA (replacement vectors). Retroviruses can be effective vectors for introducing recombinant DNA into mammalian cells. In plants, derivatives of the tumour-inducing (Ti) plasmid of the crown gall bacterium, Agrobacterium tumefaciens, are used as vectors. See also EXPRESSION VECTOR.
 ## References
 
 [^1]: https://www.rpi.edu/dept/phys/Courses/PHYS4210/S10/NotesOnVectors.pdf
 [^2]: [[(7) Angle Between 2 Vectors (Formula)]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

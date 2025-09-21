@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- A terrestrial biome characterized by a lack of trees and a permanently frozen subsoil. Tundra lies to the north of the taiga in North America and Eurasia; the vegetation is dominated by grasses, sedges, lichens, mosses, heathers, and low shrubs. The growing season, which occurs during the warmest part of the year when the average daily mean temperature is about $10^{\circ} \mathrm{C}$, lasts only $2\text{-}4$ months, during which the topsoil thaws to a depth of 30 cm , allowing roots to penetrate it. However, below this level the soil is permanently frozen (permafrost); water cannot filter through the soil and may lie in surface depressions during the growing season. Global warming is now affecting the ecology and economy of tundra regions dramatically. By the mid-21st century, the area of permafrost in the northern hemisphere is predicted to decline by around $20\text{-}35 \%$, and by 2080 the depth of thawing is expected to increase by $30\text{-}50 \%$. This will release large amounts of carbon that hitherto have been 'locked' in the frozen soil, thereby exacerbating the warming process. Already, buildings and other structures erected on permafrozen ground are subsiding and craters are forming, causing disruption of infrastructure and dislocation of communities. Many Arctic lakes are draining away and disappearing, with profound impacts on river flows, aquatic biodiversity, and fisheries. Compare taiga.
 ## References
 
-[^1]:
+[^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
