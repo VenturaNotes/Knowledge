@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A theory of judgement and attitude change according to which a judge's initial judgement or attitude acts as an anchor, so that items of information or persuasive communications that are not very discrepant from the anchor and that therefore fall within the person's latitude of acceptance are assimilated, the person's judgement or attitude changing in the direction of the communication, whereas items of information or persuasive communications that are highly discrepant produce either minimal change if they fall within the person's latitude of neutrality or produce contrast effects if they fall within the latitude of rejection, the person's judgement or attitude changing in the opposite direction. Attitudes associated with high ego involvement tend to have narrow latitudes of acceptance and wide latitudes of rejection, and the reverse applies to attitudes of low ego involvement. A consequence of this theory is that an extreme and ego-involving judgement or attitude tends to be polarized (to become even more extreme) in response to most types of information or persuasive communications. The theory was formulated in 1961 by the US-based Turkish psychologist Muzafer Sherif (1906-88) and the US psychologist Carl I(vor) Hovland (1912-61). See also boomerang EFFECT, CONTRAST (5), DISCREPANCY EFFECTS, FALSE-CONSENSUS EFFECT. Compare ADAPTATION-LEVEL THEORY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

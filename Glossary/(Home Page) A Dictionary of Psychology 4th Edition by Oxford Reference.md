@@ -704,202 +704,235 @@ Reviewed: false
 	560. [[antigen]]
 	
 	561. antigen-antibody response
-	562. antihistamine
-	563. antimanic
-	564. antimorph
-	565. antinomy
-	566. antiparkinsonian
-	567. antipsychiatry
+		1. $n$. Another name for an immune response.
+	562. [[antihistamine]]
+	563. [[antimanic]]
+	564. [[antimorph]]
+	565. [[antinomy]]
+	566. [[antiparkinsonian]]
+	567. [[antipsychiatry]]
 	568. antipsychotic
-	569. antisocial personality disorder
-	570. Anton's syndrome
+		1. n. Another name for a neuroleptic (1).
+	569. [[antisocial personality disorder]]
+	570. [[Anton's syndrome]]
 	
-	571. antonym
-	572. antonym test
-	573. anvil
-	574. anxiety
-	575. anxiety disorders
-	576. anxiety hysteria
-	577. anxiety neurosis
-	578. anxiolytic
+	571. [[antonym]]
+	572. [[antonym test]]
+	573. [[anvil]]
+	574. [[anxiety]]
+	575. [[anxiety disorders]]
+	576. [[anxiety hysteria]]
+	577. [[anxiety neurosis]]
+	578. [[anxiolytic]]
 	579. anxious personality disorder
-	580. apathy
+		1. n. Another name for avoidant personality disorder.
+	580. [[apathy]]
 	
-	581. Apgar score
-	582. aphagia
-	583. aphakia
-	584. aphanisis
-	585. aphasia
-	586. aphemia
-	587. aphonia
-	588. aphorism
+	581. [[Apgar score]]
+	582. [[aphagia]]
+	583. [[aphakia]]
+	584. [[aphanisis]]
+	585. [[aphasia]]
+	586. [[aphemia]]
+	587. [[aphonia]]
+	588. [[aphorism]]
 	589. aphrasia
-	590. aphrodisiac
+		1. $n$. Another name for mutism. \[From Greek $a$- without + phrazein to express + -ia indicating a condition or quality]
+	590. [[aphrodisiac]]
 	
-	591. Aplysia
-	592. apnoea
-	593. apocrine
-	594. Apollonian
-	595. apomorphine
-	596. apoplexy
-	597. apoptosis
-	598. apostatic selection
-	599. a posteriori
-	600. a posteriori test
+	591. [[Aplysia]]
+	592. [[apnoea]]
+	593. [[apocrine]]
+	594. [[Apollonian]]
+	595. [[apomorphine]]
+	596. [[apoplexy]]
+	597. [[apoptosis]]
+	598. [[apostatic selection]]
+	599. [[a posteriori]]
+	600. [[a posteriori test]]
 	
-	601. apostrophe
-	602. apotemnophilia
-	603. apparent movement
-	604. appeasement behaviour
-	605. apperception
+	601. [[apostrophe]]
+	602. [[apotemnophilia]]
+	603. [[apparent movement]]
+	604. [[appeasement behavior]]
+	605. [[apperception]]
 	606. apperceptive agnosia
-	607. apperceptive mass
-	608. appestat
-	609. appetite
-	610. appetitive behaviour
+		1. See agnosia
+	607. [[apperceptive mass]]
+	608. [[appestat]]
+	609. [[appetite]]
+	610. [[appetitive behavior]]
 	
-	611. appetitive phase
-	612. apples
-	613. applied behaviour analysis
-	614. applied psychology
-	615. applied research
+	611. [[appetitive phase]]
+	612. [[apples]]
+	613. [[applied behavior analysis]]
+	614. [[applied psychology]]
+	615. [[applied research]]
 	616. apprehension span
-	617. approach-approach conflict
-	618. approach-avoidance conflict
-	619. approximant
+		1. See span of apprehension
+	617. [[approach-approach conflict]]
+	618. [[approach-avoidance conflict]]
+	619. [[approximant]]
 	620. approximate answers
+		1. See ganser syndrome
 	
-	621. approximation to language
-	622. appurtenance
-	623. apraxia
-	624. a priori
+	621. [[approximation to language]]
+	622. [[appurtenance]]
+	623. [[apraxia]]
+	624. [[a priori]]
 	625. a priori probability
+		1. n. Another name for a prior probability (2).
 	626. a priori test
+		1. n. Another name for a planned comparison
 	627. a priori validity
-	628. aprosexia
-	629. aprosodia
-	630. aptitude
+		1. n. Another name for face validity
+	628. [[aprosexia]]
+	629. [[aprosodia]]
+	630. [[aptitude]]
 	
-	631. aptitude test
-	632. aptronym
+	631. [[aptitude test]]
+	632. [[aptronym]]
 	633. aqueduct of Sylvius
-	634. aqueous humour
-	635. arachnoid membrane
-	636. arachnoid space
-	637. Arago phenomenon
-	638. arboreal
-	639. arborization
-	640. archaecortex
+		1. $n$. Another name for the cerebral aqueduct. \[From Latin aqua water + ducere, ductum to lead, named after the French anatomist Sylvius (1478-1555), also called Jacques Dubois, who discovered it]
+	634. [[aqueous humour]]
+	635. [[arachnoid membrane]]
+	636. [[arachnoid space]]
+	637. [[Arago phenomenon]]
+	638. [[arboreal]]
+	639. [[arborization]]
+	640. [[archaecortex]]
 	
-	641. archetypal form
-	642. archetype
-	643. Archimedes spiral
+	641. [[archetypal form]]
+	642. [[archetype]]
+	643. [[Archimedes spiral]]
 	644. arctic hysteria
-	645. arcuate fasciculus
-	646. arcuate nucleus
-	647. area postrema
+		1. See pibloktoq.
+	645. [[arcuate fasciculus]]
+	646. [[arcuate nucleus]]
+	647. [[area postrema]]
 	648. Areas V1, V2, V3, V4, V5, V6, V7, V8
-	649. argot
-	650. Argyll Robertson pupil
+		1. See visual cortex. Compare brodmann area
+	649. [[argot]]
+	650. [[Argyll Robertson pupil]]
 	
-	651. ARIMAabbrev.
-	652. Aristotle's illusion
-	653. arithmetic mean
+	651. [[ARIMA]]
+	652. [[Aristotle's illusion]]
+	653. [[arithmetic mean]]
 	654. armchair experiment
-	655. arms race
-	656. Army Alpha and Beta tests
-	657. Army General Classification Test
-	658. aromatic
-	659. arousal
-	660. arousal phase
+		1. $n$. Another name for a Gedankenexperiment.
+	655. [[arms race]]
+	656. [[Army Alpha and Beta tests]]
+	657. [[Army General Classification Test]]
+	658. [[aromatic]]
+	659. [[arousal]]
+	660. [[arousal phase]]
 	
-	661. arrangement problem
-	662. Arrow's impossibility theorem
-	663. artefact
+	661. [[arrangement problem]]
+	662. [[Arrow's impossibility theorem]]
+	663. [[artefact]]
 	664. arteriogram
-	665. arteriosclerosis
-	666. articulation
+		1. $n$. Another name for an angiogram. arteriography $n$. Another name for angiography. \[From Greek arteria an artery + gramme a line]
+	665. [[arteriosclerosis]]
+	666. [[articulation]]
 	667. articulation disorder
-	668. articulatory coding
+		1. $n$. Another name for phonological disorder.
+	668. [[articulatory coding]]
 	669. articulatory loop
+		1. $n$. Another name for a subvocal rehearsal loop. Also called an articulatory rehearsal loop.
 	670. articulatory store
+		1. $n$. Another name for a subvocal rehearsal loop.
 	
 	671. artifact
-	672. artificial insemination
-	673. artificial intelligence
-	674. artificial language
+		1. See artefact
+	672. [[artificial insemination]]
+	673. [[artificial intelligence]]
+	674. [[artificial language]]
 	675. artificial neural network
+		1. $n$. Another name for a neural network. Also called an artificial neural net. ANN abbrev.
 	676. artificial pupil
-	677. artificial scotoma
-	678. art therapy
-	679. ascending reticular activating system
-	680. Asch experiment
+		1. $n$. Another name for a reduction screen.
+	677. [[artificial scotoma]]
+	678. [[art therapy]]
+	679. [[ascending reticular activating system]]
+	680. [[Asch experiment]]
 	
 	681. ascorbic acid
-	682. asemia
-	683. asexual reproduction
-	684. askable parent
-	685. asonia
-	686. aspartame
+		1. See vitamin C
+	682. [[asemia]]
+	683. [[asexual reproduction]]
+	684. [[askable parent]]
+	685. [[asonia]]
+	686. [[aspartame]]
 	687. aspartate
-	688. aspartic acid
-	689. Asperger's disorder
-	690. aspiration
+		1. n. Another name for aspartic acid.
+	688. [[aspartic acid]]
+	689. [[Asperger's disorder]]
+	690. [[aspiration]]
 	
-	691. aspirin
-	692. assembled phonology
-	693. assertiveness training
-	694. assimilation
-	695. assimilation-contrast theory
+	691. [[aspirin]]
+	692. [[assembled phonology]]
+	693. [[assertiveness training]]
+	694. [[assimilation]]
+	695. [[assimilation-contrast theory]]
 	696. association, free
+		1. See free association
 	697. association/sensation ratio
-	698. association area
-	699. association fibre
-	700. associationism
+		1. See A/S ratio
+	698. [[association area]]
+	699. [[association fibre]]
+	700. [[associationism]]
 	
 	701. association test
-	702. association value
-	703. associative illusion
+		1. $n$. Another name for the word-association test. Also called the association method.
+	702. [[association value]]
+	703. [[associative illusion]]
 	704. associative interference
-	705. associative laws
-	706. associative learning
-	707. associative memory
+		1. $n$. An umbrella term for proactive interference and retroactive interference. Also called associative inhibition.
+	705. [[associative laws]]
+	706. [[associative learning]]
+	707. [[associative memory]]
 	708. associative priming
-	709. assortative mating
-	710. astereognosis
+		1. See priming (1).
+	709. [[assortative mating]]
+	710. [[astereognosis]]
 	
-	711. asthenia
-	712. asthenic body type
-	713. astigmatism
-	714. astonishing hypothesis
-	715. astrocyte
+	711. [[asthenia]]
+	712. [[asthenic body type]]
+	713. [[astigmatism]]
+	714. [[astonishing hypothesis]]
+	715. [[astrocyte]]
 	716. astrocytoma
+		1. $n$. A tumor in the central nervous system composed of proliferating astrocytes, the main type of brain tumor in humans. \[From Greek astron a star + kytos a vessel or hollow + -oma indicating an abnormality]
 	717. asymbolia
-	718. asyndeton
-	719. ataque de nervios
-	720. ataraxia
+		1. n. Another name for asemia. \[From Greek $a$- without + symbolon a token, from syn together + ballein to throw]
+	718. [[asyndeton]]
+	719. [[ataque de nervios]]
+	720. [[ataraxia]]
 	
-	721. ataxia
-	722. ateleiosis
-	723. atheism
-	724. atherosclerosis
-	725. athetosis
-	726. athletic body type
+	721. [[ataxia]]
+	722. [[ateleiosis]]
+	723. [[atheism]]
+	724. [[atherosclerosis]]
+	725. [[athetosis]]
+	726. [[athletic body type]]
 	727. Ativan
-	728. atmosphere effect
-	729. atmosphere hypothesis
+		1. $n$. A proprietary name for the benzodiazepine drug lorazepam. \[Trademark]
+	728. [[atmosphere effect]]
+	729. [[atmosphere hypothesis]]
 	730. atmosphere perspective
+		1. $n$. Another name for aerial perspective.
 	
-	731. atomoxetine
-	732. atonia
-	733. ATPabbrev.
-	734. ATPaseabbrev.
-	735. atrophy
-	736. atropine
+	731. [[atomoxetine]]
+	732. [[atonia]]
+	733. [[ATP]]
+	734. [[ATPase]]
+	735. [[atrophy]]
+	736. [[atropine]]
 	737. attachment disorder
-	738. attachment theory
-	739. attensity
-	740. attention
+		1. See reactive attachment disorder
+	738. [[attachment theory]]
+	739. [[attensity]]
+	740. [[attention]]
 	
 	741. attention-deficit/hyperactivity disorder
 	742. attentional dyslexia
