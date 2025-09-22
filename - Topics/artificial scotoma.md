@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A scotoma induced by a pattern of randomly twinkling visual spots against a grey background, such as is produced by a television receiver tuned to an open channel, against which a small uniform grey square is displayed a short distance from the observer's fixation (1) point. After about five seconds, on average, the square vanishes and is filled in with the twinkling pattern of the background. If the twinkling spots are displayed against a coloured background and the small square is grey, then the color fills in first, followed by the twinkling movement. If the whole display is replaced by a uniform grey (non-twinkling) display, then a small twinkling square appears for two to three seconds in the area previously occupied by the grey square. Filling-in is thus not explained by observers merely failing to notice the missing information but involves active neural representation of it. The phenomenon was first studied in detail by the Indian-born US psychologist and neuroscientist Vilayanur S. Ramachandran (born 1951) and the English psychologist Richard L(angton) Gregory (1923-2010) and reported in a letter to the journal Nature in 1991. See also filling-in illusion, modal completion, motion-induced blindness, Troxler effect. \[From English artificial + Greek skotoma dizziness, from skotos darkness + -oma indicating an abnormality]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

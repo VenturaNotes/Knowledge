@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An umbrella term covering various branches of psychology in which research findings are applied to practical problems. In clinical psychology and counselling psychology, research into mental disorders is applied with the ultimate aim of helping people with those disorders. In educational psychology and school psychology, research into problems of learning, adjustment, and behaviour among schoolchildren is applied in an effort to provide practical help to children, their parents, and their teachers. In occupational psychology and industrial/organizational psychology, the results of research into the well-being and efficiency of people in work is used to tackle problems arising in the workplace and in organizations generally. In forensic psychology and criminological psychology, problems associated with criminal behaviour, criminal investigation, and legal processes in court are addressed. In health psychology, research findings are applied to psychological aspects of health promotion and the prevention and treatment of illness. See also coaching PSYCHOLOGY, OCCUPATIONAL HEALTH PSYCHOLOGY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -13,8 +13,11 @@
 - https://www.cellsalive.com/apop.htm
 	- #comment The creator seems to have taken the website down with a personal note
 	- Video of apoptotic cells
+## Source[^4]
+- $n$. Programmed cell death, an active process requiring RNA and protein synthesis, that in the nervous system sometimes results from cytotoxic substances or a decrease in nerve growth factor, but that also occurs naturally as part of neuronal pruning during development and growth. See also neural Darwinism. \[From Greek apo off + ptosis a falling, from piptein to fall + -osis indicating a process or state]
 ## References
 
 [^1]: https://www.genome.gov/genetics-glossary/apoptosis#:~:text=Apoptosis%20is%20the%20process%20of,a%20role%20in%20preventing%20cancer.
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

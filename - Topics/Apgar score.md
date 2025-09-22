@@ -11,7 +11,9 @@
 | Reflex irritability | No response | Grimace                     | Vigorous cough/sneeze           |
 | Muscle tone         | Limp        | Some flexion of extremities | Active movement                 |
 | Respiratory effort  | Absent      | Slow/irregular breaths      | Good respiratory effort and cry |
-
+## Source[^2]
+- $n$. An index of the physical and psychological condition of a newborn infant obtained by adding points (0, 1, or 2 ) for heart rate, respiratory effort, muscle tone, response to stimulation, and skin coloration, a score of 10 representing perfect condition on the test. \[Named after the US anaesthesiologist Virginia Apgar (1909-74) who introduced it in an article in the journal Current Research in Anesthesia and Analgesia in 1953, notwithstanding a popular folk etymology in medical circles according to which it is an abbreviation for 'activity, pulse, grimace, appearance, and respiration']
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

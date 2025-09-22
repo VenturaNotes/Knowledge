@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The first group tests of intelligence, providing the prototypes of many that were to follow, intended to improve selection, placement, and training for specific occupations within the US army during the First World War, constructed by a group of US psychologists under the leadership of Robert Mearns Yerkes (1876-1956), including Lewis Madison Terman (1877-1956), and applied to approximately $1,750,000$ recruits in just over one year. The test and the results that it generated were kept secret until the war ended, eventually being published by the National Academy of Sciences in 1921 in a book edited by Yerkes entitled Psychology Examining in the United States Army, and in 1919 Yerkes published a version of the tests called the National Intelligence Test, which was widely used by schools, universities, and commercial companies. The Army Alpha test included the earliest examples of analogies tests, number-completion tests, synonym tests, and antonym tests, and the Army Beta test, designed specifically for people who were illiterate, introduced the first incomplete-pictures test and coding test, all the subtests being strictly timed.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

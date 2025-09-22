@@ -1,5 +1,5 @@
 ## Synthesis
-- 
+- A list of steps to achieve a goal
 ## Source [^1]
 - An action plan is a document that lists what steps must be taken to achieve a specific goal.
 ## References
