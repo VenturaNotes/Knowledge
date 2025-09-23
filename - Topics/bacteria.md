@@ -28,8 +28,11 @@ aliases: bacterium
 - http://www.textbookofbacteriology.net/
 	- #comment 401 unauthorized login
 	- Online textbook of bacteriology devised by Kenneth Todar, University of WisconsinMadison
+## Source[^5]
+- n. pl. Unicellular or threadlike micro-organisms that reproduce by fission (2) and are often parasitic and liable to cause diseases. bacterial adj. bacterium sing. \[From Greek bakterion a little rod, diminutive of baktron a rod]
 ## References
 [^1]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^z11lt5]]
 [^2]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^bb55l5]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

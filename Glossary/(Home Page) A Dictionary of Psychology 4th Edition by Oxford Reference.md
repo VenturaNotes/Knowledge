@@ -934,324 +934,381 @@ Reviewed: false
 	739. [[attensity]]
 	740. [[attention]]
 	
-	741. attention-deficit/hyperactivity disorder
-	742. attentional dyslexia
-	743. attention operating characteristic
-	744. attention span
-	745. attenuation
-	746. attenuation theory
-	747. attitude
-	748. attitude change
-	749. attitude scale
-	750. attitude similarity hypothesis
+	741. [[attention-deficit and-or hyperactivity disorder|attention-deficit/hyperactivity disorder]]
+	742. [[attentional dyslexia]]
+	743. [[attention operating characteristic]]
+	744. [[attention span]]
+	745. [[attenuation]]
+	746. [[attenuation theory]]
+	747. [[attitude]]
+	748. [[attitude change]]
+	749. [[attitude scale]]
+	750. [[attitude similarity hypothesis]]
 	
-	751. attribute
-	752. attribution
-	753. attributional bias
+	751. [[attribute]]
+	752. [[attribution]]
+	753. [[attributional bias]]
 	754. attribution error
-	755. attribution theory
-	756. attributive
-	757. attuition
-	758. atypical antipsychotic
-	759. Aubert-Fleischl paradox
-	760. Aubert-Förster law
+		1. See fundamental attribution error
+	755. [[attribution theory]]
+	756. [[attributive]]
+	757. [[attuition]]
+	758. [[atypical antipsychotic]]
+	759. [[Aubert-Fleischl paradox]]
+	760. [[Aubert-Förster law]]
 	
-	761. Aubert-Förster phenomenon
-	762. Aubert effect
+	761. [[Aubert-Förster phenomenon]]
+	762. [[Aubert effect]]
 	763. auction game
-	764. audibility function
-	765. audibility range
-	766. audible thought
-	767. audience effect
-	768. audile
-	769. audio-oculogyric reflex
-	770. audioanalgesia
+		1. See dollar auction game
+	764. [[audibility function]]
+	765. [[audibility range]]
+	766. [[audible thought]]
+	767. [[audience effect]]
+	768. [[audile]]
+	769. [[audio-oculogyric reflex]]
+	770. [[audioanalgesia]]
 	
-	771. audiogenic seizure
-	772. audiogram
-	773. audiogravic illusion
-	774. audiogyral illusion
-	775. audiokinetic response
-	776. audiometer
-	777. audiometric zero
-	778. audiometry
-	779. audition
-	780. auditory
+	771. [[audiogenic seizure]]
+	772. [[audiogram]]
+	773. [[audiogravic illusion]]
+	774. [[audiogyral illusion]]
+	775. [[audiokinetic response]]
+	776. [[audiometer]]
+	777. [[audiometric zero]]
+	778. [[audiometry]]
+	779. [[audition]]
+	780. [[auditory]]
 	
-	781. auditory acuity
-	782. auditory adaptation
+	781. [[auditory acuity]]
+	782. [[auditory adaptation]]
 	783. auditory agnosia
+		1. See agnosia
 	784. auditory aphasia
+		1. See aphasia
 	785. auditory association cortex
-	786. auditory beat
-	787. auditory canal
-	788. auditory cortex
-	789. auditory egocentre
-	790. auditory fatigue
+		1. See auditory cortex
+	786. [[auditory beat]]
+	787. [[auditory canal]]
+	788. [[auditory cortex]]
+	789. [[auditory egocentre]]
+	790. [[auditory fatigue]]
 	
-	791. auditory flutter
-	792. auditory flutter fusion
-	793. auditory fusion
-	794. auditory hallucination
-	795. auditory illusion
+	791. [[auditory flutter]]
+	792. [[auditory flutter fusion]]
+	793. [[auditory fusion]]
+	794. [[auditory hallucination]]
+	795. [[auditory illusion]]
 	796. auditory localization
-	797. auditory masking
+		1. See sound localization
+	797. [[auditory masking]]
 	798. auditory meatus
+		1. $n$. Another name for the external or internal auditory canal. \[From Latin meatus a course]
 	799. auditory nerve
-	800. auditory receptive field
+		1. $n$. Another name for the vestibulocochlear nerve.
+	800. [[auditory receptive field]]
 	
-	801. auditory receptor
+	801. [[auditory receptor]]
 	802. auditory space perception
+		1. $n$. Another name for sound localization.
 	803. auditory spectrum
-	804. auditory staircase illusion
-	805. auditory suffix effect
-	806. auditory system
+		1. $n$. Another name for the audibility range. \[So called by analogy with the spectrum of visible light]
+	804. [[auditory staircase illusion]]
+	805. [[auditory suffix effect]]
+	806. [[auditory system]]
 	807. auditory tube
-	808. Aufgabe
-	809. aura
-	810. aural
+		1. $n$. Another (informal) name for the Eustachian tube.
+	808. [[Aufgabe]]
+	809. [[aura]]
+	810. [[aural]]
 	
-	811. aural harmonic
-	812. auricle
-	813. australopithecine
-	814. authoritarianism
-	815. autism
-	816. autism spectrum disorder
+	811. [[aural harmonic]]
+	812. [[auricle]]
+	813. [[australopithecine]]
+	814. [[authoritarianism]]
+	815. [[autism]]
+	816. [[autism spectrum disorder]]
 	817. autistic disorder
-	818. auto-erotic
-	819. auto-erotism
+		1. $n$. A term formerly used (in DSM-IV) for what was later renamed autism spectrum disorder.
+	818. [[auto-erotic]]
+	819. [[auto-erotism]]
 	820. autobiographical memory
+		1. n. Another name for episodic memory.
 	
-	821. autochthonous
-	822. autocorrelation
-	823. autogenic training
-	824. autogynephilia
-	825. autohypnosis
-	826. autointoxication
-	827. autokinetic effect
-	828. autological
-	829. automatic anxiety
+	821. [[autochthonous]]
+	822. [[autocorrelation]]
+	823. [[autogenic training]]
+	824. [[autogynephilia]]
+	825. [[autohypnosis]]
+	826. [[autointoxication]]
+	827. [[autokinetic effect]]
+	828. [[autological]]
+	829. [[automatic anxiety]]
 	830. automaticity
+		1. See AUTOMATIC PROCESSING, AUTOMATISM.
 	
 	831. automatic priming
-	832. automatic processing
-	833. automatism
-	834. automaton
-	835. automnesia
-	836. automorphic perception
-	837. autonoetic
-	838. autonomic
-	839. autonomic arousal disorder
-	840. autonomic nervous system
+		1. See priming (1).
+	832. [[automatic processing]]
+	833. [[automatism]]
+	834. [[automaton]]
+	835. [[automnesia]]
+	836. [[automorphic perception]]
+	837. [[autonoetic]]
+	838. [[autonomic]]
+	839. [[autonomic arousal disorder]]
+	840. [[autonomic nervous system]]
 	
-	841. autonomous speech
+	841. [[autonomous speech]]
 	842. autonomy, functional
-	843. autonomy versus shame and doubt
+		1. See functional autonomy.
+	843. [[autonomy versus shame and doubt]]
 	844. autopagnosia
-	845. autoplastic
+		1. n. A common misspelling of autotopagnosia
+	845. [[autoplastic]]
 	846. autopsy, psychological
-	847. autoradiograph
-	848. autoradiography
-	849. autoreceptor
-	850. autoregression
+		1. See psychological autopsy
+	847. [[autoradiograph]]
+	848. [[autoradiography]]
+	849. [[autoreceptor]]
+	850. [[autoregression]]
 	
 	851. autoregressive integrated moving average model
-	852. autoscopic phenomena
-	853. autoshaping
-	854. autosomal disorder
-	855. autosome
-	856. autotopagnosia
-	857. availability
-	858. availability heuristic
-	859. available memory
-	860. average
+		1. See ARIMA
+	852. [[autoscopic phenomena]]
+	853. [[autoshaping]]
+	854. [[autosomal disorder]]
+	855. [[autosome]]
+	856. [[autotopagnosia]]
+	857. [[availability]]
+	858. [[availability heuristic]]
+	859. [[available memory]]
+	860. [[average]]
 	
 	861. average error method
-	862. average evoked potential
-	863. average heterozygosity
-	864. average linkage between groups method
-	865. average linkage within groups method
-	866. aversion therapy
-	867. aversive
-	868. avoidance-avoidance conflict
-	869. avoidance conditioning
-	870. avoidant/restrictive food intake disorder
+		1. See method of average error.
+	862. [[average evoked potential]]
+	863. [[average heterozygosity]]
+	864. [[average linkage between groups method]]
+	865. [[average linkage within groups method]]
+	866. [[aversion therapy]]
+	867. [[aversive]]
+	868. [[avoidance-avoidance conflict]]
+	869. [[avoidance conditioning]]
+	870. [[avoidant and-or restrictive food intake disorder]]
 	
-	871. avoidant personality disorder
-	872. avolition
-	873. axiom
-	874. axiomatic measurement theory
-	875. axoaxonic
-	876. axodendritic
+	871. [[avoidant personality disorder]]
+	872. [[avolition]]
+	873. [[axiom]]
+	874. [[axiomatic measurement theory]]
+	875. [[axoaxonic]]
+	876. [[axodendritic]]
 	877. axolemma
-	878. axon
-	879. axonal transport
-	880. axon hillock
+		1. n. Another name for a neurolemma
+	878. [[axon]]
+	879. [[axonal transport]]
+	880. [[axon hillock]]
 	
-	881. axon reflex
-	882. axosomatic
-	883. azimuth
-	884. babbling
-	885. Babinski reflex
-	886. baby talk
-	887. back-propagation algorithm
-	888. back cross
-	889. back formation
-	890. back mutation
+	881. [[axon reflex]]
+	882. [[axosomatic]]
+	883. [[azimuth]]
+	884. [[babbling]]
+	885. [[Babinski reflex]]
+	886. [[baby talk]]
+	887. [[back-propagation algorithm]]
+	888. [[back cross]]
+	889. [[back formation]]
+	890. [[back mutation]]
 	
 	891. backprop
-	892. back slang
-	893. back vowel
-	894. backward association
-	895. backward conditioning
-	896. backward masking
+		1. $n$. A colloquial name for the back-propagation algorithm.
+	892. [[back slang]]
+	893. [[back vowel]]
+	894. [[backward association]]
+	895. [[backward conditioning]]
+	896. [[backward masking]]
 	897. backward propagation
+		1. See BACK-PROPAGATION ALGORITHM.
 	898. backward referral of sensation
-	899. backward span
-	900. bacteria
+		1. See libet's delay
+	899. [[backward span]]
+	900. [[bacteria]]
 	
 	901. bad breast
-	902. bad faith
+		1. See good breast
+	902. [[bad faith]]
 	903. bad object
+		1. See good object
 	904. bah tschi
+		1. See latah
 	905. balanced bilingual
-	906. balanced polymorphism
-	907. balanced scale
-	908. balance theory
-	909. Baldwin illusion
-	910. Bálint's syndrome
+		1. n. Another name for an ambilingual (2). Compare unbalanced Bilingual. \[From balanced + Latin bis two + lingua a tongue + -alis of or relating to]
+	906. [[balanced polymorphism]]
+	907. [[balanced scale]]
+	908. [[balance theory]]
+	909. [[Baldwin illusion]]
+	910. [[Bálint's syndrome]]
 	
-	911. ballism
-	912. ballistic movement
-	913. band-pass filter
-	914. bandwagon effect
-	915. bandwidth
-	916. baraesthesia
-	917. baragnosis
+	911. [[ballism]]
+	912. [[ballistic movement]]
+	913. [[band-pass filter]]
+	914. [[bandwagon effect]]
+	915. [[bandwidth]]
+	916. [[baraesthesia]]
+	917. [[baragnosis]]
 	918. Bárány nystagmus
-	919. Bárány test
-	920. barber's paradox
+		1. n. Another name for caloric nystagmus. See Bárány Test
+	919. [[Bárány test]]
+	920. [[barber's paradox]]
 	
-	921. barber's pole effect
-	922. barbiturate
-	923. barbiturism
+	921. [[barber's pole effect]]
+	922. [[barbiturate]]
+	923. [[barbiturism]]
 	924. barbs
-	925. bar chart
+		1. $n$. A street name for barbiturate drugs in general.
+	925. [[bar chart]]
 	926. Bard-Cannon theory
-	927. bar detector
-	928. Barnum effect
-	929. barognosis
-	930. baroreceptor
+		1. n. Another name for the Cannon-Bard Theory
+	927. [[bar detector]]
+	928. [[Barnum effect]]
+	929. [[barognosis]]
+	930. [[baroreceptor]]
 	
-	931. Bartholin's gland
-	932. Bartlett-BoxFtest
-	933. basal forebrain
-	934. basal ganglia
-	935. basal metabolic rate
-	936. base
-	937. base-rate fallacy
+	931. [[Bartholin's gland]]
+	932. [[Bartlett-Box F test]]
+	933. [[basal forebrain]]
+	934. [[basal ganglia]]
+	935. [[basal metabolic rate]]
+	936. [[base]]
+	937. [[base-rate fallacy]]
 	938. basement effect
+		1. n. Another name for the floor effect
 	939. base pairing
-	940. base rate
+		1. n. Another name for complementary base pairing
+	940. [[base rate]]
 	
 	941. base sequence
-	942. BASIC-IDabbrev.
-	943. basic-level category
-	944. basic mistrust
+		1. $n$. Another name for a DNA sequence. \[So called because it is made up of bases]
+	942. [[BASIC-ID]]
+	943. [[basic-level category]]
+	944. [[basic mistrust]]
 	945. Basic Orthographic Syllabic Structure
+		1. See boss
 	946. basic period of information processing
-	947. basic research
-	948. basic rest-activity cycle
+		1. See BIP in the main body of the dictionary
+	947. [[basic research]]
+	948. [[basic rest-activity cycle]]
 	949. basic rule of psychoanalysis
-	950. basic trust versus basic mistrust
+		1. $n$. Another name for the fundamental rule of psychoanalysis.
+	950. [[basic trust versus basic mistrust]]
 	
 	951. basilar
-	952. basilar artery
-	953. basilar membrane
-	954. basilect
-	955. Baskerville effect
-	956. basket cell
-	957. basulca
-	958. Bateman’s principles
-	959. Batesian mimicry
-	960. bathyaesthesia
+		1. adj. Situated at the base.
+	952. [[basilar artery]]
+	953. [[basilar membrane]]
+	954. [[basilect]]
+	955. [[Baskerville effect]]
+	956. [[basket cell]]
+	957. [[basulca]]
+	958. [[Bateman’s principles]]
+	959. [[Batesian mimicry]]
+	960. [[bathyaesthesia]]
 	
-	961. bathyanaesthesia
-	962. battered baby syndrome
+	961. [[bathyanaesthesia]]
+	962. [[battered baby syndrome]]
 	963. battered child syndrome
-	964. battered wife syndrome
+		1. $n$. An extension of the term battered baby syndrome, used when the victim is an older child. BCS abbrev.
+	964. [[battered wife syndrome]]
 	965. battery
-	966. baud
-	967. Bayes’ rule
-	968. Bayes’ theorem
-	969. Bayesian inference
-	970. Bayley Scales of Infant Development
+		1. See test battery
+	966. [[baud]]
+	967. [[Bayes’ rule]]
+	968. [[Bayes’ theorem]]
+	969. [[Bayesian inference]]
+	970. [[Bayley Scales of Infant Development]]
 	
 	971. B cell
+		1. n. Another name for a B lymphocyte
 	972. beat, auditory
-	973. Beck Depression Inventory
-	974. bed-wetting
+		1. See auditory beat
+	973. [[Beck Depression Inventory]]
+	974. [[bed-wetting]]
 	975. bee dance
-	976. behaviour
-	977. behavioural cardiology
-	978. behavioural contagion
-	979. behavioural decision theory
-	980. behavioural ecology
+		1. See round dance, waggle dance
+	976. [[behavior]]
+	977. behavioral cardiology
+		1. $n$. Another name for psychocardiology. US behavioral cardiology.
+	978. behavioral contagion
+		1. $n$. Another name for social contagion, especially when applied to overt behaviour such as yawning. US behavioral contagion .
+	979. [[behavioral decision theory]]
+	980. [[behavioral ecology]]
 	
-	981. behavioural oscillation
-	982. behavioural pharmacology
-	983. behavioural science
-	984. behaviour contrast
-	985. behaviour control
-	986. behaviour genetics
-	987. behaviourism
-	988. behaviour modification
-	989. behaviour therapy
-	990. bel
+	981. [[behavioral oscillation]]
+	982. [[behavioral pharmacology]]
+	983. [[behavioral science]]
+	984. [[behavior contrast]]
+	985. [[behavior control]]
+	986. [[behavior genetics]]
+	987. [[behaviorism]]
+	988. behavior modification
+		1. $n$. Another name for behavior therapy. US behavior modification.
+	989. [[behavior therapy]]
+	990. [[bel]]
 	
-	991. belief
-	992. belief-bias effect
-	993. Bell's palsy
-	994. Bell-Magendie law
-	995. belladonna
-	996. bell curve
+	991. [[belief]]
+	992. [[belief-bias effect]]
+	993. [[Bell's palsy]]
+	994. [[Bell-Magendie law]]
+	995. [[belladonna]]
+	996. [[bell curve]]
 	997. belle indifférence, la
+		1. See la belle indifférence
 	998. Bellevue-Wechsler scales
-	999. Bem Sex Role Inventory
-	1000. Bender Gestalt Test
+		1. $n$. Another name for the Wechsler-Bellevue scales. See Wechsler scales.
+	999. [[Bem Sex Role Inventory]]
+	1000. [[Bender Gestalt Test]]
 	
 	1001. benefit-cost analysis
-	1002. benefit-cost ratio
-	1003. Benham's top
+		1. n. Another name for cost-benefit analysis
+	1002. [[benefit-cost ratio]]
+	1003. [[Benham's top]]
 	1004. bennies
+		1. n. A street name for benzodiazepine drugs
 	1005. Benzedrine
+		1. $n$. A proprietary name for amphetamine. \[Trademark]
 	1006. benzilic acid
-	1007. benzodiazepine
+		1. See BZ Gas
+	1007. [[benzodiazepine]]
 	1008. benzos
-	1009. benztropine
-	1010. bereavement
+		1. n. A street name for benzodiazepine drugs
+	1009. [[benztropine]]
+	1010. [[bereavement]]
 	
 	1011. Bereitschaftspotential
-	1012. Bernoulli trial
-	1013. Bernreuter Personality Inventory
+		1. n. The original German name for the readiness potential. BP abbrev.
+	1012. [[Bernoulli trial]]
+	1013. [[Bernreuter Personality Inventory]]
 	1014. Bertrand's box paradox
-	1015. bestiality
+		1. See monty hall problem
+	1015. [[bestiality]]
 	1016. beta-adrenergic receptor
-	1017. beta-blocker
-	1018. beta-endorphin
-	1019. beta-lipotropin
-	1020. beta coefficient
+		1. See adrenergic ReCeptor.
+	1017. [[beta-blocker]]
+	1018. [[beta-endorphin]]
+	1019. [[beta-lipotropin]]
+	1020. [[beta coefficient]]
 	
-	1021. beta element
-	1022. beta movement
-	1023. beta personality factor
+	1021. [[beta element]]
+	1022. [[beta movement]]
+	1023. [[beta personality factor]]
 	1024. beta receptor
-	1025. beta wave
-	1026. betel
-	1027. between-groups variance
-	1028. between-subjects design
-	1029. Betz cell
-	1030. Bezold-Brücke phenomenon
+		1. $n$. Another name for a beta adrenergic receptor. \[From beta $(\beta)$ the second letter of the Greek alphabet]
+	1025. [[beta wave]]
+	1026. [[betel]]
+	1027. [[between-groups variance]]
+	1028. [[between-subjects design]]
+	1029. [[Betz cell]]
+	1030. [[Bezold-Brücke phenomenon]]
 	
 	1031. bhang
 	1032. bibliotherapy

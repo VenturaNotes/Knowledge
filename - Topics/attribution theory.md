@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A theory designed to explain how people perceive, infer, or ascribe causes to their own and other people's behavior. Basic research in this area has established that we tend to attribute another person's behavior to internal, dispositional causes rather than external, situational causes if the behavior seems different from how other people would behave in the same situation but characteristic of that person's behavior in similar and dissimilar situations in the past; but if the behavior seems similar to that of others in the same situation but uncharacteristic of that person's past behavior in similar and different situations, then we are likely to attribute it to external causes. The theory was first formulated by the Austrian-born US psychologist Fritz Heider (1896-1988) in articles published in 1944 and 1946 and in his book The Psychology of Interpersonal Relations in 1958, and it was developed from the 1960s onwards especially by the US psychologists Edward Ellsworth Jones (1926-93) and Harold H(arding) Kelley (1921-2003), the most influential theory being Kelley's cube. See also ACTOR-OBSERVER DIFFERENCE, ATTRIBUTIONAL BIAS, CAUSAL SCHEMA, COGNITIVE-APPRAISAL THEORY, COVARIATION PRINCIPLE, FALSE-CONSENSUS EFFECT, FUNDAMENTAL ATTRIBUTION ERROR, IMPRESSION FORMATION, PERSON PERCEPTION, POSITIVITY BIAS (1), SELf-PERCEPTION THEORY, SELF-SERVING BIAS. AT abbrev.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

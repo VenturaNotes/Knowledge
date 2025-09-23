@@ -1342,7 +1342,8 @@ Reviewed: false
 	
 	1041. [[B-Lynch brace suture]]
 	1042. [[B-scan]]
-	1043. [[Babinski reflex]]
+	1043. Babinski reflex
+		1. see Plantar Reflex. \[J. F. F. Babinski (1857-1932), French neurologist]
 	1044. [[baby blues]]
 	1045. [[bacillaemia]]
 	1046. bacille Calmette-Guérin
