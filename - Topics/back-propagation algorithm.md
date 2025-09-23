@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In parallel distributed processing, a method of adjusting the output of a multi-layered neural network to produce a desired state for a given input, by first checking the input and computing the required output for that input, then comparing the current output to the required output and adjusting the connection weights to reduce the discrepancy between the required output and the current output, and then repeating this process of adjustment for the next level down in the system and for each lower level of the system in turn down to the lowest level, thus causing the system to learn to produce the required output. It implements a method of learning by gradient descent. It was discovered simultaneously and independently by several researchers in 1982 and became well known after an influential publication by the US psychologist David E(verett) Rumelhart (1942-2011) and his colleagues in 1986, the term itself having been introduced in 1962 by the US psychologist Frank Rosenblatt (1928-71) in connection with his work on the perceptron. Also called backward propagation or backprop . See delta rule. See also ALGORITHM, CONNECTIONISM.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

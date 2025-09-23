@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Any member of a class of drugs with chemical structures based on 1,4-benzodiazepine or 1,2-imidazo-benzodiazepine that all have anxiolytic, hypnotic (1), anticonvulsant, muscle relaxant, and anaesthetic (2) effects and are sometimes taken as street drugs. They have a strong affinity for neuroreceptors belonging to the GABA receptor complex, and they lower arousal by virtue of their interaction with neurons that release GABA, thereby acting as central nervous system depressants. Common street names for benzodiazepines include bennies and benzos. See alPRAZOLAM (Xanax), ChlordIAZepOxide (Librium), diazepam (Valium), flunitrazepam (Rohypnol), lorazepam (Ativan), temazepam (Restoril), triazolam (Halcion). See also Sedative-, hypnotic-, or anxiolytic-related disorders. Compare buspirone, picrotoxin. \[From benzo- of or relating to benzene + di- two, from Greek dis twice + az- denoting nitrogen, from Greek $a$- not + zaein to live $+~e p($ oxide $)$ a compound containing oxygen joined to other atoms, from Greek epi on or above + oxide a compound of oxygen and another element]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

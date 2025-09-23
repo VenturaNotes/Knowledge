@@ -4,7 +4,7 @@
 - the part of the peripheral nervous system responsible for the control of involuntary muscles (e.g. the heart, bladder, bowels) and hence those bodily functions that are not consciously directed, including regular beating of the heart, intestinal movements, sweating, salivation, etc. The autonomic system is subdivided into sympathetic and parasympathetic nervous systems. Sympathetic nerves lead from the middle section of the spinal cord and parasympathetic nerves from the brain and lower spinal cord. The heart, smooth muscles, and most glands receive fibres of both kinds: the interplay of sympathetic and parasympathetic reflex activity (the actions are often antagonistic) governs their working. For example, the parasympathetic system is responsible for slowing the heart rate and constricting the pupillary muscles; the sympathetic system increases the heart rate and dilates the pupil. Sympathetic nerve endings liberate noradrenaline as a neurotransmitter; parasympathetic nerve endings release acetylcholine.
 ## Source[^2]
 - (ANS) The part of the vertebrate peripheral nervous system that supplies stimulation via motor nerves to the smooth and cardiac muscles and to the glands of the body. It is divided into the parasympathetic and the sympathetic nervous systems, which tend to work antagonistically on the same organs (see illustration). The activity of the ANS is controlled principally by the medulla oblongata, midbrain, and pons of the brainstem, which gives rise to the paired cranial nerves, and by the hypothalamus.
-- ![[Screenshot 2025-09-06 at 12.35.58 AM.png|400]]
+- ![[Screenshot 2025-09-22 at 2.04.00 PM.png|400]]
 	- The autonomic nervous system (showing one side of each system of the ANS)
 	- Parts
 		1. Parasympathetic system
@@ -50,7 +50,13 @@
 		41. sympathetic trunk
 		42. postganglionic fibres to sweat glands and hair follicles
 		43. sacral region of spinal cord
+## Source[^3]
+- $n$. The largely self-regulating division of the nervous system of vertebrates, controlling the involuntary and vegetative cardiovascular, digestive, reproductive, and respiratory functions of the body, itself subdivided into the sympathetic nervous system and the parasympathetic nervous system (see illustration). Compare somatic NERVOUS SYSTEM. ANS abbrev.
+- ![[Screenshot 2025-09-22 at 2.04.00 PM.png|400]]
+	- Autonomic nervous system. The parasympathetic and sympathetic systems
+		- #comment Parts written out in oxford biology source
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

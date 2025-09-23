@@ -18,7 +18,10 @@
 5. The inferior colliculus in the midbrain receives and processes auditory information from lower brainstem nuclei.
 6. From the inferior colliculus, auditory signals are relayed to the medial geniculate nucleus (MGN) in the thalamus.
 7. The MGN then forwards the processed auditory information to the primary auditory cortex in the temporal lobe for further analysis, where sound qualities like pitch, intensity, and location are perceived and interpreted.
+## Source[^3]
+- $n$. A generic name for the totality of structures in the nervous system that are involved in hearing.
 ## References
 
 [^1]: [[(Assignment 3) (2024-04-5) Sheep Brain Dissection Post-Lab Portfolio]]
 [^2]: ChatGPT and Gemini
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

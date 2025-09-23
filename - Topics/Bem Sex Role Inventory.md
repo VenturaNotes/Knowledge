@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- n. A questionnaire designed to measure psychological androgyny, developed by the US psychologist Sandra (Lipsitz) Bem (1944-2014) and published in articles in the Journal of Consulting and Clinical Psychology in 1974 and the Journal of Personality and Social Psychology in 1975. It is based on the finding that masculinity-femininity is not a single bipolar dimension but is better conceptualized as two unipolar dimensions: people with high scores on the measure of masculinity and low scores on the measure of femininity are labelled masculine, and those with high scores on the measure of femininity and low scores on the measure of masculinity are labelled feminine; but some people obtain high scores on both measures and are labelled androgynous, and some score low on both measures and are labelled undifferentiated. Bem reported evidence that androgynous people are able to act in a masculine fashion when circumstances demand, such as maintaining independence when subjected to pressures to conform, and in a feminine fashion in situations requiring femininity, such as playing with a kitten.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

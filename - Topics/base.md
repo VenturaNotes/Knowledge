@@ -14,9 +14,15 @@
 ## Source[^4]
 - A compound that reacts with an acid to give water (and a salt). A base that dissolves in water to produce hydroxide ions is called an alkali. For example, ammonia reacts as follows: $$\mathrm{NH}_{3}+\mathrm{H}_{2} \mathrm{O} \rightleftharpoons \mathrm{NH}_{4}^{+}+{ }^{-} \mathrm{OH}$$
 - Similar reactions occur with organic amines (see also Nitrogenous BASE).
+## Source[^5]
+- $n$. 
+- (1) An alkaline chemical compound that reacts with an acid to form a salt and water; in biochemistry often denoting the constituent nitrogenous bases of DNA and RNA, namely adenine, cytosine, guanine, and either thymine (in DNA) or uracil (in RNA). See also purine, PYRIMIDINE. 
+- (2) In biology, the part of an organ closest to its point of attachment. 
+- (3) The bottom, root, or supporting foundation of anything. basal or basilar adj. Pertaining to the bottom or root. basic adj. Of, relating to, or consisting of a chemical base, or pertaining to the bottom, root, or supporting foundation of anything. \[From Latin basis a pedestal]
 ## References
 
 [^1]: [[(Home Page) Glossary by ada computer science]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

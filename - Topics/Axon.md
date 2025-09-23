@@ -10,8 +10,11 @@ aliases: axons
 - $n$. a nerve fibre: a single process extending from the cell body of a neuron and carrying nerve impulses away from it. An axon may be over a metre in length in certain neurons. In large nerves the axon has a sheath (neurilemma) made of myelin; this is interrupted at intervals by gaps called nodes of Ranvier, at which branches of the axon leave. An axon ends by dividing into several branches called telodendria, which make contact with other nerves or with muscle or gland membranes.
 ## Source[^3]
 - The long threadlike part of a nerve cell (neuron). It carries the nerve impulse (in the form of an action potential) away from the cell body of a neuron towards either an effector organ or the brain. See also NERVE FIBRE.
+## Source[^4]
+- $n$. A long, threadlike process (2) or extending fibre of a neuron, capable of conducting a nerve impulse away from the cell body towards the neuron's terminal bouton, from where it is transmitted via a synapse (1) to another neuron, a muscle, or a gland. Also called a nerve fibre. See also microtubule. Compare dendrite. axonal adj. \[From Greek axon an axis]
 ## References
 
 [^1]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^30ee8f]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Death resulting directly from extreme fear or psychological stress. The term was coined by the South African-born US sociologist David P. Phillips (born 1943) and several co-authors in an article in the British Medical Journal in 2001, reporting the results of a study of the death certificates of 200,000 people of Chinese and Japanese descent in the US from 1973 to 1998. The study capitalized on a superstition about the number four, which is considered unlucky among these ethnic communities and is often omitted in Chinese and Japanese room and floor numbering, partly because the words for death and four are pronounced similarly in Mandarin, Cantonese, and Japanese. The results revealed a 13 per cent increase in cardiac deaths on the fourth day of the month, relative to the chance baseline, and the increase was 27 per cent above chance in California, where Chinese and Japanese communities are largest and relatively well established, but no such increase was found in a comparison group of 47 million non-Asian US deaths. See also nOCEBO EFFECT, voODOO DEATH. \[Named after Sir Charles Baskerville, who died of a heart attack and turned out to have been literally frightened to death by a hound in The Hound of the Baskervilles (1902) by the Scottish detective story writer and physician Sir Arthur Conan Doyle (1859-1930)]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

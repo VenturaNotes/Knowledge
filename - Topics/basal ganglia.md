@@ -16,8 +16,11 @@
 		- cerebral peduncle
 ## Source[^3]
 - (basal nuclei) Small interconnected clusters of neurons found deep inside the cerebrum of the brain. The main ones are the caudate nucleus, the putamen, and the globus pallidus (the latter two constituting the lentiform nucleus)-one of each occurring in each cerebral hemisphere. They are involved in the subconscious initiation and coordination of voluntary movements, and act in conjunction with the cerebellum. Information from the cerebral cortex is processed by the basal ganglia, which relay their output via the thalamus back to the motor cortex. Patients whose basal ganglia are damaged have difficulty in starting movements, and experience slowness and tremor when performing movements. The bundles of myelinated axons ('white matter') that form the internal capsule traverse between the 'grey matter' of the caudate nucleus and lentiform nucleus, giving a striped appearance; hence the three structures together form the corpus striatum ('striped body').
+## Source[^4]
+- n. pl. Structures containing clusters of neuron cell bodies in and around the thalamus near the base of the brain, sometimes taken to include the amygdala and claustrum, but in careful usage restricted to structures involved in the control of voluntary movement, namely the caudate nucleus, lenticular nucleus (including the putamen and globus pallidus), subthalamic nucleus, and substantia nigra. The caudate nucleus and putamen together constitute the striatum. Lesions in these areas can lead to movement disorders such as athetosis, ballism, chorea, dystonia, hemiballism, Huntington's disease, Parkinson's disease, tardive dyskinesia, and tremor. basal ganglion sing. \[From Greek ganglion a cystic tumor]
 ## References
 
 [^1]: [[(30) 2-Minute Neuroscience - Basal Ganglia]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
