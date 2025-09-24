@@ -27,7 +27,10 @@
 	- This graph shows percent identity between human and mouse DNA in the region of the APOAV gene, which encodes apolipoprotein A-V (a regulator of triglyceride levels in blood), and the ZNF259 gene, which encodes zinc finger 259. Black bars indicate exons of genes; arrows indicate direction of transcription. Note increased similarity in exons compared with introns.
 - ![[Screenshot 2025-09-07 at 12.41.30 PM.png]]
 - Part of an alignment of amino acid sequences of an isoform of apolipoprotein A-V from human and mouse, using BLAST (Basic Local Alignment Search Tool). It enables comparison of the human sequence with the well-characterized mouse sequence and is a key step in identifying its nature, possible function, and evolutionary relationships. Dashes in human and mouse lines indicate gaps; the line between them indicates shared identical amino acids and conserved residues (i.e. chemically similar amino acids, denoted by +).
+## Source[^2]
+- $n$. The use of computational methods in genetics and genomics, and more generally the science of information and information flow in biological systems. \[From Greek bios life + Russian informatika information science]
 
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

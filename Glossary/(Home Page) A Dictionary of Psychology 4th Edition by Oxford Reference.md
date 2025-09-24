@@ -1310,82 +1310,94 @@ Reviewed: false
 	1029. [[Betz cell]]
 	1030. [[Bezold-Brücke phenomenon]]
 	
-	1031. bhang
-	1032. bibliotherapy
-	1033. biceps reflex
-	1034. biconditional
-	1035. bidialectal
-	1036. Bidwell's ghost
-	1037. big-fish-little-pond effect
-	1038. Big Five
+	1031. [[bhang]]
+	1032. [[bibliotherapy]]
+	1033. [[biceps reflex]]
+	1034. [[biconditional]]
+	1035. [[bidialectal]]
+	1036. [[Bidwell's ghost]]
+	1037. [[big-fish-little-pond effect]]
+	1038. [[Big Five]]
 	1039. Big One
-	1040. bigorexia
+		1. n. Another name for the general factor of personality
+	1040. [[bigorexia]]
 	
-	1041. bilabial
-	1042. bilateral transfer
-	1043. bile
-	1044. bilingual
-	1045. bilis
-	1046. bimodal distribution
-	1047. binary code
-	1048. binary colour
-	1049. binaural
-	1050. binaural beat
+	1041. [[bilabial]]
+	1042. [[bilateral transfer]]
+	1043. [[bile]]
+	1044. [[bilingual]]
+	1045. [[bilis]]
+	1046. [[bimodal distribution]]
+	1047. [[binary code]]
+	1048. binary color
+		1. n. Another name for a secondary color. US binary color.
+	1049. [[binaural]]
+	1050. [[binaural beat]]
 	
-	1051. binaural cue
-	1052. binaural disparity
-	1053. binaural fusion
+	1051. [[binaural cue]]
+	1052. [[binaural disparity]]
+	1053. [[binaural fusion]]
 	1054. binaural intensity difference
-	1055. binaural ratio
-	1056. binaural shift
+		1. $n$. Another name for a sonic shadow. Also called an interaural intensity difference .
+	1055. [[binaural ratio]]
+	1056. [[binaural shift]]
 	1057. binaural sound localization
-	1058. binaural summation
+		1. See sound localization
+	1058. [[binaural summation]]
 	1059. binaural time difference
-	1060. binaural unmasking
+		1. $n$. A generic name for phase delay and/or transient disparity. Also called an interaural time difference .
+	1060. [[binaural unmasking]]
 	
-	1061. binding
-	1062. binding problem
-	1063. Binet-Simon scale
-	1064. binge-eating disorder
-	1065. binocular
-	1066. binocular cell
-	1067. binocular cue
-	1068. binocular disparity
-	1069. binocular fusion
+	1061. [[binding]]
+	1062. [[binding problem]]
+	1063. [[Binet-Simon scale]]
+	1064. [[binge-eating disorder]]
+	1065. [[binocular]]
+	1066. [[binocular cell]]
+	1067. [[binocular cue]]
+	1068. [[binocular disparity]]
+	1069. [[binocular fusion]]
 	1070. binocular interaction
+		1. n. Another name for binocular fusion.
 	
-	1071. binocular parallax
-	1072. binocular rivalry
-	1073. binocular summation
+	1071. [[binocular parallax]]
+	1072. [[binocular rivalry]]
+	1073. [[binocular summation]]
 	1074. binocular suppression
-	1075. binomial test
+		1. n. Another name for binocular rivalry
+	1075. [[binomial test]]
 	1076. Bio-Medical Data Package
-	1077. bioacoustics
-	1078. bioavailability
-	1079. biodata
-	1080. biodemography
+		1. See BMDP
+	1077. [[bioacoustics]]
+	1078. [[bioavailability]]
+	1079. [[biodata]]
+	1080. [[biodemography]]
 	
-	1081. bioenergetics
-	1082. bioengineering
-	1083. biofeedback
+	1081. [[bioenergetics]]
+	1082. [[bioengineering]]
+	1083. [[biofeedback]]
 	1084. bioflavinoids
-	1085. biogenesis
-	1086. biogenic amine
-	1087. bioinformatics
-	1088. biological clock
+		1. See vitamin P.
+	1085. [[biogenesis]]
+	1086. [[biogenic amine]]
+	1087. [[bioinformatics]]
+	1088. [[biological clock]]
 	1089. biological engineering
+		1. n. Another name for bioengineering.
 	1090. biological motion
+		1. $n$. Another name for the perception created by a point-light display. Also called biological movement or biomechanical motion.
 	
-	1091. biological rhythm
-	1092. biology
-	1093. bioluminescence
+	1091. [[biological rhythm]]
+	1092. [[biology]]
+	1093. [[bioluminescence]]
 	1094. biomechanical motion
-	1095. biometry
-	1096. bionics
-	1097. biophilia
-	1098. biophysics
-	1099. biopsychology
-	1100. biorhythm
+		1. $n$. Another name for the perception created by a point-light display. Also called biomechanical movement or biological motion .
+	1095. [[biometry]]
+	1096. [[bionics]]
+	1097. [[biophilia]]
+	1098. [[biophysics]]
+	1099. [[biopsychology]]
+	1100. [[biorhythm]]
 	
 	1101. biosonar
 	1102. biostatics

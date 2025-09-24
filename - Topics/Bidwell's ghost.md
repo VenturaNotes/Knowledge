@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An afterimage trailing behind a moving spot of light that is observed with dark-adapted eyes and fixated gaze in a dimly lit room. Behind the moving spot, with a delay of about 0.2 second, there appears to follow a ghost light leaving a trail that glows for several seconds. If the original stimulus is white, blue, or green, then the ghost is violet; if the original stimulus is orange or yellow, then the ghost is blue or blue-green; and if the original stimulus is red, then no clear ghost appears. The effect can be demonstrated by adapting one's eyes in darkness for 15 minutes and then moving a spot of light from a small torch or flashlight rapidly over a light-colored surface while keeping the gaze fixated rather than tracking the movement of the spot; if the spot is moved through a tortuous path, the ghost will follow the same tortuous path one-fifth of a second later. The term is also used loosely as a synonym for a static afterimage or a Purkinje image, but in careful usage it is reserved for the moving afterimage described by Bidwell. \[Named after the English physicist and barrister Shelford Bidwell (1848-1909) who described it in his book Curiosities of Light and Vision (1899)]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
