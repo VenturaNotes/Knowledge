@@ -60,8 +60,12 @@ where $\rightarrow$ denotes a simple conditional. The biconditional connective i
 
 Biconditional. Truth table
 
+## Source[^4]
+- $n$. In logic and mathematics, a statement of the form $p$ if and only if $q$. This means that $q$ is a necessary and sufficient condition of $p$, and it is sometimes written $p$ iff $q$. An example is: A number is prime iff it can be evenly divided only by itself and 1. It is called a biconditional because it is equivalent to the double (bi-) statement If $p$ then $q$ and if $q$ then $p$. A biconditional is true if both of its component statements are true or if both are false, and otherwise it is false.
+
 ## References
 
 [^1]: [[(4) Start Learning Logic - Part 3 - Conditional, Biconditional, Implication and Deduction Rules]]
 [^2]: https://truth-table.com/#A%20%E2%86%94B%20%E2%86%94(A%20%E2%86%92B)%E2%88%A7(B%20%E2%86%92A)
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

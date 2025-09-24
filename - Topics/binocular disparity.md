@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The slight discrepancy between the two retinal images of a three-dimensional object or scene, caused by binocular parallax and providing the basis for stereopsis, certain disparity-selective cells in Areas V1, V2, and V5 (MT) of the visual cortex responding selectively to particular disparities and thus being selectively tuned to stimuli at specific distances. If the disparity lies within Panum's fusion area, then binocular fusion occurs and stereopsis results, whereas if the disparity is greater, then diplopia occurs. Binocular disparity is usually expressed in terms of the difference between the visual angles subtended by points on the object or surface being viewed, the visual system being capable of responding with sensations of three-dimensional depth to retinal disparities as small as 2 seconds of arc, corresponding to $1 / 1,800$ of a degree, and near the fovea the maximum binocular disparity resulting in fusion corresponds to a visual angle of about 10 minutes of arc or $1 / 6$ of one degree. Also called retinal disparity or visual disparity . See also anAGLYPH, CORRESPONDENCE PROBLEM, CORRESPONDING RETINAL POINTS, HOROPTER, PANUM'S LIMITING CASE, RANDOM-DOT STEREOGRAM, STEREOBLINDNESS, STEREOSCOPIC ACUITY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

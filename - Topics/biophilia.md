@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Love of life and living things. The word gained prominence when it was used by the German-born US psychoanalyst Erich Fromm (1900-80) in his book The Heart of Man: Its Genius for Good and Evil (1965), although he had already used it in an article in the magazine The Saturday Review (4 January, 1964, pp. 22-25): 'There is an orientation which we may call love of life (biophilia); it is the normal orientation among healthy persons. But there is also to be found in others a deep attraction to death which, following Unamuno's classic speech made at the University of Salamanca (1938), I call necrophilia. It is the attitude which a Franco general, Millán Astray, expressed in the slogan "Long live death," thus provoking Unamuno's protest against this necrophilous and senseless cry' (p. 22). The US sociobiologist Edward O(sborne) Wilson (born 1929) popularized the term in the title of his book Biophilia (1984), defining it as an instinctive bond or sense of affinity of human beings with nature, or 'an innate tendency to focus on life and lifelike processes' (p. 1). Compare biophobia (see Appendix I), necrophilia. biophilic, biophilous, or biophilistic adj. biophile $n$. A person manifesting biophilia. \[From Greek bios life + philos loving, from phileein to love + -ia indicating a condition or quality]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
