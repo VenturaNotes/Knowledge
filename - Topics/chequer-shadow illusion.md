@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An image of an object casting a shadow across a chequer-board, the same color or shade being used to depict one of the 'dark' squares outside the shadow and one of the 'light' squares inside it (see illustration). The visual system discounts for the shadow, even if the viewer does not notice it consciously, causing the 'dark' square to appear much darker than the 'light' square. This shows that the perceived lightness of an object or surface is not determined simply by its physical luminance but is subject to context effects, the visual system responding primarily to lightness contrasts between adjacent regions of the visual field. The illusion, devised by the US vision scientist Edward Adelson (born 1952) and first published on the World Wide Web in 1995, is so powerful as to be almost unbelievable, and it persists even after the viewer knows that the shades are actually identical. Many people are willing to bet large sums of money on the 'dark' square being physically darker than the 'light' square. US checker-shadow illusion. Compare Gelb effect, Kardos effect. \[From Old French eshec check, originally used in the game of chess to indicate that the king is under attack, through Arabic from Persian shah a king + Old English sceadu shade, cognate with Greek skotos darkness]
+- ![[Screenshot 2025-09-25 at 3.24.16 PM.png|400]]
+	- Chequer-shadow illusion. Almost incredibly, the shade of grey is identical in the squares marked A and B in the top image. This can be verified by examining the bottom image.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

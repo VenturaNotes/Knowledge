@@ -1399,775 +1399,901 @@ Reviewed: false
 	1099. [[biopsychology]]
 	1100. [[biorhythm]]
 	
-	1101. biosonar
-	1102. biostatics
-	1103. biotechnology
+	1101. [[biosonar]]
+	1102. [[biostatics]]
+	1103. [[biotechnology]]
 	1104. biotin
-	1105. biotope
-	1106. BIPabbrev.
-	1107. biperiden
-	1108. bipolar
+		1. See vitamin H
+	1105. [[biotope]]
+	1106. [[BIP]]
+	1107. [[biperiden]]
+	1108. [[bipolar]]
 	1109. bipolar affective disorder
-	1110. bipolar cell
+		1. See bipolar disorders
+	1110. [[bipolar cell]]
 	
-	1111. bipolar disorders
-	1112. bipolar rating scale
-	1113. birth trauma
+	1111. [[bipolar disorders]]
+	1112. [[bipolar rating scale]]
+	1113. [[birth trauma]]
 	1114. bisection method
-	1115. bisexual
-	1116. bit
-	1117. bite bar
-	1118. bitter
-	1119. bivariate statistics
+		1. See method of bisection
+	1115. [[bisexual]]
+	1116. [[bit]]
+	1117. [[bite bar]]
+	1118. [[bitter]]
+	1119. [[bivariate statistics]]
 	1120. black bile
+		1. See humour (3)
 	
 	1121. blackboard memory
-	1122. Black English Vernacular
+		1. n. Another name for a buffer store.
+	1122. [[Black English Vernacular]]
 	1123. blacking out
-	1124. Blacky pictures
-	1125. blaming the victim
-	1126. blastocyst
-	1127. blend
-	1128. blending inheritance
-	1129. blindness
+		1. n. Another name for falling out
+	1124. [[Blacky pictures]]
+	1125. [[blaming the victim]]
+	1126. [[blastocyst]]
+	1127. [[blend]]
+	1128. [[blending inheritance]]
+	1129. [[blindness]]
 	1130. blindness denial
+		1. n. Another name for Anton's syndrome
 	
-	1131. blindsight
-	1132. blind spot
-	1133. blind study
-	1134. blind watchmaker
-	1135. blink reflex
+	1131. [[blindsight]]
+	1132. [[blind spot]]
+	1133. [[blind study]]
+	1134. [[blind watchmaker]]
+	1135. [[blink reflex]]
 	1136. blivet
-	1137. blob
+		1. See impossible trident.
+	1137. [[blob]]
 	1138. Bloch's law
-	1139. block design test
+		1. n. Another name for the Bunsen-Roscoe law
+	1139. [[block design test]]
 	1140. block diagram
+		1. n. Another name for a bar chart, a histogram, or a flow chart.
 	
-	1141. blocking memory
-	1142. block portrait
-	1143. blood
-	1144. blood-brain barrier
-	1145. blood-flow receptor
-	1146. blood alcohol concentration
+	1141. [[blocking memory]]
+	1142. [[block portrait]]
+	1143. [[blood]]
+	1144. [[blood-brain barrier]]
+	1145. [[blood-flow receptor]]
+	1146. [[blood alcohol concentration]]
 	1147. blood alcohol level
-	1148. blood group
-	1149. blue-yellow cell
+		1. See blood alcohol concentration
+	1148. [[blood group]]
+	1149. [[blue-yellow cell]]
 	1150. blunted affect
+		1. See affect
 	
-	1151. B lymphocyte
-	1152. BMDPabbrev.
-	1153. boarding school syndrome
+	1151. [[B lymphocyte]]
+	1152. [[BMDP]]
+	1153. [[boarding school syndrome]]
 	1154. body adjustment test
-	1155. body cell
-	1156. body dysmorphic disorder
-	1157. body image
+		1. n. Another name for the tilting-room test. BAT abbrev.
+	1155. [[body cell]]
+	1156. [[body dysmorphic disorder]]
+	1157. [[body image]]
 	1158. body language
+		1. $n$. Another name for kinesics or, loosely speaking, of non-verbal communication in general.
 	1159. body ownership illusion
-	1160. body therapies
+		1. See rubber hand phenomenon
+	1160. [[body therapies]]
 	
 	1161. Bogardus social distance scale
-	1162. bogus pipeline
-	1163. bondage
-	1164. bonding
-	1165. bone conduction
-	1166. bone conduction threshold
-	1167. Bonferroni correction
-	1168. bong
+		1. n. Another name for a social distance scale
+	1162. [[bogus pipeline]]
+	1163. [[bondage]]
+	1164. [[bonding]]
+	1165. [[bone conduction]]
+	1166. [[bone conduction threshold]]
+	1167. [[Bonferroni correction]]
+	1168. [[bong]]
 	1169. Bonnet syndrome
-	1170. bony labyrinth
+		1. See charles bonnet syndrome
+	1170. [[bony labyrinth]]
 	
-	1171. Boolean
-	1172. boomerang effect
-	1173. bootstrapping
-	1174. borderline intelligence
-	1175. borderline personality disorder
-	1176. Boring figure
-	1177. Borna disease virus
-	1178. BOSSabbrev.
+	1171. [[Boolean]]
+	1172. [[boomerang effect]]
+	1173. [[bootstrapping]]
+	1174. [[borderline intelligence]]
+	1175. [[borderline personality disorder]]
+	1176. [[Boring figure]]
+	1177. [[Borna disease virus]]
+	1178. BOSS
+		1. abbrev. The initial syllable of a word as it is pronounced, such as the syllable ne- in the word nevertheless. \[From B(asic) O(rthographic) S(yllabic) S(tructure), a model of syllabic recognition]
 	1179. bottleneck, evolutionary
-	1180. bottleneck theory
+		1. See BOTTLENECK THEORY, EVOLUTIONARY BOTTLENECK.
+	1180. [[bottleneck theory]]
 	
-	1181. bottom-up processing
-	1182. bouffée délirante
+	1181. [[bottom-up processing]]
+	1182. [[bouffée délirante]]
 	1183. boulimia
-	1184. bounded rationality
-	1185. bound energy
-	1186. bound form
-	1187. bouton
+		1. n. A variant spelling of bulimia
+	1184. [[bounded rationality]]
+	1185. [[bound energy]]
+	1186. [[bound form]]
+	1187. [[bouton]]
 	1188. bovine spongiform encephalopathy
-	1189. bow-wow theory
-	1190. box-and-whisker plot
+		1. $n$. The full name of the disease BSE. \[From Latin bos, bovis an ox or cow + spongia a sponge + forma form + Greek enkephalos brain, from en in + kephale head + pathos suffering]
+	1189. [[bow-wow theory]]
+	1190. [[box-and-whisker plot]]
 	
 	1191. Box-Jenkins model
-	1192. boxcar design
+		1. $n$. Another name for an ARIMA model. \[Named after the British statisticians George Edward Pelham Box (1919-2013) and Gwilym Meirion Jenkins (1933-82), who co-authored a book describing the model, entitled Time-Series Analysis: Forecasting and Control (1970)]
+	1192. [[boxcar design]]
 	1193. box plot
-	1194. brachygraphy
+		1. n. Another name for a box-and-whisker plot.
+	1194. [[brachygraphy]]
 	1195. brachymetropia
+		1. $n$. Another name for myopia. \[From Greek brachys short + metron a measure + ops an eye + -ia indicating a condition or quality]
 	1196. bracketing
-	1197. bradycardia
-	1198. bradykinesia
-	1199. bradykinin
-	1200. Braille
+		1. n. Another name for epoche.
+	1197. [[bradycardia]]
+	1198. [[bradykinesia]]
+	1199. [[bradykinin]]
+	1200. [[Braille]]
 	
-	1201. brain
-	1202. brain fag
-	1203. brain imaging
-	1204. brainstem
+	1201. [[brain]]
+	1202. [[brain fag]]
+	1203. [[brain imaging]]
+	1204. [[brainstem]]
 	1205. brainstem reticular formation
-	1206. brainstorming
+		1. n. Another name for the reticular formation. BSRF abbrev. 
+	1206. [[brainstorming]]
 	1207. brain tissue transplantation
-	1208. brainwashing
+		1. See foetal brain transplantation.
+	1208. [[brainwashing]]
 	1209. Brazelton assessment
+		1. $n$. Another name for the Neonatal Behavioral Assessment Scale. Also called the Brazelton scale. \[Named after the US paediatrician T(homas) Berry Brazelton (born 1918)]
 	1210. breakage and reunion
+		1. n. In genetics, another name for crossing over.
 	
-	1211. breathing-related sleep disorders
-	1212. breeding size
-	1213. bregma
-	1214. bricolage
+	1211. [[breathing-related sleep disorders]]
+	1212. [[breeding size]]
+	1213. [[bregma]]
+	1214. [[bricolage]]
 	1215. bridge of Varolius
-	1216. brief psychotherapy
-	1217. brief psychotic disorder
+		1. $n$. An obsolescent name for the pons. \[Named after the Italian anatomist Costanzo Varolius (?1543-75) who first identified it]
+	1216. [[brief psychotherapy]]
+	1217. [[brief psychotic disorder]]
 	1218. bright light therapy
-	1219. brightness
+		1. See phototherapy
+	1219. [[brightness]]
 	1220. brightness constancy
+		1. n. Another name (avoided in careful usage) for lightness constancy.
 	
 	1221. brightness contrast
-	1222. brightness enhancement
-	1223. brightness masking
-	1224. bril
+		1. $n$. Another name (avoided in careful usage) for lightness constancy.
+	1222. [[brightness enhancement]]
+	1223. [[brightness masking]]
+	1224. [[bril]]
 	1225. Briquet's syndrome
-	1226. British Ability Scales
-	1227. British Sign Language
+		1. $n$. Another name for somatization disorder or somatic symptom disorder. \[Named after the French psychiatrist Paul Briquet (1796-1881), who described it in 1859]
+	1226. [[British Ability Scales]]
+	1227. [[British Sign Language]]
 	1228. broad heritability
+		1. See heritability
 	1229. Broca's aphasia
-	1230. Broca's area
+		1. See aphasia
+	1230. [[Broca's area]]
 	
-	1231. Brodmann area
-	1232. bromocriptine
-	1233. Bruce effect
-	1234. brujería
-	1235. Brunswik faces
-	1236. Brunswikian
-	1237. Brunswik ratio
-	1238. brute force algorithm
-	1239. bruxism
-	1240. BSEabbrev.
+	1231. [[Brodmann area]]
+	1232. [[bromocriptine]]
+	1233. [[Bruce effect]]
+	1234. [[brujería]]
+	1235. [[Brunswik faces]]
+	1236. [[Brunswikian]]
+	1237. [[Brunswik ratio]]
+	1238. [[brute force algorithm]]
+	1239. [[bruxism]]
+	1240. [[BSE]]
 	
-	1241. buccal
-	1242. buffer store
-	1243. bufotenin
-	1244. bulbar
-	1245. bulimia
-	1246. bulimia nervosa
-	1247. bundle hypothesis
-	1248. Bunsen-Roscoe law
-	1249. buprenorphine
-	1250. Buridan's ass
+	1241. [[buccal]]
+	1242. [[buffer store]]
+	1243. [[bufotenin]]
+	1244. [[bulbar]]
+	1245. [[bulimia]]
+	1246. [[bulimia nervosa]]
+	1247. [[bundle hypothesis]]
+	1248. [[Bunsen-Roscoe law]]
+	1249. [[buprenorphine]]
+	1250. [[Buridan's ass]]
 	
-	1251. burnout
-	1252. burnt odour
-	1253. buspirone
-	1254. butyrophenone
-	1255. bystander effect
-	1256. byte
-	1257. BZ gasabbrev.
-	1258. cachexia
-	1259. cachinnation
-	1260. cacogeusia
+	1251. [[burnout]]
+	1252. [[burnt odor]]
+	1253. [[buspirone]]
+	1254. [[butyrophenone]]
+	1255. [[bystander effect]]
+	1256. [[byte]]
+	1257. [[BZ gas]]
+	1258. [[cachexia]]
+	1259. [[cachinnation]]
+	1260. [[cacogeusia]]
 	
-	1261. cacography
-	1262. cacology
-	1263. cacophony
-	1264. cacosmia
+	1261. [[cacography]]
+	1262. [[cacology]]
+	1263. [[cacophony]]
+	1264. [[cacosmia]]
 	1265. cafard
-	1266. cafeteria feeding
-	1267. cafe wall illusion
-	1268. caffeine
-	1269. caffeine-related disorders
-	1270. CAGEabbrev.
+		1. $n$. A variant name for amok in Polynesia. Also called cathard. \[From French cafard a cockroach or hypocrite]
+	1266. [[cafeteria feeding]]
+	1267. [[cafe wall illusion]]
+	1268. [[caffeine]]
+	1269. [[caffeine-related disorders]]
+	1270. [[CAGE]]
 	
-	1271. Calabar bean
-	1272. calcarine sulcus
-	1273. calcitonin
-	1274. calcium
-	1275. calcium channel
+	1271. [[Calabar bean]]
+	1272. [[calcarine sulcus]]
+	1273. [[calcitonin]]
+	1274. [[calcium]]
+	1275. [[calcium channel]]
 	1276. California F scale
-	1277. California Psychological Inventory
+		1. $n$. Another name for the $\mathrm{F}$ scale. California A-S scale See A-S scale. California E scale See E scale. California PEC scale See PEC sCALE.
+	1277. [[California Psychological Inventory]]
 	1278. callosal apraxia
-	1279. caloric nystagmus
+		1. $n$. Another name for left-sided apraxia. See also APRAXIA.
+	1279. [[caloric nystagmus]]
 	1280. caloric test
+		1. $n$. Another name for the Bárány test.
 	
-	1281. Calorie
-	1282. calpain
-	1283. calque
-	1284. canalizing selection
-	1285. cancellation heuristic
-	1286. cancellation method
-	1287. cancer-prone behaviour
-	1288. candela
-	1289. candlepower
-	1290. candy
+	1281. [[Calorie]]
+	1282. [[calpain]]
+	1283. [[calque]]
+	1284. [[canalizing selection]]
+	1285. [[cancellation heuristic]]
+	1286. [[cancellation method]]
+	1287. cancer-prone behavior
+		1. See Type C. US cancer-prone behavior
+	1288. [[candela]]
+	1289. [[candlepower]]
+	1290. [[candy]]
 	
-	1291. cannabis
-	1292. cannabis-related disorders
-	1293. cannibal
+	1291. [[cannabis]]
+	1292. [[cannabis-related disorders]]
+	1293. [[cannibal]]
 	1294. cannibalistic stage
-	1295. Cannon-Bard theory
-	1296. canonical correlation
-	1297. canonical sequence
-	1298. cant
-	1299. cantharides
-	1300. capacity
+		1. n. Another name for the oral sadistic phase.
+	1295. [[Cannon-Bard theory]]
+	1296. [[canonical correlation]]
+	1297. [[canonical sequence]]
+	1298. [[cant]]
+	1299. [[cantharides]]
+	1300. [[capacity]]
 	
-	1301. Capgras syndrome
-	1302. caprylic odour
-	1303. capsaicin
-	1304. carbachol
-	1305. carbamate
-	1306. carbamazepine
-	1307. carcinogen
-	1308. carcinoma
-	1309. cardiac muscle
+	1301. [[Capgras syndrome]]
+	1302. [[caprylic odor]]
+	1303. [[capsaicin]]
+	1304. [[carbachol]]
+	1305. [[carbamate]]
+	1306. [[carbamazepine]]
+	1307. [[carcinogen]]
+	1308. [[carcinoma]]
+	1309. [[cardiac muscle]]
 	1310. cardiac psychology
+		1. n. Another name for psychocardiology
 	
 	1311. cardinal humour
-	1312. cardinal vowels
-	1313. caretaker speech
-	1314. caricature advantage
-	1315. carnivore
-	1316. carpentered world
-	1317. carrier
-	1318. carrier protein
-	1319. carrying capacity
-	1320. Cartesian
+		1. See humour (3)
+	1312. [[cardinal vowels]]
+	1313. [[caretaker speech]]
+	1314. [[caricature advantage]]
+	1315. [[carnivore]]
+	1316. [[carpentered world]]
+	1317. [[carrier]]
+	1318. [[carrier protein]]
+	1319. [[carrying capacity]]
+	1320. [[Cartesian]]
 	
-	1321. Cartesian dualism
-	1322. cascade processing
-	1323. case grammar
-	1324. case study
-	1325. castratevb.
-	1326. castration complex
-	1327. catabolism
-	1328. catachresis
-	1329. catalepsy
-	1330. catalexia
+	1321. [[Cartesian dualism]]
+	1322. [[cascade processing]]
+	1323. [[case grammar]]
+	1324. [[case study]]
+	1325. [[castrate]]
+	1326. [[castration complex]]
+	1327. [[catabolism]]
+	1328. [[catachresis]]
+	1329. [[catalepsy]]
+	1330. [[catalexia]]
 	
-	1331. catamnesis
-	1332. cataphora
-	1333. cataplexy
-	1334. cataract
-	1335. catastrophe theory
-	1336. catastrophism
-	1337. catathymia
+	1331. [[catamnesis]]
+	1332. [[cataphora]]
+	1333. [[cataplexy]]
+	1334. [[cataract]]
+	1335. [[catastrophe theory]]
+	1336. [[catastrophism]]
+	1337. [[catathymia]]
 	1338. catathymic amnesia
-	1339. catatonia
-	1340. catatonic disorder due to another medical condition
+		1. n. Another name for episodic amnesia.
+	1339. [[catatonia]]
+	1340. [[catatonic disorder due to another medical condition]]
 	
-	1341. catatonic schizophrenia
-	1342. catch trial
-	1343. catechol-o-methyl-transferase
-	1344. catecholamine
-	1345. Catego
+	1341. [[catatonic schizophrenia]]
+	1342. [[catch trial]]
+	1343. [[catechol-o-methyl-transferase]]
+	1344. [[catecholamine]]
+	1345. [[Catego]]
 	1346. categorical attitude
-	1347. categorical imperative
-	1348. categorical perception
-	1349. categorical syllogism
-	1350. categorical variable
+		1. n. Another name for abstract attitude.
+	1347. [[categorical imperative]]
+	1348. [[categorical perception]]
+	1349. [[categorical syllogism]]
+	1350. [[categorical variable]]
 	
-	1351. category mistake
-	1352. catharsis
-	1353. cathexis
-	1354. cation
-	1355. cation channel
-	1356. catnip
+	1351. [[category mistake]]
+	1352. [[catharsis]]
+	1353. [[cathexis]]
+	1354. [[cation]]
+	1355. [[cation channel]]
+	1356. [[catnip]]
 	1357. Cattell 16-PF
-	1358. Cattell Culture-Fair Test
-	1359. caudal
-	1360. caudate
+		1. See 16PF
+	1358. [[Cattell Culture-Fair Test]]
+	1359. [[caudal]]
+	1360. [[caudate]]
 	
-	1361. caudate nucleus
-	1362. caudatolenticular
-	1363. causal
-	1364. causal effect
-	1365. causalgia
-	1366. causal inference
-	1367. causal schema
-	1368. causal texture
-	1369. causal variable
+	1361. [[caudate nucleus]]
+	1362. [[caudatolenticular]]
+	1363. [[causal]]
+	1364. [[causal effect]]
+	1365. [[causalgia]]
+	1366. [[causal inference]]
+	1367. [[causal schema]]
+	1368. [[causal texture]]
+	1369. [[causal variable]]
 	1370. cautious shift
+		1. See risky shift
 	
-	1371. CCC trigramabbrev.
-	1372. ceiling effect
-	1373. celestial illusion
-	1374. cell
-	1375. cell assembly
-	1376. cell body
-	1377. cell division
-	1378. cell membrane
-	1379. cellular automaton
-	1380. censored variable
+	1371. CCC trigam
+		1. abbrev. Another name for a consonant trigram. \[An acronym of $c$ (onsonant) $c$ (onsonant) $c$ (onsonant)]
+	1372. [[ceiling effect]]
+	1373. [[celestial illusion]]
+	1374. [[cell]]
+	1375. [[cell assembly]]
+	1376. [[cell body]]
+	1377. [[cell division]]
+	1378. [[cell membrane]]
+	1379. [[cellular automaton]]
+	1380. [[censored variable]]
 	
-	1381. censorship
+	1381. [[censorship]]
 	1382. centile
-	1383. centipede effect
-	1384. central alveolar hypoventilation syndrome
-	1385. central auditory processing disorder
-	1386. central canal
+		1. n. Another name for a percentile
+	1383. [[centipede effect]]
+	1384. [[central alveolar hypoventilation syndrome]]
+	1385. [[central auditory processing disorder]]
+	1386. [[central canal]]
 	1387. central deafness
-	1388. central dogma
-	1389. central dyslexias
-	1390. central executive
+		1. $n$. Another name for central auditory processing disorder.
+	1388. [[central dogma]]
+	1389. [[central dyslexias]]
+	1390. [[central executive]]
 	
 	1391. central fissure
+		1. $n$. Another name for the central sulcus. \[From Latin fissus split, from findere to split]
 	1392. central grey matter
-	1393. centralized communication network
-	1394. central limit theorem
-	1395. central masking
-	1396. central nervous system
-	1397. central nystagmus
-	1398. central processing unit
-	1399. central processor
-	1400. central reaction time
+		1. $n$. Another name for the periaqueductal grey matter. US central gray matter.
+	1393. [[centralized communication network]]
+	1394. [[central limit theorem]]
+	1395. [[central masking]]
+	1396. [[central nervous system]]
+	1397. [[central nystagmus]]
+	1398. [[central processing unit]]
+	1399. [[central processor]]
+	1400. [[central reaction time]]
 	
-	1401. central sleep apnoea
-	1402. central sulcus
-	1403. central tendency
+	1401. [[central sleep apnoea]]
+	1402. [[central sulcus]]
+	1403. [[central tendency]]
 	1404. central trait
-	1405. central vision
-	1406. central vowel
-	1407. centration
-	1408. centre-surround receptive field
+		1. See trait centrality
+	1405. [[central vision]]
+	1406. [[central vowel]]
+	1407. [[centration]]
+	1408. [[centre-surround receptive field]]
 	1409. centring
-	1410. centroid method
+		1. n. Another name for centration
+	1410. [[centroid method]]
 	
-	1411. centromere
-	1412. cephalic
-	1413. cephalic index
-	1414. cephalocaudal
-	1415. cerea flexibilitas
-	1416. cerebellar developmental delay
-	1417. cerebellar peduncle
-	1418. cerebellar syndrome
-	1419. cerebellospinal tract
-	1420. cerebellum
+	1411. [[centromere]]
+	1412. [[cephalic]]
+	1413. [[cephalic index]]
+	1414. [[cephalocaudal]]
+	1415. [[cerea flexibilitas]]
+	1416. [[cerebellar developmental delay]]
+	1417. [[cerebellar peduncle]]
+	1418. [[cerebellar syndrome]]
+	1419. [[cerebellospinal tract]]
+	1420. [[cerebellum]]
 	
-	1421. cerebral
-	1422. cerebral angiogram
-	1423. cerebral angiography
-	1424. cerebral aqueduct
+	1421. [[cerebral]]
+	1422. [[cerebral angiogram]]
+	1423. [[cerebral angiography]]
+	1424. [[cerebral aqueduct]]
 	1425. cerebral arteriogram
+		1. $n$. Another name for a cerebral angiogram. \[From Greek arteria an artery + gramme a line]
 	1426. cerebral arteriography
-	1427. cerebral arteriosclerosis
-	1428. cerebral blood flow
-	1429. cerebral cortex
-	1430. cerebral dominance
+		1. $n$. Another name for cerebral angiography.
+	1427. [[cerebral arteriosclerosis]]
+	1428. [[cerebral blood flow]]
+	1429. [[cerebral cortex]]
+	1430. [[cerebral dominance]]
 	
-	1431. cerebral gigantism
-	1432. cerebral hemisphere
-	1433. cerebral palsy
-	1434. cerebral peduncle
+	1431. [[cerebral gigantism]]
+	1432. [[cerebral hemisphere]]
+	1433. [[cerebral palsy]]
+	1434. [[cerebral peduncle]]
 	1435. cerebral ventricle
-	1436. cerebrospinal
-	1437. cerebrospinal fluid
-	1438. cerebrovascular
+		1. See ventricle
+	1436. [[cerebrospinal]]
+	1437. [[cerebrospinal fluid]]
+	1438. [[cerebrovascular]]
 	1439. cerebrovascular accident
-	1440. cerebrum
+		1. n. Another name for a stroke. CVA abbrev.
+	1440. [[cerebrum]]
 	
-	1441. certainty effect
-	1442. ceruminous deafness
-	1443. cerveau isolé
-	1444. C fibre
-	1445. chained reinforcement schedule
+	1441. [[certainty effect]]
+	1442. [[ceruminous deafness]]
+	1443. [[cerveau isolé]]
+	1444. [[C fibre]]
+	1445. [[chained reinforcement schedule]]
 	1446. chain ganglia
+		1. $n$. Another name for a sympathetic ganglionic chain.
 	1447. chairwork
-	1448. chandelier cell
-	1449. change blindness
+		1. n. Another name for the empty-chair technique
+	1448. [[chandelier cell]]
+	1449. [[change blindness]]
 	1450. change of life
+		1. $n$. A euphemism or non-technical name for the climacteric or menopause.
 	
 	1451. channel of communication
-	1452. character
-	1453. character convergence
-	1454. character disorders
-	1455. character displacement
-	1456. characteristic features
-	1457. characteristic frequency
-	1458. character neurosis
-	1459. Charcot-Marie-Tooth syndrome
-	1460. Charles Bonnet syndrome
+		1. See communication channel (1,2).
+	1452. [[character]]
+	1453. [[character convergence]]
+	1454. [[character disorders]]
+	1455. [[character displacement]]
+	1456. [[characteristic features]]
+	1457. [[characteristic frequency]]
+	1458. [[character neurosis]]
+	1459. [[Charcot-Marie-Tooth syndrome]]
+	1460. [[Charles Bonnet syndrome]]
 	
 	1461. Charlie
+		1. n. A street name for cocaine
 	1462. Charpentier’s illusion
-	1463. Charpentier bands
+		1. n. Another name for the size-weight illusion. \[Named after the French physician (Pierre Marie) Augustin Charpentier (1852-1916) who published an article on it in 1891, although the German psychologists Georg Elias Müller (1850-1934) and Friedrich Schumann (1863-1940) had already discovered and reported the illusion in 1889]
+	1463. [[Charpentier bands]]
 	1464. cheating husbands problem
+		1. See muddy children problem
 	1465. checker-shadow illusion
-	1466. cheese effect
-	1467. chemically gated ion channel
-	1468. chemical sense
-	1469. chemoaffinity hypothesis
-	1470. chemoreceptor
+		1. See CHEQUER-SHADOW ILLUSION.
+	1466. [[cheese effect]]
+	1467. [[chemically gated ion channel]]
+	1468. [[chemical sense]]
+	1469. [[chemoaffinity hypothesis]]
+	1470. [[chemoreceptor]]
 	
-	1471. chemorepellant
-	1472. chemotaxis
-	1473. chequer-shadow illusion
-	1474. cherology
-	1475. Cheshire Cat effect
-	1476. Chevreul pendulum
-	1477. chi-square distribution
-	1478. chi-square test
-	1479. chiaroscuro
-	1480. chiasm
+	1471. [[chemorepellant]]
+	1472. [[chemotaxis]]
+	1473. [[chequer-shadow illusion]]
+	1474. [[cherology]]
+	1475. [[Cheshire Cat effect]]
+	1476. [[Chevreul pendulum]]
+	1477. [[chi-square distribution]]
+	1478. [[chi-square test]]
+	1479. [[chiaroscuro]]
+	1480. [[chiasm]]
 	
-	1481. chiasmus
-	1482. Chicken game
+	1481. [[chiasmus]]
+	1482. [[Chicken game]]
 	1483. child-directed speech
-	1484. child abuse
-	1485. childhood-onset fluency disorder
+		1. n. Another name for caretaker speech
+	1484. [[child abuse]]
+	1485. [[childhood-onset fluency disorder]]
 	1486. childhood amnesia
+		1. n. Another name for infantile amnesia
 	1487. childhood autism
-	1488. childhood disintegrative disorder
-	1489. Children’s Apperception Test
-	1490. child sexual abuse
+		1. n. An alternative name for autism spectrum disorder
+	1488. [[childhood disintegrative disorder]]
+	1489. [[Children’s Apperception Test]]
+	1490. [[child sexual abuse]]
 	
-	1491. chimera
-	1492. chimeric face
+	1491. [[chimera]]
+	1492. [[chimeric face]]
 	1493. China white
-	1494. Chinese room
-	1495. chloral hydrate
-	1496. chlordiazepoxide
-	1497. chloride
+		1. n. A street name for the drug fentanyl
+	1494. [[Chinese room]]
+	1495. [[chloral hydrate]]
+	1496. [[chlordiazepoxide]]
+	1497. [[chloride]]
 	1498. chloroacetophenone
-	1499. chlorpromazine
-	1500. choice of neurosis
+		1. See CN gas
+	1499. [[chlorpromazine]]
+	1500. [[choice of neurosis]]
 	
-	1501. choice reaction time
+	1501. [[choice reaction time]]
 	1502. choice shift
-	1503. cholecystokinin
-	1504. cholesterol
-	1505. choline
-	1506. cholinergic
+		1. $n$. Another name for the risky shift phenomenon or, more generally the group polarization phenomenon.
+	1503. [[cholecystokinin]]
+	1504. [[cholesterol]]
+	1505. [[choline]]
+	1506. [[cholinergic]]
 	1507. cholinesterase
-	1508. cholinoceptor
-	1509. cholinomimetic
-	1510. Chomskyan
+		1. $n$. Another name for acetylcholinesterase. \[From choline + ester + Greek -ase denoting an enzyme, from diastasis separation]
+	1508. [[cholinoceptor]]
+	1509. [[cholinomimetic]]
+	1510. [[Chomskyan]]
 	
-	1511. chorda tympani
-	1512. chorea
+	1511. [[chorda tympani]]
+	1512. [[chorea]]
 	1513. chorea minor
-	1514. choreiform
-	1515. chorionic gonadotrophin
-	1516. choroid
-	1517. choroid plexus
-	1518. chroma
-	1519. chromaesthesia
-	1520. chromaffin cell
+		1. n. Another name for Sydenham's chorea
+	1514. [[choreiform]]
+	1515. [[chorionic gonadotrophin]]
+	1516. [[choroid]]
+	1517. [[choroid plexus]]
+	1518. [[chroma]]
+	1519. [[chromaesthesia]]
+	1520. [[chromaffin cell]]
 	
-	1521. chromatic
+	1521. [[chromatic]]
 	1522. chromatic aberration
-	1523. chromatic adaptation
+		1. See aberration (3)
+	1523. [[chromatic adaptation]]
 	1524. chromatic audition
-	1525. chromaticity
+		1. n. Another name for color hearing
+	1525. [[chromaticity]]
 	1526. chromaticness
-	1527. chromatic system
-	1528. chromatic threshold
-	1529. chromatic vision
-	1530. chromatid
+		1. n. Another name for chromaticity
+	1527. [[chromatic system]]
+	1528. [[chromatic threshold]]
+	1529. [[chromatic vision]]
+	1530. [[chromatid]]
 	
-	1531. chromatin
-	1532. chromatopsia
+	1531. [[chromatin]]
+	1532. [[chromatopsia]]
 	1533. chromesthesia
-	1534. chromophore
-	1535. chromosomal aberration
-	1536. chromosome
-	1537. chronic
-	1538. chronic fatigue syndrome
+		1. See chromaesthesia.
+	1534. [[chromophore]]
+	1535. [[chromosomal aberration]]
+	1536. [[chromosome]]
+	1537. [[chronic]]
+	1538. [[chronic fatigue syndrome]]
 	1539. chronic motor
-	1540. chronic pain
+		1. or vocal tic disorder $n$. Another name (used in DSM-IV) for provisional tic disorder.
+	1540. [[chronic pain]]
 	
-	1541. chronobiology
-	1542. chronological age
-	1543. chunking
-	1544. CIE colour system
-	1545. cilia
+	1541. [[chronobiology]]
+	1542. [[chronological age]]
+	1543. [[chunking]]
+	1544. [[CIE color system]]
+	1545. [[cilia]]
 	1546. ciliaris
-	1547. ciliary body
-	1548. ciliary muscle
-	1549. ciliary reflex
+		1. n. Another name for the ciliary muscle
+	1547. [[ciliary body]]
+	1548. [[ciliary muscle]]
+	1549. [[ciliary reflex]]
 	1550. ciliary zonule
+		1. n. Another name for the zonule of Zinn
 	
-	1551. cingulate gyrus
-	1552. cingulum
-	1553. circadian rhythm
-	1554. circadian rhythm sleep-wake disorders
-	1555. circannual rhythm
-	1556. circaseptan rhythm
+	1551. [[cingulate gyrus]]
+	1552. [[cingulum]]
+	1553. [[circadian rhythm]]
+	1554. [[circadian rhythm sleep-wake disorders]]
+	1555. [[circannual rhythm]]
+	1556. [[circaseptan rhythm]]
 	1557. circling dance
+		1. n. Another name for the honey-bee's round dance.
 	1558. circular pitch illusion
-	1559. circumstantiality
-	1560. circumvallate papilla
+		1. n. Another name for the auditory staircase illusion
+	1559. [[circumstantiality]]
+	1560. [[circumvallate papilla]]
 	
-	1561. circumventricular organ
+	1561. [[circumventricular organ]]
 	1562. Cirpam(il)
-	1563. cis-transcomplementation test
-	1564. cisterna
-	1565. cistron
-	1566. citalopram
-	1567. citation form
+		1. $n$. A proprietary name for the antidepressant drug citalopram. \[Trademark]
+	1563. [[cis-trans complementation test]]
+	1564. [[cisterna]]
+	1565. [[cistron]]
+	1566. [[citalopram]]
+	1567. [[citation form]]
 	1568. citric acid cycle
-	1569. clairaudience
-	1570. clairvoyance
+		1. $n$. Another name for the Krebs cycle. \[So called because citric acid is formed during the process]
+	1569. [[clairaudience]]
+	1570. [[clairvoyance]]
 	
-	1571. clamon
-	1572. clang association
-	1573. clasp-knife rigidity
-	1574. class
-	1575. classical conditioning
+	1571. [[clamon]]
+	1572. [[clang association]]
+	1573. [[clasp-knife rigidity]]
+	1574. [[class]]
+	1575. [[classical conditioning]]
 	1576. classical receptive field
-	1577. classical test theory
-	1578. claustrum
+		1. See receptive field.
+	1577. [[classical test theory]]
+	1578. [[claustrum]]
 	1579. Clérambault’s syndrome
-	1580. Clever Hans
+		1. See de Clérambault's syndrome.
+	1580. [[Clever Hans]]
 	
-	1581. client
-	1582. client-centred therapy
-	1583. climacteric
-	1584. climbing fibre
-	1585. Clinical History Schedule
-	1586. clinical prediction
-	1587. clinical psychology
-	1588. clinical trial
-	1589. clipping
-	1590. clique
+	1581. [[client]]
+	1582. [[client-centred therapy]]
+	1583. [[climacteric]]
+	1584. [[climbing fibre]]
+	1585. [[Clinical History Schedule]]
+	1586. [[clinical prediction]]
+	1587. [[clinical psychology]]
+	1588. [[clinical trial]]
+	1589. [[clipping]]
+	1590. [[clique]]
 	
-	1591. clitic
-	1592. clitoridectomy
-	1593. clitoris
-	1594. cloacal theory
-	1595. Clock Drawing Test
-	1596. clomipramine
-	1597. clone
-	1598. clonic convulsion
+	1591. [[clitic]]
+	1592. [[clitoridectomy]]
+	1593. [[clitoris]]
+	1594. [[cloacal theory]]
+	1595. [[Clock Drawing Test]]
+	1596. [[clomipramine]]
+	1597. [[clone]]
+	1598. [[clonic convulsion]]
 	1599. close-ended question
-	1600. closed-loop control
+		1. n. Another name for a closed question
+	1600. [[closed-loop control]]
 	
-	1601. closed head injury
-	1602. closed node
-	1603. closed question
-	1604. close vowel
-	1605. closure grouping law
-	1606. clouding of consciousness
+	1601. [[closed head injury]]
+	1602. [[closed node]]
+	1603. [[closed question]]
+	1604. [[close vowel]]
+	1605. [[closure grouping law]]
+	1606. [[clouding of consciousness]]
 	1607. Cloud nine
-	1608. clozapine
-	1609. cloze procedure
-	1610. cluster analysis
+		1. n. A street name for ephedrine.
+	1608. [[clozapine]]
+	1609. [[cloze procedure]]
+	1610. [[cluster analysis]]
 	
-	1611. clustering
-	1612. cluster sample
-	1613. cluster suicides
+	1611. [[clustering]]
+	1612. [[cluster sample]]
+	1613. [[cluster suicides]]
 	1614. clysmaphilia
-	1615. CN gasabbrev.
-	1616. co-counselling
-	1617. co-dependency
-	1618. co-evolution
-	1619. co-facilitator
-	1620. co-therapist
+		1. n. An alternative spelling of klysmaphilia.
+	1615. [[CN gas]]
+	1616. [[co-counselling]]
+	1617. [[co-dependency]]
+	1618. [[co-evolution]]
+	1619. [[co-facilitator]]
+	1620. [[co-therapist]]
 	
-	1621. coaching psychology
-	1622. coaction effect
-	1623. coactor
-	1624. cocaine
-	1625. cocaine-related disorders
-	1626. cocaine bug
-	1627. coccygeal nerve
-	1628. cochlea
-	1629. cochlear canal
+	1621. [[coaching psychology]]
+	1622. [[coaction effect]]
+	1623. [[coactor]]
+	1624. [[cocaine]]
+	1625. [[cocaine-related disorders]]
+	1626. [[cocaine bug]]
+	1627. [[coccygeal nerve]]
+	1628. [[cochlea]]
+	1629. [[cochlear canal]]
 	1630. cochlear duct
+		1. n. Another name for the cochlear canal
 	
-	1631. cochlear emissions
-	1632. cochlear implant
-	1633. cochlear microphonic
-	1634. cochlear nerve
-	1635. cochlear nucleus
+	1631. [[cochlear emissions]]
+	1632. [[cochlear implant]]
+	1633. [[cochlear microphonic]]
+	1634. [[cochlear nerve]]
+	1635. [[cochlear nucleus]]
 	1636. cochlear window
+		1. n. Another name for the round window. 
 	1637. cochleogram
+		1. n. Another name for the cochlear microphonic
 	1638. cochleotopic map
-	1639. Cochran’sC
-	1640. Cochran’sQ
+		1. n. Another name for a tonotopic map
+	1639. [[Cochran’s C]]
+	1640. [[Cochran’s Q]]
 	
-	1641. Cochrane reviewn
-	1642. cockney
-	1643. cocktail party phenomenon
-	1644. coda
-	1645. codeine
-	1646. coding test
-	1647. codon
-	1648. codon family
+	1641. [[Cochrane review]]
+	1642. [[cockney]]
+	1643. [[cocktail party phenomenon]]
+	1644. [[coda]]
+	1645. [[codeine]]
+	1646. [[coding test]]
+	1647. [[codon]]
+	1648. [[codon family]]
 	1649. coefficient alpha
-	1650. coefficient of consanguinity
+		1. n. Another name for Cronbach's alpha
+	1650. [[coefficient of consanguinity]]
 	
-	1651. coefficient of determination
+	1651. [[coefficient of determination]]
 	1652. coefficient of kinship
-	1653. coefficient of relationship
+		1. n. Another name for the coefficient of consanguinity
+	1653. [[coefficient of relationship]]
 	1654. coefficient of reliability
+		1. See reliability coefficient
 	1655. coefficient of validity
-	1656. coenaesthesis
-	1657. cognate languages
-	1658. cognition
+		1. See validity coefficient
+	1656. [[coenaesthesis]]
+	1657. [[cognate languages]]
+	1658. [[cognition]]
 	1659. cognitive
-	1660. cognitive‐analytic therapy
+		1. adj. Of, relating to, or involving cognition
+	1660. [[cognitive‐analytic therapy]]
 	
-	1661. cognitive‐appraisal theory
+	1661. [[cognitive‐appraisal theory]]
 	1662. cognitive‐evaluation theory
-	1663. cognitive ability
+		1. n. Another name for the cognitive-appraisal theory
+	1663. [[cognitive ability]]
 	1664. cognitive balance
-	1665. cognitive behaviour modification
-	1666. cognitive behaviour therapy
-	1667. cognitive consistency theory
-	1668. cognitive derailment
-	1669. cognitive development
-	1670. cognitive disorders
+		1. See balance theory
+	1665. [[cognitive behavior modification]]
+	1666. cognitive behavior therapy
+		1. n. Another name for cognitive behavior modification. CBT abbrev.
+	1667. [[cognitive consistency theory]]
+	1668. [[cognitive derailment]]
+	1669. [[cognitive development]]
+	1670. [[cognitive disorders]]
 	
-	1671. cognitive dissonance
-	1672. cognitive economy
+	1671. [[cognitive dissonance]]
+	1672. [[cognitive economy]]
 	1673. cognitive enhancer
-	1674. Cognitive Failures Questionnaire
+		1. n. Another name for a smart drug
+	1674. [[Cognitive Failures Questionnaire]]
 	1675. cognitive heuristic
-	1676. cognitive illusion
-	1677. cognitive impairment
+		1. n. Another name for a heuristic.
+	1676. [[cognitive illusion]]
+	1677. [[cognitive impairment]]
 	1678. cognitive impairment no dementia
-	1679. cognitive interview
-	1680. cognitive invention
+		1. n. Another name for mild cognitive impairment. CIND abbrev.
+	1679. [[cognitive interview]]
+	1680. [[cognitive invention]]
 	
-	1681. cognitive map
-	1682. cognitive miser
-	1683. cognitive neuropsychology
-	1684. cognitive penetrability
-	1685. cognitive psychology
-	1686. cognitive restructuring
+	1681. [[cognitive map]]
+	1682. [[cognitive miser]]
+	1683. [[cognitive neuropsychology]]
+	1684. [[cognitive penetrability]]
+	1685. [[cognitive psychology]]
+	1686. [[cognitive restructuring]]
 	1687. cognitive schema
-	1688. cognitive science
-	1689. cognitive set
-	1690. cognitive slippage
+		1. See schema
+	1688. [[cognitive science]]
+	1689. [[cognitive set]]
+	1690. [[cognitive slippage]]
 	
-	1691. cognitive style
-	1692. cognitive therapy
-	1693. cognitivism
-	1694. cogwheel rigidity
-	1695. Cohen’sd
+	1691. [[cognitive style]]
+	1692. [[cognitive therapy]]
+	1693. [[cognitivism]]
+	1694. [[cogwheel rigidity]]
+	1695. [[Cohen’s d]]
 	1696. Cohen’s kappa coefficient
-	1697. cohesive self
-	1698. cohoba
-	1699. cohort
+		1. See kappa statistic
+	1697. [[cohesive self]]
+	1698. [[cohoba]]
+	1699. [[cohort]]
 	1700. coitus
+		1. n. Sexual intercourse. Also called coition. \[From Latin coitus uniting, from coire to meet, from co- together + ire to go]
 	
-	1701. coitus interruptus
-	1702. coitus reservatus
+	1701. [[coitus interruptus]]
+	1702. [[coitus reservatus]]
 	1703. coke
-	1704. cold pressor pain
-	1705. cold spot
-	1706. cold turkey
+		1. n. A common street name for cocaine
+	1704. [[cold pressor pain]]
+	1705. [[cold spot]]
+	1706. [[cold turkey]]
 	1707. colera
-	1708. collective unconscious
-	1709. colliculus
-	1710. colorimeter
+		1. n. Another name for bilis \[Spanish colera bile]
+	1708. [[collective unconscious]]
+	1709. [[colliculus]]
+	1710. [[colorimeter]]
 	
-	1711. colour
-	1712. colour-blindness
-	1713. colour adaptation
-	1714. colour anomaly
-	1715. colour assimilation
-	1716. colour audition
-	1717. colour circle
-	1718. colour constancy
-	1719. colour contrast
-	1720. colour deficiency
+	1711. [[color]]
+	1712. [[color-blindness]]
+	1713. color adaptation
+		1. n. Another name for chromatic adaptation (1, 2). US color adaptation
+	1714. [[color anomaly]]
+	1715. [[color assimilation]]
+	1716. [[color audition]]
+	1717. [[color circle]]
+	1718. [[color constancy]]
+	1719. [[color contrast]]
+	1720. [[color deficiency]]
 	
-	1721. colour dysnomia
-	1722. coloured noise
-	1723. colour equation
-	1724. colour flight
-	1725. colour hearing
-	1726. colour induction
-	1727. colour mixing
-	1728. colour solid
-	1729. colour spindle
-	1730. colour surface
+	1721. [[color dysnomia]]
+	1722. [[colored noise]]
+	1723. [[color equation]]
+	1724. color flight
+		1. See flight of colors
+	1725. [[color hearing]]
+	1726. [[color induction]]
+	1727. [[color mixing]]
+	1728. [[color solid]]
+	1729. color spindle
+		1. n. A spindle-shaped color solid. US color spindle
+	1730. [[color surface]]
 	
-	1731. colour triangle
-	1732. colour weakness
-	1733. colour wheel
-	1734. colour zone
-	1735. coma
-	1736. combat fatigue
-	1737. combination tone
-	1738. combined parent-figure
-	1739. comcon
-	1740. commensal
+	1731. [[color triangle]]
+	1732. [[color weakness]]
+	1733. color wheel
+		1. n. Another name for a Maxwell disc. US color wheel. 
+	1734. [[color zone]]
+	1735. [[coma]]
+	1736. [[combat fatigue]]
+	1737. [[combination tone]]
+	1738. [[combined parent-figure]]
+	1739. [[comcon]]
+	1740. [[commensal]]
 	
-	1741. commissure
-	1742. commissurotomy
-	1743. common chemical sense
-	1744. common fate
-	1745. common knowledge
-	1746. common language effect size statistic
-	1747. common ratio effect
-	1748. common region
-	1749. commons dilemma
-	1750. communality
+	1741. [[commissure]]
+	1742. [[commissurotomy]]
+	1743. [[common chemical sense]]
+	1744. [[common fate]]
+	1745. [[common knowledge]]
+	1746. [[common language effect size statistic]]
+	1747. [[common ratio effect]]
+	1748. [[common region]]
+	1749. [[commons dilemma]]
+	1750. [[communality]]
 	
-	1751. communication channel
-	1752. communication disorders
-	1753. communication network
+	1751. [[communication channel]]
+	1752. [[communication disorders]]
+	1753. [[communication network]]
 	1754. communication skills training
-	1755. community psychiatry
-	1756. community psychology
-	1757. companionate love
-	1758. comparable forms
-	1759. comparative judgement
-	1760. comparative psychology
+		1. $n$. Another name for social skills training, especially when it focuses primarily on verbal skills and non-verbal communication. CST abbrev.
+	1755. [[community psychiatry]]
+	1756. [[community psychology]]
+	1757. [[companionate love]]
+	1758. [[comparable forms]]
+	1759. [[comparative judgement]]
+	1760. [[comparative psychology]]
 	
 	1761. comparative reference group
-	1762. comparison level
+		1. See reference group
+	1762. [[comparison level]]
 	1763. comparison stimulus
-	1764. compensation
-	1765. compensation neurosis
-	1766. compensatory eye movement
-	1767. competence
-	1768. competency test
-	1769. competitive antagonist
-	1770. competitive exclusion principle
+		1. n. Another name for a variable stimulus. Co abbrev. 
+	1764. [[compensation]]
+	1765. [[compensation neurosis]]
+	1766. [[compensatory eye movement]]
+	1767. [[competence]]
+	1768. [[competency test]]
+	1769. [[competitive antagonist]]
+	1770. [[competitive exclusion principle]]
 	
 	1771. competitive reaction time paradigm
-	1772. complemental series
+		1. n. Another name for the Taylor aggression paradigm
+	1772. [[complemental series]]
 	1773. complementarity hypothesis
-	1774. complementary afterimage
-	1775. complementary base pairing
-	1776. complementary colours
-	1777. complementary DNA
-	1778. complementation
+		1. See need complementarity hypothesis
+	1774. [[complementary afterimage]]
+	1775. [[complementary base pairing]]
+	1776. [[complementary colors]]
+	1777. [[complementary DNA]]
+	1778. [[complementation]]
 	1779. complementation test
-	1780. complete linkage clustering
+		1. n. Another name for the cis-trans complementation test. 
+	1780. [[complete linkage clustering]]
 	
 	1781. complete Oedipus complex
-	1782. completion test
-	1783. complex
-	1784. complex cell
-	1785. complex indicator
-	1786. complexion
+		1. See oedipus complex
+	1782. [[completion test]]
+	1783. [[complex]]
+	1784. [[complex cell]]
+	1785. [[complex indicator]]
+	1786. [[complexion]]
 	1787. complex reaction time
-	1788. complex receptive field
-	1789. complex tone
-	1790. compliance
+		1. n. Another name for choice reaction time
+	1788. [[complex receptive field]]
+	1789. [[complex tone]]
+	1790. [[compliance]]
 	
 	1791. compliance, somatic
-	1792. componential theory
-	1793. component instinct
-	1794. composite light
-	1795. compound eye
+		1. See somatic compliance
+	1792. [[componential theory]]
+	1793. [[component instinct]]
+	1794. [[composite light]]
+	1795. [[compound eye]]
 	1796. compound reaction time
-	1797. compound reinforcement schedule
-	1798. compromise formation
-	1799. compulsion
+		1. n. Another name for choice reaction time.
+	1797. [[compound reinforcement schedule]]
+	1798. [[compromise formation]]
+	1799. [[compulsion]]
 	1800. compulsion to repeat
+		1. n. Another name for a repetition compulsion.
 	
 	1801. compulsive personality
 	1802. compulsive sexual behaviour

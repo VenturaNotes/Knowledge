@@ -7,7 +7,10 @@
 - http://www.accessexcellence.org/RC/VL/GG/ecb/chromatin_packing.html
 	- #comment Page not found
 	- Diagram showing levels of chromatin packing
+## Source[^3]
+- $n$. The part of a cell nucleus that contains DNA, RNA, and proteins and is readily stained with basic dyes: see base (1). \[From Greek chroma, chromatos color]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

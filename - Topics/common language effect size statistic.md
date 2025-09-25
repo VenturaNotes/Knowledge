@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The probability that a score selected randomly from one distribution will be greater than a score selected randomly from another. First suggested in an article in the journal Psychological Bulletin in 1992 by the US psychologist Kenneth Oakley McGraw (born 1944) and the Malaysian-born US statistician Seok Pin Wong (born 1939), it has a more intuitive interpretation than most other effect size measures. The example they gave was based on data from the US National Center for Health Statistics, showing the mean height of men to be 69.7 inches (standard deviation 2.8 inches) and of women 64.3 inches (standard deviation 2.6 inches). If both height distributions are assumed to be normal, then the probability that a randomly selected man will be taller than a randomly selected woman turns out to be .92 or 92 per cent. The statistic is calculated by dividing the difference between the two means by the square root of the sum of their variances and then determining the probability associated with the resulting z score. In the height example, $z=$ $(69.7-64.3) / \sqrt{ }\left(2.8^{2}+2.6^{2}\right)=1.41$, and from a published $z$ table, the probability of $z<1.41=.92$. CL or CLES abbrev.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

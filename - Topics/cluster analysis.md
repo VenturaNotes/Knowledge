@@ -2,7 +2,6 @@
 - 
 ## Source [^1]
 - The general name for a number of different methods for grouping objects that have similar characteristics into sets or 'clusters'. Cluster analysis is used to explore data by sorting different objects into sets so that the degree of association between two objects is maximal if they belong to the same set. It can be used to discover structures in data but provides no explanation for the structure.
-
 ## Source[^2]
 - Any statistical technique for grouping a set of units into clusters of similar units on the basis of observed qualitative and/or quantitative measurements, usually on several variables. Cluster analysis aims to fulfill simultaneously the conditions that units in the same cluster should be similar, and that units in different clusters should be dissimilar. It is not usually possible to satisfy both conditions fully, and no single method can be recommended as best for all sets of data. Among other desirable properties of clusters are that some variables should be constant for all units within a cluster, which makes it possible to provide a simple scheme for identification of units in terms of clusters.
 - Most cluster analysis methods require a similarity or distance measure to be defined between each pair of units, so that the units similar to a given unit may be identified. Similarity measures have been proposed for both quantitative (continuous) variables and qualitative (discrete) variables, using a weighted mean of similarity scores over all variables considered. The term distance comes from a geometric representation of data as points in multidimensional space: small distances correspond to large similarities.
@@ -12,8 +11,11 @@
 
 ## Source[^3]
 - The task of assigning objects to recognizable groups called clusters, according to various measurements. These clusters commonly show correlation between different attributes. The notion of a cluster cannot be precisely given, and many different algorithms are hence used in cluster analysis.
+## Source[^4]
+- $n$. A statistical technique, introduced in 1935 by the US psychologist Robert Choate Tryon (1901-67) for assigning a set of individual people or other items to groups called clusters on the basis of one or more measurements of the individuals, so that individuals within the same cluster are in some sense closer or more similar to one another than to individuals in another cluster. For example, measurements of a cross-section of the population on variables such as age, income, and number of books in the home, if subjected to cluster analysis, may reveal distinct and recognizable clusters such as students, pensioners, and unemployed people. There are many different methods of cluster analysis, including agglomerative hierarchical clustering, average linkage between groups method, average linkage within groups method, complete linkage clustering, divisive hierarchical clustering, nearest neighbor method, single-linkage clustering, and (perhaps most popular) Ward's method. See also DENDROGRAM, HORIZONTAL ICICLE PLOT. Compare FACTOR ANALYSIS, PRINCIPAL-COMPONENTS ANALYSIS. cluster-analytic adj.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

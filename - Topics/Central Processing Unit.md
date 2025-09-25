@@ -17,7 +17,10 @@ aliases:
 ## Source[^2]
 - A central processing unit (CPU) or central processor is the part of a computer that retrieves and carries out instructions for processes.
 - Think of a CPU as the control center of a computer that processes complicated instructions when users browse the internet, send emails, or watch videos. The CPU ensures a computer system works properly. There are various CPU types such as a single-core CPU, dual-core CPU, quad-core CPU, and octa-core processor. Each performs similarly: The CPU executes calculations, makes comparisons and tells a computer what to do.
+## Source[^3]
+- $n$. The part of a computer that executes programs. Also called a central processor. CPU abbrev.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-1-systems-architecture-quizzes/ks4-ocr-j277-1-1-cpu-performance-quiz/
 [^2]: [[(Home Page) Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

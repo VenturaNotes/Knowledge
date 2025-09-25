@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A hereditary form of muscular atrophy characterized by slowly progressive wasting and weakness of muscles of the arms and feet, caused by degeneration of the peripheral nerves. Symptoms, including loss of reflexes, diminished cutaneous senses, and raised foot arches leading to a high-stepping gait, usually develop in childhood or adolescence and progress slowly. It is usually inherited through an autosomal dominant gene, but some forms are passed on by recessive and X-linked genes, the latter occurring mostly in boys. It is the most common inherited disorder of the nervous system, affecting one in 2,500 people in the US. Type I (or hypertrophic) CMT, generally associated with a dominant gene on chromosome 17, is characterized by a thickening of the myelin sheath surrounding neurons in the white matter of the central nervous system, whereas Type II (neuronal) CMT is characterized by degeneration of the axons of peripheral nerves. Compare MULTIPLE SCLEROSIS, MUSCULAR DYSTROPHY. CMT abbrev. \[Named after the French neurologists Jean-Martin Charcot (1825-93) and Pierre Marie (1853-1940), who published a classic description of five cases of the disorder in Revue de Médicine in 1886, and the English postgraduate medical student Howard H(enry) Tooth (1856-1925) who completed an MD thesis on the disorder in the same year]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

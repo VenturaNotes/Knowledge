@@ -5,7 +5,10 @@
 - The RNI (see Dietary Reference Values) for men is $700 \mathrm{mg} /$ day and women $800 \mathrm{mg} /$ day; the National Osteoporosis Society recommends up to $1200 \mathrm{mg} /$ day for individuals with osteoporosis. The best sources are dairy products (milk and cheese); the absorption from cereals and green vegetables is limited by the presence of phytates and oxalates. Its uptake by the body is facilitated by vitamin D; a deficiency of this vitamin may result in such conditions as rickets, osteoporosis, and osteomalacia. A deficiency of calcium in the blood may lead to tetany. Excess calcium may be deposited in the body as calculi (stones). Symbol: Ca.
 ## Source[^2]
 - Symbol Ca. A soft grey metallic element that is an essential element for living organisms, being required for normal growth and development. In animals it is an important constituent of bones and teeth and is present in the blood, being required for muscle contraction and other metabolic processes. In plants it is a constituent (in the form of calcium pectate) of the middle lamella. Calcium ions play a key role in various intracellular signalling pathways and control fusion of vesicles with the plasma membrane in diverse situations, including release of neurotransmitter at synapses, secretion of hormones such as insulin, and activation of the fertilized egg (see CALCIUM ION CHANNEL; CALCIUM PUMP; SNARE). See also CALMODULIN.
+## Source[^3]
+- $n$. A white-grey metallic element found in sea water, limestone, chalk, marble, and gypsum; an essential constituent of teeth and bones, occurring most often in the form of calcium carbonate, required as an electrolyte for human physiology. See also Calcitonin, Calcium channel, CALPAIN, PARATHYROID HORMONE. Ca abbrev. \[From Latin calx, calcis lime or limestone]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

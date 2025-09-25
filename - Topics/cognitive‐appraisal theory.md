@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A theory of emotions according to which arousal provides the basis for any emotion, but the quality of the emotion is provided by the person's interpretation of its cause, the specific emotion that is felt depending on the person's interpretation and explanation of the felt arousal. The theory, proposed in 1964 by the US psychologist Stanley Schachter (1922-97), is a type of attribution theory based on the James-Lange theory but taking into account the main criticism of it$\textemdash$that different emotions tend to share the same bodily responses. In a famous experiment in 1962 by Schachter and the US psychologist Jerome E(verett) Singer (1929-2010), participants were injected with adrenalin, and some of them were led to interpret the resulting arousal as a purely physiological sideeffect of the injection. The participants were then placed in situations designed to elicit either euphoria or anger, and those who had been led to attribute the arousal to the injection expressed less emotion than those who attributed it to the situations they were placed in, although the results were not entirely clear-cut. Also called the cognitive-evaluation theory. See also facial feedback hypothesis. Compare Cannon-Bard theory.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

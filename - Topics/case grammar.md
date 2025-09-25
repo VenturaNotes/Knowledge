@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - A theory of grammar, originally devised by Charles Filmore within the general orientation of generative grammar, that regards deep cases as the grammatical primitives in terms of which sentences are constructed.
+## Source[^2]
+- $n$. A form of generative grammar introduced in the late 1960s by the US linguist Charles J. Fillmore (1929-2014) in which linguistic elements are categorized according to their semantic roles. In the theory, the deep-structure cases of noun phrases do not correspond to the surface structure or the syntax. The cases originally suggested were agentive (a person or entity causing a verb's action to be performed), instrumental (an inanimate entity causally involved in a verb's action), dative (a person or animal affected indirectly by a verb's action), factitive (an entity resulting from a verb's action), locative (the location of a verb's action), and objective (an entity affected directly by a transitive verb's action). Later, further cases were suggested: source (the place from which something moves), goal (the place to which something moves), counteragent (the force of resistance against which a verb's action is performed), experiencer (a person or thing affected by a verb's action, replacing dative), and result (an entity or state resulting from a verb's action, replacing factitive). For example, in the sentence The child opened the door with a key, the noun phrase the child is agentive, the door is objective, and a key is instrumental. Case grammar has been incorporated in some artificial intelligence programs designed to accept natural language input.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

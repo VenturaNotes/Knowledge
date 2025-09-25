@@ -45,8 +45,11 @@ aliases:
 		- Lateral ventricle
 - http://thebrain.mcgill.ca/index.php
 	- Multilevel exploration of brain structure and function, sponsored by the Canadian Institutes of Health Research
+## Source[^4]
+- $n$. The part of the central nervous system that is enclosed within the skull, comprising, from the top down, the cerebrum, midbrain, cerebellum, pons, and medulla oblongata. The remainder of the central nervous system is the spinal cord. The adult human brain weighs 1,300-1,400 grams (about 3 pounds), contains about 80 billion neurons (50 billion of them in the cerebral cortex), each typically forming synapses (1) with hundreds or thousands of other neurons, and consumes about 20 per cent of the body's total oxygen intake. See also cerebral cortex. \[From Old English brægen a brain, cognate with Greek bregma the front part of the head]
 ## References
 
 [^1]: [[(1) 2-Minute Neuroscience - The Neuron]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

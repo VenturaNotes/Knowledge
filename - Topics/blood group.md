@@ -12,6 +12,9 @@
 | AB                  | A, B, AB, O                                        | AB                                            |
 | O                   | O                                                  | A, B, AB, O                                   |
 
+## Source[^2]
+- $n$. Any of the blood types identified by the many classification systems, especially one of the four types of the ABO system based on the presence or absence of two genetically determined antigens, A and B, on the surface of red blood cells. Type A shows the A antigen and an antibody to the B antigen called anti-B agglutinin, Type B shows the B antigen and anti-A agglutinin, Type AB shows both antigens and neither agglutinin, and Type O shows neither antigen and both agglutinins. Also called blood type. See also RACE (2).
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Residual vision in the absence of a functioning primary visual cortex in primates and possibly other animals. More specifically, a capacity possessed by some people who appear to be totally blind, owing to lesions in the primary visual cortex, to respond to visual stimuli. Such people have no conscious experience of vision, but if forced to guess they can correctly direct their eyes towards light sources, identify objects moving in particular directions, or even discriminate between simple visual shapes, and they are often surprised that their guesses are correct. This phenomenon is explained by small but direct connections, bypassing the primary visual cortex, between the lateral geniculate nuclei and areas of the prestriate visual cortex that are specialized for color, movement, and form perception. The term was introduced in 1974 by the US-born British neuropsychologist Lawrence Weiskrantz (born 1926) and several colleagues in a case report of a patient with the condition, and became widely known after the publication of Weiskrantz's book Blindsight: A Case Study and Implications (1986). Also written blind sight. Compare Anton's SYndrome (which may be interpreted as the inverse of blindsight).
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

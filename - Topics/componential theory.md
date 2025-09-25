@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A theory of concepts, concept formation, and semantics according to which the meaning of a concept or a word can be understood by analyzing it into its set of defining properties. The standard example is the concept even number, which is completely specified by the defining property evenly divisible by two; the theory amounts to an assumption that all concepts can be reduced to their defining properties or essences in this way. It is a form of essentialism that can be traced to the writings of the Greek philosophers Plato (?427-?347 BC), in Laws (859d-e), and especially Aristotle (384-322 BC), in Metaphysics (Bekker edition, pp. 1030-1). It is still hugely influential and is often encountered in the form of a belief that every concept has a defining attribute or essence that determines its identity, or that one ought always to define one's terms in any argument or discussion, but it was severely attacked by the Austrian-born British philosopher Karl R(aimund) Popper (1902-94) in The Open Society and its Enemies (1945) and has serious weaknesses in psychology$\textemdash$see PROTOTYPE THEORY. Also called a definitional theory or a feature list theory.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A judgemental and decision-making heuristic that involves discarding the components that are shared by the available alternatives. The Israeli-American psychologists Daniel Kahneman (born 1934) and Amos Tversky (1937-96), who introduced the heuristic in 1979, illustrated it with the following two-stage game. In the first stage, there was a .75 probability of the game terminating without any prize and a .25 probability of moving on to the second stage. Participants who reached the second stage had a choice between (a) 3,000 Israeli pounds with certainty, and (b) a .80 probability of winning 4,000 Israeli pounds, but they had to make their decisions for the second stage before the result of the first stage was known. Most ignored the first stage, which is common to both alternatives, and 80 per cent preferred (a), which they considered a certainty in spite of the chance element in the first stage. But in (a) there is a $.25 \times 1.00=.25$ probability of winning 3,000 Israeli pounds, and in (b) there is a $.25 \times .80=.20$ probability of winning 4,000 Israeli pounds, and when the choice was framed in this way, 65 per cent of the research participants chose (b). In fact, the expected payoff is higher in (b). See also framing EFFECT.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

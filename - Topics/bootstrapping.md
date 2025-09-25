@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - A process, due to Bradley Efron, of generating confidence intervals for statistics which has the advantage of not making assumptions about the underlying distribution of the population. It involves taking repeated random samples from the actual sample of observations which has been taken and producing confidence intervals for the statistic based on the distribution of the statistic in that process. Because it involves large numbers of repetitions of the resampling process it is dependent on computer power.
+## Source[^2]
+- $n$. Constructing a linear model of a judge's predictions of a criterion variable and then using the linear model instead of the judge to make further judgements or predictions. Such linear models consistently outperform the judges from whose judgements they are derived, because the coefficient weights are distillations of the judges' underlying principles, free of the extraneous variables that inevitably influence each of their specific judgements. This technique became widely known in the early 1970s under the leadership of the US psychologists Lewis Robert Goldberg (born 1932) and Robyn Mason Dawes (1936-2010). In one typical study, a group of judges studied ten background, aptitude, and personality measures taken from graduate students and predicted the students' grade point averages in the first year of graduate study. Linear models of every one of the judges performed better than the judges themselves in predicting the students' grade point averages. See also actuarial prediction. bootstrap adj. vb. \[So called because it is reminiscent of lifting oneself up by one's own bootstraps]
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

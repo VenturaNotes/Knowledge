@@ -38,8 +38,11 @@
 		- Primary visual cortex
 		- Cerebellum
 		- Face recognition
+## Source[^4]
+- $n$. The largest brain structure, comprising the diencephalon and the cerebral hemispheres, the outer layer or cerebral cortex of which controls most sensory, motor, and cognitive processes in humans. \[Latin cerebrum a brain]
 ## References
 
 [^1]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^zp122j]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[Cerebrum]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

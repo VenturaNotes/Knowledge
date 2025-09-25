@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- n. A Gedankenexperiment first proposed by the US philosopher John Searle (born 1932) in the journal Behavioral and Brain Sciences in 1980 as a refutation of the strong AI proposition that a computer capable of passing the Turing test by responding to inputs in a manner indistinguishable from a human being would necessarily have a mind and be capable of thought. Searle's Chinese room contains a person who understands no Chinese but has detailed and comprehensive instructions for the mechanical processing (without translation) of Chinese symbols to generate meaningful responses to written messages. Anyone who delivers a message in Chinese to the room receives a reply in Chinese and has no way of knowing that the person in the room does not understand a word (or a logograph) of Chinese. Searle argued that an artificial intelligence machine or program is analogous to the Chinese room, and that passing the Turing test would not prove that it had a mind or that it could think, because a computational simulation of a phenomenon is very different from the phenomenon itself. If valid, the argument undermines weak AI as well as strong AI. Compare Gödel's THEOREM.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

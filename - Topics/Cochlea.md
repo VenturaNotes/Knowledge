@@ -24,7 +24,10 @@
 		- basilar membrane
 		- Reissner's membrane
 		- Tympanic canal (containing perilymph)
+## Source[^3]
+- $n$. The spiral bony tube in the inner ear containing the organ of Corti with its basilar membrane on which are situated hair cells that respond to sound waves by converting them into nerve impulses. See also SCALA. cochleae pl. cochlear adj. \[From Latin cochlea a snail or spiral, from Greek kochlias a snail]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

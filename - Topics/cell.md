@@ -115,10 +115,12 @@ aliases:
 | 2014    | Yeast cells engineered to synthesize opiates and semisynthetic opioids.                                                                                                                                                                                                                       |
 | 2016    | 'Artificial' mouse eggs created from tissues cells are successfully fertilized and implanted in a surrogate mother to produce pups.                                                                                                                                                           |
 | 2017    | Approval granted for first cancer therapy based on a patient's own T cells, which are extracted and engineered to express chimeric antigen receptors (CARs) designed to target the patient's specific tumor. The CAR T cells are then reintroduced to the patient to destroy the tumor cells. |
-
+## Source[^5]
+- $n$. The smallest independently functioning unit of an organism, consisting of a nucleus (1) containing genetic information, surrounded by a cytoplasm containing various organelles including mitochondria, ribosomes, and lysosomes, bounded by a cell membrane. See also eUKaryote, prokaryote. cellular adj. \[From Latin cella a room, from celare to hide]
 ## References
 
 [^1]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^ikngtm]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
