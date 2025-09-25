@@ -12,8 +12,11 @@
 - (2) (in genetics) An individual with an allele for some defective condition that is masked by a normal dominant allele. Such individuals therefore do not suffer from the condition themselves but they may pass on the defective allele to their offspring. In humans, women may be carriers of such conditions as red-green color blindness and haemophilia, the alleles for which are carried on the X chromosomes (see SEX LINKAGE). 
 - (3) (in immunology) A protein that covalently binds to a hapten to form a hapten-carrier conjugate. Unlike the hapten alone, the conjugate can cause the immune system to produce antibodies against the hapten, against the carrier, and against the hapten-carrier combination. 
 - (4) (in biochemistry) See CARRIER MOLECULE; HYDROGEN CARRIER.
+## Source[^4]
+- (genetic) $n$. In genetics and pathology, an organism that does not itself manifest a particular trait or disease but is capable of passing it on to others.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

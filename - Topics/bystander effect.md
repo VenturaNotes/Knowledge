@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The reluctance of bystanders to intervene in an emergency, especially when a person appears to be in distress or when a crime is being committed. Scores of experiments have shown that people are much less likely to intervene in an emergency, and are generally slower to respond, when other people are present than when they are alone, and this phenomenon is sometimes called group inhibition of helping. It was discovered by the US psychologists Bibb Latané (born 1937) and John M(cConnon) Darley (born 1938), who reported an experiment in the Journal of Personality and Social Psychology in 1968 in which people found themselves either alone or in a group in a waiting-room when smoke started billowing through a vent in the wall, quickly filling the room and making breathing difficult. Of the people who were alone when the smoke appeared, 55 per cent reported the fire within 2 minutes of first noticing it, and 75 per cent reported it within 6 minutes; but when groups of three were tested together, in only 12 per cent of cases did any of the three report the fire within 2 minutes, and in only 38 per cent of cases within 6 minutes. Also called the bystander apathy effect. See also diffusion OF RESPONSIBILITY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

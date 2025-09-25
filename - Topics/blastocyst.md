@@ -8,6 +8,9 @@
 		- trophoblast
 		- wall of the uterus
 		- inner cell mass
+## Source[^2]
+- $n$. An early form of an embryo, consisting of a hollow ball of cells one cell thick, that develops from a morula. See also emBryo, foetus, zygote. \[From Greek blastos a bud + kystis a bladder]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

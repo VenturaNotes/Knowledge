@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An approach to the mind-body problem introduced by the French philosopher René Descartes (1596-1650), who believed that mental experiences are functions of the soul and, because the soul is immaterial, that they cannot be located in any particular organ of the body, but that the soul and the body influence each other, and that the seat of soul-body interaction is the pineal gland. Descartes’ reasons for choosing the pineal gland were that it is close to the centre of the head, that it was believed at the time to be found only in human beings$\textemdash$and that human beings are the only creatures with rational souls$\textemdash$and that the pineal gland is the only part of the main structure of the brain that is not divided into two halves and that therefore seemed to Descartes to be the only organ capable of integrating the images from the two eyes into a single percept. He believed that the pineal gland operates like a valve, controlling the flow of 'vital spirits' through the body, enabling the soul and body to influence each other. Descartes appears to have been oblivious to the philosophical problem underlying this conception until it was pointed out to him in 1643 by Princess Elizabeth of Bohemia (1596-1662), the daughter of King James I of England and VI of Scotland, in a letter that has survived.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

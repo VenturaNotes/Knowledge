@@ -8,8 +8,11 @@
 ## Source[^3]
 - (1) In computer graphics, the collecting of nearby objects into groups so that their effect in a radiosity calculation with another well-separated group can be approximated by a single interaction. 
 - (2) An approach used in machine learning and data mining that attempts to place data into groups. The intention is that groupings or clusters will emerge that have meaning for the application problem (see CONCEPT LEARNING). Clusters may be formed on the basis of some similarity features but their characteristics do not have to be predefined (in contrast to classifier systems).
+## Source[^4]
+- $n$. In free recall, a tendency for items that are conceptually related to be remembered consecutively whether or not they were grouped together during the learning phase. For example, if the names of cities, trees, and animals are learnt in random order, the cities will tend to be recalled together in one group, the trees in another group, and the animals in a third group.
 ## References
 
 [^1]: [[(Home Page) An Introduction to Statistical Learning with Applications in Python by Gareth James et. al.#1 4 Gene Expression Data]]
 [^2]:  [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

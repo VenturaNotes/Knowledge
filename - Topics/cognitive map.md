@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A mental representation of a portion of the physical environment and the relative locations of points within it. Cognitive maps are generally distorted by simplifying assumptions and preconceptions: in people's cognitive maps roads tend to join at right angles even when they do not in reality, and in the cognitive maps of most British people, Bristol lies to the west of Edinburgh, presumably because of knowledge that Bristol is on the west coast and Edinburgh on the east coast, whereas on a cartographer's map the reverse is true. Humans and animals, including birds, navigate partly by cognitive maps and partly by heading vectors (travelling in a fixed direction towards the goal), the former but not the latter being controlled by the hippocampus. The term was introduced in an article in the journal Psychological Review in 1948 by the US psychologist Edward C(hace) Tolman (1886-1959), who described an experiment in which he trained a group of rats to run through a maze to a goal box, then blocked off the path that the rats were using and observed that most of the rats unhesitatingly chose alternative paths heading in the right general direction. Also called a conceptual map or a mental map.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

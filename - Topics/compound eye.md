@@ -5,6 +5,9 @@
 - http://www.understandingbeeanatomy.com/tag/compound-eyes/
 	- #comment Domain down?
 	- A series of magnified images of a bee's compound eyes
+## Source[^2]
+- $n$. The type of eye found in insects and some crustaceans, composed of a cluster of separate simple eyes, called ommatidia, closely packed together but separated by darkly pigmented cells, arranged on a convex membrane and covered by a transparent cornea.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

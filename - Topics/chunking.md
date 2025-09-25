@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The grouping together of a number of items of information so that they are processed cognitively as a single entity called a chunk, as when the letters $c, h, u, n, k, i, n$, and $g$ are perceived, interpreted, and easily remembered as a single word, whereas without the key the same letters presented alphabetically as $c, g, h, i, k, n, n, u$ would be difficult to memorize for more than a few seconds. The limitation of short-term memory to about seven items of information can be overcome by chunking because, as first pointed out in 1956 by the US psychologist George A(rmitage) Miller (1920-2012), the limitation applies to chunks. In 1974 the US political scientist and decision theorist Herbert A(lexander) Simon (1916-2001) suggested that the capacity of short-term memory is about five chunks, but that as the number of elements per chunk increases, the number of chunks that can be remembered decreases slightly. Simon found that he could not recall the following nine words after one quick reading: Lincoln, milky, criminal, differential, address, way, lawyer, calculus, Gettysburg; but when they were arranged into the following four chunks, he could remember them easily: Lincoln's Gettysburg address, milky way, criminal lawyer, differential calculus. See also MAGICAL NUMBER SEVEN, SPAN OF APPREHENSION, SUBITIZE.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

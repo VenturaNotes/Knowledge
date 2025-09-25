@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The degree to which a cognitive process is unconsciously influenced by assumptions and expectations. For example, research has shown that if one imagines shifting one's gaze from a lighthouse to a bridge, then the time taken is not related to the imagined distance, whereas if one imagines walking or running from the lighthouse to the bridge, or imagines an object moving between these locations, then the time taken is proportional to the imagined distance, suggesting that these cognitive processes are unconsciously influenced by assumptions and expectations about physical movement and are therefore cognitively penetrable. The concept was introduced and named in articles in 1978 and 1979 by the Canadian psychologist Zenon Walter Pylyshyn (born 1937), who carried out the lighthouse-bridge experiment and who also argued that the reason why the time taken for mental rotation increases in direct proportion to the angle through which the image is rotated, is that mental rotation is cognitively penetrable inasmuch as it is influenced by the assumption that the object rotates smoothly through intermediate positions.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

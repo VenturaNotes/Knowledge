@@ -14,7 +14,10 @@ aliases:
 - https://www2.le.ac.uk/projects/vgec/highereducation/topics/dna-genes-chromosomes
 	- #comment 404 page not found
 	- Overview of DNA, genes, and chromosomes from the Virtual Genetics Education Centre, University of Leicester
+## Source[^3]
+- $n$. A microscopic rod-shaped structure in the nucleus of every cell, containing DNA that encodes the genes and determines hereditary characteristics. There are 46 chromosomes in every human somatic cell, 22 pairs of autosomes and one pair of sex chromosomes, whereas each of the sex cells or gametes carries only 23 chromosomes$\textemdash$one member of every pair. chromosomal adj. \[From Greek chroma color + soma a body, so called because they stain deeply with basic dyes]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

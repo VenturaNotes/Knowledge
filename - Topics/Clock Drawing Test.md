@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A quick and easy test of visuospatial ability, often used as a screening test for Alzheimer's disease or dementia. The respondent is asked to draw a traditional (analogue) clock face with all the numbers in place and the hands pointing to 11:10 or ten minutes past eleven. The following 10-point scoring system is typical: 10: hands correctly positioned, minute hand longer than hour hand, all numbers correct; 9: hands slightly incorrect, or one number incorrect; 8: one hand significantly misplaced by one number, or numbers poorly spaced; 7: hands misplaced by more than one number, or numbers very poorly spaced; 6: hands or numbers inappropriately depicted, or numbers crowded or reversed; 5: hands not clearly pointing to numbers, or numbers wrongly depicted; 4: hands or numbers absent, or outside clock face, or numbers in wrong sequence; 3: hands missing, or numbers and clock face unconnected; 2: only vague representation of clock face; 1: irrelevant drawing or no attempt. Scores between 7 and 10 are considered normal, 6 is borderline (scored by about 13 per cent of normal respondents and almost 90 per cent of patients with Alzheimer's disease), and scores of 5 and below are rare in normal populations (less than 1 per cent) but common in Alzheimer's patients. The origin of the test is uncertain, but it may have been introduced in the 1920s by the English neurologist Sir Henry Head (1861-1940). CDT abbrev.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
