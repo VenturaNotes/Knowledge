@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A mathematical method for constructing measurement scales (1) for objects with multiple attributes in such a way that attributes are traded off against one another and the scale value of each object is a function of the scale values of its component attributes. The method determines whether apparent interaction effects arise from actual interactions between the underlying attributes or as artefacts (2) of the particular measurement model adopted. Axiomatic conjoint measurement investigates qualitative aspects of the data to determine how best to scale the data to provide the optimal composition rule. In numerical conjoint measurement, also called conjoint analysis, a particular composition rule is assumed and then the data are scaled, if possible, to yield an additive model solution. The theory was introduced in 1964 by the US mathematical psychologist Robert Duncan Luce (1925-2012) and the US statistician John Wilder Tukey (1915-2000). See also axiomatic MEASUREment THEORY, unfolding TECHNIQUE. \[From Latin coniungere to link together, from com together + iungere to join]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

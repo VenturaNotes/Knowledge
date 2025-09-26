@@ -8,7 +8,10 @@
 - See also FEEDBACK REGISTER, FEED_FORWARD REGISTER
 ## Source[^2]
 - $n$. a folding or twisting, such as one of the many that cause the fissures, sulci, and gyri of the surface of the cerebrum.
+## Source[^3]
+- $n$. Any of the convex folds or ridges on the surface of the brain, also called a gyrus ; more generally, anything coiled or twisted together or, by analogy, any confused or intricate issue or condition. convolute $v b$. convoluted adj. \[From Latin convolutus rolled up, from con with + volvere, volutus to turn + -ion indicating an action, process, or state]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

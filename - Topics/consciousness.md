@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The state of being conscious (1, 2); the normal mental condition of the waking state of humans, characterized by the experience of perceptions, thoughts, feelings, awareness of the external world, and often in humans (but not necessarily in other animals) self-awareness. See also ACCESS CONSCIOUSNESS, ALTERED STATE OF CONSCIOUSNESS, ASTONISHING HYPOTHESIS, ATTENTION, AUTONOETIC, BLINDSIGHT, CHINESE ROOM, COGNITIVE PENETRABILITY, CONTROLLED PROCESSING, FUNCTIONALISM, GÖDEL'S THEOREM, IMAGERY, LIBET'S DELAY, MARGINAL CONSCIOUSNESS, MENTAL MODEL, MINDFULNESS, NEODISSOCIATION THEORY, PERCEPTION-CONSCIOUSNESS SYSTEM, PHENOMENAL CONSCIOUSNESS, PHENOMENOLOGY, READINESS POTENTIAL, STREAM OF CONSCIOUSNESS, STRONG AI, THING-PRESENTATION, TOPOGRAPHY, TRANSLIMINALITY, TURING TEST, WEAK AI. Compare ABSENCE, AUTOMATIC PROCESSING, AUTOMATISM, HYPNOSIS, PRECONSCIOUS, SLEEP, SUBLIMINAL PERCEPTION, UNCONSCIOUS (1, 2). conscious adj. Cs abbrev.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

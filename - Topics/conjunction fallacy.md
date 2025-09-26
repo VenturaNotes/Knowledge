@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A widespread error of judgement according to which a combination of two or more attributes is judged to be more probable or likely than either attribute on its own. It was identified and named in 1982 by the Israeli-American psychologists Amos Tversky (1937-96) and Daniel Kahneman (born 1934) who presented undergraduate students with personality sketches of a hypothetical person called Linda (young, single, deeply concerned about social issues, and involved in anti-nuclear activity) and asked them whether it was more probable that (a) Linda is a bank teller, or (b) Linda is a bank teller who is active in the feminist movement; 86 per cent of the students judged (b) to be more probable than (a). This is a fallacy, because it is an elementary principle of probability theory that the probability of the conjunction (2) $A$ and $B$ can never exceed the probability of $A$ or the probability of $B$. The fallacy arises from the use of the representativeness heuristic, because Linda seems more typical of a feminist bank teller than of a bank teller. See also Kolmogorov's axioms.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

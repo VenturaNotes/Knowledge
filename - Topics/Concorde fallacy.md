@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Continuing to invest in a project merely to justify past investment in it, rather than assessing the current rationality of investing, irrespective of what has gone before. Thus gamblers often throw good money after bad in an attempt to escape from escalating debts, marriage partners often become trapped in escalating spirals of hostility and counter-hostility from which they feel increasingly incapable of extricating themselves on account of past emotional investments, and the length of time a female great golden digger wasp Sphex ichneumoneus is prepared to fight over a disputed burrow depends not on how much food there is in the burrow but on how much she herself has put there, the wasp that has carried the largest amount of prey into the burrow being generally least willing to give up fighting. The phenomenon was first identified and named in an article in the journal Nature in 1976 by the British ethologist Richard Dawkins (born 1941) and his undergraduate student Tamsin R. Carlisle (born 1954). Also called the sunk cost fallacy, especially in decision theory and economics. See also Dollar Auction game. \[Named after the Anglo-French supersonic airliner, the Concorde, whose cost rose steeply during its development phase in the 1970s so that it soon became uneconomical, but British and French governments continued to support it to justify past investment]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
