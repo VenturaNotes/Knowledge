@@ -1210,7 +1210,7 @@ Reviewed: false
 	955. [[Baskerville effect]]
 	956. [[basket cell]]
 	957. [[basulca]]
-	958. [[Bateman’s principles]]
+	958. [[Bateman's principles]]
 	959. [[Batesian mimicry]]
 	960. [[bathyaesthesia]]
 	
@@ -1222,8 +1222,8 @@ Reviewed: false
 	965. battery
 		1. See test battery
 	966. [[baud]]
-	967. [[Bayes’ rule]]
-	968. [[Bayes’ theorem]]
+	967. [[Bayes' rule]]
+	968. [[Bayes' theorem]]
 	969. [[Bayesian inference]]
 	970. [[Bayley Scales of Infant Development]]
 	
@@ -1860,7 +1860,7 @@ Reviewed: false
 	
 	1461. Charlie
 		1. n. A street name for cocaine
-	1462. Charpentier’s illusion
+	1462. Charpentier's illusion
 		1. n. Another name for the size-weight illusion. \[Named after the French physician (Pierre Marie) Augustin Charpentier (1852-1916) who published an article on it in 1891, although the German psychologists Georg Elias Müller (1850-1934) and Friedrich Schumann (1863-1940) had already discovered and reported the illusion in 1889]
 	1463. [[Charpentier bands]]
 	1464. cheating husbands problem
@@ -1895,7 +1895,7 @@ Reviewed: false
 	1487. childhood autism
 		1. n. An alternative name for autism spectrum disorder
 	1488. [[childhood disintegrative disorder]]
-	1489. [[Children’s Apperception Test]]
+	1489. [[Children's Apperception Test]]
 	1490. [[child sexual abuse]]
 	
 	1491. [[chimera]]
@@ -2011,7 +2011,7 @@ Reviewed: false
 		1. See receptive field.
 	1577. [[classical test theory]]
 	1578. [[claustrum]]
-	1579. Clérambault’s syndrome
+	1579. Clérambault's syndrome
 		1. See de Clérambault's syndrome.
 	1580. [[Clever Hans]]
 	
@@ -2085,8 +2085,8 @@ Reviewed: false
 		1. n. Another name for the cochlear microphonic
 	1638. cochleotopic map
 		1. n. Another name for a tonotopic map
-	1639. [[Cochran’s C]]
-	1640. [[Cochran’s Q]]
+	1639. [[Cochran's C]]
+	1640. [[Cochran's Q]]
 	
 	1641. [[Cochrane review]]
 	1642. [[cockney]]
@@ -2159,8 +2159,8 @@ Reviewed: false
 	1692. [[cognitive therapy]]
 	1693. [[cognitivism]]
 	1694. [[cogwheel rigidity]]
-	1695. [[Cohen’s d]]
-	1696. Cohen’s kappa coefficient
+	1695. [[Cohen's d]]
+	1696. Cohen's kappa coefficient
 		1. See kappa statistic
 	1697. [[cohesive self]]
 	1698. [[cohoba]]
@@ -2296,257 +2296,308 @@ Reviewed: false
 		1. n. Another name for a repetition compulsion.
 	
 	1801. compulsive personality
-	1802. compulsive sexual behaviour
-	1803. computational theory
+		1. See obsessive-compulsive personality disorder
+	1802. [[compulsive sexual behavior]]
+	1803. [[computational theory]]
 	1804. computed (axial) tomography
-	1805. computer vision
-	1806. conation
-	1807. concept
-	1808. concept formation
+		1. See CT Scan
+	1805. [[computer vision]]
+	1806. [[conation]]
+	1807. [[concept]]
+	1808. [[concept formation]]
 	1809. concept identification
+		1. n. Another name for concept formation
 	1810. concept learning
+		1. n. Another name for concept formation.
 	
-	1811. conceptual dependency theory
-	1812. conceptually driven processing
+	1811. [[conceptual dependency theory]]
+	1812. [[conceptually driven processing]]
 	1813. conceptual map
+		1. n. Another name for a cognitive map
 	1814. conceptual tempo
+		1. n. Another name for reflection-impulsivity
 	1815. concomitant variable
-	1816. concordance
-	1817. Concorde fallacy
-	1818. concrete operations
-	1819. concurrent validity
-	1820. concussion
+		1. n. Another name for a covariate.
+	1816. [[concordance]]
+	1817. [[Concorde fallacy]]
+	1818. [[concrete operations]]
+	1819. [[concurrent validity]]
+	1820. [[concussion]]
 	
-	1821. condensation
-	1822. conditional probability
-	1823. conditional reasoning
+	1821. [[condensation]]
+	1822. [[conditional probability]]
+	1823. [[conditional reasoning]]
 	1824. conditional response
+		1. $n$. An uncommon but more accurate name for a conditioned response. Also called a conditional reflex .
 	1825. conditional stimulus
-	1826. conditioned avoidance learning
-	1827. conditioned emotional response
+		1. $n$. An uncommon but more accurate name for a conditioned stimulus.
+	1826. [[conditioned avoidance learning]]
+	1827. [[conditioned emotional response]]
 	1828. conditioned food aversion
+		1. $n$. Another name for food aversion learning.
 	1829. conditioned reflex
-	1830. conditioned response
+		1. $n$. Another name for a conditioned response, presupposing that such a response arises from modification of a reflex arc. Also called a conditional reflex.
+	1830. [[conditioned response]]
 	
-	1831. conditioned stimulus
-	1832. conditioned suppression
+	1831. [[conditioned stimulus]]
+	1832. [[conditioned suppression]]
 	1833. conditioned taste aversion
-	1834. conditioning
-	1835. Condorcet’s paradox
-	1836. conduct disorder
+		1. n. Another name for food aversion learning
+	1834. [[conditioning]]
+	1835. [[Condorcet's paradox]]
+	1836. [[conduct disorder]]
 	1837. conduction aphasia
-	1838. conductive deafness
-	1839. cone
-	1840. cone of confusion
+		1. See aphasia
+	1838. [[conductive deafness]]
+	1839. [[cone]]
+	1840. [[cone of confusion]]
 	
-	1841. cone pigment
-	1842. confabulation
-	1843. confederate
-	1844. confidence interval
-	1845. confidence limits
-	1846. configural scoring rule
-	1847. configural superiority effect
+	1841. [[cone pigment]]
+	1842. [[confabulation]]
+	1843. [[confederate]]
+	1844. [[confidence interval]]
+	1845. [[confidence limits]]
+	1846. [[configural scoring rule]]
+	1847. [[configural superiority effect]]
 	1848. configuration law
-	1849. confirmation bias
+		1. n. Another name for the principle of Prägnanz in Gestalt psychology
+	1849. [[confirmation bias]]
 	1850. confirmation paradox
+		1. n. Another name for Hempel's paradox
 	
-	1851. confirmatory factor analysis
+	1851. [[confirmatory factor analysis]]
 	1852. conflict, psychical
-	1853. conformity
-	1854. confounding
-	1855. confusion matrix
-	1856. congener
+		1. See psychical conflict
+	1853. [[conformity]]
+	1854. [[confounding]]
+	1855. [[confusion matrix]]
+	1856. [[congener]]
 	1857. congenital central hypoventilation syndrome
+		1. See CENTRAL HYPOVENTILATION SYNDROME. CCHS abbrev.
 	1858. congenital facial diplegia
+		1. n. Another name for Möbius syndrome.
 	1859. congenital oculofacial paralysis
-	1860. congruent validity
+		1. n. Another name for Möbius syndrome
+	1860. [[congruent validity]]
 	
-	1861. congruity theory
-	1862. conjoint measurement theory
-	1863. conjoint therapy
-	1864. conjugate movement
-	1865. conjunction
-	1866. conjunction fallacy
-	1867. conjunction search
-	1868. conjunctive concept
+	1861. [[congruity theory]]
+	1862. [[conjoint measurement theory]]
+	1863. [[conjoint therapy]]
+	1864. [[conjugate movement]]
+	1865. [[conjunction]]
+	1866. [[conjunction fallacy]]
+	1867. [[conjunction search]]
+	1868. [[conjunctive concept]]
 	1869. conjunctive eye movement
-	1870. connectedness grouping law
+		1. $n$. Another name for a conjugate movement. \[From Latin coniunctivus joined, from coniungere to conjoin, from iungere to join]
+	1870. [[connectedness grouping law]]
 	
-	1871. connectionism
-	1872. connectionist model
-	1873. connotation
+	1871. [[connectionism]]
+	1872. [[connectionist model]]
+	1873. [[connotation]]
 	1874. consanguinity, coefficient of
+		1. See coefficient of consanguinity
 	1875. consanguinity study
-	1876. conscience
-	1877. conscientiousness
-	1878. conscious
-	1879. consciousness
+		1. n. Another name for a kinship study.
+	1876. [[conscience]]
+	1877. [[conscientiousness]]
+	1878. [[conscious]]
+	1879. [[consciousness]]
 	1880. consensual pupillary reflex
+		1. $n$. Another name for the pupillary light reflex. Also called the consensual light reflex. \[From Latin consensus agreement, from consentire to agree or feel together, from com with + sentire to feel]
 	
-	1881. consensual validity
-	1882. consensus sequence
+	1881. [[consensual validity]]
+	1882. [[consensus sequence]]
 	1883. consequent
-	1884. conservation
-	1885. conservation of energy law
+		1. See conditional reasoning
+	1884. [[conservation]]
+	1885. [[conservation of energy law]]
 	1886. consistency theory
-	1887. consolidation
-	1888. consonant
-	1889. consonant-vowel-consonant trigram
-	1890. consonant trigram
+		1. See cognitive consistency theory
+	1887. [[consolidation]]
+	1888. [[consonant]]
+	1889. [[consonant-vowel-consonant trigram]]
+	1890. [[consonant trigram]]
 	
-	1891. conspecific
+	1891. [[conspecific]]
 	1892. constancy
+		1. See PERCEPTUAL CONSTANCY.
 	1893. constancy, principle of
-	1894. constant error
+		1. See PRINCIPLE OF CONSTANCY.
+	1894. [[constant error]]
 	1895. constant stimuli method
-	1896. constituent
-	1897. constitutional psychology
-	1898. construct
+		1. See method of constant stimuli.
+	1896. [[constituent]]
+	1897. [[constitutional psychology]]
+	1898. [[construct]]
 	1899. constructional apraxia
+		1. See apraxia
 	1900. construction in analysis
+		1. n. Another name for psychoanalytic construction
 	
-	1901. constructive memory
-	1902. constructivism
-	1903. construct validity
-	1904. consumer psychology
-	1905. consummate love
-	1906. contact hypothesis
-	1907. contact receptor
-	1908. contagion, behavioural/social
-	1909. content-addressable memory
-	1910. content analysis
+	1901. [[constructive memory]]
+	1902. [[constructivism]]
+	1903. [[construct validity]]
+	1904. [[consumer psychology]]
+	1905. [[consummate love]]
+	1906. [[contact hypothesis]]
+	1907. [[contact receptor]]
+	1908. contagion, behavioral/social
+		1. See behavioral contagion, SOCIAL CONTAGION.
+	1909. [[content-addressable memory]]
+	1910. [[content analysis]]
 	
-	1911. content domain
+	1911. [[content domain]]
 	1912. contentive
-	1913. content psychology
-	1914. content validity
-	1915. content word
-	1916. context-dependent grammar
-	1917. context-dependent memory
-	1918. context-free grammar
+		1. n. Another name for a content word.
+	1913. [[content psychology]]
+	1914. [[content validity]]
+	1915. [[content word]]
+	1916. [[context-dependent grammar]]
+	1917. [[context-dependent memory]]
+	1918. [[context-free grammar]]
 	1919. context-sensitive grammar
-	1920. context effect
+		1. n. Another name for a context-dependent grammar.
+	1920. [[context effect]]
 	
-	1921. contiguity law
-	1922. contiguity theory
-	1923. contingency coefficient
-	1924. contingency management
-	1925. contingency table
-	1926. contingency theory of leadership effectiveness
-	1927. contingent aftereffect
-	1928. contingent negative variation
-	1929. continuant
+	1921. [[contiguity law]]
+	1922. [[contiguity theory]]
+	1923. [[contingency coefficient]]
+	1924. [[contingency management]]
+	1925. [[contingency table]]
+	1926. [[contingency theory of leadership effectiveness]]
+	1927. [[contingent aftereffect]]
+	1928. [[contingent negative variation]]
+	1929. [[continuant]]
 	1930. continuation problem
+		1. n. Another name for a completion test.
 	
 	1931. continuity (Gestalt)
-	1932. continuity theory
-	1933. continuous reinforcement
-	1934. continuous variable
-	1935. continuum
-	1936. contour
-	1937. contrafreeloading
-	1938. contralateral
-	1939. contrast
-	1940. contrast ratio
+		1. See good continuation.
+	1932. [[continuity theory]]
+	1933. [[continuous reinforcement]]
+	1934. [[continuous variable]]
+	1935. [[continuum]]
+	1936. [[contour]]
+	1937. [[contrafreeloading]]
+	1938. [[contralateral]]
+	1939. [[contrast]]
+	1940. [[contrast ratio]]
 	
-	1941. contrast sensitivity function
-	1942. contrast threshold
-	1943. contrient interdependence
+	1941. [[contrast sensitivity function]]
+	1942. [[contrast threshold]]
+	1943. [[contrient interdependence]]
 	1944. control, delusion of
-	1945. control analysis
-	1946. control group
+		1. See delusion of control
+	1945. [[control analysis]]
+	1946. [[control group]]
 	1947. controlled association
+		1. n. Another name for directed association
 	1948. controlled experiment
-	1949. controlled processing
-	1950. control variable
+		1. n. Another name for a true experiment
+	1949. [[controlled processing]]
+	1950. [[control variable]]
 	
-	1951. convenience sample
-	1952. conventional fighting
-	1953. conventional morality
-	1954. convergence
-	1955. convergence-divergence
-	1956. convergence insufficiency
-	1957. convergent validity
-	1958. conversational maxims
-	1959. conversation analysis
-	1960. conversion
+	1951. [[convenience sample]]
+	1952. [[conventional fighting]]
+	1953. [[conventional morality]]
+	1954. [[convergence]]
+	1955. [[convergence-divergence]]
+	1956. [[convergence insufficiency]]
+	1957. [[convergent validity]]
+	1958. [[conversational maxims]]
+	1959. [[conversation analysis]]
+	1960. [[conversion]]
 	
-	1961. conversion disorder
-	1962. conversion hypothesis
-	1963. conversion hysteria
-	1964. conversion symptom
-	1965. convolution
-	1966. convulsant
-	1967. convulsion
-	1968. convulsive disorders
+	1961. [[conversion disorder]]
+	1962. [[conversion hypothesis]]
+	1963. [[conversion hysteria]]
+	1964. [[conversion symptom]]
+	1965. [[convolution]]
+	1966. [[convulsant]]
+	1967. [[convulsion]]
+	1968. [[convulsive disorders]]
 	1969. convulsive therapy
-	1970. cooing
+		1. See ELECTROCONVULSIVE THERAPY.
+	1970. [[cooing]]
 	
-	1971. Cook’sD
-	1972. Coolidge effect
+	1971. [[Cook's D]]
+	1972. [[Coolidge effect]]
 	1973. Coombs unfolding technique
-	1974. cooperative principle
-	1975. Coopersmith Self-Esteem Inventories
+		1. n. Another name for the unfolding technique.
+	1974. [[cooperative principle]]
+	1975. [[Coopersmith Self-Esteem Inventories]]
 	1976. coprolagnia
-	1977. coprolalia
-	1978. coprophagia
-	1979. coprophilia
-	1980. copropraxia
+		1. $n$. An alternative name for coprophilia. \[From Greek kopros excrement + lagneia lust + -ia indicating a condition or quality]
+	1977. [[coprolalia]]
+	1978. [[coprophagia]]
+	1979. [[coprophilia]]
+	1980. [[copropraxia]]
 	
-	1981. copulation
-	1982. core self-evaluation
+	1981. [[copulation]]
+	1982. [[core self-evaluation]]
 	1983. corium
-	1984. cornea
-	1985. corneal reflex
+		1. $n$. Another name for the dermis. \[From Latin corium skin, rind, or leather]
+	1984. [[cornea]]
+	1985. [[corneal reflex]]
 	1986. Cornsweet illusion
+		1. n. Another name for the Craik-O'Brien effect. \[Named after the US cognitive scientist Tom Norman Cornsweet (born 1929) who studied it]
 	1987. cornu ammonis
-	1988. coronal plane
-	1989. coronal section
-	1990. coronal suture
+		1. $n$. Another name for Ammon's horn. \[From Latin cornu a horn + Ammonis of Ammon]
+	1988. [[coronal plane]]
+	1989. [[coronal section]]
+	1990. [[coronal suture]]
 	
 	1991. coronary-prone
-	1992. corpora cavernosa
+		1. See Type A, Type D.
+	1992. [[corpora cavernosa]]
 	1993. corpora quadrigemina
-	1994. corpus callosum
-	1995. corpus luteum
-	1996. corpus spongiosum
-	1997. corpus striatum
+		1. $n$. A generic name for the inferior colliculi and superior colliculi. \[From Latin corpora bodies, from corpus a body + quadrigemina fourfold]
+	1994. [[corpus callosum]]
+	1995. [[corpus luteum]]
+	1996. [[corpus spongiosum]]
+	1997. [[corpus striatum]]
 	1998. correction for attenuation
-	1999. correct rejection
-	2000. correlation
+		1. See attenuation
+	1999. [[correct rejection]]
+	2000. [[correlation]]
 	
-	2001. correlational study
-	2002. correlation centre
-	2003. correlation coefficient
-	2004. correlation ratio
-	2005. correlogram
-	2006. correspondence analysis
-	2007. correspondence problem
-	2008. correspondent inference
-	2009. corresponding retinal points
-	2010. corridor illusion
+	2001. [[correlational study]]
+	2002. [[correlation centre]]
+	2003. [[correlation coefficient]]
+	2004. [[correlation ratio]]
+	2005. [[correlogram]]
+	2006. [[correspondence analysis]]
+	2007. [[correspondence problem]]
+	2008. [[correspondent inference]]
+	2009. [[corresponding retinal points]]
+	2010. [[corridor illusion]]
 	
-	2011. Corsi blocks
-	2012. cortex
-	2013. Corti’s membrane
-	2014. Corti’s organ
-	2015. cortical blindness
-	2016. cortical deafness
+	2011. [[Corsi blocks]]
+	2012. [[cortex]]
+	2013. Corti's membrane
+		1. n. Another name for the tectorial membrane
+	2014. Corti's organ
+		1. See organ of corti
+	2015. [[cortical blindness]]
+	2016. [[cortical deafness]]
 	2017. cortical spreading depression
-	2018. corticobulbar pathway
-	2019. corticopontine
-	2020. corticospinal tract
+		1. n. Another name for spreading depression.
+	2018. [[corticobulbar pathway]]
+	2019. [[corticopontine]]
+	2020. [[corticospinal tract]]
 	
-	2021. corticosteroid
-	2022. corticosterone
+	2021. [[corticosteroid]]
+	2022. [[corticosterone]]
 	2023. corticotrophin
-	2024. corticotrophin-releasing hormone
-	2025. cortisol
-	2026. cortisone
-	2027. cost-benefit analysis
-	2028. Cotard’s syndrome
-	2029. counselling
-	2030. counselling psychology
+		1. $n$. Another name for adrenocorticotrophic hormone (ACTH). Also spelt corticotropin.
+	2024. [[corticotrophin-releasing hormone]]
+	2025. [[cortisol]]
+	2026. [[cortisone]]
+	2027. [[cost-benefit analysis]]
+	2028. [[Cotard's syndrome]]
+	2029. [[counselling]]
+	2030. [[counselling psychology]]
 	
 	2031. counter-rotating circles illusion
 	2032. counter-transference
@@ -2566,8 +2617,8 @@ Reviewed: false
 	2045. covariation principle
 	2046. cover memory
 	2047. crack
-	2048. Craik-O’Brien effect
-	2049. Cramér’sC
+	2048. Craik-O'Brien effect
+	2049. Cramér'sC
 	2050. cranial accessory nerve
 	
 	2051. cranial index
@@ -2604,7 +2655,7 @@ Reviewed: false
 	2080. critical theory
 	
 	2081. Crocker-Henderson system
-	2082. Cronbach’s alpha
+	2082. Cronbach's alpha
 	2083. cross-adaptation
 	2084. cross-cultural survey
 	2085. cross-dependence
@@ -2681,7 +2732,7 @@ Reviewed: false
 	2150. cytotoxic
 	
 	2151. dactylology
-	2152. Dale’s law
+	2152. Dale's law
 	2153. daltonism
 	2154. dance of the bees
 	2155. dance therapy
@@ -2733,7 +2784,7 @@ Reviewed: false
 	2197. decision theory
 	2198. declarative knowledge
 	2199. declarative memory
-	2200. de Clérambault’s syndrome
+	2200. de Clérambault's syndrome
 	
 	2201. deconstruction
 	2202. decreolization
@@ -2769,11 +2820,11 @@ Reviewed: false
 	2230. deindividuation
 	
 	2231. deism
-	2232. Deiters’ cell
-	2233. Deiters’ nucleus
+	2232. Deiters' cell
+	2233. Deiters' nucleus
 	2234. deixis
 	2235. déjà vu
-	2236. de la Tourette’s syndrome
+	2236. de la Tourette's syndrome
 	2237. delay-line timing circuit
 	2238. delay conditioning
 	2239. delayed-response task
@@ -2999,7 +3050,7 @@ Reviewed: false
 	2439. diplopia
 	2440. dipsomania
 	
-	2441. Dircks’s ghost
+	2441. Dircks's ghost
 	2442. direct analysis
 	2443. directed association
 	2444. directed thinking
@@ -3132,7 +3183,7 @@ Reviewed: false
 	2560. doing gender
 	
 	2561. Dollar Auction game
-	2562. Dollo’s law
+	2562. Dollo's law
 	2563. dolls
 	2564. Dolophine
 	2565. dolorimeter
@@ -3148,8 +3199,8 @@ Reviewed: false
 	2574. dominant alternative/strategy
 	2575. dominant gene
 	2576. dominator
-	2577. Donders’ law
-	2578. Donders’ method
+	2577. Donders' law
+	2578. Donders' method
 	2579. Don Juanism
 	2580. door-in-the-face technique
 	
@@ -3181,9 +3232,9 @@ Reviewed: false
 	2604. double helix
 	2605. double recessive
 	2606. double vision
-	2607. Dover’s powder
+	2607. Dover's powder
 	2608. doves
-	2609. Down’s syndrome
+	2609. Down's syndrome
 	2610. downers
 	
 	2611. dprime
@@ -3230,7 +3281,7 @@ Reviewed: false
 	2649. duetting
 	2650. dulosis
 	
-	2651. Duncan’s multiple range test
+	2651. Duncan's multiple range test
 	2652. duodenum
 	2653. duplexity function
 	2654. duplexity theory
@@ -4536,7 +4587,7 @@ Reviewed: false
 	3836. Guttman scale
 	3837. gyrus
 	3838. Habbrev.
-	3839. Haab’s pupillary reflex
+	3839. Haab's pupillary reflex
 	3840. habenula
 	
 	3841. habenular nucleus
@@ -4594,7 +4645,7 @@ Reviewed: false
 	3889. harmonic mean
 	3890. harp theory
 	
-	3891. Hartley’sFmax
+	3891. Hartley'sFmax
 	3892. hashish
 	3893. Hawk-Dove-Retaliator game
 	3894. Hawk-Dove game
@@ -4620,7 +4671,7 @@ Reviewed: false
 	3912. Heimdallr sensitivity
 	3913. Heisenberg uncertainty principle
 	3914. helicotrema
-	3915. Heller’s syndrome
+	3915. Heller's syndrome
 	3916. Helmholtz illusion
 	3917. helper T cell
 	3918. helplessness, learned
@@ -4641,11 +4692,11 @@ Reviewed: false
 	3931. hemisphericity
 	3932. hemizygous
 	3933. hemoglobin
-	3934. Hempel’s paradox
+	3934. Hempel's paradox
 	3935. henbane
 	3936. hendiadys
-	3937. Henning’s prism
-	3938. Henning’s tetrahedron
+	3937. Henning's prism
+	3938. Henning's tetrahedron
 	3939. hepatic portal vein
 	3940. herbal ecstasy
 	
@@ -4666,7 +4717,7 @@ Reviewed: false
 	3954. herstory
 	3955. hertz
 	3956. 40-hertz oscillations
-	3957. Heschl’s gyrus
+	3957. Heschl's gyrus
 	3958. Hess image
 	3959. heteroduplex DNA
 	3960. heterogeneity of variance
@@ -4686,7 +4737,7 @@ Reviewed: false
 	3972. heuristic
 	3973. HEXACOabbrev.
 	3974. hibernatevb.
-	3975. Hick’s law
+	3975. Hick's law
 	3976. hidden figure
 	3977. hidden observer
 	3978. high-pass filter
@@ -4774,8 +4825,8 @@ Reviewed: false
 	4052. hormesis
 	4053. hormonagogue
 	4054. hormone
-	4055. Horner’s law
-	4056. Horner’s syndrome
+	4055. Horner's law
+	4056. Horner's syndrome
 	4057. horologagnosia
 	4058. horopter
 	4059. horse
@@ -4798,15 +4849,15 @@ Reviewed: false
 	4074. humanistic psychology
 	4075. human performance
 	4076. human relations group
-	4077. Hume’s fork
-	4078. Hume’s problem
+	4077. Hume's fork
+	4078. Hume's problem
 	4079. humour
-	4080. Humphrey’s law
+	4080. Humphrey's law
 	
 	4081. hunger
 	4082. Hunt-Minnesota test
-	4083. Huntington’s disease
-	4084. Hurler’s syndrome
+	4083. Huntington's disease
+	4084. Hurler's syndrome
 	4085. hwa-byung
 	4086. hyalophagia
 	4087. hybrid
@@ -5412,10 +5463,10 @@ Reviewed: false
 	4632. Item Group Checklist
 	4633. item response curve
 	4634. item response theory
-	4635. Jackson’s principle
+	4635. Jackson's principle
 	4636. Jacksonian epilepsy
-	4637. Jacobson’s organ
-	4638. Jacobson’s progressive relaxation
+	4637. Jacobson's organ
+	4638. Jacobson's progressive relaxation
 	4639. jactation
 	4640. jamais vu
 	
@@ -5464,7 +5515,7 @@ Reviewed: false
 	4680. Kanizsa triangle
 	
 	4681. kanji
-	4682. Kanner’s syndrome
+	4682. Kanner's syndrome
 	4683. kappa effect
 	4684. kappa statistic
 	4685. Kardos effect
@@ -5477,8 +5528,8 @@ Reviewed: false
 	4691. kava
 	4692. K complex
 	4693. Keeler polygraph
-	4694. Kelley’s cube
-	4695. Kendall’s tau
+	4694. Kelley's cube
+	4695. Kendall's tau
 	4696. Kendall coefficient of concordance
 	4697. Kendall correlation coefficient
 	4698. Kent-Rosanoff Free Association Test
@@ -5512,7 +5563,7 @@ Reviewed: false
 	4723. Kleinian
 	4724. kleptolagnia
 	4725. kleptomania
-	4726. Klinefelter’s syndrome
+	4726. Klinefelter's syndrome
 	4727. klinokinesis
 	4728. Klüver-Bucy syndrome
 	4729. klysmaphilia
@@ -5530,12 +5581,12 @@ Reviewed: false
 	4740. Kohs Block Design Test
 	
 	4741. Kohutian
-	4742. Kolmogorov’s axioms
+	4742. Kolmogorov's axioms
 	4743. Kolmogorov-Smirnov test
 	4744. König bars
 	4745. koro
-	4746. Korsakoff’s psychosis
-	4747. Korte’s laws
+	4746. Korsakoff's psychosis
+	4747. Korte's laws
 	4748. Krebs cycle
 	4749. Kretschmer constitutional type
 	4750. Kruskal-Wallis 1-way analysis of variance
@@ -5546,12 +5597,12 @@ Reviewed: false
 	4754. Kuhnian
 	4755. kula ring
 	4756. Kuleshov experiment
-	4757. Kundt’s rules
+	4757. Kundt's rules
 	4758. kurtosis
 	4759. kuru
 	4760. kymograph
 	
-	4761. l’illusion de sosies
+	4761. l'illusion de sosies
 	4762. L-dopaabbrev.
 	4763. la belle indifférence
 	4764. labelling theory
@@ -5710,7 +5761,7 @@ Reviewed: false
 	4903. liar paradox
 	4904. liberation psychology
 	4905. liberty cap
-	4906. Libet’s delay
+	4906. Libet's delay
 	4907. libidinal regression
 	4908. libidinal stage
 	4909. libido
@@ -5766,7 +5817,7 @@ Reviewed: false
 	4954. lithium carbonate
 	4955. Little Hans
 	4956. little thirty
-	4957. Lloyd Morgan’s canon
+	4957. Lloyd Morgan's canon
 	4958. loan translation
 	4959. lobe
 	4960. lobectomy
@@ -5821,7 +5872,7 @@ Reviewed: false
 	5004. loudness level
 	5005. loudness matching
 	5006. loudness recruitment
-	5007. Lou Gehrig’s disease
+	5007. Lou Gehrig's disease
 	5008. love
 	5009. love, genital
 	5010. love scale
@@ -5947,7 +5998,7 @@ Reviewed: false
 	5119. Mantel-Haenszel chi‐square
 	5120. map distance
 	
-	5121. Marbe’s law
+	5121. Marbe's law
 	5122. Margaret Thatcher illusion
 	5123. marginal consciousness
 	5124. marginals
@@ -5960,7 +6011,7 @@ Reviewed: false
 	
 	5131. market research
 	5132. Marplan
-	5133. Marr’s computational theory of vision
+	5133. Marr's computational theory of vision
 	5134. marriage counselling
 	5135. marshmallow test
 	5136. Marsilid
@@ -6000,7 +6051,7 @@ Reviewed: false
 	5167. maximum likelihood
 	5168. Maxwell disc
 	5169. maze
-	5170. McCarthy Scales of Children’s Abilities
+	5170. McCarthy Scales of Children's Abilities
 	
 	5171. McCollough effect
 	5172. M cellabbrev.
@@ -6053,7 +6104,7 @@ Reviewed: false
 	5215. megalomania
 	5216. megavitamin therapy
 	5217. meiosis
-	5218. Meissner’s corpuscle
+	5218. Meissner's corpuscle
 	5219. mel
 	5220. melancholia
 	
@@ -6079,7 +6130,7 @@ Reviewed: false
 	5239. memory trace
 	5240. menarche
 	
-	5241. Mendel’s laws
+	5241. Mendel's laws
 	5242. Mendelian
 	5243. meninges
 	5244. meningioma
@@ -6123,7 +6174,7 @@ Reviewed: false
 	5279. meprobamate
 	5280. mere exposure effect
 	
-	5281. Merkel’s law
+	5281. Merkel's law
 	5282. Merkel cell
 	5283. merocrine
 	5284. Merrill‐Palmer scale
@@ -6329,7 +6380,7 @@ Reviewed: false
 	5466. molecular biology
 	5467. molecular genetics
 	5468. molecular imprinting
-	5469. Molyneux’s question
+	5469. Molyneux's question
 	5470. momentum, representational
 	
 	5471. monad
@@ -6382,7 +6433,7 @@ Reviewed: false
 	5514. moon illusion
 	5515. moral development
 	5516. morbid jealousy
-	5517. Morgan’s canon
+	5517. Morgan's canon
 	5518. Morgan-Murray Thematic Apperception Test
 	5519. Morinaga misalignment illusion
 	5520. Morita therapy
@@ -6525,7 +6576,7 @@ Reviewed: false
 	5644. myristin
 	5645. mystery customer research
 	5646. myth, urban
-	5647. N-person Prisoner’s Dilemma
+	5647. N-person Prisoner's Dilemma
 	5648. N140abbrev.
 	5649. N400
 	5650. naive participant
@@ -6673,8 +6724,8 @@ Reviewed: false
 	5779. neurochip
 	5780. neurocognitive disorder due to HIV infection
 	
-	5781. neurocognitive disorder due to Huntington’s disease
-	5782. neurocognitive disorder due to Parkinson’s disease
+	5781. neurocognitive disorder due to Huntington's disease
+	5782. neurocognitive disorder due to Parkinson's disease
 	5783. neurocognitive disorder due to prion disease
 	5784. neurocognitive disorder due to traumatic brain injury
 	5785. neurocognitive disorders
@@ -6753,7 +6804,7 @@ Reviewed: false
 	5851. neutral mutation
 	5852. nevra
 	5853. new-variant Creutzfeldt-Jakob disease
-	5854. Newcomb’s problem
+	5854. Newcomb's problem
 	5855. Newman-Keuls test
 	5856. next-in-line effect
 	5857. nibble
@@ -6842,7 +6893,7 @@ Reviewed: false
 	5932. non-verbal test
 	5933. non-zero-sum game
 	5934. non compos mentis
-	5935. Nonne’s syndrome
+	5935. Nonne's syndrome
 	5936. nonsense codon
 	5937. nonsense mutation
 	5938. nonsense syllable
@@ -6939,7 +6990,7 @@ Reviewed: false
 	
 	6021. obstructive sleep apnoea hypopnoea
 	6022. obstruent
-	6023. Occam’s razor
+	6023. Occam's razor
 	6024. occipital
 	6025. occipital bone
 	6026. occipital lobe
@@ -6950,7 +7001,7 @@ Reviewed: false
 	
 	6031. occupational therapy
 	6032. oceanic feeling
-	6033. Ockham’s razor
+	6033. Ockham's razor
 	6034. ocnophil
 	6035. octave
 	6036. ocular-dominance column
@@ -6990,7 +7041,7 @@ Reviewed: false
 	6067. oestrus
 	6068. off-centre cell
 	6069. offender counselling
-	6070. Ohm’s acoustic law
+	6070. Ohm's acoustic law
 	
 	6071. olan
 	6072. olanzapine
@@ -7018,7 +7069,7 @@ Reviewed: false
 	6092. omnivore
 	6093. on-centre cell
 	6094. onanism
-	6095. Ondine’s curse
+	6095. Ondine's curse
 	6096. one-group pretest-posttest design
 	6097. one-samplettest
 	6098. one-way analysis of variance
@@ -8827,9 +8878,9 @@ Reviewed: false
 	7737. sagittal plane
 	7738. sagittal section
 	7739. sagittal suture
-	7740. Saint John’s wort
+	7740. Saint John's wort
 	
-	7741. Saint Vitus’ dance
+	7741. Saint Vitus' dance
 	7742. saka
 	7743. salience
 	7744. salivary gland
@@ -8858,7 +8909,7 @@ Reviewed: false
 	7765. savant
 	7766. savings, method of
 	7767. saxitoxin
-	7768. Sayre’s law
+	7768. Sayre's law
 	7769. scala
 	7770. scala media
 	
@@ -8909,7 +8960,7 @@ Reviewed: false
 	7811. screening test
 	7812. screen memory
 	7813. script
-	7814. Scripture’s blocks
+	7814. Scripture's blocks
 	7815. SDATabbrev.
 	7816. Seashore Measures of Musical Talent
 	7817. seasonal affective disorder
@@ -9161,7 +9212,7 @@ Reviewed: false
 	
 	8041. shared psychotic disorder
 	8042. sharpening
-	8043. Sheldon’s constitutional psychology
+	8043. Sheldon's constitutional psychology
 	8044. shell shock
 	8045. shen-k'uei
 	8046. shenjing shuairuo
@@ -9228,7 +9279,7 @@ Reviewed: false
 	8101. simple structure
 	8102. simple tone
 	8103. simplicity principle
-	8104. Simpson’s paradox
+	8104. Simpson's paradox
 	8105. simulation heuristic
 	8106. simultanagnosia
 	8107. simultaneous contrast
@@ -9286,7 +9337,7 @@ Reviewed: false
 	8154. sleep terrors
 	8155. sleepwalking
 	8156. sleepy sickness
-	8157. slimmers’ disease
+	8157. slimmers' disease
 	8158. slip of action
 	8159. slip of memory
 	8160. slip of the pen
@@ -9416,7 +9467,7 @@ Reviewed: false
 	8272. somatotrophin-releasing hormone
 	8273. somatotrophin release inhibiting factor
 	8274. somatotype
-	8275. Somers’D
+	8275. Somers'D
 	8276. somesthesis
 	8277. somesthetic
 	8278. somnambulism
@@ -9454,7 +9505,7 @@ Reviewed: false
 	8307. spatial neglect
 	8308. spatial summation
 	8309. speaking in tongues
-	8310. Spearman’s rho
+	8310. Spearman's rho
 	
 	8311. Spearman rank correlation coefficient
 	8312. Special K
@@ -9636,7 +9687,7 @@ Reviewed: false
 	8472. steroid hormone
 	8473. steroid receptor
 	8474. sterol
-	8475. Stevens’s law
+	8475. Stevens's law
 	8476. stigma
 	8477. stigmatizevb.
 	8478. stilboestrol
@@ -9651,7 +9702,7 @@ Reviewed: false
 	8486. stimulus onset asynchrony
 	8487. stimulus set
 	8488. stirrup
-	8489. St John’s wort
+	8489. St John's wort
 	8490. stochastic
 	
 	8491. Stockholm syndrome
@@ -9711,7 +9762,7 @@ Reviewed: false
 	
 	8541. structure from motion
 	8542. strychnine
-	8543. Student’sttest
+	8543. Student'sttest
 	8544. Student-Newman-Keuls procedure
 	8545. Study of Values
 	8546. stupor
@@ -9848,7 +9899,7 @@ Reviewed: false
 	8665. sweat gland
 	8666. sweet
 	8667. SWOT analysis
-	8668. Sydenham’s chorea
+	8668. Sydenham's chorea
 	8669. syllogism
 	8670. Sylvian aqueduct
 	
@@ -9946,7 +9997,7 @@ Reviewed: false
 	8754. 1-tailed probability
 	8755. 2-tailed test
 	8756. 1-tailed test
-	8757. Talbot’s law
+	8757. Talbot's law
 	8758. Talbot-Plateau law
 	8759. Talbot-Plateau spiral
 	8760. Talwin
@@ -9976,7 +10027,7 @@ Reviewed: false
 	8781. taste tetrahedron
 	8782. TATabbrev.
 	8783. TATA box
-	8784. tau, Kendall’s
+	8784. tau, Kendall's
 	8785. tau effect
 	8786. taxicab problem
 	8787. taxon
@@ -10187,7 +10238,7 @@ Reviewed: false
 	8973. token
 	8974. token distractor
 	8975. token economy
-	8976. Tolansky’s curvature illusion
+	8976. Tolansky's curvature illusion
 	8977. tolerance
 	8978. tolerance of ambiguity
 	8979. tomoxetine
@@ -10218,7 +10269,7 @@ Reviewed: false
 	9001. touch acuity
 	9002. touch receptor
 	9003. tough-mindedness
-	9004. Tourette’s disorder
+	9004. Tourette's disorder
 	9005. Tower of Hanoi
 	9006. toxic
 	9007. toxic dosage
@@ -10350,7 +10401,7 @@ Reviewed: false
 	9121. troilism
 	9122. Troland
 	9123. trolley problem
-	9124. trompe l’oeil
+	9124. trompe l'oeil
 	9125. trophic hormone
 	9126. Troxler effect
 	9127. true self
@@ -10374,7 +10425,7 @@ Reviewed: false
 	9143. Turing machine
 	9144. Turing test
 	9145. Turkish saddle
-	9146. Turner’s syndrome
+	9146. Turner's syndrome
 	9147. turning the tables illusion
 	9148. twilight vision
 	9149. twin study
@@ -10385,7 +10436,7 @@ Reviewed: false
 	9153. two-samplettest
 	9154. two-step flow
 	9155. two-way avoidance conditioning
-	9156. Tycho’s illusion
+	9156. Tycho's illusion
 	9157. tympanic membrane
 	9158. tympanic reflex
 	9159. type-token ratio
@@ -10430,7 +10481,7 @@ Reviewed: false
 	9194. underextension
 	9195. undifferentiated schizophrenia
 	9196. undifferentiated somatoform disorder
-	9197. Undine’s curse
+	9197. Undine's curse
 	9198. undinism
 	9199. undoing
 	9200. unexpected hanging paradox
@@ -10565,7 +10616,7 @@ Reviewed: false
 	9317. Viagra
 	9318. vibration receptor
 	9319. vibratory sense
-	9320. Vierordt’s law
+	9320. Vierordt's law
 	
 	9321. vigilance
 	9322. vignette
@@ -10644,7 +10695,7 @@ Reviewed: false
 	9389. volunteer (research or experimental)
 	9390. vomeronasal organ
 	
-	9391. von Osten’s horse
+	9391. von Osten's horse
 	9392. von Restorff effect
 	9393. voodoo death
 	9394. voting paradox
@@ -10661,13 +10712,13 @@ Reviewed: false
 	9404. wagon wheel illusion
 	9405. Wald-Wolfowitz runs test
 	9406. Wallerian degeneration
-	9407. Ward’s method
+	9407. Ward's method
 	9408. warm/cold effect
 	9409. warm spot
 	9410. warmth contrast
 	
 	9411. War of the Ghosts
-	9412. Wason’s 2-4-6 problem
+	9412. Wason's 2-4-6 problem
 	9413. Wason selection task
 	9414. water-jar problem
 	9415. waterfall illusion
@@ -10679,7 +10730,7 @@ Reviewed: false
 	
 	9421. weal response
 	9422. weapon focus
-	9423. Weber’s law
+	9423. Weber's law
 	9424. Weber-Fechner law
 	9425. Weber fraction
 	9426. Wechsler Adult Intelligence Scale
@@ -10695,9 +10746,9 @@ Reviewed: false
 	9435. Wells effect
 	9436. Weltanschauung
 	9437. wendigo
-	9438. Wernicke’s aphasia
-	9439. Wernicke’s area
-	9440. Wernicke’s encephalopathy
+	9438. Wernicke's aphasia
+	9439. Wernicke's area
+	9440. Wernicke's encephalopathy
 	
 	9441. Wernicke-Korsakoff syndrome
 	9442. Wertherism
@@ -10732,7 +10783,7 @@ Reviewed: false
 	9469. windmill illusion
 	9470. windpipe
 	
-	9471. winner’s curse
+	9471. winner's curse
 	9472. Winnicottian
 	9473. Wisconsin Card Sorting test
 	9474. Wisconsin General Test Apparatus
@@ -10745,7 +10796,7 @@ Reviewed: false
 	
 	9481. Wolf Man
 	9482. woman, phallic
-	9483. woolsorter’s disease
+	9483. woolsorter's disease
 	9484. word-association test
 	9485. word-building test
 	9486. word-form dyslexia
@@ -10788,7 +10839,7 @@ Reviewed: false
 	9520. yagé
 	
 	9521. yang
-	9522. Yates’ correction for continuity
+	9522. Yates' correction for continuity
 	9523. YAVISabbrev
 	9524. yawnvb.
 	9525. Y cell
@@ -10820,7 +10871,7 @@ Reviewed: false
 	9549. zero-order approximation to language
 	9550. zero-sum game
 	
-	9551. Zipf’s laws
+	9551. Zipf's laws
 	9552. Zöllner illusion
 	9553. Zoloft
 	9554. zombie

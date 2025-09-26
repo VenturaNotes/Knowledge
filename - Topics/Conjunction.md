@@ -37,7 +37,13 @@ $$
   
 
 where $\vee$ is the OR operation and $y_{i}$ is equal to $x_{i}$ or the complement of $x_{i}$. Reducing expressions to conjunctive normal form provides a ready method of determining the equivalence of two Boolean expressions. See also PROPOSITIONAL CALCULUS. Compare DISJUNCTION.
+## Source[^3]
+- n. 
+- (1) The act or process of joining together, or the state of being joined. 
+- (2) In logic, two propositions (1) connected by an operator denoting and to form a single compound proposition, usually written $p \wedge q$, where $p$ and $q$ represent the component propositions or conjuncts, the compound proposition being true only if both of its conjuncts are true. See also CONJunction fallacy. Compare disJunction (2).
+- \[From Latin con- with + iunctio joining + -ion indicating an action, process, or state]
 ## References
 
 [^1]: [[(2) Start Learning Logic - Part 1 - Logical Statements, Negation and Conjunction]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

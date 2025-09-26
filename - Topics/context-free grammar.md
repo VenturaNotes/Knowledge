@@ -64,6 +64,9 @@ Context-free grammars are a class of phrase-structure grammar (PSG). GPSG repres
   
 
 Compare CONTEXT-SENSITIVE GRAMMAR.
+## Source[^2]
+- $n$. A type of generative grammar in which the rules apply regardless of the linguistic context$\textemdash$the linguistic units adjacent or nearby those to which the rule applies directly. For example, Rewrite X as X $+Y$ is a possible context-free rule in such a grammar, and it would apply irrespective of linguistic context. Compare CONTEXT-DEPENDENT GRAMMAR.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

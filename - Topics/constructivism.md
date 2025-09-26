@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A doctrine according to which perceptions, memories, and other complex mental structures are actively assembled or built by the mind, rather than being passively acquired. The idea was introduced in 1932 by the English psychologist Sir Frederic Charles Bartlett (1886-1969) to explain phenomena that he observed in his study of memory. An influential example of constructivism in perception is the concept of the perceptual cycle introduced by the German-born US psychologist Ulric (Richard Gustav) Neisser (1928-2012), and it has been used by the English psychologist Richard L(angton) Gregory (1923-2010) and others to explain a number of visual illusions. Radical constructivism, deriving from writings in the 1950s of the Swiss psychologist Jean Piaget (1896-1980), is based on the assumption that children construct mental structures by observing the effects of their own actions on the environment. Social constructivism, first popularized by the Austrian-born US sociologist Peter Ludwig Berger (born 1929) and the Yugoslav-born US sociologist Thomas Luckmann (born 1927) in their influential book The Social Construction of Reality (1966), focuses on the way people come to share interpretations of their social environment. See also CONSTRUCTIVE MEMORY, RECONSTRUCTIVE MEMORY, SCHEMA, SOCIAL CONSTRUCTIONIST PSYCHOLOGY, TOP-DOWN PROCESSING.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

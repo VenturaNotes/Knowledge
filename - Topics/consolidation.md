@@ -7,7 +7,10 @@
 - $n$. 
 - (1) the state of the lung in which the alveoli (air sacs) are filled with fluid produced by inflamed tissue, as in pneumonia. It is diagnosed from its dullness to percussion, bronchial breathing (see BREATH SOUNDS) in the patient, and from the distribution of shadows on the chest X-ray. 
 - (2) the stage of repair of a broken bone following callus formation, during which the callus is transformed by osteoblasts into mature bone.
+## Source[^3]
+- $n$. The process whereby new information is fixed in long-term memory, where it is integrated with existing stored information. The process continues for some time after exposure to the new information. See also calpain, Hebb synapse, hippocampus, long-term potentiation, phase SEQUENCE.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

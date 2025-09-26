@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A cognitive style defined by two radically different modes of thinking. At one extreme is convergent thinking, characterized by a tendency to home in on a unique solution to a problem, usually involving the synthesis of information, typified by analytical, deductive thinking in which formal rules are followed, as in arithmetic. It is logical, consciously controlled, reality-oriented, and largely dependent on previously learnt knowledge and skills, and it is measured by conventional IQ tests. At the opposite extreme is divergent thinking, characterized by the fluent production of a variety of novel ideas relevant to the problem in hand. Divergent thinkers prefer, and perform better at, open-ended problems that do not have unique solutions. Tests of divergent thinking, which tap more creative types of thinking, include items such as the following: 'How many uses can you think of for a brick?' In a study of schoolboys, the English psychologist Liam Hudson (1933-2005) found that most of the boys could think of only three or four answers in about three minutes, but most of those whom he identified as divergent thinkers gave ten or more answers. Some psychologists equate divergent thinking with creativity. The concept was introduced in 1946 by the US psychologist J(oy) P(aul) Guilford (1897-1987), and convergent production and divergent production are two of the six different types of mental operations in Guilford's cube.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
