@@ -8,6 +8,9 @@ aliases:
 - An iterable is anything you can loop over
 ### Examples
 - Lists, tuples, sets, dictionaries, and strings
+### Non-Examples
+- The `int` object such as 1, 2, 3, etc. is not an iterable.
+	- Therefore, you can't iterate a list doing `for i in len(list_name)` because it would just be an `int` object
 ## Source [^1]
 - Iterables are objects that can be iterated in iterations.
 - An iterable is anything that you can loop over
