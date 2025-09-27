@@ -1206,7 +1206,7 @@ Reviewed: false
 	1184. concentrated
 	1185. concentration
 	1186. concentration cell
-	1187. concentration gradient
+	1187. [[concentration gradient]]
 	1188. concerted reaction
 	1189. concrete
 	1190. condensation
@@ -1215,15 +1215,15 @@ Reviewed: false
 	1193. condensation reaction
 	1194. condenser
 	1195. conducting polymer
-	1196. conductiometric titration
+	1196. [[conductiometric titration]]
 	1197. conduction band
 	1198. conductivity water
 	1199. Condy’s fluid
 	1200. configuration
-	1201. configuration space
+	1201. [[configuration space]]
 	1202. confocal microscopy
 	1203. conformation
-	1204. conformational analysis
+	1204. [[conformational analysis]]
 	1205. conformational isomer
 	1206. congeners
 	1207. conical intersection

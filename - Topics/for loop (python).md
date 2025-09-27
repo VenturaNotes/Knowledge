@@ -4,7 +4,25 @@ aliases:
   - for loops
 ---
 ## Synthesis
-- 
+### Retrieving elements
+```python
+fruits = ["apple", "banana", "cherry"]
+
+for x in fruits:
+	print(x)
+
+"""
+Output:
+
+apple
+banana
+cherry
+
+"""
+```
+
+### Retrieving index
+
 ## Source [^1]
 ```python
 # Given
