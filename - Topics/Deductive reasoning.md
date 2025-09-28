@@ -15,6 +15,9 @@
 	- $\therefore$ we have shown that the sum of two even numbers is always even
 - How was this deductive reasoning?
 	- Started with a definition, applied logical steps, and arrived at a conclusion that was necessarily true based on the given premise
+## Source[^2]
+- $n$. A form of logical reasoning based on deduction in which a conclusion is derived from premises using rules of inference, a valid deduction being one in which it is impossible to assert the premises and deny the conclusion without contradiction. One form, though by no means the only form, of deductive reasoning is the syllogism. See also CONDITIONAL REASONING, MODAL LOGIC.
 ## References
 
 [^1]: ChatGPT
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

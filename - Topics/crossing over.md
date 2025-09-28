@@ -18,6 +18,8 @@
 		- Chiasma
 		- Direction of movement
 		- Recombinant chromatids
+## Source[^6]
+- $n$. The interchange or swapping of homologous sections of paired chromosomes during meiosis (1), producing variability in the hereditary characteristics of the offspring. Also called crossover or breakage and reunion . See also DNA RECOMBination, Linkage.
 ## References
 
 [^1]: Google's Search Labs | AI Overview
@@ -25,3 +27,4 @@
 [^3]: https://wayground.com/admin/quiz/5ae31ed16b164f0019047957/biology-vocabulary
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

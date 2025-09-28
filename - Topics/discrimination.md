@@ -7,8 +7,13 @@
 - The practice of treating some people less favorably than others on grounds unrelated to merit, normally because they belong to a particular group or category. Under the Equality Act 2010 it is illegal to discriminate on grounds of sex, race, disability, religious or other belief, marriage or civil partnership, pregnancy or maternity, sexual orientation, gender reassignment, or age. Indirect discrimination is deemed to occur where a provision, criterion, or practice is applied to everyone but the result is to put one group at a particular disadvantage. In employment, the Act applies to decisions about who to employ, the terms and conditions of employment, and access to training and promotion. Discrimination may include harassment of an individual or any sort of victimization of a person who brings or supports a complaint under the legislation. The Act also applies to the provision of goods and services. See also EQUAL PAY; REASONABLE ADJUSTMENTS.
 ## Source[^3]
 - $n$. treating individuals differently on the basis of morally insignificant characteristics, such as race, sex, or religion. In medicine, any discrimination of this kind (e.g. when deciding on treatments or allocating resources) offends against the ethical principle of justice. Legally, discrimination can be direct (i.e. overtly differentiating between people and groups) or indirect (i.e. behaviour that will disproportionately affect particular people or some groups more than others). See also EQUALITY; STIGMA.
+## Source[^4]
+- $n$. 
+- (1) The act or process of distinguishing between stimuli or of recognizing or understanding the differences between things. See also DISClIMINABILITY, DISCRIMINATION LEARNING. 
+- (2) The unfair or prejudiced treatment of a person or group, as in racial discrimination or sexual discrimination. discriminate $v b$.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

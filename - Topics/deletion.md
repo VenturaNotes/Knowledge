@@ -6,7 +6,10 @@
 - (in genetics) 
 - (1) A point mutation involving the removal of one or more base pairs in the DNA sequence. 
 - (2) A frequently lethal chromosome mutation that arises from an inequality in crossing over during meiosis such that one of the chromatids loses more genetic information than it receives. See also GENOME EDITING; KNOCKOUT.
+## Source[^3]
+- $n$. An erasure or blotting out. In genetics, the loss or absence of part of a chromosome. deletion mutation $n$. A type of mutation in which one or more bases (1) are lost from a segment of DNA.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

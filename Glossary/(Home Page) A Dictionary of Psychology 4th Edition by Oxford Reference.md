@@ -2600,829 +2600,961 @@ Reviewed: false
 	2030. [[counselling psychology]]
 	
 	2031. counter-rotating circles illusion
-	2032. counter-transference
-	2033. counteracting selection
-	2034. counterbalancing
-	2035. countercathexis
-	2036. counterexample set
-	2037. counterfactual conditional
-	2038. counterfactual reasoning
-	2039. couples therapy
-	2040. courtship
+		1. $n$. Another name for the Pinna-Brelstaff illusion.
+	2032. [[counter-transference]]
+	2033. [[counteracting selection]]
+	2034. [[counterbalancing]]
+	2035. [[countercathexis]]
+	2036. [[counterexample set]]
+	2037. [[counterfactual conditional]]
+	2038. [[counterfactual reasoning]]
+	2039. [[couples therapy]]
+	2040. [[courtship]]
 	
-	2041. couvade
-	2042. covariance
+	2041. [[couvade]]
+	2042. [[covariance]]
 	2043. covariance structures, analysis of
-	2044. covariate
-	2045. covariation principle
+		1. See analysis of covariance structures.
+	2044. [[covariate]]
+	2045. [[covariation principle]]
 	2046. cover memory
-	2047. crack
-	2048. Craik-O'Brien effect
-	2049. Cramér'sC
-	2050. cranial accessory nerve
+		1. n. Another name for a screen memory.
+	2047. [[crack]]
+	2048. [[Craik-O'Brien effect]]
+	2049. [[Cramér's C]]
+	2050. [[cranial accessory nerve]]
 	
-	2051. cranial index
-	2052. cranial nerve
-	2053. cranium
+	2051. [[cranial index]]
+	2052. [[cranial nerve]]
+	2053. [[cranium]]
 	2054. crank
+		1. $n$. A common street name for methamphetamine. \[Supposedly so called because it was frequently smuggled in the crankcases of vehicles]
 	2055. creak
-	2056. creatine
-	2057. creatine phosphate
-	2058. creationism
-	2059. creativity
-	2060. CREBabbrev.
+		1. See vocal fry
+	2056. [[creatine]]
+	2057. [[creatine phosphate]]
+	2058. [[creationism]]
+	2059. [[creativity]]
+	2060. [[CREB]]
 	
-	2061. credibility
-	2062. creole
-	2063. creolization
-	2064. Crespi effect
-	2065. cretinism
-	2066. Creutzfeldt-Jakob disease
+	2061. [[credibility]]
+	2062. [[creole]]
+	2063. [[creolization]]
+	2064. [[Crespi effect]]
+	2065. [[cretinism]]
+	2066. [[Creutzfeldt-Jakob disease]]
 	2067. crib, air
-	2068. cri du chat
-	2069. criminal profiling
-	2070. criminological psychology
+		1. See air crib.
+	2068. [[cri du chat]]
+	2069. [[criminal profiling]]
+	2070. [[criminological psychology]]
 	
-	2071. crisis intervention
-	2072. crista
-	2073. crista acoustica
-	2074. criterion-referenced test
-	2075. criterion validity
+	2071. [[crisis intervention]]
+	2072. [[crista]]
+	2073. [[crista acoustica]]
+	2074. [[criterion-referenced test]]
+	2075. [[criterion validity]]
 	2076. criterion variable
-	2077. critical band
-	2078. critical flicker frequency
-	2079. critical period
-	2080. critical theory
+		1. $n$. Another name for a dependent variable in canonical correlation, discriminant function analysis, and multiple regression.
+	2077. [[critical band]]
+	2078. [[critical flicker frequency]]
+	2079. [[critical period]]
+	2080. [[critical theory]]
 	
-	2081. Crocker-Henderson system
-	2082. Cronbach's alpha
-	2083. cross-adaptation
-	2084. cross-cultural survey
-	2085. cross-dependence
+	2081. [[Crocker-Henderson system]]
+	2082. [[Cronbach's alpha]]
+	2083. [[cross-adaptation]]
+	2084. [[cross-cultural survey]]
+	2085. [[cross-dependence]]
 	2086. cross-dressing
-	2087. cross-modal matching
-	2088. cross-modal transfer
-	2089. cross-sectional study
-	2090. cross-tabulation
+		1. n. Another name for transvestism. 
+	2087. [[cross-modal matching]]
+	2088. [[cross-modal transfer]]
+	2089. [[cross-sectional study]]
+	2090. [[cross-tabulation]]
 	
-	2091. cross-tolerance
-	2092. cross-validation
-	2093. crossing over
-	2094. crowd psychology
-	2095. cryptaesthesia
-	2096. cryptomnesia
+	2091. [[cross-tolerance]]
+	2092. [[cross-validation]]
+	2093. [[crossing over]]
+	2094. [[crowd psychology]]
+	2095. [[cryptaesthesia]]
+	2096. [[cryptomnesia]]
 	2097. cryptophasia
-	2098. crystalline lens
-	2099. crystallized intelligence
+		1. n. Another name for autonomous speech
+	2098. [[crystalline lens]]
+	2099. [[crystallized intelligence]]
 	2100. crystal meth
+		1. $n$. A common street name for methamphetamine. Sometimes abbreviated to crystal or meth. \[So called because it is often supplied in the form of salt crystals]
 	
-	2101. CS gasabbrev.
-	2102. CSI effect
-	2103. CT scanabbrev.
-	2104. cue
-	2105. cued recall
-	2106. cultural anthropology
-	2107. cultural truism
-	2108. culture
-	2109. culture-bound syndromes
-	2110. culture-fair
+	2101. [[CS gas]]
+	2102. [[CSI effect]]
+	2103. [[CT scan]]
+	2104. [[cue]]
+	2105. [[cued recall]]
+	2106. [[cultural anthropology]]
+	2107. [[cultural truism]]
+	2108. [[culture]]
+	2109. [[culture-bound syndromes]]
+	2110. [[culture-fair]]
 	
-	2111. culture-free
+	2111. [[culture-free]]
 	2112. culture-specific disorders
-	2113. culture shock
-	2114. cumulative record
-	2115. cuneate nucleus
-	2116. cunnilingus
-	2117. cupula
-	2118. curare
-	2119. curvature illusion
+		1. See culture-bound syndromes.
+	2113. [[culture shock]]
+	2114. [[cumulative record]]
+	2115. [[cuneate nucleus]]
+	2116. [[cunnilingus]]
+	2117. [[cupula]]
+	2118. [[curare]]
+	2119. [[curvature illusion]]
 	2120. cutaneous rabbit illusion
+		1. $n$. Another name for sensory saltation. \[From Latin cutaneus of or relating to the skin, from cutis skin]
 	
-	2121. cutaneous sense
-	2122. cut score
-	2123. CVCabbrev.
-	2124. CVC trigramabbrev.
-	2125. CV digramabbrev.
+	2121. [[cutaneous sense]]
+	2122. [[cut score]]
+	2123. [[CVC]]
+	2124. [[CVC trigram]]
+	2125. [[CV digram]]
 	2126. cyanocabalamin
-	2127. cybernetics
-	2128. cybersex
-	2129. cyberspace
-	2130. cyclic AMP
+		1. See vitamin $B_{12}$
+	2127. [[cybernetics]]
+	2128. [[cybersex]]
+	2129. [[cyberspace]]
+	2130. [[cyclic AMP]]
 	
-	2131. cyclic GMP
+	2131. [[cyclic GMP]]
 	2132. cyclic guanosine monophosphate
-	2133. cyclic majority
+		1. See cyclic GMP
+	2133. [[cyclic majority]]
 	2134. cyclic model of perception
-	2135. cyclic preferences
-	2136. Cyclopean eye
-	2137. Cyclopean perception
-	2138. Cyclopean stimulus
-	2139. cyclophoria
-	2140. cycloplegia
+		1. n. Another name for the perceptual cycle 
+	2135. [[cyclic preferences]]
+	2136. [[Cyclopean eye]]
+	2137. [[Cyclopean perception]]
+	2138. [[Cyclopean stimulus]]
+	2139. [[cyclophoria]]
+	2140. [[cycloplegia]]
 	
-	2141. cyclothymia
-	2142. cyclothymic disorder
-	2143. cyproterone
-	2144. cyranoid
-	2145. cytoarchitectonic map
-	2146. cytology
-	2147. cytoplasm
-	2148. cytosine
-	2149. cytoskeleton
-	2150. cytotoxic
+	2141. [[cyclothymia]]
+	2142. [[cyclothymic disorder]]
+	2143. [[cyproterone]]
+	2144. [[cyranoid]]
+	2145. [[cytoarchitectonic map]]
+	2146. [[cytology]]
+	2147. [[cytoplasm]]
+	2148. [[cytosine]]
+	2149. [[cytoskeleton]]
+	2150. [[cytotoxic]]
 	
-	2151. dactylology
-	2152. Dale's law
-	2153. daltonism
+	2151. [[dactylology]]
+	2152. [[Dale's law]]
+	2153. [[daltonism]]
 	2154. dance of the bees
-	2155. dance therapy
+		1. See round dance, waggle dance.
+	2155. [[dance therapy]]
 	2156. dancing mania
-	2157. dantrolene
-	2158. dark adaptation
-	2159. dark focus
-	2160. dark light
+		1. n. Another name for tarantism
+	2157. [[dantrolene]]
+	2158. [[dark adaptation]]
+	2159. [[dark focus]]
+	2160. [[dark light]]
 	
 	2161. Darvon
-	2162. Darwinian evolution
-	2163. Darwinian fitness
+		1. n. A proprietary name for the narcotic analgesic drug propoxyphene hydrochloride. \[Trademark]
+	2162. [[Darwinian evolution]]
+	2163. [[Darwinian fitness]]
 	2164. Darwinian reflex
+		1. n. Another name for the grasp reflex
 	2165. Darwinism
-	2166. Dasein
+		1. n. Another name for Darwinian evolution. Darwinist n. One who promotes or believes in Darwinian evolution
+	2166. [[Dasein]]
 	2167. Daseinsanalyse
-	2168. data
+		1. $n$. Another name for existential analysis, focusing on Dasein. See also EXISTENTIAL THERAPY.
+	2168. [[data]]
 	2169. data-driven processing
-	2170. dataholic
+		1. n. Another name for bottom-up processing
+	2170. [[dataholic]]
 	
-	2171. data mining
-	2172. data set
-	2173. data snooping
-	2174. date rape
-	2175. date rape drug
+	2171. [[data mining]]
+	2172. [[data set]]
+	2173. [[data snooping]]
+	2174. [[date rape]]
+	2175. [[date rape drug]]
 	2176. day blindness
-	2177. daydream
+		1. n. A non-technical name for hemeralopia
+	2177. [[daydream]]
 	2178. daylight vision
-	2179. de-reflection
-	2180. deadly nightshade
+		1. n. A non-technical name for photopia
+	2179. [[de-reflection]]
+	2180. [[deadly nightshade]]
 	
-	2181. deaf mute
-	2182. deafness
+	2181. [[deaf mute]]
+	2182. [[deafness]]
 	2183. death instinct
-	2184. debriefing
-	2185. décalage
-	2186. decathexis
-	2187. decay theory
-	2188. decentralized communication network
-	2189. decentration
-	2190. decerebrate rigidity
+		1. n. Another name for Thanatos
+	2184. [[debriefing]]
+	2185. [[décalage]]
+	2186. [[decathexis]]
+	2187. [[decay theory]]
+	2188. [[decentralized communication network]]
+	2189. [[decentration]]
+	2190. [[decerebrate rigidity]]
 	
-	2191. decibel
-	2192. decile
+	2191. [[decibel]]
+	2192. [[decile]]
 	2193. decision analysis
+		1. n. Applied decision theory
 	2194. decision frame
-	2195. decision making
-	2196. decision rule
-	2197. decision theory
-	2198. declarative knowledge
-	2199. declarative memory
+		1. See framing effect
+	2195. [[decision making]]
+	2196. [[decision rule]]
+	2197. [[decision theory]]
+	2198. [[declarative knowledge]]
+	2199. [[declarative memory]]
 	2200. de Clérambault's syndrome
+		1. $n$. Another name for erotomania. \[Named after the French psychiatrist Gaëtan de Clérambault (1872-1934), who published an influential article entitled 'Les Psychoses Passionelles' that discussed the disorder in 1921]
 	
-	2201. deconstruction
-	2202. decreolization
-	2203. decussation
-	2204. deduction
-	2205. deductive reasoning
-	2206. deep dyslexia
-	2207. deep structure
-	2208. deep tendon reflex
+	2201. [[deconstruction]]
+	2202. [[decreolization]]
+	2203. [[decussation]]
+	2204. [[deduction]]
+	2205. [[deductive reasoning]]
+	2206. [[deep dyslexia]]
+	2207. [[deep structure]]
+	2208. [[deep tendon reflex]]
 	2209. Deese-Roediger-McDermott paradigm
-	2210. default mode network
+		1. See EXPERIMENTALLY INDUCED FALSE MEMORY.
+	2210. [[default mode network]]
 	
-	2211. default reasoning
+	2211. [[default reasoning]]
 	2212. defence, ego
+		1. See ego defence mechanism
 	2213. defence, perceptual
-	2214. defence hysteria
-	2215. defence mechanism
+		1. See perceptual defence
+	2214. [[defence hysteria]]
+	2215. [[defence mechanism]]
 	2216. defensive identification
-	2217. defensive technique
-	2218. deferred action
-	2219. deferred gratification
-	2220. deficit
+		1. n. Another name for identification with the aggressor.
+	2217. [[defensive technique]]
+	2218. [[deferred action]]
+	2219. [[deferred gratification]]
+	2220. [[deficit]]
 	
-	2221. defining properties
+	2221. [[defining properties]]
 	2222. definitional theory
-	2223. defusion of instincts
-	2224. degraded stimulus
-	2225. 360-degree feedback
-	2226. degrees of freedom
-	2227. dehoaxing
+		1. n. Another name for the componential theory of concept formation.
+	2223. [[defusion of instincts]]
+	2224. [[degraded stimulus]]
+	2225. [[360-degree feedback]]
+	2226. [[degrees of freedom]]
+	2227. [[dehoaxing]]
 	2228. dehydroepiandrosterone
-	2229. deimatic
-	2230. deindividuation
+		1. See dhea
+	2229. [[deimatic]]
+	2230. [[deindividuation]]
 	
-	2231. deism
-	2232. Deiters' cell
-	2233. Deiters' nucleus
-	2234. deixis
-	2235. déjà vu
+	2231. [[deism]]
+	2232. [[Deiters' cell]]
+	2233. [[Deiters' nucleus]]
+	2234. [[deixis]]
+	2235. [[déjà vu]]
 	2236. de la Tourette's syndrome
-	2237. delay-line timing circuit
-	2238. delay conditioning
-	2239. delayed-response task
-	2240. delayed auditory feedback
+		1. See Tourette's disorder.
+	2237. [[delay-line timing circuit]]
+	2238. [[delay conditioning]]
+	2239. [[delayed-response task]]
+	2240. [[delayed auditory feedback]]
 	
-	2241. delayed conditioning
-	2242. delayed ejaculation
-	2243. delayed gratification
+	2241. [[delayed conditioning]]
+	2242. [[delayed ejaculation]]
+	2243. [[delayed gratification]]
 	2244. delayed matching to sample
-	2245. delayed sleep-phase syndrome
-	2246. Delboeuf illusion
-	2247. deletion
-	2248. Delilah syndrome
-	2249. deliriant
-	2250. delirium
+		1. See matching to sample
+	2245. [[delayed sleep-phase syndrome]]
+	2246. [[Delboeuf illusion]]
+	2247. [[deletion]]
+	2248. [[Delilah syndrome]]
+	2249. [[deliriant]]
+	2250. [[delirium]]
 	
-	2251. delirium tremens
-	2252. Delphi method
-	2253. delta-9-tetrahydrocannabinol
-	2254. delta fibre
-	2255. delta movement
-	2256. delta rule
-	2257. delta sleep-inducing peptide
-	2258. delta wave
-	2259. delusion
+	2251. [[delirium tremens]]
+	2252. [[Delphi method]]
+	2253. [[delta-9-tetrahydrocannabinol]]
+	2254. [[delta fibre]]
+	2255. [[delta movement]]
+	2256. [[delta rule]]
+	2257. [[delta sleep-inducing peptide]]
+	2258. [[delta wave]]
+	2259. [[delusion]]
 	2260. delusion, nihilistic
+		1. See nihilistic delusion
 	
-	2261. delusional disorder
-	2262. delusional jealousy
-	2263. delusional misidentification
-	2264. delusion of control
-	2265. delusion of depersonalization
+	2261. [[delusional disorder]]
+	2262. [[delusional jealousy]]
+	2263. [[delusional misidentification]]
+	2264. [[delusion of control]]
+	2265. [[delusion of depersonalization]]
 	2266. delusion of grandeur
+		1. n. Another name for a grandiose delusion
 	2267. delusion of influence
+		1. n. Another name for a delusion of control
 	2268. delusion of persecution
-	2269. delusion of reference
-	2270. demand characteristics
+		1. See persecutory delusion.
+	2269. [[delusion of reference]]
+	2270. [[demand characteristics]]
 	
-	2271. deme
-	2272. dementia
+	2271. [[deme]]
+	2272. [[dementia]]
 	2273. dementia infantalis
+		1. $n$. Another name for childhood disintegrative disorder, introduced in 1908 by the Austrian neuropsychiatrist Theodor O. Heller (1869-1938). \[From dementia + Latin infans speechless, from in-without + fans speaking, from fari to speak + -alis of or relating to]
 	2274. dementia praecox
+		1. $n$. An obsolete name for schizophrenia. \[From Latin dementia insanity + praecox premature]
 	2275. Demerol
-	2276. demography
-	2277. dendrite
-	2278. dendrodendritic
-	2279. dendrogram
+		1. $n$. A proprietary name for pethidine (meperidine). \[Trademark]
+	2276. [[demography]]
+	2277. [[dendrite]]
+	2278. [[dendrodendritic]]
+	2279. [[dendrogram]]
 	2280. dendron
+		1. n. Another name for a dendrite.
 	
-	2281. denial
-	2282. denotation
+	2281. [[denial]]
+	2282. [[denotation]]
 	2283. density, tonal
-	2284. dental
-	2285. dentate gyrus
-	2286. dentate nucleus
-	2287. denying the antecedent
-	2288. denying the consequent
-	2289. deontic
-	2290. deontic logic
+		1. See tonal density.
+	2284. [[dental]]
+	2285. [[dentate gyrus]]
+	2286. [[dentate nucleus]]
+	2287. [[denying the antecedent]]
+	2288. [[denying the consequent]]
+	2289. [[deontic]]
+	2290. [[deontic logic]]
 	
-	2291. deontic reasoning
-	2292. deontology
-	2293. 2-deoxyglucose
+	2291. [[deontic reasoning]]
+	2292. [[deontology]]
+	2293. [[2-deoxyglucose]]
 	2294. deoxyribonucleic acid
-	2295. deoxyribose
+		1. See DNA
+	2295. [[deoxyribose]]
 	2296. dependability
-	2297. dependence
-	2298. dependent personality disorder
-	2299. dependent variable
-	2300. depersonalization
+		1. $n$. Another name for conscientiousness.
+	2297. [[dependence]]
+	2298. [[dependent personality disorder]]
+	2299. [[dependent variable]]
+	2300. [[depersonalization]]
 	
-	2301. depersonalization/derealization disorder
-	2302. depersonalization disorder
-	2303. depolarization
-	2304. deprenyl
-	2305. depressant drug
-	2306. depressed mood
-	2307. depression
+	2301. [[depersonalization-derealization disorder]]
+	2302. [[depersonalization disorder]]
+	2303. [[depolarization]]
+	2304. [[deprenyl]]
+	2305. [[depressant drug]]
+	2306. [[depressed mood]]
+	2307. [[depression]]
 	2308. depression, anaclitic
-	2309. depression scale
-	2310. depressive disorders
+		1. See anaclitic depression.
+	2309. [[depression scale]]
+	2310. [[depressive disorders]]
 	
-	2311. depressive episode
+	2311. [[depressive episode]]
 	2312. depressive neurosis
-	2313. depressive position
-	2314. depressive realism
+		1. n. Another name for dysthymic disorder
+	2313. [[depressive position]]
+	2314. [[depressive realism]]
 	2315. deprivation, maternal
-	2316. depth cue
+		1. See maternal deprivation.
+	2316. [[depth cue]]
 	2317. depth from motion
-	2318. depth interview
-	2319. depth of field
-	2320. depth of processing
+		1. $n$. Another name for structure from motion (SFM).
+	2318. [[depth interview]]
+	2319. [[depth of field]]
+	2320. [[depth of processing]]
 	
-	2321. depth perception
-	2322. depth psychology
+	2321. [[depth perception]]
+	2322. [[depth psychology]]
 	2323. derailment
-	2324. derealization
-	2325. dereism
-	2326. derived score
+		1. See cognitive derailment.
+	2324. [[derealization]]
+	2325. [[dereism]]
+	2326. [[derived score]]
 	2327. dermal sense
-	2328. dermis
-	2329. dermo-optical perception
-	2330. descending reticular formation
+		1. $n$. Another name for a cutaneous sense. \[From Greek derma skin]
+	2328. [[dermis]]
+	2329. [[dermo-optical perception]]
+	2330. [[descending reticular formation]]
 	
-	2331. descriptive research
-	2332. descriptive statistics
+	2331. [[descriptive research]]
+	2332. [[descriptive statistics]]
 	2333. descriptive theory
+		1. See normative (1).
 	2334. desensitization
-	2335. designer drug
-	2336. desipramine
-	2337. destructive instinct
-	2338. destrudo
-	2339. desynchronized EEG
+		1. See SYSTEMATIC DESENSITIZATION.
+	2335. [[designer drug]]
+	2336. [[desipramine]]
+	2337. [[destructive instinct]]
+	2338. [[destrudo]]
+	2339. [[desynchronized EEG]]
 	2340. desynchronized sleep
+		1. $n$. Another name for REM sleep. D sleep abbrev. \[So called because it is characterized by desynchronized EEG patterns]
 	
 	2341. desynchronized sleep rhythm
-	2342. detection task
-	2343. determinant
+		1. n. Another name for circadian rhythm sleep-wake disorders
+	2342. [[detection task]]
+	2343. [[determinant]]
 	2344. determination, coefficient of
-	2345. determiner
+		1. See COEFFICIENT OF DETERMINATION.
+	2345. [[determiner]]
 	2346. determinism, psychic
-	2347. deterministic
-	2348. detour problem
-	2349. detoxification
-	2350. detrended normal plot
+		1. See psychical determinism
+	2347. [[deterministic]]
+	2348. [[detour problem]]
+	2349. [[detoxification]]
+	2350. [[detrended normal plot]]
 	
-	2351. detumescence
-	2352. deuteranomaly
-	2353. deuteranopia
-	2354. developmental age
-	2355. developmental coordination disorder
-	2356. developmental crises
+	2351. [[detumescence]]
+	2352. [[deuteranomaly]]
+	2353. [[deuteranopia]]
+	2354. [[developmental age]]
+	2355. [[developmental coordination disorder]]
+	2356. [[developmental crises]]
 	2357. developmental disorder
-	2358. developmental dyslexia
-	2359. developmental psychology
-	2360. developmental quotient
+		1. See NEURODEVELOPMENTAL DISORDERS.
+	2358. [[developmental dyslexia]]
+	2359. [[developmental psychology]]
+	2360. [[developmental quotient]]
 	
-	2361. deviance
-	2362. deviant
-	2363. deviatevb.
-	2364. deviation IQ
-	2365. deviation score
-	2366. devotee
-	2367. dexamethasone
-	2368. dexamethasone suppression test
-	2369. dextroamphetamine
-	2370. DF extremes analysis
+	2361. [[deviance]]
+	2362. [[deviant]]
+	2363. [[deviate]]
+	2364. [[deviation IQ]]
+	2365. [[deviation score]]
+	2366. [[devotee]]
+	2367. [[dexamethasone]]
+	2368. [[dexamethasone suppression test]]
+	2369. [[dextroamphetamine]]
+	2370. [[DF extremes analysis]]
 	
-	2371. dhat
-	2372. DHEAabbrev.
-	2373. diabetes
-	2374. diagnosis
+	2371. [[dhat]]
+	2372. [[DHEA]]
+	2373. [[diabetes]]
+	2374. [[diagnosis]]
 	2375. Diagnostic and Statistical Manual of Mental Disorders
-	2376. diagnostic checking
-	2377. dialect
-	2378. dialectical behaviour therapy
-	2379. dialectical montage
-	2380. dialinguistics
+		1. See DSM in the main body of the dictionary.
+	2376. [[diagnostic checking]]
+	2377. [[dialect]]
+	2378. [[dialectical behavior therapy]]
+	2379. [[dialectical montage]]
+	2380. [[dialinguistics]]
 	
-	2381. dialysis
-	2382. Diana complex
-	2383. diary study
-	2384. diaschisis
-	2385. diathesis
-	2386. diathesis-stress hypothesis
-	2387. diatonic
-	2388. diazepam
-	2389. dibenzodiazepine
-	2390. dichhaptic technique
+	2381. [[dialysis]]
+	2382. [[Diana complex]]
+	2383. [[diary study]]
+	2384. [[diaschisis]]
+	2385. [[diathesis]]
+	2386. [[diathesis-stress hypothesis]]
+	2387. [[diatonic]]
+	2388. [[diazepam]]
+	2389. [[dibenzodiazepine]]
+	2390. [[dichhaptic technique]]
 	
-	2391. dichoptic
-	2392. dichoptic masking
-	2393. dichotic
+	2391. [[dichoptic]]
+	2392. [[dichoptic masking]]
+	2393. [[dichotic]]
 	2394. dichromacy
+		1. See anomalous dichromacy. Also called dichromasy, dichromatism, dichromatopsia, dichromopsia.
 	2395. dictyosome
-	2396. diencephalic amnesia
-	2397. diencephalon
+		1. $n$. Another name for a Golgi body. See Golgi apparatus. \[From Greek diktyon a net + soma a body, alluding to the common appearance of a Golgi body when stained]
+	2396. [[diencephalic amnesia]]
+	2397. [[diencephalon]]
 	2398. diethylstilboestrol
+		1. $n$. Another name for stilboestrol. US diethylstilbestrol. \[From Greek dis twice + English eth(er), from Greek aithein to burn + English stilboestrol]
 	2399. difference limen
-	2400. difference threshold
+		1. $n$. Another name for a difference threshold or just noticeable difference. DL abbrev. \[From Latin limen a threshold]
+	2400. [[difference threshold]]
 	
-	2401. difference tone
-	2402. differential acuity
-	2403. Differential Aptitude Tests
-	2404. differential diagnosis
-	2405. differential inversion effect
-	2406. differential reinforcement
-	2407. differential reinforcement of high response rates
-	2408. differential reinforcement of low response rates
-	2409. differential reinforcement of other responses
-	2410. differential reinforcement of paced responses
+	2401. [[difference tone]]
+	2402. [[differential acuity]]
+	2403. [[Differential Aptitude Tests]]
+	2404. [[differential diagnosis]]
+	2405. [[differential inversion effect]]
+	2406. [[differential reinforcement]]
+	2407. [[differential reinforcement of high response rates]]
+	2408. [[differential reinforcement of low response rates]]
+	2409. [[differential reinforcement of other responses]]
+	2410. [[differential reinforcement of paced responses]]
 	
 	2411. difficulty effect
-	2412. diffraction grating
-	2413. diffuse fibres
-	2414. diffusion of responsibility
+		1. n. Another name for the hard-easy effect.
+	2412. [[diffraction grating]]
+	2413. [[diffuse fibres]]
+	2414. [[diffusion of responsibility]]
 	2415. digestive tract
-	2416. digit-symbol test
-	2417. digital
-	2418. digitalis
-	2419. digital signature
-	2420. digit ratio
+		1. n. Another name for the alimentary canal.
+	2416. [[digit-symbol test]]
+	2417. [[digital]]
+	2418. [[digitalis]]
+	2419. [[digital signature]]
+	2420. [[digit ratio]]
 	
-	2421. digit span
-	2422. digram
-	2423. digraph
-	2424. dihybrid
-	2425. dilator pupillae
-	2426. dimension-abstracted oddity
+	2421. [[digit span]]
+	2422. [[digram]]
+	2423. [[digraph]]
+	2424. [[dihybrid]]
+	2425. [[dilator pupillae]]
+	2426. [[dimension-abstracted oddity]]
 	2427. dimethyltryptamine
-	2428. dimorphic
+		1. $n$. The chemical name of DMT. \[From Greek dis twice + methyl the alkyl radical $\mathrm{CH}_{3}$ derived from methane by removal of one hydrogen atom, from Greek methy wine + hyle wood + English tryptamine]
+	2428. [[dimorphic]]
 	2429. ding-dong theory
-	2430. Dionysian
+		1. $n$. A dismissive name for the onomatopoeic theory of the origins of language. Also called the bow-wow theory. \[From the sound of bells ringing]
+	2430. [[Dionysian]]
 	
-	2431. dioptre
+	2431. [[dioptre]]
 	2432. dioptric aberration
-	2433. diotic
-	2434. diphthong
-	2435. diplacusis
-	2436. diplaesthesia
-	2437. diplegia
-	2438. diploid
-	2439. diplopia
-	2440. dipsomania
+		1. n. Another name for aberration (3)
+	2433. [[diotic]]
+	2434. [[diphthong]]
+	2435. [[diplacusis]]
+	2436. [[diplaesthesia]]
+	2437. [[diplegia]]
+	2438. [[diploid]]
+	2439. [[diplopia]]
+	2440. [[dipsomania]]
 	
 	2441. Dircks's ghost
-	2442. direct analysis
-	2443. directed association
-	2444. directed thinking
-	2445. direction-sensitive neuron
-	2446. directional selection
-	2447. directional test
-	2448. directory plus one sampling
-	2449. direct perception
-	2450. direct scaling
+		1. $n$. A fairer name for what is usually called Pepper's ghost. \[Named after the retired English civil engineer and patent agent Henry Dircks (1806-73) who invented it in 1862]
+	2442. [[direct analysis]]
+	2443. [[directed association]]
+	2444. [[directed thinking]]
+	2445. [[direction-sensitive neuron]]
+	2446. [[directional selection]]
+	2447. [[directional test]]
+	2448. [[directory plus one sampling]]
+	2449. [[direct perception]]
+	2450. [[direct scaling]]
 	
-	2451. dirhinic
+	2451. [[dirhinic]]
 	2452. disabling agent
-	2453. disassortative mating
-	2454. disaster counselling
+		1. See incapacitant
+	2453. [[disassortative mating]]
+	2454. [[disaster counselling]]
 	2455. disavowal
-	2456. disconnection syndrome
-	2457. discontinuity theory
-	2458. discordance
-	2459. discourse
-	2460. discourse analysis
+		1. $n$. In psychoanalysis, another name for denial.
+	2456. [[disconnection syndrome]]
+	2457. [[discontinuity theory]]
+	2458. [[discordance]]
+	2459. [[discourse]]
+	2460. [[discourse analysis]]
 	
-	2461. discrepancy effects
-	2462. discrete processing
-	2463. discrete variable
-	2464. discriminability
+	2461. [[discrepancy effects]]
+	2462. [[discrete processing]]
+	2463. [[discrete variable]]
+	2464. [[discriminability]]
 	2465. discriminability effect
-	2466. discriminanda
-	2467. discriminant function analysis
-	2468. discriminant validity
-	2469. discriminating power
-	2470. discrimination
+		1. n. Another name for the hard-easy effect
+	2466. [[discriminanda]]
+	2467. [[discriminant function analysis]]
+	2468. [[discriminant validity]]
+	2469. [[discriminating power]]
+	2470. [[discrimination]]
 	
-	2471. discrimination function
-	2472. discrimination learning
-	2473. discrimination reaction time
+	2471. [[discrimination function]]
+	2472. [[discrimination learning]]
+	2473. [[discrimination reaction time]]
 	2474. discrimination threshold
-	2475. discriminative response
-	2476. dishabituation
-	2477. disinhibited social engagement disorder
-	2478. disinhibition
+		1. n. Another name for the difference threshold
+	2475. [[discriminative response]]
+	2476. [[dishabituation]]
+	2477. [[disinhibited social engagement disorder]]
+	2478. [[disinhibition]]
 	2479. disintegrative disorder
-	2480. disjunction
+		1. n. An alternative name for childhood disintegrative disorder.
+	2480. [[disjunction]]
 	
-	2481. disjunction search
-	2482. disjunctive concept
-	2483. disjunctive eye movement
-	2484. dis legomenon
+	2481. [[disjunction search]]
+	2482. [[disjunctive concept]]
+	2483. [[disjunctive eye movement]]
+	2484. [[dis legomenon]]
 	2485. disorder of excessive somnolence
+		1. $n$. Another name for hypersomnolence disorder. DOES abbrev.
 	2486. disorder of initiating and maintaining sleep
+		1. n. Any of the dyssomnias. DIMS abbrev.
 	2487. disorder of written expression
+		1. See specific learning disorder.
 	2488. disorganized crime
-	2489. disorganized schizophrenia
+		1. See organized crime (1).
+	2489. [[disorganized schizophrenia]]
 	2490. disorganized speech
+		1. $n$. A term used in DSM-IV for what was later called disorganized thinking.
 	
-	2491. disorganized thinking
-	2492. disorientation
-	2493. disparate retinal points
+	2491. [[disorganized thinking]]
+	2492. [[disorientation]]
+	2493. [[disparate retinal points]]
 	2494. disparity, binocular
+		1. See binocular disparity
 	2495. disparity, retinal
-	2496. disparity-selective cell
-	2497. dispersion
-	2498. displaced aggression
-	2499. displacement
-	2500. displacement activity
+		1. n. Another name for binocular disparity.
+	2496. [[disparity-selective cell]]
+	2497. [[dispersion]]
+	2498. [[displaced aggression]]
+	2499. [[displacement]]
+	2500. [[displacement activity]]
 	
-	2501. display
-	2502. display rule
+	2501. [[display]]
+	2502. [[display rule]]
 	2503. dispositionist bias
-	2504. disruptive, impulse-control, and conduct disorders
-	2505. disruptive behaviour disorders
-	2506. disruptive mood dysregulation disorder
-	2507. disruptive selection
-	2508. dissocial personality disorder
-	2509. dissociation
-	2510. dissociation theory
+		1. $n$. Another name for the fundamental attribution error, considered more apt by some social psychologists.
+	2504. [[disruptive, impulse-control, and conduct disorders]]
+	2505. disruptive behavior disorders
+		1. $n$. A generic name for attention-deficit/hyperactivity disorder, conduct disorder, and oppositional defiant disorder. US disruptive behavior disorders.
+	2506. [[disruptive mood dysregulation disorder]]
+	2507. [[disruptive selection]]
+	2508. [[dissocial personality disorder]]
+	2509. [[dissociation]]
+	2510. [[dissociation theory]]
 	
-	2511. dissociative amnesia
-	2512. dissociative convulsions
-	2513. dissociative disorders
-	2514. dissociative fugue
-	2515. dissociative identity disorder
-	2516. dissociative movement disorders
-	2517. dissociative stupor
-	2518. dissociative trance disorder
+	2511. [[dissociative amnesia]]
+	2512. [[dissociative convulsions]]
+	2513. [[dissociative disorders]]
+	2514. [[dissociative fugue]]
+	2515. [[dissociative identity disorder]]
+	2516. [[dissociative movement disorders]]
+	2517. [[dissociative stupor]]
+	2518. [[dissociative trance disorder]]
 	2519. dissonance theory
-	2520. distal
+		1. n. Another name for cognitive dissonance theory.
+	2520. [[distal]]
 	
 	2521. distal criterion
-	2522. distal stimulus
-	2523. distance receptor
+		1. n. Another name for an ecological criterion.
+	2522. [[distal stimulus]]
+	2523. [[distance receptor]]
 	2524. distance sense
-	2525. distinctive feature
+		1. n. Another name for a far sense.
+	2525. [[distinctive feature]]
 	2526. distorted-room illusion
-	2527. distractibility
-	2528. distractor
+		1. n. Another name for the Ames room.
+	2527. [[distractibility]]
+	2528. [[distractor]]
 	2529. distressed personality type
-	2530. distress relief quotient
+		1. See type D
+	2530. [[distress relief quotient]]
 	
-	2531. distributed cognition
-	2532. distributed network model
-	2533. distributed practice
+	2531. [[distributed cognition]]
+	2532. [[distributed network model]]
+	2533. [[distributed practice]]
 	2534. distributed representation
+		1. n. Another name for a distributed network model.
 	2535. distribution, probability
-	2536. distribution-free test
-	2537. disulfiram
-	2538. diurnal
+		1. See probability distribution
+	2536. [[distribution-free test]]
+	2537. [[disulfiram]]
+	2538. [[diurnal]]
 	2539. diurnal rhythm
-	2540. divergence
+		1. n. Another name for a circadian rhythm. See also BIOLOGICAL CLOCK, CHRONOBIOLOGY, ŽEITGEBER.
+	2540. [[divergence]]
 	
-	2541. divergent thinking
-	2542. divided visual field
-	2543. divisive hierarchical clustering
-	2544. dizygotic
-	2545. dizygotic twins
-	2546. 3-D model description
-	2547. DMTabbrev.
-	2548. DNAabbrev.
-	2549. DNA cloning
+	2541. [[divergent thinking]]
+	2542. [[divided visual field]]
+	2543. [[divisive hierarchical clustering]]
+	2544. [[dizygotic]]
+	2545. [[dizygotic twins]]
+	2546. [[3-D model description]]
+	2547. [[DMT]]
+	2548. [[DNA]]
+	2549. [[DNA cloning]]
 	2550. DNA fingerprinting
+		1. n. Another name for genetic fingerprinting
 	
-	2551. DNA hybridization
-	2552. DNA ligase
-	2553. DNA polymerase
+	2551. [[DNA hybridization]]
+	2552. [[DNA ligase]]
+	2553. [[DNA polymerase]]
 	2554. DNA profiling
-	2555. DNA recombination
-	2556. DNA replication
-	2557. DNA sequence
-	2558. DNA splicing
-	2559. dodo bird conjecture
-	2560. doing gender
+		1. n. Another name for genetic fingerprinting.
+	2555. [[DNA recombination]]
+	2556. [[DNA replication]]
+	2557. [[DNA sequence]]
+	2558. [[DNA splicing]]
+	2559. [[dodo bird conjecture]]
+	2560. [[doing gender]]
 	
-	2561. Dollar Auction game
-	2562. Dollo's law
+	2561. [[Dollar Auction game]]
+	2562. [[Dollo's law]]
 	2563. dolls
+		1. n. A street name for barbiturate drugs in general
 	2564. Dolophine
-	2565. dolorimeter
-	2566. dolorology
-	2567. domain-referenced test
-	2568. domain sampling
-	2569. domains of processing theory
+		1. $n$. A proprietary name for the narcotic drug methadone. \[Trademark]
+	2565. [[dolorimeter]]
+	2566. [[dolorology]]
+	2567. [[domain-referenced test]]
+	2568. [[domain sampling]]
+	2569. [[domains of processing theory]]
 	2570. dominance
+		1. See DOMINANCE (GENETIC), DOMINANT ALTERNATIVE/STRATEGY.
 	
-	2571. dominance (genetic)
+	2571. dominance
+		1. See DOMINANCE (GENETIC), DOMINANT ALTERNATIVE/STRATEGY.
 	2572. dominance, eye
-	2573. dominance hierarchy
-	2574. dominant alternative/strategy
-	2575. dominant gene
-	2576. dominator
-	2577. Donders' law
-	2578. Donders' method
+		1. See eye dominance
+	2573. [[dominance hierarchy]]
+	2574. [[dominant alternative-strategy]]
+	2575. [[dominant gene]]
+	2576. [[dominator]]
+	2577. [[Donders' law]]
+	2578. [[Donders' method]]
 	2579. Don Juanism
-	2580. door-in-the-face technique
+		1. n. A non-technical name for satyriasis. \[Named after the legendary Spanish nobleman Don Juan, noted for his insatiable sexual appetite]
+	2580. [[door-in-the-face technique]]
 	
-	2581. dopa
-	2582. dopamine
-	2583. dopamine antagonist
-	2584. dopaminergic
-	2585. dopaminomimetic
-	2586. dope
-	2587. Doppelgänger
-	2588. Doppler effect
-	2589. Dora
+	2581. [[dopa]]
+	2582. [[dopamine]]
+	2583. [[dopamine antagonist]]
+	2584. [[dopaminergic]]
+	2585. [[dopaminomimetic]]
+	2586. [[dope]]
+	2587. [[Doppelgänger]]
+	2588. [[Doppler effect]]
+	2589. [[Dora]]
 	2590. Doriden
-	
-	2591. dorsal
+		1. $n$. A proprietary name for the depressant drug glutethimide. \[Trademark]
+
+	2591. [[dorsal]]
 	2592. dorsal attention network
-	2593. dorsal column
-	2594. dorsal root
-	2595. dorsal root ganglion
-	2596. dorsolateral prefrontal cortex
-	2597. dorsomedial thalamus
-	2598. dose-response curve
+		1. n. Another name for the task-positive network. DAN abbrev. 
+	2593. [[dorsal column]]
+	2594. [[dorsal root]]
+	2595. [[dorsal root ganglion]]
+	2596. [[dorsolateral prefrontal cortex]]
+	2597. [[dorsomedial thalamus]]
+	2598. [[dose-response curve]]
 	2599. Dostoevsky syndrome
-	2600. double-aspect theory
+		1. $n$. Another name for interictal syndrome. \[Named after the Russian novelist Fyodor (Mikhailovich) Dostoevsky (1821-81) who is believed to have manifested the syndrome]
+	2600. [[double-aspect theory]]
 	
-	2601. double-blind study
-	2602. double-opponent receptive field
-	2603. double bind
-	2604. double helix
-	2605. double recessive
+	2601. [[double-blind study]]
+	2602. [[double-opponent receptive field]]
+	2603. [[double bind]]
+	2604. [[double helix]]
+	2605. [[double recessive]]
 	2606. double vision
-	2607. Dover's powder
+		1. n. A non-technical name for diplopia
+	2607. [[Dover's powder]]
 	2608. doves
-	2609. Down's syndrome
+		1. doves $n$. A branded version of the stimulant designer drug ecstasy (2). \[Identified by a symbol of a dove]
+	2609. [[Down's syndrome]]
 	2610. downers
+		1. $n$. A common street name for central nervous system depressant drugs in general. Compare UPPERS.
 	
-	2611. dprime
+	2611. [[d prime]]
 	2612. Dracula hormone
-	2613. drama therapy
-	2614. drapetomania
-	2615. Dravet syndrome
-	2616. Draw-a-Man test
-	2617. Draw-a-Person test
-	2618. dream
-	2619. dream analysis
+		1. $n$. Another name for melatonin. \[Named after the exclusively nocturnal vampire in Bram Stoker's novel Dracula (1897)]
+	2613. [[drama therapy]]
+	2614. [[drapetomania]]
+	2615. [[Dravet syndrome]]
+	2616. [[Draw-a-Man test]]
+	2617. [[Draw-a-Person test]]
+	2618. [[dream]]
+	2619. [[dream analysis]]
 	2620. dream interpretation
+		1. See dream analysis
 	
-	2621. dreamwork
+	2621. [[dreamwork]]
 	2622. dressing apraxia
-	2623. drink-driving
-	2624. drive
-	2625. drive strength
-	2626. drive theory of social facilitation
-	2627. droperidol
-	2628. drosophila
-	2629. drostanalone
+		1. See apraxia.
+	2623. [[drink-driving]]
+	2624. [[drive]]
+	2625. [[drive strength]]
+	2626. [[drive theory of social facilitation]]
+	2627. [[droperidol]]
+	2628. [[drosophila]]
+	2629. [[drostanalone]]
 	2630. drowning
+		1. See instinctive drowning response.
 	
 	2631. Dr Strangelove syndrome
-	2632. drug
-	2633. drug-dependent memory
+		1. $n$. Another name for the anarchic hand. \[Named after the eponymous Doctor Strangelove in Stanley Kubrick's 1964 film, Dr Strangelove or: How I Learned to Stop Worrying and Love the Bomb, who struggles continually to prevent his right hand from giving Nazi salutes]
+	2632. [[drug]]
+	2633. [[drug-dependent memory]]
 	2634. drug abuse
-	2635. drug action
+		1. $n$. Another name for substance abuse. Preferred usage drug misuse. See also Addiction, DEPENDENCE (2), SUBSTANCE DEPENDENCE, SUBSTANCE-INDUCED DISORDERS, SUBSTANCE-RELATED AND ADDICTIVE DISORDERS, SUBSTANCE USE DISORDERS.
+	2635. [[drug action]]
 	2636. drug addiction
-	2637. drug effect
-	2638. 2½-D sketch
-	2639. DSMabbrev.
-	2640. dual-code theory
+		1. See addiction
+	2637. [[drug effect]]
+	2638. [[2 and a half-D sketch]]
+	2639. [[DSM]]
+	2640. [[dual-code theory]]
 	
-	2641. dual-process model
-	2642. dual-task performance
-	2643. dualism
-	2644. dual personality
-	2645. Duchenne muscular dystrophy
-	2646. Duchenne smile
-	2647. duck-rabbit
+	2641. [[dual-process model]]
+	2642. [[dual-task performance]]
+	2643. [[dualism]]
+	2644. [[dual personality]]
+	2645. [[Duchenne muscular dystrophy]]
+	2646. [[Duchenne smile]]
+	2647. [[duck-rabbit]]
 	2648. ductless gland
-	2649. duetting
-	2650. dulosis
+		1. n. Another name for an endocrine gland
+	2649. [[duetting]]
+	2650. [[dulosis]]
 	
-	2651. Duncan's multiple range test
-	2652. duodenum
-	2653. duplexity function
-	2654. duplexity theory
+	2651. [[Duncan's multiple range test]]
+	2652. [[duodenum]]
+	2653. [[duplexity function]]
+	2654. [[duplexity theory]]
 	2655. duplicity function
+		1. n. Another name for the duplexity function.
 	2656. duplicity theory
-	2657. dura mater
-	2658. duration estimation paradox
-	2659. Dutch book
-	2660. dyad
+		1. n. Another name for the duplexity function
+	2657. [[dura mater]]
+	2658. [[duration estimation paradox]]
+	2659. [[Dutch book]]
+	2660. [[dyad]]
 	
-	2661. dynamic
-	2662. dynamic aphasia
-	2663. dynamic assessment
-	2664. dynamic labyrinth
-	2665. dynamic memory span
-	2666. dynamic psychology
-	2667. dynamic testing
-	2668. dynamic touch
-	2669. dynamic visual acuity
-	2670. dynamometer
+	2661. [[dynamic]]
+	2662. [[dynamic aphasia]]
+	2663. [[dynamic assessment]]
+	2664. [[dynamic labyrinth]]
+	2665. [[dynamic memory span]]
+	2666. [[dynamic psychology]]
+	2667. [[dynamic testing]]
+	2668. [[dynamic touch]]
+	2669. [[dynamic visual acuity]]
+	2670. [[dynamometer]]
 	
-	2671. dynorphin
-	2672. dysacusia
-	2673. dysaesthesia
-	2674. dysaesthesia aethiopis
-	2675. dysarthria
-	2676. dysbasia
-	2677. dysbulia
-	2678. dyscalculia
-	2679. dyschiria
-	2680. dyschromatopsia
+	2671. [[dynorphin]]
+	2672. [[dysacusia]]
+	2673. [[dysaesthesia]]
+	2674. [[dysaesthesia aethiopis]]
+	2675. [[dysarthria]]
+	2676. [[dysbasia]]
+	2677. [[dysbulia]]
+	2678. [[dyscalculia]]
+	2679. [[dyschiria]]
+	2680. [[dyschromatopsia]]
 	
-	2681. dysdiadochokinesia
+	2681. [[dysdiadochokinesia]]
 	2682. dysesthesia
-	2683. dysexecutive syndrome
-	2684. dysfunction
-	2685. dysgenic
-	2686. dysgeusia
-	2687. dysgraphia
-	2688. dyskinesia
+		1. See DYSAESTHESIA.
+	2683. [[dysexecutive syndrome]]
+	2684. [[dysfunction]]
+	2685. [[dysgenic]]
+	2686. [[dysgeusia]]
+	2687. [[dysgraphia]]
+	2688. [[dyskinesia]]
 	2689. dyskinesia, tardive
-	2690. dyslalia
+		1. See tardive dyskinesia
+	2690. [[dyslalia]]
 	
-	2691. dyslexia
-	2692. dysmelodia
-	2693. dysmenorrhoea
-	2694. dysmetria
-	2695. dysmnesia
-	2696. dysmorphophobia
-	2697. dysmusia
-	2698. dysorexia
-	2699. dysosmia
-	2700. dyspareunia
+	2691. [[dyslexia]]
+	2692. [[dysmelodia]]
+	2693. [[dysmenorrhoea]]
+	2694. [[dysmetria]]
+	2695. [[dysmnesia]]
+	2696. [[dysmorphophobia]]
+	2697. [[dysmusia]]
+	2698. [[dysorexia]]
+	2699. [[dysosmia]]
+	2700. [[dyspareunia]]
 	
-	2701. dysphagia
+	2701. [[dysphagia]]
 	2702. dysphasia
-	2703. dysphemia
-	2704. dysphemism
-	2705. dysphonia
-	2706. dysphoria
-	2707. dysphoric mood
-	2708. dysplastic body type
-	2709. dyspnoea
-	2710. dyspraxia
+		1. n. Another name for aphasia. \[From Greek dys- bad or abnormal + pheme speech + -ia indicating a condition or quality]
+	2703. [[dysphemia]]
+	2704. [[dysphemism]]
+	2705. [[dysphonia]]
+	2706. [[dysphoria]]
+	2707. [[dysphoric mood]]
+	2708. [[dysplastic body type]]
+	2709. [[dyspnoea]]
+	2710. [[dyspraxia]]
 	
-	2711. dysprosody
+	2711. [[dysprosody]]
 	2712. dyssocial personality
-	2713. dyssomnias
-	2714. dysstasia
-	2715. dyssymbiosis
-	2716. dyssynergia
-	2717. dystaxia
-	2718. dysthymia
-	2719. dysthymic disorder
-	2720. dystonia
+		1. See DISSOCIAL PERSONALITY DISORDER.
+	2713. [[dyssomnias]]
+	2714. [[dysstasia]]
+	2715. [[dyssymbiosis]]
+	2716. [[dyssynergia]]
+	2717. [[dystaxia]]
+	2718. [[dysthymia]]
+	2719. [[dysthymic disorder]]
+	2720. [[dystonia]]
 	
-	2721. dystopia
-	2722. dystrophy
-	2723. dysuria
+	2721. [[dystopia]]
+	2722. [[dystrophy]]
+	2723. [[dysuria]]
 	2724. e-counselling
-	2725. e-therapy
-	2726. ear
-	2727. ear-minded
+		1. See E-therapy.
+	2725. [[e-therapy]]
+	2726. [[ear]]
+	2727. [[ear-minded]]
 	2728. eardrum
-	2729. early oral phase
-	2730. eating disorders
+		1. n. A non-technical name for the tympanic membrane.
+	2729. [[early oral phase]]
+	2730. [[eating disorders]]
 	
-	2731. Ebbinghaus curve
-	2732. Ebbinghaus illusion
+	2731. [[Ebbinghaus curve]]
+	2732. [[Ebbinghaus illusion]]
 	2733. Ebonics
-	2734. eccentric
+		1. n. Another name for Black English Vernacular. \[A blend of ebony, from Latin ebenus ebony, from Greek ebenos ebony, + phonics the science of spoken sounds, from Greek phonikos of or relating to speech, from phone a voice or sound + -ikos of, relating to, or resembling]
+	2734. [[eccentric]]
 	2735. eccentric chessboard figure
-	2736. eccentric projection
-	2737. echoic store
-	2738. echolalia
-	2739. echolocation
-	2740. echopraxia
+		1. $n$. Another name for the Münsterberg illusion. \[From German verschrobene Schachbrettfigur, Münsterberg's own name for it]
+	2736. [[eccentric projection]]
+	2737. [[echoic store]]
+	2738. [[echolalia]]
+	2739. [[echolocation]]
+	2740. [[echopraxia]]
 	
 	2741. eclipse scotoma
-	2742. ecmnesia
-	2743. ecological criterion
-	2744. ecological fallacy
-	2745. ecological niche
-	2746. ecological validity
-	2747. ecology
-	2748. economic
-	2749. ecosystem
-	2750. écouteur
+		1. See scotoma
+	2742. [[ecmnesia]]
+	2743. [[ecological criterion]]
+	2744. [[ecological fallacy]]
+	2745. [[ecological niche]]
+	2746. [[ecological validity]]
+	2747. [[ecology]]
+	2748. [[economic]]
+	2749. [[ecosystem]]
+	2750. [[écouteur]]
 	
-	2751. ecphoric
-	2752. ecstasy
-	2753. ectoderm
-	2754. ectomorph
-	2755. ectopic
-	2756. ectopic pregnancy
-	2757. ectoplasm
-	2758. ectotherm
-	2759. edge detector
+	2751. [[ecphoric]]
+	2752. [[ecstasy]]
+	2753. [[ectoderm]]
+	2754. [[ectomorph]]
+	2755. [[ectopic]]
+	2756. [[ectopic pregnancy]]
+	2757. [[ectoplasm]]
+	2758. [[ectotherm]]
+	2759. [[edge detector]]
 	2760. edge effect
+		1. n. Another name for the serial position effect.
 	
 	2761. educable mentally retarded
-	2762. educationally subnormal
-	2763. educational psychology
-	2764. educational psychotherapy
-	2765. Edwards Personal Preference Schedule
-	2766. EEGabbrev.
+		1. adj. An obsolescent term for an educational category equivalent to mild intellectual disability. EMR abbrev.
+	2762. [[educationally subnormal]]
+	2763. [[educational psychology]]
+	2764. [[educational psychotherapy]]
+	2765. [[Edwards Personal Preference Schedule]]
+	2766. [[EEG]]
 	2767. EEG spindle
-	2768. effective dosage
+		1. n. Another name for a sleep spindle.
+	2768. [[effective dosage]]
 	2769. effective dosage 50
-	2770. effector
+		1. n. Another name for the median effective dosage. See also therapeutic index, therapeutic ratio. Compare lethal dosage, toxic DOSAGE. ED-50 or $\mathbf{E D}_{50}$ abbrev.
+	2770. [[effector]]
 	
-	2771. effect size
-	2772. efferent
-	2773. ego
+	2771. [[effect size]]
+	2772. [[efferent]]
+	2773. [[ego]]
 	2774. ego-alien
-	2775. ego-dystonic
-	2776. ego-dystonic sexual orientation
+		1. adj. A synonym for ego-dystonic.
+	2775. [[ego-dystonic]]
+	2776. [[ego-dystonic sexual orientation]]
 	2777. ego-splitting
-	2778. ego-syntonic
-	2779. egocentre
-	2780. egocentric
+		1. See splitting of the ego
+	2778. [[ego-syntonic]]
+	2779. [[egocentre]]
+	2780. [[egocentric]]
 	
 	2781. egocentric localization
 	2782. egocentrism

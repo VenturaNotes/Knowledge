@@ -7,6 +7,9 @@
 	- Website of the British Deaf Association: includes information on British Sign Language
 - http://www.actiononhearingloss.org.uk/
 	- Website of Action on Hearing Loss (formerly the Royal National Institute for Deaf People)
+## Source[^2]
+- $n$. Complete or partial loss of hearing, congenital or acquired, affecting about 10 per cent of adults and more than 50 per cent of people over 65 years old in the UK, the US, and other advanced industrial countries; divided into conductive deafness, sensorineural deafness, and central auditory processing disorder. Also called hearing impairment or hearing loss, especially when there is some residual hearing. See also AMBLYACUSIA, ANACUSIA, ASONIA, CERUMINOUS DEAFNESS, COCHLEAR IMPLANT, CONVERSION SYMPTOM, CORTICAL DEAFNESS, DECIBEL, HYPACUSIA, OTITIS, OTOSCLEROSIS, OTOTOXIC, PARACUSIA, POSTENCEPHALITIC SYNDROME, PRESBYACUSIS, STENGER TEST, TADOMA METHOD, TELETACTOR, VESTIBULITIS, WORD DEAFNESS. Compare DIPLACUSIS, DYSACUSIA, HYPERACUSIS. deaf adj.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

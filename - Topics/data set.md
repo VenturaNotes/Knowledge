@@ -4,6 +4,9 @@
 - (dataset) (1) A coherent body of data with well-defined selection criteria and internal structure. 
 - (2) Another name for modem. 
 - (3) Another name for file.
+## Source[^2]
+- $n$. A collection of data relevant to a single research problem.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

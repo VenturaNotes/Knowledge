@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A method of critical analysis, associated prominently with the writings of the Algerian-born French philosopher and literary critic Jacques Derrida (1930-2004), in which the meaning of a word or other form of expression is considered to be volatile and unstable and not anchored in the relationship between words and the things that they are supposed to designate, but permanently deferred and always subject to and produced by its difference from other meanings. Deconstruction arose primarily as an attack on structuralism (1), aiming to show inherent contradictions in the rules governing the structure of texts, especially binary oppositions. It suggests that there is no firm or fixed presence that can guarantee or underwrite the meaning of a term. Compare PSYchoanalytic CONSTRUCTION. deconstruct $v b$. To perform deconstruction on a text or other verbal product, especially by questioning the basis of the opposition between speech and writing. This usage, though common in popular discourse, is regarded as spurious by some deconstructionists who believe that there is no verb associated with deconstruction.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

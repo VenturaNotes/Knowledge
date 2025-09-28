@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In behavior genetics, a method for estimating the heritability of a disorder such as dyslexia that is defined qualitatively, people being diagnosed as either having the disorder or not having it, but that depends on an underlying trait that varies quantitatively along a continuum. The method involves testing a random selection of people who have twins, isolating those that have the disorder, then testing the monozygotic and dizygotic twins of those individuals, the assumption being that if the disorder is influenced by genes that also affect variability within the normal range, then the mean scores of the monozygotic and dizygotic twins of the disordered individuals should both be closer to the mean of the disordered group than to the mean of the random group of twins, and the mean of the monozygotic twins should be closer to the mean of the disordered group than should the mean of the dizygotic twins. \[Named after the behavioral geneticists John C. DeFries (born 1934) and David W. Fulker (1937-98) who developed it in the 1990s at the University of Colorado]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - 360-degree feedback, a component of the performance management process, is a holistic review process. Employees receive performance feedback from multiple raters, such as supervisors, direct reports, colleagues, peers, and customers.
+## Source[^2]
+- n. A method of appraising the performance of employees by incorporating confidential evaluations by colleagues or peers and subordinates as well as supervisors or line managers, in contrast to traditional top-down appraisal by supervisors or line managers only. Typically, 360-degree feedback is given in the form of responses to questionnaire items covering behavioral criteria such as problem-solving ability, adaptability, communication skills, team-working, supervisory skills, and administrative skills, each item requiring a rating-scale response, plus a few narrative responses to qualitative questions. In some cases, employees also rate themselves, and gap analysis shows the discrepancy between how they perceive themselves and how others perceive them. Employees tend to prefer 360-degree feedback to traditional top-down appraisal, because it provides them with an idea of how their performance is judged from a variety of perspectives. The term was introduced in 1985 by the US marketing expert Mark R. Edwards (born 1948), Chief Executive Officer of TEAMS International, and from the mid-1990s the approach spread rapidly among leading companies. Also called multi-rater feedback, multi-source feedback, 360-degree assessment, 360-degree review, or upward feedback, although the latter term is misleading. \[So called because an angle of 360 degrees is a complete circle, and the approach incorporates feedback from all directions rather than from only one]
 ## References
 
 [^1]: [[(Home Page) Glossary by Capterra]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
