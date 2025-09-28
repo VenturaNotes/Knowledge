@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - A method of determining the similarity of DNA from different sources. Single strands of DNA from two sources, e.g. different bacterial species, are put together and the extent to which double hybrid strands are formed is estimated. The greater the tendency to form these hybrid molecules, the greater the extent of complementary base sequences, i.e. gene similarity. The method is one way of determining the genetic relationships of species. The same principle applies when using DNA probes to search for particular base sequences in a sample of DNA, e.g. when screening a DNA library for a particular cloned fragment or in DNA microarray technology. The technique of allelespecific oligonucleotide hybridization is used to test the DNA from individuals to determine whether they are carriers of disease-causing alleles. Here a short single strand of DNA is synthesized to have a base sequence complementary to that of the target sequence from the DNA sample. Binding of the probe to the prepared sample DNA establishes the presence of the target sequence. See also COMPARATIVE GENOMIC HYBRIDIZATION.
+## Source[^2]
+- $n$. A technique for determining the similarity of two strands of DNA, or of DNA and RNA, by bringing single strands of each molecule together and examining the degree of double helix formation, which is indicative of corresponding base sequences. It is also used to isolate specific DNA or RNA molecules from a mixture by causing complementary strands to reassociate. The technique is based on the fact that if DNA (or a mixture of DNA and RNA) is heated to the point at which it dissociates into single strands and is then cooled, double helixes reform at regions of base-sequence complementarity. See also annealing (2), HYBRIDIZATION.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

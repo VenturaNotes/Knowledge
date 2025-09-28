@@ -15,8 +15,11 @@ aliases:
 ## Source[^3]
 - (1) (in neuroanatomy) The branching of the terminal axon of a neuron so that it connects with numerous target cells. For example, each horizontal cell in the retina of the eye has a greatly branched axon ending that can transmit signals to many other cells in the retina. 
 - (2) Divergent evolution. See adaptive RADIATION. Compare CONVERGENCE.
+## Source[^4]
+- $n$. The act, process, or condition of separation or of going in different directions, especially ocular divergence, the turning outwards of the eyes in order to fixate an object or image further away than the previous fixation point. See also horopter, VERGENCE. Compare CONVERGENCE. \[From Latin divergere to move apart, from di- apart + vergere to incline]
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

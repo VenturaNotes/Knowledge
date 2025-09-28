@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A projective test developed by the US psychologist Karen Alper Machover (1902-96) and discussed in her book Personality Projection in the Drawing of the Human Figure (1949). The respondent is handed a blank sheet of paper and a pencil and is asked simply to draw a person, then, on a separate sheet, to draw a person of opposite sex to the first, then finally to indicate the age, educational level, occupation, fears, and ambitions of each person drawn. The drawings are interpreted in terms of feature placement (size, body details, positioning, clothing, and so on), the assumptions being that people tend to project acceptable impulses on to the same-sex figure and unacceptable impulses on to the opposite-sex figure, and that various features have special significance: large eyelashes indicate hysteria; prominent eyes or ears indicate suspiciousness; large figures suggest acting out; small figures, lack of facial features, or dejected facial expressions indicate depression; lack of body periphery details indicate suicidal tendencies; dark shading indicates aggressive impulses; lack of physical details suggests psychosis or brain damage; and so on. Also called the Machover Draw-a-Person Test. DAP abbrev.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

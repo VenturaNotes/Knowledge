@@ -19,7 +19,10 @@
 - (1) (in anatomy) A crest, e.g. the crista nasalis (nasal crest). 
 - (2) See SEMICIRCULAR CANALS. 
 - (3) See MITOCHONDRION.
+## Source[^3]
+- $n$. A ridge or crest-like biological structure, especially (a) one of the folds in the inner membrane of a mitochondrion, or (b) the crista acoustica. cristae $p l$. \[From Latin crista a ridge or crest]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

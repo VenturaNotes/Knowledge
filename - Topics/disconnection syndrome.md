@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A term coined in 1965 by the US neurologist Norman Geschwind (1926-84) for a condition in which information transfer between parts of the brain is interrupted or blocked. The term is most often applied to disconnection between the left and right cerebral hemispheres via the corpus callosum, although the hemispheres are also connected through the anterior commissure (interconnecting the olfactory system) and the hippocampal commissure (limbic system). The most common causes of disconnection syndrome are commissurotomy and agenesis of the corpus callosum. In the absence of any other abnormalities, a person with disconnection syndrome appears normal to family and friends, but application of specific tests reveals signs and symptoms of disconnection including left-hand tactile aphasia, objects placed in the left hand, and therefore represented in the right hemisphere, being impossible to name, because language is normally processed only in the left hemisphere. For the same reason, left-sided apraxia is manifested in an inability to respond with the left hand to verbal commands, and there is usually very poor understanding of verbal signals presented to the left ear. Striking manifestations of disconnection syndrome are the alien hand sign and anarchic hand. See also APHASIA, ARCUATE FASCICULUS, SPLIT-BRAIN PREPARATION.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

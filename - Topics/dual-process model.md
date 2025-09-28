@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Any of a number of theories of social information processing that emerged in the 1980s and 1990s to explain social attitudes (1), stereotypes, person perception, memory, and decision making, although the roots of the idea can be traced at least as far back as the Principles of Psychology (1890, p. 451) of the US psychologist William James (1842-1910). According to these theories, two qualitatively different mechanisms of information processing operate in forming judgements, solving problems, or making decisions, the first being a quick and easy processing mode based on effort-conserving heuristics, and the second being a slow and more difficult rule-based processing mode based on effort-consuming systematic reasoning. The first type of process is often unconscious and tends to involve automatic processing, whereas the second is invariably conscious and usually involves controlled processing, and in some domains of application the first is affective and the second cognitive. The most influential dual-process theory is the elaboration likelihood model. Also called dual-process theory . See also belief-bias EFFECT, COGNITIVE ECONOMY, COGNITIVE MISER, HODOLOGICAL SPACE, PRINCIPLE OF leAST EFFORT, SYSTEM 1 THINKING.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

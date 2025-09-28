@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In Kleinian analysis, a modality of object relations occurring after the paranoid-schizoid position, from about the fourth month until the end of the first year of life, and sometimes reappearing during childhood and adulthood, especially during states of mourning and depression. During the depressive position, the infant for the first time recognizes the mother as a whole object, the splitting into good object and bad object is reduced, with both libido and aggressive drives tending to focus on the same instinctual object, resulting in ambivalence, and anxiety is aroused by fear of losing the mother. The concept was introduced in 1934 by the British-based Austrian psychoanalyst Melanie Klein (1882-1960), who explained her preference for the word position to stage or phase in a co-authored book in 1952: 'these groupings of anxieties and defences, although arising first during the earliest stages, are not restricted to them but occur and recur during the first years of childhood and under certain circumstances in later life' (Developments in Psycho-Analysis, p. 236). See also REPARATION, SPLITTING OF THE OBJECT.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

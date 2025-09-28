@@ -54,8 +54,14 @@
 		- tympanum (eardrum)
 		- outer ear
 		- external auditory meatus
+## Source[^4]
+- $n$. The organ of hearing and equilibrium, which in vertebrates is usually divided into the sound-collecting outer ear separated by a tympanic membrane from the sound-transmitting middle ear, separated in turn by a round window and an oval window from the inner ear in which are situated the vestibular system and its semicircular canals containing sensory receptors that govern sensations of balance, orientation, and acceleration, and the cochlea with its auditory organ of Corti (see illustration).
+- ![[Screenshot 2025-09-09 at 12.58.15 AM.png]]
+	- Ear. Main structures of the mammalian ear.
+	- #comment Description found in biology oxford reference source
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

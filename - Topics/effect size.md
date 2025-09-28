@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In statistics, the magnitude of an experimental outcome, represented by a numerical index, the most prominent of which is Cohen's $d$ for the difference between two means. For the differences between $k$ means of equal-sized samples compared by one-way analysis of variance, the usual effect size index $f$ is the standard deviation of the $k$ means divided by the pooled within-population standard deviation, and it is considered small if $f=0.10$, medium if $f=0.25$, and large if $f=0.40$. For correlations, the value of the product-moment correlation coefficient $r$ is its own index of effect size, and it is considered to be small if $r=0.10$, medium if $r=$ 0.30 , and large if $r=0.50$. For the chi-square test, the effect size index $w$ is calculated by dividing the chi-square value by the number of scores and taking the square root, and it is considered small if $w=0.10$, medium if $w=$ 0.30 , and large if $w=0.50$. An effect size index represents the magnitude of an effect, independent of sample size. Effect size measures are often reported alongside the results of significance tests and are widely used in meta-analysis. See also COMMON LANGUAGE EFFECT SIZE STATISTIC. ES abbrev.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
