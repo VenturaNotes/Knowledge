@@ -8,7 +8,10 @@
 - The different forms of epilepsy can be controlled by the use of antiepileptic drugs (see ANTICONVULSANT). Surgical resection of focal epileptogenic lesions in the brain is appropriate in a strictly limited number of cases. See also AURA; POSTICTAL PHASE. -epileptic adj., $n$.
 - https://www.epilepsy.org.uk/
 	- Website of Epilepsy Action: includes practical advice for people living with epilepsy
+## Source[^3]
+- n. A neurological disorder, generally of unknown aetiology though sometimes associated with brain damage, especially to the hippocampus or temporal lobes, characterized by recurrent convulsions, sensory disturbances, absences, or all of these, sometimes preceded by auras (2), often associated with abnormal EEG patterns during and also between attacks. See also AMYGDALOHIPPOCAMPECTOMY, CLONIC CONVULSION, COMMISSUROTOMY, DRAVET SYNDROME, HEMISPHERECTOMY, IDIOPATHIC EPILEPSY, JACKSONIAN EPILEPSY, MAJOR EPILEPSY, MINOR EPILEPSY, PHOSPHENE, PHOTOSENSITIVE EPILEPSY, SCOTOMA, STATUS EPILEPTICUS, TEMPORAL LOBE EPILEPSY, TONIC-CLONIC, TONIC CONVULSION. \[From Greek epi on + lepsis a seizure, from lambanein to seize]
 ## References
 
 [^1]: https://www.google.com/search?q=what+area+of+the+brain+is+affected+by+someone+with+a+seizure&oq=what+area+of+the+brain+is+affected+by+someone+with+a+seizure&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigAdIBCDc0MzdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

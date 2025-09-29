@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The apparent increase in the size of a visual afterimage when viewed against a relatively nearby surface and then against a more distant surface. Formally, the law asserts that $h / H=d / D$, where $h$ is the linear size (height, width, or diameter) of the object, $H$ is the apparent linear size of its image, $d$ is the object's distance from the observer, and $D$ is the distance between the observer and the surface on which the afterimage is perceived. The relation is one of proportionality, a doubling of distance producing a doubling in apparent size, because it follows from the law that $H=h D / d$, and the explanation lies in the fact that the visual angle remains constant but the apparent distance increases, which would normally indicate an increase in size (see visual angle). The law can be demonstrated by staring at a brightly lit image with a steady gaze for a minute and then shifting one's gaze first to a blank sheet of paper and then to a distant wall: the afterimage will appear to grow much larger. See also CORRIDOR Illusion. \[Named after the Swiss ophthalmologist and psychologist Emil Emmert (1844-1911) who formulated it in 1881, although it had been discovered more than two centuries earlier by the Italian physicist Benedetto Castelli $(1578-1643)]$
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

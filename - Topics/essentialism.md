@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The doctrine propounded by the Greek philosophers Plato (?427-?347 вс) and Aristotle (384-322 BC), and developed in the modern era by the German philosopher Edmund (Gustav Albert) Husserl (1859-1938) and others, that any concept or thing is defined by certain attributes (essences) that it necessarily possesses. According to some versions, these necessary attributes are logically prior to particular instances of concepts or things, and classifications can be made only according to the underlying essences. The componential theory is a typical example of essentialism. Methodological essentialism asserts that scientific research must penetrate to the essence of things in order to explain them. The terms essentialism and methodological essentialism were introduced and the concepts criticized by the Austrian-born British philosopher Karl R(aimund) Popper (1902-94) in a journal article in Economica published in 1944, reprinted in Section 10 of his book The Poverty of Historicism (1957). See also psychological ESSENTIALISM. Compare NOMINALISM, PROTOTYPE THEORY. essentialist adj. \[From Latin essentia essence, from esse to be + Greek -ismos indicating a state or condition]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

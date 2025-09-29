@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In polygenic inheritance, the property of being determined by several genes that combine configurally, rather than merely additively, characteristic of a trait with high heritability that tends to be shared by identical (monozygotic) twins but nevertheless does not run in families. The game of Scrabble provides a useful analogy: a child's mother and father may each be holding letters that form the word PICTURE, but if the child gets seven letters selected at random from both parents, they are unlikely to enable the child to spell PICTURE; and conversely, if neither parent holds all the letters for PICTURE, the child could nevertheless get those letters from the parents. A typical example of emergenesis is found in the trait of subjective well-being: the correlation between identical twins reared together or apart is approximately .50, but parent-child correlations and correlations between pairs of non-identical twins or siblings are all approximately zero. The term was coined by the US psychologist David T(horeson) Lykken (1928-2006) in a presidential address to the Society for Psychophysiological Research in 1981 and published in the journal Psychophysiology in the same year. emergenic adj. Of or relating to emergenesis. \[From emergent appearing suddenly, from Latin emergere to rise up, from $e$ out of + mergere to plunge + Greek genesis birth or origin, from genein to produce]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

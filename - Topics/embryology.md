@@ -6,7 +6,10 @@
 - The study of the development of animals from the fertilized egg to the new adult organism. It is sometimes limited to the period between fertilization of the egg and hatching or birth (see EMBRYO).
 - https://embryology.med.unsw.edu.au/embryology/index.php?title=Main_Page
 	- This site, hosted by the University of New South Wales, explores human embryology and development
+## Source[^3]
+- $n$. The study of the formation and development of embryos.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
