@@ -10,6 +10,8 @@
 - $n$. any or all aspects of the surroundings of an organism, both internal and external, which influence its growth, development, and behavior.
 ## Source[^5]
 - (in ecology) The physical, chemical, and biological conditions of the region in which an organism lives. See also ECOLOGY; ECOSYSTEM.
+## Source[^6]
+- $n$. The external surroundings within which an organism lives; or any external factors that affect the organism's development or behavior, as distinct from intrinsic genetic factors. environmental adj. \[From Old French environner to surround, from environ around]
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
@@ -17,3 +19,4 @@
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

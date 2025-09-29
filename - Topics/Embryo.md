@@ -41,7 +41,10 @@
 - http://discovery.lifemapsc.com/
 	- #comment Seems like the site has shutdown but there is a message on there for that
 	- A compendium of embryonic development, stem cell research, and regenerative medicine
+## Source[^3]
+- $n$. An organism in the earliest phase of its development after the first cleaving of the zygote; in humans, up to about the end of the second month after conception, before the main internal organs have begun to take shape, thereby being distinguished from a foetus, or more loosely up to birth. See also blastocyst, morula. embryonic adj. \[From Greek embryon an embryo, from bryein to swell]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

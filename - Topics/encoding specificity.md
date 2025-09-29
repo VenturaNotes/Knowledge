@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The effect on recall from memory of the relation between encoding operations at the time of learning and the cues (3) available at the time of recall, the effectiveness of the encoding operation being dependent on the nature of the cues at recall, and the effectiveness of particular cues at recall being dependent on the nature of the earlier encoding operations. For example, research has shown that if a person reads the sentence The man tuned the piano, together with many other sentences, and later tries to recall the objects mentioned in all the sentences, then the cue nice sound facilitates the recall of piano, whereas the cue something heavy does not; but if the original sentence is The man lifted the piano, then something heavy is an effective cue but nice sound is not. References to this phenomenon can be traced to a book by the US psychologist Harry L. Hollingworth (1880-1956) published in 1928, where it was called the principle of reinstatement of stimulating conditions. Also called encodingretrieval interaction or transfer-appropriate processing. See also state-DEPENDENT MEMORY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

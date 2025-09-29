@@ -3556,271 +3556,326 @@ Reviewed: false
 	2779. [[egocentre]]
 	2780. [[egocentric]]
 	
-	2781. egocentric localization
-	2782. egocentrism
+	2781. [[egocentric localization]]
+	2782. [[egocentrism]]
 	2783. ego defence mechanism
-	2784. ego ideal
-	2785. ego identity
-	2786. ego instinct
-	2787. ego integrity versus despair
-	2788. ego interest
-	2789. ego involvement
+		1. $n$. Another name for a defence mechanism. US ego defense mechanism.
+	2784. [[ego ideal]]
+	2785. [[ego identity]]
+	2786. [[ego instinct]]
+	2787. [[ego integrity versus despair]]
+	2788. [[ego interest]]
+	2789. [[ego involvement]]
 	2790. egoistic suicide
+		1. See suicide
 	
-	2791. ego libido
-	2792. egomania
-	2793. ego psychology
+	2791. [[ego libido]]
+	2792. [[egomania]]
+	2793. [[ego psychology]]
 	2794. ego regression
-	2795. ego strength
-	2796. Ehrenstein's brightness illusion
-	2797. Ehrenstein's square illusion
-	2798. eidetic image
-	2799. eidetiker
-	2800. Eigengrau
+		1. See regression (2).
+	2795. [[ego strength]]
+	2796. [[Ehrenstein's brightness illusion]]
+	2797. [[Ehrenstein's square illusion]]
+	2798. [[eidetic image]]
+	2799. [[eidetiker]]
+	2800. [[Eigengrau]]
 	
-	2801. eigenvalue
-	2802. Eigenwelt
+	2801. [[eigenvalue]]
+	2802. [[Eigenwelt]]
 	2803. eight-month anxiety
+		1. n. Another name for stranger anxiety.
 	2804. Einfühlung
+		1. n. Another name for empathy. \[German]
 	2805. Einsteins
-	2806. Einstellung
-	2807. ejaculation
+		1. $n$. A street name for the stimulant designer drug ecstasy (2).
+	2806. [[Einstellung]]
+	2807. [[ejaculation]]
 	2808. ejaculatio praecox
-	2809. ejaculatio retardata
-	2810. ejaculatory incompetence
+		1. $n$. Another name for premature (early) ejaculation. See also male orgasmic disorder. Compare delayed ejaculation. \[From Latin eiaculatio ejaculation + praecox premature]
+	2809. [[ejaculatio retardata]]
+	2810. [[ejaculatory incompetence]]
 	
-	2811. elaborated code
-	2812. elaboration
+	2811. [[elaborated code]]
+	2812. [[elaboration]]
 	2813. elaboration, secondary
-	2814. elaboration likelihood model
-	2815. elaborative rehearsal
+		1. n. Another name for secondary revision.
+	2814. [[elaboration likelihood model]]
+	2815. [[elaborative rehearsal]]
 	2816. elation effect
+		1. $n$. Another name for behavior contrast in its positive form, when increased reward leads to increased response rate.
 	2817. Elavil
-	2818. Elberfeld horses
-	2819. elder abuse
+		1. $n$. A proprietary name for the tricyclic antidepressant drug amitriptyline. \[Trademark]
+	2818. [[Elberfeld horses]]
+	2819. [[elder abuse]]
 	2820. elective mutism
+		1. n. An alternative name for selective mutism.
 	
-	2821. Electra complex
-	2822. electrical brain stimulation
-	2823. electrical self-stimulation of the brain
+	2821. [[Electra complex]]
+	2822. [[electrical brain stimulation]]
+	2823. [[electrical self-stimulation of the brain]]
 	2824. electrical synapse
-	2825. electric organ
+		1. n. Another name for a gap junction
+	2825. [[electric organ]]
 	2826. electric receptor
-	2827. electro-oculogram
-	2828. electroconvulsive therapy
-	2829. electrocorticogram
+		1. n. Another name for an electroreceptor
+	2827. [[electro-oculogram]]
+	2828. [[electroconvulsive therapy]]
+	2829. [[electrocorticogram]]
 	2830. electrodermal response
+		1. n. Another name for galvanic skin response (GSR). EDR abbrev.
 	
 	2831. electroencephalogram
-	2832. electrokymograph
-	2833. electrolaryngograph
-	2834. electrolyte
+		1. See EEG
+	2832. [[electrokymograph]]
+	2833. [[electrolaryngograph]]
+	2834. [[electrolyte]]
 	2835. electromagnetic sense
-	2836. electromyogram
-	2837. electromyograph
-	2838. electropalatograph
-	2839. electrophoresis
-	2840. electroreceptor
+		1. n. Another name for the magnetic sense.
+	2836. [[electromyogram]]
+	2837. [[electromyograph]]
+	2838. [[electropalatograph]]
+	2839. [[electrophoresis]]
+	2840. [[electroreceptor]]
 	
-	2841. electroretinogram
+	2841. [[electroretinogram]]
 	2842. electroshock therapy
-	2843. element movement
-	2844. elevated mood
-	2845. elevation in the visual field
-	2846. elimination by aspects
-	2847. elimination disorders
-	2848. elision
-	2849. Ellen West
-	2850. Ellsberg paradox
+		1. (EST) n. Another name for electroconvulsive therapy.
+	2843. [[element movement]]
+	2844. [[elevated mood]]
+	2845. [[elevation in the visual field]]
+	2846. [[elimination by aspects]]
+	2847. [[elimination disorders]]
+	2848. [[elision]]
+	2849. [[Ellen West]]
+	2850. [[Ellsberg paradox]]
 	
 	2851. Elopram
-	2852. elusion
+		1. n. A proprietary name for the antidepressant drug citalopram. \[Trademark]
+	2852. [[elusion]]
 	2853. emasculation
-	2854. embedded-figures test
-	2855. emblem
+		1. $n$. Another name for castration. \[From Latin emasculare to castrate, from $e$ from + masculus manly or virile, from mas male or masculine + -ation indicating a process or condition]
+	2854. [[embedded-figures test]]
+	2855. [[emblem]]
 	2856. embrace reflex
-	2857. embryo
-	2858. embryology
-	2859. emergenesis
-	2860. emic
+		1. $n$. Another name for the Moro reflex. \[So called because of its resemblance to a gesture of embrace]
+	2857. [[embryo]]
+	2858. [[embryology]]
+	2859. [[emergenesis]]
+	2860. [[emic]]
 	
-	2861. emitted behaviour
-	2862. Emmert's law
-	2863. emmetropia
-	2864. emotion
-	2865. emotional intelligence
-	2866. emotional quotient
-	2867. empathogen
-	2868. empathy
-	2869. empirical
+	2861. [[emitted behavior]]
+	2862. [[Emmert's law]]
+	2863. [[emmetropia]]
+	2864. [[emotion]]
+	2865. [[emotional intelligence]]
+	2866. [[emotional quotient]]
+	2867. [[empathogen]]
+	2868. [[empathy]]
+	2869. [[empirical]]
 	2870. empirical induction
+		1. n. Another name for induction (1).
 	
-	2871. empiricism
-	2872. empty-chair technique
-	2873. enantiodromia
-	2874. enantiomorph
-	2875. encéphale isolé
-	2876. encephalic
-	2877. encephalitis
-	2878. encephalitis lethargica
-	2879. encephalization
-	2880. encephalization quotient
+	2871. [[empiricism]]
+	2872. [[empty-chair technique]]
+	2873. [[enantiodromia]]
+	2874. [[enantiomorph]]
+	2875. [[encéphale isolé]]
+	2876. [[encephalic]]
+	2877. [[encephalitis]]
+	2878. [[encephalitis lethargica]]
+	2879. [[encephalization]]
+	2880. [[encephalization quotient]]
 	
-	2881. encephalogram
-	2882. encephalomalacia
-	2883. encephalomyelitis
+	2881. [[encephalogram]]
+	2882. [[encephalomalacia]]
+	2883. [[encephalomyelitis]]
 	2884. encephalon
-	2885. encephalopathy
-	2886. enclitic
+		1. $n$. A technical name for the brain. \[From Greek enkephalos the brain, from en in + kephale the head]
+	2885. [[encephalopathy]]
+	2886. [[enclitic]]
 	2887. enclosure grouping law
-	2888. encoding
-	2889. encoding specificity
-	2890. encopresis
+		1. n. Another name for the common region grouping law of Gestalt psychology.
+	2888. [[encoding]]
+	2889. [[encoding specificity]]
+	2890. [[encopresis]]
 	
-	2891. encounter group
-	2892. end-plate potential
-	2893. end-stopped receptive field
+	2891. [[encounter group]]
+	2892. [[end-plate potential]]
+	2893. [[end-stopped receptive field]]
 	2894. endbrain
+		1. n. Another name for the telencephalon.
 	2895. end bulb
+		1. n. Another name for an axon's bouton.
 	2896. end effect
-	2897. endemic
+		1. n. Another name for the serial position effect.
+	2897. [[endemic]]
 	2898. Endep
+		1. n. A proprietary name for the tricyclic antidepressant drug amitriptyline. \[Trademark]
 	2899. end foot
-	2900. endocannabinoid
+		1. $n$. Another name for a bouton, or more generally a structure at the end of either an axon or a dendrite.
+	2900. [[endocannabinoid]]
 	
-	2901. endocrine disorder
-	2902. endocrine gland
-	2903. endocrine system
-	2904. endocrinology
-	2905. endoderm
-	2906. endogamy
-	2907. endogenous depression
-	2908. endogenous opioid
-	2909. endolymph
-	2910. endomorph
+	2901. [[endocrine disorder]]
+	2902. [[endocrine gland]]
+	2903. [[endocrine system]]
+	2904. [[endocrinology]]
+	2905. [[endoderm]]
+	2906. [[endogamy]]
+	2907. [[endogenous depression]]
+	2908. [[endogenous opioid]]
+	2909. [[endolymph]]
+	2910. [[endomorph]]
 	
-	2911. endoplasmic reticulum
-	2912. endopsychic
-	2913. end organ
-	2914. endorphin
-	2915. endothelium
-	2916. endotherm
-	2917. endowment effect
+	2911. [[endoplasmic reticulum]]
+	2912. [[endopsychic]]
+	2913. [[end organ]]
+	2914. [[endorphin]]
+	2915. [[endothelium]]
+	2916. [[endotherm]]
+	2917. [[endowment effect]]
 	2918. end plate
+		1. n. A shortened name for a motor end plate
 	2919. engineering psychology
-	2920. engram
+		1. n. Another name for ergonomics.
+	2920. [[engram]]
 	
-	2921. enkephalin
-	2922. entactogen
-	2923. entelechy
-	2924. entopic
-	2925. entorhinal cortex
-	2926. entrainment
-	2927. entropy
-	2928. enuresis
-	2929. environment
-	2930. environmentability
+	2921. [[enkephalin]]
+	2922. [[entactogen]]
+	2923. [[entelechy]]
+	2924. [[entopic]]
+	2925. [[entorhinal cortex]]
+	2926. [[entrainment]]
+	2927. [[entropy]]
+	2928. [[enuresis]]
+	2929. [[environment]]
+	2930. [[environmentability]]
 	
-	2931. environmentality
-	2932. environmental psychology
+	2931. [[environmentality]]
+	2932. [[environmental psychology]]
 	2933. envy, penis
-	2934. enzyme
-	2935. enzyme induction
-	2936. eonism
-	2937. epencephalon
-	2938. ependyma
-	2939. ependymal cell
-	2940. ephebophilia
+		1. See penis envy
+	2934. [[enzyme]]
+	2935. [[enzyme induction]]
+	2936. [[eonism]]
+	2937. [[epencephalon]]
+	2938. [[ependyma]]
+	2939. [[ependymal cell]]
+	2940. [[ephebophilia]]
 	
-	2941. ephedrine
-	2942. epicene
-	2943. epicritic
-	2944. epidemic
-	2945. epidemiology
-	2946. epidermis
-	2947. epidural
-	2948. epidural anaesthetic
-	2949. epigenesis
-	2950. epigenetics
+	2941. [[ephedrine]]
+	2942. [[epicene]]
+	2943. [[epicritic]]
+	2944. [[epidemic]]
+	2945. [[epidemiology]]
+	2946. [[epidermis]]
+	2947. [[epidural]]
+	2948. [[epidural anaesthetic]]
+	2949. [[epigenesis]]
+	2950. [[epigenetics]]
 	
-	2951. epigenotype
-	2952. epilepsy
+	2951. [[epigenotype]]
+	2952. [[epilepsy]]
 	2953. epinephrine
+		1. $n$. Another name for adrenalin, especially in US usage. E abbrev. \[From Greek epi on + nephros a kidney + -ine indicating an organic compound]
 	2954. epinosic gain
-	2955. epiphenomenalism
-	2956. epiphenomenon
-	2957. epiphysis
-	2958. episcotister
-	2959. episodic amnesia
-	2960. episodic buffer
+		1. $n$. Another name for secondary gain. Also called epinosic advantage. \[From Greek epi on + nosos a disorder]
+	2955. [[epiphenomenalism]]
+	2956. [[epiphenomenon]]
+	2957. [[epiphysis]]
+	2958. [[episcotister]]
+	2959. [[episodic amnesia]]
+	2960. [[episodic buffer]]
 	
-	2961. episodic memory
+	2961. [[episodic memory]]
 	2962. episodic paroxysmal anxiety
-	2963. epistasis
-	2964. epistemic
-	2965. epistemic reasoning
-	2966. epistemology
-	2967. epithalamus
-	2968. epithelium
-	2969. epoche
+		1. n. Another name for panic disorder.
+	2963. [[epistasis]]
+	2964. [[epistemic]]
+	2965. [[epistemic reasoning]]
+	2966. [[epistemology]]
+	2967. [[epithalamus]]
+	2968. [[epithelium]]
+	2969. [[epoche]]
 	2970. equal-appearing intervals
+		1. See method of equal and unequal cases.
 	
-	2971. equal-loudness contour
+	2971. [[equal-loudness contour]]
 	2972. equal and unequal cases
+		1. See method of equal and unequal cases.
 	2973. equality grouping law
+		1. $n$. Another name for the similarity grouping law of Gestalt psychology.
 	2974. equated forms
-	2975. equilibration
-	2976. equilibrium hypothesis
-	2977. equilibrium point (in game theory)
+		1. n. Another name for parallel forms.
+	2975. [[equilibration]]
+	2976. [[equilibrium hypothesis]]
+	2977. equilibrium point
+		1. (in game theory) $n$. Another name for a Nash equilibrium. Often called simply an equilibrium.
 	2978. equilibrium potential
+		1. n. Another name for the resting potential
 	2979. equiluminant
-	2980. equipotentiality
+		1. adj. Another word for isoluminant.
+	2980. [[equipotentiality]]
 	
-	2981. equity theory
-	2982. equivalent-form reliability
-	2983. equivalent forms
+	2981. [[equity theory]]
+	2982. [[equivalent-form reliability]]
+	2983. [[equivalent forms]]
 	2984. equivocal sign
-	2985. erectile disorder
+		1. n. Another name for a soft sign.
+	2985. [[erectile disorder]]
 	2986. erectile dysfunction
+		1. See erectile disorder, impotence (2). ED abbrev.
 	2987. erectile impotence
-	2988. ergonomics
-	2989. ergot
-	2990. ergotism
+		1. See impotence (2).
+	2988. [[ergonomics]]
+	2989. [[ergot]]
+	2990. [[ergotism]]
 	
 	2991. Erhard Seminars Training
+		1. See EST
 	2992. Eriksen flanker task
-	2993. Eriksonian
+		1. See flankER COMPATIBILITY EFFECT.
+	2993. [[Eriksonian]]
 	2994. Erklärung
-	2995. erogenous zone
-	2996. Eros
-	2997. erotic
-	2998. erotic love
+		1. See VERSTEHEN.
+	2995. [[erogenous zone]]
+	2996. [[Eros]]
+	2997. [[erotic]]
+	2998. [[erotic love]]
 	2999. erotism
-	3000. erotogenic zone
+		1. See Allo-erotism, anal erotism, auto-erotism, ORGAN EROTISM, PHALLIC EROTISM, URETHRAL EROTISM.
+	3000. [[erotogenic zone]]
 	
-	3001. erotomania
-	3002. erotomanic delusional disorder
-	3003. error bar
-	3004. error variable
-	3005. error variance
-	3006. erythrocyte
-	3007. erythropoietin
-	3008. erythropsia
-	3009. escalated fighting
-	3010. E scaleabbrev.
+	3001. [[erotomania]]
+	3002. [[erotomanic delusional disorder]]
+	3003. [[error bar]]
+	3004. [[error variable]]
+	3005. [[error variance]]
+	3006. [[erythrocyte]]
+	3007. [[erythropoietin]]
+	3008. [[erythropsia]]
+	3009. [[escalated fighting]]
+	3010. [[E scale]]
 	
-	3011. escape conditioning
+	3011. [[escape conditioning]]
 	3012. escape learning
+		1. n. Another name for escape conditioning.
 	3013. Escher figure
+		1. $n$. Another name for an impossible figure. \[Named after the Dutch graphic artist Maurits C(ornelis) Escher (1898-1972) who included many impossible figures in his etchings]
 	3014. eserine
+		1. $n$. Another name for physostigmine. \[From éséré West African name for the Calabar bean + -ine indicating an organic compound]
 	3015. esophagus
-	3016. esotropia
+		1. See oesophagus.
+	3016. [[esotropia]]
 	3017. espanto
+		1. $n$. Another name for susto. \[Spanish espanto fright or terror, from espantar to scare or frighten]
 	3018. ESP cards
+		1. n. Another name for Zener cards. 
 	3019. essential amino acid
-	3020. essentialism
+		1. See amino acid
+	3020. [[essentialism]]
 	
-	3021. estabbrev.
+	3021. [[est]]
 	3022. ester
 	3023. esterase
 	3024. esthesiometer

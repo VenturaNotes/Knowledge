@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In psychoanalysis, the life instincts, usually including both the sexual instinct and the ego instinct (the self-preservation instinct), the aim of which are to create and maintain the integrity of things. Sigmund Freud (1856-1939) was not entirely consistent in his usage of the term: in his book Beyond the Pleasure Principle (1920), he used it as a synonym for libido: 'the libido of our sexual instincts would coincide with the Eros of the poets and philosophers' (Standard Edition, XVIII, p. 50), but in other publications he included self-preservation within its scope. In his last discussion of this issue in his book An Outline of Psycho-Analysis (1938/40) he defined libido as the energy associated with Eros: 'the total available energy of Eros, which henceforward we shall speak of as "libido"" (Standard Edition, XXIII, p. 149), and he also identified the underlying principle of Eros to be binding: 'to establish ever greater unities and to preserve them', whereas the principle underlying Thanatos is 'to undo connections and so to destroy things' (p. 148). See also horme, object inSTINCT. \[Named after Eros in Greek mythology, the god of love and daughter of Aphrodite, from Greek eros love or sexual desire]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
