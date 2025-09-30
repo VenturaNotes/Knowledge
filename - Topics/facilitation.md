@@ -7,7 +7,10 @@
 ## Source[^2]
 - (1) (in neurophysiology) The effect of successive stimuli on the postsynaptic membrane, which results in the generation of an excitatory postsynaptic potential (EPSP). Although a single impulse may fail to cross the junction between adjacent nerve cells, the synapse becomes more responsive to the following impulse. 
 - (2) (in ecology) The phenomenon observed during succession in which the presence of one species increases the likelihood or speed of colonization by a second species. The first species brings about some change in the environment that make it more favorable for the second. For example, a pre-existing plant may provide the germinating seeds and seedlings of another species with vital shelter from the wind or protection from herbivores. Alternatively, it may alter the nature of the soil, for example by changing the pH , sufficiently to permit growth of a new incoming species. See also FOUNDATION SPECIES.
+## Source[^3]
+- $n$. The act or process of assisting the progress of something or making it easier; more specifically, the increased ease with which neurons transmit impulses as a result of prior excitation. See also cell assembly, lONG-TERM POTENTIATION, PHASE SEQUENCE. \[From Latin facilis easy, from facere to do + -ation indicating a process or condition]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

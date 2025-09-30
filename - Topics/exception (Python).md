@@ -2,9 +2,7 @@
 aliases:
   - exception
 ---
-## Synthesis
-- 
-## Source[^1]
+## Synthesis [^1]
 - A mechanism used for handling errors and exceptional situations that occur during the execution of a program
 - When an error occurs that disrupts the normal flow of code, Python raises an exception to indicate that something unexpected or erroneous has happened
 - Benefits
@@ -29,6 +27,8 @@ aliases:
 		- clean up resources
 - (4) Hierarchy of Exceptions
 	- Python has a hierarchy of built-in exception classes, with the base class [[BaseException (Python)|BaseException]] at the top. Specific types of exceptions, such as [[ValueError (Python)|ValueError]], [[TypeError (Python)|TypeError]], [[IOError (Python)|IOError]], etc., inherit from this base class
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

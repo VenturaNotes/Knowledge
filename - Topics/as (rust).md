@@ -3,8 +3,6 @@ aliases:
   - as
 ---
 ## Synthesis
-- 
-## Source [^1]
 - A keyword used for explicit type casting which allows you to convert a value from one type to another
 	- #question what is meant by explicit type casting?
 - Great for working with different numerical types or when interfacing with low-level code where specific types are required
@@ -26,7 +24,6 @@ aliases:
 - (3) Casting Between [[Enums (rust)|enums]] and [[Integers (rust)|integers]]
 	- Could convert an enum variant to its underlying integer value or vice versa
 		- #question How would this work?
-
 #### Examples
 (1) Casting Between Numeric Types
 ```Rust
@@ -94,10 +91,11 @@ Value of MyEnum::A: 1
 - `as` does not check for [[overflows]]. There are no runtime checks for overflow or underflow conversion. It simply truncates or converts the value as specified
 	- #question what kind of runtime checks are there
 	- #question I need an example of an overflow
-
 #### Conclusion
 - Undefined behavior may occur with `as` if misused 
 	- #question what kind of undefined behavior could occur?
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

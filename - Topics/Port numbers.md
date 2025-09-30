@@ -3,8 +3,6 @@ aliases:
   - port number
 ---
 ## Synthesis
-- 
-## Source[^1]
 - Standardized identifiers assigned to applications or processes running on a device
 	- Used to identify specific services or protocols
 	- Helps route incoming data to the correct application or service
@@ -14,6 +12,8 @@ aliases:
 		- [[FTP]] (port 21)
 		- [[DNS]] (port 53)
 	- [[Ephemeral ports]] (49152 - 65535) are used for temporary connections
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

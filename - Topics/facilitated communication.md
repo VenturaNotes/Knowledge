@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A teaching method and therapeutic technique in which facilitators or partners help people with severe developmental disabilities to communicate by providing sufficient manual guidance to enable them to convey messages through a keyboard, a picture board, or a speech synthesizer. When applied to a person with autism spectrum disorder, cerebral palsy, Down's syndrome, or severe intellectual disability, it often appears to reveal unexpected literacy and a far higher level of intellectual functioning than the person was believed to possess, but single-blind studies and double-blind studies have revealed that disabled people are unable to respond intelligently to stimuli that are unseen by their facilitators and that the facilitators unwittingly control the responses in a manner reminiscent of Clever Hans. It was pioneered by the Australian special needs educator Rosemary Crossley (born 1945), who applied it to 12 children with physical and mental handicaps in the early 1970s, and in 1989 it was adopted enthusiastically by a number of speech therapists and special educators in the United States. Also called facilitated communication training. FC or FCT abbrev.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

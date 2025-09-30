@@ -1,6 +1,6 @@
 ## Synthesis
-- 
-## Source [^1]
 - protein-coding gene located on [[human chromosome 7]]
+## Source [^1]
+- 
 ## References
-[^1]: ChatGPT
+[^1]: 

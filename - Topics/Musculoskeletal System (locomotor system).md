@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source[^1]
 - Pronounced (`mus-q-lo-skeletal`)
 - Provides support, stability, and movement
 - Main components of system
@@ -12,7 +10,8 @@
 	- [[tendons]]
 	- [[ligaments]]
 	- other [[connective tissues]]
-
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

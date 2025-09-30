@@ -8,7 +8,10 @@
 E[U]=p_{i} U\left(X_{1}\right)+\ldots+p_{n} U\left(X_{n}\right)
 
 $$The expected utility theorem states that if a consumer satisfies a set of axioms describing rationality they should act in risky situations as if they maximize expected utility. If utility is a linear function of $X$, then $E[U]=$ $U\left[E\left(X_{i}\right)\right]$, that is, expected utility is the utility of the expected value of the pay-offs. If utility is a concave function of pay-off, that is, $d^{2} U / d X^{2}<0$, then the expected utility of a risky prospect is less than the utility of the expected pay-off, $E[U]<U\left[E\left(X_{i}\right)\right]$, so the consumer prefers a sure pay-off to a risky prospect of the same expected value. See also Allais paradox.
+## Source[^3]
+- $n$. The average utility (1) associated with a decision, calculated by multiplying each of the possible outcomes of the decision by its probability and then summing the resulting products. If the probabilities are subjective, rather than objective measures of relative frequency, then it is called subjective expected utility. Compare expected Value. EU abbrev.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

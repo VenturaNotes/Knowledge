@@ -3876,290 +3876,341 @@ Reviewed: false
 	3020. [[essentialism]]
 	
 	3021. [[est]]
-	3022. ester
-	3023. esterase
+	3022. [[ester]]
+	3023. [[esterase]]
 	3024. esthesiometer
-	3025. estimation
+		1. See AESTHESIOMETER.
+	3025. [[estimation]]
 	3026. estradiol
+		1. See OESTRADIOL.
 	3027. estrogen
+		1. See OESTROGEN.
 	3028. estrone
+		1. See OESTRONE.
 	3029. estrous cycle
+		1. See oestrous CYCLE.
 	3030. estrus
+		1. See oestrus.
 	
 	3031. eta coefficient
+		1. See CORRELATION RATIO. \[From the name of $\eta$, the seventh letter of the Greek alphabet]
 	3032. ethanol
-	3033. ethereal odour
-	3034. ethnic
-	3035. ethnic marker
-	3036. ethnocentrism
-	3037. ethnography
-	3038. ethnology
-	3039. ethnomethodology
-	3040. ethology
+		1. $n$. Another name for ethyl alcohol. See ALCOHOL.
+	3033. [[ethereal odor]]
+	3034. [[ethnic]]
+	3035. [[ethnic marker]]
+	3036. [[ethnocentrism]]
+	3037. [[ethnography]]
+	3038. [[ethnology]]
+	3039. [[ethnomethodology]]
+	3040. [[ethology]]
 	
-	3041. ethyl alcohol
-	3042. etic
+	3041. [[ethyl alcohol]]
+	3042. [[etic]]
 	3043. etiology
-	3044. etymological fallacy
-	3045. etymology
-	3046. eudaimonic well-being
-	3047. eugenic
-	3048. eugenics
-	3049. eukaryote
-	3050. eukaryotic cell
+		1. See aetiology.
+	3044. [[etymological fallacy]]
+	3045. [[etymology]]
+	3046. [[eudaimonic well-being]]
+	3047. [[eugenic]]
+	3048. [[eugenics]]
+	3049. [[eukaryote]]
+	3050. [[eukaryotic cell]]
 	
-	3051. Euler diagram
-	3052. euphemism
-	3053. euphoria
-	3054. euphoriant
-	3055. eureka moment
-	3056. eusocial
-	3057. Eustachian tube
-	3058. eustress
-	3059. euthymic mood
-	3060. evaluation apprehension
+	3051. [[Euler diagram]]
+	3052. [[euphemism]]
+	3053. [[euphoria]]
+	3054. [[euphoriant]]
+	3055. [[eureka moment]]
+	3056. [[eusocial]]
+	3057. [[Eustachian tube]]
+	3058. [[eustress]]
+	3059. [[euthymic mood]]
+	3060. [[evaluation apprehension]]
 	
-	3061. evaluation research
-	3062. evaluative conditioning
-	3063. Eve
-	3064. event-related potential
+	3061. [[evaluation research]]
+	3062. [[evaluative conditioning]]
+	3063. [[Eve]]
+	3064. [[event-related potential]]
 	3065. evil eye
-	3066. eviration
-	3067. evoked potential
-	3068. evolution
-	3069. evolutionarily stable strategy
-	3070. evolutionary bottleneck
+		1. n. An English name for mal de ojo.
+	3066. [[eviration]]
+	3067. [[evoked potential]]
+	3068. [[evolution]]
+	3069. [[evolutionarily stable strategy]]
+	3070. [[evolutionary bottleneck]]
 	
-	3071. evolutionary clock
-	3072. evolutionary psychology
+	3071. [[evolutionary clock]]
+	3072. [[evolutionary psychology]]
 	3073. examination anxiety
-	3074. excitation
-	3075. excitatory
-	3076. excitatory postsynaptic potential
-	3077. excluded middle law
+		1. $n$. Another name for test anxiety. Also called exam anxiety.
+	3074. [[excitation]]
+	3075. [[excitatory]]
+	3076. [[excitatory postsynaptic potential]]
+	3077. [[excluded middle law]]
 	3078. exclusive disjunction
-	3079. excoriation disorder
+		1. See disjunction (2)
+	3079. [[excoriation disorder]]
 	3080. executive
+		1. See central executive
 	
-	3081. exemplar
-	3082. exhaustion stage
-	3083. exhibitionism
-	3084. exhibitionistic disorder
-	3085. existential analysis
-	3086. existentialism
+	3081. [[exemplar]]
+	3082. [[exhaustion stage]]
+	3083. [[exhibitionism]]
+	3084. [[exhibitionistic disorder]]
+	3085. [[existential analysis]]
+	3086. [[existentialism]]
 	3087. existential quantifier
-	3088. existential therapy
-	3089. exocrine gland
-	3090. exogamy
+		1. See quantifier
+	3088. [[existential therapy]]
+	3089. [[exocrine gland]]
+	3090. [[exogamy]]
 	
 	3091. exogenous depression
-	3092. exon
-	3093. exophoria
-	3094. expansive mood
-	3095. expectancy-value theory
+		1. $n$. Another name for reactive depression. Compare ENDOGENOUS DEPRESSION. \[From Greek exo outside + genes born]
+	3092. [[exon]]
+	3093. [[exophoria]]
+	3094. [[expansive mood]]
+	3095. [[expectancy-value theory]]
 	3096. expectation-dependent priming
-	3097. expected utility
-	3098. expected utility theory
-	3099. expected value
-	3100. experience sampling
+		1. See priming (1).
+	3097. [[expected utility]]
+	3098. [[expected utility theory]]
+	3099. [[expected value]]
+	3100. [[experience sampling]]
 	
-	3101. experiential therapy
-	3102. experiment
-	3103. experimental analysis of behaviour
-	3104. experimental design
-	3105. experimental group
+	3101. [[experiential therapy]]
+	3102. [[experiment]]
+	3103. [[experimental analysis of behavior]]
+	3104. [[experimental design]]
+	3105. [[experimental group]]
 	3106. experimental hypothesis
-	3107. experimentally induced false memory
-	3108. experimental neurosis
-	3109. experimental psychology
+		1. $n$. Another name for an alternative hypothesis.
+	3107. [[experimentally induced false memory]]
+	3108. [[experimental neurosis]]
+	3109. [[experimental psychology]]
 	3110. experimental variable
+		1. n. Another name for an independent variable.
 	
 	3111. experimenter bias
-	3112. experimenter effect
-	3113. experimenter expectancy effect
-	3114. expert system
-	3115. explicit memory
-	3116. exploitative orientation
-	3117. exploratory data analysis
-	3118. exploratory factor analysis
-	3119. exploratory research
+		1. See EXPERIMENTER EFFECT, EXPERIMENTER EXPECTANCY EFFECT.
+	3112. [[experimenter effect]]
+	3113. [[experimenter expectancy effect]]
+	3114. [[expert system]]
+	3115. [[explicit memory]]
+	3116. [[exploitative orientation]]
+	3117. [[exploratory data analysis]]
+	3118. [[exploratory factor analysis]]
+	3119. [[exploratory research]]
 	3120. explosive disorder
+		1. See intermittent explosive disorder
 	
 	3121. exposure therapy
-	3122. expression
+		1. n. Another name for flooding
+	3122. [[expression]]
 	3123. expressive aphasia
-	3124. expressive behaviour
+		1. See aphasia
+	3124. [[expressive behavior]]
 	3125. expressive dysprosody
-	3126. expressive language disorder
-	3127. expressivity
-	3128. extended family
-	3129. extended phenotype
+		1. See dysprosody
+	3126. [[expressive language disorder]]
+	3127. [[expressivity]]
+	3128. [[extended family]]
+	3129. [[extended phenotype]]
 	3130. extension/intension
+		1. See intension.
 	
-	3131. extension theorem
-	3132. external auditory canal
+	3131. [[extension theorem]]
+	3132. [[external auditory canal]]
 	3133. external control of reinforcement
+		1. See locus of control
 	3134. external ear
+		1. n. Another name for the outer ear
 	3135. external eye muscle
-	3136. externalization
+		1. n. Another name for an extra-ocular muscle.
+	3136. [[externalization]]
 	3137. external meatus
+		1. n. Another name for the external auditory canal. \[From latin meatus a course]
 	3138. external rectus
-	3139. external validity
-	3140. exteroception
+		1. n. Another name for either of the lateral rectus muscles attached externally to the eyeball
+	3139. [[external validity]]
+	3140. [[exteroception]]
 	
-	3141. exteroceptor
-	3142. extinction
-	3143. extra-ocular muscle
-	3144. extra-sensory perception
-	3145. extra-spectral colour
-	3146. extracellular
-	3147. extracellular fluid
+	3141. [[exteroceptor]]
+	3142. [[extinction]]
+	3143. [[extra-ocular muscle]]
+	3144. [[extra-sensory perception]]
+	3145. extra-spectral color
+		1. $n$. Another name for a non-spectral color. US extra-spectral color. \[From Latin extra outside + spectrum a spectacle, from spectare to watch, from specere to look at + -alis of or relating to]
+	3146. [[extracellular]]
+	3147. [[extracellular fluid]]
 	3148. extracellular thirst
-	3149. extraditevb.
-	3150. extrafusal
+		1. $n$. Another name for hypovolaemic thirst.
+	3149. [[extradite]]
+	3150. [[extrafusal]]
 	
-	3151. extramission
-	3152. extraneous variable
-	3153. extrapyramidal
-	3154. extrapyramidal syndrome
-	3155. extrastriate cortex
-	3156. extraversion
+	3151. [[extramission]]
+	3152. [[extraneous variable]]
+	3153. [[extrapyramidal]]
+	3154. [[extrapyramidal syndrome]]
+	3155. [[extrastriate cortex]]
+	3156. [[extraversion]]
 	3157. extrinsic eye muscle
-	3158. eye
+		1. $n$. Another name for an extra-ocular muscle. \[From Latin extrinsecus on the outside, from exter outward + secus alongside]
+	3158. [[eye]]
 	3159. eye-dominance column
-	3160. eye-head movement system
+		1. $n$. Another name for an ocular-dominance column.
+	3160. [[eye-head movement system]]
 	
-	3161. eye-movement desensitization and reprocessing
-	3162. eye-movement potential
-	3163. eye-placement principle
-	3164. eye-tracking
-	3165. eye-voice span
-	3166. eye contact
-	3167. eye dialect
-	3168. eye dominance
-	3169. eye rhyme
-	3170. eyewitness misinformation effect
+	3161. [[eye-movement desensitization and reprocessing]]
+	3162. [[eye-movement potential]]
+	3163. [[eye-placement principle]]
+	3164. [[eye-tracking]]
+	3165. [[eye-voice span]]
+	3166. [[eye contact]]
+	3167. [[eye dialect]]
+	3168. [[eye dominance]]
+	3169. [[eye rhyme]]
+	3170. [[eyewitness misinformation effect]]
 	
-	3171. eyewitness testimony
-	3172. Eysenck Personality Inventory
-	3173. Eysenck Personality Questionnaire
-	3174. F1abbrev.
-	3175. F1abbrev.
+	3171. [[eyewitness testimony]]
+	3172. [[Eysenck Personality Inventory]]
+	3173. [[Eysenck Personality Questionnaire]]
+	3174. [[F_1]]
+	3175. 
 	3176. face-goblet illusion
-	3177. face recognition
-	3178. face validity
-	3179. facial expression
-	3180. facial feedback hypothesis
+		1. n. Another name for the reversible goblet.
+	3177. [[face recognition]]
+	3178. [[face validity]]
+	3179. [[facial expression]]
+	3180. [[facial feedback hypothesis]]
 	
-	3181. facial nerve
-	3182. facial vision
-	3183. facilitated communication
-	3184. facilitation
+	3181. [[facial nerve]]
+	3182. [[facial vision]]
+	3183. [[facilitated communication]]
+	3184. [[facilitation]]
 	3185. facilitative priming
-	3186. factitious disorder
-	3187. factitious disorder by proxy
-	3188. factitious disorder imposed on another
-	3189. factor
-	3190. factor analysis
+		1. See priming (1).
+	3186. [[factitious disorder]]
+	3187. [[factitious disorder by proxy]]
+	3188. [[factitious disorder imposed on another]]
+	3189. [[factor]]
+	3190. [[factor analysis]]
 	
 	3191. factorial analysis of variance
-	3192. factorial design
-	3193. factorial validity
-	3194. faculty psychology
-	3195. failure neurosis
-	3196. Fairbairn's revised psychopathology
-	3197. falling out
-	3198. false-consensus effect
-	3199. false alarm
+		1. $n$. Another name for multifactorial analysis of variance.
+	3192. [[factorial design]]
+	3193. [[factorial validity]]
+	3194. [[faculty psychology]]
+	3195. [[failure neurosis]]
+	3196. [[Fairbairn's revised psychopathology]]
+	3197. [[falling out]]
+	3198. [[false-consensus effect]]
+	3199. [[false alarm]]
 	3200. false anorexia
+		1. n. Another name for pseudoanorexia.
 	
-	3201. false friends
-	3202. false memory
-	3203. false memory syndrome
-	3204. false negative
-	3205. false neurotransmitter
-	3206. false positive
+	3201. [[false friends]]
+	3202. [[false memory]]
+	3203. [[false memory syndrome]]
+	3204. [[false negative]]
+	3205. [[false neurotransmitter]]
+	3206. [[false positive]]
 	3207. false pregnancy
-	3208. falsifiability
-	3209. family
-	3210. family neurosis
+		1. n. Another name for pseudocyesis
+	3208. [[falsifiability]]
+	3209. [[family]]
+	3210. [[family neurosis]]
 	
 	3211. family study
-	3212. family therapy
-	3213. famous names test
-	3214. fan effect
-	3215. fantasizevb.
+		1. $n$. In behavior genetics, another name for a kinship study.
+	3212. [[family therapy]]
+	3213. [[famous names test]]
+	3214. [[fan effect]]
+	3215. [[fantasize]]
 	3216. fantasticant
-	3217. fantasy
-	3218. fantasy thinking
-	3219. far-sighted
-	3220. far point
+		1. See phantasticant.
+	3217. [[fantasy]]
+	3218. [[fantasy thinking]]
+	3219. [[far-sighted]]
+	3220. [[far point]]
 	
-	3221. far sense
-	3222. far vision
+	3221. [[far sense]]
+	3222. [[far vision]]
 	3223. fascicle
-	3224. fasciculus
-	3225. fasciculus cuneatus
-	3226. fasciculus gracilis
-	3227. FASTabbrev.
-	3228. fast-twitch fibre
-	3229. fast glycolytic fibre
-	3230. fast oxidative glycolytic fibre
+		1. n. Another name for a fasciculus. \[From Latin fascis a bundle]
+	3224. [[fasciculus]]
+	3225. [[fasciculus cuneatus]]
+	3226. [[fasciculus gracilis]]
+	3227. [[FAST]]
+	3228. [[fast-twitch fibre]]
+	3229. [[fast glycolytic fibre]]
+	3230. [[fast oxidative glycolytic fibre]]
 	
-	3231. fatal familial insomnia
-	3232. fate control
-	3233. fate neurosis
-	3234. father complex
-	3235. fatigue
+	3231. [[fatal familial insomnia]]
+	3232. [[fate control]]
+	3233. [[fate neurosis]]
+	3234. [[father complex]]
+	3235. [[fatigue]]
 	3236. fatigue syndrome
-	3237. fattism
-	3238. fatuous love
-	3239. fear of success
-	3240. feature
+		1. See chronic fatigue syndrome
+	3237. [[fattism]]
+	3238. [[fatuous love]]
+	3239. [[fear of success]]
+	3240. [[feature]]
 	
 	3241. feature abstraction theory
-	3242. feature comparison model
-	3243. feature contrast
-	3244. feature detection theory
-	3245. feature detector
-	3246. feature integration theory
+		1. n. Another name for feature detection theory.
+	3242. [[feature comparison model]]
+	3243. [[feature contrast]]
+	3244. [[feature detection theory]]
+	3245. [[feature detector]]
+	3246. [[feature integration theory]]
 	3247. feature list theory
-	3248. feature negative learning
-	3249. feature positive learning
-	3250. feature search
+		1. $n$. Another name for the componential theory of concept formation.
+	3248. [[feature negative learning]]
+	3249. [[feature positive learning]]
+	3250. [[feature search]]
 	
-	3251. feature theory
-	3252. Fechner's law
-	3253. Fechner's paradox
+	3251. [[feature theory]]
+	3252. [[Fechner's law]]
+	3253. [[Fechner's paradox]]
 	3254. Fechner-Benham colours
+		1. $n$. Another name for pattern-induced flicker colours induced by Benham's top. US Fechner-Benham colors. Also called Fechner colours or subjective colours. \[Named after the German philosopher, physician, psychologist, and mystic Gustav Theodor Fechner (1801-87) who discovered the phenomenon in 1838 using a disc with 18 progressively longer arcs and the English amateur scientist and polymath Charles Edwin Benham (1860-1929) who rediscovered the phenomenon in its more familiar form in 1894]
 	3255. feeble-mindedness
-	3256. feedback
-	3257. feedforward
-	3258. feeding and eating disorders
-	3259. feeding centre
-	3260. feeling type
+		1. $n$. An obsolescent term for intellectual disability.
+	3256. [[feedback]]
+	3257. [[feedforward]]
+	3258. [[feeding and eating disorders]]
+	3259. [[feeding centre]]
+	3260. [[feeling type]]
 	
-	3261. fellatio
+	3261. [[fellatio]]
 	3262. female genital mutilation
-	3263. female orgasmic disorder
-	3264. female sexual interest/arousal disorder
-	3265. fenestra
+		1. $n$. Another name for clitoridectomy, widely practised in parts of Africa and elsewhere to deter women's sexual infidelity. FGM abbrev.
+	3263. [[female orgasmic disorder]]
+	3264. [[female sexual interest-arousal disorder]]
+	3265. [[fenestra]]
 	3266. fenestra ovalis
+		1. $n$. The oval window. Also called the fenestra vestibuli.
 	3267. fenestra rotunda
-	3268. fentanyl
-	3269. feral
-	3270. feral child
+		1. $n$. The round window. Also called the fenestra cochleae or fenestra tympani.
+	3268. [[fentanyl]]
+	3269. [[feral]]
+	3270. [[feral child]]
 	
-	3271. Ferberizevb.
-	3272. Ferry-Porter law
-	3273. fertility
-	3274. fertilization
-	3275. festination
+	3271. [[Ferberize]]
+	3272. [[Ferry-Porter law]]
+	3273. [[fertility]]
+	3274. [[fertilization]]
+	3275. [[festination]]
 	3276. fetal alcohol syndrome
+		1. See foetal alcohol syndrome.
 	3277. fetal brain transplantation
-	3278. fetish
-	3279. fetishism
-	3280. fetishistic disorder
+		1. See foetal brain transplantation.
+	3278. [[fetish]]
+	3279. [[fetishism]]
+	3280. [[fetishistic disorder]]
 	
 	3281. fetishistic transvestism
 	3282. fetus

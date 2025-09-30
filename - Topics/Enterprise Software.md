@@ -2,8 +2,6 @@
 aliases: enterprise application software, EAS, enterprise-level software
 ---
 ## Synthesis 
-- 
-## Source[^1]
 ### Definition
 - Designed to meet specific needs and requirements of organizations or businesses
 ### Descriptions
@@ -32,6 +30,9 @@ aliases: enterprise application software, EAS, enterprise-level software
 		- Protects sensitive business information
 - Support and maintenance
 	- [[Vendor|Vendors]] or internal IT departments provide ongoing support, updates, and maintenance to ensure smooth operation and address any issues that arise
+## Source[^1]
+- 
+
 ## References
 
-[^1]: ChatGPT
+[^1]: 

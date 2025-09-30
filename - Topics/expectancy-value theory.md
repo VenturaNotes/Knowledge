@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A theory according to which behavior is affected by the values of the possible outcomes weighted by the estimated probabilities of those outcomes. The earliest version of it was put forward in 1944 by the German-US psychologist Kurt Lewin (1890-1947) and several colleagues. In relation to attitudes (1) it is the theory according to which an attitude reflects the subjective probability (expectancy) that the object of the attitude has certain attributes, weighted by the subjective feelings (values) evoked by those attributes. For example, a person may have an expectancy (high subjective probability) that a united Ireland (the attitude object) would lead to peace between Irish Catholics and Protestants (a positively valued attribute). To predict a person's attitude to a united Ireland, the expectancy and value terms for each attribute are multiplied together, and these products are then added: Attitude $=\Sigma$ Expectancy $\times$ Value. This approach to attitudes was formulated in 1975 by the US psychologist Martin Fishbein (1936-2009) and the Polish-born US psychologist Icek Ajzen (born 1942). See also THEORY OF REASONED ACTION.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -4,11 +4,8 @@ aliases:
   - class attributes
 ---
 ## Synthesis
-- 
-## Source [^1]
 ### Description
 - Showing the difference between class attributes and [[Instance Attribute (Python)|instance attributes]]
-
 ### Example
 ```python
 class Car:
@@ -49,6 +46,8 @@ print(car2.brand)  # Output: Honda
 
 #### Class Attribute
 - Defined inside a class but outside any methods
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

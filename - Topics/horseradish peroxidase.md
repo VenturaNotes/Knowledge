@@ -3,9 +3,9 @@ aliases:
   - HRP
 ---
 ## Synthesis
-- 
-## Source[^1]
 - Commonly used enzyme label in various biochemical assays
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 
