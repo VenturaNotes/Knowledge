@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Focuses on the role of institutions in shaping economic behavior.
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

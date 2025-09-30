@@ -3,8 +3,6 @@ aliases:
   - Exception handling
 ---
 ## Synthesis
-- 
-## Source [^1]
 - The `try`, `except`, `else`, and `finally` blocks in python are grouped under exception handling
 - Mechanism in Python to handle errors and exceptions that occur during the execution of a program. Allows the program to continue running or terminate gracefully
 
@@ -40,6 +38,8 @@ Execution of the try-except-else-finally block is complete.
 	- `else`: Runs if no exceptions are raised in the `try` block. Optional.
 		 - #question What are some "raised" exceptions?
 	 - `finally`: Runs whether there was an exception or not. Typically used for cleanup actions such as closing a file or releasing resources
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

@@ -71,7 +71,6 @@ pi = "Hello world" #Now the value of "pi" will no longer be the constant above
 #question How do [[constant (python)|constants]] in python work? 
 #question What are constants typically supposed to do in computer programming? We usually don't want to overwrite a variable but we need to watch out...
 
-
 ## Source[^4]
 - We can create our own modules as well
 - By creating a module in the same directory as `main.py`, we can access the 

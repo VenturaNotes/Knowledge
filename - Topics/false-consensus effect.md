@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A form of assimilation (4) characterized by a tendency to overestimate the extent to which other people share one's beliefs, attitudes, and behaviors. In social perception and attribution, people tend to assume that their own responses are more common than they really are and to consider alternative responses as uncommon, deviant, or inappropriate. The concept was introduced and named by the Canadian psychologist Lee D(avid) Ross (born 1942) and two colleagues in an article in the Journal of Experimental Social Psychology in 1977 in which they reported four experiments, including a typical one in which Stanford University students were asked whether they would be willing to walk around the campus for 30 minutes wearing a sandwich board inscribed with the message REPENT; those who agreed to do this estimated, on average, that 63.50 per cent of their fellow students would also agree, and those who refused estimated that 76.67 per cent of their fellow students would also refuse. See also ASSIMILATION-CONTRAST THEORY, AUTOMORPHIC PERCEPTION, EGOCENTRISM. FCE abbrev.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

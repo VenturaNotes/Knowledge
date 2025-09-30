@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - This is a South Korean automobile manufacturer
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

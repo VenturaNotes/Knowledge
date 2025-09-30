@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Anxiety about accomplishing goals and achieving ambitions, especially among women because of cultural associations of ambition and success with lack of femininity, as a consequence of which success can lead to social rejection and disapproval. The concept was introduced in 1968 in a doctoral dissertation by the US psychologist Matina S(ouretis) Horner (born 1939) and became well known after an article by her in the Journal of Social Issues in 1972. Horner presented men and women with the following brief statement and asked them to write stories based on it: 'After first-term finals (Anne/John) finds (herself/himself) at the top of (her/his) medical class.' The stories written by women responding to the version with the female character called Anne often expressed ambivalence and conflict over Anne's success; they described Anne living a lonely and miserable life, being ugly and horrid, having no love life, and so on. Evidence of fear of success was found in only 10 per cent of stories written by men but in 65 per cent of stories written by women. Later research reported some decline in fear of success among women as gender inequality declined after the early 1970s, and evidence emerged that both men and women fear success in various circumstances, including occupations that are not traditional for their gender. See also success NEUROSIS.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An approach to psychology influenced by sociobiology and ethology, based on the assumption that human cognition can best be understood in the context of evolution. The human brain is viewed as a physical system of neural circuitry incorporating multiple psychological adaptations (1) evolved by natural selection to generate behavior and solve problems posed by environmental circumstances in the evolutionary history of the species, especially during the Stone Age, the period from about 2.5 million to 6,000 BC, covering well over 99 per cent of human evolutionary history. The approach reached maturity in the late 1980s, through the writings of the US psychologist Leda Cosmides (born 1957) and the US anthropologist John Tooby (born 1952), among others, and was popularized by their influential book, The Adapted Mind: Evolutionary Psychology and the Generation of Culture (1992), co-edited with a colleague, although the term evolutionary psychology had been introduced by the US biologist Michael T. Ghiselin (born 1939) in the title of an article in the journal Science in 1973. See also behavioral ECOLOGY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

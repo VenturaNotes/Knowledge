@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A particular type of experimenter effect in which the expectations of the experimenter as to the likely outcome of the experiment acts as a self-fulfilling prophecy, biasing the results in the direction of the expectation. In a series of classic experiments carried out by the German-born US psychologist Robert Rosenthal (born 1933) in the early 1960s, the effect was induced by telling experimenters what kind of behavior to expect from laboratory animals. In one experiment published in 1963, 12 psychology students were each given five laboratory rats of the same strain, but six were told that the rats had been bred for maze brightness and the other six that they had been bred for maze dullness. The students were given the assignment of running the rats in a maze-learning experiment, and the rats believed to be bright performed significantly better than those believed to be dull. Later research suggested that in such experiments the effect is due to subtle differences in the way experimenters handle the animals. Also called the Rosenthal effect. See also demand characteristics, Oedipus effect, PyGMALION EFFECT.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

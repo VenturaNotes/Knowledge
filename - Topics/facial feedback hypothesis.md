@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The proposition that adopting a facial expression associated with a particular emotion tends to induce that emotion. The hypothesis can be traced back to a remark by the English naturalist Charles (Robert) Darwin (1809-82) in his book, The Expression of the Emotions in Man and Animals (1872): 'Even the simulation of an emotion tends to arouse it in our minds' (p. 336). Darwin proposed a weak version of the hypothesis, according to which expressing an emotion outwardly strengthens the emotional experience and suppressing the outward expression reduces the emotional experience; whereas the US psychologist William James (1842-1910) proposed a strong version, believing that bodily expressions actually cause emotions, as postulated in the James-Lange theory. More recent research has shown that both electrical stimulation of facial muscles to induce expressions artificially and temporary paralysis of facial muscles with Botox injections affect experienced emotions. In an article in the Journal of Personality and Social Psychology in 1988, the German social psychologist Fritz Strack (born 1950) and two colleagues showed that even holding a pen sideways between the teeth so that the mouth is forced into a quasi-smiling position tends to induce positive affect or emotion. See also cognitive-appraisal THEORY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

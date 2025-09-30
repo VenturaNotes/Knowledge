@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Another name for an evoked potential, especially an EEG response to a specific sensory, motor, or cognitive stimulus (5), associated with the sequential processing of information. When evoked by an external event, it is called an exogenous event-related potential, and when evoked by an internal mental process, it is called an endogenous event-related potential. Particular event-related potentials are generally named by the letter P or N, depending on whether their voltage deflections are positive or negative, followed by a number indicating the latency of the waveform's peak in milliseconds. For example, the first major deflection in response to an auditory click is usually a positive defection peaking 50 ms after the stimulus, therefore called P50; but sometimes they are labelled P1, P2, P3 or N1, N2, N3, and so on, the numbers indicating their ordinal positions in the waveform (first, second, and so on). See contingent negative variation, n140, n400, p50, p200, p300, p600. See also average evoked potential, readiness potential, string LENGTH. ERP abbrev.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
