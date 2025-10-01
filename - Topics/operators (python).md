@@ -4,7 +4,7 @@ aliases:
   - operators
 ---
 ## Synthesis
-- 
+- / is used for [[true division (Python)|true division]]
 ## Source [^1]
 
 ```python
@@ -39,9 +39,6 @@ if 5 == 10 or 4 == 4:
 
 # logical operator is "or"
 ```
-## Source [^2]
-- / is used for [[true division (Python)|true division]]
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_operators1
-[^2]: ChatGPT

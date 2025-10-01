@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The process by which memories are lost. See amNestic DISORDER, DECAY THEORY, DISSOCIATIVE AMNESIA, DISSOCIATIVE IDENTITY DISORDER, EBBINGHAUS CURVE, FORGETTING LAW, MEMORY, METHOD OF SAVINGS, PROACTIVE INTERFERENCE, REMINISCENCE (2), RETRIEVAL-INDUCED FORGETTING, RETROACTIVE INTERFERENCE. See also alethia, Cognitive Failures QUESTIONNAIRE, INTENTIONAL FORGETTING.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

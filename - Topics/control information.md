@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source[^1]
 - Within a [[datagrams|datagram]], it includes various fields in the header which provides important details about the transmission including
 	- Source and destination information
 	- error detection
@@ -26,6 +24,8 @@
 	- Additional Fields (Optional)
 		- Protocols like [[DNS]] (Domain Name System) use specific fields within datagram for
 			- query identification, response codes, other parameters
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

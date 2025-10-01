@@ -4212,614 +4212,732 @@ Reviewed: false
 	3279. [[fetishism]]
 	3280. [[fetishistic disorder]]
 	
-	3281. fetishistic transvestism
+	3281. [[fetishistic transvestism]]
 	3282. fetus
-	3283. fibril
-	3284. fibrillation
+		1. $n$. An alternative (etymologically more correct) spelling of foetus. \[From Latin fetus offspring]
+	3283. [[fibril]]
+	3284. [[fibrillation]]
 	3285. fiction, guiding
-	3286. fictional finalism
-	3287. field
-	3288. field adaptation
-	3289. field dependence-independence
-	3290. field effect
+		1. See guiding fiction
+	3286. [[fictional finalism]]
+	3287. [[field]]
+	3288. [[field adaptation]]
+	3289. [[field dependence-independence]]
+	3290. [[field effect]]
 	
-	3291. field experiment
+	3291. [[field experiment]]
 	3292. field of vision
-	3293. field study
-	3294. field theory
-	3295. fight-or-flight response
-	3296. figural aftereffect
-	3297. figure-ground reversal
-	3298. figure of speech
-	3299. filament
-	3300. file drawer problem
+		1. n. Another name for the visual field
+	3293. [[field study]]
+	3294. [[field theory]]
+	3295. [[fight-or-flight response]]
+	3296. [[figural aftereffect]]
+	3297. [[figure-ground reversal]]
+	3298. [[figure of speech]]
+	3299. [[filament]]
+	3300. [[file drawer problem]]
 	
-	3301. filial generation
+	3301. [[filial generation]]
 	3302. filial imprinting
-	3303. filial regression
-	3304. filled-duration illusion
-	3305. filled-space illusion
-	3306. filled pause
-	3307. fillet
-	3308. filling-in
-	3309. filling-in illusion
-	3310. film colour
+		1. See imprinting
+	3303. [[filial regression]]
+	3304. [[filled-duration illusion]]
+	3305. [[filled-space illusion]]
+	3306. [[filled pause]]
+	3307. [[fillet]]
+	3308. [[filling-in]]
+	3309. [[filling-in illusion]]
+	3310. [[film color]]
 	
-	3311. filoform papilla
-	3312. filter
-	3313. filter theory
-	3314. fimbria
-	3315. finger agnosia
+	3311. [[filoform papilla]]
+	3312. [[filter]]
+	3313. [[filter theory]]
+	3314. [[fimbria]]
+	3315. [[finger agnosia]]
 	3316. fingerprint, genetic
+		1. See genetic fingerprinting
 	3317. finger spelling
-	3318. finite-state grammar
+		1. n. Another name for dactylology
+	3318. [[finite-state grammar]]
 	3319. fire-setting, pathological
-	3320. FIRO-Babbrev.
+		1. n. Another name for pyromania.
+	3320. [[FIRO-B]]
 	
 	3321. first-order approximation to language
+		1. See approximation to language
 	3322. first censorship
-	3323. fishberry
-	3324. Fisher's exact test
-	3325. Fisher'srtoztransformation
+		1. See censorship
+	3323. [[fishberry]]
+	3324. [[Fisher's exact test]]
+	3325. [[Fisher's r to z transformation]]
 	3326. Fisher-Yates test
-	3327. fisphenomenon
-	3328. fission
-	3329. fissure
+		1. n. Another name for Fisher's exact test
+	3327. [[fis phenomenon]]
+	3328. [[fission]]
+	3329. [[fissure]]
 	3330. fissure of Rolando
+		1. $n$. Another name for the central sulcus. \[Named after the Italian physician Luigi Rolando (1773-1831)]
 	
 	3331. fissure of Sylvius
-	3332. fitness
-	3333. Fitts' law
+		1. $n$. Another name for the lateral sulcus. \[Named after the Flemish anatomist Franciscus Sylvius (1614-72), also called Franz de le Boë, who apparently discovered it]
+	3332. [[fitness]]
+	3333. [[Fitts' law]]
 	3334. five-factor model
-	3335. five-number summary
-	3336. fixatevb.
-	3337. fixation
-	3338. fixed-action pattern
-	3339. fixed-interval schedule
-	3340. fixed-ratio schedule
+		1. n. Another name for the Big Five. FFM abbrev.
+	3335. [[five-number summary]]
+	3336. [[fixate]]
+	3337. [[fixation]]
+	3338. [[fixed-action pattern]]
+	3339. [[fixed-interval schedule]]
+	3340. [[fixed-ratio schedule]]
 	
-	3341. fixed-role therapy
+	3341. [[fixed-role therapy]]
 	3342. fixed idea
+		1. See IDÉE FIXE.
 	3343. fixed image
+		1. n. Another name for a stabilized retinal image
 	3344. fixedness, functional
-	3345. flanker compatibility effect
-	3346. flash-lag effect
-	3347. flashback
-	3348. flashbulb memory
+		1. See functional fixedness.
+	3345. [[flanker compatibility effect]]
+	3346. [[flash-lag effect]]
+	3347. [[flashback]]
+	3348. [[flashbulb memory]]
 	3349. flattening of affect
-	3350. flavour
+		1. See affective flattening.
+	3350. [[flavor]]
 	
-	3351. flavour aversion learning/conditioning
-	3352. Flesch indices
+	3351. flavor aversion learning/conditioning
+		1. See food aversion learning
+	3352. [[Flesch indices]]
 	3353. Fletcher-Munson contour
+		1. n. Another name for an equal-loudness contour. Also called a Fletcher-Munson curve. \[Named after the US acoustical scientist Harvey Fletcher (1884-1981) and the US engineer Wilden A. Munson (1902-82) who introduced it in 1933]
 	3354. flexibilitas cerea
-	3355. flexion reflex
-	3356. flicker
+		1. See CEREA FLEXIBILITAS.
+	3355. [[flexion reflex]]
+	3356. [[flicker]]
 	3357. flicker fusion frequency
-	3358. flight into health
-	3359. flight into history
-	3360. flight into illness
+		1. n. Another name for critical flicker frequency. fff abbrev.
+	3358. [[flight into health]]
+	3359. [[flight into history]]
+	3360. [[flight into illness]]
 	
-	3361. flight of colours
-	3362. flight of ideas
-	3363. floater
-	3364. floating-finger illusion
-	3365. flocculonodular lobe
-	3366. flooding
-	3367. floor effect
+	3361. [[flight of colors]]
+	3362. [[flight of ideas]]
+	3363. [[floater]]
+	3364. [[floating-finger illusion]]
+	3365. [[flocculonodular lobe]]
+	3366. [[flooding]]
+	3367. [[floor effect]]
 	3368. floral odour
-	3369. flow chart
+		1. See fragrant odor
+	3369. [[flow chart]]
 	3370. flowery odour
+		1. See fragrant odor
 	
 	3371. fluent aphasia
-	3372. fluid intelligence
+		1. See aphasia
+	3372. [[fluid intelligence]]
 	3373. flunitrazepam
-	3374. fluoxetine
-	3375. fluphenazine
+		1. $n$. The chemical name of the benzodiazepine drug Rohypnol, sometimes called the date rape drug.
+	3374. [[fluoxetine]]
+	3375. [[fluphenazine]]
 	3376. flutter, auditory
-	3377. fluvoxamine
-	3378. fly agaric
-	3379. Flynn effect
+		1. See auditory flutter.
+	3377. [[fluvoxamine]]
+	3378. [[fly agaric]]
+	3379. [[Flynn effect]]
 	3380. Fmax
+		1. n. ANother name for Hartley's F max.
 	
-	3381. focal colour
+	3381. [[focal color]]
 	3382. focal epilepsy
-	3383. focal length
-	3384. focal point
-	3385. focal system
-	3386. focal therapy
+		1. n. Another name for Jacksonian epilepsy.
+	3383. [[focal length]]
+	3384. [[focal point]]
+	3385. [[focal system]]
+	3386. [[focal therapy]]
 	3387. focus
-	3388. focus group
-	3389. foetal alcohol syndrome
-	3390. foetal brain transplantation
+		1. See focal point
+	3388. [[focus group]]
+	3389. [[foetal alcohol syndrome]]
+	3390. [[foetal brain transplantation]]
 	
-	3391. foetus
+	3391. [[foetus]]
 	3392. foil
-	3393. foliate papilla
+		1. $n$. In research methodology, another name for a distractor.
+	3393. [[foliate papilla]]
 	3394. folie à deux
-	3395. folium
-	3396. folk etymology
-	3397. folk psychology
-	3398. follicle
-	3399. follicle-stimulating hormone
-	3400. follicular phase
+		1. $n$. Another name for shared psychotic disorder. Also folie à trois (a delusion shared by three people living together), folie à quatre (a delusion shared by four people living together), and so on. \[French folie insanity + à of + deux two]
+	3395. [[folium]]
+	3396. [[folk etymology]]
+	3397. [[folk psychology]]
+	3398. [[follicle]]
+	3399. [[follicle-stimulating hormone]]
+	3400. [[follicular phase]]
 	
-	3401. following behaviour
+	3401. [[following behavior]]
 	3402. Folstein Mini-Mental State Examination
-	3403. fontanelle
-	3404. food aversion learning
-	3405. food chain
+		1. See Mini-mental state examination
+	3403. [[fontanelle]]
+	3404. [[food aversion learning]]
+	3405. [[food chain]]
 	3406. foot-candle
-	3407. foot-in-the-door technique
-	3408. foot-lambert
+		1. $n$. An obsolescent unit of illuminance, equal to one lumen per square foot. See also FOOT-LAMBERT. fc abbrev.
+	3407. [[foot-in-the-door technique]]
+	3408. [[foot-lambert]]
 	3409. footbridge problem
-	3410. foramen magnum
+		1. See trolley problem.
+	3410. [[foramen magnum]]
 	
-	3411. foramen of Monro
-	3412. forced-choice
-	3413. forced compliance
-	3414. forebrain
-	3415. foreclosure
-	3416. foreign accent syndrome
-	3417. forensic linguistics
-	3418. forensic psychiatry
-	3419. forensic psychology
-	3420. foreplay
+	3411. [[foramen of Monro]]
+	3412. [[forced-choice]]
+	3413. [[forced compliance]]
+	3414. [[forebrain]]
+	3415. [[foreclosure]]
+	3416. [[foreign accent syndrome]]
+	3417. [[forensic linguistics]]
+	3418. [[forensic psychiatry]]
+	3419. [[forensic psychology]]
+	3420. [[foreplay]]
 	
-	3421. forgetting
-	3422. forgetting law
-	3423. formal operations
-	3424. formal universals
-	3425. formant
+	3421. [[forgetting]]
+	3422. [[forgetting law]]
+	3423. [[formal operations]]
+	3424. [[formal universals]]
+	3425. [[formant]]
 	3426. form constancy
-	3427. formication
-	3428. fornix
+		1. n. Another name for shape constancy. See also perceptual constancy.
+	3427. [[formication]]
+	3428. [[fornix]]
 	3429. Förster phenomenon
-	3430. fortis
+		1. n. Another name for the Aubert-Förster phenomenon.
+	3430. [[fortis]]
 	
 	3431. Fortral
-	3432. forward association
-	3433. forward conditioning
-	3434. forward masking
+		1. $n$. A proprietary name for the narcotic analgesic drug pentazocine. \[Trademark]
+	3432. [[forward association]]
+	3433. [[forward conditioning]]
+	3434. [[forward masking]]
 	3435. founded content
-	3436. founder effect
+		1. $n$. Another name for Gestaltqualität. \[From found to cast metal or some other substance by melting and pouring it into a mould]
+	3436. [[founder effect]]
 	3437. four-card problem
-	3438. Fourier analysis
-	3439. Fourier series
-	3440. Fourier theorem
+		1. n. Another name for the Wason selection task.
+	3438. [[Fourier analysis]]
+	3439. [[Fourier series]]
+	3440. [[Fourier theorem]]
 	
-	3441. Fourier transform
+	3441. [[Fourier transform]]
 	3442. fourth ventricle
-	3443. fovea
-	3444. fractionation
-	3445. fragile X syndrome
-	3446. fragrant odour
-	3447. frame
-	3448. frame problem
-	3449. frameshift mutation
-	3450. frameshift suppression
+		1. See ventricle
+	3443. [[fovea]]
+	3444. [[fractionation]]
+	3445. [[fragile X syndrome]]
+	3446. [[fragrant odor]]
+	3447. [[frame]]
+	3448. [[frame problem]]
+	3449. [[frameshift mutation]]
+	3450. [[frameshift suppression]]
 	
-	3451. framing effect
-	3452. Frankfurt school
+	3451. [[framing effect]]
+	3452. [[Frankfurt school]]
 	3453. Fraser illusion
-	3454. Fraser spiral
+		1. $n$. Another name for any of the forms of the twisted-cord illusion, which Fraser himself called the 'twisted cord with a chequer-work background illusion'. See also Fraser spiral. \[Named after the Scottish physician and psychologist James Fraser (1863-1936) who published it as a new illusion in the British Journal of Psychology in 1908]
+	3454. [[Fraser spiral]]
 	3455. fraternal twins
+		1. $n$. A non-technical name for dizygotic twins. \[From Latin frater a brother]
 	3456. fraud syndrome
+		1. $n$. Another name for the imposter phenomenon. \[From Latin fraus deception, from fraudare to deceive]
 	3457. free-floating anxiety
+		1. n. Another name for generalized anxiety disorder
 	3458. free-rider problem
-	3459. free association
-	3460. freebasing
+		1. $n$. Another name for a public goods dilemma. \[From the colloquial term free-rider, a person who enjoys benefits obtained for workers by a trade union without joining the union]
+	3459. [[free association]]
+	3460. [[freebasing]]
 	
-	3461. free energy
-	3462. Freemish crate
-	3463. free morpheme
-	3464. free nerve ending
+	3461. [[free energy]]
+	3462. [[Freemish crate]]
+	3463. [[free morpheme]]
+	3464. [[free nerve ending]]
 	3465. free operant avoidance conditioning
-	3466. free radical
-	3467. free recall
-	3468. free response
-	3469. Frégoli syndrome
-	3470. frequency
+		1. n. Another name for Sidman avoidance conditioning
+	3466. [[free radical]]
+	3467. [[free recall]]
+	3468. [[free response]]
+	3469. [[Frégoli syndrome]]
+	3470. [[frequency]]
 	
-	3471. frequency-dependent
-	3472. frequency-dependent selection
-	3473. frequency distribution
-	3474. frequency law
-	3475. frequency polygon
-	3476. frequency theory
+	3471. [[frequency-dependent]]
+	3472. [[frequency-dependent selection]]
+	3473. [[frequency distribution]]
+	3474. [[frequency law]]
+	3475. [[frequency polygon]]
+	3476. [[frequency theory]]
 	3477. frequency threshold curve
+		1. n. Another name for the tuning curve. FTC abbrev.
 	3478. frequency tuning curve
-	3479. Freudian
+		1. n. Another name for the tuning curve. FTC abbrev.
+	3479. [[Freudian]]
 	3480. Freudian slip
+		1. n. A colloquial name for a parapraxis.
 	
-	3481. fricative
-	3482. Friedman two-way analysis of variance
-	3483. fright
-	3484. frigidity
+	3481. [[fricative]]
+	3482. [[Friedman two-way analysis of variance]]
+	3483. [[fright]]
+	3484. [[frigidity]]
 	3485. frog-pond effect
-	3486. Fromm's typology
+		1. $n$. Another name for the big-fish-little-pond effect.
+	3486. [[Fromm's typology]]
 	3487. frontal eye field
-	3488. frontal leucotomy
-	3489. frontal lobe
-	3490. frontal lobe syndrome
+		1. See motor cortex. FEF abbrev.
+	3488. [[frontal leucotomy]]
+	3489. [[frontal lobe]]
+	3490. [[frontal lobe syndrome]]
 	
-	3491. frontal lobotomy
+	3491. [[frontal lobotomy]]
 	3492. frontal plane
+		1. n. Another name for a coronal plane.
 	3493. frontal section
-	3494. frontopolar cortex
-	3495. frontotemporal neurocognitive disorder
-	3496. front vowel
-	3497. frotteurism
-	3498. frotteuristic disorder
-	3499. frozen noise
-	3500. frustration
+		1. n. Another name for a coronal section.
+	3494. [[frontopolar cortex]]
+	3495. [[frontotemporal neurocognitive disorder]]
+	3496. [[front vowel]]
+	3497. [[frotteurism]]
+	3498. [[frotteuristic disorder]]
+	3499. [[frozen noise]]
+	3500. [[frustration]]
 	
-	3501. frustration-aggression hypothesis
-	3502. F scale
-	3503. Fstatistic
-	3504. fugue
-	3505. Fullerton-Cattell law
+	3501. [[frustration-aggression hypothesis]]
+	3502. [[F scale]]
+	3503. [[F statistic]]
+	3504. [[fugue]]
+	3505. [[Fullerton-Cattell law]]
 	3506. full primal sketch
-	3507. functional
-	3508. functional analysis of behaviour
-	3509. functional autonomy
-	3510. functional equivalence hypothesis
+		1. See primal sketch
+	3507. [[functional]]
+	3508. [[functional analysis of behavior]]
+	3509. [[functional autonomy]]
+	3510. [[functional equivalence hypothesis]]
 	
-	3511. functional fixedness
-	3512. functionalism
-	3513. functionalist
+	3511. [[functional fixedness]]
+	3512. [[functionalism]]
+	3513. [[functionalist]]
 	3514. functional MRI
+		1. See MRI.
 	3515. functional neurological symptom disorder
-	3516. function type
-	3517. function word
-	3518. fundamental attribution error
-	3519. fundamental colour
-	3520. fundamental frequency
+		1. See conversion disorder
+	3516. [[function type]]
+	3517. [[function word]]
+	3518. [[fundamental attribution error]]
+	3519. fundamental color
+		1. $n$. Another name for a primary color (1, 2, or 3). US fundamental color.
+	3520. [[fundamental frequency]]
 	
-	3521. fundamental rule of psychoanalysis
-	3522. fungiform papilla
-	3523. funiculus
-	3524. furthest neighbour method
+	3521. [[fundamental rule of psychoanalysis]]
+	3522. [[fungiform papilla]]
+	3523. [[funiculus]]
+	3524. furthest neighbor method
+		1. n. Another name for complete linkage clustering
 	3525. fusiform cell
-	3526. fusiform gyrus
+		1. n. Another name for a spindle cell. \[From Latin fusus a spindle + forma a shape]
+	3526. [[fusiform gyrus]]
 	3527. fusion
+		1. See binocular fusion
 	3528. fusional language
-	3529. fusion of instincts
-	3530. fuzzy logic
+		1. n. Another name for an inflecting language
+	3529. [[fusion of instincts]]
+	3530. [[fuzzy logic]]
 	
-	3531. fuzzy set
-	3532. gabbrev.
-	3533. GABAabbrev.
-	3534. GABAergic
-	3535. GABA receptor complex
-	3536. gag reflex
+	3531. [[fuzzy set]]
+	3532. [[g]]
+	3533. [[GABA]]
+	3534. [[GABAergic]]
+	3535. [[GABA receptor complex]]
+	3536. [[gag reflex]]
 	3537. gain, primary/secondary
-	3538. gain-loss effect
-	3539. gain from illness
-	3540. gain score
+		1. See primary gain, secondary gain.
+	3538. [[gain-loss effect]]
+	3539. [[gain from illness]]
+	3540. [[gain score]]
 	
-	3541. gait apraxia
-	3542. gait ataxia
-	3543. Galatea effect
-	3544. gall bladder
+	3541. [[gait apraxia]]
+	3542. [[gait ataxia]]
+	3543. [[Galatea effect]]
+	3544. [[gall bladder]]
 	3545. Galton's law of filial regression
-	3546. Galton bar
-	3547. Galton whistle
-	3548. galvanic skin response
-	3549. gambler's fallacy
+		1. $n$. Another name for filial regression. \[Named after the English explorer and scientist Sir Francis Galton (1822-1911) who first drew attention to it]
+	3546. [[Galton bar]]
+	3547. [[Galton whistle]]
+	3548. [[galvanic skin response]]
+	3549. [[gambler's fallacy]]
 	3550. gambling, pathological
+		1. See gambling disorder
 	
-	3551. gambling disorder
-	3552. game
-	3553. gamete
-	3554. game theory
+	3551. [[gambling disorder]]
+	3552. [[game]]
+	3553. [[gamete]]
+	3554. [[game theory]]
 	3555. gamma-aminobutyric acid
+		1. $n$. The full name of what is usually called GABA. \[From gamma $(\gamma)$ the third letter of the Greek alphabet + amine + Greek boutyron butter, from bous ox + tyros cheese + -ikos of, relating to, or resembling]
 	3556. Gamma-hydroxybutyrate
+		1. See GHB.
 	3557. gamma-OH
-	3558. gamma fibre
-	3559. gamma motor neuron
-	3560. gamma movement
+		1. n. A proprietary name for gamma-hydroxybutyrate. See GHB.
+	3558. [[gamma fibre]]
+	3559. [[gamma motor neuron]]
+	3560. [[gamma movement]]
 	
-	3561. gamma statistic
-	3562. gamma wave
+	3561. [[gamma statistic]]
+	3562. [[gamma wave]]
 	3563. gamodeme
-	3564. ganglion
-	3565. ganglion cell
+		1. See deme
+	3564. [[ganglion]]
+	3565. [[ganglion cell]]
 	3566. ganja
-	3567. Ganser syndrome
-	3568. Ganzfeld
-	3569. gap junction
+		1. $n$. A common street name for cannabis. \[From Hindi gaja, from Sanskrit grñja]
+	3567. [[Ganser syndrome]]
+	3568. [[Ganzfeld]]
+	3569. [[gap junction]]
 	3570. Garcia effect
+		1. $n$. Another name for food aversion learning. \[Named after the US psychologist John Garcia (1917-2012) who did much of the early work on it]
 	
-	3571. gargoylism
-	3572. gastric gland
-	3573. gastrointestinal
+	3571. [[gargoylism]]
+	3572. [[gastric gland]]
+	3573. [[gastrointestinal]]
 	3574. gastrointestinal tract
-	3575. gate-control theory
-	3576. gateway drug
-	3577. gating
-	3578. Gause's principle
+		1. n. Another name for the alimentary canal.
+	3575. [[gate-control theory]]
+	3576. [[gateway drug]]
+	3577. [[gating]]
+	3578. [[Gause's principle]]
 	3579. Gaussian distribution
-	3580. gay
+		1. $n$. Another name for the normal distribution. \[Named after the mathematician Johann Karl Friedrich Gauss (1777-1855), born in the Duchy of Brunswick in what is now Germany, who investigated its basic properties]
+	3580. [[gay]]
 	
-	3581. gazevb.
-	3582. gaze aversion
-	3583. GBHabbrev.
+	3581. [[gaze]]
+	3582. [[gaze aversion]]
+	3583. [[GBH]]
 	3584. gear
-	3585. Gedankenexperiment
-	3586. Gelb effect
+		1. n. A common street name for heroin.
+	3585. [[Gedankenexperiment]]
+	3586. [[Gelb effect]]
 	3587. gel electrophoresis
-	3588. gender
-	3589. gender dysphoria
-	3590. gender identity
+		1. See electrophoresis
+	3588. [[gender]]
+	3589. [[gender dysphoria]]
+	3590. [[gender identity]]
 	
 	3591. gender identity disorder
-	3592. gender role
-	3593. gene
-	3594. gene activator
-	3595. gene amplification
-	3596. gene cloning
-	3597. gene complex
-	3598. gene expression
-	3599. gene frequency
-	3600. gene locus
+		1. $n$. A term used in DSM-IV for what was later renamed gender dysphoria. GID abbrev.
+	3592. [[gender role]]
+	3593. [[gene]]
+	3594. [[gene activator]]
+	3595. [[gene amplification]]
+	3596. [[gene cloning]]
+	3597. [[gene complex]]
+	3598. [[gene expression]]
+	3599. [[gene frequency]]
+	3600. [[gene locus]]
 	
-	3601. gene mapping
-	3602. gene operator
-	3603. gene pool
+	3601. [[gene mapping]]
+	3602. [[gene operator]]
+	3603. [[gene pool]]
 	3604. genera
+		1. n. pl. Plural of genus
 	3605. general ability
-	3606. general adaptation syndrome
-	3607. general factor of personality
-	3608. General Health Questionnaire
-	3609. generalizability theory
+		1. See G.
+	3606. [[general adaptation syndrome]]
+	3607. [[general factor of personality]]
+	3608. [[General Health Questionnaire]]
+	3609. [[generalizability theory]]
 	3610. generalization, acoustic
+		1. See acoustic generalization.
 	
 	3611. generalization, semantic
-	3612. generalization gradient
-	3613. generalized anxiety disorder
-	3614. generalized cone
-	3615. generalized habit strength
+		1. See semantic generalization
+	3612. [[generalization gradient]]
+	3613. [[generalized anxiety disorder]]
+	3614. [[generalized cone]]
+	3615. [[generalized habit strength]]
 	3616. generalized matching to sample
-	3617. generalized oddity problem
-	3618. generalized reaction potential
-	3619. general medical condition
+		1. See matching to sample.
+	3617. [[generalized oddity problem]]
+	3618. [[generalized reaction potential]]
+	3619. [[general medical condition]]
 	3620. general paralysis (paresis) of the insane
+		1. $n$. An obsolete term for neurological impairments arising from tertiary syphilis. See also PAREsis. GPI abbrev.
 	
-	3621. General Problem Solver
-	3622. general systems theory
-	3623. generative grammar
-	3624. generativity versus stagnation
-	3625. generator potential
-	3626. gene regulator
-	3627. gene repressor
-	3628. generic knowledge
-	3629. gene splicing
-	3630. gene therapy
+	3621. [[General Problem Solver]]
+	3622. [[general systems theory]]
+	3623. [[generative grammar]]
+	3624. [[generativity versus stagnation]]
+	3625. [[generator potential]]
+	3626. [[gene regulator]]
+	3627. [[gene repressor]]
+	3628. [[generic knowledge]]
+	3629. [[gene splicing]]
+	3630. [[gene therapy]]
 	
-	3631. genetic activation
-	3632. genetically modified
-	3633. genetic code
-	3634. genetic counselling
+	3631. [[genetic activation]]
+	3632. [[genetically modified]]
+	3633. [[genetic code]]
+	3634. [[genetic counselling]]
 	3635. genetic dominance
-	3636. genetic drift
-	3637. genetic engineering
-	3638. genetic epistemology
-	3639. genetic equilibrium
-	3640. genetic fingerprint
+		1. See dominance (genetic)
+	3636. [[genetic drift]]
+	3637. [[genetic engineering]]
+	3638. [[genetic epistemology]]
+	3639. [[genetic equilibrium]]
+	3640. [[genetic fingerprint]]
 	
-	3641. genetic fingerprinting
+	3641. [[genetic fingerprinting]]
 	3642. genetic fitness
-	3643. genetic genealogy
-	3644. genetic imprinting
+		1. See fitness
+	3643. [[genetic genealogy]]
+	3644. [[genetic imprinting]]
 	3645. genetic mapping
-	3646. genetic polymorphism
+		1. n. Another name for gene mapping
+	3646. [[genetic polymorphism]]
 	3647. genetic recombination
-	3648. genetic repression
-	3649. genetics
-	3650. genetic sexual attraction
+		1. See DNA recombination
+	3648. [[genetic repression]]
+	3649. [[genetics]]
+	3650. [[genetic sexual attraction]]
 	
-	3651. genetic variance
-	3652. genetic variation
-	3653. genital character
-	3654. genital love
-	3655. genital stage
-	3656. genito-pelvic pain/penetration disorder
-	3657. genius
+	3651. [[genetic variance]]
+	3652. [[genetic variation]]
+	3653. [[genital character]]
+	3654. [[genital love]]
+	3655. [[genital stage]]
+	3656. [[genito-pelvic pain-penetration disorder]]
+	3657. [[genius]]
 	3658. genodeme
-	3659. genogram
-	3660. genome
+		1. See deme
+	3659. [[genogram]]
+	3660. [[genome]]
 	
-	3661. genotropism
-	3662. genotype
+	3661. [[genotropism]]
+	3662. [[genotype]]
 	3663. genotypic variance
-	3664. genu
-	3665. genus
-	3666. geometric illusion
-	3667. geometric mean
-	3668. geon
-	3669. geophagia
-	3670. geriatrics
+		1. n. Another name for genetic variance. See heritability.
+	3664. [[genu]]
+	3665. [[genus]]
+	3666. [[geometric illusion]]
+	3667. [[geometric mean]]
+	3668. [[geon]]
+	3669. [[geophagia]]
+	3670. [[geriatrics]]
 	
 	3671. germ cell
-	3672. germ line
-	3673. germ plasm
-	3674. gerontology
-	3675. gerontophilia
-	3676. geropsychology
-	3677. Gerstmann-Sträussler-Scheinker syndrome
-	3678. Gerstmann syndrome
-	3679. Gesell Developmental Schedules
-	3680. Gestalt
+		1. $n$. Another name for a gamete or sexual reproductive cell. \[From Latin germen a seed]
+	3672. [[germ line]]
+	3673. [[germ plasm]]
+	3674. [[gerontology]]
+	3675. [[gerontophilia]]
+	3676. [[geropsychology]]
+	3677. [[Gerstmann-Sträussler-Scheinker syndrome]]
+	3678. [[Gerstmann syndrome]]
+	3679. [[Gesell Developmental Schedules]]
+	3680. [[Gestalt]]
 	
-	3681. Gestalt psychology
-	3682. Gestaltqualität
-	3683. Gestalt therapy
-	3684. gesture
-	3685. geusis
-	3686. GHBabbrev.
-	3687. ghost in the machine
-	3688. ghost sickness
-	3689. ghrelin
-	3690. Gibsonian
+	3681. [[Gestalt psychology]]
+	3682. [[Gestaltqualität]]
+	3683. [[Gestalt therapy]]
+	3684. [[gesture]]
+	3685. [[geusis]]
+	3686. [[GHB]]
+	3687. [[ghost in the machine]]
+	3688. [[ghost sickness]]
+	3689. [[ghrelin]]
+	3690. [[Gibsonian]]
 	
-	3691. giftedness
+	3691. [[giftedness]]
 	3692. gift of tongues
+		1. n. A non-technical name for glossolalia
 	3693. Gilles de la Tourette's syndrome
-	3694. ginkgo
-	3695. ginseng
-	3696. gland
-	3697. glaucoma
+		1. n. Another name for Tourette's disorder
+	3694. [[ginkgo]]
+	3695. [[ginseng]]
+	3696. [[gland]]
+	3697. [[glaucoma]]
 	3698. glia
-	3699. glide
-	3700. glioblastoma
+		1. $n$. A short name for neuroglia. Often mistakenly assumed to be a plural of glion (a spurious back formation), but in fact singular like the word glue. See also macrogla, microglia, neuroglia. glial adj. \[From Greek glia glue]
+	3699. [[glide]]
+	3700. [[glioblastoma]]
 	
-	3701. glioma
-	3702. gliosis
-	3703. global amnesia
-	3704. global feature
+	3701. [[glioma]]
+	3702. [[gliosis]]
+	3703. [[global amnesia]]
+	3704. [[global feature]]
 	3705. global processing
-	3706. global psychophysics
+		1. See global feature, navon figure
+	3706. [[global psychophysics]]
 	3707. globus hystericus
-	3708. globus pallidus
-	3709. glomerulus
+		1. $n$. The medical name for a lump in the throat.
+	3708. [[globus pallidus]]
+	3709. [[glomerulus]]
 	3710. glossa
+		1. $n$. The technical name for the tongue. glossal adj. \[From Greek glossa a tongue]
 	
-	3711. glossogenetics
-	3712. glossograph
+	3711. [[glossogenetics]]
+	3712. [[glossograph]]
 	3713. glossographia
-	3714. glossolalia
-	3715. glossopalatine nerve
-	3716. glossopharyngeal nerve
-	3717. glossosynthesis
-	3718. glottal
+		1. n. A written variant of glossolalia
+	3714. [[glossolalia]]
+	3715. [[glossopalatine nerve]]
+	3716. [[glossopharyngeal nerve]]
+	3717. [[glossosynthesis]]
+	3718. [[glottal]]
 	3719. glottal fry
-	3720. glottis
+		1. See vocal fry
+	3720. [[glottis]]
 	
-	3721. glottochronology
-	3722. glove anaesthesia
-	3723. glucagon
-	3724. glucocorticoid
-	3725. glucose
-	3726. glucostatic theory
-	3727. glue-sniffing
-	3728. glutamate
-	3729. glutamic acid
-	3730. glutamic acid decarboxylase
+	3721. [[glottochronology]]
+	3722. [[glove anaesthesia]]
+	3723. [[glucagon]]
+	3724. [[glucocorticoid]]
+	3725. [[glucose]]
+	3726. [[glucostatic theory]]
+	3727. [[glue-sniffing]]
+	3728. [[glutamate]]
+	3729. [[glutamic acid]]
+	3730. [[glutamic acid decarboxylase]]
 	
-	3731. glutethimide
-	3732. glycine
-	3733. glycogen
-	3734. glycol
-	3735. glycolysis
-	3736. GnRHabbrev.
-	3737. goal-gradient hypothesis
-	3738. God-image
-	3739. Gödel's theorem
-	3740. Goldilocks effect
+	3731. [[glutethimide]]
+	3732. [[glycine]]
+	3733. [[glycogen]]
+	3734. [[glycol]]
+	3735. [[glycolysis]]
+	3736. GnRH
+		1. abbrev. Gonadotrophin-releasing hormone. See GONADOTROPHIN.
+	3737. [[goal-gradient hypothesis]]
+	3738. [[God-image]]
+	3739. [[Gödel's theorem]]
+	3740. [[Goldilocks effect]]
 	
-	3741. Goldstein-Scheerer tests
-	3742. Golem effect
-	3743. Golgi apparatus
-	3744. Golgi cell
-	3745. Golgi stain
-	3746. Golgi tendon organ
-	3747. gonad
-	3748. gonadotrophin
+	3741. [[Goldstein-Scheerer tests]]
+	3742. [[Golem effect]]
+	3743. [[Golgi apparatus]]
+	3744. [[Golgi cell]]
+	3745. [[Golgi stain]]
+	3746. [[Golgi tendon organ]]
+	3747. [[gonad]]
+	3748. [[gonadotrophin]]
 	3749. gonadotrophin-releasing hormone
-	3750. good-enough mother
+		1. $n$. Another name for luteinizing hormone releasing hormone. Also spelt gonadotropin-releasing hormone. GnRH abbrev.
+	3750. [[good-enough mother]]
 	
-	3751. good breast
-	3752. good continuation
+	3751. [[good breast]]
+	3752. [[good continuation]]
 	3753. Goodenough Draw-a-Man test
+		1. See Draw-A-MAN TEST. \[Named after the US psychologist Florence Laura Goodenough (1886-1959) who introduced it in 1926]
 	3754. good figure
-	3755. good Gestalt
-	3756. Goodman's paradox
+		1. n. Another name for good Gestalt.
+	3755. [[good Gestalt]]
+	3756. [[Goodman's paradox]]
 	3757. Goodman-Kruskal gamma
-	3758. Goodman-Kruskal lambda
-	3759. goodness of fit
-	3760. good object
+		1. n. Another name for the gamma statistic. \[Named after the US statisticians Leo A. Goodman (born 1928) and William Henry Kruskal (1919-2005) who developed it in a series of articles beginning in 1954, and gamma $(\gamma)$, the third letter of the Greek alphabet]
+	3758. [[Goodman-Kruskal lambda]]
+	3759. [[goodness of fit]]
+	3760. [[good object]]
 	
 	3761. good shape
+		1. n. Another name for good gestalt
 	3762. goofers
-	3763. goose pimples
+		1. n. A street name for barbiturate drugs in general.
+	3763. [[goose pimples]]
 	3764. Gottschaldt figures test
+		1. $n$. Another name for the embedded-figures test. \[Named after the German psychologist Kurt Gottschaldt (1902-91) who published it in the journal Psychologische Forschung in 1926]
 	3765. Gough Adjective Check List
-	3766. government and binding
-	3767. Graafian follicle
-	3768. graceful degradation
-	3769. gracile nucleus
+		1. $n$. Another name for the Adjective Check List. \[Named after the US psychologist Harrison G. Gough (1921-2014) who introduced it in 1952 and discussed its psychometric properties in an article in the journal Psychological Reports in 1960]
+	3766. [[government and binding]]
+	3767. [[Graafian follicle]]
+	3768. [[graceful degradation]]
+	3769. [[gracile nucleus]]
 	3770. gradation method
+		1. See method of gradation.
 	
-	3771. grade-equivalent score
-	3772. graded potential
-	3773. gradient descent
+	3771. [[grade-equivalent score]]
+	3772. [[graded potential]]
+	3773. [[gradient descent]]
 	3774. gradient of texture
-	3775. Graduate Records Examination
+		1. See texture gradient.
+	3775. [[Graduate Records Examination]]
 	3776. Gräfenberg spot
+		1. See G spot
 	3777. gram calorie
-	3778. grammar
+		1. See calorie
+	3778. [[grammar]]
 	3779. grandeur, delusion of
-	3780. grandiose delusion
+		1. See grandiose delusion
+	3780. [[grandiose delusion]]
 	
-	3781. grandiose delusional disorder
-	3782. grandiose ideas
-	3783. grandiose self
+	3781. [[grandiose delusional disorder]]
+	3782. [[grandiose ideas]]
+	3783. [[grandiose self]]
 	3784. grand mal
-	3785. grandmother cell
-	3786. granule cell
-	3787. granulocyte
-	3788. grapheme
-	3789. graphic rating scale
-	3790. graphology
+		1. $n$. An obsolescent synonym for tonic-clonic. \[French: literally big illness]
+	3785. [[grandmother cell]]
+	3786. [[granule cell]]
+	3787. [[granulocyte]]
+	3788. [[grapheme]]
+	3789. [[graphic rating scale]]
+	3790. [[graphology]]
 	
-	3791. graphomania
-	3792. graphorrhoea
-	3793. grasp reflex
+	3791. [[graphomania]]
+	3792. [[graphorrhoea]]
+	3793. [[grasp reflex]]
 	3794. grass
-	3795. Grassmann's law (linguistics)
-	3796. Grassmann's laws (perception)
-	3797. grating
+		1. $n$. A common street name for cannabis, especially in the form of marijuana.
+	3795. [[Grassmann's law]]
+	3796. [[Grassmann's laws]]
+	3797. [[grating]]
 	3798. gray matter
-	3799. Great Vowel Shift
-	3800. Greenspoon effect
+		1. See grey matter
+	3799. [[Great Vowel Shift]]
+	3800. [[Greenspoon effect]]
 	
-	3801. Grelling's paradox
-	3802. grey matter
+	3801. [[Grelling's paradox]]
+	3802. [[grey matter]]
 	3803. Gricean maxims
-	3804. grid analysis
+		1. n. Another name for conversational maxims.
+	3804. [[grid analysis]]
 	3805. grid test
-	3806. grief reaction
-	3807. Grimm's law
-	3808. grooming
-	3809. grounded theory
-	3810. group dynamics
+		1. See Repertory Grid Test.
+	3806. [[grief reaction]]
+	3807. [[Grimm's law]]
+	3808. [[grooming]]
+	3809. [[grounded theory]]
+	3810. [[group dynamics]]
 	
-	3811. group factor
-	3812. grouping law
+	3811. [[group factor]]
+	3812. [[grouping law]]
 	3813. group inhibition of helping
-	3814. group movement
-	3815. group polarization
-	3816. group selection
+		1. See bystander effect
+	3814. [[group movement]]
+	3815. [[group polarization]]
+	3816. [[group selection]]
 	3817. group stereotype
-	3818. group test
-	3819. group therapy
-	3820. groupthink
+		1. See stereotype
+	3818. [[group test]]
+	3819. [[group therapy]]
+	3820. [[groupthink]]
 	
-	3821. growth hormone
-	3822. growth hormone releasing hormone
-	3823. Grübelsucht
+	3821. [[growth hormone]]
+	3822. [[growth hormone releasing hormone]]
+	3823. [[Grübelsucht]]
 	3824. grue paradox
-	3825. G spotabbrev.
-	3826. guanine
-	3827. guided discovery
-	3828. guiding fiction
-	3829. Guilford's cube
-	3830. Gulf War Syndrome
+		1. n. Another name for Goodman's paradox
+	3825. [[G spot]]
+	3826. [[guanine]]
+	3827. [[guided discovery]]
+	3828. [[guiding fiction]]
+	3829. [[Guilford's cube]]
+	3830. [[Gulf War Syndrome]]
 	
-	3831. guppy effect
-	3832. gustation
-	3833. gustatory acuity
+	3831. [[guppy effect]]
+	3832. [[gustation]]
+	3833. [[gustatory acuity]]
 	3834. gustatory hallucination
 	3835. gustatory receptor
 	3836. Guttman scale

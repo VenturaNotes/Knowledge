@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
 - Refers to the process of using logical thinking and principles to understand, justify, and prove mathematical concepts, statements, or problems. 
 - Types of mathematical reasoning include:
 	- [[Deductive reasoning]]
@@ -9,6 +7,8 @@
 		- #question what was the remaining things here?
 	- [[Abductive reasoning]]
 	- [[Analytic reasoning]]
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

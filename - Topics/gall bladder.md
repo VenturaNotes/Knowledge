@@ -15,7 +15,10 @@
 		- pancreatic duct
 ## Source[^2]
 - A small pouch attached to the bile duct, present in most vertebrates. Bile, produced in the liver, is stored in the gall bladder and released when food (especially fatty substances) enters the duodenum.
+## Source[^3]
+- $n$. A muscular sac attached to the right side of the liver that releases bile into the duodenum. \[From Greek chole bile]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,6 +1,7 @@
 ## Synthesis
-## Source[^1]
 - [[Unit Cell]]
 - [[Crystal Systems]] and [[Lattice Structures]]
+## Source[^1]
+- 
 ## References
-[^1]: ChatGPT
+[^1]: 

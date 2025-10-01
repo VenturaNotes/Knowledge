@@ -6,7 +6,6 @@
 	- Parts of Speech
 	- Inflection
 	- Syntax
-
 ## Source[^2]
 - One of the principal ways of specifying an infinite formal language by finite means. A grammar consists of a set of rules (called productions or [[rewrite rule|rewrite rules]]) that may be used to derive one string from another by substring replacement. The strings of the specified language are obtained by repeated application of these rules, starting from some initial string. A grammar however has the additional feature that the alphabet is divided into a set $T$ of [[terminal symbol|terminal symbols]] and a set $N$ of nonterminal symbols (or variables). While productions may be composed arbitrarily of terminals and nonterminals, the specified language contains strings of terminals only.
 
@@ -61,7 +60,12 @@ This is the most general form of grammar. Typically however some restriction is 
   
 
 A slightly different way of generating a language is by means of an L-system (or Lindenmeyer system). A different approach altogether is to define a machine that tests any string for membership of the language, i.e. an automaton.
+## Source[^3]
+- n. 
+- (1) The branch of linguistics concerned with sentence structure, especially syntax and morphology (2).
+- (2) The system of implicit rules governing a speaker's use of a language, especially semantics and phonology. See also CASE GRAMMAR, CONTEXT-DEPENDENT GRAMMAR, CONTEXT-FREE GRAMMAR, FINITE-STATE GRAMMAR, GENERATIVE GRAMMAR, PHRASE-STRUCTURE GRAMMAR, PIVOT GRAMMAR, TRANSFORMATIONAL GRAMMAR, UNIVERSAL GRAMMAR. \[From Greek grammatikos concerning letters]
 ## References
 
 [^1]: https://youtu.be/tdkYOla0CiQ?si=jalrDjw7G9ZWsHe6
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

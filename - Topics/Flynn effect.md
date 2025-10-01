@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A secular increase in average IQ scores, typically averaging about three IQ points per decade, that has been occurring since the introduction of IQ tests in many industrialized societies, including the United States, the United Kingdom, Belgium, France, The Netherlands, Norway, Israel, Canada, New Zealand, Australia, and Japan, the effect being most pronounced on measures of fluid intelligence such as Raven's Progressive Matrices. Because IQ tests are periodically re-standardized to a mean of 100, the increase is not apparent in continuously rising average IQ scores, but people who score 100 on a newly standardized test tend to score more than 100 on older ones. The effect has been attributed to various causes, including improved nutrition and parenting, better schooling, increased test-taking sophistication, and various effects of growing up with television and video games in an increasingly complex environment, but it is generally acknowledged to be poorly understood and largely mysterious. See also cohort. \[Named after the US-born New Zealand political scientist James R(obert) Flynn (born 1934) who was the first to draw attention to it in two influential articles in the journal Psychological Bulletin in 1984 and 1987]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -3,8 +3,6 @@ aliases:
   - with
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Used for resource management and ensures that resources are properly acquired and released.
 	- Used for handling file operations, where it ensures that files are closed after their suite finishes, even if an error occurs
 		- #question What are the file operations?
@@ -20,6 +18,8 @@ aliases:
 		- #question How does file handling work in python
 		- #question What kind of network connections do we have to work with. Is this basically network programming?
 		- #question what are locks in python? 
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

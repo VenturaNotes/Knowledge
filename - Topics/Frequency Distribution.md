@@ -7,7 +7,10 @@
 - The term frequency distribution is applied to observed data in a sample. In contrast, probability distributions are theoretical formulas for the probability of observing each event. Fitting probability distributions to observed frequency distributions is a fundamental statistical method of data analysis.
 ## Source[^2]
 - (in statistics) a presentation in the form of a table or graph of the number of times that the categories of a categorical variable (e.g. sex) occur in a sample of observations. See DISTRIBUTION.
+## Source[^3]
+- $n$. In statistics, a table or graph showing classes into which the data have been grouped, together with their corresponding frequencies, that is, the number of scores falling into each class.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

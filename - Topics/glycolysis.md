@@ -16,7 +16,10 @@
 		- glycerate 3-phosphate
 		- pyruvate
 		- (a triose phosphate: 3 carbon atoms)
+## Source[^3]
+- $n$. The metabolism, by enzymes, of glucose with the production of pyruvic acid and the liberation of energy in the form of ATP. Depending on the cell type and conditions, the pyruvate may then be converted to ethanol (an anaerobic process), lactic acid (an anaerobic process), or acetyl coenzyme A which enters the Krebs cycle, initiating a process of aerobic respiration. \[From glucose + Greek lysis loosening]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

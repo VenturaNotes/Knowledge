@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A school of psychology concerned largely with emergent Gestalt phenomena in perception. Its forerunners were the German poet Johann Wolfgang von Goethe (1749-1832), the Austrian physicist, philosopher, and psychologist Ernst Mach (1838-1916), and especially the German philosopher Christian von Ehrenfels (1859-1932), but the emergence of the school is usually traced to 1912 and the publication of a seminal article on apparent movement by the German psychologist Max Wertheimer (1880-1943). The school was transplanted to the US with the rise of Nazism in Germany, as Wertheimer emigrated there together with the other founding German psychologists Kurt Koffka (1886-1941), Wolfgang Köhler (1887-1967), and Kurt Lewin (1890-1947). The cardinal principles of Gestalt psychology are the primary importance in psychology of subjective experience and of its forms and structures, and a rejection of elementalism. See also appurtenance, Bender Gestalt Test, bundle hypothesis, field effect, Gestaltqualität, good Gestalt, grouping law, Höffding step, Isomorphism (3), Korte's laws, levelling (1), member, MEMBERSHIP CHARACTER, PERCEPTUAL CONSTANCY, PrÄGNANZ, PRECISION LAW, SYMMETRY LAW, Ternus Phenomenon, trait CENTRALITY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

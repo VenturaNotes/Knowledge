@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A neurocognitive disorder in DSM-5 characterized by impairments in either behavioral or language functions associated with frontal lobe deterioration and sometimes also, in later stages of the disorder, also temporal lobe deterioration, most commonly diagnosed in people in the sixth decade of life. To meet the diagnostic criteria for the behavioral variant, evidence is required of prominent decline in social cognition and/or executive abilities (planning or organizing ability) plus at least three of the following: disinhibited social behavior or minor law-breaking, apathy or abulia, loss of empathy or sympathy, compulsions and perseveration (2), or marked dietary changes, especially binge eating or pica. For the language variant, evidence is required of prominent decline in language ability affecting speech production, retrieval of words, object naming, and grammar. In both variants, learning, memory, and perceptual-motor functioning in other areas must be relatively unaffected, and the signs and symptoms must not be better explained by another neurocognitive disorder. \[From Latin frons the forehead + temporalis of the temple, from tempus, temporis a temple (on the side of the head) + -alis of or relating to]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

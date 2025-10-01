@@ -6,7 +6,10 @@
 - (2) an abnormal but harmless swelling (cyst) that sometimes forms in tendon sheaths, especially at the wrist.
 ## Source[^2]
 - (pl. ganglia) A mass of nervous tissue containing many cell bodies and synapses, usually enclosed in a connective-tissue sheath. In vertebrates most ganglia occur outside the central nervous system; exceptions are the basal ganglia in the brain. In invertebrates ganglia occur along the nerve cords and the most anterior pair (cerebral ganglia) are analogous to the vertebrate brain; invertebrate ganglia constitute a part of the central nervous system.
+## Source[^3]
+- $n$. A nerve-centre or collection of neuron cell bodies usually (apart from the basal ganglia and adjacent structures) located in the peripheral nervous system. See dorsal root ganglion, postganglionic, preganglionic, SYMPATHETIC GANGLIONIC CHAIN. ganglia or ganglions pl. \[From Greek ganglion a cystic tumor]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -7,7 +7,10 @@
 - Gene therapy for certain types of cancer is also undergoing clinical trials. Here the approach is aimed at introducing into the cancer cells tumoursuppressing genes, such as $ p 53$ (which prevents uncontrolled cell division), or genes that direct the production of substances (such as interleukin 2) that stimulate the immune system to destroy the tumor cells.
 ## Source[^2]
 - The application of genetic engineering techniques to alter or replace defective genes. A defective gene may result from an incorrect sequence of bases in the DNA molecule or an inability of the gene to code for the expression of a particular polypeptide. Cells can be removed from the body to allow their DNA to be corrected and then reinserted; alternatively, the normal 'healthy' gene can be directly targeted to the appropriate cells inside the body. The goal is to make the corrected gene work in a way that is effective, reliable, sustainable, and safe for the patient, but this is often difficult to achieve. Retroviruses are often used as vectors for transferring genes into cells as part of the natural retrovirus life cycle involves the insertion of their own genetic material into the chromosomes of their host. Alternatively liposomes may be used. Another option is to use microRNAs to 'knock out' defective genes in certain tissues (see RNA INTERFERENCE). Precise site-specific changes in DNA can now be made using the techniques of genome editing. These avoid the unpredictable integration of viral vectors and have potential to correct defective genes in tissue cell lines or stem cells derived from a patient. Such cells can then be reintroduced to the patient to treat the condition. See also ADENO-ASSOCIATED VIRUS.
+## Source[^3]
+- $n$. The prevention and treatment of genetic defects by replacing or supplementing affected cells with genetically corrected cells.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

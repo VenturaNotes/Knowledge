@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
 - Resides in lower middle portion of each side of brain
 	- Located deep in the temporal lobes
 - Plays a critical role in memory systems particularly in declarative memory and spatial memory
@@ -10,6 +8,8 @@
 - crucial for consolidating new experiences into long-lasting memories
 - Key hub for integrating and organizing new experiences and knowledge into the brain's memory systems
 - Connects to other areas of the brain involved in memory such as the amygdala and prefrontal cortex allowing for integration of various aspects of memory
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

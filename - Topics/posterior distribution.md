@@ -1,8 +1,8 @@
 ## Synthesis
-- 
-## Source [^1]
 - The posterior distribution in a [[Bayesian model]] is 
-	- the [[probability distribution]] that represents what we know about the model's parameters after observing the data. 
+	- The [[probability distribution]] that represents what we know about the model's parameters after observing the data. 
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 
