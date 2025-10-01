@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A technique for eliciting compliance by preceding a request for a large commitment with a request for a small one, the initial small request serving the function of softening up the target person. It was introduced and named in 1966 by the US social psychologists Jonathan L. Freedman (born 1937) and Scott C(ameron) Fraser (born 1943), who reported a field experiment in which householders were visited in their homes where some were asked whether they would be willing to put a very small sticker in their house or car windows about road safety or keeping California beautiful and others were asked to sign a petition on one of these issues; two weeks later, a different person, supposedly from a different organization, arrived and asked the same householders whether they would be willing to have a hole dug in their front gardens and a large, ugly Drive Carefully sign planted there. Among a control group who had not received the earlier small request, only 17 per cent agreed to have the safe driving sign planted in their gardens, but 55 per cent of the participants in the foot-in-the-door condition agreed. See also DOOR-IN-THE-FACE TECHNIQUE, LOWBALL TECHNIQUE.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

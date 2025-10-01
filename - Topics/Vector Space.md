@@ -4,9 +4,9 @@ aliases:
   - vector spaces
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Also known as a linear space
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

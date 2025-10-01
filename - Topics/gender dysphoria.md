@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - a condition in which an individual belongs to one gender on the basis of physical appearance and genetics but identifies psychologically with the other gender. The name was introduced in DSM-5; in DSM-IV-TR it was called gender identity disorder. The condition is diagnosed only where there is evidence of strong and persistent crossgender identification and discomfort about one's sex, these cause significant distress and social impairment, and there is no concurrent endocrine disorder. Treatment may include counselling, hormone therapy, and gender reassignment surgery. See also TRANSGENDER.
+## Source[^2]
+- n. A mental disorder, introduced in DSM-5, characterized by a feeling of incongruence between assigned gender (1) or sex (1) and experienced gender. To meet the diagnostic criteria in children, six of the following must be present: a strong desire to be the other gender; in boys, a strong preference for cross-dressing, or in girls, a strong preference for masculine clothes; a strong preference for cross-gender roles in fantasy play; a strong preference for the toys, games, and activities of the other gender; a strong preference for playmates of the other gender; in boys, a strong rejection of typically masculine toys and games, or in girls, a strong rejection of typically feminine toys and games; a strong dislike of one's sexual anatomy; and a strong desire for the sexual anatomy of the experienced gender. A corresponding set of criteria applies to adolescents and adults. See also Diana complex, masculine protest, transvestism. \[From English gender + Greek dys- bad or abnormal + therein to bear + -ia indicating a condition or quality]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

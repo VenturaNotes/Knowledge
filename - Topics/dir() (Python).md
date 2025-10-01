@@ -3,8 +3,6 @@ aliases:
   - dir()
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Returns a list of names of all the attributes in the module. 
 ```python
 import math
@@ -18,6 +16,8 @@ print(dir(math))
 """
 
 ```
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

@@ -54,6 +54,9 @@ $$
 G(n / N T)=\sum_{k=0}^{N-1} g(k t) \exp (-2 \pi i n k / N)
 
 $$
+## Source[^2]
+- $n$. A function of the form $f(t)$ that can be obtained from another function $f(x)$ by multiplying by $e^{i t x}$ and integrating over all values of $x$. It plays a crucial part in Fourier analysis.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

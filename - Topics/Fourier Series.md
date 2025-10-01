@@ -32,6 +32,9 @@ $$
 \end{aligned}
 
 $$
+## Source[^2]
+- $n$. An infinite series of the form $\frac{1}{2} a_{0}+a_{1} \cos x+b_{1} \sin x+$ $a_{2} \cos 2 x+b_{2} \sin 2 x+\ldots$ that can be used to decompose or to approximate a time series or periodic function in Fourier analysis.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

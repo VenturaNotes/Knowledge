@@ -6,7 +6,10 @@
 - Fuzzy logic is concerned with the study of sets and predicates of this kind. There emerge such concepts as fuzzy sets, fuzzy relationships, and fuzzy quantifiers.
 ## Source[^2]
 - Fuzzy logic in various disciplines such as engineering or computing is a model used to deal with approximate or imprecise information. For instance, artificial intelligence strives to mimic the way humans think, which is non-binary. Most reasoning is not a yes or no proposition. It is based on several variables, including human preferences.
+## Source[^3]
+- $n$. A form of logic based on fuzzy set theory in which propositions (1) have continuously graded truth values ranging from 0 to 1 , rather than being either false ( 0 ) or true (1) as in conventional Boolean logic. It is influential mainly in the field of knowledge representation and neural networks.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

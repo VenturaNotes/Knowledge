@@ -49,8 +49,10 @@
 | 2015    | First comprehensive map of the human epigenome published.                                                                                                                                                  |
 | 2016    | CRISPR-Cas9 gene editing used to treat a human patient.                                                                                                                                                    |
 | 2017    | Intravenous gene therapy with adeno-associated virus used to insert a new gene in spinal neurons of infants suffering from spinal muscular atrophy 1.                                                      |
-
+## Source[^3]
+- $n$. The branch of biology devoted to the study of heredity and variation, including their physical basis in DNA. geneticist $n$. One who practises genetics. \[From Greek genesis birth + -itikos resembling or marked by]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

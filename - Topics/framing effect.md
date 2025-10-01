@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An effect of the description, labelling, or presentation of a problem on responses to it. A classic example was provided in 1981 by the Israeli-American psychologists Amos Tversky (1937-96) and Daniel Kahneman (born 1934), who invited participants to choose between two programmes for combating an unusual disease that was expected to kill 600 people. Participants in one group were told that programme $A$ would save 200 lives, whereas programme $B$ had a $1 / 3$ probability of saving 600 lives and a $2 / 3$ probability of saving no one, and in this frame (2), focusing on gains, 72 per cent preferred $A$ to $B$. Participants in a second group were told that under programme $C 400$ people would die, whereas under programme $D$ there was a $1 / 3$ probability that no one would die and a $2 / 3$ probability that 600 would die, and in this frame, focusing on losses, 78 per cent preferred $D$ to $C$. The majority of participants were risk-averse in their preference of $A$ over $B$ in the gain frame but risk-seeking in their preference of $D$ over $C$ in the loss frame, although the two frames are merely different ways of describing the same problem. This effect occurs even if both problems are presented to the same group of participants. A framing effect on a decision is called a decision frame. See also CANCELLATION HEURISTIC, PROSPECT THEORY, RISK AVERSION, WASON SELECTION TASK. Compare CONTEXT EFFECT.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

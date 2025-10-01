@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A shorter choice reaction time in response to a target stimulus closely flanked by compatible than incompatible stimuli. For example, if target stimuli are presented in the middle of five-letter strings, and participants are instructed to press one key whenever the target is H or K and a different key whenever the target is S or C , then HHKHH has compatible flankers and SSKSS incompatible flankers. Reaction times are significantly shorter with compatible flankers or without flankers than with incompatible flankers, suggesting that incorrect responses compete with correct ones (compare Stroop effect) and that the levels of processing of stimuli deliberately excluded from attention are deeper than required by the task. The effect was first reported by the US psychologists Charles W(alter) Eriksen (born 1923) and James E. Hoffman (born 1948) in the journal Perception and Psychophysics in 1973, and by Barbara A(nn) Eriksen (born 1931) and Charles W(alter) Eriksen in a second article in the same journal in 1974, after which it was frequently used to study selective attention. Also called the Eriksen flanker task or flanker effect. FCE abbrev. \[From Old French flanc the side of the body between ribs and hip, from Latin flancum]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
 - A "Kia plant" refers to a manufacturing facility owned or operated by [[Kia]].
 - This plant is a production site where Kia vehicles are assembled and manufactured.
 - In industry terminology, "plant" is a location where goods are produced or assembled on a large scale
@@ -8,6 +6,8 @@
 		- [[Automotive industry]]
 		- [[Chemical industry]]
 		- [[Energy Industry]]
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 
