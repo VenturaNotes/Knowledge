@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Uses a large range of frequencies
+## Source [^1]
+- 
 ## References
 
-[^1]: Google's Search Labs | AI Overview
+[^1]:

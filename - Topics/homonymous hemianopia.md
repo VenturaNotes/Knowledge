@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Blindness in the left or right visual field affecting both eyes, caused by unilateral damage to the visual cortex or the nerve fibres with projections there, often resulting from a massive stroke in one side of the brain. A person with this condition may be unaware of being totally blind in half the visual field, because the blindness is not like a conspicuous black curtain draped over half a television screen, as many people assume, but is simply a portion of the immediate environment that is not visible, as is the area behind the head of a person with normal vision; but a person with left homonymous hemianopia who gazes fixedly at the dot in the printed sequence L.R will see the $R$ but not the $L$, and a person with right homonymous hemianopia will see the $L$ but not the $R$. To test for these forms of hemifield blindness, the person is usually asked to close one eye and fixate on a point directly ahead with the other eye while a conspicuous object is waved in the area to the left and right of the fixation point, and then the procedure is repeated with the other eye. Another method is the line bisection test. Also called homonymous hemianopsia, homonymous hemiopia, homonymous hemiamblyopia, or spatial neglect. See also divided visual field. Compare hemiANOpiA. \[From Greek homos same + onoma a name + hemi- half $+a$ - without + opsis sight, from ops an eye + -ia indicating a condition or quality]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

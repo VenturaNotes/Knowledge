@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In a person who is hypnotized, a part of the mind that functions separately, experiencing things of which the hypnotized person appears to be unaware. For example, a person under hypnotic analgesia who is subjected to cold pressor pain may report no pain sensation and may appear quite undisturbed, but if the hypnotist says, 'When I place my hand on your shoulder, I shall be able to talk to a hidden part of you that knows things that are going on in your body, things that are unknown to the part of you to which I am now talking', then the hidden observer may emerge and the person may report strong pain sensations. The phenomenon was observed in 1899 by the US psychologist William James (1842-1910) and by several subsequent researchers, but it was first studied experimentally in 1973 by the US psychologist Ernest R(opiequit) Hilgard (1904-2001), who had rediscovered it by chance during a laboratory demonstration in which a hypnotically deaf subject was asked, in a quiet voice, to raise his right forefinger if 'some part' of him could hear the hypnotist's voice, whereupon the finger rose and the subject immediately asked to have his hearing restored because he had felt his finger move and wanted to know what had been done to him. See also neodissociation THEORY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

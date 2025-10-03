@@ -14,6 +14,9 @@
 		- H. Sapiens
 		- Millions Years ago
 		- Present
+## Source[^2]
+- n. A genus of hominids that includes the species Homo sapiens (modern man) and various extinct forerunners such as H. erectus (increasingly called H. ergaster), H. habilis, H. neanderthalensis (Neanderthal man), and $H$. heidelbergensis, the last of these being a probable ancestor of both $H$. neanderthalensis and $H$. sapiens, the human species that evolved in Africa about 150,000 years ago. See also mitochondrial DNA. \[From Latin homo a man]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

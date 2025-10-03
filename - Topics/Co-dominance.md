@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Different variants on each chromosome both show their associated traits
+## Source [^1]
+- 
 ## References
 
-[^1]: Google's Search Labs | AI Overview
+[^1]:

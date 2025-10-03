@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A widely used scale for measuring depression, consisting of a list of 17 symptoms, designed to be rated by a clinician on three-point and five-point scales after a full interview. The symptoms are: depressed mood ( $0-4$ ); guilt feelings ( $0-4$ ); suicide ( $0-4$ ); insomnia, initial or early ( $0-2$ ); insomnia, middle ( $0-2$ ); insomnia, terminal or late ( $0-2$ ); disturbed work and activities ( $0-4$ ); psychomotor retardation (0-4); psychomotor agitation (0-4); anxiety, psychological (0-4); anxiety, somatic (0-4); gastrointestinal symptoms (0-2); somatic symptoms (0-2); sexual dysfunction or menstrual disturbance (0-2); hypochondriasis (0-4); weight loss (0-2); lack of insight (0-2). The maximum score is 52 , and the following interpretation of scores is often used: 10-13 mild depression; 14-17 moderate depression; 18-30 marked depression; over 30 severe depression. Several alternative versions of the scale have been devised. Compare Beck Depression Inventory. HAM-D or HRSD abbrev. It was developed by the English psychiatrist Max Hamilton (1912-88) and first published in the Journal of Clinical Psychiatry in 1960.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

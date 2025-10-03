@@ -4938,486 +4938,582 @@ Reviewed: false
 	3831. [[guppy effect]]
 	3832. [[gustation]]
 	3833. [[gustatory acuity]]
-	3834. gustatory hallucination
-	3835. gustatory receptor
-	3836. Guttman scale
-	3837. gyrus
-	3838. Habbrev.
+	3834. [[gustatory hallucination]]
+	3835. [[gustatory receptor]]
+	3836. [[Guttman scale]]
+	3837. [[gyrus]]
+	3838. H
+		1. abbrev. A common street name for heroin.
 	3839. Haab's pupillary reflex
-	3840. habenula
+		1. $n$. Another name for the pupillary light reflex. \[Named after the Swiss ophthalmologist Otto Haab (1850-1931) who drew attention to it]
+	3840. [[habenula]]
 	
-	3841. habenular nucleus
-	3842. habit
-	3843. habitat
-	3844. habit disorders
-	3845. habit reversal
-	3846. habit strength
-	3847. habituation
-	3848. haemoglobin
+	3841. [[habenular nucleus]]
+	3842. [[habit]]
+	3843. [[habitat]]
+	3844. [[habit disorders]]
+	3845. [[habit reversal]]
+	3846. [[habit strength]]
+	3847. [[habituation]]
+	3848. [[haemoglobin]]
 	3849. hair-pulling, pathological
-	3850. hair cell
+		1. $n$. Another name for trichotillomania.
+	3850. [[hair cell]]
 	
 	3851. Halcion
+		1. $n$. A proprietary name for the benzodiazepine drug triazolam. \[Trademark, from halcyon, peaceful and carefree, from Greek alkyon a kingfisher, once believed to make a secure floating nest for its eggs]
 	3852. Haldol
+		1. n. A proprietary name for the neuroleptic drug haloperidol. \[Trademark]
 	3853. half-second delay in consciousness
-	3854. halfway house
-	3855. hallucination
-	3856. hallucinogen
-	3857. hallucinogen-related disorders
-	3858. hallucinosis
-	3859. halo effect
-	3860. haloperidol
+		1. n. Another name for Libet's delay
+	3854. [[halfway house]]
+	3855. [[hallucination]]
+	3856. [[hallucinogen]]
+	3857. [[hallucinogen-related disorders]]
+	3858. [[hallucinosis]]
+	3859. [[halo effect]]
+	3860. [[haloperidol]]
 	
-	3861. Hamilton Depression Rating Scale
+	3861. [[Hamilton Depression Rating Scale]]
 	3862. hammer
-	3863. handedness
+		1. $n$. A non-technical name for the malleus of the middle ear. See also anvil. \[So called because of its resemblance to a blacksmith's hammer]
+	3863. [[handedness]]
 	3864. handicapped
+		1. adj. An obsolescent term meaning afflicted by a physical disability or intellectual disability.
 	3865. Hanoi, Tower of
+		1. See tower of hanoi.
 	3866. Hans, Little
-	3867. hapax legomenon
-	3868. haphalgesia
-	3869. haplodiploid
-	3870. haplography
+		1. See little hans
+	3867. [[hapax legomenon]]
+	3868. [[haphalgesia]]
+	3869. [[haplodiploid]]
+	3870. [[haplography]]
 	
-	3871. haploid
-	3872. haplology
-	3873. happiness
-	3874. haptic
+	3871. [[haploid]]
+	3872. [[haplology]]
+	3873. [[happiness]]
+	3874. [[haptic]]
 	3875. haptic agnosia
-	3876. haptic touch
+		1. $n$. Another name for tactile agnosia. \[From Greek haptein to touch + agnosia]
+	3876. [[haptic touch]]
 	3877. harassment
-	3878. hard-easy effect
-	3879. hard‐wired
+		1. See SEXUAL HARASSMENT, STALKING.
+	3878. [[hard-easy effect]]
+	3879. [[hard‐wired]]
 	3880. hard AI
+		1. n. Another name for strong AI
 	
-	3881. hard drug
-	3882. hard of hearing
-	3883. hard sign
-	3884. Hardy-Weinberg equilibrium
-	3885. Hardy-Weinberg law
+	3881. [[hard drug]]
+	3882. [[hard of hearing]]
+	3883. [[hard sign]]
+	3884. [[Hardy-Weinberg equilibrium]]
+	3885. [[Hardy-Weinberg law]]
 	3886. Hare Psychopathy Checklist
-	3887. harmine
-	3888. harmonic
-	3889. harmonic mean
+		1. See pyschopathy checklist-revised.
+	3887. [[harmine]]
+	3888. [[harmonic]]
+	3889. [[harmonic mean]]
 	3890. harp theory
+		1. n. Another name for the place theory.
 	
-	3891. Hartley'sFmax
-	3892. hashish
-	3893. Hawk-Dove-Retaliator game
-	3894. Hawk-Dove game
-	3895. Hawthorne effect
-	3896. heading vector
+	3891. [[Hartley's F max]]
+	3892. [[hashish]]
+	3893. [[Hawk-Dove-Retaliator game]]
+	3894. [[Hawk-Dove game]]
+	3895. [[Hawthorne effect]]
+	3896. [[heading vector]]
 	3897. head rotation illusion
+		1. See rotating head illusion.
 	3898. health anxiety disorder
-	3899. health psychology
-	3900. hearing
+		1. n. Another name for somatic symptom disorder
+	3899. [[health psychology]]
+	3900. [[hearing]]
 	
 	3901. hearing impairment
-	3902. hearing loss
-	3903. heat grill
-	3904. Hebbian rule
-	3905. Hebb synapse
+		1. n. Partial deafness. hearing-impaired adj.
+	3902. [[hearing loss]]
+	3903. [[heat grill]]
+	3904. [[Hebbian rule]]
+	3905. [[Hebb synapse]]
 	3906. hebephrenia
-	3907. hebephrenic schizophrenia
-	3908. hebetude
-	3909. hedonic treadmill
-	3910. hedonic well-being
+		1. $n$. An obsolescent term for a form of insanity with onset in childhood. hebephrenic adj. See also hebephrenic schizophrenia. \[From Greek hebe youth, from Hebe in Greek mythology, the cup-bearer of Olympus and the personification of youth + phren mind, originally midriff, the supposed seat of the soul + -ia indicating a condition or quality]
+	3907. [[hebephrenic schizophrenia]]
+	3908. [[hebetude]]
+	3909. [[hedonic treadmill]]
+	3910. [[hedonic well-being]]
 	
 	3911. height in the visual field
-	3912. Heimdallr sensitivity
+		1. n. Another name for elevation in the visual field.
+	3912. [[Heimdallr sensitivity]]
 	3913. Heisenberg uncertainty principle
-	3914. helicotrema
+		1. $n$. Another name for the uncertainty principle. \[Named after the German physicist Werner (Karl) Heisenberg (1901-76) who propounded it in 1927]
+	3914. [[helicotrema]]
 	3915. Heller's syndrome
-	3916. Helmholtz illusion
+		1. $n$. An alternative name for childhood disintegrative disorder. \[Named after the Austrian neuropsychiatrist Theodor O. Heller (1869-1938) who first described it and called it dementia infantalis in 1908]
+	3916. [[Helmholtz illusion]]
 	3917. helper T cell
+		1. See T lymphocyte
 	3918. helplessness, learned
-	3919. hemeralopia
-	3920. hemianopia
+		1. See learned helplessness
+	3919. [[hemeralopia]]
+	3920. [[hemianopia]]
 	
-	3921. hemiballism
-	3922. hemifield
+	3921. [[hemiballism]]
+	3922. [[hemifield]]
 	3923. hemineglect
+		1. n. Another name for spatial neglect
 	3924. hemiopia
-	3925. hemiparesis
-	3926. hemiplegia
-	3927. hemisity
-	3928. hemisphere
-	3929. hemispherectomy
-	3930. hemispheric encoding/retrieval asymmetry
+		1. n. Another name for hemianopia.
+	3925. [[hemiparesis]]
+	3926. [[hemiplegia]]
+	3927. [[hemisity]]
+	3928. [[hemisphere]]
+	3929. [[hemispherectomy]]
+	3930. [[hemispheric encoding-retrieval asymmetry]]
 	
 	3931. hemisphericity
-	3932. hemizygous
+		1. See hemisity.
+	3932. [[hemizygous]]
 	3933. hemoglobin
-	3934. Hempel's paradox
-	3935. henbane
-	3936. hendiadys
-	3937. Henning's prism
-	3938. Henning's tetrahedron
-	3939. hepatic portal vein
+		1. See haemoglobin.
+	3934. [[Hempel's paradox]]
+	3935. [[henbane]]
+	3936. [[hendiadys]]
+	3937. [[Henning's prism]]
+	3938. [[Henning's tetrahedron]]
+	3939. [[hepatic portal vein]]
 	3940. herbal ecstasy
+		1. n. A street name for ephedrine.
 	
-	3941. herbivore
-	3942. hereditarianism
-	3943. heredity
-	3944. Hering grey
-	3945. Hering illusion
-	3946. Hering image
-	3947. heritability
-	3948. Hermann grid
-	3949. hermaphrodite
-	3950. hermeneutics
+	3941. [[herbivore]]
+	3942. [[hereditarianism]]
+	3943. [[heredity]]
+	3944. [[Hering grey]]
+	3945. [[Hering illusion]]
+	3946. [[Hering image]]
+	3947. [[heritability]]
+	3948. [[Hermann grid]]
+	3949. [[hermaphrodite]]
+	3950. [[hermeneutics]]
 	
-	3951. heroin
-	3952. herpes
-	3953. herpes simplex encephalitis
-	3954. herstory
-	3955. hertz
+	3951. [[heroin]]
+	3952. [[herpes]]
+	3953. [[herpes simplex encephalitis]]
+	3954. [[herstory]]
+	3955. [[hertz]]
 	3956. 40-hertz oscillations
-	3957. Heschl's gyrus
-	3958. Hess image
-	3959. heteroduplex DNA
+		1. n. Another (inaccurate) name for gamma waves.
+	3957. [[Heschl's gyrus]]
+	3958. [[Hess image]]
+	3959. [[heteroduplex DNA]]
 	3960. heterogeneity of variance
+		1. $n$. Another name for heteroscedasticity.
 	
-	3961. heterographs
-	3962. heterological
-	3963. heteronyms
-	3964. heterophoria
-	3965. heteroscedasticity
-	3966. heterosexism
-	3967. heterosexual
-	3968. heterosis
+	3961. [[heterographs]]
+	3962. [[heterological]]
+	3963. [[heteronyms]]
+	3964. [[heterophoria]]
+	3965. [[heteroscedasticity]]
+	3966. [[heterosexism]]
+	3967. [[heterosexual]]
+	3968. [[heterosis]]
 	3969. heterotropia
-	3970. heterozygote
+		1. $n$. Another name for heterophoria. \[From Greek heteros other + tropos a turn, from trepein to turn + ops an eye + -ia indicating a condition or quality]
+	3970. [[heterozygote]]
 	
-	3971. heterozygous
-	3972. heuristic
-	3973. HEXACOabbrev.
-	3974. hibernatevb.
-	3975. Hick's law
+	3971. [[heterozygous]]
+	3972. [[heuristic]]
+	3973. [[HEXACO]]
+	3974. [[hibernate]]
+	3975. [[Hick's law]]
 	3976. hidden figure
-	3977. hidden observer
+		1. n. Another name for an embedded figure. See embedded-figures test.
+	3977. [[hidden observer]]
 	3978. high-pass filter
-	3979. higher-order conditioning
-	3980. higher-order reinforcement schedule
+		1. See band-pass filter
+	3979. [[higher-order conditioning]]
+	3980. [[higher-order reinforcement schedule]]
 	
 	3981. high rising intonation
+		1. Also called high rising terminal speech. See uptalk.
 	3982. high vowel
-	3983. hikikomori
-	3984. hill climbing
-	3985. hindbrain
-	3986. hindsight bias
-	3987. hippocampal commissure
-	3988. hippocampal formation
-	3989. hippocampus
+		1. n. Another name for a close vowel.
+	3983. [[hikikomori]]
+	3984. [[hill climbing]]
+	3985. [[hindbrain]]
+	3986. [[hindsight bias]]
+	3987. [[hippocampal commissure]]
+	3988. [[hippocampal formation]]
+	3989. [[hippocampus]]
 	3990. hiragana
+		1. See kana.
 	
-	3991. Hiskey-Nebraska Test of Learning Aptitude
-	3992. histamine
-	3993. histocompatibility antigen
-	3994. histogram
-	3995. histrionic personality disorder
-	3996. hit
-	3997. HIVabbrev.
-	3998. HIV dementia
-	3999. hoarding disorder
-	4000. hoarding orientation
+	3991. [[Hiskey-Nebraska Test of Learning Aptitude]]
+	3992. [[histamine]]
+	3993. [[histocompatibility antigen]]
+	3994. [[histogram]]
+	3995. [[histrionic personality disorder]]
+	3996. [[hit]]
+	3997. [[HIV]]
+	3998. [[HIV dementia]]
+	3999. [[hoarding disorder]]
+	4000. [[hoarding orientation]]
 	
-	4001. hodological space
-	4002. Höffding step
+	4001. [[hodological space]]
+	4002. [[Höffding step]]
 	4003. hog
-	4004. holandric
-	4005. hold-out sample
-	4006. hole-in-the-hand illusion
-	4007. Holland codes
-	4008. hollow-face illusion
-	4009. hollow squares illusion
-	4010. Holmgren test
+		1. n. A common street name for the depressant drug phencyclidine.
+	4004. [[holandric]]
+	4005. [[hold-out sample]]
+	4006. [[hole-in-the-hand illusion]]
+	4007. [[Holland codes]]
+	4008. [[hollow-face illusion]]
+	4009. [[hollow squares illusion]]
+	4010. [[Holmgren test]]
 	
-	4011. holocrine
-	4012. hologynic
-	4013. holophrase
-	4014. Holtzman Inkblot Technique
-	4015. homeopathy
-	4016. homeostasis
+	4011. [[holocrine]]
+	4012. [[hologynic]]
+	4013. [[holophrase]]
+	4014. [[Holtzman Inkblot Technique]]
+	4015. [[homeopathy]]
+	4016. [[homeostasis]]
 	4017. homeothermic
-	4018. hominid
-	4019. hominoid
-	4020. Homo
+		1. See homoiothermic.
+	4018. [[hominid]]
+	4019. [[hominoid]]
+	4020. [[Homo]]
 	
 	4021. homoeopathy
+		1. See homeopathy.
 	4022. homogeneity of variance
-	4023. homogeneous subset
-	4024. homographs
-	4025. homoiothermic
-	4026. homologous
-	4027. homologous chromosomes
-	4028. homologue
-	4029. homonymous hemianopia
-	4030. homonyms
+		1. n. Another name for homoscedasticity.
+	4023. [[homogeneous subset]]
+	4024. [[homographs]]
+	4025. [[homoiothermic]]
+	4026. [[homologous]]
+	4027. [[homologous chromosomes]]
+	4028. [[homologue]]
+	4029. [[homonymous hemianopia]]
+	4030. [[homonyms]]
 	
-	4031. homonym symptom
-	4032. homophones
-	4033. homoscedasticity
-	4034. homosexual
+	4031. [[homonym symptom]]
+	4032. [[homophones]]
+	4033. [[homoscedasticity]]
+	4034. [[homosexual]]
 	4035. homothermic
-	4036. homozygote
-	4037. homozygous
-	4038. homunculus
+		1. See homoiothermic.
+	4036. [[homozygote]]
+	4037. [[homozygous]]
+	4038. [[homunculus]]
 	4039. honestly significant difference test
+		1. See turkey-HSD test.
 	4040. honey-bee dance
+		1. See round dance, waggle dance.
 	
-	4041. Honi phenomenon
-	4042. hook order
+	4041. [[Honi phenomenon]]
+	4042. [[hook order]]
 	4043. Hopfield rule
-	4044. horizon
-	4045. horizontal-vertical illusion
-	4046. horizontal cell
-	4047. horizontaldécalage
-	4048. horizontal icicle plot
-	4049. horizontal plane
-	4050. horizontal section
+		1. See hebbian rule. 
+	4044. [[horizon]]
+	4045. [[horizontal-vertical illusion]]
+	4046. [[horizontal cell]]
+	4047. horizontal décalage
+		1. See décalage.
+	4048. [[horizontal icicle plot]]
+	4049. [[horizontal plane]]
+	4050. [[horizontal section]]
 	
-	4051. horme
-	4052. hormesis
-	4053. hormonagogue
-	4054. hormone
-	4055. Horner's law
-	4056. Horner's syndrome
+	4051. [[horme]]
+	4052. [[hormesis]]
+	4053. [[hormonagogue]]
+	4054. [[hormone]]
+	4055. [[Horner's law]]
+	4056. [[Horner's syndrome]]
 	4057. horologagnosia
-	4058. horopter
+		1. See agnosia.
+	4058. [[horopter]]
 	4059. horse
-	4060. hospice
+		1. n. A street name for heroin.
+	4060. [[hospice]]
 	
 	4061. hospital hopper syndrome
-	4062. hospitalism
-	4063. hot sauce task
-	4064. hot spot
-	4065. HOUNDabbrev.
-	4066. House-Tree-Person technique
-	4067. HPA axisabbrev.
-	4068. hue
+		1. n. A colloquial name for factitious disorder.
+	4062. [[hospitalism]]
+	4063. [[hot sauce task]]
+	4064. [[hot spot]]
+	4065. [[HOUND]]
+	4066. [[House-Tree-Person technique]]
+	4067. [[HPA axis]]
+	4068. [[hue]]
 	4069. hug drug
-	4070. Hullian learning theory
+		1. $n$. A street name sometimes used for ecstasy (2), because of the feelings of empathy and benevolence that it induces.
+	4070. [[Hullian learning theory]]
 	
 	4071. human factors psychology
+		1. n. Another name for ergonomics.
 	4072. human immunodeficiency virus
-	4073. human interest score
-	4074. humanistic psychology
-	4075. human performance
+		1. See HIV
+	4073. [[human interest score]]
+	4074. [[humanistic psychology]]
+	4075. [[human performance]]
 	4076. human relations group
-	4077. Hume's fork
-	4078. Hume's problem
-	4079. humour
-	4080. Humphrey's law
+		1. See T-group
+	4077. [[Hume's fork]]
+	4078. [[Hume's problem]]
+	4079. [[humour]]
+	4080. [[Humphrey's law]]
 	
-	4081. hunger
-	4082. Hunt-Minnesota test
-	4083. Huntington's disease
-	4084. Hurler's syndrome
-	4085. hwa-byung
-	4086. hyalophagia
-	4087. hybrid
-	4088. hybrid image
-	4089. hybridization
-	4090. hybridizevb.
+	4081. [[hunger]]
+	4082. [[Hunt-Minnesota test]]
+	4083. [[Huntington's disease]]
+	4084. [[Hurler's syndrome]]
+	4085. [[hwa-byung]]
+	4086. [[hyalophagia]]
+	4087. [[hybrid]]
+	4088. [[hybrid image]]
+	4089. [[hybridization]]
+	4090. [[hybridize]]
 	
-	4091. hybrid sterility
-	4092. hybrid vigour
-	4093. hydraulic theory
-	4094. hydrazine
-	4095. hydrocephalus
+	4091. [[hybrid sterility]]
+	4092. [[hybrid vigour]]
+	4093. [[hydraulic theory]]
+	4094. [[hydrazine]]
+	4095. [[hydrocephalus]]
 	4096. hydrocortisone
-	4097. hydrolysis
-	4098. hydromorphone
-	4099. 6-hydroxydopamine
-	4100. 5-hydroxyindoleacetic acid
+		1. $n$. Another name for cortisol. \[From Greek hydor water + English cortisone]
+	4097. [[hydrolysis]]
+	4098. [[hydromorphone]]
+	4099. [[6-hydroxydopamine]]
+	4100. [[5-hydroxyindoleacetic acid]]
 	
 	4101. 5-hydroxytryptamine
-	4102. 5-hydroxytryptophan
+		1. n. The chemical name for serotonin. 5-HT abbrev.
+	4102. [[5-hydroxytryptophan]]
 	4103. 3-hydroxytyramine
+		1. See dopamine
 	4104. hyoscine
-	4105. hyoscyamine
-	4106. hypacusia
-	4107. hypaesthesia
-	4108. hypalgesia
-	4109. hyper-reflection
-	4110. hyper-reflexia
+		1. n. Another name for scopolamine.
+	4105. [[hyoscyamine]]
+	4106. [[hypacusia]]
+	4107. [[hypaesthesia]]
+	4108. [[hypalgesia]]
+	4109. [[hyper-reflection]]
+	4110. [[hyper-reflexia]]
 	
-	4111. hyperactivity
-	4112. hyperacusis
-	4113. hyperaesthesia
-	4114. hyperalgesia
-	4115. hypercathexis
-	4116. hypercolumn
-	4117. hypercomplex cell
+	4111. [[hyperactivity]]
+	4112. [[hyperacusis]]
+	4113. [[hyperaesthesia]]
+	4114. [[hyperalgesia]]
+	4115. [[hypercathexis]]
+	4116. [[hypercolumn]]
+	4117. [[hypercomplex cell]]
 	4118. hypercomplex receptive field
-	4119. hypercorrection
-	4120. hypercreolization
+		1. n. The receptive field of a hypercomplex cell.
+	4119. [[hypercorrection]]
+	4120. [[hypercreolization]]
 	
-	4121. hypergasia
-	4122. hypergeusia
-	4123. hyperglycaemia
-	4124. hypericum
-	4125. hyperkinaesthesis
-	4126. hyperkinesis
-	4127. hyperkinetic disorders
-	4128. hyperlexia
-	4129. hypermania
-	4130. hypermetamorphosis
+	4121. [[hypergasia]]
+	4122. [[hypergeusia]]
+	4123. [[hyperglycaemia]]
+	4124. [[hypericum]]
+	4125. [[hyperkinaesthesis]]
+	4126. [[hyperkinesis]]
+	4127. [[hyperkinetic disorders]]
+	4128. [[hyperlexia]]
+	4129. [[hypermania]]
+	4130. [[hypermetamorphosis]]
 	
 	4131. hypermetropia
-	4132. hypermnesia
+		1. n. Another name for hyperopia. Also written hypermetropy. hypermetrope $n$. A long-sighted person. hypermetropic adj. Long-sighted. \[From Greek hypermetros beyond the measure, from hyper over + metron a measure + ops an eye + -ia indicating a condition or quality]
+	4132. [[hypermnesia]]
 	4133. hypermotility
-	4134. hyperopia
-	4135. hyperorexia
-	4136. hyperosmia
-	4137. hyperphagia
-	4138. hyperphoria
-	4139. hyperphrasia
-	4140. hyperphrenia
+		1. n. Another name for hyperkinesis.
+	4134. [[hyperopia]]
+	4135. [[hyperorexia]]
+	4136. [[hyperosmia]]
+	4137. [[hyperphagia]]
+	4138. [[hyperphoria]]
+	4139. [[hyperphrasia]]
+	4140. [[hyperphrenia]]
 	
 	4141. hyperpnoea
-	4142. hyperpolarization
-	4143. hyperprosexia
-	4144. hypersomnia
-	4145. hypersomnolence disorder
-	4146. hyperthymesia
-	4147. hyperthymia
-	4148. hyperthyroidism
-	4149. hypertonia
-	4150. hypertonic
+		1. $n$. Another name for hyperventilation. US hyperpnea. \[From Greek hyper over + pnein to breathe]
+	4142. [[hyperpolarization]]
+	4143. [[hyperprosexia]]
+	4144. [[hypersomnia]]
+	4145. [[hypersomnolence disorder]]
+	4146. [[hyperthymesia]]
+	4147. [[hyperthymia]]
+	4148. [[hyperthyroidism]]
+	4149. [[hypertonia]]
+	4150. [[hypertonic]]
 	
-	4151. hypertrophy
+	4151. [[hypertrophy]]
 	4152. hypertropia
-	4153. hyperventilation
+		1. $n$. Another name for anoopsia. \[From Greek hyper over + tropos a turn + ops an eye + -ia indicating a condition or quality]
+	4153. [[hyperventilation]]
 	4154. hypesthesia
-	4155. hypnagogic image
-	4156. hypnoanalysis
-	4157. hypnodermatology
-	4158. hypnogenic
-	4159. hypnoid hysteria
-	4160. hypnoid state
+		1. n. Another name for hypaesthesia.
+	4155. [[hypnagogic image]]
+	4156. [[hypnoanalysis]]
+	4157. [[hypnodermatology]]
+	4158. [[hypnogenic]]
+	4159. [[hypnoid hysteria]]
+	4160. [[hypnoid state]]
 	
-	4161. hypnopompic image
-	4162. hypnosis
-	4163. hypnotherapy
-	4164. hypnotic
-	4165. hypnotic age regression
-	4166. hypnotic amnesia
+	4161. [[hypnopompic image]]
+	4162. [[hypnosis]]
+	4163. [[hypnotherapy]]
+	4164. [[hypnotic]]
+	4165. [[hypnotic age regression]]
+	4166. [[hypnotic amnesia]]
 	4167. hypnotic analgesia
-	4168. hypnotic susceptibility
+		1. See analgesia
+	4168. [[hypnotic susceptibility]]
 	4169. hypnotism
-	4170. hypnotist
+		1. n. An obsolescent name for the state of hypnosis
+	4170. [[hypnotist]]
 	
 	4171. hypnotizability
-	4172. hypnotizevb.
+		1. n. Another name for hypnotic susceptibility.
+	4172. [[hypnotize]]
 	4173. hypoactive sexual desire disorder
+		1. $n$. A term used in DSM-IV for what was later called female sexual interest/arousal disorder and male hypoactive sexual desire disorder. \[From Greek hypo under + Latin activus in a state of action, from actus a doing + -ivus tending]
 	4174. hypoaesthesia
-	4175. hypochondria
-	4176. hypochondriasis
+		1. $n$. Another name for hypaesthesia. US hypoesthesia. \[From Greek hypo under + aisthesis sensation, from aisthanesthai to feel + -ia indicating a condition or quality]
+	4175. [[hypochondria]]
+	4176. [[hypochondriasis]]
 	4177. hypochondriasis scale
-	4178. hypoergastia
+		1. See MMPI
+	4178. [[hypoergastia]]
 	4179. hypoesthesia
-	4180. hypogeusia
+		1. See HYPAESTHESIA.
+	4180. [[hypogeusia]]
 	
-	4181. hypoglossal nerve
-	4182. hypoglycaemia
-	4183. hypohedonia
-	4184. hypokinaesthesia
-	4185. hypokinesis
+	4181. [[hypoglossal nerve]]
+	4182. [[hypoglycaemia]]
+	4183. [[hypohedonia]]
+	4184. [[hypokinaesthesia]]
+	4185. [[hypokinesis]]
 	4186. hypolexia
+		1. $n$. Another name for dyslexia. \[From Greek hypo under + lexis a word + -ia indicating a condition or quality]
 	4187. hypologia
+		1. $n$. Another name for poverty of speech. \[From Greek hypo under + logos a word or discourse + -ia indicating a condition or quality]
 	4188. hypomania
+		1. n. Another name for a hypomanic epsiode
 	4189. hypomania scale
-	4190. hypomanic episode
+		1. See MMPI
+	4190. [[hypomanic episode]]
 	
-	4191. hypomnesia
-	4192. hypophoria
+	4191. [[hypomnesia]]
+	4192. [[hypophoria]]
 	4193. hypophrasia
+		1. $n$. Another name for poverty of speech or hypologia. \[From Greek hypo under + phrazein to express + -ia indicating a condition or quality]
 	4194. hypophrenia
+		1. n. Another name for intellectual disability. \[From Greek hypo under + phren mind, originally midriff, the supposed seat of the soul + -ia indicating a condition or quality]
 	4195. hypophysis
-	4196. hypopnoea
-	4197. hypoprosexia
-	4198. hyposmia
-	4199. hyposthenia
-	4200. hypothalamic-hypophyseal portal system
+		1. n. Short for hypophysis cerebri, a technical name for the pituitary gland. \[From Greek hypophysis an attachment underneath, from hypo under + phyein to grow]
+	4196. [[hypopnoea]]
+	4197. [[hypoprosexia]]
+	4198. [[hyposmia]]
+	4199. [[hyposthenia]]
+	4200. [[hypothalamic-hypophyseal portal system]]
 	
 	4201. hypothalamic-pituitary-adrenal axis
+		1. See HPA Axis
 	4202. hypothalamic hyperphagia
-	4203. hypothalamic syndromes
-	4204. hypothalamus
-	4205. hypothesis
-	4206. hypothetical construct
-	4207. hypothetico-deductive method
-	4208. hypothymia
-	4209. hypothyroidism
-	4210. hypotonia
+		1. n. Another name for ventromedial hypothalamic syndrome.
+	4203. [[hypothalamic syndromes]]
+	4204. [[hypothalamus]]
+	4205. [[hypothesis]]
+	4206. [[hypothetical construct]]
+	4207. [[hypothetico-deductive method]]
+	4208. [[hypothymia]]
+	4209. [[hypothyroidism]]
+	4210. [[hypotonia]]
 	
-	4211. hypotonic
-	4212. hypoventilation
-	4213. hypovolaemic thirst
-	4214. hypoxyphilia
-	4215. hysteria
+	4211. [[hypotonic]]
+	4212. [[hypoventilation]]
+	4213. [[hypovolaemic thirst]]
+	4214. [[hypoxyphilia]]
+	4215. [[hysteria]]
 	4216. hysteria scale
+		1. See MMPI
 	4217. hysterical convulsion
+		1. $n$. An obsolete name for a pseudoseizure. Also called a hysterical seizure. See also HYSTERICAL EPILEPSY.
 	4218. hysterical epilepsy
-	4219. hysterical paralysis
+		1. $n$. An obsolete name for a form of hysteria assumed to produce hysterical seizures or convulsions. See also PSEUDOSEIZURES.
+	4219. [[hysterical paralysis]]
 	4220. hysterical personality
+		1. $n$. An obsolescent name for histrionic personality disorder.
 	
 	4221. hysterical seizure
-	4222. hysterical technique
-	4223. hysterogenic zone
-	4224. I-self
-	4225. I-thou relation
-	4226. Ia fibre
-	4227. IAPSabbrev.
-	4228. iatrogenic
-	4229. Ib fibre
-	4230. ibotenic acid
+		1. $n$. An obsolete name for a pseudoseizure. Also called a hysterical convulsion. See also HYSTERICAL EPILEPSY.
+	4222. [[hysterical technique]]
+	4223. [[hysterogenic zone]]
+	4224. [[I-self]]
+	4225. [[I-thou relation]]
+	4226. [[Ia fibre]]
+	4227. [[IAPS]]
+	4228. [[iatrogenic]]
+	4229. [[Ib fibre]]
+	4230. [[ibotenic acid]]
 	
-	4231. ICDabbrev.
-	4232. ice
+	4231. [[ICD]]
+	4232. [[ice]]
 	4233. icicle plot
+		1. See HORIZONTAL ICICLE PLOT, VERTICAL ICICLE PLOT.
 	4234. iconic memory
-	4235. iconic store
-	4236. ICSIabbrev.
-	4237. ictal
-	4238. id
-	4239. idea
+		1. See iconic store
+	4235. [[iconic store]]
+	4236. [[ICSI]]
+	4237. [[ictal]]
+	4238. [[id]]
+	4239. [[idea]]
 	4240. idea, guiding
+		1. See guiding fiction
 	
-	4241. idealization
-	4242. ideal observer
-	4243. ideal self
-	4244. ideas of reference
-	4245. ideation
+	4241. [[idealization]]
+	4242. [[ideal observer]]
+	4243. [[ideal self]]
+	4244. [[ideas of reference]]
+	4245. [[ideation]]
 	4246. ideational apraxia
-	4247. idée fixe
-	4248. identical twins
-	4249. identification
-	4250. identification task
+		1. See apraxia
+	4247. [[idée fixe]]
+	4248. [[identical twins]]
+	4249. [[identification]]
+	4250. [[identification task]]
 	
-	4251. identification with the aggressor
-	4252. identity crisis
+	4251. [[identification with the aggressor]]
+	4252. [[identity crisis]]
 	4253. identity disorder
-	4254. identity theory
-	4255. identity versus role confusion
-	4256. ideograph
+		1. See DISSOCIATIVE IDENTITY DISORDER, GENDER DYSPHORIA.
+	4254. [[identity theory]]
+	4255. [[identity versus role confusion]]
+	4256. [[ideograph]]
 	4257. ideokinetic apraxia
+		1. $n$. Another name for ideomotor apraxia. See APRAXIA.
 	4258. ideomotor aphasia
+		1. $n$. Another name for transcortical motor aphasia. See APHASIA.
 	4259. ideomotor apraxia
+		1. See apraxia.
 	4260. idioglossia
+		1. n. Another name for autonomous speech
 	
-	4261. idiographic
-	4262. idiolect
-	4263. idiopathic
+	4261. [[idiographic]]
+	4262. [[idiolect]]
+	4263. [[idiopathic]]
 	4264. idioretinal light
+		1. $n$. Another name for dark light or intrinsic light. \[From Greek idios private or separate + English retina + -al from Latin -alis of or relating to]
 	4265. idiot
-	4266. idiot savant
-	4267. IE scale
-	4268. iffconj.
+		1. $n$. An obsolete term for a person with profound intellectual disability; also an abusive term for a fool. idiocy $n$. Profound intellectual disability. idiotic adj. \[From French idiot an idiot, from Latin idiota an ignorant person, from Greek idiotes a private person, or one who has no professional knowledge]
+	4266. [[idiot savant]]
+	4267. [[IE scale]]
+	4268. [[iff]]
 	4269. iich'aa
-	4270. II fibre
+		1. $n$. A variant name for amok among the Navajo indians of North America. \[Navajo]
+	4270. [[II fibre]]
 	
 	4271. ikota
 	4272. ill-defined problem

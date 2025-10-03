@@ -8,9 +8,12 @@
 - A graphical representation of a table showing the frequencies or proportions of observations falling in each of several specified categories, usually the sub-intervals (bins) of the range of observed values. It is the simplest non-parametric estimate of the population distribution of the variable under consideration.
 ## Source[^4]
 - $n$. a form of statistical graph in which values are plotted in the form of rectangles on a chart; a bar-chart.
+## Source[^5]
+- $n$. In descriptive statistics, a graph in which the values of scores of a quantitative variable are plotted, usually on the horizontal axis, and their frequencies are represented by the heights of the bars on the vertical axis. Also called a block diagram. See also error bar. Compare bar chart. \[Perhaps from history + Greek gramme a line]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A type of attitude scale, the items of which can be arranged in a hierarchical order such that agreement with any particular item implies probable agreement with all those below it in the hierarchy, as would apply to the following (non-attitudinal) items: I am over 5 feet tall; I am over 5 feet 6 inches tall; I am over 6 feet tall; I am over 6 feet 6 inches tall. It is constructed by the method of scalogram analysis in which a large pool of candidate statements about an attitude object (such as Euthanasia is morally wrong; Euthanasia should be legalized, and so on) are administered to a group of respondents who mark just those items with which they agree, and from these responses a set of items is selected that can be arranged into a hierarchy with as few errors (deviations from a perfect linear hierarchy) as possible, a satisfactory Guttman scale having relatively few errors as indexed by a reproducibility (Rep) of at least .90, implying that the scale is unidimensional, measuring only one major attitude variable. The process of constructing a Guttman scale is called scalogram analysis. A simple example of a Guttman scale is a social distance scale. \[Named after the US (later Israeli) psychologist Louis (Eliahu) Guttman (1916-87) who introduced it in an article in the American Sociological Review in 1944]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
