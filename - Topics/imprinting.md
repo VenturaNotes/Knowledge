@@ -7,7 +7,10 @@
 ## Source[^2]
 - (1) (in ethology) A specialized form of learning in which young animals, during a critical period (or sensitive period) in their early development, learn to recognize and approach some large moving object nearby. In nature this is usually the mother, though simple models or individuals of a different species (including humans) may suffice. Imprinting was first described by Konrad Lorenz, working with young ducks and geese. See LEARNING IN ANIMALS (Feature). 
 - (2) (in genetics) See GENE IMPRINTING.
+## Source[^3]
+- $n$. In ethology, a form of rapid learning (1) that takes place during a critical period of development immediately or shortly after birth and is extremely resistant to extinction (2), the most familiar example being the behavior of newly hatched ducklings that become imprinted on, and subsequently follow around, virtually any moving object to which they are exposed during the critical period following hatching. It was first studied in detail in 1935 by the Austrian zoologist Konrad (Zacharias) Lorenz (1903-89). Also called filial imprinting. See also GENETIC IMPRINTING. Compare ATTACHMENT THEORY.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Assumptions about the motion of objects that are commonly held but that sometimes violate the known laws of Newtonian mechanics, as in the following three examples. If a person drops a ball from an outstretched hand while walking briskly, then the ball will continue moving forward until it hits the ground approximately alongside the walker, but a majority of people who have been questioned believe that the ball will drop straight down and will hit the ground directly below the point at which it was released. If a stone is tied to a string and whirled around one's head, and the string suddenly breaks, then the horizontal motion of the stone will be a straight line at a tangent to its original circular path, but many people believe that it will continue along a curved path. If a bullet dropped from shoulder height takes about half a second to reach the ground, then the same bullet fired horizontally at shoulder height from a high-powered rifle will also take about half a second to reach the ground, but many people falsely believe that it will take much longer. Such misconceptions embedded in intuitive physics are believed to be influenced by the discredited medieval impetus theory of motion. Also called naive physics. See also extramission, KNOWLEDGE REPRESENTATION.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -5516,367 +5516,439 @@ Reviewed: false
 	4270. [[II fibre]]
 	
 	4271. ikota
-	4272. ill-defined problem
-	4273. Illinois Test of Psycholinguistic Abilities
-	4274. illness anxiety disorder
-	4275. illocutionary act
-	4276. illuminance
+		1. See latah.
+	4272. [[ill-defined problem]]
+	4273. [[Illinois Test of Psycholinguistic Abilities]]
+	4274. [[illness anxiety disorder]]
+	4275. [[illocutionary act]]
+	4276. [[illuminance]]
 	4277. illumination
-	4278. illusion
+		1. n. 
+		2. (1) Another name for illuminance. 
+		3. (2) Another name for insight (2).
+	4278. [[illusion]]
 	4279. illusion of circular pitch
-	4280. illusion of control
+		1. $n$. Another name for the auditory staircase illusion.
+	4280. [[illusion of control]]
 	
 	4281. illusion of doubles
-	4282. illusory conjunction
-	4283. illusory contour
-	4284. illusory correlation
-	4285. illustrator
-	4286. image
-	4287. image-retinal system
-	4288. imageless thought
-	4289. imagen
-	4290. imagery
+		1. See CAPGRAS SYNDROME.
+	4282. [[illusory conjunction]]
+	4283. [[illusory contour]]
+	4284. [[illusory correlation]]
+	4285. [[illustrator]]
+	4286. [[image]]
+	4287. [[image-retinal system]]
+	4288. [[imageless thought]]
+	4289. [[imagen]]
+	4290. [[imagery]]
 	
-	4291. imaginary companion
+	4291. [[imaginary companion]]
 	4292. imaginary contour
-	4293. imagination
-	4294. imago
+		1. n. Another name for an illusory contour.
+	4293. [[imagination]]
+	4294. [[imago]]
 	4295. imbecile
-	4296. imidazoleamine
-	4297. imipramine
-	4298. imitation game
+		1. $n$. An obsolete term for a person with mild intellectual disability; also, an abusive term for a person of low intelligence. imbecility $n$. Mild intellectual disability. imbecilic adj. \[From Latin imbecillus feeble]
+	4296. [[imidazoleamine]]
+	4297. [[imipramine]]
+	4298. [[imitation game]]
 	4299. immediate memory
-	4300. immune response
+		1. n. Another name for short-term memory.
+	4300. [[immune response]]
 	
-	4301. immune system
-	4302. immunoglobulin
-	4303. immunology
-	4304. impairment
-	4305. implicational universals
-	4306. implicit association test
-	4307. implicit attitude
-	4308. implicit learning
-	4309. implicit memory
-	4310. implicit personality theory
+	4301. [[immune system]]
+	4302. [[immunoglobulin]]
+	4303. [[immunology]]
+	4304. [[impairment]]
+	4305. [[implicational universals]]
+	4306. [[implicit association test]]
+	4307. [[implicit attitude]]
+	4308. [[implicit learning]]
+	4309. [[implicit memory]]
+	4310. [[implicit personality theory]]
 	
 	4311. implosion therapy
-	4312. impossible figure
+		1. n. Another name for flooding. \[From Latin in in+ plodere to clap]
+	4312. [[impossible figure]]
 	4313. impossible triangle
-	4314. impossible trident
-	4315. imposter phenomenon
-	4316. impotence
+		1. n. Another name for the Penrose triangle.
+	4314. [[impossible trident]]
+	4315. [[imposter phenomenon]]
+	4316. [[impotence]]
 	4317. impoverished stimulus
-	4318. impression formation
-	4319. impression management
-	4320. imprinting
+		1. n. Another name for a degraded stimulus.
+	4318. [[impression formation]]
+	4319. [[impression management]]
+	4320. [[imprinting]]
 	
-	4321. impulse-control disorders
-	4322. impulsivity
+	4321. [[impulse-control disorders]]
+	4322. [[impulsivity]]
 	4323. imu
-	4324. inadequate personality
-	4325. inadequate stimulus
-	4326. inadmissible alternative/strategy
+		1. See latah.
+	4324. [[inadequate personality]]
+	4325. [[inadequate stimulus]]
+	4326. [[inadmissible alternative-strategy]]
 	4327. inappropriate affect
-	4328. inattentional blindness
-	4329. inbred strain
-	4330. inbreeding
+		1. See affect
+	4328. [[inattentional blindness]]
+	4329. [[inbred strain]]
+	4330. [[inbreeding]]
 	
-	4331. inbreeding depression
-	4332. incapacitant
-	4333. incentive-sensitization theory
-	4334. incentive motivation
-	4335. incest
-	4336. incest taboo
-	4337. incidence
-	4338. incidental learning
-	4339. incident light
+	4331. [[inbreeding depression]]
+	4332. [[incapacitant]]
+	4333. [[incentive-sensitization theory]]
+	4334. [[incentive motivation]]
+	4335. [[incest]]
+	4336. [[incest taboo]]
+	4337. [[incidence]]
+	4338. [[incidental learning]]
+	4339. [[incident light]]
 	4340. inclusive disjunction
+		1. See disjunction (2).
 	
-	4341. inclusive fitness
-	4342. incoherence
-	4343. incomplete-pictures test
+	4341. [[inclusive fitness]]
+	4342. [[incoherence]]
+	4343. [[incomplete-pictures test]]
 	4344. incomplete-sentences test
+		1. n. Another name for a sentence completion test.
 	4345. incongruity of affect
-	4346. incorporation
-	4347. incremental validity
-	4348. incubation
-	4349. incus
-	4350. independent assortment
+		1. See affect
+	4346. [[incorporation]]
+	4347. [[incremental validity]]
+	4348. [[incubation]]
+	4349. [[incus]]
+	4350. [[independent assortment]]
 	
-	4351. independent samplesttest
-	4352. independent variable
+	4351. [[independent samples t test]]
+	4352. [[independent variable]]
 	4353. indeterminacy principle
+		1. n. Another name for the uncertainty principle.
 	4354. index case
-	4355. indicator variable
+		1. n. Another name for a proband
+	4355. [[indicator variable]]
 	4356. indifference, principle of
-	4357. indifference interval
-	4358. indirect scaling
-	4359. indirect speech act
-	4360. indissociation
+		1. n. Another name for the principle of insufficient reason
+	4357. [[indifference interval]]
+	4358. [[indirect scaling]]
+	4359. [[indirect speech act]]
+	4360. [[indissociation]]
 	
-	4361. individual differences
+	4361. [[individual differences]]
 	4362. individual differences scaling
-	4363. individual psychology
-	4364. individual test
-	4365. individuation
-	4366. Indo-European
-	4367. indole
-	4368. indole alkaloids
-	4369. indoleamine
-	4370. indoleamine hypothesis
+		1. See indscal.
+	4363. [[individual psychology]]
+	4364. [[individual test]]
+	4365. [[individuation]]
+	4366. [[Indo-European]]
+	4367. [[indole]]
+	4368. [[indole alkaloids]]
+	4369. [[indoleamine]]
+	4370. [[indoleamine hypothesis]]
 	
-	4371. INDSCALabbrev.
-	4372. induced colour
+	4371. [[INDSCAL]]
+	4372. [[induced color]]
 	4373. induced delusional disorder
+		1. $n$. Another name for a shared psychotic disorder (folie à deux). Also called induced psychotic disorder.
 	4374. induced motion
-	4375. induction
+		1. $n$. Another name for vection; more generally, any illusion of movement of a stationary object caused by movement of its background or surrounding context.
+	4375. [[induction]]
 	4376. inductive reasoning
+		1. n. Another name for induction (1, 2).
 	4377. inductive statistics
-	4378. industrial/organizational psychology
-	4379. industry versus inferiority
-	4380. infantile amnesia
+		1. n. Another name for inferential statistics.
+	4378. [[industrial-organizational psychology]]
+	4379. [[industry versus inferiority]]
+	4380. [[infantile amnesia]]
 	
 	4381. infantile autism
-	4382. infantile sexuality
-	4383. infarct
-	4384. infatuation
-	4385. inference
-	4386. inferential statistics
-	4387. inferior
-	4388. inferior colliculus
-	4389. inferiority complex
-	4390. inferior longitudinal fasciculus
+		1. $n$. An alternative name for autism spectrum disorder when manifested during infancy. Compare CHILDHOOD AUTISM.
+	4382. [[infantile sexuality]]
+	4383. [[infarct]]
+	4384. [[infatuation]]
+	4385. [[inference]]
+	4386. [[inferential statistics]]
+	4387. [[inferior]]
+	4388. [[inferior colliculus]]
+	4389. [[inferiority complex]]
+	4390. [[inferior longitudinal fasciculus]]
 	
-	4391. inferior oblique muscle
-	4392. inferior olivary nucleus
-	4393. inferior rectus
+	4391. [[inferior oblique muscle]]
+	4392. [[inferior olivary nucleus]]
+	4393. [[inferior rectus]]
 	4394. inferior temporal cortex
-	4395. inferior temporal gyrus
-	4396. infinite regress
-	4397. inflation of consciousness
-	4398. inflecting language
+		1. $n$. Another name for the inferior temporal gyrus. ITC abbrev.
+	4395. [[inferior temporal gyrus]]
+	4396. [[infinite regress]]
+	4397. [[inflation of consciousness]]
+	4398. [[inflecting language]]
 	4399. influence, delusion of
-	4400. information
+		1. See delusion of control
+	4400. [[information]]
 	
-	4401. information processing
-	4402. information technology
-	4403. information theory
-	4404. informed consent
-	4405. infra-red
-	4406. infra-red vision
-	4407. infradian rhythm
-	4408. infrasound
-	4409. infundibulum
-	4410. ingratiation
+	4401. [[information processing]]
+	4402. [[information technology]]
+	4403. [[information theory]]
+	4404. [[informed consent]]
+	4405. [[infra-red]]
+	4406. [[infra-red vision]]
+	4407. [[infradian rhythm]]
+	4408. [[infrasound]]
+	4409. [[infundibulum]]
+	4410. [[ingratiation]]
 	
-	4411. inhalant
-	4412. inhalant-related disorders
+	4411. [[inhalant]]
+	4412. [[inhalant-related disorders]]
 	4413. inhibited orgasm
+		1. n. Another name for female orgasmic disorder and male orgasmic disorder
 	4414. inhibited sexual desire
-	4415. inhibition
+		1. n. Another name for female sexual interest/arousal disorder and male hypoactive sexual desire disorder.
+	4415. [[inhibition]]
 	4416. inhibition, proactive
+		1. See procative interference
 	4417. inhibition, retroactive
+		1. See retroactive interference
 	4418. inhibition of inhibition
-	4419. inhibitor
-	4420. inhibitory
+		1. n. Another name for disinhibition
+	4419. [[inhibitor]]
+	4420. [[inhibitory]]
 	
-	4421. inhibitory postsynaptic potential
+	4421. [[inhibitory postsynaptic potential]]
 	4422. inhibitory priming
+		1. See priming (1).
 	4423. initial insomnia
+		1. See insomnia (1).
 	4424. initial letter priming
-	4425. Initial Teaching Alphabet
-	4426. initial values law
+		1. See priming (1).
+	4425. [[Initial Teaching Alphabet]]
+	4426. [[initial values law]]
 	4427. initiation codon
-	4428. initiative versus guilt
+		1. $n$. Another name for a start codon. Also called an initiator codon.
+	4428. [[initiative versus guilt]]
 	4429. injury feigning
+		1. See FACTITIOUS DISORDER, MALINGERING.
 	4430. inkblot test
+		1. See Holtzman Inkblot Technique, Rorschach test.
 	
-	4431. innate
-	4432. innate idea
-	4433. innate releasing mechanism
-	4434. inner ear
-	4435. inner hair cell
-	4436. inner nuclear layer
-	4437. inner plexiform layer
-	4438. inner speech
-	4439. innervatevb.
-	4440. innervation ratio
+	4431. [[innate]]
+	4432. [[innate idea]]
+	4433. [[innate releasing mechanism]]
+	4434. [[inner ear]]
+	4435. [[inner hair cell]]
+	4436. [[inner nuclear layer]]
+	4437. [[inner plexiform layer]]
+	4438. [[inner speech]]
+	4439. [[innervate]]
+	4440. [[innervation ratio]]
 	
-	4441. inoculation theory
-	4442. inositol
-	4443. insanity
+	4441. [[inoculation theory]]
+	4442. [[inositol]]
+	4443. [[insanity]]
 	4444. insanity of negation
-	4445. insight
-	4446. insomnia
-	4447. insomnia disorder
-	4448. inspection time
-	4449. instinct
+		1. n. Another name for Cotard's syndrome.
+	4445. [[insight]]
+	4446. [[insomnia]]
+	4447. [[insomnia disorder]]
+	4448. [[inspection time]]
+	4449. [[instinct]]
 	4450. instinct, component
+		1. See component instinct
 	
 	4451. instinct, death
+		1. See death instinct, thanatos
 	4452. instinct, life
-	4453. instinctive drowning response
-	4454. instinctual aim
+		1. See eros, life instinct
+	4453. [[instinctive drowning response]]
+	4454. [[instinctual aim]]
 	4455. instinctual component
+		1. n. Another name for a component instinct.
 	4456. instinctual drive
-	4457. instinctual energy
-	4458. instinctual object
-	4459. instinctual source
+		1. n. Another name for instinct (3).
+	4457. [[instinctual energy]]
+	4458. [[instinctual object]]
+	4459. [[instinctual source]]
 	4460. instrumental conditioning
+		1. n. Another name for operant conditioning.
 	
-	4461. insufficient reason
-	4462. insula
-	4463. insulin
-	4464. insulin shock
-	4465. integral attribute
-	4466. integral stimulus dimension
-	4467. integrative agnosia
-	4468. intellect
+	4461. [[insufficient reason]]
+	4462. [[insula]]
+	4463. [[insulin]]
+	4464. [[insulin shock]]
+	4465. [[integral attribute]]
+	4466. [[integral stimulus dimension]]
+	4467. [[integrative agnosia]]
+	4468. [[intellect]]
 	4469. intellectual developmental disorder
-	4470. intellectual disability
+		1. n. Another term for intellectual disability. IDD abbrev.
+	4470. [[intellectual disability]]
 	
-	4471. intellectualization
-	4472. intelligence
+	4471. [[intellectualization]]
+	4472. [[intelligence]]
 	4473. intelligence quotient
-	4474. intelligence test
-	4475. intension
-	4476. intentional forgetting
-	4477. intentionality
-	4478. intention tremor
-	4479. inter-rater reliability
-	4480. interaction effect
+		1. See IQ.
+	4474. [[intelligence test]]
+	4475. [[intension]]
+	4476. [[intentional forgetting]]
+	4477. [[intentionality]]
+	4478. [[intention tremor]]
+	4479. [[inter-rater reliability]]
+	4480. [[interaction effect]]
 	
-	4481. interaction graph
-	4482. interactionism
-	4483. interaction process analysis
+	4481. [[interaction graph]]
+	4482. [[interactionism]]
+	4483. [[interaction process analysis]]
 	4484. interaural intensity difference
+		1. n. Another name for a sonic shadow. Also called a binaural intensity difference. IID abbrev.
 	4485. interaural time difference
+		1. n. A generic name for both phase delay or transient disparity. Also called a binaural time difference. ITD abbrev.
 	4486. interblob
-	4487. intercorrelations
-	4488. interdependence theory
-	4489. interest inventory
-	4490. interference theory
+		1. See blob
+	4487. [[intercorrelations]]
+	4488. [[interdependence theory]]
+	4489. [[interest inventory]]
+	4490. [[interference theory]]
 	
 	4491. interhemispheric fissure
-	4492. interictal syndrome
-	4493. interleukin
+		1. $n$. Another name for the longitudinal fissure. \[From Latin inter between + English hemisphere]
+	4492. [[interictal syndrome]]
+	4493. [[interleukin]]
 	4494. intermediary neuron
-	4495. intermetamorphosis
-	4496. intermittent explosive disorder
+		1. n. Another name for an interneuron
+	4495. [[intermetamorphosis]]
+	4496. [[intermittent explosive disorder]]
 	4497. intermittent reinforcement
+		1. n. Another name for partial reinforcement.
 	4498. internal-external control of reinforcement
-	4499. internal-external scale
-	4500. internal auditory canal
+		1. n. Another name for locus of control. I-E abbrev
+	4499. [[internal-external scale]]
+	4500. [[internal auditory canal]]
 	
-	4501. internal capsule
-	4502. internal consistency
+	4501. [[internal capsule]]
+	4502. [[internal consistency]]
 	4503. internal ear
-	4504. internalization
+		1. n. Another name for the inner ear.
+	4504. [[internalization]]
 	4505. internal meatus
+		1. $n$. Another name for the internal auditory canal. \[From Latin meatus a course]
 	4506. internal rectus
+		1. $n$. Another name for the medial rectus muscle attached externally to the eyeball. See rectus muscle.
 	4507. internal reliability
-	4508. internal sense
-	4509. internal validity
+		1. $n$. Another name for internal consistency.
+	4508. [[internal sense]]
+	4509. [[internal validity]]
 	4510. International Affective Picture System
+		1. See IAPS in the main body of the dictionary.
 	
 	4511. International Classification of Diseases
+		1. See ICD in the main body of the dictionary.
 	4512. international personality item pool
-	4513. International Phonetic Alphabet
-	4514. internet addiction syndrome
-	4515. internet gaming disorder
-	4516. interneuron
-	4517. internuncial
-	4518. interoception
-	4519. interoceptor
-	4520. interpersonal trust scale
+		1. See IPIP in the main body of the dictionary.
+	4513. [[International Phonetic Alphabet]]
+	4514. [[internet addiction syndrome]]
+	4515. [[internet gaming disorder]]
+	4516. [[interneuron]]
+	4517. [[internuncial]]
+	4518. [[interoception]]
+	4519. [[interoceptor]]
+	4520. [[interpersonal trust scale]]
 	
-	4521. interplexiform cell
-	4522. interposition
-	4523. interpretation
-	4524. interquartile range
-	4525. interrupted time-series design
-	4526. intersex condition
+	4521. [[interplexiform cell]]
+	4522. [[interposition]]
+	4523. [[interpretation]]
+	4524. [[interquartile range]]
+	4525. [[interrupted time-series design]]
+	4526. [[intersex condition]]
 	4527. intersexuality
-	4528. interspecific competition
-	4529. interstimulus interval
+		1. n. Another name for intersex condition.
+	4528. [[interspecific competition]]
+	4529. [[interstimulus interval]]
 	4530. interstitial-cell-stimulating hormone
+		1. $n$. Another name for luteinizing hormone, especially in males. ICSH abbrev. \[From Latin inter within + sistere to stand]
 	
 	4531. intertectal commissure
-	4532. interval of uncertainty
-	4533. interval scale
+		1. $n$. Another name for the posterior cerebral commissure. \[So called because it lies between the two halves of the tectum]
+	4532. [[interval of uncertainty]]
+	4533. [[interval scale]]
 	4534. intervening region
-	4535. intervening variable
-	4536. interview
-	4537. intestine
-	4538. intimacy versus isolation
-	4539. intolerance of ambiguity
-	4540. intonation
+		1. n. In genetics, another name for an intron.
+	4535. [[intervening variable]]
+	4536. [[interview]]
+	4537. [[intestine]]
+	4538. [[intimacy versus isolation]]
+	4539. [[intolerance of ambiguity]]
+	4540. [[intonation]]
 	
-	4541. intoxication
-	4542. intracellular
-	4543. intracellular fluid
-	4544. intracellular thirst
-	4545. intraception
-	4546. intracortical
-	4547. intracranial
+	4541. [[intoxication]]
+	4542. [[intracellular]]
+	4543. [[intracellular fluid]]
+	4544. [[intracellular thirst]]
+	4545. [[intraception]]
+	4546. [[intracortical]]
+	4547. [[intracranial]]
 	4548. intracytoplasmic sperm injection
-	4549. intrafusal
+		1. See ICSI in the main body of the dictionary. \[From Latin intra within + Greek kytos a vessel + plasma a form + -ikos of, relating to, or resembling]
+	4549. [[intrafusal]]
 	4550. intragenic region
+		1. n. Another name for an intron. 
 	
-	4551. intralaminar nucleus
-	4552. intransitive preferences
-	4553. intraspecific competition
-	4554. intrinsic light
+	4551. [[intralaminar nucleus]]
+	4552. [[intransitive preferences]]
+	4553. [[intraspecific competition]]
+	4554. [[intrinsic light]]
 	4555. intrinsic neuron
-	4556. intrinsic nucleus
-	4557. intrinsic validity
-	4558. introjection
-	4559. intron
-	4560. introspection
+		1. n. Another name for an interneuron
+	4556. [[intrinsic nucleus]]
+	4557. [[intrinsic validity]]
+	4558. [[introjection]]
+	4559. [[intron]]
+	4560. [[introspection]]
 	
-	4561. introspectionism
-	4562. introversion
-	4563. intrusion
-	4564. intuition
-	4565. intuitive physics
-	4566. intuitive type
-	4567. invariable hue
-	4568. inventory
-	4569. inverse square law
-	4570. invertebrate
+	4561. [[introspectionism]]
+	4562. [[introversion]]
+	4563. [[intrusion]]
+	4564. [[intuition]]
+	4565. [[intuitive physics]]
+	4566. [[intuitive type]]
+	4567. [[invariable hue]]
+	4568. [[inventory]]
+	4569. [[inverse square law]]
+	4570. [[invertebrate]]
 	
-	4571. inverted Oedipus complex
-	4572. inverted qualia
-	4573. inverting spectacles
-	4574. investigative psychology
-	4575. in vitro
-	4576. in vitro fertilization
-	4577. in vivo
+	4571. [[inverted Oedipus complex]]
+	4572. [[inverted qualia]]
+	4573. [[inverting spectacles]]
+	4574. [[investigative psychology]]
+	4575. [[in vitro]]
+	4576. [[in vitro fertilization]]
+	4577. [[in vivo]]
 	4578. in vivo desensitization
-	4579. involuntary muscle
-	4580. involutional depression
+		1. See SYSTEMATIC DESENSITIZATION.
+	4579. [[involuntary muscle]]
+	4580. [[involutional depression]]
 	
-	4581. involutional psychosis
-	4582. iodopsin
-	4583. ion
-	4584. ion channel
-	4585. ionizing radiation
-	4586. ionophore
-	4587. Iowa gambling task
+	4581. [[involutional psychosis]]
+	4582. [[iodopsin]]
+	4583. [[ion]]
+	4584. [[ion channel]]
+	4585. [[ionizing radiation]]
+	4586. [[ionophore]]
+	4587. [[Iowa gambling task]]
 	4588. Iowa Manifest Anxiety Scale
-	4589. IPIPabbrev.
-	4590. iproniazid
+		1. n. Another name for the Manifest Anxiety Scale.
+	4589. [[IPIP]]
+	4590. [[iproniazid]]
 	
-	4591. ipsative
-	4592. ipsilateral
-	4593. IQabbrev.
-	4594. IQ test
-	4595. iris
+	4591. [[ipsative]]
+	4592. [[ipsilateral]]
+	4593. [[IQ]]
+	4594. [[IQ test]]
+	4595. [[iris]]
 	4596. irkunii
-	4597. irradiation
-	4598. irradiation illusion
-	4599. irrational type
-	4600. irritable bowel syndrome
+		1. See latah
+	4597. [[irradiation]]
+	4598. [[irradiation illusion]]
+	4599. [[irrational type]]
+	4600. [[irritable bowel syndrome]]
 	
 	4601. irritable male syndrome
 	4602. irritable mood

@@ -7,7 +7,10 @@
 - http://www2.montana.edu/cftr/ionchannelprimers/beginners.htm
 	- #comment The site can't be reached
 	- Overview of the mechanisms and functions of ion channels, including diagrams
+## Source[^3]
+- $n$. A pore in the cell membrane of a neuron allowing passive flow across it of particular ions or groups of ions when it opens in response to a specific stimulus, resulting in either depolarization or hyperpolarization of the neuron, ion channels being divided broadly into anion channels and cation channels. See also ACTION POTENTIAL, CALCIUM CHANNEL, CHEMICALLY GATED ION CHANNEL, SODIUM CHANNEL, VOLTAGE-GATED ION CHANNEL.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

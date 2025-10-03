@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - Introspection involves the monitoring of several virtual machines with a hypervisor or virtual machine monitor (VMM). This process improves security and management by allowing SMBs to utilize multiple virtual machines without configuring or installing agents on each one. It also separates a security policy enforcement from the containers it protects, helping organizations improve compliance outcomes.
+## Source[^2]
+- $n$. A method of data collection in which observers examine, record, and describe their own internal mental processes and experiences. It can be traced back to the writings of the Greek philosopher Aristotle (384-322 вс), who described in his essay On Memory in his Parva Naturalia how the process of recalling autumn was preceded by related thoughts such as milk, white, air, fluid, and only then autumn. When psychology emerged as an independent empirical science in Germany in the 1880s, Wilhelm (Max) Wundt (1832-1920) and other experimental researchers regarded uncontrolled introspection as unreliable and introduced methods based on introspection by trained observers under experimental conditions. In 1913 the US psychologist John B(roadus) Watson (1878-1958) launched an attack on introspection, declaring that psychology ought to be confined to the prediction and control of overt behavior, but he advocated the study of reasoning processes via think-aloud methods, on which modern techniques of protocol analysis are based. See also infinite REGRESS, METACOGNITION, Phenomenology, Structuralism (2). Compare free association. introspect $v b$. \[From Latin intro- towards the inside + specere, spectum to look + -ion indicating an action, process, or state]
 ## References
 
 [^1]: [[(Home Page) Glossary by Capterra]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

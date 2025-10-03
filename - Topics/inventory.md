@@ -9,6 +9,9 @@
 - Similar to uncoupling inventory is the buffer inventory, which protects against variations in supply, demand, and lead times. It represents a safety margin and is therefore directly related to the reliability of demand forecasting, etc.
 - Pipeline inventory is that part of the inventory that is locked up in the system. Because all processes take time, the pipeline is a function of a transformation system rather than performing a function within it. If organizations have to subcontract part of their products or if elements of the system are widely separated geographically, the amount of resource locked up in the pipeline can increase dramatically. Modern process-monitoring systems based on information technology are designed to ensure that the pipeline inventory in particular is kept to a minimum.
 - Cycle inventory is a function of the economic order quantity (EOQ) calculation and represents a trade-off between minimizing the inventory and the costs of setting up and changing processes. Just-in-time techniques are designed to rely on a minimum EOQ. Clearly there is some overlap between these different types of inventory.
+## Source[^2]
+- $n$. Any list or schedule of items. In psychometrics, a questionnaire or checklist usually functioning as a self-report test of abilities, aptitudes, or intelligence. Tests designed to measure interests, attitudes, personality traits, preferences, and psychological attributes are also sometimes called inventories, but tests designed to measure abilities, aptitudes, and intelligence are usually called questionnaires. \[From Latin inventorium a list of things found, from invenire, inventum to find or come upon, from in on + venire to come]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
