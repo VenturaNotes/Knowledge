@@ -6,8 +6,11 @@
 - A measure of dispersion equal to the difference between the first and third quartiles in a set of numerical data.
 ## Source[^3]
 - A measure of statistical dispersion of a variable. The interquartile range is equal to the difference between the values of the variable at the third and first quartiles. See also QUANTILE.
+## Source[^4]
+- $n$. In descriptive statistics, a measure of the degree of dispersion, variability, or scatter in a group of scores, defined as the difference between the third and the first quartiles. Compare probable ERROR, RANGE, SEMI-INTERQUARTILE RANGE, STANDARD DEVIATION, VARIANCE. IQR abbrev.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The sum of properties by which the referent or referents of a given word or expression are determined, including both defining and non-defining properties; thus, having interior angles equal to 180 degrees is part of the intension of the word triangle, although it is not part of the definition of that concept, and suckling its young and having a pouch are both parts of the intension of the word marsupial. It is distinguished from the extension of a word, expression, or concept, which consists of all those entities to which the word or expression applies or that fall under the concept: the extension of wife of King Henry VIII is precisely the set \{Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard, Catherine Parr\}. The distinction between intension and extension, which is close to the distinction between connotation (2) and denotation (2), was introduced by the French theologians/logicians Antoine Arnauld (1612-94) and Pierre Nicole (1625-95) in the Port Royal Logic in 1662, where intension was called comprehension. intensional adj. \[From Latin intensus stretched or given one's attention, from intendere to stretch forth or give one's attention to, from in- towards + tendere to stretch]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

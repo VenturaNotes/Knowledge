@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The act or process of giving individuality to someone or something. In analytical psychology it is the process occurring by degrees over the lifespan whereby an individual achieves wholeness through the integration of consciousness and the collective unconscious, and it is symbolized by the mandala. In a key passage, Carl Gustav Jung (1875-1961) described it as follows: 'Individuation means becoming a single, homogeneous being, and, in so far as "individuality" embraces our innermost, last, and incomparable uniqueness, it also implies becoming one's own self. We could therefore translate individuation as "coming to selfhood" or "self-actualization" ' (Collected Works, 7, paragraph 266). Jung borrowed the word from the German philosopher Arthur Schopenhauer (1788-1860), but it has been traced back to 16th-century alchemy. In neo-Freudian theory, the German-born US psychoanalyst Erich Fromm (1900-80) used the term slightly differently to denote the gradual attainment by a growing child of awareness of being a particular, individual person. Compare deindividuation. \[From Latin individuare to single out, from in- into + dividuus divisible, from dividere to divide]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A decision task designed to simulate real-life decision making. On each trial the decision maker chooses a card from one of four decks, each choice resulting in a fixed gain of $\$ 100$ for any card from two of the decks or $\$ 50$ for any card from the other two, although the decision maker is not told this. For some cards, the decision maker also suffers a loss. Losses total $\$ 1,250$ for every ten cards in two of the decks and $\$ 250$ for every ten cards in the other two. These gains and losses are arranged so that two of the decks yield substantial expected losses and the other two substantial expected gains over every run of 10 cards, but there are sharp differences between short-term and long-term payoffs, small losses occurring relatively frequently in some decks and larger but less frequent losses occurring in others. The task was introduced by the Canadian neuroscientist Antoine Bechara (born 1961) and published with three colleagues in the journal Cognition in 1994, where it was shown that people with damage to the prefrontal cortex, in contrast to neurologically undamaged participants in their control group, performed badly, failing to consider the future consequences of their actions and being guided only by immediate prospects. See also somatic marker hypothesis. IGT abbrev. \[So-called because the researchers who developed it were at the University of Iowa at the time]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In a formal model, a variable whose value is determined by a specified manipulation or combination of independent variables and/or other intervening variables, without any hypotheses about the existence of unobserved entities or processes, and that plays a part in explaining the value of a dependent variable, although it has no factual content apart from the empirical relationships that it summarizes. A typical example is the concept of broad heritability $\left(h^{2}\right)$, which is defined as the ratio of genetic variance $V_{\mathrm{G}}$ to total phenotypic variance $V_{\mathrm{P}}$, so that, formally, $h^{2}$ (broad) $=V_{\mathrm{G}} / V_{\mathrm{P}}$. Another example is that of the therapeutic ratio of a drug, defined as the ratio of the median lethal dosage (LD-50) to the median effective dosage (ED-50). Hullian learning theory has scores of intervening variables. The term was introduced in 1938 by the US psychologist Edward C(hace) Tolman (1886-1959), and the distinction between hypothetical constructs and intervening variables was first made explicit in 1948 by the US psychologists Kenneth MacCorquodale (1919-86) and Paul Everett Meehl (1920-2003)—see HYPOTHEtICAL CONSTRUCT.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

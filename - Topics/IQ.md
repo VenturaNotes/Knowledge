@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- abbrev. Intelligence quotient, an index of intelligence having a normal distribution with a mean of 100 and a standard deviation of 15 (usually). As a consequence, about 68 per cent of IQ scores in a population fall between 85 (one standard deviation below the mean) and 115 (one standard deviation above the mean), about 95 per cent fall between 70 and 130, about 99.74 per cent between 55 and 145, and so on. The concept was first proposed in 1912 by the German psychologist (Louis) William Stern (1871-1938), who defined it as mental age (MA) divided by actual or chronological age (CA): IQ = MA/CA, and that is how it came to be called a quotient. In 1916 the US psychometrician Lewis M(adison) Terman (1877-1956) introduced the convention of multiplying the ratio by 100, to eliminate unwanted decimals and to express IQ as a percentage of chronological age, so that $\mathrm{IQ}=(\mathrm{MA} / \mathrm{CA}) \times 100$, and this means that a score of 100 is average for the age group by definition. That definition was used until the Romanian-born US psychologist David Wechsler (1896-1981) introduced the modern statistical definition, sometimes called the deviation IQ because it is based on standard deviations, in 1939. See also DEVELOPMENTAL QUOTIENT, GENIUS, NORM-REFERENCED TEST, RATIO IQ. Compare EMOTIONAL QUOTIENT, SOCIAL QUOTIENT.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
