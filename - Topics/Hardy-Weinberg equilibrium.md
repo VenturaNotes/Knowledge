@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - The balance in the relative numbers of alleles (see allele frequency) that is maintained within a large population over a period of time assuming that: (1) mating is random; (2) there is no natural selection; (3) there is no migration; (4) there is no mutation; and (5) the population is very large. In such a stable population, for a gene with two alleles, $A$ (dominant) and $a$ (recessive), if the frequency of $A$ is $p$ and the frequency of $a$ is $q$, then the frequencies of the three possible genotypes $(A A, A a$, and $a a)$ can be expressed by the Hardy-Weinberg equation:$$p^{2}+2 p q+q^{2}=1$$where $p^{2}=$ frequency of $A A$ (homozygous dominant) individuals, $2 p q=$ frequency of $A a$ (heterozygousy) individuals, and $q^{2}=$ frequency of $a a$ (homozygous recessive) individuals. The equation can be used to calculate allele frequencies if the numbers of homozygous recessive individuals in the population is known; this is useful, e.g., for estimating the frequency of heterozygote carriers of a defective allele responsible for a genetic disease in a population. Moreover, the equation can be used to test if evolution is occurring at any particular genetic locus; if it is not, and the above conditions apply, then the calculated allele frequency will agree with that observed in a population for subsequent generations. A disparity in the calculated and observed frequencies might indicate that evolution is occurring. The equation and the equilibrium are named after British mathematician G. H. Hardy (1877-1947) and German physician W. Weinberg (1862-1937).
+## Source[^2]
+- $n$. The stable state of a population in which the Hardy-Weinberg law holds, also called a balanced polymorphism.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

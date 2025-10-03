@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The tendency for people who know that a particular event has occurred to overestimate in hindsight the probability with which they would have predicted it in foresight. It was first reported in 1975 by the US psychologist Baruch Fischhoff (born 1946), who initially invited people to predict the likelihood of events (such as the US president's visit to China) before they occurred and later to recall their predictions. Their recall of their predictions was biased towards what had actually occurred, and they were therefore insufficiently surprised by the events, given their earlier predictions. In a later experiment, participants read descriptions of historical events, judged the likelihoods of various possible outcomes, and were then told what had actually happened. When they were invited to estimate the likelihoods of the possible outcomes once again in the light of this additional information$\textemdash$with the benefit of hindsight$\textemdash$they tended to assign higher likelihoods to outcomes they were told had occurred, and they justified this to themselves by perceiving information supporting this outcome as more relevant than other information that they had been given. See also OVERCONFIDENCE EFFECT.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

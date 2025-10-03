@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Inserting a needle into the affected area to extract fluid or cells
+## Source [^1]
+- 
 ## References
 
-[^1]: Google's Search Labs | AI Overview
+[^1]:

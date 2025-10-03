@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - A single physical component within that system, like a mouse, CPU, or printer
+## Source [^1]
+- 
 ## References
 
-[^1]: Google's Search Labs | AI Overview
+[^1]:

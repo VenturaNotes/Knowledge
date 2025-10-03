@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
 - It is also known as a magic method or special method
 - A predefined method in Python that adds special functionality to clasess and objects
 - They are recognized by the double underscore format such as `__methodname__()`
@@ -20,6 +18,8 @@
 		- [[__delitem__ (python)|__delitem__]]
 	- Init
 		- [[__init__() (python)|__init__()]]
+## Source [^1]
+- 
 ## References
 
-[^1]: Google's Search Labs | AI Overview
+[^1]:

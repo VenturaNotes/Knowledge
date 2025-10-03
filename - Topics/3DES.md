@@ -17,7 +17,7 @@ aliases:
 	- #question What does encrypt mean?
 	- #question What does decrypt mean?
 	- #question What is meant by blocks? What is a fixed-length group of bits
-	- Details[^2]
+	- #comment Details
 		- A symmetric key block cipher is a cryptographic algorithm that uses a single key to encrypt and decrypt blocks of data.
 - Called "Triple DES" because it applies the DES ([[Data Encryption Standard]]) cipher three times when encrypting data. 
 	- #question 
@@ -28,4 +28,3 @@ aliases:
 ## References
 
 [^1]: https://www.computerhope.com/jargon/num/3des.htm
-[^2]: Google's Search Labs | AI Overview

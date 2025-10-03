@@ -6,9 +6,9 @@ aliases:
   - FSM
 ---
 ## Synthesis
-- 
-## Source [^1]
 - An [[accepting state]] is a special that that indicates whether an input string is considered valid or not
+## Source [^1]
+- 
 ## References
 
-[^1]: Google's Search Labs | AI Overview
+[^1]:

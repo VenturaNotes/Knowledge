@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - Someone who uses computers and networks to commit crimes online
+## Source [^1]
+- 
 ## References
 
-[^1]: Google's Search Labs | AI Overview
+[^1]:

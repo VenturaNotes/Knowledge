@@ -3,8 +3,6 @@ aliases:
   - biopsies
 ---
 ## Synthesis
-- 
-## Source [^1]
 - A medical procedure where a small sample of tissue or cells is removed from the body for examination under a microscope
 - Different methods to obtain the tissue sample
 	- [[Needle aspiration]]
@@ -18,12 +16,11 @@ aliases:
 	- [[Endoscopic biopsy]]
 		- Using a flexible tube with a camera to access and biopsy internal tissues
 - The tissue sample is then sent to a laboratory for analysis by a [[pathologist]], who will examine it for abnormalities and provide a diagnosis
-## Source[^2]
+## Source[^1]
 - $n$. the removal of a small piece of living tissue from an organ or part of the body for microscopic examination. Biopsy is an important means of diagnosing cancer from examination of a fragment of tumor. It is often carried out with a special hollow needle, inserted into the liver, kidney, or other organ, with relatively little discomfort to the patient.
-## Source[^3]
-- The removal of a small section of tissue from a potentially diseased organ or tissue in a living organism. The biopsied tissue is usually analysed by microscopic techniques in order to identify the nature of the disease.
+## Source[^2]
+- The removal of a small section of tissue from a potentially diseased organ or tissue in a living organism. The biopsied tissue is usually analyzed by microscopic techniques in order to identify the nature of the disease.
 ## References
 
-[^1]: Google's Search Labs | AI Overview
-[^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
-[^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

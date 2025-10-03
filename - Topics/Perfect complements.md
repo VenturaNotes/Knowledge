@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source [^1]
 - When the [[elasticity of substitution]] is 0
+## Source [^1]
+- 
 ## References
 
-[^1]: Google's Search Labs | AI Overview
+[^1]:

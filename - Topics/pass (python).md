@@ -3,11 +3,8 @@ aliases:
   - pass
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Null operation
 - Placeholder which is syntactically required but does nothing when executed
-
 ### Uses of Pass in Python
 - In functions and class definitions (without providing an implementation immediately)
 - Loops: If you need a loop to perform no action for certain iterations
@@ -55,6 +52,8 @@ else:
 ### Practical Use Cases of Pass
 - When designing structure of your program, might create function or class definitions to implement later. 
 - When debugging or refactoring code, might temporarily replace a block of code with `pass` to isolate issues
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 
