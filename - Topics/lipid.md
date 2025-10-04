@@ -8,7 +8,10 @@
 - Lipids can combine with proteins to form lipoproteins (e.g. in cell membranes). In bacterial cell walls, lipids may associate with polysaccharides to form lipopolysaccharides.
 - http://lipidlibrary.aocs.org/
 	- Extensive information about lipids in Lipid Library, compiled by the former head of the Scottish Crop Research Institute
+## Source[^3]
+- $n$. Any of a group of organic compounds, including especially fats and waxes that are esters of fatty acids, that together with carbohydrates and proteins are the principal constituents of living cells and are soluble in alcohol and other solvents but not in water. \[From French lipide, from Greek lipos fat]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

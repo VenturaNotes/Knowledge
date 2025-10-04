@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The study of the role of gestures (1) and other body movements in non-verbal communication. Gestures are often classified into emblems (gestures that substitute for words, such as waving the hand for 'goodbye' or putting a forefinger to the lips for 'silence'); illustrators (gestures that accompany speech and depict what is being said, such as moving the hands apart to illustrate a description of a big fish); adaptors (gestures, usually involving self-touching, that help one to cope with emotional reactions, such as covering the eyes with shock or putting a hand over the mouth with surprise); and regulators (gestures that accompany speech and help to coordinate turn-taking, including raising a hand in the air to indicate that one has not finished speaking). In addition to these, affect displays are facial expressions that convey emotional states. Also called body language. See also amimia, apraxia, asemia, copropraxia, echopraxia, KINEME, KINEMORPH, PARAMIMIA, RETT's DISORDER, SEMIOTICS. kinesic adj. Of or relating to kinesics. \[From Greek kinesis movement, from kineein to move]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Laws governing the illusion of apparent movement when two stimuli are exposed in alternation. If $s$ is the spatial distance between the stimuli, $t$ is their exposure time (assumed to be the same for both stimuli), $i$ is their intensity (assumed equal), and $p$ the interstimulus interval or pause between exposures, then for critical values of $s, i$, and $t$ yielding optimal movement, the four basic laws are as follows. (a) $s$ increases as $i$ increases, $p$ and $t$ remaining constant; (b) $i$ decreases as $p$ increases, $s$ and $t$ remaining constant; (c) $s$ increases as $p$ increases, $i$ and $t$ remaining constant; (d) $t$ increases as $p$ increases, $i$ and $s$ remaining constant. The laws apply approximately to partial movement and phi movement also. Also called Koffka-Korte laws on account of the supervision of Korte's (doctoral) work by the German Gestalt psychologist Kurt Koffka (1886-1941). See also alpha movement, beta movement, gamma movement, delta MOVEMENT, PHI MOVEMENT. \[Named after the German Gestalt psychologist Adolf Korte who formulated the earliest version of them in the journal Zeitschrift für Psychologie in 1915, shortly before he died in World War I]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

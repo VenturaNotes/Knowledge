@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An apathetic condition in an animal or a human being resulting from exposure to insoluble problems or inescapable physical or emotional stress, believed by some psychologists to underlie depression. The term was introduced in 1967 by the US psychologists J(ames) Bruce Overmier (born 1938) and Martin E. P. Seligman (born 1942) in an article in the Journal of Comparative and Physiological Psychology. Early experiments involved strapping experimental dogs into harnesses to prevent them escaping, and then exposing them to inescapable electric shocks. When the dogs were later placed in a situation in which they had to respond to a warning signal by jumping over a low barrier in order to avoid further shocks, most became apathetic and listless and failed to learn this simple avoidance response, whereas a control group of dogs that had not been exposed to the inescapable shocks learned the avoidance response quickly and easily. Learned helplessness has been demonstrated in humans as well as animals, and Seligman and his followers believe that it reduces the motivation to solve problems, interferes with the ability to learn from experience, and produces depression. It is very occasionally spelt learnt helplessness, which is arguably preferable inasmuch as it avoids the implication that the helplessness is knowledgeable and well read. \[So called because it is acquired by learning (1)]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

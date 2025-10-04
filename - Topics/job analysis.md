@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - A detailed study of a particular job, the tools and equipment needed to do it, and its relation to other jobs in an organization. The analysis should also provide the information needed to say how the job should best be done and the qualifications, experience, or aptitudes of the person best suited to doing it. Data is usually collected by questioning those already doing or supervising the job and is subjected to various forms of interpretation by a job analyst. Accurate job analysis is crucial to effective job evaluation, employee evaluation, and personnel selection. See also JOB DESCRIPTION; JOB DIMENSIONS.
+## Source[^2]
+- $n$. In personnel psychology, the process of determining the characteristics of a job and the attributes required to perform it for purposes of selection and placement of employees, evaluation of employee productivity for purposes of promotion, and design of training programmes for employees. It usually begins with a job description$\textendash$a detailed description, often agreed between management and workforce, of the work normally done by a person carrying out the job, including all relevant duties and responsibilities. The next step is the construction of a job specification$\textendash$a record of the work that a person in the job ought ideally to do. The final step is the specification of a set of job requirements$\textendash$skills, competencies, and qualifications needed by a person to perform the job satisfactorily. The list of job requirements may be viewed as a distillation of the personal factors that are important in carrying out the work.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

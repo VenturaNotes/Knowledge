@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A visual illusion—specifically, a perspective illusion—originally demonstrated with an image of the Leaning Tower of Pisa, photographed from below. When two identical copies of the image are placed side by side, the towers appear to lean away from each other (see illustration, top, overleaf.). This is caused by the fact that the visual system interprets the two images as parts of a single image. A single image of a pair of towers aligned with each other and photographed from below would converge towards the top, owing to linear perspective, and the visual system would correct for this convergence so that the towers would be perceived as rising in parallel. In the illusion, the towers are in separate images and do not converge, but the visual system interprets them as parts of a single image, and automatic perspective correction therefore causes them to appear to diverge. In spite of its name, the same illusion is seen when identical images of any scene with strong perspective cues, such as two identical images of a road receding towards the horizon, are placed side by side (see illustration, bottom, overleaf). The illusion was discovered by the Canadian-based British neuroscientist Frederick A. A. Kingdom (born 1953) and two research associates at McGill University, and it was first published in the journal Perception in 2007. \[So called because it causes one tower to appear to lean away from the other, and also because the Leaning Tower of Pisa was used to illustrate it.]
+- ![[Screenshot 2025-10-04 at 12.33.11 AM.png|400]]
+	- Leaning tower illusion. The two images of the Leaning Tower of Pisa (top), are identical and, amazingly, so are the two images of the road (bottom).
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

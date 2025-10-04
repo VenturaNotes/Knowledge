@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The theory propounded originally by the US fire prevention officer and linguist Benjamin Lee Whorf (1897-1943) that language determines the way people perceive the world and think, rather than vice versa. Whorf argued that because the North American Hopi Indians have only one word (masa'ytaka) for everything that flies, apart from birds, they do not perceive and conceptualize the distinctions between insects, aircraft, bats, and aviators that English-speakers do; and analogously, English-speakers do not perceive and conceptualize the distinctions between different kinds of snow that are distinguished in the language of the Inuit Eskimos, who have twelve separate words for specific kinds of snow (although only one word meaning snow in general), the popular myth that the Eskimos have hundreds of words for snow having originated in 1911 in the introduction by the German-born American anthropologist Franz Boas (1858-1942) to his Handbook of North American Indian Languages. The theory of linguistic determinism has been undermined by evidence such as that of the Dani tribesmen in Papua New Guinea, who have only two words for colours (usually translated as light and dark), but can distinguish between colours as well as people from Western cultures. See also Linguistic Relativity, polyonymy, Sapir-Whorf HYPOTHESIS.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

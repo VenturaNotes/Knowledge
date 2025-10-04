@@ -6,6 +6,9 @@
 	- Website of the British Institute of Learning Disabilities
 - https://www.mencap.org.uk/
 	- Website of Mencap, the UK's leading charity for those with learning disabilities
+## Source[^2]
+- $n$. A generic name for disorders characterized by substantial deficits in scholastic or academic skills, including reading disorder, mathematics disorder, and disorder of written expression. The term was introduced by the US special educator and psychologist Samuel A(lexander) Kirk (1904-96) in his book, Educating Exceptional Children (1962). The preferred term in DSM-5 is specific learning disorder. Also called academic skills disorders or learning disorders. See also specific LEARNING DISABILITY. Compare LEARNING DIFFICULTIES. LD abbrev.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

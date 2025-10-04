@@ -7,7 +7,10 @@
 - (2) The time taken for the start of a given sector of data on a storage disk to reach the read/write head. The time is measured from the instant that the head settles at the track within which the sector lies. The average latency is the time for half a revolution of the disk. See also ACCESS TIME, SEEK TIME.
 ## Source[^2]
 - Latency refers to the delay time it takes for data to travel from one location to another in a network, such as a computer to a printer. A network with low latency is fast, and a network with high latency is slow. Latency is measured in milliseconds, and latency thresholds have shrunk over time. This has occurred as technology and computers have become more and more responsive. Latency is affected by various factors, including the speed and bandwidth of a network.
+## Source[^3]
+- $n$. The interval between a stimulus (1) and a response. Also called latent time, reaction time, or response latency. \[From Latin latere to lie hidden or to escape attention]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
