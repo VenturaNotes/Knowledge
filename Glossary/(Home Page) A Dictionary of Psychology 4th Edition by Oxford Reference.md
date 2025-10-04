@@ -5950,412 +5950,498 @@ Reviewed: false
 	4599. [[irrational type]]
 	4600. [[irritable bowel syndrome]]
 	
-	4601. irritable male syndrome
-	4602. irritable mood
+	4601. [[irritable male syndrome]]
+	4602. [[irritable mood]]
 	4603. is-ought question
-	4604. Isakower phenomenon
-	4605. ischaemia
-	4606. ischaemic pain
-	4607. Ishihara test
+		1. See naturalistic fallacy
+	4604. [[Isakower phenomenon]]
+	4605. [[ischaemia]]
+	4606. [[ischaemic pain]]
+	4607. [[Ishihara test]]
 	4608. island of Reil
-	4609. islets of Langerhans
-	4610. isocarboxazid
+		1. $n$. Another name for the insula. \[Named after the Dutch-born German physician Johann Christian Reil (1759-1813) who drew attention to it]
+	4609. [[islets of Langerhans]]
+	4610. [[isocarboxazid]]
 	
 	4611. isocortex
-	4612. isogenic
-	4613. isogloss
-	4614. isolate
-	4615. isolating language
-	4616. isolating mechanism
-	4617. isolation
+		1. $n$. Another name for the neocortex. \[From Greek isos equal or the same + Latin cortex bark or outer layer]
+	4612. [[isogenic]]
+	4613. [[isogloss]]
+	4614. [[isolate]]
+	4615. [[isolating language]]
+	4616. [[isolating mechanism]]
+	4617. [[isolation]]
 	4618. isolation effect
-	4619. isolation of affect
-	4620. isoluminant
+		1. n. Another name for the von Restorff effect
+	4619. [[isolation of affect]]
+	4620. [[isoluminant]]
 	
-	4621. isomorphism
+	4621. [[isomorphism]]
 	4622. isophonic contour
-	4623. isoquinoline
-	4624. isotonia
-	4625. isotonic
-	4626. isotropic
-	4627. Issawi's law of social motion
-	4628. item analysis
-	4629. item bias
+		1. $n$. Another name for an equal-loudness contour. \[From Greek isos equal or the same + phonikos of or relating to sound, from phone a voice or sound + -ikos of, relating to, or resembling]
+	4623. [[isoquinoline]]
+	4624. [[isotonia]]
+	4625. [[isotonic]]
+	4626. [[isotropic]]
+	4627. [[Issawi's law of social motion]]
+	4628. [[item analysis]]
+	4629. [[item bias]]
 	4630. item characteristic curve
+		1. $n$. Another name for an item response function. See ITEM RESPONSE THEORY.
 	
-	4631. item discrimination index
-	4632. Item Group Checklist
+	4631. [[item discrimination index]]
+	4632. [[Item Group Checklist]]
 	4633. item response curve
-	4634. item response theory
-	4635. Jackson's principle
-	4636. Jacksonian epilepsy
+		1. $n$. Another name for an item response function. See ITEM RESPONSE THEORY.
+	4634. [[item response theory]]
+	4635. [[Jackson's principle]]
+	4636. [[Jacksonian epilepsy]]
 	4637. Jacobson's organ
+		1. $n$. Another name for the vomeronasal organ. \[Named after the Danish anatomist Ludvig Levin Jacobson (1783-1843) who discovered it]
 	4638. Jacobson's progressive relaxation
-	4639. jactation
-	4640. jamais vu
+		1. $n$. Another name for progressive relaxation. \[Named after the US physician Edmund Jacobson (1888-1983) who introduced it in 1938]
+	4639. [[jactation]]
+	4640. [[jamais vu]]
 	
-	4641. James-Lange theory
+	4641. [[James-Lange theory]]
 	4642. Japanese writing
-	4643. jargon
-	4644. jargon aphasia
-	4645. Jastrow illusion
-	4646. jealous delusional disorder
+		1. See kana, kanji.
+	4643. [[jargon]]
+	4644. [[jargon aphasia]]
+	4645. [[Jastrow illusion]]
+	4646. [[jealous delusional disorder]]
 	4647. jealousy, morbid
-	4648. Jerusalem syndrome
-	4649. jet lag
-	4650. jigsaw classroom
+		1. n. Another name for jealous delusional disorder
+	4648. [[Jerusalem syndrome]]
+	4649. [[jet lag]]
+	4650. [[jigsaw classroom]]
 	
-	4651. Jimmy
+	4651. [[Jimmy]]
 	4652. jinjinia bemar
+		1. See koro.
 	4653. jiryan
-	4654. job analysis
-	4655. Job Descriptive Index
-	4656. job satisfaction
-	4657. Jocasta complex
-	4658. John Henry effect
-	4659. joint
-	4660. joint sense
+		1. See dhat.
+	4654. [[job analysis]]
+	4655. [[Job Descriptive Index]]
+	4656. [[job satisfaction]]
+	4657. [[Jocasta complex]]
+	4658. [[John Henry effect]]
+	4659. [[joint]]
+	4660. [[joint sense]]
 	
-	4661. Jost's law
+	4661. [[Jost's law]]
 	4662. Julesz stereogram
-	4663. jumping gene
-	4664. Jungian
-	4665. Jungian analysis
+		1. $n$. Another name for a random-dot stereogram. \[Named after the Hungarian-born US radar engineer and psychologist Bela Julesz (1928-2003) who invented it in 1960]
+	4663. [[jumping gene]]
+	4664. [[Jungian]]
+	4665. [[Jungian analysis]]
 	4666. junk
-	4667. junk DNA
+		1. n. Rubbish. Also, a common street name for heroin. \[From the obsolete word jonke useless old rope]
+	4667. [[junk DNA]]
 	4668. junkie
+		1. $n$. An informal name for a drug user, especially an injecting heroin user.
 	4669. just noticeable difference
-	4670. just world hypothesis
+		1. $n$. Another name for a difference threshold. jnd abbrev.
+	4670. [[just world hypothesis]]
 	
-	4671. Just World Scale
-	4672. K-line
-	4673. K-selection
-	4674. kainic acid
-	4675. kairomone
+	4671. [[Just World Scale]]
+	4672. [[K-line]]
+	4673. [[K-selection]]
+	4674. [[kainic acid]]
+	4675. [[kairomone]]
 	4676. kakosmia
-	4677. Kamin blocking
-	4678. Kamin effect
-	4679. kana
-	4680. Kanizsa triangle
+		1. See cacosmia
+	4677. [[Kamin blocking]]
+	4678. [[Kamin effect]]
+	4679. [[kana]]
+	4680. [[Kanizsa triangle]]
 	
-	4681. kanji
+	4681. [[kanji]]
 	4682. Kanner's syndrome
-	4683. kappa effect
-	4684. kappa statistic
-	4685. Kardos effect
-	4686. karyotype
-	4687. Kaspar Hauser experiment
+		1. $n$. An alternative name for autism spectrum disorder. \[Named after the Austrian-born US child psychiatrist Leo Kanner (1894-1981) who first described it in 1943]
+	4683. [[kappa effect]]
+	4684. [[kappa statistic]]
+	4685. [[Kardos effect]]
+	4686. [[karyotype]]
+	4687. [[Kaspar Hauser experiment]]
 	4688. kat
+		1. See khat
 	4689. katakana
+		1. See kana
 	4690. katasexualism
+		1. $n$. A generic name for the paraphilias necrophilia and zoophilia. \[From Greek kata down + English sexualism]
 	
-	4691. kava
-	4692. K complex
-	4693. Keeler polygraph
-	4694. Kelley's cube
-	4695. Kendall's tau
-	4696. Kendall coefficient of concordance
+	4691. [[kava]]
+	4692. [[K complex]]
+	4693. [[Keeler polygraph]]
+	4694. [[Kelley's cube]]
+	4695. [[Kendall's tau]]
+	4696. [[Kendall coefficient of concordance]]
 	4697. Kendall correlation coefficient
-	4698. Kent-Rosanoff Free Association Test
-	4699. kernel
-	4700. ketamine
+		1. n. Another name for Kendall's tau.
+	4698. [[Kent-Rosanoff Free Association Test]]
+	4699. [[kernel]]
+	4700. [[ketamine]]
 	
-	4701. ketone
+	4701. [[ketone]]
 	4702. keyword mnemonic
-	4703. khat
-	4704. khyâl cap
-	4705. Kiddie Mach
+		1. n. Another name for the peg-word mnemonic.
+	4703. [[khat]]
+	4704. [[khyâl cap]]
+	4705. [[Kiddie Mach]]
 	4706. killer T cell
+		1. See T lymphocyte
 	4707. kilocalorie
-	4708. kinaesthesis
-	4709. kinaesthetic method
-	4710. kindling
+		1. n. Another name for a Calorie
+	4708. [[kinaesthesis]]
+	4709. [[kinaesthetic method]]
+	4710. [[kindling]]
 	
-	4711. kineme
-	4712. kinemorph
-	4713. kinephantom
-	4714. kinesics
-	4715. kinetic depth effect
-	4716. kingdom
-	4717. kinin
-	4718. kinocilium
-	4719. kin selection
+	4711. [[kineme]]
+	4712. [[kinemorph]]
+	4713. [[kinephantom]]
+	4714. [[kinesics]]
+	4715. [[kinetic depth effect]]
+	4716. [[kingdom]]
+	4717. [[kinin]]
+	4718. [[kinocilium]]
+	4719. [[kin selection]]
 	4720. kinship, coefficient of
+		1. See COEFFICIENT OF CONSANGUINITY.
 	
-	4721. kinship study
-	4722. Kleine-Levin syndrome
-	4723. Kleinian
-	4724. kleptolagnia
-	4725. kleptomania
-	4726. Klinefelter's syndrome
-	4727. klinokinesis
-	4728. Klüver-Bucy syndrome
-	4729. klysmaphilia
+	4721. [[kinship study]]
+	4722. [[Kleine-Levin syndrome]]
+	4723. [[Kleinian]]
+	4724. [[kleptolagnia]]
+	4725. [[kleptomania]]
+	4726. [[Klinefelter's syndrome]]
+	4727. [[klinokinesis]]
+	4728. [[Klüver-Bucy syndrome]]
+	4729. [[klysmaphilia]]
 	4730. knee-jerk reflex
+		1. n. A non-technical name for the patellar reflex
 	
-	4731. Knobe effect
-	4732. knobs-and-dials psychology
+	4731. [[Knobe effect]]
+	4732. [[knobs-and-dials psychology]]
 	4733. knowing how
+		1. n. Another name for procedural knowledge.
 	4734. knowing that
-	4735. knowledge
-	4736. knowledge representation
+		1. n. Another name for declarative knowledge.
+	4735. [[knowledge]]
+	4736. [[knowledge representation]]
 	4737. Koffka-Korte laws
-	4738. Kohlberg stage
-	4739. Kohnstamm effect
-	4740. Kohs Block Design Test
+		1. $n$. Another name for Korte's laws. \[Named after the German Gestalt psychologist Kurt Koffka (1886-1941) and his doctoral student Adolf Korte, who published them in the journal Zeitschrift für Psychologie in 1915 shortly before Korte died in World War I]
+	4738. [[Kohlberg stage]]
+	4739. [[Kohnstamm effect]]
+	4740. [[Kohs Block Design Test]]
 	
-	4741. Kohutian
-	4742. Kolmogorov's axioms
-	4743. Kolmogorov-Smirnov test
-	4744. König bars
-	4745. koro
-	4746. Korsakoff's psychosis
-	4747. Korte's laws
-	4748. Krebs cycle
-	4749. Kretschmer constitutional type
-	4750. Kruskal-Wallis 1-way analysis of variance
+	4741. [[Kohutian]]
+	4742. [[Kolmogorov's axioms]]
+	4743. [[Kolmogorov-Smirnov test]]
+	4744. [[König bars]]
+	4745. [[koro]]
+	4746. [[Korsakoff's psychosis]]
+	4747. [[Korte's laws]]
+	4748. [[Krebs cycle]]
+	4749. [[Kretschmer constitutional type]]
+	4750. [[Kruskal-Wallis 1-way analysis of variance]]
 	
-	4751. Kuder-Richardson coefficient
-	4752. Kuder Preference Record
-	4753. kufungisisa
-	4754. Kuhnian
-	4755. kula ring
+	4751. [[Kuder-Richardson coefficient]]
+	4752. [[Kuder Preference Record]]
+	4753. [[kufungisisa]]
+	4754. [[Kuhnian]]
+	4755. [[kula ring]]
 	4756. Kuleshov experiment
-	4757. Kundt's rules
-	4758. kurtosis
-	4759. kuru
-	4760. kymograph
+		1. See dialectical montage.
+	4757. [[Kundt's rules]]
+	4758. [[kurtosis]]
+	4759. [[kuru]]
+	4760. [[kymograph]]
 	
 	4761. l'illusion de sosies
-	4762. L-dopaabbrev.
-	4763. la belle indifférence
-	4764. labelling theory
-	4765. labia majora
-	4766. labia minora
+		1. $n$. Another name for Capgras syndrome. \[From French l'illusion the illusion + de of + sosies doubles, from Socias in Greek mythology, the identity that Zeus persuaded Mercury to adopt to help him seduce Alcmene by impersonating her husband]
+	4762. [[L-dopa]]
+	4763. [[la belle indifférence]]
+	4764. [[labelling theory]]
+	4765. [[labia majora]]
+	4766. [[labia minora]]
 	4767. labile affect (mood)
-	4768. labiodental
-	4769. labiovelar
-	4770. labyrinth
+		1. See affect
+	4768. [[labiodental]]
+	4769. [[labiovelar]]
+	4770. [[labyrinth]]
 	
-	4771. labyrinthine nystagmus
-	4772. Lacanian
+	4771. [[labyrinthine nystagmus]]
+	4772. [[Lacanian]]
 	4773. lacrimator
+		1. n. Another name for a tear gas. \[From Latin lacrima a tear]
 	4774. lacunar amnesia
-	4775. Ladd‐Franklin theory
-	4776. Lake Wobegon effect
-	4777. lallation
-	4778. laloplegia
+		1. n. Another name for episodic amnesia. \[From Latin lacuna a hole or cavity]
+	4775. [[Ladd‐Franklin theory]]
+	4776. [[Lake Wobegon effect]]
+	4777. [[lallation]]
+	4778. [[laloplegia]]
 	4779. lalorrhoea
-	4780. Lamarckism
+		1. $n$. Another name for logorrhoea. US lalorrhea. \[From Greek lalia speech + rhoia a flow]
+	4780. [[Lamarckism]]
 	
 	4781. lambda statistic
-	4782. lambert
-	4783. Land effect
+		1. n. Another name for the Goodman-Kruskal lambda.
+	4782. [[lambert]]
+	4783. [[Land effect]]
 	4784. Landmark Forum
-	4785. Landolt circle
-	4786. langage
-	4787. language
-	4788. language acquisition device
-	4789. language disorder
-	4790. Language Personality Sphere
+		1. n. The official name, since 1984, for est.
+	4785. [[Landolt circle]]
+	4786. [[langage]]
+	4787. [[language]]
+	4788. [[language acquisition device]]
+	4789. [[language disorder]]
+	4790. [[Language Personality Sphere]]
 	
-	4791. langue
-	4792. lanugo
+	4791. [[langue]]
+	4792. [[lanugo]]
 	4793. lapsus calami
+		1. $n$. Another name for a slip of the pen. \[From Latin lapsus an error + calamus a reedpen]
 	4794. lapsus linguae
+		1. $n$. Another name for a slip of the tongue. \[From Latin lapsus an error + lingua a tongue]
 	4795. lapsus memoriae
-	4796. Largactil
-	4797. large intestine
+		1. $n$. Another name for a slip of memory. \[From Latin lapsus an error + memoria a memory]
+	4796. [[Largactil]]
+	4797. [[large intestine]]
 	4798. Laroxyl
-	4799. larynx
-	4800. Lashley jumping stand
+		1. $n$. A proprietary name for the tricyclic antidepressant drug amitriptyline. \[Trademark]
+	4799. [[larynx]]
+	4800. [[Lashley jumping stand]]
 	
-	4801. latah
+	4801. [[latah]]
 	4802. late luteal phase dysphoric disorder
-	4803. latency
-	4804. latency period
-	4805. latent content
-	4806. latent homosexuality
-	4807. latent inhibition
-	4808. latent learning
+		1. $n$. Another name for premenstrual dysphoric disorder. LLPDD abbrev. \[Referring to the luteal phase of the menstrual cycle]
+	4803. [[latency]]
+	4804. [[latency period]]
+	4805. [[latent content]]
+	4806. [[latent homosexuality]]
+	4807. [[latent inhibition]]
+	4808. [[latent learning]]
 	4809. latent time
+		1. n. Another name for reaction time.
 	4810. latent trait theory
+		1. n. Another name for item response theory.
 	
 	4811. latent variable
-	4812. lateral
+		1. n. Another name for a construct.
+	4812. [[lateral]]
 	4813. lateral dominance
-	4814. lateral eye movement
+		1. n. Another name for handedness (1) or cerebral dominance.
+	4814. [[lateral eye movement]]
 	4815. lateral fissure
-	4816. lateral frontal cortex
+		1. n. Another name for the lateral sulcus.
+	4816. [[lateral frontal cortex]]
 	4817. lateral funiculus
-	4818. lateral geniculate nucleus
-	4819. lateral hypothalamic feeding centre
-	4820. lateral hypothalamic syndrome
+		1. See funiculus.
+	4818. [[lateral geniculate nucleus]]
+	4819. [[lateral hypothalamic feeding centre]]
+	4820. [[lateral hypothalamic syndrome]]
 	
-	4821. lateral inhibition
-	4822. laterality
-	4823. lateral lemniscus
-	4824. lateral sulcus
-	4825. lateral surface
-	4826. lateral thinking
+	4821. [[lateral inhibition]]
+	4822. [[laterality]]
+	4823. [[lateral lemniscus]]
+	4824. [[lateral sulcus]]
+	4825. [[lateral surface]]
+	4826. [[lateral thinking]]
 	4827. lateral ventricle
-	4828. late selection
-	4829. Latin square
+		1. See ventricle
+	4828. [[late selection]]
+	4829. [[Latin square]]
 	4830. lattah
+		1. See latah.
 	
-	4831. laudanum
+	4831. [[laudanum]]
 	4832. laughing gas
-	4833. lavatory wall illusion
-	4834. law of comparative judgement
-	4835. law of effect
-	4836. law of exercise
+		1. $n$. A non-technical name for nitrous oxide. \[So called because it sometimes induces giggling or laughter]
+	4833. [[lavatory wall illusion]]
+	4834. [[law of comparative judgement]]
+	4835. [[law of effect]]
+	4836. [[law of exercise]]
 	4837. law of forgetting
+		1. See forgetting law.
 	4838. law of independent assortment
+		1. See independent assortment.
 	4839. law of segregation
-	4840. law of social impact
+		1. See segregation of alleles
+	4840. [[law of social impact]]
 	
 	4841. law of the excluded middle
+		1. See excluded middle law.
 	4842. lay personality theory
-	4843. leaning tower illusion
+		1. n. Another name for an implicit personality theory.
+	4843. [[leaning tower illusion]]
 	4844. learned food/flavour/taste aversion
-	4845. learned helplessness
-	4846. learning
-	4847. learning curve
-	4848. learning difficulties
-	4849. learning disability
-	4850. Learning Potential Assessment Device
+		1. See food aversion learning.
+	4845. [[learned helplessness]]
+	4846. [[learning]]
+	4847. [[learning curve]]
+	4848. [[learning difficulties]]
+	4849. [[learning disability]]
+	4850. [[Learning Potential Assessment Device]]
 	
 	4851. least-effort principle
-	4852. least-significant difference test
-	4853. least-squares method
-	4854. lect
-	4855. Lee-Boot effect
-	4856. left-sided apraxia
-	4857. legasthenia
+		1. See principle of least effort.
+	4852. [[least-significant difference test]]
+	4853. [[least-squares method]]
+	4854. [[lect]]
+	4855. [[Lee-Boot effect]]
+	4856. [[left-sided apraxia]]
+	4857. [[legasthenia]]
 	4858. legend, urban
-	4859. lek
-	4860. lemma
+		1. See urban legend.
+	4859. [[lek]]
+	4860. [[lemma]]
 	
-	4861. lemniscus
-	4862. lenis
-	4863. lens
+	4861. [[lemniscus]]
+	4862. [[lenis]]
+	4863. [[lens]]
 	4864. lens illusion
-	4865. lens model
-	4866. lenticular nucleus
-	4867. lento speech
-	4868. leptin
+		1. See CURVATURE ILLUSION.
+	4865. [[lens model]]
+	4866. [[lenticular nucleus]]
+	4867. [[lento speech]]
+	4868. [[leptin]]
 	4869. leptokurtic
-	4870. Lerntest
+		1. See kurtosis
+	4870. [[Lerntest]]
 	
-	4871. lesbian
-	4872. Lesch-Nyhan syndrome
-	4873. lesion
+	4871. [[lesbian]]
+	4872. [[Lesch-Nyhan syndrome]]
+	4873. [[lesion]]
 	4874. lesion experiment
-	4875. less-is-more effect
-	4876. lethal dosage
-	4877. lethargy
+		1. n. Another name for an ablation experiment.
+	4875. [[less-is-more effect]]
+	4876. [[lethal dosage]]
+	4877. [[lethargy]]
 	4878. letter-by-letter reading
+		1. n. An alternative name for spelling dyslexia.
 	4879. leu-enkephalin
+		1. See enkephalin.
 	4880. leucocyte
+		1. See leuocyte.
 	
 	4881. leucotomy
+		1. n. A shortened name for frontal leucotomy. Also spelt leukotomy.
 	4882. leukocyte
-	4883. levelling
+		1. See leucocyte.
+	4883. [[levelling]]
 	4884. level of aspiration
+		1. See aspiration (1). LOA abbrev.
 	4885. level of measurement
-	4886. levels of processing
+		1. See measurement level
+	4886. [[levels of processing]]
 	4887. levodopa
-	4888. Lewinian
-	4889. Lewy body
-	4890. Lewy body dementia
+		1. n. Another name for L-dopa.
+	4888. [[Lewinian]]
+	4889. [[Lewy body]]
+	4890. [[Lewy body dementia]]
 	
-	4891. lexeme
-	4892. lexical access
-	4893. lexical access time
-	4894. lexical ambiguity
-	4895. lexical decision task
+	4891. [[lexeme]]
+	4892. [[lexical access]]
+	4893. [[lexical access time]]
+	4894. [[lexical ambiguity]]
+	4895. [[lexical decision task]]
 	4896. lexical word
-	4897. lexicographic
-	4898. lexicographic choice
-	4899. lexicographic semiorder
-	4900. lexicology
+		1. n. Another name for a content word.
+	4897. [[lexicographic]]
+	4898. [[lexicographic choice]]
+	4899. [[lexicographic semiorder]]
+	4900. [[lexicology]]
 	
-	4901. lexicon
-	4902. lexicostatistics
-	4903. liar paradox
-	4904. liberation psychology
-	4905. liberty cap
-	4906. Libet's delay
+	4901. [[lexicon]]
+	4902. [[lexicostatistics]]
+	4903. [[liar paradox]]
+	4904. [[liberation psychology]]
+	4905. [[liberty cap]]
+	4906. [[Libet's delay]]
 	4907. libidinal regression
-	4908. libidinal stage
-	4909. libido
+		1. See regression (2).
+	4908. [[libidinal stage]]
+	4909. [[libido]]
 	4910. Librium
+		1. $n$. A proprietary name for the benzodiazepine drug chlordiazepoxide. \[Trademark]
 	
-	4911. lie detector
-	4912. lie scale
+	4911. [[lie detector]]
+	4912. [[lie scale]]
 	4913. life instincts
-	4914. life lie
-	4915. life space
+		1. n. Another name for Eros.
+	4914. [[life lie]]
+	4915. [[life space]]
 	4916. life table
-	4917. ligand
-	4918. light adaptation
-	4919. lightness
-	4920. lightness constancy
+		1. n. Another name for a mortality table
+	4917. [[ligand]]
+	4918. [[light adaptation]]
+	4919. [[lightness]]
+	4920. [[lightness constancy]]
 	
-	4921. lightness contrast
+	4921. [[lightness contrast]]
 	4922. light reflex
-	4923. likelihood function
-	4924. likelihood principle
-	4925. likelihood ratio
-	4926. likelihood ratio chi-square test
-	4927. Likert scale
-	4928. liking scale
-	4929. limbic system
+		1. n. Another name for the pupillary light reflex.
+	4923. [[likelihood function]]
+	4924. [[likelihood principle]]
+	4925. [[likelihood ratio]]
+	4926. [[likelihood ratio chi-square test]]
+	4927. [[Likert scale]]
+	4928. [[liking scale]]
+	4929. [[limbic system]]
 	4930. limen
+		1. n. Another name for a threshold. \[From Latin limen a threshold]
 	
 	4931. limits, method of
-	4932. Linda problem
-	4933. linear model
-	4934. linear perspective
+		1. See method of limits
+	4932. [[Linda problem]]
+	4933. [[linear model]]
+	4934. [[linear perspective]]
 	4935. linear regression
-	4936. line bisection test
-	4937. line graph
-	4938. lingam
+		1. See regression analysis
+	4936. [[line bisection test]]
+	4937. [[line graph]]
+	4938. [[lingam]]
 	4939. linguistic competence
-	4940. linguistic determinism
+		1. n. Another name for competence (2).
+	4940. [[linguistic determinism]]
 	
 	4941. linguistic performance
-	4942. linguistic relativity
-	4943. linguistics
-	4944. linguistic universals
-	4945. linkage
-	4946. linkingr
-	4947. lipid
-	4948. lipid bilayer
-	4949. lipogram
-	4950. lipostatic theory
+		1. n. Another name for performance (2).
+	4942. [[linguistic relativity]]
+	4943. [[linguistics]]
+	4944. [[linguistic universals]]
+	4945. [[linkage]]
+	4946. [[linking r]]
+	4947. [[lipid]]
+	4948. [[lipid bilayer]]
+	4949. [[lipogram]]
+	4950. [[lipostatic theory]]
 	
-	4951. liquid
-	4952. Lissajous figure
-	4953. lithium
-	4954. lithium carbonate
-	4955. Little Hans
-	4956. little thirty
-	4957. Lloyd Morgan's canon
-	4958. loan translation
-	4959. lobe
-	4960. lobectomy
+	4951. [[liquid]]
+	4952. [[Lissajous figure]]
+	4953. [[lithium]]
+	4954. [[lithium carbonate]]
+	4955. [[Little Hans]]
+	4956. [[little thirty]]
+	4957. [[Lloyd Morgan's canon]]
+	4958. [[loan translation]]
+	4959. [[lobe]]
+	4960. [[lobectomy]]
 	
-	4961. lobotomy
-	4962. local feature
-	4963. localization
-	4964. localization of function
+	4961. [[lobotomy]]
+	4962. [[local feature]]
+	4963. [[localization]]
+	4964. [[localization of function]]
 	4965. local processing
-	4966. local sign
+		1. n. See local feature, Navon Figure
+	4966. [[local sign]]
 	4967. loci, method of
+		1. See method of loci.
 	4968. lock-and-key theory
-	4969. locked-in syndrome
-	4970. locomotor ataxia
+		1. $n$. Another name for the stereochemical theory of odour, so called because molecules with particular shapes are assumed to fit specific olfactory receptors as keys fit locks.
+	4969. [[locked-in syndrome]]
+	4970. [[locomotor ataxia]]
 	
 	4971. locura
 	4972. locus

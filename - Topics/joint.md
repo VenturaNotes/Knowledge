@@ -21,7 +21,10 @@
 			- synovial fluid
 			- cartilage
 			- ulna
+## Source[^3]
+- $n$. A place where two things, especially bones, meet, allowing a hingelike movement. Also, a common street name for a hand-rolled cigarette containing cannabis. \[Perhaps from joint American slang for penis, alluding to its appearance]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

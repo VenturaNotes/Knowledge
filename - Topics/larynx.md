@@ -13,7 +13,10 @@
 		- epiglottis
 ## Source[^2]
 - (pl. larynges) The anterior portion of the trachea (windpipe) of tetrapod vertebrates, which in amphibians, reptiles, and mammals contains the vocal cords. Movement of the cartilage in the walls of the larynx (by means of the laryngeal muscles) alters the tension of the vocal cords. This changes the pitch of the sound emitted by the vocal cords when they vibrate. The final voiced sound is modified by resonance within the oral and nasal cavities.
+## Source[^3]
+- $n$. The upper part of the windpipe, behind the Adam's apple, containing and protecting the vocal folds. Its non-technical name is the voice box. \[From Greek larynx the throat]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

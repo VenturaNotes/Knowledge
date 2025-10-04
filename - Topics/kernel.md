@@ -6,7 +6,10 @@
 ## Source[^2]
 - (1) In econometrics the kernel is a function that assigns weights to the points in the neighbourhood of a given point for the calculation of some weighted average quantity. See also KERNEL REGRESSION.
 - (2) In a cooperative game the kernel of the game is the set of all individually rational pay-off configurations (that is, each player's pay-off in a coalition is no lower than in a one-person coalition) in which every pair of players is in an equilibrium. Equilibrium is defined here as a situation in which, whenever two players, say $j$ and $k$, belong to the same coalition, $j(k)$ cannot gain more than $k(j)$ by switching to any other coalition which does not require $k$ 's ($j$ 's) consent.
+## Source[^3]
+- $n$. A basic form of sentence structure (simple, active, declarative) used as a starting point in some forms of generative grammar. \[Old English cyrnel a little seed, from corn seed]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

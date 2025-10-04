@@ -19,7 +19,12 @@
 - This is a form of learning found in young animals, especially young birds, in which they form an attachment to their mother in early life, thereby ensuring that they are taken care of and do not wander off. For example, chicks or ducklings follow the first large moving object that they encounter after hatching. This is normally their mother, but artificially incubated youngsters can become imprinted on a wooden decoy, as illustrated here, or even on a human being $\textendash$ as originally demonstrated in goslings and ducklings by Konrad Lorenz Imprinting occurs during a particularly sensitive period of development: the attachment formed by an animal to an imprinted individual or object lasts well into its adult life.
 - ![[Screenshot 2025-09-11 at 12.28.22 AM.png|400]]
 	- Imprinting in ducklings
+## Source[^2]
+- $n$. 
+- (1) Any lasting change in behavior resulting from experience, especially conditioning (1). 
+- (2) The act or process of acquiring knowledge or skill, or knowledge gained by study (He had several university degrees and was a man of learning).
 
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

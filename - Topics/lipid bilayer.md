@@ -11,6 +11,17 @@
 		- lipid molecule
 			- hydrophilic head
 			- hydrophobic tail
+## Source[^2]
+- $n$. A double layer of amphipathic lipid molecules that forms a cell membrane (see illustration).
+- ![[Screenshot 2025-10-04 at 1.31.25 AM.png|400]]
+	- Membrane
+	- Outer surface
+	- Inner surface
+	- Lipid molecule
+		- Hydrophilic head
+		- Hydrophobic tail
+- Lipid bilayer
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

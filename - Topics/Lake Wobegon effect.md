@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A tendency for most people to believe that they are above average in intelligence, sense of humour, diving ability, and similar traits. Although the effect arises from a self-serving bias, the widespread belief that it is mathematically impossible for a majority to be above average is itself a fallacy. If four people score $8 / 10$ on a test and one scores $3 / 10$, then the average or mean score in that five-person group is $7 / 10$, and a majority are above average. The term was introduced by the US physician John Jacob Cannell (born 1948) in privately published reports in 1987 and 1988, commenting on the fact that all 50 US states reported elementary school results above the national average. Also called the Lake Wobegon fallacy. Also (mis)spelt Lake Woebegon and Lake Woebegone. Compare unrealistic optimism. \[Alluding to Lake Wobegon, 'a place where all the women are strong, all the men are good-looking, and all the children are above average' in a radio show entitled A Prairie Home Companion, created and hosted by the US writer Garrison Keillor (born 1942) and described in his novel Lake Wobegon Days (1985)]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

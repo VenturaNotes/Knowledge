@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The proposition that emotions are caused by bodily sensations. It was first propounded by the US psychologist William James (1842-1910) in the journal Mind in 1884 and most famously expounded in his Principles of Psychology (1890): 'Our natural way of thinking...is that the mental perception of some fact excites the mental affection called the emotion, and that this latter state of mind gives rise to the bodily expression. My thesis, on the contrary, is that the bodily changes follow directly the perception of the exciting fact, and that our feeling of the same changes as they occur IS the emotion....We feel sorry because we cry, angry because we strike, afraid because we tremble' (volume 2, p. 449, italics in original). The Danish physician Carl (Georg) Lange (1834-1900) independently put forward a somewhat similar theory in his book Om Sindsbevägelser in 1885, although Lange's theory places no emphasis on emotion as a mental state, equating emotion with the bodily (especially visceral) events themselves. The main problem with the theory, first pointed out in 1927 by the US physiologist Walter Bradford Cannon (1871-1945), is that the physiological changes accompanying qualitatively different emotions are often very similar. See also COGNITIVE-APPRAISAL THEORY, FACIAL FEEDBACK HYPOTHESIS. Compare CANNON-BARD THEORY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -19,7 +19,10 @@
 		- fumarate
 		- malate
 		- oxaloacetate
+## Source[^3]
+- $n$. A complex sequence of biochemical reactions in the mitochondria of living cells whereby acetyl coenzyme A, derived by glycolysis from glucose, which in turn is derived from the metabolism of amino acids, fatty acids, and carbohydrates in foodstuffs, is oxidized into carbon dioxide and water, with the release of minute quantities of stored energy in the form of ATP. Any interference with the Krebs cycle, as by swallowing a poison such as potassium cyanide, is fatal within minutes. See also oxidative phosphorylation. Also called the citric acid cycle or the tricarboxylic acid cycle. \[Named after the German-born British biochemist Hans Adolf Krebs (1900-81) who discovered it in 1934 and shared a Nobel prize for so doing in 1953]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

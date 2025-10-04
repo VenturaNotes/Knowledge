@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. One of the most popular types of attitude scale, constructed by the method of summated ratings in which a sample of respondents are given a large number of candidate statements about an attitude object (such as Homosexuality is acceptable in today's society, Homosexuality should be outlawed) to which they respond with their own attitudes by choosing one of the response categories attached to each item, for example, strongly disagree, disagree, neutral, agree, strongly agree. Items that are worded positively towards the attitude object, such as the first of the examples above, are assigned positively increasing scores to their response categories such as $0,1,2,3$, and 4 , respectively, and for negatively worded items such as the second example the scoring is reversed (4, 3, 2, 1, 0). Each respondent's scores on all the candidate items are summed to yield a total score, the candidate items are then subjected to item analysis, and those with the highest discriminating power are retained for the final scale. \[Named after the US sociologist and economist Rensis Likert (1903-81) who introduced it in an article in the Archives of Psychology in 1932]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

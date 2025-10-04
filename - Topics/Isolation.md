@@ -6,7 +6,10 @@
 - $n$. 
 - (1) the separation of a person with an infectious disease from noninfected people. See also QuARANTINE. 
 - (2) (in surgery) the separation of a structure from surrounding structures by the use of instruments.
+## Source[^3]
+- $n$. The act or process of separating or placing apart; in reproductive biology, the prevention of interbreeding between populations resulting from one or more isolating mechanisms.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

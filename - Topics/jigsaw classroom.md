@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A cooperative technique designed to reduce prejudice and conflict in racially mixed groups of children. In the original research, children were arranged in six-member groups, and the day's lessons were divided into six sections, each section being assigned to a different child, with every child having essential information that, like a piece of a jigsaw puzzle, was necessary for completing the task and had to be learned and taught to other group members to achieve the common goal of receiving good marks. Evidence suggests that, compared to traditional classes, jigsaw groups tend to manifest less prejudice and stereotyping, increased liking among group members both within and across ethnic boundaries, increased self-esteem, better scholastic performance, and greater enjoyment of school. The US social psychologist Elliot Aronson (born 1932), working with several graduate students, introduced the technique to deal with racial conflict following the desegregation of schools in Austin, Texas in 1971 and published it initially in a book entitled The Jigsaw Classroom (1978) and an article in Personality and Social Psychology Bulletin (1979). Compare Robbers Cave experiment.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

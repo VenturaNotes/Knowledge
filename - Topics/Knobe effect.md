@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An asymmetry in people's moral intuitions about the side-effects of an action intended to achieve a different goal, depending on whether the side-effects are good or bad. It was discovered by the US experimental philosopher Joshua (Michael) Knobe (born 1974) during his PhD research and first reported in the journal Analysis in 2003, using the following imaginary scenario. The vice-president of a company went to the chairman of the board and said, 'We are thinking of starting a new program. It will help us increase profits, but it will also harm the environment.' The chairman of the board answered, 'I don't care at all about harming the environment. I just want to make as much profit as I can. Let's start the new program.' They started the new programme. Sure enough, the environment was harmed. When Knobe presented this scenario to members of the public and asked them whether the CEO had intentionally harmed the environment, 82 per cent replied 'Yes'. But when the scenario was changed by substituting the phrase 'help the environment' for 'harm the environment' and 'the environment was helped' for 'the environment was harmed', and people were asked whether the CEO had intentionally helped the environment, only 23 per cent replied 'Yes'. The effect has been replicated many times, even with children, but its interpretation is controversial. Compare tROlley PROblem.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

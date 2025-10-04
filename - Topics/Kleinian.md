@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- adj. Of or relating to the school of psychoanalysis founded by the British-based Austrian psychoanalyst Melanie Klein (1882-1960). See COMBINED PARENT-FIGURE, DEPRESSIVE POSITION, GOOD BREAST, GOOD OBJECT, IDEALIZATION, IMAGO (1), INTERNALIZATION, OBJECT RELATIONS, ORAL SADISTIC PHASE, PARANOID-SCHIZOID POSITION, PART OBJECT, PROJECTIVE IDENTIFICATION, REPARATION, SPLITTING OF THE OBJECT, WHOLE OBJECT. See also EARLY ORAL phase, Oedipus COMPlex, ORAl SADISTIC PHASE, PENIS ENVY, PRIMARY NARCISSISM, SUPEREGO, THANATOS, URETHRAL EROTISM.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
