@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A mood episode, lasting at least two weeks, characterized by five or more of the following symptoms, including at least one of the first two, for at least two weeks: depressed mood or depression most of the day, almost every day (possibly manifested as irritability in children and adolescents); markedly diminished interest or pleasure in almost all activities for most of the day; loss of appetite or a marked increase in appetite almost every day, leading to significant weight loss or gain; insomnia (especially middle or terminal insomnia) or hypersomnia; psychomotor agitation (manifested by such behavior as hand-wringing) or psychomotor retardation (manifested by slowness of movement or speech); fatigue or loss of energy (asthenia); feelings of worthlessness or excessive or inappropriate guilt; indecisiveness or diminished ability to think or concentrate; recurrent thoughts of death or suicide. At some time in their lives, 5-10 per cent of men and 10-20 per cent of women in the US, the UK, and comparable industrialized countries experience a major depressive episode.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

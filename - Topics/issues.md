@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
 ### Software Development
 - A term that includes [[bug|bugs]] but can also refer to 
 	- usability problems
@@ -10,6 +8,9 @@
 	- any obstacle affecting software's effectiveness
 - May also include
 	- design flaws, user experience problems, or security risks
+## Source [^1]
+- 
+
 ## References
 
-[^1]: ChatGPT
+[^1]: 

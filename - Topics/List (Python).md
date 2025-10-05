@@ -11,9 +11,39 @@ aliases:
 		- `hello = []`
 		- `hello.extend(fruits)`
 		- `print(hello)` would give output `["apple", "banana", "cherry"]`
+### Description
+- [[Square brackets (python)|square brackets]] are used for indexing and slicing sequences like lists, strings, and tuples
+- Initialize an empty list
+	- `my_list = []`
+### Properties of Lists
+- Ordered
+	- Lists maintain order of elements as they are inserted. Position of each element is preserved
+- Mutable
+	- Lists are [[mutable]]. Contents can be modified after creation. Elements can be added, removed, or changed
+- Heterogeneous
+	- Lists can store elements of different data types, including integers, strings, and other lists
+- Dynamic
+	- List can grow or shrink in size as needed. 
+- Indexed
+	- Elements in list can be accessed by index, starting from 0 for first element
+- Iterable
+	- Can be iterated over using loops. Allows access to each element in sequence.
+- Allows Duplicates
+	- Duplicate values allowed. Each occurrence treated as a separate element
+- Represented by square brackets
+	- Defined using square brackets `[]`, with elements separated by commas
+- Supports [[List comprehension (Python)|list comprehension]]
+	- Python offers a concise way to create lists using list comprehensions, enabling efficient list generation based on existing iterables
+- Methods
+	- Lists come with built-in methods for common operations
+		- Appending
+		- Inserting
+		- Removing
+		- Sorting
+		- Reversing elements
 ## Source [^1]
 - Lists are not [[hashable (python)|hashable]] since lists are [[mutable (Python)|mutable]]
-	- An object is hashable if it has a hash value which never changes during its lifetime [^5]
+	- An object is hashable if it has a hash value which never changes during its lifetime [^2]
 	- #question What makes an object in python?
 	- #question Will an object have a hash value if it's immutable?
 - Initializing list with default values
@@ -39,7 +69,7 @@ print(hello)
 - Built-in: Part of python's core syntax, created with square brackets `[]`
 - Example: `my_list = [1, "hello", 3.14, True]`
 - Common use: Preferred for general-purpose, dynamic collections
-## Source [^2]
+## Source [^3]
 ```python
 #Retrieve second item in list
 fruits = ["apple", "banana", "cherry"]
@@ -74,36 +104,6 @@ fruits = ["apple", "banana", "cherry"]
 print(len(fruits))
 ```
 
-## Source[^3]
-- [[Square brackets (python)|square brackets]] are used for indexing and slicing sequences like lists, strings, and tuples
-- Initialize an empty list
-	- `my_list = []`
-### Properties of Lists
-- Ordered
-	- Lists maintain order of elements as they are inserted. Position of each element is preserved
-- Mutable
-	- Lists are [[mutable]]. Contents can be modified after creation. Elements can be added, removed, or changed
-- Heterogeneous
-	- Lists can store elements of different data types, including integers, strings, and other lists
-- Dynamic
-	- List can grow or shrink in size as needed. 
-- Indexed
-	- Elements in list can be accessed by index, starting from 0 for first element
-- Iterable
-	- Can be iterated over using loops. Allows access to each element in sequence.
-- Allows Duplicates
-	- Duplicate values allowed. Each occurrence treated as a separate element
-- Represented by square brackets
-	- Defined using square brackets `[]`, with elements separated by commas
-- Supports [[List comprehension (Python)|list comprehension]]
-	- Python offers a concise way to create lists using list comprehensions, enabling efficient list generation based on existing iterables
-- Methods
-	- Lists come with built-in methods for common operations
-		- Appending
-		- Inserting
-		- Removing
-		- Sorting
-		- Reversing elements
 ## Source[^4]
 
 | Method    | Description                                                                  |
@@ -124,7 +124,6 @@ print(len(fruits))
 ## References
 
 [^1]: ChatGPT
-[^2]: https://www.w3schools.com/python/exercise.asp?filename=exercise_lists1
-[^3]: Google's Search Labs | AI Overview
+[^2]: [[hashable (python)#Source 1]]
+[^3]: https://www.w3schools.com/python/exercise.asp?filename=exercise_lists1
 [^4]: https://www.w3schools.com/python/python_ref_list.asp
-[^5]: [[hashable (python)#Source 1]]

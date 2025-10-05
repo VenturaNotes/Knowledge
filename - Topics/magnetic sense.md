@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A capacity possessed by some species of bacteria, bees, snails, birds, and fishes to detect the Earth's magnetic field, which acts as an aid to navigation. The navigation of European robins (Erithacus rubecula) can be altered by superimposing an artificial magnetic field, and homing pigeons with magnets attached to their heads become disoriented when the sky is overcast and they cannot use the sun as a compass. This sense modality has been most extensively studied in the rainbow trout, which can be conditioned to press a bar for food whenever it detects one magnetic field rather than another, and nerve impulses in response to magnetic fields have been detected in its trigeminal nerve, which branches over the front of its head. The magnetic sense organ is believed to contain crystals of magnetite or loadstone, the mineral first used by humans to construct compasses. Chains of these crystals have been located in a discrete layer of the rainbow trout's snout, and they move when the fish changes its orientation to the Earth's magnetic field. Also called the electromagnetic sense. Compare ELECTRORECEPTOR.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -6443,137 +6443,163 @@ Reviewed: false
 	4969. [[locked-in syndrome]]
 	4970. [[locomotor ataxia]]
 	
-	4971. locura
-	4972. locus
-	4973. locus coeruleus
-	4974. locus of control
-	4975. locutionary act
-	4976. log-interval scale
-	4977. log-linear analysis
+	4971. [[locura]]
+	4972. [[locus]]
+	4973. [[locus coeruleus]]
+	4974. [[locus of control]]
+	4975. [[locutionary act]]
+	4976. [[log-interval scale]]
+	4977. [[log-linear analysis]]
 	4978. logagnosia
-	4979. logic
-	4980. logical analysis
+		1. n. Another name for Wernicke's aphasia. Also called logamnesia. See aphasia
+	4979. [[logic]]
+	4980. [[logical analysis]]
 	
-	4981. logical empiricism
-	4982. logical positivism
-	4983. logogen
-	4984. logograph
-	4985. logography
-	4986. logorrhoea
-	4987. logotherapy
-	4988. Lomotil
+	4981. [[logical empiricism]]
+	4982. [[logical positivism]]
+	4983. [[logogen]]
+	4984. [[logograph]]
+	4985. [[logography]]
+	4986. [[logorrhoea]]
+	4987. [[logotherapy]]
+	4988. [[Lomotil]]
 	4989. long-sightedness
-	4990. long-term memory
+		1. n. A non-technical name for hyperopia.
+	4990. [[long-term memory]]
 	
-	4991. long-term potentiation
+	4991. [[long-term potentiation]]
 	4992. long-term store
-	4993. longitudinal fissure
-	4994. longitudinal study
+		1. n. Another name for long-term memory. LTS abbrev.
+	4993. [[longitudinal fissure]]
+	4994. [[longitudinal study]]
 	4995. look-and-say method
-	4996. looming
-	4997. loosening of associations
-	4998. lorazepam
-	4999. lordosis
-	5000. lordosis quotient
+		1. n. Another name for the whole-word method.
+	4996. [[looming]]
+	4997. [[loosening of associations]]
+	4998. [[lorazepam]]
+	4999. [[lordosis]]
+	5000. [[lordosis quotient]]
 	
-	5001. loss aversion
-	5002. lost-letter technique
-	5003. loudness
-	5004. loudness level
-	5005. loudness matching
+	5001. [[loss aversion]]
+	5002. [[lost-letter technique]]
+	5003. [[loudness]]
+	5004. [[loudness level]]
+	5005. [[loudness matching]]
 	5006. loudness recruitment
+		1. n. Another name for recruitment (2).
 	5007. Lou Gehrig's disease
-	5008. love
+		1. $n$. Another name for amyotrophic lateral sclerosis. \[Named after an American baseball player Henry Louis Gehrig (1903-41), known as the Iron Horse, who died of it]
+	5008. [[love]]
 	5009. love, genital
+		1. See genital love.
 	5010. love scale
+		1. See romantic love scale.
 	
 	5011. low-pass filter
-	5012. lowball technique
-	5013. lower threshold
+		1. See band-pass filter
+	5012. [[lowball technique]]
+	5013. [[lower threshold]]
 	5014. low vowel
-	5015. LSDabbrev.
-	5016. lucid dream
-	5017. luciferase
-	5018. luciferin
+		1. n. Another name for an open vowel.
+	5015. [[LSD]]
+	5016. [[lucid dream]]
+	5017. [[luciferase]]
+	5018. [[luciferin]]
 	5019. Luckiesh illusion
-	5020. ludic love
+		1. $n$. A more appropriate name for what is usually called the Sander parallelogram. \[First published by the US lighting engineer and psychologist Matthew Luckiesh (1883-1967) in his book Visual Illusions: Their Causes, Characteristics and Applications (1922, p. 58)]
+	5020. [[ludic love]]
 	
-	5021. lumen
+	5021. [[lumen]]
 	5022. Luminal
-	5023. luminance
-	5024. luminosity
-	5025. luminosity coefficient
-	5026. luminosity curve
-	5027. luminous efficiency function
-	5028. luminous flux
-	5029. luminous intensity
-	5030. lunacy
+		1. $n$. A proprietary name for the barbiturate drug phenobarbital (phenobarbitone). \[Trademark]
+	5023. [[luminance]]
+	5024. [[luminosity]]
+	5025. [[luminosity coefficient]]
+	5026. [[luminosity curve]]
+	5027. [[luminous efficiency function]]
+	5028. [[luminous flux]]
+	5029. [[luminous intensity]]
+	5030. [[lunacy]]
 	
 	5031. lunatic asylum
-	5032. lunatic fringe
-	5033. luteal phase
-	5034. luteinizing hormone
-	5035. luteinizing hormone releasing hormone
+		1. n. An obsolete term for a mental hospital
+	5032. [[lunatic fringe]]
+	5033. [[luteal phase]]
+	5034. [[luteinizing hormone]]
+	5035. [[luteinizing hormone releasing hormone]]
 	5036. luteotrophic hormone
+		1. $n$. Another name for prolactin. Also spelt luteotropic hormone. Also called luteotrophin (or luteotropin). LTH abbrev. \[From Latin luteum egg yolk, from luteus yellow + trophe nourishment]
 	5037. Luvox
-	5038. lux
-	5039. lycanthropy
-	5040. lymph
+		1. $n$. A proprietary name for the antidepressant drug fluvoxamine. \[Trademark]
+	5038. [[lux]]
+	5039. [[lycanthropy]]
+	5040. [[lymph]]
 	
-	5041. lymphocyte
-	5042. Lysenkoism
+	5041. [[lymphocyte]]
+	5042. [[Lysenkoism]]
 	5043. lysergic acid diethylamide
-	5044. lysosome
-	5045. mace
-	5046. Mace
-	5047. Mach band
-	5048. Machiavellianism
-	5049. Mach illusion
+		1. See LSD
+	5044. [[lysosome]]
+	5045. [[mace]]
+	5046. 
+	5047. [[Mach band]]
+	5048. [[Machiavellianism]]
+	5049. [[Mach illusion]]
 	5050. machine intelligence
+		1. n. Another name for artificial intelligence. 
 	
 	5051. Machover Draw-a-Person Test
-	5052. Mach scale
-	5053. macrocephaly
-	5054. macroevolution
-	5055. macroglia
+		1. See Draw-A-Person Test.
+	5052. [[Mach scale]]
+	5053. [[macrocephaly]]
+	5054. [[macroevolution]]
+	5055. [[macroglia]]
 	5056. macromania
-	5057. macrophage
-	5058. macropsia
-	5059. macula
-	5060. macula lutea
+		1. $n$. An unusual name for megalomania. \[From Greek makros large + mania madness]
+	5057. [[macrophage]]
+	5058. [[macropsia]]
+	5059. [[macula]]
+	5060. [[macula lutea]]
 	
-	5061. Madame Butterfly fantasy
+	5061. [[Madame Butterfly fantasy]]
 	5062. mad cow disease
-	5063. magazine training
-	5064. Magendie's foramen
+		1. n. A non-technical name for BSE.
+	5063. [[magazine training]]
+	5064. [[Magendie's foramen]]
 	5065. Maggie illusion
-	5066. magical number seven
-	5067. magical thinking
-	5068. magic mushroom
-	5069. Magnan sign
+		1. n. Another name for the Margaret Tatcher illusion.
+	5066. [[magical number seven]]
+	5067. [[magical thinking]]
+	5068. [[magic mushroom]]
+	5069. [[Magnan sign]]
 	5070. magnetic resonance imaging
+		1. See MRI.
 	
-	5071. magnetic sense
-	5072. magnetoencephalography
-	5073. magnitude estimation
-	5074. magnitude matching
-	5075. magnitude production
-	5076. magnocellular nucleus
-	5077. magnocellular system
-	5078. main effect
-	5079. mainlinevb.
-	5080. maintenance behaviour
+	5071. [[magnetic sense]]
+	5072. [[magnetoencephalography]]
+	5073. [[magnitude estimation]]
+	5074. [[magnitude matching]]
+	5075. [[magnitude production]]
+	5076. [[magnocellular nucleus]]
+	5077. [[magnocellular system]]
+	5078. [[main effect]]
+	5079. mainline
+		1. $v b$. In drug-culture slang, to inject a drug intravenously (into a vein). Compare SKIN-POP.
+	5080. [[maintenance behavior]]
 	
-	5081. maintenance rehearsal
+	5081. [[maintenance rehearsal]]
 	5082. major affective disorders
-	5083. major depressive disorder
-	5084. major depressive episode
-	5085. major epilepsy
+		1. $n$. A generic name sometimes used to cover major depressive disorder and bipolar disorders.
+	5083. [[major depressive disorder]]
+	5084. [[major depressive episode]]
+	5085. [[major epilepsy]]
 	5086. majority preference cycle
-	5087. major solution
+		1. See Condorcet's PARADOX
+	5087. [[major solution]]
 	5088. major tranquillizer
-	5089. Makaton
-	5090. Make-a-Picture-Story Test
+		1. $n$. An obsolescent name for a neuroleptic (1) drug. US major tranquilizer. Compare MINOR TRANQUILLIZER.
+	5089. [[Makaton]]
+	5090. [[Make-a-Picture-Story Test]]
 	
 	5091. maladi moun
 	5092. maladjustment

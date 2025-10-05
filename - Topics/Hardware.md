@@ -12,10 +12,8 @@
 	- [[Routers]]
 	- [[Switches]]
 	- [[server|servers]]
-
 ## Source[^2]
 - To store data on a [[server]], we typically use [[storage drives]]
-
 ## Source[^3]
 - The collective term for all physical components of a computer system
 

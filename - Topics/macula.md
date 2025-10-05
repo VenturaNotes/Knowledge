@@ -23,7 +23,10 @@
 		- otolith
 		- hair cells
 		- hairs bend down
+## Source[^3]
+- $n$. A patch or spot, especially the patch of hair cells aligned approximately horizontally in the utricle and approximately vertically in the saccule when the head is upright, projecting into the gelatinous otolith membrane in the vestibular system. Also an abbreviated name for the macula lutea of the retina. maculae pl. \[From Latin macula a spot or stain]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

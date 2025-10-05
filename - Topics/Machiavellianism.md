@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- n. A strategy of social conduct that involves manipulating others for personal advantage, often to the detriment of the people being thus exploited. The concept was introduced by the US psychologists Richard Christie (1918-92) and Florence L. Geis (1933-93) in a book chapter in 1968 and discussed in their edited book Studies in Machiavellianism (1970), and it is sometimes interpreted as a personality trait. In an experiment in which groups of three players had to reach agreements as to how to divide $\$ 10$ among themselves, people who had scored high on the Mach scale tended to end up with significantly more money ($\$ 5.57$ on average) than low scorers ($\$ 1.29$ average), the chance expectation, had Machiavellianism been unrelated to outcomes, being $\$ 3.33$, and other evidence has accumulated to show that high scorers have a propensity to manipulate others to their own advantage, often by lying and cheating. \[Named after the Florentine statesman and political philosopher Niccolò Machiavelli (1469-1527) who advocated manipulative political behavior in his posthumous book Il Principe (The Prince, 1532)]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
