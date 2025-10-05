@@ -11,6 +11,12 @@ aliases:
 - `   hello.lstrip()` $\to$ `hello`
 ### Characteristics
 - Immutable
+
+### Description
+- Strings are [[immutable]] meaning their values cannot be changed after they're created
+	- This means you cannot modify a character at a specific index.
+		- #comment For example, with the string "hello", you can't interchange "h" and "e" without creating a new string
+- When a string is modified, a new string object is created instead of altering the original one
 ## Source [^1]
 
 | x value                | Intention                          | Command              | Output      |
@@ -33,14 +39,7 @@ aliases:
 			- `print(myString.replace(' ', ''))`
 			- `Output: 51628341097`
 				- Not useful though in separating numbers if they are greater than 1 digit (such as the number 10)
-
 ## Source[^3]
-- Strings are [[immutable]] meaning their values cannot be changed after they're created
-	- This means you cannot modify a character at a specific index.
-		- #comment For example, with the string "hello", you can't interchange "h" and "e" without creating a new string
-- When a string is modified, a new string object is created instead of altering the original one
-
-## Source[^4]
 - The join function combines the elements of a list into a string
 ```python
 li = ['a','b','c','d']
@@ -50,13 +49,13 @@ print("".join(li))
 	- The "" depicts a null string
 		- #question is there a difference between a null string and an empty string?
 
-## Source[^5]
+## Source[^4]
 - `'Hello, World!'.partition(', ')`
 	- Result is `('Hello', ', ', 'World!')`
 - Removing leading whitespaces from a string
 	- `string.lstrip()`
 
-## Source[^6]
+## Source[^5]
 - The `.partition()` method in Python is used to split a string into three parts based on the first occurrence of a specified separator.
 - Format
 	- `string.partition(separator)`
@@ -67,7 +66,7 @@ print("".join(li))
 - If separator not found
 	- `(original_string, '', '')`
 
-## Source[^7]
+## Source[^6]
 - Checks if all characters in the text are alphanumeric
 ```python
 txt = "Company12"
@@ -81,8 +80,7 @@ print(x)
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_strings1
 [^2]: https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string
-[^3]: Google's Search Labs | AI Overview
-[^4]: https://www.geeksforgeeks.org/quizzes/functions-python-gq/
-[^5]: [[(Home Page) 500+ Python Interview Questions and Answers by applyre]]
-[^6]: ChatGPT
-[^7]: https://www.w3schools.com/python/ref_string_isalnum.asp
+[^3]: https://www.geeksforgeeks.org/quizzes/functions-python-gq/
+[^4]: [[(Home Page) 500+ Python Interview Questions and Answers by applyre]]
+[^5]: ChatGPT
+[^6]: https://www.w3schools.com/python/ref_string_isalnum.asp

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A representation of a word or other verbal unit in long-term memory, activated by speech sounds, writing, or an object or event to which it refers. In tachistoscopic word recognition, for which the concept was originally devised, each logogen has a resting activation level, and if it receives evidence that it corresponds to the stimulus presented, its activation level increases: for example, if the observer recognizes the first letter of the display as a $p$, then in the observer's long-term memory all the logogens beginning with $p$ are slightly activated, and as further evidence accumulates, if the activation level of a logogen exceeds a certain threshold level (threshold levels being lower for more common verbal expressions), then the logogen 'fires' and the corresponding verbal unit is recognized. The term was introduced by the English cognitive psychologist John Morton (born 1933) in an article in the journal Psychological Review in 1969, and the theory has been modified several times since then by Morton and others. Compare imagen. \[From Greek logos a word + genes born]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A questionnaire designed to measure Machiavellianism as a personality trait. It contains items such as the following (agreement indicating high Machiavellianism): The best way to handle people is to tell them what they want to hear; Anyone who completely trusts anyone else is asking for trouble; and It is safest to assume that all people have a vicious streak that will come out when it is given a chance. The scale also contains items such as the following, agreement with which indicates low Machiavellianism: When you ask someone to do something for you, it is best to give the real reasons, rather than giving reasons that might carry more weight; One should take action only when sure it is morally right; and There is no excuse for lying to someone. People who score high on the scale are called high Machs and people who score low are called low Machs. The scale was introduced in a book chapter in 1968 by the US psychologists Richard Christie (1918-92) and Florence L. Geis (1933-93) and discussed in their edited book Studies in Machiavellianism (1970). A version of the scale for use with children is called the Kiddie Mach. Also called the Machiavellianism scale.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
