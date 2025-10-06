@@ -35,6 +35,8 @@ $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{bmatrix} a & b \\ c & d 
 - (2) (in radiology) the division of an image into rows and columns with equally sized elements (pixels). The final image is completed by assigning a density to each of these elements. Increasing the number of pixels in the matrix improves the resolution of the final image. A typical value could be 256 rows $\times 256$ columns.
 ## Source[^7]
 - (pl. matrices or matrixes) (in histology) The component of tissues (e.g. bone and cartilage) in which the cells of the tissue are embedded. See also extracELLULAR MATRIX.
+## Source[^8]
+- $n$. In mathematics, any rectangular array or elements, usually numbers. \[From Latin matrix womb or female animal used for breeding, from mater mother]
 ## References
 
 [^1]: https://stattrek.com/matrix-algebra/echelon-form
@@ -44,3 +46,4 @@ $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{bmatrix} a & b \\ c & d 
 [^5]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^6]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^7]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^8]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

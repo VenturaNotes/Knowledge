@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The imagined turning of a form or shape from one orientation in space to another, believed to involve the mental image passing through all intermediate positions. The original study of this process by the US psychologist Roger N(ewland) Shepard (born 1929) and his student Jacqueline Ann Metzler (born 1949), published in the journal Science in 1971, used stimuli consisting of pairs of computer-generated perspective drawings of three-dimensional objects, each constructed by joining ten cubical blocks face to face to form an arm-like structure with three right-angle bends (see illustration). People were asked to decide as quickly as possible whether each pair depicted identical structures in different orientations or mirror-image enantiomorphs, and mean response times in recognizing identical structures to be identical were found to increase linearly in almost exact proportion to their angular difference in orientation, from approximately one second for pairs in the same orientation to approximately 4.4 seconds for the maximum angular rotation of 180 degrees, suggesting that the viewers had to mentally rotate one shape through intermediate positions until its orientation matched that of the other shape in order to check for similarity. Men tend to perform significantly better at this task than women. The novel Dirk Gently's Holistic Detective Agency (1987) by the English novelist Douglas (Noel) Adams (1952-2002) is devoted largely to the mental rotation of a sofa that has become stuck on a stairway landing. See also COGNITIVE PENETRABILITY, MENTAL MODEL, MIRROR REVERSAL PROBLEM.
+- ![[Screenshot 2025-10-05 at 7.55.04 PM.png|400]]
+	- Mental rotation. Are the top and bottom objects the same apart from their orientation?
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

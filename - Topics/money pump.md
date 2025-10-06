@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A pattern of intransitive or cyclic preferences causing a decision maker to be willing to pay repeated amounts of money to have these preferences satisfied without gaining any benefit. The simplest example is a person who evaluates three commodities $x, y$, and $z$ and prefers $x$ to $y, y$ to $z$, and $z$ to $x$. A person may, for example, prefer one lawnmower $x$ to another $y$ because it is larger, and may prefer $y$ to $z$ for the same reason, but may prefer $z$ to $x$ because $x$ would be extremely difficult to take to a repair shop if it were to break down. If the person owns $x$, then a salesman could offer to replace it with $z$ in return for a fee (there must be some price that a person who prefers $z$ to $x$ is willing to pay for this improvement), then the salesman could offer to replace $z$ with $y$ for a fee, then to replace $y$ with $x$ for a fee, and so on indefinitely or until the money runs out. The concept was introduced by the English philosopher, mathematician, and economist Frank (Plumpton) Ramsey (1903-30) and published posthumously in 1931. Also called a Dutch book, especially when the price of each replacement is reduced until the person is willing to pay for it. See also decision theory, INTRANSITIVE PREFERENCES.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -11,7 +11,10 @@ aliases:
 ## Source[^2]
 - (1) A thin sheet of tissue or other material that lines a body cavity, forms a partition, or connects various structures. 
 - (2) Any of the various flexible sheetlike structures, composed predominantly of lipids and proteins, that occur in living cells, such as the plasma membrane forming the cell boundary. See CELL MEMBRANE.
+## Source[^3]
+- $n$. A thin film, skin, or layer of (usually) fibrous tissue that covers, lines, or connects biological organs or cells. See also CELL MEMBRANE, MEMBRANE POTENTIAL, OSMOSIS, SEMIPERMEABLE MEMBRANE, SKIN. membranous adj. Of or relating to a membrane. \[From Latin membrana skin covering a body part, from membrum a member]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

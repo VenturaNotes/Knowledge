@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A measure of the relevance of a trait to a person, indicated by the consistency or lack of scatter (measured by the standard deviation) of the individual's responses to a set of personality scale items designed to measure it. Thus, for example, a person may score high on a scale to measure conscientiousness but low on the corresponding conscientiousness metatrait, given a high inter-item standard deviation of responses to the component scale items. That would imply that the conscientiousness trait has low relevance to that person, and therefore that the high trait score is less predictive of conscientious behavior across situations than a similar scale score in a person with a higher metatrait score. Metatrait scores have been shown to mediate the relation between total trait scores and behavior and to be stable over time. The term was introduced by the US psychologists Roy F. Baumeister (born 1953) and Dianne M. Tice (born 1960) in an article in the Journal of Personality in 1988. \[From Greek meta among + Old French trait a drawing or a stroke of the pen in a picture, from Latin trahere, tractum to draw]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- n. Knowledge and beliefs about one's own cognitive processes, an important class of metacognition being metamemory. The term is also sometimes applied to regulation of cognitive functions, including planning, checking, or monitoring, as when one plans one's cognitive strategy for memorizing something, checks one's accuracy while performing mental arithmetic, or monitors one's comprehension while reading, and these forms of metacognition are called metacognitive regulation in contradistinction to metacognitive knowledge. Writings on metacognition can be traced back at least as far as De Anima and the Parva Naturalia of the Greek philosopher Aristotle (384-322 BC), and the phenomenon was brought to prominence during the 1970s largely by the US psychologist John H(urley) Flavell (born 1928), who focused attention especially on developmental aspects of metacognition. In an influential article in the journal Psychological Review in 1977, the US psychologists Richard E. Nisbett (born 1941) and Timothy D. Wilson (born 1951) summarized a range of evidence suggesting that people are often unaware of the factors influencing their own choices, evaluations, and behavior, and that the verbal reports that they give when questioned are often quite erroneous and misleading. See also reality monitoring. \[From Greek meta beside or beyond + English cognition]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

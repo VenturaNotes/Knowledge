@@ -9,7 +9,10 @@
 - (pl. medullae) 
 - (1) (in zoology) The central tissue of various organs, including the adrenal glands (adrenal medulla) and kidneys (renal medulla). 
 - (2) (in botany) See рітн.
+## Source[^3]
+- $n$. The internal part of any structure or organ, such as the adrenal medulla. Usually short for the medulla oblongata, though this abbreviation is avoided in careful usage whenever its meaning is ambiguous. medullae or medullas pl. \[From Latin medulla marrow or innermost part]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

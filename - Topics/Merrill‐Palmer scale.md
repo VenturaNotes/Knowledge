@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A scale for measuring mental abilities in preschool children from 18 months to 6 years of age (in the Merrill-Palmer Scale of Mental Tests), or 3 to 5 years of age (in the revised version, called the Extended Merrill-Palmer Scale), designed to provide a broader assessment than can be gained from a conventional IQ test. The Merrill-Palmer Scale of Mental Tests, introduced originally in 1926, comprises 93 tasks, grouped into clusters labelled Language, All-or-None, Form Board and Picture, and Motor Coordination, and grouped into six-month age ranges. The Extended Merrill-Palmer Scale comprises 16 tasks grouped into Semantic Production, Figural Production, Semantic Evaluation, and Figural Evaluation, based on Guilford's structure-of-intellect model. See also Guilford's cube. \[Named after the Merrill-Palmer School in Detroit, Michigan, where the scale was developed in 1931 by the US psychologist Rachel Stutsman (later Rachel Stutsman Ball, 1894-1980). The school was endowed by and named after Lizzie Pitts Merrill-Palmer (1838-1916), wife of the US Senator and Ambassador to Spain Thomas Witherell Palmer (1830-1913)]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. One of the three classical methods of psychophysics introduced in 1860 by the German philosopher, physician, psychologist, and mystic Gustav Theodor Fechner (1801-87) for determining absolute thresholds and difference thresholds. It involves the presentation of an ascending series in which the intensity of a variable stimulus is increased by predetermined steps until it can be perceived on 50 per cent of presentations (for an absolute threshold determination) or until a difference between it and a standard stimulus can be perceived on 50 per cent of presentations (for a difference threshold), and a descending series in which the intensity is reduced by corresponding steps until the stimulus or the difference can be perceived on only 50 per cent of presentations. The threshold from the ascending series is called the upper threshold and is usually higher than the threshold from the descending series, called the lower threshold, and when a single threshold is required it is usually taken as the midpoint between the upper and lower thresholds. Compare method OF AVERAGE ERROR, METHOD OF CONSTANT STIMULI.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

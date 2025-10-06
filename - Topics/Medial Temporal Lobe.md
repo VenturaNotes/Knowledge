@@ -9,7 +9,7 @@
 - Key hub for integrating and organizing new experiences and knowledge into the brain's memory systems
 - Connects to other areas of the brain involved in memory such as the amygdala and prefrontal cortex allowing for integration of various aspects of memory
 ## Source [^1]
-- 
+- $n$. The inner surface of the temporal lobe, including the hippocampal formation, the parahippocampal gyrus, and the entorhinal cortex, all of which have important memory functions. Also called the medial temporal cortex. See also default mode network. MTL abbrev.
 ## References
 
-[^1]: 
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

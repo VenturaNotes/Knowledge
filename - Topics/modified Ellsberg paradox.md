@@ -1,0 +1,11 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A version of the Ellsberg paradox in which the failure of expected utility theory and of subjective expected utility theory is especially clear. Two urns are each filled with white, red, and green balls. Urn $A$ contains 50 white balls, 25 red balls, and 25 green balls; Urn $B$ contains 50 white balls and 50 red and green balls, the ratio of red to green balls being unknown. You are offered a choice between the following three bets, each of which carries the same prize if you win.
+	- $X$: You draw a ball at random from Urn $A$, and you win the prize if it is white or red.
+	- $Y$: You draw a ball at random from Urn $B$, and you win the prize if it is white or red.
+	- $Z$: You draw a ball at random from Urn $B$, and you win the prize if it is white or green.
+- Most people prefer $X$. In $X$, the probability of winning the prize is obviously .75 , whereas in $Y$ or $Z$ the probability could be as low as .50 or as high as 1.00 , depending on the unknown proportions of red and green balls. If the decision maker's subjective probability of drawing a red ball from $\operatorname{Um} B$ is $p$, then the preference for $X$ over $Y$ implies that $.75>.50+p$, which means that $p<.25$. But if $p<.25$, then the probability $q$ of drawing a green ball from $\operatorname{Urn} B$ must be greater than .25 , and the decision maker should therefore prefer $Z$ to $X$, because $.75<.50+q$. The usual preference of $X$ over both $Y$ and $Z$ violates the axioms of expected utility theory, though it is consistent with Ellsberg's suggestion that human decision makers use maximin strategies in choices involving uncertainty (2). See also RISK aversion. Compare Allais paradox, common ratio effect, St Petersburg PARADOX. \[Named after the US political analyst Daniel Ellsberg (born 1931) who published the original version of the paradox in the Quarterly Journal of Economics in 1961]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
