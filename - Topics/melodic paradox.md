@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A phenomenon in the perception of musical tones that are clearly defined in terms of pitch class (the twelve notes of the octave that are normally labelled C, C\#, D,..., B) but are ambiguous as regards the octaves to which they belong, each tone being composed of equal sinusoidal waves from octaves spanning the auditory range. Using such ambiguous tones, if a sequence of chords (tones sounded together simultaneously) such as B with D , then A with E , then G with F, are presented to listeners, then the listeners clearly perceive the sequence as either converging or diverging in contrary motion, although the sequence could be either converging or diverging depending on the octaves to which the notes belong, and the stimulus tones lack the cues required to determine octave pitch. It is a surprising phenomenon rather than a true paradox. It was first reported by the US psychologist Roger N(ewland) Shepard (born 1929) in an article in the Journal of the Acoustical Society of America in 1964. See also auditory Illusion. Compare SEmitone PARADOX, TRITONE PARADOX.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

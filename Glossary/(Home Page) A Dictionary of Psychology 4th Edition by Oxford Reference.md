@@ -6601,489 +6601,573 @@ Reviewed: false
 	5089. [[Makaton]]
 	5090. [[Make-a-Picture-Story Test]]
 	
-	5091. maladi moun
-	5092. maladjustment
-	5093. malapropism
-	5094. mal de ojo
+	5091. [[maladi moun]]
+	5092. [[maladjustment]]
+	5093. [[malapropism]]
+	5094. [[mal de ojo]]
 	5095. mal de pelea
-	5096. male hypoactive sexual desire disorder
+		1. $n$. A variant name for amok in Puerto Rico. \[From Spanish mal illness + de of + pelea tussle or quarrel]
+	5096. [[male hypoactive sexual desire disorder]]
 	5097. male menopause
+		1. See ANDROPAUSE, CLIMACTERIC, IRRITABLE MALE SYNDROME.
 	5098. male mouse effect
-	5099. male orgasmic disorder
+		1. $n$. Another name for the Whitten effect.
+	5099. [[male orgasmic disorder]]
 	5100. mali-mali
+		1. See latah
 	
-	5101. malingering
-	5102. malleus
+	5101. [[malingering]]
+	5102. [[malleus]]
 	5103. mal puesto
+		1. $n$. A name for rootwork in Spanish-speaking communities of the Caribbean and the southern United States, where it is also called brujería. \[Spanish mal puesto badly placed, from mal badly + poner to place]
 	5104. mamillary body
-	5105. mammary gland
-	5106. mammillary body
-	5107. mammillothalamic tract
-	5108. mana
-	5109. mand
-	5110. mandala
+		1. n. An alternative spelling of mammillary body.
+	5105. [[mammary gland]]
+	5106. [[mammillary body]]
+	5107. [[mammillothalamic tract]]
+	5108. [[mana]]
+	5109. [[mand]]
+	5110. [[mandala]]
 	
-	5111. mania
+	5111. [[mania]]
 	5112. manic-depressive psychosis
-	5113. manic episode
-	5114. manic love
-	5115. Manifest Anxiety Scale
-	5116. manifest content
-	5117. Mann-WhitneyUtest
-	5118. manner of articulation
-	5119. Mantel-Haenszel chi‐square
-	5120. map distance
+		1. $n$. Another name for bipolar disorder. Also called manic-depressive disorder or manic-depressive reaction. MDP abbrev.
+	5113. [[manic episode]]
+	5114. [[manic love]]
+	5115. [[Manifest Anxiety Scale]]
+	5116. [[manifest content]]
+	5117. [[Mann-Whitney U test]]
+	5118. [[manner of articulation]]
+	5119. [[Mantel-Haenszel chi‐square]]
+	5120. [[map distance]]
 	
-	5121. Marbe's law
-	5122. Margaret Thatcher illusion
-	5123. marginal consciousness
-	5124. marginals
+	5121. [[Marbe's law]]
+	5122. [[Margaret Thatcher illusion]]
+	5123. [[marginal consciousness]]
+	5124. [[marginals]]
 	5125. margin of attention
+		1. n. Another name for marginal consciousness.
 	5126. margin of consciousness
-	5127. marijuana
-	5128. marital therapy
-	5129. marketing orientation
-	5130. marketing research
+		1. n. Another name for marginal consciousness.
+	5127. [[marijuana]]
+	5128. [[marital therapy]]
+	5129. [[marketing orientation]]
+	5130. [[marketing research]]
 	
-	5131. market research
+	5131. [[market research]]
 	5132. Marplan
+		1. $n$. A proprietary name for the antidepressant drug isocarboxazid. \[Trademark]
 	5133. Marr's computational theory of vision
-	5134. marriage counselling
-	5135. marshmallow test
+		1. See 21⁄2-D SKETCH, 3-D MODEL DESCRIPTION, PRIMAL SKETCH. See also COMPUTATIONAL THEORY, GENERALIZED CONE.
+	5134. [[marriage counselling]]
+	5135. [[marshmallow test]]
 	5136. Marsilid
-	5137. Martha Mitchell effect
-	5138. masculine protest
-	5139. masculinity-femininity scale
-	5140. masculinizing hormone
+		1. $n$. A proprietary name for the antidepressant drug iproniazid. \[Trademark]
+	5137. [[Martha Mitchell effect]]
+	5138. [[masculine protest]]
+	5139. [[masculinity-femininity scale]]
+	5140. [[masculinizing hormone]]
 	
-	5141. masked depression
-	5142. masking
-	5143. masochism
+	5141. [[masked depression]]
+	5142. [[masking]]
+	5143. [[masochism]]
 	5144. masochistic personality
-	5145. mass action
-	5146. massage therapy
-	5147. massa intermedia
-	5148. massed practice
-	5149. mast cell
-	5150. masturbation
+		1. $n$. Another name for self-defeating personality disorder. It is misleading in view of the fact that no paraphilia resembling sexual masochism is involved.
+	5145. [[mass action]]
+	5146. [[massage therapy]]
+	5147. [[massa intermedia]]
+	5148. [[massed practice]]
+	5149. [[mast cell]]
+	5150. [[masturbation]]
 	
-	5151. matched guise
-	5152. matching bias
-	5153. Matching Familiar Figures Test
-	5154. matching to sample
-	5155. materialism
-	5156. maternal deprivation
-	5157. maternal inheritance
+	5151. [[matched guise]]
+	5152. [[matching bias]]
+	5153. [[Matching Familiar Figures Test]]
+	5154. [[matching to sample]]
+	5155. [[materialism]]
+	5156. [[maternal deprivation]]
+	5157. [[maternal inheritance]]
 	5158. mathematical induction
-	5159. mathematics disorder
-	5160. matriarchy
+		1. n. Another name for induction (2).
+	5159. [[mathematics disorder]]
+	5160. [[matriarchy]]
 	
-	5161. matrilineal
-	5162. matrist
-	5163. matrix
-	5164. maturation
-	5165. Maudsley Personality Inventory
-	5166. maximin
-	5167. maximum likelihood
-	5168. Maxwell disc
-	5169. maze
-	5170. McCarthy Scales of Children's Abilities
+	5161. [[matrilineal]]
+	5162. [[matrist]]
+	5163. [[matrix]]
+	5164. [[maturation]]
+	5165. [[Maudsley Personality Inventory]]
+	5166. [[maximin]]
+	5167. [[maximum likelihood]]
+	5168. [[Maxwell disc]]
+	5169. [[maze]]
+	5170. [[McCarthy Scales of Children's Abilities]]
 	
-	5171. McCollough effect
-	5172. M cellabbrev.
-	5173. McGurk effect
-	5174. McNaghten rules
-	5175. McNemar test
-	5176. MDAabbrev.
-	5177. MDMAabbrev.
-	5178. Me-self
-	5179. mean
+	5171. [[McCollough effect]]
+	5172. [[M cell]]
+	5173. [[McGurk effect]]
+	5174. [[McNaghten rules]]
+	5175. [[McNemar test]]
+	5176. [[MDA]]
+	5177. MDMA
+		1. abbrev. 3,4-methylene-dioxy-methamphetamine, a central nervous system stimulant and designer drug commonly called ecstasy (2).
+	5178. [[Me-self]]
+	5179. [[mean]]
 	5180. mean error method
+		1. n. Another name for the method of average error.
 	
-	5181. mean length of utterance
+	5181. [[mean length of utterance]]
 	5182. mean lethal dosage
-	5183. means-end analysis
-	5184. mean square
-	5185. measurement
-	5186. measurement level
-	5187. measurement model
+		1. n. Another name for the median lethal dosage (LD-50).
+	5183. [[means-end analysis]]
+	5184. [[mean square]]
+	5185. [[measurement]]
+	5186. [[measurement level]]
+	5187. [[measurement model]]
 	5188. mechanism of defence
-	5189. mechanoreceptor
+		1. See defence of mechanism.
+	5189. [[mechanoreceptor]]
 	5190. Mecholyl
+		1. n. A proprietary name for the parasympathomimetic drug methacholine. \[Trademark]
 	
-	5191. MED-50abbrev.
-	5192. medial
-	5193. medial forebrain bundle
-	5194. medial geniculate nucleus
-	5195. medial lemniscus
-	5196. medial rectus
-	5197. medial surface
-	5198. medial temporal lobe
-	5199. median
-	5200. median effective dosage
+	5191. [[MED-50]]
+	5192. [[medial]]
+	5193. [[medial forebrain bundle]]
+	5194. [[medial geniculate nucleus]]
+	5195. [[medial lemniscus]]
+	5196. [[medial rectus]]
+	5197. [[medial surface]]
+	5198. [[medial temporal lobe]]
+	5199. [[median]]
+	5200. [[median effective dosage]]
 	
-	5201. median eminence
-	5202. median lethal dosage
+	5201. [[median eminence]]
+	5202. [[median lethal dosage]]
 	5203. median plane
+		1. n. Another name for the midsaittal plane.
 	5204. median section
+		1. n. Another name for the midsagittal section.
 	5205. median temporal gyrus
-	5206. median test
-	5207. median toxic dosage
-	5208. mediating variable
-	5209. medical psychology
-	5210. medical student syndrome
+		1. n. Another name for the middle temporal gyrus.
+	5206. [[median test]]
+	5207. [[median toxic dosage]]
+	5208. [[mediating variable]]
+	5209. [[medical psychology]]
+	5210. [[medical student syndrome]]
 	
 	5211. meditation
-	5212. medulla
-	5213. medulla oblongata
-	5214. medulloblastoma
-	5215. megalomania
+		1. See Transcendental Meditation
+	5212. [[medulla]]
+	5213. [[medulla oblongata]]
+	5214. [[medulloblastoma]]
+	5215. [[megalomania]]
 	5216. megavitamin therapy
-	5217. meiosis
-	5218. Meissner's corpuscle
-	5219. mel
-	5220. melancholia
+		1. n. Another name for orthomolecular therapy.
+	5217. [[meiosis]]
+	5218. [[Meissner's corpuscle]]
+	5219. [[mel]]
+	5220. [[melancholia]]
 	
-	5221. melanocyte-stimulating hormone
-	5222. melatonin
+	5221. [[melanocyte-stimulating hormone]]
+	5222. [[melatonin]]
 	5223. Mellaril
-	5224. melodic constancy
-	5225. melodic paradox
-	5226. MEM 1414abbrev.
-	5227. member
-	5228. membership character
+		1. n. A proprietary name for the neuroleptic drug thioridazine. \[Trademark]
+	5224. [[melodic constancy]]
+	5225. [[melodic paradox]]
+	5226. [[MEM 1414]]
+	5227. [[member]]
+	5228. [[membership character]]
 	5229. membrana tympani
-	5230. membrane
+		1. $n$. Another name for the tympanic membrane. \[From Latin membrana a membrane + tympanum a drum]
+	5230. [[membrane]]
 	
-	5231. membrane potential
-	5232. membranous labyrinth
-	5233. meme
-	5234. memory
-	5235. memory drum
-	5236. memory operating characteristic
-	5237. memory organization packet
-	5238. memory span
-	5239. memory trace
-	5240. menarche
+	5231. [[membrane potential]]
+	5232. [[membranous labyrinth]]
+	5233. [[meme]]
+	5234. [[memory]]
+	5235. [[memory drum]]
+	5236. [[memory operating characteristic]]
+	5237. [[memory organization packet]]
+	5238. [[memory span]]
+	5239. [[memory trace]]
+	5240. [[menarche]]
 	
-	5241. Mendel's laws
-	5242. Mendelian
-	5243. meninges
-	5244. meningioma
-	5245. meningitis
+	5241. [[Mendel's laws]]
+	5242. [[Mendelian]]
+	5243. [[meninges]]
+	5244. [[meningioma]]
+	5245. [[meningitis]]
 	5246. meninx
+		1. n. The singular of meninges. \[From Greek meninx a membrane]
 	5247. menkeiti
-	5248. menopause
+		1. See latah
+	5248. [[menopause]]
 	5249. menses
-	5250. mens rea
+		1. $n$. Another name for menstruation or menstrual periods. \[From Latin menses months, from mensis a month]
+	5250. [[mens rea]]
 	
-	5251. menstrual cycle
-	5252. menstrual phase
+	5251. [[menstrual cycle]]
+	5252. [[menstrual phase]]
 	5253. menstrual synchrony
-	5254. menstruation
-	5255. mental age
-	5256. mental chemistry
+		1. See whitten effect.
+	5254. [[menstruation]]
+	5255. [[mental age]]
+	5256. [[mental chemistry]]
 	5257. mental defective
+		1. $n$. An obsolescent term for a person manifesting intellectual disability.
 	5258. mental deficiency
-	5259. mental disorder
+		1. n. Another name for intellectual disability.
+	5259. [[mental disorder]]
 	5260. mental handicap
+		1. $n$. An obsolescent term for intellectual disability.
 	
 	5261. mental illness
+		1. $n$. Another name for mental disorder, with medical connotations that some consider misleading or tendentious.
 	5262. mental image
+		1. n. Another name for an image (3).
 	5263. mental imagery
+		1. See imagery.
 	5264. mental lexicon
+		1. n. Another name for a lexicon (2). 
 	5265. mental map
-	5266. mental model
-	5267. mental operation
+		1. n. Another name for a cognitive map.
+	5266. [[mental model]]
+	5267. [[mental operation]]
 	5268. mental retardation
-	5269. mental rotation
+		1. $n$. A term used in DSM-IV but replaced in DSM-5 by intellectual disability. MR abbrev.
+	5269. [[mental rotation]]
 	5270. mental set
+		1. n. Another name for a set (2). 
 	
-	5271. mental status examination
-	5272. Mental Status Examination Report
+	5271. [[mental status examination]]
+	5272. [[Mental Status Examination Report]]
 	5273. mental subnormality
-	5274. mental test
-	5275. mental time travel
+		1. $n$. An obsolescent term for intellectual disability.
+	5274. [[mental test]]
+	5275. [[mental time travel]]
 	5276. meow meow
-	5277. meperidine
-	5278. mephedrone
-	5279. meprobamate
-	5280. mere exposure effect
+		1. $n$. A street name for mephedrone. Also spelt miaow miaow. \[Coined soon after it began to be marketed online in 2009, based on the abbreviation MM-CAT of its chemical name, alluding to the fact that cats meow]
+	5277. [[meperidine]]
+	5278. [[mephedrone]]
+	5279. [[meprobamate]]
+	5280. [[mere exposure effect]]
 	
-	5281. Merkel's law
-	5282. Merkel cell
-	5283. merocrine
-	5284. Merrill‐Palmer scale
-	5285. mescaline
-	5286. mesencephalic locomotor region
+	5281. [[Merkel's law]]
+	5282. [[Merkel cell]]
+	5283. [[merocrine]]
+	5284. [[Merrill‐Palmer scale]]
+	5285. [[mescaline]]
+	5286. [[mesencephalic locomotor region]]
 	5287. mesencephalon
+		1. $n$. A technical name for the midbrain, especially in a developing embryo. Compare prosencephalon, rhombencephalon. \[From Greek mesos middle + enkephalos the brain, from en in + kephale the head]
 	5288. mesmerism
-	5289. mesocortex
-	5290. mesocortical system
+		1. $n$. An obsolete term for animal magnetism or hypnosis. \[Named after the Viennese physician Franz Anton Mesmer (1734-1815) who practised animal magnetism, though not hypnosis, in the 1770s]
+	5289. [[mesocortex]]
+	5290. [[mesocortical system]]
 	
-	5291. mesoderm
+	5291. [[mesoderm]]
 	5292. mesokurtic
-	5293. mesolect
-	5294. mesolimbic system
-	5295. mesomorph
-	5296. mesopic
-	5297. mesotelencephalic pathway
-	5298. messenger RNA
+		1. See kurtosis
+	5293. [[mesolect]]
+	5294. [[mesolimbic system]]
+	5295. [[mesomorph]]
+	5296. [[mesopic]]
+	5297. [[mesotelencephalic pathway]]
+	5298. [[messenger RNA]]
 	5299. met-enkephalin
-	5300. meta-analysis
+		1. See enkephalin
+	5300. [[meta-analysis]]
 	
-	5301. metabolism
-	5302. metachrosis
-	5303. metacognition
-	5304. metacontrast
-	5305. metalanguage
-	5306. metamemory
-	5307. metamer
-	5308. metameric match
-	5309. metametric pair
-	5310. metanalysis
+	5301. [[metabolism]]
+	5302. [[metachrosis]]
+	5303. [[metacognition]]
+	5304. [[metacontrast]]
+	5305. [[metalanguage]]
+	5306. [[metamemory]]
+	5307. [[metamer]]
+	5308. [[metameric match]]
+	5309. [[metametric pair]]
+	5310. [[metanalysis]]
 	
-	5311. metaphase
-	5312. metaphor
-	5313. metapsychology
-	5314. metathetic stimulus dimension
-	5315. metatrait
-	5316. metencephalon
+	5311. [[metaphase]]
+	5312. [[metaphor]]
+	5313. [[metapsychology]]
+	5314. [[metathetic stimulus dimension]]
+	5315. [[metatrait]]
+	5316. [[metencephalon]]
 	5317. meth
-	5318. methacholine
-	5319. methadone
-	5320. methamphetamine
+		1. n. A common street name for methamphetamine.
+	5318. [[methacholine]]
+	5319. [[methadone]]
+	5320. [[methamphetamine]]
 	
-	5321. methaqualone
-	5322. method of absolute judgement
+	5321. [[methaqualone]]
+	5322. [[method of absolute judgement]]
 	5323. method of adjustment
-	5324. method of average error
-	5325. method of bisection
-	5326. method of comparative judgement
-	5327. method of constant stimuli
-	5328. method of equal-appearing intervals
-	5329. method of equal and unequal cases
-	5330. method of gradation
+		1. n. Another name for the method of average error.
+	5324. [[method of average error]]
+	5325. [[method of bisection]]
+	5326. [[method of comparative judgement]]
+	5327. [[method of constant stimuli]]
+	5328. [[method of equal-appearing intervals]]
+	5329. [[method of equal and unequal cases]]
+	5330. [[method of gradation]]
 	
-	5331. method of limits
-	5332. method of loci
+	5331. [[method of limits]]
+	5332. [[method of loci]]
 	5333. method of mean error
-	5334. method of paired comparisons
+		1. n. Another name for the method of average error. 
+	5334. [[method of paired comparisons]]
 	5335. method of reproduction
-	5336. method of savings
-	5337. method of single stimuli
-	5338. methyl atropine
-	5339. methylphenidate
+		1. n. Another name for the method of 
+	5336. [[method of savings]]
+	5337. [[method of single stimuli]]
+	5338. [[methyl atropine]]
+	5339. [[methylphenidate]]
 	5340. methylphenylpyridine
+		1. n. The chemical name of $MPP^+$ 
 	
 	5341. methylphenyltetrahydropyridine
-	5342. methyl scopolamine
+		1. n. The chemical name of MPTP.
+	5342. [[methyl scopolamine]]
 	5343. methylxanthine
-	5344. metonymy
+		1. n. Another name for a xanthine. 
+	5344. [[metonymy]]
 	5345. Metrazol
-	5346. MHPGabbrev.
-	5347. mianserin
+		1. n. A proprietary name for the stimulant drug pentylene tetrazol. \[Trademark, from (penta)met(hylene) + (tet)razol(e)]
+	5346. [[MHPG]]
+	5347. [[mianserin]]
 	5348. miaow miaow
-	5349. Michelangelo phenomenon
-	5350. microcephaly
+		1. n. See meow meow
+	5349. [[Michelangelo phenomenon]]
+	5350. [[microcephaly]]
 	
-	5351. microelectrode
-	5352. microevolution
-	5353. microfilament
-	5354. microglia
-	5355. micropsia
-	5356. microsaccade
-	5357. microsleep
-	5358. microsome
-	5359. microspecies
-	5360. microtome
+	5351. [[microelectrode]]
+	5352. [[microevolution]]
+	5353. [[microfilament]]
+	5354. [[microglia]]
+	5355. [[micropsia]]
+	5356. [[microsaccade]]
+	5357. [[microsleep]]
+	5358. [[microsome]]
+	5359. [[microspecies]]
+	5360. [[microtome]]
 	
-	5361. microtubule
-	5362. midbrain
-	5363. middle commissure
-	5364. middle ear
+	5361. [[microtubule]]
+	5362. [[midbrain]]
+	5363. [[middle commissure]]
+	5364. [[middle ear]]
 	5365. middle insomnia
-	5366. middle temporal gyrus
-	5367. midget cell
-	5368. midsagittal plane
-	5369. midsagittal section
-	5370. mid vowel
+		1. See insomnia.
+	5366. [[middle temporal gyrus]]
+	5367. [[midget cell]]
+	5368. [[midsagittal plane]]
+	5369. [[midsagittal section]]
+	5370. [[mid vowel]]
 	
-	5371. Mignon delusion
-	5372. migraine
-	5373. migration
-	5374. mild cognitive impairment
-	5375. mild mental retardation
-	5376. Milgram experiment
-	5377. milieu therapy
-	5378. Miller Analogies Test
-	5379. Mill Hill Vocabulary scale
+	5371. [[Mignon delusion]]
+	5372. [[migraine]]
+	5373. [[migration]]
+	5374. [[mild cognitive impairment]]
+	5375. [[mild mental retardation]]
+	5376. [[Milgram experiment]]
+	5377. [[milieu therapy]]
+	5378. [[Miller Analogies Test]]
+	5379. [[Mill Hill Vocabulary scale]]
 	5380. millimicron
+		1. n. Another (obsolescent) name for a nanometre.
 	
 	5381. Miltown
-	5382. mimesis
-	5383. mimicry
-	5384. mind-blindness
-	5385. mind-body problem
-	5386. mind-reading
-	5387. mindfulness
-	5388. mindfulness-based cognitive therapy
-	5389. mindlessness
-	5390. mineralocorticoid
+		1. $n$. A proprietary name for the depressant drug meprobamate. \[Trademark]
+	5382. [[mimesis]]
+	5383. [[mimicry]]
+	5384. [[mind-blindness]]
+	5385. [[mind-body problem]]
+	5386. [[mind-reading]]
+	5387. [[mindfulness]]
+	5388. [[mindfulness-based cognitive therapy]]
+	5389. [[mindlessness]]
+	5390. [[mineralocorticoid]]
 	
-	5391. Mini-Mental State Examination
-	5392. miniature end-plate potential
+	5391. [[Mini-Mental State Examination]]
+	5392. [[miniature end-plate potential]]
 	5393. minimal audible angle
+		1. See minimum audible angle.
 	5394. minimal audible field
+		1. See minimum audible field.
 	5395. minimal audible pressure
+		1. See minimum audible pressure.
 	5396. minimal brain dysfunction
-	5397. minimal group situation
-	5398. minimal pair
-	5399. minimal social situation
-	5400. minimax
+		1. $n$. Another name for attention-deficit/hyperactivity disorder. Also called minimal cerebral dysfunction (or damage). MBD abbrev.
+	5397. [[minimal group situation]]
+	5398. [[minimal pair]]
+	5399. [[minimal social situation]]
+	5400. [[minimax]]
 	
-	5401. minimax theorem
-	5402. minimum audible angle
-	5403. minimum audible field
-	5404. minimum audible pressure
-	5405. minimum effective dosage
-	5406. minimum lethal dosage
-	5407. minimum separable
-	5408. minimum toxic dosage
-	5409. minimum visible
+	5401. [[minimax theorem]]
+	5402. [[minimum audible angle]]
+	5403. [[minimum audible field]]
+	5404. [[minimum audible pressure]]
+	5405. [[minimum effective dosage]]
+	5406. [[minimum lethal dosage]]
+	5407. [[minimum separable]]
+	5408. [[minimum toxic dosage]]
+	5409. [[minimum visible]]
 	5410. Minnesota Multiphasic Personality Inventory
+		1. See MMPI
 	
 	5411. minor depressive disorder
-	5412. minor epilepsy
-	5413. minority social influence
+		1. $n$. A term used to denote subthreshold cases of major depressive disorder. Also called dysthymic disorder.
+	5412. [[minor epilepsy]]
+	5413. [[minority social influence]]
 	5414. minor tranquillizer
-	5415. miracle berry
-	5416. miraculin
-	5417. mirror drawing
-	5418. mirror focus
-	5419. mirror neuron
-	5420. mirror phase
+		1. $n$. An obsolescent name for an anxiolytic. US minor tranquilizer. Compare MAJOR TRANQUILLIZER.
+	5415. [[miracle berry]]
+	5416. [[miraculin]]
+	5417. [[mirror drawing]]
+	5418. [[mirror focus]]
+	5419. [[mirror neuron]]
+	5420. [[mirror phase]]
 	
-	5421. mirror reversal problem
-	5422. mirror writing
-	5423. misandry
+	5421. [[mirror reversal problem]]
+	5422. [[mirror writing]]
+	5423. [[misandry]]
 	5424. misidentification disorders
+		1. See DELUSIONAL MISIDENTIFICATION.
 	5425. misinformation effect
-	5426. mismatch
-	5427. miss
-	5428. missing fundamental illusion
-	5429. mitochondrial DNA
-	5430. mitochondrion
+		1. $n$. Another name for the eyewitness misinformation effect.
+	5426. [[mismatch]]
+	5427. [[miss]]
+	5428. [[missing fundamental illusion]]
+	5429. [[mitochondrial DNA]]
+	5430. [[mitochondrion]]
 	
-	5431. mitosis
-	5432. mitral cell
-	5433. Mitwelt
-	5434. mixed-motive game
-	5435. mixed episode
-	5436. mixed strategy
+	5431. [[mitosis]]
+	5432. [[mitral cell]]
+	5433. [[Mitwelt]]
+	5434. [[mixed-motive game]]
+	5435. [[mixed episode]]
+	5436. [[mixed strategy]]
 	5437. mixed transcortical aphasia
-	5438. mixture suppression
-	5439. MMPIabbrev.
-	5440. mneme
+		1. See aphasia
+	5438. [[mixture suppression]]
+	5439. [[MMPI]]
+	5440. [[mneme]]
 	
-	5441. mnemic symbol
-	5442. mnemon
-	5443. mnemonic
-	5444. mnemonist
-	5445. mobbing
-	5446. Möbius syndrome
-	5447. modafinil
-	5448. modal completion
+	5441. [[mnemic symbol]]
+	5442. [[mnemon]]
+	5443. [[mnemonic]]
+	5444. [[mnemonist]]
+	5445. [[mobbing]]
+	5446. [[Möbius syndrome]]
+	5447. [[modafinil]]
+	5448. [[modal completion]]
 	5449. modality
-	5450. modality effect
+		1. See sensory modality.
+	5450. [[modality effect]]
 	
-	5451. modal logic
-	5452. modal verb
-	5453. mode
-	5454. model
-	5455. modelling
+	5451. [[modal logic]]
+	5452. [[modal verb]]
+	5453. [[mode]]
+	5454. [[model]]
+	5455. [[modelling]]
 	5456. moderate mental retardation
-	5457. modern racism
-	5458. modified Ellsberg paradox
+		1. $n$. An obsolescent term for a level of intellectual disability associated with IQ approximately between 35 and 50 (in adults, mental age from 6 to under 9 years), equivalent to the educational category of trainable mentally retarded. Also called moderate mental subnormality.
+	5457. [[modern racism]]
+	5458. [[modified Ellsberg paradox]]
 	5459. modified LSD test
-	5460. modifier gene
+		1. $n$. In statistics, the modified least significant difference test, another name for a Bonferroni $t$ test. See Bonferroni CORRECTION.
+	5460. [[modifier gene]]
 	
-	5461. modularity of mind
+	5461. [[modularity of mind]]
 	5462. modulation transfer function
-	5463. modulator
-	5464. modus ponens
-	5465. modus tollens
-	5466. molecular biology
-	5467. molecular genetics
+		1. n. Another name for the contrast sensitivity function. MTF abbrev.
+	5463. [[modulator]]
+	5464. [[modus ponens]]
+	5465. [[modus tollens]]
+	5466. [[molecular biology]]
+	5467. [[molecular genetics]]
 	5468. molecular imprinting
-	5469. Molyneux's question
+		1. See genetic imprinting
+	5469. [[Molyneux's question]]
 	5470. momentum, representational
+		1. See representational momentum
 	
-	5471. monad
+	5471. [[monad]]
 	5472. Mona Lisa smile
-	5473. monaural
-	5474. money pump
+		1. n. See hybrid image.
+	5473. [[monaural]]
+	5474. [[money pump]]
 	5475. mongolism
-	5476. monism
-	5477. monoamine
-	5478. monoamine oxidase
-	5479. monoamine oxidase inhibitor
-	5480. monoblepsis
+		1. $n$. An obsolete name for Down's syndrome. \[Referring to the supposed resemblance of people with the disorder to Mongolians, a comparison now considered offensive]
+	5476. [[monism]]
+	5477. [[monoamine]]
+	5478. [[monoamine oxidase]]
+	5479. [[monoamine oxidase inhibitor]]
+	5480. [[monoblepsis]]
 	
-	5481. monochromatic
-	5482. monochromatism
-	5483. monoclonal antibody
-	5484. monocular
-	5485. monocular cue
-	5486. monocular parallax
-	5487. monocyte
-	5488. monogamy
-	5489. monogenic inheritance
-	5490. monomania
+	5481. [[monochromatic]]
+	5482. [[monochromatism]]
+	5483. [[monoclonal antibody]]
+	5484. [[monocular]]
+	5485. [[monocular cue]]
+	5486. [[monocular parallax]]
+	5487. [[monocyte]]
+	5488. [[monogamy]]
+	5489. [[monogenic inheritance]]
+	5490. [[monomania]]
 	
 	5491. monopede mania
+		1. n. Another name for acrotomorphilia.
 	5492. monopedophilia
-	5493. monophthong
-	5494. monoplegia
+		1. n. Another name for acrotomorphilia.
+	5493. [[monophthong]]
+	5494. [[monoplegia]]
 	5495. monopolar neuron
-	5496. monoptic
-	5497. monosemy
-	5498. monosodium glutamate
+		1. n. Another name for a unipolar neuron. Also called a monopolar cell.
+	5496. [[monoptic]]
+	5497. [[monosemy]]
+	5498. [[monosodium glutamate]]
 	5499. monosomy X
-	5500. monosynaptic reflex
+		1. n. Another name for Turner's syndrome
+	5500. [[monosynaptic reflex]]
 	
-	5501. monotonic
-	5502. monotonicity
-	5503. monozygotic
-	5504. monozygotic twins
-	5505. Monte Carlo method
-	5506. Monty Hall problem
-	5507. mood
-	5508. mood-congruent
-	5509. mood-dependent memory
-	5510. mood-incongruent
+	5501. [[monotonic]]
+	5502. [[monotonicity]]
+	5503. [[monozygotic]]
+	5504. [[monozygotic twins]]
+	5505. [[Monte Carlo method]]
+	5506. [[Monty Hall problem]]
+	5507. [[mood]]
+	5508. [[mood-congruent]]
+	5509. [[mood-dependent memory]]
+	5510. [[mood-incongruent]]
 	
-	5511. mood disorders
-	5512. mood episodes
-	5513. mood stabilizer
-	5514. moon illusion
-	5515. moral development
+	5511. [[mood disorders]]
+	5512. [[mood episodes]]
+	5513. [[mood stabilizer]]
+	5514. [[moon illusion]]
+	5515. [[moral development]]
 	5516. morbid jealousy
+		1. n. Another name for jealous delusional disorder.
 	5517. Morgan's canon
+		1. See Lloyd Morgan's Canon.
 	5518. Morgan-Murray Thematic Apperception Test
-	5519. Morinaga misalignment illusion
-	5520. Morita therapy
+		1. $n$. The original name by which the TAT was generally known prior to 1943.
+	5519. [[Morinaga misalignment illusion]]
+	5520. [[Morita therapy]]
 	
-	5521. morning glory
+	5521. [[morning glory]]
 	5522. moron
-	5523. Moro reflex
-	5524. morpheme
-	5525. morphine
-	5526. morphology
-	5527. mortality table
-	5528. mortido
-	5529. morula
-	5530. mosaic
+		1. $n$. An obsolete term for a person with moderate intellectual disability; also, an abusive term for a person of low intelligence. moronic adj. \[From Greek moros foolish]
+	5523. [[Moro reflex]]
+	5524. [[morpheme]]
+	5525. [[morphine]]
+	5526. [[morphology]]
+	5527. [[mortality table]]
+	5528. [[mortido]]
+	5529. [[morula]]
+	5530. [[mosaic]]
 	
 	5531. Moses illusion
 	5532. Moses test of extreme reaction

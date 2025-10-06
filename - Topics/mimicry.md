@@ -5,6 +5,9 @@
 - http://www.ucl.ac.uk/〜ucbhdjm/courses/b242/Mimic/Mimic.html
 	- #comment 404 not found
 	- Summary of the lecture 'Warning color and mimicry', from the Department of Biology, University College London
+## Source[^2]
+- $n$. Imitation or mimesis; more specifically the deceptive resemblance of one animal species to another to protect it from predators, common especially among butterflies and other insects. See also Batesian MIMICRY, MÜllerian Mimicry. \[From Greek mimos a mime]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

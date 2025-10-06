@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An internal representation having$\textemdash$in some abstract sense$\textemdash$the same structure as the aspect or portion of external reality that it represents, such as the 3-D model description that the English psychologist David Courtenay Marr (1945-80) posited as the basis of visual perception. According to a theory put forward in 1983 by the British psychologist Philip N(icholas) Johnson-Laird (born 1936), people need to construct mental models in order to carry out deductive and inductive reasoning on the basis of propositions (1), which are not themselves mental models but generally give rise to mental models. For example, the proposition Alex is to the left of Bernie, and Bernie is to the left of Charlie may give rise to a mental model in which three men are standing in a row, with Alex to the left of Charlie; but a different mental model would have them arranged anticlockwise around a table, in which case Alex is to the right of Charlie$\textemdash$and in some mental models they could even be three women. According to some researchers, mental models are required to comprehend discourse, to have a body image, and even to experience consciousness. The concept was suggested in 1943 by the Scottish experimental psychologist Kenneth J(ames) W(illiams) Craik (1914-45) in his book The Nature of Explanation. See also mental rotation. Compare frame (2), sCHEMA.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

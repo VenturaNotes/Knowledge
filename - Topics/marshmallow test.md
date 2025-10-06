@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An experimental test devised by the Austrian-born US psychologist Walter Mischel (born 1930) to examine some features and consequences of deferred gratification, first published in an article in the Journal of Abnormal and Social Psychology in 1958. Children aged between 7 and 9 years in the original experiment, or generally between 4 and 6 years in later research, are given a choice between a small, immediate reward (such as one marshmallow) and a larger, delayed reward (such as two marshmallows). Longitudinal studies have shown that delayed gratification in children, defined as waiting 15 minutes for the larger reward, is highly predictive of academic success in terms of Scholastic Assessment Test scores and of cognitive and emotional coping in adolescence. Follow-up studies have shown that waiting for the larger reward in childhood predicts higher educational achievement, higher sense of self-worth, better ability to cope with stress, less cocaine/crack use in adulthood, and lower body mass. Also called the Stanford marshmallow test, because key experiments in the 1970s were conducted at Stanford University in California. \[From English marsh mallow, the plant Althaea officinalis, indigenous to Africa, that grows in salt marshes, the roots of which have been used to make marshmallow treats since ancient Egyptian times]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

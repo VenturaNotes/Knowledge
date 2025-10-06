@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Heedfulness or awareness. In some forms of psychotherapy and counselling psychology, lucid awareness of events and experiences. This usage is borrowed from the Buddhist tradition of transcendental meditation, in which the state of mindfulness is likened to a polished mirror that simply reflects what passes before it, unbiased by conceptual thought. Such heightened mental receptivity, including increased sensitivity to the environment, greater openness to new information, new ways of structuring perception, and enhanced awareness of different problem-solving perspectives, is believed to facilitate insight, revealing reality with increased clarity, and is claimed to produce psychological and health benefits. The concept was brought to prominence in psychology by the US psychologist Ellen J. Langer (born 1947), first in an article coauthored with two colleagues in the Journal of Experimental Social Psychology in 1974, and later a book entitled Mindfulness published in 1989. See also ACCEPTANCE AND COMMITMENT THERAPY, ATTENTION, CONTROLLED PROCESSING, DIALECTICAL BEHAVIOUR THERAPY, MINDFULNESS-BASED COGNITIVE therapy, Morita therapy. Compare mindlessness. mindful adj. \[From a translation of the word sati in the ancient Indian language Pali, meaning to remember or to have presence of mind, from Old English gemynd mind + -ful full + -nes indicating a state, condition, or quality]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

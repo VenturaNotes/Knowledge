@@ -52,9 +52,17 @@
 		- 2nd Metaphase
 		- 2nd Anaphase
 		- 2nd Telophase
+## Source[^5]
+- $n$. 
+- (1) A form of cell division such as that of gametes in sexually reproducing species in which the nucleus divides into four daughter nuclei each containing half the chromosomes of the parent nucleus (see illustration). It consists of two successive divisions: during the first, homologous chromosomes pair up, exchange genetic material by crossing over, then during the anaphase part of the cycle move apart by disjunction (1) to form separate haploid nuclei; during the second phase these daughter nuclei divide by mitosis (with a further anaphase), producing four haploid cells. Also called reduction division. Compare mitosis. 
+- (2) A figure of speech characterized by understatement or litotes. meiotic adj. \[From Greek meiosis diminution, from meion less + -osis indicating a process or state]
+- ![[Screenshot 2025-09-11 at 4.07.42 PM.png|400]]
+	- Meiosis. Stages in a cell containing two pairs of homologous chromosomes.
+	- #comment Description of image above in biology oxford reference. 
 ## References
 
 [^1]: https://highered.mheducation.com/sites/0072919345/student_view0/chapter10/multiple_choice_quiz.html
 [^2]: https://quizizz.com/admin/quiz/5ae31ed16b164f0019047957/biology-vocabulary
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

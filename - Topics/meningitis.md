@@ -5,6 +5,9 @@
 - Bacterial meningitis is treated with antibiotics administered as soon as possible after diagnosis. With the exception of herpes simplex encephalitis (which is treated with aciclovir), viral meningitis does not respond to drugs but normally has a relatively benign prognosis. See also LEPTOMENINGITIS; PACHYMENINGITIS.
 - https://www.meningitisnow.org/
 	- Website of Meningitis Now: includes information on signs and symptoms of meningitis
+## Source[^2]
+- $n$. Inflammation of the meninges. \[From Greek meninx, meningos a membrane + -itis inflammation]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

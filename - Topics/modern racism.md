@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Covert or symbolic opposition to policies or practices designed to help a specific racial group, arising from negative affect towards members of that group. It is distinguished from overt prejudice, discrimination, stereotyping, or condescension on the basis of race (racialism), and also from overt belief in the intrinsic superiority of one particular race (racism). The term was introduced in an article by the US social psychologist John B(arnard) McConahay (1936-98) and two colleagues in the Journal of Conflict Resolution in 1981. These researchers deliberately replaced an earlier term symbolic racism in order to emphasize the presumed emergence of the phenomenon in the second half of the 1960s in the wake of the US civil rights movement, when overt racism, including support for laws against racial mixing and belief in the innate inferiority of black people, became unfashionable. It is measured by instruments such as the Modern Racism Scale, a non-reactive measure of racist attitudes developed by McConahay and his colleagues, in which agreement with such statements as Discrimination against blacks is no longer a problem in the US and disagreement with statements such as It is easy to understand the anger of black people in America are taken to be indicative of modern racism. See also implicit association test. \[From Latin modernus contemporary, from modo just recently + English racism]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

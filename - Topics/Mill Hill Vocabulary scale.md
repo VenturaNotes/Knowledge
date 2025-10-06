@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- n. An intelligence test designed to measure verbal intelligence, consisting of a list of 88 words divided into two sets of 44, published by the English psychologist John C(arlyle) Raven (1902-70) in its original form in 1944 as a companion to Raven's Progressive Matrices. The respondent's task is to explain the meanings of the words or (in an alternative form of presentation) to select the correct synonym for each word from a list of six alternatives provided. Most children with a mental age of 5 years can explain the meanings of the first few words (cap, loaf, unhappy), and between the ages of 5 and 16 children of average intelligence can usually define about three additional words per year. The most difficult words in the list, which only a small minority of adults can define, include recondite, exiguous, and minatory. The correlation between scores on the Mill Hill Vocabulary scale and Raven's Progressive Matrices is approximately .75 , notwithstanding the utterly different ways in which the two tests measure intelligence. MHV abbrev. \[Named after the Mill Hill Emergency Hospital in London, the wartime location of the Maudsley Hospital, where it was developed]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
