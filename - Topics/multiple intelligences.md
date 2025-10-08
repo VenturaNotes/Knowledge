@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An interpretation of intelligence put forward by the US psychologist Howard (Earl) Gardner (born 1943) in his book Frames of Mind: The Theory of Multiple Intelligences (1983, 1993), taking account of abilities of gifted people and virtuosos or experts in various domains, abilities valued in different cultures, and abilities of individuals who have suffered brain damage. In addition to the linguistic, logicalmathematical, and spatial abilities incorporated in conventional interpretations of intelligence, Gardner's taxonomy includes musical intelligence (used in musical appreciation, composition, and performance), bodily-kinaesthetic intelligence (used in sport, dancing, and everyday activities requiring dexterity), interpersonal intelligence (used in relating to others, interpreting social signals, and predicting social outcomes), and intrapersonal intelligence (used in understanding and predicting one's own behavior). In 1997 Gardner added naturalist intelligence (used in discriminating among plants, animals, and other features of the natural world, and in classifying objects in general) as an eighth intelligence and spiritual intelligence and existential intelligence as 'candidate' intelligences. Critics have argued that some of these abilities are better interpreted as special talents than as aspects of intelligence. See also creativity. Compare Guilford's cube.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

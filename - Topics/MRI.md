@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- abbrev. Magnetic resonance imaging, a non-invasive method of brain imaging or examination of other body organs by recording the responses to radio waves, or other forms of energy, of different kinds of molecules in a magnetic field. An MRI machine is a cylindrical magnet, large enough to contain a human body, producing a constant magnetic field in which protons (subatomic charged particles) spin like tops. A pulse of energy causes the spinning particles to tilt momentarily and then to regain their original orientations, giving up a detectable amount of energy as they do so. Different tissues emit different amounts of energy in response to the pulses, and the tissues that emit the greatest energy appear as the brightest regions in the resulting MRI scan. A series of two-dimensional slices are combined by a computer into a three-dimensional image. MRI can be used for imaging brain structure or (indirectly) brain function. When it is used to provide a dynamic picture of oxygen metabolism during specific mental activities it is called functional MRI or fMRI; this involves imaging blood oxygenation, which is of interest because it correlates with levels of neuronal activity in specific brain regions. Thus, fMRI monitors blood-oxygen-level-dependent (BOLD) neural activity in the brain. See also NUCLEAR MAGNETIC RESONANCE.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

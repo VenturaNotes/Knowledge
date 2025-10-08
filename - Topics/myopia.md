@@ -11,7 +11,10 @@
 			- Focusing point falls short of retina
 		- Corrected
 			- Concave lens diverges light rays falling on the eye
+## Source[^3]
+- $n$. Short-sightedness or difficulty in seeing distant objects clearly, caused by an excessively elongated eyeball in which light rays entering the eye are focused in front of the retina. Also called brachymetropia or near-sightedness. See also anomalous myopia. Compare emmetropia, hyperopia, PRESBYOPIA. myope or myops $n$. A short-sighted person. myopic adj. Short-sighted. \[From Greek myops short-sighted, from myein to close + ops an eye + -ia indicating a condition or quality]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

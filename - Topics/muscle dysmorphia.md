@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A form of body dysmorphic disorder, primarily affecting men but also occasionally women, characterized by pathological concern about being physically puny or insufficiently muscular. People with this disorder typically wear baggy clothes to disguise their body shapes, lift weights, follow strict diets, exercise compulsively, and sometimes take anabolic steroids in an effort to increase their muscle development, and in severe cases, social and occupational activities are impaired. The term was introduced by US psychiatrist Harrison G. Pope, Jr (born 1947) and several colleagues in an article in the journal Psychosomatics in 1997. Sometimes called reverse anorexia nervosa, because individuals with muscle dysmorphia typically perceive themselves as small even when they are actually large and muscular. See also Adonis complex, bigorexia. Compare anorexia nervosa. \[From Latin musculus a little mouse, diminutive of mus a mouse, alluding to the supposed resemblance of some muscles to mice, + Greek dys- bad or abnormal + morphe form + -ia indicating a condition or quality]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

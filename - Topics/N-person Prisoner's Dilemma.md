@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The first and most fundamental type of multi-person social dilemma, a generalization of the Prisoner's Dilemma game to include more than two players, discovered simultaneously and independently in 1973 by the US psychologist Robyn Mason Dawes (1936-2010), the US mathematician Henry J. Hamburger (born 1940), and the US economist Thomas C. Schelling (born 1921). It is an interactive decision involving three or more players who each face a choice between a cooperative strategy (2) labelled $C$ and a non-cooperative or defecting strategy labelled $D$. The payoff structure is such that $D$ is a dominant strategy for each player in the sense that each player obtains a better payoff by choosing $D$ than $C$ no matter how many of the other players choose $C$; but the outcome if all players choose their dominated $C$ strategies is preferable from every player's point of view to the outcome if everyone chooses D. Apart from the Prisoner's Dilemma game, which is a special (two-person) case, the simplest example is the three-person game in which, if three players choose $C$, then each gets a payoff of 3 ; if two players choose $C$, then each $C$-chooser gets 2 and the $D$-chooser gets 4 ; if one player chooses $C$, then the $C$-chooser gets 1 and each $D$-chooser gets 3 ; and if no player chooses $C$, then each $D$-chooser gets 2 . See also SURE-THING PRINCIPLE. NPD abbrev.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

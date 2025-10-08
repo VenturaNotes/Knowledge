@@ -120,6 +120,7 @@ print(len(fruits))
 | reverse() | Reverses the order of the list                                               |
 | sort()    | Sorts the list                                                               |
 - Python does not have built-in support for Arrays, but Python Lists can be used instead.
+- #comment If you do not specify the element in `pop()`, then 
 
 ## References
 

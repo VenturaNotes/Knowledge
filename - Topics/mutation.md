@@ -14,8 +14,11 @@ aliases:
 - According to the neutral theory of molecular evolution, the majority of point mutations in DNA are neither useful nor harmful and can spread throughout a population by genetic drift. Mutations that alter phenotypes are generally harmful, but a very small proportion may increase an organism's fitness; these spread through the population over successive generations by natural selection. Mutation is therefore essential for evolution, being the ultimate source of genetic variation. See also COPY NUMBER; MOLECULAR CLOCK; SINGLE NUCLEOTIDE POLYMORPHISM.
 - http://www.dnaftb.org/27/
 	- First of two topics on mutation from the online resource DNA from the Beginning
+## Source[^4]
+- $n$. A change in the genes or chromosomes of a cell, capable of being transmitted to offspring as a heritable alteration of the organism, including a change in an intron. See also back mutation, cis-trans COMPLEMENTATION TEST, DELETION mutation, FRAMESHIFT MUTATION, HOT SPOT, JUMPING GENE, MUTAGEN, NEUTRAL MUTATION, NONSENSE MUTATION, POINT MUTATION, REVERSION, SALTATION (2), SILENT MUTATION. \[From Latin mutare, mutatus to change + -ation indicating a process or condition]
 ## References
 
 [^1]: https://quizizz.com/admin/quiz/5ae31ed16b164f0019047957/biology-vocabulary
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

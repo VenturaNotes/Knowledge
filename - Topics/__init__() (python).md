@@ -86,7 +86,7 @@ class MyClass:
 ## Source [^2]
 - All classes have a function called `__init__()`, which is always executed when the class is being initiated.
 	- #question Isn't the class instantiated, not initiated?
-- Use `__init__()` function to assign values to object properties or other operations necessary to do when the object is being created
+- Use `__init__()` function to assign values tdo object properties or other operations necessary to do when the object is being created
 - Note: The `__init__()` function is called automatically every time the class is being used to create a new object
 	- #question Do you have to always explicitly define an `__init__()` function for a class or does it always work? 
 ### Example of creating a Class

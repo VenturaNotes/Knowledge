@@ -7169,214 +7169,255 @@ Reviewed: false
 	5529. [[morula]]
 	5530. [[mosaic]]
 	
-	5531. Moses illusion
-	5532. Moses test of extreme reaction
-	5533. mossy fibre
+	5531. [[Moses illusion]]
+	5532. [[Moses test of extreme reaction]]
+	5533. [[mossy fibre]]
 	5534. mother, phallic
-	5535. mother complex
-	5536. motherese
-	5537. motile
-	5538. motion-induced blindness
-	5539. motion aftereffect
-	5540. motion capture
+		1. See phallic woman
+	5535. [[mother complex]]
+	5536. [[motherese]]
+	5537. [[motile]]
+	5538. [[motion-induced blindness]]
+	5539. [[motion aftereffect]]
+	5540. [[motion capture]]
 	
 	5541. motion detector
+		1. $n$. Another name for a direction-sensitive neuron.
 	5542. motion parallax
-	5543. motion perspective
-	5544. motion sickness
+		1. $n$. Another name for monocular parallax.
+	5543. [[motion perspective]]
+	5544. [[motion sickness]]
 	5545. motivated error
-	5546. motivation
-	5547. motivational research
-	5548. motoneuron
+		1. n. Another name for a parapraxis.
+	5546. [[motivation]]
+	5547. [[motivational research]]
+	5548. [[motoneuron]]
 	5549. motor aphasia
+		1. See aphasia
 	5550. motor apraxia
+		1. n. Another name for ideomotor apraxia. See apraxia. 
 	
-	5551. motor area
-	5552. motor cortex
-	5553. motor disorders
+	5551. [[motor area]]
+	5552. [[motor cortex]]
+	5553. [[motor disorders]]
 	5554. motor dissociative disorders
-	5555. motor end plate
-	5556. motor nerve
-	5557. motor neuron
-	5558. motor neuron disease
-	5559. motor set
-	5560. motor skills disorder
+		1. See DISSOCIATIVE MOVEMENT DISORDERS.
+	5555. [[motor end plate]]
+	5556. [[motor nerve]]
+	5557. [[motor neuron]]
+	5558. [[motor neuron disease]]
+	5559. [[motor set]]
+	5560. [[motor skills disorder]]
 	
 	5561. motor unit
+		1. n. Another name for a motoneuron
 	5562. movement aftereffect
+		1. n. Another name for motion aftereffec
 	5563. movement detector
-	5564. movement disorders
-	5565. movement illusion
+		1. n. Another name for a direction-sensitive neuron
+	5564. [[movement disorders]]
+	5565. [[movement illusion]]
 	5566. movement parallax
-	5567. movement perception
+		1. n. Another name for monocular parallax
+	5567. [[movement perception]]
 	5568. movement tremor
-	5569. moving average
-	5570. Mozart effect
+		1. n. Another name for intention tremor
+	5569. [[moving average]]
+	5570. [[Mozart effect]]
 	
-	5571. MPP+abbrev.
-	5572. MPPPabbrev.
-	5573. MPTPabbrev.
-	5574. MRIabbrev.
-	5575. MTabbrev.
-	5576. mucous membrane
-	5577. MUDabbrev.
-	5578. muddy children problem
+	5571. [[MPP+]]
+	5572. [[MPPP]]
+	5573. [[MPTP]]
+	5574. [[MRI]]
+	5575. [[MT]]
+	5576. [[mucous membrane]]
+	5577. [[MUD]]
+	5578. [[muddy children problem]]
 	5579. muina
-	5580. Müller-Lyer illusion
+		1. See bilis
+	5580. [[Müller-Lyer illusion]]
 	
-	5581. Müllerian duct
-	5582. Müllerian inhibiting substance
-	5583. Müllerian mimicry
-	5584. multi-attribute decision making
+	5581. [[Müllerian duct]]
+	5582. [[Müllerian inhibiting substance]]
+	5583. [[Müllerian mimicry]]
+	5584. [[multi-attribute decision making]]
 	5585. multi-infarct dementia
+		1. n. Another name for vascular dementia. MID abbrev.
 	5586. multi-rater feedback
+		1. n. Another name for 360-degree feedback. Also called multi-source feedback or multi-source assessment.
 	5587. multi-user dungeon
-	5588. multidimensional scaling
-	5589. multifactorial analysis
-	5590. multifactorial inheritance
+		1. See MUD
+	5588. [[multidimensional scaling]]
+	5589. [[multifactorial analysis]]
+	5590. [[multifactorial inheritance]]
 	
-	5591. multiframe task
+	5591. [[multiframe task]]
 	5592. multimodal therapy
-	5593. multiple-choice
-	5594. multiple comparisons
-	5595. multiple correlation coefficientR
+		1. n. Another name for vascular dementia. MID abbrev.
+	5593. [[multiple-choice]]
+	5594. [[multiple comparisons]]
+	5595. [[multiple correlation coefficient R]]
 	5596. multiple determination
-	5597. multiple intelligences
+		1. $n$. In psychoanalysis, another name for overdetermination.
+	5597. [[multiple intelligences]]
 	5598. multiple linear regression analysis
+		1. See multiple regression.
 	5599. multiple line graph
+		1. See line graph
 	5600. multiple personality disorder
+		1. n. Another name for dissociative identity disorder. MPD abbrev.
 	
-	5601. multiple range test
-	5602. multiple regression
-	5603. multiple sclerosis
-	5604. multiplicative model
-	5605. multipolar neuron
-	5606. multistage cluster sampling
-	5607. multitrait-multimethod matrix
-	5608. multivariate analysis of variance
-	5609. multivariate statistics
-	5610. multiway frequency analysis
+	5601. [[multiple range test]]
+	5602. [[multiple regression]]
+	5603. [[multiple sclerosis]]
+	5604. [[multiplicative model]]
+	5605. [[multipolar neuron]]
+	5606. [[multistage cluster sampling]]
+	5607. [[multitrait-multimethod matrix]]
+	5608. [[multivariate analysis of variance]]
+	5609. [[multivariate statistics]]
+	5610. [[multiway frequency analysis]]
 	
 	5611. Munchausen by proxy syndrome
+		1. $n$. Another name for factitious disorder imposed on another; named after the disorder of Munchausen syndrome, but not itself a mental disorder or syndrome according to the British paediatrician (Samuel) Roy (later Sir Roy) Meadow (born 1933) who named it in 1977. Also called Münchhausen syndrome by proxy. MBPS abbrev.
 	5612. Munchausen syndrome
-	5613. Munsell colour system
-	5614. Münsterberg illusion
-	5615. muscarine
-	5616. muscarinic receptor
-	5617. muscimol
-	5618. muscle
-	5619. muscle dysmorphia
-	5620. muscle relaxant
+		1. $n$. Another name for factitious disorder. Also spelt Münchhausen syndrome, especially in continental Europe, and more correctly in terms of its etymology. Also called pathomimicry. See also COUVade, Munchausen by proxy syndrome. Compare compensation NEUROSIS, MALINGERING, PSEUDOLOGIA FANTASTICA. \[First described and named, with the misspelling that has been widely adopted, by the British physician Richard (Alan John) Asher (1912-69) in a three-page article in the Lancet in 1951, alluding to Baron Münchhausen, a teller of tall stories in the fiction of the German novelist Rudolf Erich Raspe (1737-94), published in 1785, based on a real Baron Münchhausen (1720-97) who served in the Russian army fighting against the Turks and is said to have recounted extravagant tales of his prowess]
+	5613. [[Munsell color system]]
+	5614. [[Münsterberg illusion]]
+	5615. [[muscarine]]
+	5616. [[muscarinic receptor]]
+	5617. [[muscimol]]
+	5618. [[muscle]]
+	5619. [[muscle dysmorphia]]
+	5620. [[muscle relaxant]]
 	
-	5621. muscle sense
-	5622. muscle spindle
-	5623. muscular dystrophy
+	5621. [[muscle sense]]
+	5622. [[muscle spindle]]
+	5623. [[muscular dystrophy]]
 	5624. mush
-	5625. music therapy
-	5626. mutagen
-	5627. mutant
-	5628. mutation
-	5629. mutism
-	5630. mutual gaze
+		1. $n$. A street name for the liberty cap mushroom. \[Abbreviation of mushroom and also descriptive of the psychological state that it induces]
+	5625. [[music therapy]]
+	5626. [[mutagen]]
+	5627. [[mutant]]
+	5628. [[mutation]]
+	5629. [[mutism]]
+	5630. [[mutual gaze]]
 	
-	5631. mu wave
-	5632. myalgic encephalomyelitis
-	5633. myasthenia gravis
-	5634. myelencephalon
-	5635. myelin
-	5636. Myers-Briggs Type Indicator
-	5637. myoclonic
-	5638. myofibril
-	5639. myopia
-	5640. myosin
+	5631. [[mu wave]]
+	5632. [[myalgic encephalomyelitis]]
+	5633. [[myasthenia gravis]]
+	5634. [[myelencephalon]]
+	5635. [[myelin]]
+	5636. [[Myers-Briggs Type Indicator]]
+	5637. [[myoclonic]]
+	5638. [[myofibril]]
+	5639. [[myopia]]
+	5640. [[myosin]]
 	
 	5641. myostatic reflex
-	5642. myotonia
+		1. $n$. Another name for a stretch reflex. See also DEEP TENDON REFLEX. \[From Greek mys a muscle + statikos bringing to a standstill, from histanai to cause to stand or to weigh in a balance + -itikos resembling or marked by]
+	5642. [[myotonia]]
 	5643. myriachit
-	5644. myristin
-	5645. mystery customer research
+		1. $n$. The name usually given to the version of latah found in Siberia. \[From Russian myriachit to fool or play the fool]
+	5644. [[myristin]]
+	5645. [[mystery customer research]]
 	5646. myth, urban
-	5647. N-person Prisoner's Dilemma
-	5648. N140abbrev.
-	5649. N400
-	5650. naive participant
+		1. See urban legend.
+	5647. [[N-person Prisoner's Dilemma]]
+	5648. [[N140]]
+	5649. [[N400]]
+	5650. [[naive participant]]
 	
 	5651. naive physics
-	5652. naive realism
+		1. n. Another name for intuitive physics.
+	5652. [[naive realism]]
 	5653. naive subject
-	5654. nalorphine
-	5655. naloxone
-	5656. naltrexone
-	5657. name-letter effect
-	5658. NANCabbrev.
-	5659. nandrolone
-	5660. nanometre
+		1. See naive participant
+	5654. [[nalorphine]]
+	5655. [[naloxone]]
+	5656. [[naltrexone]]
+	5657. [[name-letter effect]]
+	5658. [[NANC]]
+	5659. [[nandrolone]]
+	5660. [[nanometre]]
 	
-	5661. narcissism
+	5661. [[narcissism]]
 	5662. narcissistic libido
-	5663. narcissistic neurosis
-	5664. narcissistic object-choice
-	5665. narcissistic personality disorder
-	5666. narcoanalysis
-	5667. narcolepsy
-	5668. narcosis
+		1. n. Another name for ego libido.
+	5663. [[narcissistic neurosis]]
+	5664. [[narcissistic object-choice]]
+	5665. [[narcissistic personality disorder]]
+	5666. [[narcoanalysis]]
+	5667. [[narcolepsy]]
+	5668. [[narcosis]]
 	5669. narcosynthesis
-	5670. narcotherapy
+		1. $n$. Another name for narcoanalysis, especially when the explicit goal is the reintegration of the patient's personality. Compare NARCOTHERAPY. \[A blend of narco(tic) and syntheses]
+	5670. [[narcotherapy]]
 	
-	5671. narcotic
-	5672. narcotic analgesic
-	5673. narcotic antagonist
-	5674. narrative psychology
-	5675. narrative psychotherapy
+	5671. [[narcotic]]
+	5672. [[narcotic analgesic]]
+	5673. [[narcotic antagonist]]
+	5674. [[narrative psychology]]
+	5675. [[narrative psychotherapy]]
 	5676. narrow heritability
-	5677. nasal
+		1. See heritability
+	5677. [[nasal]]
 	5678. nasal epithelium
-	5679. nasal hemianopia
-	5680. nasal retina
+		1. n. Another name for the olfactory epithelium.
+	5679. [[nasal hemianopia]]
+	5680. [[nasal retina]]
 	
-	5681. Nash equilibrium
-	5682. National Intelligence Test
-	5683. nativism
-	5684. NATO phonetic alphabet
+	5681. [[Nash equilibrium]]
+	5682. [[National Intelligence Test]]
+	5683. [[nativism]]
+	5684. [[NATO phonetic alphabet]]
 	5685. natural-level category
-	5686. natural category
-	5687. naturalistic fallacy
-	5688. naturalistic observation
-	5689. natural language
-	5690. natural selection
+		1. $n$. Another name for a basic-level category. Also called a natural-level concept.
+	5686. [[natural category]]
+	5687. [[naturalistic fallacy]]
+	5688. [[naturalistic observation]]
+	5689. [[natural language]]
+	5690. [[natural selection]]
 	
-	5691. nature-nurture controversy
+	5691. [[nature-nurture controversy]]
 	5692. Navane
-	5693. Navon figure
-	5694. near-death experience
+		1. $n$. A proprietary name for the neuroleptic drug thiothixene. \[Trademark]
+	5693. [[Navon figure]]
+	5694. [[near-death experience]]
 	5695. near-sightedness
-	5696. nearest neighbour method
-	5697. near point
-	5698. near sense
-	5699. near vision
+		1. n. A non-technical name for myopia.
+	5696. [[nearest neighbor method]]
+	5697. [[near point]]
+	5698. [[near sense]]
+	5699. [[near vision]]
 	5700. nebbies
+		1. $n$. A street name for the barbiturate drug pentobarbital (pentobarbitone)
 	
-	5701. Necker cube
-	5702. necromania
-	5703. necrophilia
-	5704. need
-	5705. need-hierarchy theory
-	5706. need-press
-	5707. need complementarity hypothesis
-	5708. need for achievement
-	5709. need for affiliation
+	5701. [[Necker cube]]
+	5702. [[necromania]]
+	5703. [[necrophilia]]
+	5704. [[need]]
+	5705. [[need-hierarchy theory]]
+	5706. [[need-press]]
+	5707. [[need complementarity hypothesis]]
+	5708. [[need for achievement]]
+	5709. [[need for affiliation]]
 	5710. neencephalon
+		1. n. Another name for the neocortex.
 	
-	5711. negation
-	5712. negative adaptation
-	5713. negative afterimage
-	5714. negative capability
+	5711. [[negation]]
+	5712. [[negative adaptation]]
+	5713. [[negative afterimage]]
+	5714. [[negative capability]]
 	5715. negative feedback
+		1. See feedback
 	5716. negative induction
+		1. See induction (4).
 	5717. negative Oedipus complex
-	5718. negative practice
-	5719. negative priming
-	5720. negative reference group
+		1. See oedipus complex
+	5718. [[negative practice]]
+	5719. [[negative priming]]
+	5720. [[negative reference group]]
 	
 	5721. negative reinforcement
 	5722. negative symptoms

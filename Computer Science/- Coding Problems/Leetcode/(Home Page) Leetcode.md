@@ -13,7 +13,7 @@ Reviewed: false
 	- [[(217) Contains Duplicate]]
 	- [[(242) Valid Anagram]]
 	- [[(49) Group Anagrams]]
-
+	- [[(35) Search Insert Position]]
 - Incomplete
 	- [[(2) Add Two Numbers]]
 	- [[(3) Longest Substring Without Repeating Characters]]
@@ -47,7 +47,6 @@ Reviewed: false
 	- [[(32) Longest Valid Parentheses]]
 	- [[(33) Search in Rotated Sorted Array]]
 	- [[(34) Find First and Last Position of Element in Sorted Array]]
-	- [[(35) Search Insert Position]]
 	- [[(36) Valid Sudoku]]
 	- [[(37) Sudoku Solver]]
 	- [[(38) Count and Say]]
@@ -1968,3 +1967,5 @@ Reviewed: false
 	- [[(2471) Minimum Number of Operations to Sort a Binary Tree by Level]]
 	- [[(2472) Maximum Number of Non-overlapping Palindrome Substrings]]
 	
+- Additional
+	- [[(3038) Maximum Number of Operations with the Same Score I]]
