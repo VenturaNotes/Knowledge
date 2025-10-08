@@ -7,7 +7,10 @@
 - Although most psychologists now believe that human needs and motives are too variable to be confined to a fixed hierarchy, these theories have the merit of emphasizing that, besides goals, ambitions, and rewards, there is a need for success to be recognized by others and a need to develop and progress. A person in an organization never works in a vacuum; there can be a real conflict between different motivations that relate to the organization: Would I be worse paid working elsewhere? But would I be more secure/better trained/more appreciated elsewhere? See ACHIEVEMENT MOTIVATION THEORY; ALIENATION; THEORY X AND THEORY Y; THEORY Z; VALENCE-INSTRUMENTALITY-EXPECTANCY THEORY.
 ## Source[^2]
 - The internal conditions responsible for temporary reversible changes in the responsiveness of an animal to external stimulation. Thus an animal that has been deprived of food will accept less palatable food than one that has not been deprived: the difference is attributed to a change in feeding motivation. Changes in responsiveness due to maturation, learning, or injury are not usually readily reversible and are therefore not considered to be due to changes in motivation. Early attempts to describe motivation in terms of a number of separate drives (e.g. food drive, sex drive) have not found general favour, partly because drives interact with one another; for example, water deprivation often affects an animal's willingness to feed.
+## Source[^3]
+- $n$. A driving force or forces responsible for the initiation, persistence, direction, and vigour of goal-directed behaviour. It includes the biological drives such as hunger, thirst, sex, and self-preservation, and also social forms of motivation such as need for achievement and need for affiliation. motivational adj. \[From Latin motivus moving, from motus moved, from movere to move + -ation indicating a process or condition]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

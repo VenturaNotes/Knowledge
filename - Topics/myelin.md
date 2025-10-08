@@ -22,8 +22,11 @@
 		- axon
 ## Source[^3]
 - A phospholipid produced by the Schwann cells of the nervous system. Myelin forms an insulating layer around the nerve fibres (see MYELIN SHEATH).
+## Source[^4]
+- $n$. White lipid-based tissue produced by oligodendrocytes in the central nervous system and by Schwann cells in the peripheral nervous system, forming a protective covering called a myelin sheath around the neural axons. Damage to the myelin sheath is found in neurological disorders such as multiple sclerosis. See also neurolemma. myelinated adj. Having a myelin sheath. \[From Greek myelos marrow or spinal cord + -in(e) indicating an organic compound]
 ## References
 
 [^1]: [[(25) 2-Minute Neuroscience - Myelin]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -47,6 +47,8 @@ aliases:
 - $n$. Any well-defined computational procedure that takes a value or set of values as input and, after a finite sequence of computational steps, produces a value or set of values as output. Computer programs are the most familiar examples of algorithms, and another useful definition of an algorithm is any operation that can be carried out by a Turing machine. Also, more generally and informally, any step-by-step procedure for finding the unique solution to a problem. Compare heuristic. \[From Arabic alKhwārazmi a native of Khwārazm (Khiva), the name by which the ninth-century Arab mathematician Abu Ja'far Mohommed ben Musa came to be known]
 ## Source[^10]
 - $n$. a sequential set of instructions used in calculations or problem solving. A reconstruction algorithm is a complex mathematical formula used by a computer to construct images from the data acquired by CT, MRI, or other scanners. A diagnostic algorithm or a therapeutic algorithm consists of a stepwise series of instructions with branching pathways to be followed to assist a physician in coming to a diagnosis or deciding on a management strategy, respectively.
+## Source[^11]
+- Method for solving a problem
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
@@ -59,3 +61,4 @@ aliases:
 [^8]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^9]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^10]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^11]: [[(Home Page) Algorithms, Part I by by Princeton University#1 2 Lecture Slides]]

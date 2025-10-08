@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A finding, first reported in 1991 by the French otolaryngologist Alfred A. Tomatis (1920-2001) in a book entitled Pourquoi Mozart? (Why Mozart?), and then supported in an article in the journal Nature in 1993, that listening to compositions by Mozart increases scores on tests of spatial ability for a short while. In the original experiment, college students were given various tests after experiencing each of the following for ten minutes: listening to Mozart's sonata for two pianos in D major K488, listening to a relaxation tape, or silence. Performance on the paper-folding subtest of the Stanford-Binet intelligence scale was significantly better after listening to Mozart than after the other two treatments, but the effect dissipated after about 15 minutes, and other (nonspatial) tasks were unaffected. The finding has been contested by other researchers and has been widely misinterpreted to imply that listening to Mozart (or listening to classical music) increases one's intelligence. Several independent research studies have shown that children who receive extensive training in musical performance achieve significantly higher average scores on tests of spatial ability, but that long-term consequence is not the Mozart effect. \[Named after the Austrian composer Wolfgang Amadeus Mozart (1756-91)]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
