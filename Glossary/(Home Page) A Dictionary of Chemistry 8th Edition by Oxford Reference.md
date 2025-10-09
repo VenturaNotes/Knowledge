@@ -1224,7 +1224,7 @@ Reviewed: false
 	1202. confocal microscopy
 	1203. conformation
 	1204. [[conformational analysis]]
-	1205. conformational isomer
+	1205. [[conformational isomer]]
 	1206. congeners
 	1207. conical intersection
 	1208. conjugate acidorbase
@@ -1232,12 +1232,12 @@ Reviewed: false
 	1210. conjugated
 	1211. conjugate solutions
 	1212. conjugation
-	1213. connection table
+	1213. [[connection table]]
 	1214. conservation
 	1215. conservation law
 	1216. consolute temperature
 	1217. constant-boiling mixture
-	1218. constantan
+	1218. [[constantan]]
 	1219. constant proportions
 	1220. constitutional isomerism
 	1221. contact insecticide
