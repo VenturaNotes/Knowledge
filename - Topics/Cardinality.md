@@ -59,6 +59,8 @@ $$
   
 
 since the real numbers can be put in bijective correspondence with the set of all subsets of natural numbers.
+## Source[^8]
+- For a finite set $A$, the cardinality of $A$, denoted by $|A|$, is the number of elements in $A$. The notation $\# A$ or $n(A)$ is also used. For sets $A, B$,$$||A \cup B||=||A||+||B||-||A \cap B|| .$$See also INCLUSION-EXCLUSION PRINCIPLE.
 ## References
 
 [^1]: [[(Video) Elementary Set Theory in 49 minutes by Dennis Davis#^085ddd]]
@@ -68,3 +70,4 @@ since the real numbers can be put in bijective correspondence with the set of al
 [^5]: ChatGPT
 [^6]: [[(Home Page) Glossary by ada computer science]]
 [^7]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^8]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

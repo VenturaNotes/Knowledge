@@ -22,6 +22,10 @@ to $[A, C]$. The image $\beta^{\circ} \alpha$ of the ordered pair $(\beta, \alph
   
 
 Examples of categories include the set of groups and homomorphisms on groups, and the set of rings and homomorphisms on rings. See FUNCTION.
+
+## Source[^2]
+- A category is a class of objects, together with morphisms between objects, such that composition of morphisms is associative, and an identity morphism $1_{X}$ exists for each object $X$. Category theory is an alternative approach to set theory when studying the foundations of mathematics. As an example, the class of sets as the objects, with morphisms being functions, makes a category; note there is no 'set of all sets'.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
