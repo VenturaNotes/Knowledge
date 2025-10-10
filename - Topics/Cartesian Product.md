@@ -64,8 +64,13 @@ $$
 S \times S \times \ldots S(n \text { terms })
 
 $$
+## Source[^4]
+- The Cartesian product $A \times B$, of sets $A$ and $B$, is the set of all ordered pairs $(a, b)$, where $a \in A$ and $b \in B$. More generally, for sets $A_{1}, A_{2}, \ldots, A_{n}$, the Cartesian product $A_{1} \times A_{2} \times \ldots \times A_{n}$ can be defined as the set of ordered $n$-tuples $\left(a_{1}, a_{2}, \ldots, a_{n}\right)$ where $a_{i}$ $\in A_{i}$ for each $i$.
+- ![[Screenshot 2025-10-09 at 12.08.45 AM.png|300]]
+- The Cartesian product $A \times B$
 ## References
 
 [^1]: [[(1) Introduction to Counting Using Additive and Multiplicative Principles]]
 [^2]: [[(Home Page) Glossary by ada computer science]]
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

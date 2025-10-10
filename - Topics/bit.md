@@ -5,7 +5,8 @@ aliases:
   - binary digits
 ---
 ## Synthesis
-- 
+### Description
+- A value of 0 or 1
 ## Source [^1]
 - A bit is also known as a binary digit
 - It is the smallest unit of data that a computer can process and store
