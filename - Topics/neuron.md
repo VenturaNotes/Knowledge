@@ -63,6 +63,8 @@ aliases:
 		- axon
 		- Nissl granules
 		- Cell body
+## Source[^6]
+- $n$. A nerve cell specialized to transmit nerve impulses in the form of action potentials, the basic functional unit of the nervous system, normally consisting of a cell body or soma together with dendrites receiving signals from other neurons via synapses (1), typical neurons being involved in 1,000-10,000 synapses, and an axon ranging in length from 3 micrometres to more than a metre, often splitting into many branches near its end, transmitting signals away from the soma to one or more other neurons, a muscle, or a gland. Often confused with a nerve, which has no cell bodies or somata and is made up of bundles of axons. Also spelt neurone. See basket Cell, Betz Cell, bipolar Cell, Golgi Cell, granule Cell, horizontal Cell, interneuron, Merkel Cell, mirror neuron, mitral Cell, MOTOR NEURON, multiPOLAR NEURON, NON-OPPONENT CELL, opponent Cell, pACEMAKER NEURON, PurkinJe Cell, PYRAMIDAL CELL, RENSHAW CELL, SENSORY NEURON, SPINDLE CELL, SPIRAL GANGLION CELL, STELLATE CELL, UNIPOLAR NEURON. See also CYTOSKELETON, MICROTUBULE, POSTSYNAPTIC, PRESYNAPTIC. neuronal adj. \[Greek neuron a nerve]
 ## References
 
 [^1]: Gemini
@@ -70,3 +72,4 @@ aliases:
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

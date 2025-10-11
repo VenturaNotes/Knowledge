@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A form of psychotherapy and a model of interpersonal communication in the tradition of humanistic psychology, based on elements of transformational grammar and preferred sensory representations for learning and self-expression, introduced by the US trainer Richard (Wayne) Bandler (born 1950) and the US linguist and psychologist John Grinder (born 1940), first published in 1975 in books entitled The Structure of Magic and Patterns of the Hypnotic Techniques of Milton H. Erickson. It focuses chiefly on the relationship between successful patterns of behavior and the patterns of thought and other subjective experiences underlying them, and the associated psychotherapy seeks to educate people in self-awareness and effective communication, and to change their patterns of thought and behavior. The term neuro-linguistic programming first appeared in print in 1976 as the title of a book by Grinder, Bandler, and the US psychotherapist Virginia Satir (1916-88). NLP abbrev. \[From Greek neuron a nerve + Latin lingua a tongue + icus of, relating to, or resembling + pro before + Greek gramma a letter from graphein to write]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

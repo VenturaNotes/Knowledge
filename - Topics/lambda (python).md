@@ -3,18 +3,6 @@ aliases:
   - lambda
 ---
 ## Synthesis
-- 
-## Source [^1]
-```python
-# Create a lambda function that takes one paramater (a) and returns it
-x = lambda a : a
-print(x(3)) #Output: 3
-```
-#question I need some more definitions and examples of lambda. Don't fully understand it or why it's named that way.
-#question Is lambda always considered a function? 
-
-## Source[^2]
-
 ### Is Lambda always considered a function?
 - A `lambda` expression creates an anonymous (unnamed) function
 	- These functions are syntactically restricted to a single expression and often used for short, simple operations that are needed temporarily.
@@ -79,7 +67,14 @@ print(sorted_names)  # Output: ['Bob', 'Alice', 'Charlie']
 	- Since lambda functions are anonymous, it can be harder to debug them compared to named functions
 - Single expression
 	- Lambda functions limited to a single expression. Can't contain multiple statements or complex logic
+## Source [^1]
+```python
+# Create a lambda function that takes one paramater (a) and returns it
+x = lambda a : a
+print(x(3)) #Output: 3
+```
+#question I need some more definitions and examples of lambda. Don't fully understand it or why it's named that way.
+#question Is lambda always considered a function? 
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_lambda1
-[^2]: ChatGPT

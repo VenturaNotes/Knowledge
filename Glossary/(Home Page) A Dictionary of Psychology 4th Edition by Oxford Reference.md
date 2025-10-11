@@ -7419,126 +7419,150 @@ Reviewed: false
 	5719. [[negative priming]]
 	5720. [[negative reference group]]
 	
-	5721. negative reinforcement
-	5722. negative symptoms
-	5723. negative therapeutic reaction
-	5724. negative transfer
-	5725. negative transference
-	5726. negativism
+	5721. [[negative reinforcement]]
+	5722. [[negative symptoms]]
+	5723. [[negative therapeutic reaction]]
+	5724. [[negative transfer]]
+	5725. [[negative transference]]
+	5726. [[negativism]]
 	5727. negativistic personality disorder
-	5728. neglect dyslexia
+		1. n. Another name for passive-aggressive personality disorder.
+	5728. [[neglect dyslexia]]
 	5729. Nembutal
-	5730. nemesism
+		1. $n$. A proprietary name for the barbiturate drug pentobarbital (pentobarbitone). \[Trademark]
+	5730. [[nemesism]]
 	
-	5731. NEOabbrev.
+	5731. [[NEO]]
 	5732. neo-catastrophism
-	5733. neo-Darwinism
-	5734. neo-Freudian
-	5735. neo-Lamarckism
-	5736. neobehaviourism
-	5737. neocerebellum
-	5738. neocortex
-	5739. neodissociation theory
-	5740. neologism
+		1. See catastrophism (1)
+	5733. [[neo-Darwinism]]
+	5734. [[neo-Freudian]]
+	5735. [[neo-Lamarckism]]
+	5736. [[neobehaviourism]]
+	5737. [[neocerebellum]]
+	5738. [[neocortex]]
+	5739. [[neodissociation theory]]
+	5740. [[neologism]]
 	
-	5741. Neonatal Behavioral Assessment Scale
-	5742. neonate
+	5741. [[Neonatal Behavioral Assessment Scale]]
+	5742. [[neonate]]
 	5743. neopallium
-	5744. neostriatum
-	5745. neoteny
-	5746. neothalamus
-	5747. nepetalactone
-	5748. nephron
+		1. n. Another name for the neocortex. \[From Latin neo new + pallium a cloak]
+	5744. [[neostriatum]]
+	5745. [[neoteny]]
+	5746. [[neothalamus]]
+	5747. [[nepetalactone]]
+	5748. [[nephron]]
 	5749. nerfiza
-	5750. Nernst heat theorem
+		1. See nervios.
+	5750. [[Nernst heat theorem]]
 	
-	5751. nerve
+	5751. [[nerve]]
 	5752. nerve cell
-	5753. nerve conduction velocity
+		1. n. A neuron
+	5753. [[nerve conduction velocity]]
 	5754. nerve deafness
-	5755. nerve ending
+		1. n. Another name for sensorineural deafness.
+	5755. [[nerve ending]]
 	5756. nerve fibre
-	5757. nerve gas
-	5758. nerve growth factor
-	5759. nerve impulse
-	5760. nervios
+		1. $n$. An axon. US nerve fiber. See alpha fibre, association fibre, C fibre, climbing fibre, delta fibre, gamma fibre, Ia fibre, Ib fibre, II fibre, MOSSY FIBRE.
+	5757. [[nerve gas]]
+	5758. [[nerve growth factor]]
+	5759. [[nerve impulse]]
+	5760. [[nervios]]
 	
-	5761. nervous
-	5762. nervous breakdown
-	5763. nervous system
-	5764. net benefit index
-	5765. net reaction potential
-	5766. network model
-	5767. neural
+	5761. [[nervous]]
+	5762. [[nervous breakdown]]
+	5763. [[nervous system]]
+	5764. [[net benefit index]]
+	5765. [[net reaction potential]]
+	5766. [[network model]]
+	5767. [[neural]]
 	5768. neural adaptation
+		1. n. Another name for field adaptation
 	5769. neural computer
-	5770. neural Darwinism
+		1. n. Another name for a neurocomputer
+	5770. [[neural Darwinism]]
 	
-	5771. neuralgia
-	5772. neural network
-	5773. neurasthenia
+	5771. [[neuralgia]]
+	5772. [[neural network]]
+	5773. [[neurasthenia]]
 	5774. neurilemma
-	5775. neurite
-	5776. neuro-linguistic programming
-	5777. neurobiology
-	5778. neuroblast
-	5779. neurochip
+		1. n. A variant spelling of neurolemma.
+	5775. [[neurite]]
+	5776. [[neuro-linguistic programming]]
+	5777. [[neurobiology]]
+	5778. [[neuroblast]]
+	5779. [[neurochip]]
 	5780. neurocognitive disorder due to HIV infection
+		1. $n$. A neurocognitive disorder in DSM-5 associated with HIV dementia.
 	
 	5781. neurocognitive disorder due to Huntington's disease
+		1. n. A neurocognitive disorder in DSM-5 associated with Huntington's disease.
 	5782. neurocognitive disorder due to Parkinson's disease
+		1. $n$. A neurocognitive disorder in DSM-5 associated with Parkinson's disease.
 	5783. neurocognitive disorder due to prion disease
+		1. $n$. A neurocognitive disorder in DSM-5 associated with prion diseases, including Creutzfeldt-Jakob disease, fatal familial insomnia (FFI), Gerstmann-Sträussler-Scheinker syndrome (GSS), and kuru.
 	5784. neurocognitive disorder due to traumatic brain injury
-	5785. neurocognitive disorders
+		1. n. A neurocognitive disorder in DSM-5 associated with traumatic brain injury.
+	5785. [[neurocognitive disorders]]
 	5786. neurocognitive disorder with Lewy bodies
-	5787. neurocomputer
-	5788. neurodevelopmental disorders
-	5789. neuroeconomics
-	5790. neuroendocrine
+		1. $n$. A neurocognitive disorder in DSM-5 associated with Lewy body dementia.
+	5787. [[neurocomputer]]
+	5788. [[neurodevelopmental disorders]]
+	5789. [[neuroeconomics]]
+	5790. [[neuroendocrine]]
 	
-	5791. neuroendocrine cell
-	5792. neuroendocrine system
-	5793. neuroendocrinology
-	5794. neuroergonomics
-	5795. neurofibril
-	5796. neurofibrillary tangle
-	5797. neurofilament
-	5798. neurogenesis
-	5799. neuroglia
+	5791. [[neuroendocrine cell]]
+	5792. [[neuroendocrine system]]
+	5793. [[neuroendocrinology]]
+	5794. [[neuroergonomics]]
+	5795. [[neurofibril]]
+	5796. [[neurofibrillary tangle]]
+	5797. [[neurofilament]]
+	5798. [[neurogenesis]]
+	5799. [[neuroglia]]
 	5800. neurogram
+		1. $n$. Another name for an engram or a memory trace. \[A blend of neural and engram]
 	
-	5801. neurohormone
+	5801. [[neurohormone]]
 	5802. neurohumour
-	5803. neurohypophysis
+		1. $n$. Another name for a neurohormone. US neurohumor. \[From Greek neuron a nerve + Latin umere to be moist]
+	5803. [[neurohypophysis]]
 	5804. neuroimaging
-	5805. neurolemma
-	5806. neuroleptic
-	5807. neuroleptic-induced
-	5808. neurolinguistics
-	5809. neurology
+		1. n. Another name for brain imaging.
+	5805. [[neurolemma]]
+	5806. [[neuroleptic]]
+	5807. [[neuroleptic-induced]]
+	5808. [[neurolinguistics]]
+	5809. [[neurology]]
 	5810. neurolymph
+		1. $n$. Another name for cerebrospinal fluid. \[From Greek neuron a nerve + Latin lympha water]
 	
-	5811. neurometrics
-	5812. neuromodulation
-	5813. neuromodulator
-	5814. neuromuscular junction
-	5815. neuron
-	5816. neuronal oscillator
+	5811. [[neurometrics]]
+	5812. [[neuromodulation]]
+	5813. [[neuromodulator]]
+	5814. [[neuromuscular junction]]
+	5815. [[neuron]]
+	5816. [[neuronal oscillator]]
 	5817. neuronal transplantation
+		1. See foetal brain transplantation.
 	5818. neuron receptor site
-	5819. neuropathic
-	5820. neuropathology
+		1. n. Another name for a neuroreceptor.
+	5819. [[neuropathic]]
+	5820. [[neuropathology]]
 	
-	5821. neuropathy
-	5822. neuropeptide
-	5823. neurophysiology
-	5824. neuropil
-	5825. neuropsychiatry
-	5826. neuropsychoanalysis
-	5827. neuropsychology
+	5821. [[neuropathy]]
+	5822. [[neuropeptide]]
+	5823. [[neurophysiology]]
+	5824. [[neuropil]]
+	5825. [[neuropsychiatry]]
+	5826. [[neuropsychoanalysis]]
+	5827. [[neuropsychology]]
 	5828. neuropsychosis
-	5829. neuroreceptor
-	5830. neuroregulator
+		1. n. Another name for a psychoneurosis
+	5829. [[neuroreceptor]]
+	5830. [[neuroregulator]]
 	
 	5831. neuroscience
 	5832. neurosis

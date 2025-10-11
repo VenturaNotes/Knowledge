@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - (NGF) a protein (see GROWTH FACTOR), consisting of two polypeptide chains, that is required for the development and longevity of some neurons, including those in the sympathetic nervous system and some central nervous system and sensory neurons. Nerve growth factor is necessary for axon growth and also for initiating new neuronal connections with other cells. The role of NGFs in preventing the degeneration of brain cells is being explored in research into Alzheimer's disease.
+## Source[^2]
+- $n$. A substance that is produced by smooth muscles and other tissues stimulated by neurons and is necessary for the maintenance of sympathetic and sensory neurons. See also apoptosis. NGF abbrev.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

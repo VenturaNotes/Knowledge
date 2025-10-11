@@ -4,7 +4,6 @@ aliases:
 ---
 ## Synthesis
 - #question What is a [[generator (python)|generator]]?
-## Source [^1]
 ### Initializing Variables
 - Variables assigned value directly
 ```python
@@ -70,6 +69,8 @@ squares = [x ** 2 for x in range(5)]  # [0, 1, 4, 9, 16]
 default_dict = dict.fromkeys(["key1", "key2", "key3"], "default_value")
 ```
 #question What is a factory function?
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

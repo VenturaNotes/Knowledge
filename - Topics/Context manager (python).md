@@ -3,8 +3,6 @@ aliases:
   - context manager
 ---
 ## Synthesis
-- 
-## Source [^1]
 ### Protocol
 - For an object to be used with the [[with (python)|with]] statement, it must implement two special methods: [[__enter__() (python)|__enter__()]] and [[__exit__() (python)|__exit__()]]
 	- #question What is the enter and exit methods here?
@@ -97,7 +95,9 @@ Entering the context
 Inside the context
 Exiting the context
 ```
+## Source[^1]
+- 
 
 ## References
 
-[^1]: ChatGPT
+[^1]: 
