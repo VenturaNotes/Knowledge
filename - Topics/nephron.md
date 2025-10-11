@@ -28,7 +28,10 @@
 		- Bowman's capsule
 		- arteriole
 		- distal convoluted tubule
+## Source[^3]
+- $n$. Any of the tiny tubules of the kidney that filter blood to produce urine. \[From Greek nephros a kidney]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

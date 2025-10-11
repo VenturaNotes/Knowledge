@@ -17,7 +17,10 @@ aliases:
 		- fascicle (a group of nerve fibres)
 ## Source[^2]
 - A strand of tissue comprising many nerve fibres plus supporting tissues (see GLIA), enclosed in a connective-tissue sheath. Nerves connect the central nervous system with the organs and tissues of the body. A nerve may carry only motor nerve fibres (motor nerve) or only sensory fibres (sensory nerve) or it may be mixed and carry both types (mixed nerve). Although the nerve fibres are in close proximity within the nerve, their physiological responses are independent of each other.
+## Source[^3]
+- $n$. A cordlike band of axon fibres that transmits impulses of sensation (if it is an afferent nerve) or movement (if it is an efferent nerve) between a sensory receptor and the central nervous system, or between the central nervous system and a muscle or gland. It is often confused with a neuron, which has a soma and only one axon. See cranial nerve, spinal nerve. \[From Latin nervus a nerve, from Greek neuron a nerve]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

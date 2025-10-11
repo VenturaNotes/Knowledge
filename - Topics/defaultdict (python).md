@@ -3,8 +3,6 @@ aliases:
   - defaultdict
 ---
 ## Synthesis
-- 
-## Source [^1]
 - A subclass of the built-in [[dictionary (Python)|dict]] class.
 	- #question What are others subclasses for the built-in `dict` class? Definitions and examples would be very helpful. 
 - `defaultdict` overrides the `__missing__()` method of `dict`, so when a key is missing, it doesn't raise a `KeyError`; instead, it uses the provided default factory (e.g., `list`, `int`) to create a default value
@@ -71,6 +69,9 @@ for s in strs:
 	- #question what is boilerplate code?
 	- #question How does it reduce the risk of `KeyError` that `if key not in res` is unable to do?
 - #question How does `defaultdict` handle missing keys?
+
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

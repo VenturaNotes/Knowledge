@@ -3,8 +3,6 @@ aliases:
   - polib
 ---
 ## Synthesis
-- 
-## Source [^1]
 - A library to parse and handle gettext files (PO, MO)
 	- #question what is (PO, MO)
 	- #question What kind of files are gettext?
@@ -17,6 +15,8 @@ for entry in po:
 
 ```
 #question I don't understand the code
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

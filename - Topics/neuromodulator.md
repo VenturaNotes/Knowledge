@@ -3,6 +3,9 @@
 ## Source [^1]
 - (1) (in neurophysiology) A substance released by a nerve cell (neuron) that regulates the activity of other neurons but does not directly stimulate nerve impulses. Typically a neuromodulator is secreted into the intracellular space surrounding the target cells, rather than at synaptic junctions, and alters the excitability or other properties of a group of neurons. Neuromodulators thus work more slowly but have longer-lasting effects than neurotransmitters. However, the distinction between the two can become blurred, especially as some substances can act as both neuromodulator and neurotransmitter, depending on circumstances. Neuromodulators in the brain fall into two main categories: neuropeptides, such as hypocretin, melanin-concentrating hormone, and cortistatin; and the monoamines, such as noradrenaline, dopamine, and serotonin; others include histamine and acetylcholine. The brain's hormonal neurons are located chiefly in the brainstem and central region, but project their axons into many other widespread ('diffuse') parts of the brain to release their neuromodulators. These play important roles in cognition, emotion, and behavior. 
 - (2) (in medicine) Any drug or device that influences the electrical activity of nerves, e.g. to treat pain or depression.
+## Source[^2]
+- $n$. A chemical substance that amplifies or dampens the activities of neurons but is not a neurotransmitter. See also NEUROMODULATION. \[From Greek neuron a nerve + English modulator, from Latin modulari, modulatus to regulate]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
