@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A biogenic amine and one of the catecholamine hormones, chemically related to adrenalin and crucial to the maintenance of alertness, drive, and motivation, synthesized from tyrosine in the presence of the cofactor vitamin C, and secreted by the chromaffin cells of the adrenal medulla, widely distributed between the brainstem and most areas of the cerebral cortex, stimulating the heart muscle to contract, the blood vessels to constrict, the bronchial tracts of the lungs to dilate, and the contractile strength of the skeletal muscles to increase, also functioning as an important neurotransmitter in the sympathetic nervous system and in the central nervous system mainly through circuits originating in the locus coeruleus of the pons and projecting to many areas of the brain, levels of noradrenalin often being significantly reduced in people with depression or attempting suicide. Formula: $(\mathrm{HO})_{2} \mathrm{C}_{6} \mathrm{H}_{3} \mathrm{CH}(\mathrm{OH}) \mathrm{CH}_{2} \mathrm{NH}_{2}$. Also spelt noradrenaline. Also, especially in US, called norepinephrine (NE). NA abbrev. \[From nor(mal) + adrenalin]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

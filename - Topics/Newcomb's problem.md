@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. One of the most difficult problems of logic and decision making. On the table is a transparent box containing $\$ 1,000$ and an opaque box containing either $\$ 1$ million or nothing. A decision maker has the choice of taking either the opaque box only or both boxes. The decision maker is told, and believes, that a predictor of human behavior, such as a sophisticated computer programmed with psychological information, has already put $\$ 1$ million in the opaque box if and only if it has predicted that the decision maker will take only that box, and not the transparent box as well, and the decision maker knows that the predictor is correct in most cases (95 per cent of cases, say, although the exact figure is not critical). Both strategies can apparently be justified by simple and apparently irrefutable arguments: expected utility theory supports the strategy of taking the opaque box only, but the strategy of taking both boxes is a strongly dominant alternative/strategy. Also called Newcomb's paradox. See also SURE-THING PRINCiple. \[Named after the US theoretical physicist William A(drian) Newcomb (1927-99) who discovered it in 1960 while pondering the paradox of the Prisoner's Dilemma game, although it was first published in 1969 in a book chapter by the US philosopher Robert Nozick (1938-2002), who commented in a footnote: 'It is a beautiful problem. I wish it were mine.']
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Any of a number of systems of reasoning that violate the principle of monotonicity. Formalizations of non-monotonic reasoning are designed to capture some of the features of common-sense reasoning. The canonical example consists of the two premises Birds fly and Tweety is a bird together with the conclusion Tweety can fly. In this example, Birds fly is interpreted to mean Normally, birds fly, or Typically, birds fly, or If $x$ is a bird, then assume by default that $x$ flies: it is a default assumption that we adopt provisionally, in the absence of information that might override it. An additional premise that Tweety is a penguin, or an ostrich, or an emu, or is coated in heavy crude oil, or is dead, would render the conclusion invalid. This form of reasoning is non-monotonic because it violates the extension theorem of semantic entailment in propositional calculus, so that additional premises can negate conclusions derived from a smaller set of premises. Also called non-monotonic logic, but this is avoided in careful usage, because it violates monotonicity, which is a fundamental principle of logic. See also default ReAsoning, KNOWLEDGE REPRESENTATION. \[From Greek monos single + tonos a tone + -ikos of, relating to, or resembling]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

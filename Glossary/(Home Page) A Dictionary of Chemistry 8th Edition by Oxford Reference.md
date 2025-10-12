@@ -1271,7 +1271,7 @@ Reviewed: false
 	1249. Corey–Pauling rules
 	1250. CORN rule
 	1251. correlation diagram
-	1252. correlation functions
+	1252. [[correlation functions]]
 	1253. correlation spectroscopy
 	1254. corrosion
 	1255. corundum
@@ -1284,7 +1284,7 @@ Reviewed: false
 	1262. coumarin
 	1263. coumarone
 	1264. countercurrent flow
-	1265. counter ion
+	1265. [[counter ion]]
 	1266. coupling
 	1267. coupling reaction
 	1268. covalent bond
