@@ -7564,291 +7564,348 @@ Reviewed: false
 	5829. [[neuroreceptor]]
 	5830. [[neuroregulator]]
 	
-	5831. neuroscience
-	5832. neurosis
+	5831. [[neuroscience]]
+	5832. [[neurosis]]
 	5833. neurosis, actual
-	5834. neurosurgery
-	5835. neurotic
-	5836. neurotic anxiety
-	5837. neurotic character
+		1. See actual neurosis.
+	5834. [[neurosurgery]]
+	5835. [[neurotic]]
+	5836. [[neurotic anxiety]]
+	5837. [[neurotic character]]
 	5838. neurotic depression
-	5839. neurotic fiction
-	5840. neuroticism
+		1. n. Another name for dysthymic disorder
+	5839. [[neurotic fiction]]
+	5840. [[neuroticism]]
 	
-	5841. neurotic paradox
-	5842. neurotic solution
-	5843. neurotoxin
-	5844. neurotransmitter
-	5845. neurotropic virus
+	5841. [[neurotic paradox]]
+	5842. [[neurotic solution]]
+	5843. [[neurotoxin]]
+	5844. [[neurotransmitter]]
+	5845. [[neurotropic virus]]
 	5846. neutral colour
+		1. n. Another name for an achromatic (1) color. US neutral color.
 	5847. neutral grey
-	5848. neutralization
-	5849. neutralization of libido
-	5850. neutral monism
+		1. n. Another name for an achromatic (1) color. US neutral gray.
+	5848. [[neutralization]]
+	5849. [[neutralization of libido]]
+	5850. [[neutral monism]]
 	
-	5851. neutral mutation
+	5851. [[neutral mutation]]
 	5852. nevra
+		1. See nervios.
 	5853. new-variant Creutzfeldt-Jakob disease
-	5854. Newcomb's problem
-	5855. Newman-Keuls test
-	5856. next-in-line effect
+		1. See Creutzfeldt-Jakob Disease
+	5854. [[Newcomb's problem]]
+	5855. [[Newman-Keuls test]]
+	5856. [[next-in-line effect]]
 	5857. nibble
-	5858. nicotine
-	5859. nicotine-related disorders
-	5860. nicotinic receptor
+		1. See nybble.
+	5858. [[nicotine]]
+	5859. [[nicotine-related disorders]]
+	5860. [[nicotinic receptor]]
 	
-	5861. nictitating membrane
+	5861. [[nictitating membrane]]
 	5862. night blindness
-	5863. nightmare
-	5864. nightmare disorder
-	5865. nightshade
+		1. n. A non-technical name for nyctalopia.
+	5863. [[nightmare]]
+	5864. [[nightmare disorder]]
+	5865. [[nightshade]]
 	5866. night terrors
+		1. n. Another name for sleep terrors. Also called pavor nocturnus.
 	5867. night vision
-	5868. nigrostriatal bundle
-	5869. nihilism
-	5870. nihilistic delusion
+		1. n. A non-technical name for scotopia. 
+	5868. [[nigrostriatal bundle]]
+	5869. [[nihilism]]
+	5870. [[nihilistic delusion]]
 	
-	5871. nine-dot problem
-	5872. nirvana principle
-	5873. Nissl body
-	5874. Nissl granule
-	5875. Nissl stain
-	5876. nitric oxide
-	5877. nitrite inhalant
-	5878. nitrogenous base
-	5879. nitrous oxide
-	5880. nocebo effect
+	5871. [[nine-dot problem]]
+	5872. [[nirvana principle]]
+	5873. [[Nissl body]]
+	5874. [[Nissl granule]]
+	5875. [[Nissl stain]]
+	5876. [[nitric oxide]]
+	5877. [[nitrite inhalant]]
+	5878. [[nitrogenous base]]
+	5879. [[nitrous oxide]]
+	5880. [[nocebo effect]]
 	
-	5881. nociceptive
+	5881. [[nociceptive]]
 	5882. nocireceptor
+		1. n. Another name for a pain receptor.
 	5883. noctambulation
+		1. n. Another name for sleepwalking. Also called noctambulism or somnambulism. noctambulate $v b$. \[From Latin nox, noctis night + ambulare to walk + -ation indicating a process or condition]
 	5884. Noctec
-	5885. nocturia
-	5886. nocturnal
+		1. n. A proprietary name for the depressant drug chloral hydrate. \[Trademark]
+	5885. [[nocturia]]
+	5886. [[nocturnal]]
 	5887. nocturnal myoclonus
-	5888. node
-	5889. node expansion
-	5890. node of Ranvier
+		1. n. The technical name for night cramps. \[From Greek mys a muscle + klonos contraction]
+	5888. [[node]]
+	5889. [[node expansion]]
+	5890. [[node of Ranvier]]
 	
-	5891. nodulus
-	5892. noesis
-	5893. noise
+	5891. [[nodulus]]
+	5892. [[noesis]]
+	5893. [[noise]]
 	5894. nominal aphasia
-	5895. nominalism
-	5896. nominal scale
-	5897. nominative determinism
-	5898. nomological network
-	5899. nomological validity
-	5900. nomothetic
+		1. See aphasia
+	5895. [[nominalism]]
+	5896. [[nominal scale]]
+	5897. [[nominative determinism]]
+	5898. [[nomological network]]
+	5899. [[nomological validity]]
+	5900. [[nomothetic]]
 	
-	5901. non-adaptive
+	5901. [[non-adaptive]]
 	5902. non-additivity
+		1. See additivity
 	5903. non-classical receptive field
-	5904. non-competitive antagonist
-	5905. non-Darwinian evolution
-	5906. non-declarative knowledge
-	5907. non-declarative memory
+		1. See receptive field
+	5904. [[non-competitive antagonist]]
+	5905. [[non-Darwinian evolution]]
+	5906. [[non-declarative knowledge]]
+	5907. [[non-declarative memory]]
 	5908. non-directional test
+		1. See directional test
 	5909. non-directive therapy
+		1. n. Another name for client-centred therapy.
 	5910. non-discrimination point
+		1. See point of subjective equality. 
 	
-	5911. non-disjunction
+	5911. [[non-disjunction]]
 	5912. non-epileptic seizure
-	5913. non-equivalent groups design
+		1. $n$. An alternative name for a pseudoseizure, so-called because it is not associated with epilepsy. Also called a nonepileptic convulsion.
+	5913. [[non-equivalent groups design]]
 	5914. non-essential amino acids
+		1. See amino acid.
 	5915. non-fluent aphasia
+		1. See aphasia
 	5916. non-identical twins
-	5917. non-Mendelian gene
-	5918. non-metric analysis
-	5919. non-monotonic reasoning
-	5920. non-opponent cell
+		1. n. A non-technical name for dizygotic twins.
+	5917. [[non-Mendelian gene]]
+	5918. [[non-metric analysis]]
+	5919. [[non-monotonic reasoning]]
+	5920. [[non-opponent cell]]
 	
-	5921. non-paralytic strabismus
-	5922. non-parametric statistics
-	5923. non-probability sample
-	5924. non-rapid eye movement sleep arousal disorder
-	5925. non-reactive measure
-	5926. non-regressiveness bias
+	5921. [[non-paralytic strabismus]]
+	5922. [[non-parametric statistics]]
+	5923. [[non-probability sample]]
+	5924. [[non-rapid eye movement sleep arousal disorder]]
+	5925. [[non-reactive measure]]
+	5926. [[non-regressiveness bias]]
 	5927. non-REM sleep
-	5928. non-reversal shift
-	5929. non-spectral colour
+		1. See NREM sleep
+	5928. [[non-reversal shift]]
+	5929. [[non-spectral color]]
 	5930. non-taster
+		1. See propylthiouracil, ptc
 	
-	5931. non-verbal communication
-	5932. non-verbal test
+	5931. [[non-verbal communication]]
+	5932. [[non-verbal test]]
 	5933. non-zero-sum game
-	5934. non compos mentis
+		1. $n$. Another name for a mixed-motive game. \[So called because the sum of the payoffs to the players is not zero in every outcome of the game]
+	5934. [[non compos mentis]]
 	5935. Nonne's syndrome
+		1. $n$. Another name for cerebellar syndrome. \[Named after the German neurologist Max Nonne (1861-1959) who studied and wrote about it]
 	5936. nonsense codon
-	5937. nonsense mutation
-	5938. nonsense syllable
+		1. $n$. Another name for a stop codon. \[So called because it does not specify any amino acid but is none the less a codon]
+	5937. [[nonsense mutation]]
+	5938. [[nonsense syllable]]
 	5939. nonsense syndrome
+		1. n. Another name for Ganser syndrome
 	5940. nootropic
+		1. adj. Affecting the intellect or enhancing cognitive performance. See smart drug. \[From Greek nous intellect + tropos a turn, from trepein to turn + -ikos of, relating to, or resembling]
 	
-	5941. noradrenalin
-	5942. noradrenalin reuptake inhibitor
-	5943. noradrenergic
+	5941. [[noradrenalin]]
+	5942. [[noradrenalin reuptake inhibitor]]
+	5943. [[noradrenergic]]
 	5944. norepinephrine
-	5945. norm
-	5946. norm-referenced test
-	5947. normal distribution
-	5948. normal probability plot
-	5949. normal science
-	5950. normative
+		1. $n$. Another name for noradrenalin, especially in US usage. NE abbrev. \[From nor(mal) + Greek epi on + nephros a kidney + -ine indicating an organic compound]
+	5945. [[norm]]
+	5946. [[norm-referenced test]]
+	5947. [[normal distribution]]
+	5948. [[normal probability plot]]
+	5949. [[normal science]]
+	5950. [[normative]]
 	
 	5951. normative reference group
-	5952. nose
+		1. See reference group.
+	5952. [[nose]]
 	5953. nose-picking mania
-	5954. nosology
-	5955. NREM sleepabbrev.
+		1. See RHINOTILLEXOMANIA.
+	5954. [[nosology]]
+	5955. [[NREM sleep]]
 	5956. nuclear agenesis
-	5957. nuclear family
-	5958. nuclear magnetic resonance
-	5959. nuclear self
-	5960. nuclear spindle
+		1. $n$. Another name for Möbius syndrome.
+	5957. [[nuclear family]]
+	5958. [[nuclear magnetic resonance]]
+	5959. [[nuclear self]]
+	5960. [[nuclear spindle]]
 	
-	5961. nucleic acid
-	5962. nucleoplasm
-	5963. nucleotide
-	5964. nucleotide sequence
-	5965. nucleus
-	5966. nucleus accumbens
-	5967. nucleus basalis of Meynert
-	5968. nucleus cuneatus
-	5969. nucleus gigantocellularis
-	5970. nucleus gracilis
+	5961. [[nucleic acid]]
+	5962. [[nucleoplasm]]
+	5963. [[nucleotide]]
+	5964. [[nucleotide sequence]]
+	5965. [[nucleus]]
+	5966. [[nucleus accumbens]]
+	5967. [[nucleus basalis of Meynert]]
+	5968. [[nucleus cuneatus]]
+	5969. [[nucleus gigantocellularis]]
+	5970. [[nucleus gracilis]]
 	
-	5971. NUD*ISTabbrev.
+	5971. [[NUD*IST]]
 	5972. nuisance variable
-	5973. null hypothesis
-	5974. null hypothesis significance testing
-	5975. number-completion test
+		1. n. Another name for an extraneous variable
+	5973. [[null hypothesis]]
+	5974. [[null hypothesis significance testing]]
+	5975. [[number-completion test]]
 	5976. number sequence
-	5977. numerical rating scale
-	5978. numeric variable
-	5979. numinosum
+		1. $n$. Another name for a number-completion test. Also called a number series.
+	5977. [[numerical rating scale]]
+	5978. [[numeric variable]]
+	5979. [[numinosum]]
 	5980. Numorphan
+		1. $n$. A proprietary name for the narcotic analgesic drug oxymorphone. \[Trademark]
 	
-	5981. nurture
-	5982. nutmeg
-	5983. nybble
-	5984. nyctalopia
-	5985. nymphomania
-	5986. nystagmus
-	5987. obedience
+	5981. [[nurture]]
+	5982. [[nutmeg]]
+	5983. [[nybble]]
+	5984. [[nyctalopia]]
+	5985. [[nymphomania]]
+	5986. [[nystagmus]]
+	5987. [[obedience]]
 	5988. obesity hypoventilation syndrome
-	5989. obgene
+		1. $n$. See Pickwickian syndrome, sleepRELATED HYPOVENTILATION. OHS abbrev.
+	5989. [[ob gene]]
 	5990. object, part
+		1. See part object
 	
 	5991. object, transitional
-	5992. object-cathexis
-	5993. object-choice
-	5994. object-relationship
-	5995. object-relations theory
-	5996. object assembly test
-	5997. object blindness
-	5998. object constancy
-	5999. object instinct
-	6000. objective psyche
+		1. See transitional object.
+	5992. [[object-cathexis]]
+	5993. [[object-choice]]
+	5994. [[object-relationship]]
+	5995. [[object-relations theory]]
+	5996. [[object assembly test]]
+	5997. [[object blindness]]
+	5998. [[object constancy]]
+	5999. [[object instinct]]
+	6000. [[objective psyche]]
 	
-	6001. object language
-	6002. object libido
-	6003. object loss
+	6001. [[object language]]
+	6002. [[object libido]]
+	6003. [[object loss]]
 	6004. object of instinct
-	6005. object permanence
-	6006. object recognition
-	6007. object relations
+		1. See instinctual object.
+	6005. [[object permanence]]
+	6006. [[object recognition]]
+	6007. [[object relations]]
 	6008. object superiority effect
+		1. n. Another name for the configural superiority effect.
 	6009. object theory
-	6010. obliquedécalage
+		1. n. Another name for object-relations theory.
+	6010. oblique décalage
+		1. See décalage
 	
-	6011. oblique effect
-	6012. oblique muscle
-	6013. obliviscence
-	6014. observational study
-	6015. obsession
-	6016. obsessional neurosis
-	6017. obsessional technique
-	6018. obsessive-compulsive disorder
-	6019. obsessive-compulsive personality disorder
+	6011. [[oblique effect]]
+	6012. [[oblique muscle]]
+	6013. [[obliviscence]]
+	6014. [[observational study]]
+	6015. [[obsession]]
+	6016. [[obsessional neurosis]]
+	6017. [[obsessional technique]]
+	6018. [[obsessive-compulsive disorder]]
+	6019. [[obsessive-compulsive personality disorder]]
 	6020. obstacle sense
+		1. n. Another name for facial vision
 	
-	6021. obstructive sleep apnoea hypopnoea
-	6022. obstruent
-	6023. Occam's razor
-	6024. occipital
-	6025. occipital bone
-	6026. occipital lobe
-	6027. occupational health psychology
-	6028. occupational interest inventory
-	6029. Occupational Personality Questionnaire
-	6030. occupational psychology
+	6021. [[obstructive sleep apnoea hypopnoea]]
+	6022. [[obstruent]]
+	6023. [[Occam's razor]]
+	6024. [[occipital]]
+	6025. [[occipital bone]]
+	6026. [[occipital lobe]]
+	6027. [[occupational health psychology]]
+	6028. [[occupational interest inventory]]
+	6029. [[Occupational Personality Questionnaire]]
+	6030. [[occupational psychology]]
 	
-	6031. occupational therapy
-	6032. oceanic feeling
-	6033. Ockham's razor
-	6034. ocnophil
-	6035. octave
-	6036. ocular-dominance column
+	6031. [[occupational therapy]]
+	6032. [[oceanic feeling]]
+	6033. [[Ockham's razor]]
+	6034. [[ocnophil]]
+	6035. [[octave]]
+	6036. [[ocular-dominance column]]
 	6037. ocular apraxia
-	6038. ocular convergence
-	6039. ocular divergence
-	6040. ocular dominance
+		1. See apraxia
+	6038. [[ocular convergence]]
+	6039. [[ocular divergence]]
+	6040. [[ocular dominance]]
 	
-	6041. ocular drift
+	6041. [[ocular drift]]
 	6042. ocular nystagmus
+		1. n. Another name for nystagmus.
 	6043. ocular pursuit movement
-	6044. ocular tremor
-	6045. oculogyral illusion
+		1. n. Another name for a pursuit movement.
+	6044. [[ocular tremor]]
+	6045. [[oculogyral illusion]]
 	6046. oculomotor apraxia
-	6047. oculomotor cue
-	6048. oculomotor nerve
-	6049. odd-one-out test
-	6050. oddity problem
+		1. See apraxia
+	6047. [[oculomotor cue]]
+	6048. [[oculomotor nerve]]
+	6049. [[odd-one-out test]]
+	6050. [[oddity problem]]
 	
 	6051. odor
-	6052. odorimetry
-	6053. odour
-	6054. odour adaptation
-	6055. odour constancy
-	6056. odour hallucination
-	6057. odour prism
-	6058. odour square
-	6059. Oedipal phase
-	6060. Oedipus complex
+		1. See odour
+	6052. [[odorimetry]]
+	6053. [[odour]]
+	6054. [[odour adaptation]]
+	6055. [[odor constancy]]
+	6056. [[odor hallucination]]
+	6057. odor prism
+		1. n. Another name for Henning's prism. US odor prism
+	6058. odor square
+		1. n. Another name for the Crocke-Henderson system. US odor square
+	6059. [[Oedipal phase]]
+	6060. [[Oedipus complex]]
 	
-	6061. Oedipus effect
-	6062. oesophagus
-	6063. oestradiol
-	6064. oestrogen
-	6065. oestrone
-	6066. oestrous cycle
-	6067. oestrus
-	6068. off-centre cell
-	6069. offender counselling
-	6070. Ohm's acoustic law
+	6061. [[Oedipus effect]]
+	6062. [[oesophagus]]
+	6063. [[oestradiol]]
+	6064. [[oestrogen]]
+	6065. [[oestrone]]
+	6066. [[oestrous cycle]]
+	6067. [[oestrus]]
+	6068. [[off-centre cell]]
+	6069. [[offender counselling]]
+	6070. [[Ohm's acoustic law]]
 	
 	6071. olan
-	6072. olanzapine
+		1. See latah
+	6072. [[olanzapine]]
 	6073. old woman/young girl figure
-	6074. olfactie
-	6075. olfaction
-	6076. olfactology
-	6077. olfactometry
-	6078. olfactory acuity
-	6079. olfactory bulb
-	6080. olfactory cortex
+		1. n. Another name for the young girl/old woman figure.
+	6074. [[olfactie]]
+	6075. [[olfaction]]
+	6076. [[olfactology]]
+	6077. [[olfactometry]]
+	6078. [[olfactory acuity]]
+	6079. [[olfactory bulb]]
+	6080. [[olfactory cortex]]
 	
-	6081. olfactory epithelium
-	6082. olfactory lobe
-	6083. olfactory nerve
-	6084. olfactory receptor
-	6085. olfactory tract
-	6086. oligodendrocyte
+	6081. [[olfactory epithelium]]
+	6082. [[olfactory lobe]]
+	6083. [[olfactory nerve]]
+	6084. [[olfactory receptor]]
+	6085. [[olfactory tract]]
+	6086. [[oligodendrocyte]]
 	6087. oligophrenia
+		1. $n$. An old-fashioned term for intellectual disability. See also phenylpyruvic oligophrenia. \[From Greek oligos little or few + phren mind, originally midriff, the supposed seat of the soul + -ia indicating a condition or quality]
 	6088. olivary nucleus
-	6089. ololiuqui
-	6090. omega process
+		1. See inferior olivary nUCLEUS, SUPERIOR OLIVARY NUCLEUS.
+	6089. [[ololiuqui]]
+	6090. [[omega process]]
 	
 	6091. ommatidium
 	6092. omnivore

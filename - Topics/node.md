@@ -20,9 +20,14 @@ aliases:
 - (1) (in botany) The part of a plant stem from which one or more leaves arise. The nodes at the stem apex are very close together and remain so in species of monocotyledons that form bulbs. In older regions of the stem they are separated by areas of stem called internodes. 
 - (2) (in anatomy) A natural thickening, bulge, or distinct mass of tissue in an organ or part of the body. Examples are the sinoatrial node that controls the heartbeat (see pACEMAKER) and the lymph nodes. 
 - (3) (in phylogenetics) (vertex) A branch point in a phylogram.
+## Source[^5]
+- n. 
+- (1) Any natural anatomical swelling or bulge. 
+- (2) Any point in a network model or graph where lines or pathways intersect or branch, especially (in cognitive psychology) an element representing a concept in a semantic network of relations between nodes (relations such as $x$ is $a$ member of $y$ or $x$ is an attribute of $y$), each node being linked to certain other nodes in the network. See also ACT, CLOSED NODE, FAN EFFECT, OPEN NODE. \[From Latin nodus a knot]
 ## References
 
 [^1]: https://youtu.be/X3X5kYPgYV0?si=XvaSoTl0Uw9_bZW0
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

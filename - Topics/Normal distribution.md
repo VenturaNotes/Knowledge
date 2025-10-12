@@ -12,8 +12,14 @@
 	- Figure 2: normal distribution curves having the same mean but different standard deviations
 ## Source[^3]
 - normal distribution (Gaussian distribution) A continuous distribution of a random variable described by a probability density function of the form$$f(x)=\exp \left[-(x-\mu)^{2} /\left(2 \sigma^{2}\right)\right] / \sqrt{2 \pi \sigma^{2}},-\infty<x<\infty$$The normal distribution has mean $\mu$, variance $\sigma^{2}$, and is symmetric about the mean. The standard normal distribution is defined as the normal distribution with zero mean and unit variance; normal distributions with arbitrary mean and variance form a location-scale family. The normal distribution plays an important role in statistical inference due to the Central Limit Theorems.
+## Source[^4]
+- n. In statistics, a symmetrical, bell-shaped probability distribution, also called the Gaussian distribution, the normal curve, or colloquially the bell curve, with the most probable scores concentrated around the mean (average) and progressively less probable scores occurring further from the mean (see illustration). In this distribution, 68.26 per cent of scores fall within one standard deviation on either side of the mean, 95.44 per cent within two standard deviations, and 99.74 within three standard deviations. For a reason explained by the central limit theorem, the normal distribution approximates the observed frequency distribution of many psychological and biological variables and is by far the most widely used probability distribution in inferential statistics. See also deviation IQ. normally distributed adj. Distributed according to the normal distribution. \[From Latin norma a carpenter's square or a rule + -alis of or relating to]
+- ![[Screenshot 2025-10-11 at 12.36.04 AM.png|400]]
+	- Standard deviations from the mean
+	- Normal distribution. Showing the percentages of observations occurring within various distances from the mean, measured in standard deviations.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
