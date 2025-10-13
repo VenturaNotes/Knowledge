@@ -1623,7 +1623,7 @@ Reviewed: false
 	1601. dispersion forces
 	1602. displacement reaction
 	1603. disproportionation
-	1604. dissipative system
+	1604. [[dissipative system]]
 	1605. dissociation
 	1606. dissociation pressure
 	1607. distillation
@@ -1657,7 +1657,7 @@ Reviewed: false
 	1635. dopa
 	1636. dopamine
 	1637. dose
-	1638. dosimeter
+	1638. [[dosimeter]]
 	1639. double bond
 	1640. double decomposition
 	1641. double displacement
@@ -1666,7 +1666,7 @@ Reviewed: false
 	1644. double salt
 	1645. doublet
 	1646. Downs process
-	1647. Dow process
+	1647. [[Dow process]]
 	1648. Dragendorff test
 	1649. dropping-mercury electrode
 	1650. dry cell
