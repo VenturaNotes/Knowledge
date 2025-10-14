@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A model of the interface between an electrode and the solution close to it. In this model a sheet of one type of electrical charge surrounds the surface of the electrode and a sheet of the opposite charge surrounds the first sheet in the solution. In the Helmholtz model, put forward by Hermann Helmholtz in 1853, the double layer is regarded as consisting of two planes of charge, with the inner plane of ions from the solution being caused by the charge on the electrode and the outer plane being caused by oppositely charged ions in the solution responding to the first layer of ions. In the Gouy-Chapman model (diffuse double layer) thermal motion of ions is taken into account. Neither model is completely successful since the Helmholtz model exaggerates the rigidity of the structure of the charges and the Gouy-Chapman model underestimates the rigidity of the structure. The Stern model, put forward by Otto Stern (1888-1969) in 1924, improves on both models by assuming that the ions next to the electrode have a rigid structure, while taking the second layer to be as described by the GouyChapman model. More complicated models of the electrical double layer have been proposed.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
