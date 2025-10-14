@@ -1989,13 +1989,13 @@ Reviewed: false
 	1967. femtochemistry
 	1968. fentanyl
 	1969. Fenton’s reagent
-	1970. fermentation
+	1970. [[fermentation]]
 	1971. fermi
 	1972. Fermi–Dirac statistics
 	1973. Fermi level
 	1974. fermion
 	1975. Fermi resonance
-	1976. Fermi surface
+	1976. [[Fermi surface]]
 	1977. fermium
 	1978. ferrate
 	1979. ferric alum
@@ -2013,7 +2013,7 @@ Reviewed: false
 	1991. ferrosoferric oxide
 	1992. ferrous compounds
 	1993. fertilizer
-	1994. Feynman diagram
+	1994. [[Feynman diagram]]
 	1995. feynmanium
 	1996. FIA
 	1997. fibrous protein
