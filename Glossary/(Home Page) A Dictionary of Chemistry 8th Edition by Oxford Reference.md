@@ -1727,12 +1727,12 @@ Reviewed: false
 	1705. einsteinium
 	1706. Einstein theory of specific heat
 	1707. EIS
-	1708. elastic collision
+	1708. [[elastic collision]]
 	1709. elastin
 	1710. elastomer
 	1711. electret
 	1712. electric-arc furnace
-	1713. electrical double layer
+	1713. [[electrical double layer]]
 	1714. electrochemical cell
 	1715. electrochemical equivalent
 	1716. electrochemical impedance spectroscopy
@@ -1889,7 +1889,7 @@ Reviewed: false
 	1867. ESI
 	1868. ESR
 	1869. essential amino acid
-	1870. essential element
+	1870. [[essential element]]
 	1871. essential fatty acids
 	1872. essential oil
 	1873. esterification
