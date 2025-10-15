@@ -4,8 +4,6 @@ aliases:
   - constructors
 ---
 ## Synthesis
-- 
-## Source [^1]
 ### Description
 - Special method called when an object of a class is created
 - Used to initialize the object's attributes and perform any setup required for the object
@@ -29,6 +27,8 @@ print(person1.age)   # Output: 30
 person1.greet()      # Output: Hello, my name is Alice and I am 30 years old.
 ```
 - Class Definition: `class Person:` defines a [[Class (Python)|class]] named `Person`
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

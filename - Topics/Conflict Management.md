@@ -5,7 +5,7 @@
 ## Source[^2]
 - The control of conflict within an organization. There are three main philosophies of conflict management:
 	- traditionalists hold that all conflict is bad and potentially destructive for an organization;
-	- behaviourists see conflict as inevitable in an organization and attempt to harness it in a positive way;
+	- behaviorists see conflict as inevitable in an organization and attempt to harness it in a positive way;
 	- interactionists see conflict as essential to the survival of an organization and as something that should be encouraged.
 - See also CHANGE MANAGEMENT; DIVERSITY MANAGEMENT.
 ## References

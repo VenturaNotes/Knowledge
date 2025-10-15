@@ -2,7 +2,7 @@
 - 
 ## Source [^1]
 - The prices at which goods and services are bought and sold between divisions or subsidiaries within a group of companies.
-- The transfer price is a cost to the receiving division and revenue to the supplying division: therefore the transfer price will affect the profitability of each division. In a complex organization there may be several buying and selling divisions in a group. Transfer prices can also apply between cost centres.
+- The transfer price is a cost to the receiving division and revenue to the supplying division: therefore the transfer price will affect the profitability of each division. In a complex organization there may be several buying and selling divisions in a group. Transfer prices can also apply between cost centers.
 - Managers need to consider a complex range of issues when setting a transfer price. This is because transfer pricing can be used for several quite different purposes:
 	- to provide information that motivates managers to make good economic decisions;
 	- to provide information for evaluating the managerial and economic performance of divisions;

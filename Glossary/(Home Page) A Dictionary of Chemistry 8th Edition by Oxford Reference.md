@@ -356,6 +356,7 @@ Reviewed: false
 	334. aperiodic crystal
 	335. apical
 	336. aprotic
+		1. See solvent
 	337. aqua acid
 	338. aqua regia
 	339. aquation
@@ -367,6 +368,7 @@ Reviewed: false
 	345. arene complex
 	346. arenes
 	347. arenium ion
+		1. See wheland intermediate
 	348. argentic compounds
 	349. argentite
 	350. argentous compounds
@@ -379,7 +381,7 @@ Reviewed: false
 	357. Arrhenius, Svante (1859–1927)
 	358. Arrhenius equation
 	359. Arrhenius theory
-	360. arrow pushing
+	360. [[arrow pushing]]
 	361. arsenate(III)
 	362. arsenate(V)
 	363. arsenic
@@ -1316,7 +1318,7 @@ Reviewed: false
 	1294. cryocrystallography
 	1295. cryogenic pump
 	1296. cryohydrate
-	1297. cryolite
+	1297. [[cryolite]]
 	1298. cryoscopic constant
 	1299. cryoscopy
 	1300. cryostat
@@ -1796,7 +1798,7 @@ Reviewed: false
 	1774. electrophilic addition
 	1775. electrophilic substitution
 	1776. electrophoresis
-	1777. electrophoretic deposition
+	1777. [[electrophoretic deposition]]
 	1778. electrophoretic effect
 	1779. electroplating
 	1780. electropositive
@@ -3374,7 +3376,7 @@ Reviewed: false
 	3352. NBS
 	3353. nearly free electron approximation
 	3354. Néel temperature
-	3355. neighbouring-group participation
+	3355. neighboring-group participation
 	3356. nematic crystal
 	3357. neodymium
 	3358. neon

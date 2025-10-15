@@ -5,7 +5,7 @@
 ## Source[^2]
 - (fovea centralis) (pl. foveae) A shallow depression in the retina of the eye, opposite the lens, that is present in some vertebrates. This area contains a large concentration of cones with only a thin layer of overlying nerves. It is therefore specialized for the perception of colour and sharp intense images. The clarity is enhanced when light is focused on the foveae of both retinas simultaneously. See BINOCULAR VISION.
 ## Source[^3]
-- $n$. Any small pit or depression on or in the body, especially the fovea centralis, the small pit in the centre of the macula lutea of the retina, about half a millimetre in diameter, densely packed with cones but lacking rods, where the image of an object in the direct line of vision falls and where vision is sharpest. See also Arago phenomenon, Donders' law, parafovea. foveae pl. foveal adj. \[From Latin fovea a pit]
+- $n$. Any small pit or depression on or in the body, especially the fovea centralis, the small pit in the center of the macula lutea of the retina, about half a millimetre in diameter, densely packed with cones but lacking rods, where the image of an object in the direct line of vision falls and where vision is sharpest. See also Arago phenomenon, Donders' law, parafovea. foveae pl. foveal adj. \[From Latin fovea a pit]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

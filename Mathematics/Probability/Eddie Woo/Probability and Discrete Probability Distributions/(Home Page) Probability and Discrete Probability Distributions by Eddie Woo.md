@@ -17,7 +17,7 @@ Reviewed: false
 	- [[(6) Probability in an ongoing game (2 of 2 - Eventual result)]]
 	- [[(7) Conditional Probability (1 of 7 - A surprising example)]]
 	- [[(8) Conditional Probability (2 of 7 - Analysis with an array)]]
-	- [[(9) Conditional Probability (3 of 7 - Analysing a deck of cards)]]
+	- [[(9) Conditional Probability (3 of 7 - Analyzing a deck of cards)]]
 	- [[(10) Conditional Probability (4 of 7 - Using formal condition notation)]]
 	- [[(11) Conditional Probability (5 of 7 - Analysis with a table)]]
 	- [[(12) Conditional Probability (6 of 7 - Analysis with a Venn diagram)]]

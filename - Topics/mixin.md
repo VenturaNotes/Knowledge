@@ -3,8 +3,6 @@ aliases:
   - mixins
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Small classes meant to be added to another class via [[multiple inheritance]], to extend behavior
 	- #question What is meant by "small classes". What exactly defines a small class? 
 - Not standalone - no [[Instantiate|instantiation]].
@@ -20,6 +18,8 @@ class Service(LogMixin):
 - Summary
 	- Reusable behaviors added via inheritance
 		- #question Which class has the behaviors added to?
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

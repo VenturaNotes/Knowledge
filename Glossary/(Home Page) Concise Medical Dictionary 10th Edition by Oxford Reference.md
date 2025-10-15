@@ -2358,7 +2358,7 @@ Reviewed: false
 	1832. [[cavity varnish]]
 	1833. [[cavogram]]
 	1834. CBT
-		1. see COGNITIVE BEHAVIOURAL THERAPY.
+		1. see COGNITIVE BEHAVIORAL THERAPY.
 	1835. [[CBW]]
 	1836. CCDC
 		1. see Consultant in Health Protection.
@@ -3296,7 +3296,7 @@ Reviewed: false
 		1. see ANTITUSSIVE.
 	2580. [[coulomb]]
 	
-	2581. [[counselling]]
+	2581. [[counseling]]
 	2582. [[counterextension]]
 	2583. [[counterirritant]]
 	2584. [[countertraction]]
@@ -5801,7 +5801,7 @@ Reviewed: false
 	4560. [[genethics]]
 	
 	4561. [[genetic code]]
-	4562. [[genetic counselling]]
+	4562. [[genetic counseling]]
 	4563. [[genetic drift]]
 	4564. [[genetic engineering]]
 	4565. [[genetics]]
@@ -15796,7 +15796,7 @@ Reviewed: false
 	12450. [[visual reinforcement audiometry]]
 	
 	12451. [[vital capacity]]
-	12452. [[vital centre]]
+	12452. [[vital center]]
 	12453. [[Vitallium]]
 	12454. [[vital signs]]
 	12455. [[vital staining]]

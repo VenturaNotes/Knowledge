@@ -1,7 +1,4 @@
 ## Synthesis
-- 
-## Source[^1]
-
 ### Definition
 - Electronic devices and gadgets designed for personal use, entertainment, and everyday consumer applications
 	- Not for industrial/commercial purposes
@@ -16,6 +13,8 @@
 - Personal Care Electronics
 - Home Entertainment System
 - GPS Navigation Systems
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

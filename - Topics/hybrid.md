@@ -5,7 +5,7 @@
 ## Source[^2]
 - $n$. the offspring of a cross between two genetically unlike individuals. A hybrid, whose parents are usually of different species or varieties, is often sterile.
 ## Source[^3]
-- The offspring of a mating in which the parents differ in at least one characteristic. The term is usually used for offspring of widely different parents, e.g. different varieties or species. Hybrids between different animal species are usually sterile, as is the mule (a cross between a horse and a donkey). See also hyBrid VIGOUR; hyBRID ZONE.
+- The offspring of a mating in which the parents differ in at least one characteristic. The term is usually used for offspring of widely different parents, e.g. different varieties or species. Hybrids between different animal species are usually sterile, as is the mule (a cross between a horse and a donkey). See also hyBrid VIGOR; hyBRID ZONE.
 ## Source[^4]
 - n. 
 - (1) In genetics, the offspring of a cross between genetically dissimilar forms, such an organism being necessarily sterile if the cross is between different species; also, a molecule of DNA composed of portions from different organisms. See also dihybrid. 

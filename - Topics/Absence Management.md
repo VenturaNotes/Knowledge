@@ -5,7 +5,7 @@
 	- #question What kind of rules are typically given for sick days and paid time off
 	- #question What kind of procedures is typical for when an employee misses too many work days? 
 	- #question What part of the company deals with absence management?
-### Source[^2]
+### #comment
 #### Rules for Sick Days and Paid Time Off (PTO)
 - #question What is PTO?
 - Allotment of Days: Employees are given a set number of sick days and PTO per year (e.g., 10 sick days, 15 PTO days).
@@ -65,4 +65,3 @@
 ## References
 
 [^1]: https://www.capterra.com/glossary/absence-management/
-[^2]: ChatGPT

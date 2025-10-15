@@ -30,7 +30,7 @@
 		- femoral
 		- great saphenous
 ## Source[^2]
-- The process by which a continuous exchange of gases is maintained across respiratory surfaces. Often called external respiration, this is achieved by respiratory movements; in air-breathing vertebrates it is movement of air into and out of the lungs (see also AIR SAC; EXPIRATION; INSPIRATION; TRACHEA; VENTILATION CENTRE). The minute ventilation rate (or minute respiration rate) of an animal is the volume of air breathed per minute, i.e. tidal volume $\times$ number of breaths per minute. It can be measured with the aid of a respirometer.
+- The process by which a continuous exchange of gases is maintained across respiratory surfaces. Often called external respiration, this is achieved by respiratory movements; in air-breathing vertebrates it is movement of air into and out of the lungs (see also AIR SAC; EXPIRATION; INSPIRATION; TRACHEA; VENTILATION CENTER). The minute ventilation rate (or minute respiration rate) of an animal is the volume of air breathed per minute, i.e. tidal volume $\times$ number of breaths per minute. It can be measured with the aid of a respirometer.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

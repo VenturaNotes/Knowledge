@@ -5,7 +5,7 @@
 ## Source[^2]
 - $n$. 
 - (1) Avoidance of alcohol or some other drug of dependence, or more generally self-restraint from some indulgence. See also abstinence Syndrome, withdrawal. 
-- (2) In psychodynamic counselling and therapy, the practice of the counsellor or therapist of holding back from uninhibited interaction and conversation with the client or patient. \[From Latin abstinere to abstain]
+- (2) In psychodynamic counseling and therapy, the practice of the counselor or therapist of holding back from uninhibited interaction and conversation with the client or patient. \[From Latin abstinere to abstain]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]

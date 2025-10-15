@@ -165,7 +165,7 @@ Reviewed: false
 	- [[(154) Truth Table, Characteristic Table and Excitation Table for JK flip flop]]
 	- [[(155) Race Around Condition or Racing in JK Flip Flop]]
 	- [[(156) Master Slave JK Flip Flop]]
-	- [[(157) Behaviour of Master Slave D Flip Flop]]
+	- [[(157) Behavior of Master Slave D Flip Flop]]
 	- [[(158) Introduction to T flip flop]]
 	- [[(159) Truth Table, Characteristic Table and Excitation Table for T flip flop]]
 	- [[(160) 5 Steps for Flip Flop Conversions - JK to D Flip Flop Conversion]]

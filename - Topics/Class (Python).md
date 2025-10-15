@@ -4,7 +4,8 @@ aliases:
   - classes
 ---
 ## Synthesis
-### Creation
+### Description 1
+#### Creation
 ```python
 # Creating a class
 class MyClass:
@@ -18,13 +19,13 @@ print(p1.x)
 ```
 - #comment The p1 object is of type `<class '__main__.MyClass'>` 
 	- #question How to interpret this type? 
-### Definition
+#### Definition
 - A class is a template for creating objects. Defines a set of attributes and methods 
 - #question What kind of classes are there. Given `rng = range(50)`, it seems like `type(rng)` is a class. What other types of classes are there? 
-## Source [^1]
+### Description 2
 - In a class, [[__init__() (python)|__init__()]] is considered a method, specifically an instance method
 	- #question What is an instance method? 
-### Definition
+#### Definition
 - A class is a blueprint or template for creating objects. It defines a set of [[attribute (Python)|attributes]] and [[method (Python)|methods]] that the objects (instances) created from the class will have.
 	- #question Are objects and instances synonymous or are they different? 
 - Body of class contains methods and attributes
@@ -32,19 +33,19 @@ print(p1.x)
 	- #question Is C an OOP language? And if not, how does C handle objects in which Python could do?
 - A class defines a type of [[object (Python)|object]], including attributes and methods
 	- #question What is meant by 'a type of object'
-### Key Concepts
+#### Key Concepts
 
-#### Definition
+##### Definition
 - Class defined using `class` keyword followed by class name and colon
 - Class body contains method definitions and class attributes
-#### Attributes
+##### Attributes
 - Variables that belong to class or instances of class
 - [[class attributes (Python)|class attributes]] defined directly within class are shared among all instances of class
 - [[Instance Attribute (Python)|instance attribute]] are specific to each instance of the class
-#### Methods
+##### Methods
 - #question What are some details about methods?
 
-### Instantiating and Initializing
+#### Instantiating and Initializing
 ```python
 class Dog:
     def __init__(self, name):
@@ -55,8 +56,7 @@ class Dog:
 d = Dog("Fido")
 ```
 - #question What does the `__new__()` method look like? 
-
-## Source [^2]
+## Source [^1]
 ```python
 # Creating a class
 class MyClass:
@@ -81,5 +81,4 @@ class Person:
 #question is there a "super" kind of keyword in python as well? I think Java may have this
 ## References
 
-[^1]: ChatGPT
-[^2]: https://www.w3schools.com/python/exercise.asp?filename=exercise_classes1
+[^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_classes1

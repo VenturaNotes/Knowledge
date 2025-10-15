@@ -2786,7 +2786,7 @@ Year: 2021-09-01
 	1674. Napoleon's theorem
 	1675. Nash, John Forbes (1928-2015)
 	1676. Nash equilibrium
-	1677. National Centre for Excellence in the Teaching of Mathematics
+	1677. National Center for Excellence in the Teaching of Mathematics
 	1678. natural frequency
 	1679. natural logarithm
 	1680. natural number
@@ -2802,8 +2802,8 @@ Year: 2021-09-01
 	1689. negative direction
 	1690. negative number
 	
-	1691. neighbourhood
-	1692. neighbourhood
+	1691. neighborhood
+	1692. neighborhood
 	1693. nested multiplication
 	1694. nested sets
 	1695. net

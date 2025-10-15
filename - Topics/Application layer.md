@@ -3,8 +3,6 @@ aliases:
   - layer 7
 ---
 ## Synthesis
-- 
-## Source [^1]
 - The topmost layer in the [[OSI model]] (Open Systems Interconnection model) of networking
 - Primary role is to enable communication between applications running on different systems over a network
 - This layer provides the interface that allows software to use network services
@@ -67,14 +65,11 @@ aliases:
 
 ### Browser
 - A [[browser]] sends an HTTP GET request to fetch data. The [[server]] responds with the requested webpage, often in HTML format
-
-## Source[^2]
+## Source[^1]
 - The application layer provides the services to user
-
-## Source[^3]
+## Source[^2]
 - The application layer sits at Layer 7, the top of the Open Systems Interconnection (OSI) communications model.
 ## References
 
-[^1]: ChatGPT
-[^2]: https://youtu.be/NRckVJk9n0k?si=sqFUKq8vDMUYCos4
-[^3]: https://www.techtarget.com/searchnetworking/definition/Application-layer
+[^1]: https://youtu.be/NRckVJk9n0k?si=sqFUKq8vDMUYCos4
+[^2]: https://www.techtarget.com/searchnetworking/definition/Application-layer

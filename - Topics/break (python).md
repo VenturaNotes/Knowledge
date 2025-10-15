@@ -3,10 +3,7 @@ aliases:
   - break
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Used within loops such as [[for loop (python)|for loops]] and [[while loop (python)|while loops]] to terminate the loop prematurely based on a condition
-
 ### Exit Loop Prematurely
 - Exits out of for loops, while loops, and nested loops
 ```python
@@ -54,6 +51,8 @@ try block broken
 This is the finally block, it always executes.
 Loop has been exited.
 ```
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

@@ -4,8 +4,6 @@ aliases:
   - interfaces
 ---
 ## Synthesis
-- 
-## Source[^1]
 - It's a programming construct that defines a set of methods that must be implemented by classes that adhere to that interface
 - Python does not have a native `interface` keyword such as [[Java]] but interfaces can be emulated using [[abstract base class (Python)|abstract base classes]] or through conventions
 	- By "conventions", we mean that interfaces can be defined using naming conventions without explicitly using ABCs
@@ -41,6 +39,8 @@ doc.display()  # Output: Hello, World!
 img.display()  # Output: Displaying image from /path/to/image.jpg
 ```
 - [[raise (Python)|raise]] keyword 
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

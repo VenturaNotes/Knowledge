@@ -1,6 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
 - Python doesn't have formal interfaces like Java or C#
 	- #question What is an interface?
 - Instead, python uses duck typing: "If it walks like a duck and quacks like a duck..."
@@ -16,6 +14,8 @@ class FileLike:
 - Summary
 	- Behavior-based compatibility
 		- #question What does duck typing have to do with protocols? 
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

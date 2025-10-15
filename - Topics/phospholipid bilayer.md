@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source[^1]
 - Fundamental structural component of [[cell membranes]]
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

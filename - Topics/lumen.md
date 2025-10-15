@@ -10,7 +10,7 @@
 - (2) Symbol lm . The SI unit of luminous flux equal to the flux emitted by a uniform point source of 1 candela in a solid angle of 1 steradian.
 ## Source[^3]
 - n. 
-- (1) A unit of luminous intensity, equal to the luminous flux emitted or reflected in a solid angle of one steradian (a stereo radian or solid angle with its vertex at the centre of a sphere cutting off an area of the sphere's surface equal to the square of its radius) by a point source having a uniform intensity of one candela. See also BRIL, FOOT-CANDLE. Im abbrev. 
+- (1) A unit of luminous intensity, equal to the luminous flux emitted or reflected in a solid angle of one steradian (a stereo radian or solid angle with its vertex at the center of a sphere cutting off an area of the sphere's surface equal to the square of its radius) by a point source having a uniform intensity of one candela. See also BRIL, FOOT-CANDLE. Im abbrev. 
 - (2) A cavity within an organ, such as any of the hollows within the central nervous system filled with cerebrospinal fluid, including the cerebral ventricles and the central canal of the spinal cord. \[From Latin lumen light or aperture]
 ## References
 

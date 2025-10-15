@@ -1239,7 +1239,7 @@ Reviewed: false
 	977. behavioral cardiology
 		1. $n$. Another name for psychocardiology. US behavioral cardiology.
 	978. behavioral contagion
-		1. $n$. Another name for social contagion, especially when applied to overt behaviour such as yawning. US behavioral contagion .
+		1. $n$. Another name for social contagion, especially when applied to overt behavior such as yawning. US behavioral contagion .
 	979. [[behavioral decision theory]]
 	980. [[behavioral ecology]]
 	
@@ -2056,7 +2056,7 @@ Reviewed: false
 	1614. clysmaphilia
 		1. n. An alternative spelling of klysmaphilia.
 	1615. [[CN gas]]
-	1616. [[co-counselling]]
+	1616. [[co-counseling]]
 	1617. [[co-dependency]]
 	1618. [[co-evolution]]
 	1619. [[co-facilitator]]
@@ -2596,8 +2596,8 @@ Reviewed: false
 	2026. [[cortisone]]
 	2027. [[cost-benefit analysis]]
 	2028. [[Cotard's syndrome]]
-	2029. [[counselling]]
-	2030. [[counselling psychology]]
+	2029. [[counseling]]
+	2030. [[counseling psychology]]
 	
 	2031. counter-rotating circles illusion
 		1. $n$. Another name for the Pinna-Brelstaff illusion.
@@ -3136,7 +3136,7 @@ Reviewed: false
 	2452. disabling agent
 		1. See incapacitant
 	2453. [[disassortative mating]]
-	2454. [[disaster counselling]]
+	2454. [[disaster counseling]]
 	2455. disavowal
 		1. $n$. In psychoanalysis, another name for denial.
 	2456. [[disconnection syndrome]]
@@ -3482,7 +3482,7 @@ Reviewed: false
 	2721. [[dystopia]]
 	2722. [[dystrophy]]
 	2723. [[dysuria]]
-	2724. e-counselling
+	2724. e-counseling
 		1. See E-therapy.
 	2725. [[e-therapy]]
 	2726. [[ear]]
@@ -4681,7 +4681,7 @@ Reviewed: false
 	3631. [[genetic activation]]
 	3632. [[genetically modified]]
 	3633. [[genetic code]]
-	3634. [[genetic counselling]]
+	3634. [[genetic counseling]]
 	3635. genetic dominance
 		1. See dominance (genetic)
 	3636. [[genetic drift]]
@@ -5275,7 +5275,7 @@ Reviewed: false
 	4090. [[hybridize]]
 	
 	4091. [[hybrid sterility]]
-	4092. [[hybrid vigour]]
+	4092. [[hybrid vigor]]
 	4093. [[hydraulic theory]]
 	4094. [[hydrazine]]
 	4095. [[hydrocephalus]]
@@ -6659,7 +6659,7 @@ Reviewed: false
 		1. $n$. A proprietary name for the antidepressant drug isocarboxazid. \[Trademark]
 	5133. Marr's computational theory of vision
 		1. See 21⁄2-D SKETCH, 3-D MODEL DESCRIPTION, PRIMAL SKETCH. See also COMPUTATIONAL THEORY, GENERALIZED CONE.
-	5134. [[marriage counselling]]
+	5134. [[marriage counseling]]
 	5135. [[marshmallow test]]
 	5136. Marsilid
 		1. $n$. A proprietary name for the antidepressant drug iproniazid. \[Trademark]
@@ -7438,7 +7438,7 @@ Reviewed: false
 	5733. [[neo-Darwinism]]
 	5734. [[neo-Freudian]]
 	5735. [[neo-Lamarckism]]
-	5736. [[neobehaviourism]]
+	5736. [[neobehaviorism]]
 	5737. [[neocerebellum]]
 	5738. [[neocortex]]
 	5739. [[neodissociation theory]]
@@ -7878,7 +7878,7 @@ Reviewed: false
 	6066. [[oestrous cycle]]
 	6067. [[oestrus]]
 	6068. [[off-centre cell]]
-	6069. [[offender counselling]]
+	6069. [[offender counseling]]
 	6070. [[Ohm's acoustic law]]
 	
 	6071. olan
@@ -7920,7 +7920,7 @@ Reviewed: false
 	
 	6101. oneirophrenia
 	6102. ongoing time disparity
-	6103. online counselling
+	6103. online counseling
 	6104. online therapy
 	6105. onomastics
 	6106. onomatopoeic theory
@@ -8080,7 +8080,7 @@ Reviewed: false
 	6246. outer nuclear layer
 	6247. outer plexiform layer
 	6248. outlier
-	6249. outplacement counselling
+	6249. outplacement counseling
 	6250. oval window
 	
 	6251. ovarian follicle
@@ -8308,7 +8308,7 @@ Reviewed: false
 	6453. passive movement
 	6454. passive tremor
 	6455. passive vocabulary
-	6456. pastoral counselling
+	6456. pastoral counseling
 	6457. patellar reflex
 	6458. paternity uncertainty
 	6459. path analysis
@@ -8651,7 +8651,7 @@ Reviewed: false
 	6765. placebo effect
 	6766. place of articulation
 	6767. place theory
-	6768. planned behaviour, theory of
+	6768. planned behavior, theory of
 	6769. planned comparison
 	6770. plantar response
 	
@@ -8979,7 +8979,7 @@ Reviewed: false
 	7063. problem space
 	7064. procedural knowledge
 	7065. procedural memory
-	7066. proceptive behaviour
+	7066. proceptive behavior
 	7067. process
 	7068. process, primary
 	7069. process, secondary
@@ -9037,7 +9037,7 @@ Reviewed: false
 	7116. propylthiouracil
 	7117. prosencephalon
 	7118. prosimian
-	7119. prosocial behaviour
+	7119. prosocial behavior
 	7120. prosody
 	
 	7121. prosopagnosia
@@ -9329,7 +9329,7 @@ Reviewed: false
 	7381. Ranvier's node
 	7382. raphe nuclei pl.
 	7383. rapid eye movement
-	7384. rapid eye movement sleep behaviour disorder
+	7384. rapid eye movement sleep behavior disorder
 	7385. rapidly adapting
 	7386. rapport
 	7387. Rasch scale
@@ -9340,7 +9340,7 @@ Reviewed: false
 	7391. ratiomorphic
 	7392. rational
 	7393. rational choice theory
-	7394. rational emotive behaviour therapy
+	7394. rational emotive behavior therapy
 	7395. rational emotive therapy
 	7396. rationalism
 	7397. rationality, bounded
@@ -9356,7 +9356,7 @@ Reviewed: false
 	7406. raw primal sketch
 	7407. raw score
 	7408. Rayleigh equation
-	7409. re-evaluation counselling
+	7409. re-evaluation counseling
 	7410. reactance
 	
 	7411. reaction formation
@@ -9491,7 +9491,7 @@ Reviewed: false
 	7529. reliability coefficient
 	7530. REM atoniaabbrev.
 	
-	7531. REM behaviour disorderabbrev.
+	7531. REM behavior disorderabbrev.
 	7532. remember
 	7533. reminiscence
 	7534. remote viewing
@@ -10641,7 +10641,7 @@ Reviewed: false
 	8574. subliminal perception
 	8575. sublingual gland
 	8576. submaxillary gland
-	8577. submissive behaviour
+	8577. submissive behavior
 	8578. Suboxone
 	8579. subspecies
 	8580. substance-induced disorders
@@ -10990,7 +10990,7 @@ Reviewed: false
 	8891. theory
 	8892. theory of games
 	8893. theory of mind
-	8894. theory of planned behaviour
+	8894. theory of planned behavior
 	8895. theory of reasoned action
 	8896. therapeutic
 	8897. therapeutic alliance

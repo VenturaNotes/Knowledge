@@ -3,8 +3,7 @@
 ## Source [^1]
 - An activity stream refers to a series of texts or other notifications found in a centralized form of social media. They display summary information of the activity of other users, including comments they have made or media they have shared. Activity streams can be useful in monitoring the progress or comments of friends or followers.
 	- #question What does an activity stream look like? 
-
-### Source[^2]
+### #comment
 - An activity stream is used in social media to display a timeline of activities such as comments, shares, and media interactions.
 - The content of an activity stream may contain comments, media shares, likes, and other interactions
 	- #question What other interactions could there be?
@@ -24,4 +23,3 @@
 ## References
 
 [^1]: https://www.capterra.com/glossary/activity-stream/
-[^2]: ChatGPT

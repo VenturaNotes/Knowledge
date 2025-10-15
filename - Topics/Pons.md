@@ -11,7 +11,7 @@
 - (1) (pons Varolii) the part of the brainstem that links the medulla oblongata and the thalamus, bulging forwards in front of the cerebellum, from which it is separated by the fourth ventricle. It contains numerous nerve tracts between the cerebral cortex and the spinal cord and several nuclei of grey matter. From its front surface the trigeminal nerves emerge. 
 - (2) any portion of tissue that joins two parts of an organ.
 ## Source[^3]
-- (pons Varolii) (pl. pontes) A part of the hindbrain that links the medulla oblongata to the midbrain. As well as relaying impulses between different parts of the brain, it contains a group of neurons that help regulate breathing movements (see ventilation CENTRE). Also, certain pontine nuclei are active during REM sleep. The pons is named after its discoverer, the Italian anatomist C. Varoli (1543-75).
+- (pons Varolii) (pl. pontes) A part of the hindbrain that links the medulla oblongata to the midbrain. As well as relaying impulses between different parts of the brain, it contains a group of neurons that help regulate breathing movements (see ventilation CENTER). Also, certain pontine nuclei are active during REM sleep. The pons is named after its discoverer, the Italian anatomist C. Varoli (1543-75).
 ## References
 
 [^1]: [[(71) 2-Minute Neuroscience - Pons]]

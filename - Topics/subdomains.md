@@ -1,7 +1,7 @@
 ## Synthesis
-- 
-## Source[^1]
 - Subdivisions of a domain such as "sub.example.com" within "example.com"
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

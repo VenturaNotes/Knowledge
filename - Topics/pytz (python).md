@@ -3,8 +3,6 @@ aliases:
   - pytz
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Primarily used for time zone definitions, but often used in conjunction with other internationalization libraries to handle localized time zone conversions
 ```python
 import pytz
@@ -17,6 +15,8 @@ print(paris_time.strftime('%Y-%m-%d %H:%M:%S %Z%z'))
 
 ```
 #question I don't understand this code
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

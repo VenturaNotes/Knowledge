@@ -3,8 +3,6 @@ aliases:
   - super()
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Without `super().__init__()`, the base attributes may never get initialized leading to missing data or errors. 
 - `super()` delegates method call to superclass
 - A common use case is inside the `__init__` to set up base (or parent) class attributes
@@ -86,6 +84,8 @@ D
 ```
 - super() respects the MRO, which in this case is `D -> B -> C -> A`
 - #question What determines the order of the output? This seems to work similarly to recursion
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

@@ -4,5 +4,5 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2023-07-15 at 8.19.00 PM.png]]
-	- Rotation of 270$\degree$, centre the origin
+	- Rotation of 270$\degree$, center the origin
 	- The [[transformation matrix]] is

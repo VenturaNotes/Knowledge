@@ -1,11 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
-- Account planning is a practice that many businesses use when pursuing new customers, but it can also be used throughout the duration of a business relationship to effectively manage a customer account. The practice involves performing research on the customer’s needs and specific goals beyond the basics that are presented. By having this in-depth knowledge of what is happening within a prospective customer, your sales and marketing team can customize their approach to increase sales.
-	- #question What is a business relationship?
-	- #question How is the research performed on the customer's needs? 
-	- #question What is the difference between a sales and marketing team? 
-## Source[^2]
 - (1) Primary purpose of account planning
 	- To gain a deeper understanding of a customer’s needs, goals, and business context so that sales and marketing efforts can be tailored more effectively, leading to stronger relationships and increased sales.
 		- #question Could you give an example of this happening in the real-world?
@@ -31,8 +24,11 @@
 - A key component of effective account planning is performing deep research on customer goals and needs
 - The benefit of tailoring sales and marketing efforts using account planning is that it increases the chance of aligning the customer needs
 	- #question What is competitive research
-
+## Source [^1]
+- Account planning is a practice that many businesses use when pursuing new customers, but it can also be used throughout the duration of a business relationship to effectively manage a customer account. The practice involves performing research on the customer’s needs and specific goals beyond the basics that are presented. By having this in-depth knowledge of what is happening within a prospective customer, your sales and marketing team can customize their approach to increase sales.
+	- #question What is a business relationship?
+	- #question How is the research performed on the customer's needs? 
+	- #question What is the difference between a sales and marketing team? 
 ## References
 
 [^1]: https://www.capterra.com/glossary/account-planning/
-[^2]: ChatGPT

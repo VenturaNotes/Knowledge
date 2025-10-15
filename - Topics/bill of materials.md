@@ -14,7 +14,7 @@ aliases:
 
 ## Source[^2]
 - (BOM) 
-- (1) A document listing all the materials required to produce a range of products, including all the components and their relevant quantities, the order in which they are assembled, and the work centres that perform the assembly. The BOM is one of the main inputs into the material requirements planning (MRP) system; in fact, the success of MRP depends on accurate BOMs. Their reliability has been improved by the use of computer-aided design systems linked to inventory status records. 
+- (1) A document listing all the materials required to produce a range of products, including all the components and their relevant quantities, the order in which they are assembled, and the work centers that perform the assembly. The BOM is one of the main inputs into the material requirements planning (MRP) system; in fact, the success of MRP depends on accurate BOMs. Their reliability has been improved by the use of computer-aided design systems linked to inventory status records. 
 - (2) See BILL OF QUANTITIES.
 ## References
 

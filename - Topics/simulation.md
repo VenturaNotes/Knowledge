@@ -7,7 +7,7 @@
 ## Source[^2]
 - Recreating or modelling a hypothetical situation in order to consider its likely outcomes and to develop problem-solving strategies. In computer simulation all the available data is fed into a computer, which enables a range of possible strategies to be compared. Uncertainty may be modelled by the use of random numbers, as in a Monte Carlo simulation, or worst cases by the use of stress testing. In laboratory simulation situations are realistically recreated in order to assess possible results or responses. Simulation is widely used in risk analysis, financial modelling, and marketing.
 ## Source[^3]
-- The use of quantitative models to represent the working of an economy. Given assumptions about how an economy works, simulation is used to see how a model economy responds to changes in these assumptions, changes in the distribution of stochastic shocks, or changes in economic policy. Simulation models often use numerical methods, as their structure is too complicated for analytical conclusions about their behaviour to be obtainable. See also Monte Carlo method.
+- The use of quantitative models to represent the working of an economy. Given assumptions about how an economy works, simulation is used to see how a model economy responds to changes in these assumptions, changes in the distribution of stochastic shocks, or changes in economic policy. Simulation models often use numerical methods, as their structure is too complicated for analytical conclusions about their behavior to be obtainable. See also Monte Carlo method.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
