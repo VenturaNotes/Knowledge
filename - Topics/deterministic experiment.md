@@ -17,9 +17,8 @@ aliases:
 |                                 |                |
 |                                 |                |
 |                                 |                |
-- Important to note though that cooling water below 0$\degree$C does not always cause it to freeze as [[pressure]] can prevent it from freezing under certain conditions.[^2]
+- #comment Important to note though that cooling water below 0$\degree$C does not always cause it to freeze as [[pressure]] can prevent it from freezing under certain conditions.
 	- [[Supercooling]]
 ## References
 
 [^1]: https://acs.dypvp.edu.in/NAAC/Deterministic-and-Non-Deterministic-Experiment.pdf
-[^2]: ChatGPT

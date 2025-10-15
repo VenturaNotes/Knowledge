@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- The specialized muscle of which the walls of the heart are composed. It is composed of a network of branching elongated cells (fibres) whose junctions with neighbouring cells are marked by irregular transverse bands known as intercalated discs.
+- The specialized muscle of which the walls of the heart are composed. It is composed of a network of branching elongated cells (fibres) whose junctions with neighboring cells are marked by irregular transverse bands known as intercalated discs.
 ## Source[^2]
 - A specialized form of muscle that is peculiar to the vertebrate heart. Each cardiac muscle fibre is an individual small cell, tapering at either end and containing a single nucleus. The cells branch and interdigitate in a meshlike arrangement, and adjacent cells are joined by intercalated discs and gap junctions to provide extra adhesion and strength to resist the powerful forces of muscular contractions. There are two types of cardiac muscle cells: contractile cells, which are striated and contain numerous myofibrils; and conducting cells, or Purkyne fibres, which branch extensively and conduct electrical signals throughout the muscle. The muscle itself shows spontaneous contraction and does not need nervous stimulation (see PACEMAKER). However, the rate of contractions and muscle contractility (strength of contractions) are regulated by the heart's autonomic nerve supply (see HEART).
 ## Source[^3]

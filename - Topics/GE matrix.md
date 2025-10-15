@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- (McKinsey Matrix) A tool for analysing the relative strengths of brands or business units within a large diversified corporation. A range of measures are used to score items on each of two dimensions: (i) the attractiveness of the industry or market; and (ii) the strength of the product or business. On this basis, each item is assigned to one of nine cells on a two-dimensional grid:
+- (McKinsey Matrix) A tool for analyzing the relative strengths of brands or business units within a large diversified corporation. A range of measures are used to score items on each of two dimensions: (i) the attractiveness of the industry or market; and (ii) the strength of the product or business. On this basis, each item is assigned to one of nine cells on a two-dimensional grid:
 	- ![[Screenshot 2025-06-17 at 2.02.21 AM.png|300]]
 		- Business Strength
 		- Industry Attractiveness

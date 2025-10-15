@@ -3,8 +3,6 @@ aliases:
   - hash set
 ---
 ## Synthesis
-- 
-## Source [^1]
 - For python, a hash set is typically represented using the built-in `set` data structure
 	- You can build the [[HashSet#Building set data structure in Python using dictionary|set data structure]] yourself.
 	- HashSet and hash set refer to the same concept
@@ -55,14 +53,15 @@ fruits.remove("cherry")
 for fruit in fruits:
     print(fruit)
 ```
+
 - `add` and `append` are based on collection types
 	- #question What is a collection type?
-	- Use `.add()` for sets as it means "add this unique item"
+	- Use  `.add()` for sets as it means "add this unique item"
 	- Use `.append()` for lists as it means "put this at the end"
 	- Python doesn't overload method names - each collection type has its own methods
 		- #question What does method overloading mean?
 		- #question What are the methods within collection types?
-Output (order output may vary for elements in set)
+- Output (order output may vary for elements in set)
 ```
 True
 apple
@@ -118,7 +117,7 @@ hash_table["key"] = "value"
 	- Collision handling (e.g., chaining)
 		- #question What is collision handling
 		- #question What is chaining and how does it work?
-Basic version of a hash table below
+- Basic version of a hash table below
 ```python
 class SimpleHashTable:
     def __init__(self, size=10):
@@ -138,7 +137,8 @@ class SimpleHashTable:
 - #question What does `_innit_` mean for python?
 - #question What does `[[] for _ in range(size)]` mean
 	- #question In fact, could you explain the code for me with an example?
-
+## Source[^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

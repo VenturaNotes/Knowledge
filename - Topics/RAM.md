@@ -4,12 +4,6 @@ aliases:
 ---
 ## Synthesis
 - Random access memory is fast, volatile memory
-## Source [^1]
-- RAM stands for random access memory
-- RAM is fast, [[volatile memory]]
-	- It is volatile because it requires power to store data
-- RAM does not store instructions to load up the computer
-### Source[^2]
 ### Loading up Computer
 - RAM does not store the instructions (machine-level commands that a computer's [[Central Processing Unit|CPU]] can execute) to load up the computer.
 	- #question What is meant by "loading up" the computer? 
@@ -99,7 +93,11 @@ aliases:
 		- #question What is meant by operation?
 		- #question What is an OS?
 		- #question What is meant by the OS taking over? 
+## Source [^1]
+- RAM stands for random access memory
+- RAM is fast, [[volatile memory]]
+	- It is volatile because it requires power to store data
+- RAM does not store instructions to load up the computer
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/1-2-memory-and-storage-quizzes/ks4-ocr-j277-1-2-memory-quiz/
-[^2]: ChatGPT

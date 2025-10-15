@@ -4,7 +4,8 @@ aliases:
   - functions
 ---
 ## Synthesis
-- 
+- The location of a function is outside a class where the first parameter is not `self` and an example is `def greet(name):`
+	- #question Is this true that the difference between methods and functions in python is whether or not they're inside a class?
 ## Source [^1]
 ```python
 # Creating a function
@@ -36,11 +37,6 @@ def my_function(**kid):
 #question Study more examples about the `**kids` for more functions
 #question What is the difference between keyword arguments and argument? 
 #question Why does `lname` work in this case? 
-
-## Source [^2] 
-- The location of a function is outside a class where the first parameter is not `self` and an example is `def greet(name):`
-	- #question Is this true that the difference between methods and functions in python is whether or not they're inside a class?
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_functions1
-[^2]: ChatGPT

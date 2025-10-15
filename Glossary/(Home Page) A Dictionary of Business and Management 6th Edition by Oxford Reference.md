@@ -778,14 +778,14 @@ Reviewed: false
 		1. See Bull Note
 	631. [[bear spread]]
 	632. [[bed and breakfasting]]
-	633. [[behavioural finance]]
-	634. behavioural indicators
+	633. [[behavioral finance]]
+	634. behavioral indicators
 		1. See performance measurement
-	635. [[behaviourally anchored rating scales]]
-	636. [[behavioural observation scale]]
-	637. [[behavioural segmentation]]
-	638. [[behavioural targeting]]
-	639. behavioural theories of leadership
+	635. [[behaviorally anchored rating scales]]
+	636. [[behavioral observation scale]]
+	637. [[behavioral segmentation]]
+	638. [[behavioral targeting]]
+	639. behavioral theories of leadership
 		1. See leadership theories
 	640. [[Beige Book]]
 	641. bellwether security
@@ -2229,7 +2229,7 @@ Reviewed: false
 	1841. debt administration
 		1. See ADMINISTRATOR; ANCILLARY CREDIT BUSINESS.
 	1842. [[debt collection agency]]
-	1843. debt counselling
+	1843. debt counseling
 		1. See ANCILLARY CREDIT BUSINESS.
 	1844. [[debt discounting]]
 	1845. [[debt instrument]]
@@ -3087,7 +3087,7 @@ Reviewed: false
 	2546. FATF
 		1. Abbreviation for financial action task force on money laundering
 	2547. [[fault trees]]
-	2548. favourable variance
+	2548. favorable variance
 		1. See variance
 	2549. [[fax]]
 	2550. FCA
@@ -5252,7 +5252,7 @@ Reviewed: false
 	4347. Mosaic
 		1. See geographic information system
 	4348. [[Moscow Exchange]]
-	4349. [[most-favoured-nation clause]]
+	4349. [[most-favored-nation clause]]
 	4350. [[motion]]
 	4351. [[motivation]]
 	4352. [[motivational research]]
@@ -5762,7 +5762,7 @@ Reviewed: false
 	4748. organic growth
 		1. See internal growth
 	4749. [[organic organization]]
-	4750. [[organizational behaviour]]
+	4750. [[organizational behavior]]
 	4751. [[organizational buying]]
 	4752. [[organizational commitment]]
 	4753. [[organizational culture]]
@@ -5797,7 +5797,7 @@ Reviewed: false
 		1. See sales tax
 	4777. out of the money
 		1. See in the money
-	4778. [[outplacement counselling]]
+	4778. [[outplacement counseling]]
 	4779. [[output tax]]
 	4780. [[outside broker]]
 	4781. outside director
@@ -6182,7 +6182,7 @@ Reviewed: false
 	5089. [[postal account]]
 	5090. [[poster]]
 	5091. [[post hoc segmentation]]
-	5092. [[postpurchase behaviour]]
+	5092. [[postpurchase behavior]]
 	5093. [[potential entrant]]
 	5094. [[potentially exempt transfer]]
 	5095. [[potential market]]
@@ -7132,7 +7132,7 @@ Reviewed: false
 	5889. SAS
 		1. Abbreviation for statement of auditing standards
 	5890. [[satang]]
-	5891. [[satisficing behaviour]]
+	5891. [[satisficing behavior]]
 	5892. [[save-as-you-earn]]
 	5893. [[savings]]
 	5894. [[savings account]]
@@ -8382,7 +8382,7 @@ Reviewed: false
 	6923. [[unfair prejudice]]
 	6924. unfair trading
 		1. See consumer protection
-	6925. [[unfavourable balance]]
+	6925. [[unfavorable balance]]
 	6926. unfunded pension system
 		1. See pay-as-you-go pension system
 	6927. [[Unicode]]
@@ -8514,7 +8514,7 @@ Reviewed: false
 	7033. [[variable production overhead]]
 	7034. [[variance]]
 	7035. [[variation margins]]
-	7036. [[variety-seeking buying behaviour]]
+	7036. [[variety-seeking buying behavior]]
 	7037. VAT
 		1. Abbreviation for value added tax
 	7038. [[vatu]]
@@ -8737,7 +8737,7 @@ Reviewed: false
 	7208. [[work-sample tests]]
 	7209. [[work-to-rule]]
 	7210. [[work breakdown structure]]
-	7211. [[work centre]]
+	7211. [[work center]]
 	7212. [[worker]]
 	7213. workers' participation
 		1. See industrial democracy

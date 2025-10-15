@@ -4,7 +4,7 @@
 - Having centers which are distinct, as opposed to concentric
 ## Source[^2]
 - adj. 
-- (1) Positioned off centre.
+- (1) Positioned off center.
 - (2) Of or relating to a retinal image cast by a visual stimulus off the centre of the fovea.
 - (3) Odd or unconventional. eccentricity $n$. \[From Greek $e k$ out of + kentron centre]
 ## References

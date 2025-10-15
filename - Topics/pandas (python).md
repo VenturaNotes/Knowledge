@@ -3,9 +3,9 @@ aliases:
   - pandas
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Offers data structures and data analysis tools
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

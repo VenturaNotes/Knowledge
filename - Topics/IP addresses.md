@@ -5,10 +5,9 @@ aliases:
 ---
 ## Synthesis
 - A unique identifier assigned to each device on a network allowing it to communicate with other devices
-## Source[^1]
 - A unique numerical identifier assigned to each device on a network. Identifies the device's location in the network
 	- #question How is it a numerical identifier if IPv6 uses letters? 
-### Details[^1]
+### Details
 - A device's location in a network refers to the logical position of the device within the network's structure. It doesn’t necessarily mean the device’s physical location, but rather its placement within the network topology. 
 	- #question What does network topology mean?
 - In some cases with public IP addresses, geolocation services can estimate a device's physical location using databases that map IP addresses to regions, ISPs, or network nodes.
@@ -32,19 +31,17 @@ aliases:
 	- **Public IPs** are assigned by the Internet Service Provider (ISP).
 	- It's **possible** for two devices to have the same private IP address if they're on separate networks, but not within the same network. However, two devices cannot have the same public IP on the internet without causing conflicts.
 	- Manufacturers do not pre-assign IP addresses; they are assigned when a device connects to a network.
-## Source[^2]
+## Source[^1]
 - A specific address assigned to a device on a network, allowing it to communicate with other devices. 
 - IP addresses can be either 
 	- [[IPv4]] (e.g., 192.168.1.1)
 	- [[IPv6]] (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334))
 	- #question What is the main difference between these types of IP addresses? Does it mean 
-
-## Source[^3]
+## Source[^2]
 - An IP address can be routable (global) or non-routable (local)
 	- #question What does a routable IP address mean and why is it considered global?
 	- #question What is a non-routable IP address mean and why is it considered local? Does it mean it would just be part of a home area network (HAN)? 
 ## References
 
-[^1]: ChatGPT
-[^2]: https://www.quora.com/Is-a-network-address-the-same-as-an-IP-address
-[^3]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
+[^1]: https://www.quora.com/Is-a-network-address-the-same-as-an-IP-address
+[^2]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks

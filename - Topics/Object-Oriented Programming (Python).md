@@ -4,8 +4,6 @@ aliases:
   - Object-Oriented Programming
 ---
 ## Synthesis
-- 
-## Source [^1]
 - A programming paradigm that uses objects and classes for organizing code
 - You create classes to define objects with attributes (data) and methods (functions). Encourages concepts like [[encapsulation (python)|encapsulation]], [[inheritance (python)|inheritance]], and [[polymorphism (python)|polymorphism]]
 - An "is-a" relationship between classes refers to inheritance, where one class (the [[subclass (python)|subclass]]) is derived from another class (the [[superclass (python)|superclass]])
@@ -125,6 +123,8 @@ class Document:
 ```
 - Use when a class depends on another to fulfill its task without owning it.
 - `Uses-a` is a temporary association (dependency). `Document uses-a Printer`
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

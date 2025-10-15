@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- Suppose that the particle $P$ is moving in the plane, in a circle with centre at the origin $O$ and radius $r_{0}$. Let $\left(r_{0}, \theta\right)$ be the polar coordinates of $P$. At an elementary level, the angular velocity may be defined to be $\dot{\theta}$, where a dot denotes differentiation with respect to time.
+- Suppose that the particle $P$ is moving in the plane, in a circle with center at the origin $O$ and radius $r_{0}$. Let $\left(r_{0}, \theta\right)$ be the polar coordinates of $P$. At an elementary level, the angular velocity may be defined to be $\dot{\theta}$, where a dot denotes differentiation with respect to time.
 
   
 

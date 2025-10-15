@@ -13,11 +13,11 @@ aliases:
 	- You can create an enumerated object as shown above
 - `list(enum_object)` outputs `[(0, -4), (1, -1), (2, -1), (3, 0), (4, 1), (5, 2)]`
 	- You must convert it to a list to see its contents.
-## Source [^1]
+### Description
 - Result of applying the [[enumerate() (Python)|enumerate()]] function in python to an iterable such as a list, string, or tuple. 
 	- A special object that contains pairs of indexes and corresponding elements from the original iterable
 - The enumerated object doesn't store values directly like a list does, but does generate them on the fly (as it's an [[iterator (python)|iterator]])
-### Example
+### Same Example (with Code and Output)
 Code
 ```python
 myVar = [-4, -1, -1, 0, 1, 2]
@@ -37,7 +37,8 @@ Output
 <enumerate object at 0x7f8c2c3b1c40>  # This is the enumerated object itself
 [(0, -4), (1, -1), (2, -1), (3, 0), (4, 1), (5, 2)]  # The list of index-element pairs
 ```
-
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

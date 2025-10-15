@@ -3,8 +3,6 @@ aliases:
   - initialized
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Sets up the internal state of the newly created object (e.g., set attributes)
 	- #question Could you give a specific example for this? 
 - Occurs right after the object is [[Instantiate|instantiated]]
@@ -14,6 +12,8 @@ aliases:
 	- Giving it a name, settings, or data
 - Summary
 	- Initialize means to set up object's state/attributes which happens after instantiation through `__init__()`
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

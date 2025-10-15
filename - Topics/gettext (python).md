@@ -3,8 +3,6 @@ aliases:
   - gettext
 ---
 ## Synthesis
-- 
-## Source [^1]
 - A built-in module that provides internationalization and [[localization (python)|localization]] support for your python applications using [[GNU]] gettext message catalogs
 	- #question What is localization?
 	- #question What is meant by GNU gettext message catalogs? 
@@ -19,6 +17,8 @@ print(_("Hello, World!"))
 
 ```
 - #question I don't understand this code
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

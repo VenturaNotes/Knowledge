@@ -3,8 +3,6 @@ aliases:
   - multisets
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Multisets are also known as bags
 	- #question Are multisets really known as bags?
 - Multisets allow duplicates
@@ -17,6 +15,8 @@ aliases:
 - Can use `collections.Counter` as a multiset substitute 
 - Functionally
 	- A multiset is like a shopping list: you care about how many of each item, but not the order
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

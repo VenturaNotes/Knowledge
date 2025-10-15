@@ -692,7 +692,7 @@ Reviewed: false
 	599. [[assimilation]]
 	600. [[assisted reproductive technology]]
 	601. [[association]]
-	602. [[association centre]]
+	602. [[association center]]
 	603. [[assortative mating]]
 	604. [[aster]]
 	605. asthenosphere
@@ -3114,7 +3114,7 @@ Reviewed: false
 	2575. [[heteromorphosis]]
 	2576. [[heteroplasmy]]
 	2577. heterosis
-		1. See hybrid vigour
+		1. See hybrid vigor
 	2578. [[heterosporous]]
 	2579. [[heterospory]]
 	2580. [[heterostyly]]
@@ -3244,7 +3244,7 @@ Reviewed: false
 	2677. [[hybrid dysgenesis]]
 	2678. [[hybridization]]
 	2679. [[hybridoma]]
-	2680. [[hybrid vigour]]
+	2680. [[hybrid vigor]]
 	2681. [[hybrid zone]]
 	2682. [[hydathode]]
 	2683. [[hydrochloric acid]]

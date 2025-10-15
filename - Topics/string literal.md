@@ -3,8 +3,6 @@ aliases:
   - string literals
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Can use single quotes or double quotes
 	- `'Hello World'`
 	- `"Python is fun!"`
@@ -26,6 +24,8 @@ write text on multiple
 lines including the 
 line breaks
 ```
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

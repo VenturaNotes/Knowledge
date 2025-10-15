@@ -3,15 +3,14 @@ aliases:
   - map()
 ---
 ## Synthesis
-- 
-## Original
+### Description 1
 - A 'map' object is not subscriptable meaning the code below is NOT possible
 ```python
 x = map(int, input().split())
 print((x[0]+ x[1] + x[2])/3)
 #Can't access elements using brackets like `x[0]`
 ```
-## Source [^1]
+### Description 2
 - Applies a function to all items in an [[iterable (python)|iterable]] and returns a map object which is an [[iterator (python)|iterator]]. 
 	- #question What is a map object?
 - The map object can be converted to a list, tuple, or another type of iterable if needed
@@ -19,7 +18,7 @@ print((x[0]+ x[1] + x[2])/3)
 	- Dictionaries use hashmaps for fast key access
 		- #question How do hashmaps provide fast key access?
 	- #question I thought lists weren't iterable because of hashmaps or something like that?
-### Iterator vs Iterable
+#### Iterator vs Iterable
 - Iterable: An object capable of returning its members one at a time. Example includes, lists, tuples, dictionaries, strings, and generators. Any object with an `__iter__()` method is iterable
 	- #question Show how the `__iter__()` method works
 	- #question What is meant by object?
@@ -29,8 +28,7 @@ print((x[0]+ x[1] + x[2])/3)
 	- #question What is meant by stream of data? Does it need to be a stream? 
 - All iterators are iterables, but not all iterables are iterators
 	- #question Can you give some examples for this 
-
-### Syntax
+#### Syntax
 ```python
 map(function, iterable, ...)
 ```
@@ -40,10 +38,9 @@ map(function, iterable, ...)
 		- #question can we have function objects?
 - iterable: One or more iterables to which the function is applied
 	- #question I want to see an example with multiple iterables applied
+#### Example
 
-### Example
-
-#### Using a Normal Function
+##### Using a Normal Function
 ```python
 # Define a simple function that squares a number
 def square(x):
@@ -60,10 +57,10 @@ print(list(squared_numbers))  # Output: [1, 4, 9, 16, 25]
 
 ```
 
-#### Using Lambda
+##### Using Lambda
 #question Is it called a lambda function or lambda expression. Is there a difference?
 
-#### Mapping Multiple Iterables
+##### Mapping Multiple Iterables
 - If you provide multiple iterables to `map()`, the function must accept that many arguments
 ```python
 # Define a function that adds two numbers
@@ -82,7 +79,7 @@ print(list(added_numbers))  # Output: [5, 7, 9]
 
 ```
 
-#### Built-in functions
+##### Built-in functions
 - Convert all elements of a list into a string
 ```python
 numbers = [1, 2, 3, 4, 5]
@@ -97,14 +94,17 @@ print(list(string_numbers))  # Output: ['1', '2', '3', '4', '5']
 
 ```
 #question What happens if you a turn a list into a list
-- There is a difference between [[type conversion (python)|type conversion]] and [[type casting (python)|type casting]][^2]
+- There is a difference between [[type conversion (python)|type conversion]] and [[type casting (python)|type casting]]
 	- In type conversion, the python interpreter automatically converts one data type to another
 	- In type casting, the programmer converts the data type manually
 
-### What can you do with a map object?
+#### What can you do with a map object?
 - A map object is an iterator so it needs to be consumed (converted to a list or iterated through with a loop)
 	- #question Is "consumed" the write question here? 
+## Source[^1]
+- There is a difference between [[type conversion (python)|type conversion]] and [[type casting (python)|type casting]]
+	- In type conversion, the python interpreter automatically converts one data type to another
+	- In type casting, the programmer converts the data type manually
 ## References
 
-[^1]: ChatGPT
-[^2]: https://www.naukri.com/code360/library/type-conversion-casting
+[^1]: https://www.naukri.com/code360/library/type-conversion-casting

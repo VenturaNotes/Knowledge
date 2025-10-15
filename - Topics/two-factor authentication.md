@@ -11,19 +11,19 @@ aliases:
 	- Something the user knows (such as a password)
 	- Something the user physically holds (such as a credit card)
 	- Something inseparable from the user's body
-		- Explanation[^2]
+		- #comemnt Explanation
 			- Typically refers to [[biometric authentication]]
 				- [[Fingerprint recognition]]
 				- [[Facial recognition]]
 				- Iris scans
-					- #comment [[Iris recognition]]
+					- [[Iris recognition]]
 				- [[Voice recognition]]
 			- This method is often needed in high-security environments, such as unlocking phones, accessing banking apps, or entering restricted facilities
 - Examples
 	- For an [[Automated Teller Machine|ATM]] transaction, user inserts bank card and enters password
 		- The two factors make it difficult for an unauthorized user to access the bank account
 	- Password + fingerprint scan
-		- Fingerprint Scan Explanation [^2]
+		- #comment Fingerprint Scan Explanation
 			- Capturing an image of the user's fingerprint
 			- Analyzing the unique patterns (ridges and valleys) of the fingerprint
 				- #question What is meant by ridges and valleys?
@@ -44,4 +44,3 @@ aliases:
 ## References
 
 [^1]: https://www.computerhope.com/jargon/t/twofactor-auth.htm
-[^2]: ChatGPT

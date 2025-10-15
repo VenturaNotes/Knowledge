@@ -3,11 +3,8 @@ aliases:
   - algebraic structure
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Algebraic structures are sets of elements equipped with one or more operations that satisfy certain properties or axioms. 
 	- #question Are all algebraic structures in terms of sets?
-
 ### Groups:
 - A group is a set of elements along with a single operation that satisfies four properties: [[closure]], [[associativity]], [[identity]], and [[invertibility]]
 	- Example: The set of integers $\mathbb{Z}$ under addition
@@ -45,7 +42,8 @@ aliases:
 - A [[monoid]] is a set with a single operation that is associative and has an identity element
 	- Example: The set of non-negative integers $\mathbb{Z}_{\ge 0}$ under addition.
 		- Closure and associativity hold, and there is an identity element (0) for addition
-
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 
