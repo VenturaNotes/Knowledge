@@ -5,7 +5,26 @@ aliases:
 ---
 ## Synthesis
 - Use `#` for a single line comment
-- Use `""" """` for multiline comments
+- For multi-line comments
+	- `'''3 apostrophes''''`
+	- `"""3 Double quotation marks """`
+
+### Multiline Comments
+#### Example 1
+```python
+"""
+This is a multi-line comment
+You can use 3 double-quotation markes for opening and closing
+"""
+```
+
+#### Example 2
+```python
+'''
+This is a multi-line comment
+Use 3 apostrophes for opening and closing
+'''
+```
 ## Source [^1]
 ### Examples
 

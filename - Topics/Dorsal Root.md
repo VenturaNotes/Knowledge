@@ -8,9 +8,9 @@ aliases: dorsal roots
 ## Source [^2]
 - Contains only sensory fibers
 ## Source[^3]
-- The part of a spinal nerve that enters the spinal cord on the dorsal side and contains only sensory fibres. The cell bodies of these fibres form the dorsal root ganglion (see GANGLION), a swelling in the root that lies just outside the cord. Compare VENTRAL ROOT.
+- The part of a spinal nerve that enters the spinal cord on the dorsal side and contains only sensory fibers. The cell bodies of these fibers form the dorsal root ganglion (see GANGLION), a swelling in the root that lies just outside the cord. Compare VENTRAL ROOT.
 ## Source[^4]
-- $n$. The short pathways into which a spinal nerve divides near its point of attachment to the back of the spinal cord, containing afferent or sensory fibres transmitting nerve impulses to the spinal cord. See also Bell-Magendie law, dorsal root ganglion. Compare ventral root.
+- $n$. The short pathways into which a spinal nerve divides near its point of attachment to the back of the spinal cord, containing afferent or sensory fibers transmitting nerve impulses to the spinal cord. See also Bell-Magendie law, dorsal root ganglion. Compare ventral root.
 ## References
 [^1]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^ak17yk]]
 [^2]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^38z2c6]]

@@ -19,7 +19,7 @@
 			- Erythrocytes (4-6 million per $mm^3$) (red cells)
 		- Platelets (250,000-400,000 per $mm^3$)
 ## Source[^3]
-- $n$. The fluid that is pumped through the arteries and veins by the heart to supply the tissues of the body with nutrients and oxygen, to remove waste products, and to transport hormones and other substances. In vertebrates it is red and is composed of a pale yellow fluid called plasma (1) in which are suspended erythrocytes, leucocytes, and platelets. See also BLOOD-BRAIN BARRIER, BLOOD GROUP, ERYTHROPOIETIN, HUMOUR (3).
+- $n$. The fluid that is pumped through the arteries and veins by the heart to supply the tissues of the body with nutrients and oxygen, to remove waste products, and to transport hormones and other substances. In vertebrates it is red and is composed of a pale yellow fluid called plasma (1) in which are suspended erythrocytes, leucocytes, and platelets. See also BLOOD-BRAIN BARRIER, BLOOD GROUP, ERYTHROPOIETIN, HUMOR (3).
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

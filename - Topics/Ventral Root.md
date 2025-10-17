@@ -8,7 +8,7 @@ aliases: ventral roots
 ## Source [^2]
 - Contains only motor fibers
 ## Source[^3]
-- The part of a spinal nerve that leaves the spinal cord on the ventral side and contains motor fibres. Compare DORSAL ROOT. See SPINAL CORD.
+- The part of a spinal nerve that leaves the spinal cord on the ventral side and contains motor fibers. Compare DORSAL ROOT. See SPINAL CORD.
 ## References
 
 [^1]: [[(Home Page) Neuroscience - Exploring the Brain by Mark F. Bear et al.#^zwj6i4]]

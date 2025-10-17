@@ -33,7 +33,7 @@ aster images can be viewed and changed using commercial raster (or bitmap) edito
 
   
 
-This system is used for diagrams, graphs, flow charts, engineering drawings, etc. It is suitable for relatively simple line drawings. The image is stored and manipulated as mathematical formulae producing lines, geometrical figures, and curves (e.g. Bezier curves). Regions of the illustration can be filled with colours or tints. Vector graphics are also the basis of the character outlines in scalable fonts. The main general formats are shown in the table.
+This system is used for diagrams, graphs, flow charts, engineering drawings, etc. It is suitable for relatively simple line drawings. The image is stored and manipulated as mathematical formulae producing lines, geometrical figures, and curves (e.g. Bezier curves). Regions of the illustration can be filled with colors or tints. Vector graphics are also the basis of the character outlines in scalable fonts. The main general formats are shown in the table.
 
 ![[A Dictionary of Computer Science [part 4]_img_4.jpeg]]
 

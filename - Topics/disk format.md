@@ -23,7 +23,7 @@ The common methods of encoding are as follows.
 
   
 
-In [[modified frequency modulation]] (MFM) a binary 1 is always represented by a transition at the centre of a bit cell but there is not always a transition at the boundary of the cell. A transition is written at the start of a bit cell only if it is to represent a binary 0 and does not follow a binary 1 . Thus the minimum separation between transitions is one cell and the maximum is two cells. For the same spacing of flux transitions the MFM method allows twice as many bits to be encoded in a unit distance; it is thus sometimes referred to as a double-density recording.
+In [[modified frequency modulation]] (MFM) a binary 1 is always represented by a transition at the center of a bit cell but there is not always a transition at the boundary of the cell. A transition is written at the start of a bit cell only if it is to represent a binary 0 and does not follow a binary 1 . Thus the minimum separation between transitions is one cell and the maximum is two cells. For the same spacing of flux transitions the MFM method allows twice as many bits to be encoded in a unit distance; it is thus sometimes referred to as a double-density recording.
 
   
 

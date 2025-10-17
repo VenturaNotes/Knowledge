@@ -20,7 +20,7 @@
 			- icosahedral head
 			- helically arranged protein subunits of tail
 		- Middle
-			- protein fibre
+			- protein fiber
 			- nucleic acid core
 			- protein subunits of capsid
 		- Top
@@ -29,7 +29,7 @@
 	- Descriptions
 		- In rod-shaped viruses, such as the tobacco mosaic virus, the protein subunits form a helical array and the nucleic acid (RNA) runs along an internal groove
 		- The capsid of an icosahedral virus, such as human adenovirus, takes the form of a polyhedron with 20 triangular faces (an icosahedron). The projecting protein fibres attach to surface receptors of their host cell in the initial phase of infection.
-		- Some bacteriophages, such as the T4 phage, have a more complex structure. The capsid is equipped with a hollow helical tail and tail fibres. After the tail fibres attach tot he surface of a host cell, the tail contracts and injects the viral DNA into the host bacterium. 
+		- Some bacteriophages, such as the T4 phage, have a more complex structure. The capsid is equipped with a hollow helical tail and tail fibers. After the tail fibers attach tot he surface of a host cell, the tail contracts and injects the viral DNA into the host bacterium. 
 
 #### Baltimore classification
 - A common method of classifying viruses is based on the nature of their genetic material (DNA or RNA) and how they convert that genetic information into viral messenger RNA (mRNA). It was devised by US biologist David Baltimore (1938- ). The viral mRNA strand that is translated into viral proteins by the host cell is always denoted the positive (+) sense strand, and the template strand from which it is copied is denoted as the negative (-) sense strand.

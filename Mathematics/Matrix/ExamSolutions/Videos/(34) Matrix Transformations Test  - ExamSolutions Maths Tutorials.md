@@ -11,7 +11,7 @@ Reviewed: false
 	- (1) A rotation of $270 \degree$, centre (0, 0)
 	- (2) An enlargement scale factor -2, centre (0, 0)
 	- (3) A reflection in the x-axis
-	- (4) A rotation of $90\degree$, centre(0,0)
+	- (4) A rotation of $90\degree$, center(0,0)
 	- (5) A stretch scale factor 2, parallel to the y-axis with the x-axis as [[invariant]]
 		- If x-axis invariant, the vector 1,0 is still going to remain at 1,0
 			- Any points on that axis stays the same

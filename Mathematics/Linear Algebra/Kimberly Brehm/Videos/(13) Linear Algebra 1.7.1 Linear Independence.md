@@ -6,7 +6,7 @@ Reviewed: false
 - ![[Screenshot 2024-12-18 at 3.45.09 PM.png]]
 	- [[Linear independence]]
 	- What does it mean?
-		- An indexed set of vectors {$v_1, v_2 ... v_p} in $\mathbb{R}^n$ is linearly independent if the vector equation $x_1v_1 + x_2v_2 + ... + x_pv_p = 0$ has only the [[trivial solution]]
+		- An indexed set of vectors {$v_1, v_2 ... v_p$} in $\mathbb{R}^n$ is linearly independent if the vector equation $x_1v_1 + x_2v_2 + ... + x_pv_p = 0$ has only the [[trivial solution]]
 			- $=0$ means we're dealing with a homogeneous system
 			- The trivial solution is when those scalars are all zero
 				- So if we have only that trivial solution, then we have the set of vectors being linearly independent

@@ -4,7 +4,7 @@
 - n. 
 - (1) the inner region of any organ or tissue when it is distinguishable from the outer region (the cortex), particularly the inner part of the kidney, adrenal glands, or lymph nodes. 
 - (2) see MEDULLA OBLONGATA. 
-- (3) the myelin layer of certain nerve fibres. $\textendash$medullary adj.
+- (3) the myelin layer of certain nerve fibers. $\textendash$medullary adj.
 ## Source[^2]
 - (pl. medullae) 
 - (1) (in zoology) The central tissue of various organs, including the adrenal glands (adrenal medulla) and kidneys (renal medulla). 

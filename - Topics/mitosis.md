@@ -46,7 +46,7 @@
 		- Telophase
 		- pole of spindle
 		- equator of spindle
-		- spindle fibres
+		- spindle fibers
 ## Source[^4]
 - $n$. A form of cell division of somatic cells in which each of the daughter nuclei contains the same number of chromosomes as the parent nucleus, this being the normal form of cell division except for the formation of gametes (see illustration). During prophase the nuclear membrane disappears and the chromosomes divide lengthwise into chromatids, which become the chromosomes of the daughter cells; during metaphase nuclear spindles are formed, and the chromosomes attach themselves to the equator of the spindles by their centromeres; during anaphase the newly duplicated chromosomes separate and migrate to opposite ends of the spindles; and during the final telophase the cell pinches in the middle and a nuclear membrane forms around the chromosomes at each end. The movements taking place during mitosis are controlled by the cell's cytoskeleton, and especially by movements of microtubules. Compare meiosis (1). mitotic adj. mitotic clock See telomere. \[From Greek mitos a thread + -osis indicating a process or state]
 - ![[Screenshot 2025-09-11 at 6.32.36 PM.png|400]]

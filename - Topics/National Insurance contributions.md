@@ -11,7 +11,7 @@
 - https://www.gov.uk/national-insurance-rates-letters
 	- Guide to NICs from the Gov.uk website
 ## Source[^2]
-- (NICs) Charges levied in the UK on employees, employers, and the self-employed to help pay for social security. These contributions are levied as fixed percentages of wages, with exemptions for very low incomes. NICs form part of the tax wedge between the cost of labour to employers and the cash benefit of working to their employees.
+- (NICs) Charges levied in the UK on employees, employers, and the self-employed to help pay for social security. These contributions are levied as fixed percentages of wages, with exemptions for very low incomes. NICs form part of the tax wedge between the cost of labor to employers and the cash benefit of working to their employees.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

@@ -260,7 +260,7 @@ Reviewed: false
 	211. [[age and life-cycle segmentation]]
 	212. age discrimination
 		1. See discrimination
-	213. [[ageing schedule]]
+	213. [[aging schedule]]
 	214. [[agency agreement]]
 	215. [[agency fee]]
 	216. [[agency loan]]
@@ -491,7 +491,7 @@ Reviewed: false
 	386. [[assented stock]]
 	387. [[assertiveness training]]
 	388. [[assessment]]
-	389. [[assessment centre]]
+	389. [[assessment center]]
 	390. assessor
 		1. See loss assessor
 	391. [[asset]]
@@ -1125,7 +1125,7 @@ Reviewed: false
 	925. [[buyers' market]]
 	926. [[buyers over]]
 	927. [[buygrid]]
-	928. [[buying centre]]
+	928. [[buying center]]
 	929. [[buying forward]]
 	930. [[buying in]]
 	931. [[BV]]
@@ -1351,7 +1351,7 @@ Reviewed: false
 	1107. [[central bank discount rate]]
 	1108. [[centralization]]
 	1109. [[central location telephone interviewing]]
-	1110. [[centre-of-gravity method]]
+	1110. [[center-of-gravity method]]
 	1111. CEO
 		1. Abbreviation for chief executive officer
 	1112. [[certain annuity]]
@@ -1693,7 +1693,7 @@ Reviewed: false
 	1387. [[competitive exclusion]]
 	1388. [[competitiveness]]
 	1389. [[competitive strategy]]
-	1390. [[competitor-centred company]]
+	1390. [[competitor-centered company]]
 	1391. [[competitor analysis]]
 	1392. [[competitor intelligence]]
 	1393. [[completion]]
@@ -2111,7 +2111,7 @@ Reviewed: false
 	1749. current yield
 		1. See yield
 	1750. [[curriculum vitae]]
-	1751. [[customer-centred company]]
+	1751. [[customer-centered company]]
 	1752. customer-level activities
 		1. See activity
 	1753. customer acquisition costs
@@ -2416,8 +2416,8 @@ Reviewed: false
 	2005. direct investment
 		1. See foreign investment
 	2006. [[directive]]
-	2007. [[direct labour]]
-	2008. [[direct labour cost]]
+	2007. [[direct labor]]
+	2008. [[direct labor cost]]
 	2009. direct letter of credit
 		1. See letter of credit
 	2010. [[direct marketing]]
@@ -2485,7 +2485,7 @@ Reviewed: false
 	2067. [[distributed processing]]
 	2068. [[distribution]]
 	2069. [[distribution bond]]
-	2070. [[distribution centre]]
+	2070. [[distribution center]]
 	2071. [[distribution channel]]
 	2072. [[distribution overhead]]
 	2073. [[distribution to owners]]
@@ -4060,7 +4060,7 @@ Reviewed: false
 	3343. [[indirect costs]]
 	3344. indirect discrimination
 		1. See discrimination
-	3345. [[indirect labour]]
+	3345. [[indirect labor]]
 	3346. [[indirect materials]]
 	3347. [[indirect method]]
 	3348. [[indirect quote]]
@@ -4519,8 +4519,8 @@ Reviewed: false
 	3725. labor union
 		1. US name for a trade union
 	3726. [[labour-intensive]]
-	3727. [[labour costs]]
-	3728. [[labour turnover rate]]
+	3727. [[labor costs]]
+	3728. [[labor turnover rate]]
 	3729. [[laches]]
 	3730. [[laddered portfolio]]
 	3731. [[Lady Macbeth strategy]]
@@ -4931,7 +4931,7 @@ Reviewed: false
 	4080. [[marker barrel]]
 	4081. [[market]]
 	4082. [[market-based transfer prices]]
-	4083. [[market-centred company]]
+	4083. [[market-centered company]]
 	4084. market-product strategy
 		1. See product-market strategy
 	4085. [[market-skimming pricing]]
@@ -5194,7 +5194,7 @@ Reviewed: false
 	4295. [[mobile advertising]]
 	4296. [[mobile commerce]]
 	4297. [[mobility barriers]]
-	4298. [[mobility of labour]]
+	4298. [[mobility of labor]]
 	4299. [[mock auction]]
 	4300. mode
 		1. See normal distribution
@@ -5627,7 +5627,7 @@ Reviewed: false
 	4639. [[offset]]
 	4640. [[offsetting swap]]
 	4641. offshore banking
-		1. See offshore financial centres
+		1. See offshore financial centers
 	4642. [[offshore company]]
 	4643. [[offshore financial centres]]
 	4644. [[offshore fund]]
@@ -6375,7 +6375,7 @@ Reviewed: false
 	5250. [[production]]
 	5251. [[production-unit method]]
 	5252. [[production cost]]
-	5253. [[production cost centre]]
+	5253. [[production cost center]]
 	5254. [[production cost variance]]
 	5255. [[production department]]
 	5256. [[production order]]
@@ -6669,7 +6669,7 @@ Reviewed: false
 		1. See interest rate
 	5501. [[rate of return]]
 	5502. [[rate of turnover]]
-	5503. [[rate per direct labour hour]]
+	5503. [[rate per direct labor hour]]
 	5504. [[rate per machine hour]]
 	5505. [[rate per standard hour]]
 	5506. [[rate per unit]]
@@ -7284,7 +7284,7 @@ Reviewed: false
 	6011. [[server]]
 	6012. [[service]]
 	6013. [[service contract]]
-	6014. [[service cost centre]]
+	6014. [[service cost center]]
 	6015. service industry
 		1. See service
 	6016. [[service level]]
@@ -7414,7 +7414,7 @@ Reviewed: false
 		1. See at sight
 	6122. [[sight deposit]]
 	6123. [[sight draft]]
-	6124. [[signalling hypothesis]]
+	6124. [[signaling hypothesis]]
 	6125. simple interest
 		1. See interest
 	6126. [[simplified financial statements]]
@@ -7640,7 +7640,7 @@ Reviewed: false
 	6302. [[standard costing]]
 	6303. [[standard deviation]]
 	6304. [[standard direct labour cost]]
-	6305. [[standard direct labour rate]]
+	6305. [[standard direct labor rate]]
 	6306. [[standard direct materials cost]]
 	6307. [[standard direct materials price]]
 	6308. [[standard fixed overhead cost]]
@@ -8351,7 +8351,7 @@ Reviewed: false
 	6897. [[unconsolidated subsidiary]]
 	6898. [[uncontrollable costs]]
 	6899. uncontrollable turnover
-		1. See labour turnover rate
+		1. See labor turnover rate
 	6900. uncoupling inventory
 		1. See inventory
 	6901. UNCTAD
@@ -8410,7 +8410,7 @@ Reviewed: false
 	6944. [[United Nations Conference on Trade and Development]]
 	6945. [[United Nations Industrial Development Organization]]
 	6946. [[unitization]]
-	6947. [[unit labour costs]]
+	6947. [[unit labor costs]]
 	6948. [[unit of account]]
 	6949. [[unit price]]
 	6950. [[unit pricing]]

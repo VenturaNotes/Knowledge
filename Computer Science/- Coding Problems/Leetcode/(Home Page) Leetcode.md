@@ -1216,7 +1216,7 @@ Reviewed: false
 	- [[(1512) Number of Good Pairs]]
 	- [[(1513) Number of Substrings With Only 1s]]
 	- [[(1514) Path with Maximum Probability]]
-	- [[(1515) Best Position for a Service Centre]]
+	- [[(1515) Best Position for a Service Center]]
 	- [[(1518) Water Bottles]]
 	- [[(1519) Number of Nodes in the Sub-Tree With the Same Label]]
 	- [[(1520) Maximum Number of Non-Overlapping Substrings]]

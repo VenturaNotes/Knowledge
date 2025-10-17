@@ -3,7 +3,7 @@
 ## Source [^1]
 - Sensory nerve responsible for transmitting information about olfaction, or smell, to the brain
 ## Source[^2]
-- the first cranial nerve (I): the special sensory nerve of smell. Fibres of the nerve run upwards from smell receptors in the nasal mucosa high in the roof of the nose, through minute holes in the skull, join to form the olfactory tract, and pass back to reach the brain.
+- the first cranial nerve (I): the special sensory nerve of smell. Fibers of the nerve run upwards from smell receptors in the nasal mucosa high in the roof of the nose, through minute holes in the skull, join to form the olfactory tract, and pass back to reach the brain.
 ## Source[^3]
 - $n$. Either of the first pair of cranial nerves, supplying the organ of smell and unusual among sensory pathways in being connected via the olfactory tract directly to the brain from the olfactory bulb. See also OLFACTION.
 ## References

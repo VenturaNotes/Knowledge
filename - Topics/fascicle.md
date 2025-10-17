@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- (1) (fasciculation) A small bundle of nerve or muscle fibres. 
+- (1) (fasciculation) A small bundle of nerve or muscle fibers. 
 - (2) See vascular BUNDLE.
 ## References
 

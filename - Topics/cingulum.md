@@ -2,7 +2,7 @@
 - 
 ## Source [^1]
 - $n$. (pl. cingula) 
-- (1) a curved bundle of nerve fibres in each cerebral hemisphere, nearly encircling its connection with the corpus callosum. See CEREBRUM. 
+- (1) a curved bundle of nerve fibers in each cerebral hemisphere, nearly encircling its connection with the corpus callosum. See CEREBRUM. 
 - (2) a small protuberance on the lingual surface of the crowns of incisor and canine teeth.
 ## Source[^2]
 - $n$. The white matter within the cingulate gyrus.

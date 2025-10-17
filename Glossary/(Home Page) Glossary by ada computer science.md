@@ -134,7 +134,7 @@ Reviewed: false
 	50. [[Code review]]
 	51. [[Collision (hashing)]]
 	52. [[Collision (networking)]]
-	53. [[Colour depth]]
+	53. [[Color depth]]
 	54. [[Commitment ordering]]
 	55. [[Comparison operators]]
 	56. [[Compiler]]

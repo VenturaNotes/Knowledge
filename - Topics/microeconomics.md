@@ -12,7 +12,7 @@
 ## Source[^1]
 - [[Ordinal utility theory]] assumes that consumers can rank baskets of goods as to their preference
 ## Source[^2]
-- The analysis of economic behavior at the level of individual market participants, chiefly individual businesses or consumers. For an individual or household microeconomics is concerned with the optimal allocation of a given budget, the labour supply choice, and the effects of taxation. For a business it is largely concerned with the production process, costs, and the marketing of output, dependent on the type of competition faced. Compare MACROECONOMICS.
+- The analysis of economic behavior at the level of individual market participants, chiefly individual businesses or consumers. For an individual or household microeconomics is concerned with the optimal allocation of a given budget, the labor supply choice, and the effects of taxation. For a business it is largely concerned with the production process, costs, and the marketing of output, dependent on the type of competition faced. Compare MACROECONOMICS.
 ## Source[^3]
 - The micro aspects of economics, concerning the decision-making of individuals. Microeconomics analyses the choices of consumers (who can be individuals or households) and firms in a variety of market situations. Its aim is to explore how choices should be made, and to provide an explanation of choices that are made. Microeconomics also considers economies composed of individual decision-makers, and studies the existence and properties of economic equilibrium. The effect of government choices upon consumers and firms is also analyzed, with the aim of understanding economic policy. See also APPLIED MICROECONOMICS.
 ## References

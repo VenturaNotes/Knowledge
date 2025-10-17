@@ -5,7 +5,7 @@
 ## Source[^2]
 - A micropipette filled with a physiologically appropriate electrolyte solution (e.g. potassium chloride), whose tip can be inserted through the plasma membrane into cells without major disturbance to cellular function. It can be used to detect changes in electrical potential, for example during the passage of an action potential along a nerve cell. A second electrode is immersed in the extracellular fluid, and both electrodes are connected via an amplifier to an oscilloscope.
 ## Source[^3]
-- $n$. A fine insulated wire with an extremely narrow tip, usually between one-half and five microns (micrometres or millionths of a metre) in diameter, that when inserted close enough to a neuron can detect its individual electrical signals or can be used to stimulate the neuron. \[From Greek mikros small + elektron amber (in which electricity was first observed) + hodos a way]
+- $n$. A fine insulated wire with an extremely narrow tip, usually between one-half and five microns (micrometers or millionths of a meter) in diameter, that when inserted close enough to a neuron can detect its individual electrical signals or can be used to stimulate the neuron. \[From Greek mikros small + elektron amber (in which electricity was first observed) + hodos a way]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

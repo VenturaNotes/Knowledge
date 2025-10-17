@@ -8,7 +8,7 @@
 - ![[Screenshot 2025-08-13 at 3.45.31 PM.png|300]]
 	- A crista
 	- Parts
-		- fibres of vestibular nerve
+		- fibers of vestibular nerve
 		- hair cells
 		- supporting cells
 		- processes of hair cell

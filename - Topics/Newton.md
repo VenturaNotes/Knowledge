@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- $n$. the SI unit of force, equal to the force required to impart to 1 kilogram an acceleration of 1 metre per second per second. Symbol: N.
+- $n$. the SI unit of force, equal to the force required to impart to 1 kilogram an acceleration of 1 meter per second per second. Symbol: N.
 ## Source[^2]
 - Symbol N. The SI unit of force, being the force required to give a mass of one kilogram an acceleration of $1 \mathrm{~m} \mathrm{~s}^{-2}$. It is named after Sir Isaac Newton (1642-1727).
 ## References

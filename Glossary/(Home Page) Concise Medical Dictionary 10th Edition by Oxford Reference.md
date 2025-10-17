@@ -237,7 +237,7 @@ Reviewed: false
 	180. [[adenoids]]
 	
 	181. adenolymphoma
-		1. $n$. see WARTHIN's TUMOUR.
+		1. $n$. see WARTHIN's TUMOR.
 	182. [[adenoma]]
 	183. [[adenoma sebaceum]]
 	184. adenomyosis
@@ -1883,7 +1883,7 @@ Reviewed: false
 	1455. brainstem evoked response audiometry
 		1. see AUDITORY BRAINSTEM RESPONSE AUDIOMETRY.
 	1456. brain tumor
-		1. see CEREBRAL TUMOUR.
+		1. see CEREBRAL TUMOR.
 	1457. branchial arch
 		1. see PHARYNGEAL CLEFT.
 	1458. branchial cleft
@@ -2423,7 +2423,7 @@ Reviewed: false
 	1880. [[central venous catheter]]
 	
 	1881. [[central venous pressure]]
-	1882. [[centre]]
+	1882. [[center]]]
 	1883. [[centrencephalic]]
 	1884. [[centri-]]
 	1885. [[centrifugal]]
@@ -2568,12 +2568,12 @@ Reviewed: false
 	1995. [[Child-Turcotte-Pugh score]]
 	1996. [[child abuse]]
 	1997. childbirth
-		1. n. see labour
+		1. n. see labor
 	1998. [[child health clinic]]
 	1999. [[child protection register]]
 	2000. [[Children's Auditory Performance Scale]]
 	
-	2001. [[children's centre]]
+	2001. [[children's center]]
 	2002. [[Chinese herb nephropathy]]
 	2003. [[chir-]]
 	2004. chiropody
@@ -3959,7 +3959,7 @@ Reviewed: false
 	3102. [[dieldrin]]
 	3103. [[diencephalon]]
 	3104. [[diet]]
-	3105. [[dietary fibre]]
+	3105. [[dietary fiber]]
 	3106. [[Dietary Reference Values]]
 	3107. [[dietetics]]
 	3108. [[diethylcarbamazine]]
@@ -6399,7 +6399,7 @@ Reviewed: false
 	5031. [[health board]]
 	5032. health care
 		1. see PRIMARY CARE; SECONDARY CARE; TERTIARY CARE.
-	5033. [[health centre]]
+	5033. [[health center]]
 	5034. [[health education]]
 	5035. [[Health Education England]]
 	5036. [[health impact assessment]]
@@ -7870,7 +7870,7 @@ Reviewed: false
 		1. see MOUTH-TO-MOUTH RESUSCITATION.
 	
 	6191. [[kisspeptin]]
-	6192. Klatskin tumour
+	6192. Klatskin tumor
 		1. see CHOLANGIOCARCINOMA. \[G. Klatskin (20th century), US physician]
 	6193. Klebs-Loeffler bacillus
 		1. see Corynebacterium. \[T. Klebs (1834-1913) and F. A. J. Loeffler (1852-1915), German bacteriologists]
@@ -10156,7 +10156,7 @@ Reviewed: false
 	7987. [[obstetric cholestasis]]
 	7988. [[obstetrics]]
 	7989. [[obstipation]]
-	7990. [[obstructed labour]]
+	7990. [[obstructed labor]]
 	
 	7991. obstructive airways disease
 		1. see BRONCHOSPASM.
@@ -10902,7 +10902,7 @@ Reviewed: false
 	8592. [[Part III accommodation]]
 	8593. [[partogram]]
 	8594. parturition
-		1. $n$. childbirth. See LABOUR.
+		1. $n$. childbirth. See LABOR.
 	8595. parulis
 		1. $n$. see EPULIS.
 	8596. [[parvi-]]
@@ -12578,7 +12578,7 @@ Reviewed: false
 	9924. [[rash]]
 	9925. [[Rasmussen's encephalitis]]
 	9926. [[raspatory]]
-	9927. [[raspberry tumour]]
+	9927. [[raspberry tumor]]
 	9928. [[rat-bite fever]]
 	9929. Rathke's pouch
 		1. see CRANIOPHARYNGIOMA.
@@ -15221,10 +15221,10 @@ Reviewed: false
 	12011. [[tumid]]
 	12012. [[tumor]]
 	12013. [[tumour]]
-	12014. [[tumour-associated antigen]]
+	12014. [[tumor-associated antigen]]
 	12015. [[tumour-infiltrating lymphocyte]]
 	12016. [[tumour marker]]
-	12017. [[tumour necrosis factor]]
+	12017. [[tumor necrosis factor]]
 	12018. [[Tunga]]
 	12019. [[tunica]]
 	12020. [[tunnel]]
@@ -15963,7 +15963,7 @@ Reviewed: false
 	
 	12581. [[Williams syndrome]]
 	12582. [[Williams vulvovaginoplasty]]
-	12583. Wilms' tumour
+	12583. Wilms' tumor
 		1. see NEPHROBLASTOMA. \[M. Wilms (1867-1918), German surgeon]
 	12584. [[Wilson's disease]]
 	12585. [[windigo psychosis]]

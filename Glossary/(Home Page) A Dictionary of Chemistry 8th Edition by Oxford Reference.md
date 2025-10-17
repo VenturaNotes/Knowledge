@@ -288,7 +288,7 @@ Reviewed: false
 	266. anaerobic
 	267. anaerobic ammonium oxidation
 	268. Analar reagent
-	269. analyser
+	269. analyzer
 	270. analysis
 	271. anchimeric assistance
 	272. ancient DNA
@@ -875,7 +875,7 @@ Reviewed: false
 	851. carbon dating
 	852. carbon dioxide
 	853. carbon disulphide
-	854. carbon fibres
+	854. carbon fibers
 	855. carbonic acid
 	856. carbonium ion
 	857. carbonize
@@ -1020,7 +1020,7 @@ Reviewed: false
 	996. chemical potential
 	997. chemical reaction
 	998. chemical shift
-	999. chemical vapour deposition
+	999. chemical vapor deposition
 	1000. chemical warfare
 	1001. Chemical Weapons Convention
 	1002. chemiluminescence
@@ -1182,9 +1182,9 @@ Reviewed: false
 	1158. colloids
 	1159. colophony
 	1160. colorimetric analysis
-	1161. colour centre
-	1162. colour index
-	1163. colour photography
+	1161. color center
+	1162. color index
+	1163. color photography
 	1164. columbium
 	1165. column chromatography
 	1166. combinatorial chemistry
@@ -1797,7 +1797,7 @@ Reviewed: false
 	1773. electrophile
 	1774. electrophilic addition
 	1775. electrophilic substitution
-	1776. electrophoresis
+	1776. [[electrophoresis]]
 	1777. [[electrophoretic deposition]]
 	1778. electrophoretic effect
 	1779. [[electroplating]]
@@ -1809,11 +1809,11 @@ Reviewed: false
 	1785. elementary particle
 	1786. elementary reaction
 	1787. elevation of boiling point
-	1788. elimination reaction
+	1788. [[elimination reaction]]
 	1789. Elinvar
 	1790. Ellingham diagram
 	1791. elliptical polarization
-	1792. elongation((in protein synthesis))
+	1792. [[elongation]]
 	1793. eluate
 	1794. eluent
 	1795. elution
@@ -1967,7 +1967,7 @@ Reviewed: false
 	1943. f.c.c.
 	1944. FAB mass spectroscopy
 	1945. fac-isomer
-	1946. face-centred cubic
+	1946. face-centered cubic
 	1947. FAD
 	1948. Fahrenheit, Gabriel Daniel (1686–1736)
 	1949. Fahrenheit scale
@@ -3014,7 +3014,7 @@ Reviewed: false
 	2990. Lotka–Volterra mechanism
 	2991. low-dimensional solid
 	2992. low-energy electron diffraction
-	2993. lowering of vapour pressure
+	2993. lowering of vapor pressure
 	2994. lowest unoccupied molecular orbital
 	2995. Lowry-Brønsted theory
 	2996. LSD
@@ -3227,7 +3227,7 @@ Reviewed: false
 	3203. methyl violet
 	3204. methylxanthines
 	3205. metol
-	3206. metre
+	3206. meter
 	3207. metric system
 	3208. Meyer, Viktor (1848–97)
 	3209. mica
@@ -5094,8 +5094,8 @@ Reviewed: false
 	5070. van der Waals’ equation
 	5071. van der Waals’ force
 	5072. Van Urk’s reagent
-	5073. vapour density
-	5074. vapour pressure
+	5073. vapor density
+	5074. vapor pressure
 	5075. variational principle
 	5076. Vaseline
 	5077. verdigris

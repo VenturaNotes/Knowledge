@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2023-07-15 at 8.09.32 PM.png]]
-	- Rotation of $90\degree$, centre the origin
+	- Rotation of $90\degree$, center the origin
 		- Goes anticlockwise
 	- The [[transformation matrix]] is 
 		- $\begin{bmatrix}0 & -1\\ 1 & 0\end{bmatrix}$

@@ -4,5 +4,5 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2023-07-15 at 8.38.07 PM.png]]
-	- [[Enlargement scale factor]] k, k < 0 centre (0, 0)
+	- [[Enlargement scale factor]] k, k < 0 center (0, 0)
 	- [[Transformation matrix]]

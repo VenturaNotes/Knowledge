@@ -8,7 +8,7 @@
 		- Spinal nerve
 		- receptor, e.g. sensory cells in the skin
 		- direction of impulse
-		- sensory nerve fibre
+		- sensory nerve fiber
 		- dorsal root ganglion
 		- cell body
 		- synapse

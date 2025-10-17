@@ -5,7 +5,7 @@
 ## Source[^2]
 - (gall) A bitter-tasting greenish-yellow alkaline fluid produced by the liver, stored in the gall bladder, and secreted into the duodenum of vertebrates. It assists the digestion and absorption of fats by the action of bile salts, which decrease the surface tension of fat droplets so that they are emulsified, hence increasing their surface area exposed to the action of lipase enzymes. It may also stimulate gut muscle contraction (peristalsis). Bile contains the bile pigments, bilirubin and biliverdin, which are produced by the breakdown of the blood pigment haemoglobin and subsequently eliminated in faeces.
 ## Source[^3]
-- $n$. A viscous bitter greenish or golden brown alkaline fluid secreted by the liver, stored in the gall bladder, and discharged into the duodenum during digestion for the emulsification and absorption of fats. See also humour (3). \[From Latin bilis bile]
+- $n$. A viscous bitter greenish or golden brown alkaline fluid secreted by the liver, stored in the gall bladder, and discharged into the duodenum during digestion for the emulsification and absorption of fats. See also humor (3). \[From Latin bilis bile]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

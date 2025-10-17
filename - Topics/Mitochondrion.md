@@ -11,7 +11,7 @@ aliases:
 - https://biologywise.com/mitochondria-structure-functions
 	- Overview of mitochondrial structure and function from BiologyWise
 ## Source[^3]
-- $n$. Any of the tiny (from two to five micrometres long) bean-shaped bodies that are evolutionarily descended from a free-living bacterium and are present in the cytoplasm of every cell, in large numbers in cells with heavy energy demands, releasing through the Krebs cycle most of the energy that cells, tissues, and organs of the body require to function. See also CRISTA, MITOCHONDRIAL DNA, PLASMAGENE. mitochondria pl. mitochondrial adj. \[From Greek mitos a thread + chondros cartilage, as the German biologist Carl Benda (1857-1933) mistakenly thought it was when he named mitochondria in 1898]
+- $n$. Any of the tiny (from two to five micrometers long) bean-shaped bodies that are evolutionarily descended from a free-living bacterium and are present in the cytoplasm of every cell, in large numbers in cells with heavy energy demands, releasing through the Krebs cycle most of the energy that cells, tissues, and organs of the body require to function. See also CRISTA, MITOCHONDRIAL DNA, PLASMAGENE. mitochondria pl. mitochondrial adj. \[From Greek mitos a thread + chondros cartilage, as the German biologist Carl Benda (1857-1933) mistakenly thought it was when he named mitochondria in 1898]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
