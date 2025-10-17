@@ -1781,7 +1781,7 @@ Reviewed: false
 	1757. electron energy loss spectroscopy
 	1758. electron flow
 	1759. electron gas
-	1760. electronic effects
+	1760. [[electronic effects]]
 	1761. electronic spectra of molecules
 	1762. electron ionization
 	1763. electron microscope
@@ -1800,7 +1800,7 @@ Reviewed: false
 	1776. electrophoresis
 	1777. [[electrophoretic deposition]]
 	1778. electrophoretic effect
-	1779. electroplating
+	1779. [[electroplating]]
 	1780. electropositive
 	1781. electrospray ionization
 	1782. electrovalent bond
@@ -1825,7 +1825,7 @@ Reviewed: false
 	1801. emission spectrum
 	1802. empirical
 	1803. empirical formula
-	1804. emulsification((in digestion))
+	1804. [[emulsification]]
 	1805. emulsion
 	1806. en
 	1807. enamine
