@@ -162,7 +162,7 @@ Reviewed: false
 	124. agamospermy
 		1. See apomixis
 	125. [[agar]]
-	126. ageing
+	126. aging
 		1. See senescence
 	127. [[age polyethism]]
 	128. [[agglutination]]
@@ -1179,7 +1179,7 @@ Reviewed: false
 	995. [[cardiac cycle]]
 	996. [[cardiac muscle]]
 	997. [[cardiac output]]
-	998. [[cardiovascular centre]]
+	998. [[cardiovascular center]]
 	999. cardiovascular system
 		1. See CIRCULATORY SYSTEM.
 	1000. [[carnassial teeth]]
@@ -1279,7 +1279,7 @@ Reviewed: false
 		1. See CHILOPODA.
 	1080. [[Central Dogma]]
 	1081. [[central nervous system]]
-	1082. [[centre]]
+	1082. [[center]]
 	1083. [[centric fusion]]
 	1084. [[centrifuge]]
 	1085. [[centriole]]
@@ -1893,7 +1893,7 @@ Reviewed: false
 	1592. [[detritus]]
 	1593. [[detrusor muscle]]
 	1594. deuteranopia
-		1. See COLOUR BLINDNESS.
+		1. See COLOR BLINDNESS.
 	1595. [[Deuteromycota]]
 	1596. [[deuterostome]]
 	1597. [[deutoplasm]]
@@ -2435,7 +2435,7 @@ Reviewed: false
 		1. See SYSTEMATICS.
 	2035. [[expiration]]
 	2036. expiratory centre
-		1. See VENTILATION CENTRE.
+		1. See VENTILATION CENTER.
 	2037. [[exponential growth]]
 	2038. [[expressed sequence tag]]
 	2039. [[expression vector]]
@@ -3440,7 +3440,7 @@ Reviewed: false
 	2840. [[insight learning]]
 	2841. [[in silico]]
 	2842. [[inspiration]]
-	2843. [[inspiratory centre]]
+	2843. [[inspiratory center]]
 	2844. [[instar]]
 	2845. [[instinct]]
 	2846. [[insula]]
@@ -4167,7 +4167,7 @@ Reviewed: false
 		1. See SPOROPHYLL.
 	3408. [[microtome]]
 	3409. [[microtubule]]
-	3410. [[microtubule-organizing centre]]
+	3410. [[microtubule-organizing center]]
 	3411. [[microvillus]]
 	3412. [[micturition]]
 	3413. [[midbrain]]
@@ -6588,7 +6588,7 @@ Reviewed: false
 	5322. [[systemic acquired resistance]]
 	5323. [[systemic arch]]
 	5324. [[systemic circulation]]
-	5325. [[systemic signalling]]
+	5325. [[systemic signaling]]
 	5326. [[systems biology]]
 	5327. [[systems ecology]]
 	5328. [[systole]]
@@ -6929,7 +6929,7 @@ Reviewed: false
 	5589. tumour
 		1. See neoplasm
 	5590. [[tumour-suppressor gene]]
-	5591. [[tumour necrosis factor]]
+	5591. [[tumor necrosis factor]]
 	5592. [[tundra]]
 	5593. tunicates
 		1. See UROCHORDATA.
@@ -6945,9 +6945,9 @@ Reviewed: false
 		1. See middle ear
 	5602. [[tympanum]]
 	5603. type I fibre
-		1. See SLOW-TWITCH FIBRE.
+		1. See SLOW-TWITCH FIBER.
 	5604. type II fibre
-		1. See FAST-TWITCH FIBRE.
+		1. See FAST-TWITCH FIBER.
 	5605. [[type specimen]]
 	5606. [[typological species concept]]
 	5607. [[tyramine]]
@@ -7049,7 +7049,7 @@ Reviewed: false
 		1. See VIP.
 	5688. [[vasoconstriction]]
 	5689. [[vasodilation]]
-	5690. [[vasomotor centre]]
+	5690. [[vasomotor center]]
 	5691. [[vasomotor nerves]]
 	5692. vasopressin
 		1. See ANTIDIURETIC HORMONE.

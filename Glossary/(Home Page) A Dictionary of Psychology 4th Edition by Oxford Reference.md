@@ -579,7 +579,7 @@ Reviewed: false
 	459. [[ancient mariner effect]]
 	460. [[androgen]]
 	
-	461. androgen decline in the ageing male
+	461. androgen decline in the aging male
 		1. $n$. A form of irritable male syndrome. US aging. ADAM abbrev.
 	462. [[androgenization]]
 	463. [[androgenous]]
@@ -991,7 +991,7 @@ Reviewed: false
 	786. [[auditory beat]]
 	787. [[auditory canal]]
 	788. [[auditory cortex]]
-	789. [[auditory egocentre]]
+	789. [[auditory egocenter]]
 	790. [[auditory fatigue]]
 	
 	791. [[auditory flutter]]
@@ -1673,8 +1673,8 @@ Reviewed: false
 	1310. cardiac psychology
 		1. n. Another name for psychocardiology
 	
-	1311. cardinal humour
-		1. See humour (3)
+	1311. cardinal humor
+		1. See humor (3)
 	1312. [[cardinal vowels]]
 	1313. [[caretaker speech]]
 	1314. [[caricature advantage]]
@@ -2018,7 +2018,7 @@ Reviewed: false
 	1581. [[client]]
 	1582. [[client-centred therapy]]
 	1583. [[climacteric]]
-	1584. [[climbing fibre]]
+	1584. [[climbing fiber]]
 	1585. [[Clinical History Schedule]]
 	1586. [[clinical prediction]]
 	1587. [[clinical psychology]]
@@ -2563,7 +2563,7 @@ Reviewed: false
 	2000. [[correlation]]
 	
 	2001. [[correlational study]]
-	2002. [[correlation centre]]
+	2002. [[correlation center]]
 	2003. [[correlation coefficient]]
 	2004. [[correlation ratio]]
 	2005. [[correlogram]]
@@ -4175,8 +4175,8 @@ Reviewed: false
 	3251. [[feature theory]]
 	3252. [[Fechner's law]]
 	3253. [[Fechner's paradox]]
-	3254. Fechner-Benham colours
-		1. $n$. Another name for pattern-induced flicker colours induced by Benham's top. US Fechner-Benham colors. Also called Fechner colours or subjective colours. \[Named after the German philosopher, physician, psychologist, and mystic Gustav Theodor Fechner (1801-87) who discovered the phenomenon in 1838 using a disc with 18 progressively longer arcs and the English amateur scientist and polymath Charles Edwin Benham (1860-1929) who rediscovered the phenomenon in its more familiar form in 1894]
+	3254. Fechner-Benham colors
+		1. $n$. Another name for pattern-induced flicker colors induced by Benham's top. US Fechner-Benham colors. Also called Fechner colors or subjective colors. \[Named after the German philosopher, physician, psychologist, and mystic Gustav Theodor Fechner (1801-87) who discovered the phenomenon in 1838 using a disc with 18 progressively longer arcs and the English amateur scientist and polymath Charles Edwin Benham (1860-1929) who rediscovered the phenomenon in its more familiar form in 1894]
 	3255. feeble-mindedness
 		1. $n$. An obsolescent term for intellectual disability.
 	3256. [[feedback]]
@@ -7582,7 +7582,7 @@ Reviewed: false
 	5843. [[neurotoxin]]
 	5844. [[neurotransmitter]]
 	5845. [[neurotropic virus]]
-	5846. neutral colour
+	5846. neutral color
 		1. n. Another name for an achromatic (1) color. US neutral color.
 	5847. neutral grey
 		1. n. Another name for an achromatic (1) color. US neutral gray.
@@ -7909,7 +7909,7 @@ Reviewed: false
 	
 	6091. ommatidium
 	6092. omnivore
-	6093. on-centre cell
+	6093. on-center cell
 	6094. onanism
 	6095. Ondine's curse
 	6096. one-group pretest-posttest design
@@ -8168,7 +8168,7 @@ Reviewed: false
 	6326. panic disorder
 	6327. pansexualism
 	6328. pantheism
-	6329. panting centre
+	6329. panting center
 	6330. Panum's fusion area
 	
 	6331. Panum's limiting case
@@ -8329,7 +8329,7 @@ Reviewed: false
 	6472. patriarchy
 	6473. patrilineal
 	6474. patrist
-	6475. pattern-induced flicker colour
+	6475. pattern-induced flicker color
 	6476. pattern discrimination
 	6477. patterning
 	6478. pattern masking
@@ -8902,7 +8902,7 @@ Reviewed: false
 	6993. primary abilities
 	6994. primary anxiety
 	6995. primary auditory cortex
-	6996. primary colour
+	6996. primary color
 	6997. primary drive
 	6998. primary emotions
 	6999. primary gain
@@ -8936,7 +8936,7 @@ Reviewed: false
 	7024. priming
 	7025. primordial image
 	7026. principal-components analysis
-	7027. principal colour
+	7027. principal color
 	7028. principal sulcus
 	7029. principle of constancy
 	7030. principle of equipotentiality
@@ -9419,7 +9419,7 @@ Reviewed: false
 	7463. recruitment
 	7464. rectus muscle
 	7465. red-green cell
-	7466. red-green colour-blindness
+	7466. red-green color-blindness
 	7467. red blood cell
 	7468. red devils
 	7469. redintegration
@@ -9811,7 +9811,7 @@ Reviewed: false
 	7820. second-order approximation to language
 	
 	7821. secondary advantage
-	7822. secondary colour
+	7822. secondary color
 	7823. secondary drive
 	7824. secondary elaboration
 	7825. secondary gain
@@ -10368,7 +10368,7 @@ Reviewed: false
 	8326. specific nerve energies
 	8327. specific phobia
 	8328. specific spelling disorder
-	8329. spectral colour
+	8329. spectral color
 	8330. spectrogram
 	
 	8331. spectrum
@@ -10626,7 +10626,7 @@ Reviewed: false
 	
 	8561. subitizevb.
 	8562. subject (research or experimental)
-	8563. subjective colour
+	8563. subjective color
 	8564. subjective contour
 	8565. subjective equality
 	8566. subjective expected utility
@@ -10673,7 +10673,7 @@ Reviewed: false
 	8603. subthalamic nucleus
 	8604. subthreshold
 	8605. subtraction method
-	8606. subtractive colour mixture
+	8606. subtractive color mixture
 	8607. subtractive primary
 	8608. Subutex
 	8609. subvocal rehearsal loop
@@ -10726,7 +10726,7 @@ Reviewed: false
 	8651. supranuclear palsy
 	8652. supraoptic nucleus
 	8653. sure-thing principle
-	8654. surface colour
+	8654. surface color
 	8655. surface dyslexia
 	8656. surface structure
 	8657. surgency
@@ -11040,7 +11040,7 @@ Reviewed: false
 	8937. thought insertion delusion
 	8938. thought stopping
 	8939. Thouless ratio
-	8940. three-colour theory
+	8940. three-color theory
 	
 	8941. three-seven effect
 	8942. threePs
@@ -11339,7 +11339,7 @@ Reviewed: false
 	9209. unipolar depression
 	9210. unipolar neuron
 	
-	9211. unique colour
+	9211. unique color
 	9212. univariate statistics
 	9213. universal grammar
 	9214. universal quantifier
@@ -11386,7 +11386,7 @@ Reviewed: false
 	9251. Valium
 	9252. value (of a variable)
 	9253. vanishing point
-	9254. vapours
+	9254. vapors
 	9255. variability
 	9256. variable
 	9257. variable-interval schedule
@@ -11512,7 +11512,7 @@ Reviewed: false
 	9366. visuospatial sketchpad
 	9367. vitamin
 	9368. vitamin therapy
-	9369. vitreous humour
+	9369. vitreous humor
 	9370. VNTRabbrev.
 	
 	9371. vocal cords
@@ -11530,7 +11530,7 @@ Reviewed: false
 	9382. volley theory
 	9383. voltage-gated ion channel
 	9384. volume
-	9385. volume colour
+	9385. volume color
 	9386. volumetric thirst
 	9387. voluntary involuntary treatment
 	9388. voluntary muscle

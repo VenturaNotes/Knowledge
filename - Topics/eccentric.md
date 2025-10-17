@@ -5,8 +5,8 @@
 ## Source[^2]
 - adj. 
 - (1) Positioned off center.
-- (2) Of or relating to a retinal image cast by a visual stimulus off the centre of the fovea.
-- (3) Odd or unconventional. eccentricity $n$. \[From Greek $e k$ out of + kentron centre]
+- (2) Of or relating to a retinal image cast by a visual stimulus off the center of the fovea.
+- (3) Odd or unconventional. eccentricity $n$. \[From Greek $e k$ out of + kentron center]
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]

@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- A market in which there are many sellers but only a single buyer, who therefore has a decisive influence on the market price. An example of a monopsony would be the labour market in a town or industry where there is only one significant employer.
+- A market in which there are many sellers but only a single buyer, who therefore has a decisive influence on the market price. An example of a monopsony would be the labor market in a town or industry where there is only one significant employer.
 ## Source[^2]
 - A market situation with only one buyer. Unless the supply is perfectly elastic, a monopsonist has an incentive to exploit the fact that a reduction in the quantity bought will reduce the price. Monopsony is the equivalent on the demand side to monopoly on the supply side of a market.
 ## References

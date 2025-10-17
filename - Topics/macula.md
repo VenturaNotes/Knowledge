@@ -19,7 +19,7 @@
 	- Parts
 		- Cavity of utriculus
 		- movement of particles
-		- nerve fibres to brain
+		- nerve fibers to brain
 		- otolith
 		- hair cells
 		- hairs bend down

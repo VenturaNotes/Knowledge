@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- the matrix of connective tissue, in which various cells and fibres are embedded.
+- the matrix of connective tissue, in which various cells and fibers are embedded.
 ## Source[^2]
 - The colorless transparent part of extracellular matrix of connective tissue, in which various cells and fibres are embedded. It consists of proteoglycans associated with water, which can make up to $90 \%$ of the ground substance.
 ## References

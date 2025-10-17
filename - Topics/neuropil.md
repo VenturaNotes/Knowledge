@@ -5,7 +5,7 @@
 ## Source[^2]
 - A dense feltlike mass of microscopic threadlike axons, dendrites, and extensions of glial cells within the grey matter of the central nervous system (CNS) or within ganglia outside the CNS. The cell bodies of the neurons that give rise to the axons and dendrites may be dispersed within the neuropil or segregated into distinct zones around it. Numerous highly specific connections (synapses) occur between the branching dendrites and axons of the neuropil, producing the intricate wiring of the nervous system.
 ## Source[^3]
-- $n$. A dense network of unmyelinated neurons and glia found in areas of concentrated nervous tissue at various sites in the central nervous system, especially in the reticular formation, where it is interwoven with myelinated nerve fibres, and other parts of the brain. \[From Greek neuron a nerve + pilos hair or felt]
+- $n$. A dense network of unmyelinated neurons and glia found in areas of concentrated nervous tissue at various sites in the central nervous system, especially in the reticular formation, where it is interwoven with myelinated nerve fibers, and other parts of the brain. \[From Greek neuron a nerve + pilos hair or felt]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

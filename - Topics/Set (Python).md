@@ -13,6 +13,9 @@ aliases:
 		- #question What happens instead if an error is not raised?
 	- #question Why would you ever use `remove` over `discard`? 
 
+### Length
+- To get the size/length of the set, you just do `len(my_set)`
+
 ### Questions
 - #question what is [[auxiliary space (python)|auxiliary space]]
 ## Source [^1]

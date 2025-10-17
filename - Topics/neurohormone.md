@@ -5,7 +5,7 @@
 ## Source[^2]
 - Any hormone that is produced not by an endocrine gland but by a specialized nerve cell and is secreted from nerve endings into the bloodstream or directly to the tissue or organ whose growth or function it controls (see NEUROSECRETION). Examples of neurohormones are noradrenaline, antidiuretic hormone, and hormones associated with metamorphosis and moulting in insects (see ECDYSONE; JUVENILE HORMONE). Compare NEUROPEPTIDE.
 ## Source[^3]
-- $n$. A hormone such as noradrenalin (norepinephrine) or serotonin that is produced by specialized cells in the nervous system rather than endocrine glands and that functions as a chemical messenger, interacting with a variety of cell types, in contrast to other neurotransmitters that interact only with neurons, muscles, and glands. Also called a neurohumour (US neurohumor). Compare HORMONE. \[From Greek neuron a nerve + English hormone]
+- $n$. A hormone such as noradrenalin (norepinephrine) or serotonin that is produced by specialized cells in the nervous system rather than endocrine glands and that functions as a chemical messenger, interacting with a variety of cell types, in contrast to other neurotransmitters that interact only with neurons, muscles, and glands. Also called a neurohumor (US neurohumor). Compare HORMONE. \[From Greek neuron a nerve + English hormone]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

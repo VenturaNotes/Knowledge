@@ -12,14 +12,14 @@
 		- superior oblique
 		- superior rectus
 		- pulley of the superior oblique
-- Light enters the eye through the cornea, which refracts the light through the aqueous humour onto the lens. By adjustment of the shape of the lens (see ACCOMMODATION) light is focused through the vitreous humour onto the retina. In the retina light-sensitive cells (see CONE; ROD) send nerve impulses to the brain via the optic nerve. The arrangement of the two eyes at the front of the head provides binocular vision. Each eye is contained in an orbit, and movement of the eye within the orbit is controlled by extrinsic eye muscles (see illustration).
+- Light enters the eye through the cornea, which refracts the light through the aqueous humor onto the lens. By adjustment of the shape of the lens (see ACCOMMODATION) light is focused through the vitreous humor onto the retina. In the retina light-sensitive cells (see CONE; ROD) send nerve impulses to the brain via the optic nerve. The arrangement of the two eyes at the front of the head provides binocular vision. Each eye is contained in an orbit, and movement of the eye within the orbit is controlled by extrinsic eye muscles (see illustration).
 - ![[Screenshot 2025-08-18 at 6.34.28 PM.png]]
 	- The eye (sagittal section)
 	- Parts
 		- ciliary body
 		- suspensory ligament
 		- cornea
-		- aqueous humour
+		- aqueous humor
 		- lens
 		- iris
 		- eyelash
@@ -53,7 +53,7 @@
 - https://www.emedicinehealth.com/anatomy_of_the_eye/article_em.htm
 	- Gross anatomy of the eye, from emedicine
 ## Source[^3]
-- $n$. The organ of vision in animals, each of the human eyeballs being protected by an upper and a lower eyelid and rotating within its bony orbit under the control of four rectus muscles and two oblique muscles, its structure allowing light to enter through the transparent external cornea and to pass through the aqueous humour, the dark central adjustable pupil in the iris, the crystalline lens, and the vitreous humour, to be projected on to the retina where light-sensitive photoreceptors specialized to convert the light into nerve impulses transmit visual information along the optic nerve via the lateral geniculate nuclei to the visual cortex (see illustration). Compare COMPOUND EYE, OMMATIDIUM.
+- $n$. The organ of vision in animals, each of the human eyeballs being protected by an upper and a lower eyelid and rotating within its bony orbit under the control of four rectus muscles and two oblique muscles, its structure allowing light to enter through the transparent external cornea and to pass through the aqueous humor, the dark central adjustable pupil in the iris, the crystalline lens, and the vitreous humor, to be projected on to the retina where light-sensitive photoreceptors specialized to convert the light into nerve impulses transmit visual information along the optic nerve via the lateral geniculate nuclei to the visual cortex (see illustration). Compare COMPOUND EYE, OMMATIDIUM.
 - ![[Screenshot 2025-09-09 at 5.15.35 PM.png]]
 	- Eye. Main structures of the vertebrate eye.
 		- #comment Description in biology oxford reference source

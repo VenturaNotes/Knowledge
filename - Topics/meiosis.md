@@ -44,7 +44,7 @@
 		- 1st Metaphase
 			- Pole
 			- Equator
-			- Spindle fibres
+			- Spindle fibers
 		- 1st Anaphase
 		- 1st Telophase
 			- developing cell membrane

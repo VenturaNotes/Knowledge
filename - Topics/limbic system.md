@@ -7,7 +7,7 @@
 ## Source[^3]
 - A group of regions in the brain that is involved in the expression and control of emotions, mood, instinct, and fear and plays a major role in long-term memory. The limbic system represents the evolutionarily primitive parts of the forebrain and includes the hippocampus, hypothalamus, thalamus, and amygdala. It contains centers for pleasure and pain that play roles in the development of desires and drives and also in learning and emotional memory.
 ## Source[^4]
-- $n$. A ring of cortical and subcortical structures folded into the inner surface of the temporal lobe surrounding the brainstem and bordering on the corpus callosum, including the amygdala, cingulate gyrus, fornix, hippocampus, parahippocampal gyrus, and septum pellucidum, implicated in basic emotions, hunger, sex, and memory. See also Papez circuit, pleasure centre. \[From Latin limbicus bordering, from limbus a border]
+- $n$. A ring of cortical and subcortical structures folded into the inner surface of the temporal lobe surrounding the brainstem and bordering on the corpus callosum, including the amygdala, cingulate gyrus, fornix, hippocampus, parahippocampal gyrus, and septum pellucidum, implicated in basic emotions, hunger, sex, and memory. See also Papez circuit, pleasure center. \[From Latin limbicus bordering, from limbus a border]
 ## References
 
 [^1]: [[(11) 2-Minute Neuroscience - Limbic System]]

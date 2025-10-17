@@ -2,7 +2,7 @@
 - 
 ## Source [^1]
 - adj. 
-- (1) Of, relating to, or consisting of nerves or nerve fibres. 
+- (1) Of, relating to, or consisting of nerves or nerve fibers. 
 - (2) Apprehensive, agitated, or timid.
 ## References
 

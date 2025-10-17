@@ -41,6 +41,12 @@ aliases:
 		- Removing
 		- Sorting
 		- Reversing elements
+### Remove Element from List
+```python
+#Remove element from list
+fruits = ["apple", "banana", "cherry"]
+fruits.remove("banana")
+```
 ## Source [^1]
 - Lists are not [[hashable (python)|hashable]] since lists are [[mutable (Python)|mutable]]
 	- An object is hashable if it has a hash value which never changes during its lifetime [^2]

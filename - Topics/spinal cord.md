@@ -26,7 +26,7 @@
 		- cell bodies of motor neurones
 		- anterior (ventral) root
 ## Source[^2]
-- The part of the vertebrate central nervous system that is posterior to the brain and enclosed within the vertebral column. It consists of a hollow core of grey matter (Hshaped in cross section) surrounded by an outer layer of white matter; the central cavity contains cerebrospinal fluid. The white matter contains numerous longitudinal nerve fibres organized into distinct tracts: ascending tracts consist of sensory neurons, conducting impulses towards the brain; descending tracts consist of motor neurons, transmitting impulses from the brain. Paired spinal nerves arise from the spinal cord.
+- The part of the vertebrate central nervous system that is posterior to the brain and enclosed within the vertebral column. It consists of a hollow core of grey matter (Hshaped in cross section) surrounded by an outer layer of white matter; the central cavity contains cerebrospinal fluid. The white matter contains numerous longitudinal nerve fibers organized into distinct tracts: ascending tracts consist of sensory neurons, conducting impulses towards the brain; descending tracts consist of motor neurons, transmitting impulses from the brain. Paired spinal nerves arise from the spinal cord.
 - ![[Screenshot 2025-09-19 at 11.46.23 PM.png|400]]
 	- Transverse section of the spinal cord
 	- Parts

@@ -50,7 +50,7 @@
 | 2001         | US molecular biologist Harry Noller and colleagues produce first detailed X-ray crystallographic image of a complete ribosome.                                                     |
 | 2002         | First synthetic virus created by Eckard Wimmer and associates, based on human poliovirus                                                                                           |
 | 2004         | A team led by David L. Spector produces the first real-time imaging of gene transcription in a living cell, using different fluorescent markers to tag nucleic acids and proteins. |
-| 2007         | Several research teams produce high-resolution crystal structures of the beta adrenoceptor, a G protein-coupled receptor with important roles in cell signalling.                  |
+| 2007         | Several research teams produce high-resolution crystal structures of the beta adrenoceptor, a G protein-coupled receptor with important roles in cell signaling.                   |
 | 2011         | A high-resolution 3D crystal structure of photosystem II is published, showing for the first time the detail of the catalytic center.                                              |
 | 2014         | E. coli bacteria engineered to incorporate two artificial nucleotides, X and Y, in their DNA                                                                                       |
 | 2015         | Discovery of teixobactin, one of a new class of antibiotics, using the iChip screening tool.                                                                                       |

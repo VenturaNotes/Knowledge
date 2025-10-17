@@ -9,7 +9,7 @@
 	- 4$\textemdash$Small employers and the nonprofessional self-employed: includes plumbers, electricians, small farmers;
 	- 5$\textemdash$Skilled workers: includes train drivers, craftspeople, foremen, etc.;
 	- 6$\textemdash$Semi-routine occupations: includes caretakers, gardeners, assembly-line workers, etc.;
-	- 7$\textemdash$Routine occupations: includes cleaners, road workers, farm labourers, etc.;
+	- 7$\textemdash$Routine occupations: includes cleaners, road workers, farm laborers, etc.;
 	- 8$\textemdash$The long-term unemployed and chronically sick.
 ## References
 

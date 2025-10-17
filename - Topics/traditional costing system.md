@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- Any of the systematic costing methods that prevailed before the rise of activity-based costing in the 1990s. Because they rely on an essentially arbitrary allocation of indirect costs, such systems do not give managers accurate product cost information, which means that accurate calculation of product profitability is not possible. The overhead rate in a traditional costing system would typically be calculated using direct labour hours, machine hours, or units. This could lead to accurate product costs when direct costs were high and indirect costs were low, as was usually the case 50 years ago; however, modern organizations typically have low direct costs and higher indirect costs.
+- Any of the systematic costing methods that prevailed before the rise of activity-based costing in the 1990s. Because they rely on an essentially arbitrary allocation of indirect costs, such systems do not give managers accurate product cost information, which means that accurate calculation of product profitability is not possible. The overhead rate in a traditional costing system would typically be calculated using direct labor hours, machine hours, or units. This could lead to accurate product costs when direct costs were high and indirect costs were low, as was usually the case 50 years ago; however, modern organizations typically have low direct costs and higher indirect costs.
 - The strengths of traditional costing systems are:
 	- simplicity-the calculation of overhead rates is relatively straightforward;
 	- they are widely understood in the business;

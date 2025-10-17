@@ -44,7 +44,7 @@
 		- auditory nerve
 		- sacculus
 		- oval window
-		- nerve fibre
+		- nerve fiber
 		- cochlea
 		- endolymph
 		- Eustachian tube

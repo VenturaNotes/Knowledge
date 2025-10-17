@@ -5,7 +5,7 @@
 - (1) designating nerves or neurons that convey impulses from the brain or spinal cord to muscles, glands, and other effectors; i.e. any motor nerve or neuron. 
 - (2) designating vessels or ducts that drain fluid (such as lymph) from an organ or part. Compare AFFERENT.
 ## Source[^2]
-- Carrying (nerve impulses, blood, etc.) away from the center of a body or organ towards peripheral regions. The term is usually applied to types of nerve fibres or blood vessels. Compare AFFERENT.
+- Carrying (nerve impulses, blood, etc.) away from the center of a body or organ towards peripheral regions. The term is usually applied to types of nerve fibers or blood vessels. Compare AFFERENT.
 ## Source[^3]
 - adj. Away from the central nervous system; of or relating to a motor neuron or a motor nerve that transmits impulses away from the central nervous system to a muscle, gland, or other effector. Compare afferent. \[From Latin eferre to carry off, from $e$ from + ferre to carry]
 ## References

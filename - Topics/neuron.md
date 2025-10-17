@@ -14,7 +14,7 @@ aliases:
 ## Source[^3]
 - A node in a neural network.
 ## Source[^4]
-- (neurone, nerve cell) $n$. one of the basic functional units of the nervous system: a cell specialized to transmit electrical nerve impulses and so carry information from one part of the body to another (see illustration). Each neuron has an enlarged portion, the cell body (perikaryon), containing the nucleus; from the body extend several processes (dendrites) through which impulses enter from their branches. A longer process, the nerve fibre (see AXON), extends outwards and carries impulses away from the cell body. This is normally unbranched except at the nerve ending. The point of contact of one neuron with another is known as a synapse.
+- (neurone, nerve cell) $n$. one of the basic functional units of the nervous system: a cell specialized to transmit electrical nerve impulses and so carry information from one part of the body to another (see illustration). Each neuron has an enlarged portion, the cell body (perikaryon), containing the nucleus; from the body extend several processes (dendrites) through which impulses enter from their branches. A longer process, the nerve fiber (see AXON), extends outwards and carries impulses away from the cell body. This is normally unbranched except at the nerve ending. The point of contact of one neuron with another is known as a synapse.
 - ![[Screenshot 2025-08-26 at 12.04.13 AM.png|300]]
 	- Neuron. A motor neuron (left) and a sensory neuron (right)
 	- Parts
@@ -27,7 +27,7 @@ aliases:
 			- axon
 			- myelin sheath
 			- motor end plate
-			- muscle fibre
+			- muscle fiber
 		- Right Image
 			- Nerve impulse
 			- nerve ending
@@ -64,7 +64,7 @@ aliases:
 		- Nissl granules
 		- Cell body
 ## Source[^6]
-- $n$. A nerve cell specialized to transmit nerve impulses in the form of action potentials, the basic functional unit of the nervous system, normally consisting of a cell body or soma together with dendrites receiving signals from other neurons via synapses (1), typical neurons being involved in 1,000-10,000 synapses, and an axon ranging in length from 3 micrometres to more than a metre, often splitting into many branches near its end, transmitting signals away from the soma to one or more other neurons, a muscle, or a gland. Often confused with a nerve, which has no cell bodies or somata and is made up of bundles of axons. Also spelt neurone. See basket Cell, Betz Cell, bipolar Cell, Golgi Cell, granule Cell, horizontal Cell, interneuron, Merkel Cell, mirror neuron, mitral Cell, MOTOR NEURON, multiPOLAR NEURON, NON-OPPONENT CELL, opponent Cell, pACEMAKER NEURON, PurkinJe Cell, PYRAMIDAL CELL, RENSHAW CELL, SENSORY NEURON, SPINDLE CELL, SPIRAL GANGLION CELL, STELLATE CELL, UNIPOLAR NEURON. See also CYTOSKELETON, MICROTUBULE, POSTSYNAPTIC, PRESYNAPTIC. neuronal adj. \[Greek neuron a nerve]
+- $n$. A nerve cell specialized to transmit nerve impulses in the form of action potentials, the basic functional unit of the nervous system, normally consisting of a cell body or soma together with dendrites receiving signals from other neurons via synapses (1), typical neurons being involved in 1,000-10,000 synapses, and an axon ranging in length from 3 micrometers to more than a meter, often splitting into many branches near its end, transmitting signals away from the soma to one or more other neurons, a muscle, or a gland. Often confused with a nerve, which has no cell bodies or somata and is made up of bundles of axons. Also spelt neurone. See basket Cell, Betz Cell, bipolar Cell, Golgi Cell, granule Cell, horizontal Cell, interneuron, Merkel Cell, mirror neuron, mitral Cell, MOTOR NEURON, multiPOLAR NEURON, NON-OPPONENT CELL, opponent Cell, pACEMAKER NEURON, PurkinJe Cell, PYRAMIDAL CELL, RENSHAW CELL, SENSORY NEURON, SPINDLE CELL, SPIRAL GANGLION CELL, STELLATE CELL, UNIPOLAR NEURON. See also CYTOSKELETON, MICROTUBULE, POSTSYNAPTIC, PRESYNAPTIC. neuronal adj. \[Greek neuron a nerve]
 ## References
 
 [^1]: Gemini

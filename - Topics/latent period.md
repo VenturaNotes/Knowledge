@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- (in neurology) the pause of a few milliseconds between the time that a nerve impulse reaches a muscle fibre and the time that the fibre starts to contract.
+- (in neurology) the pause of a few milliseconds between the time that a nerve impulse reaches a muscle fiber and the time that the fiber starts to contract.
 ## Source[^2]
 - (latency) 
 - (1) The short time that elapses between the reception of a stimulus and the start of the response. For a contracting muscle the latent period lasts about 0.02 seconds, during which time calcium ions are released from the sarcoplasmic reticulum. 

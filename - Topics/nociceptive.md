@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- adj. describing nerve fibres, endings, or pathways that are concerned with the condition of pain.
+- adj. describing nerve fibers, endings, or pathways that are concerned with the condition of pain.
 ## Source[^2]
 - adj. Sensitive to or causing pain. nociception $n$. Pain perception. nociceptor $n$. Another name for a pain receptor. \[From Latin nocere to injure + English (re)ceptive]
 ## References

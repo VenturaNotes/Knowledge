@@ -12,7 +12,7 @@
 		- adjacent vertebrae
 		- intervertebral disc
 ## Source[^2]
-- (pl. symphyses) A joint that is only slightly movable; examples are the joints between the vertebrae of the vertebral column and that between the two pubic bones in the pelvic girdle. The bones at a symphysis articulate by means of smooth layers of cartilage and strong fibres.
+- (pl. symphyses) A joint that is only slightly movable; examples are the joints between the vertebrae of the vertebral column and that between the two pubic bones in the pelvic girdle. The bones at a symphysis articulate by means of smooth layers of cartilage and strong fibers.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

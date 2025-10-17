@@ -1005,10 +1005,10 @@ Year: 2021-09-01
 	69. centre(group theory)
 	70. centre
 	
-	71. centre of curvature
-	72. centre of gravity
-	73. centre of mass
-	74. centre of symmetry
+	71. center of curvature
+	72. center of gravity
+	73. center of mass
+	74. center of symmetry
 	75. centrifugal force
 	76. centripetal force
 	77. centroid
@@ -1107,7 +1107,7 @@ Year: 2021-09-01
 	161. Collatz conjecture
 	162. collinear
 	163. collision
-	164. colourable
+	164. colorable
 	165. column equivalence
 	166. column operation
 	167. column rank
@@ -1800,7 +1800,7 @@ Year: 2021-09-01
 	787. Fibonacci (1170-1250)
 	788. Fibonacci multiplication
 	789. Fibonacci number
-	790. fibre
+	790. fiber
 	
 	791. fictitious force
 	792. field
@@ -1862,7 +1862,7 @@ Year: 2021-09-01
 	843. forward substitution
 	844. Foucault pendulum
 	845. foundations of mathematics
-	846. Four Colour Theorem
+	846. Four Color Theorem
 	847. Fourier's law
 	848. Fourier, (Jean Baptiste) Joseph, Baron (1768-1830)
 	849. Fourier analysis

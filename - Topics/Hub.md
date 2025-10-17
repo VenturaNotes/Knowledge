@@ -14,7 +14,7 @@ aliases:
 ## Source[^2]
 - The hub is specified in the [[physical layer]]
 ## Source[^3]
-- In general, a unit that operates in some sense as the center of a star configuration. In the case of a network, a hub acts as a local concentrator that allows a number of devices, connected to the hub in a star configuration, to connect to a network with an arbitrary configuration. In the special case of an Ethernet network, a hub may refer to a device that provides connection for a number of end-user devices, each using a dedicated twisted pair (usually CAT-5 or CAT-6 cables) local connection, to an Ethernet segment running on either a coaxial cable (thick or thin Ethernet) or an optical fibre. Apart from connecting and configuring devices, a hub has no intelligence: it belongs to the physical layer.
+- In general, a unit that operates in some sense as the center of a star configuration. In the case of a network, a hub acts as a local concentrator that allows a number of devices, connected to the hub in a star configuration, to connect to a network with an arbitrary configuration. In the special case of an Ethernet network, a hub may refer to a device that provides connection for a number of end-user devices, each using a dedicated twisted pair (usually CAT-5 or CAT-6 cables) local connection, to an Ethernet segment running on either a coaxial cable (thick or thin Ethernet) or an optical fiber. Apart from connecting and configuring devices, a hub has no intelligence: it belongs to the physical layer.
 ## References
 
 [^1]: https://www.lenovo.com/ie/en/glossary/what-is-a-hub/#:~:text=In%20networking%2C%20a%20hub%20is,local%20area%20network%20(LAN).

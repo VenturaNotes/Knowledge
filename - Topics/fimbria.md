@@ -7,7 +7,7 @@
 - (1) (in anatomy) Any fringelike structure, such as the circle of fingerlike extensions surrounding the entrance to a fallopian tube. 
 - (2) (in microbiology) Another name for a short pilus (sense 1).
 ## Source[^3]
-- $n$. The fringe of white nerve fibres along the edge of the hippocampus, meeting in the fornix. \[From Latin fimbriae fibres or a fringe]
+- $n$. The fringe of white nerve fibers along the edge of the hippocampus, meeting in the fornix. \[From Latin fimbriae fibers or a fringe]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
