@@ -14,6 +14,7 @@ Reviewed: false
 	- [[(242) Valid Anagram]]
 	- [[(49) Group Anagrams]]
 	- [[(35) Search Insert Position]]
+	- [[(26) Remove Duplicates from Sorted Array]]
 - Incomplete
 	- [[(2) Add Two Numbers]]
 	- [[(3) Longest Substring Without Repeating Characters]]
@@ -38,7 +39,6 @@ Reviewed: false
 	- [[(23) Merge k Sorted Lists]]
 	- [[(24) Swap Nodes in Pairs]]
 	- [[(25) Reverse Nodes in k-Group]]
-	- [[(26) Remove Duplicates from Sorted Array]]
 	- [[(27) Remove Element]]
 	- [[(28) Find the Index of the First Occurrence in a String]]
 	- [[(29) Divide Two Integers]]

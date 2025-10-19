@@ -61,7 +61,7 @@ for key, value in student_info.items():
 ```
 - #question Is `f` needed in the example above for the print line? 
 - The [[del (Python)|del]] keyword is used to delete objects. In Python, everything is an object, so the del keyword can also be used to delete variables, lists, or parts of a list etc. [^4]
-- The "f" while iterating through the dictionary stands for [[formatted string literal]]
+- The "f" while iterating through the dictionary stands for [[formatted string literal (Python)|formatted string literal]]
 	- It is a way to embed expressions inside string literals using curly braces. 
 - The `student_info.items()` returns a viewable object that displays a list of dictionary's (key, value) [[Tuple (Python)|tuple]] pairs
 
