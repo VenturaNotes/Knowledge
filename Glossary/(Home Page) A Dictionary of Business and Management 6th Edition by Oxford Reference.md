@@ -6414,7 +6414,7 @@ Reviewed: false
 	5286. [[profitability ratios]]
 	5287. [[profitable customer]]
 	5288. [[profit and loss account]]
-	5289. [[profit centre]]
+	5289. [[profit center]]
 	5290. [[profiteer]]
 	5291. [[profit forecast]]
 	5292. profit margin

@@ -1,6 +1,7 @@
 ---
 aliases:
   - f-string
+  - formatted string literal
 ---
 ## Synthesis
 - 
@@ -11,7 +12,6 @@ aliases:
 - Allows you to format selected parts of a string
 - When formatting an f-string, add placeholders {}
 	- A placeholder can contain variables, operations, functions, and modifiers to format the value
-
 ### Examples
 
 ### (1) Placeholder for Variable

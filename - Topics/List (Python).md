@@ -42,10 +42,22 @@ aliases:
 		- Sorting
 		- Reversing elements
 ### Remove Element from List
+#### Remove Method
 ```python
 #Remove element from list
 fruits = ["apple", "banana", "cherry"]
 fruits.remove("banana")
+```
+#### Pop Method
+```python
+
+```
+
+### Append / Add Elements to list
+```python
+#Add element to end of list
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
 ```
 ## Source [^1]
 - Lists are not [[hashable (python)|hashable]] since lists are [[mutable (Python)|mutable]]
