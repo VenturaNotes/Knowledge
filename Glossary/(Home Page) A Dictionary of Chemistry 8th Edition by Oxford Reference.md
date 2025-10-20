@@ -624,7 +624,7 @@ Reviewed: false
 	600. biomolecule
 	601. biopolymer
 	602. bioreactor
-	603. biosensor
+	603. [[biosensor]]
 	604. biosynthesis
 	605. biotechnology
 	606. biotin
@@ -1172,7 +1172,7 @@ Reviewed: false
 	1148. coke
 	1149. colchicine
 	1150. collagen
-	1151. collective oscillation
+	1151. [[collective oscillation]]
 	1152. colligation
 	1153. colligative properties
 	1154. collision density
@@ -1829,7 +1829,7 @@ Reviewed: false
 	1805. emulsion
 	1806. en
 	1807. enamine
-	1808. enantiomeric pair
+	1808. [[enantiomeric pair]]
 	1809. enantiomers
 	1810. enantiomorph
 	1811. enantiomorphism
