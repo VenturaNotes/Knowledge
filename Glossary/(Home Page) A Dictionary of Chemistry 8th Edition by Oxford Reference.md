@@ -1193,7 +1193,7 @@ Reviewed: false
 	1169. common ion
 	1170. common salt
 	1171. competitive inhibition
-	1172. complementarity
+	1172. [[complementarity]]
 	1173. complex
 	1174. complex ion
 	1175. complexometric analysis
@@ -1204,7 +1204,7 @@ Reviewed: false
 	1180. comproportionation
 	1181. Compton, Arthur Holly (1892–1962)
 	1182. Compton effect
-	1183. computational chemistry
+	1183. [[computational chemistry]]
 	1184. concentrated
 	1185. concentration
 	1186. concentration cell
@@ -1235,7 +1235,7 @@ Reviewed: false
 	1211. conjugate solutions
 	1212. conjugation
 	1213. [[connection table]]
-	1214. conservation
+	1214. [[conservation]]
 	1215. conservation law
 	1216. consolute temperature
 	1217. constant-boiling mixture
