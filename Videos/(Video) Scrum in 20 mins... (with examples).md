@@ -1,0 +1,57 @@
+---
+Source: 
+Length: 
+tags: 
+Reviewed: false
+---
+- Image
+	- Part 1
+		- It is the systematic Customer Resolution Unraveling Meeting
+		- Allows you to create and deliver projects faster
+		- This is the scrum workflow (can last 1-2 weeks or 1-4 weeks)
+			- #comment The YouTuber misspelled both "Sprint" as "Spring" in demonstration
+			- Product backlog
+			- Sprint Planning
+			- Sprint Backlog
+			- Sprint
+			- Potential Product
+			- Sprint Review
+		- YouTuber created a scrum on a figma board
+		- There are 3 roles when doing scrum (important to define roles since you want to avoid having certain roles in certain meetings)
+			- Product Owner
+				- It's the person creating the company, organization, or idea holder themselves
+			- Scrum Master
+				- Helps you organize and manage your scrum sessions
+			- Team Members
+				- Designers, developers, or people working on the actual product itself
+		- 3 Artifacts of scrum
+			- Product Backlog
+				- Features of products
+					- Logins, admin dashboards 
+			- Sprint Backlog
+				- Turning features into user stories that can be developed
+			- Burndown chart
+				- Where we have a look at all the user stories
+					- Then look at how many are complete, how many are left to do and gives indication how long it will take to complete the project 
+		- 3 x Ceremonies (Basically events that happen in scrum)
+			- Sprint planning
+				- Where you plan the project's sprint for the 1-4 weeks
+			- Daily Scrum
+				- Reviewing what has been done so far
+			- Sprint Review
+				- What you do at end of sprint to make sure everything we had planned was completed
+		- Terms and definitions used inside a scrum
+			- Definition of Done
+				- This is when a story has been completed
+			- Traditional Waterfall
+				- Old way of doing projects
+			- Standup
+				- Part of ceremonies and talking about how you do your meetings
+			- User stories
+				- Defines how feature is to be implemented in a scrum methodology
+	- Part 2
+		- Traditional Waterfall
+			- Planning $\to$ Building $\to$ Testing $\to$ Release
+			- Happen sequentially and over a long period of time (3- 6 months) in software development
+		- Scrum
+			- Instead of trying to complete an entire project, just the core aspects of a project (whether mvp or a product is implemented is implemented in these steps)

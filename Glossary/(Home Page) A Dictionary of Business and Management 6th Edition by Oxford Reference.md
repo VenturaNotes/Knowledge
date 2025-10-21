@@ -3,8 +3,8 @@ Source:
   - zotero://open-pdf/library/items/MDRMHA3F?page=2&annotation=5M3RIKJQ
 Length: "7277"
 tags:
-  - incomplete
   - type/textbook
+  - status/incomplete
 Reviewed: false
 ---
 - Analyzed
