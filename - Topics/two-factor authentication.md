@@ -11,7 +11,7 @@ aliases:
 	- Something the user knows (such as a password)
 	- Something the user physically holds (such as a credit card)
 	- Something inseparable from the user's body
-		- #comemnt Explanation
+		- #comment Explanation
 			- Typically refers to [[biometric authentication]]
 				- [[Fingerprint recognition]]
 				- [[Facial recognition]]

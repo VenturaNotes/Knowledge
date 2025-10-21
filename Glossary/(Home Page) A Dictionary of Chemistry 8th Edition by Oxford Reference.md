@@ -1280,18 +1280,18 @@ Reviewed: false
 	1256. COSY
 	1257. COT
 	1258. Cotton effect
-	1259. coulomb
+	1259. [[coulomb]]
 	1260. Coulomb’s law
-	1261. Coulomb explosion
+	1261. [[Coulomb explosion]]
 	1262. coumarin
 	1263. coumarone
 	1264. countercurrent flow
 	1265. [[counter ion]]
 	1266. coupling
-	1267. coupling reaction
+	1267. [[coupling reaction]]
 	1268. covalent bond
 	1269. covalent carbide
-	1270. covalent crystal
+	1270. [[covalent crystal]]
 	1271. covalent organic framework
 	1272. covalent radius
 	1273. CPMG sequence
