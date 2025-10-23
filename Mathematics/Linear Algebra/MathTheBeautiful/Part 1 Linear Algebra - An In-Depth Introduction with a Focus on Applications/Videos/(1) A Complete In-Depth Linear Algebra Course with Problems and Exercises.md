@@ -52,3 +52,25 @@ Reviewed: false
 				- We missed A flat entirely
 		- Finding 2 out of the 3 notes really wasn't that bad given how simplistic our approach was
 			- Demonstrated linear algebra idea of [[decomposition]] (occupies nearly $\frac 13$ of our entire linear algebra course)
+
+## Worksheet
+### (2) MathBox
+- Typing Tutorial
+- $x^2$ = `x^2`
+- $\sqrt{x}$ = `Command-r x`
+- $\alpha$ = `aa` rapidly
+- $\frac 12$ = `1/2`
+- $\mathbb{R}$ = `RRR` rapidly
+- $\mathbb{R}^4$ = `RRRRRR` rapidly = holding `Shift R`
+- $sin\beta$ = `sinbb`
+- 1 = 1
+- no solution = `ns` = `empty set` symbol from symbols menu
+
+### (3) MathBox and Matrices
+- ![[Screenshot 2025-10-23 at 3.04.13 PM.png]]
+- A matrix is a table of numbers surrounded by square brackets $\begin{bmatrix}1 & 2 & 3\\ 4 & 5 & 6 \\\end{bmatrix}$
+	- This is $2 \times 3$, that is it has 2 rows and 3 columns
+
+### (4) Enter a Matrix and Its Transpose
+- ![[Screenshot 2025-10-23 at 3.09.04 PM.png|600]]
+	- Now let's discuss the 'transpose' of A denoted by $A^T$. The [[transpose]] of A is obtained from A by turning its rows into columns (or, alternatively, its columns into rows).

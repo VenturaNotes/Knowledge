@@ -7,11 +7,13 @@ tags:
   - type/playlist
 Reviewed: false
 ---
+- [Worksheet](https://www.lem.ma/content/CcT4zbFhEhjTkqRrNin5eg?book_id=AIApowDnjlDDQrp-uOZVow)
 - Complete
 	- [[(1) A Complete In-Depth Linear Algebra Course with Problems and Exercises]]
-- Incomplete
 	- [[(2) Preview - The Magic of Gaussian Quadrature - A Billion Times Better than the Next Best Thing]]
+- Complete Questions
 	- [[(3) Linear Algebra 2a - J.S. Bach + M.L. King = Linear Algebra, or the Addition of Sounds]]
+- Incomplete
 	- [[(4) Linear Algebra 2b - Decomposition - It's no Time to Nickel and Dime!]]
 	- [[(5) Linear Algebra 2c - The Three Fundamental Examples of Vectors]]
 	- [[(6) Linear Algebra 2d - Addition of Geometric Vectors]]
