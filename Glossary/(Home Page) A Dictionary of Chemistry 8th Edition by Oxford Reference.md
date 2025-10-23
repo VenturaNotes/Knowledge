@@ -1324,12 +1324,12 @@ Reviewed: false
 	1300. cryostat
 	1301. cryptands
 	1302. crystal
-	1303. crystal-field theory
+	1303. [[crystal-field theory]]
 	1304. Crystal defects
 	1305. [[crystal growth]]
 	1306. crystal habit
-	1307. crystal lattice
-	1308. crystalline
+	1307. [[crystal lattice]]
+	1308. [[crystalline]]
 	1309. crystallite
 	1310. crystallization
 	1311. crystallography
