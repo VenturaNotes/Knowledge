@@ -3,8 +3,36 @@ Source:
   - https://www.youtube.com/watch?v=k-yUdqRXijo
 Reviewed: false
 ---
-- Image
+- ![[Screenshot 2025-10-23 at 2.20.02 PM.png]]
 	- [[Gaussian Quadrature]]
 		- Has to do with integrating functions or equivalently, finding areas under curves
-		- Named after [[Carl Friedrich Gauss]]
+		- Named after [[Carl Friedrich Gauss]] (a german mathematician)
 			- 1777 - 1855
+		- Problem comes from calculus
+	- So suppose you're interested in finding area under the graph from -1 to 1 of a function such as $cos(x^2)$ whose antiderivative is difficult to find. So using the fundamental theorem of calculus may be impossible
+		- So how would you find a reasonable numerical estimate rather than exact expression?
+		- Can break up domain into equal portions, then replace exact area with following rectangles
+			- So we see sum of rectangles misses true area by a bit
+			- So approximately, sum of area of rectangles equals the actual area. So it's a good numerical approximation.
+		- To compute areas of rectangle (it's value of function at left edge of rectangle multiplied by the width of the rectangle (which we can denote by h = 0.2))
+			- Let's call it the rectangle algorithm
+			- Then add the rectangles together
+				- This is just 10 evaluations of the function
+				- The more rectangles, the better.
+				- Could get a better estimation using a trapezoid
+				- Picking the midpoint could be a better approximator
+	- Now the Gaussian quadrature does much better than all of these estimation approaches
+		- Can take advantage of our freedom to sample our function (or evaluate the few values of our function at arbitrary points (don't need to be equally spaced.)) Instead of multiplying each value by same number of 0.2, we can multiply them by smarter values and then add them together
+			- So smarter values multiplied by the value of the function at the cleverly chosen points
+		- Gaussian curvature prescribes where to place those points and what numbers to multiply the values of the function by those points by
+			- Can find those special numbers through the Gaussian quadrature algorithm
+			- These special numbers are universal. Not specific to the function you're trying to integrate.
+				- You can compute them on your own or search them on the web since they're documented on numerous web pages
+- ![[Screenshot 2025-10-23 at 2.30.14 PM.png|400]]
+	- The true value is shown with this command
+		- $N(\text{integrate}(cos(x^2), (x,-1,1)), 15)$
+			- Can compute this value on [gamma.sympy.org](https://gamma.sympy.org/) ( #comment which seems to be down as of 10/23/25 but the [SymPy](https://www.sympy.org/en/index.html) website is still up)
+	- In this example, the Gaussian Quadrature is almost 100 billion times more accurate than the rectangle Algorithm just from selecting different points and different weights.
+		- Function used is $cos(x^2)$ which will vary
+		- To find f(x), you do $w_1*cos(x_1^2)$ and then sum the 10 values together.
+	- By sampling our function at only 10 carefully selected points, we were able to approximate the area under the curve to within 1 part in a trillion.
