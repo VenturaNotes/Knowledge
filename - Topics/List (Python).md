@@ -49,15 +49,47 @@ fruits = ["apple", "banana", "cherry"]
 fruits.remove("banana")
 ```
 #### Pop Method
+- The pop method removes an element from the list
+	- `my_list.pop(1)` would remove the element at index 1
+	- `my_list.pop()` Just removes the last element
+	- In both cases, `pop()` returns this element
 ```python
 
 ```
 
+### .extend() Method
+- `list.extend(iterable)` adds all elements from another iterable (like list, tuple, or string) to the end of the current list
+	- Similar to doing multiple `.append()` calls at once
+#### Example
+```python
+nums = [1, 2, 3]
+nums.extend([4, 5, 6])
+print(nums)
+
+# Output; [1, 2, 3, 4, 5, 6]
+```
 ### Append / Add Elements to list
 ```python
 #Add element to end of list
 fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
+```
+### Differences between Extend and/vs Append
+```python
+nums = [1, 2, 3]
+nums.append([4, 5, 6])
+
+nums2 = [1, 2, 3]
+nums2.extend([4, 5, 6])
+
+'''Result
+nums = [1, 2, 3, [4, 5, 6]]
+# The entire list is added as one element
+
+nums2 = [1, 2, 3, 4, 5, 6]
+# Each item is added individually
+'''
+
 ```
 ## Source [^1]
 - Lists are not [[hashable (python)|hashable]] since lists are [[mutable (Python)|mutable]]

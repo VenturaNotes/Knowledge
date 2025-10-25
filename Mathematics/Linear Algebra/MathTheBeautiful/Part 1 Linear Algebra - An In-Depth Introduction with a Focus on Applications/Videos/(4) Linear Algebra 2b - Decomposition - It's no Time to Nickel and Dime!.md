@@ -3,7 +3,7 @@ Source:
   - https://www.youtube.com/watch?v=4ui6PLTbwys
 Reviewed: false
 ---
-- Image
+- 
 	- Sounds are mathematically added together
 	- Decomposition is an operation that's in some sense opposite of addition.
 	- Addition combines several things to form a single sum
@@ -23,6 +23,5 @@ Reviewed: false
 		- Decomposition impossible because there are no ways to break up the sum into the constituent elements
 
 ## Worksheet
-- 
-### (1) Dollars and Quarters as an Algebraic Equation
-### (2) Additional Condition
+- ![[Screenshot 2025-10-23 at 5.46.44 PM.png]]
+	- 3 parts included

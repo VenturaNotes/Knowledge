@@ -1,11 +1,7 @@
----
-aliases:
-  - balanced trees
----
 ## Synthesis
 - 
 ## Source [^1]
 - 
 ## References
 
-[^1]:
+[^1]: 

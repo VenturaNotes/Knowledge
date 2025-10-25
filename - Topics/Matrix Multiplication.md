@@ -1,7 +1,3 @@
----
-explored:
-  - "[[(3) Matrices - Matrix Multiplication  - ExamSolutions]]"
----
 ## Synthesis
 - 
 ## Source [^1]
