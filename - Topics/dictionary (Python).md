@@ -7,17 +7,42 @@ aliases:
   - dict (python)
 ---
 ## Synthesis
-- Initializing (constant time operation)
-	- `diner = {}`
-	- `diner = dict()`
-- Ordered after Python 3.7
+### Initialization
+- A constant time operation
+```python
+# Option 1
+diner = {}
+
+# Option 2
+diner = dict()
+```
+### Characteristics / Description
+- Dictionaries are collections of key-value pairs
+- Ordered from Python 3.7 onwards
 	- #question If a dictionary is ordered, does that mean I can retrieve the first or second key of a dictionary?
-- To remove a key
-	- `car.pop("model")`
-	- A `KeyError` will occur if the key doesn't exist
-		- #question Give me some details about `KeyError`
-- To get value of key
-	- `car.get("model")`
+### Methods
+```python
+# Given
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+# Returns value of key "model" which is "Mustang"
+car.get("model")
+
+# Removes the ""model" : "mustang" key-value pair
+car.pop("model")
+
+# Adding key-value pair to existing dictionary
+car["test"] = "new value"
+
+```
+- A `KeyError` will occur if the key doesn't exist
+	- #question Give me some details about KeyError
+	- #question Does `car.pop("model")` return the value after removal?
+
 ## Source [^1]
 ### Ordered or Unordered
 - Python 3.7+, dictionaries are ordered
@@ -60,6 +85,7 @@ for key, value in student_info.items():
 
 ```
 - #question Is `f` needed in the example above for the print line? 
+	- #comment I think it's just for a formatted string literal. 
 - The [[del (Python)|del]] keyword is used to delete objects. In Python, everything is an object, so the del keyword can also be used to delete variables, lists, or parts of a list etc. [^4]
 - The "f" while iterating through the dictionary stands for [[formatted string literal (Python)|formatted string literal]]
 	- It is a way to embed expressions inside string literals using curly braces. 
@@ -71,9 +97,7 @@ name: Alice
 age: 24
 courses: ['Data Structures', 'Algorithms', 'Machine Learning']
 graduation_year: 2024
-
 ```
-
 ### Is it a hashmap?
 - In python, a [[HashMap (python)|hashmap]] is considered to be a dictionary. Python's built-in `dict` type is essentially an implementation of a hashmap. Stores key-value pairs and provides efficient lookups, insertions, and deletions based on keys. This provides average-case O(1) time complexity
 - Hashmap properties
@@ -119,7 +143,6 @@ graduation_year: 2024
 	- #
 - `collections.ChainMap`: Groups multiple dictionaries together
 - `types.MappingProxyType`: A read-only view of a dictionary
-
 ## Source [^7]
 ### Dictionary Clear()
 ```python

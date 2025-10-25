@@ -44,6 +44,14 @@ name = "Alice"  # String initialization
 numbers = [1, 2, 3]  # List initialization
 settings = {"theme": "dark", "language": "English"}  # Dictionary initialization
 ```
+### Data Structures
+- [[List (Python)|lists]]
+- [[Tuple (Python)|tuples]]
+- [[Set (Python)|sets]]
+- [[frozenset() (Python)|frozenset()]]
+- [[dictionary (Python)|dictionaries]]
+- [[string (python)|string]]
+
 ## Source [^1]
 - [[syntax (python)|syntax]]
 - [[comments (python)|comments]]
