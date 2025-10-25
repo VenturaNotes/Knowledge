@@ -4,17 +4,30 @@ aliases:
   - tuples
 ---
 ## Synthesis
-- Tuples are ordered, unchangeable, and allows duplicates
-### Tuples vs Multisets
+### Benefits
+- (1) Since it's immutable:
+	- Data integrity
+	- Thread Safety
+		- Eliminating certain types of concurrency bugs
+			- 
+			- #question What are concurrency bugs?
+	- Predictability
+- (2) Hashable as long as the elements are hashable
+	- Can use tuples as keys in dictionaries or elements in sets
+		- #question Do elements in sets always need to be hashable?
+		- #question Do dictionary keys need to be hashable?
+### Description / Characteristics / Properties
 - Order matters
-	- $(1, 2) \ne (2, 1)$ 
-- Immutable (unchangeable)
-- Use case: Fixed-length, ordered data
-	- #question What is meant by this?
+	- $(1, 2) \ne (2, 1)$
+- [[Immutable]]
 - Duplicates are allowed and position-specific
+	- #question Are duplicates only allowed because it's indexed? 
 - Can represent tuples in python as `tuple`
+	- #question I would like an example of this
+- Use case: Fixed-length, ordered data
+	- #question What is meant by this? Example please
 - Functionally
-	- A tuple is like a precise recipe: the exact order and number of ingredients matter
+	- Similar to a precise recipe: the exact order and number of ingredients matter
 ## Source [^1]
 - Characteristics
 	- Ordered
@@ -48,7 +61,6 @@ print(len(thistuple))
 
 #Output: 3 
 ```
-
 ### One Item Tuple Creation
 ```python
 thistuple = ("apple",)
@@ -79,5 +91,5 @@ print(fruits[-1])
 print(fruits[0:2]) #Doing 0:1 would just print one item with a comma
 ```
 ## References
-[^1]: https://www.w3schools.com/python/python_tuples.asp
+[^1]: https://www.w3schools.com/python/python_tuples.asp 
 [^2]: https://www.w3schools.com/python/exercise.asp?filename=exercise_tuples1

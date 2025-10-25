@@ -1,22 +1,39 @@
 ---
 aliases:
   - string
+  - strings
 ---
 ## Synthesis
 
-### .partition()
+### Methods
+#### .partition()
 - The `.partition()` method in Python is used to split a string into three parts based on the first occurrence of a specified separator.
-### .lstrip()
+#### .lstrip()
 - Removes leading whitespace from a string
 - `   hello.lstrip()` $\to$ `hello`
+### .isalnum()
+- Checks if all characters in the text are alphanumeric 
+```python
+txt = "Company12"
+x = txt.isalnum() # True
+```
 ### Characteristics
 - Immutable
-
 ### Description
 - Strings are [[immutable]] meaning their values cannot be changed after they're created
 	- This means you cannot modify a character at a specific index.
 		- #comment For example, with the string "hello", you can't interchange "h" and "e" without creating a new string
 - When a string is modified, a new string object is created instead of altering the original one
+### Organize
+The `.partition()` method in Python is used to split a string into three parts based on the first occurrence of a specified separator.
+- Format
+	- `string.partition(separator)`
+	- Returns a tuple of 3 elements
+		- Part before separator
+		- Separator
+		- Part after separator
+- If separator not found
+	- `(original_string, '', '')`
 ## Source [^1]
 
 | x value                | Intention                          | Command              | Output      |
@@ -54,19 +71,7 @@ print("".join(li))
 	- Result is `('Hello', ', ', 'World!')`
 - Removing leading whitespaces from a string
 	- `string.lstrip()`
-
 ## Source[^5]
-- The `.partition()` method in Python is used to split a string into three parts based on the first occurrence of a specified separator.
-- Format
-	- `string.partition(separator)`
-	- Returns a tuple of 3 elements
-		- Part before separator
-		- Separator
-		- Part after separator
-- If separator not found
-	- `(original_string, '', '')`
-
-## Source[^6]
 - Checks if all characters in the text are alphanumeric
 ```python
 txt = "Company12"
@@ -75,12 +80,10 @@ x = txt.isalnum()
 
 print(x)
 ```
-
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_strings1
 [^2]: https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string
 [^3]: https://www.geeksforgeeks.org/quizzes/functions-python-gq/
 [^4]: [[(Home Page) 500+ Python Interview Questions and Answers by applyre]]
-[^5]: ChatGPT
-[^6]: https://www.w3schools.com/python/ref_string_isalnum.asp
+[^5]: https://www.w3schools.com/python/ref_string_isalnum.asp #synthesized

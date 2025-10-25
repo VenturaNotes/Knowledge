@@ -1966,6 +1966,6 @@ Reviewed: false
 	- [[(2470) Number of Subarrays With LCM Equal to K]]
 	- [[(2471) Minimum Number of Operations to Sort a Binary Tree by Level]]
 	- [[(2472) Maximum Number of Non-overlapping Palindrome Substrings]]
-	
 - Additional
 	- [[(3038) Maximum Number of Operations with the Same Score I]]
+	- [[(3238) Find the Number of Winning Players]] 

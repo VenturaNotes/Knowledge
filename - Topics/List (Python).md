@@ -4,6 +4,8 @@ aliases:
   - lists
 ---
 ## Synthesis
+- Characteristics
+	- Ordered, mutable, allows duplicate elements, can store items of different data types 
 - Given the list `fruits = ["apple", "banana", "cherry"]`
 	- Remove an element
 		- `fruits.remove("banana")`
@@ -13,34 +15,35 @@ aliases:
 		- `print(hello)` would give output `["apple", "banana", "cherry"]`
 ### Description
 - [[Square brackets (python)|square brackets]] are used for indexing and slicing sequences like lists, strings, and tuples
+	- #question What does the context for this look like? 
 - Initialize an empty list
 	- `my_list = []`
 ### Properties of Lists
 - Ordered
-	- Lists maintain order of elements as they are inserted. Position of each element is preserved
-- Mutable
-	- Lists are [[mutable]]. Contents can be modified after creation. Elements can be added, removed, or changed
+	- Order of elements maintained as inserted and position preserved
+- [[Mutable]]
+	- Elements can be modified after creation (added, removed, or changed)
 - Heterogeneous
-	- Lists can store elements of different data types, including integers, strings, and other lists
+	- Elements of different data types can be stored (integers, strings, lists, etc.)
 - Dynamic
-	- List can grow or shrink in size as needed. 
+	- Grows and shrinks in size as needed
 - Indexed
-	- Elements in list can be accessed by index, starting from 0 for first element
+	- Elements can be accessed by index (0 for first element)
 - Iterable
-	- Can be iterated over using loops. Allows access to each element in sequence.
-- Allows Duplicates
-	- Duplicate values allowed. Each occurrence treated as a separate element
-- Represented by square brackets
+	- Can be iterated over using loops. Allows access to each element in sequence (given order)
+- Duplicates Allowed
+	- Each occurrence treated as separate element
+- Square Bracket Representation
 	- Defined using square brackets `[]`, with elements separated by commas
 - Supports [[List comprehension (Python)|list comprehension]]
 	- Python offers a concise way to create lists using list comprehensions, enabling efficient list generation based on existing iterables
-- Methods
-	- Lists come with built-in methods for common operations
-		- Appending
-		- Inserting
-		- Removing
-		- Sorting
-		- Reversing elements
+### Methods
+- Appending
+- Inserting
+- Removing
+- Sorting
+- Reversing elements
+
 ### Remove Element from List
 #### Remove Method
 ```python
@@ -89,11 +92,9 @@ nums = [1, 2, 3, [4, 5, 6]]
 nums2 = [1, 2, 3, 4, 5, 6]
 # Each item is added individually
 '''
-
 ```
-## Source [^1]
 - Lists are not [[hashable (python)|hashable]] since lists are [[mutable (Python)|mutable]]
-	- An object is hashable if it has a hash value which never changes during its lifetime [^2]
+	- An object is hashable if it has a hash value which never changes during its lifetime
 	- #question What makes an object in python?
 	- #question Will an object have a hash value if it's immutable?
 - Initializing list with default values
@@ -119,7 +120,9 @@ print(hello)
 - Built-in: Part of python's core syntax, created with square brackets `[]`
 - Example: `my_list = [1, "hello", 3.14, True]`
 - Common use: Preferred for general-purpose, dynamic collections
-## Source [^3]
+## Source [^1]
+- An object is hashable if it has a hash value which never changes during its lifetime
+## Source [^2]
 ```python
 #Retrieve second item in list
 fruits = ["apple", "banana", "cherry"]
@@ -154,7 +157,7 @@ fruits = ["apple", "banana", "cherry"]
 print(len(fruits))
 ```
 
-## Source[^4]
+## Source[^3]
 
 | Method    | Description                                                                  |
 | --------- | ---------------------------------------------------------------------------- |
@@ -174,7 +177,6 @@ print(len(fruits))
 
 ## References
 
-[^1]: ChatGPT
-[^2]: [[hashable (python)#Source 1]]
-[^3]: https://www.w3schools.com/python/exercise.asp?filename=exercise_lists1
-[^4]: https://www.w3schools.com/python/python_ref_list.asp
+[^1]: https://docs.python.org/3/glossary.html
+[^2]: https://www.w3schools.com/python/exercise.asp?filename=exercise_lists1
+[^3]: https://www.w3schools.com/python/python_ref_list.asp

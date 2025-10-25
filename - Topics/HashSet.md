@@ -3,8 +3,15 @@ aliases:
   - hash set
 ---
 ## Synthesis
+### Characteristics / Description
+- A hash set is typically represented using the built-in `set` data structure
+	- #question What does hash even mean? 
+	- #question What other ways are there in python to represent a hash set? 
+		- One way is to build the set data structure yourself 
+
+---
 - For python, a hash set is typically represented using the built-in `set` data structure
-	- You can build the [[HashSet#Building set data structure in Python using dictionary|set data structure]] yourself.
+	- You can build the [[HashSet#^zjv7qu|set data structure]] yourself.
 	- HashSet and hash set refer to the same concept
 		- HashSet is a term commonly used in Java
 		- hash set is a more generic phrase
@@ -75,7 +82,7 @@ orange
 	- #question What is meant by membership here? Is membership a programming term?
 - When uniqueness is important, not order
 
-### Building set data structure in Python using dictionary
+### Building set data structure in Python using dictionary ^zjv7qu
 ```python
 class MySet:
     def __init__(self):
@@ -138,7 +145,7 @@ class SimpleHashTable:
 - #question What does `[[] for _ in range(size)]` mean
 	- #question In fact, could you explain the code for me with an example?
 ## Source[^1]
-- 
+- [Test](https://github.com/VenturaNotes)
 ## References
 
 [^1]: 

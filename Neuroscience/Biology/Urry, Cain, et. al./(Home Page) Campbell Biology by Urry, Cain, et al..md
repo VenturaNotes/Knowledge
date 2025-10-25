@@ -1467,10 +1467,6 @@ Reviewed: false
 #### The Future of the Biosphere
 
 
-
-
-
-
 ## Key Terms
 ```dataviewjs
 // Get the current file content
