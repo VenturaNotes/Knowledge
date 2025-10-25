@@ -1,7 +1,3 @@
----
-explored:
-- "[[(1) Chemistry - Introduction (1 of 10) Basic Terminology]]"
----
 ## Synthesis
 - 
 ## Source [^1]

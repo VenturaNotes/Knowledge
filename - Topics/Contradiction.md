@@ -1,7 +1,5 @@
 ---
 aliases: Proof by contradiction
-explored:
-- "[[(23) Logical Argument Forms - Generalizations, Specialization, Contradiction]]"
 ---
 ## Synthesis
 - 

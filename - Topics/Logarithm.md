@@ -1,7 +1,5 @@
 ---
 aliases: logarithms
-explored:
-- "[[(13) Algebra Ch 47 - Logarithmic Functions (13 of 26) Rules of Logarithms]]"
 ---
 ## Synthesis
 - 

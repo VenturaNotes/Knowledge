@@ -5,6 +5,16 @@ aliases:
 ---
 ## Synthesis
 - Tuples are ordered, unchangeable, and allows duplicates
+### Tuples vs Multisets
+- Order matters
+	- $(1, 2) \ne (2, 1)$ 
+- Immutable (unchangeable)
+- Use case: Fixed-length, ordered data
+	- #question What is meant by this?
+- Duplicates are allowed and position-specific
+- Can represent tuples in python as `tuple`
+- Functionally
+	- A tuple is like a precise recipe: the exact order and number of ingredients matter
 ## Source [^1]
 - Characteristics
 	- Ordered
@@ -68,19 +78,6 @@ print(fruits[-1])
 #print range of items in tule
 print(fruits[0:2]) #Doing 0:1 would just print one item with a comma
 ```
-
-## Source[^3]
-### Tuples vs Multisets
-- Order matters
-	- $(1, 2) \ne (2, 1)$ 
-- Immutable (unchangeable)
-- Use case: Fixed-length, ordered data
-	- #question What is meant by this?
-- Duplicates are allowed and position-specific
-- Can represent tuples in python as `tuple`
-- Functionally
-	- A tuple is like a precise recipe: the exact order and number of ingredients matter
 ## References
 [^1]: https://www.w3schools.com/python/python_tuples.asp
 [^2]: https://www.w3schools.com/python/exercise.asp?filename=exercise_tuples1
-[^3]: ChatGPT

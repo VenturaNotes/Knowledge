@@ -6,6 +6,7 @@ aliases:
 - A divide and Conquer algorithm
 - Recursively divides the array into halves, sorts them, and merges them back.
 	- #question Could you show an example and python sample code for it?
+- Merge sort is not purely a logarithmic algorithm because its time complexity is $O(nlogn)$ which is a combination of linear and logarithmic factors. 
 ## Source [^1]
 Python Code
 ```python

@@ -3,8 +3,6 @@ aliases:
   - mol
   - mols
   - moles
-explored:
-  - "[[(4) Chemistry - Atoms, Molecules, and Ions (4 of 23) Avogadro's Number]]"
 ---
 ## Synthesis
 - The plural form of "mole" in chemistry is "moles"
