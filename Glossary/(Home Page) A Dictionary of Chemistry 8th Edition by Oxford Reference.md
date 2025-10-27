@@ -2496,7 +2496,7 @@ Reviewed: false
 	2472. homonuclear
 	2473. homopolar bond
 	2474. homopolymer
-	2475. hormone
+	2475. [[hormone]]
 	2476. hornblende
 	2477. host–guest chemistry
 	2478. HPLC
@@ -2525,7 +2525,7 @@ Reviewed: false
 	2501. hydride
 	2502. hydriodic acid
 	2503. hydrobromic acid
-	2504. hydrocarbons
+	2504. [[hydrocarbons]]
 	2505. hydrochloric acid
 	2506. hydrochloride
 	2507. hydrochlorofluorocarbon
@@ -2612,7 +2612,7 @@ Reviewed: false
 	2588. IMS
 	2589. incandescence
 	2590. InChI
-	2591. inclusion compound
+	2591. [[inclusion compound]]
 	2592. incommensurate lattice
 	2593. indene
 	2594. independent-particle model

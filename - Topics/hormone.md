@@ -7,8 +7,11 @@
 - (2) See Plant HORMONE.
 ## Source[^3]
 - $n$. Any of a large number of chemical substances secreted into the bloodstream by an endocrine gland and transported to another part of the body where it binds to a specific type of receptor and exerts a particular effect, enabling the endocrine system to function as a communication system between cells alongside and independently of the nervous system. Most hormones are either peptide hormones or steroid hormones, and among the most important are the androgens, corticosteroid hormones, gonadotrophins, masculinizing hormones, neurohormones neuropeptides, releasing hormones, sex hormones, and trophic hormones. See also adreNALin, ADRENOCORTICOTROPHIC HORMONE, ALDOSTERONE, ANABOLIC STEROID, ANDROSTERONE, ANGIOTENSIN II, CALCITONIN, CHOLECYSTOKININ, CORTICOSTERONE, CORTICOTROPHIN-RELEASING HORMONE, CORTISOL, CORTISONE, DEXAMETHASONE, DOPAMINE, ENKEPHALIN, FOLLICLE-STIMULATING HORMONE, GLUCAGON, GONADOTROPHIN-RELEASING HORMONE, GROWTH HORMONE, GROWTH HORMONE RELEASING HORMONE, INSULIN, LEPTIN, LUTEINIZING HORMONE, LUTEINIZING HORMONE RELEASING HORMONE, MELANOCYTE-STIMULATING HORMONE, MELATONIN, MÜLLERIAN INHIBITING SUBSTANCE, NORADRENALIN, OESTRADIOL, OESTROGEN, OESTRONE, OXYTOCIN, PARATHYROID HORMONE, PROGESTERONE, PROLACTIN, RELAXIN, RENIN, TESTOSTERONE, THYROID-STIMULATING HORMONE, THYROTROPHIN-RELEASING HORMONE, THYROXINE, vasopressin. \[Coined in 1904 by the British physiologist Ernest Henry Starling (1866-1927) from Greek horman to stir up or urge on]
+## Source[^4]
+- A substance that is manufactured and secreted in very small quantities into the bloodstream by an endocrine gland or a specialized nerve cell and regulates the growth or functioning of a specific tissue or organ in a distant part of the body. For example, the hormone insulin controls the rate and manner in which glucose is used by the body.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]

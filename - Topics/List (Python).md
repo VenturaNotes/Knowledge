@@ -42,7 +42,12 @@ aliases:
 - Inserting
 - Removing
 - Sorting
-- Reversing elements
+#### .reverse()
+- Reverses the elements in a list
+```python
+test = [1, 2, 3, 4, 5]
+test.reverse() #test is now [5, 4, 3, 2, 1]
+```
 
 ### Remove Element from List
 #### Remove Method
