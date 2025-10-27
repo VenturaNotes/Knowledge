@@ -11,11 +11,17 @@ aliases:
 #### .lstrip()
 - Removes leading whitespace from a string
 - `   hello.lstrip()` $\to$ `hello`
-### .isalnum()
+#### .isalnum()
 - Checks if all characters in the text are alphanumeric 
 ```python
 txt = "Company12"
 x = txt.isalnum() # True
+```
+### .lower()
+- Takes a character and makes it lowercase 
+```python
+txt = "HELLO WORLD"
+txt = txt.lower() #txt is now "hello world"
 ```
 ### Characteristics
 - Immutable

@@ -41,9 +41,9 @@ while my_heap:
     print(heapq.heappop(my_heap), end=" ") # Output: 2 3 4 7
 print(f"\nHeap after popping all: {my_heap}") # Output: []
 ```
-
-### Methods
-####
+ - #question Is the `heapq` ordered? When testing the initial print statement, the order always ended up being `1, 3, 7, 4`. 
+ - #question What is meant by order of non-root elements can vary mean? What does root mean in this sense? I think it might be the top of a tree while the bottom are the leaves. 
+ - #question How is the smallest element always at index 0?
 ## Source [^1]
 - 
 ## References

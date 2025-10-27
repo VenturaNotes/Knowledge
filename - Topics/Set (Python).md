@@ -146,7 +146,6 @@ fruits.remove("banana")
 fruits = {"apple", "banana", "cherry"}
 fruits.discard("banana")
 ```
-
 ## Source [^2]
 - `remove()` method will raise an error if the specified item does not exist. The `discard()` method will not
 ## Source [^3]
