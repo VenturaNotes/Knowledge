@@ -2625,11 +2625,11 @@ Reviewed: false
 	2601. induced emission
 	2602. inductive effect
 	2603. industrial fermenter
-	2604. inelastic neutron scattering
+	2604. [[inelastic neutron scattering]]
 	2605. inert-pair effect
 	2606. inert gases
 	2607. information theory
-	2608. infrared chemiluminescence
+	2608. [[infrared chemiluminescence]]
 	2609. infrared radiation
 	2610. infrared spectroscopy
 	2611. Ingold, Sir Christopher Kelk (1893–1970)
@@ -2641,7 +2641,7 @@ Reviewed: false
 	2617. inorganic chemistry
 	2618. insecticide
 	2619. insertion reaction
-	2620. insulin
+	2620. [[insulin]]
 	2621. intensity
 	2622. intensive variable
 	2623. intercalation cell
