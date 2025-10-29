@@ -2642,10 +2642,10 @@ Reviewed: false
 	2618. insecticide
 	2619. insertion reaction
 	2620. [[insulin]]
-	2621. intensity
+	2621. [[intensity]]
 	2622. intensive variable
 	2623. intercalation cell
-	2624. intercalation compound
+	2624. [[intercalation compound]]
 	2625. interhalogen
 	2626. intermediate bond
 	2627. intermediate coupling
@@ -2741,7 +2741,7 @@ Reviewed: false
 	2717. isoprene
 	2718. isoquinoline
 	2719. isotactic polymer
-	2720. isotherm
+	2720. [[isotherm]]
 	2721. isothermal process
 	2722. isotonic
 	2723. isotope
