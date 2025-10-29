@@ -2755,7 +2755,7 @@ Reviewed: false
 	2731. itaconic acid
 	2732. IUPAC
 	2733. j-j coupling
-	2734. Jablonski diagram
+	2734. [[Jablonski diagram]]
 	2735. jacinth
 	2736. jade
 	2737. jadeite
@@ -2979,7 +2979,7 @@ Reviewed: false
 	2955. liquid
 	2956. liquid-crystal polymer
 	2957. liquid crystal
-	2958. liquid metal
+	2958. [[liquid metal]]
 	2959. liquidus
 	2960. litharge
 	2961. lithia
@@ -3458,7 +3458,7 @@ Reviewed: false
 	3434. nitro group
 	3435. nitronium ion
 	3436. nitroparaffin
-	3437. nitrosamines
+	3437. [[nitrosamines]]
 	3438. nitrosonium ion
 	3439. nitrosyl ion
 	3440. nitrous acid
