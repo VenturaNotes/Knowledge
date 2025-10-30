@@ -1,6 +1,7 @@
 ---
 tags:
-  - project/complete
+  - type/project
+  - status/complete
 ---
 ## Solutions
 ### Solution 1

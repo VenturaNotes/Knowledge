@@ -10,7 +10,6 @@ Reviewed: false
 - Complete
 	- [[(1) What Is A Tensor Lesson 1 - Elementary vector spaces]]
 	- [[(2) What is a Tensor Lesson 2 - How to make a map.]]
-
 - Incomplete
 	- [[(3) What is a Tensor 3 - Dual Spaces]]
 	- [[(4) What is a Tensor 4 - Cartesian Products]]
