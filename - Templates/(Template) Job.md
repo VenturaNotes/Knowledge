@@ -1,8 +1,8 @@
 ---
-Source: 
-Company: 
-Position: 
-Location: 
+Source:
+Company:
+Position:
+Location:
 tags:
   - job/apply
 ---

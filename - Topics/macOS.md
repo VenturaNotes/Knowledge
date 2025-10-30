@@ -2,7 +2,7 @@
 - 
 ## Source [^1]
 - It is a Unix-based operating system
-
+	- #question What is meant by unix-based operating system? 
 ## Source[^2]
 - macOS is the operating system that is used by Apple desktop and laptop computers. macOS comes preloaded on all Macintosh (Mac) computers. As of June 2021, the most current version of macOS is macOS Monterey 12.
 ## References

@@ -1,13 +1,13 @@
 ---
 tags:
-  - project/incomplete
+  - type/project
+  - status/incomplete
 ---
 Don't look for another project management software. Just look for something that you can use to track time with and that's it! 
 
 Idea for app
 
 Have a list of objectives written down for day
-
 
 - Have time estimates
 - an end due date for the day
