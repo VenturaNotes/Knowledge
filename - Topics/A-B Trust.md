@@ -14,7 +14,6 @@ aliases:
 - Via the split, the A-B trust effectively minimizes estate taxes and defers them until after the death of the surviving spouse
 - The surviving spouse has limited control over the decedent's trust but the terms of the decedent's trust can be set to allow the surviving spouse to access the assets, and even draw income from them
 - A-B trusts are no longer widely used as the estate tax emption, which is now indexed to inflation, is sufficient for most estates
-
 ## Source[^2]
 - Bypass trust is also called AB trust or credit shelter trust
 - A tool used by well-off married individuals to legally maximize their [[estate tax]] exemptions
