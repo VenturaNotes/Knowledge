@@ -2769,14 +2769,14 @@ Reviewed: false
 	2745. Joliot-Curie, Irène (1897–1956)
 	2746. joliotium
 	2747. joule
-	2748. Joule’s law
+	2748. [[Joule’s law]]
 	2749. Joule, James Prescott (1818–89)
 	2750. Joule–Thomson effect
 	2751. kainite
 	2752. kalinite
 	2753. kaolin
-	2754. Kastle–Meyer test
-	2755. katharometer
+	2754. [[Kastle-Meyer test]]
+	2755. [[katharometer]]
 	2756. Kekulé, Friedrich August von Stradonitz (1829–96)
 	2757. Kekulé structure
 	2758. kelvin
