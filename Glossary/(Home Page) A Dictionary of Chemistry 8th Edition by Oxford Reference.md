@@ -2815,8 +2815,9 @@ Reviewed: false
 	2791. knocking
 	2792. Knoevenagel reaction
 	2793. knotane
-	2794. knot theory
+	2794. [[knot theory]]
 	2795. Knudsen flow
+		1. See molecular flow
 	2796. Kohlrausch’s law
 	2797. Kohlrausch equation
 	2798. Kolbe’s method
@@ -2853,8 +2854,8 @@ Reviewed: false
 	2829. lake
 	2830. Lamb-dip spectroscopy
 	2831. lambda point
-	2832. Lamb shift
-	2833. lamellar solids
+	2832. [[Lamb shift]]
+	2833. [[lamellar solids]]
 	2834. lamp black
 	2835. Landau levels
 	2836. Landé interval rule
