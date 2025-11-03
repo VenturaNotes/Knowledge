@@ -14,11 +14,11 @@ Reviewed: false
 	- Essays + Written Questions
 		- Understand Main Idea
 		- Summarize in own words
-- Read the textbook before taking notes ^d2b9e1
+- Read the textbook before taking notes
 	- Headlines
 	- Chapter Summary
 	- Chapter Questions
-- Highlight / Underline ^3c44bf
+- Highlight / Underline
 	- Keep it minimal to key words, facts, and concepts
 - Chapter summaries
 	- Use sticky-notes first for each page or paragraph

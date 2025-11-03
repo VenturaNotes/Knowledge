@@ -1460,13 +1460,13 @@ Reviewed: false
 	1436. delocalization
 	1437. delta-brass
 	1438. delta-iron
-	1439. delta bonding
+	1439. [[delta bonding]]
 	1440. deltahedron
 	1441. delta orbital
 	1442. delta value
-	1443. denature
+	1443. [[denature]]
 	1444. dendrimer
-	1445. dendrite
+	1445. [[dendrite]]
 	1446. dendrochronology
 	1447. denitrification
 	1448. de novo pathway
