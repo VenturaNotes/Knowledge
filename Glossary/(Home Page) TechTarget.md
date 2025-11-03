@@ -64,7 +64,7 @@ Reviewed: false
 	- [[advanced encryption standard]]
 	- [[Advanced Host Controller Interface]]
 	- [[Advanced Message Queuing Protocol]]
-	- [[Private/- Organize/Advanced Persistent Threat]]
+	- [[Private/- Organizes/Advanced Persistent Threat]]
 	- [[advanced shipping notice]]
 	- [[adware]]
 	- [[affinity marketing]]

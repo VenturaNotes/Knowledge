@@ -8,5 +8,5 @@ tags:
 ---
 - Handwriting leads to better memorization 
 - Pay attention to the headings in textbooks
-- Don't write down vocabulary that you already know ^9caf1d
+- Don't write down vocabulary that you already know
 - Read first and then take notes
