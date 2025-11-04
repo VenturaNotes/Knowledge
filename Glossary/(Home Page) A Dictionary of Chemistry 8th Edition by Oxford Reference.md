@@ -1465,18 +1465,18 @@ Reviewed: false
 	1441. delta orbital
 	1442. delta value
 	1443. [[denature]]
-	1444. dendrimer
+	1444. [[dendrimer]]
 	1445. [[dendrite]]
 	1446. dendrochronology
 	1447. denitrification
-	1448. de novo pathway
+	1448. [[de novo pathway]]
 	1449. density
 	1450. density-functional theory
 	1451. deoxyribonucleic acid
 	1452. depolarization
 	1453. depression of freezing point
 	1454. depsides
-	1455. derivative
+	1455. [[derivative]]
 	1456. derived unit
 	1457. desalination
 	1458. desiccant
