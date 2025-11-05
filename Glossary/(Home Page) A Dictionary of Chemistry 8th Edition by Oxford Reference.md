@@ -1537,7 +1537,7 @@ Reviewed: false
 	1513. dichromate(VI)
 	1514. 1,2-didehydrobenzene
 	1515. Dieckmann condensation
-	1516. dielectric properties
+	1516. [[dielectric properties]]
 	1517. dielectric spectroscopy
 	1518. Diels, Otto Paul Hermann (1876–1954)
 	1519. Diels-Alder reaction
@@ -1549,7 +1549,7 @@ Reviewed: false
 	1525. diethyl ether
 	1526. differential scanning calorimetry
 	1527. differential thermal analysis
-	1528. diffraction
+	1528. [[diffraction]]
 	1529. diffusion
 	1530. diffusion constant
 	1531. diffusion gradient
@@ -1607,7 +1607,7 @@ Reviewed: false
 	1583. Diquat
 	1584. Dirac, Paul Adrien Maurice (1902–84)
 	1585. Dirac constant
-	1586. Dirac equation
+	1586. [[Dirac equation]]
 	1587. diradical
 	1588. direct dye
 	1589. direct method

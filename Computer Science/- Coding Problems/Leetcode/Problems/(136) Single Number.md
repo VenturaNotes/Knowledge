@@ -4,7 +4,21 @@ Source:
 Reviewed: false
 ---
 ## Synthesis
-- 
+
+### My Solution
+```python
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        my_set = set()
+
+        for i in nums:
+            if i in my_set:
+                my_set.remove(i)
+            elif i not in my_set:
+                my_set.add(i)
+        for i in my_set:
+            return i   
+```
 ## Source [^1]
 - ![[Screenshot 2024-12-05 at 10.27.00 PM.png]]
 - Goal is to find the element in the array that does not repeat

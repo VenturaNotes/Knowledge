@@ -1969,3 +1969,5 @@ Reviewed: false
 - Additional
 	- [[(3038) Maximum Number of Operations with the Same Score I]]
 	- [[(3238) Find the Number of Winning Players]] 
+	- [[(3285) Find Indices of Stable Mountains]]
+	- [[(2942) Find Words Containing Character]]

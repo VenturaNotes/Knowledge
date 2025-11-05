@@ -18,6 +18,13 @@ aliases:
 	- #question What does the context for this look like? 
 - Initialize an empty list
 	- `my_list = []`
+
+### Sum
+- Returns the sum of a list
+```python
+my_list = [1, 2, 3]
+print(sum(my_list)) # 6
+```
 ### Properties of Lists
 - Ordered
 	- Order of elements maintained as inserted and position preserved
