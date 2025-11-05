@@ -12,10 +12,11 @@ aliases:
 	- `my_variable.discard("hello")` will not raise error if item does not exist
 		- #question What happens instead if an error is not raised?
 	- #question Why would you ever use `remove` over `discard`? 
+### Description
+- A set cannot contain duplicate elements
+- 
 ### Length
 - To get the size/length of the set, you just do `len(my_set)`
-### Questions
-- #question what is [[auxiliary space (python)|auxiliary space]]
 ### Removing Multiple Elements at Once
 #### Looping Remove() Method
 ```python
