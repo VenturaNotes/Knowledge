@@ -2,6 +2,8 @@
 Source:
   - https://leetcode.com/problems/single-number/
 Reviewed: false
+tags:
+  - leetcode/solved
 ---
 ## Synthesis
 

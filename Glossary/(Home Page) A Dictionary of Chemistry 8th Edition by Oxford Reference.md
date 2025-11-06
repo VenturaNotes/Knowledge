@@ -1393,7 +1393,7 @@ Reviewed: false
 	1369. d-block elements
 	1370. d-isomer
 	1371. d-isomer
-	1372. D-lines
+	1372. [[D-lines]]
 	1373. d-orbital
 	1374. D-series
 	1375. Dakin reaction
@@ -1640,7 +1640,7 @@ Reviewed: false
 	1616. divalent
 	1617. dl-isomer
 	1618. DLA
-	1619. DLVO theory
+	1619. [[DLVO theory]]
 	1620. DMF
 	1621. DMG
 	1622. DMSO
@@ -1654,7 +1654,7 @@ Reviewed: false
 	1630. dodecylbenzene
 	1631. dolomite
 	1632. domain
-	1633. Donnan equilibrium
+	1633. [[Donnan equilibrium]]
 	1634. donor
 	1635. dopa
 	1636. dopamine

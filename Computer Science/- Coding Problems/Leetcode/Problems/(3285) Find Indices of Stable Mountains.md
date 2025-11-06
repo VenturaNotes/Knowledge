@@ -1,6 +1,8 @@
 ---
 Source:
   - https://leetcode.com/problems/find-indices-of-stable-mountains/
+tags:
+  - leetcode/solved
 ---
 ## Synthesis
 ### My Solution

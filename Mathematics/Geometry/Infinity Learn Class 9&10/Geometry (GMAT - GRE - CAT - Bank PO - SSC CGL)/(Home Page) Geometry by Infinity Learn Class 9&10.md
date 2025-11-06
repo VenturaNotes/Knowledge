@@ -25,4 +25,4 @@ Reviewed: false
 	- [[(14) Basics of Circles (GMAT and GRE and CAT and Bank PO and SSC CGL) - Don't Memorise]]
 	- [[(15) Angles in a Circle (GMAT and GRE and CAT and Bank PO and SSC CGL) - Don't Memorise]]
 	- [[(16) Tangents to a Circle (GMAT and GRE and CAT and Bank PO and SSC CGL) - Don't Memorise]]
-	- [[Home Page Geometry by Infinity Learn Class 9&10]]
+	- [[(Home Page) Geometry by Infinity Learn Class 9&10]]

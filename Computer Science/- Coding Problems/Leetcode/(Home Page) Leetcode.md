@@ -7,6 +7,9 @@ tags:
   - type/website
 Reviewed: false
 ---
+- [Python Easy Array Not Solved Problems](https://leetcode.com/problem-list/vtvjjiog/)
+- [Solutions](https://walkccc.me/LeetCode/topics/special-topics/simulation/)
+
 - Complete
 	- [[(1) Two Sum]]
 	- [[(9) Palindrome Number]]
@@ -1971,3 +1974,9 @@ Reviewed: false
 	- [[(3238) Find the Number of Winning Players]] 
 	- [[(3285) Find Indices of Stable Mountains]]
 	- [[(2942) Find Words Containing Character]]
+	- [[(3668) Restore Finishing Order]]
+	- [[(3701) Compute Alternating Sum]]
+	- [[(2574) Left and Right Sum Differences]]
+	- [[(2974) Minimum Number Game]]
+	- [[(3731) Find Missing Elements]]
+	- [[(3289) The Two Sneaky Numbers of Digitville]]
