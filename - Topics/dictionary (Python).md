@@ -43,6 +43,53 @@ car["test"] = "new value"
 	- #question Give me some details about KeyError
 	- #question Does `car.pop("model")` return the value after removal?
 
+#### Adding
+- Allows me to add a key-value pair to existing dictionary
+```python
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+# Adding key-value pair to existing dictionary
+car["test"] = "new value"
+```
+
+##### Adding Without Existing Key
+```python
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+# Ensures 1 is added to value in case `test` does not exist
+car["test"] = car.get("test", 0) + 1
+```
+#### Looping Through Values
+- This lets you loop through the values of the dictionary
+```python
+my_dict = {'a': 10, 'b': 20, 'c': 30}
+
+for value in my_dict.values():
+    print(value)
+
+'''Output
+10
+20
+30
+'''
+```
+#### Length
+- This shows you the length of the dictionary
+```python
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+length = len(my_dict)
+print(length) # Output: 3 (which probably means the # of key-value pairs)
+```
+
+
 ## Source [^1]
 ### Ordered or Unordered
 - Python 3.7+, dictionaries are ordered

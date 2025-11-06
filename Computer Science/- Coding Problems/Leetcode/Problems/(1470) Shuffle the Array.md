@@ -2,6 +2,8 @@
 Source:
   - https://leetcode.com/problems/shuffle-the-array/
 Reviewed: false
+tags:
+  - leetcode/solved
 ---
 ## Synthesis
 ### My Source

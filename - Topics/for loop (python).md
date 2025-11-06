@@ -20,8 +20,15 @@ cherry
 
 """
 ```
-
 ### Retrieving index
+
+### Steps 
+- Lets you iterate through a set of numbers every 2 steps
+```python
+# Iterate from 0 to 9, taking steps of 2
+for i in range(0, 10, 2):
+    print(i)
+```
 
 ## Source [^1]
 ```python

@@ -1,5 +1,7 @@
 ## Synthesis
-- 
+- The heap's efficiency advantage applies when the list is dynamic and elements are frequently added or removed, potentially changing the maximum value
+	- The initial construction of a heap is $O(n)$ time and subsequent comparisons is $O(1)$ (simply accessing the top of the heap)
+	- #question Is a heap actually a data structure or just a method of organizing lists?
 ## Source [^1]
 - (1) An area of storage used for dynamic allocation of data structures where the order of releasing the allocated data structure is indeterminate. Compare STACK. 
 - (2) A complete binary tree (see COMPLETE TREE) in which the value at each node is at least as large as the values at its children (if they exist). Heaps are used to implement priority queues.

@@ -19,6 +19,13 @@ aliases:
 - Initialize an empty list
 	- `my_list = []`
 
+### Insert / Beginning of List
+- Add item to beginning of list
+```python
+#Add element as first item in list
+fruits = ["apple", "banana", "cherry"]
+fruits.insert(0,"lemon")
+```
 ### Sum
 - Returns the sum of a list
 ```python
@@ -63,15 +70,29 @@ test.reverse() #test is now [5, 4, 3, 2, 1]
 fruits = ["apple", "banana", "cherry"]
 fruits.remove("banana")
 ```
+
 #### Pop Method
+- Lets you remove a specific index from the list
 - The pop method removes an element from the list
 	- `my_list.pop(1)` would remove the element at index 1
 	- `my_list.pop()` Just removes the last element
 	- In both cases, `pop()` returns this element
 ```python
+my_list = ['a', 'b', 'c', 'd']
+removed_item = my_list.pop(1) # Removes the item at index 1 ('b')
 
+print(my_list)       # Output: ['a', 'c', 'd']
+print(removed_item)  # Output: b
 ```
 
+#### del Method
+- #question Is this considered a method?
+```python
+my_list = ['a', 'b', 'c', 'd']
+del my_list[1] # Removes the item at index 1 ('b')
+
+print(my_list) # Output: ['a', 'c', 'd']
+```
 ### .extend() Method
 - `list.extend(iterable)` adds all elements from another iterable (like list, tuple, or string) to the end of the current list
 	- Similar to doing multiple `.append()` calls at once
@@ -89,6 +110,27 @@ print(nums)
 fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
 ```
+### Appending List onto list
+```python
+full_list = []
+row_list = [1, 2, 3]
+
+full_list.append(row_list)
+print(f"full_list after append: {full_list}") # Output: [[1, 2, 3]]
+
+# Now, change row_list
+row_list.append(4)
+print(f"row_list after change: {row_list}")   # Output: [1, 2, 3, 4]
+
+# Check full_list again
+print(f"full_list after row_list change: {full_list}") # Output: [[1, 2, 3, 4]]
+```
+- If you change the contents of `row_list` after you've appended it to `full_list`, those changes will be reflected in `full_list`. This is because `append()` adds a reference to the `row_list` object, not a copy of its contents. Both `full_list[0]` and row_list will point to the exact same list object in memory
+	- You need to append a copy of the `row_list` so it's not just a reference
+		- `full_list.append(list(row_list))`
+		- `full_list.append(row_list[:]`
+			- Slice creates a new list
+		- #question Isn't there a `row_list.copy()` option?
 ### Differences between Extend and/vs Append
 ```python
 nums = [1, 2, 3]

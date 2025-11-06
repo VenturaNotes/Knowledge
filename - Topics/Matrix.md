@@ -6,6 +6,38 @@ aliases:
 - The position of an element in a matrix is typically referred to using its index or indices
 - For example, in matrix A, the element in the $i^{th}$ row and $j^{th}$ column is denoted as $A_{ij}$, and this is referred to as the element at position $(i, j)$ 
 - #question I need to create a separate note for "index" of a matrix
+### Contiguous Matrix
+- A contiguous 3x3 matrix simply refers to a 3-row by 3-column block of elements that are adjacent to each other within a larger matrix or grid of numbers
+- A contiguous 3x3 matrix would be any square section of 9 numbers (3 rows, 3 columns) that are all next to each other, without any gaps or jumps
+- Given the 4x4 matrix:
+```
+ 1  2  3  4
+ 5  6  7  8
+ 9 10 11 12
+13 14 15 16
+```
+- There seems to only be 4 contiguous 3x3 matrices which are the top-left, top-right, bottom-left, and bottom-right
+```
+(Top Left)
+1  2  3
+5  6  7
+9 10 11
+
+(Top Right)
+2  3  4
+6  7  8
+10 11 12
+
+(Bottom Left)
+5  6  7
+9 10 11
+13 14 15
+
+(Bottom Right)
+6  7  8
+10 11 12
+14 15 16
+```
 ## Source [^1]
 - A matrix is in [[row echelon form]] (ref) when it satisfies the following conditions
 	- (1) The first non-zero element in each row, called the [[leading entry]], is 1

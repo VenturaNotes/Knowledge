@@ -6,6 +6,16 @@ aliases:
 ## Synthesis
 
 ### Methods
+
+### .count()
+- This can count the number of occurrences for a character in a string
+```python
+my_string = "hello world"
+char_to_find = "o"
+count = my_string.count(char_to_find)
+print(f"The character '{char_to_find}' appears {count} times.") 
+# Output: The character 'o' appears 2 times.
+```
 #### .partition()
 - The `.partition()` method in Python is used to split a string into three parts based on the first occurrence of a specified separator.
 #### .lstrip()
@@ -25,6 +35,14 @@ txt = txt.lower() #txt is now "hello world"
 ```
 ### Characteristics
 - Immutable
+
+### Concatenation
+```python
+test = "the"
+new_string = test + "n"
+print(new_string) # Output: "then"
+```
+- There is no `append()` method here
 ### Description
 - Strings are [[immutable]] meaning their values cannot be changed after they're created
 	- This means you cannot modify a character at a specific index.

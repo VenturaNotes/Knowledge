@@ -2,6 +2,8 @@
 Source:
   - https://leetcode.com/problems/richest-customer-wealth/
 Reviewed: false
+tags:
+  - leetcode/solved
 ---
 ## Synthesis
 ### My Solution

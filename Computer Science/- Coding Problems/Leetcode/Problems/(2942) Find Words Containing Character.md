@@ -1,6 +1,8 @@
 ---
 Source:
   - https://leetcode.com/problems/find-words-containing-character/description/
+tags:
+  - leetcode/solved
 ---
 ## Synthesis
 ### My Solution

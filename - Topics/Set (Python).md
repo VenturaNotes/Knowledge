@@ -13,8 +13,21 @@ aliases:
 		- #question What happens instead if an error is not raised?
 	- #question Why would you ever use `remove` over `discard`? 
 ### Description
+- A collection of unique elements without a defined order.
 - A set cannot contain duplicate elements
-- 
+- Sets are unordered and do not support indexing (such as `my_set[0]`), but you can still iterate through the elements using a `for` loop or functions such as `max(), min(), sum()` and etc. 
+	- The order is not guaranteed
+	- In CPython (the most common Python implementation), iterating over a set will typically yield elements in a consistent, but arbitrary, order for a given instance. 
+		- However, this order is an implementation detail and should not be relied upon as it can change between Python versions or even if the set is rebuilt
+		- #question What is Cpython? 
+### Maximum Value
+- Finds the maximum value in a set
+	- This is $O(n)$ time 
+```python
+my_set = {1, 5, 2, 8, 3}
+largest_value = max(my_set)
+print(largest_value)  # Output: 8
+```
 ### Length
 - To get the size/length of the set, you just do `len(my_set)`
 ### Removing Multiple Elements at Once
@@ -161,7 +174,6 @@ languages = {'Python', 'Java', 'English'}
 languages.remove('English')
 print(languages) # Output: {'Python', 'Java'}
 ```
-
 #### add()
 - Adds a unique element to a set
 - Can add tuples to set
