@@ -1664,12 +1664,12 @@ Reviewed: false
 	1640. double decomposition
 	1641. double displacement
 	1642. double layer
-	1643. double refraction
+	1643. [[double refraction]]
 	1644. double salt
-	1645. doublet
+	1645. [[doublet]]
 	1646. Downs process
 	1647. [[Dow process]]
-	1648. Dragendorff test
+	1648. [[Dragendorff test]]
 	1649. dropping-mercury electrode
 	1650. dry cell
 	1651. dry ice
