@@ -7,7 +7,7 @@ aliases:
 ---
 ## Synthesis
 - A hard disk, also known as a hard disk drive (HDD), is a device that stores data on a computer.
-- It's a type of [[non-volatile storage]], which means it can retain data even when the computer is turned off
+- It's a type of [[non-volatile storage]] (retains data even when computer off)
 ## Source[^1]
 - Traditional spinning disks offering large storage capacity but slower access speeds
 - Data is stored using [[magnetic recording]].
