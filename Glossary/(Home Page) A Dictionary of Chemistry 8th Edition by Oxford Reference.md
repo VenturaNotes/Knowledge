@@ -1684,7 +1684,7 @@ Reviewed: false
 	1660. Duquenois–Levine test
 	1661. Duralumin
 	1662. Dutch metal
-	1663. dye laser
+	1663. [[dye laser]]
 	1664. dyes
 	1665. dynamical system
 	1666. dynamic equilibrium
@@ -1745,13 +1745,13 @@ Reviewed: false
 	1721. electrode
 	1722. electrodeposition
 	1723. electrode potential
-	1724. electrodialysis
+	1724. [[electrodialysis]]
 	1725. electroendosmosis
 	1726. electroforming
 	1727. electrokinetic potential
 	1728. electroluminescence
 	1729. electrolysis
-	1730. electrolyte
+	1730. [[electrolyte]]
 	1731. electrolytic cell
 	1732. electrolytic corrosion
 	1733. electrolytic gas
