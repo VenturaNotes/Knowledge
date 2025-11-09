@@ -1790,8 +1790,8 @@ Reviewed: false
 	1766. 18-electron rule
 	1767. electron transport chain
 	1768. electronvolt
-	1769. electroorganic reaction
-	1770. electroosmosis
+	1769. [[electroorganic reaction]]
+	1770. [[electroosmosis]]
 	1771. electroosmotic mobility
 	1772. electropherogram
 	1773. electrophile
@@ -1799,7 +1799,7 @@ Reviewed: false
 	1775. electrophilic substitution
 	1776. [[electrophoresis]]
 	1777. [[electrophoretic deposition]]
-	1778. electrophoretic effect
+	1778. [[electrophoretic effect]]
 	1779. [[electroplating]]
 	1780. electropositive
 	1781. electrospray ionization
