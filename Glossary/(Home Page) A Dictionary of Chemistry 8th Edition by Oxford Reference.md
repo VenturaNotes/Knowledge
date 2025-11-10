@@ -2239,7 +2239,7 @@ Reviewed: false
 	2215. glass
 	2216. glass electrode
 	2217. glass fibres
-	2218. glass transition
+	2218. [[glass transition]]
 	2219. Glauber’s salt
 	2220. glauberite
 	2221. GLC
@@ -2272,8 +2272,8 @@ Reviewed: false
 	2248. glycolic acid
 	2249. glycolipid
 	2250. glycolysis
-	2251. glycoprotein
-	2252. glycosaminoglycan
+	2251. [[glycoprotein]]
+	2252. [[glycosaminoglycan]]
 	2253. glycoside
 	2254. glycosidic bond
 	2255. glycosidic link
