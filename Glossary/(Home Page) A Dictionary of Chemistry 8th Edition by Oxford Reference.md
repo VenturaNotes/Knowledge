@@ -1838,7 +1838,7 @@ Reviewed: false
 	1814. endergonic
 	1815. endo-
 	1816. endocannabinoids
-	1817. ENDOR
+	1817. [[ENDOR]]
 	1818. endothermic
 	1819. end point
 	1820. energy
@@ -1848,7 +1848,7 @@ Reviewed: false
 	1824. Engel’s salt
 	1825. enolate ion
 	1826. enols
-	1827. enrichment
+	1827. [[enrichment]]
 	1828. ensemble
 	1829. [[entanglement]]
 	1830. enthalpy
@@ -1884,7 +1884,7 @@ Reviewed: false
 	1860. erbium
 	1861. ergocalciferol
 	1862. ergodic hypothesis
-	1863. ergodicity
+	1863. [[ergodicity]]
 	1864. ergosterol
 	1865. ESCA
 	1866. eserine
