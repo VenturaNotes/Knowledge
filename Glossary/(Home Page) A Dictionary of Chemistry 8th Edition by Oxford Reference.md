@@ -457,7 +457,7 @@ Reviewed: false
 	433. autoprotolysis constant
 	434. autoradiography
 	435. auxochrome
-	436. Avogadro’s law
+	436. Avogadro's law
 	437. Avogadro, Amedeo (1776–1856)
 	438. Avogadro constant
 	439. axial
@@ -476,7 +476,7 @@ Reviewed: false
 	452. B–Z reaction
 	453. b.c.c.
 	454. Babbit metal
-	455. Babo’s law
+	455. Babo's law
 	456. backbiting
 	457. back donation
 	458. back e.m.f.
@@ -488,7 +488,7 @@ Reviewed: false
 	464. Baeyer-Villiger reaction
 	465. Baeyer strain
 	466. Baeyer test
-	467. Baird’s law
+	467. Baird's law
 	468. Bakelite
 	469. baking powder
 	470. baking soda
@@ -500,7 +500,7 @@ Reviewed: false
 	476. bar
 	477. Barbier-Wieland degradation
 	478. barbiturate
-	479. Barfoed’s test
+	479. Barfoed's test
 	480. barite
 	481. barium
 	482. barium bicarbonate
@@ -540,11 +540,11 @@ Reviewed: false
 	516. Becquerel, Antoine Henri (1852–1908)
 	517. Beer–Lambert law
 	518. beet sugar
-	519. Beilstein’s test
+	519. Beilstein's test
 	520. bell metal
 	521. Belousov–Zhabotinskii reaction
 	522. Bénard cell
-	523. Benedict’s test
+	523. Benedict's test
 	524. beneficiation
 	525. bent sandwich
 	526. benzaldehyde
@@ -657,7 +657,7 @@ Reviewed: false
 	633. blasting gelatin
 	634. bleaching powder
 	635. blende
-	636. Bloch’s theorem
+	636. Bloch's theorem
 	637. Bloch, Felix (1905–83)
 	638. block
 	639. block copolymer
@@ -716,17 +716,17 @@ Reviewed: false
 	692. bottled gas
 	693. bound state
 	694. bowsprit
-	695. Boyle’s law
+	695. Boyle's law
 	696. Boyle, Robert (1627–91)
 	697. Brackett series
-	698. Bragg’s law
+	698. Bragg's law
 	699. Bragg, Sir William Henry (1862–1942)
 	700. Bragg–Williams theory
 	701. Bragg peak
 	702. branched chain
 	703. brass
 	704. Bravais lattice
-	705. Bredt’s rule
+	705. Bredt's rule
 	706. Bremsstrahlung
 	707. brewing
 	708. bridge
@@ -902,7 +902,7 @@ Reviewed: false
 	878. Carnot cycle
 	879. carnotite
 	880. Carnot principle
-	881. Caro’s acid
+	881. Caro's acid
 	882. carotene
 	883. carotenoid
 	884. Carothers, Wallace Hume (1896–1937)
@@ -993,13 +993,13 @@ Reviewed: false
 	969. chaotic dynamics
 	970. chaotic reaction
 	971. charcoal
-	972. Chargaff’s rule
+	972. Chargaff's rule
 	973. charge
 	974. charge-transfer complex
 	975. charge carrier
 	976. charge density
 	977. charge density wave
-	978. Charles’ law
+	978. Charles' law
 	979. Charles, Jacques Alexandre César (1746–1823)
 	980. cheddite
 	981. chelate
@@ -1119,7 +1119,7 @@ Reviewed: false
 	1095. CL20
 	1096. Claisen condensation
 	1097. Clapeyron–Clausius equation
-	1098. Clar’s rule
+	1098. Clar's rule
 	1099. Clark cell
 	1100. Clark process
 	1101. classical electrodynamics
@@ -1220,7 +1220,7 @@ Reviewed: false
 	1196. [[conductiometric titration]]
 	1197. conduction band
 	1198. conductivity water
-	1199. Condy’s fluid
+	1199. Condy's fluid
 	1200. configuration
 	1201. [[configuration space]]
 	1202. confocal microscopy
@@ -1281,7 +1281,7 @@ Reviewed: false
 	1257. COT
 	1258. Cotton effect
 	1259. [[coulomb]]
-	1260. Coulomb’s law
+	1260. Coulomb's law
 	1261. [[Coulomb explosion]]
 	1262. coumarin
 	1263. coumarone
@@ -1314,7 +1314,7 @@ Reviewed: false
 	1290. crown ethers
 	1291. crucible
 	1292. crude oil
-	1293. Crum Brown’s rule
+	1293. Crum Brown's rule
 	1294. cryocrystallography
 	1295. cryogenic pump
 	1296. cryohydrate
@@ -1353,7 +1353,7 @@ Reviewed: false
 	1329. cuprous compounds
 	1330. curare
 	1331. curie
-	1332. Curie’s law
+	1332. Curie's law
 	1333. Curie, Marie (1867–1934)
 	1334. Curie point
 	1335. curium
@@ -1398,8 +1398,8 @@ Reviewed: false
 	1374. D-series
 	1375. Dakin reaction
 	1376. dalton
-	1377. Dalton’s atomic theory
-	1378. Dalton’s law
+	1377. Dalton's atomic theory
+	1378. Dalton's law
 	1379. Dalton, John (1766–1844)
 	1380. Daltonide compound
 	1381. dangling bond
@@ -1493,7 +1493,7 @@ Reviewed: false
 	1469. deuterium
 	1470. deuterium oxide
 	1471. deuteron
-	1472. Devarda’s alloy
+	1472. Devarda's alloy
 	1473. devitrification
 	1474. Dewar, Sir James (1842–1923)
 	1475. Dewar benzene
@@ -1648,7 +1648,7 @@ Reviewed: false
 	1624. DNA melting
 	1625. DNA packing
 	1626. DNA testing
-	1627. Döbereiner’s triads
+	1627. Döbereiner's triads
 	1628. dodecanoic acid
 	1629. dodecene
 	1630. dodecylbenzene
@@ -1677,8 +1677,8 @@ Reviewed: false
 	1653. DSC
 	1654. DTA
 	1655. dubnium
-	1656. Dulong and Petit’s law
-	1657. Dumas’ method
+	1656. Dulong and Petit's law
+	1657. Dumas' method
 	1658. Dumas, Jean Baptiste André (1800–84)
 	1659. duplet
 	1660. Duquenois–Levine test
@@ -1697,9 +1697,9 @@ Reviewed: false
 	1673. e.m.f.
 	1674. E1 reaction, E2 reaction
 	1675. EAC
-	1676. Earnshaw’s theorem
+	1676. Earnshaw's theorem
 	1677. earth
-	1678. earth’s atmosphere
+	1678. earth's atmosphere
 	1679. ebonite
 	1680. ebullioscopic constant
 	1681. ebullioscopy
@@ -1718,7 +1718,7 @@ Reviewed: false
 	1694. efflorescence
 	1695. effusion
 	1696. Ehrenfest classification
-	1697. Ehrlich’s reagent
+	1697. Ehrlich's reagent
 	1698. EI
 	1699. eigenfunction
 	1700. eigenvalues
@@ -1845,7 +1845,7 @@ Reviewed: false
 	1821. energy bands
 	1822. energy landscape
 	1823. energy level
-	1824. Engel’s salt
+	1824. Engel's salt
 	1825. enolate ion
 	1826. enols
 	1827. [[enrichment]]
@@ -1971,11 +1971,11 @@ Reviewed: false
 	1947. FAD
 	1948. Fahrenheit, Gabriel Daniel (1686–1736)
 	1949. Fahrenheit scale
-	1950. Fajans’ method
-	1951. Fajans’ rules
+	1950. Fajans' method
+	1951. Fajans' rules
 	1952. fall-out
 	1953. farad
-	1954. Faraday’s laws
+	1954. Faraday's laws
 	1955. Faraday, Michael (1791–1867)
 	1956. Faraday constant
 	1957. fast-atom bombardment mass spectroscopy
@@ -1983,14 +1983,14 @@ Reviewed: false
 	1959. fat
 	1960. fatty-acid oxidation
 	1961. fatty acid
-	1962. Fehling’s test
+	1962. Fehling's test
 	1963. feldspars
 	1964. feldspathoids
 	1965. FEM
 	1966. femto-
 	1967. femtochemistry
 	1968. fentanyl
-	1969. Fenton’s reagent
+	1969. Fenton's reagent
 	1970. [[fermentation]]
 	1971. fermi
 	1972. Fermi–Dirac statistics
@@ -2019,7 +2019,7 @@ Reviewed: false
 	1995. feynmanium
 	1996. FIA
 	1997. fibrous protein
-	1998. Fick’s law
+	1998. Fick's law
 	1999. FID
 	2000. field-emission microscope
 	2001. field-ionization microscope
@@ -2093,7 +2093,7 @@ Reviewed: false
 	2069. folic acid
 	2070. food additive
 	2071. food chemistry
-	2072. fool’s gold
+	2072. fool's gold
 	2073. forbidden band
 	2074. forbidden transitions
 	2075. force constant
@@ -2138,9 +2138,9 @@ Reviewed: false
 	2114. Frenkel defect
 	2115. freon
 	2116. Freundlich isotherm
-	2117. Friedel’s law
+	2117. Friedel's law
 	2118. Friedel–Crafts reaction
-	2119. Froehde’s test
+	2119. Froehde's test
 	2120. frontier-orbital theory
 	2121. frontier orbital
 	2122. Frost diagram
@@ -2153,7 +2153,7 @@ Reviewed: false
 	2129. fuel
 	2130. fuel cell
 	2131. fugacity
-	2132. fuller’s earth
+	2132. fuller's earth
 	2133. fullerene
 	2134. fullerite
 	2135. fulminate
@@ -2204,7 +2204,7 @@ Reviewed: false
 	2180. Gattermann–Koch reaction
 	2181. Gattermann reaction
 	2182. gauche
-	2183. Gay-Lussac’s law
+	2183. Gay-Lussac's law
 	2184. Gay-Lussac, Joseph (1778–1850)
 	2185. gaylussite
 	2186. GC-IR
@@ -2240,7 +2240,7 @@ Reviewed: false
 	2216. glass electrode
 	2217. glass fibres
 	2218. [[glass transition]]
-	2219. Glauber’s salt
+	2219. Glauber's salt
 	2220. glauberite
 	2221. GLC
 	2222. global warming
@@ -2277,23 +2277,23 @@ Reviewed: false
 	2253. glycoside
 	2254. glycosidic bond
 	2255. glycosidic link
-	2256. glycosylation
+	2256. [[glycosylation]]
 	2257. glyoxal
 	2258. gnomonic projection
 	2259. goethite
 	2260. Golay cell
 	2261. gold
-	2262. Goldschmidt’s rules
+	2262. Goldschmidt's rules
 	2263. Goldschmidt process
 	2264. Gooch crucible
 	2265. Gouy–Chapman model
 	2266. Gouy balance
 	2267. graft copolymer
-	2268. Graham’s law
+	2268. [[Graham's law]]
 	2269. Graham, Thomas (1805–69)
 	2270. gram
 	2271. grape sugar
-	2272. graphene
+	2272. [[graphene]]
 	2273. graphite
 	2274. graphitic compounds
 	2275. graph theory
@@ -2368,7 +2368,7 @@ Reviewed: false
 	2344. halothane
 	2345. Hamiltonian
 	2346. Hammett equation
-	2347. Hammond’s postulate
+	2347. Hammond's postulate
 	2348. Hantzsch–Widman system
 	2349. hapticity
 	2350. hard acid
@@ -2404,7 +2404,7 @@ Reviewed: false
 	2380. heavy water
 	2381. Heck reaction
 	2382. hecto-
-	2383. Heilbronner’s rule
+	2383. Heilbronner's rule
 	2384. Heisenberg, Werner Karl (1901–76)
 	2385. Heisenberg uncertainty principle
 	2386. helicase
@@ -2421,7 +2421,7 @@ Reviewed: false
 	2397. hemihydrate
 	2398. hemiketals
 	2399. henry
-	2400. Henry’s law
+	2400. Henry's law
 	2401. heparin
 	2402. heptadecanoic acid
 	2403. heptahydrate
@@ -2434,7 +2434,7 @@ Reviewed: false
 	2410. heroin
 	2411. hertz
 	2412. Herzberg, Gerhard (1904–99)
-	2413. Hess’s law
+	2413. Hess's law
 	2414. hetero atom
 	2415. heterocyclic
 	2416. heterogeneous
@@ -2475,14 +2475,14 @@ Reviewed: false
 	2451. Hildebrand rule
 	2452. Hill reaction
 	2453. Hinshelwood, Sir Cyril Norman (1897–1967)
-	2454. Hirsch’s rule
+	2454. Hirsch's rule
 	2455. histidine
 	2456. histochemistry
 	2457. histone
 	2458. HMX
 	2459. HNIW
-	2460. Hoff, Jacobus Henrikus van’t (1852–1911)
-	2461. Hofmann’s reaction
+	2460. Hoff, Jacobus Henrikus van't (1852–1911)
+	2461. Hofmann's reaction
 	2462. hole
 	2463. holmium
 	2464. holohedral form
@@ -2509,7 +2509,7 @@ Reviewed: false
 	2485. Hume-Rothery rules
 	2486. humectant
 	2487. Humphreys series
-	2488. Hund’s rules
+	2488. Hund's rules
 	2489. Hund, Friedrich (1896–1997)
 	2490. Hund coupling cases
 	2491. hyaluronic acid
@@ -2764,12 +2764,12 @@ Reviewed: false
 	2740. jasper
 	2741. Jemmismnorules
 	2742. jet
-	2743. jeweller’s rouge
+	2743. jeweller's rouge
 	2744. JMol
 	2745. Joliot-Curie, Irène (1897–1956)
 	2746. joliotium
 	2747. joule
-	2748. [[Joule’s law]]
+	2748. [[Joule's law]]
 	2749. Joule, James Prescott (1818–89)
 	2750. Joule–Thomson effect
 	2751. kainite
@@ -2809,21 +2809,21 @@ Reviewed: false
 	2785. kinetic isotope effect
 	2786. kinetics
 	2787. kinetic theory
-	2788. Kipp’s apparatus
+	2788. Kipp's apparatus
 	2789. Kirchhoff, Gustav Robert (1824–87)
-	2790. Kjeldahl’s method
+	2790. Kjeldahl's method
 	2791. knocking
 	2792. Knoevenagel reaction
 	2793. knotane
 	2794. [[knot theory]]
 	2795. Knudsen flow
 		1. See molecular flow
-	2796. Kohlrausch’s law
+	2796. Kohlrausch's law
 	2797. Kohlrausch equation
-	2798. Kolbe’s method
-	2799. Koopmans’ theorem
+	2798. Kolbe's method
+	2799. Koopmans' theorem
 	2800. Kovar
-	2801. Kramers’ reaction rate theory
+	2801. Kramers' reaction rate theory
 	2802. Kramers theorem
 	2803. Krebs, Sir Hans Adolf (1900–81)
 	2804. Krebs cycle
@@ -2878,7 +2878,7 @@ Reviewed: false
 	2853. Larmor precession
 	2854. laser
 	2855. laser spectroscopy
-	2856. Lassaigne’s test
+	2856. Lassaigne's test
 	2857. latent heat
 	2858. latex
 	2859. Latimer diagram
@@ -2925,7 +2925,7 @@ Reviewed: false
 	2900. lead monoxide
 	2901. lead tetra-acetate
 	2902. Leblanc process
-	2903. Le Chatelier’s principle
+	2903. Le Chatelier's principle
 	2904. lechatelierite
 	2905. Leclanché cell
 	2906. [[lectin]]
@@ -2939,7 +2939,7 @@ Reviewed: false
 	2914. Lewis, Gilbert Newton (1875–1946)
 	2915. Lewis acid and base
 	2916. Lewis structure
-	2917. Liebermann’s reaction
+	2917. Liebermann's reaction
 	2918. Liebermann test
 	2919. Liebig, Justus von (1803–73)
 	2920. Liebig condenser
@@ -3011,7 +3011,7 @@ Reviewed: false
 	2986. lone pair
 	2987. long period
 	2988. Lorentz–Lorenz equation
-	2989. Loschmidt’s constant
+	2989. Loschmidt's constant
 	2990. Lotka–Volterra mechanism
 	2991. low-dimensional solid
 	2992. low-energy electron diffraction
@@ -3045,7 +3045,7 @@ Reviewed: false
 	3020. macromolecule
 	3021. macroscopic
 	3022. MAD
-	3023. Madelung’s rule
+	3023. Madelung's rule
 	3024. Madelung constant
 	3025. magic-angle spinning
 	3026. Magic acid
@@ -3099,10 +3099,10 @@ Reviewed: false
 	3074. margaric acid
 	3075. marijuana
 	3076. Markoffian process
-	3077. Markovnikoff’s rule
+	3077. Markovnikoff's rule
 	3078. Markush structure
 	3079. Marquis test
-	3080. Marsh’s test
+	3080. Marsh's test
 	3081. marsh gas
 	3082. martensite
 	3083. mascagnite
@@ -3117,11 +3117,11 @@ Reviewed: false
 	3092. matrix
 	3093. matrix mechanics
 	3094. Matura diamond
-	3095. Maxwell’s demon
-	3096. Maxwell’s thermodynamic equations
+	3095. Maxwell's demon
+	3096. Maxwell's thermodynamic equations
 	3097. Maxwell, James Clerk (1831–79)
 	3098. Maxwell–Boltzmann distribution
-	3099. Mayer’s test
+	3099. Mayer's test
 	3100. Mayerf-function
 	3101. McLeod gauge
 	3102. McMillan–Mayer theory
@@ -3132,7 +3132,7 @@ Reviewed: false
 	3107. mean free time
 	3108. mechanical bonding
 	3109. mechanism
-	3110. Mecke’s test
+	3110. Mecke's test
 	3111. medium frequency
 	3112. mega-
 	3113. Meitner, Lise (1878–1968)
@@ -3140,7 +3140,7 @@ Reviewed: false
 	3115. melamine
 	3116. mellitic acid
 	3117. melting point
-	3118. Mendeleev’s law
+	3118. Mendeleev's law
 	3119. Mendeleev, Dmitri Ivanovich (1834–1907)
 	3120. mendelevium
 	3121. Mendius reaction
@@ -3248,12 +3248,12 @@ Reviewed: false
 	3223. Miller–Urey experiment
 	3224. Miller indices
 	3225. milli-
-	3226. Millon’s reagent
+	3226. Millon's reagent
 	3227. mineral
 	3228. mineral acid
 	3229. mirabilite
 	3230. misch metal
-	3231. Mitscherlich’s law
+	3231. Mitscherlich's law
 	3232. mixed-valence compound
 	3233. mixture
 	3234. mmHg
@@ -3305,7 +3305,7 @@ Reviewed: false
 	3280. molecule
 	3281. mole fraction
 	3282. molfile format
-	3283. Molisch’s test
+	3283. Molisch's test
 	3284. molten salt
 	3285. molybdenum
 	3286. moment of inertia
@@ -3329,7 +3329,7 @@ Reviewed: false
 	3304. Morse potential
 	3305. mosaic gold
 	3306. moscovium
-	3307. Moseley’s law
+	3307. Moseley's law
 	3308. Moseley, Henry Gwyn Jeffreys (1887–1915)
 	3309. moss agate
 	3310. Mössbauer effect
@@ -3392,7 +3392,7 @@ Reviewed: false
 	3367. Nernst heat theorem
 	3368. nerve agents
 	3369. nesquehonite
-	3370. Nessler’s reagent
+	3370. Nessler's reagent
 	3371. net ionic equation
 	3372. neutral
 	3373. neutralization
@@ -3401,7 +3401,7 @@ Reviewed: false
 	3376. neutron diffraction
 	3377. neutron number
 	3378. neutron spin echo
-	3379. Newlands’ law
+	3379. Newlands' law
 	3380. Newman projection
 	3381. newton
 	3382. Newtonian fluid
@@ -3607,7 +3607,7 @@ Reviewed: false
 	3582. osmometer
 	3583. osmosis
 	3584. osmotic pressure
-	3585. Ostwald’s dilution law
+	3585. Ostwald's dilution law
 	3586. Ostwald, Friedrich Wilhelm (1853–1932)
 	3587. Ostwald ripening
 	3588. outer-sphere mechanism
@@ -3691,7 +3691,7 @@ Reviewed: false
 	3666. Patterson synthesis
 	3667. Pauli, Wolfgang Ernst (1900–58)
 	3668. Pauli exclusion principle
-	3669. Pauling’s rules
+	3669. Pauling's rules
 	3670. Pauling, Linus Carl (1901–94)
 	3671. PCB
 	3672. PCP
@@ -4071,7 +4071,7 @@ Reviewed: false
 	4046. proton
 	4047. protonic acid
 	4048. proton number
-	4049. Prout’s hypothesis
+	4049. Prout's hypothesis
 	4050. prussic acid
 	4051. pseudo-axial
 	4052. pseudo-equatorial
@@ -4196,7 +4196,7 @@ Reviewed: false
 	4171. random walk
 	4172. Raney nickel
 	4173. ranksite
-	4174. Raoult’s law
+	4174. Raoult's law
 	4175. rapeseed methyl ester
 	4176. rare-earth elements
 	4177. rarefaction
@@ -4243,7 +4243,7 @@ Reviewed: false
 	4218. reforming
 	4219. refractory
 	4220. regioselectivity
-	4221. Regnault’s method
+	4221. Regnault's method
 	4222. relative atomic mass
 	4223. relative density
 	4224. relative molecular mass
@@ -4311,7 +4311,7 @@ Reviewed: false
 	4286. Rohypnol
 	4287. root-mean-square value
 	4288. ROSDAL
-	4289. Rose’s metal
+	4289. Rose's metal
 	4290. rosin
 	4291. rotamer
 	4292. rotational spectroscopy
@@ -4365,7 +4365,7 @@ Reviewed: false
 	4340. sand
 	4341. Sandmeyer reaction
 	4342. sandwich compound
-	4343. Sanger’s reagent
+	4343. Sanger's reagent
 	4344. Sanger, Frederick (1918–2013)
 	4345. saponification
 	4346. saponin
@@ -4376,7 +4376,7 @@ Reviewed: false
 	4351. saturation
 	4352. saturation spectroscopy
 	4353. sawhorse projection
-	4354. Saytsev’s rule
+	4354. Saytsev's rule
 	4355. sc
 	4356. scandium
 	4357. scanning electron microscope
@@ -4385,17 +4385,17 @@ Reviewed: false
 	4360. SCF
 	4361. Scheele, Karl Wilhelm (1742–86)
 	4362. scheelite
-	4363. Schiff’s base (DRAFT)
-	4364. Schiff’s reagent
+	4363. Schiff's base (DRAFT)
+	4364. Schiff's reagent
 	4365. Schiff base
 	4366. Schoenflies system
 	4367. schönite
 	4368. Schottky defect
 	4369. Schrödinger, Erwin (1887–1961)
 	4370. Schrödinger equation
-	4371. Schweizer’s reagent
+	4371. Schweizer's reagent
 	4372. scorpionate
-	4373. Scott’s test
+	4373. Scott's test
 	4374. scrubber
 	4375. seaborgium
 	4376. sebacic acid
@@ -4415,7 +4415,7 @@ Reviewed: false
 	4390. self-assembly
 	4391. self-consistent field
 	4392. self-organization
-	4393. Seliwanoff’s test
+	4393. Seliwanoff's test
 	4394. semi-empirical calculations
 	4395. semicarbazones
 	4396. semiclassical approximation
@@ -4485,7 +4485,7 @@ Reviewed: false
 	4460. skew
 	4461. slag
 	4462. slaked lime
-	4463. Slater’s rules
+	4463. Slater's rules
 	4464. SLN
 	4465. SLUMO
 	4466. slurry
@@ -4668,7 +4668,7 @@ Reviewed: false
 	4643. steroid
 	4644. sterol
 	4645. stimulated emission
-	4646. Stirling’s approximation
+	4646. Stirling's approximation
 	4647. STM
 	4648. stochastic process
 	4649. Stockholm Convention
@@ -4791,7 +4791,7 @@ Reviewed: false
 	4766. synthesis gas
 	4767. synthetic
 	4768. [[synthon]]
-	4769. Système International d’Unités
+	4769. Système International d'Unités
 	4770. Szilard–Chalmers effect
 	4771. 2,4,5-T
 	4772. tabun
@@ -5051,7 +5051,7 @@ Reviewed: false
 	5026. universal indicator
 	5027. unnil-
 	5028. unsaturated
-	5029. Unsöld’s theorem
+	5029. Unsöld's theorem
 	5030. unstable equilibrium
 	5031. UPS
 	5032. UPVC
@@ -5085,16 +5085,16 @@ Reviewed: false
 	5060. valency
 	5061. valine
 	5062. Valium
-	5063. van’t Hoff’s isochore
-	5064. van’t Hoff, Jacobus
-	5065. van’t Hoff factor
+	5063. van't Hoff's isochore
+	5064. van't Hoff, Jacobus
+	5065. van't Hoff factor
 	5066. vanadium
 	5067. vanadium(V) oxide
 	5068. vanadium pentoxide
 	5069. van Arkel–Ketelaar triangle
-	5070. van der Waals’ equation
-	5071. van der Waals’ force
-	5072. Van Urk’s reagent
+	5070. van der Waals' equation
+	5071. van der Waals' force
+	5072. Van Urk's reagent
 	5073. vapor density
 	5074. vapor pressure
 	5075. variational principle
@@ -5108,7 +5108,7 @@ Reviewed: false
 	5083. vibrational spectroscopy
 	5084. vibronic interactions
 	5085. vicinal
-	5086. Victor Meyer’s method
+	5086. Victor Meyer's method
 	5087. villiaumite
 	5088. vinegar
 	5089. vinyl acetate
@@ -5146,11 +5146,11 @@ Reviewed: false
 	5121. vulcanization
 	5122. VX
 	5123. Wacker process
-	5124. Wade’s rules
+	5124. Wade's rules
 	5125. Wagenaar test
 	5126. Wagner–Meerwein rearrangement
 	5127. WAHUHA
-	5128. Walden’s rule
+	5128. Walden's rule
 	5129. Walsh diagram
 	5130. warfarin
 	5131. washing soda
@@ -5179,21 +5179,21 @@ Reviewed: false
 	5154. white arsenic
 	5155. white mica
 	5156. white spirit
-	5157. Wigner’s rule
+	5157. Wigner's rule
 	5158. Wigner, Eugene Paul (1902–95)
 	5159. Wigner–Seitz cell
 	5160. Wigner–Witmer rules
-	5161. Williamson’s synthesis
+	5161. Williamson's synthesis
 	5162. Wiswesser line notation
 	5163. witherite
 	5164. Wittig reaction
 	5165. WLN
-	5166. Wöhler’s synthesis
+	5166. Wöhler's synthesis
 	5167. Wöhler, Friedrich (1800–82)
 	5168. Wolff–Kishner reduction
 	5169. wolfram
 	5170. wolframite
-	5171. Wood’s metal
+	5171. Wood's metal
 	5172. wood alcohol
 	5173. Woodward, Robert Burns (1917–79)
 	5174. Woodward–Hoffmann rules
@@ -5225,10 +5225,10 @@ Reviewed: false
 	5200. ytterbium
 	5201. yttrium
 	5202. Z-isomer
-	5203. Zachariasen’s rules
-	5204. Zaitsev’s rule
+	5203. Zachariasen's rules
+	5204. Zaitsev's rule
 	5205. Zeeman effect
-	5206. Zeise’s salt
+	5206. Zeise's salt
 	5207. Zeisel reaction
 	5208. zeolite
 	5209. zepto-

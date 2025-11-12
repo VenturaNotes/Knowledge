@@ -1,5 +1,11 @@
 ## Synthesis
-- 
+
+### Converting Binary to Decimal
+- If you have the binary number $111_2$, assign a power of 2 to each bit, starting from $2^0$ for the rightmost bit, $2^1$ for the next, and so on
+	- So ones place is = $2^0 \times 1$ = 1
+	- The tens place is $2^1\times1$ = 2
+	- The hundreds place is $2^2 \times 1$ = 4
+- So the solution is $7_{10}$ 
 ## Source [^1]
 - Binary is a system used by digital computers to encode data and programs
 ## Source[^2]
