@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Unwarranted belief in the correctness of one's judgements or beliefs. Many studies have used general knowledge quiz questions to which respondents give answers and also confidence ratings indicating their estimates of their probability of being correct, from 0 per cent certain to 100 per cent certain. Average estimates of probability of being correct$\textemdash$confidence ratings$\textemdash$tend to be much higher than average percentages of responses that turn out actually to be correct. For moderately difficult items, average confidence ratings tend to be around 90 per cent when approximately 65 to 70 per cent of the answers are correct, and to approach 100 per cent when approximately 80 per cent of the answers are correct. Anchoring and adjustment may account for the effect, and hindsight bias is closely related to it. Research in this area can be traced to 1957 and was revived in the late 1970s following extensive research by the US psychologists Sarah C. Lichtenstein (born 1933) and Baruch Fischhoff (born 1946). See also Depressive Realism, hard-eASY effect. Compare UNREALISTIC OPTIMISM.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

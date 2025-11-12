@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The argument that it is in one's rational self-interest to assume that God exists, because however small the probability is that God does indeed exist, provided that it is not zero, the infinite gain from belief and the infinite punishment from disbelief outweigh any advantage of disbelief if God does not exist. In modern terms, the argument purports to show that the expected utility of assuming that God exists must be greater than the expected utility of believing that God does not exist. The argument was formulated by the French philosopher, mathematician, and physicist Blaise Pascal (1623-62) and published posthumously in Pensées (1670): 'God is or he is not....What is your wager?...Let us weigh the gain and the loss in choosing "heads" that God is....If you gain, you gain all. If you lose, you lose nothing. Wager, then, unhesitatingly that he is' (Thought 233). Critics have claimed that there are not merely two possibilities$\textemdash$that the Christian God exists or does not exist$\textemdash$but an infinite number, and that this undermines the argument. See also rational Choice theory.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

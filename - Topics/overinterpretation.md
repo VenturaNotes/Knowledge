@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Deriving more meaning than the information warrants. In psychoanalysis, it denotes an additional interpretation, especially of a dream, following one that has already proved to be illuminating, the additional interpretations sometimes being worthwhile and sometimes not. In a key passage in his book Introductory Lectures on Psycho-Analysis (1916-17) Sigmund Freud (1856-1939) described it thus: 'The achievements of condensation can be quite extraordinary. It is sometimes possible by its help to combine two quite different latent trains of thought into one manifest dream, so that one can arrive at what appears to be a sufficient interpretation of a dream and yet in doing so can fail to notice a possible "over-interpretation" ' (Standard Edition, XV-XVI, at p. 173). But in a famous passage in his book The Interpretation of Dreams (1900), he wrote: 'There is often a passage in even the most thoroughly interpreted dream which has to be left obscure; this is because we become aware during the work of interpretation that at that point there is a tangle of dream-thoughts which cannot be unravelled and which moreover adds nothing to our knowledge of the content of the dream. This is the dream's navel, the spot where it reaches down into the unknown' (Standard Edition, IV-V, at p. 525). See also overdetermination. overinterpreted adj.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

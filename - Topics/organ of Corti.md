@@ -16,7 +16,10 @@
 			- Tectorial membrane
 			- Hair cells
 		- Basilar membrane
+## Source[^3]
+- $n$. A spiral structure within the cochlea of the inner ear, containing the basilar membrane in which are situated hair cells that convert sound waves into nerve impulses. Also called Corti's organ. \[Named after the Italian anatomist Alfonso Corti (1822-76) who was the first to describe the structure of the inner ear in detail in 1851]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

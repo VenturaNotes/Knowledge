@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In Kleinian analysis, a mode of object relations occurring during the first 4 months of life, before the depressive position, recurring occasionally in later childhood and adulthood, and becoming dominant in states of paranoid personality disorder and schizophrenia. It is characterized by ambivalence arising from the coexistence of aggressive and libidinal drives directed at an instinctual object, namely the mother's breast, that is a part object and is split into a good object and a bad object, because it both gratifies and frustrates, and because it evokes emotions of love and hate. The concept was introduced in 1932 by the British-based Austrian psychoanalyst Melanie Klein (18821960) and fully developed in a contribution to a co-authored book in 1952 on 'Some Theoretical Conclusions Regarding the Emotional Life of the Infant', where she explained her preference for the word position to stage or phase: 'these groupings of anxieties and defences, although arising first during the earliest stages, are not restricted to them but occur and recur during the first years of childhood and under certain circumstances in later life' (Developments in Psycho-Analysis, p. 236). Also called the paranoid position, the element schizoid being added to allude to the splitting of the object that it involves.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

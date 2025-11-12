@@ -5,7 +5,10 @@
 - Parallel running is another term for parallel processing
 ## Source[^2]
 - A method of computing in which two or more parts of a program are executed simultaneously rather than sequentially. Strictly, parallel processing is only possible on computers with more than one arithmetic and logical unit in the central processing unit, but it is often simulated on other machines by such techniques as time sharing.
+## Source[^3]
+- $n$. Computational processing in which a process is split into subunits that are executed simultaneously by independent processing units. See also CASCADE PROCESSING, CONNECTIONISM, DISCRETE PROCESSING, PARALLEL DISTRIBUTED PROCESSING. Compare SERIAL PROCESSING.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
