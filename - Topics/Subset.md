@@ -3,7 +3,39 @@ aliases:
   - subsets
 ---
 ## Synthesis
-- 
+### Recursive Approach to Finding all Subsets
+```python
+def get_subsets_recursive(nums):
+    subsets = []
+    current_subset = []
+
+    def backtrack(index):
+        # Base case: We've considered all elements
+        if index == len(nums):
+	        # Add a copy of the current subset
+            subsets.append(list(current_subset))
+            return
+
+        # Recursive step 1: Include the current element
+        current_subset.append(nums[index])
+        backtrack(index + 1)
+        current_subset.pop() # Backtrack: remove the element for the next choice
+
+        # Recursive step 2: Exclude the current element
+        backtrack(index + 1)
+
+    backtrack(0)
+    return subsets
+```
+- #question What does it mean to return nothing within a method? 
+#### Dry Run
+```python
+my_set = [2, 5, 6]
+all_subsets = get_subsets_recursive(my_set)
+print(all_subsets)
+```
+- Output Flow:
+	- 
 ## Source[^1]
 - You can have a [[Proper Subset]] and an [[Improper Subset]]
 - Given an improper subset A $\subseteq$ B
