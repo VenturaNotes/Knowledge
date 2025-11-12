@@ -12,7 +12,10 @@
 		- Dipeptite
 		- Water
 		- Peptide bond
+## Source[^3]
+- $n$. Any chemical compound of two or more amino acids linked by chemical bonds between their respective amino and carboxyl groups, including a substance such as an endorphin that regulates various bodily functions and plays an important part in the experience of pain. See also POLYPEPTIDE. \[From Greek peptein to digest]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

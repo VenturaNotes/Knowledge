@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A sentence containing every letter of the alphabet, sometimes used for teaching writing or keyboard skills. The most familiar example in English is the 37-letter typists' sentence: The quick brown fox jumped over the lazy dogs. A 26-letter pangram in which each letter occurs just once is: Jump dogs! Why vex Fritz Blank QC?, but the use of personal names and abbreviations renders it imperfect, though easily memorable. Only a handful of perfect pangrams (26 letters, without abbreviations, acronyms, contractions, proper nouns, or Roman numerals) are known in English. The most meaningful is Veldt jynx grimps waqf zho buck (which means grassland wryneck causes charitable-land hybrid cattle buck to mount), and the words can all be found in large dictionaries, such as the Oxford English Dictionary (unabridged): veldt is open grassland in South Africa, a jynx is a wryneck bird, to grimp is to cause something or someone to mount, waqf is land given to a religious institution for charitable purposes in Islamic countries, a zho is a hybrid bovine animal bred from a yak bull and a common cow, and a buck is a male member of a species. \[From Greek pan all + gramma a letter]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

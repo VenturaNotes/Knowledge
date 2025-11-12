@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The act or process of mistaking a physical stimulus for an image of imagination, an effect first demonstrated in a group of viewers who were instructed to stare fixedly at a mark on a ground glass screen and to imagine a red tomato as vividly as possible while a very faint (sub-threshold) and slightly blurred image of a red tomato was back-projected on to the screen and its illumination gradually increased until the observer reported experiencing an image of a tomato, the procedure then being repeated with images of a blue book, a banana, an orange, a leaf, and a lemon, whereupon the observers all mistook the visual stimuli for images of imagination, and not one of them realized that light stimuli were being projected on to the screen. In almost all cases the observers reported the images only after the illumination had been increased well above the threshold at which the stimuli were perceived by a control group of viewers who were not vividly imagining the objects, therefore the phenomenon is interpreted by some authorities as a type of visual masking by imaginary mental images, the perception of stimuli apparently being partially suppressed by vividly imagined visual images. \[Named after US psychologist Cheves West Perky (1874-1940) who first reported it in 1910, while she was a postgraduate student under the English psychologist Edward Bradford Titchener (1867-1927) at Cornell University]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -10,8 +10,11 @@
 - In an economic model, a quantity which is taken as given by an economic agent in their decision-making process. Changes in the outcome in response to a small change in some parameter can be analyzed using the comparative statics approach.
 ## Source[^3]
 - $n$. (in medicine) a measurement of some factor, such as blood pressure, pulse rate, or haemoglobin level, that may have a bearing on the condition being investigated.
+## Source[^4]
+- $n$. In statistics, a property of a population distribution, such as the population mean or population standard deviation, as distinct from a property of a sample. \[From Greek para beside or beyond + metron a measure]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

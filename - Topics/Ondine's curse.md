@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A rare genetic disorder of the central nervous system leading to failure of automatic breathing control while asleep, with normal breathing while awake. The term was first used in an article in the journal Clinical Research in 1962 by the US anaesthesiologist John W(endell) Severinghaus (born 1922) and a colleague, alluding to the play Ondine (1939) by the French dramatist (Hippolyte) Jean Giraudoux (1882-1944), in which Ondine's unfaithful husband develops a condition in which his body stops performing automatic functions, although Ondine does not curse him or wish him harm. Near the beginning of the play (I.vi), Ondine says: 'I will be your shoes, my husband, I will be your breath'; and near the end (III.vi), as he approaches death, he describes his condition: 'Since you went away, everything that my body used to do by itself I have to command it to do.... If I stop concentrating for a moment, I shall forget to hear, to breathe.' A gene responsible for the disorder, named Thox2B, was discovered by French researchers in 2003. Also called obesity hypoventilation syndrome (OHS). Compare CENTRAL SLEEP APNOEA, OBSTRUCTIVE SLEEP APNOEA HYPOPNOEA. \[From ondine, a water nymph, from Germanic and Scandinavian mythology (spelt Undine), from Latin undina a water-spirit, from unda a wave]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

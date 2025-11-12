@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In classical conditioning, the following phenomenon, first described by the Russian physiologist Ivan Petrovich Pavlov (1849-1936) on page 141 of his book Conditioned Reflexes (1927). If a response has been conditioned to a compound conditioned stimulus (CS) consisting of two components, one more intense or salient (1) than the other, then test trials with each component on its own reveal conditioning to the more salient component but not to the less salient. Although the weaker component functions as an adequate CS when the organism is conditioned with it alone, in a compound with the stronger component it is completely overshadowed. For example, in conditioning a dog to salivate, if one component is a loud bell and the other is a dim light, and if the unconditioned stimulus is food, then, after conditioning, only the loud bell presented alone will elicit the conditioned response of salivation. Similar overshadowing, though not always in such an extreme form, occurs in a wide variety of learning processes in both classical and operant conditioning. This phenomenon is not directly related to verbal overshadowing. overshadow $v b$. \[Translated from the Russian zatmevayet overshadowing or rendering insignificant in comparison]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

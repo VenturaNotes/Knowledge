@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A multiple-choice test, suitable for children from $2 \frac 12$ to 18 years of age, designed to measure the respondent's receptive vocabulary, generally interpreted as verbal intelligence. It is untimed but takes 15 minutes or less to administer, it is issued in two parallel forms, and like a standard IQ test it yields scores on a scale with a mean of 100 and a standard deviation of 15. Administration of the test requires no reading by the respondent: the examiner reads aloud a series of stimulus words, and in each case the respondent selects a picture corresponding to the word from a set of four alternatives, the words being arranged within the test in ascending order of difficulty. The test was developed by the Canadian-born psychologist Lloyd M. Dunn (1917-2006) and published in 1959, and a revised version (with the suffix -Revised) was issued in 1981. PPVT or PPVT-R abbrev. \[So called because it was constructed at George Peabody College in Nashville, Tennessee, by the Canadian special education researcher Lloyd M. Dunn (1917-2006) and his wife Leota M. Dunn (1917-2001)]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

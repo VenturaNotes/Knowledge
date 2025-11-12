@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A spectral image produced by a large sheet of clear glass positioned at an angle, allowing people and objects to be seen through it while an image of a person situated elsewhere, if brightly lit, is simultaneously reflected from it. It was used in Victorian theatre productions to project an image of an actor from a well beneath the front of the stage, the lighting on the actor being brightened or dimmed to make the image appear or disappear, the image itself having the quality of an apparition through which other actors on the stage could walk. The device is often wrongly described as being made from half-silvered glass. It should, perhaps, be called Dircks's ghost (see etymology immediately below). \[Named after the English analytical chemist John Henry Pepper (1821-1900) who improved it and was the first to demonstrate it in public at the Royal Polytechnic in London in 1862, although it had been invented earlier that year by the retired English civil engineer and patent agent Henry Dircks (1806-73) and was patented jointly by Pepper and Dircks in 1863]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -7907,610 +7907,723 @@ Reviewed: false
 	6089. [[ololiuqui]]
 	6090. [[omega process]]
 	
-	6091. ommatidium
-	6092. omnivore
-	6093. on-center cell
-	6094. onanism
-	6095. Ondine's curse
-	6096. one-group pretest-posttest design
-	6097. one-samplettest
+	6091. [[ommatidium]]
+	6092. [[omnivore]]
+	6093. [[on-center cell]]
+	6094. [[onanism]]
+	6095. [[Ondine's curse]]
+	6096. [[one-group pretest-posttest design]]
+	6097. [[one-sample t test]]
 	6098. one-way analysis of variance
-	6099. one-way screen
-	6100. oneiric
+		1. See analysis of variance (ANOVA).
+	6099. [[one-way screen]]
+	6100. [[oneiric]]
 	
-	6101. oneirophrenia
+	6101. [[oneirophrenia]]
 	6102. ongoing time disparity
+		1. n. Another name for phase delay. Also called ongoing disparity
 	6103. online counseling
-	6104. online therapy
-	6105. onomastics
-	6106. onomatopoeic theory
-	6107. ontogeny
-	6108. ontology
-	6109. onychophagia
-	6110. open-ended question
+		1. See online therapy
+	6104. [[online therapy]]
+	6105. [[onomastics]]
+	6106. [[onomatopoeic theory]]
+	6107. [[ontogeny]]
+	6108. [[ontology]]
+	6109. [[onychophagia]]
+	6110. [[open-ended question]]
 	
-	6111. open-field test
-	6112. open-loop control
-	6113. openness to experience
-	6114. open node
-	6115. open study
-	6116. open vowel
-	6117. operant
-	6118. operant conditioning
+	6111. [[open-field test]]
+	6112. [[open-loop control]]
+	6113. [[openness to experience]]
+	6114. [[open node]]
+	6115. [[open study]]
+	6116. [[open vowel]]
+	6117. [[operant]]
+	6118. [[operant conditioning]]
 	6119. operating characteristic
+		1. See MEMORY OPERATING CHARACTERISTIC, RECEIVER OPERATING CHARACTERISTIC.
 	6120. operation
+		1. See mental operation
 	
-	6121. operational definition
-	6122. operationalism
-	6123. operational research
+	6121. [[operational definition]]
+	6122. [[operationalism]]
+	6123. [[operational research]]
 	6124. operational stage
+		1. n. A general term for concrete operations and formal operations.
 	6125. operator
+		1. (gene) See gene operator.
 	6126. operatory stage
-	6127. operculum
-	6128. operon
-	6129. ophthalmic
-	6130. ophthalmoplegia
+		1. $n$. Another name for an operational stage. See concrete OPERATIONS, FORMAL OPERATIONS.
+	6127. [[operculum]]
+	6128. [[operon]]
+	6129. [[ophthalmic]]
+	6130. [[ophthalmoplegia]]
 	
-	6131. opiate
-	6132. opinion
-	6133. opinion leader
+	6131. [[opiate]]
+	6132. [[opinion]]
+	6133. [[opinion leader]]
 	6134. opioid
-	6135. opioid-related disorders
-	6136. opioid antagonist
-	6137. opium
+		1. See opiate
+	6135. [[opioid-related disorders]]
+	6136. [[opioid antagonist]]
+	6137. [[opium]]
 	6138. Oppel-Kundt illusion
+		1. n. Another name for the filled-space illusion. Also called the Oppel illusion. \[So called because it was first described in 1860-61 by the German physicist Johann Joseph Oppel (1815-94) and further investigated in 1863 by the German physicist August Adolph Eduard Eberhardt Kundt (1838-94)]
 	6139. Oppel illusion
-	6140. opponent-process theory
+		1. $n$. Another name for the filled-space illusion. \[Named after the German physicist Johann Joseph Oppel (1815-94) who first reported it in 1860-61]
+	6140. [[opponent-process theory]]
 	
-	6141. opponent cell
-	6142. opportunity sample
+	6141. [[opponent cell]]
+	6142. [[opportunity sample]]
 	6143. opposites test
-	6144. oppositional defiant disorder
-	6145. opsin
-	6146. optacon
+		1. n. Another name for an antonym test.
+	6144. [[oppositional defiant disorder]]
+	6145. [[opsin]]
+	6146. [[optacon]]
 	6147. optic agnosia
-	6148. optical character recognition
-	6149. optical flow
+		1. See agnosia
+	6148. [[optical character recognition]]
+	6149. [[optical flow]]
 	6150. optical illusion
+		1. n. Another name for a visual illusion. 
 	
 	6151. optic apraxia
-	6152. optic ataxia
-	6153. optic chiasm
+		1. See apraxia
+	6152. [[optic ataxia]]
+	6153. [[optic chiasm]]
 	6154. optic disc
-	6155. optic nerve
-	6156. optic radiation
-	6157. optic tectum
-	6158. optic tract
-	6159. optimal foraging
-	6160. optimal movement
+		1. n. Another name for the blind spot (1). US optic disk.
+	6155. [[optic nerve]]
+	6156. [[optic radiation]]
+	6157. [[optic tectum]]
+	6158. [[optic tract]]
+	6159. [[optimal foraging]]
+	6160. [[optimal movement]]
 	
 	6161. optimism, unrealistic
-	6162. optional stopping
-	6163. optogram
-	6164. optohapt
-	6165. optokinetic nystagmus
-	6166. oral
-	6167. oral-aggressive character
+		1. See unrealistic optimism.
+	6162. [[optional stopping]]
+	6163. [[optogram]]
+	6164. [[optohapt]]
+	6165. [[optokinetic nystagmus]]
+	6166. [[oral]]
+	6167. [[oral-aggressive character]]
 	6168. oral-incorporative phase
+		1. n. Another name for the early oral phase. 
 	6169. oral-passive character
-	6170. oral apraxia
+		1. n. Another name for the oral character. Also called the oral-passive personality.
+	6170. [[oral apraxia]]
 	
-	6171. oral character
-	6172. oral dependence
-	6173. oral erotism
-	6174. oral primacy
-	6175. oral sadistic phase
-	6176. oral stage
-	6177. Orbison illusion
-	6178. orbitofrontal cortex
-	6179. order
-	6180. ordered recall
+	6171. [[oral character]]
+	6172. [[oral dependence]]
+	6173. [[oral erotism]]
+	6174. [[oral primacy]]
+	6175. [[oral sadistic phase]]
+	6176. [[oral stage]]
+	6177. [[Orbison illusion]]
+	6178. [[orbitofrontal cortex]]
+	6179. [[order]]
+	6180. [[ordered recall]]
 	
-	6181. order effect
-	6182. ordinal scale
-	6183. orectic
-	6184. Orestes complex
-	6185. organelle
-	6186. organ erotism
+	6181. [[order effect]]
+	6182. [[ordinal scale]]
+	6183. [[orectic]]
+	6184. [[Orestes complex]]
+	6185. [[organelle]]
+	6186. [[organ erotism]]
 	6187. organic affective disorders
+		1. $n$. Another name for organic mood disorders. See ORGANIC DISORDERS.
 	6188. organic brain syndrome
-	6189. organic disorders
-	6190. organic hallucinosis
+		1. $n$. Another name for an organic disorder. OBS abbrev.
+	6189. [[organic disorders]]
+	6190. [[organic hallucinosis]]
 	
 	6191. organic mental disorders
-	6192. organism
+		1. See organic disorders. Compare psychogenesis.
+	6192. [[organism]]
 	6193. organization, Gestalt principle of
-	6194. organizational psychology
-	6195. organized crime
+		1. n. Another name for a Gestalt grouping law.
+	6194. [[organizational psychology]]
+	6195. [[organized crime]]
 	6196. organ libido
-	6197. organ neurosis
-	6198. organ of Corti
+		1. n. Another name for organ erotism.
+	6197. [[organ neurosis]]
+	6198. [[organ of Corti]]
 	6199. organ of Golgi
-	6200. organophosphate
+		1. $n$. Another name for a Golgi tendon organ. \[Named after the Italian cytologist Camillo Golgi (1843-1926) who gave the first complete description of it in 1880]
+	6200. [[organophosphate]]
 	
-	6201. organophosphate poisoning
-	6202. organum vasculosum lamina terminalis
-	6203. orgasm
-	6204. orgasmatron
-	6205. orgasmic dysfunction device
+	6201. [[organophosphate poisoning]]
+	6202. [[organum vasculosum lamina terminalis]]
+	6203. [[orgasm]]
+	6204. [[orgasmatron]]
+	6205. [[orgasmic dysfunction device]]
 	6206. orgasmic dysfunctions
+		1. $n$. Another name for female orgasmic disorder, delayed ejaculation, and premature (early) ejaculation. Also called orgasm disorders or orgasmic disorders. See also IMPotence (2).
 	6207. orgasmic impotence
-	6208. orgone therapy
-	6209. orientation-specific cell
-	6210. orientation column
+		1. See impotence (2).
+	6208. [[orgone therapy]]
+	6209. [[orientation-specific cell]]
+	6210. [[orientation column]]
 	
-	6211. orienting response
-	6212. orphan drug
-	6213. orthodromic
+	6211. [[orienting response]]
+	6212. [[orphan drug]]
+	6213. [[orthodromic]]
 	6214. orthographic agraphia
-	6215. orthography
-	6216. orthomolecular therapy
-	6217. orthopsychiatry
+		1. See agraphia.
+	6215. [[orthography]]
+	6216. [[orthomolecular therapy]]
+	6217. [[orthopsychiatry]]
 	6218. oscillating figure
-	6219. oscillopsia
+		1. n. Another name for an ambiguous figure. 
+	6219. [[oscillopsia]]
 	6220. osmometric thirst
+		1. $n$. Another name for intracellular thirst. \[From osmosis + Greek metron a measure]
 	
-	6221. osmoreceptor
-	6222. osmosis
-	6223. osmotic pressure
+	6221. [[osmoreceptor]]
+	6222. [[osmosis]]
+	6223. [[osmotic pressure]]
 	6224. osmotic thirst
-	6225. osphresiolagnia
+		1. n. Another name for intracellular thirst. 
+	6225. [[osphresiolagnia]]
 	6226. osphresis
+		1. $n$. Another name for olfaction. osphretic adj. Capable of being smelled. \[From Greek osphresis sense of smell]
 	6227. osseous labyrinth
-	6228. ossicle
-	6229. Othello syndrome
+		1. $n$. Another name for the bony labyrinth. \[From Latin osseus bony, from os a bone]
+	6228. [[ossicle]]
+	6229. [[Othello syndrome]]
 	6230. other, significant
+		1. See significant other
 	
-	6231. otic
-	6232. otitis
+	6231. [[otic]]
+	6232. [[otitis]]
 	6233. otoconium
-	6234. otogenic tone
-	6235. otolith
-	6236. otology
-	6237. otosclerosis
-	6238. ototoxic
-	6239. Ouchi illusion
-	6240. Ouija board
+		1. $n$. Another name for an otolith. otoconia pl. \[From Greek ous, otos an ear + konis, konia ashes, alluding to their appearance when viewed without magnification]
+	6234. [[otogenic tone]]
+	6235. [[otolith]]
+	6236. [[otology]]
+	6237. [[otosclerosis]]
+	6238. [[ototoxic]]
+	6239. [[Ouchi illusion]]
+	6240. [[Ouija board]]
 	
-	6241. out-of-body experience
-	6242. out-of-level testing
-	6243. outbreeding
-	6244. outer ear
-	6245. outer hair cell
-	6246. outer nuclear layer
-	6247. outer plexiform layer
-	6248. outlier
-	6249. outplacement counseling
-	6250. oval window
+	6241. [[out-of-body experience]]
+	6242. [[out-of-level testing]]
+	6243. [[outbreeding]]
+	6244. [[outer ear]]
+	6245. [[outer hair cell]]
+	6246. [[outer nuclear layer]]
+	6247. [[outer plexiform layer]]
+	6248. [[outlier]]
+	6249. [[outplacement counseling]]
+	6250. [[oval window]]
 	
 	6251. ovarian follicle
-	6252. ovary
-	6253. overanxious disorder
+		1. n. Another name for a Graafian follicle.
+	6252. [[ovary]]
+	6253. [[overanxious disorder]]
 	6254. overattribution bias
-	6255. overconfidence effect
+		1. n. Another name for the fundamental attribution error.
+	6255. [[overconfidence effect]]
 	6256. overcorrection
-	6257. overdetermination
-	6258. overdominance
-	6259. overextension
+		1. n. Another name for hypercorrection.
+	6257. [[overdetermination]]
+	6258. [[overdominance]]
+	6259. [[overextension]]
 	6260. overflow response
+		1. n. Another name for vacuum activity. 
 	
-	6261. overgeneralization
-	6262. overinclusiveness
-	6263. overinterpretation
-	6264. overjustification
-	6265. overlearning
-	6266. overregularization
-	6267. overshadowing
+	6261. [[overgeneralization]]
+	6262. [[overinclusiveness]]
+	6263. [[overinterpretation]]
+	6264. [[overjustification]]
+	6265. [[overlearning]]
+	6266. [[overregularization]]
+	6267. [[overshadowing]]
 	6268. oversufficient justification
-	6269. overtone
-	6270. overtraining
+		1. n. Another name for overjustification
+	6269. [[overtone]]
+	6270. [[overtraining]]
 	
-	6271. overtraining extinction effect
-	6272. overtraining reversal effect
-	6273. overvalued idea
-	6274. ovulatevb.
-	6275. ovum
+	6271. [[overtraining extinction effect]]
+	6272. [[overtraining reversal effect]]
+	6273. [[overvalued idea]]
+	6274. [[ovulate]]
+	6275. [[ovum]]
 	6276. oxidative metabolism
-	6277. oxidative phosphorylation
-	6278. oxycodone
-	6279. oxymethalone
-	6280. oxymoron
+		1. See oxidative phosPhorylation.
+	6277. [[oxidative phosphorylation]]
+	6278. [[oxycodone]]
+	6279. [[oxymethalone]]
+	6280. [[oxymoron]]
 	
-	6281. oxymorphone
-	6282. oxytocin
-	6283. P200
-	6284. P300
-	6285. P50
-	6286. P600abbrev.
-	6287. pa-leng
-	6288. Pac-Man
-	6289. pacemaker neuron
+	6281. [[oxymorphone]]
+	6282. [[oxytocin]]
+	6283. [[P200]]
+	6284. [[P300]]
+	6285. [[P50]]
+	6286. [[P600]]
+	6287. [[pa-leng]]
+	6288. [[Pac-Man]]
+	6289. [[pacemaker neuron]]
 	6290. pachymeninx
+		1. $n$. Another name for the dura mater. \[From Greek pachys thick + Greek meninx a membrane]
 	
-	6291. Pacinian corpuscle
-	6292. paedophilia
-	6293. paedophilic disorder
-	6294. pagophagia
-	6295. pain
-	6296. pain asymbolia
-	6297. pain disorder
-	6298. pain principle
-	6299. pain receptor
-	6300. paired-associate learning
+	6291. [[Pacinian corpuscle]]
+	6292. [[paedophilia]]
+	6293. [[paedophilic disorder]]
+	6294. [[pagophagia]]
+	6295. [[pain]]
+	6296. [[pain asymbolia]]
+	6297. [[pain disorder]]
+	6298. [[pain principle]]
+	6299. [[pain receptor]]
+	6300. [[paired-associate learning]]
 	
 	6301. paired comparisons
-	6302. paired samplesttest
-	6303. palaeocortex
-	6304. palaeostriatum
-	6305. palatal
-	6306. palato-alveolar
+		1. See method of paired comparisons
+	6302. paired samples t test
+		1. n. Another name for the related scores t test. 
+	6303. [[palaeocortex]]
+	6304. [[palaeostriatum]]
+	6305. [[palatal]]
+	6306. [[palato-alveolar]]
 	6307. paleencephalon
+		1. $n$. Another name for the palaeocortex. \[From Greek palaios old + enkephalos the brain, from en in + kephale the head]
 	6308. paleocortex
+		1. See palaeocortex.
 	6309. paleostriatum
-	6310. palilalia
+		1. See palaeostriatum.
+	6310. [[palilalia]]
 	
-	6311. palinacousis
-	6312. palingenesis
-	6313. palingraphia
-	6314. pallaesthesia
-	6315. pallanaesthesia
+	6311. [[palinacousis]]
+	6312. [[palingenesis]]
+	6313. [[palingraphia]]
+	6314. [[pallaesthesia]]
+	6315. [[pallanaesthesia]]
 	6316. pallidum
+		1. $n$. An abbreviated name for the globus pallidus. \[From Latin pallidus pale]
 	6317. palmaesthesia
-	6318. palpitation
-	6319. palsy
-	6320. pancreas
+		1. $n$. Another name for pallaesthesia. US palmesthesia. palmanaesthesia $n$. Another name for pallanaesthesia. US palmanesthesia. \[From Greek palmos vibration + aisthesis feeling + -ia indicating a condition or quality]
+	6318. [[palpitation]]
+	6319. [[palsy]]
+	6320. [[pancreas]]
 	
-	6321. pandemic
-	6322. Pandemonium
-	6323. panel study
-	6324. pangram
-	6325. panic attack
-	6326. panic disorder
-	6327. pansexualism
-	6328. pantheism
-	6329. panting center
-	6330. Panum's fusion area
+	6321. [[pandemic]]
+	6322. [[Pandemonium]]
+	6323. [[panel study]]
+	6324. [[pangram]]
+	6325. [[panic attack]]
+	6326. [[panic disorder]]
+	6327. [[pansexualism]]
+	6328. [[pantheism]]
+	6329. [[panting center]]
+	6330. [[Panum's fusion area]]
 	
-	6331. Panum's limiting case
+	6331. [[Panum's limiting case]]
 	6332. Panum phenomenon
-	6333. Papez circuit
-	6334. papilla
-	6335. paracentral vision
-	6336. parachlorophenylalanine
-	6337. parachromatopsia
-	6338. paracontrast
-	6339. paracusia
-	6340. paradigm
+		1. See Panum's limiting case.
+	6333. [[Papez circuit]]
+	6334. [[papilla]]
+	6335. [[paracentral vision]]
+	6336. [[parachlorophenylalanine]]
+	6337. [[parachromatopsia]]
+	6338. [[paracontrast]]
+	6339. [[paracusia]]
+	6340. [[paradigm]]
 	
-	6341. paradigm shift
-	6342. paradox
-	6343. paradoxical cold
-	6344. paradoxical heat
-	6345. paradoxical injunction
-	6346. paradoxical intention
+	6341. [[paradigm shift]]
+	6342. [[paradox]]
+	6343. [[paradoxical cold]]
+	6344. [[paradoxical heat]]
+	6345. [[paradoxical injunction]]
+	6346. [[paradoxical intention]]
 	6347. paradoxical sleep
-	6348. paradoxical therapy
-	6349. paradoxical warmth
+		1. $n$. Another name for REM sleep. PS abbrev. \[So called because its characteristic EEG pattern is similar to that of the waking state, but the sleeper is none the less especially difficult to awaken]
+	6348. [[paradoxical therapy]]
+	6349. [[paradoxical warmth]]
 	6350. paradox of voting
+		1. n. Another name for Condorcet's paradox
 	
-	6351. paraesthesia
-	6352. parafovea
-	6353. parageusia
-	6354. paragraphia
-	6355. parahippocampal gyrus
-	6356. paralanguage
-	6357. paraldehyde
-	6358. paralexia
-	6359. paralinguistics
-	6360. parallax
+	6351. [[paraesthesia]]
+	6352. [[parafovea]]
+	6353. [[parageusia]]
+	6354. [[paragraphia]]
+	6355. [[parahippocampal gyrus]]
+	6356. [[paralanguage]]
+	6357. [[paraldehyde]]
+	6358. [[paralexia]]
+	6359. [[paralinguistics]]
+	6360. [[parallax]]
 	
 	6361. parallel-form reliability
-	6362. parallel distributed processing
-	6363. parallel fibre
-	6364. parallel forms
+		1. n. Another name for equivalent-form reliability.
+	6362. [[parallel distributed processing]]
+	6363. [[parallel fibre]]
+	6364. [[parallel forms]]
 	6365. parallelism
+		1. n. Another name for psychophysical parallelism
 	6366. parallelogram illusion
-	6367. parallel processing
-	6368. paralysis
+		1. n. Another name for the Sander parallelogram.
+	6367. [[parallel processing]]
+	6368. [[paralysis]]
 	6369. paralysis agitans
-	6370. paralytic strabismus
+		1. n. Another name for Parkinson's disease. 
+	6370. [[paralytic strabismus]]
 	
-	6371. paramecium
-	6372. parameter
-	6373. parametric statistics
-	6374. paramimia
-	6375. paramnesia
+	6371. [[paramecium]]
+	6372. [[parameter]]
+	6373. [[parametric statistics]]
+	6374. [[paramimia]]
+	6375. [[paramnesia]]
 	6376. paramnesia, reduplicative
+		1. See reduplicative paramnesia
 	6377. paranoia
-	6378. paranoia querulans
+		1. $n$. Another name for delusional disorder or, more generally, any mental disorder characterized by delusions, including paranoid personality disorder, paranoid schizophrenia, or shared psychotic disorder. See also paranoid technique, Schreber case. \[From Greek paranoia frenzy, from para beside + nous intellect or sense + -ia indicating a condition or quality]
+	6378. [[paranoia querulans]]
 	6379. paranoia scale
-	6380. paranoid
+		1. See MMPI
+	6380. [[paranoid]]
 	
-	6381. paranoid-schizoid position
+	6381. [[paranoid-schizoid position]]
 	6382. paranoid disorder
+		1. See DELUSIONAL DISORDER, PARANOIA, PARANOID PERSONALITY DISORDER, PARANOID SCHIZOPHRENIA, SHARED PSYCHOTIC DISORDER.
 	6383. paranoid disorder, shared
-	6384. paranoid ideation
-	6385. paranoid personality disorder
-	6386. paranoid schizophrenia
-	6387. paranoid technique
-	6388. paranormal
+		1. See SHARED PSYCHOTIC DISORDER.
+	6384. [[paranoid ideation]]
+	6385. [[paranoid personality disorder]]
+	6386. [[paranoid schizophrenia]]
+	6387. [[paranoid technique]]
+	6388. [[paranormal]]
 	6389. paranosic gain
-	6390. paraphasia
+		1. $n$. Another name for primary gain. \[From Greek para beside or beyond + nosos a disorder]
+	6390. [[paraphasia]]
 	
-	6391. paraphemia
-	6392. paraphilias
-	6393. paraphilic disorders
-	6394. paraphobia
-	6395. paraphrenia
-	6396. paraplegia
-	6397. parapraxis
-	6398. parapsychology
-	6399. parasitosis
-	6400. parasol cell
+	6391. [[paraphemia]]
+	6392. [[paraphilias]]
+	6393. [[paraphilic disorders]]
+	6394. [[paraphobia]]
+	6395. [[paraphrenia]]
+	6396. [[paraplegia]]
+	6397. [[parapraxis]]
+	6398. [[parapsychology]]
+	6399. [[parasitosis]]
+	6400. [[parasol cell]]
 	
-	6401. parasomnias
-	6402. parasuicide
-	6403. parasympathetic nervous system
-	6404. parasympatholytic
-	6405. parasympathomimetic
-	6406. parathyroid gland
-	6407. parathyroid hormone
-	6408. paraventricular nucleus
-	6409. paregoric
+	6401. [[parasomnias]]
+	6402. [[parasuicide]]
+	6403. [[parasympathetic nervous system]]
+	6404. [[parasympatholytic]]
+	6405. [[parasympathomimetic]]
+	6406. [[parathyroid gland]]
+	6407. [[parathyroid hormone]]
+	6408. [[paraventricular nucleus]]
+	6409. [[paregoric]]
 	6410. parent-figure, combined
+		1. See combined parent-figure.
 	
-	6411. parental investment
-	6412. parenteral
-	6413. paresis
+	6411. [[parental investment]]
+	6412. [[parenteral]]
+	6413. [[paresis]]
 	6414. paresthesia
-	6415. Pareto-optimal
-	6416. parietal lobe
+		1. See PARAESTHESIA.
+	6415. [[Pareto-optimal]]
+	6416. [[parietal lobe]]
 	6417. parietal operculum
-	6418. parieto-occipital sulcus
-	6419. Parkinson's disease
-	6420. parkinsonism
+		1. See OPERCULUM.
+	6418. [[parieto-occipital sulcus]]
+	6419. [[Parkinson's disease]]
+	6420. [[parkinsonism]]
 	
 	6421. Parlodel
+		1. $n$. A proprietary name for the dopamine agonist bromocriptine. \[Trademark]
 	6422. Parlyaree
-	6423. parole
-	6424. paronomasia
-	6425. parosmia
-	6426. parotid gland
-	6427. paroxetine
-	6428. parsimony principle
-	6429. parthenogenesis
-	6430. partial correlation
+		1. See polari
+	6423. [[parole]]
+	6424. [[paronomasia]]
+	6425. [[parosmia]]
+	6426. [[parotid gland]]
+	6427. [[paroxetine]]
+	6428. [[parsimony principle]]
+	6429. [[parthenogenesis]]
+	6430. [[partial correlation]]
 	
 	6431. partial instinct
-	6432. partial movement
-	6433. partial reinforcement
-	6434. partial reinforcement effect
-	6435. partial tone
-	6436. participant (research or experimental)
-	6437. participant observation
-	6438. participation mystique
-	6439. participatory action research
-	6440. particular complex
+		1. n. Another name for a component instinct.
+	6432. [[partial movement]]
+	6433. [[partial reinforcement]]
+	6434. [[partial reinforcement effect]]
+	6435. [[partial tone]]
+	6436. participant
+		1. (research or experimental) $n$. Another name for a subject (research or experimental) or volunteer.
+	6437. [[participant observation]]
+	6438. [[participation mystique]]
+	6439. [[participatory action research]]
+	6440. [[particular complex]]
 	
-	6441. particulate inheritance
-	6442. partile
+	6441. [[particulate inheritance]]
+	6442. [[partile]]
 	6443. part instinct
-	6444. part object
-	6445. parvocellular system
-	6446. Pascal's wager
+		1. n. Another name for a component instinct.
+	6444. [[part object]]
+	6445. [[parvocellular system]]
+	6446. [[Pascal's wager]]
 	6447. passing stranger effect
-	6448. passive-aggressive personality disorder
+		1. n. Another name for the ancient mariner effect.
+	6448. [[passive-aggressive personality disorder]]
 	6449. passive-dependent personality disorder
-	6450. passive analysis
+		1. n. Another name for dependent personality disorder.
+	6450. [[passive analysis]]
 	
-	6451. passive avoidance conditioning
+	6451. [[passive avoidance conditioning]]
 	6452. passive learning
-	6453. passive movement
+		1. $n$. Another name for incidental learning and latent learning.
+	6453. [[passive movement]]
 	6454. passive tremor
-	6455. passive vocabulary
-	6456. pastoral counseling
-	6457. patellar reflex
-	6458. paternity uncertainty
+		1. n. Another name for resting tremor
+	6455. [[passive vocabulary]]
+	6456. [[pastoral counseling]]
+	6457. [[patellar reflex]]
+	6458. [[paternity uncertainty]]
 	6459. path analysis
-	6460. path diagram
+		1. See path diagram
+	6460. [[path diagram]]
 	
-	6461. pathergasia
-	6462. pathetic fallacy
+	6461. [[pathergasia]]
+	6462. [[pathetic fallacy]]
 	6463. pathetic nerve
-	6464. pathogenesis
-	6465. pathognomonic
+		1. $n$. Another name for the abducens nerve (the sixth cranial nerve).
+	6464. [[pathogenesis]]
+	6465. [[pathognomonic]]
 	6466. pathological fire-setting
-	6467. pathological gambling
+		1. n. Another name for pyromania
+	6467. [[pathological gambling]]
 	6468. pathological hair-pulling
+		1. $n$. Another name for trichotillomania.
 	6469. pathological stealing
+		1. n. Another name for kleptomania.
 	6470. pathomimicry
+		1. $n$. A less common name for factitious disorder or Munchausen syndrome. \[From Greek pathos suffering + mimos a mime]
 	
-	6471. patient
-	6472. patriarchy
-	6473. patrilineal
-	6474. patrist
-	6475. pattern-induced flicker color
-	6476. pattern discrimination
-	6477. patterning
-	6478. pattern masking
-	6479. pattern recognition
+	6471. [[patient]]
+	6472. [[patriarchy]]
+	6473. [[patrilineal]]
+	6474. [[patrist]]
+	6475. [[pattern-induced flicker color]]
+	6476. [[pattern discrimination]]
+	6477. [[patterning]]
+	6478. [[pattern masking]]
+	6479. [[pattern recognition]]
 	6480. Pavlovian conditioning
+		1. $n$. Another name for classical conditioning. \[Named after the Russian physiologist Ivan Petrovich Pavlov (1849-1936) who introduced it in 1923]
 	
 	6481. Pavlov strategy
-	6482. pavor diurnus
+		1. $n$. Another name for the win-stay, lose-shift strategy, so-called on account of its mindless, reflexive character (see Pavlovian CONDITIONING).
+	6482. [[pavor diurnus]]
 	6483. pavor nocturnus
-	6484. Paxil
-	6485. payoff
-	6486. P cellabbrev.
+		1. $n$. Another name for sleep terrors. Also called night terrors. \[From Latin pavor fear or dread + nocturnus of the night]
+	6484. [[Paxil]]
+	6485. [[payoff]]
+	6486. [[P cell]]
 	6487. P consciousness
-	6488. Pcpt-Cs process
-	6489. Peabody Picture Vocabulary Test
+		1. See phenomenal CONSCIOUSNESS.
+	6488. [[Pcpt-Cs process]]
+	6489. [[Peabody Picture Vocabulary Test]]
 	6490. peace pill
+		1. $n$. A common street name for the depressant drug phencyclidine. Also spelt PC pill.
 	
-	6491. peak clipping
-	6492. peak experience
-	6493. peak shift
+	6491. [[peak clipping]]
+	6492. [[peak experience]]
+	6493. [[peak shift]]
 	6494. Pearson's correlation coefficient
+		1. See product-moment correlation coefficient.
 	6495. Pearson chi-square test
-	6496. pecking order
-	6497. PEC scaleabbrev.
-	6498. pederasty
+		1. $n$. Another name for the chi-square test when the Pearson formula is used. Compare likelihood ratio Chi-Square test. \[Named after the English statistician Karl Pearson (1857-1936) who developed it in 1900]
+	6496. [[pecking order]]
+	6497. [[PEC scale]]
+	6498. [[pederasty]]
 	6499. pedophilia
-	6500. peduncle
+		1. $n$. An alternative spelling, especially in the US, of paedophilia.
+	6500. [[peduncle]]
 	
 	6501. peeping Tom
-	6502. peg-word mnemonic
-	6503. pegboard test
-	6504. pellagra
+		1. $n$. Another name for a voyeur. \[Named after a 13th-century English legend according to which Lady Godiva rode naked through the marketplace of Coventry in response to a promise from her husband, Leofric, Earl of Mercia, that he would reduce taxes if she did so. In a later version of the legend, all the townspeople averted their eyes except a tailor called Tom, who was struck blind for his sin]
+	6502. [[peg-word mnemonic]]
+	6503. [[pegboard test]]
+	6504. [[pellagra]]
 	6505. penetrability, cognitive
-	6506. penetrance
-	6507. penile plethysmograph
-	6508. penis
-	6509. penis dentata
-	6510. penis envy
+		1. See cognitive penetrability
+	6506. [[penetrance]]
+	6507. [[penile plethysmograph]]
+	6508. [[penis]]
+	6509. [[penis dentata]]
+	6510. [[penis envy]]
 	
 	6511. Penrose staircase
-	6512. Penrose triangle
-	6513. pentazocine
-	6514. pentobarbital
+		1. $n$. Another name for the staircase illusion.
+	6512. [[Penrose triangle]]
+	6513. [[pentazocine]]
+	6514. [[pentobarbital]]
 	6515. pentobarbitone
+		1. $n$. See Pentobarbital.
 	6516. Pentothal
-	6517. pentylene tetrazol
-	6518. Pepper's ghost
-	6519. pepper spray
-	6520. pepsin
+		1. $n$. Sodium Pentothal, a proprietary name for the barbiturate drug thiopental sodium (thiopentone sodium). See also truth drug. \[Trademark]
+	6517. [[pentylene tetrazol]]
+	6518. [[Pepper's ghost]]
+	6519. [[pepper spray]]
+	6520. [[pepsin]]
 	
-	6521. peptide
-	6522. peptide hormone
-	6523. perceivevb.
-	6524. percentile
-	6525. 5 per cent trim
-	6526. percept
-	6527. perception
-	6528. perception-consciousness system
-	6529. perceptron
-	6530. perceptual-motor skill
+	6521. [[peptide]]
+	6522. [[peptide hormone]]
+	6523. [[perceive]]
+	6524. [[percentile]]
+	6525. [[5 per cent trim]]
+	6526. [[percept]]
+	6527. [[perception]]
+	6528. [[perception-consciousness system]]
+	6529. [[perceptron]]
+	6530. [[perceptual-motor skill]]
 	
 	6531. perceptual completion
-	6532. perceptual constancy
-	6533. perceptual cycle
-	6534. perceptual defence
-	6535. perceptual differentiation
-	6536. perceptual field
-	6537. perceptual illusion
-	6538. perceptual memory
-	6539. perceptual schema
-	6540. perceptual sensitization
+		1. $n$. Another name for filling-in. See amodal COMPLETION, MODAL COMPLETION.
+	6532. [[perceptual constancy]]
+	6533. [[perceptual cycle]]
+	6534. [[perceptual defence]]
+	6535. [[perceptual differentiation]]
+	6536. [[perceptual field]]
+	6537. [[perceptual illusion]]
+	6538. [[perceptual memory]]
+	6539. [[perceptual schema]]
+	6540. [[perceptual sensitization]]
 	
-	6541. perceptual set
-	6542. perceptual speed
+	6541. [[perceptual set]]
+	6542. [[perceptual speed]]
 	6543. perceptual vigilance
-	6544. percipient
+		1. n. Another name for perceptual sensitization
+	6544. [[percipient]]
 	6545. Percodan
-	6546. perdeviation effect
+		1. $n$. A proprietary name for a drug containing the narcotic analgesic oxycodone that is sometimes taken as a street drug. \[Trademark]
+	6546. [[perdeviation effect]]
 	6547. perdida del alma
+		1. $n$. Another name for susto. \[From Spanish perdida loss + del of + alma soul]
 	6548. peregrinating patient
+		1. n. Another name for a person with Munchausen syndrome.
 	6549. perfect pitch
-	6550. perforant pathway
+		1. $n$. Another name for absolute pitch, but a term that is avoided in careful usage. Absolute pitch could never be exact, because the frequency (1) of a sound wave is a continuous variable, and differences in frequency can be arbitrarily small.
+	6550. [[perforant pathway]]
 	
-	6551. performance
+	6551. [[performance]]
 	6552. performance, human
-	6553. performance anxiety
-	6554. performance enhancer
-	6555. performance operating characteristic
-	6556. performance test
-	6557. periaqueductal grey matter
-	6558. periglomerular cell
-	6559. perikaryon
-	6560. perilymph
+		1. See human performance
+	6553. [[performance anxiety]]
+	6554. [[performance enhancer]]
+	6555. [[performance operating characteristic]]
+	6556. [[performance test]]
+	6557. [[periaqueductal grey matter]]
+	6558. [[periglomerular cell]]
+	6559. [[perikaryon]]
+	6560. [[perilymph]]
 	
-	6561. perimetry
-	6562. perineal
-	6563. perineural
+	6561. [[perimetry]]
+	6562. [[perineal]]
+	6563. [[perineural]]
 	6564. peripheral dyslexia
-	6565. peripheral nerve
-	6566. peripheral nervous system
-	6567. peripheral vision
-	6568. peristalsis
-	6569. Perky phenomenon
-	6570. perlocutionary act
+		1. n. Another name for visual word-form dyslexia. 
+	6565. [[peripheral nerve]]
+	6566. [[peripheral nervous system]]
+	6567. [[peripheral vision]]
+	6568. [[peristalsis]]
+	6569. [[Perky phenomenon]]
+	6570. [[perlocutionary act]]
 	
-	6571. perphenazine
+	6571. [[perphenazine]]
 	6572. persecution, delusion of
-	6573. persecution complex
-	6574. persecutory delusion
-	6575. persecutory delusional disorder
-	6576. perseveration
-	6577. persistent (chronic) motor or vocal tic disorder
-	6578. persistent depressive disorder
-	6579. persistent sexual arousal syndrome
-	6580. persistent vegetative state
+		1. See persecutory delusion
+	6573. [[persecution complex]]
+	6574. [[persecutory delusion]]
+	6575. [[persecutory delusional disorder]]
+	6576. [[perseveration]]
+	6577. [[persistent (chronic) motor or vocal tic disorder]]
+	6578. [[persistent depressive disorder]]
+	6579. [[persistent sexual arousal syndrome]]
+	6580. [[persistent vegetative state]]
 	
-	6581. person-centred therapy
-	6582. persona
-	6583. personal construct theory
-	6584. personal construct therapy
-	6585. Personal Data Sheet
-	6586. personal equation
-	6587. personality
+	6581. person-centered therapy
+		1. n. Another name for client-centered therapy. US person-centered therapy.
+	6582. [[persona]]
+	6583. [[personal construct theory]]
+	6584. [[personal construct therapy]]
+	6585. [[Personal Data Sheet]]
+	6586. [[personal equation]]
+	6587. [[personality]]
 	6588. personality, multiple
-	6589. personality disorders
-	6590. personality inventory
+		1. (split) See dissociative identity disorder
+	6589. [[personality disorders]]
+	6590. [[personality inventory]]
 	
-	6591. personal space
-	6592. personal unconscious
-	6593. person constancy
-	6594. personification
-	6595. personnel psychology
-	6596. personology
-	6597. person perception
-	6598. perspective
-	6599. perspective illusion
-	6600. perspective reversal
+	6591. [[personal space]]
+	6592. [[personal unconscious]]
+	6593. [[person constancy]]
+	6594. [[personification]]
+	6595. [[personnel psychology]]
+	6596. [[personology]]
+	6597. [[person perception]]
+	6598. [[perspective]]
+	6599. [[perspective illusion]]
+	6600. [[perspective reversal]]
 	
-	6601. persuasion
-	6602. pervasive developmental disorder
+	6601. [[persuasion]]
+	6602. [[pervasive developmental disorder]]
 	6603. perversion
+		1. $n$. An obsolescent term, often considered offensive nowadays, for a paraphilia. pervert $n$. One who practises a perversion. \[From Latin per- wrongly + vertere to turn]
 	6604. Pervitin
-	6605. pethidine
+		1. See yaba.
+	6605. [[pethidine]]
 	6606. petit mal seizure
-	6607. PET scanabbrev.
+		1. $n$. An obsolescent name for an absence. \[From French petit mal little illness]
+	6607. [[PET scan]]
 	6608. peyote
-	6609. 16PFabbrev.
-	6610. PGO spikeabbrev.
+		1. $n$. Another name for mescaline or the cactus from which it is extracted. \[Mexican Spanish, from Nahuatl peyotl]
+	6609. [[16PF]]
+	6610. [[PGO spike]]
 	
-	6611. pHabbrev.
-	6612. Phaedra complex
-	6613. phagocyte
-	6614. phallic character
-	6615. phallic erotism
-	6616. phallic stage
+	6611. [[pH]]
+	6612. [[Phaedra complex]]
+	6613. [[phagocyte]]
+	6614. [[phallic character]]
+	6615. [[phallic erotism]]
+	6616. [[phallic stage]]
 	6617. phallic symbol
-	6618. phallic woman
-	6619. phallocentric
-	6620. phallocrat
+		1. n. Any object that is taken as a symbol of a phallus
+	6618. [[phallic woman]]
+	6619. [[phallocentric]]
+	6620. [[phallocrat]]
 	
-	6621. phallus
-	6622. phantasm
-	6623. phantasmagoria
-	6624. phantasticant
+	6621. [[phallus]]
+	6622. [[phantasm]]
+	6623. [[phantasmagoria]]
+	6624. [[phantasticant]]
 	6625. phantasy
-	6626. phantom grating
-	6627. phantom limb
+		1. $n$. An alternative spelling of fantasy (1, 2, 3). This spelling tends to be favoured by British-based psychoanalysts when referring to unconscious thought processes.
+	6626. [[phantom grating]]
+	6627. [[phantom limb]]
 	6628. phantom phoneme effect
+		1. n. Another name for phonemic restoration.
 	6629. phantom pregnancy
-	6630. pharmacodynamics
+		1. n. See pseudocyesis. 
+	6630. [[pharmacodynamics]]
 	
-	6631. pharmacokinetics
-	6632. pharmacology
+	6631. [[pharmacokinetics]]
+	6632. [[pharmacology]]
 	6633. pharyngeal reflex
-	6634. pharynx
-	6635. phase
-	6636. phase-locking
-	6637. phase delay
-	6638. phase sequence
-	6639. phenazocine
-	6640. phencyclidine
+		1. n. Another name for the gag reflex.
+	6634. [[pharynx]]
+	6635. [[phase]]
+	6636. [[phase-locking]]
+	6637. [[phase delay]]
+	6638. [[phase sequence]]
+	6639. [[phenazocine]]
+	6640. [[phencyclidine]]
 	
 	6641. phencyclidine-related disorders
 	6642. phenelzine
@@ -9462,9 +9575,9 @@ Reviewed: false
 	7502. regulator gene
 	7503. rehabilitation
 	7504. rehearsal buffer
-	7505. rehearsevb.
+	7505. rehearse
 	7506. Reichian therapy
-	7507. reifyvb.
+	7507. reify
 	7508. reinforcement
 	7509. reinforcement schedule
 	7510. reinforcing selection
@@ -10153,7 +10266,7 @@ Reviewed: false
 	
 	8131. skin
 	8132. skin-picking disorder
-	8133. skin-popvb.
+	8133. skin-pop
 	8134. skin conductance response
 	8135. Skinner box
 	8136. Skinner crib
@@ -10240,7 +10353,7 @@ Reviewed: false
 	8210. social introversion scale
 	
 	8211. socialization
-	8212. socializevb.
+	8212. socialize
 	8213. social learning
 	8214. social learning theory
 	8215. social loafing
@@ -10450,7 +10563,7 @@ Reviewed: false
 	
 	8401. standard deviation
 	8402. standard error
-	8403. standardizevb.
+	8403. standardize
 	8404. standardized regression coefficient
 	8405. standardized test
 	8406. standard score
@@ -10531,7 +10644,7 @@ Reviewed: false
 	8474. sterol
 	8475. Stevens's law
 	8476. stigma
-	8477. stigmatizevb.
+	8477. stigmatize
 	8478. stilboestrol
 	8479. Stiles-Crawford effect
 	8480. Stilling test
@@ -10624,7 +10737,7 @@ Reviewed: false
 	8559. subfornical organ
 	8560. subiculum
 	
-	8561. subitizevb.
+	8561. subitize
 	8562. subject (research or experimental)
 	8563. subjective color
 	8564. subjective contour
@@ -11058,7 +11171,7 @@ Reviewed: false
 	8953. tic
 	8954. tic disorders
 	8955. tic douloureux
-	8956. ticklevb.
+	8956. tickle
 	8957. tilt aftereffect
 	8958. tilting-room test
 	8959. timbre
@@ -11683,7 +11796,7 @@ Reviewed: false
 	9521. yang
 	9522. Yates' correction for continuity
 	9523. YAVISabbrev
-	9524. yawnvb.
+	9524. yawn
 	9525. Y cell
 	9526. Y chromosome
 	9527. yellow-sightedadj

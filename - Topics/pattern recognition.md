@@ -8,9 +8,12 @@
 - The process of detecting the presence of a specified pattern in a signal, or assigning a probability to its possible presence. For example, visual pattern recognition involves the identification of two-dimensional patterns in a grey-level array. The specification of one of more patterns is done either analytically, or, more usually, by the provision of templates, which are model patterns for comparison. Pattern recognition employs the techniques of digital signal processing, image processing, and artificial intelligence.
 ## Source[^4]
 - A branch of statistics used to classify data based upon several variables. This type of statistical analysis is particularly useful in interpreting biological data that consist of multiple observations on large numbers of individuals.
+## Source[^5]
+- $n$. Identification of a pattern as the same as one previously encountered despite modifications, as when a printed character or symbol is presented in a different font, color, or size, or is viewed from a different angle. See also PERCEPTRON. Compare ObJect RECOGNITION.
 ## References
 
 [^1]: https://www.arm.com/glossary/pattern-recognition#:~:text=Pattern%20recognition%20is%20a%20data,familiar%20patterns%20quickly%20and%20accurately.
 [^2]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

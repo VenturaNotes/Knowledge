@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. Abnormal sexually arousing fantasies, sexual urges, or behavior involving non-human objects, children, or other non-consenting sexual partners, or suffering or humiliation of oneself or a sexual partner. See acrotomorphilia, apotemnophilia, autogynephilia, bestiality (1), COPROPHILIA, EPHEBOPHILIA, EXHIBITIONISM (1), FETISHISM, FETISHISTIC TRANSVESTISM, FROTTEURISM, GERONTOPHILIA, HYPOXYPHILIA, KATASEXUALISM, KLEPTOLAGNIA, KLYSMAPHILIA, NECROPHILIA, OSPHRESIOLAGNIA, PAEDOPHILIA, RENIFLEUR, SCOPOPHILIA, SEXUAL MASOCHISM, SEXUAL SADISM, TELEPHONE SCATALOGIA, UROPHILIA, VOYEURISM, ZOOPHILIA. Paraphilias that meet certain diagnostic criteria are paraphilic disorders: See also exhibitionistic DISORDER, FETISHISTIC DISORDER, FROTTEURISTIC DISORDER, PAEDOPHILIC DISORDER, SEXUAL MASOCHISM DISORDER, SEXUAL SADISM DISORDER, TRANSVESTIC DISORDER, voYeuristic DisOnder. Also called sexual deviations. Formerly called sexual perversions or perversions. paraphiliac $n$. A person with a paraphilia. \[From Greek para beside or beyond + philos loving, from phileein to love + -ia indicating a condition or quality]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

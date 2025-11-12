@@ -2307,7 +2307,7 @@ Reviewed: false
 	2283. Griess test
 	2284. Grignard reagents
 	2285. Grimm–Sommerfeld rule
-	2286. Grotrian diagram
+	2286. [[Grotrian diagram]]
 	2287. Grotthuss–Draper law
 	2288. ground state
 	2289. group
@@ -2362,6 +2362,7 @@ Reviewed: false
 	2338. haloform reaction
 	2339. haloforms
 	2340. halogenating agent
+		1. See halogenation
 	2341. halogenation
 	2342. halogens
 	2343. halon
@@ -2377,8 +2378,8 @@ Reviewed: false
 	2353. hardness of water
 	2354. hard sphere
 	2355. Hargreaves process
-	2356. harmonic
-	2357. harmonic oscillator
+	2356. [[harmonic]]
+	2357. [[harmonic oscillator]]
 	2358. harpoon mechanism
 	2359. Hartree–Fock procedure
 	2360. hashish
@@ -2416,12 +2417,12 @@ Reviewed: false
 	2392. Helmholtz model
 	2393. heme
 	2394. hemiacetals
-	2395. hemicellulose
+	2395. [[hemicellulose]]
 	2396. hemihedral form
 	2397. hemihydrate
 	2398. hemiketals
 	2399. henry
-	2400. Henry's law
+	2400. [[Henry's law]]
 	2401. heparin
 	2402. heptadecanoic acid
 	2403. heptahydrate

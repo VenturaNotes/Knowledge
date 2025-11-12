@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - $n$. (in family therapy) a surprising interpretation or suggestion made in the course of therapy in order to demonstrate the relationship between a psychological symptom and a system of family relationships.
+## Source[^2]
+- $n$. An apparently sound argument yielding either a contradiction or a prima facie absurdity. The US philosopher and logician Willard Van Orman Quine (1908-2000), in an article in the journal Scientific American in 1962, introduced a threefold classification into veridical paradoxes, whose conclusions are true, such as Hempel's paradox; falsidical paradoxes, whose conclusions are false, such as the unexpected hanging paradox or the sorites paradox; and antinomies, whose conclusions are mutually contradictory, such as Russell's paradox, the liar paradox, or Grelling's paradox. The term is also used more loosely for any argument that yields a surprising conclusion, or even for a fact or phenomenon that seems surprising, but the latter is avoided in careful usage. See also Allais paradox, Aubert-Fleischl paradox, barber's paradox, Condorcet's paradox, duration estimation paradox, Ellsberg paradox, Fechner's paradox, Gödel's theorem, Goodman's paradox, melodic paradox, metalanguage, mirror reversal problem, modified Ellsberg paradox, Monty Hall problem, neurotic paradox, Newcomb's problem, paradoxical injunction, paradoxical intention, paradoxical therapy, Prisoner's Dilemma game, semitone paradox, Simpson's paradox, Skaggs-Robinson paradox, SOCIOLOGy of knowledge, sorites paradox, St Petersburg paradox, tritone paradox. paradoxical adj. \[From Greek paradoxos, beyond belief, from para beyond + doxa a belief]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

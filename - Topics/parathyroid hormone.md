@@ -5,7 +5,10 @@
 - Recombinant parathyroid hormone (Preotact) is given by subcutaneous injection to treat postmenopausal osteoporosis.
 ## Source[^2]
 - (PTH; parathormone; parathyrin) A peptide hormone secreted by the parathyroid gland in response to low levels of calcium in the blood. It acts to maintain normal blood levels of calcium by (1) increasing the number of osteoclasts, which break down the bone matrix and release calcium into the blood; (2) increasing the reabsorption of calcium and magnesium ions in the kidney tubules, so that their concentration is maintained in the blood; (3) converting vitamin D to its active form, which increases calcium absorption in the intestine. Parathyroid hormone acts in opposition to calcitonin.
+## Source[^3]
+- $n$. A hormone secreted by the parathyroid glands that increases the level of calcium and phosphate in the blood and whose action is regulated by calcitonin secreted by the thyroid glands. PTH abbrev.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

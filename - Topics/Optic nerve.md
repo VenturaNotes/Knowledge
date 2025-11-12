@@ -17,8 +17,11 @@
 		- visual cortex (right occipital lobe)
 ## Source[^3]
 - The second cranial nerve: a paired sensory nerve that runs from each eye to the brain. It is responsible for conveying visual stimuli received by the rods and cones in the retina to the brain for interpretation. See also optic CHIASM.
+## Source[^4]
+- $n$. Either of the second pair of cranial nerves, carrying the entire output of the visual receptors in the retina, consisting of the axons of retinal ganglion cells, passing through the optic chiasm and terminating chiefly in one of the lateral geniculate nuclei. Some fibres of the optic nerve terminate in the suprachiasmatic nucleus of the hypothalamus, which is implicated in the control of biological rhythms, and some travel by the pretectal pathway and terminate in the pretectal nuclei. See also OPTIC TRACT.
 ## References
 
 [^1]: [[(80) 2-Minute Neuroscience - Optic Nerve (Cranial Nerve II)]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

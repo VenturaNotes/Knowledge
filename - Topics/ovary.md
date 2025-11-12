@@ -20,7 +20,10 @@
 ## Source[^2]
 - (1) The reproductive organ in female animals in which eggs (ova) are produced. In most vertebrates there are two ovaries (in some fish the ovaries fuse together to form a single structure and in birds the left ovary only is functional). As well as eggs, they produce steroid hormones (see oestrogen; Progesterone). In mammals each ovary is situated close to the opening of a fallopian tube; it contains numerous follicles in which the eggs develop and from which they are released in a regular cycle. See also GRAAFIAN FOLLICLE; MENSTRUAL CYCLE; OOGENESIS; OVARIAN CYCLE; OVULATION; REPRODUCTIVE SYSTEM. 
 - (2) The hollow base of the carpel of a flower, containing one or more ovules. After fertilization, the ovary wall develops into the fruit enclosing the seeds. In some species, the carpels are fused together to form a complex ovary.
+## Source[^3]
+- $n$. Either of the two female sex glands or gonads that secrete sex hormones such as oestrogen, progesterone, and oestrone into the bloodstream and release ova. Compare testis. ovarian adj. \[From Latin ovarium an egg-container, from ovum an egg]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
