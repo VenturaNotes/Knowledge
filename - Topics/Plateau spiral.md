@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- n. An Archimedes spiral or some other spiral that is attached to a circular disc and, when rotating, appears to be continuously expanding from its centre or contracting towards its centre depending on the direction of rotation. After being observed for several seconds it induces a powerful opposite motion aftereffect in which an object or surface that is fixated appears to be contracting or expanding, so that a person's face (for example) appears to shrink or enlarge while remaining paradoxically the same size, and this aftereffect is called the spiral aftereffect. It is also called a Talbot-Plateau spiral or Archimedes spiral, though the latter term is misleading, partly because the Archimedes spiral is a mathematical concept predating the illusion by many centuries, and partly because other spirals are often used to produce the effect. See also visual illusion. Compare waterfall illusion. \[Named after the Belgian physicist Joseph Antoine Ferdinand Plateau (1801-83) who produced the first version of it with the help of an assistant in 1849, although he never saw it himself because he had blinded himself six years earlier by staring at the sun]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

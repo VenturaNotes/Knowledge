@@ -10,8 +10,13 @@
 - $n$. 
 - (1) (in anatomy) a thin prominence or protuberance; for example, any of the processes of a vertebra. 
 - (2) the steps by which a decision is reached or an outcome attained. Although good medical practice is largely recognized by its good outcomes, the process by which these outcomes were reached is also seen as important in assessing the standard of care.
+## Source[^4]
+- $n$.
+- (1) A sequence of events leading to some change or alteration in the state of a dynamic system. 
+- (2) In anatomy, a projecting part, especially a fine threadlike protrusion from a neuron, being an axon, a dendrite, or one of their branches, also called a neurite. \[From Latin processus an advance, from procedere to proceed]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

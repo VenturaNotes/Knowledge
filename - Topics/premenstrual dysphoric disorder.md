@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A depressive disorder of women introduced in the DSM-5 classification in which at least five of the following symptoms appear regularly during the week before the onset of menstruation and disappear or become minimal during the following week: labile affect, including mood swings and hypersensitivity to rejection; marked irritability or anger; depressed mood, including feelings of helplessness or worthlessness; anxiety, tension, or feeling 'on edge'; decreased interest in usual activities; difficulty concentrating; fatigue (1) or lethargy; change in appetite or food cravings; hypersomnia or insomnia; somatic symptoms such as breast tenderness, headaches, joint or muscle pain, and a sensation of bloating. According to DSM-5, the 12-month prevalence is between 1.8 per cent and 5.8 per cent of menstruating women. Also called late luteal phase dysphoric disorder, premenstrual tension (PMT). PDD or PMDD abbrev. \[From Latin prae before + menstrualis monthly, from mensis a month + Greek dys- bad or abnormal + pherein to bear + -ikos of, relating to, or resembling]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- n. A principle or law of perception of Gestalt psychology according to which perception of ambiguous stimuli tends to be as 'good' (meaning simple, regular, and symmetric) as the sensory input allows. The Gestalt psychologist Wolfgang Köhler (1887-1967) grounded this principle on the doctrine of isomorphism (3), coupled with a belief that electrical brain fields, like other systems, evolve to physical Gestalten representing minimal energy states, a standard example being a soap bubble, which invariably evolves to a perfect sphere$\textemdash$the minimal energy state of a soap film. Köhler's theory was discredited as neuroscience advanced, but the principle of Prägnanz was widely embraced, and the underlying notion of a 'good' perception has been clarified in terms of information theory as one encoded with the minimum bits of information. Also spelt Praegnanz or pregnance, though the latter in particular is avoided in careful usage. See also good Gestalt, Landolt circle, precision law. Compare likelihood PRINCiple. \[From German Prägnanz pithiness or terseness]
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

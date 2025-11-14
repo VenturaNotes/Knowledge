@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A theory of pitch perception first proposed in 1865 by the German physiologist, physicist, and mathematician Hermann Ludwig Ferdinand von Helmholtz (1821-94) according to which the perceived pitch of a tone depends on the position or place on the basilar membrane of the auditory receptors that transmit nerve impulses. Physiological evidence for the place theory was provided by the Nobel prizewinning Hungarian physicist and physiologist Georg von Békésy (1899-1972) and summarized in his book Experiments in Hearing (1962). Because the cochlea tapers from one end to the other, the part of the basilar membrane that vibrates the most depends on the frequency of the sound. Resting on the basilar membrane are hair cells with auditory nerve cells connected to their bases, and vibrations of the basilar membrane cause the hair cells to bend back and forth, triggering nerve impulses to the brain. For tones above about 5,000 hertz, the pitch that is heard depends on which part of the basilar membrane vibrates the most and which nerve cells are therefore excited. Also called the harp theory, the piano theory, or the resonance theory. Compare FREQUENCY THEORY, VOLLEY THEORY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

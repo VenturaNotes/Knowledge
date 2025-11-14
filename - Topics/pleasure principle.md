@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In psychoanalysis, the precept according to which psychological processes and actions are governed by the gratification of needs and the avoidance or discharge of unpleasurable tension. It is the governing principle of the id, in contrast to the reality principle, which is a governing principle of the ego. Sigmund Freud (1856-1939) borrowed the concept from the German philosopher, physician, psychologist, and mystic Gustav Theodor Fechner (1801-87) who, in an article in the journal Zeitschrift für Philosophie und philosophische Kritik in 1848, introduced the term (in its German form Lustprinzip) and noted that motives underlying actions can be unconscious. Freud introduced the concept in his book The Interpretation of Dreams (1900), where he initially called it the unpleasure principle (Standard Edition, IV-V, at p. 574), but later he fell in with Fechner's more natural terminology. Also called the pleasure-pain principle or (awkwardly but closer to Freud's original German) the pleasure-unpleasure principle. See also FREE ENERGY, PERCEPTION-CONSCIOUSNESS SYSTEM, PLEASURE-EGO, PRIMARY PROCESS, PRINCIPLE OF CONSTANCY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

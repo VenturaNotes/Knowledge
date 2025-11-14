@@ -11,7 +11,10 @@
 - (2) A clear area in a bacterial culture grown on an agar plate due to lysis of the bacteria by a bacteriophage. 
 - (3) A patch or differentiated zone on the surface of the skin or other organ. 
 - (4) A fatty deposit that causes thickening of an arterial wall. See ATHEROSCLEROSIS.
+## Source[^3]
+- $n$. Any small patch or region of abnormal tissue within the body. See AMYLOID PLAQUE, GLIOSIS. \[From French plaquer to plate, from Middle Dutch placken to beat metal]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

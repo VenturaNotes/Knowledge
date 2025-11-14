@@ -9,6 +9,9 @@
 - Predicate calculus can claim to be a fundamental logical language since all the more complicated logics can, in some sense, be reduced to it. A simple but practically important extension is many-sorted predicate calculus. Here there are several sorts of variables, and the operations and relations come from a many-sorted signature.
 - Another possible extension is [[second-order logic]], which allows predicate and function variables, such as $P$ in the following:$$\begin{aligned}& \forall P .[P(a) \wedge \forall k . P(k) \Rightarrow P(s(k))] \\& \Rightarrow \forall n . P(n)\end{aligned}$$( $\wedge$ and $\Rightarrow$ signify conjunction and conditional.) This example, given the appropriate interpretation of $a$ and $s$, expresses a principle of induction: if $P$ is true for zero, and true for $k+1$ whenever it is true for $k$, then it is true for all $n$. Again this sentence holds for natural numbers but not integers.
 - Applications of predicate calculus in computer science are commonplace and include formal specification, program correctness, logic programming, and databases. See also MODAL LOGIC.
+## Source[^2]
+- $n$. An advanced form of symbolic logic incorporating not only propositions (1), relations between propositions (and, or, not, and if...then), axioms, and rules of inference, but also quantifiers (1). First-order predicate calculus is obtained by extending propositional calculus to include quantifiers, and it is widely regarded as the most powerful form of symbolic logic. The first systematic description of this form of logic was introduced in 1928 by the German mathematical logicians David Hilbert (1862-1943) and Wilhelm Ackermann (1896-1962). \[From Latin praedicatum something declared, from prae before + dicare to declare]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

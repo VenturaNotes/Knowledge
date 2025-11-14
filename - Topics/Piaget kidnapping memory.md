@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A classic example of a false memory from the second year of life described by the Swiss psychologist Jean Piaget (1896-1980) and reproduced in English translation by the US psychologist Elizabeth F. Loftus in her book Eyewitness Testimony (1979): 'I was sitting in my pram, which my nurse was pushing in the Champs Élysées, when a man tried to kidnap me. I was held in by the strap fastened round me while my nurse bravely tried to stand between me and the thief. She received various scratches, and I can still see vaguely those on her face. Then a crowd gathered, a policeman with a short cloak and a white baton came up and the man took to his heels. I can still see the whole scene, and can even place it near the tube station. When I was about fifteen my parents received a letter from my former nurse saying that she had been converted to the Salvation Army. She wanted to confess past faults, and in particular to return the watch she had been given on this occasion. She had made up the whole story, faking the scratches. I, therefore, must have heard, as a child, the account of the story, which my parents believed, and projected it into the past in the form of a visual memory' (pp. 62-3). See also CONSTRUCTIVE MEMORY, DEFERRED ACTION, EYEWITNESS MISINFORMATION EFFECT, INFANTILE AMNESIA, REALITY MONITORING, RECOVERED MEMORY.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

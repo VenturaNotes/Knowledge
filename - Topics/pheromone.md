@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - (ectohormone) A chemical substance (see SEMIOCHEMICAL) emitted by an organism into the environment as a specific signal to another organism, usually of the same species. Pheromones play an important role in the social behavior of certain animals, especially insects and mammals, and are also released by the hyphae of fungi to establish compatibility between mating types. They are used to attract mates, to mark trails, define territories, and to promote social cohesion and coordination in colonies (see QUEEN SUBSTANCE). Pheromones are usually volatile organic acids or alcohols and can be effective at minute concentrations. The volatility depends on the nature and size of the molecule, and determines the role played by the pheromone. For example, a highly volatile pheromone will disperse rapidly and widely and serve effectively as a transient alarm signal, whereas a less volatile, more persistent pheromone is useful for marking territories or trails.
+## Source[^2]
+- $n$. Any of a number of chemical substances with communicative functions, secreted externally by an organism and affecting the behaviour or physiology of other members of the same species. Human pheromones are poorly understood, the best documented though controversial examples being the Whitten effect, manifested as the synchronization of menstrual cycles among women living together, occurring only when a man is also present, and the increased regularity of menstrual cycles of women living with men, both effects apparently being mediated by steroid pheromones. See also alarm pheromone, Bruce effect, KAIROMONE, LeE-Boot effect, SEX Pheromone, vomeronasal organ. Compare allomone. pheromonal adj. \[From Greek pherein to bear + horman to stimulate]
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

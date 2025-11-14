@@ -15,7 +15,10 @@
 		- antitrgus
 ## Source[^2]
 - (auricle) (pl. pinnae) The visible part of the outer ear, present in some mammals. It is made of cartilage and its function is to channel sound waves into the external auditory meatus. In some species the pinna is movable and aids in detecting the direction from which a sound originates.
+## Source[^3]
+- $n$. Any feather, leaflet, or feather-shaped structure, especially the external part of the ear, also called the auricle. See also EAR. pinnae pl. \[From Latin pinna a feather]
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
