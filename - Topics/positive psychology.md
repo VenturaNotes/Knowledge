@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. The psychology of valued psychological phenomena, such as contentment and satisfaction (with the past), hope and optimism (for the future), and happiness and well-being (in the present). It focuses on positive subjective experiences, such as love and aesthetic appreciation; positive individual qualities, such as courage, interpersonal skill, perseverance, originality, and wisdom; and positive social phenomena, such as cooperation, altruism, and tolerance. The term was introduced by the US psychologist Martin E. P. Seligman (born 1942) in a Presidential Address to the American Psychological Association in 1998, and it was discussed at length in the journal American Psychologist in 2000, in a special issue edited by Seligman and by the Italian-born US psychologist Mihaly Csikszentmihalyi (born 1934). In March 2003, the British Psychological Society's journal The Psychologist also devoted a special issue to positive psychology. See also EUDAIMONIC WELL-BEING, HAPPINESS, HEALTH PSYCHOLOGY, HEDONIC TREADMILL, HEDONIC WELL-BEING, EGO INVOLVEMENT, POST-TRAUMATIC GROWTH, SELF-CONFIDENCE, SELF-EFFICACY, SELf-ESTEEM, SUBJECTIVE WELL-BEING.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

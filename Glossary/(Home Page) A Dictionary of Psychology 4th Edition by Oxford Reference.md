@@ -8625,489 +8625,584 @@ Reviewed: false
 	6639. [[phenazocine]]
 	6640. [[phencyclidine]]
 	
-	6641. phencyclidine-related disorders
-	6642. phenelzine
-	6643. phenmetrazine
+	6641. [[phencyclidine-related disorders]]
+	6642. [[phenelzine]]
+	6643. [[phenmetrazine]]
 	6644. phennies
-	6645. phenobarbital
+		1. $n$. A common street name of the barbiturate drug phenobarbital (phenobarbitone).
+	6645. [[phenobarbital]]
 	6646. phenobarbitone
-	6647. phenome
-	6648. phenomenal
-	6649. phenomenal consciousness
-	6650. phenomenal field
+		1. $n$. See phenobarbital.
+	6647. [[phenome]]
+	6648. [[phenomenal]]
+	6649. [[phenomenal consciousness]]
+	6650. [[phenomenal field]]
 	
 	6651. phenomenal motion
-	6652. phenomenal regression
-	6653. phenomenal self
-	6654. phenomenistic causality
-	6655. phenomenistic thought
+		1. n. Another name for apparent movement.
+	6652. [[phenomenal regression]]
+	6653. [[phenomenal self]]
+	6654. [[phenomenistic causality]]
+	6655. [[phenomenistic thought]]
 	6656. phenomenological field
-	6657. phenomenology
-	6658. phenomenon sing.
-	6659. phenothiazine
-	6660. phenotype
+		1. n. Another name for the phenomenal field. 
+	6657. [[phenomenology]]
+	6658. [[phenomenon]]
+	6659. [[phenothiazine]]
+	6660. [[phenotype]]
 	
-	6661. phenylalanine
-	6662. phenylalkylamines
+	6661. [[phenylalanine]]
+	6662. [[phenylalkylamines]]
 	6663. phenylethanolamine-N-methyltransferase
-	6664. phenylethylamine
-	6665. phenylketonuria
+		1. See PNMT.
+	6664. [[phenylethylamine]]
+	6665. [[phenylketonuria]]
 	6666. phenylpyruvic oligophrenia
-	6667. phenylquinine writhing test
+		1. n. Another name for phenylketonuria
+	6667. [[phenylquinine writhing test]]
 	6668. phenylthiocarbamide
-	6669. phenytoin
-	6670. pheromone
+		1. See PTC.
+	6669. [[phenytoin]]
+	6670. [[pheromone]]
 	
-	6671. phi coefficient
-	6672. philobat
-	6673. philosophy
-	6674. phi movement
+	6671. [[phi coefficient]]
+	6672. [[philobat]]
+	6673. [[philosophy]]
+	6674. [[phi movement]]
 	6675. phi phenomenon
-	6676. phlegm
-	6677. phobia
-	6678. phobic stimulus
-	6679. phobic technique
-	6680. phon
+		1. $n$. Another name for phi movement. It is also applied to apparent movement in general, but this is avoided in careful usage because it blurs the distinction between phi movement and other forms of apparent movement.
+	6676. [[phlegm]]
+	6677. [[phobia]]
+	6678. [[phobic stimulus]]
+	6679. [[phobic technique]]
+	6680. [[phon]]
 	
-	6681. phonagnosia
-	6682. phone
-	6683. phoneme
-	6684. phonemic restoration
-	6685. phonemics
-	6686. phonetics
-	6687. phonics
-	6688. phonogram
-	6689. phonography
-	6690. phonological buffer store
+	6681. [[phonagnosia]]
+	6682. [[phone]]
+	6683. [[phoneme]]
+	6684. [[phonemic restoration]]
+	6685. [[phonemics]]
+	6686. [[phonetics]]
+	6687. [[phonics]]
+	6688. [[phonogram]]
+	6689. [[phonography]]
+	6690. [[phonological buffer store]]
 	
-	6691. phonological disorder
-	6692. phonological dyslexia
-	6693. phonological loop
+	6691. [[phonological disorder]]
+	6692. [[phonological dyslexia]]
+	6693. [[phonological loop]]
 	6694. phonological priming
+		1. See priming (1)
 	6695. phonological reading
-	6696. phonology
+		1. n. Another name for surface dyslexia.
+	6696. [[phonology]]
 	6697. phonoreceptor
-	6698. phosphate
-	6699. phosphene
+		1. $n$. Another name for an auditory receptor. phonoreception n. The perception of high-frequency variations in air pressure through auditory receptors. \[From Greek phone a sound or voice + English receptor, from Latin recipere, receptum to receive, from re- back + capere, ceptum to take]
+	6698. [[phosphate]]
+	6699. [[phosphene]]
 	6700. phosphocreatine
+		1. $n$. Another name for creatine phosphate, the phosphate of creatine stored in muscles to enable adequate quantities of ATP to be produced. \[From phosphate + Greek kreas, kreatos flesh]
 	
-	6701. phosphodiesterase type 5
+	6701. [[phosphodiesterase type 5]]
 	6702. phot
-	6703. photism
-	6704. photochemical
-	6705. photochromatic interval
+		1. $n$. An obsolescent unit of illumination equal to one lumen per square centimetre, 1 phot being equal to 10,000 lux. \[From Greek phos, photos light]
+	6703. [[photism]]
+	6704. [[photochemical]]
+	6705. [[photochromatic interval]]
 	6706. photographic memory
+		1. $n$. A colloquial term for the ability to remember visual images very accurately. The technical term for such an image remembered in vivid detail is an eidetic image. Compare HYPERTHYMESIA.
 	6707. photoma
-	6708. photometer
-	6709. photon
-	6710. photopic
+		1. n. Another name for a phosphene. \[From Greek phos, photos light + -oma indicating an abnormality]
+	6708. [[photometer]]
+	6709. [[photon]]
+	6710. [[photopic]]
 	
-	6711. photopic luminosity curve
-	6712. photopigment
-	6713. photoreceptor
-	6714. photosensitive epilepsy
-	6715. phototherapy
-	6716. phrase-structure grammar
+	6711. [[photopic luminosity curve]]
+	6712. [[photopigment]]
+	6713. [[photoreceptor]]
+	6714. [[photosensitive epilepsy]]
+	6715. [[phototherapy]]
+	6716. [[phrase-structure grammar]]
 	6717. phrase-structure rule
-	6718. phrase marker
-	6719. phrenology
-	6720. phylogeny
+		1. n. Another name for a rewrite rule.
+	6718. [[phrase marker]]
+	6719. [[phrenology]]
+	6720. [[phylogeny]]
 	
-	6721. phylum
-	6722. physical anthropology
-	6723. physiognomy
+	6721. [[phylum]]
+	6722. [[physical anthropology]]
+	6723. [[physiognomy]]
 	6724. physiological arousal
-	6725. physiological nystagmus
-	6726. physiological psychology
-	6727. physiological time
-	6728. physiological zero
-	6729. physiology
-	6730. physostigmine
+		1. See arousal.
+	6725. [[physiological nystagmus]]
+	6726. [[physiological psychology]]
+	6727. [[physiological time]]
+	6728. [[physiological zero]]
+	6729. [[physiology]]
+	6730. [[physostigmine]]
 	
-	6731. Piagetian
-	6732. Piaget kidnapping memory
-	6733. pia mater
+	6731. [[Piagetian]]
+	6732. [[Piaget kidnapping memory]]
+	6733. [[pia mater]]
 	6734. piano theory
-	6735. pibloktoq
-	6736. pica
-	6737. Pick's disease
-	6738. Pickwickian syndrome
-	6739. picrotoxin
+		1. n. Another name for the place theory.
+	6735. [[pibloktoq]]
+	6736. [[pica]]
+	6737. [[Pick's disease]]
+	6738. [[Pickwickian syndrome]]
+	6739. [[picrotoxin]]
 	6740. pictogram
+		1. n. Another name for a pictograph.
 	
-	6741. pictograph
-	6742. pictorial depth
-	6743. picture-arrangement test
-	6744. picture-completion test
+	6741. [[pictograph]]
+	6742. [[pictorial depth]]
+	6743. [[picture-arrangement test]]
+	6744. [[picture-completion test]]
 	6745. picture-frustration test
-	6746. picture-picture technique
-	6747. pidgin
-	6748. pie chart
-	6749. pigment
-	6750. pigment epithelium
+		1. See Rosenzweig Picture-Frustration Study.
+	6746. [[picture-picture technique]]
+	6747. [[pidgin]]
+	6748. [[pie chart]]
+	6749. [[pigment]]
+	6750. [[pigment epithelium]]
 	
-	6751. piloerection
-	6752. pilot study
-	6753. pineal gland
+	6751. [[piloerection]]
+	6752. [[pilot study]]
+	6753. [[pineal gland]]
 	6754. pink lady
-	6755. pink noise
-	6756. pinna
-	6757. Pinna-Brelstaff illusion
-	6758. Piper's law
-	6759. piriform cortex
-	6760. pitch
+		1. n. A street name for secobarbital (quinalbarbitone) or Seconal.
+	6755. [[pink noise]]
+	6756. [[pinna]]
+	6757. [[Pinna-Brelstaff illusion]]
+	6758. [[Piper's law]]
+	6759. [[piriform cortex]]
+	6760. [[pitch]]
 	
-	6761. pitch perception
-	6762. pituitary gland
-	6763. pivot grammar
-	6764. placebo
-	6765. placebo effect
-	6766. place of articulation
-	6767. place theory
+	6761. [[pitch perception]]
+	6762. [[pituitary gland]]
+	6763. [[pivot grammar]]
+	6764. [[placebo]]
+	6765. [[placebo effect]]
+	6766. [[place of articulation]]
+	6767. [[place theory]]
 	6768. planned behavior, theory of
-	6769. planned comparison
-	6770. plantar response
+		1. See theory of planned behavior
+	6769. [[planned comparison]]
+	6770. [[plantar response]]
 	
-	6771. planum temporale
-	6772. plaque
-	6773. plasma
-	6774. plasmagene
+	6771. [[planum temporale]]
+	6772. [[plaque]]
+	6773. [[plasma]]
+	6774. [[plasmagene]]
 	6775. plasma membrane
-	6776. plasmid
-	6777. plateau
-	6778. Plateau spiral
-	6779. platelets
+		1. n. Another name for a cell membrane.
+	6776. [[plasmid]]
+	6777. [[plateau]]
+	6778. [[Plateau spiral]]
+	6779. [[platelets]]
 	6780. platoon-volley theory
+		1. See volley theory.
 	
 	6781. platykurtic
-	6782. player
-	6783. play therapy
-	6784. pleasantness
-	6785. pleasure-ego
+		1. See kurtosis
+	6782. [[player]]
+	6783. [[play therapy]]
+	6784. [[pleasantness]]
+	6785. [[pleasure-ego]]
 	6786. pleasure-pain principle
+		1. n. Another name for the pleasure principle.
 	6787. pleasure-unpleasure principle
-	6788. pleasure centre
-	6789. pleasure principle
-	6790. pleiotropic
+		1. n. Another name for the pleasure principle
+	6788. [[pleasure centre]]
+	6789. [[pleasure principle]]
+	6790. [[pleiotropic]]
 	
-	6791. plethysmograph
-	6792. plexiform layer
-	6793. plexus
-	6794. plosive
-	6795. pneumoencephalogram
-	6796. pneumograph
-	6797. pneumotachograph
-	6798. PNMTabbrev.
-	6799. Poetzl phenomenon
-	6800. Poggendorff illusion
+	6791. [[plethysmograph]]
+	6792. [[plexiform layer]]
+	6793. [[plexus]]
+	6794. [[plosive]]
+	6795. [[pneumoencephalogram]]
+	6796. [[pneumograph]]
+	6797. [[pneumotachograph]]
+	6798. [[PNMT]]
+	6799. [[Poetzl phenomenon]]
+	6800. [[Poggendorff illusion]]
 	
 	6801. poikilitic function
-	6802. poikilothermic
-	6803. point-light display
-	6804. point mutation
+		1. $n$. Another name for a psychometric function. \[From Greek poikilos various + -itikos resembling or marked by]
+	6802. [[poikilothermic]]
+	6803. [[point-light display]]
+	6804. [[point mutation]]
 	6805. point of non-discrimination
-	6806. point of subjective equality
-	6807. point source
-	6808. point subtraction aggression paradigm
-	6809. Poisson distribution
-	6810. Polari
+		1. n. Another name for a point of subjective equality.
+	6806. [[point of subjective equality]]
+	6807. [[point source]]
+	6808. [[point subtraction aggression paradigm]]
+	6809. [[Poisson distribution]]
+	6810. [[Polari]]
 	
-	6811. political correctness
-	6812. Pollyanna effect
-	6813. polyandry
-	6814. polydipsia
-	6815. polyethism
-	6816. polygamy
-	6817. polygenic inheritance
-	6818. polygraph
-	6819. polygyny
-	6820. polymerase chain reaction
+	6811. [[political correctness]]
+	6812. [[Pollyanna effect]]
+	6813. [[polyandry]]
+	6814. [[polydipsia]]
+	6815. [[polyethism]]
+	6816. [[polygamy]]
+	6817. [[polygenic inheritance]]
+	6818. [[polygraph]]
+	6819. [[polygyny]]
+	6820. [[polymerase chain reaction]]
 	
-	6821. polymorphic gene
+	6821. [[polymorphic gene]]
 	6822. polymorphism
-	6823. polymorphous perversity
-	6824. polyonymy
-	6825. polypeptide
-	6826. polyphagia
-	6827. polysemy
-	6828. polysomnography
-	6829. polysubstance dependence
-	6830. polysynaptic reflex
+		1. See GENETIC POLYMORPHISM.
+	6823. [[polymorphous perversity]]
+	6824. [[polyonymy]]
+	6825. [[polypeptide]]
+	6826. [[polyphagia]]
+	6827. [[polysemy]]
+	6828. [[polysomnography]]
+	6829. [[polysubstance dependence]]
+	6830. [[polysynaptic reflex]]
 	
-	6831. POMCabbrev.
-	6832. pons
-	6833. PONSabbrev.
-	6834. pontogeniculo-occipital
-	6835. Ponzo illusion
-	6836. pooled variance estimate
+	6831. [[POMC]]
+	6832. [[pons]]
+	6833. [[PONS]]
+	6834. [[pontogeniculo-occipital]]
+	6835. [[Ponzo illusion]]
+	6836. [[pooled variance estimate]]
 	6837. pop-type
+		1. n. An informal name for a population stereotype
 	6838. poppers
-	6839. population
-	6840. population genetics
+		1. $n$. A street name for nitrite inhalants generally or amyl nitrite in particular. \[Alluding to the fact that the capsules containing it make a popping sound when they are opened]
+	6839. [[population]]
+	6840. [[population genetics]]
 	
-	6841. population stereotype
-	6842. pornographomania
-	6843. pornolagnia
-	6844. porphyria
+	6841. [[population stereotype]]
+	6842. [[pornographomania]]
+	6843. [[pornolagnia]]
+	6844. [[porphyria]]
 	6845. Porter's law
-	6846. Porteus Maze Test
-	6847. portfolio theory
+		1. n. Another name for the Ferry-Porter law
+	6846. [[Porteus Maze Test]]
+	6847. [[portfolio theory]]
 	6848. portmanteau word
+		1. $n$. Another name for a blend. \[From portmanteau a large travelling case, from French porter to carry + manteau a cloak]
 	6849. portrait illusion
-	6850. position constancy
+		1. $n$. Another name for the rotating head illusion.
+	6850. [[position constancy]]
 	
-	6851. position preference
-	6852. positive afterimage
+	6851. [[position preference]]
+	6852. [[positive afterimage]]
 	6853. positive feedback
+		1. See feedback
 	6854. positive induction
+		1. See induction (4).
 	6855. positive Oedipus complex
-	6856. positive psychology
-	6857. positive reference group
-	6858. positive symptoms
+		1. See oedipus complex
+	6856. [[positive psychology]]
+	6857. [[positive reference group]]
+	6858. [[positive symptoms]]
 	6859. positive theory
-	6860. positive transfer
+		1. See normative (1).
+	6860. [[positive transfer]]
 	
-	6861. positive transference
-	6862. positivism
-	6863. positivity bias
+	6861. [[positive transference]]
+	6862. [[positivism]]
+	6863. [[positivity bias]]
 	6864. positron emission tomography
-	6865. possession trance
-	6866. possible world
-	6867. post-alveolar
-	6868. post-Freudian
-	6869. post-operative cognitive dysfunction
-	6870. post-rotational nystagmus
+		1. See PET scan.
+	6865. [[possession trance]]
+	6866. [[possible world]]
+	6867. [[post-alveolar]]
+	6868. [[post-Freudian]]
+	6869. [[post-operative cognitive dysfunction]]
+	6870. [[post-rotational nystagmus]]
 	
-	6871. post-traumatic growth
-	6872. post-traumatic stress disorder
-	6873. post-viral fatigue syndrome
-	6874. postcategorical acoustic store
-	6875. postcentral gyrus
-	6876. postconcussional disorder
-	6877. postconventional morality
-	6878. postencephalitic syndrome
-	6879. posterior
-	6880. posterior cerebral commissure
+	6871. [[post-traumatic growth]]
+	6872. [[post-traumatic stress disorder]]
+	6873. [[post-viral fatigue syndrome]]
+	6874. [[postcategorical acoustic store]]
+	6875. [[postcentral gyrus]]
+	6876. [[postconcussional disorder]]
+	6877. [[postconventional morality]]
+	6878. [[postencephalitic syndrome]]
+	6879. [[posterior]]
+	6880. [[posterior cerebral commissure]]
 	
 	6881. posterior funiculus
-	6882. posterior horn
-	6883. posterior pituitary
-	6884. posterior probability
-	6885. postganglionic
+		1. See funiculus
+	6882. [[posterior horn]]
+	6883. [[posterior pituitary]]
+	6884. [[posterior probability]]
+	6885. [[postganglionic]]
 	6886. posthallucinogen perception disorder
+		1. n. Another name for flashback (3).
 	6887. post hoc test
+		1. n. Another name for an a posteriori test. \[From Latin post after + hoc this]
 	6888. posthypnotic amnesia
+		1. n. Another name for hypnotic amnesia
 	6889. postnatal blues
+		1. See postpartum blues. 
 	6890. postnatal depression
+		1. See postpartum depression. 
 	
 	6891. postpartum blues
+		1. See postpartum blues
 	6892. postpartum depression
+		1. See postpartum depression
 	6893. postpartum psychosis
+		1. n. Another name for hypnotic amnesia
 	6894. postrolandic gyrus
-	6895. postsynaptic
-	6896. postsynaptic potential
-	6897. postsynaptic receptor
+		1. $n$. Another name for the postcentral gyrus. \[From Latin post + English Rolandic (fissure), named after the Italian anatomist Luigi Rolando (1773-1831)]
+	6895. [[postsynaptic]]
+	6896. [[postsynaptic potential]]
+	6897. [[postsynaptic receptor]]
 	6898. postulate
-	6899. postural aftereffect
-	6900. postural tremor
+		1. n. Another name for an axiom
+	6899. [[postural aftereffect]]
+	6900. [[postural tremor]]
 	
-	6901. posturography
+	6901. [[posturography]]
 	6902. pot
-	6903. potassium
-	6904. potlatch
+		1. $n$. An obsolescent street name for cannabis. pot-head $n$. A habitual cannabis user. \[Perhaps from the Mexican Indian potiguaya cannabis]
+	6903. [[potassium]]
+	6904. [[potlatch]]
 	6905. Pötzl phenomenon
-	6906. poverty of content
-	6907. poverty of speech
+		1. See poetzl phenomenon
+	6906. [[poverty of content]]
+	6907. [[poverty of speech]]
 	6908. power, statistical
-	6909. power law
-	6910. power test
+		1. See statistical power
+	6909. [[power law]]
+	6910. [[power test]]
 	
 	6911. POX triad
+		1. See balance theory
 	6912. practice curve
-	6913. Prader-Willi syndrome
-	6914. pragmatic love
-	6915. pragmatics
-	6916. Prägnanz
-	6917. prandial drinking
+		1. n. Another name for a learning curve.
+	6913. [[Prader-Willi syndrome]]
+	6914. [[pragmatic love]]
+	6915. [[pragmatics]]
+	6916. [[Prägnanz]]
+	6917. [[prandial drinking]]
 	6918. pre-attentive processing
+		1. n. Another name for automatic processing
 	6919. pre-fortis clipping
-	6920. pre-occipital notch
+		1. See clipping
+	6920. [[pre-occipital notch]]
 	
-	6921. pre-Oedipal
-	6922. pre-operational stage
-	6923. precategorical acoustic store
-	6924. precedence effect
-	6925. precentral gyrus
-	6926. precision law
-	6927. precocial
-	6928. precognition
-	6929. preconcept
-	6930. preconscious
+	6921. [[pre-Oedipal]]
+	6922. [[pre-operational stage]]
+	6923. [[precategorical acoustic store]]
+	6924. [[precedence effect]]
+	6925. [[precentral gyrus]]
+	6926. [[precision law]]
+	6927. [[precocial]]
+	6928. [[precognition]]
+	6929. [[preconcept]]
+	6930. [[preconscious]]
 	
-	6931. preconscious processing
-	6932. preconventional morality
-	6933. precursor
-	6934. predator
-	6935. predicate calculus
-	6936. predicate thinking
-	6937. predicative
+	6931. [[preconscious processing]]
+	6932. [[preconventional morality]]
+	6933. [[precursor]]
+	6934. [[predator]]
+	6935. [[predicate calculus]]
+	6936. [[predicate thinking]]
+	6937. [[predicative]]
 	6938. prediction paradox
-	6939. predictive validity
-	6940. predictor variable
+		1. n. Another name for the unexpected hanging paradox.
+	6939. [[predictive validity]]
+	6940. [[predictor variable]]
 	
-	6941. prednisolone
-	6942. prednisone
-	6943. preference-feedback hypothesis
-	6944. preference reversal
-	6945. preformationism
-	6946. prefrontal cortex
+	6941. [[prednisolone]]
+	6942. [[prednisone]]
+	6943. [[preference-feedback hypothesis]]
+	6944. [[preference reversal]]
+	6945. [[preformationism]]
+	6946. [[prefrontal cortex]]
 	6947. prefrontal leucotomy
+		1. See frontal leucotomy
 	6948. prefrontal lobotomy
-	6949. preganglionic
-	6950. pregenital
+		1. See frontal lobotomy
+	6949. [[preganglionic]]
+	6950. [[pregenital]]
 	
 	6951. pregnance
+		1. See PrägNANZ.
 	6952. pregnancy blockage
-	6953. prehensile
-	6954. prejudice
+		1. n. Another name for the Bruce effect.
+	6953. [[prehensile]]
+	6954. [[prejudice]]
 	6955. Preludin
-	6956. premature (early) ejaculation
-	6957. premenstrual dysphoric disorder
+		1. $n$. A proprietary name for the stimulant drug phenmetrazine. \[Trademark]
+	6956. [[premature (early) ejaculation]]
+	6957. [[premenstrual dysphoric disorder]]
 	6958. premenstrual syndrome
-	6959. premise
-	6960. premonition
+		1. $n$. Another name for premenstrual dysphoric disorder. PMS abbrev. \[From Latin prae before + menstrualis monthly, from mensis a month]
+	6959. [[premise]]
+	6960. [[premonition]]
 	
 	6961. premotor cortex
-	6962. preoptic nucleus
-	6963. presbyacusis
-	6964. presbyopia
+		1. See motor cortex. PMC abbrev.
+	6962. [[preoptic nucleus]]
+	6963. [[presbyacusis]]
+	6964. [[presbyopia]]
 	6965. prescriptive theory
-	6966. presenile dementia
-	6967. Present State Examination
-	6968. press
+		1. See normative (1).
+	6966. [[presenile dementia]]
+	6967. [[Present State Examination]]
+	6968. [[press]]
 	6969. press-need
-	6970. pressure-sensitive spot
+		1. n. Another name for a need-press.
+	6970. [[pressure-sensitive spot]]
 	
-	6971. pressured speech
-	6972. pressure receptor
-	6973. prestige suggestion
-	6974. prestriate cortex
-	6975. presynaptic
-	6976. presynaptic facilitation
-	6977. presynaptic inhibition
-	6978. pretectal pathway
-	6979. prevalence
-	6980. prey
+	6971. [[pressured speech]]
+	6972. [[pressure receptor]]
+	6973. [[prestige suggestion]]
+	6974. [[prestriate cortex]]
+	6975. [[presynaptic]]
+	6976. [[presynaptic facilitation]]
+	6977. [[presynaptic inhibition]]
+	6978. [[pretectal pathway]]
+	6979. [[prevalence]]
+	6980. [[prey]]
 	
-	6981. priapism
+	6981. [[priapism]]
 	6982. primacy, law of
+		1. See primacy effect (1, 2).
 	6983. primacy, oral
-	6984. primacy effect
-	6985. primal anxiety
-	6986. primal fantasy
-	6987. primal father
-	6988. primal horde
-	6989. primal repression
-	6990. primal scene
+		1. See oral primacy.
+	6984. [[primacy effect]]
+	6985. [[primal anxiety]]
+	6986. [[primal fantasy]]
+	6987. [[primal father]]
+	6988. [[primal horde]]
+	6989. [[primal repression]]
+	6990. [[primal scene]]
 	
-	6991. primal sketch
-	6992. primal therapy
+	6991. [[primal sketch]]
+	6992. [[primal therapy]]
 	6993. primary abilities
-	6994. primary anxiety
+		1. See primary mental abilities
+	6994. [[primary anxiety]]
 	6995. primary auditory cortex
-	6996. primary color
+		1. See auditory cortex
+	6996. [[primary color]]
 	6997. primary drive
-	6998. primary emotions
-	6999. primary gain
-	7000. primary hypersomnia
+		1. See drive
+	6998. [[primary emotions]]
+	6999. [[primary gain]]
+	7000. [[primary hypersomnia]]
 	
-	7001. primary identification
+	7001. [[primary identification]]
 	7002. primary immune response
+		1. See immune response.
 	7003. primary impotence
-	7004. primary integration
-	7005. primary memory
-	7006. primary mental abilities
+		1. See impotence (2). 
+	7004. [[primary integration]]
+	7005. [[primary memory]]
+	7006. [[primary mental abilities]]
 	7007. primary motor cortex
-	7008. primary narcissism
-	7009. primary object
-	7010. primary odour
+		1. See motor cortex
+	7008. [[primary narcissism]]
+	7009. [[primary object]]
+	7010. [[primary odor]]
 	
-	7011. primary prevention
-	7012. primary process
-	7013. primary projection area
-	7014. primary quality
-	7015. primary repression
-	7016. primary sexual characteristic
+	7011. [[primary prevention]]
+	7012. [[primary process]]
+	7013. [[primary projection area]]
+	7014. [[primary quality]]
+	7015. [[primary repression]]
+	7016. [[primary sexual characteristic]]
 	7017. primary sleep disorders
+		1. $n$. A generic term for the dyssomnias and the parasomnias.
 	7018. primary somatosensory cortex
-	7019. primary taste
-	7020. primary visual cortex
+		1. See somatosensory cortex.
+	7019. [[primary taste]]
+	7020. [[primary visual cortex]]
 	
 	7021. primary zone
-	7022. primate
-	7023. prime
-	7024. priming
-	7025. primordial image
-	7026. principal-components analysis
+		1. n. Another name for an erotogenic zone.
+	7022. [[primate]]
+	7023. [[prime]]
+	7024. [[priming]]
+	7025. [[primordial image]]
+	7026. [[principal-components analysis]]
 	7027. principal color
+		1. n. Another name for a psychological primary. US principal color.
 	7028. principal sulcus
-	7029. principle of constancy
+		1. n. Another name for the longitudinal fissure. 
+	7029. [[principle of constancy]]
 	7030. principle of equipotentiality
+		1. See EQUIPOTENTIALITY.
 	
-	7031. principle of least effort
+	7031. [[principle of least effort]]
 	7032. principle of mass action
+		1. See mass action.
 	7033. principle of psychical determinism
+		1. See psychical determinism
 	7034. principle of reinstatement of stimulating conditions
-	7035. principle of restricted choice
+		1. n. Another (obsolete) name for encoding specificity
+	7035. [[principle of restricted choice]]
 	7036. principle of the excluded middle
-	7037. prion
-	7038. prion disease
+		1. See excluded middle law
+	7037. [[prion]]
+	7038. [[prion disease]]
 	7039. prion protein
-	7040. prior entry law
+		1. See PrP
+	7040. [[prior entry law]]
 	
-	7041. prior probability
-	7042. prism
-	7043. prism adaptation
-	7044. Prisoner's Dilemma game
+	7041. [[prior probability]]
+	7042. [[prism]]
+	7043. [[prism adaptation]]
+	7044. [[Prisoner's Dilemma game]]
 	7045. prison psychosis
-	7046. pro-ana
-	7047. pro-mia
+		1. $n$. A misleading name for Ganser syndrome, which is not classified as a psychosis (1) and is not peculiar to prisoners. \[So called because Ganser's original description of it was based on three prisoners awaiting sentence]
+	7046. [[pro-ana]]
+	7047. [[pro-mia]]
 	7048. pro-opiomelanocortin
-	7049. proactive interference
-	7050. probabilistic functionalism
+		1. See POMC
+	7049. [[proactive interference]]
+	7050. [[probabilistic functionalism]]
 	
-	7051. probability
-	7052. probability distribution
-	7053. probability learning
+	7051. [[probability]]
+	7052. [[probability distribution]]
+	7053. [[probability learning]]
 	7054. probability matching
-	7055. probability sample
-	7056. probable error
-	7057. proband
-	7058. probe
-	7059. 2-4-6 problem
+		1. See probability learning.
+	7055. [[probability sample]]
+	7056. [[probable error]]
+	7057. [[proband]]
+	7058. [[probe]]
+	7059. [[2-4-6 problem]]
 	7060. problem-solving cycle
+		1. See problem-solving stages
 	
-	7061. problem-solving stages
-	7062. problem solving
-	7063. problem space
-	7064. procedural knowledge
-	7065. procedural memory
-	7066. proceptive behavior
-	7067. process
+	7061. [[problem-solving stages]]
+	7062. [[problem solving]]
+	7063. [[problem space]]
+	7064. [[procedural knowledge]]
+	7065. [[procedural memory]]
+	7066. [[proceptive behavior]]
+	7067. [[process]]
 	7068. process, primary
+		1. See primary process
 	7069. process, secondary
-	7070. processing speed
+		1. See secondary process
+	7070. [[processing speed]]
 	
-	7071. proclitic
-	7072. procyclidine
-	7073. prodrome
-	7074. product-moment correlation coefficient
+	7071. [[proclitic]]
+	7072. [[procyclidine]]
+	7073. [[prodrome]]
+	7074. [[product-moment correlation coefficient]]
 	7075. production method
-	7076. production rule
-	7077. production system
-	7078. productive orientation
-	7079. profile
+		1. n. Another name for magnitude production.
+	7076. [[production rule]]
+	7077. [[production system]]
+	7078. [[productive orientation]]
+	7079. [[profile]]
 	7080. profile of non-verbal sensitivity
+		1. See PONS
 	
 	7081. profiling
 	7082. profound mental retardation

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A form of discrimination learning in which the positive stimulus is rewarded on a randomized proportion of trials. In humans, this is usually achieved with variations of the light-guessing experiment first described by the US psychologist Lloyd G(irton) Humphreys (1913-2003) in the Journal of Experimental Psychology in 1939. An observer tries to predict which of two light bulbs will light up on each trial, and the bulbs are lit up randomly, 80 per cent left and 20 per cent right, for example. People typically began by distributing their guesses roughly equally between the two options, then they increase the frequency of choosing the bulb that is being lit up more often, and finally after very many trials, by which time they have enough information to judge the probabilities reasonably accurately, they usually settle into a non-optimal matching strategy of choosing 80 per cent left and 20 per cent right in the example above. This matching strategy yields a probability of $.8 \times .8+.2 \times$ $.2$ of being correct, which is 68 per cent correct guesses. This is non-optimal, because the strategy of choosing the more frequently illuminated bulb on every single trial yields 80 per cent correct guesses. Animals also tend to respond non-optimally, and when the responses of many animals are pooled, they sometimes correspond to probability matching.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

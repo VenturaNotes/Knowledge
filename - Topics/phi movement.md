@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. A form of pure objectless apparent movement, without the appearance of any entity actually moving, that occurs when two visual stimuli a few centimetres apart are presented in an alternating pattern with an interstimulus interval too long for the stimuli to appear simultaneous or for partial movement or optimal movement to occur but not long enough for the disappearance of apparent movement and the veridical perception of the stimuli simply alternating. The term is often applied to any form of apparent movement, but it was defined precisely by the German psychologist Max Wertheimer (1880-1943) when he introduced it in 1912, and its indiscriminate application is avoided in careful usage. Wertheimer believed movement to be an immediate sense experience (a quale) like colour or lightness that under appropriate conditions may be perceived in a pure form as sheer objectless movement. The following demonstration provides an easy way to experience something similar to phi movement: hold a finger close enough to the eyes for a double image to be seen, then alternately open and close the left and right eyes$\textemdash$for some people, the finger appears to leap from one place to another without any image moving across the space. Also called phi motion, the phi phenomenon, or pure phi. See also Korte's laws.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

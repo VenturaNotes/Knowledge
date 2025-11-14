@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. In a situation of seemingly arbitrary choice, a particular option that is chosen by a large proportion of a given population, or an expectation, interpretation, or a manner of perceiving, thinking, or behaving that is statistically prominent within the population. For example, most people in the US and Europe unconsciously expect a knob on an electrical appliance to increase the appliance's output when it is turned clockwise and to decrease the output when it is turned anticlockwise, but they expect a water or gas tap or faucet to function in exactly the opposite way, decreasing the flow when it is turned clockwise and increasing the flow when it is turned anticlockwise, and controls that do not function in the expected ways cause irritation, inefficiency, and operator errors. Another example, often used by conjurors and people pretending to have telepathic powers, is the marked preference that emerges when people are asked to draw two geometric figures, one inside the other: research reveals that more than one-third of people draw a triangle and circle. Also (informally) called a pop-type. See also three-SeVEN EFFECT.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

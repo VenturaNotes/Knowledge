@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- $n$. An auditory illusion that occurs when a single phoneme is deleted from a recording of a sentence (in the original experiment, the first /s/ of the word legislatures in the sentence The state governors met with their respective legislatures convening in the capital city) and is replaced by a recording of a cough or other intrusive sound; when this doctored recording is played to listeners, the missing phoneme is perceived as clearly as if it were physically present, even when the listeners hear the recording again after being told that the sound is missing. The cough cannot be clearly located in the sentence by listeners, but if the deleted sound is replaced by a silent gap it can be located easily and phonemic restoration does not occur. In spite of its name, the phenomenon is not restricted to single phonemes, a whole syllable such as the -gis- in the word legislatures being heard clearly when replaced by an extraneous sound of the same length. The phenomenon was discovered by the US psychologist Richard M. Warren (born 1925) and two colleagues and first reported in articles in the journals Science and Scientific American in 1970. Also called the phantom phoneme effect. Compare AMODAL COMPLETION.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]

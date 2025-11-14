@@ -6,10 +6,8 @@ aliases:
 - 
 ## Source [^1]
 - A probability distribution is a [[statistical function]] that describes all the possible values and likelihoods that a random variable can take within a given range. 
-
 ## Source[^2]
 - A probability distribution describes how the probabilities of different outcomes are assigned to the possible values of a random variable. It provides a way of modeling the likelihood of each outcome in a [[random experiment]]
-
 ## Source[^3]
 - Theoretical formulas for the probability that an observation has a particular value, or lies within a given range of values.
 - Discrete probability distributions apply to observations that can take only certain distinct values, such as the integers 0, 1, 2,... or the six named faces of a die. A probability, $p(r)$, is assigned to each event such that the total is unity. Important discrete distributions are the binomial distribution and the Poisson distribution
@@ -17,9 +15,12 @@ aliases:
 - Probability distributions are defined in terms of parameters, whose values determine the numerical values of the probabilities
 ## Source[^4]
 - (of a random variable) Specification of the probabilities with which the random variable can take any particular value or a range of values.
+## Source[^5]
+- $n$. In statistics, the probability or relative frequency of a variable for all possible values that the variable can assume.
 ## References
 
 [^1]: https://www.investopedia.com/terms/p/probabilitydistribution.asp#:~:text=A%20probability%20distribution%20is%20a,take%20within%20a%20given%20range.
 [^2]: https://www.geeksforgeeks.org/probability-distribution/
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
