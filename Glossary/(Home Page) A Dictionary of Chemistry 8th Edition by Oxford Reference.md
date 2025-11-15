@@ -2423,7 +2423,7 @@ Reviewed: false
 	2398. hemiketals
 	2399. henry
 	2400. [[Henry's law]]
-	2401. heparin
+	2401. [[heparin]]
 	2402. heptadecanoic acid
 	2403. heptahydrate
 	2404. heptane
@@ -2466,7 +2466,7 @@ Reviewed: false
 	2441. hexyl group
 	2442. HFC
 	2443. high-performance liquid chromatography
-	2444. high-resolution electron-loss spectroscopy
+	2444. [[high-resolution electron-loss spectroscopy]]
 	2445. high-speed steel
 	2446. high-spin and low-spin complexes
 	2447. high-temperature superconductivity
@@ -2743,7 +2743,7 @@ Reviewed: false
 	2718. isoquinoline
 	2719. isotactic polymer
 	2720. [[isotherm]]
-	2721. isothermal process
+	2721. [[isothermal process]]
 	2722. isotonic
 	2723. isotope
 	2724. isotope separation
