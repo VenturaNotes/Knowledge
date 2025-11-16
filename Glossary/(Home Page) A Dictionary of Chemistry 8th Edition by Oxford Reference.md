@@ -2745,7 +2745,7 @@ Reviewed: false
 	2720. [[isotherm]]
 	2721. [[isothermal process]]
 	2722. isotonic
-	2723. isotope
+	2723. [[isotope]]
 	2724. isotope separation
 	2725. isotopic isomers
 	2726. isotopic number
@@ -2808,7 +2808,7 @@ Reviewed: false
 	2783. kinetic effect
 	2784. kinetic energy
 	2785. kinetic isotope effect
-	2786. kinetics
+	2786. [[kinetics]]
 	2787. kinetic theory
 	2788. Kipp's apparatus
 	2789. Kirchhoff, Gustav Robert (1824–87)
@@ -2822,7 +2822,7 @@ Reviewed: false
 	2796. Kohlrausch's law
 	2797. Kohlrausch equation
 	2798. Kolbe's method
-	2799. Koopmans' theorem
+	2799. [[Koopmans' theorem]]
 	2800. Kovar
 	2801. Kramers' reaction rate theory
 	2802. Kramers theorem
