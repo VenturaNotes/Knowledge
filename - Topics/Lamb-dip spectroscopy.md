@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A spectroscopic technique enabling the centres of absorption lines to be determined very precisely by making use of the Doppler shift associated with very rapidly moving molecules. An intense monochromatic beam of radiofrequency electromagnetic radiation is passed through a sample of a gas with the frequency being slightly higher than that of maximum absorption. Only certain molecules moving at a certain specific speed can absorb radiation. The beam is then reflected back through the sample so that radiation is absorbed by molecules moving at exactly this same speed, except that they are moving away from the mirror. If the radiation is exactly at the absorption peak, only molecules moving perpendicular to the line of the beam (which hence have no Doppler shift) absorb both in the initial path and the reflected path of the radiation. Since molecules being excited in the initial path leave fewer molecules to be excited in the return path this causes a less intense absorption to be observed. As a result a dip appears in the curve, thus enabling the absorption peak to be found very accurately. Lamb-dip spectroscopy is named after Willis Eugene Lamb (1913-2008).
+## References
+
+[^1]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]

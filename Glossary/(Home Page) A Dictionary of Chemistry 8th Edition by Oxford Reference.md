@@ -2853,7 +2853,7 @@ Reviewed: false
 	2827. Lagrangian
 	2828. LAH
 	2829. lake
-	2830. Lamb-dip spectroscopy
+	2830. [[Lamb-dip spectroscopy]]
 	2831. lambda point
 	2832. [[Lamb shift]]
 	2833. [[lamellar solids]]
@@ -2863,7 +2863,7 @@ Reviewed: false
 	2837. Langevin equation
 	2838. Langmuir–Blodgett film
 	2839. Langmuir–Hinshelwood mechanism
-	2840. Langmuir–Rideal mechanism
+	2840. [[Langmuir-Rideal mechanism]]
 	2841. Langmuir adsorption isotherm
 	2842. Langmuir isotherm
 	2843. lanolin
@@ -2874,7 +2874,7 @@ Reviewed: false
 	2848. lanthanoids
 	2849. lanthanons
 	2850. lanthanum
-	2851. lapis lazuli
+	2851. [[lapis lazuli]]
 	2852. Laporte selection rule
 	2853. Larmor precession
 	2854. laser

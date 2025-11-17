@@ -882,7 +882,9 @@ Year: 2016-04-01
 	867. [[luminance]]
 	868. [[lurker]]
 	869. [[Lycos]]
-	870. [[MAC]]
+	870. [[Project MAC]]
+		1. (2) Abbrev. for mandatory access control. 
+		2. (3) See MAC LAYER.
 	871. [[Media Access Control address|MAC address]]
 	872. [[Mach bands]]
 	873. [[machine]]
@@ -893,7 +895,7 @@ Year: 2016-04-01
 	878. [[machine learning]]
 	879. [[machine simulation]]
 	880. [[machine translation]]
-	881. [[Macintosh]]
+	881. [[macintosh]]
 	882. [[MACLisp]]
 	883. [[macroinstruction|macro]]
 	884. [[macro virus]]
