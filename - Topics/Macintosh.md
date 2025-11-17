@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Mac
+  - mac
 ---
 ## Synthesis
 - 

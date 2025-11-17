@@ -1,5 +1,5 @@
 ## Synthesis
-- 
+- The operating system that runs on a Mac
 ## Source [^1]
 - It is a Unix-based operating system
 	- #question What is meant by unix-based operating system? 
