@@ -895,7 +895,7 @@ Year: 2016-04-01
 	878. [[machine learning]]
 	879. [[machine simulation]]
 	880. [[machine translation]]
-	881. [[macintosh]]
+	881. [[Macintosh]]
 	882. [[MACLisp]]
 	883. [[macroinstruction|macro]]
 	884. [[macro virus]]
