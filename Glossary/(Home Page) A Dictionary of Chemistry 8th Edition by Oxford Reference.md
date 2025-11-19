@@ -2940,7 +2940,7 @@ Reviewed: false
 	2914. Lewis, Gilbert Newton (1875-1946)
 	2915. Lewis acid and base
 	2916. Lewis structure
-	2917. Liebermann's reaction
+	2917. [[Liebermann's reaction]]
 	2918. Liebermann test
 	2919. Liebig, Justus von (1803-73)
 	2920. Liebig condenser
@@ -2969,7 +2969,7 @@ Reviewed: false
 	2943. Linz-Donawitz process
 	2944. lipase
 	2945. lipid
-	2946. lipid bilayer
+	2946. [[lipid bilayer]]
 	2947. lipoic acid
 	2948. lipolysis
 	2949. lipoprotein
@@ -3068,7 +3068,7 @@ Reviewed: false
 	3042. magnetic quantum number
 	3043. magnetism
 	3044. magnetite
-	3045. magnetochemistry
+	3045. [[magnetochemistry]]
 	3046. magnetomechanical ratio
 	3047. magneton
 	3048. Main Smith-Stoner rule

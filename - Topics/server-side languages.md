@@ -1,6 +1,3 @@
----
-tags: []
----
 ## Synthesis
 - 
 ## Source [^1]

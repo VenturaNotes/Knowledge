@@ -3,7 +3,7 @@ aliases:
   - mac
 ---
 ## Synthesis
-- 
+- "Numbers" is the google sheets for mac
 ## Source [^1]
 - Any of a range of personal computers from Apple Computer Inc.
 ## References
