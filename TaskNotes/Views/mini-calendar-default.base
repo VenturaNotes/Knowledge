@@ -1,0 +1,29 @@
+filters:
+  and:
+    - file.hasTag("task")
+views:
+  - type: tasknotesMiniCalendar
+    name: Due
+    order:
+      - status
+      - priority
+      - scheduled
+      - projects
+      - file.tags
+      - file.name
+      - recurrence
+      - complete_instances
+    sort:
+      - property: due
+        direction: ASC
+    dateProperty: due
+  - type: tasknotesMiniCalendar
+    name: Scheduled
+    order: []
+    dateProperty: scheduled
+  - type: tasknotesMiniCalendar
+    name: Created
+    dateProperty: file.ctime
+  - type: tasknotesMiniCalendar
+    name: Modified
+    dateProperty: file.mtime

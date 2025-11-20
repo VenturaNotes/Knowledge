@@ -1424,7 +1424,7 @@ Reviewed: false
 	1400. Debye, Peter Joseph William (1884-1966)
 	1401. Debye-Hückel-Onsager theory
 	1402. Debye-Hückel theory
-	1403. Debye-Scherrer method
+	1403. [[Debye-Scherrer method]]
 	1404. Debye-Waller factor
 	1405. Debye theory of specific heat
 	1406. deca-
@@ -1940,7 +1940,7 @@ Reviewed: false
 	1916. exa-
 	1917. EXAFS
 	1918. excimer
-	1919. exciplex
+	1919. [[exciplex]]
 	1920. excitation
 	1921. exclusion principle
 	1922. exergonic
@@ -3103,7 +3103,7 @@ Reviewed: false
 	3077. Markovnikoff's rule
 	3078. Markush structure
 	3079. Marquis test
-	3080. Marsh's test
+	3080. [[Marsh's test]]
 	3081. marsh gas
 	3082. martensite
 	3083. mascagnite
