@@ -1442,7 +1442,7 @@ Reviewed: false
 	1418. defect
 	1419. defect state
 	1420. definite proportions
-	1421. deflagration
+	1421. [[deflagration]]
 	1422. degassing
 	1423. degeneracy
 	1424. degenerate
@@ -1859,7 +1859,7 @@ Reviewed: false
 	1835. enzyme
 	1836. enzyme-substrate complex
 	1837. enzyme inhibition
-	1838. enzyme kinetics
+	1838. [[enzyme kinetics]]
 	1839. ephedrine
 	1840. epimerism
 	1841. epinephrine
@@ -1868,7 +1868,7 @@ Reviewed: false
 	1844. epoietin
 	1845. epoxides
 	1846. epoxyethane
-	1847. epoxy resins
+	1847. [[epoxy resins]]
 	1848. EPR
 	1849. epsomite
 	1850. Epsom salt
