@@ -1977,7 +1977,7 @@ Reviewed: false
 	1953. farad
 	1954. Faraday's laws
 	1955. Faraday, Michael (1791-1867)
-	1956. Faraday constant
+	1956. [[Faraday constant]]
 	1957. fast-atom bombardment mass spectroscopy
 	1958. fast ion conductor
 	1959. fat
@@ -1996,7 +1996,7 @@ Reviewed: false
 	1972. Fermi-Dirac statistics
 	1973. Fermi level
 	1974. fermion
-	1975. Fermi resonance
+	1975. [[Fermi resonance]]
 	1976. [[Fermi surface]]
 	1977. fermium
 	1978. ferrate
@@ -2042,7 +2042,7 @@ Reviewed: false
 	2018. Fischer, Hans (1881-1945)
 	2019. Fischer-Tropsch process
 	2020. Fischer projection
-	2021. fission-track dating
+	2021. [[fission-track dating]]
 	2022. Fittig reaction
 	2023. fixation
 	2024. fixed point
@@ -2051,7 +2051,7 @@ Reviewed: false
 	2027. flame ionization detector
 	2028. flame test
 	2029. flash cooling
-	2030. flash photolysis
+	2030. [[flash photolysis]]
 	2031. flash point
 	2032. flavin adenine dinucleotide
 	2033. flavones
