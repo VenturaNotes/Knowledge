@@ -2074,14 +2074,14 @@ Reviewed: false
 	2050. flunitrazepam
 	2051. fluorescein
 	2052. fluorescence
-	2053. fluorescence spectroscopy
+	2053. [[fluorescence spectroscopy]]
 	2054. fluoridation
 	2055. fluoride
 	2056. fluorination
 	2057. fluorine
 	2058. fluorite
 	2059. fluorite structure
-	2060. fluorocarbons
+	2060. [[fluorocarbons]]
 	2061. 5-fluorouracil
 	2062. flux
 	2063. fluxional molecule
@@ -2116,7 +2116,7 @@ Reviewed: false
 	2092. Fourier transform
 	2093. fractal
 	2094. fraction
-	2095. fractional crystallization
+	2095. [[fractional crystallization]]
 	2096. fractional distillation
 	2097. fractionating column
 	2098. fractionation

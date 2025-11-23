@@ -11,9 +11,9 @@ Reviewed: false
 - Complete
 	- [[(1) A Complete In-Depth Linear Algebra Course with Problems and Exercises]]
 	- [[(2) Preview - The Magic of Gaussian Quadrature - A Billion Times Better than the Next Best Thing]]
-	- [[(4) Linear Algebra 2b - Decomposition - It's no Time to Nickel and Dime!]]
 - Complete Questions
 	- [[(3) Linear Algebra 2a - J.S. Bach + M.L. King = Linear Algebra, or the Addition of Sounds]]
+	- [[(4) Linear Algebra 2b - Decomposition - It's no Time to Nickel and Dime!]]
 - Incomplete
 	- [[(5) Linear Algebra 2c - The Three Fundamental Examples of Vectors]]
 	- [[(6) Linear Algebra 2d - Addition of Geometric Vectors]]
