@@ -1,8 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/find-missing-elements/description/
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution

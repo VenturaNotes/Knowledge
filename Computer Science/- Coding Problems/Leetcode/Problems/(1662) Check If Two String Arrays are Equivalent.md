@@ -2,8 +2,7 @@
 Source:
   - https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
 Reviewed: false
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution

@@ -1,8 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/restore-finishing-order/description
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution

@@ -1,8 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/compute-alternating-sum/description
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution

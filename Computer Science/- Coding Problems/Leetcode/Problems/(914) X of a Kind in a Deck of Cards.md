@@ -2,8 +2,7 @@
 Source:
   - https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
 Reviewed: false
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution

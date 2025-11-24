@@ -18,7 +18,23 @@ aliases:
 	- #question What does the context for this look like? 
 - Initialize an empty list
 	- `my_list = []`
+### Stack
+- Lists have $O(1)$ `append()` and `pop()` which makes them perfect stacks
+```python
+stack = []
 
+stack.append(10)   # push
+stack.append(20)
+stack.append(30)
+
+top = stack.pop()  # pop → 30
+print(top)
+```
+- Operations for a pythonic stack:
+	- Push: stack.append(x)
+	- Pop: stack.pop()
+	- peek: `stack[-1]` (just don't pop)
+	- is empty: `len(stack) == 0`
 ### Insert / Beginning of List
 - Add item to beginning of list
 ```python

@@ -2141,7 +2141,7 @@ Reviewed: false
 	2117. Friedel's law
 	2118. Friedel-Crafts reaction
 	2119. Froehde's test
-	2120. frontier-orbital theory
+	2120. [[frontier-orbital theory]]
 	2121. frontier orbital
 	2122. Frost diagram
 	2123. froth flotation
@@ -2219,7 +2219,7 @@ Reviewed: false
 	2195. geminate pair
 	2196. genetic code
 	2197. genome
-	2198. geochemistry
+	2198. [[geochemistry]]
 	2199. geometrical isomerism
 	2200. gerade
 	2201. geraniol
@@ -2278,7 +2278,7 @@ Reviewed: false
 	2254. glycosidic bond
 	2255. glycosidic link
 	2256. [[glycosylation]]
-	2257. glyoxal
+	2257. [[glyoxal]]
 	2258. gnomonic projection
 	2259. goethite
 	2260. Golay cell

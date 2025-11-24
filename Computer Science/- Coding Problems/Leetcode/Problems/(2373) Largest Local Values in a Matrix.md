@@ -2,8 +2,7 @@
 Source:
   - https://leetcode.com/problems/largest-local-values-in-a-matrix/
 Reviewed: false
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 - A contiguous 3x3 matrix simply refers to a 3-row by 3-column block of elements that are adjacent to each other within a larger matrix or grid of numbers

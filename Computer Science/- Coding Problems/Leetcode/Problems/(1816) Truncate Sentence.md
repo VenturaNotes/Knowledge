@@ -2,8 +2,7 @@
 Source:
   - https://leetcode.com/problems/truncate-sentence/
 Reviewed: false
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution
