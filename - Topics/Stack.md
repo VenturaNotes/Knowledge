@@ -3,7 +3,29 @@ aliases:
   - stacks
 ---
 ## Synthesis
-- 
+
+### Python
+- A pythonic stack is using a list
+- Use collections.deque to create a stack
+```python
+from collections import deque
+
+stack = deque()
+
+stack.append(10)
+stack.append(20)
+stack.append(30)
+
+top = stack.pop()  # pop from the right by default
+print(top) # 30
+print(stack) # deque([10, 20])
+
+
+# 30 is returned because that was removed from 'stack'
+```
+- #question What exactly is `deque()`? What does it do?
+- #question What is type deque? 
+- Use `deque` if performance matters or the stack gets very large
 ## Source [^1]
 ### Description
 - The time complexity of push or pop for stack is constant

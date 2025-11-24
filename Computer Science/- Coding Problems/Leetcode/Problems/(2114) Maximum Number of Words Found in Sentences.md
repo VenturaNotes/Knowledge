@@ -2,8 +2,7 @@
 Source:
   - https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
 Reviewed: false
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution

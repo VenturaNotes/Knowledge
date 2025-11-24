@@ -1,8 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution

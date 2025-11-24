@@ -2,8 +2,7 @@
 Source:
   - https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/
 Reviewed: false
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution

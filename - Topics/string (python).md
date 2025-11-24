@@ -5,9 +5,18 @@ aliases:
 ---
 ## Synthesis
 
+### Add / Append / Concatenation
+```python
+test = "hello"
+test2 = " world"
+test += test2
+print(test) 
+
+# Output: hello world
+```
 ### Methods
 
-### .count()
+#### .count()
 - This can count the number of occurrences for a character in a string
 ```python
 my_string = "hello world"
@@ -27,15 +36,20 @@ print(f"The character '{char_to_find}' appears {count} times.")
 txt = "Company12"
 x = txt.isalnum() # True
 ```
-### .lower()
+#### .lower()
 - Takes a character and makes it lowercase 
 ```python
 txt = "HELLO WORLD"
 txt = txt.lower() #txt is now "hello world"
 ```
+#### len('string')
+```python
+print(len('hello'))
+# Output: 5
+```
+- Checking string length is constant-time operation $O(1)$
 ### Characteristics
 - Immutable
-
 ### Concatenation
 ```python
 test = "the"

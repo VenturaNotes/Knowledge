@@ -1,8 +1,7 @@
 ---
 Source:
   - https://leetcode.com/problems/minimum-number-game/description/
-tags:
-  - leetcode/solved
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution

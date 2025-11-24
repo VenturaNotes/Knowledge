@@ -2,13 +2,13 @@
 - A note-taking and personal knowledge management application that stores notes as plain text markdown files on your local machine
 - When doing `tags.isType("list")`, this returns true
 	- So `tags` is type list which I assume holds all the different types of tags within the list. Each element within `tags` is a string
-
 ### Filtering out Nested Tags in Bases
 - `!tags.filter(value.startsWith("#task/"))`
 	- This removes all documents with a nested tag
-- 
-- 
-
+### Design Limitations
+- Scroll-to-change is a UI quirk of the number field for properties, so it's better to keep it as a text field to prevent accidental changes and simply using the `number()` function to transform the string to a number in comparisons
+### String to Text Conversion
+- number(`text property`) works
 ## Source [^1]
 ### Functions
 

@@ -2,9 +2,35 @@
 Source:
   - https://leetcode.com/problems/valid-parentheses
 Reviewed: false
+Approaches: "1"
 ---
 ## Synthesis
-- 
+### My Solution
+```python
+class Solution:
+    def isValid(self, s: str) -> bool:
+        stack = []
+        for i in s:
+            if i in {'(', '[', '{'}:
+                stack.append(i)
+            else:
+                if len(stack) == 0:
+                    return False
+                pop = stack.pop()
+                if (pop == '[' and i == ']') or (pop == '(' and i == ')') or (pop == '{' and i == '}'):
+                    continue
+                else:
+                    return False
+        if len(stack) != 0:
+            return False
+        return True
+            
+'''
+Loop through the list and you can check the order that it is correct. 
+
+Could maybe use a stack for this problem
+'''
+```
 ## Source [^1]
 - ![[Screenshot 2024-10-16 at 3.22.27 PM.png|400]]
 - Super common question from phone interviews and online assessments
