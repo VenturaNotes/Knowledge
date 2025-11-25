@@ -2279,9 +2279,9 @@ Reviewed: false
 	2255. glycosidic link
 	2256. [[glycosylation]]
 	2257. [[glyoxal]]
-	2258. gnomonic projection
+	2258. [[gnomonic projection]]
 	2259. goethite
-	2260. Golay cell
+	2260. [[Golay cell]]
 	2261. gold
 	2262. Goldschmidt's rules
 	2263. Goldschmidt process
@@ -2299,7 +2299,7 @@ Reviewed: false
 	2275. graph theory
 	2276. gravimetric analysis
 	2277. gray
-	2278. green chemistry
+	2278. [[green chemistry]]
 	2279. greenhouse effect
 	2280. greenhouse gas
 	2281. greenockite
