@@ -2,9 +2,42 @@
 Source:
   - https://leetcode.com/problems/happy-number/
 Reviewed: false
+Approaches: "1"
 ---
 ## Synthesis
-- 
+### My Solution
+```python
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        value = n
+        my_set = set()
+        my_list = []
+        
+        while True:
+            for digit_char in str(value):
+                my_list.append(pow(int(digit_char),2))
+            print(my_list)
+            temp = sum(my_list)
+            if temp == 1:
+                return True
+            elif temp in my_set:
+                return False
+            else:
+                value = temp
+                my_list.clear()
+                my_set.add(temp)
+
+"""
+Starting with any positive integer, replace number by sum of squares of its digits
+Repeat until number = 1 (or it loops endlessly in a cycle which does not include 1)
+Those numbers for which this processes ends in 1 are happy
+
+So we need to write an algorithm where you square each individual digit, take
+the result and then check if it equals to 1. Need to find out if it ever ends or not. 
+
+If any numbers repeat within the list, then it is impossible to end. 
+"""
+```
 ## Source [^1]
 - ![[Screenshot 2024-12-23 at 7.25.16 PM.png]]
 - If happy, return true. Otherwise, false. 

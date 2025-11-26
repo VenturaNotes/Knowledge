@@ -2,9 +2,41 @@
 Source:
   - https://leetcode.com/problems/plus-one/
 Reviewed: false
+Approaches: "1"
 ---
 ## Synthesis
-- 
+
+### My Solution
+```python
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        value = 0
+        length = len(digits)
+        for i in range(len(digits)):
+            value += digits[i] * pow(10,length-i-1)
+        value += 1
+
+        my_list = []
+
+        for digit_char in str(value):
+	        my_list.append(int(digit_char))
+        return my_list
+
+"""
+len([1, 2, 3]) = 3
+index = 0 (so we want to multiply by 100)
+3-0 - 1 = 10^2 power!
+10^0 = 1 as well
+So 10^2 power would be good
+
+ my_int = 12345
+    for digit_char in str(my_int):
+        digit_int = int(digit_char)
+        print(digit_int)
+
+"""
+```
+- Iterate through each element in the list. Find its place-value by comparing it to the length of the list. Then add 1 to the digit. Then convert new integer back into list.
 ## Source [^1]
 - ![[Screenshot 2024-12-23 at 7.30.27 PM.png|300]]
 - Decimal digit is any number between 0 and 9

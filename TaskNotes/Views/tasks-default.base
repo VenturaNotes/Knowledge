@@ -1,12 +1,9 @@
-# All Tasks
-
 filters:
   and:
     - file.hasTag("task")
-
 views:
   - type: tasknotesTaskList
-    name: "All Tasks"
+    name: All Tasks
     order:
       - status
       - priority
@@ -17,27 +14,23 @@ views:
       - recurrence
       - complete_instances
     sort:
-      - column: due
+      - property: due
         direction: ASC
   - type: tasknotesTaskList
-    name: "Today"
+    name: Today
     filters:
       and:
-        # Incomplete tasks (handles both recurring and non-recurring)
         - or:
-          # Non-recurring task that's not in any completed status
-          - and:
-            - recurrence.isEmpty()
-            - status != "done"
-            - status != "canceled"
-          # Recurring task where today is not in complete_instances
-          - and:
-            - recurrence
-            - "!complete_instances.contains(today().format(\"yyyy-MM-dd\"))"
-        # Due or scheduled today
+            - and:
+                - recurrence.isEmpty()
+                - status != "done"
+                - status != "canceled"
+            - and:
+                - recurrence
+                - '!complete_instances.contains(today().format("yyyy-MM-dd"))'
         - or:
-          - date(due) == today()
-          - date(scheduled) == today()
+            - date(due) == today()
+            - date(scheduled) == today()
     order:
       - status
       - priority
@@ -48,24 +41,20 @@ views:
       - recurrence
       - complete_instances
     sort:
-      - column: due
+      - property: due
         direction: ASC
   - type: tasknotesTaskList
-    name: "Overdue"
+    name: Overdue
     filters:
       and:
-        # Incomplete tasks
         - or:
-          # Non-recurring task that's not in any completed status
-          - and:
-            - recurrence.isEmpty()
-            - status != "done"
-            - status != "canceled"
-          # Recurring task where today is not in complete_instances
-          - and:
-            - recurrence
-            - "!complete_instances.contains(today().format(\"yyyy-MM-dd\"))"
-        # Due in the past
+            - and:
+                - recurrence.isEmpty()
+                - status != "done"
+                - status != "canceled"
+            - and:
+                - recurrence
+                - '!complete_instances.contains(today().format("yyyy-MM-dd"))'
         - date(due) < today()
     order:
       - status
@@ -77,31 +66,27 @@ views:
       - recurrence
       - complete_instances
     sort:
-      - column: due
+      - property: due
         direction: ASC
   - type: tasknotesTaskList
-    name: "This Week"
+    name: This Week
     filters:
       and:
-        # Incomplete tasks
         - or:
-          # Non-recurring task that's not in any completed status
-          - and:
-            - recurrence.isEmpty()
-            - status != "done"
-            - status != "canceled"
-          # Recurring task where today is not in complete_instances
-          - and:
-            - recurrence
-            - "!complete_instances.contains(today().format(\"yyyy-MM-dd\"))"
-        # Due or scheduled this week
+            - and:
+                - recurrence.isEmpty()
+                - status != "done"
+                - status != "canceled"
+            - and:
+                - recurrence
+                - '!complete_instances.contains(today().format("yyyy-MM-dd"))'
         - or:
-          - and:
-            - date(due) >= today()
-            - date(due) <= today() + "7 days"
-          - and:
-            - date(scheduled) >= today()
-            - date(scheduled) <= today() + "7 days"
+            - and:
+                - date(due) >= today()
+                - date(due) <= today() + "7 days"
+            - and:
+                - date(scheduled) >= today()
+                - date(scheduled) <= today() + "7 days"
     order:
       - status
       - priority
@@ -112,24 +97,20 @@ views:
       - recurrence
       - complete_instances
     sort:
-      - column: due
+      - property: due
         direction: ASC
   - type: tasknotesTaskList
-    name: "Unscheduled"
+    name: Unscheduled
     filters:
       and:
-        # Incomplete tasks
         - or:
-          # Non-recurring task that's not in any completed status
-          - and:
-            - recurrence.isEmpty()
-            - status != "done"
-            - status != "canceled"
-          # Recurring task where today is not in complete_instances
-          - and:
-            - recurrence
-            - "!complete_instances.contains(today().format(\"yyyy-MM-dd\"))"
-        # No due date and no scheduled date
+            - and:
+                - recurrence.isEmpty()
+                - status != "done"
+                - status != "canceled"
+            - and:
+                - recurrence
+                - '!complete_instances.contains(today().format("yyyy-MM-dd"))'
         - date(due).isEmpty()
         - date(scheduled).isEmpty()
     order:
@@ -142,5 +123,5 @@ views:
       - recurrence
       - complete_instances
     sort:
-      - column: status
+      - property: status
         direction: ASC
