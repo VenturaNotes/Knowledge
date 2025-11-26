@@ -2473,7 +2473,7 @@ Reviewed: false
 	2448. highest occupied molecular orbital
 	2449. high frequency
 	2450. [[Hilbert space]]
-	2451. Hildebrand rule
+	2451. [[Hildebrand rule]]
 	2452. Hill reaction
 	2453. Hinshelwood, Sir Cyril Norman (1897-1967)
 	2454. Hirsch's rule
@@ -3165,13 +3165,13 @@ Reviewed: false
 	3139. mesoscopic
 	3140. meta-
 	3141. metabolic pathway
-	3142. metabolism
+	3142. [[metabolism]]
 	3143. metabolite
 	3144. metaboric acid
 	3145. metal
 	3146. metal-insulator transition
 	3147. metal-organic framework
-	3148. metal aromaticity
+	3148. [[metal aromaticity]]
 	3149. metaldehyde
 	3150. metal fatigue
 	3151. metallic bond
