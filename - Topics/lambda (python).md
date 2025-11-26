@@ -18,7 +18,6 @@ aliases:
 ```python
 lamda arguments: expression
 ```
-
 #### Example
 ```python
 # A lambda function to add two numbers

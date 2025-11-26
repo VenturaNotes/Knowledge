@@ -70,7 +70,7 @@ print(my_set)  # Output: {1, 3, 5}
 - Removes a specified element if present 
 - Does not raise an error if element not found
 
-### Initializing Sets
+### Initializing Sets (Creating)
 
 #### Using Curly Braces or the `set()` Constructor
 ```python

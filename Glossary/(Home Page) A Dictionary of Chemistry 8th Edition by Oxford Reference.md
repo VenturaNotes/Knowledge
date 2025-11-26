@@ -2306,7 +2306,7 @@ Reviewed: false
 	2282. green vitriol
 	2283. Griess test
 	2284. Grignard reagents
-	2285. Grimm-Sommerfeld rule
+	2285. [[Grimm-Sommerfeld rule]]
 	2286. [[Grotrian diagram]]
 	2287. Grotthuss-Draper law
 	2288. ground state
@@ -2376,7 +2376,7 @@ Reviewed: false
 	2351. hard base
 	2352. hardening of oils
 	2353. hardness of water
-	2354. hard sphere
+	2354. [[hard sphere]]
 	2355. Hargreaves process
 	2356. [[harmonic]]
 	2357. [[harmonic oscillator]]
@@ -2472,7 +2472,7 @@ Reviewed: false
 	2447. high-temperature superconductivity
 	2448. highest occupied molecular orbital
 	2449. high frequency
-	2450. Hilbert space
+	2450. [[Hilbert space]]
 	2451. Hildebrand rule
 	2452. Hill reaction
 	2453. Hinshelwood, Sir Cyril Norman (1897-1967)

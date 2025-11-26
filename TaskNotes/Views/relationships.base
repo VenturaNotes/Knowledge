@@ -1,17 +1,15 @@
-# Relationships
-# This view shows all relationships for the current file
-# Dynamically shows/hides tabs based on available data
-
 filters:
   and:
     - file.hasTag("task")
-
 views:
   - type: tasknotesKanban
-    name: "Subtasks"
+    name: Subtasks
     filters:
       and:
         - note.projects.contains(this.file.asLink())
+    groupBy:
+      property: status
+      direction: ASC
     order:
       - status
       - priority
@@ -21,11 +19,8 @@ views:
       - file.name
       - recurrence
       - complete_instances
-    groupBy:
-      property: status
-      direction: ASC
   - type: tasknotesTaskList
-    name: "Projects"
+    name: Projects
     filters:
       and:
         - list(this.projects).contains(file.asLink())
@@ -39,7 +34,7 @@ views:
       - recurrence
       - complete_instances
   - type: tasknotesTaskList
-    name: "Blocked By"
+    name: Blocked By
     filters:
       and:
         - list(this.note.blockedBy).map(value.uid).contains(file.asLink())
@@ -53,10 +48,13 @@ views:
       - recurrence
       - complete_instances
   - type: tasknotesKanban
-    name: "Blocking"
+    name: Blocking
     filters:
       and:
         - note.blockedBy.map(value.uid).contains(this.file.asLink())
+    groupBy:
+      property: status
+      direction: ASC
     order:
       - status
       - priority
@@ -66,6 +64,3 @@ views:
       - file.name
       - recurrence
       - complete_instances
-    groupBy:
-      property: status
-      direction: ASC

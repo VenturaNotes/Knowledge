@@ -3,7 +3,7 @@ Source:
   - https://www.youtube.com/watch?v=LwCRRUa8yTU&t=17339s
 Reviewed: false
 ---
-- ![[Screenshot 2023-02-24 at 11.49.40 PM.png]]
+\- ![[Screenshot 2023-02-24 at 11.49.40 PM.png]]
 	- Example. Evaluate
 		- Use the calculator to solve the questions below
 	- Buttons on calculator

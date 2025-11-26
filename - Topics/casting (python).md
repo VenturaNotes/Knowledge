@@ -7,10 +7,21 @@ aliases:
 	- [[float() (Python)|float()]]
 	- [[int() (Python)|int()]]
 	- [[complex() (Python)|complex()]]
+	- [[str() (Python)|str()]]
+### Convert integer 
+
+```python
+my_int = 3456
+my_list = []
+
+for digit_char in str(my_int):
+	my_list.append(int(digit_char))
+
+# Output: [3, 4, 5, 6]
+```
 
 ## Source [^1]
 ```python
-
 # convert int to float
 x = 5
 x = float(x)
