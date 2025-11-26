@@ -2,14 +2,15 @@
 aliases: logarithms
 ---
 ## Synthesis
-- 
+- A logarithm is not defined for non-positive numbers, or base 1.
+	- #question Why is a logarithm not able to have a base 1?
 ## Source[^1]
 ### Rules
 - $log_a1 = 0$
 	- Can be read as "logarithm of 1 to the base a"
 - $log_aa = 1$
 - $log_aa^x = x$
-- $a^{log_ax} = x$ ^guu88q
+- $a^{log_ax} = x$
 
 ## Source[^2]
 ### More Rules

@@ -3,7 +3,9 @@ aliases: exponents
 explored:
 ---
 ## Synthesis
-- 
+### Exponential Form to Logarithmic Form
+- Exponential Form: $x = b^y$ 
+- Logarithmic form: $y = log_b(x)$ 
 ## Source [^1]
 ### Properties
 - (1) $a^ma^n = a^{m+n}$
