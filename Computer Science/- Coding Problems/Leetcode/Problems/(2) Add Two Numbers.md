@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 ## Synthesis
-## Original
+
 ### My Solution
 ```python
 # Definition for singly-linked list.
@@ -86,7 +86,7 @@ class Solution:
 			l1Val = l1.val if l1 else 0
 			```
 
-## Source 2[^1]
+## Source [^1]
 - ![[Screenshot 2024-11-20 at 2.37.35 AM.png|500]]
 	- Just need to add two numbers together
 	- Many edge cases

@@ -20,10 +20,9 @@ index i: 1 element j: 11
 index i: 2 element j: 12
 ```
 - It seems like you need to have two variables to use enumerate
-
 ### Description 2
 - enumerate() is a built-in function that allows you to iterate over an [[iterable (python)|iterable]] (like a list, tuple, or string) while also keeping track of the index of the current item.
-## Original
+### Enumerated Class
 ```python
 A = [1, 2, 3]
 print(type(enumerate(A)))

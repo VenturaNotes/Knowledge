@@ -4,7 +4,7 @@ Source:
 Reviewed: true
 Attempts: 1
 ---
-## Original
+## Synthesis
 ```python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:

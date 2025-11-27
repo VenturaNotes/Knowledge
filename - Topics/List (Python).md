@@ -110,16 +110,17 @@ del my_list[1] # Removes the item at index 1 ('b')
 print(my_list) # Output: ['a', 'c', 'd']
 ```
 ### .extend() Method
-- `list.extend(iterable)` adds all elements from another iterable (like list, tuple, or string) to the end of the current list
-	- Similar to doing multiple `.append()` calls at once
-#### Example
 ```python
 nums = [1, 2, 3]
 nums.extend([4, 5, 6])
-print(nums)
+print(nums) # Keep in mind it modifed the nums
 
 # Output; [1, 2, 3, 4, 5, 6]
 ```
+- `list.extend(iterable)` adds all elements from another iterable (like list, tuple, or string) to the end of the current list
+	- Similar to doing multiple `.append()` calls at once
+- Another way to add two elements together is `[1, 2, 3] + [4, 5, 6]`
+	- Results in `[1, 2, 3, 4, 5, 6]`
 ### Append / Add Elements to list
 ```python
 #Add element to end of list

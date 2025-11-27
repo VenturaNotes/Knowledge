@@ -3,9 +3,6 @@ aliases:
   - ABC
 ---
 ## Synthesis
-- 
-
-## Original
 - (1) ABC is essentially selling a product based on the materials and labor used to make it instead of the volume which is typically used to determine the cost of a product
 - (2) ABC differs from traditional costing methods because it includes the cost of materials and labor. This is beneficial for a software development team because servers might cost more to deliver a product such as a video game
 - (3) The types of activities that would be considered in ABC would be materials as well as labor
@@ -16,7 +13,6 @@ aliases:
 - (8) Since materials are considered to be calculated into ABC, then the cost of a third-party service could be included into the product
 - (9) Outsourcing might not be as important because since ABC includes the cost of labor and materials, there is no reason to get cheaper labor since the cost of the product would be greater regardless. I'm not sure what to say about automation though. 
 - (10) ABC can be applied consistently across teams and projects by simply keep listing the expenses. I'm not sure what an expense list is called but maybe you could help with that
-
 ## Source [^1]
 - Activity-based costing (ABC) is a method of assigning costs to products or services based on the activities required for their production. This includes things such as materials and labor. The difference between this approach versus traditional accounting methods, where costs are assigned solely by volume produced (i.e., units sold), is that ABC allows companies to more accurately determine the cost of each product or service they have because it considers all factors involved in creating them—not just how many were made but also what went into making them.
 	- #question What are some accounting methods?
