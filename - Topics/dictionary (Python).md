@@ -7,6 +7,31 @@ aliases:
   - dict (python)
 ---
 ## Synthesis
+### Incrementing Dictionary
+```python
+my_dict = {}
+key = "my_item"
+
+# Check and initialize if key doesn't exist, then increment  
+if key not in my_dict:  
+	my_dict[key] = 0  
+my_dict[key] += 1
+
+# Or, more concisely using .get()  
+my_dict[key] = my_dict.get(key, 0) + 1
+```
+- For the second example above, we have the syntax `dictionary.get(key, default_value)`
+	- This retrieves the value the key holds and we have an optional `default_value` if the key is not in the dictionary. Otherwise, `None` is returned my default
+### Retrieving key with maximum value in Dictionary
+```python
+my_dict = {'apple': 5, 'banana': 12, 'cherry': 8, 'date': 12}  
+max_key = max(my_dict, key=my_dict.get)  
+print(max_key)
+
+# Output: banana
+```
+- #question How does the `my_dict.get` attribute work? 
+- This retrieves the key with the maximum value.
 ### Initialization
 - A constant time operation
 ```python
@@ -42,7 +67,6 @@ car["test"] = "new value"
 - A `KeyError` will occur if the key doesn't exist
 	- #question Give me some details about KeyError
 	- #question Does `car.pop("model")` return the value after removal?
-
 #### Adding
 - Allows me to add a key-value pair to existing dictionary
 ```python
@@ -55,7 +79,6 @@ car =	{
 # Adding key-value pair to existing dictionary
 car["test"] = "new value"
 ```
-
 ##### Adding Without Existing Key
 ```python
 car =	{
@@ -88,7 +111,6 @@ my_dict = {'a': 1, 'b': 2, 'c': 3}
 length = len(my_dict)
 print(length) # Output: 3 (which probably means the # of key-value pairs)
 ```
-
 
 ## Source [^1]
 ### Ordered or Unordered
@@ -179,7 +201,6 @@ graduation_year: 2024
 - In `dictionary.get(key, default_value)`
 	- `key`: Retrieve value the key holds
 	- `default_value`: Optional value to return if key not in dictionary. Otherwise, returns `None` by default
-
 ### Common Subclasses
 - `collections.defaultdict`: Adds automatic default codes
 	- #question For a subclass within `dict`, why do you need to go to collections?

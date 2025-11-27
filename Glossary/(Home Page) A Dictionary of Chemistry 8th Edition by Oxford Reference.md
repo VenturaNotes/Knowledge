@@ -3174,18 +3174,18 @@ Reviewed: false
 	3148. [[metal aromaticity]]
 	3149. metaldehyde
 	3150. metal fatigue
-	3151. metallic bond
+	3151. [[metallic bond]]
 	3152. metallic crystal
 	3153. metallized dye
 	3154. metallocarbohedryne
 	3155. metallocene
 	3156. metallography
 	3157. metalloid
-	3158. metallurgy
+	3158. [[metallurgy]]
 	3159. metamict state
 	3160. metaphosphoric acid
 	3161. metaplumbate
-	3162. metastable state
+	3162. [[metastable state]]
 	3163. metastannate
 	3164. metathesis
 	3165. methacrylate

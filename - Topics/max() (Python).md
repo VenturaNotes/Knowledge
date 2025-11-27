@@ -3,9 +3,6 @@ aliases:
   - max()
 ---
 ## Synthesis
-- 
-
-## Original
 ```python
 test = [0, 2, 45, 3, 44]
 print(max(test))

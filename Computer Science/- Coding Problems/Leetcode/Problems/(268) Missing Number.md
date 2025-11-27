@@ -2,9 +2,20 @@
 Source:
   - https://leetcode.com/problems/missing-number/
 Reviewed: false
+Approaches: "1"
 ---
 ## Synthesis
-- 
+### My Solution
+```python
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        my_sum = sum(nums)
+        
+        # Don't need -1 because sum of natural numbers doesn't include 0
+        length = len(nums)
+        return ((length*(length+1))//2) - my_sum
+```
+- I used a formula to calculate the sum of the first `n` natural numbers
 ## Source [^1]
 - ![[Screenshot 2024-12-08 at 10.15.30 PM.png]]
 - Return the only number in the range that is missing from the array

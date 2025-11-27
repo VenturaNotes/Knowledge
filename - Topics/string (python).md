@@ -48,6 +48,31 @@ print(len('hello'))
 # Output: 5
 ```
 - Checking string length is constant-time operation $O(1)$
+#### .join()
+- #question Does it only accept a list type?
+```python
+print("".join(reversed(['1','2','3','4'])))
+
+# Output: 4321
+```
+- #question Does this only work if the elements are string instances?
+	- #comment It doesn't seem to work if you use `[1,2,3,4]`
+
+#### .isdigit()
+```python
+"123".isdigit()  # True
+"12a".isdigit()  # False
+"".isdigit()     # False
+```
+- Method in Python that checks if all characters in a string are digits and if the string is not empty
+#### .split()
+```python
+my_string = "This is a sample string with multiple words."
+word_list = my_string.split()
+print(word_list)
+
+# Output: ['This', 'is', 'a', 'sample', 'string', 'with', 'multiple', 'words.']
+```
 ### Characteristics
 - Immutable
 ### Concatenation

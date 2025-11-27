@@ -3,9 +3,6 @@ aliases:
   - round()
 ---
 ## Synthesis
-- 
-
-## Original
 ```python
 print(round(2.675, 2)) # 2.67
 print(round(2.675001, 2)) # 2.68

@@ -6,7 +6,6 @@ aliases:
 ### Definition
 - range() is a python function
 - It is of the class `range`
-
 ### Example
 ```python
 
@@ -18,7 +17,7 @@ aliases:
 - #question Is it possible to have 4 arguments for the range function? 
 - #question How is [[underscore (python)|underscore]] used?
 - #question What is the maximum that range can handle in python
-## Original
+### Looping through a List
 ```python
 x = [0, 1, 2, 3]
 

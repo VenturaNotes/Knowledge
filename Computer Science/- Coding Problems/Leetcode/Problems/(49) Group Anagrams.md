@@ -48,8 +48,7 @@ dict_values([['Hi']])
 """
 ```
 - For the last part, need to return `list`. Otherwise, will return the wrong format
-
-## Original
+### My Solution
 ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:

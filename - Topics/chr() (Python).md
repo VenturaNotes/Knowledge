@@ -3,8 +3,6 @@ aliases:
   - chr()
 ---
 ## Synthesis
-- 
-## Original
 - `print(chr(65))` returns `A`
 ## Source [^1]
 - `chr()` converts the ASCII to character.

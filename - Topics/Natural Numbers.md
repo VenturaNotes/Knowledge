@@ -6,14 +6,14 @@ aliases:
   - natural
 ---
 ## Synthesis
-- 
+### Sum of first n Natural Numbers
+- $S_n = \frac{n(n+1)}{2}$
 ## Source [^1]
 ### Definition
 - Denoted $\mathbb{N}$
 ## Source[^2]
 - Closed under multiplication
 - Multiplication over the naturals is a binary operation
-
 ## Source[^3]
 - The natural numbers are the numbers 0, 1, 2, 3, and so on, possibly excluding 0.
 	- Some might refer the natural numbers as the [[nonnegative integers|non-negative integers]]
