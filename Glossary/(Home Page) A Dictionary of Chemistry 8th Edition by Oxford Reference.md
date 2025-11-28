@@ -3254,7 +3254,7 @@ Reviewed: false
 	3228. mineral acid
 	3229. mirabilite
 	3230. misch metal
-	3231. Mitscherlich's law
+	3231. [[Mitscherlich's law]]
 	3232. mixed-valence compound
 	3233. mixture
 	3234. mmHg
@@ -3276,7 +3276,7 @@ Reviewed: false
 	3250. molar volume
 	3251. mole
 	3252. molecular-orbital theory
-	3253. molecular beam
+	3253. [[molecular beam]]
 	3254. molecular biology
 	3255. molecular chaperone
 	3256. molecular crystal
@@ -3594,7 +3594,7 @@ Reviewed: false
 	3568. ortho-
 	3569. orthoboric acid
 	3570. orthoclase
-	3571. orthohelium
+	3571. [[orthohelium]]
 	3572. orthohydrogen
 	3573. orthophosphoric acid
 	3574. orthoplumbate
