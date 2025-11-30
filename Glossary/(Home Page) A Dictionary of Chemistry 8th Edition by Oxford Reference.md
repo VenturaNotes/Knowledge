@@ -3655,7 +3655,7 @@ Reviewed: false
 	3629. packing of spheres
 	3630. PAGE
 	3631. PAH
-	3632. pair distribution function
+	3632. [[pair distribution function]]
 	3633. palladium
 	3634. palmitate
 	3635. palmitic acid
@@ -3678,9 +3678,9 @@ Reviewed: false
 	3652. partially permeable membrane
 	3653. partial pressure
 	3654. particle in a box
-	3655. particulate matter
+	3655. [[particulate matter]]
 	3656. parting agent
-	3657. partition
+	3657. [[partition]]
 	3658. partition coefficient
 	3659. partition function
 	3660. pascal
