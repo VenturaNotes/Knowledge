@@ -3731,7 +3731,7 @@ Reviewed: false
 	3705. period
 	3706. period doubling
 	3707. periodic acid
-	3708. periodic law
+	3708. [[periodic law]]
 	3709. periodic table
 	3710. periplanar
 	3711. Perkin, Sir William Henry (1838-1907)
@@ -3836,7 +3836,7 @@ Reviewed: false
 	3810. phosphoryl chloride
 	3811. photoacoustic spectroscopy
 	3812. photocatalyst
-	3813. photochemical reaction
+	3813. [[photochemical reaction]]
 	3814. photochemical smog
 	3815. photochemistry
 	3816. photochromism
@@ -3848,7 +3848,7 @@ Reviewed: false
 	3822. photoelectron spectroscopy
 	3823. photoemission
 	3824. photography
-	3825. photoionization
+	3825. [[photoionization]]
 	3826. photoluminescence
 	3827. photolysis
 	3828. photon
