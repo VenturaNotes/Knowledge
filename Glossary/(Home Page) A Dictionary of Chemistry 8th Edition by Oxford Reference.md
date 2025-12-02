@@ -3862,7 +3862,7 @@ Reviewed: false
 	3836. phthalic anhydride
 	3837. phthalic ester
 	3838. phthalocyanine
-	3839. physical chemistry
+	3839. [[physical chemistry]]
 	3840. physisorption
 	3841. phytostigmine
 	3842. pi-adduct
@@ -3889,7 +3889,7 @@ Reviewed: false
 	3863. plaster of Paris
 	3864. plasticizer
 	3865. plastics
-	3866. plastocyanin
+	3866. [[plastocyanin]]
 	3867. plastoquinone
 	3868. platinum
 	3869. platinum black
@@ -3944,7 +3944,7 @@ Reviewed: false
 	3918. polyhedral molecule
 	3919. polyhedron
 	3920. polyhydric alcohol
-	3921. polymerase
+	3921. [[polymerase]]
 	3922. polymerase chain reaction
 	3923. polymerization
 	3924. Polymers
