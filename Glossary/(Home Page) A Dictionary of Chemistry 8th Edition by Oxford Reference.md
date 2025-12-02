@@ -3951,9 +3951,9 @@ Reviewed: false
 	3925. polymethanal
 	3926. polymethylmethacrylate
 	3927. polymorphism
-	3928. polynuclear transition metal complex
+	3928. [[polynuclear transition metal complex]]
 	3929. polyol
-	3930. polypeptide
+	3930. [[polypeptide]]
 	3931. polypropene
 	3932. polypropylene
 	3933. polyprotic acid
@@ -3972,7 +3972,7 @@ Reviewed: false
 	3946. polyyne
 	3947. POP
 	3948. population inversion
-	3949. porphyrin
+	3949. [[porphyrin]]
 	3950. positronium
 	3951. potash
 	3952. potash alum

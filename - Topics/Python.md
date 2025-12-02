@@ -1,4 +1,8 @@
 ## Synthesis
+- One of the reasons that `python2` is not compatible with `python3` is because
+	- `print` became a function, not a statement
+		- In Python2: `print "Hello"`
+		- In Python3: `print("Hello")`
 - #question What are generics? 
 - #question what does the === sign do in python? 
 
