@@ -29,6 +29,14 @@ cherry
 for i in range(0, 10, 2):
     print(i)
 ```
+### Limit / Start
+```python
+test = ["hello", "world"]
+
+for i in test[1:]:
+    print(i)
+```
+- Skips first index here
 
 ## Source [^1]
 ```python

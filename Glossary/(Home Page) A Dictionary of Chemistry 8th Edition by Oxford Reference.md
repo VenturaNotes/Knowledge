@@ -4008,16 +4008,16 @@ Reviewed: false
 	3982. potassium superoxide
 	3983. potential-energy curve
 	3984. potential-energy surface
-	3985. potential barrier
+	3985. [[potential barrier]]
 	3986. potential energy
 	3987. potentiometric titration
 	3988. Pourbaix diagram
 	3989. powder metallurgy
 	3990. praseodymium
-	3991. precessional motion
+	3991. [[precessional motion]]
 	3992. precipitate
 	3993. precipitation
-	3994. precursor
+	3994. [[precursor]]
 	3995. pressure
 	3996. pressure gauge
 	3997. presumptive test

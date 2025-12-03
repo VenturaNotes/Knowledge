@@ -49,6 +49,7 @@ defaultdict(<class 'list'>, {'a': [4]})
 - To print the dictionary content, just convert it to `dict`
 	- `print(dict(res)) # Output: {'a' : [4]}`
 ### Advantage of defaultdict over regular dictionary
+- #question What does `strs` represent?
 - Using `dict`
 ```python
 res = {} # Regular dictionary
@@ -60,6 +61,7 @@ for s in strs:
 ```
 - Using `defaultdict(list)`
 ```python
+from collections import defaultdict
 res = defaultdict(list)
 for s in strs:
     sortedS = ''.join(sorted(s))

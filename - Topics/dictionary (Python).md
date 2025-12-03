@@ -203,7 +203,13 @@ graduation_year: 2024
 	- `default_value`: Optional value to return if key not in dictionary. Otherwise, returns `None` by default
 ### Common Subclasses
 - `collections.defaultdict`: Adds automatic default codes
-	- #question For a subclass within `dict`, why do you need to go to collections?
+	- #question For a subclass with## Synthesis
+- 
+## Source [^1]
+- 
+## References
+
+[^1]: in `dict`, why do you need to go to collections?
 	- #question Is collections considered a module? A library? 
 - `collections.OrderedDict`: Keeps items in insertion order (before Python 3.7 made this default for `dict`)
 	- #question Is this subclass still used?
@@ -247,6 +253,16 @@ print('Copied Marks:', copied_marks)
 ### Dictionary popitem()
 ### Dictionary setdefault()
 ### Dictionary pop()
+```python
+# Given
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.pop("model") # Removes "model" key/value pair
+```
 ### Dictionary values()
 ### Dictionary update()
 
