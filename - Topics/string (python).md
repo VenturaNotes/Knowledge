@@ -16,6 +16,16 @@ print(test)
 ```
 ### Methods
 
+#### String to List
+```python
+
+```
+#### .replace()
+```python
+x = "Hello World"
+x.replace('H','J')
+print(x) # Jello World
+```
 #### .count()
 - This can count the number of occurrences for a character in a string
 ```python
@@ -57,7 +67,6 @@ print("".join(reversed(['1','2','3','4'])))
 ```
 - #question Does this only work if the elements are string instances?
 	- #comment It doesn't seem to work if you use `[1,2,3,4]`
-
 #### .isdigit()
 ```python
 "123".isdigit()  # True
@@ -66,6 +75,7 @@ print("".join(reversed(['1','2','3','4'])))
 ```
 - Method in Python that checks if all characters in a string are digits and if the string is not empty
 #### .split()
+- Seems to turn a string into a list my removing whitespaces
 ```python
 my_string = "This is a sample string with multiple words."
 word_list = my_string.split()

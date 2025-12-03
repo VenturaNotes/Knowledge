@@ -1994,3 +1994,5 @@ Reviewed: false
 	- [[(3498) Reverse Degree of a String]]
 	- [[(3467) Transform Array by Parity]]
 	- [[(3065) Minimum Operations to Exceed Threshold Value I]]
+	- [[(3206) Alternating Groups I]]
+	- [[(3101) Count Alternating Subarrays]]

@@ -18,6 +18,13 @@ aliases:
 	- #question What does the context for this look like? 
 - Initialize an empty list
 	- `my_list = []`
+
+### Convert List to String
+```python
+my_list = ["apple", "banana", "cherry"]
+my_string = ", ".join(my_list)
+print(my_string)
+```
 ### Stack
 - Lists have $O(1)$ `append()` and `pop()` which makes them perfect stacks
 ```python
@@ -121,6 +128,14 @@ print(nums) # Keep in mind it modifed the nums
 	- Similar to doing multiple `.append()` calls at once
 - Another way to add two elements together is `[1, 2, 3] + [4, 5, 6]`
 	- Results in `[1, 2, 3, 4, 5, 6]`
+### Append
+```python
+test = ["hello"]
+res = []
+res.append(test)
+```
+- Append stores a reference, not a value. It stores a pointer to the exact same list object . So if `test` were to change, so would the value in `res`.
+	- To overcome this, do `res.append(test.copy())`
 ### Append / Add Elements to list
 ```python
 #Add element to end of list
