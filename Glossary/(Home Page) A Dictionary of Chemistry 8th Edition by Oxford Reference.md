@@ -4020,7 +4020,7 @@ Reviewed: false
 	3994. [[precursor]]
 	3995. pressure
 	3996. pressure gauge
-	3997. presumptive test
+	3997. [[presumptive test]]
 	3998. Priestley, Joseph (1733-1804)
 	3999. primary alcohol
 	4000. primary amine
@@ -4105,7 +4105,7 @@ Reviewed: false
 	4079. pyrolusite
 	4080. pyrolysis
 	4081. pyrometric cones
-	4082. pyrometry
+	4082. [[pyrometry]]
 	4083. pyrones
 	4084. pyrophoric
 	4085. pyrophosphoric acid
@@ -4138,7 +4138,7 @@ Reviewed: false
 	4112. quantum jump
 	4113. quantum mechanics
 	4114. quantum number
-	4115. quantum simulation
+	4115. [[quantum simulation]]
 	4116. quantum state
 	4117. quantum statistics
 	4118. quantum theory
