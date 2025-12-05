@@ -4162,7 +4162,7 @@ Reviewed: false
 	4136. racemic mixture
 	4137. racemization
 	4138. rad
-	4139. radial distribution function
+	4139. [[radial distribution function]]
 	4140. radiation
 	4141. radiationless decay
 	4142. radiation units
@@ -4177,7 +4177,7 @@ Reviewed: false
 	4151. radioactive tracing
 	4152. radioactivity
 	4153. radiocarbon dating
-	4154. radiochemistry
+	4154. [[radiochemistry]]
 	4155. radiogenic
 	4156. radioimmunoassay
 	4157. radioisotope
@@ -4219,7 +4219,7 @@ Reviewed: false
 	4193. reaction dynamics
 	4194. reactive dye
 	4195. reactive intermediate
-	4196. reagent
+	4196. [[reagent]]
 	4197. realgar
 	4198. real gas
 	4199. rearrangement

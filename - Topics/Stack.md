@@ -3,7 +3,17 @@ aliases:
   - stacks
 ---
 ## Synthesis
-
+- There are many different kinds of stacks
+	- Data-structure & Algorithm Stacks
+		- Ordinary LIFO stacks used in algorithms
+		- Expression stacks
+			- #question Are expression stacks also LIFO?
+			- Used for
+				- evaluating arithmetic expressions
+				- Converting [[infix]] $\leftrightarrow$ postfix
+					- #question What is infix or postfix?
+			- #question Are "expression stacks" actually a term?
+			- #question What are some examples of this?
 ### Python
 - A pythonic stack is using a list
 - Use collections.deque to create a stack
