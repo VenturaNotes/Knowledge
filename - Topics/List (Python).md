@@ -93,7 +93,6 @@ test.reverse() #test is now [5, 4, 3, 2, 1]
 fruits = ["apple", "banana", "cherry"]
 fruits.remove("banana")
 ```
-
 #### Pop Method
 - Lets you remove a specific index from the list
 - The pop method removes an element from the list
@@ -120,8 +119,7 @@ print(my_list) # Output: ['a', 'c', 'd']
 ```python
 nums = [1, 2, 3]
 nums.extend([4, 5, 6])
-print(nums) # Keep in mind it modifed the nums
-
+print(nums) # Keep in mind it modifed the nums and returns None
 # Output; [1, 2, 3, 4, 5, 6]
 ```
 - `list.extend(iterable)` adds all elements from another iterable (like list, tuple, or string) to the end of the current list

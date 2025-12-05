@@ -2,9 +2,32 @@
 Source:
   - https://leetcode.com/problems/evaluate-reverse-polish-notation/
 Reviewed: false
+Approaches: "1"
 ---
 ## Synthesis
-- 
+### My Solution
+```python
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        stack = []
+
+        for i in tokens:
+            if i.isdigit() or (i.startswith('-') and i[1:].isdigit()):
+                stack.append(i)
+            else:
+                temp = eval(str(stack[-2]) + i + str(stack[-1]))
+                stack.pop()
+                stack.pop()
+                stack.append(int(temp))
+        return int(stack.pop())
+
+
+"""
+Use a stack
+Can check if its a number by doing .isdigit()
+Verify negative number is a digit
+"""
+```
 ## Source [^1]
 - ![[Screenshot 2024-10-18 at 12.12.30 PM.png]]
 - Will add, subtract, multiply, and divide
