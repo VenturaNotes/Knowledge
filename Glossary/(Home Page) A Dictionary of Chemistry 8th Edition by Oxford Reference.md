@@ -4223,12 +4223,12 @@ Reviewed: false
 	4197. realgar
 	4198. real gas
 	4199. rearrangement
-	4200. receptor molecule
+	4200. [[receptor molecule]]
 	4201. reciprocal lattice
 	4202. reciprocal proportions
 	4203. recombination process
 	4204. recreational drug
-	4205. recrystallization
+	4205. [[recrystallization]]
 	4206. rectification
 	4207. rectified spirit
 	4208. Redfield ratio
@@ -4240,7 +4240,7 @@ Reviewed: false
 	4214. reduction
 	4215. refinery gas
 	4216. refining
-	4217. refluxing
+	4217. [[refluxing]]
 	4218. reforming
 	4219. refractory
 	4220. regioselectivity
