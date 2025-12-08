@@ -27,3 +27,6 @@ views:
       slotMaxTime: 22:00:00
       slotDuration: 00:30:00
     calendarView: dayGridMonth
+    showGoogleCalendar_d8ae29b9c50f1cc728605f0fa8855e96730833249a9e3275708c040abee7dae9@group.calendar.google.com: false
+    showGoogleCalendar_venturanotes@gmail.com: false
+    showTimeEntries: false

@@ -6,9 +6,8 @@ aliases:
 - Primary goal of ABM is to target specific business accounts with personalized marketing.
 	- #question What does personalized marketing look like?
 	- #question What is an example of a business account
-- ABM is most commonly used in Business-to-Business (B2B) marketing
+- ABM is most commonly used in [[business-to-business marketing|Business-to-Business (B2B) marketing]]
 	- #question Is this true?
-	- #question What is B2B marketing?
 - Sales and marketing teams work together by collaborating to create personalized campaigns for specific accounts
 	- #question What exactly is an account in this case?
 	- #question What kind of campaigns are there?
