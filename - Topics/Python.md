@@ -37,7 +37,7 @@ C = [0] * 5  # [0, 0, 0, 0, 0]
 ### Description
 - Python doesn't have a strict concept of [[constants]]
 	- Conventionally, constants represented using uppercase names to indicate their values should not change
-
+- Python is an object-oriented programming language
 ### Initialization
 - Refers to the process of assigning an initial value to a variable or setting up an object with default values.
 #### Initializing Variables

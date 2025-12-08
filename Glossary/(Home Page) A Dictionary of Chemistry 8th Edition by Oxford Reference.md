@@ -4336,7 +4336,7 @@ Reviewed: false
 	4310. rutile
 	4311. rutile structure
 	4312. Ruybal test
-	4313. Rydberg atom
+	4313. [[Rydberg atom]]
 	4314. Rydberg constant
 	4315. Rydberg spectrum
 	4316. s-block elements
@@ -4369,7 +4369,7 @@ Reviewed: false
 	4343. Sanger's reagent
 	4344. Sanger, Frederick (1918-2013)
 	4345. saponification
-	4346. saponin
+	4346. [[saponin]]
 	4347. sapphire
 	4348. sarin
 	4349. saturable laser
@@ -4409,7 +4409,7 @@ Reviewed: false
 	4383. sedimentation
 	4384. seed
 	4385. Seger cones
-	4386. selection rules
+	4386. [[selection rules]]
 	4387. selenides
 	4388. selenium
 	4389. selenium cell

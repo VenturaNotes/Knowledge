@@ -40,7 +40,6 @@ with open('example.txt', 'r') as file:
 
 ### Custom Context Manager
 - Can create a custom context manager by defining a class with `__enter__()` and `__exit__()` methods or by using the [[contextlib (python)]] module
-	- #question what is the contextlib module?
 ```python
 class MyContextManager:
     def __enter__(self):

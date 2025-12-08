@@ -1233,6 +1233,12 @@ ALTER TABLE Employees
 ALTER COLUMN BirthDate year;
 ```
 - Changes data type of column named "BirthDate" in the "Employees" table to type year
+	- #comment 
+		- The YEAR data type in SQL typically stores a year value in a 4-digit format. For example, `1999` or `2023`.
+			- #question Why is `YEAR` capitalized here? Does it matter if it's `year` or `YEAR`?
+		- This data type is commonly found in database systems like MySQL, where it can store year values in a range, often from `1901` to `2155` or `0000` representing a 0 year. When used, it explicitly indicates that the column is intended to store only the year component of a date.
+			- #question What is meant by a 0 year?
+			- #question Is the range set to `1901` to `2155` by default or did someone manually program that in?
 	- #question What does type `year` look like?
 #### AND
 - [[AND (SQL)|AND]] used with WHERE to only include rows where both conditions true

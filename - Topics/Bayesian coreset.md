@@ -18,6 +18,7 @@
 	- #comment Is the dataset saying that we have N points worth of data which each of two components, $(x,y)$? So each one would fit on a coordinate plane?
 - Suppose you have a dataset $D={(xi,yi)}i=1N\mathcal{D} = \{(x_i, y_i)\}_{i=1}^ND={(xi​,yi​)}i=1N​,$
 - $\mathcal{N}$ 
+	- #question I think this symbol wasn't finished. What is it supposed to say?
 ### Second Description
 - It is a small, weighted subset of a larger dataset. Instead of performing [[inference]] (such as [[MCMC sampling]]) on the full dataset which may be computationally expensive, you perform inference on this smaller [[coreset]]. 
 ## Source[^1]

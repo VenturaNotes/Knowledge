@@ -3,7 +3,7 @@ aliases:
   - SMM
 ---
 ## Synthesis
-- 
+- Using social media platforms to connect with audiences, build brands, increase sales, and drive website traffic.
 ## Source [^1]
 - Social media marketing (SMM) leverages social media platforms to market to a network of more than 3.5 billion users. This process includes creating tailored content for specific platforms to drive engagement and business growth. SMM can include both free and paid messaging to reach a wider audience.
 ## References

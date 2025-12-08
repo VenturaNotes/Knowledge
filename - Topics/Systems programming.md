@@ -1,9 +1,4 @@
 ## Synthesis
-- 
-## Source [^1]
-- Provides foundation for world's computation
-
-## Source[^2]
 - Systems programming involves writing software that interacts closely with the hardware and operating systems. Includes developing
 	- [[Operating systems]]
 		- The software that manages the hardware and provides services for application software. Examples include Windows, Linux, and macOS.
@@ -133,6 +128,11 @@ pub extern "C" fn _start() -> ! {
 - (4) Unsafe code. Rust allows `unsafe` blocks, where you can perform operations that the compiler cannot guarantee to be safe, such as [[pointer dereferencing]]. This is crucial in systems programming where direct hardware access is needed.
 	- #question Could you give a simpler example of unsafe blocks? I don't want a vivid description. More to the point would be useful for me
 - (5) Panic handler: The `#[panic_handler]` attribute defines what should happen if the code panics. In this simple example, the kernel just enters an infinite loop
+	- In the provided Rust kernel example, when the `panic` handler is invoked, the kernel enters an infinite loop (`loop {}`). This loop does not perform any active computation or interaction. Its purpose is to halt the program's execution indefinitely at the point of the panic. This is a common, minimalist strategy in low-level or embedded systems where there isn't an operating system to handle errors or a complex recovery mechanism. It prevents the system from proceeding in an undefined or potentially unsafe state after an unrecoverable error.
+		- #question When would a function be called on panic?
+		- #question What does a low-level or embedded system look like? 
+			- #question How do low-level or embedded systems operate without an operating system? 
+		- #question What is meant by a potentially unsafe state and what does an unrecoverable error look like? 
 	- #question The kernel enters an infinite loop doing what?
 	- #question What makes this code a kernel?
 	- #question What is a [[panic_handler (rust)|panic_handler]]?
@@ -190,7 +190,6 @@ pub extern "C" fn _start() -> ! {
 	- #question how many parts are there to a microcontroller?
 	- #question How could you make a microcontroller and why does it work?
 	- #question how would the LED be connected? Do you need wires for this? What kind of wires are best?
-
 #### Blinking an LED on GPIO Pin Code
 ```Rust
 #![no_std]
@@ -262,12 +261,11 @@ fn main() -> ! {
 - Rust's strong typing and safety guarantees help make it robust even in low-level systems programming
 	- #question How is rust strong typing, give some examples
 	- #question Show how Rust is safer than other languages and make a comparison
-
-## Source[^3]
+## Source [^1]
+- Provides foundation for world's computation
+## Source[^2]
 - Work carried out by systems programmers, i.e. the production of systems software.
-
 ## References
 
 [^1]:[[(Home Page) Programming Rust 2nd Edition by O'Reilly#Intro]]
-[^2]: ChatGPT
-[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
