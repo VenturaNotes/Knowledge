@@ -1,5 +1,10 @@
+---
+aliases:
+---
 ## Synthesis
-- 
+- A term used in digital electronics and computer architecture
+- A fundamental building block of sequential logic circuits, capable of storing one [[bit]] of binary data. In SRAM, each bit is typically stored in a flip-flop, which maintains its state (0 or 1) as long as power is supplied, without requiring periodic refreshing
+	- #question What would periodic refreshing look like? This would occur in D-ram, right? 
 ## Source [^1]
 - (bistable) An electronic circuit element that is capable of exhibiting either of two stable states and of switching between these states in a reproducible manner. When used in logic circuits the two states are made to correspond to logic 1 and logic 0 . Flipflops are therefore one-bit memory elements and are frequently used in digital circuits.
 

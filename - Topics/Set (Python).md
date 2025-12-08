@@ -108,7 +108,6 @@ print(my_set)  # Output: {0, 2, 4, 6, 8}
 ```python
 my_set = set()
 ```
-
 #### Use 'dict.fromkeys()'
 - Can create a dictionary and convert its keys to a set
 ```python
@@ -117,7 +116,6 @@ my_set = set(dict.fromkeys([1, 2, 3]))
 print(my_set)  # Output: {1, 2, 3}
 ```
 #question Why would this be considered important?
-
 #### Unpacking
 - Could use [[unpacking (python)|unpacking]]. Unpack elements from an iterable directly into a set
 ```python
@@ -134,8 +132,14 @@ print(my_set)  # Output: {1, 2, 3}
 #question I don't understand what the `*` is doing. It seems confusing
 #question I want to understand how unpacking actually works
 #question Modify the code as well.
-### Using the get Method
-#question How would I use the get method?
+
+### Check for Presence of an Element
+- There is no get method for sets
+```python
+my_set = {"apple", "banana", "cherry"}
+if "apple" in my_set:
+  print("Apple is in the set.")
+```
 ## Source [^1]
 ```python
 #Check if an element is present in set

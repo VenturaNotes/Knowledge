@@ -4,7 +4,6 @@ aliases:
 ---
 ## Synthesis
 - #question How does `__new__()` or `__init__()` behave in inheritance?
-## Source [^1]
 - `__init__()` is used to initialize the object's attributes
 	- #question What is the difference between initialize and instantiate? Why is it init?
 - `__init__()` is automatically called when an object is instantiated?
@@ -82,8 +81,7 @@ class MyClass:
 	- #question Can constructors only be made in classes for python? 
 - Summary
 	- `__init__` is a special method used to initialize which is automatically run inside a class
-
-## Source [^2]
+## Source [^1]
 - All classes have a function called `__init__()`, which is always executed when the class is being initiated.
 	- #question Isn't the class instantiated, not initiated?
 - Use `__init__()` function to assign values tdo object properties or other operations necessary to do when the object is being created
@@ -102,7 +100,33 @@ print(p1.name) #John
 print(p1.age) #36
 ```
 - The `__init__` function is used to assign values for `name` and `age`
-- #question Is it possible to specify a type of data you want entered for the class? For example, you might want `name` to be a string and `age` to be a number. If this is possible and you specify the type of data you want, does the program execute faster?  
+
+#### #comment Example of Creating Class with Type Hints
+```python
+class Person:
+    def __init__(self, name: str, age: int):
+        self.name = name
+        self.age = age
+
+p1 = Person("John", 36)
+# p2 = Person("Jane", "thirty") # A type checker would flag this as an error
+```
+- #question How would the type checker flag it as an error, would I need to build it myself? 
+- This specifies the expected type of data for parameters in a Python class's `__init__()` method using `type hints`
+	- #question Why is `self` needed here? What happens if you don't use self? 
+	- #question What kind of data type is `self`? 
+- In this example
+	- `name: str` indicates that the `name` parameter is expected to be a string
+	- `age`: int indicates that the age parameter is expected to be an integer.
+- Specifying type hints in Python does not make the program execute faster. Python is a [[dynamically typed]] language, meaning type checking primarily occurs at runtime. Type hints are purely **metadata** that are ignored by the Python interpreter during execution
+	- #question Are "type hints" an official term?
+- Primary purpose of type hints:
+	1. Static Analysis: Tools like MyPy can use type hints to perform static type checking, helping to catch potential type-related errors before runtime.
+		- #question Is `MyPy` a module and what does it do? 
+		- #question What is static type checking? Are there different types of type checking? 
+	2. Documentation: They improve code readability and serve as clear documentation for developers, indicating the expected types of arguments and return values.
+	3. IDE Support: Integrated Development Environments (IDEs) can leverage type hints to provide better autocompletion, refactoring, and error detection.
+		- #question How do IDEs do autocompletion? 
 
 ### init is not necessary in Python Classes
 - `__init__` is not required to define a class in Python. It's optional
@@ -145,5 +169,4 @@ print(p.name)  # Alice
 #question is self.name = name required to initialize the instance variable? Isn't `self.name = name` instantiating it? What is in an instance in python? What is an instance variable?
 ## References
 
-[^1]: ChatGPT
-[^2]: https://www.w3schools.com/python/gloss_python_class_init.asp
+[^1]: https://www.w3schools.com/python/gloss_python_class_init.asp

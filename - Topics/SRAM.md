@@ -46,7 +46,6 @@ aliases:
 - #comment By contrast, SRAM stores each bit using flip-flops (stable logic circuits made of transistors) that don’t lose their state as long as power is on
 	- No refresh needed and it's always accessible
 	- #question Aren't logic circuits always stable?
-	- #question Are "flip-flops" a proper term?
 ## References
 
 [^1]: https://itexamanswers.net/question/what-is-the-fastest-type-of-memory-technology

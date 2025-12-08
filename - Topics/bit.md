@@ -5,6 +5,7 @@ aliases:
   - binary digits
 ---
 ## Synthesis
+- Smallest unit of data that a computer can process and store 
 ### Description
 - A value of 0 or 1
 ## Source [^1]

@@ -9,7 +9,6 @@ aliases:
 	- Data integrity
 	- Thread Safety
 		- Eliminating certain types of concurrency bugs
-			- 
 			- #question What are concurrency bugs?
 	- Predictability
 - (2) Hashable as long as the elements are hashable
@@ -23,11 +22,22 @@ aliases:
 - Duplicates are allowed and position-specific
 	- #question Are duplicates only allowed because it's indexed? 
 - Can represent tuples in python as `tuple`
-	- #question I would like an example of this
 - Use case: Fixed-length, ordered data
 	- #question What is meant by this? Example please
 - Functionally
 	- Similar to a precise recipe: the exact order and number of ingredients matter
+
+### Examples
+```python
+# Creating tuple with multiple elements
+my_tuple = ("apple", 67, "cherry")
+print(my_tuple)
+# Output: ('apple', 67, 'cherry')
+
+# Creating tuple with single element
+single_item_tuple = ("apple",)
+```
+- Enclosing a sequence of items (different data types possible) in round brackets
 ## Source [^1]
 - Characteristics
 	- Ordered
