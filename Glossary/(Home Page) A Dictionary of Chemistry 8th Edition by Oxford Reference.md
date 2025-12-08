@@ -4263,13 +4263,13 @@ Reviewed: false
 	4237. resolution
 	4238. resonance
 	4239. resonance effect
-	4240. resonance ionization spectroscopy
+	4240. [[resonance ionization spectroscopy]]
 	4241. resorcinol
-	4242. reticular chemistry
+	4242. [[reticular chemistry]]
 	4243. retinol
 	4244. retort
 	4245. retrosynthetic analysis
-	4246. reverberatory furnace
+	4246. [[reverberatory furnace]]
 	4247. reverse osmosis
 	4248. reversible process
 	4249. RFvalue((in chromatography))
@@ -4316,7 +4316,7 @@ Reviewed: false
 	4290. rosin
 	4291. rotamer
 	4292. rotational spectroscopy
-	4293. rotation group
+	4293. [[rotation group]]
 	4294. rotaxane
 	4295. rovibronic interactions
 	4296. RRKM theory

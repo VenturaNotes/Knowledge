@@ -9,6 +9,9 @@
 - Scroll-to-change is a UI quirk of the number field for properties, so it's better to keep it as a text field to prevent accidental changes and simply using the `number()` function to transform the string to a number in comparisons
 ### String to Text Conversion
 - number(`text property`) works
+### Tag Properties
+- Obsidian maintains a built-in "Metadata Cache" that indexes all your tags, links, and headers in the background. 
+	- #question Does "Another Quick Switcher" us this metadata cache or does it run an index on its own? 
 ## Source [^1]
 ### Functions
 
