@@ -4412,11 +4412,12 @@ Reviewed: false
 	4386. [[selection rules]]
 	4387. selenides
 	4388. selenium
-	4389. selenium cell
+	4389. [[selenium cell]]
 	4390. self-assembly
+		1. See Self-Organization
 	4391. self-consistent field
 	4392. self-organization
-	4393. Seliwanoff's test
+	4393. [[Seliwanoff's test]]
 	4394. semi-empirical calculations
 	4395. semicarbazones
 	4396. semiclassical approximation
@@ -4439,7 +4440,7 @@ Reviewed: false
 	4413. shell
 	4414. shellac
 	4415. sherardizing
-	4416. shock wave
+	4416. [[shock wave]]
 	4417. short period
 	4418. sial
 	4419. side chain
