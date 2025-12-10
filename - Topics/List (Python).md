@@ -128,12 +128,26 @@ print(nums) # Keep in mind it modifed the nums and returns None
 	- Results in `[1, 2, 3, 4, 5, 6]`
 ### Append
 ```python
-test = ["hello"]
+test = ["hello", "hello"]
+
 res = []
-res.append(test)
+res2 = []
+
+res.append(test) # res = [['hello', 'hello']]
+res2.extend(test) # res = ['hello', 'hello']
+
 ```
 - Append stores a reference, not a value. It stores a pointer to the exact same list object . So if `test` were to change, so would the value in `res`.
 	- To overcome this, do `res.append(test.copy())`
+- #question Is this actually true? I just tried the above and got this
+```python
+test = ["hello"]
+res = []
+res.append(test)
+print(res) # [['hello']]
+test = ["goodbye"]
+print(res) # [['hello']]
+```
 ### Append / Add Elements to list
 ```python
 #Add element to end of list

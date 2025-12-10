@@ -1,14 +1,14 @@
 ## Synthesis
 - A non-comparison-based sorting algorithm that works by counting the number of occurrences of each distinct element in the input array.
 	- Then these counts are used to determine the positions of each element in the sorted output array.
-
+- #question Can you use negative numbers in counting sort?
 ### When to use it
 - #question What is a better title that I could give this? 
 - Works best when the range of numbers (min to max) is not too large. 
 	- #question When is the range considered large? 
 - You're sorting integers (not floats or strings)
 	- #question So this means it can handle negative numbers? 
-
+	- #question Why is it unable to handle floats? 
 ### Example
 - We want to sort this list
 	- `arr = [4, 2, 2, 8, 3, 3, 1]`
@@ -20,14 +20,14 @@ def counting_sort(arr):
     
     range_of_elements = max_val - min_val + 1
 
-    # 2. Initialize count array
+    # 2. Initialize count array (indexed values)
     count = [0] * range_of_elements
 
-    # 3. Count each element
+    # 3. Count each element (sorting the values)
     for num in arr:
         count[num - min_val] += 1
 
-    # 4. Rebuild the sorted array
+    # 4. Rebuild the sorted array (including multiple occurrences)
     sorted_arr = []
     for i in range(range_of_elements):
         sorted_arr.extend([i + min_val] * count[i])
@@ -38,42 +38,26 @@ def counting_sort(arr):
 arr = [4, 2, 2, 8, 3, 3, 1]
 print("Original:", arr)
 print("Sorted:", counting_sort(arr))
-
 ```
-- #question Why are we adding +1 to the range of elements?
-	- So lets say maximum value is 5 and minimum value is 2. Then 5-2 = 3 as a range of numbers. Then we add 1 to get 4. Why? 
-	- #question Is it so the count of elements is correct?
-- #question What exactly does min(arr) and max(arr) do?
-	- I think it just finds the maximum and minimum value within an array.
-		- #question What data types does it work on? Lists? Is List or hashmaps data types or is there some other name for them? 
+
 ```Output
 Original: [4, 2, 2, 8, 3, 3, 1]
 Sorted: [1, 2, 2, 3, 3, 4, 8]
 ```
-- #question Is `output` a language like Python or C++? 
-#### Dry Run
-- arr = `[4, 2, 2, 8, 3, 3, 1]` and it's 0-indexed based
-- (1) Initial Values
-	- max_val = 8
-	- min_val = 1
-	- range_of_elements = 8 - 1 +1 = 8
-- (2) Count Array
-	- count= `[0, 0, 0, 0, 0, 0, 0, 0]`
-- (3) Counting each element
-	- So we have arr = `[4, 2, 2, 8, 3, 3, 1]`
-		- `count[4 - 1]` += 1
-			- So 3rd index increases by one and so on
-	- In end,  `count = [1, 2, 2, 1, 0, 0, 0, 1]`
-- (4) Rebuilding sorted array
-	- `sorted_arr = []`
-	- Looping 0 - 8 (noninclusive), so 0 to 7 which makes sense
-	- `sorted_arr.extend([0+3] * 1) = `
-		- #question Could append just work for this problem?
-
-### How It Works
-- Problem Statement: We want to sort an array `arr` of `N` non-negative integers, where al
-	- #question Would it be possible to work with negative integers?
-- (1) 
+- `Output` here is just a label to indicate result or console output and isn't a keyword here
+#### Explanation
+- (1) First we find the range of numbers (minimum and maximum). We do `+1` because we plan to insert the number in the `count` array, but in the form of an index relative to the offset of `min_val`. So for example when we insert `8` into `count`, `8-1 = 7`, based on a 0-indexed array, we'd need 8 spots for room to insert `7`. 
+	- `max_val = 8`
+	- `min_val = 1`
+	- `range_of_elements = 8-1+1 = 8`
+- (2) So now we initialize the `count` array which gives `[0, 0, 0, 0, 0, 0, 0, 0]`
+- (3) Now we find the difference between each element in `arr` and `min_val`, and count their occurrences within `count`. By default, they'll be sorted
+- (4) To rebuild the array, we need to reverse the difference of `num - min_val` back to `i + min_val` and then multiply by the number of occurrences within `count[i]`. So for example, the built `count` is `count = [1, 2, 2, 1, 0, 0, 0, 1]`
+	- `arr[0] = 4` which is placed in `count[4-1] = count[3]` and `count[3]+=1` gives `count[3] = 1` as shown above. This was done for each of the elements
+	- Now reversing
+		- `[i + min_val] * count[i]` gives `[0 + 1] * count[0] = [1]*1 = [1]`
+			- `[1+1] * count[1] = [2] * 2 = [2,2]`
+		- So the first few elements are `[1, 2, 2, ...]` until we return back the sorted list
 ## Source [^1]
 - 
 	- In video example, we try to sort an array in ascending order. 
