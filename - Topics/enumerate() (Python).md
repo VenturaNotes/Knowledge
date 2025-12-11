@@ -3,6 +3,8 @@ aliases:
   - enumerate()
 ---
 ## Synthesis
+- Adds a counter to an [[iterable (python)|iterable]] such as a list and returns it as an [[enumerated object (python)|enumerated object]].
+	- #question what is meant by enumerated object?
 ### Description
 - Iterates over an iterable (such as list, tuple, string) while keeping track of index of current item.
 ### Example
@@ -28,11 +30,8 @@ A = [1, 2, 3]
 print(type(enumerate(A)))
 ```
 - Outputs an enumerated class
-## Source [^1]
-- Adds a counter to an [[iterable (python)|iterable]] such as a list and returns it as an [[enumerated object (python)|enumerated object]].
-	- #question what is meant by enumerated object?
 
-## Source[^2]
+## Source[^1]
 ```python
 a = ["Geeks", "for", "Geeks"]
 
@@ -46,5 +45,4 @@ print(list(enumerate(a)))
 - `i` is the index and `name` is the element
 ## References
 
-[^1]: ChatGPT
-[^2]: https://www.geeksforgeeks.org/enumerate-in-python/
+[^1]: https://www.geeksforgeeks.org/enumerate-in-python/

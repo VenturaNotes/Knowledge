@@ -21,3 +21,4 @@ views:
     options:
       columnWidth: 280
       hideEmptyColumns: false
+    columnOrder: '{"note.Status":["backlog","open","maintenance","null","scheduled","done","canceled"]}'

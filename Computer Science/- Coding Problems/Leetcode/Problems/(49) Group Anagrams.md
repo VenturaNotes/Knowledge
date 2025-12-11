@@ -31,7 +31,7 @@ class Solution:
 - Example: `["eat","tea","tan","ate","nat","bat"]`
 	- When doing `for s in strs`, `s = "eat"`
 	- `for c in s` will find the difference between the ordinal of `c` and the ordinal of "a" which will range between 0 ("a") and 25 ("z").
-	- The `tuple(count)` is used to create an immutable version of the list `count` so it can be used as a `key` in the dictionary `res`[^1]
+	- The `tuple(count)` is used to create an immutable version of the list `count` so it can be used as a `key` in the dictionary `res`
 ```python
 from collections import defaultdict
 
@@ -65,7 +65,7 @@ class Solution:
 ```
 - I sort each string in alphabetical order within `strs` and add them to `my_sorted_list`. Then I have a dictionary where my `key` will represent that anagram in alphabetical order and store the original anagram strings (from `strs`) as the values. Then return the values in the end.
 	- Side note: I needed to convert the `my_sorted_list[i]` to a tuple because a key value must be immutable (in which a list is not)
-## Source [^2]
+## Source [^1]
 - [[anagram]]
 - Method 1
 	- Take each string and sort them. Time complexity would be $O(m*nlogn)$ 
@@ -117,7 +117,7 @@ class Solution:
 - [[Tuple (Python)|Tuple]]
 - [[ord() (python)|ord()]]
 
-## Source[^3]
+## Source[^2]
 - Group anagrams together in sublists
 ### (1) Sorting
 #comment Comments made my ChatGPT and I 
@@ -165,6 +165,5 @@ Where $m$ is the number of strings and $n$ is the length of the longest string
 
 ## References
 
-[^1]: ChatGPT
-[^2]: https://www.youtube.com/watch?v=vzdNOK2oB2E
-[^3]: https://neetcode.io/solutions/group-anagrams
+[^1]: https://www.youtube.com/watch?v=vzdNOK2oB2E
+[^2]: https://neetcode.io/solutions/group-anagrams

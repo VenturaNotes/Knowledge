@@ -176,7 +176,7 @@ class Solution:
 - Time Complexity: $O(n)$
 - Space Complexity: $O(n)$
 - #comment Explanation
-	- The set data structure is implemented as a hash table[^3]
+	- The set data structure is implemented as a hash table
 		- Checking membership in a [[set]] is considered O(1) on average
 		- If there are many [[hash collisions]], lookup time can degrade to O(n) but Python has mechanisms such as [[chaining]] or [[open addressing]] 
 
@@ -190,9 +190,7 @@ class Solution:
 - Space Complexity: $O(n)$
 - #comment Explanation
 	- If the length of the set of the `nums` array is less, that means there was a duplicate in the `nums` array. This is because a set only contains unique elements
-
 ## References
 
 [^1]: https://www.youtube.com/watch?v=3OamzN90kPg
 [^2]: https://neetcode.io/solutions/contains-duplicate
-[^3]: ChatGPT

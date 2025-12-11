@@ -414,7 +414,7 @@ while count <= num:
     count+=1
 ```
 - Print factorial
-	- Optimization[^1]
+	- #comment Optimization
 		- Use Python's built-in factorial function
 		- Much faster and optimized in C behind the scenes.
 ```python
@@ -492,5 +492,3 @@ for i in range(0,t):
         print("NO")
 ```
 ## References
-
-[^1]: ChatGPT

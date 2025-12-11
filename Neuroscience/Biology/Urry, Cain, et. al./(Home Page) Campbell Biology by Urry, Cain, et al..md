@@ -71,7 +71,7 @@ Reviewed: false
 	- “new material in Concept 55.2 on [[eutrophication]] and how it can cause the formation of large “[[dead zones]]” in [[aquatic ecosystems]]” ([Urry et al., 2020, p. 20](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=23&annotation=28ZTDTHX))
 	- “how the abundance of organisms at each [[trophic level]] can be controlled by [[bottom-up control]] or [[top-down control]].” ([Urry et al., 2020, p. 20](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=23&annotation=NYVX69TF))
 	- “shows the extent of the record-breaking 2017 dead zone in the [[Gulf of Mexico]] and the [[watershed]] that contributes to its nutrient load.” ([Urry et al., 2020, p. 20](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=23&annotation=ZZL8T64I))
-		- A watershed is an area of land where all water runoff converges to a common point, such as a river or lake [^1]
+		- #comment A watershed is an area of land where all water runoff converges to a common point, such as a river or lake
 	- “describes attempts to use [[cloning]] to resurrect species lost to extinction” ([Urry et al., 2020, p. 20](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=23&annotation=ZZJ3FSJQ))
 	- “[[plastic waste]], a major and growing environmental problem.” ([Urry et al., 2020, p. 20](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=23&annotation=XVJHTII7))
 	- “[[climate warming]] is causing large regions of tundra in Alaska to release more CO2 than they absorb” ([Urry et al., 2020, p. 20](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=23&annotation=ML47I3MF))
@@ -1466,7 +1466,6 @@ Reviewed: false
 #### Sustainable Development
 #### The Future of the Biosphere
 
-
 ## Key Terms
 ```dataviewjs
 // Get the current file content
@@ -1497,4 +1496,3 @@ if (filteredLinks.size > 0) {
 }
 ```
 ## References
-[^1]: https://chat.openai.com/share/88a0c2dd-0dce-45f7-aaef-a67b9da8e815

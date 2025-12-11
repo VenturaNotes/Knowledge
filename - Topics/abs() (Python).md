@@ -3,8 +3,6 @@ aliases:
   - abs()
 ---
 ## Synthesis
-- 
-## Source [^1]
 - Returns [[absolute value]] of a given number.
 	- Converts negative numbers to positive and leaves positive numbers unchanged
 - When evaluating a number, it can be an integer, float, or a complex number
@@ -36,9 +34,8 @@ print(y) #Output: 30
 
 - [[List comprehension (Python)|list comprehension]]
 
-## Source[^2]
-- function built into the Python interpreter
+## Source[^1]
+- Function built into the Python interpreter
 ## References
 
-[^1]: ChatGPT
-[^2]: https://docs.python.org/3.12/library/functions.html
+[^1]: https://docs.python.org/3.12/library/functions.html

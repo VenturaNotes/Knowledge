@@ -115,10 +115,10 @@ class Solution:
                 j -= 1 # Increasing right pointer to get greater value
 ```
 - Time Complexity: $O(nlogn)$
-	- $O(nlogn)$ for sorting and $O(n)$ for two-pointer traversal[^9]
-		- #comment probably closer to $O(\frac {n}{2})$ for two-pointer traversal since 
+	- #comment $O(nlogn)$ for sorting and $O(n)$ for two-pointer traversal
+		- Probably closer to $O(\frac {n}{2})$ for two-pointer traversal since 
 - Space Complexity: $O(n)$
-	- To store values in helper list `A` [^9]
+	- #comment To store values in helper list `A`
 - #comment Summary
 	- (1) Store index and value pairs within list
 	- (2) Sort this array
@@ -127,7 +127,7 @@ class Solution:
 		- Return lowest index or 
 			- if sum < target: increase left pointer
 			- if sum > target: increase right pointer
-#### Partial Explanation[^9]
+#### #comment Partial Explanation
 - Using [[two pointer technique|two-pointer approach]] after sorting input with indices
 ```python
 A = []
@@ -162,12 +162,12 @@ class Solution:
                 return [i, indices[diff]]
 ```
 - Time Complexity: $O(n)$
-	- Explanation [^9]
+	- #comment Explanation
 		- $O(n)$ to populate dictionary
 		- $O(n)$ to check complement
 		- so $O(n)$ total
 - Space Complexity: $O(n)$
-	- Dictionary required $O(n)$ space to store all elements in the array [^9]
+	- #comment Dictionary required $O(n)$ space to store all elements in the array
 - #comment Summary
 	- (1) Create dictionary
 	- (2) Enumerate list to store as key value pairs in dictionary
@@ -178,7 +178,7 @@ class Solution:
 			- If true, we return the loop's `i` first and then the index from `indices`
 			- The loop's `i` will always be first because we are starting from index 0 so there can't be a number greater as we're checking the first ones first. 
 
-#### Partial Explanation[^9]
+#### #comment Partial Explanation
 - Solution uses a [[HashMap (python)|hash map]] ([[dictionary (Python)|dictionary]] in python) to efficiently find the complement of the current number in array
 - Given `nums = [2, 7, 11, 15]`
 	- First enumeration gives `indices = {2: 0, 7: 1, 11: 2, 15: 3}`
@@ -204,11 +204,11 @@ class Solution:
             prevMap[n] = i
 ```
 - Time Complexity: $O(n)$
-	- Explanation [^9]
+	- #comment Explanation
 		- Only loop over `nums` once, so $O(n)$
 		- Dictionary operations (lookup and insertion) are $O(1)$ on average
 - Space Complexity: $O(n)$ 
-	- Dictionary requires $O(n)$ space to store all elements in worst case [^9]
+	- #comment Dictionary requires $O(n)$ space to store all elements in worst case
 - #comment Summary
 	- (1) Create dictionary
 	- (2) Enumerate through `nums` by checking complement, seeing if it's in dictionary (if so return), and if not, add element to dictionary
@@ -290,7 +290,6 @@ print(test.twoSum(myList,6))
 - Complexity Analysis
 	- Time Complexity: $O(n)$ 
 	- Space Complexity: $O(n)$ 
-
 ### Approach 3: One-pass Hash Table [^8]
 - We only need to traverse the list once by inserting elements into the hash table and checking if the current element's compliment already exists
 - Python Solution
@@ -317,4 +316,3 @@ class Solution:
 [^6]: https://medium.com/@satorusasozaki/amortized-time-in-the-time-complexity-of-an-algorithm-6dd9a5d38045
 [^7]: https://stackoverflow.com/questions/14379753/what-does-mean-in-python-function-definitions
 [^8]: https://leetcode.com/problems/two-sum/solutions/127810/two-sum/
-[^9]: ChatGPT

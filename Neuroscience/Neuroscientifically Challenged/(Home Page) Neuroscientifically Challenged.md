@@ -3,9 +3,9 @@ Source:
   - https://www.youtube.com/playlist?list=PLi5qQTYe1fJ8Zf5H_JJTgU4oGuFxklc6a
 Length: 5 hours, 6 minutes, 34 seconds
 tags:
-  - status/complete
   - type/playlist
   - ongoing
+  - status/prepared
 Reviewed: false
 ---
 - [[(1) 2-Minute Neuroscience - The Neuron]]

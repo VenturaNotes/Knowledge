@@ -4,7 +4,6 @@ aliases:
 ---
 ## Synthesis
 - Creates new classes based on existing ones
-## Source [^1]
 - #question What does the method `super()` do?
 ### Definition
 - Involves creating new classes based on existing ones
@@ -43,8 +42,7 @@ class Dog(Animal):  # Dog inherits from Animal
 - The relationship type of `has-a` is composition / attributes such as A `Car` has an `Engine`
 	- #question What is meant by composition / attributes? What is the difference?
 	- #question How would you create a "has-a" relationship?
-
-## Source [^2]
+## Source [^1]
 ```python
 # Executing the printname method of object x
 class Person:
@@ -60,13 +58,12 @@ class Student(Person):
 x = Student("Mike")
 x.printname() #Runs the printname() method in class Person
 ```
-#question If an assignment says that a student will inherit "properties", is this just a synonym for "attributes"?
-#question If we created the `printname` method in the Student(Person) class, would this override the `printname` in the Person class? 
-#question is there a way to ensure that a new method is written for a class so that it can inherit from a parent class?
-#question I need a few more details to understand what inheritance exactly is
-#question Is it possible to do inheritance without forcing a parameter? 
+- #question If an assignment says that a student will inherit "properties", is this just a synonym for "attributes"?
+- #question If we created the `printname` method in the Student(Person) class, would this override the `printname` in the Person class? 
+- #question is there a way to ensure that a new method is written for a class so that it can inherit from a parent class?
+- #question I need a few more details to understand what inheritance exactly is
+- #question Is it possible to do inheritance without forcing a parameter? 
 
 ## References
 
-[^1]: ChatGPT
-[^2]: https://www.w3schools.com/python/exercise.asp?filename=exercise_inheritance1
+[^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_inheritance1
