@@ -7,7 +7,7 @@ tags:
   - type/website
 Reviewed: false
 ---
-- Researched
+h- Researched
 - Questioned
 - Defined
 	1. [[cyanuric acid]]
@@ -3361,8 +3361,8 @@ Reviewed: false
 	3335. NAD
 	3336. nano-
 	3337. nanochemistry
-	3338. nanocluster
-	3339. nanotechnology
+	3338. [[nanocluster]]
+	3339. [[nanotechnology]]
 	3340. nanotube
 	3341. napalm
 	3342. naphtha
@@ -3470,7 +3470,7 @@ Reviewed: false
 	3444. no-bond resonance
 	3445. nobelium
 	3446. noble gases
-	3447. noble metal
+	3447. [[noble metal]]
 	3448. node
 	3449. NOE
 	3450. non-crossing rule

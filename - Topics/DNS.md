@@ -5,7 +5,7 @@ aliases:
 ## Synthesis
 - Translates domain names into IP addresses
 	- example.com $\to$ (192.168.1.1)
-## Source [^1]
+### Description
 - A hierarchical naming system used to translate [[domain names]] (example.com) into [[IP addresses]] (192.168.1.1)
 	- It uses a hierarchical structure with domain names organized into [[zones]], [[subdomains]], and individual [[domain names]]
 - [[DNS server|DNS servers]] maintain databases of domain names and corresponding IP addresses
@@ -23,11 +23,9 @@ aliases:
 - For resolving domain names into IP addresses
 - DNS resolves domain names into IP addresses
 	- #question how does DNS do this?
-
-## Source[^2]
+## Source[^1]
 - An internet service that translates alphabetic names into IP addresses
-
-## Source[^3]
+## Source[^2]
 - A system that provides mappings between the human-oriented names of users or services in a network, and the machine-oriented network addresses of the named entity. It is used primarily on TCP/IP networks, primarily the Internet, to map such human-oriented names as "www.oup.co.uk" to the equivalent IP address; however, other networks have similar facilities. Names are usually hierarchical, and in general terms the boundaries of a domain will coincide with some form of natural boundary within the network environment, such as a country, a community of users within a country, or the users on a site. The above example consists of the four domains 'uk' (the top-level domain), 'co', 'oup', and 'www'. While the arrangement of IP addresses is also usually hierarchical, there is no assumption in the mapping between the two that the hierarchies are in any way equivalent. See also DOMAIN NAME SERVER, FQDN.
 - http://tools.ietf.org/html/rfc1034
 	- Introduction to the Internet domain name system
@@ -36,6 +34,5 @@ aliases:
 - #comment Link "oup" not working
 ## References
 
-[^1]: ChatGPT
-[^2]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
-[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
+[^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

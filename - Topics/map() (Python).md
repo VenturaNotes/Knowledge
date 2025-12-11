@@ -38,6 +38,7 @@ map(function, iterable, ...)
 		- #question can we have function objects?
 - iterable: One or more iterables to which the function is applied
 	- #question I want to see an example with multiple iterables applied
+- It is possible to combine `map()` with a lambda expression.
 #### Example
 
 ##### Using a Normal Function

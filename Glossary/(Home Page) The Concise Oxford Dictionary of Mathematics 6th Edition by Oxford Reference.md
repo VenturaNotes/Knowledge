@@ -4590,7 +4590,7 @@ Year: 2021-09-01
 		1. See characteristic polynomial
 	95. characteristic function
 		1. A synonym for indicator function
- - Speciala
+ - Special
 	1. [[absolute value]]
 	2. [[algebra of sets]]
 	3. [[angular velocity]]

@@ -13,12 +13,7 @@ aliases:
 - (8) Since materials are considered to be calculated into ABC, then the cost of a third-party service could be included into the product
 - (9) Outsourcing might not be as important because since ABC includes the cost of labor and materials, there is no reason to get cheaper labor since the cost of the product would be greater regardless. I'm not sure what to say about automation though. 
 - (10) ABC can be applied consistently across teams and projects by simply keep listing the expenses. I'm not sure what an expense list is called but maybe you could help with that
-## Source [^1]
-- Activity-based costing (ABC) is a method of assigning costs to products or services based on the activities required for their production. This includes things such as materials and labor. The difference between this approach versus traditional accounting methods, where costs are assigned solely by volume produced (i.e., units sold), is that ABC allows companies to more accurately determine the cost of each product or service they have because it considers all factors involved in creating them—not just how many were made but also what went into making them.
-	- #question What are some accounting methods?
-	- #question Isn't materials and labor always considered when selling a product rather than just the volume produced? 
-
-## Source[^2]
+### Questions
 - (1) Can you explain what activity-based costing (ABC) is in a few sentences?
 	- Activity-Based Costing (ABC) is a method of assigning costs to products or services based on the specific activities involved in their production. Unlike traditional costing, which allocates costs based on a broad measure like volume or units produced, ABC assigns costs based on activities such as labor, material handling, and overhead. This allows for a more accurate cost determination of each product or service.
 		- #question What kind of overhead would this suggest?
@@ -47,10 +42,13 @@ aliases:
 - (10) In a large software company, how would you ensure that ABC is applied consistently across different teams and projects?
 	- ABC can be applied consistently across teams by establishing and maintaining "cost pools" or "cost drivers," which track all the relevant expenses for each activity. These pools are updated regularly to ensure accurate cost assignment across teams and projects. Proper documentation and communication are also critical to ensure all activities are accounted for.
 		- #question What are cost pools or cost drivers?
-## Source[^3]
+## Source [^1]
+- Activity-based costing (ABC) is a method of assigning costs to products or services based on the activities required for their production. This includes things such as materials and labor. The difference between this approach versus traditional accounting methods, where costs are assigned solely by volume produced (i.e., units sold), is that ABC allows companies to more accurately determine the cost of each product or service they have because it considers all factors involved in creating them—not just how many were made but also what went into making them.
+	- #question What are some accounting methods?
+	- #question Isn't materials and labor always considered when selling a product rather than just the volume produced? 
+## Source[^2]
 - (ABC; activity costing) A system of costing proposed by Professors Johnson and Kaplan in their book Relevance Lost: The Rise and Fall of Management Accounting (1987), in which they questioned accounting techniques based on absorption costing. Their method recognizes that costs are incurred by each activity that takes place within an organization and that products (or customers) should bear costs according to the activities they use. Cost drivers are identified, together with the appropriate activity cost pools, which are used to charge costs to products. Adherents of activity-based costing maintain that it provides accurate cause-and-effect allocations of costs that cannot be obtained from traditional costing systems.
 ## References
 
 [^1]: https://www.capterra.com/glossary/activity-based-costing-abc/
-[^2]: ChatGPT
-[^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]

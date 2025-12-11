@@ -4,7 +4,6 @@ aliases:
 ---
 ## Synthesis
 - #question What is `_` in a for loop?
-## Source [^1]
 - The underscore `_` is commonly used as a throwaway variable name when the value of the variable is not going to be used.
 - This usage is part of a broader convention where _ serves as a placeholder for variables whose values are not needed.
 	- Technically, you could use the `_` as it will be treated like any other variable.
@@ -14,7 +13,6 @@ print(_) #Output: Hello world
 
 #I can use the underscore this way but conventionally this is incorrect
 ```
-
 ### Example
 ```python
 for _ in range(0, 100):
@@ -47,7 +45,7 @@ print(a, c)  # Output: 1 3
 ```python
 _ = [print("Hello") for _ in range(5)]
 ```
-#question What does it mean if you assign `_` to the loop, does it mean it it will just not be referenced?
+- #question What does it mean if you assign `_` to the loop, does it mean it it will just not be referenced?
 - Translation placeholder
 	- `_` conventionally used as a function name for translations in [[internationalization (python)|internationalization]] libraries such as `gettext`
 		- #question What is [[gettext (python)|gettext]]
@@ -55,7 +53,9 @@ _ = [print("Hello") for _ in range(5)]
 from gettext import gettext as _
 print(_("Hello, world!"))
 ```
-#question Help me understand this code
+- #question Help me understand this code
+## Source [^1]
+- 
 ## References
 
-[^1]: ChatGPT
+[^1]: 

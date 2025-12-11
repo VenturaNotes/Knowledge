@@ -181,7 +181,7 @@ class Solution:
 		- Same goes for `countT`
 	- Returns if both dictionaries are equal making them anagrams
 	- Potential reason for why time complexity is $O(n + m)$ 
-		- Information [^5]
+		- #comment Information
 			- For `if len(s) != len(t):`, the time complexity is O(1) since checking the length of two strings is a constant-time operation because Python strings store their length as [[metadata]]
 			- Initializing [[dictionary (Python)|dictionaries]] is also a constant time operation 
 			- The for loop runs `n` iterations where `n` is the length of `s`
@@ -211,7 +211,7 @@ class Solution:
 - Where `n` is the length of string `s` and `m` is the length of string `t`
 - #comment 
 	- This solution is more optimized because
-		- The fix-size array is more space-efficient compared to dictionaries that grow dynamically with the number of unique characters[^5]
+		- #comment The fix-size array is more space-efficient compared to dictionaries that grow dynamically with the number of unique characters
 	- Creates an array of size 26 and increments each index by 1 to represent the lowercase letters `a-z` with the [[ord() (python)|ord()]] method
 		- So `z` would increment and decrement index 25 by 1
 	- Then loops through `count` to check if all values are zero (which they should be since strings that are anagrams have the same character count)
@@ -221,4 +221,3 @@ class Solution:
 [^2]: https://www.youtube.com/watch?v=9UtInBqnCgA
 [^3]: https://leetcode.com/problems/valid-anagram/solutions/4410317/video-give-me-5-minutes-4-solutions-how-we-think-about-a-solution/
 [^4]: https://neetcode.io/solutions/valid-anagram
-[^5]: ChatGPT

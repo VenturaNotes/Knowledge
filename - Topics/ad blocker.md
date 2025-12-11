@@ -5,7 +5,7 @@
 	- #question Is there a difference between a plug-in and a browser extension?
 	- #question How can an ad blocker remove advertising material
 	- #question What is required for a web page to load?
-### Source[^2]
+### #comment
 - Primary function of ad blocker is to remove advertising content from websites
 - An ad blocker determines which content to block by comparing domain names against a blocklist
 - An ad blocker operates during webpage interaction while the web page is loading
@@ -20,4 +20,3 @@
 ## References
 
 [^1]: https://www.capterra.com/glossary/ad-blocker/
-[^2]: ChatGPT

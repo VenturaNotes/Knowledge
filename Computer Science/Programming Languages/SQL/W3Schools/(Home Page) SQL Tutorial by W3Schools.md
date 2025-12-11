@@ -1189,7 +1189,7 @@ ALTER TABLE Customers
 ADD Email varchar(255);
 ```
 - Adds an "Email" column to the customers table
-- Description[^1]
+- #comment Description
 	- `ALTER TABLE`: Modifying the structure of an existing table
 	- `Email`: Name of new column being added
 	- `varchar(255)` Defines the data type as a variable-length string with a maximum length of 255 characters
@@ -1983,5 +1983,3 @@ ALTER COLUMN City DROP DEFAULT;
 ### SQL Certificate
 
 ## References
-
-[^1]: Google's Search Labs | AI Overview

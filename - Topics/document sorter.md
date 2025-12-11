@@ -3,7 +3,7 @@
 ## Source [^1]
 - A document sorter is a device that can read information encoded on documents and place them into separate stacks related to that code. [[bank check|bank checks]] are processed in this way
 	- #question Are there other types of checks besides bank checks? 
-### Details[^2]
+### #comment Details
 - A document sorter typically looks like a large, automated machine with multiple input and output trays
 	- #question What is an input and output tray?
 - It has sensors, rollers, and sorting bins where documents are directed based on the encoded information
@@ -17,7 +17,7 @@
 	- #question what is a routing number
 #### Examples
 - IBM 3890 document Processor
-	- ![[Screenshot 2025-03-04 at 11.15.04 AM.png]][^4]
+	- ![[Screenshot 2025-03-04 at 11.15.04 AM.png]][^2]
 	- This machine reads the [[Magnetic Ink Character Recognition]] (MICR) line at the bottom of checks and endorses them with the bank's information
 		- #question How does it endorse them with the bank's information? Does it add information to the paper itself? Which banks used this for checks?
 - Quantum DS Reader/Sorter by [[Digital Check Corp.]]
@@ -27,6 +27,5 @@
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
-[^2]: ChatGPT
+[^2]: https://en.wikipedia.org/wiki/IBM_document_processors
 [^3]: https://www.digitalcheck.com/reader-sorter-quantum-ds/
-[^4]: https://en.wikipedia.org/wiki/IBM_document_processors

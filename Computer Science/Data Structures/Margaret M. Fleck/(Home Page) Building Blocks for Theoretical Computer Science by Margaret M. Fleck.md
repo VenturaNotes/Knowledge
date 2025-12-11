@@ -111,13 +111,11 @@ Reviewed: false
 		- $(x + yi)(a + bi)$ is $xa + yai + xbi + byi^2$. But $i^2$ = -1
 			- This reduces to $(xa - yb) + (ya + xb)i$
 - “you can also multiply two intervals of the real line. This carves out a rectangular region of the 2D plane, with sides determined by the two intervals.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=19&annotation=TTH3D2M8))
-
 ### (1.3) Exponentials and logs
 #### Special Cases
 - $b^0$ = 1
 - $b^{0.5}$ = $\sqrt{b}$
 - $b^{-1}$ = $\frac 1b$
-
 #### Rules
 - $b^xb^y = b^{x + y}$
 - $a^xb^x = (ab)^x$
@@ -126,14 +124,12 @@ Reviewed: false
 	- Example ^wjg58a
 		- $2^{3^5} = 2^{(3^5)}$ = $2^{243}$ 
 		- $(2^3)^5 = 2^{15} = 32678$ 
-
 #### Properties
 - If b > 1, we can invert the function $y = b^x$ to get $x = log_by$ ("logarithm of y to the base b") ^rvpabl
 - Logarithms appear in computer science as running times for fast algorithms
 	- Used to manipulate numbers with very wide ranges such as probabilities
 - Log function only takes positive numbers as inputs ^zfp0vs
 - $logx$ with no explicit base always means $log_2x$ because analysis of computer algorithms makes such heavy use of base-2 numbers and powers of 2
-
 #### Logarithmic Rules
 - $b^{log_b(x)} = x$
 - $log_b(xy) = log_b(x) + log_b(y)$
@@ -193,7 +189,7 @@ Reviewed: false
 - Most programming languages have these two functions and
 	- function rounds to nearest integer
 	- "truncates" i.e. rounds towards zero
-- Difference between truncate and floor [^4]
+- #comment Difference between truncate and floor
 	- floor(-2.6) = -3
 		- Rounds down to nearest integer
 	- truncate(-2.6) = -2
@@ -219,7 +215,7 @@ Reviewed: false
 		- When index starts at 1
 	- $\Sigma_{i=0}^{n} \frac {1}{2^i} = 2 - \frac{1}{2^n}$ 
 		- When index starts at 0
-#### Tangent [^5]
+#### #comment
 - [[Sum of an infinite geometric series]]
 	- $S = \frac{a}{1-r}$
 		- S is the sum of the series
@@ -236,7 +232,6 @@ Reviewed: false
 		- ![[Screenshot 2023-08-18 at 3.20.09 PM.png]]
 	- For $\Sigma_{i=0}^{n} \frac {1}{2^i} = 2 - \frac{1}{2^n}$ 
 		- ![[Screenshot 2023-08-18 at 3.25.57 PM.png]]
-- 
 #### Continued
 - Be careful to check when your summation starts
 - When covering mathematical induction, will prove how those closed forms are correct
@@ -734,5 +729,3 @@ Reviewed: false
 [^1]: [[(11) Algebra - Ch. 24 - Complex Numbers (11 of 28) Multiplying Complex Conjugates]]
 [^2]: [[(25) PreCalculus - Logarithmic Function (12 of 23) Solving Logarithms by Changing the Base]]
 [^3]: [[binomial coefficient#^18f898]]
-[^4]: [[Google's SGE]]
-[^5]: ChatGPT

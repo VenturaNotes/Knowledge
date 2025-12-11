@@ -19,7 +19,6 @@ public static void main (String args[])
 
 ```
 
-
 # IFrame Example
 
 <iframe border=0 frameborder=0 height=250 width=550 src="https://www.businessinsider.com/video-russian-bomber-catches-fire-before-crashing-into-residential-building-2022-10"> </iframe> 
@@ -49,16 +48,13 @@ Press Command on Link below to view preview
 ---
 
  Run this slideshow to make it work
-Hey baby,
-I want you to know
 
 ---
  
 that......
 
 ---
-I LOVE YOU <3 <3 <3
-
+Looks good
 # CheckBoxes
 
 - [ ] Letter Format
@@ -72,7 +68,6 @@ I LOVE YOU <3 <3 <3
 	- [x] Letter Format
 	- [x] Acessible across devices
 
-
 # Footnotes
 
 You can create footnotes like this [^1].
@@ -81,8 +76,6 @@ You can create footnotes like this [^1].
 You can create tags such as long as they're not numeric
 
 [^1]: This is cool
-
-
 
 
 ```mermaid

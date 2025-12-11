@@ -4,7 +4,8 @@ aliases:
 ---
 ## Synthesis
 - Fixed values that are directly represented in the code
-## Source [^1]
+- Best practice of using literals is to avoid hard-coding literals into your code
+	- It's best to use descriptive variable names for literals
 ### Definitions
 - Literals are fixed values that are directly represented in the code
 - Actual data values assigned to variables or used in expressions
@@ -28,14 +29,8 @@ aliases:
 | Set Literals                        | Unordered collections of<br>unique items enclosed in curly braces                                         | `{1, 2, 3, 4}`                                            |
 | Complex Number Literals             | Numbers with a real and an<br>imaginary part                                                              | `3 + 4j`<br>                                              |
 | Numeric Literals                    | Represents numbers<br><br>Integer Literals<br>Floating-point Literals<br>Complex number literals          | `42, -5`<br>`3.14, -0.001`<br>`3 + 4j, -5j`               |
-## Source[^2]
-- Best practice of using literals is to avoid hard-coding literals into your code
-	- It's best to use descriptive variable names for literals
-
-## Source[^3]
+## Source[^1]
 - A word or symbol in a program that stands for itself rather than as a name for something else, i.e. an object whose value is determined by its denotation. Numbers are literals; if other symbols are used as literals it is necessary to use some form of quoting mechanism to distinguish them from variables.
 ## References
 
-[^1]: ChatGPT
-[^2]: Gemini Pro
-[^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

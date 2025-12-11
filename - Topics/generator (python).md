@@ -4,8 +4,6 @@ aliases:
   - generators
 ---
 ## Synthesis
-- 
-## Source [^1]
 - A use would be through generator expression
 ```python
 squares_gen = (x**2 for x in range(5))
@@ -133,7 +131,6 @@ print(next(gen)) #output: 1
 ```
 - This is an infinite sequence that prints out the value of `num`
 - During the first time the `infinite_sequence()` runs, it exists the loop at `yield num` which would return the value `0`. When the second time `next(gen)` is ran, `num += 1` is computed and then since `while True` continues, `yield num` is ran again to `yield num` where `num = 1` now and the output is `1`
-
 ### Lazy Evaluation Benefits
 - Memory Efficient
 	- Since values generated one at a time and not stored in memory all at once, generators much more memory efficient, especially for large datasets
@@ -141,7 +138,6 @@ print(next(gen)) #output: 1
 	- Can lead to performance improvements by not doing unnecessary computations upfront. Values only generated when needed.
 - Infinite Sequences:
 	- Can represent infinite sequences as they compute each value on demand. Could generate an infinite sequence of [[Fibonacci numbers]] or an endless stream of data
-## Source[^2]
 ### Difference between Generator Functions and Generator Expressions
 
 | Generator Expressions                                                      | Generator Functions                                                                                                                            |
@@ -152,7 +148,7 @@ print(next(gen)) #output: 1
 | More efficient as they don't require creation of <br>a new function object | More flexible as they can be used to create generators that have states                                                                        |
 | Only stores state of variables used in expression                          |                                                                                                                                                |
 
-#### Examples[^1]
+#### Examples
 Generator Function
 ```python
 def countdown(n):
@@ -186,10 +182,8 @@ for number in countdown_gen:
 - Compact way to create a generator
 - Resembles list comprehensions but uses square brackets instead of parenthesis
 - Evaluates lazily
-
 ##### Similarities
 - They both use [[Lazy Evaluation]]
 ## References
 
-[^1]: ChatGPT
-[^2]: Gemini Pro
+
