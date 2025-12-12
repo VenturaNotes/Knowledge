@@ -7,7 +7,7 @@ tags:
   - type/website
 Reviewed: false
 ---
-h- Researched
+- Researched
 - Questioned
 - Defined
 	1. [[cyanuric acid]]
@@ -3495,7 +3495,7 @@ h- Researched
 	3469. normal mode of vibration
 	3470. NSE
 	3471. nuclear fission
-	3472. nuclear fusion
+	3472. [[nuclear fusion]]
 	3473. nuclear magnetic resonance
 	3474. nuclear magneton
 	3475. nuclear Overhauser effect
@@ -3503,11 +3503,11 @@ h- Researched
 	3477. nucleic acid
 	3478. nucleon
 	3479. nucleon number
-	3480. nucleophile
+	3480. [[nucleophile]]
 	3481. nucleophilic addition
 	3482. nucleophilic substitution
 	3483. nucleoside
-	3484. nucleosome
+	3484. [[nucleosome]]
 	3485. nucleosynthesis
 	3486. nucleotide
 	3487. nucleus
