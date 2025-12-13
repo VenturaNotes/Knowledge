@@ -61,10 +61,7 @@
 	- #question What is composition of morphisms? I just need an example of this category theory concept in action
 ### Organize
 - A monoid is an algebraic structure because it consists of a set equipped with a binary operation that satisfies specific axioms. 
-	- A set: a monoid is defined over a non-empty set, often denoted as $M$
-	- A binary operation: There is a single binary operation, typically denoted by $*$ (or sometimes $+$ or $\cdot$), which takes two elements from the set $M$ and combines them to produce another element within $M$. This property is called closure
 	- Axioms: The operation and the set must satisfy the following axioms
-		- Associativity: For all elements $a, b, c$ in $M$, the operation must be associative $(a*b)*c =a*(b*c)$.
 		- Identity Element: There must exist a unique element $e$ in $M$, called the identity element, such that for every element $a$ in $M$, $a*e = e*a = a$
 	- These three components (a set, binary operation, and the satisfaction of associativity and identity axioms are precisely what define a monoid as an algebraic structure).
 		- #question Isn't there a 3rd thing though? 
