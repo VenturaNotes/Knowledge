@@ -3370,7 +3370,7 @@ function pad(number) {
 }
 ```
 #### Sidebar.html
-- Same as [[(Project) Floating Timer Button in Google Sheets#^0b6671|attempt1]]
+- Same as [[(T) Floating Timer Button in Google Sheets#^0b6671|attempt1]]
 
 #### Results
 - Able to calculate the time between two events

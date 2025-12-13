@@ -1,5 +1,6 @@
 ## Synthesis
-- 
+- This is the operation of joining two strings end-to-end
+	- When "hello" is concatenated with "world", you get "helloworld"
 ## Source [^1]
 - The operation of joining two strings to form a longer string. The concatenation of the strings
 

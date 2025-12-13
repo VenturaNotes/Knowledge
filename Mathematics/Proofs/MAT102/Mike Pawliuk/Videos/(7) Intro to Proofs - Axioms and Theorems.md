@@ -60,7 +60,7 @@ Reviewed: false
 		- Proposition
 			- For every integer x, $0 \cdot x$ = 0.
 	- Slide 10 - Notation
-		- The [[axioms]] are the starting assumptions in a rule set.
+		- The [[axiom|axioms]] are the starting assumptions in a rule set.
 		- A [[conjecture]] is something that you guess might be true.
 		- A [[proposition]]/fact/[[theorem]] are true statements that follow from the axioms. They have been proved.
 		- A [[lemma]] is minor proposition.

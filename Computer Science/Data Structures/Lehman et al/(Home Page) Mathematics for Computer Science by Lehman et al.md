@@ -14,7 +14,7 @@ Reviewed: false
 - “only [[scientific falsehood]] can be demonstrated by an experiment” ([Lehman et al., p. 11](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=11&annotation=IBHTYHSD))
 - “In statistics, [[probable truth]] is established by statistical analysis of sample data.” ([Lehman et al., p. 11](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=11&annotation=CFZ6J9XT))
 - Mathematics proof definition
-	- “A [[mathematical proof]] of a [[proposition]] is a chain of [[Logical Deduction|logical deductions]] leading to the proposition from a base set of [[axioms]].” ([Lehman et al., p. 12](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=12&annotation=IZKRSKCC))
+	- “A [[mathematical proof]] of a [[proposition]] is a chain of [[Logical Deduction|logical deductions]] leading to the proposition from a base set of [[axiom|axioms]].” ([Lehman et al., p. 12](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=12&annotation=IZKRSKCC))
 ### (1) What is a Proof
 #### (1.1) Propositions
 - “Definition. A [[proposition]] is a statement (communication) that is either true or false.” ([Lehman et al., p. 13](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=13&annotation=5MH2TPCF))
@@ -72,7 +72,7 @@ Reviewed: false
 - “The standard procedure for establishing truth in mathematics was invented by [[Euclid]], a mathematician working in Alexandria, Egypt around 300 BC.” ([Lehman et al., p. 16](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=16&annotation=48USGFWA))
 	- “begin with five assumptions about geometry, which seemed undeniable based on direct experience.” ([Lehman et al., p. 16](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=16&annotation=IJUYCZXZ))
 	- Example: There is a straight line segment between every pair of points
-		- “Propositions like these that are simply accepted as true are called [[axioms]].” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=TZB4AK67))
+		- “Propositions like these that are simply accepted as true are called [[axiom|axioms]].” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=TZB4AK67))
 - “A [[proof]] is a sequence of logical deductions from axioms and previously proved statements that concludes with the proposition in question.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=5DZPN6NS))
 - “There are several common terms for a [[proposition]] that has been proved” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=MLJQUBTP))
 	- “Important true propositions are called [[Theorem|Theorems]].” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=WH4PY55G))

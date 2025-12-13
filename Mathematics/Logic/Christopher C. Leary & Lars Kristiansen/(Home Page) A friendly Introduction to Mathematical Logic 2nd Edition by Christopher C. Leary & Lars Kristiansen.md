@@ -51,7 +51,7 @@ Notes
 	- “Thus Hilbert’s program was impossible, and there would be no finitistic proof that the axioms of arithmetic were consistent.” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=WCSHLZUM))
 - “Thus we find ourselves in a situation where we cannot prove that mathematics is consistent.” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=393QFZ78))
 - “Our study of mathematical logic will take us to a point where we can understand the statement and the proof of [[Godel's Incompleteness Theorems (Gödel's)|Gödel's Incompleteness Theorems]].” ([Leary, 2015, p. 18](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=18&annotation=HRDSV59U))
-- “On our way there, we will study [[formal languages]], [[mathematical structures]], and a certain [[deductive system]].” ([Leary, 2015, p. 18](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=18&annotation=WW5T67LY))
+- “On our way there, we will study [[formal language|formal languages]], [[mathematical structures]], and a certain [[deductive system]].” ([Leary, 2015, p. 18](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=18&annotation=WW5T67LY))
 
 ### (1.1) NaÏvely
 - “you have some experience working with $R^2$, $R^3$, and $R^n$ as examples of [[Vector Space|vector spaces]].” ([Leary, 2015, p. 18](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=18&annotation=R3GJDSH2))
