@@ -22,7 +22,7 @@ Reviewed: false
 ### (1.1) A Short Note on Proofs
  - “Although mathematics is often motivated by physical experimentation or by computer simulations, it is made rigorous through the use of logical arguments.” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=14&annotation=6YBYUQCJ))
  - “[[axiomatic approach]]; that is, we take a collection of objects S and assume some rules about their structure.” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=14&annotation=HHK5UKF5))
-	 - These rules are called [[axioms]]
+	 - These rules are called [[axiom|axioms]]
 	 - “Using the axioms for S, we wish to derive other information about S by using logical arguments.” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=14&annotation=EH6XUP3L))
 	 - Axioms must be consistent (not contradict one another)
 	 - Demand there can't be too many axioms. If a system of axioms is too restrictive, there will be few examples of the mathematical structure

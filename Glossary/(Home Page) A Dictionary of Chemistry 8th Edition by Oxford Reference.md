@@ -3555,19 +3555,22 @@ Reviewed: false
 	3529. opal
 	3530. open-hearth process
 	3531. open chain
-	3532. operator
+	3532. [[operator]]
 	3533. opiate
 	3534. opioid
 	3535. opium
 	3536. optical activity
 	3537. optical brightener
 	3538. optical emission spectroscopy
-	3539. optical glass
+	3539. [[optical glass]]
 	3540. optical isomers
+		1. See optical activity
 	3541. optical maser
+		1. See laser
 	3542. optical pumping
+		1. See laser
 	3543. optical rotation
-	3544. optical rotatory dispersion
+	3544. [[optical rotatory dispersion]]
 	3545. optical tweezers
 	3546. optoacoustic spectroscopy
 	3547. orbit

@@ -10,7 +10,7 @@ Reviewed: false
 	- What is it?
 		- A vector space is a non-empty set of vectors and two operators, (+, $\cdot$) such that the following axioms hold $\forall \vec u, \vec v, \vec w \in V$ and $c, d \in \mathbb{R}$  (c and d are scalars here)
 			- The two operators are addition and multiplication
-			- The below are [[axioms]]
+			- The below are [[axiom|axioms]]
 				- What we've done up to this point is simply use them for the set $\mathbb{R}^n$ 
 				- $\mathbb{R}^n$ is a [[vector space]] and all of the axioms hold true which is why all of these will look familiar to you. 
 				- Now we want to look at different spaces and verify these axioms if these other spaces may be vector spaces or not

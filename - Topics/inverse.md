@@ -3,7 +3,8 @@ aliases:
   - inverses
 ---
 ## Synthesis
-- 
+- An inverse of an element $a$ (often denoted $a^{-1}$) is an element such that $a*a^{-1} = a^{-1} *a = e$
+	- #question I would like to see an example of this
 ## Source [^1]
 - (1) (converse) (of a binary relation R) A derived relation $R^{-1}$ such that $$\begin{align}&\text{whenever x R y} \\ &\text{then y }R^{-1} \space x\end{align}$$where $x$ and $y$ are arbitrary elements of the set to which R applies. The inverse of 'greater than' defined on integers is 'less than'.
 - The inverse of a function $$f: X \to Y$$(if it exists) is another function, $f^{-1}$, such that $$f^{-1}: Y \to X$$and $$f(x) = y \text{ implies } f^{-1}(y) = x$$It is not necessary that a function has an inverse function.
