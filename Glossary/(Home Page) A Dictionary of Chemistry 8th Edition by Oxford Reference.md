@@ -3572,7 +3572,7 @@ Reviewed: false
 	3543. optical rotation
 	3544. [[optical rotatory dispersion]]
 	3545. optical tweezers
-	3546. optoacoustic spectroscopy
+	3546. [[optoacoustic spectroscopy]]
 	3547. orbit
 	3548. orbital
 	3549. orbital quantum number
@@ -3588,7 +3588,7 @@ Reviewed: false
 	3559. organometallic compound
 	3560. organometallic polymer
 	3561. organophosphorus compound
-	3562. Orgel diagram
+	3562. [[Orgel diagram]]
 	3563. origin of elements
 	3564. origin of life
 	3565. ornithine
@@ -3621,7 +3621,7 @@ Reviewed: false
 	3592. oxalic acid
 	3593. oxaloacetic acid
 	3594. oxazole
-	3595. oxfuel
+	3595. [[oxfuel]]
 	3596. oxic
 	3597. oxidant
 	3598. oxidation
