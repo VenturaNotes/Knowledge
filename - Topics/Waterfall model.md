@@ -1,5 +1,8 @@
 ## Synthesis
-- 
+- In Waterfall, each phase (requirements, design, implementation, testing, deployment) must be completed before the next begins, leading to long cycles before any working software is delivered. 
+	- This is why approaches such as agile are preferred as its iterative and incremental approach allows for quicker delivery of working software and faster feedback loops
+		- #question How does agile work when it comes to going through each phase? Are you allowed to skip phases or do you just go through the phases faster or does a sprint mean you go through all the phase for every sprint duration?
+	- #question Does every software development approach have the 5 phases described above? What does each phase do?
 ## Source [^1]
 - A sequential (non-iterative) design process used in software development, where progress flows steadily downwards (like a waterfall) through several phases, such as conception, initiation, analysis, design, construction, testing, deployment, and maintenance.
 

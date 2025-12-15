@@ -3,6 +3,10 @@ aliases:
   - ASCII
 ---
 ## Synthesis
+- An encoding standard that represents text in computers. It uses 7 bits to represent 128 characters, primarily English letters, numbers, and some symbols.
+	- It's a subset of [[Unicode]].
+		- #question Is this true?
+	- #question Why does it use 7 bits instead of 8 bits to represent 128 characters?
 - To get ascii in python, you just surround `ord()` around a character
 	- #question What kind of characters work?
 ## Source[^1]
