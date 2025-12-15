@@ -1,5 +1,6 @@
 ## Synthesis
-- Agile is a broad philosophy/mindset for iterative project development
+- Agile is a broad philosophy/mindset for iterative project development.
+- #question What is the agile manifesto?
 ### Organize
 - Agile is an iterative approach to software development that allows teams to deliver value to customers faster (than traditional, sequential development methodologies like the [[waterfall model]]) through small increments.
 	- Value is typically defined from the customer's perspective which could be
@@ -21,51 +22,35 @@
 		- #question What are user stories?
 		- #question I don't think saying 'functional features' is correct. I think functions and features are separate things. When you say that functional features are specific actions, tasks, or behaviors that a system or software component is designed to perform for the user, you're thinking of the term,  functional requirements. 
 - Characterized by:
-	- Iterative Development: Work is broken down into [[sprint|sprints]] (iterations) lasting 1-4 weeks
-		- 
-		- #question What is within a sprint?
-		- #question What is a sprint?
-	- Incremental Delivery: Functional pieces of software are delivered frequently, allowing for continuous feedback and adaptation.
-		- #question What is meant by functional pieces?
-		- #question Are there other types of pieces aside from functional pieces? 
-	- Collaboration: Emphasizes close collaboration between self-organizing, cross-functional teams and their customers.
-		- #question What is meant by self-organizing? 
+	- [[Iterative Development]]
+	- [[Incremental Delivery]]
+	- Collaboration: Emphasizes close collaboration between self-organizing, cross-functional teams and their customers
+		- Self-organizing is when the team members work and manage their tasks without being directed by a manager
 	- Flexibility and Adaptability: Agile methods are designed to respond to change rather than rigidly follow a plan.
-		- #question What kind of agile methods are there?
 	- Customer Focus: Prioritizes delivering value to the customer and incorporating their feedback throughout the development process.
 		- #question What is the development process?
-- Common Agile methodologies include Scrum, Kanban, Lean, and Extreme Programming (XP).
-	- #question Could you explain to me what each of these methodologies are?
-	- #question Isn't Lean a waterfall method? And what is the waterfall workflow that is no longer used by industry? 
+### Agile Methodologies
+- Common Agile methodologies include:
+	- [[Scrum]]
+	- [[Kanban]]
+	- [[Lean Software Development]]
+	- [[Extreme Programming]] (XP)
+	- [[Feature-Driven Development]]
+- Sometimes organizations might use a single framework from above or combine elements from different frameworks calling it "hybrid Agile" or "[[Scrumban]]"
+### Development Process
+- This refers to the continuous cycle of planning, executing, reviewing, and adapting that occurs throughout the project lifecycle. It's not a single, linear process but an iterative loop:
+	- Envision/Plan: Define high-level goals and initial requirements ([[Product Backlog]]).
+		- #question What is a high-level goal?
+	- Iterate/Execute (Sprints):
+		- Sprint Planning: Select and plan work for the current iteration.
+		- Develop & Test: Build the selected features.
+		- Daily Stand-up: Synchronize and address impediments.
+- Review & Adapt:
+	- Sprint Review: Demonstrate completed work to stakeholders and gather feedback.
+	- Sprint Retrospective: Reflect on the process and identify improvements.
+	- This cycle repeats until the product is complete or no longer needed.
 
 ### Organize
-- #question What is meant by functional pieces?
-	- "Functional pieces" refers to parts of the software that are complete, working, and deliver a specific, usable capability to the user. For example, instead of building an entire login system at once, an incremental delivery might first deliver a "register new user" functional piece, then a "log in with existing user" piece, and so on. Each piece, though small, provides tangible value and can be tested and used.
-- #question Are there other types of pieces aside from functional pieces?
-	- Yes, there are other types of "pieces" or aspects of software development:
-		- Non-functional requirements/pieces: These relate to how the system performs a function rather than what it does. Examples include performance (speed), security, scalability, usability, and reliability. While not "functional features" themselves, they are crucial for a successful product.
-		- Technical debt/refactoring: Work done to improve the internal quality of the code without adding new user-facing functionality.
-		- Infrastructure/setup: Work related to setting up environments, tools, or underlying architecture that doesn't directly deliver a user-facing feature but enables future development.
-		- Agile emphasizes delivering functional pieces frequently because they are tangible and allow for immediate feedback.
-- #question What is meant by self-organizing?
-	- "Self-organizing" in an Agile context means that the team members themselves decide the best way to accomplish their work and manage their tasks, rather than being directed by a manager. They collectively determine how to best achieve the sprint goals, allocate tasks, and solve problems. This fosters ownership, creativity, and efficiency within the team.
-- #question What kind of agile methods are there?
-	- Common Agile methodologies include:
-		- Scrum: An iterative and incremental framework for managing complex work. It organizes work into sprints, uses specific roles (Product Owner, Scrum Master, Development Team), and defined events (Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective).
-		- Kanban: A method for visualizing work, limiting work in progress, and maximizing efficiency. It uses a Kanban board to track tasks through different stages of a workflow, focusing on continuous flow rather than fixed iterations.
-		- Lean Software Development: Based on Lean manufacturing principles, it focuses on maximizing customer value while minimizing waste. Key principles include eliminating waste, amplifying learning, deciding as late as possible, delivering as fast as possible, empowering the team, building integrity in, and seeing the whole.
-		- Extreme Programming (XP): A highly disciplined approach that emphasizes technical practices like pair programming, test-driven development (TDD), continuous integration, simple design, and frequent releases to improve software quality and responsiveness to changing customer requirements.
-- #question What is the development process?
-	- In an Agile context, the "development process" refers to the continuous cycle of planning, executing, reviewing, and adapting that occurs throughout the project lifecycle. It's not a single, linear process but an iterative loop:
-		- Envision/Plan: Define high-level goals and initial requirements (Product Backlog).
-		- Iterate/Execute (Sprints):
-			- Sprint Planning: Select and plan work for the current iteration.
-			- Develop & Test: Build the selected features.
-			- Daily Stand-up: Synchronize and address impediments.
-	- Review & Adapt:
-		- Sprint Review: Demonstrate completed work to stakeholders and gather feedback.
-		- Sprint Retrospective: Reflect on the process and identify improvements.
-		- This cycle repeats until the product is complete or no longer needed.
 - #question Isn't Lean a waterfall method? And what is the waterfall workflow that is no longer used by industry?
 	- No, Lean is not a Waterfall method. Lean Software Development is a core Agile methodology, focusing on efficiency, waste reduction, and continuous improvement, which are antithetical to the rigid, sequential nature of Waterfall.
 	- The Waterfall workflow is a traditional, linear, sequential project management approach. It breaks down project activities into distinct phases, where each phase must be completed and signed off before the next phase can begin. The typical phases are:

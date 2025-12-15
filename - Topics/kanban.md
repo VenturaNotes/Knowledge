@@ -1,5 +1,6 @@
 ## Synthesis
-- 
+- A method for visualizing work, limiting work in progress, and maximizing efficiency. It uses a Kanban board to track tasks through different stages of a workflow, focusing on continuous flow rather than fixed iterations.
+	- #question What does a kanban board look like?
 ## Source [^1]
 - An agile methodology designed to enhance efficiency featuring visualization of the entire project through large boards and cards representing tasks. It helps teams manage the flow of tasks as they move through stages of completion.
 ## Source[^2]

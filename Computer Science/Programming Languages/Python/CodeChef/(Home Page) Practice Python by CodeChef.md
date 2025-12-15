@@ -180,7 +180,7 @@ print(N)
 - Input two integers and output their sum
 	- #comment 
 		- Uses [[input() (Python)|input()]] to take in input as a string `"3 5"`
-		- [[split() python|split()]] will split the string with whitespaces into a list `["3", "5"]`
+		- [[split() (python)|split()]] will split the string with whitespaces into a list `["3", "5"]`
 		- [[map() (Python)|map()]] applies the `int` function to each item in list converting them to integers
 			- #question How does map work?
 		- `a,b =`  unpacks the two integers from the result and assigns them variables `a` and `b`

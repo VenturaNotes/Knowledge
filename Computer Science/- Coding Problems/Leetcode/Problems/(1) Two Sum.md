@@ -136,7 +136,7 @@ for i, num in enumerate(nums):
 ```
 - Creates a list containing pairs `[number, original index]` to keep track of indices
 	- So `nums = [3, 1, 4, 2]` becomes `[[3, 0], [1, 1], [4, 2], [2, 3]]`
-- A.[[sort() python|sort()]]
+- A.[[sort() (python)|sort()]]
 	- This method sorts
 - `i` starts at beginning of list and `j` starts at end of list
 

@@ -17,9 +17,12 @@ aliases:
 - A bug is a problem that occurs in software or hardware. It can be caused by incorrect code, faulty equipment, or user error. Bugs can cause programs to crash, devices to malfunction, or data to be lost. Bugs are a common occurrence in technology, and they can sometimes be challenging to find and fix. They can also cause a lot of frustration for users trying to get their work done.
 ## Source[^4]
 - An error in a computer program, or a malfunction in a computer system. To debug a program is to find and correct all bugs.
+## Source[^5]
+- A bug is typically found during coding, development, or unit testing. Bugs relate to incorrect code or logic. They affect functionality at a technical level
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: https://www.browserstack.com/guide/bug-vs-defect

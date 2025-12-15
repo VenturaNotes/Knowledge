@@ -1,5 +1,10 @@
+---
+aliases:
+  - features
+---
 ## Synthesis
-- 
+- High-level functionalities or capabilities of the product.
+	- #question What does an example look like?
 ## Source [^1]
 - n. 
 - (1) Any attribute of a sensory stimulus (1, 2, 3). A local feature is an attribute of part of the stimulus, and a global feature is an attribute of the stimulus as a whole. See also acoustic feature, charActeristic FEATURES, CONCEPT, DEFINING PROPERTIES, DISTINCTIVE FEATURE, FEATURE COMPARISON MODEL, FEATURE DETECTION THEORY, FEATURE DETECTOR, FEATURE INTEGRATION THEORY, FEATURE SEARCH, LEVELS OF PROCESSING, PROTOTYPE THEORY. 
