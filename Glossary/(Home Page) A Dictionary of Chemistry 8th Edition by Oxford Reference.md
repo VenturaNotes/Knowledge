@@ -3806,7 +3806,7 @@ Reviewed: false
 	3745. [[phase problem]]
 	3746. [[phase rule]]
 	3747. phase space
-	3748. phase transition
+	3748. [[phase transition]]
 	3749. phenanthrene
 	3750. phencyclidine
 	3751. phenol
@@ -3869,12 +3869,12 @@ Reviewed: false
 	3808. phosphorus trioxide
 	3809. phosphorylation
 	3810. phosphoryl chloride
-	3811. photoacoustic spectroscopy
+	3811. [[photoacoustic spectroscopy]]
 	3812. photocatalyst
 	3813. [[photochemical reaction]]
 	3814. photochemical smog
 	3815. photochemistry
-	3816. photochromism
+	3816. [[photochromism]]
 	3817. photoconductive effect
 	3818. photodissociation
 	3819. photoelectric effect

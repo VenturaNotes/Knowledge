@@ -3,7 +3,7 @@ aliases:
   - UI
 ---
 ## Synthesis
-- 
+- #question What is a user interface? 
 ## Source [^1]
 - The space where interactions between humans and machines occur, aiming for effective operation and control of the machine from the human end and feedback from the machine to the user.
 ## Source[^2]

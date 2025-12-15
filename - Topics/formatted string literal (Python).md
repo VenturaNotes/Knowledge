@@ -27,7 +27,6 @@ Output
 The price is 59 dollars
 ```
 
-
 ### (2) Placeholder Modifying a Variable
 Input
 ```python

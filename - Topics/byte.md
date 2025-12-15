@@ -1,3 +1,7 @@
+---
+aliases:
+  - bytes
+---
 ## Synthesis
 - 
 ## Source [^1]
