@@ -3632,22 +3632,24 @@ Reviewed: false
 	3603. oxidative decarboxylation
 	3604. oxides
 	3605. oxidizing acid
-	3606. oxidizing agent
+	3606. [[oxidizing agent]]
 	3607. oximes
-	3608. oxo-
-	3609. oxoacid
-	3610. 3-oxobutanoic acid
-	3611. oxonium ion
-	3612. oxo process
-	3613. oxyacetylene burner
-	3614. oxycodone
+	3608. [[oxo-]]
+	3609. [[oxoacid]]
+	3610. [[3-oxobutanoic acid]]
+	3611. [[oxonium ion]]
+	3612. [[oxo process]]
+	3613. [[oxyacetylene burner]]
+	3614. [[oxycodone]]
 	3615. oxygen
-	3616. oxygenates
+	3616. [[oxygenates]]
 	3617. oxyhaemoglobin
-	3618. oxytocin
-	3619. ozonation
+		1. See haemoglobin
+	3618. [[oxytocin]]
+	3619. [[ozonation]]
 	3620. ozone
 	3621. ozone hole
+		1. See ozone layer
 	3622. ozone layer
 	3623. ozonides
 	3624. ozonolysis
@@ -3663,20 +3665,29 @@ Reviewed: false
 	3634. palmitate
 	3635. palmitic acid
 	3636. pantothenic acid
-	3637. papain
+	3637. [[papain]]
 	3638. paper chromatography
 	3639. para-
 	3640. paraffin
+		1. See petroleum
 	3641. paraffins
+		1. See alkanes
 	3642. paraffin wax
+		1. See petroleum
 	3643. paraformaldehyde
+		1. See methanal
 	3644. parahelium
+		1. See orthohelium
 	3645. parahydrogen
+		1. See hydrogen
 	3646. paraldehyde
-	3647. parallel spins
+		1. See ethanal
+	3647. [[parallel spins]]
 	3648. paramagnetism
-	3649. Paraquat
+		1. See magnetism
+	3649. [[Paraquat]]
 	3650. parent
+		1. See daughter
 	3651. parity
 	3652. partially permeable membrane
 	3653. partial pressure
@@ -3695,45 +3706,59 @@ Reviewed: false
 	3666. Patterson synthesis
 	3667. Pauli, Wolfgang Ernst (1900-58)
 	3668. Pauli exclusion principle
-	3669. Pauling's rules
+	3669. [[Pauling's rules]]
 	3670. Pauling, Linus Carl (1901-94)
 	3671. PCB
+		1. See polychlorinated biphenyl
 	3672. PCP
+		1. See phencyclidine
 	3673. peacock ore
+		1. See bornite
 	3674. pearl ash
+		1. See potassium carbonate
 	3675. pearlite
+		1. See steel
 	3676. Peierls instability
 	3677. pelargonic acid
-	3678. penicillin
+		1. See nonanoic acid
+	3678. [[penicillin]]
 	3679. Penning ionization
-	3680. Penrose tiling
-	3681. pentaerythritol
-	3682. pentaerythritol tetranitrate
-	3683. pentahydrate
-	3684. pentane
-	3685. pentanedioic acid
-	3686. pentanoic acid
-	3687. pentavalent
-	3688. pentlandite
-	3689. pentose
-	3690. pentose phosphate pathway
-	3691. pentyl group
-	3692. pepsin
-	3693. peptide
-	3694. peptide mapping
-	3695. peptidoglycan
-	3696. per-
+	3680. [[Penrose tiling]]
+	3681. [[pentaerythritol]]
+	3682. [[pentaerythritol tetranitrate]]
+	3683. [[pentahydrate]]
+	3684. [[pentane]]
+	3685. [[pentanedioic acid]]
+	3686. [[pentanoic acid]]
+	3687. [[pentavalent]]
+	3688. [[pentlandite]]
+	3689. [[pentose]]
+	3690. [[pentose phosphate pathway]]
+	3691. [[pentyl group]]
+	3692. [[pepsin]]
+	3693. [[peptide]]
+	3694. [[peptide mapping]]
+	3695. [[peptidoglycan]]
+	3696. [[per-]]
 	3697. percentage yield
+		1. See theoretical yield
 	3698. perchlorate
+		1. See chlorates
 	3699. perchloric acid
+		1. See chloric(VII) acid
 	3700. perdisulphuric acid
+		1. See peroxosulphuric(VI) acid
 	3701. perfect gas
+		1. See ideal gas; gas
 	3702. perfect solution
-	3703. pericyclic reaction
+		1. See raoult's law
+	3703. [[pericyclic reaction]]
 	3704. peridot
-	3705. period
-	3706. period doubling
+		1. See olivine
+	3705. [[period]]
+	3706. [[period doubling]]
 	3707. periodic acid
+		1. See iodic(VII) acid
 	3708. [[periodic law]]
 	3709. periodic table
 	3710. periplanar
@@ -3749,30 +3774,37 @@ Reviewed: false
 	3720. peroxodisulphuric acid
 	3721. peroxomonosulphuric(VI) acid
 	3722. peroxosulphuric(VI) acid
-	3723. persistent
-	3724. persistent organic pollutant
+	3723. [[persistent]]
+	3724. [[persistent organic pollutant]]
 	3725. Perspex
-	3726. perturbation theory
+		1. Tradename for a form of polymethylmethacrylate.
+	3726. [[perturbation theory]]
 	3727. Perutz, Max Ferdinand (1914-2002)
 	3728. PES
 	3729. PESM
 	3730. pesticide
 	3731. peta-
-	3732. petrochemicals
+	3732. [[petrochemicals]]
 	3733. petrolatum
+		1. See petroleum jelly
 	3734. petroleum
-	3735. petroleum ether
-	3736. petroleum jelly
-	3737. pewter
+	3735. [[petroleum ether]]
+	3736. [[petroleum jelly]]
+	3737. [[pewter]]
 	3738. peyote
+		1. See mescaline
 	3739. Pfund series
+		1. See hydrogen spectrum
 	3740. PGA
+		1. See phosphoglyceric acid
 	3741. pH
+		1. See pH scale
 	3742. phane
-	3743. phase
-	3744. phase diagram
-	3745. phase problem
-	3746. phase rule
+		1. See cyclophane
+	3743. [[phase]]
+	3744. [[phase diagram]]
+	3745. [[phase problem]]
+	3746. [[phase rule]]
 	3747. phase space
 	3748. phase transition
 	3749. phenanthrene

@@ -1,4 +1,5 @@
 ## Synthesis
+- Directly enables a user to accomplish a task
 - A functional requirement describes a specific function or feature that the system must perform, which directly enables a user to accomplish a task 
 	- My example is that the implementation of a resizer tool in Photoshop is a functional requirement.
 ### Examples in Software

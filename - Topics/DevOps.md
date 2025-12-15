@@ -1,5 +1,5 @@
 ## Synthesis
-- A set of practices, tools, and cultural philosophies that integrates software development and IT operations
+- A set of practices, tools, and cultural philosophies that integrates software development and IT operations, aiming to 
 	- #question What is this set of practices tools, and cultural philosophies? Add information for each of these factors
 - Goal of DevOps is to improve the speed and quality of software delivery by breaking down [[silo|silos]] between development and operations teams
 ## Source[^1]
