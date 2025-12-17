@@ -3872,7 +3872,7 @@ Reviewed: false
 	3811. [[photoacoustic spectroscopy]]
 	3812. photocatalyst
 	3813. [[photochemical reaction]]
-	3814. photochemical smog
+	3814. [[photochemical smog]]
 	3815. photochemistry
 	3816. [[photochromism]]
 	3817. photoconductive effect
@@ -3886,9 +3886,9 @@ Reviewed: false
 	3825. [[photoionization]]
 	3826. photoluminescence
 	3827. photolysis
-	3828. photon
+	3828. [[photon]]
 	3829. photophosphorylation
-	3830. photosensitive substance
+	3830. [[photosensitive substance]]
 	3831. photosynthesis
 	3832. photosynthetic pigments
 	3833. phototroph
