@@ -3895,7 +3895,7 @@ Reviewed: false
 	3834. pH scale
 	3835. phthalic acid
 	3836. phthalic anhydride
-	3837. phthalic ester
+	3837. [[phthalic ester]]
 	3838. phthalocyanine
 	3839. [[physical chemistry]]
 	3840. physisorption
@@ -3907,7 +3907,7 @@ Reviewed: false
 	3846. picrate
 	3847. picric acid
 	3848. pi electron
-	3849. piezoelectricity
+	3849. [[piezoelectricity]]
 	3850. pig iron
 	3851. pinacol rearrangement
 	3852. pi orbital
@@ -3946,7 +3946,7 @@ Reviewed: false
 	3885. point group
 	3886. poise
 	3887. poison
-	3888. polar compound
+	3888. [[polar compound]]
 	3889. polarimeter
 	3890. polariscope
 	3891. polarizability
