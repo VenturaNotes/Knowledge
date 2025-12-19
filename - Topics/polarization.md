@@ -5,7 +5,13 @@
 ## Source[^2]
 - (1) A term given to the process in which middle-class jobs requiring moderate levels of skill decrease in number relative to low-paid and well-paid jobs. Polarization has increased in the US due to the rise of manufacturing in other countries and has contributed to income inequality.
 - (2) The rule introduced by the UK Securities and Investment Board that bodies such as banks and building societies must choose either to give independent advice on all brands of life insurance and unit trusts or confine themselves to selling the products of only one company. The intention was to ensure either that advice was truly independent or that customers were aware that it was not.
+## Source[^3]
+- (1) See polarization of light.
+- (2) The formation of products of the chemical reaction in a voltaic cell in the vicinity of the electrodes resulting in increased resistance to current flow and, frequently, to a reduction in the e.m.f. of the cell. See also depolarization. 
+- (3) The partial separation of electric charges in an insulator subjected to an electric field. 
+- (4) The separation of charge in a polar chemical bond.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
