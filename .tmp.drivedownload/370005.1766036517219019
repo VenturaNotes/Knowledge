@@ -1,0 +1,604 @@
+- (1) What is the first phase of the security lifecycle?
+	- Assess
+		- The security lifecycle typically begins with the Assess phase, where current security posture is evaluated and risks are identified
+			- #question What is security posture?
+			- #question What goes into assessment?
+- (2) Which of the following is NOT typically considered one of the main phases of the security lifecycle?
+	- Outsource
+		The main phases of the security lifecycle are typically Assess, Design, Implement, and Maintain. Outsourcing is a strategy that can be applied within these phases but is not a core phase itself.
+		- #question What makes up each phase?
+- (3) What does the CIA triad in information security stand for?
+- (4) Which threat modeling methodology focuses on assets, threats, and vulnerabilities?
+- (5) What does GDPR stand for in the context of cyber laws?
+- (6) What is the primary purpose of event log analysis in the context of cybersecurity?
+- (7) Which type of log is most crucial for identifying unauthorized access attempts?
+- (8) What is a common technique for detecting anomalies in event logs?
+- (9) How can event log analysis help in post-incident investigations?
+- (10) Which of the following best describes the concept of data integrity?
+- (11) What is the primary objective of risk management in cybersecurity
+- (12) Which process involves identifying potential security threats and vulnerabilities?
+- (13) Which technique is commonly used in risk evaluation to determine the likelihood and impact of identified risks?
+- (14) What is the purpose of risk mitigation strategies in cybersecurity?
+- (15) Which of the following is NOT a common risk identification technique?
+- (16) How does qualitative risk analysis differ from quantitative risk analysis?
+- (17) Which risk mitigation strategy involves accepting the risk and choosing not to take any action unless the risk occurs?
+- (18) What is a key benefit of conducting a risk assessment in cybersecurity?
+- (19) What is the primary goal of the 'Design' phase in the security lifecycle?
+- (20) Which organization developed the threat modeling technique known by the acronym STRIDE?
+- (21) What U.S. law requires certain financial institutions to protect consumers' personal financial information?
+- (22) Which of the following best ensures data confidentiality?
+- (23) What does the 'Maintain' phase of the security lifecycle primarily involve?
+- (24) Which command would you use to display the IP routing table on a Linux system?
+- (25) What information does the 'netstat -a' command provide?
+- (26) What is the purpose of the ARP cache?
+- (27) Which nslookup command would you use to query a specific DNS server for a domain?
+- (28) What is the main difference between traceroute and tracert?
+- (29) Which tcpdump command would capture only TCP traffic on port 80?
+- (30) Which iptables chain is checked first for incoming packets in the default policy?
+- (31) Which of the following is NOT a valid capture filter for tshark?
+- (32) What type of biometric authentication has become increasingly common on smartphones?
+- (33) Which of the following is an example of a hardware security token?
+- (34) At which layer of the OSI model does data encryption typically occur?
+- (35) Which nmap command would you use to perform a stealthy SYN scan on a target?
+- (36) What does the nmap command `nmap -p- 192.168.1.1` do?
+- (37) Which nmap script would you use to detect vulnerabilities in a target system?
+- (38) Which protocol is used for secure shell connections?
+- (39) Which port is commonly associated with HTTPS traffic?
+- (40) What is the main difference between SSL and TLS?
+- (41) What is the main difference between NAS and SAN?
+- (42) Which nmap option would you use to determine the operating system of a target?
+- (43) In Wireshark, what does the filter 'http.request.method == "POST"' do?
+- (44) What is the primary use of aircrack-ng?
+- (45) What type of attack does John the Ripper primarily perform?
+- (46) Which of the following is NOT a common module type in Metasploit?
+- (47) What is the primary purpose of the Canvas penetration testing tool?
+- (48) What is one of the main features of Core Impact?
+- (49) Which of the following is NOT typically a part of the vulnerability management lifecycle?
+- (50) Which of the following is NOT a common technique in reverse engineering?
+- (51) What does 'Rules of Engagement' refer to in penetration testing?
+- (52) What is the main difference between an Intrusion Detection System (IDS) and an Intrusion Prevention System (IPS)?
+- (53) What is the primary purpose of a DMZ (Demilitarized Zone) in network segmentation?
+- (54) Which of the following is NOT typically placed in a DMZ?
+- (55) What is the primary purpose of salting in cryptography?
+- (56) In the context of password storage, what is the correct order of operations?
+- (57) Which of the following is NOT a characteristic of a good cryptographic hash function?
+- (58) What is the primary purpose of the Diffie-Hellman algorithm?
+- (59) Which component of PKI (Public Key Infrastructure) is responsible for issuing and managing digital certificates?
+- (60) What is the main purpose of code obfuscation in software development?
+- (61) Which of the following is NOT typically ensured by a digital signature?
+- (62) What distinguishes whaling from regular phishing attacks?
+- (63) What medium is primarily used in vishing attacks?
+- (64) Which of the following best describes smishing?
+- (65) What is the key difference between spam and phishing?
+- (66) Which physical security threat involves following an authorized person into a restricted area without proper credentials?
+- (67) What is the primary goal of dumpster diving in the context of information security?
+- (68) What is a zero-day vulnerability?
+- (69) Which of the following best describes a rogue access point?
+- (70) What is the primary risk associated with a buffer overflow vulnerability?
+- (71) Which of the following best describes a memory leak?
+- (72) What is the main security concern with memory leaks?
+- (73) What is Two-Factor Authentication (2FA)?
+- (74) Which of the following is NOT a common factor used in 2FA?
+- (75) What is a potential drawback of using SMS for 2FA?
+- (76) Which layer of the OSI model is responsible for logical addressing and routing?
+- (77) At which OSI layer does the TCP protocol operate?
+- (78) Which OSI layer is responsible for encryption and decryption?
+- (79) Which command is used to display the IP configuration of a network interface?
+- (80) What does the netstat command primarily show?
+- (81) What does ARP stand for in networking?
+- (82) What is the primary function of nslookup?
+- (83) Which command is commonly used to trace the route packets take to reach a network host?
+- (84) What is the primary purpose of tcpdump?
+- (85) What is the main function of iptables in Linux systems?
+- (86) What is nmap primarily used for?
+- (87) What is the main advantage of masscan over nmap?
+- (88) What is the relationship between Wireshark and tshark?
+- (89) What is the primary benefit of using 2FA (Two-Factor Authentication)?
+- (90) Which of the following is NOT a common type of biometric authentication?
+- (91) What is the main advantage of using hardware tokens for authentication?
+- (92) Which layer of the OSI model is responsible for routing and forwarding?
+- (93) Which of the following is NOT a common category in the PASTA threat modeling framework?
+- (94) What is the primary goal of a Pass-the-Hash attack?
+- (95) Which of the following best describes a Directory Traversal vulnerability?
+- (96) What is the primary function of a firewall in network security?
+- (97) Which of the following DNS-related tools is primarily used for testing and troubleshooting DNS servers?
+- (98) What is the main purpose of using traceroute?
+- (99) Which of the following best describes the primary use of curl in cybersecurity?
+- (100) What is the primary function of Wireshark in network security?
+- (101) What is the main purpose of a memory dump in cybersecurity investigations?
+- (102) In the context of cybersecurity, what does ISO primarily refer to?
+- (103) What does RMF stand for in the context of cybersecurity?
+- (104) What is NIST best known for in the field of cybersecurity?
+- (105) What does CIS stand for in the context of cybersecurity?
+- (106) Which international standard provides guidelines for information security management systems?
+- (107) What aspect of the CIA triad does a Distributed Denial of Service (DDoS) attack primarily threaten?
+- (108) In the context of threat modeling, what does DREAD stand for?
+- (109) Which phase of the security lifecycle would typically include penetration testing?
+- (110) What does the 'non-repudiation' principle in cybersecurity ensure?
+- (111) What technique is commonly used to ensure data integrity during transmission?
+- (112) Which of the following best describes the principle of 'least privilege' in cybersecurity?
+- (113) Which connection type is primarily used for contactless payments and data transfer over short distances?
+- (114) What is the main function of a hypervisor in virtualization?
+- (115) Which OS-independent tool can be used to troubleshoot network connectivity issues?
+- (116) What is the primary role of Docker in modern application deployment?
+- (117) Which command provides information about the network interfaces and IP configuration on a Windows system?
+- (118) What type of wireless connection is most commonly used in home networks for internet access?
+- (119) Which tool can be used to inspect and manipulate network traffic in a cross-platform manner?
+- (120) What is the function of a host OS in a virtualization environment?
+- (121) Which wireless technology is commonly used for personal area networks and connecting peripherals?
+- (122) What does the 'ifconfig' command do on Unix-like systems?
+- (123) Which type of virtual machine is isolated from the underlying host OS and runs its own operating system?
+- (124) Which command renews the IP address assigned to a network interface on Windows?
+- (125) Which connection type is typically used for secure, high-speed data transfer in enterprise networks?
+- (126) What is the primary purpose of using a hypervisor in server virtualization?
+- (127) What does the 'docker ps' command do?
+- (128) Which technology is used to create isolated environments for running applications with their dependencies?
+- (129) What does 'NFC' stand for in the context of wireless communication?
+- (130) What is the primary function of a protocol analyzer in network security?
+- (131) What is the primary purpose of the Kerberos authentication protocol?
+- (132) In the Kerberos protocol, what is the purpose of the Ticket Granting Ticket (TGT)?
+- (133) What is the primary function of the RADIUS protocol?
+- (134) Which of the following is a typical use case for the RADIUS protocol?
+- (135) What is LDAP primarily used for?
+- (136) Which type of information is typically stored in an LDAP directory?
+- (137) What is the main purpose of Public Key Infrastructure (PKI)?
+- (138) In PKI, what is the role of a Certificate Authority (CA)?
+- (139) What is the primary goal of the COBIT framework?
+- (140) What is the OWASP Top 10?
+- (141) Which of the following is NOT considered a social engineering tactic?
+- (142) What is 'tailgating' in the context of social engineering?
+- (143) Which social engineering technique often involves creating a fake scenario to manipulate victims?
+- (144) What is the primary goal of most social engineering attacks?
+- (145) Which of the following is the best defense against social engineering attacks?
+- (146) What is the primary risk associated with dumpster diving in a corporate context?
+- (147) Which of the following items is LEAST likely to be found during dumpster diving?
+- (148) What is the best practice to mitigate risks associated with dumpster diving?
+- (149) Which type of information is often targeted in dumpster diving attacks?
+- (150) In the context of information security, what does 'clean desk policy' help prevent?
+- (151) Which risk is included in the OWASP Top 10?
+- (152) Which of the following is a secure coding practice?
+- (153) Which of the following is considered a best practice for secure coding?
+- (154) What is the purpose of event log analysis in cybersecurity?
+- (155) Which tool is commonly used for event log analysis?
+- (156) What is the purpose of using prepared statements in database queries?
+- (157) Which of the following is a secure way to implement password reset functionality?
+- (158) What is the purpose of the HTTP Strict Transport Security (HSTS) header?
+- (159) Which of the following is NOT a secure coding practice for preventing XML External Entity (XXE) attacks?
+- (160) What is the purpose of the Same-Origin Policy in web browsers?
+- (161) What is the primary goal of input validation in secure coding?
+- (162) Which of the following is NOT secure way to store passwords?
+- (163) What is the principle of least privilege?
+- (164) Which of the following is a common method to prevent SQL injection attacks?
+- (165) What is Cross-Site Scripting (XSS)?
+- (166) Which of the following is NOT a secure way to prevent directory traversal attacks?
+- (167) What is the purpose of Content Security Policy (CSP)?
+- (168) What is the OWASP Top 10?
+- (169) Which of the following is a secure way to implement session management?
+- (170) What is the purpose of HTTPS?
+- (171) What is a buffer overflow attack?
+- (172) Which of the following is NOT a secure coding practice for handling sensitive data?
+- (173) What is the principle of defense in depth?
+- (174) Which of the following is a secure way to generate random numbers for cryptographic purposes?
+- (175) What is the purpose of code signing?
+- (176) Which of the following is NOT a secure way to handle file uploads?
+- (177) What is the purpose of input sanitization?
+ - (178) Which of the following is a secure way to store API keys in a web application?
+- (179) What is the principle of fail-safe defaults?
+- (180) Which of the following is NOT a secure coding practice for preventing integer overflow?
+- (181) What does SIEM stand for?
+- (182) What is the primary purpose of a SIEM tool?
+- (183) Which of the following is a key feature of SIEM tools?
+- (184) How can SIEM tools help in compliance reporting?
+- (185) What is the primary function of an Intrusion Prevention System (IPS)?
+- (186) Which of the following is a type of IPS?
+- (187) How does a network-based IPS operate?
+- (188) What is one advantage of using an IPS over an IDS?
+- (189) Why is it important to regularly update IPS signatures?
+- (190) What is the primary function of an Intrusion Detection System (IDS)?
+- (191) Which type of IDS compares network traffic against known attack patterns?
+- (192) What is a common limitation of a signature-based IDS?
+- (193) What is the difference between an IDS and an IPS?
+- (194) How can an IDS improve network security?
+- (195) What is Group Policy in Windows environments?
+- (196) Which tool is commonly used to edit Group Policy settings?
+- (197) How does Group Policy improve security in a Windows environment?
+- (198) What is the purpose of Group Policy Object (GPO) linking?
+- (199) What is the primary goal of port blocking?
+- (200) Which port is typically blocked to prevent HTTP traffic?
+- (201) What is a common use case for blocking port 22?
+- (202) Which type of firewall rule would you use to block a specific port?
+- (203) How can port blocking contribute to defense-in-depth?
+- (204) What does MAC stand for in the context of MAC-based filtering?
+- (205) How does MAC-based filtering enhance network security?
+- (206) What is a potential drawback of using MAC-based filtering?
+- (207) Which network devices commonly use MAC-based filtering?
+- (208) What is the main purpose of MAC-based filtering in wireless networks?
+- (209) What does NAT stand for?
+- (210) What is the primary purpose of NAT?
+- (211) Which type of NAT maps a single public IP address to a single private IP address?
+- (212) What is the main difference between PAT and dynamic NAT?
+- (213) How does NAT improve network security?
+- (214) What information can typically be found in a firewall log?
+- (215) What does a 'denied' entry in a firewall log indicate?
+- (216) Which field in a firewall log shows the source IP address of a packet?
+- (217) How can firewall logs help in identifying a security incident?
+- (218) Which log analysis technique involves looking for repeated failed connection attempts?
+- (219) What is packet capture?
+- (220) Which tool is commonly used for packet capture?
+- (221) What is the purpose of a packet capture filter?
+- (222) Which of the following is NOT a packet capture file format?
+- (223) Why is timestamping important in packet capture?
+- (224) What is the purpose of User Account Control (UAC) in Windows?
+- (225) Which tool is used to manage security policies on a Windows machine?
+- (226) What is BitLocker used for?
+- (227) How can you securely remove sensitive data from a Windows machine?
+- (228) Which feature in Windows helps protect against malicious software by preventing unauthorized programs from making changes to the system?
+- (229) What is the purpose of the 'sudo' command in Linux?
+- (230) Which file contains user account information in Linux?
+- (231) How can you set file permissions in Linux?
+- (232) What is SELinux?
+- (233) Which command is used to display all active processes in Linux?
+- (234) What is FileVault used for in macOS?
+- (235) Which feature in macOS provides runtime protection and prevents malware from modifying system files?
+- (236) What is the purpose of the macOS Gatekeeper?
+- (237) Which tool in macOS can be used to monitor system logs for security events?
+- (238) How can macOS users ensure their system is protected against known security vulnerabilities?
+- (239) What is a public IP address?
+- (240) Which of the following is a private IP address?
+- (241) Why are private IP addresses used in local networks?
+- (242) Which organization is responsible for assigning public IP addresses?
+- (243) What is a potential issue when using only public IP addresses within a network?
+- (244) What is the main purpose of subnetting?
+- (245) Which of the following is a subnet mask for a Class C network?
+- (246) How many subnets are created when a `/24` network is subnetted with a `/26` prefix?
+- (247) What is the host range for the subnet `192.168.10.0/28`?
+- (248) What is the purpose of the default gateway in a subnetted network?
+- (249) What does CIDR stand for?
+- (250) What does the `/24` represent in the CIDR notation `192.168.1.0/24`?
+- (251) 251. How many hosts can a `/30` network support?
+- (252) What is the subnet mask for the CIDR notation `/16`?
+- (253) How does CIDR help in reducing the size of routing tables?
+- (254) What is the primary function of a default gateway?
+- (255) Which command can be used to view the default gateway configuration on a Linux system?
+- (256) How can you set a default gateway on a Windows machine using the command line?
+- (257) Why might a network device need a default gateway?
+- (258) What could cause a device to be unable to reach external networks even if it has a valid IP address and subnet mask?
+- (259) What is the main purpose of a VLAN?
+- (260) Which protocol is commonly used for VLAN tagging?
+- (261) How does a VLAN improve network security?
+- (262) What is a trunk port in the context of VLANs?
+- (263)
+	- #comment Question DNE
+- (264) Which of the following is a best practice for securing DHCP in an enterprise network?
+- (265) Which of the following is NOT a common security risk associated with DHCP?
+- (266) What is the purpose of DHCP snooping in network security?
+- (267) Which of the following is a best practice for securing DHCP in an enterprise network?
+- (268) What is the primary purpose of implementing DHCP Option 82?
+- (269) In the context of DHCP security, what is IP source guard?
+- (270) Which of the following is NOT a common DNS security threat?
+- (271) Which of the following is a best practice for securing DNS servers?
+- (272) What is DNS over HTTPS (DoH) designed to protect against?
+- (273) Which of the following is NOT a typical function of a DNS firewall?
+- (274) What is the primary purpose of DNSSEC (Domain Name System Security Extensions)?
+- (275) Which network protocol is vulnerable to ARP spoofing attacks?
+- (276) What is a key security practice for router configuration?
+- (277) Which encryption protocol is considered the most secure for protecting a WLAN?
+- (278) Which of the following is NOT typically a switch security feature?
+- (279) What is the primary purpose of implementing port security on a switch?
+- (280) Which attack is mitigated by implementing DHCP snooping on a switch?
+- (281) What is the purpose of implementing private VLANs on a switch?
+- (282) Which of the following is a best practice for securing switch management access?
+- (283) Which encryption protocol is considered the most secure for protecting a WLAN?
+- (284) What is the purpose of implementing MAC address filtering on a wireless network?
+- (285) Which of the following is NOT a recommended practice for securing a wireless network?
+- (286) What is the purpose of implementing a guest WLAN?
+- (287) Which of the following is a characteristic of an Evil Twin attack in wireless networks?
+- (288) At which layer of the OSI model does a router primarily operate?
+- (289) Which of the following protocols provides both encryption and authentication for secure remote access?
+- (290) What type of network sniffing technique involves capturing all network traffic indiscriminately?
+- (291) Which of the following is NOT a common use of network sniffing for legitimate purposes?
+- (292) What technique is used to redirect traffic to a malicious host for the purpose of sniffing?
+- (293) Which protocol is particularly vulnerable to sniffing attacks due to its unencrypted nature?
+- (294) What is the primary purpose of using a network tap for sniffing?
+- (295) Which of the following is NOT an effective countermeasure against shoulder surfing?
+- (296) What type of authentication is most resistant to shoulder surfing attacks?
+- (297) In the context of shoulder surfing, what is 'visual hacking'?
+- (298) Which of the following environments is MOST susceptible to shoulder surfing attacks?
+- (299) Which OSI layer is responsible for encryption and decryption of data?
+- (300) At which OSI layer does the SSL/TLS protocol primarily operate?
+- (301) Which OSI layer is most vulnerable to ARP spoofing attacks?
+- (302) At which OSI layer do firewalls that filter based on IP addresses and port numbers primarily operate?
+- (303) Which protocol is designed to securely transfer email between servers?
+- (304) What is the main security advantage of SFTP over FTP?
+- (305) Which protocol is used to securely distribute encryption keys over a public network?
+- (306) What security mechanism does HTTPS use to protect data in transit?
+- (307) Which network protocol operates at the Data Link layer and is vulnerable to ARP spoofing attacks?
+- (308) What is the main security concern with the UDP protocol?
+- (309) Which of the following is a characteristic of the IPv6 protocol that enhances security compared to IPv4?
+- (310) What type of attack exploits the TCP three-way handshake process?
+- (311) Which protocol is designed to provide confidentiality for IP packets?
+- (312) What is a key security practice for router configuration?
+- (313) Which of the following is NOT typically a secure method for accessing a router's administrative interface?
+- (314) What is the purpose of implementing Access Control Lists (ACLs) on a router?
+- (315) Which of the following is a best practice for securing router passwords?
+- (316) What is the purpose of implementing RPF (Reverse Path Forwarding) on a router?
+- (317) 
+	- #comment Question DNE
+- (318) Which of the following is NOT a common way to discover zero-day vulnerabilities?
+- (319) What is the best defense against zero-day vulnerabilities?
+- (320) What is a "bug bounty program' in the context of zero-day vulnerabilities?
+- (321) What is the primary goal of penetration testing?
+- (322) Which of the following is NOT a common phase in a typical penetration testing methodology?
+- (323) What is the primary difference between black box and white box penetration testing?
+- (324) Which of the following is NOT a common type of penetration test?
+- (325) What is the purpose of the 'exploitation' phase in penetration testing?
+- (326) What is the primary goal of reconnaissance in cybersecurity?
+- (327) Which of the following is an example of passive reconnaissance?
+- (328) What does the term 'footprinting' refer to in reconnaissance?
+- (329) Which tool is commonly used for DNS enumeration during reconnaissance?
+- (330) What is 'social media reconnaissance' in the context of cybersecurity?
+- (331) What is the primary purpose of vulnerability scanning tools?
+- (332) Which of the following is NOT a common feature of vulnerability scanning tools?
+- (333) What is the difference between an authenticated and unauthenticated vulnerability scan?
+- (334) Which of the following is a popular open-source vulnerability scanner?
+- (335) What potential issue should be considered when running vulnerability scans on production systems?
+- (336) What is the main characteristic of a brute force attack?
+- (337) Which of the following is a major disadvantage of brute force attacks?
+- (338) What is a 'hybrid' brute force attack?
+- (339) Which of the following is an effective defense against brute force attacks?
+- (340) What is 'password salting' in the context of defending against brute force attacks?
+- (341) What is the primary difference between a dictionary attack and a brute force attack?
+- (342) Which of the following is a common source for creating dictionary attack wordlists?
+- (343) What is 'password masking' in the context of dictionary attacks?
+- (344) Which of the following passwords is most resistant to a basic dictionary attack?
+- (345) What technique can make dictionary attacks more effective against complex password policies?
+- (346) What is a rainbow table in the context of password cracking?
+- (347) What is the main advantage of using rainbow tables over brute force attacks?
+- (348) Which of the following is an effective defense against rainbow table attacks?
+- (349) What is a limitation of rainbow tables?
+- (350) In the context of rainbow tables, what does the term 'chain' refer to?
+- (351) What is SQL injection?
+- (352)Which of the following is a common consequence of a successful SQL injection attack?
+- (353)
+- (354)
+- (355)
+- (356)
+- (357)
+- (358)
+- (359)
+- (360)
+- (361)
+- (362)
+- (363)
+- (364)
+- (365)
+- (366)
+- (367)
+- (368)
+- (369)
+- (370)
+- (371)
+- (372)
+- (373)
+- (374)
+- (375)
+- (376)
+- (377)
+- (378)
+- (379)
+- (380)
+- (381)
+- (382)
+- (383)
+- (384)
+- (385)
+- (386)
+- (387)
+- (388)
+- (389)
+- (390)
+- (391)
+- (392)
+- (393)
+- (394)
+- (395)
+- (396)
+- (397)
+- (398)
+- (399)
+- (400)
+- (401)
+- (402)
+- (403)
+- (404)
+- (405)
+- (406)
+- (407)
+- (408)
+- (409)
+- (410)
+- (411)
+- (412)
+- (413)
+- (414)
+- (415)
+- (416)
+- (417)
+- (418)
+- (419)
+- (420)
+- (421)
+- (422)
+- (423)
+- (424)
+- (425)
+- (426)
+- (427)
+- (428)
+- (429)
+- (430)
+- (431)
+- (432)
+- (433)
+- (434)
+- (435)
+- (436)
+- (437)
+- (438)
+- (439)
+- (440)
+- (441)
+- (442)
+- (443)
+- (444)
+- (445)
+- (446)
+- (447)
+- (448)
+- (449)
+- (450)
+- (451)
+- (452)
+- (453)
+- (454)
+- (455)
+- (456)
+- (457)
+- (458)
+- (459)
+- (460)
+- (461)
+- (462)
+- (463)
+- (464)
+- (465)
+- (466)
+- (467)
+- (468)
+- (469)
+- (470)
+- (471)
+- (472)
+- (473)
+- (474)
+- (475)
+- (476)
+- (477)
+- (478)
+- (479)
+- (480)
+- (481)
+- (482)
+- (483)
+- (484)
+- (485)
+- (486)
+- (487)
+- (488)
+- (489)
+- (490)
+- (491)
+- (492)
+- (493)
+- (494)
+- (495)
+- (496)
+- (497)
+- (498)
+- (499)
+- (500)
+- (501)
+- (502)
+- (503)
+- (504)
+- (505)
+- (506)
+- (507)
+- (508)
+- (509)
+- (510)
+- (511)
+- (512)
+- (513)
+- (514)
+- (515)
+- (516)
+- (517)
+- (518)
+- (519)
+- (520)
+- (521)
+- (522)
+- (523)
+- (524)
+- (525)
+- (526)
+- (527)
+- (528)
+- (529)
+- (530)
+- (531)
+- (532)
+- (533)
+- (534)
+- (535)
+- (536)
+- (537)
+- (538)
+- (539)
+- (540)
+- (541)
+- (542)
+- (543)
+- (544)
+- (545)
+- (546)
+- (547)
+- (548)
+- (549)
+- (550)
+- (551)
+- (552)
+- (553)
+- (554)
+- (555)
+- (556)
+- (557)
+- (558)
+- (559)
+- (560)
+- (561)
+- (562)
+- (563)
+- (564)
+- (565)
+- (566)
+- (567)
+- (568)
+- (569)
+- (570)
+- (571)
+- (572)
+- (573)
+- (574)
+- (575)
+- (576)
+- (577)
+- (578)
+- (579)
+- (580)
+- (581)
+- (582)
+- (583)
+- (584)
+- (585)
+- (586)
+- (587)
+- (588)
+- (589)
+- (590)
+- (591)
+- (592)
+- (593)
+- (594)
+- (595)

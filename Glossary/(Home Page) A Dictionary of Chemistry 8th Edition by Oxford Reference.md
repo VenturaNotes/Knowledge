@@ -3950,12 +3950,12 @@ Reviewed: false
 	3889. polarimeter
 	3890. polariscope
 	3891. polarizability
-	3892. polarization
+	3892. [[polarization]]
 	3893. polarization of light
 	3894. polarizer
-	3895. polar molecule
+	3895. [[polar molecule]]
 	3896. polarography
-	3897. Polaroid
+	3897. [[Polaroid]]
 	3898. polar solvent
 	3899. pollutant
 	3900. pollution

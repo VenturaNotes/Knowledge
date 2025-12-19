@@ -2477,219 +2477,436 @@ print(add(2, 3, d=4))
 - (501) Can lambda functions be used inside list comprehensions?
 - (502) What is the output of the following code: `(lambda x: x*x)(5)`?
 - (503) Which of the following is a valid lambda function that returns the square of a number?
-- (504)
-- (505)
-- (506)
-- (507)
-- (508)
-- (509)
-- (510)
-- (511)
-- (512)
-- (513)
-- (514)
-- (515)
-- (516)
-- (517)
-- (518)
-- (519)
-- (520)
+- (504) What is the output of the following code: `(lambda x, y: x / y) (10,2)`?
+- (505) Can lambda functions be assigned to variables
+- (506) What is the output of the following code: `(lambda x, y: x % y)(10, 3)`?
+- (507) Which of the following is a valid lambda function that returns the maximum of two numbers?
+- (508) What is the output of the following code: `(lambda x: x and x * 2)(0)`?
+- (509) Can lambda functions be used as return values of other functions?
+- (510) What is the output of the following code: `(lambda x, y: x **y)(2, 3)`?
+- (511) Which of the following is a valid lambda function that returns the length of a string?
+- (512) What is the output of the following code: `(lambda x: x > 0)(-1)`?
+- (513) Can lambda functions be used as arguments to other functions?
+- (514) What is the output of the following code: `(lambda x, y: x // y)(10, 3)`?
+- (515) Which of the following is a valid lambda function that returns the concatenation of two strings?
+- (516) What is the output of the following code: `(lambda x: x * 2 if x > 0 else -x)(-3)`?
+- (517) What is the main purpose of using classes in Python?
+- (518) How do you define a class in Python?
+- (519) What is the purpose of the `__init__` method in a Python class?
+- (520) How do you create an instance of a class in Python?
 - (521)
-- (522)
-- (523)
-- (524)
-- (525)
-- (526)
-- (527)
-- (528)
-- (529)
-- (530)
-- (531)
-- (532)
-- (533)
-- (534)
-- (535)
-- (536)
-- (537)
-- (538)
-- (539)
-- (540)
-- (541)
-- (542)
-- (543)
-- (544)
-- (545)
-- (546)
-- (547)
-- (548)
-- (549)
-- (550)
-- (551)
-- (552)
-- (553)
-- (554)
-- (555)
-- (556)
-- (557)
-- (558)
-- (559)
-- (560)
-- (561)
-- (562)
-- (563)
-- (564)
+	- #comment This question does not seem to exist?
+- (522) How do you define a subclass in Python?
+- (523) What is polymorphism in Python?
+- (524) What is encapsulation in Python?
+- (525) How do you define a private attribute in a Python class?
+- (526) What is the purpose of the `super()` function in Python?
+- (527) What is the difference between a class method and a static method in Python?
+- (528) How do you define a static method in Python?
+- (529) What is the purpose of the `__str__` method in a Python class?
+- (530) How do you define a property in a Python class?
+- (531) What is the purpose of the `__rep__` method in a Python class?
+- (532) How do you define an abstract class in Python?
+- (533) What is the purpose of the `__del__` method in a Python class?
+- (534) How do you define a class attribute in Python?
+- (535) What is the purpose of the `__call__` method in a Python class?
+- (536) How do you define a method that can be called on both the class and its instances?
+- (537) What is the purpose of the `__getitem__` method in a Python class?
+- (538) How do you define a method that should not be overridden by subclasses?
+- (539) What is the purpose of the `__setitem__` method in a Python class?
+- (540) How do you define a method that should be overridden by subclasses?
+- (541) What is the purpose of the `__len__` method in a Python class?
+- (542) How do you define a method that should be called when an instance is used in a context manager?
+- (543) What is the purpose of the `__iter__` method in a Python class?
+- (544) How do you define a method that should be called when an instance is used in a for loop?
+- (545) What is the purpose of the `__next__` method in a Python class?
+- (546) How do you define a method inside a Python class?
+- (547) How do you access an instance variable inside a class method?
+- (548) How do you define a class variable in Python?
+- (549) How do you access a class variable inside a class method?
+- (550) What is the purpose of the self parameter in class methods?
+- (551) How do you define a class method in Python?
+- (552) How do you call a class method from an instance of the class?
+- (553) How do you call a static method from an instance of the class?
+- (554) How do you call a class method from the class itself?
+- (555) How do you call a static method from the class itself?
+- (556) How do you inherit from a class in Python?
+- (557) How do you call a method from the superclass in a subclass?
+- (558) How do you override a method in a subclass?
+- (559) What is the purpose of the `__str__` method in a class?
+- (560) How do you check if an object is an instance of a class?
+- (561) How do you define a private variable in a class?
+- (562) How do you define a property in a class?
+- (563) How do you define a setter for a property in a class?
+- (564) How do you access a private variable in a class?
 - (565)
-- (566)
-- (567)
-- (568)
-- (569)
-- (570)
-- (571)
-- (572)
-- (573)
-- (574)
-- (575)
-- (576)
-- (577)
-- (578)
-- (579)
-- (580)
-- (581)
-- (582)
-- (583)
-- (584)
-- (585)
-- (586)
+	- #comment This question does not exist either? 
+- (566)  How do you define an instance attribute in Python?
+- (567) How do you delete an attribute from an instance of a class?
+- (568) How do you check if an attribute exists in an instance of a class? 
+- (569) How do you get the value of an attribute from an instance of a class?
+- (570) What is inheritance in Python?
+- (571) Which keyword is used to inherit a class in Python?
+- (572) What is the base class in the following code?
+```python
+class Animal:
+	pass
+class Dog(Animal):
+	pass
+```
+- (573) What is the derived class in the following code?
+```python
+class Animal:
+	pass
+class Dog(Animal):
+	pass
+```
+- (574) Which method is used to call the constructor of the base class?
+- (575) What will be the output of the following code?
+```python
+class Animal:
+	def __init__(self):
+		print('Animal created')
+class Dog(Animal):
+	def __init__(self):
+		super().__init__()
+		print('Dog created')
+Dog()
+```
+- (576) Can a derived class override methods of the base class?
+- (577) What is the output of the following code?
+```python
+class Animal:
+	def sound(self):
+		return 'Some sound'
+class Dog(Animal):
+	def sound(self):
+		return 'Bark'
+d = Dog()
+print(d.sound())
+```
+- (578) What is multiple inheritance
+- (579) Which of the following is an example of multiple inheritance?
+- (580) What is the method resolution order (MRO) in Python?
+- (581) How can you view the MRO of a class?
+- (582) What is the output of the following code?
+```python
+class A:
+	def method(self):
+		print('A')
+class B(A):
+	def method(self):
+		print('B')
+class C(A):
+	def method(self):
+		print('C')
+class D(B, C):
+	pass
+d = D()
+d.method()
+```
+- (583) What is the diamond problem in multiple inheritance?
+- (584) How does Python handle the diamond problem?
+- (585) What is the output of the following code?
+```python
+class A:
+	def __init__(self):
+		print('A')
+class B(A):
+	def __init__(self):
+		print('B')
+class C(A):
+	def __init__(self):
+		super().__init__()
+		print('C')
+class D(B, C):
+	def __init__(self):
+		super().__init__()
+d = D()
+d.__init__()
+```
+- (586) Can a class inherit from multiple classes in Python?
 - (587)
-- (588)
-- (589)
-- (590)
+	- #comment This question DNE....
+- (588) What is the output of the following code?
+```python
+class A:
+	def __init__(self):
+		print('A')
+class B(A):
+	def __init__(self):
+		print('B')
+class C(B):
+	def __init__(self):
+		super().__init__()
+		print('C')
+c = C()
+```
+- (589) What is the output of the following code?
+```python
+class A:
+	def __init__(self):
+		print('A')
+class B(A):
+	def __init__(self):
+		print('B')
+class C(B):
+	def __init__(self):
+		B.__init__(self)
+		print('C')
+c = C()
+```
+- (590) What is the output of the following code?
+```python
+class A:
+	def __init__(self):
+		print('A')
+class B(A):
+	def __init__(self):
+		A.__init__(self)
+		print('B')
+class C(B):
+	def __init__(self):
+		B.__init__(self)
+		print('C')
+c = C()
+```
 - (591)
-- (592)
-- (593)
-- (594)
-- (595)
-- (596)
-- (597)
-- (598)
+	- #comment This question DNE
+- (592) What is the output of the following code?
+```python
+class A:
+	def __init__(self):
+		print('A')
+class B(A):
+	def __init__(self):
+		super().__init__()
+		print('B')
+class C(B):
+	def __init__(self):
+		print('C')
+c = C()
+```
+- (593 - 597)
+	- #comment These questions DNE
+- (598) What is the output of the following code?
+```python
+class A:
+	def __init__(self):
+		print('A')
+class B(A):
+	def __init__(self):
+		super().__init__()
+		print('B')
+class C(B):
+	def __init__(self):
+		super().__init__()
+		print('C')
+c = C()
+```
 - (599)
-- (600)
-- (601)
-- (602)
-- (603)
-- (604)
-- (605)
-- (606)
-- (607)
-- (608)
-- (609)
-- (610)
-- (611)
-- (612)
-- (613)
-- (614)
-- (615)
-- (616)
-- (617)
-- (618)
-- (619)
-- (620)
-- (621)
-- (622)
-- (623)
-- (624)
-- (625)
-- (626)
-- (627)
-- (628)
-- (629)
-- (630)
-- (631)
-- (632)
-- (633)
-- (634)
-- (635)
-- (636)
-- (637)
-- (638)
-- (639)
-- (640)
-- (641)
-- (642)
-- (643)
-- (644)
-- (645)
-- (646)
-- (647)
-- (648)
-- (649)
-- (650)
-- (651)
-- (652)
-- (653)
-- (654)
-- (655)
-- (656)
-- (657)
-- (658)
-- (659)
-- (660)
-- (661)
-- (662)
-- (663)
-- (664)
-- (665)
-- (666)
-- (667)
-- (668)
-- (669)
-- (670)
-- (671)
-- (672)
-- (673)
-- (674)
-- (675)
-- (676)
-- (677)
-- (678)
-- (679)
-- (680)
-- (681)
-- (682)
-- (683)
-- (684)
-- (685)
-- (686)
-- (687)
-- (688)
-- (689)
-- (690)
-- (691)
-- (692)
-- (693)
-- (694)
-- (695)
-- (696)
-- (697)
-- (698)
-- (699)
-- (700)
-- (701)
-- (702)
-- (703)
-- (704)
-- (705)
-- (706)
-- (707)
-- (708)
-- (709)
-- (710)
-- (711)
-- (712)
-- (713)
-- (714)
-- (715)
-- (716)
+	- #comment This question DNE
+- (600) How do you get the current date and time in Python using the datetime module?
+- (601) Which method from the datetime module returns the current local date? 
+- (602) How do you convert a string `2023-07-19` to a datetime object in Python?
+- (603) Which method would you use to format a datetime object into a string with the format `YYY-MM-DD`?
+- (604) How do you create a date object representing July 19, 2024, using the datetime module?
+- (605) Which method from the datetime module would you use to create a time object representing `14:30:00`?
+- (606) How do you create a `timedelta` object representing a duration of 5 days?
+- (607) What does the `file.read()` method do in Python?
+- (608) How can you read a single line from a file in Python?
+- (609) Which method reads all lines from a file and returns them as a list in Python?
+- (610) What is the purpose of the `file.write()` method in Python?
+- (611) How do you write a list of strings to a file in Python?
+- (612) What does the `file.close()` method do in Python?
+- (613) When should you. use the `file.flush()` method in Python?
+- (614) What is the purpose of the `file.seek()` method in Python?
+- (615) How can you get the current position of the file pointer in Python?
+- (616) What does the `math.sqrt()` method do in Python?
+- (617) What is the purpose of the `math.pow()` method in Python?
+- (618) How do you calculate the natural logarithm of a number using Python?
+- (619) What does the `math.sin()` method return in Python?
+- (620) What is the output of `math.cos(math.pi)` in Python?
+- (621) Which of the following best describes the `math.tan()` method in Python?
+- (622) What does the `math.factorial()` method compute in Python?
+- (623) What is the purpose of the `math.gcd()` method in Python?
+- (624) How do you calculate the least common multiple of two numbers using Python?
+- (625) What does the `set.symmetric_difference()` method do in Python?
+- (626) What is the purpose of the `set.intersection()` method in Python?
+- (627) How does the `set.isdisjoint()` method work in Python?
+- (628) What does the `set.difference()` method do in Python?
+- (629) What is the purpose of the `list.extend()` method in Python?
+- (630) How does the `list.append()` method work in Python?
+- (631) What does the `set.union()` method do in Python?
+- (632) What is the purpose of the `tuple.index()` method in Python?
+- (633) How does the `tuple.count()` method work in Python?
+- (634) What is the purpose of the `__init__` method in Python?
+- (635) Which dunder method is used to represent the string version of an object?
+- (636) What is the purpose of the `__repr__` method in Python?
+- (637) Which dunder method is called when an object is deleted?
+- (638) Which dunder method is used to get the length of an object?
+- (639) Which dunder method is used to compare two objects for equality?
+- (640) Which dunder method is used to compare if one object is less than another?
+- (641) Which dunder method is used to add two objects?
+- (642) Which dunder method is used to get an item from an object?
+- (643) Which dunder method is used to set an item in an object?
+- (644) Which dunder method is used to delete an item from an object?
+- (645) Which dunder method is used to check if an object contains a specific item?
+- (646) Which dunder method is used to make an object callable?
+- (647) Which dunder method is used to make an object iterable?
+- (648) Which dunder method is used to get the next item from an iterator?
+- (649) What is the purpose of the `__enter__` method in Python?
+- (650) What is the purpose of the `__exit__` method in Python?
+- (651) What is the purpose of the `__hash__` method in Python?
+- (652) Which dunder method is used to get the boolean value of an object?
+- (653) Which dunder method is used to define custom string formatting for an object?
+- (654) Which dunder method is used to define behavior for accessing an undefined attribute?
+- (655) What is the purpose of the `__setattr__` method in Python?
+- (656) Which dunder method is used to define behavior for setting an attribute?
+- (657) What is an iterator in Python?
+- (658) Which method must be implemented by an object to be an iterator?
+- (659) What does the `__iter__()` method do?
+- (660) What does the `__next__()` method do?
+- (661) What exception is raised to signal the end of iteration?
+- (662) Which built-in function is used to get an iterator from an iterable?
+- (663) Which built-in function is used to get the next item from an iterator?
+- (664) What will be the output of the following code?
+```python
+iter_obj = iter([1, 2, 3])
+print(next(iter_obj))
+```
+- (665) What will be the output of the following code?
+```python
+iter_obj = iter([1, 2, 3])
+print(next(iter_obj))
+print(next(iter_obj))
+```
+- (666) What will be the output of the following code?
+- (667) How can you create an iterator from a list?
+- (668) What is the purpose of the `StopIteration` exception?
+- (669) Which of the following is an example of an iterable?
+- (670) What is the difference between an iterable and an iterator?
+- (671) Can you use a for loop to iterate over an iterator?
+- (672) What will be the output of the following code?
+```python
+iter_obj = iter([1, 2, 3])
+for item in iter_obj:
+	print(item)
+```
+- (673) What will be the output of the following code?
+```python
+iter_obj = iter([1, 2, 3])
+for item in iter_obj:
+	print(next(iter_obj))
+```
+- (674) How can you manually iterate over an iterator?
+- (675) What will be the output of the following code?
+- (676) What is the purpose of the second argument in the `next()` function?
+- (677) What will be the output of the following code?
+```python
+iter_obj = iter([1, 2, 3])
+print(next(iter_obj, 'End'))
+print(next(iter_obj, 'End'))
+print(next(iter_obj, 'End'))
+print(next(iter_obj, 'End'))
+```
+- (678) How can you create a custom iterator in Python?
+- (679) What will be the output of the following code?
+```python
+class Counter:
+	def __init__(self, low, high):
+		self.current = low
+		self.high = high
+	
+	def __iter__(self):
+		return self
+	
+	def __next__(self):
+		if self.current > self.high:
+			raise StopIteration
+		else:
+			self.current += 1
+			return self.current - 1
+for c in Counter(3, 8):
+	print(c)
+```
+- (680) What will be the output of the following code?
+```python
+class Counter:
+	def __init__(self, low, high):
+		self.current = low
+		self.high = high
+	
+	def __iter__(self):
+		return self
+	
+	def __next__(self):
+		if self.current > self.high:
+			raise StopIteration
+		else:
+			self.current += 1
+			return self.current - 1
+counter = Counter(3, 8)
+print(next(counter))
+print(next(counter))
+print(next(counter))
+```
+- (681) What will be the output of the following code?
+```python
+class Counter:
+	def __init__(self, low, high):
+		self.current = low
+		self.high = high
+	
+	def __inter__(self):
+		return self
+	
+	def __next__(self):
+		if self.current > self.high:
+			raise StopIteration
+		else:
+			self.current += 1
+			return self.current - 1
+counter = Counter(3, 8)
+for c in counter:
+	print(c)
+print(next(counter))
+```
+- (682) What is a linked list in Python?
+- (683) Which of the following is NOT a type of linked list?
+- (684) What is the main advantage of a linked list over an array?
+- (685) In a singly linked list, what does each node contain?
+- (686) What is the time complexity of inserting an element at the beginning of a linked list?
+- (687) Which of the following operations is typically slower in a linked list compared to an array?
+- (688) What is the purpose of a sentinel node in a linked list?
+- (689) In Python, which built-in data structure can be used to implement a linked list?
+- (690) What is the space complexity of a singly linked list with `n` elements?
+- (691) Which of the following is true about a circular linked list?
+- (692) What is the main difference between a singly linked list and a doubly linked list?
+- (693) Which of the following is NOT a common operation performed on linked lists?
+- (694) What is the time complexity of searching for an element in an unsorted linked list?
+- (695) In Python, what is the correct way to define a node class for a singly linked list?
+- (696) What is the purpose of the 'head' in a linked list?
+- (697) Which of the following is true about the `tail` of a linked list?
+- (698) What is the time complexity of deleting the last element in a singly linked list if we don't have a tail pointer?
+- (699) In Python, how can you implement a linked list without using classes?
+- (700) What is the main advantage of a doubly linked list over a singly linked list?
+- (701) Which of the following operations becomes more efficient with a tail pointer in a singly linked list?
+- (702) What is the correct way to traverse a linked list in Python?
+- (703) How can you detect a cycle in a linked list?
+- (704) What is the time complexity of reversing a singly linked list?
+- (705) In Python, how can you implement a stack using a linked list?
+- (706) What is the main disadvantage of using a linked list compared to an array?
+- (707) Which of the following is true about memory allocation in linked lists?
+- (708) What is the purpose of the `__iter__` method in a Python linked list implementation?
+- (709) How can you find the middle element of a singly linked list in one pass?
+- (710) What is the time complexity of merging two sorted linked lists?
+- (711) In Python, how can you check if a linked list is a palindrome?
+- (712) What is the purpose of a dummy node in a linked list?
+- (713) How can you implement a queue using a linked list in Python?
+- (714) What is the time complexity of splitting a linked list into two halves?
+- (715) In Python, how can you implement a circular linked list?
+- (716) What is the main advantage of using a skip list over a regular linked list?
 ## References
 
 
