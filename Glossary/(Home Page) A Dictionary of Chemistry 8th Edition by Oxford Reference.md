@@ -3957,26 +3957,27 @@ Reviewed: false
 	3896. polarography
 	3897. [[Polaroid]]
 	3898. polar solvent
-	3899. pollutant
+		1. See solvent
+	3899. [[pollutant]]
 	3900. pollution
 	3901. polonium
 	3902. poly-
 	3903. polyacetylene
 	3904. polyacrylamide
 	3905. polyacrylamide gel electrophoresis
-	3906. polyamide
+	3906. [[polyamide]]
 	3907. polyatomic molecule
 	3908. polybasic acid
 	3909. polychlorinated biphenyl
 	3910. polychloroethene
 	3911. polycyclic
 	3912. polydioxoboric(III) acid
-	3913. polyelectrolyte
+	3913. [[polyelectrolyte]]
 	3914. polyene
 	3915. polyester
 	3916. polyethene
 	3917. polyethylene
-	3918. polyhedral molecule
+	3918. [[polyhedral molecule]]
 	3919. polyhedron
 	3920. polyhydric alcohol
 	3921. [[polymerase]]
