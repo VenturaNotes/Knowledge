@@ -1,0 +1,572 @@
+---
+Source:
+  - https://applyre.com/resources/500-interview-questions/rust/
+Length: "558"
+tags:
+  - incomplete
+  - type/website
+  - in-progress
+Reviewed: false
+---
+- (1) What type of programming language is Rust?
+- (2) Which company originally developed Rust?
+- (3) What is one of Rust's primary goals?
+- (4) Which of the following is NOT a key feature of Rust?
+- (5) Why might a developer choose Rust over C or C++?
+- (6) What is the primary mechanism Rust uses to ensure memory safety?
+- (7) Which of the following is NOT prevented by Rust's memory safety features?
+- (8) What is a 'dangling reference' in Rust?
+- (9) How does Rust handle null or uninitialized values?
+- (10) What is the purpose the 'unsafe' keyword in Rust?
+- (11) What does 'zero-cost abstractions' mean in Rust?
+- (12) Which of the following is an example of a zero-cost abstraction in Rust?
+- (13) How does Rust implement zero- cost abstractions for generics?
+- (14) What is the cost of using traits in Rust compared to virtual methods in C++?
+- (15) Which Rust feature allows for zero-cost error handling?
+- (16) What aspect of Rust's design contributes significantly to its performance?
+- (17) How does Rust achieve memory efficiency?
+- (18) What is the primary compile-time cost associated with Rust's performance optimizations?
+- (19) Which Rust feature allows for efficient generic programming without runtime cost?
+- (20) What is the role of LLVM in Rust's performance?
+- (21) What is Rust's primary mechanism for safe concurrency?
+- (22) Which of the following is NOT a concurrency primitive in Rust's standard library?
+- (23) What does the 'Send' trait in Rust indicate about a type?
+- (24) What is the purpose of the 'Sync' trait in Rust?
+- (25) Which Rust feature allows for efficient sharing of data between threads without runtime checks?
+- (26) What is the primary goal of Rust's design philosophy?
+- (27) Which of the following is NOT one of Rust's core design principles?
+- (28) What does 'fearless concurrency' mean in Rust's context?
+- (29) How does Rust's design philosophy approach the concept of undefined behavior?
+- (30) What principle does Rust's error handling philosophy follow?
+- (31) How does Rust's design approach backwards compatibility?
+- (32) What is the significance of the 'unsafe' keyword in Rust's design philosophy?
+- (33) What is the primary purpose of rustup?
+- (34) Which command would you use to update rustup itself?
+- (35) How can you install a specific version of Rust using rustup?
+- (36) What is the primary purpose of Cargo in Rust development?
+- (37) Which Cargo command is used to create a new Rust project?
+- (38) What file does Cargo use to manage project dependencies?
+- (39) In Rust, what is the primary difference between a statement and an expression?
+- (40) Which of the following is an example of an expression in Rust?
+- (41) What is the result of the following Rust code: `{ let x = 1; x + 1 }`
+- (42) Which of the following is NOT a valid expression in Rust?
+- (43) What is the value of `y` after executing this Rust code: `let y = if true { 1 } else { 2 };`
+- (44) Which keyword is used to declare a variable in Rust?
+- (45) By default, variables in Rust are:
+- (46) How do you declare a mutable variable in Rust?
+- (47) What happens if you try to change the value of an immutable variable in Rust?
+- (48) Which of the following is a valid way to declare multiple variables in Rust?
+- (49) How are constants declared in Rust?
+- (50) What is the naming convention for constants in Rust?
+- (51) Which of the following is true about constants in Rust?
+- (52) What happens if you try to assign a value to a constant that's computed at runtime?
+- (53) What is the difference between `const` and `static` in Rust?
+- (54) What is shadowing in Rust?
+- (55) Which keyword is used to shadow a variable in Rust?
+- (56) What happens to the original variable when it's shadowed in Rust?
+- (57) Which of the following is a valid use of shadowing in Rust?
+- (58) In Rust, what's the difference between shadowing and mutability?
+- (59) Which of the following is NOT a valid integer type in Rust?
+- (60) 60. What is the result of `5 / 2` when both operands are integers in Rust?
+- (61) Which method can be used to safely convert a larger integer type to a smaller one in Rust?
+- (62) What is the purpose of the `wrapping_add` method on integer types in Rust?
+- (63) Which of the following is true about the `isize` and `usize` types in Rust?
+- (64) Which of the following is NOT a valid floating-point type in Rust?
+- (65) What is the result of `0.1 + 0.2 == 0.3` in Rust?
+- (66) Which trait must be implemented to allow custom types to be used with floating-point operations in Rust?
+- (67) What does the `is_nan()` method return for a floating-point number in Rust?
+- (68) How can you specify a literal of type f32 in Rust?
+- (69) What are the only possible values of a boolean (bool) in Rust?
+- (70) Which of the following is a valid way to create a boolean variable in Rust?
+- (71) What is the result of !true in Rust?
+- (72) Which of the following is NOT a valid boolean operation in Rust?
+- (73) What is the size of a bool in Rust?
+- (74) What is the type of a character literal in Rust?
+- (75) How many bytes does a char occupy in Rust?
+- (76) Which of the following is a valid way to create a char from a code point in Rust?
+- (77) What is the result of `A` as u8 in Rust?
+- (78) Which of the following is true about chars in Rust?
+- (79) Which of the following is a valid way to declare a tuple in Rust?
+- (80) How do you access the second element of a tuple `t` in Rust?
+- (81) What is the type of the tuple `(42, "hello", true)`?
+- (82) Which of the following is true about tuples in Rust?
+- (83) What is the correct way to destructure a tuple `(x, y, z)` in a function parameter in Rust?
+- (84) What is the size of an empty tuple `()` in Rust?
+- (85) Which of the following is a valid way to declare an array in Rust?
+- (86) What is the type of the array `[1, 2, 3, 4, 5]` in Rust?
+- (87) How do you create an array of 100 zeros in Rust?
+- (88) Which of the following is true about arrays in Rust?
+- (89) What happens if you try to access an array element out of bounds in Rust in debug mode?
+- (90) How do you get the length of an array `arr` in Rust?
+- (91) Which of the following is a correct function declaration in Rust?
+- (92) How do you declare a function that takes a mutable reference as a parameter in Rust?
+- (93) Which of the following is a valid way to declare a function that takes a closure as a parameter?
+- (94) What is the correct syntax for declaring a function that returns nothing in Rust?
+- (95) Which of the following is true about function parameters in Rust?
+- (96) What is the correct way to return a value from a function in Rust?
+- (97) Which of the following correctly declares a function that returns a Result in Rust?
+- (98) What does the `?` operator do when used with a Result return value in Rust?
+- (99) Which of the following is an expression in Rust?
+- (100) What is the difference between statements and expressions in Rust?
+- (101) Which of the following is a statement in Rust?
+- (102) What is the value of `x` after this code: `let x = if true { 1 } else { 2 }`;
+- (103) Which of the following is true about `if` expressions in Rust?
+- (104) What is the type of the expression `if x > 0 { "positive" } else { "non-positive" }`
+- (105) Which of the following is NOT a valid `if` expression in Rust?
+- (106) Which keyword is used to create an infinite loop in Rust?
+- (107) How do you break out of a loop in Rust?
+- (108) What does the following code print? `loop { print!("Hello"); break; }`
+- (109) How can you return a value from a loop in Rust?
+- (110) What is the purpose of the `continue` keyword in Rust loops?
+- (111) Which of the following is a correct way to write a while loop in Rust?
+- (112) What happens if the condition of a while loop is false before the first iteration?
+- (113) Which of the following is true about the condition in a Rust while loop?
+- (114) What's the difference between `while true` and `loop` in Rust?
+- (115) How can you create a while loop that runs at least once in Rust?
+- (116) Which of the following is a correct way to iterate over a range of numbers in Rust?
+- (117) How do you iterate over the elements of a vector `vec` in Rust?
+- (118) What is the purpose of the `.enumerate()` method in a for loop?
+- (119) Which of the following is true about for loops in Rust?
+- (120) How can you iterate over a collection in reverse order in Rust?
+- (121) What is the primary purpose of a match expression in Rust?
+- (122) Which of the following is true about match expressions in Rust?
+- (123) What does the `_` pattern represent in a match expression?
+- (124) Which feature of match expressions allows you to bind parts of the matched value to variables?
+- (125) What is a match guard in Rust?
+- (126) What is the primary purpose of Rust's ownership system?
+- (127) Which of the following is NOT one of the main rules of ownership in Rust?
+- (128) What happens when you assign a value to another variable in Rust?
+- (129) What is the purpose of the 'Copy' trait in Rust?
+- (130) How does Rust handle memory deallocation?
+- (131) What defines the scope of a variable in Rust?
+- (132) What happens to a variable when it goes out of scope in Rust?
+- (133) How does shadowing interact with variable scope in Rust?
+- (134) What is the lifetime of a static variable in Rust?
+- (135) How can you extend the scope of a variable in Rust?
+- (136) What does 'move semantics' mean in Rust?
+- (137) Which types in Rust implement move semantics by default?
+- (138) What happens if you try to use a moved value in Rust?
+- (139) How can you avoid moving a value when passing it to a function in Rust?
+- (140) What is the primary benefit of move semantics in Rust?
+- (141) What is the main difference between the Clone trait and the Copy trait in Rust?
+- (142) Which of the following types automatically implements the Copy trait?
+- (143) What is a requirement for a type to implement the Copy trait?
+- (144) What happens when you derive the Clone trait for a struct in Rust?
+- (145) Why can't types with interior mutability implement Copy?
+- (146) Why can't types with interior mutability implement Copy?
+- (147) How many shared borrows (&T) can exist simultaneously for a value?
+- (148) What happens if you try to mutate a value through a shared borrow (&T)?
+- (149) In what situation might you use a shared borrow (&T) instead of moving or copying a value?
+- (150) What is the relationship between shared borrows (&T) and the 'Copy' trait?
+- (151) What does a mutable borrow (&mut T) in Rust allow?
+- (152) How many mutable borrows (&mut T) can exist simultaneously for a value?
+- (153) What happens if you try to create a shared borrow (&T) while a mutable borrow (&mut T) exists?
+- (154) In what situation would you typically use a mutable borrow (&mut T) instead of taking ownership?
+- (155) What is the relationship between mutable borrows (&mut T) and interior mutability in Rust?
+- (156) What is the first rule of borrowing in Rust?
+- (157) What is the purpose of Rust's borrowing rules?
+- (158) What does the term 'lifetime' refer to in the context of Rust's borrowing rules?
+- (159) What is the 'Non-Lexical Lifetimes' (NLL) feature in Rust?
+- (160) What happens if a borrowed value goes out of scope before the borrow ends?
+- (161 - 162)
+	- #comment Question DNE
+- (163) What is the type of a slice of i32 values in Rust?
+- (164)
+	- #comment Question DNE
+- (165) What is the relationship between slices and the borrow checker?
+- (166) What is a slice in Rust?
+- (167) How is a string slice represented in Rust?
+- (168)
+	- #comment Question DNE
+- (169) What is the benefit of using slices in function parameters?
+- (170)
+	- #comment Question DNE
+- (171) Where are stack-allocated values stored in Rust?
+- (172) Which Rust type is used for heap allocation?
+- (173) What is the purpose of the `Box<T>` type in Rust?
+- (174) How does Rust handle memory deallocation for heap-allocated data?
+- (175) What is the 'global allocator' in Rust?
+- (176) How does Rust's ownership system affect performance?
+- (177) What is the performance implication of using `Box<T>` instead of T?
+- (178) How does Rust's lack of a garbage collector affect performance?
+- (179) What is the performance implication of using iterators in Rust?
+- (180) How does using generics affect binary size in Rust?
+- (181) How is a `struct` defined in Rust?
+- (182) How do you instantiate a struct in Rust?
+- (183) What is a tuple struct in Rust?
+- (184) How can you make a struct field private in Rust?
+- (185) What is the purpose of the `# [derive(Debug)]` attribute on a struct?
+- (186) What is field init shorthand in Rust?
+- (187) Given a struct `Person` with fields `name` and `age`, and variables `name` and `age`, what's the correct way to use field `init` shorthand?
+- (188) What happens if you use field init shorthand for some fields but not others?
+- (189) What is a limitation of field init shorthand?
+- (190) How does field init shorthand interact with type inference?
+- (191) What is the purpose of struct update syntax in Rust?
+- (192) What is the correct syntax for struct update in Rust?
+- (193) What happens to the base struct when using struct update syntax?
+- (194) Can struct update syntax be used with tuple structs?
+- (195) What happens if you try to use struct update syntax to change a private field?
+- (196) What is a method in Rust?
+- (197) How is a method called on a struct instance in Rust?
+- (198) What does the `&self` parameter in a method signature mean?
+- (199) How can you define a method that modifies the instance it's called on?
+- (200) What is the difference between `&self` and `self` in method signatures?
+- (201) What is an associated function in Rust?
+- (202) How is an associated function typically called in Rust?
+- (203) What is a common use case for associated functions in Rust?
+- (204) Can an associated function access instance data directly?
+- (205) How do associated functions differ from static methods in other languages?
+- (206) How is an `enum` defined in Rust?
+- (207) Which of the following is a valid enum definition in Rust?
+- (208) What types of data can enum variants hold in Rust?
+- (209) What is a `unit variant` in a Rust `enum`?
+- (210) How can you add methods to an `enum` in Rust?
+- (211) What are the two variants of the Option enum?
+- (212) How do you typically handle an Option value in Rust?
+- (213) What happens if you call `unwrap()` on a None value?
+- (214) Which method can you use to provide a default value for an Option?
+- (215) What is the purpose of the Option `enum` in Rust?
+- (216) What is the primary purpose of an if let expression in Rust?
+- (217) How does if let differ from a match expression?
+- (218) What happens to unmatched cases in an if let expression?
+- (219) Can if let be used with enums other than Option?
+- (220) What is the syntax for using an else clause with if let?
+- (221) How is a module defined in Rust?
+- (222) What are the two ways to define a module in Rust?
+- (223) When defining a module in a separate file, what should the file be named?
+- (224) What keyword is used to bring a module into scope?
+- (225) Can you nest modules within other modules in Rust?
+- (226) What is a module `tree` in Rust?
+- (227) What is the root of the module tree in a Rust project?
+- (228) How does the filesystem structure relate to the module tree?
+- (229) What happens to the module tree when you use the 'use' keyword?
+- (230) How does Rust's privacy system interact with the module tree?
+- (231) What is a path in the context of Rust's module system?
+- (232) What symbol is used to separate components in a path?
+- (233) What does the 'super' keyword do in a path?
+- (234) What is an absolute path in Rust?
+- (235) When would you use the `self` keyword in a path?
+- (236) What is the default visibility of items in Rust?
+- (237) What does the 'pub' keyword do in Rust?
+- (238) What is the scope of a public item in a private module?
+- (239) How can you make all items in a module public?
+- (240) What is the purpose of the `pub (crate)` visibility modifier?
+- (241) What command is used to create a new Rust project?
+- (242) What is the difference between `cargo new` and `cargo init`?
+- (243) What file is automatically created by Cargo to manage project metadata and dependencies?
+- (244) How do you specify that a crate should be a library instead of a binary?
+- (245) What is crates.io?
+- (246) What command is used to publish a crate to crates.io?
+- (247) What information must be included in Cargo.toml before publishing a crate?
+- (248) What is semantic versioning and why is it important for publishing crates?
+- (249) What happens if you try to publish a new version of a crate without changing the version number in Cargo.toml?
+- (250) What is a Vector in Rust?
+- (251) How do you create a new, empty vector in Rust?
+- (252) What is the macro for creating a vector with initial values?
+- (253) How do you add an element to the end of a vector?
+- (254) What happens when you index a vector out of bounds in Rust?
+- (255) What are the two main string types in Rust?
+- (256) How do you create a new, empty String in Rust?
+- (257) What is the difference between String and `&str`?
+- (258) How do you convert a `&str` to a String?
+- (259) What is the purpose of the format! macro in Rust?
+- (260) What is the main difference between String and str in Rust?
+- (261) Which of the following operations is NOT possible with a `&str`?
+- (262) How can you convert a String to a `&str`?
+- (263) Which of the following is true about String in Rust?
+- (264) What's the correct way to create a String from a string literal in Rust?
+- (265) Which trait must be implemented for a type to be used as a key in a HashMap?
+- (266) What is the time complexity of inserting an element into a HashMap in Rust?
+- (267) Which method is used to retrieve a value from a HashMap without removing it?
+- (268) What happens if you insert a value with a key that already exists in a HashMap?
+- (269) Which of the following is NOT a valid way to create an empty HashMap in Rust?
+- (270) What is the primary purpose of using panic! in Rust?
+- (271) Which of the following will NOT cause a panic in Rust?
+- (272) What is the default behavior when a panic occurs in the main thread?
+- (273) How can you trigger a panic explicitly in Rust code?
+- (274) What compile flag can be used to change panic behavior from unwinding to aborting?
+- (275) What is the primary purpose of the Result type in Rust?
+- (276) Which method is commonly used to propagate errors up the call stack when using Result?
+- (277) What happens when you call `unwrap()` on a Result that contains an `Err` value?
+- (278) Which of the following is NOT a method provided by the Result type?
+- (279) What is the return type of a function that returns `Result<String, io::Error>`?
+- (280) Which Rust construct is commonly used to handle different types of errors?
+- (281) What is the purpose of the `_` pattern in a match expression when handling errors?
+- (282) How can you match on a specific error type when the error is wrapped in a Result?
+- (283) What is the purpose of the `#[non_exhaustivel` attribute when defining custom error types?
+- (284) Which method can be used to convert a specific error type into a more generic error type?
+- (285) What happens when you call `unwrap()` on a Result that contains an Ok value?
+- (286) What is the difference between `unwrap()` and `expect ()`?
+- (287) Which of the following is considered a safer alternative to `unwrap()`?
+- (288) What is the primary drawback of using `unwrap()` in production code?
+- (289) Which of the following is NOT a valid use case for `unwrap()`?
+- (290) What does the ? operator do when used with a `Result` type in Rust?
+- (291) In which of the following contexts can the `?` operator NOT be used?
+- (292) What happens if you use the ? operator on an `Option<T>` in a function that returns `Result<T, E>`?
+- (293) Which trait must be implemented for a custom error type to be used with the `?` operator?
+- (294) What's the difference between using ? and using `unwrap()` when handling Results?
+- (295) What is the primary purpose of creating a custom error type in Rust?
+- (296) Which trait is commonly derived for custom error types to allow easy conversion to a string representation?
+- (297) What is the purpose of implementing the From trait for custom error types?
+- (298) Which of the following is NOT a common practice when defining custom error types?
+- (299) What is the correct syntax for defining a function that returns a Result with a custom error type?
+- (300) Which of the following is a valid way to specify multiple return types for a function in Rust?
+- (301) What is the purpose of the 'never' type `(!)` in function return types?
+- (302) Which of the following is true about function parameter types in Rust?
+- (303) What is the correct way to define a function that takes a mutable reference as a parameter?
+- (304) Which keyword is used to define a variadic function in Rust?
+- (305) Which of the following is NOT a valid struct definition in Rust?
+- (306) Which of the following is true about struct fields in Rust?
+- (307) What is the correct way to define a generic struct in Rust?
+- (308) Which of the following is a valid way to create an instance of a tuple struct?
+- (309) Which of the following is NOT a valid enum definition in Rust?
+- (310) What is the purpose of the `# [repr(u8)]` attribute on an enum?
+- (311) Which of the following is true about enum variants in Rust?
+- (312) What is the correct way to define an enum with generic parameters?
+- (313) What is the purpose of using an enum instead of a struct in Rust?
+- (314) Which method is automatically implemented for enums in Rust?
+- (315) What is the correct syntax for defining a method for a struct in Rust?
+- (316) Which of the following is true about the `self` parameter in Rust methods?
+- (317) What is the difference between `&self` and `&mut` self in method definitions?
+- (318) Which of the following is a valid way to define a static method (associated function) in Rust?
+- (319) What is the correct syntax for defining a trait in Rust?
+- (320) Which of the following is true about trait method signatures?
+- (321) What is the purpose of the 'Self' keyword in trait definitions?
+- (322) Which of the following is NOT a valid trait method definition?
+- (323) What is the purpose of associated types in traits?
+- (324) What is the correct syntax for implementing a trait for a struct in Rust?
+- (325) Which of the following is true about implementing traits in Rust?
+- (326) What is the orphan rule in Rust trait implementations?
+- (327) What happens if you don't implement all the required methods of a trait?
+- (328) Which of the following is true about implementing traits for generic types?
+- (329) What is the purpose of default implementations in Rust traits?
+- (330) How can you override a default implementation when implementing a trait?
+- (331) Which of the following is true about default implementations in Rust?
+- (332) What happens if a type implements two traits that both have a default implementation for the same method name?
+- (333) Can a default implementation in a trait use methods that are not defined in the trait?
+- (334) What is the purpose of trait bounds in Rust?
+- (335) Which of the following is a correct way to specify multiple trait bounds on a generic parameter?
+- (336) What is the 'where' clause used for in Rust?
+- (337) What is the difference between `T: Trait` and `impl Trait` in function signatures?
+- (338) Which of the following is NOT a valid way to specify that a generic parameter must implement the Debug trait?
+- (339) What is the primary purpose of trait objects in Rust?
+- (340) Which of the following correctly declares a reference with an explicit lifetime parameter?
+- (341) How do you define a trait object in Rust?
+- (342) In Rust, what does the 'static lifetime mean?
+- (343) Which of the following is a limitation of trait objects in Rust?
+- (344) What is the purpose of the a lifetime annotation in the following Rust function signature: fn longest<'a> (x: &'a str, y: &'a str) -> &'a str?
+- (345) What is the size trait object in Rust?
+- (346) In Rust, what does the `lifetime elision` rule do?
+- (347) Which of the following is true about trait objects in Rust?
+- (348) What is the purpose of the `lifetime subtyping` concept in Rust?
+- (349) What is the main function of trait objects in Rust?
+- (350) How do you correctly specify a reference with an explicit lifetime parameter in Rust?
+- (351) In Rust, what's the correct way to define a trait object?
+- (352) What does the 'static lifetime signify in Rust?
+- (353) Which statement accurately describes a limitation of trait objects in Rust?
+- (354) In the Rust function signature fn longest<'a>(x: &'a str, y: &'a str) -> &'a str, what's the purpose of the 'a lifetime annotation?
+- (355) In Rust, what is the memory size of a trait object?
+- (356) What is the function of the `lifetime elision` rule in Rust?
+- (357) Which statement is accurate regarding trait objects in Rust?
+- (358) What is the primary use of `lifetime subtyping` in Rust?
+- (359) What is lifetime elision in Rust?
+- (360) In which of the following scenarios does Rust apply lifetime elision rules?
+- (361) What is the first lifetime elision rule in Rust?
+- (362) In the function signature 'fn foo(x: &str) -> &str', what lifetime does the compiler infer for the return value? 
+- (363) When does lifetime elision NOT work, requiring explicit lifetime annotations?
+- (364) What is the purpose of lifetime annotations in struct definitions?
+- (365) Which of the following is a correct way to annotate a lifetime in a struct definition?
+- (366) What happens if you don't specify a lifetime tor a reference in a struct?
+- (367) In the struct definition 'struct Book<'a, 'b> { name: &'a str, author: &'b str }', what does the use of two different lifetimes ('a and 'b) indicate?
+- (368) When defining a struct with multiple reference fields, is it always necessary to use different lifetime parameters for each field?
+- (369) When are lifetime annotations required in method definitions in Rust?
+- (370) In a method definition, how do you specify that a returned reference should have the same lifetime as &self?
+- (371) What is the correct syntax for defining a method that takes an additional reference parameter with a different lifetime than &self?
+- (372) What does the 'static lifetime mean in a method return type like '&' static str'?
+- (373) In which scenario would you need to explicitly annotate lifetimes in a method that returns a reference?
+- (374) What is the 'static lifetime in Rust?
+- (375) Which of the following types implicitly has a 'static lifetime?
+- (376) What is a potential downside of using 'static lifetime extensively?
+- (377) Which of the following is a valid use of the 'static lifetime?
+- (378) In the context of trait bounds, what does T: 'static mean?
+- (379) What is the primary purpose of unsafe Rust?
+- (380) Which of the following operations does NOT require unsafe Rust?
+- (381) What is the correct way to declare an unsafe function in Rust?
+- (382) Which of the following is true about the 'unsafe' keyword in Rust?
+- (383) What is the purpose of the 'extern' keyword in unsafe Rust?
+- (384) What is a 'marker trait' in Rust?
+- (385)
+	- #comment Question DNE
+- (386) What is the purpose of the 'Sized' trait in Rust?
+- (387) How can you specify that a trait method must be called on a pinned value?
+- (388) What is the purpose of the 'where' clause in trait definitions?
+- (389) What is the primary purpose of associated types in Rust traits?
+- (390) How do you declare an associated type in a trait?
+- (391) Which of the following is true about associated types compared to generics?
+- (392) In the context of the Iterator trait, what is Item?
+- (393) How do you specify a trait bound on an associated type?
+- (394) What is the purpose of default generic type parameters in Rust?
+- (395) How do you specify a default type for a generic parameter?
+- (396) In which situations are default generic type parameters particularly useful?
+- (397) What happens if you specify a concrete type when using a type that has a default generic parameter?
+- (398) Which of the following is a valid use of a default generic type parameter in a trait definition?
+- (399) What is the primary purpose of fully qualified syntax in Rust?
+- (400) What is the correct syntax for calling a trait method using fully qualified syntax?
+- (401) When is fully qualified syntax necessary?
+- (402) How would you call an associated function (static method) using fully qualified syntax?
+- (403) What is a `supertrait` in Rust?
+- (404) How do you specify a `supertrait` relationship?
+- (405) What is the effect of using a `supertrait`?
+- (406) Can a trait have multiple `supertraits`?
+- (407) What is the relationship between `supertraits` and trait bounds?
+- (408) What is the primary purpose of the `newtype` pattern in Rust?
+- (409) How is a `newtype` typically defined in Rust?
+- (410) Which of the following is NOT a common use case for the `newtype` pattern?
+- (411) What is the relationship between the `newtype` and its wrapped type in terms of memory layout?
+- (412) How can you access the inner value of a `newtype`?
+- (413) What is the primary purpose of type aliases in Rust?
+- (414) How is a type alias declared in Rust?
+- (415) Which of the following statements about type aliases is true?
+- (416) In what situation might you use a type alias with generic parameters?
+- (417)
+- (418)
+- (419)
+- (420)
+- (421)
+- (422)
+- (423)
+- (424)
+- (425)
+- (426)
+- (427)
+- (428)
+- (429)
+- (430)
+- (431)
+- (432)
+- (433)
+- (434)
+- (435)
+- (436)
+- (437)
+- (438)
+- (439)
+- (440)
+- (441)
+- (442)
+- (443)
+- (444)
+- (445)
+- (446)
+- (447)
+- (448)
+- (449)
+- (450)
+- (451)
+- (452)
+- (453)
+- (454)
+- (455)
+- (456)
+- (457)
+- (458)
+- (459)
+- (460)
+- (461)
+- (462)
+- (463)
+- (464)
+- (465)
+- (466)
+- (467)
+- (468)
+- (469)
+- (470)
+- (471)
+- (472)
+- (473)
+- (474)
+- (475)
+- (476)
+- (477)
+- (478)
+- (479)
+- (480)
+- (481)
+- (482)
+- (483)
+- (484)
+- (485)
+- (486)
+- (487)
+- (488)
+- (489)
+- (490)
+- (491)
+- (492)
+- (493)
+- (494)
+- (495)
+- (496)
+- (497)
+- (498)
+- (499)
+- (500)
+- (501)
+- (502)
+- (503)
+- (504)
+- (505)
+- (506)
+- (507)
+- (508)
+- (509)
+- (510)
+- (511)
+- (512)
+- (513)
+- (514)
+- (515)
+- (516)
+- (517)
+- (518)
+- (519)
+- (520)
+- (521)
+- (522)
+- (523)
+- (524)
+- (525)
+- (526)
+- (527)
+- (528)
+- (529)
+- (530)
+- (531)
+- (532)
+- (533)
+- (534)
+- (535)
+- (536)
+- (537)
+- (538)
+- (539)
+- (540)
+- (541)
+- (542)
+- (543)
+- (544)
+- (545)
+- (546)
+- (547)
+- (548)
+- (549)
+- (550)
+- (551)
+- (552)
+- (553)
+- (554)
+- (555)
+- (556)
+- (557)
+- (558)
