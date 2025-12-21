@@ -3,7 +3,7 @@ filters:
     - file.hasTag("task")
 views:
   - type: tasknotesCalendar
-    name: Calendar
+    name: calendar
     order:
       - status
       - priority
@@ -26,7 +26,18 @@ views:
       slotMinTime: 06:00:00
       slotMaxTime: 22:00:00
       slotDuration: 00:30:00
-    calendarView: dayGridMonth
+    calendarView: timeGridWeek
     showGoogleCalendar_d8ae29b9c50f1cc728605f0fa8855e96730833249a9e3275708c040abee7dae9@group.calendar.google.com: false
     showGoogleCalendar_venturanotes@gmail.com: false
     showTimeEntries: false
+    enableSearch: false
+    viewMode: calendar
+    taskContent: file.basename
+    taskStatus: note.status
+    taskPriority: note.priority
+    taskProject: note.project
+    taskTags: note.tags
+    taskDueDate: note.dueDate
+    taskStartDate: note.startDate
+    taskCompletedDate: note.completionDate
+    taskContext: note.context

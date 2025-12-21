@@ -3978,7 +3978,7 @@ Reviewed: false
 	3916. polyethene
 	3917. polyethylene
 	3918. [[polyhedral molecule]]
-	3919. polyhedron
+	3919. [[polyhedron]]
 	3920. polyhydric alcohol
 	3921. [[polymerase]]
 	3922. polymerase chain reaction
@@ -3994,7 +3994,7 @@ Reviewed: false
 	3932. polypropylene
 	3933. polyprotic acid
 	3934. polysaccharide
-	3935. polystyrene
+	3935. [[polystyrene]]
 	3936. polysulphides
 	3937. polytetrafluoroethene
 	3938. polythene
@@ -4162,7 +4162,7 @@ Reviewed: false
 	4100. quantitative structure-activity relationship
 	4101. quantitative structure-metabolism relationship
 	4102. quantum
-	4103. quantum biochemistry
+	4103. [[quantum biochemistry]]
 	4104. quantum chaos
 	4105. quantum chemistry
 	4106. quantum dot
