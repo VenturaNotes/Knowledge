@@ -4163,12 +4163,12 @@ Reviewed: false
 	4101. quantitative structure-metabolism relationship
 	4102. quantum
 	4103. [[quantum biochemistry]]
-	4104. quantum chaos
+	4104. [[quantum chaos]]
 	4105. quantum chemistry
 	4106. quantum dot
 	4107. quantum electrochemistry
 	4108. quantum electrodynamics
-	4109. quantum entanglement
+	4109. [[quantum entanglement]]
 	4110. quantum geochemistry
 	4111. quantum information theory
 	4112. quantum jump
@@ -4246,7 +4246,7 @@ Reviewed: false
 	4184. rationalized Planck constant
 	4185. rationalized units
 	4186. Rayleigh, Lord (1842-1919)
-	4187. Rayleigh scattering
+	4187. [[Rayleigh scattering]]
 	4188. rayon
 	4189. RBS
 	4190. RDX
