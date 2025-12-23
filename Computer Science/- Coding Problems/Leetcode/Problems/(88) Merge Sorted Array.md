@@ -2,6 +2,7 @@
 Source:
   - https://leetcode.com/problems/merge-sorted-array/
 Reviewed: false
+Approaches: "1"
 ---
 ## Synthesis
 - Goal: Sort the two arrays inside the first array in non-decreasing order
@@ -41,7 +42,6 @@ class Solution:
 	- First it creates an (n+m) space
 	- Then it goes through the entire array
 	- Then it copies that array from `test` to `nums1`
-
 ### Alternative Solution [^1]
 ```python
 class Solution:

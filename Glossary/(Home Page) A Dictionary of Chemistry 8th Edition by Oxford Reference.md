@@ -4247,12 +4247,12 @@ Reviewed: false
 	4185. rationalized units
 	4186. Rayleigh, Lord (1842-1919)
 	4187. [[Rayleigh scattering]]
-	4188. rayon
+	4188. [[rayon]]
 	4189. RBS
 	4190. RDX
 	4191. reactant
 	4192. reaction
-	4193. reaction dynamics
+	4193. [[reaction dynamics]]
 	4194. reactive dye
 	4195. reactive intermediate
 	4196. [[reagent]]
@@ -4270,7 +4270,7 @@ Reviewed: false
 	4208. Redfield ratio
 	4209. red lead
 	4210. redox
-	4211. reducing agent
+	4211. [[reducing agent]]
 	4212. reducing sugar
 	4213. reductant
 	4214. reduction

@@ -1,3 +1,7 @@
+---
+tags:
+  - in-progress
+---
 ## Synthesis
 - A set of practices, tools, and cultural philosophies that integrates software development and IT operations, aiming to 
 	- #question What is this set of practices tools, and cultural philosophies? Add information for each of these factors

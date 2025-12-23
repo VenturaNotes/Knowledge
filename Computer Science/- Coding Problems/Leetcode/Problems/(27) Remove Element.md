@@ -2,6 +2,7 @@
 Source:
   - https://leetcode.com/problems/remove-element/
 Reviewed: false
+Approaches: "1"
 ---
 ## Synthesis
 ### My Solution
@@ -27,7 +28,6 @@ class Solution:
                 index += 1
         return index
 ```
-
 
 ## Source [^1]
 - 

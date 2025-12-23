@@ -2,7 +2,7 @@
 Source:
   - https://leetcode.com/problems/valid-anagram/
 Reviewed: false
-Attempts: 1
+Approaches: "1"
 ---
 ## Synthesis
 - This is an arrays & hashing type problem

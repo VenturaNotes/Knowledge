@@ -2,6 +2,7 @@
 Source:
   - https://leetcode.com/problems/search-insert-position/
 Reviewed: false
+Approaches: "1"
 ---
 ## Synthesis
 ### Brute Force Solution

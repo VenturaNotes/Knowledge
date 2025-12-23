@@ -1,6 +1,8 @@
 ---
 Source:
   - https://leetcode.com/problems/count-alternating-subarrays/description/
+tags:
+  - in-progress
 ---
 ## Synthesis
 - [Explanation](https://chatgpt.com/c/6930570e-76b0-8331-b5b0-236bc1378509)

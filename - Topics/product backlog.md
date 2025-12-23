@@ -1,3 +1,7 @@
+---
+tags:
+  - in-progress
+---
 ## Synthesis
 - An ordered list of everything that might be needed in the product. It's an artifact that evolves as the product and environment change
 	- Environment refers to external factors that can influence the product and its development such as

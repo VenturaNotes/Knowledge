@@ -2,7 +2,7 @@
 Source:
   - https://leetcode.com/problems/contains-duplicate/
 Reviewed: true
-Attempts: 1
+Approaches: "1"
 ---
 ## Synthesis
 ```python
