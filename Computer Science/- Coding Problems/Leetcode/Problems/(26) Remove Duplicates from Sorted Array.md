@@ -2,6 +2,7 @@
 Source:
   - https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 Reviewed: false
+Approaches: "1"
 ---
 ## Synthesis
 - Integer array in [[non-decreasing order]], remove duplicates in-place 
@@ -9,7 +10,6 @@ Reviewed: false
 	- The list only has 1 element inside: `7`
 		- The length of the list would be 1 with index being 0
 		- So $\le$ should probably be used
-
 ### My Solution
 ```python
 class Solution:

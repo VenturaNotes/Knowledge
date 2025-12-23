@@ -1,6 +1,8 @@
 ---
 aliases:
   - subsets
+tags:
+  - in-progress
 ---
 ## Synthesis
 ### Recursive Approach to Finding all Subsets

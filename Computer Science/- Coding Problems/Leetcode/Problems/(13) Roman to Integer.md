@@ -2,8 +2,10 @@
 Source:
   - https://leetcode.com/problems/roman-to-integer
 Reviewed: false
+tags:
+  - in-progress
 ---
-
+## Synthesis
 ### My Solution
 ```python
 class Solution:
@@ -73,3 +75,7 @@ class Solution:
         return x
 ```
 - I just created a while loop to go through the string and check to see if an index ahead is a special character. Checked for 6 cases.
+## Source[^1]
+- 
+## References
+[^1]: 

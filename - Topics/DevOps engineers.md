@@ -1,7 +1,9 @@
- 
+---
+tags:
+  - in-progress
+---
 ## Synthesis
 - #question What does a [[DevOps]] engineer exactly do for the internal development team of software?
-
 ### BreakDown
 - The concept of DevOps is defined as a set of practices, tools, and cultural philosophies that integrates software development and IT operations, aiming to shorten the systems development life cycle and provide continuous delivery with high software quality by breaking down silos between development and operations teams.
 	- While the notes define what DevOps is, they do not explicitly detail the exact responsibilities of a "DevOps engineer" for an internal development team. However, we can infer their role based on the goals and practices of DevOps:

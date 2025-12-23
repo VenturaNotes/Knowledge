@@ -1,3 +1,7 @@
+---
+tags:
+  - in-progress
+---
 ## Synthesis
 - Agile is a broad philosophy/mindset for iterative project development.
 - #question What is the agile manifesto?

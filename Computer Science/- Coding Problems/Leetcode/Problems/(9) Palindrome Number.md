@@ -2,6 +2,8 @@
 Source:
   - https://leetcode.com/problems/palindrome-number
 Reviewed: false
+tags:
+  - in-progress
 ---
 ### My Solution
 ```python
@@ -21,8 +23,6 @@ class Solution:
 - Any number less than 0 will not be a palindrome because of the negative sign
 - While loop slices integer into a reversed list
 - for loop checks the first index and the last index of the list to see if they're equal. If they are, the 2 pointers move inwards until they reach the center. If they are equal throughout, the function will return true. Otherwise false
-
-
 ### [Approach 1: One Line](https://leetcode.com/problems/palindrome-number/solutions/2996838/python-one-line-solution-with-explanation/)
 ```python
 class Solution:
