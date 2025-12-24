@@ -213,7 +213,7 @@ print(x)
 			- #question How is it stored as an approximation. What would this approximation be?
 			- #question Can you show me the underlying floating-point arithmetic the program does so I can see the real values of `0.1` and `0.2` which gives `0.30000000000000004`?
 			- #question How does floating-point arithmetic work? I would like for it to be broken down
-			- #question What is the IEEE 754 standard for floating-point numbers?
+			- #question What is the IEEE 754 standard for floating-point numbers? Is this consistent across programming languages?
 				- #question What is the IEEE 754 standard? 
 - (56) How to format `3.14159` to display two decimals in string
 	- `'{:.2f}'.format(3.14159)`
