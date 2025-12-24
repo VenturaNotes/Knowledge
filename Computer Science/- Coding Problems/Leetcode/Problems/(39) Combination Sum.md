@@ -2,6 +2,8 @@
 Source:
   - https://leetcode.com/problems/combination-sum/
 Reviewed: false
+tags:
+  - in-progress
 ---
 ## Synthesis
 - This is a classic backtracking / DFS search tree problem
@@ -62,8 +64,6 @@ So how would I even approach this?
 ```
 - The order of the input does not matter either
 	- #question Why? Need to test this out as well.
-
-
 ## Source [^1]
 - ![[Screenshot 2024-11-21 at 8.55.25 PM.png]]
 - We want combinations and not permutations for this problem
