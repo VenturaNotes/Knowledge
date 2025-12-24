@@ -4257,8 +4257,8 @@ Reviewed: false
 	4195. reactive intermediate
 	4196. [[reagent]]
 	4197. realgar
-	4198. real gas
-	4199. rearrangement
+	4198. [[real gas]]
+	4199. [[rearrangement]]
 	4200. [[receptor molecule]]
 	4201. reciprocal lattice
 	4202. reciprocal proportions
@@ -4278,7 +4278,7 @@ Reviewed: false
 	4216. refining
 	4217. [[refluxing]]
 	4218. reforming
-	4219. refractory
+	4219. [[refractory]]
 	4220. regioselectivity
 	4221. Regnault's method
 	4222. relative atomic mass
