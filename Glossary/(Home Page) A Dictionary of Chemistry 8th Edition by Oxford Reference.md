@@ -4279,7 +4279,7 @@ Reviewed: false
 	4217. [[refluxing]]
 	4218. reforming
 	4219. [[refractory]]
-	4220. regioselectivity
+	4220. [[regioselectivity]]
 	4221. Regnault's method
 	4222. relative atomic mass
 	4223. relative density
@@ -4292,10 +4292,10 @@ Reviewed: false
 	4230. renaturation
 	4231. renewable energy sources
 	4232. Renner effect
-	4233. rennin
+	4233. [[rennin]]
 	4234. Reppe processes
 	4235. reptation
-	4236. resin
+	4236. [[resin]]
 	4237. resolution
 	4238. resonance
 	4239. resonance effect
