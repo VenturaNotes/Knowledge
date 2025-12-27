@@ -4296,7 +4296,7 @@ Reviewed: false
 	4234. Reppe processes
 	4235. reptation
 	4236. [[resin]]
-	4237. resolution
+	4237. [[resolution]]
 	4238. resonance
 	4239. resonance effect
 	4240. [[resonance ionization spectroscopy]]
@@ -4312,7 +4312,7 @@ Reviewed: false
 	4250. rhe
 	4251. rhenium
 	4252. rheology
-	4253. rheopexy
+	4253. [[rheopexy]]
 	4254. rhodinol
 	4255. rhodium
 	4256. RIA
@@ -4337,7 +4337,7 @@ Reviewed: false
 	4275. RNA world
 	4276. roasting
 	4277. Rochelle salt
-	4278. Rochon prism
+	4278. [[Rochon prism]]
 	4279. rock
 	4280. rock crystal
 	4281. rocking-chair cell
