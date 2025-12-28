@@ -4351,10 +4351,10 @@ Reviewed: false
 	4289. Rose's metal
 	4290. rosin
 	4291. rotamer
-	4292. rotational spectroscopy
+	4292. [[rotational spectroscopy]]
 	4293. [[rotation group]]
-	4294. rotaxane
-	4295. rovibronic interactions
+	4294. [[rotaxane]]
+	4295. [[rovibronic interactions]]
 	4296. RRKM theory
 	4297. RRK theory
 	4298. rubber
