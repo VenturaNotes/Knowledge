@@ -1,6 +1,8 @@
 ---
 aliases:
   - hash set
+tags:
+  - in-progress
 ---
 ## Synthesis
 ### Characteristics / Description
@@ -60,7 +62,6 @@ fruits.remove("cherry")
 for fruit in fruits:
     print(fruit)
 ```
-
 - `add` and `append` are based on collection types
 	- #question What is a collection type?
 	- Use  `.add()` for sets as it means "add this unique item"
@@ -75,13 +76,11 @@ apple
 banana
 orange
 ```
-
 ### When to use Set / HashSet
 - Remove duplicates from a list
 - Check for [[membership]] quickly
 	- #question What is meant by membership here? Is membership a programming term?
 - When uniqueness is important, not order
-
 ### Building set data structure in Python using dictionary ^zjv7qu
 ```python
 class MySet:
@@ -145,7 +144,7 @@ class SimpleHashTable:
 - #question What does `[[] for _ in range(size)]` mean
 	- #question In fact, could you explain the code for me with an example?
 ## Source[^1]
-- [Test](https://github.com/VenturaNotes)
+- 
 ## References
 
 [^1]: 
