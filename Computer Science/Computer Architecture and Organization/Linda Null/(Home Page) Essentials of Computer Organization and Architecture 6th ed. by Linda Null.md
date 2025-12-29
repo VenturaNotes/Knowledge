@@ -205,7 +205,7 @@ Reviewed: false
 		- [[Cache coherence]]
 		- [[Memory models]]
 		- [[Superscalar machines]]
-		- [[neural networks]]
+		- [[neural network|neural networks]]
 		- [[systolic architectures]]
 		- [[dataflow computers]]
 		- [[quantum computing]]

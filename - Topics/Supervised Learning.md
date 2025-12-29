@@ -8,6 +8,8 @@ tags:
 - [[Structured prediction]] is a broader category that encompasses tasks where the output is a complex object (like a sequence, tree, or graph), but involves elements of classification or regression internally
 	- #question So are the only methods in supervised learning either classification or regression (aside from structured prediction?)
 	- #question What does "encompasses tasks" mean? Are we saying that structured prediction is the task itself or is something else the task? 
+- To generalize the objective for supervised learning tasks (like classification and regression), the overarching goal is to learn a function that maps input data (features) to desired output labels (targets) in a way that minimizes a specific error or loss function. This function should be able to generalize well to unseen data.
+	- #question What is a loss function? 
 ## Organize
 -   **#question So are the only methods in supervised learning either classification or regression (aside from structured prediction?)**
     While classification and regression are indeed the two most fundamental and widely recognized tasks in supervised learning, they are not the *only* ones. Many other supervised learning problems can be framed as variations or combinations of these, or as distinct tasks that build upon them.

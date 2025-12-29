@@ -4,6 +4,12 @@ aliases:
 ---
 ## Synthesis
 - Abbreviated as AI
+- The broadest umbrella term, encompassing any technique that enables computers to mimic human intelligence
+	- #question What are some examples? 
+- Hierarchy (Top to Bottom)
+	- Artificial intelligence
+	- Machine Learning
+	- Neural Networks
 ## Source[^1]
 - #comment Misspelled on website as `Artificial intellence`
 - The design and study of systems that appear to mimic intelligent behavior.
