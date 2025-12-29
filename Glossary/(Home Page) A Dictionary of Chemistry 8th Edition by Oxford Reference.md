@@ -4360,7 +4360,7 @@ Reviewed: false
 	4298. rubber
 	4299. rubidium
 	4300. rubidium-strontium dating
-	4301. ruby
+	4301. [[ruby]]
 	4302. Runge-Lenz vector
 	4303. Russell-Saunders coupling
 	4304. rusting
@@ -4393,7 +4393,7 @@ Reviewed: false
 	4331. salinometer
 	4332. sal soda
 	4333. salt
-	4334. salt bridge
+	4334. [[salt bridge]]
 	4335. salt cake
 	4336. salting in
 	4337. salting out
@@ -4421,7 +4421,7 @@ Reviewed: false
 	4359. scavenger
 	4360. SCF
 	4361. Scheele, Karl Wilhelm (1742-86)
-	4362. scheelite
+	4362. [[scheelite]]
 	4363. Schiff's base (DRAFT)
 	4364. Schiff's reagent
 	4365. Schiff base
