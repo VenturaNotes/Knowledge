@@ -4430,7 +4430,7 @@ Reviewed: false
 	4368. Schottky defect
 	4369. Schrödinger, Erwin (1887-1961)
 	4370. Schrödinger equation
-	4371. Schweizer's reagent
+	4371. [[Schweizer's reagent]]
 	4372. scorpionate
 	4373. Scott's test
 	4374. scrubber
@@ -4441,7 +4441,7 @@ Reviewed: false
 	4379. secondary alcohol
 	4380. secondary amine
 	4381. secondary cell
-	4382. secondary emission
+	4382. [[secondary emission]]
 	4383. sedimentation
 	4384. seed
 	4385. Seger cones
@@ -4486,7 +4486,7 @@ Reviewed: false
 	4423. sievert
 	4424. sigma bond
 	4425. sigma electron
-	4426. sigmatropic reaction
+	4426. [[sigmatropic reaction]]
 	4427. silane
 	4428. silica
 	4429. silica gel
