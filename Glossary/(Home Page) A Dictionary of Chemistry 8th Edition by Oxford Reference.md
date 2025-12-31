@@ -4509,15 +4509,15 @@ Reviewed: false
 	4446. silver(I) nitrate
 	4447. silver(I) oxide
 	4448. silver-mirror test
-	4449. sima
+	4449. [[sima]]
 	4450. Simmons-Smith reaction
 	4451. Simon test
 	4452. SIMS
 	4453. single-wavelength anomalous dispersion
 	4454. single bond
-	4455. singlet
+	4455. [[singlet]]
 	4456. sintered glass
-	4457. sintering
+	4457. [[sintering]]
 	4458. SI units
 	4459. skeletal electrons
 	4460. skew

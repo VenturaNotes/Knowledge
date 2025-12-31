@@ -4,13 +4,8 @@ tags:
 ---
 ## Synthesis
 - A task is a problem that a machine learning model is designed to solve. 
-	- #question What is the difference between machine learning and machine learning model?
-		- Machine Learning
-			- Refers to the broader field of study and the process of teaching computers to learn from data without being explicitly programmed. 
-			- It encompasses the algorithms, techniques, and methodologies used to enable systems to identify patterns, make predictions, or make decisions based on data. It's the discipline of how we build intelligent systems.
-		- Machine Learning Model: 
-			- This is the output or result of the machine learning process. It's the specific mathematical representation or algorithm that has been trained on a dataset. Once trained, this model has learned patterns and relationships from the data and can be used to make predictions or classifications on new, unseen data. It's the artifact that performs the task after the learning has occurred.
-				- #question What is meant by artifact
+## Organize Further
+- A task is a problem that a [[machine learning model]] is designed to solve. 
 	- Tasks are not exclusively for machine learning models. A task is a problem that any artificial intelligence system, whether it's a machine learning model, a rule-based system, an expert system, or another AI approach, is designed to solve.
 		- #question What is meant by an expert system?
 		- #question What other AI approaches are there aside from machine learning models?
