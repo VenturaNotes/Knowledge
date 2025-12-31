@@ -1,29 +1,58 @@
 ---
 aliases:
   - ML
-tags:
-  - in-progress
 ---
 ## Synthesis
 - A branch of [[artificial intelligence]] focused on building systems which uses algorithms, techniques, and methodologies to identify patterns and make predictions/decisions when learning from data (without being explicitly programmed). This allows us to build intelligent systems
+	- #question Is the above statement correct?
+	- #question Is predictions/decisions the same thing or is there a distinction depending on the type of problem being worked on?
 	- #question What kind of systems do these look like?
 	- #question What is meant by intelligent systems? 
 	- #question What is the difference between algorithms, techniques, and methodologies?
-### Organize
-- Algorithms, techniques, and methodologies
-In the context of machine learning, these terms relate to different levels of abstraction and scope:
-
-*   **Algorithms**: These are the specific, step-by-step computational procedures or formulas that a machine learning model uses to learn from data and make predictions. They are the core mathematical engines.
-    *   *Example*: Linear Regression, Support Vector Machines (SVMs), Decision Trees, K-Means Clustering, Neural Networks.
-*   **Techniques**: These are broader approaches or specific methods that often involve the application or combination of one or more algorithms, or specific ways of preparing and handling data to achieve a particular learning goal. They describe *how* you apply algorithms or manage data.
-    *   *Example*: Supervised Learning, Unsupervised Learning, Reinforcement Learning, Feature Engineering, Cross-validation, Ensemble methods (like Random Forests, which combine multiple Decision Tree algorithms).
-*   **Methodologies**: These are systematic frameworks or sets of practices and principles that guide the entire process of developing, deploying, and maintaining a machine learning project. They encompass the overall strategy, from problem definition to deployment and monitoring.
-    *   *Example*: CRISP-DM (Cross-Industry Standard Process for Data Mining), Agile methodologies adapted for ML projects, MLOps (Machine Learning Operations) practices.
-
-In essence:
-*   An **algorithm** is the specific recipe for learning.
-*   A **technique** is a way of using or combining those recipes, or preparing the ingredients.
-*   A **methodology** is the overarching plan and process for the entire cooking project, from planning the meal to serving it.
+### Algorithms, Techniques, and Methodologies
+- These relate to the different levels of abstraction and scope
+	- #question Are there more levels or are these the main 3? 
+- Algorithms (mainly for learning)
+	- These are computational procedures or formulas which a machine learning model uses to learn from data and make predictions.
+		- #question Is it always known as a prediction or a decision as well?
+		- #question What is a computational procedure
+		- #question What kind of formulas are there?
+		- Examples
+			- Linear Regression
+				- #question Definition and Example
+			- Support Vector Machines
+				- #question Definition and Example
+			- Decision Trees
+				- #question Definition and Example
+			- K-Means Clustering
+				- #question Definition and Example
+				- #question Are there other types of clustering?
+			- Neural Networks
+				- #question Definition and Example
+			- #question Are these examples the exhaustive list?
+- Techniques (how algorithms are applied or data is managed):  
+	* This involves applying one or more algorithms together and preparing/handling data to achieve a particular learning goal
+		* #question What kind of learning goals are there? 
+		* #question How would you prepare and handle data?
+		* #question Is data normalization part of this preparation process?
+		* #question Where does techniques usually fall within a setup?
+	* Examples
+		* Supervised Learning
+		* Unsupervised Learning
+		* Reinforcement Learning
+		* Feature Engineering
+		* Cross-validation
+		* Ensemble methods
+			* Random Forests (combines multiple decision tree algorithms)
+		* #question Please give definition and example for each of these
+* Methodologies
+	* Systematic frameworks which guide the entire process of defining the problem, developing, deploying, and maintaining a machine learning project 
+		* #question How do you deploy with machine learning?
+	* Examples
+		* CRISP-DM (Cross-Industry Standard Process  for Data Mining)
+		* Agile methodologies adapted for ML projects
+		* MLOps (Machine Learning Operations) practices
+		* #question Please give definition and example for each of these
 ### Machine Learning Involvement
 - Data is needed for training and learning. It can be in many forms such as text, images, or numbers and must be cleaned and processed before use
 	- #question how is it cleaned and processed?

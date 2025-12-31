@@ -4458,9 +4458,9 @@ Reviewed: false
 	4395. semicarbazones
 	4396. semiclassical approximation
 	4397. semiconductor
-	4398. semiconductor laser
+	4398. [[semiconductor laser]]
 	4399. semimetal
-	4400. semipermeable membrane
+	4400. [[semipermeable membrane]]
 	4401. semipolar bond
 	4402. Semtex
 	4403. septivalent
@@ -4475,7 +4475,7 @@ Reviewed: false
 	4412. shale
 	4413. shell
 	4414. shellac
-	4415. sherardizing
+	4415. [[sherardizing]]
 	4416. [[shock wave]]
 	4417. short period
 	4418. sial

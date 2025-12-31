@@ -1,5 +1,12 @@
-[HackerRank](https://www.hackerrank.com/domains/shell)
-
+---
+Source:
+  - https://www.hackerrank.com/domains/shell
+Length: "6509"
+tags:
+  - status/incomplete
+  - type/website
+Reviewed: false
+---
 ## Bash
 ### 1. Let's Echo
 ```bash
