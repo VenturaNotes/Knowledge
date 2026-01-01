@@ -4529,7 +4529,7 @@ Reviewed: false
 	4466. slurry
 	4467. SMARTS
 	4468. smectic
-	4469. smelting
+	4469. [[smelting]]
 	4470. SMILES
 	4471. smoke
 	4472. SN1 reaction
@@ -4590,9 +4590,9 @@ Reviewed: false
 	4527. soft condensed matter
 	4528. soft soap
 	4529. soft water
-	4530. soil chemistry
+	4530. [[soil chemistry]]
 	4531. sol
-	4532. solder
+	4532. [[solder]]
 	4533. solid
 	4534. solid-state reaction
 	4535. solid solution
