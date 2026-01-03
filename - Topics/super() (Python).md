@@ -1,6 +1,8 @@
 ---
 aliases:
   - super()
+tags:
+  - in-progress
 ---
 ## Synthesis
 - Without `super().__init__()`, the base attributes may never get initialized leading to missing data or errors. 
@@ -46,10 +48,9 @@ Dog created: Fido, Breed: Labrador
 	- #question Why would you want to do this?
 ### Why use super() vs calling parent directly
 - Cleaner and less error-prone
-- Supports multiple inheritance suing the method resolution order (MRO)
+- Supports multiple inheritance using the [[method resolution order]] (MRO)
 	- #question what is the method resolution order?
 - Makes code easier to maintain and extend
-
 ### Multiple Inheritance Example
 ```python
 class A:
