@@ -4601,7 +4601,7 @@ Reviewed: false
 	4538. solubility product
 	4539. solute
 	4540. solution
-	4541. solvation
+	4541. [[solvation]]
 	4542. Solvay process
 	4543. solvent
 	4544. solvent extraction
@@ -4646,12 +4646,12 @@ Reviewed: false
 	4583. spin glass
 	4584. spin label
 	4585. spinodal curve
-	4586. spinodal decomposition
+	4586. [[spinodal decomposition]]
 	4587. spintronics
 	4588. spirits of salt
 	4589. spiro compound
 	4590. spontaneous combustion
-	4591. spontaneous emission
+	4591. [[spontaneous emission]]
 	4592. spot test
 	4593. spray pyrolysis
 	4594. sputtering
