@@ -4466,7 +4466,7 @@ Reviewed: false
 	3635. nerve cell
 		1. See neuron
 	3636. [[nerve cord]]
-	3637. [[nerve fibre]]
+	3637. [[nerve fiber|nerve fibre]]
 	3638. nerve growth factor
 		1. (NGF) See neurotrophin
 	3639. nerve impulse

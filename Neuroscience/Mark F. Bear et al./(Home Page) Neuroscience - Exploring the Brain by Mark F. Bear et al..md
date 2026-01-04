@@ -203,7 +203,7 @@ Reviewed: false
 		- [[Nerve]]
 		- [[Muscle]]
 		- [[Skin]]
-		- [[Nerve fibers]] (axons)
+		- [[nerve fiber|Nerve fibers]] (axons)
 		- [[Vertebra]]
 		- Figure 1.9 ([[Spinal Nerve|Spinal nerves]] and [[Spinal Nerve Root|spinal nerve roots]])
 			- 31 pairs of nerves leave the spinal cord to supply the skin and muscles
@@ -214,7 +214,7 @@ Reviewed: false
 		- New concept now that nerves are "wires" that conduct electrical signals to and from brain
 	- Are same wires used for muscles and skin?
 		- Bidirectional communication suggested
-		- “many thin filaments, or [[nerve fibers]], each one of which could serve as an individual wire carrying information in a different direction.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=53&annotation=LK4S7F49))
+		- “many thin filaments, or [[nerve fiber|nerve fibers]], each one of which could serve as an individual wire carrying information in a different direction.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=53&annotation=LK4S7F49))
 		- Answered around 1810 by [[Charles Bell]] and [[François Magendie]]
 			- Anatomical fact
 				- Before nerves attach to spinal cord, [[Fiber|fibers]] divide into two branches/roots

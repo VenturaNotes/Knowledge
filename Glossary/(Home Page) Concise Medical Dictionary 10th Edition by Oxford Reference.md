@@ -9821,7 +9821,7 @@ Reviewed: false
 	7726. [[nerve conduction study]]
 	7727. [[nerve ending]]
 	7728. [[nerve entrapment syndrome]]
-	7729. [[nerve fibre]]
+	7729. [[nerve fiber|nerve fibre]]
 	7730. [[nerve gas]]
 	
 	7731. [[nerve growth factor]]

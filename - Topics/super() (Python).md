@@ -1,8 +1,6 @@
 ---
 aliases:
   - super()
-tags:
-  - in-progress
 ---
 ## Synthesis
 - Without `super().__init__()`, the base attributes may never get initialized leading to missing data or errors. 

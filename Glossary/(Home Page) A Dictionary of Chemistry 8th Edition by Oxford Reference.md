@@ -1196,9 +1196,9 @@ Reviewed: false
 	1172. [[complementarity]]
 	1173. complex
 	1174. complex ion
-	1175. complexometric analysis
+	1175. [[complexometric analysis]]
 	1176. component
-	1177. composite material
+	1177. [[composite material]]
 	1178. composite polymer
 	1179. compound
 	1180. comproportionation
@@ -4676,7 +4676,7 @@ Reviewed: false
 	4613. stannic compounds
 	4614. stannite
 	4615. stannous compounds
-	4616. starch
+	4616. [[starch]]
 	4617. Stark-Einstein law
 	4618. Stark effect
 	4619. state of matter
