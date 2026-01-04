@@ -1,9 +1,12 @@
 ---
 aliases:
   - brains
+tags:
+  - in-progress
 ---
 ## Synthesis
-- 
+### Organize
+- Employs several organizational principles to process and make sense of sensory information, allowing us to perceive a coherent world. Many of these principles fall under the umbrella of Gestalt principles of perceptual organization, which describe how the brain groups individual elements into larger, meaningful wholes.
 ## Source [^1]
 - The brain contains around 85 billion neurons
 ## Source[^2]

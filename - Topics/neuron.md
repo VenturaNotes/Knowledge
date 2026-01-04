@@ -7,6 +7,8 @@ aliases:
 ## Synthesis
 - Fundamental unit of the [[nervous system]]
 - Responsible for transmitting information throughout the body
+	- #question How is it able to do this?
+	- #question What type of information?
 ## Source[^1]
 - The neuron is a nerve cell and is the primary functional unit of the nervous system
 ## Source[^2]
