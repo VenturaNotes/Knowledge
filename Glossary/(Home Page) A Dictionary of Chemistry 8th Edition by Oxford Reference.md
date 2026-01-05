@@ -1199,7 +1199,7 @@ Reviewed: false
 	1175. [[complexometric analysis]]
 	1176. component
 	1177. [[composite material]]
-	1178. composite polymer
+	1178. [[composite polymer]]
 	1179. compound
 	1180. comproportionation
 	1181. Compton, Arthur Holly (1892-1962)
@@ -1221,7 +1221,7 @@ Reviewed: false
 	1197. conduction band
 	1198. conductivity water
 	1199. Condy's fluid
-	1200. configuration
+	1200. [[configuration]]
 	1201. [[configuration space]]
 	1202. confocal microscopy
 	1203. conformation
@@ -1232,7 +1232,7 @@ Reviewed: false
 	1208. conjugate acidorbase
 	1209. conjugate addition
 	1210. conjugated
-	1211. conjugate solutions
+	1211. [[conjugate solutions]]
 	1212. conjugation
 	1213. [[connection table]]
 	1214. [[conservation]]
