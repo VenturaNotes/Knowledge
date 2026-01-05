@@ -38,7 +38,8 @@ In machine learning, a **task** refers to the specific problem that a machine le
 
 Researchers and practitioners commonly use "task" to categorize and discuss different types of machine learning problems.
 ## Source [^1]
-- 
+- Two fundamental tasks in supervised learning are classification and regression. They differ in the type of output predicted
+	- #comment Classification is based on categories while regression is based on continuous values
 ## References
 
-[^1]:
+[^1]: [[(Home Page) 500+ Machine Learning and Artificial Intelligence Interview Questions and Answers by Applyre]]

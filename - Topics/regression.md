@@ -11,6 +11,10 @@
 - $n$. (in psychiatry) reversion to a more immature level of functioning. The term may be applied to the state of a patient in hospital who becomes incontinent and demanding. It may also be applied to a single psychological function; for example, psychoanalysts speak of the libido regressing to an early stage of development.
 ## Source[^3]
 - In supervised learning, regression predicts continuous values
+	- #comment 
+		- Examples
+			- Predicting the price of a house
+			- Predicting temperatures
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
