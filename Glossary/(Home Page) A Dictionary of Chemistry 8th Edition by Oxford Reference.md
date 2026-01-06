@@ -1345,7 +1345,7 @@ Reviewed: false
 	1321. cubic zircona
 	1322. cumene process
 	1323. cumulene
-	1324. cupellation
+	1324. [[cupellation]]
 	1325. cuprammonium ion
 	1326. cupric compounds
 	1327. cuprite
@@ -1780,7 +1780,7 @@ Reviewed: false
 	1756. electronegative
 	1757. electron energy loss spectroscopy
 	1758. electron flow
-	1759. electron gas
+	1759. [[electron gas]]
 	1760. [[electronic effects]]
 	1761. electronic spectra of molecules
 	1762. electron ionization
@@ -1807,7 +1807,7 @@ Reviewed: false
 	1783. electrum
 	1784. element
 	1785. elementary particle
-	1786. elementary reaction
+	1786. [[elementary reaction]]
 	1787. elevation of boiling point
 	1788. [[elimination reaction]]
 	1789. Elinvar
