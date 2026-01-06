@@ -1267,9 +1267,9 @@ Reviewed: false
 	1243. copperas
 	1244. copper glance
 	1245. copper pyrites
-	1246. coprecipitation
+	1246. [[coprecipitation]]
 	1247. cordite
-	1248. core orbital
+	1248. [[core orbital]]
 	1249. Corey-Pauling rules
 	1250. CORN rule
 	1251. correlation diagram
@@ -1315,7 +1315,7 @@ Reviewed: false
 	1291. crucible
 	1292. crude oil
 	1293. Crum Brown's rule
-	1294. cryocrystallography
+	1294. [[cryocrystallography]]
 	1295. cryogenic pump
 	1296. cryohydrate
 	1297. [[cryolite]]
