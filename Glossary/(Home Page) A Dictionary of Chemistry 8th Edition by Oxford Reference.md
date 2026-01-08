@@ -1844,7 +1844,7 @@ Reviewed: false
 	1820. energy
 	1821. energy bands
 	1822. energy landscape
-	1823. energy level
+	1823. [[energy level]]
 	1824. Engel's salt
 	1825. [[enolate ion]]
 	1826. enols
@@ -1861,9 +1861,9 @@ Reviewed: false
 	1837. enzyme inhibition
 	1838. [[enzyme kinetics]]
 	1839. ephedrine
-	1840. epimerism
+	1840. [[epimerism]]
 	1841. epinephrine
-	1842. epitaxy
+	1842. [[epitaxy]]
 	1843. EPM
 	1844. epoietin
 	1845. epoxides
