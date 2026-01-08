@@ -1779,7 +1779,7 @@ Reviewed: false
 	1755. electron diffraction
 	1756. electronegative
 	1757. electron energy loss spectroscopy
-	1758. electron flow
+	1758. [[electron flow]]
 	1759. [[electron gas]]
 	1760. [[electronic effects]]
 	1761. electronic spectra of molecules
@@ -1796,7 +1796,7 @@ Reviewed: false
 	1772. electropherogram
 	1773. electrophile
 	1774. electrophilic addition
-	1775. electrophilic substitution
+	1775. [[electrophilic substitution]]
 	1776. [[electrophoresis]]
 	1777. [[electrophoretic deposition]]
 	1778. [[electrophoretic effect]]
@@ -1846,7 +1846,7 @@ Reviewed: false
 	1822. energy landscape
 	1823. energy level
 	1824. Engel's salt
-	1825. enolate ion
+	1825. [[enolate ion]]
 	1826. enols
 	1827. [[enrichment]]
 	1828. ensemble
