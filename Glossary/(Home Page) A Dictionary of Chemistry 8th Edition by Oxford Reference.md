@@ -1865,7 +1865,7 @@ Reviewed: false
 	1841. epinephrine
 	1842. [[epitaxy]]
 	1843. EPM
-	1844. epoietin
+	1844. [[epoietin]]
 	1845. epoxides
 	1846. epoxyethane
 	1847. [[epoxy resins]]
@@ -1890,7 +1890,7 @@ Reviewed: false
 	1866. eserine
 	1867. ESI
 	1868. ESR
-	1869. essential amino acid
+	1869. [[essential amino acid]]
 	1870. [[essential element]]
 	1871. essential fatty acids
 	1872. essential oil
@@ -1946,7 +1946,7 @@ Reviewed: false
 	1922. exergonic
 	1923. exo-
 	1924. exothermic
-	1925. exotic atom
+	1925. [[exotic atom]]
 	1926. expanded plastic
 	1927. explosive
 	1928. extended metal atom chain
@@ -1957,7 +1957,7 @@ Reviewed: false
 	1933. external conversion
 	1934. extinction coefficient
 	1935. extraction
-	1936. extractive distillation
+	1936. [[extractive distillation]]
 	1937. extraordinary ray
 	1938. extrusion reaction
 	1939. Eyring, Henry (1901-81)
