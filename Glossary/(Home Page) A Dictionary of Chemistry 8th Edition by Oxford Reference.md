@@ -2070,7 +2070,7 @@ Reviewed: false
 	2046. flotation
 	2047. flow injection analysis
 	2048. fluctuation-dissipation theorem
-	2049. fluidization
+	2049. [[fluidization]]
 	2050. flunitrazepam
 	2051. fluorescein
 	2052. fluorescence
@@ -2086,7 +2086,7 @@ Reviewed: false
 	2062. flux
 	2063. fluxional molecule
 	2064. foam
-	2065. foaming agent
+	2065. [[foaming agent]]
 	2066. Fock degeneracy
 	2067. Fokker-Planck equation
 	2068. folacin
@@ -2126,7 +2126,7 @@ Reviewed: false
 	2102. Frankland, Sir Edward (1825-99)
 	2103. Frasch process
 	2104. Fraunhofer, Josef von (1787-1826)
-	2105. Fraunhofer lines
+	2105. [[Fraunhofer lines]]
 	2106. free-electron approximation
 	2107. free electron
 	2108. free energy
