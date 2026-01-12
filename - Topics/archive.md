@@ -1,8 +1,12 @@
+---
+tags:
+  - in-progress
+---
 ## Synthesis
-- 
+### Extracting an Archive
+- This is when you decompress or unpack the file contents 
 ## Source [^1]
 - An archive is a collection of data moved to a repository for long-term retention, to be kept separate for compliance reasons or moved off primary storage media.
-
 ## Source[^2]
 - A repository for information that the user wishes to retain, but without requiring immediate access. (The word is also used as a verb: to transfer into the archive system.) There are three quite different activities that must be distinguished:
 	- (a) the routine taking of backup copies, initiated by the system manager, to protect users and system managers against corruption of stored information;
