@@ -2192,7 +2192,7 @@ Reviewed: false
 	2168. gas
 	2169. gas-phase electrophoresis
 	2170. gas chromatography
-	2171. gas chromatography infrared
+	2171. [[gas chromatography infrared]]
 	2172. gas constant
 	2173. gas equation
 	2174. gasification
@@ -2218,7 +2218,7 @@ Reviewed: false
 	2194. gem
 	2195. geminate pair
 	2196. genetic code
-	2197. genome
+	2197. [[genome]]
 	2198. [[geochemistry]]
 	2199. geometrical isomerism
 	2200. gerade
@@ -2250,7 +2250,7 @@ Reviewed: false
 	2226. glove box
 	2227. glow discharge
 	2228. gluconic acid
-	2229. glucosan
+	2229. [[glucosan]]
 	2230. glucose
 	2231. glucuronic acid
 	2232. glucuronide

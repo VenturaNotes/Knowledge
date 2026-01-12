@@ -3,6 +3,8 @@ Source:
   - https://leetcode.com/problems/sort-even-and-odd-indices-independently/
 Reviewed: false
 Approaches: "1"
+tags:
+  - in-progress
 ---
 ## Synthesis
 ### My Solution Variation 1
