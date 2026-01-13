@@ -9,7 +9,7 @@ Reviewed: false
 ---
 ## Chapter 1
 - (1) [[Living things]] respond to stimuli, reproduce, and have adaptations
-#review
+#reviewed
 - (2) The smallest unit of matter that can enter into chemical combination is an [[atom]]
 - (3) The smallest living unit is a [[cell]]
 - (4) Similar cells with a similar function describes a [[tissue]]

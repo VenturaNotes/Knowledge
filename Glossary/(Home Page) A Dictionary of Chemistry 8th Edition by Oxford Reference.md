@@ -2266,7 +2266,7 @@ Reviewed: false
 	2242. glycine
 	2243. glycobiology
 	2244. glycogen
-	2245. glycogenesis
+	2245. [[glycogenesis]]
 	2246. glycogenolysis
 	2247. glycol
 	2248. glycolic acid
@@ -2297,7 +2297,7 @@ Reviewed: false
 	2273. graphite
 	2274. graphitic compounds
 	2275. graph theory
-	2276. gravimetric analysis
+	2276. [[gravimetric analysis]]
 	2277. gray
 	2278. [[green chemistry]]
 	2279. greenhouse effect
