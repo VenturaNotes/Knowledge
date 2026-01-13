@@ -109,6 +109,7 @@ Reviewed: false
 	- [[(98) A-Level Maths - B6-01 (Polynomials - Introducing Polynomials)]]
 	- [[(99) A-Level Maths - B6-02 (Polynomials - Adding and Subtracting Polynomials)]]
 	- [[(100) A-Level Maths - B6-03 (Polynomials - Multiplying Polynomials)]]
+- Goal
 	- [[(101) A-Level Maths - B6-04 (Polynomials - Expanding Three or More Brackets)]]
 	- [[(102) A-Level Maths - B6-05 (Polynomials - Polynomial Division using the Grid Method)]]
 	- [[(103) A-Level Maths - B6-06 (Polynomials - Polynomial Division using the Long Division Method)]]
