@@ -13,8 +13,8 @@ Reviewed: false
 	- [[(3) A-Level Maths - A1-02 (Introducing Consequence and Equivalence)]]
 	- [[(4) A-Level Maths - A1-03 (Consequence and Equivalence Examples)]]
 	- [[(5) A-Level Maths - A1-04 (Introducing Proof by Exhaustion)]]
-- Incomplete
 	- [[(6) A-Level Maths - A1-05 (Proof by Exhaustion Examples)]]
+- Incomplete
 	- [[(7) A-Level Maths - A1-06 (Introducing Proof by Deduction)]]
 	- [[(8) A-Level Maths - A1-07 (Proof by Deduction Examples)]]
 	- [[(9) A-Level Maths - A1-08 (Introducing Disproof by Counter Example)]]
