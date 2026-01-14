@@ -2384,7 +2384,7 @@ Reviewed: false
 	2359. Hartree-Fock procedure
 	2360. hashish
 	2361. hassium
-	2362. Haworth projection
+	2362. [[Haworth projection]]
 	2363. hazchem code
 	2364. HCFC
 	2365. headspace
@@ -2397,7 +2397,7 @@ Reviewed: false
 	2372. heat of formation
 	2373. heat of neutralization
 	2374. heat of reaction
-	2375. heat of solution
+	2375. [[heat of solution]]
 	2376. heavy-fermion system
 	2377. heavy hydrogen
 	2378. heavy metal
@@ -2478,7 +2478,7 @@ Reviewed: false
 	2453. Hinshelwood, Sir Cyril Norman (1897-1967)
 	2454. Hirsch's rule
 	2455. histidine
-	2456. histochemistry
+	2456. [[histochemistry]]
 	2457. histone
 	2458. HMX
 	2459. HNIW
