@@ -2479,7 +2479,7 @@ Reviewed: false
 	2454. Hirsch's rule
 	2455. histidine
 	2456. [[histochemistry]]
-	2457. histone
+	2457. [[histone]]
 	2458. HMX
 	2459. HNIW
 	2460. Hoff, Jacobus Henrikus van't (1852-1911)
@@ -2531,7 +2531,7 @@ Reviewed: false
 	2506. hydrochloride
 	2507. hydrochlorofluorocarbon
 	2508. hydrocyanic acid
-	2509. hydrodynamic radius
+	2509. [[hydrodynamic radius]]
 	2510. hydrofluoric acid
 	2511. hydrofluorocarbon
 	2512. hydrogen
@@ -2581,7 +2581,7 @@ Reviewed: false
 	2556. hydroxyl radical
 	2557. 2-hydroxypropanoic acid
 	2558. hygroscopic
-	2559. hyperconjugation
+	2559. [[hyperconjugation]]
 	2560. hyperfine structure
 	2561. hypertonic solution
 	2562. hypervalent molecule
