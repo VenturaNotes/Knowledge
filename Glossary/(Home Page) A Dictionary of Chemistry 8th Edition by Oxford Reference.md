@@ -2609,14 +2609,14 @@ Reviewed: false
 	2584. imines
 	2585. imino group
 	2586. Imperial units
-	2587. implosion
+	2587. [[implosion]]
 	2588. IMS
 	2589. incandescence
 	2590. InChI
 	2591. [[inclusion compound]]
 	2592. incommensurate lattice
 	2593. indene
-	2594. independent-particle model
+	2594. [[independent-particle model]]
 	2595. indeterminacy
 	2596. indicator
 	2597. indigo
@@ -2639,7 +2639,7 @@ Reviewed: false
 	2614. inner-sphere mechanism
 	2615. inner transition series
 	2616. inorganic aromaticity
-	2617. inorganic chemistry
+	2617. [[inorganic chemistry]]
 	2618. insecticide
 	2619. insertion reaction
 	2620. [[insulin]]
