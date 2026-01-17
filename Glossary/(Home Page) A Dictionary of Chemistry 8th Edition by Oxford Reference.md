@@ -2657,8 +2657,8 @@ Reviewed: false
 	2632. internal resistance
 	2633. interstellar molecules
 	2634. interstitial
-	2635. interstitial compound
-	2636. intersystem crossing
+	2635. [[interstitial compound]]
+	2636. [[intersystem crossing]]
 	2637. intrinsic factor
 	2638. Invar
 	2639. inverse-square force
@@ -2687,7 +2687,7 @@ Reviewed: false
 	2662. ionic product
 	2663. ionic radius
 	2664. ionic reaction
-	2665. ionic strength
+	2665. [[ionic strength]]
 	2666. ionization
 	2667. ionization energy
 	2668. ionization gauge
