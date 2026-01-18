@@ -2680,7 +2680,7 @@ Reviewed: false
 	2655. ion-microprobe analysis
 	2656. ion-mobility spectrometry
 	2657. ion association
-	2658. ion chromatography
+	2658. [[ion chromatography]]
 	2659. ion exchange
 	2660. ionic bond
 	2661. ionic crystal
@@ -2690,10 +2690,10 @@ Reviewed: false
 	2665. [[ionic strength]]
 	2666. ionization
 	2667. ionization energy
-	2668. ionization gauge
+	2668. [[ionization gauge]]
 	2669. ionization potential
 	2670. ionizing radiation
-	2671. ionophore
+	2671. [[ionophore]]
 	2672. ion pair
 	2673. ion pump
 	2674. IP
