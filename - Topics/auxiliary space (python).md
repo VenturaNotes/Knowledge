@@ -3,8 +3,7 @@ aliases:
   - auxiliary space
 ---
 ## Synthesis
-- Extra space or temporary memory that an algorithm uses beyond the input data itself. 
-	- Space taken by input not counted
+- Extra space or temporary memory that an algorithm uses beyond the input data itself (which is not counted)
 - It is different from space complexity
 	- Space complexity is the total memory used by the algorithm, including the input and any auxiliary space
 	- Auxiliary space is only the extra or temporary memory used during computation (like recursion stacks, helper arrays, etc.)

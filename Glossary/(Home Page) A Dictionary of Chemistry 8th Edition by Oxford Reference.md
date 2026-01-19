@@ -2708,7 +2708,7 @@ Reviewed: false
 	2683. iron(III) sulphate
 	2684. iron pyrites
 	2685. irreducible representation
-	2686. irreversibility
+	2686. [[irreversibility]]
 	2687. irreversible process
 	2688. irreversible reaction
 	2689. IR spectroscopy
@@ -2717,13 +2717,13 @@ Reviewed: false
 	2692. island of stability
 	2693. iso-
 	2694. iso-octane
-	2695. isobar
+	2695. [[isobar]]
 	2696. isocyanate
 	2697. isocyanic acid
 	2698. isocyanide
 	2699. isocyanide test
 	2700. isoelectric point
-	2701. isoelectronic
+	2701. [[isoelectronic]]
 	2702. isoenzyme
 	2703. isoindole
 	2704. isoleptic complex
