@@ -2,7 +2,6 @@
 - 
 ## Source [^1]
 - By default, once a variable is initialized, its value can't be changed[^2]
-- Test
 ## Source[^3]
 - Logic errors in algorithms not prevented by memory safety features
 - Primary mechanism to ensure memory safety is ownership and borrowing rules. This make it so we don't need a garbage collector
