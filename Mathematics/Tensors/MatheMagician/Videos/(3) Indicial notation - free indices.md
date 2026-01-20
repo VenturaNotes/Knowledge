@@ -9,7 +9,7 @@ Reviewed: false
 		- Allows us to abbreviate sums which shortens the expressions
 		- Can also reduce the number of equations we need
 			- To do this, we need [[free indices]]
-	- Take for example the [[differential equations]]
+	- Take for example the [[differential equation|differential equations]]
 	- Example 1: components of a vector
 	- For the vector a
 		- Can write $a_ie_i$ 

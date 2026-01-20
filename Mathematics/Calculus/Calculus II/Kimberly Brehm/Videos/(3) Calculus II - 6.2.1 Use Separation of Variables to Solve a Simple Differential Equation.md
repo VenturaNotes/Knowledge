@@ -3,3 +3,22 @@ Source:
   - https://www.youtube.com/watch?v=D6EzBdAbT2Q
 Reviewed: false
 ---
+- Image
+	- Introduction
+		- Section 6.3 is actually called separation of variables and the logistic equation. This is a preview to that. It's going to be when an equation is not a logistic equation but we're still using separation of variables to solve
+	- Section 1
+		- So far , we only know how to:
+			- Analyze visually the solutions to a differential equation using a slope field
+			- Solve differential equations in the form $y' = f(x)$
+		- What if we have an equation like $y' = \frac {2x}{y}$
+			- Problem is that we have a y on each side of the equals sign.
+		- Now we will have to rewrite the equation so that each variable occurs on only one side of the equation. This is called separation of variables. 
+	- Section 2
+		- Solve the differential equation: $y' = \frac {2x}{y}$
+			- You can interpret $y'$ as $\frac {dy}{dx}$ 
+			- You would need to use the [[power rule]] for integration
+			- You can put the two constants together when taking the integral. So you could have $C_1$ on the left side and $C_2$ on the right side but you could just put the constants together as $C_1$ on the right side.
+			- Don't need to do $C_1$ or $C_2$. Just know constants would be combined together anyway giving $C$ 
+	- Section 3
+		- Solve the differential equations
+			- Make sure to read instructions for what form they want the differential equation form to be in. 

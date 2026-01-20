@@ -12,4 +12,4 @@ Reviewed: false
 		- [[Transformations]]
 		- [[Eigenvalues]]
 		- [[Eigenvectors]]
-		- Applications to solving [[differential equations]]
+		- Applications to solving [[differential equation|differential equations]]

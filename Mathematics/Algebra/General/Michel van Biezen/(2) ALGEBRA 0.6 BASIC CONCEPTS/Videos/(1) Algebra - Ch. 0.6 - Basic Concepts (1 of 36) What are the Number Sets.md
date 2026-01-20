@@ -7,7 +7,7 @@ Reviewed: false
 - All Numbers ($\frac 47$, 3, 0, -5, 1.5, $\pi$, $\sqrt 2$, $i$, 4 + 5$i$)
 	- Imaginary (i, 4 + 5i)
 		- i = $\sqrt {-1}$ 
-		- [[Complex numbers]] are the numbers that are expressed in the form of <mark style="background: #FFF3A3A6;">a+ib</mark> where, a,b are real numbers and  ‘i’ is an imaginary number called “<mark style="background: #FFF3A3A6;">iota</mark>” The value of i = (√-1) [^1]
+		- [[Complex numbers]] are the numbers that are expressed in the form of <mark style="background: #FFF3A3A6;">a+ib</mark> where, a,b are real numbers and  'i' is an imaginary number called “<mark style="background: #FFF3A3A6;">iota</mark>” The value of i = (√-1) [^1]
 	- Real ($\frac 47$, 3, 0, -5, 1.5, $\pi$, $\sqrt 2$ )
 		- Irrational ($\pi$, $\sqrt{2}$ )
 			- Can not be put into a fractional format

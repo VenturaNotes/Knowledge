@@ -1,3 +1,7 @@
+---
+aliases:
+  - differential equations
+---
 ## Synthesis
 - 
 ## Source [^1]

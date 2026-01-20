@@ -2734,9 +2734,9 @@ Reviewed: false
 	2709. isometric
 	2710. isomorphism
 	2711. isomorphous replacement
-	2712. isomorphous substitution
+	2712. [[isomorphous substitution]]
 	2713. isonitrile
-	2714. isopleth
+	2714. [[isopleth]]
 	2715. isopoly compound
 	2716. isopolymorphism
 	2717. isoprene
@@ -2751,7 +2751,7 @@ Reviewed: false
 	2726. isotopic number
 	2727. isotopologues
 	2728. isotopomers
-	2729. isotropic
+	2729. [[isotropic]]
 	2730. isozyme
 	2731. itaconic acid
 	2732. IUPAC

@@ -8,9 +8,9 @@ tags:
 Reviewed: false
 ---
 - Complete
-- Incomplete
 	- [[(1) Calculus II - 6.1.1 General and Particular Solutions to Differential Equations]]
 	- [[(2) Calculus II - 6.1.2 Slope Fields]]
+- Incomplete
 	- [[(3) Calculus II - 6.2.1 Use Separation of Variables to Solve a Simple Differential Equation]]
 	- [[(4) Calculus II - 6.2.2 Models of Exponential Growth and Decay]]
 	- [[(5) Calculus II - 6.3.1 Using Separation of Variables to Find General and Particular Solutions]]

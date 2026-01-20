@@ -3,3 +3,48 @@ Source:
   - https://www.youtube.com/watch?v=564pn3CaoyQ
 Reviewed: false
 ---
+- ![[Screenshot 2026-01-19 at 5.05.36 AM.png]]
+	- Section 1
+		- A [[differential equation]] in $x$ and $y$ is an equation that involves $x, y$ and derivatives of $y (y', y'', ...)$ $$2xy' - 2y = 0$$
+			- The equation above is an example of a differential equation. There is an
+				- x
+				- y
+				- y'
+			- You could have a second derivative or third derivative as well
+		- A function is called a solution of the differential equation if replacing y and its derivatives with the function satisfies the equation.
+			- Let f(x) = 3x
+				- Since this equation satisfies the differential equation, we can say that the function $f(x) = 3x$ is a solution of the differential equation 
+	- Section 2
+		- Some differential equations have many solutions that differ only in the value of the constant
+			- Example: $y' + 3y = 0$
+				- $f(x) = Ce^{-3x}$
+					- "general solution"
+						- A general equation will have a C or perhaps more than one C.
+				- Since we only have a single derivative in this example, we only have 1 arbitrary constant. 
+					- If we had the second derivative, we would have 2 arbitrary constants and so on. 
+		- The number of arbitrary constants is determined by the order of a differential equation, which is the highest-order derivative in the equation.
+	- Section 3
+		- Determine if the function $f(x) = C_1e^{-x}cosx + C_2e^{-x}sinx$ is a solution of the differential equation $y'' + 2y' + 2y = 0$
+			- We have a second order differential equation because we have $y''$
+		- Given $y = C_1e^{-x}cosx + C_2e^{-x}sinx$
+			- To find derivative of $C_1e^{-x}cosx$
+				- This is two things that are being multiplied, so we use product rule 
+					- Product value takes first value, times derivative of the second + second times derivative of first
+		- Don't always rely on what the textbook is telling you. You need to be able to get there yourself. So the yellow circled one is the textbook but the one you write out yourself is the one above.
+		- This shows work we needed to do to answer question
+	- Section 4
+		- We've shown the function is a solution to the differential equation given.
+			#comment We end up cancelling all the terms on the left side of the equation so that 0 = 0
+- ![[Screenshot 2026-01-19 at 5.41.31 AM.png]]
+	- Section 1
+		- Lets revisit our first general form example
+			- $y' + 3y = 0$
+				- Differential equation
+			- $f(x) = Ce^{-3x}$
+				- General form solution
+		- The correct curve shown in the graph will depend on the given initial conditions. So if the solution curve goes through the point $(0, 1)$, we know that the particular solution would be $y = e^{-3x}$ 
+	- Section 2
+		- Verify the function $y = Ce^{-6x}$ is a solution to the differential equation $y' + 6y = 0$. Then find the particular solution that satisfies the initial condition of y = 3 when x = 0
+			- Given $y = Ce^{-6x}$, we need to use chain rule to get $y' = Ce^{-6x}(-6)$ 
+		- We verified that the function $y = Ce^{-6x}$ is the general form solution for the differential equation $y' + 6y = 0$ 
+		- When asked to find a particular solution, they're saying, we realize that there are an infinite number of curves that would satisfy the differential equation. But we want to know the one particular curve that will go through y = 3 when x = 0. This is pretty straight-forward. Just need to plug-in those initial values into the general form solution. 
