@@ -1996,3 +1996,4 @@ Reviewed: false
 	- [[(3065) Minimum Operations to Exceed Threshold Value I]]
 	- [[(3206) Alternating Groups I]]
 	- [[(3101) Count Alternating Subarrays]]
+	- [[(3683) Earliest Time to Finish One Task]]

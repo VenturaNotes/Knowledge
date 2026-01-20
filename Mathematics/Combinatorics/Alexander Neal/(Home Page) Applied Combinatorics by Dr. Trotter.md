@@ -260,7 +260,7 @@ Reviewed: false
 	- [[(243) L22V13 Dijkstra’s Algorithm]]
 	- [[(244) L22V14 Review]]
 	- [[(245) L22V15 Review – Applying the Exchange Principle]]
-	- [[(246) L22V16  Review – Dijkstra’s Algorithm and Shortest Paths]]
+	- [[(246) L22V16  Review – Dijkstra's Algorithm and Shortest Paths]]
 	- [[(247) L22V17 Review – The Correctness of the Algorithm (1)]]
 	- [[(248) L22V18 Review – The Correctness of the Algorithm (2)]]
 	- [[(249) L23V01 Network Flow Problems]]

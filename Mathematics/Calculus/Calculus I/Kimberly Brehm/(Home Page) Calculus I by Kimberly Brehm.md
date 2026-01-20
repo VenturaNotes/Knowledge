@@ -50,7 +50,6 @@ Reviewed: false
 	- [[(40) Calculus I - 3.6.1 Curve Sketching Using Graph Attributes]]
 	- [[(41) Calculus I - 3.6.2 Curve Sketching Using Derivatives]]
 	- [[(42) Calculus I - 3.7.1 Optimization]]
-
 - Incomplete
 	- [[(43) Calculus I - 3.7.2 Optimization Practice]]
 	- [[(44) Calculus - 3.9.1 Tangent Line Approximation and Differentials]]

@@ -1,5 +1,6 @@
 ## Synthesis
-- 
+- A subsequence does not need to be contiguous. 
+	- For example, `[3, 2, 2, 2, 3]` is a subsequence of `[3, 2, 2, 5, 2, 3]` even though `5` is skipped since the elements do not need to be contiguous.
 ## Source [^1]
 - (1) A function whose domain is a subset of the positive integers and hence whose image set can be listed:$$\begin{aligned}
 
