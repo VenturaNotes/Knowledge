@@ -53,7 +53,7 @@ Reviewed: false
 	- What are the sample statistics?
 		- 73%
 	- Describe at least 2 potential sources of bias.
-		- Participation bias – Many likely didn’t return survey
-		- Nonresponse bias – Those without mailing address not included 
-		- Researcher bias – If biased questions were written 
+		- Participation bias - Many likely didn't return survey
+		- Nonresponse bias - Those without mailing address not included 
+		- Researcher bias - If biased questions were written 
 

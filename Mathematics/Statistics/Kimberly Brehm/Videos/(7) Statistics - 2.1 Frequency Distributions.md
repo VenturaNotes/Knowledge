@@ -32,7 +32,7 @@ Reviewed: false
 - Frequency Distributions in Excel
 	- Open your data
 	- Highlight data in column 
-	- Insert – PivotTable
+	- Insert - PivotTable
 	- Select data input range
 	- Select data output location
 	- Drag column name to Rows and Values

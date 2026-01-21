@@ -20,7 +20,7 @@ Reviewed: false
 	- Currently working at [[Apollo Agriculture]]
 		- “make financing accessible to small-scale farmers.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=5&annotation=NH3N6HVQ))
 			- #question what is meant by financing?
-		- “Agent’s App and Agro-Dealers App.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=5&annotation=CP4M8BDN))
+		- “Agent's App and Agro-Dealers App.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=5&annotation=CP4M8BDN))
 
 ### About the Reviewers
 - [[Dmitrii Ivashchenko]]
@@ -43,7 +43,7 @@ Reviewed: false
 	- “compatible with existing Java code and libraries” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=Q89L6R23))
 	- “[[Google]] recognized Kotlin as a primary language for building Android apps” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=GPSC8EQW))
 - “book adopts an industry-focused approach, preparing you for the role of an Android developer in any company.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=FV4GSHQ2))
-	- “best practices recommended by Google’s Android team” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=PWT4T9WP))
+	- “best practices recommended by Google's Android team” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=PWT4T9WP))
 - Topics
 	- [[Material Design 3]]
 	- “structuring apps in the [[MVVM]] architecture.” ([pdf](zotero://open-pdf/library/items/IVDMLGC3?page=14&annotation=L7EYKKS3))

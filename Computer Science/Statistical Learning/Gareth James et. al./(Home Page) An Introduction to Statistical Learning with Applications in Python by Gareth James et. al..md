@@ -14,7 +14,7 @@ Reviewed: false
 - “Hence, this book, An Introduction to Statistical Learning, With Applications in Python (ISLP), covers the same materials as ISLR but with labs implemented in Python — a feat accomplished by the addition of a new co-author, [[Jonathan Taylor]].” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=4&annotation=HL6RZEWM))
 	- Originally the programming language "R" was the go-to 
 - “[[ISLP Python package]], which we have written to facilitate carrying out the statistical learning methods covered in each chapter in Python.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=4&annotation=HY53TCQN))
-- “appropriate for advanced undergraduates or master’s students in statistics or related quantitative fields” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=4&annotation=64KGUDQ6))
+- “appropriate for advanced undergraduates or master's students in statistics or related quantitative fields” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=4&annotation=64KGUDQ6))
 	- “It can be used as a textbook for a course spanning two semesters.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=4&annotation=PVCBCI7C))
 ## (1) Introduction
 ### (1.1) An Overview of Statistical Learning
@@ -25,12 +25,12 @@ Reviewed: false
 - “With [[unsupervised statistical learning]], there are inputs but no supervising output; nevertheless we can learn relationships and structure from such data.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=12&annotation=KLMSV8ME))
 	- #question What is a supervising output?
 ### (1.2) Wage Data
-- “wish to understand the association between an employee’s age and education, as well as the calendar year, on his wage.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=12&annotation=K8HKTZ9I))
-- “age alone is unlikely to provide an accurate prediction of a particular man’s wage.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=12&annotation=663QN4YE))
+- “wish to understand the association between an employee's age and education, as well as the calendar year, on his wage.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=12&annotation=K8HKTZ9I))
+- “age alone is unlikely to provide an accurate prediction of a particular man's wage.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=12&annotation=663QN4YE))
 - “[[Boxplots]] displaying wage as a function of education, with 1 indicating the lowest level (no high school diploma) and 5 the highest level (an advanced graduate degree). On average, wage increases with the level of education.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=PAEW3K4X))
 	- #comment An advanced graduate degree is master's degree and above
 - “Wages are also typically greater for individuals with higher education levels: men with the lowest education level (1) tend to have substantially lower wages than those with the highest education level (5).” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=IRPKPUMF))
-- “most accurate prediction of a given man’s wage will be obtained by combining his age, his education, and the year” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=QI8RNXN9))
+- “most accurate prediction of a given man's wage will be obtained by combining his age, his education, and the year” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=QI8RNXN9))
 	- Could use linear regression for this to predict wage from data set
 - “Ideally, we should predict wage in a way that accounts for the non-linear relationship between wage and age.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=AMGPJAXD))
 
@@ -38,15 +38,15 @@ Reviewed: false
 - “The Wage data involves predicting a [[continuous]] or [[quantitative]] output value.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=A6BBISHW))
 	- Often referred to as a [[regression]] problem
 - “However, in certain cases we may instead wish to predict a non-numerical value—that is, a [[categorical]] or [[qualitative]] output.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=3JH3WJSQ))
-- “Standard & Poor’s 500 ([[Standard & Poor's|S&P]]) stock index over a 5-year period between 2001 and 2005.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=VUFHPYUE))
+- “Standard & Poor's 500 ([[Standard & Poor's|S&P]]) stock index over a 5-year period between 2001 and 2005.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=VUFHPYUE))
 	- Will be referred to as `Smarket` data
-	- “goal is to predict whether the [[- Topics/index|index]] will increase or decrease on a given day, using the past 5 days’ percentage changes in the index.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=R9N59WXC))
+	- “goal is to predict whether the [[- Topics/index|index]] will increase or decrease on a given day, using the past 5 days' percentage changes in the index.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=13&annotation=R9N59WXC))
 		- #comment I actually made a program similar to this
 	- Prediction will not find a numerical value but whether it will increase or decrease.
 		- This is known as a [[classification]] problem
-- “The two plots look almost identical, suggesting that there is no simple strategy for using yesterday’s movement in the S&P to predict today’s returns.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=14&annotation=MB23NXTW))
+- “The two plots look almost identical, suggesting that there is no simple strategy for using yesterday's movement in the S&P to predict today's returns.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=14&annotation=MB23NXTW))
 - “Interestingly, there are hints of some weak trends in the data that suggest that, at least for this 5-year period, it is possible to correctly predict the direction of movement in the market approximately 60% of the time” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=14&annotation=5M542CU7))
-- “We fit a [[quadratic discriminant analysis model]] to the subset of the Smarket data corresponding to the 2001–2004 time period,” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=15&annotation=9FD7F7JB))
+- “We fit a [[quadratic discriminant analysis model]] to the subset of the Smarket data corresponding to the 2001-2004 time period,” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=15&annotation=9FD7F7JB))
 	- “able to correctly predict the direction of movement in the market 60% of the time.” ([pdf](zotero://open-pdf/library/items/MGG794JE?page=15&annotation=V2DDG234)) for 2005 data.
 
 ### (1.4) Gene Expression Data

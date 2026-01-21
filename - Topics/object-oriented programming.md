@@ -18,11 +18,11 @@ aliases:
 ### Procedures
 - Objects can contain procedures (methods) as well as variables (also called properties). For example, a data type representing an automobile might be defined in C as follows:
 	- ![[Screenshot 2025-03-09 at 3.56.24 AM.png]]
-- Variables of type ‘automobile’ would then be instantiated, initialized by assigning appropriate values to their component subvariables, and manipulated by appropriate procedures. In OOP, the automobile structure could be reformulated in C++ to include a procedure:
+- Variables of type 'automobile' would then be instantiated, initialized by assigning appropriate values to their component subvariables, and manipulated by appropriate procedures. In OOP, the automobile structure could be reformulated in C++ to include a procedure:
 	- ![[Screenshot 2025-03-09 at 3.57.29 AM.png]]
-- Assuming a variable of type ‘automobile’ called ‘gasGuzzler,’ the method ‘travel’ could be called thus:
+- Assuming a variable of type 'automobile' called 'gasGuzzler,' the method 'travel' could be called thus:
 	- ![[Screenshot 2025-03-09 at 3.57.58 AM.png]]
-- (The significance of the keyword ‘virtual’ is explained below.)
+- (The significance of the keyword 'virtual' is explained below.)
 ### Inheritance
 - The fact that objects can be defined in terms of other objects is an important feature of OOP. A 'child' object type (or subclass) inherits all of its parent's methods and properties (which may have been inherited in turn from its parent) as well as defining its own. This facility allows complex hierarchies of related objects to be created. A child object type may override a method or property of its parent by defining a new method or property of the same name:
 	- ![[Screenshot 2025-03-20 at 3.26.43 PM.png]]

@@ -29,7 +29,7 @@ Incomplete
 [[(20) How to Improve Your Defensible Thesis for AP Lang Q1 and Q2 - Coach Hall Writes]]
 [[(21) How to Establish a Line of Reasoning in a Rhetorical Analysis Essay - AP Lang Q2 - Coach Hall Writes]]
 [[(22) How to Write a Rhetorical Analysis Essay - AP Lang Q2 - Coach Hall Writes]]
-[[(23) I Wrote Mock Exam Essays with My Students - Here’s What I Learned - Coach Hall Writes]]
+[[(23) I Wrote Mock Exam Essays with My Students - Here's What I Learned - Coach Hall Writes]]
 [[(24) Common Mistakes on Q3 of the AP Lang Exam - How to Write an Argument - Coach Hall Writes]]
 [[(25) How to Write a Concession and Refutation - Tips for AP Lang Q1 and Q3]]
 [[(26) Stable Wording for AP Lang Prompts Starting with the 2020 Exam - Coach Hall Writes]]

@@ -79,7 +79,7 @@ Reviewed: false
 		- “The [[cerebral cortex]] lies just under the skull.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=23&annotation=MNIK2LBH))
 		- “critical for conscious sensory perception and voluntary control of movement.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=23&annotation=5IPAE3RU))
 		- “major [[subcortical]] input to the cortex arises from the [[thalamus]], a structure that lies deep inside the brain.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=23&annotation=KK98ULXS))
-			- “Stained red are thalamic axons that bring to the cortex information about the whiskers on the animal’s snout.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=23&annotation=KXMCCUYV))
+			- “Stained red are thalamic axons that bring to the cortex information about the whiskers on the animal's snout.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=23&annotation=KXMCCUYV))
 				- “These are clustered into “barrels” that each represent a single whisker” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=23&annotation=NX4Z45ZC))
 			- “neurons that project axons back to the thalamus have been genetically engineered to fluoresce green.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=23&annotation=H2RJ58AT))
 			- “Blue indicates the nuclei of other cells stained with a [[DNA marker]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=23&annotation=NIFG6SHT))
@@ -106,7 +106,7 @@ Reviewed: false
 ### The Origins of Neuroscience
 - “You probably already know that the [[nervous system]]—the [[brain]], [[spinal cord]], and [[Nerve|nerves]] of the body—is crucial for life and enables you to sense, move, and think.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=48&annotation=2FC2FMJM))
 - Hominids back a million years damaged each other's skulls indicating they knew how much the brain was vital to life
-- “As early as 7000 years ago, people were boring holes in each other’s skulls (a process called” [[trepanation]]), evidently with the aim not to kill but to cure” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=48&annotation=E73QCJ3F))
+- “As early as 7000 years ago, people were boring holes in each other's skulls (a process called” [[trepanation]]), evidently with the aim not to kill but to cure” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=48&annotation=E73QCJ3F))
 	- “procedure may have been used to treat headaches or mental disorders, perhaps by giving the evil spirits an escape route.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=PYBHXZE4))
 - “The view that the heart was the seat of consciousness and thought was not seriously challenged until the time of Hippocrates.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=XGCFY5QZ))
 	- physicians of ancient Egypt over 5000 years ago were away of symptoms of brain damage
@@ -115,13 +115,13 @@ Reviewed: false
 - “head is specialized for sensing the environment with the eyes and ears, nose, and tongue.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=8W8BXBVY))
 	- “Even crude dissection can trace the nerves from these organs through the skull into the brain.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=FX7MKLNF))
 - “brain is the organ of sensation” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=WWQAVUSF))
-- “The most influential scholar was [[Hippocrates]] (460–379 B.C.E.), the father of Western medicine, who believed that the brain was not only involved in sensation but was also the seat of intelligence.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=4VYCEMFK))
+- “The most influential scholar was [[Hippocrates]] (460-379 B.C.E.), the father of Western medicine, who believed that the brain was not only involved in sensation but was also the seat of intelligence.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=4VYCEMFK))
 	- Not universally accepted however
-- “The famous Greek philosopher [[Aristotle]] (384–322 B.C.E.) clung to the belief that the heart was the center of intellect” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=HXPT6V86))
+- “The famous Greek philosopher [[Aristotle]] (384-322 B.C.E.) clung to the belief that the heart was the center of intellect” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=HXPT6V86))
 	- Believed rational temperament of humans was explained by the large cooling capacity of our brain
 	- Brain was radiator for cooling blood
 #### Views of the Brain During the Roman Empire
-- “The most important figure in Roman medicine was the Greek physician and writer [[Galen]] (130–200 C.E.), who embraced the Hippocratic view of brain function” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=N4NW36QV))
+- “The most important figure in Roman medicine was the Greek physician and writer [[Galen]] (130-200 C.E.), who embraced the Hippocratic view of brain function” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=49&annotation=N4NW36QV))
 	- Did animal dissections (like sheep)
 - ![[Screenshot 2023-08-12 at 11.21.08 PM.png|500]] ^zp122j
 	- Two major parts of brain
@@ -143,13 +143,13 @@ Reviewed: false
 			- “Sensations were registered and movements initiated by the movement of humors to or from the brain ventricles via the nerves, which were believed to be hollow tubes, like the blood vessels.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=50&annotation=7LLB4NSY))
 #### Views of the Brain from the Renaissance to the Nineteenth Century
 - “[[Galen|Galen's]] view of the brain prevailed for almost 1500 years.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=50&annotation=CSRF34QF))
-- “During the [[Renaissance]], the great [[anatomist]] [[Andreas Vesalius]] (1514–1564) added more detail to the structure of the brain” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=50&annotation=BE6RKPJV))
+- “During the [[Renaissance]], the great [[anatomist]] [[Andreas Vesalius]] (1514-1564) added more detail to the structure of the brain” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=50&annotation=BE6RKPJV))
 - ![[Screenshot 2023-08-12 at 11.33.35 PM.png]]
 	- “[[ventricular theory of brain function]] remained essentially unchallenged.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=50&annotation=S7N78NAB))
 	- When French inventors built hydraulically controlled mechanical devices, brain could be machinelike in function: Fluid forced out of ventricles to cause movement of limbs 
 	- Drawing by [[Descartes]]
 		- Thought hollow nerves from eyes projected to the brain ventricles. Mind influenced the motor response by controlling pineal gland (worked like a valve to control movement of animal spirits through nerves that inflated the muscles.)
-	- “A chief advocate of this [[fluid–mechanical theory of brain function]] was the French mathematician and philosopher [[René Descartes]] (1596–1650).” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=51&annotation=KG8ZP2WW))
+	- “A chief advocate of this [[fluid-mechanical theory of brain function]] was the French mathematician and philosopher [[René Descartes]] (1596-1650).” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=51&annotation=KG8ZP2WW))
 		- “Descartes believed it could not possibly account for the full range of human behavior.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=51&annotation=M3H8G7LV))
 			- “people possess intellect and a God-given soul.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=51&annotation=X3SUEPLB))
 			- so brain mechanisms control human behavior that of beasts
@@ -285,7 +285,7 @@ Reviewed: false
 	- “(a) The brain of the macaque monkey has a highly evolved sense of sight.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=56&annotation=GJ45QYSU))
 		- “When this region is sliced open and stained to show metabolically active tissue, a mosaic of “blobs” appears. The neurons within the blobs are specialized to analyze colors in the visual world.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=56&annotation=9W2GF7P3))
 	- “(b) The brain of a rat has a highly evolved sense of touch to the face.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=56&annotation=HM4VN4T9))
-		- “When this region is sliced open and stained to show the location of the neurons, a mosaic of “barrels” appears. Each barrel is specialized to receive input from a single whisker on the rat’s face.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=56&annotation=Z6PMZC69))
+		- “When this region is sliced open and stained to show the location of the neurons, a mosaic of “barrels” appears. Each barrel is specialized to receive input from a single whisker on the rat's face.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=56&annotation=Z6PMZC69))
 ##### The Neuron: The Basic Functional Unit of the Brain
 - “[[Theodor Schwann]]” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=56&annotation=89LUNV5B))
 	- “[[cell theory]]: All tissues are composed of microscopic units called cells.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=56&annotation=K25LR469))
@@ -364,7 +364,7 @@ Reviewed: false
 - “Replication simply means repeating the experiment on different subjects or making similar observations in different patients” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=59&annotation=X529SV5X))
 	- Rule out possibility of chance
 ##### Interpretation
-- “Interpretations depend on the state of knowledge (or ignorance) at the time and on the scientist’s preconceived notions (or "mind set"” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=59&annotation=FVEIZLAI))
+- “Interpretations depend on the state of knowledge (or ignorance) at the time and on the scientist's preconceived notions (or "mind set"” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=59&annotation=FVEIZLAI))
 	- Subjective
 ##### Verification
 - “Verification means that the observation is sufficiently robust that any competent scientist who precisely follows the protocols of the original observer can reproduce it.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=60&annotation=5MFEV5CX))
@@ -438,17 +438,17 @@ Reviewed: false
 		- “fourth leading cause of death in the United States.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=MR25MLPT))
 		- “Stroke victims who do not die, over half a million every year, are likely to be permanently disabled.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=JVLACJAY))
 		- “annual cost of stroke nationwide is $54 billion” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=YLGV37V7))
-- “Alzheimer’s disease and Parkinson’s disease are both characterized by progressive degeneration of specific neurons in the brain.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=63&annotation=3ZQSFG8A))
+- “Alzheimer's disease and Parkinson's disease are both characterized by progressive degeneration of specific neurons in the brain.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=63&annotation=3ZQSFG8A))
 - “Alcohol or drug addiction affects virtually every family in the United States. The cost in terms of treatment, lost wages, and other consequences exceeds $600 billion per year.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=KB5RI9P3))
 - “More Americans are hospitalized with neurological and mental disorders than with any other major disease group, including heart disease and cancer.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=AHRIRD4W))
 - “prevention and treatment of brain disorders require an understanding of normal brain function, and this basic understanding is the goal of neuroscience.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=KV54GTGQ))
-	- “increasingly effective treatments for Parkinson’s disease, depression, and schizophrenia.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=D5LE4GAC))
-	- “New strategies are being tested to rescue dying neurons in people with Alzheimer’s disease and those who have had a stroke.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=D8AYRR9Q))
+	- “increasingly effective treatments for Parkinson's disease, depression, and schizophrenia.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=D5LE4GAC))
+	- “New strategies are being tested to rescue dying neurons in people with Alzheimer's disease and those who have had a stroke.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=D8AYRR9Q))
 
 ### Concluding Remarks
 - “The goal of neuroscience is to understand how nervous systems function.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=H73CWGXS))
-- “Computer models that reproduce the brain’s computational properties can help us understand how these properties might arise.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=THKHH8RC))
-- “To understand how the brain works, we must open the head and examine what’s inside neuroanatomically, neurophysiologically, and neurochemically.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=65&annotation=VY55JJY8))
+- “Computer models that reproduce the brain's computational properties can help us understand how these properties might arise.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=64&annotation=THKHH8RC))
+- “To understand how the brain works, we must open the head and examine what's inside neuroanatomically, neurophysiologically, and neurochemically.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=65&annotation=VY55JJY8))
 	- Noninvasive methods such as Imaging methods are not nearly as effective as “experimentation with living brain tissue.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=65&annotation=AX3TITZJ))
 ### Review Questions 
 - “REVIEW QUESTIONS” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=65&annotation=FUSSH6R2))
@@ -467,13 +467,13 @@ Reviewed: false
 - “organization of this book reflects this “neurophilosophy.”” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=647QXZSA))
 - “This chapter focuses on the structure of the different types of [[cell|cells]] in the nervous system: [[neurons]] and [[glia]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=96JKBEHN))
 - “Although there are approximately equal numbers of neurons and glia in the adult human brain (roughly 85 billion of each type), neurons are responsible for most of the unique functions of the brain.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=WD3AJBPW))
-- “It is the [[neurons]] that sense changes in the environment, communicate these changes to other neurons, and command the body’s responses to these sensations.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=VLZXCRB5))
+- “It is the [[neurons]] that sense changes in the environment, communicate these changes to other neurons, and command the body's responses to these sensations.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=VLZXCRB5))
 - “[[Glia]], or glial cells, contribute to brain function mainly by insulating, supporting, and nourishing neighboring neurons.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=SD2ULL35))
 	- “Indeed, the term glia is derived from the Greek word for “glue,”” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=IVYV8QEX))
 - “neurons perform most information processing in the brain,” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=QZZAQC4F))
 
 ### The Neuron Doctrine
-- “Most [[cell|cells]] are in the range of 0.01–0.05 mm in diameter.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=3LLWEE25))
+- “Most [[cell|cells]] are in the range of 0.01-0.05 mm in diameter.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=68&annotation=3LLWEE25))
 - “Units of Size in the Metric System” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=69&annotation=HCS84UIG))
 	- kilometer: km = $10^3m$
 		- About two-thirds a mile
@@ -524,7 +524,7 @@ Reviewed: false
 		- “Many dendrites extend from the cell body and generally taper to a fine point.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=70&annotation=HZSFH637))
 - “because [[Dendrite|dendrites]] come in contact with many axons, they must act as the antennae of the neuron to receive incoming signals, or input.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=71&annotation=6WZ8M4BZ))
 #### Cajal's Contribution
-- “. [[Santiago Ramón y Cajal]] was a skilled histologist and artist who learned about Golgi’s method in 1888” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=71&annotation=9U43VTZF))
+- “. [[Santiago Ramón y Cajal]] was a skilled histologist and artist who learned about Golgi's method in 1888” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=71&annotation=9U43VTZF))
 -  ![[Screenshot 2023-08-14 at 12.35.50 AM.png|500]]
 	- One of Cajal's many drawings of [[brain circuitry]]
 		- “The letters label the different elements Cajal identified in an area of the human [[cerebral cortex]] that controls voluntary movement.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=71&annotation=3YHFLI5R))
@@ -585,7 +585,7 @@ Reviewed: false
 - “Everything contained within the confines of the cell membrane, including the organelles but excluding the nucleus, is referred to collectively as the [[cytoplasm]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=WW7C3HDT))
 ##### The Nucleus
 - “name derived from the Latin word for “nut,”” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=BVKUC57Y))
-- “[[nucleus]] of the cell is spherical, centrally located, and about 5–10 $\micro m$ across.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=U4JIGM9C))
+- “[[nucleus]] of the cell is spherical, centrally located, and about 5-10 $\micro m$ across.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=U4JIGM9C))
 	- “contained within a double membrane called the [[nuclear envelope]].” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=W4DFSID5))
 		- “nuclear envelope is perforated by pores about 0.1 m across.” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=92G4BHR5))
 - “Within the nucleus are [[chromosome|chromosomes]] which contain the genetic material [[DNA]] (deoxyribonucleic acid).” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=73&annotation=YHTG4VR7))

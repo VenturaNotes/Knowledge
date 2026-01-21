@@ -4,6 +4,7 @@ aliases:
 ---
 ## Synthesis
 ```python
+# 2^3
 result = pow(2, 3) # 2 raised to the power of 3 (2*2*2)
      print(result)
      # Output: 8

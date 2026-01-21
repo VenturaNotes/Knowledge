@@ -19,13 +19,13 @@ Reviewed: false
 		- [[Predicate Logic]]
 			- "an expression consisting of variables with a specified domain. It consists of objects, relations and functions between the objects. A quantified predicate is a proposition , that is, when you assign values to a predicate with variables it can be made a proposition."
 			- Examples
-				- In P(x) : x>5, x is the subject or the variable and ‘>5’ is the predicate.
+				- In P(x) : x>5, x is the subject or the variable and '>5' is the predicate.
 				- P(7) : 7>5 is a proposition where we are assigning values to the variable x, and it has a truth value, i.e. True.
 			- Set of values that the predicate can assume is called either
 				- Universe
 				- Domain of Discourse
 				- Domain of Predicate
-- “G ̈odel’s Theorem.” ([Leary, 2015, p. 10](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=10&annotation=8TL6HVZZ))
+- “G ̈odel's Theorem.” ([Leary, 2015, p. 10](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=10&annotation=8TL6HVZZ))
 	- Why are Theorems true? [^2]
 		- "In a strictly formal sense, theorems aren't true; they are valid (i.e. proved)"
 			- "we separate the world of mathematical objects--what we call models--from the axioms and logical structure behind them--what we call the theory."
@@ -48,7 +48,7 @@ Notes
 	- “[[Formalist school]], which held that mathematics was nothing more than the manipulation of meaningless symbols according to certain rules and that the consistency of such a system was nothing more than saying that the rules prohibited certain combinations of the symbols from occurring.” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=U52USUTB))
 - “a 24-year-old Austrian mathematician named Kurt G ̈odel” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=YWIHXUMK))
 - “[[Second Incompleteness Theorem]], which said that no consistent formal system of mathematics could prove its own consistency.” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=YBCDWFTT))
-	- “Thus Hilbert’s program was impossible, and there would be no finitistic proof that the axioms of arithmetic were consistent.” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=WCSHLZUM))
+	- “Thus Hilbert's program was impossible, and there would be no finitistic proof that the axioms of arithmetic were consistent.” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=WCSHLZUM))
 - “Thus we find ourselves in a situation where we cannot prove that mathematics is consistent.” ([Leary, 2015, p. 17](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=17&annotation=393QFZ78))
 - “Our study of mathematical logic will take us to a point where we can understand the statement and the proof of [[Godel's Incompleteness Theorems (Gödel's)|Gödel's Incompleteness Theorems]].” ([Leary, 2015, p. 18](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=18&annotation=HRDSV59U))
 - “On our way there, we will study [[formal language|formal languages]], [[mathematical structures]], and a certain [[deductive system]].” ([Leary, 2015, p. 18](zotero://select/library/items/7RV9PSGY)) ([pdf](zotero://open-pdf/library/items/JDN9H7UE?page=18&annotation=WW5T67LY))
@@ -100,7 +100,7 @@ Notes
 #### (3.2.1) Exercises
 ### (3.3) Compactness
 #### (3.3.1) Exercises
-### (3.4) Substructures and the Löwenheim–Skolem Theorems
+### (3.4) Substructures and the Löwenheim-Skolem Theorems
 #### (3.4.1) Exercises
 ### (3.5) Summing Up, Looking Ahead
 ## (4) Incompleteness from Two Points of View

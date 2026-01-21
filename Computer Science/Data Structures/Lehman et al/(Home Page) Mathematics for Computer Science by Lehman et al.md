@@ -23,11 +23,11 @@ Reviewed: false
 		- 1 +1 = 3
 	- Saying "It's five o'clock" is not a proposition because the truth varies with circumstance
 - “(A [[prime]] is an integer greater than 1 that is not divisible by any other integer greater than 1. For example, 2, 3, 5, 7, 11, are the first five primes.)” ([Lehman et al., p. 13](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=13&annotation=6URZHK67))
-- “The symbol ::= means “[[equal by definition]].” It’s always ok simply to write “=” instead of ::=, but reminding the reader that an equality holds by definition can be helpful.” ([Lehman et al., p. 13](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=13&annotation=WV7CJ3ZQ))
+- “The symbol ::= means “[[equal by definition]].” It's always ok simply to write “=” instead of ::=, but reminding the reader that an equality holds by definition can be helpful.” ([Lehman et al., p. 13](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=13&annotation=WV7CJ3ZQ))
 	- Example
 		- p(n) ::= $n^2$ + n + 41
 - "It's not hard to show that no polynomial with integer coefficients can map all nonnegative numbers into prime numbers, unless it's a constant."
-	- “you can’t check a claim about an infinite set by checking a finite sample of its elements, no matter how large the sample.” ([Lehman et al., p. 14](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=14&annotation=IQCMPEPV))
+	- “you can't check a claim about an infinite set by checking a finite sample of its elements, no matter how large the sample.” ([Lehman et al., p. 14](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=14&annotation=IQCMPEPV))
 - ![[Pasted image 20230114153151.png]]
 	- [Lehman et al., p. 14](zotero://open-pdf/library/items/366U7SQX?page=14&annotation=W44AQKWT)
 		- The period after the $\mathbb{N}$ is just a separator between phrases.
@@ -48,19 +48,19 @@ Reviewed: false
 	- “Every map can be colored with 4 colors so that adjacent2 regions have different colors.” ([Lehman et al., p. 14](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=14&annotation=U73B52YF))
 	- “Two regions are adjacent only when they share a boundary segment of positive length. They are not considered to be adjacent if their boundaries meet only at a few points.” ([Lehman et al., p. 14](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=14&annotation=ET6MN35E))
 	- “A laborious proof was finally found in 1976 by mathematicians [[Appel and Haken]], who used a complex computer program to categorize the four-colorable maps.” ([Lehman et al., p. 15](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=15&annotation=RWXWGLTG))
-	- “Two decades later a mostly [intelligible proof](https://thomas.math.gatech.edu/FC/fourcolor.html) of the Four Color Theorem was found,” ([Lehman et al., p. 15](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=15&annotation=PS3L5EEX)“Proposition 1.1.5 (Fermat’s Last Theorem).” (Lehman et al., p. 15)
+	- “Two decades later a mostly [intelligible proof](https://thomas.math.gatech.edu/FC/fourcolor.html) of the Four Color Theorem was found,” ([Lehman et al., p. 15](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=15&annotation=PS3L5EEX)“Proposition 1.1.5 (Fermat's Last Theorem).” (Lehman et al., p. 15)
 - “Proposition 1.1.5 ([[Fermat's Last Theorem]]).” ([Lehman et al., p. 15](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=15&annotation=R8Y4V6IS))
 	- There are no positive integers x, y, and z such that $x^n + y^n = z^n$ for some integer n > 2
 	- “in 1994, British mathematician [[Andrew Wiles]] gave a proof, after seven years of working in secrecy and isolation in his attic.” ([Lehman et al., p. 15](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=15&annotation=GYTA76MA))
 - “[[Goldbach's Conjecture]]” ([Lehman et al., p. 15](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=15&annotation=BR54DE2S))
 	- Every even integer greater than 2 is the sum of two primes
-	- “It is known to hold for all numbers up to $10^{18}$, but to this day, no one knows whether it’s true or false.” ([Lehman et al., p. 15](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=15&annotation=MCZJTQW9))
-- “For a computer scientist, some of the most important things to prove are the correctness of programs and systems—whether a program or system does what it’s supposed to.” ([Lehman et al., p. 16](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=16&annotation=GD7Z6W6U))
+	- “It is known to hold for all numbers up to $10^{18}$, but to this day, no one knows whether it's true or false.” ([Lehman et al., p. 15](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=15&annotation=MCZJTQW9))
+- “For a computer scientist, some of the most important things to prove are the correctness of programs and systems—whether a program or system does what it's supposed to.” ([Lehman et al., p. 16](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=16&annotation=GD7Z6W6U))
 	- Efforts have been successful enough in the case of CPU chips (now routinely used by leading chip manufacturers to prove chip correctness)
 	- “Developing mathematical methods to verify programs and systems remains an active research area.” ([Lehman et al., p. 16](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=16&annotation=AAC9XKQT))
 #### (1.2) Predicates
 - “A [[predicate]] can be understood as a proposition whose truth depends on the value of one or more variables.” ([Lehman et al., p. 16](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=16&annotation=X27WIBEW))
-	- “So “n is a perfect square” describes a predicate, since you can’t say if it’s true or false until you know what the value of the variable n happens to be.” ([Lehman et al., p. 16](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=16&annotation=U364DN73))
+	- “So “n is a perfect square” describes a predicate, since you can't say if it's true or false until you know what the value of the variable n happens to be.” ([Lehman et al., p. 16](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=16&annotation=U364DN73))
 		- When n = 4, predicate becomes the true [[proposition]] "4 is a perfect square"
 		- When n = 5, you would get a false proposition
 - Predicates often named with a letter
@@ -80,14 +80,14 @@ Reviewed: false
 	- “A [[corollary]] is a proposition that follows in just a few logical steps from a theorem.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=3R84XBDX))
 - Definitions not precise
 	- “sometimes a good lemma turns out to be far more important than the theorem it was originally used to prove.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=95WF48CP))
-- “Euclid’s axiom-and-proof approach, now called the [[axiomatic method]], remains the foundation for mathematics today.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=PGEV76LA))
+- “Euclid's axiom-and-proof approach, now called the [[axiomatic method]], remains the foundation for mathematics today.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=PGEV76LA))
 - “just a handful of axioms, called the Zermelo-Fraenkel with Choice axioms ([[ZFC]]), together with a few logical deduction rules, appear to be sufficient to derive essentially all of mathematics.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=DGIYX4D7))
 #### (1.4) Our Axioms
 - ZFC axioms too primitive.
 	- “a formal proof in ZFC that 2 + 2 = 4 requires more than 20,000 steps!” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=KI9XL9E9))
-- “we’re going to take a huge set of axioms as our foundation: we’ll accept all familiar facts from high school math.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=APUDJILG))
+- “we're going to take a huge set of axioms as our foundation: we'll accept all familiar facts from high school math.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=APUDJILG))
 - “you may find this imprecise specification of the axioms troubling at times.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=PI7EIQX8))
-	- “good general guideline is simply to be up front about what you’re assuming.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=J4LHG69K))
+	- “good general guideline is simply to be up front about what you're assuming.” ([Lehman et al., p. 17](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=17&annotation=J4LHG69K))
 
 ##### 1.4.1 Logical Deductions
 - “[[Logical Deduction|Logical deductions]], or inference rules, are used to prove new propositions using previously proved ones.” ([Lehman et al., p. 18](zotero://select/library/items/LJQ7SD3H)) ([pdf](zotero://open-pdf/library/items/366U7SQX?page=18&annotation=IYP6FSHH))

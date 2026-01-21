@@ -22,7 +22,7 @@ Reviewed: false
 	- [[(11) Measure Theory - Part 11 - Proof of Lebesgue's dominated convergence theorem]]
 	- [[(12) Carathéodory's extension theorem (Measure Theory Part 12)]]
 	- [[(13) Lebesgue-Stieltjes measures (Measure Theory Part 13)]]
-	- [[(14) Radon–Nikodym theorem and Lebesgue's decomposition theorem (Measure Theory Part 14)]]
+	- [[(14) Radon-Nikodym theorem and Lebesgue's decomposition theorem (Measure Theory Part 14)]]
 	- [[(15) Image measure and substitution rule (Measure Theory Part 15)]]
 	- [[(16) Proof of the substitution rule for measure spaces (Measure Theory Part 16)]]
 	- [[(17) Product measure and Cavalieri's principle (Measure Theory Part 17)]]

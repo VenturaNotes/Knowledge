@@ -30,7 +30,7 @@ Reviewed: false
 	- “Concept 16.3, the text and Figure 16.23 have been extensively revised to reflect recent models of the structure and organization of [[interphase chromatin]], as well as how [[chromosome|chromosomes]] condense during preparation for [[mitosis]].” ([Urry et al., 2020, p. 18](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=21&annotation=6PYCANZI))
 	- “[[mutation]] responsible for the [[albino phenotype]] of the Asinara donkeys” ([Urry et al., 2020, p. 18](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=21&annotation=9IIT99HV))
 	- “To make it easier to cover [[CRISPR]], a new section has been added to Concept 17.5 describing the [[CRISPR-Cas9]] system, including Figure 17. 28,” ([Urry et al., 2020, p. 18](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=21&annotation=G2Z3UMF6))
-	- “Chapters 18–21 are extensively updated, driven by exciting new discoveries based on [[DNA sequencing]] and [[gene-editing technology]].” ([Urry et al., 2020, p. 18](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=21&annotation=LHKPAL3D))
+	- “Chapters 18-21 are extensively updated, driven by exciting new discoveries based on [[DNA sequencing]] and [[gene-editing technology]].” ([Urry et al., 2020, p. 18](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=21&annotation=LHKPAL3D))
 	- “coverage of [[epigenetic inheritance]] has been enhanced and updated” ([Urry et al., 2020, p. 18](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=21&annotation=DQYSPL65))
 	- “an update on the 4D [[Nucleome Network]].” ([Urry et al., 2020, p. 18](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=21&annotation=5UP7HB3A))
 	- “Other updates include the first [[cloning]] of a primate, stem cell treatment of age-related [[macular degeneration]], CRISPR correction of the sickle-cell disease allele in mice, and a report of [[gene editing]] of fertilized human eggs that resulted in live birth” ([Urry et al., 2020, p. 19](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=22&annotation=DM4WAUDU))
@@ -102,7 +102,7 @@ Reviewed: false
 		- [[Evolutionary Adaptation]]
 			- <mark style="background: #FFF3A3A6;">Example</mark>: Appearance of pygmy sea horse camouflages animal in environment.Such adaptations evolve over countless generations by the reproductive success of those individuals with heritable traits that are best suited to their environments.
 		- [[Regulation]]
-			- <mark style="background: #FFF3A3A6;">Example</mark>: “The regulation of blood flow through the blood vessels of this jackrabbit’s ears helps maintain a constant body temperature by adjusting heat exchange with the surrounding air.” ([Urry et al., 2020, p. 49](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=52&annotation=VCYVXQ3K))
+			- <mark style="background: #FFF3A3A6;">Example</mark>: “The regulation of blood flow through the blood vessels of this jackrabbit's ears helps maintain a constant body temperature by adjusting heat exchange with the surrounding air.” ([Urry et al., 2020, p. 49](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=52&annotation=VCYVXQ3K))
 		- [[Energy Processing]]: 
 			- <mark style="background: #FFF3A3A6;">Example</mark>: “This butterfly obtains fuel in the form of nectar from flowers. The butterfly will use chemical energy stored in its food to power flight and other work” ([Urry et al., 2020, p. 49](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=52&annotation=ACAH2LBE))
 		- [[Growth and development]]: 
@@ -150,10 +150,10 @@ Reviewed: false
 	- “a group of cells that work together, performing a specialized function.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=YYNKL8MA))
 	- “The leaf shown here has been cut on an angle.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=LX5PCG7I))
 	- “The honeycombed tissue in the interior of the leaf (left side of photo) is the main location of [[photosynthesis]], the process that converts light energy to the chemical energy of sugar.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=DX6HQMAJ)) ^w4kmwy
-	- “The jigsaw puzzle–like “skin” on the surface of the leaf (right side of photo) is a tissue called [[epidermis]].” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=FMG7QF42))
+	- “The jigsaw puzzle-like “skin” on the surface of the leaf (right side of photo) is a tissue called [[epidermis]].” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=FMG7QF42))
 	- “The pores through the epidermis allow entry of the gas $CO_2$, a raw material for sugar production.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=GLTQEG9L)) ^8n6578
 - (8) [[cell|cells]] ^ikngtm
-	- “life’s fundamental unit of structure and function.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=HITCDQ8V))
+	- “life's fundamental unit of structure and function.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=HITCDQ8V))
 	- “Some organisms consist of a [[single cell]], which performs all the functions of life.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=RZ7TAG2I))
 	- “Other organisms are [[multicellular]] and feature a division of labor among [[specialized cells]]” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=3JL6B7N7))
 	- “magnified view of a cell in a leaf tissue.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=ET2MZP6P))
@@ -171,7 +171,7 @@ Reviewed: false
 	- “absorbs sunlight during photosynthesis.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=SPQFL6LS))
 	- “Within each [[chloroplast]], millions of chlorophyll molecules are organized into systems that convert light energy to the chemical energy of food.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=CNNXP6LX))
 ##### Emergent Properties
-- “Let’s reexamine Figure 1.3, beginning this time at the molecular level and then zooming out.” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=FB5WREKV))
+- “Let's reexamine Figure 1.3, beginning this time at the molecular level and then zooming out.” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=FB5WREKV))
 	- “allows us to see novel properties emerge at each level that are absent from the preceding one” ([Urry et al., 2020, p. 50](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=53&annotation=BWZK948A))
 - “[[emergent properties]] are due to the arrangement and interactions of parts as complexity increases.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=TATCRS6N))
 	- “although photosynthesis occurs in an intact chloroplast, it will not take place if chlorophyll and other chloroplast molecules are simply mixed in a test tube.” ([Urry et al., 2020, p. 51](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=54&annotation=356B8CHU))
@@ -186,7 +186,7 @@ Reviewed: false
 	- Leaf
 		- “Its broad, flat shape maximizes the capture of sunlight by [[chloroplast|chloroplasts]].” ([Urry et al., 2020, p. 52](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=55&annotation=99KGWI7A))
 	- Hummingbird
-		- “the hummingbird’s anatomy allows its wings to rotate at the shoulder, so hummingbirds have the ability, unique among birds, to fly backward or hover in place.” ([Urry et al., 2020, p. 52](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=55&annotation=UWR7TKKZ))
+		- “the hummingbird's anatomy allows its wings to rotate at the shoulder, so hummingbirds have the ability, unique among birds, to fly backward or hover in place.” ([Urry et al., 2020, p. 52](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=55&annotation=UWR7TKKZ))
 		- Extends beaks (long and slender) into flowers while hovering
 - “The elegant match of form and function in the structures of life is explained by [[natural selection]]” ([Urry et al., 2020, p. 52](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=55&annotation=8J4Q8KFL))
 
@@ -229,7 +229,7 @@ Reviewed: false
 ##### DNA, the Genetic Material
 - “Each [[chromosome]] contains one very long DNA molecule with hundreds or thousands of [[gene|genes]], each a section of the DNA of the chromosome.” ([Urry et al., 2020, p. 53](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=56&annotation=IKWTTFGV))
 	- “Transmitted from parents to offspring, genes are the units of inheritance.” ([Urry et al., 2020, p. 53](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=56&annotation=ZUY8WLLP))
-		- “Genes encode the information necessary to build all of the molecules synthesized within a cell, which in turn establish that cell’s identity and function” ([Urry et al., 2020, p. 53](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=56&annotation=RNXQ4Y9Y))
+		- “Genes encode the information necessary to build all of the molecules synthesized within a cell, which in turn establish that cell's identity and function” ([Urry et al., 2020, p. 53](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=56&annotation=RNXQ4Y9Y))
 - ![[Screenshot 2023-08-15 at 4.08.04 PM.png|400]]
 	- Process
 		- (1) [[Egg Cell]] and [[sperm cell]] with  Nuclei containing DNA
@@ -314,7 +314,7 @@ Reviewed: false
 			- Plants take up chemicals from the [[soil]] and [[air]]
 - “Moving, growing, reproducing, and the various cellular activities of life are [[work]], and work requires [[energy]].” ([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=QGZKKR6V))
 - “input of energy, primarily from the sun, and the transformation of energy from one form to another make life possible” ([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=NGFEZPW4))
-- “When a plant’s leaves absorb sunlight in the process of photosynthesis, molecules within the leaves convert the energy of sunlight to the chemical energy of food, such as [[sugars]].”([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=9RQT9JAB))
+- “When a plant's leaves absorb sunlight in the process of photosynthesis, molecules within the leaves convert the energy of sunlight to the chemical energy of food, such as [[sugars]].”([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=9RQT9JAB))
 - “chemical energy in the food molecules is then passed along from plants and other photosynthetic organisms ([[Producer|producers]]) to [[Consumer|consumers]]” ([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=I7UWL88N))
 	- “[[consumer]] is an organism that feeds on other organisms or their remains.” ([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=KYFMMZIP))
 - “When an organism uses chemical energy to perform [[work]], such as muscle contraction or cell division, some of that energy is lost to the surroundings as [[heat]].” ([Urry et al., 2020, p. 55](zotero://select/library/items/DJ2VRK6E)) ([pdf](zotero://open-pdf/library/items/PBUU3ZVE?page=58&annotation=BLB4R6DZ))

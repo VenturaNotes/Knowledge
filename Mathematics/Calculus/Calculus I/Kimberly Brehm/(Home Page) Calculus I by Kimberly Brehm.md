@@ -74,7 +74,7 @@ Reviewed: false
 	- [[(63) Calculus I - 5.3.2 The Derivative of The Inverse of a Function]]
 	- [[(64) Calculus I - 5.4.1 Derivatives and Integrals of the Natural Exponential Function]]
 	- [[(65) Calculus I - 5.5.1 Logarithmic and Exponential Functions - Derivatives and Integrals (Base not e)]]
-	- [[(66) Calculus I - 5.6.1 Indeterminant Forms and L’Hopital’s Rule]]
+	- [[(66) Calculus I - 5.6.1 Indeterminant Forms and L'Hopital's Rule]]
 	- [[(67) Calculus I - 5.7.1 Review - Inverse Trigonometric Functions]]
 	- [[(68) Calculus I - 5.7.2 Inverse Trigonometric Functions - Differentiation]]
 	- [[(69) Calculus I - 5.8.1 Inverse Trigonometric Functions - Integration]]

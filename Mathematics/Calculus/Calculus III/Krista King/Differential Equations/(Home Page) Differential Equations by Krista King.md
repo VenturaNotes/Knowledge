@@ -48,4 +48,4 @@ Reviewed: false
 	- [[(37) Inverse Laplace Transform (KristaKingMath)]]
 	- [[(38) Convolution Integral for Initial Value Problems (KristaKingMath)]]
 	- [[(39) How to solve EXACT DIFFERENTIAL EQUATIONS IVPs]]
-	- [[(40) Euler’s method - How to use it.]]
+	- [[(40) Euler's method - How to use it.]]

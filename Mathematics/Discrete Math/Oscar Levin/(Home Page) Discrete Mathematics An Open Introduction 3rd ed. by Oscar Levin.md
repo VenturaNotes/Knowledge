@@ -40,14 +40,14 @@ Reviewed: false
 - “The most popular mathematician in the world is throwing a party for all of his friends. As a way to kick things off, they decide that everyone should shake hands. Assuming all 10 people at the party each shake hands with every other person (but not themselves, obviously) exactly once, how many handshakes take place?” ([Levin, 2019, p. 18](zotero://select/library/items/VABQEUJ4)) ([pdf](zotero://open-pdf/library/items/RZPKBH48?page=18&annotation=H69JWG55))
 	- ![[Screenshot 2023-03-25 at 12.34.24 AM.png]]
 		- There seems to be 45 unique handshakes. Checked OpenAI as well for chat GPT 3.5
-- “At the warm-up event for Oscar’s All Star Hot Dog Eating Contest, Al ate one hot dog. Bob then showed him up by eating three hot dogs. Not to be outdone, Carl ate five. This continued with each contestant eating two more hot dogs than the previous contestant. How many hot dogs did Zeno (the 26th and final contestant) eat? How many hot dogs were eaten all together?” ([Levin, 2019, p. 18](zotero://select/library/items/VABQEUJ4)) ([pdf](zotero://open-pdf/library/items/RZPKBH48?page=18&annotation=VKAFNHZZ))
+- “At the warm-up event for Oscar's All Star Hot Dog Eating Contest, Al ate one hot dog. Bob then showed him up by eating three hot dogs. Not to be outdone, Carl ate five. This continued with each contestant eating two more hot dogs than the previous contestant. How many hot dogs did Zeno (the 26th and final contestant) eat? How many hot dogs were eaten all together?” ([Levin, 2019, p. 18](zotero://select/library/items/VABQEUJ4)) ([pdf](zotero://open-pdf/library/items/RZPKBH48?page=18&annotation=VKAFNHZZ))
 	- ![[Screenshot 2023-03-25 at 1.02.02 AM.png|400]]
 		- Seems to be a sequences type problem
 		- The 26th contestant ate 51 hotdogs and the number of hot dogs eaten all together was 676
 			- Needed to use the "[Sum of Arithmetic Sequence](https://byjus.com/sum-of-arithmetic-sequence-formula/)" formula to solve for this
 - ![[Pasted image 20230325010756.png]] [image](zotero://open-pdf/library/items/RZPKBH48?page=18&annotation=2THAJ4SI)
 	- Question
-		- After excavating for weeks, you finally arrive at the burial chamber. The room is empty except for two large chests. On each is carved a message (strangely in English): If this chest is empty, then the other chest’s message is true. This chest is filled with treasure or the other chest contains deadly scorpions. You know exactly one of these messages is true. What should you do?
+		- After excavating for weeks, you finally arrive at the burial chamber. The room is empty except for two large chests. On each is carved a message (strangely in English): If this chest is empty, then the other chest's message is true. This chest is filled with treasure or the other chest contains deadly scorpions. You know exactly one of these messages is true. What should you do?
 	- There seems to be a few possible cases here.
 		- If the message of the first treasure chest is true and it's empty, that would mean the second treasure chest must be true as well. This is not possible since we know EXACTLY one of these messages is true. Therefore, this scenario itself is a contradiction.
 		- If the message of the first treasure is true but it's not empty, we would not know what is in either chest (as the message in the second chest would become irrelevant)

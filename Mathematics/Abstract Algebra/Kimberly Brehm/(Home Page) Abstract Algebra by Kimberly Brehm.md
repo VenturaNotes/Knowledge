@@ -30,7 +30,7 @@ Reviewed: false
 	- [[(19) Abstract Algebra - 6.4 Properties of Isomorphisms]]
 	- [[(20) Abstract Algebra - 6.5 Automorphisms]]
 	- [[(21) Abstract Algebra - 7.1 Cosets and Their Properties]]
-	- [[(22) Abstract Algebra - 7.2 LaGrange’s Theorem and Consequences]]
+	- [[(22) Abstract Algebra - 7.2 LaGrange's Theorem and Consequences]]
 	- [[(23) Abstract Algebra - 8.1 External Direct Products]]
 	- [[(24) Abstract Algebra - 8.2 Groups of Units Modulo n as External Direct Products]]
 	- [[(25) Abstract Algebra - 9.1 Normal Subgroups]]

@@ -1,10 +1,34 @@
 ---
 aliases:
   - map()
+tags:
+  - in-progress
 ---
 ## Synthesis
-### Description 1
-- A 'map' object is not subscriptable meaning the code below is NOT possible
+### Description
+- The `map()` function returns a map object, which is an iterator. 
+- Map can take any function as its first argument (could be built-in function like str, could be my own function or could be a lambda function)
+
+```python
+
+```
+### Example
+```python
+numbers = [1, 2, 3, 4]
+squared_numbers = map(lambda x: x*x, numbers)
+print(list(squared_numbers)) # Output: [1, 4, 9, 16]
+```
+- Here, the map function applies a given 
+---
+- The `map()` function applies a given function to each item of an iterable (like a list) and returns an iterator of the results.
+```python
+numbers = [1, 2, 3, 4]
+squared_numbers = map(lambda x: x*x, numbers)
+print(list(squared_numbers)) # Output: [1, 4, 9, 16]
+```
+- This map function returns a map object, which is an iterator. Iterators are designed for efficient, one-time traversal of elements. They generate values on demand and do not store all the elements in memory simultaneously. Therefore, iterators do not support direct indexing or random access using `[]`. They do not implement the `__getitem__` method in a way that allows for indexing. To make the results of `map()` subscriptable, need to convert map object into a sequence type that is subscriptable such as a list or tuple. 
+### Map Object not subscriptable
+- NOT possible code below because a 'map' object is not subscriptable
 ```python
 x = map(int, input().split())
 print((x[0]+ x[1] + x[2])/3)
@@ -57,7 +81,6 @@ squared_numbers = map(square, numbers)
 print(list(squared_numbers))  # Output: [1, 4, 9, 16, 25]
 
 ```
-
 ##### Using Lambda
 #question Is it called a lambda function or lambda expression. Is there a difference?
 

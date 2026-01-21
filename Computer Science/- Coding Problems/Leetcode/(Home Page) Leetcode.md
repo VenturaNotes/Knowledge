@@ -1997,3 +1997,6 @@ Reviewed: false
 	- [[(3206) Alternating Groups I]]
 	- [[(3101) Count Alternating Subarrays]]
 	- [[(3683) Earliest Time to Finish One Task]]
+	- [[(2525) Categorize Box According to Criteria]]
+	- [[(3813) Vowel-Consonant Score]]
+	- [[(2651) Calculate Delayed Arrival Time]]

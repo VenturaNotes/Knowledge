@@ -17,7 +17,7 @@ Reviewed: false
 			- Consists of single element, the identity element
 				- Similar to how every positive integer has at least two [[Divisor|divisors]] (itself and 1)
 	- [[Joseph-Louis Lagrange]]
-		- [[Lagrange's Theorem]]
+		- [[Lagrange's theorem]]
 			- If H $\le$ G, then the order of H divides the order of G
 			- Order of G = # of elements in G = |G|
 		- Lagrange's Theorem
@@ -27,7 +27,7 @@ Reviewed: false
 	- Q: Does Lagrange's Theorem say there are subgroups of order 17 and 19?
 		- No!
 		- If $H \le G$, Then |H| divides |G|
-			- This means the [[converse]] may not be true
+			- This means the [[Converse]] may not be true
 			- Just because a number divides an order of G, there is no guarantee that a subgroup of that size will exist
 			- In this case, it just so happens that G does have subgroups of orders 17 and 19. However, there are groups where this isn't the case
 - ![[Screenshot 2024-01-23 at 3.23.42 PM.png]]
@@ -42,7 +42,7 @@ Reviewed: false
 		- $g_1H = \{g_1*h \text{ for all } h \in H\}$ 
 			- Known as [[left coset]]
 				- This is because we are multiplying the elements of H by $g_1$ on the left
-		- Since H and $g_1H$ do not overlap, their intersection is the [[empty set]]
+		- Since H and $g_1H$ do not overlap, their intersection is the [[Empty Set]]
 - ![[Screenshot 2024-01-23 at 3.34.43 PM.png]]
 	- G is split into non-overlapping left cosets
 	- Each coset is the same size

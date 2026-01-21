@@ -16,7 +16,7 @@ Reviewed: false
 - “taught courses in algorithm design, computer security and cryptography, and discrete mathematics.” ([Rosen, 2019, p. vi](zotero://select/library/items/7U457C8R)) ([pdf](zotero://open-pdf/library/items/SSBAAPX5?page=7&annotation=Z988NWJA))
 - “He is the author of the widely used Elementary Number Theory and Its Applications, published by Pearson,” ([Rosen, 2019, p. vi](zotero://select/library/items/7U457C8R)) ([pdf](zotero://open-pdf/library/items/SSBAAPX5?page=7&annotation=KPPFLHEP))
 - “He is the author of the widely used Elementary Number Theory and Its Applications, published by Pearson,” ([Rosen, 2019, p. vi](zotero://select/library/items/7U457C8R)) ([pdf](zotero://open-pdf/library/items/SSBAAPX5?page=7&annotation=KPPFLHEP))
-- “He helped plan AT&T’s products and services in the area of multimedia, including video communications, speech recognition, speech synthesis, and image networking.” ([Rosen, 2019, p. vi](zotero://select/library/items/7U457C8R)) ([pdf](zotero://open-pdf/library/items/SSBAAPX5?page=7&annotation=3WLKTPUW))
+- “He helped plan AT&T's products and services in the area of multimedia, including video communications, speech recognition, speech synthesis, and image networking.” ([Rosen, 2019, p. vi](zotero://select/library/items/7U457C8R)) ([pdf](zotero://open-pdf/library/items/SSBAAPX5?page=7&annotation=3WLKTPUW))
 - “holds more than 70 patents.” ([Rosen, 2019, p. vi](zotero://select/library/items/7U457C8R)) ([pdf](zotero://open-pdf/library/items/SSBAAPX5?page=7&annotation=EITW74FV))
 
 ## Preface
@@ -200,7 +200,7 @@ Reviewed: false
 
 ##### Example 7
 - Disjunction of p and q from Example 5
-	- “Rebecca’s PC has at least 16 GB free hard disk space, or the processor in Rebecca’s PC runs faster than 1 GHz.” ([Rosen, 2019, p. 5](zotero://select/library/items/7U457C8R)) ([pdf](zotero://open-pdf/library/items/SSBAAPX5?page=28&annotation=BDJV962Q))
+	- “Rebecca's PC has at least 16 GB free hard disk space, or the processor in Rebecca's PC runs faster than 1 GHz.” ([Rosen, 2019, p. 5](zotero://select/library/items/7U457C8R)) ([pdf](zotero://open-pdf/library/items/SSBAAPX5?page=28&annotation=BDJV962Q))
 	- $p \lor q$
 - “the [[exclusive or]] of these two propositions is true when exactly one of p and q is true; it is false when both p and q are true (and when both are false).” ([Rosen, 2019, p. 5](zotero://select/library/items/7U457C8R)) ([pdf](zotero://open-pdf/library/items/SSBAAPX5?page=28&annotation=LTBLFM4V))
 

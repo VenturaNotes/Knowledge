@@ -55,7 +55,7 @@ Reviewed: false
 	- [[(44) Discrete Math II - 10.5.2 Hamilton Paths and Circuits]]
 	- [[(45) Discrete Math II - 10.6.1 Shortest Path Problems - Dijkstra's Algorithm]]
 	- [[(46) Discrete Math II - 10.8.1 Graph Coloring]]
-	- [[(47) Discrete Math II - 10.8.S1 Graphs and Groups - Burnside’s Lemma]]
+	- [[(47) Discrete Math II - 10.8.S1 Graphs and Groups - Burnside's Lemma]]
 	- [[(48) Discrete Math II - 10.8.S2 Graphs and Groups - Polya's Theorem]]
 	- [[(49) Discrete Math II - 10.8.S3 Polya and Burnside - The Chessboard Problem]]
 	- [[(50) Discrete Math - 11.1.1 Trees]]

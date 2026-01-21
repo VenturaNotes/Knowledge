@@ -14,7 +14,7 @@ Reviewed: false
 		- When increasing sample size, we'll get closer to the true population value more frequently
 			- [[consistency]]
 		- $\overset \wedge \beta$ is more [[efficient]] because it gets closer to the true [[population parameter]] ($\beta^P$) more of the time than $\overset \sim \beta$ because it has a wider sampling distribution than $\overset \wedge \beta$ 
-	- Under a set of conditions called the [[Gauss–Markov Assumptions]], (named after [[Carl Friedrich Gauss]] and [[Andrey Markov]])
+	- Under a set of conditions called the [[Gauss-Markov Assumptions]], (named after [[Carl Friedrich Gauss]] and [[Andrey Markov]])
 		- [[Least squares estimator|least square estimators]] are referred to as [[BLUE]]
 			- B means they are the best estimators (efficiency)
 				- No other unbiased estimators which are more efficient than least square estimators. (and they are consistent even though they're not mentioned in mnemonic)

@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - [[Logical equivalence|logical equivalences]]
-	- [[Identity Laws]]
+	- [[Identity laws]]
 		- ![[Screenshot 2022-12-17 at 5.42.50 PM.png]]
 	- [[Domination Laws]]
 		- ![[Screenshot 2022-12-17 at 5.43.14 PM.png]]
@@ -22,7 +22,7 @@ Reviewed: false
 		- ![[Screenshot 2022-12-17 at 5.44.51 PM.png]]
 	- [[Associative Law|Associative Laws]] (Grouping)
 		- ![[Screenshot 2022-12-17 at 5.45.19 PM.png]]
-	- [[Distributive Laws]]
+	- [[Distributive laws]]
 		- ![[Screenshot 2022-12-17 at 5.45.31 PM.png]]
 	- [[De Morgan's Law]]
 		- ![[Screenshot 2022-12-17 at 5.46.00 PM.png]]

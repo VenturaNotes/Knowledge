@@ -7,7 +7,7 @@
 ## Source[^3]
 - $n$. The full genetic complement of an organism; the haploid complement of a diploid organism such as the human species. See also DNA, GENE. Compare PHENOME, PROTEOME. \[A blend of gen(e) + (chromos)ome]
 ## Source[^4]
-- The genetic material of an organism, consisting of all its DNA, including both the coding and non-coding regions. In the case of RNA viruses, it includes RNA. Thus, in the case of DNA genomes, a genome sequence is a list of all the nucleotides in an organism. Genome sequencing began in the mid 1970s and culminated in the Human Genome Project’s publication of the sequence for the human genome in 2001–3. The study of genomes is called genomics.
+- The genetic material of an organism, consisting of all its DNA, including both the coding and non-coding regions. In the case of RNA viruses, it includes RNA. Thus, in the case of DNA genomes, a genome sequence is a list of all the nucleotides in an organism. Genome sequencing began in the mid 1970s and culminated in the Human Genome Project's publication of the sequence for the human genome in 2001-3. The study of genomes is called genomics.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]

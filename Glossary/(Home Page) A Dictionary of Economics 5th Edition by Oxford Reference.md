@@ -997,7 +997,7 @@ Reviewed: false
 		1. See built-in stabilizers
 	970. average earnings scheme
 		1. See career average scheme
-	971. ‘bad money drives out good'
+	971. 'bad money drives out good'
 		1. See Gresham's Law
 	972. balance
 		1. See external balance; internal balance; invisible balance

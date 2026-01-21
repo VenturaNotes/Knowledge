@@ -46,7 +46,7 @@ Reviewed: false
 	- “keep the audience in mind.” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=15&annotation=69B4DKDT))
 		- proofs can be addressed to another student, professor or a reader of a text
 		- High school students require more detail than graduate students
-	- “A good rule of thumb for an argument in an introductory abstract algebra course is that it should be written to convince one’s peers, whether those peers be other students or other readers of the text.” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=15&annotation=83QPZTNP))
+	- “A good rule of thumb for an argument in an introductory abstract algebra course is that it should be written to convince one's peers, whether those peers be other students or other readers of the text.” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=15&annotation=83QPZTNP))
 - “mathematicians are usually interested in more complex statements such as “If p, then q,” where p and q are both statements.” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=15&annotation=W3E7557M))
 	- A simple statement could be "10/5 = 2"
 	- “If certain statements are known or assumed to be true, we wish to know what we can say about other statements.” ([pdf](zotero://open-pdf/library/items/KAP3IWB2?page=15&annotation=QQKBVVDI))

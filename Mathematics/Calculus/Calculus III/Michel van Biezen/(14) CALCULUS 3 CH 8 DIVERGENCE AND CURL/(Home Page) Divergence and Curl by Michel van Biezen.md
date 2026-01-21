@@ -39,7 +39,7 @@ Reviewed: false
 	- [[(28) Calculus 3 - Divergence and Curl (28 of 50) Identity 4 - CURL(f G)=f (CURL(F))+Gradient(f)xF]]
 	- [[(29) Calculus 3 - Divergence and Curl (29 of 50) Identity 5 - DIV(FxG)=G (CURL(F))-F (CURL(G))]]
 	- [[(30) Calculus 3 - Divergence and Curl (30 of 50) Identity 6 - DIV(Gradient(F) x Gradient(G))=0]]
-	- [[(31) Calculus 3 - Divergence and Curl (31 of 50) Identity 7 - CURL(CURL(F))=Grad(DIV(f)) – (Grad) 2(F)]]
+	- [[(31) Calculus 3 - Divergence and Curl (31 of 50) Identity 7 - CURL(CURL(F))=Grad(DIV(f)) - (Grad) 2(F)]]
 	- [[(32) Calculus 3 - Divergence and Curl (32 of 50) An Interesting Example]]
 	- [[(33) Calculus 3 - Divergence and Curl (33 of 50) Cylindrical Coordinates]]
 	- [[(34) Calculus 3 - Divergence and Curl (34 of 50) Cylindrical Coordinates - Small Displacement dr]]

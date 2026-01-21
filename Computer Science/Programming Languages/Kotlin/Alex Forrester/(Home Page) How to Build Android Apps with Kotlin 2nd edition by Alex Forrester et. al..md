@@ -62,7 +62,7 @@ Reviewed: false
 	- [[Kotlin]] programming language for app development
 - Will learn how to create apps and run them on virtual devices
 - “structuring an app to building out the UI with activities, fragments, and various navigation patterns.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=16&annotation=TWVSY63G))
-- “Android’s [[RecyclerView]] to make the most of displaying lists of data” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=16&annotation=LGNXYBT5))
+- “Android's [[RecyclerView]] to make the most of displaying lists of data” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=16&annotation=LGNXYBT5))
 - “fetching data from a web service and handling images.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=16&annotation=FB5SZV4Z))
 - “mapping, location services, and the permissions model before working with notifications and how to persist data.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=16&annotation=DRH4VUKS))
 - “build user interfaces using [[Jetpack Compose]].” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=16&annotation=XKPG2EVG))
@@ -128,11 +128,11 @@ Reviewed: false
 - Complete code can be found within supplement given above
 #### (1.2) Creating an Android project with Android Studio
 - Become confident with [[Android Studio]]
-	- “This is the official integrated development environment ([[integrated development environments|IDE]]) for [[Android development]], built on [[JetBrains]]’ [[IntelliJ IDEA IDE]] and developed by the Android Studio team at [[Google]].” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=29&annotation=5E39ZTEK))
+	- “This is the official integrated development environment ([[integrated development environments|IDE]]) for [[Android development]], built on [[JetBrains]]' [[IntelliJ IDEA IDE]] and developed by the Android Studio team at [[Google]].” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=29&annotation=5E39ZTEK))
 - “development of Android Studio has followed the development of the IntelliJ IDEA IDE.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=29&annotation=24LDW8VL))
 	- IDE enables you to optimize code through suggestions, shortcuts, and standard refactoring
 - Will use [[Kotlin]]. Previous standard language for Android apps was [[Java]]
-	- “Since [[Google]] I/O 2017 (the annual Google developer conference), this has been Google’s preferred language for Android app development.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=29&annotation=NHCGGJGI))
+	- “Since [[Google]] I/O 2017 (the annual Google developer conference), this has been Google's preferred language for Android app development.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=29&annotation=NHCGGJGI))
 	- [[Kotlin]] created by [[JetBrains]] (company that created [[IntelliJ IDEA]], the software Android Studio is built on.)
 		- Therefore, you will get established and evolving first-class support for Kotlin
 - Kotlin was created to address shortcomings of Java in terms of verbosity, handling null types, and adding more functional programming techniques
@@ -170,7 +170,7 @@ Reviewed: false
 	- “benefit is that you can make changes and quickly see them on your desktop while developing your app.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=33&annotation=VMIX7YCD))
 	- Virtual devices typically do not have all the features of a real device
 	- “feedback cycle is often quicker than going through the steps of connecting a real device.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=33&annotation=WTIQE2SH))
-- You can standardize your app by targeting a specific device by downloading a [[device profile]] (“even if you don’t have a real device if this is a requirement of your project.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=33&annotation=9J58JVAH)))
+- You can standardize your app by targeting a specific device by downloading a [[device profile]] (“even if you don't have a real device if this is a requirement of your project.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=33&annotation=9J58JVAH)))
 - Let's take a look at the SDK components that are installed and how the virtual device fits in
 	- [[Android Emulator]]: “This is the base emulator, which we will configure to create virtual devices of different Android makes and models.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=34&annotation=R94IRGSL))
 	- [[Android SDK Build-Tools]]: “Android Studio uses the build tools to build your app. This process involves compiling, linking, and packaging your app to prepare it for installation on a device.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=34&annotation=US7Y7UAR))
@@ -182,7 +182,7 @@ Reviewed: false
 ##### (1.3.1) Exercise 1.02 - setting up a virtual device and running your app on it
 - It is possible to run app on real device but will be using a virtual device in this exercise
 - “should ensure you run your app on multiple devices to verify that its look and behavior are consistent.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=34&annotation=R7FX94ZD))
-- “app is the configuration of the app that we will run. As we haven’t set up a virtual device yet, it says No devices.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=35&annotation=V92L4URP))
+- “app is the configuration of the app that we will run. As we haven't set up a virtual device yet, it says No devices.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=35&annotation=V92L4URP))
 - Go to `tools` $\to$ `device manager
 - ![[Screenshot 2024-10-01 at 12.08.13 PM.png]]
 	- Use this to create a virtual device
@@ -246,14 +246,14 @@ Reviewed: false
 - “A typical [[manifest file]], in general terms, is a top-level file that describes the enclosed files or other data and associated metadata that forms a group or unit.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=743KBAN5))
 	- “The [[Android manifest]] applies this concept to your Android app as an [[XML file]].” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=3DQ5H7Q8))
 - “Every Android app has an application class that allows you to configure the app.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=SD8KD9UP))
-- “After the `<application>` element opens, you define your app’s components.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=7AQSG42D))
+- “After the `<application>` element opens, you define your app's components.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=7AQSG42D))
 	- The [[application (element)|<application>]]
 	- “only contains the first screen shown in the following code” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=IE6ZY7N3))
 		- `<activity android:name=".MainActivity">`
 	- The next child XML node specified is as follows
 		- [[intent-filter (element)|<intent-filter>]]
 			- “Android uses [[intents]] as a mechanism for interacting with apps and system components.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=V4328USG))
-			- “Intents get sent, and the intent filter registers your app’s capability to react to these intents.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=GZYEKEST))
+			- “Intents get sent, and the intent filter registers your app's capability to react to these intents.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=GZYEKEST))
 		- `<action android:name="android.intent.action.MAIN" />`
 			- This is the main entry point into your app.
 			- Since it appears in the enclosing XML of `.MainActivity`, it specifies that this screen will be started when the app is launched.
@@ -263,9 +263,9 @@ Reviewed: false
 	- Depending on features, may need to add permissions in Android manifest file
 - “Permissions are grouped into three different categories: [[normal]], [[signature]], and [[dangerous]]:” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=F6QUC27L))
 	- Normal: 
-		- “These permissions include accessing the [[network state]], [[Wi-Fi]], the [[internet]], and [[Bluetooth]]. These are usually permitted without asking for the user’s consent at runtime.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=P79GU6F9))
+		- “These permissions include accessing the [[network state]], [[Wi-Fi]], the [[internet]], and [[Bluetooth]]. These are usually permitted without asking for the user's consent at runtime.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=P79GU6F9))
 	- Signature:
-		- “These permissions are shared by the same group of apps that must be signed with the same certificate. This means these apps can share data freely, but other apps can’t get access.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=M2BAPM47))
+		- “These permissions are shared by the same group of apps that must be signed with the same certificate. This means these apps can share data freely, but other apps can't get access.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=M2BAPM47))
 	- Dangerous:
 		- “These permissions are centered around the user and their privacy, such as sending SMS, access to accounts and location, and reading and writing to the filesystem and contacts.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=K5VLKVQP))
 - “These permissions have to be listed in the manifest, and in the case of dangerous permissions, from Android Marshmallow API 23 (Android 6 Marshmallow) onward, you must also ask the user to grant the permissions at [[runtime]].” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=42&annotation=92EL3KF2))
@@ -318,7 +318,7 @@ class MainActivity : AppCompatActivity() {
 	- It appears that `AppCompatActivity()` was the default name but my code shows `ComponentActivity()`
 	- I'm getting a warning for `webView.settings.javaScriptEnabled = true`
 		- States that it can introduce [[XSS vulnerabilities]] in my application
-- “So, you are replacing the layout file with WebView. The val keyword is a read-only property reference, which can’t be changed once it has been set. JavaScript needs to be enabled in WebView to execute JavaScript.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=44&annotation=BM8LTMNW))
+- “So, you are replacing the layout file with WebView. The val keyword is a read-only property reference, which can't be changed once it has been set. JavaScript needs to be enabled in WebView to execute JavaScript.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=44&annotation=BM8LTMNW))
 - Not setting type but [[Kotlin]] has [[type inference]], so will infer type if possible
 	- “So, specifying the type explicitly with val webView: WebView = WebView(this) is not necessary.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=45&annotation=DAVF4LSW))
 		- “Kotlin follows Pascal notation, that is, \[parameter] name followed by type.” ([pdf](zotero://open-pdf/library/items/QG2Z93CB?page=45&annotation=NY6PVUWY))

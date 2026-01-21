@@ -11,7 +11,7 @@ Reviewed: false
 - Incomplete
 	- [[(1) Types of Triangles (GMAT and GRE and CAT and Bank PO and SSC CGL) - Don't Memorise]]
 	- [[(2) Exterior Angles in Triangles (GMAT - GRE - CAT - Bank PO - SSC CGL) - Don't Memorise]]
-	- [[(3) Pythagoras’ Theorem (GMAT and GRE and CAT and Bank PO and SSC CGL) - Don't Memorise]]
+	- [[(3) Pythagoras' Theorem (GMAT and GRE and CAT and Bank PO and SSC CGL) - Don't Memorise]]
 	- [[(4) Area of a Triangle - Herons Formula (GMAT and GRE and CAT and Bank PO and SSC CGL) - Don't Memorise]]
 	- [[(5) Area of an Equilateral Triangle (GMAT and GRE and CAT and Bank PO and SSC CGL) - Don't Memorise]]
 	- [[(6) The 30-60-90 Triangle (GMAT and GRE and CAT and Bank PO and SSC CGL) - Don't Memorise]]

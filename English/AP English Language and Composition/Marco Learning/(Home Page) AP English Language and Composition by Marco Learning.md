@@ -49,7 +49,7 @@ Incomplete
 [[(41) AP English Language Exam Review - Night Before the Exam]]
 [[(42) AP English Language Review Session]]
 [[(43) AP English Language Review with John Moscatiello]]
-[[(44) What’s the difference between AP English Language and AP English Literature]]
+[[(44) What's the difference between AP English Language and AP English Literature]]
 [[(45) Write Stronger Arguments and (maybe) Get Published]]
 [[(46) AP English Language Last-Minute Study Session]]
 [[(47) AP English Language Midterm Review]]

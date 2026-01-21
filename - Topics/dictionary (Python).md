@@ -8,6 +8,8 @@ aliases:
 ---
 ## Synthesis
 - Dictionaries use hashmaps for fast key access
+- In computer science, a "map" (also known as an associative array, hash map, hash table, or dictionary in other languages) is a general abstract data type that stores collections of key-value pairs, where each key is unique and maps to a specific value.
+	- In Python, the `dict` type is python's implementation of a map. This should not be confused with Python's [[map() (Python)|map()]] function.
 ### Example
 - Input
 ```python

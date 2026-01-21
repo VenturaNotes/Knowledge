@@ -30,14 +30,14 @@ Reviewed: false
 				- Raju bowls
 			- This statement will always be false since Q is false and the only way for an implication to be false is if hypothesis is True and conclusion is false.
 				- Sahil gets out on first ball
-- (7) The truth value ‘9 is prime then 3 is even’.
+- (7) The truth value '9 is prime then 3 is even'.
 	- True. First part of statement is false so implication will always be true.
 - (8) Let P: I am in Delhi.; Q: Delhi is clean.; then q $\land$ p(q and p) is?
 	- Delhi is clean and I am in Delhi
 		- The connector is 'and'
-- (9) Let P: This is a great website, Q: You should not come back here. Then ‘This is a great website and you should come back here.’ is best represented by?
+- (9) Let P: This is a great website, Q: You should not come back here. Then 'This is a great website and you should come back here.' is best represented by?
 	- $P \land \lnot Q$ 
-- (10) Let P: We should be honest., Q: We should be dedicated., R: We should be overconfident. Then ‘We should be honest or dedicated but not overconfident.’ is best represented by?
+- (10) Let P: We should be honest., Q: We should be dedicated., R: We should be overconfident. Then 'We should be honest or dedicated but not overconfident'. is best represented by?
 	- $P \lor Q \land \lnot R$  
 ### (1.2) Logic and Bit Operations
 - (1) Which of the following bits is the [[negation]] of the bits “010110”?

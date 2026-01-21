@@ -47,12 +47,12 @@ Reviewed: false
 - Preface has some pretty broken english
 - “This book is Free. See http://joshua.smcvt.edu/linearalgebra for the license details.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=4&annotation=GUTX2WQ8))
 	- “page also has the latest version, exercise answers, beamer slides, lab manual, additional material, and LATEX source.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=4&annotation=C8XVWEZG))
-- “This book’s emphasis on motivation and development, and its availability, make it widely used for self-study.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=5&annotation=NS4SGUL2))
-- “You’ll get more from these if you have access to software for calculations such as Sage, freely available from http://sagemath.org.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=5&annotation=NPPHLU9G))
+- “This book's emphasis on motivation and development, and its availability, make it widely used for self-study.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=5&annotation=NS4SGUL2))
+- “You'll get more from these if you have access to software for calculations such as Sage, freely available from http://sagemath.org.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=5&annotation=NPPHLU9G))
 - “Be aware that few people can write correct proofs without training” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=5&annotation=4AX3AW6V))
 - ““I understand the material but it is only that I have trouble with the problems” shows a misconception. Being able to do things with the ideas is their entire point.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=6&annotation=DC4F2UNB))
 - “But texts have traditionally not given attributions for questions.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=6&annotation=8VZUX4SD))
-- “I have marked a good sample with $\checkmark$’s in the margin.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=5&annotation=IITS3PAJ))
+- “I have marked a good sample with $\checkmark$'s in the margin.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=5&annotation=IITS3PAJ))
 
 ## (1) Linear Systems
 ### (1.1) Solving Linear Systems
@@ -89,7 +89,7 @@ Reviewed: false
 - ![[Screenshot 2023-06-08 at 9.25.03 PM.png]]
 	- 1.4 Example
 		- Solution set is {(3, 1, 3)}
-		- “Gauss’s Method never loses solutions nor does it ever pick up extraneous solutions” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=13&annotation=VHXMR6BH))
+		- “Gauss's Method never loses solutions nor does it ever pick up extraneous solutions” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=13&annotation=VHXMR6BH))
 - 1.5 Theorem (Gauss's Method)
 	- If a linear system is changed to another by one of these operations, then the two systems have the same set of solutions
 		- (1) “(1) an equation is swapped with another” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=14&annotation=B5RAYTV6))
@@ -106,7 +106,7 @@ Reviewed: false
 			- (1) Swapping
 			- (2) Multiplying by a scalar (or rescaling)
 			- (3) row combination
-	- “we will abbreviate ‘row i’ by ‘$\rho$i’” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=15&annotation=LX5KRPPW))
+	- “we will abbreviate 'row i' by '$\rho$i'” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=15&annotation=LX5KRPPW))
 		- Greek letter [[rho]]
 	- “we will denote a row combination operation by kρi + ρj, with the row that changes written second.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=15&annotation=WHVNMESU))
 - ![[Screenshot 2023-06-09 at 8.56.05 AM.png]]
@@ -115,13 +115,13 @@ Reviewed: false
 	- Physics problem solved
 		- “So c = 4, and back-substitution gives that h = 1.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=15&annotation=V56UYL3K))
 - 1.9 Example
-	- “point of Gauss’s Method is to use the elementary reduction operations to set up [[back-substitution]].” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=16&annotation=AMG8844D))
+	- “point of Gauss's Method is to use the elementary reduction operations to set up [[back-substitution]].” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=16&annotation=AMG8844D))
 - 1.10 Definition
-	- “In each <mark style="background: #FFF3A3A6;">row</mark> of a system, the first variable with a <mark style="background: #FFF3A3A6;">nonzero coefficient</mark> is the row’s [[leading variable]].” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=16&annotation=RXUECHR6))
+	- “In each <mark style="background: #FFF3A3A6;">row</mark> of a system, the first variable with a <mark style="background: #FFF3A3A6;">nonzero coefficient</mark> is the row's [[leading variable]].” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=16&annotation=RXUECHR6))
 	- “A system is in [[echelon form]] if each leading variable is to the right of the leading variable in the row above it, except for the leading variable in the first row, and any rows with all-zero coefficients are at the bottom.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=16&annotation=9H4KS475))
 - ![[Screenshot 2023-06-09 at 9.02.37 AM.png]]
 	- 1.11 Example of [[echelon form]]
-		- “Strictly speaking, to solve linear systems we don’t need the row rescaling operation.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=17&annotation=C8SLC8WC))
+		- “Strictly speaking, to solve linear systems we don't need the row rescaling operation.” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=17&annotation=C8SLC8WC))
 			- Introduced it because of “[[Gauss-Jordan Method]]” ([pdf](zotero://open-pdf/library/items/TGUR9253?page=17&annotation=TJXBYW2F))
 				- This is a variation of Gauss's Method
 		- All systems shown so far have only one solution. Also they have the same number of equations as unknowns

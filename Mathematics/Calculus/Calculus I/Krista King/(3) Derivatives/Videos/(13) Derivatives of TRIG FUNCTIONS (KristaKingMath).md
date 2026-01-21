@@ -19,6 +19,6 @@ Reviewed: false
 		- [[Cotangent|cot]]
 			- $-csc^2x$
 		- [[Cosecant|csc]]
-			- $–csc(x)cot(x)$
+			- $-csc(x)cot(x)$
 - ![[Screenshot 2023-10-31 at 12.53.12 AM.png]]
 	- Chain rule derivatives and higher-order derivatives

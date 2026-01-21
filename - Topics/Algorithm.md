@@ -13,14 +13,14 @@ aliases:
 - [[Backtracking Algorithm]]
 - [[Machine Learning Algorithm]]
 ### Examples of Algorithms
-- [[QuickSort]] (Sorting Algorithm) – A divide-and-conquer sorting algorithm that selects a pivot and partitions the array around it.
-- [[Binary Search]] (Searching Algorithm) – Searches for an element in a sorted array by repeatedly dividing the search range in half.
-- [[dijkstra's algorithm]] (Graph Algorithm) – Finds the shortest path between nodes in a weighted graph.
-- [[Merge Sort|mergesort]] (Divide and Conquer) – Recursively divides the array into halves, sorts them, and merges them back.
-- [[Knapsack Problem]] (Dynamic Programming / Greedy) – Determines the optimal way to fill a knapsack with items of varying value and weight.
-- [[A* Algorithm]] (Pathfinding) – A graph traversal algorithm used in AI for finding the shortest path.
-- [[K-Means Clustering]] (Machine Learning) – Groups data into clusters based on similarity.
-- [[Minimax Algorithm]] (Game Theory) – Used in decision-making for games like chess, minimizing the opponent's advantage while maximizing one's own.
+- [[QuickSort]] (Sorting Algorithm) - A divide-and-conquer sorting algorithm that selects a pivot and partitions the array around it.
+- [[Binary Search]] (Searching Algorithm) - Searches for an element in a sorted array by repeatedly dividing the search range in half.
+- [[dijkstra's algorithm]] (Graph Algorithm) - Finds the shortest path between nodes in a weighted graph.
+- [[Merge Sort|mergesort]] (Divide and Conquer) - Recursively divides the array into halves, sorts them, and merges them back.
+- [[Knapsack Problem]] (Dynamic Programming / Greedy) - Determines the optimal way to fill a knapsack with items of varying value and weight.
+- [[A* Algorithm]] (Pathfinding) - A graph traversal algorithm used in AI for finding the shortest path.
+- [[K-Means Clustering]] (Machine Learning) - Groups data into clusters based on similarity.
+- [[Minimax Algorithm]] (Game Theory) - Used in decision-making for games like chess, minimizing the opponent's advantage while maximizing one's own.
 ## Source [^1]
 - ![[Screenshot 2025-02-26 at 3.19.25 PM.png]]
 	- This algorithm will complete the maze:

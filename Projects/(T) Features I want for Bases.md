@@ -34,7 +34,7 @@ completedDate: 2025-11-18
 		- `"task/home"` → `["", "home"]`
 		- `"task/work/urgent"` → `["", "work/urgent"]`
 		- `"foo/task/home"` → `["foo/", "home"]`
-		- `"project/alpha"` → `["project/alpha"]` (because `"task/"` doesn’t exist)
+		- `"project/alpha"` → `["project/alpha"]` (because `"task/"` doesn't exist)
 - (2) `slice(1)`
 	- Takes everything after index 0
 		- `["", "home"]` → `["home"]`

@@ -17,7 +17,7 @@ Reviewed: false
 
 ## (1) Language of Mathematics 1 (Logic)
 ### (1.1) Statements, Propositional Connectives
-- “‘Indira Gandhi died martyr’ implies and implied by ‘she was brave.’” ([Lal, 2017, p. 1](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=16&annotation=XQENAA2B))
+- “'Indira Gandhi died martyr' implies and implied by 'she was brave.'” ([Lal, 2017, p. 1](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=16&annotation=XQENAA2B))
 	- Wonder what "<mark style="background: #FFF3A3A6;">implies and implied </mark>by" means
 - “A statement asserts something(true or false).” ([Lal, 2017, p. 1](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=16&annotation=B9BJ83LP))
 - Valid statements are closed under the [[propositional connectives]] (operations)
@@ -29,7 +29,7 @@ Reviewed: false
 	- Not
 - “[[propositional logic|propositional calculus]].” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=INNLFZSH))
 	- “rules which govern the formation of valid statements” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=XGPYZ9VZ))
-	- “For the formal development of the language, one is referred to an excellent book entitled ‘Set Theory and Continuum Hypothesis’ by P.J. Cohen.” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=ANXASE9R))
+	- “For the formal development of the language, one is referred to an excellent book entitled 'Set Theory and Continuum Hypothesis' by P.J. Cohen.” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=ANXASE9R))
 - “in this text, we shall adopt rather the traditional informal language.” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=SKRLG4KU))
 - Propositional Connectives
 	- “[[Conjunction]]” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=9NUBTR8B))
@@ -63,17 +63,17 @@ Reviewed: false
 		- P implies Q 
 			- P is the <mark style="background: #FFF3A3A6;">antecedent</mark> or <mark style="background: #FFF3A3A6;">hypothesis</mark>
 			- Q is the <mark style="background: #FFF3A3A6;">consequent</mark> or <mark style="background: #FFF3A3A6;">conclusion</mark>
-		- “The statement ‘P =⇒ Q’ and the statement ‘If P, then Q’ are logically same, for (as we shall see) the truth values of both the statements are always same.” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=47GMNYAQ))
+		- “The statement 'P =⇒ Q' and the statement 'If P, then Q' are logically same, for (as we shall see) the truth values of both the statements are always same.” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=47GMNYAQ))
 		- Example
-			- ‘Kishore has a wife’ implies ‘he is married.’” ([Lal, 2017, p. 1](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=16&annotation=AWUG9D95))
+			- 'Kishore has a wife' implies 'he is married.'” ([Lal, 2017, p. 1](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=16&annotation=AWUG9D95))
 	- “[[Equivalence]]” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=VWYGUR49))
-		- “‘P if and only if Q’ (briefly ‘Piff Q’)” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=DGQPBZZ5))
-		- “‘P implies and implied by Q’ (in symbol ‘P ⇐⇒ Q’) is logically same as ‘P if and only if Q’” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=8G2Z9IKE))
+		- “'P if and only if Q' (briefly 'Piff Q')” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=DGQPBZZ5))
+		- “'P implies and implied by Q' (in symbol 'P ⇐⇒ Q') is logically same as 'P if and only if Q'” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=8G2Z9IKE))
 		- Read as
-			- “‘P is a necessary and sufficient condition for Q.’” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=QXVLL6PP))
+			- “'P is a necessary and sufficient condition for Q.'” ([Lal, 2017, p. 2](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=17&annotation=QXVLL6PP))
 		- Examples
 			- “6. Gunjan can be honest if and only if she is brave.” ([Lal, 2017, p. 1](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=16&annotation=G52CRUYM))
-			- “7. ‘Kishore has a wife’ implies ‘he is married.’” ([Lal, 2017, p. 1](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=16&annotation=AWUG9D95))
+			- “7. 'Kishore has a wife' implies 'he is married'.” ([Lal, 2017, p. 1](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=16&annotation=AWUG9D95))
 ### (1.2) Statement Formula and Truth Functional Rules
 - [[Statement Variable]]
 	- “a variable which can take any value from the class of valid atomic statements (statements without propositional connectives).” ([Lal, 2017, p. 3](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=18&annotation=ZUKN6DYG))
@@ -123,7 +123,7 @@ Reviewed: false
 	- $\exists$x: there exists
 		- 'There exists x, P(x)', where 'P(x)' is a statement involving x
 	- Example: There is a man who is immortal
-		- “‘$\exists$x,‘x is a man’ and ‘x is immortal’.’.” ([Lal, 2017, p. 7](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=22&annotation=LQ2A9LC4))
+		- “'$\exists$x,'x is a man' and 'x is immortal'". ([Lal, 2017, p. 7](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=22&annotation=LQ2A9LC4))
 	- Parenthesis $()$ and brackets $[]$ will be used to limit scope of propositional connectives and quantifiers
 - <mark style="background: #FFF3A3A6;">Negation of a statement formula involving Quantifiers</mark>
 	- "Every river has an origin"
@@ -133,7 +133,7 @@ Reviewed: false
 		- Universal Quantifier: $\forall x$('x is a man' $\implies$ 'x is mortal')
 			- Statement false iff there is a man who is immortal
 	- "There is a river which has no origin"
-		- Existential Quantifier: “‘$\exists$x, (‘x is a river’ and ‘x has no origin’.’.
+		- Existential Quantifier: “'$\exists$x, ('x is a river' and 'x has no origin'.
 			- Statement false iff "Every river has an origin"
 	- ![[Screenshot 2023-08-20 at 4.58.16 PM.png]]
 		- ![[Screenshot 2023-08-20 at 4.58.30 PM.png]]

@@ -72,7 +72,7 @@ Reviewed: false
 	- Families decide on new car or fancy vacation
 	- Towns choose budget for police and fire protection or into school system
 	- Nations choose between funding national defense or protecting the environment
-- “In most cases, there just isn’t enough money in the budget to do everything.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=27&annotation=AUNEEFBF))
+- “In most cases, there just isn't enough money in the budget to do everything.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=27&annotation=AUNEEFBF))
 - “How do we use our limited resources the best way possible, that is, to obtain the most goods and services we can?” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=27&annotation=B8QIHGPX))
 	- We each could produce everything we consume
 	- “we could each produce some of what we want to consume, and “trade” for the rest of what we want.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=27&annotation=6A9JG8FA))
@@ -89,7 +89,7 @@ Reviewed: false
 		- “Adam Smith introduced the idea of dividing labor into discrete tasks” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=28&annotation=NNVK6MHL))
 
 #### The Division of and Specialization of Labor
-- “The formal study of [[economics]] began when [[Adam Smith]] (1723–1790) published his famous book [[The Wealth of Nations]] 1776.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=28&annotation=8Z9QZHM2))
+- “The formal study of [[economics]] began when [[Adam Smith]] (1723-1790) published his famous book [[The Wealth of Nations]] 1776.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=28&annotation=8Z9QZHM2))
 	- “Many authors had written on economics in the centuries before Smith, but he was the first to address the subject in a comprehensive way.” ([pdf](zotero://open-pdf/library/items/RPVTIFRU?page=28&annotation=9LP2MCKB))
 - In the first chapter, he introduces the concept [[division of labor]]
 	- It means that the way one produces a good or service is divided into a number of tasks that different workers perform (instead of all the tasks being done by the same person)

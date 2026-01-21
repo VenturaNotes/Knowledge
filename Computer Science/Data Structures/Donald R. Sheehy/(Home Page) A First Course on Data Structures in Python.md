@@ -117,8 +117,8 @@ drawlist(L, 'list03')
 - ![[Pasted image 20230117162442.png]]
 - “Keys can be different types, but they must be immutable types such as atomic types, tuples, or strings.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=19&annotation=7D3WIUI2))
 - “Dictionaries are also known as [[maps]], <mark style="background: #FFF3A3A6;">mappings</mark>, or [[Hash Table|hash tables]].” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=19&annotation=VYPDESP2))
-- “A dictionary doesn’t have a fixed order.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=19&annotation=QNMTQWBJ))
-- “If you assign to a key that’s not in the dictionary, it simply creates a new item. If you try to access a key that’s not in the dictionary, you will get a KeyError.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=19&annotation=ZYINV2HJ))
+- “A dictionary doesn't have a fixed order.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=19&annotation=QNMTQWBJ))
+- “If you assign to a key that's not in the dictionary, it simply creates a new item. If you try to access a key that's not in the dictionary, you will get a KeyError.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=19&annotation=ZYINV2HJ))
 - nonsequential collection
 #### (2.4.5) Sets (set)
 - “They are collections of objects without duplicates.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=19&annotation=TRA7U43L))
@@ -372,10 +372,10 @@ class Square(Polygon):
 - “This search for the correct function to call is called the [[method resolution order]].” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=RNNQBGC4))
 	- "When we call a method on an object, if that method is not defined in the class of that object, Python will look for the method in the superclass
 	- “If a method from the superclass is redefined in the subclass, then calling the method on an instance of the subclass calls the subclass method instead.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=PD2AXLEE))
-- “The initializer of the superclass is not called automatically when we create a new instance (unless we didn’t define init in the subclass). In this case, we manually call the Polygon. init function.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=9ERW697M))
+- “The initializer of the superclass is not called automatically when we create a new instance (unless we didn't define init in the subclass). In this case, we manually call the Polygon. init function.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=9ERW697M))
 - “Inheritance means <mark style="background: #FFF3A3A6;">is a</mark>.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=LUFMSN6F))
 - “Duplication is very bad.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=BAW457BD)
-- “Software engineers use the acronym [[DRY]], to mean Don’t Repeat Yourself.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=BASE9Y36))
+- “Software engineers use the acronym [[DRY]], to mean Don't Repeat Yourself.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=BASE9Y36))
 - “The process of removing duplication by putting common code into a superclass is called [[factoring out a superclass]]” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=8KSSQTM3))
 ### (3.4) Duck Typing
 ```python
@@ -435,7 +435,7 @@ Squares: 1 Triangles: 1
 - “The reason is that Python has built-in (parametric) polymorphism.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=K34E6ZFX))
 	- “we can pass any type of object we want to a function.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=37&annotation=RIUJ9AHW))
 - Add method of class "PolygonCollection" works well with any object with method "sides"
-- “Python’s polymorphism is based on the idea of duck typing.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=38&annotation=NVIT7AML))
+- “Python's polymorphism is based on the idea of duck typing.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=38&annotation=NVIT7AML))
 	- “Having the right methods is equivalent to ”walking and talking like a duck”.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=38&annotation=95U7Q28B))
 - “As long as we implemented the str method on our class, then we can call str on an instance of that class.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=38&annotation=AGZUASEV))
 	- “That function calls the corresponding method, i.e., str(t) for a Triangle t calls t. str () which is equivalent to Triangle. str (t).” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=38&annotation=88TTHWNZ))
@@ -466,16 +466,16 @@ print(L[2])
 		- [[Composition]] <mark style="background: #FFF3A3A6;">means "has a "</mark>
 	- "In composition, a class known as composite contains an object of another class known to as component. In other words, a composite class has a component of another class." [^2]
 - Creating a class that behaves like a list
-	- “we’d like to be able to append to the list and access items by their index,” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=39&annotation=VLA87EMP)) That's it.
+	- “we'd like to be able to append to the list and access items by their index,” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=39&annotation=VLA87EMP)) That's it.
 	- Make class store a list internally.
 	- “making calls to the stored list instance to avoid duplicating the list implementation.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=39&annotation=DEBMH92Q))
 	- The public interface ("Public interface of linked list class" means only public methods of the LinkedList class. [^3]) 
-- “Here, the magic method getitem will allow us to use the square bracket notation with our class. As with other magic methods, we don’t call it directly.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=39&annotation=KZJYEQR9))
+- “Here, the magic method getitem will allow us to use the square bracket notation with our class. As with other magic methods, we don't call it directly.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=39&annotation=KZJYEQR9))
 ## (4) Testing
 - “Python is an interpreted language.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=41&annotation=NYKXIP9R))
 - Objectives for tests
-	- “<mark style="background: #FFF3A3A6;">Does it work? </mark>That is, does the code do what it’s supposed to do?” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=41&annotation=YGLNPMY7))
-	- “<mark style="background: #FFF3A3A6;">Does it still work?</mark> Can you be confident that the changes you made haven’t caused other part of the code to break?” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=41&annotation=ZGA3BDBB))
+	- “<mark style="background: #FFF3A3A6;">Does it work? </mark>That is, does the code do what it's supposed to do?” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=41&annotation=YGLNPMY7))
+	- “<mark style="background: #FFF3A3A6;">Does it still work?</mark> Can you be confident that the changes you made haven't caused other part of the code to break?” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=41&annotation=ZGA3BDBB))
 ### (4.1) Writing Tests
 - “Testing your code means writing more code that checks that the behavior matches your expectations.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=41&annotation=GFF67397))
 	- “Test behavior, not implementation.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=41&annotation=DNS5CVZE))
@@ -499,7 +499,7 @@ If the assertion is false, you will get an assertion error in terminal
 - “The [[assert statement]] will raise an error if the predicate that follows it is False.”
 	- Better than writing print statements
 - “Deleting tests after they pass is a very bad idea.”
--  “The line if name == ’ main ’: makes sure that the tests will not run when the module is imported from somewhere else.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=42&annotation=UH39H3D7))
+-  “The line if name == ' main ': makes sure that the tests will not run when the module is imported from somewhere else.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=42&annotation=UH39H3D7))
 - “If you feel the slightest hesitation to testing your own code, you should practice the [[OGAE]] protocol. It stands for, <mark style="background: #FFF3A3A6;">Oh Good, An Error!</mark>.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=42&annotation=M92GWK57))
 ### (4.2) Unit Testing with unittest
 - “The word unit in unit testing is meant to imply a single indivisible case.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=42&annotation=JAXGCSD8))
@@ -529,10 +529,10 @@ unittest.main()
 	- “Then, import the code you want to test.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=43&annotation=ERPGEN37))
 	- “The actual tests will be methods in a class that extends the unittest.TestCase class.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=43&annotation=LAHBCGEM))
 		- The TestCase class is used to test any kind of cases you need (not just checking if a letter is uppercase or lowercase)
-	- “Every <mark style="background: #FFF3A3A6;">test method </mark>must start with the word ’<mark style="background: #FFF3A3A6;">test</mark>’.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=43&annotation=ZX829FPG))
+	- “Every <mark style="background: #FFF3A3A6;">test method </mark>must start with the word '<mark style="background: #FFF3A3A6;">test</mark>'.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=43&annotation=ZX829FPG))
 	- “Tests are run by calling the unittest.main function.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=43&annotation=FIPFUJMJ))
 - We can get a good sense of the class's expected behavior from reading the tests
-- “With documentation, one sometimes finds that changes in the code are not reflected in the documentation, but passing tests don’t have this problem.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=43&annotation=EM2F2R48))
+- “With documentation, one sometimes finds that changes in the code are not reflected in the documentation, but passing tests don't have this problem.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=43&annotation=EM2F2R48))
 ### (4.3) Test-Driven Development
 #### Explanation
 - [[Test-Driven Development]]
@@ -542,7 +542,7 @@ unittest.main()
 		- Write only code you need
 			- If there is code that doesn't support some desired behavior with tests, don't write it
 - TDD mantra is [[Red-Green-Refactor]]. “refers to three phases of the testing process.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=44&annotation=KWLSJS7I))
-	- “Red: The tests fail. They better! You haven’t written the code yet!” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=44&annotation=QIGD7PFN))
+	- “Red: The tests fail. They better! You haven't written the code yet!” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=44&annotation=QIGD7PFN))
 	- “Green: You get the tests to pass by changing the code.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=44&annotation=ILP3QTXU))
 	- “[[Refactor]]: You clean up the code, removing duplication.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=44&annotation=9CSZVKHJ))
 - “Red and Green refer to many testing frameworks that show failed tests in red and passing tests in green.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=44&annotation=PHGXGPXS))
@@ -585,9 +585,9 @@ avg2 = avg(L2)
 	- “Turn bugs into tests.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=45&annotation=BK5ATMFQ))
 		- “Write a specific test to reveal the bug, then fix it.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=45&annotation=8VTE3TEV))
 	- “Test the [[public interface]].” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=45&annotation=2NF959KW))
-		- “don’t need to or want to test the private methods of a class.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=45&annotation=R3TLHT25))
+		- “don't need to or want to test the private methods of a class.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=45&annotation=R3TLHT25))
 		- “should treat the test code as a user of the class and it should make no assumptions about private attributes.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=45&annotation=ILYPRVR9))
-			- “if a private gets renamed or refactored, you don’t have to change the tests.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=45&annotation=R5VEFD34))
+			- “if a private gets renamed or refactored, you don't have to change the tests.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=45&annotation=R5VEFD34))
 ### (4.5) Testing and Object-Oriented Design
 - “In [[object-oriented design]], we divide the code into classes”
 	- “These classes have certain relationships sometimes induced by [[inheritance]] or [[composition]].” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=46&annotation=Y7VC6H7K))
@@ -613,9 +613,9 @@ avg2 = avg(L2)
 		- “cost will be a function of the input size, rather than a fixed number.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=47&annotation=D5EGTQPS))
 - “we will introduce some vocabulary for classifying functions. This is the asymptotic part of asymptotic analysis.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=48&annotation=IAPSK9BM))
 	- “[[big-O notation]] gives a very convenient way of grouping this (running time) functions into classes that can easily be compared.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=48&annotation=LET2RPGJ))
-		- “we’ll be able to talk about and compare the efficiency of different algorithms or programs” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=48&annotation=UDXJYCL3))
+		- “we'll be able to talk about and compare the efficiency of different algorithms or programs” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=48&annotation=UDXJYCL3))
 ### (5.1) Timing Programs
-- “let’s observe some differences in [[running time]] for different functions that do the same thing.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=48&annotation=QEHA44L3))
+- “let's observe some differences in [[running time]] for different functions that do the same thing.” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=48&annotation=QEHA44L3))
 	- #question what is running time again?
 	- “We might say these functions have the same behavior or the same [[semantics]].” ([pdf](zotero://open-pdf/library/items/HQW8R6QS?page=48&annotation=2BZCZNXL))
 - Program that checks for duplicates in list

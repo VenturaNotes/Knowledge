@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
--  An open-source platform for automating containerized applications’ deployment, scaling, and operations, allowing for managing application containers across clusters of hosts.
+-  An open-source platform for automating containerized applications' deployment, scaling, and operations, allowing for managing application containers across clusters of hosts.
 	- #question Is Kubernetes similar to Docker?
 	- #question What are application containers
 	- #question What are clusters

@@ -20,7 +20,7 @@ Reviewed: false
 	- [[(9) Proving DeMorgan's and Absorption Laws in Set Theory]]
 	- [[(10) Introduction to Sequences in Discrete Math]]
 	- [[(11) Recurrence Relations for Recursive Sequences in Discrete Math]]
-	- [[(12) Summations – Adding the Elements of a Sequence]]
+	- [[(12) Summations - Adding the Elements of a Sequence]]
 	- [[(13) Alphabets and Strings in Discrete Math]]
 	- [[(14) Intro to Regular Expressions (RegEx) via State Diagrams]]
 	- [[(15) Regular Expression Demos with Real World Examples]]

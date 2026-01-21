@@ -6,7 +6,7 @@ Reviewed: false
 index.js
 ```javascript
 // closure =  A function with preserved and private data.
-//                   Gives you access to an outer function’s scope,
+//                   Gives you access to an outer function's scope,
 //                   from an inner function.
 
 document.getElementById("loginButton").onclick = login();

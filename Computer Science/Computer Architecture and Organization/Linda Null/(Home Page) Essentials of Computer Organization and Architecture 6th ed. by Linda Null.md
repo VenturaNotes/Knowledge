@@ -15,7 +15,7 @@ Reviewed: false
 - “infamous segmentation fault or bus error.” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=24&annotation=5NDNFHSX))
 - “Association for Computing Machinery (ACM) and the Institute of Electrical and Electronic Engineers (IEEE).” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=25&annotation=5Z7QGRMG))
 	- “[[Science Curricula 2013]] (CS2013).” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=27&annotation=RGL6TQXN))
-		- “[[Core Tier-1 topics]] are those that should be part of every computer science curriculum. [[Core Tier-2 topics]] are those that are considered essential enough that a computer science curriculum should contain 90–100% of these topics.” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=27&annotation=82MCYGJM))
+		- “[[Core Tier-1 topics]] are those that should be part of every computer science curriculum. [[Core Tier-2 topics]] are those that are considered essential enough that a computer science curriculum should contain 90-100% of these topics.” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=27&annotation=82MCYGJM))
 		- Elective topics allow curricula to provide breadth and depth
 	- This textbook is in direct correlation with the ACM/IEEE CS2013 guidelines for computer organization and architecture
 ### Relationship to CS2013
@@ -307,7 +307,7 @@ Reviewed: false
 
 ### (1.1) Overview
 - “These kinds of algorithms are considered [[computationally infeasible]].” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=55&annotation=MVNMGRI2))
-	- “Some algorithms are so complicated that they would take too long to run on today’s systems” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=55&annotation=74X6EGZ5))
+	- “Some algorithms are so complicated that they would take too long to run on today's systems” ([pdf](zotero://open-pdf/library/items/ZWLVXRKV?page=55&annotation=74X6EGZ5))
 - To write [[compilers]]
 	- Must understand [[hardware environment]] within which the compiler will function
 	- Best compilers leverage hardware features ([[pipelining]])
