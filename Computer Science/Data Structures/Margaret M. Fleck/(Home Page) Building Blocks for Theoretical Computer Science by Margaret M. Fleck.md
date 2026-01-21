@@ -26,7 +26,7 @@ Reviewed: false
 
 ### Why learn formal mathematics?
 - “users need to be able to read and understand how the designs work.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=12&annotation=KA5ZHDF3))
-- “when you come to design complex real software, you’ll have to document what you’ve done and how it works.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=12&annotation=9AJJ8BKQ))
+- “when you come to design complex real software, you'll have to document what you've done and how it works.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=12&annotation=9AJJ8BKQ))
 
 ### Everyone can do proofs
 - “many proofs are very routine.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=13&annotation=YR3E7IJU))
@@ -36,7 +36,7 @@ Reviewed: false
 - “If you already have significant experience writing proofs, including inductive proofs, this book may be too easy for you.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=14&annotation=ER26QPFL))
 
 ### For instructors
-- “a central goal is to explain the process of proof construction clearly to students who can’t just pick it up by osmosis.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=14&annotation=5C5R3DDP))
+- “a central goal is to explain the process of proof construction clearly to students who can't just pick it up by osmosis.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=14&annotation=5C5R3DDP))
 - “it includes only core concepts and a selection of illustrative examples” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=14&annotation=VGGRZLZQ))
 
 ## (1) Math Review
@@ -155,7 +155,7 @@ Reviewed: false
 		- Shifts the curve up and down without changing shape
 			- ![[Screenshot 2023-08-09 at 5.06.08 AM.png]]
 			- In many computer science analysis, we don't care about [[constant multipliers]]. Since base changes multiply by a constant, this means we don't care what the base actually is.
-				- “Thus, authors often write log x and don’t specify the base.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=20&annotation=XVK9ICUE))
+				- “Thus, authors often write log x and don't specify the base.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=20&annotation=XVK9ICUE))
 ### (1.4) Some handy functions
 - “Suppose that k is any positive integer. Then k [[factorial]], written k!, is the product of all the positive integers up to and including k” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=20&annotation=ISGAY4V2))
 	- $k!=1*2*3*...*(k-1)*k$
@@ -194,7 +194,7 @@ Reviewed: false
 		- Rounds down to nearest integer
 	- truncate(-2.6) = -2
 		- Rounds in direction of zero
-- “[[Round]] is often used in statistical programs. [[Truncate]] isn’t used much in theoretical analyses.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=21&annotation=IK52BFTE))
+- “[[Round]] is often used in statistical programs. [[Truncate]] isn't used much in theoretical analyses.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=21&annotation=IK52BFTE))
 ### (1.5) Summations
 - If $a_i$ is some formula that depends on i, then 
 	- [[Summation]] Examples
@@ -259,7 +259,7 @@ Reviewed: false
 			- a | b means either one of the characters a and b
 			- a* means zero or more copies of the character a
 - “Parentheses are used to show grouping” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=24&annotation=LFS3FRAG))
-	- “ab* specifies all strings consisting of an a followed by zero or more b’s:” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=24&annotation=NFSSYL58))
+	- “ab* specifies all strings consisting of an a followed by zero or more b's:” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=24&annotation=NFSSYL58))
 		- a, ab, abb, etc.
 	- c(b|a)\*c specifies all strings consisting of one c, followed by zero or more characters that are either a's or b's, followed one c. E.g. `cc`, `cac`, `cbbac`, and so forth
 ### (1.7) Variation in notation
@@ -330,7 +330,7 @@ Reviewed: false
 		- Truth table
 - “The easiest way to remember the right output values for this operation is to remember that the value is false in exactly one case: when p is true and q is false.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=29&annotation=XLYFPVQZ))
 	- “Normal English requires that conditional sentences have some sort of causal connection between the two propositions, i.e. one proposition is true because the other is true.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=29&annotation=ZG8JQ8FU))
-	- “In [[mathematical English]], this statement is just fine: there doesn’t have to be any causal connection.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=29&annotation=9JXTIQWX))
+	- “In [[mathematical English]], this statement is just fine: there doesn't have to be any causal connection.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=29&annotation=9JXTIQWX))
 		- "If Urbana is in Illinois, then Margaret was born in Wisconsin"
 - “Unless we make a special effort to build a model of time, propositional logic is timeless.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=29&annotation=D7WQZXH3))
 	- “mathematical proofs normally discuss a world that is static.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=29&annotation=YIDXDJCQ))
@@ -338,7 +338,7 @@ Reviewed: false
 		- “Only very occasionally do we talk about taking an object and modifying it.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=30&annotation=73XEG7RR))
 - “In computer programming, we often see things that look like conditional statements, e.g. “if x>0, then increment y”” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=30&annotation=FZBPHFZ5))
 	- “these are commands for the computer to do something” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=30&annotation=XRRALGS6))
-		- “Formalizing what it means for a computer program to “do what it’s supposed to” requires modeling how the world changes over time.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=30&annotation=4YF59PPU))
+		- “Formalizing what it means for a computer program to “do what it's supposed to” requires modeling how the world changes over time.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=30&annotation=4YF59PPU))
 	- “the similar-looking mathematical statements are timeless.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=30&annotation=BG2ZFYAS))
 ### (2.5) Converse, contrapositive, biconditional
 - [[Converse]] of $p \implies q$ is $q \implies p$
@@ -361,7 +361,7 @@ Reviewed: false
 - [[Complex statements]]
 - “Very complex statements can be made using combinations of connectives.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=31&annotation=RXF68UNM))
 	- Example
-		- “If it’s below zero or my car does not have gas, then my car won’t start and I can’t go get groceries.”” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=31&annotation=2WSH5FLN))
+		- “If it's below zero or my car does not have gas, then my car won't start and I can't go get groceries.”” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=31&annotation=2WSH5FLN))
 			- ![[Screenshot 2023-08-19 at 2.12.52 AM.png]]
 - “In particular, you apply the “not” operators first, then the “and” and “or”. Then you take the results and do the implication operations.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=32&annotation=SXAASZDM))
 - Truth table for complex statements
@@ -382,7 +382,7 @@ Reviewed: false
 - Two well known equivalences are [[De Morgan's Laws]]
 	- $\lnot(p \land q)$ $\equiv$ $\lnot p \lor \lnot q$ 
 	- $\lnot(p \lor q) \equiv \lnot p \land \lnot q$
-- “Similar rules in other domains (e.g. set theory) are also called De Morgan’s Laws.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=33&annotation=XMYIVYBD))
+- “Similar rules in other domains (e.g. set theory) are also called De Morgan's Laws.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=33&annotation=XMYIVYBD))
 - “they tell you how to  simplify the negation of a complex statement involving “and” and “or”.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=33&annotation=3ZLY8DNP))
 - One of De Morgan's Laws shown in truth table
 	- ![[Screenshot 2023-08-19 at 2.23.04 AM.png]]
@@ -424,7 +424,7 @@ Reviewed: false
 	- We also derived a new logical equivalence
 		-  $\lnot(r \implies (p \lor \lnot l))$ $\equiv$ $r \land \lnot p \land l$
 			- “This is how we establish new equivalences when truth tables get unwieldy.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=35&annotation=VTST5RHA))
-- “Knowing the [[mechanical rules]] helps you handle situations where your logical intuitions aren’t fully up to the task of just seeing instinctively what the negation should look like” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=35&annotation=BTEIB79P))
+- “Knowing the [[mechanical rules]] helps you handle situations where your logical intuitions aren't fully up to the task of just seeing instinctively what the negation should look like” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=35&annotation=BTEIB79P))
 ### (2.10) Predicates and Variables
 - We need [[predicate logic]] which “allows variables and predicates that take variables as input.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=36&annotation=SIWGLEJH))
 - “A [[predicate]] is a statement that becomes true or false if you substitute in values for its variables.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=36&annotation=GUE5ZICD))
@@ -434,7 +434,7 @@ Reviewed: false
 		- Called Q(y)
 		- True if y is "mint" but false if y is "tomato"
 		- “A winter hardy plant is a plant that can survive the winter in a cold climate, e.g. here in central Illinois.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=36&annotation=K9MUIN27))
-- “If we substitute concrete values for all the variables in a predicate, we’re back to having a proposition” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=36&annotation=J6SFRVKZ))
+- “If we substitute concrete values for all the variables in a predicate, we're back to having a proposition” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=36&annotation=J6SFRVKZ))
 - “The main use of predicates is to make general statements about what happens when you substitute a variety of values for the variables.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=36&annotation=PTQHM3KY))
 	- P(x) is true for every x
 	- "For every integer x, $x^2$ $\ge$ 10" (false)
@@ -459,7 +459,7 @@ Reviewed: false
 - “it is sometimes important to point out when one and only one x has some set of properties.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=37&annotation=EJEUZQZE))
 	- “this uses the [[unique existence quantifier]], as in” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=37&annotation=LQUEQVYV))
 		- "There is a unique integer x such that $x^2 = 0$"
-- “Mathematicians use the adjective “unique” to mean that there’s only one such object (similar to the normal usage but not quite the same).” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=37&annotation=YFF5H3FB))
+- “Mathematicians use the adjective “unique” to mean that there's only one such object (similar to the normal usage but not quite the same).” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=37&annotation=YFF5H3FB))
 ### (2.12) Notation
 - [[Universal quantifier]] has shorthand $\forall$ 
 	- ![[Screenshot 2023-08-19 at 2.54.36 AM.png]]
@@ -482,7 +482,7 @@ Reviewed: false
 	- Abbreviated to
 		- ![[Screenshot 2023-08-19 at 3.00.31 AM.png]]
 			- Means "for all real numbers x and y, x + y $\ge$ x" (which isn't true)
-- “two variables x and y might contain different values, but it’s important to realize that they might also be equal.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=39&annotation=MBFTBH2Q))
+- “two variables x and y might contain different values, but it's important to realize that they might also be equal.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=39&annotation=MBFTBH2Q))
 	- ![[Screenshot 2023-08-19 at 3.02.17 AM.png]]
 		- True
 - Universals also have a contrapositive
@@ -510,7 +510,7 @@ Reviewed: false
 - [[Negation]] of [[quantifiers]]
 	- ![[Screenshot 2023-08-19 at 3.29.33 AM.png]]
 	- ![[Screenshot 2023-08-19 at 3.29.44 AM.png]]
-- “So this is a bit like the de Morgan’s laws: when you move the negation across the operator, you change it to the other similar operator.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=40&annotation=6XNI89D9))
+- “So this is a bit like the de Morgan's laws: when you move the negation across the operator, you change it to the other similar operator.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=40&annotation=6XNI89D9))
 - “We saw above how to move negation operators from the outside to the inside of expressions involving ∧, ∨, and the other propositional operators.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=40&annotation=C7EAQNGV))
 - “we now have a mechanical procedure for working out the negation of any random statement in predicate logic.” ([pdf](zotero://open-pdf/library/items/ESNUMDJL?page=40&annotation=IPNEUBFM))
 	- Given

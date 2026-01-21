@@ -24,6 +24,6 @@ Reviewed: false
 [[(12) What are Radians. - Radian (Unit of Plane Angle) - Don't Memorise]]
 [[(13) Geometry - Basic Definitions - Part 1 - Origin of Geometry - Don't Memorise]]
 [[(14) Euclid's Geometry - Axioms - Part 1 - Don't Memorise]]
-[[(15) Euclid’s First Four Postulates - Euclid's Postulates - Don't Memorise]]
+[[(15) Euclid's First Four Postulates - Euclid's Postulates - Don't Memorise]]
 [[(16) What is Symmetry. - Basics - Line of Symmetry - Don't Memorise]]
 [[(17) Reflectional Symmetry and Rotational Symmetry - Don't Memorise]]

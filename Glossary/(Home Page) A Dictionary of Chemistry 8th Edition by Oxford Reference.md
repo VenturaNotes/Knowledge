@@ -2752,7 +2752,7 @@ Reviewed: false
 	2727. isotopologues
 	2728. isotopomers
 	2729. [[isotropic]]
-	2730. isozyme
+	2730. [[isozyme]]
 	2731. itaconic acid
 	2732. IUPAC
 	2733. j-j coupling
@@ -2783,7 +2783,7 @@ Reviewed: false
 	2758. kelvin
 	2759. Kelvin, Lord (1824-1907)
 	2760. Kepert model
-	2761. keratin
+	2761. [[keratin]]
 	2762. kerosine
 	2763. Kerr effect
 	2764. ketals
@@ -2803,7 +2803,7 @@ Reviewed: false
 	2778. kieserite
 	2779. kilo-
 	2780. kilogram
-	2781. kimberlite
+	2781. [[kimberlite]]
 	2782. kinematic viscosity
 	2783. kinetic effect
 	2784. kinetic energy

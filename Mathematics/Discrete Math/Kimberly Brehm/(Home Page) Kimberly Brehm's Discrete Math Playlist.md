@@ -15,7 +15,7 @@ Reviewed: false
 	- [[(5) Discrete Math - 1.2.2 Solving Logic Puzzles]]
 	- [[(6) Discrete Math - 1.2.3 Introduction to Logic Circuits]]
 	- [[(7) Discrete Math - 1.3.1 “Proving” Logical Equivalences with Truth Tables]]
-	- [[(8) Discrete Math - 1.3.2 Key Logical Equivalences Including De Morgan’s Laws]]
+	- [[(8) Discrete Math - 1.3.2 Key Logical Equivalences Including De Morgan's Laws]]
 	- [[(9) Discrete Math - 1.3.3 Constructing New Logical Equivalences]]
 	- [[(10) Discrete Math - 1.4.1 Predicate Logic]]
 	- [[(11) Discrete Math - 1.4.2 Quantifiers]]

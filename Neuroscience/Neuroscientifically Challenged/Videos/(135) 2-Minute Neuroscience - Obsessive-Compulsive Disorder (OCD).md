@@ -4,8 +4,8 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2024-12-27 at 12.08.31 AM.png]]
-	- [[Obsessive-compulsive disorder]], or OCD, is a condition characterized by obsessions and/or compulsions. Obsessions are recurrent unwanted thoughts, while compulsions are repetitive behaviors or mental acts often performed in response to obsessions, typically with the goal of reducing anxiety and discomfort. It’s important to note that OCD is often very distressing, and is not just a preference for orderliness, as the term is sometimes used to imply.
-	- The neuroscience of OCD is not completely understood, and it’s likely that different neural circuits may be involved based on a person’s age and symptom profile, among other factors. 
+	- [[Obsessive-compulsive disorder]], or OCD, is a condition characterized by obsessions and/or compulsions. Obsessions are recurrent unwanted thoughts, while compulsions are repetitive behaviors or mental acts often performed in response to obsessions, typically with the goal of reducing anxiety and discomfort. It's important to note that OCD is often very distressing, and is not just a preference for orderliness, as the term is sometimes used to imply.
+	- The neuroscience of OCD is not completely understood, and it's likely that different neural circuits may be involved based on a person's age and symptom profile, among other factors. 
 	- One supported perspective on the neuroscience of OCD, however, points to a prominent role for circuits that connect the orbitofrontal cortex with a group of structures called the basal ganglia. 
 	- According to this perspective, increased activity in the orbitofrontal cortex is associated with a heightened focus on concerns that spawn obsessive thoughts. When the orbitofrontal cortex is activated in response to something the brain perceives as a danger or concern, it communicates with the basal ganglia. 
 - ![[Screenshot 2024-12-27 at 12.09.41 AM.png]]

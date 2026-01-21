@@ -8,4 +8,4 @@ aliases:
 - Linear search is sometimes referred to as sequential search
 ## References
 
-[^1]: [[(1) Big O Part 1 – Linear Complexity]]
+[^1]: [[(1) Big O Part 1 - Linear Complexity]]

@@ -10,7 +10,7 @@ Reviewed: false
 - Complete
 - Incomplete
 	- [[(1) How do you find all SIX of the TRIG FUNCTIONS]]
-	- [[(2) How do you find the value of a trig function (or say it’s undefined).]]
+	- [[(2) How do you find the value of a trig function (or say it's undefined).]]
 	- [[(3) How do you prove that the trig equation is true.]]
 	- [[(4) How do you find the ANGLE OF ELEVATION. (How tall is the tree.)]]
 	- [[(5) How to use SUM-DIFFERENCE TRIG IDENTITIES]]

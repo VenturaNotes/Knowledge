@@ -79,5 +79,5 @@ END Procedure
 - pushup stack, pushup list. Other names for queue. See also STACK (def. 2).
 ## References
 
-[^1]: [[(2) Big O Part 2 – Constant Complexity]]
+[^1]: [[(2) Big O Part 2 - Constant Complexity]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]

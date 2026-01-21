@@ -8,7 +8,7 @@ aliases:
 - A unique numerical identifier assigned to each device on a network. Identifies the device's location in the network
 	- #question How is it a numerical identifier if IPv6 uses letters? 
 ### Details
-- A device's location in a network refers to the logical position of the device within the network's structure. It doesn’t necessarily mean the device’s physical location, but rather its placement within the network topology. 
+- A device's location in a network refers to the logical position of the device within the network's structure. It doesn't necessarily mean the device's physical location, but rather its placement within the network topology. 
 	- #question What does network topology mean?
 - In some cases with public IP addresses, geolocation services can estimate a device's physical location using databases that map IP addresses to regions, ISPs, or network nodes.
 	- #question Does it need to be a public IP address?

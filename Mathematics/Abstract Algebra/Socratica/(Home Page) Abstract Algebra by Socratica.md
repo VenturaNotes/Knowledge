@@ -14,7 +14,7 @@ Reviewed: false
 	- [[(4) Abstract Algebra -  Motivation for the definition of a group]]
 	- [[(5) Abstract Algebra - The definition of a Subgroup]]
 	- [[(6) Group Multiplication Tables  - Cayley Tables  (Abstract Algebra)]]
-	- [[(7) Cosets and Lagrange’s Theorem - The Size of Subgroups  (Abstract Algebra)]]
+	- [[(7) Cosets and Lagrange's Theorem - The Size of Subgroups  (Abstract Algebra)]]
 	- [[(8) Normal Subgroups and Quotient Groups (aka Factor Groups) - Abstract Algebra]]
 - Incomplete
 	- [[(9) Cyclic Groups  (Abstract Algebra)]]
@@ -22,7 +22,7 @@ Reviewed: false
 	- [[(11) Group Homomorphisms - Abstract Algebra]]
 	- [[(12) Homomorphisms  (Abstract Algebra)]]
 	- [[(13) Isomorphisms  (Abstract Algebra)]]
-	- [[(14) The Kernel of a Group Homomorphism – Abstract Algebra]]
+	- [[(14) The Kernel of a Group Homomorphism - Abstract Algebra]]
 	- [[(15) The Order of an Element  (Abstract Algebra)]]
 	- [[(16) Symmetric Groups (Abstract Algebra)]]
 	- [[(17) Cycle Notation of Permutations - Abstract Algebra]]

@@ -12,7 +12,7 @@
 	- #question are the sick days and PTO days separate? Would you be getting paid during the sick days?
 - Notice Requirements: Employees may be required to notify their manager or HR by a certain time (e.g., before the start of their shift or 24 hours in advance) when taking a day off.
 	- #question Does this apply to sick days or only when taking a day off?
-- Documentation: For extended sick leave (e.g., 3+ consecutive days), a doctor’s note may be required.
+- Documentation: For extended sick leave (e.g., 3+ consecutive days), a doctor's note may be required.
 	- #question Is this common in 2025?
 - Accrual vs. Lump Sum: Some companies allow time off to accrue over time (e.g., 1.25 days/month), while others provide the full allowance upfront each year.
 	- #question Are accrual and lump sum specific terms?

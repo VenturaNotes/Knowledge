@@ -2,7 +2,7 @@
 - 
 ## Source [^1]
 - A type of [[data validation]]
-- A type of logical check that confirms the data’s been entered in a logically consistent way. 
+- A type of logical check that confirms the data's been entered in a logically consistent way. 
 - Example 
 	- Checking if the delivery date is after the shipping date for a [[parcel]]
 ## References

@@ -55,7 +55,7 @@ Reviewed: false
 	- “Consider E = {1,{2,3},{2,4}}, which has three elements: the number 1, the set {2,3} and the set {2,4}. Thus 1 ∈ E and {2,3} ∈ E and {2,4 } ∈ E. But note that 2 ∉ E, 3 ∉ E and 4 ∉ E.” ([pdf](zotero://open-pdf/library/items/A2RTCHQH?page=16&annotation=LN79X93B))
 - A set can contain three two-by-two matrices
 	- ![[Pasted image 20230129225642.png]]
-	- “Letters can serve as symbols denoting a set’s elements:” ([pdf](zotero://open-pdf/library/items/A2RTCHQH?page=16&annotation=5M7LPJCE))
+	- “Letters can serve as symbols denoting a set's elements:” ([pdf](zotero://open-pdf/library/items/A2RTCHQH?page=16&annotation=5M7LPJCE))
 		- ![[Pasted image 20230129225738.png]]
 - “If X is a finite set, its [[Cardinality]] or size is the number of elements it has, and this number is denoted as |X|.” ([pdf](zotero://open-pdf/library/items/A2RTCHQH?page=16&annotation=PCPYPMH5))
 - [[Empty Set]]

@@ -9,7 +9,7 @@ tags:
 Reviewed: false
 ---
 ## (1) Introduction
-- “<mark style="background: #FFF3A3A6;">Computer science</mark> as an academic discipline <mark style="background: #FFF3A3A6;">began in the 1960’s</mark>.” ([Blum et al., p. 9](zotero://select/library/items/UFNIKXB5)) ([pdf](zotero://open-pdf/library/items/FCTDHIDM?page=9&annotation=GUACMP9Y))
+- “<mark style="background: #FFF3A3A6;">Computer science</mark> as an academic discipline <mark style="background: #FFF3A3A6;">began in the 1960's</mark>.” ([Blum et al., p. 9](zotero://select/library/items/UFNIKXB5)) ([pdf](zotero://open-pdf/library/items/FCTDHIDM?page=9&annotation=GUACMP9Y))
 - “Emphasis was on programming languages, [[Compilers|compilers]], [[Operating Systems|operating systems]], and the [[Mathematical Theory|mathematical theory]] that supported these areas.” ([Blum et al., p. 9](zotero://select/library/items/UFNIKXB5)) ([pdf](zotero://open-pdf/library/items/FCTDHIDM?page=9&annotation=RWFSNNBI))
 - “Courses in theoretical computer science covered [[- Topics/Finite Automata|finite automata]], [[Regular Expressions|regular expressions]], [[Context-Free Languages|context-free language]], and [[Computability|computability]].” ([Blum et al., p. 9](zotero://select/library/items/UFNIKXB5)) ([pdf](zotero://open-pdf/library/items/FCTDHIDM?page=9&annotation=KXL4UPAZ))
 - “[[Algorithm|algorithms]]” ([Blum et al., p. 9](zotero://select/library/items/UFNIKXB5)) ([pdf](zotero://open-pdf/library/items/FCTDHIDM?page=9&annotation=MI54IXP2))

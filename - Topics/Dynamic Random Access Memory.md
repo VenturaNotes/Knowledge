@@ -15,7 +15,7 @@ aliases:
 - However, capacitors are known to leak charge over time (milliseconds). Therefore, DRAM must periodically refresh the stored data by recharging the capacitors to their correct values
 	- #question Is the reason it leaks charge over time because it's made from capacitors instead of transistors? What is the difference between a capacitor and a transistor?
 	- This refresh process happens thousands of times per second.
-	- During a refresh, those memory cells can’t be read or written, because the system is busy recharging them
+	- During a refresh, those memory cells can't be read or written, because the system is busy recharging them
 		- #question How does that work? 
 		- #question What does a refresh look like? A visual aid would be greatly helpful
 	- #question How does DRAM know to charge capacitors to correct values? Where is that information stored? 

@@ -43,7 +43,7 @@ aliases:
 	- #question What does components per bit mean?
 	- #question How many more components are there on SRAM and DRAM
 	- #question What exactly is SRAM and DRAM? What do they do and how do they even work?
-- #comment By contrast, SRAM stores each bit using flip-flops (stable logic circuits made of transistors) that don’t lose their state as long as power is on
+- #comment By contrast, SRAM stores each bit using flip-flops (stable logic circuits made of transistors) that don't lose their state as long as power is on
 	- No refresh needed and it's always accessible
 	- #question Aren't logic circuits always stable?
 ## References

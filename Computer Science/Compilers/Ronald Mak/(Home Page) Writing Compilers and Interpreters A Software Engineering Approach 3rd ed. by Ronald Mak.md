@@ -21,7 +21,7 @@ Reviewed: false
 		- "allows a reverse engineer to execute a single instruction at a time before returning control to the debugger" [^1]
 - Add an IDE
 - “You'll learn to write a compiler that generates object code for the Java Virtual Machine (JVM).” ([Mak, 2009, p. 8](zotero://select/library/items/3RSRIJQI)) ([pdf](zotero://open-pdf/library/items/R2WDRE52?page=8&annotation=WQVSS4XX))
-	- “You’ll be able to run compiled programs on multiple platforms” ([Mak, 2009, p. 8](zotero://select/library/items/3RSRIJQI)) ([pdf](zotero://open-pdf/library/items/R2WDRE52?page=8&annotation=G7RYRK74))
+	- “You'll be able to run compiled programs on multiple platforms” ([Mak, 2009, p. 8](zotero://select/library/items/3RSRIJQI)) ([pdf](zotero://open-pdf/library/items/R2WDRE52?page=8&annotation=G7RYRK74))
 - Programming language will be Pascal
 	- “high-level procedure-oriented programming language” ([Mak, 2009, p. 8](zotero://select/library/items/3RSRIJQI)) ([pdf](zotero://open-pdf/library/items/R2WDRE52?page=8&annotation=JCWAA3UI))
 ### (0.2) A Software Engineering Approach

@@ -5,7 +5,7 @@ Reviewed: false
 ---
 - Image
 - Slide 1: The Dominant Term
-	- Let's review a mathematical principle. Mainly the concept of a [[dominant term]] in an expression
+	- Let's review a mathematical principle. Mainly the concept of a [[Dominant term]] in an expression
 	- An algorithm working on a data structure of size $n$ might take $5n^3 + n^2 + 4n + 3$ steps
 	- The larger n becomes, the less significant the smaller terms become, so we ignore everything except $5n^3$ 
 	- We can also ignore any constants, so the Big O time complexity of this algorithm is $O(n^3)$ 

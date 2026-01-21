@@ -13,10 +13,10 @@ Reviewed: false
 		- Common sense tells us that a program takes longer when there is more data to work on... But not necessarily
 			- True for linear search if the target value is at the end of the list and you double the data. Then it would cause you to search through twice as much data
 	- Big O Complexities
-		- [[Linear Search]]
+		- [[linear search]]
 		- [[Stack]]
-		- [[Bubble Sort]]
-		- [[Binary Search]]
+		- [[Bubble sort]]
+		- [[binary search]]
 		- [[Merge Sort]]
 	- Linear Search
 		- Sometimes referred to as a sequential search

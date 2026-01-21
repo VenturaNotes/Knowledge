@@ -248,7 +248,7 @@ Reviewed: false
 	- [[(237) Partition to K Equal Sum Subsets - Backtracking - Leetcode 698 - Python]]
 	- [[(238) Find All Anagrams in a String - Leetcode 438 - Python]]
 	- [[(239) Find the Index of the First Occurrence in a String - Leetcode 28 - Python]]
-	- [[(240) Knuth–Morris–Pratt KMP - Find the Index of the First Occurrence in a String - Leetcode 28 - Python]]
+	- [[(240) Knuth-Morris-Pratt KMP - Find the Index of the First Occurrence in a String - Leetcode 28 - Python]]
 	- [[(241) Recursion for Beginners - Fibonacci Numbers]]
 	- [[(242) Integer Break - Dynamic Programming - Leetcode 343 - Python]]
 	- [[(243) Matchsticks to Square - Leetcode 473 - Python]]

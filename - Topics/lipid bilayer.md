@@ -22,7 +22,7 @@
 		- Hydrophobic tail
 - Lipid bilayer
 ## Source[^3]
-- The arrangement of lipid molecules in biological membranes, which takes the form of a double sheet. Each lipid molecule comprises a hydrophilic ‘head’ (having a high affinity for water) and a hydrophobic ‘tail’ (having a low affinity for water). In the lipid bilayer the molecules are aligned so that their hydrophilic heads face outwards, forming the outer and inner surfaces of the membrane, while the hydrophobic tails face inwards, away from the external aqueous environment.
+- The arrangement of lipid molecules in biological membranes, which takes the form of a double sheet. Each lipid molecule comprises a hydrophilic 'head' (having a high affinity for water) and a hydrophobic 'tail' (having a low affinity for water). In the lipid bilayer the molecules are aligned so that their hydrophilic heads face outwards, forming the outer and inner surfaces of the membrane, while the hydrophobic tails face inwards, away from the external aqueous environment.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

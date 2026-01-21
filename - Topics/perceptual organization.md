@@ -41,7 +41,7 @@ These principles demonstrate that perception is not a passive reception of data 
 ## Source [^1]
 - The cues taken into account when perceptually organizing is
 	- depth, form, motion, and constancy
-		- #comment Constancy refers to the brain’s ability to perceive objects as stable and unchanging even when the sensory information about them changes — such as differences in lighting, distance, or angle.
+		- #comment Constancy refers to the brain's ability to perceive objects as stable and unchanging even when the sensory information about them changes — such as differences in lighting, distance, or angle.
 			- Helps us maintain a consistent view of the world despite variations in sensory input.
 		- #question What specifically is meant by form and constancy?
 	- #question Are these all the cues?

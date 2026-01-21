@@ -1,7 +1,7 @@
 ## Synthesis
 - 
 ## Source [^1]
-- The process of converting data into a token that represents but does not equal the original data. It’s often used in software development for data security, allowing sensitive information to be replaced with non-sensitive equivalents.
+- The process of converting data into a token that represents but does not equal the original data. It's often used in software development for data security, allowing sensitive information to be replaced with non-sensitive equivalents.
 	- #question What is a token
 	- #question How is tokenization used in data security
 	- #question What is data security

@@ -4,7 +4,7 @@
 	- #question Can you show me an example
 	- #question Can an A* algorithm be used without AI?
 ## Source[^1]
-- A member of the class of best-first heuristic search techniques that attempt to find a ‘best’ path from a given start node to a designated goal node in a problem graph. An evaluation function is used to estimate the cost of the (unknown) distance from the current node being explored to the goal and this is then added to the (known) cost of the shortest path from the start node to the current node to give a figure of merit for the current node. At each iteration the node with the best cost figure is used to pursue the search. The operation of the algorithm displays a behavior that is a mixture of depth-first and breadth-first search
+- A member of the class of best-first heuristic search techniques that attempt to find a 'best' path from a given start node to a designated goal node in a problem graph. An evaluation function is used to estimate the cost of the (unknown) distance from the current node being explored to the goal and this is then added to the (known) cost of the shortest path from the start node to the current node to give a figure of merit for the current node. At each iteration the node with the best cost figure is used to pursue the search. The operation of the algorithm displays a behavior that is a mixture of depth-first and breadth-first search
 ## Source[^2]
 - An algorithm that finds the shortest path between two nodes and uses a heuristic function to optimize performance.
 ## References

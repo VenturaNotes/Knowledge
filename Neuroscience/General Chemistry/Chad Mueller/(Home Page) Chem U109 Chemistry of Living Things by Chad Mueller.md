@@ -266,7 +266,7 @@ Reviewed: false
 - “Significant figures properly report the number of measured and estimated digits in a measurement.” ([Mueller, p. 21](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=25&annotation=SQCGP737))
 ### (1.6) The International System of Units
 #### Introduction
-- For measurements, branches of science use “[[International System of Units]] (also known as SI after Système Internationale d’Unités),” ([Mueller, p. 22](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=26&annotation=NMTFFF5R))
+- For measurements, branches of science use “[[International System of Units]] (also known as SI after Système Internationale d'Unités),” ([Mueller, p. 22](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=26&annotation=NMTFFF5R))
 #### Base SI Units
 - “[[Base units]] or basic units, are the fundamental units of SI.” ([Mueller, p. 22](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=26&annotation=BRUVKYI2))
 	- “There are seven base units, which are listed in Table , Chemistry uses five of the base units: the mole for amount, the kilogram for mass, the meter for length, the second for time, and the kelvin for temperature.” ([Mueller, p. 22](zotero://select/library/items/CF6XQDVJ)) ([pdf](zotero://open-pdf/library/items/X29KZPQK?page=26&annotation=PMQVXWCV))

@@ -47,7 +47,7 @@ END Procedure
 		- It doesn't matter if it's 500 minutes or 500 microseconds, what matters is that the time complexity is always the same 
 	- Slide 2: Stack Operations Complexity
 		- Increasing the amount of data makes no difference to the time taken by push or pop
-		- The Big O Time complexity is [[constant]]
+		- The Big O Time complexity is [[Constant]]
 			- In Big O notation, it's $O(1)$ 
 	- Slide 3
 		- The chart therefore describes constant time complexity

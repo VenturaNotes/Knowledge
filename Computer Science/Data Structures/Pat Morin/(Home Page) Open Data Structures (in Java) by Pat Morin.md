@@ -18,11 +18,11 @@ Reviewed: false
 
 ### Chapter 1
 - How [[data structures]] are used
-	- “<mark style="background: #FFF3A3A6;">Open a file</mark>: File system data structures are used to locate the parts of that file on disk so they can be retrieved. This isn’t easy; disks contain hundreds of millions of blocks.” ([Morin, p. 1](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=13&annotation=DAZFPTES))
+	- “<mark style="background: #FFF3A3A6;">Open a file</mark>: File system data structures are used to locate the parts of that file on disk so they can be retrieved. This isn't easy; disks contain hundreds of millions of blocks.” ([Morin, p. 1](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=13&annotation=DAZFPTES))
 	- “<mark style="background: #FFF3A3A6;">Look up a contact on your phone:</mark>” ([Morin, p. 1](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=13&annotation=ZBHCBIUD))
 		- “A data structure is used to look up a phone number in your contact list based on partial information even before you finish dialing/typing.” ([Morin, p. 1](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=13&annotation=HMQRAEEZ))
 	- “<mark style="background: #FFF3A3A6;">Log in to your favorite social network:</mark>” ([Morin, p. 1](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=13&annotation=Q6VD4FXJ)) ^pyv43d
-		- “The [[Network Servers|networks servers]] use your login information to look up your account information. This isn’t easy; the most popular social networks have hundreds of millions of active users.” ([Morin, p. 1](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=13&annotation=3Z7B4QU7))
+		- “The [[Network Servers|networks servers]] use your login information to look up your account information. This isn't easy; the most popular social networks have hundreds of millions of active users.” ([Morin, p. 1](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=13&annotation=3Z7B4QU7))
 	- <mark style="background: #FFF3A3A6;">Do a web search</mark>
 		- “The search engine uses data structures to find the web pages containing your search terms.” ([Morin, p. 1](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=13&annotation=5ET4BRTA))
 	- “<mark style="background: #FFF3A3A6;">Phone emergency services (9-1-1):</mark>” ([Morin, p. 2](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=14&annotation=G2QKCN3F))
@@ -77,7 +77,7 @@ Reviewed: false
 		- “add(x): add the value x to the Queue” ([Morin, p. 5](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=17&annotation=WH6T997F))
 		- “remove(): remove the next (previously added) value, y, from the Queue and return y” ([Morin, p. 5](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=17&annotation=4A4YH5UA))
 			- Takes no argument
-			- “The Queue’s [[Queueing Discipline|queueing discipline]] decides which element should be removed.” ([Morin, p. 5](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=17&annotation=NVLSHFEX))
+			- “The Queue's [[Queueing Discipline|queueing discipline]] decides which element should be removed.” ([Morin, p. 5](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=17&annotation=NVLSHFEX))
 				- “most common of which include [[First In First Out Queue|FIFO]], [[Priority Queue|priority]], and [[Last In First Out Queue|LIFO]].” ([Morin, p. 5](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=17&annotation=87AAXDUA)) ^4scvjk
 - ![[Screenshot 2023-06-03 at 5.58.37 PM.png]]
 	- FIFO (first-in-first-out) Queue
@@ -136,7 +136,7 @@ Reviewed: false
 			- “Find an element y in the set such that y equals x. Return y, or null if no such element exists.” ([Morin, p. 8](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=20&annotation=63FCU3WK))
 - Distinguishing x and y may be fussy
 	- “This is because x and y might actually be distinct objects that are nevertheless treated as equal.” ([Morin, p. 8](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=20&annotation=R6PJ89R6))
-		- “In Java, this is done by overriding the class’s equals(y) and hashCode() methods.” ([Morin, p. 8](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=20&annotation=P4FDMF8H))
+		- “In Java, this is done by overriding the class's equals(y) and hashCode() methods.” ([Morin, p. 8](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=20&annotation=P4FDMF8H))
 	- “Such a distinction is useful because it allows for the creation of [[dictionaries]] or [[maps]] that map keys onto values.” ([Morin, p. 8](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=20&annotation=Z4VCUZBC))
 - “To create a dictionary/map, one forms compound objects called [[pair|Pairs]], each of which contains a <mark style="background: #FFF3A3A6;">key</mark> and a <mark style="background: #FFF3A3A6;">value</mark>.” ([Morin, p. 8](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=20&annotation=ZTPMZGXN))
 	- “Two Pairs are treated as equal if their keys are equal.” ([Morin, p. 8](zotero://select/library/items/AZMT4QS6)) ([pdf](zotero://open-pdf/library/items/UCIXKDGW?page=20&annotation=RAQ6UD3H))

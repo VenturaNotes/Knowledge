@@ -12,7 +12,7 @@ Reviewed: false
 - Covers Rust 1.50
 
 ## Intro
-- “[[Systems programming]] provides the foundation for the world’s computation.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=2&annotation=K5RMN6CA))
+- “[[Systems programming]] provides the foundation for the world's computation.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=2&annotation=K5RMN6CA))
 	- #question What is meant by "world's computation?"
 	- #question What does systems programming mean exactly?
 - [[Rust]]
@@ -61,7 +61,7 @@ Reviewed: false
 - Book won't teach systems programming but will cover many details of [[memory management]]
 ### Who Should Read This Book?
 - Alternative to C++
-- “Build something you’ve never built before, something that takes advantage of Rust’s speed, concurrency, and safety.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=18&annotation=RPCF47EK))
+- “Build something you've never built before, something that takes advantage of Rust's speed, concurrency, and safety.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=18&annotation=RPCF47EK))
 
 ### Why We Wrote This Book
 - Minimize learning by trial and error
@@ -74,7 +74,7 @@ Reviewed: false
 - Supplemental material can be explored here
 	- https://github.com/ProgrammingRust
 	- #question should i explore this?
-- “Selling or distributing examples from O’Reilly books does require permission.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=20&annotation=4NZ74PQS))
+- “Selling or distributing examples from O'Reilly books does require permission.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=20&annotation=4NZ74PQS))
 - “We appreciate, but do not require, attribution.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=20&annotation=47TIXAXX))
 
 ## (1) Systems Programmers Can Have Nice Things
@@ -114,17 +114,17 @@ int main(int argc, char **argv){
 	- Inadvertent undefined behavior has been a major cause of security flaws
 - “So C and C++ put programmers in an awkward position: those languages are the industry standards for systems programming, but the demands they place on programmers all but guarantee a steady stream of crashes and security problems.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=3VZ64EHP))
 ### (1.1) Rust Shoulders the Load for You
-- “[[Stuxnet]], a computer worm found breaking into industrial control equipment in 2010, gained control of the victims’ computers using, among many other techniques, undefined behavior in code that parsed [[TrueType]] fonts embedded in word processing documents.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=3T2XK7IA))
+- “[[Stuxnet]], a computer worm found breaking into industrial control equipment in 2010, gained control of the victims' computers using, among many other techniques, undefined behavior in code that parsed [[TrueType]] fonts embedded in word processing documents.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=24&annotation=3T2XK7IA))
 	- “any software that might handle data from an untrusted source could be the target of an exploit.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=KBG4EW9Q))
 		- Not just operating systems and servers
-- “The [[Rust]] language makes you a simple promise: if your program passes the compiler’s checks, it is free of undefined behavior.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=YWQFAWPT))
+- “The [[Rust]] language makes you a simple promise: if your program passes the compiler's checks, it is free of undefined behavior.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=YWQFAWPT))
 	- “[[Dangling pointers]], [[double-frees]], and [[null pointer dereferences]] are all caught at compile time.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=TLFSQM5W))
 	- “[[Array references]] are secured with a mix of [[compile-time]] and [[run-time]] checks, so there are no [[buffer overruns]]” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=M8FK3PX8))
 		- “Rust equivalent of our unfortunate C program exits safely with an error message.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=RSGAQ36X))
 	- “Rust aims to be both safe and pleasant to use.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=NDDGSBUS))
-		- “stronger guarantees about your program’s behavior, Rust imposes more restrictions on your code than C and C++ do, and these restrictions take practice and experience to get used to.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=5KL7QMGE))
+		- “stronger guarantees about your program's behavior, Rust imposes more restrictions on your code than C and C++ do, and these restrictions take practice and experience to get used to.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=5KL7QMGE))
 		- “issues of memory management and pointer validity are taken care of.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=XZVKMT9A))
-		- “[[debugging]] is much simpler when the potential consequences of a bug don’t include corrupting unrelated parts of your program.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=IGBJQY4V))
+		- “[[debugging]] is much simpler when the potential consequences of a bug don't include corrupting unrelated parts of your program.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=IGBJQY4V))
 	- Still plenty of bugs that Rust cannot detect but undefined behavior is taken care of
 ### (1.2) Parallel Programming is Tamed
 - [[parallel programming]]
@@ -133,10 +133,10 @@ int main(int argc, char **argv){
 	- #question what is single-threaded code?
 - [[parallelism]] really important to modern machines that it shouldn't be treated as a last resort
 - “same restrictions that ensure memory safety in Rust also ensure that Rust programs are free of [[data races]].” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=U5KNYFZE))
-	- “can share data freely between [[Thread|threads]], as long as it isn’t changing.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=K723ZHI4))
+	- “can share data freely between [[Thread|threads]], as long as it isn't changing.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=K723ZHI4))
 	- “[[Data]] that does change can only be accessed using synchronization primitives.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=DY9RBTCI))
 		- #question what is synchronization primitives?
-- “All the traditional concurrency tools are available: [[mutexes]], [[condition variables]], [[channels]], [[atomics]], and so on. Rust simply checks that you’re using them properly.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=53DFFBI6))
+- “All the traditional concurrency tools are available: [[mutexes]], [[condition variables]], [[channels]], [[atomics]], and so on. Rust simply checks that you're using them properly.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=53DFFBI6))
 	- “This makes Rust an excellent language for exploiting the abilities of modern multicore machines.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=SZ4AARC6))
 		- #question what is a multicore machine?
 		- “Rust ecosystem offers libraries that go beyond the usual concurrency primitives and help you distribute complex loads evenly across pools of processors, use lock-free synchronization mechanisms like Read-Copy-Update, and more.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=25&annotation=RW9NSFXK))
@@ -148,44 +148,44 @@ int main(int argc, char **argv){
 ### (1.3) And Yet Rust is Still Fast
 - “Rust shares the ambitions [[Bjarne Stroustrup]] articulates for C++ in his paper “Abstraction and the C++ Machine Model”:” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=64I7DZ7E))
 	- #resource I wonder what is in his paper
-	- “In general, C++ implementations obey the[[zero-overhead principle]]: What you don’t use, you don’t pay for. And further: What you do use, you couldn’t hand code any better.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=E5RSAW9W))
+	- “In general, C++ implementations obey the[[zero-overhead principle]]: What you don't use, you don't pay for. And further: What you do use, you couldn't hand code any better.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=E5RSAW9W))
 		- #question How can we be so sure that we can't hand code any better
 		- #question What is meant by hand coding
 - “[[Systems programming]] is often concerned with pushing the machine to its limits.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=XSE7KUPW))
 	- For video games, machine should devote itself to creating best experience for player
 	- For web browsers, efficiency of browser sets the ceiling on what content authors can do
 		- #question what is a content author 
-	- “Within the machine’s inherent limitations, as much [[memory]] and [[processor]] attention as possible must be left to the content itself.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=XR44BJMV))
-	- “same principle applies to [[operating systems]]: the [[kernels|kernel]] should make the machine’s resources available to user programs, not consume them itself.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=PCEQ25SZ))
+	- “Within the machine's inherent limitations, as much [[memory]] and [[processor]] attention as possible must be left to the content itself.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=XR44BJMV))
+	- “same principle applies to [[operating systems]]: the [[kernels|kernel]] should make the machine's resources available to user programs, not consume them itself.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=PCEQ25SZ))
 		- #question give examples of user programs
 - “One can write slow code in any general-purpose language.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=BMMJLUYA))
 	- #question what is a general-purpose language? 
 - Rust is considered fast because if you make the best use of the underlying machines' capabilities, Rust supports you in that effort.
 	- #question how though?
-	- “The language is designed with efficient defaults and gives you the ability to control how memory gets used and how the processor’s attention is spent.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=UAQHZ5UH))
+	- “The language is designed with efficient defaults and gives you the ability to control how memory gets used and how the processor's attention is spent.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=UAQHZ5UH))
 		- #question give examples of efficient defaults
 		- #question what is the best way to control memory in rust?
 		- #question How can you manipulate the processor
 			- #question what does a processor even look like? 
 ### (1.4) Rust Makes Collaboration Easier
 - Rust has support for code sharing and reuse
-- “Rust’s package manager and build tool, [[Cargo]], makes it easy to use libraries published by others on Rust’s public package repository, the [[crates.io]] website.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=S2EH9VD9))
+- “Rust's package manager and build tool, [[Cargo]], makes it easy to use libraries published by others on Rust's public package repository, the [[crates.io]] website.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=S2EH9VD9))
 	- #resource Website might be helpful
-	- “You simply add the library’s name and required version number to a file, and Cargo takes care of downloading the library, together with whatever other libraries it uses in turn, and linking the whole lot together.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=LX6MAB8A))
-- “You can think of Cargo as Rust’s answer to [[NPM]] or [[RubyGems]], with an emphasis on sound version management and reproducible builds.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=36CLEZCS))
+	- “You simply add the library's name and required version number to a file, and Cargo takes care of downloading the library, together with whatever other libraries it uses in turn, and linking the whole lot together.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=LX6MAB8A))
+- “You can think of Cargo as Rust's answer to [[NPM]] or [[RubyGems]], with an emphasis on sound version management and reproducible builds.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=36CLEZCS))
 - Rust libraries can provide
 	- serialization
 	- HTTP clients and servers
 	- Modern graphics APIs
 - Language designed to support collaboration
-	- “[[Rust]]’s [[Traits]] and [[Generic|generics]] let you create libraries with flexible interfaces so that they can serve in many different contexts.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=TMMPSBQS))
-- “Rust’s standard library provides a core set of fundamental types that establish shared conventions for common cases, making different libraries easier to use together.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=QFV7VCSD))
+	- “[[Rust]]'s [[Traits]] and [[Generic|generics]] let you create libraries with flexible interfaces so that they can serve in many different contexts.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=TMMPSBQS))
+- “Rust's standard library provides a core set of fundamental types that establish shared conventions for common cases, making different libraries easier to use together.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=26&annotation=QFV7VCSD))
 	- #question more details about rust's standard library
 ## (2) A Tour of Rust
 - Benefits of rust
 	- Safe, performant systems programming
 - A simple calculation on its command-line arguments with unit tests shows Rust's core types and introduces [[Traits]]
-- “[[Rust]]’s promise to prevent undefined behavior with minimal impact on performance influences the design of every part of the system, from the standard data structures like vectors and strings to the way Rust programs use third-party libraries.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=27&annotation=J2JAXJC4))
+- “[[Rust]]'s promise to prevent undefined behavior with minimal impact on performance influences the design of every part of the system, from the standard data structures like vectors and strings to the way Rust programs use third-party libraries.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=27&annotation=J2JAXJC4))
 ### (2.1) rustup and Cargo
 - Best way to install Rust is to use [[rustup]]
 	- Tool used for managing Rust installations like [[RVM]] for [[Ruby]] or [[NVM]] for [[Node]]
@@ -199,9 +199,9 @@ int main(int argc, char **argv){
 			- #question I need examples
 		- “Cargo can create a new Rust package for us, with some standard metadata arranged appropriately:” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=28&annotation=3NCCVTYK))
 	- `rustc --version`
-		- [[rustc]] “is the Rust compiler. Usually we let Cargo invoke the compiler for us, but sometimes it’s useful to run it directly.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=28&annotation=9CHFI58I))
+		- [[rustc]] “is the Rust compiler. Usually we let Cargo invoke the compiler for us, but sometimes it's useful to run it directly.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=28&annotation=9CHFI58I))
 	- `rustdoc --version`
-		- “[[rustdoc]] is the Rust documentation tool. If you write documentation in comments of the appropriate form in your program’s source code, rustdoc can build nicely formatted HTML from them. Like rustc, we usually let Cargo run rustdoc for us.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=28&annotation=W3LYJKNI))
+		- “[[rustdoc]] is the Rust documentation tool. If you write documentation in comments of the appropriate form in your program's source code, rustdoc can build nicely formatted HTML from them. Like rustc, we usually let Cargo run rustdoc for us.” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=28&annotation=W3LYJKNI))
 - Example
 	- `$ cargo new hello`
 		- Creates a new package directory named `hello`, ready to build a command-line executable
@@ -289,7 +289,7 @@ fn gcd(mut n: u64, mut m: u64) -> u64 {
 	- Rust only infers types within function bodies: you must write out the types of function parameters and return values as before.
 	- To spell out t's type, it'd be `let t: u64 = m`
 - Rust has a [[return (rust)|return]] statement, but the gcd function doesn't need one. 
-	- “If a function body ends with an expression that is not followed by a semicolon, that’s the function’s return value” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=32&annotation=PDAAJ8VN))
+	- “If a function body ends with an expression that is not followed by a semicolon, that's the function's return value” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=32&annotation=PDAAJ8VN))
 	- “any block surrounded by curly braces can function as an [[expression (rust)|expression]].” ([pdf](zotero://open-pdf/library/items/AJNCXBFI?page=32&annotation=TYX9CQYP))
 		- #question what is the difference between functions and expressions in rust?
 - Expression that prints a message and yields `x.cos()` as its value
