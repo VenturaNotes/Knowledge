@@ -1,4 +1,10 @@
+---
+tags:
+  - in-progress
+---
 ## Synthesis
+- Everything in python is an object. 
+	- Numbers, strings, lists, functions, classes, modules
 - One of the reasons that `python2` is not compatible with `python3` is because
 	- `print` became a function, not a statement
 		- In Python2: `print "Hello"`

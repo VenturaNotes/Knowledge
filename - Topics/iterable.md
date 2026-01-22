@@ -1,5 +1,5 @@
 ## Synthesis
-- An iterable is an object capable of returning its elements one by one, allowing sequential access or looping
+- An object capable of returning its elements one by one, allowing sequential access or looping
 - Examples include
 	- Lists
 	- Tuples

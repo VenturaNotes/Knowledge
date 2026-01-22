@@ -8,8 +8,7 @@ aliases:
 - (1) Since it's immutable:
 	- Data integrity
 	- Thread Safety
-		- Eliminating certain types of concurrency bugs
-			- #question What are concurrency bugs?
+		- Eliminating certain types of [[concurrency bugs]]
 	- Predictability
 - (2) Hashable as long as the elements are hashable
 	- Can use tuples as keys in dictionaries or elements in sets
@@ -26,7 +25,6 @@ aliases:
 	- #question What is meant by this? Example please
 - Functionally
 	- Similar to a precise recipe: the exact order and number of ingredients matter
-
 ### Examples
 ```python
 # Creating tuple with multiple elements

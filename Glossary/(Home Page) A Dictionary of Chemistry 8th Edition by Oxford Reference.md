@@ -2824,11 +2824,11 @@ Reviewed: false
 	2798. Kolbe's method
 	2799. [[Koopmans' theorem]]
 	2800. Kovar
-	2801. Kramers' reaction rate theory
+	2801. [[Kramers' reaction rate theory]]
 	2802. Kramers theorem
 	2803. Krebs, Sir Hans Adolf (1900-81)
 	2804. Krebs cycle
-	2805. Kroll process
+	2805. [[Kroll process]]
 	2806. krypton
 	2807. Kupfer nickel
 	2808. kurchatovium
@@ -2847,7 +2847,7 @@ Reviewed: false
 	2821. lactose
 	2822. Ladenburg benzene
 	2823. laevo form
-	2824. laevorotatory
+	2824. [[levorotatory]]
 	2825. laevulose
 	2826. Lagrange multipliers
 	2827. Lagrangian
