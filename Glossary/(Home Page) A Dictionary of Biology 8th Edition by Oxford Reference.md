@@ -3684,7 +3684,7 @@ Reviewed: false
 		1. See prolactin
 	3034. [[lactose]]
 	3035. [[lacuna]]
-	3036. [[laevorotatory]]
+	3036. [[levorotatory]]
 	3037. laevulose
 		1. See fructose
 	3038. lagging strand

@@ -2,9 +2,11 @@
 aliases:
   - string
   - strings
+tags:
+  - in-progress
 ---
 ## Synthesis
-
+- Strings are both types and objects (depending on how they're referred to)
 ### Add / Append / Concatenation
 ```python
 test = "hello"
