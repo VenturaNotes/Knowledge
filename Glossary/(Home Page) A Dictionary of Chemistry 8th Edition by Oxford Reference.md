@@ -2845,7 +2845,7 @@ Reviewed: false
 	2819. lactims
 	2820. lactones
 	2821. lactose
-	2822. Ladenburg benzene
+	2822. [[Ladenburg benzene]]
 	2823. laevo form
 	2824. [[levorotatory]]
 	2825. laevulose
@@ -2889,7 +2889,7 @@ Reviewed: false
 	2863. lattice vibrations
 	2864. laughing gas
 	2865. lauric acid
-	2866. Laves phase
+	2866. [[Laves phase]]
 	2867. Lavoisier, Antoine Laurent (1743-1794)
 	2868. law of chemical equilibrium
 	2869. law of conservation of energy
@@ -2921,7 +2921,7 @@ Reviewed: false
 	2895. lead(IV) oxide
 	2896. lead(IV) tetraethyl
 	2897. lead-acid accumulator
-	2898. lead-chamber process
+	2898. [[lead-chamber process]]
 	2899. lead dioxide
 	2900. lead monoxide
 	2901. lead tetra-acetate
