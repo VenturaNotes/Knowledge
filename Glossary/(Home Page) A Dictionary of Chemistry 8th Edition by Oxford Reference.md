@@ -2967,7 +2967,7 @@ Reviewed: false
 	2941. linolenic acid
 	2942. linseed oil
 	2943. Linz-Donawitz process
-	2944. lipase
+	2944. [[lipase]]
 	2945. lipid
 	2946. [[lipid bilayer]]
 	2947. lipoic acid
@@ -2980,7 +2980,7 @@ Reviewed: false
 	2954. liquefied petroleum gas
 	2955. liquid
 	2956. liquid-crystal polymer
-	2957. liquid crystal
+	2957. [[liquid crystal]]
 	2958. [[liquid metal]]
 	2959. liquidus
 	2960. litharge
@@ -3001,7 +3001,7 @@ Reviewed: false
 	2975. livermorium
 	2976. lixiviation
 	2977. LNG
-	2978. localization
+	2978. [[localization]]
 	2979. localized bond
 	2980. localized states
 	2981. lock-and-key mechanism
