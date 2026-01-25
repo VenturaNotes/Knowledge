@@ -2,8 +2,6 @@
 Source:
   - https://www.youtube.com/watch?v=k0f7w4xTp1I
 Reviewed: false
-tags:
-  - in-progress
 ---
 - ![[Screenshot 2026-01-13 at 1.16.15 AM.png]]
 	- [[Proof by exhaustion]] problems

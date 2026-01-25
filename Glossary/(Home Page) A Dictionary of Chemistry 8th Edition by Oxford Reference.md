@@ -3014,7 +3014,7 @@ Reviewed: false
 	2988. Lorentz-Lorenz equation
 	2989. Loschmidt's constant
 	2990. Lotka-Volterra mechanism
-	2991. low-dimensional solid
+	2991. [[low-dimensional solid]]
 	2992. low-energy electron diffraction
 	2993. lowering of vapor pressure
 	2994. lowest unoccupied molecular orbital
@@ -3035,14 +3035,14 @@ Reviewed: false
 	3009. lyonium ion
 	3010. lyophilic
 	3011. lyophobic
-	3012. lyotropic mesomorph
+	3012. [[lyotropic mesomorph]]
 	3013. lysergic acid diethylamide
 	3014. lysine
 	3015. lysozyme
 	3016. m.k.s. units
 	3017. m.p.
 	3018. macromolecular coordination chemistry
-	3019. macromolecular crystal
+	3019. [[macromolecular crystal]]
 	3020. macromolecule
 	3021. macroscopic
 	3022. MAD

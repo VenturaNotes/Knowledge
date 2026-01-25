@@ -5,6 +5,7 @@ tags:
   - in-progress
 ---
 ## Synthesis
+
 ### Recursive Approach to Finding all Subsets
 ```python
 def get_subsets_recursive(nums):
@@ -29,13 +30,15 @@ def get_subsets_recursive(nums):
     backtrack(0)
     return subsets
 ```
-- #question What does it mean to return nothing within a method? 
+- #question What does it mean to return nothing within a method? Is that different than continue? 
 #### Dry Run
 ```python
 my_set = [2, 5, 6]
 all_subsets = get_subsets_recursive(my_set)
 print(all_subsets)
 ```
+- Answer = $2^3$ = 8
+	- All Subsets: `[], [2], [5], [6], [2, 5], [2,6], [5,6] [2, 5, 6]`
 - Output Flow:
 	- 
 ## Source[^1]
