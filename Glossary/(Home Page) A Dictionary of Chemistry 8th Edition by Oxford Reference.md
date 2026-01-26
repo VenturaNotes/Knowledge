@@ -3105,7 +3105,7 @@ Reviewed: false
 	3079. Marquis test
 	3080. [[Marsh's test]]
 	3081. marsh gas
-	3082. martensite
+	3082. [[martensite]]
 	3083. mascagnite
 	3084. maser
 	3085. mass
@@ -3131,7 +3131,7 @@ Reviewed: false
 	3105. mean field theory
 	3106. mean free path
 	3107. mean free time
-	3108. mechanical bonding
+	3108. [[mechanical bonding]]
 	3109. mechanism
 	3110. Mecke's test
 	3111. medium frequency
@@ -3182,7 +3182,7 @@ Reviewed: false
 	3156. metallography
 	3157. metalloid
 	3158. [[metallurgy]]
-	3159. metamict state
+	3159. [[metamict state]]
 	3160. metaphosphoric acid
 	3161. metaplumbate
 	3162. [[metastable state]]

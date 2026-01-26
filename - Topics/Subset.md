@@ -34,13 +34,21 @@ def get_subsets_recursive(nums):
 #### Dry Run
 ```python
 my_set = [2, 5, 6]
-all_subsets = get_subsets_recursive(my_set)
-print(all_subsets)
+print(get_subsets_recursive(my_set))
 ```
 - Answer = $2^3$ = 8
 	- All Subsets: `[], [2], [5], [6], [2, 5], [2,6], [5,6] [2, 5, 6]`
-- Output Flow:
-	- 
+
+| Cycles                         | 1st Cycle                             | 2nd Cycle                            | 3rd Cycle                               | 4th Cycle                                           | 5th Cycle                       |
+| ------------------------------ | ------------------------------------- | ------------------------------------ | --------------------------------------- | --------------------------------------------------- | ------------------------------- |
+| Initial                        | `index = 0` and `current_subset = []` | `index = 1 and current_subset = [2]` | `index = 2 and current_subset = [2, 5]` | `index = 3 and current_subset = [2, 5, 6]`          | `index = 3 and current_subset = |
+| `index == len(nums)`           | `0 != 3` (skipped)                    | 1 != 3 (skipped)                     | 2 != 3 (skipped)                        | 3 == 3<br>Append `[2, 5, 6]` to subsets and DONE 🟢 |                                 |
+| `current_subset` after adding  | `[2]`                                 | `[2, 5]`                             | `[2,5,6]`                               |                                                     |                                 |
+| 1st Backtrack                  | Go to 2nd                             | Go to 3rd                            | Go to 4th                               |                                                     |                                 |
+| `current_subset` after popping |                                       |                                      | `[2, 5]`                                |                                                     |                                 |
+| 2nd Backtrack                  |                                       |                                      | Go to 5th                               |                                                     |                                 |
+- #question Do you have to do `list()` to make a copy? 
+- #question Does return and break do the same thing in the code? 
 ## Source[^1]
 - You can have a [[Proper Subset]] and an [[Improper Subset]]
 - Given an improper subset A $\subseteq$ B
