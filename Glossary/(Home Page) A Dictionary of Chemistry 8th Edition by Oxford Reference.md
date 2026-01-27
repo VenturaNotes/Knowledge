@@ -725,7 +725,7 @@ Reviewed: false
 	701. Bragg peak
 	702. branched chain
 	703. brass
-	704. Bravais lattice
+	704. [[Bravais lattice]]
 	705. Bredt's rule
 	706. Bremsstrahlung
 	707. brewing
@@ -785,7 +785,7 @@ Reviewed: false
 	761. butyl rubber
 	762. butyraldehyde
 	763. butyric acid
-	764. by-product
+	764. [[by-product]]
 	765. BZ
 	766. c.c.p.
 	767. c.g.s. units
@@ -798,7 +798,7 @@ Reviewed: false
 	774. caesium clock
 	775. caffeine
 	776. cage compound
-	777. cage effect
+	777. [[cage effect]]
 	778. Cahn-Ingold-Prelog system
 	779. calamine
 	780. calcination

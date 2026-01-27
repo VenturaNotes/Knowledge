@@ -31,6 +31,7 @@ completedDate: 2025-12-27
 - It supports nested tag structure
 - It has a calendar view
 - You can add subtasks to the dataview
+- Lets you filter a whitelist folder to index so your vault doesn’t slow down too much
 ### Downsides
 - When using the calendar view (which I could view in bases), when clicking left or right for viewing the different months, the dates unfortunately don't change
 - There is no live tracker for the current time in "week" view 
