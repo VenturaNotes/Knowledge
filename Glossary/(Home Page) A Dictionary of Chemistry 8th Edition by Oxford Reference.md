@@ -1720,7 +1720,7 @@ Reviewed: false
 	1696. Ehrenfest classification
 	1697. Ehrlich's reagent
 	1698. EI
-	1699. eigenfunction
+	1699. [[eigenfunction]]
 	1700. eigenvalues
 	1701. Einstein, Albert (1879-1955)
 	1702. Einstein-Smoluchowski equation
@@ -1742,7 +1742,7 @@ Reviewed: false
 	1718. electrochemistry
 	1719. electrochromatography
 	1720. electrocyclic reaction
-	1721. electrode
+	1721. [[electrode]]
 	1722. electrodeposition
 	1723. electrode potential
 	1724. [[electrodialysis]]
@@ -1756,7 +1756,7 @@ Reviewed: false
 	1732. electrolytic corrosion
 	1733. electrolytic gas
 	1734. electrolytic refining
-	1735. electrolytic separation
+	1735. [[electrolytic separation]]
 	1736. electromagnetic radiation
 	1737. electromagnetic spectrum
 	1738. electromeric effect
