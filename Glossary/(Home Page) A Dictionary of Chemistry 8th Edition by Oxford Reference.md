@@ -1755,7 +1755,7 @@ Reviewed: false
 	1731. electrolytic cell
 	1732. electrolytic corrosion
 	1733. electrolytic gas
-	1734. electrolytic refining
+	1734. [[electrolytic refining]]
 	1735. [[electrolytic separation]]
 	1736. electromagnetic radiation
 	1737. electromagnetic spectrum
@@ -1769,13 +1769,13 @@ Reviewed: false
 	1745. electron-rich compound
 	1746. electron-spin resonance
 	1747. electron-transfer reaction
-	1748. electron affinity
+	1748. [[electron affinity]]
 	1749. electron bombardment ionization
 	1750. electron capture
 	1751. electron capture detector
 	1752. electron concentration
 	1753. electron configuration
-	1754. electron counting rules
+	1754. [[electron counting rules]]
 	1755. electron diffraction
 	1756. electronegative
 	1757. electron energy loss spectroscopy
