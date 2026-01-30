@@ -1,0 +1,142 @@
+## Synthesis
+- 
+## Source [^1]
+- Has Autonomous sourcing which finds data for you
+- Has validation methods that ensure your research is reliable
+- Has generative workflows that turn data into slide decks and infographics 
+- Notebooks created should be topic specific. 
+	- Should not have one that's "research" or "general notes"
+	- This is because NotebookLM performs better when sources are related and focused on a single topic
+- When uploading files to a Notebook, it supports PDFs, YouTube videos, websites, google docs, audio files, and plain text
+	- Great to mix these formats to cover topics from multiple angles
+	- NotebookLM can pull transcripts from a YouTube video
+	- Multi-format approach great because different formats offer different value
+		- Academic Paper: Rigor
+		- Videos: Accessible explanations
+		- Blog Post: Industry Context
+		- Podcast: Conversational insights
+- It has "Deep Research" or "Fast Research" for an in-depth report and new sources.
+	- Will launch an agentic AI tool that autonomously researches your topic
+		- Analyzes topic
+		- Finds sources
+		- Evaluates them
+		- Adapts its search
+		- Gives comprehensive report
+	- "Deep research" will discover 50 sources related to your topic
+		- Gives both curated research report and high-quality sources already loaded and ready to work with
+	- There is a button to remove all failed resources.
+	- NotebookLM good at reducing hallucinations (as it grounds everything in sources)
+		- But NotebookLM can still give answers based on flawed information without distinguishing between them if sources are
+			- Outdated
+			- Biased
+			- Mixed Content
+				- #question Why would a source be bad if it's mixed content? Like if you're researching one thing but contains information that's not relevant to your topic?
+	- Validation Framework to fix this:
+		- (1) Ask it to create a table showing each source with its publication date, author credentials, and whether its primary source, secondary analysis, or opinion piece
+			- #comment Although you probably could just specify types of sources you want before deep research is even done.
+		- Good sources are from
+			- Academic papers
+			- Industry reports
+			- Technical documentation
+		- (2) Then ask which sources are most frequently cited or referenced by other sources in this notebook
+			- Helps find sources foundational to topic vs which ones are peripheral
+		- (3) Then ask to summarize perspective or bias of the top five most substantial sources
+			- Will help to see if you're looking at the topic from multiple angles or if all the sources are sharing the same viewpoint
+			- Controversial or evolving topics
+				- Diverse perspectives needed
+			-  Technical documentation
+				- Perspective matters less
+- Setting Configuration
+	- Default (general research)
+	- Learning Guide (educational content)
+	- Custom (Specific use-cases)
+		- If about AI could prompt: Research analyst focused on AI safety and alignment debates.
+	- Response length is either default, longer or shorter
+		- "Longer" preferred for more detailed analysis
+- NotebookLM only synthesizes documents that are check marked in the sidebar
+- Studio Panel Options
+	- #comment Note that generation of the content below can take some time and might not be good first time around.
+	- #question What is the limit of these features for the free version in NotebookLM?
+	- Audio Overview
+		- Address what to focus on, what tone to use, and length of overview
+		- Can ask for length within prompt to be under 15 minutes for example
+		- Good idea to modify and regenerate several times to get the info you need
+	- Infographic (powered by Nano Banana Pro which is Google's image generation model)
+		- "Standard" is best for level of detail.
+			- "Detailed" can introduce minor text errors with complex topics
+			- "Concise" sometimes oversimplifies
+		- Types of designs
+			- Talking Charts
+			- Diagrams
+			- Text Hierarchies
+			- Visual Layouts
+		- Quality of infographic
+			- Publication-ready quality
+			- Minor spelling errors in detailed mode
+			- Consistent accuracy in standard mode
+		- Example produced:
+			- ![[Screenshot 2026-01-29 at 9.43.32 AM.png|400]]
+	- Slide Deck (Creating a presentation deck)
+		- Presenter slides better since it's more visual and text minimal
+	- Video Overview
+		- Narrated explainer video with AI-generated visuals based on your sources
+			- Explainer option connects content within sources
+			- Brief option gives core idea from sources
+		- Custom Style Example
+			- Clean, modern design with blue and white color scheme. Minimalist graphics and professional typography
+		- Great for
+			- Educational Content
+			- Presentation Materials
+			- Shareable Research Explanations
+	- Reports
+		- Options include 
+			- Create your own
+				- Follows your specific structure such as comparisons and methodology
+			- Briefing doc
+				- Creates a clean professionally structured document summarizing key findings from all sources
+				- Could use as foundation for reports or presentations
+			- Study Guide
+			- Blog Post
+	- Flashcards
+		- Generates quick Q&A pairs for memorization
+	- Quiz
+		- Full interactive test (based on specific data uploaded)
+	- Mind Map
+		- Interactive diagram showing how the key concepts actually connect to your sources
+			- Can click on one to generate a detailed chat response about specific idea
+			- Great for visual learners as it helps you spot connections between files that you would miss by reading linearly
+- NotebookLM great because it can do the below all for you
+	- Read through sources
+	- Extract key points
+	- Design slides
+	- Find/Create visuals
+	- Structure the narrative
+- When asking about sources
+	- Citations are listed which highlights the exact passage in the original document letting you verify the accuracy of the text instantly
+- Summary
+	- Deep Research
+	- Source Validation
+	- Notebook Setup
+	- Source Filtering
+	- AI Outputs
+	- Mind Maps
+	- Living System
+- Complete workflow from source discover though
+	- Validation
+	- Configuration
+	- Content Generation
+	- Organization
+## Source[^2]
+- In Studio column, you have "Quiz" option
+	- Options
+		- Number of questions
+		- Level of difficulty
+		- Custom prompt for what topic should be
+			- And as with all the artifacts you can create in the studio, you can actually input your own suggestions for what you want to focus on
+	- Can take a few minutes to generate the quiz
+		- When done, (for default modes with custom prompt), it creates 9 multiple-choice questions
+			- Includes hint and then explanation after choosing an answer
+## References
+
+[^1]: [How to Use Notebooklm Better than 99% of People](https://www.youtube.com/watch?v=SogSf-1p9t4) #noted
+[^2]: [Instantly Reinforce Learning: Generate Quizzes in NotebookLM](https://www.youtube.com/watch?v=F0nTWSqnVOc) #noted

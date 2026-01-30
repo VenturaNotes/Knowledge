@@ -1733,13 +1733,13 @@ Reviewed: false
 	1709. elastin
 	1710. elastomer
 	1711. electret
-	1712. electric-arc furnace
+	1712. [[electric-arc furnace]]
 	1713. [[electrical double layer]]
 	1714. electrochemical cell
 	1715. electrochemical equivalent
 	1716. electrochemical impedance spectroscopy
 	1717. electrochemical series
-	1718. electrochemistry
+	1718. [[electrochemistry]]
 	1719. electrochromatography
 	1720. electrocyclic reaction
 	1721. [[electrode]]
@@ -1764,7 +1764,7 @@ Reviewed: false
 	1740. electromotive force
 	1741. electromotive series
 	1742. electron
-	1743. electron-deficient compound
+	1743. [[electron-deficient compound]]
 	1744. electron-nuclear double resonance
 	1745. electron-rich compound
 	1746. electron-spin resonance
