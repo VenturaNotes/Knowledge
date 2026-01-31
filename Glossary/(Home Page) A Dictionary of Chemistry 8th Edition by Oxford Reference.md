@@ -1771,7 +1771,7 @@ Reviewed: false
 	1747. electron-transfer reaction
 	1748. [[electron affinity]]
 	1749. electron bombardment ionization
-	1750. electron capture
+	1750. [[electron capture]]
 	1751. electron capture detector
 	1752. electron concentration
 	1753. electron configuration
@@ -1782,7 +1782,7 @@ Reviewed: false
 	1758. [[electron flow]]
 	1759. [[electron gas]]
 	1760. [[electronic effects]]
-	1761. electronic spectra of molecules
+	1761. [[electronic spectra of molecules]]
 	1762. electron ionization
 	1763. electron microscope
 	1764. electron paramagnetic resonance
@@ -1794,7 +1794,7 @@ Reviewed: false
 	1770. [[electroosmosis]]
 	1771. electroosmotic mobility
 	1772. electropherogram
-	1773. electrophile
+	1773. [[electrophile]]
 	1774. electrophilic addition
 	1775. [[electrophilic substitution]]
 	1776. [[electrophoresis]]

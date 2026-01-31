@@ -3234,6 +3234,8 @@ function calculateCurrentDuration() {
 - Removed extra statistics
 - Added Reward base (for "Main" page)
 - Added Time Estimate base (for "Main" page)
+- Latest Complex Version
+	- Future ones will be simplified (removing "Main" requirements and modifying sheet)
 ## Version 1
 ### Attempt #1
 #### Sidebar.html
