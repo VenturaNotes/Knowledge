@@ -1932,7 +1932,7 @@ Reviewed: false
 	1908. ethyl group
 	1909. ethyl iodide
 	1910. ethyne
-	1911. eudiometer
+	1911. [[eudiometer]]
 	1912. europium
 	1913. eutectic mixture
 	1914. Evans balance
@@ -1990,9 +1990,9 @@ Reviewed: false
 	1966. femto-
 	1967. femtochemistry
 	1968. fentanyl
-	1969. Fenton's reagent
+	1969. [[Fenton's reagent]]
 	1970. [[fermentation]]
-	1971. fermi
+	1971. [[fermi]]
 	1972. Fermi-Dirac statistics
 	1973. Fermi level
 	1974. fermion
