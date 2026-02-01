@@ -1788,14 +1788,14 @@ Reviewed: false
 	1764. electron paramagnetic resonance
 	1765. electron probe microanalysis
 	1766. 18-electron rule
-	1767. electron transport chain
+	1767. electron transport chain 
 	1768. electronvolt
 	1769. [[electroorganic reaction]]
 	1770. [[electroosmosis]]
 	1771. electroosmotic mobility
 	1772. electropherogram
 	1773. [[electrophile]]
-	1774. electrophilic addition
+	1774. [[electrophilic addition]]
 	1775. [[electrophilic substitution]]
 	1776. [[electrophoresis]]
 	1777. [[electrophoretic deposition]]
@@ -1826,7 +1826,7 @@ Reviewed: false
 	1802. empirical
 	1803. empirical formula
 	1804. [[emulsification]]
-	1805. emulsion
+	1805. [[emulsion]]
 	1806. en
 	1807. enamine
 	1808. [[enantiomeric pair]]
@@ -1835,7 +1835,7 @@ Reviewed: false
 	1811. enantiomorphism
 	1812. enantiotopic
 	1813. enantiotropy
-	1814. endergonic
+	1814. [[endergonic]]
 	1815. endo-
 	1816. endocannabinoids
 	1817. [[ENDOR]]
@@ -1880,7 +1880,7 @@ Reviewed: false
 	1856. equipartition of energy
 	1857. equivalence point
 	1858. equivalent proportions
-	1859. equivalent weight
+	1859. [[equivalent weight]]
 	1860. erbium
 	1861. ergocalciferol
 	1862. ergodic hypothesis
