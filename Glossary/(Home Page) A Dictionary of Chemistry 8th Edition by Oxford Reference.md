@@ -480,7 +480,7 @@ Reviewed: false
 	456. backbiting
 	457. back donation
 	458. back e.m.f.
-	459. background radiation
+	459. [[background radiation]]
 	460. back titration
 	461. bacteriocidal
 	462. bacteriorhodopsin
@@ -488,7 +488,7 @@ Reviewed: false
 	464. Baeyer-Villiger reaction
 	465. Baeyer strain
 	466. Baeyer test
-	467. Baird's law
+	467. [[Baird's law]]
 	468. Bakelite
 	469. baking powder
 	470. baking soda
@@ -540,7 +540,7 @@ Reviewed: false
 	516. Becquerel, Antoine Henri (1852-1908)
 	517. Beer-Lambert law
 	518. beet sugar
-	519. Beilstein's test
+	519. [[Beilstein's test]]
 	520. bell metal
 	521. Belousov-Zhabotinskii reaction
 	522. Bénard cell
