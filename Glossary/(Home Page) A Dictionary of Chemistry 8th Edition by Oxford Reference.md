@@ -476,12 +476,12 @@ Reviewed: false
 	452. B-Z reaction
 	453. b.c.c.
 	454. Babbit metal
-	455. Babo's law
+	455. [[Babo's law]]
 	456. backbiting
-	457. back donation
+	457. [[back donation]]
 	458. back e.m.f.
 	459. [[background radiation]]
-	460. back titration
+	460. [[back titration]]
 	461. bacteriocidal
 	462. bacteriorhodopsin
 	463. Baeyer, Adolf von (1835-1917)
