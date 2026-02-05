@@ -11,7 +11,7 @@ Reviewed: false
 	- [[(1) How I Got Good at Coding Interviews]]
 	- [[(2) Top 5 Dynamic Programming Patterns for Coding Interviews - For Beginners]]
 	- [[(3) Top 5 Most Common Graph Algorithms for Coding Interviews]]
-	- [[(4) Search a 2D Matrix - Leetcode 74 - Python]]
+	- [[(74) Search a 2D Matrix|(4) Search a 2D Matrix - Leetcode 74 - Python]]
 	- [[(5) Sort Colors - Quicksort Partition - Leetcode 75 - Python]]
 	- [[(6) Design Min Stack - Amazon Interview Question - Leetcode 155 - Python]]
 - Incomplete
