@@ -616,9 +616,9 @@ Reviewed: false
 	592. bioelement
 	593. bioenergetics
 	594. bioethanol
-	595. biofuel
+	595. [[biofuel]]
 	596. biogas
-	597. bioinorganic chemistry
+	597. [[bioinorganic chemistry]]
 	598. bioluminescence
 	599. biomarker
 	600. biomolecule
@@ -626,8 +626,8 @@ Reviewed: false
 	602. bioreactor
 	603. [[biosensor]]
 	604. biosynthesis
-	605. biotechnology
-	606. biotin
+	605. [[biotechnology]]
+	606. [[biotin]]
 	607. biotite
 	608. bipy
 	609. bipyramid

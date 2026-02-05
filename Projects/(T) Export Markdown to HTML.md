@@ -117,8 +117,6 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
 - Function
 	- Zooms into Image by clicking on it
 	- Escape zoom by clicking outside container or Pressing `Command + Click`
-- Bugs
-	- Will select images in the toolbar. Need to fix this
 ```javascript
 // Name: Zoom Image in Reader
 // Event: Open File
@@ -129,7 +127,8 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
     const CHECK_INTERVAL = 500;
     const ZOOM_SPEED = 0.1;  
     const MAX_ZOOM = 50;     
-    const MIN_ZOOM = 0.1;    
+    const MIN_ZOOM = 0.1;
+    const MIN_IMAGE_SIZE = 50; // Images/Icons smaller than this (px) are ignored
 
     let attempts = 0;
 
@@ -161,7 +160,7 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
         const css = `
             .zotero-zoom-overlay {
                 display: none;
-                position: absolute; /* Absolute allows us to pin it to specific scroll coordinates */
+                position: absolute; 
                 z-index: 2147483647;
                 background-color: rgba(0,0,0,0.95);
                 overflow: hidden;
@@ -198,8 +197,8 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
                 pointer-events: none;
                 text-shadow: 0 1px 2px black;
             }
-
-            img, svg { cursor: zoom-in !important; }
+            
+            /* NOTE: removed global 'img { cursor: zoom-in }' rule so filtered icons don't get the cursor */
         `;
         const style = targetDoc.createElement('style');
         style.id = 'zotero-image-zoom-style';
@@ -230,34 +229,23 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
         overlay.appendChild(container);
         overlay.appendChild(hint);
         
-        // Append to documentElement (html) to ensure it sits above body transforms
         (targetDoc.documentElement || targetDoc.body).appendChild(overlay);
 
-        // --- STATE VARIABLES ---
-        let scale = 1;
-        let pX = 0;
-        let pY = 0;
-        let isDragging = false;
-        let startX = 0;
-        let startY = 0;
+        let scale = 1, pX = 0, pY = 0;
+        let isDragging = false, startX = 0, startY = 0;
 
-        // --- VISUAL VIEWPORT FIX ---
-        // This function forces the overlay to cover exactly what the user sees
         const fitOverlayToViewport = () => {
-            // Only calculate if active to save resources, but we call it explicitly on open
             if (!overlay.classList.contains('active')) return;
 
             const win = targetDoc.defaultView;
             const vv = win.visualViewport;
 
             if (vv) {
-                // Modern Zotero/Firefox
                 overlay.style.left = vv.pageLeft + 'px';
                 overlay.style.top = vv.pageTop + 'px';
                 overlay.style.width = vv.width + 'px';
                 overlay.style.height = vv.height + 'px';
             } else {
-                // Fallback
                 overlay.style.left = win.pageXOffset + 'px';
                 overlay.style.top = win.pageYOffset + 'px';
                 overlay.style.width = win.innerWidth + 'px';
@@ -273,12 +261,10 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
         win.addEventListener('scroll', fitOverlayToViewport);
         win.addEventListener('resize', fitOverlayToViewport);
 
-        // --- TRANSFORMATION ---
         const updateTransform = () => {
             zoomImg.style.transform = `translate(${pX}px, ${pY}px) scale(${scale})`;
         };
 
-        // --- ZOOM (Wheel) ---
         overlay.addEventListener('wheel', function(e) {
             e.preventDefault(); 
             e.stopPropagation();
@@ -304,7 +290,6 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
             updateTransform();
         }, { passive: false });
 
-        // --- PAN (Drag) ---
         zoomImg.addEventListener('mousedown', function(e) {
             if (e.button !== 0) return; 
             e.preventDefault();
@@ -322,10 +307,7 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
             e.preventDefault();
             const dx = e.clientX - startX;
             const dy = e.clientY - startY;
-            
-            // Adjust sensitivity if needed
             const sensitivity = 1.0; 
-            
             const initialPx = parseFloat(zoomImg.dataset.initialPx || 0);
             const initialPy = parseFloat(zoomImg.dataset.initialPy || 0);
             pX = initialPx + (dx * sensitivity);
@@ -342,26 +324,16 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
         targetDoc.addEventListener('mouseup', stopDrag);
         targetDoc.addEventListener('mouseleave', stopDrag);
 
-        // --- CLOSE ---
         const closeOverlay = (e) => {
             if (e) {
                 e.preventDefault();
                 e.stopPropagation();
             }
-
             overlay.classList.remove('active');
             scale = 1; pX = 0; pY = 0;
             updateTransform();
-
-            // *** CRITICAL FIX FOR DOUBLE CLICK ***
-            // When we close the overlay, the focus is often left in "limbo" or on the hidden div.
-            // We must force focus back to the main document body so the next click 
-            // on an image is registered immediately as a "click" and not a "window focus" event.
-            if (targetDoc.body) {
-                targetDoc.body.focus(); 
-            } else {
-                targetDoc.defaultView.focus();
-            }
+            if (targetDoc.body) targetDoc.body.focus(); 
+            else targetDoc.defaultView.focus();
         };
 
         container.addEventListener('click', function(e) {
@@ -370,9 +342,7 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
             }
         });
 
-        // Expose function for the opener to use
         overlay.fitToScreen = fitOverlayToViewport;
-        
         return overlay;
     }
 
@@ -404,13 +374,23 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
                 if (el.id === 'zotero-zoomed-img') continue;
                 if (el.tagName.toLowerCase() === 'svg' && el.classList.contains('zotero-zoom-icon')) continue;
 
+                // --- FILTER ---
+                // 1. Size Check
+                const rect = el.getBoundingClientRect();
+                if (rect.width > 0 && (rect.width < MIN_IMAGE_SIZE && rect.height < MIN_IMAGE_SIZE)) {
+                    continue; // Skip small icons
+                }
+                // 2. Parent Check (toolbar, buttons)
+                if (el.closest('button, [role="button"], .toolbar, .buttons, .secondary-toolbar')) {
+                    continue; // Skip UI elements
+                }
+
                 if (!el.dataset.hasZoomListener) {
                     const ownerDoc = el.ownerDocument;
                     injectCSS(ownerDoc);
                     const localOverlay = createOverlay(ownerDoc);
                     const localZoomImg = localOverlay.querySelector('#zotero-zoomed-img');
 
-                    // Use Capture Phase (true) to intercept before Zotero
                     el.addEventListener('click', function(e) {
                         if (e.button !== 0) return;
 
@@ -418,7 +398,6 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
                         e.stopPropagation();
                         e.stopImmediatePropagation();
                         
-                        // Load Content
                         if (this.tagName.toLowerCase() === 'img') {
                             localZoomImg.src = this.src;
                         } else {
@@ -427,18 +406,16 @@ setTimeout(() => { _htmlExtractorRunning = false; }, 2000);
                         }
                         
                         localZoomImg.style.transform = `translate(0px, 0px) scale(1)`;
-                        
-                        // 1. Activate (Make visible)
                         localOverlay.classList.add('active');
-                        
-                        // 2. *** FIX FOR SCROLLBAR ***
-                        // Call fitToScreen AFTER making it active/block.
-                        // If calculated while display:none, dimensions are often 0 or misplaced.
                         if(localOverlay.fitToScreen) localOverlay.fitToScreen();
                         
                     }, true); 
                     
                     el.dataset.hasZoomListener = "true";
+                    
+                    // --- APPLY CURSOR HERE ONLY FOR VALID IMAGES ---
+                    el.style.cursor = "zoom-in"; 
+                    
                     count++;
                 }
             }

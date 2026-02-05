@@ -10,10 +10,10 @@ tags:
 Reviewed: false
 ---
 - Arrays & Hashing (9)
-	- (1) [[(217) Contains Duplicate]] - 1
-	- (2) [[(242) Valid Anagram]] - 1
-	- (3) [[(1) Two Sum]] - 1
-	- (4) [[(49) Group Anagrams]] - 1
+	- (1) [[(217) Contains Duplicate]]
+	- (2) [[(242) Valid Anagram]]
+	- (3) [[(1) Two Sum]]
+	- (4) [[(49) Group Anagrams]]
 	- (5) [[(347) Top K Frequent Elements]]
 	- (6) [[(172) Encode and Decode Strings - Leetcode 271 - Python]]
 	- (7) [[(238) Product of Array Except Self]]
