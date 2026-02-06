@@ -690,7 +690,7 @@ Reviewed: false
 	666. borane
 	667. borate
 	668. borax
-	669. borax-bead test
+	669. [[borax-bead test]]
 	670. borazon
 	671. Bordeaux mixture
 	672. boric acid
@@ -714,7 +714,7 @@ Reviewed: false
 	690. Bose-Einstein statistics
 	691. boson
 	692. bottled gas
-	693. bound state
+	693. [[bound state]]
 	694. bowsprit
 	695. Boyle's law
 	696. Boyle, Robert (1627-91)
@@ -800,7 +800,7 @@ Reviewed: false
 	776. cage compound
 	777. [[cage effect]]
 	778. Cahn-Ingold-Prelog system
-	779. calamine
+	779. [[calamine]]
 	780. calcination
 	781. calcinite
 	782. calcite
