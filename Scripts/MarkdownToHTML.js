@@ -24,29 +24,82 @@ module.exports = async (params) => {
     // 1. Create the Copy Button Script
     const copyButtonScript = `
     <style>
+        /* 
+           1. LAYOUT FIX:
+           Set 'position: relative' on the pre tag so the button 
+           is positioned relative to the code box, not the page.
+           This prevents it from being cut off.
+        */
         pre { position: relative; }
+        
+        /* 
+           2. BUTTON STYLE (Javascript Enabled):
+           Appears when opened in a standard browser.
+        */
         .copy-btn {
             position: absolute; top: 5px; right: 5px;
-            background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px;
-            cursor: pointer; padding: 2px 8px; font-size: 12px;
-            font-family: sans-serif;
+            background: #ffffff; border: 1px solid #ccc; border-radius: 4px;
+            cursor: pointer; padding: 2px 6px; font-size: 11px;
+            font-family: sans-serif; color: #555;
+            z-index: 10;
+            opacity: 0.9;
         }
-        .copy-btn:hover { background: #e0e0e0; }
+        .copy-btn:hover { background: #e0e0e0; color: #000; }
+        
+        /* 
+           3. ZOTERO / NO-JS FALLBACK:
+           If JavaScript is blocked, this CSS pseudo-element shows the class name.
+           It will likely show "sourceCode python", but it guarantees a label appears.
+        */
+        pre[class*="sourceCode"]::before {
+            content: attr(class);
+            position: absolute; top: 5px; right: 5px;
+            background: #eee; border: 1px solid #ccc; border-radius: 4px;
+            padding: 2px 6px; font-size: 10px; font-family: sans-serif;
+            color: #888; pointer-events: none;
+            text-transform: uppercase;
+        }
+        
+        /* Hide the CSS fallback once JS successfully adds the real button */
+        pre.js-processed::before { display: none; }
     </style>
     <script>
     document.addEventListener("DOMContentLoaded", function() {
         document.querySelectorAll("pre code").forEach((codeBlock) => {
             const pre = codeBlock.parentNode;
+            
+            // --- DETECT LANGUAGE ---
+            // Check classes on the <code> element first, then the <pre> element.
+            // Filter out internal Pandoc classes to find the real language name.
+            const getClass = (el) => Array.from(el.classList).find(c => 
+                c !== "sourceCode" && c !== "numberSource" && c !== "id"
+            );
+            
+            // Default to "CODE" if no specific language class is found
+            let lang = getClass(codeBlock) || getClass(pre) || "CODE";
+
+            // --- CREATE BUTTON ---
             const btn = document.createElement("button");
             btn.className = "copy-btn";
-            btn.innerText = "Copy";
+            btn.innerText = lang.toUpperCase();
+            
+            // --- CLICK HANDLER ---
             btn.addEventListener("click", () => {
                 navigator.clipboard.writeText(codeBlock.innerText).then(() => {
-                    btn.innerText = "Copied!";
-                    setTimeout(() => btn.innerText = "Copy", 2000);
+                    const original = btn.innerText;
+                    btn.innerText = "COPIED!";
+                    setTimeout(() => btn.innerText = original, 2000);
                 });
             });
-            pre.appendChild(btn);
+
+            // --- INJECT ---
+            // Mark pre as 'js-processed' to hide the CSS fallback
+            pre.classList.add("js-processed");
+            
+            // Only append if a button doesn't already exist
+            if (!pre.querySelector(".copy-btn")) {
+                pre.appendChild(btn);
+            }
         });
     });
     </script>
