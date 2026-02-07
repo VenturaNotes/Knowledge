@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A device used in the exhaust systems of motor vehicles to reduce atmospheric pollution. The three main pollutants produced by petrol engines are: unburnt hydrocarbons, carbon monoxide produced by incomplete combustion of hydrocarbons, and nitrogen oxides produced by nitrogen in the air reacting with oxygen at high engine temperatures. Hydrocarbons and carbon monoxide can be controlled by a higher combustion temperature and a weaker mixture. However, the higher temperature and greater availability of oxygen arising from these measures encourage formation of nitrogen oxides. The use of three-way catalytic converters solves this problem by using platinum and palladium catalysts to oxidize the hydrocarbons and the CO and rhodium catalysts to reduce the nitrogen oxides back to nitrogen. These three-way catalysts require that the air-fuel ratio is strictly stochiometric. Some catalytic converters promote oxidation reactions only, leaving the nitrogen oxides unchanged. Three-way converters can reduce hydrocarbons and CO emissions by some 85%, at the same time reducing nitrogen oxides by 62%.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]

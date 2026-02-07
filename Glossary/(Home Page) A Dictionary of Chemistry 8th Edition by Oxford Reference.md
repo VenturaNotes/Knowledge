@@ -904,7 +904,7 @@ Reviewed: false
 	880. Carnot principle
 	881. Caro's acid
 	882. carotene
-	883. carotenoid
+	883. [[carotenoid]]
 	884. Carothers, Wallace Hume (1896-1937)
 	885. Carr-Purcell-Meiboom-Gill sequence
 	886. carrageenan
@@ -920,10 +920,10 @@ Reviewed: false
 	896. cast iron
 	897. Castner-Kellner cell
 	898. castor oil
-	899. catabolism
+	899. [[catabolism]]
 	900. catalysis
 	901. catalyst
-	902. catalytic converter
+	902. [[catalytic converter]]
 	903. catalytic cracking
 	904. catalytic rich gas process
 	905. cataphoresis

@@ -2008,3 +2008,19 @@ Reviewed: false
 	- [[(3318) Find X-Sum of All K-Long Subarrays I]]
 	- [[(2516) Take K of Each Character From Left and Right]]
 	- [[(2762) Continuous Subarrays]]
+	- [[(2779) Maximum Beauty of an Array After Applying Operation]]
+	- [[(2981) Find Longest Special Substring That Occurs Thrice I]]
+	- [[(3026) Maximum Good Subarray Sum]]
+	- Maximum Frequency of an Element After Performing Operations I
+	- Maximum Frequency of an Element After Performing Operations II
+	- Find Leaves of Binary Tree
+	- All Paths from Source Lead to Destination
+	- Alien Dictionary
+	- Sequence Reconstruction
+	- Parallel Courses
+	- Clone N-ary Tree
+	- Minimum Time to Visit a Cell in a Grid
+	- Find the Safest Path in a Grid
+	- Graph Valid Tree
+	- Number of Islands II
+	- Number of Connected Components in an Undirected Graph
