@@ -825,7 +825,7 @@ Reviewed: false
 	801. caliche
 	802. californium
 	803. calixarenes
-	804. calmodulin
+	804. [[calmodulin]]
 	805. calomel
 	806. calomel half cell
 	807. Calorie
@@ -852,7 +852,7 @@ Reviewed: false
 	828. caproic acid
 	829. caprolactam
 	830. caprylic acid
-	831. capture
+	831. [[capture]]
 	832. carat
 	833. carbamide
 	834. carbanion
@@ -894,7 +894,7 @@ Reviewed: false
 	870. carburize
 	871. carbylamine reaction
 	872. carbyne
-	873. carcinogen
+	873. [[carcinogen]]
 	874. Carius method
 	875. carnallite
 	876. carnauba wax
