@@ -7,7 +7,13 @@
 - ![[Screenshot 2025-09-07 at 11.11.08 PM.png|400]]
 	- Cellulose
 	- $\text{1-4}~\beta\text{-}\text{glycosidic bonds}$
+## Source[^3]
+- A polysaccharide that consists of a long unbranched chain of glucose units. It is the main constituent of the cell walls of all plants, many algae, and some fungi and is responsible for providing the rigidity of the cell wall. It is an important constituent of dietary fibre. The fibrous nature of extracted cellulose has led to its use in the textile industry for the production of cotton, artificial silk, etc.
+- ![[Screenshot 2026-02-08 at 6.10.54 PM.png]]
+	- Cellulose
+	- 1-4 $\beta$-glycosidic bonds
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
