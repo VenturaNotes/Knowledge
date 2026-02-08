@@ -954,7 +954,7 @@ Reviewed: false
 	930. cellular plastic
 	931. cellular plastics
 	932. celluloid
-	933. cellulose
+	933. [[cellulose]]
 	934. cellulose acetate
 	935. cellulose ethanoate
 	936. cellulose nitrate
@@ -966,10 +966,10 @@ Reviewed: false
 	942. centigrade scale
 	943. central dogma
 	944. centrifugal pump
-	945. centrifuge
+	945. [[centrifuge]]
 	946. centrosymmetric molecule
 	947. ceramics
-	948. cerebroside
+	948. [[cerebroside]]
 	949. cerium
 	950. cermet
 	951. cerussite
