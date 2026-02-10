@@ -2011,16 +2011,40 @@ Reviewed: false
 	- [[(2779) Maximum Beauty of an Array After Applying Operation]]
 	- [[(2981) Find Longest Special Substring That Occurs Thrice I]]
 	- [[(3026) Maximum Good Subarray Sum]]
-	- Maximum Frequency of an Element After Performing Operations I
-	- Maximum Frequency of an Element After Performing Operations II
-	- Find Leaves of Binary Tree
-	- All Paths from Source Lead to Destination
-	- Alien Dictionary
-	- Sequence Reconstruction
-	- Parallel Courses
-	- Clone N-ary Tree
-	- Minimum Time to Visit a Cell in a Grid
-	- Find the Safest Path in a Grid
-	- Graph Valid Tree
-	- Number of Islands II
-	- Number of Connected Components in an Undirected Graph
+	- [[(3346) Maximum Frequency of an Element After Performing Operations I]]
+	- [[(3347) Maximum Frequency of an Element After Performing Operations II]]
+	- [[(366) Find Leaves of Binary Tree]]
+	- [[(1059) All Paths from Source Lead to Destination]]
+	- [[(269) Alien Dictionary]]
+	- [[(444) Sequence Reconstruction]]
+	- [[(1136) Parallel Courses]]
+	- [[(1490) Clone N-ary Tree]]
+	- [[(2577) Minimum Time to Visit a Cell in a Grid]]
+	- [[(2812) Find the Safest Path in a Grid]]
+	- [[(261) Graph Valid Tree]]
+	- [[(305) Number of Islands II]]
+	- [[(323) Number of Connected Components in an Undirected Graph]]
+	- [[(737) Sentence Similarity II]]
+	- [[(1101) The Earliest Moment When Everyone Become Friends]]
+	- [[(1135) Connecting Cities with Minimum Cost]]
+	- [[(1168) Optimize Water Distribution in a Village]]
+	- [[(2558) Take Gifts From the Richest Pile]]
+	- [[(253) Meeting Rooms II]]
+
+	- [[(759) Employee Free Time]]
+	- [[(774) Minimize Max Distance to Gas Station]]
+	- [[(772) Basic Calculator III]]
+	- [[(369) Plus One Linked List]]
+	- [[(3008) Find Beautiful Indices in the Given Array II]]
+	- [[(251) Flatten 2D Vector]]
+	- [[(271) Encode and Decode Strings]]
+	- [[(353) Design Snake Game]]
+	- [[(359) Logger Rate Limiter]]
+	- [[(362) Design Hit Counter]]
+	- [[(379) Design Phone Directory]]
+	- [[(432) All O'one Data Structure]]
+	- [[(604) Design Compressed String Iterator]]
+	- [[(642) Design Search Autocomplete System]]
+		- 2x
+	- [[(1756) Design Most Recently Used Queue]]
+	- [[(425) Word Squares]]

@@ -7,13 +7,24 @@ Reviewed: false
 - 
 ## Source [^1]
 - ![[Screenshot 2024-10-18 at 1.06.39 AM.png]]
-- Must design a stack class that supports 4 operations
-	- push, pop, top value, retrieve minimum element constant time
-- By default, a [[stack]] data structure supports pushing, popping and getting top value in O(1) time.
-	- Could implement with array or linked list
-- We end up making two stacks
-	- First stack tells us the values
-	- Second stack tells us what the minimum value we have added so far
+- First Watch
+	- Must design a stack class that supports 4 operations
+		- push, pop, top value, retrieve minimum element constant time
+	- By default, a [[stack]] data structure supports pushing, popping and getting top value in O(1) time.
+		- Could implement with array or linked list
+	- We end up making two stacks
+		- First stack tells us the values
+		- Second stack tells us what the minimum value we have added so far
+- Second Watch
+	- This is a good design problem
+		- Design a [[stack]] that supports, push, pop, top, and retrieving the minimum element in constant time
+	- By default, a stack can support push, pop, and top in $O(1)$ time
+		- Could implement it with a linked list or with an array
+	- Getting a minimum element in $O(1)$ is not supported by stack by default
+		- Good hint for designing this is to consider each node in the stack having a minimum value
+		- One stack will tell us the values we've added so far in the order we added them
+		- The other stack will tell us what's the minimum value that we have added so far in each position of the stack
+			- When using the "getMin" operation, we're going to be looking at the top of our minimum Stack
 ```python
 class MinStack:
     def __init__(self):
@@ -35,7 +46,21 @@ class MinStack:
 
     def getMin(self) -> int:
         return self.minStack[-1]
+        
+# Your MinStack object will be instantiated and called as such:
+# obj = MinStack()
+# obj.push(val)
+# obj.pop()
+# param_3 = obj.top()
+# param_4 = obj.getMin()
 ```
+- `self.stack = []` is python's implementation of a regular stack using an array
+- For `val = min(val, self.minStack[-1] if self.minStack else val)`
+	- `[]` is considered false when a list is empty
+		- Therefore `self.minStack` will return true if it's not empty and therefore
+			- `self.min_Stack[-1]`
+		- If it is false, then it will just use `val` to evaluate the `min`
+- Each one of the four functions is done in $O(1)$ time.
 ## Source[^2]
 ### (1) Brute Force
 ```python

@@ -974,7 +974,7 @@ Reviewed: false
 	950. cermet
 	951. cerussite
 	952. cetane
-	953. cetane number
+	953. [[cetane number]]
 	954. CFC
 	955. CGE
 	956. chain
@@ -983,7 +983,7 @@ Reviewed: false
 	959. chain reaction
 	960. chair
 	961. chair conformation
-	962. chalcedony
+	962. [[chalcedony]]
 	963. chalcogens
 	964. chalconides
 	965. chalcopyrite
@@ -991,7 +991,7 @@ Reviewed: false
 	967. change of phase
 	968. chaos
 	969. chaotic dynamics
-	970. chaotic reaction
+	970. [[chaotic reaction]]
 	971. charcoal
 	972. Chargaff's rule
 	973. charge

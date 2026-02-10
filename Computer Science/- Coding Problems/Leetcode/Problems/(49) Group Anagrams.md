@@ -165,5 +165,5 @@ Where $m$ is the number of strings and $n$ is the length of the longest string
 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=vzdNOK2oB2E
+[^1]: [Group Anagrams - Categorize Strings by Count - Leetcode 49](https://www.youtube.com/watch?v=vzdNOK2oB2E)
 [^2]: https://neetcode.io/solutions/group-anagrams
