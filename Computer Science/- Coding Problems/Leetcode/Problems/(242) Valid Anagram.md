@@ -218,6 +218,6 @@ class Solution:
 
 ## References
 [^1]: https://icarus.cs.weber.edu/~dab/cs1410/textbook/8.Strings/progexample/anagram.html#:~:text=%22An%20anagram%20is%20a%20word,cases%20(upper%20or%20lower).
-[^2]: https://www.youtube.com/watch?v=9UtInBqnCgA
+[^2]: [Valid Anagram - Leetcode 242 - Python](https://www.youtube.com/watch?v=9UtInBqnCgA)
 [^3]: https://leetcode.com/problems/valid-anagram/solutions/4410317/video-give-me-5-minutes-4-solutions-how-we-think-about-a-solution/
 [^4]: https://neetcode.io/solutions/valid-anagram

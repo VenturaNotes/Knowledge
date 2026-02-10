@@ -192,5 +192,5 @@ class Solution:
 	- If the length of the set of the `nums` array is less, that means there was a duplicate in the `nums` array. This is because a set only contains unique elements
 ## References
 
-[^1]: https://www.youtube.com/watch?v=3OamzN90kPg
+[^1]: [Contains Duplicate - Leetcode 217 - Python](https://www.youtube.com/watch?v=3OamzN90kPg)
 [^2]: https://neetcode.io/solutions/contains-duplicate

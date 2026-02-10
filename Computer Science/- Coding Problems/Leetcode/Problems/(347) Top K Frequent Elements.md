@@ -145,5 +145,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://youtu.be/YPTqKIgVk-k?si=y6KXepaOXKAEbyLU
+[^1]: [Top K Frequent Elements - Bucket Sort - Leetcode 347 - Python](https://youtu.be/YPTqKIgVk-k?si=y6KXepaOXKAEbyLU)
 [^2]: https://neetcode.io/solutions/top-k-frequent-elements

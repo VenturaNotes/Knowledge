@@ -307,7 +307,7 @@ class Solution:
 	- Space Complexity: $O(n)$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=KLlXCFG5TnA
+[^1]: [Two Sum - Leetcode 1 - HashMap - Python](https://www.youtube.com/watch?v=KLlXCFG5TnA)
 [^2]: https://neetcode.io/solutions/two-sum
 [^3]: https://leetcode.com/problems/two-sum/editorial/
 [^4]: https://leetcode.com/problems/two-sum/solutions/127810/two-sum/

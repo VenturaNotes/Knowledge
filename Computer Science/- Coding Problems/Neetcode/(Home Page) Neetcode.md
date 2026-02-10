@@ -15,10 +15,12 @@ Reviewed: false
 	- (3) [[(1) Two Sum]]
 	- (4) [[(49) Group Anagrams]]
 	- (5) [[(347) Top K Frequent Elements]]
-	- (6) [[(172) Encode and Decode Strings - Leetcode 271 - Python]]
-	- (7) [[(238) Product of Array Except Self]]
-	- (8) [[(36) Valid Sudoku]]
-	- (9) [[(128) Longest Consecutive Sequence]]
+## Fix later
+- (6) [[(172) Encode and Decode Strings - Leetcode 271 - Python]]
+## To Fix
+- (7) [[(238) Product of Array Except Self]]
+- (8) [[(36) Valid Sudoku]]
+- (9) [[(128) Longest Consecutive Sequence]]
 - Two Pointers (5)
 	- (10) [[(125) Valid Palindrome]]
 	- (11) [[(167) Two Sum II - Input Array Is Sorted]]
@@ -72,7 +74,7 @@ Reviewed: false
 	- (54) [[(199) Binary Tree Right Side View]]
 	- (55) [[(1448) Count Good Nodes in Binary Tree]]
 	- (56) [[(98) Validate Binary Search Tree]]
-	- (57) [[(74) Kth Smallest Element in a BST]]
+	- (57) [[(230) Kth Smallest Element in a BST]]
 	- (58) [[(105) Construct Binary Tree from Preorder and Inorder Traversal]]
 	- (59) [[(124) Binary Tree Maximum Path Sum]]
 	- (60) [[(297) Serialize and Deserialize Binary Tree]]
