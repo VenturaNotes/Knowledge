@@ -1,10 +1,10 @@
 ---
 Source:
-  - https://www.youtube.com/watch?v=PaJxqZVPhbg
-Reviewed: false
+  - https://leetcode.com/problems/meeting-rooms/description/
+Approaches: "0"
 ---
 ## Synthesis
-- 
+- Locked on LeetCode
 ## Source [^1]
 - ![[Screenshot 2024-11-30 at 2.21.01 AM.png]]
 - LintCode lets you save premium leetcode problems for free
@@ -86,5 +86,5 @@ Time Complexity: $O(nlogn)$
 Space Complexity: $O(1)$ or $O(n)$ depending on the sorting algorithm.
 ## References
 
-[^1]: https://www.youtube.com/watch?v=PaJxqZVPhbg
+[^1]: [Meeting Rooms - Leetcode 252 - Python](https://www.youtube.com/watch?v=PaJxqZVPhbg)
 [^2]: https://neetcode.io/solutions/meeting-rooms

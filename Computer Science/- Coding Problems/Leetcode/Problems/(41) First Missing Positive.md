@@ -123,6 +123,10 @@ class Solution:
 ```
 Time: $O(n)$
 Space: $O(1)$
+
+## Source[^2]
+- 
 ## References
 
 [^1]: https://walkccc.me/LeetCode/problems/41/?h=41#__tabbed_1_3
+[^2]: [First Missing Positive - Leetcode 41 - Python](https://www.youtube.com/watch?v=8g78yfzMlao)

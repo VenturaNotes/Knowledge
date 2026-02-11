@@ -190,8 +190,7 @@ class Solution:
 Time Complexity: $O(V + (E *\alpha(V)))$
 Space Complexity: $O(V)$
 - Where V is the number of vertices and E is the number of edges in the graph. $\alpha$() is used for amortized complexity
-
 ## References
 
-[^1]: https://www.youtube.com/watch?v=FXWRE67PLL0
+[^1]: [Redundant Connection - Union Find - Leetcode 684 - Python](https://www.youtube.com/watch?v=FXWRE67PLL0)
 [^2]: https://neetcode.io/solutions/redundant-connection

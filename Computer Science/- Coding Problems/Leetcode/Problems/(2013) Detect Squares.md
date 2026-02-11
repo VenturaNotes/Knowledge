@@ -89,5 +89,5 @@ Time Complexity: $O(1)$ for $add()$, $O(n)$ for $count()$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=bahebearrDc
+[^1]: [Detect Squares - Leetcode Weekly Contest - Problem 2013 - Python](https://www.youtube.com/watch?v=bahebearrDc)
 [^2]: https://neetcode.io/solutions/detect-squares

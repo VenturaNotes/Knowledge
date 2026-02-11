@@ -97,5 +97,5 @@ Time Complexity: $O(1)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=HAgLH58IgJQ
+[^1]: [Reverse Integer - Bit Manipulation - Leetcode 7 - Python](https://www.youtube.com/watch?v=HAgLH58IgJQ)
 [^2]: https://neetcode.io/solutions/reverse-integer

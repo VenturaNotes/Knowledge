@@ -121,5 +121,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=P6RZZMu_maU
+[^1]: [Leetcode 128 - LONGEST CONSECUTIVE SEQUENCE](https://www.youtube.com/watch?v=P6RZZMu_maU)
 [^2]: https://neetcode.io/solutions/longest-consecutive-sequence

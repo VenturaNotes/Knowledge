@@ -129,5 +129,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=s6ATEkipzow
+[^1]: [Validate Binary Search Tree - Depth First Search - Leetcode 98](https://www.youtube.com/watch?v=s6ATEkipzow)
 [^2]: https://neetcode.io/solutions/validate-binary-search-tree

@@ -90,5 +90,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=WnPLSRLSANE
+[^1]: [Missing Number - Blind 75 - Leetcode 268 - Python](https://www.youtube.com/watch?v=WnPLSRLSANE)
 [^2]: https://neetcode.io/solutions/missing-number

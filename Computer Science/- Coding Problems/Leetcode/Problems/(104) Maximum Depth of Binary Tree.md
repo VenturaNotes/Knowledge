@@ -168,5 +168,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=hTM3phVI6YQ
+[^1]: [Maximum Depth of Binary Tree - 3 Solutions - Leetcode 104 - Python](https://www.youtube.com/watch?v=hTM3phVI6YQ)
 [^2]: https://neetcode.io/solutions/maximum-depth-of-binary-tree

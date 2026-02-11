@@ -90,5 +90,5 @@ class Solution:
 - Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=ktmzAZWkEZ0
+[^1]: [Min Cost Climbing Stairs - Dynamic Programming - Leetcode 746 - Python](https://www.youtube.com/watch?v=ktmzAZWkEZ0)
 [^2]: https://neetcode.io/solutions/min-cost-climbing-stairs

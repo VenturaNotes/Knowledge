@@ -197,5 +197,5 @@ Space Complexity: $O(1)$
 - Where $m$ is the length of $l1$ and $n$ is the length of $l2$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=wgFPrzTjm7s 
+[^1]: [Add Two Numbers - Leetcode 2 - Python](https://www.youtube.com/watch?v=wgFPrzTjm7s) 
 [^2]: https://neetcode.io/solutions/add-two-numbers

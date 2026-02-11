@@ -93,5 +93,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=7cp5imvDzl4
+[^1]: [Microsoft's Most Asked Question 2021 - Count Good Nodes in a Binary Tree - Leetcode 1448 - Python](https://www.youtube.com/watch?v=7cp5imvDzl4)
 [^2]: https://neetcode.io/solutions/count-good-nodes-in-binary-tree

@@ -168,8 +168,10 @@ class Solution:
 ```
 Time Complexity: $O(n)$
 Space Complexity: $O(n)$
-
+## Source[^3]
+- 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=K81C31ytOZE
+[^1]: [Diameter of Binary Tree - Leetcode 543 - Python](https://www.youtube.com/watch?v=K81C31ytOZE)
 [^2]: https://neetcode.io/solutions/diameter-of-binary-tree
+[^3]: [Diameter of a Binary Tree - Leetcode 543 - Python](https://www.youtube.com/watch?v=bkxqA8Rfv04)

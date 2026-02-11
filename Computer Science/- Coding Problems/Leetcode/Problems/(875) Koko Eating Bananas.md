@@ -76,5 +76,5 @@ Space Complexity: $O(1)$
 - Where $n$ is the length of the input array `piles` and `m` is the maximum number of bananas in a pile
 ## References
 
-[^1]: https://www.youtube.com/watch?v=U2SozAs9RzA
+[^1]: [Koko Eating Bananas - Binary Search - Leetcode 875 - Python](https://www.youtube.com/watch?v=U2SozAs9RzA)
 [^2]: https://neetcode.io/solutions/koko-eating-bananas

@@ -166,5 +166,5 @@ Time Complexity: $O(n^2)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=f7JOBJIC-NA
+[^1]: [Prim's Algorithm - Minimum Spanning Tree - Min Cost to Connect all Points - Leetcode 1584 - Python](https://www.youtube.com/watch?v=f7JOBJIC-NA)
 [^2]: https://neetcode.io/solutions/min-cost-to-connect-all-points

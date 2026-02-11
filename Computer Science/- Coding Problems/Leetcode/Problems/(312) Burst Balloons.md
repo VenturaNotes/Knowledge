@@ -100,5 +100,5 @@ Time Complexity: $O(n^3)$
 Space Complexity: $O(n^2)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=VFskby7lUbw
+[^1]: [Burst Baloons - Dynamic Programming - Leetcode 312 - Python](https://www.youtube.com/watch?v=VFskby7lUbw)
 [^2]: https://neetcode.io/solutions/burst-balloons

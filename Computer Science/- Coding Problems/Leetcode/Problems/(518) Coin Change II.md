@@ -179,8 +179,7 @@ class Solution:
 Time Complexity: $O(n*a)$
 Space Complexity: $O(a)$
 - Where $n$ is the number of coins and $a$ is the given amount
-
 ## References
 
-[^1]: https://www.youtube.com/watch?v=Mjy4hd2xgrs
+[^1]: [Coin Change 2 - Dynamic Programming Unbounded Knapsack - Leetcode 518 - Python](https://www.youtube.com/watch?v=Mjy4hd2xgrs)
 [^2]: https://neetcode.io/solutions/coin-change-ii

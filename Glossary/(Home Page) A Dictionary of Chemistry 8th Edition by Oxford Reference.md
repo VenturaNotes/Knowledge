@@ -996,7 +996,7 @@ Reviewed: false
 	972. Chargaff's rule
 	973. charge
 	974. charge-transfer complex
-	975. charge carrier
+	975. [[charge carrier]]
 	976. charge density
 	977. charge density wave
 	978. Charles' law
@@ -1014,7 +1014,7 @@ Reviewed: false
 	990. chemical equation
 	991. chemical equilibrium
 	992. chemical equivalent
-	993. chemical fossil
+	993. [[chemical fossil]]
 	994. chemically induced dynamic nuclear polarization
 	995. chemical markup language
 	996. chemical potential
@@ -1029,7 +1029,7 @@ Reviewed: false
 	1005. chemistry
 	1006. chemoautotroph
 	1007. chemoheterotroph
-	1008. chemoinformatics
+	1008. [[chemoinformatics]]
 	1009. ChemSketch
 	1010. chert
 	1011. Chile saltpetre

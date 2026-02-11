@@ -7,9 +7,30 @@ Reviewed: false
 - 
 ## Source [^1]
 - ![[Screenshot 2024-12-01 at 3.53.18 AM.png]]
-- Could use [[caching]] to eliminate a lot of repeated work so the time complexity of the solution can be broken down into $O(m*n)$ 
-- Could also do a true [[dynamic programming]] solution which would also give the time complexity of $O(m*n)$ 
-- Worst case time complexity is $2^{n+m}$ through [[decision tree]]
+- First Watch
+	- When interleaving two strings to obtain a third string, the relative order of the characters of the string is super important
+		- We could use a dynamic programming technique called [[caching]]. This eliminates a bunch of repeated works.
+			- Time complexity of solution could be broken down to $O(m*n)$
+				- m is the size of one string
+				- n is the size of the other string
+		- Instead of caching, you could do a true dynamic programming solution which would also give time complexity of $O(m*n)$
+	- This describes the [[memoization]] solution
+		- Showing how decision tree will look like and then how we'll do the caching
+		- Worst-case time complexity for a decision tree is $2^{n+m}$
+		- We'll have time complexity of $O(m*n)$ for the caching portion
+			- Can only have `m` different values in the first position
+			- Can only have `n` different values in the second position
+			- $O(m*n)$ means we will have this many sub-problems 
+				- If we repeat the same problem, we can just do it in $O(1)$ time because we'll be caching the result of that
+				- If we find a single true, we don't need to cache it because if we find a single true, we are able to form the result string and we can immediately return true by going back up to the root that we called the recursive function from
+	- This is the true [[dynamic programming]] solution
+		- If both pointers become out of bounds, that's how we know we reached the base case. And we built the resulting string which is true
+		- Creating a regular dynamic programming grid
+		- $m*n$ is what our [[cache]] is going to look like
+- Second Watch
+	- Could use [[caching]] to eliminate a lot of repeated work so the time complexity of the solution can be broken down into $O(m*n)$ 
+	- Could also do a true [[dynamic programming]] solution which would also give the time complexity of $O(m*n)$ 
+	- Worst case time complexity is $2^{n+m}$ through [[decision tree]]
 ```python
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
@@ -183,5 +204,5 @@ Space Complexity: $O(min(m,n))$
 - Where $m$ is the length of the string $s1$ and $n$ is the length of the string $s2$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=3Rw3p9LrgvE
+[^1]: [Interleaving Strings - Dynamic Programming - Leetcode 97 - Python](https://www.youtube.com/watch?v=3Rw3p9LrgvE)
 [^2]: https://neetcode.io/solutions/interleaving-string

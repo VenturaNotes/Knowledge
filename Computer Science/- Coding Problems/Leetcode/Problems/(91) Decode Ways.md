@@ -144,5 +144,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=6aEyTjOwlJU
+[^1]: [Decode Ways - Dynamic Programming - Leetcode 91 - Python](https://www.youtube.com/watch?v=6aEyTjOwlJU)
 [^2]: https://neetcode.io/solutions/decode-ways

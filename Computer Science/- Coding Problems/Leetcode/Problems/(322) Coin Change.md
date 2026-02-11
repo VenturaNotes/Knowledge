@@ -134,5 +134,5 @@ Space Complexity: $O(t)$
 - Where $n$ is the length of the array $coins$ and $t$ is the given $amount$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=H9bfqozjoqs
+[^1]: [Coin Change - Dynamic Programming Bottom Up - Leetcode 322](https://www.youtube.com/watch?v=H9bfqozjoqs)
 [^2]: https://neetcode.io/solutions/coin-change

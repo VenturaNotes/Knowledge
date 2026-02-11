@@ -152,5 +152,5 @@ Space Complexity: $O(V +E)$
 - Where V is the number of courses and E is the number of prerequisites
 ## References
 
-[^1]: https://www.youtube.com/watch?v=Akt3glAwyfY
+[^1]: [Course Schedule II - Topological Sort - Leetcode 210](https://www.youtube.com/watch?v=Akt3glAwyfY)
 [^2]: https://neetcode.io/solutions/course-schedule-ii

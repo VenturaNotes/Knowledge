@@ -85,8 +85,7 @@ class Solution:
 ```
 Time Complexity: $O(n)$
 Space Complexity: $O(n)$
-
 ## References
 
-[^1]: https://www.youtube.com/watch?v=vRbbcKXCxOw
+[^1]: [Same Tree - Leetcode 100 - Python](https://www.youtube.com/watch?v=vRbbcKXCxOw)
 [^2]: https://neetcode.io/solutions/same-tree

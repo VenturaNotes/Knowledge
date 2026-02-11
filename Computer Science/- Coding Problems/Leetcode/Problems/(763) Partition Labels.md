@@ -61,5 +61,5 @@ Space Complexity: $O(m)$
 - Where $n$ is the length of the string $s$ and $m$ is the number of unique characters in the string $s$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=B7m8UmZE-vw
+[^1]: [Partition Labels - Leetcode 763 - Python](https://www.youtube.com/watch?v=B7m8UmZE-vw)
 [^2]: https://neetcode.io/solutions/partition-labels

@@ -146,5 +146,5 @@ Time Complexity: $O(logn)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=ljz85bxOYJ0
+[^1]: [Happy Number - Leetcode 202 - Python](https://www.youtube.com/watch?v=ljz85bxOYJ0)
 [^2]: https://neetcode.io/solutions/happy-number

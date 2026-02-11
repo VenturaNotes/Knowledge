@@ -61,6 +61,10 @@ class Solution:
 		- #question Is there a way so that I could potentially return the "right" side? Does this only work in terms of "right" because we're trying to find a greater number? 
 		- ![[Screenshot 2025-10-07 at 2.19.30 AM.png]]
 			- Binary Search with target found in list
+
+## Source[^2]
+- 
 ## References
 
 [^1]: https://leetcode.com/problems/search-insert-position/solutions/5361984/video-return-middle-or-left-pointer/
+[^2]: [Search Insert Position - Binary Search - Leetcode 35 - Python](https://www.youtube.com/watch?v=K-RYzDZkzCI)

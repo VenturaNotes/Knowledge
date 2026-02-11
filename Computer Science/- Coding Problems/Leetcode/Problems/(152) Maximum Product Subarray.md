@@ -129,5 +129,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=lXVy6YWFcRM
+[^1]: [Maximum Product Subarray - Dynamic Programming - Leetcode 152](https://www.youtube.com/watch?v=lXVy6YWFcRM)
 [^2]: https://neetcode.io/solutions/maximum-product-subarray

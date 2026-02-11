@@ -109,5 +109,5 @@ Time Complexity: $O(n)$ in average case, $O(n^2)$ in worst case
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=rI2EBUEMfTk
+[^1]: [K Closest Points to Origin - Heap / Priority Queue - Leetcode 973 - Python](https://www.youtube.com/watch?v=rI2EBUEMfTk)
 [^2]: https://neetcode.io/solutions/k-closest-points-to-origin

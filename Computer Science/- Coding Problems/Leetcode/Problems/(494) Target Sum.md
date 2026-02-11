@@ -104,5 +104,5 @@ Space Complexity: $O(m)$
 - Where $n$ is the length of the array $nums$ and $m$ is the sum of all the elements in the array
 ## References
 
-[^1]: https://www.youtube.com/watch?v=g0npyaQtAQM
+[^1]: [Target Sum - Dynamic Programming - Leetcode 494 - Python](https://www.youtube.com/watch?v=g0npyaQtAQM)
 [^2]: https://neetcode.io/solutions/target-sum

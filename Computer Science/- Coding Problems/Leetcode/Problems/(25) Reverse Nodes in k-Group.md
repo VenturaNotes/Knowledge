@@ -46,7 +46,7 @@ class Solution:
             k -= 1
         return curr
 ```
-## Source
+## Source[^2]
 
 ### (1) Recursion
 ```python
@@ -118,4 +118,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=1UOPsfP85V4
+[^1]: [Reverse Nodes in K-Group - Linked List - Leetcode 25](https://www.youtube.com/watch?v=1UOPsfP85V4)
+[^2]: https://neetcode.io/solutions/reverse-nodes-in-k-group

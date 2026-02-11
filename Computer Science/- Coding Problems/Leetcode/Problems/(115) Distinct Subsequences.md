@@ -151,5 +151,5 @@ Space Complexity: $O(n)$
 - Where $m$ is the length of the string $s$ and $n$ is the length of the string $t$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=-RDzMJ33nx8
+[^1]: [Distinct Subsequences - Dynamic Programming - Leetcode 115 - Python](https://www.youtube.com/watch?v=-RDzMJ33nx8)
 [^2]: https://neetcode.io/solutions/distinct-subsequences

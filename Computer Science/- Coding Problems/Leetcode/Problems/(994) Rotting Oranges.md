@@ -127,5 +127,5 @@ Space Complexity: $O(1)$
 - Where $m$ is the number of rows and $n$ is the number of columns in the $grid$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=y704fEOx0s0
+[^1]: [Rotting Oranges - Leetcode 994 - Python](https://www.youtube.com/watch?v=y704fEOx0s0)
 [^2]: https://neetcode.io/solutions/rotting-oranges

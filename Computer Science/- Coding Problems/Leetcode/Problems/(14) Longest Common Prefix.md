@@ -44,4 +44,4 @@ String will always have lowercase English letters unless empty
 - 
 ## References
 
-[^1]: 
+[^1]: [Longest Common Prefix - Leetcode 14 - Python](https://www.youtube.com/watch?v=0sWShKIJoo4)

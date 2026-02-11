@@ -171,5 +171,5 @@ Space Complexity: $O(m*n)$
 - Where $m$ is the number of rows and $n$ is the number of columns in the $grid$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=iJGr1OtmH0c
+[^1]: [Max Area of Island - Leetcode 695 - Python](https://www.youtube.com/watch?v=iJGr1OtmH0c)
 [^2]: https://neetcode.io/solutions/max-area-of-island

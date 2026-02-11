@@ -146,5 +146,5 @@ Space Complexity: $O(\frac tm)$
 - Where $t$ is the given $target$ and $m$ is the minimum value in $nums$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=GBKI9VSKdGg
+[^1]: [Combination Sum - Backtracking - Leetcode 39 - Python](https://www.youtube.com/watch?v=GBKI9VSKdGg)
 [^2]: https://neetcode.io/solutions/combination-sum

@@ -36,7 +36,7 @@ class Solution:
                 leftMin = 0
         return leftMin == 0
 ```
-## Sources
+## Source[^2]
 ### (1) Recursion
 ```python
 class Solution:
@@ -196,4 +196,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=QhPdNS143Qg
+[^1]: [Valid Parenthesis String - Leetcode 678 - Python](https://www.youtube.com/watch?v=QhPdNS143Qg)
+[^2]: https://neetcode.io/solutions/valid-parenthesis-string

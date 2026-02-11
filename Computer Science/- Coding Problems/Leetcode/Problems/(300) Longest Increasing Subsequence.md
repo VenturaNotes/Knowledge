@@ -168,5 +168,5 @@ Time Complexity: $O(nlogn)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=cjWnW0hdF1Y
+[^1]: [Longest Increasing Subsequence - Dynamic Programming - Leetcode 300](https://www.youtube.com/watch?v=cjWnW0hdF1Y)
 [^2]: https://neetcode.io/solutions/longest-increasing-subsequence

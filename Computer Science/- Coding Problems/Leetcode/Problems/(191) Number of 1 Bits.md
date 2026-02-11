@@ -93,5 +93,5 @@ Time Complexity: $O(1)$
 Space Complexity: $O(1$)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=5Km3utixwZs
+[^1]: [Number of 1 Bits - Leetcode 191 - Python](https://www.youtube.com/watch?v=5Km3utixwZs)
 [^2]: https://neetcode.io/solutions/number-of-1-bits

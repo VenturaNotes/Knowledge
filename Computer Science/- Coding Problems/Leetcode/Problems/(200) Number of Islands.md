@@ -169,5 +169,5 @@ Space Complexity: $O(m*n)$
 - Where $m$ is the number of rows and $n$ is the number of columns in the $grid$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=pV2kpPD66nE
+[^1]: [NUMBER OF ISLANDS - Leetcode 200 - Python](https://www.youtube.com/watch?v=pV2kpPD66nE)
 [^2]: https://neetcode.io/solutions/number-of-islands

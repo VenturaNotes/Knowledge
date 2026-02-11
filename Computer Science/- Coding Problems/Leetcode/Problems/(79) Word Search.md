@@ -136,5 +136,5 @@ Space Complexity: $O(n)$
 - Where $m$ is the number of cells in the $board$ and $n$ is the length of the $word$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=pfiQ_PS1g8E
+[^1]: [Word Search - Backtracking - Leetcode 79 - Python](https://www.youtube.com/watch?v=pfiQ_PS1g8E)
 [^2]: https://neetcode.io/solutions/word-search

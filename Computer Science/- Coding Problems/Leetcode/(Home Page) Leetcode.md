@@ -2030,7 +2030,6 @@ Reviewed: false
 	- [[(1168) Optimize Water Distribution in a Village]]
 	- [[(2558) Take Gifts From the Richest Pile]]
 	- [[(253) Meeting Rooms II]]
-
 	- [[(759) Employee Free Time]]
 	- [[(774) Minimize Max Distance to Gas Station]]
 	- [[(772) Basic Calculator III]]
@@ -2045,6 +2044,8 @@ Reviewed: false
 	- [[(432) All O'one Data Structure]]
 	- [[(604) Design Compressed String Iterator]]
 	- [[(642) Design Search Autocomplete System]]
-		- 2x
 	- [[(1756) Design Most Recently Used Queue]]
 	- [[(425) Word Squares]]
+	- [[(286) Walls and Gates]]
+	- [[(920) Meeting Rooms]]
+	- [[(256) Paint House]]

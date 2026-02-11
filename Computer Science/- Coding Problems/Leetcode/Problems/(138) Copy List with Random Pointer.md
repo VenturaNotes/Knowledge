@@ -222,5 +222,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=5Y2EiZST97Y
+[^1]: [Copy List with Random Pointer - Linked List - Leetcode 138](https://www.youtube.com/watch?v=5Y2EiZST97Y)
 [^2]: https://neetcode.io/solutions/copy-list-with-random-pointer

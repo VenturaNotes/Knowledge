@@ -144,5 +144,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$ since the output array is excluded from space analysis
 ## References
 
-[^1]: https://www.youtube.com/watch?v=bNvIQI2wAjk
+[^1]: [Product of Array Except Self - Leetcode 238 - Python](https://www.youtube.com/watch?v=bNvIQI2wAjk)
 [^2]: https://neetcode.io/solutions/product-of-array-except-self

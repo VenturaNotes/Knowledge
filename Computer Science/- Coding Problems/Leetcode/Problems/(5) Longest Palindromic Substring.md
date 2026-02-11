@@ -146,5 +146,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=XYQecbcd6_c
+[^1]: [Longest Palindromic Substring - Python - Leetcode 5](https://www.youtube.com/watch?v=XYQecbcd6_c)
 [^2]: https://neetcode.io/solutions/longest-palindromic-substring

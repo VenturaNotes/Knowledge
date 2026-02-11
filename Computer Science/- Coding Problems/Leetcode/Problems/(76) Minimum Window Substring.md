@@ -119,5 +119,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(m)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=jSto0O4AJbM
+[^1]: [Minimum Window Substring - Airbnb Interview Question - Leetcode 76](https://www.youtube.com/watch?v=jSto0O4AJbM)
 [^2]: https://neetcode.io/solutions/minimum-window-substring

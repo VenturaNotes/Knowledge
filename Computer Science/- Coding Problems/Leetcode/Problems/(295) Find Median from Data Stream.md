@@ -107,5 +107,5 @@ Space Complexity: $O(n)$
 - Where $m$ is the number of function calls and $n$ is the length of the array.
 ## References
 
-[^1]: https://www.youtube.com/watch?v=itmhHWaHupI
+[^1]: [Find Median from Data Stream - Heap & Priority Queue - Leetcode 295](https://www.youtube.com/watch?v=itmhHWaHupI)
 [^2]: https://neetcode.io/solutions/find-median-from-data-stream

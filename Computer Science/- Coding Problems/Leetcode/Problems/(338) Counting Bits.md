@@ -99,5 +99,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=RyBM56RIWrM
+[^1]: [Counting Bits - Dynamic Programming - Leetcode 338 - Python](https://www.youtube.com/watch?v=RyBM56RIWrM)
 [^2]: https://neetcode.io/solutions/counting-bits

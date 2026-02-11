@@ -202,5 +202,5 @@ Space Complexity: $O(k)$
 - Where $m$ is the length of the array $queries$, $n$ is the length of the array $intervals$ and $k$ is the number of unique points.
 ## References
 
-[^1]: https://www.youtube.com/watch?v=5hQ5WWW5awQ
+[^1]: [Minimum Interval to Include Each Query - Leetcode 1851 - Python](https://www.youtube.com/watch?v=5hQ5WWW5awQ)
 [^2]: https://neetcode.io/solutions/minimum-interval-to-include-each-query

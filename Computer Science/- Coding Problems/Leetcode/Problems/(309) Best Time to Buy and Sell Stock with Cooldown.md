@@ -125,5 +125,5 @@ Space Complexity: $O(1)$
 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=I7j0F7AHpb8
+[^1]: [Best Time to Buy and Sell Stock with Cooldown - Leetcode 309 - Python](https://www.youtube.com/watch?v=I7j0F7AHpb8)
 [^2]: https://neetcode.io/solutions/best-time-to-buy-and-sell-stock-with-cooldown

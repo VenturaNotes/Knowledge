@@ -169,5 +169,5 @@ Time Complexity: $O(1)$ for each put() and get() operation
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=7ABFKPK2hD4
+[^1]: [LRU Cache - Twitch Interview Question - Leetcode 146](https://www.youtube.com/watch?v=7ABFKPK2hD4)
 [^2]: https://neetcode.io/solutions/lru-cache

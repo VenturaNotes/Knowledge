@@ -120,5 +120,5 @@ Space Complexity: $O(m+n)$
 - Where $m$ is the number of nodes in $subRoot$ and $n$ is the number of nodes in $root$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=E36O5SWp-LE
+[^1]: [Subtree of Another Tree - Leetcode 572 - Python](https://www.youtube.com/watch?v=E36O5SWp-LE)
 [^2]: https://neetcode.io/solutions/subtree-of-another-tree

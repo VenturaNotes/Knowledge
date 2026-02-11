@@ -111,5 +111,5 @@ Space Complexity: $O(m+n)$
 - Where $m$ is the length of the string $num1$ and $n$ is the length of the string $num2$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=1vZswirL8Y8
+[^1]: [Multiply Strings - Leetcode 43 - Python](https://www.youtube.com/watch?v=1vZswirL8Y8)
 [^2]: https://neetcode.io/solutions/multiply-strings

@@ -183,5 +183,5 @@ Space Complexity: $O(m*n)$
 - Where $m$ is the number of rows and $n$ is the number of columns of the $board$.
 ## References
 
-[^1]: https://www.youtube.com/watch?v=9z2BunfoZ5Y
+[^1]: [Surrounded Regions - Graph - Leetcode 130 - Python](https://www.youtube.com/watch?v=9z2BunfoZ5Y)
 [^2]: https://neetcode.io/solutions/surrounded-regions

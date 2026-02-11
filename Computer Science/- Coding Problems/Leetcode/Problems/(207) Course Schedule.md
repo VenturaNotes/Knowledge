@@ -111,5 +111,5 @@ Space Complexity: $O(V + E)$
 - Where $V$ is the number of courses and $E$ is the number of prerequisites
 ## References
 
-[^1]: https://www.youtube.com/watch?v=EgI5nU9etnU
+[^1]: [Course Schedule - Graph Adjacency List - Leetcode 207](https://www.youtube.com/watch?v=EgI5nU9etnU)
 [^2]: https://neetcode.io/solutions/course-schedule

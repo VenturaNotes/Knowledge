@@ -179,5 +179,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=DfljaUwZsOk
+[^1]: [Sliding Window Maximum - Monotonic Queue - Leetcode 239](https://www.youtube.com/watch?v=DfljaUwZsOk)
 [^2]: https://neetcode.io/solutions/sliding-window-maximum

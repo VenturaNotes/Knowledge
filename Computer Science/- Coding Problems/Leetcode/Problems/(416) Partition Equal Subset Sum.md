@@ -200,5 +200,5 @@ Space Complexity: $O(target)$
 - Where $n$ is the length of the array $nums$ and $target$ is the sum of array elements divided by 2.
 ## References
 
-[^1]: https://www.youtube.com/watch?v=IsvocB5BJhw
+[^1]: [Partition Equal Subset Sum - Dynamic Programming - Leetcode 416 - Python](https://www.youtube.com/watch?v=IsvocB5BJhw)
 [^2]: https://neetcode.io/solutions/partition-equal-subset-sum

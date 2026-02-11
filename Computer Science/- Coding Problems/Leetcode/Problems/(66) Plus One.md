@@ -117,5 +117,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=jIaA8boiG1s
+[^1]: [Plus One - Leetcode 66 - Python](https://www.youtube.com/watch?v=jIaA8boiG1s)
 [^2]: https://neetcode.io/solutions/plus-one

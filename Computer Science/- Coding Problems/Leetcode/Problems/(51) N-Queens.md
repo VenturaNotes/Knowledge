@@ -206,5 +206,5 @@ Time Complexity: $O(n!)$
 Space Complexity: $O(n^2)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=Ph95IHmRp5M
+[^1]: [N-Queens - Backtracking - Leetcode 51 - Python](https://www.youtube.com/watch?v=Ph95IHmRp5M)
 [^2]: https://neetcode.io/solutions/n-queens

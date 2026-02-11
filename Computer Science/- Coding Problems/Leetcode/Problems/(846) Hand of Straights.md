@@ -145,5 +145,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=amnrMCVd2YI
+[^1]: [Hand of Straights - Leetcode 846 - Python](https://www.youtube.com/watch?v=amnrMCVd2YI)
 [^2]: https://neetcode.io/solutions/hand-of-straights

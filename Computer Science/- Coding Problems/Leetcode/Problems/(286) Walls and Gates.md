@@ -1,10 +1,10 @@
 ---
 Source:
-  - https://www.youtube.com/watch?v=e69C6xhiSQE
-Reviewed: false
+  - https://leetcode.com/problems/walls-and-gates/description/
+Approaches: "0"
 ---
 ## Synthesis
-- 
+- Locked on LeetCode
 ## Source [^1]
 - ![[Screenshot 2024-11-23 at 9.59.53 PM.png]]
 - DFS will be size of grid so it might be something like $O(mn)^2$ but can we do better than this Big O time complexity?
@@ -149,8 +149,7 @@ class Solution:
 Time Complexity: $O(m*n)$
 Space Complexity: $O(m*n)$
 - Where $m$ is the number of rows and $n$ is the number of columns in the $grid$ 
-
 ## References
 
-[^1]: https://www.youtube.com/watch?v=e69C6xhiSQE
+[^1]: [Walls and Gates - Multi-Source BFS - Leetcode 286 - Python](https://www.youtube.com/watch?v=e69C6xhiSQE)
 [^2]: https://neetcode.io/solutions/walls-and-gates

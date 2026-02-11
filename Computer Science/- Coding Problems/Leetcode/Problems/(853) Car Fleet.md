@@ -85,5 +85,5 @@ Time Complexity: $O(nlogn)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=Pr6T-3yB9RM
+[^1]: [Car Fleet - Leetcode 853 - Python](https://www.youtube.com/watch?v=Pr6T-3yB9RM)
 [^2]: https://neetcode.io/solutions/car-fleet

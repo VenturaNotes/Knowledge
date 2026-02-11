@@ -199,8 +199,7 @@ class Solution:
 Time Complexity: $O(m*n)$
 Space Complexity: $O(n)$
 - Where $m$ is the length of the string $s$ and $n$ is the length of the string $p$
-
 ## References
 
-[^1]: https://www.youtube.com/watch?v=HAA8mgxlov8
+[^1]: [Regular Expression Matching - Dynamic Programming Top-Down Memoization - Leetcode 10](https://www.youtube.com/watch?v=HAA8mgxlov8)
 [^2]: https://neetcode.io/solutions/regular-expression-matching

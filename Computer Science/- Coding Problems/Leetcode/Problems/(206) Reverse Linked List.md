@@ -107,5 +107,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=G0_I-ZF0S38
+[^1]: [Reverse Linked List - Iterative AND Recursive - Leetcode 206 - Python](https://www.youtube.com/watch?v=G0_I-ZF0S38)
 [^2]: https://neetcode.io/solutions/reverse-linked-list

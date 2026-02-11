@@ -85,5 +85,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=UuiTKBwPgAo
+[^1]: [Container with Most Water - Leetcode 11 - Python](https://www.youtube.com/watch?v=UuiTKBwPgAo)
 [^2]: https://neetcode.io/solutions/container-with-most-water

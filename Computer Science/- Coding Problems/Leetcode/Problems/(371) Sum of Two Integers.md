@@ -78,5 +78,5 @@ Time Complexity: $O(1)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=gVUrDV4tZfY
+[^1]: [Sum of Two Integers - Leetcode 371 - Java](https://www.youtube.com/watch?v=gVUrDV4tZfY)
 [^2]: https://neetcode.io/solutions/sum-of-two-integers

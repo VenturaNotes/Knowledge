@@ -67,8 +67,9 @@ class Solution:
 - Known as the Two Pointer approach
 - ![[Screenshot 2025-07-13 at 8.48.53 AM.png]]
 
-## Source
+## Source[^2]
 - 
 ## References
 
 [^1]: https://leetcode.com/problems/merge-sorted-array/solutions/3436053/beats-100-best-c-java-python-and-javascript-solution-two-pointer-stl/?envType=study-plan-v2&envId=top-interview-150
+[^2]: [Merge Sorted Array - Leetcode 88 - Python](https://www.youtube.com/watch?v=P1Ic85RarKY)

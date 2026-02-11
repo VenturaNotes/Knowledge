@@ -147,5 +147,5 @@ Time Complexity: $O(nlogn)$
 Space Complexity $O(logn)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=5WZl3MMT0Eg
+[^1]: [Maximum Subarray - Amazon Coding Interview Question - Leetcode 53 - Python](https://www.youtube.com/watch?v=5WZl3MMT0Eg)
 [^2]: https://neetcode.io/solutions/maximum-subarray

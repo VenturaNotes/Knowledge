@@ -124,5 +124,5 @@ Space Complexity: $O(t + n)$
 - Where $n$ is the length of the string and $t$ is the total number of TrieNodes created in the Trie
 ## References
 
-[^1]: https://www.youtube.com/watch?v=BTf05gs_8iU
+[^1]: [Design Add and Search Words Data Structure - Leetcode 211 - Python](https://www.youtube.com/watch?v=BTf05gs_8iU)
 [^2]: https://neetcode.io/solutions/design-add-and-search-words-data-structure

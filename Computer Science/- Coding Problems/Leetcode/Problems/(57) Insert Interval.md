@@ -106,5 +106,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=A8NUOmlwOlM
+[^1]: [Insert Interval - Leetcode 57 - Python](https://www.youtube.com/watch?v=A8NUOmlwOlM)
 [^2]: https://neetcode.io/solutions/insert-interval

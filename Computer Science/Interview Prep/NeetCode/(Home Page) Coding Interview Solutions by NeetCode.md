@@ -21,399 +21,207 @@ Reviewed: false
 	- [[(146) LRU Cache|(13) LRU Cache - Twitch Interview Question - Leetcode 146]]
 	- [[(53) Maximum Subarray|(14) Maximum Subarray - Amazon Coding Interview Question - Leetcode 53 - Python]]
 	- [[(198) House Robber|(15) House Robber -  Leetcode 198 - Python Dynamic Programming]]
+	- [[(5) Longest Palindromic Substring|(16) Longest Palindromic Substring - Python - Leetcode 5]]
+	- [[(202) Happy Number|(17) Happy Number - Leetcode 202 - Python]]
+	- [[(11) Container With Most Water|(18) Container with Most Water - Leetcode 11 - Python]]
+	- [[(84) Largest Rectangle in Histogram|(19) LARGEST RECTANGLE IN HISTOGRAM - Leetcode 84 - Python]]
+	- [[(21) Merge Two Sorted Lists|(20) Merge Two Sorted Lists - Leetcode 21 - Python]]
+	- [[(23) Merge k Sorted Lists|(21) Merge K Sorted Lists - Leetcode 23 - Python]]
+	- [[(206) Reverse Linked List|(22) Reverse Linked List - Iterative AND Recursive - Leetcode 206 - Python]]
+	- [[(2) Add Two Numbers|(24) Add Two Numbers - Leetcode 2 - Python]]
+	- [[(200) Number of Islands|(25) NUMBER OF ISLANDS - Leetcode 200 - Python]]
+	- [[(3) Longest Substring Without Repeating Characters|(27) Longest Substring Without Repeating Characters - Leetcode 3 - Python]]
+	- [[(97) Interleaving String|(7) Interleaving Strings - Dynamic Programming - Leetcode 97 - Python]]
+	- [[(121) Best Time to Buy and Sell Stock|(29) Sliding Window - Best Time to Buy and Sell Stock - Leetcode 121 - Python]]
+	- [[(128) Longest Consecutive Sequence|(30) Leetcode 128 - LONGEST CONSECUTIVE SEQUENCE]]
+	- [[(33) Search in Rotated Sorted Array|(33) Search in rotated sorted array - Leetcode 33 - Python]]
+	- [[(19) Remove Nth Node From End of List|(38) Remove Nth Node from End of List - Oracle Interview Question - Leetcode 19]]
+	- [[(25) Reverse Nodes in k-Group|(44) Reverse Nodes in K-Group - Linked List - Leetcode 25]]
+	- [[(152) Maximum Product Subarray|(45) Maximum Product Subarray - Dynamic Programming - Leetcode 152]]
+	- [[(239) Sliding Window Maximum|(46) Sliding Window Maximum - Monotonic Queue - Leetcode 239]]
+	- [[(207) Course Schedule|(47) Course Schedule - Graph Adjacency List - Leetcode 207]]
+	- [[(322) Coin Change|(48) Coin Change - Dynamic Programming Bottom Up - Leetcode 322]]
+	- [[(98) Validate Binary Search Tree|(49) Validate Binary Search Tree - Depth First Search - Leetcode 98]]
+	- [[(300) Longest Increasing Subsequence|(50) Longest Increasing Subsequence - Dynamic Programming - Leetcode 300]]
+	- [[(49) Group Anagrams|(51) Group Anagrams - Categorize Strings by Count - Leetcode 49]]
+	- [[(73) Set Matrix Zeroes|(52) Set Matrix Zeroes - In-place - Leetcode 73]]
+	- [[(56) Merge Intervals|(53) Merge Intervals - Sorting - Leetcode 56]]
+	- [[(210) Course Schedule II|(54) Course Schedule II - Topological Sort - Leetcode 210]]
+	- [[(54) Spiral Matrix|(55) Spiral Matrix - Microsoft Interview Question - Leetcode 54]]
+	- [[(4) Median of Two Sorted Arrays|(56) Median of Two Sorted Arrays - Binary Search - Leetcode 4]]
+	- [[(78) Subsets|(57) Subsets - Backtracking - Leetcode 78]]
+	- [[(76) Minimum Window Substring|(58) Minimum Window Substring - Airbnb Interview Question - Leetcode 76]]
+	- [[(62) Unique Paths|(59) Unique Paths - Dynamic Programming - Leetcode 62]]
+	- [[(48) Rotate Image|(60) Rotate Image - Matrix - Leetcode 48]]
+	- [[(131) Palindrome Partitioning|(61) Palindrome Partitioning - Backtracking - Leetcode 131]]
+	- [[(295) Find Median from Data Stream|(65) Find Median from Data Stream - Heap & Priority Queue - Leetcode 295]]
+	- [[(226) Invert Binary Tree|(66) Invert Binary Tree - Depth First Search - Leetcode 226]]
+	- [[(199) Binary Tree Right Side View|(67) Binary Tree Right Side View - Breadth First Search - Leetcode 199]]
+	- [[(133) Clone Graph|(69) Clone Graph - Depth First Search - Leetcode 133]]
+	- [[(10) Regular Expression Matching|(70) Regular Expression Matching - Dynamic Programming Top-Down Memoization - Leetcode 10]]
+	- [[(22) Generate Parentheses|(73) Generate Parentheses - Stack - Leetcode 22]]
+	- [[(17) Letter Combinations of a Phone Number|(75) Letter Combinations of a Phone Number - Backtracking - Leetcode 17]]
+	- [[(213) House Robber II|(80) House Robber II - Dynamic Programming - Leetcode 213]]
+	- [[(1143) Longest Common Subsequence|(82) Longest Common Subsequence - Dynamic Programming - Leetcode 1143]]
+	- [[(102) Binary Tree Level Order Traversal|(83) Binary Tree Level Order Traversal - BFS - Leetcode 102]]
+	- [[(138) Copy List with Random Pointer|(84) Copy List with Random Pointer - Linked List - Leetcode 138]]
+	- [[(42) Trapping Rain Water|(85) Trapping Rain Water - Google Interview Question - Leetcode 42]]
+	- [[(55) Jump Game|(86) Jump Game - Greedy - Leetcode 55]]
+	- [[(45) Jump Game II|(90) Jump Game II - Greedy - Leetcode 45 - Python]]
+	- [[(105) Construct Binary Tree from Preorder and Inorder Traversal|(91) Construct Binary Tree from Inorder and Preorder Traversal - Leetcode 105 - Python]]
+	- [[(20) Valid Parentheses|(92) Valid Parentheses - Stack - Leetcode 20 - Python]]
+	- [[(79) Word Search|(94) Word Search - Backtracking - Leetcode 79 - Python]]
+	- [[(208) Implement Trie (Prefix Tree)|(97) Implement Trie (Prefix Tree) - Leetcode 208]]
+	- [[(743) Network Delay Time|(99) Network Delay Time - Dijkstra's algorithm - Leetcode 743]]
+	- [[(100) Same Tree|(100) Same Tree - Leetcode 100 - Python]]
+	- [[(134) Gas Station|(101) Gas Station - Greedy - Leetcode 134 - Python]]
+	- [[(66) Plus One|(104) Plus One - Leetcode 66 - Python]]
+	- [[(1851) Minimum Interval to Include Each Query|(105) Minimum Interval to Include Each Query - Leetcode 1851 - Python]]
+	- [[(72) Edit Distance|(108) Edit Distance - Dynamic Programming - Leetcode 72 - Python]]
+	- [[(115) Distinct Subsequences|(110) Distinct Subsequences - Dynamic Programming - Leetcode 115 - Python]]
+	- [[(312) Burst Balloons|(113) Burst Baloons - Dynamic Programming - Leetcode 312 - Python]]
+	- [[(347) Top K Frequent Elements|(114) Top K Frequent Elements - Bucket Sort - Leetcode 347 - Python]]
+	- [[(875) Koko Eating Bananas|(115) Koko Eating Bananas - Binary Search - Leetcode 875 - Python]]
+	- [[(684) Redundant Connection|(117) Redundant Connection - Union Find - Leetcode 684 - Python]]
+	- [[(297) Serialize and Deserialize Binary Tree|(118) Serialize and Deserialize Binary Tree - Preorder Traversal - Leetcode 297 - Python]]
+	- [[(416) Partition Equal Subset Sum|(119) Partition Equal Subset Sum - Dynamic Programming - Leetcode 416 - Python]]
+	- [[(139) Word Break|(120) Word Break - Dynamic Programming - Leetcode 139 - Python]]
+	- [[(846) Hand of Straights|(121) Hand of Straights - Leetcode 846 - Python]]
+	- [[(920) Meeting Rooms|(122) Meeting Rooms - Leetcode 252 - Python]]
+	- [[(253) Meeting Rooms II|(124) Meeting Rooms II - Leetcode 253 - Python]]
+	- [[(235) Lowest Common Ancestor of a Binary Search Tree|(125) Lowest Common Ancestor of a Binary Search Tree - Leetcode 235 - Python]]
+	- [[(235) Lowest Common Ancestor of a Binary Search Tree|(125) Lowest Common Ancestor of a Binary Search Tree - Leetcode 235 - Python]]
+	- [[(238) Product of Array Except Self|(126) Product of Array Except Self - Leetcode 238 - Python]]
+	- [[(424) Longest Repeating Character Replacement|(127) Longest Repeating Character Replacement - Leetcode 424 - Python]]
+	- [[(261) Graph Valid Tree|(128) Graph Valid Tree - Leetcode 261 - Python]]
+	- [[(417) Pacific Atlantic Water Flow|(129) Pacific Atlantic Water Flow - Leetcode 417 - Python]]
+	- [[(647) Palindromic Substrings|(130) Palindromic Substrings - Leetcode 647 - Python]]
+	- [[(211) Design Add and Search Words Data Structure|(133) Design Add and Search Words Data Structure - Leetcode 211 - Python]]
+	- [[(39) Combination Sum|(134) Combination Sum - Backtracking - Leetcode 39 - Python]]
+	- [[(124) Binary Tree Maximum Path Sum|(135) Binary Tree Maximum Path Sum - DFS - Leetcode 124 - Python]]
+	- [[(70) Climbing Stairs|(137) Climbing Stairs - Dynamic Programming - Leetcode 70 - Python]]
+	- [[(338) Counting Bits|(139) Counting Bits - Dynamic Programming - Leetcode 338 - Python]]
+	- [[(212) Word Search II|(140) Word Search II - Backtracking Trie - Leetcode 212 - Python]]
+	- [[(323) Number of Connected Components in an Undirected Graph|(141) Number of Connected Components in an Undirected Graph - Union Find - Leetcode 323 - Python]]
+	- [[(269) Alien Dictionary|(142) Alien Dictionary - Topological Sort - Leetcode 269 - Python]]
+	- [[(104) Maximum Depth of Binary Tree|(143) Maximum Depth of Binary Tree - 3 Solutions - Leetcode 104 - Python]]
+	- [[(1584) Min Cost to Connect All Points|(144) Prim's Algorithm - Minimum Spanning Tree - Min Cost to Connect all Points - Leetcode 1584 - Python]]
+	- [[(1899) Merge Triplets to Form Target Triplet|(145) Merge Triplets to Form Target Triplet - Greedy - Leetcode 1899 - Python]]
+	- [[(287) Find the Duplicate Number|(147) Find the Duplicate Number - Floyd's Cycle Detection - Leetcode 287 - Python]]
+	- [[(51) N-Queens|(148) N-Queens - Backtracking - Leetcode 51 - Python]]
+	- [[(141) Linked List Cycle|(151) Linked List Cycle - Floyd's Tortoise and Hare - Leetcode 141 - Python]]
+	- [[(739) Daily Temperatures|(152) Daily Temperatures - Monotonic Stack - Leetcode 739 - Python]]
+	- [[(778) Swim in Rising Water|(154) Swim in Rising Water - Dijkstra's Algorithm - Leetcode 778 - Python]]
+	- [[(286) Walls and Gates|(155) Walls and Gates - Multi-Source BFS - Leetcode 286 - Python]]
+	- [[(127) Word Ladder|(156) Word Ladder - Breadth First Search - Leetcode 127 - Python]]
+	- [[(1448) Count Good Nodes in Binary Tree|(158) Microsoft's Most Asked Question 2021 - Count Good Nodes in a Binary Tree - Leetcode 1448 - Python]]
+	- [[(143) Reorder List|(161) Linkedin Interview Question - Reorder List - Leetcode 143 - Python]]
+	- [[(973) K Closest Points to Origin|(162) K Closest Points to Origin - Heap  and  Priority Queue - Leetcode 973 - Python]]
+	- [[(36) Valid Sudoku|(165) Valid Sudoku - Amazon Interview Question - Leetcode 36 - Python]]
+	- [[(91) Decode Ways|(166) Decode Ways - Dynamic Programming - Leetcode 91 - Python]]
+	- [[(43) Multiply Strings|(167) Multiply Strings - Leetcode 43 - Python]]
+	- [[(190) Reverse Bits|(168) Reverse Bits - Binary - Leetcode 190 - Python]]
+	- [[(271) Encode and Decode Strings|(172) Encode and Decode Strings - Leetcode 271 - Python]]
+	- [[(57) Insert Interval|(174) Insert Interval - Leetcode 57 - Python]]
+	- [[(268) Missing Number|(176) Missing Number - Blind 75 - Leetcode 268 - Python]]
+	- [[(1046) Last Stone Weight|(178) Last Stone Weight - Priority Queue - Leetcode 1046 - Python]]
+	- [[(130) Surrounded Regions|(184) Surrounded Regions - Graph - Leetcode 130 - Python]]
+	- [[(7) Reverse Integer|(185) Reverse Integer - Bit Manipulation - Leetcode 7 - Python]]
+	- [[(50) Pow(x, n)|(187) Pow(x, n) - X to the power of N - Leetcode 50 - Python]]
+	- [[(518) Coin Change II|(190) Coin Change 2 - Dynamic Programming Unbounded Knapsack - Leetcode 518 - Python]]
+	- [[(110) Balanced Binary Tree|(191) Balanced Binary Tree - Leetcode 110 - Python]]
+	- [[(215) Kth Largest Element in an Array|(192) Kth Largest Element in an Array - Quick Select - Leetcode 215 - Python]]
+	- [[(787) Cheapest Flights Within K Stops|(197) Bellman-Ford - Cheapest Flights within K Stops - Leetcode 787 - Python]]
+	- [[(2013) Detect Squares|(207) Detect Squares - Leetcode Weekly Contest - Problem 2013 - Python]]
 - Incomplete
 	- [[(315) Big-O Notation - For Coding Interviews]]
 	- [[(8) How to use Leetcode in 2020]]
 	- [[(9) Python in 8 minutes (compared to Java)]]
+	- [[(234) Palindrome Linked List|(23) Palindrome Linked List - Leetcode 234 - Python]]
+	- [[(46) Permutations|(26) Backtracking - Permutations - Leetcode 46 - Python]]
+	- [[(35) Search Insert Position|(28) Search Insert Position - Binary Search - Leetcode 35 - Python]]
+	- [[(1299) Replace Elements with Greatest Element on Right Side|(31) Leetcode 1299 - REPLACE ELEMENTS WITH GREATEST ELEMENT ON RIGHT SIDE]]
+	- [[(1466) Reorder Routes to Make All Paths Lead to the City Zero|(32) Leetcode 1466 - REORDER ROUTES TO MAKE ALL PATHS LEAD TO THE CITY ZERO]]
+	- [[(96) Unique Binary Search Trees|(34) Unique Binary Search Trees - Leetcode 96 - Python Dynamic Programming]]
+	- [[(129) Sum Root to Leaf Numbers|(35) Sum Root to Leaf Numbers - Coding Interview Question - Leetcode 129]]
+	- [[(1498) Number of Subsequences That Satisfy the Given Sum Condition|(36) Leetcode 1498 - Number of Subsequences That Satisfy the Given Sum Condition - Python]]
+	- [[(203) Remove Linked List Elements|(37) Remove Linked List Elements - Leetcode 203]]
+	- [[(24) Swap Nodes in Pairs|(39) Swap Nodes in Pairs - Apple Interview Question - Leetcode 24]]
+	- [[(176) Second Highest Salary|(40) Learn SQL - SQL Interview Question - Second Highest Salary]]
+	- [[(185) Department Top Three Salaries|(41) Netflix Interview Question - Top 3 Salaries - MySql]]
+	- [[(221) Maximal Square|(42) Maximal Square - Top Down Memoization - Leetcode 221]]
+	- [[(120) Triangle|(43) Triangle - Dynamic Programming made Easy - Leetcode 120]]
+	- [[(108) Convert Sorted Array to Binary Search Tree|(62) Convert Sorted Array to Binary Search Tree - Leetcode 108 - Python]]
+	- [[(47) Permutations II|(63) Permutations II - Backtracking - Leetcode 47]]
+	- [[(148) Sort List|(64) Sort List - Merge Sort - Leetcode 148]]
+	- [[(86) Partition List|(68) Partition List - Linked List - Leetcode 86]]
+	- [[(617) Merge Two Binary Trees|(71) Merge Two Binary Trees - Leetcode 617]]
+	- [[(34) Find First and Last Position of Element in Sorted Array|(72) First and Last Position of Element in Sorted Array - Binary Search - Leetcode 34]]
+	- [[(735) Asteroid Collision|(76) Asteroid Collision - Stack - Leetcode 735]]
+	- [[(543) Diameter of Binary Tree|(77) Diameter of a Binary Tree - Leetcode 543 - Python]]
+	- [[(337) House Robber III|(78) House Robber III - Tree - Leetcode 337]]
+	- [[(463) Island Perimeter|(79) Island Perimeter - Graph - Leetcode 463]]
+	- [[(392) Is Subsequence|(81) Is Subsequence - Leetcode 392]]
+	- [[(535) Encode and Decode TinyURL|(87) Encode and Decode TinyURL - Leetcode 535 - Python]]
+	- [[(61) Rotate List|(88) Rotate List - Linked List - Leetcode 61 - Python]]
+	- [[(71) Simplify Path|(89) Simplify Path - Stack - Leetcode 71 - Python]]
+	- [[(1834) Single-Threaded CPU|(93) Single-Threaded CPU - Priority Queue - Leetcode 1834 - Python]]
+	- [[(67) Add Binary|(95) Add Binary - Leetcode 67 - Python]]
+	- [[(554) Brick Wall|(96) Brick Wall - Leetcode 554 - Python]]
+	- [[(1838) Frequency of the Most Frequent Element|(98) Frequency of the Most Frequent Element - Sliding Window - Leetcode 1838]]
+	- [[(1845) Seat Reservation Manager|(102) Seat Reservation Manager - Leetcode 1845 - Python]]
+	- [[(1849) Splitting a String Into Descending Consecutive Values|(103) Splitting a String Into Descending Consecutive Values - Leetcode 1849 - Python]]
+	- [[(279) Perfect Squares|(106) Perfect Squares - Dynamic Programming - Leetcode 279 - Python]]
+	- [[(41) First Missing Positive|(107) First Missing Positive - Leetcode 41 - Python]]
+	- [[(1856) Maximum Subarray Min-Product|(109) Maximum Subarray Min-Product - Monotonic Increasing Stack - Leetcode 1856 - Python]]
+	- [[(122) Best Time to Buy and Sell Stock II|(111) Best Time to Buy and Sell a Stock II - Leetcode 122 - Python]]
+	- [[(377) Combination Sum IV|(112) Combination Sum IV - Dynamic Programming - Leetcode 377 - Python]]
+	- [[(1866) Number of Ways to Rearrange Sticks With K Sticks Visible|(116) Number of Ways to Rearrange Sticks With K Sticks Visible - Dynamic Programming - Leetcode 1866]]
+	- [[(1871) Jump Game VII|(123) Jump Game VII - Leetcode 1871 - Python]]
+	- [[(1882) Process Tasks Using Servers|(131) Process Tasks Using Servers - Leetcode 1882 - Python]]
+	- [[(88) Merge Sorted Array|(132) Merge Sorted Array - Leetcode 88 - Python]]
+	- [[(691) Stickers to Spell Word|(136) Stickers to Spell Word - DP Memoization - Leetcode 691 - Python]]
+	- [[(1888) Minimum Number of Flips to Make the Binary String Alternating|(138) Minimum Number of Flips to make Binary String Alternating - Sliding Window - Leetcode 1888 - Python]]
+	- [[(1898) Maximum Number of Removable Characters|(146) Maximum Number of Removable Characters - Binary Search - Leetcode 1898 - Python]]
+	- [[(560) Subarray Sum Equals K|(149) Subarray Sum Equals K - Prefix Sums - Leetcode 560 - Python]]
+	- [[(1553) Minimum Number of Days to Eat N Oranges|(150) Minimum Number of Days to Eat N Oranges - Dynamic Programming - Leetcode 1553 - Python]]
+	- [[(1905) Count Sub Islands|(153) Count Sub Islands - DFS - Leetcode 1905 - Python]]
+	- [[(1911) Maximum Alternating Subsequence Sum|(157) Maximum Alternating Subsequence Sum - Dynamic Programming - Leetcode 1911 - Python]]
+	- [[(953) Verifying an Alien Dictionary|(159) Facebook's Most Asked Question 2021 - Verifying an Alien Dictionary - Leetcode 953 - Python]]
+	- [[(1423) Maximum Points You Can Obtain from Cards|(160) GOOGLE MOST ASKED QUESTION 2021 - Maximum Points you can Obtain from Cards - Leetcode 1423 - Python]]
+	- [[(256) Paint House|(163) Paint House - Dynamic Programming - Leetcode 256 - Python]]
+	- [[(1921) Eliminate Maximum Number of Monsters|(164) Eliminate Maximum Number of Monsters - Leetcode 1921 -  Weekly Contest 248 - Python]]
+	- [[(1930) Unique Length-3 Palindromic Subsequences|(169) Unique Length-3 Palindromic Subsequences - Leetcode 1930 - Python]]
+	- [[(189) Rotate Array|(170) Rotate Array - Leetcode 189 - Python]]
+	- [[(40) Combination Sum II|(171) Combination Sum II - Backtracking - Leetcode 40 - Python]]
+	- [[(64) Minimum Path Sum|(173) Minimum Path Sum - Dynamic Programming - Leetcode 64 - Python]]
+	- [[(1041) Robot Bounded In Circle|(175) Robot Bounded in Circle - Math & Geometry - Leetcode 1041 - Python]]
+	- [[(394) Decode String|(177) Decode String - Leetcode 394 - Python]]
+	- [[(1958) Check if Move is Legal|(179) Check if Move is Legal - Biweekly Leetcode Contest - 1958 - Python]]
+	- [[(1963) Minimum Number of Swaps to Make the String Balanced|(180) Minimum Number of Swaps to Make String Balanced - Leetcode 1963 Weekly Contest - Python]]
+	- [[(118) Pascal's Triangle|(181) Pascal's Triangle - Leetcode 118 - Python]]
+	- [[(951) Flip Equivalent Binary Trees|(182) Flip Equivalent Binary Trees - Leetcode 951 - Python]]
+	- [[(1968) Array With Elements Not Equal to Average of Neighbors|(183) Array With Elements Not Equal to Average of Neighbors - Leetcode 1968 - Python]]
+	- [[(9) Palindrome Number|(186) Palindrome Number - Leetcode 9 - Python]]
+	- [[(6) Zigzag Conversion|(188) ZigZag Conversion - Leetcode 6 - Python]]
+	- [[(1980) Find Unique Binary String|(189) Find Unique Binary String - Leetcode Weekly Contest 1980 - Python]]
+	- [[(13) Roman to Integer|(193) Roman to Integer - Leetcode 13 - Python]]
+	- [[(1984) Minimum Difference Between Highest and Lowest of K Scores|(194) Minimum Difference Between Highest and Lowest of K Scores - Leetcode Weekly Contest - 1984 Python]]
+	- [[(1985) Find the Kth Largest Integer in the Array|(195) Find the Kth Largest Integer in the Array - Leetcode Weekly Contest - 1985 Python]]
+	- [[(77) Combinations|(196) Combinations - Leetcode 77 - Python]]
+	- [[(14) Longest Common Prefix|(198) Longest Common Prefix - Leetcode 14 - Python]]
+	- [[(1993) Operations on Tree|(199) Operations on Tree - Leetcode Biweekly Contest - 1993 - Python]]
+	- [[(26) Remove Duplicates from Sorted Array|(200) Remove Duplicates from Sorted Array - Leetcode 26 - Python]]
+	- [[(263) Ugly Number|(201) Ugly Number - Leetcode 263 - Python]]
+	- [[(983) Minimum Cost For Tickets|(202) Minimum Cost for Tickets - Dynamic Programming - Leetcode 983 - Python]]
+	- [[(58) Length of Last Word|(203) Length of Last Word - Leetcode 58 - Python]]
+	- [[(2001) Number of Pairs of Interchangeable Rectangles|(204) Number of Pairs of Interchangeable Rectangles - Leetcode 2001 - Python]]
+	- [[(2002) Maximum Product of the Length of Two Palindromic Subsequences|(205) Maximum Product of the Length of Two Palindromic Subsequences - Leetcode 2002 - Python]]
+	- [[(27) Remove Element|(206) Remove Element - Leetcode 27 - Python]]
+	- [[(894) All Possible Full Binary Trees|(208) All Possible Full Binary Trees - Memoization - Leetcode 894 - Python]]
+	- [[(12) Integer to Roman|(209) Integer to Roman - Leetcode 12 - Python]]
+
 ## To Clean
-- [[(7) Interleaving Strings - Dynamic Programming - Leetcode 97 - Python]]
-	- https://www.youtube.com/watch?v=3Rw3p9LrgvE
-- [[(16) Longest Palindromic Substring - Python - Leetcode 5]]
-	- https://www.youtube.com/watch?v=XYQecbcd6_c
-- [[(17) Happy Number - Leetcode 202 - Python]]
-	- https://www.youtube.com/watch?v=ljz85bxOYJ0
-- [[(18) Container with Most Water - Leetcode 11 - Python]]
-	- https://www.youtube.com/watch?v=UuiTKBwPgAo
-- [[(19) LARGEST RECTANGLE IN HISTOGRAM - Leetcode 84 - Python]]
-	- https://www.youtube.com/watch?v=zx5Sw9130L0
-- [[(20) Merge Two Sorted Lists - Leetcode 21 - Python]]
-	- https://www.youtube.com/watch?v=XIdigk956u0
-- [[(21) Merge K Sorted Lists - Leetcode 23 - Python]]
-	- https://www.youtube.com/watch?v=q5a5OiGbT6Q
-- [[(22) Reverse Linked List - Iterative AND Recursive - Leetcode 206 - Python]]
-	- https://www.youtube.com/watch?v=G0_I-ZF0S38
-- [[(23) Palindrome Linked List - Leetcode 234 - Python]]
-	- https://www.youtube.com/watch?v=yOzXms1J6Nk
-- [[(24) Add Two Numbers - Leetcode 2 - Python]]
-	- https://www.youtube.com/watch?v=wgFPrzTjm7s
-- [[(25) NUMBER OF ISLANDS - Leetcode 200 - Python]]
-	- https://www.youtube.com/watch?v=pV2kpPD66nE
-- [[(26) Backtracking - Permutations - Leetcode 46 - Python]]
-	- https://www.youtube.com/watch?v=s7AvT7cGdSo
-- [[(27) Longest Substring Without Repeating Characters - Leetcode 3 - Python]]
-	- https://www.youtube.com/watch?v=wiGpQwVHdE0
-- [[(28) Search Insert Position - Binary Search - Leetcode 35 - Python]]
-	- https://www.youtube.com/watch?v=K-RYzDZkzCI
-- [[(29) Sliding Window - Best Time to Buy and Sell Stock - Leetcode 121 - Python]]
-	- https://www.youtube.com/watch?v=1pkOgXD63yU
-- [[(30) Leetcode 128 - LONGEST CONSECUTIVE SEQUENCE]]
-	- https://www.youtube.com/watch?v=P6RZZMu_maU
-- [[(31) Leetcode 1299 - REPLACE ELEMENTS WITH GREATEST ELEMENT ON RIGHT SIDE]]
-	- https://www.youtube.com/watch?v=ZHjKhUjcsaU
-- [[(32) Leetcode 1466 - REORDER ROUTES TO MAKE ALL PATHS LEAD TO THE CITY ZERO]]
-	- https://www.youtube.com/watch?v=m17yOR5_PpI
-- [[(33) Search in rotated sorted array - Leetcode 33 - Python]]
-	- https://www.youtube.com/watch?v=U8XENwh8Oy8
-- [[(34) Unique Binary Search Trees - Leetcode 96 - Python Dynamic Programming]]
-	- https://www.youtube.com/watch?v=Ox0TenN3Zpg
-- [[(35) Sum Root to Leaf Numbers - Coding Interview Question - Leetcode 129]]
-	- https://www.youtube.com/watch?v=Jk16lZGFWxE
-- [[(36) Leetcode 1498 - Number of Subsequences That Satisfy the Given Sum Condition - Python]]
-	- https://www.youtube.com/watch?v=xCsIkPLS4Ls
-- [[(37) Remove Linked List Elements - Leetcode 203]]
-	- https://www.youtube.com/watch?v=JI71sxtHTng
-- [[(38) Remove Nth Node from End of List - Oracle Interview Question - Leetcode 19]]
-	- https://www.youtube.com/watch?v=XVuQxVej6y8
-- [[(39) Swap Nodes in Pairs - Apple Interview Question - Leetcode 24]]
-	- https://www.youtube.com/watch?v=o811TZLAWOo
-- [[(40) Learn SQL - SQL Interview Question - Second Highest Salary]]
-	- https://www.youtube.com/watch?v=FSSKteJmWMs
-- [[(41) Netflix Interview Question - Top 3 Salaries - MySql]]
-	- https://www.youtube.com/watch?v=LHweCQVw9gk
-- [[(42) Maximal Square - Top Down Memoization - Leetcode 221]]
-	- https://www.youtube.com/watch?v=6X7Ha2PrDmM
-- [[(43) Triangle - Dynamic Programming made Easy - Leetcode 120]]
-	- https://www.youtube.com/watch?v=OM1MTokvxs4
-- [[(44) Reverse Nodes in K-Group - Linked List - Leetcode 25]]
-	- https://www.youtube.com/watch?v=1UOPsfP85V4
-- [[(45) Maximum Product Subarray - Dynamic Programming - Leetcode 152]]
-	- https://www.youtube.com/watch?v=lXVy6YWFcRM
-- [[(46) Sliding Window Maximum - Monotonic Queue - Leetcode 239]]
-	- https://www.youtube.com/watch?v=DfljaUwZsOk
-- [[(47) Course Schedule - Graph Adjacency List - Leetcode 207]]
-	- https://www.youtube.com/watch?v=EgI5nU9etnU
-- [[(48) Coin Change - Dynamic Programming Bottom Up - Leetcode 322]]
-	- https://www.youtube.com/watch?v=H9bfqozjoqs
-- [[(49) Validate Binary Search Tree - Depth First Search - Leetcode 98]]
-	- https://www.youtube.com/watch?v=s6ATEkipzow
-- [[(50) Longest Increasing Subsequence - Dynamic Programming - Leetcode 300]]
-	- https://www.youtube.com/watch?v=cjWnW0hdF1Y
-- [[(51) Group Anagrams - Categorize Strings by Count - Leetcode 49]]
-	- https://www.youtube.com/watch?v=vzdNOK2oB2E
-- [[(52) Set Matrix Zeroes - In-place - Leetcode 73]]
-	- https://www.youtube.com/watch?v=T41rL0L3Pnw
-- [[(53) Merge Intervals - Sorting - Leetcode 56]]
-	- https://www.youtube.com/watch?v=44H3cEC2fFM
-- [[(54) Course Schedule II - Topological Sort - Leetcode 210]]
-	- https://www.youtube.com/watch?v=Akt3glAwyfY
-- [[(55) Spiral Matrix - Microsoft Interview Question - Leetcode 54]]
-	- https://www.youtube.com/watch?v=BJnMZNwUk1M
-- [[(56) Median of Two Sorted Arrays - Binary Search - Leetcode 4]]
-	- https://www.youtube.com/watch?v=q6IEA26hvXc
-- [[(57) Subsets - Backtracking - Leetcode 78]]
-	- https://www.youtube.com/watch?v=REOH22Xwdkk
-- [[(58) Minimum Window Substring - Airbnb Interview Question - Leetcode 76]]
-	- https://www.youtube.com/watch?v=jSto0O4AJbM
-- [[(59) Unique Paths - Dynamic Programming - Leetcode 62]]
-	- https://www.youtube.com/watch?v=IlEsdxuD4lY
-- [[(60) Rotate Image - Matrix - Leetcode 48]]
-	- https://www.youtube.com/watch?v=fMSJSS7eO1w
-- [[(61) Palindrome Partitioning - Backtracking - Leetcode 131]]
-	- https://www.youtube.com/watch?v=3jvWodd7ht0
-- [[(62) Convert Sorted Array to Binary Search Tree - Leetcode 108 - Python]]
-	- https://www.youtube.com/watch?v=0K0uCMYq5ng
-- [[(63) Permutations II - Backtracking - Leetcode 47]]
-	- https://www.youtube.com/watch?v=qhBVWf0YafA
-- [[(64) Sort List - Merge Sort - Leetcode 148]]
-	- https://www.youtube.com/watch?v=TGveA1oFhrc
-- [[(65) Find Median from Data Stream - Heap & Priority Queue - Leetcode 295]]
-	- https://www.youtube.com/watch?v=itmhHWaHupI
-- [[(66) Invert Binary Tree - Depth First Search - Leetcode 226]]
-	- https://www.youtube.com/watch?v=OnSn2XEQ4MY
-- [[(67) Binary Tree Right Side View - Breadth First Search - Leetcode 199]]
-	- https://www.youtube.com/watch?v=d4zLyf32e3I
-- [[(68) Partition List - Linked List - Leetcode 86]]
-	- https://www.youtube.com/watch?v=KT1iUciJr4g
-- [[(69) Clone Graph - Depth First Search - Leetcode 133]]
-	- https://www.youtube.com/watch?v=mQeF6bN8hMk
-- [[(70) Regular Expression Matching - Dynamic Programming Top-Down Memoization - Leetcode 10]]
-	- https://www.youtube.com/watch?v=HAA8mgxlov8
-- [[(71) Merge Two Binary Trees - Leetcode 617]]
-	- https://www.youtube.com/watch?v=QHH6rIK3dDQ
-- [[(72) First and Last Position of Element in Sorted Array - Binary Search - Leetcode 34]]
-	- https://www.youtube.com/watch?v=4sQL7R5ySUU
-- [[(73) Generate Parentheses - Stack - Leetcode 22]]
-	- https://www.youtube.com/watch?v=s9fokUqJ76A
-- [[(75) Letter Combinations of a Phone Number - Backtracking - Leetcode 17]]
-	- https://www.youtube.com/watch?v=0snEunUacZY
-- [[(76) Asteroid Collision - Stack - Leetcode 735]]
-	- https://www.youtube.com/watch?v=LN7KjRszjk4
-- [[(77) Diameter of a Binary Tree - Leetcode 543 - Python]]
-	- https://www.youtube.com/watch?v=bkxqA8Rfv04
-- [[(78) House Robber III - Tree - Leetcode 337]]
-	- https://www.youtube.com/watch?v=nHR8ytpzz7c
-- [[(79) Island Perimeter - Graph - Leetcode 463]]
-	- https://www.youtube.com/watch?v=fISIuAFRM2s
-- [[(80) House Robber II - Dynamic Programming - Leetcode 213]]
-	- https://www.youtube.com/watch?v=rWAJCfYYOvM
-- [[(81) Is Subsequence - Leetcode 392]]
-	- https://www.youtube.com/watch?v=99RVfqklbCE
-- [[(82) Longest Common Subsequence - Dynamic Programming - Leetcode 1143]]
-	- https://www.youtube.com/watch?v=Ua0GhsJSlWM
-- [[(83) Binary Tree Level Order Traversal - BFS - Leetcode 102]]
-	- https://www.youtube.com/watch?v=6ZnyEApgFYg
-- [[(84) Copy List with Random Pointer - Linked List - Leetcode 138]]
-	- https://www.youtube.com/watch?v=5Y2EiZST97Y
-- [[(85) Trapping Rain Water - Google Interview Question - Leetcode 42]]
-	- https://www.youtube.com/watch?v=ZI2z5pq0TqA
-- [[(86) Jump Game - Greedy - Leetcode 55]]
-	- https://www.youtube.com/watch?v=Yan0cv2cLy8
-- [[(87) Encode and Decode TinyURL - Leetcode 535 - Python]]
-	- https://www.youtube.com/watch?v=VyBOaboQLGc
-- [[(88) Rotate List - Linked List - Leetcode 61 - Python]]
-	- https://www.youtube.com/watch?v=UcGtPs2LE_c
-- [[(89) Simplify Path - Stack - Leetcode 71 - Python]]
-	- https://www.youtube.com/watch?v=qYlHrAKJfyA
-- [[(90) Jump Game II - Greedy - Leetcode 45 - Python]]
-	- https://www.youtube.com/watch?v=dJ7sWiOoK7g
-- [[(91) Construct Binary Tree from Inorder and Preorder Traversal - Leetcode 105 - Python]]
-	- https://www.youtube.com/watch?v=ihj4IQGZ2zc
-- [[(92) Valid Parentheses - Stack - Leetcode 20 - Python]]
-	- https://www.youtube.com/watch?v=WTzjTskDFMg
-- [[(93) Single-Threaded CPU - Priority Queue - Leetcode 1834 - Python]]
-	- https://www.youtube.com/watch?v=RR1n-d4oYqE
-- [[(94) Word Search - Backtracking - Leetcode 79 - Python]]
-	- https://www.youtube.com/watch?v=pfiQ_PS1g8E
-- [[(95) Add Binary - Leetcode 67 - Python]]
-	- https://www.youtube.com/watch?v=keuWJ47xG8g
-- [[(96) Brick Wall - Leetcode 554 - Python]]
-	- https://www.youtube.com/watch?v=Kkmv2h48ekw
-- [[(97) Implement Trie (Prefix Tree) - Leetcode 208]]
-	- https://www.youtube.com/watch?v=oobqoCJlHA0
-- [[(98) Frequency of the Most Frequent Element - Sliding Window - Leetcode 1838]]
-	- https://www.youtube.com/watch?v=vgBrQ0NM5vE
-- [[(99) Network Delay Time - Dijkstra's algorithm - Leetcode 743]]
-	- https://www.youtube.com/watch?v=EaphyqKU4PQ
-- [[(100) Same Tree - Leetcode 100 - Python]]
-	- https://www.youtube.com/watch?v=vRbbcKXCxOw
-- [[(101) Gas Station - Greedy - Leetcode 134 - Python]]
-	- https://www.youtube.com/watch?v=lJwbPZGo05A
-- [[(102) Seat Reservation Manager - Leetcode 1845 - Python]]
-	- https://www.youtube.com/watch?v=ahobllKXEEY
-- [[(103) Splitting a String Into Descending Consecutive Values - Leetcode 1849 - Python]]
-	- https://www.youtube.com/watch?v=eDtMmysldaw
-- [[(104) Plus One - Leetcode 66 - Python]]
-	- https://www.youtube.com/watch?v=jIaA8boiG1s
-- [[(105) Minimum Interval to Include Each Query - Leetcode 1851 - Python]]
-	- https://www.youtube.com/watch?v=5hQ5WWW5awQ
-- [[(106) Perfect Squares - Dynamic Programming - Leetcode 279 - Python]]
-	- https://www.youtube.com/watch?v=HLZLwjzIVGo
-- [[(107) First Missing Positive - Leetcode 41 - Python]]
-	- https://www.youtube.com/watch?v=8g78yfzMlao
-- [[(108) Edit Distance - Dynamic Programming - Leetcode 72 - Python]]
-	- https://www.youtube.com/watch?v=XYi2-LPrwm4
-- [[(109) Maximum Subarray Min-Product - Monotonic Increasing Stack - Leetcode 1856 - Python]]
-	- https://www.youtube.com/watch?v=YLesLbNkyjA
-- [[(110) Distinct Subsequences - Dynamic Programming - Leetcode 115 - Python]]
-	- https://www.youtube.com/watch?v=-RDzMJ33nx8
-- [[(111) Best Time to Buy and Sell a Stock II - Leetcode 122 - Python]]
-	- https://www.youtube.com/watch?v=3SJ3pUkPQMc
-- [[(112) Combination Sum IV - Dynamic Programming - Leetcode 377 - Python]]
-	- https://www.youtube.com/watch?v=dw2nMCxG0ik
-- [[(113) Burst Baloons - Dynamic Programming - Leetcode 312 - Python]]
-	- https://www.youtube.com/watch?v=VFskby7lUbw
-- [[(114) Top K Frequent Elements - Bucket Sort - Leetcode 347 - Python]]
-	- https://www.youtube.com/watch?v=YPTqKIgVk-k
-- [[(115) Koko Eating Bananas - Binary Search - Leetcode 875 - Python]]
-	- https://www.youtube.com/watch?v=U2SozAs9RzA
-- [[(116) Number of Ways to Rearrange Sticks With K Sticks Visible - Dynamic Programming - Leetcode 1866]]
-	- https://www.youtube.com/watch?v=O761YBjGxGA
-- [[(117) Redundant Connection - Union Find - Leetcode 684 - Python]]
-	- https://www.youtube.com/watch?v=FXWRE67PLL0
-- [[(118) Serialize and Deserialize Binary Tree - Preorder Traversal - Leetcode 297 - Python]]
-	- https://www.youtube.com/watch?v=u4JAi2JJhI8
-- [[(119) Partition Equal Subset Sum - Dynamic Programming - Leetcode 416 - Python]]
-	- https://www.youtube.com/watch?v=IsvocB5BJhw
-- [[(120) Word Break - Dynamic Programming - Leetcode 139 - Python]]
-	- https://www.youtube.com/watch?v=Sx9NNgInc3A
-- [[(121) Hand of Straights - Leetcode 846 - Python]]
-	- https://www.youtube.com/watch?v=amnrMCVd2YI
-- [[(122) Free Leetcode Premium Questions - Meeting Rooms - Leetcode 252 - Python]]
-	- 
-- [[(123) Jump Game VII - Leetcode 1871 - Python]]
-	- https://www.youtube.com/watch?v=v1HpZUnQ4Yo
-- [[(124) Meeting Rooms II - Leetcode 253 - Python]]
-	- 
-- [[(125) Lowest Common Ancestor of a Binary Search Tree - Leetcode 235 - Python]]
-	- https://www.youtube.com/watch?v=gs2LMfuOR9k
-- [[(126) Product of Array Except Self - Leetcode 238 - Python]]
-	- https://www.youtube.com/watch?v=bNvIQI2wAjk
-- [[(127) Longest Repeating Character Replacement - Leetcode 424 - Python]]
-	- https://www.youtube.com/watch?v=gqXU1UyA8pk
-- [[(128) Graph Valid Tree - Leetcode 261 - Python]]
-	- 
-- [[(129) Pacific Atlantic Water Flow - Leetcode 417 - Python]]
-	- https://www.youtube.com/watch?v=s-VkcjHqkGI
-- [[(130) Palindromic Substrings - Leetcode 647 - Python]]
-	- https://www.youtube.com/watch?v=4RACzI5-du8
-- [[(131) Process Tasks Using Servers - Leetcode 1882 - Python]]
-	- https://www.youtube.com/watch?v=XKA22PecuMQ
-- [[(132) Merge Sorted Array - Leetcode 88 - Python]]
-	- https://www.youtube.com/watch?v=P1Ic85RarKY
-- [[(133) Design Add and Search Words Data Structure - Leetcode 211 - Python]]
-	- https://www.youtube.com/watch?v=BTf05gs_8iU
-- [[(134) Combination Sum - Backtracking - Leetcode 39 - Python]]
-	- https://www.youtube.com/watch?v=GBKI9VSKdGg
-- [[(135) Binary Tree Maximum Path Sum - DFS - Leetcode 124 - Python]]
-	- https://www.youtube.com/watch?v=Hr5cWUld4vU
-- [[(136) Stickers to Spell Word - DP Memoization - Leetcode 691 - Python]]
-	- https://www.youtube.com/watch?v=hsomLb6mUdI
-- [[(137) Climbing Stairs - Dynamic Programming - Leetcode 70 - Python]]
-	- https://www.youtube.com/watch?v=Y0lT9Fck7qI
-- [[(138) Minimum Number of Flips to make Binary String Alternating - Sliding Window - Leetcode 1888 - Python]]
-	- https://www.youtube.com/watch?v=MOeuK6gaC2A
-- [[(139) Counting Bits - Dynamic Programming - Leetcode 338 - Python]]
-	- https://www.youtube.com/watch?v=RyBM56RIWrM
-- [[(140) Word Search II - Backtracking Trie - Leetcode 212 - Python]]
-	- https://www.youtube.com/watch?v=asbcE9mZz_U
-- [[(141) Number of Connected Components in an Undirected Graph - Union Find - Leetcode 323 - Python]]
-	- 
-- [[(142) Alien Dictionary - Topological Sort - Leetcode 269 - Python]]
-	- 
-- [[(143) Maximum Depth of Binary Tree - 3 Solutions - Leetcode 104 - Python]]
-	- https://www.youtube.com/watch?v=hTM3phVI6YQ
-- [[(144) Prim's Algorithm - Minimum Spanning Tree - Min Cost to Connect all Points - Leetcode 1584 - Python]]
-	- https://www.youtube.com/watch?v=f7JOBJIC-NA
-- [[(145) Merge Triplets to Form Target Triplet - Greedy - Leetcode 1899 - Python]]
-	- https://www.youtube.com/watch?v=kShkQLQZ9K4
-- [[(146) Maximum Number of Removable Characters - Binary Search - Leetcode 1898 - Python]]
-	- https://www.youtube.com/watch?v=NMP3nRPyX5g
-- [[(147) Find the Duplicate Number - Floyd's Cycle Detection - Leetcode 287 - Python]]
-	- https://www.youtube.com/watch?v=wjYnzkAhcNk
-- [[(148) N-Queens - Backtracking - Leetcode 51 - Python]]
-	- https://www.youtube.com/watch?v=Ph95IHmRp5M
-- [[(149) Subarray Sum Equals K - Prefix Sums - Leetcode 560 - Python]]
-	- https://www.youtube.com/watch?v=fFVZt-6sgyo
-- [[(150) Minimum Number of Days to Eat N Oranges - Dynamic Programming - Leetcode 1553 - Python]]
-	- https://www.youtube.com/watch?v=LziQ6Qx9sks
-- [[(151) Linked List Cycle - Floyd's Tortoise and Hare - Leetcode 141 - Python]]
-	- https://www.youtube.com/watch?v=gBTe7lFR3vc
-- [[(152) Daily Temperatures - Monotonic Stack - Leetcode 739 - Python]]
-	- https://www.youtube.com/watch?v=cTBiBSnjO3c
-- [[(153) Count Sub Islands - DFS - Leetcode 1905 - Python]]
-	- https://www.youtube.com/watch?v=mLpW3qfbNJ8
-- [[(154) Swim in Rising Water - Dijkstra's Algorithm - Leetcode 778 - Python]]
-	- https://www.youtube.com/watch?v=amvrKlMLuGY
-- [[(155) Walls and Gates - Multi-Source BFS - Leetcode 286 - Python]]
-	- 
-- [[(156) Word Ladder - Breadth First Search - Leetcode 127 - Python]]
-	- https://www.youtube.com/watch?v=h9iTnkgv05E
-- [[(157) Maximum Alternating Subsequence Sum - Dynamic Programming - Leetcode 1911 - Python]]
-	- https://www.youtube.com/watch?v=4v42XOuU1XA
-- [[(158) Microsoft's Most Asked Question 2021 - Count Good Nodes in a Binary Tree - Leetcode 1448 - Python]]
-	- https://www.youtube.com/watch?v=7cp5imvDzl4
-- [[(159) Facebook's Most Asked Question 2021 - Verifying an Alien Dictionary - Leetcode 953 - Python]]
-	- https://www.youtube.com/watch?v=OVgPAJIyX6o
-- [[(160) GOOGLE MOST ASKED QUESTION 2021 - Maximum Points you can Obtain from Cards - Leetcode 1423 - Python]]
-	- https://www.youtube.com/watch?v=TsA4vbtfCvo
-- [[(161) Linkedin Interview Question - Reorder List - Leetcode 143 - Python]]
-	- https://www.youtube.com/watch?v=S5bfdUTrKLM
-- [[(162) K Closest Points to Origin - Heap  and  Priority Queue - Leetcode 973 - Python]]
-	- https://www.youtube.com/watch?v=rI2EBUEMfTk
-- [[(163) Paint House - Dynamic Programming - Leetcode 256 - Python]]
-	- https://www.youtube.com/watch?v=-w67-4tnH5U
-- [[(164) Eliminate Maximum Number of Monsters - Leetcode 1921 -  Weekly Contest 248 - Python]]
-	- https://www.youtube.com/watch?v=6QQRayzOTD4
-- [[(165) Valid Sudoku - Amazon Interview Question - Leetcode 36 - Python]]
-	- https://www.youtube.com/watch?v=TjFXEUCMqI8
-- [[(166) Decode Ways - Dynamic Programming - Leetcode 91 - Python]]
-	- https://www.youtube.com/watch?v=6aEyTjOwlJU
-- [[(167) Multiply Strings - Leetcode 43 - Python]]
-	- https://www.youtube.com/watch?v=1vZswirL8Y8
-- [[(168) Reverse Bits - Binary - Leetcode 190 - Python]]
-	- https://www.youtube.com/watch?v=UcoN6UjAI64
-- [[(169) Unique Length-3 Palindromic Subsequences - Leetcode 1930 - Python]]
-	- https://www.youtube.com/watch?v=3THUt0vAFLU
-- [[(170) Rotate Array - Leetcode 189 - Python]]
-	- https://www.youtube.com/watch?v=BHr381Guz3Y
-- [[(171) Combination Sum II - Backtracking - Leetcode 40 - Python]]
-	- https://www.youtube.com/watch?v=rSA3t6BDDwg
-- [[(172) Encode and Decode Strings - Leetcode 271 - Python]]
-	- 
-- [[(173) Minimum Path Sum - Dynamic Programming - Leetcode 64 - Python]]
-	- https://www.youtube.com/watch?v=pGMsrvt0fpk
-- [[(174) Insert Interval - Leetcode 57 - Python]]
-	- https://www.youtube.com/watch?v=A8NUOmlwOlM
-- [[(175) Robot Bounded in Circle - Math & Geometry - Leetcode 1041 - Python]]
-	- https://www.youtube.com/watch?v=nKv2LnC_g6E
-- [[(176) Missing Number - Blind 75 - Leetcode 268 - Python]]
-	- https://www.youtube.com/watch?v=WnPLSRLSANE
-- [[(177) Decode String - Leetcode 394 - Python]]
-	- https://www.youtube.com/watch?v=qB0zZpBJlh8
-- [[(178) Last Stone Weight - Priority Queue - Leetcode 1046 - Python]]
-	- https://www.youtube.com/watch?v=B-QCq79-Vfw
-- [[(179) Check if Move is Legal - Biweekly Leetcode Contest - 1958 - Python]]
-	- https://www.youtube.com/watch?v=KxK33AcQZpQ
-- [[(180) Minimum Number of Swaps to Make String Balanced - Leetcode 1963 Weekly Contest - Python]]
-	- https://www.youtube.com/watch?v=3YDBT9ZrfaU
-- [[(181) Pascal's Triangle - Leetcode 118 - Python]]
-	- https://www.youtube.com/watch?v=nPVEaB3AjUM
-- [[(182) Flip Equivalent Binary Trees - Leetcode 951 - Python]]
-	- https://www.youtube.com/watch?v=izRDc1il9Pk
-- [[(183) Array With Elements Not Equal to Average of Neighbors - Leetcode 1968 - Python]]
-	- https://www.youtube.com/watch?v=Wmb3YdVYfqM
-- [[(184) Surrounded Regions - Graph - Leetcode 130 - Python]]
-	- https://www.youtube.com/watch?v=9z2BunfoZ5Y
-- [[(185) Reverse Integer - Bit Manipulation - Leetcode 7 - Python]]
-	- https://www.youtube.com/watch?v=HAgLH58IgJQ
-- [[(186) Palindrome Number - Leetcode 9 - Python]]
-	- https://www.youtube.com/watch?v=yubRKwixN-U
-- [[(187) Pow(x, n) - X to the power of N - Leetcode 50 - Python]]
-	- https://www.youtube.com/watch?v=g9YQyYi4IQQ
-- [[(188) ZigZag Conversion - Leetcode 6 - Python]]
-	- https://www.youtube.com/watch?v=Q2Tw6gcVEwc
-- [[(189) Find Unique Binary String - Leetcode Weekly Contest 1980 - Python]]
-	- https://www.youtube.com/watch?v=aHqn4Dynd1k
-- [[(190) Coin Change 2 - Dynamic Programming Unbounded Knapsack - Leetcode 518 - Python]]
-	- https://www.youtube.com/watch?v=Mjy4hd2xgrs
-- [[(191) Balanced Binary Tree - Leetcode 110 - Python]]
-	- https://www.youtube.com/watch?v=QfJsau0ItOY
-- [[(192) Kth Largest Element in an Array - Quick Select - Leetcode 215 - Python]]
-	- https://www.youtube.com/watch?v=XEmy13g1Qxc
-- [[(193) Roman to Integer - Leetcode 13 - Python]]
-	- https://www.youtube.com/watch?v=3jdxYj3DD98
-- [[(194) Minimum Difference Between Highest and Lowest of K Scores - Leetcode Weekly Contest - 1984 Python]]
-	- https://www.youtube.com/watch?v=JU5XdBZZtlk
-- [[(195) Find the Kth Largest Integer in the Array - Leetcode Weekly Contest - 1985 Python]]
-	- https://www.youtube.com/watch?v=lRCaNiqO3xI
-- [[(196) Combinations - Leetcode 77 - Python]]
-	- https://www.youtube.com/watch?v=q0s6m7AiM7o
-- [[(197) Bellman-Ford - Cheapest Flights within K Stops - Leetcode 787 - Python]]
-	- https://www.youtube.com/watch?v=5eIK3zUdYmE
-- [[(198) Longest Common Prefix - Leetcode 14 - Python]]
-	- https://www.youtube.com/watch?v=0sWShKIJoo4
-- [[(199) Operations on Tree - Leetcode Biweekly Contest - 1993 - Python]]
-	- https://www.youtube.com/watch?v=qK4PtjrVD0U
-- [[(200) Remove Duplicates from Sorted Array - Leetcode 26 - Python]]
-	- https://www.youtube.com/watch?v=DEJAZBq0FDA
-- [[(201) Ugly Number - Leetcode 263 - Python]]
-	- https://www.youtube.com/watch?v=M0Zay1Qr9ws
-- [[(202) Minimum Cost for Tickets - Dynamic Programming - Leetcode 983 - Python]]
-	- https://www.youtube.com/watch?v=4pY1bsBpIY4
-- [[(203) Length of Last Word - Leetcode 58 - Python]]
-	- https://www.youtube.com/watch?v=KT9rltZTybQ
-- [[(204) Number of Pairs of Interchangeable Rectangles - Leetcode 2001 - Python]]
-	- https://www.youtube.com/watch?v=lEQ8ZlLOuyQ
-- [[(205) Maximum Product of the Length of Two Palindromic Subsequences - Leetcode 2002 - Python]]
-	- https://www.youtube.com/watch?v=aoHbYlO8vDg
-- [[(206) Remove Element - Leetcode 27 - Python]]
-	- https://www.youtube.com/watch?v=Pcd1ii9P9ZI
-- [[(207) Detect Squares - Leetcode Weekly Contest - Problem 2013 - Python]]
-	- https://www.youtube.com/watch?v=bahebearrDc
-- [[(208) All Possible Full Binary Trees - Memoization - Leetcode 894 - Python]]
-	- https://www.youtube.com/watch?v=nZtrZPTTCAo
-- [[(209) Integer to Roman - Leetcode 12 - Python]]
-	- https://www.youtube.com/watch?v=ohBNdSJyLh8
 - [[(210) Maximum Length of a Concatenated String with Unique Characters - Leetcode 1239 - Python]]
 	- https://www.youtube.com/watch?v=d4SPuvkaeoo
 - [[(211) Grid Game - Leetcode Weekly Contest Problem 2017 - Python]]
