@@ -120,5 +120,5 @@ Space Complexity: $O(E)$
 - Where E is the number of tickets (edges) and V is the number of airports (vertices)
 ## References
 
-[^1]: https://www.youtube.com/watch?v=ZyB_gQ8vqGA
+[^1]: [Reconstruct Itinerary - Leetcode 332 - Python](https://www.youtube.com/watch?v=ZyB_gQ8vqGA)
 [^2]: https://neetcode.io/solutions/reconstruct-itinerary

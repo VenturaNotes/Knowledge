@@ -141,5 +141,5 @@ Time Complexity: $O(n^2)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=TjFXEUCMqI8
+[^1]: [Valid Sudoku - Amazon Interview Question - Leetcode 36 - Python](https://www.youtube.com/watch?v=TjFXEUCMqI8)
 [^2]: https://neetcode.io/solutions/valid-sudoku

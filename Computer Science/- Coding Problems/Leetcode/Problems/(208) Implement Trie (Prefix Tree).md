@@ -145,5 +145,5 @@ Space Complexity: $O(t)$
 - Where $n$ is the length of the string and $t$ is the total number of TrieNodes created in the Trie.
 ## References
 
-[^1]: https://www.youtube.com/watch?v=oobqoCJlHA0
+[^1]: [Implement Trie (Prefix Tree) - Leetcode 208](https://www.youtube.com/watch?v=oobqoCJlHA0)
 [^2]: https://neetcode.io/solutions/implement-trie-prefix-tree

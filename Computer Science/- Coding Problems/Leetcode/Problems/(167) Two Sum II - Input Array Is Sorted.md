@@ -99,5 +99,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=cQ1Oz4ckceM
+[^1]: [TWO SUM II - Amazon Coding Interview Question - Leetcode 167 - Python](https://www.youtube.com/watch?v=cQ1Oz4ckceM)
 [^2]: https://neetcode.io/solutions/two-sum-ii-input-array-is-sorted

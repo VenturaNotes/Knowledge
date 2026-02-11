@@ -5,7 +5,7 @@ Reviewed: false
 tags:
   - in-progress
 ---
-### My Solution
+## My Solution
 ```python
 class Solution:
     def isPalindrome(self, x: int) -> bool:
@@ -55,4 +55,8 @@ class Solution:
 	- Time Complexity: $O(log_{10}(10))$
 		- We divided the input by 10 for every iteration
 	- Space Complexity: $O(1)$
+## Source[^1]
+- 
+## References
 
+[^1]: [Palindrome Number - Leetcode 9 - Python](https://www.youtube.com/watch?v=yubRKwixN-U)

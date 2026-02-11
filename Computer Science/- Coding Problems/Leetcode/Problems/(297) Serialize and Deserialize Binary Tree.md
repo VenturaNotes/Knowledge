@@ -152,8 +152,7 @@ class Codec:
 ```
 Time Complexity: $O(n)$
 Space Complexity: $O(n)$
-
 ## References
 
-[^1]: https://www.youtube.com/watch?v=u4JAi2JJhI8
+[^1]: [Serialize and Deserialize Binary Tree - Preorder Traversal - Leetcode 297 - Python](https://www.youtube.com/watch?v=u4JAi2JJhI8)
 [^2]: https://neetcode.io/solutions/serialize-and-deserialize-binary-tree

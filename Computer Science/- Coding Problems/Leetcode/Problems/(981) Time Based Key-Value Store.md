@@ -141,5 +141,5 @@ Space Complexity: $O(m*n)$
 - Where $n$ is the total number of values associated with a key and $m$ is the total number of keys
 ## References
 
-[^1]: https://www.youtube.com/watch?v=fu2cD_6E8Hw
+[^1]: [Time Based Key-Value Store - Leetcode 981 - Python](https://www.youtube.com/watch?v=fu2cD_6E8Hw)
 [^2]: https://neetcode.io/solutions/time-based-key-value-store

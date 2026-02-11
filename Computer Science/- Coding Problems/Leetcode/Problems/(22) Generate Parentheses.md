@@ -119,5 +119,5 @@ Time Complexity: $O(\frac {4^n}{\sqrt{n}})$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=s9fokUqJ76A
+[^1]: [Generate Parentheses - Stack - Leetcode 22](https://www.youtube.com/watch?v=s9fokUqJ76A)
 [^2]: https://neetcode.io/solutions/generate-parentheses

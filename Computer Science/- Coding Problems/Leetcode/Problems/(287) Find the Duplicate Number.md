@@ -165,5 +165,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=wjYnzkAhcNk
+[^1]: [Find the Duplicate Number - Floyd's Cycle Detection - Leetcode 287 - Python](https://www.youtube.com/watch?v=wjYnzkAhcNk)
 [^2]: https://neetcode.io/solutions/find-the-duplicate-number

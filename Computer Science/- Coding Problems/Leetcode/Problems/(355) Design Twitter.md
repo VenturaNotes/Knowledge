@@ -130,5 +130,5 @@ Space Complexity: $O(N*m + N*M+n)$
 - Where $n$ is the total number of $followeeIds$ associated with the $userId$, $m$ is the maximum number of tweets by any user, $N$ is the total number of $userIds$ and $M$ is the maximum number of followees for any user.
 ## References
 
-[^1]: https://www.youtube.com/watch?v=pNichitDD2E
+[^1]: [Design Twitter - Leetcode 355 - Python](https://www.youtube.com/watch?v=pNichitDD2E)
 [^2]: https://neetcode.io/solutions/design-twitter

@@ -115,5 +115,5 @@ Space Complexity: $O(n+m)$
 - Where $n$ is the number of cities, $m$ is the number of flights and $k$ is the number of stops
 ## References
 
-[^1]: https://www.youtube.com/watch?v=5eIK3zUdYmE
+[^1]: [Bellman-Ford - Cheapest Flights within K Stops - Leetcode 787 - Python](https://www.youtube.com/watch?v=5eIK3zUdYmE)
 [^2]: https://neetcode.io/solutions/cheapest-flights-within-k-stops

@@ -68,9 +68,7 @@ class KthLargest:
 Time Complexity: $O(m*logk)$
 Space Complexity: $O(k)$
 - Where $m$ is the number of calls made to $add()$
-
-
 ## References
 
-[^1]: https://www.youtube.com/watch?v=hOjcdrqMoQ8
+[^1]: [Kth Largest Element in a Stream - Leetcode 703 - Python](https://www.youtube.com/watch?v=hOjcdrqMoQ8)
 [^2]: https://neetcode.io/solutions/kth-largest-element-in-a-stream

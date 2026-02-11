@@ -135,5 +135,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=UbyhOgBN834
+[^1]: [Permutation in String - Leetcode 567 - Python](https://www.youtube.com/watch?v=UbyhOgBN834)
 [^2]: https://neetcode.io/solutions/permutation-in-string

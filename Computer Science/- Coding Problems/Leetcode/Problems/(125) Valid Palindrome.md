@@ -137,5 +137,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=jJXJ16kPFWg
+[^1]: [Valid Palindrome - Leetcode 125 - Python](https://www.youtube.com/watch?v=jJXJ16kPFWg)
 [^2]: https://neetcode.io/solutions/valid-palindrome

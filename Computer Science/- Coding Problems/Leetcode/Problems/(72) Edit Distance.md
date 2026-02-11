@@ -158,5 +158,5 @@ Space Complexity: $O(min(m,n))$
 - While $m$ is the length of $word1$ and $n$ is the length of $word2$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=XYi2-LPrwm4
+[^1]: [Edit Distance - Dynamic Programming - Leetcode 72 - Python](https://www.youtube.com/watch?v=XYi2-LPrwm4)
 [^2]: https://neetcode.io/solutions/edit-distance

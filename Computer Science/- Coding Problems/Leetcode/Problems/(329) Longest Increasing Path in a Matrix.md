@@ -142,5 +142,5 @@ Space Complexity: $O(m*n)$
 - Where $m$ is the number of rows and $n$ is the number of columns in the given $matrix$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=wCc_nd-GiEc
+[^1]: [Longest Increasing Path in a Matrix - Leetcode 329](https://www.youtube.com/watch?v=wCc_nd-GiEc)
 [^2]: https://neetcode.io/solutions/longest-increasing-path-in-a-matrix

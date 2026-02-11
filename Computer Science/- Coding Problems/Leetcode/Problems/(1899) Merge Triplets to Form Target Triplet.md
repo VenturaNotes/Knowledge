@@ -59,5 +59,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=kShkQLQZ9K4
+[^1]: [Merge Triplets to Form Target Triplet - Greedy - Leetcode 1899 - Python](https://www.youtube.com/watch?v=kShkQLQZ9K4)
 [^2]: https://neetcode.io/solutions/merge-triplets-to-form-target-triplet

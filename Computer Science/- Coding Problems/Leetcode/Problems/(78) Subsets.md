@@ -89,5 +89,5 @@ Time Complexity: $O(n*2^n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=REOH22Xwdkk
+[^1]: [Subsets - Backtracking - Leetcode 78](https://www.youtube.com/watch?v=REOH22Xwdkk)
 [^2]: https://neetcode.io/solutions/subsets

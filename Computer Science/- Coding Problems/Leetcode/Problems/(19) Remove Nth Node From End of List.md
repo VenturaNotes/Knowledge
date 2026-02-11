@@ -149,5 +149,5 @@ Time Complexity: $O(N)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=XVuQxVej6y8
+[^1]: [Remove Nth Node from End of List - Oracle Interview Question - Leetcode 19](https://www.youtube.com/watch?v=XVuQxVej6y8)
 [^2]: https://neetcode.io/solutions/remove-nth-node-from-end-of-list

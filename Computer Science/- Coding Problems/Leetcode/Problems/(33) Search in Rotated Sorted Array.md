@@ -154,5 +154,5 @@ Time Complexity: $O(logn)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=U8XENwh8Oy8
+[^1]: [Search in rotated sorted array - Leetcode 33 - Python](https://www.youtube.com/watch?v=U8XENwh8Oy8)
 [^2]: https://neetcode.io/solutions/search-in-rotated-sorted-array

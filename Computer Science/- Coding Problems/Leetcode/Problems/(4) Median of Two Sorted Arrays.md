@@ -169,5 +169,5 @@ Space Complexity: $O(1)$
 - Where $n$ is the length of $nums1$ and $m$ is the length of $nums2$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=q6IEA26hvXc
+[^1]: [Median of Two Sorted Arrays - Binary Search - Leetcode 4](https://www.youtube.com/watch?v=q6IEA26hvXc)
 [^2]: https://neetcode.io/solutions/median-of-two-sorted-arrays

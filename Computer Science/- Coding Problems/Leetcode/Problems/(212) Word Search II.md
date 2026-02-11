@@ -223,5 +223,5 @@ Space Complexity: $O(s)$
 - Where $m$ is the number of rows, $n$ is the number of columns, $t$ is the maximum length of any word in the array $words$ and $s$ is the sum of the lengths of all the words
 ## References
 
-[^1]: https://www.youtube.com/watch?v=asbcE9mZz_U
+[^1]: [Word Search II - Backtracking Trie - Leetcode 212 - Python](https://www.youtube.com/watch?v=asbcE9mZz_U)
 [^2]: https://neetcode.io/solutions/word-search-ii

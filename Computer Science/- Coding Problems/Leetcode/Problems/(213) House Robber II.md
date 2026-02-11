@@ -117,5 +117,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=rWAJCfYYOvM
+[^1]: [House Robber II - Dynamic Programming - Leetcode 213](https://www.youtube.com/watch?v=rWAJCfYYOvM)
 [^2]: https://neetcode.io/solutions/house-robber-ii

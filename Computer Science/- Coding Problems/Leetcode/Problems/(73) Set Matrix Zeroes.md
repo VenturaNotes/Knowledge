@@ -116,5 +116,5 @@ Space Complexity: $O(1)$
 - Where $m$ is the number of rows and $n$ is the number of columns.
 ## References
 
-[^1]: https://www.youtube.com/watch?v=T41rL0L3Pnw
+[^1]: [Set Matrix Zeroes - In-place - Leetcode 73](https://www.youtube.com/watch?v=T41rL0L3Pnw)
 [^2]: https://neetcode.io/solutions/set-matrix-zeroes

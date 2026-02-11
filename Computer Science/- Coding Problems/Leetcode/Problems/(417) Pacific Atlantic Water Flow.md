@@ -169,5 +169,5 @@ Space Complexity: $O(m*n)$
 - Where $m$ is the number of rows and $n$ is the number of columns
 ## References
 
-[^1]: https://www.youtube.com/watch?v=s-VkcjHqkGI
+[^1]: [Pacific Atlantic Water Flow - Leetcode 417 - Python](https://www.youtube.com/watch?v=s-VkcjHqkGI)
 [^2]: https://neetcode.io/solutions/pacific-atlantic-water-flow

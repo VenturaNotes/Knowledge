@@ -103,5 +103,5 @@ Time Complexity: $O(n^2)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=fMSJSS7eO1w
+[^1]: [Rotate Image - Matrix - Leetcode 48](https://www.youtube.com/watch?v=fMSJSS7eO1w)
 [^2]: https://neetcode.io/solutions/rotate-image

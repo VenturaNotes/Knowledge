@@ -193,5 +193,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=5LUXSvjmGCw
+[^1]: [Kth Smallest Element in a BST - Leetcode 230 - Python](https://www.youtube.com/watch?v=5LUXSvjmGCw)
 [^2]: https://neetcode.io/problems/kth-smallest-integer-in-bst

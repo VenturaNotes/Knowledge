@@ -15,12 +15,10 @@ Reviewed: false
 	- (3) [[(1) Two Sum]]
 	- (4) [[(49) Group Anagrams]]
 	- (5) [[(347) Top K Frequent Elements]]
-## Fix later
-- (6) [[(172) Encode and Decode Strings - Leetcode 271 - Python]]
-## To Fix
-- (7) [[(238) Product of Array Except Self]]
-- (8) [[(36) Valid Sudoku]]
-- (9) [[(128) Longest Consecutive Sequence]]
+	- (6) [[(271) Encode and Decode Strings|(172) Encode and Decode Strings - Leetcode 271 - Python]]
+	- (7) [[(238) Product of Array Except Self]]
+	- (8) [[(36) Valid Sudoku]]
+	- (9) [[(128) Longest Consecutive Sequence]]
 - Two Pointers (5)
 	- (10) [[(125) Valid Palindrome]]
 	- (11) [[(167) Two Sum II - Input Array Is Sorted]]
@@ -35,7 +33,7 @@ Reviewed: false
 	- (19) [[(739) Daily Temperatures]]
 	- (20) [[(853) Car Fleet]]
 	- (21) [[(84) Largest Rectangle in Histogram]]
-- Binary Search(7)
+- Binary Search (7)
 	- (22) [[(704) Binary Search]]
 	- (23) [[(74) Search a 2D Matrix]]
 	- (24) [[(875) Koko Eating Bananas]]
@@ -104,17 +102,17 @@ Reviewed: false
 	- (80) [[(200) Number of Islands]]
 	- (81) [[(695) Max Area of Island]]
 	- (82) [[(133) Clone Graph]]
-	- (83) [[(155) Walls and Gates - Multi-Source BFS - Leetcode 286 - Python]]
+	- (83) [[(286) Walls and Gates|(155) Walls and Gates - Multi-Source BFS - Leetcode 286 - Python]]
 	- (84) [[(994) Rotting Oranges]]
 	- (85) [[(417) Pacific Atlantic Water Flow]]
-	-  (86) [[(130) Surrounded Regions]]
+	- (86) [[(130) Surrounded Regions]]
 	- (87) [[(207) Course Schedule]]
 	- (88) [[(210) Course Schedule II]]
-	- (89) [[(128) Graph Valid Tree - Leetcode 261 - Python]]
-	- (90) [[(141) Number of Connected Components in an Undirected Graph - Union Find - Leetcode 323 - Python]]
+	- (89) [[(261) Graph Valid Tree|(128) Graph Valid Tree - Leetcode 261 - Python]]
+	- (90) [[(323) Number of Connected Components in an Undirected Graph|(141) Number of Connected Components in an Undirected Graph - Union Find - Leetcode 323 - Python]]
 	- (91) [[(684) Redundant Connection]]
 	- (92) [[(127) Word Ladder]]
-- 1-D DP
+- 1-D DP (12)
 	- (93) [[(70) Climbing Stairs]]
 	- (94) [[(746) Min Cost Climbing Stairs]]
 	- (95) [[(198) House Robber]]
@@ -131,8 +129,8 @@ Reviewed: false
 	- (105) [[(57) Insert Interval]]
 	- (106) [[(56) Merge Intervals]]
 	- (107) [[(435) Non-overlapping Intervals]]
-	- (108) [[(122) Free Leetcode Premium Questions - Meeting Rooms - Leetcode 252 - Python]]
-	- (109) [[(124) Meeting Rooms II - Leetcode 253 - Python]]
+	- (108) [[(920) Meeting Rooms|(122) Free Leetcode Premium Questions - Meeting Rooms - Leetcode 252 - Python]]
+	- (109) [[(253) Meeting Rooms II|(124) Meeting Rooms II - Leetcode 253 - Python]]
 	- (110) [[(1851) Minimum Interval to Include Each Query]]
 - Greedy (8)
 	- (111) [[(53) Maximum Subarray]]
@@ -148,7 +146,7 @@ Reviewed: false
 	- (120) [[(1584) Min Cost to Connect All Points]]
 	- (121) [[(743) Network Delay Time]]
 	- (122) [[(778) Swim in Rising Water]]
-	- (123) [[(142) Alien Dictionary - Topological Sort - Leetcode 269 - Python]]
+	- (123) [[(269) Alien Dictionary|(142) Alien Dictionary - Topological Sort - Leetcode 269 - Python]]
 	- (124) [[(787) Cheapest Flights Within K Stops]]
 - 2-D DP (11)
 	- (125) [[(62) Unique Paths]]

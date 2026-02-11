@@ -158,5 +158,5 @@ Time Complexity: $O(1)$ for all operations
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=qkLl7nAwDPo
+[^1]: [Design Min Stack - Amazon Interview Question - Leetcode 155 - Python](https://www.youtube.com/watch?v=qkLl7nAwDPo)
 [^2]: https://neetcode.io/solutions/min-stack

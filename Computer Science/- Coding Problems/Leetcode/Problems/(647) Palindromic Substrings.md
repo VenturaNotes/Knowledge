@@ -164,5 +164,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=4RACzI5-du8
+[^1]: [Palindromic Substrings - Leetcode 647 - Python](https://www.youtube.com/watch?v=4RACzI5-du8)
 [^2]: https://neetcode.io/solutions/palindromic-substrings

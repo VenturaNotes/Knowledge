@@ -156,5 +156,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=S5bfdUTrKLM
+[^1]: [Linkedin Interview Question - Reorder List - Leetcode 143 - Python](https://www.youtube.com/watch?v=S5bfdUTrKLM)
 [^2]: https://neetcode.io/solutions/reorder-list

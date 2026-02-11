@@ -149,7 +149,10 @@ class Solution:
 ```
 Time Complexity: $O(n!*n)$
 Space Complexity: $O(n!*n)$ for the output list
+## Source[^3]
+- 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=FZe0UqISmUw
+[^1]: [Permutations - Leetcode 46 - Python](https://www.youtube.com/watch?v=FZe0UqISmUw)
 [^2]: https://neetcode.io/solutions/permutations
+[^3]: [Backtracking: Permutations - Leetcode 46 - Python](https://www.youtube.com/watch?v=s7AvT7cGdSo)

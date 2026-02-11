@@ -146,5 +146,5 @@ Space Complexity: $O(1)$ since we have at most 26 different characters
 - Where $m$ is the number of tasks
 ## References
 
-[^1]: https://www.youtube.com/watch?v=s8p8ukTyA2I
+[^1]: [Task Scheduler - Leetcode 621 - Python](https://www.youtube.com/watch?v=s8p8ukTyA2I)
 [^2]: https://neetcode.io/solutions/task-scheduler

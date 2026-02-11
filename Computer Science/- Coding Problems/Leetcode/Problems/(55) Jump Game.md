@@ -103,5 +103,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=Yan0cv2cLy8
+[^1]: [Jump Game - Greedy - Leetcode 55](https://www.youtube.com/watch?v=Yan0cv2cLy8)
 [^2]: https://neetcode.io/solutions/jump-game

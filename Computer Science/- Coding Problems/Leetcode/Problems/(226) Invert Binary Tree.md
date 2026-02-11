@@ -111,5 +111,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=OnSn2XEQ4MY
+[^1]: [Invert Binary Tree - Depth First Search - Leetcode 226](https://www.youtube.com/watch?v=OnSn2XEQ4MY)
 [^2]: https://neetcode.io/problems/invert-a-binary-tree

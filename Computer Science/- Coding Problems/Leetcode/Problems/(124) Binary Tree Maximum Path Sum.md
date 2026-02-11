@@ -118,5 +118,5 @@ Space Complexity: $O(n)$
 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=Hr5cWUld4vU
+[^1]: [Binary Tree Maximum Path Sum - DFS - Leetcode 124 - Python](https://www.youtube.com/watch?v=Hr5cWUld4vU)
 [^2]: https://neetcode.io/solutions/binary-tree-maximum-path-sum

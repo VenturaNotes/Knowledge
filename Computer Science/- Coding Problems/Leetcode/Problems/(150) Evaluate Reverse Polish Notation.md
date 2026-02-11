@@ -177,5 +177,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=iu0082c4HDE
+[^1]: [Evaluate Reverse Polish Notation - Leetcode 150 - Python](https://www.youtube.com/watch?v=iu0082c4HDE)
 [^2]: https://neetcode.io/solutions/evaluate-reverse-polish-notation

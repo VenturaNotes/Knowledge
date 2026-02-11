@@ -96,5 +96,5 @@ class Solution:
 Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
-[^1]: https://www.youtube.com/watch?v=d4zLyf32e3I
+[^1]: [Binary Tree Right Side View - Breadth First Search - Leetcode 199](https://www.youtube.com/watch?v=d4zLyf32e3I)
 [^2]: https://neetcode.io/solutions/binary-tree-right-side-view

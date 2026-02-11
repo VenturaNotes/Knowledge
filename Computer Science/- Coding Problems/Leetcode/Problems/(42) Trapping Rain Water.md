@@ -138,5 +138,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=ZI2z5pq0TqA
+[^1]: [Trapping Rain Water - Google Interview Question - Leetcode 42](https://www.youtube.com/watch?v=ZI2z5pq0TqA)
 [^2]: https://neetcode.io/solutions/trapping-rain-water

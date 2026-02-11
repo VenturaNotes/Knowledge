@@ -90,5 +90,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=gBTe7lFR3vc
+[^1]: [Linked List Cycle - Floyd's Tortoise and Hare - Leetcode 141 - Python](https://www.youtube.com/watch?v=gBTe7lFR3vc)
 [^2]: https://neetcode.io/solutions/linked-list-cycle

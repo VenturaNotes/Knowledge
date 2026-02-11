@@ -92,5 +92,5 @@ Time Complexity: $O(logn)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=nIVW4P8b1VA
+[^1]: [Find Minimum in Rotated Sorted Array - Binary Search - Leetcode 153 - Python](https://www.youtube.com/watch?v=nIVW4P8b1VA)
 [^2]: https://neetcode.io/solutions/find-minimum-in-rotated-sorted-array

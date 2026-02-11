@@ -161,5 +161,5 @@ Time Complexity: $O(n*2^n)$
 Space Complexity: $O(n^2)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=3jvWodd7ht0
+[^1]: [Palindrome Partitioning - Backtracking - Leetcode 131](https://www.youtube.com/watch?v=3jvWodd7ht0)
 [^2]: https://neetcode.io/solutions/palindrome-partitioning

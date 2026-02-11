@@ -160,7 +160,10 @@ class Solution:
 ```
 Time Complexity: $O(n*2^n)$
 Space Complexity: $O(n)$
+## Source[^3]
+- 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=FOyRpNUSFeA
+[^1]: [Combination Sum II - Leetcode 40 - Python](https://www.youtube.com/watch?v=FOyRpNUSFeA)
 [^2]: https://neetcode.io/solutions/combination-sum-ii
+[^3]: [Combination Sum II - Backtracking - Leetcode 40 - Python](https://www.youtube.com/watch?v=rSA3t6BDDwg)

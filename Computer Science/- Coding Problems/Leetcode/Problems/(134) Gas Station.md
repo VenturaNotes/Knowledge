@@ -98,5 +98,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=lJwbPZGo05A
+[^1]: [Gas Station - Greedy - Leetcode 134 - Python](https://www.youtube.com/watch?v=lJwbPZGo05A)
 [^2]: https://neetcode.io/solutions/gas-station

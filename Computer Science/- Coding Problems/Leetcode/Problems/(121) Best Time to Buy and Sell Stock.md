@@ -83,5 +83,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=1pkOgXD63yU
+[^1]: [Sliding Window: Best Time to Buy and Sell Stock - Leetcode 121 - Python](https://www.youtube.com/watch?v=1pkOgXD63yU)
 [^2]: https://neetcode.io/solutions/best-time-to-buy-and-sell-stock

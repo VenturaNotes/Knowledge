@@ -100,5 +100,5 @@ Time Complexity: $O(n*4^n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=0snEunUacZY
+[^1]: [Letter Combinations of a Phone Number - Backtracking - Leetcode 17](https://www.youtube.com/watch?v=0snEunUacZY)
 [^2]: https://neetcode.io/solutions/letter-combinations-of-a-phone-number

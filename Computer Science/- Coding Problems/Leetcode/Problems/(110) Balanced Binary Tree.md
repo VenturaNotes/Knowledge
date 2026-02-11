@@ -129,5 +129,5 @@ Space Complexity: $O(n)$
 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=QfJsau0ItOY
+[^1]: [Balanced Binary Tree - Leetcode 110 - Python](https://www.youtube.com/watch?v=QfJsau0ItOY)
 [^2]: https://neetcode.io/solutions/balanced-binary-tree

@@ -129,5 +129,5 @@ Space Complexity: $O(m)$
 - Where $n$ is the length of the string and $m$ is the total number of unique characters in the string
 ## References
 
-[^1]: https://www.youtube.com/watch?v=gqXU1UyA8pk
+[^1]: [Longest Repeating Character Replacement - Leetcode 424 - Python](https://www.youtube.com/watch?v=gqXU1UyA8pk)
 [^2]: https://neetcode.io/solutions/longest-repeating-character-replacement

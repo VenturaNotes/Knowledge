@@ -83,5 +83,5 @@ Space Complexity: $O(1)$
 - Where $h$ is the height of the tree
 ## References
 
-[^1]: https://www.youtube.com/watch?v=gs2LMfuOR9k
+[^1]: [Lowest Common Ancestor of a Binary Search Tree - Leetcode 235 - Python](https://www.youtube.com/watch?v=gs2LMfuOR9k)
 [^2]: https://neetcode.io/solutions/lowest-common-ancestor-of-a-binary-search-tree

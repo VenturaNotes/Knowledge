@@ -149,5 +149,5 @@ Time Complexity: $O(logn)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=Y0lT9Fck7qI
+[^1]: [Climbing Stairs - Dynamic Programming - Leetcode 70 - Python](https://www.youtube.com/watch?v=Y0lT9Fck7qI)
 [^2]: https://neetcode.io/solutions/climbing-stairs

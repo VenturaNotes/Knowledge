@@ -287,5 +287,5 @@ Space Complexity: $O(k)$
 - Where $k$ is the total number of lists and $n$ is the total number of nodes across $k$ lists
 ## References
 
-[^1]: https://www.youtube.com/watch?v=q5a5OiGbT6Q
+[^1]: [Merge K Sorted Lists - Leetcode 23 - Python](https://www.youtube.com/watch?v=q5a5OiGbT6Q)
 [^2]: https://neetcode.io/solutions/merge-k-sorted-lists

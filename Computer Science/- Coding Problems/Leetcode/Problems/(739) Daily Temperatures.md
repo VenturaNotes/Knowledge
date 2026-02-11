@@ -104,5 +104,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=cTBiBSnjO3c
+[^1]: [Daily Temperatures - Monotonic Stack - Leetcode 739 - Python](https://www.youtube.com/watch?v=cTBiBSnjO3c)
 [^2]: https://neetcode.io/solutions/daily-temperatures

@@ -115,5 +115,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=ihj4IQGZ2zc
+[^1]: [Construct Binary Tree from Inorder and Preorder Traversal - Leetcode 105 - Python](https://www.youtube.com/watch?v=ihj4IQGZ2zc)
 [^2]: https://neetcode.io/solutions/construct-binary-tree-from-preorder-and-inorder-traversal

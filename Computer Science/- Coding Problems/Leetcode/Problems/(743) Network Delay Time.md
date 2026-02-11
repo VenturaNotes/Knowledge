@@ -160,5 +160,5 @@ Space Complexity: $O(V+E)$
 - Where $V$ is the number of vertices and $E$ is the number of edges
 ## References
 
-[^1]: https://www.youtube.com/watch?v=EaphyqKU4PQ
+[^1]: [Network Delay Time - Dijkstra's algorithm - Leetcode 743](https://www.youtube.com/watch?v=EaphyqKU4PQ)
 [^2]: https://neetcode.io/solutions/network-delay-time

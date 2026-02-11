@@ -51,6 +51,9 @@ class Solution:
 	- 29.41% Memory
 - #comment
 	- ![[Screenshot 2025-10-18 at 1.18.45 AM.png]]
+## Source[^2]
+- 
 ## References
 
 [^1]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/solutions/5540670/video-use-two-pointers-coding-exercise/
+[^2]: [Remove Duplicates from Sorted Array - Leetcode 26 - Python](https://www.youtube.com/watch?v=DEJAZBq0FDA)

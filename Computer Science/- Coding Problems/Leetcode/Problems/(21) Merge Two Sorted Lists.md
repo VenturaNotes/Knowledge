@@ -94,5 +94,5 @@ Space Complexity: $O(1)$
 - Where $n$ is the length of $list1$ and $m$ is the length of $list2$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=XIdigk956u0
+[^1]: [Merge Two Sorted Lists - Leetcode 21 - Python](https://www.youtube.com/watch?v=XIdigk956u0)
 [^2]: https://neetcode.io/solutions/merge-two-sorted-lists

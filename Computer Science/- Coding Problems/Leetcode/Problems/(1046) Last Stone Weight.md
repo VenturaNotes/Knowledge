@@ -127,5 +127,5 @@ Space Complexity: $O(w)$
 - Where $n$ is the length of the $stones$ array and $w$ is the maximum value in the $stones$ array.
 ## References
 
-[^1]: https://www.youtube.com/watch?v=B-QCq79-Vfw
+[^1]: [Last Stone Weight - Priority Queue - Leetcode 1046 - Python](https://www.youtube.com/watch?v=B-QCq79-Vfw)
 [^2]: https://neetcode.io/solutions/last-stone-weight

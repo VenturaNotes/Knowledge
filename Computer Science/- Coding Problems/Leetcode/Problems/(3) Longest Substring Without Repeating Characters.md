@@ -90,5 +90,5 @@ Space Complexity: $O(m)$
 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=wiGpQwVHdE0
+[^1]: [Longest Substring Without Repeating Characters - Leetcode 3 - Python](https://www.youtube.com/watch?v=wiGpQwVHdE0)
 [^2]: https://neetcode.io/solutions/longest-substring-without-repeating-characters

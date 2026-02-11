@@ -192,5 +192,5 @@ Space Complexity: $O(n+(m*t))$
 - Where $n$ is the length of the string $s$, $m$ is the number of words in $wordDict$ and $t$ is the maximum length of any word in $wordDict$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=Sx9NNgInc3A
+[^1]: [Word Break - Dynamic Programming - Leetcode 139 - Python](https://www.youtube.com/watch?v=Sx9NNgInc3A)
 [^2]: https://neetcode.io/solutions/word-break

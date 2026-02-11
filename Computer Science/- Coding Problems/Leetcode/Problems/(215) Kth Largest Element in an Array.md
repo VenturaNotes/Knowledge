@@ -140,8 +140,7 @@ class Solution:
 ```
 Time Complexity: $O(n)$ in average case, $O(n^2)$ in worst case.
 Space Complexity: $O(1)$
-
 ## References
 
-[^1]: https://www.youtube.com/watch?v=XEmy13g1Qxc
+[^1]: [Kth Largest Element in an Array - Quick Select - Leetcode 215 - Python](https://www.youtube.com/watch?v=XEmy13g1Qxc)
 [^2]: https://neetcode.io/solutions/kth-largest-element-in-an-array

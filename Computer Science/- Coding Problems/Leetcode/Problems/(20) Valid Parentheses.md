@@ -93,5 +93,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=WTzjTskDFMg
+[^1]: [Valid Parentheses - Stack - Leetcode 20 - Python](https://www.youtube.com/watch?v=WTzjTskDFMg)
 [^2]: https://neetcode.io/solutions/valid-parentheses

@@ -97,5 +97,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$ 
 ## References
 
-[^1]: https://www.youtube.com/watch?v=qMPX1AOa83k
+[^1]: [Single Number - Leetcode 136 - Python](https://www.youtube.com/watch?v=qMPX1AOa83k)
 [^2]: https://neetcode.io/solutions/single-number

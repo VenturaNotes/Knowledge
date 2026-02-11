@@ -165,5 +165,5 @@ Time Complexity: $O(nlogn)$
 Space Complexity: $O(1)$ or $O(n)$ depending on the sorting algorithm
 ## References
 
-[^1]: https://www.youtube.com/watch?v=nONCGxWoUfM
+[^1]: [Non-Overlapping Intervals - Leetcode 435 - Python](https://www.youtube.com/watch?v=nONCGxWoUfM)
 [^2]: https://neetcode.io/solutions/non-overlapping-intervals

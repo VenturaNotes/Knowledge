@@ -102,5 +102,5 @@ Space Complexity: $O(n)$
 - Where $n$ is the length of the array and $m$ is the maximum start value among all the intervals.
 ## References
 
-[^1]: https://www.youtube.com/watch?v=44H3cEC2fFM
+[^1]: [Merge Intervals - Sorting - Leetcode 56](https://www.youtube.com/watch?v=44H3cEC2fFM)
 [^2]: https://neetcode.io/solutions/merge-intervals

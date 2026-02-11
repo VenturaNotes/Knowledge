@@ -132,5 +132,5 @@ Time Complexity: $O(n*2^n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=Vn2v6ajA7U0
+[^1]: [Subsets II - Backtracking - Leetcode 90 - Python](https://www.youtube.com/watch?v=Vn2v6ajA7U0)
 [^2]: https://neetcode.io/solutions/subsets-ii

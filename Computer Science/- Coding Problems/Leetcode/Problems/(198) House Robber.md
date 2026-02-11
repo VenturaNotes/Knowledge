@@ -98,5 +98,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(1)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=73r3KWiEvyk
+[^1]: [House Robber - Leetcode 198 - Python Dynamic Programming](https://www.youtube.com/watch?v=73r3KWiEvyk)
 [^2]: https://neetcode.io/solutions/house-robber

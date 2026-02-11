@@ -135,9 +135,7 @@ class Solution:
 Time Complexity: $O(m*n)$
 Space Complexity: $O(min(m,n))$
 - Where $m$ is the length of the string $text1$ and $n$ is the length of the string $text2$
-
-
 ## References
 
-[^1]: https://www.youtube.com/watch?v=Ua0GhsJSlWM
+[^1]: [Longest Common Subsequence - Dynamic Programming - Leetcode 1143](https://www.youtube.com/watch?v=Ua0GhsJSlWM)
 [^2]: https://neetcode.io/solutions/longest-common-subsequence

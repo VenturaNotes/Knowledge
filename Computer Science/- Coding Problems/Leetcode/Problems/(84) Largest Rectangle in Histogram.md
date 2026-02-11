@@ -201,5 +201,5 @@ Time Complexity: $O(n)$
 Space Complexity: $O(n)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=zx5Sw9130L0
+[^1]: [LARGEST RECTANGLE IN HISTOGRAM - Leetcode 84 - Python](https://www.youtube.com/watch?v=zx5Sw9130L0)
 [^2]: https://neetcode.io/solutions/largest-rectangle-in-histogram

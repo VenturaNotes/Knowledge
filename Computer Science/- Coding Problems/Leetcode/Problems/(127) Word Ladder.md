@@ -195,5 +195,5 @@ Space Complexity: $O(m^2*n)$
 - Where $n$ is the number of words and $m$ is the length of the word
 ## References
 
-[^1]: https://www.youtube.com/watch?v=h9iTnkgv05E
+[^1]: [Word Ladder - Breadth First Search - Leetcode 127 - Python](https://www.youtube.com/watch?v=h9iTnkgv05E)
 [^2]: https://neetcode.io/solutions/word-ladder

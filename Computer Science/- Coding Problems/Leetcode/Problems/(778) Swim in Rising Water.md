@@ -212,5 +212,5 @@ Time Complexity: $O(n^2logn)$
 Space Complexity: $O(n^2)$
 ## References
 
-[^1]: https://www.youtube.com/watch?v=amvrKlMLuGY
+[^1]: [Swim in Rising Water - Dijkstra's Algorithm - Leetcode 778 - Python](https://www.youtube.com/watch?v=amvrKlMLuGY)
 [^2]: https://neetcode.io/solutions/swim-in-rising-water

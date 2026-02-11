@@ -17,4 +17,4 @@ class Solution:
 - 
 ## References
 
-[^1]: 
+[^1]: [Length of Last Word - Leetcode 58 - Python](https://www.youtube.com/watch?v=KT9rltZTybQ)
