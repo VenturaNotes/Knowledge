@@ -46,7 +46,6 @@ class Solution:
         else:
             return False
 
-
 '''
 Given Bed: 
 - Plots Planted
@@ -58,4 +57,4 @@ Given Bed:
 - 
 ## References
 
-[^1]: 
+[^1]: [Can Place Flowers - Leetcode 605 - Python](https://www.youtube.com/watch?v=ZGxqqjljpUI)

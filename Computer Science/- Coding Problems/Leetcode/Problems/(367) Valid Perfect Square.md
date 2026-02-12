@@ -35,4 +35,4 @@ class Solution:
 - 
 ## References
 
-[^1]: 
+[^1]: [Valid Perfect Square - Leetcode 367 - Python](https://www.youtube.com/watch?v=Cg_wWPHJ2Sk)

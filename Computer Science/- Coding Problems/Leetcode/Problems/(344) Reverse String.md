@@ -21,4 +21,4 @@ class Solution:
 - 
 ## References
 
-[^1]: 
+[^1]: [Reverse String - 3 Ways - Leetcode 344 - Python](https://www.youtube.com/watch?v=_d0T_2Lk2qA)
