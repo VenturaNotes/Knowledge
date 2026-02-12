@@ -34,17 +34,34 @@ class Solution:
 		# Checks if dictionaries the same
         return countS == countT
 ```
-## Key Terms
-- [[Anagram]]: A word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once [^1]
-
+## Source[^1]
+- [[Anagram]]: A word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once
 ## Source [^2]
+- ![[(242) Valid Anagram 2026-02-11 02.16.09.excalidraw]]
 - [[HashMap (python)|hashmap]]
-- This is an arrays and hashing type problem
-### Approach 1
-- Complexity (s and t are length string)
-	- Time Complexity: O(s + t)
-	- Space Complexity: O (s + t)
-		- Because we build a hashmap of this size
+	- This is an arrays and hashing type problem
+- Problem: We want to return `true` if two strings are an anagram of each other and false otherwise.
+- [[Anagram]]
+	- "rat" and "car" not anagrams because even though they contain the same number of characters, "rat" has a "t" while "car" has a "c"
+### First Approach
+- Want to count the occurrences of each character in both strings
+	- Could use an [[array]] or a [[HashMap (python)|hashmap]]
+		- hash map
+			- Will have 2 hash maps (one for each string)
+			- [[Key value]] in hash map is going to be the character in String S
+				- The [[key]] is going to be the character
+				- The [[value]] is going to be the count
+			- Once we built the hash maps, we can then go through the keys and compare that the counts for each character are the exact same.
+				- Just going to iterate through the keys of one of them (and make sure value of each key is the same)
+				- If we make sure that each string is the same length, then we just need to iterate through one of the hash maps when comparing it to the other hash map
+			- Time Complexity (S + T)
+				- Need to iterate through both strings
+			- Memory Complexity (S + T)
+				- Hash maps of size S + T
+			- Downside of solution is that we'll need some extra memory
+			- `countS[s[i]] = 1 + countS.get(s[i], 0)`
+				- This code adds `1` to character count. If it does not exist, it starts with `0` and adds the `1` to equal 1.
+			- The second solution we'll see will solve this memory problem
 
 ```python
 class Solution:
@@ -65,22 +82,24 @@ class Solution:
 		- This will throw a key error since the character may not exist in hashmap yet
 		- `count_[s[i]] = 1 + countS.get(s[i], 0)`
 			- The second parameter will get the default value if key doesn't exist in hashmap
-
-#### Variation
+- Complexity (s and t are length string)
+	- Time Complexity: O(s + t)
+	- Space Complexity: O (s + t)
+		- Because we build a hashmap of this size
+- #comment Below is an improvement. You could replace the first block of code with the second block
 ```python
 # Old
 for c in countS:
-	if countS[c] != countT.get(c, 0): #Ensures there is some 
+	if countS[c] != countT.get(c, 0):
 		return False
-
+		
 # New
 if countS != countT:
 	return False
-
 # This is because both hashmaps should be identical
 ```
 
-### Approach 2
+- The code below is basically the code written previously but sort of cheating (but does seem to perform better on LeetCode which isn't exactly the best metric to use)
 ```python
 from collections import Counter
 
@@ -89,14 +108,14 @@ class Solution:
         return Counter(s) == Counter(t)
 ```
 - Counter is a data structure in python which is a hashmap. Basically counts things for you. Could run a counter on both strings.
-
-### Solution with O(1) Memory
+### Second Approach in O(1) Memory
 - Could set both strings to be in sorted order
 	- Time complexity of sorting algorithms
 		- [[Bubble sort]] (Time complexity of $n^2$ )
 		- A good sorting algorithm could do it in O($nlogn$) time
-		- For some reason, interviewers just assume sorting doesn't take extra space
-- Then check if strings are equal
+			- The space complexity for sorting algorithms can be iffy. Usually good ones have a space complexity of $O(n)$ but sometimes they don't and just run on constant extra memory $O(1)$
+			- For some reason though, interviewers just assume sorting doesn't take extra space. Might be a good thing to discuss with interviewer beforehand
+- So sort it and then check if strings equal
 
 ```python
 class Solution:
@@ -104,16 +123,7 @@ class Solution:
         return sorted(s) == sorted(t)
 ```
 - Might need to write your own sorting algorithm
-## Approach 1
-- Could use [[Counter (Python)]] for python [^3]
-```python
-class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
-        return Counter(s) == Counter(t)
-```
-- However, this is not exactly a valid approach since [[Anagram|anagrams]] typically don't count spaces [^1] 
-
-## Approach 2 [^3]
+## Source [^3]
 - [[Time Complexity]] = $O(n)$
 ```python
 class Solution:
@@ -134,6 +144,13 @@ class Solution:
 
         return True
 ```
+- Could use [[Counter (Python)|Counter]] class within `collections` module
+```python
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        return Counter(s) == Counter(t)
+```
+- However, this is not exactly a valid approach since [[Anagram|anagrams]] typically don't count spaces [^1] 
 
 ## Source[^4]
 Compare two strings and return true if [[Anagram|anagrams]], false otherwise

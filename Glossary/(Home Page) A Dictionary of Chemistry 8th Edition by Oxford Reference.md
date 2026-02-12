@@ -2507,16 +2507,16 @@ Reviewed: false
 	2482. Hückel approximation
 	2483. Hückel rule
 	2484. Hume-Rothery electron concentration rules
-	2485. Hume-Rothery rules
+	2485. [[Hume-Rothery rules]]
 	2486. humectant
 	2487. Humphreys series
 	2488. Hund's rules
 	2489. Hund, Friedrich (1896-1997)
 	2490. Hund coupling cases
-	2491. hyaluronic acid
+	2491. [[hyaluronic acid]]
 	2492. hybrid orbital
 	2493. hydracid
-	2494. hydrate
+	2494. [[hydrate]]
 	2495. hydrated alumina
 	2496. hydrated aluminium hydroxide
 	2497. hydration

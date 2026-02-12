@@ -14,6 +14,33 @@ class Solution:
         return len(myset) != len(nums)
 ```
 - Difference between my solution and [[(217) Contains Duplicate#Solution 1|this]] solution is that my solution also has an O(n) time and memory complexity (according to leetcode), but my code unfortunately will always run through the entire list before returning True/False.  
+## Source [^1]
+- ![[(217) Contains Duplicate 2026-02-10 22.45.47.excalidraw]]
+	- Solving contains duplicate. From blind 75 list of questions. 
+	- Problem
+		- Return `true` if any value appears at least twice in the array, and return `false` if every element is distinct.
+	- (1) Brute Force Approach
+		- With brute force, time complexity is $n^2$ because given an array such as `[1, 2, 3, 1`, you first compare the first index with the others indices. Then you compare the second index with the other indices, and etc. 
+			- So Time complexity is $O(n^2)$ and Space complexity is $O(1)$ 
+	- (2) Sorting Approach
+		- To detect duplicate, you know the elements would be adjacent to each other. 
+		- Time Complexity: $O(nlogn)$ and Space complexity is $O(1)$
+	- (3) HashSet approach
+		- Allows us to insert elements into a HashMap in $O(1)$ time. So you add an element from the given array, check and if it does not exist, you move onto the next element in the array. You do need to add the previous element though into the HashMap if no duplicate was found.
+			- Time complexity: $O(n)$
+			- Space complexity: $O(n)$
+		- About as efficient we can get in terms of time complexity.
+```python
+class Solution:
+	def containsDuplicate(self, nums: List[int]) -> bool:
+		hashset = set()
+		
+		for n in nums:
+			if n in hashset:
+				return True
+			hashset.add(n)
+		return False
+```
 ## Approach #1
 Brute Force Solution (Time Limit Exceeded Error)
 ```python
@@ -81,7 +108,6 @@ Space: $O(1)$ (not including auxiliary space for sorting which is $O(n)$)
 
 ## Approach #3
 Using a [[HashSet]] to solve problem
-
 ### Solution #1
 - Video reference [^1]
 ```python
