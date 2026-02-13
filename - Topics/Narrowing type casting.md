@@ -2,6 +2,7 @@
 aliases:
   - explicit type casting
   - narrowing conversion
+  - narrowing casting
 ---
 ## Synthesis
 - 
@@ -10,7 +11,6 @@ aliases:
 - This occurs when you convert a value from a larger data type to a smaller data type.
 	- In Java, narrowing conversions may lead to loss of data and therefore require explicit casting
 		- #question Is there a difference between explicit type casting and explicit casting?
-
 ### Example
 Code
 ```java

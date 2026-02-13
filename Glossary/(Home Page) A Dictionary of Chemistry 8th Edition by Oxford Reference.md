@@ -2568,7 +2568,7 @@ Reviewed: false
 	2543. hydrosulphate
 	2544. hydrosulphide
 	2545. hydrosulphuric acid
-	2546. hydroxide
+	2546. [[hydroxide]]
 	2547. hydroxoacid
 	2548. hydroxonium ion
 	2549. 4-hydroxybutanoic acid
@@ -2622,8 +2622,8 @@ Reviewed: false
 	2597. indigo
 	2598. indium
 	2599. indole
-	2600. induced-fit model
-	2601. induced emission
+	2600. [[induced-fit model]]
+	2601. [[induced emission]]
 	2602. inductive effect
 	2603. industrial fermenter
 	2604. [[inelastic neutron scattering]]
