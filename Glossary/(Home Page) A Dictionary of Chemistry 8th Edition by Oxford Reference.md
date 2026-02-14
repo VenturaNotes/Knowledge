@@ -152,16 +152,16 @@ Reviewed: false
 	130. adsorption indicator
 	131. adsorption isotherm
 	132. adulterant
-	133. aerobic
+	133. aerobica
 	134. aerogel
 	135. aerosol
 	136. AES
-	137. affinity chromatography
+	137. [[affinity chromatography]]
 	138. aflatoxin
 	139. AFM
 	140. agar
 	141. agarose
-	142. agate
+	142. [[agate]]
 	143. agitator
 	144. air
 	145. air pollution
@@ -203,7 +203,7 @@ Reviewed: false
 	181. allosteric site
 	182. allotropy
 	183. allowed bands
-	184. allowed transition
+	184. [[allowed transition]]
 	185. alloy
 	186. alloy steels
 	187. allyl alcohol
