@@ -35,13 +35,13 @@ Reviewed: false
 	13. absorption coefficient
 	14. absorption indicator
 	15. absorption spectrum
-	16. absorption tower
+	16. [[absorption tower]]
 	17. ABS plastic
 	18. abstraction
 	19. abundance
 	20. ac
 	21. acac
-	22. accelerant
+	22. [[accelerant]]
 	23. accelerator
 	24. acceptor
 	25. accessory pigment
@@ -84,7 +84,7 @@ Reviewed: false
 	62. acidic hydrogen
 	63. acidimetry
 	64. acidity constant
-	65. acid rain
+	65. [[acid rain]]
 	66. acid salt
 	67. acid value
 	68. acridine
@@ -114,7 +114,7 @@ Reviewed: false
 	92. activated sludge process
 	93. activation analysis
 	94. activation energy
-	95. activator
+	95. [[activator]]
 	96. active mass
 	97. active site
 	98. activity
