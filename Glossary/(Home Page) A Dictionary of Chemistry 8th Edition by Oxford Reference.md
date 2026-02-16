@@ -204,7 +204,7 @@ Reviewed: false
 	182. allotropy
 	183. allowed bands
 	184. [[allowed transition]]
-	185. alloy
+	185. [[alloy]]
 	186. alloy steels
 	187. allyl alcohol
 	188. allyl group
@@ -213,7 +213,7 @@ Reviewed: false
 	191. alpha-naphthol test
 	192. alpha helix
 	193. alphamethyltryptamine
-	194. alpha particle
+	194. [[alpha particle]]
 	195. alternant
 	196. alum
 	197. alumina
@@ -257,7 +257,7 @@ Reviewed: false
 	235. ammonium carbonate
 	236. ammonium chloride
 	237. ammonium hydrogencarbonate
-	238. ammonium ion
+	238. [[ammonium ion]]
 	239. ammonium nitrate
 	240. ammonium sulphate
 	241. ammonium thiocyanate
