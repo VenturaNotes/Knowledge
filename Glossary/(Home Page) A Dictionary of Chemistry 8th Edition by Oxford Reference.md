@@ -261,7 +261,7 @@ Reviewed: false
 	239. ammonium nitrate
 	240. ammonium sulphate
 	241. ammonium thiocyanate
-	242. amorphous
+	242. [[amorphous]]
 	243. amount of substance
 	244. AMP
 	245. ampere
@@ -298,7 +298,7 @@ Reviewed: false
 	276. angle-resolved photoelectron spectroscopy
 	277. anglesite
 	278. angle strain
-	279. angstrom
+	279. [[angstrom]]
 	280. Angström, Anders Jonas (1814-74)
 	281. angular momentum
 	282. anharmonicity
@@ -313,7 +313,7 @@ Reviewed: false
 	291. anion
 	292. anionic detergent
 	293. anionic resin
-	294. anisotropic
+	294. [[anisotropic]]
 	295. annealing
 	296. annelation
 	297. annulation
