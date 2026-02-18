@@ -496,123 +496,728 @@ Math.sqrt(x);
 Math.random()
 ```
 ### Booleans
-- (1) Drag and drop the correct operator 
-- (2)
-- (3)
-- (4)
-- (5)
-- (6)
+- (1) Drag and drop the correct operator to check if 10 is greater than 9.
+```java
+System.out.println(10 > 9);
+```
+- (2) Drag and drop the correct operator to check if 10 is equal to 15.
+```java
+System.out.println(10 == 15);
+```
+- (3) What will be the result of the following code `System.out.println(10 > 9);`
+	- `True`
+- (4) Fill in the missing parts to print the values `true` and `false`:
+```java
+boolean isJavaFun = true;
+boolean isFishTasty = false;
+System.out.println(isJavaFun);
+System.out.println(isFishTasty);
+```
+- (5) Fill in the missing parts to print the value `true`:
+```java
+int x = 10;
+int y = 9;
+System.out.println(x > y);
+```
+- (6) What will be the result of the following code `System.out.prntln(10 == 15);`
+	- `false`
 ### If
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
-- (6)
+- (1) Drag and drop the correct keyword and condition to make the code print `Good Night.`
+```java
+int time = 20;
+if (time > 18){
+	System.out.println("Good Night");
+}
+```
+- (2) Drag and drop the correct condition to print `It's hot!` when the temperature is 30 or more celsius.
+```java
+int temperature = 30;
+if (temperature >= 30) {
+	System.out.println("It's hot!");
+}
+```
+- (3) What will be the result of the following code
+```java
+int number = 20;
+if (number > 5) {
+	System.out.println("Greater than 5");
+}
+// Result: Greater than 5
+```
+- (4) Drag and drop the correct condition to print `Pass` when the score is 75 or higher
+```java
+int score = 75;
+if (score >= 75) {
+	System.out.println("Pass");
+}
+```
+- (5) Print "Hello World" if `x` is greater than `y`
+```java
+int x = 50;
+int y = 10;
+if (x > y) {
+	System.out.println("Hello World");
+}
+```
+- (6) Print "Hello World" if `x` is equal to `y`.
+```java
+int x = 50;
+int y = 50;
+if (x == y) {
+	System.out.println("Hello World");
+}
+```
 ### If Else
-- (1)
-- (2)
-- (3)
-- (4)
+- (1) Drag and drop the correct text that will be printed when `time` is 20.
+```java
+int time = 20;
+if (time < 18) {
+	System.out.println("Good day");
+} else {
+	System.out.println("Good evening");
+}
+```
+- (2) What will be the result of the following code:
+```java
+int time = 20;
+if (time < 18) {
+	System.out.println("Good day");
+} else {
+	System.out.println("Good evening");
+}
+// Result: Good evening
+```
+- (3) Print "Yes" if `x` is equal to `y`, otherwise print "No".
+```java
+int x = 50;
+int y = 50;
+if (x == y) {
+	System.out.println("Yes");
+} else {
+	System.out.println("No");
+}
+```
+- (4) The `else` statement is used to specify a block of code to be executed if the condition in the `if` statement is:
+	- false
 ### Else if
-- (1)
-- (2)
-- (3)
+- (1) The `else if` statement is used to specify a new condition if the first condition in the `if` statement is
+	- false
+- (2) Print "1" if `x` is equal to `y`, print "2" if `x` is greater than `y`, otherwise print "3".
+```java
+int x = 50;
+int y = 50;
+if (x == y){
+	System.out.println("1");
+} else if (x > y) {
+	System.out.println("2");
+} else {
+	System.out.println("3");
+}
+```
+- (3) Insert the missing parts to output "Good evening":
+```java
+int time = 22;
+if (time < 10) {
+	System.out.println("Good morning.");
+} else if (time < 18) {
+	System.out.println("Good day.");
+} else {
+	System.out.println("Good evening.");
+}
+```
 ### Short Hand If Else
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
+- (1) Drag and drop the correct condition so the program prints `Pass` when `score` is 95.
+```java
+int score = 95;
+String grade = (score >= 50) ? "Pass" : "Fail";
+System.out.println(grade);
+```
+- (2) Drag and drop the correct results so the program prints `Odd` when the number is 5.
+```java
+int number = 5;  
+String result = (number % 2 == 0) ? "Even" : "Odd";  
+System.out.println(result);
+```
+- (3) True or False: The ternary operator consists of three operands: a condition, a result for true, and a result for false.
+	- #question What is a ternary operator?
+	- True
+- (4) Insert the missing parts to complete the following "short hand `if...else` statement" (ternary operator):
+```java
+int time = 20;
+String result = (time < 18) ? "Good day." : "Good evening.";
+System.out.println(result);
+```
+- (5) What will be the result of the following code
+```java
+int time = 22;  
+String res = (time < 18) ? "Good day." : "Good evening.";  
+System.out.println(res);
+
+// Output: Good evening
+```
 ### Switch
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
+- (1) Drag and drop the correct keywords to complete the `switch` structure
+```java
+int day = 2;  
+switch (day) {  
+	case 1:  
+		System.out.println("Monday");  
+		break;  
+	case 2:  
+		System.out.println("Tuesday");  
+		break;  
+}
+```
+- (2) Drag and drop the correct keywords to add a `default` case in the `switch` statement.
+```java
+int number = 5;  
+switch (number) {  
+	case 1:  
+		System.out.println("One");  
+		break;  
+	default:  
+		System.out.println("Not One");  
+}
+```
+- #question Do you not need a break for `default`? 
+- (3) True or False: The `switch` statement is used to select one of many code blocks to be executed, based on the value of an expression.
+	- True
+- (4) Insert the missing parts to complete the following `switch` statement.
+```java
+int day = 2;
+switch (day) {
+	case 1:
+		System.out.println("Saturday");
+		break;
+	case 2:
+		System.out.println("Sunday");
+		break;
+}
+```
+- (5) Complete the `switch` statement, and add the correct keyword at the end to specify some code to run if there is no case match in the `switch` statement.
+```java
+int day = 4;
+switch (day) {
+	case 1:
+		System.out.println("Saturday");
+		break;
+	case 2:
+		System.out.println("Sunday");
+		break;
+	default:
+		System.out.println("Weekend");
+}
+```
 ### While Loops
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
+- (1) Drag and drop the correct keyword to start the loop
+```java
+int i = 0;
+while (i < 3) {
+	System.out.println(i);
+	i++;
+}
+```
+- (2) Drag and drop the correct comparison operator to make the loop run 4 times (from 0 to 3).
+```java
+int i = 0;
+while (i <= 3) {
+	System.out.println(i);
+	i++;
+}
+```
+- (3) How many times will the following loop execute?
+```java
+int i = 0;
+while i < 4) {
+	i++;
+}
+// Result: 4 times
+```
+- (4) Print `i` as long as `i` is less than 6
+```java
+int i = 1:
+while (i < 6) {
+	System.out.println(i);
+	i++;
+}
+```
+- (5) What will happen if you run the following code?
+```java
+int i = 1:
+while (i == 1) {
+	System.out.println("Oops");
+}
+
+// Result: An infinite loop
+```
 ### Do While Loops
-- (1)
-- (2)
-- (3)
-- (4)
+- (1) Fill in the blanks to complete the do-while loop.
+```java
+int i = 0;
+do {
+	System.out.println(i);
+	i++
+} while (i < 3);
+```
+- (2) What is the difference between a `while` loop and a `do-while` loop?
+	- A do-while loop will execute at least once, while a while loop might not execute at all.
+- (3) Use the `do/while` loop to print `i` as long as `i` is less than 6.
+```java
+int i = 1;
+do {
+	System.out.println(i);
+	i++;
+}
+while (i < 6);
+```
+- (4) What will happen if you run the following code?
+```java
+int i = 0;
+do {
+	System.out.println(i);
+}
+while (i < 5);
+// Result: An infinite loop
+```
 ### For Loops
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
-- (6)
+- (1) Fill in the blanks to start a for loop
+```java
+for (int i = 0; i < 5; i++) {
+	System.out.println(i);
+}
+```
+- (2) Drag and drop the correct condition to stop the loop when `i` is no longer less than 5.
+```java
+for (int i = 0; i < 5; i++){
+	System.out.println(i);
+}
+```
+- (3) When you know exactly how many times you want to loop through a block of code, use a:
+	- for loop
+- (4) Use a `for` loop to print "Yes" 5 times:
+```java
+for (int i = 0; i < 5; i++){
+	System.out.print("Yes");
+}
+```
+- (5) Consider the following code:
+```java
+for (statement 1; statement 2; statement 3) {
+	// code block to be executed
+}
+```
+- What happens in statement 1?
+	- Statement 1 is executed once before the loop starts
+- (6) Consider the following code
+```java
+for (statement 1; statement 2; statement 3) {
+	// code block to be executed
+}
+```
+- What happens in statement 2?
+	- Statement 2 defines the condition for executing the code block
 ### Nested Loops
-- (1)
-- (2)
-- (3)
-- (4)
+- (1) Drag and drop the correct keyword to create the inner-loop
+```java
+for (int i = 1; i <= 2; i++) {
+	for (int j = 1; j <= 3; j++) {
+		System.out.print(i + "," + j + " ");
+	}
+}
+```
+- (2) What is the output of the following code?
+```java
+for (int i = 1; i <= 2; i++) {
+	for (int j = 1; j <= 3; j++) {
+		System.out.print(i + "," + j + " ");
+	}
+}
+// Output: 1,1 1,2 1,3 2,1 2,2 2,3
+```
+- (3) What does a "Nested Loop" mean?
+	- A loop placed inside another loop
+- (4) True or False: Regarding nested loops, the "inner loop" will be executed one time for each iteration of the "outer loop".
+	- True
 ### For-Each Loops
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
+- (1) Fill in the blanks to complete a for-each loop.
+```java
+int[] numbers = {10, 20, 30};
+for (int num : numbers) {
+	System.out.println(num);
+}
+```
+- #question Is this similar to a python's `for in {1,2,3}` statement? 
+- (2) Complete the for-each loop to print all car names
+```java
+String[] cars {"Volvo", "BMW", "Ford"};
+for (String car : cars) {
+	System.out.println(car);
+}
+```
+- (3) What is the output of the following code?
+```java
+int[] myNumbers = {1, 2, 3, 4, 5};
+for (int num : myNumbers) {
+	System.out.println(num);
+}
+
+/* Output
+1
+2
+3
+4
+5
+*/
+```
+- (4) True or False: You can use a for-each loop to loop through elements in a switch statement.
+	- False
+- (5) Loop through the items in the `cars` array
+```java
+String[] cars = {"Volvo", "BMW", "Ford"};
+for (String car : cars) {
+	System.out.println(car);
+}
+```
 ### Break and Continue
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
-- (6)
-- (7)
+- (1) Drag and drop the correct keyword to stop the loop when `i` is 3.
+```java
+for (int i = 0; i < 5; i++) {
+	if (i == 3) {
+		break;
+	}
+	System.out.println(i);
+}
+```
+- (2) Drag and drop the correct keyword to skip printing the number 2
+```java
+for (int i = 0; i < 5; i++) {
+	if (i == 2) {
+		continue;
+	}
+	System.out.println(i);
+}
+```
+- (3) Drag and drop the correct keywords to skip printing 2 and stop the loop at 4.
+```java
+for (int i = 0; i < 6; i++){
+	if (i == 2) {
+		continue;
+	}
+	if (i == 4){
+		break;
+	}
+	System.out.println(i);
+}
+```
+- (4) The `break` statement can only be used within switch statements
+	- False
+- (5) Stop the loop if `i` is 5
+```java
+for (int i = 0; i < 10; i++) {
+	if (i == 5) {
+		break;
+	}
+	System.out.println(i);
+}
+```
+- (6) In the loop, when the value is "4", jump directly to the next value.
+```java
+for (int i = 0; i < 10; i++) {
+	if (i == 4) {
+		continue;
+	}
+	System.out.println(i);
+}
+```
+- (7) What is the output of the following code?
+```java
+for (int i = 0; i < 6; i++) {
+	if (i == 4) {
+		continue;
+	}
+	System.out.println(i);
+}
+
+/* Output
+0
+1
+2
+3
+5
+*/
+```
+- 
 ### Arrays
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
-- (6)
-- (7)
-- (8)
---- Exercise
+- (1) Fill in the blanks to declare an integer array
+	- `int[] numbers = {1, 2, 3, 4, 5};`
+- (2) Drag and drop the correct type to declare a string array.
+	- `String[] cars = {"Volvo", "BMW", "Ford"};`
+- (3) Drag and drop the correct index to print "BMW"
+```java
+String[] cars = {"Volvo", "BMW", "Ford"};
+System.out.println(cars[1]);
+```
+- (4) How can you declare an array of strings?
+	- `String[] my Text;`
+- (5) Create an array of type `String` called `cars`
+```java
+String[] cars = {"Volvo", "BMW", "Ford"};
+```
+- (6) Print the second item in the `cars` array
+```java
+String[] cars = {"Volvo", "BMW", "Ford"};
+System.out.println(cars[1]);
+```
+- (7) Change the value from "Volvo" to "Opel", in the `cars` array.
+```java
+String[] cars = {"Volvo", "BMW", "Ford"};
+cars[0] = "Opel"
+System.out.println(cars[0]);
+```
+- (8) Find out how many elements the `cars` array have
+```java
+String[] cars = {"Volvo", "BMW", "Ford"};
+System.out.println(cars.length);
+```
+- #question Why can you do cars.length? Don't you need to do cars.length()?
 ### Arrays and Loops
-- (1)
-- (2)
-- (3)
-- (4)
+- (1) Complete the loop to print all numbers in the array.
+```java
+int[] numbers = {1, 2, 3};
+for (int num : numbers) {
+	System.out.prinln(num)
+}
+```
+- (2) What is the output of the following code?
+```java
+String[] cars = {"Volvo", "BMW", "Ford"};
+for (int i = 0; i < cars.length; i++) {
+	System.out.println(cars[i]);
+}
+
+/* Output
+Volvo
+BMW
+Ford
+*/
+```
+- (3) Loop through the items in the `cars` array
+```java
+String[] cars = {"Volvo", "BMW", "Ford"};
+for (String car : cars) {
+	System.out.println(car);
+}
+```
+- (4) What is the output of the following code?
+```java
+int[] myNumbers = {1, 2, 3, 4, 5};
+for (int num : myNumbers) {
+	System.out.println(num);
+}
+/*
+1
+2
+3
+4
+5
+*/
+```
 ### Multidimensional Arrays
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
-- (6)
-- (7)
-- (8)
+- (1) Drag and drop the correct index to print "Mazda"
+```java
+String[][] cars = {{"Volvo", "BMW"}, {"Ford", "Mazda"}};
+System.ou.println(cars[1][1]);
+```
+- (2) Drag and drop the correct indexes to print the number `6`
+```java
+int[][] numbers = { {1, 2, 3}, {4, 5, 6} };
+System.out.println(numbers[1][2]);
+```
+- (3) Fill in the blanks to declare a 2D array of integers
+```java
+int[][] matrix = { {1, 2}, {3, 4} };
+```
+- (4) Complete the nested for-each loops to print all elements of the 2D array.
+```java
+int[][] numbers = { {1, 2}, {3, 4} };
+for (int[] row : numbers) {
+	for (int num : row) {
+		System.out.println(num);
+	}
+}
+```
+- (5) What is a multidimensional array?
+	- An array of arrays
+- (6) Insert the missing parts to create a two-dimensional array
+	- `int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };`
+- (7) True or False: To access the elements of a multidimensional array, you must specify two indexes.
+	- True
+- (8) Yes or No: Is it possible to loop through a multidimensional array?
+	- Yes
 ### Methods
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
-- (6)
+- (1) Drag and drop the correct return type to declare a method that does not return a value
+```java
+public static void myMethod() {
+	System.out.println("Hello World");
+}
+```
+- (2) Drag and drop the correct statement to call the method inside `main`
+```java
+public class Main {
+	static void myMethod() {
+		System.out.println("Hello World");
+	}
+	
+	public static void main (String[] args) {
+		myMethod();
+	}
+}
+```
+- (3) How can you call a method in Java?
+	- By using the name of the method followed by two parentheses and a semicolon
+- (4) Insert the missing part to call `myMethod` from `main`
+```java
+static void myMethod() {
+	System.out.println("I just got executed!");
+}
+
+public static void main (String[] args){
+	myMethod();
+}
+```
+- (5) Insert the missing part to call `myMethod` from `main` two times
+```java
+static void myMethod() {
+	System.out.println("I just got executed!");
+}
+
+public static void main (String[] args){
+	myMethod();
+	myMethod();
+}
+```
+- (6) True or False: In Java, a method must be declared within a class.
+	- True
+		- #question Is there any other way to declare a method besides in a class. Why?
 ### Method Parameters
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
-- (6)
+- (1) Fill in the blanks to declare a method with a string and an integer parameter.
+```java
+static void myMethod(String name, int age) {
+	System.out.println(name + " is " + age);
+}
+```
+- (2) Fill in the blanks to make the code output `John` is `50`.
+```java
+static void myMethod(String name, int age) {
+	System.out.println(name + " is " + age);
+}
+
+public static void main(String[] args){
+	myMethod("John", 50)
+}
+```
+- (3) In simple words: Inside a method, what does a parameter act as?
+	- A variable
+- (4) Add a `fname` parameter of type `String` to `myMethod`, and output "John Doe".
+```java
+static void myMethod(String fname) {
+	System.out.println(fname + " Doe");
+}
+
+public static void main(String[] args) {
+	myMethod("John");
+}
+```
+- (5) What is the output of the following code?
+```java
+public class Main {
+	static void myMethod(String fname, int age) {
+		System.out.println(fname + " is " + age);
+	}
+	
+	public static void main(String[] args) {
+		myMethod("Liam", 5);
+	}
+}
+// Output: Liam is 5
+```
+- (6) Follow the comments to insert the missing parts of the code below
+```java
+// Create a checkAge() method with an integer variable called age
+static void main checkAge(int age) {
+
+	//If age is less than 18, print "Access denied":
+	if (age < 18) {
+		System.out.println("Access denied");
+	
+	// If age is greater than, or equal, to 18, print "Access granted"
+	} else {
+		System.out.println("Access Granted");
+	}
+}
+
+public static void main(String[] args) {
+	// Call the checkAge method and pass along an age of 20
+	checkAge(20);
+}
+```
 ### Return Values
-- (1)
-- (2)
-- (3)
-- (4)
-- (5)
-- (6)
-- (7)
+- (1) Fill in the blanks to declare a method that returns an integer sum of two numbers
+```java
+static int addNumbers(int x, int y) {
+	return x + y;
+}
+```
+- (2) Fill in the blanks to call the method and store the return value
+```java
+static int addNumbers(int x, int y) {
+	return x + y;
+}
+
+public static void main(String[] args){
+	int result = addNumbers(5, 3);
+	System.out.println(result);
+}
+```
+- (3) Fill in the blanks to declare a method that returns a greeting message as text.
+```java
+static String greet(String name) {
+	return "Hello " + name;
+}
+
+public static void main(String[] args) {
+	String message = greet("Liam");
+	System.out.println(message);
+}
+```
+- (4) Which keyword indicates that a method should not return a value?
+	- `void`
+- (5) Which keyword indicates that a method should return a value?
+	- `return`
+- (6) Insert the missing part to print the number 8 in `main`, by using a specific keywod inside `myMethod`:
+```java
+static int myMethod(int x) {
+	return 5 + x;
+}
+
+public static void main(String[] args) {
+	System.out.println(myMethod(3));
+}
+```
+- (7) What is the output of the following code?
+```java
+public class Main {
+	static int myMethod(int x, int y) {
+		return x + y;
+	}
+	
+	public static void main(String[] args) {
+		int z = myMethod(5, 3);
+		System.out.println(z);
+	}
+}
+// Output: 8
+```
 ### Method Overloading
 - (1)
 - (2)
