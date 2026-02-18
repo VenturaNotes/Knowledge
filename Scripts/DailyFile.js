@@ -3,7 +3,7 @@ module.exports = async (params) => {
 
     // --- CONFIGURATION ---
     // Updated extension to .base
-    const filePath = "Private/Bases/(B) Work.base"; 
+    const filePath = "Private/Tasks/(T) Daily.md"; 
     // ---------------------
 
     // 1. Find the file in the vault
