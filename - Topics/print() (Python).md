@@ -25,6 +25,18 @@ Hello World
 This is a new line.
 """
 ```
+### Printing on Multiple Lines
+```python
+print("""tom
+dick
+harry""")
+
+''' Output
+tom
+dick
+harry
+'''
+```
 ## Source [^1]
 - 
 ## References
