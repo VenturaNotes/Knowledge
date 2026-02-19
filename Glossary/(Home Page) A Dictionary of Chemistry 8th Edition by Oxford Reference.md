@@ -450,8 +450,8 @@ Reviewed: false
 	426. auric compounds
 	427. aurous compounds
 	428. austenite
-	429. autocatalysis
-	430. autoclave
+	429. [[autocatalysis]]
+	430. [[autoclave]]
 	431. automated tensor low-energy electron diffraction
 	432. autoprotolysis
 	433. autoprotolysis constant
@@ -531,7 +531,7 @@ Reviewed: false
 	507. basic slag
 	508. bathochromic shift
 	509. battery
-	510. bauxite
+	510. [[bauxite]]
 	511. beam balance
 	512. Beattie-Bridegman equation
 	513. Beckmann rearrangement

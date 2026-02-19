@@ -4,11 +4,13 @@ aliases:
   - proper subsets
 ---
 ## Synthesis
-- 
+- Given $P \subset Q$, we say P is a proper subset of Q only if 
+	- All elements in $P$ are present in Q
+	- At least one element in Q not present in P.
 ## Source [^1]
 - $P \subset Q$ indicates a proper subset (or strict subset)
 	- Description
-		- All element is P are present in Q
+		- All element in P are present in Q
 		- There is at least one element in Q not present in P
 	- Example
 		- Given P = {1, 2, 3} and Q = {1, 2, 3, 4, 5}
