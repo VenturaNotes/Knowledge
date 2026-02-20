@@ -534,7 +534,7 @@ Reviewed: false
 	510. [[bauxite]]
 	511. beam balance
 	512. Beattie-Bridegman equation
-	513. Beckmann rearrangement
+	513. [[Beckmann rearrangement]]
 	514. Beckmann thermometer
 	515. becquerel
 	516. Becquerel, Antoine Henri (1852-1908)
@@ -581,7 +581,7 @@ Reviewed: false
 	557. Bergius process
 	558. berkelium
 	559. Berry mechanism
-	560. Berry phase
+	560. [[Berry phase]]
 	561. Berthelot, Marcellin (1827-1907)
 	562. Berthelot equation
 	563. Berthollide compound
@@ -605,7 +605,7 @@ Reviewed: false
 	581. bifurcation
 	582. bimolecular reaction
 	583. binary
-	584. binary acid
+	584. [[binary acid]]
 	585. binding site
 	586. bioaccumulation
 	587. bioactivation

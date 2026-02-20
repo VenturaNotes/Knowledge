@@ -1,8 +1,8 @@
 ---
-status: open
+status: done
 priority: normal
 dateCreated: 2026-02-11T23:52:23.279-05:00
-dateModified: 2026-02-11T23:52:23.279-05:00
+dateModified: 2026-02-19T20:33:32.381-05:00
 reminders:
   - id: rem_1770871910847_9txvulkqf
     type: relative
@@ -11,11 +11,12 @@ reminders:
     offset: -PT0H
 tags:
   - task
-  - status/incomplete
   - type/website
+  - status/complete
 Source:
   - https://www.w3schools.com/java/java_exercises.asp
 Reviewed: false
+completedDate: 2026-02-19
 ---
 ## Syntax
 - (1) Drag and drop the correct class name to match the file name `Main.java`
@@ -1930,6 +1931,12 @@ numbers.forEach( (n) -> {System.out.println(n);});
 - #question Why did we not need to specify the type of ArrayList for this problem?
 - #question What does for-each loops look like again? 
 ## Advanced Sorting
-- (1)
-- (2)
-- (3)
+- (1) The Comparable interface allows
+	- An object to specify its own sorting rule with a compareTo() method
+		- #question What does an example look like?
+- (2) True or False: A comparator is an object with one method that is used to compare two different objects
+	- True
+		- #question What does this look like in practice?
+- (3) True or False: A comparable is an object which can compare itself with other objects.
+	- True
+		- #question Give an example of this 
