@@ -323,8 +323,10 @@ print('hello-'+'how-are-you')
 			- #question What is `nan`? Could you also just write `nan` for same effect?
 - (9) What is the result of `round(0.5) - round(-0.5)`?
 	- Value depends on Python version
-		- The behavior of the `round()` function is different in Python 2 and Python 3. In Python 2, it rounds off numbers away from 0 when the number to be rounded off is exactly halfway through. `round(0.5)` is 1 and `round(-0.5)` is -1 whereas in Python 3, it rounds off numbers towards nearest even number when the number to be rounded is exactly halfway through. See the below output.
-			- #question The `even` number is intentional. 
+		- The behavior of the `round()` function is different in Python 2 and Python 3. 
+			- In Python 2, it rounds off numbers away from 0 when the number to be rounded off is exactly halfway through. `round(0.5)` is 1 and `round(-0.5)` is -1
+			- In Python 3, it rounds off numbers towards nearest even number when the number to be rounded is exactly halfway through. See the below output.
+				- #question The `even` number is intentional. 
 - Here's the runtime output for Python version 2.7 interpreter
 ```
 $ python
@@ -335,7 +337,7 @@ Python 2.7.17 (default, Nov 7 2019, 10:07:09)
 - 1.0
 >>>
 ```
-- In the above output, you can see that the `round()` functions on 0.5 and -0.5 are moving away from 0 and hence "round(0.5) - (round(-0.5)) = 1 - (-1) = 2"
+- The `round()` functions on 0.5 and -0.5 are moving away from 0 and hence "round(0.5) - (round(-0.5)) = 1 - (-1) = 2"
 - Here's the runtime output for Python version 3.6 interpreter
 ```
 $ python3
@@ -349,10 +351,104 @@ Python 3.6.8 (default, Oct 7 2019, 12:59:55)
 >>> round(3.5)
 4
 ```
-- In the above output, you can see that the `round()` functions on `0.5` and `-0.5` are moving towards 0 and hence `round(0.5) - (round(-0.5)) = 0 - 0 = 0`. Also note that the `round(2.5)` is `2` (which is an even number) whereas `round(3.5)` is `4` (which is an even number).
+- In the above output, you can see that the `round()` functions on `0.5` and `-0.5` are moving towards 0 and hence `round(0.5) - (round(-0.5)) = 0 - 0 = 0`. 
+	- Also note that the `round(2.5)` is `2` (which is an even number) whereas `round(3.5)` is `4` (which is an even number).
+		- #comment This is because in python version 3, when a number ends in `.5`, it will always round to the nearest even number
+- (10) What does `3^4` evaluate to?
+	- 7
+		- In Python, the `^` operator is the binary XOR (exclusive OR) operator, not exponentiation. The result of `3^4` is the bitwise XOR of the binary representations of 3 (0011) and 4 (0100), which results in 0111 (decimal 7). Thus, `3^4` evaluates to 7
+			- #comment So it seems like it adds them together
+				- So if you have `3^6`, this equals 5. Their binary representation is 
+					- $3 = 0011_2$ and  $6 = 0110_2$
+					- When comparing left to right, we get `0101` which is 5 in binary
+					- #question Is there a method of finding the binary representation of a base 10 number faster? 
+
 ## (3) MCQ on Precedence and Associativity in Python
 ### (3.1) Python Precedence and Associativity-1
+- (1) The value of the expressions `4/(3*(2-1))` and `(4/3*(2-1)` is the same
+	- #comment First solution is $1 \frac 13$ and second solution is $1 \frac 13$
+	- True
+		- Although the presence of parenthesis does affect the order of precedence, in the case shown above, it is not making a difference. The result of both of these expressions is 1.333333333. Hence the statement is true. 
+- (2) What will be the value of the following Python expression?: `print(4+3%5)`
+	- 7
+		- In Python, the modulus operator % has higher precedence than addition `+`. So, the expression is evaluated as `4 + (3 % 5)`, which is `4 + 3 = 7`
+- (3) Evaluate the expression given below if `A = 16` and `B = 15`. `A % B // A`
+	- 0
+		- The expression `A%B // A` becomes `16 % 15 // 16`, which simplifies to `1 // 16`. Using floor division, the result is 0
+- (4) Which of the following operators has its associativity from right to left? 
+	- `**`
+		- Most operators in Python are left-associative, but the exponentiation operator `***` is right-associative. So `2**3**2` is evaluated as `(2**(3**2).`
+			- #question Is this for just in python or math rules as well? I think it follows math rules as well
+- (5) What will be the value of `x` in the following Python expression?
+```python
+x = int(43.55+2/2)
+print(x)
+```
+- #comment 2/2 $\to$ 1.0 + 43.55 $\to$ 44.55 $\to$ 44
+- 44
+	- The expression evaluates as `int(43.55+ 1) -> int(44.55)`, which results in 44 due to explicit conversion (truncates the decimal part).
+- (6) What is the value of the following expression?
+- `print(2+4.00, 2**4.0)`
+	- (6.0, 16.0)
+		- In Python, `2 + 4.00` results in `6.0 (float)`, and `2**4.0` results in `16.0` because any operation involving a float yields a float. So, the final result is `(6.0, 16.0)`
+			- #question For `2 + 4.00`, I understand that the output would be a float giving `6.0` but why doesn't the result yield `6.00`. Why is the hundredths place truncated? Is this true no matter how many 0s there are after the decimal?
+- (7) Which of the following is the truncation division operator?
+	- `//`
+		- `//` is the truncation (floor) division operator in Python. It returns only the integer part of the result by discarding the decimal part. For example, `20 // 3` gives 6. 
+- (8) What are the values of the following Python expressions?
+```python
+print(2**(3**2))
+print((2**3)**2)
+print(2**3**2)
+```
+- #comment 
+	- `3**2 = 9 -> 2**9 = 512`
+	- `2**3 = 8 -> 8**2 = 64`
+- 512, 64, 512
+	- Expression 1 is evaluated as `2**9`, which is equal to 512. Expression 2 is evaluated as `8**2`, which is equal to 64. The last expression is evaluated as `2**(3**2).` This is because the associativity of `**` operator is from right to left. Hence the result of the third expression is 512
+- (9) What is the value of the following expression?
+```python
+print(8/4/2, 8/(4,2))
+```
+- `1.0 4.0`
+	- The first parts 8/4/2 is evaluated left to right: 2.0 / 2 = 1.0. The second part 8/(4/2) becomes 8/2 = 4.0. Hence, the result is 1.0 4.0
+- #question What does a comma mean in a print statement?
+- (10) What is the value of the following expression?
+```python
+print(float(22//3+3/3))
+```
+- #comment `7 + 3/3 -> 7 + 1.0 -> 8.0`
+- 8.0
+	- The given expression `print(float(22/ 3 + 3/3))` involves both integer and float operations. First, the division `22//3` evaluates to 7 because it divides 22 by 3 and discards the decimal part. Next, the division `3/3` evaluates to 1.0 since it is a floating-point operation. When these two values are added $\textemdash$ 7 + 1.0 $\textemdash$ the result is 8.0, because adding an integer and a float results in a float. Finally, applying `float()` to 8.0 does no change its value. Therefore, the final output of the expression is 8.0.
 ### (3.2) Python Precedence and Associativity-2
+- (1) What will be the output of the following Python expression?
+```python
+print(4.00/(2.0+2.0))
+```
+- #comment `4.00 / 4.0 = 1.0`
+- 1.0
+	- The expression evaluates as `4.00 / 4.0`, which results in 1.0. Therefore, the output is 1.0. 
+- (2) What will be the value of X in the following Python expression?
+```python
+X = 2+9*((3*12)-8)/10
+print(X)
+```
+- 27.2
+	- The expression shown above is evaluated as: `2+9*(36-8)/10`, which simplifies to give `2+9*(2.8)`, which is equal to 2+25.2 = 27.2. Hence the result of this expression is 27.2. 
+- (3) Which of the following expressions involves coercion when evaluated in Python?
+	- `1.7 % 2`
+		- Coercion is the implicit (automatic) conversion of operands to a common type. Coercion is automatically performed on mixed-type expressions. The expression `1.7 % 2` is evaluated as `1.7 % 2.0` (that is, automatic conversion of `int` to `float`)
+			- #question Is coercion is the same thing as implicit conversion or implicit casting? Are these terms just aliases?
+- (4) What will be the output of the following Python expression?
+```python
+print(24//6%3, 24//4//2)
+```
+- 1 3
+	- The expression `24 // 6 % 3, 24 // 4 // 2` evaluates to `(1, 3)` because the operations are performed from left to right, with `24 // 6` giving 4, followed by `4 % 3` resulting in 1, and `24 // 4` giving `6`, followed by `6 // 2` resulting in `3`.
+		- #question Does division and the modulus operator have the same precedence? So that if you find one, you just compute it from left to right? 
+- (5) Which among the following list of operators has the highest precedence?
+	- `+, -, **, %, <<, >>, |`
+	- 
 ## (4) Python MCQ on Bitwise & Boolean
 ### (4.1) Python Bitwise - 1
 ### (4.2) Python Bitwise - 2
