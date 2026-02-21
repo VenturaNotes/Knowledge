@@ -606,9 +606,9 @@ Reviewed: false
 	582. bimolecular reaction
 	583. binary
 	584. [[binary acid]]
-	585. binding site
-	586. bioaccumulation
-	587. bioactivation
+	585. [[binding site]]
+	586. [[bioaccumulation]]
+	587. [[bioactivation]]
 	588. biochemical fuel cell
 	589. biochemical oxygen demand
 	590. biochemistry
