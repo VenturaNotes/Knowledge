@@ -447,10 +447,82 @@ print(24//6%3, 24//4//2)
 	- The expression `24 // 6 % 3, 24 // 4 // 2` evaluates to `(1, 3)` because the operations are performed from left to right, with `24 // 6` giving 4, followed by `4 % 3` resulting in 1, and `24 // 4` giving `6`, followed by `6 // 2` resulting in `3`.
 		- #question Does division and the modulus operator have the same precedence? So that if you find one, you just compute it from left to right? 
 - (5) Which among the following list of operators has the highest precedence?
-	- `+, -, **, %, <<, >>, |`
-	- 
+```
+`+, -, **, %, <<, >>, |`
+```
+- `**`
+	- The highest precedent is that of the exponentiation operator, that is of `**`
+		- #question What is `<<`, `>>`, and `|`. I don't know what kind of operators they are. What is there order of precedence in this list of operators?
+- (6) What will be the value of the following Python expression?
+```python
+print(float(4+int(2.39)%2))
+```
+- #comment 2%2 = 0 -> 4 -> 4.0
+- 4.0
+	- The above expression is an example of explicit conversion. It is evaluated as: `float(4 + int(2.39)%2) = float(4+2%2) = float(4+0) = 4.0`. Hence the result of this expression is 4.0
+- (7) Which of the following expressions is an example of type conversion?
+	- `4.0 + float(3)`
+		- Type conversion is nothing but explicit conversion of operands to a specific type. Options `5.3 + 6.3` and `5.0 + 3` are examples of implicit conversion whereas option `4.0 + float(3)` is an example of explicit conversion or type conversion.
+			- #question Why is `5.3 + 6.3` an implicit conversion? Aren't they both floating point numbers?
+- (8) Which of the following expressions results in an error?
+	- `int('10.8')`
+		- All of the expressions involve explicit type conversion. However, `int('10.8')` results in an error because the `int()` function cannot convert a string with a decimal point into an integer. To convert a string with a decimal, it must first be converted to a float.
+- (9) What will be the value of the following Python expression?
+```python
+print(4+2**5//10)
+```
+- 7
+	- The order of precedence is: `**`, `//`, `+`. The expression `4+2**5//10` is evaluated as `4+32//10`, which is equal to `4+3=7`. Hence the result of the expression is 7.
+- (10) The expression `2**2**3` evaluates as: `(2**2)**3`
+	- False
+		- The expression `(2**2)**3` results in `4**3 = 64`, but the expression `2**2**3` in Python is evaluated as `2**(2**3)`, which equals `2**8 = 256`. This is because the associativity of the exponentiation operator `(**)` in Python is from right to left, not left to right.
 ## (4) Python MCQ on Bitwise & Boolean
 ### (4.1) Python Bitwise - 1
+- (1) What will be the output of the following Python code snippet if `x=1?`
+```python
+x << 2
+```
+- 4
+	- The binary form of `1` is `0001`. The expression `x << 2` performs a bitwise left shift on `x`, which shifts the bits two positions to the left. This results in `0100`, which is the binary form of 4. Therefore, the result is 4.
+		- #comment So if I have `0001`, and `x << 2` means the bits shift 2 positions to the left giving `0100`
+- (2) What will be the output of the following Python expression?
+```python
+print(bin(29))
+```
+- #comment 
+	- $2^5 = 32 -> 32 - 29 = 3$
+	- So you have `011111 is 31`
+		- `011110` is 30
+		- `011101` is 29
+- `0b11101`
+	- The binary representation of the number 29 is 11101. In Python, the `bin()` function returns the binary representation of an integer prefixed with `0b`, so the output will be `0b11101`.
+- (3) What will be the value of `x` in the following Python expression, if the result of that expression is 2?
+```
+x >> 2
+```
+- #comment So 2 in binary is `0010`. This means we had `1000` which is equal to 8
+- 8
+	- When the value of `x` is equal to 8 (1000), then `x >> 2` (bitwise right shift) yields the value `0010`, which is equal to 2. Hence the value of `x` is 8.
+- (4) What will be the output of the following Python expression?
+```python
+print(int(1011))
+```
+- `1011`
+	- The result of the expression shown will be `1011`. This is because we have not specified the base in this expression. Hence it automatically takes the base as 10.
+		- #comment So basically doing `int(1011)` assumes the base to be 10
+		- #question How do we assume a base of 2 or a different number?
+- (5) To find the decimal value of `1111`, that is 15, we can use the function
+	- `int('1111',2)`
+		- The expression `int('1111',2)` converts the binary string `1111` to its decimal equivalent, which is 15. The expression `int('1111',10)` would interpret `1111` as a decimal number and return `1111.`
+		- #question Why wouldn't `int(1111,2)` work?
+- (6) What will be the output of the following Python expression if `x = 15` and `y=12`?
+```
+x & y
+```
+- #comment 15 is `1111` and 12 is `1100`, try adding?
+	- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-21 12.40.08.excalidraw|200]]
+- 
+
 ### (4.2) Python Bitwise - 2
 ### (4.3) Python Boolean
 ## (5) Multiple Choice Questions on Formatting & Decorators in Python
