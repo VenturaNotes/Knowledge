@@ -609,7 +609,7 @@ Reviewed: false
 	585. [[binding site]]
 	586. [[bioaccumulation]]
 	587. [[bioactivation]]
-	588. biochemical fuel cell
+	588. [[biochemical fuel cell]]
 	589. biochemical oxygen demand
 	590. biochemistry
 	591. biodiesel
@@ -620,8 +620,8 @@ Reviewed: false
 	596. biogas
 	597. [[bioinorganic chemistry]]
 	598. bioluminescence
-	599. biomarker
-	600. biomolecule
+	599. [[biomarker]]
+	600. [[biomolecule]]
 	601. biopolymer
 	602. bioreactor
 	603. [[biosensor]]
