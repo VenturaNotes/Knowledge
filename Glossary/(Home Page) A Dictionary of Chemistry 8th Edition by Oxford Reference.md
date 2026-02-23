@@ -3352,7 +3352,7 @@ Reviewed: false
 	3326. muscovite
 	3327. mustard gas
 	3328. mutarotation
-	3329. myoglobin
+	3329. [[myoglobin]]
 	3330. myristic acid
 	3331. N-bromosuccinimide
 	3332. N-phenylethanamide
@@ -3365,7 +3365,7 @@ Reviewed: false
 	3339. [[nanotechnology]]
 	3340. nanotube
 	3341. napalm
-	3342. naphtha
+	3342. [[naphtha]]
 	3343. naphthalene
 	3344. naphthols
 	3345. naphthyl group
@@ -3390,7 +3390,7 @@ Reviewed: false
 	3364. Nernst, Walther (1864-1941)
 	3365. Nernst-Einstein equation
 	3366. Nernst equation
-	3367. Nernst heat theorem
+	3367. [[Nernst heat theorem]]
 	3368. nerve agents
 	3369. nesquehonite
 	3370. Nessler's reagent
