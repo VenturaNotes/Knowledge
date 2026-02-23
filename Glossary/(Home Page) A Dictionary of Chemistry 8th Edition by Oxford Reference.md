@@ -623,7 +623,7 @@ Reviewed: false
 	599. [[biomarker]]
 	600. [[biomolecule]]
 	601. biopolymer
-	602. bioreactor
+	602. [[bioreactor]]
 	603. [[biosensor]]
 	604. biosynthesis
 	605. [[biotechnology]]
@@ -867,7 +867,7 @@ Reviewed: false
 	843. carbon
 	844. carbon assimilation
 	845. carbonate
-	846. carbonate minerals
+	846. [[carbonate minerals]]
 	847. carbonation
 	848. carbon bisulphide
 	849. carbon black
@@ -3345,7 +3345,7 @@ Reviewed: false
 	3319. multiple bond
 	3320. multiple proportions
 	3321. [[multiplet]]
-	3322. multiplicity
+	3322. [[multiplicity]]
 	3323. multipole interactions
 	3324. Mumetal
 	3325. Muntz metal

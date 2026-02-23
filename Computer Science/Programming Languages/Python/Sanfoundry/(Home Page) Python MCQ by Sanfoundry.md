@@ -521,10 +521,115 @@ x & y
 ```
 - #comment 15 is `1111` and 12 is `1100`, try adding?
 	- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-21 12.40.08.excalidraw|200]]
-- 
-
+	- The Symbol `&` represents bitwise AND. This operation gives 1 if both bits are equal to 1, otherwise, it gives 0. The binary form of 15 is 1111 and that of 12 is 1100. Performing the bitwise AND operation results in 1100, which is equal to 12.
+- (7) Which of the following expressions results in an error
+	- `int(1011,2)`
+		- The expression `int(1011, 2)` results in an error because the first argument should be a string. If it was written as `int('1011',2)`, there would be no error
+- (8) Which of the following represents the bitwise XOR operator?
+	- `^`
+		- The `^` operator represents the bitwise `XOR` operation. & represents bitwise AND, | represents bitwise OR, and `!` is typically used as a logical NOT in many programming languages (not a bitwise operator). 
+			- #question What does an example of each look like in python?
+- (9) What is the value of of the following Python expression?
+```python
+print(bin(0x8))
+```
+- `0b1000`
+	- The prefix `0x` specifies that the value is in hexadecimal. When we convert `0x8` to its binary form, we get `0b1000`. 
+		- #comment This makes sense because when given hexadecimal, it goes all the way to F which has a base 10 value of 15 which in binary is `0b1111`
+		- #question Why do we use `x` to represent a hexadecimal value? Why are hexadecimal values important?
+- (10) What will be the output of the following Python expression?
+```python
+print(0x35 | 0x75)
+```
+- 117
+	- The binary value of `0x35` is 110101 and that of `0x75` is `1110101`. Performing the bitwise `OR` operation on these values results in `1110101`, which is equal to 117. Hence, the result of the expression is 117
+		- #question Why is the output in base-10 and not base 16?
+		- #question How do we find binary from hexadecimal?
+- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 01.01.26.excalidraw]]
 ### (4.2) Python Bitwise - 2
+- (1) It is not possible for the two's complement value to be equal to the original value in any case
+	- False
+		- In most cases, the two's complement of a binary number is different from the original value. However, there is a special case in which the two's complement is equal to the original value. For example, in an 8-bit system, the binary number `10000000` represents -128. Taking the two's complement of this number results in the same binary value: `10000000`. This happens because -128 is the minimum value that can be represented in 8-bit two's complement format, and it does not have a positive counterpart. Hence, the statement is false. 
+			- #question What is "two's complement"?
+			- #question How does an 8-bit system work?
+			  #question Why is `10000000` a negative number? 
+			- #question Why doesn't it have a positive counterpart?
+- (2) The one's complement of `110010101` is
+	- `001101010`
+		- The one's complement of a value is obtained by simply changing all the 1's to 0's and all the 0's to 1's. Hence the one's complement of `110010101` is `001101010`
+- (3) Bitwise XOR gives 1 if either of the bits is 1 and 0 when both of the bits are 1
+	- XOR
+		- Bitwise XOR gives 1 if the two bits are different, and 0 if they are the same. So, it returns 1 when one bit is 1 and the other is 0
+- (4) What will be the output of the following Python expression?
+```python
+print(4^12)
+```
+- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 15.48.27.excalidraw]]
+- 8
+	- `^` is the XOR operator. The binary form of 4 is 0100 and that of 12 is 1100. Therefore, `0100^1100` is `1000`, which is equal to 8. 
+- (5) Any odd number on being `AND-ed` with **1** always gives 1. Hint: Any even number on being AND-ed with this value always gives 0.
+	- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 15.58.24.excalidraw]]
+- 1
+	- Any odd number on being AND-ed with 1 always gives 1. Any even number on being AND-ed with this value always gives 0
+- (6) What will be the value of the following Python expression?
+```python
+print(bin(10-2) + bin(12^4))
+```
+![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 16.43.30.excalidraw]]
+- `0b10000b1000`
+	- The value of the expression `bin(10-2) + bin(12^4)` is `0b1000b1000` because `bin(10-2)` results in `0b1000` and `bin(12^4)` also results in `0b1000`, and their concatenation gives `0b1000b1000
+- #comment The reason the answer is `0b10000b1000` is because if you were to print both statements separately, you would get
+```Output
+0b1000
+0b1000
+```
+- #question How do I know when you concatenate binary numbers vs when you actually add them together
+  #question Why does python display a python number as `0b{binary numer}`? What does the `0b` mean? 
+- (7) Which of the following expressions can be used to multiply a given number `a` by `4`?
+	- `a << 2`
+		- Let us consider an example wherein `a=2`. The binary form of 2 is `0010`. When we left shift this value by 2, we get 1000, the value of which is 8. Hence if we want to multiply a given number `a` by 4, we can use the expression: `a << 2`. 
+- (8) What will be the output of the following Python code if `a=10` and `b=20`
+```python
+a = 10
+b = 20
+a = a^b
+b = a^b
+a = a^b
+print(a,b)
+```
+- ![[(Home Page) Python MCQ by Sanfoundry 2026-02-22 17.16.21.excalidraw]]
+	- The code shown above is used to swap the contents of two memory locations using bitwise XOR operator. Hence the output of the code shown above is: `20 10`
+- (9) What is the two's complement of -44?
+	- `11010100`
+		- The binary form of `-44` is `00101100`. The one's complement of this value is `11010011`. On adding one to this we get: `11010100` (two's complement)
+	- #question What is a two's complement?
+	- #question How do you find the binary form of a negative number?
+	- #question Why does adding one to a one's complement give a two's complement? What is the purpose of a two's complement?
+- (10) What will be the output of the following Python expression?
+```python
+~100
+```
+- `-101`
+	- The expression `~100` uses the bitwise NOT operator, which inverts all the bits of the number. In python, this is equivalent to `-(100 +1),` which results in `-101`. Therefore, the output of `~100` is `-101`.
+		- #question What does it mean to invert all the bits of the number? Is this the same as one's complement?
 ### (4.3) Python Boolean
+- (1) What will be the output of the following Python code snippet?
+```python
+print(bool('False'))
+print(bool())
+```
+
+```Output
+True
+False
+```
+- The expression `bool('False')` returns True because of any non-empty string, including `False`, is considered True in Python. The second expression `bool()` returns False because calling `bool()` with no argument is the same as passing None, which is considered False.
+- (2) What will be the output of the following Python code snippet?
+```python
+print(['hello', 'morning'][bool('')])
+```
+- hello
+	- The expression`['hello','morning']
 ## (5) Multiple Choice Questions on Formatting & Decorators in Python
 ### (5.1) Python Formatting - 1
 ### (5.2) Python Formatting - 2
