@@ -10,6 +10,8 @@ aliases:
 		- If you have 1 XOR 1, you get 0
 		- If you have 0 XOR 1, you get 1
 		- If you have 1 XOR 0, you get 1
+### Python
+- The `^` operator represents the bitwise XOR operation in python
 ### Examples
 - 2 XOR 5
 	- 2 in binary is 010

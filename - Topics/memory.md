@@ -1,5 +1,13 @@
 ## Synthesis
-- 
+- You can swap the contents of two memory locations using bitwise XOR operator
+```python
+a = 10
+b = 20
+a = a^b
+b = a^b
+a = a^b
+print(a,b)
+```
 ## Source [^1]
 - The electronic holding place for the instructions and data a computer needs to reach quickly
 ## Source[^2]
@@ -10,9 +18,20 @@
 	- Comprehensive account of concepts and models of memory, from the Stanford Encyclopedia of Philosophy
 ## Source[^4]
 - $n$. The psychological function of preserving information, involving the processes of encoding, storage, and retrieval. Human memory consists of a series of interconnected systems serving different functions, one of the most basic divisions being into declarative memory for factual information about the world and procedural memory for information about how to carry out sequences of operations; another basic division being between long-term memory for information stored for more than a few seconds, short-term memory for temporary storage of information for briefer periods, and sensory memory (including the iconic store) for very brief storage of visual and possibly other sensory information; and a third basic division being into episodic memory for events and experiences and semantic memory for information about the world, although perceptual memory may not fall into either category. The power of the chemical senses to reawaken distant memories is discussed under redintegration. See also amnesia, blocking memory, conrabulation, CONSTRUCTIVE MEMORY, CUED RECALL, DEFERRED ACTION, DUAL-CODE THEORY (2), dUAL-PROCESS MODEL, ENCODING SPECIFICITY, FREE RECALL, HÖFfDING STEP, HYPERTHYMESIA, LEVELS OF PROCESSING, MEMORY DRUM, MEMORY OPERATING CHARACTERISTIC, MEMORY ORGANIZATION PACKET, MEMORY TRACE, METHOD OF SAVINGS, MNEMONIC, RECALL, RECOGNITION, REPRESENTATIONAL MOMENTUM, SCREEN MEMORY, STATE-DEPENDENT MEMORY, TIP-OF-THE-TONGUE PHENOMENON, UGLY SISTER EFFECT, WORKING MEMORY. \[From Latin memoria memory, from memor mindful]
+## Source[^5]
+- You can swap the contents of two memory locations using the bitwise XOR operator. 
+```python
+a = 10
+b = 20
+a = a^b
+b = a^b
+a = a^b
+print(a,b)
+```
 ## References
 
 [^1]: https://www.techtarget.com/whatis/definition/memory
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) Python MCQ by Sanfoundry]]
