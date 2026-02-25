@@ -11,7 +11,7 @@ Reviewed: false
 		- This is read as x + 2 [[quantity]] squared
 	- Graphing strategies
 		- Make some tables
-		- Apply [[transformations]]
+		- Apply [[Transformation|transformations]]
 	- Applying transformations to graphs of functions
 		- In $x^2 + 2$
 			- "+ 2" acts as a [[vertical shift]]

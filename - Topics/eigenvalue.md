@@ -1,3 +1,7 @@
+---
+aliases:
+  - eigenvalues
+---
 ## Synthesis
 - 
 ## Source [^1]

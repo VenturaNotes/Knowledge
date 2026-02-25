@@ -1,5 +1,22 @@
+---
+aliases:
+  - transformations
+---
 ## Synthesis
-- 
+- In linear algebra, a transformation is an operation that takes an input vector and produces an output vector.
+	- #question Is it not able to take a matrix as an input or output too? Or are vectors considered to be matrices? 
+	- Geometrically
+		- Given a vector (an arrow) in a coordinate system, a transformation might modify the vector by rotating, stretching, shrinking or reflecting it across an axis. 
+			- #question Show examples of each
+		- Example
+			- Given a vector from the origin to (1,1), a transformation could rotate it to point to `(-1,1)` or stretch it to (2,2)
+				- #question Show how this is possible
+	- Mathematically
+		- Given vector $v$, transformation $T$ produces a new vector $T(v)$. When represented by a matrix $A$, this looks like $Av = v'$. 
+		- Example
+			- $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}\begin{pmatrix} 1 \\ 1 \end{pmatrix}=\begin{pmatrix} 3 \\ 3 \end{pmatrix}$
+				- $A$ transforms $v$ into $v'$. The original vector was stretched by a factor of 3 along original direction
+					- #question How do we know it was along original direction?
 ## Source [^1]
 - (1) Another name for function, used especially in geometry. 
 - (2) (of programs) See PROGRAM TRANSFORMATION. 

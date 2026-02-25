@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2025-01-13 at 11.07.09 PM.png]]
-	- [[Eigenvectors]] and [[eigenvalues]]
+	- [[eigenvector|Eigenvectors]] and [[eigenvalue|eigenvalues]]
 		- An eigenvector of an $n\times n$ matrix is a non-zero vector $x$ such that $Ax = \lambda x$, where $\lambda$ is a scalar. A scalar $\lambda$ is called an eigenvalue of A if there is a nontrivial solution x of $Ax = \lambda x$ 
 		- $\lambda$ could make a vector compress or stretch. Will create resulting vector somewhere along the line
 	- Practice
