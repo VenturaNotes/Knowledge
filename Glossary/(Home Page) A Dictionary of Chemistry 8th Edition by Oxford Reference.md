@@ -1122,7 +1122,7 @@ Reviewed: false
 	1098. Clar's rule
 	1099. Clark cell
 	1100. Clark process
-	1101. classical electrodynamics
+	1101. [[classical electrodynamics]]
 	1102. clathrate
 	1103. Claude process
 	1104. claudetite
@@ -1143,7 +1143,7 @@ Reviewed: false
 	1119. club drug
 	1120. Clusius column
 	1121. cluster aromaticity
-	1122. cluster compound
+	1122. [[cluster compound]]
 	1123. CML
 	1124. [[coacervate]]
 	1125. coagulation
@@ -1171,7 +1171,7 @@ Reviewed: false
 	1147. coinage metals
 	1148. coke
 	1149. colchicine
-	1150. collagen
+	1150. [[collagen]]
 	1151. [[collective oscillation]]
 	1152. colligation
 	1153. colligative properties
@@ -3395,7 +3395,7 @@ Reviewed: false
 	3369. nesquehonite
 	3370. Nessler's reagent
 	3371. net ionic equation
-	3372. neutral
+	3372. [[neutral]]
 	3373. neutralization
 	3374. neutron
 	3375. neutron activation analysis

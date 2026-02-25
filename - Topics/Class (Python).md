@@ -79,6 +79,16 @@ class Person:
 #question How does the [[__init__() (python)|__init__()]] function work in a class? What is its entire purpose?
 #question What does the [[self (python)|self]] keyword mean? Why is it required for `__init__` for example? 
 #question is there a "super" kind of keyword in python as well? I think Java may have this
+## Source[^2]
+```python
+class Truth:
+	pass
+x = Truth()
+print(bool(x))
+```
+- If a class does not implement a `__bool__()` or `__len__()` method, then all its instances are considered true by default, so `bool(x)` returns True.
+	- #question What if you return `True`? Will that make a class `True`?
 ## References
 
 [^1]: https://www.w3schools.com/python/exercise.asp?filename=exercise_classes1
+[^2]: [[(Home Page) Python MCQ by Sanfoundry]]

@@ -629,7 +629,74 @@ False
 print(['hello', 'morning'][bool('')])
 ```
 - hello
-	- The expression`['hello','morning']
+	- The expression`['hello','morning']` evaluates the Boolean value of an empty string, which is False or 0, and selects the element at index 0 of the list $\textemdash$ resulting in 'hello'
+- (3) What will be the output of the following Python code snippet?
+```python
+print(not(3>4))
+print(not(1&1))
+```
+- #comment 
+	- (1) 3> 4 is false but inverting it with `not` gives True. 
+	- (2) `1&1` is `0001` and `0001` which results in `0001` and 1 is True but `not` inverts it giving it `0` which is False
+```Output Solution
+True
+False
+```
+- The expression `not(3>4)` returns True because `3 > 4` is False, and `not(False)` is True. The expression `not(1&1)` returns False because `1&1` equals `1`, which is true, and `not(1)` is False.
+- (4) What will be the output of the following Python code?
+```python
+print(['f','t'][bool('spam')])
+```
+- #comment So it's true meaning `1` which gives `t`
+- `t`
+	- The string `spam` is a non-empty string, so `bool('spam')` returns True which is equivalent to 1. The expression becomes `['f','t'][1]`, which evaluates to `t`.
+(5) What will be the output of the following Python code?
+```python
+l = [1, 0, 2, 0, 'hello', '', []]
+print(list(filter(bool,l)))
+```
+- #comment Maybe it just returns true whatever is real? So probably D
+- `[1, 2, 'hello']`
+	- The function `filter(bool, l)` removes all false elements from the list `l`, such as `0`, `''`, and `[]`. The remaining true elements $\textemdash$ 1, 2, and `hello` $\textemdash$ are returned as a new list
+- (6) What will be the output of the following Python code if the system date is 21st June, 2017 (Wednesday)?
+```python
+[] or {}
+{} or []
+```
+
+```Output Solution
+{}
+[]
+```
+- In both expressions, Python evaluates operands from left to right using the `or` operator. Since both the left and right operands (`[]` and `{}`) are false, the `or` operator returns the last evaluated operand. Therefore, the first expression returns `{}` and the second returns `[]`
+	- #question What does this have to do with the System Date?
+	- #question If both operands are false, why wouldn't the `or` operator return `None`? 
+- (7) What will be the output of the following Python code?
+```python
+class Truth:
+	pass
+x = Truth()
+print(bool(x))
+```
+- True
+	- If a class does not implement a `__bool__()` or `__len__()` method, then all its instances are considered true by default, so `bool(x)` returns True.
+		- #question Give examples of a class using `__bool__()` or `__len__()` method to make one version true and the other version false. What happens if a class implements both methods? Is that possible? 
+- (8) What will be the output of the following Python code?
+```python
+if (9 < 0) and (0 < -9):
+	print("hello")
+elif (9 > 0) or False:
+	print("good")
+else:
+	print("bad")
+```
+- `good`
+	- The first condition is False because both `9 < 0` and `0 < -9` are false. The second condition `(9 > 0)` or False is True because `9 > 0` is true. Therefore, the program prints "good". 
+- (9) Which of the following Boolean expressions is not logically equivalent to the other three?
+	- #comment 
+		- (b) `-6 >= 0 and -6 <= 10` = `False`
+		- (a) `not(-6<0 or -6>10)` = `False`
+		- ``
 ## (5) Multiple Choice Questions on Formatting & Decorators in Python
 ### (5.1) Python Formatting - 1
 ### (5.2) Python Formatting - 2

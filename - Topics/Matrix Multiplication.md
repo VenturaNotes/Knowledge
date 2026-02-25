@@ -12,14 +12,7 @@
 ### Examples
 
 #### (1) Matrix: (2x3) x (3x2)
-$$
-\begin{align*}
-\begin{bmatrix}2 & 1 & 4 \\ 1 & 5 & 0\end{bmatrix} 
-\begin{bmatrix}3 & 5 \\ 2 & 3 \\ 1 & 1\end{bmatrix} 
-&= \begin{bmatrix}(2*3)+(1*2)+(4*1) & (2*5)+(1*3)+(4*1) \\ (1*3)+(5*2)+(0*1) & (1*5)+(5*3)+(0*1)\end{bmatrix} 
-\\ &= \begin{bmatrix} 12 & 17 \\ 13 & 20\end{bmatrix} 
-\end{align*}
-$$
+![[Matrix Multiplication 2026-02-24 17.41.53.excalidraw|700]]
 - Number of columns in first matrix must be equal to number of rows in second matrix
 	- $(2\times \textcolor{hotpink}{3}) \times (\textcolor{hotpink}{3} \times 2)$
 		- Inner numbers

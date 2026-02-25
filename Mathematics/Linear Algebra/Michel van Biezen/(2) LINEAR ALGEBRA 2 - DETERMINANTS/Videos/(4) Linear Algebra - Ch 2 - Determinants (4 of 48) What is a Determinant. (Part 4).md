@@ -11,8 +11,8 @@ Reviewed: false
 		- (4) Finding the inverse of a matrix
 		- (5) Determining if a matrix has an inverse
 		- (6) Finding the characteristic equation of a matrix
-			- Find [[eigenvalues]] (characteristic roots of the characteristic equations)
-			- Find [[eigenvectors]]
+			- Find [[eigenvalue|eigenvalues]] (characteristic roots of the characteristic equations)
+			- Find [[eigenvector|eigenvectors]]
 		- (7) Solving differential equations
 			- Will use eigenvalues and eigenvectors for this
 		- (8) Finding area and volume of geometric shapes

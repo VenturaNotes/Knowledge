@@ -4,7 +4,7 @@ Source:
 Reviewed: false
 ---
 - ![[Screenshot 2023-08-23 at 10.00.17 PM.png]]
-	- How to describe [[transformations]] of a function algebraically
+	- How to describe [[Transformation|transformations]] of a function algebraically
 		- Identify the transformations we need to describe
 		- Show algebraically how each transformations affects the original function
 	- Given $y=f(x)$, describe algebraically the following transformations
