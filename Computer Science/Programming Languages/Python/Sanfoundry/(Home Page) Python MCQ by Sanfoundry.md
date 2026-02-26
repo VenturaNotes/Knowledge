@@ -696,9 +696,99 @@ else:
 	- #comment 
 		- (b) `-6 >= 0 and -6 <= 10` = `False`
 		- (a) `not(-6<0 or -6>10)` = `False`
-		- ``
+		- (c) `not(-6 < 10 or -6==10)` = False
+		- (d) must be answer
+	- `not(-6 > 10 or -6==10)`
+		- The expression `not(-6<0 or -6 > 10` returns the output False.
+		- The expression `-6 >=* and -6<= 10` returns the output False.
+		- The expression `not(-6<10 or -6==10)` returns the output False
+		- The expression `not(-6 > 10 or -6==10)` returns the output True.
+- (10) What will be the output of the following Python code snippet?
+```python
+print(not(10<20) and not (10>30))
+```
+- False
+	- The expression `not(10 < 20)` evaluates to False, and `not(10 > 30)` evaluates to True. The AND operation between False and True results in False. 
 ## (5) Multiple Choice Questions on Formatting & Decorators in Python
 ### (5.1) Python Formatting - 1
+- (1) What will be the output of the following Python code snippet?
+```python
+X = "hi"
+print("05d"%X)
+```
+- error
+	- The code snippet shown above results in an error because the above formatting option works only if `X` is a number. Since in the above case `X` is a string, an error is thrown. 
+		- #question What would the result look like if `X` was a number?
+- (2) What will be the output of the following Python code snippet?
+```python
+X = "san-foundry"
+print("%56s"% X)
+```
+- 45 blank spaces before san-foundry
+	- The formatting option `%56s` aligns the string to the right within a field of width 56. If the string "san-foundry" is 11 characters long, it will be preceded by (56 - 11 = 45) blank spaces 
+- (3) What will be the output of the following Python code?
+```python
+x = 456
+print("%-06d"%x)
+```
+- `456   `
+	- The format specifier `%-06d` means "left-align the integer in a field of width 6". The 0 (zero-padding) is ignored when used with `-`. So, the number `456` is printed `left-aligned` with spaces on the right, resulting in `456   `. Visually, it appears as `456`. 
+	- #comment Output of `print("%06d"%x)` is `000456`
+	- #comment Output of `print("%6d"%x)` is `   456`
+- (4) What will be the output of the following Python code?
+```python
+X = 345
+print("%06d"%X)
+```
+- `000345`
+	- The format specifier `%06d` means the integer should be printed wit ha total width of 6 characters, padded with leading zeros if necessary. Since `345` has 3 digits, it is printed as `000345`.
+- (5) Which of the following formatting options can be used in order to add `n` blank spaces after a given string `S`?
+	- `print("%-ns"%S)`
+		- The format specifier `%-ns` left-aligns the string S in a field of width `n`. This causes `n - len(S)` blank spaces to be added after the string to reach the specified width. 
+- (6) What will be the output of the following Python code?
+```python
+X = -122
+print("-%06d"%X)
+```
+- `--00122`
+	- The expression `%06d"%X` formats `-122` as `-00122`, with leading zeros to make the total width 6. Since there's an extra `-` in the string, it gets added as a literal character, resulting in `--00122`. So the output is `--00122`
+		- #errata Explanation seems mistyped on the page?
+- (7) What will be the output of the following Python code?
+```python
+x = 34
+print("%f"%x)
+```
+- 34.000000
+	- The output of the code is 34.000000. By default, the `%f` format specifier in Python displays floating-point numbers with 6 digits after the decimal point. Since no precision is explicitly set, $x = 34$ is printed as `34.000000`.
+- (8) What will be the output of the following Python expression?
+```python
+x = 56.236
+print("%.2f"%x)
+```
+- `56.24`
+	- The expression shown above rounds off the given number to the number of decimal places specified. Since the expression given specifies rounding off to two decimal places, the output of this expression will be `56.24`. Had the value been `x=56.234` (last digit begin any number less than 5), the output would have been `56.23`
+		- #question Is `%.2f` decimal rounding different from the `round()` function which I believe rounds to the closest even number? 
+- (9) What will be the output of the following Python expression?
+```python
+x = 22.19
+print("%5.2f"%x)
+```
+- `22.19`
+	- The format `'%5.2f'` means the number should be printed with 2 digits after the decimal point, and a minimum of 5 characters (including the decimal point). So 22.19 fits perfectly and is printed as-is. 
+		- #comment Variations
+			- `x = 0` $\to$ ` 0.00`
+			- `x = 1535` $\to$ `1535.00`
+			- `x = 53.677` $\to$ `53.68`
+- (10) The expression shown below results in an error
+```python
+print("-%5d0", 989)
+```
+- False
+	- The expression shown above does not result in an error. The output of the expression is `-%5d0 989`. Hence this statement is incorrect.
+	- #comment Variation
+		- `print("-%5d0"%989)` $\to$ `-  9890`
+			- There is total 5 characters `  989` and the `0` and `-` come after and before respectively since they're outside the format specifier.
+	-  #question Does the comma guarantee a space? 
 ### (5.2) Python Formatting - 2
 ### (5.3) Python Advanced Formatting
 ### (5.4) Python Decorators

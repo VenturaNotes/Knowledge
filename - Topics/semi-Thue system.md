@@ -1,31 +1,8 @@
 ## Synthesis
 - 
 ## Source [^1]
-- An important concept in formal language theory that underlies the notion of a grammar. It was defined and investigated by Axel Thue from about 1904. A semi-Thue system over the alphabet $\Sigma$ is a finite set of ordered pairs of $\Sigma$-words:
-
-  
-
-$$
-
-\left\{\left\langle l_{i}, r_{i}\right\rangle, \ldots,\left\langle l_{m}, r_{m}\right\rangle\right\}
-
-$$
-
-  
-
-Each pair $\left\langle l_{i}, r_{i}\right\rangle$ is a rule, referred to as a [[production]], with left-hand side $l_{i}$ and right-hand side $r_{i}$; it is usually written
-
-  
-
-$$
-
-l_{i} \rightarrow r_{i}
-
-$$
-
-  
-
-Let $u$ and $v$ be $\Sigma$-words, and $l \rightarrow r$ be a production, then the word $u l v$ is said to directly derive the word $u r v$; this is written
+- An important concept in formal language theory that underlies the notion of a grammar. It was defined and investigated by Axel Thue from about 1904. A semi-Thue system over the alphabet $\Sigma$ is a finite set of ordered pairs of $\Sigma$-words:$$\left\{\left\langle l_{i}, r_{i}\right\rangle, \ldots,\left\langle l_{m}, r_{m}\right\rangle\right\}$$Each pair $\left\langle l_{i}, r_{i}\right\rangle$ is a rule, referred to as a [[production]], with left-hand side $l_{i}$ and right-hand side $r_{i}$; it is usually written$$l_{i} \rightarrow r_{i}$$
+- Let $u$ and $v$ be $\Sigma$-words, and $l \rightarrow r$ be a production, then the word $u l v$ is said to directly derive the word $u r v$; this is written
 
   
 

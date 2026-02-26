@@ -985,7 +985,7 @@ Reviewed: false
 	961. chair conformation
 	962. [[chalcedony]]
 	963. chalcogens
-	964. chalconides
+	964. [[chalconides]]
 	965. chalcopyrite
 	966. chalk
 	967. change of phase
@@ -997,7 +997,7 @@ Reviewed: false
 	973. charge
 	974. charge-transfer complex
 	975. [[charge carrier]]
-	976. charge density
+	976. [[charge density]]
 	977. charge density wave
 	978. Charles' law
 	979. Charles, Jacques Alexandre César (1746-1823)
@@ -1123,8 +1123,8 @@ Reviewed: false
 	1099. Clark cell
 	1100. Clark process
 	1101. [[classical electrodynamics]]
-	1102. clathrate
-	1103. Claude process
+	1102. [[clathrate]]
+	1103. [[Claude process]]
 	1104. claudetite
 	1105. Clausius, Rudolf Julius Emmanuel (1822-88)
 	1106. Clausius-Mossotti equation

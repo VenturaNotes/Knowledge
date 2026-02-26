@@ -51,9 +51,9 @@ Reviewed: false
 	- [[(41) Discrete Math - 3.1.4 Optimization Algorithms]]
 	- [[(42) Discrete Math - 4.1.1 Divisibility]]
 	- [[(43) Discrete Math - 4.1.2 Modular Arithmetic]]
-- Incomplete
 	- [[(44) Discrete Math - 4.2.1 Decimal Expansions from Binary, Octal and Hexadecimal]]
 	- [[(45) Discrete Math - 4.2.2 Binary, Octal and Hexadecimal Expansions From Decimal]]
+- Incomplete
 	- [[(46) Discrete Math - 4.2.3 Conversions Between Binary, Octal and Hexadecimal Expansions]]
 	- [[(47) Discrete Math - 4.2.4 Algorithms for Integer Operations]]
 	- [[(48) Discrete Math - 4.3.1 Prime Numbers and Their Properties]]

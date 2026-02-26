@@ -3,3 +3,27 @@ Source:
   - https://youtube.com/watch?v=UJrrXUkQyCc
 Reviewed: false
 ---
+- ![[Screenshot 2026-02-25 at 3.05.13 PM.png]]
+	- Slide 1
+		- Finding an octal expansion
+			- Find the octal expansion of $(12543)_10$
+		- Dealing essentially with division algorithm: $a = dq + r$
+			- a = some value
+			- d = divisor
+			- q = quotient
+			- r = remainder
+		- Octal expansion means we're dealing with a `mod 8` number.
+		- When dealing with `mod` something, we're very interested in the remainders.
+		- For octal values when going from decimal
+			- Will use divisor of 8 since dealing with octal
+				- `1567` is found by doing `12543 / 8`
+				- `7` is found by doing `12543 % 8`
+			- Then repeat the process taking the quotient until the quotient is 0.
+	- Slide 2
+		- Finding a hexadecimal expansion
+			- Find the hexadecimal expansion of $(19472)_{10}$
+				- A = 10, B = 11, C = 12, D = 13, E = 14, F = 15
+	- Slide 3
+		- Finding a binary expansion
+			- Find the binary expansion of 141.
+			- When writing things in binary, keep it in groups of 4.

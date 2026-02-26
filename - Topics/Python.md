@@ -61,7 +61,6 @@ settings = {"theme": "dark", "language": "English"}  # Dictionary initialization
 - [[frozenset() (Python)|frozenset()]]
 - [[dictionary (Python)|dictionaries]]
 - [[string (python)|string]]
-
 ## Source [^1]
 - [[syntax (python)|syntax]]
 - [[comments (python)|comments]]
@@ -95,6 +94,13 @@ settings = {"theme": "dark", "language": "English"}  # Dictionary initialization
 - A scripting language incorporating features from C, Modula 3, and Icon.
 ## Source[^7]
 - Python is a free, open source, multi-purpose programming language that is commonly used for rapid application development (RAD). Python is an extremely versatile programming language that can be used for small tasks, such as creating bots, or larger tasks, such as developing complex code for technical applications. Pythonʻs code can implement both machine learning and data mining, in addition to web page development. Pythonʻs code uses the English language and an easy-to-learn syntax, which makes it an appealing programming language for beginning programmers.
+## Source[^8]
+### Formatting
+```python
+X = "san-foundry"
+print("%56s" % X)
+```
+- The formatting option `%56s` aligns the string to the right within a field of width 56. Since `san-foundry` is 11 characters long, it is preceded by 56-11 = 45 blank spaces.
 ## References
 [^1]: https://www.w3schools.com/python/python_exercises.asp
 [^2]: https://www.geeksforgeeks.org/history-of-python/
@@ -103,3 +109,4 @@ settings = {"theme": "dark", "language": "English"}  # Dictionary initialization
 [^5]: https://peps.python.org/pep-0020/
 [^6]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^7]: [[(Home Page) Glossary by Capterra]]
+[^8]: [[(Home Page) Python MCQ by Sanfoundry]]
