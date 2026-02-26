@@ -3,5 +3,35 @@ Source:
   - https://youtube.com/watch?v=tvsArHvVRPw
 Reviewed: false
 ---
-- Modular arithmetic deals with bases of numbers. Mod 3 addition is base 3
-- Let $b \in \mathbb{Z}$ and $b>1$ . Then if $n \in Z^+$, it can be expressed uniquely in the form $$n = a_kb^k + a_{k-1}b^{k-1} + ... + a_1b + a_0$$ where k is a non-negative integer, $a_0$, $a_1$ ... $a_k$ are non-negative integers less than b, and $a_k \ne 0$. Write the $\underset {\text{base 10}} {\underline{\text{decimal expansion}}}$ of 10,456.
+- ![[Screenshot 2026-02-25 at 3.55.36 AM.png]]
+	- Modular arithmetic deals with bases of numbers. Mod 3 addition is base 3
+		- Will learn how to find a decimal expansion (base 10 expansion) form a binary base 2, octal base 8 or hexadecimal base 16 integer representation. 
+	- Slide 1
+		- Let $b \in \mathbb{Z}$ and $b>1$ . Then if $n \in Z^+$, it can be expressed uniquely in the form $$n = a_kb^k + a_{k-1}b^{k-1} + ... + a_1b + a_0$$ where k is a non-negative integer, $a_0, a_1 ... a_k$ are non-negative integers less than b, and $a_k \ne 0$. Write the $\underset {\text{base 10}} {\underline{\text{decimal expansion}}}$ of 10,456.
+			- What we're looking at in an expansion is being able to write something as a value with different bases. 
+			- So given the theorem above with the equation, no matter the base, we can write a positive integer as a decimal expansion in this form.
+				- The form says we will take some value $a_k$ multiplied by a base to a power $b^k$ 
+					- If doing decimal expansion, b = 10
+					- The below are very important in computer language
+						- If doing binary expansion, b = 2
+						- Octal expansion, b = 8
+						- hexadecimal, b = 16
+			- Typically, we're not going to write something based 10 using the format we're about to be shown. It's just for practice
+			- If we want to write it as an expansion, it's written as $1*10^4+0*10^3+4*10^2+5*10^1+6*10^0$, but it's okay to write it as `10,456` as that's pretty standard for decimal expansion because that is the format of values we are used to
+	- Slide 2
+		- Binary to decimal expansion
+			- What is the decimal expansion that has $(1011~~1101)_2$ as its binary expansion?
+				- The binary system is made up of 0s and 1s
+				- Base 2 means we can have a remainder of 0 or 1.
+				- From right to left, you go from 0th power to 7th power in this example.
+				- The $_2$ indicates a base 2.
+	- Slide 3
+		- Octal to decimal expansion
+			- What is the decimal expansion of the number with an octal expansion of $(4072)_8$?
+				- Octal expansion means the base is 8.
+				- It's acceptable to write base 10 solution as $2106$. Don't need to write $(2106)_{10}$ 
+	- Slide 4
+		- Hexadecimal to Decimal Expansion
+			- What is the decimal expansion of the number with a hexadecimal expansion of $(2AEOB)_{16}$?
+				- A = 10, B = 11, C = 12, D = 13, E = 14, F = 15
+				- Hexadecimal means we're dealing with a base of 16
