@@ -998,7 +998,7 @@ Reviewed: false
 	974. charge-transfer complex
 	975. [[charge carrier]]
 	976. [[charge density]]
-	977. charge density wave
+	977. [[charge density wave]]
 	978. Charles' law
 	979. Charles, Jacques Alexandre César (1746-1823)
 	980. cheddite
@@ -1181,7 +1181,7 @@ Reviewed: false
 	1157. colloid mills
 	1158. colloids
 	1159. colophony
-	1160. colorimetric analysis
+	1160. [[colorimetric analysis]]
 	1161. color center
 	1162. color index
 	1163. color photography
@@ -4945,7 +4945,7 @@ Reviewed: false
 	4882. thymidine
 	4883. thymine
 	4884. thymol
-	4885. tie line
+	4885. [[tie line]]
 	4886. tight-binding approximation
 	4887. time-of-flight mass spectrometer
 	4888. time-resolved spectroscopy
@@ -5189,7 +5189,7 @@ Reviewed: false
 	5126. Wagner-Meerwein rearrangement
 	5127. WAHUHA
 	5128. Walden's rule
-	5129. Walsh diagram
+	5129. [[Walsh diagram]]
 	5130. warfarin
 	5131. washing soda
 	5132. water
@@ -5224,7 +5224,7 @@ Reviewed: false
 	5161. Williamson's synthesis
 	5162. Wiswesser line notation
 	5163. witherite
-	5164. Wittig reaction
+	5164. [[Wittig reaction]]
 	5165. WLN
 	5166. Wöhler's synthesis
 	5167. Wöhler, Friedrich (1800-82)
