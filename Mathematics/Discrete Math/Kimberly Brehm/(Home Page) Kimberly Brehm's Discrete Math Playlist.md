@@ -53,8 +53,8 @@ Reviewed: false
 	- [[(43) Discrete Math - 4.1.2 Modular Arithmetic]]
 	- [[(44) Discrete Math - 4.2.1 Decimal Expansions from Binary, Octal and Hexadecimal]]
 	- [[(45) Discrete Math - 4.2.2 Binary, Octal and Hexadecimal Expansions From Decimal]]
-- Incomplete
 	- [[(46) Discrete Math - 4.2.3 Conversions Between Binary, Octal and Hexadecimal Expansions]]
+- Incomplete
 	- [[(47) Discrete Math - 4.2.4 Algorithms for Integer Operations]]
 	- [[(48) Discrete Math - 4.3.1 Prime Numbers and Their Properties]]
 	- [[(49) Discrete Math - 4.3.2 Greatest Common Divisors and Least Common Multiples]]

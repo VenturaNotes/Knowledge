@@ -3,3 +3,29 @@ Source:
   - https://youtube.com/watch?v=u1lbOzWb6X4
 Reviewed: false
 ---
+- Image
+	- Slide 1:
+		- Pseudocode: Algorithm for Base b Expansions
+		- This isn't an integer operation actually.
+		- Code:
+		- procedure base b expansion (n, b : positive integers, b > 1)
+			- q := n
+			- k := 0
+			- while q ≠ 0
+				- $a_k$ := q mod b
+				- q := q div b
+				- k := k + 1
+			- return $(a_{k-1}, ..., a_1, a_0) \{(a_{k-1},...,a_1,a_0) \text{ is base b expansion of n}\}$
+	- Slide 2
+		- Addition Algorithm - Binary
+			- To add `a` and `b`, first add their right-most bits. This gives
+				- $a_0 + b_0 = c_0 * 2 + S_0$
+					- $S_0$ = rightmost bit of solution
+					- $c_0$ = carry (0 or 1)
+					- Taking the `2` because we're dealing with binary
+			- Then, add the next pair of bits with the carry, which gives
+				- $a_1 + b_1 + c_0 = c_1*2 + sS_1$
+			- Continue until you've added the last bits. At the last stage, add $a_{n-1}, b_{n-1}$ and $c_{n-2}$ to obtain $c_{n-1}*2+S_{n-1}$
+				- $a + b = (S_nS_{n-1}S_{n-2}S_{n-3}...S_1S_0)_2$
+			- Comments
+				- The values `a` and `b` would be in binary

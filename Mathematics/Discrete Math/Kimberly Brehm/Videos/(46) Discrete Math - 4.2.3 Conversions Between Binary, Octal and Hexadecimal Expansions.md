@@ -3,3 +3,30 @@ Source:
   - https://youtube.com/watch?v=yFPwq0jlGt4
 Reviewed: false
 ---
+- ![[Screenshot 2026-02-26 at 8.14.42 PM.png]]
+	- Slide 1
+		- Conversion between binary, octal and hexadecimal
+			- Going from binary expansion to octal and hexadecimal
+			- Find the octal and hexadecimal expansions of $(11 1110 1011)_2$
+			- Octal is base 8 which is $2^3$
+			- Hexadecimal is base 16 which is $2^4$
+			- If you end up with some values that needs 0s to the left, add them
+				- For octal, want to split binary into groups of 3
+				- For hexadecimal, can keep binary in groups of 4
+	- Slide 2
+		- Conversion between binary, octal and hexadecimal
+			- Going from octal expansion to binary and decimal
+			- Find the binary expansion of $(37274)_8$
+				- Binary is $2^1$ 
+				- Octal $2^3$ Represents 3 binary values.
+			- Find the hexadecimal expansion of $(37274)_8$
+				- Need to go from octal to binary to hexadecimal to solve above question.
+	- Slide 3
+		- Conversion between binary, octal and hexadecimal
+			- Converting hexadecimal to binary and octal. 
+			- Find the binary expansion of $(A8D)_{16}$
+			- Find the octal expansion of $(A8D)_{16}$
+				- Have to go from hexadecimal to binary to octal
+	- Slide 4
+		- Operations on base `n` numbers
+			- Find the sum and product of $(1011)_2$ and $(011)_2$
