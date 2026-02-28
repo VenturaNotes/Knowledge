@@ -59,65 +59,10 @@ aliases:
 	- This problem is the same thing as asking the [[union]] of both sets giving $|A \cup B| = |A| + |B| = 8 + 14 = 22$
 
 ## Source[^7]
-- 1. A collection of distinct objects of any sort. The objects in the set are called its members or elements. An element can occur at most once in a set and order or arrangement is unimportant. If $x$ is a member of the set $S$ it is customary to write
-
-  
-
-If $x$ is not a member of $S$ this can be expressed as
-
-  
-
-$$
-
-x \notin S
-
-$$
-
-  
-
-and is equivalent to
-
-  
-
-$$
-
-\operatorname{NOT}(x \in S)
-
-$$
-
-  
-
-i.e. $\in$ and $\notin$ can be regarded as operators. When any element in set $S$ is also in set $T$, and vice versa, the two sets are said to be identical or equal.
-
-  
-
-A finite set has a fixed finite number of members and a notation such as
-
-\{Ada, Pascal, Cobol, C\}
-
-is possible; the members are separated by commas and here are just the names of various programming languages. When the number of elements is not finite, the set is said to be infinite and explicit enumeration of the elements is not then possible.
-
-  
-
-Infinite and finite sets can be described using a predicate or statement such as $p(x)$ that involves $x$ and is either true or false, thus
-
-  
-
-$$
-
-\{x \mid p(x)\}
-
-$$
-
-  
-
-This is read as 'the set of all elements $x$ for which $p(x)$ is true', the elements being characterized by the common property $p$. Examples of sets described in this way are (letting $R$ be the set of real numbers):
-
-  
-
-$$
-
-\begin{aligned}
+- (1) A collection of distinct objects of any sort. The objects in the set are called its members or elements. An element can occur at most once in a set and order or arrangement is unimportant. If $x$ is a member of the set $S$ it is customary to write$$x \in S$$If $x$ is not a member of $S$ this can be expressed as$$x \notin S$$and is equivalent to$$\operatorname{NOT}(x \in S)$$i.e. $\in$ and $\notin$ can be regarded as operators. When any element in set $S$ is also in set $T$, and vice versa, the two sets are said to be identical or equal.
+- A finite set has a fixed finite number of members and a notation such as$$\text{\{Ada, Pascal, Cobol, C\}}$$is possible; the members are separated by commas and here are just the names of various programming languages. When the number of elements is not finite, the set is said to be infinite and explicit enumeration of the elements is not then possible.
+- Infinite and finite sets can be described using a predicate or statement such as $p(x)$ that involves $x$ and is either true or false, thus$$\{x \mid p(x)\}$$
+- This is read as 'the set of all elements $x$ for which $p(x)$ is true', the elements being characterized by the common property $p$. Examples of sets described in this way are (letting $R$ be the set of real numbers):$$\begin{aligned}
 
 & \{(x, y) \mid x \in R, y \in R \text { and } x+y=9\} \\
 
@@ -125,17 +70,11 @@ $$
 
 & \{l \mid l \text { is the name of a language }\}
 
-\end{aligned}
-
-$$
-
-  
-
-There is an implicit assumption here that there is some algorithm for deciding whether $p(x)$ is true or false in any particular case.
-
-  
-
-The idea of a set is fundamental to mathematics. It forms the basis for all ideas involving functions, relations, and indeed any kind of algebraic structure. Authors differ considerably in the way they define sets. A mathematical logician will distinguish carefully between classes and sets, basically to ensure that paradoxes such as Russell's paradox cannot occur in sets. However, the informal definition is adequate for most purposes. See also OPERATIONS ON SETS. 2. Any data structure representing a set of elements. One example is a characteristic vector. 3. To cause the condition or state of a switch, signal, or storage location to change to the positive condition.
+\end{aligned}$$
+- There is an implicit assumption here that there is some algorithm for deciding whether $p(x)$ is true or false in any particular case.
+- The idea of a set is fundamental to mathematics. It forms the basis for all ideas involving functions, relations, and indeed any kind of algebraic structure. Authors differ considerably in the way they define sets. A mathematical logician will distinguish carefully between classes and sets, basically to ensure that paradoxes such as Russell's paradox cannot occur in sets. However, the informal definition is adequate for most purposes. See also OPERATIONS ON SETS. 
+- (2) Any data structure representing a set of elements. One example is a characteristic vector. 
+- (3) To cause the condition or state of a switch, signal, or storage location to change to the positive condition.
 ## References
 
 [^1]: [[(28) Universal Set Example Problems - Set Builder Notation, Absolute Complement, Roster Notation#^19ae11]]
