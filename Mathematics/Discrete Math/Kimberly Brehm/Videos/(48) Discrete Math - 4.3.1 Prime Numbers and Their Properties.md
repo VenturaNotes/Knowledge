@@ -3,3 +3,49 @@ Source:
   - https://youtube.com/watch?v=uuoxgAAikH4
 Reviewed: false
 ---
+- ![[Screenshot 2026-02-27 at 5.42.00 AM.png]]
+	- Slide 1
+		- Prime and Composite Numbers
+			- If $p \in \mathbb{Z}^+$ and $p > 1$, then $p$ is considered prime if the only factors of $p$ are $1$ and $p$. Otherwise, the number is composite. This means $p$ is composite iff $\exists a \in \mathbb{Z}^+$ such that $a|p$ and $1 < a < p$. 
+				- `a|p` means that there is some value `a` that divides `p`
+		- We are talking strictly about integers that are positive and greater than 1
+		- The number 1 is not prime or composite.
+		- We learned about factor trees in middle school
+			- We make a tree where we find the factors of our value that are prime numbers
+			- Known as prime factorization?
+		- Other examples
+			- 3 is prime (1 and 3)
+			- 2 is prime (1 and 2)
+			- 4 not prime (2 and 4)
+			- 5 is prime
+			- 6 is not prime (even)
+			- 7 prime
+			- 9 not prime ($3*3$)
+		- Helpful to know your divisibility rules
+			- Rule for 3
+				- If you take the digits of a number (51) and the sum of those digits is divisible by 3 (5+1 = 6 which is divisible by 3), then the number itself is divisible by 3 (51 is divisible by 3).
+	- Slide 2
+		- The Fundamental Theorem of Arithmetic
+			- Every positive integer greater than 1 can be written uniquely as a prime or the product of 2 or more primes where primes are written in non-decreasing order
+			- Write the unique prime factorization:
+		- We can create the factor tree or we could just do this in our head.
+	- Slide 3
+		- Trivial Division - Theorem and Proof
+			- If n is a positive integer, then $n$ has a prime divisor less than or equal to $\sqrt{n}$ 
+			- If n is composite, then by definition we know $n$ has a factor $a \in \mathbb{Z}^+$ such that $1 < a < n$. By definition of a factor, $n = ab$, where $b \in \mathbb{Z}^+$ and $b > 1$. We want to show that $a \le \sqrt{n}$ or $b \le \sqrt{n}$.
+			- Proof
+				- If $a > \sqrt{n}$ and $b > \sqrt{n}$, then $ab > \sqrt{n} * \sqrt{n} = n$, which is a contradiction. Therefore, $a \le \sqrt{n}$ or $b \le \sqrt{n}$. Therefore, $n$ has a positive divisor not exceeding $\sqrt{n}$. This divisor is either prime, or by the Fundamental Theorem of Arithmetic has a prime divisor. 
+		- These are not the best ways to determine if a number is prime, but is a method.
+			- $\sqrt{n}$ could be read as radical $n$ 
+	- Slide 4
+		- Trial Division Example
+			- Use trial division to determine if 539 is prime.
+			- Trial division says we have to check all the primes less than $\sqrt{539}$ 
+			- The 5 divisibility rule checks if the number ends in a 5 or 0. Then it is divisible by 5
+			- Since we found a value (7) that goes into 539 (which isn't 1 or itself), then 539 is a composite number
+- Image
+	- Slide 1
+		- The Sieve of Eratosthenes
+			- #errata Title says `Erastosthenes`
+			- A method for finding all primes not exceeding a certain integer by deleting multiples of 2 (except 2), then multiples of 3 (except 3), then 5 (except 5), etc. up to the largest prime, $a_1$ such that $a \le \sqrt{n}$.
+			- Example: Find all primes not exceeding 25.

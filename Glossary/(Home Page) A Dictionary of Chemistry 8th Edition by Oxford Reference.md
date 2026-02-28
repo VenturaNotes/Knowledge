@@ -1188,7 +1188,7 @@ Reviewed: false
 	1164. columbium
 	1165. column chromatography
 	1166. combinatorial chemistry
-	1167. combustion
+	1167. [[combustion]]
 	1168. commensurate lattice
 	1169. common ion
 	1170. common salt
@@ -1209,7 +1209,7 @@ Reviewed: false
 	1185. concentration
 	1186. concentration cell
 	1187. [[concentration gradient]]
-	1188. concerted reaction
+	1188. [[concerted reaction]]
 	1189. concrete
 	1190. condensation
 	1191. condensation polymerization
@@ -1252,7 +1252,7 @@ Reviewed: false
 	1228. coomassie blue
 	1229. coordinate bond
 	1230. coordination compound
-	1231. coordination number
+	1231. [[coordination number]]
 	1232. coordination polymer
 	1233. Cope rearrangement
 	1234. copernicium

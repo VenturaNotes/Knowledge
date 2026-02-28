@@ -15,7 +15,10 @@ aliases:
 - See also DYNAMIC DATA STRUCTURE, STATIC DATA STRUCTURE.
 ## Source[^2]
 - Method to store information
+## Source[^3]
+- A way to store data
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Algorithms, Part I by by Princeton University#1 2 Lecture Slides]]
+[^3]: [[(Home Page) DSA by W3Schools]]

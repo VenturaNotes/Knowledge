@@ -3,7 +3,7 @@ Source:
   - https://youtube.com/watch?v=u1lbOzWb6X4
 Reviewed: false
 ---
-- Image
+- ![[Screenshot 2026-02-27 at 1.33.50 AM.png]]
 	- Slide 1:
 		- Pseudocode: Algorithm for Base b Expansions
 		- This isn't an integer operation actually.
@@ -29,3 +29,89 @@ Reviewed: false
 				- $a + b = (S_nS_{n-1}S_{n-2}S_{n-3}...S_1S_0)_2$
 			- Comments
 				- The values `a` and `b` would be in binary
+	- Slide 3
+		- Addition Algorithm Example
+			- Add $a = (1011)_2$ and $b = (1110)_2$
+			- Therefore, $s = a + b = (1~1001)_2$
+		- Sometimes it's better to just do old school addition (like you would do with base 10 numbers)
+	- Slide 4
+		- Pseudocode: Addition Algorithm
+			- Procedure add ($a_1b$: positive integers)
+			- {the binary expansions of a and b are ($a_{n-1}a_{n-2}...a_1a_0)_2$ and $(b_{n-1}b_{n-2}...b_1b_0)_2$}
+			- c := 0
+			- $for j:= 0 to n-1$
+				- d := $\lfloor$($a_j + b_j + c$ ) /2 $\rfloor$
+					- #question Is this the proper format or code? 
+					- #errata I think it was written incorrectly in the image. The $\rfloor$ should've been a $)$ 
+				- $s_j := a_j + b_j + c - 2d$
+				- $c := d$
+			- $s_n := c$
+			- return $(s_0, s_1, s_2, ...,s_n$) {the binary expansion of the sum $S_nS_{n-1}...S_1S_0)_2$ }
+- ![[Screenshot 2026-02-27 at 4.09.33 AM.png]]
+	- Slide 1
+		- Multiplication Algorithm Example
+			- Multiply $a = (101)_2$ and $b = (110_2).$ 
+			- She says the multiplication algorithm overcomplicates everything when initially explaining this. 
+	- Slide 2
+		- Pseudocode - Multiplication Algorithm
+			- procedure multiply ($a_1b : \text{positive integers}$)
+			- for $j := 0$ to $n-1$
+				- if $b_j = 1$ then $c_j := a$ shifted $j$ places
+				- else $c_j = 0$
+			- $p := 0$
+			- for $j = 0$ to $n - 1$
+				- $p = p + c_j$
+			- return $p$ {$p$ is the value of $ab$}
+	- Slide 3
+		- Pseudocode - Computing div and mod
+			- procedure division algorithm (a: integer, d: positive integer)
+			- q := 0
+			- r := |a|
+			- while r $\ge$ d
+				- r := r - d
+					- This is remainder
+				- q := q + 1
+					- This is quotient
+			- if a < 0 and r > 0 then
+				- r := d - R
+				- q := - (q + 1)
+				- Here we are dealing with negatives
+			- return (q, r) {`a div d` is quotient, `r = a mod d` is remainder}
+	- Slide 4
+		- Modular Exponentiation Algorithm
+			- To find $b^n \bmod m$ for large values of $b,n$ and $m$:
+				- $n = a_{k-1}b^{k-1} + a_{k-2}b^{k-2}+ \ldots + a_1b + a_0$
+				- $b^n = b^{(a_{k-1}b^{k-1}+a_{k-2}b^{k-2}+\ldots + a_1b+a_0)}$
+				- $b^n = b^{a_{k-1}b^{k-1}}*b^{a_{k-2}b^{k-2}}*\ldots*b^{ab}*b^{a_0}$
+					- This is the actual algorithm we use
+			- Compute $3^{11} (mod 10)$ 
+		- This one is super important in cryptography
+			- #question How?
+		- We will look at examples where we can't just put it in calculator (where base is not 10) but still need to look at exponent in binary
+- ![[Screenshot 2026-02-27 at 3.53.16 AM.png]]
+	- Slide 1
+		- Pseudocode - Modular Exponentiation
+			- procedure modular exponentiation (b: integer, $n = (a_{k-1}a_{k-2}\ldots a_1a_0)_2$ $m: \text{ positive integers})$
+				- $n$ is essentially a binary string
+			- x := 1
+			- power := `b mod m`
+			- for i := 0 to k-1
+				- if $a_i = 1$ then $x := (x*\text{power}) \text{ mod m}$
+				- Power := (power$*$power) mod m
+			- return x { x equals $b^n$ mod m}
+		- Steps
+			- Find $3^6$ mod 5
+				- $x \to 1$
+				- Power $\to$ 3 mod 5 = 3
+			- Begin i = 0
+				- Since $a_0 = 0$ nothing is done
+				- power $\to$ (3 $*$ 3) mod 5 = 4
+			- Next let i = 1
+				- Since $a_i = 1$ x $\to$ (1 $*$ 4) mod 5 = 4
+				- power $\to$ (4 $*$ 4) mod 5 = 1
+			- Next let $i = 2$
+				- Since $a_2 = 1$ $x \to (4*1) \bmod 5 = 4$
+					- #errata I think there was a mistake again here. Should be $a_2$ instead of $a_1$
+				- power $\to$ $(1*1) \bmod 6 = 1$
+			- Return x = 4
+		- #question What does modular exponentiation mean? 

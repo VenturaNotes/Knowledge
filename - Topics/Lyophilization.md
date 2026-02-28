@@ -4,4 +4,4 @@
 - 
 ## References
 
-[^1]: [[(Paper) Mechanistic Modeling of Continuous Lyophilization for Pharmaceutical Manufacturing]]turing]]
+[^1]: [[(Paper) Mechanistic Modeling of Continuous Lyophilization for Pharmaceutical Manufacturing]]

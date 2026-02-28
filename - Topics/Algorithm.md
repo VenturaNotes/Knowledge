@@ -49,6 +49,9 @@ aliases:
 - $n$. a sequential set of instructions used in calculations or problem solving. A reconstruction algorithm is a complex mathematical formula used by a computer to construct images from the data acquired by CT, MRI, or other scanners. A diagnostic algorithm or a therapeutic algorithm consists of a stepwise series of instructions with branching pathways to be followed to assist a physician in coming to a diagnosis or deciding on a management strategy, respectively.
 ## Source[^11]
 - Method for solving a problem
+## Source[^12]
+- The word 'algorithm' comes from '[[al-Khwarizmi]]'. It was named after a Persian scholar who lived around year 800
+	- #question Is that AD or BC?
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
@@ -62,3 +65,4 @@ aliases:
 [^9]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^10]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^11]: [[(Home Page) Algorithms, Part I by by Princeton University#1 2 Lecture Slides]]
+[^12]: [[(Home Page) DSA by W3Schools]]
