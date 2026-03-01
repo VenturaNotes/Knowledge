@@ -1272,7 +1272,7 @@ Reviewed: false
 	1248. [[core orbital]]
 	1249. Corey-Pauling rules
 	1250. CORN rule
-	1251. correlation diagram
+	1251. [[correlation diagram]]
 	1252. [[correlation functions]]
 	1253. correlation spectroscopy
 	1254. corrosion
@@ -1306,9 +1306,9 @@ Reviewed: false
 	1282. critical pressure
 	1283. [[critical state]]
 	1284. critical temperature
-	1285. critical volume
+	1285. [[critical volume]]
 	1286. Crookes, Sir William (1832-1919)
-	1287. crossed-beam reaction
+	1287. [[crossed-beam reaction]]
 	1288. cross linkage
 	1289. crown
 	1290. crown ethers
