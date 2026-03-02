@@ -55,8 +55,8 @@ Reviewed: false
 	- [[(45) Discrete Math - 4.2.2 Binary, Octal and Hexadecimal Expansions From Decimal]]
 	- [[(46) Discrete Math - 4.2.3 Conversions Between Binary, Octal and Hexadecimal Expansions]]
 	- [[(47) Discrete Math - 4.2.4 Algorithms for Integer Operations]]
-- Incomplete
 	- [[(48) Discrete Math - 4.3.1 Prime Numbers and Their Properties]]
+- Incomplete
 	- [[(49) Discrete Math - 4.3.2 Greatest Common Divisors and Least Common Multiples]]
 	- [[(50) Discrete Math - 4.3.3 The Euclidean Algorithm]]
 	- [[(51) Discrete Math - 4.3.4 Greatest Common Divisors as Linear Combinations]]
