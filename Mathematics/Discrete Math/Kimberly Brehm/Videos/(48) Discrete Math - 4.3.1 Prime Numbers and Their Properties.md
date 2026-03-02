@@ -43,9 +43,17 @@ Reviewed: false
 			- Trial division says we have to check all the primes less than $\sqrt{539}$ 
 			- The 5 divisibility rule checks if the number ends in a 5 or 0. Then it is divisible by 5
 			- Since we found a value (7) that goes into 539 (which isn't 1 or itself), then 539 is a composite number
-- Image
+- ![[Screenshot 2026-03-01 at 3.39.22 PM.png]]
 	- Slide 1
 		- The Sieve of Eratosthenes
 			- #errata Title says `Erastosthenes`
 			- A method for finding all primes not exceeding a certain integer by deleting multiples of 2 (except 2), then multiples of 3 (except 3), then 5 (except 5), etc. up to the largest prime, $a_1$ such that $a \le \sqrt{n}$.
 			- Example: Find all primes not exceeding 25.
+			- This method leaves all of the primes left over.
+	- Slide 2
+		- More Fun Facts about Primes
+			- There are an infinite number of primes
+				- Euclid proved this in a simple proof thought to be the most beautiful and elegant proof in mathematics
+				- Mersenne primes are primes in the form $2^p-1$. Check out
+					- http://www.mersenne.org
+			- The [[Prime Number Theorem]] tells us that the ratio of the number of primes not exceeding $x$ can be approximated by $\frac {x}{lnx}$

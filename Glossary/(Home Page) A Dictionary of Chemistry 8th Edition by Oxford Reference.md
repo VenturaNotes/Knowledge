@@ -4791,7 +4791,7 @@ Reviewed: false
 	4728. superatom
 	4729. superbase
 	4730. supercoil
-	4731. superconductivity
+	4731. [[superconductivity]]
 	4732. supercooling
 	4733. superexchange
 	4734. superfluidity
@@ -4804,7 +4804,7 @@ Reviewed: false
 	4741. superplasticity
 	4742. superradiant
 	4743. supersaturated solution
-	4744. supersaturation
+	4744. [[supersaturation]]
 	4745. supplementary units
 	4746. supramolecular chemistry
 	4747. surface-extended X-ray absorption fine-structure spectroscopy
@@ -4931,7 +4931,7 @@ Reviewed: false
 	4868. thiosulphuric acid
 	4869. thiourea
 	4870. thixotropy
-	4871. Thomas-Fermi theory
+	4871. [[Thomas-Fermi theory]]
 	4872. Thomson, Sir Joseph John (1856-1940)
 	4873. Thomson, Sir William
 	4874. thoria
