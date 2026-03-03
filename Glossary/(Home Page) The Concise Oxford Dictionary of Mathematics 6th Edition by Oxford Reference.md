@@ -993,21 +993,24 @@ Year: 2021-09-01
 	59. [[centi-]]
 	60. centile
 		1. A synonym for percentile. See quantile.
-	
-	61. central angle
-	62. central conic
-	63. central difference
-	64. central difference approximation
-	65. central force
-	66. centralizer
-	67. central quadric
-	68. central vertex
-	69. centre(group theory)
+
+
+	61. [[central angle]]
+	62. [[central conic]]
+	63. [[central difference]]
+	64. [[central difference approximation]]
+	65. [[central force]]
+	66. [[centralizer]]
+	67. [[central quadric]]
+	68. [[central vertex]]
+	69. [[centre]]
 	70. centre
+		1. See circle, ellipse, hyperbola
 	
 	71. center of curvature
-	72. center of gravity
-	73. center of mass
+		1. See curvature
+	72. [[center of gravity]]
+	73. [[center of mass]]
 	74. center of symmetry
 	75. centrifugal force
 	76. centripetal force
@@ -4398,7 +4401,6 @@ Year: 2021-09-01
 	3138. μ(mu)
 	3139. π
 	3140. τ
-
  - FormatA
 	1. a
 		1. Abbreviation for atto-

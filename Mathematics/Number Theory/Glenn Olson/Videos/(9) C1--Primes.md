@@ -13,7 +13,7 @@ Reviewed: false
 	- Example
 		- 6 = 1 * 6
 		- <mark style="background: #FFF3A3A6;">6 = 2 * 3</mark>
-- C1. c) [[Relatively Prime]] (coprime): ^3dfd67
+- C1. c) [[Relatively Prime]] (coprime):
 	- Natural numbers with no positive divisor in common besides 1
 		- Example 8 & 13
 			- Relatively prime because only common divisor is 1

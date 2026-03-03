@@ -3,6 +3,33 @@ Source:
   - https://youtube.com/watch?v=zEdovJYAGwU
 Reviewed: false
 ---
-- Image
-	- GCD - Greatest Common Divisor
-		- 
+- ![[Screenshot 2026-03-02 at 12.54.56 AM.png]]
+	- Slide 1
+		- GCD - [[Greatest Common Divisor]]
+			- The GCD of $a$ and $b$, where $a,b \in \mathbb{Z}$ and $a,b \notin 0$ is the largest integer $d$ such that $d | a$, $d | b$ and $\forall e \notin d$, if $e | a$ and $e | b$, then $e < d$. 
+				- #comment So this is basically saying that you have two integers which are not zero. And the largest integer (being the greatest common divisor) is $d$ which will divide both $a$ and $b$. And for all numbers that can divide $a$ and $b$ as well, they will not be the greatest common divisor because they'll be less than $d$ 
+			- Find $\text{gcd}(16,32)$
+				- The greatest common divisor is 16
+			- For 16, the divisors are 1, 2, 4, 8, and 16
+			- 
+	- Slide 2
+		- Find the following `gcd's`:
+			- `gcd(12, 30)`
+			- `gcd(17, 55)`
+				- Relatively prime means they don't have any factors in common. Their gcd is 1.
+			- `gcd(14,237, 21,931)`
+				- You would use Euclid's algorithm to tackle this problem
+	- Slide 3
+		- LCM - [[Least Common Multiple]]
+			- The LCM of $a$ and $b$ , where $a,b \in \mathbb{Z}$ and $a,b \notin 0$ is the smallest integer $m$ such that $a | m$ and $b | m$, and if $a | n$ and $b |n$, then $m < n$. 
+			- Find $\text{lcm} (8,14)$
+	- Slide 4
+		- Find the following lcm's:
+			- $\text{lcm}(5, 25)$
+			- $\text{lcm}(2^2*3*5,2*3^2*5^2)$
+				- This example is already in [[prime factorization]], so just need to find the maximum number of times each number occurs
+- ![[Screenshot 2026-03-02 at 12.56.21 AM.png]]
+	- Another LCM Method
+		- $\text{lcm}(m,n) = \frac {mn}{gcd(m,n)}$
+		- Find $\text{lcm}(8,14)$
+	- The euclidean algorithm will be taught in the next video and helps us find the greatest common divisor of larger numbers
