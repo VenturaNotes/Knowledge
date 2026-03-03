@@ -1,0 +1,11 @@
+## Synthesis
+- 
+## Source [^1]
+- (1) (Ampere-Laplace law) The force between two parallel current-carrying conductors in free space is given by$$\mathrm{d}F = \mu_0 I_1 \mathrm{d}s_1 I_2 \mathrm{d}s_2 \sin \theta / 4\pi r^2$$where $I_1$ and $I_2$ are the currents, $\mathrm{d}s_1$ and $\mathrm{d}s_2$ the incremental lengths, $r$ the distance between the incremental lengths and $\theta$ the angle (see diagram); $\mu_0$ is the permeability of free space. Ampere's law thus relates electrical and mechanical phenomena. See also COULOMB'S LAW.
+- (2) (Ampere's circuital theorem) The work done in traversing a closed circuit that encloses a current $I$ is given by$$\oint \boldsymbol {B}. \mathrm {d} \boldsymbol {s} = \mu_ {0} \boldsymbol {I}$$where $\mu_0$ is the permeability of free space, $\pmb{B}$ is the magnetic flux density, and $ds$ an incremental length.
+- The total current flowing is given by the integral of the current density flowing in the area bounded by the loop. In a medium of magnetization $\mathbf{M}$, the total current density, $j_{\mathrm{T}}$, is given by the sum of the real current density, $j$, and the equivalent magnetization current density, $j_{\mathrm{M}}$, where$$\boldsymbol {j} _ {\mathrm {M}} = \operatorname {c u r l} \boldsymbol {M}$$Since$$\oint \boldsymbol {B}. \mathrm {d} \boldsymbol {s} = \int \operatorname {c u r l} \boldsymbol {B}. \mathrm {d} \boldsymbol {A}$$where $\mathrm{d}\mathbf{A}$ is an increment of area, then$$\int \operatorname {c u r l} \boldsymbol {B}. \mathrm {d} \boldsymbol {A} = \mu_ {0} \int \boldsymbol {j} _ {\mathrm {T}}. \mathrm {d} \boldsymbol {A}$$and thus$$\operatorname {c u r l} \left(\boldsymbol {B} - \mu_ {0} \boldsymbol {M}\right) = \mu_ {0} \boldsymbol {j}$$Since $\pmb{H}$, the magnetic field strength, is defined by$$\mu_ {0} \boldsymbol {H} = \boldsymbol {B} - \mu_ {0} \boldsymbol {M}$$Ampere's law, in differential form, may be written as$$\operatorname {c u r l} \boldsymbol {H} = \boldsymbol {j}$$
+- ![[Screenshot 2026-03-03 at 1.39.52 AM.png|400]]
+	- Ampere's law
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

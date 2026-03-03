@@ -14,9 +14,13 @@
 - (4) (in biochemistry) See CARRIER MOLECULE; HYDROGEN CARRIER.
 ## Source[^4]
 - (genetic) $n$. In genetics and pathology, an organism that does not itself manifest a particular trait or disease but is capable of passing it on to others.
+## Source[^5]
+- (1) (charge carrier) A mobile electron or hole that transports charge through a metal or a semiconductor and is responsible for its conductivity. 
+- (2) See CARRIER WAVE.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

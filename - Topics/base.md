@@ -19,6 +19,8 @@
 - (1) An alkaline chemical compound that reacts with an acid to form a salt and water; in biochemistry often denoting the constituent nitrogenous bases of DNA and RNA, namely adenine, cytosine, guanine, and either thymine (in DNA) or uracil (in RNA). See also purine, PYRIMIDINE. 
 - (2) In biology, the part of an organ closest to its point of attachment. 
 - (3) The bottom, root, or supporting foundation of anything. basal or basilar adj. Pertaining to the bottom or root. basic adj. Of, relating to, or consisting of a chemical base, or pertaining to the bottom, root, or supporting foundation of anything. \[From Latin basis a pedestal]
+## Source[^6]
+- (base region) The region in a bipolar junction transistor between the emitter and collector into which minority carriers are injected. The electrode attached to the base is the base electrode. See also SEMICONDUCTOR.
 ## References
 
 [^1]: [[(Home Page) Glossary by ada computer science]]
@@ -26,3 +28,4 @@
 [^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

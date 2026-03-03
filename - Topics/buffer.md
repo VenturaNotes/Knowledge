@@ -15,9 +15,12 @@
 - When base is added, most of the extra hydroxide ions are removed by reaction with undissociated acid:$$\mathrm{OH}^{-}+\mathrm{H}_{2} \mathrm{CO}_{3} \rightarrow \mathrm{HCO}_{3}^{-}+\mathrm{H}_{2} \mathrm{O}$$
 - Thus, the addition of acid or base changes the pH very little. Basic buffers have a weak base and a salt of the base (to provide the conjugate acid).
 - Natural buffers occur in living organisms, where the biochemical reactions are very sensitive to change in pH (see acID-BASE BALANCE). The main natural buffers are $\mathrm{H}_{2} \mathrm{CO}_{3} / \mathrm{HCO}_{3}{ }^{-}$and $\mathrm{H}_{2} \mathrm{PO}_{4}{ }^{-} / \mathrm{HPO}_{4}{ }^{2-}$ (see also haemoglobinic acID). Buffer solutions are also used in the laboratory (e.g. to keep microscopical preparations at their original pHs in order to prevent the formation of artefacts), in medicine (e.g. in intravenous injections), in agriculture, and in many industrial processes (e.g. fermentation processes).
+## Source[^5]
+- An isolating circuit interposed between two circuits to minimize reaction from the output to the input. Usually it has a high input impedance and low output impedance. It may be used to handle a large fan-out or to convert input and output voltage levels.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

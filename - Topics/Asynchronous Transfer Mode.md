@@ -120,6 +120,8 @@ aliases:
 - (2) (automated teller machine) A computer-controlled device that dispenses cash, and may provide other services, to customers who identify themselves with a pin.
 ## Source[^6]
 - Asynchronous transfer mode (ATM) is a telecommunication network standard that supports voice, video, and data transfer between networks. ATM uses hardware switches instead of software to establish a connection that flows data from source to destination. ATM has lost traction as Next-Generation Networks, which support wireless and mobile transfers, gain popularity.
+## Source[^7]
+- (ATM) A set of connection-based communications protocols characterized by the use of small (48-byte payload) packets, with routes set up in advance of any transmission of data. This minimizes the size of the packet headers and provides guaranteed 'quality of service', suitable for multimedia communications.
 ## References
 
 [^1]: https://www.computerhope.com/jargon/a/atm.htm
@@ -128,3 +130,4 @@ aliases:
 [^4]: https://www.lenovo.com/us/en/glossary/asynchronous-transfer-mode/
 [^5]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^6]: [[(Home Page) Glossary by Capterra]]
+[^7]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

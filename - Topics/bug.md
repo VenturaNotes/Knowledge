@@ -19,6 +19,8 @@ aliases:
 - An error in a computer program, or a malfunction in a computer system. To debug a program is to find and correct all bugs.
 ## Source[^5]
 - A bug is typically found during coding, development, or unit testing. Bugs relate to incorrect code or logic. They affect functionality at a technical level
+## Source[^6]
+- A fault in a computer program or in computer equipment. To debug the program or system is to find and correct any faults.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
@@ -26,3 +28,4 @@ aliases:
 [^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^5]: https://www.browserstack.com/guide/bug-vs-defect
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -2,6 +2,15 @@
 - 
 ## Source [^1]
 - An amplifier is an electronic device that increases the voltage, current, or power of a signal.
+## Source[^2]
+- A device or circuit that produces an electrical output that is a function of the corresponding input parameter and increases the magnitude of the input signal by means of energy drawn from an external source: an amplifier produces gain. The type of amplifier depends on the particular input and output qualities. A current amplifier provides current gain; this type of amplifier has a low input impedance and a high output impedance. A voltage amplifier provides voltage gain; this type has a high input impedance and a low output impedance. A transimpedance amplifier provides an output voltage for an input current, with gain measured in ohms; this type has a low input impedance and a low output impedance. A transadmittance amplifier provides an output current for an input voltage, with gain measured in siemens; this type has a high input impedance and a high output impedance.
+- A power amplifier is an amplifier that produces simultaneous voltage and current gain. The method of operation of a power amplifier is described by the class of the amplifier; for example, a class A amplifier has the active amplifying devices switched on for the whole of the cycle of the alternating input signal, whereas a class B amplifier will switch on one of a pair of active amplifying devices only during positive parts of the signal, and switch on the other device only during the negative parts of the cycle (see also CLASS A AMPLIFIER; CLASS AB AMPLIFIER; CLASS B AMPLIFIER; CLASS C AMPLIFIER; CLASS D AMPLIFIER; CLASS E AMPLIFIER; CLASS F AMPLIFIER; CLASS G AMPLIFIER; CLASS H AMPLIFIER; CLASS S AMPLIFIER).
+- A linear amplifier produces an output signal that is a linear function of the input signal, otherwise the amplifier is nonlinear. In practice all linear amplifiers will have nonlinearities that produce some distortion of the output.
+- A multistage amplifier consists of several amplifying circuits or stages coupled together to form an amplifier. A direct-coupled or DC-coupled amplifier couples the various stages together directly with no other components between the individual circuits, requiring careful matching of the voltages and currents between the stages. Such an amplifier will amplify steady voltages and currents. An AC-coupled amplifier uses other components between the stages, relieving this matching constraint; capacitors are often used to provide a DC-block between the stages. AC-coupled amplifiers have zero gain at DC.
+- A limiting amplifier has a very high gain for a small range of input signal, so that the output is substantially a constant amplitude. This amplifier is very nonlinear, but is useful for removing unwanted amplitude modulation from signals.
+- http://www.electronics-tutorials.ws/amplifier/amplifier-classes.html
+	- A tutorial on the different classes of amplifier
 ## References
 
 [^1]: https://www.techtarget.com/whatis/definition/amplifier
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -26,6 +26,8 @@ aliases:
 - Abbreviation for binary digit, i.e. either 0 or 1 . A bit is the unit of information and (Shannon) entropy.
 ## Source[^6]
 - $n$. In computer technology, a single digit in binary notation symbolized by either 0 or 1 , represented by a switch that is either off or on, a location on a disk or a tape that is either not magnetized or magnetized, or the absence or presence of an electrical or electronic pulse. In information theory, it is the standard unit of information (2), representing the information required to specify one of two alternatives, the number of bits in a given signal being defined by the minimum number of binary digits required to encode it. The binary equivalents of the decimal digits $0,1,2,3$, $4,5,6,7,8$, and 9 are $0,1,10,11,100,101,110,111,1000$, and 1001, respectively; therefore, if the information specifies a choice of one out of just two alternatives, then one bit of information is sufficient to encode the information, three or four alternatives require two bits, five to eight alternatives require three bits, nine or ten alternatives require four bits, and so on. See also baud, binary code, Boolean, byte, nybble. \[A blend of $b$(inary) and (dig)it, named in the 1940s by the US statistician John Wilder Tukey (1915-2000)]
+## Source[^7]
+- Acronym for binary digit. One of the digits 0 or 1 used in binary notation. It is the basic unit of information in a computer or data processing system.
 ## References
 
 [^1]: https://www.techtarget.com/whatis/definition/bit-binary-digit
@@ -34,3 +36,4 @@ aliases:
 [^4]: [[(2) 1.2.2 Quantifying Information]]
 [^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^6]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^7]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

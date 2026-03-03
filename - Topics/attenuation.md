@@ -8,13 +8,14 @@
 - Attenuation is a decline in signal transmission strength between a source and destination. Attenuation is measured in decibels and specifically discusses the current, voltage, or power of a signal. The more attenuation, the more chippy and less coherent a transmitted signal becomes. This may happen due to interference, loss of power, or poorly functioning equipment.
 ## Source[^4]
 - $n$. reduction of the disease-producing ability (virulence) of a bacterium or virus by chemical treatment, heating, drying, by growing under adverse conditions, or by passing through another organism. Treated (attenuated) bacteria or viruses are used for many immunizations.
-
 ## Source[^5]
 - (1) (in medicine) A process of reducing the disease-producing ability of a microorganism. It can be achieved by chemical treatment, heating, drying, irradiation, by growing the organism under adverse conditions, or by serial passage through another organism. Attenuated bacteria or viruses are used for some vaccines. 
 - (2) (in mycology) The conversion by yeasts of carbohydrates to alcohol, as in brewing and wine and spirit production. 
 - (3) (in genetics) A mechanism for regulating gene expression in prokaryotes, observed especially in functional gene clusters (operons), such as the trp genes that encode enzymes responsible for synthesizing tryptophan in E. coli bacteria. Attenuation comes into play when the product of the enzymes (in this case tryptophan) is present to excess in the medium; transcription of the operon is drastically reduced, perhaps by as much as $90 \%$ of the maximum rate. This attenuation is caused by formation of stem-loop structures in the initial part of the RNA transcript, encoded by the trpL gene upstream of the structural genes. These RNA structures either allow transcription to proceed past the trpL gene or cause termination, depending on available concentrations of tryptophan transfer RNA, and hence tryptophan.
 ## Source[^6]
 - $n$. Reducing the force, effect, or value of something. In statistics, a reduction in the magnitude of a correlation below its theoretical true value as a result of measurement error in one or both of the sets of scores entering into the relationship. A widely used correction for attenuation, which assumes that the errors are uncorrelated with the true scores and with each other, states that the true correlation is equal to the correlation between the observed scores divided by the geometric mean of their reliabilities. \[From Latin attenuare to make thin, from ad to + tenuis thin + -ation indicating a process or condition]
+## Source[^7]
+- The reduction in magnitude of any electrical parameter of a signal, particularly electromagnetic radiation, on passing along any transmission path. The amount of attenuation is given by the ratio of the value of the parameter at the output to the corresponding value at the input under specified conditions. Attenuation results from the resistance present in the transmission path. It can be deliberately introduced into a transmission channel in order to reduce the magnitude of unwanted components of the parameter under consideration (see ATTENUATOR). Attenuation can also result from unwanted dissipation in the transmission path. See also ABSORPTION.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
@@ -23,3 +24,4 @@
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^6]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^7]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

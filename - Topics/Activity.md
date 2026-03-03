@@ -7,6 +7,9 @@
 	- Product-sustaining-level activities, i.e. activities relating to specific products that must be carried out regardless of how many units are produced and sold.
 	- Unit-level activities, i.e. activities that must be performed for each unit of production.
 	- Customer-level activities, i.e. activities that are carried out for a customer but are not related to a specific product. See also FACILITY-SUSTAINING ACTIVITY.
+## Source[^2]
+- The ratio of the peak value of the oscillations in a piezoelectric crystal to the peak value of the exciting voltage.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

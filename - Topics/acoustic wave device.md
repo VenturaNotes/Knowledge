@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- A device used in a signal-processing system in which acoustic waves are transmitted on a miniature substrate in order to perform a wide range of functions. Active and passive signal-processing devices formed on a single semiconductor chip have been produced including delay lines, attenuators, phase shifters, filters, amplifiers, oscillators, mixers, and limiters.
+	- Bulk acoustic waves are acoustic waves propagated through the bulk substrate material. The substrate material consists of a piezoelectric semiconductor, such as cadmium sulphide. The acoustic waves are generated from electrical signals as a result of the piezoelectric effect. The electric field vector of the acoustic wave interacts with the conduction electrons of the semiconductor, which have a drift velocity due to an external applied d.c. electric field. At a sufficient value of the drift velocity the kinetic energy of the drift electrons is converted to radiofrequency energy as a result of interaction with the acoustic field, and amplification of the original signals can result.
+	- Surface acoustic waves (SAW) are propagated along the surface of a substrate. The associated electric field extends for a short distance out of the surface and can interact with the conduction electrons of a separate semiconductor placed just above the surface. The physical separation of the acoustic substrate and the semiconductor allows the materials to be chosen so that the energy dissipation in the system is minimized. The acoustic material is a piezoelectric material that has a high electromechanical coupling coefficient and low acoustic loss. The semiconductor material is one that has high mobility electrons, optimum resistivity, and low d.c. power requirement so that the optimum efficiency is obtained.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
