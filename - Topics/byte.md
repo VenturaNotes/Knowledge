@@ -19,6 +19,8 @@ aliases:
 - A unit of information in a computer, consisting of a group of binary digits, that represents a number or character. Most computers use a byte with 8 binary digits. Byte and character are often used synonymously. For example, a USB flash drive holding 1 gigabyte will in theory store 1,000,000,000 characters.
 ## Source[^6]
 - $n$. A measure of information (2) equivalent to (usually) eight bits, sufficient to encode a character from a basic set of letters, numbers, and other symbols. Compare nYbble. \[Named in 1956 by the German computer engineer Werner Buchholz (born 1922) while working for IBM. An arbitrary formation, based on bit and bite, possibly influenced by b(inar)y (digi)t e(ight)]
+## Source[^7]
+- A fixed number of bits taken together and treated as a unit in a computer. A byte is a subdivision of a word, and is almost always 8 bits.
 ## References
 
 [^1]: https://makecode.microbit.org/courses/csintro/binary/overview
@@ -27,3 +29,4 @@ aliases:
 [^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^6]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^7]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

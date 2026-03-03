@@ -14,9 +14,12 @@ aliases:
 - A negatively charged ion, such as the chloride ion $\left(\mathrm{Cl}^{-}\right)$. Compare CATION.
 ## Source[^4]
 - $n$. A negatively charged ion such as chloride. Compare cation. \[From Greek ana up + ion going, from ienai to go]
+## Source[^5]
+- An ion that carries a negative charge and, in electrolysis, moves towards the anode, i.e. travels against the direction of conventional current. Compare CATION.
 ## References
 
 [^1]: [[(4) 2.1 Atomic Structure & Theory & Introduction to the Periodic Table - General Chemistry#^b327f9]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -2,6 +2,9 @@
 - 
 ## Source [^1]
 - In a computing context, the use of hardware and software to control aircraft and space vehicles. Traditionally, each key function or application had its own hardware and software, which was isolated from other systems. However, the newer approach, known as integrated modular avionics (IMA), enables different functions to share the same platform.
+## Source[^2]
+- Electronics applied to airborne systems including aviation and space applications.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

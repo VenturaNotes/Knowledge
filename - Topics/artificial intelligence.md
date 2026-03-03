@@ -29,6 +29,8 @@ aliases:
 - AI enables machines to think and learn as humans do. Examples of AI include self-driving cars, virtual booking agents, chatbots, smart assistants and manufacturing robots. First introduced in the 1950s, it has become more popular in the last decade as more organizations embrace this technology.
 ## Source[^5]
 - $n$. The design of hypothetical or actual computer programs or machines to do things normally done by minds, such as playing chess, thinking logically, writing poetry, composing music, or analyzing chemical substances. The most challenging problems arise in attempting to simulate functions of intelligence that are largely unconscious, such as those involved in vision and language. The term was introduced in 1956 by the US computer engineer John McCarthy (1927-2011). See strong AI, weak AI. See also case grammar, Chinese room, computer vision, default REASONING, EXPERT SYSTEM, FRAME (2), FRAME PROBLEM, FUZZY LOGIC, GENERAL Problem Solver, Gödel's THEOREM, KNOWLEDGE REPRESENTATION, NEURAL NETWORK, NON-MONOTONIC REASONING, OPTICAL CHARACTER RECOGNITION, Pandemonium, Shrdlu, Turing machine, Turing test. Also called machine intelligence. AI abbrev.
+## Source[^6]
+- (AI) The study and development of computing applications for tasks that would be described as requiring intelligence if they were done by people. Many of these applications involve systems that are capable of learning, adaptation, or self-correction.
 ## References
 
 [^1]: [[(Home Page) Glossary by ada computer science]]
@@ -36,3 +38,4 @@ aliases:
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Glossary by Capterra]]
 [^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

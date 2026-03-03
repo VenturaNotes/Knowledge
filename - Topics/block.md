@@ -7,7 +7,10 @@
 - (4) In parallel programming, to prevent further execution of one sequence of instructions until another sequence has done whatever is necessary to unblock it. See also BLOCKED PROCESS.
 ## Source[^2]
 - $n$. any interruption of physiological or mental function, brought about intentionally (as part of a therapeutic procedure) or by disease. See also HEART BLOCK; NERVE BLOCK.
+## Source[^3]
+- A sequence of bytes of a known (often fixed) length in a data storage device. For many devices such as hard disks or NAND flash devices, it is more efficient to transfer data in blocks of a certain size, rather than one byte at a time.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -23,6 +23,11 @@ aliases:
 - In computer systems, the limit on the amount of data that can be sent through a particular channel. As a result of the increase in computer processing power, most systems now offer the option of transmitting text, voice, still pictures, and full video. Transmission systems installed only a few years ago to deal with simple text applications do not now have the bandwidth to carry all the data that is available. See BROADBAND.
 ## Source[^7]
 - $n$. The range of frequencies over which a sense organ or any other communication channel functions or responds. Thus the human auditory system responds within a bandwidth corresponding to the audibility range from about 16 hertz to 20,000 hertz (cycles per second). See also spectrum.
+## Source[^8]
+- (1) The band of frequencies occupied by a transmitted modulated signal (see MODULATION) and lying to each side of the carrier-wave frequency. The bandwidth of a transmission channel is a measure of the information-carrying capacity of the channel. 
+- (2) The amount of deviation of frequency that an antenna array is capable of handling without a mismatch. 
+- (3) The band of frequencies over which the power amplification in an amplifier falls within a specified fraction (usually one half) of the maximum value. 
+- (4) See RECEIVER.
 ## References
 
 [^1]: https://answers.mak.ac.ug/network-connectivity/computer-networking-terminology
@@ -32,3 +37,4 @@ aliases:
 [^5]: [[(Home Page) Glossary by Capterra]]
 [^6]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^7]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^8]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

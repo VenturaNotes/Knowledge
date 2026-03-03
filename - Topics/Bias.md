@@ -13,8 +13,11 @@
 - A prejudice or a lack of objectivity or randomness resulting in an imbalance that makes it likely that the outcome will tend to be distorted. In statistics this is when a process contains some systematic imbalance so that, on average, the outcome of the process is not equal to the true value. Randomization techniques are employed to try and remove bias that may result from other sample estimator selection methods requiring choices to be made. See also NON-RESPONSE BIAS, RESPONSE BIAS, SELECTION BIAS, SELF-SELECTED SAMPLES.
 ## Source[^3]
 - $n$. systematic deviation of results from the truth. The many different types of bias include selection bias (failing to select a sample that is representative of the wider population), nonresponse bias (respondents differing from nonrespondents in statistical surveys), social desirability bias (respondents giving false answers they believe to be more socially acceptable than the truth), and systematic measurement errors (all measurements deviate from the truth in the same systematic fashion).
+## Source[^4]
+- (bias voltage) A voltage applied to an electronic device to ensure that it operates on a particular portion of its characteristic curve.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

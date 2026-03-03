@@ -21,6 +21,11 @@ See also CARRY LOOKAHEAD, PARALLEL ADDER, SERIAL ADDER.
   
 
 Adder. Truth table of binary half-adder
+## Source[^2]
+- A circuit in a computer that performs mathematical addition. A full adder contains several identical sections each of which add the corresponding bits of the two numbers to be added together with a carry digit from the preceding section and produce an output corresponding to the sum of the bits and a carry digit for the next section.
+- A half-adder is a circuit that adds two bits only and produces two outputs; the outputs must be suitably combined in another half-adder in order to produce the correct outputs for all possible combinations of inputs.
+- If two numbers each consisting of $x$ bits are to be added, a full adder circuit requires $2x$ inputs to $x$ identical sections and $(x + 1)$ outputs in order to perform the addition.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

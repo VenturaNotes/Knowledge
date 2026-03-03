@@ -11,8 +11,11 @@ aliases:
 - Firmware permanently resident in microcomputer systems that executes as the first stage of a cold boot. It verifies and initializes the various hardware components, then loads and runs software that loads the operating system. Formerly, in such operating systems as CP/M and MS-DOS, the BIOS was also responsible for most input and output operations; modern operating systems use device drivers for this purpose.
 ## Source[^3]
 - A basic input/output system (BIOS) is software stored on a computer's motherboard that is used by the computer's microprocessor to start the computer system after it is powered on. The BIOS links specific hardware devices to software and instructs the computer on how to perform basic functions such as keyboard control. The BIOS identifies and configures the computer's hardware, such as the hard drive, CPU, optical drive, memory, and attached devices. All modern computer motherboards have BIOS software. Because the BIOS is part of the motherboard hardware, access and configuration on computer systems are independent of any operating system.
+## Source[^4]
+- (basic input/output system) That part of the input/output system on a PC or similar processor that directly controls the hardware interface devices; it is usually found in ROM. BIOS gets the computer started before the operating system is loaded from the hard drive. The BIOS in a computer system is designed and placed into ROM by the computer manufacturer and is not alterable by the user of the computer.
 ## References
 
 [^1]: [[(Home Page) Glossary by ada computer science]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Glossary by Capterra]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

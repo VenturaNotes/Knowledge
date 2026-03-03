@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (AES) A method of spectroscopy that detects the electrons produced by the Auger process. The Auger electrons have a mean free path of only 1–3 nanometers, and their energy is typical of the material producing them. The Auger process dominates in low atomic number materials. Auger electron spectroscopy therefore is useful in the detection of low atomic number atoms in the surface of a semiconductor. Excess electrons are produced in the material by exciting the atoms with an electron beam, and the resulting Auger electrons are detected. The energy spectrum of the detected electrons can be correlated to the atomic species in the material. A scanning Auger microprobe (SAM) uses a focused electron beam to excite the material, which is then scanned across the surface. Lateral resolution using a SAM probe is limited by the diameter of the electron beam used, and can be as good as 50 nanometers. The composition of a material as a function of depth below the surface can be determined by using an ion beam to sputter material from the surface (sputter etching) and a SAM to continuously detect the Auger electron spectra produced.
+- AES is a flexible analytical tool. It is used to detect physical defects due to unwanted particles in a material, to detect contaminants causing high contact resistance, to examine bonds between an IC and external leads, to study the composition of thin films, and to provide information about the chemical state of materials (for example, elemental and oxidized silicon produce different spectra).
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

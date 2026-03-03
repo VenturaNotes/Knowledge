@@ -6,7 +6,10 @@
 - Some associative memories have been built to be accessed conventionally (by words in parallel) and as serial comparison associative memories; these have been called [[orthogonal memory|orthogonal memories]]. See also ASSOCIATIVE ADDRESSING, ASSOCIATIVE PROCESSOR.
 ## Source[^2]
 - $n$. Memory for links or connections between items, often studied through paired-associate learning.
+## Source[^3]
+- (content-addressable memory) A computer storage system that locates data by searching its memory cells for a specific bit pattern. The user supplies the bit pattern by giving two values: an argument and a mask; the argument holds the value being sought, and the mask specifies which argument bits to use when comparing the argument to the value in each cell.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

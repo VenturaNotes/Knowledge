@@ -8,12 +8,10 @@ aliases:
 - Name of the first computer network
 - Alias is considered to be "Advanced Research Project Agency Network"
 	- #comment Difference in "Projects" from source 2?
-
 ## Source[^2]
 - It was a pioneering long-haul network funded by the U.S. Department of Defense's Advanced Research Projects Agency. 
 - It's considered to be the forerunner of the internet
 - Alias considered to be "Advanced Research Projects Agency Network"
-
 ## Source[^3]
 - The U.S. Advanced Research Projects Agency Network (ARPANET) was the first public packet-switched computer network.
 ## Source[^4]
@@ -22,6 +20,8 @@ aliases:
 - ARPANET pioneered many of the network concepts now in current use, including the use of layered protocols. Each protocol governs the transfer of information for a range of associated applications, and delegates the control of the traffic flow to cooperating processes located either at the end-user applications, or, for the lower layers of the protocol, to processes located in the switching nodes.
 ## Source[^5]
 - ARPANET (the Advanced Research Projects Agency Network) was a computer network launched in 1969 for academic purposes, and then was decommissioned 20 years later. The merger of ARPANET and other individual computer networks helped form the internet. Additionaly, several current protocols employed by computer networks were initially developed for ARPANET, including the now popular TCP/IP protocol suite.
+## Source[^6]
+- The forerunner of the Internet developed by the Advanced Research Projects Agency in the USA to allow the super-computers of the day to be accessed remotely.
 ## References
 
 [^1]: https://youtu.be/NRckVJk9n0k?si=AiQU4wGU5BZR0qv-
@@ -29,3 +29,4 @@ aliases:
 [^3]: https://www.techtarget.com/searchnetworking/definition/ARPANET
 [^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^5]: [[(Home Page) Glossary by Capterra]]
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

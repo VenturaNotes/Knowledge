@@ -8,9 +8,12 @@
 - $n$. One ten billionth of a meter ( $10^{-10}$ meter) or one ten millionth of a millimeter, used mainly for expressing wavelengths of light and other electromagnetic radiation. The visible spectrum extends from approximately 3,900 angstroms at the violet end of the spectrum to 7,400 angstroms at the red end. Also called an angstrom unit, but that usage is obsolescent. Also written Ångström, Ångström unit. Compare nanometre. \[Named after the Swedish physicist Anders Jonas Ångström (1814-74) who introduced it]
 ## Source[^4]
 - (Symbol $\mathring A$) A unit of length equal to $10^{-10}$ meter. It was formerly used to measure wavelengths and intermolecular distances but has now been replaced by the nanometer. 1 $\mathring A = 0.1$ nanometer. The unit is named after A.J. Ångström.
+## Source[^5]
+- (symbol: Å) A unit of length equal to $10^{-10}$ meter.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

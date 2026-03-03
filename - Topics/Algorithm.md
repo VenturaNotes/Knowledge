@@ -52,6 +52,8 @@ aliases:
 ## Source[^12]
 - The word 'algorithm' comes from '[[al-Khwarizmi]]'. It was named after a Persian scholar who lived around year 800
 	- #question Is that AD or BC?
+## Source[^13]
+- A planned set of instructions or steps in a computer program that is designed to solve a particular problem.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-1-algorithms-quizzes/2-1-algorithms-quiz-10-questions/
@@ -66,3 +68,4 @@ aliases:
 [^10]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^11]: [[(Home Page) Algorithms, Part I by by Princeton University#1 2 Lecture Slides]]
 [^12]: [[(Home Page) DSA by W3Schools]]
+[^13]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

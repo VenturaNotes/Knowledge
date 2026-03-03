@@ -10,8 +10,12 @@ aliases:
 - An autonomous system (AS) in networking is a collection of one or more associated Internet Protocol (IP) prefixes with a clearly defined routing policy that governs how the AS exchanges routing information with other autonomous systems.
 ## Source[^3]
 - On the Internet, a network or group of networks that can be viewed by the rest of the Internet as a single system for routing purposes. Autonomous systems must be registered and allocated a unique [[AS number]] by IANA, and their routers must communicate with each other using the Border Gateway Protocol. Autonomous systems are usually run by large organizations, in particular Internet Service Providers.
+## Source[^4]
+- (1) A robotic system capable of adapting its control behavior as environmental conditions change. Such systems use artificial intelligence and machine learning techniques to identify when and how to adapt their behavior. 
+- (2) A part of the Internet under the management of a single administration that determines its routing policy. Each such part is assigned a unique Autonomous System Number (ASN).
 ## References
 
 [^1]: [[(Home Page) Glossary by ada computer science]]
 [^2]: https://www.techtarget.com/searchnetworking/definition/autonomous-system
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
