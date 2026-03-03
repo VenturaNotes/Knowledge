@@ -56,9 +56,9 @@ Reviewed: false
 	- [[(46) Discrete Math - 4.2.3 Conversions Between Binary, Octal and Hexadecimal Expansions]]
 	- [[(47) Discrete Math - 4.2.4 Algorithms for Integer Operations]]
 	- [[(48) Discrete Math - 4.3.1 Prime Numbers and Their Properties]]
-- Incomplete
 	- [[(49) Discrete Math - 4.3.2 Greatest Common Divisors and Least Common Multiples]]
 	- [[(50) Discrete Math - 4.3.3 The Euclidean Algorithm]]
+- Incomplete
 	- [[(51) Discrete Math - 4.3.4 Greatest Common Divisors as Linear Combinations]]
 	- [[(52) Discrete Math - 4.4.1 Solving Linear Congruences Using the Inverse]]
 	- [[(53) Discrete Math - 5.1.1 Proof Using Mathematical Induction  - Summation Formulae]]

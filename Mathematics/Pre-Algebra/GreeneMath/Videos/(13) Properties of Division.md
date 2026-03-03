@@ -16,7 +16,7 @@ Reviewed: false
 		- ![[Screenshot 2022-12-12 at 4.29.22 PM.png]]
 			- We are able to subtract 6 by 3 twice, which tells us that 6 $\div$ 3 is 2.
 	- We can see that 3+3 = 2x3 = 6 and 6 $\div$ 3 = 2
-		- ![[Screenshot 2022-12-12 at 4.31.57 PM.png]]
+		- ![[Screenshot 2022-12-12 at 4.31.57 PM.png|343]]
 		- The result "2" in [[division]] is called the [[quotient]]. The "3" is the divisor in division. the "6" is called the [[dividend]]. Taking the quotient and multiplying that by the divisor gives us the dividend
 	- If given 15 $\div$ 3 = ?
 		- We can ask, what number multiplied by 3 equals 15?

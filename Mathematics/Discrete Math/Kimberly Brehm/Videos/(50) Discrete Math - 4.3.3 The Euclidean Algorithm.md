@@ -3,3 +3,22 @@ Source:
   - https://youtube.com/watch?v=5LhWIaWlprM
 Reviewed: false
 ---
+- ![[Screenshot 2026-03-02 at 5.57.28 PM.png]]
+	- Will look at Euclidean algorithm as a method for greatest common divisor 
+	- Slide 1
+		- Example
+		- Finding $544 = 212(2) + 120$ means that the $\text{gcd}(544, 212)$ is the same as $\text{gcd}(212, 120)$
+		- The GCD is the last remainder (whatever the last [[quotient]] would be). In this case 4 would be the `gcd(8, 4)`
+	- Slide 2
+		- [[Euclidean Algorithm]]
+			- Let $a = bq+ r$ where $a, b, q, r \in \mathbb{Z}$. Then $\text{gcd}(a,b) = \text{gcd}(q,r)$
+				- The q and r is quotient and remainder.
+			- If we can show the common divisors of $a,b$ equal the common divisors of $q,r$ then we will have shown that $\text{gcd}(a,b) = \text{gcd}(q,r)$.
+			- If $d|a$ and $d|b$, then $d|(a-qb)$. Therefore, a common divisor of $a$ and $b$ is a common divisor of $q,r$, as $r=a-bq$. Suppose $d|b$ and $d|r$. Then $d|bq + r = a.$
+				- In section 4.1, showed $d | (a+b)$ and $d | ab$ 
+				- The suppose part is an `iff` statement
+			- Therefore any divisor of $a,b$ is a common divisor of $q,r$. $\blacksquare$
+			- #question Not understanding the proof completely so would need to break it down later in my own words
+	- Slide 3
+		- Want to start with the greater value ($662$) when doing $662 = 414 (1) + 248$
+		- Taking the greatest non-zero remainder is 2.

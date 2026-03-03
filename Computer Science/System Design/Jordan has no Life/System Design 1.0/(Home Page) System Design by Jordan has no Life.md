@@ -4,7 +4,7 @@ Source:
 Length: 10 hours, 7 minutes, 26 seconds
 tags:
   - type/playlist
-  - status/complete
+  - status/prepared
 Year: 2022-10-20
 Reviewed: false
 ---
