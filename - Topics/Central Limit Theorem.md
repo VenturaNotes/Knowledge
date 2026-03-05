@@ -5,7 +5,10 @@
 - It implies that for a large sample, the sample mean has approximately the normal distribution with mean $\mu$ and variance $\sigma^2/n$
 ## Source[^2]
 - $n$. In statistics, a theorem showing (roughly) that the sum of any sufficiently large number of unrelated variables tends to be distributed according to the normal distribution, irrespective of how the individual variables are distributed, except in certain special cases. It explains why psychological and biological variables that are due to the additive effects of numerous independently acting causes are often distributed approximately normally. The earliest version of it was proved in 1818 by the French mathematician Pierre Simon Marquis de Laplace (1749-1827).
+## Source[^3]
+- A statistical theorem which states that, in general, the probability distribution of the sum of a number of statistically independent random variables approximates to the Gaussian distribution as the number of variables becomes very large, irrespective of the distributions of the individual random variables. The central limit theorem is commonly used in the understanding and analysis of noise in communication systems.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

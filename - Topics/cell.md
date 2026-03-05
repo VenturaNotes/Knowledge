@@ -117,6 +117,11 @@ aliases:
 | 2017    | Approval granted for first cancer therapy based on a patient's own T cells, which are extracted and engineered to express chimeric antigen receptors (CARs) designed to target the patient's specific tumor. The CAR T cells are then reintroduced to the patient to destroy the tumor cells. |
 ## Source[^5]
 - $n$. The smallest independently functioning unit of an organism, consisting of a nucleus (1) containing genetic information, surrounded by a cytoplasm containing various organelles including mitochondria, ribosomes, and lysosomes, bounded by a cell membrane. See also eUKaryote, prokaryote. cellular adj. \[From Latin cella a room, from celare to hide]
+## Source[^6]
+- (1) (electrolytic cell; voltaic cell) A device that produces electricity by chemical means, consisting of a pair of plate electrodes in an electrolyte. In a primary cell the chemical action is not normally reversible, the current being produced as a result of the dissolution of one of the plates. A secondary cell has reversible chemical action and is charged by passing a current through it. The rate and direction of the chemical action is determined by the value of the external voltage. The volt efficiency of a secondary cell is the ratio of the voltage developed by it during the discharge to the average voltage supplied to it during the recharging cycle.
+- The cell internal resistance is the resistance offered to the passage of current inside the cell. If the open-circuit e.m.f. is $E$, then the potential difference, $U$, across the cell when current flows is given by$$U = \frac{ER}{(R + r)}$$where $R$ is the external resistance and $r$ the internal resistance.
+- A portable cell that has the electrolyte in the form of a nonspillable jelly or paste is known as a dry cell. Most cells contain a liquid electrolyte and are sometimes termed wet cells. Dry cells are used in the batteries for torches, portable radios, etc. 
+- (2) Any device that can generate a direct electromotive force from a nonelectrical source of energy, particularly from light energy. Examples include solar cells and photovoltaic cells.
 ## References
 
 [^1]: [[(Home Page) Campbell Biology by Urry, Cain, et al.#^ikngtm]]
@@ -124,3 +129,4 @@ aliases:
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

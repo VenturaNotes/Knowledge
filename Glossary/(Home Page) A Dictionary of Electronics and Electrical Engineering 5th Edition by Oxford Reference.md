@@ -789,35 +789,45 @@ tags:
 	571. Cauer filter
 		1. See elliptic filter
 	572. [[causal system]]
-	573. cavity resonator
-	574. C band
+	573. [[cavity resonator]]
+	574. [[C band]]
 	575. CCCS
+		1. (current-controlled current source) See dependent sources
 	576. CCD
-	577. CCD filter
-	578. CCD memory
-	579. CCD sensor
+		1. See charge-coupled device
+	577. [[CCD filter]]
+	578. [[CCD memory]]
+	579. [[CCD sensor]]
 	580. CCI
+		1. (first-generation current conveyor) See current conveyor
 	581. CCII
+		1. (second-generation current conveyor)
 	582. CCS
+		1. (centum call second) See network traffic measurement.
 	583. CCTV
+		1. See closed-circuit television
 	584. CCVS
+		1. (current-controlled voltage source) See dependent sources.
 	585. CD
-	586. CD-R
-	587. CD-ROM
-	588. CD-RW
+		1. (compact disc) See compact disc system
+	586. [[CD-R]]
+	587. [[CD-ROM]]
+	588. [[CD-RW]]
 	589. CDMA
-	590. cell
-	591. cell constant
-	592. cell site
-	593. cell tower
-	594. cellular automata
-	595. cellular communications
+		1. (code-division multiple access) See digital communications
+	590. [[cell]]
+	591. [[cell constant]]
+	592. [[cell site]]
+	593. [[cell tower]]
+	594. [[cellular automata]]
+	595. [[cellular communications]]
 	596. CELP
-	597. centi-(symbol: c)
-	598. central limit theorem
-	599. central processing unit
-	600. centre clipper
-	601. centre frequency
+		1. (code-excited linear prediction) See linear prediction
+	597. [[centi-]]
+	598. [[central limit theorem]]
+	599. [[central processing unit]]
+	600. [[center clipper]]
+	601. [[center frequency]]
 	602. centre tap
 	603. centum call second
 	604. cepstrum
