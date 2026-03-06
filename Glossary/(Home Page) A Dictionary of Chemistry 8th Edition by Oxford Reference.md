@@ -4795,7 +4795,7 @@ Reviewed: false
 	4732. supercooling
 	4733. superexchange
 	4734. superfluidity
-	4735. superheating
+	4735. [[superheating]]
 	4736. superionic conductor
 	4737. superlattice
 	4738. supernatant liquid
@@ -4817,7 +4817,7 @@ Reviewed: false
 	4754. SYBYL line notation
 	4755. sylvite
 	4756. symmetric top
-	4757. symmetry
+	4757. [[symmetry]]
 	4758. symmetry-adapted linear combinations
 	4759. syn
 	4760. synchrotron radiation
@@ -4900,7 +4900,7 @@ Reviewed: false
 	4837. theophylline
 	4838. theoretical yield
 	4839. theory
-	4840. thermal analysis
+	4840. [[thermal analysis]]
 	4841. thermal capacity
 	4842. thermal equilibrium
 	4843. thermite
