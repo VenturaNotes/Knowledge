@@ -4904,7 +4904,7 @@ Reviewed: false
 	4841. thermal capacity
 	4842. thermal equilibrium
 	4843. thermite
-	4844. thermochemistry
+	4844. [[thermochemistry]]
 	4845. thermodynamics
 	4846. thermodynamic temperature
 	4847. thermoluminescence
@@ -5038,7 +5038,7 @@ Reviewed: false
 	4975. triphenylmethyl
 	4976. triple bond
 	4977. triple point
-	4978. triplet
+	4978. [[triplet]]
 	4979. trisilane
 	4980. trisodium phosphate(V)
 	4981. tritiated compound
@@ -5063,7 +5063,7 @@ Reviewed: false
 	5000. twist
 	5001. two-dimensional infrared spectroscopy
 	5002. two-dimensional NMR
-	5003. Tyndall effect
+	5003. [[Tyndall effect]]
 	5004. type A and B metals
 	5005. type A metal
 	5006. type B metal
