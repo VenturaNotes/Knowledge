@@ -5069,7 +5069,7 @@ Reviewed: false
 	5006. type B metal
 	5007. tyrosine
 	5008. ubiquinone
-	5009. ultracentrifuge
+	5009. [[ultracentrifuge]]
 	5010. ultracold atoms
 	5011. ultrahigh frequency
 	5012. ultramicroscope
@@ -5114,12 +5114,12 @@ Reviewed: false
 	5051. V-series
 	5052. vacancy
 	5053. vacuum
-	5054. vacuum distillation
+	5054. [[vacuum distillation]]
 	5055. vacuum pump
 	5056. valence
 	5057. valence-bond theory
 	5058. valence band
-	5059. valence electron
+	5059. [[valence electron]]
 	5060. valency
 	5061. valine
 	5062. Valium
