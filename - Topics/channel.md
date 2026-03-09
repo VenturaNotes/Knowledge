@@ -13,7 +13,13 @@
 - (7) In a field-effect transistor (FET), the path in the semiconductor through which current flows.
 ## Source[^2]
 - (in cell biology) A pore formed by a protein molecule in a plasma membrane that aids the diffusion of certain substances into and out of the cell. These substances are usually charged ions or lipid-insoluble molecules. See ION CHANNEL; LIGAND-GATED ION CHANNEL; VOLTAGE-GATED ION CHANNEL.
+## Source[^3]
+- (1) A specified frequency band or a particular path used in communications for the reception or transmission of electrical signals. 
+- (2) A route along which information may travel or be stored in a data-processing system or a computer. 
+- (3) (in a field-effect transistor) The region connecting source and drain, the conductivity of which is modulated by the gate voltage. 
+- (4) (in a p-n-p bipolar junction transistor) The spurious extension of n-type base across the surface of the collector to the edge of the chip. This results in excessive leakage currents and may be overcome using a channel stopper. The inevitable presence of positive charges at the interface of the high-resistivity p-type collector with the passivating oxide layer causes the formation of the n-type channel on the surface of the collector.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
