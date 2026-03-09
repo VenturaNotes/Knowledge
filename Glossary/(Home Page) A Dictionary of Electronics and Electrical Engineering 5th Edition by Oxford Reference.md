@@ -828,30 +828,39 @@ tags:
 	599. [[central processing unit]]
 	600. [[center clipper]]
 	601. [[center frequency]]
-	602. centre tap
+	602. [[center tap]]
 	603. centum call second
-	604. cepstrum
-	605. ceramic capacitor
-	606. ceramic filter
+		1. (CCS) See network traffic measurement
+	604. [[cepstrum]]
+	605. [[ceramic capacitor]]
+	606. [[ceramic filter]]
 	607. ceramic pick-up
-	608. cermet
-	609. CGA
+		1. See pick-up
+	608. [[cermet]]
+	609. [[color graphics adapter|CGA]]
 	610. CGI
-	611. CGS system
+		1. See common gateway interface
+	611. [[CGS system]]
 	612. chaff
-	613. channel
-	614. channel capacity
+		1. See confusion reflector
+	613. [[channel]]
+	614. [[channel capacity]]
 	615. channel code
-	616. channel stopper
-	617. characteristic
+		1. See compact disc system
+	616. [[channel stopper]]
+	617. [[characteristic]]
 	618. characteristic equation
+		1. See complementary function
 	619. characteristic impedance
-	620. charge(symbol: Q; unit: coulomb)
-	621. charge-coupled device
+		1. See iterative impedance; transmission line
+	620. [[charge]]
+	621. [[charge-coupled device]]
 	622. charge-storage diode
-	623. charge-transfer device
+		1. See step-recovery diode
+	623. [[charge-transfer device]]
 	624. charge carrier
-	625. charge density
+		1. See carrier; semiconductor
+	625. [[charge density]]
 	626. charge storage
 	627. chart recorder
 	628. Chebyshev filter
