@@ -8,7 +8,11 @@
 - The term data processing is used in contexts other than the one described above: for instance, scientific data processing means the fairly straightforward processing of large quantities of experimental results, and personal data processing means an individual's use of a microcomputer to keep personal records.
 ## Source[^2]
 - (DP) Computing operations that manipulate large quantities of information. In business, these operations include book-keeping, printing invoices and mail shots, payroll calculations, and general record keeping. Data processing forms a major use of computers in business, and many firms have full-time data-processing departments.
+## Source[^3]
+- The automatic or semiautomatic organization of numerical data on a routine basis. A data-processing system is any system that can receive, transmit, or store data; many systems can also perform mathematical operations upon the data and tabulate or indicate the results.
+- Analogue and digital computers are examples of data-processing systems but the term usually refers to systems that perform a limited number of functions automatically, particularly systems that are used to control the operation of other systems.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

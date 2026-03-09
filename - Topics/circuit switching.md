@@ -5,7 +5,10 @@
 - A method of communications that is used in telephone systems and requires a physical transmission path—a circuit-to exist between the two devices wishing to communicate. The end-to-end path must exist before data can be sent. The only delay to which the data is subject is the propagation delay along the transmission medium ( 6 microseconds per 100 km for copper telephone lines). Since the path is reserved during the entire connection, any unused bandwidth is wasted. Compare MESSAGE SWITCHING, PACKET SWITCHING, VIRTUAL CIRCUIT.
 ## Source[^2]
 - Circuit switching is a type of technology used for data transfer. In circuit switching, at least two network nodes establish and maintain a temporary direct connection. Circuit switching uses the dedicated communications channel, or circuit, for the duration of the connection to exchange information. Also referred to as a connection-oriented network, circuit switching is the basis of traditional telephone networks.
+## Source[^3]
+- A technique used in digital communications that provides point-to-point connection by setting up a virtual circuit between two nodes, which remains in place throughout the conversation whether or not either node has any information to transmit. Compare PACKET SWITCHING.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

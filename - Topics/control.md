@@ -8,8 +8,11 @@
 - (1) The part of an experiment that acts as a standard by which to compare experimental observations. 
 - (2) The natural regulation of biological processes. See CONTROL MECHANISM. 
 - (3) See BIOLOGICAL CONTROL; CHEMICAL CONTROL.
+## Source[^4]
+- The mechanisms by which a control system exhibits authority on a physical system.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
