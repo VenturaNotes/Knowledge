@@ -7,6 +7,9 @@
 - The main decoding algorithms for convolutional codes are Viterbi's algorithm and various sequential algorithms, of which the most important are Fano's algorithm and the stack algorithm. Viterbi's is a maximum-likelihood algorithm
 - Linear block codes can be regarded as a special case of convolutional codes with $m = 0$ and $c=1$. Convolutional codes are often specified by the parameters $(n, k)$ or $(n, k, c),$ although the simple phrase $(n, k)$ code usually specifies a block code rather than a convolutional code.
 - Convolutional codes are of increasing importance as they become better understood theoretically, as better decoding algorithms are found, and as it becomes increasingly economical to provide programmable decoders, the decoding algorithms being best programmed in software owing to their complexity. 
+## Source[^2]
+- A type of forward error-correcting code in which the coded bits are determined by a combination of the previous few data bits, as compared with a block code (see DIGITAL CODES).
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

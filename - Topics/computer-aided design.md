@@ -11,7 +11,10 @@ aliases:
 - Output from a computer-aided design system consists of printouts of specifications and other information, and machine-readable files that are passed to computer-aided manufacturing (CAM) systems and computer-aided testing (CAT) systems. Examples of output to a CAM system are computer-produced artwork for printed circuit boards, or computer-produced tapes for automatic insertion component and board drilling. The combined process of computer-aided design and manufacture is known as CADCAM. The whole procedure$\textemdash$design, manufacture, and testing$\textemdash$is often referred to as CADMAT. There is an ISO standard (STEP) for the exchange of product model data, including CAD data.
 ## Source[^2]
 - (CAD) The use of computers to produce designs and to manipulate them rapidly. In many cases it can replace the need to produce expensive prototypes. In conjunction with live data, CAD can also be used for testing complex projects; for example, nuclear tests in the Pacific provided data enabling computer simulations to test future weapons. In conjunction with virtual reality, CAD can allow potential customers to view new products at an early stage, before significant amounts of capital have been expended on plant, etc. CAD is also linked to material requirements planning systems permitting rapid costing of new models to be made, together with the appropriate bills of materials.
+## Source[^3]
+- (CAD) The application of computers to the design and analysis of a product. A CAD program can convert a designer's rough sketches into a more finished form, using input devices such as mouse and light pen.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

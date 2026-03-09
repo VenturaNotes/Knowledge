@@ -560,7 +560,7 @@ tags:
 	404. [[binding energy]]
 	405. [[bioelectronics]]
 	406. [[BIOS]]
-	407. [[Biot–Savart law]]
+	407. [[Biot-Savart law]]
 	408. biphase PCM
 		1. (Machester code) See pulse modulation
 	409. [[bipolar integrated circuit]]
@@ -752,7 +752,7 @@ tags:
 	543. carbon resistor
 		1. (carbon-composition resistor) See resistor
 	544. [[cardioid microphone]]
-	545. [[Carey–Foster bridge]]
+	545. [[Carey-Foster bridge]]
 	546. [[carrier]]
 	547. [[carrier concentration]]
 	548. [[carrier frequency]]
@@ -862,389 +862,552 @@ tags:
 		1. See carrier; semiconductor
 	625. [[charge density]]
 	626. charge storage
+		1. See carrier storage
 	627. chart recorder
-	628. Chebyshev filter
-	629. chemical vapour deposition
+		1. See graphic instrument
+	628. [[Chebyshev filter]]
+	629. [[chemical vapor deposition]]
 	630. chemiluminescence
+		1. See luminescence
 	631. Child's law
-	632. chip
-	633. chip-enable
-	634. chip capacitor
-	635. chip carrier
-	636. chip inductor
-	637. chip resistor
-	638. chirp
-	639. choke
+		1. See thermionic valve
+	632. [[chip]]
+	633. [[chip-enable]]
+	634. [[chip capacitor]]
+	635. [[chip carrier]]
+	636. [[chip inductor]]
+	637. [[chip resistor]]
+	638. [[chirp]]
+	639. [[choke]]
 	640. choke coupling
+		1. See coupling
 	641. chopped impulse voltage
-	642. chopper amplifier
-	643. chronotron
-	644. cipher
+		1. See impulse voltage
+	642. [[chopper amplifier]]
+	643. [[chronotron]]
+	644. [[cipher]]
 	645. CIRC
-	646. circuit
-	647. circuit-breaker
-	648. circuit diagram
-	649. circuit loop
-	650. circuit loop analysis
-	651. circuit mesh analysis
-	652. circuit switching
+		1. (cross-interleave Reed-Solomon code) See Digital Codes
+	646. [[circuit]]
+	647. [[circuit-breaker]]
+	648. [[circuit diagram]]
+	649. [[circuit loop]]
+	650. [[circuit loop analysis]]
+	651. [[circuit mesh analysis]]
+	652. [[circuit switching]]
 	653. circular function
+		1. See trigonometric function
 	654. circular polarization
+		1. See polarization
 	655. circular scanning
-	656. CISC
+		1. See scanning
+	656. [[complex instruction set computer|CISC]]
 	657. clamp-type mica capacitor
-	658. clamping circuit
-	659. Clark cell
-	660. class A amplifier
-	661. class AB amplifier
-	662. class B amplifier
-	663. class C amplifier
-	664. class D amplifier
-	665. class E amplifier
-	666. class F amplifier
-	667. class G amplifier
-	668. class H amplifier
-	669. classical control
-	670. class S amplifier
-	671. claytronics
-	672. clear
-	673. clear to send
-	674. clipping
-	675. clock
-	676. clock cycle
+		1. See mica capacitor
+	658. [[clamping circuit]]
+	659. [[Clark cell]]
+	660. [[class A amplifier]]
+	661. [[class AB amplifier]]
+	662. [[class B amplifier]]
+	663. [[class C amplifier]]
+	664. [[class D amplifier]]
+	665. [[class E amplifier]]
+	666. [[class F amplifier]]
+	667. [[class G amplifier]]
+	668. [[class H amplifier]]
+	669. [[classical control]]
+	670. [[class S amplifier]]
+	671. [[claytronics]]
+	672. [[clear]]
+	673. [[clear to send]]
+	674. [[clipping]]
+	675. [[clock]]
+	676. [[clock cycle]]
 	677. clocked flip-flop
+		1. See flip-flop
 	678. clock skew
-	679. closed-circuit television
-	680. closed-loop control system
-	681. closed-loop frequency response
-	682. closed-loop gain
-	683. closed-loop voltage gain
+		1. See skew
+	679. [[closed-circuit television]]
+	680. [[closed-loop control system]]
+	681. [[closed-loop frequency response]]
+	682. [[closed-loop gain]]
+	683. [[closed-loop voltage gain]]
 	684. closed circuit
-	685. cloud computing
-	686. cluster analysis
-	687. clutter
+		1. See circuit
+	685. [[cloud computing]]
+	686. [[cluster analysis]]
+	687. [[clutter]]
 	688. CLV
+		1. (constant linear velocity) See compact disc system
 	689. CMOS
+		1. See MOSFET; complementary transistors
 	690. CMOS logic circuit
-	691. CMOS sensor
+		1. See MOS Logic Circuit
+	691. [[CMOS sensor]]
 	692. CMR
+		1. See common-mode rejection
 	693. CMRR
+		1. See common-mode rejection ratio
 	694. coarse scanning
-	695. coaxial cable
+		1. See radar; scannnig.
+	695. [[coaxial cable]]
 	696. coaxial pair
+		1. See pair
 	697. coaxial resonator
+		1. See waveguide
 	698. cochannel interference
-	699. cochannel rejection
+		1. See interference
+	699. [[cochannel rejection]]
 	700. code
+		1. See digital codes.
 	701. code-excited linear prediction
+		1. See linear prediction
 	702. code beacon
-	703. codec
+		1. See beacon
+	703. [[codec]]
 	704. code distance
+		1. See digital codes
 	705. coder
+		1. See pulse modulation
 	706. code rate
+		1. See digital codes
 	707. coding gain
+		1. See digital codes
 	708. coding weight
+		1. See digital codes
 	709. coercive force
-	710. cognitive radio
+		1. See magnetic hysteresis
+	710. [[cognitive radio]]
 	711. coherent detection
-	712. coherent radiation
-	713. coil
+		1. (coherent demodulation) See modulation
+	712. [[coherent radiation]]
+	713. [[coil]]
 	714. coil loading
-	715. coincidence circuit
-	716. cold cathode
+		1. See transmission line
+	715. [[coincidence circuit]]
+	716. [[cold cathode]]
 	717. cold emission
-	718. collector
-	719. collector-current multiplication factor
-	720. collector characteristic
+		1. See field emission
+	718. [[collector]]
+	719. [[collector-current multiplication factor]]
+	720. [[collector characteristic]]
 	721. collector efficiency
-	722. collision avoidance systems
-	723. colour code
-	724. colour flicker
-	725. colour fringing
-	726. colour picture tube
-	727. colour saturation control
+		1. See common-base forward-current transfer ratio
+	722. [[collision avoidance systems]]
+	723. [[color code]]
+	724. color flicker
+		1. See flicker
+	725. [[color fringing]]
+	726. [[color picture tube]]
+	727. color saturation control
+		1. See television receiver
 	728. Colpitt's oscillator
+		1. See oscillator
 	729. coma
-	730. comb filter
+		1. See distortion
+	730. [[comb filter]]
 	731. combination-tone distortion
-	732. combinational logic
+		1. (intermodulation distortion) See distortion
+	732. [[combinational logic]]
 	733. common-anode connection
-	734. common-base connection
+		1. See common-collector connection
+	734. [[common-base connection]]
 	735. common-base current gain
-	736. common-base forward-current transfer ratio(symbol: α)
+		1. See common-base forward-current transfer ratio
+	736. [[common-base forward-current transfer ratio]]
 	737. common-cathode connection
-	738. common-collector connection
+		1. See common-emitter connection
+	738. [[common-collector connection]]
 	739. common-drain connection
-	740. common-emitter connection
+		1. See common-collector connection
+	740. [[common-emitter connection]]
 	741. common-emitter forward-current transfer ratio
+		1. See beta current gain factor
 	742. common-gate connection
+		1. See common-base connection
 	743. common-impedance coupling
+		1. See coupling
 	744. common-mode chokes
+		1. See electromagnetic compatibility
 	745. common-mode currents
-	746. common-mode rejection
-	747. common-mode rejection ratio
-	748. common-mode signal
+		1. See electromagnetic compatibility
+	746. [[common-mode rejection]]
+	747. [[common-mode rejection ratio]]
+	748. [[common-mode signal]]
 	749. common-source connection
+		1. See common-emitter connection
 	750. common branch
-	751. common gateway interface
-	752. communication channel
-	753. communication network
-	754. communications satellite
-	755. commutation
-	756. commutation switch
+		1. (mutual branch) See network
+	751. [[common gateway interface]]
+	752. [[communication channel]]
+	753. [[communication network]]
+	754. [[communications satellite]]
+	755. [[commutation]]
+	756. [[commutation switch]]
 	757. commutator
-	758. compact camera
+		1. See motor
+	758. [[compact camera]]
 	759. compact disc recordable
+		1. Se CD-R.
 	760. compact disc rewritable
-	761. compact disc system
-	762. compact system camera
+		1. See CD-RW.
+	761. [[compact disc system]]
+	762. [[compact system camera]]
 	763. compandor
-	764. comparator
-	765. compensated semiconductor
-	766. compensating leads
-	767. compensation network
-	768. compensator
+		1. See volume compressor; amplitude compandoring.
+	764. [[comparator]]
+	765. [[compensated semiconductor]]
+	766. [[compensating leads]]
+	767. [[compensation network]]
+	768. [[compensator]]
 	769. compiler
-	770. complementary function
-	771. complementary transistors
-	772. complex conjugate
+		1. See programming language
+	770. [[complementary function]]
+	771. [[complementary transistors]]
+	772. [[complex conjugate]]
 	773. complex frequency
+		1. See Laplace Transform. See also S-Domain Circuit Analysis.
 	774. complex impedance
-	775. complex number
+		1. See impedance
+	775. [[complex number]]
 	776. complex operator
-	777. complex plane
-	778. component
-	779. component part
-	780. component video
-	781. COM port
+		1. See S-domain circuit analysis
+	777. [[complex plane]]
+	778. [[component]]
+	779. [[component part]]
+	780. [[component video]]
+	781. [[COM port]]
 	782. composite cable
-	783. composite conductor
+		1. See cable
+	783. [[composite conductor]]
 	784. composition resistor
+		1. Usually a carbon-composition resistor. See RESISTOR.
 	785. compound magnet
+		1. See permanent magnet
 	786. compound modulation
-	787. compound semiconductor
+		1. (multiple modulation) See modulation
+	787. [[compound semiconductor]]
 	788. compression
-	789. compression point
+		1. See data compression
+	789. [[compression point]]
 	790. compressor
-	791. computed tomography
-	792. computer
-	793. computer-aided design
-	794. computer-aided engineering
-	795. computer-aided manufacturing
-	796. computer architecture
+		1. See volume compressor
+	791. [[computed tomography]]
+	792. [[computer]]
+	793. [[computer-aided design]]
+	794. [[computer-aided engineering]]
+	795. [[computer-aided manufacturing]]
+	796. [[computer architecture]]
 	797. computerized axial tomography
-	798. computer vision
+		1. (CAT) See neuroimaging
+	798. [[computer vision]]
 	799. concatenated codes
+		1. See digital codes
 	800. concatenative synthesis
-	801. concentration cell
-	802. concentration gradient
-	803. concentrator
-	804. concurrency
+		1. See speech synthesis
+	801. [[concentration cell]]
+	802. [[concentration gradient]]
+	803. [[concentrator]]
+	804. [[concurrency]]
 	805. condenser
+		1. An obsolete term for capacitor
 	806. conditional branch
-	807. conductance(symbol: G; unit: siemens)
+		1. See branch instruction
+	807. [[conductance]]
 	808. conducted emissions
+		1. See electromagnetic compatibility
 	809. conducted interference
+		1. See electromagnetic compatibility
 	810. conducted susceptibility
-	811. conduction
-	812. conduction band
+		1. See electromagnetic compatibility
+	811. [[conduction]]
+	812. [[conduction band]]
 	813. conduction current
-	814. conduction electrons
-	815. conductivity(symbol: σ; unit: siemens per metre)
-	816. conductor
+		1. See current
+	814. [[conduction electrons]]
+	815. [[conductivity]]
+	816. [[conductor]]
 	817. cone loudspeaker
-	818. confusion reflector
+		1. See loudspeaker
+	818. [[confusion reflector]]
 	819. conical scanning
+		1. See scanning
 	820. conjugate branches
-	821. conjugate impedances
-	822. conjugate matching
-	823. connection-oriented
-	824. constant-current source
+		1. See network
+	821. [[conjugate impedances]]
+	822. [[conjugate matching]]
+	823. [[connection-oriented]]
+	824. [[constant-current source]]
 	825. constant-R network
-	826. constant-voltage source
-	827. constantan
+		1. See two-port network
+	826. [[constant-voltage source]]
+	827. [[constantan]]
 	828. constant failure-rate period
-	829. constraint length
-	830. consumer electronics
-	831. Consumer Technology Association
-	832. contact
-	833. contactless smartcard
+		1. See failure rate
+	829. [[constraint length]]
+	830. [[consumer electronics]]
+	831. [[Consumer Technology Association]]
+	832. [[contact]]
+	833. [[contactless smartcard]]
 	834. contact lithography
+		1. See photolithography
 	835. contact noise
-	836. contactor
+		1. See noise
+	836. [[contactor]]
 	837. content-addressable memory
-	838. continuity equation
-	839. continuity tester
+		1. (CAM) See associative memory
+	838. [[continuity equation]]
+	839. [[continuity tester]]
 	840. continuous-wave radar
+		1. See radar
 	841. continuous duty
+		1. See duty
 	842. continuous loading
+		1. See transmission line
 	843. continuously variable slope delta modulation
-	844. continuous wave
+		1. (CVSD) See pulse modulation
+	844. [[continuous wave]]
 	845. contrast autofocus system
-	846. contrast enhancement
-	847. contrast ratio
-	848. control
-	849. control bus
-	850. control electrode
+		1. See autofocus
+	846. [[contrast enhancement]]
+	847. [[contrast ratio]]
+	848. [[control]]
+	849. [[control bus]]
+	850. [[control electrode]]
 	851. control grid
+		1. See control electrode; thermionic valve
 	852. controlled-carrier modulation
+		1. See floating-carrier modulation
 	853. controlled sources
-	854. controlled system
-	855. control plane
-	856. control system
+		1. See dependent sources
+	854. [[controlled system]]
+	855. [[control plane]]
+	856. [[control system]]
 	857. control unit
-	858. convergence
+		1. See central processing unit
+	858. [[convergence]]
 	859. conversion gain ratio
+		1. See frequency changer
 	860. conversion transducer
+		1. See frequency changer
 	861. conversion voltage gain
-	862. converter
-	863. convolution
-	864. convolutional code
+		1. See frequency changer
+	862. [[converter]]
+	863. [[convolution]]
+	864. [[convolutional code]]
 	865. Cooper pair
-	866. coplanar process
-	867. coplanar waveguide
-	868. copper(symbol: Cu)
+		1. See superconductivity
+	866. [[coplanar process]]
+	867. [[coplanar waveguide]]
+	868. [[copper]]
 	869. copper loss
-	870. coprocessor
-	871. core
-	872. core-type transformer
-	873. core loss
+		1. $(I^2R \text{ loss})$ See heating effect of a current; dissipation 
+	870. [[coprocessor]]
+	871. [[core]]
+	872. [[core-type transformer]]
+	873. [[core loss]]
 	874. corner frequency
-	875. corner reflector antenna
-	876. correlation
+		1. See cut-off frequency
+	875. [[corner reflector antenna]]
+	876. [[correlation]]
 	877. cosine potentiometer
-	878. cosine wave
-	879. Cotton balance
-	880. coulomb(symbol: C)
-	881. Coulomb's law
-	882. coulombmeter
-	883. counter
-	884. counter/frequency meter
-	885. coupling
-	886. coverage area
+		1. See potentiometer.
+	878. [[cosine wave]]
+	879. [[Cotton balance]]
+	880. [[coulomb]]
+	881. [[Coulomb's law]]
+	882. [[coulombmeter]]
+	883. [[counter]]
+	884. [[counter-frequency meter|counter/frequency meter]]
+	885. [[coupling]]
+	886. [[coverage area]]
 	887. CPS
+		1. See cycles per second
 	888. CPU
+		1. See central processing unit
 	889. CPW
-	890. Cramer's rule
+		1. See coplanar waveguide
+	890. [[Cramer's rule]]
 	891. CRC
+		1. See cyclic redundancy check
 	892. crest factor
+		1. See peak factor; pulse
 	893. crest value
-	894. critical bandwidth
+		1. See peak value
+	894. [[critical bandwidth]]
 	895. critical coupling
-	896. critical current density
+		1. See coupling
+	896. [[critical current density]]
 	897. critical damping
+		1. See damped
 	898. critical field
+		1. (1) See avalanche breakdown
+		2. (2) See magnetron
 	899. critical frequency
+		1. See cut-off frequency
 	900. CRO
+		1. See cathode-ray oscilloscope
 	901. Crookes dark space
-	902. crossbar switch
+		1. (cathode dark space) See gas-discharge tube
+	902. [[crossbar switch]]
 	903. cross correlation
+		1. See correlation
 	904. cross coupling
+		1. See coupling
 	905. crossed-field microwave tube
+		1. (M-type microwave tube) See microwave tube
 	906. cross modulation
-	907. crossover
+		1. See modulation
+	907. [[crossover]]
 	908. crossover distortion
-	909. crossover network
-	910. crosstalk
+		1. See distortion
+	909. [[crossover network]]
+	910. [[crosstalk]]
 	911. CRT
+		1. See cathode-ray tube
 	912. crystal-controlled oscillator
-	913. crystal-controlled transmitter
-	914. crystal filter
-	915. crystal growth furnace
-	916. crystal lattice
-	917. crystal loudspeaker
-	918. crystal microphone
+		1. See piezoelectric oscillator
+	913. [[crystal-controlled transmitter]]
+	914. [[crystal filter]]
+	915. [[crystal growth furnace]]
+	916. [[crystal lattice]]
+	917. [[crystal loudspeaker]]
+	918. [[crystal microphone]]
 	919. crystal oscillator
+		1. See piezoelectric oscillator
 	920. crystal puller
+		1. See liquid-encapsulated czochralski
 	921. CSC
+		1. See compact system camera
 	922. CSMA
+		1. (carrier-sense multiple access) See digital communications.
 	923. CT
+		1. See computed tomography
 	924. CTA
+		1. See consumer technology association
 	925. CTD
+		1. See charge-transfer device
 	926. CTS
+		1. See clear to send
 	927. Curie's law
-	928. Curie–Weiss law
+		1. See paramagnetism
+	928. Curie-Weiss law
+		1. See paramagnetism
 	929. Curie point
-	930. curl
-	931. current(symbol: I; unit: ampere)
+		1. (magnetic transition temperature; ferromagnetic Curie temperature) See FERROMAGNETISM.
+	930. [[curl]]
+	931. [[current]]
 	932. current-controlled current source
+		1. (CCCS) See dependent sources.
 	933. current-controlled voltage source
-	934. current-induced magnetic switching
-	935. current-mode circuits
-	936. current amplifier
+		1. (CCVS) See dependent sources.
+	934. [[current-induced magnetic switching]]
+	935. [[current-mode circuits]]
+	936. [[current amplifier]]
 	937. current average
+		1. See alternating current
 	938. current balance
-	939. current conveyor
-	940. current density(symbol: j or J; unit: amperes per square metre)
-	941. current divider
+		1. See kelvin balance
+	939. [[current conveyor]]
+	940. [[current density]]
+	941. [[current divider]]
 	942. current feedback
+		1. (series feedback) See feedbark
 	943. current gain
-	944. current injection
+		1. (large signal) See large signal current gain
+	944. [[current injection]]
 	945. current law
+		1. See Kirchhoff's Laws
 	946. current limiter
-	947. current mirror
-	948. current probe
+		1. See limiter
+	947. [[current mirror]]
+	948. [[current probe]]
 	949. current regulator
+		1. See regulator
 	950. current relay
+		1. See relay
 	951. current saturation
-	952. current source
+		1. See saturation current
+	952. [[current source]]
 	953. current transfer ratio
+		1. See common-base forward-current transfer ratio.
 	954. current transformer
-	955. cut-off
-	956. cut-off frequency
-	957. cut-off voltage((of a television camera tube))
-	958. cut-out
+		1. (series transformer) See transformer; instrument transformer.
+	955. [[cut-off]]
+	956. [[cut-off frequency]]
+	957. cut-off voltage
+		1. (of a television camera tube) See target voltage
+	958. [[cut-out]]
 	959. CVD
+		1. See chemical vapor deposition
 	960. CVSD
+		1. (continuously variable slope delta modulation) See Pulse Modulation
 	961. CW
-	962. cybernetics
-	963. cycle
-	964. cycles per second
-	965. cycle time
-	966. cyclic redundancy check
-	967. cylindrical polar coordinates
-	968. cylindrical winding
-	969. d'Arsonval galvanometer
+		1. (continuous waveform) A signal that is continuous with time.
+	962. [[cybernetics]]
+	963. [[cycle]]
+	964. [[cycles per second]]
+	965. [[cycle time]]
+	966. [[cyclic redundancy check]]
+	967. [[cylindrical polar coordinates]]
+	968. [[cylindrical winding]]
+	969. [[d'Arsonval galvanometer]]
 	970. D-layer
+		1. (D-region) See ionosphere
 	971. D-region
+		1. (D-layer) See ionosphere
 	972. D-type flip-flop
+		1. See flip-flop
 	973. d.c.
+		1. (DC) See direct current
 	974. d.c.-coupled amplifier
+		1. (direct-coupled amplifier) See amplifier
 	975. d.c.-level restorer
+		1. See direct-current restorer.
 	976. d.c. voltage
+		1. Informal term for direct voltage, i.e. a unidirectional voltage that is substantially constant.
 	977. DAB
+		1. See digital audio broadcasting
 	978. DAC
-	979. daisy chaining
-	980. damped
-	981. damping ratio
-	982. daraf(symbol: F–1)
-	983. dark conduction
+		1. See digital-to-analogue converter
+	979. [[daisy chaining]]
+	980. [[damped]]
+	981. [[damping ratio]]
+	982. [[daraf]]
+	983. [[dark conduction]]
 	984. dark resistance
-	985. Darlington pair
-	986. DAT
-	987. data bus
-	988. data communications equipment
-	989. data compression
-	990. data converter
-	991. dataflow architecture
-	992. data hold
+		1. See photocell
+	985. [[Darlington pair]]
+	986. [[digital audio tape|DAT]]
+	987. [[data bus]]
+	988. [[data communications equipment]]
+	989. [[data compression]]
+	990. [[data converter]]
+	991. [[dataflow architecture]]
+	992. [[data hold]]
 	993. data plane
-	994. data processing
-	995. data rate
-	996. data sheets
-	997. data terminal equipment
-	998. data transfer rate
+		1. See control plane
+	994. [[data processing]]
+	995. [[data rate]]
+	996. [[data sheets]]
+	997. [[data terminal equipment]]
+	998. [[data transfer rate]]
 	999. daughter board
-	1000. Day modulation
+		1. See motherboard
+	1000. [[Day modulation]]
 	1001. dB
-	1002. dBm
+		1. See decibel 
+	1002. [[dBm]]
 	1003. DBR laser
+		1. (distributed Bragg reflector laser; distributed feedback laser) See SEMICONDUCTOR LASER.
 	1004. DBS
+		1. See DIRECT BROADCAST BY SATELLITE.
 	1005. dBSPL
-	1006. dBu
-	1007. dBV
-	1008. dBW
-	1009. 3D camera
+		1. (decibel sound pressure level, referenced to the threshold of hearing) See SOUND PRESSURE LEVEL.
+	1006. [[dBu]]
+	1007. [[dBV]]
+	1008. [[dBW]]
+	1009. [[3D camera]]
 	1010. DCE
 	1011. DDR memory
 	1012. de-emphasis
@@ -1612,7 +1775,7 @@ tags:
 	1374. earth plane
 	1375. earth potential
 	1376. EBD
-	1377. Ebers–Moll model
+	1377. Ebers-Moll model
 	1378. EBIC
 	1379. ECC
 	1380. ECG
@@ -1649,7 +1812,7 @@ tags:
 	1411. EIRP
 	1412. EIS
 	1413. EIT
-	1414. elastance(symbol: S; unit: farad–1)
+	1414. elastance(symbol: S; unit: farad-1)
 	1415. elastic recoil detection analysis
 	1416. elastoresistance
 	1417. electret
@@ -1728,8 +1891,8 @@ tags:
 	1490. electron-beam device
 	1491. electron-beam induced current analysis
 	1492. electron-beam lithography
-	1493. electron–hole pair
-	1494. electron–hole recombination
+	1493. electron-hole pair
+	1494. electron-hole recombination
 	1495. electron affinity
 	1496. electron beam
 	1497. electron binding energy
@@ -1892,7 +2055,7 @@ tags:
 	1654. f.m.
 	1655. f.s.d.
 	1656. f0
-	1657. Fabry–Perot cavity
+	1657. Fabry-Perot cavity
 	1658. fader
 	1659. fading
 	1660. failure
@@ -1903,7 +2066,7 @@ tags:
 	1665. far-end crosstalk
 	1666. far-field region
 	1667. farad(symbol: F)
-	1668. Faraday–Neumann law
+	1668. Faraday-Neumann law
 	1669. Faraday constant(symbol: F)
 	1670. Faraday dark space
 	1671. Faraday shield
@@ -1938,7 +2101,7 @@ tags:
 	1700. Felici balance
 	1701. FEM
 	1702. femto-(symbol: f)
-	1703. Fermi–Dirac statistics
+	1703. Fermi-Dirac statistics
 	1704. Fermi level(symbol: EF)
 	1705. ferrimagnetism
 	1706. ferrite
@@ -2266,7 +2429,7 @@ tags:
 	2028. guard band
 	2029. guard ring
 	2030. guard time
-	2031. Gudden–Pohl effect
+	2031. Gudden-Pohl effect
 	2032. guide
 	2033. Guillemin effect
 	2034. Guillemin line
@@ -2321,7 +2484,7 @@ tags:
 	2083. Hartshorn bridge
 	2084. Harvard architecture
 	2085. Hay bridge
-	2086. Haynes–Shockley experiment
+	2086. Haynes-Shockley experiment
 	2087. hazard
 	2088. HB
 	2089. HbbTV
@@ -2397,7 +2560,7 @@ tags:
 	2159. holding time
 	2160. hold time
 	2161. hole
-	2162. hole–electron pair
+	2162. hole-electron pair
 	2163. hole capture
 	2164. hole conduction
 	2165. hole current
@@ -2742,7 +2905,7 @@ tags:
 	2504. JFET
 	2505. JFIF
 	2506. jitter
-	2507. Johnson–Lark–Harowitz effect
+	2507. Johnson-Lark-Harowitz effect
 	2508. Johnson noise
 	2509. Joint Electronic Device Engineering Council
 	2510. Josephson effect
@@ -2763,12 +2926,12 @@ tags:
 	2525. K band
 	2526. keep-alive circuit
 	2527. kelvin(symbol: K)
-	2528. Kelvin–Varley slide
+	2528. Kelvin-Varley slide
 	2529. Kelvin balance
 	2530. Kelvin contacts
 	2531. Kelvin double bridge
 	2532. Kelvin effect
-	2533. Kennelly–Heaviside layer
+	2533. Kennelly-Heaviside layer
 	2534. Kerr effects
 	2535. keyboard
 	2536. key frames
@@ -2782,7 +2945,7 @@ tags:
 	2544. Kirchhoff's laws
 	2545. klystron
 	2546. Koch resistance
-	2547. Kronig–Penney model
+	2547. Kronig-Penney model
 	2548. Ku band
 	2549. L-C network
 	2550. L-section
@@ -3203,7 +3366,7 @@ tags:
 	2965. MF
 	2966. MFCC
 	2967. MFLOPS
-	2968. mho(symbol: Ω–1)
+	2968. mho(symbol: Ω-1)
 	2969. mica
 	2970. mica capacitor
 	2971. micro-(symbol: μ)
@@ -4094,7 +4257,7 @@ tags:
 	3856. quiescent push-pull amplifier
 	3857. quieting circuit
 	3858. quieting sensitivity
-	3859. Quine–McCluskey
+	3859. Quine-McCluskey
 	3860. R-C
 	3861. R-C network
 	3862. R-S flip-flop
@@ -4213,7 +4376,7 @@ tags:
 	3975. recursive filters
 	3976. reduced instruction set computer
 	3977. redundancy
-	3978. Reed–Solomon code
+	3978. Reed-Solomon code
 	3979. reflected impedance
 	3980. reflected power
 	3981. reflected wave
@@ -4307,10 +4470,10 @@ tags:
 	4069. RHEED
 	4070. rhumbatron
 	4071. ribbon microphone
-	4072. Richardson–Dushman equation
+	4072. Richardson-Dushman equation
 	4073. ridged waveguide
 	4074. Rieke diagram
-	4075. Righi–Leduc effect
+	4075. Righi-Leduc effect
 	4076. right-hand rule(for a dynamo)
 	4077. ringing
 	4078. ring junction
@@ -4350,7 +4513,7 @@ tags:
 	4112. s-plane
 	4113. S-R flip-flop
 	4114. SAINT process
-	4115. Sallen–Key filter
+	4115. Sallen-Key filter
 	4116. SAM
 	4117. sampling
 	4118. sampling period
@@ -4486,7 +4649,7 @@ tags:
 	4248. settling time
 	4249. shading
 	4250. shadow effect
-	4251. Shannon–Hartley theorem
+	4251. Shannon-Hartley theorem
 	4252. shaped-beam tube
 	4253. sheet resistance
 	4254. shell-type transformer
@@ -5183,7 +5346,7 @@ tags:
 	4945. UWB
 	4946. UXGA
 	4947. V+
-	4948. V–
+	4948. V-
 	4949. V-beam radar
 	4950. V-groove technique
 	4951. vacancy
@@ -5368,7 +5531,7 @@ tags:
 	5130. widescreen ultra extended graphics array
 	5131. Wiedemann effect
 	5132. Wien bridge
-	5133. Wiener–Hopf equation
+	5133. Wiener-Hopf equation
 	5134. Wiener filtering
 	5135. Wilson effect
 	5136. Wimshurst machine
@@ -5436,7 +5599,6 @@ tags:
 	5198. z transform
 	5199. π-mode operation
 	5200. π-section
-
 - Extra
 	1. a.c.
 		1. (AC) see alternating current

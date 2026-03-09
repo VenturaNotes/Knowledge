@@ -10,8 +10,13 @@
 - $n$. a folding or twisting, such as one of the many that cause the fissures, sulci, and gyri of the surface of the cerebrum.
 ## Source[^3]
 - $n$. Any of the convex folds or ridges on the surface of the brain, also called a gyrus ; more generally, anything coiled or twisted together or, by analogy, any confused or intricate issue or condition. convolute $v b$. convoluted adj. \[From Latin convolutus rolled up, from con with + volvere, volutus to turn + -ion indicating an action, process, or state]
+## Source[^4]
+- A mathematical method of analyzing the response of a linear system to any input function. If an input $x(t)$ to a linear system is split up into a succession of rectangular pulses of width $\Delta \tau$ so that the area of a typical pulse at $t = \tau$ is $x(\tau)\Delta \tau$ (see diagram) then this pulse will give rise to a response$$\left[ x (\tau) \Delta \tau \right] h (t - \tau)$$The total response $y(t)$ can be expressed as an integral, known as the convolution integral, given by$$y (t) = \int_ {- \infty} ^ {+ \infty} x (\tau) h (t - \tau) d \tau$$The physical interpretation of the integral can be expressed as follows: the value of the output at a given time $t$ is the integrated effect of the values of the input at all previous times $t$. This combining of two functions of the same variable is known as convolution and is expressed by the special symbol $\otimes$. Therefore, the general expression which defines $\otimes$, known as the convolution operator, is given by$$a (t) \otimes b (t) = \int_ {- \infty} ^ {+ \infty} a (\tau) b (t - \tau) d \tau$$
+- ![[Screenshot 2026-03-09 at 6.11.25 AM.png|400]]
+	- Convolution
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -11,7 +11,10 @@ aliases:
 - A binary code for which $$G = x + 1$$is known as a [[simple parity check]] (or simple parity code). When applied across each character of, say, a magnetic tape record, this is called a horizontal check; when applied along each track of the record, it is called a [[vertical check]]. Simple checks (horizontal and/or vertical) are much less secure against burst errors than a nontrivial CRC with G of degree (typically) 16. The term longitudinal redundancy check (LRC) usually refers to a nontrivial CRC, but may apply to a simple vertical check.
 ## Source[^2]
 - Cyclic redundancy check is used to catch errors in digital networks. CRCs are also run on certain types of computer storage mediums. The specific purpose of a CRC is to make sure that there are no accidental changes to data. A CRC will check the same data repeatedly to ensure that older values match. If they do, a correction is made to the data, bringing it in line with its older and correct form.
+## Source[^3]
+- (CRC) A digital code in which extra bits are added to each fixed-length block of data so that the data may be checked for errors occurring during transmission or some other process. The bits are calculated from the contents of the block both before and after the process. See also DIGITAL COMMUNICATIONS.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

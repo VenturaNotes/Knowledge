@@ -1,0 +1,15 @@
+## Synthesis
+- 
+## Source [^1]
+- An artificial unmanned satellite in earth orbit that provides high-capacity communication links between widely separated locations on earth. International telephone services and the relaying of television programmes are achieved by transmitting microwave signals, suitably modulated, from a ground station to an orbiting satellite and back to another ground location. Transmission of digital data over satellite links is also now of major importance.
+- The first satellites simply reflected or scattered the microwave beam back to another ground station. In present-day systems the signal is amplified and its frequency changed by a transponder before it is retransmitted to earth.
+- There are now hundreds of communications satellites: these are usually either geostationary earth orbit satellites (GEOS), which move in a very high (36 km) equatorial orbit and appear stationary with respect to points on the earth's surface, or low earth orbit satellites (LEOS). There is growing use of digital communications.
+- Solar cells form the primary power supply for satellites with a back-up of batteries for use during the brief periods of solar eclipses. The operational lifetime of a modern satellite should be at least five years. Redundancy of all the essential subsystems is required although it is not necessary for all the components when there is a large number present, as with the transponders.
+- The ground stations must be situated some distance from terrestrial microwave relay systems to avoid radio interference. The antennas are often large parabolic reflectors, or dishes; those used in the Intelsat system, such as at Goonhilly in Cornwall, have apertures of 25 to 30 metres. The antennas should be steerable to compensate for perturbations of the orbits caused by gravitational effects of moon and sun. Television programmes can also be relayed to homes equipped with small nonsteerable dish antennas or to cable TV systems, while businesses can use VSATs (very small aperture antennas) for digital data communications.
+- Present-day systems provide simultaneous multiple access to one satellite from a large number of ground stations within one coverage zone. This is achieved, for example, by time-division multiple access (TDMA) or frequency-division multiple access (FDMA) (see DIGITAL COMMUNICATIONS); in the former case, a ground station does not share the transponder power with other stations and can operate at close to saturation where the transponder is most efficient.
+- https://www.hq.nasa.gov/office/pao/History/satcomhistory.html
+	- A short history of communications satellites, on the NASA website
+	- #comment Site is down
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

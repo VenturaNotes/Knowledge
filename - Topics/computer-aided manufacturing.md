@@ -10,8 +10,11 @@ aliases:
 - Computer-aided manufacturing (CAM) is technology that uses computer software and computer-controlled machinery to automate and facilitate the manufacturing of goods. The purpose of CAM is to speed up production, increase accuracy, and reduce waste when compared to non-CAM processes. CAM is often used in combination with computer-aided design (CAD).
 ## Source[^3]
 - (CAM) The use of computers to control industrial processes, such as brewing, chemical manufacture, oil refining, and steel making. They are also used to control automatic machines that can be programmed to carry out different tasks, especially in the car-manufacturing industry. CAM is often used with computer-integrated manufacturing as well as computer-aided design.
+## Source[^4]
+- (CAM) The use of computers and computer programs in manufacturing. The term is often used to describe the overall computerization of manufacturing, which embraces automated test equipment, robots, computer-controlled vehicles to move parts and products around a factory, and the record-keeping systems required in production, such as Materials Resource Planning (MRP) or Manufacturing Resource Planning (MRP II).
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

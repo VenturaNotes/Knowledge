@@ -5,6 +5,11 @@
 - A counter whose output is capable of displaying n discrete states before producing an overflow condition can also be called a [[mod-n-counter]] (or modulo-n counter), since it may be considered to be counting input pulses to a base of $n$. The value of $n$ is often an integer power of 2. Counters are generally formed by a cascaded series of clocked flip-flops (see CASCADABLE COUNTER), each of which provides a divide-by-two action. For a counter consisting of $m$ flip-flops, the maximum capacity of the counter will be $2^m$ since $2^m$ discrete output states are possible, i.e. $n$ is equal to $2^m$. These are known as binary counters
 - Count lengths of other than integer multiples of two are possible. For example, a decade counter (or mod-10 counter) exhibits 10 separate and distinct states. To achieve this digitally requires a counter having at least four individual flip-flop elements, giving $2^4$ or 16 possible output states; six of these states are prevented from occurring by a suitable arrangement of logic gates around the individual flip-flops. In [[multimode counter|multimode counters]] the number, $n$, of distinct states can be selected by the user.
 - See also RIPPLE COUNTER, SYNCHRONOUS COUNTER, SHIFT COUNTER, JOHNSON COUNTER
+## Source[^2]
+- (1) A device that detects and counts individual events, such as charged particles. The term is applied to the detector and to the instrument itself. A single event is converted into a pulse, and these pulses are then electronically counted. 
+- (2) (digital counter) Any electronic circuit that counts electronic pulses.
+- In both cases, the average rate of occurrence of events counted is the count rate. The counter lag time is the delay between the primary event and the occurrence of the count. The resolving time is the minimum time between the occurrence of successive primary events that can be successfully counted.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

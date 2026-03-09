@@ -1,0 +1,12 @@
+## Synthesis
+- 
+## Source [^1]
+- A crystalline semiconductor material that is made from a chemical compound using elements from groups III and V or groups IIB and VI of the periodic table, such that the compounds are isoelectronic with the elemental semiconductors, for example silicon and germanium from group IV. The diagram shows a section of the periodic table with elements used in compound semiconductors; elemental semiconductors are italicized, and elements used in common compound semiconductors are highlighted in bold type. The resulting compounds have similar semiconducting properties to silicon, though some important practical differences arise that enable the use of these materials in the manufacture of special electronic devices and integrated circuits.
+- ![[Screenshot 2026-03-09 at 4.44.24 AM.png]]
+	- Section of the periodic table showing elements used in compound semiconductors
+- Compound semiconductors are generally characterized by a direct energy gap, which permits radiative transitions between conduction and valence bands to occur, resulting in the emission of electromagnetic radiation. The wavelength of the radiation is related to the energy band gap, and compound semiconductors can be alloyed to produce the appropriate band gaps for emission of visible light, or infrared radiation for optical communications. These materials are therefore used for light-emitting diodes (LEDs) and semiconductor lasers.
+- Common III-V compound semiconductors include gallium arsenide, GaAs, which emits infrared light at about 890 nm, and when alloyed with other III-V semiconductors is used for semiconductor lasers emitting in the range 1000-1550 nm. It can be alloyed with gallium phosphide, GaP, and gallium nitride, GaN, to make green, yellow, and red LEDs. II-VI compound semiconductors such as zinc selenide, ZnSe, are used as the basis of blue LEDs. Cadmium mercury telluride, CdHgTe or CMT, has a response in the infrared and is used for thermal imaging devices.
+- Gallium arsenide and indium phosphide, InP, are also used in microwave devices and integrated circuits, including the transferred electron device, high electron mobility transistor, and heterojunction bipolar transistor.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

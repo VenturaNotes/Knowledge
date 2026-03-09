@@ -13,9 +13,12 @@
 - The task of assigning objects to recognizable groups called clusters, according to various measurements. These clusters commonly show correlation between different attributes. The notion of a cluster cannot be precisely given, and many different algorithms are hence used in cluster analysis.
 ## Source[^4]
 - $n$. A statistical technique, introduced in 1935 by the US psychologist Robert Choate Tryon (1901-67) for assigning a set of individual people or other items to groups called clusters on the basis of one or more measurements of the individuals, so that individuals within the same cluster are in some sense closer or more similar to one another than to individuals in another cluster. For example, measurements of a cross-section of the population on variables such as age, income, and number of books in the home, if subjected to cluster analysis, may reveal distinct and recognizable clusters such as students, pensioners, and unemployed people. There are many different methods of cluster analysis, including agglomerative hierarchical clustering, average linkage between groups method, average linkage within groups method, complete linkage clustering, divisive hierarchical clustering, nearest neighbor method, single-linkage clustering, and (perhaps most popular) Ward's method. See also DENDROGRAM, HORIZONTAL ICICLE PLOT. Compare FACTOR ANALYSIS, PRINCIPAL-COMPONENTS ANALYSIS. cluster-analytic adj.
+## Source[^5]
+- Techniques for grouping a collection of entities into clusters, so that entities in the same cluster are more similar to each other on some dimension of interest than they are to those in different clusters. Cluster analysis is often used for initial exploration of large datasets in order to determine the most appropriate notion of similarity or closeness for use in further analysis.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
