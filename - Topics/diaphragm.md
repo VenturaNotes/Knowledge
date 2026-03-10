@@ -6,7 +6,11 @@
 - (2) a hemispherical rubber cap fitted inside the vagina over the neck (cervix) of the uterus as a contraceptive. When combined with the use of a chemical spermicide the diaphragm provides reliable contraception with a failure rate as low as 2-10 pregnancies per 100 woman-years.
 ## Source[^2]
 - The muscular membrane that divides the thorax (chest) from the abdomen in mammals. It plays an essential role in breathing (see also RESPIRATORY MOVEMENT), being depressed during inspiration and raised during expiration.
+## Source[^3]
+- (1) A vibrating membrane used in sound transducers such as microphones and loudspeakers. 
+- (2) A porous partition in an electrolytic cell that separates the electrolytes while allowing ions to pass through.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -41,8 +41,11 @@ of the integers $1,2, \ldots, n$. par( $\sigma$ ), the parity of $\Sigma$, is ei
 
 ## Source[^3]
 - $n$. A number associated with any square matrix showing whether the matrix is singular, that is, whether two or more rows or columns of the matrix are linearly dependent in the sense of being linear combinations of each other. If the determinant is equal to zero, then the matrix is singular, and many statistical techniques require matrices that are assumed to be non-singular. \[From Latin determinare to set boundaries, from terminus a boundary]
+## Source[^4]
+- A number that can be calculated for any square matrix, and which provides important information about the nature of that matrix, or any system it is being used to model. For a $2 \times 2$ matrix of the form$$M = \left| \begin{array}{cc} a & b \\c &d\end{array} \right|$$the determinant is given by $\det(M) = ad - bc$
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

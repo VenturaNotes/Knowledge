@@ -1409,188 +1409,264 @@ tags:
 	1008. [[dBW]]
 	1009. [[3D camera]]
 	1010. DCE
-	1011. DDR memory
+		1. See data communications equipment
+	1011. [[DDR memory]]
 	1012. de-emphasis
-	1013. dead
+		1. See pre-emphasis
+	1013. [[dead]]
 	1014. dead-beat instrument
-	1015. dead time
-	1016. de Broglie waves
+		1. See instrument damping
+	1015. [[dead time]]
+	1016. [[de Broglie waves]]
 	1017. debug
-	1018. debunching
-	1019. Debye length
-	1020. deca-(symbol: da)
-	1021. decade
+		1. See bug
+	1018. [[debunching]]
+	1019. [[Debye length]]
+	1020. [[deca-]]
+	1021. [[decade]]
 	1022. decade scaler
-	1023. deci-(symbol: d)
-	1024. decibel(symbol: dB)
+		1. See scaler
+	1023. [[deci-]]
+	1024. [[decibel]]
 	1025. decimation
-	1026. decision feedback equalizer
-	1027. decision threshold
+		1. See downsampling
+	1026. [[decision feedback equalizer]]
+	1027. [[decision threshold]]
 	1028. decoder
+		1. (pulse detector) See pulse modulation
 	1029. decoding
-	1030. deconvolution
+		1. See digital codes; digital communications
+	1030. [[deconvolution]]
 	1031. decoupling
-	1032. decrement
+		1. See coupling
+	1032. [[decrement]]
 	1033. decryption
+		1. See encryption
 	1034. DECT
-	1035. deep level transient spectroscopy
+		1. See Digital European Cordless Telephony
+	1035. [[deep level transient spectroscopy]]
 	1036. deep ultraviolet exposure
-	1037. definite integral
+		1. See photolithography
+	1037. [[definite integral]]
 	1038. definition
+		1. See television
 	1039. deflection defocusing
+		1. See cathode-ray tube
 	1040. deflection plates
+		1. See electrostatic deflection
 	1041. deflection sensitivity
-	1042. deformation potential
-	1043. degeneracy(symbol: g)
-	1044. degenerate semiconductor
+		1. See cathode-ray tube
+	1042. [[deformation potential]]
+	1043. [[degeneracy]]
+	1044. [[degenerate semiconductor]]
 	1045. degeneration
+		1. (negative feedback) See feedback
 	1046. degradation failure
-	1047. degree Celsius(symbol: °C)
+		1. See failure
+	1047. degree Celsius
+		1. (degree centigrade) (symbol: °C) See KELVIN.
 	1048. deinterleaving
-	1049. delay
+		1. See digital codes
+	1049. [[delay]]
 	1050. delay distortion
+		1. See distortion
 	1051. delayed-domain mode
+		1. See transferred electron device
 	1052. delayed automatic gain control
+		1. (biased automatic gain control) See automatic gain control
 	1053. delayed sweep
-	1054. delay equalizer
-	1055. delay line
+		1. See timebase
+	1054. [[delay equalizer]]
+	1055. [[delay line]]
 	1056. Dellinger fade-out
-	1057. delta circuit
+		1. See fading
+	1057. [[delta circuit]]
 	1058. delta function
+		1. See dirac delta function
 	1059. delta modulation
+		1. (DM; slope modulation) see pulse modulation
 	1060. delta voltage
+		1. See voltage between lines
 	1061. demodulation
+		1. See modulation
 	1062. demodulator
-	1063. De Morgan's laws
+		1. See detector
+	1063. [[De Morgan's laws]]
 	1064. demultiplexer
-	1065. denormalization
-	1066. dependent sources
+		1. See multiplex operation
+	1065. [[denormalization]]
+	1066. [[dependent sources]]
 	1067. depletion-layer photodiode
-	1068. depletion layer
-	1069. depletion mode
-	1070. depletion MOSFET
-	1071. deposition
-	1072. depth sensor
-	1073. derating
+		1. See photodiode
+	1068. [[depletion layer]]
+	1069. [[depletion mode]]
+	1070. [[depletion MOSFET]]
+	1071. [[deposition]]
+	1072. [[depth sensor]]
+	1073. [[derating]]
 	1074. derived units
-	1075. de Sauty bridge
-	1076. design automation
-	1077. Design Automation Conference
-	1078. design for manufacturing
-	1079. design for testability
-	1080. design rule checker
+		1. See SI Units
+	1075. [[de Sauty bridge]]
+	1076. [[design automation]]
+	1077. [[Design Automation Conference]]
+	1078. [[design for manufacturing]]
+	1079. [[design for testability]]
+	1080. [[design rule checker]]
 	1081. Destriau effect
+		1. See ELECTROLUMINESCENCE.
 	1082. destructive read operation
-	1083. detection theory
-	1084. detector
-	1085. determinant
-	1086. detune
-	1087. deviation
+		1. See read
+	1083. [[detection theory]]
+	1084. [[detector]]
+	1085. [[determinant]]
+	1086. [[detune]]
+	1087. [[deviation]]
 	1088. deviation distortion
+		1. See distortion
 	1089. deviation ratio
-	1090. device
+		1. See frequency modulation
+	1090. [[device]]
 	1091. DFB laser
+		1. (distributed feedback laser; distributed Bragg reflector laser) See SEMICONDUCTOR LASER.
 	1092. DFE
+		1. See DECISION FEEDBACK EQUALIZER.
 	1093. DFM
+		1. See DESIGN FOR MANUFACTURING.
 	1094. DFN
+		1. See DUAL-FLAT NO-LEADS PACKAGE.
 	1095. DFT
+		1. (1) See DISCRETE FOURIER TRANSFORM. 
+		2. (2) See DESIGN FOR TESTABILITY.
 	1096. diac
+		1. (diode a.c. switch) See THYRISTOR.
 	1097. diagnostic routine
-	1098. diamagnetism
+		1. See program
+	1098. [[diamagnetism]]
 	1099. diametrical voltage
-	1100. diamond-like carbon
-	1101. diaphragm
+		1. See voltage between lines
+	1100. [[diamond-like carbon]]
+	1101. [[diaphragm]]
 	1102. diaphragm relay
-	1103. dibit
-	1104. dichroic mirror
-	1105. Dicke's radiometer
+		1. See relay
+	1103. [[dibit]]
+	1104. [[dichroic mirror]]
+	1105. [[Dicke's radiometer]]
 	1106. die
-	1107. dielectric
-	1108. dielectric constant(symbol: εr)
-	1109. dielectric elastomer
-	1110. dielectric heating
-	1111. dielectric isolation
-	1112. dielectric phase angle
-	1113. dielectric polarization(symbol: P; unit: coulomb per metre squared)
-	1114. dielectric resonator oscillator
+		1. See chip
+	1107. [[dielectric]]
+	1108. [[dielectric constant]]
+	1109. [[dielectric elastomer]]
+	1110. [[dielectric heating]]
+	1111. [[dielectric isolation]]
+	1112. [[dielectric phase angle]]
+	1113. [[dielectric polarization]]
+	1114. [[dielectric resonator oscillator]]
 	1115. dielectric strain
-	1116. dielectric strength
-	1117. difference equation
-	1118. difference of Gaussians
+		1. See displacement
+	1116. [[dielectric strength]]
+	1117. [[difference equation]]
+	1118. [[difference of Gaussians]]
 	1119. difference transfer function
+		1. See FEEDBACK CONTROL LOOP.
 	1120. differential-mode currents
-	1121. differential amplifier
-	1122. differential capacitor
-	1123. differential equation
-	1124. differential galvanometer
+		1. See ELECTROMAGNETIC COMPATIBILITY
+	1121. [[differential amplifier]]
+	1122. [[differential capacitor]]
+	1123. [[differential equation]]
+	1124. [[differential galvanometer]]
 	1125. differential phase modulation
+		1. See phase modulation
 	1126. differential relay
-	1127. differential resistance
-	1128. differential winding
-	1129. differentiator
-	1130. diffraction
-	1131. diffused junction
-	1132. diffusion
+		1. See relay
+	1127. [[differential resistance]]
+	1128. [[differential winding]]
+	1129. [[differentiator]]
+	1130. [[diffraction]]
+	1131. [[diffused junction]]
+	1132. [[diffusion]]
 	1133. diffusion constant
-	1134. diffusion current
+		1. (diffusivity) See diffusion current; Fick's Law
+	1134. [[diffusion current]]
 	1135. diffusion potential
-	1136. digital-to-analogue converter
-	1137. digital ammeter
+		1. (built-in field) See P-N Junction
+	1136. [[digital-to-analogue converter]]
+	1137. [[digital ammeter]]
 	1138. digital audio broadcasting
+		1. (DAB) A system for the transmission of digital radio
 	1139. digital audio tape
-	1140. digital camera
-	1141. digital circuit
-	1142. digital codes
-	1143. digital communications
+		1. See DAT
+	1140. [[digital camera]]
+	1141. [[digital circuit]]
+	1142. [[digital codes]]
+	1143. [[digital communications]]
 	1144. digital computer
+		1. See computer
 	1145. digital counter
+		1. See counter
 	1146. digital delay line
-	1147. Digital European Cordless Telephony
-	1148. digital filter
+		1. See delay line
+	1147. [[Digital European Cordless Telephony]]
+	1148. [[digital filter]]
 	1149. digital gate
-	1150. digital image
+		1. See gate
+	1150. [[digital image]]
 	1151. digital inverter
+		1. See inverter
 	1152. digital modulation
-	1153. digital pattern generator
-	1154. digital radio
+		1. See digital communications
+	1153. [[digital pattern generator]]
+	1154. [[digital radio]]
 	1155. digital rangefinder
+		1. See range finding
 	1156. digital recording
-	1157. digital signal
-	1158. digital signal processing
-	1159. digital switching
-	1160. digital television
-	1161. digital theatre system
+		1. See compact disc system; DAT
+	1157. [[digital signal]]
+	1158. [[digital signal processing]]
+	1159. [[digital switching]]
+	1160. [[digital television]]
+	1161. [[digital theatre system]]
 	1162. digital versatile disk
-	1163. digital video broadcasting
+		1. See DVD
+	1163. [[digital video broadcasting]]
 	1164. digital video disk
-	1165. digital voltmeter
-	1166. digitizer
-	1167. 3D imaging
-	1168. diode
-	1169. diode detector
+		1. See DVD
+	1165. [[digital voltmeter]]
+	1166. [[digitizer]]
+	1167. [[3D imaging]]
+	1168. [[diode]]
+	1169. [[diode detector]]
 	1170. diode drop
-	1171. diode forward voltage
+		1. See diode forward voltage
+	1171. [[diode forward voltage]]
 	1172. diode laser
-	1173. diode transistor logic
+		1. See semiconductor laser
+	1173. [[diode transistor logic]]
 	1174. diode voltage
+		1. See diode forward voltage
 	1175. DIP
+		1. See dual in-line package
 	1176. diphone synthesis
-	1177. diplexer
-	1178. dipole
+		1. See speech synthesis
+	1177. [[diplexer]]
+	1178. [[dipole]]
 	1179. DIPP
-	1180. Dirac delta function
+		1. See dual in-line pin package
+	1180. [[Dirac delta function]]
 	1181. direct-coupled amplifier
-	1182. direct-current restorer
-	1183. direct-current transmission
-	1184. direct-gap semiconductor
+		1. (d.c.-coupled amplifier) See amplifier
+	1182. [[direct-current restorer]]
+	1183. [[direct-current transmission]]
+	1184. [[direct-gap semiconductor]]
 	1185. direct-sequence spread spectrum
-	1186. direct broadcast by satellite
-	1187. direct conversion receiver
-	1188. direct coupling
-	1189. direct current
+		1. See digital communications
+	1186. [[direct broadcast by satellite]]
+	1187. [[direct conversion receiver]]
+	1188. [[direct coupling]]
+	1189. [[direct current]]
 	1190. direct feedback
-	1191. directional antenna
-	1192. directional coupler
+		1. (positive feedback) See feedback
+	1191. [[directional antenna]]
+	1192. [[directional coupler]]
 	1193. directional relay
 	1194. direction finding
 	1195. directive antenna
