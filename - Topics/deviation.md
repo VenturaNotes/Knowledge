@@ -6,7 +6,11 @@
 - n. 
 - (1) (in ophthalmology) any abnormal position of one or both eyes. For example, if the eyes are both looking to one side when the head is facing forwards, they are said to be deviated to that side. Such deviations of both eyes may occur in brain disease. Deviations of one eye, such as dissociated vertical deviation, come into the category of squint (see STRABISMUS). 
 - (2) see SEXUAL DEVIATION.
+## Source[^3]
+- (1) (variation; error) The difference between the observed value of a measurement and the true value. In automatic control systems it is the difference between the instantaneous value and the desired value. 
+- (2) See FREQUENCY MODULATION.
 ## References
 
 [^1]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
