@@ -8,7 +8,10 @@
 - $n$. 
 - (1) An exhibition or show; especially an ostentatious pattern of behavior by an animal as part of a courtship (1) ritual or when defending territory, establishing a position in a dominance hierarchy or pecking order, or engaging in some other form of social behavior. See also CONVENTIONAL Fighting. vb. 
 - (2) To engage in a display. \[From Latin displicare to unfold, from dis- indicating reversal + plicare to fold]
+## Source[^3]
+- A device for the visual presentation of information, as on the screen of a cathode-ray tube, flat-screen television, or computer display, or by using scaling alphanumeric displays in cascade, as in a digital voltmeter.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -9,6 +9,9 @@
 - See also Blu-RAY, HD DVD.
 - http://www.dvdforum.org/forum.shtml (not available)
 	- The DVD Forum home page
+## Source[^2]
+- (digital versatile disk; digital video disk) An information storage medium suitable for music, video, or computer data. Like the CD-ROM (from which it evolved), the DVD is a plastic disc, 12 cm in diameter, with a 1.5-cm hole in the centre. Information is stored in a single track, starting at the centre, which contains a minimum of 4.7 Gbytes of data. More recent developments have seen dual-layer disks in which multiple layers are used to increase the amount of data storage; the maximum amount of storage is currently around 17 Gbytes. DVDs come in read-only form (DVD-ROM) and in recordable (DVD±R) and rewritable (DVD±RW and DVD-RAM) forms. The latter can be used in computers and domestic DVD recorders to record television programmes or images recorded on domestic video cameras.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

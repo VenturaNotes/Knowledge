@@ -1668,213 +1668,297 @@ tags:
 	1191. [[directional antenna]]
 	1192. [[directional coupler]]
 	1193. directional relay
-	1194. direction finding
+		1. (polarized relay) See relay
+	1194. [[direction finding]]
 	1195. directive antenna
-	1196. directivity(symbol: D)
-	1197. direct memory access
-	1198. direct neural interface
+		1. See directional antenna
+	1196. [[directivity]]
+	1197. [[direct memory access]]
+	1198. [[direct neural interface]]
 	1199. director
-	1200. direct ray
+		1. (director antenna) See directional antenna.
+	1200. [[direct ray]]
 	1201. direct stroke
+		1. See lightning stroke
 	1202. direct voltage
-	1203. direct wave
-	1204. disable
-	1205. discharge
+		1. See D.C. voltage
+	1203. [[direct wave]]
+	1204. [[disable]]
+	1205. [[discharge]]
 	1206. discharge tube
-	1207. discrete Fourier transform
-	1208. discriminator
+		1. See gas-discharge tube
+	1207. [[discrete Fourier transform]]
+	1208. [[discriminator]]
 	1209. disc thermistor
-	1210. disc winding
+		1. See thermistor
+	1210. [[disc winding]]
 	1211. dish
-	1212. disk
+		1. See parabolic reflector; radio telescope
+	1212. [[disk]]
 	1213. disk drive
+		1. See magnetic disk
 	1214. diskette
-	1215. disk operating system
+		1. (floppy disk) See magnetic disk
+	1215. [[disk operating system]]
 	1216. disk read-write head
-	1217. disk storage
-	1218. dislocation
-	1219. dispersion
-	1220. displacement(symbol: D; unit: coulombs per metre squared)
-	1221. displacement current
-	1222. display
-	1223. display resolution
-	1224. dissipation
-	1225. distortion
-	1226. distributed amplifier
+		1. See magnetic disk
+	1217. [[disk storage]]
+	1218. [[dislocation]]
+	1219. [[dispersion]]
+	1220. [[displacement]]
+	1221. [[displacement current]]
+	1222. [[display]]
+	1223. [[display resolution]]
+	1224. [[dissipation]]
+	1225. [[distortion]]
+	1226. [[distributed amplifier]]
 	1227. distributed Bragg reflector laser
-	1228. distributed capacitance
-	1229. distributed circuit
+		1. (DBR laser; distributed-feedback laser) See semiconductor laser
+	1228. [[distributed capacitance]]
+	1229. [[distributed circuit]]
 	1230. distributed feedback laser
-	1231. distributed inductance
+		1. (DFB laser; distributed Bragg reflector laser) See semiconductor laser
+	1231. [[distributed inductance]]
 	1232. distribution
+		1. See gaussian distribution; normal distribution
 	1233. distribution control
-	1234. dithering
-	1235. div
+		1. See scanning
+	1234. [[dithering]]
+	1235. [[div]]
 	1236. divergence angle
-	1237. diversity system
-	1238. divider
+		1. See debunching
+	1237. [[diversity system]]
+	1238. [[divider]]
 	1239. dividing network
-	1240. 3D laser scanner
-	1241. DLP
+		1. See crossover network
+	1240. [[3D laser scanner]]
+	1241. [[DLP]]
 	1242. DM
+		1. (delta modulation) See pulse modulation
 	1243. DMA
-	1244. DMOS
+		1. See direct memory access
+	1244. [[DMOS]]
 	1245. DNI
-	1246. docking station
-	1247. Dolby digital 5.1
-	1248. Dolby pro logic
-	1249. Dolby surround sound
+		1. See direct neural interface
+	1246. [[docking station]]
+	1247. [[Dolby digital 5.1]]
+	1248. [[Dolby pro logic]]
+	1249. [[Dolby surround sound]]
 	1250. domain
+		1. (1) See FERROMAGNETISM. 
+		2. (2) See GUNN EFFECT. 
+		3. (3) See TIME DOMAIN; FREQUENCY DOMAIN.
 	1251. dominant mode
+		1. See mode
 	1252. donor
-	1253. doping
-	1254. doping compensation
-	1255. doping level
-	1256. doping profile
-	1257. Doppler effect
+		1. (donor impurity) See semiconductor
+	1253. [[doping]]
+	1254. [[doping compensation]]
+	1255. [[doping level]]
+	1256. [[doping profile]]
+	1257. [[Doppler effect]]
 	1258. Doppler radar
+		1. See doppler effect; radar
 	1259. DOS
-	1260. dot generator
-	1261. dot matrix printer
-	1262. dots per inch
-	1263. double-current system
+		1. See disk operating system
+	1260. [[dot generator]]
+	1261. [[dot matrix printer]]
+	1262. [[dots per inch]]
+	1263. [[double-current system]]
 	1264. double-ended
-	1265. double-pole switch
-	1266. double-sideband transmission
+		1. See single-ended
+	1265. [[double-pole switch]]
+	1266. [[double-sideband transmission]]
 	1267. double amplitude
-	1268. double conversion receiver
+		1. (peak-to-peak amplitude) See amplitude
+	1268. [[double conversion receiver]]
 	1269. double diffusion
+		1. See diffusion
 	1270. double drift device
+		1. See IMPATT Diode
 	1271. double image
-	1272. double integral
-	1273. double modulation
-	1274. double sideband
-	1275. double sideband suppressed carrier
+		1. See ghost
+	1272. [[double integral]]
+	1273. [[double modulation]]
+	1274. [[double sideband]]
+	1275. [[double sideband suppressed carrier]]
 	1276. doublet
-	1277. downconvert
-	1278. downlink
-	1279. download
-	1280. downsampling
-	1281. down time
+		1. See dipole
+	1277. [[downconvert]]
+	1278. [[downlink]]
+	1279. [[download]]
+	1280. [[downsampling]]
+	1281. [[down time]]
 	1282. dpi
-	1283. DPNSS
-	1284. 3D point cloud
-	1285. 3D printer
+		1. See dots per inch
+	1283. [[DPNSS]]
+	1284. [[3D point cloud]]
+	1285. [[3D printer]]
 	1286. DPSK
-	1287. drain
-	1288. DRAM
+		1. (differential phase shift keying) See Phase Modulation
+	1287. [[drain]]
+	1288. [[DRAM]]
 	1289. DRC
-	1290. drift
-	1291. drift current
-	1292. drift mobility(symbol: μ)
+		1. See design rule checker
+	1290. [[drift]]
+	1291. [[drift current]]
+	1292. [[drift mobility]]
 	1293. drift region
-	1294. drift space
+		1. See DMOS
+	1294. [[drift space]]
 	1295. driven antenna
+		1. (active antenna) See directional antenna
 	1296. driven output
-	1297. driven system
-	1298. driver
-	1299. drive speed
-	1300. driving-point impedance
+		1. (response) See forced output
+	1297. [[driven system]]
+	1298. [[driver]]
+	1299. [[drive speed]]
+	1300. [[driving-point impedance]]
 	1301. driving impedance
+		1. See motional impedance
 	1302. driving potential
+		1. See photocell
 	1303. DRO
-	1304. drone
+		1. See dielectric resonator oscillator
+	1304. [[drone]]
 	1305. droop
-	1306. dropping resistor
+		1. See pulse
+	1306. [[dropping resistor]]
 	1307. dry battery
+		1. See battery
 	1308. dry cell
+		1. See cell
 	1309. dry etching
-	1310. dry joint
+		1. See etching
+	1310. [[dry joint]]
 	1311. DSB
+		1. See double sideband
 	1312. DSB-SC
-	1313. 3D scanner
+		1. See double sideband suppressed carrier
+	1313. [[3D scanner]]
 	1314. DSL
-	1315. DSLR camera
+		1. (digital subscriber line) See asynchronous digital subscriber line
+	1315. [[DSLR camera]]
 	1316. DSP
-	1317. 3D survey
+		1. See digital signal processing
+	1317. [[3D survey]]
 	1318. DTE
+		1. See data terminal equipment
 	1319. DTL
-	1320. DTMF
+		1. See diode transistor logic
+	1320. [[DTMF]]
 	1321. DTS
-	1322. 3D TV
+		1. See digital theater system
+	1322. [[3D TV]]
 	1323. DTW
-	1324. dual-flat no-leads package
-	1325. dual-tone multi-frequency signalling
-	1326. dual in-line package
-	1327. dual in-line pin package
-	1328. duality
-	1329. dubbing
+		1. See dynamic time warping
+	1324. [[dual-flat no-leads package]]
+	1325. [[dual-tone multi-frequency signaling]]
+	1326. [[dual in-line package]]
+	1327. [[dual in-line pin package]]
+	1328. [[duality]]
+	1329. [[dubbing]]
 	1330. dull emitter
+		1. See thermionic cathode
 	1331. dummy antenna
-	1332. dummy variable
-	1333. duplexer
-	1334. duplex operation
-	1335. dust core
-	1336. duty
+		1. See artificial antenna
+	1332. [[dummy variable]]
+	1333. [[duplexer]]
+	1334. [[duplex operation]]
+	1335. [[dust core]]
+	1336. [[duty]]
 	1337. duty factor
+		1. (pulse train) See pulse
 	1338. DVB
-	1339. DVB-S
-	1340. DVD
+		1. See digital video broadcasting
+	1339. [[DVB-S]]
+	1340. [[DVD]]
 	1341. DVM
-	1342. dynamic
+		1. See digital voltmeter
+	1342. [[dynamic]]
 	1343. dynamic characteristic
-	1344. dynamic impedance
-	1345. dynamic memory
+		1. See characteristic
+	1344. [[dynamic impedance]]
+	1345. [[dynamic memory]]
 	1346. dynamic operation
+		1. See MOS Integrated Circuit
 	1347. dynamic RAM
-	1348. dynamic range
-	1349. dynamic resistance
-	1350. dynamic routing
+		1. See DRAM
+	1348. [[dynamic range]]
+	1349. [[dynamic resistance]]
+	1350. [[dynamic routing]]
 	1351. dynamic sensitivity
-	1352. dynamic system
-	1353. dynamic time warping
-	1354. dynamo
-	1355. dyne
+		1. See phototube
+	1352. [[dynamic system]]
+	1353. [[dynamic time warping]]
+	1354. [[dynamo]]
+	1355. [[dyne]]
 	1356. dynode
+		1. See electron multiplier
 	1357. E-bend
-	1358. E-cell
+		1. (E-plane; edgewise bend) See waveguide
+	1358. [[E-cell]]
 	1359. E-layer
+		1. (E-region; Heaviside layer; Kennelly-Heaviside layer) See ionosphere
 	1360. e-paper
+		1. See electronic paper
 	1361. E-plane
+		1. (E-bend) See waveguide
 	1362. E-region
+		1. (E-layer) See ionosphere
 	1363. e.m.f.
+		1. (EMF) See electromotive force
 	1364. early failure period
-	1365. Early voltage
+		1. See failure rate
+	1365. [[Early voltage]]
 	1366. EAROM
-	1367. earphone
-	1368. earth
-	1369. earth-return circuit
+		1. (electrically alterable read-only memory) See ROM
+	1367. [[earphone]]
+	1368. [[earth]]
+	1369. [[earth-return circuit]]
 	1370. earth bus
-	1371. earth capacitance
-	1372. earth current
-	1373. earth fault
+		1. See bus
+	1371. [[earth capacitance]]
+	1372. [[earth current]]
+	1373. [[earth fault]]
 	1374. earth plane
-	1375. earth potential
+		1. See ground plane
+	1375. [[earth potential]]
 	1376. EBD
+		1. See electronic brakeforce distribution
 	1377. Ebers-Moll model
+		1. See transistor parameters
 	1378. EBIC
+		1. See electron-beam induced current analysis
 	1379. ECC
+		1. See error-correcting code
 	1380. ECG
-	1381. echo
-	1382. echo sounding
+		1. See electrocardiograph
+	1381. [[echo]]
+	1382. [[echo sounding]]
 	1383. ECL
+		1. See emitter-coupled logic
 	1384. eddy-current heating
-	1385. eddy current
-	1386. edge connector
-	1387. edge detection
-	1388. edge effect
-	1389. edge enhancement
-	1390. edge profile
-	1391. edge triggering
-	1392. editor
+		1. See induction heating
+	1385. [[eddy current]]
+	1386. [[edge connector]]
+	1387. [[edge detection]]
+	1388. [[edge effect]]
+	1389. [[edge enhancement]]
+	1390. [[edge profile]]
+	1391. [[edge triggering]]
+	1392. [[editor]]
 	1393. EDS
+		1. (energy dispersive spectroscopy) See electron microprobe
 	1394. EEG
+		1. See electroencephalograph
 	1395. EEPROM
-	1396. effective address
-	1397. effective aperture
-	1398. effective mass(symbol: m*)
-	1399. effective radiated power
-	1400. effective resistance
+		1. (electrical-erasable programmable ROM) See ROM
+	1396. [[effective address]]
+	1397. [[effective aperture]]
+	1398. [[effective mass]]
+	1399. [[effective radiated power]]
+	1400. [[effective resistance]]
 	1401. effective value
 	1402. efficiency
 	1403. EFM
