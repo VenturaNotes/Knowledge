@@ -7,6 +7,7 @@ dateModified: 2025-12-28T02:07:54.453-05:00
 tags:
   - task
 completedDate: 2025-12-28
+googleCalendarEventId: d0mvk2m98pm0cssnj220mpceo0
 ---
 ## Synthesis
 - [Gemini](https://aistudio.google.com/prompts/14Q80rzmT0g0s7MUjdWfRwkoybFeQzTtM)

@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A system designed to provide a fully three-dimensional model of an object or structure by using lasers to obtain the coordinates of a large set of surface points (a 3D point cloud). Because the laser measurements provide only positional information, some systems also use integrated cameras to provide further information regarding color that can be overlaid onto the three-dimensional surface model. A small-scale 3D scanner may be designed to handle objects only a few tens of centimeters in size, and may combine several digital cameras and lasers within a portable table-top unit. Typically, such a system connects directly to a computer via USB and can produce scans with submillimeter accuracy at sampling rates of several thousand points per second. Medium-scale systems can be used for purposes such as body scanning, with uses ranging from medical and fitness applications to clothing design. Larger-scale lidar scanners can have a range of several thousand meters and are used from ground base stations or from aerial platforms for recording individual buildings or for city mapping.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
