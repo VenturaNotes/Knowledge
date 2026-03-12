@@ -10,9 +10,12 @@
 ## Source[^4]
 - (cataphoresis) A technique for the analysis and separation of colloids, based on the movement of charged colloidal particles in an electric field. There are various experimental methods. In one the sample is placed in a U-tube and a buffer solution added to each arm, so that there are sharp boundaries between buffer and sample. An electrode is placed in each arm, a voltage applied, and the motion of the boundaries under the influence of the field is observed. The rate of migration of the particles depends on the field, the charge on the particles, and on other factors, such as the size and shape of the particles. More simply, electrophoresis can be carried out using an adsorbent, such as a strip of filter paper, soaked in a buffer with two electrodes making contact. The sample is placed between the electrodes and a voltage applied. Different components of the mixture migrate at different rates, so the sample separates into zones. The components can be identified by the rate at which they move. In gel electrophoresis the medium is a gel, typically made of polyacrylamide (see PAGE), agarose, or starch. 
 - Electrophoresis, which has also been called electrochromatography, is used extensively in studying mixtures of proteins, nucleic acids, carbohydrates, enzymes, etc. In clinical medicine it is used for determining the protein content of body fluids.
+## Source[^5]
+- The movement of colloidal particles in a liquid under the influence of an electric field. Positively charged particles migrate to the cathode (cataphoresis) and negatively charged ones to the anode (anaphoresis).
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

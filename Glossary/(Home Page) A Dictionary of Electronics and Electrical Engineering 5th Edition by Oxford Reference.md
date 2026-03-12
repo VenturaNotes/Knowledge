@@ -1960,298 +1960,415 @@ tags:
 	1399. [[effective radiated power]]
 	1400. [[effective resistance]]
 	1401. effective value
-	1402. efficiency
+		1. See root-mean-square value
+	1402. [[efficiency]]
 	1403. EFM
-	1404. EGA
+		1. (eight to fourteen modulation) See compact disc system
+	1404. [[EGA]]
 	1405. EGG
+		1. (electroglottogram) See ELECTROGLOTTOGRAPH.
 	1406. EHF
-	1407. EHT
-	1408. eigenvalue
+		1. (extremely high frequency) See FREQUENCY BAND.
+	1407. [[EHT]]
+	1408. [[eigenvalue]]
 	1409. Einstein photoelectric equation
-	1410. Einthoven galvanometer
-	1411. EIRP
+		1. See PHOTOELECTRIC EFFECT.
+	1410. [[Einthoven galvanometer]]
+	1411. [[EIRP]]
 	1412. EIS
+		1. See electronic image stabilization
 	1413. EIT
-	1414. elastance(symbol: S; unit: farad-1)
-	1415. elastic recoil detection analysis
-	1416. elastoresistance
-	1417. electret
-	1418. electrical impedance tomography
+		1. See electrical impedance tomography
+	1414. [[elastance]]
+	1415. [[elastic recoil detection analysis]]
+	1416. [[elastoresistance]]
+	1417. [[electret]]
+	1418. [[electrical impedance tomography]]
 	1419. electrically alterable read-only memory
-	1420. electric axis
+		1. (EAROM) See ROM
+	1420. [[electric axis]]
 	1421. electric charge
+		1. See charge
 	1422. electric conduction
+		1. See conduction
 	1423. electric constant
+		1. (permittivity of free space) See permittivity
 	1424. electric current
-	1425. electric dimensions
+		1. See current
+	1425. [[electric dimensions]]
 	1426. electric dipole
+		1. See dipole
 	1427. electric displacement
-	1428. electric field
-	1429. electric flux(symbol: Ψ; unit: coulomb)
+		1. See displacement
+	1428. [[electric field]]
+	1429. [[electric flux]]
 	1430. electric flux density
-	1431. electric heating
-	1432. electric hysteresis loss
-	1433. electric image
-	1434. electric intensity
-	1435. electricity
+		1. See displacement
+	1431. [[electric heating]]
+	1432. [[electric hysteresis loss]]
+	1433. [[electric image]]
+	1434. [[electric intensity]]
+	1435. [[electricity]]
 	1436. electric moment
+		1. (dipole moment) See dipole
 	1437. electric polarization
-	1438. electric potential(symbol: V or ϕ; unit volt)
-	1439. electric screening
-	1440. electric spectrum
+		1. See dielectric polarization
+	1438. [[electric potential]]
+	1439. [[electric screening]]
+	1440. [[electric spectrum]]
 	1441. electric susceptibility
+		1. See susceptibility
 	1442. electric transducer
-	1443. electric vehicle
+		1. See transducer
+	1443. [[electric vehicle]]
 	1444. electro-optical effect
+		1. See Kerr Effects
 	1445. electro-optical shutter
-	1446. electro-optics
+		1. (Kerr cell) See Kerr Effects
+	1446. [[electro-optics]]
 	1447. electroacoustic transducer
-	1448. electrocardiograph
-	1449. electrochemical series
-	1450. electrode
+		1. See transducer
+	1448. [[electrocardiograph]]
+	1449. [[electrochemical series]]
+	1450. [[electrode]]
 	1451. electrode current
-	1452. electrodeposition
+		1. See electrode
+	1452. [[electrodeposition]]
 	1453. electrode potential
-	1454. electrodynamic instrument
-	1455. electrodynamics
-	1456. electrodynamometer
-	1457. electroencephalograph
-	1458. electroglottograph
-	1459. electroless plating
-	1460. electroluminescence
-	1461. electrolysis
-	1462. electrolyte
-	1463. electrolytic capacitor
+		1. See electrochemical series
+	1454. [[electrodynamic instrument]]
+	1455. [[electrodynamics]]
+	1456. [[electrodynamometer]]
+	1457. [[electroencephalograph]]
+	1458. [[electroglottograph]]
+	1459. [[electroless plating]]
+	1460. [[electroluminescence]]
+	1461. [[electrolysis]]
+	1462. [[electrolyte]]
+	1463. [[electrolytic capacitor]]
 	1464. electrolytic cell
-	1465. electrolytic dissociation
-	1466. electrolytic meter
-	1467. electrolytic photocell
-	1468. electrolytic polishing
-	1469. electrolytic rectifier
-	1470. electromagnet
+		1. See cell
+	1465. [[electrolytic dissociation]]
+	1466. [[electrolytic meter]]
+	1467. [[electrolytic photocell]]
+	1468. [[electrolytic polishing]]
+	1469. [[electrolytic rectifier]]
+	1470. [[electromagnet]]
 	1471. electromagnetic balance
-	1472. electromagnetic compatibility
-	1473. electromagnetic deflection
+		1. See cotton balance
+	1472. [[electromagnetic compatibility]]
+	1473. [[electromagnetic deflection]]
 	1474. electromagnetic focusing
-	1475. electromagnetic induction
+		1. (magnetic focusing) See focusing
+	1475. [[electromagnetic induction]]
 	1476. electromagnetic interference
-	1477. electromagnetic lens
+		1. (EMI) See electromagnetic compatibility
+	1477. [[electromagnetic lens]]
 	1478. electromagnetic pulse
-	1479. electromagnetic radiation
-	1480. electromagnetic spectrum
+		1. (EMP) See electromagnetic compatibility
+	1479. [[electromagnetic radiation]]
+	1480. [[electromagnetic spectrum]]
 	1481. electromagnetic strain gauge
+		1. (variable inductance gauge) See strain gauge
 	1482. electromagnetic units
+		1. (emu) See CGS System
 	1483. electromagnetic wave
-	1484. electromagnetism
-	1485. electrometer
-	1486. electromigration
-	1487. electromotive force(symbol: E; unit: volt)
-	1488. electromyograph
-	1489. electron
-	1490. electron-beam device
-	1491. electron-beam induced current analysis
-	1492. electron-beam lithography
-	1493. electron-hole pair
+		1. See electromagnetic radiation
+	1484. [[electromagnetism]]
+	1485. [[electrometer]]
+	1486. [[electromigration]]
+	1487. [[electromotive force]]
+	1488. [[electromyograph]]
+	1489. [[electron]]
+	1490. [[electron-beam device]]
+	1491. [[electron-beam induced current analysis]]
+	1492. [[electron-beam lithography]]
+	1493. [[electron-hole pair]]
 	1494. electron-hole recombination
-	1495. electron affinity
-	1496. electron beam
+		1. (band-to-band recombination) See recombination processes.
+	1495. [[electron affinity]]
+	1496. [[electron beam]]
 	1497. electron binding energy
+		1. See ionization potential
 	1498. electron capture
+		1. See RECOMBINATION PROCESSES.
 	1499. electron charge
-	1500. electron density
+		1. See charge; electron
+	1500. [[electron density]]
 	1501. electron diffraction
+		1. See diffraction
 	1502. electronegative
-	1503. electron emission
-	1504. electron gas
-	1505. electron gun
-	1506. electronic brakeforce distribution
-	1507. electronic device
-	1508. electronic efficiency
-	1509. electronic image stabilization
-	1510. electronic imaging
-	1511. electronic ink
-	1512. electronic lock
-	1513. electronic memory
-	1514. electronic paper
-	1515. electronics
-	1516. electronic switch
-	1517. electronic tuning
-	1518. electronic waste
-	1519. electron lens
-	1520. electron microprobe
-	1521. electron microscope
+		1. See electrochemical series
+	1503. [[electron emission]]
+	1504. [[electron gas]]
+	1505. [[electron gun]]
+	1506. [[electronic brakeforce distribution]]
+	1507. [[electronic device]]
+	1508. [[electronic efficiency]]
+	1509. [[electronic image stabilization]]
+	1510. [[electronic imaging]]
+	1511. [[electronic ink]]
+	1512. [[electronic lock]]
+	1513. [[electronic memory]]
+	1514. [[electronic paper]]
+	1515. [[electronics]]
+	1516. [[electronic switch]]
+	1517. [[electronic tuning]]
+	1518. [[electronic waste]]
+	1519. [[electron lens]]
+	1520. [[electron microprobe]]
+	1521. [[electron microscope]]
 	1522. electron mobility
-	1523. electron multiplier
-	1524. electron optics
-	1525. electron tube
-	1526. electronvolt(symbol: eV)
-	1527. electron voltaic effect
-	1528. electrophoresis
-	1529. electrophorus
-	1530. electroplating
-	1531. electropneumatic
-	1532. electropolar
+		1. See drift mobility
+	1523. [[electron multiplier]]
+	1524. [[electron optics]]
+	1525. [[electron tube]]
+	1526. [[electronvolt]]
+	1527. [[electron voltaic effect]]
+	1528. [[electrophoresis]]
+	1529. [[electrophorus]]
+	1530. [[electroplating]]
+	1531. [[electropneumatic]]
+	1532. [[electropolar]]
 	1533. electropolishing
+		1. See ELECTROLYTIC POLISHING.
 	1534. electropositive
-	1535. electroscope
-	1536. electrostatic adhesion
-	1537. electrostatic deflection
+		1. See ELECTROCHEMICAL SERIES.
+	1535. [[electroscope]]
+	1536. [[electrostatic adhesion]]
+	1537. [[electrostatic deflection]]
 	1538. electrostatic discharge
-	1539. electrostatic field
+		1. (ESD) See ELECTROMAGNETIC COMPATIBILITY.
+	1539. [[electrostatic field]]
 	1540. electrostatic focusing
+		1. See focusing
 	1541. electrostatic generator
-	1542. electrostatic induction
-	1543. electrostatic lens
+		1. See generator
+	1542. [[electrostatic induction]]
+	1543. [[electrostatic lens]]
 	1544. electrostatic loudspeaker
-	1545. electrostatic precipitation
-	1546. electrostatics
+		1. See LOUDSPEAKER.
+	1545. [[electrostatic precipitation]]
+	1546. [[electrostatics]]
 	1547. electrostatic units
+		1. (esu) See CGS System
 	1548. electrostatic voltmeter
+		1. See voltmeter
 	1549. electrostatic wattmeter
-	1550. electrostriction
+		1. See wattmeter
+	1550. [[electrostriction]]
 	1551. electrothermal instrument
+		1. See thermal instrument
 	1552. electrovalent bond
-	1553. element
-	1554. elementary particle
+		1. See ionic bond
+	1553. [[element]]
+	1554. [[elementary particle]]
 	1555. elliptical polarization
-	1556. elliptic filter
-	1557. elliptic function
-	1558. embedded controller
-	1559. embedded system
+		1. See polarization
+	1556. [[elliptic filter]]
+	1557. [[elliptic function]]
+	1558. [[embedded controller]]
+	1559. [[embedded system]]
 	1560. EMC
+		1. See ELECTROMAGNETIC COMPATIBILITY.
 	1561. EMI
-	1562. emission
-	1563. emissivity(symbol: ε)
-	1564. emitter
-	1565. emitter-coupled logic
+		1. (electromagnetic interference) See ELECTROMAGNETIC COMPATIBILITY.
+	1562. [[emission]]
+	1563. [[emissivity]]
+	1564. [[emitter]]
+	1565. [[emitter-coupled logic]]
 	1566. emitter electrode
-	1567. emitter follower
+		1. See emitter
+	1567. [[emitter follower]]
 	1568. emitter region
+		1. See emitter
 	1569. EMP
+		1. (electromagnetic pulse) See ELECTROMAGNETIC COMPATIBILITY.
 	1570. emu
-	1571. emulator
-	1572. enabling
+		1. (electromagnetic unit) See CGS SYSTEM.
+	1571. [[emulator]]
+	1572. [[enabling]]
 	1573. encephalograph
-	1574. enclosure
-	1575. encoder
-	1576. encryption
+		1. See ELECTROENCEPHALOGRAPH.
+	1574. [[enclosure]]
+	1575. [[encoder]]
+	1576. [[encryption]]
 	1577. endfire array
-	1578. energy bands
+		1. (staggered antenna) See antenna array
+	1578. [[energy bands]]
 	1579. energy component
+		1. (1) (of a current or voltage) See ACTIVE CURRENT or ACTIVE VOLTAGE.
+		2. (2) (of the volt-amperes) See ACTIVE VOLT-AMPERES.
 	1580. energy dispersive spectroscopy
-	1581. energy efficiency
-	1582. energy gap(symbol: Eg)
-	1583. energy levels
-	1584. engine control unit
-	1585. enhanced vision system
-	1586. enhancement mode
-	1587. envelope
+		1. (EDS) See ELECTRON MICROPROBE.
+	1581. [[energy efficiency]]
+	1582. [[energy gap]]
+	1583. [[energy levels]]
+	1584. [[engine control unit]]
+	1585. [[enhanced vision system]]
+	1586. [[enhancement mode]]
+	1587. [[envelope]]
 	1588. envelope detector
+		1. See DIODE DETECTOR.
 	1589. EoP
+		1. See ETHERNET OVER POWER.
 	1590. EOP
-	1591. EPIRB
+		1. See EXTERIOR ORIENTATION PARAMETERS.
+	1591. [[EPIRB]]
 	1592. epitaxial transistor
-	1593. epitaxy
+		1. See PLANAR PROCESS.
+	1593. [[epitaxy]]
 	1594. EPROM
-	1595. equal energy source
-	1596. equalization
-	1597. equalizer
-	1598. equipotential line
-	1599. equiripple
+		1. (erasable programmable ROM) See ROM.
+	1595. [[equal energy source]]
+	1596. [[equalization]]
+	1597. [[equalizer]]
+	1598. [[equipotential line]]
+	1599. [[equiripple]]
 	1600. equivalent-circuit model
-	1601. equivalent circuit
-	1602. equivalent network
-	1603. equivalent rectangular bandwidth
-	1604. equivalent resistance
+		1. See TRANSISTOR PARAMETERS; MODELLING.
+	1601. [[equivalent circuit]]
+	1602. [[equivalent network]]
+	1603. [[equivalent rectangular bandwidth]]
+	1604. [[equivalent resistance]]
 	1605. erasable PROM
+		1. See ROM
 	1606. ERDA
+		1. See ELASTIC RECOIL DETECTION ANALYSIS.
 	1607. erlang
+		1. See NETWORK TRAFFIC MEASUREMENT.
 	1608. ERP
+		1. See EFFECTIVE RADIATED POWER.
 	1609. error
-	1610. error-correcting code
-	1611. error accumulation
-	1612. error bar
-	1613. error correction
-	1614. error detection
-	1615. error rate
+		1. See ABSOLUTE ERROR.
+	1610. [[error-correcting code]]
+	1611. [[error accumulation]]
+	1612. [[error bar]]
+	1613. [[error correction]]
+	1614. [[error detection]]
+	1615. [[error rate]]
 	1616. Esaki diode
+		1. See TUNNEL DIODE.
 	1617. ESD
-	1618. estimation theory
+		1. (electrostatic discharge) See ELECTROMAGNETIC COMPATIBILITY.
+	1618. [[estimation theory]]
 	1619. esu
-	1620. etching
+		1. (electrostatic unit) See CGS SYSTEM.
+	1620. [[etching]]
+
 	1621. etch pit density
-	1622. Ethernet
-	1623. Ethernet over power
-	1624. Ettinghausen effect
-	1625. Euler's identity
-	1626. European Telecommunications Standards Institute
-	1627. eutectic mixture
-	1628. even function
+		1. (dislocation density) See DISLOCATION.
+	1622. [[Ethernet]]
+	1623. [[Ethernet over power]]
+	1624. [[Ettinghausen effect]]
+	1625. [[Euler's identity]]
+	1626. [[European Telecommunications Standards Institute]]
+	1627. [[eutectic mixture]]
+	1628. [[even function]]
 	1629. EVS
+		1. See ENHANCED VISION SYSTEM.
 	1630. E wave
+		1. (TM wave) See MODE.
+
 	1631. exchange forces
-	1632. excitation
+		1. See FERROMAGNETISM.
+	1632. [[excitation]]
 	1633. excited state
+		1. See GROUND STATE.
 	1634. exclusive OR gate
-	1635. execute
+		1. See LOGIC CIRCUIT.
+	1635. [[execute]]
 	1636. expanded-sweep generator
+		1. See timebase
 	1637. expanded sweep
-	1638. expander
-	1639. expansion
+		1. See timebase
+	1638. [[expander]]
+	1639. [[expansion]]
 	1640. exploring coil
-	1641. exponential form of a complex number
-	1642. exponential function
-	1643. exterior orientation parameters
-	1644. Extranet
+		1. (search coil) See FLIP-COIL.
+
+	1641. [[exponential form of a complex number]]
+	1642. [[exponential function]]
+	1643. [[exterior orientation parameters]]
+	1644. [[Extranet]]
 	1645. extrapolated failure rate
+		1. See failure rate
 	1646. extrapolated mean life
+		1. See mean life
 	1647. extremely high frequency
+		1. (EHF) See frequency band
 	1648. extrinsic photoconductivity
-	1649. extrinsic semiconductor
+		1. See photoconductivity
+	1649. [[extrinsic semiconductor]]
 	1650. eyelet-construction mica capacitor
-	1651. eye tracking
+		1. See mica capacitor
+
+	1651. [[eye tracking]]
 	1652. F-layer
+		1. (Appleton layer) See ionosphere
 	1653. F-region
+		1. (F-layer) See ionosphere
 	1654. f.m.
+		1. (FM) See frequency modulation
 	1655. f.s.d.
+		1. (FSD) See full-scale deflection
 	1656. f0
+		1. (fundamental frequency) See FUNDAMENTAL FREQUENCY ESTIMATION. Compare FX.
 	1657. Fabry-Perot cavity
-	1658. fader
-	1659. fading
-	1660. failure
-	1661. failure rate
-	1662. fall time
-	1663. fan-in
-	1664. fan-out
+		1. See laser
+	1658. [[fader]]
+	1659. [[fading]]
+	1660. [[failure]]
+
+	1661. [[failure rate]]
+	1662. [[fall time]]
+	1663. [[fan-in]]
+	1664. [[fan-out]]
 	1665. far-end crosstalk
-	1666. far-field region
-	1667. farad(symbol: F)
+		1. See crosstalk
+	1666. [[far-field region]]
+	1667. [[farad]]
 	1668. Faraday-Neumann law
-	1669. Faraday constant(symbol: F)
+		1. (Faraday's law) See ELECTROMAGNETIC INDUCTION.
+	1669. [[Faraday constant]]
 	1670. Faraday dark space
-	1671. Faraday shield
-	1672. fast-recovery diode
-	1673. fast Ethernet
+		1. See GAS-DISCHARGE TUBE (diagram).
+
+	1671. [[Faraday shield]]
+	1672. [[fast-recovery diode]]
+	1673. [[fast Ethernet]]
 	1674. fast Fourier transform
+		1. (FFT) See DISCRETE FOURIER TRANSFORM.
 	1675. fast hopping
+		1. See FREQUENCY MODULATION.
 	1676. FAT
-	1677. FATFET
-	1678. fat zero
-	1679. fault
-	1680. fault-tolerant system
-	1681. fault current
-	1682. fault grade
+		1. See file allocation table
+	1677. [[FATFET]]
+	1678. [[fat zero]]
+	1679. [[fault]]
+	1680. [[fault-tolerant system]]
+
+	1681. [[fault current]]
+	1682. [[fault grade]]
 	1683. FCC
+		1. (Federal Communications Committee) See STANDARDIZATION.
 	1684. FCS
+		1. See FRAME CHECK SEQUENCE.
 	1685. FDDI
+		1. See FIBRE DISTRIBUTED DATA INTERFACE.
 	1686. FDHM
+		1. See FULL DURATION AT HALF MAXIMUM.
 	1687. FDM
+		1. See FREQUENCY-DIVISION MULTIPLEXING.
 	1688. FDMA
+		1. (frequency-division multiple access) See DIGITAL COMMUNICATIONS.
 	1689. FDNR
-	1690. feature
-	1691. feature matching
-	1692. feed
-	1693. feedback
+		1. See FREQUENCY-DEPENDENT NEGATIVE RESISTOR.
+	1690. [[feature]]
+
+	1691. [[feature matching]]
+	1692. [[feed]]
+	1693. [[feedback]]
 	1694. feedback control loop
 	1695. feedback oscillator
 	1696. feeder
@@ -2259,6 +2376,7 @@ tags:
 	1698. feedpoint impedance
 	1699. feedthrough
 	1700. Felici balance
+
 	1701. FEM
 	1702. femto-(symbol: f)
 	1703. Fermi-Dirac statistics
@@ -2269,6 +2387,7 @@ tags:
 	1708. ferrite core
 	1709. ferroelectric crystals
 	1710. ferrofluid
+
 	1711. ferromagnetism
 	1712. FET
 	1713. FFT
@@ -2279,6 +2398,7 @@ tags:
 	1718. fiducial marker
 	1719. field
 	1720. field-effect transistor
+
 	1721. field-emission microscope
 	1722. field-enhanced emission
 	1723. field-ion microscope
@@ -2289,6 +2409,7 @@ tags:
 	1728. field frequency
 	1729. field ionization
 	1730. field of view
+
 	1731. field programmable gate array
 	1732. FIFO
 	1733. figure-eight microphone
@@ -2299,6 +2420,7 @@ tags:
 	1738. film sputter deposition
 	1739. filter
 	1740. filter synthesis
+
 	1741. finite-difference time domain
 	1742. finite-state machine
 	1743. finite element method
@@ -2309,6 +2431,7 @@ tags:
 	1748. firing
 	1749. firm decision decoding
 	1750. firmware
+
 	1751. first-order circuit
 	1752. first ionization potential
 	1753. fixed-point representation
@@ -2319,6 +2442,7 @@ tags:
 	1758. flash memory controller
 	1759. flashover
 	1760. flat-band operation mode
+
 	1761. flatbed scanner
 	1762. flat package
 	1763. flatscreen display
@@ -2329,6 +2453,7 @@ tags:
 	1768. flicker
 	1769. flicker noise
 	1770. flip-chip
+
 	1771. flip-coil
 	1772. flip-flop
 	1773. floating
@@ -2339,6 +2464,7 @@ tags:
 	1778. flow chart
 	1779. flow control
 	1780. fluorescence
+
 	1781. fluorescent lamp
 	1782. fluorescent screen
 	1783. flutter
@@ -2349,6 +2475,7 @@ tags:
 	1788. flying-spot scanner
 	1789. flywheel effect
 	1790. flywheel timebase
+
 	1791. FM receiver
 	1792. fMRI
 	1793. FM synthesis
@@ -2359,6 +2486,7 @@ tags:
 	1798. forbidden band
 	1799. forced oscillations
 	1800. forced output
+
 	1801. forced system
 	1802. force factor
 	1803. forcing function
@@ -2369,6 +2497,7 @@ tags:
 	1808. forward-current gain
 	1809. forward-wave amplification
 	1810. forward active operation
+
 	1811. forward direction
 	1812. forward path
 	1813. forward problem
@@ -2379,6 +2508,7 @@ tags:
 	1818. four-terminal network
 	1819. four-terminal resistor
 	1820. four-wire circuit
+
 	1821. Fourier analysis
 	1822. FPGA
 	1823. frame
@@ -2389,6 +2519,7 @@ tags:
 	1828. frame frequency
 	1829. franklin(symbol: Fr)
 	1830. free-electron paramagnetism
+
 	1831. free-field calibration
 	1832. free electron
 	1833. free field
@@ -2399,6 +2530,7 @@ tags:
 	1838. free system
 	1839. Freeview
 	1840. frequency(symbol: ν or f; unit: hertz)
+
 	1841. frequency-dependent negative resistor
 	1842. frequency-division duplexing
 	1843. frequency-division multiple access
@@ -2409,6 +2541,7 @@ tags:
 	1848. frequency analyser
 	1849. frequency band
 	1850. frequency bridge
+
 	1851. frequency changer
 	1852. frequency compensation
 	1853. frequency control
@@ -2419,6 +2552,7 @@ tags:
 	1858. frequency divider
 	1859. frequency domain
 	1860. frequency doubler
+
 	1861. frequency meter
 	1862. frequency modulation
 	1863. frequency multiplexing
@@ -2429,6 +2563,7 @@ tags:
 	1868. frequency reuse
 	1869. frequency scaling
 	1870. frequency selectivity
+
 	1871. frequency shift keying
 	1872. frequency spectrum(of electromagnetic waves)
 	1873. frequency standard, primary
@@ -2439,6 +2574,7 @@ tags:
 	1878. frictional electricity
 	1879. Friis transmission equation
 	1880. fringe area
+
 	1881. front porch
 	1882. FSK
 	1883. FSM
@@ -2449,6 +2585,7 @@ tags:
 	1888. full-wave rectifier circuit
 	1889. full-width half-maximum
 	1890. full adder
+
 	1891. full duration at half maximum
 	1892. function
 	1893. functional magnetic resonance imaging
@@ -2459,6 +2596,7 @@ tags:
 	1898. fundamental frequency estimation
 	1899. fuse
 	1900. fusible-link memory
+
 	1901. fuzzy logic
 	1902. FWHM
 	1903. fx
@@ -2469,6 +2607,7 @@ tags:
 	1908. gain compression
 	1909. gain control
 	1910. gain margin
+
 	1911. gain region
 	1912. galactic noise
 	1913. Galileo
@@ -2479,6 +2618,7 @@ tags:
 	1918. gamma correction
 	1919. gamma rays
 	1920. gap
+
 	1921. gap length
 	1922. gas-discharge tube
 	1923. gas-filled tube
@@ -2489,6 +2629,7 @@ tags:
 	1928. gaskets
 	1929. gas multiplication
 	1930. gassing
+
 	1931. gate
 	1932. gate array
 	1933. gate expander
@@ -2499,6 +2640,7 @@ tags:
 	1938. Gaussian channel
 	1939. Gaussian distribution
 	1940. Gaussian elimination
+
 	1941. Gaussian filter
 	1942. GBP
 	1943. Geiger counter
@@ -2509,6 +2651,7 @@ tags:
 	1948. geometric optics
 	1949. geometric theory of diffraction
 	1950. geostationary earth orbit
+
 	1951. geotagging
 	1952. germanium(symbol: Ge)
 	1953. getter
@@ -2519,6 +2662,7 @@ tags:
 	1958. GIC
 	1959. giga-(symbol: G)
 	1960. gigabit
+
 	1961. gigabyte
 	1962. gilbert(symbol: Gb)
 	1963. Gilbert cell
@@ -2529,6 +2673,7 @@ tags:
 	1968. global system for mobile communications
 	1969. GLONASS
 	1970. glottal airflow
+
 	1971. glow-discharge microphone
 	1972. glow discharge
 	1973. 4G LTE
@@ -2539,6 +2684,7 @@ tags:
 	1978. gold-leaf electroscope
 	1979. GOS
 	1980. GPIB
+
 	1981. GPIO pin
 	1982. GPR
 	1983. GPS
@@ -2549,6 +2695,7 @@ tags:
 	1988. graphical symbols
 	1989. graphic equalizer
 	1990. graphic instrument
+
 	1991. graphic panel
 	1992. graphics processing unit
 	1993. grass
@@ -2559,6 +2706,7 @@ tags:
 	1998. grid
 	1999. grid base
 	2000. grid bias
+
 	2001. grid emission
 	2002. grid leak
 	2003. grid stopper
@@ -2569,6 +2717,7 @@ tags:
 	2008. ground capacitance
 	2009. ground clutter
 	2010. ground current
+
 	2011. grounded-base connection
 	2012. grounded-collector connection
 	2013. grounded-emitter connection
@@ -2579,6 +2728,7 @@ tags:
 	2018. ground reflection
 	2019. ground return
 	2020. ground state
+
 	2021. ground wave
 	2022. group delay
 	2023. group operation
@@ -2589,6 +2739,7 @@ tags:
 	2028. guard band
 	2029. guard ring
 	2030. guard time
+
 	2031. Gudden-Pohl effect
 	2032. guide
 	2033. Guillemin effect
@@ -2599,6 +2750,7 @@ tags:
 	2038. gyroscopic sensor
 	2039. H-bend
 	2040. H-network
+
 	2041. H-pad
 	2042. H-plane
 	2043. H-section
@@ -2609,6 +2761,7 @@ tags:
 	2048. half-IF response
 	2049. half-power beamwidth
 	2050. half-power point
+
 	2051. half-wave dipole
 	2052. half-wave rectifier circuit
 	2053. half-wave voltage doubler
@@ -2619,6 +2772,7 @@ tags:
 	2058. halo
 	2059. Hamming code
 	2060. Hamming window
+
 	2061. ham radio
 	2062. handover
 	2063. handshake
@@ -2629,6 +2783,7 @@ tags:
 	2068. hard decision decoding
 	2069. hard disk
 	2070. hard disk drive
+
 	2071. hard disk head
 	2072. hardware
 	2073. hardware compilation
@@ -2639,6 +2794,7 @@ tags:
 	2078. harmonic analyser
 	2079. harmonic distortion
 	2080. harmonic generator
+
 	2081. harmonic oscillator
 	2082. Hartley oscillator
 	2083. Hartshorn bridge
@@ -2649,6 +2805,7 @@ tags:
 	2088. HB
 	2089. HbbTV
 	2090. HBT
+
 	2091. HD
 	2092. HDCD
 	2093. HDD
@@ -2659,6 +2816,7 @@ tags:
 	2098. HD video
 	2099. head
 	2100. head-mounted display
+
 	2101. head-related transfer function
 	2102. head-up display
 	2103. header
@@ -2669,6 +2827,7 @@ tags:
 	2108. heater
 	2109. heating depth
 	2110. heating effect of a current
+
 	2111. heat management
 	2112. heat sink
 	2113. Heaviside layer
@@ -2679,6 +2838,7 @@ tags:
 	2118. Helmholtz coils
 	2119. Helmholtz galvanometer
 	2120. HEMT
+
 	2121. henry(symbol: H)
 	2122. hertz(symbol: Hz)
 	2123. Hertzian dipole
@@ -2689,6 +2849,7 @@ tags:
 	2128. heterojunction photodiode
 	2129. heterostructure laser
 	2130. Heusler alloys
+
 	2131. hexadecimal
 	2132. hexagon voltage
 	2133. HF
@@ -2699,6 +2860,7 @@ tags:
 	2138. high-definition
 	2139. high-definition compatible digital
 	2140. high-definition multimedia interface
+
 	2141. high-density packaging
 	2142. high-frequency resistance
 	2143. high-level injection
@@ -2709,6 +2871,7 @@ tags:
 	2148. high-velocity scanning
 	2149. high-voltage test
 	2150. high dynamic range
+
 	2151. high electron mobility transistor
 	2152. high fidelity
 	2153. high frequency
@@ -2719,6 +2882,7 @@ tags:
 	2158. HMM
 	2159. holding time
 	2160. hold time
+
 	2161. hole
 	2162. hole-electron pair
 	2163. hole capture
@@ -2729,6 +2893,7 @@ tags:
 	2168. hole mobility
 	2169. hole trap
 	2170. homing beacon
+
 	2171. homodyne receiver
 	2172. homogeneous differential equation
 	2173. homojunction
@@ -2739,6 +2904,7 @@ tags:
 	2178. horizontal Bridgeman
 	2179. horizontal polarization
 	2180. horizontal surround sound
+
 	2181. horn antenna
 	2182. horn loudspeaker
 	2183. horseshoe magnet
@@ -2749,6 +2915,7 @@ tags:
 	2188. hot electron
 	2189. hot spot
 	2190. howl
+
 	2191. h parameter
 	2192. HRTF
 	2193. HT
@@ -2759,6 +2926,7 @@ tags:
 	2198. hum
 	2199. hum modulation
 	2200. hunting
+
 	2201. Huygens' principle
 	2202. H wave
 	2203. HWHM
@@ -2769,6 +2937,7 @@ tags:
 	2208. hybrid junction
 	2209. hybrid parameters
 	2210. hydrogen electrode
+
 	2211. hydrophone
 	2212. hyperabrupt varactor
 	2213. hypercardioid microphone
@@ -2779,6 +2948,7 @@ tags:
 	2218. hysteresis
 	2219. hysteresis distortion
 	2220. hysteresis factor
+
 	2221. hysteresis loop
 	2222. hysteresis loss
 	2223. hysteresis meter
@@ -2789,6 +2959,7 @@ tags:
 	2228. I2R loss
 	2229. IC
 	2230. ICA
+
 	2231. I channel
 	2232. ideal crystal
 	2233. ideal diode equation
@@ -2799,6 +2970,7 @@ tags:
 	2238. IEEE
 	2239. IEEE-488 standard
 	2240. IF
+
 	2241. iff
 	2242. IF strip
 	2243. IGBT
@@ -2809,6 +2981,7 @@ tags:
 	2248. image
 	2249. image-force lowering
 	2250. image attenuation constant
+
 	2251. image charge
 	2252. image converter
 	2253. image dissector
@@ -2819,6 +2992,7 @@ tags:
 	2258. image interference
 	2259. image phase constant
 	2260. image potential
+
 	2261. image processing
 	2262. image ratio
 	2263. image recognition
@@ -2829,6 +3003,7 @@ tags:
 	2268. image stabilization
 	2269. image stitching
 	2270. image transfer constant(symbol: θ)
+
 	2271. image tube
 	2272. imaginary number
 	2273. imaginary part of a complex number
@@ -2839,6 +3014,7 @@ tags:
 	2278. IMPATT diode
 	2279. impedance
 	2280. impedance coupling
+
 	2281. impedance matching
 	2282. impedance scaling
 	2283. impedor
@@ -2849,6 +3025,7 @@ tags:
 	2288. impulse voltage
 	2289. impurities
 	2290. IM rejection
+
 	2291. IMU
 	2292. in-phase component
 	2293. inactive interval
@@ -2859,6 +3036,7 @@ tags:
 	2298. independent component analysis
 	2299. index error
 	2300. indicating instrument
+
 	2301. indirect-gap semiconductor
 	2302. indirectly heated cathode
 	2303. indirect photoconductivity
@@ -2869,6 +3047,7 @@ tags:
 	2308. induced current
 	2309. induced dipole moment
 	2310. induced electromotive force
+
 	2311. induced noise
 	2312. inductance
 	2313. induction
@@ -2879,6 +3058,7 @@ tags:
 	2318. induction instrument
 	2319. induction microphone
 	2320. induction motor
+
 	2321. inductive
 	2322. inductive-output device
 	2323. inductive coupling
@@ -2889,6 +3069,7 @@ tags:
 	2328. inductive tuning
 	2329. inductor
 	2330. Industrial, Scientific and Medical
+
 	2331. inert cell
 	2332. inertial measurement unit
 	2333. inertia switch
@@ -2899,6 +3080,7 @@ tags:
 	2338. infrared image converter
 	2339. infrared radiation
 	2340. inherent weakness failure
+
 	2341. inhibiting input
 	2342. inhomogeneous differential equation
 	2343. initial current
@@ -2909,6 +3091,7 @@ tags:
 	2348. input/output
 	2349. input characteristic
 	2350. input impedance
+
 	2351. insertion loss
 	2352. instantaneous automatic gain control
 	2353. instantaneous carrying-current
@@ -2919,6 +3102,7 @@ tags:
 	2358. Institute of Electrical and Electronics Engineers, Inc.
 	2359. instruction fetch
 	2360. instruction register
+
 	2361. instruction set
 	2362. instrumentation amplifier
 	2363. instrument damping
@@ -2929,6 +3113,7 @@ tags:
 	2368. insulate
 	2369. insulated-gate bipolar transistor
 	2370. insulated-gate field-effect transistor
+
 	2371. insulating barrier
 	2372. insulating resistance
 	2373. insulation
@@ -2939,6 +3124,7 @@ tags:
 	2378. integrated injection logic
 	2379. integrated Schottky logic
 	2380. integrating array
+
 	2381. integrating frequency meter
 	2382. integrating wattmeter
 	2383. integrator
@@ -2949,6 +3135,7 @@ tags:
 	2388. intensity
 	2389. intensity modulation
 	2390. interaction space
+
 	2391. interactive
 	2392. intercarrier system
 	2393. interconnecting feeder
@@ -2959,6 +3146,7 @@ tags:
 	2398. interelectrode capacitance
 	2399. [[interest point]]
 	2400. interface
+
 	2401. interference
 	2402. interference fading
 	2403. interferometry
@@ -2969,6 +3157,7 @@ tags:
 	2408. interlock
 	2409. intermediate frequency
 	2410. intermittent duty
+
 	2411. intermodulation
 	2412. intermodulation distortion
 	2413. internal photoelectric effect
@@ -2979,6 +3168,7 @@ tags:
 	2418. international system
 	2419. International Telecommunication Union
 	2420. Internet
+
 	2421. Internet Protocol
 	2422. Internet television
 	2423. interpolation
@@ -2989,6 +3179,7 @@ tags:
 	2428. intersymbol interference
 	2429. intraconnection
 	2430. Intranet
+
 	2431. intrinsic conductivity
 	2432. intrinsic density
 	2433. intrinsic mobility
@@ -2999,6 +3190,7 @@ tags:
 	2438. inverse feedback
 	2439. inverse filter
 	2440. inverse function
+
 	2441. inverse gain
 	2442. inverse limiter
 	2443. inverse problem
@@ -3009,6 +3201,7 @@ tags:
 	2448. inverting transistor
 	2449. ion
 	2450. ion-beam analysis
+
 	2451. ion-beam lithography
 	2452. ionic atmosphere
 	2453. ionic bond
@@ -3019,6 +3212,7 @@ tags:
 	2458. ionization
 	2459. ionization chamber
 	2460. ionization current
+
 	2461. ionization gauge
 	2462. ionization potential(symbol: I; unit: electronvolt)
 	2463. ionizing event
@@ -3029,6 +3223,7 @@ tags:
 	2468. ionospheric focusing
 	2469. ionospheric wave
 	2470. ion source
+
 	2471. ion spot
 	2472. ion trap
 	2473. IOP
@@ -3039,6 +3234,7 @@ tags:
 	2478. IP camera
 	2479. IP cores
 	2480. IP phone
+
 	2481. iris
 	2482. iron(symbol: Fe)
 	2483. iron loss
@@ -3049,6 +3245,7 @@ tags:
 	2488. isoelectronic
 	2489. isolating
 	2490. isolating transformer
+
 	2491. isolation diode
 	2492. isolator
 	2493. isotropic
@@ -3059,6 +3256,7 @@ tags:
 	2498. j
 	2499. J-K
 	2500. jack plug and socket
+
 	2501. jamming
 	2502. Jansky noise
 	2503. JEDEC
@@ -3069,6 +3267,7 @@ tags:
 	2508. Johnson noise
 	2509. Joint Electronic Device Engineering Council
 	2510. Josephson effect
+
 	2511. Josephson memory
 	2512. joule(symbol: J)
 	2513. Joule effect
@@ -3079,6 +3278,7 @@ tags:
 	2518. junction
 	2519. junction field-effect transistor
 	2520. K-map
+
 	2521. k-space
 	2522. Ka band
 	2523. Kaiser window
@@ -3089,6 +3289,7 @@ tags:
 	2528. Kelvin-Varley slide
 	2529. Kelvin balance
 	2530. Kelvin contacts
+
 	2531. Kelvin double bridge
 	2532. Kelvin effect
 	2533. Kennelly-Heaviside layer
@@ -3099,6 +3300,7 @@ tags:
 	2538. 4K HD
 	2539. kilo-
 	2540. kilobit
+
 	2541. kilobyte
 	2542. kilogram(symbol: kg)
 	2543. kilowatt-hour(symbol: kWh)
@@ -3109,6 +3311,7 @@ tags:
 	2548. Ku band
 	2549. L-C network
 	2550. L-section
+
 	2551. label
 	2552. labyrinth loudspeaker
 	2553. ladder network
@@ -3119,6 +3322,7 @@ tags:
 	2558. lagging load
 	2559. Lagrange's equation
 	2560. laminated core
+
 	2561. lamination
 	2562. LAN
 	2563. language
@@ -3129,6 +3333,7 @@ tags:
 	2568. large signal current gain
 	2569. laryngophone
 	2570. laser
+
 	2571. laser diode
 	2572. laser printer
 	2573. laser range finding
@@ -3139,6 +3344,7 @@ tags:
 	2578. latency
 	2579. lattice
 	2580. lattice constant
+
 	2581. lattice filter
 	2582. lattice network
 	2583. Lauritzen's electroscope
@@ -3149,6 +3355,7 @@ tags:
 	2588. LCD
 	2589. LCOS
 	2590. LDM
+
 	2591. lead-in
 	2592. lead1
 	2593. lead2(symbol: Pb)
@@ -3159,6 +3366,7 @@ tags:
 	2598. leading load
 	2599. leadless chip carrier
 	2600. leakage
+
 	2601. leakage current
 	2602. leakage flux
 	2603. leakage reactance
@@ -3169,6 +3377,7 @@ tags:
 	2608. LED lighting
 	2609. Leduc effect
 	2610. LEED
+
 	2611. left-hand rule
 	2612. Lenz's law
 	2613. LEOS
@@ -3179,6 +3388,7 @@ tags:
 	2618. LF
 	2619. LFO
 	2620. lidar
+
 	2621. life test
 	2622. lifetime
 	2623. lift-off
@@ -3189,6 +3399,7 @@ tags:
 	2628. light pen
 	2629. limb
 	2630. limited space-charge accumulation mode
+
 	2631. limited stability
 	2632. [[limiter]]
 	2633. limiting amplifier
@@ -3199,6 +3410,7 @@ tags:
 	2638. linear
 	2639. linear-beam microwave tube
 	2640. linear accelerator
+
 	2641. linear amplifier
 	2642. linear array antenna
 	2643. linear block codes
@@ -3209,6 +3421,7 @@ tags:
 	2648. linearization
 	2649. linearly graded junction
 	2650. linearly polarized wave
+
 	2651. linear motor
 	2652. linear network
 	2653. linear phase response
@@ -3219,6 +3432,7 @@ tags:
 	2658. linear timebase oscillator
 	2659. linear transducer
 	2660. line communication
+
 	2661. line impedance stabilization network
 	2662. line of flux
 	2663. line of force
@@ -3229,6 +3443,7 @@ tags:
 	2668. link budget analysis
 	2669. lip microphone
 	2670. liquid-crystal display
+
 	2671. liquid-encapsulated Czochralski
 	2672. liquid-phase epitaxy
 	2673. liquid crystal
@@ -3239,6 +3454,7 @@ tags:
 	2678. lithium-ion battery
 	2679. lithography
 	2680. little endian
+
 	2681. Litzendraht wire
 	2682. live
 	2683. LMDS
@@ -3249,6 +3465,7 @@ tags:
 	2688. load circuit
 	2689. load coil
 	2690. load curve
+
 	2691. load factor
 	2692. load impedance
 	2693. loading
@@ -3259,6 +3476,7 @@ tags:
 	2698. load regulator
 	2699. load transfer switch
 	2700. lobe
+
 	2701. lobe switching
 	2702. local area network
 	2703. local exchange
@@ -3269,6 +3487,7 @@ tags:
 	2708. locator beacon
 	2709. lock-in detector
 	2710. locking
+
 	2711. locking-in
 	2712. locking-on
 	2713. locking relay
@@ -3279,6 +3498,7 @@ tags:
 	2718. logarithmic plot
 	2719. logarithmic potentiometer
 	2720. logarithmic resistor
+
 	2721. logical address
 	2722. logical one
 	2723. logical operations
@@ -3289,6 +3509,7 @@ tags:
 	2728. logic gate
 	2729. logic symbol
 	2730. long-line effect
+
 	2731. long-persistence screen
 	2732. long-tailed pair
 	2733. long-term evolution
@@ -3299,6 +3520,7 @@ tags:
 	2738. loop direction finding
 	2739. loop error
 	2740. loop gain
+
 	2741. loop signals
 	2742. loose coupling
 	2743. loosely coupled multiprocessor
@@ -3309,6 +3531,7 @@ tags:
 	2748. lossless compression
 	2749. lossless line
 	2750. lossy
+
 	2751. lossy compression
 	2752. lossy line
 	2753. loudness
@@ -3319,6 +3542,7 @@ tags:
 	2758. low-level modulation
 	2759. low-level programming language
 	2760. low-loss line
+
 	2761. low-pass filter
 	2762. low-velocity scanning
 	2763. low earth orbit satellite
@@ -3329,6 +3553,7 @@ tags:
 	2768. LPC
 	2769. LPCVD
 	2770. LPI
+
 	2771. LPPF
 	2772. LSA mode
 	2773. LSB
@@ -3339,6 +3564,7 @@ tags:
 	2778. luminescence
 	2779. lumped element
 	2780. lumped parameter
+
 	2781. M-ary FSK
 	2782. M-ary PSK
 	2783. M-type microwave tube
@@ -3349,6 +3575,7 @@ tags:
 	2788. magnesium(symbol: Mg)
 	2789. magnet
 	2790. magnetic-armature loudspeaker
+
 	2791. magnetically shielded room
 	2792. magnetic balance
 	2793. magnetic bias
@@ -3359,6 +3586,7 @@ tags:
 	2798. magnetic controller
 	2799. magnetic core
 	2800. magnetic damping
+
 	2801. magnetic deflection
 	2802. magnetic dipole moment
 	2803. magnetic disk
@@ -3369,6 +3597,7 @@ tags:
 	2808. magnetic focusing
 	2809. magnetic head
 	2810. magnetic hysteresis
+
 	2811. magnetic induction
 	2812. magnetic intensity
 	2813. magnetic leakage
@@ -3379,6 +3608,7 @@ tags:
 	2818. magnetic modulation
 	2819. magnetic moment
 	2820. magnetic monopole
+
 	2821. magnetic pole
 	2822. magnetic potential
 	2823. magnetic recording
@@ -3389,6 +3619,7 @@ tags:
 	2828. magnetic screening
 	2829. magnetic shunt
 	2830. magnetic storage
+
 	2831. magnetic stripe card
 	2832. magnetic susceptibility
 	2833. magnetic tape
@@ -3399,6 +3630,7 @@ tags:
 	2838. magnetization curve
 	2839. magnetize
 	2840. magnetizing force
+
 	2841. magneto
 	2842. magneto-optical effect
 	2843. magnetoencephalography
@@ -3409,6 +3641,7 @@ tags:
 	2848. magnetostriction
 	2849. magnetron
 	2850. magnetron effect
+
 	2851. magnitude response
 	2852. MagRAM
 	2853. main lobe
@@ -3419,6 +3652,7 @@ tags:
 	2858. major lobe
 	2859. make
 	2860. make-after-break
+
 	2861. make-and-break
 	2862. make-before-break
 	2863. MAN
@@ -3429,6 +3663,7 @@ tags:
 	2868. MAR
 	2869. Marconi antenna
 	2870. marginal stability
+
 	2871. mark
 	2872. mark-space ratio
 	2873. maser
@@ -3439,6 +3674,7 @@ tags:
 	2878. master
 	2879. master frequency meter
 	2880. master oscillator
+
 	2881. master trigger
 	2882. matched termination
 	2883. matched waveguide
@@ -3449,6 +3685,7 @@ tags:
 	2888. maximally flat
 	2889. maximum likelihood sequence estimation
 	2890. maximum power theorem
+
 	2891. maxterm
 	2892. maxwell(symbol: Mx)
 	2893. Maxwell's equations
@@ -3459,6 +3696,7 @@ tags:
 	2898. MCPC
 	2899. Mealy circuit
 	2900. mean
+
 	2901. mean current density
 	2902. mean life
 	2903. mean opinion score
@@ -3469,6 +3707,7 @@ tags:
 	2908. median
 	2909. median filter
 	2910. medium-scale integration
+
 	2911. medium frequency
 	2912. medium wave
 	2913. MEG
@@ -3479,6 +3718,7 @@ tags:
 	2918. megaphone
 	2919. Megger
 	2920. Meissner effects
+
 	2921. mekometer
 	2922. mel
 	2923. mel frequency cepstral coefficients
@@ -3489,6 +3729,7 @@ tags:
 	2928. memory buffer register
 	2929. memory capacity
 	2930. memory card
+
 	2931. memory stick
 	2932. memory wear
 	2933. MEMS
@@ -3499,6 +3740,7 @@ tags:
 	2938. mesa transistor
 	2939. MESFET
 	2940. mesh
+
 	2941. mesh analysis
 	2942. mesh contour
 	2943. mesh current
@@ -3509,6 +3751,7 @@ tags:
 	2948. metal-oxide-semiconductor
 	2949. metal-semiconductor contact
 	2950. metal-semiconductor diode
+
 	2951. metal film resistor
 	2952. metallization
 	2953. metallized film capacitors
@@ -3519,6 +3762,7 @@ tags:
 	2958. meter
 	2959. meter resistance
 	2960. method of images
+
 	2961. method of moments
 	2962. metre(symbol: m)
 	2963. metre bridge
@@ -3529,6 +3773,7 @@ tags:
 	2968. mho(symbol: Ω-1)
 	2969. mica
 	2970. mica capacitor
+
 	2971. micro-(symbol: μ)
 	2972. microcell
 	2973. microcircuit
@@ -3539,6 +3784,7 @@ tags:
 	2978. micromanipulator probe
 	2979. micron(symbol: μ)
 	2980. microphone
+
 	2981. microphony
 	2982. microprocessor
 	2983. microprogram
@@ -3549,6 +3795,7 @@ tags:
 	2988. microwave landing system
 	2989. microwave tube
 	2990. MIDI
+
 	2991. Miller effect
 	2992. Miller indices
 	2993. Miller integrator
@@ -3559,6 +3806,7 @@ tags:
 	2998. MIM capacitor
 	2999. MIMO
 	3000. minimum discernible signal
+
 	3001. minimum mean square error
 	3002. minimum phase
 	3003. minimum sampling frequency
@@ -3569,6 +3817,7 @@ tags:
 	3008. mismatch
 	3009. misuse failure
 	3010. mixed coupling
+
 	3011. mixer
 	3012. mixer noise balance
 	3013. MKS system
@@ -3579,6 +3828,7 @@ tags:
 	3018. Mobile IP
 	3019. mobile multimedia system
 	3020. mobile network
+
 	3021. mobile phone
 	3022. mobility
 	3023. mode
@@ -3589,6 +3839,7 @@ tags:
 	3028. modern control
 	3029. MODFET
 	3030. modulation
+
 	3031. modulation index
 	3032. modulation wheel
 	3033. modulator
@@ -3599,6 +3850,7 @@ tags:
 	3038. moment method
 	3039. momentum space
 	3040. monitor
+
 	3041. monochromatic radiation
 	3042. monochrome
 	3043. monocrystalline silicon
@@ -3609,6 +3861,7 @@ tags:
 	3048. monopole antenna
 	3049. monoscope
 	3050. monostable
+
 	3051. Moog synthesizer
 	3052. Moore's law
 	3053. Moore circuit
@@ -3619,6 +3872,7 @@ tags:
 	3058. MOS capacitor
 	3059. MOSFET
 	3060. MOS integrated circuit
+
 	3061. MOS logic circuit
 	3062. MOSRAM
 	3063. MOST
@@ -3629,6 +3883,7 @@ tags:
 	3068. motion capture
 	3069. motion detector
 	3070. motor
+
 	3071. motorboating
 	3072. mount
 	3073. mountain effect
@@ -3639,6 +3894,7 @@ tags:
 	3078. moving-iron microphone
 	3079. moving-magnet instrument
 	3080. moving magnetic surface memory
+
 	3081. Moving Picture Experts Group
 	3082. MP3
 	3083. MPEG
@@ -3649,6 +3905,7 @@ tags:
 	3088. MSB
 	3089. MSK
 	3090. MSR
+
 	3091. MTBF
 	3092. MTTF
 	3093. mu circuit
@@ -3659,6 +3916,7 @@ tags:
 	3098. multielectrode valve
 	3099. multilayer PCB
 	3100. multilevel metallization
+
 	3101. multilevel resist
 	3102. multilevel signalling
 	3103. multimedia
@@ -3669,6 +3927,7 @@ tags:
 	3108. multiple access
 	3109. multiple folded dipole
 	3110. multiple in, multiple out
+
 	3111. multiple modulation
 	3112. multiplexer
 	3113. multiplex operation
@@ -3679,6 +3938,7 @@ tags:
 	3118. multistable
 	3119. multistage amplifier
 	3120. multistage feedback
+
 	3121. multitasking
 	3122. multivariable function
 	3123. multivibrator
@@ -3689,6 +3949,7 @@ tags:
 	3128. muting
 	3129. muting switch
 	3130. mutual-inductance coupling
+
 	3131. mutual branch
 	3132. mutual capacitance
 	3133. mutual inductance
@@ -3699,6 +3960,7 @@ tags:
 	3138. n-type conductivity
 	3139. n-type semiconductor
 	3140. NAK signal
+
 	3141. NAND circuit
 	3142. NAND flash device
 	3143. nano-(symbol: n)
@@ -3709,6 +3971,7 @@ tags:
 	3148. nanoelectronics
 	3149. nanofabrication
 	3150. nanoimprint lithography
+
 	3151. nanomagnetism
 	3152. nanorod
 	3153. nanostructure
@@ -3719,6 +3982,7 @@ tags:
 	3158. narrowband FSK
 	3159. National Institute of Standards and Technology
 	3160. natural frequency
+
 	3161. NDR
 	3162. NDR effect
 	3163. NDT
@@ -3729,6 +3993,7 @@ tags:
 	3168. negative-resistance oscillator
 	3169. negative bias
 	3170. negative booster
+
 	3171. negative charge
 	3172. negative feedback
 	3173. negative ion
@@ -3739,6 +4004,7 @@ tags:
 	3178. negative sequence
 	3179. negative transmission
 	3180. NEMS
+
 	3181. neon(symbol: Ne)
 	3182. neon lamp
 	3183. neper(symbol: Np)
@@ -3749,6 +4015,7 @@ tags:
 	3188. network
 	3189. network access
 	3190. network analyser
+
 	3191. network analysis
 	3192. network constants
 	3193. network synthesis
@@ -3759,6 +4026,7 @@ tags:
 	3198. neuroimaging
 	3199. neutral
 	3200. neutralization
+
 	3201. neutral temperature
 	3202. newton(symbol: N)
 	3203. NFC
@@ -3769,6 +4037,7 @@ tags:
 	3208. nickel-cadmium cell
 	3209. nickel-iron cell
 	3210. night vision system
+
 	3211. NIL
 	3212. NIST
 	3213. NMOS
@@ -3779,6 +4048,7 @@ tags:
 	3218. node voltage
 	3219. noise
 	3220. noise factor(symbol: F)
+
 	3221. noise figure(symbol: FdB)
 	3222. noise margin
 	3223. noise temperature
@@ -3789,6 +4059,7 @@ tags:
 	3228. noninverting amplifier
 	3229. nonlinear amplifier
 	3230. nonlinear circuit
+
 	3231. nonlinear component
 	3232. nonlinear distortion
 	3233. nonlinear network
@@ -3799,6 +4070,7 @@ tags:
 	3238. nonrecursive filters
 	3239. nonresonant line
 	3240. nonreturn to zero
+
 	3241. nonsaturated mode
 	3242. nonthreshold logic
 	3243. nonvolatile memory
@@ -3809,6 +4081,7 @@ tags:
 	3248. normal vector
 	3249. Norton's theorem
 	3250. notch filter
+
 	3251. NOT circuit
 	3252. note frequency
 	3253. NRZ
@@ -3819,6 +4092,7 @@ tags:
 	3258. nucleus
 	3259. null
 	3260. null-point detector
+
 	3261. null method
 	3262. number density
 	3263. number of poles
@@ -3829,6 +4103,7 @@ tags:
 	3268. Nyquist rate
 	3269. O-network
 	3270. O-type microwave tube
+
 	3271. object code
 	3272. object recognition
 	3273. observed failure rate
@@ -3839,6 +4114,7 @@ tags:
 	3278. oersted(symbol: Oe)
 	3279. OFC
 	3280. OFDM
+
 	3281. offline
 	3282. offset QPSK
 	3283. ohm(symbol: Ω)
@@ -3849,6 +4125,7 @@ tags:
 	3288. ohmmeter
 	3289. ohm metre(symbol: Ω m)
 	3290. ohms per square
+
 	3291. OLED
 	3292. omnidirectional antenna
 	3293. omnidirectional microphone
@@ -3859,6 +4136,7 @@ tags:
 	3298. one-shot multivibrator
 	3299. one-sided abrupt junction
 	3300. online
+
 	3301. OOK
 	3302. op-amp
 	3303. op-code
@@ -3869,6 +4147,7 @@ tags:
 	3308. open-field test site
 	3309. open-loop gain
 	3310. open circuit
+
 	3311. open systems interconnection
 	3312. operand
 	3313. operating point
@@ -3879,6 +4158,7 @@ tags:
 	3318. operation code
 	3319. optical ammeter
 	3320. optical character reader
+
 	3321. optical disk
 	3322. optical electronics
 	3323. optical fibre
@@ -3889,6 +4169,7 @@ tags:
 	3328. OQPSK
 	3329. OR circuit
 	3330. order((of a filter))
+
 	3331. organic light-emitting diode
 	3332. orthogonal
 	3333. orthogonal codes
@@ -3899,6 +4180,7 @@ tags:
 	3338. oscillator
 	3339. oscillatory circuit
 	3340. oscilloscope
+
 	3341. OSI
 	3342. OTA
 	3343. OTDR
@@ -3909,6 +4191,7 @@ tags:
 	3348. output transformer
 	3349. overall efficiency
 	3350. overbunching
+
 	3351. overcoupling
 	3352. overcurrent release
 	3353. overdamping
@@ -3919,6 +4202,7 @@ tags:
 	3358. overload level
 	3359. overload management
 	3360. overload release
+
 	3361. overmodulation
 	3362. overscanning
 	3363. overshoot
@@ -3929,6 +4213,7 @@ tags:
 	3368. oxidation
 	3369. oxide
 	3370. oxide masking
+
 	3371. oxygen-free copper
 	3372. p-channel
 	3373. p-n-p transistor
@@ -3939,6 +4224,7 @@ tags:
 	3378. P/E cycle
 	3379. PABX
 	3380. package
+
 	3381. packet
 	3382. packet switching
 	3383. packing density
@@ -3949,6 +4235,7 @@ tags:
 	3388. pairing
 	3389. PAL
 	3390. PAM
+
 	3391. panoramic display
 	3392. panoramic radar indicator
 	3393. Panoramic receiver
@@ -3959,6 +4246,7 @@ tags:
 	3398. parallel-plate capacitor
 	3399. parallel-T network
 	3400. parallel circuit
+
 	3401. parallel network
 	3402. parallel processing
 	3403. parallel resistance
@@ -3969,6 +4257,7 @@ tags:
 	3408. paramagnetism
 	3409. parameter
 	3410. parametric amplifier
+
 	3411. parametric model
 	3412. paraphase amplifier
 	3413. parasitic antenna
@@ -3979,6 +4268,7 @@ tags:
 	3418. parity
 	3419. parity check
 	3420. Parseval's theorem
+
 	3421. partial fractions expansion
 	3422. partial node
 	3423. particular integral
@@ -3989,6 +4279,7 @@ tags:
 	3428. pass band
 	3429. passivation
 	3430. passive
+
 	3431. passive antenna
 	3432. passive filter
 	3433. passive network
@@ -3999,6 +4290,7 @@ tags:
 	3438. patchbay
 	3439. path loss
 	3440. patterned media recording
+
 	3441. Pauli exclusion principle
 	3442. Pauli paramagnetism
 	3443. PBT
@@ -4009,6 +4301,7 @@ tags:
 	3448. PCM
 	3449. PCMCIA
 	3450. PDA
+
 	3451. PDM
 	3452. peak-riding clipper
 	3453. peak-to-peak amplitude
@@ -4019,6 +4312,7 @@ tags:
 	3458. peak load
 	3459. peak picker
 	3460. peak point
+
 	3461. peak pulse amplitude
 	3462. peak value
 	3463. PECVD
@@ -4029,6 +4323,7 @@ tags:
 	3468. percentage error
 	3469. percentage modulation
 	3470. percentile life
+
 	3471. perfect dielectric
 	3472. perfect transformer
 	3473. period(symbol: T)
@@ -4039,6 +4334,7 @@ tags:
 	3478. periodic table
 	3479. periodic waveform
 	3480. peripheral devices
+
 	3481. periphonic surround sound
 	3482. permanent magnet
 	3483. permeability(symbol: μ; unit: henry per metre)
@@ -4049,6 +4345,7 @@ tags:
 	3488. permittivity(symbol: ε; unit: farad per metre)
 	3489. persistence
 	3490. persistor
+
 	3491. personal area network
 	3492. personal communications device
 	3493. personal computer
@@ -4059,6 +4356,7 @@ tags:
 	3498. PFM
 	3499. PGA
 	3500. phase
+
 	3501. phase-change coefficient
 	3502. phase-detect autofocus system
 	3503. phase-lock loop
@@ -4069,6 +4367,7 @@ tags:
 	3508. phase corrector
 	3509. phase delay
 	3510. phase detector
+
 	3511. phase deviation
 	3512. phase difference
 	3513. phase discriminator
@@ -4079,6 +4378,7 @@ tags:
 	3518. phase modulation
 	3519. phase of a complex number
 	3520. phase response
+
 	3521. phase sequence
 	3522. phase shift
 	3523. phase shift keying
@@ -4089,6 +4389,7 @@ tags:
 	3528. phasor
 	3529. phonon
 	3530. phosphor
+
 	3531. phosphor-bronze
 	3532. phosphorescence
 	3533. photocathode
@@ -4099,6 +4400,7 @@ tags:
 	3538. photodetachment
 	3539. photodetector
 	3540. photodiode
+
 	3541. photoelectric cell
 	3542. photoelectric constant
 	3543. photoelectric effect
@@ -4109,6 +4411,7 @@ tags:
 	3548. photogeneration
 	3549. photoglow tube
 	3550. photoionization
+
 	3551. photolithography
 	3552. photometer
 	3553. photomultiplier
@@ -4119,6 +4422,7 @@ tags:
 	3558. phototransistor
 	3559. phototube
 	3560. photovoltaic cell
+
 	3561. photovoltaic effect
 	3562. photovoltaic system
 	3563. pi circuit
@@ -4129,6 +4433,7 @@ tags:
 	3568. picocell
 	3569. picture carrier
 	3570. picture element
+
 	3571. PID control
 	3572. piece-wise linear function
 	3573. Pierce crystal oscillator
@@ -4139,6 +4444,7 @@ tags:
 	3578. piezoelectric oscillator
 	3579. piezoelectric sensor
 	3580. piezoelectric strain constant
+
 	3581. piezoelectric strain gauge
 	3582. pigtails
 	3583. pincushion distortion
@@ -4149,6 +4455,7 @@ tags:
 	3588. PIN photodiode
 	3589. Pirani gauge
 	3590. pitch
+
 	3591. pitch bend
 	3592. pitch determination algorithm
 	3593. pitch estimation
@@ -4159,6 +4466,7 @@ tags:
 	3598. planar process
 	3599. Planck constant(symbol: h)
 	3600. plane-polarized wave
+
 	3601. plan position indicator
 	3602. plant
 	3603. plant load factor
@@ -4169,6 +4477,7 @@ tags:
 	3608. plastic-film capacitor
 	3609. plastic leaded chip carrier
 	3610. plate
+
 	3611. plateau
 	3612. plated-through-hole
 	3613. plated heat sink
@@ -4179,6 +4488,7 @@ tags:
 	3618. platter
 	3619. PLB
 	3620. PLC
+
 	3621. PLCC
 	3622. PLD
 	3623. PLL
@@ -4189,6 +4499,7 @@ tags:
 	3628. PMMA
 	3629. PMOS
 	3630. pnpn device
+
 	3631. PN sequence
 	3632. Pockel's effect
 	3633. point-contact diode
@@ -4199,6 +4510,7 @@ tags:
 	3638. polar
 	3639. polar coordinates
 	3640. polar form of a complex number
+
 	3641. polarity
 	3642. polarization
 	3643. polarization diversity
@@ -4209,6 +4521,7 @@ tags:
 	3648. polar plot
 	3649. pole
 	3650. pole-zero plot
+
 	3651. poles
 	3652. polling
 	3653. polychromatic radiation
@@ -4219,6 +4532,7 @@ tags:
 	3658. polyphase transformer
 	3659. polyphonic
 	3660. polysilicon
+
 	3661. polystyrene-film capacitor
 	3662. POP
 	3663. population inversion
@@ -4229,6 +4543,7 @@ tags:
 	3668. positive charge
 	3669. positive column
 	3670. positive feedback
+
 	3671. positive glow
 	3672. positive ion
 	3673. positive logic
@@ -4239,6 +4554,7 @@ tags:
 	3678. positron emission tomography
 	3679. pot
 	3680. potential
+
 	3681. potential barrier
 	3682. potential difference
 	3683. potential divider
@@ -4249,6 +4565,7 @@ tags:
 	3688. power amplifier
 	3689. power component
 	3690. power consumption
+
 	3691. power control
 	3692. power density(symbol: S)
 	3693. power efficiency
@@ -4259,6 +4576,7 @@ tags:
 	3698. power pack
 	3699. power saving
 	3700. power station
+
 	3701. power supply
 	3702. power supply rail
 	3703. power transformer
@@ -4269,6 +4587,7 @@ tags:
 	3708. PPI
 	3709. PPM
 	3710. pre-emphasis
+
 	3711. preamplifier
 	3712. precision approach radar
 	3713. precision rectifier
@@ -4279,6 +4598,7 @@ tags:
 	3718. primary cell
 	3719. primary electrons
 	3720. primary emission
+
 	3721. primary failure
 	3722. primary radiator
 	3723. primary standard
@@ -4289,6 +4609,7 @@ tags:
 	3728. printed circuit
 	3729. privacy
 	3730. private branch exchange
+
 	3731. private exchange
 	3732. probe
 	3733. process-control system
@@ -4299,6 +4620,7 @@ tags:
 	3738. programmable array logic
 	3739. programmable logic array
 	3740. programmable logic controller
+
 	3741. programmable logic device
 	3742. programmable matter
 	3743. programmable read-only memory
@@ -4309,6 +4631,7 @@ tags:
 	3748. propagation delay
 	3749. propagation loss
 	3750. proportional-integral-derivative control
+
 	3751. proportional control
 	3752. protective horn
 	3753. protocol
@@ -4319,6 +4642,7 @@ tags:
 	3758. proximity printing
 	3759. PSD
 	3760. PSK
+
 	3761. psophometer
 	3762. PSPICE
 	3763. PTFE
@@ -4329,6 +4653,7 @@ tags:
 	3768. pulse
 	3769. pulse-amplitude modulation
 	3770. pulse-duration modulation
+
 	3771. pulse-flatness deviation
 	3772. pulse-forming line
 	3773. pulse-frequency modulation
@@ -4339,6 +4664,7 @@ tags:
 	3778. pulse code modulation
 	3779. pulse coder
 	3780. pulse communications
+
 	3781. pulse detector
 	3782. pulse discriminator
 	3783. pulse duration
@@ -4349,6 +4675,7 @@ tags:
 	3788. pulse length
 	3789. pulse modulation
 	3790. pulse operation
+
 	3791. pulse oximeter
 	3792. pulser
 	3793. pulse radar
@@ -4359,6 +4686,7 @@ tags:
 	3798. pulse shaper
 	3799. pulse spacing
 	3800. pulse tilt
+
 	3801. pulse train
 	3802. pulse width
 	3803. pump
@@ -4369,6 +4697,7 @@ tags:
 	3808. push-pull operation
 	3809. PWM
 	3810. QAM
+
 	3811. Q channel
 	3812. Q factor(symbol: Q)
 	3813. QFN
@@ -4379,6 +4708,7 @@ tags:
 	3818. quadcopter
 	3819. quad high-definition
 	3820. quadrant electrometer
+
 	3821. quadraphony
 	3822. quadrature
 	3823. quadrature amplitude modulation
@@ -4389,6 +4719,7 @@ tags:
 	3828. quantization
 	3829. quantization noise
 	3830. quantizer
+
 	3831. quantum computer
 	3832. quantum dot
 	3833. quantum efficiency
@@ -4399,6 +4730,7 @@ tags:
 	3838. quantum wire
 	3839. quantum yield
 	3840. quarter-phase system
+
 	3841. quarter-wavelength line
 	3842. quartz
 	3843. quartz-crystal oscillator
@@ -4409,6 +4741,7 @@ tags:
 	3848. quefrency
 	3849. quench
 	3850. quench frequency
+
 	3851. quiescent-carrier telephony
 	3852. quiescent component
 	3853. quiescent current
@@ -4419,6 +4752,7 @@ tags:
 	3858. quieting sensitivity
 	3859. Quine-McCluskey
 	3860. R-C
+
 	3861. R-C network
 	3862. R-S flip-flop
 	3863. r.m.s.
@@ -4429,6 +4763,7 @@ tags:
 	3868. radar indicator
 	3869. radial-beam tube
 	3870. radian
+
 	3871. radiated emissions
 	3872. radiated interference
 	3873. radiated power
@@ -4439,6 +4774,7 @@ tags:
 	3878. radiation noise
 	3879. radiation pattern
 	3880. radiation potential
+
 	3881. radiation resistance
 	3882. radiative recombination
 	3883. radio
@@ -4449,6 +4785,7 @@ tags:
 	3888. radiofrequency
 	3889. radiofrequency choke
 	3890. radiofrequency heating
+
 	3891. radiofrequency identification
 	3892. radiofrequency interference
 	3893. radiography
@@ -4459,6 +4796,7 @@ tags:
 	3898. radio set
 	3899. radiosonde
 	3900. radio spectroscope
+
 	3901. radio telegraphy
 	3902. radio telemetry
 	3903. radio telephone
@@ -4469,6 +4807,7 @@ tags:
 	3908. radome
 	3909. rahmonic
 	3910. rail
+
 	3911. raised cosine window
 	3912. RAM
 	3913. RAM disk
@@ -4479,6 +4818,7 @@ tags:
 	3918. range tracking
 	3919. Raspberry Pi
 	3920. raster scanning
+
 	3921. rat-race
 	3922. rating
 	3923. ratio adjuster
@@ -4489,6 +4829,7 @@ tags:
 	3928. RBS
 	3929. RC circuit
 	3930. RCT
+
 	3931. reactance(symbol: X; unit: ohm)
 	3932. reactance chart
 	3933. reactance drop
@@ -4499,6 +4840,7 @@ tags:
 	3938. reactive factor
 	3939. reactive ion beam etching
 	3940. reactive ion etching
+
 	3941. reactive load
 	3942. reactive power
 	3943. reactive sputtering
@@ -4509,6 +4851,7 @@ tags:
 	3948. read-only memory
 	3949. read-out pulse
 	3950. read-write head
+
 	3951. read-write memory
 	3952. Read diode
 	3953. real-time operation
@@ -4519,6 +4862,7 @@ tags:
 	3958. receiving antenna
 	3959. recessed gate FET
 	3960. rechargeable battery
+
 	3961. reciprocity theorem
 	3962. recombination processes
 	3963. recombination rate
@@ -4529,6 +4873,7 @@ tags:
 	3968. rectangular window
 	3969. rectifier
 	3970. rectifier filter
+
 	3971. rectifier instrument
 	3972. rectifier voltmeter
 	3973. rectilinear scanner
@@ -4539,6 +4884,7 @@ tags:
 	3978. Reed-Solomon code
 	3979. reflected impedance
 	3980. reflected power
+
 	3981. reflected wave
 	3982. reflection coefficient
 	3983. reflection error
@@ -4549,6 +4895,7 @@ tags:
 	3988. reflex circuit
 	3989. reflex klystron
 	3990. refresh
+
 	3991. regeneration
 	3992. regenerative receiver
 	3993. region of convergence
@@ -4559,6 +4906,7 @@ tags:
 	3998. rejector
 	3999. relative error
 	4000. relative permeability
+
 	4001. relative permittivity
 	4002. relaxation oscillator
 	4003. relaxation time(symbol: τ)
@@ -4569,6 +4917,7 @@ tags:
 	4008. remanence
 	4009. remote control
 	4010. remotely operated vehicle
+
 	4011. remote sensing
 	4012. renewable energy system
 	4013. repeater
@@ -4579,6 +4928,7 @@ tags:
 	4018. reset
 	4019. residual charge
 	4020. residual current
+
 	4021. residual pulse linear predictive coding
 	4022. residual resistance
 	4023. resist
@@ -4589,6 +4939,7 @@ tags:
 	4028. resistance gauge
 	4029. resistance strain gauge
 	4030. resistance thermometer
+
 	4031. resistance wire
 	4032. resistive component
 	4033. resistive coupling
@@ -4599,6 +4950,7 @@ tags:
 	4038. resistor-transistor logic
 	4039. resolution
 	4040. resolving time
+
 	4041. resonance
 	4042. resonance bridge
 	4043. resonant cavity
@@ -4609,6 +4961,7 @@ tags:
 	4048. response time
 	4049. restore
 	4050. retentivity
+
 	4051. return-current coefficient
 	4052. return current
 	4053. return interval
@@ -4619,6 +4972,7 @@ tags:
 	4058. reverse active operation
 	4059. reverse conducting thyristor
 	4060. reverse direction
+
 	4061. reverse saturation current
 	4062. reversible transducer
 	4063. revolutions per minute
@@ -4629,6 +4983,7 @@ tags:
 	4068. RFID
 	4069. RHEED
 	4070. rhumbatron
+
 	4071. ribbon microphone
 	4072. Richardson-Dushman equation
 	4073. ridged waveguide
@@ -4639,6 +4994,7 @@ tags:
 	4078. ring junction
 	4079. ring modulator
 	4080. ring network
+
 	4081. ripple
 	4082. ripple filter
 	4083. RISC
@@ -4649,6 +5005,7 @@ tags:
 	4088. robustness
 	4089. ROC
 	4090. ROM
+
 	4091. root-mean-square
 	4092. rope
 	4093. rotational latency
@@ -4659,6 +5016,7 @@ tags:
 	4098. routing control plane
 	4099. ROV
 	4100. RPLPC
+
 	4101. rpm
 	4102. RS-232 interface
 	4103. RTL
@@ -4669,6 +5027,7 @@ tags:
 	4108. RZ
 	4109. RZ PCM
 	4110. s-domain circuit analysis
+
 	4111. s-parameters
 	4112. s-plane
 	4113. S-R flip-flop
@@ -4679,6 +5038,7 @@ tags:
 	4118. sampling period
 	4119. sampling synthesis
 	4120. sapphire
+
 	4121. SAR
 	4122. sat
 	4123. SATA
@@ -4689,6 +5049,7 @@ tags:
 	4128. saturation
 	4129. saturation current
 	4130. saturation resistance
+
 	4131. saturation signal
 	4132. saturation voltage
 	4133. SAW
@@ -4699,6 +5060,7 @@ tags:
 	4138. sawtooth waveform
 	4139. S band
 	4140. scaler
+
 	4141. scaling tube
 	4142. scanner
 	4143. scanning
@@ -4709,6 +5071,7 @@ tags:
 	4148. scanning electron microscope
 	4149. scanning laser
 	4150. scattering loss
+
 	4151. scattering parameters
 	4152. schematic
 	4153. Schering bridge
@@ -4719,6 +5082,7 @@ tags:
 	4158. Schottky clamp
 	4159. Schottky diode
 	4160. Schottky effect
+
 	4161. Schottky I2L
 	4162. Schottky noise
 	4163. Schottky photodiode
@@ -4729,6 +5093,7 @@ tags:
 	4168. SCR
 	4169. scrambling
 	4170. screen
+
 	4171. screened pair
 	4172. screen grid
 	4173. screening test
@@ -4739,6 +5104,7 @@ tags:
 	4178. SD
 	4179. SDTV
 	4180. search coil
+
 	4181. SECAM
 	4182. second(symbol: s)
 	4183. second-order circuit
@@ -4749,6 +5115,7 @@ tags:
 	4188. secondary failure
 	4189. secondary radiator
 	4190. secondary service area
+
 	4191. secondary standard
 	4192. secondary voltage
 	4193. secondary winding
@@ -4759,6 +5126,7 @@ tags:
 	4198. Seebeck effect
 	4199. seed crystal
 	4200. seek time
+
 	4201. segmentation
 	4202. selective fading
 	4203. selective interference
@@ -4769,6 +5137,7 @@ tags:
 	4208. self-aligned gate
 	4209. self-bias
 	4210. self-capacitance
+
 	4211. self-excited
 	4212. self-inductance
 	4213. self-quieting
@@ -4779,6 +5148,7 @@ tags:
 	4218. semiconductor device
 	4219. semiconductor diode
 	4220. semiconductor laser
+
 	4221. semiconductor memory
 	4222. sensing element
 	4223. sensitivity
@@ -4789,6 +5159,7 @@ tags:
 	4228. sequential circuit
 	4229. sequential control
 	4230. sequential scanning
+
 	4231. serial ATA
 	4232. serial port
 	4233. serial transfer
@@ -4799,6 +5170,7 @@ tags:
 	4238. series feedback
 	4239. series resonant circuit
 	4240. series stabilization
+
 	4241. series supply
 	4242. series system
 	4243. series transformer
@@ -4809,6 +5181,7 @@ tags:
 	4248. settling time
 	4249. shading
 	4250. shadow effect
+
 	4251. Shannon-Hartley theorem
 	4252. shaped-beam tube
 	4253. sheet resistance
@@ -4819,6 +5192,7 @@ tags:
 	4258. shielded room
 	4259. shielding effectiveness(of a barrier or enclosure)
 	4260. shift operator
+
 	4261. shift register
 	4262. Shockley emitter resistance
 	4263. Shockley equation
@@ -4829,6 +5203,7 @@ tags:
 	4268. short-wave converter
 	4269. short circuit
 	4270. shot noise
+
 	4271. shunt
 	4272. shunt feedback
 	4273. shunt network
@@ -4839,6 +5214,7 @@ tags:
 	4278. side frequency
 	4279. side lobe
 	4280. Siemen's electrodynamometer
+
 	4281. siemens(symbol: S)
 	4282. signal
 	4283. signal-to-noise ratio
@@ -4849,6 +5225,7 @@ tags:
 	4288. signal strength
 	4289. signal tester
 	4290. signal winding
+
 	4291. sign bit
 	4292. silent discharge
 	4293. silent zone
@@ -4859,6 +5236,7 @@ tags:
 	4298. silicon-on-insulator
 	4299. silicon compiler
 	4300. silver(symbol: Ag)
+
 	4301. silver mica capacitor
 	4302. simple magnet
 	4303. simplex operation
@@ -4869,6 +5247,7 @@ tags:
 	4308. sinc function
 	4309. sine potentiometer
 	4310. sine wave
+
 	4311. singing point
 	4312. single-current system
 	4313. single-electron device
@@ -4879,6 +5258,7 @@ tags:
 	4318. single-shot multivibrator
 	4319. single-shot trigger
 	4320. single-sideband transmission
+
 	4321. single-tuned circuit
 	4322. single crystal
 	4323. single drift device
@@ -4889,6 +5269,7 @@ tags:
 	4328. SISO
 	4329. SI units
 	4330. size effect
+
 	4331. size quantization
 	4332. skew
 	4333. skin effect
@@ -4899,6 +5280,7 @@ tags:
 	4338. slave circuit
 	4339. slew rate
 	4340. slice
+
 	4341. slicer
 	4342. slicing
 	4343. slide wire
@@ -4909,6 +5291,7 @@ tags:
 	4348. slot antenna
 	4349. slotted line
 	4350. slotted waveguide
+
 	4351. slow-break switch
 	4352. slow-wave structure
 	4353. slug tuning
@@ -4919,6 +5302,7 @@ tags:
 	4358. small computer system interface
 	4359. smart antenna
 	4360. smart appliance
+
 	4361. smart display
 	4362. smart glasses
 	4363. smart materials
@@ -4929,6 +5313,7 @@ tags:
 	4368. smearer
 	4369. S meter
 	4370. Smith chart
+
 	4371. smoothing choke
 	4372. smoothing circuit
 	4373. snapback diode
@@ -4939,6 +5324,7 @@ tags:
 	4378. software
 	4379. software-defined networking
 	4380. solar cell
+
 	4381. solar power
 	4382. solenoid
 	4383. solid-state camera
@@ -4949,6 +5335,7 @@ tags:
 	4388. solid-state physics
 	4389. solid conductor
 	4390. sonar
+
 	4391. sonde
 	4392. sonogram
 	4393. sonograph
@@ -4959,6 +5346,7 @@ tags:
 	4398. sound recording
 	4399. sound reproduction
 	4400. soundtrack
+
 	4401. sound wave
 	4402. source
 	4403. source code
@@ -4969,6 +5357,7 @@ tags:
 	4408. space-charge limited region
 	4409. space charge
 	4410. space diversity
+
 	4411. space wave
 	4412. spark
 	4413. spark interference
@@ -4979,6 +5368,7 @@ tags:
 	4418. specific resistance
 	4419. spectral analysis
 	4420. spectral characteristic
+
 	4421. spectral density
 	4422. spectral leakage
 	4423. spectral resolution
@@ -4989,6 +5379,7 @@ tags:
 	4428. speech coder
 	4429. speech recognition device
 	4430. speech synthesis
+
 	4431. speed camera
 	4432. speed of light(symbol: c)
 	4433. spherical polar coordinates
@@ -4999,6 +5390,7 @@ tags:
 	4438. spin field-effect transistor
 	4439. spintronics
 	4440. spiral inductor
+
 	4441. spiral scanning
 	4442. SPL
 	4443. SPM
@@ -5009,6 +5401,7 @@ tags:
 	4448. spreading resistance
 	4449. spread spectrum
 	4450. spurious rejection
+
 	4451. sputtering
 	4452. square-law detector
 	4453. square-wave response
@@ -5019,6 +5412,7 @@ tags:
 	4458. SS/TDMA
 	4459. SSB
 	4460. SSD
+
 	4461. SSHD
 	4462. SSI
 	4463. stability
@@ -5029,6 +5423,7 @@ tags:
 	4468. stage
 	4469. staggered antenna
 	4470. stagger tuned amplifier
+
 	4471. standard-definition
 	4472. standard cell
 	4473. standard deviation
@@ -5039,6 +5434,7 @@ tags:
 	4478. star circuit
 	4479. star network
 	4480. start-oscillation current
+
 	4481. start-stop apparatus
 	4482. starter electrode
 	4483. starting current
@@ -5049,6 +5445,7 @@ tags:
 	4488. state transition matrix
 	4489. state variable
 	4490. state variable filter
+
 	4491. static
 	4492. static characteristic
 	4493. static memory
@@ -5059,6 +5456,7 @@ tags:
 	4498. stator
 	4499. status register
 	4500. STD
+
 	4501. steady state
 	4502. stealth technology
 	4503. steepness factor
@@ -5069,6 +5467,7 @@ tags:
 	4508. step-up transformer
 	4509. step function
 	4510. step response
+
 	4511. stereophonic
 	4512. stimulated emission
 	4513. stochastic process
@@ -5079,6 +5478,7 @@ tags:
 	4518. storage battery
 	4519. storage capacity
 	4520. storage cell
+
 	4521. storage device
 	4522. storage time
 	4523. storage tube
@@ -5089,6 +5489,7 @@ tags:
 	4528. stray capacitance
 	4529. streaming media
 	4530. string electrometer
+
 	4531. string galvanometer
 	4532. stripline
 	4533. strong electrolyte
@@ -5099,6 +5500,7 @@ tags:
 	4538. subharmonic
 	4539. subroutine
 	4540. subsonic frequency
+
 	4541. substation
 	4542. substrate
 	4543. subsystem
@@ -5109,6 +5511,7 @@ tags:
 	4548. super-regenerative reception
 	4549. superconductivity
 	4550. superconductor
+
 	4551. superheterodyne reception
 	4552. superhigh frequency
 	4553. Supermalloy
@@ -5119,6 +5522,7 @@ tags:
 	4558. supersensitive relay
 	4559. suppressed-carrier modulation
 	4560. suppressed-zero instrument
+
 	4561. suppressor
 	4562. suppressor grid
 	4563. surface-channel FET
@@ -5129,6 +5533,7 @@ tags:
 	4568. surface leakage
 	4569. surface mount technology
 	4570. surface resistance
+
 	4571. surface resistivity
 	4572. surface wave
 	4573. surge
@@ -5139,6 +5544,7 @@ tags:
 	4578. sweep generator
 	4579. sweep voltage
 	4580. swell pedal
+
 	4581. swinging choke
 	4582. switch
 	4583. switched-mode power supply
@@ -5149,6 +5555,7 @@ tags:
 	4588. symbols
 	4589. symmetric mode
 	4590. symmetric transducer
+
 	4591. symmetric two-port network
 	4592. synchronism
 	4593. synchronizing pulses
@@ -5159,6 +5566,7 @@ tags:
 	4598. synchronous communications satellite
 	4599. synchronous computer
 	4600. synchronous detection
+
 	4601. synchronous gate
 	4602. synchronous generator
 	4603. synchronous logic
@@ -5169,6 +5577,7 @@ tags:
 	4608. sync separator
 	4609. Synopsys
 	4610. syntax
+
 	4611. synthesis
 	4612. synthesizer
 	4613. synthetic aperture radar
@@ -5179,6 +5588,7 @@ tags:
 	4618. T-gate
 	4619. T-junction
 	4620. T-section
+
 	4621. tablet computer
 	4622. tandem
 	4623. tandem exchange
@@ -5189,6 +5599,7 @@ tags:
 	4628. tape automated bonding
 	4629. tape recording
 	4630. tapered window
+
 	4631. tape unit
 	4632. tapping
 	4633. tap weight
@@ -5199,6 +5610,7 @@ tags:
 	4638. TCP
 	4639. TCP/IP
 	4640. TCS
+
 	4641. TDM
 	4642. TDMA
 	4643. TDR
@@ -5209,6 +5621,7 @@ tags:
 	4648. telecommunications
 	4649. telecommunication system
 	4650. teleconference
+
 	4651. telegraphy
 	4652. telemetry
 	4653. telephony
@@ -5219,6 +5632,7 @@ tags:
 	4658. television
 	4659. television camera
 	4660. television receiver
+
 	4661. telex
 	4662. temperature coefficient of resistance
 	4663. temperature saturation
@@ -5229,6 +5643,7 @@ tags:
 	4668. terminal impedance
 	4669. terminal repeater
 	4670. termination
+
 	4671. tertiary winding
 	4672. tesla(symbol: T)
 	4673. test pattern
@@ -5239,6 +5654,7 @@ tags:
 	4678. THD
 	4679. thermal battery
 	4680. thermal breakdown
+
 	4681. thermal imaging
 	4682. thermal instrument
 	4683. thermal noise
@@ -5249,6 +5665,7 @@ tags:
 	4688. thermionic cathode
 	4689. thermionic emission
 	4690. thermionic valve
+
 	4691. thermistor
 	4692. thermocouple
 	4693. thermodynamic temperature(symbol: T)
@@ -5259,6 +5676,7 @@ tags:
 	4698. thermojunction
 	4699. thermoluminescence
 	4700. thermopile
+
 	4701. thermostat
 	4702. Thévenin's theorem
 	4703. thick-film circuit
@@ -5269,6 +5687,7 @@ tags:
 	4708. Thomson effect
 	4709. thrashing
 	4710. three-phase system
+
 	4711. three-phase transformer
 	4712. threshold
 	4713. threshold frequency
@@ -5279,6 +5698,7 @@ tags:
 	4718. throughput
 	4719. thyratron
 	4720. thyristor
+
 	4721. tie line
 	4722. tightly coupled multiprocessor
 	4723. timbre
@@ -5289,6 +5709,7 @@ tags:
 	4728. timebase
 	4729. timebase generator
 	4730. time constant
+
 	4731. time delay
 	4732. time discriminator
 	4733. time diversity
@@ -5299,6 +5720,7 @@ tags:
 	4738. time sharing
 	4739. timestamp
 	4740. time to flashover
+
 	4741. time to puncture
 	4742. time to trip
 	4743. timing diagram
@@ -5309,6 +5731,7 @@ tags:
 	4748. token ring
 	4749. tolerance
 	4750. tone control
+
 	4751. tone jamming
 	4752. top-down hierarchical design
 	4753. top-down nanofabrication
@@ -5319,6 +5742,7 @@ tags:
 	4758. touch-sensitive keyboard
 	4759. touchscreen
 	4760. Townsend avalanche
+
 	4761. Townsend discharge
 	4762. TQFN
 	4763. trace
@@ -5329,6 +5753,7 @@ tags:
 	4768. traction control system
 	4769. traffic intensity
 	4770. trailing edge((of a pulse))
+
 	4771. training sequence
 	4772. transadmittance
 	4773. transadmittance amplifier
@@ -5339,6 +5764,7 @@ tags:
 	4778. transductor
 	4779. transfer characteristic
 	4780. transfer constant
+
 	4781. transfer current
 	4782. transfer function
 	4783. transfer layer
@@ -5349,6 +5775,7 @@ tags:
 	4788. transformer
 	4789. transformer ratio
 	4790. transient
+
 	4791. transient suppression
 	4792. transimpedance
 	4793. transimpedance amplifier
@@ -5359,6 +5786,7 @@ tags:
 	4798. transition band
 	4799. transition flux density
 	4800. transition table
+
 	4801. transition temperature
 	4802. transit time
 	4803. transit time mode
@@ -5369,6 +5797,7 @@ tags:
 	4808. transmission gain
 	4809. transmission level
 	4810. transmission line
+
 	4811. transmission line matrix
 	4812. transmission loss
 	4813. transmission mode
@@ -5379,6 +5808,7 @@ tags:
 	4818. transmitted-reference spread spectrum
 	4819. transmitter
 	4820. transmitting antenna
+
 	4821. transponder
 	4822. transport stream
 	4823. transposed transmission line
@@ -5389,6 +5819,7 @@ tags:
 	4828. trapping recombination
 	4829. travelling-wave amplifier
 	4830. travelling-wave tube
+
 	4831. travelling wave
 	4832. trellis code
 	4833. triac
@@ -5399,6 +5830,7 @@ tags:
 	4838. trigonometric functions
 	4839. trilevel resist
 	4840. trimmer
+
 	4841. triode
 	4842. triode-hexode
 	4843. triode region
@@ -5409,6 +5841,7 @@ tags:
 	4848. tropospheric ducting
 	4849. tropospheric scattering
 	4850. TR switch
+
 	4851. truncate
 	4852. truncated test
 	4853. trunk feeder
@@ -5419,6 +5852,7 @@ tags:
 	4858. tunable magnetron
 	4859. tuned amplifier
 	4860. tuned circuit
+
 	4861. tuner
 	4862. tungsten(symbol: W)
 	4863. tuning
@@ -5429,6 +5863,7 @@ tags:
 	4868. Turing machine
 	4869. turns ratio(symbol: n)
 	4870. turret tuner
+
 	4871. tweeter
 	4872. twin-T network
 	4873. twin cable
@@ -5439,6 +5874,7 @@ tags:
 	4878. two-port network
 	4879. two-port parameters
 	4880. two-tone modulation
+
 	4881. two-wire circuit
 	4882. TWT
 	4883. u-law
@@ -5449,6 +5885,7 @@ tags:
 	4888. UJT
 	4889. ultra-wide band transmission
 	4890. ultra extended graphics array
+
 	4891. ultra high-definition
 	4892. ultrahigh frequency
 	4893. ultrasonic communication
@@ -5459,6 +5896,7 @@ tags:
 	4898. ultraviolet photoelectron spectroscopy
 	4899. ultraviolet radiation
 	4900. unabsorbed field strength
+
 	4901. unbalanced two-port network
 	4902. unclocked flip-flop
 	4903. undercoupling
@@ -5469,6 +5907,7 @@ tags:
 	4908. unicast
 	4909. uniconductor waveguide
 	4910. unidirectional current
+
 	4911. unidirectional microphone
 	4912. unidirectional transducer
 	4913. uniform cable
@@ -5479,6 +5918,7 @@ tags:
 	4918. unilateral network
 	4919. unilateral transducer
 	4920. uninterrupted duty
+
 	4921. unipotential cathode
 	4922. unit
 	4923. unit-step function
@@ -5489,6 +5929,7 @@ tags:
 	4928. universal active filter
 	4929. universal asynchronous receiver/transmitter
 	4930. universal disk format
+
 	4931. universal motor
 	4932. universal serial bus
 	4933. universal shunt
@@ -5499,6 +5940,7 @@ tags:
 	4938. upper sideband
 	4939. UPS
 	4940. upsampling
+
 	4941. USB
 	4942. USB flash drive
 	4943. useful life
@@ -5509,6 +5951,7 @@ tags:
 	4948. V-
 	4949. V-beam radar
 	4950. V-groove technique
+
 	4951. vacancy
 	4952. vacuum evaporation
 	4953. vacuum microelectronics
@@ -5519,6 +5962,7 @@ tags:
 	4958. valency
 	4959. valley
 	4960. valley point
+
 	4961. valve
 	4962. valve diode
 	4963. valve voltmeter
@@ -5529,6 +5973,7 @@ tags:
 	4968. varactor
 	4969. varactor tuning
 	4970. variable capacitance gauge
+
 	4971. variable impedances
 	4972. variable inductance gauge
 	4973. variable resistance gauge
@@ -5539,6 +5984,7 @@ tags:
 	4978. VCA
 	4979. VCCS
 	4980. VCO
+
 	4981. VCR
 	4982. VCVS
 	4983. VCVS filter
@@ -5549,6 +5995,7 @@ tags:
 	4988. velocity
 	4989. velocity-modulated tube
 	4990. velocity-sensitive keyboard
+
 	4991. velocity microphone
 	4992. velocity modulation
 	4993. vertical blanking
@@ -5559,6 +6006,7 @@ tags:
 	4998. very low frequency
 	4999. very small aperture terminal
 	5000. vestigial-sideband transmission
+
 	5001. vestigial sideband
 	5002. VFET
 	5003. VHDL
@@ -5569,6 +6017,7 @@ tags:
 	5008. video card
 	5009. videoconference
 	5010. video IF system
+
 	5011. video on demand
 	5012. videotape
 	5013. video tracking
@@ -5579,6 +6028,7 @@ tags:
 	5018. virtual earth
 	5019. virtual memory
 	5020. virtual reality systems
+
 	5021. virtual surround sound
 	5022. virtual value
 	5023. virus
@@ -5589,6 +6039,7 @@ tags:
 	5028. VMOS
 	5029. vocoder
 	5030. voder
+
 	5031. voice-grade channel
 	5032. voice activity detection
 	5033. voiced
@@ -5599,6 +6050,7 @@ tags:
 	5038. volt-ampere(symbol: VA)
 	5039. voltage(symbol: V; unit: volt)
 	5040. voltage-controlled amplifier
+
 	5041. voltage-controlled current source
 	5042. voltage-controlled voltage source
 	5043. voltage-mode circuits
@@ -5609,6 +6061,7 @@ tags:
 	5048. voltage doubler
 	5049. voltage drop
 	5050. voltage feedback
+
 	5051. voltage gain
 	5052. voltage generator
 	5053. voltage jump
@@ -5619,6 +6072,7 @@ tags:
 	5058. voltage regulator
 	5059. voltage relay
 	5060. voltage selector
+
 	5061. voltage source
 	5062. voltage stabilizer
 	5063. voltage transformer
@@ -5629,6 +6083,7 @@ tags:
 	5068. volume charge density
 	5069. volume compressor
 	5070. volume control
+
 	5071. volume element
 	5072. volume integral
 	5073. volume lifetime
@@ -5639,6 +6094,7 @@ tags:
 	5078. von Neumann machine
 	5079. VPE
 	5080. VSAT
+
 	5081. VSWR
 	5082. wafer
 	5083. Wagner earth connection
@@ -5649,6 +6105,7 @@ tags:
 	5088. warm-up
 	5089. watt(symbol: W)
 	5090. watt-hour
+
 	5091. watt-hour meter
 	5092. wattmeter
 	5093. wave
@@ -5659,6 +6116,7 @@ tags:
 	5098. waveguide
 	5099. wave impedance
 	5100. wavelength
+
 	5101. wavelength constant
 	5102. wave mechanics
 	5103. wave surface
@@ -5669,6 +6127,7 @@ tags:
 	5108. WCDMA
 	5109. weak electrolyte
 	5110. wear-out failure
+
 	5111. wear-out failure period
 	5112. wearable technology
 	5113. wear levelling
@@ -5679,6 +6138,7 @@ tags:
 	5118. wet etching
 	5119. Wheatstone bridge
 	5120. white compression
+
 	5121. white noise
 	5122. white peak
 	5123. white recording
@@ -5689,6 +6149,7 @@ tags:
 	5128. wideband FSK
 	5129. widescreen television
 	5130. widescreen ultra extended graphics array
+
 	5131. Wiedemann effect
 	5132. Wien bridge
 	5133. Wiener-Hopf equation
@@ -5699,6 +6160,7 @@ tags:
 	5138. window
 	5139. windowing
 	5140. wire-wound resistor
+
 	5141. wire bonding
 	5142. wireless
 	5143. wireless personal area network
@@ -5709,6 +6171,7 @@ tags:
 	5148. woofer
 	5149. word
 	5150. word-addressable
+
 	5151. word line
 	5152. work function(symbol: Φ; unit: electronvolt)
 	5153. wound core
@@ -5719,6 +6182,7 @@ tags:
 	5158. WUXGA
 	5159. wye circuit
 	5160. X-axis
+
 	5161. X-guide
 	5162. X-ray crystallography
 	5163. X-ray fluorescence
@@ -5729,6 +6193,7 @@ tags:
 	5168. X-ray tube
 	5169. X-Y plotter
 	5170. X.21
+
 	5171. X.25
 	5172. X band
 	5173. XPS
@@ -5739,6 +6204,7 @@ tags:
 	5178. Y circuit
 	5179. YIG
 	5180. yoke
+
 	5181. y parameters
 	5182. z-modulation((of a cathode-ray tube))
 	5183. Zener breakdown
@@ -5749,6 +6215,7 @@ tags:
 	5188. zero IF
 	5189. zero level
 	5190. zero padding
+
 	5191. zero potential
 	5192. zeros(and poles)
 	5193. ZigBee

@@ -1,7 +1,9 @@
 ## Synthesis
 - 
 ## Source [^1]
-- 
+- Energy resulting from the acceleration of electric charge and the associated electric and magnetic fields. Transverse sinusoidal electric and magnetic fields are propagated at right angles to each other and to the direction of motion, the instantaneous values of the fields being related to the charge and current densities by Maxwell’s equations. These equations define the fields as electromagnetic waves propagated through free space at the speed of light (symbol $c$) which is a constant equal to$$2.997\ 924\ 58\times 10^{8}\ \text{metres per second}$$Just as moving charged particles have associated wavelike features (see DE BROGLIE WAVES) so electromagnetic radiation has a wave/particle duality: it may also be considered as a stream of particles (photons) that move at the speed of light, $c$, and have zero rest mass. Although wave motion is sufficient to explain the properties of reflection, refraction, and interference, quantum theory, which is concerned with the particulate nature of electromagnetic waves, must be used to explain phenomena, such as the photoelectric effect, that occur when radiation and matter interact.
+- The characteristics of the radiation depend on the frequency, $\nu$, of the waves. The frequency, wavelength $\lambda$, and speed $c$ are related by$$c = \nu \lambda$$The photons have energy $E$ related to the frequency $\nu$ by$$E = h\nu$$where $h$ is the Planck constant. Energy is exchanged between radiation and matter by absorption and emission in discrete amounts, termed quanta, the energy of each quantum being $h\nu$.
+- The total range of possible frequencies is defined as the electromagnetic spectrum (see Table 10, in the back matter). Radiowaves have the lowest frequencies; progressively higher frequencies are associated with infrared radiation, light, ultraviolet radiation, X-rays, through to gamma rays at the highest frequencies.
 ## References
 
-[^1]:
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

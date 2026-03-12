@@ -17,8 +17,11 @@
 	- The latest (10 Gigabit) Ethernet standard
 ## Source[^3]
 - A high-speed local area network system. When first introduced in the 1980s, Ethernet worked at a standard 10 million bits per second; Fast Ethernet and Gigabit Ethernet working at respectively 10 and 100 times this speed have since become available.
+## Source[^4]
+- A family of local area networks that enable multiple computers to access a single communications channel to communicate and share resources. Originally running at a data rate of 10 megabits per second and using Manchester coding (see DIGITAL CODES), it is now able to run with variants up to 100 gigabits per second over optical fibers. The Ethernet system was created jointly by Xerox, Digital Equipment Corporation, and Intel and was first standardized by the IEEE 802.3 committee.
 ## References
 
 [^1]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

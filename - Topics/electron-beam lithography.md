@@ -1,0 +1,9 @@
+## Synthesis
+- 
+## Source [^1]
+- (e-beam lithography) A method of lithography that uses energetic electrons instead of light to expose the resist. It is used to form patterns on photomasks for use in photolithography. It can also be used to form patterns directly on the semiconductor $\textendash$ direct writing. This latter application is often used to form small features on wafers since greater resolution is possible using an electron beam than with photolithography.
+- Special resists $\textendash$ e-beam resists $\textendash$ are used. These are not usually sensitive to ordinary light and can therefore be handled under normal lighting conditions. Both positive and negative resists are available. Unlike photolithography no mask is used in e-beam lithography. The electron beam is scanned across the slice under computer control in order to expose the resist in the desired pattern. Two main scanning methods are used: raster scanning, in which the beam is moved backwards and forwards across the slice in a rectangular pattern and the beam switched on and off as appropriate, and vector scanning, in which the beam is moved, under computer control, to trace out the pattern directly. The scanning method is chosen according to the resolution required and the type of pattern to be produced. Different machines are required for the two methods.
+- Because of the extremely high resolution required in direct writing only a very small portion of the wafer can be exposed at a time. After exposure of one field, another portion of the wafer must be moved into position. Final alignment within the field is performed by the use of alignment marks on the wafer which are scanned by the beam and monitored by a detector.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

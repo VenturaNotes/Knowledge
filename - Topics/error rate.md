@@ -10,6 +10,10 @@
 - A transient (or recoverable) [[write error]] occurs during writing and can be recovered by the error recovery procedure prescribed. It is desirable, though not easy, to distinguish two components of this error rate: errors attributable firstly to flaws in the media and secondly to failings of the device (one reason for the difficulty is that these tend to interact).
 - A permanent (or irrecoverable) write error cannot be recovered by the prescribed procedure. Again it is necessary to distinguish between media flaws and device errors: rather than give a figure for the latter it is usual to regard each occurrence as a fault to be accounted for in the failure rate of the device (see HARDWARE RELIABILITY).
 - An undetected error is an error that is not detected by the storage subsystem, presumably because of some inadequacy in the error check facilities defined by the format or in their implementation, or because of errors occurring outside the ambit of these facilities (see DATA INTEGRITY).
+## Source[^2]
+- (1) The number of bit errors occurring during digital communications in unit time. 
+- (2) The proportion of total bits transmitted along a digital channel that are incorrect.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
