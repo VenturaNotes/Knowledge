@@ -16,7 +16,35 @@
 		- final image
 - http://micro.magnet.fsu.edu/primer/java/electronmicroscopy/magnify1/index.html
 	- Tutorial featuring virtual scanning electron microscopy, created by the Optical Microscopy Division of the National High Magnetic Field Laboratory
+## Source[^3]
+- An instrument that uses a beam of electrons to investigate a sample in order to achieve a higher magnification and resolution than is possible with an optical microscope.
+- In the transmission electron microscope (TEM) the electron beam is focused by an electromagnetic lens or sometimes an electrostatic lens and has an energy of 50-100 kilovolts (Fig. a). A sharply focused image in one plane can only be obtained by using monoenergetic electrons. To avoid energy losses in the beam the sample must be extremely thin (<50 nanometers) so that the scattered electrons that form the image are not changed in energy, and the image therefore appears two-dimensional. A resolution of 0.2-0.5 nanometers is possible.
+- ![[Screenshot 2026-03-12 at 1.31.42 AM.png|300]]
+	- (a) Transmission electron microscope
+	- Parts
+		- Electron source
+		- Sample
+		- Magnetic lens
+		- APerture
+		- Fluorescent screen
+- The scanning electron microscope (SEM) has lower resolution and magnification but produces a seemingly three-dimensional image, with great depth of field, from a sample of any convenient size or thickness (Fig. b). The sample is scanned by the electron beam, the numbers of resulting secondary electrons being proportional to the geometry and other properties of the sample. These electrons are converted, by means of an electron detector, scintillator, and photomultiplier, into a highly amplified signal that is used for intensity modulation of the beam of the display cathode-ray tube. The resolution is about $10-20~\mathrm{nm}$.
+- ![[Screenshot 2026-03-12 at 1.32.27 AM.png|300]]
+	- (b) Scanning electron microscope
+	- Parts
+		- Electron source
+		- Magnetic lenses
+		- Aperture
+		- Secondary Electrons
+		- Sample
+		- Scanning coils
+		- Electron detector
+		- Video amplifier
+		- Cathode-ray tube
+		- Scan generator
+- Different forms of these two types have been developed. The scanning-transmission electron microscope (STEM) combines the high resolution of the transmission instrument with the perspective image of the scanning type. The scanning-tunnelling microscope (STM) and the atomic force microscope (AFM) have even higher resolution, producing computer-generated contour maps of the sample surface. See SCANNING PROBE MICROSCOPY.
+- Both the TEM and the STEM can be used to produce diffraction patterns from thin samples of crystalline material such as semiconductors, rather than the usual image. This can be used to analyze the crystal structure of such materials. See also DIFFRACTION.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

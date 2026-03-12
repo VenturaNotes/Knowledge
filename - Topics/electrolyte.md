@@ -8,9 +8,12 @@
 - $n$. A liquid or gel solution that contains free ions and can therefore conduct electricity, or a chemical compound such as an acid, base, or salt that releases free ions when it is dissolved. The main electrolytes required for human physiology are solutions of the salts of calcium for relaxation of skeletal muscles and contraction of cardiac muscle, potassium for contraction of skeletal muscles and relaxation of cardiac muscle, and sodium for maintaining fluid balance. electrolysis $n$. The process of passing an electrical current through an electrolyte. \[From Greek elektron amber (in which electricity was first observed) + lysis loosening]
 ## Source[^4]
 - A liquid that conducts electricity as a result of the presence of positive or negative ions. Electrolytes are molten ionic compounds or solutions containing ions, i.e. solutions of ionic salts or of compounds that ionize in solution. Liquid metals, in which the conduction is by free electrons, are not usually regarded as electrolytes. Solid conductors of ions, as in the sodium-sulphur cell, are also known as electrolytes.
+## Source[^5]
+- A substance that conducts electricity when in solution or when molten because of its dissociation into ions. Strong electrolytes are compounds, such as mineral acids, that are completely dissociated into ions when in solution. Weak electrolytes are compounds that are only partially dissociated in solution. Weak solutions of such compounds are better conductors than strong solutions because of their greater degree of dissociation.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

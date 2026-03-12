@@ -9,6 +9,9 @@ aliases:
 - n. 
 - (1) Any attribute of a sensory stimulus (1, 2, 3). A local feature is an attribute of part of the stimulus, and a global feature is an attribute of the stimulus as a whole. See also acoustic feature, charActeristic FEATURES, CONCEPT, DEFINING PROPERTIES, DISTINCTIVE FEATURE, FEATURE COMPARISON MODEL, FEATURE DETECTION THEORY, FEATURE DETECTOR, FEATURE INTEGRATION THEORY, FEATURE SEARCH, LEVELS OF PROCESSING, PROTOTYPE THEORY. 
 - (2) More specifically, any of the distinctive parts of the face, such as the eyes, nose, mouth, ears, or chin. \[From Old French faiture a feature, from Latin factura a making, from facere to make]
+## Source[^2]
+- A part of an image that represents an object of interest. Possible features include regions of a given color or sharp boundaries, perhaps with corners or a specific orientation. See also INTEREST POINT.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
