@@ -2369,18 +2369,21 @@ tags:
 	1691. [[feature matching]]
 	1692. [[feed]]
 	1693. [[feedback]]
-	1694. feedback control loop
+	1694. [[feedback control loop]]
 	1695. feedback oscillator
-	1696. feeder
-	1697. feedforward control
+		1. See oscillator
+	1696. [[feeder]]
+	1697. [[feedforward control]]
 	1698. feedpoint impedance
-	1699. feedthrough
-	1700. Felici balance
+		1. See ANTENNA FEEDPOINT IMPEDANCE.
+	1699. [[feedthrough]]
+	1700. [[Felici balance]]
 
 	1701. FEM
-	1702. femto-(symbol: f)
-	1703. Fermi-Dirac statistics
-	1704. Fermi level(symbol: EF)
+		1. See finite element method
+	1702. [[femto-]]
+	1703. [[Fermi-Dirac statistics]]
+	1704. [[Fermi level]]
 	1705. ferrimagnetism
 	1706. ferrite
 	1707. ferrite beads
