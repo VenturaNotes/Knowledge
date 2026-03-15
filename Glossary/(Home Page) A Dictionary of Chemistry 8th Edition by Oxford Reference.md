@@ -1816,7 +1816,7 @@ Reviewed: false
 	1792. [[elongation]]
 	1793. eluate
 	1794. eluent
-	1795. elution
+	1795. [[elution]]
 	1796. elutriation
 	1797. emanation
 	1798. emerald
@@ -1851,13 +1851,13 @@ Reviewed: false
 	1827. [[enrichment]]
 	1828. ensemble
 	1829. [[entanglement]]
-	1830. enthalpy
+	1830. [[enthalpy]]
 	1831. entropy
 	1832. envelope
 	1833. environmental chemistry
 	1834. [[enyl complex]]
 	1835. enzyme
-	1836. enzyme-substrate complex
+	1836. [[enzyme-substrate complex]]
 	1837. enzyme inhibition
 	1838. [[enzyme kinetics]]
 	1839. ephedrine
