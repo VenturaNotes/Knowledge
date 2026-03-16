@@ -2750,7 +2750,7 @@ Reviewed: false
 	2725. isotopic isomers
 	2726. isotopic number
 	2727. isotopologues
-	2728. isotopomers
+	2728. [[isotopomers]]
 	2729. [[isotropic]]
 	2730. [[isozyme]]
 	2731. itaconic acid
@@ -2882,7 +2882,7 @@ Reviewed: false
 	2856. [[Lassaigne's test]]
 	2857. latent heat
 	2858. latex
-	2859. Latimer diagram
+	2859. [[Latimer diagram]]
 	2860. lattice
 	2861. [[lattice energy]]
 	2862. lattice sum
@@ -2936,7 +2936,7 @@ Reviewed: false
 	2910. leuco form
 	2911. leucomalachite green test
 	2912. lever rule
-	2913. Levinthal paradox
+	2913. [[Levinthal paradox]]
 	2914. Lewis, Gilbert Newton (1875-1946)
 	2915. Lewis acid and base
 	2916. Lewis structure
