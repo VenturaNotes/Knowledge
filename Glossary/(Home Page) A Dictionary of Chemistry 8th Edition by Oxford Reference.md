@@ -2050,7 +2050,7 @@ Reviewed: false
 	2026. flame
 	2027. flame ionization detector
 	2028. flame test
-	2029. flash cooling
+	2029. [[flash cooling]]
 	2030. [[flash photolysis]]
 	2031. flash point
 	2032. flavin adenine dinucleotide
@@ -2131,7 +2131,7 @@ Reviewed: false
 	2107. free electron
 	2108. free energy
 	2109. free radical
-	2110. freeze drying
+	2110. [[freeze drying]]
 	2111. freezing-point depression
 	2112. freezing mixture
 	2113. Frenkel-Kontorowa model
@@ -2249,7 +2249,7 @@ Reviewed: false
 	2225. globulin
 	2226. glove box
 	2227. glow discharge
-	2228. gluconic acid
+	2228. [[gluconic acid]]
 	2229. [[glucosan]]
 	2230. glucose
 	2231. glucuronic acid
