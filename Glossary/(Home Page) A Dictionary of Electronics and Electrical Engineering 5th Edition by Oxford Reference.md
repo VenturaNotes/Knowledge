@@ -2384,20 +2384,24 @@ tags:
 	1702. [[femto-]]
 	1703. [[Fermi-Dirac statistics]]
 	1704. [[Fermi level]]
-	1705. ferrimagnetism
-	1706. ferrite
+	1705. [[ferrimagnetism]]
+	1706. [[ferrite]]
 	1707. ferrite beads
+		1. See ELECTROMAGNETIC COMPATIBILITY.
 	1708. ferrite core
-	1709. ferroelectric crystals
-	1710. ferrofluid
+		1. See core
+	1709. [[ferroelectric crystals]]
+	1710. [[ferrofluid]]
 
-	1711. ferromagnetism
+	1711. [[ferromagnetism]]
 	1712. FET
+		1. See FIELD-EFFECT TRANSISTOR.
 	1713. FFT
-	1714. fibre-optics system
-	1715. fibre distributed data interface
-	1716. fibretronics
-	1717. Fick's law
+		1. (fast Fourier transform) See DISCRETE FOURIER TRANSFORM.
+	1714. [[fibre-optics system]]
+	1715. [[fibre distributed data interface]]
+	1716. [[fibretronics]]
+	1717. [[Fick's law]]
 	1718. fiducial marker
 	1719. field
 	1720. field-effect transistor
