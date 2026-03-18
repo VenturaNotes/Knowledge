@@ -2945,17 +2945,17 @@ Reviewed: false
 	2919. Liebig, Justus von (1803-73)
 	2920. Liebig condenser
 	2921. ligand
-	2922. ligand-field theory
+	2922. [[ligand-field theory]]
 	2923. ligase
 	2924. light-dependent reaction
 	2925. light-independent reaction
-	2926. lignin
+	2926. [[lignin]]
 	2927. lignite
 	2928. lime
 	2929. limestone
 	2930. limewater
 	2931. limit cycle
-	2932. limonite
+	2932. [[limonite]]
 	2933. Lindemann-Hinshelwood mechanism
 	2934. linear combination of atomic orbitals
 	2935. linear dichroism

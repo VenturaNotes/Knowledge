@@ -2402,11 +2402,11 @@ tags:
 	1715. [[fibre distributed data interface]]
 	1716. [[fibretronics]]
 	1717. [[Fick's law]]
-	1718. fiducial marker
-	1719. field
-	1720. field-effect transistor
+	1718. [[fiducial marker]]
+	1719. [[field]]
+	1720. [[field-effect transistor]]
 
-	1721. field-emission microscope
+	1721. [[field-emission microscope]]
 	1722. field-enhanced emission
 	1723. field-ion microscope
 	1724. field coil
