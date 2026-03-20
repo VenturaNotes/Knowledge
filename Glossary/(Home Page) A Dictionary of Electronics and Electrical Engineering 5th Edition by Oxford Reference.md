@@ -2407,330 +2407,426 @@ tags:
 	1720. [[field-effect transistor]]
 
 	1721. [[field-emission microscope]]
-	1722. field-enhanced emission
-	1723. field-ion microscope
+	1722. [[field-enhanced emission]]
+	1723. [[field-ion microscope]]
 	1724. field coil
+		1. See electromagnet
 	1725. field current
-	1726. field emission
-	1727. field emitter
+		1. See electromagnet
+	1726. [[field emission]]
+	1727. [[field emitter]]
 	1728. field frequency
-	1729. field ionization
-	1730. field of view
+		1. See television
+	1729. [[field ionization]]
+	1730. [[field of view]]
 
 	1731. field programmable gate array
+		1. See FPGA
 	1732. FIFO
-	1733. figure-eight microphone
-	1734. filament
-	1735. file allocation table
-	1736. film
-	1737. film resistor
+		1. (first in, first out) A type of memory system
+	1733. [[figure-eight microphone]]
+	1734. [[filament]]
+	1735. [[file allocation table]]
+	1736. [[film]]
+	1737. [[film resistor]]
 	1738. film sputter deposition
-	1739. filter
+		1. See sputtering
+	1739. [[filter]]
 	1740. filter synthesis
+		1. See network synthesis
 
-	1741. finite-difference time domain
-	1742. finite-state machine
-	1743. finite element method
+	1741. [[finite-difference time domain]]
+	1742. [[finite-state machine]]
+	1743. [[finite element method]]
 	1744. finite impulse response
-	1745. firewall
-	1746. Firewire
+		1. (FIR) See digital filter
+	1745. [[firewall]]
+	1746. [[Firewire]]
 	1747. FIR filter
+		1. (finite impulse response filter) See digital filter; transversal filter.
 	1748. firing
+		1. See gas-discharge tube
 	1749. firm decision decoding
-	1750. firmware
+		1. See hard decision decoding
+	1750. [[firmware]]
 
-	1751. first-order circuit
+	1751. [[first-order circuit]]
 	1752. first ionization potential
-	1753. fixed-point representation
-	1754. flag
-	1755. flash arc
-	1756. flashback voltage
-	1757. flash memory
-	1758. flash memory controller
-	1759. flashover
+		1. See IONIZATION POTENTIAL.
+	1753. [[fixed-point representation]]
+	1754. [[flag]]
+	1755. [[flash arc]]
+	1756. [[flashback voltage]]
+	1757. [[flash memory]]
+	1758. [[flash memory controller]]
+	1759. [[flashover]]
 	1760. flat-band operation mode
+		1. See MOS capacitor
 
-	1761. flatbed scanner
-	1762. flat package
-	1763. flatscreen display
-	1764. flat tuning
+	1761. [[flatbed scanner]]
+	1762. [[flat package]]
+	1763. [[flatscreen display]]
+	1764. [[flat tuning]]
 	1765. flatwise bend
-	1766. Fleming's rules
-	1767. flexible resistor
-	1768. flicker
-	1769. flicker noise
-	1770. flip-chip
+		1. (H-bend) See waveguide
+	1766. [[Fleming's rules]]
+	1767. [[flexible resistor]]
+	1768. [[flicker]]
+	1769. [[flicker noise]]
+	1770. [[flip-chip]]
 
-	1771. flip-coil
-	1772. flip-flop
-	1773. floating
-	1774. floating-carrier modulation
-	1775. floating-point representation
+	1771. [[flip-coil]]
+	1772. [[flip-flop]]
+	1773. [[floating]]
+	1774. [[floating-carrier modulation]]
+	1775. [[floating-point representation]]
 	1776. floating battery
+		1. See battery
 	1777. floppy disk
-	1778. flow chart
-	1779. flow control
+		1. (diskette) See magnetic disk
+	1778. [[flow chart]]
+	1779. [[flow control]]
 	1780. fluorescence
+		1. See LUMINESCENCE.
 
-	1781. fluorescent lamp
-	1782. fluorescent screen
-	1783. flutter
-	1784. flux
-	1785. fluxmeter
+	1781. [[fluorescent lamp]]
+	1782. [[fluorescent screen]]
+	1783. [[flutter]]
+	1784. [[flux]]
+	1785. [[fluxmeter]]
 	1786. flyback
-	1787. fly by wire
-	1788. flying-spot scanner
-	1789. flywheel effect
+		1. (1) See time base
+		2. (2) See sawtooth waveform
+	1787. [[fly by wire]]
+	1788. [[flying-spot scanner]]
+	1789. [[flywheel effect]]
 	1790. flywheel timebase
+		1. See timebase
 
-	1791. FM receiver
+	1791. [[FM receiver]]
 	1792. fMRI
+		1. See functional magnetic resonance imaging
 	1793. FM synthesis
-	1794. focal length
-	1795. focusing
-	1796. foil capacitor
+		1. See synthesis
+	1794. [[focal length]]
+	1795. [[focusing]]
+	1796. [[foil capacitor]]
 	1797. folded dipole
+		1. See diploe
 	1798. forbidden band
-	1799. forced oscillations
-	1800. forced output
+		1. See energy bands
+	1799. [[forced oscillations]]
+	1800. [[forced output]]
 
-	1801. forced system
-	1802. force factor
-	1803. forcing function
-	1804. formal verification
-	1805. formant
+	1801. [[forced system]]
+	1802. [[force factor]]
+	1803. [[forcing function]]
+	1804. [[formal verification]]
+	1805. [[formant]]
 	1806. formant synthesis
+		1. See SPEECH SYNTHESIS.
 	1807. [[form factor]]
 	1808. forward-current gain
+		1. See beta current gain factor
 	1809. forward-wave amplification
+		1. See travelling-wave tube.
 	1810. forward active operation
+		1. See bipolar junction transistor
 
-	1811. forward direction
+	1811. [[forward direction]]
 	1812. forward path
-	1813. forward problem
+		1. See feedback control loop
+	1813. [[forward problem]]
 	1814. forward slope resistance
+		1. See diode
 	1815. forward transfer function
+		1. See feedback control loop
 	1816. Foucault current
-	1817. four-point probe
+		1. See eddy current
+	1817. [[four-point probe]]
 	1818. four-terminal network
-	1819. four-terminal resistor
-	1820. four-wire circuit
+		1. See two-port network
+	1819. [[four-terminal resistor]]
+	1820. [[four-wire circuit]]
 
-	1821. Fourier analysis
-	1822. FPGA
-	1823. frame
+	1821. [[Fourier analysis]]
+	1822. [[field-programmable gate array|FPGA]]
+	1823. [[frame]]
 	1824. frame/field transfer device
+		1. See solid-state camera
 	1825. frame antenna
-	1826. frame check sequence
+		1. See loop antenna
+	1826. [[frame check sequence]]
 	1827. frame direction finding
+		1. (loop direction finding) See direction finding
 	1828. frame frequency
-	1829. franklin(symbol: Fr)
+		1. (picture frequency) See television
+	1829. [[franklin]]
 	1830. free-electron paramagnetism
+		1. See paramagnetism
 
-	1831. free-field calibration
-	1832. free electron
-	1833. free field
-	1834. free oscillations
-	1835. free output
-	1836. Freesat
-	1837. free space
-	1838. free system
-	1839. Freeview
-	1840. frequency(symbol: ν or f; unit: hertz)
+	1831. [[free-field calibration]]
+	1832. [[free electron]]
+	1833. [[free field]]
+	1834. [[free oscillations]]
+	1835. [[free output]]
+	1836. [[Freesat]]
+	1837. [[free space]]
+	1838. [[free system]]
+	1839. [[Freeview]]
+	1840. [[frequency]]
 
-	1841. frequency-dependent negative resistor
-	1842. frequency-division duplexing
+	1841. [[frequency-dependent negative resistor]]
+	1842. [[frequency-division duplexing]]
 	1843. frequency-division multiple access
-	1844. frequency-division multiplexing
+		1. (FDMA) See digital communications
+	1844. [[frequency-division multiplexing]]
 	1845. frequency-hopping spread spectrum
+		1. See digital communications
 	1846. frequency-modulated radar
-	1847. frequency-response characteristic
+		1. See radar
+	1847. [[frequency-response characteristic]]
 	1848. frequency analyser
-	1849. frequency band
-	1850. frequency bridge
+		1. See wave analyzer
+	1849. [[frequency band]]
+	1850. [[frequency bridge]]
 
-	1851. frequency changer
-	1852. frequency compensation
+	1851. [[frequency changer]]
+	1852. [[frequency compensation]]
 	1853. frequency control
-	1854. frequency counter
+		1. See automatic frequency control
+	1854. [[frequency counter]]
 	1855. frequency deviation
-	1856. frequency discriminator
+		1. See frequency modulation
+	1856. [[frequency discriminator]]
 	1857. frequency diversity
-	1858. frequency divider
-	1859. frequency domain
-	1860. frequency doubler
+		1. See diversity system
+	1858. [[frequency divider]]
+	1859. [[frequency domain]]
+	1860. [[frequency doubler]]
 
-	1861. frequency meter
-	1862. frequency modulation
+	1861. [[frequency meter]]
+	1862. [[frequency modulation]]
 	1863. frequency multiplexing
-	1864. frequency multiplier
+		1. See frequency division multiplexing
+	1864. [[frequency multiplier]]
 	1865. frequency pulling
-	1866. frequency range
-	1867. frequency response
-	1868. frequency reuse
+		1. See pulling
+	1866. [[frequency range]]
+	1867. [[frequency response]]
+	1868. [[frequency reuse]]
 	1869. frequency scaling
-	1870. frequency selectivity
+		1. See denormalization
+	1870. [[frequency selectivity]]
 
 	1871. frequency shift keying
-	1872. frequency spectrum(of electromagnetic waves)
-	1873. frequency standard, primary
+		1. (FSK) See frequency modulation
+	1872. frequency spectrum (of electromagnetic waves)
+		1. See table 10, in the back matter.
+	1873. [[primary frequency standard]]
 	1874. frequency swing
+		1. See frequency modulation
 	1875. frequency synthesizer
-	1876. frequency transformation
-	1877. Fresnel zone
-	1878. frictional electricity
-	1879. Friis transmission equation
-	1880. fringe area
+		1. See synthesizer
+	1876. [[frequency transformation]]
+	1877. [[Fresnel zone]]
+	1878. [[frictional electricity]]
+	1879. [[Friis transmission equation]]
+	1880. [[fringe area]]
 
 	1881. front porch
+		1. See television
 	1882. FSK
+		1. (frequency shift keying) See frequency modulation.
 	1883. FSM
-	1884. fuel cell
-	1885. full-duplex
-	1886. full-scale deflection
+		1. See finite-state machine.
+	1884. [[fuel cell]]
+	1885. [[full-duplex]]
+	1886. [[full-scale deflection]]
 	1887. full-wave dipole
-	1888. full-wave rectifier circuit
-	1889. full-width half-maximum
+		1. See dipole 
+	1888. [[full-wave rectifier circuit]]
+	1889. [[full-width half-maximum]]
 	1890. full adder
+		1. See adder
 
-	1891. full duration at half maximum
-	1892. function
-	1893. functional magnetic resonance imaging
-	1894. functional neuroimaging
+	1891. [[full duration at half maximum]]
+	1892. [[function]]
+	1893. [[functional magnetic resonance imaging]]
+	1894. [[functional neuroimaging]]
 	1895. functional packing density
-	1896. function generator
-	1897. fundamental frequency
-	1898. fundamental frequency estimation
-	1899. fuse
+		1. See packing density
+	1896. [[function generator]]
+	1897. [[fundamental frequency]]
+	1898. [[fundamental frequency estimation]]
+	1899. [[fuse]]
 	1900. fusible-link memory
+		1. See ROM
 
-	1901. fuzzy logic
+	1901. [[fuzzy logic]]
 	1902. FWHM
-	1903. fx
-	1904. 3G
-	1905. G3
-	1906. gain
-	1907. gain-bandwidth product
+		1. See full-width half-maximum
+	1903. [[fx]]
+	1904. [[gadolinium gallium garnet]]
+	1905. [[3G]]
+	1906. [[gain]]
+	1907. [[gain-bandwidth product]]
 	1908. gain compression
-	1909. gain control
-	1910. gain margin
+		1. See COMPRESSION POINT.
+	1909. [[gain control]]
+	1910. [[gain margin]]
 
 	1911. gain region
+		1. See active region
 	1912. galactic noise
-	1913. Galileo
-	1914. gallium arsenide(symbol: GaAs)
-	1915. galvanomagnetic effect
-	1916. galvanometer
-	1917. galvanometer constant
-	1918. gamma correction
-	1919. gamma rays
-	1920. gap
+		1. (Jansky noise) See radio noise
+	1913. [[Galileo]]
+	1914. [[gallium arsenide]]
+	1915. [[galvanomagnetic effect]]
+	1916. [[galvanometer]]
+	1917. [[galvanometer constant]]
+	1918. [[gamma correction]]
+	1919. [[gamma rays]]
+	1920. [[gap]]
 
 	1921. gap length
-	1922. gas-discharge tube
-	1923. gas-filled tube
+		1. See magnetic recording
+	1922. [[gas-discharge tube]]
+	1923. [[gas-filled tube]]
 	1924. gas amplification
-	1925. gas breakdown
+		1. See GAS MULTIPLICATION.
+	1925. [[gas breakdown]]
 	1926. gas cell
-	1927. gas electrode
-	1928. gaskets
-	1929. gas multiplication
-	1930. gassing
+		1. See gas electrode
+	1927. [[gas electrode]]
+	1928. [[gaskets]]
+	1929. [[gas multiplication]]
+	1930. [[gassing]]
 
-	1931. gate
-	1932. gate array
-	1933. gate expander
+	1931. [[gate]]
+	1932. [[gate array]]
+	1933. [[gate expander]]
 	1934. gateway
+		1. See router
 	1935. gating
-	1936. gauss(symbol: Gs or G)
-	1937. Gauss's theorem
-	1938. Gaussian channel
-	1939. Gaussian distribution
-	1940. Gaussian elimination
+		1. See receiver
+	1936. [[gauss]]
+	1937. [[Gauss's theorem]]
+	1938. [[Gaussian channel]]
+	1939. [[Gaussian distribution]]
+	1940. [[Gaussian elimination]]
 
-	1941. Gaussian filter
+	1941. [[Gaussian filter]]
 	1942. GBP
-	1943. Geiger counter
-	1944. general-purpose input/output pin
-	1945. general impedance converter
-	1946. generator
-	1947. genetic algorithm
-	1948. geometric optics
-	1949. geometric theory of diffraction
-	1950. geostationary earth orbit
+		1. See gain-bandwidth product
+	1943. [[Geiger counter]]
+	1944. [[general-purpose input-output pin]]
+	1945. [[general impedance converter]]
+	1946. [[generator]]
+	1947. [[genetic algorithm]]
+	1948. [[geometric optics]]
+	1949. [[geometric theory of diffraction]]
+	1950. [[geostationary earth orbit]]
 
-	1951. geotagging
-	1952. germanium(symbol: Ge)
-	1953. getter
-	1954. ghost
-	1955. giant magnetoresistance
-	1956. giant magnetoresistance head
-	1957. Gibbs phenomenon
+	1951. [[geotagging]]
+	1952. [[germanium]]
+	1953. [[getter]]
+	1954. [[ghost]]
+	1955. [[giant magnetoresistance]]
+	1956. [[giant magnetoresistance head]]
+	1957. [[Gibbs phenomenon]]
 	1958. GIC
-	1959. giga-(symbol: G)
-	1960. gigabit
+		1. See general impedance converter
+	1959. [[giga-]]
+	1960. [[gigabit]]
 
-	1961. gigabyte
-	1962. gilbert(symbol: Gb)
-	1963. Gilbert cell
+	1961. [[gigabyte]]
+	1962. [[gilbert]]
+	1963. [[Gilbert cell]]
 	1964. glassivation
+		1. See passivation
 	1965. glitch
+		1. See hazard
 	1966. global navigation satellite system
+		1. (GNSS) See satellite navigation system
 	1967. global positioning system
-	1968. global system for mobile communications
-	1969. GLONASS
-	1970. glottal airflow
+		1. See GPS
+	1968. [[global system for mobile communications]]
+	1969. [[GLONASS]]
+	1970. [[glottal airflow]]
 
 	1971. glow-discharge microphone
+		1. See microphone
 	1972. glow discharge
-	1973. 4G LTE
+		1. See gas-discharge tube
+	1973. [[4G LTE]]
 	1974. GMR
+		1. See giant magnetoresistance
 	1975. GMR head
-	1976. go-back-N ARQ
+		1. See giant magnetoresistance head
+	1976. [[go-back-N ARQ]]
 	1977. Golay code
+		1. See digital codes
 	1978. gold-leaf electroscope
-	1979. GOS
+		1. See electroscope
+	1979. [[GOS]]
 	1980. GPIB
+		1. (general-purpose interface bus) See IEEE-488 STANDARD.
 
 	1981. GPIO pin
-	1982. GPR
-	1983. GPS
-	1984. GPU
-	1985. graded-base transistor
-	1986. gradiometer
-	1987. graphene
-	1988. graphical symbols
-	1989. graphic equalizer
-	1990. graphic instrument
+		1. See general-purpose input/output pin
+	1982. [[GPR]]
+	1983. [[GPS]]
+	1984. [[GPU]]
+	1985. [[graded-base transistor]]
+	1986. [[gradiometer]]
+	1987. [[graphene]]
+	1988. [[graphical symbols]]
+	1989. [[graphic equalizer]]
+	1990. [[graphic instrument]]
 
-	1991. graphic panel
+	1991. [[graphic panel]]
 	1992. graphics processing unit
-	1993. grass
+		1. See GPU
+	1993. [[grass]]
 	1994. Grassot fluxmeter
-	1995. gravity cell
-	1996. Gray code
-	1997. grenz rays
-	1998. grid
+		1. See fluxmeter
+	1995. [[gravity cell]]
+	1996. [[Gray code]]
+	1997. [[grenz rays]]
+	1998. [[grid]]
 	1999. grid base
-	2000. grid bias
+		1. (thermionic valve) See cut-off
+	2000. [[grid bias]]
 
-	2001. grid emission
-	2002. grid leak
+	2001. [[grid emission]]
+	2002. [[grid leak]]
 	2003. grid stopper
+		1. See parasitic oscillations
 	2004. ground
+		1. US term for earth
 	2005. ground-penetrating radar
-	2006. ground-reflected wave
-	2007. ground absorption
+		1. See GPR
+	2006. [[ground-reflected wave]]
+	2007. [[ground absorption]]
 	2008. ground capacitance
+		1. US term for earth capacitance
 	2009. ground clutter
+		1. See ground return
 	2010. ground current
+		1. US term for earth current
 
 	2011. grounded-base connection
+		1. See common-base connection
 	2012. grounded-collector connection
+		1. See common-collector connection
 	2013. grounded-emitter connection
+		1. See common-emitter connection
 	2014. ground electrode
-	2015. ground plane
+		1. US term for earth electrode. See EARTH
+	2015. [[ground plane]]
 	2016. ground potential
+		1. US term for ea
 	2017. ground ray
 	2018. ground reflection
 	2019. ground return

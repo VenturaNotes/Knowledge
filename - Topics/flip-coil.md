@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- The classical means of measuring the value of magnetic flux density, B, at a point in air. The flip-coil consists of a number of turns, $N$, wound on a small former of area $A$. If the coil is placed in a magnetic field, with its axis parallel to the direction of B, the magnetic flux linking the coil is NAB. If the coil is removed very quickly ('flipped') to a point where the flux density is zero, the flux change is just NAB; this can be measured using either a ballistic galvanometer or a fluxmeter.
+- Flip-coils can be constructed with different values of $NA$ (turns × area): the appropriate coil can be chosen for the field to be measured, so as to produce a suitable instrument deflection. Accuracy of about one per cent can be achieved using a fluxmeter and about 0.1 per cent with a ballistic galvanometer.
+- The coil may also be used to investigate the magnetic flux distribution of a magnetic field. It is used in a similar way but the measuring instrument does not need to be calibrated absolutely. The comparative measurements can be plotted to produce a graphical representation of the flux distribution. When used in this way the coil is often termed an exploring coil. Exploring coils are commonly used to locate the source of undesired signals in electromagnetic compatibility investigations.
+- An alternative way of using a flip-coil to measure magnetic flux density is to rotate it rapidly in the field. An alternating voltage, $V$, is produced given by $$V \propto NAB\omega$$where $\omega$ is the angular velocity of the coil. As this method does not depend on a single throw measurement, less sensitive measuring instruments may be used.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

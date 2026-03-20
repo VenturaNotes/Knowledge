@@ -14,6 +14,9 @@
 - $n$. 
 - (1) The number of times that an event occurs in a specified time period; more specifically the number of times that a wave repeats itself in one second, generally expressed in hertz (Hz) or cycles per second. Frequency $(f)$ is equivalent to the velocity of propagation $(v)$ divided by wavelength $(\lambda): f=v / \lambda$. The audibility range of sound waves extends from about 16 Hz at the low end to about $20,000 \mathrm{~Hz}$ at the high end for a person with normal hearing, and the visible spectrum of light from about 405,405 billion Hz at the red end to about 769,231 billion Hz at the violet end. See also spatial frequency. 
 - (2) In statistics and measurement theory, the number of items or scores falling into a particular class. Frequency data are scores representing counts rather than other kinds of measurements.
+## Source[^6]
+- (symbol: v or f; unit: hertz) The number of complete oscillations or cycles of a periodic quantity occurring in unit time. The frequency is related to the angular frequency $\omega$ by the relation $\omega = 2\pi \nu$ . The frequency of a periodic quantity, such as an alternating current, is given by the number of times the quantity passes through its zero value in the same sense in unit time.
+- The frequency of electromagnetic radiation is related to the wavelength, $\lambda$ , by the equation $\nu = c / \lambda$ , where $c$ is the speed of light.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
@@ -21,3 +24,4 @@
 [^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

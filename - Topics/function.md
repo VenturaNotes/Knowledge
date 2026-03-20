@@ -42,7 +42,10 @@ Functions are often represented pictorially as graphs.
 See also BIJECTION, HOMOMORPHISM, INJECTION, OPERATION, SURJECTION. 2. A program unit that given values for input parameters computes a value. Examples include the standard functions such as $\sin (x), \cos (x), \exp (x)$; in addition most languages permit user-defined functions. A function is a 'black box' that can be used without any knowledge or understanding of the detail of its internal working. In some languages a function may have side effects.
 ## Source[^2]
 - A section or department of an organization that carries out a discrete activity, under the control of a manager or director. It is the section of the business for which functional budgets are produced. Examples of separate functions are production, sales, finance, and personnel.
+## Source[^3]
+- An equation that maps an input for some system to the corresponding output. This applies to systems where there is only one output value that corresponds to any given input value. Such systems will not have any internal state or memory that can influence the output.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

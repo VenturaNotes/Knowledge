@@ -10,6 +10,13 @@ aliases:
 - An instrument for studying the surface of a solid, usually a metal, by causing it to undergo field emission. A simple microscope is shown in the diagram. A high voltage is applied in a vacuum between the single crystal solid tip and the curved fluorescent screen. The electrons emitted from the tip form an image on the screen; the different intensities of the image represent areas on the tip that have different work functions. Vibrations of the metal atoms limit the resolution and the tip is usually held at liquid helium or hydrogen temperature. The structure of alloys, the behavior of impurities in metals, and the effect of adsorption at the metal point can be studied.
 - ![[Screenshot 2026-03-18 at 3.13.30 AM.png|400]]
 	- Field-emission microscope
+	- Parts
+		- Fluorescent screen
+		- Electrons
+		- Emitting tip
+		- To vacuum pump
+		- High negative voltage
+		- Liquid helium
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]

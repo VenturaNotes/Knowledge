@@ -9,9 +9,12 @@
 ## Source[^4]
 - (1) In a conglomerate, a barrier created between the organization, funding, and ownership of one business entity and those of other entities in the group, so that problems experienced by the one do not affect others. 
 - (2) A system usually inserted between a local area network and the Internet to filter incoming traffic, to try to eliminate viral infection, and to restrict the access of hackers to the system. It may create a bottleneck in the transmission of data to and from the system.
+## Source[^5]
+- A system that isolates a computer from the Internet to prevent access by unauthorized individuals.
 ## References
 
 [^1]: https://youtu.be/HGYOEeik844?si=FSE1pdbZWTo-TL_b
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
