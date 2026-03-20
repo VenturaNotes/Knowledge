@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- A circuit or algorithm that estimates the fundamental frequency of a signal, typically speech or music. Widespread reference to pitch is made in this context (pitch determination algorithm (PDA), pitch extraction, pitch estimation), since early applications occurred in speech coders to find voice pitch. However, fundamental frequency (f0 or fx) estimation is preferred, since pitch, which can only be estimated by a human listener, is subjective.
+- Fundamental frequency estimation algorithms can be considered in terms of those that make use of: (a) time domain properties of the signal to track its quasi-periodicity, using, for example, a zero crossing detector or a peak picker; or (b) frequency domain properties of the signal to track either the fundamental frequency component and/or its harmonics. In practice, the input signal is first preprocessed, perhaps by low-pass filtering to make the signal closer to being sinusoidal at the fundamental frequency. Some algorithms exploit the best of available time and frequency domain techniques in a hybrid system. When used for live speech analysis, where it is the pitch of voiced (as opposed to voiceless) speech that is being tracked, a highly accurate measurement of fundamental frequency is possibly based on monitoring vocal fold vibration directly using an electroglottograph.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

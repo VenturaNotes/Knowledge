@@ -12,8 +12,11 @@ aliases:
 - (3) (in cell biology) See intermediate filament; MICROFILAMENT.
 ## Source[^3]
 - $n$. Any slender, threadlike structure, such as the tail of a spermatozoon. \[From Latin filum a thread, from filare to spin]
+## Source[^4]
+- A thread-like body of metal or carbon, particularly the conductor of an incandescent lamp, the cathode of a thermionic valve, or the electrode used to heat an indirectly heated cathode.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

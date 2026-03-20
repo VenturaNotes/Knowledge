@@ -18,6 +18,9 @@ ultimately include all the elements of $G$. Such a group is said to be a cyclic 
   
 
 The set of generators $S$ of a group $G$ is a subset of $G$ having the property that every element of $G$ can be expressed as a combination of elements of $S$. See also GROUP GRAPH.
+## Source[^2]
+- A machine that converts mechanical energy into electrical energy. An electromagnetic generator (i.e. a dynamo) has a coil that is made to move so as to cut lines of magnetic flux. An electrostatic generator, such as a Van de Graaff generator, has equal and opposite electric charges produced by electrostatic induction or friction; mechanical energy is then used to separate the charges. See also ALTERNATING-CURRENT GENERATOR.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

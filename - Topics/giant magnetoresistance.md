@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (GMR) A large change in electrical resistance observed in ferromagnetic metal and normal metal multilayer structures, such as Co/Cu/NiFe trilayer films. The basis of the GMR is spin-dependent electron scattering, i.e. dependence of the electrical resistivity of electrons on the direction of the electron spin, either parallel or antiparallel to the magnetic moment of the layers. Electrons that have a parallel spin undergo less scattering and therefore have a lower resistance. At zero applied field, the moments of the magnetic layers are antiparallel, due to antiferromagnetic exchange coupling. The resistance is high at this antiparallel state. At certain applied magnetic fields, the moments of the magnetic layers are aligned and electrons with their spins parallel to these moments pass freely through the solid. The resistance is low at this parallel state. The GMR effect could be as large as $50 \text{-} 100\%$, while the anisotropic magnetoresistance effect is about $1\%$ in conventional magnetic materials. See GIANT MAGNETORESISTANCE HEAD.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
