@@ -2865,7 +2865,7 @@ Year: 2021-09-01
 	1743. non-singular
 	1744. non-standard analysis
 	1745. non-symmetric(of a relation)
-	1746. non-transitive(of a relation)
+	1746. [[non-transitive]]
 	1747. non-transitive dice
 	1748. non-trivial
 	1749. non-zero
@@ -2898,7 +2898,7 @@ Year: 2021-09-01
 	1773. nought
 	1774. nowhere-differentiable function
 	1775. nowhere dense
-	1776. NP problem
+	1776. [[NP problem]]
 	1777. NRICH
 	1778. nth-order partial derivative
 	1779. nth derivative
@@ -3204,7 +3204,7 @@ Year: 2021-09-01
 	2051. positively oriented
 	2052. positive semidefinite
 	2053. possible
-	2054. post-optimal analysis
+	2054. [[post-optimal analysis]]
 	2055. posterior distribution
 	2056. posterior probability
 	2057. postmultiplication
