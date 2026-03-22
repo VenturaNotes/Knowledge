@@ -1796,7 +1796,7 @@ Year: 2021-09-01
 	
 	781. Fermat's Two Squares Theorem
 	782. Fermat, Pierre de (1607-65)
-	783. Fermat point
+	783. [[Fermat point]]
 	784. Fermat prime
 	785. Feuerbach's Theorem
 	786. Feynman, Richard Phillips (1918-88)
@@ -1820,8 +1820,8 @@ Year: 2021-09-01
 	802. finite differences
 	803. finite element method
 	804. finite field
-	805. finite intersection property
-	806. finitely generated
+	805. [[finite intersection property]]
+	806. [[finitely generated]]
 	807. finite population correction
 	808. finitism
 	809. first-order differential equation
@@ -3200,7 +3200,7 @@ Year: 2021-09-01
 	2048. positive correlation
 	2049. positive definite
 	2050. positive direction
-	
+
 	2051. positively oriented
 	2052. positive semidefinite
 	2053. possible
