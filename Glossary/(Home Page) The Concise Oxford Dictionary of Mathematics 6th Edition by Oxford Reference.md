@@ -1831,14 +1831,14 @@ Year: 2021-09-01
 	812. first fundamental form
 	813. first isomorphism theorem
 	814. first principles
-	815. Fisher's exact test
+	815. [[Fisher's exact test]]
 	816. Fisher, Sir Ronald Aylmer (1890-1962)
 	817. fit
 	818. fixed-point iteration
 	819. fixed-point notation
 	820. fixed-point theorem
 	
-	821. fixed point
+	821. [[fixed point]]
 	822. flag
 	823. flat angle
 	824. flex
@@ -1866,7 +1866,7 @@ Year: 2021-09-01
 	844. Foucault pendulum
 	845. foundations of mathematics
 	846. Four Color Theorem
-	847. Fourier's law
+	847. [[Fourier's law]]
 	848. Fourier, (Jean Baptiste) Joseph, Baron (1768-1830)
 	849. Fourier analysis
 	850. Fourier coefficients
