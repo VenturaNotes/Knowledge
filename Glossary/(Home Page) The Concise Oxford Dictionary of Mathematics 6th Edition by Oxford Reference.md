@@ -1312,9 +1312,9 @@ Year: 2021-09-01
 	344. coordinates(in Euclidean space)
 	345. coordinate system
 	346. coordinate vector
-	347. coplanar
+	347. [[coplanar]]
 	348. coplanar vectors
-	349. coprime
+	349. [[coprime]]
 	350. Coriolis force
 	
 	351. corollary
@@ -3325,7 +3325,7 @@ Year: 2021-09-01
 	2161. pyramid
 	2162. Pythagoras (500 bc)
 	2163. Pythagoras' Theorem
-	2164. Pythagorean triple
+	2164. [[Pythagorean triple]]
 	2165. ℚ
 	2166. Q8
 	2167. QED
