@@ -13,8 +13,11 @@
 - (3) Another term for par value.
 ## Source[^4]
 - $n$. a term used to indicate the number of pregnancies a woman has had that have each resulted in the birth of an infant capable of survival, as distinct from gravidity (see GRAVID). See also GRAND MULTIPARITY.
+## Source[^5]
+- The attribute of an integer of being even or odd. Thus, it can be said that 6 and 14 have the same parity (both are even), whereas 7 and 12 have opposite parity. The term also relates to even permutations and odd permutations.
 ## References
 [^1]: [[(Home Page) Proofs by Jay Cummings#^qry7ja]]
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^4]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^5]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
