@@ -3036,8 +3036,8 @@ Year: 2021-09-01
 	1899. parametric statistics
 	1900. parentheses
 	
-	1901. Pareto chart
-	1902. parity
+	1901. [[Pareto chart]]
+	1902. [[parity]]
 	1903. parity check
 	1904. Parker, Matt (1980- )
 	1905. Parseval's identity
@@ -3133,7 +3133,7 @@ Year: 2021-09-01
 	1987. pigeonhole principle
 	1988. pilot survey
 	1989. pivot
-	1990. pivot table
+	1990. [[pivot table]]
 	
 	1991. placebo
 	1992. place value
