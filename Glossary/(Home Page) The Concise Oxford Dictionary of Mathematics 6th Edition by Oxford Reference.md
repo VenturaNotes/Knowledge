@@ -1335,8 +1335,9 @@ Year: 2021-09-01
 		1. See trigonometric function
 	363. coth
 		1. See hyperbolic function
-	364. countable
+	364. [[countable]]
 	365. countably infinite
+		1. A synonym for denumerable
 	366. counterexample
 	367. 
 	368. 
@@ -2237,7 +2238,7 @@ Year: 2021-09-01
 	1181. inflection
 	1182. information
 	1183. inhomogeneous
-	1184. initial conditions
+	1184. [[initial conditions]]
 	1185. initialize
 	1186. initial line
 	1187. initial value
@@ -2253,7 +2254,7 @@ Year: 2021-09-01
 	1196. instantaneous code
 		1. A synonym for prefix code
 	1197. integer
-	1198. integer factorization(in cryptography)
+	1198. [[integer factorization]]
 	1199. integer part
 	1200.  
 	
@@ -2362,7 +2363,7 @@ Year: 2021-09-01
 	1294. Kraft inequality
 	1295. Kronecker's Lemma
 	1296. Kronecker, Leopold (1823-91)
-	1297. Kruskal's algorithm(to solve the `*minimum connector problem`))
+	1297. [[Kruskal's algorithm]]
 	1298. Kuratowski's Theorem
 	1299. Kuratowski closure axioms
 	1300. ℒ
