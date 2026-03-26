@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- An effect that occurs when a large d.c. electric field is applied across a short sample of n-type gallium arsenide. At values above the threshold value, typically several thousand volts per cm, coherent microwave oscillations are generated.
+- The effect results from the degeneracy of the energy levels in the conduction band and is due to the charge carriers of different mobilities forming bunches, known as domains. These migrate along the potential gradient at a rate determined by the carrier mobility. Some of the low-energy high-mobility carriers as they gain energy from the applied field change into a higher-energy low-mobility state, i.e. a velocity reduction in response to an increase in electric field is observed. Charges will accumulate to form a domain of low-mobility electrons. As the domain forms, nearby regions in the semiconductor become depleted of carriers and a charge dipole results. Much of the applied field is applied across the dipole and the field in the rest of the material falls below the threshold value. Thus, once one stable domain has formed no others will form while it still exists. The domain drifts towards the anode where it produces a current spike, and the process begins again. The result is that the domains produce microwave current at the output.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

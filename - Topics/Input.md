@@ -10,7 +10,12 @@ secondname=input("Please enter your surname")
 - (1) The process of entering data into a processing system or a peripheral device, or the data that is entered. 
 - (2) A signal that is applied to an electrical circuit, such as a logic circuit. 
 - (3) To enter data or apply a signal.
+## Source[^3]
+- (1) The signal or driving force applied to a circuit, device, computer, machine, or other plant. 
+- (2) The terminals at which this signal is applied. 
+- (3) To apply as an input signal or driving force.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-2-programming-fundamentals-quizzes/2-2-programming-fundamentals-quiz-10-questions/
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

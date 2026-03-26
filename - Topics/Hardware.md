@@ -20,9 +20,12 @@
 - The physical portion of a computer system, including the electrical/electronic components (e.g. devices and circuits), electromechanical components (e.g. a disk drive), and mechanical (e.g. cabinet) components. Compare SOFTWARE.
 ## Source[^4]
 - The electronic and mechanical parts of a computer system; for example, the central processing unit, disk drive, screen, and printer. Compare SOFTWARE.
+## Source[^5]
+- The physical units, devices, and circuits that make up a computer system. Compare SOFTWARE.
 ## References
 
 [^1]: https://quizizz.com/admin/quiz/5acb5f51c4daf70019c267e3/abstractions-quiz
 [^2]: https://spdload.com/blog/software-development-glossary/
 [^3]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -10,7 +10,10 @@
 - (1) the part of the body that contains the brain and the organs of sight, hearing, smell, and taste. 
 - (2) the rounded portion of a bone, which fits into a groove of another to form a joint;
 - for example, the head of the humerus or femur.
+## Source[^3]
+- A device that records signals on a suitable medium or reads or erases signals already stored on the medium, examples of such media being magnetic tape and magnetic disk. See also MAGNETIC RECORDING.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

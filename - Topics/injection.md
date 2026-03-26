@@ -35,6 +35,9 @@ aliases:
 - (one-to-one function) A function with the property that distinct elements in its domain are mapped onto distinct elements in the codomain. Formally,$$f: X \rightarrow Y$$is an injection if$$f\left(x_{1}\right)=f\left(x_{2}\right) \quad \text { implies } \quad x_{1}=x_{2}$$A common use of injections is to map or include elements of some smaller set, such as the set of integers, into a larger set, such as the set of real numbers.
 ## Source[^6]
 - $n$. introduction into the body of drugs or other fluids by means of a syringe, usually drugs that would be destroyed by the digestive processes if taken by mouth. Common routes for injection are into the skin (intracutaneous or intradermal); below the skin (subcutaneous), e.g. for insulin; into a muscle (intramuscular), for drugs that are slowly absorbed; and into a vein (intravenous, IV), for drugs to be rapidly absorbed. Enemas are also regarded as injections.
+## Source[^7]
+- (1) In general, the application of a signal to an electronic circuit or device. 
+- (2) The introduction of excess charge carriers, either electrons or holes, into a semiconductor material so that the total number present exceeds that at thermal equilibrium. In low-level injection the number of excess carriers is small whereas in high-level injection the number of excess carriers is comparable to the numbers at thermal equilibrium.
 ## References
 
 [^1]: https://www.desmos.com/calculator
@@ -43,3 +46,4 @@ aliases:
 [^4]: [[(Home Page) The Concise Oxford Dictionary of Mathematics 6th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^6]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^7]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

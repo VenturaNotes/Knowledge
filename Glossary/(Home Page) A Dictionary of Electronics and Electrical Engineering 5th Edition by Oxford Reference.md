@@ -2826,404 +2826,551 @@ tags:
 		1. US term for earth electrode. See EARTH
 	2015. [[ground plane]]
 	2016. ground potential
-		1. US term for ea
+		1. US term for earth potential
 	2017. ground ray
-	2018. ground reflection
-	2019. ground return
-	2020. ground state
+		1. See ground wave
+	2018. [[ground reflection]]
+	2019. [[ground return]]
+	2020. [[ground state]]
 
-	2021. ground wave
-	2022. group delay
-	2023. group operation
-	2024. grown junction
+	2021. [[ground wave]]
+	2022. [[group delay]]
+	2023. [[group operation]]
+	2024. [[grown junction]]
 	2025. GSM
+		1. See global system for mobile communications
 	2026. GTO
-	2027. guard-ring capacitor
-	2028. guard band
-	2029. guard ring
-	2030. guard time
+		1. (gate-turnoff thyristor) See thyristor
+	2027. [[guard-ring capacitor]]
+	2028. [[guard band]]
+	2029. [[guard ring]]
+	2030. [[guard time]]
 
-	2031. Gudden-Pohl effect
+	2031. [[Gudden-Pohl effect]]
 	2032. guide
+		1. See waveguide
 	2033. Guillemin effect
-	2034. Guillemin line
+		1. See magnetostriction
+	2034. [[Guillemin line]]
 	2035. Gunn diode
-	2036. Gunn effect
-	2037. gyrator
-	2038. gyroscopic sensor
+		1. See transferred electron device
+	2036. [[Gunn effect]]
+	2037. [[gyrator]]
+	2038. [[gyroscopic sensor]]
 	2039. H-bend
+		1. (H-plane; flatwise bend) See waveguide
 	2040. H-network
+		1. (H-pad; H-section) See two-port network
 
 	2041. H-pad
+		1. (H-network) See two-port network
 	2042. H-plane
+		1. (H-bend) See waveguide
 	2043. H-section
-	2044. halation
+		1. (H-network) See two-port network
+	2044. [[halation]]
 	2045. half-adder
-	2046. half-duplex
+		1. See adder
+	2046. [[half-duplex]]
 	2047. half-duplex operation
+		1. See duplex operation
 	2048. half-IF response
+		1. See IP2
 	2049. half-power beamwidth
-	2050. half-power point
+		1. See beamwidth
+	2050. [[half-power point]]
 
 	2051. half-wave dipole
-	2052. half-wave rectifier circuit
-	2053. half-wave voltage doubler
+		1. See dipole
+	2052. [[half-wave rectifier circuit]]
+	2053. [[half-wave voltage doubler]]
 	2054. half-width at half-maximum
-	2055. Hall effect
-	2056. Hall mobility(symbol: μH)
-	2057. Hall probe
+		1. (HWHM) Half of the full-width half-maximum
+	2055. [[Hall effect]]
+	2056. [[Hall mobility]]
+	2057. [[Hall probe]]
 	2058. halo
-	2059. Hamming code
+		1. See halation
+	2059. [[Hamming code]]
 	2060. Hamming window
+		1. See windowing
 
-	2061. ham radio
-	2062. handover
-	2063. handshake
-	2064. hand tracking
+	2061. [[ham radio]]
+	2062. [[handover]]
+	2063. [[handshake]]
+	2064. [[hand tracking]]
 	2065. Hanning window
-	2066. haptic interface
-	2067. hard clipping
-	2068. hard decision decoding
+		1. (raised cosine window) See windowing
+	2066. [[haptic interface]]
+	2067. [[hard clipping]]
+	2068. [[hard decision decoding]]
 	2069. hard disk
-	2070. hard disk drive
+		1. See magnetic disk
+	2070. [[hard disk drive]]
 
 	2071. hard disk head
-	2072. hardware
+		1. See magnetic disk
+	2072. [[hardware]]
 	2073. hardware compilation
-	2074. hardware description language
-	2075. hardwired
+		1. See design automation
+	2074. [[hardware description language]]
+	2075. [[hardwired]]
 	2076. hard X-rays
-	2077. harmonic
-	2078. harmonic analyser
-	2079. harmonic distortion
-	2080. harmonic generator
+		1. See X-rays
+	2077. [[harmonic]]
+	2078. [[harmonic analyzer]]
+	2079. [[harmonic distortion]]
+	2080. [[harmonic generator]]
 
 	2081. harmonic oscillator
-	2082. Hartley oscillator
-	2083. Hartshorn bridge
-	2084. Harvard architecture
-	2085. Hay bridge
-	2086. Haynes-Shockley experiment
-	2087. hazard
+		1. See oscillator
+	2082. [[Hartley oscillator]]
+	2083. [[Hartshorn bridge]]
+	2084. [[Harvard architecture]]
+	2085. [[Hay bridge]]
+	2086. [[Haynes-Shockley experiment]]
+	2087. [[hazard]]
 	2088. HB
+		1. See horizontal bridgeman
 	2089. HbbTV
+		1. See hybrid broadcast broadband TV
 	2090. HBT
+		1. See heterojunction bipolar transistor
 
 	2091. HD
+		1. See high-definition
 	2092. HDCD
+		1. See high-definition compatible digital
 	2093. HDD
+		1. See hard disk drive
 	2094. HDL
+		1. See hardware description language 
 	2095. HDMI
+		1. See high-definition multimedia interface
 	2096. HDR
-	2097. HDTV
-	2098. HD video
-	2099. head
-	2100. head-mounted display
+		1. See high dynamic range
+	2097. [[HDTV]]
+	2098. [[HD video]]
+	2099. [[head]]
+	2100. [[head-mounted display]]
 
 	2101. head-related transfer function
-	2102. head-up display
-	2103. header
+		1. See HRTF
+	2102. [[head-up display]]
+	2103. [[header]]
 	2104. headset
-	2105. hearing aid
-	2106. heat coil
-	2107. heat detector
-	2108. heater
+		1. See earphone
+	2105. [[hearing aid]]
+	2106. [[heat coil]]
+	2107. [[heat detector]]
+	2108. [[heater]]
 	2109. heating depth
-	2110. heating effect of a current
+		1. See dielectric heating
+	2110. [[heating effect of a current]]
 
-	2111. heat management
-	2112. heat sink
+	2111. [[heat management]]
+	2112. [[heat sink]]
 	2113. Heaviside layer
-	2114. hecto-(symbol: h)
-	2115. height control
-	2116. Heil tube
-	2117. helical antenna
-	2118. Helmholtz coils
-	2119. Helmholtz galvanometer
+		1. (Heaviside-kennelly layer; E-layer) See ionosphere
+	2114. [[hecto-]]
+	2115. [[height control]]
+	2116. [[Heil tube]]
+	2117. [[helical antenna]]
+	2118. [[Helmholtz coils]]
+	2119. [[Helmholtz galvanometer]]
 	2120. HEMT
+		1. See high electron mobility transistor
 
-	2121. henry(symbol: H)
-	2122. hertz(symbol: Hz)
-	2123. Hertzian dipole
-	2124. heterodyne reception
-	2125. heterojunction
-	2126. heterojunction bipolar transistor
+	2121. [[henry]]
+	2122. [[hertz]]
+	2123. [[Hertzian dipole]]
+	2124. [[heterodyne reception]]
+	2125. [[heterojunction]]
+	2126. [[heterojunction bipolar transistor]]
 	2127. heterojunction FET
+		1. See high electron mobility transistor
 	2128. heterojunction photodiode
+		1. See photodiode
 	2129. heterostructure laser
-	2130. Heusler alloys
+		1. See semiconductor laser
+	2130. [[Heusler alloys]]
 
-	2131. hexadecimal
+	2131. [[hexadecimal]]
 	2132. hexagon voltage
+		1. (mesh voltage) See voltage between lines
 	2133. HF
+		1. (high frequency) See frequency band
 	2134. hi-fi
+		1. Acronym for high fidelity. See reproduction of sound
 	2135. hi-lo Read diode
-	2136. hidden Markov model
-	2137. hierarchical design
-	2138. high-definition
-	2139. high-definition compatible digital
-	2140. high-definition multimedia interface
+		1. See IMPATT Diode
+	2136. [[hidden Markov model]]
+	2137. [[hierarchical design]]
+	2138. [[high-definition]]
+	2139. [[high-definition compatible digital]]
+	2140. [[high-definition multimedia interface]]
 
-	2141. high-density packaging
+	2141. [[high-density packaging]]
 	2142. high-frequency resistance
+		1. See skin effect
 	2143. high-level injection
+		1. See injection
 	2144. high-level programming language
+		1. See programming language
 	2145. high-pass filter
-	2146. high-temperature superconductor
-	2147. high-tension
+		1. See filter
+	2146. [[high-temperature superconductor]]
+	2147. [[high-tension]]
 	2148. high-velocity scanning
-	2149. high-voltage test
-	2150. high dynamic range
+		1. See scanning
+	2149. [[high-voltage test]]
+	2150. [[high dynamic range]]
 
-	2151. high electron mobility transistor
+	2151. [[high electron mobility transistor]]
 	2152. high fidelity
+		1. See reproduction of sound
 	2153. high frequency
+		1. (HF) See frequency band
 	2154. high logic level
-	2155. high recombination-rate contact
-	2156. histogram equalization
+		1. See logic circuit
+	2155. [[high recombination-rate contact]]
+	2156. [[histogram equalization]]
 	2157. HMD
+		1. See head-mounted display
 	2158. HMM
-	2159. holding time
-	2160. hold time
+		1. See hidden markov model
+	2159. [[holding time]]
+	2160. [[hold time]]
 
-	2161. hole
+	2161. [[hole]]
 	2162. hole-electron pair
+		1. See electron-hole pair
 	2163. hole capture
-	2164. hole conduction
-	2165. hole current
+		1. See RECOMBINATION PROCESSES.
+	2164. [[hole conduction]]
+	2165. [[hole current]]
 	2166. hole density
+		1. See carrier concentration
 	2167. hole injection
+		1. See injection
 	2168. hole mobility
-	2169. hole trap
+		1. See drift mobility
+	2169. [[hole trap]]
 	2170. homing beacon
+		1. (locator beacon) See beacon
 
 	2171. homodyne receiver
-	2172. homogeneous differential equation
-	2173. homojunction
-	2174. homopolar generator
-	2175. honeycomb coil
-	2176. hook-up
+		1. (direct conversion receiver) See also HETERODYNE RECEPTION.
+	2172. [[homogeneous differential equation]]
+	2173. [[homojunction]]
+	2174. [[homopolar generator]]
+	2175. [[honeycomb coil]]
+	2176. [[hook-up]]
 	2177. horizontal blanking
-	2178. horizontal Bridgeman
-	2179. horizontal polarization
-	2180. horizontal surround sound
+		1. See blanking
+	2178. [[horizontal Bridgeman]]
+	2179. [[horizontal polarization]]
+	2180. [[horizontal surround sound]]
 
-	2181. horn antenna
+	2181. [[horn antenna]]
 	2182. horn loudspeaker
-	2183. horseshoe magnet
+		1. See loudspeaker
+	2183. [[horseshoe magnet]]
 	2184. hot-wire ammeter
+		1. See hot-wire instrument
 	2185. hot-wire gauge
-	2186. hot-wire instrument
+		1. See pirani gauge
+	2186. [[hot-wire instrument]]
 	2187. hot cathode
-	2188. hot electron
-	2189. hot spot
-	2190. howl
+		1. See thermionic cathode
+	2188. [[hot electron]]
+	2189. [[hot spot]]
+	2190. [[howl]]
 
 	2191. h parameter
-	2192. HRTF
+		1. (hybrid parameter) See network
+	2192. [[HRTF]]
 	2193. HT
+		1. See high-tension
 	2194. HTML
+		1. See hypertext markup language
 	2195. HTS
+		1. (high-temperature superconductor) See superconductivity
 	2196. HTTP
+		1. See hypertext transfer protocol
 	2197. HUD
-	2198. hum
-	2199. hum modulation
-	2200. hunting
+		1. See head-up display
+	2198. [[hum]]
+	2199. [[hum modulation]]
+	2200. [[hunting]]
 
-	2201. Huygens' principle
+	2201. [[Huygens' principle]]
 	2202. H wave
+		1. (TE wave) See mode
 	2203. HWHM
+		1. See half-width at half-maximum
 	2204. hybrid-π model
-	2205. hybrid broadcast broadband TV
-	2206. hybrid drive
+		1. See transistor parameters
+	2205. [[hybrid broadcast broadband TV]]
+	2206. [[hybrid drive]]
 	2207. hybrid integrated circuit
-	2208. hybrid junction
+		1. See integrated circuit
+	2208. [[hybrid junction]]
 	2209. hybrid parameters
+		1. See transistor parameters; network
 	2210. hydrogen electrode
+		1. See electrochemical series
 
-	2211. hydrophone
-	2212. hyperabrupt varactor
-	2213. hypercardioid microphone
-	2214. hypercube
-	2215. hyperspectral image
-	2216. hypertext markup language
-	2217. hypertext transfer protocol
-	2218. hysteresis
-	2219. hysteresis distortion
+	2211. [[hydrophone]]
+	2212. [[hyperabrupt varactor]]
+	2213. [[hypercardioid microphone]]
+	2214. [[hypercube]]
+	2215. [[hyperspectral image]]
+	2216. [[hypertext markup language]]
+	2217. [[hypertext transfer protocol]]
+	2218. [[hysteresis]]
+	2219. [[hysteresis distortion]]
 	2220. hysteresis factor
+		1. See magnetic hysteresis
 
 	2221. hysteresis loop
+		1. See magnetic hysteresis
 	2222. hysteresis loss
-	2223. hysteresis meter
+		1. (1) See magnetic hysteresis
+		2. (2) See electric hysteresis loss
+	2223. [[hysteresis meter]]
 	2224. Hz
+		1. Symbol for hertz
 	2225. i-type semiconductor
+		1. See intrinsic semiconductor
 	2226. I/O
-	2227. I2L
+		1. See input/output
+	2227. [[integrated injection logic]]
 	2228. I2R loss
+		1. (copper loss) See dissipation; heating effect of a current
 	2229. IC
+		1. See integrated circuit
 	2230. ICA
+		1. See independent component analysis
 
-	2231. I channel
-	2232. ideal crystal
+	2231. [[I channel]]
+	2232. [[ideal crystal]]
 	2233. ideal diode equation
-	2234. ideal transducer
+		1. (Shockley equation) See P-N junction
+	2234. [[ideal transducer]]
 	2235. ideal transformer
+		1. (perfect transformer) See transformer
 	2236. idle component
+		- (1) (of current) See reactive current
+		- (2) (of voltage) See reactive voltage
+		- (3) (of volt-amperes) See reactive volt-amperes
 	2237. IEC
+		1. (International Electrotechnical Commission) See standardization
 	2238. IEEE
-	2239. IEEE-488 standard
+		1. (Institute of Electrical and Electronics Engineers) See standardization
+	2239. [[IEEE-488 standard]]
 	2240. IF
+		1. (intermediate frequency) See heterodyne reception; Mixer
 
 	2241. iff
+		1. (if and only if) See logic circuit
 	2242. IF strip
+		1. See heterodyne reception
 	2243. IGBT
+		1. See insulated-gate bipolar transistor
 	2244. IGFET
-	2245. IGMF filter
+		1. (insulated-gate field-effect transistor) See field-effect transistor
+	2245. [[IGMF filter]]
 	2246. IIR filter
+		1. (infinite impulse response filter) See digital filter
 	2247. IM
+		1. See intermodulation
 	2248. image
+		1. See digital image; electric image
 	2249. image-force lowering
+		1. See schottky effect
 	2250. image attenuation constant
+		1. (image attenuation coefficient) see image transfer constant
 
 	2251. image charge
-	2252. image converter
-	2253. image dissector
+		1. See electric image
+	2252. [[image converter]]
+	2253. [[image dissector]]
 	2254. image filter
+		1. See heterodyne reception
 	2255. image force
-	2256. image frequency
-	2257. image impedances
+		1. See electric image
+	2256. [[image frequency]]
+	2257. [[image impedances]]
 	2258. image interference
+		1. See image frequency
 	2259. image phase constant
-	2260. image potential
+		1. (image phase-change coefficient) See image transfer constant
+	2260. [[image potential]]
 
-	2261. image processing
+	2261. [[image processing]]
 	2262. image ratio
-	2263. image recognition
-	2264. image rectification
-	2265. image registration
-	2266. image scanner
-	2267. image segmentation
-	2268. image stabilization
-	2269. image stitching
-	2270. image transfer constant(symbol: θ)
+		1. See image frequency
+	2263. [[image recognition]]
+	2264. [[image rectification]]
+	2265. [[image registration]]
+	2266. [[image scanner]]
+	2267. [[image segmentation]]
+	2268. [[image stabilization]]
+	2269. [[image stitching]]
+	2270. [[image transfer constant]]
 
 	2271. image tube
-	2272. imaginary number
-	2273. imaginary part of a complex number
+		1. See image converter
+	2272. [[imaginary number]]
+	2273. [[imaginary part of a complex number]]
 	2274. immersion plating
-	2275. immersive digital environment
+		1. See electroless plating
+	2275. [[immersive digital environment]]
 	2276. immunity
-	2277. impact ionization
-	2278. IMPATT diode
-	2279. impedance
+		1. See ELECTROMAGNETIC COMPATIBILITY.
+	2277. [[impact ionization]]
+	2278. [[IMPATT diode]]
+	2279. [[impedance]]
 	2280. impedance coupling
+		1. See coupling
 
-	2281. impedance matching
+	2281. [[impedance matching]]
 	2282. impedance scaling
-	2283. impedor
+		1. See denormalization
+	2283. [[impedor]]
 	2284. imperfect dielectric
-	2285. impulse generator
-	2286. impulse noise
-	2287. impulse response
-	2288. impulse voltage
-	2289. impurities
+		1. See dielectric
+	2285. [[impulse generator]]
+	2286. [[impulse noise]]
+	2287. [[impulse response]]
+	2288. [[impulse voltage]]
+	2289. [[impurities]]
 	2290. IM rejection
+		1. See $IP_3$.
 
 	2291. IMU
+		1. See inertial measurement unit
 	2292. in-phase component
+		1. (1) (of a current or voltage) See active current; active voltage
+		2. (2) (of the volt-amperes) See active volt-amperes.
 	2293. inactive interval
-	2294. incandescence
+		1. See sawtooth waveform
+	2294. [[incandescence]]
 	2295. incident current
-	2296. increment
+		1. (initial current) See reflection coefficient
+	2296. [[increment]]
 	2297. incremental permeability
-	2298. independent component analysis
-	2299. index error
-	2300. indicating instrument
+		1. See permeability
+	2298. [[independent component analysis]]
+	2299. [[index error]]
+	2300. [[indicating instrument]]
 
-	2301. indirect-gap semiconductor
+	2301. [[indirect-gap semiconductor]]
 	2302. indirectly heated cathode
+		1. See thermionic cathode
 	2303. indirect photoconductivity
-	2304. indirect wave
+		1. (phonon-assisted photoconductivity) See photoconductivity
+	2304. [[indirect wave]]
 	2305. indium phosphide
-	2306. indoor positioning system
-	2307. induce
-	2308. induced current
+		1. See compound semiconductor
+	2306. [[indoor positioning system]]
+	2307. [[induce]]
+	2308. [[induced current]]
 	2309. induced dipole moment
+		1. See dipole
 	2310. induced electromotive force
+		1. See electromagnetic induction
 
-	2311. induced noise
-	2312. inductance
+	2311. [[induced noise]]
+	2312. [[inductance]]
 	2313. induction
-	2314. induction coil
-	2315. induction compass
-	2316. induction flowmeter
-	2317. induction heating
-	2318. induction instrument
-	2319. induction microphone
-	2320. induction motor
+		1. See ELECTROMAGNETIC INDUCTION; ELECTROSTATIC INDUCTION.
+	2314. [[induction coil]]
+	2315. [[induction compass]]
+	2316. [[induction flowmeter]]
+	2317. [[induction heating]]
+	2318. [[induction instrument]]
+	2319. [[induction microphone]]
+	2320. [[induction motor]]
 
-	2321. inductive
-	2322. inductive-output device
+	2321. [[inductive]]
+	2322. [[inductive-output device]]
 	2323. inductive coupling
+		1. See coupling
 	2324. inductive feedback
-	2325. inductive interference
+		1. See feedback
+	2325. [[inductive interference]]
 	2326. inductive load
+		1. See lagging load
 	2327. inductive reactance
+		1. See reactance
 	2328. inductive tuning
-	2329. inductor
-	2330. Industrial, Scientific and Medical
+		1. See tuned circuit
+	2329. [[inductor]]
+	2330. [[Industrial, Scientific and Medical]]
 
-	2331. inert cell
-	2332. inertial measurement unit
-	2333. inertia switch
+	2331. [[inert cell]]
+	2332. [[inertial measurement unit]]
+	2333. [[inertia switch]]
 	2334. infinite impulse response filter
+		1. See digital filter
 	2335. information satellite
-	2336. information technology
-	2337. information theory
+		1. See satellite
+	2336. [[information technology]]
+	2337. [[information theory]]
 	2338. infrared image converter
-	2339. infrared radiation
+		1. See image converter
+	2339. [[infrared radiation]]
 	2340. inherent weakness failure
+		1. See failure
 
-	2341. inhibiting input
-	2342. inhomogeneous differential equation
+	2341. [[inhibiting input]]
+	2342. [[inhomogeneous differential equation]]
 	2343. initial current
-	2344. injection
-	2345. injection efficiency
-	2346. inkjet printer
-	2347. input
-	2348. input/output
-	2349. input characteristic
-	2350. input impedance
+		1. (incident current) See reflection coefficient
+	2344. [[injection]]
+	2345. [[injection efficiency]]
+	2346. [[inkjet printer]]
+	2347. [[input]]
+	2348. [[input-output]]
+	2349. [[input characteristic]]
+	2350. [[input impedance]]
 
-	2351. insertion loss
-	2352. instantaneous automatic gain control
-	2353. instantaneous carrying-current
-	2354. instantaneous frequency
-	2355. instantaneous power
+	2351. [[insertion loss]]
+	2352. [[instantaneous automatic gain control]]
+	2353. [[instantaneous carrying-current]]
+	2354. [[instantaneous frequency]]
+	2355. [[instantaneous power]]
 	2356. instantaneous sampling
-	2357. instantaneous value
+		1. See sampling
+	2357. [[instantaneous value]]
 	2358. Institute of Electrical and Electronics Engineers, Inc.
-	2359. instruction fetch
-	2360. instruction register
+		1. (IEEE) See standardization
+	2359. [[instruction fetch]]
+	2360. [[instruction register]]
 
-	2361. instruction set
-	2362. instrumentation amplifier
-	2363. instrument damping
-	2364. instrument rating
-	2365. instrument sensitivity
+	2361. [[instruction set]]
+	2362. [[instrumentation amplifier]]
+	2363. [[instrument damping]]
+	2364. [[instrument rating]]
+	2365. [[instrument sensitivity]]
 	2366. instrument shunt
-	2367. instrument transformer
-	2368. insulate
-	2369. insulated-gate bipolar transistor
+		1. See shunt
+	2367. [[instrument transformer]]
+	2368. [[insulate]]
+	2369. [[insulated-gate bipolar transistor]]
 	2370. insulated-gate field-effect transistor
+		1. (IGFET) See field-effect transistor
 
-	2371. insulating barrier
-	2372. insulating resistance
-	2373. insulation
-	2374. insulator
-	2375. integer
+	2371. [[insulating barrier]]
+	2372. [[insulating resistance]]
+	2373. [[insulation]]
+	2374. [[insulator]]
+	2375. [[integer]]
 	2376. integer unit
-	2377. integrated circuit
+		1. (IU) See arithmetic logic unit
+	2377. [[integrated circuit]]
 	2378. integrated injection logic
 	2379. integrated Schottky logic
 	2380. integrating array

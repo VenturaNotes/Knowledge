@@ -16,6 +16,8 @@ aliases:
 - (IT) The use of computers and other electronic means to process and distribute information. Information can be transferred between computers using cables, satellite links, or telephone lines and the cellular network (mobile phones). Networks of connected computers can be used to send e-mail, to interrogate remote databases using the Internet, and to transmit sound, pictures, and moving images. These systems also enable electronic transfer of funds between banks, as well as home banking, automated screen trading in stocks and shares, and the buying of goods and services online. In doing so, they have played a major role in the globalization of financial and other markets since the 1980s. The entertainment industry has seen a similar convergence of the broadcast media with computers and telecommunications.
 ## Source[^5]
 - $n$. The study or use of computers, telecommunication systems, and other devices for storing, retrieving, and transmitting information (2). See also information theory. IT abbrev.
+## Source[^6]
+- (IT) The technology of the production, storage, and communication of information, using computers and microelectronics. 
 ## References
 
 [^1]: https://www.snhu.edu/about-us/newsroom/stem/what-is-information-technology#:~:text=Information%20technology%20(IT)%20is%20a,information%2C%20and%20troubleshooting%20computer%20problems.
@@ -23,3 +25,4 @@ aliases:
 [^3]: [[(Home Page) Glossary by Capterra]]
 [^4]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
