@@ -10,7 +10,10 @@
 		- 3rd harmonic (2nd overtone)
 ## Source[^2]
 - An oscillation having a frequency that is a simple multiple of a fundamental sinusoidal oscillation. The fundamental frequency of a sinusoidal oscillation is usually called the first harmonic. The second harmonic has a frequency twice that of the fundamental, and so on.
+## Source[^3]
+- An oscillation of a periodic quantity, present in a complex vibration, having a frequency that is an integer multiple of the fundamental frequency; the fundamental frequency is also known as the first harmonic. An oscillation having a frequency that is an integer submultiple of the fundamental is termed a subharmonic. In practice the fundamental need not necessarily be present.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
