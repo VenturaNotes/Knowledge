@@ -19,6 +19,8 @@
 ## Source[^5]
 - (the Net) A global communications system consisting of millions of computer networks interconnected by modems, telephone cables, wireless networks, and satellite links, with associated software controlling the movement of data. It offers facilities for accessing remote databases, transfer of data between computers, and e-mail. In addition, there are high-level services. MBONE (multicast backbone service), for example, allows transmission to more than one destination and is used for videoconferencing. The World Wide Web is a multimedia facility allowing pictures, sound, and video to be displayed. A particular feature of the Web is the availability of hyperlinks between pages and documents.
 - Originally, the Internet was mainly used by the academic community, but the wider availability of personal computers led to an enormous growth in the number of individual users during the 1990s and 2000s: in 2003 it was estimated that some $77 \%$ of people in the developed world were Internet users. This has resulted in ever increasing commercial exploitation in such areas as electronic shopping, B2B trading, supply-chain management, home banking, financial services, advertising, marketing research, and customer contact (see DIGITAL ECONOMY). Recent developments include the growth of cloud computing, social media, and access to the Internet via mobile devices (smartphones and tablet computers). See also INFORMATION TECHNOLOGY.
+## Source[^6]
+- The worldwide matrix of interconnecting computers running the TCP/IP protocol, the successor of the original Arpanet.
 ## References
 
 [^1]: [[(1) CS 528 - Mobile and Ubiquitous Computing (2-5-24)]]
@@ -26,3 +28,4 @@
 [^3]: https://quizizz.com/admin/quiz/5da881f925473f001a69cc22/wireless-networks
 [^4]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

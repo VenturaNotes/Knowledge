@@ -8,6 +8,9 @@
 	- (d) Action by operators. An operator wishing to communicate with the supervisor may cause an interrupt.
 	- (e) Timer interrupts. Many systems incorporate a timer that causes interrupts at fixed intervals of time as a means of guaranteeing that the supervisor will be entered periodically.
 - See also INTERRUPT HANDLER.
+## Source[^2]
+- In computing, an asynchronous execution initiated by an external device, such as a timer or an I/O controller.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

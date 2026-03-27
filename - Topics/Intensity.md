@@ -5,7 +5,12 @@
 ## Source[^2]
 - (1) (in atomic spectra) The strength or brightness of a spectral line. This depends on the probability of a transition between the two energy levels responsible for the line, the populations of the energy levels, and the number of atoms being observed. Similar considerations apply to the intensities of molecular spectroscopy. 
 - (2) (in X-ray diffraction) The strength of a spot in a diffraction pattern. This depends on various factors, such as the diffraction angle and the temperature.
+## Source[^3]
+- (1) Short for magnetic intensity or electric intensity (both obsolete terms). See MAGNETIC FIELD STRENGTH; ELECTRIC FIELD STRENGTH. 
+- (2) The rate of flow of sound energy through unit area perpendicular to the direction of flow. 
+- (3) The rate of flow of light or other radiant energy emitted or reflected by a surface in a given direction per unit area.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

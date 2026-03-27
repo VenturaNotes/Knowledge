@@ -6,8 +6,12 @@
 - prefix denoting a thousand.
 ## Source[^3]
 - Symbol k. A prefix used in the metric system to denote 1000 times. For example, 1000 volts $=1$ kilovolt $(\mathrm{kV})$.
+## Source[^4]
+- (1) (Symbol: k) A prefix to a unit, denoting a multiple of $10^{3}$ (i.e. 1000) of that unit: one kilometer equals $10^{3}$ meters. 
+- (2) (Symbol: k or K) A prefix used in computing to denote a multiple of $2^{10}$ (i.e. 1024). See Kilobit; Kilobyte.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

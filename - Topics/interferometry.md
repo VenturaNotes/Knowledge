@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- Techniques that use wave interference between several superimposed electromagnetic beams to perform very precise distance measurements. When two waves of the same frequency meet at a point, the superposition principle means that their relative phase can be determined by the degree to which the observed amplitude at that point differs from the amplitudes of the two beams. If one of the beams has to travel slightly further, due for example to movement of its source, then it is possible to detect the shift in that beam to an accuracy considerably below the wavelength of the beams involved. This technique was used in the Michelson–Morley experiment of 1887, which confirmed the constant nature of the speed of light. Many laser-based distance-measuring devices use this principle. Interferometry can also be used to take signals from a number of small radio telescopes with a wide geographic spread to produce an image with the resolving power of one large telescope whose diameter is the same as the largest distance between the small telescopes. This technique is known as very-long-baseline interferometry, and is an example of aperture synthesis.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

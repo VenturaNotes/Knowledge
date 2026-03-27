@@ -80,7 +80,7 @@ while True:
 	- The output will be a `SyntaxError` because `i += 1` is invalid syntax in Python. There should be no space between `+` and `=`. The correct syntax is `i += 1`
 	- #question What does SyntaxError look like in Python?
 - (12) Which of the following functions can help us to find the version of python that we are currently working on?
-#active
+#pause
 ## (1) Python MCQ on Variable Names & Operators
 ### (1.1) Python Variable Names
 - (1) Is Python case sensitive when dealing with identifiers
@@ -857,7 +857,7 @@ print([t[i] for i in range(0, len(t), 2)])
 - `[1,4,8]`
 	- The list comprehension picks every second element from the tuple starting at index 0. This gives elements at indices 0, 2, and 4, resulting in `[1, 4, 8]`
 
-#active
+#pause
 ### (10.2) Python Tuples - 2
 ### (10.3) Python Tuples - 3
 ## (11) MCQ on Python Sets
@@ -937,7 +937,7 @@ print(a^b)
 ```
 - The `^` operator performs a [[Symmetric Difference]], which returns elements that are in either `a` or `b`, but not in both. Since 7 and 8 are common in both sets, they are excluded. The result is `{5, 6, 10, 11}`
 
-#active 
+#pause
 ###  (11.2) Python Sets - 2
 ### (11.3) Python Sets - 3
 ### (11.4) Python - 4

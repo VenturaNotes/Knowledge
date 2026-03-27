@@ -6,8 +6,11 @@
 - adj. Having the same properties in all directions or with respect to all axes. Compare anisotropic. isotropism or isotropy $n$. \[From Greek isos equal or the same + tropos a turn, from trepein to turn]
 ## Source[^3]
 - Denoting a medium whose physical properties are independent of direction. Compare Anisotropic.
+## Source[^4]
+- Denoting a substance or medium in which physical properties, such as magnetic susceptibility, are the same in all directions.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

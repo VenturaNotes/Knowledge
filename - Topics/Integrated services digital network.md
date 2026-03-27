@@ -14,8 +14,11 @@ aliases:
 - ISDN has been superseded by ADSL for Internet access, but its high quality of service makes it popular for verbal communication. It remains a core technology in the telephone network.
 ## Source[^3]
 - ISDN is a type of digital network that allows the transfer of data, voice, and video over a single line. ISDN is also known as a virtual circuit because it provides services such as teleconferencing or video conferencing without requiring special hardware or software at each endpoint.
+## Source[^4]
+- (integrated services digital network) A definition for global digital data communications. Its purpose is to ensure that people, computers, and other devices can communicate over standardized connection facilities. The criteria include the setting of standards in such a way that users have access through a limited set of multipurpose interfaces. ISDN has definitions for data-transmission speeds, or capacities, of channels and the number of channels in each service. See also DIGITAL COMMUNICATIONS.
 ## References
 
 [^1]: https://youtu.be/HGYOEeik844?si=dCv-AZS0AFMwsApv
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Glossary by Capterra]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

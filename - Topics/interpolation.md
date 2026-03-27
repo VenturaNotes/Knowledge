@@ -6,8 +6,11 @@
 - Estimation of the value of an unknown quantity that lies between two of a series of known values. For example, one can estimate by interpolation the population of a country at any time between known 10-year census figures. This would normally be done on a graph, the shape of the curve between known points enabling a good estimate to be made of the interpolated value. Extrapolation involves estimating an unknown quantity that lies outside a series of known values. Thus one could obtain a figure for the population of a country five years after its last census, by extending the population curve after the last known value.
 ## Source[^3]
 - Inserting missing data in a sample, usually by calculating the prediction based on the available data.
+## Source[^4]
+- A method that enables additional values to be obtained between sampled values of a signal.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
