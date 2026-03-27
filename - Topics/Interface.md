@@ -16,7 +16,10 @@
 - (3) Specification of the communication between two program units. For example, if a procedure does not refer to nonlocal variables, its interface is defined by the parameter list. Careful definition of interfaces makes it possible to use a program unit without knowledge of its internal working, and is vital to the design of a system that is to be implemented by a team of programmers. The concept is an important feature of Ada; in Ada a package is defined in two parts, the interface and the body. The interface specifies exactly what identifiers are visible outside the package, and is sufficient to permit separate compilation of program units that use the package. Similar facilities are found in most modern programming languages and they are essential features of object-oriented languages such as C++ and Java. 
 - (4) To provide an interface. 
 - (5) To interact.
+## Source[^3]
+- The electronic circuitry used to connect two or more devices, usually required to compensate for differences in speed, signal levels, and/or codes between the connecting devices. The devices are generally computer components or systems.
 ## References
 
 [^1]: https://spdload.com/blog/software-development-glossary/
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

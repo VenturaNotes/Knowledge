@@ -7,6 +7,11 @@
 - Karnaugh maps are useful for expressions of perhaps up to six variables. When $n>6$, the maps become unwieldy and too complex. Alternative methods of simplification, such as the Quine-McCluskey algorithm, are then preferable.
 - ![[Screenshot 2025-03-12 at 11.42.58 PM.png]]
 	- Karnaugh maps
+## Source[^2]
+- (K-map) A tabular form by which binary information may be represented and which allows functions to be simplified. For functions involving $n$ variables, the data are in $2^n$ adjacent boxes and are grouped using the Boolean identity. $$ABC + ABC' = AB(C + C') = AB$$where $C'$ is the complement (or negative) of $C$. The coding of the boxes is such that any two adjacent boxes only differ by a one bit change (see GRAY CODE). A 3-variable Karnaugh map is shown in the diagram.
+- ![[Pasted image 20260327133654.png|400]]
+	- Karnaugh map for 3 variables
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -3372,193 +3372,246 @@ tags:
 		1. (IU) See arithmetic logic unit
 	2377. [[integrated circuit]]
 	2378. integrated injection logic
+		1. See $I^2L$
 	2379. integrated Schottky logic
+		1. (ISL; Schottky $I^2L$) See $I^2L$
 	2380. integrating array
+		1. See solid-state camera
 
-	2381. integrating frequency meter
+	2381. [[integrating frequency meter]]
 	2382. integrating wattmeter
-	2383. integrator
+		1. See watt-hour meter
+	2383. [[integrator]]
 	2384. intelligent antenna
+		1. See smart antenna
 	2385. intelligent terminal
-	2386. intelligibility
+		1. See terminal
+	2386. [[intelligibility]]
 	2387. intelligible crosstalk
-	2388. intensity
-	2389. intensity modulation
-	2390. interaction space
+		1. See crosstalk
+	2388. [[intensity]]
+	2389. [[intensity modulation]]
+	2390. [[interaction space]]
 
-	2391. interactive
-	2392. intercarrier system
+	2391. [[interactive]]
+	2392. [[intercarrier system]]
 	2393. interconnecting feeder
-	2394. interconnection
+		1. See trunk feeder
+	2394. [[interconnection]]
 	2395. interconnector
-	2396. interdigital transducer
+		1. See trunk feeder
+	2396. [[interdigital transducer]]
 	2397. interdigitated capacitor
-	2398. interelectrode capacitance
+		1. See monolithic capacitor
+	2398. [[interelectrode capacitance]]
 	2399. [[interest point]]
-	2400. interface
+	2400. [[interface]]
 
-	2401. interference
+	2401. [[interference]]
 	2402. interference fading
-	2403. interferometry
-	2404. interior orientation parameters
+		1. See fading
+	2403. [[interferometry]]
+	2404. [[interior orientation parameters]]
 	2405. interlaced scanning
-	2406. interleaving
+		1. See television
+	2406. [[interleaving]]
 	2407. interline transfer device
-	2408. interlock
+		1. See solid-state camera
+	2408. [[interlock]]
 	2409. intermediate frequency
+		1. (IF) See heterodyne reception; mixer.
 	2410. intermittent duty
+		1. See duty
 
-	2411. intermodulation
+	2411. [[intermodulation]]
 	2412. intermodulation distortion
+		1. (combination-tone distortion) See distortion
 	2413. internal photoelectric effect
-	2414. internal resistance(symbol: r; unit: ohm)
-	2415. international ampere(symbol: Aint)
+		1. See photoconductivity
+	2414. [[internal resistance]]
+	2415. [[international ampere]]
 	2416. International Electrotechnical Commission
+		1. (IEC) See standardization
 	2417. International Standards Organization
-	2418. international system
+		1. (ISO) See standardization
+	2418. [[international system]]
 	2419. International Telecommunication Union
-	2420. Internet
+		1. (ITU) See standardization
+	2420. [[Internet]]
 
 	2421. Internet Protocol
-	2422. Internet television
-	2423. interpolation
+		1. See IP
+	2422. [[Internet television]]
+	2423. [[interpolation]]
 	2424. interrogating signal
-	2425. interrupt
-	2426. interrupter
-	2427. interstage coupling
-	2428. intersymbol interference
-	2429. intraconnection
-	2430. Intranet
+		1. See transponder
+	2425. [[interrupt]]
+	2426. [[interrupter]]
+	2427. [[interstage coupling]]
+	2428. [[intersymbol interference]]
+	2429. [[intraconnection]]
+	2430. [[Intranet]]
 
-	2431. intrinsic conductivity
+	2431. [[intrinsic conductivity]]
 	2432. intrinsic density
-	2433. intrinsic mobility
+		1. See carrier concentration
+	2433. [[intrinsic mobility]]
 	2434. intrinsic photoconductivity
-	2435. intrinsic semiconductor
-	2436. intrinsic temperature range
-	2437. inverse Chebyshev filter
+		1. See photoconductivity
+	2435. [[intrinsic semiconductor]]
+	2436. [[intrinsic temperature range]]
+	2437. [[inverse Chebyshev filter]]
 	2438. inverse feedback
-	2439. inverse filter
-	2440. inverse function
+		1. (negative feedback) See feedback
+	2439. [[inverse filter]]
+	2440. [[inverse function]]
 
-	2441. inverse gain
+	2441. [[inverse gain]]
 	2442. inverse limiter
-	2443. inverse problem
-	2444. inverse trigonometric functions
-	2445. inversion
-	2446. inverter
-	2447. inverting amplifier
-	2448. inverting transistor
-	2449. ion
-	2450. ion-beam analysis
+		1. (base limiter) See limiter
+	2443. [[inverse problem]]
+	2444. [[inverse trigonometric functions]]
+	2445. [[inversion]]
+	2446. [[inverter]]
+	2447. [[inverting amplifier]]
+	2448. [[inverting transistor]]
+	2449. [[ion]]
+	2450. [[ion-beam analysis]]
 
-	2451. ion-beam lithography
-	2452. ionic atmosphere
-	2453. ionic bond
-	2454. ionic conduction
-	2455. ionic crystal
-	2456. ionic semiconductor
-	2457. ion implantation
-	2458. ionization
-	2459. ionization chamber
-	2460. ionization current
+	2451. [[ion-beam lithography]]
+	2452. [[ionic atmosphere]]
+	2453. [[ionic bond]]
+	2454. [[ionic conduction]]
+	2455. [[ionic crystal]]
+	2456. [[ionic semiconductor]]
+	2457. [[ion implantation]]
+	2458. [[ionization]]
+	2459. [[ionization chamber]]
+	2460. [[ionization current]]
 
-	2461. ionization gauge
-	2462. ionization potential(symbol: I; unit: electronvolt)
-	2463. ionizing event
-	2464. ionizing radiation
+	2461. [[ionization gauge]]
+	2462. [[ionization potential]]
+	2463. [[ionizing event]]
+	2464. [[ionizing radiation]]
 	2465. ion microprobe
+		1. See secondary-ion mass spectroscopy
 	2466. ion milling
-	2467. ionosphere
-	2468. ionospheric focusing
-	2469. ionospheric wave
-	2470. ion source
+		1. See etching
+	2467. [[ionosphere]]
+	2468. [[ionospheric focusing]]
+	2469. [[ionospheric wave]]
+	2470. [[ion source]]
 
-	2471. ion spot
-	2472. ion trap
+	2471. [[ion spot]]
+	2472. [[ion trap]]
 	2473. IOP
-	2474. IP
-	2475. IP-enabled device
-	2476. IP2
-	2477. IP3
-	2478. IP camera
+		1. See interior orientation parameters
+	2474. [[internet protocol|IP]]
+	2475. [[IP-enabled device]]
+	2476. [[second-order intercept point]]
+	2477. [[third-order intercept point]]
+	2478. [[IP camera]]
 	2479. IP cores
-	2480. IP phone
+		1. See design automation
+	2480. [[IP phone]]
 
 	2481. iris
-	2482. iron(symbol: Fe)
+		1. See waveguide
+	2482. [[iron]]
 	2483. iron loss
-	2484. irradiation
-	2485. ISDN
+		1. See core loss
+	2484. [[irradiation]]
+	2485. [[Integrated services digital network|ISDN]]
 	2486. ISM
+		1. See industrial, scientific and medical
 	2487. ISO
-	2488. isoelectronic
-	2489. isolating
-	2490. isolating transformer
+		1. (International Standards Organization) See standardization
+	2488. [[isoelectronic]]
+	2489. [[isolating]]
+	2490. [[isolating transformer]]
 
-	2491. isolation diode
-	2492. isolator
-	2493. isotropic
-	2494. isotropic radiator
+	2491. [[isolation diode]]
+	2492. [[isolator]]
+	2493. [[isotropic]]
+	2494. [[isotropic radiator]]
 	2495. IT
-	2496. iterative impedance
+		1. See information technology
+	2496. [[iterative impedance]]
 	2497. ITU
-	2498. j
+		1. (International Telecommunication Union) See standardization
+	2498. [[j]]
 	2499. J-K
-	2500. jack plug and socket
+		1. (JK) See Flip-Flop
+	2500. [[jack plug and socket]]
 
-	2501. jamming
+	2501. [[jamming]]
 	2502. Jansky noise
+		1. (galactic noise) See radio noise.
 	2503. JEDEC
+		1. See joint electronic device engineering council.
 	2504. JFET
+		1. (junction field-effect transistor) See field-effect transistor
 	2505. JFIF
-	2506. jitter
-	2507. Johnson-Lark-Harowitz effect
+		1. (JPEG file interchange format) See JPEG
+	2506. [[jitter]]
+	2507. [[Johnson-Lark-Harowitz effect]]
 	2508. Johnson noise
-	2509. Joint Electronic Device Engineering Council
-	2510. Josephson effect
+		1. (thermal noise) See noise
+	2509. [[Joint Electronic Device Engineering Council]]
+	2510. [[Josephson effect]]
 
-	2511. Josephson memory
-	2512. joule(symbol: J)
+	2511. [[Josephson memory]]
+	2512. [[joule]]
 	2513. Joule effect
+		1. See heating effect of a current
 	2514. Joule magnetostriction
-	2515. JPEG
-	2516. jump
-	2517. jumper
-	2518. junction
+		1. (positive magnetostriction) See magnetostriction
+	2515. [[Joint Photographic Expert Group|JPEG]]
+	2516. [[jump]]
+	2517. [[jumper]]
+	2518. [[junction]]
 	2519. junction field-effect transistor
+		1. (JFET) See field-effect transistor
 	2520. K-map
+		1. See karnaugh map
 
 	2521. k-space
-	2522. Ka band
+		1. See momentum space
+	2522. [[Ka band]]
 	2523. Kaiser window
-	2524. Karnaugh map
-	2525. K band
+		1. See windowing
+	2524. [[Karnaugh map]]
+	2525. [[K band]]
 	2526. keep-alive circuit
-	2527. kelvin(symbol: K)
-	2528. Kelvin-Varley slide
-	2529. Kelvin balance
-	2530. Kelvin contacts
+		1. See transmit-receive switch.
+	2527. [[kelvin]]
+	2528. [[Kelvin-Varley slide]]
+	2529. [[Kelvin balance]]
+	2530. [[Kelvin contacts]]
 
-	2531. Kelvin double bridge
+	2531. [[Kelvin double bridge]]
 	2532. Kelvin effect
+		1. (Thomson effect) See thermoelectric effects
 	2533. Kennelly-Heaviside layer
-	2534. Kerr effects
-	2535. keyboard
-	2536. key frames
+		1. (E-layer) See ionosphere
+	2534. [[Kerr effects]]
+	2535. [[keyboard]]
+	2536. [[key frames]]
 	2537. keystone distortion
-	2538. 4K HD
-	2539. kilo-
-	2540. kilobit
+		1. See distortion
+	2538. [[4K HD]]
+	2539. [[kilo-]]
+	2540. [[kilobit]]
 
-	2541. kilobyte
-	2542. kilogram(symbol: kg)
-	2543. kilowatt-hour(symbol: kWh)
-	2544. Kirchhoff's laws
-	2545. klystron
-	2546. Koch resistance
+	2541. [[kilobyte]]
+	2542. [[kilogram]]
+	2543. [[kilowatt-hour]]
+	2544. [[Kirchhoff's laws]]
+	2545. [[klystron]]
+	2546. [[Koch resistance]]
 	2547. Kronig-Penney model
-	2548. Ku band
+		1. (energy band structure) See quantum mechanics
+	2548. [[Ku band]]
 	2549. L-C network
 	2550. L-section
 

@@ -13,6 +13,11 @@ aliases:
 - See also MPEG.
 - http://www.w3.org/Graphics/JPEG/itu-t81.pdf
 	- The JPEG standard (CCITT recommendation T.81)
+## Source[^2]
+- (Joint Photographic Experts Group) A standardized image compression mechanism, named after the committee that originally wrote the standard. It was designed for compression of natural real-world scenes captured as full-color or grey-scale images. JPEG uses lossy compression to achieve significantly reduced storage requirements compared with lossless compression. It is designed to exploit known limitations of the human eye, namely less accurate perception of small colour variations compared to small brightness variations. An attractive feature is that the degree of 'lossiness', and hence the file size, can be changed by adjusting the compression parameters. The term JPEG strictly applies to the transformation of an image into a stream of bytes; the JPEG file interchange format (JFIF) specifies how to produce a file from the stream and is generally used for most JPEGs.
+- https://jpeg.org/
+	- Website of the Joint Photographic Experts Group (JPEG)
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

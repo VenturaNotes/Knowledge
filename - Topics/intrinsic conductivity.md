@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- The conductivity of a semiconductor associated with the semiconductor material itself and not contributed by impurities. At any given temperature, equal numbers of electrons and holes are thermally generated and these give rise to the intrinsic conductivity. The numbers of charge carriers are dependent on temperature and the conductivity, $\sigma$, is a function of temperature:$$\sigma = A \exp \left(\frac {E _ {\mathrm {g}}}{2 k T}\right),$$where $A$ is a constant that depends on the particular material, $E_{\mathrm{g}}$ is the band-gap energy, $k$ is the Boltzmann constant, and $T$ the thermodynamic temperature.
+- In an extrinsic semiconductor, the intrinsic conductivity is usually negligible compared to the extrinsic conductivity at normal working temperatures. At sufficiently high temperatures however the numbers of thermally generated carriers become much larger than those contributed by impurities and the semiconductor becomes intrinsic (see INTRINSIC TEMPERATURE RANGE). In practice, at room temperature, the intrinsic carrier concentration in silicon is about $10^{10}$ per $\mathrm{cm}^3$. The minimum impurity carrier concentration obtainable in silicon is about $10^{14}$ per $\mathrm{cm}^3$, hence the extrinsic carrier concentration is about $10^4$ times greater than the intrinsic value.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

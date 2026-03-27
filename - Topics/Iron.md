@@ -5,7 +5,10 @@
 - Many preparations of iron are used to treat iron-deficiency anaemia. These include preparations taken by mouth, such as ferrous sulphate, and those administered by injection, such as iron dextran.
 ## Source[^2]
 - Symbol Fe. A silvery malleable and ductile metallic element that is the fourth most abundant element in the earth's crust. It is required as a trace element (see essential element) by living organisms. Iron is an important constituent of haemoglobin and the cytochromes, being stored in the liver in the form of ferritin. In animals deficiency of iron results in a form of anaemia.
+## Source[^3]
+- (symbol: Fe) A metal, atomic number 26, that exhibits ferromagnetism and has a high tensile strength. It is widely used in electronics as a magnetic material and for screening purposes. It is relatively abundant and therefore has a low cost.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

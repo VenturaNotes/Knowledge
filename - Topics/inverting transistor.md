@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- A bipolar or MOS transistor used as an analogue or digital inverter. Operation as an analogue inverter results from the $180^{\circ}$ phase shift introduced by both types of transistor between the input and output. A digital inverter may be formed with a bipolar transistor by applying the input to the base. A high input causes saturation with a resulting drop in the collector (output) voltage. With a low input level the saturation ceases and the output therefore rises. A MOSFET is used as a digital inverter essentially by operating it as a switch that connects the output to a point of low potential difference (usually earth potential). A high voltage level input to the gate causes the conducting channel to form across the transistor and therefore the drain (output) potential falls to the low value of the source. A low input level, which must be less than the threshold voltage of the transistor, causes the drain to be isolated from the source. Since the drain is connected to the power supply by means of a dropping resistor the drain potential then rises to the high level.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
