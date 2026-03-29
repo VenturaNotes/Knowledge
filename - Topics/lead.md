@@ -9,7 +9,13 @@
 - lead$^{2}$ :n. 
 - (1) a portion of an electrocardiographic record that is obtained from a single electrode or a combination of electrodes placed on a particular part of the body (see ELECTROCARDIOGRAM; ELECTROCARDIOGRAPHY). In the conventional ECG, 12 leads are recorded. Each lead represents the electrical activity of the heart as 'viewed' from a different position on the body surface and may help to localize myocardial damage. 
 - (2) a flexible steerable insulated wire introduced into the heart under X-ray control to allow electrical stimulation of the heart for the purpose of pacing (see PACEMAKER).
+## Source[^3]
+- (1) An electrical conductor, usually in the form of a wire or cable, that is used to make external connections between circuits or pieces of apparatus. See INTERCONNECTION; INTRACONNECTION. 
+- (2) The amount, measured as a time interval or as a proportion of the a.c. cycle, by which one periodically varying wave is advanced in phase with respect to the similar phase in another wave. Compare LAG.
+---
+- (symbol: Pb) A heavy metal, atomic number 82, that is mainly used either as an alloy, with other metals such as tin, to form solders or in storage batteries.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
