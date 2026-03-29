@@ -9,8 +9,11 @@
 - Latency refers to the delay time it takes for data to travel from one location to another in a network, such as a computer to a printer. A network with low latency is fast, and a network with high latency is slow. Latency is measured in milliseconds, and latency thresholds have shrunk over time. This has occurred as technology and computers have become more and more responsive. Latency is affected by various factors, including the speed and bandwidth of a network.
 ## Source[^3]
 - $n$. The interval between a stimulus (1) and a response. Also called latent time, reaction time, or response latency. \[From Latin latere to lie hidden or to escape attention]
+## Source[^4]
+- The time taken for a given signal or data packet to propagate through a circuit or network from its source point to its destination. See also THROUGHPUT.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

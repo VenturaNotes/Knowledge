@@ -3612,105 +3612,136 @@ tags:
 	2547. Kronig-Penney model
 		1. (energy band structure) See quantum mechanics
 	2548. [[Ku band]]
-	2549. L-C network
+	2549. [[L-C network]]
 	2550. L-section
+		1. See two-port network
 
 	2551. label
+		1. In digital communications, a synonym for header.
 	2552. labyrinth loudspeaker
+		1. See loudspeaker
 	2553. ladder network
-	2554. LADT
-	2555. lag
-	2556. lag filter
-	2557. lagging current
-	2558. lagging load
-	2559. Lagrange's equation
+		1. See filter
+	2554. [[local area data transport|LADT]]
+	2555. [[lag]]
+	2556. [[lag filter]]
+	2557. [[lagging current]]
+	2558. [[lagging load]]
+	2559. [[Lagrange's equation]]
 	2560. laminated core
+		1. See core
 
-	2561. lamination
+	2561. [[lamination]]
 	2562. LAN
+		1. See local area network
 	2563. language
-	2564. Laplace operator(symbol: ▿2)
-	2565. Laplace transform
-	2566. lapping
+		1. See programming language
+	2564. [[Laplace operator]]
+	2565. [[Laplace transform]]
+	2566. [[lapping]]
 	2567. large-scale integration
-	2568. large signal current gain
+		1. (LSI) See integrated circuit
+	2568. [[large signal current gain]]
 	2569. laryngophone
-	2570. laser
+		1. (throat microphone) See microphone
+	2570. [[laser]]
 
-	2571. laser diode
-	2572. laser printer
-	2573. laser range finding
-	2574. laser scanning
-	2575. last mile
-	2576. latch
+	2571. [[laser diode]]
+	2572. [[laser printer]]
+	2573. [[laser range finding]]
+	2574. [[laser scanning]]
+	2575. [[last mile]]
+	2576. [[latch]]
 	2577. latching
-	2578. latency
+		1. See locking
+	2578. [[latency]]
 	2579. lattice
-	2580. lattice constant
+		1. See crystal lattice
+	2580. [[lattice constant]]
 
 	2581. lattice filter
+		1. See filter
 	2582. lattice network
+		1. See network
 	2583. Lauritzen's electroscope
-	2584. lawnmower
-	2585. layer
-	2586. L band
+		1. See electroscope
+	2584. [[lawnmower]]
+	2585. [[layer]]
+	2586. [[L band]]
 	2587. LCC
+		1. See leadless chip carrier
 	2588. LCD
+		1. See liquid-crystal display
 	2589. LCOS
+		1. See liquid crystal on silicon
 	2590. LDM
+		1. (linear delta modulation) See pulse modulation
 
-	2591. lead-in
-	2592. lead1
-	2593. lead2(symbol: Pb)
-	2594. lead filter
-	2595. leadframe
-	2596. leading current
-	2597. leading edge
-	2598. leading load
-	2599. leadless chip carrier
-	2600. leakage
+	2591. [[lead-in]]
+	2592. [[lead]]
+	2593. [[lead filter]]
+	2594. [[leadframe]]
+	2595. [[leading current]]
+	2596. leading edge
+		1. (a pulse) See pulse
+	2597. [[leading load]]
+	2598. [[leadless chip carrier]]
+	2599. [[leakage]]
+	2600. 
 
-	2601. leakage current
-	2602. leakage flux
-	2603. leakage reactance
-	2604. least significant bit
+	2601. [[leakage current]]
+	2602. [[leakage flux]]
+	2603. [[leakage reactance]]
+	2604. [[least significant bit]]
 	2605. LEC
-	2606. Leclanché cell
+		1. See liquid-encapsulated Czochralski
+	2606. [[Leclanche cell]]
 	2607. LED
-	2608. LED lighting
+		1. See light-emitting diode.
+	2608. [[LED lighting]]
 	2609. Leduc effect
+		1. See righi-leduc effect
 	2610. LEED
+		1. (low-energy electron diffraction) See diffraction
 
 	2611. left-hand rule
+		1. See fleming's rules
 	2612. Lenz's law
+		1. See electromagnetic induction
 	2613. LEOS
-	2614. letter box
-	2615. level compensator
-	2616. level shifter
-	2617. Leyden jar
+		1. See low earth orbit satellite
+	2614. [[letter box]]
+	2615. [[level compensator]]
+	2616. [[level shifter]]
+	2617. [[Leyden jar]]
 	2618. LF
+		1. (low frequency) See frequency band
 	2619. LFO
-	2620. lidar
+		1. See low-frequency oscillator
+	2620. [[lidar]]
 
-	2621. life test
-	2622. lifetime
-	2623. lift-off
-	2624. lifter
-	2625. light-emitting diode
-	2626. lightning conductor
-	2627. lightning stroke
-	2628. light pen
+	2621. [[life test]]
+	2622. [[lifetime]]
+	2623. [[lift-off]]
+	2624. [[lifter]]
+	2625. [[light-emitting diode]]
+	2626. [[lightning conductor]]
+	2627. [[lightning stroke]]
+	2628. [[light pen]]
 	2629. limb
+		1. See transformer
 	2630. limited space-charge accumulation mode
+		1. (LSA mode) See transferred electron device
 
-	2631. limited stability
+	2631. [[limited stability]]
 	2632. [[limiter]]
 	2633. limiting amplifier
-	2634. lin-log receiver
-	2635. line
-	2636. line-of-sight path
-	2637. line-scan camera
-	2638. linear
+		1. See amplifier
+	2634. [[lin-log receiver]]
+	2635. [[line]]
+	2636. [[line-of-sight path]]
+	2637. [[line-scan camera]]
+	2638. [[linear]]
 	2639. linear-beam microwave tube
 	2640. linear accelerator
 
