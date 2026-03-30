@@ -3482,7 +3482,7 @@ Reviewed: false
 	3456. nonequilibrium thermodynamics
 	3457. nonferrous metal
 	3458. nonmetal
-	3459. nonpolar compound
+	3459. [[nonpolar compound]]
 	3460. nonpolar solvent
 	3461. nonreducing sugar
 	3462. nonrelativistic quantum theory
@@ -3513,7 +3513,7 @@ Reviewed: false
 	3487. nucleus
 	3488. nuclide
 	3489. nylon
-	3490. occlusion
+	3490. [[occlusion]]
 	3491. ochre
 	3492. octadecanoate
 	3493. octadecanoic acid

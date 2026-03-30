@@ -3743,25 +3743,35 @@ tags:
 	2637. [[line-scan camera]]
 	2638. [[linear]]
 	2639. linear-beam microwave tube
-	2640. linear accelerator
+		1. (O-type microwave tube) See microwave tube
+	2640. [[linear accelerator]]
 
 	2641. linear amplifier
-	2642. linear array antenna
+		1. See amplifier
+	2642. [[linear array antenna]]
 	2643. linear block codes
-	2644. linear circuit
+		1. See digital codes
+	2644. [[linear circuit]]
 	2645. linear delta modulation
+		1. (LDM) See pulse modulation
 	2646. linear detector
+		1. See detector
 	2647. linear inverter
-	2648. linearization
-	2649. linearly graded junction
+		1. See inverter
+	2648. [[linearization]]
+	2649. [[linearly graded junction]]
 	2650. linearly polarized wave
+		1. (plane-polarized wave) See polarization
 
 	2651. linear motor
+		1. See MAGLEV
 	2652. linear network
+		1. See network
 	2653. linear phase response
-	2654. linear prediction
-	2655. linear scan
-	2656. linear system
+		1. See phase response
+	2654. [[linear prediction]]
+	2655. [[linear scan]]
+	2656. [[linear system]]
 	2657. linear time-invariant
 	2658. linear timebase oscillator
 	2659. linear transducer
