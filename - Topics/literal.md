@@ -31,6 +31,9 @@ aliases:
 | Numeric Literals                    | Represents numbers<br><br>Integer Literals<br>Floating-point Literals<br>Complex number literals          | `42, -5`<br>`3.14, -0.001`<br>`3 + 4j, -5j`               |
 ## Source[^1]
 - A word or symbol in a program that stands for itself rather than as a name for something else, i.e. an object whose value is determined by its denotation. Numbers are literals; if other symbols are used as literals it is necessary to use some form of quoting mechanism to distinguish them from variables.
+## Source[^2]
+- In computing, an explicit version of one variable, usually an input, in either its true or its false (complemented) form.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
