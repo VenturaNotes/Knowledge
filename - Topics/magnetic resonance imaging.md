@@ -10,7 +10,10 @@ aliases:
 - (MRI) An imaging and diagnostic technique based on the phenomenon of nuclear magnetic resonance. The body or part to be imaged is placed in an MR scanner. This creates a strong magnetic field, which causes the alignment of certain tissue nuclei, notably hydrogen nuclei in water and lipids. Pulses of high-frequency radio waves are generated, and images of internal tissues are created by a computer, according to how the radio waves are absorbed and transmitted. These images map tissue 'slices' and can resolve even very similar tissues by detecting subtle differences in their chemical composition. Hence, MRI can detect, for example, a brain tumor buried deep within normal brain tissue. Apart from diagnosing pathological changes, MRI is also used to guide interventional procedures. Functional MRI (fMRI) can monitor brain activity and is now commonly used in neuroscience to study brain function. It detects the minute changes in blood flow that accompany increased neural activity. So, for example, it is possible to map regions of the visual cortex that are active when a subject is exposed to different visual stimuli, such as colors, faces, or dictionaries.
 - http://www.cis.rit.edu/htbooks/mri/inside.htm
 	- Comprehensive online textbook covering all aspects of MRI
+## Source[^3]
+- (MRI) Medical technology based on the use of very strong magnetic fields to manipulate protons in the body in such a way that images of soft tissues can be obtained. The process is non-invasive and, unlike X-rays, there is no harmful radiation involved. The patient is placed inside a cylindrical cavity within the scanner and has to keep still during the scanning process. See also FUNCTIONAL MAGNETIC RESONANCE IMAGING.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- (1) (magnetic dipole moment) (symbol: $m$; unit: ampere meter$^2$) A measure of the strength of a magnet. When a magnet is placed in a homogeneous magnetic flux of magnetic flux density $B$ it experiences a torque $T$ such that$$T = m \times B$$where $m$ is the magnetic moment. If the magnet is a small coil of area $dA$ carrying a current $I$, then the magnetic moment $m$ is equal to $IdA$. 
+- (2) (magnetic dipole moment) (symbol: $p_{\mathrm{m}}$; unit: weber meter) The product of magnetic moment $m$ and the permeability of free space, $\mu_0$:$$p_{\mathrm{m}} = \mu_0 m$$Historically magnets and small circulating currents were considered to be dipoles consisting of two equal and opposite magnetic poles, analogous to electric charges, separated by a distance $r$ (the magnetic length). The magnetic dipole moment $p_{\mathrm{m}}$ was the product of the magnetic pole strength and the magnetic length; it was determined by the torque, $T$, experienced when the magnet was placed in a magnetic field $H$. Thus $p_{\mathrm{m}}$ was determined by the relation:$$T = p_{\mathrm{m}} \times H$$Modern usage strongly favors the first definition, the second definition being very rarely used. Small magnets, however, are frequently referred to as dipoles, particularly on an atomic scale, and the magnetic moment $m$ termed the magnetic dipole moment. In modern texts these terms are defined by the first definition above. The term 'magnetic moment' has been used wherever possible throughout this dictionary as defined in 1. above.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
