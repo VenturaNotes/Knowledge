@@ -3772,46 +3772,54 @@ tags:
 	2654. [[linear prediction]]
 	2655. [[linear scan]]
 	2656. [[linear system]]
-	2657. linear time-invariant
-	2658. linear timebase oscillator
+	2657. [[linear time-invariant]]
+	2658. [[linear timebase oscillator]]
 	2659. linear transducer
-	2660. line communication
+		1. See transducer
+	2660. [[line communication]]
 
 	2661. line impedance stabilization network
-	2662. line of flux
-	2663. line of force
-	2664. line printer
+		1. (LISN) See electromagnetic compatibility
+	2662. [[line of flux]]
+	2663. [[line of force]]
+	2664. [[line printer]]
 	2665. line voltage
-	2666. link
-	2667. link availability
-	2668. link budget analysis
+		1. See voltage between lines
+	2666. [[link]]
+	2667. [[link availability]]
+	2668. [[link budget analysis]]
 	2669. lip microphone
-	2670. liquid-crystal display
+		1. See microphone
+	2670. [[liquid-crystal display]]
 
-	2671. liquid-encapsulated Czochralski
-	2672. liquid-phase epitaxy
-	2673. liquid crystal
-	2674. liquid crystal on silicon
+	2671. [[liquid-encapsulated Czochralski]]
+	2672. [[liquid-phase epitaxy]]
+	2673. [[liquid crystal]]
+	2674. [[liquid crystal on silicon]]
 	2675. LISN
-	2676. Lissajous' figure
-	2677. literal
-	2678. lithium-ion battery
-	2679. lithography
-	2680. little endian
+		1. (line impedance stabilization network) See electromagnetic compatibility
+	2676. [[Lissajous' figure]]
+	2677. [[literal]]
+	2678. [[lithium-ion battery]]
+	2679. [[lithography]]
+	2680. [[little endian]]
 
-	2681. Litzendraht wire
-	2682. live
+	2681. [[Litzendraht wire]]
+	2682. [[live]]
 	2683. LMDS
+		1. See local multipoint distribution system
 	2684. L network
-	2685. load
-	2686. load-circuit efficiency
-	2687. load characteristic
-	2688. load circuit
+		1. (inductance network) See network
+	2685. [[load]]
+	2686. [[load-circuit efficiency]]
+	2687. [[load characteristic]]
+	2688. [[load circuit]]
 	2689. load coil
-	2690. load curve
+		1. See induction heating
+	2690. [[load curve]]
 
-	2691. load factor
-	2692. load impedance
+	2691. [[load factor]]
+	2692. [[load impedance]]
 	2693. loading
 	2694. loading coils
 	2695. load leads
