@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- The phenomena associated with regions containing magnetic flux. Magnetic properties were first noticed in the naturally occurring oxide of iron, magnetite. Ampère discovered that a small coil carrying a current behaves like a magnet; he suggested that the origin of all magnetism lay in small circulating currents associated with each atom. Ampère's theory, which gave a natural explanation of the fact that no isolated magnetic pole had ever been observed, is essentially similar to modern atomic theory: his elementary current circuits (Amperean currents) are the motions of the negatively charged electrons in closed orbits around the positively charged atomic nucleus.
+- All materials exhibit magnetic properties, the nature of those properties depending on the distribution of electrons in the outer orbits of the atoms. Diamagnetism is a weak effect, common to all materials and resulting from the orbital motion of the atomic electrons. Paramagnetism occurs in certain materials that have a permanent molecular magnetic moment due to electron spin. It is a stronger effect than diamagnetism, opposed to it, and masks it in paramagnetic materials. Some paramagnetic materials, such as iron, also display ferromagnetism (see also FERRIMAGNETISM, ANTIFERROMAGNETISM) at temperatures below the Curie point. Ferromagnetic materials can produce a substantial magnetic flux density and some are suitable for use as permanent magnets. A magnetic field can also be produced by a flowing electric current (see ELECTROMAGNET).
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -3821,164 +3821,224 @@ tags:
 	2691. [[load factor]]
 	2692. [[load impedance]]
 	2693. loading
+		1. See transmission line
 	2694. loading coils
-	2695. load leads
-	2696. load line
-	2697. load matching
-	2698. load regulator
-	2699. load transfer switch
+		1. See transmission line
+	2695. [[load leads]]
+	2696. [[load line]]
+	2697. [[load matching]]
+	2698. [[load regulator]]
+	2699. [[load transfer switch]]
 	2700. lobe
+		1. See antenna pattern
 
-	2701. lobe switching
-	2702. local area network
+	2701. [[lobe switching]]
+	2702. [[local area network]]
 	2703. local exchange
+		1. See telephony
 	2704. local feedback
+		1. (multiple-loop feedback) See feedback
 	2705. localizer beacon
-	2706. local multipoint distribution system
+		1. See beacon
+	2706. [[local multipoint distribution system]]
 	2707. local oscillator
+		1. See heterodyne reception
 	2708. locator beacon
-	2709. lock-in detector
-	2710. locking
+		1. (homing beacon) See beacon
+	2709. [[lock-in detector]]
+	2710. [[locking]]
 
-	2711. locking-in
-	2712. locking-on
+	2711. [[locking-in]]
+	2712. [[locking-on]]
 	2713. locking relay
-	2714. lock range
-	2715. log-periodic antenna
-	2716. logarithmic amplifier
+		1. See relay
+	2714. [[lock range]]
+	2715. [[log-periodic antenna]]
+	2716. [[logarithmic amplifier]]
 	2717. logarithmic decrement
-	2718. logarithmic plot
+		1. See damped
+	2718. [[logarithmic plot]]
 	2719. logarithmic potentiometer
-	2720. logarithmic resistor
+		1. See potentiometer
+	2720. [[logarithmic resistor]]
 
-	2721. logical address
-	2722. logical one
-	2723. logical operations
-	2724. logic analyser
-	2725. logic circuit
-	2726. logic diagram
-	2727. logic element
-	2728. logic gate
-	2729. logic symbol
-	2730. long-line effect
+	2721. [[logical address]]
+	2722. [[logical one]]
+	2723. [[logical operations]]
+	2724. [[logic analyzer]]
+	2725. [[logic circuit]]
+	2726. [[logic diagram]]
+	2727. [[logic element]]
+	2728. [[logic gate]]
+	2729. [[logic symbol]]
+	2730. [[long-line effect]]
 
-	2731. long-persistence screen
-	2732. long-tailed pair
-	2733. long-term evolution
-	2734. long wave
+	2731. [[long-persistence screen]]
+	2732. [[long-tailed pair]]
+	2733. [[long-term evolution]]
+	2734. [[long wave]]
 	2735. loop
-	2736. loop antenna
-	2737. loopback address
+		1. See feedback control loop
+	2736. [[loop antenna]]
+	2737. [[loopback address]]
 	2738. loop direction finding
+		1. (frame direction finding) See direction finding.
 	2739. loop error
-	2740. loop gain
+		1. See feedback control loop
+	2740. [[loop gain]]
 
 	2741. loop signals
+		1. See feedback control loop
 	2742. loose coupling
+		1. (undercoupling) See coupling 
 	2743. loosely coupled multiprocessor
-	2744. Lorentz force
+		1. See multiprocessor
+	2744. [[Lorentz force]]
 	2745. loss
-	2746. loss angle
-	2747. loss factor
-	2748. lossless compression
-	2749. lossless line
-	2750. lossy
+		1. See dissipation
+	2746. [[loss angle]]
+	2747. [[loss factor]]
+	2748. [[lossless compression]]
+	2749. [[lossless line]]
+	2750. [[lossy]]
 
-	2751. lossy compression
-	2752. lossy line
-	2753. loudness
-	2754. loudspeaker
-	2755. low-frequency compensation
-	2756. low-frequency oscillator
+	2751. [[lossy compression]]
+	2752. [[lossy line]]
+	2753. [[loudness]]
+	2754. [[loudspeaker]]
+	2755. [[low-frequency compensation]]
+	2756. [[low-frequency oscillator]]
 	2757. low-level injection
-	2758. low-level modulation
+		1. See injection
+	2758. [[low-level modulation]]
 	2759. low-level programming language
+		1. See programming language
 	2760. low-loss line
+		1. See logic circuit
 
 	2761. low-pass filter
+		1. See filter
 	2762. low-velocity scanning
-	2763. low earth orbit satellite
+		1. See scanning
+	2763. [[low earth orbit satellite]]
 	2764. lower sideband
+		1. See carrier wave
 	2765. low frequency
+		1. (LF) See frequency band
 	2766. low logic level
+		1. See logic circuit
 	2767. LP
+		1. See linear prediction
 	2768. LPC
+		1. (linear predictive coding) See linear prediction
 	2769. LPCVD
-	2770. LPI
+		1. (low pressure chemical vapor deposition) See chemical vapor deposition
+	2770. [[low probability of intercept]]
 
-	2771. LPPF
+	2771. [[low probability of position fix|LPPF]]
 	2772. LSA mode
+		1. (limited space-charge accumulation mode) See transferred electron device.
 	2773. LSB
+		1. See least significant bit
 	2774. LSI
+		1. (large-scale integration) See integrated circuit
 	2775. LTE
+		1. See long-term evolution
 	2776. LTP
+		1. See long-tailed pair
 	2777. luminance flicker
-	2778. luminescence
-	2779. lumped element
-	2780. lumped parameter
+		1. See flicker
+	2778. [[luminescence]]
+	2779. [[lumped element]]
+	2780. [[lumped parameter]]
 
 	2781. M-ary FSK
+		1. See frequency modulation
 	2782. M-ary PSK
+		1. See phase modulation
 	2783. M-type microwave tube
-	2784. machine code
-	2785. machine vision
-	2786. macrocell
-	2787. MAGLEV
-	2788. magnesium(symbol: Mg)
-	2789. magnet
+		1. (crossed-field microwave tube) See microwave tube
+	2784. [[machine code]]
+	2785. [[machine vision]]
+	2786. [[macrocell]]
+	2787. [[MAGLEV]]
+	2788. [[magnesium]]
+	2789. [[magnet]]
 	2790. magnetic-armature loudspeaker
+		1. See loudspeaker
 
-	2791. magnetically shielded room
-	2792. magnetic balance
+	2791. [[magnetically shielded room]]
+	2792. [[magnetic balance]]
 	2793. magnetic bias
+		1. See magnetic recording
 	2794. magnetic blow-out
-	2795. magnetic circuit
+		1. See circuit-breaker
+	2795. [[magnetic circuit]]
 	2796. magnetic constant
-	2797. magnetic contactor
+		1. (permeability of free space) See permeability
+	2797. [[magnetic contactor]]
 	2798. magnetic controller
+		1. See automatic control
 	2799. magnetic core
-	2800. magnetic damping
+		1. (ferrite core) See core
+	2800. [[magnetic damping]]
 
 	2801. magnetic deflection
+		1. See electromagnetic deflection
 	2802. magnetic dipole moment
-	2803. magnetic disk
-	2804. magnetic field
-	2805. magnetic field strength(symbol: H; unit: ampere/metre)
-	2806. magnetic flux(symbol: Φ; unit: weber)
-	2807. magnetic flux density(symbol: B; unit: tesla (weber/metre2))
+		1. See magnetic moment (both definitions)
+	2803. [[magnetic disk]]
+	2804. [[magnetic field]]
+	2805. [[magnetic field strength]]
+	2806. [[magnetic flux]]
+	2807. [[magnetic flux density]]
 	2808. magnetic focusing
+		1. (electromagnetic focusing) See focusing
 	2809. magnetic head
-	2810. magnetic hysteresis
+		1. See magnetic recording
+	2810. [[magnetic hysteresis]]
 
 	2811. magnetic induction
+		1. See magnetic flux density
 	2812. magnetic intensity
-	2813. magnetic leakage
+		1. A former term for magnetic field strength
+	2813. [[magnetic leakage]]
 	2814. magnetic lens
+		1. See electromagnetic lens
 	2815. magnetic loudspeaker
-	2816. magnetic memory
+		1. See loudspeaker
+	2816. [[magnetic memory]]
 	2817. magnetic microphone
+		1. See microphone
 	2818. magnetic modulation
-	2819. magnetic moment
-	2820. magnetic monopole
+		1. See transductor
+	2819. [[magnetic moment]]
+	2820. [[magnetic monopole]]
 
-	2821. magnetic pole
+	2821. [[magnetic pole]]
 	2822. magnetic potential
-	2823. magnetic recording
+		1. A former term for magnetomotive force
+	2823. [[magnetic recording]]
 	2824. magnetic residual loss
+		1. See ferromagnetism
 	2825. magnetic resistance
-	2826. magnetic resonance imaging
+		1. See reluctance
+	2826. [[magnetic resonance imaging]]
 	2827. magnetic saturation
-	2828. magnetic screening
-	2829. magnetic shunt
-	2830. magnetic storage
+		1. See ferromagnetism
+	2828. [[magnetic screening]]
+	2829. [[magnetic shunt]]
+	2830. [[magnetic storage]]
 
-	2831. magnetic stripe card
+	2831. [[magnetic stripe card]]
 	2832. magnetic susceptibility
-	2833. magnetic tape
+		1. See susceptibility
+	2833. [[magnetic tape]]
 	2834. magnetic transition temperature
-	2835. magnetic tuning
-	2836. magnetism
-	2837. magnetization(symbol: M; unit: ampere per metre)
+		1. (Curie point) See ferromagnetism
+	2835. [[magnetic tuning]]
+	2836. [[magnetism]]
+	2837. magnetization(symbol: M; unit: ampere per meter)
 	2838. magnetization curve
 	2839. magnetize
 	2840. magnetizing force

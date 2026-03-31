@@ -34,8 +34,11 @@ aliases:
 		- A if and only if B
 		- Truth value on both sides should coincide meaning both need to be true or both need to be false for this logical statement to be true
 		- $\iff$ would imply a [[tautology]]
+## Source[^4]
+- Operations performed on binary data items, i.e. on data having the states '1' or '0'. These are usually implemented by logic gates, such as AND, OR, NOT, or exclusive OR gates (see LOGIC CIRCUIT). The rules that define these operations are specified in Boolean algebra.
 ## References
 
 [^1]: [[(2) Start Learning Logic - Part 1 - Logical Statements, Negation and Conjunction]]
 [^2]: [[(3) Start Learning Logic - Part 2 - Disjunction, Tautology and Logical Equivalence]]
 [^3]: [[(4) Start Learning Logic - Part 3 - Conditional, Biconditional, Implication and Deduction Rules]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
