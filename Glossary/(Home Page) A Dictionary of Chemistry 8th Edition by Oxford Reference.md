@@ -3587,7 +3587,7 @@ Reviewed: false
 	3558. organo-
 	3559. organometallic compound
 	3560. organometallic polymer
-	3561. organophosphorus compound
+	3561. [[organophosphorus compound]]
 	3562. [[Orgel diagram]]
 	3563. origin of elements
 	3564. origin of life
@@ -3947,7 +3947,7 @@ Reviewed: false
 	3886. poise
 	3887. poison
 	3888. [[polar compound]]
-	3889. polarimeter
+	3889. [[polarimeter]]
 	3890. polariscope
 	3891. polarizability
 	3892. [[polarization]]
@@ -3986,14 +3986,14 @@ Reviewed: false
 	3924. Polymers
 	3925. polymethanal
 	3926. polymethylmethacrylate
-	3927. polymorphism
+	3927. [[polymorphism]]
 	3928. [[polynuclear transition metal complex]]
 	3929. polyol
 	3930. [[polypeptide]]
 	3931. polypropene
 	3932. polypropylene
 	3933. polyprotic acid
-	3934. polysaccharide
+	3934. [[polysaccharide]]
 	3935. [[polystyrene]]
 	3936. polysulphides
 	3937. polytetrafluoroethene

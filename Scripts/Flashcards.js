@@ -22,7 +22,6 @@ function parseFlashcards(content) {
     const pre  = line.slice(0, idx).trim();
     const post = line.slice(idx + 2).trim();
     if (!pre || !post) continue;
-    if (/^[a-z_]+$/i.test(pre)) continue;
     cards.push({ question: pre, answer: post });
   }
 
