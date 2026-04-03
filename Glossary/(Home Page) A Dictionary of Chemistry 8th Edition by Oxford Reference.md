@@ -4031,7 +4031,7 @@ Reviewed: false
 	3969. potassium hydrogencarbonate
 	3970. potassium hydrogentartrate
 	3971. potassium hydroxide
-	3972. potassium iodate
+	3972. [[potassium iodate]]
 	3973. potassium iodide
 	3974. potassium manganate(VII)
 	3975. potassium monoxide
@@ -4042,7 +4042,7 @@ Reviewed: false
 	3980. potassium sulphide
 	3981. potassium sulphite
 	3982. potassium superoxide
-	3983. potential-energy curve
+	3983. [[potential-energy curve]]
 	3984. potential-energy surface
 	3985. [[potential barrier]]
 	3986. potential energy
@@ -4244,7 +4244,7 @@ Reviewed: false
 	4182. rate-determining step
 	4183. rate constant
 	4184. rationalized Planck constant
-	4185. rationalized units
+	4185. [[rationalized units]]
 	4186. Rayleigh, Lord (1842-1919)
 	4187. [[Rayleigh scattering]]
 	4188. [[rayon]]
