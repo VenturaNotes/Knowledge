@@ -4116,712 +4116,956 @@ tags:
 	2889. [[maximum likelihood sequence estimation]]
 	2890. [[maximum power theorem]]
 
-	2891. maxterm
-	2892. maxwell(symbol: Mx)
-	2893. Maxwell's equations
-	2894. Maxwell's rule
-	2895. Maxwell bridge
+	2891. [[maxterm]]
+	2892. [[maxwell]]
+	2893. [[Maxwell's equations]]
+	2894. [[Maxwell's rule]]
+	2895. [[Maxwell bridge]]
 	2896. MBE
+		1. See molecular beam epitaxy
 	2897. MBR
-	2898. MCPC
+		1. See memory buffer register
+	2898. [[multichannel per carrier|MCPC]]
 	2899. Mealy circuit
-	2900. mean
+		1. See finite-state machine
+	2900. [[mean]]
 
 	2901. mean current density
-	2902. mean life
-	2903. mean opinion score
-	2904. mean time between failures
-	2905. mean time to failure
+		1. See current density
+	2902. [[mean life]]
+	2903. [[mean opinion score]]
+	2904. [[mean time between failures]]
+	2905. [[mean time to failure]]
 	2906. measurand
-	2907. mechatronics
-	2908. median
-	2909. median filter
+		1. See transducer
+	2907. [[mechatronics]]
+	2908. [[median]]
+	2909. [[median filter]]
 	2910. medium-scale integration
+		1. (MSI) See integrated circuit
 
 	2911. medium frequency
-	2912. medium wave
+		1. (MF) See frequency band
+	2912. [[medium wave]]
 	2913. MEG
-	2914. mega-(symbol: M)
-	2915. megabit
-	2916. megabyte
-	2917. megaflops
-	2918. megaphone
+		1. See MAGNETOENCEPHALOGRAPHY.
+	2914. [[mega-]]
+	2915. [[megabit]]
+	2916. [[megabyte]]
+	2917. [[megaflops]]
+	2918. [[megaphone]]
 	2919. Megger
+		1. Trademark A portable insulation tester calibrated directly in megohms
 	2920. Meissner effects
+		1. See superconductivity
 
 	2921. mekometer
-	2922. mel
+		1. See kerr effects
+	2922. [[mel]]
 	2923. mel frequency cepstral coefficients
-	2924. memory
-	2925. memory access time
-	2926. memory address register
-	2927. memory bandwidth
-	2928. memory buffer register
+		1. See MFCC
+	2924. [[memory]]
+	2925. [[memory access time]]
+	2926. [[memory address register]]
+	2927. [[memory bandwidth]]
+	2928. [[memory buffer register]]
 	2929. memory capacity
-	2930. memory card
+		1. (storage capacity) See memory
+	2930. [[memory card]]
 
-	2931. memory stick
-	2932. memory wear
+	2931. [[memory stick]]
+	2932. [[memory wear]]
 	2933. MEMS
-	2934. Mentor Graphics
-	2935. mercury-vapour lamp
+		1. See microelectromechanical sensors.
+	2934. [[Mentor Graphics]]
+	2935. [[mercury-vapor lamp]]
 	2936. merged CMOS/bipolar
-	2937. mesa
-	2938. mesa transistor
-	2939. MESFET
+		1. See BiCMOS
+	2937. [[mesa]]
+	2938. [[mesa transistor]]
+	2939. [[MESFET]]
 	2940. mesh
+		1. See network
 
 	2941. mesh analysis
+		1. See circuit mesh analysis
 	2942. mesh contour
+		1. See network
 	2943. mesh current
+		1. See network
 	2944. mesh loop
+		1. See circuit mesh analysis
 	2945. mesh voltage
-	2946. metal
+		1. (hexagon voltage) See voltage between lines
+	2946. [[metal]]
 	2947. metal-ceramic
+		1. See cermet
 	2948. metal-oxide-semiconductor
-	2949. metal-semiconductor contact
+		1. See MOS
+	2949. [[metal-semiconductor contact]]
 	2950. metal-semiconductor diode
+		1. See Schottky diode.
 
-	2951. metal film resistor
+	2951. [[metal film resistor]]
 	2952. metallization
-	2953. metallized film capacitors
-	2954. metallized paper capacitors
-	2955. metallizing
-	2956. metamaterial
-	2957. metatronics
-	2958. meter
-	2959. meter resistance
-	2960. method of images
+		1. See metallizing
+	2953. [[metallized film capacitors]]
+	2954. [[metallized paper capacitors]]
+	2955. [[metallizing]]
+	2956. [[metamaterial]]
+	2957. [[metatronics]]
+	2958. [[meter]]
+	2959. [[meter resistance]]
+	2960. [[method of images]]
 
-	2961. method of moments
-	2962. metre(symbol: m)
-	2963. metre bridge
-	2964. metropolitan area network
+	2961. [[method of moments]]
+	2962. [[meter]]
+	2963. [[meter bridge]]
+	2964. [[metropolitan area network]]
 	2965. MF
-	2966. MFCC
+		1. (medium frequency) See frequency band
+	2966. [[MFCC]]
 	2967. MFLOPS
-	2968. mho(symbol: Ω-1)
-	2969. mica
-	2970. mica capacitor
+		1. See megaflops
+	2968. [[mho]]
+	2969. [[mica]]
+	2970. [[mica capacitor]]
 
-	2971. micro-(symbol: μ)
-	2972. microcell
-	2973. microcircuit
+	2971. [[micro-]]
+	2972. [[microcell]]
+	2973. [[microcircuit]]
 	2974. microcode
+		1. See microprogram
 	2975. microcomputer
-	2976. microelectromechanical sensors
-	2977. microelectronics
+		1. See computer
+	2976. [[microelectromechanical sensors]]
+	2977. [[microelectronics]]
 	2978. micromanipulator probe
-	2979. micron(symbol: μ)
-	2980. microphone
+		1. See probe
+	2979. [[micron]]
+	2980. [[microphone]]
 
 	2981. microphony
-	2982. microprocessor
-	2983. microprogram
-	2984. microstrip line
-	2985. microwave
-	2986. microwave generator
-	2987. microwave integrated circuit
-	2988. microwave landing system
-	2989. microwave tube
-	2990. MIDI
+		1. See noise
+	2982. [[microprocessor]]
+	2983. [[microprogram]]
+	2984. [[microstrip line]]
+	2985. [[microwave]]
+	2986. [[microwave generator]]
+	2987. [[microwave integrated circuit]]
+	2988. [[microwave landing system]]
+	2989. [[microwave tube]]
+	2990. [[MIDI]]
 
-	2991. Miller effect
-	2992. Miller indices
-	2993. Miller integrator
+	2991. [[Miller effect]]
+	2992. [[Miller indices]]
+	2993. [[Miller integrator]]
 	2994. Miller sweep generator
-	2995. milli-(symbol: m)
-	2996. millimetre-wave technology
-	2997. millimetre waves
-	2998. MIM capacitor
+		1. See timebase
+	2995. [[milli-]]
+	2996. [[millimeter-wave technology]]
+	2997. [[millimeter waves]]
+	2998. [[MIM capacitor]]
 	2999. MIMO
-	3000. minimum discernible signal
+		1. See multiple in, multiple out.
+	3000. [[minimum discernible signal]]
 
-	3001. minimum mean square error
-	3002. minimum phase
+	3001. [[minimum mean square error]]
+	3002. [[minimum phase]]
 	3003. minimum sampling frequency
+		1. See sampling; pulse modulation
 	3004. minimum shift keying
-	3005. minority carrier
-	3006. minterm
+		1. (MSK) see amplitude modulation 
+	3005. [[minority carrier]]
+	3006. [[minterm]]
 	3007. mirror galvanometer
-	3008. mismatch
+		1. See galvanometer
+	3008. [[mismatch]]
 	3009. misuse failure
+		1. See failure
 	3010. mixed coupling
+		1. See coupling
 
-	3011. mixer
-	3012. mixer noise balance
-	3013. MKS system
+	3011. [[mixer]]
+	3012. [[mixer noise balance]]
+	3013. [[MKS system]]
 	3014. MLS
+		1. See microwave landing system
 	3015. MLSE
+		1. See maximum likelihood sequence estimation
 	3016. MMIC
+		1. See monolithic microwave integrated circuit
 	3017. MMSE
-	3018. Mobile IP
+		1. See minimum mean square error. 
+	3018. [[Mobile IP]]
 	3019. mobile multimedia system
+		1. See cellular communications
 	3020. mobile network
+		1. (cellular network) See cellular communications.
 
 	3021. mobile phone
+		1. See cellular communications
 	3022. mobility
-	3023. mode
-	3024. model
-	3025. modelling
-	3026. model parameter
-	3027. modem
-	3028. modern control
+		1. See drift mobility; Hall mobility.
+	3023. [[mode]]
+	3024. [[model]]
+	3025. [[modeling]]
+	3026. [[model parameter]]
+	3027. [[modem]]
+	3028. [[modern control]]
 	3029. MODFET
-	3030. modulation
+		1. (modulation-doped field-effect transistor) See high electron mobility transistor.
+	3030. [[modulation]]
 
 	3031. modulation index
-	3032. modulation wheel
-	3033. modulator
-	3034. modulator electrode
-	3035. modulus of a complex number
-	3036. molecular-beam epitaxy
-	3037. molecular robot
+		1. (modulation factor) See amplitude modulation; frequency modulation.
+	3032. [[modulation wheel]]
+	3033. [[modulator]]
+	3034. [[modulator electrode]]
+	3035. [[modulus of a complex number]]
+	3036. [[molecular-beam epitaxy]]
+	3037. [[molecular robot]]
 	3038. moment method
-	3039. momentum space
-	3040. monitor
+		1. See method of moments
+	3039. [[momentum space]]
+	3040. [[monitor]]
 
-	3041. monochromatic radiation
-	3042. monochrome
-	3043. monocrystalline silicon
-	3044. monolithic capacitor
+	3041. [[monochromatic radiation]]
+	3042. [[monochrome]]
+	3043. [[monocrystalline silicon]]
+	3044. [[monolithic capacitor]]
 	3045. monolithic integrated circuit
-	3046. monolithic microwave integrated circuit
-	3047. monophonic
-	3048. monopole antenna
-	3049. monoscope
-	3050. monostable
+		1. See integrated circuit 
+	3046. [[monolithic microwave integrated circuit]]
+	3047. [[monophonic]]
+	3048. [[monopole antenna]]
+	3049. [[monoscope]]
+	3050. [[monostable]]
 
-	3051. Moog synthesizer
-	3052. Moore's law
+	3051. [[Moog synthesizer]]
+	3052. [[Moore's law]]
 	3053. Moore circuit
-	3054. Morse code
+		1. See finite-state machine
+	3054. [[Morse code]]
 	3055. MOS
-	3056. mosaic crystal
-	3057. mosaic electrode
-	3058. MOS capacitor
-	3059. MOSFET
-	3060. MOS integrated circuit
+		- (1) (metal-oxide-semiconductor) See MOS CAPACITOR; MOSFET; MOS INTEGRATED CIRCUIT; MOS LOGIC CIRCUIT. 
+		- (2) See MEAN OPINION SCORE.
+	3056. [[mosaic crystal]]
+	3057. [[mosaic electrode]]
+	3058. [[MOS capacitor]]
+	3059. [[MOSFET]]
+	3060. [[MOS integrated circuit]]
 
-	3061. MOS logic circuit
-	3062. MOSRAM
+	3061. [[MOS logic circuit]]
+	3062. [[MOSRAM]]
 	3063. MOST
+		1. (MOS transistor) See MOSFET
 	3064. MOS transistor
-	3065. most significant bit
-	3066. motherboard
-	3067. motional impedance
-	3068. motion capture
-	3069. motion detector
-	3070. motor
+		1. See MOSFET
+	3065. [[most significant bit]]
+	3066. [[motherboard]]
+	3067. [[motional impedance]]
+	3068. [[motion capture]]
+	3069. [[motion detector]]
+	3070. [[motor]]
 
-	3071. motorboating
+	3071. [[motorboating]]
 	3072. mount
+		1. See waveguide
 	3073. mountain effect
-	3074. mouse
-	3075. moving-coil instrument
+		1. See direction finding
+	3074. [[mouse]]
+	3075. [[moving-coil instrument]]
 	3076. moving-coil microphone
-	3077. moving-iron instrument
+		1. See microphone
+	3077. [[moving-iron instrument]]
 	3078. moving-iron microphone
-	3079. moving-magnet instrument
-	3080. moving magnetic surface memory
+		1. See microphone
+	3079. [[moving-magnet instrument]]
+	3080. [[moving magnetic surface memory]]
 
 	3081. Moving Picture Experts Group
-	3082. MP3
-	3083. MPEG
+		1. See MPEG
+	3082. [[MP3]]
+	3083. [[Moving Picture Experts Group|MPEG]]
 	3084. MPEG-TS
+		1. See transport stream
 	3085. MPLPC
-	3086. MRAM
+		1. (multipulse linear predictive coding) See linear prediction
+	3086. [[MRAM]]
 	3087. MRI
+		1. See magnetic resonance imaging
 	3088. MSB
+		1. See most significant bit
 	3089. MSK
+		1. (minimum shift keying) See amplitude modulation
 	3090. MSR
+		1. See magnetically shielded room
 
 	3091. MTBF
+		1. See mean time between failures
 	3092. MTTF
+		1. See mean time to failure
 	3093. mu circuit
-	3094. multi-touch interface
-	3095. multicast
+		1. See feedback
+	3094. [[multi-touch interface]]
+	3095. [[multicast]]
 	3096. multicavity microwave tube
-	3097. multichannel analyser
-	3098. multielectrode valve
-	3099. multilayer PCB
-	3100. multilevel metallization
+		1. See klystron; magnetron
+	3097. [[multichannel analyzer]]
+	3098. [[multielectrode valve]]
+	3099. [[multilayer PCB]]
+	3100. [[multilevel metallization]]
 
-	3101. multilevel resist
+	3101. [[multilevel resist]]
 	3102. multilevel signalling
+		1. See signal
 	3103. multimedia
-	3104. multimeter
-	3105. multimode fibre
-	3106. multipath
+		1. See CD-ROM
+	3104. [[multimeter]]
+	3105. [[multimode fiber]]
+	3106. [[multipath]]
 	3107. multiple-loop feedback
+		1. (local feedback) See feedback
 	3108. multiple access
+		- (1) See digital communications
+		- (2) See communications satellite
 	3109. multiple folded dipole
-	3110. multiple in, multiple out
+		1. See dipole
+	3110. [[multiple in, multiple out]]
 
 	3111. multiple modulation
+		1. See modulation
 	3112. multiplexer
-	3113. multiplex operation
-	3114. multiplier
-	3115. multiprocessor
+		1. (MUX) See multiplex operation
+	3113. [[multiplex operation]]
+	3114. [[multiplier]]
+	3115. [[multiprocessor]]
 	3116. multipulse linear predictive coding
-	3117. multispectral image
-	3118. multistable
+		1. (MPLPC) See linear prediction
+	3117. [[multispectral image]]
+	3118. [[multistable]]
 	3119. multistage amplifier
+		1. See amplifier
 	3120. multistage feedback
+		1. (single-loop feedback) See feedback
 
-	3121. multitasking
-	3122. multivariable function
-	3123. multivibrator
+	3121. [[multitasking]]
+	3122. [[multivariable function]]
+	3123. [[multivibrator]]
 	3124. musa
+		1. Acronym for multiple unit steerable antenna. See steerable antenna.
 	3125. mush area
+		1. See service area
 	3126. mushroom gate
+		1. See T-gate
 	3127. musical instrument digital interface
+		1. See MIDI
 	3128. muting
-	3129. muting switch
+		1. See automatic gain control
+	3129. [[muting switch]]
 	3130. mutual-inductance coupling
+		1. See coupling
 
 	3131. mutual branch
-	3132. mutual capacitance
+		1. (common branch) See network
+	3132. [[mutual capacitance]]
 	3133. mutual inductance
-	3134. Mylar
-	3135. n-channel
+		1. See inductance; electromagnetic induction
+	3134. [[Mylar]]
+	3135. [[n-channel]]
 	3136. n-p-n transistor
+		1. (NPN transistor) See bipolar junction transistor
 	3137. n-p junction
-	3138. n-type conductivity
-	3139. n-type semiconductor
+		1. A p-n junction
+	3138. [[n-type conductivity]]
+	3139. [[n-type semiconductor]]
 	3140. NAK signal
+		1. (negative acknowledgement signal) See digital communications
 
 	3141. NAND circuit
-	3142. NAND flash device
-	3143. nano-(symbol: n)
-	3144. nanoceramic
-	3145. nanocircuitry
-	3146. nanodevice
-	3147. nanoelectromechanical systems
-	3148. nanoelectronics
-	3149. nanofabrication
-	3150. nanoimprint lithography
+		1. (gate) See logic circuit
+	3142. [[NAND flash device]]
+	3143. [[nano-]]
+	3144. [[nanoceramic]]
+	3145. [[nanocircuitry]]
+	3146. [[nanodevice]]
+	3147. [[nanoelectromechanical systems]]
+	3148. [[nanoelectronics]]
+	3149. [[nanofabrication]]
+	3150. [[nanoimprint lithography]]
 
-	3151. nanomagnetism
-	3152. nanorod
-	3153. nanostructure
-	3154. nanotechnology
-	3155. nanowire
-	3156. narrowband
+	3151. [[nanomagnetism]]
+	3152. [[nanorod]]
+	3153. [[nanostructure]]
+	3154. [[nanotechnology]]
+	3155. [[nanowire]]
+	3156. [[narrowband]]
 	3157. narrowband FM
+		1. See frequency modulation
 	3158. narrowband FSK
+		1. See frequency modulation
 	3159. National Institute of Standards and Technology
-	3160. natural frequency
+		1. (NIST) See standardization
+	3160. [[natural frequency]]
 
 	3161. NDR
+		1. (negative differential resistance) See negative resistance
 	3162. NDR effect
+		1. See Gunn effect
 	3163. NDT
+		1. See non-destructive testing
 	3164. near-end crosstalk
-	3165. near-field communication
+		1. See crosstalk
+	3165. [[near-field communication]]
 	3166. near-field region
+		1. See far-field region
 	3167. Néel temperature
+		1. See ANTIFERROMAGNETISM; FERRIMAGNETISM.
 	3168. negative-resistance oscillator
-	3169. negative bias
+		1. See oscillator
+	3169. [[negative bias]]
 	3170. negative booster
+		1. See booster
 
 	3171. negative charge
+		1. See charge
 	3172. negative feedback
+		1. (inverse feedback; degeneration) See feedback
 	3173. negative ion
+		1. See ion
 	3174. negative logic
+		1. See logic circuit
 	3175. negative phase sequence
+		1. See phase sequence
 	3176. negative photoresist
-	3177. negative resistance
+		1. See photoresist
+	3177. [[negative resistance]]
 	3178. negative sequence
+		1. See phase sequence
 	3179. negative transmission
+		1. See television
 	3180. NEMS
+		1. See NANOELECTROMECHANICAL SYSTEMS.
 
-	3181. neon(symbol: Ne)
-	3182. neon lamp
-	3183. neper(symbol: Np)
-	3184. Nernst effect
-	3185. nesting
-	3186. netlist
-	3187. net loss
-	3188. network
-	3189. network access
-	3190. network analyser
+	3181. [[neon]]
+	3182. [[neon lamp]]
+	3183. [[neper]]
+	3184. [[Nernst effect]]
+	3185. [[nesting]]
+	3186. [[netlist]]
+	3187. [[net loss]]
+	3188. [[network]]
+	3189. [[network access]]
+	3190. [[network analyzer]]
 
-	3191. network analysis
+	3191. [[network analysis]]
 	3192. network constants
-	3193. network synthesis
-	3194. network traffic measurement
-	3195. neural network
-	3196. neuroelectricity
-	3197. neurogaming
-	3198. neuroimaging
-	3199. neutral
-	3200. neutralization
+		1. (network parameters) See network
+	3193. [[network synthesis]]
+	3194. [[network traffic measurement]]
+	3195. [[neural network]]
+	3196. [[neuroelectricity]]
+	3197. [[neurogaming]]
+	3198. [[neuroimaging]]
+	3199. [[neutral]]
+	3200. [[neutralization]]
 
 	3201. neutral temperature
-	3202. newton(symbol: N)
+		1. See thermocouple
+	3202. [[newton]]
 	3203. NFC
-	3204. nibble
-	3205. NICAM
-	3206. Nichrome
-	3207. nickel(symbol: Ni)
-	3208. nickel-cadmium cell
-	3209. nickel-iron cell
-	3210. night vision system
+		1. See near-field communication
+	3204. [[nibble]]
+	3205. [[near instantaneously compounded audio multiplex|NICAM]]
+	3206. [[Nichrome]]
+	3207. [[nickel]]
+	3208. [[nickel-cadmium cell]]
+	3209. [[nickel-iron cell]]
+	3210. [[night vision system]]
 
 	3211. NIL
+		1. See nanoimprint lithography
 	3212. NIST
+		1. (National Institute of Standards and Technology) See standardization
 	3213. NMOS
-	3214. no-load
-	3215. noctovision
-	3216. nodal analysis
-	3217. node
+		1. See MOSFET
+	3214. [[no-load]]
+	3215. [[noctovision]]
+	3216. [[nodal analysis]]
+	3217. [[node]]
 	3218. node voltage
-	3219. noise
-	3220. noise factor(symbol: F)
+		1. See network
+	3219. [[noise]]
+	3220. [[noise factor]]
 
-	3221. noise figure(symbol: FdB)
-	3222. noise margin
-	3223. noise temperature
-	3224. non-contact sensing
-	3225. non-destructive testing
+	3221. [[noise figure]]
+	3222. [[noise margin]]
+	3223. [[noise temperature]]
+	3224. [[non-contact sensing]]
+	3225. [[non-destructive testing]]
 	3226. noncoherent detection
+		1. (noncoherent demodulation) See modulation
 	3227. nondestructive read operation
-	3228. noninverting amplifier
+		1. See read
+	3228. [[noninverting amplifier]]
 	3229. nonlinear amplifier
-	3230. nonlinear circuit
+		1. See amplifier
+	3230. [[nonlinear circuit]]
 
-	3231. nonlinear component
+	3231. [[nonlinear component]]
 	3232. nonlinear distortion
+		1. See distortion
 	3233. nonlinear network
-	3234. nonlinear system
+		1. See network
+	3234. [[nonlinear system]]
 	3235. nonperiodic signal
-	3236. nonreactive
-	3237. nonreactive load
+		1. See aperiodic signal
+	3236. [[nonreactive]]
+	3237. [[nonreactive load]]
 	3238. nonrecursive filters
+		1. See digital filter
 	3239. nonresonant line
-	3240. nonreturn to zero
+		1. See transmission line
+	3240. [[nonreturn to zero]]
 
 	3241. nonsaturated mode
-	3242. nonthreshold logic
-	3243. nonvolatile memory
+		1. See saturated mode
+	3242. [[nonthreshold logic]]
+	3243. [[nonvolatile memory]]
 	3244. NOR circuit
+		1. (gate) See logic circuit
 	3245. normal distribution
-	3246. normalized filter
-	3247. normal mode
-	3248. normal vector
+		1. See gaussian distribution
+	3246. [[normalized filter]]
+	3247. [[normal mode]]
+	3248. [[normal vector]]
 	3249. Norton's theorem
-	3250. notch filter
+		1. See Thévenin's theorem.
+	3250. [[notch filter]]
 
 	3251. NOT circuit
+		1. (gate; inverter) See logic circuit
 	3252. note frequency
+		1. (beat frequency) See beats
 	3253. NRZ
+		1. See nonreturn to zero
 	3254. NRZ codes
+		1. (nonreturn to zero codes) See digital codes; nonreturn to zero
 	3255. NRZ PCM
+		1. (NRZ pulse code modulation) See pulse modulation
 	3256. NTL
-	3257. NTSC
-	3258. nucleus
-	3259. null
-	3260. null-point detector
+		1. See nonthreshold logic
+	3257. [[National Television System Committee]]
+	3258. [[nucleus]]
+	3259. [[null]]
+	3260. [[null-point detector]]
 
-	3261. null method
-	3262. number density
-	3263. number of poles
-	3264. numerical control
-	3265. Nyquist noise theorem
-	3266. Nyquist plot
+	3261. [[null method]]
+	3262. [[number density]]
+	3263. [[number of poles]]
+	3264. [[numerical control]]
+	3265. [[Nyquist noise theorem]]
+	3266. [[Nyquist plot]]
 	3267. Nyquist point
-	3268. Nyquist rate
+		1. See gain margin
+	3268. [[Nyquist rate]]
 	3269. O-network
+		1. See two-port network
 	3270. O-type microwave tube
+		1. (linear-beam microwave tube) See microwave tube
 
-	3271. object code
-	3272. object recognition
+	3271. [[object code]]
+	3272. [[object recognition]]
 	3273. observed failure rate
+		1. See failure rate
 	3274. observed mean life
+		1. See mean life
 	3275. OCR
-	3276. octal
-	3277. octave
-	3278. oersted(symbol: Oe)
+		1. See optical character reader
+	3276. [[octal]]
+	3277. [[octave]]
+	3278. [[oersted]]
 	3279. OFC
+		1. See oxygen-free copper
 	3280. OFDM
+		1. See orthogonal frequency division modulation
 
-	3281. offline
+	3281. [[offline]]
 	3282. offset QPSK
-	3283. ohm(symbol: Ω)
-	3284. Ohm's law
+		1. (OQPSK) see amplitude modulation.
+	3283. [[ohm]]
+	3284. [[Ohm's law]]
 	3285. ohmic
-	3286. ohmic contact
-	3287. ohmic loss
-	3288. ohmmeter
-	3289. ohm metre(symbol: Ω m)
+		1. See ohm's law
+	3286. [[ohmic contact]]
+	3287. [[ohmic loss]]
+	3288. [[ohmmeter]]
+	3289. [[ohm meter]]
 	3290. ohms per square
+		1. See sheet resistance
 
 	3291. OLED
-	3292. omnidirectional antenna
-	3293. omnidirectional microphone
+		1. See organic light-emitting diode
+	3292. [[omnidirectional antenna]]
+	3293. [[omnidirectional microphone]]
 	3294. OMVPE
+		1. (organo-metallic vapor phase epitaxy) See CHEMICAL VAPOR DEPOSITION.
 	3295. on-off keying
-	3296. one's-complement notation
-	3297. one-port
+		1. (OOK) See amplitude modulation
+	3296. [[one's-complement notation]]
+	3297. [[one-port]]
 	3298. one-shot multivibrator
+		1. (single-shot multivibrator) See monostable
 	3299. one-sided abrupt junction
-	3300. online
+		1. See abrupt junction
+	3300. [[online]]
 
 	3301. OOK
+		1. (on-off keying) See amplitude modulation
 	3302. op-amp
+		1. See operational amplifier
 	3303. op-code
-	3304. open-area test site
+		1. See operation code
+	3304. [[open-area test site]]
 	3305. open-circuit impedance
-	3306. open-circuit voltage
-	3307. open-ended
+		1. See network
+	3306. [[open-circuit voltage]]
+	3307. [[open-ended]]
 	3308. open-field test site
-	3309. open-loop gain
+		1. See open-area test site.
+	3309. [[open-loop gain]]
 	3310. open circuit
+		1. See circuit
 
 	3311. open systems interconnection
-	3312. operand
-	3313. operating point
-	3314. operating system
-	3315. operational amplifier
-	3316. operational range
+		1. See OSI
+	3312. [[operand]]
+	3313. [[operating point]]
+	3314. [[operating system]]
+	3315. [[operational amplifier]]
+	3316. [[operational range]]
 	3317. operational transconductance amplifier
-	3318. operation code
-	3319. optical ammeter
-	3320. optical character reader
+		1. (OTA) See dependent sources
+	3318. [[operation code]]
+	3319. [[optical ammeter]]
+	3320. [[optical character reader]]
 
-	3321. optical disk
-	3322. optical electronics
-	3323. optical fibre
+	3321. [[optical disk]]
+	3322. [[optical electronics]]
+	3323. [[optical fiber]]
 	3324. optical stepper
-	3325. optical storage
-	3326. optical switch
-	3327. optoelectronics
+		1. See PHOTOLITHOGRAPHY.
+	3325. [[optical storage]]
+	3326. [[optical switch]]
+	3327. [[optoelectronics]]
 	3328. OQPSK
+		1. (offset quadrature phase shift keying) see modulation
 	3329. OR circuit
-	3330. order((of a filter))
+		1. (gate) See logic circuit
+	3330. [[order]]
 
-	3331. organic light-emitting diode
-	3332. orthogonal
+	3331. [[organic light-emitting diode]]
+	3332. [[orthogonal]]
 	3333. orthogonal codes
-	3334. orthogonal frequency division modulation
-	3335. orthophoto
-	3336. oscillating current
-	3337. oscillation
-	3338. oscillator
+		1. See digital codes
+	3334. [[orthogonal frequency division modulation]]
+	3335. [[orthophoto]]
+	3336. [[oscillating current]]
+	3337. [[oscillation]]
+	3338. [[oscillator]]
 	3339. oscillatory circuit
-	3340. oscilloscope
+		1. See oscillation
+	3340. [[oscilloscope]]
 
-	3341. OSI
+	3341. [[open systems interconnection|OSI]]
 	3342. OTA
+		1. (operational transconductance amplifier) See dependent sources.
 	3343. OTDR
+		1. (optical time delay reflectometer) See REFLECTOMETER.
 	3344. out of phase
-	3345. output
-	3346. output gap
-	3347. output impedance
-	3348. output transformer
-	3349. overall efficiency
+		1. See phase
+	3345. [[output]]
+	3346. [[output gap]]
+	3347. [[output impedance]]
+	3348. [[output transformer]]
+	3349. [[overall efficiency]]
 	3350. overbunching
+		1. See velocity modulation
 
 	3351. overcoupling
-	3352. overcurrent release
+		1. See coupling
+	3352. [[overcurrent release]]
 	3353. overdamping
-	3354. overdriven amplifier
-	3355. overflow
-	3356. overlay network
-	3357. overload
+		1. (periodic damping) See damped
+	3354. [[overdriven amplifier]]
+	3355. [[overflow]]
+	3356. [[overlay network]]
+	3357. [[overload]]
 	3358. overload level
-	3359. overload management
+		1. See dynamic range; overload.
+	3359. [[overload management]]
 	3360. overload release
+		1. See overcurrent release.
 
 	3361. overmodulation
+		1. See scanning
 	3362. overscanning
+		1. See scanning
 	3363. overshoot
-	3364. overtone
-	3365. overvoltage
-	3366. overvoltage release
-	3367. Owen bridge
-	3368. oxidation
-	3369. oxide
-	3370. oxide masking
+		1. See pulse
+	3364. [[overtone]]
+	3365. [[overvoltage]]
+	3366. [[overvoltage release]]
+	3367. [[Owen bridge]]
+	3368. [[oxidation]]
+	3369. [[oxide]]
+	3370. [[oxide masking]]
 
-	3371. oxygen-free copper
-	3372. p-channel
+	3371. [[oxygen-free copper]]
+	3372. [[p-channel]]
 	3373. p-n-p transistor
-	3374. p-n junction
-	3375. p-type conductivity
-	3376. p-type semiconductor
+		1. (p-n-p-n device) See thyristor
+	3374. [[p-n junction]]
+	3375. [[p-type conductivity]]
+	3376. [[p-type semiconductor]]
 	3377. p.d.
+		1. See potential difference
 	3378. P/E cycle
+		1. See program-erase cycle
 	3379. PABX
-	3380. package
+		1. (private automatic branch exchange) See telephony
+	3380. [[package]]
 
-	3381. packet
-	3382. packet switching
-	3383. packing density
+	3381. [[packet]]
+	3382. [[packet switching]]
+	3383. [[packing density]]
 	3384. pad
-	3385. PAD
-	3386. pair
-	3387. paired cable
-	3388. pairing
-	3389. PAL
+		1. (1) See attenuator
+		2. (2) See bonding pad
+	3385. [[PAD]]
+	3386. [[pair]]
+	3387. [[paired cable]]
+	3388. [[pairing]]
+	3389. [[PAL]]
 	3390. PAM
+		1. (pulse-amplitude modulation) See pulse modulation
 
-	3391. panoramic display
+	3391. [[panoramic display]]
 	3392. panoramic radar indicator
-	3393. Panoramic receiver
-	3394. paper capacitor
+		1. See radar indicator
+	3393. [[Panoramic receiver]]
+	3394. [[paper capacitor]]
 	3395. PAR
-	3396. parabolic reflector
-	3397. parallel
-	3398. parallel-plate capacitor
+		1. See precision approach radar
+	3396. [[parabolic reflector]]
+	3397. [[parallel]]
+	3398. [[parallel-plate capacitor]]
 	3399. parallel-T network
-	3400. parallel circuit
+		1. (twin-T network) See two-port network
+	3400. [[parallel circuit]]
 
 	3401. parallel network
-	3402. parallel processing
+		1. (shunt network) See network
+	3402. [[parallel processing]]
 	3403. parallel resistance
+		1. See resonant frequency
 	3404. parallel resonant circuit
+		1. (rejector) See resonant circuit; resonant frequency.
 	3405. parallel supply
-	3406. parallel system
-	3407. parallel transmission
-	3408. paramagnetism
-	3409. parameter
-	3410. parametric amplifier
+		1. See series supply
+	3406. [[parallel system]]
+	3407. [[parallel transmission]]
+	3408. [[paramagnetism]]
+	3409. [[parameter]]
+	3410. [[parametric amplifier]]
 
-	3411. parametric model
-	3412. paraphase amplifier
+	3411. [[parametric model]]
+	3412. [[paraphase amplifier]]
 	3413. parasitic antenna
-	3414. parasitic capacitance
-	3415. parasitic inductance
-	3416. parasitic oscillations
+		1. (passive antenna) See directional antenna.
+	3414. [[parasitic capacitance]]
+	3415. [[parasitic inductance]]
+	3416. [[parasitic oscillations]]
 	3417. parasitic radiator
-	3418. parity
-	3419. parity check
-	3420. Parseval's theorem
+		1. (passive antenna) See directional antenna.
+	3418. [[parity]]
+	3419. [[parity check]]
+	3420. [[Parseval's theorem]]
 
-	3421. partial fractions expansion
+	3421. [[partial fractions expansion]]
 	3422. partial node
-	3423. particular integral
-	3424. partition
-	3425. partition noise
-	3426. pascal(symbol: Pa)
-	3427. Paschen's law
+		1. See node
+	3423. [[particular integral]]
+	3424. [[partition]]
+	3425. [[partition noise]]
+	3426. [[pascal]]
+	3427. [[Paschen's law]]
 	3428. pass band
-	3429. passivation
-	3430. passive
+		1. See filter
+	3429. [[passivation]]
+	3430. [[passive]]
 
 	3431. passive antenna
+		1. (secondary radiator; parasitic antenna; parasitic radiator) See DIRECTIONAL ANTENNA.
 	3432. passive filter
+		1. See filter
 	3433. passive network
-	3434. passive sensor
-	3435. passive substrate
+		1. See network
+	3434. [[passive sensor]]
+	3435. [[passive substrate]]
 	3436. passive transducer
-	3437. patch
-	3438. patchbay
+		1. See transducer
+	3437. [[patch]]
+	3438. [[patchbay]]
 	3439. path loss
-	3440. patterned media recording
+		1. See FRIIS TRANSMISSION EQUATION.
+	3440. [[patterned media recording]]
 
-	3441. Pauli exclusion principle
+	3441. [[Pauli exclusion principle]]
 	3442. Pauli paramagnetism
+		1. See PARAMAGNETISM.
 	3443. PBT
+		1. (permeable base transistor) See VERTICAL FET.
 	3444. PBX
+		1. (private branch exchange) See TELEPHONY.
 	3445. PC
-	3446. PCB
-	3447. PCI Express
+		1. (1) See personal computer
+		2. (2) See program counter
+	3446. [[printed circuit board|PCB]]
+	3447. [[PCI Express]]
 	3448. PCM
-	3449. PCMCIA
+		1. (1) (pulse code modulation) See pulse modulation
+		2. (2) (portable conformable mask) See multilevel resist
+	3449. [[personal computer memory card international association|PCMCIA]]
 	3450. PDA
+		1. (1) See personal digital assistant
+		2. (2) (pitch determination algorithm) see fundamental frequency estimation
 
 	3451. PDM
-	3452. peak-riding clipper
+		1. (pulse-duration modulation) See pulse modulation
+	3452. [[peak-riding clipper]]
 	3453. peak-to-peak amplitude
-	3454. peak factor
-	3455. peak forward voltage
-	3456. peak inverse voltage
+		1. See amplitude 
+	3454. [[peak factor]]
+	3455. [[peak forward voltage]]
+	3456. [[peak inverse voltage]]
 	3457. peak limiter
+		1. (clipper) See limiter
 	3458. peak load
-	3459. peak picker
+		1. See load
+	3459. [[peak picker]]
 	3460. peak point
+		1. See tunnel diode
 
 	3461. peak pulse amplitude
-	3462. peak value
+		1. See peak value
+	3462. [[peak value]]
 	3463. PECVD
-	3464. pedestal
+		1. (plasma-enhanced chemical vapor deposition) See CHEMICAL VAPOR DEPOSITION.
+	3464. [[pedestal]]
 	3465. Peltier effect
-	3466. pentode
+		1. See THERMOELECTRIC EFFECTS.
+	3466. [[pentode]]
 	3467. PEP
-	3468. percentage error
+		1. (peak envelope power) A measure of the power rating of single-sideband transmitters. It is calculated by multiplying the maximum (peak) envelope voltage by 0.707, squaring the result, and dividing by the load resistance.
+	3468. [[percentage error]]
 	3469. percentage modulation
+		1. See amplitude modulation
 	3470. percentile life
+		1. See mean life
 
 	3471. perfect dielectric
+		1. See dielectric
 	3472. perfect transformer
-	3473. period(symbol: T)
-	3474. periodic
+		1. (ideal transformer) see transformer
+	3473. [[period]]
+	3474. [[periodic]]
 	3475. periodic damping
+		1. (overdamping) See damped.
 	3476. periodic duty
-	3477. periodic signal
-	3478. periodic table
-	3479. periodic waveform
-	3480. peripheral devices
+		1. See duty
+	3477. [[periodic signal]]
+	3478. [[periodic table]]
+	3479. [[periodic waveform]]
+	3480. [[peripheral devices]]
 
-	3481. periphonic surround sound
-	3482. permanent magnet
-	3483. permeability(symbol: μ; unit: henry per metre)
+	3481. [[periphonic surround sound]]
+	3482. [[permanent magnet]]
+	3483. [[permeability]]
 	3484. permeability tuning
+		1. (slug tuning) See tuned circuit
 	3485. permeable base transistor
-	3486. permeameter
-	3487. permeance(symbol: Λ; unit: henry)
-	3488. permittivity(symbol: ε; unit: farad per metre)
-	3489. persistence
-	3490. persistor
+		1. (PBT) See vertical FET
+	3486. [[permeameter]]
+	3487. [[permeance]]
+	3488. [[permittivity]]
+	3489. [[persistence]]
+	3490. [[persistor]]
 
-	3491. personal area network
+	3491. [[personal area network]]
 	3492. personal communications device
-	3493. personal computer
+		1. See cellular communications
+	3493. [[personal computer]]
 	3494. Personal Computer Memory Card International Association
-	3495. personal digital assistant
-	3496. perveance
+		1. See PCMCIA
+	3495. [[personal digital assistant]]
+	3496. [[perveance]]
 	3497. PET
+		1. (positron emission tomography) See NEUROIMAGING.
 	3498. PFM
+		1. (pulse-frequency modulation) See PULSE MODULATION.
 	3499. PGA
-	3500. phase
+		1. See pin grid array
+	3500. [[phase]]
 
 	3501. phase-change coefficient
+		1. (phase constant; wavelength constant) See propagation coefficient
 	3502. phase-detect autofocus system
-	3503. phase-lock loop
+		1. See autofocus
+	3503. [[phase-lock loop]]
 	3504. phase-shift oscillator
-	3505. phase angle(symbol: ϕ)
-	3506. phase centre
+		1. See oscillator
+	3505. [[phase angle]]
+	3506. [[phase center]]
 	3507. phase constant
-	3508. phase corrector
-	3509. phase delay
-	3510. phase detector
+		1. (phase-change coefficient) See propagation coefficient
+	3508. [[phase corrector]]
+	3509. [[phase delay]]
+	3510. [[phase detector]]
 
 	3511. phase deviation
-	3512. phase difference
-	3513. phase discriminator
+		1. See phase modulation
+	3512. [[phase difference]]
+	3513. [[phase discriminator]]
 	3514. phase distortion
+		1. See distortion
 	3515. phased linear array
-	3516. phase inverter
+		1. See linear array antenna
+	3516. [[phase inverter]]
 	3517. phase lag
-	3518. phase modulation
+		1. See LAG
+	3518. [[phase modulation]]
 	3519. phase of a complex number
-	3520. phase response
+		1. See argument of a complex number
+	3520. [[phase response]]
 
-	3521. phase sequence
-	3522. phase shift
+	3521. [[phase sequence]]
+	3522. [[phase shift]]
 	3523. phase shift keying
-	3524. phase splitter
-	3525. phase velocity
-	3526. phase voltage
-	3527. phasing
-	3528. phasor
-	3529. phonon
+		1. (PSK) See phase modulation
+	3524. [[phase splitter]]
+	3525. [[phase velocity]]
+	3526. [[phase voltage]]
+	3527. [[phasing]]
+	3528. [[phasor]]
+	3529. [[phonon]]
 	3530. phosphor
+		1. A luminescent material. See luminescence.
 
-	3531. phosphor-bronze
+	3531. [[phosphor-bronze]]
 	3532. phosphorescence
+		1. See luminescence
 	3533. photocathode
 	3534. photocell
 	3535. photoconductivity

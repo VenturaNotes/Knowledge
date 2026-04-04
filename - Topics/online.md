@@ -7,7 +7,10 @@
 ## Source[^2]
 - (1) Of, relating to, or connected to the Internet. 
 - (2) Denoting computer equipment that is connected to a computer system and is usable by it. Compare offline
+## Source[^3]
+- Connected to a computer system and usable. See also INTERACTIVE; OFFLINE.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

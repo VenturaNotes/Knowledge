@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- The design and manufacture of materials and devices with dimensions measured in nanometers and usually less than 100 nanometers. One nanometre is $10^{-9}$ metre, i.e. a millionth of a millimeter. There are two approaches in nanofabrication, bottom-up nanofabrication and top-down nanofabrication. In bottom-up nanofabrication nanometer-scale devices are built up atom by atom by means of either self-assembly or atomic manipulation using scanning-probe microscopy. Top-down nanofabrication produces nanometre-scale devices from bulk materials by lithography techniques, which include photolithography, electron-beam lithography, focused ion-beam lithography, and nanoimprint lithography. The progress in nanofabrication techniques has been leading to super-high-density and super-high-speed microprocessors, memory chips, and novel nanodevices. In future quantum computers, each data bit could be stored in a single atom or a single spin. Nanofabrication also has a wide range of applications in the medical industry, clean chemistry, and the aerospace industry.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -12,6 +12,8 @@
 - The middle number or value in a series of numbers or values.
 ## Source[^5]
 - $n$. In descriptive statistics, a measure of central tendency that is the middle value of the set of scores arranged in order of magnitude, or the mean of the two middle scores if there is an even number of scores and therefore no single middle score. Compare MEAN, MODE. median adj. \[From Latin medius middle]
+## Source[^6]
+- In signal statistics, the average value computed for each signal data point by taking it and a fixed number of its immediate neighbors and determining their median value. The median is found by sorting the values and taking the one in the middle.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
@@ -19,3 +21,4 @@
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

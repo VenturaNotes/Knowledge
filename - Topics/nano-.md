@@ -11,9 +11,12 @@ aliases:
 - (1) extremely small size.
 - (2) one thousand-millionth part $\left(10^{-9}\right)$.
 ## Source[^3]
-- Symbol n. A prefix used in the metric system to denote $10^{-9}$. For example, $10^{-9}$ metre $=1$ nanometre $(\mathrm{nm})$.
+- Symbol n. A prefix used in the metric system to denote $10^{-9}$. For example, $10^{-9}$ meter $=1$ nanometre $(\mathrm{nm})$.
+## Source[^4]
+- (symbol: n) A prefix to a unit, denoting a submultiple of $10^{-9}$ of that unit: one nanometre equals $10^{-9}$ meter.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -12,9 +12,12 @@
 - $n$. (in medicine) a measurement of some factor, such as blood pressure, pulse rate, or haemoglobin level, that may have a bearing on the condition being investigated.
 ## Source[^4]
 - $n$. In statistics, a property of a population distribution, such as the population mean or population standard deviation, as distinct from a property of a sample. \[From Greek para beside or beyond + metron a measure]
+## Source[^5]
+- A quantity that is constant in a given case but has a particular value for each different case considered. Examples include the values of the resistances, capacitances, etc., that form an electrical network or the constants appearing in the equations connecting currents and voltages at the terminals of a network. See also TRANSISTOR PARAMETERS.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

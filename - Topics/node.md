@@ -24,6 +24,10 @@ aliases:
 - n. 
 - (1) Any natural anatomical swelling or bulge. 
 - (2) Any point in a network model or graph where lines or pathways intersect or branch, especially (in cognitive psychology) an element representing a concept in a semantic network of relations between nodes (relations such as $x$ is $a$ member of $y$ or $x$ is an attribute of $y$), each node being linked to certain other nodes in the network. See also ACT, CLOSED NODE, FAN EFFECT, OPEN NODE. \[From Latin nodus a knot]
+## Source[^6]
+- (1) Any point, line, or surface in a distributed field at which some specified variable of a standing wave, such as voltage or current, attains a minimum value, usually zero. A partial node has a nonzero minimum. A point at which maximum magnitude is attained is an antinode. 
+- (2) (branch point) A point within an electrical network at which three or more elements are joined. See NETWORK. 
+- (3) An interconnection point in a communications network.
 ## References
 
 [^1]: https://youtu.be/X3X5kYPgYV0?si=XvaSoTl0Uw9_bZW0
@@ -31,3 +35,4 @@ aliases:
 [^3]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^5]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

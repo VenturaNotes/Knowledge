@@ -6,8 +6,11 @@
 - Multitasking refers to a person or machine performing more than one task at once. The term multitasking originated in a computing context. Computers have evolved to be able to run multiple applications at the same time, ultimately completing more work in less time. An example of human multitasking is participating in a video conference while responding to an email. Although business professionals multitask to get more done in a shorter period of time and get ahead, in some cases, multitasking may work against them. Multitasking among humans has resulted in poor performance in school or the workplace. While multitasking, people are retaining less information since they are not giving all of their attention to just one thing.
 ## Source[^3]
 - Describing a computer system that can run more than one program at the same time.
+## Source[^4]
+- The execution of more than one program at a time on a single central processing unit (CPU). The CPU switches rapidly from one task to another, giving the appearance of executing all the tasks at the same time.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

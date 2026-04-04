@@ -10,7 +10,14 @@ aliases:
 - (3) A logical division of a hard disk. Each partition is usually treated as a different disk by the operating system. Partitioning information is held on the disk itself and remains in force until changed.
 ## Source[^2]
 - If a substance is in contact with two different phases then, in general, it will have a different affinity for each phase. Part of the substance will be absorbed or dissolved by one and part by the other, the relative amounts depending on the relative affinities. The substance is said to be partitioned between the two phases. For example, if two immiscible liquids are taken and a third compound is shaken up with them, then an equilibrium is reached in which the concentration in one solvent differs from that in the other. The ratio of the concentrations is the partition coefficient of the system. The partition law states that this ratio is a constant for given liquids.
+## Source[^3]
+- A logical distribution on a computer's hard disk drive that allows for operating system specific formatting to be applied. Partitioning may be applied to:
+	1. separate different uses, e.g. swap areas from file systems;
+	2. reduce the effects of disk corruption;
+	3. prevent overrunning files from filling up all available disk space, e.g. log files;
+	4. allow for historical file systems that have size limits smaller than the drive.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Chemistry 8th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

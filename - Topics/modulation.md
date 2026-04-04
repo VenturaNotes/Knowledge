@@ -11,7 +11,12 @@
 - The term [[shift keying]], as in frequency shift keying, denotes specialized modulation techniques in which the modulating signal is digital rather than analogue.
 ## Source[^2]
 - Modulation is a term used in electronics and telecommunications to describe the application of data to radio waves. This process happens when someone applies an input signal to a carrier wave, which changes the characteristics of that signal. These characteristics might include frequency, amplitude, or phase. Modulation can also happen by converting a digital signal into an analog format.
+## Source[^3]
+- In general, the alteration or modification of one electronic parameter, the carrier wave, by another wave or signal, the modulating wave. The resultant composite signal is the modulated wave. The reverse process is demodulation, by which an output wave is obtained having the characteristics of the original modulating wave. If the receiver uses knowledge of the carrier's phase to detect the modulating signals, the demodulation process is called coherent detection (or coherent demodulation); when the receiver does not utilize the carrier-phase information, the demodulation process is called noncoherent detection (or noncoherent demodulation).
+- The characteristics of the carrier that may be modulated are the amplitude (see AMPLITUDE MODULATION) or phase angle (angle modulation), particular forms being phase modulation and frequency modulation. Modulation by an undesired signal is cross modulation. Multiple modulation is a succession of processes of modulation in which the whole or part of the modulated wave from one process becomes the modulating wave for the next.
+- See also PULSE MODULATION; INTERMODULATION.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

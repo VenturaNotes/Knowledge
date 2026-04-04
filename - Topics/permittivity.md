@@ -1,0 +1,7 @@
+## Synthesis
+- 
+## Source [^1]
+- (symbol: $\varepsilon$; unit: farad per meter) The ratio of the electric displacement, $D$, in a dielectric medium to the applied electric field strength, $E$, i.e.$$\varepsilon = \frac {D}{E}$$The permittivity of free space is designated $\varepsilon_0$ and is termed the electric constant. It is related to the permeability of free space, $\mu_0$, by the equation$$\varepsilon_ {0} \mu_ {0} = \frac {1}{c ^ {2}}$$where $c$ is the speed of light. Thus since $\mu_0$ has the value $4\pi \times 10^{-7}$ henry per meter in the system of SI units, then$$\begin{array}{l}\varepsilon_ {0} = \left(\frac {1}{4 \pi c ^ {2}}\right) \times 1 0 ^ {7} \text{farad/meter} \\= 8. 8 5 4 1 8 7 8 1 7 \times 1 0 ^ {- 1 2} \text{farad/meter}\end{array}$$The relative permittivity, $\varepsilon_{\mathrm{r}}$, is the ratio of the electric displacement in a medium to the electric displacement in free space for the same value of applied electric field strength, i.e.$$\varepsilon_ {\mathrm {r}} = \frac {\varepsilon}{\varepsilon_ {0}}$$The dimensionless quantity $\varepsilon_{\mathrm{r}}$ is also termed the dielectric constant when it is independent of electric field strength and refers to the dielectric medium of a capacitor. It can then be defined as the ratio of the capacitance of the capacitor containing the dielectric medium to the capacitance it would have were the dielectric removed.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

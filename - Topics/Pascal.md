@@ -6,11 +6,14 @@
 - http://www.pascal-central.com/docs/iso7185.pdf (Non-functional)
 	- The Pascal standard (1990 revision)
 ## Source[^2]
-- $n$. the SI unit of pressure, equal to 1 newton per square metre. Symbol: Pa.
+- $n$. the SI unit of pressure, equal to 1 newton per square meter. Symbol: Pa.
 ## Source[^3]
-- The SI unit of pressure equal to one newton per square metre.
+- The SI unit of pressure equal to one newton per square meter.
+## Source[^4]
+- (symbol : Pa) The SI unit of pressure, defined as the pressure that results when a force of one newton acts uniformly over an area of one square meter.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

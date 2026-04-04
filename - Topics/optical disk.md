@@ -5,6 +5,9 @@
 - The first optical disk drives suitable for data storage (with a read error rate after correction better than 1 in $10^{12}$ bits) appeared on the market at the end of 1984: these all used write-once media on large-diameter disks ( 350 mm to 200 mm ). Read-only disks, particularly CD-ROM, appeared about the same time. Rewritable disks became practicable several years later because of difficulty in developing reliable media, but have now replaced write-once disks for many purposes. Optical disks are very robust, need no special environmental control, and have an almost unlimited life.
 - Optical disks have higher capacity than magnetic disks of similar cost, but their performance is lower than that of hard magnetic disks. They are therefore rarely used as the working store of a computer, but are suitable for archival storage, backup, and data distribution and exchange.
 - See also Blu-RAY, HD DVD, OPTICAL DISK LIBRARY.
+## Source[^2]
+- An optical storage device in the form of a flat disk that can be easily inserted into and removed from a computing device. The best-known optical disk formats include CDs, DVDs, and Blu-ray. Optical disks are gradually being replaced by USB flash drives.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

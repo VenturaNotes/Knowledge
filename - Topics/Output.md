@@ -14,8 +14,13 @@ print(random.randint(1,20))
 - (3) To produce a result or signal.
 ## Source[^3]
 - The result of an economic process that has used inputs to produce a product or service that is available for sale or use elsewhere. See also DEMAND-DETERMINED OUTPUT; POTENTIAL OUTPUT.
+## Source[^4]
+- (1) The power, voltage, or current delivered by any circuit, device, or apparatus. 
+- (2) The part of any circuit, device, or apparatus, usually in the form of terminals, at which the power, voltage, or current is delivered. See also INPUT/OUTPUT. 
+- (3) To deliver as an output signal.
 ## References
 
 [^1]: https://computerscienced.co.uk/site/ocr-computer-science-gcse-j277/2-2-programming-fundamentals-quizzes/2-2-programming-fundamentals-quiz-10-questions/
 [^2]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -12,6 +12,9 @@ begin
 end;
 ```
 - Nesting of blocks in block-structured languages provides an elegant, though not entirely practicable, control over the scope of identifiers, since identifiers are local to the innermost level of nesting at which they are declared.
+## Source[^2]
+- The process in which something is contained or embedded within something else of the same type. Nesting is quite common in programming; examples include ‘loops’ and ‘if’ statements.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
