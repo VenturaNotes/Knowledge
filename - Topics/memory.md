@@ -28,6 +28,12 @@ b = a^b
 a = a^b
 print(a,b)
 ```
+## Source[^6]
+- (store) Any device or physical medium associated with a computer and used to store information for subsequent retrieval. The information may, for example, be computer programs or the data on which programs operate. The information is stored in digital form as sequences of bits. The location of each item of information (usually in the form of a word or byte) can be identified by a unique address, which allows a particular item to be stored (or written) and retrieved (or read). The time taken to retrieve an item of information from memory is known as the access time. The memory capacity is the total amount of information, usually in terms of the number of bits or bytes, that can be stored in any given memory, or in a computer system as a whole.
+- A computer system contains several types of memory that differ markedly in access time and capacity, and also in the amount of information that can be read or written on a given occasion and the cost of storing a given amount of information. For efficient and economical use of computer memory, the various types are organized into a hierarchy according to performance and cost. The highest performance and in general most expensive type is at the top level of the hierarchy, and is the internal register storage under the direct control of the central processing unit (CPU) used to assist in the execution of machine instructions. The main working data and code of a running program, and intermediate or partial results too large to fit into registers are stored in RAM (random-access memory), composed of solid-state electronic circuitry with access times of tens of nanoseconds; the stored information can be readily altered. To speed up program execution, relatively small-capacity solid-state cache memory with extremely short access time is often inserted between the CPU and the main memory. In modern multicore processors there are routinely three levels of cache between the processor registers and RAM.
+- Backing store is below solid-state memory in the hierarchy. It is nonvolatile memory on which information is held for reference but not for direct execution. Permanently connected (online) backing store is usually in the form of magnetic disk memory, and the information is transferred to and from the main memory by means of a disk drive. The capacity of disk memory is very much larger than solid-state memory and it is much less expensive, but the access time is reckoned in milliseconds. Information is also held offline on, for example, floppy disks, CD-ROM, or magnetic tape, and these storage devices are at the lowest levels of the hierarchy. More recent developments have backing store implemented using solid-state flash memory configured to mimic the behavior of magnetic disk drives.
+- http://computer.howstuffworks.com/computer-memory1.htm
+	- Computer memory basics, on the `howstuffworks` website
 ## References
 
 [^1]: https://www.techtarget.com/whatis/definition/memory
@@ -35,3 +41,4 @@ print(a,b)
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
 [^5]: [[(Home Page) Python MCQ by Sanfoundry]]
+[^6]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

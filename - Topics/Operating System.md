@@ -13,7 +13,10 @@ aliases:
 ## Source[^2]
 - (1) The collection of programs that controls the basic operation of a computer. Usually purchased with the computer, it controls such tasks as start-up routines, input and output, and memory allocation. It is also responsible for loading and executing programs. In small systems, the operating system loads a program and then gives it control of the machine. In larger multitasking systems, the operating system always retains control of the machine, ensuring that the separate programs do not interfere with each other and controlling the amount of processing time each receives. 
 - (2) The configuration of the activities concerned with transforming resources within an organization. The way in which a particular organization arranges the components of its operating system will be a product of its operations strategy. While there may be areas of similarity between successful organizations, there is no single right way to set up an operating system. Each system is an attempt to achieve the optimum match between organizational capabilities and perceived environmental conditions.
+## Source[^3]
+- A set of integrated programs that help to control an entire computer system. It forms a background between the hardware and the user's (application) programs. Operating systems control peripherals, save and load programs, interface with the user, provide security features (passwords, restricted access), and generally manage the operation of the disks. Large computer systems often have specialized operating systems, which make the best of the expensive equipment provided.
 ## References
 
 [^1]: [[(Home Page) Glossary by Capterra]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

@@ -20,6 +20,9 @@ print(3 * 5) #3 and 5 are operands
 ## Source[^1]
 - (1) A quantity upon which a mathematical or logical operation is performed. 
 - (2) The parts of a machine instruction that specify the objects upon which the operation is to be performed. For instance, in the instruction$$ADD~A,B$$A and B are the operands and could be registers in the central processor, or actual values, or addresses of values, or even addresses of addresses of values.
+## Source[^2]
+- One of the inputs to a mathematical or logical function or to a computer instruction.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
+[^2]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

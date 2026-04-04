@@ -14,8 +14,11 @@
 - $n$. 
 - (1) The spherical or egg-shaped compartment in the protoplasm of a cell, enclosed in a membrane, containing the chromosomes and other important structures that determine the behavior of the cell. See also eUKaryote, proKaryote. 
 - (2) More generally, the central or core part or element of any structure, especially an anatomically or functionally distinct area of grey matter containing a collection of neuron cell bodies. See CAUDATE NUCLEUS, DENTATE NUCLEUS, INFERIOR OLIVARY NUCLEUS, LATERAL GENICULATE NUCLEUS, LENTICULAR NUCLEUS, MEDIAL GENICULATE NUCLEUS, nUCLEUS ACCUMBENS, NUCLEUS BASALIS OF MEYnERT, NUCLEUS CUNEATUS, NUCLEUS GIGANTOCELLULARIS, NUCLEUS GRACILIS, RAPHE NUCLEI, SUBTHALAMIC NUCLEUS, SUPERIOR OLIVARY NUCLEUS, SUPRACHIASMATIC NUCLEUS. nuclei pl. \[From Latin nucleus a kernel, from nux, nucis a nut]
+## Source[^4]
+- The central and most massive part of an atom. It carries a positive charge $Ze$, where $Z$ is the atomic number of the atom and $e$ the electronic charge. A nucleus consists of tightly bound protons and neutrons, the total number of which is called the mass number, $A$. The number of neutrons associated with a given number of protons can vary within limits, giving rise to various isotopes of an element.
 ## References
 
 [^1]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

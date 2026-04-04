@@ -8,9 +8,12 @@
 - The average value of a set of $n$ numbers, i.e. the sum of the numbers divided by $n$.
 ## Source[^4]
 - $n$. Short for arithmetic mean: in descriptive statistics, the average value, calculated for a finite set of scores by adding the scores together and then dividing the total by the number of scores. See also geometric mean, harmonic mean, Lake Wobegon effect, trimmed mean. Compare median, mode. M abbrev. mean adj. \[From Old French moien, from Latin medius middle]
+## Source[^5]
+- In signal statistics, the average value computed for each signal data point by taking it and a fixed number of its immediate neighbors and calculating their mean.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Economics 5th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^4]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^5]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

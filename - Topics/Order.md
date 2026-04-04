@@ -12,8 +12,11 @@
 - (1) An arrangement or sequence of objects or elements; or an established or customary social system or structure, especially a social hierarchy. 
 - (2) A command or instruction issued by a person in a position of authority over another. 
 - (3) In biology, a taxonomic group into which a class (2) is divided, containing one or more families (2). Thus the class of Mammalia (mammals) includes the orders Carnivora and Primates, each of which is divided into families. \[From Latin ordo an order]
+## Source[^4]
+- (of a filter) A means of classifying a filter. The order of a filter is an integer number, also called the number of poles; for example, a second-order filter is said to have two poles. In general, the higher the order of a filter, the more closely it approximates an ideal filter and the more complex the circuitry required to construct it.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^3]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

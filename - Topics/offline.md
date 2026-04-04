@@ -7,7 +7,10 @@
 ## Source[^2]
 - (1) Not connected to a computer or the Internet. 
 - (2) Denoting computer equipment that is not usable, either because it is not connected to a computer or because the system has been forbidden to use it. Compare ONLINE.
+## Source[^3]
+- Denoting a device, possibly an online device, that is switched off, broken, or disconnected from a computer. A device may be physically connected but offline if the computer system has been instructed not to use it. Compare ONLINE.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^3]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

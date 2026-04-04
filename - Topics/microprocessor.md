@@ -10,8 +10,11 @@
 - A microprocessor is a critical computer component. It contains various controls required to operate a computer. These include logic and arithmetic circuits. Microprocessors have been around since computers first became available commercially. They were conceived in 1938, and the first microprocessor was created in the late 1960s.
 ## Source[^3]
 - In computer technology, an integrated circuit that contains on one chip the arithmetic, logical, and control functions of the central processing unit. Microprocessors are used as control systems in many devices, including car electronics and cameras, as well as in personal computers.
+## Source[^4]
+- The physical realization of the central processing unit of a given computer system on either a single chip of semiconductor or on a small number of chips.
 ## References
 
 [^1]: [[(Home Page) A Dictionary of Computer Science 7th Edition by Oxford Reference]]
 [^2]: [[(Home Page) Glossary by Capterra]]
 [^3]: [[(Home Page) A Dictionary of Business and Management 6th Edition by Oxford Reference]]
+[^4]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]
