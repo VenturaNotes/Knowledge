@@ -453,10 +453,10 @@ Reviewed: false
 ### Review Questions 
 - “REVIEW QUESTIONS” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=65&annotation=FUSSH6R2))
 	- [Answers](https://cdnproxy.thepoint.lww.com/download/downloads/thePoint/9780781760034_Bear/Answers_to_Review_Questions/BearCh01-ACRQedt.pdf?token=method=ExpireAbsolute;source=PT;ttl=1691982602236;hash=HSxFf/XI2l9Guv2n28bSbA==)
-- #archive
+- #resource
 ### Further Reading
 - “FURTHER READING” ([pdf](zotero://open-pdf/library/items/L52NKGDQ?page=65&annotation=JBBUTD8B))
-- #archive
+- #resource
 
 ## (2) Neurons and Glia
 ### Introduction

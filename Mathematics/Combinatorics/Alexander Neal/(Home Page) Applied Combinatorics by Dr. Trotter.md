@@ -9,7 +9,7 @@ tags:
 Reviewed: false
 ---
 - Notes
-	- [Practice Problems](https://trotter.math.gatech.edu/math-3012/toppage.html) #archive
+	- [Practice Problems](https://trotter.math.gatech.edu/math-3012/toppage.html) #resource
 	- L3V6 was a duplicate
 	- 96 - 104 not in playlist
 	- Can access the slides on the website link above

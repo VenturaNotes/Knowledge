@@ -138,5 +138,5 @@
 			- Includes hint and then explanation after choosing an answer
 ## References
 
-[^1]: [How to Use Notebooklm Better than 99% of People](https://www.youtube.com/watch?v=SogSf-1p9t4) #noted
-[^2]: [Instantly Reinforce Learning: Generate Quizzes in NotebookLM](https://www.youtube.com/watch?v=F0nTWSqnVOc) #noted
+[^1]: [How to Use Notebooklm Better than 99% of People](https://www.youtube.com/watch?v=SogSf-1p9t4) #source/noted
+[^2]: [Instantly Reinforce Learning: Generate Quizzes in NotebookLM](https://www.youtube.com/watch?v=F0nTWSqnVOc) #source/noted

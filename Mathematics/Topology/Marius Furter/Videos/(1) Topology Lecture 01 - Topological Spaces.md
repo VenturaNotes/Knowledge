@@ -13,7 +13,7 @@ Reviewed: false
 			- by forming products or [[disjoint unions]]
 		- Will look at properties of [[connectedness]] and [[compactness]]
 		- Main goal of series is to build groundwork so we can later go on to [[algebraic topology]]
-	- Book: "Introduction to topological manifolds" by John Lee #archive
+	- Book: "Introduction to topological manifolds" by John Lee #resource
 		- Focuses on [[manifold theory]]
 	- Prerequisites
 		- Sets / functions

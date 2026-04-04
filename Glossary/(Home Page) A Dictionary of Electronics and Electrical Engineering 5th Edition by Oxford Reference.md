@@ -4038,65 +4038,83 @@ tags:
 		1. (Curie point) See ferromagnetism
 	2835. [[magnetic tuning]]
 	2836. [[magnetism]]
-	2837. magnetization(symbol: M; unit: ampere per meter)
+	2837. [[magnetization]]
 	2838. magnetization curve
-	2839. magnetize
+		1. See magnetic hysteresis; ferromagnetism
+	2839. [[magnetize]]
 	2840. magnetizing force
+		1. See magnetic field strength
 
-	2841. magneto
+	2841. [[magneto]]
 	2842. magneto-optical effect
-	2843. magnetoencephalography
-	2844. magnetometer
-	2845. magnetomotive force(symbol: Fm; unit: ampere; ampere-turn)
-	2846. magnetoresistance
+		1. See kerr effects
+	2843. [[magnetoencephalography]]
+	2844. [[magnetometer]]
+	2845. [[magnetomotive force]]
+	2846. [[magnetoresistance]]
 	2847. magnetoresistive random access memory
-	2848. magnetostriction
-	2849. magnetron
+		1. See MRAM
+	2848. [[magnetostriction]]
+	2849. [[magnetron]]
 	2850. magnetron effect
+		1. See thermionic valve
 
-	2851. magnitude response
+	2851. [[magnitude response]]
 	2852. MagRAM
+		1. See MRAM
 	2853. main lobe
-	2854. mains
+		1. (major lobe) See antenna pattern
+	2854. [[mains]]
 	2855. mains hum
+		1. See radio noise; noise.
 	2856. maintaining voltage
-	2857. majority carrier
+		1. See gas-discharge tube
+	2857. [[majority carrier]]
 	2858. major lobe
-	2859. make
-	2860. make-after-break
+		1. See antenna pattern
+	2859. [[make]]
+	2860. [[make-after-break]]
 
-	2861. make-and-break
-	2862. make-before-break
+	2861. [[make-and-break]]
+	2862. [[make-before-break]]
 	2863. MAN
+		1. See metropolitan area network
 	2864. man-made noise
-	2865. Manchester code
-	2866. manganese(symbol: Mn)
-	2867. manganin
+		1. See noise
+	2865. [[Manchester code]]
+	2866. [[manganese]]
+	2867. [[manganin]]
 	2868. MAR
-	2869. Marconi antenna
-	2870. marginal stability
+		1. See memory address register
+	2869. [[Marconi antenna]]
+	2870. [[marginal stability]]
 
-	2871. mark
-	2872. mark-space ratio
-	2873. maser
-	2874. mask
-	2875. masking
-	2876. mask register
-	2877. Mason's rules
+	2871. [[mark]]
+	2872. [[mark-space ratio]]
+	2873. [[maser]]
+	2874. [[mask]]
+	2875. [[masking]]
+	2876. [[mask register]]
+	2877. [[Mason's rules]]
 	2878. master
+		1. See recording of sound
 	2879. master frequency meter
-	2880. master oscillator
+		1. See integrating frequency meter
+	2880. [[master oscillator]]
 
 	2881. master trigger
-	2882. matched termination
+		1. See radar
+	2882. [[matched termination]]
 	2883. matched waveguide
+		1. See waveguide.
 	2884. matching
-	2885. Mathiessen's rule
-	2886. MATLAB
-	2887. matrix
-	2888. maximally flat
-	2889. maximum likelihood sequence estimation
-	2890. maximum power theorem
+		1. See impedance matching; load matching
+	2885. [[Mathiessen's rule]]
+	2886. [[MATLAB]]
+	2887. [[matrix]]
+	2888. [[maximally flat]]
+	2889. [[maximum likelihood sequence estimation]]
+	2890. [[maximum power theorem]]
 
 	2891. maxterm
 	2892. maxwell(symbol: Mx)

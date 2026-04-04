@@ -5,9 +5,9 @@ Reviewed: false
 ---
 - Algorithms + cheat codes
 - Instead of memorizing code, memorize the patterns
-	- Great resource for checking up to date interview questions[^1] #archive
+	- Great resource for checking up to date interview questions[^1] #resource
 - The Blind 75 questions  [^2]
-	- The Grind 75 made by same author [^3] #archive
+	- The Grind 75 made by same author [^3] #resource
 - [[Dynamic programming]] questions use a lot of the same patterns and algorithms
 
 ## Resources

@@ -1,0 +1,10 @@
+## Synthesis
+- 
+## Source [^1]
+- Mechanical deformation of a ferromagnetic material when subjected to a magnetic field. The effect arises because of internal stresses in the material due to the anisotropy energy required to magnetize it in certain directions relative to the crystal axes (see FERROMAGNETISM). Conversely, when subjected to mechanical stress a change in the magnetization of the material is observed.
+- Joule magnetostriction (or positive magnetostriction) is an increase in the length of a rod or tube of ferromagnetic material when an axial magnetic flux is applied to it. Negative magnetostriction occurs in materials, such as nickel, that suffer a decrease in length with an increase in magnetic flux density. Magnetostriction also affects deformed ferromagnetic samples. A bent bar tends to straighten under the influence of a magnetic flux applied along its length (Guillemin effect); a twisted bar also tends to straighten under similar conditions (Wiedemann effect).
+- High-frequency alternating fields set up longitudinal vibrations in the sample, which thus acts as a source of sound waves; if the frequency of these vibrations corresponds to the natural frequency of the sample large values of amplitude occur. Magnetostrictive vibrations have many applications. At ultrasonic frequencies they form a source of ultrasonic energy that can be used commercially, for example for ultrasonic cleaning or for breaking the oxide film on aluminium for soldering. Magnetostriction oscillators utilize the magnetostrictive effect of alternating currents to produce frequency-controlled oscillations at frequencies in the range 25 000 hertz downwards.
+- Magnetostriction is also used to provide the vibrating part of a loudspeaker; conversely audio vibrations applied to a magnetostrictive rod produce corresponding flux changes, as in a magnetostriction microphone.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

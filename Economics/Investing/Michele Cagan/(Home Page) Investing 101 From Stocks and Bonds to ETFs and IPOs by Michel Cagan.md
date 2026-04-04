@@ -664,7 +664,7 @@ Reviewed: false
 - [[Callable bonds]] can be redeemed by issuer earlier than maturity date (lender pays back sooner than expected)
 	- The buyer of a bond is a [[lender]]. The seller of a bond is a [[borrower]]. [^2]
 		- So it seems like the author meant to say borrower pays back instead of lender?
-			- But perhaps the issuer becomes the lender? Not sure #archive
+			- But perhaps the issuer becomes the lender? Not sure #question
 - “A $5,000 bond is worth $5,000 upon maturity (regardless of the price that bond would fetch on the open market), as long as the [[issuer]] does not default on the payment.” ([pdf](zotero://open-pdf/library/items/ATFBW7CW?page=64&annotation=R4A2PSYS))
 	- Interest on bond is your perk
 	- [[Interest]] is paid semiannually or annually and compounds at different rates

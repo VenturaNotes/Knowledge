@@ -48,7 +48,7 @@ Reviewed: false
 		- [[binary search tree]]
 			- [[balanced binary search tree]]
 				- [[AVL trees]]
-				- [[red-black trees]]
+				- [[red-black tree|red-black trees]]
 				- [[treaps]]
 				- [[skip lists]]
 				- [[splay trees]]

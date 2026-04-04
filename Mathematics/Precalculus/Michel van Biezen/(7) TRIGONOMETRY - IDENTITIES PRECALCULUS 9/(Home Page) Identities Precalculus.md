@@ -5,7 +5,6 @@ Length: 3 hours, 7 minutes, 31 seconds
 tags:
   - status/complete
   - type/playlist
-  - ongoing
 Reviewed: false
 ---
 [[(1) PreCalculus - Trigonometry - Trig Identities (1 of 57) What are the basic trig Identities]]
