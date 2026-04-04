@@ -66,7 +66,7 @@ Reviewed: false
 - “Most books on compilers are very heavy on the abstract theory of [[scanners]], [[parsers]], [[type systems]], and [[register allocation]], and rather light on how the design of a language affects the compiler and the runtime.” ([Thain, p. 3](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=17&annotation=NURH7DKM))
 - This one focuses on process of engineering a compiler, tradeoffs in language design, and considerations for [[interpretation]] and [[translation]]
 ### (1.6) What other books should I read
-- #archive 
+- #resource
 	- "Crafting a Compiler"
 	- "A Retargetable C Compiler: Design and Implementation"
 	- "Compilers: Principles, Techniques, and Tools"
@@ -161,7 +161,7 @@ Reviewed: false
 	- “Different optimization techniques can be implemented as independent modules (each reading and writing the same IR) so that they can be enabled and disabled independently.” ([Thain, p. 9](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=23&annotation=N9KJQH68))
 - “A [[retargetable compile]] contains multiple [[Code Generator|code generators]], so that the same IR can be emitted for a variety of microprocessors.” ([Thain, p. 10](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=24&annotation=CK6HPL2Z))
 ### (2.4) Exercises
-- They exist but not in book #archive
+- They exist but not in book #resource
 ## (3) Scanning
 ### (3.1) Kinds of Tokens
 - “[[Scanning]] is the process of identifying [[tokens]] from the raw text source code of a program.” ([Thain, p. 11](zotero://select/library/items/576GCKS7)) ([pdf](zotero://open-pdf/library/items/9WTIQHYF?page=25&annotation=MZ8CJJFT))
@@ -231,7 +231,7 @@ Reviewed: false
 		- (a|b|...|z)
 	- \[\^\x] indicates any character except one
 		- $\Sigma - x$
-		- #archive
+		- #question
 ### (3.4) Finite Automata
 #### (3.4.1) Deterministic Finite Automata
 #### (3.4.2) Nondeterministic Finite Automata

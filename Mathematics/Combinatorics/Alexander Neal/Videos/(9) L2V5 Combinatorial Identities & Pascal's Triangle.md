@@ -41,5 +41,5 @@ Reviewed: false
 		- Triangular array
 		- First entry 1, 8, 28, 56, 70, 
 			- $8 \choose 3$ = 56
-				- When calculating binomial coefficients, you don't need to do any division or multiplication. Addition works fine. #archive
+				- When calculating binomial coefficients, you don't need to do any division or multiplication. Addition works fine. 
 				- Computer programmers find ways to do multiplication faster than you think

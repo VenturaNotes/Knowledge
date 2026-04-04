@@ -71,7 +71,7 @@ Reviewed: false
 		- Exercise
 			- Which of the following sets is (1,3) an element of?
 				- Solution is all of them
-	- Slide 14 - Reflection #archive
+	- Slide 14 - Reflection #question
 		- Is the intersection of two intervals always an interval? What about union? (Prove it.)
 		- How can A $\backslash$ B be defined in terms of intersections, unions and complements?
 		- Is A $\cup$ B = B $\cup$ A? What logical identity/fact does this amount to?

@@ -63,7 +63,7 @@ Reviewed: false
 		- There are four rectangles with area ab each. (so 4ab total)
 		- Clearly 4ab $\le$ $(a+b)^2$ 
 	- Slide 11 - Behold! This is the proof of a famous theorem. Which one?
-		- #archive
+		- 
 	- Slide 12 - Reflection
 		- How will you remember whether it's $AM \le GM$ or $GM \le AM$?
 		- Do geometric proofs count as "real" proofs?

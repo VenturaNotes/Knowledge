@@ -44,7 +44,7 @@ Reviewed: false
 		- Lemmas
 			- Let A, B, C be sets
 		- Exercise: Prove these two statements directly (by [[definition unwinding]])
-			- #archive
+			- #question
 	- Slide 8 - Exercise
 		- Exercise
 			- How many elements does the set B = {0, 1, A} have?

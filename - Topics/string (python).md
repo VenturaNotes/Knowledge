@@ -161,4 +161,4 @@ print(x)
 [^2]: https://stackoverflow.com/questions/8270092/remove-all-whitespace-in-a-string
 [^3]: https://www.geeksforgeeks.org/quizzes/functions-python-gq/
 [^4]: [[(Home Page) 500+ Python Interview Questions and Answers by applyre]]
-[^5]: https://www.w3schools.com/python/ref_string_isalnum.asp #synthesized
+[^5]: https://www.w3schools.com/python/ref_string_isalnum.asp #source/synthesized

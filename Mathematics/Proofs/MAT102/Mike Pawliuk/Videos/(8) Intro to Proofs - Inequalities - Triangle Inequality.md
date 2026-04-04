@@ -62,5 +62,5 @@ Reviewed: false
 		- How come Desmos tells us that $|x^5 - 2x - 5| \le 33$ on the interval $-2 \le x \le 2$, but we got an answer of 41?
 			- ![[Screenshot 2023-07-28 at 10.57.49 PM.png]]
 				- It appears that 33 is the highest point that we can get on the interval between $-2 \le x \le 2$
-				- Not really sure how to get the answer of 41 #archive
+				- Not really sure how to get the answer of 41 #question
 

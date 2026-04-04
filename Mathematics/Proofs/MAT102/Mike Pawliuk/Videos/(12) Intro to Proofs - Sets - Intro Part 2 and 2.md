@@ -36,7 +36,7 @@ Reviewed: false
 			- To show A = B (where A, B are sets), you can show
 				- $x \in A \iff x \in B$ 
 		- Warning: Avoid using the alternate technique if you are lazy, since you need to check that every $\iff$ is not just a $\implies$ 
-	- Slide 12 - Exercises #archive
+	- Slide 12 - Exercises #question
 		- (1) Write out all elements of {x $\in$ $\mathbb{Z}$: $x^2 - 1 < 3$}
 		- (2) Use the definition of subset to prove that {1, 2} $\subseteq$ {0, 1, 2, 3}
 		- (3) Express the even integers using set-builder notation

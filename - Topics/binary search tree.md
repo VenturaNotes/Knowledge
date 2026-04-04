@@ -1,3 +1,7 @@
+---
+aliases:
+  - BST
+---
 ## Synthesis
 - 
 ## Source [^1]

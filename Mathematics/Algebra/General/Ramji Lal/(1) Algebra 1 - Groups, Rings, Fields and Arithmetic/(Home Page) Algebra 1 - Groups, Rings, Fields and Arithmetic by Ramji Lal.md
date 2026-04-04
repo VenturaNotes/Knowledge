@@ -107,7 +107,7 @@ Reviewed: false
 - Practice
 	- ![[Screenshot 2023-05-07 at 2.59.16 AM.png]]
 - “Exercises” ([Lal, 2017, p. 6](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=21&annotation=3N39Z3B3))
-	- #archive
+	- #resource
 
 
 ### (1.3) Quantifiers
@@ -157,7 +157,7 @@ Reviewed: false
 				- There will never be an instance where the antecedent is true and the consequent is false
 - If $A \implies B$ and $B \implies C$ are tautologies, then $A \implies C$ is also a tautology
 #### Exercises
-- “Exercises” ([Lal, 2017, p. 9](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=24&annotation=B3SFU3MU)) #archive
+- “Exercises” ([Lal, 2017, p. 9](zotero://select/library/items/D5DDVLY8)) ([pdf](zotero://open-pdf/library/items/ED4BVI3C?page=24&annotation=B3SFU3MU)) #resource
 	- Solutions not in textbook?
 ### (1.5) Theory of Logical Inference
 ## (2) Language of Mathematics 2 (Set Theory)

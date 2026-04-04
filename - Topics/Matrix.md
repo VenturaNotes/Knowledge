@@ -69,6 +69,22 @@ $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{bmatrix} a & b \\ c & d 
 - (pl. matrices or matrixes) (in histology) The component of tissues (e.g. bone and cartilage) in which the cells of the tissue are embedded. See also extracELLULAR MATRIX.
 ## Source[^8]
 - $n$. In mathematics, any rectangular array or elements, usually numbers. \[From Latin matrix womb or female animal used for breeding, from mater mother]
+## Source[^9]
+- A rectangular table of numbers, with rows and columns. A matrix $M$ with $r$ rows and $c$ columns is described as being an $r \times c$ matrix and would appear as:$$
+
+M = \begin{bmatrix}
+
+m_{11}  \cdots m_{1c} \\
+
+\vdots ~~~\ddots~~~ \vdots \\
+
+m_{r1}  \cdots m_{rc}
+
+\end{bmatrix}
+
+$$where $m_{ij}$ denotes the number in the $i$th row at the $j$th column position, for $i$ in the range $1..r$ and $j$ in the range $1..c$. A vector is a matrix in which either $r$ or $c$ is equal to 1.
+- Some arithmetic operators can be extended to work on matrices. Two matrices with the same number of rows and columns can be added by simply adding the numbers in the same row and column positions. Two matrices $A$ and $B$ can be multiplied if the number of columns in $A$ is equal to the number of rows in $B$. The resulting matrix has the same number of rows as $A$ and the same number of columns as $B$, with each entry obtained by doing a vector product of rows from $A$ by columns from $B$.
+- Matrices can be used to represent transformations within and between coordinate systems, for modelling linear systems, and in finite element methods.
 ## References
 
 [^1]: https://stattrek.com/matrix-algebra/echelon-form
@@ -79,3 +95,4 @@ $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{bmatrix} a & b \\ c & d 
 [^6]: [[(Home Page) Concise Medical Dictionary 10th Edition by Oxford Reference]]
 [^7]: [[(Home Page) A Dictionary of Biology 8th Edition by Oxford Reference]]
 [^8]: [[(Home Page) A Dictionary of Psychology 4th Edition by Oxford Reference]]
+[^9]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

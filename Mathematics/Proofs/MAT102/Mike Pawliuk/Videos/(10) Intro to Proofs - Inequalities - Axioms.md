@@ -36,13 +36,12 @@ Reviewed: false
 				- (7) If a < b and b < c, then a < c
 					- This is called being transitive
 		- Exercise: Show that Axioms 4 is stronger than Axiom 2 (and so we only need to include Axiom 4 on this list). That is, show that you can deduce Axiom 4 from Axiom 2
-			- #archive
 	- Slide 6 - Consequences
 - ![[Screenshot 2023-11-13 at 4.53.17 PM.png]]
 	- Slide 7 - Consequences
 		- [[Difference of squares]]
-		- Exercise. Use the axioms to justify the "note" we made without proof #archive
-	- Slide 8 - Exercise #archive (one of these things is impossible )
+		- Exercise. Use the axioms to justify the "note" we made without proof #question
+	- Slide 8 - Exercise #question (one of these things is impossible )
 		- (1) If possible, use the main idea from the proof of fact 1 to prove fact 2
 		- (2) If possible, use the main idea from the proof of fact 2 to prove fact 1
 	- Slide 9 - Common Mistakes

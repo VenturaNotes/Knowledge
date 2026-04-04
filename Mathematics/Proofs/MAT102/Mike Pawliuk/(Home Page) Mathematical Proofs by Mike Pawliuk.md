@@ -11,7 +11,7 @@ tags:
 Reviewed: false
 ---
 - Notes
-	- https://www.eecs70.org/ + practice problems #archive
+	- https://www.eecs70.org/ + practice problems #resource
 	- https://www.sp22.eecs70.org/ (solutions to homework not shown)
 - Complete
 	- [[(1) Intro to Proofs - Introduction - part 1 and 3]]

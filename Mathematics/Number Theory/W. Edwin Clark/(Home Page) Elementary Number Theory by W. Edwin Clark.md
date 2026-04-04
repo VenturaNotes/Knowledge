@@ -59,7 +59,7 @@ Reviewed: false
 		- (b) $(ab)^n = a^nb^n$
 		- (c) $a^na^m = a^{n + m}$
 		- These rules hold for all $n, m \in \mathbb{Z}$ if a and b are not 0
-			- Why is it the case that a and b are not 0? #archive
+			- Why is it the case that a and b are not 0? #question
 	- (5) [[Properties of Inequalities]]: For a, b, c in $\mathbb{R}$ the following hold:
 		- (a) ([[Transitivity]]) If a < b and b < c, then a < c
 		- (b) If a < b then a + c < b + c
@@ -127,7 +127,7 @@ Reviewed: false
 - (7) “Conclude that since the conditions of the PMI have been met then P (n)holds for $n ≥ n_0$” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=14&annotation=2ICDLJ42))
 - “Write QED or $\blacksquare$ or // or something to indicate that you have completed your proof.” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=14&annotation=GAJY8MMU))
 ### Exercises
-- Answers to exercises not found #archive
+- Answers to exercises not found #question
 	- “Exercise 2.1.” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=14&annotation=T6AFDHP2))
 ## (3) Elementary Divisibility Properties
 ### Definition 3.1
@@ -179,7 +179,7 @@ Alternative definitions
 	- Thus, statement 3 in Theorem 3.1 says that if d divides a and b, then d divides all linear combinations of a and b. In particular, d divides a + b and a- b. This will turn out to be a useful fact 
 
 ### Exercises
-#archive
+#resource
 ## (4) The Floor and Ceiling of a Real Number
 - Functions
 	- [[Floor]] is the greatest integer
@@ -195,7 +195,7 @@ Alternative definitions
 
 #### Examples
 - ![[Screenshot 2023-08-17 at 11.09.44 PM.png]]
-- “For a more detailed treatment of both the floor and ceiling see the book <mark style="background: #FFF3A3A6;">Concrete Mathematics</mark> [5].” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=21&annotation=JUQV9WV9)) #archive 
+- “For a more detailed treatment of both the floor and ceiling see the book <mark style="background: #FFF3A3A6;">Concrete Mathematics</mark> [5].” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=21&annotation=JUQV9WV9)) #resource
 
 ### (4.1)
 - By definition of $\lfloor x \rfloor$
@@ -229,7 +229,7 @@ Alternative definitions
 	- and the digits $a = a_{n-1}a_{n-2}...a_1a_0$ are in the set {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} with $a_{n-1} \ne 0$. In this case, we say that the integer a is an n digit number or that a is n digits long
 
 ### Exercises
-“Exercise 4.1” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=22&annotation=C3PJUTD5)) #archive
+“Exercise 4.1” ([pdf](zotero://open-pdf/library/items/2QETGPJD?page=22&annotation=C3PJUTD5)) #resource
 ## (5) The Division Algorithm
 ### Theorem 5.1 (The Division Algorithm)
 - [[Division Algorithm]]
