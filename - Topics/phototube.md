@@ -1,0 +1,8 @@
+## Synthesis
+- 
+## Source [^1]
+- An electron tube that contains a photosensitive electrode, usually the cathode. A vacuum phototube is evacuated to a sufficiently low pressure that ionization of the residual gas in the tube does not affect the characteristics. A gas phototube is one that contains a gas, such as argon, at very low pressure in order to minimize the space charge effect of the photoelectrons in the tube. If the gas pressure is such that a glow discharge (see GAS-DISCHARGE TUBE) occurs across the tube, then the tube is termed a photoglow tube. The sensitivity of such a tube is increased by the presence of the glow discharge.
+- The dynamic sensitivity of a phototube used as a photodetector is defined as the ratio of the alternating component of the anode current to the alternating component of the incident radiant flux. Such tubes respond only to the proportion of the incident radiant flux falling on the photocathode; the acceptance angle is the solid angle at the photocathode within which all the exciting flux reaches the cathode. This is determined by the geometry of the tube. Like other types of photodetector, phototubes exhibit a definite dark current on which the photocurrent is superimposed and which contributes to the total current flowing through the device. See also PHOTOCELL; PHOTOMULTIPLIER.
+## References
+
+[^1]: [[(Home Page) A Dictionary of Electronics and Electrical Engineering 5th Edition by Oxford Reference]]

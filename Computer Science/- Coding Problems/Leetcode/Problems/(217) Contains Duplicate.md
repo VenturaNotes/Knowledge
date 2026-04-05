@@ -205,7 +205,6 @@ class Solution:
 	- The set data structure is implemented as a hash table
 		- Checking membership in a [[set]] is considered O(1) on average
 		- If there are many [[hash collisions]], lookup time can degrade to O(n) but Python has mechanisms such as [[chaining]] or [[open addressing]] 
-
 ### (4) Hash Set Length
 ```python
 class Solution:
