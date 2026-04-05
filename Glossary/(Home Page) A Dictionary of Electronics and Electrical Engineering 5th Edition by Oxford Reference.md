@@ -5066,56 +5066,64 @@ tags:
 	3531. [[phosphor-bronze]]
 	3532. phosphorescence
 		1. See luminescence
-	3533. photocathode
-	3534. photocell
-	3535. photoconductivity
-	3536. photoconverter
-	3537. photocurrent
-	3538. photodetachment
-	3539. photodetector
-	3540. photodiode
+	3533. [[photocathode]]
+	3534. [[photocell]]
+	3535. [[photoconductivity]]
+	3536. [[photoconverter]]
+	3537. [[photocurrent]]
+	3538. [[photodetachment]]
+	3539. [[photodetector]]
+	3540. [[photodiode]]
 
 	3541. photoelectric cell
-	3542. photoelectric constant
-	3543. photoelectric effect
+		1. See photocell
+	3542. [[photoelectric constant]]
+	3543. [[photoelectric effect]]
 	3544. photoelectric galvanometer
-	3545. photoelectric sensor
-	3546. photoelectron spectroscopy
-	3547. photoemission
-	3548. photogeneration
+		1. See galvanometer
+	3545. [[photoelectric sensor]]
+	3546. [[photoelectron spectroscopy]]
+	3547. [[photoemission]]
+	3548. [[photogeneration]]
 	3549. photoglow tube
-	3550. photoionization
+		1. See phototube
+	3550. [[photoionization]]
 
-	3551. photolithography
-	3552. photometer
-	3553. photomultiplier
-	3554. photon
-	3555. photoresist
+	3551. [[photolithography]]
+	3552. [[photometer]]
+	3553. [[photomultiplier]]
+	3554. [[photon]]
+	3555. [[photoresist]]
 	3556. photosensitive recording
-	3557. photosensitivity
-	3558. phototransistor
-	3559. phototube
-	3560. photovoltaic cell
+		1. See recording of sound
+	3557. [[photosensitivity]]
+	3558. [[phototransistor]]
+	3559. [[phototube]]
+	3560. [[photovoltaic cell]]
 
-	3561. photovoltaic effect
-	3562. photovoltaic system
+	3561. [[photovoltaic effect]]
+	3562. [[photovoltaic system]]
 	3563. pi circuit
-	3564. pick-up
+		1. ($\pi$ circuit) See delta circuit
+	3564. [[pick-up]]
 	3565. picket-fence effect
-	3566. PIC microcontroller
-	3567. pico-(symbol: p)
-	3568. picocell
+		1. See discrete fourier transform
+	3566. [[PIC microcontroller]]
+	3567. [[pico-]]
+	3568. [[picocell]]
 	3569. picture carrier
-	3570. picture element
+		1. See television
+	3570. [[picture element]]
 
-	3571. PID control
-	3572. piece-wise linear function
+	3571. [[PID control]]
+	3572. [[piece-wise linear function]]
 	3573. Pierce crystal oscillator
-	3574. piezoelectric crystal
-	3575. piezoelectric effect
-	3576. piezoelectric hysteresis
-	3577. piezoelectricity
-	3578. piezoelectric oscillator
+		1. See PIEZOELECTRIC OSCILLATOR (Figs. $b, c$ ).
+	3574. [[piezoelectric crystal]]
+	3575. [[piezoelectric effect]]
+	3576. [[piezoelectric hysteresis]]
+	3577. [[piezoelectricity]]
+	3578. [[piezoelectric oscillator]]
 	3579. piezoelectric sensor
 	3580. piezoelectric strain constant
 

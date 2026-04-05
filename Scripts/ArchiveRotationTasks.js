@@ -60,8 +60,11 @@ module.exports = async (params) => {
             }
 
             const allItemsFinished = taskTree.every(taskLine => {
-                const checkboxMatch = taskLine.match(/\[(.)\]/);
-                if (checkboxMatch) return checkboxMatch[1] === 'x';
+                // BUGFIX: Matches checkboxes only at the start of a list item (ignoring inline markdown links)
+                const checkboxMatch = taskLine.match(/^\s*(?:-|\*|\+)\s+\[(.)\]/);
+                if (checkboxMatch) {
+                    return checkboxMatch[1].toLowerCase() === 'x';
+                }
                 return true; 
             });
 
